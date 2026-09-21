@@ -27,7 +27,7 @@ unlisted: true
 
 [[Harj]] · [[Justin Johnson]] · [[Patrick Collison]] · [[Martin Casado]] · [[Stripe]] · [[World Labs]] · [[精益创业]] · [[空间智能]] · [[智能体]] · [[新视角预测]]
 
-<script type="application/json" class="pd-epn">{"Harj":1,"Justin Johnson":2,"Patrick Collison":3,"Martin Casado":4,"Stripe":33,"World Labs":4,"精益创业":2,"空间智能":3,"智能体":282,"新视角预测":1}</script>
+<script type="application/json" class="pd-epn">{"Harj":1,"Justin Johnson":2,"Patrick Collison":3,"Martin Casado":4,"Stripe":33,"World Labs":4,"精益创业":2,"空间智能":3,"智能体":283,"新视角预测":1}</script>
 
 <script>
 (function(){

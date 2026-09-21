@@ -31,7 +31,7 @@ unlisted: true
 
 [[Satya Nadella]] · [[Kwindla Kramer]] · [[Pipecat]] · [[Daily]] · [[智能体]] · [[推理]] · [[多模态]] · [[云计算]] · [[上下文]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":282,"推理":51,"多模态":5,"云计算":4,"上下文":18,"AWS":13}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":283,"推理":51,"多模态":5,"云计算":4,"上下文":18,"AWS":13}</script>
 
 <script>
 (function(){

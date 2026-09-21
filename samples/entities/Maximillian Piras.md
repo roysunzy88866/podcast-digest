@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Utori":1,"智能体":282,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":22,"ROI":1,"代码审查":10,"验证":6,"熵":3}</script>
+<script type="application/json" class="pd-epn">{"Utori":1,"智能体":283,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":22,"ROI":1,"代码审查":11,"验证":6,"熵":3}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":52,"OpenAI":124,"ChatGPT":74,"ChatGPT work":1,"harness":40,"智能体":282,"Rust":4,"开源":24,"沙箱":53,"代码审查":10}</script>
+<script type="application/json" class="pd-epn">{"Codex":53,"OpenAI":124,"ChatGPT":74,"ChatGPT work":1,"harness":40,"智能体":283,"Rust":4,"开源":24,"沙箱":53,"代码审查":11}</script>
 
 <script>
 (function(){

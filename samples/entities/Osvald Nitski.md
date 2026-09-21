@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Mercor":2,"智能体":282,"开源":24,"RL 环境":6,"编码智能体":14,"评估":2,"机器人":7,"合成数据":7}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Mercor":2,"智能体":283,"开源":24,"RL 环境":6,"编码智能体":15,"评估":2,"机器人":7,"合成数据":7}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":282,"工作流":8,"开源":24,"fair-code":1,"LLM":38,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":283,"工作流":8,"开源":24,"fair-code":1,"LLM":38,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
 
 <script>
 (function(){

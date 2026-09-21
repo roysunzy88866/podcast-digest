@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(58:44起):本集顺带提到 Figma 曾是科技界的宠儿，但 AI 确实伤害了它，很多人开始 vibe coding 内部设计工具。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(03:17起):本集说以前日程牌都在 Figma 上手动做，现在 Figma 与 Devin、Slack 连成工作流，还配合一个免费的规格表插件把间距、字号、颜色标注成规格文档交给 AI。
 - **[[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|《GrokBot 设计团队演示:让 AI 替你离开电脑》]]**(00:13起):本集里 Figma 是设计师的日常工作载体:John 通过 MCP 让机器人直接读写 Figma 文件,替他完成图标摆放、营销素材批量应用样式等生产设计活。
+- **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(32:14起):本集说 Zach 用不明白 Figma，改用 Figma MCP 加编码智能体口述改幻灯片
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司(提及)
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司(提及)
@@ -61,14 +62,15 @@ unlisted: true
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为被讨论公司
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]] — 作为被讨论公司(提及)
 - [[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|《GrokBot 设计团队演示:让 AI 替你离开电脑》]] — 作为被讨论公司
+- [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[设计系统]] · [[MCP]] · [[Notion]] · [[ChatGPT]] · [[Cursor]] · [[Lenny]] · [[提示词]] · [[LLM]] · [[Anthropic]]
+[[智能体]] · [[MCP]] · [[设计系统]] · [[Notion]] · [[ChatGPT]] · [[Claude Code]] · [[GitHub]] · [[Cursor]] · [[Lenny]] · [[提示词]]
 
-<script type="application/json" class="pd-epn">{"智能体":282,"设计系统":7,"MCP":48,"Notion":13,"ChatGPT":74,"Cursor":63,"Lenny":67,"提示词":14,"LLM":38,"Anthropic":131}</script>
+<script type="application/json" class="pd-epn">{"智能体":283,"MCP":49,"设计系统":7,"Notion":13,"ChatGPT":74,"Claude Code":66,"GitHub":23,"Cursor":63,"Lenny":67,"提示词":14}</script>
 
 <script>
 (function(){

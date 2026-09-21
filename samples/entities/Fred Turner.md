@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":131,"Salesforce":24,"YC":15,"智能体":282,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":131,"Salesforce":24,"YC":15,"智能体":283,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

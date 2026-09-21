@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Emil Lassen]] · [[the artificial intelligence underwriting company]] · [[AI UC one]] · [[智能体]] · [[红队测试]] · [[幻觉]] · [[越狱]] · [[提示词注入]] · [[标准—审计—保险飞轮]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Emil Lassen":1,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":282,"红队测试":4,"幻觉":9,"越狱":2,"提示词注入":13,"标准—审计—保险飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Emil Lassen":1,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":283,"红队测试":4,"幻觉":9,"越狱":2,"提示词注入":13,"标准—审计—保险飞轮":1}</script>
 
 <script>
 (function(){

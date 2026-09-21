@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":282,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":283,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1394 @@
+{
+  "episode_id": "2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai",
+  "podcast": "How I AI",
+  "date": "2026-09-21",
+  "tags": [
+    "软件工厂",
+    "AI 编程",
+    "智能体",
+    "工程管理",
+    "成本优化"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "zach-lloyd",
+      "type": "person",
+      "role": "host",
+      "name": "Zach Lloyd",
+      "file": "Zach Lloyd",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            84.965,
+            92.33
+          ],
+          "quote": "Today, I have Zach Lloyd, CEO of Warp, and he's going to show us exactly what he means by the software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2755.723,
+            2759.146
+          ],
+          "quote": "I have Zach Lloyd Tweets is my Twitter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            79.481,
+            84.624
+          ],
+          "quote": "I'm Claire Vo, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "warp",
+      "type": "company",
+      "role": "company",
+      "name": "Warp",
+      "file": "Warp",
+      "primary": true,
+      "how_described": "本集主角公司，CEO Zach Lloyd 介绍其智能体终端产品，以及内部名为 Wilson 的软件工厂实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            84.965,
+            92.33
+          ],
+          "quote": "Today, I have Zach Lloyd, CEO of Warp, and he's going to show us exactly what he means by the software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            181.007,
+            192.264
+          ],
+          "quote": "So I'm excited for you to show us as CEO, as engineer, as builder, what to you is the factory and how it looks inside Warp.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            272.174,
+            274.836
+          ],
+          "quote": "I'll show you basically how we do this in Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            774.985,
+            782.589
+          ],
+          "quote": "What companies want and we're, you know, we're trying to build for companies that warp largely is like, how do you automate more?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1459.222,
+            1475.214
+          ],
+          "quote": "The value of doing it that way with like in Warp Factories is that you get the ability to actually you can like test different configurations and know like you're basically freezing the state of the factory at a given point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1985.171,
+            1988.133
+          ],
+          "quote": "I'm going to do this in Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1988.213,
+            1990.074
+          ],
+          "quote": "I use Warp as a coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2182.477,
+            2183.958
+          ],
+          "quote": "Warp Software Factories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2264.759,
+            2279.326
+          ],
+          "quote": "Emails and calendar events I've had in the past six months with potential enterprise leads who might be useful for another outreach for Warp Factories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2279.806,
+            2286.069
+          ],
+          "quote": "You can learn about Warp Factories at warp.dev slash factories and make me a",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2759.286,
+            2764.89
+          ],
+          "quote": "You should obviously come check out warp at warp.dev if you want to build software factories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集核心概念：由一堆仓库、MCP 服务器、配置和智能体组成、全部用代码定义的端到端软件生产系统，在公开的 Slack 里启动、云端集中执行，覆盖 issue、实现、PR、QA 全生命周期",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            20.192,
+            21.493
+          ],
+          "quote": "What is a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            84.965,
+            92.33
+          ],
+          "quote": "Today, I have Zach Lloyd, CEO of Warp, and he's going to show us exactly what he means by the software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1423.413,
+            1431.978
+          ],
+          "quote": "And so, you know, what I mean by that is like, if you were to look at this sort of definition, you would say, okay, the factory, what is a software factory?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成可被组织化驾驭来构建软件的力量：从工厂智能体、代码审查智能体到观察者智能体，人类引导它的次数成为吞吐量瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            34.341,
+            40.364
+          ],
+          "quote": "So like a code review agent design, different agents, different automations, and it's all defined in code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            44.787,
+            56.431
+          ],
+          "quote": "It's a popular thing on Twitter right now called self-improvement where you have like an observer agent and it can then create updates to your factory that will try to prevent the particular failure mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            282.16,
+            294.331
+          ],
+          "quote": "And from that persona, it doesn't look, at least the way that we have it set up, it doesn't look that different from how one of these engineers or designers or product people on our team might build with a local coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            430.81,
+            442.219
+          ],
+          "quote": "Like if you were doing this with like the coding agent in like the pre-factory world, what you would typically do is like pull up your local coding agent, do the change there, test it locally, and then like push it up to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            485.188,
+            491.233
+          ],
+          "quote": "And, you know, I think what I'm reflecting for folks who are maybe still trying to grapple with, okay, like, what's a coding agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            530.988,
+            549.457
+          ],
+          "quote": "And so to you and the way you're describing it, where it goes beyond a coding agent or a co-pilot is that it is actually designed to take the very specific end-to-end product steps, not just the engineering kind of like input-output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            629.832,
+            645.056
+          ],
+          "quote": "It's not so much how the individual builders work, because it's not all that different from individual builders who might be going into the terminal, for instance, and using a coding agent to do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            787.992,
+            801.839
+          ],
+          "quote": "And so, you know, the general instinct is like, the more times you have to prompt, the more times you have to steer or like, like cajole your agent, that's like, that's going to be a limiter on throughput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            945.485,
+            952.028
+          ],
+          "quote": "Like the workflow used to be like person A on our team would build something with an agent and person B would review the agent's code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            954.169,
+            958.37
+          ],
+          "quote": "Like the person who prompts the agent can also review its code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            980.128,
+            983.632
+          ],
+          "quote": "I built an Eve agent called Merge Mommy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1154.57,
+            1165.657
+          ],
+          "quote": "Scoring basically gives you a view across all your agent runs of like how they're doing on different dimensions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1165.697,
+            1176.463
+          ],
+          "quote": "And so we basically, because the factory is like a closed, kind of like closed loop system, like every time an agent does a task in the factory, that task gets recorded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1245.268,
+            1253.252
+          ],
+          "quote": "Like a scorer that uses LLM as a judge to be like, okay, I want to go and look at, you know, all of the agent runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1253.312,
+            1259.955
+          ],
+          "quote": "And I want to see how often we're, you know, an agent thinks, a different agent than the one that did the task thinks that there's redundant tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1285.655,
+            1294.381
+          ],
+          "quote": "Over time, a set of runs where you can see that like sometimes this agent thinks that there were some like surplus tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1344.536,
+            1363.584
+          ],
+          "quote": "Popular thing on Twitter right now called self-improvement where you take an agent and you basically say, okay, for all of the failed runs and you need like a real sample, like maybe 20, 25 failed runs, you need some significant sample size, otherwise it starts to overcorrect based on single things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1365.085,
+            1377.619
+          ],
+          "quote": "You have it look, you have like an observer agent look, and it can then create updates to your factory that will try to prevent the particular failure mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1449.886,
+            1454.028
+          ],
+          "quote": "So like a code review agent design, like different agents, different automations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1483.917,
+            1493.28
+          ],
+          "quote": "It also makes it so that like an agent can actually, because these are all, it's all code, like coding agents can actually update the factory to make it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1963.034,
+            1967.758
+          ],
+          "quote": "If I need to change the slide deck, I do it through the Figma MCP and the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1988.213,
+            1990.074
+          ],
+          "quote": "I use Warp as a coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集将其与工厂对比：本地编码智能体只做「想法到代码到推送」，工厂则覆盖完整软件开发生命周期且在公开云端进行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            282.16,
+            294.331
+          ],
+          "quote": "And from that persona, it doesn't look, at least the way that we have it set up, it doesn't look that different from how one of these engineers or designers or product people on our team might build with a local coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            430.81,
+            442.219
+          ],
+          "quote": "Like if you were doing this with like the coding agent in like the pre-factory world, what you would typically do is like pull up your local coding agent, do the change there, test it locally, and then like push it up to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            485.188,
+            491.233
+          ],
+          "quote": "And, you know, I think what I'm reflecting for folks who are maybe still trying to grapple with, okay, like, what's a coding agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            530.988,
+            549.457
+          ],
+          "quote": "And so to you and the way you're describing it, where it goes beyond a coding agent or a co-pilot is that it is actually designed to take the very specific end-to-end product steps, not just the engineering kind of like input-output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            629.832,
+            645.056
+          ],
+          "quote": "It's not so much how the individual builders work, because it's not all that different from individual builders who might be going into the terminal, for instance, and using a coding agent to do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1963.034,
+            1967.758
+          ],
+          "quote": "If I need to change the slide deck, I do it through the Figma MCP and the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1988.213,
+            1990.074
+          ],
+          "quote": "I use Warp as a coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说人工代码审查是产线最大瓶颈（PR 到首次审查 3.5 小时），并预言代码审查正在变成一种风险管理练习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            34.341,
+            40.364
+          ],
+          "quote": "So like a code review agent design, different agents, different automations, and it's all defined in code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            122.114,
+            128.8
+          ],
+          "quote": "As teams generate code faster, new friction in code review and validation is offsetting those early velocity gains.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            400.719,
+            410.962
+          ],
+          "quote": "If you want to not spend all your time doing code review, one of the things that's most helpful is you could have these factory agents do computer use verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            442.699,
+            450.645
+          ],
+          "quote": "But you get the whole thing of like the ticket, the code review, PR, the video, all,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            862.453,
+            871.721
+          ],
+          "quote": "Integrated into all of your knowledge work tools, it includes all of those things, like how many re-prompts in Slack, how many comments on linear, how many times did you have to correct the thing in code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            921.122,
+            926.007
+          ],
+          "quote": "I mean, we're still doing human code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            926.548,
+            928.69
+          ],
+          "quote": "Do all your PRs get human code review?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            930.002,
+            932.285
+          ],
+          "quote": "Currently, all of our PRs get human code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1024.766,
+            1027.287
+          ],
+          "quote": "I think code review becomes an exercise in risk management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1449.886,
+            1454.028
+          ],
+          "quote": "So like a code review agent design, like different agents, different automations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用验证 (computer use)",
+      "file": "计算机使用验证",
+      "primary": true,
+      "how_described": "本集说工厂智能体用它直接操作电脑界面，给完成的功能录视频展示按键操作，作为 QA 验证手段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            56.712,
+            62.454
+          ],
+          "quote": "One of the things that's most helpful is like you can have these factory agents do computer use verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            359.755,
+            361.095
+          ],
+          "quote": "He says use computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            400.719,
+            410.962
+          ],
+          "quote": "If you want to not spend all your time doing code review, one of the things that's most helpful is you could have these factory agents do computer use verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1664.955,
+            1685.351
+          ],
+          "quote": "But I do believe that if you do not have session, tool call, MCP call, test failure, computer use level observability into every single coding session, you're missing a lot of opportunity to optimize efficiency, cost, model, just like how your team uses the tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 作为裁判 (LLM as a judge)",
+      "file": "LLM 作为裁判",
+      "primary": true,
+      "how_described": "本集说他们用中等智能水平、不太贵的模型做裁判，按采样率检查所有运行记录（如冗余测试问题），打分太贵会烧掉省下的钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1245.268,
+            1253.252
+          ],
+          "quote": "Like a scorer that uses LLM as a judge to be like, okay, I want to go and look at, you know, all of the agent runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1883.716,
+            1893.302
+          ],
+          "quote": "So it's primarily LLM as a judge, but you can also, it's like you could do this with human judges, you could do it algorithmically, but the thing that we have built is LLM as a judge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我改进 (self-improvement)",
+      "file": "自我改进",
+      "primary": true,
+      "how_described": "本集说让观察者智能体分析约 20-25 个失败案例后直接给出工厂定义的修改建议，强调要有真实样本量否则会过度纠正",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            44.787,
+            56.431
+          ],
+          "quote": "It's a popular thing on Twitter right now called self-improvement where you have like an observer agent and it can then create updates to your factory that will try to prevent the particular failure mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1344.536,
+            1363.584
+          ],
+          "quote": "Popular thing on Twitter right now called self-improvement where you take an agent and you basically say, okay, for all of the failed runs and you need like a real sample, like maybe 20, 25 failed runs, you need some significant sample size, otherwise it starts to overcorrect based on single things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说工厂由一堆 MCP 服务器等组成，Zach 还通过 Figma MCP、Granola MCP 让编码智能体改幻灯片、分析销售会议",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            23.534,
+            34.301
+          ],
+          "quote": "It's like a product concept where it consists of a bunch of repos, a bunch of like MCP servers, like a bunch of configuration, and then a bunch of agents, essentially.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1436.16,
+            1449.866
+          ],
+          "quote": "It's like a product concept where it consists of a bunch of repos, a bunch of like MCP servers, like a bunch of configuration, and then a bunch of like agents, essentially.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1664.955,
+            1685.351
+          ],
+          "quote": "But I do believe that if you do not have session, tool call, MCP call, test failure, computer use level observability into every single coding session, you're missing a lot of opportunity to optimize efficiency, cost, model, just like how your team uses the tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1963.034,
+            1967.758
+          ],
+          "quote": "If I need to change the slide deck, I do it through the Figma MCP and the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1990.094,
+            1994.176
+          ],
+          "quote": "This would also work in Claude Coder, Codex, anything that has Figma, MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2012.869,
+            2026.847
+          ],
+          "quote": "So I'm going to say, like, I'd like to make a new version of this slide, use the Figma MCP to get the context, duplicate the existing slide rather than making changes directly to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2105.597,
+            2107.218
+          ],
+          "quote": "To Figma, MCP all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2158.99,
+            2162.312
+          ],
+          "quote": "So I'm going to start a second task here using the granola MCP where I'm like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2163.477,
+            2181.516
+          ],
+          "quote": "Can you use the Granola MCP to look back over my last four weeks of sales meetings and try to build up a list of the top 10 frequently most asked questions in these meetings as they pertain to?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型选择 (model)",
+      "file": "模型选择",
+      "primary": true,
+      "how_described": "本集说模型是智能体成本最大的杠杆，上下文管理次之，最优做法是在自己的真实历史任务上重放对比不同模型配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1052.439,
+            1058.503
+          ],
+          "quote": "We made some changes to our model configuration, and we've driven this cost down, and we want to continue to drive it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1083.376,
+            1086.998
+          ],
+          "quote": "Do you feel like the biggest lever here is model right now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1091.778,
+            1094.161
+          ],
+          "quote": "Yeah, it's model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1094.942,
+            1098.087
+          ],
+          "quote": "I think model is the biggest, I think, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1107.717,
+            1109.558
+          ],
+          "quote": "I would say model is the biggest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1117.965,
+            1122.289
+          ],
+          "quote": "But basically, I think model is the biggest one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1262.827,
+            1266.971
+          ],
+          "quote": "And so you basically are like, okay, I'll pick a judge model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1267.011,
+            1269.233
+          ],
+          "quote": "This is like a kind of medium smart judge model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1514.554,
+            1517.615
+          ],
+          "quote": "Which model is best for your specific job?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1540.871,
+            1543.794
+          ],
+          "quote": "So judges never know which model produced which output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1549.799,
+            1551.52
+          ],
+          "quote": "So stop guessing which model to use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1552.021,
+            1559.406
+          ],
+          "quote": "Explore rankings based on real creative work and find the right model for your project and save time and cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1664.955,
+            1685.351
+          ],
+          "quote": "But I do believe that if you do not have session, tool call, MCP call, test failure, computer use level observability into every single coding session, you're missing a lot of opportunity to optimize efficiency, cost, model, just like how your team uses the tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1779.084,
+            1788.631
+          ],
+          "quote": "Like from real past factory tasks, how would things have gone had you used a different model configuration, for instance?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1817.825,
+            1828.507
+          ],
+          "quote": "And so you get to choose your own sort of trade-offs here and then you can feed this back into a model routing strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1829.107,
+            1839.294
+          ],
+          "quote": "Where you actually have evidence that, okay, on your own tasks for these types of like the best model configuration for cost and quality is like whatever you find.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2128.838,
+            2130.3
+          ],
+          "quote": "I don't know what your model of choice is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "Claire 强调：对每个编码会话没有会话级、工具调用级、测试失败级的可观测性，就会浪费优化效率、成本和模型选择的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1664.955,
+            1685.351
+          ],
+          "quote": "But I do believe that if you do not have session, tool call, MCP call, test failure, computer use level observability into every single coding session, you're missing a lot of opportunity to optimize efficiency, cost, model, just like how your team uses the tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集作为典型的本地编码智能体被提及，与工厂模式对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            323.884,
+            332.973
+          ],
+          "quote": "Essentially do not just like the direct build, which is what you might get if you're using like Claude Code or Codex, but we'll also like do a few other steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1639.191,
+            1652.504
+          ],
+          "quote": "Which is such a challenge when you're using something locally like, for example, Claude Code, is I say you need session level telemetry because you need to be able to aggregate up the failures within sessions across your engineering team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集与 Claude Code 并列，作为本地编码智能体的例子被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            323.884,
+            332.973
+          ],
+          "quote": "Essentially do not just like the direct build, which is what you might get if you're using like Claude Code or Codex, but we'll also like do a few other steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1990.094,
+            1994.176
+          ],
+          "quote": "This would also work in Claude Coder, Codex, anything that has Figma, MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说工厂工作在公开的 Slack 频道里启动和围观，多次重新提示等人工交互也计入度量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            92.75,
+            103.237
+          ],
+          "quote": "He's going to show us how you can kick off tasks in Slack, what it means to go beyond the software development lifecycle, and how a technical CEO uses non-technical tools with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            297.594,
+            303.076
+          ],
+          "quote": "This is our Slack, is that most work is starting in a public place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            303.196,
+            312.62
+          ],
+          "quote": "And so the way we think of factories is like, you basically can say in a public Slack channel, you can tag, we named our factory Wilson.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            370.619,
+            374.501
+          ],
+          "quote": "So you can see over here, it's like we use linear in addition to using Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            376.844,
+            380.967
+          ],
+          "quote": "So the factory integrates not just with Slack, it opens an issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            467.084,
+            474.586
+          ],
+          "quote": "And so we all have people like multiple people on these Slack threads, you get to a world where as like a builder, you're no longer sort of working in this local silo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            569.946,
+            579.37
+          ],
+          "quote": "If you were to go into our Slack, you would see like, this is happening over and over, like all day long, the people in our team are building in this way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            862.453,
+            871.721
+          ],
+          "quote": "Integrated into all of your knowledge work tools, it includes all of those things, like how many re-prompts in Slack, how many comments on linear, how many times did you have to correct the thing in code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1580.744,
+            1590.454
+          ],
+          "quote": "So I'm seeing, you know, this move towards instead of work being assigned in tickets and then tickets being worked on on laptops, work is happening in public, whether it's Slack or some other channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2611.637,
+            2619.403
+          ],
+          "quote": "And also, I'm curious if this question is, if you answer this question differently when you're working with AI privately versus working within Slack.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集说工厂与 GitHub 集成、自动创建 PR，上个月超过 2000 个 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            395.118,
+            395.598
+          ],
+          "quote": "GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            430.81,
+            442.219
+          ],
+          "quote": "Like if you were doing this with like the coding agent in like the pre-factory world, what you would typically do is like pull up your local coding agent, do the change there, test it locally, and then like push it up to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            618.957,
+            620.538
+          ],
+          "quote": "We could have started this whole thing in GitHub.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集说工厂接到任务后会开 Linear issue 用于追踪一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            370.619,
+            374.501
+          ],
+          "quote": "So you can see over here, it's like we use linear in addition to using Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            614.156,
+            618.577
+          ],
+          "quote": "So it's like you can initiate it like we could have started this whole thing in linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            862.453,
+            871.721
+          ],
+          "quote": "Integrated into all of your knowledge work tools, it includes all of those things, like how many re-prompts in Slack, how many comments on linear, how many times did you have to correct the thing in code review?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "company",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": false,
+      "how_described": "本集说它是崩溃报告系统，崩溃信号会自动触发工厂去修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            590.808,
+            593.709
+          ],
+          "quote": "I don't know if you know Sentry, but it's like a crash reporting system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说 Zach 用不明白 Figma，改用 Figma MCP 加编码智能体口述改幻灯片",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1934.023,
+            1937.568
+          ],
+          "quote": "I still have a hard time making changes to Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1939.23,
+            1945.037
+          ],
+          "quote": "And like, I don't know if you're the same way, but when I go to try and change like a, like a Figma thing, I'm like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1955.087,
+            1958.009
+          ],
+          "quote": "For instance, it's like we we are using Figma slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1963.034,
+            1967.758
+          ],
+          "quote": "If I need to change the slide deck, I do it through the Figma MCP and the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1990.094,
+            1994.176
+          ],
+          "quote": "This would also work in Claude Coder, Codex, anything that has Figma, MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2012.869,
+            2026.847
+          ],
+          "quote": "So I'm going to say, like, I'd like to make a new version of this slide, use the Figma MCP to get the context, duplicate the existing slide rather than making changes directly to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2099.518,
+            2101.859
+          ],
+          "quote": "Do you know what word I say to Figma?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2105.597,
+            2107.218
+          ],
+          "quote": "To Figma, MCP all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2355.46,
+            2358.182
+          ],
+          "quote": "And we can go, let's see how this Figma is doing over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2428.493,
+            2430.934
+          ],
+          "quote": "Sorry, we're back at Figma for those that are not watching.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说 Zach 用 Granola MCP 回顾四周销售会议，整理出关于 Warp Factories 的十大高频问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            2144.861,
+            2148.183
+          ],
+          "quote": "So I'm a big granola user as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2158.99,
+            2162.312
+          ],
+          "quote": "So I'm going to start a second task here using the granola MCP where I'm like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2163.477,
+            2181.516
+          ],
+          "quote": "Can you use the Granola MCP to look back over my last four weeks of sales meetings and try to build up a list of the top 10 frequently most asked questions in these meetings as they pertain to?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

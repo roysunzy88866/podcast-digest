@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>48</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>49</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -58,6 +58,7 @@ unlisted: true
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(00:28起):本集说它是让外部工具接入模型的标准接口，本质是把你的数据和上下文带进那个人的日常主力工具；Zapier MCP 是 Wade 最后重点推荐安装的现代版 Zapier 体验。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(10:20起):本集说 MCP 是让模型接入外部工具服务的协议，Eve 的 connections 是专为它做的 tools 特化，丢进一个 MCP URL 就自动暴露工具。
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(08:00起):本集说网关和 MCP 是把大语言模型连接到外部世界(数据与工具)的那一层,比如让 LLM 通过它访问 Outlook。
+- **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(00:23起):本集说工厂由一堆 MCP 服务器等组成，Zach 还通过 Figma MCP、Granola MCP 让编码智能体改幻灯片、分析销售会议
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
@@ -74,7 +75,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*48 集*
+*49 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -123,15 +124,16 @@ unlisted: true
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为概念
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为概念
+- [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[护栏]] · [[Codex]] · [[Cursor]] · [[harness]] · [[沙箱]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[Cursor]] · [[harness]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":282,"Claude":60,"Anthropic":131,"OpenAI":124,"Claude Code":65,"护栏":50,"Codex":52,"Cursor":63,"harness":40,"沙箱":53}</script>
+<script type="application/json" class="pd-epn">{"智能体":283,"Claude":60,"Anthropic":131,"Claude Code":66,"OpenAI":124,"Codex":53,"护栏":50,"Cursor":63,"harness":40,"沙箱":53}</script>
 
 <script>
 (function(){

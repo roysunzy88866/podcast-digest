@@ -25,7 +25,7 @@ unlisted: true
 
 [[John Willett]] · [[Rogo]] · [[Foundation]] · [[Basis]] · [[Greylock]] · [[Devin]] · [[智能体]] · [[推理模型]] · [[护城河]] · [[标准操作程序]]
 
-<script type="application/json" class="pd-epn">{"John Willett":1,"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Devin":3,"智能体":282,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"John Willett":1,"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Devin":3,"智能体":283,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
 
 <script>
 (function(){

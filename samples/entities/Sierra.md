@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Harvey]] · [[Harry Stebbings]] · [[基于结果的定价]] · [[Madhavan Ramanujam]] · [[Bret Taylor]]
 
-<script type="application/json" class="pd-epn">{"智能体":282,"Cursor":63,"OpenAI":124,"Anthropic":131,"Lenny":67,"Harvey":12,"Harry Stebbings":18,"基于结果的定价":4,"Madhavan Ramanujam":1,"Bret Taylor":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":283,"Cursor":63,"OpenAI":124,"Anthropic":131,"Lenny":67,"Harvey":12,"Harry Stebbings":18,"基于结果的定价":4,"Madhavan Ramanujam":1,"Bret Taylor":1}</script>
 
 <script>
 (function(){

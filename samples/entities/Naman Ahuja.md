@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":51,"智能体":282,"微服务":2,"GPU":17,"KVCache":2,"批处理":1,"投机解码":2,"可观测性":23}</script>
+<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":51,"智能体":283,"微服务":2,"GPU":17,"KVCache":2,"批处理":1,"投机解码":2,"可观测性":24}</script>
 
 <script>
 (function(){

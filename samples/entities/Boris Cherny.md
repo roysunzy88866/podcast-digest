@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":282,"沙箱":53,"Claude Code":65,"Opus 5":4,"Anthropic":131,"系统提示词":6,"评估":2,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":283,"沙箱":53,"Claude Code":66,"Opus 5":4,"Anthropic":131,"系统提示词":6,"评估":2,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

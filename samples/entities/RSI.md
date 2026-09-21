@@ -29,7 +29,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Ryan Greenblatt]] · [[Anish Acharya]] · [[Sarah Wang]] · [[Matt Turk]] · [[a16z]] · [[Martine Cassado]] · [[Redwood Research]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":131,"智能体":282,"OpenAI":124,"Ryan Greenblatt":2,"Anish Acharya":3,"Sarah Wang":3,"Matt Turk":3,"a16z":14,"Martine Cassado":1,"Redwood Research":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":131,"智能体":283,"OpenAI":124,"Ryan Greenblatt":2,"Anish Acharya":3,"Sarah Wang":3,"Matt Turk":3,"a16z":14,"Martine Cassado":1,"Redwood Research":3}</script>
 
 <script>
 (function(){

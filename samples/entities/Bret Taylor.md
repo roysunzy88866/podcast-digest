@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":282,"基于结果的定价":4,"应用 AI":1,"前沿模型":18,"工具层":2,"上下文工程":12,"编程系统":1,"MCP":48}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":283,"基于结果的定价":4,"应用 AI":1,"前沿模型":18,"工具层":2,"上下文工程":12,"编程系统":1,"MCP":49}</script>
 
 <script>
 (function(){

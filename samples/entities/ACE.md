@@ -21,7 +21,7 @@ unlisted: true
 
 [[Idan Gazit]] · [[GitHub Next]] · [[Copilot]] · [[Dependabot]] · [[GitHub Actions]] · [[markdown]] · [[护栏]] · [[提示词注入]] · [[Cloudflare]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Idan Gazit":1,"GitHub Next":1,"Copilot":11,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":50,"提示词注入":13,"Cloudflare":9,"Slack":26}</script>
+<script type="application/json" class="pd-epn">{"Idan Gazit":1,"GitHub Next":1,"Copilot":11,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":50,"提示词注入":13,"Cloudflare":9,"Slack":27}</script>
 
 <script>
 (function(){

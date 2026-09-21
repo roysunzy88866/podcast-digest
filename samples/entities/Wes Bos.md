@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":2,"vibe coding":35,"智能体":282,"迭代循环":1,"LLM":38,"本地模型":3,"个人品牌":1,"简报":2,"上下文":18,"Cursor":63}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":2,"vibe coding":35,"智能体":283,"迭代循环":1,"LLM":38,"本地模型":3,"个人品牌":1,"简报":2,"上下文":18,"Cursor":63}</script>
 
 <script>
 (function(){

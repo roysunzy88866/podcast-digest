@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":11,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":50,"提示词注入":13,"Cloudflare":9,"Slack":26}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":11,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":50,"提示词注入":13,"Cloudflare":9,"Slack":27}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":22,"Terraform":1,"Hashicorp":1,"Kubernetes":8,"开源":24,"智能体":282,"PR":5,"AI":19,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":23,"Terraform":1,"Hashicorp":1,"Kubernetes":8,"开源":24,"智能体":283,"PR":5,"AI":19,"工匠精神":1}</script>
 
 <script>
 (function(){

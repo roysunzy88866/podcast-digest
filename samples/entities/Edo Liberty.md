@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":282,"知识层":1,"部落知识":2,"Nexus":2,"RAG":15,"Manifest（清单）":1,"NoQL":2,"运行时编码智能体":1,"心智理论":1,"Pinecone":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":283,"知识层":1,"部落知识":2,"Nexus":2,"RAG":15,"Manifest（清单）":1,"NoQL":2,"运行时编码智能体":1,"心智理论":1,"Pinecone":3}</script>
 
 <script>
 (function(){

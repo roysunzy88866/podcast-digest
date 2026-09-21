@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":40,"Hugging Face":22,"开源":24,"蒸馏":11,"推理":51,"新云":2,"前沿模型":18,"垂直 AI":2,"智能体":282}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":40,"Hugging Face":22,"开源":24,"蒸馏":11,"推理":51,"新云":2,"前沿模型":18,"垂直 AI":2,"智能体":283}</script>
 
 <script>
 (function(){
