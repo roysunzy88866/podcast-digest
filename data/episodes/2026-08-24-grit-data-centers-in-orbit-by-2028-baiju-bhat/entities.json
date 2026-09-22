@@ -1,0 +1,726 @@
+{
+  "episode_id": "2026-08-24-grit-data-centers-in-orbit-by-2028-baiju-bhat",
+  "podcast": "Grit",
+  "date": "2026-08-24",
+  "tags": [
+    "太空经济",
+    "单位经济",
+    "垂直整合",
+    "创始人心法",
+    "产品市场契合"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "baiju-bhatt",
+      "type": "person",
+      "role": "host",
+      "name": "Baiju Bhatt",
+      "file": "Baiju Bhatt",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            76.864,
+            82.749
+          ],
+          "quote": "Today on Grit, I'm talking with Baiju Bhatt, co-founder of Robinhood and now founder and CEO of Cowboy Space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "robinhood",
+      "type": "company",
+      "role": "company",
+      "name": "Robinhood",
+      "file": "Robinhood",
+      "primary": true,
+      "how_described": "本集说它是 Baiju 与 Vlad 从「移动是新兴平台、金融将原生于移动」的论点打造出的、价值数百亿美元的上市公司,是他第一次创业与垂直整合、单位经济思维的来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            3.274
+          ],
+          "quote": "By no means is Robinhood the first financial company in this world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            12.843,
+            17.027
+          ],
+          "quote": "And the thesis behind Robinhood was actually that mobile is this emerging platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            76.864,
+            82.749
+          ],
+          "quote": "Today on Grit, I'm talking with Baiju Bhatt, co-founder of Robinhood and now founder and CEO of Cowboy Space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            83.15,
+            90.175
+          ],
+          "quote": "Baiju helped build Robinhood from a controversial idea into a public company worth tens of billions and then did the least obvious thing imaginable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            458.968,
+            469.011
+          ],
+          "quote": "And then obviously the backdrop as I was building Robinhood of seeing SpaceX land the reusable rocket for the first time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            647.268,
+            651.37
+          ],
+          "quote": "Did you, leaving Robinhood, know you wanted to start this company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            665.637,
+            672.258
+          ],
+          "quote": "How long did it take before you were like, man, building Robinhood was pretty easy relative to this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            672.279,
+            676.22
+          ],
+          "quote": "I don't know if we're building Robinhood was easy relative to this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            676.74,
+            680.301
+          ],
+          "quote": "Robinhood was very challenging to build for a bunch of different reasons, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            698.203,
+            705.027
+          ],
+          "quote": "If you compare the sort of technology, I think the technology side of Robinhood was very challenging as well, but what made it...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            778.431,
+            781.574
+          ],
+          "quote": "By no means is Robinhood the first financial company in this world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            783.856,
+            788.08
+          ],
+          "quote": "There's banks and brokerages all around the US when Robinhood showed up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            882.703,
+            886.066
+          ],
+          "quote": "Did, you and Vlad started a company before Robinhood?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1294.173,
+            1304.697
+          ],
+          "quote": "Like, I don't, there's definitely people out there that are great founders that do it at a later stage in life, but I remember what Robinhood was like, and it was physically and mentally grueling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1540.321,
+            1544.843
+          ],
+          "quote": "So some of these things will have, they'll kind of rhyme with the thesis of Robinhood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1546.988,
+            1554.512
+          ],
+          "quote": "And the thesis behind Robinhood was actually that mobile is this emerging platform, obviously.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1587.271,
+            1597.196
+          ],
+          "quote": "And the thesis behind Robinhood was that investing services and more broadly financial services was going to be natively on the platform of mobile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2365.559,
+            2368.4
+          ],
+          "quote": "And we did a lot of that over the history of Robinhood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3389.368,
+            3399.432
+          ],
+          "quote": "During the 15 years of Robinhood, 14 I think is what we agreed upon, 14 years, is it all a blur or do you remember the highs and the lows?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 950,
+          "t": [
+            4049.087,
+            4060.996
+          ],
+          "quote": "Having created a few startups that were not very successful before Robinhood, that was kind of the thing is like, I want to be in that situation where those problems, like where we're doing something interesting, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cowboy-space",
+      "type": "company",
+      "role": "company",
+      "name": "Cowboy Space",
+      "file": "Cowboy Space",
+      "primary": true,
+      "how_described": "本集说它把近地轨道当作下一个商业平台,主张能源将原生于轨道,最终架构是「火箭上面级本身就是数据中心」,目标 2028 年底发射第一个自研系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            76.864,
+            82.749
+          ],
+          "quote": "Today on Grit, I'm talking with Baiju Bhatt, co-founder of Robinhood and now founder and CEO of Cowboy Space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1511.194,
+            1515.638
+          ],
+          "quote": "Cowboy Space Corporation on a mission to power humanity from the high frontier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2136.678,
+            2138.699
+          ],
+          "quote": "Enter the Cowboy Space Corporation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aetherflux",
+      "type": "company",
+      "role": "company",
+      "name": "Aetherflux",
+      "file": "Aetherflux",
+      "primary": false,
+      "how_described": "本集提到这是 Cowboy Space 最初的名字和方向——做太空太阳能发电,后来在自下而上的经济分析后转型为太空数据中心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            1708.809,
+            1709.289
+          ],
+          "quote": "Aetherflux.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集说它是可回收火箭着陆的开创者、《The Case for Mars》工程学路线的现实印证,但其大量载荷会留给自己,入轨容量远不够用——这正是 Cowboy Space 垂直整合自建火箭的原因之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            351.495,
+            359.518
+          ],
+          "quote": "And so what this book is, I believe it's also the blueprint for what would become SpaceX, but it's a path towards...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            458.968,
+            469.011
+          ],
+          "quote": "And then obviously the backdrop as I was building Robinhood of seeing SpaceX land the reusable rocket for the first time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2295.421,
+            2303.845
+          ],
+          "quote": "is that to get the unit economics to the place that made sense for SpaceX, he needed to vertically integrate every single component.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2399.82,
+            2406.725
+          ],
+          "quote": "SpaceX is, I think, like, I mean, like, look at what they've done, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-centers-in-space",
+      "type": "concept",
+      "role": "concept",
+      "name": "太空数据中心 (data centers in space)",
+      "file": "太空数据中心",
+      "primary": true,
+      "how_described": "本集说它是「太空太阳能 + 计算、去掉电力传输」的答案:在太空获取并在太空使用能量,叠加计算以获得更多利润空间,经济性从第一性原理上必然优于把电传回地面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            581.319,
+            588.304
+          ],
+          "quote": "And you're now building a company that you'll describe it better than me, but maybe more simply put like data centers in space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1688.951,
+            1700.818
+          ],
+          "quote": "Now, the main idea for space energy prior to the emergence of data centers in space as this concept was this old idea of space solar power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1901.012,
+            1901.933
+          ],
+          "quote": "data centers in space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2643.675,
+            2651.058
+          ],
+          "quote": "Like we're not building a rocket program that's gonna do data centers in space and is also gonna do human space flight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2653.917,
+            2662.46
+          ],
+          "quote": "We're not building a data, we're not building a rocket program that's gonna do data centers in space and take up other people's payload to space.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "low-earth-orbit",
+      "type": "concept",
+      "role": "concept",
+      "name": "近地轨道 (low-Earth orbit)",
+      "file": "近地轨道",
+      "primary": true,
+      "how_described": "本集把它说成「下一个移动平台」:一个商业活动的平台,会出现今天还不存在的经济垂直领域,能源/算力将是其中之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            17.227,
+            20.19
+          ],
+          "quote": "My thesis behind this was that low-Earth orbit",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1534.839,
+            1539.861
+          ],
+          "quote": "And the thesis behind this was looking at low Earth orbit as a platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1602.903,
+            1619.789
+          ],
+          "quote": "My thesis behind this was when I was first starting it that low-Earth orbit is a platform for commercial activity and that there will be distinct verticals of the economy that exist on this platform that is low-Earth orbit beyond the ones that exist today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1636.095,
+            1644.521
+          ],
+          "quote": "And so my thesis was that energy is going to be one of the next industries that natively exist on this platform that's low earth orbit for a bunch of reasons.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1644.921,
+            1650.085
+          ],
+          "quote": "One, you can generate a lot of electrical power in low earth orbit because the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1670.572,
+            1677.076
+          ],
+          "quote": "You put those panels in low Earth orbit and they're illuminated continuously, they'll generate multiples of the power output they would.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2205.88,
+            2212.744
+          ],
+          "quote": "Is it not going to burn up everything when you're trying to exit the earth's atmosphere into low earth orbit?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "unit-economics",
+      "type": "concept",
+      "role": "concept",
+      "name": "单位经济 (unit economics)",
+      "file": "单位经济",
+      "primary": true,
+      "how_described": "本集说它是「唯一的北极星」:每个决策(自建还是买、要不要垂直整合)都回到产出的成本相对地面方案是否有竞争力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1720.508,
+            1736.211
+          ],
+          "quote": "So from the very beginning, and this is, I said a few parts of this are going to rhyme with the thinking behind Robin Hood because the same person that contemplated both these things was this focus on unit economics, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1934.387,
+            1940.653
+          ],
+          "quote": "Which is that if we looked at, again, this idea of looking at the unit economics of compute from space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2295.421,
+            2303.845
+          ],
+          "quote": "is that to get the unit economics to the place that made sense for SpaceX, he needed to vertically integrate every single component.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2353.893,
+            2361.497
+          ],
+          "quote": "If you want to control the unit economics of your output service, it necessarily leads you to vertically integrating, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2426.639,
+            2436.247
+          ],
+          "quote": "And if we want to control how we do it, the scale, the actual unit economics of it, we need to actually look at the whole thing as vertically integrated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2465.43,
+            2471.652
+          ],
+          "quote": "You kind of look at it based on, again, the one true North Star here is the unit economics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2540.062,
+            2545.084
+          ],
+          "quote": "And so, you know, maybe the other confounding variable for you besides the unit economics is time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrating",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrating)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说这是建 Robinhood 的心得——想控制输出服务的单位经济,必然走向垂直整合;加上发射容量不足的市场现实,他们连火箭都要自己造",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 537,
+          "t": [
+            2353.893,
+            2361.497
+          ],
+          "quote": "If you want to control the unit economics of your output service, it necessarily leads you to vertically integrating, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "space-solar-power",
+      "type": "concept",
+      "role": "concept",
+      "name": "太空太阳能 (space solar power)",
+      "file": "太空太阳能",
+      "primary": true,
+      "how_described": "本集说它是公司最初的核心想法:把廉价太阳能板放到合适的轨道几乎持续被太阳照亮,输出是地面的好几倍;后来演进出「加计算、去传输」的太空数据中心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1688.951,
+            1700.818
+          ],
+          "quote": "Now, the main idea for space energy prior to the emergence of data centers in space as this concept was this old idea of space solar power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1777.781,
+            1782.283
+          ],
+          "quote": "And that kind of had been the central question as I was contemplating this idea of space-solar power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1816.742,
+            1822.005
+          ],
+          "quote": "So if you're doing a space solar power company, you probably should be thinking about its application to AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1890.681,
+            1895.586
+          ],
+          "quote": "Is it, you can use space solar power plus something else to get more competitive economics?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1896.066,
+            1900.992
+          ],
+          "quote": "So the answer here was space solar power plus compute, i.e.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1903.503,
+            1905.945
+          ],
+          "quote": "Minus the power beaming part of space solar power.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集给出的定义是「你正在做的事情的表现好于你的(极高)预期」;消费级产品还要看长期留存,而且它极难得到——很多时候你运营一家初创公司其实已经死了而自己还不知道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            759.994,
+            769.182
+          ],
+          "quote": "I'm using kind of grandiose terms to talk about what consumer products in general do, but like building a consumer product that has mass market product market fit...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3483.585,
+            3487.848
+          ],
+          "quote": "And then when you get into building and scaling a business, it's like... Like post-product market fit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3756.92,
+            3760.343
+          ],
+          "quote": "But isn't that like the gift of product market fit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4014.332,
+            4029.645
+          ],
+          "quote": "I don't disagree with that at all because, I mean, I have maybe a slightly more grim view on this, which is that product market fit, this kind of comes back to what I was saying a minute ago or earlier in this conversation, product market fit is very elusive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4107.305,
+            4109.907
+          ],
+          "quote": "Do you have a definition of product market fit that you like?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 962,
+          "t": [
+            4115.97,
+            4125.035
+          ],
+          "quote": "If whatever you're doing does better than what you project, that's usually a good sign that you have product market fit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 964,
+          "t": [
+            4129.387,
+            4134.65
+          ],
+          "quote": "In the case of a consumer product, I think product market fit is part and parcel with like long-term retention.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 966,
+          "t": [
+            4142.295,
+            4154.243
+          ],
+          "quote": "But in always, I think the hallmark is always, or at least in all the times that I've seen product market fit, is whatever your projections are, how well you think something is gonna do, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4167.03,
+            4174.036
+          ],
+          "quote": "If you're doing better than great expectations, like, you generally have product market fit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

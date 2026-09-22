@@ -130,7 +130,8 @@
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9908320817.mp3",
     "2026-08-20-twist-taste-is-the-new-programming-language-w": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT8990784785.mp3",
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
-    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3"
+    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
+    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT2357902411.mp3"
   },
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
@@ -140,12 +141,12 @@
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
     "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
-    "2026-08-20-twist-taste-is-the-new-programming-language-w": 1,
-    "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": 2,
-    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": 1
+    "2026-08-20-twist-taste-is-the-new-programming-language-w": 2,
+    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": 2,
+    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": 1
   },
   "cutoffs": {
-    "lennys": "2026-09-20T12:32:17.000Z",
+    "lennys": "2026-09-22T19:06:40.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
     "a16z": "2026-09-20T10:01:39.000Z",
     "yc": "2026-09-18T14:59:58.000Z",
@@ -168,7 +169,7 @@
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-09-14T11:00:00.000Z",
+    "howiai": "2026-09-22T19:03:36.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-17T04:52:00.000Z",
     "eyeonai": "2026-09-21T17:57:00.000Z",
@@ -1443,6 +1444,42 @@
       "reason": "题材不对味:传统NGO品牌重塑故事,与AI无关,不在档案收录的AI商业/产品/产业题材内",
       "title": "Rebranding in a war zone, with Prosper Global (formerly Mercy Corps)",
       "pubDate": "2026-09-22T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-22-lennys-i-left-claude-for-months-opus-55",
+      "reason": "题材不对味:落 ❌「大模型发布/跑分评测」类:以模型版本(Opus 5.5)为核心的个人使用评测,非实操/创始人/产业面题材",
+      "title": "I left Claude for months. Opus 5.5 is why I'm back",
+      "pubDate": "2026-09-22T19:06:40.000Z"
+    },
+    {
+      "id": "2026-09-22-howiai-i-left-claude-for-months--opus-5-5-is-wh",
+      "reason": "题材不对味:属大模型版本评测/个人体验类(因 Opus 5.5 回流),落在「大模型发布/评测」不收面,且为时效性内容。",
+      "title": "I left Claude for months. Opus 5.5 is why I'm back",
+      "pubDate": "2026-09-22T19:03:36.000Z"
+    },
+    {
+      "id": "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "VC experts on why Physical AI funding is heating up | E2333",
+      "pubDate": "2026-09-02T23:11:00.000Z"
+    },
+    {
+      "id": "2026-08-25-twist-china-wants-you-to-cheer-for-the-robots",
+      "reason": "题材不对味:拿不准:偏中国机器人产业的社会/舆论评论体裁,非档案明确收录的创始人访谈/实操/产业格局类,拿不准判不发布",
+      "title": "China wants you to cheer for the robots taking your job | E2329",
+      "pubDate": "2026-08-25T02:12:00.000Z"
+    },
+    {
+      "id": "2026-08-24-sourcery-inside-rocket-lab-w-ceo-sir-peter-beck-r",
+      "reason": "题材不对味:拿不准:火箭/航天公司 CEO 访谈属创始人故事体裁,但与 AI 产业无关,档案的收录范围以 AI 商业/实操为核心,非 AI 领域故事未在收录范围",
+      "title": "Inside Rocket Lab w/ CEO Sir Peter Beck: Record Earnings, Neutron, Flatelittes",
+      "pubDate": "2026-08-24T10:25:51.000Z"
+    },
+    {
+      "id": "2026-08-20-sourcery-ben-lamm-ceo-of-12b-colossal-biosciences",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Ben Lamm CEO of $12B Colossal Biosciences & $3.8B Astromech",
+      "pubDate": "2026-08-20T14:00:00.000Z"
     }
   ]
 }

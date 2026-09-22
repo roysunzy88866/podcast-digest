@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aaron Schumm]] · [[Vestwell]] · [[JP Morgan]] · [[401(k)]] · [[贴牌纯软件]] · [[企业销售]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Aaron Schumm":1,"Vestwell":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":21}</script>
+<script type="application/json" class="pd-epn">{"Aaron Schumm":1,"Vestwell":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":22}</script>
 
 <script>
 (function(){

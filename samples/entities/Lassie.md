@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[智能体]] · [[人在回路]] · [[现有巨头]] · [[Superhuman]] · [[Stripe]] · [[Workday]]
+[[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[智能体]] · [[人在回路]] · [[现有巨头]] · [[Robinhood]] · [[Superhuman]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"智能体":288,"人在回路":12,"现有巨头":1,"Superhuman":4,"Stripe":33,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"智能体":288,"人在回路":12,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":33}</script>
 
 <script>
 (function(){
