@@ -62,7 +62,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[ChatGPT]] · [[OpenAI]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[产品市场契合]] · [[AGI]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":285,"Stripe":33,"ChatGPT":74,"OpenAI":124,"SaaS":17,"Garry Tan":2,"Salesforce":25,"产品市场契合":21,"AGI":25,"Patrick Collison":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":287,"Stripe":33,"ChatGPT":74,"OpenAI":125,"SaaS":17,"Garry Tan":2,"Salesforce":25,"产品市场契合":21,"AGI":25,"Patrick Collison":3}</script>
 
 <script>
 (function(){

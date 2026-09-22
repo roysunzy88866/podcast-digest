@@ -11,13 +11,13 @@ description: "Eon 联合创始人聊为什么 Google 花 1000 万美元买破产
 host: "[[Ofir Ehrlich]]"
 guests: ["[[Gonen Stein]]"]
 companies: ["[[Eon]]"]
-concepts: ["[[智能体]]", "[[数据基础层]]", "[[ETL]]", "[[token]]"]
+concepts: ["[[智能体]]", "[[数据基础]]", "[[ETL]]", "[[token]]"]
 category: 智能体
 tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#post","headline":"数据成了企业唯一的护城河：AI时代的数据基建怎么做","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi","description":"Eon 联合创始人聊为什么 Google 花 1000 万美元买破产航空公司的数据，以及企业数据在 AI 时代如何从\"锁着积灰\"变成核心资产。","datePublished":"2026-08-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi.jpg","about":[{"@type":"Person","name":"Ofir Ehrlich"},{"@type":"Person","name":"Gonen Stein"},{"@type":"Organization","name":"Eon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"数据基础层 (data foundation)"},{"@type":"Thing","name":"ETL"},{"@type":"Thing","name":"token"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"数据成了企业唯一的护城河：AI时代的数据基建怎么做","item":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#post","headline":"数据成了企业唯一的护城河：AI时代的数据基建怎么做","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi","description":"Eon 联合创始人聊为什么 Google 花 1000 万美元买破产航空公司的数据，以及企业数据在 AI 时代如何从\"锁着积灰\"变成核心资产。","datePublished":"2026-08-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi.jpg","about":[{"@type":"Person","name":"Ofir Ehrlich"},{"@type":"Person","name":"Gonen Stein"},{"@type":"Organization","name":"Eon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"数据基础 (data foundation)"},{"@type":"Thing","name":"ETL"},{"@type":"Thing","name":"token"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"数据成了企业唯一的护城河：AI时代的数据基建怎么做","item":"https://talk.solomind.cc/2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>数据成了企业唯一的护城河：AI时代的数据基建怎么做</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Eon]]
 >
-> **概念** [[智能体]] · [[数据基础层]] · [[ETL]] · [[token]]
+> **概念** [[智能体]] · [[数据基础]] · [[ETL]] · [[token]]
 
 这一集是 [[Eon|Eon]] 的联合创始人 Ophira Erlich 和 [[Gonen Stein|Gonen Stein]] 聊 AI 时代的企业数据基础设施——Eon 做的是云备份和灾难恢复，但在过程中发现客户存了十几二十年的数据，过去只是在架子上积灰，现在突然变成了最值钱的东西。最夸张的一个信号：Google 花 1000 万美元从破产的 Spirit Airlines 那里买下了数据，没买飞机，买的就是数据 <button class="pd-ts" data-t="03:47" data-who="嘉宾" data-en="And you see more and more companies finding this out. You know, just two days ago, you saw Google buy something from the bankrupt Spirit Airlines. They didn't buy airplanes." aria-label="回原文"></button>。
 
@@ -55,7 +55,7 @@ jsonLd: |
 
 更关键的是激励错位：数据团队的任务是"把数据挖出来用掉"，而业务单元负责人的任务是"系统别出事、数据别泄露"。让业务负责人为了配合数据团队去动生产环境、引入工程师、在安全和合规上做妥协，非常难 <button class="pd-ts" data-t="12:51" data-who="嘉宾" data-en="And to extract the data, just to give it to you and start in a very inefficient manner, it's very hard. We understood that there's a problem with how this works because we have different incentives." aria-label="回原文"></button>。
 
-Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和合规的前提下，把所有数据源映射和分类出来——什么数据在哪、什么敏感什么不敏感；然后持续把相关数据拉到一个新的[[数据基础层|数据基础层]]里，因为已经分类过了，所以不会意外泄露 CEO 薪水这类敏感信息 <button class="pd-ts" data-t="13:17" data-who="嘉宾" data-en="I don't accidentally have the salary of the CEO inside my data, and it's actually going to be used for training or post-training by you. So we at E.ON solve it in a very different way." aria-label="回原文"></button>。客户本来就拥有这些数据，只是以低效的形式锁在不同地方，Eon 把它转成存储效率更高的格式，再接上 AI 工作流 <button class="pd-ts" data-t="14:45" data-who="嘉宾" data-en="And usually it's very, very expensive, right? So we're able to take what customers already have, convert it into this new data foundation format that's stored much more efficiently, and provide the mapping, classification, access control, and connect it into the AI workflows." aria-label="回原文"></button>。
+Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和合规的前提下，把所有数据源映射和分类出来——什么数据在哪、什么敏感什么不敏感；然后持续把相关数据拉到一个新的[[数据基础|数据基础层]]里，因为已经分类过了，所以不会意外泄露 CEO 薪水这类敏感信息 <button class="pd-ts" data-t="13:17" data-who="嘉宾" data-en="I don't accidentally have the salary of the CEO inside my data, and it's actually going to be used for training or post-training by you. So we at E.ON solve it in a very different way." aria-label="回原文"></button>。客户本来就拥有这些数据，只是以低效的形式锁在不同地方，Eon 把它转成存储效率更高的格式，再接上 AI 工作流 <button class="pd-ts" data-t="14:45" data-who="嘉宾" data-en="And usually it's very, very expensive, right? So we're able to take what customers already have, convert it into this new data foundation format that's stored much more efficiently, and provide the mapping, classification, access control, and connect it into the AI workflows." aria-label="回原文"></button>。
 
 ## 智能体带来的安全新问题
 
@@ -134,8 +134,8 @@ Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和�
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude、Google · 同概念:token、智能体 (agent)、PLG</span>
+- [[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|企业AI为什么卡壳:只有6%的大公司真正跑通了]]<span class="pd-rz">同公司:Google · 同概念:数据基础层 (data foundation)、智能体 (agent)</span>
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:token、智能体 (agent)、微调 (fine-tune)</span>
-- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

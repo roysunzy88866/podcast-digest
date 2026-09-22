@@ -1,0 +1,965 @@
+{
+  "episode_id": "2026-08-25-sed-the-gap-between-ai-spending-and-ai-value",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-08-25",
+  "tags": [
+    "企业 AI",
+    "Scale AI",
+    "智能体",
+    "评估",
+    "变革管理"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "kevin-ball",
+      "type": "person",
+      "role": "host",
+      "name": "Kevin Ball",
+      "file": "Kevin Ball",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            62.773,
+            68.837
+          ],
+          "quote": "In this episode, Emily joins Kevin Ball to discuss the three layers where enterprise AI breaks down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            83.107,
+            90.112
+          ],
+          "quote": "Kevin Ball, or Kate Ball, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emily-hsu",
+      "type": "person",
+      "role": "cohost",
+      "name": "Emily Hsu",
+      "file": "Emily Hsu",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            55.027,
+            62.152
+          ],
+          "quote": "Emily Hsu is the head of enterprise AI at ScaleAI, and previously spent over a decade at Google.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scale-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Scale AI",
+      "file": "Scale AI",
+      "primary": true,
+      "how_described": "本集介绍它以向前沿实验室供应人工标注数据起家，现在也为大型企业构建 AI 应用和智能体，其企业 AI 负责人 Emily Hsu 是本集嘉宾，并发布了那份只有 6% 大企业成功整合 AI 的报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            33.87,
+            39.235
+          ],
+          "quote": "Scale AI is known for supplying the human-labeled data behind many frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            138.888,
+            142.19
+          ],
+          "quote": "So currently I'm the head of Enterprise AI and Scale AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2552.09,
+            2558.575
+          ],
+          "quote": "What a good for deploying the engineering team, like, you know, scale AI, we're not just saying, here's the solution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "嘉宾在 Google 工作 11 年、是 Google Brain 早期成员，担任 Vertex 调优、评估、智能体引擎等云 AI 产品的工程负责人；本集还以她在 Gemini 团队的内部视角说明模型开发团队对企业需求接触非常有限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            55.027,
+            62.152
+          ],
+          "quote": "Emily Hsu is the head of enterprise AI at ScaleAI, and previously spent over a decade at Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            171.294,
+            178.84
+          ],
+          "quote": "Before that, I actually worked for a really large company, Google, one of the hyperscalers and also the Frontier Labs two-in-one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            182.664,
+            185.186
+          ],
+          "quote": "I'm also an early member of the Google Brain team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            218.901,
+            221.664
+          ],
+          "quote": "So that's my experience at Google for about 11 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            222.044,
+            225.187
+          ],
+          "quote": "But actually, before I joined Google, I was a professor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            248.558,
+            254.241
+          ],
+          "quote": "After I got tenure from Vanderbilt, I spent my sabbatical years at Google and decided to stay with the industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            486.918,
+            487.918
+          ],
+          "quote": "I come from Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            508.287,
+            514.009
+          ],
+          "quote": "And this is exactly what I feel, you know, even I'm from Claude, the enterprise part of business of Google.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业 AI (enterprise AI)",
+      "file": "企业 AI",
+      "primary": true,
+      "how_described": "本集主线：企业 AI 在三层失灵——前沿模型的基准没对准企业需求、应用与遗留数据环境集成困难、个人在用但组织没接住——只有 6% 的大企业真正成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            44.96,
+            54.567
+          ],
+          "quote": "That combination of working alongside Frontier Labs and inside enterprise deployments gives the company a rare view of why enterprise AI may be stalling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            55.027,
+            62.152
+          ],
+          "quote": "Emily Hsu is the head of enterprise AI at ScaleAI, and previously spent over a decade at Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            62.773,
+            68.837
+          ],
+          "quote": "In this episode, Emily joins Kevin Ball to discuss the three layers where enterprise AI breaks down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            138.888,
+            142.19
+          ],
+          "quote": "So currently I'm the head of Enterprise AI and Scale AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            159.063,
+            170.533
+          ],
+          "quote": "So this is very interesting work from both understanding the customer requirements on the enterprise side as well as driving the innovations to research for pushing enterprise AI to land with revenues.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            342.102,
+            349.926
+          ],
+          "quote": "So I'm currently leading the enterprise AI side where I'm in the enterprise business unit, where our customers are private sectors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            394.57,
+            399.718
+          ],
+          "quote": "I think you've actually written a bunch about the different failure modes of enterprise AI and things like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论企业环境中的智能体：要过认证访问数据、读懂 API 与数据模式、吸收部落知识，评估时要连同其运行环境一起测，且初期需人在回路中审查其输出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            185.466,
+            209.754
+          ],
+          "quote": "So I was a researcher, hands-on model training, publishing papers, and I was engineering lead for several of the Cloud AI product, Vertex product, tuning, Gen AI tuning, evaluation, agent engine, with my team members who really start with the concept, the idea, and see the market needs for it, and then put our hands down there, build up the product, and bring it to the customer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            771.845,
+            779.751
+          ],
+          "quote": "How to get yourself authenticated when we see yourself as the agent themselves to get authenticated to the right data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            799.324,
+            809.849
+          ],
+          "quote": "How do we actually learn those tribe knowledge within the enterprise and bring that knowledge to be part of the context into the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            921.112,
+            943.886
+          ],
+          "quote": "But then in order to actually ingest the data from different modality with the technical depth from the last two decades, fragmented, received, processed by human beings in the past, now you have to plug in an agent that is powered by foundation models, large launch models, then the gap is actually emerged from there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            952.934,
+            955.817
+          ],
+          "quote": "Now we have to go back and revisit and say, well, can an agent paper over it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            959.387,
+            973.39
+          ],
+          "quote": "That's kind of like one of the things we experience, how we actually integrate an application, an agent into an enterprise environment, really address all these gaps from fragmented information, tribe knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            990.629,
+            1000.375
+          ],
+          "quote": "xWeather combines enterprise-grade weather intelligence with agent-ready APIs, natural language capabilities, and an MCP server built for tools like Claude, Codex, Copilot, and modern IDEs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1236.786,
+            1242.631
+          ],
+          "quote": "How we actually collect the feedback continuously from the usage to improve the system from the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1666.071,
+            1677.923
+          ],
+          "quote": "Standardized linked data asset, then the next layer of AI agent is able to build on top of it and then discover and unleash more capabilities of solutions on top of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2031.508,
+            2041.738
+          ],
+          "quote": "And then the last part of it is when the output, doesn't matter from the model or agent, is produced, how are we actually going to tell is it good or is it actually less desired?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2064.439,
+            2075.086
+          ],
+          "quote": "In the context of agent evaluation, so the first one is actually the agent self, also the environment you're actually operating in, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2075.266,
+            2080.449
+          ],
+          "quote": "So it's not just like, you know, what you develop the agent intelligence self and build on top of the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2088.314,
+            2092.537
+          ],
+          "quote": "What are the service APIs that the agent has access to?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2131.366,
+            2146.716
+          ],
+          "quote": "So we need to strategically define what is the set of tasks that cover different dimensions of the capability and the functionality of the expected behavior of your agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2148.897,
+            2155.56
+          ],
+          "quote": "So just to give you an example, let's say we are doing patient safety triage agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2169.184,
+            2170.285
+          ],
+          "quote": "So this is the agent task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2406.637,
+            2427.326
+          ],
+          "quote": "That's the foundation allowing all the system integration work, all the trustworthy agent execution, and then allowing the agent execution, all the traces to be logged, and then for evaluation for auditing purposes that the platform we're providing, which provide the system infrastructure foundation to build a reliable AI solutions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2565.94,
+            2591.084
+          ],
+          "quote": "All the digital asset that reflected from the usage pattern through the traces, how it would actually help you to identify the quality gaps when we talk about the evaluations, where things fall, and then provide you the research innovation, which was the last piece I was going to talk about, to improve it progressively over time so that the agent becomes smarter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2640.223,
+            2652.593
+          ],
+          "quote": "But then once the agent, agents actually serve as the copilot that works with you, then agent would actually learn from like, you know, Chris talked about, it will learn your institutional best practices.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2668.518,
+            2672.644
+          ],
+          "quote": "Then the agent is able to actually accumulate our usage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2692.286,
+            2706.836
+          ],
+          "quote": "So the agent would have components built in to learn from the interactions and become smarter and interact with people on the project's execution, workflow execution in a smoother way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2819.748,
+            2827.014
+          ],
+          "quote": "Initially, before an agent is being used in the production environment for a long time to gain sufficient trust,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2939.872,
+            2941.993
+          ],
+          "quote": "People will be like, oh, the agent made this decision.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2955.14,
+            2958.724
+          ],
+          "quote": "It's like, the agent's doing the work, but you have the liability and the responsibility.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3087.828,
+            3090.631
+          ],
+          "quote": "What does this look like at an agent level or a task level or something?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3093.454,
+            3095.997
+          ],
+          "quote": "So if the agent's at 60% confident.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3111.07,
+            3120.158
+          ],
+          "quote": "People should really spend more time looking into one, especially when we're getting deeper into productionization and the human agent collaboration.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluation)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "Emily 称这是她最喜欢的话题：评估三要素是评估对象（智能体加环境）、像软件测试一样覆盖正例/负例/困难负例的测试用例集、以及非确定性下输出的好坏判定与稳健性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            185.466,
+            209.754
+          ],
+          "quote": "So I was a researcher, hands-on model training, publishing papers, and I was engineering lead for several of the Cloud AI product, Vertex product, tuning, Gen AI tuning, evaluation, agent engine, with my team members who really start with the concept, the idea, and see the market needs for it, and then put our hands down there, build up the product, and bring it to the customer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            583.17,
+            585.211
+          ],
+          "quote": "There's no evaluation criteria.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1869.843,
+            1881.151
+          ],
+          "quote": "about the AI technologies that actually one of the benefits when we work very closely with the frontier labs, we actually have a best practice in terms of how we do evaluation of the foundation models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1929.786,
+            1936.893
+          ],
+          "quote": "So one of the things you mentioned there that I'd love to dig into, because I think you have done a fair amount of work in this space, is around evaluation, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1963.538,
+            1967.421
+          ],
+          "quote": "So how do you all approach evaluation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1982.463,
+            1988.388
+          ],
+          "quote": "So in a very simplistic term, right, if we think about evaluation, there are two things about evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2064.439,
+            2075.086
+          ],
+          "quote": "In the context of agent evaluation, so the first one is actually the agent self, also the environment you're actually operating in, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2103.966,
+            2108.489
+          ],
+          "quote": "So this actually defines the environment during evaluation, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2108.649,
+            2113.253
+          ],
+          "quote": "Because if you change that, the evaluation result could change, and that's the robustness question we need to get into.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2171.025,
+            2179.793
+          ],
+          "quote": "And now when you get into the evaluation part, the high-level mindset is actually very similar to what software unit testing is doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2236.97,
+            2241.861
+          ],
+          "quote": "So you need to think about all these things, cases, and those are the evaluation data set curation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2288.783,
+            2297.527
+          ],
+          "quote": "There's very limited in a conservative, but it's not known, evaluation environment that is backed up by real data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2406.637,
+            2427.326
+          ],
+          "quote": "That's the foundation allowing all the system integration work, all the trustworthy agent execution, and then allowing the agent execution, all the traces to be logged, and then for evaluation for auditing purposes that the platform we're providing, which provide the system infrastructure foundation to build a reliable AI solutions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2804.355,
+            2816.485
+          ],
+          "quote": "So I believe that part is actually what we see is going to have a path towards initially when the trust between, like when we talk about evaluation, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2816.585,
+            2819.347
+          ],
+          "quote": "There's offline evaluation, there's also online evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2918.062,
+            2924.965
+          ],
+          "quote": "And while you're doing that sort of live action evaluation, you don't want it changing key data or making big decisions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "entity-resolution",
+      "type": "concept",
+      "role": "concept",
+      "name": "实体消解 (entity resolution)",
+      "file": "实体消解",
+      "primary": true,
+      "how_described": "本集说这是 Scale 向市场提供的关键技术之一：把不同表里对同一企业实体的不同命名对齐，大语言模型凭预训练词汇知识做得比传统方法好得多，是打牢数据基础的先导工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1629.324,
+            1640.156
+          ],
+          "quote": "But then when the AI is actually getting to the enterprise in the right way, then AI could be helping you with, for example, one of the key technologies we're actually providing to the market is, let's say, entity resolution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human-in-the-loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集讲智能体获得足够生产信任之前，人始终在回路里：模糊情况由人分诊、高风险操作由人确认、AI 洞见由人审查；信任建立后再逐步自动化高置信度操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2714.33,
+            2719.053
+          ],
+          "quote": "So how do you think about the evolution of human in the loop here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2792.101,
+            2797.549
+          ],
+          "quote": "So that's kind of like a very long-term, sort of like the foundation of human, stay human in the loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2827.534,
+            2833.995
+          ],
+          "quote": "There's always going to be a human-in-the-loop component where human will be triage.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集指出模型开发极度以基准测试为导向，能力支柱是数学、推理、代码、对话、多轮安全，而「企业」在所有前沿实验室的排行榜上已缩成一个非常窄的支柱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            532.318,
+            536.34
+          ],
+          "quote": "And that reflected as, right, so people are very benchmark driven.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            561.41,
+            569.217
+          ],
+          "quote": "Human intellectual capability and knowledge, many of them is reflected by our flagship benchmark humanity last exam.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "type": "concept",
+      "role": "concept",
+      "name": "校准 (calibration)",
+      "file": "校准",
+      "primary": true,
+      "how_described": "本集讨论人机认知界面的开放研究：让 AI 知道什么节点才真正需要人类输入，token 级 logits 分布或许能延伸到智能体和任务层面的校准置信度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 518,
+          "t": [
+            3039.122,
+            3049.15
+          ],
+          "quote": "And that kind of like calibration capability is something that people start to look very much deeper into and it's still kind of like open research at this moment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-foundation",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据基础 (data foundation)",
+      "file": "数据基础",
+      "primary": true,
+      "how_described": "6% 赢家的第一条共性：数据基础设施是 AI 部署成功的先决条件，先有鸡还是先有蛋——没有数据 AI 什么都做不了，但 AI 也能反哺归一化数据资产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            69.237,
+            82.486
+          ],
+          "quote": "Why Frontier Model Benchmarks Miss What Enterprises Actually Need, The Data Foundation Problem, How the Most Successful Companies Combine Internal Domain Expertise With Outside AI Specialists, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1580.495,
+            1581.676
+          ],
+          "quote": "It's the data foundation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Frontier Labs",
+      "file": "Frontier Labs",
+      "primary": true,
+      "how_described": "本集说前沿实验室的模型迭代工程实践掌握在没有业务接触的团队手里，企业复杂性没有被捕捉并呈现给实验室的开发者，这是能力差距的根本原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            44.96,
+            54.567
+          ],
+          "quote": "That combination of working alongside Frontier Labs and inside enterprise deployments gives the company a rare view of why enterprise AI may be stalling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            142.53,
+            158.583
+          ],
+          "quote": "It's kind of a company, a startup company, but it's not like as small as a startup anymore, that people kind of know from the perspective of supplying the data to many of the frontier labs and being an active participation to the Gen AI large language model to where we are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            171.294,
+            178.84
+          ],
+          "quote": "Before that, I actually worked for a really large company, Google, one of the hyperscalers and also the Frontier Labs two-in-one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            477.472,
+            486.558
+          ],
+          "quote": "So if you think about AI side, the market, the community have a lot of exposure to what foundation model Frontier Labs are doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            546.644,
+            557.829
+          ],
+          "quote": "And then if you look at that, the enterprise part is becoming a very narrow pillar in all the frontier labs leaderboard progressively into 2025.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1371.949,
+            1376.476
+          ],
+          "quote": "And those information is actually leaked into the Frontier Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1869.843,
+            1881.151
+          ],
+          "quote": "about the AI technologies that actually one of the benefits when we work very closely with the frontier labs, we actually have a best practice in terms of how we do evaluation of the foundation models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineers",
+      "type": "concept",
+      "role": "concept",
+      "name": "前向部署工程师 (Forward Deployed Engineers)",
+      "file": "前向部署工程师",
+      "primary": true,
+      "how_described": "本集说这是目前增长最快的软件领域：行业正从部署重复性软件转向部署一组能力，细节由购买方或前向部署工程师实现，Scale 的部署服务模式正是如此运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2519.398,
+            2534.228
+          ],
+          "quote": "And we're moving to a world where we're deploying a set of capabilities, which has software, but really then is the details are implemented either by the company that it's sold to or by Forward Deployed Engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2534.248,
+            2538.871
+          ],
+          "quote": "That's probably the most rapid growing software field right now is Forward Deployed Engineers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mayo-clinic",
+      "type": "company",
+      "role": "company",
+      "name": "Mayo Clinic",
+      "file": "Mayo Clinic",
+      "primary": false,
+      "how_described": "Emily 举的合作案例：病人带着几百页打印成 PDF 的历史病历来看病，说明二十年数字化遗留的碎片化信息成了智能体的真实障碍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            881.957,
+            886.578
+          ],
+          "quote": "This is actually like the problem we get, for example, from the engagement with Mayo Clinic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": false,
+      "how_described": "本集提到人们谈论上下文工程：如何把企业内部的部落知识作为上下文的一部分带入智能体，是一个不简单的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            795.922,
+            798.804
+          ],
+          "quote": "In a lot of cases, people talk about context engineering.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -165,9 +165,9 @@ Arena 起步是 battle 模式:输入一个 prompt,得到两个回答,用户选�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|企业AI为什么卡壳:只有6%的大公司真正跑通了]]<span class="pd-rz">同概念:基准测试 (benchmark)、智能体 (agent)、评估 (evaluation)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开源模型 (open source)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开源模型 (open source)、智能体 (agent)</span>
-- [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开源模型 (open source)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":285,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":287,"非确定性":1,"主观能动性":19,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
 
 <script>
 (function(){

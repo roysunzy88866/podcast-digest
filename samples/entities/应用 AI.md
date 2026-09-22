@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Bret Taylor]] · [[Sierra]] · [[智能体]] · [[基于结果的定价]] · [[前沿模型]] · [[工具层]] · [[上下文工程]] · [[编程系统]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Bret Taylor":1,"Sierra":6,"智能体":285,"基于结果的定价":4,"前沿模型":18,"工具层":2,"上下文工程":12,"编程系统":1,"MCP":49}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Bret Taylor":1,"Sierra":6,"智能体":287,"基于结果的定价":4,"前沿模型":18,"工具层":2,"上下文工程":13,"编程系统":1,"MCP":49}</script>
 
 <script>
 (function(){

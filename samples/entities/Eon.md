@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ofir Ehrlich]] · [[Gonen Stein]] · [[智能体]] · [[数据基础层]] · [[ETL]] · [[token]] · [[后训练]] · [[PLG]] · [[Google]] · [[AWS]]
+[[Ofir Ehrlich]] · [[Gonen Stein]] · [[智能体]] · [[数据基础]] · [[ETL]] · [[token]] · [[后训练]] · [[PLG]] · [[Google]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Gonen Stein":1,"智能体":285,"数据基础层":1,"ETL":2,"token":22,"后训练":26,"PLG":11,"Google":46,"AWS":13}</script>
+<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Gonen Stein":1,"智能体":287,"数据基础":2,"ETL":2,"token":23,"后训练":26,"PLG":11,"Google":47,"AWS":13}</script>
 
 <script>
 (function(){

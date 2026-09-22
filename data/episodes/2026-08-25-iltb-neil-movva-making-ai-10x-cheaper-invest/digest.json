@@ -1,0 +1,202 @@
+{
+  "title_zh": "把 token 压到最便宜：一家「代币工厂」的算力拾荒术",
+  "tldr": "SAIL Research 创始人 Neil 讲解他如何为「后台长时运行的智能体」重构推理服务：自建软件栈、拾荒式收购冷门芯片与电力，把 token 成本压到全场最低。",
+  "digest_md": "这一集聊的是 AI 推理的下一站：当智能体不再实时回答你，而是在后台一口气跑上几个小时，整个技术栈该怎么重构。主角是 SAIL Research 的创始人 Neil——一个从大学起就在 NVIDIA 写 GPU 内核程序的性能工程师，如今他把自己的公司叫做「代币工厂(token factory)」:一个 API,任何人都能用它以市场上最低的价格调用开源大模型，还能在上面跑长时间运行的智能体虚拟机。他的北极星只有一条：把每 token 的成本做到全行业最低，而且要遥遥领先。\n\n## 为什么押「后台」而不是「低延迟」\n\nNeil 看到的市场裂缝来自一次需求转向。过去几年，Base 10、Fireworks 这些推理公司全都在卷低延迟，因为被 Cursor 这样的客户拉着走；但大约半年前起，客户要的更多是持续性、长时程任务。他的判断很干脆：「智能体推理的未来就是长时程任务」——机器一次跑几个小时甚至几天，每秒 100 个 token 没必要，每秒 10 个只要更便宜就完全没问题。他的诀窍是不让你等待：「最好的延迟就是完全没有延迟。当你早上醒来，工作已经在夜间完成了，你甚至不需要去请求它。」\n\n信心的依据是测试时计算扩展——给智能体更多时间，它会给出更好的答案。这个想法两年前就被理论化，但直到 Opus 4.5 出现才真正值得押注。如今智能体已经能一次跑一个小时，把平均任务长度连点成线就是一条指数曲线。他预测今年后台与实时工作负载大约五五开，最终会走向九比一、偏向后台。深度研究和网络安全是当下的顶级场景：客户 ParallelWebSystems 在给整个互联网建实时索引；安全领域甚至有了个玩笑——「安全已经变成了工作量证明」，软件有多安全，取决于你花了多少钱在破解它的智能体上。\n\n## 从 NVIDIA 学到的：每一块 GPU 里都有速度与成本的权衡\n\nNeil 职业生涯的底色来自 NVIDIA。大学时他进了那个为机器学习改造游戏芯片的软件团队，学到了「光速」精神——对任何硬件，只追可能性的边界。直到今天他对工程师的要求依然是：「我们追求的是 100% 光速。我不在乎相对于竞争对手的数字，只在乎绝对数字。」\n\n关键技术事实是：GPU 本质是吞吐量机器，在你给它大批量工作时最开心；但聊天机器人场景要的是低延迟，两者在每一块 GPU 上都存在根本性权衡——像公交与小车，公交载人多、路线慢，小车直达但只载你一个。所有人都选了延迟优化，而 Neil 认为转向后台智能体后，围绕吞吐量建栈才合理，这是「未来一年最深刻的变化」。这也是他对 NVIDIA 的反主流判断之一：NVLink(把计算任务切碎分给多块 GPU 协作)是低延迟推理的必需品，但八倍硬件换不来八倍速度，是亚线性扩展，他宁可用专家并行、流水线并行等别的方案。\n\n关于这类超低延迟硬件，他的解释很清楚：SRAM(片上快内存)速度可达每秒 21 PB,但密度只有 DRAM 的千分之一左右；这类加速器擅长放权重，却搞不定随对话不断增长的 KVCache(模型为记住上下文而存的中间状态)。所以他主张混合架构——注意力放 GPU,权重放加速器，「原罪」在于 Transformer 把一个内存受限的层和一个计算受限的层焊在了一起。\n\n> 【背景】文中所述「超低延迟硬件」，业界代表性产品包括 Cerebras 的晶圆级加速器等。\n\n## 拾荒者策略：没有坏芯片，只有坏定价\n\n硬件之外，Neil 的商业打法自称为「拾荒者」：「首先我们搜寻芯片，然后再为这些芯片搜寻电力。在这两种情况下，我都不想和 Anthropic 或 OpenAI 竞价——我赢不了他们，也不想赢。」他的信条是「没有坏芯片，只有坏定价，只要价格合适我能让任何芯片运转起来」。AMD 被人认为不如 NVIDIA,这对他「简直是悦耳的音乐」——他很乐意别人睡在这芯片上，自己去能买多少买多少。\n\n电力端同理。如今在美国建吉瓦级数据中心几乎不可能，但 1 兆瓦的电力是充裕的——液冷之后，一兆瓦算力只需八个冰箱大小的机架。训练要求所有算力集中一处，推理不需要，所以他乐于在全美收购分散的小算力池。他甚至愿意接受 95% 甚至 80% 在线率的数据中心，砍掉备用柴油发电机和冗余光纤：「一个只有 95% 在线率的数据中心基本不会有买家。我就是那个买家。」因为后台运行的智能体不在乎单次回合偶尔多几分钟，客户睡得着；连风电光伏的间歇性都可以接受——天气可预测，负载挪走就行。终极愿景是一千个小数据中心组成的大军对阵一个吉瓦巨舰：「我们想建世界上最好的钢铁厂，但通过小钢厂，而不是大型整体钢铁厂。」\n\n## 他看到的浪费与反弹共识\n\n他认为今天最大的浪费不在算力本身——稀疏的 MoE 模型已经很省——而在内存与调度：KVCache 每 token 存几千字节，「差了一到两个数量级」;NVIDIA 今年产出 500 万颗 Blackwell,大量 GPU 却闲置在私有池里。「看到那些 GPU 只是硅片和电力的投入却闲置在那里，我身体上都感到痛苦。」\n\n对外部叙事他也有逆向观点。关于算力泡沫，他类比 25 年前的思科与英特尔：当年网络设备投资是投机的，而 token 买了就立即用、无法囤积，训练才是投机的，推理支出没有投机、单调递增。关于 NVIDIA,他短期看多、但指出从 Hopper 到 Blackwell,同等精度下每瓦性能并没有提升太多；如果失去台积电，「不会那么糟」——西方最好制程最坏也就 2 倍每瓦差距，远小于芯片论坛上的喧嚣。关于闭源与开源：实验室为领先三到六个月支付巨大溢价，但他不信这个溢价能持续很久——企业部署的速度根本不是三到六个月的节奏；至于蒸馏是「盗窃」的说法，他认为信息与模型能力的扩散在根本上无法阻止，GitHub 上大量由 Claude Code 产生的代码本身就是「隐性蒸馏」。\n\n## 本集带走\n\n- **挑客户的本质是挑工作负载形态**：低延迟服务人类注意力(有上限)，后台任务没有人在循环中，token 消耗无上限——这是整个商业模式差异的根源。\n- **把「不可接受」重新定价**：95% 在线率、非 NVIDIA 芯片、间歇性绿电、小散电力，每一项对训练都是死罪，对可容错的异步推理只是线性折价——先想清楚自己的负载容忍什么，再谈成本。\n- **软件先行，榨干硬件**：手写内核已过时，「我们在白板上写内核」——人做概念设计，模型去实现；向 100% 光速看齐，只看绝对数字不看相对优势。\n- **判断一个 AI 芯片创业公司，先问供应链瓶颈**：台积电晶圆、HBM、先进封装、电力——四个瓶颈各有答案才能活，因为「说到底这一切都是套利」。\n- **机器能思考这件事的意义**：他相信智能需求永远存在，入口才是产品挑战；未来对任何科学问题给出确定答案的成本，可能从数百万降到数百甚至数十美元。\n\n> 【背景】本集出自 Patrick O'Shaughnessy 的播客《Invest Like the Best》。嘉宾姓名转写稿中拼法不一(Nova / Mova),公司名亦有 SAIL/CLResearch 等写法，均指同一家推理公司。",
+  "quotes": [
+    {
+      "en": "Long-term, I think, you know, we're going to end this year at maybe 50-50 background and real-time workloads, but I see this going to 90-10 in favor of background.",
+      "zh": "长期来看，我认为今年我们会以大概五五开的后台与实时工作负载收尾，但我看到这会走向九比一、偏向后台。",
+      "timestamp": "08:37",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "At some point, people started to make this joke that security has become proof of work.",
+      "zh": "在某个时候，人们开始开这个玩笑：安全已经变成了工作量证明。",
+      "timestamp": "10:05",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "To this day, I tell all my engineers, we're chasing 100% speed of light.",
+      "zh": "直到今天，我告诉我所有的工程师：我们追求的是 100% 光速。",
+      "timestamp": "18:17",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "And the key to that is incredibly cheap intelligence.",
+      "zh": "而其中的关键就是极其廉价的智能。",
+      "timestamp": "11:49",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "I like to say there's no bad chips. There's only bad pricing.",
+      "zh": "我喜欢说：没有坏芯片，只有坏定价。",
+      "timestamp": "45:11",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "I'm very happy for them to sleep on this chip and for me to buy as much as I can.",
+      "zh": "我非常乐意让他们继续睡在这芯片上，而我去能买多少就买多少。",
+      "timestamp": "45:48",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "So one of the ways that I describe what we do is we will buy any chip anywhere in the world for any duration of time.",
+      "zh": "我描述我们所做的事情的方式之一是：我们会购买世界上任何地方、任何时长、任何芯片。",
+      "timestamp": "53:59",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "You'd have basically zero buyers for a data center that has 95% uptime. I'm that first buyer. I will buy 95% uptime.",
+      "zh": "一个只有 95% 在线率的数据中心基本上不会有买家。我就是那个买家，我会买 95% 在线率的。",
+      "timestamp": "55:02",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "Well, first we scavenge chips and then we scavenge power for those chips.",
+      "zh": "首先，我们搜寻芯片；然后，我们再为这些芯片搜寻电力。",
+      "timestamp": "57:44",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "We're trying to build the best steel factory in the world, but it will come through mini mills, not through large monolithic steel plants.",
+      "zh": "我们想建世界上最好的钢铁厂，但它会通过小钢厂来实现，而不是通过大型整体钢铁厂。",
+      "timestamp": "58:11",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "It pains me physically to see that those GPUs are just silicon and power going into that and it's just sitting idle and I want to fix that.",
+      "zh": "看到那些 GPU 只是硅片和电力的投入却闲置在那里，我身体上都感到痛苦，我想修复这个问题。",
+      "timestamp": "62:15",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "I don't think it's fundamentally possible to prevent the diffusion of information or model capabilities.",
+      "zh": "我不认为在根本上可以阻止信息或模型能力的扩散。",
+      "timestamp": "67:51",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "My job is to make the tokens as cheap as humanly possible.",
+      "zh": "我的工作就是把 token 做到人类可能做到的最低价。",
+      "timestamp": "69:39",
+      "speaker": "Neil Movva"
+    },
+    {
+      "en": "It's incredible that the machine can think and we should try to get that into as many hands as as many people as possible.",
+      "zh": "机器能够思考是件不可思议的事，我们应该尽力把它交到尽可能多的人手中。",
+      "timestamp": "70:05",
+      "speaker": "Neil Movva"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:51",
+      "speaker": "嘉宾",
+      "en": "One way to say it is like the best latency is no latency at all.",
+      "zh": "一种说法是：最好的延迟就是完全没有延迟。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "嘉宾",
+      "en": "You don't manage your colleagues every five minutes.",
+      "zh": "你不会每五分钟管理一次你的同事。"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "嘉宾",
+      "en": "Long-term, I think, you know, we're going to end this year at maybe 50-50 background and real-time workloads, but I see this going to 90-10 in favor of background.",
+      "zh": "长期来看，我认为今年我们会以大概五五开的后台与实时工作负载收尾，但我看到这会走向九比一、偏向后台。"
+    },
+    {
+      "timestamp": "10:09",
+      "speaker": "嘉宾",
+      "en": "At some point, people started to make this joke that security has become proof of work.",
+      "zh": "在某个时候，人们开始开这个玩笑：安全已经变成了工作量证明。"
+    },
+    {
+      "timestamp": "18:21",
+      "speaker": "嘉宾",
+      "en": "To this day, I tell all my engineers, we're chasing 100% speed of light.",
+      "zh": "直到今天，我告诉我所有的工程师：我们追求的是 100% 光速。"
+    },
+    {
+      "timestamp": "20:23",
+      "speaker": "嘉宾",
+      "en": "I believe that's the most profound change we're going to see in the next year.",
+      "zh": "我认为这是未来一年我们将看到的最深刻的变化。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "嘉宾",
+      "en": "And the key to that is incredibly cheap intelligence.",
+      "zh": "而其中的关键就是极其廉价的智能。"
+    },
+    {
+      "timestamp": "45:11",
+      "speaker": "嘉宾",
+      "en": "I like to say there's no bad chips. There's only bad pricing.",
+      "zh": "我喜欢说：没有坏芯片，只有坏定价。"
+    },
+    {
+      "timestamp": "45:48",
+      "speaker": "嘉宾",
+      "en": "I'm very happy for them to sleep on this chip and for me to buy as much as I can.",
+      "zh": "我非常乐意让他们继续睡在这芯片上，而我去能买多少就买多少。"
+    },
+    {
+      "timestamp": "54:07",
+      "speaker": "嘉宾",
+      "en": "So one of the ways that I describe what we do is we will buy any chip anywhere in the world for any duration of time.",
+      "zh": "我描述我们所做的事情的方式之一是：我们会购买世界上任何地方、任何时长、任何芯片。"
+    },
+    {
+      "timestamp": "55:05",
+      "speaker": "嘉宾",
+      "en": "You'd have basically zero buyers for a data center that has 95% uptime. I'm that first buyer. I will buy 95% uptime.",
+      "zh": "一个只有 95% 在线率的数据中心基本上不会有买家。我就是那个买家，我会买 95% 在线率的。"
+    },
+    {
+      "timestamp": "57:49",
+      "speaker": "嘉宾",
+      "en": "Well, first we scavenge chips and then we scavenge power for those chips.",
+      "zh": "首先，我们搜寻芯片；然后，我们再为这些芯片搜寻电力。"
+    },
+    {
+      "timestamp": "58:11",
+      "speaker": "嘉宾",
+      "en": "We're trying to build the best steel factory in the world, but it will come through mini mills, not through large monolithic steel plants.",
+      "zh": "我们想建世界上最好的钢铁厂，但它会通过小钢厂来实现，而不是通过大型整体钢铁厂。"
+    },
+    {
+      "timestamp": "62:15",
+      "speaker": "嘉宾",
+      "en": "It pains me physically to see that those GPUs are just silicon and power going into that and it's just sitting idle and I want to fix that.",
+      "zh": "看到那些 GPU 只是硅片和电力的投入却闲置在那里，我身体上都感到痛苦，我想修复这个问题。"
+    },
+    {
+      "timestamp": "67:51",
+      "speaker": "嘉宾",
+      "en": "I don't think it's fundamentally possible to prevent the diffusion of information or model capabilities.",
+      "zh": "我不认为在根本上可以阻止信息或模型能力的扩散。"
+    },
+    {
+      "timestamp": "69:39",
+      "speaker": "嘉宾",
+      "en": "My job is to make the tokens as cheap as humanly possible.",
+      "zh": "我的工作就是把 token 做到人类可能做到的最低价。"
+    },
+    {
+      "timestamp": "70:04",
+      "speaker": "嘉宾",
+      "en": "It's incredible that the machine can think and we should try to get that into as many hands as as many people as possible.",
+      "zh": "机器能够思考是件不可思议的事，我们应该尽力把它交到尽可能多的人手中。"
+    },
+    {
+      "timestamp": "72:24",
+      "speaker": "嘉宾",
+      "en": "I am bullish on NVIDIA in the short term and NVIDIA, you should never bet against them.",
+      "zh": "我短期看多 NVIDIA,而且对 NVIDIA 你永远不该押注它失败。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Neil,是 SAIL Research 的创始人。从大学起就在 NVIDIA 写 GPU 内核程序，是个不折不扣的性能工程师。如今把自己的公司叫做「代币工厂」——说白了就是提供一个 API,任何人都能用市场上最低的价格调用开源大模型，还能在上面跑长时间运行的智能体虚拟机。北极星只有一条：把每 token 的成本做到全行业最低，而且要遥遥领先。\n\n这一集聊的就是：为了做到这件事，整个推理服务的技术栈该怎么从根上重构。\n\n先说思路的起点。过去几年，Base 10、Fireworks 这些推理公司全在卷低延迟，因为客户是 Cursor 这种实时写代码的工具，机器必须秒回。但大约半年前起，需求变了——客户要的是持续性、长时程任务。Neil 的判断很干脆：智能体推理的未来就是长时程任务。机器一次跑几个小时甚至几天，每秒一百个 token 没必要，每秒十个只要更便宜就完全没问题。诀窍是不让你等待，原话是：「最好的延迟就是完全没有延迟。当你早上醒来，工作已经在夜间完成了，你甚至不需要去请求它。」\n\n为什么敢这么押？依据是测试时计算扩展——给智能体更多时间，它会给出更好的答案。这个想法两年前就被理论化了，但直到 Opus 4.5 出现才真正值得押注。如今智能体已经能一次跑一个小时，把平均任务长度连点成线，就是一条指数曲线。预测是：今年后台和实时的负载大概五五开，最终会走到九比一、偏向后台。深度研究和网络安全是眼下最顶的场景，安全圈甚至有个玩笑——「安全已经变成了工作量证明」，软件有多安全，取决于你花了多少钱在破解它的智能体上。\n\n那现成的硬件为什么不行？这就得回到在 NVIDIA 学到的东西。GPU 本质是吞吐量机器，喂大批量的活最开心；聊天机器人要的是低延迟，两者在一块芯片上是根本性权衡，像公交和小车——公交载人多但路线慢，小车直达但只载你一个。所有人都选了延迟优化，而一旦转向后台智能体，围绕吞吐量建栈才合理，这被称为「未来一年最深刻的变化」。对 NVIDIA 还有条反主流判断：NVLink 那种把任务切碎分给多块 GPU 协作的方案，是低延迟推理的必需品，但八倍硬件换不来八倍速度，是亚线性扩展，宁可用专家并行、流水线并行这些别的路子。\n\n看清了这个权衡，商业打法也跟着变了，就是自称的「拾荒者」策略。原话是：「首先我们搜寻芯片，然后再为这些芯片搜寻电力。在这两种情况下，我都不想和 Anthropic 或 OpenAI 竞价——我赢不了他们，也不想赢。」信条是「没有坏芯片，只有坏定价」。AMD 被人认为不如 NVIDIA,这听在耳朵里「简直是悦耳的音乐」——很乐意别人继续睡在这芯片上，自己能买多少就买多少。\n\n电力端同理。如今在美国建吉瓦级数据中心几乎不可能，但一兆瓦的电力是充裕的，液冷之后只需八个冰箱大小的机架。训练要求算力集中一处，推理不需要，所以乐于在全美收购分散的小算力池。甚至愿意接受只有 95% 或 80% 在线率的数据中心，砍掉备用柴油发电机和冗余光纤——原话说：「一个只有 95% 在线率的数据中心基本不会有买家。我就是那个买家。」因为后台运行的智能体不在乎偶尔多几分钟，客户睡得着；连风电光伏的间歇性都能接受，天气可预测，负载挪走就行。终极愿景是一千个小数据中心组成的大军，对阵一个吉瓦巨舰：「我们想建世界上最好的钢铁厂，但通过小钢厂，而不是大型整体钢铁厂。」\n\n软件这一层也没落下。在 NVIDIA 学到的「光速」精神至今是要求：「我们追求的是 100% 光速。我不在乎相对于竞争对手的数字，只在乎绝对数字。」而手写内核已经过时了，现在是「在白板上写内核」——人做概念设计，模型去实现。\n\n对行业里的一些热门叙事，看法也是逆向的。关于算力泡沫，类比 25 年前的思科和英特尔：当年网络设备投资是投机的，而 token 买了就立即用、无法囤积；投机的其实是训练，推理支出单调递增。关于 NVIDIA,短期看多，但也指出从 Hopper 到 Blackwell,同等精度下每瓦性能没提升太多；就算失去台积电，「不会那么糟」，西方最好制程最坏也就两倍每瓦的差距，远小于芯片论坛上的喧嚣。至于闭源领先开源三到六个月、实验室为此收巨大溢价——不信这溢价能持续，因为企业部署的速度根本不是三到六个月的节奏。\n\n最容易被忽略的浪费，不在算力本身，而在内存和调度：KVCache 每 token 存几千字节，差了一到两个数量级；NVIDIA 今年产出五百万颗 Blackwell,大量 GPU 却闲置在私有池里。原话形容：「看到那些 GPU 只是硅片和电力的投入却闲置在那里，我身体上都感到痛苦。」\n\n这一集真正值得带走的是一条思路：先想清楚自己的负载容忍什么，再谈成本。95% 在线率、非主流芯片、间歇性绿电，每一项对训练都是死罪，对可容错的异步推理只是线性折价。判断一家 AI 芯片公司，先问台积电晶圆、HBM、先进封装、电力这四个瓶颈的答案，因为「说到底这一切都是套利」。而支撑这一切的信念只有一句：机器能思考这件事的意义，关键就是极其廉价的智能。"
+}

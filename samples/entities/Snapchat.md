@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Snap]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Peter Sellis]] · [[Google]] · [[Spectacles]] · [[Discord]] · [[AI Mode]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Snap":2,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Peter Sellis":1,"Google":46,"Spectacles":1,"Discord":5,"AI Mode":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Snap":2,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Peter Sellis":1,"Google":47,"Spectacles":1,"Discord":5,"AI Mode":1}</script>
 
 <script>
 (function(){

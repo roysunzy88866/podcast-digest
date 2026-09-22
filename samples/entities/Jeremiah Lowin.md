@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":49,"FastMCP":1,"Prefab":1,"智能体":285,"沙箱":53,"生成式 UI":2,"Claude":60}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":49,"FastMCP":1,"Prefab":1,"智能体":287,"沙箱":53,"生成式 UI":2,"Claude":60}</script>
 
 <script>
 (function(){

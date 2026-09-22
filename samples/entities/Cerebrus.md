@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cerebrus</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cerebrus">CE</div><div class="pi"><h1 class="pt">Cerebrus</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cerebrus">CE</div><div class="pi"><h1 class="pt">Cerebrus</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(24:51起):用晶圆级引擎堆 SRAM 做超低延迟加速器的公司，读取速度可达每秒 21 PB，但 SRAM 密度只有 DRAM 的千分之一，搞不定会增长的 KVCache，适合与 GPU 混合架构配合。
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(00:28起):本集主角 Andrew 创办并任 CEO 的晶圆级芯片公司：把整片晶圆做成一颗芯片，经历 18 个月做不出来的濒死期后实现量产，从训练系统转向推理，客户从美国政府、主权云做到 OpenAI。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为被讨论公司
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jack]] · [[Eric]] · [[Andrew Feldman]] · [[晶圆级]] · [[推理]] · [[NVIDIA]] · [[TSMC]] · [[数据中心]] · [[供应链]] · [[训练]]
+[[NVIDIA]] · [[AMD]] · [[TSMC]] · [[推理]] · [[OpenAI]] · [[Neil Movva]] · [[Jack]] · [[Patrick O'Shaughnessy]] · [[Eric]] · [[SAIL Research]]
 
-<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Andrew Feldman":1,"晶圆级":1,"推理":51,"NVIDIA":40,"TSMC":4,"数据中心":14,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":41,"AMD":4,"TSMC":5,"推理":52,"OpenAI":125,"Neil Movva":1,"Jack":1,"Patrick O'Shaughnessy":1,"Eric":1,"SAIL Research":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,142 @@
+{
+  "title_zh": "企业AI为什么卡壳:只有6%的大公司真正跑通了",
+  "tldr": "Scale AI 企业AI负责人 Emily Hsu(前 Google 11年、Google Brain 早期成员)拆解企业AI在哪三层失灵,以及那6%成功的公司做对了什么。",
+  "digest_md": "企业在 AI 上花了大钱,却普遍拿不到相称的回报——员工个人都在用聊天机器人和编码辅助,但组织层面几乎没变化。Scale AI 最近的一份研究报告给出的数字是:大型企业里真正把 AI 整合进业务、看到收益的只有 6%。说这话的人是 Emily Hsu,Scale AI 的企业 AI 负责人,此前在 Google 干了 11 年,是 Google Brain 早期成员,做过 Vertex 调优、评估、智能体引擎等云 AI 产品的工程负责人,更早之前是 Vanderbilt 大学的教授。既给前沿实验室供数据、又下到企业里做部署,这个位置让她看得格外清楚。\n\n## 第一层失灵:前沿模型的靶子根本没对准企业\n\n模型开发团队对企业需求的接触非常有限。每一次模型迭代——也就是数据飞轮:找模型差距、补数据、再训练——整个工程实践都掌握在没有业务接触的工程团队手里。结果就是大家极度以基准测试为导向,能力支柱是数学、推理、代码、对话、多轮安全,而「企业」这一项在所有前沿实验室的排行榜上,到 2025 年已经缩成一个非常窄的支柱。\n\n模型知道很多人类智力层面的知识,但具体到企业里:职业需求是什么、运营工作流是什么、哪些政策是超临界的关键——既没有评估标准,训练模型的人也没有这方面的直觉知识。能力差距的根本原因之一就在这里:企业世界的复杂性没有被很好地捕捉并呈现给实验室的开发者。而且「企业」是一个词,却不像「数学」「代码」那么简单——光是医疗健康,就有医疗机构、医疗中心、保险公司、制药公司,医疗机构里还分大型学术医疗中心和社区医疗,它们对 AI 的需求和「可接受的 AI 服务」标准完全不同。数学和代码之所以进步快,恰恰因为亲手做的人真正理解它们、也容易定义「什么是对的」,可验证奖励的强化学习因此大放异彩;企业领域连北极星都还没立起来。\n\n## 第二层失灵:二十年数字化欠下的账\n\n就算模型没问题,应用和智能体还得和企业环境集成:怎么通过认证访问正确的数据、怎么读懂企业服务背后那些表名各异的 API 和数据模式、怎么把企业内部的部落知识(只有老员工脑子里有、没写下来的经验)作为上下文喂给智能体——这些都是不简单的问题。\n\n更深的一层是过去二十年数字化的遗留。那波数字化里,信息的接收端是人,而人极其灵活:给我一份 PDF、一份手写笔记,不完美我也能看懂。Emily 举了与 Mayo Clinic 合作遇到的例子:大家以为电子病历都按 FHIR 标准数字化了,但总有病人不在网络内,带着几百页打印成 PDF 的历史病历来看病。人能糊弄过去的事,智能体糊弄不过去——现在必须回头重新审视:一个智能体能应付过去吗?也许不能。这些碎片化信息成了 AI 方案加速部署的真实障碍。\n\n## 第三层失灵:人在用,但组织没接住\n\n去企业问 AI 采用率,如果算上用 Claude Code、GPT 这些个人工具的人,采用率高得惊人——但没人是在协调一致的企业工作流里用的,只是各用各的提升个人效率。这带来两个问题:一是大量 IP 泄露,员工的提问和追问里含着企业机密、判断和隐性知识,全都流向了前沿实验室;二是这些极有价值的数字资产根本没被捕获、没在组织内沉淀成知识库,下一个接手项目的人继承不了前人积累。主持人 Kevin Ball 点破了另一个现象:只把个人生产力提升丢进组织、不重新思考组织本身,最终只会被下一个没提速的层级卡住瓶颈,组织层面的提升远低于预期。\n\n技术问题的解法其实在人的手里。如果领导层不认可 ROI,团队就没有清晰的成功标准,人们很容易在一份惊艳的 demo 处停步不前——东西被丢在无人问津的角落,永远不进入产品化。所以最重要的是高层先在北极星成功指标上达成一致,再倒推出技术路线图。\n\n## 那 6% 的赢家做对了什么\n\n报告先严格定义了「成功」:项目从试点真正进入生产环境、并与工作流做了有意义整合(用具体的使用指标衡量)。Emily 强调他们做的是相关性而非因果归因——像做机器学习一样捕捉共同属性。三条共性:\n\n**一、数据基础是先决条件。** 不意外,但绕不过去:没有数据,AI 什么都做不了。这是个先有鸡还是先有蛋的问题,不过 AI 以正确方式进场后也能反哺——比如实体消解(把不同表里对同一企业实体的不同命名对齐)这个老问题,大语言模型凭预训练的词汇知识做得比传统方法好得多,先把数据资产归一化、标准化、关联起来,下一层智能体才能在其上释放更多能力。这是个迭代过程,但基础必须先打牢。\n\n**二、变革管理前置。** 早期就有高层背书、承诺变革管理、投入员工培训资源(个人工具和企业工作流 AI 的步骤和界面都不一样),让员工参与共同开发、把 AI 当成工作流里的副驾驶——这样采用成功率会大幅提高。\n\n**三、内外专长结合。** 只买产品,即使配定制咨询团队,仍要面对与工作流和企业上下文集成的问题;全部自建,内部团队通常缺少对 AI 技术的深入理解。6% 的赢家是战略性地把内部领域知识(这个东西什么时候有用、怎么用、什么结果能真正改变工作流和决策)与外部专业伙伴的 AI 模型、应用开发、系统开发专长结合起来。\n\n## 评估:非确定性世界里的「单元测试」\n\nEmily 称这是她最喜欢的话题。评估有三个要素:评估对象(智能体本身,加上它运行的环境——连接的工具、服务 API、后端数据库、文件系统、知识库,换了环境结果就变,这就是健壮性问题)、测试用例集(像软件测试一样覆盖正常路径、典型情况和边缘情况,她以患者安全分诊智能体为例:正面案例要命中上百条安全标准的各类事件,还要设计负面案例、困难负面案例、证据缺失的歧义场景)、以及输出的好坏判定与非确定性下的稳健性。\n\n最难的一环是环境:行业里由真实数据支撑的评估环境极为有限——真实企业数据有隐私和法律约束,不用真实数据,数据内部复杂的依赖关系又无法真实还原。目前的折中是用性质相似、语义域相近的过期数据做匿名化,寻找代理数据来构建相似环境。但 Emily 坦承:模拟与真实之间的差距始终存在,这仍是开放研究问题。\n\n## 人在回路:先是责任,再谈信任\n\n智能体进企业后,有一个长期不变的基础:谁来为输出和决策负责?不能说「这是 AI 干的」——人类要长久地为 AI 的决策和工作成果承担责任。战术层面则是分阶段的:在智能体于生产环境积累足够信任之前,人始终在回路里——模糊情况由人分诊、高风险操作由人确认、AI 产出的洞见由人审查是否符合业务政策。随着信任建立、产品成熟,再逐步自动化高置信度的操作,用初期较高的监督成本换可靠可信的部署。\n\n这里还有个开放问题:AI 与人之间的认知界面到底是什么?现在的工具动不动就弹「确认」,确认多了人会疲劳,之后就不再能做正确判断了。研究方向是校准——让 AI 知道什么节点才真正需要人类输入、它自己什么时候不确定。大语言模型的默认界面根本不暴露置信度,token 级的 logits 分布(模型输出前每个候选词的概率分布,能看出模型是笃定还是摇摆)或许能延伸到智能体和任务层面的校准置信度——目前仍是开放研究,而 Emily 认为随着生产化和人机协作加深,人们应该在这里投入更多。\n\n## 本集带走\n\n- **先立北极星,再谈技术**:领导层不在 ROI 和成功指标上达成一致,项目就会停在 demo 阶段、永远不产品化。\n- **数据烂摊子绕不过去**:没有数据 AI 无事可做;先用 AI 做实体消解这类基础工作把数据资产归一化,上层智能体才有地基——这是迭代,不是一次到位。\n- **别只发个人工具**:员工各用各的 AI 意味着 IP 泄露加知识流失;要把提问和解决方案沉淀成组织知识库。\n- **买还是建是假问题**:内部领域知识(什么时候有用、怎么用)配上外部 AI 开发专长,才是 6% 赢家的共同姿势。\n- **找到正确的试点用例起步**:要真正有价值(不是玩具)、有数据和资源就绪、内外专长能支撑落地——第一个成功试点会复利式滚向生产上线。\n- **评估学软件测试**:定义评估对象和环境、策略性覆盖正例/负例/困难负例/歧义场景,再接受模拟与真实之间永远有差距、靠生产环境里的信任积累来补。",
+  "quotes": [
+    {
+      "en": "Every model iteration, which we call data flywheel, understanding where the model gaps are and how to contribute data, train it, the whole engineering practice is pretty much owned by the engineering team who actually do not have the business exposure.",
+      "zh": "每一次模型迭代——我们称之为数据飞轮——理解模型的差距在哪里、如何贡献数据、训练它,这整个工程实践基本上由工程团队掌握,而他们并没有业务接触。",
+      "timestamp": "08:35",
+      "speaker": "Emily Hsu"
+    },
+    {
+      "en": "But if you just drop a bunch of individual productivity improvements into an organization without rethinking about your organization, you often end up just bottlenecked on the next layer that didn't speed up the same amount.",
+      "zh": "但如果你只是把一堆个人生产力的提升丢进一个组织,而不重新思考你的组织,你往往最终只是被下一个没有同步提速的层级卡住瓶颈。",
+      "timestamp": "21:09",
+      "speaker": "Kevin Ball"
+    },
+    {
+      "en": "The first one is there could be a lot of IP leakage, because when you interact with an individual tool, all the queries you have, all the questions you have, there are a lot of enterprise confidential information.",
+      "zh": "第一个是可能存在大量 IP 泄露,因为当你与个人工具交互时,你所有的查询、所有的问题,其中有大量企业机密信息。",
+      "timestamp": "22:21",
+      "speaker": "Emily Hsu"
+    },
+    {
+      "en": "And when people are actually getting used to just interacting with the individual productivity tools, all this digital asset, all this implicit knowledge are actually not captured and shared across the organization.",
+      "zh": "而当人们习惯了只与个人生产力工具交互时,所有这些数字资产、所有这些隐性知识实际上都没有被捕获,也没有在组织内共享。",
+      "timestamp": "23:08",
+      "speaker": "Emily Hsu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:35",
+      "speaker": "Unknown",
+      "en": "Every model iteration, which we call data flywheel, understanding where the model gaps are and how to contribute data, train it, the whole engineering practice is pretty much owned by the engineering team who actually do not have the business exposure.",
+      "zh": "每一次模型迭代——我们称之为数据飞轮——理解模型的差距在哪里、如何贡献数据、训练它,这整个工程实践基本上由工程团队掌握,而他们并没有业务接触。"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Unknown",
+      "en": "And the enterprise, it's a single word, but it's not as simple as math and code.",
+      "zh": "而企业,它是一个词,但它不像数学和代码那么简单。"
+    },
+    {
+      "timestamp": "12:07",
+      "speaker": "Unknown",
+      "en": "And the complexity is not very well captured and presented to the labs developers.",
+      "zh": "而这种复杂性没有被很好地捕捉并呈现给实验室的开发者。"
+    },
+    {
+      "timestamp": "14:25",
+      "speaker": "Unknown",
+      "en": "Human are extremely flexible and they are able to tolerate, like, you know, give me a PDF, give me a handwritten notes.",
+      "zh": "人类极其灵活,他们能够容忍,比如,给我一份 PDF,给我一份手写笔记。"
+    },
+    {
+      "timestamp": "15:52",
+      "speaker": "Unknown",
+      "en": "Now we have to go back and revisit and say, well, can an agent paper over it? Maybe not.",
+      "zh": "现在我们必须回头重新审视,说,那么,一个智能体能应付过去吗?也许不能。"
+    },
+    {
+      "timestamp": "19:33",
+      "speaker": "Unknown",
+      "en": "People could easily pause at impressive demo and not pushing forward because there's no incentive to show the fundamental return and the impact, economical impact to the solution, right?",
+      "zh": "人们很容易在令人印象深刻的 demo 处停步而不继续推进,因为没有激励去展示根本性的回报以及对解决方案的影响、经济上的影响,对吧?"
+    },
+    {
+      "timestamp": "21:22",
+      "speaker": "Unknown",
+      "en": "But if you just drop a bunch of individual productivity improvements into an organization without rethinking about your organization, you often end up just bottlenecked on the next layer that didn't speed up the same amount.",
+      "zh": "但如果你只是把一堆个人生产力的提升丢进一个组织,而不重新思考你的组织,你往往最终只是被下一个没有同步提速的层级卡住瓶颈。"
+    },
+    {
+      "timestamp": "22:36",
+      "speaker": "Unknown",
+      "en": "The first one is there could be a lot of IP leakage, because when you interact with an individual tool, all the queries you have, all the questions you have, there are a lot of enterprise confidential information.",
+      "zh": "第一个是可能存在大量 IP 泄露,因为当你与个人工具交互时,你所有的查询、所有的问题,其中有大量企业机密信息。"
+    },
+    {
+      "timestamp": "23:08",
+      "speaker": "Unknown",
+      "en": "And when people are actually getting used to just interacting with the individual productivity tools, all this digital asset, all this implicit knowledge are actually not captured and shared across the organization.",
+      "zh": "而当人们习惯了只与个人生产力工具交互时,所有这些数字资产、所有这些隐性知识实际上都没有被捕获,也没有在组织内共享。"
+    },
+    {
+      "timestamp": "27:03",
+      "speaker": "Unknown",
+      "en": "It's a chicken-egg problem, right? If you don't have the data, then AI will not do anything.",
+      "zh": "这是个先有鸡还是先有蛋的问题,对吧?如果你没有数据,AI 就什么都做不了。"
+    },
+    {
+      "timestamp": "27:58",
+      "speaker": "Unknown",
+      "en": "So it's an iterative process, but you need to have the foundation together first.",
+      "zh": "所以这是一个迭代的过程,但你首先需要把基础打牢。"
+    },
+    {
+      "timestamp": "31:35",
+      "speaker": "Unknown",
+      "en": "They strategically combine the internal expertise, which is that domain knowledge in terms of when this is useful, how to use it, and what outcome is actually going to change the workflow and decisions, with the specialized partners who actually bring in the expertise regarding AI models, AI application development, and system development.",
+      "zh": "他们战略性地把内部专业知识——即领域知识,比如这个东西什么时候有用、怎么使用、什么结果会真正改变工作流和决策——与专业合作伙伴结合起来,后者真正带来关于 AI 模型、AI 应用开发和系统开发的专业知识。"
+    },
+    {
+      "timestamp": "39:21",
+      "speaker": "Unknown",
+      "en": "But I agree with you, this seem to real is always a gap.",
+      "zh": "但我同意你的看法,模拟与真实之间始终存在差距。"
+    },
+    {
+      "timestamp": "45:54",
+      "speaker": "Unknown",
+      "en": "I think the human is going to play a long-lasting role in being responsible for the AI decisions and what the work from the AI is.",
+      "zh": "我认为人类在为 AI 的决策和 AI 的工作成果负责这件事上会扮演一个长久持续的角色。"
+    },
+    {
+      "timestamp": "49:44",
+      "speaker": "Unknown",
+      "en": "So to your point, I feel like people are still trying to figure out what is the cognitive interface between AI and human, right?",
+      "zh": "所以正如你所说,我觉得人们还在试图弄清楚 AI 和人之间的认知界面是什么,对吧?"
+    },
+    {
+      "timestamp": "50:11",
+      "speaker": "Unknown",
+      "en": "After a while I got fatigue, right?",
+      "zh": "过了一段时间我就疲劳了,对吧?"
+    },
+    {
+      "timestamp": "51:43",
+      "speaker": "Unknown",
+      "en": "And then people are still thinking of like talking about sometimes the agents are overconfident on many things.",
+      "zh": "然后人们还在思考、还在讨论,有时候智能体在很多事情上过度自信。"
+    },
+    {
+      "timestamp": "54:13",
+      "speaker": "Unknown",
+      "en": "So it is basically find the sweet spot to start with and the success would compound from the first successful pilot to production launch.",
+      "zh": "所以基本上就是找到一个最佳切入点来起步,然后成功会从第一个成功的试点复利式地累积到生产上线。"
+    }
+  ],
+  "voice_script": "今天聊一个扎心的话题:企业花大价钱上了 AI,为什么就是见不到回报?Scale AI 最近有份研究报告,数字是——大型企业里,真正把 AI 整合进业务、看到收益的,只有百分之六。讲这个事的人叫 Emily Hsu,是 Scale AI 的企业 AI 负责人。之前在 Google 干了十一年,是 Google Brain 的早期成员,做过云 AI 产品的工程负责人,更早还是大学的教授。这个位置很特殊:既给前沿实验室供数据,又下到企业里做部署,所以看得特别清楚。那这百分之九十四为什么失败?她说问题出在三层,咱们一层一层讲。\n\n第一层,是前沿模型的靶子根本没对准企业。先交代个背景:模型是怎么进步的?靠一个叫数据飞轮的东西——找到模型的差距在哪、补数据、再训练,一轮一轮转。问题是,这整套工程实践,掌握在工程团队手里,而这些工程师基本没有业务接触。结果就是整个行业极度以基准测试为导向,能力支柱是数学、推理、代码、对话、安全。而\"企业\"这一项呢?在所有前沿实验室的排行榜上,到二〇二五年已经缩成很窄的一条。模型知道很多人类智力层面的知识,但具体到企业里——职业需求是什么、工作流是什么、哪些政策是关键——既没有评估标准,训练模型的人也没有直觉。为什么数学和代码进步飞快?因为做的人真懂它们,容易定义什么是对的,可验证奖励的强化学习因此大放异彩。企业领域呢,连北极星都还没立起来。而且\"企业\"听起来是一个词,其实复杂得很——光医疗健康,就分医疗机构、保险公司、制药公司,医疗机构里还分大型学术医疗中心和社区医疗,对 AI 能接受什么,标准完全不同。\n\n那你可能会说,模型差点没关系,拿来集成不就行了?这就到第二层失灵:应用和智能体要跟企业环境集成,这步本身也难。怎么通过认证访问正确的数据、怎么读懂那些表名各异的 API、怎么把部落知识——就是只有老员工脑子里有、没写下来的经验——喂给智能体,都不简单。更深的一层,是过去二十年数字化欠下的账。那波数字化里,接收信息的是人,而人极其灵活:给我一份 PDF、一份手写笔记,不完美我也能看懂。Emily 举了个跟 Mayo Clinic 合作的例子:大家以为电子病历都标准化了,但总有病人带着几百页打印成 PDF 的历史病历来看病。人能糊弄过去的事,智能体糊弄不过去。这些碎片化信息,成了 AI 部署的真实障碍。\n\n第三层失灵最讽刺:人在用,但组织没接住。去企业问 AI 采用率,算上用个人工具的人,高得惊人——但没人是在统一的企业工作流里用的,全在各自提升个人效率。这带来两个问题。一是大量 IP 泄露,员工的提问和追问里含着企业机密和隐性知识,全都流向了前沿实验室。二是这些极有价值的数字资产根本没被捕获、没沉淀成知识库,下一个人接手项目,继承不了前人的积累。主持人 Kevin Ball 把这个现象点破了:只把个人生产力的提升丢进组织,而不重新思考组织本身,最终只会被下一个没同步提速的层级卡住瓶颈。所以技术问题的解法,其实在人的手里——如果领导层不认可回报,团队就没有清晰的成功标准,人们很容易在一份惊艳的 demo 处停步,东西被丢在无人问津的角落,永远不产品化。所以最重要的是,高层先在北极星成功指标上达成一致,再倒推出技术路线图。\n\n好,那做成的那百分之六,做对了什么?报告先严格定义了\"成功\":项目从试点真正进入生产环境、跟工作流做了有意义整合。有三条共性。第一条,数据基础是先决条件。不意外,但绕不过去:没有数据,AI 什么都做不了。好在这是个可以迭代的事——举个例子,实体消解,就是把不同表里对同一实体的不同命名对齐,这个老问题,大语言模型做得比传统方法好得多,先把数据归一化,上层智能体才有地基。第二条,变革管理前置。早期就有高层背书、投入员工培训,让员工参与共同开发、把 AI 当成工作流里的副驾驶,采用成功率会大幅提高。第三条,内外专长结合。只买产品,躲不开集成问题;全部自建,内部团队又通常缺对 AI 的深入理解。赢家是战略性地把内部领域知识和外部 AI 开发专长结合起来。所以买还是建,其实是个假问题。\n\n接着说评估,这是 Emily 说自己最喜欢的话题。可以类比软件测试:要定义评估对象——不只是智能体本身,还有它运行的环境,连的工具、后端数据库,换了环境结果就变;再准备测试用例集,覆盖正常路径、边缘情况,比如一个患者安全分诊智能体,正面案例要覆盖上百条安全标准,还要设计负面案例、困难负面案例、证据缺失的歧义场景。但最难的一环是环境:真实企业数据有隐私和法律约束,不用真实数据,又还原不了里面复杂的依赖。目前的折中是用性质相近的过期数据做匿名化,但 Emily 坦承,模拟与真实之间的差距始终存在,这仍是开放的研究问题。\n\n最后说人。智能体进了企业,有一条长期不变的基础:谁来负责?不能说\"这是 AI 干的\"——人类要长久地为 AI 的决策承担责任。战术上则是分阶段的:在智能体积累足够信任之前,人始终在回路里,模糊情况由人分诊、高风险操作由人确认。还有一个开放问题挺有意思:人和 AI 之间的认知界面到底是什么?现在的工具动不动就弹\"确认\",确认多了人会疲劳,之后反而做不了正确判断了。研究方向是校准——让 AI 知道什么节点才真正需要人,它自己什么时候不确定。\n\n总结一下这一集:先立北极星再谈技术,数据烂摊子绕不过去,别只发个人工具,买还是建是假问题,找到一个真正有价值的试点起步,第一个成功会复利式滚向生产上线。技术从来不是最难的那一环——那百分之六的赢家证明,先对齐人、先打牢数据,AI 才真正进得了企业。"
+}

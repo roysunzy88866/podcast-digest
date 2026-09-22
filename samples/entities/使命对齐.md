@@ -25,7 +25,7 @@ unlisted: true
 
 [[Amandeep Khurana]] · [[Anthropic]] · [[Amazon]] · [[AWS]] · [[Cloudera]] · [[Databricks]] · [[Palantir]] · [[Microsoft]] · [[Lovable]] · [[前向部署工程师]]
 
-<script type="application/json" class="pd-epn">{"Amandeep Khurana":1,"Anthropic":131,"Amazon":14,"AWS":13,"Cloudera":1,"Databricks":14,"Palantir":18,"Microsoft":25,"Lovable":15,"前向部署工程师":7}</script>
+<script type="application/json" class="pd-epn">{"Amandeep Khurana":1,"Anthropic":132,"Amazon":14,"AWS":13,"Cloudera":1,"Databricks":14,"Palantir":18,"Microsoft":25,"Lovable":15,"前向部署工程师":1}</script>
 
 <script>
 (function(){

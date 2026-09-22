@@ -183,8 +183,8 @@ Lin 给出几个关键数字：Fireworks 每天处理超过 40 万亿 [[token|to
 **顺着「智能体」挖下去**
 
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同公司:Anthropic、Fireworks、NVIDIA · 同概念:开源 (open source)、推理 (inference)</span>
+- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:NVIDIA、Anthropic、Cursor · 同概念:token、开源 (open source)、推理 (inference)、GPU</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Cursor、Meta · 同概念:token、产品市场契合 (product market fit)、护栏 (guardrails)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Cursor · 同概念:开源 (open source)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

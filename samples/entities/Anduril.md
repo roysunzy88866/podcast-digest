@@ -31,7 +31,7 @@ unlisted: true
 
 [[Stripe]] · [[OpenAI]] · [[Harj]] · [[Sorin]] · [[Mike LeBlanc]] · [[Brian Singerman]] · [[Patrick Collison]] · [[Neros]] · [[Foundation]] · [[Founders Fund]]
 
-<script type="application/json" class="pd-epn">{"Stripe":33,"OpenAI":124,"Harj":1,"Sorin":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":3,"Neros":1,"Foundation":2,"Founders Fund":1}</script>
+<script type="application/json" class="pd-epn">{"Stripe":33,"OpenAI":125,"Harj":1,"Sorin":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":3,"Neros":1,"Foundation":2,"Founders Fund":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sumanyu Sharma]] · [[Citizen]] · [[语音智能体]] · [[智能体]] · [[可靠性]] · [[红队测试]] · [[跨对话分析]] · [[评估]] · [[监控]]
 
-<script type="application/json" class="pd-epn">{"Sumanyu Sharma":1,"Citizen":1,"语音智能体":2,"智能体":285,"可靠性":1,"红队测试":4,"跨对话分析":1,"评估":2,"监控":1}</script>
+<script type="application/json" class="pd-epn">{"Sumanyu Sharma":1,"Citizen":1,"语音智能体":2,"智能体":287,"可靠性":1,"红队测试":4,"跨对话分析":1,"评估":3,"监控":1}</script>
 
 <script>
 (function(){

@@ -75,7 +75,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":124,"Anthropic":131,"AGI":25,"Meta":35,"Google":46,"LLM":38,"NVIDIA":40,"智能体":285,"SpaceX":17,"Oracle":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":125,"Anthropic":132,"AGI":25,"Meta":35,"Google":47,"LLM":38,"NVIDIA":41,"智能体":287,"SpaceX":17,"Oracle":8}</script>
 
 <script>
 (function(){

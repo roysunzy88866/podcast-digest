@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Databricks]] · [[McKinsey]] · [[NVIDIA]] · [[Vercel]] · [[Google]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"智能体":285,"Anthropic":131,"OpenAI":124,"Microsoft":25,"Databricks":14,"McKinsey":5,"NVIDIA":40,"Vercel":17,"Google":46,"token":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":287,"Anthropic":132,"OpenAI":125,"Microsoft":25,"Databricks":14,"McKinsey":5,"NVIDIA":41,"Vercel":17,"Google":47,"token":23}</script>
 
 <script>
 (function(){

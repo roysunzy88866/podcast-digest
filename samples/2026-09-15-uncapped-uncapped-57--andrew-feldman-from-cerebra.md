@@ -183,9 +183,9 @@ Andrew 用一个比喻区分两种决策方式：一种是老式电话电路，�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:Cerebrus、NVIDIA、TSMC、AMD · 同概念:推理 (inference)</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同公司:NVIDIA、TSMC · 同概念:供应链 (supply chain)、推理 (inference)、数据中心 (data center)</span>
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA、OpenAI · 同概念:推理 (inference)、数据中心 (data center)</span>
-- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:NVIDIA、OpenAI · 同概念:推理 (inference)、训练 (training)</span>
 
 </div>
 <div class="pd-ex">

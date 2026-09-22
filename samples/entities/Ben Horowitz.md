@@ -72,7 +72,7 @@ unlisted: true
 
 [[a16z]] · [[OpenAI]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]] · [[Google]] · [[Uber]] · [[Sofia Puccini]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"a16z":14,"OpenAI":124,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Greg Brockman":1,"Google":46,"Uber":10,"Sofia Puccini":4,"Stripe":33}</script>
+<script type="application/json" class="pd-epn">{"a16z":14,"OpenAI":125,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Greg Brockman":1,"Google":47,"Uber":10,"Sofia Puccini":4,"Stripe":33}</script>
 
 <script>
 (function(){
