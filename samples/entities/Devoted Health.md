@@ -27,7 +27,7 @@ unlisted: true
 
 [[Vijay Pande]] · [[Sophia Du]] · [[VZVC]] · [[Julie Yoo]] · [[Function Health]] · [[a16z]] · [[Insitro]] · [[Kairos]] · [[Genesis Therapeutics]] · [[Council Health]]
 
-<script type="application/json" class="pd-epn">{"Vijay Pande":1,"Sophia Du":4,"VZVC":1,"Julie Yoo":1,"Function Health":1,"a16z":14,"Insitro":1,"Kairos":1,"Genesis Therapeutics":1,"Council Health":1}</script>
+<script type="application/json" class="pd-epn">{"Vijay Pande":1,"Sophia Du":4,"VZVC":1,"Julie Yoo":1,"Function Health":1,"a16z":15,"Insitro":1,"Kairos":1,"Genesis Therapeutics":1,"Council Health":1}</script>
 
 <script>
 (function(){

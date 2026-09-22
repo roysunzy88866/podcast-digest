@@ -1,0 +1,977 @@
+{
+  "episode_id": "2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-09-22",
+  "tags": [
+    "软件工厂",
+    "智能体开发",
+    "代码审查",
+    "上下文工程",
+    "规格驱动开发"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "simon-mayfor",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Mayfor",
+      "file": "Simon Mayfor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.44,
+            49.68
+          ],
+          "quote": "Join your hosts, Sky Fajani, and me, Simon Mayfor, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dex-horthy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dex Horthy",
+      "file": "Dex Horthy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            123.36,
+            139.2
+          ],
+          "quote": "Today we have a really fun conversation about software factories and how to do them or not do them, and you know, how did we think and we didn't think and all that, and to sort of dig into the timeline and sort of really kind of informed opinions about this, we have Dex Horthy, who is the CEO and co-founder of Human Layer.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集主线:让 AI 智能体大量替你写代码的开发方式,与传统工厂的关键区别是坏代码会降低未来每一件经过工厂的工作的质量,需要每天改进工厂本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            59.76,
+            62.32
+          ],
+          "quote": "Tomorrow, you'll be running a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2172.64,
+            2181.12
+          ],
+          "quote": "Uh but to an extent, the sort of the bet that we're making in our own internal software factory uh is that really it's all about extracting correctness out of observations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2249.92,
+            2260.08
+          ],
+          "quote": "I I think probably like the anti-pattern I see in a lot of orgs, and most of them are probably larger than yours or mine, is is someone gets excited and they say, I'm gonna build the software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2292.48,
+            2306.64
+          ],
+          "quote": "People talk about software yeah, people talk about software factories, but the the the there is a big difference between a traditional factory and a software factory, and that like in a factory, if a car comes out of the end of the line and it's bad, like that's cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2310.08,
+            2320.64
+          ],
+          "quote": "But like if you ship bad code in your software factory, it degrades every future piece of work that goes through that factory because there's more bad patterns for the model to see.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            3148.24,
+            3173.04
+          ],
+          "quote": "Um I think the entire software factory, this isn't gonna be like AI advice, but I think the like entire software factory stack will decompose into good interfaces and open components, kind of like what we saw happen in the Kubernetes world in the last like you know, 10 the last decade of like basically like the more open and portable you can make these ideas, the more likely they are to get broad adoption.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            3184.88,
+            3191.76
+          ],
+          "quote": "Um and so I I think a lot of these like walled garden, like you can build a software factory entirely on Claude.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:嵌入更大、更确定性软件里的小型循环,会模仿代码库里的坏模式,放任其决定架构会造出六层服务的怪物",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            218.4,
+            225.84
+          ],
+          "quote": "Um and when they launched Opus 4, they also launched the Claude Agent SDK, which means you could use it was it had a very small interface at that point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            306.88,
+            325.92
+          ],
+          "quote": "It was uh well, it didn't always follow instructions, but you had uh you also had things like uh spec kit, for instance, who that was trying to like really micromanage uh the uh the agent and sort of like say, okay, not only is this the plan, but at any time, just come back to me at the end of this step and I will spit out the precise set of additional plans that you're gonna do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            460.88,
+            486.4
+          ],
+          "quote": "Yeah, but like that all of the interesting, useful, more high-leverage stuff is actually all the prompts you sent in that conversation that should be recorded somehow, and that like having a long chat with an agent and then throwing away the chat and shipping the code is gonna be the new version of like what if we uh wrote you know a bunch of Java code and then compiled the jar and checked in the compiled jar and threw away the code that we wrote.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            975.52,
+            1001.2
+          ],
+          "quote": "You know, it's sort of like how many degrees of freedom do you want to give the uh the the LLM, the agent, uh, to to build with, like these are the decisions that you have made, and and within those you should be allowed to play, or like where you're enabling the agent to play, and you need to define the sort of the outcomes that you want to see out of it, and you should be comfortable with sort of not caring as long as the outcomes are are achieved.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1125.76,
+            1135.04
+          ],
+          "quote": "Or you could do the extreme of like write all the code by hand, uh, and then there, well, there's a zero percent chance you'd have to rework it because of something the agent got wrong because you wrote it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1135.28,
+            1150.32
+          ],
+          "quote": "You may still have to rework it that we've had code review for you know 30, 40 years, but um it's it's you're not gonna have to change it because of something the agent because you left the agent some uh some some leeway to uh to to make decisions on some of the smaller details.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            2038.8,
+            2053.2
+          ],
+          "quote": "Like you've planned how you want to build, and now you can run a whole bunch of uh maintenance agents that would run on that code base that would review code that was created by an implementer agent uh who took in more like uh feature requirements, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2147.28,
+            2148.96
+          ],
+          "quote": "You probably can't be in your agent's MD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2344.32,
+            2358.96
+          ],
+          "quote": "Um but no, this idea of like cool, you know, we have humans in the loop whose job it is to make sure that the code is good and that nothing goes into prod or into the code base that is like going to make the quality worse and going to make future quality worse because the agent will see that and think it's okay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2371.2,
+            2376.24
+          ],
+          "quote": "Like anytime a human has to put a comment on an agent written PR and say, hey, this is wrong, we don't do it this way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2376.56,
+            2377.84
+          ],
+          "quote": "Agent goes and fix it, it's fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2762.32,
+            2784.88
+          ],
+          "quote": "I think that's really blurry, but like I do think it's safe to say like the moat you can have is understanding the problem better than anyone else, like knowing what features to ask the factory for, understanding your customers better than anyone else is incredibly valuable still, and that's again that's that's where you're you you can context engineer the agent in a way that none of your competitors can if you understand the problem better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2791.52,
+            2803.2
+          ],
+          "quote": "Uh, you know, it's just uh like a I'll know it when I see it uh type thing is is um uh is something that just okay, like get the agent to see it often enough uh and it will capture it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 457,
+          "t": [
+            3191.84,
+            3202.24
+          ],
+          "quote": "You can use Cloud Code as the harness, you can use Claude Automations as your orchestrator, you can use Claude, like a managed code sandboxes, manage agent, whatever they call it, as your runtime environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说:只要还在用基于 transformer 的 LLM,使用更少的上下文就会得到更好的质量,这是 12 个月前后都确定不变的第一性原理,也是把品味和偏好榨给模型的手段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            507.44,
+            524.72
+          ],
+          "quote": "But I I think so so so you were like touting, okay, we want to do like uh uh context engineering and kind of capture all of these sort of intents on it, but I guess what was the what was the advocacy then like at the time when you were guiding people to say, hey, be amazing with sort of agentic development?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            527.92,
+            549.28
+          ],
+          "quote": "Uh and I'm and I'm interested because like I I know that you kind of went from like almost it feels like you went from like a context engineering kind of advocate to to almost like uh you know an antagonist to the uh to the group on it, that it's like a little bit more like you really need to be uh uh more more defined and more reviewing, and I've heard you say now that you should review the code for now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2154.96,
+            2156.08
+          ],
+          "quote": "This is context engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            3123.28,
+            3125.92
+          ],
+          "quote": "Like the context engineering thing I think will always be true.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spec",
+      "type": "concept",
+      "role": "concept",
+      "name": "规格说明 (spec)",
+      "file": "规格说明",
+      "primary": true,
+      "how_described": "本集说:带验证器的好规格是给模型的反压,让模型自己衡量对错去爬山,它会为你移山倒海;但原型可以只靠规格,产品不行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            306.88,
+            325.92
+          ],
+          "quote": "It was uh well, it didn't always follow instructions, but you had uh you also had things like uh spec kit, for instance, who that was trying to like really micromanage uh the uh the agent and sort of like say, okay, not only is this the plan, but at any time, just come back to me at the end of this step and I will spit out the precise set of additional plans that you're gonna do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 70,
+          "t": [
+            406.88,
+            412.4
+          ],
+          "quote": "He was a researcher at OpenAI at the time, and he was talking about basically like the spec is the new code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            413.12,
+            426.24
+          ],
+          "quote": "Um, and this idea that like the way we think about assembly now is the way we're gonna think about code in the future, and the spec will be the thing that is verifiable and executable and compiles into code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            634,
+            652.8
+          ],
+          "quote": "Yeah, depending on the sort of the uh like the detail level of the sort of the spec, but either way, the and combined with like some sort of sense of discomfort because now you're reviewing someone else's code, and so you're kind of uh familiarity and control over it, uh it's oftentimes like harder to apply your opinions uh when editing than it is when you kind of write it in the first place.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1112.88,
+            1115.76
+          ],
+          "quote": "Um or you could like hand write a detailed spec.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1115.84,
+            1119.76
+          ],
+          "quote": "You could sit there at a meeting and spend a bunch of time and spend five five hours writing a spec.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1469.84,
+            1480.88
+          ],
+          "quote": "I I there's like this there was this post from the Haskell community like six months ago that was like a sufficiently detailed spec is code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1489.92,
+            1511.76
+          ],
+          "quote": "And so yeah, if you give I mean the the the reason why I think specs are so powerful and people maybe get a little bit like one-shotted by a good spec with verification is like if you give the model a good way to get feedback on what it's doing, uh, and to like a hail climb against some objective that it itself can measure, whether it's qualitative or quantitative, yeah, um it will move mountains for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1516.72,
+            1519.6
+          ],
+          "quote": "A good spec and good, we call it like back pressure, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1651.68,
+            1667.36
+          ],
+          "quote": "Um and if it actually works and if seems good, then I will probably like take the like root of it and be like, cool, like explain this algorithm to me, turn that into a spec, and then re-implement that with actual like clean architecture, because there's just slop everywhere right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1866.4,
+            1875.44
+          ],
+          "quote": "And I I think in general, like through the TESL journey, right, we started talking about sort of spec-centric software development, spec-driven software development, and then we moved into this sort of context and skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2965.04,
+            2972.96
+          ],
+          "quote": "I don't know when it goes away, it's more about uh we've referred to at the beginning of uh TESL, we've had the sort of the notion of a spec and a shadow spec.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2973.04,
+            2978.16
+          ],
+          "quote": "You know, sort of the spec being the thing that you create and the sort of shadow spec being the capturing of the LLM's decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2978.4,
+            2980.8
+          ],
+          "quote": "What is the difference between a shadow spec and code?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            3059.6,
+            3078.56
+          ],
+          "quote": "Um, but uh between if I'm reading every line of code now, and someday I'm reading a spec, like between there, there will be, you know, laddering up of like, cool, don't tell me the code, but give me things, give me something that is, you know, 50% faster or 80% faster than reading every line of code that gives me almost as much confidence or almost as much understanding.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "type": "concept",
+      "role": "concept",
+      "name": "计划 (plan)",
+      "file": "计划",
+      "primary": true,
+      "how_described": "本集说:写计划文件最初是让模型工作更久的可靠方式、是意图压缩的第一个版本;但实现总会漂移,只审计划不读代码导致四个月后代码库报废",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.24,
+            6.16
+          ],
+          "quote": "We'll just have pull requests but like we'll just say, like, cool, if you read the plan, like the code's not as important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            274.24,
+            280.16
+          ],
+          "quote": "A lot of people just write plans because they put plan mode in the thing or they've read something online and they found some skills and hey, we're gonna make a plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            280.4,
+            301.28
+          ],
+          "quote": "Um, and I think depending on where you are in your journey and like the how the models have changed, I in retrospect I realized that like writing a plan file in the summer in like July of 2025, the number one most high-leverage thing that that got you was it was a really reliable way to get a model to work for longer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            302.24,
+            303.92
+          ],
+          "quote": "It was like, okay, we're gonna do everything on this plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            306.88,
+            325.92
+          ],
+          "quote": "It was uh well, it didn't always follow instructions, but you had uh you also had things like uh spec kit, for instance, who that was trying to like really micromanage uh the uh the agent and sort of like say, okay, not only is this the plan, but at any time, just come back to me at the end of this step and I will spit out the precise set of additional plans that you're gonna do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            326.08,
+            334
+          ],
+          "quote": "Uh but I think it got them uh yeah, it got them to sort of kept kept things a little bit on track, or at least more than it was if you didn't plan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            580.08,
+            588.32
+          ],
+          "quote": "We wanted we wanted to be living in the future, and so we said, Cool, let's try this, let's try like we'll still have pull requests, but like we'll just say, like, cool, if you read the plan, like the code's not as important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            593.92,
+            598.4
+          ],
+          "quote": "Uh, and so you would read this plan of every single every single it was like literally like inline diffs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            598.96,
+            610.48
+          ],
+          "quote": "Read the plan, and then you would go uh you would go write the code, and then if you didn't read the code, you would basically if you wanted to also review the code because there was drift, or you you know, you were larger, we were three-person startups, so we could have this kind of option.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            653.6,
+            667.6
+          ],
+          "quote": "Once yeah, once once the code is written, you're kind of committed to a path, and it's like much more work to change it to the point where sometimes it just makes sense to throughout the implementation, like drop a new prompt in or a new or redo your plan and then and then go again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            1019.28,
+            1033.84
+          ],
+          "quote": "There's like a balance to it, like this idea of like plan before you build, like the only reason to do planning or alignment or whatever it is, whether it's you and the model or you and the model and your team, is like because you have this factory, and this is pre-AI, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集主张:因为可维护性没有快速的 Oracle,今天仍要审查代码,但未来审查的可能是别的东西——审查某样东西永远有超额收益",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            916.4,
+            923.28
+          ],
+          "quote": "So, you know, we do need some sort of supervision by the way, like still compliance systems require kind of a name to every sort of code review and all that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            923.36,
+            934.4
+          ],
+          "quote": "So we have a lot of like um uh AI-assisted code review, and some changes are allowed to sort of go autonomously, and there's some supervision of complexity, et cetera, et cetera.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1135.28,
+            1150.32
+          ],
+          "quote": "You may still have to rework it that we've had code review for you know 30, 40 years, but um it's it's you're not gonna have to change it because of something the agent because you left the agent some uh some some leeway to uh to to make decisions on some of the smaller details.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2391.04,
+            2404.48
+          ],
+          "quote": "Where are they telling the model they did something wrong, and then figuring out how to improve the entire system, whether it's the base skills, whether it's the code review skill, whether whatever it is, um, so that you know, if you're not getting better, then you're getting worse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "垃圾代码 (slop)",
+      "file": "垃圾代码",
+      "primary": true,
+      "how_described": "本集说:模型放任不管会创造满是 slop 的复杂系统,slop code bench 显示模型在长期维护代码库这个维度上没有大家想的那么快变好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1651.68,
+            1667.36
+          ],
+          "quote": "Um and if it actually works and if seems good, then I will probably like take the like root of it and be like, cool, like explain this algorithm to me, turn that into a spec, and then re-implement that with actual like clean architecture, because there's just slop everywhere right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1749.28,
+            1750.64
+          ],
+          "quote": "Have you heard of slop code bench?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2058.72,
+            2071.36
+          ],
+          "quote": "I guess why isn't that the way to achieve uh a non or a low slop code uh and kind of invest in that path versus reviewing the code?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2280,
+            2291.84
+          ],
+          "quote": "So I think like the idea of having having a process thing is is like you cannot afford to put slop code in your code base because every every time you let bad code in, you are making the entire system worse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2450.72,
+            2464.72
+          ],
+          "quote": "And so if that code base is full of slop, then uh then the reality is that that will be a pattern because the agents somewhat legitimately default to mimicking the uh the uh the patterns that they see that they see within the code.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "human-layer",
+      "type": "company",
+      "role": "company",
+      "name": "Human Layer",
+      "file": "Human Layer",
+      "primary": true,
+      "how_described": "本集说:嘉宾 Dex Horthy 是其 CEO 兼联合创始人,团队做了四五个月只审计划不读代码的关灯开发实验,最终从零重写整个产品;内部每晚跑五条提示词驱动的检测工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            123.36,
+            139.2
+          ],
+          "quote": "Today we have a really fun conversation about software factories and how to do them or not do them, and you know, how did we think and we didn't think and all that, and to sort of dig into the timeline and sort of really kind of informed opinions about this, we have Dex Horthy, who is the CEO and co-founder of Human Layer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            143.36,
+            155.12
+          ],
+          "quote": "Uh Dex, you've you've done a lot of super interesting things beyond Human Layer on it, but I think there were these sort of uh 12 factor uh agents that you wrote before trying to kind of codify and explain, you know, how do we how should we build agents on it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1199.6,
+            1211.84
+          ],
+          "quote": "But this is this is kind of how I think I think I think it's similar to what you said, but just kind of visualized in terms of like what are plans for um is to is to kind of at every stage of your human layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2089.84,
+            2104
+          ],
+          "quote": "And so, like, yeah, you could probably I mean, so we do this thing internally at Human Layer where we have uh deterministic detectors for some of them deterministic, some of them are non-deterministic, but very simple of like we don't like this pattern, the desired end state looks like this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "back-pressure",
+      "type": "concept",
+      "role": "concept",
+      "name": "反压 (back pressure)",
+      "file": "反压",
+      "primary": false,
+      "how_described": "本集说:给模型一个不用人类介入就能获得反馈、自己衡量对错的回路,它就能长时间无人值守干活并并行更多任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            1516.72,
+            1519.6
+          ],
+          "quote": "A good spec and good, we call it like back pressure, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": false,
+      "how_described": "本集说:主持人押注软件开发将围绕 skills 展开,包含 specs、workflows 和观点/策略三类,代码的角色会随时间递减",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            274.24,
+            280.16
+          ],
+          "quote": "A lot of people just write plans because they put plan mode in the thing or they've read something online and they found some skills and hey, we're gonna make a plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1306.24,
+            1319.76
+          ],
+          "quote": "I mean, I think there's a reason why Matt Pocock's skills and specifically like the grill me skill has uh the most it's in like the top twenty five stars on any GitHub repo of all time, and it's like the top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1320.32,
+            1330.08
+          ],
+          "quote": "Three stars on GitHub for repos that like mostly just contain skills is because like people are bad at specifying their intent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1866.4,
+            1875.44
+          ],
+          "quote": "And I I think in general, like through the TESL journey, right, we started talking about sort of spec-centric software development, spec-driven software development, and then we moved into this sort of context and skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1893.12,
+            1897.44
+          ],
+          "quote": "I think like you look at skills, for instance, they will have, I think, three primary categories.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2149.04,
+            2154.88
+          ],
+          "quote": "Maybe you can put them in a skill or you can break them up into a set of skills, but the the more opinions you have, the more clever you have to be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2219.36,
+            2239.76
+          ],
+          "quote": "And I think there's a good case to be made that today we are uh maybe making more effort in sort of uh in sort of investing and honing those skills uh on the on the sort of the the bet, which is always TBD, uh that it will uh it will uh set us up better, and we're sort of seeing some compounding speed out of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2391.04,
+            2404.48
+          ],
+          "quote": "Where are they telling the model they did something wrong, and then figuring out how to improve the entire system, whether it's the base skills, whether it's the code review skill, whether whatever it is, um, so that you know, if you're not getting better, then you're getting worse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2954.56,
+            2964.96
+          ],
+          "quote": "And so, like I I guess my belief is that software development would revolve around skills and that the role of code will be will diminish uh over time, that it has to be sort of duplicate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3348.96,
+            3353.76
+          ],
+          "quote": "The AI Native Dev is brought to you by Tesla, the package manager for skills and context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到:Opus 4 与 Claude Agent SDK 开启了把 Claude 当小型智能体循环嵌入更大软件的时代;全栈押注 Claude 一家是诱人但围墙花园式的选择",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            218.4,
+            225.84
+          ],
+          "quote": "Um and when they launched Opus 4, they also launched the Claude Agent SDK, which means you could use it was it had a very small interface at that point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            225.92,
+            230.16
+          ],
+          "quote": "Right now the Claude CLI is basically like the JVM of agentic coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            234.96,
+            243.92
+          ],
+          "quote": "Um but uh but it was the first time you could use Claude like small agentic loops as part of a broader, more deterministic piece of software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            244,
+            256.24
+          ],
+          "quote": "So we were building like terminal multiplexers for Claude Code of like, hey, what would it look like to build a TUI where you can manage a bunch of sessions in parallel, or like manage, see and get an inbox of like what are all the approvals waiting on you and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            690.8,
+            723.12
+          ],
+          "quote": "Well, well, I'd make a Golang daemon and then I would use a Unix socket, and then I would connect these things, and then when we run the MCP, we ended up with this like system of like six different services where you have like a desktop app that talks to a socket over Rust, and then that that's like a Golang daemon on the back end, which then launches and manages Claude code sessions, which then launch MCP servers to handle the approval system, and then those MCP servers call back to the like front end and like put things in a SQLite database via Unix socket, and then that shows in the U and the user approves something that goes back to the MCP, back to Claude, back to the Golang daemon, and back to the UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2678.8,
+            2683.36
+          ],
+          "quote": "Yeah, I think we're sort of seeing a lot of that with the with like a claude presentations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2683.52,
+            2699.68
+          ],
+          "quote": "You know, for a while, like uh, you know, everybody was amazed by how how how great it was that Claude like at the breakthrough of like it was creating these good looking presentations, and now every single presentation looks like a claude presentation, and you uh you just sort of yearn for for something that looks a little bit different.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            3184.88,
+            3191.76
+          ],
+          "quote": "Um and so I I think a lot of these like walled garden, like you can build a software factory entirely on Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            3191.84,
+            3202.24
+          ],
+          "quote": "You can use Cloud Code as the harness, you can use Claude Automations as your orchestrator, you can use Claude, like a managed code sandboxes, manage agent, whatever they call it, as your runtime environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集用它类比:软件工厂技术栈会像 Kubernetes 生态那样分解成开放接口和开放组件,开放正在以比任何人准备注意到的更快速度追赶",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 454,
+          "t": [
+            3148.24,
+            3173.04
+          ],
+          "quote": "Um I think the entire software factory, this isn't gonna be like AI advice, but I think the like entire software factory stack will decompose into good interfaces and open components, kind of like what we saw happen in the Kubernetes world in the last like you know, 10 the last decade of like basically like the more open and portable you can make these ideas, the more likely they are to get broad adoption.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            3173.2,
+            3184.72
+          ],
+          "quote": "Uh, and you need a certain amount of momentum to actually become the default solution, just like what happened to VMware, just like what happened with AWS, what happened with Kubernetes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

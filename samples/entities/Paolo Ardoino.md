@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":52,"微调":18,"BitNet":1,"LoRa":1,"数据中心":14,"去中介化":2,"智能体":287,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":52,"微调":18,"BitNet":1,"LoRa":1,"数据中心":15,"去中介化":2,"智能体":288,"GPU":18}</script>
 
 <script>
 (function(){

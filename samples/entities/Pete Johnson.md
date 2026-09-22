@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":4,"Voyage AI":1,"Anthropic":132,"Eleven Labs":6,"Uber":10,"智能体":287,"智能体记忆":1,"RAG":15,"嵌入模型":3}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":4,"Voyage AI":1,"Anthropic":132,"Eleven Labs":6,"Uber":10,"智能体":288,"智能体记忆":1,"RAG":15,"嵌入模型":3}</script>
 
 <script>
 (function(){

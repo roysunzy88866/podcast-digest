@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":16,"Replit Agent":1,"智能体":287,"vibe coding":35,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":14}</script>
+<script type="application/json" class="pd-epn">{"Replit":16,"Replit Agent":1,"智能体":288,"vibe coding":35,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":14}</script>
 
 <script>
 (function(){

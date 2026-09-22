@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":287,"Vercel":17,"Eve":3,"Claude Code":66,"Opus 4.5":2,"沙箱":53,"文件系统智能体":1,"技能":16,"Snowflake":10,"语义层":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"Vercel":17,"Eve":3,"Claude Code":66,"Opus 4.5":2,"沙箱":53,"文件系统智能体":1,"技能":17,"Snowflake":10,"语义层":4}</script>
 
 <script>
 (function(){

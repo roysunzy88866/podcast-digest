@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"UiPath":2,"Anthropic":132,"OpenAI":125,"NVIDIA":41,"Fireworks":5,"Hugging Face":22,"智能体":287,"编码智能体":15,"开源":25}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"UiPath":2,"Anthropic":132,"OpenAI":125,"NVIDIA":42,"Fireworks":5,"Hugging Face":22,"智能体":288,"编码智能体":15,"开源":25}</script>
 
 <script>
 (function(){

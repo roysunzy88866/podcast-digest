@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Google]] · [[微调]] · [[Harvey]] · [[Anish Acharya]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":287,"Cursor":64,"OpenAI":125,"Anthropic":132,"推理":52,"Google":47,"微调":18,"Harvey":12,"Anish Acharya":3,"开源模型":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"Cursor":64,"OpenAI":125,"Anthropic":132,"推理":52,"Google":47,"微调":18,"Harvey":12,"Anish Acharya":3,"开源模型":19}</script>
 
 <script>
 (function(){

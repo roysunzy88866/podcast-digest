@@ -165,7 +165,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[MCP]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":287,"Anthropic":132,"ChatGPT":74,"Lenny":67,"Claude":60,"OpenAI":125,"Google":47,"Claude Code":66,"MCP":49,"Cursor":64}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"Anthropic":132,"ChatGPT":74,"Lenny":67,"Claude":61,"OpenAI":125,"Google":47,"Claude Code":66,"MCP":49,"Cursor":64}</script>
 
 <script>
 (function(){

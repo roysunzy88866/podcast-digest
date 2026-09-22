@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[可观测性]] · [[Harry Stebbings]] · [[Salesforce]] · [[Cursor]] · [[推理]] · [[Daniel Whitenack]] · [[Matt Murphy]]
 
-<script type="application/json" class="pd-epn">{"智能体":287,"OpenAI":125,"Anthropic":132,"可观测性":24,"Harry Stebbings":18,"Salesforce":25,"Cursor":64,"推理":52,"Daniel Whitenack":7,"Matt Murphy":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"OpenAI":125,"Anthropic":132,"可观测性":24,"Harry Stebbings":18,"Salesforce":25,"Cursor":64,"推理":52,"Daniel Whitenack":7,"Matt Murphy":1}</script>
 
 <script>
 (function(){

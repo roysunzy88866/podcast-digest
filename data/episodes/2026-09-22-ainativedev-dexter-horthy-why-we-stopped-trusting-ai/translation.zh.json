@@ -1,0 +1,3882 @@
+[
+ {
+  "seg": 0,
+  "start": 0.08,
+  "end": 2.16,
+  "speaker": "Dex Horthy",
+  "en": "We wanted to be living in the future, and so we said, Cool, let's try this.",
+  "zh": "我们想活在未来，所以我们说，好，那试试吧。"
+ },
+ {
+  "seg": 1,
+  "start": 2.24,
+  "end": 6.16,
+  "speaker": "Dex Horthy",
+  "en": "We'll just have pull requests but like we'll just say, like, cool, if you read the plan, like the code's not as important.",
+  "zh": "我们就用 pull request，就是我们就说，比如，好，如果你读了计划，代码其实没那么重要。"
+ },
+ {
+  "seg": 2,
+  "start": 6.4,
+  "end": 7.2,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, we did this experiment.",
+  "zh": "是的，我们做了这个实验。"
+ },
+ {
+  "seg": 3,
+  "start": 7.36,
+  "end": 12.32,
+  "speaker": "Dex Horthy",
+  "en": "We ran this for like four or five months before we realized, like, oh, this code base is actually unusable now.",
+  "zh": "我们这么跑了大概四五个月，然后才意识到，哦，这个代码库现在实际上已经没法用了。"
+ },
+ {
+  "seg": 4,
+  "start": 12.4,
+  "end": 13.68,
+  "speaker": "Dex Horthy",
+  "en": "Like it became slower and slower.",
+  "zh": "就是它变得越来越慢。"
+ },
+ {
+  "seg": 5,
+  "start": 13.84,
+  "end": 16.8,
+  "speaker": "Dex Horthy",
+  "en": "The change over here caused a progression over here, and then we decided, no, this is bad.",
+  "zh": "这边的改动导致了那边的连锁反应，然后我们决定，不，这样不行。"
+ },
+ {
+  "seg": 6,
+  "start": 16.88,
+  "end": 19.04,
+  "speaker": "Dex Horthy",
+  "en": "And then we literally rebuilt the whole product from scratch.",
+  "zh": "然后我们真的从零开始重建了整个产品。"
+ },
+ {
+  "seg": 7,
+  "start": 19.12,
+  "end": 31.52,
+  "speaker": "Dex Horthy",
+  "en": "And the first two weeks of that, like co-founder Kyle was literally in VS Code, typing every, not even cursor, like typing every character by hand to plumb out the data architecture for the new version.",
+  "zh": "而那之后的前两周，联合创始人 Kyle 真的就在 VS Code 里，手动敲每一个字符——甚至不用 cursor——徒手敲出来新版本的数据架构的管线。"
+ },
+ {
+  "seg": 8,
+  "start": 32.64,
+  "end": 39.28,
+  "speaker": "Simon Mayfor",
+  "en": "The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "AI Native Dev 是一档面向处于 AI 和智能体编程前沿的开发者和工程负责人的播客。"
+ },
+ {
+  "seg": 9,
+  "start": 39.44,
+  "end": 49.68,
+  "speaker": "Simon Mayfor",
+  "en": "Join your hosts, Sky Fajani, and me, Simon Mayfor, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+  "zh": "每周加入主持人 Sky Fajani 和我，Simon Mayfor，我们与 AI 领域最令人兴奋的声音对谈，探讨当今开发者面临的最大的问题。"
+ },
+ {
+  "seg": 10,
+  "start": 50.16,
+  "end": 52.56,
+  "speaker": "Simon Mayfor",
+  "en": "This is the AI Native Dev.",
+  "zh": "这就是 AI Native Dev。"
+ },
+ {
+  "seg": 11,
+  "start": 55.44,
+  "end": 57.52,
+  "speaker": "Simon Mayfor",
+  "en": "Yesterday, you were writing code.",
+  "zh": "昨天，你在写代码。"
+ },
+ {
+  "seg": 12,
+  "start": 57.68,
+  "end": 59.6,
+  "speaker": "Simon Mayfor",
+  "en": "Today, you're prompting agents.",
+  "zh": "今天，你在给智能体写提示词。"
+ },
+ {
+  "seg": 13,
+  "start": 59.76,
+  "end": 62.32,
+  "speaker": "Simon Mayfor",
+  "en": "Tomorrow, you'll be running a software factory.",
+  "zh": "明天，你将运营一个软件工厂。"
+ },
+ {
+  "seg": 14,
+  "start": 66.4,
+  "end": 74.16,
+  "speaker": "Simon Mayfor",
+  "en": "This June, AI Devon London still helps hundreds of developers, engineering leads, and VPs packed in to hear speakers for my topic.",
+  "zh": "今年六月，AI Devon London 仍然帮助数百名开发者、工程负责人和 VP 挤在一起听演讲者，主题来自。"
+ },
+ {
+  "seg": 15,
+  "start": 74.48,
+  "end": 76.56,
+  "speaker": "Simon Mayfor",
+  "en": "OpenAI, Netflix, and GitHub.",
+  "zh": "OpenAI、Netflix 和 GitHub。"
+ },
+ {
+  "seg": 16,
+  "start": 77.12,
+  "end": 79.76,
+  "speaker": "Simon Mayfor",
+  "en": "Through the hype, and guess what actually works?",
+  "zh": "穿透炒作，看看究竟什么才真正管用？"
+ },
+ {
+  "seg": 17,
+  "start": 80,
+  "end": 82.64,
+  "speaker": "Simon Mayfor",
+  "en": "This November, we're bringing it back to New York.",
+  "zh": "今年十一月，我们将回到纽约。"
+ },
+ {
+  "seg": 18,
+  "start": 82.88,
+  "end": 87.2,
+  "speaker": "Simon Mayfor",
+  "en": "Big up holder full of people actually building the agency future.",
+  "zh": "满满一大屋真正在构建智能体未来的人。"
+ },
+ {
+  "seg": 19,
+  "start": 87.44,
+  "end": 96.88,
+  "speaker": "Simon Mayfor",
+  "en": "Three days of real talks, real tools, real answers, whether you're directing the agents, building the loops themselves, leading the teams, or setting the strategy.",
+  "zh": "三天的真演讲、真工具、真答案，无论你是在指挥智能体、构建循环本身、带领团队，还是制定战略。"
+ },
+ {
+  "seg": 20,
+  "start": 97.2,
+  "end": 103.04,
+  "speaker": "Simon Mayfor",
+  "en": "Our early bird pricing ends on September 30th, so make sure you lock in your place before prices increase.",
+  "zh": "我们的早鸟票价将于 9 月 30 日结束，所以请务必在价格上涨之前锁定你的名额。"
+ },
+ {
+  "seg": 21,
+  "start": 103.2,
+  "end": 109.04,
+  "speaker": "Simon Mayfor",
+  "en": "As a podcast listener, you can get 15% off your ticket using promo code POD50.",
+  "zh": "作为播客听众，你可以使用优惠码 POD50 获得 15% 的票务折扣。"
+ },
+ {
+  "seg": 22,
+  "start": 110.08,
+  "end": 114.16,
+  "speaker": "Simon Mayfor",
+  "en": "We have so much planned, and we can't wait to have you join us in New York.",
+  "zh": "我们计划了非常多内容，迫不及待想让你在纽约加入我们。"
+ },
+ {
+  "seg": 23,
+  "start": 119.36,
+  "end": 122.16,
+  "speaker": "SPEAKER_03",
+  "en": "Hello everyone, welcome back to the AI Native Dev.",
+  "zh": "大家好，欢迎回到 AI Native Dev。"
+ },
+ {
+  "seg": 24,
+  "start": 122.32,
+  "end": 123.2,
+  "speaker": "SPEAKER_03",
+  "en": "Thanks for tuning in.",
+  "zh": "感谢收听。"
+ },
+ {
+  "seg": 25,
+  "start": 123.36,
+  "end": 139.2,
+  "speaker": "SPEAKER_03",
+  "en": "Today we have a really fun conversation about software factories and how to do them or not do them, and you know, how did we think and we didn't think and all that, and to sort of dig into the timeline and sort of really kind of informed opinions about this, we have Dex Horthy, who is the CEO and co-founder of Human Layer.",
+  "zh": "今天我们有一场非常有趣的对话，关于软件工厂，以及如何做它们或不做它们，你知道的，我们当时怎么想的、我们没怎么想之类的，为了梳理这条时间线，以及真正有见地的观点，我们请到了 Dex Horthy，他是 Human Layer 的 CEO 兼联合创始人。"
+ },
+ {
+  "seg": 26,
+  "start": 139.52,
+  "end": 140.24,
+  "speaker": "SPEAKER_03",
+  "en": "Hi, Dex.",
+  "zh": "你好，Dex。"
+ },
+ {
+  "seg": 27,
+  "start": 140.4,
+  "end": 141.6,
+  "speaker": "SPEAKER_03",
+  "en": "Thanks for tuning in here.",
+  "zh": "感谢来到这里。"
+ },
+ {
+  "seg": 28,
+  "start": 142.32,
+  "end": 143.04,
+  "speaker": "SPEAKER_03",
+  "en": "Stoked to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 29,
+  "start": 143.36,
+  "end": 155.12,
+  "speaker": "SPEAKER_03",
+  "en": "Uh Dex, you've you've done a lot of super interesting things beyond Human Layer on it, but I think there were these sort of uh 12 factor uh agents that you wrote before trying to kind of codify and explain, you know, how do we how should we build agents on it?",
+  "zh": "呃，Dex，你在 Human Layer 之外还做过很多非常有趣的事情，但我想你之前写过那些「12 factor 智能体」，试图去编纂和解释，你知道，我们应该如何构建智能体？"
+ },
+ {
+  "seg": 30,
+  "start": 155.2,
+  "end": 159.6,
+  "speaker": "SPEAKER_03",
+  "en": "Today I think you're sort of starting to refer to like 12 factor factories uh on it.",
+  "zh": "今天，我想你已经开始提到类似「12 factor 工厂」的东西了。"
+ },
+ {
+  "seg": 31,
+  "start": 160.4,
+  "end": 161.28,
+  "speaker": "SPEAKER_03",
+  "en": "Oh, you got that already?",
+  "zh": "哦，你已经知道了？"
+ },
+ {
+  "seg": 32,
+  "start": 161.52,
+  "end": 162.96,
+  "speaker": "SPEAKER_03",
+  "en": "Well, we just sort of know that you've done it.",
+  "zh": "嗯，我们只是大概知道你做了这事。"
+ },
+ {
+  "seg": 33,
+  "start": 163.04,
+  "end": 163.76,
+  "speaker": "SPEAKER_03",
+  "en": "I actually don't know much.",
+  "zh": "其实我知道的并不多。"
+ },
+ {
+  "seg": 34,
+  "start": 163.92,
+  "end": 165.92,
+  "speaker": "SPEAKER_03",
+  "en": "Maybe we'll dig into that a little bit on it.",
+  "zh": "也许我们会稍微深入聊聊这个。"
+ },
+ {
+  "seg": 35,
+  "start": 166.08,
+  "end": 175.92,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and uh and I think also what's sort of super interesting is that you've been sharing kind of strong opinions loosely held a little bit, or maybe like uh changing over time.",
+  "zh": "呃，而且我觉得还有一点非常有意思的是，你一直在分享那种「坚定持守的观点但松松地握着」，或者说呃随着时间在变化的观点。"
+ },
+ {
+  "seg": 36,
+  "start": 176.08,
+  "end": 184.88,
+  "speaker": "SPEAKER_03",
+  "en": "Maybe they were strongly held but pried out of your hands uh uh over time on it, which uh which I think makes for sort of just sort of good insights and conversations to have.",
+  "zh": "也许它们曾经被坚定地持守，但后来随着时间被从你手里撬走了，我觉得这恰恰是很好的洞见和对话素材。"
+ },
+ {
+  "seg": 37,
+  "start": 185.2,
+  "end": 206.24,
+  "speaker": "SPEAKER_03",
+  "en": "Um so uh thanks for tuning in, and maybe I'll I'll kind of dig into it uh straight away, which is um you've you've sort of changed your mind uh substantially and declaratively around kind of the way to do agentic development of it, uh you know, really around specifically kind of lights off development, right, versus uh versus not.",
+  "zh": "嗯，那呃感谢收听，也许我就直接开始深入了，就是，你已经实质性地、公开地改变了你对智能体开发方式的想法，你知道，特别是围绕「关灯开发」（lights off development），对吧，以及与之相对的方式。"
+ },
+ {
+  "seg": 38,
+  "start": 206.56,
+  "end": 208.48,
+  "speaker": "SPEAKER_03",
+  "en": "So what happened there?",
+  "zh": "那么那里发生了什么？"
+ },
+ {
+  "seg": 39,
+  "start": 208.64,
+  "end": 212.8,
+  "speaker": "SPEAKER_03",
+  "en": "Like what did you believe before and what's the uh what's the uh turnabout?",
+  "zh": "比如你之前相信什么，然后转变是什么？"
+ },
+ {
+  "seg": 40,
+  "start": 213.2,
+  "end": 218.32,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, I mean the the journey kind of starts around you know uh around when Opus 4 came out.",
+  "zh": "是的，我是说，这段旅程大概始于 Opus 4 发布的时候。"
+ },
+ {
+  "seg": 41,
+  "start": 218.4,
+  "end": 225.84,
+  "speaker": "Dex Horthy",
+  "en": "Um and when they launched Opus 4, they also launched the Claude Agent SDK, which means you could use it was it had a very small interface at that point.",
+  "zh": "嗯，他们发布 Opus 4 的时候，也同时发布了 Claude Agent SDK，这意味着你可以用——它当时有一个非常小的接口。"
+ },
+ {
+  "seg": 42,
+  "start": 225.92,
+  "end": 230.16,
+  "speaker": "Dex Horthy",
+  "en": "Right now the Claude CLI is basically like the JVM of agentic coding.",
+  "zh": "现在 Claude CLI 基本上就像智能体编程的 JVM。"
+ },
+ {
+  "seg": 43,
+  "start": 230.24,
+  "end": 232.24,
+  "speaker": "Dex Horthy",
+  "en": "It's got like 200 flags on it.",
+  "zh": "它上面大概有 200 个标志参数。"
+ },
+ {
+  "seg": 44,
+  "start": 233.04,
+  "end": 234.8,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, it's a freaking battleship.",
+  "zh": "是啊，它就是一艘战列舰。"
+ },
+ {
+  "seg": 45,
+  "start": 234.96,
+  "end": 243.92,
+  "speaker": "Dex Horthy",
+  "en": "Um but uh but it was the first time you could use Claude like small agentic loops as part of a broader, more deterministic piece of software.",
+  "zh": "呃但那是你第一次可以像使用小型智能体循环一样使用 Claude，作为更大、更具确定性的软件的一部分。"
+ },
+ {
+  "seg": 46,
+  "start": 244,
+  "end": 256.24,
+  "speaker": "Dex Horthy",
+  "en": "So we were building like terminal multiplexers for Claude Code of like, hey, what would it look like to build a TUI where you can manage a bunch of sessions in parallel, or like manage, see and get an inbox of like what are all the approvals waiting on you and things like that.",
+  "zh": "所以我们在做类似 Claude Code 的终端复用器，比如，嘿，做一个 TUI 让你能并行管理一堆会话会是什么样，或者管理、查看一个收件箱，里面是所有等待你批准的事项之类的。"
+ },
+ {
+  "seg": 47,
+  "start": 256.32,
+  "end": 260.72,
+  "speaker": "Dex Horthy",
+  "en": "And we spent a lot of time trying to get how do how do we get these agents to work for longer?",
+  "zh": "而且我们花了大量时间研究如何让这些智能体运作得更久。"
+ },
+ {
+  "seg": 48,
+  "start": 260.96,
+  "end": 262.48,
+  "speaker": "Dex Horthy",
+  "en": "Um, it's very interesting.",
+  "zh": "嗯，这非常有意思。"
+ },
+ {
+  "seg": 49,
+  "start": 262.64,
+  "end": 271.84,
+  "speaker": "Dex Horthy",
+  "en": "The the biggest change between summer of 2025 and now is actually like the planning metagame.",
+  "zh": "2025 年夏天与现在之间最大的变化，实际上就是规划的元博弈。"
+ },
+ {
+  "seg": 50,
+  "start": 272.08,
+  "end": 274.16,
+  "speaker": "Dex Horthy",
+  "en": "Um, I don't think a lot of people realize this.",
+  "zh": "呃，我觉得很多人没有意识到这一点。"
+ },
+ {
+  "seg": 51,
+  "start": 274.24,
+  "end": 280.16,
+  "speaker": "Dex Horthy",
+  "en": "A lot of people just write plans because they put plan mode in the thing or they've read something online and they found some skills and hey, we're gonna make a plan.",
+  "zh": "很多人只是写计划，因为他们开了计划模式，或者在网上看了点什么，找到了一些技能，然后嘿，我们要做个计划。"
+ },
+ {
+  "seg": 52,
+  "start": 280.4,
+  "end": 301.28,
+  "speaker": "Dex Horthy",
+  "en": "Um, and I think depending on where you are in your journey and like the how the models have changed, I in retrospect I realized that like writing a plan file in the summer in like July of 2025, the number one most high-leverage thing that that got you was it was a really reliable way to get a model to work for longer.",
+  "zh": "呃，而且我认为取决于你处在旅程的哪个阶段，以及模型是如何变化的，回想起来我意识到，在 2025 年 7 月的夏天写一个计划文件，最有杠杆价值的第一件事就是，它是一种非常可靠的方式让模型工作得更久。"
+ },
+ {
+  "seg": 53,
+  "start": 301.68,
+  "end": 301.84,
+  "speaker": "unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 54,
+  "start": 302.24,
+  "end": 303.92,
+  "speaker": "Dex Horthy",
+  "en": "It was like, okay, we're gonna do everything on this plan.",
+  "zh": "就是那种，好，我们要按这个计划把所有事情都做完。"
+ },
+ {
+  "seg": 55,
+  "start": 304.16,
+  "end": 306.8,
+  "speaker": "SPEAKER_03",
+  "en": "And to kind of follow instructions, I think, a little bit at the time, right?",
+  "zh": "而且在当时，我觉得它在某种程度上能更好地遵循指令，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 306.88,
+  "end": 325.92,
+  "speaker": "SPEAKER_03",
+  "en": "It was uh well, it didn't always follow instructions, but you had uh you also had things like uh spec kit, for instance, who that was trying to like really micromanage uh the uh the agent and sort of like say, okay, not only is this the plan, but at any time, just come back to me at the end of this step and I will spit out the precise set of additional plans that you're gonna do.",
+  "zh": "它是呃，嗯，它并不总是遵循指令，但你还有呃，比如 spec kit 这样的东西，它试图真正地微管理智能体，就像是说，好，不仅这是计划，而且在任何时候，在这一步结束时回来找我，我会给你吐出你要做的精确的额外计划集合。"
+ },
+ {
+  "seg": 57,
+  "start": 326.08,
+  "end": 334,
+  "speaker": "SPEAKER_03",
+  "en": "Uh but I think it got them uh yeah, it got them to sort of kept kept things a little bit on track, or at least more than it was if you didn't plan.",
+  "zh": "呃，但我认为它让他们呃，是的，它让事情稍微保持在轨道上，或者至少比你不做计划时要好。"
+ },
+ {
+  "seg": 58,
+  "start": 334.48,
+  "end": 338,
+  "speaker": "Dex Horthy",
+  "en": "And it it was a way to like also like make the work a little resumable, right?",
+  "zh": "而且它也是一种让工作变得可恢复的方式，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 338.16,
+  "end": 352.08,
+  "speaker": "Dex Horthy",
+  "en": "It was it was it it was the first version of like first the compaction of intent of like, hey, I'm gonna take this whole thing that I want to build, which could be specified as like every line of code I want to write, yeah, or you could put it into this file as a couple hundred lines of markdown, it's like here's what we're gonna do.",
+  "zh": "它是它是它像是意图压缩的第一个版本，就是，嘿，我要把这整个我想构建的东西，它本可以被指定为比如我要写的每一行代码，是的，或者你可以把它放进这个文件里作为几百行 markdown，内容是：这是我们要做的事。"
+ },
+ {
+  "seg": 60,
+  "start": 352.24,
+  "end": 363.36,
+  "speaker": "Dex Horthy",
+  "en": "And then you could keep that up to date with what was done, what changed, and so you could resume from a clean context window later, which again, also in July of 2025, like the models were not that good at long context.",
+  "zh": "然后你可以用已完成的内容、已变更的内容来保持它的更新，这样你以后就可以从一个干净的上下文窗口恢复，这再次说明，在 2025 年 7 月，模型对长上下文并不那么擅长。"
+ },
+ {
+  "seg": 61,
+  "start": 363.44,
+  "end": 368.72,
+  "speaker": "Dex Horthy",
+  "en": "I coined this term called the dumb zone or whatever it was, which at that time was around 100,000 tokens.",
+  "zh": "我创造了一个术语叫「笨区」（dumb zone）之类的，当时大约在 10 万 token 左右。"
+ },
+ {
+  "seg": 62,
+  "start": 368.8,
+  "end": 371.12,
+  "speaker": "Dex Horthy",
+  "en": "If you went over a hundred thousand tokens, you got way worse results.",
+  "zh": "如果你超过 10 万 token，你得到的结果会差得多。"
+ },
+ {
+  "seg": 63,
+  "start": 371.28,
+  "end": 372.72,
+  "speaker": "Dex Horthy",
+  "en": "Obviously, that number's higher now.",
+  "zh": "显然，现在这个数字更高了。"
+ },
+ {
+  "seg": 64,
+  "start": 372.96,
+  "end": 373.2,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 65,
+  "start": 373.36,
+  "end": 384.72,
+  "speaker": "SPEAKER_03",
+  "en": "Although there is probably still a dumb zone, like there's still a there's still a spot in which like I still like I reuse that term on it, and I feel like it has uh it has an element of like you know, like too much focus is no focus, right?",
+  "zh": "不过可能仍然存在一个笨区，比如仍然有一个位置，像是我仍然在用它上面复用那个术语，我觉得它有呃它有一种元素，就是你知道的，就像注意力太分散等于没有注意力，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 384.8,
+  "end": 399.12,
+  "speaker": "SPEAKER_03",
+  "en": "You know, when you have sort of too much information in it, then finding the area of attention is still something where if you're intentional about it, by yeah, yourself making the decisions around what's in the context window and what's not, then you can you're more likely to achieve the goal that you're trying to achieve.",
+  "zh": "你知道的，当上下文里有太多信息时，找到注意力的区域仍然是这样一件事：如果你对此有意图性，是的，由你自己来决定什么在上下文窗口里、什么不在，那么你就更有可能实现你想实现的目标。"
+ },
+ {
+  "seg": 67,
+  "start": 399.6,
+  "end": 400,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 68,
+  "start": 400.24,
+  "end": 405.84,
+  "speaker": "Dex Horthy",
+  "en": "So anyways, getting back to like our journey is like we had just come away from um Sean Grove had given this really interesting talk.",
+  "zh": "那么总之，回到我们的旅程，我们刚刚听完呃 Sean Grove 做的这个非常有趣的演讲。"
+ },
+ {
+  "seg": 69,
+  "start": 405.92,
+  "end": 406.8,
+  "speaker": "Dex Horthy",
+  "en": "I recommend watching it.",
+  "zh": "我推荐去看一看。"
+ },
+ {
+  "seg": 70,
+  "start": 406.88,
+  "end": 412.4,
+  "speaker": "Dex Horthy",
+  "en": "He was a researcher at OpenAI at the time, and he was talking about basically like the spec is the new code.",
+  "zh": "他当时是 OpenAI 的研究员，他讲的基本上就是「规格说明是新的代码」。"
+ },
+ {
+  "seg": 71,
+  "start": 413.12,
+  "end": 426.24,
+  "speaker": "Dex Horthy",
+  "en": "Um, and this idea that like the way we think about assembly now is the way we're gonna think about code in the future, and the spec will be the thing that is verifiable and executable and compiles into code.",
+  "zh": "呃，还有这个想法，就像我们现在看待汇编代码的方式，就是我们未来看待代码的方式，而规格说明将是那个可验证、可执行、能编译成代码的东西。"
+ },
+ {
+  "seg": 72,
+  "start": 426.4,
+  "end": 426.56,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 73,
+  "start": 426.88,
+  "end": 436.96,
+  "speaker": "Dex Horthy",
+  "en": "And that like checking in the code, uh, he made this he has this really good analogy of like, hey, you write a bunch of Java code and then you compile the the jar, right?",
+  "zh": "然后像提交代码这件事，呃，他做了这个非常好的类比，就是，嘿，你写了一堆 Java 代码，然后编译出 jar 包，对吧？"
+ },
+ {
+  "seg": 74,
+  "start": 437.04,
+  "end": 440.24,
+  "speaker": "Dex Horthy",
+  "en": "And the jar goes into production or whatever, whatever your compiled asset is, right?",
+  "zh": "然后 jar 包进入生产环境或者别的什么，不管你编译出来的产物是什么，对吧？"
+ },
+ {
+  "seg": 75,
+  "start": 440.4,
+  "end": 442.08,
+  "speaker": "Dex Horthy",
+  "en": "And then you commit the code to the repo.",
+  "zh": "然后你把代码提交到仓库。"
+ },
+ {
+  "seg": 76,
+  "start": 442.4,
+  "end": 446.72,
+  "speaker": "Dex Horthy",
+  "en": "It says in the future, like you'll basically just commit the specs.",
+  "zh": "他说在未来，你基本上就只提交规格说明。"
+ },
+ {
+  "seg": 77,
+  "start": 446.88,
+  "end": 460.8,
+  "speaker": "Dex Horthy",
+  "en": "Um, but right now, all of the interesting stuff from how people were using coding agents in June of 2025 was basically you send a bunch of prompts and then you get your result out, and then you commit that, and then you push that, and that becomes part of production.",
+  "zh": "呃，但现在，2025 年 6 月人们使用编码智能体的所有有趣之处，基本上就是你发送一堆提示词，然后得到你的结果，然后提交它，然后推送它，它就成为生产环境的一部分。"
+ },
+ {
+  "seg": 78,
+  "start": 460.88,
+  "end": 486.4,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, but like that all of the interesting, useful, more high-leverage stuff is actually all the prompts you sent in that conversation that should be recorded somehow, and that like having a long chat with an agent and then throwing away the chat and shipping the code is gonna be the new version of like what if we uh wrote you know a bunch of Java code and then compiled the jar and checked in the compiled jar and threw away the code that we wrote.",
+  "zh": "是的，但是像那样，所有有趣的、有用的、更有杠杆价值的东西，实际上是你那次对话中发送的所有提示词，它们应该以某种方式被记录下来，而且像是和一个智能体进行长时间的对话然后扔掉对话、发布代码，将会成为新版本的，就像我们写了一堆 Java 代码然后编译出 jar 包、把编译后的 jar 包提交入库、然后扔掉我们写的代码。"
+ },
+ {
+  "seg": 79,
+  "start": 486.72,
+  "end": 486.96,
+  "speaker": "Dex Horthy",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 80,
+  "start": 487.2,
+  "end": 487.84,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 81,
+  "start": 488.08,
+  "end": 495.92,
+  "speaker": "SPEAKER_03",
+  "en": "I think I mean I I very much kind of uh remember that it needs to be sort of held uh frankly, like this conversation is not just sort of past tense, right?",
+  "zh": "我想，我的意思是，我非常，呃，记得它需要被保持，坦率地说，比如这场对话不仅仅是过去式，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 496,
+  "end": 507.12,
+  "speaker": "SPEAKER_03",
+  "en": "Like I think today there's a lot to be claimed, and I know this is very much kind of in your world, which is like those are the very artifacts that you're supposed to be reviewing and discussing and preserving on at the uh uh uh at the time.",
+  "zh": "就像我认为今天还有很多值得主张的，而且我知道这在很大程度上属于你的领域，那就是，那些正是你应该在当时审查、讨论和保存的产物。"
+ },
+ {
+  "seg": 83,
+  "start": 507.44,
+  "end": 524.72,
+  "speaker": "SPEAKER_03",
+  "en": "But I I think so so so you were like touting, okay, we want to do like uh uh context engineering and kind of capture all of these sort of intents on it, but I guess what was the what was the advocacy then like at the time when you were guiding people to say, hey, be amazing with sort of agentic development?",
+  "zh": "但是我想，所以，所以你当时像是在宣扬，好，我们要做呃上下文工程，把所有这些意图都捕捉下来，但我猜当时的倡导是什么，比如当时你引导人们说，嘿，在智能体开发方面要做得了不起的时候？"
+ },
+ {
+  "seg": 84,
+  "start": 524.8,
+  "end": 527.6,
+  "speaker": "SPEAKER_03",
+  "en": "Like what is it that that you should do?",
+  "zh": "比如你应该做什么？"
+ },
+ {
+  "seg": 85,
+  "start": 527.92,
+  "end": 549.28,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and I'm and I'm interested because like I I know that you kind of went from like almost it feels like you went from like a context engineering kind of advocate to to almost like uh you know an antagonist to the uh to the group on it, that it's like a little bit more like you really need to be uh uh more more defined and more reviewing, and I've heard you say now that you should review the code for now.",
+  "zh": "呃，我对此感兴趣是因为，我知道你差不多是从，感觉上你几乎是从一个上下文工程的倡导者，变成了几乎像是呃，你知道的，对这一做法的反对者，变得有点更像是你真的需要更呃，更有明确定义、更多审查，而且我现在听你说你现在应该审查代码。"
+ },
+ {
+  "seg": 86,
+  "start": 549.44,
+  "end": 553.12,
+  "speaker": "SPEAKER_03",
+  "en": "So I guess what's the what has changed?",
+  "zh": "所以我想问，是什么变了？"
+ },
+ {
+  "seg": 87,
+  "start": 553.52,
+  "end": 562.72,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, I mean this thing happens with models as new models come out and get smarter, you you never know when the singularity is, and the only way to like stay ahead is like try to live in the future.",
+  "zh": "是的，我是说，随着新模型出现并变得更聪明，这种事情就会发生，你永远不知道奇点什么时候来，而保持领先的唯一方法就是，试着活在未来。"
+ },
+ {
+  "seg": 88,
+  "start": 562.88,
+  "end": 575.04,
+  "speaker": "Dex Horthy",
+  "en": "And so I said, Okay, this is a thing people are saying might work, and people in the lab, you know, I think there was a thing that was happening last year a lot where it's just like, oh the labs have way more alpha than any of us, so if they say this is a thing you should do, then you should go do it.",
+  "zh": "所以我说，好，这是人们说可能行得通的东西，而且实验室里的人，你知道，我想去年有很多事情是这样的，就是，哦，实验室比我们所有人拥有多得多的 alpha，所以如果他们说这是你应该做的事，那你就应该去做。"
+ },
+ {
+  "seg": 89,
+  "start": 575.2,
+  "end": 580,
+  "speaker": "Dex Horthy",
+  "en": "Um and so the OpenAI said, Oh, this is working for us, then uh then we wanted to try it.",
+  "zh": "呃，所以 OpenAI 说，哦，这对我们有效，那么呃，那我们就想试试。"
+ },
+ {
+  "seg": 90,
+  "start": 580.08,
+  "end": 588.32,
+  "speaker": "Dex Horthy",
+  "en": "We wanted we wanted to be living in the future, and so we said, Cool, let's try this, let's try like we'll still have pull requests, but like we'll just say, like, cool, if you read the plan, like the code's not as important.",
+  "zh": "我们想要活在未来，所以我们说，好啊，让我们试试这个，比如我们仍然会有 pull request，但我们会说，好，如果你读了计划，代码就没那么重要了。"
+ },
+ {
+  "seg": 91,
+  "start": 588.4,
+  "end": 590.32,
+  "speaker": "Dex Horthy",
+  "en": "Um, ton of ton of issues with that.",
+  "zh": "呃，一 tons 的问题，一大堆问题。"
+ },
+ {
+  "seg": 92,
+  "start": 590.4,
+  "end": 593.76,
+  "speaker": "Dex Horthy",
+  "en": "Uh, first of all, the plans contained all of the code that was gonna be written.",
+  "zh": "呃，首先，这些计划包含了所有将要被写出来的代码。"
+ },
+ {
+  "seg": 93,
+  "start": 593.92,
+  "end": 598.4,
+  "speaker": "Dex Horthy",
+  "en": "Uh, and so you would read this plan of every single every single it was like literally like inline diffs.",
+  "zh": "呃，所以你会读这个计划，每一个，每一个，它简直就像内联的 diff。"
+ },
+ {
+  "seg": 94,
+  "start": 598.48,
+  "end": 598.56,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 95,
+  "start": 598.96,
+  "end": 610.48,
+  "speaker": "Dex Horthy",
+  "en": "Read the plan, and then you would go uh you would go write the code, and then if you didn't read the code, you would basically if you wanted to also review the code because there was drift, or you you know, you were larger, we were three-person startups, so we could have this kind of option.",
+  "zh": "读完计划，然后你就去呃去写代码，然后如果你不读代码，你基本上，如果你想也审查代码的话，因为存在漂移，或者你知道的，我们规模较小，我们是三个人的初创公司，所以我们可以有这种选择。"
+ },
+ {
+  "seg": 96,
+  "start": 610.56,
+  "end": 613.52,
+  "speaker": "Dex Horthy",
+  "en": "We were pre-product market fit, it's like, okay, go, go, go, go, go, go.",
+  "zh": "我们在产品市场契合之前，就是，好，冲，冲，冲，冲，冲，冲。"
+ },
+ {
+  "seg": 97,
+  "start": 613.68,
+  "end": 624.08,
+  "speaker": "Dex Horthy",
+  "en": "Um, but we kind of recommended this to some larger teams, even teams with like 50 developers, then they would say, Yeah, we were hit the plans, and then the person went and did the implementation, and then the implementation would drift, and so they would have to review the code too.",
+  "zh": "呃，但我们把这种方法推荐给了一些更大的团队，甚至是有 50 个开发者的团队，然后他们会说，是的，我们看了计划，然后那个人去做实现，然后实现会发生漂移，所以他们也得审查代码。"
+ },
+ {
+  "seg": 98,
+  "start": 624.16,
+  "end": 627.52,
+  "speaker": "Dex Horthy",
+  "en": "They weren't ready to let go of reviewing the code, which uh good for them.",
+  "zh": "他们还没准备好放弃审查代码，这对他们来说是好事。"
+ },
+ {
+  "seg": 99,
+  "start": 627.68,
+  "end": 633.68,
+  "speaker": "Dex Horthy",
+  "en": "Uh, but it was actually they were actually doing more work, they were reviewing basically the same, almost the same shape of code twice.",
+  "zh": "呃，但实际上他们实际上在做更多的工作，他们基本上审查了几乎相同形状的代码两次。"
+ },
+ {
+  "seg": 100,
+  "start": 634,
+  "end": 652.8,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, depending on the sort of the uh like the detail level of the sort of the spec, but either way, the and combined with like some sort of sense of discomfort because now you're reviewing someone else's code, and so you're kind of uh familiarity and control over it, uh it's oftentimes like harder to apply your opinions uh when editing than it is when you kind of write it in the first place.",
+  "zh": "是的，取决于那种 uh 规格说明的细节程度之类的，但不管怎样，再加上某种不适感，因为现在你在审查别人的代码，所以你有点 uh 对它失去了熟悉感和掌控力，uh 在编辑时应用你的观点往往比你自己一开始写的时候更难。"
+ },
+ {
+  "seg": 101,
+  "start": 653.2,
+  "end": 653.44,
+  "speaker": "Dex Horthy",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 102,
+  "start": 653.6,
+  "end": 667.6,
+  "speaker": "Dex Horthy",
+  "en": "Once yeah, once once the code is written, you're kind of committed to a path, and it's like much more work to change it to the point where sometimes it just makes sense to throughout the implementation, like drop a new prompt in or a new or redo your plan and then and then go again.",
+  "zh": "一旦，是的，一旦代码写出来了，你就有点被锁定在一条路径上了，要改它就得花多得多的功夫，以至于有时候干脆在整个实现过程中，比如丢进去一个新的 prompt，或者重新做你的计划，然后再来一遍。"
+ },
+ {
+  "seg": 103,
+  "start": 668.24,
+  "end": 676.72,
+  "speaker": "Dex Horthy",
+  "en": "Um but uh yeah, we did this experiment, we ran this for like four or five months before we realized like, oh, this is this code base is actually unusable now.",
+  "zh": "嗯，但是 uh 是的，我们做了这个实验，跑了大概四五个月才意识到，哦，这个代码库现在实际上已经没法用了。"
+ },
+ {
+  "seg": 104,
+  "start": 676.8,
+  "end": 678.24,
+  "speaker": "Dex Horthy",
+  "en": "Like it became slower and slower.",
+  "zh": "就是它变得越来越慢。"
+ },
+ {
+  "seg": 105,
+  "start": 678.32,
+  "end": 682.32,
+  "speaker": "Dex Horthy",
+  "en": "There was like every single change caused, you know, change over here caused a regression over here.",
+  "zh": "每一次改动都会，你懂的，这边改一下，那边就出现一个回归。"
+ },
+ {
+  "seg": 106,
+  "start": 682.4,
+  "end": 687.84,
+  "speaker": "Dex Horthy",
+  "en": "I think this is also one of the things we were like, what if we let the model own the system architecture too?",
+  "zh": "我觉得这也是我们当时想的事情之一：如果我们让模型来拥有系统架构会怎样？"
+ },
+ {
+  "seg": 107,
+  "start": 688,
+  "end": 689.44,
+  "speaker": "Dex Horthy",
+  "en": "Like human in the loop reviewing it.",
+  "zh": "就是人类在环里审查它。"
+ },
+ {
+  "seg": 108,
+  "start": 689.6,
+  "end": 690.64,
+  "speaker": "Dex Horthy",
+  "en": "It was like, hey, how would you solve this?",
+  "zh": "就像，嘿，你会怎么解决这个问题？"
+ },
+ {
+  "seg": 109,
+  "start": 690.8,
+  "end": 723.12,
+  "speaker": "Dex Horthy",
+  "en": "Well, well, I'd make a Golang daemon and then I would use a Unix socket, and then I would connect these things, and then when we run the MCP, we ended up with this like system of like six different services where you have like a desktop app that talks to a socket over Rust, and then that that's like a Golang daemon on the back end, which then launches and manages Claude code sessions, which then launch MCP servers to handle the approval system, and then those MCP servers call back to the like front end and like put things in a SQLite database via Unix socket, and then that shows in the U and the user approves something that goes back to the MCP, back to Claude, back to the Golang daemon, and back to the UI.",
+  "zh": "嗯，嗯，我会写一个 Golang 守护进程，然后我会用一个 Unix socket，然后我把这些东西连接起来，然后当我们跑 MCP 的时候，我们最后搞出了这样一个大概有六个不同服务的系统：你有一个桌面应用通过 Rust 跟一个 socket 通信，然后后端是一个 Golang 守护进程，它再启动并管理 Claude code 会话，这些会话再启动 MCP 服务器来处理审批系统，然后这些 MCP 服务器回调到前端，通过 Unix socket 把东西写进一个 SQLite 数据库，然后那显示在 UI 里，用户批准了什么东西，它就回到 MCP，回到 Claude，回到 Golang 守护进程，再回到 UI。"
+ },
+ {
+  "seg": 110,
+  "start": 723.2,
+  "end": 731.2,
+  "speaker": "Dex Horthy",
+  "en": "It was just like this incredibly complex system that the models developed uh if you if you let them decide how it should be architected.",
+  "zh": "如果你让模型自己决定架构，它就会变成这样一个极其复杂的系统。"
+ },
+ {
+  "seg": 111,
+  "start": 731.76,
+  "end": 732.8,
+  "speaker": "SPEAKER_03",
+  "en": "How much is that though?",
+  "zh": "但这里面的成分有多少呢？"
+ },
+ {
+  "seg": 112,
+  "start": 732.88,
+  "end": 739.12,
+  "speaker": "SPEAKER_03",
+  "en": "Uh how much is it that the models don't know how to do it versus you just sort of saying like, hey, figure out an architecture?",
+  "zh": "uh 是模型不知道怎么做，还是你们只是说了句「嘿，想出一个架构」？"
+ },
+ {
+  "seg": 113,
+  "start": 739.2,
+  "end": 741.28,
+  "speaker": "SPEAKER_03",
+  "en": "Like how much of that can be prompted?",
+  "zh": "就是这里面有多少是可以通过 prompt 引导的？"
+ },
+ {
+  "seg": 114,
+  "start": 741.44,
+  "end": 747.52,
+  "speaker": "SPEAKER_03",
+  "en": "And I know we're sort of still in a little bit of like a past tense, so maybe some of this like we need to talk about like a current perspective on it.",
+  "zh": "我知道我们现在还在用某种过去时在讲，所以也许其中一些我们需要从当下的视角来谈。"
+ },
+ {
+  "seg": 115,
+  "start": 747.92,
+  "end": 756.48,
+  "speaker": "SPEAKER_03",
+  "en": "But I think there's a difference between saying, hey, models can't architect and models can't architect yet, or they can't architect if you don't give them enough guidance.",
+  "zh": "但我认为「模型不会做架构」和「模型还不能做架构」或者「如果不给它们足够的指导它们就不能做架构」之间是有区别的。"
+ },
+ {
+  "seg": 116,
+  "start": 759.28,
+  "end": 780.16,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, and I I think I think like fast fast forwarding a little bit, so like we ran this experiment and then we decided no, this is bad, and then we literally rebuilt the whole product from scratch, and the first two weeks of that, my co-founder Kyle was literally in VS Code, typing every not even cursor, like typing every character by hand to plumb out the data architecture for the new version.",
+  "zh": "是的，我我觉得，稍微快进一点说，就是我们做了这个实验，然后决定不行，这很糟糕，然后我们真的从零重建了整个产品，重建的头两个星期，我的联合创始人 Kyle 真的就是在 VS Code 里，手动敲出每一个字符——连 Cursor 都不用——来铺好新版本的数据架构。"
+ },
+ {
+  "seg": 117,
+  "start": 780.4,
+  "end": 781.44,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 118,
+  "start": 781.6,
+  "end": 791.04,
+  "speaker": "Dex Horthy",
+  "en": "Um But I'm really glad like those those patterns have stayed really, really solid, and like especially if you're starting a new project, the decisions you make early on just constantly cascade into the future.",
+  "zh": "嗯，但我真的很高兴，那些模式一直保持得非常非常稳固，尤其是如果你在启动一个新项目，你早期做的决定会不断地级联影响未来。"
+ },
+ {
+  "seg": 119,
+  "start": 791.12,
+  "end": 813.84,
+  "speaker": "Dex Horthy",
+  "en": "And we've we've changed some basic things, but the core ideas behind it are still really strong, and we built on like Electric SQL and durable streams and have this kind of unidirectional data flow uh where like clients don't have to like there's no signaling logic from the back end and there's no like signal receiving logic on the front end that's all just handled by the sync engine, uh, which which was a much better way to do it.",
+  "zh": "我们改过一些基础的东西，但背后的核心理念仍然非常强大，我们基于 Electric SQL 和 durable streams 来构建，采用这种单向数据流 uh，客户端不需要，后端没有 signaling 逻辑，前端也没有信号接收逻辑，那些全都由同步引擎来处理，uh 这是一种好得多的做法。"
+ },
+ {
+  "seg": 120,
+  "start": 813.92,
+  "end": 821.44,
+  "speaker": "Dex Horthy",
+  "en": "And I think any any piece of software built today should use like a real-time sync database where clients can just like connect and and get updates live.",
+  "zh": "而且我认为今天构建的任何软件都应该使用一种实时同步数据库，客户端只需连接上去就能实时拿到更新。"
+ },
+ {
+  "seg": 121,
+  "start": 821.68,
+  "end": 834.56,
+  "speaker": "Dex Horthy",
+  "en": "Um but uh anyway, so we we basically were like, okay, we need to read the code, we need to understand the architecture, and then also like there's so many slot patterns that get in and that these models will left unattended, will create a system.",
+  "zh": "嗯，但是 uh 总之，我们基本上就是说，好，我们需要读代码，需要理解架构，而且还有很多 slop 模式会混进来，这些模型如果放任不管，就会创造出这样一个系统。"
+ },
+ {
+  "seg": 122,
+  "start": 834.72,
+  "end": 852.16,
+  "speaker": "Dex Horthy",
+  "en": "I don't know, there was this thing, I think it was Donald Knuth or one of these like OG like C language guys had this had this uh had this sort of uh principle that was like uh in order to debug code, you need to be like much smarter than you were when you wrote it.",
+  "zh": "我不确定，好像有这么个说法，我记得是 Donald Knuth 还是哪个 C 语言的 OG 大佬，有这样一个 uh 原则，就是 uh 要调试代码，你得比你写它的时候聪明得多。"
+ },
+ {
+  "seg": 123,
+  "start": 852.32,
+  "end": 860.8,
+  "speaker": "Dex Horthy",
+  "en": "And so if you write code that is like the smartest code, the most clever thing that you can come up with, you are by definition not smart enough to debug it.",
+  "zh": "所以如果你写的代码是你能想到的最聪明的代码、最巧妙的东西，那么按定义，你就不够聪明去调试它了。"
+ },
+ {
+  "seg": 124,
+  "start": 861.12,
+  "end": 878.56,
+  "speaker": "Dex Horthy",
+  "en": "And so the thing you're building always has to be more simple than than than than your actual peak uh peak intelligence, uh, which I don't know, I think just in the news last week was like Steve Yege, who spent the last year running around every podcast on the internet and saying, like, hey, uh, and I love Steve.",
+  "zh": "所以你构建的东西总是要比你的实际巅峰 uh 智力更简单，uh 我不知道，我觉得上周新闻里正好是 Steve Yege，他过去一年跑遍了互联网上的每一个播客，说，嘿，uh，而且我很喜欢 Steve。"
+ },
+ {
+  "seg": 125,
+  "start": 878.64,
+  "end": 882.08,
+  "speaker": "Dex Horthy",
+  "en": "Steve's a fucking brilliant guy, uh, a huge fan.",
+  "zh": "Steve 是个他妈的天才，我超级粉他。"
+ },
+ {
+  "seg": 126,
+  "start": 882.24,
+  "end": 892.88,
+  "speaker": "Dex Horthy",
+  "en": "Uh, but I am gonna call him out for going running around the internet and telling everybody, hey, if you're still trying to read the code, you're not gonna make it, and uh like just let the models cook kind of thing.",
+  "zh": "uh 但我要点名说一下他在网上到处跟所有人讲的那句话：嘿，如果你还在试图读代码，你就不会成功，差不多就是让模型放开干吧。"
+ },
+ {
+  "seg": 127,
+  "start": 893.04,
+  "end": 904.48,
+  "speaker": "Dex Horthy",
+  "en": "Uh and then last week kind of said, Yeah, I used Fable to build this thing, and Fable made a system so complicated that it itself could not debug it, and you really have to keep an eye on these things and like understand the system you're building.",
+  "zh": "uh 然后上周他大概是说，是的，我用 Fable 构建了一个东西，而 Fable 做出的系统复杂到连它自己都调试不了，所以你真的得盯着这些东西，得理解你在构建的系统。"
+ },
+ {
+  "seg": 128,
+  "start": 904.96,
+  "end": 916.08,
+  "speaker": "SPEAKER_03",
+  "en": "So, so the sort of the counterargument to this, like I I I I kind of understand and I I relate, and we sort of still have like a Tesla as we sort of build, and we are sort of a team of sort of 20 odd people on the engineering side.",
+  "zh": "所以，所以对此的反驳论点是，我我我我有点理解而且我也有共鸣，我们在构建过程中某种程度上还是有一个 Tesla 的，我们工程团队大概有 20 来号人。"
+ },
+ {
+  "seg": 129,
+  "start": 916.4,
+  "end": 923.28,
+  "speaker": "SPEAKER_03",
+  "en": "So, you know, we do need some sort of supervision by the way, like still compliance systems require kind of a name to every sort of code review and all that.",
+  "zh": "所以你知道，顺便说一下，我们确实需要某种监督，比如合规系统要求每一次代码审查都要有个名字之类的。"
+ },
+ {
+  "seg": 130,
+  "start": 923.36,
+  "end": 934.4,
+  "speaker": "SPEAKER_03",
+  "en": "So we have a lot of like um uh AI-assisted code review, and some changes are allowed to sort of go autonomously, and there's some supervision of complexity, et cetera, et cetera.",
+  "zh": "所以我们有很多 uh AI 辅助的代码审查，一些改动被允许以某种自主方式上线，还有一些对复杂度的监督，等等等等。"
+ },
+ {
+  "seg": 131,
+  "start": 934.56,
+  "end": 937.52,
+  "speaker": "SPEAKER_03",
+  "en": "Uh so I wouldn't sort of say, hey, entirely lights off.",
+  "zh": "uh 所以我不会说，嘿，完全关灯放养。"
+ },
+ {
+  "seg": 132,
+  "start": 937.68,
+  "end": 942.48,
+  "speaker": "SPEAKER_03",
+  "en": "But I think the the counter argument to reviewing the code is is that you're stuck.",
+  "zh": "但我认为对「审查代码」的反驳是：你会被困住。"
+ },
+ {
+  "seg": 133,
+  "start": 942.64,
+  "end": 949.28,
+  "speaker": "SPEAKER_03",
+  "en": "That you know, when you when you uh review the code and you apply uh a change, right?",
+  "zh": "你知道，当你 uh 审查代码并且应用 uh 一处改动时，对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 949.44,
+  "end": 966.24,
+  "speaker": "SPEAKER_03",
+  "en": "Or you sort of you know give more specific instructions or open VS Code and actually kind of handcraft you know some sort of portion of it, then what you're not doing is you are not building a mechanism or a system or an automation that enables the creation of code that is that is to your preferences, right?",
+  "zh": "或者你给出更具体的指令，或者打开 VS Code 亲手打磨其中某一部分，那么你没有在做的事情是：你没有在构建一个机制、一个系统或一种自动化，让生成的代码符合你的偏好，对吧？"
+ },
+ {
+  "seg": 135,
+  "start": 966.32,
+  "end": 975.36,
+  "speaker": "SPEAKER_03",
+  "en": "That is, you know, when you talk about those specs, like I I always think of specs as this kind of this slider uh between determinism and adaptability.",
+  "zh": "就是，你谈到那些规格说明的时候，我我总是把规格说明看作一个在确定性和适应性之间的滑块。"
+ },
+ {
+  "seg": 136,
+  "start": 975.52,
+  "end": 1001.2,
+  "speaker": "SPEAKER_03",
+  "en": "You know, it's sort of like how many degrees of freedom do you want to give the uh the the LLM, the agent, uh, to to build with, like these are the decisions that you have made, and and within those you should be allowed to play, or like where you're enabling the agent to play, and you need to define the sort of the outcomes that you want to see out of it, and you should be comfortable with sort of not caring as long as the outcomes are are achieved.",
+  "zh": "你知道，就有点像是，你想给 uh 那个 LLM、那个智能体多少自由度去构建，比如这些是你已经做出的决定，在这些决定范围内它应该被允许发挥，或者说你在允许智能体发挥的地方，你需要定义你想从它那里看到的结果，而且你应该能接受某种程度上不管过程，只要结果达成就行。"
+ },
+ {
+  "seg": 137,
+  "start": 1001.36,
+  "end": 1011.04,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so if you're if you're kind of building towards that, um you would um like to achieve that result, you have to codify your intent.",
+  "zh": "uh 所以如果你是在朝那个方向构建，um 为了达到那个结果，你就必须把你的意图编成代码固定下来。"
+ },
+ {
+  "seg": 138,
+  "start": 1011.28,
+  "end": 1018.64,
+  "speaker": "SPEAKER_03",
+  "en": "And the way that you would do that is not by reviewing the code, but rather by continuously interacting uh with the system.",
+  "zh": "而做到这一点的方式不是通过审查代码，而是通过持续地与系统交互。"
+ },
+ {
+  "seg": 139,
+  "start": 1019.28,
+  "end": 1033.84,
+  "speaker": "Dex Horthy",
+  "en": "There's like a balance to it, like this idea of like plan before you build, like the only reason to do planning or alignment or whatever it is, whether it's you and the model or you and the model and your team, is like because you have this factory, and this is pre-AI, right?",
+  "zh": "这里面有个平衡，比如「先计划再构建」这个想法，做计划或对齐或不管叫什么的唯一理由是，无论这是你和模型之间，还是你和模型和你的团队之间，是因为你有这么一个工厂，而这是 AI 之前的世界，对吧？"
+ },
+ {
+  "seg": 140,
+  "start": 1033.92,
+  "end": 1043.84,
+  "speaker": "Dex Horthy",
+  "en": "But there's all these pieces, and I've I've talked about this before, so I'm not gonna go in depth on this, but you have people making stuff, and then someone builds it, and then you have a review thing, uh, and then you have a rollout and you have monitoring and you have all this stuff.",
+  "zh": "但有这么多环节，我我之前谈过这个，所以不会深入展开，就是有人在做东西，然后有人构建它，然后你有一个审查环节，uh 然后你有一个发布，然后你有监控，还有所有这些事情。"
+ },
+ {
+  "seg": 141,
+  "start": 1044,
+  "end": 1054.88,
+  "speaker": "Dex Horthy",
+  "en": "But basically, this idea here is like what people learned 30, 40, 50 years ago is that this build step is like can take hours or days, and the review step can also take hours or days.",
+  "zh": "但基本上这里的核心想法是，人们三四五十年前学到的是：构建步骤可能要花几个小时或几天，审查步骤也可能要花几个小时或几天。"
+ },
+ {
+  "seg": 142,
+  "start": 1055.04,
+  "end": 1068.8,
+  "speaker": "Dex Horthy",
+  "en": "And so we as humans before AI, we're like, okay, we're gonna talk about the architecture, we're gonna do the sprint planning thing, we're gonna align with everybody on the team to make sure that this is at least directionally correct, in the hopes that we can decrease the chance of rework and reduce the review time.",
+  "zh": "所以我们作为 AI 之前的人类就说，好，我们要讨论架构，我们要做 sprint 计划那一套，我们要和团队里每个人对齐，确保这至少方向是对的，希望能借此降低返工的概率、缩短审查时间。"
+ },
+ {
+  "seg": 143,
+  "start": 1068.88,
+  "end": 1081.92,
+  "speaker": "Dex Horthy",
+  "en": "Uh, because if we talked about it ahead of time, and we've all done this, everyone's read a perfect PR where they're like, yeah, we talked about this for an hour, and now this thing is a thousand or two thousand lines of code, but I I it's it's following our patterns and everything is correct, so it's easy to review.",
+  "zh": "因为如果我们提前讨论过了——我们都干过这事——每个人都读过那种完美的 PR，你会觉得，是啊，我们为这个讨论了一个小时，现在这东西是一两千行代码，但我它它遵循着我们的模式，一切都正确，所以很容易审查。"
+ },
+ {
+  "seg": 144,
+  "start": 1082.16,
+  "end": 1084.72,
+  "speaker": "Dex Horthy",
+  "en": "When people say we are drowning in PRs, we have too many PRs.",
+  "zh": "当人们说我们被 PR 淹没了，我们的 PR 太多了。"
+ },
+ {
+  "seg": 145,
+  "start": 1084.88,
+  "end": 1092.8,
+  "speaker": "Dex Horthy",
+  "en": "My pushback is like, no, you don't have too many PRs, you have too many bad PRs because you're letting people turn off their brains uh when they're coding.",
+  "zh": "我的反驳是：不，不是你的 PR 太多，是你的坏 PR 太多，因为你让人们在写代码的时候把脑子关掉了。"
+ },
+ {
+  "seg": 146,
+  "start": 1093.04,
+  "end": 1097.6,
+  "speaker": "Dex Horthy",
+  "en": "Um, and so like the the other side of this though is like you don't want to overplan, right?",
+  "zh": "嗯，所以反过来说 uh 你也不想过度计划，对吧？"
+ },
+ {
+  "seg": 147,
+  "start": 1097.76,
+  "end": 1102.56,
+  "speaker": "Dex Horthy",
+  "en": "So like I can YOLO a two-sentence prompt and there's a 50% chance I'll have to rework it.",
+  "zh": "就像我可以用两句 prompt YOLO 一把，然后有 50% 的概率我得返工。"
+ },
+ {
+  "seg": 148,
+  "start": 1102.64,
+  "end": 1106.64,
+  "speaker": "Dex Horthy",
+  "en": "I when I say rework, I mean like I'm gonna go back and forth with the model a couple more times.",
+  "zh": "我说返工的意思是，我要跟模型来回再搞几个回合。"
+ },
+ {
+  "seg": 149,
+  "start": 1106.72,
+  "end": 1110.4,
+  "speaker": "Dex Horthy",
+  "en": "Please don't YOLO a two-sentence prompt and not read the code and send it to someone else to review.",
+  "zh": "但请不要 YOLO 一把两句 prompt、然后不读代码、再把它发给别人去审查。"
+ },
+ {
+  "seg": 150,
+  "start": 1110.48,
+  "end": 1112.64,
+  "speaker": "Dex Horthy",
+  "en": "I'm assuming you're gonna actually repolish it.",
+  "zh": "我猜你最终会真的重新打磨它。"
+ },
+ {
+  "seg": 151,
+  "start": 1112.88,
+  "end": 1115.76,
+  "speaker": "Dex Horthy",
+  "en": "Um or you could like hand write a detailed spec.",
+  "zh": "呃,或者你也可以手写一份详细的规格说明。"
+ },
+ {
+  "seg": 152,
+  "start": 1115.84,
+  "end": 1119.76,
+  "speaker": "Dex Horthy",
+  "en": "You could sit there at a meeting and spend a bunch of time and spend five five hours writing a spec.",
+  "zh": "你可以坐在会议里,花一堆时间,花五个五个小时写一份规格说明。"
+ },
+ {
+  "seg": 153,
+  "start": 1120,
+  "end": 1121.6,
+  "speaker": "Dex Horthy",
+  "en": "And maybe now there's a 10% chance.",
+  "zh": "这样也许现在有 10% 的概率。"
+ },
+ {
+  "seg": 154,
+  "start": 1121.68,
+  "end": 1125.52,
+  "speaker": "Dex Horthy",
+  "en": "You may still have to change some stuff, but um but like it's it's less.",
+  "zh": "你可能还是得改一些东西,但是呃但就是就是会更少。"
+ },
+ {
+  "seg": 155,
+  "start": 1125.76,
+  "end": 1135.04,
+  "speaker": "Dex Horthy",
+  "en": "Or you could do the extreme of like write all the code by hand, uh, and then there, well, there's a zero percent chance you'd have to rework it because of something the agent got wrong because you wrote it.",
+  "zh": "或者你可以走极端,比如全部代码手写,呃,那这样的话,呃,智能体搞错什么东西导致你返工的概率是百分之零,因为是你自己写的。"
+ },
+ {
+  "seg": 156,
+  "start": 1135.28,
+  "end": 1150.32,
+  "speaker": "Dex Horthy",
+  "en": "You may still have to rework it that we've had code review for you know 30, 40 years, but um it's it's you're not gonna have to change it because of something the agent because you left the agent some uh some some leeway to uh to to make decisions on some of the smaller details.",
+  "zh": "你可能还是得返工,这个我们已经做了代码评审你知道三十年、四十年了,但呃就是就是你不至于因为智能体,因为你给智能体留了呃一些一些余地让它呃对一些较小的细节做决定,而不得不改东西。"
+ },
+ {
+  "seg": 157,
+  "start": 1150.72,
+  "end": 1153.28,
+  "speaker": "Dex Horthy",
+  "en": "And I I think about this in terms of expected pain.",
+  "zh": "而我我是用预期痛苦来思考这件事的。"
+ },
+ {
+  "seg": 158,
+  "start": 1153.36,
+  "end": 1158.48,
+  "speaker": "Dex Horthy",
+  "en": "Like, what is the chance you'll have to change uh something later and how painful is that?",
+  "zh": "就是,你之后不得不改动某样东西的概率是多少,以及那有多痛苦?"
+ },
+ {
+  "seg": 159,
+  "start": 1158.64,
+  "end": 1170.88,
+  "speaker": "Dex Horthy",
+  "en": "Like I never argue with a model about like how what color a button is gonna be, or something like that, because I know that if it's not the color I like, I'll just send one prompt and it will fix it.",
+  "zh": "比如我从来不跟模型争论比如按钮该是什么颜色之类的,因为我知道如果颜色不是我喜欢的,我只要发一个 prompt 它就会修好。"
+ },
+ {
+  "seg": 160,
+  "start": 1171.04,
+  "end": 1175.2,
+  "speaker": "Dex Horthy",
+  "en": "But if like the database schema is wrong, then we're probably gonna have to throw it out and restart over.",
+  "zh": "但如果比如数据库 schema 错了,那我们很可能得把它扔掉重头再来。"
+ },
+ {
+  "seg": 161,
+  "start": 1175.28,
+  "end": 1177.28,
+  "speaker": "Dex Horthy",
+  "en": "And so I want to get aligned on that first.",
+  "zh": "所以我想先在那个问题上对齐。"
+ },
+ {
+  "seg": 162,
+  "start": 1177.44,
+  "end": 1177.6,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 163,
+  "start": 1177.84,
+  "end": 1187.84,
+  "speaker": "Dex Horthy",
+  "en": "And so the idea is like you have to build this intuition of like based on the size of the thing and the complexity of the code base and how good the code is today, and how many bad patterns are in there that the model might follow.",
+  "zh": "所以这个想法是,你得建立这种直觉,比如根据这个东西的规模、代码库的复杂度、如今代码质量如何、里面有多少模型可能去遵循的坏模式。"
+ },
+ {
+  "seg": 164,
+  "start": 1188,
+  "end": 1190,
+  "speaker": "Dex Horthy",
+  "en": "Like, where do you want to land on this curve?",
+  "zh": "比如,你想落在这条曲线上的哪个位置?"
+ },
+ {
+  "seg": 165,
+  "start": 1190.16,
+  "end": 1192.24,
+  "speaker": "Dex Horthy",
+  "en": "And that's that's what I think about like today.",
+  "zh": "这就是我如今所思考的。"
+ },
+ {
+  "seg": 166,
+  "start": 1192.4,
+  "end": 1194.24,
+  "speaker": "Dex Horthy",
+  "en": "Planning is all about leverage.",
+  "zh": "规划全都是关于杠杆的。"
+ },
+ {
+  "seg": 167,
+  "start": 1194.4,
+  "end": 1196.72,
+  "speaker": "Dex Horthy",
+  "en": "How do you find the sweet spot for the task?",
+  "zh": "你怎么为这个任务找到甜点位?"
+ },
+ {
+  "seg": 168,
+  "start": 1196.88,
+  "end": 1199.44,
+  "speaker": "Dex Horthy",
+  "en": "And you're gonna get wrong sometimes, that's why I say like get a lot of reps.",
+  "zh": "而且你有时会搞错,这就是为什么我说要大量重复练习。"
+ },
+ {
+  "seg": 169,
+  "start": 1199.6,
+  "end": 1211.84,
+  "speaker": "Dex Horthy",
+  "en": "But this is this is kind of how I think I think I think it's similar to what you said, but just kind of visualized in terms of like what are plans for um is to is to kind of at every stage of your human layer.",
+  "zh": "但这这就是我的大致想法,我觉得这和你说的类似,只是换了一种可视化的方式,比如计划是为了什么,呃,就是在你人类层的每一个阶段。"
+ },
+ {
+  "seg": 170,
+  "start": 1212,
+  "end": 1213.6,
+  "speaker": "Dex Horthy",
+  "en": "We have a bunch of different planning workflows.",
+  "zh": "我们有一大堆不同的规划工作流。"
+ },
+ {
+  "seg": 171,
+  "start": 1213.76,
+  "end": 1216.32,
+  "speaker": "Dex Horthy",
+  "en": "We have like just do a design doc and then go ship it.",
+  "zh": "我们有比如就写个设计文档然后直接去发布。"
+ },
+ {
+  "seg": 172,
+  "start": 1216.4,
+  "end": 1218.48,
+  "speaker": "Dex Horthy",
+  "en": "We have like design and then the order we're gonna do it.",
+  "zh": "我们有比如先设计然后排好做的顺序。"
+ },
+ {
+  "seg": 173,
+  "start": 1218.56,
+  "end": 1229.44,
+  "speaker": "Dex Horthy",
+  "en": "We have like a PRD flow that's like three or four stages, but depending on the size of the feature, yeah, you want to have one or more stages where you are just like slicing off 50% of the potential bad outcomes.",
+  "zh": "我们有一个像三四个阶段的 PRD 流程,但根据功能的规模,是的,你会想要有一个或多个阶段,让你只是切掉 50% 的潜在坏结果。"
+ },
+ {
+  "seg": 174,
+  "start": 1229.6,
+  "end": 1234.16,
+  "speaker": "Dex Horthy",
+  "en": "You're narrowing the outcome space in a way that is like a good use of your time.",
+  "zh": "你在以一种对你时间来说是好用法的方式收窄结果空间。"
+ },
+ {
+  "seg": 175,
+  "start": 1234.32,
+  "end": 1234.48,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 176,
+  "start": 1235.12,
+  "end": 1237.76,
+  "speaker": "SPEAKER_03",
+  "en": "I think um, well, I have a whole bunch of like uh thoughts on it.",
+  "zh": "我想呃,嗯,我对此有一大堆呃想法。"
+ },
+ {
+  "seg": 177,
+  "start": 1237.84,
+  "end": 1245.44,
+  "speaker": "SPEAKER_03",
+  "en": "Like I think you know, direction we're sort of aligned on it, like you have to control a little bit the uh or you have to decide what you want to control for and what do you not want to control for on it.",
+  "zh": "比如我觉得你知道,方向上我们算是大致一致的,比如你得稍微控制一下呃,或者你得决定你想控制什么、不想控制什么。"
+ },
+ {
+  "seg": 178,
+  "start": 1245.6,
+  "end": 1248,
+  "speaker": "SPEAKER_03",
+  "en": "Um one uh I have a set of questions here.",
+  "zh": "呃,我这里有一组问题。"
+ },
+ {
+  "seg": 179,
+  "start": 1248.16,
+  "end": 1255.68,
+  "speaker": "SPEAKER_03",
+  "en": "One is like how much of that planning uh is around kind of guiding the decisions versus expressing your intent?",
+  "zh": "一个是,这些规划里有多少是围绕引导决策,而不是表达你的意图?"
+ },
+ {
+  "seg": 180,
+  "start": 1255.84,
+  "end": 1260.16,
+  "speaker": "SPEAKER_03",
+  "en": "Because I think when you're when you're when you're planning, you say, well, I want the architecture to be like that.",
+  "zh": "因为我觉得当你在规划的时候,你会说,嗯,我想要架构是那样的。"
+ },
+ {
+  "seg": 181,
+  "start": 1260.24,
+  "end": 1265.04,
+  "speaker": "SPEAKER_03",
+  "en": "And implicitly it's well, because I want to make sure that it you know scales cheaply.",
+  "zh": "而隐含的意思是,嗯,因为我想确保它你知道能低成本地扩展。"
+ },
+ {
+  "seg": 182,
+  "start": 1265.2,
+  "end": 1273.92,
+  "speaker": "SPEAKER_03",
+  "en": "I want to make sure that it is you know resilient to like uh additional kind of uh whatever data fields on it, you know, whatever it is.",
+  "zh": "我想确保它你知道能对比如额外的呃什么什么数据字段之类的东西有韧性,你知道,不管是什么。"
+ },
+ {
+  "seg": 183,
+  "start": 1274,
+  "end": 1275.2,
+  "speaker": "SPEAKER_03",
+  "en": "Um but you don't say that.",
+  "zh": "呃但你不把那个说出来。"
+ },
+ {
+  "seg": 184,
+  "start": 1275.28,
+  "end": 1278.24,
+  "speaker": "SPEAKER_03",
+  "en": "You sort of say, I want the architecture to be like that.",
+  "zh": "你只是说,我想要架构是那样的。"
+ },
+ {
+  "seg": 185,
+  "start": 1278.4,
+  "end": 1287.92,
+  "speaker": "SPEAKER_03",
+  "en": "Uh, and so you're you're you're sort of limiting to your own creativity of how you would implement, but you actually never capture your your kind of actual intent of why is it?",
+  "zh": "呃,所以你等于是把自己实现方式的创造力给限制住了,但你实际上从未捕捉到你真正的意图,即为什么是这样?"
+ },
+ {
+  "seg": 186,
+  "start": 1288,
+  "end": 1292.8,
+  "speaker": "SPEAKER_03",
+  "en": "It's one of these, you know, ask why 17 times uh to to get to it.",
+  "zh": "这是那种,你知道,追问十七次为什么才能挖到的东西。"
+ },
+ {
+  "seg": 187,
+  "start": 1292.96,
+  "end": 1305.36,
+  "speaker": "SPEAKER_03",
+  "en": "So I guess when you're when you're going through that planning, how much are you trying to extract and do you separate the uh what do you want to achieve versus how the implementation should look?",
+  "zh": "所以我想问,当你在做那种规划时,你有多想把它提取出来,以及你会不会把你想要达成什么和实现应该长什么样分开?"
+ },
+ {
+  "seg": 188,
+  "start": 1306.24,
+  "end": 1319.76,
+  "speaker": "Dex Horthy",
+  "en": "I mean, I think there's a reason why Matt Pocock's skills and specifically like the grill me skill has uh the most it's in like the top twenty five stars on any GitHub repo of all time, and it's like the top.",
+  "zh": "我是说,我觉得 Matt Pocock 的 skills,特别是那个 grill me skill,能拿到有史以来任何 GitHub 仓库里星标前二十五,是有原因的,它就是那个顶尖。"
+ },
+ {
+  "seg": 189,
+  "start": 1320.32,
+  "end": 1330.08,
+  "speaker": "Dex Horthy",
+  "en": "Three stars on GitHub for repos that like mostly just contain skills is because like people are bad at specifying their intent.",
+  "zh": "那些基本只包含 skills 的仓库里 GitHub 星标前三,是因为人们很不擅长说明自己的意图。"
+ },
+ {
+  "seg": 190,
+  "start": 1330.32,
+  "end": 1348,
+  "speaker": "Dex Horthy",
+  "en": "And uh and I think the the a good AI assisting assisted planning process involves like having the model get enough context to understand what's going on and enabling a user, the fastest way to get a good description of your intent is to just like off the cuff say kind of what you want.",
+  "zh": "而且呃我认为一个由 AI 辅助的好的规划流程,包括让模型获得足够的上下文以理解正在发生的事,并且让用户——得到对你意图的良好描述最快的方式,就是随口说出你大致想要什么。"
+ },
+ {
+  "seg": 191,
+  "start": 1348.16,
+  "end": 1362.72,
+  "speaker": "Dex Horthy",
+  "en": "I'll turn on voice mode and I'll ramble for 60 seconds, and the things I know I want, like, oh okay, we're gonna this has to scale to end users, or this cannot use this pass that has to use this, like it has to use Redis and not the Postgres database because I know the speed like anything you know you should specify.",
+  "zh": "我会打开语音模式然后絮叨 60 秒,以及那些我知道我想要的东西,比如,哦好,这个得能扩展到终端用户,或者这个不能用这条路径、必须用这个,比如它必须用 Redis 而不是 Postgres 数据库,因为我知道速度,你知道任何你该指定的东西。"
+ },
+ {
+  "seg": 192,
+  "start": 1362.88,
+  "end": 1389.12,
+  "speaker": "Dex Horthy",
+  "en": "But the the the onus of like, hey, I need to sit there and just like think for six hours and decide exactly what I want, can it's it's much easier and much faster to be able to take a very rough, like large, unspecified thing, under specified thing, and use AI to you know relentlessly interview the user as as to hey look, here's what you asked for, like here's some alternatives, are you sure you don't want these?",
+  "zh": "但呃,那个「嘿,我得坐在那里光思考六个小时、确切决定我要什么」的负担——能够拿一个非常粗糙的、大的、欠指定的东西,然后用 AI 去不知疲倦地访谈用户,比如「嘿,听着,这是你要的,这里是一些备选方案,你确定不想要这些吗」,要容易得多、快得多。"
+ },
+ {
+  "seg": 193,
+  "start": 1389.28,
+  "end": 1395.6,
+  "speaker": "Dex Horthy",
+  "en": "Or like, hey, you asked for this, but there's a ton of open questions there, like here's what I think they are, and like walking down that decision tree.",
+  "zh": "或者比如,嘿,你要求了这个,但那里有一大堆悬而未决的问题,比如这是我猜的它们是什么,然后沿着那棵决策树走下去。"
+ },
+ {
+  "seg": 194,
+  "start": 1395.84,
+  "end": 1396,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 195,
+  "start": 1396.24,
+  "end": 1401.92,
+  "speaker": "SPEAKER_03",
+  "en": "So I think when you're when you're so I I think we're in agreement over there that you you like it's hard to extract sort of things out of it.",
+  "zh": "所以我觉得当你——我觉得我们在那一点上意见一致,就是你,呃,要从中提取出东西是很难的。"
+ },
+ {
+  "seg": 196,
+  "start": 1402.08,
+  "end": 1417.2,
+  "speaker": "SPEAKER_03",
+  "en": "But when you when you think about like reviewing the code and uh and the likes, I guess what I what I struggle with a bit is this uh okay, like if you extracted the intent correctly and you have defined your kind of verifications correctly, right?",
+  "zh": "但当你想到比如评审代码之类的,我想我有点纠结的地方是这个,呃,好,比如如果你正确提取了意图,并且你正确定义了你的验证方式,对吧?"
+ },
+ {
+  "seg": 197,
+  "start": 1417.28,
+  "end": 1422.96,
+  "speaker": "SPEAKER_03",
+  "en": "You you know what you're looking for, which are are are both big ifs, they're both hard to do uh on it.",
+  "zh": "你知道你在找什么,而这两者都是很大的假设,它们都很难做到,呃。"
+ },
+ {
+  "seg": 198,
+  "start": 1423.44,
+  "end": 1424.56,
+  "speaker": "SPEAKER_03",
+  "en": "Do you still need it?",
+  "zh": "那你还需要它吗?"
+ },
+ {
+  "seg": 199,
+  "start": 1424.64,
+  "end": 1426.88,
+  "speaker": "SPEAKER_03",
+  "en": "Like the models are getting pretty good, you know.",
+  "zh": "比如模型已经相当好了,你知道。"
+ },
+ {
+  "seg": 200,
+  "start": 1426.96,
+  "end": 1430.88,
+  "speaker": "SPEAKER_03",
+  "en": "Let's put aside, you know, that is hard to do, let's put costs aside for a sec, right?",
+  "zh": "我们先把，你知道的，这很难做到这一点放一边，先把成本放一边，对吧？"
+ },
+ {
+  "seg": 201,
+  "start": 1430.96,
+  "end": 1435.52,
+  "speaker": "SPEAKER_03",
+  "en": "Like let's assume you can kind of iterate and you can define because you've defined what good looks like on it.",
+  "zh": "比如，假设你可以大致迭代，并且你可以定义，因为你已经定义了什么是好的样子。"
+ },
+ {
+  "seg": 202,
+  "start": 1435.84,
+  "end": 1439.52,
+  "speaker": "SPEAKER_03",
+  "en": "Like, do do you think like is it uh what's the limitation over here?",
+  "zh": "比如，你觉得呃，这里的限制是什么？"
+ },
+ {
+  "seg": 203,
+  "start": 1439.6,
+  "end": 1450.16,
+  "speaker": "SPEAKER_03",
+  "en": "Is it is it actual like models are just not good enough uh yet, in your view, or is it uh an I don't know if you have like a guess as to like when would they be?",
+  "zh": "是不是，是不是实际上，就是模型还不够好，在你的看法里，还是呃，我不知道你有没有一个猜测，比如它们什么时候会够好？"
+ },
+ {
+  "seg": 204,
+  "start": 1450.32,
+  "end": 1468.16,
+  "speaker": "SPEAKER_03",
+  "en": "Uh or is it uh or is it more uh or is it something else, you know, that it's like uh that that is sort of that that like that causes you not to sort of say like what you really need to do is like invest in the capturing of the intent and the verifiers, and instead you're saying you should review the code.",
+  "zh": "呃，还是说呃，还是更多是呃，还是说是别的东西，你知道的，就是那种，那种，使得你没有说，比如你真正需要做的是投资于意图的捕获和验证器，反而你在说你应该去审查代码。"
+ },
+ {
+  "seg": 205,
+  "start": 1469.84,
+  "end": 1480.88,
+  "speaker": "Dex Horthy",
+  "en": "I I there's like this there was this post from the Haskell community like six months ago that was like a sufficiently detailed spec is code.",
+  "zh": "我，我有，有这样一个，大概六个月前 Haskell 社区有过这样一篇帖子，说的是一份足够详细的规范就是代码。"
+ },
+ {
+  "seg": 206,
+  "start": 1481.2,
+  "end": 1481.92,
+  "speaker": "Dex Horthy",
+  "en": "It's indistinguishable.",
+  "zh": "它是无法区分的。"
+ },
+ {
+  "seg": 207,
+  "start": 1482.8,
+  "end": 1482.88,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 208,
+  "start": 1483.04,
+  "end": 1484.72,
+  "speaker": "SPEAKER_03",
+  "en": "But those are like they are implementation specs.",
+  "zh": "但那些是，它们是实现规范。"
+ },
+ {
+  "seg": 209,
+  "start": 1484.8,
+  "end": 1488.96,
+  "speaker": "SPEAKER_03",
+  "en": "Like these are they're talking about cases in which I am dictating an algorithm to you, right?",
+  "zh": "比如，这些是它们在讨论我在向你口述一个算法的情况，对吧？"
+ },
+ {
+  "seg": 210,
+  "start": 1489.12,
+  "end": 1489.6,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 211,
+  "start": 1489.92,
+  "end": 1511.76,
+  "speaker": "Dex Horthy",
+  "en": "And so yeah, if you give I mean the the the reason why I think specs are so powerful and people maybe get a little bit like one-shotted by a good spec with verification is like if you give the model a good way to get feedback on what it's doing, uh, and to like a hail climb against some objective that it itself can measure, whether it's qualitative or quantitative, yeah, um it will move mountains for you.",
+  "zh": "所以是的，如果你给出，我是说，我认为规范如此强大的原因，人们可能对一份带验证的好规范有点像被一击毙命了，就是如果你给模型一个好的方式来获得对它所做之事的反馈，呃，并且，比如针对某个它自己能衡量的目标去爬山，不管是定性的还是定量的，是的，嗯，它会为你移山倒海。"
+ },
+ {
+  "seg": 212,
+  "start": 1511.84,
+  "end": 1516.56,
+  "speaker": "Dex Horthy",
+  "en": "And it's a again, just like plans were a great way to get a model to work unattended for longer.",
+  "zh": "而且它，再说一次，就像计划是让模型更长时间无人值守工作的好方法一样。"
+ },
+ {
+  "seg": 213,
+  "start": 1516.72,
+  "end": 1519.6,
+  "speaker": "Dex Horthy",
+  "en": "A good spec and good, we call it like back pressure, right?",
+  "zh": "一份好的规范和好的，我们叫它反压，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 1519.68,
+  "end": 1524.32,
+  "speaker": "Dex Horthy",
+  "en": "Is how do you give the model the ability to get feedback on what it did without a human having to do that part?",
+  "zh": "就是你如何给模型获得对它所做之事反馈的能力，而不需要人来完成那部分？"
+ },
+ {
+  "seg": 215,
+  "start": 1524.4,
+  "end": 1524.64,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 216,
+  "start": 1524.8,
+  "end": 1531.28,
+  "speaker": "Dex Horthy",
+  "en": "Um, you can get a lot more done and you can do more in parallel because that thing's gonna go work for two hours and go kick off another one.",
+  "zh": "嗯，你可以完成多得多的工作，你可以并行做更多事情，因为那东西会去干两个小时，然后去启动另一个。"
+ },
+ {
+  "seg": 217,
+  "start": 1531.44,
+  "end": 1531.92,
+  "speaker": "Dex Horthy",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 218,
+  "start": 1532.24,
+  "end": 1535.2,
+  "speaker": "SPEAKER_03",
+  "en": "I think the so I think I I I think that I'm entirely aligned with.",
+  "zh": "我认为，所以我认为我，我，我认为我是完全一致的。"
+ },
+ {
+  "seg": 219,
+  "start": 1535.28,
+  "end": 1549.52,
+  "speaker": "SPEAKER_03",
+  "en": "So like I think the difficulty as I interpret what you've sort of said, and sort of maybe like a bit of like uh to my sort of self-view over here as well, which is like in a perfect world, you'd be able to express intent very well, and you'd be able to express uh your verifiers, right?",
+  "zh": "所以，比如，我认为难度，按照我对你所说内容的理解，也，也大概有一点像我自己的看法，就是，在一个完美的世界里，你能够很好地表达意图，并且你能够很好地表达你的验证器，对吧？"
+ },
+ {
+  "seg": 220,
+  "start": 1549.6,
+  "end": 1552.4,
+  "speaker": "SPEAKER_03",
+  "en": "Of like how is it that you would verify that it's right very well.",
+  "zh": "就是，你要如何很好地验证它是对的。"
+ },
+ {
+  "seg": 221,
+  "start": 1552.48,
+  "end": 1554.24,
+  "speaker": "SPEAKER_03",
+  "en": "And when you do, you don't need to review the code.",
+  "zh": "而当你做到时，你就不需要审查代码了。"
+ },
+ {
+  "seg": 222,
+  "start": 1554.32,
+  "end": 1560.08,
+  "speaker": "SPEAKER_03",
+  "en": "Like if you're if you're able to do that, then you will achieve uh something in which you can allow autonomy, right?",
+  "zh": "就是，如果你能够做到那样，那你就会达成一种，你可以允许自主性的状态，对吧？"
+ },
+ {
+  "seg": 223,
+  "start": 1560.16,
+  "end": 1566.72,
+  "speaker": "SPEAKER_03",
+  "en": "Like what is the level in which you'll allow like what do you need to see to be able to allow autonomy?",
+  "zh": "比如，在什么程度你会允许，你需要看到什么才能允许自主性？"
+ },
+ {
+  "seg": 224,
+  "start": 1567.68,
+  "end": 1573.92,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, um, I mean I I think it's a great way to kind of like prototype and understand what's possible.",
+  "zh": "是的，嗯，我是说，我，我认为这是一种很好的方式来做原型并理解什么是可能的。"
+ },
+ {
+  "seg": 225,
+  "start": 1574,
+  "end": 1582.16,
+  "speaker": "Dex Horthy",
+  "en": "Like I'm working right now on just a little experiment, and I don't actually think this is like a good there are I I'm working on a like code search harness basically.",
+  "zh": "比如，我现在正在做的只是一个小的实验，我其实并不觉得这是一个好的，有，我正在做一个，基本上是一个代码搜索测试框架。"
+ },
+ {
+  "seg": 226,
+  "start": 1582.32,
+  "end": 1589.92,
+  "speaker": "Dex Horthy",
+  "en": "Um and I know like Tejus at Morph LM built a custom model just optimized for code search um called warp prep.",
+  "zh": "嗯，而且我知道，比如 Morph LM 的 Tejus 构建了一个专门为代码搜索优化的自定义模型，嗯，叫 warp prep。"
+ },
+ {
+  "seg": 227,
+  "start": 1590,
+  "end": 1593.84,
+  "speaker": "Dex Horthy",
+  "en": "But what I have been working on is like a code search harness for Jev.",
+  "zh": "但我一直在做的是，比如，一个针对 Jev 的代码搜索测试框架。"
+ },
+ {
+  "seg": 228,
+  "start": 1594.48,
+  "end": 1599.12,
+  "speaker": "Dex Horthy",
+  "en": "Um so like can you get Jeb to select the next correct action?",
+  "zh": "嗯，比如，你能不能让 Jeb 选择下一个正确的动作？"
+ },
+ {
+  "seg": 229,
+  "start": 1599.2,
+  "end": 1607.92,
+  "speaker": "Dex Horthy",
+  "en": "Like basically using Jeb's classifiers as tool calls of like cool, next I want to read this file, or the final answer of like, hey, yeah, now we have enough context to answer the question or whatever it is.",
+  "zh": "比如基本上是使用 Jeb 的分类器作为工具调用，比如，酷，下一步我想读这个文件，或者最终答案是，比如，嘿，是的，现在我们有足够的上下文来回答这个问题了，或者别的什么。"
+ },
+ {
+  "seg": 230,
+  "start": 1608.48,
+  "end": 1613.36,
+  "speaker": "Dex Horthy",
+  "en": "And the problem is Jeb only has a 32k or 64k like input context window.",
+  "zh": "而问题是 Jeb 只有 32k 或 64k 的输入上下文窗口。"
+ },
+ {
+  "seg": 231,
+  "start": 1613.44,
+  "end": 1616.72,
+  "speaker": "Dex Horthy",
+  "en": "I forgot, I think 64k is some asterisk on it.",
+  "zh": "我忘了，我记得 64k 上好像有个星号。"
+ },
+ {
+  "seg": 232,
+  "start": 1617.12,
+  "end": 1623.92,
+  "speaker": "Dex Horthy",
+  "en": "Um but um that means that you cannot put an entire code base in there, right?",
+  "zh": "嗯，但，嗯，那就意味着你不能把整个代码库放进去，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 1624.08,
+  "end": 1648.24,
+  "speaker": "Dex Horthy",
+  "en": "Uh, or you cannot say here's all the information we have so far, and so you have to get really creative about how do you split things up and how do you merge them back together, and so I'm kind of taking like an evolutionary algorithm sort of approach of like, hey, cool, go do a bunch of subagents, have them try different things, try them hill climb different dimensions of the Pareto frontier for cost and speed and accuracy and 45 different code search evals right now and more coming.",
+  "zh": "呃，或者你不能说，这是我们目前拥有的所有信息，所以你必须非常有创造力地想怎么拆分东西、怎么把它们合并回来，所以我有点采用类似进化算法的方法，比如，嘿，酷，去运行一堆子智能体，让它们尝试不同的东西，让它们在成本、速度和准确率的帕累托前沿的不同维度上爬山，目前有 45 个不同的代码搜索评测，还有更多在来。"
+ },
+ {
+  "seg": 234,
+  "start": 1648.48,
+  "end": 1651.44,
+  "speaker": "Dex Horthy",
+  "en": "Um I'm not reading any of that code.",
+  "zh": "嗯，我没有读任何那些代码。"
+ },
+ {
+  "seg": 235,
+  "start": 1651.68,
+  "end": 1667.36,
+  "speaker": "Dex Horthy",
+  "en": "Um and if it actually works and if seems good, then I will probably like take the like root of it and be like, cool, like explain this algorithm to me, turn that into a spec, and then re-implement that with actual like clean architecture, because there's just slop everywhere right now.",
+  "zh": "嗯，而如果它真的有效，如果看起来不错，那我可能会，比如，把它的根部拿过来，说，酷，比如，给我解释一下这个算法，把它变成一份规范，然后用真正的干净架构重新实现它，因为现在到处都是 slop。"
+ },
+ {
+  "seg": 236,
+  "start": 1667.44,
+  "end": 1694.64,
+  "speaker": "Dex Horthy",
+  "en": "Like the code is just like doing all this crazy regex matching and splitting, and uh so I I think I think not reading the code in order to prove what's possible and to prototype is is very feasible, but I mean I think everyone says, I don't know, there was this thing that people said in like the Sonnet 3.5 Opus 4 kind of days, which was like, yeah, sure, the code is slot, but I'm not gonna read it because like by the time I need to fix it, that'll be GPT-7's problem.",
+  "zh": "比如，代码就是，就是做着各种疯狂的正则匹配和拆分，而且，呃，所以我，我认为，我认为不读代码以便证明什么是可能的、以及做原型，是非常可行的，但我是说，我觉得大家都在说，我不知道，在类似 Sonnet 3.5、Opus 4 那个年代人们说过这样的话，比如，是的，当然，代码是 slop,但我不会去读它，因为等我需要修它的时候，那会是 GPT-7 的问题。"
+ },
+ {
+  "seg": 237,
+  "start": 1694.96,
+  "end": 1713.76,
+  "speaker": "Dex Horthy",
+  "en": "And the challenge is like, folks, we're at GPT-6, and every really good builder I know has mentioned that like like you know, Astra got much better at computer use, it got much better at video game slot, it got much better at Blender, but it didn't actually get that much better at writing code that is maintainable.",
+  "zh": "而挑战是，比如，伙计们，我们已经在 GPT-6 了，而我认识的每一个真正好的构建者都提到，比如，你知道，Astra 在计算机使用上变得强多了，在视频游戏 slop 上强多了，在 Blender 上强多了，但在写可维护的代码这件事上其实并没有变得强多少。"
+ },
+ {
+  "seg": 238,
+  "start": 1713.92,
+  "end": 1720.08,
+  "speaker": "Dex Horthy",
+  "en": "Um, and I think this is because uh to train a model at something, you need RL environments for it.",
+  "zh": "嗯，我认为这是因为，呃，要在某件事上训练一个模型，你需要为它准备 RL 环境。"
+ },
+ {
+  "seg": 239,
+  "start": 1720.16,
+  "end": 1723.84,
+  "speaker": "Dex Horthy",
+  "en": "Uh and to have a good an RL environment, you need a Oracle.",
+  "zh": "呃，而要有一个好的 RL 环境，你需要一个 Oracle(神谕)。"
+ },
+ {
+  "seg": 240,
+  "start": 1724,
+  "end": 1729.92,
+  "speaker": "Dex Horthy",
+  "en": "You need a thing that can verify whether the product meets the needs of the user.",
+  "zh": "你需要一个能够验证产品是否满足用户需求的东西。"
+ },
+ {
+  "seg": 241,
+  "start": 1730.08,
+  "end": 1734.48,
+  "speaker": "Dex Horthy",
+  "en": "And maintainability, you don't find out something is unmaintainable until two months later.",
+  "zh": "而可维护性，你要到两个月后才会发现某个东西是不可维护的。"
+ },
+ {
+  "seg": 242,
+  "start": 1734.64,
+  "end": 1738.32,
+  "speaker": "Dex Horthy",
+  "en": "Uh there's no fast oracle for software maintainability.",
+  "zh": "呃，软件可维护性没有快速的 Oracle。"
+ },
+ {
+  "seg": 243,
+  "start": 1738.48,
+  "end": 1744.08,
+  "speaker": "Dex Horthy",
+  "en": "Um, I think is uh I was riffing about this with Addy Osmani, who was at Google for a while, um, and that was kind of his take.",
+  "zh": "嗯，我想，呃，我曾经和 Addy Osmani 聊过这个，他在 Google 待过一段时间，嗯，那大概也是他的看法。"
+ },
+ {
+  "seg": 244,
+  "start": 1744.16,
+  "end": 1749.2,
+  "speaker": "Dex Horthy",
+  "en": "It's like, yeah, maintainability has no fast oracle, and it doesn't seem like there was this benchmark.",
+  "zh": "就是，是的，可维护性没有快速 Oracle,而且似乎没有这样的基准。"
+ },
+ {
+  "seg": 245,
+  "start": 1749.28,
+  "end": 1750.64,
+  "speaker": "Dex Horthy",
+  "en": "Have you heard of slop code bench?",
+  "zh": "你听说过 slop code bench 吗？"
+ },
+ {
+  "seg": 246,
+  "start": 1750.8,
+  "end": 1762.8,
+  "speaker": "Dex Horthy",
+  "en": "I'll give you the very high, very high level, which is like you give a model a code base, you give it a challenge, you say, hey, go go write this feature, and then you have the code base, and then you say, Cool, now go write this feature, and it has to inherit its code base at every step.",
+  "zh": "我给你讲一个非常高、非常高的层面，就是，你给一个模型一个代码库，给它一个挑战，你说，嘿，去，去写这个功能，然后你拿着那个代码库，接着你说，酷，现在去写这个功能，而它必须继承它每一步的代码库。"
+ },
+ {
+  "seg": 247,
+  "start": 1762.96,
+  "end": 1767.76,
+  "speaker": "Dex Horthy",
+  "en": "And it's like, now go write this feature, and like basically what the benchmark shows is one, it's very undersaturated.",
+  "zh": "然后，比如，现在去写这个功能，而这个基准基本上显示的是，第一，它非常欠饱和。"
+ },
+ {
+  "seg": 248,
+  "start": 1767.84,
+  "end": 1771.52,
+  "speaker": "Dex Horthy",
+  "en": "Like, I think GPT-5.5 in May got a 14.8%.",
+  "zh": "比如，我记得 GPT-5.5 在五月拿到了 14.8%。"
+ },
+ {
+  "seg": 249,
+  "start": 1772.56,
+  "end": 1775.6,
+  "speaker": "Dex Horthy",
+  "en": "Uh, and they're getting ready to publish the results for Astra.",
+  "zh": "呃，而且他们正准备发布 Astra 的结果。"
+ },
+ {
+  "seg": 250,
+  "start": 1775.68,
+  "end": 1782.48,
+  "speaker": "Dex Horthy",
+  "en": "Uh, I think uh I was helping them run it with some inference and stuff, but like um it's not my benchmark, by the way.",
+  "zh": "呃，我想呃我之前帮他们用一些推理之类的跑这个，不过嗯顺便说一句，这不是我的基准测试。"
+ },
+ {
+  "seg": 251,
+  "start": 1782.56,
+  "end": 1784.48,
+  "speaker": "Dex Horthy",
+  "en": "This is like our lab out of University of Wisconsin.",
+  "zh": "这是我们威斯康星大学的实验室之类的。"
+ },
+ {
+  "seg": 252,
+  "start": 1784.56,
+  "end": 1788.4,
+  "speaker": "Dex Horthy",
+  "en": "Uh but we've been like, you know, providing providing runs and doing stuff like this.",
+  "zh": "呃但我们一直在，你知道，提供跑测和做一些这样的事情。"
+ },
+ {
+  "seg": 253,
+  "start": 1788.48,
+  "end": 1792.72,
+  "speaker": "Dex Horthy",
+  "en": "And Astra got in the first run we did was like 16.3%.",
+  "zh": "然后 Astra，我们跑的第一轮大概是 16.3%。"
+ },
+ {
+  "seg": 254,
+  "start": 1793.76,
+  "end": 1800.16,
+  "speaker": "Dex Horthy",
+  "en": "So like the models are getting better in this dimension of like, can they maintain a code base over time?",
+  "zh": "所以模型在「它们能否长期维护一个代码库」这个维度上正在变好。"
+ },
+ {
+  "seg": 255,
+  "start": 1800.72,
+  "end": 1803.04,
+  "speaker": "Dex Horthy",
+  "en": "But not as fast as everyone thinks.",
+  "zh": "但没有大家想的那么快。"
+ },
+ {
+  "seg": 256,
+  "start": 1803.2,
+  "end": 1805.6,
+  "speaker": "Dex Horthy",
+  "en": "Like I said, we said GPT-7 would solve all of this.",
+  "zh": "就像我说的，我们说过 GPT-7 会解决所有这些问题。"
+ },
+ {
+  "seg": 257,
+  "start": 1805.68,
+  "end": 1817.92,
+  "speaker": "Dex Horthy",
+  "en": "We're GPT-6 and like we are getting we are RLing and hill climbing in other domains, but like the frontier of like model maintaining code base over time does not appear to be getting better that quickly.",
+  "zh": "现在是 GPT-6，我们确实在其他领域做 RL 和爬坡，但在「模型长期维护代码库」这个前沿方向上，似乎并没有提升得那么快。"
+ },
+ {
+  "seg": 258,
+  "start": 1818.24,
+  "end": 1821.04,
+  "speaker": "Simon Mayfor",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "大家好，希望你到目前为止喜欢这期节目。"
+ },
+ {
+  "seg": 259,
+  "start": 1821.28,
+  "end": 1829.44,
+  "speaker": "Simon Mayfor",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队在幕后非常努力地为你带来最棒的嘉宾，这样我们就能围绕智能体开发进行信息量最大的对话。"
+ },
+ {
+  "seg": 260,
+  "start": 1829.6,
+  "end": 1835.04,
+  "speaker": "Simon Mayfor",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是聊最新的工具、最高效的工作流，还是定义最佳实践。"
+ },
+ {
+  "seg": 261,
+  "start": 1835.2,
+  "end": 1838.8,
+  "speaker": "Simon Mayfor",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但出于某种原因，你们中的很多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 262,
+  "start": 1839.04,
+  "end": 1845.76,
+  "speaker": "Simon Mayfor",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favour and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并且希望我们继续为你带来最优质的内容，请帮我们一个忙，点击订阅按钮。"
+ },
+ {
+  "seg": 263,
+  "start": 1845.92,
+  "end": 1853.28,
+  "speaker": "Simon Mayfor",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这真的很重要，能让我们继续提升嘉宾的质量，并为你打造更好的产品。"
+ },
+ {
+  "seg": 264,
+  "start": 1853.6,
+  "end": 1855.2,
+  "speaker": "SPEAKER_03",
+  "en": "Alright, back to the episode.",
+  "zh": "好的，回到节目。"
+ },
+ {
+  "seg": 265,
+  "start": 1855.84,
+  "end": 1857.92,
+  "speaker": "SPEAKER_03",
+  "en": "I love this conversation, I think about this all the time.",
+  "zh": "我喜欢这个话题，我一直都在思考这个问题。"
+ },
+ {
+  "seg": 266,
+  "start": 1858.08,
+  "end": 1866.32,
+  "speaker": "SPEAKER_03",
+  "en": "Uh I feel like the counter-argument to an extent is sort of this notion of sort of of maintenance agents, right?",
+  "zh": "呃我觉得在某种程度上，反驳论点有点像「维护智能体」这个概念，对吧？"
+ },
+ {
+  "seg": 267,
+  "start": 1866.4,
+  "end": 1875.44,
+  "speaker": "SPEAKER_03",
+  "en": "And I I think in general, like through the TESL journey, right, we started talking about sort of spec-centric software development, spec-driven software development, and then we moved into this sort of context and skills.",
+  "zh": "而且我我总体上认为，在整个 TESL 历程中，对吧，我们开始谈论以规格为中心的软件开发、规格驱动的软件开发，然后我们进入了这种上下文和技能的阶段。"
+ },
+ {
+  "seg": 268,
+  "start": 1875.52,
+  "end": 1890.4,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and to me, the the sort of the premise of that evolution was that uh is maybe the acceptance that when you think about an amazing developer on your team, uh they're not amazing just because they know what you are building, but also because they understand how you are building.",
+  "zh": "呃对我来说，这种演化的前提也许是接受了这样一个事实：当你想到团队里一位出色的开发者时，呃他们之所以出色，不仅仅是因为他们知道你在构建什么，还因为他们理解你是如何构建的。"
+ },
+ {
+  "seg": 269,
+  "start": 1890.56,
+  "end": 1893.04,
+  "speaker": "SPEAKER_03",
+  "en": "And really, to me, context is sort of the breadth of it, right?",
+  "zh": "而对我而言，上下文某种程度上就是它的广度，对吧？"
+ },
+ {
+  "seg": 270,
+  "start": 1893.12,
+  "end": 1897.44,
+  "speaker": "SPEAKER_03",
+  "en": "I think like you look at skills, for instance, they will have, I think, three primary categories.",
+  "zh": "我认为比如你看看 skills，它们大概会有三个主要类别。"
+ },
+ {
+  "seg": 271,
+  "start": 1897.6,
+  "end": 1903.84,
+  "speaker": "SPEAKER_03",
+  "en": "They will have uh uh specs, which are more about like how does your product or another product work on it so they can build it.",
+  "zh": "它们会有呃呃 specs，更多是关于你的产品或另一个产品是怎么运作的，这样它们就能构建它。"
+ },
+ {
+  "seg": 272,
+  "start": 1903.92,
+  "end": 1918.56,
+  "speaker": "SPEAKER_03",
+  "en": "They will have um um uh uh uh workflows around how do you want to sort of perform you know some action on it, and then they will have opinions, they will have policies, best practices, and like choices where it's not necessarily correct or incorrect, but it's just your choice.",
+  "zh": "它们会有嗯嗯呃呃呃 workflows，围绕你想如何对它执行某个操作，然后它们会有观点，会有策略、最佳实践，以及一些没有对错之分、只是你的选择的东西。"
+ },
+ {
+  "seg": 273,
+  "start": 1918.72,
+  "end": 1921.44,
+  "speaker": "SPEAKER_03",
+  "en": "We got in the room and we agreed this is our security policy, right?",
+  "zh": "我们进了会议室，大家同意这就是我们的安全策略，对吧？"
+ },
+ {
+  "seg": 274,
+  "start": 1921.52,
+  "end": 1923.68,
+  "speaker": "SPEAKER_03",
+  "en": "This is our sort of uh uh balancing act.",
+  "zh": "这就是我们的那种呃呃权衡之道。"
+ },
+ {
+  "seg": 275,
+  "start": 1924,
+  "end": 1930.72,
+  "speaker": "Dex Horthy",
+  "en": "Or we say I I don't know, we had a couple of these at Sprout Social my first when my first gig out of college, and it they they called they just had a list of things.",
+  "zh": "或者我们说，我不知道，我在 Sprout Social 有过几次这样的经历，那是我大学毕业后的第一份工作，他们他们有一份清单。"
+ },
+ {
+  "seg": 276,
+  "start": 1930.8,
+  "end": 1933.52,
+  "speaker": "Dex Horthy",
+  "en": "It was like, do not wrap APIs in other APIs.",
+  "zh": "大概是：不要把 API 包在别的 API 里。"
+ },
+ {
+  "seg": 277,
+  "start": 1933.92,
+  "end": 1934.16,
+  "speaker": "Dex Horthy",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 278,
+  "start": 1934.4,
+  "end": 1936.4,
+  "speaker": "Dex Horthy",
+  "en": "Like minimize code's traversal depth.",
+  "zh": "比如：尽量减少代码的遍历深度。"
+ },
+ {
+  "seg": 279,
+  "start": 1936.56,
+  "end": 1944.32,
+  "speaker": "Dex Horthy",
+  "en": "And uh my boss at the time, this guy Alan, crazy smart dude, he had this thing of like three, he called it three copies press hard.",
+  "zh": "而呃我当时的老板，这个叫 Alan 的家伙，聪明得不可思议，他有这么一条，他称之为「三份拷贝，用力按」。"
+ },
+ {
+  "seg": 280,
+  "start": 1944.56,
+  "end": 1952.16,
+  "speaker": "Dex Horthy",
+  "en": "Is like at the top of your endpoint, you always have like a okay, log a thing and then send a metric and then do another thing.",
+  "zh": "意思是在你的 endpoint 顶部，你总是会有类似：好吧，记录一个东西，然后发送一个指标，然后再做另一件事。"
+ },
+ {
+  "seg": 281,
+  "start": 1952.32,
+  "end": 1958,
+  "speaker": "Dex Horthy",
+  "en": "And every engineer wants to like collapse those into a function, like an abstraction, like send metrics.",
+  "zh": "每个工程师都想把这三行折叠成一个函数，一个抽象，比如「发送指标」。"
+ },
+ {
+  "seg": 282,
+  "start": 1958.16,
+  "end": 1968.4,
+  "speaker": "Dex Horthy",
+  "en": "And his take is just like, no, just duplicate the three lines of code everywhere because as soon as you put an abstraction over it, it ends up like leaking a bunch of stuff and it becomes very complex and it gets a bunch of responsibilities.",
+  "zh": "而他的看法就是：不，就在每个地方重复这三行代码，因为一旦你在上面加了一层抽象，它最终会泄漏出一大堆东西，变得非常复杂，并承担一堆职责。"
+ },
+ {
+  "seg": 283,
+  "start": 1968.56,
+  "end": 1970.4,
+  "speaker": "Dex Horthy",
+  "en": "Just call the three different methods in line.",
+  "zh": "直接在原地调用那三个不同的方法。"
+ },
+ {
+  "seg": 284,
+  "start": 1970.56,
+  "end": 1973.76,
+  "speaker": "Dex Horthy",
+  "en": "And this is what you do when you go to the car shop or the car mechanic, right?",
+  "zh": "这就像你去修车店或者汽修师傅那里，对吧？"
+ },
+ {
+  "seg": 285,
+  "start": 1974,
+  "end": 1976.48,
+  "speaker": "Dex Horthy",
+  "en": "You you you they say three copies, press hard.",
+  "zh": "他们说的就是「三份拷贝，用力按」。"
+ },
+ {
+  "seg": 286,
+  "start": 1976.88,
+  "end": 1989.12,
+  "speaker": "Dex Horthy",
+  "en": "You write down, you sign the thing, and then one goes to management and one goes to one goes to processing and one one you keep, uh, and they've just figured this out that it's like, no, we're not gonna take one thing and then like make copies of it or whatever.",
+  "zh": "你写下信息，签个字，然后一份交给管理层，一份交给处理部门，一份你自己留着，呃，他们就是这么想明白的：不，我们不会拿一个东西然后再去复制它之类的。"
+ },
+ {
+  "seg": 287,
+  "start": 1989.2,
+  "end": 1993.28,
+  "speaker": "Dex Horthy",
+  "en": "It's just like, yeah, it seems a little weird and archaic, and like, okay, you could be smarter about it.",
+  "zh": "就是，是的，这看起来有点怪而且老派，你可以说，好吧，你可以做得更聪明一点。"
+ },
+ {
+  "seg": 288,
+  "start": 1993.44,
+  "end": 1996.88,
+  "speaker": "Dex Horthy",
+  "en": "Anyways, yeah, these are the kinds of opinions that like are very hard.",
+  "zh": "总之，是的，这类观点是非常难以处理的。"
+ },
+ {
+  "seg": 289,
+  "start": 1997.04,
+  "end": 2000.56,
+  "speaker": "Dex Horthy",
+  "en": "This taste that engineers have over five, ten, twenty years.",
+  "zh": "这是工程师在五年、十年、二十年里积累的品味。"
+ },
+ {
+  "seg": 290,
+  "start": 2001.04,
+  "end": 2001.44,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 291,
+  "start": 2001.68,
+  "end": 2003.92,
+  "speaker": "Dex Horthy",
+  "en": "We haven't figured out how to put that in a model yet.",
+  "zh": "我们还没有弄清楚如何把那种东西放进模型里。"
+ },
+ {
+  "seg": 292,
+  "start": 2004,
+  "end": 2006.4,
+  "speaker": "Dex Horthy",
+  "en": "We just haven't figured out how to give models that that taste.",
+  "zh": "我们就是还没弄清楚如何给模型那种品味。"
+ },
+ {
+  "seg": 293,
+  "start": 2006.8,
+  "end": 2014.56,
+  "speaker": "SPEAKER_03",
+  "en": "So I guess uh I guess what I'm asking is okay, so you can't put that in a model, and and I don't know if they ever will, because like models almost by definition, they are generic intelligence.",
+  "zh": "所以我想呃我想问的是：好吧，你没法把那个放进模型，而且我不知道它们将来能不能，因为模型几乎从定义上来说，就是通用智能。"
+ },
+ {
+  "seg": 294,
+  "start": 2014.64,
+  "end": 2016.88,
+  "speaker": "SPEAKER_03",
+  "en": "The one you use and the one I use are the same.",
+  "zh": "你用的那个和我用的那个是同一个。"
+ },
+ {
+  "seg": 295,
+  "start": 2016.96,
+  "end": 2021.76,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so even if they are or less smart, they're they're they're the same opinion.",
+  "zh": "呃所以即使它们更聪明或没那么聪明，它们的观点都是同一个。"
+ },
+ {
+  "seg": 296,
+  "start": 2021.84,
+  "end": 2028.8,
+  "speaker": "SPEAKER_03",
+  "en": "You know, they will uh they will run, you know, design is probably the easiest examples of that, you know, like like you might like dark mode or you might hate dark mode, right?",
+  "zh": "你知道，它们会呃会跑，设计大概是最容易说明这一点的例子，比如你可能喜欢深色模式，也可能讨厌深色模式，对吧？"
+ },
+ {
+  "seg": 297,
+  "start": 2028.88,
+  "end": 2030.24,
+  "speaker": "SPEAKER_03",
+  "en": "Like, you know, you might sort of choose that.",
+  "zh": "比如，你知道，你可以自己选。"
+ },
+ {
+  "seg": 298,
+  "start": 2030.4,
+  "end": 2034.64,
+  "speaker": "SPEAKER_03",
+  "en": "And so uh but but you can't put it into the model, but you can put it into context.",
+  "zh": "所以呃但你没法把它放进模型，但你可以把它放进上下文。"
+ },
+ {
+  "seg": 299,
+  "start": 2034.8,
+  "end": 2038.72,
+  "speaker": "SPEAKER_03",
+  "en": "And so you can define, and if you've captured that, and that to me is another planning aspect, right?",
+  "zh": "所以你可以定义它，而且如果你已经捕获了它，那对我来说就是另一个规划层面，对吧？"
+ },
+ {
+  "seg": 300,
+  "start": 2038.8,
+  "end": 2053.2,
+  "speaker": "SPEAKER_03",
+  "en": "Like you've planned how you want to build, and now you can run a whole bunch of uh maintenance agents that would run on that code base that would review code that was created by an implementer agent uh who took in more like uh feature requirements, right?",
+  "zh": "比如你已经规划好了想要怎么构建，现在你可以运行一大堆维护智能体，让它们在那个代码库上运行，去审查由实现智能体创建的代码，而这个实现智能体接收的更像是功能需求，对吧？"
+ },
+ {
+  "seg": 301,
+  "start": 2053.28,
+  "end": 2058.56,
+  "speaker": "SPEAKER_03",
+  "en": "Like sort of requests on it and will ensure, and you codify your taste, your preferences.",
+  "zh": "也就是某种针对它的请求，并会确保——而且你把你的品味、你的偏好固化下来。"
+ },
+ {
+  "seg": 302,
+  "start": 2058.72,
+  "end": 2071.36,
+  "speaker": "SPEAKER_03",
+  "en": "I guess why isn't that the way to achieve uh a non or a low slop code uh and kind of invest in that path versus reviewing the code?",
+  "zh": "我想问，为什么这不是实现低垃圾代码的路径呢，为什么不投资那条路径，而不是审查代码？"
+ },
+ {
+  "seg": 303,
+  "start": 2071.92,
+  "end": 2089.76,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, I mean I I could see I could see a world where I mean the the way this usually starts is people just add a hundred end up adding one after another after another of like bullet points into their cloud empty or their agents empty, of like always do this and never do this, and then you end up with a bunch of instructions and like most of them don't get followed because it's too much context.",
+  "zh": "是这样，我意思是，我我可以看到，我可以看到一个世界，我意思是，通常这件事的起点是人们只是往他们的 cloud empty 或他们的 agents empty 里添加一条又一条又一条的要点，比如总是这样做、永远不要那样做，最后你得到一堆指令，而且大部分指令不会被遵循，因为上下文太多了。"
+ },
+ {
+  "seg": 304,
+  "start": 2089.84,
+  "end": 2104,
+  "speaker": "Dex Horthy",
+  "en": "And so, like, yeah, you could probably I mean, so we do this thing internally at Human Layer where we have uh deterministic detectors for some of them deterministic, some of them are non-deterministic, but very simple of like we don't like this pattern, the desired end state looks like this.",
+  "zh": "所以，比如，是的，你很可能——我意思是，我们在 Human Layer 内部就是这么做的，我们对其中一些有确定性的检测器，有些是确定性的，有些是非确定性的，但都非常简单，比如我们不喜欢这种模式，期望的最终状态长这样。"
+ },
+ {
+  "seg": 305,
+  "start": 2104.16,
+  "end": 2105.92,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, uh, there's a bunch of code that looks like that.",
+  "zh": "是的，呃，有很多代码就是那样。"
+ },
+ {
+  "seg": 306,
+  "start": 2106,
+  "end": 2113.2,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, uh whether it's like React Doctor deterministically pulling warnings out or ox aux lint pulling warnings out.",
+  "zh": "是的，呃，无论是像 React Doctor 确定性地把警告拉出来，还是 ox lint 把警告拉出来。"
+ },
+ {
+  "seg": 307,
+  "start": 2113.36,
+  "end": 2117.76,
+  "speaker": "Dex Horthy",
+  "en": "It's like every night we have four or five different um people call them agents.",
+  "zh": "就像每天晚上我们有四五个不同的，嗯，可以称之为智能体的人。"
+ },
+ {
+  "seg": 308,
+  "start": 2117.84,
+  "end": 2121.12,
+  "speaker": "Dex Horthy",
+  "en": "It's the same harness with a different user message, basically.",
+  "zh": "本质上是同一个 harness,只是换了一个不同的用户消息。"
+ },
+ {
+  "seg": 309,
+  "start": 2121.2,
+  "end": 2121.44,
+  "speaker": "Dex Horthy",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 310,
+  "start": 2121.6,
+  "end": 2123.6,
+  "speaker": "Dex Horthy",
+  "en": "Five agents if you if you if you must.",
+  "zh": "五个智能体，如果你如果你如果非要这么说的话。"
+ },
+ {
+  "seg": 311,
+  "start": 2124,
+  "end": 2127.6,
+  "speaker": "SPEAKER_03",
+  "en": "Five sort of uh skill-powered workflows or sort of uh prompt power workflows.",
+  "zh": "五个某种，呃，由技能驱动的工作流，或者说某种，呃，由提示词驱动的工作流。"
+ },
+ {
+  "seg": 312,
+  "start": 2128.32,
+  "end": 2128.8,
+  "speaker": "Dex Horthy",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 313,
+  "start": 2128.96,
+  "end": 2137.36,
+  "speaker": "Dex Horthy",
+  "en": "And they run on crons and GitHub actions, and every morning we wake up to five pull requests that make our code base a little bit better along some dimension.",
+  "zh": "它们跑在 crons 和 GitHub actions 上，每天早上我们醒来会看到五个 pull request,在某个维度上让我们的代码库变得更好一点。"
+ },
+ {
+  "seg": 314,
+  "start": 2137.52,
+  "end": 2137.84,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 315,
+  "start": 2138.08,
+  "end": 2144.56,
+  "speaker": "Dex Horthy",
+  "en": "Um I think the challenge is like you have to know exactly like you said, you have to know exactly what you want.",
+  "zh": "嗯，我认为挑战在于，就像你说的，你必须确切地知道你想要什么。"
+ },
+ {
+  "seg": 316,
+  "start": 2144.64,
+  "end": 2147.12,
+  "speaker": "Dex Horthy",
+  "en": "You have to codify all of your opinions somewhere.",
+  "zh": "你必须把你的所有观点固化到某个地方。"
+ },
+ {
+  "seg": 317,
+  "start": 2147.28,
+  "end": 2148.96,
+  "speaker": "Dex Horthy",
+  "en": "You probably can't be in your agent's MD.",
+  "zh": "它们很可能没法都放在你的 agent's MD 里。"
+ },
+ {
+  "seg": 318,
+  "start": 2149.04,
+  "end": 2154.88,
+  "speaker": "Dex Horthy",
+  "en": "Maybe you can put them in a skill or you can break them up into a set of skills, but the the more opinions you have, the more clever you have to be.",
+  "zh": "也许你可以把它们放进一个技能里，或者拆成一组技能，但是观点越多，你就得越聪明。"
+ },
+ {
+  "seg": 319,
+  "start": 2154.96,
+  "end": 2156.08,
+  "speaker": "Dex Horthy",
+  "en": "This is context engineering.",
+  "zh": "这就是上下文工程。"
+ },
+ {
+  "seg": 320,
+  "start": 2156.16,
+  "end": 2164.32,
+  "speaker": "Dex Horthy",
+  "en": "This is always the thing, is like the more clever you have to be about like splitting them up and parallelizing and kind of like orchestrating multiple different things to go do this.",
+  "zh": "永远都是这个事，就是说你对拆分它们、并行化它们、以及编排多个不同的东西去做这件事，必须越聪明。"
+ },
+ {
+  "seg": 321,
+  "start": 2164.56,
+  "end": 2164.72,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 322,
+  "start": 2165.12,
+  "end": 2170.08,
+  "speaker": "SPEAKER_03",
+  "en": "So I get the point around sort of the need to uh review the codes today because of the limitations.",
+  "zh": "所以我理解今天需要，呃，审查代码这一点，因为存在种种局限。"
+ },
+ {
+  "seg": 323,
+  "start": 2170.16,
+  "end": 2172.56,
+  "speaker": "SPEAKER_03",
+  "en": "And as I mentioned in TESL, we still sort of review the code.",
+  "zh": "正如我提到的，在 TESL,我们某种程度上仍然审查代码。"
+ },
+ {
+  "seg": 324,
+  "start": 2172.64,
+  "end": 2181.12,
+  "speaker": "SPEAKER_03",
+  "en": "Uh but to an extent, the sort of the bet that we're making in our own internal software factory uh is that really it's all about extracting correctness out of observations.",
+  "zh": "呃但在一定程度上，我们自己的内部软件工厂所下的那种赌注是，归根结底关键在于从观察中提取正确性。"
+ },
+ {
+  "seg": 325,
+  "start": 2181.2,
+  "end": 2195.28,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so what we do is we take today maybe some amount of sort of a risk or burden uh that really forces the process of not writing uh the code and sort of reviewing the code, and then you interact with the systems.",
+  "zh": "呃所以我们做的是，今天我们承担某种程度的风险或负担，这实际上强制了不直接，呃，写代码和不直接审查代码的过程，然后你去和系统交互。"
+ },
+ {
+  "seg": 326,
+  "start": 2195.36,
+  "end": 2219.2,
+  "speaker": "SPEAKER_03",
+  "en": "There's exceptions to that, there's asterisks next to it, but by default, it has to be kind of a feedback that you provide about what is wrong, you know, as part of pull requests, as part of uh systems, uh, and sort of these sort of continuously uh improving skill-powered workflows, so like these feedback loops that uh that really uh help feedback into the system.",
+  "zh": "这有例外，旁边有星号标注，但默认情况下，它必须是某种你提供的关于哪里出错了的反馈，你知道的，作为 pull request 的一部分，作为系统的一部分，呃，以及这些持续改进的、技能驱动的工作流，也就是这些反馈循环，呃，它们真正地，呃，反馈到系统里。"
+ },
+ {
+  "seg": 327,
+  "start": 2219.36,
+  "end": 2239.76,
+  "speaker": "SPEAKER_03",
+  "en": "And I think there's a good case to be made that today we are uh maybe making more effort in sort of uh in sort of investing and honing those skills uh on the on the sort of the the bet, which is always TBD, uh that it will uh it will uh set us up better, and we're sort of seeing some compounding speed out of that.",
+  "zh": "而且我认为有一个很好的理由可以说，今天我们，呃，也许在投入和打磨那些技能上付出了更多努力，押在那种赌注上——这个赌注永远是 TBD——它，呃，它会让我们处于更好的位置，而且我们已经从中看到了某种复利式的提速。"
+ },
+ {
+  "seg": 328,
+  "start": 2240,
+  "end": 2242.48,
+  "speaker": "SPEAKER_03",
+  "en": "So I I don't know how uh how you think about that.",
+  "zh": "所以我，我不知道你是怎么，呃，怎么看待那个的。"
+ },
+ {
+  "seg": 329,
+  "start": 2242.72,
+  "end": 2246.56,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and and how does that align or conflict with like reviewing the code?",
+  "zh": "呃，以及那与审查代码是一致还是冲突？"
+ },
+ {
+  "seg": 330,
+  "start": 2247.2,
+  "end": 2249.84,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, I mean we are very bullish on this compounding thing.",
+  "zh": "是这样，我们对这个复利的事情非常看好。"
+ },
+ {
+  "seg": 331,
+  "start": 2249.92,
+  "end": 2260.08,
+  "speaker": "Dex Horthy",
+  "en": "I I think probably like the anti-pattern I see in a lot of orgs, and most of them are probably larger than yours or mine, is is someone gets excited and they say, I'm gonna build the software factory.",
+  "zh": "我认为，很可能我在很多组织里看到的反模式——其中大多数可能比你的或我的组织都大——是有人兴奋起来说，我要建一个软件工厂。"
+ },
+ {
+  "seg": 332,
+  "start": 2260.16,
+  "end": 2266.88,
+  "speaker": "Dex Horthy",
+  "en": "And they kind of throw everything out and they say, Cool, let me design this whole thing from scratch, and it's gonna have this compounding thing, and we will never have to read the code and whatever it is.",
+  "zh": "然后他们把一切扔掉，说，好，让我从头设计这整套东西，它会有这个复利效应，我们永远不用读代码了，诸如此类。"
+ },
+ {
+  "seg": 333,
+  "start": 2266.96,
+  "end": 2279.84,
+  "speaker": "Dex Horthy",
+  "en": "And like I think that's uh like any piece of software, the big design up front is like is always gonna lose to the like iterate fast and get 1% better every single day, or what even 1% better every single week.",
+  "zh": "而就像我认为的，呃，就像任何软件一样，大设计前置永远会输给快速迭代、每天变好 1%,甚至每周变好 1%。"
+ },
+ {
+  "seg": 334,
+  "start": 2280,
+  "end": 2291.84,
+  "speaker": "Dex Horthy",
+  "en": "So I think like the idea of having having a process thing is is like you cannot afford to put slop code in your code base because every every time you let bad code in, you are making the entire system worse.",
+  "zh": "所以我认为，拥有一个过程的想法，呃，就像你不能承受把垃圾代码放进你的代码库，因为每一次你放进来坏代码，你都在让整个系统变差。"
+ },
+ {
+  "seg": 335,
+  "start": 2292.48,
+  "end": 2306.64,
+  "speaker": "Dex Horthy",
+  "en": "People talk about software yeah, people talk about software factories, but the the the there is a big difference between a traditional factory and a software factory, and that like in a factory, if a car comes out of the end of the line and it's bad, like that's cool.",
+  "zh": "人们谈论软件，是的，人们谈论软件工厂，但是传统工厂和软件工厂之间有一个很大的区别，那就是，呃，在工厂里，如果一辆车从生产线末端出来而且它是坏的，那没问题。"
+ },
+ {
+  "seg": 336,
+  "start": 2306.72,
+  "end": 2309.52,
+  "speaker": "Dex Horthy",
+  "en": "Whoever was gonna buy that car or whatever is gonna is gonna deal with it.",
+  "zh": "那个本来要买那辆车的人，或者不管谁，会去处理它。"
+ },
+ {
+  "seg": 337,
+  "start": 2310.08,
+  "end": 2320.64,
+  "speaker": "Dex Horthy",
+  "en": "But like if you ship bad code in your software factory, it degrades every future piece of work that goes through that factory because there's more bad patterns for the model to see.",
+  "zh": "但如果你在你的软件工厂里交付了坏代码，它会降低未来每一件经过那个工厂的工作的质量，因为模型会看到更多坏模式。"
+ },
+ {
+  "seg": 338,
+  "start": 2320.8,
+  "end": 2331.6,
+  "speaker": "Dex Horthy",
+  "en": "So, like you do want to continually be making progress towards the you have to want to have some ramp where you can make the factory better every single day or every single week.",
+  "zh": "所以，你确实想要持续地朝着这个方向取得进展，你必须想要有某个爬坡过程，让工厂每天或每周都变得更好。"
+ },
+ {
+  "seg": 339,
+  "start": 2331.76,
+  "end": 2340.8,
+  "speaker": "Dex Horthy",
+  "en": "Um, but it's like the the number one priority is like stop the stop the bleeding or or stop the you know, close the windows on the house before you turn on the air conditioning.",
+  "zh": "嗯，但是，头号优先级是止血，呃，或者说，你知道的，在你打开空调之前，先把房子的窗户关上。"
+ },
+ {
+  "seg": 340,
+  "start": 2342.16,
+  "end": 2342.64,
+  "speaker": "Dex Horthy",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 341,
+  "start": 2343.36,
+  "end": 2344.16,
+  "speaker": "Dex Horthy",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 342,
+  "start": 2344.32,
+  "end": 2358.96,
+  "speaker": "Dex Horthy",
+  "en": "Um but no, this idea of like cool, you know, we have humans in the loop whose job it is to make sure that the code is good and that nothing goes into prod or into the code base that is like going to make the quality worse and going to make future quality worse because the agent will see that and think it's okay.",
+  "zh": "嗯，但是，这个想法，比如好，你知道的，我们有在环的人类，他们的工作是确保代码是好的，确保没有任何会降低质量、会损害未来质量的东西进入 prod 或进入代码库，因为智能体会看到它并认为那是可以的。"
+ },
+ {
+  "seg": 343,
+  "start": 2359.12,
+  "end": 2371.04,
+  "speaker": "Dex Horthy",
+  "en": "Um, but a byproduct, the kind of like exhaust of that process is you get a ton of like real examples that you can use to feed improving the factory and make it a little bit better.",
+  "zh": "嗯，但有一个副产品，也就是这个过程的某种废气，你会得到大量真实的例子，你可以用它们来喂给工厂的改进，让它变得更好一点。"
+ },
+ {
+  "seg": 344,
+  "start": 2371.2,
+  "end": 2376.24,
+  "speaker": "Dex Horthy",
+  "en": "Like anytime a human has to put a comment on an agent written PR and say, hey, this is wrong, we don't do it this way.",
+  "zh": "比如每当一个人不得不在智能体写的 PR 上留言说，嘿，这是错的，我们不这么做。"
+ },
+ {
+  "seg": 345,
+  "start": 2376.56,
+  "end": 2377.84,
+  "speaker": "Dex Horthy",
+  "en": "Agent goes and fix it, it's fine.",
+  "zh": "智能体去修好它，就没事了。"
+ },
+ {
+  "seg": 346,
+  "start": 2378.32,
+  "end": 2380.08,
+  "speaker": "Dex Horthy",
+  "en": "You need to be like siphoning that off.",
+  "zh": "你需要把这些东西像虹吸一样抽走。"
+ },
+ {
+  "seg": 347,
+  "start": 2380.24,
+  "end": 2390.88,
+  "speaker": "Dex Horthy",
+  "en": "Every time someone sends, even in a prompt, you should be reviewing the session traces, maybe not reading them verbatim, but analyzing the session traces of everyone on your team and saying, where are people getting frustrated?",
+  "zh": "每当有人发送——即使在提示词里——你应该审查会话轨迹，也许不是逐字阅读，而是分析你团队里每个人的会话轨迹，然后说，人们在哪些地方感到沮丧？"
+ },
+ {
+  "seg": 348,
+  "start": 2391.04,
+  "end": 2404.48,
+  "speaker": "Dex Horthy",
+  "en": "Where are they telling the model they did something wrong, and then figuring out how to improve the entire system, whether it's the base skills, whether it's the code review skill, whether whatever it is, um, so that you know, if you're not getting better, then you're getting worse.",
+  "zh": "他们在哪些地方告诉模型它做错了什么，然后想办法改进整个系统，无论是基础技能，还是代码审查技能，还是别的什么，嗯，这样你知道的，如果你没有变得更好，那你就在变得更糟。"
+ },
+ {
+  "seg": 349,
+  "start": 2404.64,
+  "end": 2413.84,
+  "speaker": "Dex Horthy",
+  "en": "And so, yes, I 100% agree on this idea of compounding engineering or or or whatever you want to call it, of you you do always want to be working on the thing that builds the thing.",
+  "zh": "所以，是的，我百分之百同意这个复利式工程的想法，或者不管你想叫它什么，你确实总是想要去做那个构建东西的东西。"
+ },
+ {
+  "seg": 350,
+  "start": 2414,
+  "end": 2422.88,
+  "speaker": "Dex Horthy",
+  "en": "And if you do a good job of this, then you're sliding scale of like you're spending less and less time actually reviewing individual code and more and more time doing things that are going to improve.",
+  "zh": "如果你把这事儿做好了,那么你就在一个滑动的尺度上,就像你花在真正审查单个代码上的时间越来越少,而花在能带来改进的事情上的时间越来越多。"
+ },
+ {
+  "seg": 351,
+  "start": 2423.12,
+  "end": 2427.2,
+  "speaker": "Dex Horthy",
+  "en": "You're you're basically shifting from like caring about your position to caring about your velocity.",
+  "zh": "你基本上是在从关心你的位置转向关心你的速度。"
+ },
+ {
+  "seg": 352,
+  "start": 2427.52,
+  "end": 2430.32,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, yeah, from kind of building the car to building the factory, right?",
+  "zh": "是啊,是啊,从造车转向造工厂,对吧?"
+ },
+ {
+  "seg": 353,
+  "start": 2430.4,
+  "end": 2431.76,
+  "speaker": "SPEAKER_03",
+  "en": "You're sort of uh producing that.",
+  "zh": "你某种程度上是在生产那个。"
+ },
+ {
+  "seg": 354,
+  "start": 2432.08,
+  "end": 2434.48,
+  "speaker": "SPEAKER_03",
+  "en": "And how uh so so that's a really good point, though.",
+  "zh": "那么,呃,所以,所以这真是个很好的观点。"
+ },
+ {
+  "seg": 355,
+  "start": 2434.64,
+  "end": 2450.56,
+  "speaker": "SPEAKER_03",
+  "en": "I think one takeaway from what you're saying is like yes, you should improve the sort of the context eventually that guides the factory and their production, but you should also remember that uh one of the primary, if not the primary context that eventually guides the factory is the actual existing code base.",
+  "zh": "我觉得从你所说中可以得到的一个启示是:是的,你最终应该改进那种引导工厂和其生产的上下文,但你也应该记住,呃,最终引导工厂的主要上下文之一,即使不是最主要的,就是实际存在的代码库本身。"
+ },
+ {
+  "seg": 356,
+  "start": 2450.72,
+  "end": 2464.72,
+  "speaker": "SPEAKER_03",
+  "en": "And so if that code base is full of slop, then uh then the reality is that that will be a pattern because the agents somewhat legitimately default to mimicking the uh the uh the patterns that they see that they see within the code.",
+  "zh": "所以,如果那个代码库充满了垃圾代码,那么,呃,现实就是这个会成为一个模式,因为智能体在某种程度上是合理地默认模仿它们在代码中看到的、看到的那些模式。"
+ },
+ {
+  "seg": 357,
+  "start": 2464.8,
+  "end": 2478.96,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so if you if you let that go kind of sideways too much, and it's it's sort of a counter a counter view to to uh to saying that tech debt is deflationary and that uh you can accumulate debt today.",
+  "zh": "呃,所以如果你让这事情偏离太多,这在某种程度上是一个反对……反对那种说技术债是通货紧缩性的、说你今天可以积累债务的观点。"
+ },
+ {
+  "seg": 358,
+  "start": 2479.12,
+  "end": 2488.08,
+  "speaker": "SPEAKER_03",
+  "en": "I mean that would maybe be true if literally every pull request uh that you're creating, you don't take in any code, you just sort of produce it uh from scratch.",
+  "zh": "我的意思是,如果字面意义上你创建的每一个拉取请求,你都不吸收任何代码,而只是从头开始产出它,呃,那这话也许是对的。"
+ },
+ {
+  "seg": 359,
+  "start": 2488.16,
+  "end": 2494,
+  "speaker": "SPEAKER_03",
+  "en": "Uh but that is not realistic because you don't actually have that uh so really good point.",
+  "zh": "呃,但那不现实,因为你实际上并没有那个条件,呃,所以真是很好的观点。"
+ },
+ {
+  "seg": 360,
+  "start": 2494.16,
+  "end": 2501.36,
+  "speaker": "SPEAKER_03",
+  "en": "Maybe so, going a little bit more future looking uh a little bit and and thinking about what are the artifacts that might stick around.",
+  "zh": "也许,稍微往前看一点,呃,想一想哪些产物可能会留存下来。"
+ },
+ {
+  "seg": 361,
+  "start": 2501.44,
+  "end": 2505.92,
+  "speaker": "SPEAKER_03",
+  "en": "So, like how long do you think code will still be the source of truth?",
+  "zh": "那么,比如你觉得代码还会是真相来源多久?"
+ },
+ {
+  "seg": 362,
+  "start": 2506.08,
+  "end": 2514.24,
+  "speaker": "SPEAKER_03",
+  "en": "Like we're talking about rebuilding, replacing, editing increasingly, but we still end up kind of capturing the actual decisions uh in the code.",
+  "zh": "就像我们在说的,越来越多地重建、替换、编辑,但我们最终还是会把实际的决策,呃,捕获在代码里。"
+ },
+ {
+  "seg": 363,
+  "start": 2514.48,
+  "end": 2519.12,
+  "speaker": "SPEAKER_03",
+  "en": "Do you foresee that two years from now that is that is still the case?",
+  "zh": "你预见到两年之后情况还是这样吗?"
+ },
+ {
+  "seg": 364,
+  "start": 2519.28,
+  "end": 2527.36,
+  "speaker": "SPEAKER_03",
+  "en": "Or do you think new artifacts emerge that are the primary and the code is more like the bytecode that you've produced?",
+  "zh": "还是说你觉得会有新的产物成为主要的,而代码更像是你生产出来的字节码?"
+ },
+ {
+  "seg": 365,
+  "start": 2527.68,
+  "end": 2528.24,
+  "speaker": "Dex Horthy",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 366,
+  "start": 2528.48,
+  "end": 2530.88,
+  "speaker": "Dex Horthy",
+  "en": "Um yeah, I don't I don't want to predict the timeline.",
+  "zh": "呃,嗯,我不想预测时间线。"
+ },
+ {
+  "seg": 367,
+  "start": 2530.96,
+  "end": 2537.04,
+  "speaker": "Dex Horthy",
+  "en": "I think a lot of people's predictions have been either way too way too conservative or way too liberal.",
+  "zh": "我觉得很多人的预测要么太过保守,要么太过激进。"
+ },
+ {
+  "seg": 368,
+  "start": 2537.2,
+  "end": 2554.16,
+  "speaker": "Dex Horthy",
+  "en": "And um, you know, our job is work with a lot of work with you know, Fortune 500 companies, publicly traded companies, you know, large private companies, and like the lot the the the the reason why they love working with us is because we're like cool, like do not mortgage your code base for the future.",
+  "zh": "而且,嗯,你知道,我们的工作是与很多……与很多财富 500 强公司、上市公司、你知道,大型私营公司打交道,他们喜欢和我们合作的原因,就像是因为我们是这样的:嘿,不要为未来抵押你的代码库。"
+ },
+ {
+  "seg": 369,
+  "start": 2554.32,
+  "end": 2561.12,
+  "speaker": "Dex Horthy",
+  "en": "Like, yes, like there may be like a 1% chance that you miss out on you know some crazy, crazy upside.",
+  "zh": "就像,是的,也许有 1% 的几率你会错过,你知道,一些疯狂的、疯狂的上行空间。"
+ },
+ {
+  "seg": 370,
+  "start": 2561.28,
+  "end": 2569.04,
+  "speaker": "Dex Horthy",
+  "en": "Um, but we are going to let you move as fast as possible without uh without giving up control or giving up taste.",
+  "zh": "呃,但我们会让你以尽可能快的速度前进,而不用……不用放弃控制权或放弃品味。"
+ },
+ {
+  "seg": 371,
+  "start": 2569.28,
+  "end": 2581.2,
+  "speaker": "Dex Horthy",
+  "en": "I was at a dinner in San Francisco probably six weeks ago, and um, you know, we were talking about software factories and loops engineering or whatever we were calling it back then, and this question was like, cool, raise your hand if AI is writing 100% of your code.",
+  "zh": "大概六周前我在旧金山参加了一个晚宴,嗯,你知道,我们在谈论软件工厂和循环工程,或者当时我们怎么称呼它的,这个问题是:好,如果 AI 在写你 100% 的代码,请举手。"
+ },
+ {
+  "seg": 372,
+  "start": 2581.36,
+  "end": 2582.72,
+  "speaker": "Dex Horthy",
+  "en": "Like everybody, hand up.",
+  "zh": "就像,所有人都举手了。"
+ },
+ {
+  "seg": 373,
+  "start": 2582.96,
+  "end": 2586.16,
+  "speaker": "Dex Horthy",
+  "en": "Raise your hand if you're still reading the code, and it was like 50% of the people.",
+  "zh": "如果你还在读代码,请举手,大概 50% 的人举了手。"
+ },
+ {
+  "seg": 374,
+  "start": 2586.32,
+  "end": 2595.76,
+  "speaker": "Dex Horthy",
+  "en": "The other 50% have been like, no, I made 70 Linter rules custom by hand, and I I caught every single anti-pattern, or whatever whatever, whatever your approach is that gives you the confidence to ship it.",
+  "zh": "另外 50% 的人像是:不,我手动做了 70 条自定义 Linter 规则,我抓出了每一个反模式,或者随便什么,无论你的方法是什么,只要它能给你发布它的信心。"
+ },
+ {
+  "seg": 375,
+  "start": 2595.92,
+  "end": 2599.44,
+  "speaker": "Dex Horthy",
+  "en": "Uh, but then the question came is like, how long until we don't review the code?",
+  "zh": "呃,然后问题来了:还要多久我们就不审查代码了?"
+ },
+ {
+  "seg": 376,
+  "start": 2599.6,
+  "end": 2603.84,
+  "speaker": "Dex Horthy",
+  "en": "And I was like, uh maybe one, two years, it's possible that that could be the case.",
+  "zh": "我就说,呃,也许一两年,有可能会是这样。"
+ },
+ {
+  "seg": 377,
+  "start": 2604.16,
+  "end": 2606.16,
+  "speaker": "Dex Horthy",
+  "en": "Um, and then there was a really interesting question.",
+  "zh": "嗯,然后有一个非常有意思的问题。"
+ },
+ {
+  "seg": 378,
+  "start": 2606.24,
+  "end": 2611.2,
+  "speaker": "Dex Horthy",
+  "en": "I was like, Do you ever think there will be a time when you don't review anything at all?",
+  "zh": "我就说:你觉得会不会有一个时候,你什么都不审查了?"
+ },
+ {
+  "seg": 379,
+  "start": 2612.4,
+  "end": 2628.24,
+  "speaker": "Dex Horthy",
+  "en": "And uh one of the founders there, um who is a veteran of a lot of this stuff, kind of said one of the most interesting things that I think about almost every day now, which is like there will probably always be alpha in reviewing something.",
+  "zh": "然后,呃,在场的其中一位创始人,嗯,他是这一领域的老手,说了我觉得几乎每一天都在想的最有意思的事情之一,那就是:审查某样东西大概永远都会有超额收益。"
+ },
+ {
+  "seg": 380,
+  "start": 2629.04,
+  "end": 2630.08,
+  "speaker": "Dex Horthy",
+  "en": "We don't know what it is.",
+  "zh": "我们不知道那是什么。"
+ },
+ {
+  "seg": 381,
+  "start": 2630.16,
+  "end": 2631.44,
+  "speaker": "Dex Horthy",
+  "en": "Uh I can't say what it's gonna be.",
+  "zh": "呃,我没法说它会是什么。"
+ },
+ {
+  "seg": 382,
+  "start": 2631.52,
+  "end": 2633.36,
+  "speaker": "Dex Horthy",
+  "en": "It's probably gonna change over the next two years.",
+  "zh": "它很可能会在未来两年内发生变化。"
+ },
+ {
+  "seg": 383,
+  "start": 2633.6,
+  "end": 2646.56,
+  "speaker": "Dex Horthy",
+  "en": "But if you don't review anything, then you're just letting the AI cook and then you're gonna get the Same product, the same email, the same company that everybody else gets.",
+  "zh": "但如果你什么都不审查,那你就只是让 AI 去煮,然后你会得到和其他所有人一样的产品、一样的邮件、一样的公司。"
+ },
+ {
+  "seg": 384,
+  "start": 2646.8,
+  "end": 2661.04,
+  "speaker": "Dex Horthy",
+  "en": "And so there has there will always be something if you want to rise above the median and not just be I think I think like the the generic like token farm of just like hey look yeah we spent tokens and we create value is like very undifferentiated.",
+  "zh": "所以,如果你想要高于中位数,而不仅仅是……我觉得……我觉得那种泛泛的、就像「嘿,看,是的,我们花了 token,我们创造了价值」的 token 农场,是非常没有差异化的。"
+ },
+ {
+  "seg": 385,
+  "start": 2661.12,
+  "end": 2668.8,
+  "speaker": "Dex Horthy",
+  "en": "So I think I think there will always be a place for smart, creative, thoughtful, caring humans to be reviewing something.",
+  "zh": "所以我觉得,我认为聪明、有创造力、有思想、用心的的人类,永远都会有一席之地去审查某样东西。"
+ },
+ {
+  "seg": 386,
+  "start": 2668.96,
+  "end": 2671.28,
+  "speaker": "Dex Horthy",
+  "en": "For now, I think it's still the code, but eventually it might be something else.",
+  "zh": "就目前而言,我觉得还是代码,但最终它可能是别的东西。"
+ },
+ {
+  "seg": 387,
+  "start": 2671.36,
+  "end": 2672.96,
+  "speaker": "Dex Horthy",
+  "en": "I don't know when or what it's gonna look like.",
+  "zh": "我不知道会是什么时候,也不知道它会是什么样子。"
+ },
+ {
+  "seg": 388,
+  "start": 2673.04,
+  "end": 2678.16,
+  "speaker": "Dex Horthy",
+  "en": "But there will always be something to review, and there will always be a thing that you can add to the add to the picture.",
+  "zh": "但永远都会有需要审查的东西,永远都会有你能为这个图景添加的东西。"
+ },
+ {
+  "seg": 389,
+  "start": 2678.4,
+  "end": 2678.64,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 390,
+  "start": 2678.8,
+  "end": 2683.36,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, I think we're sort of seeing a lot of that with the with like a claude presentations.",
+  "zh": "是啊,我觉得我们在 Claude 演示文稿之类的东西上就看到了很多这种现象。"
+ },
+ {
+  "seg": 391,
+  "start": 2683.52,
+  "end": 2699.68,
+  "speaker": "SPEAKER_03",
+  "en": "You know, for a while, like uh, you know, everybody was amazed by how how how great it was that Claude like at the breakthrough of like it was creating these good looking presentations, and now every single presentation looks like a claude presentation, and you uh you just sort of yearn for for something that looks a little bit different.",
+  "zh": "你知道,有很长一段时间,呃,你知道,所有人惊叹于 Claude 有多棒,就像它的突破在于它能做出这些好看的演示文稿,而现在每一个演示文稿看起来都像 Claude 演示文稿,然后你,呃,你就开始渴望看到一些看起来稍微不一样的东西。"
+ },
+ {
+  "seg": 392,
+  "start": 2699.92,
+  "end": 2704.4,
+  "speaker": "SPEAKER_03",
+  "en": "Uh but how um uh so so I I agree with that.",
+  "zh": "呃,那么,嗯,呃,所以我,我同意这一点。"
+ },
+ {
+  "seg": 393,
+  "start": 2704.48,
+  "end": 2708.16,
+  "speaker": "SPEAKER_03",
+  "en": "I I think uh I think you have to differentiate, you have to capture those.",
+  "zh": "我,我觉得,呃,我觉得你必须差异化,你必须捕获那些。"
+ },
+ {
+  "seg": 394,
+  "start": 2708.32,
+  "end": 2716.96,
+  "speaker": "SPEAKER_03",
+  "en": "I I do muse though about uh a better way to capture preferences, and I uh I think a lot about sort of outsourcing, right?",
+  "zh": "不过我确实在琢磨,呃,一种更好的捕获偏好的方式,而且我,呃,我想了很多关于外包的事情,对吧?"
+ },
+ {
+  "seg": 395,
+  "start": 2717.04,
+  "end": 2738.56,
+  "speaker": "SPEAKER_03",
+  "en": "You have a lot of like great companies that have sort of outsourced their whether it's their sort of uh uh sort of software stacks, or even more so like a lot of manufacturing companies, that they don't actually manufacture everything, they design the thing that will be manufactured, someone else is producing it, uh, and so they they really kind of define the outcomes, but they work with these entities.",
+  "zh": "你有很多很棒的公司,它们把自己的……不管是它们的软件栈,或者更多的是很多制造公司,它们并不真的制造所有东西,它们设计将要被制造的东西,由别人来生产,呃,所以它们其实是在定义结果,但它们与这些实体合作。"
+ },
+ {
+  "seg": 396,
+  "start": 2738.88,
+  "end": 2755.92,
+  "speaker": "SPEAKER_03",
+  "en": "Um I guess does that analogy kind of resonate with you, which is like create artifacts that document preferences, opinions, taste, uh and and for the most part outsource implementation to the agents?",
+  "zh": "嗯,我想问,这个类比和你产生共鸣吗,就是,创建一些产物来记录偏好、观点、品味,呃,然后在很大程度上把实现外包给智能体?"
+ },
+ {
+  "seg": 397,
+  "start": 2756.88,
+  "end": 2757.68,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, so two things.",
+  "zh": "是啊,两件事。"
+ },
+ {
+  "seg": 398,
+  "start": 2757.76,
+  "end": 2762.24,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, I think I think um absolutely like people say, oh, the the new moat is taste.",
+  "zh": "是啊,我觉得,我觉得,嗯,绝对是,就像人们说的,哦,新的护城河是品味。"
+ },
+ {
+  "seg": 399,
+  "start": 2762.32,
+  "end": 2784.88,
+  "speaker": "Dex Horthy",
+  "en": "I think that's really blurry, but like I do think it's safe to say like the moat you can have is understanding the problem better than anyone else, like knowing what features to ask the factory for, understanding your customers better than anyone else is incredibly valuable still, and that's again that's that's where you're you you can context engineer the agent in a way that none of your competitors can if you understand the problem better.",
+  "zh": "我觉得那说得很模糊,但我确实觉得可以保险地说,你能拥有的护城河是比任何人都更理解问题,就像知道该向工厂要求什么功能,比任何人都更理解你的客户,这仍然是非常有价值的,而且再说一次,那就是你可以在别人做不到的方式上为智能体做上下文工程的地方,前提是你对问题的理解更深。"
+ },
+ {
+  "seg": 400,
+  "start": 2785.12,
+  "end": 2786.4,
+  "speaker": "SPEAKER_03",
+  "en": "I am ambivalent about taste.",
+  "zh": "我对「品味」的态度是矛盾的。"
+ },
+ {
+  "seg": 401,
+  "start": 2786.48,
+  "end": 2791.36,
+  "speaker": "SPEAKER_03",
+  "en": "Like part of me feels that taste is just a preference that you haven't bothered writing down.",
+  "zh": "比如，一部分我觉得品味只不过是你懒得写下来的偏好。"
+ },
+ {
+  "seg": 402,
+  "start": 2791.52,
+  "end": 2803.2,
+  "speaker": "SPEAKER_03",
+  "en": "Uh, you know, it's just uh like a I'll know it when I see it uh type thing is is um uh is something that just okay, like get the agent to see it often enough uh and it will capture it.",
+  "zh": "呃，你知道，就是那种「我看到了自然就知道」呃之类的东西，嗯，就是说，只要让智能体足够频繁地看到它，呃，它就能捕捉到。"
+ },
+ {
+  "seg": 403,
+  "start": 2803.28,
+  "end": 2818.88,
+  "speaker": "SPEAKER_03",
+  "en": "Uh it's still it still is a differentiator, like it is still the case that if your written down taste is better than my written down taste uh for some purpose, uh and so for those purposes your product or your output will be better than mine.",
+  "zh": "呃，它仍然是一个差异化因素，比如情况仍然是这样：如果你的写下来的品味在某些用途上比我的更好，呃，那么出于那些用途，你的产品或产出就会比我的好。"
+ },
+ {
+  "seg": 404,
+  "start": 2818.96,
+  "end": 2821.36,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so there's still there's still value in it.",
+  "zh": "呃，所以它仍然有价值。"
+ },
+ {
+  "seg": 405,
+  "start": 2821.44,
+  "end": 2826.16,
+  "speaker": "SPEAKER_03",
+  "en": "I still think taste should be codified, and I think still it is I still think that it is the differentiator.",
+  "zh": "我仍然认为品味应该被编码化，我仍然认为它是差异化因素。"
+ },
+ {
+  "seg": 406,
+  "start": 2826.32,
+  "end": 2831.36,
+  "speaker": "SPEAKER_03",
+  "en": "Uh but it is uh it's not this elusive human versus AI difference.",
+  "zh": "呃，但它并不是那种难以捉摸的人类对 AI 的差异。"
+ },
+ {
+  "seg": 407,
+  "start": 2831.44,
+  "end": 2834.72,
+  "speaker": "SPEAKER_03",
+  "en": "It's just a it's just a choice, uh choice piece.",
+  "zh": "它只是一个选择，一个选择层面的东西。"
+ },
+ {
+  "seg": 408,
+  "start": 2834.88,
+  "end": 2837.52,
+  "speaker": "Dex Horthy",
+  "en": "Um Well, what what about you, man?",
+  "zh": "嗯，那，那你呢，哥们？"
+ },
+ {
+  "seg": 409,
+  "start": 2837.6,
+  "end": 2843.68,
+  "speaker": "Dex Horthy",
+  "en": "Like what do what do you think the future of reviewing things or building or factories?",
+  "zh": "比如你有什么辣味观点，或者温和的观点？"
+ },
+ {
+  "seg": 410,
+  "start": 2843.76,
+  "end": 2847.68,
+  "speaker": "Dex Horthy",
+  "en": "Like what what what spicy takes do you have or or mild takes?",
+  "zh": "比如、比如、比如你有什么尖锐的观点？或者说温和点的观点？"
+ },
+ {
+  "seg": 411,
+  "start": 2847.76,
+  "end": 2848.16,
+  "speaker": "Dex Horthy",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 412,
+  "start": 2848.32,
+  "end": 2870,
+  "speaker": "Dex Horthy",
+  "en": "Like I think there's there's there's the market for spicy takes is way too frothy right now, and I actually love a more middle of the road of like, look, yes, I think this is directionally correct, but actually like it's not as crazy as everyone says it is because everyone is incentivized to you know engagement farm on the internet, and you can actually you get paid money if you get people excited about something, regardless of whether it's true or not.",
+  "zh": "比如我觉得辣味观点的市场现在太泡沫了，而我实际上更喜欢更中庸的路线，比如：看，是的，我认为这在方向上是对的，但实际上它没有大家说的那么疯狂，因为每个人都有动力在互联网上做互动量收割，而且只要让人们对某件事兴奋起来你就能拿到钱，不管它是真是假。"
+ },
+ {
+  "seg": 413,
+  "start": 2870.16,
+  "end": 2873.92,
+  "speaker": "Dex Horthy",
+  "en": "But what are your spicy or or otherwise takes on like where this is going?",
+  "zh": "但你对这件事的走向有什么辣味观点或者其他观点？"
+ },
+ {
+  "seg": 414,
+  "start": 2874.24,
+  "end": 2879.12,
+  "speaker": "SPEAKER_03",
+  "en": "I I've got a fairly kind of uh uh skilled or context-centric view of the of the world.",
+  "zh": "我我对世界持一种相当偏技能或偏上下文的观点。"
+ },
+ {
+  "seg": 415,
+  "start": 2879.28,
+  "end": 2885.36,
+  "speaker": "SPEAKER_03",
+  "en": "Like I I think the fact that like I think software engineering is a creative uh profession.",
+  "zh": "比如我觉得软件工程是一个创造性的职业。"
+ },
+ {
+  "seg": 416,
+  "start": 2885.52,
+  "end": 2890.48,
+  "speaker": "SPEAKER_03",
+  "en": "Like you are creating software, uh, and the fact that it has engineering in the name is a mistake of history.",
+  "zh": "比如你是在创造软件，呃，而它名字里带「工程」这件事是历史的错误。"
+ },
+ {
+  "seg": 417,
+  "start": 2890.64,
+  "end": 2896.08,
+  "speaker": "SPEAKER_03",
+  "en": "Like it just happens to be that you had to be an engineer, you have to be an engineer to be able to create those.",
+  "zh": "比如只是恰好你得是个工程师，你必须是个工程师才能创造那些东西。"
+ },
+ {
+  "seg": 418,
+  "start": 2896.24,
+  "end": 2903.6,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and really what we want is to be able to capture taste and preferences uh and and and balances.",
+  "zh": "呃，而我们真正想要的是能够捕捉品味、偏好和权衡。"
+ },
+ {
+  "seg": 419,
+  "start": 2903.68,
+  "end": 2909.6,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and I think those will be the kind of units of code, if you will, uh that you are that you are building.",
+  "zh": "呃，我认为那些将成为你正在构建的、可以这么说的「代码单元」。"
+ },
+ {
+  "seg": 420,
+  "start": 2909.68,
+  "end": 2919.76,
+  "speaker": "SPEAKER_03",
+  "en": "I thought this is my definition of what uh secure is, of what good design is, of what, you know, even the specifics of subscreen, like you can still get granular or not in terms of its preference.",
+  "zh": "我认为这是我对什么是安全、什么是好设计的定义，对，你知道，甚至子层面的具体细节，你仍然可以选择在偏好上做到多细粒度。"
+ },
+ {
+  "seg": 421,
+  "start": 2919.92,
+  "end": 2932.96,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and even some elements of like how controlling you are, whatever, whether you're Apple and like you want to design everything down to the sort of the last bit uh and and gram, or whether you're sort of fine with some more sort of generic OEM component in there.",
+  "zh": "呃，甚至还有一些元素，比如你要多大程度上控制，随便，不管你是 Apple 那种想把一切设计到最后一个比特和最后一克的，还是你能接受里面放一些更通用的 OEM 组件的。"
+ },
+ {
+  "seg": 422,
+  "start": 2933.04,
+  "end": 2942.8,
+  "speaker": "SPEAKER_03",
+  "en": "Um and so those are your choices, and those units will still be developed in the sense that you still need to know that uh uh which ones you are using and which ones depends on what.",
+  "zh": "嗯，所以那些是你的选择，而这些单元仍然会被开发，意思是你仍然需要知道你在用哪些单元，以及哪些依赖什么。"
+ },
+ {
+  "seg": 423,
+  "start": 2942.96,
+  "end": 2954.48,
+  "speaker": "SPEAKER_03",
+  "en": "And you still need evals and tests to be able to know that when you modify them, they do not regress, and you still need to observe them and sort of see how they work and de-duplicate them and align them when you have multiple team members creating them.",
+  "zh": "而且你仍然需要评估和测试，才能知道当你修改它们时不会退化，你仍然需要观察它们，看看它们怎么运作，去重它们，并在多个团队成员创建它们时对齐它们。"
+ },
+ {
+  "seg": 424,
+  "start": 2954.56,
+  "end": 2964.96,
+  "speaker": "SPEAKER_03",
+  "en": "And so, like I I guess my belief is that software development would revolve around skills and that the role of code will be will diminish uh over time, that it has to be sort of duplicate.",
+  "zh": "所以，我想我的信念是，软件开发将围绕技能展开，而代码的角色会随着时间减少，它必须在某种程度上被复制。"
+ },
+ {
+  "seg": 425,
+  "start": 2965.04,
+  "end": 2972.96,
+  "speaker": "SPEAKER_03",
+  "en": "I don't know when it goes away, it's more about uh we've referred to at the beginning of uh TESL, we've had the sort of the notion of a spec and a shadow spec.",
+  "zh": "我不知道它什么时候会消失，更像是，呃，我们在 TESL 开始的时候提到过，我们有 spec 和 shadow spec 这样的概念。"
+ },
+ {
+  "seg": 426,
+  "start": 2973.04,
+  "end": 2978.16,
+  "speaker": "SPEAKER_03",
+  "en": "You know, sort of the spec being the thing that you create and the sort of shadow spec being the capturing of the LLM's decisions.",
+  "zh": "你知道，spec 是你创造的那个东西，而 shadow spec 是对 LLM 决策的捕捉。"
+ },
+ {
+  "seg": 427,
+  "start": 2978.4,
+  "end": 2980.8,
+  "speaker": "SPEAKER_03",
+  "en": "What is the difference between a shadow spec and code?",
+  "zh": "那么 shadow spec 和代码之间有什么区别？"
+ },
+ {
+  "seg": 428,
+  "start": 2980.96,
+  "end": 2981.76,
+  "speaker": "SPEAKER_03",
+  "en": "I I don't know.",
+  "zh": "我我不知道。"
+ },
+ {
+  "seg": 429,
+  "start": 2981.84,
+  "end": 2984.48,
+  "speaker": "SPEAKER_03",
+  "en": "It's like degrees of freedom uh for it.",
+  "zh": "就像是它的自由度。"
+ },
+ {
+  "seg": 430,
+  "start": 2984.96,
+  "end": 2987.2,
+  "speaker": "SPEAKER_03",
+  "en": "Um and and today you you already do that, right?",
+  "zh": "嗯，而且今天你已经在这么做了，对吧？"
+ },
+ {
+  "seg": 431,
+  "start": 2987.28,
+  "end": 2995.52,
+  "speaker": "SPEAKER_03",
+  "en": "You already use you know Java and you're delegating garbage collection, and it happens in different ways on different systems, and you don't care because you trust that it is good enough.",
+  "zh": "你已经在用 Java，把垃圾回收委托出去，它在不同系统上以不同方式发生，而你不在乎，因为你相信它足够好。"
+ },
+ {
+  "seg": 432,
+  "start": 2995.68,
+  "end": 3000,
+  "speaker": "SPEAKER_03",
+  "en": "Uh and so uh so I think it's sort of going into that world.",
+  "zh": "呃，所以我认为就是在走向那样的世界。"
+ },
+ {
+  "seg": 433,
+  "start": 3000.16,
+  "end": 3005.2,
+  "speaker": "SPEAKER_03",
+  "en": "And the the conversation we have right now is really about what is the journey uh towards it, right?",
+  "zh": "而我们现在进行的对话，其实是关于通往它的旅程是什么，对吧？"
+ },
+ {
+  "seg": 434,
+  "start": 3005.36,
+  "end": 3015.2,
+  "speaker": "SPEAKER_03",
+  "en": "You know, what uh and what should you build today so you're not you know left stranded for tomorrow, but that still actually gets you somewhere today, that balance has been tough.",
+  "zh": "你知道，呃，以及你今天该构建什么，才能不在明天被搁浅，但同时在今天确实能带你到某个地方，这个平衡一直很难。"
+ },
+ {
+  "seg": 435,
+  "start": 3015.36,
+  "end": 3016.24,
+  "speaker": "SPEAKER_03",
+  "en": "Uh yeah.",
+  "zh": "呃，是啊。"
+ },
+ {
+  "seg": 436,
+  "start": 3016.48,
+  "end": 3043.44,
+  "speaker": "Dex Horthy",
+  "en": "And so I I won't I won't say software engineer, or maybe I'll just say builder, but like as a builder, as a person who wants to create things of value, I think right now your your two biggest bottlenecks are how do I let the model pull as as efficiently and easily and like mentally like pleasant for me, the human, how do I enable the model to brain drain me as quickly as possible on all the things that are my tastes and preferences and things.",
+  "zh": "所以我不会说软件工程师，或者我就直接说建造者吧，但作为一个建造者，作为一个想创造有价值的东西的人，我认为现在你最大的两个瓶颈是：我怎么让模型尽可能高效、轻松，并且在心理上让我这个人类感到愉快地把我的大脑榨干，我怎么让模型尽可能快地把所有属于我的品味、偏好的东西从我脑里抽走。"
+ },
+ {
+  "seg": 437,
+  "start": 3043.68,
+  "end": 3045.6,
+  "speaker": "Dex Horthy",
+  "en": "And then I think I think we're in alignment there.",
+  "zh": "然后我觉得我们在这一点上是一致的。"
+ },
+ {
+  "seg": 438,
+  "start": 3045.68,
+  "end": 3056.8,
+  "speaker": "Dex Horthy",
+  "en": "And then if you're if you're still reading the code, there's like a a corollary of what is the fastest, most efficient, most visually effective way for a model to tell me what it has done.",
+  "zh": "然后，如果你还在读代码，那还有一个推论：什么是让模型告诉我它做了什么的最快、最高效、视觉上最有效的方式。"
+ },
+ {
+  "seg": 439,
+  "start": 3057.04,
+  "end": 3059.44,
+  "speaker": "Dex Horthy",
+  "en": "Like, yeah, maybe I might not read every line of code.",
+  "zh": "比如，是的，我可能不会读每一行代码。"
+ },
+ {
+  "seg": 440,
+  "start": 3059.6,
+  "end": 3078.56,
+  "speaker": "Dex Horthy",
+  "en": "Um, but uh between if I'm reading every line of code now, and someday I'm reading a spec, like between there, there will be, you know, laddering up of like, cool, don't tell me the code, but give me things, give me something that is, you know, 50% faster or 80% faster than reading every line of code that gives me almost as much confidence or almost as much understanding.",
+  "zh": "嗯，但是，在我现在读每一行代码、和未来某天我读一份 spec 之间，会有逐级上升的中间形态，比如：好，别给我看代码，但给我一些东西，给我某种比读每一行代码快 50% 或 80% 的东西，同时给我几乎一样多的信心或几乎一样多的理解。"
+ },
+ {
+  "seg": 441,
+  "start": 3078.72,
+  "end": 3096.72,
+  "speaker": "Dex Horthy",
+  "en": "How can you what are the like patterns where we can leverage how do humans think and understand things to both get that into the model's context as quickly as possible, and then let the model context engineer the human of like what's the fastest way that I can explain to this person what has been done so they can be competent that it works?",
+  "zh": "怎么能——有哪些模式可以让我们利用人类的思考和理解方式，既把它尽快地送进模型的上下文，然后又让模型给人类做上下文工程，即：什么是我向这个人解释已完成之事的最快方式，好让他能确信它能运作？"
+ },
+ {
+  "seg": 442,
+  "start": 3096.96,
+  "end": 3099.12,
+  "speaker": "SPEAKER_03",
+  "en": "Yeah, yeah, no, that's uh that's well said.",
+  "zh": "是，是，不，那个说得很好。"
+ },
+ {
+  "seg": 443,
+  "start": 3099.28,
+  "end": 3102.32,
+  "speaker": "SPEAKER_03",
+  "en": "So maybe one last question, a bit along those veins.",
+  "zh": "那么也许最后一个问题，稍微沿着这个脉络。"
+ },
+ {
+  "seg": 444,
+  "start": 3102.48,
+  "end": 3107.28,
+  "speaker": "SPEAKER_03",
+  "en": "Um I think the the advice you give today is different than the advice you gave 12 months ago, right?",
+  "zh": "嗯，我觉得你今天给的建议和你 12 个月前给的不一样了，对吧？"
+ },
+ {
+  "seg": 445,
+  "start": 3107.36,
+  "end": 3110.24,
+  "speaker": "SPEAKER_03",
+  "en": "Sort of seeing the the evolution of the surrounding.",
+  "zh": "大概是看到了周围环境的演变。"
+ },
+ {
+  "seg": 446,
+  "start": 3110.48,
+  "end": 3115.28,
+  "speaker": "SPEAKER_03",
+  "en": "Um what's your bet on what aspects of your advice will change 12 months from now?",
+  "zh": "嗯，你押注你建议中的哪些方面 12 个月后会改变？"
+ },
+ {
+  "seg": 447,
+  "start": 3115.92,
+  "end": 3117.68,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, uh that's a great question.",
+  "zh": "是，呃，这是个好问题。"
+ },
+ {
+  "seg": 448,
+  "start": 3117.84,
+  "end": 3123.2,
+  "speaker": "Dex Horthy",
+  "en": "And yeah, there are some things that we got right almost almost 18 months ago that I have not changed, right?",
+  "zh": "而且，是的，有一些事情我们在差不多 18 个月前就说对了，而我从来没有改变过，对吧？"
+ },
+ {
+  "seg": 449,
+  "start": 3123.28,
+  "end": 3125.92,
+  "speaker": "Dex Horthy",
+  "en": "Like the context engineering thing I think will always be true.",
+  "zh": "比如上下文工程这件事，我觉得永远都会是对的。"
+ },
+ {
+  "seg": 450,
+  "start": 3126.08,
+  "end": 3126.72,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, first principle.",
+  "zh": "是的,第一性原理。"
+ },
+ {
+  "seg": 451,
+  "start": 3126.88,
+  "end": 3139.12,
+  "speaker": "Dex Horthy",
+  "en": "As long as we're using as long as we're using transformer-based LLMs, that's just like the math of how they work, and you will get better quality if you use less context, so you'll always be able to like engineer things to get engineer things to get better results.",
+  "zh": "只要我们还在使用基于 transformer 的 LLM,这就是它们工作原理的数学本质,使用更少的上下文你会得到更好的质量,所以你总是能够通过工程手段来获得更好的结果。"
+ },
+ {
+  "seg": 452,
+  "start": 3139.28,
+  "end": 3142.24,
+  "speaker": "Dex Horthy",
+  "en": "Um what will change in the next 12 months?",
+  "zh": "嗯,接下来 12 个月会发生什么变化?"
+ },
+ {
+  "seg": 453,
+  "start": 3142.4,
+  "end": 3148,
+  "speaker": "Dex Horthy",
+  "en": "I think I spent a lot of time thinking about infrastructure.",
+  "zh": "我想我在基础设施上花了很多时间思考。"
+ },
+ {
+  "seg": 454,
+  "start": 3148.24,
+  "end": 3173.04,
+  "speaker": "Dex Horthy",
+  "en": "Um I think the entire software factory, this isn't gonna be like AI advice, but I think the like entire software factory stack will decompose into good interfaces and open components, kind of like what we saw happen in the Kubernetes world in the last like you know, 10 the last decade of like basically like the more open and portable you can make these ideas, the more likely they are to get broad adoption.",
+  "zh": "嗯,我认为整个软件工厂——这不是 AI 建议——我认为整个软件工厂技术栈会分解成良好的接口和开放的组件,有点像我们在 Kubernetes 世界看到的那样,在过去十年里,基本上你越是把这些理念做得开放和可移植,它们就越有可能被广泛采用。"
+ },
+ {
+  "seg": 455,
+  "start": 3173.2,
+  "end": 3184.72,
+  "speaker": "Dex Horthy",
+  "en": "Uh, and you need a certain amount of momentum to actually become the default solution, just like what happened to VMware, just like what happened with AWS, what happened with Kubernetes.",
+  "zh": "呃,你需要一定的动量才能真正成为默认解决方案,就像 VMware 经历的那样,就像 AWS、Kubernetes 经历的那样。"
+ },
+ {
+  "seg": 456,
+  "start": 3184.88,
+  "end": 3191.76,
+  "speaker": "Dex Horthy",
+  "en": "Um and so I I think a lot of these like walled garden, like you can build a software factory entirely on Claude.",
+  "zh": "嗯,所以我认为很多这种围墙花园——比如你完全可以基于 Claude 构建一个软件工厂。"
+ },
+ {
+  "seg": 457,
+  "start": 3191.84,
+  "end": 3202.24,
+  "speaker": "Dex Horthy",
+  "en": "You can use Cloud Code as the harness, you can use Claude Automations as your orchestrator, you can use Claude, like a managed code sandboxes, manage agent, whatever they call it, as your runtime environment.",
+  "zh": "你可以用 Cloud Code 作为 harness,用 Claude Automations 作为你的编排器,用 Claude——比如托管的代码沙箱、托管的智能体,不管他们叫什么——作为你的运行时环境。"
+ },
+ {
+  "seg": 458,
+  "start": 3202.4,
+  "end": 3204.8,
+  "speaker": "Dex Horthy",
+  "en": "Uh, and you can kind of do this whole verticalized stack.",
+  "zh": "呃,你基本上可以搭起这整套垂直化的技术栈。"
+ },
+ {
+  "seg": 459,
+  "start": 3204.88,
+  "end": 3219.6,
+  "speaker": "Dex Horthy",
+  "en": "And I just I I think that the advice I will keep giving people today is like I think DevTools and DevTools stacks are probably gonna stay or become even more open, open source, open protocols, whatever it is.",
+  "zh": "而我——我,我今天会一直给人们的建议是,我认为 DevTools 和 DevTools 技术栈可能会保持甚至变得更加开放——开源、开放协议,诸如此类。"
+ },
+ {
+  "seg": 460,
+  "start": 3219.92,
+  "end": 3225.76,
+  "speaker": "Dex Horthy",
+  "en": "Um and so I would I would encourage people to prepare for that.",
+  "zh": "嗯,所以我会鼓励人们为此做好准备。"
+ },
+ {
+  "seg": 461,
+  "start": 3225.92,
+  "end": 3228.32,
+  "speaker": "Dex Horthy",
+  "en": "And uh you can build anything now.",
+  "zh": "而且呃,现在你可以构建任何东西了。"
+ },
+ {
+  "seg": 462,
+  "start": 3228.64,
+  "end": 3233.84,
+  "speaker": "Dex Horthy",
+  "en": "Uh don't uh don't totally know about on the code, especially if you're building critical systems.",
+  "zh": "呃,不过呃在代码方面还不完全清楚,尤其是当你在构建关键系统的时候。"
+ },
+ {
+  "seg": 463,
+  "start": 3234.24,
+  "end": 3236.88,
+  "speaker": "SPEAKER_03",
+  "en": "Amen to that in terms of the sort of the open composable systems.",
+  "zh": "就开放可组合的系统而言,说到心坎里了。"
+ },
+ {
+  "seg": 464,
+  "start": 3236.96,
+  "end": 3254.48,
+  "speaker": "SPEAKER_03",
+  "en": "I had uh um early on on the podcast, we had uh Matt from uh Netlify, the founder of Netlify, and he uh and he was kind of making this passionate case which I relate to, which is that the web like had elements of it that were sort of closed, uh eventually the sort of the open web won, and I think we're all better off for it.",
+  "zh": "我,呃,嗯,在播客早期,我们请到了 Netlify 的创始人 Matt,他当时满怀热情地提出了一个我很认同的观点,那就是万维网曾经有某些部分是封闭的,但最终开放网络赢了,我认为我们都因此受益。"
+ },
+ {
+  "seg": 465,
+  "start": 3254.56,
+  "end": 3274.8,
+  "speaker": "SPEAKER_03",
+  "en": "And I think similarly in the kind of the world of agents, the closed ecosystems are very tempting uh because they they naturally align and all the different pieces kind of come together on it, but sort of this belief that eventually open and composable leads to greater innovation uh and greater flexibility for organizations, I think this composability will uh will win over.",
+  "zh": "我认为在智能体的世界里也是类似,封闭的生态系统非常诱人,因为它们自然地对齐,各个部分都能整合在一起,但我相信开放和可组合最终会带来更大的创新,给组织带来更大的灵活性,我认为这种可组合性终将获胜。"
+ },
+ {
+  "seg": 466,
+  "start": 3275.68,
+  "end": 3278.48,
+  "speaker": "SPEAKER_03",
+  "en": "The ordering that's uh that's a whole different bully.",
+  "zh": "至于先后顺序,那完全是另一回事了。"
+ },
+ {
+  "seg": 467,
+  "start": 3279.36,
+  "end": 3296.56,
+  "speaker": "Dex Horthy",
+  "en": "Yeah, what what's what which chips are gonna fall in what order or dominoes, I suppose, and uh yeah, how how much of how much of a lead do these sort of frontier, the factories, the devons, the open AI, the anthropics of the world, how much of a lead do they actually have?",
+  "zh": "是的,哪些多米诺骨牌会以什么顺序倒下,我猜是这样,还有,呃,这些前沿的、那些工厂、devons、OpenAI、Anthropic 们,它们实际上有多大的领先优势?"
+ },
+ {
+  "seg": 468,
+  "start": 3297.12,
+  "end": 3309.68,
+  "speaker": "Dex Horthy",
+  "en": "Uh and how how it's like for them, it's like they are they're going to war every single day because I I think that open is catching up faster than anyone is ready to notice yet.",
+  "zh": "呃,以及它们的情况如何——对他们来说,就像他们每一天都在打仗一样,因为我认为开放的阵营正在以比任何人目前准备注意到的更快的速度追赶上来。"
+ },
+ {
+  "seg": 469,
+  "start": 3310.88,
+  "end": 3313.28,
+  "speaker": "SPEAKER_03",
+  "en": "Dex, thanks a lot for the great conversation here.",
+  "zh": "Dex,非常感谢这次精彩的对话。"
+ },
+ {
+  "seg": 470,
+  "start": 3313.44,
+  "end": 3314.16,
+  "speaker": "SPEAKER_03",
+  "en": "Super, super fun.",
+  "zh": "超级,超级有趣。"
+ },
+ {
+  "seg": 471,
+  "start": 3314.24,
+  "end": 3315.68,
+  "speaker": "SPEAKER_03",
+  "en": "And you know, deep insights.",
+  "zh": "而且你知道,有非常深刻的洞见。"
+ },
+ {
+  "seg": 472,
+  "start": 3315.84,
+  "end": 3320.88,
+  "speaker": "SPEAKER_03",
+  "en": "Also, thanks in general for like sharing the the whole journey here and the learnings and the practices along the way on it.",
+  "zh": "另外,总的来说也谢谢你分享整个旅程以及一路走来的经验和实践。"
+ },
+ {
+  "seg": 473,
+  "start": 3320.96,
+  "end": 3326.48,
+  "speaker": "SPEAKER_03",
+  "en": "I think we we learn as a community, and uh you're definitely sort of a chief amongst the educators over there, and that uh is much appreciated.",
+  "zh": "我认为我们是作为一个社区在学习,而你绝对是那边教育者中的佼佼者,这非常值得感激。"
+ },
+ {
+  "seg": 474,
+  "start": 3326.88,
+  "end": 3327.84,
+  "speaker": "Dex Horthy",
+  "en": "Oh, and thank you, man.",
+  "zh": "哦,谢谢你,老兄。"
+ },
+ {
+  "seg": 475,
+  "start": 3328.08,
+  "end": 3340.24,
+  "speaker": "Dex Horthy",
+  "en": "I'm a huge fan of you and the team, and you guys were super early to this game, and you have, I mean, Patrick Dubois has like been a fanboy of his since he invented DevOps days in like 2009 or whatever.",
+  "zh": "我是你和你们团队的忠实粉丝,你们在这个游戏里入场非常早,而且,我是说,自 Patrick Dubois 在大概 2009 年发明 DevOps days 以来,我就一直是他的粉丝。"
+ },
+ {
+  "seg": 476,
+  "start": 3340.32,
+  "end": 3344.08,
+  "speaker": "Dex Horthy",
+  "en": "So you guys clearly have a really good squad, and like I'm excited to see what you guys are cooking.",
+  "zh": "所以你们显然有一支非常棒的团队,我很期待看到你们在酝酿什么。"
+ },
+ {
+  "seg": 477,
+  "start": 3344.24,
+  "end": 3348.16,
+  "speaker": "SPEAKER_03",
+  "en": "Thanks, and thanks everyone for tuning in, and I hope you join us for the next one.",
+  "zh": "谢谢,也感谢大家的收听,希望你们参加我们下一期。"
+ },
+ {
+  "seg": 478,
+  "start": 3348.96,
+  "end": 3353.76,
+  "speaker": "Simon Mayfor",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for skills and context.",
+  "zh": "AI Native Dev 由 Tesla 为你呈现,它是技能和上下文的包管理器。"
+ },
+ {
+  "seg": 479,
+  "start": 3353.84,
+  "end": 3356.88,
+  "speaker": "Simon Mayfor",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "你的主持人是 Guy Pajani 和我,Simon Maple。"
+ },
+ {
+  "seg": 480,
+  "start": 3356.96,
+  "end": 3358.64,
+  "speaker": "Simon Mayfor",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人是 Tom Dowler。"
+ },
+ {
+  "seg": 481,
+  "start": 3358.8,
+  "end": 3362.08,
+  "speaker": "Simon Mayfor",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "AI Native Dev 不仅仅是一档播客,它是一个社区。"
+ },
+ {
+  "seg": 482,
+  "start": 3362.16,
+  "end": 3365.68,
+  "speaker": "Simon Mayfor",
+  "en": "And we host monthly meetups at the Tesla offices in central London.",
+  "zh": "我们每个月在伦敦市中心的 Tesla 办公室举办线下聚会。"
+ },
+ {
+  "seg": 483,
+  "start": 3365.76,
+  "end": 3368.48,
+  "speaker": "Simon Mayfor",
+  "en": "Visit Tesla.io forward slash community.",
+  "zh": "访问 Tesla.io forward slash community。"
+ },
+ {
+  "seg": 484,
+  "start": 3368.56,
+  "end": 3370.88,
+  "speaker": "Simon Mayfor",
+  "en": "To learn more, I hope to see you there.",
+  "zh": "了解更多信息,希望在那里见到你。"
+ }
+]

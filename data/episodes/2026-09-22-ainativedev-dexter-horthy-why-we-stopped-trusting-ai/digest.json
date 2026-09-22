@@ -1,0 +1,172 @@
+{
+  "title_zh": "软件工厂的教训：不读代码的四五个月后，我们重写了整个产品",
+  "tldr": "Human Layer CEO 兼联合创始人 Dex Horthy 复盘「关灯开发」实验的失败，主张今天仍要读代码，并谈规划杠杆、可维护性与软件工厂。",
+  "digest_md": "这一集聊的是「软件工厂」——让 AI 智能体大量替你写代码的开发方式——到底该怎么用、什么时候会翻车。主角是 Dex Horthy，Human Layer 的 CEO 兼联合创始人，也是广为流传的「12 factor 智能体」一文的作者。他这一集最大的价值在于：他和团队真刀真枪地做过最激进的「关灯开发」（lights off development，即人不看代码、只看计划就放行）实验，跑了几个月，最后把整个产品推倒重写。\n\n## 实验：只审计划、不读代码，四个月后代码库报废\n\n事情始于 Opus 4 和 Claude Agent SDK 发布——那是你第一次能把 Claude 当作小型智能体循环，嵌进一个更大的、更确定性的软件里 [03:33 Dex Horthy]。当时「实验室比我们所有人拥有多得多的 alpha，所以如果他们说这是你应该做的事，那你就应该去做」[09:22 Dex Horthy]。Dex 想活在未来，于是团队决定：仍然保留 pull request（代码合并请求），但规则变成「如果你读了计划，代码就没那么重要了」。\n\n问题立刻显现。首先，当时的计划里包含了所有将要写的代码，读一份计划几乎等于读一遍内联 diff；而实现总会漂移，结果大团队「基本上审查了几乎相同形状的代码两次」，做了双倍的工作 [09:50 Dex Horthy]。更要命的是架构失控：他们让模型自己决定系统架构，最后得到一个六层服务的怪物——桌面应用经 Rust 连 socket，后端是 Golang 守护进程，守护进程启动 Claude Code 会话，会话再启动 MCP 服务器处理审批，MCP 又回调前端写 SQLite……一条审批要在这个链条里绕一整圈 [11:30 Dex Horthy]。「如果你让模型自己决定架构，它就会变成这样一个极其复杂的系统」。\n\n跑了四五个月，团队才意识到代码库已经没法用了：越来越慢，这边改一下、那边出回归。于是从零重建，而重建的头两个星期，联合创始人 Kyle 在 VS Code 里手动敲每一个字符——连 Cursor 都不用——铺好新版本的数据架构 [12:39 Dex Horthy]。这次重建选的路线（基于 Electric SQL 的单向数据流、实时同步数据库）反而很稳固，「今天构建的任何软件都应该使用一种实时同步数据库，客户端只需连接上去就能实时拿到更新」。\n\n## 规划是杠杆：用「预期痛苦」决定对齐多少\n\n实验的教训不是「计划无用」，而是计划的价值要重新理解。2025 年 7 月写计划文件最大的作用，其实是「一种非常可靠的方式让模型工作得更久」——它是意图压缩的第一个版本，让工作可恢复，能从干净的上下文窗口重启（当时模型超过约 10 万 token 的上下文质量就明显变差，Dex 称之为「笨区」）[04:40 Dex Horthy]。\n\n如今他把规划想成一道杠杆曲线。一头是两句 prompt 的 YOLO（约 50% 概率返工，即跟模型再来几个回合），另一头是全部手写代码（智能体致错概率为零），中间是花五小时手写规格说明（约 10%）[18:17 Dex Horthy]。判断标准是「预期痛苦」：按钮颜色不对？一条 prompt 就能修，从不为此争论；但「如果数据库 schema 错了，那我们很可能得把它扔掉重头再来」——所以要提前在 schema 上对齐 [19:31 Dex Horthy]。根据任务的规模、代码库的复杂度、里面有多少模型可能模仿的坏模式，决定落在这条曲线的哪个位置，而且要大量练习建立直觉。\n\n对「表达不出意图」这个老难题，他的解法是用 AI 反过来拷问自己：打开语音模式随口絮叨 60 秒说出粗略想法，然后让 AI「不知疲倦地访谈用户」——「这是你要的，这里是一些备选方案，你确定不想要这些吗」——沿着决策树把欠指定的东西问清楚 [22:28 Dex Horthy]。\n\n## 为什么今天还得读代码：可维护性没有快速验证器\n\n主持人的反驳很典型：如果意图提取对了、验证器定义对了，还需要读代码吗？Dex 承认好的规格加验证器威力巨大——给模型一个它能自己衡量的反馈回路（他称之为「反压」），它「会为你移山倒海」，还能并行开工更多任务 [24:49 Dex Horthy]。他自己就在做一个完全不读代码的实验：用代码搜索测试框架跑一堆子智能体，在成本、速度、准确率的帕累托前沿上爬山，45 个代码搜索评测——一行代码都没读。如果实验成功，再把算法讲给模型、转成规格、用干净架构重写一遍，清掉满地 slop（垃圾代码）[27:28 Dex Horthy]。\n\n但原型可以不读，产品不行。他的判断依据是 RL（强化学习）训练的逻辑：要在某件事上训练模型，需要 RL 环境和「Oracle」——一个能快速判断对错的东西。而「可维护性没有快速的 Oracle」：一个系统不可维护，要两个月后才知道 [28:50 Dex Horthy]。他提到一个 slop code bench 基准（威斯康星大学的实验室出的）：让模型在一个不断继承的代码库上连续写新功能，GPT-5.5 在五月只拿了 14.8%，他们帮跑的第一轮 Astra 是 16.3%——「模型在『能否长期维护一个代码库』这个维度上正在变好，但没有大家想的那么快」[29:48 Dex Horthy]。「我们说过 GPT-7 会解决所有这些问题。现在是 GPT-6」[30:03 Dex Horthy]。他还点名了 Steve Yege：网上到处宣扬「还在读代码你就不会成功」，结果上周自己承认用 Fable 建的系统复杂到它自己都调试不了 [14:53 Dex Horthy]。\n\n## 软件工厂 ≠ 传统工厂：坏代码是复利式的污染\n\n两边其实在「复利式工程」上完全一致：要持续投资「那个构建东西的东西」。Human Layer 内部每天晚上跑四五个由提示词驱动的检测工作流（有的确定性、有的非确定性，比如用 lint 工具拉警告），跑在 crons 和 GitHub actions 上，每天早上醒来就有五个让代码库好一点点的 pull request [35:17 Dex Horthy]。\n\n但 Dex 警告最常见的反模式：有人兴奋地说要建软件工厂，把一切推倒从头设计。「大设计前置永远会输给快速迭代、每天变好 1%」[37:46 Dex Horthy]。更关键的区别是：传统工厂出一辆坏车，买家自己处理；「如果你在你的软件工厂里交付了坏代码，它会降低未来每一件经过那个工厂的工作的质量，因为模型会看到更多坏模式」[38:30 Dex Horthy]。头号优先级是止血——先关上房子的窗户，再开空调。\n\n而人类在环审查的副产品是「废气」：每当人不得不在智能体的 PR 上留言「这是错的，我们不这么做」，或者团队成员在提示词里骂模型做错了——这些都要虹吸出来，分析全团队的会话轨迹，找出人们在哪儿沮丧，回头改进技能和工作流。「如果你没有变得更好，那你就在变得更糟。」做好了这件事，你就会「从关心你的位置转向关心你的速度」，从造车转向造工厂。\n\n## 永远要审查点什么：不做 token 农场\n\n代码会一直是真相来源吗？Dex 不预测时间线。他服务很多财富 500 强客户，卖点恰恰是「不要为未来抵押你的代码库」——让你跑得最快，但不放弃控制权和品味。旧金山一个晚宴上的数据很说明问题：AI 写 100% 代码的，全场举手；还在读代码的，仍有约一半；另一半靠 70 条手写自定义 linter 规则之类的机制换发布信心 [43:02 Dex Horthy]。\n\n晚宴上一位老手创始人的话 Dex 现在几乎每天都在想：「审查某样东西大概永远都会有超额收益。我们不知道那是什么。」如果你什么都不审查，只是让 AI 去煮，「你会得到和其他所有人一样的产品、一样的邮件、一样的公司」——那种纯烧 token 的「token 农场」毫无差异化 [43:49 Dex Horthy]。Claude 做的演示文稿就是现成例子：刚出来人人惊叹，现在每个都长得像 Claude 演示文稿。当下值得审查的还是代码，未来可能是别的东西。\n\n至于护城河，Dex 觉得「新的护城河是品味」这句话太模糊，更可靠的说法是：比任何人都更理解问题、更理解客户——这是你能在别人做不到的维度上给智能体做上下文工程的前提。他真正的两个瓶颈判断：一是让模型尽快把你的品味和偏好「大脑榨干」；二是如果你还在读代码，就发明比逐行读快 50-80%、但信心几乎不打折的中间形态——让模型反过来给人类做上下文工程，用最快的方式向你解释它做了什么 [50:57 Dex Horthy]。\n\n主持人则押注软件开发将围绕 skills（技能）展开、代码角色递减——就像今天你用 Java 时不在乎垃圾回收怎么发生。12 个月后 Dex 确定不变的：上下文工程永远成立，因为「只要我们还在使用基于 transformer 的 LLM，使用更少的上下文你就会得到更好的质量，这就是它们工作原理的数学本质」[52:06 Dex Horthy]。他会变的赌注：整个软件工厂技术栈会像 Kubernetes 生态那样分解成开放接口和开放组件，围墙花园（全栈押注 Claude 一家）虽诱人，但「开放正在以比任何人目前准备注意到的更快的速度追赶上来」。\n\n## 本集带走\n\n- **别学「只审计划不读代码」**：计划会漂移，大团队等于把同样形状的代码审两遍；放任模型定架构，几个月后就是推倒重写。\n- **用「预期痛苦」决定规划投入**：按钮颜色错了改一条 prompt 就行，数据库 schema 错了要重来——只在改起来最痛的地方提前对齐。\n- **给模型装「反压」**：一份带验证器的规格，让模型能自己衡量对错并爬山，它就能长时间无人值守干活、还能并行开多路。\n- **软件工厂里坏代码是污染源**：智能体会模仿代码库里的坏模式，放进来一次，未来每个任务都变差；先止血，再优化工厂。\n- **把人的纠偏虹吸成资产**：每次你在 PR 上留言纠错、每次团队成员骂模型，都抽出来分析，回头改进技能和工作流——不做这个，你就在变糟。\n- **永远审查点什么**：什么都不审就是 token 农场，产出和所有人一样；今天审代码，未来可能是别的，但那个「多出来的东西」就是你的差异化。",
+  "quotes": [
+    {
+      "en": "the labs have way more alpha than any of us, so if they say this is a thing you should do, then you should go do it.",
+      "zh": "实验室比我们所有人拥有多得多的 alpha，所以如果他们说这是你应该做的事，那你就应该去做。",
+      "timestamp": "09:30",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "And so if you write code that is like the smartest code, the most clever thing that you can come up with, you are by definition not smart enough to debug it.",
+      "zh": "所以如果你写的代码是你能想到的最聪明的代码、最巧妙的东西，那么按定义，你就不够聪明去调试它。",
+      "timestamp": "14:12",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "no, you don't have too many PRs, you have too many bad PRs because you're letting people turn off their brains uh when they're coding.",
+      "zh": "不，不是你的 PR 太多，是你的坏 PR 太多，因为你让人们在写代码的时候把脑子关掉了。",
+      "timestamp": "18:05",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "Planning is all about leverage. How do you find the sweet spot for the task?",
+      "zh": "规划全都是关于杠杆的。你怎么为这个任务找到甜点位？",
+      "timestamp": "19:52",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "there's no fast oracle for software maintainability.",
+      "zh": "软件可维护性没有快速的 Oracle（验证器）。",
+      "timestamp": "28:55",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "if you ship bad code in your software factory, it degrades every future piece of work that goes through that factory because there's more bad patterns for the model to see.",
+      "zh": "如果你在你的软件工厂里交付了坏代码，它会降低未来每一件经过那个工厂的工作的质量，因为模型会看到更多坏模式。",
+      "timestamp": "38:30",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "You're you're basically shifting from like caring about your position to caring about your velocity.",
+      "zh": "你基本上是在从关心你的位置转向关心你的速度。",
+      "timestamp": "40:23",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "there will probably always be alpha in reviewing something. We don't know what it is.",
+      "zh": "审查某样东西大概永远都会有超额收益。我们不知道那是什么。",
+      "timestamp": "43:45",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "if you don't review anything, then you're just letting the AI cook and then you're gonna get the Same product, the same email, the same company that everybody else gets.",
+      "zh": "但如果你什么都不审查，那你就只是让 AI 去煮，然后你会得到和其他所有人一样的产品、一样的邮件、一样的公司。",
+      "timestamp": "43:53",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "As long as we're using transformer-based LLMs, that's just like the math of how they work, and you will get better quality if you use less context.",
+      "zh": "只要我们还在使用基于 transformer 的 LLM，这就是它们工作原理的数学本质，使用更少的上下文你就会得到更好的质量。",
+      "timestamp": "52:08",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "I think that open is catching up faster than anyone is ready to notice yet.",
+      "zh": "我认为开放的阵营正在以比任何人目前准备注意到的更快的速度追赶上来。",
+      "timestamp": "55:04",
+      "speaker": "Dex Horthy"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:22",
+      "speaker": "Dex Horthy",
+      "en": "the labs have way more alpha than any of us, so if they say this is a thing you should do, then you should go do it.",
+      "zh": "实验室比我们所有人拥有多得多的 alpha，所以如果他们说这是你应该做的事，那你就应该去做。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Dex Horthy",
+      "en": "they were actually doing more work, they were reviewing basically the same, almost the same shape of code twice.",
+      "zh": "他们实际上在做更多的工作，他们基本上把几乎相同形状的代码审查了两遍。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Dex Horthy",
+      "en": "It was just like this incredibly complex system that the models developed uh if you if you let them decide how it should be architected.",
+      "zh": "如果你让模型自己决定架构，它就会变成这样一个极其复杂的系统。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Dex Horthy",
+      "en": "And so if you write code that is like the smartest code, the most clever thing that you can come up with, you are by definition not smart enough to debug it.",
+      "zh": "所以如果你写的代码是你能想到的最聪明的代码、最巧妙的东西，那么按定义，你就不够聪明去调试它。"
+    },
+    {
+      "timestamp": "18:04",
+      "speaker": "Dex Horthy",
+      "en": "no, you don't have too many PRs, you have too many bad PRs because you're letting people turn off their brains uh when they're coding.",
+      "zh": "不，不是你的 PR 太多，是你的坏 PR 太多，因为你让人们在写代码的时候把脑子关掉了。"
+    },
+    {
+      "timestamp": "19:52",
+      "speaker": "Dex Horthy",
+      "en": "Planning is all about leverage. How do you find the sweet spot for the task?",
+      "zh": "规划全都是关于杠杆的。你怎么为这个任务找到甜点位？"
+    },
+    {
+      "timestamp": "22:10",
+      "speaker": "Dex Horthy",
+      "en": "is because like people are bad at specifying their intent.",
+      "zh": "是因为人们很不擅长说明自己的意图。"
+    },
+    {
+      "timestamp": "25:11",
+      "speaker": "Dex Horthy",
+      "en": "if you give the model a good way to get feedback on what it's doing, and to like a hail climb against some objective that it itself can measure, whether it's qualitative or quantitative, it will move mountains for you.",
+      "zh": "如果你给模型一个好的方式来获得对它所做之事的反馈，并且让它针对某个它自己能衡量的目标去爬山，不管是定性的还是定量的，它会为你移山倒海。"
+    },
+    {
+      "timestamp": "28:54",
+      "speaker": "Dex Horthy",
+      "en": "there's no fast oracle for software maintainability.",
+      "zh": "软件可维护性没有快速的 Oracle（验证器）。"
+    },
+    {
+      "timestamp": "30:00",
+      "speaker": "Dex Horthy",
+      "en": "But not as fast as everyone thinks.",
+      "zh": "但没有大家想的那么快。"
+    },
+    {
+      "timestamp": "38:30",
+      "speaker": "Dex Horthy",
+      "en": "if you ship bad code in your software factory, it degrades every future piece of work that goes through that factory because there's more bad patterns for the model to see.",
+      "zh": "如果你在你的软件工厂里交付了坏代码，它会降低未来每一件经过那个工厂的工作的质量，因为模型会看到更多坏模式。"
+    },
+    {
+      "timestamp": "40:23",
+      "speaker": "Dex Horthy",
+      "en": "You're you're basically shifting from like caring about your position to caring about your velocity.",
+      "zh": "你基本上是在从关心你的位置转向关心你的速度。"
+    },
+    {
+      "timestamp": "43:32",
+      "speaker": "Dex Horthy",
+      "en": "there will probably always be alpha in reviewing something. We don't know what it is.",
+      "zh": "审查某样东西大概永远都会有超额收益。我们不知道那是什么。"
+    },
+    {
+      "timestamp": "43:53",
+      "speaker": "Dex Horthy",
+      "en": "if you don't review anything, then you're just letting the AI cook and then you're gonna get the Same product, the same email, the same company that everybody else gets.",
+      "zh": "但如果你什么都不审查，那你就只是让 AI 去煮，然后你会得到和其他所有人一样的产品、一样的邮件、一样的公司。"
+    },
+    {
+      "timestamp": "52:06",
+      "speaker": "Dex Horthy",
+      "en": "As long as we're using transformer-based LLMs, that's just like the math of how they work, and you will get better quality if you use less context.",
+      "zh": "只要我们还在使用基于 transformer 的 LLM，这就是它们工作原理的数学本质，使用更少的上下文你就会得到更好的质量。"
+    },
+    {
+      "timestamp": "54:57",
+      "speaker": "Dex Horthy",
+      "en": "I think that open is catching up faster than anyone is ready to notice yet.",
+      "zh": "我认为开放的阵营正在以比任何人目前准备注意到的更快的速度追赶上来。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Dex Horthy，是一家叫 Human Layer 的公司的 CEO 兼联合创始人，也是那篇流传很广的「12 factor 智能体」的作者。这一期聊的事特别实在：让 AI 智能体大量替你写代码，也就是所谓的「软件工厂」，到底该怎么用、什么时候会翻车。Dex 最大的底气在于，他和团队真刀真枪做过最激进的实验，叫「关灯开发」——人不看代码，只看计划就放行。这个实验跑了几个月，最后的结果是把整个产品推倒重写。\n\n先交代下背景。实验开始于 Opus 4 和 Claude Agent SDK 发布的时候，那是你第一次能把 Claude 当成一个小型智能体循环，嵌进更大的软件里。当时实验室比所有人拥有多得多的 alpha，用原话说，如果实验室说这是你应该做的事，那你就应该去做。Dex 想活在未来，于是团队决定：代码合并请求照留，但规则改成「如果你读了计划，代码就没那么重要了」。\n\n问题马上就来了。第一，当时的计划里包含了所有将要写的代码，读一份计划几乎等于读一遍代码；而实现总会漂移，结果大团队等于把几乎相同形状的代码审了两遍，做了双倍的活。第二更要命，架构失控了。他们让模型自己决定系统架构，最后得到一个六层服务的怪物：桌面应用连着 Rust，后端是 Golang 守护进程，守护进程启动 Claude Code 会话，会话再启动别的服务处理审批，一条审批要在这个链条里绕一整圈。用他的话说，让模型自己决定架构，它就会变成这样一个极其复杂的系统。跑了四五个月，团队才意识到代码库已经没法用了，越来越慢，这边改一下那边出问题，只能从零重建。重建的头两个星期，联合创始人 Kyle 在 VS Code 里手动敲每一个字符，连 Cursor 都不用，先把数据架构铺好。有意思的是，这次重建选的路线反而很稳固，Dex 还顺带说了一句：今天构建的任何软件，都应该用实时同步数据库。\n\n那这个实验的教训是什么呢？不是「计划无用」，而是计划的价值要重新理解。Dex 把规划想成一道杠杆曲线。一头是两句提示词的 YOLO 式开发，大概一半概率要返工；另一头是全部手写代码，智能体出错概率为零；中间是花五小时手写规格说明，返工率降到一成左右。判断标准叫「预期痛苦」：按钮颜色不对？一条提示词就能修，从不为此争论。但数据库 schema 错了，很可能得扔掉重头再来——所以只在改起来最痛的地方提前对齐。\n\n主持人在节目里提出了一个很典型的反驳：如果意图表达清楚了、验证器也定义好了，还需要读代码吗？Dex 承认好规格加验证器威力巨大——给模型一个它能自己衡量的反馈回路，他管这叫「反压」，模型就会为你移山倒海，还能并行开工更多任务。他自己就跑着一个完全不读代码的实验，四十五个代码搜索评测，一行代码没看。但他的核心判断是：原型可以不读，产品不行。理由来自强化学习的逻辑：训练模型需要能快速判断对错的验证器，而可维护性没有快速的 Oracle——一个系统不可维护，要两个月后才知道。有个叫 slop code bench 的基准，让模型在不断继承的代码库上连续写新功能，最好的模型也只拿到百分之十几。他的原话很扎：模型在「能否长期维护一个代码库」这个维度上正在变好，但没有大家想的那么快。我们说过 GPT-7 会解决所有这些问题，现在是 GPT-6。\n\n那软件工厂到底还建不建？建，但要明白它跟传统工厂有个本质区别。传统工厂出一辆坏车，买家自己处理；而在你的软件工厂里交付了坏代码，它会降低未来每一件经过这个工厂的工作的质量，因为模型会看到更多坏模式。所以坏代码是复利式的污染，头号优先级是止血——先关上房子的窗户，再开空调。同时要做两件配套的事：一是每天晚上跑几个由提示词驱动的检测工作流，每天早上醒来就有几个让代码库好一点点的合并请求；二是把人在审查中的每一次纠偏虹吸出来，分析全团队的会话轨迹，找出人们在哪儿沮丧，回头改进工作流。用原话说，如果你没有变得更好，那你就在变得更糟。\n\n最后落到一个更根本的问题上：永远要审查点什么。旧金山一个晚宴上的数据很说明问题——AI 写百分之百代码的，全场举手；还在读代码的，仍有约一半。晚宴上一位老手创始人的话，Dex 现在几乎每天都在想：「审查某样东西大概永远都会有超额收益，我们不知道那是什么。」如果你什么都不审查，只是让 AI 去煮，你会得到和其他所有人一样的产品、一样的邮件、一样的公司——那种纯烧 token 的「token 农场」毫无差异化。所以今天值得审查的还是代码，未来可能是别的东西，但那个多出来的东西，就是你的差异化。"
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Oracle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,12 @@ unlisted: true
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(01:09起):本集说它是「最安全的数据库公司」， speaker 在此负责对外数据库产品管理团队；并强调「Oracle 不是你们以为的那个 Oracle」——可以原生在同一张表、同一分区里存 JSON、图、向量、空间数据
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(34:40起):本集说创建 oracle（判断「做出来的东西对不对」的标准）是人类工作大量所在之处；像实现 GZIP 可完全形式化，做客户 UI 就得用更开放式的评估。
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(04:50起):主讲人所在公司,本集推介其 Oracle DBFS(带 ACID 一致性的数据库文件系统)、Agent Memory Package(OAMP)、融合数据库,以及 OCI Generative AI Service(自称「企业版 Open Router」)。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai#^q5]]
 
 ## ② 出现在这些集
 
@@ -39,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Codex]] · [[Google]] · [[护栏]] · [[Microsoft]] · [[Alex]] · [[Claude]] · [[上下文窗口]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"智能体":287,"OpenAI":125,"Codex":53,"Google":47,"护栏":50,"Microsoft":25,"Alex":5,"Claude":60,"上下文窗口":7,"RAG":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"OpenAI":125,"Codex":53,"Google":47,"护栏":50,"Microsoft":25,"Alex":5,"Claude":61,"上下文窗口":7,"RAG":15}</script>
 
 <script>
 (function(){

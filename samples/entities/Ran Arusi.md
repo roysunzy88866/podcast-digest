@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":287,"可教授的知识与习得的知识":1,"工作流":8,"软件工厂":6,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":132}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":288,"可教授的知识与习得的知识":1,"工作流":8,"软件工厂":7,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":132}</script>
 
 <script>
 (function(){

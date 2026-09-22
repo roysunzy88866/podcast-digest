@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]]
+[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":14,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":4,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":15,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":4,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

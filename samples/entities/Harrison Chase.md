@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LangChain":7,"DeepAgents":1,"LangSmith Engine":1,"Harbor":1,"Claude Code":66,"Codex":53,"harness":40,"智能体":287,"上下文":18,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"LangChain":7,"DeepAgents":1,"LangSmith Engine":1,"Harbor":1,"Claude Code":66,"Codex":53,"harness":40,"智能体":288,"上下文":18,"评估":3}</script>
 
 <script>
 (function(){

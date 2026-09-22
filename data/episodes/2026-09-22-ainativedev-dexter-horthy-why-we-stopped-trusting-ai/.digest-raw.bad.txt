@@ -1,0 +1,128 @@
+===标题===
+软件工厂翻车实录:为什么 HumanLayer 的 CEO 改口说「必须读代码」
+===导语===
+HumanLayer 联合创始人兼 CEO Dex Horthy 复盘「关灯开发」实验的失败，聊聊软件工厂、品味编码化与审查的价值
+===正文===
+让 AI 全自动写代码、人类只看规格说明不看代码——这套「软件工厂」打法，HumanLayer 亲身跑了四五个月，最后发现代码库已经没法用了，只好从零重建整个产品。说这话的人是 Dex Horthy,HumanLayer 的 CEO 兼联合创始人，也是那套流传很广的「12 factor 智能体」原则的作者。这一集，他公开承认自己被现实从原先的立场上「撬了出来」。
+
+## 实验是怎么翻车的
+
+转折点始于 Opus 4 和 Claude Agent SDK 发布——那是你第一次能把 Claude 当作一个小型智能体循环，嵌进更大、更具确定性的软件里。当时整个圈子流行「规格说明是新的代码」的说法，实验室的人说这样做有效，Dex 的态度是：想活在未来，就得照实验室说的试。于是他们保留 pull request,但宣称「读了计划就不用读代码」。
+
+问题立刻暴露：**计划里包含了所有将要写出的代码**——那简直就是一份内联 diff,读计划和读代码工作量差不多。实现还会漂移，导致被推荐这么做的 50 人团队得把几乎同样形状的代码审查两遍，做了更多而非更少的工作。更糟的是放任模型自己定架构：最后长出一个约六个服务的系统——桌面应用经 Rust 连 socket,后端是 Golang 守护进程，再启动 Claude Code 会话，会话再启动 MCP 服务器处理审批，回调写 SQLite 再回到 UI,复杂到没人能维护。四五个月后他们承认：这个代码库不可用了，每处改动都在别处引发回归。重建的头两周，联合创始人 Kyle 在 VS Code 里连 Cursor 都不用，一个字符一个字符手敲新版本的数据架构。
+
+## 计划的本质是杠杆，不是仪式
+
+翻车不等于回到不计划，Dex 现在的框架是「预期痛苦」：你之后要改动某样东西的概率有多大、改起来多痛？按钮颜色不对，一个 prompt 就能修，不值得对齐；数据库 schema 错了，可能得整个扔掉重来，必须先对齐。从「两句 prompt YOLO 一把(约 50% 概率返工)」到「手写五小时详细规格(约 10%)」再到「全部手写(智能体原因返工为零)」，规划就是在为每个任务找这条曲线上的甜点位，每切掉约 50% 的潜在坏结果就是一个好阶段。做错了没关系，要多练。
+
+另一个核心概念是**反压(back pressure)**:给模型一个它能自己衡量的目标去爬山(定性或定量都行)，让它无需人类介入就能拿到关于自己做得多好的反馈——这是让模型长时间无人值守、并行多开的关键。而意图本身不必你干想六小时：最快的方式是打开语音模式随口絮叨 60 秒，让 AI 像面试官一样不知疲倦地追问你「你确定不想要这些备选方案吗？」——Matt Pocock 的 grill me 技能能登上 GitHub 星标前列，就是因为人们太不擅长说明自己的意图。
+
+## 「可维护性没有快速神谕」
+
+为什么不能全交给模型？Dex 给了一个很硬的解释：要在某件事上训练模型，需要 RL 环境(用强化学习让模型从反馈中改进的训练方式)，而 RL 环境需要一个 Oracle——一个能立刻判断结果好坏的验证器。可维护性恰恰没有快速 Oracle:一个东西不可维护，你要两个月后才知道。每个他认识的顶尖构建者都说，新模型在计算机使用、游戏、Blender 上进步飞快，但在写可维护代码上并没有快多少。
+
+有数据佐证：一个叫 slop code bench 的基准(威斯康星大学团队做的，Dex 只是帮忙跑测)让模型在同一个代码库上连续继承、连续加功能。GPT-5.5 在五月拿了 14.8%,Astra 首轮约 16.3%——方向在变好，但远没到大家以为的程度。他还点名了 Steve Yege:一边到处宣扬「还在读代码的人不会成功」，一边上周自己承认用 Fable 构建的系统复杂到 Fable 自己都调试不了。
+
+## 软件工厂和真工厂的根本区别
+
+主持人(Tesla 方，工程团队约 20 人)提出的替代路径是：把品味和策略固化成上下文/技能，跑维护智能体去审查实现智能体的产出，人只对系统做反馈。Dex 部分认同——HumanLayer 内部就有每晚跑在 crons 和 GitHub actions 上的五个工作流(同一个 harness 换不同提示词)，每天早上醒来收到五个让代码库在某个维度变好一点点的 PR。
+
+但他强调一个关键区别：传统工厂产出一辆坏车，损失的是那一辆；**软件工厂产出坏代码，会降低未来每一件经过工厂的工作的质量**——因为智能体会合理地模仿代码库里已有的模式。所以优先级是先「关上窗户再开空调」：不能让垃圾代码进门。而这件事的「废气」恰恰是工厂改进的养料——每当人类不得不在智能体 PR 上留言说「我们不这么做」，把它虹吸出来，分析团队所有人的会话轨迹，找出大家在哪儿沮丧、在哪儿纠正模型，反哺到技能和审查流程里。做好了这个复利，你就从关心位置转向关心速度：从造车转向造工厂。
+
+至于品味能不能交给系统，主持人有个锐利的观点：品味不过是「你懒得写下来的偏好」，让智能体足够频繁地看到它就能捕捉。Dex 也不觉得品味是难以捉摸的人机差异——真正的护城河是比任何人都更理解问题、更理解客户。有些品味确实极难固化，比如他第一份工作在 Sprout Social 学的「三份拷贝，用力按」(endpoint 顶部三行代码，别抽象成函数，就重复它——像修车店的三联单)，这种工程师二十年攒下的判断，还没人知道怎么放进模型。
+
+## 永远要有东西值得你审查
+
+旧金山一场晚宴上的举手调查：AI 写 100% 代码的，全员举手；还在读代码的，约一半。那么还要多久就不用审查任何东西了？在场一位老手的话 Dex 几乎每天都想：**审查某样东西，大概永远都有超额收益(alpha)**——虽然不知道是什么、两年内也会变。因为如果你什么都不审，只是让 AI 去煮，你就会得到和其他所有人一模一样的产品、邮件和公司，沦为没有差异化的「token 农场」。Claude 做的演示文稿就是现成例子：惊艳了半年，现在每份都长一个样。
+
+展望未来，两人押的方向出奇一致：软件开发将围绕技能(skills)展开，代码的角色会像今天的汇编或垃圾回收一样被下沉——主持人提到的 shadow spec(对 LLM 决策的捕捉)和代码的界限，就只是自由度的差异。Dex 补充了一个基础设施判断：软件工厂技术栈会像当年的 Kubernetes 一样分解成开放接口和开放组件，围墙花园(全栈锁在单一厂商上)很诱人，但 DevTools 的历史是越来越开放，「开放的阵营正在以比任何人准备注意到的更快的速度追赶」。
+
+## 本集带走
+
+- **别赌「不读代码」**:HumanLayer 跑了四五个月「只审计划」就废掉了代码库；可维护性没有快速反馈信号，模型在这个维度上的进步远慢于宣传。
+- **计划按「预期痛苦」分配**:按钮颜色不值得对齐，数据库 schema 必须先对齐;每个规划阶段的价值就是切掉约 50% 的坏结果，甜点位要多练才有直觉。
+- **给模型装「反压」**:让模型能自己衡量做得好不好(测试、验证器)，它才能长时间无人值守、并行多开。
+- **坏代码是会传染的**:软件工厂和真工厂不同，一次放行的坏模式会被后续所有智能体模仿;先堵住质量入口，再谈工厂改进。
+- **把每次人工纠错虹吸出来**:人类在智能体 PR 上的每条「我们不这么做」、每个会话轨迹里的沮丧点，都是喂给工厂的复利养料。
+- **永远审点什么**:审查的对象会变(现在还是代码，将来可能是别的)，但放弃一切审查，你就只能得到和所有人一样的产出。
+===金句===
+09:22 Dex Horthy
+You never know when the singularity is, and the only way to like stay ahead is like try to live in the future.
+ZH | 你永远不知道奇点什么时候来，而保持领先的唯一方法就是试着活在未来。
+
+11:08 Dex Horthy
+We ran this for like four or five months before we realized like, oh, this is this code base is actually unusable now.
+ZH | 我们这么跑了大概四五个月才意识到，哦，这个代码库现在实际上已经没法用了。
+
+12:03 Dex Horthy
+It was just like this incredibly complex system that the models developed uh if you if you let them decide how it should be architected.
+ZH | 如果你让模型自己决定架构，它就会变成这样一个极其复杂的系统。
+
+13:11 Dex Horthy
+If you're starting a new project, the decisions you make early on just constantly cascade into the future.
+ZH | 如果你正在启动一个新项目，你早期做的决定会不断地级联影响未来。
+
+14:12 Dex Horthy
+In order to debug code, you need to be like much smarter than you were when you wrote it.
+ZH | 要调试代码，你得比你写它的时候聪明得多。
+
+18:04 Dex Horthy
+No, you don't have too many PRs, you have too many bad PRs because you're letting people turn off their brains uh when they're coding.
+ZH | 不，不是你的 PR 太多，是你的坏 PR 太多，因为你让人们在写代码的时候把脑子关掉了。
+
+19:31 Dex Horthy
+I never argue with a model about like how what color a button is gonna be... But if like the database schema is wrong, then we're probably gonna have to throw it out and restart over.
+ZH | 我从来不跟模型争论按钮该是什么颜色……但如果数据库 schema 错了，那我们很可能得把它扔掉重头再来。
+
+19:52 Dex Horthy
+Planning is all about leverage. How do you find the sweet spot for the task?
+ZH | 规划全都是关于杠杆的。你怎么为这个任务找到甜点位？
+
+22:10 Dex Horthy
+People are bad at specifying their intent.
+ZH | 人们很不擅长说明自己的意图。
+
+25:11 Dex Horthy
+If you give the model a good way to get feedback on what it's doing, and to like a hail climb against some objective that it itself can measure, it will move mountains for you.
+ZH | 如果你给模型一个好的方式来获得对它所做之事的反馈，并让它针对一个它能自己衡量的目标去爬山，它会为你移山倒海。
+
+28:40 Dex Horthy
+To have a good an RL environment, you need a Oracle... And maintainability, you don't find out something is unmaintainable until two months later.
+ZH | 要有一个好的 RL 环境，你需要一个 Oracle。而可维护性，你要到两个月后才会发现某个东西是不可维护的。
+
+30:00 Dex Horthy
+The models are getting better in this dimension of like, can they maintain a code base over time? But not as fast as everyone thinks.
+ZH | 在「模型能否长期维护一个代码库」这个维度上，模型确实在变好，但没有大家想的那么快。
+
+38:30 Dex Horthy
+If you ship bad code in your software factory, it degrades every future piece of work that goes through that factory because there's more bad patterns for the model to see.
+ZH | 如果你在软件工厂里交付了坏代码，它会降低未来每一件经过那个工厂的工作的质量，因为模型会看到更多坏模式。
+
+40:23 Dex Horthy
+You're basically shifting from like caring about your position to caring about your velocity.
+ZH | 你基本上是在从关心你的位置转向关心你的速度。
+
+33:21 Dex Horthy
+This taste that engineers have over five, ten, twenty years... We haven't figured out how to put that in a model yet.
+ZH | 这是工程师在五年、十年、二十年里积累的品味……我们还没有弄清楚如何把那种东西放进模型里。
+
+43:32 Dex Horthy
+There will probably always be alpha in reviewing something... But if you don't review anything, then you're just letting the AI cook and then you're gonna get the Same product, the same email, the same company that everybody else gets.
+ZH | 审查某样东西大概永远都会有超额收益……但如果你什么都不审查，那你就只是让 AI 去煮，然后你会得到和其他所有人一样的产品、一样的邮件、一样的公司。
+
+46:26 SPEAKER_03
+Part of me feels that taste is just a preference that you haven't bothered writing down.
+ZH | 我有一部分觉得，品味只不过是你懒得写下来的偏好。
+
+48:05 SPEAKER_03
+Software engineering is a creative profession... the fact that it has engineering in the name is a mistake of history.
+ZH | 软件工程是一个创造性的职业……它名字里带「工程」这件事是历史的错误。
+
+53:39 Dex Horthy
+I think DevTools and DevTools stacks are probably gonna stay or become even more open, open source, open protocols, whatever it is.
+ZH | 我认为 DevTools 和 DevTools 技术栈可能会保持甚至变得更加开放——开源、开放协议，诸如此类。
+
+55:10 Dex Horthy
+Open is catching up faster than anyone is ready to notice yet.
+ZH | 开放的阵营正在以比任何人目前准备注意到的更快的速度追赶上来。
+===END===

@@ -1,0 +1,709 @@
+{
+  "episode_id": "2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce",
+  "podcast": "Sourcery",
+  "date": "2026-07-29",
+  "tags": [
+    "光通信",
+    "数据中心",
+    "AI 基础设施",
+    "光纤",
+    "半导体制造"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "michael",
+      "type": "person",
+      "role": "host",
+      "name": "Michael",
+      "file": "Michael",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            58.624,
+            60.165
+          ],
+          "quote": "Michael, welcome to Sorcery.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1361.113,
+            1362.494
+          ],
+          "quote": "Well, Michael, thank you so much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1387.659,
+            1404.072
+          ],
+          "quote": "If you enjoyed this conversation, you're going to love the rest of the RAISE series with Tony Kim from BlackRock, Scott Wu from Cognition, Andrew Feldman from Cerebrus, Rodrigo Liang from Salmonova, Michael Hurlston from Lumentum, CJ Desai from MongoDB, and many, many more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "molly",
+      "type": "person",
+      "role": "cohost",
+      "name": "Molly",
+      "file": "Molly",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            60.825,
+            61.825
+          ],
+          "quote": "Molly, thanks for having me on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            83.129,
+            84.89
+          ],
+          "quote": "I'm like, a lot of fun talking to Molly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            718.139,
+            721.321
+          ],
+          "quote": "Actually, what we've tried to do, Molly, is simplify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1349.334,
+            1351.234
+          ],
+          "quote": "So I can't compete with that, Molly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lumentum",
+      "type": "company",
+      "role": "company",
+      "name": "Lumentum",
+      "file": "Lumentum",
+      "primary": true,
+      "how_described": "本集主角公司:光通信公司,嘉宾任 CEO 后五个季度营收翻三倍;自运营晶圆厂,自称是「光学行业里的 TSMC」,并聚焦数据中心转型为纯数据中心公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            7.055
+          ],
+          "quote": "I joined Lumentum at a time where board of directors showed me a forecast and they said, hey, here's what we think the company is going to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            37.277,
+            42.499
+          ],
+          "quote": "Not just for Lumentum, every single optical company now is dealing with different scales than we ever had before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            104.658,
+            113.443
+          ],
+          "quote": "What Lumentum's role is in all of that, which is we're in the middle of a pretty exciting time right now as the data center uses more and more optical connectivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            327.225,
+            337.594
+          ],
+          "quote": "So it's really changed the dynamic in our industry, not just for Lumentum, but I think every single optical company now is dealing with different scales than we ever had before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            670.586,
+            673.568
+          ],
+          "quote": "And then I joined Lumentum, as you're pointing out, at a time where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1387.659,
+            1404.072
+          ],
+          "quote": "If you enjoyed this conversation, you're going to love the rest of the RAISE series with Tony Kim from BlackRock, Scott Wu from Cognition, Andrew Feldman from Cerebrus, Rodrigo Liang from Salmonova, Michael Hurlston from Lumentum, CJ Desai from MongoDB, and many, many more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fiber-optics",
+      "type": "concept",
+      "role": "concept",
+      "name": "光纤 (fiber optics)",
+      "file": "光纤",
+      "primary": true,
+      "how_described": "本集说光纤本质是玻璃,靠高速开关调制光来传输数据,比铜线更快、传得更远、发热和功耗更少,是互联网多年来的骨干,正大规模进入数据中心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            141.355,
+            155.764
+          ],
+          "quote": "And so what you get with fiber optics is the ability to move data faster over longer distances with less heat and less power than you get with electricity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            232.925,
+            241.654
+          ],
+          "quote": "Yeah, look, I mean, you know, fiber optics has been the backbone of the internet for years, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            406.295,
+            411.097
+          ],
+          "quote": "But lasers and fiber optics are built on a different material called indium phosphide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            449.379,
+            460.528
+          ],
+          "quote": "And as these fiber optics becomes more and more prevalent in data center, it's creating an ever tighter noose around the industry because there's only so much we can do so quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            696.498,
+            711.48
+          ],
+          "quote": "Team, before I got there, the previous CEO set it up well, right products, right roadmap, and we have all of the goods that people are looking for now as they convert their data centers to more and more of the fiber optics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1108.879,
+            1112.802
+          ],
+          "quote": "And so we already have a lot of fiber optics in the data center.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集围绕 AI 数据中心从铜线向光学迁移展开:10 万亿美元建设规模、存量设施内部电转光的替换、以及机架内连接即将转向光学",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            104.658,
+            113.443
+          ],
+          "quote": "What Lumentum's role is in all of that, which is we're in the middle of a pretty exciting time right now as the data center uses more and more optical connectivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            181.652,
+            192.459
+          ],
+          "quote": "And so now inside the data center, you have speeds are increasing, bandwidths are increasing, and copper can no longer carry these signals the distances they need to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            192.86,
+            196.062
+          ],
+          "quote": "And so you have more and more optics now coming into the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            211.174,
+            227.244
+          ],
+          "quote": "I think it was Tony, we were on a call before our interview and he was pointing out the great irony of spending $10 trillion over the next couple of years on data center build out to move data from meters down to centimeters and millimeters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            449.379,
+            460.528
+          ],
+          "quote": "And as these fiber optics becomes more and more prevalent in data center, it's creating an ever tighter noose around the industry because there's only so much we can do so quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            548.32,
+            561.351
+          ],
+          "quote": "And what's interesting about the optical industry is if there are no more data center build outs, if you don't see this crazy rate of construction that we've seen over the past three or four years,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            747.143,
+            752.429
+          ],
+          "quote": "And what I've done is said, okay, look, let's focus our efforts on the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            752.449,
+            764.281
+          ],
+          "quote": "There's enough here going on that we really want to simplify our business as much as we possibly can, focus on where we think the biggest opportunities are, and that's the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            764.301,
+            767.404
+          ],
+          "quote": "So we've almost become a pure play data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            768.585,
+            774.669
+          ],
+          "quote": "If the data center ends up rolling over and that market hiccups a bit, we'll be caught.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            777.13,
+            790.219
+          ],
+          "quote": "And even if, as I said a minute ago, you start seeing a slowdown in data center builds, we're in really, really good shape because you still see a conversion inside the data center from electrical to optical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1108.879,
+            1112.802
+          ],
+          "quote": "And so we already have a lot of fiber optics in the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1117.586,
+            1121.128
+          ],
+          "quote": "We have a lot of connections inside the data center that go out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scale-up",
+      "type": "concept",
+      "role": "concept",
+      "name": "纵向扩展 (scale up)",
+      "file": "纵向扩展",
+      "primary": true,
+      "how_described": "本集定义为机架内部的连接(区别于数据中心之间的 scale out),目前是成英里的以太网铜线,未来 12 个月一部分将迁到光学,带来行业前所未有的产量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            94.434,
+            99.396
+          ],
+          "quote": "We have all these funny terms, scale across, scale out, scale up, scale in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1014.842,
+            1024.327
+          ],
+          "quote": "Look, one of the things that we will see within the next 12 months is this idea of what we call optical scale up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1024.467,
+            1026.448
+          ],
+          "quote": "And so what is optical scale up?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1035.333,
+            1049.181
+          ],
+          "quote": "Optical scale-up, if you look at a rack, you look at one of these servers that gets deployed by a hyperscaler and you go creep around the backside, there are a ton of Ethernet cables.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1121.369,
+            1124.931
+          ],
+          "quote": "We call scale out, but we don't yet see scale up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "indium-phosphide",
+      "type": "concept",
+      "role": "concept",
+      "name": "磷化铟 (indium phosphide)",
+      "file": "磷化铟",
+      "primary": true,
+      "how_described": "本集说激光器和光纤不是用 CMOS,而是建立在磷化铟这种非常冷门小众的材料上,必须自己制造,前置时间长,是行业产能瓶颈的根源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            406.295,
+            411.097
+          ],
+          "quote": "But lasers and fiber optics are built on a different material called indium phosphide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            411.397,
+            415.039
+          ],
+          "quote": "Kind of a mouthful, but it's this indium phosphide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            419.42,
+            423.642
+          ],
+          "quote": "And so we actually have to make our own indium phosphide products.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "laser",
+      "type": "concept",
+      "role": "concept",
+      "name": "激光 (laser)",
+      "file": "激光",
+      "primary": true,
+      "how_described": "本集说激光的关键全在功率:击落导弹的铁穹、互联网骨干、iPhone Face ID 都是激光;激光器放进太空可做太空互联网,功率温和不会烧鸟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            801.602,
+            813.626
+          ],
+          "quote": "If you can put a laser in the ocean and transmit across the Pacific, you can certainly put lasers in space and create this reality of an internet in space, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            872.118,
+            877.862
+          ],
+          "quote": "The iPhone with the Face ID, that's a laser product that beams lasers onto your face.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hyperscaler",
+      "type": "concept",
+      "role": "concept",
+      "name": "超大规模云厂商 (hyperscaler)",
+      "file": "超大规模云厂商",
+      "primary": true,
+      "how_described": "本集说运营巨型数据中心的云巨头如今要求光学行业以数百万、数千万件量级部署,彻底改变了行业格局;业务实力高度集中在美国",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1035.333,
+            1049.181
+          ],
+          "quote": "Optical scale-up, if you look at a rack, you look at one of these servers that gets deployed by a hyperscaler and you go creep around the backside, there are a ton of Ethernet cables.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": true,
+      "how_described": "本集说 NVIDIA、Broadcom 把大部分产品放在 TSMC 制造、等于外包了制造问题,而光学行业没有这个奢侈条件,Lumentum 自嘲是光学行业里的 TSMC",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            355.861,
+            363.511
+          ],
+          "quote": "I mean, you talk to companies like NVIDIA, Broadcom, they manufacture most of their products at TSMC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            381.429,
+            386.715
+          ],
+          "quote": "So in some respect, we're like the TSMC of the optical industry.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集顺带提到 NVIDIA 产品大多在 TSMC 制造、GPU 建立在 CMOS 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            355.861,
+            363.511
+          ],
+          "quote": "I mean, you talk to companies like NVIDIA, Broadcom, they manufacture most of their products at TSMC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            402.891,
+            405.294
+          ],
+          "quote": "The NVIDIA GPU is built on CMOS.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "type": "company",
+      "role": "company",
+      "name": "Broadcom",
+      "file": "Broadcom",
+      "primary": false,
+      "how_described": "本集顺带提到 Broadcom 产品大多在 TSMC 制造;嘉宾还曾在 Broadcom 工作多年并受 Bob Rango 影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            355.861,
+            363.511
+          ],
+          "quote": "I mean, you talk to companies like NVIDIA, Broadcom, they manufacture most of their products at TSMC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1290.261,
+            1296.983
+          ],
+          "quote": "And then as I got in my career, I spent a lot of years at a company called Broadcom, which I know you covered pretty extensively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1298.204,
+            1300.985
+          ],
+          "quote": "Broadcom was a very interesting company in that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1301.605,
+            1309.207
+          ],
+          "quote": "It was bought by Avago and then the name stayed, the Broadcom name was the surviving name.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1309.227,
+            1314.388
+          ],
+          "quote": "But there was a gentleman at Broadcom, a guy called Bob Rango that I worked for for years and years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "finisar",
+      "type": "company",
+      "role": "company",
+      "name": "Finisar",
+      "file": "Finisar",
+      "primary": false,
+      "how_described": "本集提到嘉宾担任 CEO 的第一家上市公司,做光学,后来把引擎卖给了 Coherent",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            644.369,
+            649.191
+          ],
+          "quote": "The first public company I was a CEO of is a company called Finisar that was optical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            656.176,
+            662.24
+          ],
+          "quote": "Coherent's built around the engine that was Finisar that we ended up selling to them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coherent",
+      "type": "company",
+      "role": "company",
+      "name": "Coherent",
+      "file": "Coherent",
+      "primary": false,
+      "how_described": "本集提到它是 Lumentum 最大竞争对手之一也是最大合作伙伴之一,围绕从 Finisar 买来的引擎建立",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            649.831,
+            656.035
+          ],
+          "quote": "That's now the heartbeat of one of our biggest competitors, but also one of our biggest partners in Coherent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            656.176,
+            662.24
+          ],
+          "quote": "Coherent's built around the engine that was Finisar that we ended up selling to them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "synaptics",
+      "type": "company",
+      "role": "company",
+      "name": "Synaptics",
+      "file": "Synaptics",
+      "primary": false,
+      "how_described": "本集提到嘉宾曾在 Synaptics 这家半导体公司做了五六年 CEO",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            664.902,
+            670.145
+          ],
+          "quote": "I'm mostly a semiconductor guy, and I was CEO of a company called Synaptics for five or six years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

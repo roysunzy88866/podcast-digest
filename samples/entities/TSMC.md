@@ -7,22 +7,30 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TSMC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TSMC">TS</div><div class="pi"><h1 class="pt">TSMC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TSMC">TS</div><div class="pi"><h1 class="pt">TSMC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(32:35起):本集用 TSMC 做价值链类比:它垄断半导体尖端制程、净利润是苹果的一半、是非常好的生意,但'你不会为 TSMC 写应用'——没有一个拥有整条栈的玩家。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(32:26起):本集提到它的先进芯片产能短缺,是当前限制 AI 基础设施物理扩张速度的瓶颈之一。
+- **[[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]]**(05:55起):本集说 NVIDIA、Broadcom 把大部分产品放在 TSMC 制造、等于外包了制造问题,而光学行业没有这个奢侈条件,Lumentum 自嘲是光学行业里的 TSMC
 - **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(25:15起):被列为 AI 芯片供应链的几大瓶颈之一（晶圆产能）；本集还讨论其收紧工艺角的努力，以及嘉宾『失去台积电不会那么糟』的反主流观点。
 - **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(01:50起):本集提到 Arm 客户把芯片设计交给 TSMC 流片,Arm 自研芯片后也要与台积电谈产能。
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(16:33起):本集说台积电是供应链的真瓶颈：真正建造晶圆厂的技能只有台积电有，「连他们也没法同时建 12 座」，同样的光刻机只有他们能做出别人做不到的东西。
 
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce#^q2]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司(提及)
+- [[2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce|《光进铜退:Lumentum CEO 讲数据中心的光学革命》]] — 作为被讨论公司
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为被讨论公司
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为被讨论公司(提及)
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司
@@ -31,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[数据中心]] · [[推理]] · [[智能体]] · [[AMD]] · [[供应链]] · [[Cerebrus]] · [[Jacob Efron]]
+[[NVIDIA]] · [[OpenAI]] · [[数据中心]] · [[Anthropic]] · [[推理]] · [[智能体]] · [[AMD]] · [[供应链]] · [[Cerebrus]] · [[Jacob Efron]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":125,"NVIDIA":41,"Anthropic":132,"数据中心":14,"推理":52,"智能体":287,"AMD":4,"供应链":4,"Cerebrus":2,"Jacob Efron":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":42,"OpenAI":125,"数据中心":15,"Anthropic":132,"推理":52,"智能体":288,"AMD":4,"供应链":4,"Cerebrus":2,"Jacob Efron":1}</script>
 
 <script>
 (function(){

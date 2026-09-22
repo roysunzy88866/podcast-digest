@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*22 条*
+*31 条*
 
 ![[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a#^q1]]
 
@@ -57,22 +57,41 @@ unlisted: true
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q10]]
 
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q1]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q2]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q4]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q5]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q6]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q9]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q10]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q11]]
+
+![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q12]]
+
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]] — 作为主持
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]] — 作为联合主持
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为联合主持
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为联合主持
+- [[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th|《Ben Horowitz 创办 AI 时代新学院：18 岁可能是历史上最好的年纪》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[a16z]] · [[OpenAI]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]] · [[Google]] · [[Uber]] · [[Sofia Puccini]] · [[Stripe]]
+[[a16z]] · [[OpenAI]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]] · [[Gagan Biani]] · [[Google]] · [[Uber]] · [[Sofia Puccini]]
 
-<script type="application/json" class="pd-epn">{"a16z":14,"OpenAI":125,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Greg Brockman":1,"Google":47,"Uber":10,"Sofia Puccini":4,"Stripe":33}</script>
+<script type="application/json" class="pd-epn">{"a16z":15,"OpenAI":125,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Greg Brockman":1,"Gagan Biani":1,"Google":47,"Uber":10,"Sofia Puccini":4}</script>
 
 <script>
 (function(){

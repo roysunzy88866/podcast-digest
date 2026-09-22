@@ -156,7 +156,7 @@ Ben 点破了这件事的本质：一大堆人都曾有同样的点子（网上�
 
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|Travis Kalanick：为什么把下一家公司赌在工业AI]]<span class="pd-rz">同公司:Atoms、Pronto · 同概念:工业 AI (industrial AI)、自动驾驶 (autonomy)</span>
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|Uber COO 谈会员制反转、自动驾驶终局与AI预算失控]]<span class="pd-rz">同公司:Uber · 同概念:自动驾驶 (autonomy)</span>
-- [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|Ben Horowitz：别追随激情，追随贡献]]<span class="pd-rz">同嘉宾:Ben Horowitz · 同公司:A16Z</span>
+- [[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th|Ben Horowitz 创办 AI 时代新学院：18 岁可能是历史上最好的年纪]]<span class="pd-rz">同嘉宾:Ben Horowitz · 同公司:A16Z</span>
 
 </div>
 <div class="pd-ex">

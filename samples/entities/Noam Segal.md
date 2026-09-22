@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Marc Andreessen]]
+[[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]]
 
 </div>
 

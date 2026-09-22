@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":287,"沙箱":53,"基准测试":12,"上下文":18,"开放权重模型":1,"Slack":27,"Claude Code":66,"Codex":53,"Cursor":64}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":288,"沙箱":53,"基准测试":12,"上下文":18,"开放权重模型":1,"Slack":27,"Claude Code":66,"Codex":53,"Cursor":64}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[浏览器使用]] · [[Codex]] · [[OpenClaw]] · [[计算机使用]] · [[SOC 2]] · [[ChatGPT]] · [[MCP]] · [[Slack]] · [[QA]]
 
-<script type="application/json" class="pd-epn">{"智能体":287,"浏览器使用":7,"Codex":53,"OpenClaw":18,"计算机使用":13,"SOC 2":3,"ChatGPT":74,"MCP":49,"Slack":27,"QA":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":288,"浏览器使用":7,"Codex":53,"OpenClaw":18,"计算机使用":13,"SOC 2":3,"ChatGPT":74,"MCP":49,"Slack":27,"QA":2}</script>
 
 <script>
 (function(){

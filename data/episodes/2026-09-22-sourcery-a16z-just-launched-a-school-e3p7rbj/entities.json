@@ -1,0 +1,671 @@
+{
+  "episode_id": "2026-09-22-sourcery-a16z-just-launched-a-school-e3p7rbj",
+  "podcast": "Sourcery",
+  "date": "2026-09-22",
+  "tags": [
+    "教育创新",
+    "创业与年轻人",
+    "AI 与就业",
+    "硅谷文化",
+    "失败与心态"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "goggin",
+      "type": "person",
+      "role": "host",
+      "name": "Goggin",
+      "file": "Goggin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            60.787,
+            63.329
+          ],
+          "quote": "Goggin, Biani, welcome to Sorcery.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1041.915,
+            1044.856
+          ],
+          "quote": "There's a reason this is not Goggin University.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4695.024,
+            4696.665
+          ],
+          "quote": "Well, Goggin, thank you so much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "molly",
+      "type": "person",
+      "role": "cohost",
+      "name": "Molly",
+      "file": "Molly",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.969,
+            64.91
+          ],
+          "quote": "Thanks for having me, Molly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 899,
+          "t": [
+            4589.49,
+            4591.631
+          ],
+          "quote": "We fixed the ozone layer, Molly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4704.968,
+            4705.548
+          ],
+          "quote": "Thank you, Molly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4705.915,
+            4706.855
+          ],
+          "quote": "Hey, it's Molly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "horowitz-andreessen-academy",
+      "type": "company",
+      "role": "company",
+      "name": "Horowitz Andreessen Academy",
+      "file": "Horowitz Andreessen Academy",
+      "primary": true,
+      "how_described": "本集主线：a16z 官宣的旧金山住宿制高中后项目，不认证学分、75-80% 时间做项目，招 50 人创始班，融了 4000 万美元，立志做『硅谷的学校』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            78.283,
+            82.966
+          ],
+          "quote": "Well, today we are announcing the launch of Horowitz Andreessen Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            276.811,
+            284.013
+          ],
+          "quote": "And this is the type of experience that we want to create for the student who comes to Horowitz Andreessen Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            415.787,
+            425.73
+          ],
+          "quote": "And so when I was first approached about Horowitz Andreessen Academy, I immediately, like within seconds,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            634.095,
+            643.218
+          ],
+          "quote": "And so one of the main things Horowitz Andreessen Academy is going to try and do is open the doors to ensure that you can get the money you need to, you know, do a science or research project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1045.257,
+            1047.298
+          ],
+          "quote": "It's Horowitz Andreessen Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1080.871,
+            1084.392
+          ],
+          "quote": "And so our goal with the Horowitz Andreessen Academy is to create our own network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1737.547,
+            1739.868
+          ],
+          "quote": "Those people are not going to be at the Horowitz Andreessen Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4472.3,
+            4477.864
+          ],
+          "quote": "I want to provide that version for people who instead of college go to the Horowitz Andreessen Academy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集反复强调的核心素质：不等人安排、自己推动事情（『高主观能动性』），是学院要教的三大承诺之一，也是招生看重的品质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.618,
+            29.222
+          ],
+          "quote": "And the promise that I think we can make is that you will learn how to be an AI native builder with super high agency, with the people skills to understand the culture of Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            901.458,
+            915.366
+          ],
+          "quote": "Deeply immersed in Silicon Valley, immersed in the principles of Silicon Valley, the builder-first mentality, high agency, and interpersonal skills that we feel like are critical to being successful in the Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1122.449,
+            1133.336
+          ],
+          "quote": "And the promise that I think we can make is that you will learn how to be an AI native builder with super high agency, with the people skills to understand the culture of Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2286.668,
+            2290.434
+          ],
+          "quote": "If I had no offense, if I had no agency, I would totally go here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2754.8,
+            2758.381
+          ],
+          "quote": "And by the end of this, there's no creativity and there's no building, there's no agency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2758.961,
+            2765.203
+          ],
+          "quote": "So one of the most important things we need to do is design a school that creates and encourages high agency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2765.983,
+            2770.639
+          ],
+          "quote": "To create high agency, you have to let students make their own decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2966.796,
+            2973.361
+          ],
+          "quote": "Because I agree, I think it's going to be very difficult to go from an environment where you had high agency, where you were building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3079.923,
+            3100.495
+          ],
+          "quote": "And so I agree, these alpha students, they're gonna come out of high school having this level of agency, having this understanding of self-directed learning, knowing that they can learn things way faster than the average, you know, and save time and create, you know, spend two or three hours a day if you're in honors track, and then spend the rest of your time building things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3221.715,
+            3230.14
+          ],
+          "quote": "And so I'm curious for like super high agency autodidact such as yourself, how should people know they should apply?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3416.303,
+            3423.608
+          ],
+          "quote": "The only thing is like high agency, ambition, like perseverance, relentless curiosity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3505.043,
+            3517.61
+          ],
+          "quote": "Because these high agency individuals, and we're surrounded by them in our social circles, these high agency individuals do not rely on a track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3528.974,
+            3536.688
+          ],
+          "quote": "And so learning the skills of high agency, actually, and learning the skills of being an AI native builder actually make you kind of bulletproof.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3598.129,
+            3602.391
+          ],
+          "quote": "But if you have high agency and you can build, you're essentially bulletproof.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生建造者 (AI native builder)",
+      "file": "AI 原生建造者",
+      "primary": true,
+      "how_described": "本集说学院承诺培养的正是这种人：在 AI 时代动手构建、拥抱 AI 乐观未来的年轻建造者，『学会做 AI 原生建造者让你近乎刀枪不入』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.618,
+            29.222
+          ],
+          "quote": "And the promise that I think we can make is that you will learn how to be an AI native builder with super high agency, with the people skills to understand the culture of Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1122.449,
+            1133.336
+          ],
+          "quote": "And the promise that I think we can make is that you will learn how to be an AI native builder with super high agency, with the people skills to understand the culture of Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3528.974,
+            3536.688
+          ],
+          "quote": "And so learning the skills of high agency, actually, and learning the skills of being an AI native builder actually make you kind of bulletproof.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proof-of-work",
+      "type": "concept",
+      "role": "concept",
+      "name": "证明过的工作 (proof of work)",
+      "file": "证明过的工作",
+      "primary": true,
+      "how_described": "本集招生的核心标准：不 prioritizing 成绩，而是看『每一个出现的人都做出过什么东西』——看斜率不看履历。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            932.715,
+            934.457
+          ],
+          "quote": "We're going to prioritize proof of work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "super-ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级 IC (super IC)",
+      "file": "超级 IC",
+      "primary": true,
+      "how_described": "本集说中层管理在贬值、超级 IC 在崛起：一个人同时协调 30-50 个智能体甚至协调智能体的智能体，Maven 的全部业务就是教人完成这个转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            2054.466,
+            2057.607
+          ],
+          "quote": "And now we have the rise of the super IC, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "maven",
+      "type": "company",
+      "role": "company",
+      "name": "Maven",
+      "file": "Maven",
+      "primary": false,
+      "how_described": "Goggin 现在经营的课程平台，本集说是成功的公司，全部业务是教中层管理者成为超级 IC。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            2057.647,
+            2061.328
+          ],
+          "quote": "You know, my company Maven is entirely built on this, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2061.388,
+            2067.15
+          ],
+          "quote": "Well, all we do at Maven is teach people how to become super ICs because they're middle managers right now and they need to shift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3931.673,
+            3938.677
+          ],
+          "quote": "And now Maven, which is obviously a success and we're now promoting my VP of product to be CEO of that company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            4002.207,
+            4003.847
+          ],
+          "quote": "They're still investing in Maven.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "udemy",
+      "type": "company",
+      "role": "company",
+      "name": "Udemy",
+      "file": "Udemy",
+      "primary": false,
+      "how_described": "本集作为 Goggin 的创业史被提到：他联合创办的在线课程平台，后与联合创始人闹翻离场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1670.658,
+            1674.999
+          ],
+          "quote": "I'm pretty sure I took Udemy courses when I was in college because I was like maxing out my credits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2550.954,
+            2560.577
+          ],
+          "quote": "One of them is Shopify and obviously Toby and my friend Archie who I worked with at Udemy and is now at Shopify are both investors in the academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3911.681,
+            3915.103
+          ],
+          "quote": "At Udemy, my co-founder and I had a falling out, so I left the company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sprig",
+      "type": "company",
+      "role": "company",
+      "name": "Sprig",
+      "file": "Sprig",
+      "primary": false,
+      "how_described": "本集作为失败案例被提到：Goggin 创办、融了很多钱但没做成的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 744,
+          "t": [
+            3928.331,
+            3931.392
+          ],
+          "quote": "And then I started Sprig, which raised a ton of money and didn't work out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3999.586,
+            4001.847
+          ],
+          "quote": "They've lost money on Sprig.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集作为对比对象：要求你创办公司的项目，与学院保留探索性的定位不同，但其模式是灵感来源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1358.092,
+            1372.362
+          ],
+          "quote": "I kind of want to discount the four-year path for a little bit because I think this is just fits much squarely closer to A16Z Speedrun or a Teal Fellowship or YC or even the Palantir Fellowship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1393.958,
+            1408.723
+          ],
+          "quote": "And that's also true for A6&Z Speedrun, for example, which of course is going to be a partner of ours and we will help students get into that when they're ready or YCs, you know, the sort of normal YC program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2903.208,
+            2907.711
+          ],
+          "quote": "And of course, YC and Speedrun and these other programs have similar modalities.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "teal-fellowship",
+      "type": "concept",
+      "role": "concept",
+      "name": "Teal Fellowship",
+      "file": "Teal Fellowship",
+      "primary": false,
+      "how_described": "本集对比的『要求创办公司』的项目之一（原稿写作 Teal Fellowship），绝大多数获得者最终都去创业了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1358.092,
+            1372.362
+          ],
+          "quote": "I kind of want to discount the four-year path for a little bit because I think this is just fits much squarely closer to A16Z Speedrun or a Teal Fellowship or YC or even the Palantir Fellowship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1390.997,
+            1392.758
+          ],
+          "quote": "That's why they're getting the Teal Fellowship.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alpha-school",
+      "type": "company",
+      "role": "company",
+      "name": "Alpha School",
+      "file": "Alpha School",
+      "primary": false,
+      "how_described": "本集称它可能是全国最好的高中之一，是学院课程模式的灵感来源，且有学生深度参与其建设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            992.524,
+            1014.709
+          ],
+          "quote": "Elle built a massive TikTok following as a teenager, has also been super involved in building Alpha School and helping Alpha School turn into what today is a huge, extremely valuable school for young builders, kind of a similar vibe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2910.514,
+            2916.058
+          ],
+          "quote": "We're taking inspiration from Alpha School, which is probably one of the best high schools in the country.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2930.704,
+            2938.567
+          ],
+          "quote": "Before we were talking, Chris and Katie and I, we were discussing Alpha School and we're like, well, where did those kids go after they graduate high school?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3140.531,
+            3142.693
+          ],
+          "quote": "But I also think that it's not just alpha school kids.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-doomerism",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 末日论 (AI Doomerism)",
+      "file": "AI 末日论",
+      "primary": false,
+      "how_described": "本集正面回应的叙事：大学生对 AI 发嘘声、相信 AI 带来灾难；Goggin 自称反末日论者，说『就算末日论是对的，更有理由来学院』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            2098.925,
+            2102.487
+          ],
+          "quote": "The other parts of AI doomerism, some of it's real, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 870,
+          "t": [
+            4487.837,
+            4494.241
+          ],
+          "quote": "You know, talking about AI Doomerism, I've been an anti-Doomer from day one, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

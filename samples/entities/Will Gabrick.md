@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":33,"Stripe Minions":1,"智能体":287,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":19}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":33,"Stripe Minions":1,"智能体":288,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":20}</script>
 
 <script>
 (function(){

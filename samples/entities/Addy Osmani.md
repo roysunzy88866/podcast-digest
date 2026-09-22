@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":287,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":6,"Core Web Vitals":1,"互相放大":1,"护栏":50,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":288,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":7,"Core Web Vitals":1,"互相放大":1,"护栏":50,"Chrome":4}</script>
 
 <script>
 (function(){

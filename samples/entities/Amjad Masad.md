@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]]
+[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":16,"智能体":287,"Patrick Collison":3,"公开构建":2,"Stripe":33,"vibe coding":35,"Magic School":1,"真实性":2,"OpenAI":125,"Anthropic":132}</script>
+<script type="application/json" class="pd-epn">{"Replit":16,"智能体":288,"Patrick Collison":3,"公开构建":2,"Stripe":33,"vibe coding":35,"Magic School":1,"真实性":2,"OpenAI":125,"Anthropic":132}</script>
 
 <script>
 (function(){

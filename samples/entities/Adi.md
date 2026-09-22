@@ -25,7 +25,7 @@ unlisted: true
 
 [[Gabriel Vasquez]] · [[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[DoorDash]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":14,"Eleven Labs":6,"Cognition":17,"Vercel":17,"Brex":4,"OpenAI":125,"DoorDash":6}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":15,"Eleven Labs":6,"Cognition":17,"Vercel":17,"Brex":4,"OpenAI":125,"DoorDash":6}</script>
 
 <script>
 (function(){

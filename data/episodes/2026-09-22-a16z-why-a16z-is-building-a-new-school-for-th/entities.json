@@ -1,0 +1,535 @@
+{
+  "episode_id": "2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th",
+  "podcast": "The a16z Show",
+  "date": "2026-09-22",
+  "tags": [
+    "教育",
+    "AI 时代",
+    "创业",
+    "Z 世代",
+    "旧金山"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.15,
+            72.676
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and Gagan Biani to introduce the Horowitz and Andreessen Academy, a new school designed around learning by building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gagan-biani",
+      "type": "person",
+      "role": "cohost",
+      "name": "Gagan Biani",
+      "file": "Gagan Biani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.15,
+            72.676
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and Gagan Biani to introduce the Horowitz and Andreessen Academy, a new school designed around learning by building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "horowitz-and-andreessen-academy",
+      "type": "company",
+      "role": "company",
+      "name": "Horowitz and Andreessen Academy",
+      "file": "Horowitz and Andreessen Academy",
+      "primary": true,
+      "how_described": "本集主线：Ben Horowitz 与 Gagan Biani 宣布的为 AI 时代从零设计的新学院，围绕「通过构建来学习」，独立、营利、设在旧金山，客户必须是学生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.15,
+            72.676
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and Gagan Biani to introduce the Horowitz and Andreessen Academy, a new school designed around learning by building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集说 A16Z 是与科技领域几乎每个机会都有全面连接的投资公司，投资了 1600 家公司，其关联公司超 80% 在湾区，学院由此获得雇主网络资源但保持独立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            661.197,
+            684.237
+          ],
+          "quote": "Yeah, and students will have the opportunity to, like when I was in college, I was so divorced from the real world, and I was interested in technology, and I was reading about it, but here you're gonna have access to work at companies, internet companies like Databricks, NVIDIA, Stripe, dozens of others, and you'll be immersed in the A16Z sort of cinematic universe that is both",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2518.24,
+            2521.101
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2533.045,
+            2538.807
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2543.612,
+            2556.621
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2557.341,
+            2562.044
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2562.524,
+            2569.189
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-revolution",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 革命 (AI revolution)",
+      "file": "AI 革命",
+      "primary": true,
+      "how_described": "本集把它与工业革命类比：它对工作方式与工作种类的改变将像工业革命对农业社会一样大，为工业革命设计的大学训练无法完美映射到它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            465.713,
+            483.544
+          ],
+          "quote": "But we're hitting the AI revolution now, which is going to be in our estimation as transformational in terms of jobs, the way jobs are done, the kinds of jobs that are available and so forth as the industrial revolution was to the agricultural kind of society that came before it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            484.364,
+            494.052
+          ],
+          "quote": "And the idea that the training for the industrial revolution is going to map into the AI revolution is probably not perfectly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "learning-by-building",
+      "type": "concept",
+      "role": "concept",
+      "name": "通过构建来学习 (learning by building)",
+      "file": "通过构建来学习",
+      "primary": true,
+      "how_described": "本集说这是学院的核心教学法：学怎么做而不是学研究它——想主修音乐就写歌，每一项兴趣都被框定成项目，评价标准是「你构建了什么有趣的东西」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.15,
+            72.676
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and Gagan Biani to introduce the Horowitz and Andreessen Academy, a new school designed around learning by building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bundle",
+      "type": "concept",
+      "role": "concept",
+      "name": "教育捆绑包 (bundle)",
+      "file": "教育捆绑包",
+      "primary": true,
+      "how_described": "本集用 bundle 解释教育创业为何难成：大学是几十种东西的捆绑包——教育、地位、凭证、品牌、体育、社交、有趣；过去玩家聚焦太窄，没交付完整捆绑包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            307.208,
+            308.588
+          ],
+          "quote": "College is, of course, a bundle.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 67,
+          "t": [
+            308.708,
+            310.589
+          ],
+          "quote": "It's a bundle of dozens of things, including like sports,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            311.629,
+            321.752
+          ],
+          "quote": "You don't have to do the whole bundle, but you have to do not just sort of training people for the job world, but also, or not just education, but also status and credential and brand.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            330.735,
+            339.798
+          ],
+          "quote": "And I think too many players just focus either just on the learning thing or just on some other hybrid and don't create the bundle that is the value prop that is truly, truly competitive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            582.524,
+            585.786
+          ],
+          "quote": "And so there's a bundle that's required that you have to deliver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            585.826,
+            591.069
+          ],
+          "quote": "And there's probably only two or three people who've ever even tried to deliver that bundle in the last, let's say, 50 years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "people-skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "人际技能 (people skills)",
+      "file": "人际技能",
+      "primary": true,
+      "how_described": "本集说人际技能没法在教室里教，要用 osmosis+同伴网络+项目制课程浸润习得；还点名最缺的技能是真正了解你在跟谁谈话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            1032.526,
+            1035.309
+          ],
+          "quote": "We always talk about builder skills, but also people skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1043.536,
+            1044.817
+          ],
+          "quote": "Or how do you learn people skills?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1277.6,
+            1279.783
+          ],
+          "quote": "Like, that's not how you develop people skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1279.803,
+            1285.431
+          ],
+          "quote": "You develop people skills because you're doing something you really care about and you need to get everyone on board.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2084.589,
+            2086.05
+          ],
+          "quote": "On the people skills, there's a few different dimensions, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "osmosis",
+      "type": "concept",
+      "role": "concept",
+      "name": "潜移默化 (osmosis)",
+      "file": "潜移默化",
+      "primary": true,
+      "how_described": "本集说是培养人际类技能的核心原则之一：把学生浸润在有人的社交环境里，与硅谷的 osmosis、同伴网络、项目制课程三者叠加加速技能发展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            684.958,
+            697.862
+          ],
+          "quote": "Economically, you know, practically from a career-oriented, like very embedded in the actual work, but then also just, you know, exposure to people doing real things, interesting things, getting the osmosis of the Silicon Valley sort of spirit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1185.342,
+            1190.623
+          ],
+          "quote": "And one of the core tenets of developing a skill like that is osmosis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1255.883,
+            1271.672
+          ],
+          "quote": "And so I think that the combination of the osmosis of Silicon Valley, a peer network that's supportive and the project-based curriculum combined will dramatically accelerate people's skill development.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gen-z",
+      "type": "concept",
+      "role": "concept",
+      "name": "Z 世代 (Gen Z)",
+      "file": "Z 世代",
+      "primary": true,
+      "how_described": "本集引 A16Z 委托的研究报告：Z 世代是各方面方差最高、碎片化最严重的一代，但已有一批浸润创业圈的年轻建设者，学院正是为他们而建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.029,
+            21.85
+          ],
+          "quote": "Mark and I just commissioned this research report on Gen Z.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1287.5,
+            1291.521
+          ],
+          "quote": "Related, Mark and I just commissioned this research report on Gen Z.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "for-profit",
+      "type": "concept",
+      "role": "concept",
+      "name": "营利性 (for-profit)",
+      "file": "营利性",
+      "primary": true,
+      "how_described": "本集说学院必须是营利机构：客户必须是学生，不在乎服务校友、捐赠人或家长；盈利动机带来激励对齐——学生成功创造品牌与飞轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1695.045,
+            1698.287
+          ],
+          "quote": "And talk about why it had to be a for-profit or put differently.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "type": "concept",
+      "role": "concept",
+      "name": "旧金山 (San Francisco)",
+      "file": "旧金山",
+      "primary": true,
+      "how_described": "本集说「旧金山就是你的校园」：美国大多数伟大公司在湾区起步，这里有拥抱失败、正和博弈、超高信任的文化，平静积极又极具雄心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            73.496,
+            85.725
+          ],
+          "quote": "We discuss why AI is changing the skills young people need, why the Academy focuses on projects and real-world experience, and what students can learn by being immersed in San Francisco alongside people building technology today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            575.279,
+            577.541
+          ],
+          "quote": "You need to have it residential in San Francisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1407.931,
+            1414.315
+          ],
+          "quote": "And talk about why California is just, in San Francisco, is just such an important place for this to be.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1488.676,
+            1491.156
+          ],
+          "quote": "Yeah, San Francisco is your campus, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1497.938,
+            1510.72
+          ],
+          "quote": "And the other thing I'll add is that if San Francisco is the campus, the cultural values of San Francisco that many people don't talk about, you know, San Francisco is one of the places that embraces failure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1541.811,
+            1545.773
+          ],
+          "quote": "And I think Silicon Valley, and San Francisco in particular, really has figured that out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1555.459,
+            1562.725
+          ],
+          "quote": "A lot of it happens in San Francisco, whether it's the future of AI, whether it's the future of money, whether it's the future of biotech.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "udemy",
+      "type": "company",
+      "role": "company",
+      "name": "Udemy",
+      "file": "Udemy",
+      "primary": false,
+      "how_described": "本集作为 Gagan 此前联合创办的公司被顺带提及，用来交代他的教育创业履历。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            238.103,
+            241.645
+          ],
+          "quote": "You and your many businesses haven't co-founded Udemy, Maven most recently.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集作为学生将有机会工作的互联网公司之一被列举（与 NVIDIA、Stripe 并列），也是「在好公司能学到东西」的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            661.197,
+            684.237
+          ],
+          "quote": "Yeah, and students will have the opportunity to, like when I was in college, I was so divorced from the real world, and I was interested in technology, and I was reading about it, but here you're gonna have access to work at companies, internet companies like Databricks, NVIDIA, Stripe, dozens of others, and you'll be immersed in the A16Z sort of cinematic universe that is both",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            910.699,
+            913.742
+          ],
+          "quote": "But if you work at Databricks for a better example, talk a little about that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
