@@ -256,15 +256,19 @@ function logEvent(entry) {
   appendFileSync(PATROL_LOG, JSON.stringify({ ts: nowISO(), ...entry }) + "\n");
 }
 
+// drift #105:yt-dlp --dump-single-json 对长视频(自动字幕几十种语言的签名 URL)吐 10MB+,spawnSync 默认 1MB 上限
+// 会把子进程掐死(exit null)→ 永远 meta-failed。2026-09-23 实测 LangChain×TypeSafe 访谈 11.7MB,卡了 37 条片子。
+export const SH_MAX_BUFFER = 64 * 1024 * 1024;
+
 function sh(cmd, args, opts = {}) {
-  const r = spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8", ...opts });
+  const r = spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8", maxBuffer: SH_MAX_BUFFER, ...opts });
   if (r.error?.code === "ENOENT") throw new Error(`本机没装 ${cmd}(巡航需要 node/git/yt-dlp/gh/python3)`);
   return r;
 }
 
 function shOrThrow(cmd, args, opts = {}) {
   const r = sh(cmd, args, opts);
-  if (r.status !== 0) throw new Error(`${cmd} ${args[0] ?? ""} 失败(exit ${r.status}):${(r.stderr || r.stdout || "").slice(-400)}`);
+  if (r.status !== 0) throw new Error(`${cmd} ${args[0] ?? ""} 失败(exit ${r.status}${r.error ? ` ${r.error.code}` : ""}):${(r.stderr || r.stdout || "").slice(-400)}`);
   return r;
 }
 

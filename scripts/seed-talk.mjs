@@ -68,14 +68,14 @@ function proxyEnv() {
 }
 
 function sh(cmd, args, opts = {}) {
-  const r = spawnSync(cmd, args, { env: proxyEnv(), encoding: "utf8", ...opts });
+  const r = spawnSync(cmd, args, { env: proxyEnv(), encoding: "utf8", maxBuffer: 64 * 1024 * 1024, ...opts }); // drift #105:yt-dlp 元数据可达 10MB+,默认 1MB 会掐死
   if (r.error?.code === "ENOENT") throw new Error(`本机没装 ${cmd}(seed-talk 需要 yt-dlp + gh)`);
   return r;
 }
 
 function shOrThrow(cmd, args, opts = {}) {
   const r = sh(cmd, args, opts);
-  if (r.status !== 0) throw new Error(`${cmd} 失败(exit ${r.status}):${(r.stderr || r.stdout || "").slice(-400)}`);
+  if (r.status !== 0) throw new Error(`${cmd} 失败(exit ${r.status}${r.error ? ` ${r.error.code}` : ""}):${(r.stderr || r.stdout || "").slice(-400)}`);
   return r;
 }
 

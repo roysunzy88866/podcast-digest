@@ -6,7 +6,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays } from "../scripts/patrol-talks.mjs";
+import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays, SH_MAX_BUFFER } from "../scripts/patrol-talks.mjs";
 
 const FIX = resolve(dirname(fileURLToPath(import.meta.url)), "fixtures");
 const feedXml = readFileSync(resolve(FIX, "yt-channel-feed.xml"), "utf8");
@@ -276,5 +276,30 @@ describe("drift #104 · 演讲巡航补上 60 天新鲜窗口(Greylock 灌进 4�
   });
   it("★★ 原有过滤不受影响:标题关键词与时长下限照旧", () => {
     expect(prefilterSkip({ title: "Quick demo", durationSec: 240, publishedAt: "2026-09-10" }, { minDurationSec: 600 }, T)).toMatch(/时长/);
+  });
+});
+
+describe("drift #105 · yt-dlp 大元数据不许被 1MB 默认上限掐死", () => {
+  const scripts = resolve(FIX, "..", "..", "scripts");
+  it("★★★ 上限够装 12MB 输出(实测 LangChain×TypeSafe 访谈元数据 11.7MB);默认 1MB 确实会掐死", async () => {
+    const { spawnSync } = await import("node:child_process");
+    const big = ["-e", "process.stdout.write('x'.repeat(12*1024*1024))"];
+    const dflt = spawnSync(process.execPath, big, { encoding: "utf8" });
+    expect(dflt.status).toBe(null);
+    expect(dflt.error?.code).toBe("ENOBUFS");
+    const ok = spawnSync(process.execPath, big, { encoding: "utf8", maxBuffer: SH_MAX_BUFFER });
+    expect(ok.status).toBe(0);
+    expect(ok.stdout.length).toBe(12 * 1024 * 1024);
+  });
+  it("★★★ 两处 sh() 都带上 maxBuffer(巡航富化 + 种子元数据都跑 --dump-single-json)", () => {
+    const patrol = readFileSync(resolve(scripts, "patrol-talks.mjs"), "utf8");
+    const seed = readFileSync(resolve(scripts, "seed-talk.mjs"), "utf8");
+    expect(patrol).toMatch(/function sh\(cmd, args, opts = \{\}\) \{\n\s+const r = spawnSync\([^\n]*maxBuffer: SH_MAX_BUFFER/);
+    expect(seed).toMatch(/function sh\(cmd, args, opts = \{\}\) \{\n\s+const r = spawnSync\([^\n]*maxBuffer: 64 \* 1024 \* 1024/);
+  });
+  it("★ 报错带上 error code(以后再被掐,日志直接写 ENOBUFS,不再只剩 exit null)", () => {
+    for (const f of ["patrol-talks.mjs", "seed-talk.mjs"]) {
+      expect(readFileSync(resolve(scripts, f), "utf8")).toContain("${r.error ? ` ${r.error.code}` : \"\"}");
+    }
   });
 });

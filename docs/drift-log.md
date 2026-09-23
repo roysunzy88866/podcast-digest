@@ -435,3 +435,9 @@
 - **我的两处自纠**:①先前对用户说「最老 16 个月」,实为 **28 个月**(854 天),已改正;②drift 编号本想用 #103,核 origin 发现已被另一会话(实体页金句召回)占用 → 顺延为 #104(同 memory「drift 编号并行撞号」)。
 - **教训**:加一个新**类型**的源(这里是「更新慢、有长尾存档的 YouTube 频道」)时,要核它会不会**绕开已有的质量规则** —— 新鲜窗口、时效判官都只装在播客那条路上,演讲那条路是另写的一套。drift #82 当时就记过「两个判官同口径但独立实现,改一处记得两处同步」,这次又是没同步。
 
+
+## drift #105(2026-09-23 用户「为什么关于 Jev 的访谈一条也没看到」):演讲巡航 yt-dlp 元数据被 Node 1MB 输出上限掐死 —— 37 条片子永久卡在 meta-failed
+- **现象**:LangChain 频道 2026-09-22 上传的 48 分钟《How To Build A Harness With Jev | A LangChain x TypeSafe Conversation》(HHUsHkYhkcM)巡航当天就发现了,但记 `meta-failed`(exit null)。Mac mini 手跑同一条 `yt-dlp --dump-single-json` 成功,输出 **11.7MB**(长视频自动字幕几十种语言,每条带签名 URL)。
+- **根因**:`patrol-talks.mjs` / `seed-talk.mjs` 的 `sh()` 用 `spawnSync` 没设 `maxBuffer`,Node 默认 1MB,超了就杀子进程(status=null, ENOBUFS)。报错只截 stdout 尾巴(一串字幕 URL),看起来像网络问题,所以一直没被认出来。patrol-log 累计 **163 次 exit null**;按「最后一条动作」算 **37 条片子卡死**(meta-failed 可重试 → 每班重试 → 每班再被掐,永远到不了判官)。集中在 AI Engineer 长演讲、YC、Sequoia、LangChain 长访谈 —— 恰好是最长、最有料的那批。
+- **修**:两处 `sh()` 加 `maxBuffer: 64MB`;报错附 `error.code`(以后再被掐日志直接写 ENOBUFS)。meta-failed 本就可重试 → 修完下一班巡航自动重跑这 37 条(仍过 60 天窗口 drift #104 + 判官)。
+- **Jev 为什么没上站,另外几个同时起作用的原因**:① 2026-08-01 AIE 频道 Diogo Almeida(TypeSafe 创始人)演讲《What's Next After RLHF?》被判官以「偏学术」拒(彼时 Jev 未发布,判官判断合理);② LangChain 的 3 条 Jev 短片(20s / 21s / 9 分 15 秒)被时长下限 10 分钟挡(符合设计);③ Jev 2026-09-15 才发布,播客源里截至 09-23 未见专题集(以外部核查为准)。
