@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"产品经理":3,"构建者":3,"信息搬运工":1,"判断力":5,"幕僚长应用":1,"AI":19,"LLM":38,"智能体":289,"Skip":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"产品经理":3,"构建者":3,"信息搬运工":1,"判断力":5,"幕僚长应用":1,"AI":19,"LLM":39,"智能体":291,"Skip":1}</script>
 
 <script>
 (function(){

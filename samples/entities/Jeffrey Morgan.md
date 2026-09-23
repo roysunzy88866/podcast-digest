@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":42,"Docker":3,"Apple":18,"基准测试":12,"OpenRouter":10,"开源模型":19,"编码智能体":15,"智能体":289,"推理":52}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":42,"Docker":3,"Apple":18,"基准测试":12,"OpenRouter":10,"开源模型":19,"编码智能体":15,"智能体":291,"推理":52}</script>
 
 <script>
 (function(){

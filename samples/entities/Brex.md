@@ -7,21 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Brex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Brex">BR</div><div class="pi"><h1 class="pt">Brex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Brex">BR</div><div class="pi"><h1 class="pt">Brex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(45:06起):本集广告中提到 Brex 是面向创始人的智能金融平台，有一队 AI 智能体处理手动金融任务
 - **[[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|《三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学》]]**(02:41起):本集说嘉宾 2018-2022 年初任其 CRO，早期几乎是一片绿地的市场领导者，靠招顶级销售、制造声量、早期投入收入运营实现增长，离开时估值 125 亿美元。
+- **[[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]]**(23:21起):本集说它刚以 50 亿美元出售；创始人 19 岁申请 YC 时点子是纸板做的可在家组装的 VR 眼镜，此前 15 岁在巴西创办支付网络并以约 5000 万美元卖掉——被用来说明「YC 赌的是创始人」
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:58起):本集提到 Brex 的创始人 Pedro Francesi 也参与了 a16z 的无国界晚宴，作为在硅谷成功的拉美裔创始人帮助后来者
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(00:38起):本集说 Brex 是 Michael 作为第一名员工在厨房里加入的公司，最初叫 Vyond，定位是第一张面向初创企业的公司卡加费用管理，后经历 SVB 崩溃事件并吸引超十亿美元存款。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|《三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学》]] — 作为被讨论公司
+- [[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]] — 作为被讨论公司
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
 
@@ -29,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Salesforce]] · [[智能体]] · [[Stripe]] · [[OpenAI]] · [[AI]] · [[Databricks]] · [[Claude]] · [[Lenny]] · [[Sam Blond]] · [[Gabriel Vasquez]]
+[[智能体]] · [[Salesforce]] · [[OpenAI]] · [[Stripe]] · [[Databricks]] · [[AI]] · [[Claude]] · [[Lenny]] · [[Sam Blond]] · [[Y Combinator]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":25,"智能体":289,"Stripe":34,"OpenAI":125,"AI":19,"Databricks":15,"Claude":61,"Lenny":67,"Sam Blond":1,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":291,"Salesforce":25,"OpenAI":125,"Stripe":34,"Databricks":15,"AI":19,"Claude":61,"Lenny":67,"Sam Blond":1,"Y Combinator":4}</script>
 
 <script>
 (function(){

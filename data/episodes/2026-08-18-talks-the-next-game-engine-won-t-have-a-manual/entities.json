@@ -1,0 +1,326 @@
+{
+  "episode_id": "2026-08-18-talks-the-next-game-engine-won-t-have-a-manual",
+  "podcast": "精选演讲",
+  "date": "2026-08-18",
+  "tags": [
+    "游戏引擎",
+    "AI 编程",
+    "智能体",
+    "上下文工程",
+    "独立开发"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "arturo-nunez",
+      "type": "person",
+      "role": "guest",
+      "name": "Arturo Nunez",
+      "file": "Arturo Nunez",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nereu",
+      "type": "company",
+      "role": "company",
+      "name": "Nereu",
+      "file": "Nereu",
+      "primary": true,
+      "how_described": "本集主线：Arturo 开发的下一代游戏引擎工具，理念是「不会有使用手册」——用游戏玩家本来就懂的语言描述意图，一切只是资产，靠标签驱动，目前处于封闭 Alpha 阶段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            37.432,
+            39.073
+          ],
+          "quote": "tool called Nereu.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unity",
+      "type": "company",
+      "role": "company",
+      "name": "Unity",
+      "file": "Unity",
+      "primary": true,
+      "how_described": "Arturo 工作了将近 10 年的游戏引擎公司，他在那里见过太多人做游戏时一遍又一遍在同样的事情上挣扎；也被列为当今强大引擎的代表之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            249.946,
+            259.089
+          ],
+          "quote": "I worked at Unity, a game engine company, for almost 10 years, so I saw a lot of people building games and struggling with the same things over and over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            416.084,
+            424.467
+          ],
+          "quote": "Now, there are powerful engines, Unreal, Unity, and there are powerful LLMs and agents, but I think still it's hard.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "type": "company",
+      "role": "company",
+      "name": "MongoDB",
+      "file": "MongoDB",
+      "primary": false,
+      "how_described": "Arturo 提到自己离开 Unity 后加入 MongoDB、学习 AI 与数据管理话题，一笔带过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            273.272,
+            275.813
+          ],
+          "quote": "So then I was part of MongoDB.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asset-tag-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "资产标签系统 (Asset Tag System)",
+      "file": "资产标签系统",
+      "primary": true,
+      "how_described": "本集核心概念（ATS）：默认上下文从游戏引擎翻转到游戏设计，用标签（player/vehicle/drivable/animated…）描述资产意图，系统查询带标签的对象并执行，标签可自由组合复用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            575.641,
+            581.166
+          ],
+          "quote": "And this system comes from something that we're calling the ATS, or Asset Tag System.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "entity-component-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "实体组件系统 (Entity Component System)",
+      "file": "实体组件系统",
+      "primary": true,
+      "how_described": "本集说 ATS 源自游戏开发中这个面向数据的设计理念：用组件（此处理解为标签）描述对象，再由系统查询处理所有带某组标签的对象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            581.186,
+            587.711
+          ],
+          "quote": "It comes from the idea from game development called Entity Component System, data-oriented design, which means",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现在已有强大的 LLM 和智能体，但只桥接两个世界并不最优；Nereu 的 AI 助手 Bibi 就是智能体——构建 prompt 后由智能体执行调用、增删标签，帮用户摆脱卡壳",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            695.652,
+            701.176
+          ],
+          "quote": "And then the agent just performs calls and appends or removes the tags.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复谈：有强大的 LLM 但若用引擎/代码的词汇提问它就会失控乱来、重复造轮子；Nereu 主要靠 LLM 驱动，且要把整个场景的上下文按细节层级分级喂给它以免爆炸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            439.412,
+            447.556
+          ],
+          "quote": "Otherwise, the LLM goes rogue and does stuff and reinvents the wheel over and over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            449.337,
+            461.423
+          ],
+          "quote": "Like if I say I want a camera that follows this character, I've seen the demos and the LLM reinvents the wheel every single time when the result is going to be essentially the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            854.477,
+            856.339
+          ],
+          "quote": "Yeah, we're using an LLM mostly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            883.844,
+            887.467
+          ],
+          "quote": "But it's mostly an LLM, what we're using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            888.327,
+            894.431
+          ],
+          "quote": "And if we feed the entire scene to the LLM, the context grows a lot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "level-of-details",
+      "type": "concept",
+      "role": "concept",
+      "name": "细节层级 (level of details)",
+      "file": "细节层级",
+      "primary": true,
+      "how_described": "游戏开发圈众所周知的渲染思路（近处高精度、远处用立方体代替），本集说他们借用它来组装 LLM 上下文：正在编辑的对象给完整标签和设置值，远处只给一句话摘要并动态更新",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            909.281,
+            934.903
+          ],
+          "quote": "But what we're using here to assemble the context is something that's very well known in the game dev world, which is called level of details, which means if I'm close to an object or is close inside to myself, I'm going to render it with a higher quality texture, with a higher quality material, with a higher quality model in many cases, something that's too far away from the camera",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vision-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉模型 (vision model)",
+      "file": "视觉模型",
+      "primary": true,
+      "how_described": "本集说资产库约 6000-7000 个资产不可能手动打标，Arturo 对每个资产截图、用视觉模型生成描述来完成打标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            879.081,
+            883.744
+          ],
+          "quote": "So I took a screenshot and ran a vision model to describe those.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集收尾讨论：即时生成游戏画面的另一类技术路线，Arturo 判断那会是一种不同的媒介——要用它在 4K 下实时渲染 60 帧、模拟物理还很遥远",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            1082.073,
+            1089.895
+          ],
+          "quote": "And doing that at 4K resolutions in real time with a world model, I think it's still far away.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Arturo 基本每天和 AI 一起工作构建引擎，用 Claude Code 或类似工具与 Claude 讨论想法、构建工具，并果断砍掉没人用的功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            779.157,
+            782.139
+          ],
+          "quote": "And I'm sure everyone uses Claude Code or something similar.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "prompt",
+      "file": "prompt",
+      "primary": false,
+      "how_described": "本集提到系统用场景上下文加上资产类型、想做的游戏类型等额外信息构建 prompt，作为智能体工作的实现细节一笔带过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            664.934,
+            676.02
+          ],
+          "quote": "Well, we build the prompt using context from the scene, but also some extra context based on, for example, what type of assets are on your game.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

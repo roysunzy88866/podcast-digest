@@ -31,7 +31,7 @@ unlisted: true
 
 [[Sebastian Barrios]] · [[智能体]] · [[Verdi]] · [[微服务]] · [[彻底坦诚]] · [[OKRs]] · [[Roblox]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"智能体":289,"Verdi":1,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":20}</script>
+<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"智能体":291,"Verdi":1,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":1}</script>
 
 <script>
 (function(){

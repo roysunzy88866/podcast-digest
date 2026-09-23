@@ -22,7 +22,7 @@ unlisted: true
 
 [[Michael]] · [[Goggin]] · [[Lumentum]] · [[Horowitz Andreessen Academy]] · [[光纤]] · [[主观能动性]] · [[数据中心]] · [[AI 原生建造者]] · [[纵向扩展]] · [[证明过的工作]]
 
-<script type="application/json" class="pd-epn">{"Michael":1,"Goggin":1,"Lumentum":1,"Horowitz Andreessen Academy":1,"光纤":1,"主观能动性":20,"数据中心":15,"AI 原生建造者":1,"纵向扩展":1,"证明过的工作":1}</script>
+<script type="application/json" class="pd-epn">{"Michael":1,"Goggin":1,"Lumentum":1,"Horowitz Andreessen Academy":1,"光纤":1,"主观能动性":1,"数据中心":15,"AI 原生建造者":1,"纵向扩展":1,"证明过的工作":1}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[数据中心]] · [[Anthropic]] · [[推理]] · [[智能体]] · [[AMD]] · [[供应链]] · [[Cerebrus]] · [[Jacob Efron]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":42,"OpenAI":125,"数据中心":15,"Anthropic":132,"推理":52,"智能体":289,"AMD":4,"供应链":4,"Cerebrus":2,"Jacob Efron":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":42,"OpenAI":125,"数据中心":15,"Anthropic":132,"推理":52,"智能体":291,"AMD":4,"供应链":4,"Cerebrus":2,"Jacob Efron":1}</script>
 
 <script>
 (function(){

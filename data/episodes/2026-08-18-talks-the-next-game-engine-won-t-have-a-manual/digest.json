@@ -1,0 +1,130 @@
+{
+  "title_zh": "下一代游戏引擎不会有使用手册",
+  "tldr": "前 Unity 工程师 Arturo 介绍他开发的工具 Nereu：用日常游戏语言描述需求就能做游戏，以及背后的资产标签系统设计思路。",
+  "digest_md": "这一集要聊的是：为什么下一代游戏引擎不会有使用手册。说这话的人叫 Arturo，他在 Unity（知名游戏引擎公司）工作了将近 10 年，见过太多人做游戏时一遍又一遍地在同样的事情上挣扎——所以他自己做了一个叫 Nereu 的工具。开场他先演示了它现在的样子：他对着助手说「我想添加一个机器人」，工具就从资产库里找出符合条件的机器人模型；再说「让它用 WASD 移动、加上动画」，角色就能动了；接着描述「加一些建筑」「下点雨」「加一个跟随角色的摄像机」——几分钟后，一个能玩的游戏场景就成了。全程没写一行代码，没导入一个模型，只用了「玩过游戏的人都懂」的语言来描述自己想要什么。\n\n## 为什么做游戏这么难\n\n用常规工具做到演示里那一步非常难。做游戏需要懂编程、3D 建模、渲染、音乐、动画等一大堆技能：要么有一个互相补足的大团队，要么每个人身兼多职——而说实话，很难找到一个人既擅长游戏设计、又擅长渲染、还擅长实时镜头构图。而且技术上行还不够：游戏必须好玩，不好玩就没人玩。Arturo 认为乐趣应该既属于玩家、也属于开发者，但近年来行业越来越偏向「生产更多、卖更多」，而不是做游戏本身的手艺。他想让更多人不用沮丧、不用花两三年做出东西才发现卖不出去，就能享受做游戏的过程——对很多人来说，做游戏只是一种创意出口，就像玩乐高。\n\n现在明明有强大的引擎（Unreal、Unity），也有强大的 LLM 和智能体，为什么依然难？他的判断是：我们只是在两个世界之间搭了一座桥，这并不最优——你仍然得用引擎的词汇、代码的词汇去提问，否则 LLM 就会失控乱来、一遍遍重复造轮子。比如「我想要一个跟随角色的镜头」，结果本质每次都一样，但 LLM 每次都从头造一遍。\n\n## 资产标签系统（ATS）：把上下文从引擎翻转到游戏设计\n\n他的解法是把这个理念翻转过来：默认上下文不该在游戏引擎上，而该在游戏设计上。在当前引擎里，想控制一个角色，你需要导入 mesh、配置渲染器、动画器、刚体、碰撞体、音源，再写移动逻辑和游戏规则——其中大部分是市面上每个游戏、每个角色都有的样板代码，但开发者还得去读懂那些组件和成百上千个滑块是干嘛的。\n\nNereu 的目标则是：一切都只是资产。一切都要渲染、大多数时候都有物理，而你只需要**加标签来描述资产在游戏中的意图**——「我要这个成为角色、能被动画化、能二段跳」「收集金币时增加分数」。这正是新手教程里那种语言：「按 A 跳跃，空中再按一次做二段跳」——他认为那就该是我们做游戏该用的语言。\n\n这套东西叫 ATS（资产标签系统，Asset Tag System），源自游戏开发里的实体组件系统（Entity Component System，一种面向数据的设计：用组件描述对象，再由系统去查询并处理所有带某组标签的对象）——比如系统查询所有同时带 vehicle、player、drivable 标签的对象，让它们可以被驾驶。妙处在于可以复用：一栋建筑本来不动，但没什么能阻止你给它加上 vehicle 和 drivable 标签，于是你就有了一栋能开的车，可以放进马里奥赛车风格的游戏里。AI 助手（叫 Bibi）的作用就是帮你摆脱卡壳：你问「怎么让车动起来」，它知道有哪些可用的工具和标签，直接应用到资产上。实现上，用户输入查询，系统用场景上下文加上额外信息（游戏里的资产类型、用户描述的想做的游戏类型）构建 prompt，然后智能体执行调用、增删标签。引擎里**故意不内置脚本系统**——虽然它就是跑在浏览器里的 JavaScript，想扩展的人可以扩展，但对大多数用户不该需要。\n\n最难的部分是什么？Arturo 说，是把各种游戏分解成这些标签和系统——游戏类型太多、同一个游戏有很多种描述方式，还有「情绪氛围」这类东西：想做平台跳跃但有恐怖感？那就牵扯到后期处理效果和光照。这些就是他们正在分解、用来驱动引擎的东西。\n\n## 他怎么用 AI 造出这个引擎\n\n这是他第一次以这样的速度构建这种规模的东西，基本每天和 AI 一起工作（用 Claude Code 或类似工具）：把脑子里的想法和 Claude 讨论；专注做光照时，就去找行业内专注光照的朋友提问，把答案带回来再构建工具；然后大胆做减法——「我觉得我们不需要这个设置、这个功能，我没见过多少用户用它」——以此简化引擎。构建的同时，他们把每个新工具的定义喂给助手，所以助手始终知道所有可用工具。产品现在处于封闭 Alpha 阶段，一批用户在用、给反馈，然后回到起点迭代。\n\n一个值得分享的工程细节是**上下文的组装**。资产库有大约 6000-7000 个资产，不可能手动打标签——他只有名字和 3D 文件，所以对每个资产截图，用视觉模型来描述打标。日常则主要靠 LLM。问题是整个场景喂给 LLM 上下文会爆炸：演示场景里约有 100 个资产，其中大部分是可以忽略的草。他们借用了一个游戏开发圈众所周知的思路——细节层级（Level of Details，游戏里离镜头近的物体用高精度模型渲染、太远的就用一个立方体代替，玩家察觉不到）：用户点击骑士时，它周围的东西优先级高，就把它们的标签和标签上的具体设置值完整喂给模型；稍远的东西只说「这个位置有个玩家」，不发送全部上下文；用户继续移动和修改时再动态更新。\n\n## 一键生成不是目标；世界模型是另一种媒介\n\n收尾时他明确了一个边界：他**不想**一键生成没人会玩的游戏，觉得那没有意义——行业里确实有那种需求，但 Nereu 的理念是让人们享受制作过程、把游戏分享给家人朋友，并在过程中学会游戏设计的语言（不一定是编程——有用户说因此理解了以前不懂的编程概念，但那不是最初目标）。\n\n对于用世界模型（即时生成游戏画面的另一类技术路线）做游戏，他的判断是：那会是一种**不同的媒介**，即使我们也叫它电子游戏——如今游戏必须每秒渲染 60 帧，要用世界模型在 4K 分辨率下实时做到、还要模拟物理，他认为还很遥远。但他觉得正在发生的一切很令人兴奋。\n\n最后他说，做这个工具本身非常有趣：想测试什么时，就拉进来一个宇航员和一只恐龙让它们到处走走——这像极了大约 20 年前把他带入游戏开发行业的那种乐趣。职业生涯里他曾越来越失望，觉得「这不再有趣了」，现在他又找回了乐趣，想分享给更多人。\n\n## 本集带走\n\n- **换掉提问的词汇**：别用引擎和代码的词汇跟 LLM 对话（否则它反复造轮子），用玩游戏的人本来就会的语言描述意图——「能二段跳」「吃到金币加分」「镜头跟着角色」。\n- **用标签替代样板配置**：把每个资产只是当「资产」，用意图标签（player/vehicle/drivable/animated…）描述它，系统层负责查询和执行——标签可自由组合，随时能造出「能开的建筑」这种意外玩法。\n- **上下文按距离分级**：借鉴游戏里细节层级的思路，用户正在操作的对象给完整标签和设置值，远处对象只给一句话摘要，动态更新——避免整个场景撑爆 LLM 上下文。\n- **视觉模型批量打标**：几千个资产不用手动标注，截图喂给视觉模型生成描述即可。\n- **AI 时代的做减法**：和 Claude 讨论方案、向领域专家要输入、构建后把工具定义同步给助手，同时果断砍掉没用户用的设置来简化引擎。",
+  "quotes": [
+    {
+      "en": "In recent years, I think it's become more about producing more and trying to sell more rather than the craft of making games.",
+      "zh": "近年来,我觉得这变得更像是生产更多、试图卖得更多,而不是做游戏的手艺本身。",
+      "timestamp": "06:26",
+      "speaker": "Arturo Nunez"
+    },
+    {
+      "en": "It's hard because I think we're just building a bridge between two worlds, and it's not optimal, and you still need to know kind of like what to ask in the vocabulary of an engine, in the vocabulary of code.",
+      "zh": "之所以难,是因为我觉得我们只是在两个世界之间搭一座桥,而这并不是最优的,你仍然需要知道该用什么词汇去问,用引擎的词汇、用代码的词汇。",
+      "timestamp": "07:04",
+      "speaker": "Arturo Nunez"
+    },
+    {
+      "en": "By default, the context is on the game engine rather than on the game design part, and I think we should flip that idea.",
+      "zh": "默认情况下,上下文是在游戏引擎上,而不是在游戏设计这部分,而我认为我们应该把这个理念翻转过来。",
+      "timestamp": "07:42",
+      "speaker": "Arturo Nunez"
+    },
+    {
+      "en": "I don't want us to one-shot games that nobody is going to play, and I don't see the point in that.",
+      "zh": "我不想让我们去一键生成没人会玩的游戏,我觉得那没有意义。",
+      "timestamp": "16:49",
+      "speaker": "Arturo Nunez"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:23",
+      "speaker": "Unknown",
+      "en": "So today I'm going to talk about how I think the next game engine won't have a manual.",
+      "zh": "所以今天我要讲的是,为什么我认为下一代游戏引擎不会有使用手册。"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Unknown",
+      "en": "So it added a camera, it configured it, it's looking at my main character and I have a game without knowing how to code or import assets or anything besides just knowing what I want because I know the language of building games.",
+      "zh": "所以它添加了一个摄像机,配置好了,注视着我的主角,于是我拥有了一个游戏——完全不需要懂写代码或导入资产之类的东西,只需要知道我想要什么,因为我懂得构建游戏的语言。"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Unknown",
+      "en": "I don't think people should spend their energy and time reinventing the same wheel.",
+      "zh": "我认为人们不应该把他们的精力和时间花在重新发明同一个轮子上。"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Unknown",
+      "en": "And honestly, it's very difficult to find someone that's great at game design and also great at rendering and great at composition of cameras in real time.",
+      "zh": "而且说实话,很难找到一个人既擅长游戏设计,又擅长渲染,还擅长实时镜头构图。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Unknown",
+      "en": "And I think fun should be for the player, but also for the developers.",
+      "zh": "而且我觉得乐趣应该既属于玩家,也属于开发者。"
+    },
+    {
+      "timestamp": "06:26",
+      "speaker": "Unknown",
+      "en": "In recent years, I think it's become more about producing more and trying to sell more rather than the craft of making games.",
+      "zh": "近年来,我觉得这变得更像是生产更多、试图卖得更多,而不是做游戏的手艺本身。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Unknown",
+      "en": "It's hard because I think we're just building a bridge between two worlds, and it's not optimal, and you still need to know kind of like what to ask in the vocabulary of an engine, in the vocabulary of code.",
+      "zh": "之所以难,是因为我觉得我们只是在两个世界之间搭一座桥,而这并不是最优的,你仍然需要知道该用什么词汇去问,用引擎的词汇、用代码的词汇。"
+    },
+    {
+      "timestamp": "07:29",
+      "speaker": "Unknown",
+      "en": "Like if I say I want a camera that follows this character, I've seen the demos and the LLM reinvents the wheel every single time when the result is going to be essentially the same.",
+      "zh": "比如我说我想要一个跟随这个角色的镜头,我看过那些演示,LLM 每一次都在重复造轮子,而最终结果基本上是一样的。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Unknown",
+      "en": "By default, the context is on the game engine rather than on the game design part, and I think we should flip that idea.",
+      "zh": "默认情况下,上下文是在游戏引擎上,而不是在游戏设计这部分,而我认为我们应该把这个理念翻转过来。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "And this is the language that we use when we play games, right?",
+      "zh": "而这正是我们玩游戏时使用的语言,对吧?"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "Unknown",
+      "en": "But nothing prevents you from adding the vehicle and drivable tag to your building, and then you have a building that you can put in a Mario Kart style of game.",
+      "zh": "但没有什么能阻止你给你的建筑加上 vehicle 和 drivable 标签,然后你就有了一栋可以放进马里奥赛车风格游戏里的建筑。"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Unknown",
+      "en": "We don't have a scripting system in there.",
+      "zh": "我们在那里没有脚本系统。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Unknown",
+      "en": "Honestly, the challenging part is the composing games into these tags and into these systems, because there are a lot of genres.",
+      "zh": "说实话,有挑战性的部分是把这些游戏分解成这些标签和这些系统,因为游戏类型实在太多。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Unknown",
+      "en": "I don't want us to one-shot games that nobody is going to play, and I don't see the point in that.",
+      "zh": "我不想让我们去一键生成没人会玩的游戏,我觉得那没有意义。"
+    },
+    {
+      "timestamp": "17:52",
+      "speaker": "Unknown",
+      "en": "I think that's going to be a different medium.",
+      "zh": "我认为那会是一种不同的媒介。"
+    },
+    {
+      "timestamp": "18:49",
+      "speaker": "Unknown",
+      "en": "It's kind of like what got me into game development, I think, like 20 years ago.",
+      "zh": "这有点像大约 20 年前让我进入游戏开发行业的那个东西。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Arturo，在 Unity 那家知名游戏引擎公司干了将近十年。做游戏引擎的人，天天看着别人用自己家的工具，也天天看着太多人一遍又一遍在同样的事情上挣扎。所以后来自己出来做了一个新工具，叫 Nereu。这期要聊的就是这个工具，以及它背后那句挺大胆的说法——下一代游戏引擎，不会有使用手册。\n\n先看看这个工具现在长什么样。演示里，Arturo 对着助手说，我想添加一个机器人，工具就从资产库里找出符合条件的机器人模型；再说让它用 WASD 移动、加上动画，角色就能动了；接着描述加一些建筑、下点雨、加一个跟随角色的摄像机——几分钟后，一个能玩的游戏场景就成了。全程没写一行代码，没导入一个模型，用的全是「玩过游戏的人都懂」的语言。\n\n那为什么做游戏这件事，用常规工具就这么难呢？因为做游戏需要一大堆技能：编程、3D 建模、渲染、音乐、动画。要么有一个互相补足的大团队，要么每个人身兼多职。说实话，很难找到一个人既擅长游戏设计、又擅长渲染、还擅长实时镜头构图。而且技术上行还不够，游戏必须好玩，不好玩就没人玩。Arturo 认为乐趣应该既属于玩家、也属于开发者，但说到行业现状，有这么一句话：近年来，我觉得这变得更像是生产更多、试图卖得更多，而不是做游戏的手艺本身。很多人做游戏，其实只是想有个创意出口，就像玩乐高，不必花两三年做出东西来才发现卖不出去。\n\n那现在明明有强大的引擎，Unreal、Unity 都是，也有强大的大语言模型和智能体，为什么做起来还是难？判断是：我们只是在两个世界之间搭了一座桥，而这并不是最优的。你仍然需要知道该用什么词汇去问，用引擎的词汇、用代码的词汇，否则模型就会失控乱来、一遍遍重复造轮子。举个例子，你说我想要一个跟随角色的镜头，这类东西本质每次都一样，但模型每次都从头造一遍。\n\n这就引出 Arturo 真正的解法——把这个理念翻转过来。默认情况下，上下文是在游戏引擎上，而不是在游戏设计这部分，而应该反过来，默认上下文放在游戏设计上。什么意思呢？在现在的引擎里，你想控制一个角色，得导入模型、配置渲染器、动画器、刚体、碰撞体、音源，再写移动逻辑和游戏规则。这里面大部分是市面上每个游戏、每个角色都有的样板代码，但你还得去读懂那些组件和成百上千个滑块是干嘛的。Nereu 的目标就一句话：一切都只是资产。一切都要渲染，大多数时候都有物理，而你只需要加标签来描述资产在游戏中的意图——我要这个成为角色、能被动画化、能二段跳；收集金币时增加分数。这不就是新手教程里的那种语言吗，按 A 跳跃，空中再按一次做二段跳。Arturo 认为，那就该是我们做游戏该用的语言。\n\n这套东西有个名字，叫 ATS，资产标签系统。源头是游戏开发里的实体组件系统——说白了就是用组件描述对象，再由系统去查询处理所有带某组标签的对象。比如系统查一下哪些对象同时带 vehicle、player、drivable 这几个标签，查到的就都能被驾驶。妙处在于可以复用：一栋建筑本来不动，但没什么能阻止你给它加上 vehicle 和 drivable 的标签，于是你就有了一栋能开的车，可以放进马里奥赛车风格的游戏里。助手 Bibi 的作用是帮你摆脱卡壳——你问怎么让车动起来，它知道有哪些可用的工具和标签，直接应用到资产上。值得注意的细节是，这个引擎里故意不内置脚本系统，想扩展的人可以去扩展，但对大多数用户来说不该需要。最难的部分呢？是把各种游戏分解成这些标签和系统，游戏类型太多、同一个游戏有很多种描述方式，还有情绪氛围这类东西——想做平台跳跃但有恐怖感，那就牵扯到后期处理效果和光照。\n\n那这样一个工具是怎么造出来的？这是 Arturo 第一次以这样的速度构建这种规模的东西，基本每天和 AI 一起工作：把脑子里的想法和 Claude 讨论；专注做光照的时候，就去找行业内专注光照的朋友提问，把答案带回来再构建工具；然后大胆做减法，觉得哪些设置没见过多少用户用，就直接砍掉。构建的同时，每个新工具的定义都喂给助手，所以助手始终知道所有可用工具。产品现在处于封闭 Alpha 阶段，一批用户在用、给反馈，然后回到起点迭代。\n\n再讲一个挺有意思的工程细节：上下文的组装。资产库有大约六七千个资产，不可能手动打标签，手里只有名字和 3D 文件，所以做法是对每个资产截图，用视觉模型来描述打标。而日常的问题在于，整个场景喂给大模型，上下文会爆炸——演示场景里约有一百个资产，大部分是可以忽略的草。这里借用了一个游戏开发圈众所周知的思路，叫细节层级：游戏里离镜头近的物体用高精度模型渲染，太远的就用一个立方体代替，玩家察觉不到。放到上下文上就是：用户点击骑士时，它周围的东西优先级高，标签和具体设置值完整喂给模型；稍远的东西只说这个位置有个玩家，不发送全部上下文；用户继续移动和修改时再动态更新。\n\n最后，Arturo 明确了一个边界：不想让我们去一键生成没人会玩的游戏，觉得那没有意义。行业里确实有那种需求，但 Nereu 的理念是让人们享受制作过程，把游戏分享给家人朋友，并在过程中学会游戏设计的语言。至于用世界模型——也就是即时生成游戏画面的那类技术——来做游戏，判断是那会是一种不同的媒介，即使我们也叫它电子游戏。如今游戏必须每秒渲染 60 帧，要用世界模型在 4K 分辨率下实时做到、还要模拟物理，还很遥远。但正在发生的一切很令人兴奋。而最打动人的也许是这个：做这个工具本身非常有趣，想测试什么时，就拉进来一个宇航员和一只恐龙让它们到处走走——这像极了大约 20 年前把 Arturo 带入游戏开发行业的那种乐趣。职业生涯里曾越来越失望，觉得这不再有趣了，现在，乐趣又回来了。"
+}

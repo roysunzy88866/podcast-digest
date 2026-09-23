@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>66</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>67</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -51,6 +51,7 @@ unlisted: true
 - **[[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]]**(03:34起):本集把它作为现成 harness 的代表(配合 Anthropic 模型),并与 Codex 对比:两者文件编辑方式相当不同;在 Engine 的 benchmark 上表现好,其写小脚本跑 trace 的打法被抄回 Engine 核心 harness。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(57:00起):本集说 Matt 用 Claude Code 在电脑上搭建营销操作系统，接入邮箱定时检查简报请求、自动询价谈判、写文案发邮件
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(32:52起):本集提到 Will 用 Claude Code 试着为侄女生日创作一首歌，作为不需要开月费账户、只需微消费的场景例子。
+- **[[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|《下一代游戏引擎不会有使用手册》]]**(12:59起):本集说 Arturo 基本每天和 AI 一起工作构建引擎，用 Claude Code 或类似工具与 Claude 讨论想法、构建工具，并果断砍掉没人用的功能
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(01:40起):本集说 Claude Code 是嘉宾的'主力工具'（workhorse），亚马逊员工使用时可以选择加入追踪，团队能识别出模型做错的轨迹来构建评估
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(05:07起):本集说 Claude Code 出来后，似乎所有人都从 Cursor 跑了，'Cursor 死了'，但 Cursor 随后通过接入多模型扭转了局面。
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(35:47起):本集说 Claude Code 在创建和延续设计系统方面无可替代，能将 Figma 或示例站点拆成可复用的设计令牌，但输出格式让人血压升高
@@ -99,7 +100,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*66 集*
+*67 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -142,6 +143,7 @@ unlisted: true
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]] — 作为被讨论公司
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为概念(提及)
+- [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|《下一代游戏引擎不会有使用手册》]] — 作为概念
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
@@ -174,7 +176,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Cursor]] · [[沙箱]] · [[harness]] · [[评估]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":289,"Anthropic":132,"Codex":53,"OpenAI":125,"Lenny":67,"Cursor":64,"沙箱":53,"harness":40,"评估":3,"MCP":49}</script>
+<script type="application/json" class="pd-epn">{"智能体":291,"Anthropic":132,"Codex":53,"OpenAI":125,"Lenny":67,"Cursor":64,"沙箱":53,"harness":40,"评估":3,"MCP":49}</script>
 
 <script>
 (function(){

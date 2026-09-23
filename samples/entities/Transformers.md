@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[模拟器]] · [[世界模型]] · [[Dmitri Dolgov]] · [[Sam Charrington]] · [[Waymo]] · [[Justin Johnson]] · [[Waymo driver]] · [[World Labs]] · [[物理 AI]]
 
-<script type="application/json" class="pd-epn">{"智能体":289,"模拟器":3,"世界模型":7,"Dmitri Dolgov":1,"Sam Charrington":4,"Waymo":13,"Justin Johnson":2,"Waymo driver":1,"World Labs":4,"物理 AI":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":291,"模拟器":3,"世界模型":8,"Dmitri Dolgov":1,"Sam Charrington":4,"Waymo":13,"Justin Johnson":2,"Waymo driver":1,"World Labs":4,"物理 AI":8}</script>
 
 <script>
 (function(){

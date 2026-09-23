@@ -158,7 +158,7 @@ Andy 分享了公司内部：去年收购 Metis 就是为了注入 AI 原生思�
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:智能体 (agent)、自主性 (autonomy)</span>
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同概念:数据分布优势 (distribution)、智能体 (agent)</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)</span>
+- [[2026-07-25-talks-what-actually-makes-a-startup-durable|YC 合伙人现场答问：AI 时代创业的难与易]]<span class="pd-rz">同概念:数据分布优势 (distribution)、智能体 (agent)</span>
 
 </div>
 </div>

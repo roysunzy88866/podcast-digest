@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeff Morris Jr]] · [[Tinder]] · [[Zarly]] · [[Sequoia]] · [[Erebor]] · [[Paradigm]] · [[种子轮]] · [[转型]] · [[命中率]] · [[投资组合构建]]
 
-<script type="application/json" class="pd-epn">{"Jeff Morris Jr":1,"Tinder":2,"Zarly":1,"Sequoia":5,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":2,"命中率":1,"投资组合构建":2}</script>
+<script type="application/json" class="pd-epn">{"Jeff Morris Jr":1,"Tinder":2,"Zarly":1,"Sequoia":5,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":3,"命中率":1,"投资组合构建":2}</script>
 
 <script>
 (function(){

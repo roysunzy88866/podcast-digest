@@ -159,9 +159,9 @@ Jeff 离开 Tinder 后几乎不再接收约会应用的路演，因为几乎所�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-25-talks-what-actually-makes-a-startup-durable|YC 合伙人现场答问：AI 时代创业的难与易]]<span class="pd-rz">同概念:智能体 (agent)、转型 (pivot)</span>
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济]]<span class="pd-rz">同公司:Sequoia · 同概念:智能体 (agent)</span>
 - [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|美国才是最大的新兴市场]]<span class="pd-rz">同公司:Sequoia · 同概念:投资组合构建 (portfolio construction)</span>
-- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同概念:智能体 (agent)、网络效应 (network effects)</span>
 
 </div>
 <div class="pd-ex">

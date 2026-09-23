@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"开源权重":8,"Frontier Labs":4,"蒸馏":11,"智能体":289,"Kimi K3":2,"Hugging Face":22,"Anthropic":132,"OpenAI":125}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"开源权重":8,"Frontier Labs":4,"蒸馏":11,"智能体":291,"Kimi K3":2,"Hugging Face":22,"Anthropic":132,"OpenAI":125}</script>
 
 <script>
 (function(){

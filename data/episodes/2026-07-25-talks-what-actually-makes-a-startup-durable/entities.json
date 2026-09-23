@@ -1,0 +1,580 @@
+{
+  "episode_id": "2026-07-25-talks-what-actually-makes-a-startup-durable",
+  "podcast": "精选演讲",
+  "date": "2026-07-25",
+  "tags": [
+    "创业与行业",
+    "YC 合伙人答问",
+    "AI 原生公司",
+    "联合创始人",
+    "转型与发布"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": true,
+      "how_described": "本集是 YC 合伙人的公开答问；多位合伙人说 YC 投的是人不是想法、上一批约三分之一的公司转型改了想法，并在试验让 AI 成为 YC 的 AI 原生公司（如虚拟合伙人办公时间）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            143.737,
+            146.239
+          ],
+          "quote": "It did Y Combinator and actually came back to London.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 94,
+          "t": [
+            497.378,
+            503.263
+          ],
+          "quote": "It seems like you're trying to do, like, what you're trying to do is to make Y Combinator an AI-native company, right?",
+          "speaker": "SPEAKER_11"
+        }
+      ]
+    },
+    {
+      "id": "gocardless",
+      "type": "company",
+      "role": "company",
+      "name": "GoCardless",
+      "file": "GoCardless",
+      "primary": true,
+      "how_described": "Tom 2011 年创办、参加 YC 后回到伦敦的公司，与不到五家公司构成了伦敦初创生态的核心；它也是「被客户拽出来的转型」的例子——从运动队收款工具转向企业收款",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            139.795,
+            143.577
+          ],
+          "quote": "So I started a company in 2011 called GoCardless.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 33,
+          "t": [
+            154.513,
+            166.999
+          ],
+          "quote": "And GoCardless, and a small number, but really less than five companies were the kernel of the London startup ecosystem.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.339,
+            172.682
+          ],
+          "quote": "You can kind of trace from GoCardless this family tree to many, many, many dozens of other companies.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2496.733,
+            2500.434
+          ],
+          "quote": "You're working, this is kind of what happened with GoCardless, right?",
+          "speaker": "SPEAKER_14"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": true,
+      "how_described": "本集说它刚以 50 亿美元出售；创始人 19 岁申请 YC 时点子是纸板做的可在家组装的 VR 眼镜，此前 15 岁在巴西创办支付网络并以约 5000 万美元卖掉——被用来说明「YC 赌的是创始人」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1401.55,
+            1403.952
+          ],
+          "quote": "The Brex founders, Brex just sold for $5 billion.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1404.292,
+            1408.376
+          ],
+          "quote": "The Brex founders applied when they were 19 years old, and they were brilliant.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2679.777,
+            2683.72
+          ],
+          "quote": "Brex, is a tech company nowadays.",
+          "speaker": "SPEAKER_15"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2704.991,
+            2730.116
+          ],
+          "quote": "We had a nice talk from the Brex CEO, where he was saying that, so Brex in SF, if you've been in SF, I don't know, six years ago or something, SF was covered with Brex ads, and he was basically saying the reason, at the point they just bought all the billboards in San Francisco, and the way he was justifying it was no one was doing it, so just want to stand apart, and in order to stand apart, gonna buy billboards.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成 AI 原生公司的核心抓手：把公司信息变得可查询、让智能体在销售电话后于后台构建原型；还提到单人创始人想做「彼此通信、自我改进的自主智能体」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 348,
+          "t": [
+            1762.472,
+            1763.393
+          ],
+          "quote": "Probably ask the agent.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2227.662,
+            2235.424
+          ],
+          "quote": "I'd try to make that queryable to the agent, and you can use something like Obsidian or Gbrain, or there are a bunch of other tools you can use.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2254.453,
+            2268.847
+          ],
+          "quote": "A more sophisticated example might be like, during every sales call, I want it transcribed and any product ideas, I want an agent in the background to build me a prototype of that thing so that by the end of the call, I can demo it to my customer.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "ai-wrapper",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 套壳 (AI wrapper)",
+      "file": "AI 套壳",
+      "primary": true,
+      "how_described": "本集说这是个「没什么意义的贬义词」：今天一些最大的公司就是 AI 套壳，「在那之前它们是 SQL 套壳或 S3 套壳」，真正该看的是有没有在核心模型之上加价值、问题空间够不够深",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1504.298,
+            1514.622
+          ],
+          "quote": "When YC selects companies, how do you evaluate in B2B AI a real wedge from an AI wrapper?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1514.862,
+            1518.984
+          ],
+          "quote": "AI wrapper is this derogatory term that is kind of meaningless.",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1556.788,
+            1560.069
+          ],
+          "quote": "Some people are still going to call it an AI wrapper and snicker to themselves.",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1561.588,
+            1564.089
+          ],
+          "quote": "Some of the biggest companies today are AI wrapper.",
+          "speaker": "SPEAKER_13"
+        }
+      ]
+    },
+    {
+      "id": "pivot",
+      "type": "concept",
+      "role": "concept",
+      "name": "转型 (pivot)",
+      "file": "转型",
+      "primary": true,
+      "how_described": "本集给了一个假设检验框架：只有拿到真实证据、证明假设根基错了、穷尽所有选项才该转；好的转型是被客户「拽出来」的，而不是因为被拒后觉得「那边的草更绿」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 467,
+          "t": [
+            2347.345,
+            2353.827
+          ],
+          "quote": "I think we've consumed advice from YC that you should pivot, go do something that's directly home.",
+          "speaker": "SPEAKER_22"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2429.261,
+            2435.484
+          ],
+          "quote": "Pivot because you have genuinely exhausted all of the options, right?",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2453.581,
+            2457.367
+          ],
+          "quote": "And as a result, you think, oh, like maybe this is the moment I should pivot.",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2467.25,
+            2469.951
+          ],
+          "quote": "Generally isn't a good way to pivot.",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2525.582,
+            2532.308
+          ],
+          "quote": "Those pivots where your customers pull the pivot out of you tend to be easier ones to make the decision about making.",
+          "speaker": "SPEAKER_14"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发 (distribution)",
+      "file": "分发",
+      "primary": true,
+      "how_described": "本集说软件不再是从头建公司的难点，分发比以往任何时候都更重要、是难点之一；元游戏进化极快，早期应靠白手套式的不可规模化打法与客户接触",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1417.124,
+            1420.426
+          ],
+          "quote": "Like, technically brilliant, amazing at distribution marketing the business.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1631.575,
+            1638.079
+          ],
+          "quote": "Is distribution, like having a deep technical wedge can be really important or distribution can be really important.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2770.526,
+            2771.987
+          ],
+          "quote": "Distribution matters more than ever.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2773.367,
+            2779.55
+          ],
+          "quote": "And the way to get distribution, the metagame is evolving so quickly, you've just got to figure something out for yourself.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2779.93,
+            2784.432
+          ],
+          "quote": "The Cluelay founder found a way to get reach and distribution.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2784.972,
+            2790.995
+          ],
+          "quote": "I do agree that distribution is more and more and more important than it ever was because it's one of the hard things.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2793.696,
+            2795.217
+          ],
+          "quote": "Distribution can be one of the hard things.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "high-agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (high agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说它基本上是一种「相信你的行动会产出成果」的信念；培养方法是挑看起来相当难但并非完全不可能的事去做、看到产出后不断加码，没人是从造火箭开始的——先做 Zip2、PayPal、Tesla",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 504,
+          "t": [
+            2554.643,
+            2561.085
+          ],
+          "quote": "It's about how in the future all the gains from AI will accrue to a small number of high agency people.",
+          "speaker": "SPEAKER_16"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2561.625,
+            2567.807
+          ],
+          "quote": "Do you feel like, do you think high agency is a trait you can really build, it's a muscle you can build, or is it just you're born with it or not?",
+          "speaker": "SPEAKER_16"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2568.837,
+            2578.581
+          ],
+          "quote": "I think high agency is basically a belief that your actions are going to produce output, like you actually are going to have impact.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "co-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "联合创始人 (co-founder)",
+      "file": "联合创始人",
+      "primary": true,
+      "how_described": "本集说增加第二人的效用几乎总大于成本，但协调成本随人数按梅特卡夫定律上升；单人创始人统计上表现更差，挑联创看聪明、决心、诚信，别执着于技能互补，「技术型找商业型联创是最大的错误」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            906.763,
+            925.255
+          ],
+          "quote": "My question is like Sam Altman like a year ago was talking about in the next few years we're gonna have like a one person billion dollar company and what's like the sentiment in NYC about like having co-founder or like going solo?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 176,
+          "t": [
+            970.747,
+            975.23
+          ],
+          "quote": "So having a co-founder, you talk to each other a third, like it's Metcalfe's law, right?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1018.676,
+            1019.716
+          ],
+          "quote": "He was like, I don't need a co-founder.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1029.782,
+            1033.826
+          ],
+          "quote": "I'm like, dude, I can be here for you, but this is what a co-founder's for.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1082.807,
+            1102.084
+          ],
+          "quote": "is less important so as Tom said I think the fact that you have a co-founder is just as important for all the reasons you mentioned but I wouldn't obsess over let's making sure that our skills are complementary instead just make sure that when you're sad you're very happy talking to this person and that person can bring your morale up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1117.037,
+            1121.658
+          ],
+          "quote": "At risk of rambling on, I want to give 30 seconds on how to pick a great co-founder.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1152.387,
+            1156.25
+          ],
+          "quote": "Like the biggest mistake I've seen is technical co-founders thinking they need a business co-founder.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2330.871,
+            2333.312
+          ],
+          "quote": "I also think that you don't want to delegate talking to your co-founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2333.572,
+            2342.098
+          ],
+          "quote": "This is the main reason why companies fail during the batch, co-founder issues, and so just have real conversations with them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2610.126,
+            2612.749
+          ],
+          "quote": "And to keep yourself going, I would probably try and find a co-founder.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "type": "concept",
+      "role": "concept",
+      "name": "发布 (launch)",
+      "file": "发布",
+      "primary": true,
+      "how_described": "本集说「最成功的创始人早早地、频繁地发布」，引 Cursor 创始人推文（发布零赞两次，然后以 600 亿美元卖给 xAI），并批评聪明人「坐在图书馆里思考拿高分」的习惯不适用于极依赖实证的创业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            449.349,
+            453.151
+          ],
+          "quote": "Or figuring out the physics of like spaceship launch, pretty hard.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1293.043,
+            1296.646
+          ],
+          "quote": "It's hard to like launch regulated banks without tons and tons of money.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1915.295,
+            1919.759
+          ],
+          "quote": "The most successful founders launch early and often.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1949.459,
+            1953.442
+          ],
+          "quote": "And it's like launch zero upvotes, launch two upvotes, launch two upvotes.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1954.382,
+            1957.125
+          ],
+          "quote": "Launch, sell to xAI for $60 billion.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1965.052,
+            1973
+          ],
+          "quote": "So just launch early and make contact with the real world and then get data to update your plan.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2024.905,
+            2027.35
+          ],
+          "quote": "So basically launch early and talk to users.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

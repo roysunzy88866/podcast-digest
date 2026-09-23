@@ -25,7 +25,7 @@ unlisted: true
 
 [[Goggin]] · [[Molly]] · [[Horowitz Andreessen Academy]] · [[主观能动性]] · [[证明过的工作]] · [[超级 IC]] · [[YC]]
 
-<script type="application/json" class="pd-epn">{"Goggin":1,"Molly":2,"Horowitz Andreessen Academy":1,"主观能动性":20,"证明过的工作":1,"超级 IC":1,"YC":16}</script>
+<script type="application/json" class="pd-epn">{"Goggin":1,"Molly":2,"Horowitz Andreessen Academy":1,"主观能动性":1,"证明过的工作":1,"超级 IC":1,"YC":16}</script>
 
 <script>
 (function(){

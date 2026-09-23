@@ -143,9 +143,9 @@ Alex 说现在的机器人「非常非常笨」：硬件进化得令人难以置
 
 **换个口味**
 
+- [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|下一代游戏引擎不会有使用手册]]<span class="pd-rz">同概念:LLM、世界模型 (world model)</span>
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:LLM、AGI</span>
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场]]<span class="pd-rz">同公司:Meta · 同概念:LLM</span>
-- [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|Justin Johnson：世界模型不只有一种，而语言模型做不到这些]]<span class="pd-rz">同公司:Meta · 同概念:世界模型 (world model)</span>
 
 </div>
 </div>

@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Horowitz Andreessen Academy":1,"主观能动性":20,"AI 原生建造者":1,"证明过的工作":1,"超级 IC":1,"YC":16}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Horowitz Andreessen Academy":1,"主观能动性":1,"AI 原生建造者":1,"证明过的工作":1,"超级 IC":1,"YC":16}</script>
 
 <script>
 (function(){

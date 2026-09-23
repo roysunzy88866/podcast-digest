@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[性能优化]] · [[汇编语言]] · [[串行依赖链]] · [[过早优化]] · [[多态]] · [[游戏引擎]] · [[测试驱动开发]] · [[Substack]] · [[Python]] · [[CPU]]
+[[性能优化]] · [[汇编语言]] · [[串行依赖链]] · [[过早优化]] · [[多态]] · [[游戏引擎]] · [[测试驱动开发]] · [[Substack]] · [[Unity]] · [[Python]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":1,"多态":1,"游戏引擎":1,"测试驱动开发":3,"Substack":2,"Python":5,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":1,"多态":1,"游戏引擎":1,"测试驱动开发":3,"Substack":2,"Unity":2,"Python":5}</script>
 
 <script>
 (function(){

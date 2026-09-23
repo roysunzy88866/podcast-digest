@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Evan Reiser":1,"Abnormal":1,"Cogent Security":1,"智能体":289,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":12}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Evan Reiser":1,"Abnormal":1,"Cogent Security":1,"智能体":291,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":12}</script>
 
 <script>
 (function(){

@@ -118,7 +118,10 @@
     "k7wPdCNfljQ": "2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be",
     "xs-ob87TTzg": "2026-09-18-talks-total-recall-agent-memory-and-harness-en",
     "7c9FSUVcXR0": "2026-09-19-talks-operating-distributed-inference-systems",
-    "Hvb2LfMH58c": "2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen"
+    "Hvb2LfMH58c": "2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen",
+    "99sPd15j3Zc": "2026-07-25-talks-what-actually-makes-a-startup-durable",
+    "Gp4zrV3-6N8": "2026-08-03-talks-waymo-co-ceo-dmitri-dolgov-the-demo-is-o",
+    "VBCDhRrvlYo": "2026-08-18-talks-the-next-game-engine-won-t-have-a-manual"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -187,7 +190,7 @@
     "grit": "2026-09-21T09:00:03.000Z",
     "mos": "2026-09-22T09:00:00.000Z",
     "strictlyvc": "2026-09-15T15:17:00.000Z",
-    "latent": "2026-09-20T00:00:00.000Z"
+    "latent": "2026-09-22T21:07:39.000Z"
   },
   "skipped": [
     {
@@ -1527,6 +1530,24 @@
       "reason": "题材不对味:拿不准:LLM+推荐系统偏技术架构深挖,不确定是工程实操还是技术深水,按'少发≈发离题'倾向跳过",
       "title": "How LLMs Are Reshaping Recommendation Systems",
       "pubDate": "2026-08-18T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-21-latent-jev",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "pubDate": "2026-09-21T22:13:49.000Z"
+    },
+    {
+      "id": "2026-09-22-latent-john-platt",
+      "reason": "题材不对味:AI for Science/科研应用属档案明确的不要类(AI+生物/科研应用用户已撤过),按题材跳过",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "pubDate": "2026-09-22T21:07:39.000Z"
+    },
+    {
+      "id": "2026-08-03-talks-waymo-co-ceo-dmitri-dolgov-the-demo-is-o",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work",
+      "pubDate": "2026-08-03T00:00:00.000Z"
     }
   ]
 }

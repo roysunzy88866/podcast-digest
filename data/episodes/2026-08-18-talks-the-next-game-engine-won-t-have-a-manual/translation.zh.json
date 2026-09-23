@@ -1,0 +1,1498 @@
+[
+ {
+  "seg": 0,
+  "start": 12.772,
+  "end": 13.052,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.072,
+  "end": 14.714,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "嗨,各位。"
+ },
+ {
+  "seg": 2,
+  "start": 14.774,
+  "end": 15.714,
+  "speaker": "Unknown",
+  "en": "Thank you for being here.",
+  "zh": "感谢大家来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 17.136,
+  "end": 18.777,
+  "speaker": "Unknown",
+  "en": "Let's start the presentation.",
+  "zh": "我们开始演示吧。"
+ },
+ {
+  "seg": 4,
+  "start": 19.357,
+  "end": 23.721,
+  "speaker": "Unknown",
+  "en": "I really appreciate you having interest in learning more about game development.",
+  "zh": "我非常感谢大家有兴趣进一步了解游戏开发。"
+ },
+ {
+  "seg": 5,
+  "start": 23.881,
+  "end": 30.426,
+  "speaker": "Unknown",
+  "en": "So today I'm going to talk about how I think the next game engine won't have a manual.",
+  "zh": "所以今天我要讲的是,为什么我认为下一代游戏引擎不会有使用手册。"
+ },
+ {
+  "seg": 6,
+  "start": 30.566,
+  "end": 33.109,
+  "speaker": "Unknown",
+  "en": "And at the end, you'll see what I mean by this.",
+  "zh": "在最后,你们会明白我这句话的意思。"
+ },
+ {
+  "seg": 7,
+  "start": 33.589,
+  "end": 34.61,
+  "speaker": "Unknown",
+  "en": "My name is Arturo.",
+  "zh": "我叫 Arturo。"
+ },
+ {
+  "seg": 8,
+  "start": 34.87,
+  "end": 36.711,
+  "speaker": "Unknown",
+  "en": "I'm working on this",
+  "zh": "我正在开发一个"
+ },
+ {
+  "seg": 9,
+  "start": 37.432,
+  "end": 39.073,
+  "speaker": "Unknown",
+  "en": "tool called Nereu.",
+  "zh": "叫做 Nereu 的工具。"
+ },
+ {
+  "seg": 10,
+  "start": 39.473,
+  "end": 46.617,
+  "speaker": "Unknown",
+  "en": "And first, I want to show you kind of like how it works today so you get a glimpse of what I mean by all this.",
+  "zh": "首先,我想给大家展示一下它目前是如何工作的,这样你们就能大致明白我说的这一切是什么意思。"
+ },
+ {
+  "seg": 11,
+  "start": 49.679,
+  "end": 57.643,
+  "speaker": "Unknown",
+  "en": "So we can start asking for what we want and describing something like, okay, I want to add a robot.",
+  "zh": "所以我们可以开始提出我们想要的东西,描述类似这样的内容:好的,我想添加一个机器人。"
+ },
+ {
+  "seg": 12,
+  "start": 58.524,
+  "end": 65.648,
+  "speaker": "Unknown",
+  "en": "Okay, so I ask my assistant to help me add a robot.",
+  "zh": "好,我让我的助手帮我添加一个机器人。"
+ },
+ {
+  "seg": 13,
+  "start": 66.348,
+  "end": 73.834,
+  "speaker": "Unknown",
+  "en": "It found some assets that are robots or have been tagged as robots or the description are a robot.",
+  "zh": "它找到了一些资产,这些资产是机器人,或者被标记为机器人,或者描述是机器人。"
+ },
+ {
+  "seg": 14,
+  "start": 73.854,
+  "end": 76.356,
+  "speaker": "Unknown",
+  "en": "In this case, I want to have a character.",
+  "zh": "在这个例子里,我想要一个角色。"
+ },
+ {
+  "seg": 15,
+  "start": 76.416,
+  "end": 79.218,
+  "speaker": "Unknown",
+  "en": "It's going to be the character that I will be controlling.",
+  "zh": "它将是我要控制的角色。"
+ },
+ {
+  "seg": 16,
+  "start": 80.279,
+  "end": 82.821,
+  "speaker": "Unknown",
+  "en": "If I try to play right now, it won't do anything.",
+  "zh": "如果我现在尝试游玩,它什么都不会做。"
+ },
+ {
+  "seg": 17,
+  "start": 83.021,
+  "end": 84.983,
+  "speaker": "Unknown",
+  "en": "I still need to tell what I want.",
+  "zh": "我还需要告诉它我想要什么。"
+ },
+ {
+  "seg": 18,
+  "start": 85.003,
+  "end": 89.126,
+  "speaker": "Unknown",
+  "en": "I need to describe, oh, okay, I want this to be the move",
+  "zh": "我需要描述,哦,好的,我想让它用"
+ },
+ {
+  "seg": 19,
+  "start": 89.326,
+  "end": 106.265,
+  "speaker": "Unknown",
+  "en": "with WASD, and I want it to be animated, have some sort of animation, so I will describe that to my assistant, which is called Bibi, by the way, and I'm saying make this robot move with WASD and animate it, as I mentioned.",
+  "zh": "WASD 来移动,而且我希望它有动画,有某种动画,所以我会向我的助手描述这个——顺便说一下,我的助手叫 Bibi——我说让这个机器人用 WASD 移动,并且给它加上动画,就像我提到的那样。"
+ },
+ {
+  "seg": 20,
+  "start": 108.668,
+  "end": 113.473,
+  "speaker": "Unknown",
+  "en": "Descriptions are pretty common if you know or if you've played games.",
+  "zh": "描述是非常常见的,如果你了解或者玩过游戏的话。"
+ },
+ {
+  "seg": 21,
+  "start": 113.573,
+  "end": 121.462,
+  "speaker": "Unknown",
+  "en": "You just describe what you want the thing to do, and it's language that people who play games kind of understands.",
+  "zh": "你只需要描述你想让这个东西做什么,而这是玩过游戏的人基本都能理解的语言。"
+ },
+ {
+  "seg": 22,
+  "start": 121.502,
+  "end": 127.208,
+  "speaker": "Unknown",
+  "en": "You don't need to code or you don't need to learn about importing models or anything like that.",
+  "zh": "你不需要写代码,也不需要学习如何导入模型或类似的东西。"
+ },
+ {
+  "seg": 23,
+  "start": 127.488,
+  "end": 129.05,
+  "speaker": "Unknown",
+  "en": "The focus is on making the game.",
+  "zh": "重点在于制作游戏本身。"
+ },
+ {
+  "seg": 24,
+  "start": 129.07,
+  "end": 130.672,
+  "speaker": "Unknown",
+  "en": "So now we have our character moving.",
+  "zh": "所以现在我们的角色可以移动了。"
+ },
+ {
+  "seg": 25,
+  "start": 131.172,
+  "end": 136.996,
+  "speaker": "Unknown",
+  "en": "I want to continue describing my game, building my game, so I want to add some buildings.",
+  "zh": "我想继续描述我的游戏、构建我的游戏,所以我想添加一些建筑。"
+ },
+ {
+  "seg": 26,
+  "start": 137.757,
+  "end": 143.981,
+  "speaker": "Unknown",
+  "en": "In this case, we have a library of assets that might match the description of a building.",
+  "zh": "在这个例子里,我们有一个资产库,里面可能有符合建筑描述的资产。"
+ },
+ {
+  "seg": 27,
+  "start": 144.722,
+  "end": 147.944,
+  "speaker": "Unknown",
+  "en": "We could have futuristic buildings, something like this.",
+  "zh": "我们可以有未来风格的建筑,像这样的东西。"
+ },
+ {
+  "seg": 28,
+  "start": 148.965,
+  "end": 150.606,
+  "speaker": "Unknown",
+  "en": "Warehouse or store.",
+  "zh": "仓库或者商店。"
+ },
+ {
+  "seg": 29,
+  "start": 151.766,
+  "end": 154.008,
+  "speaker": "Unknown",
+  "en": "Maybe we can use a castle.",
+  "zh": "也许我们可以用一个城堡。"
+ },
+ {
+  "seg": 30,
+  "start": 154.408,
+  "end": 159.63,
+  "speaker": "Unknown",
+  "en": "The idea here is that we can let our imagination go wild.",
+  "zh": "这里的重点是,我们可以让想象力自由发挥。"
+ },
+ {
+  "seg": 31,
+  "start": 159.71,
+  "end": 165.373,
+  "speaker": "Unknown",
+  "en": "It doesn't need to be the perfect game or anything.",
+  "zh": "它不需要是一个完美的游戏或类似的东西。"
+ },
+ {
+  "seg": 32,
+  "start": 165.453,
+  "end": 170.836,
+  "speaker": "Unknown",
+  "en": "It's kind of like playing a game, playing with toys, playing with Legos or something like that.",
+  "zh": "这有点像玩游戏、玩玩具、玩乐高之类的。"
+ },
+ {
+  "seg": 33,
+  "start": 171.396,
+  "end": 182.606,
+  "speaker": "Unknown",
+  "en": "I'm saying I want it to have some rain, so I just described the rain, and it will spawn a particle system that's set up or configured as rain.",
+  "zh": "我说我想让它下点雨,所以我只是描述了雨,它就会生成一个粒子系统,这个粒子系统被设置或配置为雨。"
+ },
+ {
+  "seg": 34,
+  "start": 183.507,
+  "end": 185.949,
+  "speaker": "Unknown",
+  "en": "The last thing is I want a camera",
+  "zh": "最后一件事情是我想要一个摄像机"
+ },
+ {
+  "seg": 35,
+  "start": 186.509,
+  "end": 194.093,
+  "speaker": "Unknown",
+  "en": "to follow my character because if I move around it will go out of the view and I won't be able to see it.",
+  "zh": "跟随我的角色,因为如果我四处移动,它会跑出视野,我就看不到它了。"
+ },
+ {
+  "seg": 36,
+  "start": 194.594,
+  "end": 211.663,
+  "speaker": "Unknown",
+  "en": "So it added a camera, it configured it, it's looking at my main character and I have a game without knowing how to code or import assets or anything besides just knowing what I want because I know the language of building games.",
+  "zh": "所以它添加了一个摄像机,配置好了,它注视着我的主角,于是我拥有了一个游戏,而完全不需要懂写代码或导入资产之类的东西,只需要知道我想要什么,因为我懂得构建游戏的语言。"
+ },
+ {
+  "seg": 37,
+  "start": 212.064,
+  "end": 212.724,
+  "speaker": "Unknown",
+  "en": "That's the idea.",
+  "zh": "这就是这个想法。"
+ },
+ {
+  "seg": 38,
+  "start": 212.744,
+  "end": 212.804,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么,"
+ },
+ {
+  "seg": 39,
+  "start": 215.428,
+  "end": 221.011,
+  "speaker": "Unknown",
+  "en": "Making games or getting to this point with a regular tool is very difficult.",
+  "zh": "用常规工具做游戏或者做到这一步是非常困难的。"
+ },
+ {
+  "seg": 40,
+  "start": 222.052,
+  "end": 228.976,
+  "speaker": "Unknown",
+  "en": "I recorded this demo, but you could do this in just a couple of minutes without knowing anything, just describing.",
+  "zh": "我录制了这个演示,但你可以在短短几分钟内做到这些,不需要懂任何东西,只需要描述。"
+ },
+ {
+  "seg": 41,
+  "start": 229.316,
+  "end": 230.737,
+  "speaker": "Unknown",
+  "en": "All the assets are there for you.",
+  "zh": "所有资产都在那里为你准备好。"
+ },
+ {
+  "seg": 42,
+  "start": 232.098,
+  "end": 237.081,
+  "speaker": "Unknown",
+  "en": "But if you were to follow the traditional workflow, you will need to know other things.",
+  "zh": "但如果你走传统的工作流程,你就需要了解其他的东西。"
+ },
+ {
+  "seg": 43,
+  "start": 237.101,
+  "end": 237.321,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 44,
+  "start": 238.882,
+  "end": 249.626,
+  "speaker": "Unknown",
+  "en": "Before continuing, I want to mention why am I speaking here, and you can decide if you want to pay more attention or less attention to myself.",
+  "zh": "在继续之前,我想说明一下我为什么会在这里演讲,你们可以自行决定要多关注还是少关注我。"
+ },
+ {
+  "seg": 45,
+  "start": 249.946,
+  "end": 259.089,
+  "speaker": "Unknown",
+  "en": "I worked at Unity, a game engine company, for almost 10 years, so I saw a lot of people building games and struggling with the same things over and over.",
+  "zh": "我在 Unity——一家游戏引擎公司——工作了将近 10 年,所以我见过很多人制作游戏,并且一遍又一遍地在同样的事情上挣扎。"
+ },
+ {
+  "seg": 46,
+  "start": 259.389,
+  "end": 260.489,
+  "speaker": "Unknown",
+  "en": "At first, it was fun.",
+  "zh": "一开始,这很有趣。"
+ },
+ {
+  "seg": 47,
+  "start": 260.529,
+  "end": 261.489,
+  "speaker": "Unknown",
+  "en": "The challenges were fun.",
+  "zh": "这些挑战很有趣。"
+ },
+ {
+  "seg": 48,
+  "start": 261.85,
+  "end": 266.391,
+  "speaker": "Unknown",
+  "en": "But after seeing them thousands of times, it was like, OK, this is not fun.",
+  "zh": "但在看到它们几千次之后,就会觉得,好吧,这不好玩了。"
+ },
+ {
+  "seg": 49,
+  "start": 266.411,
+  "end": 273.012,
+  "speaker": "Unknown",
+  "en": "I don't think people should spend their energy and time reinventing the same wheel.",
+  "zh": "我认为人们不应该把他们的精力和时间花在重新发明同一个轮子上。"
+ },
+ {
+  "seg": 50,
+  "start": 273.272,
+  "end": 275.813,
+  "speaker": "Unknown",
+  "en": "So then I was part of MongoDB.",
+  "zh": "然后我加入了 MongoDB。"
+ },
+ {
+  "seg": 51,
+  "start": 275.833,
+  "end": 282.874,
+  "speaker": "Unknown",
+  "en": "Then I was learning about more AI topics and how to manage data and all that stuff.",
+  "zh": "之后我开始学习更多 AI 相关的主题，以及如何管理数据之类的知识。"
+ },
+ {
+  "seg": 52,
+  "start": 283.415,
+  "end": 288.916,
+  "speaker": "Unknown",
+  "en": "And I was helping a startup to manage and handle a version control of assets of games.",
+  "zh": "我还帮助一家初创公司管理和处理游戏资产的版本控制。"
+ },
+ {
+  "seg": 53,
+  "start": 289.556,
+  "end": 292.939,
+  "speaker": "Unknown",
+  "en": "So, as I said, I've seen people make games.",
+  "zh": "所以，就像我说的，我见过人们做游戏。"
+ },
+ {
+  "seg": 54,
+  "start": 293.139,
+  "end": 293.799,
+  "speaker": "Unknown",
+  "en": "I've made games.",
+  "zh": "我自己也做过游戏。"
+ },
+ {
+  "seg": 55,
+  "start": 294.32,
+  "end": 314.736,
+  "speaker": "Unknown",
+  "en": "And I think I want to let more people have fun and experience the joy of making games without getting frustrated and without spending two, three years releasing something, realizing that it's difficult to sell a game.",
+  "zh": "而且我觉得我想让更多的人在不感到沮丧、不用花两三年时间发布一个东西、然后发现游戏很难卖出去的情况下，享受做游戏的乐趣并体验其中的快乐。"
+ },
+ {
+  "seg": 56,
+  "start": 314.876,
+  "end": 316.217,
+  "speaker": "Unknown",
+  "en": "There's a lot of competition.",
+  "zh": "竞争非常激烈。"
+ },
+ {
+  "seg": 57,
+  "start": 316.837,
+  "end": 318.439,
+  "speaker": "Unknown",
+  "en": "And, of course, if you want to do that,",
+  "zh": "当然，如果你想那么做，"
+ },
+ {
+  "seg": 58,
+  "start": 319.079,
+  "end": 328.388,
+  "speaker": "Unknown",
+  "en": "I'm not preventing you from doing that, but a lot of people, I think it's just a creative outlet making games, and the game itself should be the thing, right?",
+  "zh": "我不阻止你，但我觉得对很多人来说，做游戏只是一种创意出口，游戏本身才应该是重点，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 328.408,
+  "end": 332.513,
+  "speaker": "Unknown",
+  "en": "Like enjoying the process rather than the end product.",
+  "zh": "比如享受过程，而不是最终产品。"
+ },
+ {
+  "seg": 60,
+  "start": 333.369,
+  "end": 340.375,
+  "speaker": "Unknown",
+  "en": "Okay, so as I was saying before, making a game requires a lot of skills, a lot of knowledge.",
+  "zh": "好，就像我之前说的，做游戏需要很多技能、很多知识。"
+ },
+ {
+  "seg": 61,
+  "start": 340.835,
+  "end": 341.756,
+  "speaker": "Unknown",
+  "en": "It's very difficult.",
+  "zh": "这非常难。"
+ },
+ {
+  "seg": 62,
+  "start": 341.796,
+  "end": 349.002,
+  "speaker": "Unknown",
+  "en": "You need to know programming, 3D modeling, rendering, music, animation, and so many other things.",
+  "zh": "你需要懂编程、3D 建模、渲染、音乐、动画，还有其他很多东西。"
+ },
+ {
+  "seg": 63,
+  "start": 349.342,
+  "end": 358.73,
+  "speaker": "Unknown",
+  "en": "You either have a huge team that complements each other, or if it's just you or you have a small team, people need to wear multiple hats.",
+  "zh": "你要么拥有一个互相补足的庞大团队，要么如果只有你一个人或者是一个小团队，每个人就得身兼多职。"
+ },
+ {
+  "seg": 64,
+  "start": 359.25,
+  "end": 368.337,
+  "speaker": "Unknown",
+  "en": "And honestly, it's very difficult to find someone that's great at game design and also great at rendering and great at composition of cameras in real time.",
+  "zh": "而且说实话，很难找到一个人既擅长游戏设计，又擅长渲染，还擅长实时镜头构图。"
+ },
+ {
+  "seg": 65,
+  "start": 368.938,
+  "end": 374.642,
+  "speaker": "Unknown",
+  "en": "So on top of that, the game has to be fun, right?",
+  "zh": "除此之外，游戏必须好玩，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 374.942,
+  "end": 378.125,
+  "speaker": "Unknown",
+  "en": "If it works and technically works, if it's not fun,",
+  "zh": "如果它能运行、技术上没问题，但不好玩，"
+ },
+ {
+  "seg": 67,
+  "start": 380.046,
+  "end": 381.467,
+  "speaker": "Unknown",
+  "en": "Honestly, people won't play it.",
+  "zh": "说实话，人们不会玩它。"
+ },
+ {
+  "seg": 68,
+  "start": 381.947,
+  "end": 385.93,
+  "speaker": "Unknown",
+  "en": "And I think fun should be for the player, but also for the developers.",
+  "zh": "而且我觉得乐趣应该既属于玩家，也属于开发者。"
+ },
+ {
+  "seg": 69,
+  "start": 386.05,
+  "end": 396.257,
+  "speaker": "Unknown",
+  "en": "In recent years, I think it's become more about producing more and trying to sell more rather than the craft of making games.",
+  "zh": "近年来，我觉得这变得更像是生产更多、试图卖得更多，而不是做游戏的手艺本身。"
+ },
+ {
+  "seg": 70,
+  "start": 396.977,
+  "end": 402.239,
+  "speaker": "Unknown",
+  "en": "And I don't think you need to be a professional game developer to be able to make games.",
+  "zh": "而且我认为你不需要是职业游戏开发者才能做游戏。"
+ },
+ {
+  "seg": 71,
+  "start": 402.259,
+  "end": 410.542,
+  "speaker": "Unknown",
+  "en": "The same as with AI assistance to write code, now you don't need to be a programmer to build whatever you want.",
+  "zh": "就像用 AI 辅助写代码一样，现在你不需要是程序员就能构建任何你想要的东西。"
+ },
+ {
+  "seg": 72,
+  "start": 410.562,
+  "end": 411.642,
+  "speaker": "Unknown",
+  "en": "The same for games.",
+  "zh": "游戏也一样。"
+ },
+ {
+  "seg": 73,
+  "start": 411.702,
+  "end": 412.862,
+  "speaker": "Unknown",
+  "en": "There are other challenges, but",
+  "zh": "还有其他的挑战，但是"
+ },
+ {
+  "seg": 74,
+  "start": 414.803,
+  "end": 415.963,
+  "speaker": "Unknown",
+  "en": "That's my thought.",
+  "zh": "那是我的想法。"
+ },
+ {
+  "seg": 75,
+  "start": 416.084,
+  "end": 424.467,
+  "speaker": "Unknown",
+  "en": "Now, there are powerful engines, Unreal, Unity, and there are powerful LLMs and agents, but I think still it's hard.",
+  "zh": "现在，有强大的引擎，Unreal、Unity，也有强大的 LLM 和智能体，但我认为依然很难。"
+ },
+ {
+  "seg": 76,
+  "start": 424.587,
+  "end": 438.972,
+  "speaker": "Unknown",
+  "en": "It's hard because I think we're just building a bridge between two worlds, and it's not optimal, and you still need to know kind of like what to ask in the vocabulary of an engine, in the vocabulary of code.",
+  "zh": "之所以难，是因为我觉得我们只是在两个世界之间搭一座桥，而这并不是最优的，你仍然需要知道该用什么词汇去问，用引擎的词汇、用代码的词汇。"
+ },
+ {
+  "seg": 77,
+  "start": 439.412,
+  "end": 447.556,
+  "speaker": "Unknown",
+  "en": "Otherwise, the LLM goes rogue and does stuff and reinvents the wheel over and over.",
+  "zh": "否则，LLM 就会失控乱来，做各种事情，一遍又一遍地重复造轮子。"
+ },
+ {
+  "seg": 78,
+  "start": 448.376,
+  "end": 449.317,
+  "speaker": "Unknown",
+  "en": "This is the point, right?",
+  "zh": "这就是重点，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 449.337,
+  "end": 461.423,
+  "speaker": "Unknown",
+  "en": "Like if I say I want a camera that follows this character, I've seen the demos and the LLM reinvents the wheel every single time when the result is going to be essentially the same.",
+  "zh": "比如我说我想要一个跟随这个角色的镜头，我看过那些演示，LLM 每一次都在重复造轮子，而最终结果基本上是一样的。"
+ },
+ {
+  "seg": 80,
+  "start": 462.823,
+  "end": 470.968,
+  "speaker": "Unknown",
+  "en": "By default, the context is on the game engine rather than on the game design part, and I think we should flip that idea.",
+  "zh": "默认情况下，上下文是在游戏引擎上，而不是在游戏设计这部分，而我认为我们应该把这个理念翻转过来。"
+ },
+ {
+  "seg": 81,
+  "start": 471.428,
+  "end": 489.297,
+  "speaker": "Unknown",
+  "en": "So in a current engine, if you want to control a character, you need to have a mesh, import a mesh and think about so many things, a renderer, an animator, a rigid body, and collider for physics, an audio source, and then you add your movement logic and your game rules.",
+  "zh": "所以在当前的引擎里，如果你想控制一个角色，你需要有一个 mesh，导入一个 mesh，还要考虑很多东西：渲染器、动画器、刚体、用于物理的碰撞体、音源，然后你再加上你的移动逻辑和你的游戏规则。"
+ },
+ {
+  "seg": 82,
+  "start": 490.037,
+  "end": 508.04,
+  "speaker": "Unknown",
+  "en": "Most of that is just boilerplate that every single game out there has, or every character in every single game out there has, but somehow developers need to understand and read the descriptions of those components and what the hundreds of sliders do in a game.",
+  "zh": "其中大部分只是样板代码，市面上每一个游戏都有，或者说市面上每一个游戏里的每一个角色都有，但不知为何开发者还是需要去理解、去阅读那些组件的描述，以及那些组件里成百上千个滑块都是干什么的。"
+ },
+ {
+  "seg": 83,
+  "start": 508.08,
+  "end": 515.421,
+  "speaker": "Unknown",
+  "en": "So I think the goal should be just to think, okay, everything is just an asset.",
+  "zh": "所以我觉得目标应该就是简单地想：好，一切都只是一个资产。"
+ },
+ {
+  "seg": 84,
+  "start": 515.662,
+  "end": 517.582,
+  "speaker": "Unknown",
+  "en": "Everything has to be rendered on screen.",
+  "zh": "一切都要在屏幕上渲染。"
+ },
+ {
+  "seg": 85,
+  "start": 518.682,
+  "end": 520.943,
+  "speaker": "Unknown",
+  "en": "Everything has physics most of the time.",
+  "zh": "一切大多数时候都有物理。"
+ },
+ {
+  "seg": 86,
+  "start": 522.203,
+  "end": 527.425,
+  "speaker": "Unknown",
+  "en": "And you just add tags to describe the intent of those assets in your game.",
+  "zh": "而你只是添加标签来描述这些资产在你的游戏中的意图。"
+ },
+ {
+  "seg": 87,
+  "start": 527.445,
+  "end": 531.407,
+  "speaker": "Unknown",
+  "en": "So I want this to be a character, to be animated, to double jump.",
+  "zh": "比如我想让这个东西成为一个角色，能被动画化，能二段跳。"
+ },
+ {
+  "seg": 88,
+  "start": 531.927,
+  "end": 535.788,
+  "speaker": "Unknown",
+  "en": "And this is the language that we use when we play games, right?",
+  "zh": "而这正是我们玩游戏时使用的语言，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 535.808,
+  "end": 542.791,
+  "speaker": "Unknown",
+  "en": "Like the tutorial tells you, oh, press A to jump and press A again while you're on the air to do a double jump.",
+  "zh": "就像新手教程告诉你：按 A 跳跃，在空中再按一次 A 做二段跳。"
+ },
+ {
+  "seg": 90,
+  "start": 543.191,
+  "end": 545.292,
+  "speaker": "Unknown",
+  "en": "That's the language that we should be using.",
+  "zh": "那才是我们应该使用的语言。"
+ },
+ {
+  "seg": 91,
+  "start": 546.392,
+  "end": 550.216,
+  "speaker": "Unknown",
+  "en": "And also defining what happens when an event occurs.",
+  "zh": "同时还要定义当一个事件发生时会发生什么。"
+ },
+ {
+  "seg": 92,
+  "start": 550.557,
+  "end": 554.521,
+  "speaker": "Unknown",
+  "en": "Like in this case, when you collect a coin, I want you to increase the score.",
+  "zh": "比如在这个例子里，当你收集到一枚金币时，我要你增加分数。"
+ },
+ {
+  "seg": 93,
+  "start": 555.262,
+  "end": 567.574,
+  "speaker": "Unknown",
+  "en": "And of course, the physics and the rendering still happen, but we're building on a layer on top to make it more accessible for more people to build games.",
+  "zh": "当然，物理和渲染仍然在发生，但我们是在其之上构建一个层，让更多的人更容易地构建游戏。"
+ },
+ {
+  "seg": 94,
+  "start": 569.636,
+  "end": 574.841,
+  "speaker": "Unknown",
+  "en": "And the engine knows what to do with these tags because these systems.",
+  "zh": "而引擎知道如何处理这些标签，因为这些系统。"
+ },
+ {
+  "seg": 95,
+  "start": 575.641,
+  "end": 581.166,
+  "speaker": "Unknown",
+  "en": "And this system comes from something that we're calling the ATS, or Asset Tag System.",
+  "zh": "而这个系统来自我们称之为 ATS 的东西，即资产标签系统（Asset Tag System）。"
+ },
+ {
+  "seg": 96,
+  "start": 581.186,
+  "end": 587.711,
+  "speaker": "Unknown",
+  "en": "It comes from the idea from game development called Entity Component System, data-oriented design, which means",
+  "zh": "它源自游戏开发中一个叫实体组件系统（Entity Component System）的理念，也就是面向数据的设计，意思是"
+ },
+ {
+  "seg": 97,
+  "start": 588.886,
+  "end": 605.075,
+  "speaker": "Unknown",
+  "en": "We just describe objects with components, or in this case with tags, and then there are systems that query for all the assets in the world and say, okay, I'm going to move",
+  "zh": "我们只用组件来描述对象，或者在这个案例中用标签，然后有一些系统会查询世界上所有的资产并说：好，我要移动"
+ },
+ {
+  "seg": 98,
+  "start": 605.795,
+  "end": 610.297,
+  "speaker": "Unknown",
+  "en": "All the objects that have the vehicle, the player, and the drivable tag.",
+  "zh": "所有带有 vehicle、player 和 drivable 标签的对象。"
+ },
+ {
+  "seg": 99,
+  "start": 610.717,
+  "end": 615.659,
+  "speaker": "Unknown",
+  "en": "So that's how it works, and all the games can recycle this.",
+  "zh": "这就是它的工作方式，而且所有的游戏都可以复用这个。"
+ },
+ {
+  "seg": 100,
+  "start": 615.919,
+  "end": 617.5,
+  "speaker": "Unknown",
+  "en": "On the right, you see that there's a building.",
+  "zh": "在右边，你可以看到有一栋建筑。"
+ },
+ {
+  "seg": 101,
+  "start": 617.72,
+  "end": 619.761,
+  "speaker": "Unknown",
+  "en": "It doesn't have tags, so it's not going to move.",
+  "zh": "它没有标签，所以它不会移动。"
+ },
+ {
+  "seg": 102,
+  "start": 620.161,
+  "end": 630.305,
+  "speaker": "Unknown",
+  "en": "But nothing prevents you from adding the vehicle and drivable tag to your building, and then you have a building that you can put in a Mario Kart style of game.",
+  "zh": "但没有什么能阻止你给你的建筑加上 vehicle 和 drivable 标签，然后你就有了一栋可以放进马里奥赛车风格游戏里的建筑。"
+ },
+ {
+  "seg": 103,
+  "start": 630.985,
+  "end": 636.106,
+  "speaker": "Unknown",
+  "en": "Nothing prevents you from doing that, and as I said, letting your imagination go wild.",
+  "zh": "没有什么能阻止你这么做，正如我所说，尽情发挥你的想象力。"
+ },
+ {
+  "seg": 104,
+  "start": 637.147,
+  "end": 640.807,
+  "speaker": "Unknown",
+  "en": "The assistant, the AI assistant, essentially helps you get unstuck.",
+  "zh": "这个助手，这个 AI 助手，本质上是帮助你摆脱卡住的困境。"
+ },
+ {
+  "seg": 105,
+  "start": 641.127,
+  "end": 653.77,
+  "speaker": "Unknown",
+  "en": "If I don't know how to make the car moves, I just ask it, and it knows, understands what are the tools available, what are the tags available, and then it applies them to the asset that I'm talking about.",
+  "zh": "如果我不知道怎么让车动起来，我就直接问它，它知道、理解有哪些可用的工具、有哪些可用的标签，然后把它们应用到我正在说的那个资产上。"
+ },
+ {
+  "seg": 106,
+  "start": 655.151,
+  "end": 659.192,
+  "speaker": "Unknown",
+  "en": "How it is driven, and this is a pretty common concept from",
+  "zh": "它是如何驱动的，这是一个相当常见的概念，来自"
+ },
+ {
+  "seg": 107,
+  "start": 660.752,
+  "end": 661.072,
+  "speaker": "Unknown",
+  "en": "Agents.",
+  "zh": "智能体。"
+ },
+ {
+  "seg": 108,
+  "start": 661.512,
+  "end": 664.474,
+  "speaker": "Unknown",
+  "en": "You just type your query.",
+  "zh": "你只需要输入你的查询。"
+ },
+ {
+  "seg": 109,
+  "start": 664.934,
+  "end": 676.02,
+  "speaker": "Unknown",
+  "en": "Well, we build the prompt using context from the scene, but also some extra context based on, for example, what type of assets are on your game.",
+  "zh": "嗯，我们使用来自场景的上下文来构建 prompt，同时也加入一些额外的上下文，比如，你的游戏里是什么类型的资产。"
+ },
+ {
+  "seg": 110,
+  "start": 676.44,
+  "end": 684.524,
+  "speaker": "Unknown",
+  "en": "If you're using robots, if you're using something like medieval, et cetera, we append that to the context.",
+  "zh": "如果你在用机器人，如果你在用类似中世纪的东西，等等，我们会把这些附加到上下文里。"
+ },
+ {
+  "seg": 111,
+  "start": 684.944,
+  "end": 689.827,
+  "speaker": "Unknown",
+  "en": "We also allow the user to describe the type of game that they want to make.",
+  "zh": "我们还允许用户描述他们想做的游戏类型。"
+ },
+ {
+  "seg": 112,
+  "start": 690.147,
+  "end": 695.171,
+  "speaker": "Unknown",
+  "en": "So that's also part of what is appended into the context.",
+  "zh": "所以这也是附加到上下文里的内容的一部分。"
+ },
+ {
+  "seg": 113,
+  "start": 695.652,
+  "end": 701.176,
+  "speaker": "Unknown",
+  "en": "And then the agent just performs calls and appends or removes the tags.",
+  "zh": "然后智能体就执行调用，添加或移除标签。"
+ },
+ {
+  "seg": 114,
+  "start": 701.737,
+  "end": 707.421,
+  "speaker": "Unknown",
+  "en": "All these tags and all these systems are built into the engine.",
+  "zh": "所有这些标签和所有这些系统都内置在引擎里。"
+ },
+ {
+  "seg": 115,
+  "start": 708.222,
+  "end": 710.944,
+  "speaker": "Unknown",
+  "en": "We don't have a scripting system in there.",
+  "zh": "我们在那里没有脚本系统。"
+ },
+ {
+  "seg": 116,
+  "start": 711.084,
+  "end": 711.845,
+  "speaker": "Unknown",
+  "en": "That's on purpose.",
+  "zh": "这是故意的。"
+ },
+ {
+  "seg": 117,
+  "start": 712.305,
+  "end": 718.512,
+  "speaker": "Unknown",
+  "en": "But it's just JavaScript and runs on the browser, so whoever wants to extend, they can.",
+  "zh": "但它就是 JavaScript，跑在浏览器上，所以任何想扩展的人都可以扩展。"
+ },
+ {
+  "seg": 118,
+  "start": 718.612,
+  "end": 720.233,
+  "speaker": "Unknown",
+  "en": "Nothing prevents them from doing that.",
+  "zh": "没有什么能阻止他们这么做。"
+ },
+ {
+  "seg": 119,
+  "start": 720.614,
+  "end": 723.597,
+  "speaker": "Unknown",
+  "en": "But for most users, that shouldn't be the case.",
+  "zh": "但对大多数用户来说，情况不应该是这样。"
+ },
+ {
+  "seg": 120,
+  "start": 724.558,
+  "end": 729.823,
+  "speaker": "Unknown",
+  "en": "And, yeah, all the updates to the scene happen, and that's how it works.",
+  "zh": "然后，是的，对场景的所有更新都会发生，它就是这么工作的。"
+ },
+ {
+  "seg": 121,
+  "start": 730.003,
+  "end": 733.887,
+  "speaker": "Unknown",
+  "en": "Honestly, the challenging part is the composing",
+  "zh": "说实话，有挑战性的部分是把这些"
+ },
+ {
+  "seg": 122,
+  "start": 734.628,
+  "end": 741.05,
+  "speaker": "Unknown",
+  "en": "Games into these tags and into these systems, because there are a lot of genres.",
+  "zh": "游戏分解成这些标签和这些系统，因为有很多游戏类型。"
+ },
+ {
+  "seg": 123,
+  "start": 741.23,
+  "end": 744.33,
+  "speaker": "Unknown",
+  "en": "There are a lot of ways to describe the same game.",
+  "zh": "有很多种方式来描述同一个游戏。"
+ },
+ {
+  "seg": 124,
+  "start": 744.37,
+  "end": 746.371,
+  "speaker": "Unknown",
+  "en": "There are things like the mood of the game.",
+  "zh": "还有像游戏的情绪氛围这样的东西。"
+ },
+ {
+  "seg": 125,
+  "start": 746.411,
+  "end": 751.012,
+  "speaker": "Unknown",
+  "en": "Like, I want to make a platformer, but that feels scary.",
+  "zh": "比如，我想做一个平台跳跃游戏，但要有恐怖的感觉。"
+ },
+ {
+  "seg": 126,
+  "start": 751.312,
+  "end": 758.914,
+  "speaker": "Unknown",
+  "en": "Well, that also touches on things like the post-processing effects and things like the lighting, et cetera.",
+  "zh": "嗯，那也涉及到后期处理效果和光照之类的东西。"
+ },
+ {
+  "seg": 127,
+  "start": 759.294,
+  "end": 764.195,
+  "speaker": "Unknown",
+  "en": "So those things are the things that we're decomposing to drive the",
+  "zh": "所以这些东西就是我们在分解用来驱动"
+ },
+ {
+  "seg": 128,
+  "start": 764.796,
+  "end": 765.216,
+  "speaker": "Unknown",
+  "en": "the engine.",
+  "zh": "引擎的东西。"
+ },
+ {
+  "seg": 129,
+  "start": 765.797,
+  "end": 766.799,
+  "speaker": "Unknown",
+  "en": "How I'm building this?",
+  "zh": "我是怎么构建这个的？"
+ },
+ {
+  "seg": 130,
+  "start": 767.36,
+  "end": 768.262,
+  "speaker": "Unknown",
+  "en": "Well, it's",
+  "zh": "嗯，"
+ },
+ {
+  "seg": 131,
+  "start": 769.651,
+  "end": 779.057,
+  "speaker": "Unknown",
+  "en": "It's the first time that I build something of this scale at this speed and using, you know, mostly working with an AI daily.",
+  "zh": "这是我第一次以这样的速度构建这种规模的东西，而且是基本每天和 AI 一起工作。"
+ },
+ {
+  "seg": 132,
+  "start": 779.157,
+  "end": 782.139,
+  "speaker": "Unknown",
+  "en": "And I'm sure everyone uses Claude Code or something similar.",
+  "zh": "我确信每个人都在用 Claude Code 或类似的东西。"
+ },
+ {
+  "seg": 133,
+  "start": 783.06,
+  "end": 792.026,
+  "speaker": "Unknown",
+  "en": "The way it works is I bring all this stuff that is on my mind and I talk to Claude and we discuss that part.",
+  "zh": "它的工作方式是，我把脑子里所有这些东西带过来，和 Claude 交谈，我们讨论那部分。"
+ },
+ {
+  "seg": 134,
+  "start": 792.046,
+  "end": 798.55,
+  "speaker": "Unknown",
+  "en": "Then I go to, let's say, if I'm focusing on something related to lighting, I talk to some",
+  "zh": "然后我去，比方说，如果我在专注做和光照相关的东西，我会和"
+ },
+ {
+  "seg": 135,
+  "start": 799.29,
+  "end": 809.242,
+  "speaker": "Unknown",
+  "en": "Friend on the industry who focuses on that and I ask questions and then I bring that in and then we build those tools and I kind of like say, I don't think we need this setting.",
+  "zh": "行业内专注这个的朋友聊，我问问题，然后把这些带进来，接着我们构建那些工具，我会有点像说，我觉得我们不需要这个设置。"
+ },
+ {
+  "seg": 136,
+  "start": 809.282,
+  "end": 810.784,
+  "speaker": "Unknown",
+  "en": "I don't think we need this feature.",
+  "zh": "我觉得我们不需要这个功能。"
+ },
+ {
+  "seg": 137,
+  "start": 810.804,
+  "end": 813.427,
+  "speaker": "Unknown",
+  "en": "I haven't seen a lot of users using those things.",
+  "zh": "我没见过很多用户使用那些东西。"
+ },
+ {
+  "seg": 138,
+  "start": 813.447,
+  "end": 817.131,
+  "speaker": "Unknown",
+  "en": "So let's get rid of them in order to simplify the engine.",
+  "zh": "所以让我们把它们去掉，来简化引擎。"
+ },
+ {
+  "seg": 139,
+  "start": 818.032,
+  "end": 818.552,
+  "speaker": "Unknown",
+  "en": "We build it.",
+  "zh": "我们构建它。"
+ },
+ {
+  "seg": 140,
+  "start": 819.632,
+  "end": 824.76,
+  "speaker": "Unknown",
+  "en": "Then as we build, we give the definition of the tools to the assistant.",
+  "zh": "然后在构建过程中，我们把工具的定义给到助手。"
+ },
+ {
+  "seg": 141,
+  "start": 824.78,
+  "end": 829.767,
+  "speaker": "Unknown",
+  "en": "So every time we add new tools, the assistant knows the tools that we're adding.",
+  "zh": "所以每次我们添加新工具，助手都知道我们添加的工具。"
+ },
+ {
+  "seg": 142,
+  "start": 830.609,
+  "end": 834.014,
+  "speaker": "Unknown",
+  "en": "And yeah, right now it's kind of like still in place.",
+  "zh": "然后，是的，现在它还有点像是处于"
+ },
+ {
+  "seg": 143,
+  "start": 835.075,
+  "end": 836.517,
+  "speaker": "Unknown",
+  "en": "Closed Alpha.",
+  "zh": "封闭 Alpha。"
+ },
+ {
+  "seg": 144,
+  "start": 836.537,
+  "end": 843.645,
+  "speaker": "Unknown",
+  "en": "I don't even know how to call it at this point, but some people are using it, giving feedback, and then we go back to square one.",
+  "zh": "到这个阶段我甚至不知道该怎么称呼它了，但有一些人在使用它、给反馈，然后我们回到起点重新来。"
+ },
+ {
+  "seg": 145,
+  "start": 845.187,
+  "end": 853.957,
+  "speaker": "Unknown",
+  "en": "One thing that I think it's worth sharing also in this presentation is the way of assembling this context because",
+  "zh": "有一点我觉得在这个演讲里也值得分享，那就是组装这个上下文的方式，因为"
+ },
+ {
+  "seg": 146,
+  "start": 854.477,
+  "end": 856.339,
+  "speaker": "Unknown",
+  "en": "Yeah, we're using an LLM mostly.",
+  "zh": "是的，我们主要在用 LLM。"
+ },
+ {
+  "seg": 147,
+  "start": 857.08,
+  "end": 864.647,
+  "speaker": "Unknown",
+  "en": "I've used also vision models mostly to tag the assets that we have because it's like 6,000 or 7,000 assets.",
+  "zh": "我也用了视觉模型，主要是给我们拥有的资产打标签，因为大概有 6000 或 7000 个资产。"
+ },
+ {
+  "seg": 148,
+  "start": 865.248,
+  "end": 874.397,
+  "speaker": "Unknown",
+  "en": "I could not manually tag them all and explain like, oh, this is an astronaut and this is a knight and this is a castle and this is whatever.",
+  "zh": "我不可能手动给它们全部打标签并解释说，哦，这是一个宇航员，这是一个骑士，这是一座城堡，这是什么什么。"
+ },
+ {
+  "seg": 149,
+  "start": 874.757,
+  "end": 876.619,
+  "speaker": "Unknown",
+  "en": "I just have the names and the 3D file.",
+  "zh": "我只有名字和 3D 文件。"
+ },
+ {
+  "seg": 150,
+  "start": 879.081,
+  "end": 883.744,
+  "speaker": "Unknown",
+  "en": "So I took a screenshot and ran a vision model to describe those.",
+  "zh": "所以我截了个图，然后用一个视觉模型来描述那些内容。"
+ },
+ {
+  "seg": 151,
+  "start": 883.844,
+  "end": 887.467,
+  "speaker": "Unknown",
+  "en": "But it's mostly an LLM, what we're using.",
+  "zh": "但我们使用的主要是一个 LLM。"
+ },
+ {
+  "seg": 152,
+  "start": 888.327,
+  "end": 894.431,
+  "speaker": "Unknown",
+  "en": "And if we feed the entire scene to the LLM, the context grows a lot.",
+  "zh": "如果我们把整个场景喂给 LLM，上下文会变得很大。"
+ },
+ {
+  "seg": 153,
+  "start": 894.591,
+  "end": 900.135,
+  "speaker": "Unknown",
+  "en": "Let's say in this scene, I think I had like 100 assets, 100 things being there.",
+  "zh": "比如在这个场景里，我记得大概有 100 个资产，100 个东西在里面。"
+ },
+ {
+  "seg": 154,
+  "start": 900.495,
+  "end": 904.558,
+  "speaker": "Unknown",
+  "en": "But most of them are like grass that we could ignore.",
+  "zh": "但其中大部分是我们可以忽略的草。"
+ },
+ {
+  "seg": 155,
+  "start": 904.618,
+  "end": 906.279,
+  "speaker": "Unknown",
+  "en": "It doesn't really make sense.",
+  "zh": "这其实没什么意义。"
+ },
+ {
+  "seg": 156,
+  "start": 906.779,
+  "end": 908.961,
+  "speaker": "Unknown",
+  "en": "But this is simple, like scene.",
+  "zh": "不过这算是个简单的场景。"
+ },
+ {
+  "seg": 157,
+  "start": 909.281,
+  "end": 934.903,
+  "speaker": "Unknown",
+  "en": "But what we're using here to assemble the context is something that's very well known in the game dev world, which is called level of details, which means if I'm close to an object or is close inside to myself, I'm going to render it with a higher quality texture, with a higher quality material, with a higher quality model in many cases, something that's too far away from the camera",
+  "zh": "而我们在这里用来组装上下文的东西，在游戏开发圈子里非常有名，叫做 level of details（细节层级），意思是如果我靠近一个物体，或者它离我自己很近，我就会用更高质量的贴图、更高质量的材质、在多数情况下用更高质量的模型来渲染它，而对于离镜头太远的东西"
+ },
+ {
+  "seg": 158,
+  "start": 935.503,
+  "end": 942.065,
+  "speaker": "Unknown",
+  "en": "I'm just going to maybe just put a cube, and the user won't be able to tell because it's so far away.",
+  "zh": "我可能就只放一个立方体，用户也不会察觉，因为它太远了。"
+ },
+ {
+  "seg": 159,
+  "start": 942.445,
+  "end": 945.426,
+  "speaker": "Unknown",
+  "en": "So we're using something similar to assemble the context.",
+  "zh": "所以我们用类似的方法来组装上下文。"
+ },
+ {
+  "seg": 160,
+  "start": 945.466,
+  "end": 954.009,
+  "speaker": "Unknown",
+  "en": "In this case, if the user is editing the game, you can see that maybe, well, it's clicking on the knight, right?",
+  "zh": "在这种情况下，如果用户在编辑游戏，你可以看到，嗯，他正在点击那个骑士，对吧？"
+ },
+ {
+  "seg": 161,
+  "start": 954.389,
+  "end": 955.67,
+  "speaker": "Unknown",
+  "en": "So the things that are around it",
+  "zh": "所以它周围的东西"
+ },
+ {
+  "seg": 162,
+  "start": 956.41,
+  "end": 965.659,
+  "speaker": "Unknown",
+  "en": "might have a higher priority, so we feed them information about the tags that they have and the values of the settings on those tags.",
+  "zh": "可能拥有更高的优先级，于是我们把它们的标签信息以及那些标签上设置的具体数值喂给模型。"
+ },
+ {
+  "seg": 163,
+  "start": 966.08,
+  "end": 978.071,
+  "speaker": "Unknown",
+  "en": "Things that are nearby, we just say, okay, there's something that's a player here at this position, but I'm not going to send you the entire context in there.",
+  "zh": "对于附近的东西，我们只说，好的，在这个位置有一个玩家，但我不会把那边的全部上下文发给你。"
+ },
+ {
+  "seg": 164,
+  "start": 979.734,
+  "end": 991.963,
+  "speaker": "Unknown",
+  "en": "And as the user keeps moving around and modifies things, then we update that and feed the assistant with more relevant information about the game.",
+  "zh": "当用户持续移动并修改东西时，我们就更新这些内容，把更多与游戏相关的信息喂给助手。"
+ },
+ {
+  "seg": 165,
+  "start": 994.079,
+  "end": 1008.62,
+  "speaker": "Unknown",
+  "en": "Okay, so just to start wrapping up, I think this assistant called BB should be kind of like something that gets people unstuck from making the game.",
+  "zh": "好，开始收尾了，我认为这个叫 BB 的助手应该是一种能帮人们在制作游戏时摆脱卡壳的东西。"
+ },
+ {
+  "seg": 166,
+  "start": 1009.842,
+  "end": 1016.528,
+  "speaker": "Unknown",
+  "en": "I don't want us to one-shot games that nobody is going to play, and I don't see the point in that.",
+  "zh": "我不想让我们去一键生成没人会玩的游戏，我觉得那没有意义。"
+ },
+ {
+  "seg": 167,
+  "start": 1016.808,
+  "end": 1031.522,
+  "speaker": "Unknown",
+  "en": "There's in the industry, of course, the need for games that are one-shotted, but here the idea is that we allow people to make games and experience that and have fun and share those games with their families and friends and that.",
+  "zh": "当然，行业里确实有对一键生成的游戏的需求，但这里的理念是，我们让人们能够制作游戏、体验这个过程、享受乐趣，并把这些游戏分享给他们的家人朋友之类的。"
+ },
+ {
+  "seg": 168,
+  "start": 1032.022,
+  "end": 1051.471,
+  "speaker": "Unknown",
+  "en": "And, of course, that they learn along the way the language of making games, the language of game design, not necessarily the coding or programming, although people have used this and say, like, oh, yeah, I can understand now concept that I didn't understand before of programming, but that was not the initial goal.",
+  "zh": "而且，当然，让他们在这个过程中学习制作游戏的语言、游戏设计的语言，而不一定是编码或编程，尽管有人用过之后说，哦，对，我现在能理解一些以前不理解的编程概念了，但这并不是最初的目标。"
+ },
+ {
+  "seg": 169,
+  "start": 1052.752,
+  "end": 1063.824,
+  "speaker": "Unknown",
+  "en": "There's another kind of like branch of engines or tools that are being used called world models, which are being generated on the fly.",
+  "zh": "还有另一类正在被使用的引擎或工具分支，叫做世界模型，它们是即时生成的。"
+ },
+ {
+  "seg": 170,
+  "start": 1064.004,
+  "end": 1070.071,
+  "speaker": "Unknown",
+  "en": "And some people, I think there's another session later talking about this and how games can be achieved with world models.",
+  "zh": "而有些人——我记得稍后有一场分会议专门讨论这个，以及如何用世界模型来实现游戏。"
+ },
+ {
+  "seg": 171,
+  "start": 1070.531,
+  "end": 1072.651,
+  "speaker": "Unknown",
+  "en": "I think that's going to be a different medium.",
+  "zh": "我认为那会是一种不同的媒介。"
+ },
+ {
+  "seg": 172,
+  "start": 1072.872,
+  "end": 1076.612,
+  "speaker": "Unknown",
+  "en": "Even if we call them video games, there are many challenges.",
+  "zh": "即使我们把它们称为电子游戏，也还存在许多挑战。"
+ },
+ {
+  "seg": 173,
+  "start": 1076.712,
+  "end": 1081.533,
+  "speaker": "Unknown",
+  "en": "Games, for instance, in these days, they have to render 60 frames per second.",
+  "zh": "比如，如今的游戏必须渲染每秒 60 帧。"
+ },
+ {
+  "seg": 174,
+  "start": 1082.073,
+  "end": 1089.895,
+  "speaker": "Unknown",
+  "en": "And doing that at 4K resolutions in real time with a world model, I think it's still far away.",
+  "zh": "而要用世界模型以 4K 分辨率实时做到这一点，我认为还很遥远。"
+ },
+ {
+  "seg": 175,
+  "start": 1090.635,
+  "end": 1096.756,
+  "speaker": "Unknown",
+  "en": "And on top of that, rendering physics and, well, sorry, simulating physics and stuff, it's very difficult.",
+  "zh": "除此之外，渲染物理——哦，抱歉，是模拟物理之类的东西，也非常困难。"
+ },
+ {
+  "seg": 176,
+  "start": 1096.976,
+  "end": 1099.457,
+  "speaker": "Unknown",
+  "en": "But I think it's exciting what's going on.",
+  "zh": "但我觉得目前正在发生的事情很令人兴奋。"
+ },
+ {
+  "seg": 177,
+  "start": 1101.518,
+  "end": 1102.858,
+  "speaker": "Unknown",
+  "en": "So that's it.",
+  "zh": "就这些了。"
+ },
+ {
+  "seg": 178,
+  "start": 1103.498,
+  "end": 1114.002,
+  "speaker": "Unknown",
+  "en": "If you want to play around, if you want to share this with your kids or friends or whoever, I can add you to the wait list.",
+  "zh": "如果你想玩一玩，想把这个分享给你的孩子或朋友或任何人，我可以把你加进等待名单。"
+ },
+ {
+  "seg": 179,
+  "start": 1114.523,
+  "end": 1122.065,
+  "speaker": "Unknown",
+  "en": "Honestly, it's been very fun to make, but also whenever I want to test something and I just play around and bring in",
+  "zh": "说实话，做这个东西非常有趣，而且每当我想测试什么的时候，我就随便玩玩，拉进来"
+ },
+ {
+  "seg": 180,
+  "start": 1123.486,
+  "end": 1127.811,
+  "speaker": "Unknown",
+  "en": "An astronaut and bring in a dinosaur and make them just walk around.",
+  "zh": "一个宇航员，再放进来一只恐龙，让它们到处走走。"
+ },
+ {
+  "seg": 181,
+  "start": 1127.951,
+  "end": 1128.972,
+  "speaker": "Unknown",
+  "en": "It's so much fun.",
+  "zh": "太好玩了。"
+ },
+ {
+  "seg": 182,
+  "start": 1129.112,
+  "end": 1134.677,
+  "speaker": "Unknown",
+  "en": "It's kind of like what got me into game development, I think, like 20 years ago.",
+  "zh": "这有点像大约 20 年前让我进入游戏开发行业的那个东西。"
+ },
+ {
+  "seg": 183,
+  "start": 1135.498,
+  "end": 1137.34,
+  "speaker": "Unknown",
+  "en": "And I progressed throughout my career.",
+  "zh": "然后我在职业生涯中不断前进。"
+ },
+ {
+  "seg": 184,
+  "start": 1137.36,
+  "end": 1145.769,
+  "speaker": "Unknown",
+  "en": "I started getting kind of disappointed, like, oh, this is not fun anymore, so I'm having fun again, and I want to share that with more people.",
+  "zh": "我开始变得有点失望，比如，哦，这不再有趣了，所以现在我重新找回了乐趣，我想和更多人分享这种乐趣。"
+ },
+ {
+  "seg": 185,
+  "start": 1146.469,
+  "end": 1152.553,
+  "speaker": "Unknown",
+  "en": "So thank you so much, and I'll be outside if you have questions, want to chat more about games or whatever.",
+  "zh": "所以非常感谢，如果你有问题，或者想多聊聊游戏之类的话题，我就在外面。"
+ },
+ {
+  "seg": 186,
+  "start": 1152.794,
+  "end": 1153.934,
+  "speaker": "Unknown",
+  "en": "Thank you so much for your time.",
+  "zh": "非常感谢大家的时间。"
+ }
+]
