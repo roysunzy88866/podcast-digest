@@ -147,7 +147,7 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
 
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI · 同概念:evals、LLM 判别器 (LLM as a judge)、智能体 (agent)</span>
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:evals、LLM 判别器 (LLM as a judge)、智能体 (agent)</span>
-- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同概念:LLM 判别器 (LLM as a judge)、trace、智能体 (agent)</span>
+- [[2026-08-19-talks-trading-desks-to-clinical-trials-paralle|垂直 AI 创业的七步配方：护城河不是模型，是领域专业知识]]<span class="pd-rz">同概念:LLM 判别器 (LLM as a judge)、智能体 (agent)、错误分析 (error analysis)</span>
 
 </div>
 <div class="pd-ex">

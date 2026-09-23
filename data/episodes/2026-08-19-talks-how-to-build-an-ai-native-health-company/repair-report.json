@@ -1,0 +1,43 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "01:21",
+      "speaker": "Dan Feng",
+      "trimmed": false,
+      "tsWas": "01:21",
+      "spkWas": "Dan"
+    },
+    {
+      "i": 3,
+      "timestamp": "07:30",
+      "speaker": "Dan Feng",
+      "trimmed": false,
+      "tsWas": "07:30",
+      "spkWas": "Dan"
+    },
+    {
+      "i": 4,
+      "timestamp": "12:40",
+      "speaker": "Dan Feng",
+      "trimmed": false,
+      "tsWas": "12:42",
+      "spkWas": "Dan"
+    },
+    {
+      "i": 5,
+      "timestamp": "06:06",
+      "speaker": "Dan Feng",
+      "trimmed": false,
+      "tsWas": "06:06",
+      "spkWas": "Dan"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Like tractors want to replace farmers, but the farmers who can operate the tractor will replace the ones who cannot."
+    }
+  ]
+}

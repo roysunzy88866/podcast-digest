@@ -163,9 +163,9 @@ AI 的本质是「定义做什么，而不是怎么做」。既然模型不可�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-19-talks-trading-desks-to-clinical-trials-paralle|垂直 AI 创业的七步配方：护城河不是模型，是领域专业知识]]<span class="pd-rz">同概念:可观测性 (observability)、提示词 (prompt)、智能体 (agent)</span>
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相]]<span class="pd-rz">同公司:Datadog、ChatGPT、Figma · 同概念:智能体 (agent)、可观测性 (observability)</span>
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:智能体 (agent)、评测 (evals)</span>
 
 </div>
 <div class="pd-ex">

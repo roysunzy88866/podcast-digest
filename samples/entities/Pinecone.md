@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Nexus]] · [[RAG]] · [[NoQL]] · [[Sal Motamini]] · [[Kevin Ball]] · [[Edo Liberty]] · [[Alvaro Morales]] · [[Yorg Shad]] · [[知识层]]
 
-<script type="application/json" class="pd-epn">{"智能体":293,"Nexus":2,"RAG":15,"NoQL":2,"Sal Motamini":1,"Kevin Ball":3,"Edo Liberty":1,"Alvaro Morales":1,"Yorg Shad":1,"知识层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":295,"Nexus":2,"RAG":15,"NoQL":2,"Sal Motamini":1,"Kevin Ball":3,"Edo Liberty":1,"Alvaro Morales":1,"Yorg Shad":1,"知识层":1}</script>
 
 <script>
 (function(){

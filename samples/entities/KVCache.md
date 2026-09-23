@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[GPU]] · [[Neil Movva]] · [[Alexander Whedon]] · [[Nishant Gupta]] · [[Patrick O'Shaughnessy]] · [[SubQuadratic]] · [[Naman Ahuja]] · [[SAIL Research]]
 
-<script type="application/json" class="pd-epn">{"智能体":293,"推理":52,"GPU":18,"Neil Movva":1,"Alexander Whedon":1,"Nishant Gupta":1,"Patrick O'Shaughnessy":1,"SubQuadratic":1,"Naman Ahuja":1,"SAIL Research":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":295,"推理":52,"GPU":18,"Neil Movva":1,"Alexander Whedon":1,"Nishant Gupta":1,"Patrick O'Shaughnessy":1,"SubQuadratic":1,"Naman Ahuja":1,"SAIL Research":1}</script>
 
 <script>
 (function(){

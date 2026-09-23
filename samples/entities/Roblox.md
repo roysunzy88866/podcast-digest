@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Sebastian Barrios]] · [[Roblox CEO]] · [[Josh Elman]] · [[Amjad Masad]] · [[MercadoLibre]] · [[用户生成内容]] · [[Oli Forsyth]] · [[Gagan Viani]]
 
-<script type="application/json" class="pd-epn">{"智能体":293,"ChatGPT":75,"Sebastian Barrios":1,"Roblox CEO":1,"Josh Elman":1,"Amjad Masad":3,"MercadoLibre":1,"用户生成内容":1,"Oli Forsyth":1,"Gagan Viani":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":295,"ChatGPT":76,"Sebastian Barrios":1,"Roblox CEO":1,"Josh Elman":1,"Amjad Masad":3,"MercadoLibre":1,"用户生成内容":1,"Oli Forsyth":1,"Gagan Viani":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Liad Yosef]] · [[智能体网络]] · [[智能体]] · [[MCP Apps]] · [[MCP]] · [[Aura]] · [[浏览器智能体]] · [[无头化]] · [[个人助理]] · [[发现]]
 
-<script type="application/json" class="pd-epn">{"Liad Yosef":1,"智能体网络":3,"智能体":293,"MCP Apps":3,"MCP":49,"Aura":1,"浏览器智能体":1,"无头化":1,"个人助理":1,"发现":2}</script>
+<script type="application/json" class="pd-epn">{"Liad Yosef":1,"智能体网络":3,"智能体":295,"MCP Apps":3,"MCP":49,"Aura":1,"浏览器智能体":1,"无头化":1,"个人助理":1,"发现":2}</script>
 
 <script>
 (function(){

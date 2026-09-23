@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/UyyOoJmuATU.m4a",
+  "duration_sec": 1206.144,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 207,
+  "asr": true,
+  "title_en": "Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents — Vasant Kearney, Onlay",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "added": "2026-09-24",
+  "added_at": "2026-09-23T20:18:08.820Z",
+  "speaker_map": {
+    "SPEAKER_00": "Vasant Kearney"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Vasant Kearney"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "给医疗理赔智能体套上 X12 护栏",
+  "guest_name": "Vasant Kearney",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

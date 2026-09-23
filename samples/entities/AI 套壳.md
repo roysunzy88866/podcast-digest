@@ -25,7 +25,7 @@ unlisted: true
 
 [[Y Combinator]] · [[GoCardless]] · [[Brex]] · [[智能体]] · [[转型]] · [[分发]] · [[主观能动性]] · [[联合创始人]] · [[发布]]
 
-<script type="application/json" class="pd-epn">{"Y Combinator":4,"GoCardless":1,"Brex":5,"智能体":293,"转型":3,"分发":6,"主观能动性":1,"联合创始人":3,"发布":1}</script>
+<script type="application/json" class="pd-epn">{"Y Combinator":4,"GoCardless":1,"Brex":5,"智能体":295,"转型":3,"分发":6,"主观能动性":1,"联合创始人":3,"发布":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2226 @@
+[
+ {
+  "seg": 0,
+  "start": 12.653,
+  "end": 13.293,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.634,
+  "end": 20.075,
+  "speaker": "Unknown",
+  "en": "So my name is Ayush Bhardwaj, and I did applied AI for a hedge fund.",
+  "zh": "我叫 Ayush Bhardwaj，我曾经在对冲基金做应用 AI。"
+ },
+ {
+  "seg": 2,
+  "start": 20.736,
+  "end": 26.457,
+  "speaker": "Unknown",
+  "en": "And now I do everything tech plus applied AI for a pharma tech startup, because you know the way startups are.",
+  "zh": "现在我在一家医药科技初创公司做所有的技术加应用 AI，因为你们知道初创公司就是这样的。"
+ },
+ {
+  "seg": 3,
+  "start": 26.577,
+  "end": 27.478,
+  "speaker": "Unknown",
+  "en": "You have to do everything.",
+  "zh": "你什么都得干。"
+ },
+ {
+  "seg": 4,
+  "start": 27.498,
+  "end": 28.278,
+  "speaker": "Unknown",
+  "en": "We have multiple hats.",
+  "zh": "我们身兼多职。"
+ },
+ {
+  "seg": 5,
+  "start": 28.978,
+  "end": 32.259,
+  "speaker": "Unknown",
+  "en": "So before I start the session, I would like to do a small survey.",
+  "zh": "所以在开始这场演讲之前，我想先做个小调查。"
+ },
+ {
+  "seg": 6,
+  "start": 32.579,
+  "end": 34.94,
+  "speaker": "Unknown",
+  "en": "Can I get a raise of hands for all the engineers in the room?",
+  "zh": "在座所有工程师能举个手吗？"
+ },
+ {
+  "seg": 7,
+  "start": 36.681,
+  "end": 38.401,
+  "speaker": "Unknown",
+  "en": "Oh, OK. That's a tough room.",
+  "zh": "哦，好的。这个场子有点难搞啊。"
+ },
+ {
+  "seg": 8,
+  "start": 38.821,
+  "end": 40.622,
+  "speaker": "Unknown",
+  "en": "Now can I get a raise of hands for managers?",
+  "zh": "那么管理人员能举个手吗？"
+ },
+ {
+  "seg": 9,
+  "start": 41.952,
+  "end": 44.514,
+  "speaker": "Unknown",
+  "en": "OK, just to be clear, managing AI agent does not count.",
+  "zh": "好的，先说清楚，管理 AI 智能体不算。"
+ },
+ {
+  "seg": 10,
+  "start": 45.155,
+  "end": 46.156,
+  "speaker": "Unknown",
+  "en": "You have to manage people.",
+  "zh": "你得管理人。"
+ },
+ {
+  "seg": 11,
+  "start": 46.476,
+  "end": 47.937,
+  "speaker": "Unknown",
+  "en": "OK, we have a few managers as well.",
+  "zh": "好的，我们也有几位管理人员。"
+ },
+ {
+  "seg": 12,
+  "start": 48.658,
+  "end": 49.118,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 13,
+  "start": 49.138,
+  "end": 51.1,
+  "speaker": "Unknown",
+  "en": "So it will help me, like, fine tune my talk a bit.",
+  "zh": "这能帮我稍微调整一下我的演讲。"
+ },
+ {
+  "seg": 14,
+  "start": 51.74,
+  "end": 57.405,
+  "speaker": "Unknown",
+  "en": "So today my aim is to take you through the journey of how do you actually build a nitrate in applied vertical AI.",
+  "zh": "今天我的目标是带你们走一遍如何在应用垂直 AI 中真正构建出成果的历程。"
+ },
+ {
+  "seg": 15,
+  "start": 58.306,
+  "end": 61.728,
+  "speaker": "Unknown",
+  "en": "And my experience is from the hedge fund and the pharma tech company.",
+  "zh": "我的经验来自对冲基金和那家医药科技公司。"
+ },
+ {
+  "seg": 16,
+  "start": 63.81,
+  "end": 69.056,
+  "speaker": "Unknown",
+  "en": "Delving deep into the recipe, I'll just take you through, what do I even mean by Applied Vertical AI?",
+  "zh": "深入剖析这个配方，我会先带你们看看，我说的应用垂直 AI 到底是什么意思？"
+ },
+ {
+  "seg": 17,
+  "start": 69.076,
+  "end": 71.279,
+  "speaker": "Unknown",
+  "en": "Because I don't know, it sounds like a very weird term.",
+  "zh": "因为我不知道，这听起来像个很奇怪的词。"
+ },
+ {
+  "seg": 18,
+  "start": 71.339,
+  "end": 73.181,
+  "speaker": "Unknown",
+  "en": "It's like the vertical word is kind of forced.",
+  "zh": "「垂直」这个词有点强行硬加的感觉。"
+ },
+ {
+  "seg": 19,
+  "start": 73.862,
+  "end": 74.703,
+  "speaker": "Unknown",
+  "en": "I won't lie, it is.",
+  "zh": "我不撒谎，确实是。"
+ },
+ {
+  "seg": 20,
+  "start": 74.983,
+  "end": 76.185,
+  "speaker": "Unknown",
+  "en": "I coined this term probably.",
+  "zh": "这个词可能是我造出来的。"
+ },
+ {
+  "seg": 21,
+  "start": 76.585,
+  "end": 83.713,
+  "speaker": "Unknown",
+  "en": "So Applied AI is like built for, so Applied Vertical AI is essentially Applied AI, but built for one very specific industry.",
+  "zh": "所以应用垂直 AI 本质上就是应用 AI，但它是为某一个非常特定的行业而构建的。"
+ },
+ {
+  "seg": 22,
+  "start": 84.394,
+  "end": 89.398,
+  "speaker": "Unknown",
+  "en": "Its aim is to simulate a job of a person in that particular industry, in a sense.",
+  "zh": "从某种意义上说，它的目标是模拟该特定行业中某个人的工作。"
+ },
+ {
+  "seg": 23,
+  "start": 89.898,
+  "end": 94.922,
+  "speaker": "Unknown",
+  "en": "So an example of Applied AI is Google Translate, which is like general purpose, helps you translate.",
+  "zh": "应用 AI 的一个例子是 Google Translate，它是通用型的，帮你做翻译。"
+ },
+ {
+  "seg": 24,
+  "start": 95.262,
+  "end": 104.809,
+  "speaker": "Unknown",
+  "en": "It could be used in education tech, and it can have like tons and various sorts of uses, whereas Allos, which is my employer, the pharma tech company, we specifically build drugs with AI.",
+  "zh": "它可以用在教育科技里，可以有各种各样的大量用途，而 Allos，也就是我雇主这家医药科技公司，我们专门用 AI 来研发药物。"
+ },
+ {
+  "seg": 25,
+  "start": 104.99,
+  "end": 106.431,
+  "speaker": "Unknown",
+  "en": "So that's a very specific use case.",
+  "zh": "所以这是一个非常特定的用例。"
+ },
+ {
+  "seg": 26,
+  "start": 107.111,
+  "end": 112.315,
+  "speaker": "Unknown",
+  "en": "Another example of applied vertical AI field could be the legal tech firms that are now coming up with.",
+  "zh": "应用垂直 AI 领域的另一个例子可以是现在正在涌现的法律科技公司。"
+ },
+ {
+  "seg": 27,
+  "start": 112.375,
+  "end": 113.676,
+  "speaker": "Unknown",
+  "en": "I'm sure you must have heard about them.",
+  "zh": "我相信你们一定听说过它们。"
+ },
+ {
+  "seg": 28,
+  "start": 113.736,
+  "end": 117.178,
+  "speaker": "Unknown",
+  "en": "So those are another good examples of applied vertical AI.",
+  "zh": "这些是应用垂直 AI 的另外一些好例子。"
+ },
+ {
+  "seg": 29,
+  "start": 120.488,
+  "end": 132.177,
+  "speaker": "Unknown",
+  "en": "When I left the hedge fund, right, so I was expecting that the world will change for me, because you know hedge funds are like really fast and really passive sensitive, whereas pharma is like, okay, we're gonna take 15 years, but we're gonna do it right.",
+  "zh": "当我离开对冲基金的时候，我以为世界会为我改变，因为你知道，对冲基金节奏非常快、对被动性极其敏感，而医药行业就像：好吧，我们要花 15 年，但我们要把它做对。"
+ },
+ {
+  "seg": 30,
+  "start": 132.498,
+  "end": 136.321,
+  "speaker": "Unknown",
+  "en": "Hedge fund was all about like, you need to do it fast and mostly right.",
+  "zh": "对冲基金的一切都是关于：你需要做得快，并且大体上做对。"
+ },
+ {
+  "seg": 31,
+  "start": 136.541,
+  "end": 144.788,
+  "speaker": "Unknown",
+  "en": "It does not matter if we lose at one paradigm as long as we are overall winning, whereas a pharma firm is like, we have to be absolutely right, you can take a week more.",
+  "zh": "输掉一个范式没关系，只要我们整体在赢，而医药公司则是：我们必须绝对正确，你可以多花一周。"
+ },
+ {
+  "seg": 32,
+  "start": 145.428,
+  "end": 147.85,
+  "speaker": "Unknown",
+  "en": "And it was true, it's a completely different world.",
+  "zh": "确实如此，那是一个完全不同的世界。"
+ },
+ {
+  "seg": 33,
+  "start": 149.732,
+  "end": 153.296,
+  "speaker": "Unknown",
+  "en": "To your surprise and to mine as well, nothing changed, actually.",
+  "zh": "令你们也令我自己惊讶的是，实际上什么都没变。"
+ },
+ {
+  "seg": 34,
+  "start": 153.976,
+  "end": 166.128,
+  "speaker": "Unknown",
+  "en": "My job increased, but the core part of my job, Applied AI, remained the exact same, and I cannot express how surprised I was because I thought that it would be a completely different thing, but apparently it was not.",
+  "zh": "我的工作量增加了，但我工作的核心部分，应用 AI，却完全一样，我无法表达我当时有多惊讶，因为我以为那会是完全不同的东西，但显然并不是。"
+ },
+ {
+  "seg": 35,
+  "start": 167.81,
+  "end": 174.695,
+  "speaker": "Unknown",
+  "en": "So then I spoke to other people as well across legal AI and the people coming up with the prop tech pumps, which is essentially the real estate tech firms.",
+  "zh": "于是我也和其他人聊了聊，包括法律 AI 领域的人，以及那些做 prop tech pumps 的人，本质上就是房地产科技公司。"
+ },
+ {
+  "seg": 36,
+  "start": 175.155,
+  "end": 179.719,
+  "speaker": "Unknown",
+  "en": "And I realized that everyone is kind of building the applied vertical AI in a very similar way.",
+  "zh": "我意识到每个人都在以一种非常相似的方式构建应用垂直 AI。"
+ },
+ {
+  "seg": 37,
+  "start": 180.199,
+  "end": 183.221,
+  "speaker": "Unknown",
+  "en": "I could see some steps that could be essentially abstracted out.",
+  "zh": "我能看到一些本质上可以被抽象出来的步骤。"
+ },
+ {
+  "seg": 38,
+  "start": 183.922,
+  "end": 185.283,
+  "speaker": "Unknown",
+  "en": "And that's what we'll do today.",
+  "zh": "这就是我们今天要做的事。"
+ },
+ {
+  "seg": 39,
+  "start": 186.083,
+  "end": 194.786,
+  "speaker": "Unknown",
+  "en": "So before, again, dive into that, I received a few reach outs saying, are people actually putting agents into production?",
+  "zh": "再往下讲之前，我收到过一些私信问：人们真的在把智能体放进生产环境吗？"
+ },
+ {
+  "seg": 40,
+  "start": 195.546,
+  "end": 197.607,
+  "speaker": "Unknown",
+  "en": "And I was like, this is such a wrong question to ask.",
+  "zh": "我当时想，这是一个问得太不对的问题。"
+ },
+ {
+  "seg": 41,
+  "start": 197.907,
+  "end": 202.889,
+  "speaker": "Unknown",
+  "en": "Everyone is putting agents into production, even like 15-year-old kids these days.",
+  "zh": "每个人都在把智能体放进生产环境，如今甚至 15 岁的孩子都在这么做。"
+ },
+ {
+  "seg": 42,
+  "start": 203.289,
+  "end": 205.23,
+  "speaker": "Unknown",
+  "en": "The question to ask is whether they actually work.",
+  "zh": "该问的问题是它们是否真的有效。"
+ },
+ {
+  "seg": 43,
+  "start": 205.69,
+  "end": 214.278,
+  "speaker": "Unknown",
+  "en": "Whether they actually make or save money, whether they justify their ROI, whether they are making way more than the amount we are investing into it, like end-to-end.",
+  "zh": "它们是否真的赚了钱或省了钱，是否证明了它们的 ROI，是否赚到的远超我们投入的钱，端到端地看。"
+ },
+ {
+  "seg": 44,
+  "start": 214.898,
+  "end": 222.665,
+  "speaker": "Unknown",
+  "en": "And I can say from my anecdotal experience, yes, at the both places I worked, the agent either saved the money or made more money.",
+  "zh": "从我的个人经验来说，是的，在我工作过的两个地方，智能体要么省了钱，要么赚了更多钱。"
+ },
+ {
+  "seg": 45,
+  "start": 223.646,
+  "end": 226.349,
+  "speaker": "Unknown",
+  "en": "So with that, let's get started.",
+  "zh": "那么，我们开始吧。"
+ },
+ {
+  "seg": 46,
+  "start": 228.201,
+  "end": 235.027,
+  "speaker": "Unknown",
+  "en": "The recipe, I'll take you through a series of seven steps, roughly, and try to make this process as simple as possible.",
+  "zh": "这个配方，我会带你们走一遍大致的七个步骤，并尽量让这个过程尽可能简单。"
+ },
+ {
+  "seg": 47,
+  "start": 235.087,
+  "end": 237.969,
+  "speaker": "Unknown",
+  "en": "So the first step is formulate the problem.",
+  "zh": "第一步是表述问题。"
+ },
+ {
+  "seg": 48,
+  "start": 238.009,
+  "end": 242.833,
+  "speaker": "Unknown",
+  "en": "So this sounds very trivial, but a lot of people, specifically startups, get this wrong.",
+  "zh": "这听起来很微不足道，但很多人，特别是初创公司，在这一步做错了。"
+ },
+ {
+  "seg": 49,
+  "start": 243.173,
+  "end": 250.78,
+  "speaker": "Unknown",
+  "en": "They just try to do too much at once, whereas from what I have learned and what I think a lot of colleagues would agree, you need to pick a very narrow task.",
+  "zh": "他们试图一次做太多事情，而根据我的经验以及我想很多同行都会同意，你需要挑一个非常窄的任务。"
+ },
+ {
+  "seg": 50,
+  "start": 250.8,
+  "end": 252.541,
+  "speaker": "Unknown",
+  "en": "You just cannot ask it to do everything.",
+  "zh": "你就是不能让它什么都做。"
+ },
+ {
+  "seg": 51,
+  "start": 253.002,
+  "end": 256.525,
+  "speaker": "Unknown",
+  "en": "A good example for this could be, let's say, if you build something in finance.",
+  "zh": "一个很好的例子是,比方说,如果你在金融领域构建某个东西。"
+ },
+ {
+  "seg": 52,
+  "start": 257.145,
+  "end": 261.669,
+  "speaker": "Unknown",
+  "en": "You won't ask it to like, hey, can you fetch me top three market opportunities that I could invest in?",
+  "zh": "你不会去问它,嘿,你能帮我找出我可以投资的三大市场机会吗?"
+ },
+ {
+  "seg": 53,
+  "start": 261.729,
+  "end": 262.65,
+  "speaker": "Unknown",
+  "en": "No, that won't work.",
+  "zh": "不,那行不通。"
+ },
+ {
+  "seg": 54,
+  "start": 262.71,
+  "end": 265.093,
+  "speaker": "Unknown",
+  "en": "You have to be very specific.",
+  "zh": "你必须非常具体。"
+ },
+ {
+  "seg": 55,
+  "start": 265.133,
+  "end": 270.858,
+  "speaker": "Unknown",
+  "en": "You pick a market, you say, let's take the US equities, then you pick an industry, let's take IT.",
+  "zh": "你选一个市场,你说,我们拿美股来说,然后你选一个行业,我们拿 IT 来说。"
+ },
+ {
+  "seg": 56,
+  "start": 271.299,
+  "end": 279.927,
+  "speaker": "Unknown",
+  "en": "And then you ask it to rank stocks based on some parameters like capital expenditure or let's say the AI investments.",
+  "zh": "然后你让它根据一些参数给股票排名,比如资本支出,或者说是 AI 投资。"
+ },
+ {
+  "seg": 57,
+  "start": 280.347,
+  "end": 286.871,
+  "speaker": "Unknown",
+  "en": "So you pick very specific things, and then you formulate a very narrow job for the AI agent to do.",
+  "zh": "所以你选出非常具体的东西,然后为 AI 智能体制定一个非常窄的任务。"
+ },
+ {
+  "seg": 58,
+  "start": 286.911,
+  "end": 288.872,
+  "speaker": "Unknown",
+  "en": "And you can build n number of AI agents.",
+  "zh": "而且你可以构建无数个 AI 智能体。"
+ },
+ {
+  "seg": 59,
+  "start": 289.313,
+  "end": 291.714,
+  "speaker": "Unknown",
+  "en": "Last I checked, there was no tax on building more AI agents.",
+  "zh": "我上次查的时候,构建更多 AI 智能体是不用交税的。"
+ },
+ {
+  "seg": 60,
+  "start": 291.734,
+  "end": 293.875,
+  "speaker": "Unknown",
+  "en": "So why do you want your single agent to do everything?",
+  "zh": "那你为什么要让你的单个智能体什么都做呢?"
+ },
+ {
+  "seg": 61,
+  "start": 294.576,
+  "end": 295.416,
+  "speaker": "Unknown",
+  "en": "So this is important.",
+  "zh": "所以这一点很重要。"
+ },
+ {
+  "seg": 62,
+  "start": 295.436,
+  "end": 298.718,
+  "speaker": "Unknown",
+  "en": "And in the pharma context, it's the exact same.",
+  "zh": "而在制药的语境下,完全一样。"
+ },
+ {
+  "seg": 63,
+  "start": 298.738,
+  "end": 303.341,
+  "speaker": "Unknown",
+  "en": "We just break down the process into steps and then ask really pointed questions with the agent.",
+  "zh": "我们只是把流程拆解成步骤,然后用智能体提出非常尖锐的问题。"
+ },
+ {
+  "seg": 64,
+  "start": 303.901,
+  "end": 305.623,
+  "speaker": "Unknown",
+  "en": "We model our agent for our task.",
+  "zh": "我们针对我们的任务来建模我们的智能体。"
+ },
+ {
+  "seg": 65,
+  "start": 306.483,
+  "end": 309.944,
+  "speaker": "Unknown",
+  "en": "So once we have our problem right of the way, we know what we're trying to solve.",
+  "zh": "所以一旦我们把问题理清楚了,我们知道我们要解决什么。"
+ },
+ {
+  "seg": 66,
+  "start": 310.364,
+  "end": 312.745,
+  "speaker": "Unknown",
+  "en": "The next step is identify the data.",
+  "zh": "下一步是识别数据。"
+ },
+ {
+  "seg": 67,
+  "start": 313.245,
+  "end": 314.725,
+  "speaker": "Unknown",
+  "en": "And I cannot stress this enough.",
+  "zh": "我怎么强调都不为过。"
+ },
+ {
+  "seg": 68,
+  "start": 314.745,
+  "end": 319.767,
+  "speaker": "Unknown",
+  "en": "This is a really, really, really important step because everyone has news data.",
+  "zh": "这是一个非常、非常、非常重要的步骤,因为每个人都有新闻数据。"
+ },
+ {
+  "seg": 69,
+  "start": 320.127,
+  "end": 323.588,
+  "speaker": "Unknown",
+  "en": "Everyone has seller-side reports from JPMorgan, Morgan Stanley.",
+  "zh": "每个人都有来自 JPMorgan、Morgan Stanley 的卖方报告。"
+ },
+ {
+  "seg": 70,
+  "start": 324.588,
+  "end": 328.709,
+  "speaker": "Unknown",
+  "en": "Everyone has the ArcGZ preprint server or PubCam or your research papers.",
+  "zh": "每个人都有 ArcGZ 预印本服务器,或者 PubCam,或者你的研究论文。"
+ },
+ {
+  "seg": 71,
+  "start": 329.309,
+  "end": 333.61,
+  "speaker": "Unknown",
+  "en": "But what actually makes your application better than, let's say, ChatGPT or Claude?",
+  "zh": "但究竟是什么让你的应用比,比方说,ChatGPT 或 Claude 更好?"
+ },
+ {
+  "seg": 72,
+  "start": 334.091,
+  "end": 335.171,
+  "speaker": "Unknown",
+  "en": "It is your proprietary data.",
+  "zh": "那是你的专有数据。"
+ },
+ {
+  "seg": 73,
+  "start": 336.031,
+  "end": 340.792,
+  "speaker": "Unknown",
+  "en": "So the thing with proprietary data is it's really expensive to buy, and most people won't sell it to you.",
+  "zh": "专有数据的问题是,买它非常贵,而且大多数人不会卖给你。"
+ },
+ {
+  "seg": 74,
+  "start": 341.072,
+  "end": 342.673,
+  "speaker": "Unknown",
+  "en": "So you need to curate it by yourself.",
+  "zh": "所以你需要自己去整理它。"
+ },
+ {
+  "seg": 75,
+  "start": 343.173,
+  "end": 345.593,
+  "speaker": "Unknown",
+  "en": "Imagine your organization has been working for three years, right?",
+  "zh": "想象一下你的组织已经工作了三年,对吧?"
+ },
+ {
+  "seg": 76,
+  "start": 345.653,
+  "end": 347.074,
+  "speaker": "Unknown",
+  "en": "They already have a lot of data.",
+  "zh": "他们已经有很多数据了。"
+ },
+ {
+  "seg": 77,
+  "start": 347.174,
+  "end": 348.174,
+  "speaker": "Unknown",
+  "en": "It's just unstructured.",
+  "zh": "只是没有结构化。"
+ },
+ {
+  "seg": 78,
+  "start": 348.814,
+  "end": 354.795,
+  "speaker": "Unknown",
+  "en": "And in the age of LLMs, I think this is a very fairly easy task to make unstructured data into structured data.",
+  "zh": "而在 LLM 的时代,我认为把非结构化数据变成结构化数据是一件相当容易的任务。"
+ },
+ {
+  "seg": 79,
+  "start": 355.155,
+  "end": 357.396,
+  "speaker": "Unknown",
+  "en": "Like an LLM workflow could do it overnight.",
+  "zh": "一个 LLM 工作流可以一夜之间完成。"
+ },
+ {
+  "seg": 80,
+  "start": 358.056,
+  "end": 361.157,
+  "speaker": "Unknown",
+  "en": "So to give you a great example of the",
+  "zh": "给你举一个很好的例子,"
+ },
+ {
+  "seg": 81,
+  "start": 362.323,
+  "end": 369.908,
+  "speaker": "Unknown",
+  "en": "Proprietary data that finance industry has, it's the trade theses, which is like what trade work and why it worked.",
+  "zh": "金融行业拥有的专有数据,就是交易论点,也就是什么样的交易成功了以及为什么成功。"
+ },
+ {
+  "seg": 82,
+  "start": 370.468,
+  "end": 373.13,
+  "speaker": "Unknown",
+  "en": "And in pharma, it is the data for failed experiments.",
+  "zh": "而在制药领域,它是失败实验的数据。"
+ },
+ {
+  "seg": 83,
+  "start": 373.51,
+  "end": 376.052,
+  "speaker": "Unknown",
+  "en": "For successful experiments data, yes, you can get it.",
+  "zh": "成功实验的数据,是的,你可以拿到。"
+ },
+ {
+  "seg": 84,
+  "start": 376.072,
+  "end": 378.794,
+  "speaker": "Unknown",
+  "en": "But failed experiments, that's relatively hard to get.",
+  "zh": "但失败实验的数据,那相对难拿到。"
+ },
+ {
+  "seg": 85,
+  "start": 379.414,
+  "end": 380.735,
+  "speaker": "Unknown",
+  "en": "So now we have the problem.",
+  "zh": "所以现在我们有了问题。"
+ },
+ {
+  "seg": 86,
+  "start": 380.875,
+  "end": 381.716,
+  "speaker": "Unknown",
+  "en": "We have the data.",
+  "zh": "我们有了数据。"
+ },
+ {
+  "seg": 87,
+  "start": 382.076,
+  "end": 383.017,
+  "speaker": "Unknown",
+  "en": "What's the third step?",
+  "zh": "第三步是什么?"
+ },
+ {
+  "seg": 88,
+  "start": 384.028,
+  "end": 386.59,
+  "speaker": "Unknown",
+  "en": "That is to model the problem, like write the prompt.",
+  "zh": "那就是对问题建模,也就是写提示词。"
+ },
+ {
+  "seg": 89,
+  "start": 387.311,
+  "end": 395.278,
+  "speaker": "Unknown",
+  "en": "So while writing prompt, what we should aim is to model it after the person who you are trying to replace.",
+  "zh": "写提示词的时候,我们的目标应该是按照你试图取代的那个人来建模。"
+ },
+ {
+  "seg": 90,
+  "start": 395.899,
+  "end": 405.908,
+  "speaker": "Unknown",
+  "en": "I mean, that's the hypothesis, but yeah, no offense, we're not trying to replace anyone with AI, but that's the ideology behind writing prompts, encode how a person would solve this job into multiple steps.",
+  "zh": "我是说,这只是个假设,不过别介意,我们没有试图用 AI 取代任何人,但这就是写提示词背后的理念:把一个人如何解决这项工作编码成多个步骤。"
+ },
+ {
+  "seg": 91,
+  "start": 406.488,
+  "end": 408.648,
+  "speaker": "Unknown",
+  "en": "So it's just like a mental model.",
+  "zh": "所以它就像一个心智模型。"
+ },
+ {
+  "seg": 92,
+  "start": 408.688,
+  "end": 410.689,
+  "speaker": "Unknown",
+  "en": "So this is, again, fairly simple.",
+  "zh": "所以这,同样,相当简单。"
+ },
+ {
+  "seg": 93,
+  "start": 411.329,
+  "end": 412.409,
+  "speaker": "Unknown",
+  "en": "Next thing, observability.",
+  "zh": "下一件事,可观测性。"
+ },
+ {
+  "seg": 94,
+  "start": 412.429,
+  "end": 420.571,
+  "speaker": "Unknown",
+  "en": "I'm sure you have been at this conference at three years, and this word, I think, I don't know, you'll be hearing about like a thousandth time that tons of observability provider.",
+  "zh": "我相信你已经参加了三年的这个大会了,这个词,我想,我不知道,你大概已经听了第一千次了,有大量的可观测性提供商。"
+ },
+ {
+  "seg": 95,
+  "start": 421.311,
+  "end": 423.431,
+  "speaker": "Unknown",
+  "en": "If you can see it, you can fix it.",
+  "zh": "如果你能看到它,你就能修复它。"
+ },
+ {
+  "seg": 96,
+  "start": 423.671,
+  "end": 430.993,
+  "speaker": "Unknown",
+  "en": "So you need observability to see the traces, understand what your AI application is doing, and debug it.",
+  "zh": "所以你需要可观测性来查看追踪记录,理解你的 AI 应用在做什么,并调试它。"
+ },
+ {
+  "seg": 97,
+  "start": 431.813,
+  "end": 435.496,
+  "speaker": "Unknown",
+  "en": "So sorry, but all of this was the easy part, to be honest.",
+  "zh": "所以抱歉,但说实话,以上这些都只是简单的部分。"
+ },
+ {
+  "seg": 98,
+  "start": 435.976,
+  "end": 437.297,
+  "speaker": "Unknown",
+  "en": "All of this fits one screen.",
+  "zh": "所有这些都能放进一屏之内。"
+ },
+ {
+  "seg": 99,
+  "start": 437.697,
+  "end": 440.999,
+  "speaker": "Unknown",
+  "en": "The mythical 10x engineers can do this stuff in minutes.",
+  "zh": "那些神秘的 10 倍工程师可以在几分钟内搞定这些。"
+ },
+ {
+  "seg": 100,
+  "start": 441.86,
+  "end": 445.642,
+  "speaker": "Unknown",
+  "en": "Like, literally, this is the code you precisely need to build an AI agent.",
+  "zh": "就是说，字面上，这正是你构建一个 AI 智能体所需要的代码。"
+ },
+ {
+  "seg": 101,
+  "start": 445.722,
+  "end": 447.043,
+  "speaker": "Unknown",
+  "en": "So that's why it's not the mode.",
+  "zh": "所以这就是为什么它不是那个 mode。"
+ },
+ {
+  "seg": 102,
+  "start": 447.784,
+  "end": 449.285,
+  "speaker": "Unknown",
+  "en": "Of course, accept your proprietary data.",
+  "zh": "当然，除了你的专有数据。"
+ },
+ {
+  "seg": 103,
+  "start": 449.845,
+  "end": 450.686,
+  "speaker": "Unknown",
+  "en": "So what do you do now?",
+  "zh": "那么你现在该做什么?"
+ },
+ {
+  "seg": 104,
+  "start": 451.606,
+  "end": 453.888,
+  "speaker": "Unknown",
+  "en": "What do you do after doing the first four steps?",
+  "zh": "做完前四个步骤之后该做什么?"
+ },
+ {
+  "seg": 105,
+  "start": 455.17,
+  "end": 462.953,
+  "speaker": "Unknown",
+  "en": "Which is observability and prompts and getting the data right and everything, you iterate.",
+  "zh": "也就是可观测性、提示词、把数据弄对等等，你迭代。"
+ },
+ {
+  "seg": 106,
+  "start": 464.133,
+  "end": 469.075,
+  "speaker": "Unknown",
+  "en": "Now the thing with iteration is when I joined the hedge fund, I thought how hard it can be.",
+  "zh": "说到迭代这件事，我加入那家对冲基金时，我心想这能有多难。"
+ },
+ {
+  "seg": 107,
+  "start": 469.355,
+  "end": 470.736,
+  "speaker": "Unknown",
+  "en": "I mean, everyone can iterate.",
+  "zh": "我是说，人人都会迭代。"
+ },
+ {
+  "seg": 108,
+  "start": 470.776,
+  "end": 473.377,
+  "speaker": "Unknown",
+  "en": "I mean, we have been iterating our whole life for each of the tasks.",
+  "zh": "我是说，我们一辈子都在为每项任务迭代。"
+ },
+ {
+  "seg": 109,
+  "start": 474.317,
+  "end": 480.86,
+  "speaker": "Unknown",
+  "en": "But to be honest, I could build it, but I just could not tell if it worked because",
+  "zh": "但老实说，我能把它构建出来，但我就是没法判断它是否有效，因为"
+ },
+ {
+  "seg": 110,
+  "start": 482.426,
+  "end": 483.226,
+  "speaker": "Unknown",
+  "en": "I'm not a trader.",
+  "zh": "我不是交易员。"
+ },
+ {
+  "seg": 111,
+  "start": 483.646,
+  "end": 486.447,
+  "speaker": "Unknown",
+  "en": "I'm not someone who has a PhD in biology or chemistry.",
+  "zh": "我不是拥有生物学或化学博士学位的人。"
+ },
+ {
+  "seg": 112,
+  "start": 487.047,
+  "end": 494.769,
+  "speaker": "Unknown",
+  "en": "I just don't understand what the model is saying, what is the output of my AI agent is, and since most of you are ingenious, you would relate.",
+  "zh": "就像你不会用一个更差的编码模型一样。"
+ },
+ {
+  "seg": 113,
+  "start": 495.27,
+  "end": 500.631,
+  "speaker": "Unknown",
+  "en": "You can instantly tell that Sonnet 5 sucks because you have your own training.",
+  "zh": "你能立刻看出 Sonnet 5 很烂，因为你有自己的训练。"
+ },
+ {
+  "seg": 114,
+  "start": 500.671,
+  "end": 510.114,
+  "speaker": "Unknown",
+  "en": "You understand, okay, this code is not great code, whereas some X model that's a Fayetteville 5, you see, okay, this is great, but not as great as the hype is because you have been trained for this for life.",
+  "zh": "你明白，好吧，这段代码不是好代码，而某个 X 模型，就是 Fayetteville 5，你看，好吧，这个不错，但没炒作得那么好，因为你一辈子都在为这个受训练。"
+ },
+ {
+  "seg": 115,
+  "start": 512.18,
+  "end": 513.841,
+  "speaker": "Unknown",
+  "en": "A mental model to judge these things.",
+  "zh": "一套用来判断这些东西的心智模型。"
+ },
+ {
+  "seg": 116,
+  "start": 514.001,
+  "end": 524.025,
+  "speaker": "Unknown",
+  "en": "But you just do not have the same kind of mental model when it comes to predicting trade theses or doing really specific tasks that vertical AI industry does.",
+  "zh": "但当涉及到预测交易论点或做垂直 AI 行业所做的那些非常具体的任务时，你就是没有同样的心智模型。"
+ },
+ {
+  "seg": 117,
+  "start": 524.625,
+  "end": 529.348,
+  "speaker": "Unknown",
+  "en": "And this is also the place where a lot of vertical AI projects quietly die.",
+  "zh": "而这也是很多垂直 AI 项目悄然死去的地方。"
+ },
+ {
+  "seg": 118,
+  "start": 529.648,
+  "end": 532.229,
+  "speaker": "Unknown",
+  "en": "Because on the surface, it looks like you have made it.",
+  "zh": "因为从表面上看，你好像已经成功了。"
+ },
+ {
+  "seg": 119,
+  "start": 532.249,
+  "end": 532.869,
+  "speaker": "Unknown",
+  "en": "You have built it.",
+  "zh": "你已经把它构建出来了。"
+ },
+ {
+  "seg": 120,
+  "start": 532.909,
+  "end": 535.09,
+  "speaker": "Unknown",
+  "en": "Let's put this into production and start selling it.",
+  "zh": "我们把它投入生产开始卖吧。"
+ },
+ {
+  "seg": 121,
+  "start": 535.51,
+  "end": 536.511,
+  "speaker": "Unknown",
+  "en": "But no one would buy it.",
+  "zh": "但没人会买。"
+ },
+ {
+  "seg": 122,
+  "start": 537.031,
+  "end": 539.212,
+  "speaker": "Unknown",
+  "en": "The same way you wouldn't use an inferior coding model.",
+  "zh": "就像你不会用一个更差的编程模型一样。"
+ },
+ {
+  "seg": 123,
+  "start": 540.33,
+  "end": 544.157,
+  "speaker": "Unknown",
+  "en": "So as an engineer, when I ran into this, I just couldn't accept, honestly.",
+  "zh": "所以作为一个工程师，当我遇到这个情况时，老实说我就是无法接受。"
+ },
+ {
+  "seg": 124,
+  "start": 544.177,
+  "end": 546.302,
+  "speaker": "Unknown",
+  "en": "I thought, no, there's certainly more that I can do.",
+  "zh": "我想，不，肯定还有更多我能做的。"
+ },
+ {
+  "seg": 125,
+  "start": 546.322,
+  "end": 547.384,
+  "speaker": "Unknown",
+  "en": "We don't need other people.",
+  "zh": "我们不需要别人。"
+ },
+ {
+  "seg": 126,
+  "start": 548.005,
+  "end": 552.052,
+  "speaker": "Unknown",
+  "en": "So I thought I could LLM as a judge my way out of it.",
+  "zh": "所以我想我可以用 LLM as a judge(用 LLM 当裁判)的方式摆脱困境。"
+ },
+ {
+  "seg": 127,
+  "start": 554.921,
+  "end": 561.362,
+  "speaker": "Unknown",
+  "en": "And this was a really, really stupid mistake, to be honest, because what LLM is essentially doing, it's predicting the next probable word.",
+  "zh": "而老实说，这是一个非常非常愚蠢的错误，因为 LLM 本质上在做的，就是预测下一个最可能的词。"
+ },
+ {
+  "seg": 128,
+  "start": 561.843,
+  "end": 564.563,
+  "speaker": "Unknown",
+  "en": "So if you see, it's just like jargoning its way out.",
+  "zh": "所以你看，它只是在用行话蒙混过关。"
+ },
+ {
+  "seg": 129,
+  "start": 564.643,
+  "end": 566.264,
+  "speaker": "Unknown",
+  "en": "It does not understand what alpha means.",
+  "zh": "它不理解 alpha 是什么意思。"
+ },
+ {
+  "seg": 130,
+  "start": 566.724,
+  "end": 571.505,
+  "speaker": "Unknown",
+  "en": "It does not understand how to actually create value unless you have taught it somewhere.",
+  "zh": "它不理解如何真正创造价值，除非你在某处教过它。"
+ },
+ {
+  "seg": 131,
+  "start": 572.005,
+  "end": 575.426,
+  "speaker": "Unknown",
+  "en": "And whereas a human can just tell it instantly what's bullshit and what's not.",
+  "zh": "而人类却可以立刻分辨什么是扯淡，什么不是。"
+ },
+ {
+  "seg": 132,
+  "start": 577.564,
+  "end": 581.887,
+  "speaker": "Unknown",
+  "en": "I'll just try to delve a bit more deeper on why you can just iterate.",
+  "zh": "我会更深入地讲一下为什么你就是没法迭代。"
+ },
+ {
+  "seg": 133,
+  "start": 582.607,
+  "end": 593.514,
+  "speaker": "Unknown",
+  "en": "So first thing is that model cannot verify itself specifically in these fields because reinforcement learning via verifiable rewards is really good at math and code because you have like answer keys.",
+  "zh": "首先是，模型无法自我验证，特别是在这些领域，因为基于可验证奖励的强化学习在数学和代码上非常有效，因为你有类似标准答案的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 593.535,
+  "end": 597.317,
+  "speaker": "Unknown",
+  "en": "You can verify your code is compiling or not and there's tons of stuff.",
+  "zh": "你可以验证你的代码能否编译，还有一大堆东西。"
+ },
+ {
+  "seg": 135,
+  "start": 597.337,
+  "end": 600.219,
+  "speaker": "Unknown",
+  "en": "You can just model the complete thing around this.",
+  "zh": "你可以把整个东西建模围绕这个来构建。"
+ },
+ {
+  "seg": 136,
+  "start": 600.839,
+  "end": 604.422,
+  "speaker": "Unknown",
+  "en": "But within these fields, there is just no way to model it.",
+  "zh": "但在这些领域里，就是没办法建模。"
+ },
+ {
+  "seg": 137,
+  "start": 604.562,
+  "end": 607.985,
+  "speaker": "Unknown",
+  "en": "And let's say if any error gets in, it just compounds with every step.",
+  "zh": "而且假设有任何错误进来，它会在每一步不断复合放大。"
+ },
+ {
+  "seg": 138,
+  "start": 608.025,
+  "end": 610.627,
+  "speaker": "Unknown",
+  "en": "And that's what Lakin seems to think as well.",
+  "zh": "这也是 Lakin 似乎持有的看法。"
+ },
+ {
+  "seg": 139,
+  "start": 611.267,
+  "end": 616.431,
+  "speaker": "Unknown",
+  "en": "And now the more important part that we touched upon previously, the data.",
+  "zh": "现在是我们之前提到过的更重要的部分，数据。"
+ },
+ {
+  "seg": 140,
+  "start": 617.352,
+  "end": 622.776,
+  "speaker": "Unknown",
+  "en": "So the interesting thing with pharma and finance is the data was never there.",
+  "zh": "制药和金融的有趣之处在于，数据从来就不存在。"
+ },
+ {
+  "seg": 141,
+  "start": 623.237,
+  "end": 624.818,
+  "speaker": "Unknown",
+  "en": "And I'll explain to you why.",
+  "zh": "我来给你解释为什么。"
+ },
+ {
+  "seg": 142,
+  "start": 627.287,
+  "end": 638.09,
+  "speaker": "Unknown",
+  "en": "So any institutional manager holding over $100 million in qualifying U.S. equities are forced to publicly file their holdings, long position holdings, every quarter.",
+  "zh": "任何持有超过一亿美元符合条件的美国股票的机构管理人，都被迫公开申报其持仓，即多头持仓，每个季度一次。"
+ },
+ {
+  "seg": 143,
+  "start": 638.73,
+  "end": 647.653,
+  "speaker": "Unknown",
+  "en": "And once a hedge fund does this, this is the percentage decrease in their returns because everyone just sees those reverse engineers and takes away their moat.",
+  "zh": "而一旦一家对冲基金这么做了，这就是他们回报率下降的百分比，因为所有人都看到那些并进行逆向工程，夺走他们的护城河。"
+ },
+ {
+  "seg": 144,
+  "start": 649.015,
+  "end": 651.016,
+  "speaker": "Unknown",
+  "en": "And when it comes to pharma, right?",
+  "zh": "而说到制药，对吧?"
+ },
+ {
+  "seg": 145,
+  "start": 651.336,
+  "end": 661.84,
+  "speaker": "Unknown",
+  "en": "So this is the number of, so by law, you are required to disclose every clinical trial, pass or fail you have done, but 30% of the firms, which is nearly one third of firms, never do.",
+  "zh": "这是数量，根据法律，你必须披露你所做的每一项临床试验，无论通过还是失败，但有 30% 的公司，接近三分之一的公司，从不这么做。"
+ },
+ {
+  "seg": 146,
+  "start": 662,
+  "end": 668.022,
+  "speaker": "Unknown",
+  "en": "And in 2026, FDA had to publicly remind over, I don't know, about 2,000 sponsors",
+  "zh": "而在 2026 年，FDA 不得不公开提醒超过，我不确定，大约 2,000 个申办方"
+ },
+ {
+  "seg": 147,
+  "start": 668.822,
+  "end": 673.906,
+  "speaker": "Unknown",
+  "en": "That they are, I mean, doing injustice by not releasing unfavorable results.",
+  "zh": "说他们，我是说，不发布不利结果是在做不公正的事。"
+ },
+ {
+  "seg": 148,
+  "start": 674.306,
+  "end": 682.111,
+  "speaker": "Unknown",
+  "en": "Because this is the exact data which helps the model thing, which helps your LLM actually reason through these complex and niche industries.",
+  "zh": "因为这正是帮助模型思考的数据，正是帮助你的 LLM 真正对这些复杂而小众的行业进行推理的数据。"
+ },
+ {
+  "seg": 149,
+  "start": 682.611,
+  "end": 686.594,
+  "speaker": "Unknown",
+  "en": "And they hide it because for them it's like a chicken laying golden eggs.",
+  "zh": "而他们把它藏起来，因为对他们来说这就像一只下金蛋的鸡。"
+ },
+ {
+  "seg": 150,
+  "start": 686.634,
+  "end": 687.835,
+  "speaker": "Unknown",
+  "en": "Why would they sell their chicken?",
+  "zh": "他们为什么要卖掉自己的鸡?"
+ },
+ {
+  "seg": 151,
+  "start": 688.215,
+  "end": 692.938,
+  "speaker": "Unknown",
+  "en": "So naturally neither OpenAI nor Anthropic has this data because it's like gate-capped.",
+  "zh": "所以很自然,OpenAI 和 Anthropic 都没有这种数据,因为它就像是上了闸的。"
+ },
+ {
+  "seg": 152,
+  "start": 693.258,
+  "end": 700.583,
+  "speaker": "Unknown",
+  "en": "You just cannot hire a trader for $100 an hour and have them annotate that stuff because they're like lots of NDAs and they definitely earn more.",
+  "zh": "你不可能花每小时 100 美元雇一个交易员来给这些东西做标注,因为有很多保密协议,而且他们肯定挣得更多。"
+ },
+ {
+  "seg": 153,
+  "start": 701.163,
+  "end": 705.146,
+  "speaker": "Unknown",
+  "en": "So, okay, now I have told you about tens of problems, right?",
+  "zh": "那么,好了,我已经给你们讲了几十个问题,对吧?"
+ },
+ {
+  "seg": 154,
+  "start": 705.646,
+  "end": 708.748,
+  "speaker": "Unknown",
+  "en": "Now, you initially think, okay, all right, then what do we do?",
+  "zh": "现在,你起初会想,好吧,那我们该怎么办?"
+ },
+ {
+  "seg": 155,
+  "start": 709.109,
+  "end": 711.89,
+  "speaker": "Unknown",
+  "en": "How do we build a startup in like a vertical space?",
+  "zh": "我们要如何在垂直领域里创建一家初创公司?"
+ },
+ {
+  "seg": 156,
+  "start": 711.91,
+  "end": 712.171,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "那么……"
+ },
+ {
+  "seg": 157,
+  "start": 715.921,
+  "end": 717.082,
+  "speaker": "Unknown",
+  "en": "Very self-explanatory.",
+  "zh": "非常不言自明。"
+ },
+ {
+  "seg": 158,
+  "start": 717.582,
+  "end": 723.147,
+  "speaker": "Unknown",
+  "en": "You hire the person who you want to sell it to because there is, to be honest, no other way around.",
+  "zh": "你要雇用那个你想把产品卖给他的人,因为说实话,没有别的绕开的办法。"
+ },
+ {
+  "seg": 159,
+  "start": 723.267,
+  "end": 724.448,
+  "speaker": "Unknown",
+  "en": "I have tried a lot of stuff.",
+  "zh": "我尝试过很多东西。"
+ },
+ {
+  "seg": 160,
+  "start": 724.848,
+  "end": 726.369,
+  "speaker": "Unknown",
+  "en": "You just need to hire the user.",
+  "zh": "你就是需要雇用那个用户。"
+ },
+ {
+  "seg": 161,
+  "start": 727.07,
+  "end": 732.074,
+  "speaker": "Unknown",
+  "en": "In finance, in a hedge fund, this was very easy because the user was kind of like my boss, the trader.",
+  "zh": "在金融领域,在对冲基金里,这很容易,因为那个用户有点像我的老板,那个交易员。"
+ },
+ {
+  "seg": 162,
+  "start": 732.374,
+  "end": 733.235,
+  "speaker": "Unknown",
+  "en": "We worked together.",
+  "zh": "我们一起工作。"
+ },
+ {
+  "seg": 163,
+  "start": 733.675,
+  "end": 736.337,
+  "speaker": "Unknown",
+  "en": "But in the pharma tech startup, it was very weird.",
+  "zh": "但在制药科技初创公司里,这就很奇怪了。"
+ },
+ {
+  "seg": 164,
+  "start": 736.357,
+  "end": 741.902,
+  "speaker": "Unknown",
+  "en": "We were like a bunch of young engineers, and we were like, oh, we need a 20-year-old scientist in our company to tell us what to do?",
+  "zh": "我们是一群年轻工程师,我们会说,哦,我们需要一个 20 岁的科学家进我们公司来告诉我们该做什么?"
+ },
+ {
+  "seg": 165,
+  "start": 742.502,
+  "end": 743.963,
+  "speaker": "Unknown",
+  "en": "Yeah, I guess we do.",
+  "zh": "是的,我想我们确实需要。"
+ },
+ {
+  "seg": 166,
+  "start": 744.464,
+  "end": 745.845,
+  "speaker": "Unknown",
+  "en": "And then we hired someone, right?",
+  "zh": "然后我们就雇了一个人,对吧?"
+ },
+ {
+  "seg": 167,
+  "start": 745.885,
+  "end": 748.687,
+  "speaker": "Unknown",
+  "en": "And that someone actually changed the trajectory of our tools.",
+  "zh": "而那个人实际上改变了我们工具的轨迹。"
+ },
+ {
+  "seg": 168,
+  "start": 749.087,
+  "end": 750.548,
+  "speaker": "Unknown",
+  "en": "Our tools started making sense.",
+  "zh": "我们的工具开始说得通了。"
+ },
+ {
+  "seg": 169,
+  "start": 750.608,
+  "end": 760.476,
+  "speaker": "Unknown",
+  "en": "When we pitched to the other pharma companies, the big ones, the big pharma, they started liking our tools because it kind of spoke their language versus the normal jargon-ish LLM language.",
+  "zh": "当我们向其他制药公司,那些大公司,大药企做推介时,他们开始喜欢我们的工具,因为它某种程度上说的是他们的语言,而不是那种正常的、满是行话的 LLM 语言。"
+ },
+ {
+  "seg": 170,
+  "start": 761.117,
+  "end": 766.281,
+  "speaker": "Unknown",
+  "en": "So once you have hired the user, let's say, then what would you make that user do?",
+  "zh": "所以一旦你雇用了那个用户,比方说,接下来你会让那个用户做什么?"
+ },
+ {
+  "seg": 171,
+  "start": 767.708,
+  "end": 769.65,
+  "speaker": "Unknown",
+  "en": "You try to build a learning loop out of it.",
+  "zh": "你要试着从中构建一个学习循环。"
+ },
+ {
+  "seg": 172,
+  "start": 770.491,
+  "end": 776.657,
+  "speaker": "Unknown",
+  "en": "The domain expert can start at a very, very low level, the ground level, where they just think about prompts.",
+  "zh": "领域专家可以从非常非常低的层级开始,从最底层开始,在那里他们只是思考提示词。"
+ },
+ {
+  "seg": 173,
+  "start": 776.697,
+  "end": 780.821,
+  "speaker": "Unknown",
+  "en": "OK, I mean, let's not ask LLM to do this.",
+  "zh": "好吧,我是说,我们不要让 LLM 直接做这个。"
+ },
+ {
+  "seg": 174,
+  "start": 780.881,
+  "end": 782.802,
+  "speaker": "Unknown",
+  "en": "Let's ask a very specific query again.",
+  "zh": "让我们再问一个非常具体的查询。"
+ },
+ {
+  "seg": 175,
+  "start": 783.203,
+  "end": 791.171,
+  "speaker": "Unknown",
+  "en": "They'll help you curate data, just like engineers know which conferences are bullshit, which are not, which research paper sites are great, which are not.",
+  "zh": "他们会帮你策划数据,就像工程师知道哪些会议是胡扯的、哪些不是,哪些研究论文网站很棒、哪些不棒一样。"
+ },
+ {
+  "seg": 176,
+  "start": 791.711,
+  "end": 795.374,
+  "speaker": "Unknown",
+  "en": "Which are like top leaders in engineering, which are just like influencers.",
+  "zh": "哪些是工程领域的顶尖领袖,哪些只是网红。"
+ },
+ {
+  "seg": 177,
+  "start": 795.894,
+  "end": 800.498,
+  "speaker": "Unknown",
+  "en": "Similarly, a pharma expert or let's say a trader knows which sources are more reliable than the other.",
+  "zh": "同样,一个制药专家,或者比方说一个交易员,知道哪些来源比另一些更可靠。"
+ },
+ {
+  "seg": 178,
+  "start": 800.838,
+  "end": 802.259,
+  "speaker": "Unknown",
+  "en": "So they help you create their data.",
+  "zh": "所以他们会帮你创建他们的数据。"
+ },
+ {
+  "seg": 179,
+  "start": 802.279,
+  "end": 804.701,
+  "speaker": "Unknown",
+  "en": "They help you like refine your prompts better.",
+  "zh": "他们会帮你更好地打磨提示词。"
+ },
+ {
+  "seg": 180,
+  "start": 805.102,
+  "end": 808.845,
+  "speaker": "Unknown",
+  "en": "And they try to create like thinking models of how they would think about a problem.",
+  "zh": "他们还会尝试创建他们如何思考一个问题的思维模型。"
+ },
+ {
+  "seg": 181,
+  "start": 809.325,
+  "end": 813.768,
+  "speaker": "Unknown",
+  "en": "Cause I mean, let's say if you follow five steps to solve a problem, right?",
+  "zh": "因为我的意思是,比方说,如果你按五个步骤来解决一个问题,对吧?"
+ },
+ {
+  "seg": 182,
+  "start": 814.049,
+  "end": 816.19,
+  "speaker": "Unknown",
+  "en": "You just cannot do it in any random order.",
+  "zh": "你不可能以任何随机的顺序来做。"
+ },
+ {
+  "seg": 183,
+  "start": 816.551,
+  "end": 817.872,
+  "speaker": "Unknown",
+  "en": "There has to be a logical flow.",
+  "zh": "必须有一个逻辑流程。"
+ },
+ {
+  "seg": 184,
+  "start": 817.892,
+  "end": 819.253,
+  "speaker": "Unknown",
+  "en": "There has to be a natural flow.",
+  "zh": "必须有一个自然的流程。"
+ },
+ {
+  "seg": 185,
+  "start": 819.293,
+  "end": 820.173,
+  "speaker": "Unknown",
+  "en": "So that's what they,",
+  "zh": "所以这就是他们所做的,"
+ },
+ {
+  "seg": 186,
+  "start": 821.234,
+  "end": 825.718,
+  "speaker": "Unknown",
+  "en": "Try to curate, like decompose a problem, gradually refine, and then finally judge.",
+  "zh": "尝试策划,比如分解一个问题,逐步打磨,最后做判断。"
+ },
+ {
+  "seg": 187,
+  "start": 826.438,
+  "end": 836.626,
+  "speaker": "Unknown",
+  "en": "So the person who sort of has lived to the complete of the industry that they're trying to revolutionize, their judgment is now turning into agents.",
+  "zh": "所以那些在自己试图颠覆的行业里摸爬滚打到顶层的人,他们的判断现在正在变成智能体。"
+ },
+ {
+  "seg": 188,
+  "start": 836.666,
+  "end": 838.968,
+  "speaker": "Unknown",
+  "en": "So that's what's happening behind the loop.",
+  "zh": "所以这就是循环背后正在发生的事情。"
+ },
+ {
+  "seg": 189,
+  "start": 839.008,
+  "end": 842.071,
+  "speaker": "Unknown",
+  "en": "So to do this, there are again multiple ways.",
+  "zh": "要做到这一点,同样有多种方法。"
+ },
+ {
+  "seg": 190,
+  "start": 842.171,
+  "end": 847.035,
+  "speaker": "Unknown",
+  "en": "I mean, each of these could have been an hour-long session on its own, and I wish I could take.",
+  "zh": "我的意思是,这里面的每一个本可以单独讲一个小时的课,我也希望能那样讲。"
+ },
+ {
+  "seg": 191,
+  "start": 847.635,
+  "end": 850.077,
+  "speaker": "Unknown",
+  "en": "But these are a few ways that I identified.",
+  "zh": "但这是我识别出的几种方法。"
+ },
+ {
+  "seg": 192,
+  "start": 850.897,
+  "end": 855.02,
+  "speaker": "Unknown",
+  "en": "I'll just take you through them really quickly in the interest of time.",
+  "zh": "为了节省时间,我会很快地带你们过一遍。"
+ },
+ {
+  "seg": 193,
+  "start": 855.04,
+  "end": 861.065,
+  "speaker": "Unknown",
+  "en": "So supervised fine-tuning, I think most of you would know, where model mimics human demonstrations.",
+  "zh": "监督微调,我想你们大多数人都会知道,就是模型模仿人类的示范。"
+ },
+ {
+  "seg": 194,
+  "start": 861.105,
+  "end": 868.19,
+  "speaker": "Unknown",
+  "en": "Reinforcement learning from human feedback is kind of a very efficient way where human preferences train a reward model.",
+  "zh": "基于人类反馈的强化学习是一种非常高效的方式,用人类偏好来训练一个奖励模型。"
+ },
+ {
+  "seg": 195,
+  "start": 868.811,
+  "end": 874.335,
+  "speaker": "Unknown",
+  "en": "Then rubrics as a reward is, I like to call it, reinforcement learning from AI feedback.",
+  "zh": "然后是用评分标准作为奖励,我喜欢称之为基于 AI 反馈的强化学习。"
+ },
+ {
+  "seg": 196,
+  "start": 875.015,
+  "end": 884.377,
+  "speaker": "Unknown",
+  "en": "This is because a human can just create a rubric, and then AI will just grade itself based on that rubric and improve its own processes.",
+  "zh": "这是因为人类只需创建一个评分标准,然后 AI 就会根据那个评分标准给自己打分,并改进自己的过程。"
+ },
+ {
+  "seg": 197,
+  "start": 884.857,
+  "end": 899.441,
+  "speaker": "Unknown",
+  "en": "But again, there is a slight chance that you might run into an echo chamber with rubrics as rewards, and the cheapest of all, and I think the highest ROI is the error analysis, whereas the observability part that you set up earlier, you just analyze the logs plain and simple.",
+  "zh": "但话说回来,用评分标准作为奖励有可能让你陷入回音室,而其中最便宜的、我认为 ROI 最高的,是错误分析,也就是利用你之前搭建的可观测性部分,直接分析日志,简单直接。"
+ },
+ {
+  "seg": 198,
+  "start": 899.461,
+  "end": 902.562,
+  "speaker": "Unknown",
+  "en": "You understand where a model is going wrong, and then you just try to correct it.",
+  "zh": "你弄清楚模型在哪里出错,然后你就试着纠正它。"
+ },
+ {
+  "seg": 199,
+  "start": 904.182,
+  "end": 911.846,
+  "speaker": "Unknown",
+  "en": "This is where you don't have to touch any weights and the most highest ROI way to get the impact from start on.",
+  "zh": "这是你不必动任何权重的方法,也是从一开始就获得影响的 ROI 最高的方式。"
+ },
+ {
+  "seg": 200,
+  "start": 912.366,
+  "end": 925.051,
+  "speaker": "Unknown",
+  "en": "And once you understand what more you could do or if error analysis is solving or not, you can just gradually climb up the ladder and probably later on go to the ultimate reinforcement learning from human feedback.",
+  "zh": "而一旦你理解了还能做什么,或者错误分析到底有没有解决问题,你就可以逐步往上爬,大概之后再去搞终极的基于人类反馈的强化学习。"
+ },
+ {
+  "seg": 201,
+  "start": 925.252,
+  "end": 932.215,
+  "speaker": "Unknown",
+  "en": "That's, I think, in our industry, kind of the golden standard these days, that you need to do RLHF to actually get some edge.",
+  "zh": "我认为,在我们这个行业,这算是如今的黄金标准,就是你得做 RLHF 才能真正获得一些优势。"
+ },
+ {
+  "seg": 202,
+  "start": 933.035,
+  "end": 935.797,
+  "speaker": "Unknown",
+  "en": "But certainly there are some pitfalls of it.",
+  "zh": "但它当然也有一些坑。"
+ },
+ {
+  "seg": 203,
+  "start": 935.997,
+  "end": 938.96,
+  "speaker": "Unknown",
+  "en": "Like, for example, now there's GLM 5.2, right?",
+  "zh": "比如,现在有 GLM 5.2,对吧?"
+ },
+ {
+  "seg": 204,
+  "start": 939.68,
+  "end": 940.941,
+  "speaker": "Unknown",
+  "en": "You fine-tuned it, right?",
+  "zh": "你微调过了,对吧?"
+ },
+ {
+  "seg": 205,
+  "start": 942.382,
+  "end": 945.244,
+  "speaker": "Unknown",
+  "en": "Alibaba Cloud or, let's say, DeepSeq will release a newer model.",
+  "zh": "然后 Alibaba Cloud 或者说 DeepSeq 会发布一个更新的模型。"
+ },
+ {
+  "seg": 206,
+  "start": 945.264,
+  "end": 946.725,
+  "speaker": "Unknown",
+  "en": "Then you have to fine-tune that, too, as well.",
+  "zh": "那你也得跟着微调那个新模型。"
+ },
+ {
+  "seg": 207,
+  "start": 946.745,
+  "end": 947.666,
+  "speaker": "Unknown",
+  "en": "So there is a cost.",
+  "zh": "所以这是有成本的。"
+ },
+ {
+  "seg": 208,
+  "start": 947.706,
+  "end": 948.407,
+  "speaker": "Unknown",
+  "en": "It's not cheap.",
+  "zh": "它不便宜。"
+ },
+ {
+  "seg": 209,
+  "start": 949.597,
+  "end": 954.221,
+  "speaker": "Unknown",
+  "en": "So once you have done all this, you just create a loop, and you just go on to that loop.",
+  "zh": "所以一旦你把这一切都做完了,你就建立起一个循环,然后就一直待在那个循环里。"
+ },
+ {
+  "seg": 210,
+  "start": 954.241,
+  "end": 955.481,
+  "speaker": "Unknown",
+  "en": "You hired one user.",
+  "zh": "你招了一个用户。"
+ },
+ {
+  "seg": 211,
+  "start": 955.501,
+  "end": 956.903,
+  "speaker": "Unknown",
+  "en": "You hired more users.",
+  "zh": "你招了更多用户。"
+ },
+ {
+  "seg": 212,
+  "start": 957.303,
+  "end": 958.444,
+  "speaker": "Unknown",
+  "en": "They ask more queries.",
+  "zh": "他们提出更多查询。"
+ },
+ {
+  "seg": 213,
+  "start": 958.484,
+  "end": 959.565,
+  "speaker": "Unknown",
+  "en": "The scope increases.",
+  "zh": "范围扩大了。"
+ },
+ {
+  "seg": 214,
+  "start": 959.965,
+  "end": 960.846,
+  "speaker": "Unknown",
+  "en": "The data increases.",
+  "zh": "数据增多了。"
+ },
+ {
+  "seg": 215,
+  "start": 961.026,
+  "end": 963.127,
+  "speaker": "Unknown",
+  "en": "At this point, you are kind of generating your own data.",
+  "zh": "到这个时候,你差不多是在生成自己的数据了。"
+ },
+ {
+  "seg": 216,
+  "start": 963.468,
+  "end": 965.349,
+  "speaker": "Unknown",
+  "en": "The exercise you have been doing in loop, right?",
+  "zh": "就是你在循环里一直做的那个练习,对吧?"
+ },
+ {
+  "seg": 217,
+  "start": 965.909,
+  "end": 971.574,
+  "speaker": "Unknown",
+  "en": "That exercise itself is generating a very, I would say, a crazy data set of what works and what does not work.",
+  "zh": "那个练习本身就在生成一个非常,我会说,疯狂的数据集,记录了什么有效、什么无效。"
+ },
+ {
+  "seg": 218,
+  "start": 971.874,
+  "end": 972.935,
+  "speaker": "Unknown",
+  "en": "And this loop never stops.",
+  "zh": "而这个循环永远不会停止。"
+ },
+ {
+  "seg": 219,
+  "start": 973.555,
+  "end": 981.222,
+  "speaker": "Unknown",
+  "en": "Once you feel confident enough in your application, you just ship it, provide it to the external paying users, and then you see the magic of it, that it actually works.",
+  "zh": "一旦你对你的应用有了足够的信心,你就直接上线,把它提供给外部的付费用户,然后你就能看到它的魔力,它真的能跑起来。"
+ },
+ {
+  "seg": 220,
+  "start": 981.902,
+  "end": 990.029,
+  "speaker": "Unknown",
+  "en": "So I just pulled this stat from Stanford AI index report, because it's a really nice report that gives you an idea of what the state of AI is.",
+  "zh": "我刚从 Stanford AI index 报告里拉了这条数据,因为这是一份非常不错的报告,能让你了解 AI 的现状。"
+ },
+ {
+  "seg": 221,
+  "start": 990.53,
+  "end": 994.833,
+  "speaker": "Unknown",
+  "en": "And this says like 80%, 89% of enterprise AI agents never reach production.",
+  "zh": "上面说大约 80%,89% 的企业 AI 智能体从未到达生产环境。"
+ },
+ {
+  "seg": 222,
+  "start": 995.354,
+  "end": 996.254,
+  "speaker": "Unknown",
+  "en": "Again, I disagree.",
+  "zh": "再说一次,我不同意。"
+ },
+ {
+  "seg": 223,
+  "start": 997.135,
+  "end": 1001.98,
+  "speaker": "Unknown",
+  "en": "Every AI reaches production, but it just fails to work or justify its own cost.",
+  "zh": "每个 AI 都能到达生产环境,只是它没能跑起来,或者没能证明自身的成本合理。"
+ },
+ {
+  "seg": 224,
+  "start": 1002.14,
+  "end": 1003.161,
+  "speaker": "Unknown",
+  "en": "So that's the real thing.",
+  "zh": "这才是真实的情况。"
+ },
+ {
+  "seg": 225,
+  "start": 1003.602,
+  "end": 1008.346,
+  "speaker": "Unknown",
+  "en": "You can just build and ship AI agents whenever you want, but you need to justify ROI.",
+  "zh": "你随时都可以构建并上线 AI 智能体,但你需要证明 ROI。"
+ },
+ {
+  "seg": 226,
+  "start": 1008.406,
+  "end": 1013.671,
+  "speaker": "Unknown",
+  "en": "And finance and pharma are two such industries, where if it does not make money, it's shown the door.",
+  "zh": "而金融和制药就是这样两个行业,如果不能赚钱,就会被请出门。"
+ },
+ {
+  "seg": 227,
+  "start": 1014.4,
+  "end": 1014.76,
+  "speaker": "Unknown",
+  "en": "Simple.",
+  "zh": "就这么简单。"
+ },
+ {
+  "seg": 228,
+  "start": 1015.02,
+  "end": 1017.762,
+  "speaker": "Unknown",
+  "en": "They won't wait and say, OK, maybe it'll work in two years.",
+  "zh": "它们不会等着说,好吧,也许两年后能行。"
+ },
+ {
+  "seg": 229,
+  "start": 1017.802,
+  "end": 1020.304,
+  "speaker": "Unknown",
+  "en": "Maybe the cost will be lower by the third year.",
+  "zh": "也许到第三年成本会更低。"
+ },
+ {
+  "seg": 230,
+  "start": 1020.344,
+  "end": 1020.504,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不行。"
+ },
+ {
+  "seg": 231,
+  "start": 1020.805,
+  "end": 1022.306,
+  "speaker": "Unknown",
+  "en": "It has to instantly make money.",
+  "zh": "它必须立刻赚钱。"
+ },
+ {
+  "seg": 232,
+  "start": 1022.326,
+  "end": 1023.707,
+  "speaker": "Unknown",
+  "en": "It has to hit the ground running.",
+  "zh": "它必须一落地就能跑。"
+ },
+ {
+  "seg": 233,
+  "start": 1023.727,
+  "end": 1025.908,
+  "speaker": "Unknown",
+  "en": "And if it does not, show on the road instantly.",
+  "zh": "如果不能,立刻请出门。"
+ },
+ {
+  "seg": 234,
+  "start": 1026.428,
+  "end": 1035.235,
+  "speaker": "Unknown",
+  "en": "So just to summarize, the seven steps that I feel are good enough to give you an abstraction of how the vertical AI industry moves.",
+  "zh": "简单总结一下,我觉得这七个步骤足以让你对垂直 AI 行业的运作方式有一个抽象的理解。"
+ },
+ {
+  "seg": 235,
+  "start": 1035.895,
+  "end": 1037.396,
+  "speaker": "Unknown",
+  "en": "You formulate the problem statement.",
+  "zh": "你把问题陈述表述清楚。"
+ },
+ {
+  "seg": 236,
+  "start": 1037.416,
+  "end": 1038.876,
+  "speaker": "Unknown",
+  "en": "You source your data sources.",
+  "zh": "你找到你的数据来源。"
+ },
+ {
+  "seg": 237,
+  "start": 1039.516,
+  "end": 1040.637,
+  "speaker": "Unknown",
+  "en": "You prompt it well.",
+  "zh": "你把提示词写好。"
+ },
+ {
+  "seg": 238,
+  "start": 1040.657,
+  "end": 1041.777,
+  "speaker": "Unknown",
+  "en": "You define those prompts.",
+  "zh": "你定义好那些提示词。"
+ },
+ {
+  "seg": 239,
+  "start": 1042.097,
+  "end": 1043.978,
+  "speaker": "Unknown",
+  "en": "You observe how your tool is performing.",
+  "zh": "你观察你的工具表现如何。"
+ },
+ {
+  "seg": 240,
+  "start": 1044.278,
+  "end": 1045.478,
+  "speaker": "Unknown",
+  "en": "You don't iterate yet.",
+  "zh": "你先不急着迭代。"
+ },
+ {
+  "seg": 241,
+  "start": 1045.899,
+  "end": 1046.899,
+  "speaker": "Unknown",
+  "en": "You hire the user.",
+  "zh": "你招来用户。"
+ },
+ {
+  "seg": 242,
+  "start": 1047.399,
+  "end": 1051.16,
+  "speaker": "Unknown",
+  "en": "And this user or users now play with the tool as much as possible.",
+  "zh": "然后这些用户现在尽可能多地使用这个工具。"
+ },
+ {
+  "seg": 243,
+  "start": 1051.2,
+  "end": 1055.722,
+  "speaker": "Unknown",
+  "en": "They kind of form a learning loop, an endless learning loop that goes on.",
+  "zh": "他们差不多形成了一个学习循环,一个不断延续的、没有尽头的学习循环。"
+ },
+ {
+  "seg": 244,
+  "start": 1055.742,
+  "end": 1061.384,
+  "speaker": "Unknown",
+  "en": "And at a point when you feel, yeah, it's really delivering that alpha over, let's say, Claude and ChatGPT.",
+  "zh": "然后到了某个时点,你觉得,是的,它确实在交付那种超越,比如说,Claude 和 ChatGPT 的 alpha。"
+ },
+ {
+  "seg": 245,
+  "start": 1061.424,
+  "end": 1061.984,
+  "speaker": "Unknown",
+  "en": "You just ship it.",
+  "zh": "你就直接上线。"
+ },
+ {
+  "seg": 246,
+  "start": 1062.004,
+  "end": 1062.925,
+  "speaker": "Unknown",
+  "en": "You start earning money.",
+  "zh": "你开始赚钱了。"
+ },
+ {
+  "seg": 247,
+  "start": 1065.348,
+  "end": 1066.348,
+  "speaker": "Unknown",
+  "en": "One more interesting thing.",
+  "zh": "还有一件有意思的事。"
+ },
+ {
+  "seg": 248,
+  "start": 1066.588,
+  "end": 1068.749,
+  "speaker": "Unknown",
+  "en": "So HITL is like kind of a thing.",
+  "zh": "HITL 现在差不多算是个流行话题。"
+ },
+ {
+  "seg": 249,
+  "start": 1068.809,
+  "end": 1070.75,
+  "speaker": "Unknown",
+  "en": "Everyone is like, yeah, let's add human in the loop.",
+  "zh": "每个人都在说,对,我们加入 human in the loop 吧。"
+ },
+ {
+  "seg": 250,
+  "start": 1071.11,
+  "end": 1072.11,
+  "speaker": "Unknown",
+  "en": "I would say not yet.",
+  "zh": "我会说还没有。"
+ },
+ {
+  "seg": 251,
+  "start": 1072.49,
+  "end": 1083.194,
+  "speaker": "Unknown",
+  "en": "Finance and pharma are still those two industries where it's AITL, AI in the loop, because everything is like done by the expert, but the AI assistant really helps save time.",
+  "zh": "金融和制药仍然是那两个「AI 在环」(AITL)的行业，因为一切都是由专家完成的，但 AI 助手确实能帮助节省时间。"
+ },
+ {
+  "seg": 252,
+  "start": 1083.534,
+  "end": 1084.395,
+  "speaker": "Unknown",
+  "en": "Like for example,",
+  "zh": "比如说,"
+ },
+ {
+  "seg": 253,
+  "start": 1085.855,
+  "end": 1098.519,
+  "speaker": "Unknown",
+  "en": "It may take an X amount for a trader to form different trade theses, and AI can just give him five candidate trade theses, but which one would actually work in the market and which won't, the discussion still lies with the trader.",
+  "zh": "一个交易员形成不同的交易论点可能需要 X 量的时间，而 AI 可以直接给他五个候选交易论点，但哪一个在市场上真正行得通、哪一个不行，这个判断仍然取决于交易员。"
+ },
+ {
+  "seg": 254,
+  "start": 1098.879,
+  "end": 1108.582,
+  "speaker": "Unknown",
+  "en": "And same for pharma, when you're picking drug candidates, which one to pick, the expert still does it, but you just reduce the time of expert by a lot, lot.",
+  "zh": "制药也一样，当你在挑选候选药物时，选哪一个仍然由专家来做，但你只是把专家的时间大幅、大幅地减少了。"
+ },
+ {
+  "seg": 255,
+  "start": 1109.342,
+  "end": 1112.303,
+  "speaker": "Unknown",
+  "en": "So and it will stay this way for really long.",
+  "zh": "所以这种情况会持续很长很长时间。"
+ },
+ {
+  "seg": 256,
+  "start": 1112.363,
+  "end": 1117.404,
+  "speaker": "Unknown",
+  "en": "So for the models to actually make good decisions, they don't need to do correlation.",
+  "zh": "要让模型真正做出好的决策，它们不需要做相关性。"
+ },
+ {
+  "seg": 257,
+  "start": 1117.444,
+  "end": 1118.504,
+  "speaker": "Unknown",
+  "en": "They need to do causation.",
+  "zh": "但什么是护城河，而且没有人会来把它卖给你，你必须自己去培育的，就是领域专业知识。"
+ },
+ {
+  "seg": 258,
+  "start": 1119.444,
+  "end": 1125.366,
+  "speaker": "Unknown",
+  "en": "And as Jan Laken puts it, these are like tech statistics, not real world models.",
+  "zh": "正如 Jan Laken 所说，这些就像技术统计，而不是真实世界的模型。"
+ },
+ {
+  "seg": 259,
+  "start": 1125.866,
+  "end": 1129.027,
+  "speaker": "Unknown",
+  "en": "You cannot just pattern match with past and use future to predict to it.",
+  "zh": "你不能只是用过去做模式匹配，然后用未来去预测它。"
+ },
+ {
+  "seg": 260,
+  "start": 1129.787,
+  "end": 1131.667,
+  "speaker": "Unknown",
+  "en": "And so we are like kind of not there yet.",
+  "zh": "所以我们差不多还没到那一步。"
+ },
+ {
+  "seg": 261,
+  "start": 1131.707,
+  "end": 1133.808,
+  "speaker": "Unknown",
+  "en": "That's what I call as the AGI line.",
+  "zh": "这就是我所称的 AGI 线。"
+ },
+ {
+  "seg": 262,
+  "start": 1134.208,
+  "end": 1136.97,
+  "speaker": "Unknown",
+  "en": "Once we are there, yeah, probably then models will just make drugs.",
+  "zh": "一旦我们到了那一步，是的，到那时模型大概就会直接制药了。"
+ },
+ {
+  "seg": 263,
+  "start": 1136.99,
+  "end": 1138.471,
+  "speaker": "Unknown",
+  "en": "You will have vibe-coded drugs.",
+  "zh": "你会有 vibe coding 出来的药物。"
+ },
+ {
+  "seg": 264,
+  "start": 1138.831,
+  "end": 1140.352,
+  "speaker": "Unknown",
+  "en": "Someone would be vibe-coding market.",
+  "zh": "有人会对市场进行 vibe coding。"
+ },
+ {
+  "seg": 265,
+  "start": 1140.753,
+  "end": 1141.834,
+  "speaker": "Unknown",
+  "en": "But yeah, not yet.",
+  "zh": "但是，是的，还没有。"
+ },
+ {
+  "seg": 266,
+  "start": 1142.774,
+  "end": 1149.099,
+  "speaker": "Unknown",
+  "en": "So a final takeaway that I would call if there's one thing you are taking away from this talk, this is it.",
+  "zh": "所以最后一个要点，如果有一样东西你要从这次演讲中带走，那就是它。"
+ },
+ {
+  "seg": 267,
+  "start": 1150.055,
+  "end": 1155.856,
+  "speaker": "Unknown",
+  "en": "Model, infra, ecosystem, everyone selling you tons of stuff at this conference is just commodity.",
+  "zh": "模型、基础设施、生态系统，这个大会上向你推销一大堆东西的每个人，都只是大宗商品。"
+ },
+ {
+  "seg": 268,
+  "start": 1155.996,
+  "end": 1156.717,
+  "speaker": "Unknown",
+  "en": "Everyone has it.",
+  "zh": "每个人都有。"
+ },
+ {
+  "seg": 269,
+  "start": 1156.777,
+  "end": 1158.017,
+  "speaker": "Unknown",
+  "en": "If you have it, everyone has it.",
+  "zh": "如果你有，那每个人都有。"
+ },
+ {
+  "seg": 270,
+  "start": 1158.057,
+  "end": 1160.758,
+  "speaker": "Unknown",
+  "en": "Everyone can pay X number of dollars for a subscription.",
+  "zh": "每个人都可以花 X 美元买一个订阅。"
+ },
+ {
+  "seg": 271,
+  "start": 1161.278,
+  "end": 1167.719,
+  "speaker": "Unknown",
+  "en": "But what is moat, and no one will come and sell it to you, you won't have to curate it on your own, is the domain expertise.",
+  "zh": "但什么是护城河呢——没人会把它卖给你,你也不得不自己去整理的,就是领域专业知识。"
+ },
+ {
+  "seg": 272,
+  "start": 1168.159,
+  "end": 1174.221,
+  "speaker": "Unknown",
+  "en": "You need your data, you need other people's data that is just not out there on the internet, and that's what will form your moat.",
+  "zh": "你需要你自己的数据，你需要那些并不存在于互联网上的别人的数据，而这才将构成你的护城河。"
+ },
+ {
+  "seg": 273,
+  "start": 1174.901,
+  "end": 1176.286,
+  "speaker": "Unknown",
+  "en": "So thank you for your time.",
+  "zh": "所以感谢你们的时间。"
+ },
+ {
+  "seg": 274,
+  "start": 1176.667,
+  "end": 1177.991,
+  "speaker": "Unknown",
+  "en": "I think you enjoyed the talk.",
+  "zh": "我觉得你们喜欢这次演讲。"
+ },
+ {
+  "seg": 275,
+  "start": 1178.112,
+  "end": 1179.898,
+  "speaker": "Unknown",
+  "en": "And yeah, let me know if you have any questions.",
+  "zh": "是的，如果你有任何问题请告诉我。"
+ },
+ {
+  "seg": 276,
+  "start": 1180.058,
+  "end": 1180.841,
+  "speaker": "Unknown",
+  "en": "We can meet outside.",
+  "zh": "我们可以在外面交流。"
+ },
+ {
+  "seg": 277,
+  "start": 1181.162,
+  "end": 1181.463,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

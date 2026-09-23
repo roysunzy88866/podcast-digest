@@ -1,0 +1,597 @@
+{
+  "episode_id": "2026-08-19-talks-trading-desks-to-clinical-trials-paralle",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "垂直 AI",
+    "智能体",
+    "金融 AI",
+    "医药 AI",
+    "模型微调"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ayush-bhardwaj",
+      "type": "person",
+      "role": "guest",
+      "name": "Ayush Bhardwaj",
+      "file": "Ayush Bhardwaj",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.634,
+            20.075
+          ],
+          "quote": "So my name is Ayush Bhardwaj, and I did applied AI for a hedge fund.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的核心：人人都在把智能体放进生产环境，真正该问的是它是否有效、是否证明了 ROI；他待过的两家公司里智能体都省了或赚了钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.952,
+            44.514
+          ],
+          "quote": "OK, just to be clear, managing AI agent does not count.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            214.898,
+            222.665
+          ],
+          "quote": "And I can say from my anecdotal experience, yes, at the both places I worked, the agent either saved the money or made more money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            280.347,
+            286.871
+          ],
+          "quote": "So you pick very specific things, and then you formulate a very narrow job for the AI agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            291.734,
+            293.875
+          ],
+          "quote": "So why do you want your single agent to do everything?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            298.738,
+            303.341
+          ],
+          "quote": "We just break down the process into steps and then ask really pointed questions with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            303.901,
+            305.623
+          ],
+          "quote": "We model our agent for our task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            441.86,
+            445.642
+          ],
+          "quote": "Like, literally, this is the code you precisely need to build an AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            487.047,
+            494.769
+          ],
+          "quote": "I just don't understand what the model is saying, what is the output of my AI agent is, and since most of you are ingenious, you would relate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "applied-vertical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用垂直 AI (applied vertical AI)",
+      "file": "应用垂直 AI",
+      "primary": true,
+      "how_described": "演讲者自造的术语：为某一个特定行业、模拟该行业中某个人的工作而构建的应用 AI，如用 AI 研发药物；他给了七步构建配方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            51.74,
+            57.405
+          ],
+          "quote": "So today my aim is to take you through the journey of how do you actually build a nitrate in applied vertical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            63.81,
+            69.056
+          ],
+          "quote": "Delving deep into the recipe, I'll just take you through, what do I even mean by Applied Vertical AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            76.585,
+            83.713
+          ],
+          "quote": "So Applied AI is like built for, so Applied Vertical AI is essentially Applied AI, but built for one very specific industry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            107.111,
+            112.315
+          ],
+          "quote": "Another example of applied vertical AI field could be the legal tech firms that are now coming up with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            113.736,
+            117.178
+          ],
+          "quote": "So those are another good examples of applied vertical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            175.155,
+            179.719
+          ],
+          "quote": "And I realized that everyone is kind of building the applied vertical AI in a very similar way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proprietary-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "专有数据 (proprietary data)",
+      "file": "专有数据",
+      "primary": true,
+      "how_described": "本集说是让应用比 ChatGPT 或 Claude 更好的关键：贵、没人卖给你、只能自己整理；金融最好的是交易论点，制药是失败实验的数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            334.091,
+            335.171
+          ],
+          "quote": "It is your proprietary data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            336.031,
+            340.792
+          ],
+          "quote": "So the thing with proprietary data is it's really expensive to buy, and most people won't sell it to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            362.323,
+            369.908
+          ],
+          "quote": "Proprietary data that finance industry has, it's the trade theses, which is like what trade work and why it worked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            447.784,
+            449.285
+          ],
+          "quote": "Of course, accept your proprietary data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "七步配方之一：查看追踪记录、理解 AI 应用在做什么并调试；「如果你能看到它，你就能修复它」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            411.329,
+            412.409
+          ],
+          "quote": "Next thing, observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            412.429,
+            420.571
+          ],
+          "quote": "I'm sure you have been at this conference at three years, and this word, I think, I don't know, you'll be hearing about like a thousandth time that tons of observability provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            423.671,
+            430.993
+          ],
+          "quote": "So you need observability to see the traces, understand what your AI application is doing, and debug it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            455.17,
+            462.953
+          ],
+          "quote": "Which is observability and prompts and getting the data right and everything, you iterate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            884.857,
+            899.441
+          ],
+          "quote": "But again, there is a slight chance that you might run into an echo chamber with rubrics as rewards, and the cheapest of all, and I think the highest ROI is the error analysis, whereas the observability part that you set up earlier, you just analyze the logs plain and simple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "error-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "错误分析 (error analysis)",
+      "file": "错误分析",
+      "primary": true,
+      "how_described": "本集说是所有迭代方法里最便宜、ROI 最高的：直接分析可观测性日志找出模型哪里出错，不用碰任何模型权重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            884.857,
+            899.441
+          ],
+          "quote": "But again, there is a slight chance that you might run into an echo chamber with rubrics as rewards, and the cheapest of all, and I think the highest ROI is the error analysis, whereas the observability part that you set up earlier, you just analyze the logs plain and simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            912.366,
+            925.051
+          ],
+          "quote": "And once you understand what more you could do or if error analysis is solving or not, you can just gradually climb up the ladder and probably later on go to the ultimate reinforcement learning from human feedback.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning-from-human-feedback",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于人类反馈的强化学习 (reinforcement learning from human feedback)",
+      "file": "基于人类反馈的强化学习",
+      "primary": true,
+      "how_described": "本集称之为行业黄金标准：用人类偏好训练奖励模型；但有成本——新模型发布后你得跟着重新微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            861.105,
+            868.19
+          ],
+          "quote": "Reinforcement learning from human feedback is kind of a very efficient way where human preferences train a reward model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            912.366,
+            925.051
+          ],
+          "quote": "And once you understand what more you could do or if error analysis is solving or not, you can just gradually climb up the ladder and probably later on go to the ultimate reinforcement learning from human feedback.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 当裁判 (LLM as a judge)",
+      "file": "LLM 当裁判",
+      "primary": true,
+      "how_described": "演讲者直说用它来评估垂直领域输出是「非常愚蠢的错误」：LLM 只会预测下一个最可能的词、用行话蒙混过关，不理解 alpha 或真正的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            548.005,
+            552.052
+          ],
+          "quote": "So I thought I could LLM as a judge my way out of it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supervised-fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "监督微调 (supervised fine-tuning)",
+      "file": "监督微调",
+      "primary": true,
+      "how_described": "本集介绍的学习循环方法之一：让模型模仿人类的示范。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            855.04,
+            861.065
+          ],
+          "quote": "So supervised fine-tuning, I think most of you would know, where model mimics human demonstrations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning-via-verifiable-rewards",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于可验证奖励的强化学习 (reinforcement learning via verifiable rewards)",
+      "file": "基于可验证奖励的强化学习",
+      "primary": true,
+      "how_described": "本集说它在数学和代码上有效因为有标准答案，但在金融/制药这些领域无法建模，任何误差都会逐步复合放大——这就是模型无法自我验证的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            582.607,
+            593.514
+          ],
+          "quote": "So first thing is that model cannot verify itself specifically in these fields because reinforcement learning via verifiable rewards is really good at math and code because you have like answer keys.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "human in the loop",
+      "file": "human in the loop",
+      "primary": true,
+      "how_described": "本集说还早：金融和制药如今其实是「AI in the loop」——一切由专家完成，AI 负责省时间，最终判断仍在专家手里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1068.809,
+            1070.75
+          ],
+          "quote": "Everyone is like, yeah, let's add human in the loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "七步配方之三：写提示词就是按你试图取代的那个人建模，把一个人如何解决这项工作编码成多个步骤，像建一个心智模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            384.028,
+            386.59
+          ],
+          "quote": "That is to model the problem, like write the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            387.311,
+            395.278
+          ],
+          "quote": "So while writing prompt, what we should aim is to model it after the person who you are trying to replace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1039.516,
+            1040.637
+          ],
+          "quote": "You prompt it well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集的最终带走要点：模型、基础设施都是大宗商品，真正的护城河是互联网上不存在的行业数据和自己培育的领域专业知识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            638.73,
+            647.653
+          ],
+          "quote": "And once a hedge fund does this, this is the percentage decrease in their returns because everyone just sees those reverse engineers and takes away their moat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1161.278,
+            1167.719
+          ],
+          "quote": "But what is moat, and no one will come and sell it to you, you won't have to curate it on your own, is the domain expertise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1168.159,
+            1174.221
+          ],
+          "quote": "You need your data, you need other people's data that is just not out there on the internet, and that's what will form your moat.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "allos",
+      "type": "company",
+      "role": "company",
+      "name": "Allos",
+      "file": "Allos",
+      "primary": true,
+      "how_described": "演讲者的雇主，一家医药科技公司，专门用 AI 来研发药物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            95.262,
+            104.809
+          ],
+          "quote": "It could be used in education tech, and it can have like tons and various sorts of uses, whereas Allos, which is my employer, the pharma tech company, we specifically build drugs with AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集作为通用基线反复提及：垂直应用必须交付超越 Claude 和 ChatGPT 的 alpha 才值得上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            329.309,
+            333.61
+          ],
+          "quote": "But what actually makes your application better than, let's say, ChatGPT or Claude?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1055.742,
+            1061.384
+          ],
+          "quote": "And at a point when you feel, yeah, it's really delivering that alpha over, let's say, Claude and ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "与 ChatGPT 并列的通用基线；演讲者还以 Sonnet 5 写代码为例说明工程师有判断编程好坏的心智模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            329.309,
+            333.61
+          ],
+          "quote": "But what actually makes your application better than, let's say, ChatGPT or Claude?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1055.742,
+            1061.384
+          ],
+          "quote": "And at a point when you feel, yeah, it's really delivering that alpha over, let's say, Claude and ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

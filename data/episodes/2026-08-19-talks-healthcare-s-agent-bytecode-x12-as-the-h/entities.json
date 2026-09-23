@@ -1,0 +1,539 @@
+{
+  "episode_id": "2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "智能体",
+    "医疗 AI",
+    "保险理赔",
+    "AI 安全",
+    "X12"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "vasant-kearney",
+      "type": "person",
+      "role": "guest",
+      "name": "Vasant Kearney",
+      "file": "Vasant Kearney",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体定义为模型采取行动的执行层：查数据库、打电话、操作桌面和浏览器、对接 EHR、做保险交易；核心挑战是在医疗理赔场景里安全可靠地运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            158.296,
+            172.222
+          ],
+          "quote": "And then finally, with the Claude codes, the codexes, and our system internally, and a lot of systems, you have OpenClaw, Hermes Agent, all that kind of stuff, which really brings into the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            845.874,
+            850.637
+          ],
+          "quote": "So you call the insurance company, you have an agent interact with the desktop,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            851.28,
+            853.341
+          ],
+          "quote": "You have an agent interact with the browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            879.36,
+            899.845
+          ],
+          "quote": "And the other beautiful thing about it, it's not, you know, you ask an agent to do something, let's say you're agentically programming, or let's say you're just, you're programming how, you know, maybe half the companies I spoke with here still program today just everything by hand, and they use these Claude Code or Codex for research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "x12",
+      "type": "concept",
+      "role": "concept",
+      "name": "X12",
+      "file": "X12",
+      "primary": true,
+      "how_described": "本集说 X12 是医疗保险行业的电子数据交换标准、一套规则体系，是你与保险公司沟通的底层契约；打电话给保险公司归根结底也是一笔 X12 交易，而且全是公开标准、不是自造 schema。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            526.428,
+            542.625
+          ],
+          "quote": "agentic reasoning, and that is the concept of memory that we discussed, the different tools, the checks, the permissions, the handoffs, the evals, but also in the context of healthcare and claims, it's x12.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            568.581,
+            571.323
+          ],
+          "quote": "And x12 is exactly this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            762.255,
+            772.138
+          ],
+          "quote": "So each step does have an X12 correspondence with it, starting with the schedule when, let's say, you're showing up to the doctor's office before you even show up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            821.141,
+            825.483
+          ],
+          "quote": "That boils down to a transaction, an x12 transaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            838.17,
+            840.912
+          ],
+          "quote": "That has an x12 grounding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            842.372,
+            845.354
+          ],
+          "quote": "And that is the whole concept here, this x12 harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            861.784,
+            866.626
+          ],
+          "quote": "So that's not X12, but still that structured transaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            930.733,
+            936.781
+          ],
+          "quote": "So x12 is a system of rules and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            938.007,
+            942.491
+          ],
+          "quote": "It doesn't mean that when an insurance company gives you an x12, it's true.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            963.508,
+            964.688
+          ],
+          "quote": "Or their x12 layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            981.971,
+            986.692
+          ],
+          "quote": "All three, you call them, you look in the browser and the x12 and they all say, yes, this patient is covered.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1002.185,
+            1011.652
+          ],
+          "quote": "But regardless of if it originates as an X12 or not, you can boil all those transactions down to your own internal semi-correct X12.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1023.86,
+            1028.762
+          ],
+          "quote": "Any of the X12, any of the information coming from the insurance company, any time can be wrong and can be updated later.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness（护栏装置） (harness)",
+      "file": "harness（护栏装置）",
+      "primary": true,
+      "how_described": "本集把 harness 宽泛定义为围绕智能体推理的所有螺母和螺栓——记忆、工具、检查、权限、交接、eval——在医疗理赔语境下核心就是 X12。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            244.453,
+            247.877
+          ],
+          "quote": "So parts of this can be thought of as the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            511.348,
+            518.39
+          ],
+          "quote": "So this concept of harness, different groups have different definitions of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            842.372,
+            845.354
+          ],
+          "quote": "And that is the whole concept here, this x12 harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说理赔流程约 50 步、每一步都可能引入错误并向下游传播，因此必须有严格的护栏，让有依据的错误可以被拒绝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            616.035,
+            623.06
+          ],
+          "quote": "So if you have a really strict guardrails, you can reject something that happens that's incorrect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说 Claude Code/Codex 用写桌面的本地记忆，而企业级医疗必须把记忆放数据库以求逻辑隔离；他们引入伙伴级、组织级、用户级三层记忆来平衡自由推理与硬编码，但持久记忆会引入偏见，必须保证用户能跳出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            118.823,
+            126.766
+          ],
+          "quote": "So a little trip down memory lane just starting from this long journey of AI and machine learning and where we are today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            441.022,
+            442.884
+          ],
+          "quote": "And then the next concept is memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            443.664,
+            448.348
+          ],
+          "quote": "So Claude Code or Codex, they use local memory, they write to your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            449.068,
+            456.875
+          ],
+          "quote": "In enterprise healthcare, we can't really do this, so we do memory in a database, just so we have that logical separation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            526.428,
+            542.625
+          ],
+          "quote": "agentic reasoning, and that is the concept of memory that we discussed, the different tools, the checks, the permissions, the handoffs, the evals, but also in the context of healthcare and claims, it's x12.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            688.325,
+            700.779
+          ],
+          "quote": "So we do that internally with introducing memory, just this partner-level memory, organizational, organized memory and user memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            725.257,
+            735.983
+          ],
+          "quote": "So we want to be really careful here because as you introduce memory, you also, persistent memory across chats, across days, you also introduce bias.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "primary": true,
+      "how_described": "本集说理赔推理涉及图像等多模态上下文——X 光片本身就是证据文件、桌面按钮只有多模态处理才可见；多模态让 50 步流程更贵更慢且每步都是引入错误的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            282.25,
+            291.012
+          ],
+          "quote": "So another thing that comes up, just sort of setting the stage, is that multimodal context,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            348.421,
+            352.765
+          ],
+          "quote": "So that introduces this concept of just multimodal processing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            361.595,
+            377.318
+          ],
+          "quote": "You can see that sometimes things are buttons or might have some shapes that are only obvious when you do this multimodal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            627.792,
+            635.74
+          ],
+          "quote": "So with your reasoning over, let's say, the previous example, 50 steps, and they're multimodal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ehr",
+      "type": "concept",
+      "role": "concept",
+      "name": "EHR",
+      "file": "EHR",
+      "primary": true,
+      "how_described": "本集把 EHR 列为智能体执行层可对接的系统之一，智能体可以就理赔研究 EHR、把它作为下游机器学习的数据来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            321.012,
+            323.314
+          ],
+          "quote": "Like EHR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            423.035,
+            425.277
+          ],
+          "quote": "You might be interfacing with an EHR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            593.338,
+            595.7
+          ],
+          "quote": "Research your EHR with respect to claims.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fhir",
+      "type": "concept",
+      "role": "concept",
+      "name": "FHIR",
+      "file": "FHIR",
+      "primary": false,
+      "how_described": "本集提到保险公司的信息可能来自不同团队和接口，包括他们的 FHIR 层，说明不存在 ground truth。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            966.028,
+            966.669
+          ],
+          "quote": "Or their FHIR.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把 Claude Code 与 Codex 并举为智能体执行层工具的代表，并指出它们用写桌面的本地记忆，这在企业级医疗里行不通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            443.664,
+            448.348
+          ],
+          "quote": "So Claude Code or Codex, they use local memory, they write to your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            879.36,
+            899.845
+          ],
+          "quote": "And the other beautiful thing about it, it's not, you know, you ask an agent to do something, let's say you're agentically programming, or let's say you're just, you're programming how, you know, maybe half the companies I spoke with here still program today just everything by hand, and they use these Claude Code or Codex for research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集把 Codex 与 Claude Code 并举为智能体执行层/编程研究工具，同样以本地记忆写桌面为例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            443.664,
+            448.348
+          ],
+          "quote": "So Claude Code or Codex, they use local memory, they write to your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            879.36,
+            899.845
+          ],
+          "quote": "And the other beautiful thing about it, it's not, you know, you ask an agent to do something, let's say you're agentically programming, or let's say you're just, you're programming how, you know, maybe half the companies I spoke with here still program today just everything by hand, and they use these Claude Code or Codex for research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ach",
+      "type": "concept",
+      "role": "concept",
+      "name": "ACH",
+      "file": "ACH",
+      "primary": false,
+      "how_described": "本集提到银行 ACH 不是 X12，但同样是结构化交易，说明付款环节也能归结到结构化事务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            858.523,
+            861.604
+          ],
+          "quote": "And your insurance, your bank, your ACH.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "eval",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

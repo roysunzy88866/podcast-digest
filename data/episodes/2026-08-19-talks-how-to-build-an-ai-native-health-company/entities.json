@@ -1,0 +1,367 @@
+{
+  "episode_id": "2026-08-19-talks-how-to-build-an-ai-native-health-company",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "AI 原生转型",
+    "AI 编程",
+    "组织变革",
+    "代码审查",
+    "可靠性"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dan-feng",
+      "type": "person",
+      "role": "guest",
+      "name": "Dan Feng",
+      "file": "Dan Feng",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "maven-clinic",
+      "type": "company",
+      "role": "company",
+      "name": "Maven Clinic",
+      "file": "Maven Clinic",
+      "primary": true,
+      "how_described": "本集嘉宾 Dan 所在的公司：一家专注于孕产、生育、育儿、更年期的大型数字健康平台，两年内从传统科技公司转型为 AI 原生公司，并构建了跨产品的编排层 Maven Intelligence。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.677,
+            16.858
+          ],
+          "quote": "I'm from Maven Clinic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生 (AI native)",
+      "file": "AI 原生",
+      "primary": true,
+      "how_described": "本集核心主题：没有单一定义、没有现成 playbook，Dan 把它归结为三件事——内部能用 AI 就用 AI、把 AI 构建进产品（改善体验+降低成本）、改文化流程以最大化 AI 价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            106.583,
+            112.326
+          ],
+          "quote": "So first of all, I don't think there's one single definition what it means by AI native.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            116.208,
+            119.269
+          ],
+          "quote": "You can just follow and bingo, you become AI native.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程工具 (AI coding tools)",
+      "file": "AI 编程工具",
+      "primary": true,
+      "how_described": "本集称之为可能是最成功的 AI 应用。Maven 的路径是从写单元测试和文档这类低风险任务起步建立信心，再到规则、技能和护栏，最后推广到全团队；如今几乎所有实现都由它完成，工程师专注审查、架构和评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            586.933,
+            591.681
+          ],
+          "quote": "AI coding tools is probably the most successful AI application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            635.857,
+            642.12
+          ],
+          "quote": "And then we push to the whole engineer team, say, now you should use this AI coding tools for all the tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            647.382,
+            652.703
+          ],
+          "quote": "And at this moment, we pretty much use the AI coding tools to do all our implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            660.089,
+            664.851
+          ],
+          "quote": "So, and with AI coding tools, we are writing so much code these days.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            243.303,
+            247.824
+          ],
+          "quote": "For example, last year, most of folks at Maven, they are using Cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说 AI 编程让代码量从每天几百行涨到上千行，代码审查成了瓶颈；Maven 重构了制度：允许工程师自行判断是否需要人审、PR 不超 500 行、启用堆叠式 PR，坚决避免『橡皮图章』式假审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            665.511,
+            668.012
+          ],
+          "quote": "Code review becomes really challenging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            677.056,
+            681.978
+          ],
+          "quote": "If we're capable to do the code review as we used to do, we won't be able to keep up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            696.688,
+            702.674
+          ],
+          "quote": "That means we need to really change the way we are doing code review to meet where we are now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            705.456,
+            710.721
+          ],
+          "quote": "One is we allow engineers to self-identify whether we still need code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            721.849,
+            726.732
+          ],
+          "quote": "And if they do want code review, we want them to stay with the best practices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            733.097,
+            738.003
+          ],
+          "quote": "Do a meaningful code review with the ones that has like thousands of less code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            756.742,
+            758.403
+          ],
+          "quote": "It means people submit code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            771.668,
+            777.471
+          ],
+          "quote": "Meanwhile, we should keep working on our AI code review tools, because we think that's the future.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说生成式 AI 的幻觉消不干净、完全消除成本高也没必要；正确做法是分层：区分可豁免与不可豁免的失败，高风险场景用不同模型交叉验证同一收据，判断不了就转人工，再配严格的集成测试与上线后人工抽查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            823.507,
+            827.71
+          ],
+          "quote": "But for the GNI solutions, hallucination is there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1001.253,
+            1009.121
+          ],
+          "quote": "This whole process makes sure we feel really confident we never reach something, although we know hallucination is there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到 Maven 在建立信心后开始构建自己的规则、技能并建立护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            630.835,
+            635.577
+          ],
+          "quote": "And we start to construct our own rules, skills, and build our guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hire",
+      "type": "concept",
+      "role": "concept",
+      "name": "招聘 (hire)",
+      "file": "招聘",
+      "primary": true,
+      "how_described": "本集说 AI 擅长执行，所以招聘要变：新人必须能独立解决问题，公司已无法承担分派实现任务的模式；要找真正对 AI 感兴趣、懂产品、能处理复杂模糊问题的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            285.542,
+            290.225
+          ],
+          "quote": "So let's change how we should hire new people and how should we reward it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            340.867,
+            344.31
+          ],
+          "quote": "Also, when we hire new people, we should think about what we are looking for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            390.466,
+            394.747
+          ],
+          "quote": "When we hire new people, this is also the people we are interested in bringing on boards.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sprint",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代周期 (sprint)",
+      "file": "迭代周期",
+      "primary": true,
+      "how_described": "本集说季度规划死了、论证才是贵的：一年目标只当方向，真正聚焦未来两到四周的 sprint，周期结束就发布，发现方向错了就快速换挡；文档只写一两页供沟通迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            497.562,
+            502.945
+          ],
+          "quote": "What we want to get the PMs and designers to say, OK, tell me what I need to do in this sprint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            503.245,
+            509.488
+          ],
+          "quote": "And the engineer will focus on it and get it released at the end of the sprint if not sooner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            515.932,
+            525.319
+          ],
+          "quote": "If under this sprint, they say, no, what we decided 2xGo is wrong, it's totally OK. We can switch the gear, get it fixed quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Claude Code",
+      "reason": "专名「Claude Code」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

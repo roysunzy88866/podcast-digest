@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ken]] · [[Dave Fletcher]] · [[AI 编码工具]] · [[可观测性]] · [[CI-CD]] · [[技术债务]] · [[AI 优先]] · [[DevTools]]
+[[Ken]] · [[Dave Fletcher]] · [[AI 编程工具]] · [[可观测性]] · [[CI-CD]] · [[技术债务]] · [[AI 优先]] · [[DevTools]]
 
-<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"AI 编码工具":1,"可观测性":24,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"AI 编程工具":2,"可观测性":25,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){
