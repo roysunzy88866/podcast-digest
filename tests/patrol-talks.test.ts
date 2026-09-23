@@ -4,9 +4,9 @@
 // fixture 全部来自真实响应(2026-07-31 本机代理实拉:AI Engineer feed 200 / Axios videos 页 / @axios 页)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { resolve, dirname } from "node:path";
+import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays, SH_MAX_BUFFER } from "../scripts/patrol-talks.mjs";
+import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays, SH_MAX_BUFFER, loadLibraryTitles } from "../scripts/patrol-talks.mjs";
 
 const FIX = resolve(dirname(fileURLToPath(import.meta.url)), "fixtures");
 const feedXml = readFileSync(resolve(FIX, "yt-channel-feed.xml"), "utf8");
@@ -301,5 +301,30 @@ describe("drift #105 · yt-dlp 大元数据不许被 1MB 默认上限掐死", ()
     for (const f of ["patrol-talks.mjs", "seed-talk.mjs"]) {
       expect(readFileSync(resolve(scripts, f), "utf8")).toContain("${r.error ? ` ${r.error.code}` : \"\"}");
     }
+  });
+});
+
+describe("drift #106 · 巡航落种前比库内标题(YouTube 孪生不再落种)", () => {
+  const scripts = resolve(FIX, "..", "..", "scripts");
+  it("★★★ loadLibraryTitles 读 data/episodes/*/meta.json 的 title_en;无 meta/坏 meta/无目录不炸", async () => {
+    const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const root = mkdtempSync(join(tmpdir(), "pd-lib-"));
+    mkdirSync(join(root, "a")); writeFileSync(join(root, "a", "meta.json"), JSON.stringify({ title_en: "Jeff Dean: The 1% Rule for Building in AI" }));
+    mkdirSync(join(root, "b")); writeFileSync(join(root, "b", "meta.json"), "{坏");
+    mkdirSync(join(root, "c"));
+    expect(loadLibraryTitles(root)).toEqual(["Jeff Dean: The 1% Rule for Building in AI"]);
+    expect(loadLibraryTitles(join(root, "nope"))).toEqual([]);
+  });
+  it("★★★ library-twin 是终态:下一班不再重看(indexPatrolLog + dedupSkip)", () => {
+    const idx = indexPatrolLog([JSON.stringify({ videoId: "CxXgV54KzpQ", action: "library-twin" })]);
+    expect(dedupSkip("CxXgV54KzpQ", { ledger: {}, seededIds: new Set(), logIndex: idx })).toBe("patrol-log");
+  });
+  it("★★ 比对用云端同一个 findTitleDuplicate,且在进判官候选之前(省判官 + 下载)", () => {
+    const src = readFileSync(resolve(scripts, "patrol-talks.mjs"), "utf8");
+    expect(src).toMatch(/import \{[^}]*\bfindTitleDuplicate\b[^}]*\} from "\.\/run-pipeline\.mjs"/);
+    const i = src.indexOf("findTitleDuplicate(video.title, libraryTitles)");
+    expect(i).toBeGreaterThan(0);
+    expect(i).toBeLessThan(src.indexOf("candidates.push({ sub, video })"));
   });
 });

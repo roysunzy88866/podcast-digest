@@ -441,3 +441,14 @@
 - **根因**:`patrol-talks.mjs` / `seed-talk.mjs` 的 `sh()` 用 `spawnSync` 没设 `maxBuffer`,Node 默认 1MB,超了就杀子进程(status=null, ENOBUFS)。报错只截 stdout 尾巴(一串字幕 URL),看起来像网络问题,所以一直没被认出来。patrol-log 累计 **163 次 exit null**;按「最后一条动作」算 **37 条片子卡死**(meta-failed 可重试 → 每班重试 → 每班再被掐,永远到不了判官)。集中在 AI Engineer 长演讲、YC、Sequoia、LangChain 长访谈 —— 恰好是最长、最有料的那批。
 - **修**:两处 `sh()` 加 `maxBuffer: 64MB`;报错附 `error.code`(以后再被掐日志直接写 ENOBUFS)。meta-failed 本就可重试 → 修完下一班巡航自动重跑这 37 条(仍过 60 天窗口 drift #104 + 判官)。
 - **Jev 为什么没上站,另外几个同时起作用的原因**:① 2026-08-01 AIE 频道 Diogo Almeida(TypeSafe 创始人)演讲《What's Next After RLHF?》被判官以「偏学术」拒(彼时 Jev 未发布,判官判断合理);② LangChain 的 3 条 Jev 短片(20s / 21s / 9 分 15 秒)被时长下限 10 分钟挡(符合设计);③ Jev 2026-09-15 才发布,播客源里截至 09-23 未见专题集(以外部核查为准)。
+
+## drift #106(2026-09-23 用户「为什么 Jev 的访谈一条也没看到」→ 选 C「重新订 Latent Space,只收访谈」)· 顺修:YouTube 孪生种子让云端整班标红
+- **Latent Space 重新订阅**:讲 Jev 最好的一期(创始人 Diogo Almeida,2h20m,2026-09-21)在 Latent Space;它 7 月被砍,理由「真访谈对味,但混大量 [AINews] 水贴+模型发布」(需求共创/内容品味档案.md)。用户 2026-09-23 拍板重新订、只收访谈。
+  - 「只收访谈」不用新规则:AINews 是纯文字帖、无音频 enclosure,`isInterview` 天然滤掉(实测 feed 20 条中 4 条音频访谈、16 条文字帖);模型发布类访谈交品味判官(档案 ❌「大模型发布/跑分」照旧生效)。
+  - 官方稿:集页实测内嵌 Substack `transcription.json` → 不设 asr,同 dwarkesh(集长 2h+,whisperX 会拖垮 runner)。
+  - key=`latent`(workflow 手动 `source` 输入只收 `[a-z0-9]`);站上 5 集老 id `YYYY-MM-DD-latent-space-…` 按前缀照样归到本源。
+  - 基线 cutoff 手设 `2026-09-20T00:00:00.000Z`(不用 `--seed`:那会把基线设到最新一集 09-22,Jev 访谈永远轮不到)→ 首班只进 09-21 Jev + 09-22 John Platt 两集,都仍过判官。**不进补历史池**(Substack feed 浅,同 pg/pragmatic)。
+- **顺修 · 云端连续两班红**(run 35741581055 / 35776297785):7 条 YouTube 种子(YC×5、Sequoia×2)与库内播客集**同名**(Jeff Dean / Garry Tan / Alexandr Wang / Aaron Levie / Matan Grinberg / How To Design In The Agent Era / The State of Startups in 2026),`selectTalks` 标「待裁」,全批待裁即 throw → 整班 run 标红。
+  - 根因:巡航只按 videoId 去重,从不比库内标题 —— Jeff Dean 播客集 08-01 就上站了,09-19 巡航照样判官+下载+落种了它的 YouTube 版。drift #102 已手删过 6 条同类,这次是同病复发。
+  - 修:`patrol-talks.mjs` 在进判官候选前用云端同一个 `findTitleDuplicate` 比 `data/episodes/*/meta.json` 的 title_en,命中记终态 `library-twin`(不判不下)。7 条孪生种子删除(库内 7 集均核过在站)。
+  - **仍留的缝**:YouTube 比播客早几小时发、巡航那一刻库里还没有 → 照样落种、云端照样待裁。发生频率低(这 7 条里只 State of Startups 1 条是这种),不为它改云端「疑似重复裁决归人」(ADR 0017)。

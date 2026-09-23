@@ -1143,3 +1143,25 @@ describe("drift #102 · 云端取 feed 扛住 runner 网络抖动(09-12 早班 g
     expect(new Set(urls).size).toBe(urls.length);
   });
 });
+
+describe("drift #106 · 重新订 Latent Space(只收访谈)", () => {
+  const latent = SOURCES.find((s) => s.key === "latent");
+  it("★★★ 源在册、走 Substack 官方稿(不设 asr,同 dwarkesh)、不进补历史池", () => {
+    expect(latent?.feedUrl).toBe("https://www.latent.space/feed");
+    expect(latent?.asr).toBeUndefined();
+    expect(BACKFILL_FEED_KEYS).not.toContain("latent");
+  });
+  it("★★ key 只含 [a-z0-9](workflow 手动 source 输入校验),站上老 id「latent-space-…」照样归到本源", () => {
+    expect(latent?.key).toMatch(/^[a-z0-9]+$/);
+    expect(sourceForId("2026-05-21-latent-space-daytona")?.key).toBe("latent");
+  });
+  it("★★★ 「只收访谈」= AINews 纯文字帖(无音频)被 isInterview 滤掉,音频访谈留下", () => {
+    const xml = `<rss><channel>
+<item><title><![CDATA[[AINews] Jev: a System One Model]]></title><link>https://www.latent.space/p/ainews-jev</link><pubDate>Wed, 16 Sep 2026 05:00:00 GMT</pubDate></item>
+<item><title><![CDATA[Jev: System One models for Prod, not God — with Diogo Almeida]]></title><link>https://www.latent.space/p/jev</link><pubDate>Mon, 21 Sep 2026 17:00:00 GMT</pubDate><enclosure url="https://api.substack.com/feed/podcast/1/x.mp3" length="1" type="audio/mpeg"/><itunes:duration>8452</itunes:duration></item>
+</channel></rss>`;
+    const picks = selectNew(parseFeed(xml), { sinceISO: "2026-09-15T00:00:00.000Z", existingIds: [], source: latent });
+    expect(picks.map((p) => p.title)).toEqual(["Jev: System One models for Prod, not God — with Diogo Almeida"]);
+    expect(deriveId(picks[0], latent)).toBe("2026-09-21-latent-jev");
+  });
+});

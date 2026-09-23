@@ -127,6 +127,12 @@ export const SOURCES = [
   //   Logan Bartlett(2025-09-12,feed 活着但节目停了)全为 0 产量;Hard Fork feed 只放 3 条且是多话题混播体裁。
   { key: "newcomer", name: "Newcomer Pod", feedUrl: "https://anchor.fm/s/ffef15f0/podcast/rss", asr: "whisperx" }, // Eric Newcomer;184/204 集自带 SRT(Spotify CDN)→ 走便宜通道单集≈45 分;近 60 天 5 集、中位 54 分
   { key: "engenable", name: "Engineering Enablement (DX)", feedUrl: "https://anchor.fm/s/1116ee148/podcast/rss", asr: "whisperx" }, // AI 工程效能/企业案例;近 60 天 5 集、中位 41 分
+  // drift #106(2026-09-23 用户问「为什么 Jev 的访谈一条没看到」→ 选「重新订 Latent Space,只收访谈」):
+  //   7 月砍它的理由是「混大量 [AINews] 水贴+模型发布」—— AINews 是纯文字帖、无音频,isInterview 天然滤掉
+  //   (实测 feed 20 条里 4 条音频访谈);模型发布类访谈交品味判官。Substack 官方稿(集页实测带 transcription.json)
+  //   → 不设 asr,同 dwarkesh(集长 2h+,whisperX 会拖垮 runner)。key 用 latent(workflow 手动 source 输入只收 [a-z0-9]);站上 5 集老 id「latent-space-…」按前缀照样归到本源。
+  //   不进补历史池(Substack feed 浅,同 pg/pragmatic)。
+  { key: "latent", name: "Latent Space", feedUrl: "https://www.latent.space/feed" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。

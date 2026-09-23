@@ -28,7 +28,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { xmlUnescape } from "./build-feed.mjs"; // isMain 守卫,import 无副作用
 import { JUDGE_MAX_TOKENS, JUDGE_FRESHNESS_DAYS } from "./taste-judge.mjs"; // 单一真相:两个判官共用一个 token 预算(drift #82:两处各写一份必然再次跑偏)
-import { BACKFILL_MAX_AGE_DAYS, bjDay } from "./run-pipeline.mjs"; // drift #104:演讲巡航与播客补历史共用同一个新鲜窗口(isMain 守卫,import 无副作用)
+import { BACKFILL_MAX_AGE_DAYS, bjDay, findTitleDuplicate } from "./run-pipeline.mjs"; // drift #104:演讲巡航与播客补历史共用同一个新鲜窗口(isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SUBS_FILE = join(ROOT, "data/talk-subscriptions.json");
@@ -179,7 +179,26 @@ export function prefilterSkip(video, filters = {}, { todayISO, maxAgeDays = BACK
 }
 
 // 巡航日志终态动作:出现即不再重看该 videoId;可重试动作(judge-failed/seed-failed/meta-failed)不算终态。
-const TERMINAL_ACTIONS = new Set(["prefilter-skip", "rejected", "seeded"]);
+const TERMINAL_ACTIONS = new Set(["prefilter-skip", "rejected", "seeded", "library-twin"]);
+
+// drift #106:YC/Sequoia 等频道的 YouTube 片 = 同名播客集(库里早有)。巡航原来只按 videoId 去重,孪生照样判官+下载+落种,
+// 云端 selectTalks 再按标题拦成「待裁」—— 全批待裁时 throw,整班 run 标红(09-22 两班红,7 条孪生)。
+// 修:落种前就拿库内标题比(与云端同一个 findTitleDuplicate),命中记终态 library-twin,不判不下。
+/** data/episodes/*\/meta.json 的 title_en(半成品也算库内,与云端「已完成集」口径同向、更宽)。 */
+export function loadLibraryTitles(episodesDir) {
+  if (!existsSync(episodesDir)) return [];
+  const out = [];
+  for (const d of readdirSync(episodesDir, { withFileTypes: true })) {
+    if (!d.isDirectory()) continue;
+    try {
+      const t = JSON.parse(readFileSync(join(episodesDir, d.name, "meta.json"), "utf8")).title_en;
+      if (t) out.push(t);
+    } catch {
+      /* 无 meta / 坏 meta 不算库内 */
+    }
+  }
+  return out;
+}
 
 /** patrol-log.jsonl 行 → Map(videoId → 最后一条 action)。坏行跳过不炸(日志是追加型,允许历史杂音)。 */
 export function indexPatrolLog(lines) {
@@ -446,6 +465,7 @@ async function main() {
           .filter((d) => d.isDirectory() && existsSync(join(SEED_DIR, d.name, "seed.json")))
           .map((d) => d.name),
   );
+  const libraryTitles = loadLibraryTitles(join(ROOT, "data/episodes"));
   const logIndex = indexPatrolLog(existsSync(PATROL_LOG) ? readFileSync(PATROL_LOG, "utf8").split("\n").filter(Boolean) : []);
 
   // ── 发现 + 去重 + 预过滤 ──
@@ -476,6 +496,13 @@ async function main() {
         console.log(`   ⏭ 预过滤:${video.videoId}「${video.title}」——${pre}`);
         if (!smoke) logEvent({ action: "prefilter-skip", channel: sub.key, videoId: video.videoId, title: video.title, reason: pre });
         account.prefiltered++;
+        continue;
+      }
+      const twin = findTitleDuplicate(video.title, libraryTitles);
+      if (twin) {
+        console.log(`   ⏭ 库内已有同名集:${video.videoId}「${video.title}」≈「${twin}」`);
+        if (!smoke) logEvent({ action: "library-twin", channel: sub.key, videoId: video.videoId, title: video.title, matchedTitle: twin });
+        account.deduped++;
         continue;
       }
       candidates.push({ sub, video });
