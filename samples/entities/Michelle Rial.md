@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Substack":2,"Airbnb":10,"Medium":1,"Stripe":33,"简报":2,"播客":1,"付费墙":2,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Substack":2,"Airbnb":10,"Medium":1,"Stripe":34,"简报":2,"播客":1,"付费墙":2,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

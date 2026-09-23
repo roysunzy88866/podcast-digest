@@ -30,7 +30,7 @@ unlisted: true
 
 [[智能体]] · [[Anastasios Angelopoulos]] · [[Jesse Jang]] · [[Mamoun Hamid]] · [[Decagon]] · [[arena]] · [[Sierra]] · [[评估]] · [[PMF]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":288,"Anastasios Angelopoulos":1,"Jesse Jang":1,"Mamoun Hamid":1,"Decagon":8,"arena":2,"Sierra":6,"评估":3,"PMF":2,"基准测试":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":289,"Anastasios Angelopoulos":1,"Jesse Jang":1,"Mamoun Hamid":1,"Decagon":8,"arena":2,"Sierra":6,"评估":3,"PMF":2,"基准测试":12}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Boris]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[LLM]] · [[GitHub]] · [[JetBrains]] · [[Docker]]
 
-<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":132,"Claude Code":66,"智能体":288,"ClaudeMD":2,"MCP":49,"LLM":38,"GitHub":23,"JetBrains":2,"Docker":3}</script>
+<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":132,"Claude Code":66,"智能体":289,"ClaudeMD":2,"MCP":49,"LLM":38,"GitHub":23,"JetBrains":2,"Docker":3}</script>
 
 <script>
 (function(){

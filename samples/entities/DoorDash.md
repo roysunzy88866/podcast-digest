@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Waymo]] · [[自主性]] · [[推理]] · [[Uber]] · [[智能体商务]] · [[Stripe]] · [[OpenAI]] · [[Cognition]] · [[a16z]]
 
-<script type="application/json" class="pd-epn">{"智能体":288,"Waymo":13,"自主性":7,"推理":52,"Uber":10,"智能体商务":3,"Stripe":33,"OpenAI":125,"Cognition":17,"a16z":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":289,"Waymo":13,"自主性":7,"推理":52,"Uber":10,"智能体商务":3,"Stripe":34,"OpenAI":125,"Cognition":17,"a16z":15}</script>
 
 <script>
 (function(){

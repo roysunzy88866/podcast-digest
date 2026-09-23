@@ -31,7 +31,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[AI Index report]] · [[锯齿状前沿]] · [[世界模型]] · [[智能体]] · [[开源模型]] · [[前沿模型]] · [[护栏]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Chris Benson":8,"AI Index report":1,"锯齿状前沿":1,"世界模型":7,"智能体":288,"开源模型":19,"前沿模型":18,"护栏":50,"Claude Code":66}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Chris Benson":8,"AI Index report":1,"锯齿状前沿":1,"世界模型":7,"智能体":289,"开源模型":19,"前沿模型":18,"护栏":50,"Claude Code":66}</script>
 
 <script>
 (function(){

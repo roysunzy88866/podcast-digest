@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chris Benson]] · [[Demetrios Brinkmann]] · [[智能体]] · [[计算机使用]] · [[MCP]] · [[harness]] · [[Claude Code]] · [[MLOps community]] · [[智能体蜂群]] · [[去中介化]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":8,"Demetrios Brinkmann":1,"智能体":288,"计算机使用":13,"MCP":49,"harness":40,"Claude Code":66,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":8,"Demetrios Brinkmann":1,"智能体":289,"计算机使用":13,"MCP":49,"harness":40,"Claude Code":66,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

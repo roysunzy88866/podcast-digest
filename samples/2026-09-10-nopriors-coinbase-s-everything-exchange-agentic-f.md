@@ -156,8 +156,8 @@ NewLimit 现在南旧金山有约五六十人的实验室，流程是：AI 前�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法]]<span class="pd-rz">同公司:Coinbase · 同概念:代币化 (tokenization)、加密货币 (crypto)、稳定币 (stablecoin)</span>
+- [[2026-08-18-generalist-38x-in-ten-months-inside-one-of-fintechs|稳定币是把现金的好处找回来：RAIN CEO Farouk 谈货币的重建]]<span class="pd-rz">同概念:智能体 (agent)、稳定币 (stablecoin)</span>
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|David Freeberg：美国正在走向社会主义，但AI能开另一扇门]]<span class="pd-rz">同概念:智能体 (agent)、表观遗传重编程 (epigenetic reprogramming)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:NewLimit · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

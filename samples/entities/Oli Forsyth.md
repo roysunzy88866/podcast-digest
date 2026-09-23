@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":74,"智能体":288,"信任建立":4,"微短剧":1,"推理":52,"网络效应":12,"语音":1,"Discord":5}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":74,"智能体":289,"信任建立":4,"微短剧":1,"推理":52,"网络效应":12,"语音":1,"Discord":5}</script>
 
 <script>
 (function(){

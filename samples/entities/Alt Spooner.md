@@ -25,7 +25,7 @@ unlisted: true
 
 [[Luca Ferrari]] · [[Bending Spoons]] · [[Airtable]] · [[Evernote]] · [[AOL]] · [[智能体]] · [[编排]] · [[开放权重模型]] · [[A-B 测试]] · [[极致所有权]]
 
-<script type="application/json" class="pd-epn">{"Luca Ferrari":2,"Bending Spoons":2,"Airtable":4,"Evernote":1,"AOL":2,"智能体":288,"编排":5,"开放权重模型":1,"A-B 测试":1,"极致所有权":2}</script>
+<script type="application/json" class="pd-epn">{"Luca Ferrari":2,"Bending Spoons":2,"Airtable":4,"Evernote":1,"AOL":3,"智能体":289,"编排":5,"开放权重模型":1,"A-B 测试":1,"极致所有权":2}</script>
 
 <script>
 (function(){

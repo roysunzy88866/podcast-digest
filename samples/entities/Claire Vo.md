@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Slack]] · [[OpenClaw]] · [[Codex]] · [[Figma]] · [[ChatGPT]] · [[Lenny]] · [[Eddie Kim]] · [[Daniel Blum]]
 
-<script type="application/json" class="pd-epn">{"智能体":288,"Claude Code":66,"Slack":27,"OpenClaw":18,"Codex":53,"Figma":20,"ChatGPT":74,"Lenny":67,"Eddie Kim":1,"Daniel Blum":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":289,"Claude Code":66,"Slack":27,"OpenClaw":18,"Codex":53,"Figma":20,"ChatGPT":74,"Lenny":67,"Eddie Kim":1,"Daniel Blum":1}</script>
 
 <script>
 (function(){

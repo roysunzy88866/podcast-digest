@@ -141,12 +141,10 @@
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
     "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
-    "2026-08-20-twist-taste-is-the-new-programming-language-w": 2,
-    "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": 2,
-    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": 1
+    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": 2
   },
   "cutoffs": {
-    "lennys": "2026-09-22T19:06:40.000Z",
+    "lennys": "2026-09-22T23:12:49.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
     "a16z": "2026-09-20T10:01:39.000Z",
     "yc": "2026-09-18T14:59:58.000Z",
@@ -169,7 +167,7 @@
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-09-22T19:03:36.000Z",
+    "howiai": "2026-09-22T23:13:43.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-17T04:52:00.000Z",
     "eyeonai": "2026-09-21T17:57:00.000Z",
@@ -1480,6 +1478,54 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Ben Lamm CEO of $12B Colossal Biosciences & $3.8B Astromech",
       "pubDate": "2026-08-20T14:00:00.000Z"
+    },
+    {
+      "id": "2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model",
+      "reason": "题材不对味:大模型对比评测/盲测跑分,命中「模型发布/跑分评测」排除类",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "pubDate": "2026-09-22T23:12:49.000Z"
+    },
+    {
+      "id": "2026-09-22-howiai-opus-5-5-vs--gpt-6-sol-which-model-won-m",
+      "reason": "题材不对味:模型盲测对比评测,落「大模型发布/跑分评测」类",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "pubDate": "2026-09-22T23:13:43.000Z"
+    },
+    {
+      "id": "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Breaking down Nvidia's Hugging Face and Poolside bets | E2331",
+      "pubDate": "2026-08-28T23:24:00.000Z"
+    },
+    {
+      "id": "2026-08-20-twist-taste-is-the-new-programming-language-w",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Taste is the new programming language (w/ Astrocade CEO Amir Sadeghian) | AI Basics",
+      "pubDate": "2026-08-20T23:08:00.000Z"
+    },
+    {
+      "id": "2026-08-20-sed-ai-and-the-new-global-security-landscape",
+      "reason": "题材不对味:AI 安全/政策思辨题材,落 ❌ 安全/对齐/政策类,且非实操非产业格局",
+      "title": "AI and the New Global Security Landscape",
+      "pubDate": "2026-08-20T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-20-mos-how-barnes-noble-made-a-comeback-with-ce",
+      "reason": "题材不对味:拿不准:CEO 公司故事虽属常青访谈体,但 Barnes & Noble 复兴是传统零售话题,与 AI 无关,偏离知识库的 AI 商业/产业主题",
+      "title": "How Barnes & Noble made a comeback, with CEO James Daunt",
+      "pubDate": "2026-08-20T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-19-twist-neurosymbolic-ai-outperforms-chatbots-an",
+      "reason": "题材不对味:神经符号化 AI 属架构/技术路线深水,落档案「学术研究/架构前沿」不要面",
+      "title": "Neurosymbolic AI outperforms chatbots and product search | E2327",
+      "pubDate": "2026-08-19T23:06:00.000Z"
+    },
+    {
+      "id": "2026-08-18-sed-how-llms-are-reshaping-recommendation-sy",
+      "reason": "题材不对味:拿不准:LLM+推荐系统偏技术架构深挖,不确定是工程实操还是技术深水,按'少发≈发离题'倾向跳过",
+      "title": "How LLMs Are Reshaping Recommendation Systems",
+      "pubDate": "2026-08-18T09:00:00.000Z"
     }
   ]
 }

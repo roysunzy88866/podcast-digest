@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":33,"GMAP":1}</script>
+<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":34,"GMAP":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,516 @@
+{
+  "episode_id": "2026-08-18-generalist-38x-in-ten-months-inside-one-of-fintechs",
+  "podcast": "The Generalist",
+  "date": "2026-08-18",
+  "tags": [
+    "稳定币",
+    "金融基础设施",
+    "创业故事",
+    "全球化优先",
+    "智能体"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "farooq-malik",
+      "type": "person",
+      "role": "host",
+      "name": "Farooq Malik",
+      "file": "Farooq Malik",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mario",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mario",
+      "file": "Mario",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            122.066,
+            124.068
+          ],
+          "quote": "I'm Mario, and this is The Generalist.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rain",
+      "type": "company",
+      "role": "concept",
+      "name": "RAIN",
+      "file": "RAIN",
+      "primary": true,
+      "how_described": "本集主角：一家由稳定币驱动的基础设施公司/金融服务赋能平台，让客户在后台用稳定币技术构建金融产品，自称『为货币打造的操作系统』和『货币路由器』，最近一轮估值接近 20 亿美元，两轮融资间支付量增长 38 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            231.573,
+            234.095
+          ],
+          "quote": "RAIN is a stablecoin powered infrastructure business, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1716.714,
+            1718.496
+          ],
+          "quote": "And so like, that is how we ended up with Rain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2823.853,
+            2831.577
+          ],
+          "quote": "And they had a good affinity, like the positive affinity with Rain because they used us as like their corporate product and it worked, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2844.784,
+            2853.472
+          ],
+          "quote": "If you use a RAIN card today, you know, let's say I am going to the coffee shop and, you know, one of your customers, you know, you're powering it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3964.841,
+            3967.863
+          ],
+          "quote": "What are the mantras that are most critical to know inside of RAIN?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stablecoin",
+      "type": "concept",
+      "role": "concept",
+      "name": "稳定币 (stablecoin)",
+      "file": "稳定币",
+      "primary": true,
+      "how_described": "本集核心概念：Farouk 论证稳定币不是新发明，而是把我们几千年来拥有、最近 50 年电子货币系统弄丢了的『现金的好处』（当天结算、即时流通）找了回来，是一种全球性的价值持有与交易方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.675,
+            32.581
+          ],
+          "quote": "RAINN is a stablecoin-powered infrastructure business that allows our clients to build financial products and services that are all powered in the backend by stablecoin technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            72.768,
+            82.212
+          ],
+          "quote": "The CEO of RAINN, a stablecoin infrastructure player, argues that over the coming decades, every part of the monetary system will be rebuilt piece by piece.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            231.573,
+            234.095
+          ],
+          "quote": "RAIN is a stablecoin powered infrastructure business, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            234.155,
+            247.525
+          ],
+          "quote": "So think about us as a financial services enablement platform that allows our clients and partners to build financial products and services that are all powered in the backend by stablecoin technology, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2074.41,
+            2077.052
+          ],
+          "quote": "A scooter mogul or a stablecoin mogul.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2416.371,
+            2419.594
+          ],
+          "quote": "We had people that were asking us, hey, you know, the stablecoin thing's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2435.792,
+            2438.754
+          ],
+          "quote": "Those people connected us to other people that were in the stablecoin ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2638.664,
+            2649.913
+          ],
+          "quote": "Many of those folks ended up converting themselves to a stablecoin orchestration business, and then some of them have exited for billions of dollars, and it might have been smarter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3347.644,
+            3361.367
+          ],
+          "quote": "You mentioned in an interview that you gave recently that the data that you guys see is, you know, very compelling around stablecoin flows and that much, much more of it sort of originates and terminates in America than people realize.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3565.199,
+            3572.201
+          ],
+          "quote": "When I was talking to some folks in the stablecoin space and I was saying, you know, well, what are interesting things for me to ask Farouk?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokenized-money",
+      "type": "concept",
+      "role": "concept",
+      "name": "代币化货币 (tokenized money)",
+      "file": "代币化货币",
+      "primary": true,
+      "how_described": "本集说它是同时获得电子货币与非同质化现金两边好处的方式，能消除货币体系中数万亿美元的无谓损失，未来 5-10 年会成为做生意的必备门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            720.27,
+            728.832
+          ],
+          "quote": "So if you look at, even in the domestic market, like many people have said, you know, there's no applicability for stable coins or tokenized money in the domestic market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            912.266,
+            913.307
+          ],
+          "quote": "Powered by tokenized money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1119.559,
+            1126.021
+          ],
+          "quote": "Tokenized money is a way to get the benefits of electronic money and the benefits of non-fungible money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3023.144,
+            3026.748
+          ],
+          "quote": "And our thinking was is that as tokenized money is coming in,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4229.035,
+            4241.34
+          ],
+          "quote": "It's, you know, it's like tokenized money movement, programmatic settlement, infinitely dividable cash to be able to go to wherever, and micropayments, the ability to have an agent consume media on a...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体称为新进入世界的『经济买家』：AI 礼宾帮你办事后开发票、让智能体抢美网门票并设预算上限、地铁里发短信让智能体买牙膏——微小改进但净影响可能非常大，是 RAIN 论点的题中之义。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 942,
+          "t": [
+            4229.035,
+            4241.34
+          ],
+          "quote": "It's, you know, it's like tokenized money movement, programmatic settlement, infinitely dividable cash to be able to go to wherever, and micropayments, the ability to have an agent consume media on a...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 961,
+          "t": [
+            4310.065,
+            4313.966
+          ],
+          "quote": "If I think about it, I ask my agent, I'm like, hey, can you get me US Open tickets?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4339.816,
+            4343.48
+          ],
+          "quote": "I can get the text out between stations and the agent can do the thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "concept",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集在竞争段落里讨论：Stripe 已收购 Bridge，走平台战略、围墙花园的闭环（类比为 AOL），但 Farouk 认为货币重建的盘子远大于任何单一玩家能赢下的份额，开放互联网将胜过封闭生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.601,
+            47.15
+          ],
+          "quote": "If you look at traditionally-enabled businesses like FinTech, Revolut, Wise, AirwallX, or Stripe, these are businesses that have taken a decade or more to get the footprint into a place where they can now offer services globally, and our clients are starting global day one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            322.894,
+            329.738
+          ],
+          "quote": "Like FinTech 1.0, you look at companies like Revolut or Wise or AirwallX or Stripe or whatever it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3572.221,
+            3575.122
+          ],
+          "quote": "They said, it would be interesting to hear his take on why Stripe doesn't just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3581.227,
+            3588.673
+          ],
+          "quote": "Stripe, Visa, whoever you want to pick, like, why doesn't this become winner takes all with, you know, favoring some of the bigger companies in the space?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3653.097,
+            3661.222
+          ],
+          "quote": "And so for somebody out there to be a $160 billion company like Stripe, by taking advantage of this, maybe they can get to a trillion dollars, two, three, four, however big.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3698.779,
+            3702.121
+          ],
+          "quote": "The other thing that we would say is that the Stripe team is excellent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "type": "company",
+      "role": "concept",
+      "name": "Bridge",
+      "file": "Bridge",
+      "primary": false,
+      "how_described": "本集顺带提到 Stripe 收购了 Bridge，作为其对稳定币领域兴趣的证据，一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 802,
+          "t": [
+            3577.163,
+            3578.204
+          ],
+          "quote": "You know, they bought Bridge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "type": "company",
+      "role": "concept",
+      "name": "Revolut",
+      "file": "Revolut",
+      "primary": false,
+      "how_described": "本集作为 FinTech 1.0 的例子提到：花了十年以上才把业务足迹拓展到能全球提供服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.601,
+            47.15
+          ],
+          "quote": "If you look at traditionally-enabled businesses like FinTech, Revolut, Wise, AirwallX, or Stripe, these are businesses that have taken a decade or more to get the footprint into a place where they can now offer services globally, and our clients are starting global day one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            322.894,
+            329.738
+          ],
+          "quote": "Like FinTech 1.0, you look at companies like Revolut or Wise or AirwallX or Stripe or whatever it is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wise",
+      "type": "company",
+      "role": "concept",
+      "name": "Wise",
+      "file": "Wise",
+      "primary": false,
+      "how_described": "本集作为 FinTech 1.0 的例子与 Revolut、Stripe 并列提到，逐国铺路花了十年以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.601,
+            47.15
+          ],
+          "quote": "If you look at traditionally-enabled businesses like FinTech, Revolut, Wise, AirwallX, or Stripe, these are businesses that have taken a decade or more to get the footprint into a place where they can now offer services globally, and our clients are starting global day one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            322.894,
+            329.738
+          ],
+          "quote": "Like FinTech 1.0, you look at companies like Revolut or Wise or AirwallX or Stripe or whatever it is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aol",
+      "type": "company",
+      "role": "concept",
+      "name": "AOL",
+      "file": "AOL",
+      "primary": false,
+      "how_described": "本集用作类比：AOL 是由单一方策划的闭环互联网、价值巨大，但开放互联网最终比封闭互联网大了好几个数量级——Farouk 认为货币重建会重演这个故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 841,
+          "t": [
+            3756.65,
+            3761.313
+          ],
+          "quote": "If you look at AOL, that was an enormously valuable business, like massively valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 843,
+          "t": [
+            3762.053,
+            3764.995
+          ],
+          "quote": "What do you mean by a closed loop system for AOL, for example?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3768.117,
+            3769.718
+          ],
+          "quote": "And AOL was on all sides of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3769.938,
+            3771.739
+          ],
+          "quote": "It was the only way to access it was through AOL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3772.44,
+            3774.641
+          ],
+          "quote": "Every property that you engaged with was AOL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3775.201,
+            3778.263
+          ],
+          "quote": "Everybody inside that ecosystem was curated by AOL.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

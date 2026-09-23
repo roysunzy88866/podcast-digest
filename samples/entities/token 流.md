@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tony Kim]] · [[算力]] · [[记忆]] · [[数据中心]] · [[协同设计]] · [[智能体]] · [[机器人]] · [[推理]] · [[Broadcom]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Tony Kim":1,"算力":5,"记忆":13,"数据中心":15,"协同设计":2,"智能体":288,"机器人":7,"推理":52,"Broadcom":4,"Palantir":18}</script>
+<script type="application/json" class="pd-epn">{"Tony Kim":1,"算力":5,"记忆":13,"数据中心":15,"协同设计":2,"智能体":289,"机器人":7,"推理":52,"Broadcom":4,"Palantir":18}</script>
 
 <script>
 (function(){

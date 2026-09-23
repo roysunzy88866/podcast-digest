@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alexander Whedon]] · [[SubQuadratic]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[KVCache]] · [[Transformer]] · [[Opus 4.6]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":14,"智能体":288,"RAG":15,"预训练":6,"KVCache":3,"Transformer":8,"Opus 4.6":1}</script>
+<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":14,"智能体":289,"RAG":15,"预训练":6,"KVCache":3,"Transformer":8,"Opus 4.6":1}</script>
 
 <script>
 (function(){
