@@ -338,11 +338,13 @@ describe("drift #105 补查 · stuckMetaFailed 只挑最后仍卡在 meta-failed
     L({ action: "seeded", channel: "yc", videoId: "B", title: "后来成功落种" }),
     L({ action: "rejected", channel: "langchain", videoId: "C", title: "判过的" }),
     L({ action: "meta-failed", channel: "langchain", videoId: "C", title: "判过的" }), // 终态粘性:判过就不补
+    L({ action: "seed-failed", channel: "yc", videoId: "D", title: "判官放行但下载失败" }),
     "坏行",
   ];
   it("★★★ 只收最后动作仍是 meta-failed 的;按频道分组;同片去重;终态(落种/判过)不补", () => {
     const m = stuckMetaFailed(lines);
-    expect([...m.keys()]).toEqual(["aie"]);
+    expect([...m.keys()].sort()).toEqual(["aie", "yc"]);
+    expect(m.get("yc")).toEqual([{ videoId: "D", title: "判官放行但下载失败" }]);
     expect(m.get("aie")).toEqual([{ videoId: "A", title: "卡住的演讲" }]);
   });
   it("★ 空日志不炸", () => {

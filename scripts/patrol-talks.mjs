@@ -201,9 +201,10 @@ export function loadLibraryTitles(episodesDir) {
 }
 
 /**
- * drift #105 补查:最后一条动作仍是 meta-failed 的片子(被 1MB 上限掐死过、早已滚出频道「最新」列表,常规巡航再也看不到)。
+ * drift #105 补查:最后一条动作仍是 meta-failed / seed-failed 的片子(判官放行了但下载时代理抽风的也算;被 1MB 上限掐死过、早已滚出频道「最新」列表,常规巡航再也看不到)。
  * 行 → Map(channel → [{videoId, title}]);口径与 indexPatrolLog 同(终态粘性),只收有 channel/title 的行。
  */
+const STUCK_ACTIONS = new Set(["meta-failed", "seed-failed"]);
 export function stuckMetaFailed(lines) {
   const idx = indexPatrolLog(lines);
   const out = new Map();
@@ -211,8 +212,8 @@ export function stuckMetaFailed(lines) {
   for (const line of [...(lines ?? [])].reverse()) {
     let e;
     try { e = JSON.parse(line); } catch { continue; }
-    if (e?.action !== "meta-failed" || !e.channel || !e.videoId || seen.has(e.videoId)) continue;
-    if (idx.get(e.videoId) !== "meta-failed") continue;
+    if (!STUCK_ACTIONS.has(e?.action) || !e.channel || !e.videoId || seen.has(e.videoId)) continue;
+    if (!STUCK_ACTIONS.has(idx.get(e.videoId))) continue;
     seen.add(e.videoId);
     if (!out.has(e.channel)) out.set(e.channel, []);
     out.get(e.channel).push({ videoId: e.videoId, title: e.title ?? "" });
