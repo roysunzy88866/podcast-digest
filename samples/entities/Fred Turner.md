@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":132,"Salesforce":25,"YC":16,"智能体":291,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":132,"Salesforce":25,"YC":16,"智能体":293,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

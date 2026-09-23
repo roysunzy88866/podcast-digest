@@ -121,7 +121,9 @@
     "Hvb2LfMH58c": "2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen",
     "99sPd15j3Zc": "2026-07-25-talks-what-actually-makes-a-startup-durable",
     "Gp4zrV3-6N8": "2026-08-03-talks-waymo-co-ceo-dmitri-dolgov-the-demo-is-o",
-    "VBCDhRrvlYo": "2026-08-18-talks-the-next-game-engine-won-t-have-a-manual"
+    "VBCDhRrvlYo": "2026-08-18-talks-the-next-game-engine-won-t-have-a-manual",
+    "pPj_tjlvYjA": "2026-08-18-talks-building-an-agentic-video-editor-for-mas",
+    "McknwOzbmyg": "2026-08-19-talks-shipping-ai-to-a-million-patients-withou"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -149,15 +151,15 @@
   "cutoffs": {
     "lennys": "2026-09-22T23:12:49.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
-    "a16z": "2026-09-20T10:01:39.000Z",
+    "a16z": "2026-09-23T10:00:00.000Z",
     "yc": "2026-09-18T14:59:58.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
-    "bigtech": "2026-09-19T15:24:00.000Z",
+    "bigtech": "2026-09-23T14:30:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-18T10:00:00.000Z",
     "thepeel": "2026-09-17T13:00:00.000Z",
-    "beyondcoding": "2026-09-09T12:00:00.000Z",
+    "beyondcoding": "2026-09-23T12:00:01.000Z",
     "founders": "2026-09-21T05:00:00.000Z",
     "dwarkesh": "2026-09-17T15:38:13.000Z",
     "doac": "2026-09-17T05:00:00.000Z",
@@ -165,7 +167,7 @@
     "twentyvc": "2026-09-21T07:07:00.000Z",
     "cogrev": "2026-09-19T18:28:55.000Z",
     "knowledge": "2026-09-15T10:00:00.000Z",
-    "pragmatic": "2026-09-17T11:29:00.000Z",
+    "pragmatic": "2026-09-23T17:07:22.000Z",
     "practicalai": "2026-09-17T09:00:00.000Z",
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
@@ -190,7 +192,7 @@
     "grit": "2026-09-21T09:00:03.000Z",
     "mos": "2026-09-22T09:00:00.000Z",
     "strictlyvc": "2026-09-15T15:17:00.000Z",
-    "latent": "2026-09-22T21:07:39.000Z"
+    "latent": "2026-09-23T13:27:18.000Z"
   },
   "skipped": [
     {
@@ -1548,6 +1550,30 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work",
       "pubDate": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2026-09-23-bigtech-youtube-ceo-neal-mohan-why-we-re-betting",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "YouTube CEO Neal Mohan: Why We're Betting On AI And Not Afraid Of It",
+      "pubDate": "2026-09-23T14:30:00.000Z"
+    },
+    {
+      "id": "2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "How Amp Ships 50 Times a Day With AI Agents",
+      "pubDate": "2026-09-23T12:00:01.000Z"
+    },
+    {
+      "id": "2026-09-23-pragmatic-design-engineering-with-maggie-appleton",
+      "reason": "题材不对味:拿不准:设计工程话题像传统(非AI)工程/设计,未体现 AI 编程或产品增长的对味要素",
+      "title": "Design Engineering with Maggie Appleton",
+      "pubDate": "2026-09-23T17:07:22.000Z"
+    },
+    {
+      "id": "2026-09-23-latent-bio-security-is-an-ai-arms-race-eric",
+      "reason": "题材不对味:AI + 生物安全属于 AI+生物/科研应用思辨类,档案明确不要",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "pubDate": "2026-09-23T13:27:18.000Z"
     }
   ]
 }

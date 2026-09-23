@@ -1,0 +1,2114 @@
+[
+ {
+  "seg": 0,
+  "start": 13.332,
+  "end": 13.833,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.873,
+  "end": 16.134,
+  "speaker": "Unknown",
+  "en": "It's really nice to see you all.",
+  "zh": "很高兴见到各位。"
+ },
+ {
+  "seg": 2,
+  "start": 16.454,
+  "end": 22.558,
+  "speaker": "Unknown",
+  "en": "My name is Jared, and I'm going to share some of the work that we do on shipping healthcare AI safely, basically.",
+  "zh": "我叫 Jared,我将分享我们在这方面所做的一些工作，基本上就是安全地交付医疗 AI。"
+ },
+ {
+  "seg": 3,
+  "start": 23.619,
+  "end": 24.62,
+  "speaker": "Unknown",
+  "en": "So just a little bit about me.",
+  "zh": "简单介绍一下我自己。"
+ },
+ {
+  "seg": 4,
+  "start": 24.64,
+  "end": 28.182,
+  "speaker": "Unknown",
+  "en": "I come from South Africa, where I actually studied electrical engineering.",
+  "zh": "我来自南非，在那里我实际上学的是电气工程。"
+ },
+ {
+  "seg": 5,
+  "start": 29.34,
+  "end": 33.283,
+  "speaker": "Unknown",
+  "en": "Before making the very unique decision to transition to AI a few years ago.",
+  "zh": "然后在几年前做出了一个非常独特的决定，转行到 AI。"
+ },
+ {
+  "seg": 6,
+  "start": 33.303,
+  "end": 39.528,
+  "speaker": "Unknown",
+  "en": "I now work as a research engineer for Euphonia, which is basically a healthcare company based in the UK.",
+  "zh": "我现在是 Euphonia 的研究工程师，Euphonia 基本上是一家总部位于英国的医疗健康公司。"
+ },
+ {
+  "seg": 7,
+  "start": 40.448,
+  "end": 49.235,
+  "speaker": "Unknown",
+  "en": "And the work we do, our work within the science team, is we build the safety and evaluation stack behind Dora, which is a clinical conversational agent.",
+  "zh": "我们所做的工作，也就是我们在科学团队里的工作，是构建 Dora 背后的安全与评估技术栈，Dora 是一个临床对话智能体。"
+ },
+ {
+  "seg": 8,
+  "start": 49.995,
+  "end": 55.96,
+  "speaker": "Unknown",
+  "en": "And my job and our job within the science team is proving that the product is safe before a patient ever actually hears it.",
+  "zh": "我的工作，以及我们科学团队的工作，就是在患者真正听到产品之前证明产品是安全的。"
+ },
+ {
+  "seg": 9,
+  "start": 58.124,
+  "end": 61.969,
+  "speaker": "Unknown",
+  "en": "So shipping to patients takes away the normal safety nets you would normally ship with.",
+  "zh": "交付给患者会带走你通常交付时依赖的那些常规安全网。"
+ },
+ {
+  "seg": 10,
+  "start": 62.87,
+  "end": 66.294,
+  "speaker": "Unknown",
+  "en": "Three of them could be that you can't actually A-B test on patients, of course.",
+  "zh": "其中三个可能是：你当然不能在患者身上做 A-B 测试。"
+ },
+ {
+  "seg": 11,
+  "start": 66.895,
+  "end": 70.94,
+  "speaker": "Unknown",
+  "en": "Randomizing patients into a worse variant is unethical and often illegal.",
+  "zh": "把患者随机分到更差的变体是不道德的，而且通常是违法的。"
+ },
+ {
+  "seg": 12,
+  "start": 72.061,
+  "end": 73.062,
+  "speaker": "Unknown",
+  "en": "You can't undo a call.",
+  "zh": "你不能撤销一通电话。"
+ },
+ {
+  "seg": 13,
+  "start": 73.663,
+  "end": 76.326,
+  "speaker": "Unknown",
+  "en": "Once Dora says it, it's been said, and there is no rollback.",
+  "zh": "Dora 一旦说了，话就已经说出去了，没有回滚。"
+ },
+ {
+  "seg": 14,
+  "start": 77.267,
+  "end": 80.128,
+  "speaker": "Unknown",
+  "en": "And very importantly, the model card won't save you.",
+  "zh": "而且非常重要的一点是，模型卡救不了你。"
+ },
+ {
+  "seg": 15,
+  "start": 81.009,
+  "end": 84.97,
+  "speaker": "Unknown",
+  "en": "You can't claim like some model vendors said that they have 92% on some benchmark.",
+  "zh": "你不能像一些模型供应商那样声称他们在某个基准上达到了 92%。"
+ },
+ {
+  "seg": 16,
+  "start": 85.49,
+  "end": 87.371,
+  "speaker": "Unknown",
+  "en": "It's not a defense at a post-instant review.",
+  "zh": "在事后审查中这不是一种辩护。"
+ },
+ {
+  "seg": 17,
+  "start": 87.971,
+  "end": 91.933,
+  "speaker": "Unknown",
+  "en": "So everything that we do at Euphonia comes from living within these three constraints.",
+  "zh": "所以我们在 Euphonia 所做的一切，都源于在这三个约束条件下生存。"
+ },
+ {
+  "seg": 18,
+  "start": 94.166,
+  "end": 94.827,
+  "speaker": "Unknown",
+  "en": "So what is Dora?",
+  "zh": "那么 Dora 是什么？"
+ },
+ {
+  "seg": 19,
+  "start": 95.347,
+  "end": 96.288,
+  "speaker": "Unknown",
+  "en": "A little bit about Dora.",
+  "zh": "简单介绍一下 Dora。"
+ },
+ {
+  "seg": 20,
+  "start": 96.328,
+  "end": 102.515,
+  "speaker": "Unknown",
+  "en": "Dora's a voice AI agent that phones patients and has real clinical conversations, like post-op follow-ups or pre-op checks.",
+  "zh": "Dora 是一个语音 AI 智能体，会给患者打电话并进行真正的临床对话，比如术后随访或术前检查。"
+ },
+ {
+  "seg": 21,
+  "start": 103.436,
+  "end": 113.588,
+  "speaker": "Unknown",
+  "en": "These are calls that a clinician would usually have to make themselves, but Dora doesn't, so Dora obviously doesn't replace doctors, but it just takes a hugely time-consuming task off their plate and gives them their time back.",
+  "zh": "这些通常是临床医生必须自己打的电话，但 Dora 不需要，所以 Dora 显然不会取代医生，它只是把一项极其耗时的任务从他们手里接走，把时间还给他们。"
+ },
+ {
+  "seg": 22,
+  "start": 115.455,
+  "end": 119.676,
+  "speaker": "Unknown",
+  "en": "So far, we've done around 200,000 real clinical calls within the UK across 20 hospitals.",
+  "zh": "到目前为止，我们已经在英国的 20 家医院里完成了大约 20 万通真实的临床电话。"
+ },
+ {
+  "seg": 23,
+  "start": 120.516,
+  "end": 123.857,
+  "speaker": "Unknown",
+  "en": "And we are contracted to scale to a million patients in the next two years.",
+  "zh": "而且我们已签约在未来两年内扩展到一百万名患者。"
+ },
+ {
+  "seg": 24,
+  "start": 125.137,
+  "end": 127.617,
+  "speaker": "Unknown",
+  "en": "We also released our product in the US this year.",
+  "zh": "我们今年也在美国发布了我们的产品。"
+ },
+ {
+  "seg": 25,
+  "start": 127.777,
+  "end": 129.678,
+  "speaker": "Unknown",
+  "en": "And we are live in two clinics.",
+  "zh": "我们已经在两家诊所上线。"
+ },
+ {
+  "seg": 26,
+  "start": 130.218,
+  "end": 132.798,
+  "speaker": "Unknown",
+  "en": "And we've signed up for six more clinics across four different states.",
+  "zh": "而且我们已经在四个不同的州签约了另外六家诊所。"
+ },
+ {
+  "seg": 27,
+  "start": 135.339,
+  "end": 140.74,
+  "speaker": "Unknown",
+  "en": "So I'm just going to, for a bit of a better context, I just want to do a quick demo of what the experience with DORA is actually like.",
+  "zh": "那么我接下来，为了让大家有更好的背景，我想快速演示一下使用 DORA 的体验实际上是什么样的。"
+ },
+ {
+  "seg": 28,
+  "start": 142.553,
+  "end": 144.634,
+  "speaker": "Unknown",
+  "en": "That's not uncommon after cataract surgery.",
+  "zh": "这在白内障手术后并不罕见。"
+ },
+ {
+  "seg": 29,
+  "start": 144.934,
+  "end": 148.336,
+  "speaker": "Unknown",
+  "en": "Are you having trouble seeing clearly at a distance, up close, or both?",
+  "zh": "您看远处、近处，还是两者都看不清楚？"
+ },
+ {
+  "seg": 30,
+  "start": 151.098,
+  "end": 152.619,
+  "speaker": "Unknown",
+  "en": "At a distance is fine.",
+  "zh": "看远处没问题。"
+ },
+ {
+  "seg": 31,
+  "start": 152.819,
+  "end": 156.541,
+  "speaker": "Unknown",
+  "en": "It's just up close.",
+  "zh": "只是看近处。"
+ },
+ {
+  "seg": 32,
+  "start": 156.721,
+  "end": 159.182,
+  "speaker": "Unknown",
+  "en": "I'm having a bit of trouble with that.",
+  "zh": "我看近处有点困难。"
+ },
+ {
+  "seg": 33,
+  "start": 160.483,
+  "end": 168.127,
+  "speaker": "Unknown",
+  "en": "So, when exactly did you first notice it was a bit blurry when trying to read or see things up close?",
+  "zh": "那么，您具体是什么时候第一次注意到阅读或看近处的东西时有点模糊的？"
+ },
+ {
+  "seg": 34,
+  "start": 169.047,
+  "end": 171.689,
+  "speaker": "Unknown",
+  "en": "Well, really, just after the surgery.",
+  "zh": "嗯，真的就是手术之后。"
+ },
+ {
+  "seg": 35,
+  "start": 173.597,
+  "end": 175.417,
+  "speaker": "Unknown",
+  "en": "And I was wondering how long it would last.",
+  "zh": "我当时还想知道这会持续多久。"
+ },
+ {
+  "seg": 36,
+  "start": 176.338,
+  "end": 177.618,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 37,
+  "start": 177.638,
+  "end": 179.038,
+  "speaker": "Unknown",
+  "en": "So, you're asking about the duration?",
+  "zh": "那么，您是在问会持续多久？"
+ },
+ {
+  "seg": 38,
+  "start": 179.358,
+  "end": 180.338,
+  "speaker": "Unknown",
+  "en": "That's understandable.",
+  "zh": "这可以理解。"
+ },
+ {
+  "seg": 39,
+  "start": 180.498,
+  "end": 184.119,
+  "speaker": "Unknown",
+  "en": "Blurry vision should improve rapidly in the first few days after surgery.",
+  "zh": "术后头几天内视力模糊应该会迅速改善。"
+ },
+ {
+  "seg": 40,
+  "start": 184.479,
+  "end": 184.899,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 41,
+  "start": 185.719,
+  "end": 188.78,
+  "speaker": "Unknown",
+  "en": "Also, is it all right if I go swimming again?",
+  "zh": "另外，我可以再去游泳吗？"
+ },
+ {
+  "seg": 42,
+  "start": 189.84,
+  "end": 192.181,
+  "speaker": "Unknown",
+  "en": "You should avoid swimming for a month after surgery.",
+  "zh": "术后一个月内您应该避免游泳。"
+ },
+ {
+  "seg": 43,
+  "start": 192.741,
+  "end": 195.601,
+  "speaker": "Unknown",
+  "en": "That's just to be on the safe side and help your eye heal properly.",
+  "zh": "这只是为了保险起见，帮助您的眼睛正常愈合。"
+ },
+ {
+  "seg": 44,
+  "start": 196.361,
+  "end": 196.782,
+  "speaker": "Unknown",
+  "en": "Oh, right.",
+  "zh": "哦，好的。"
+ },
+ {
+  "seg": 45,
+  "start": 196.882,
+  "end": 197.242,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 46,
+  "start": 198.702,
+  "end": 199.082,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 47,
+  "start": 202.698,
+  "end": 205.899,
+  "speaker": "Unknown",
+  "en": "So as you just heard, sometimes Dora asks about symptoms.",
+  "zh": "就像您刚才听到的那样，Dora 有时会询问症状。"
+ },
+ {
+  "seg": 48,
+  "start": 205.959,
+  "end": 206.639,
+  "speaker": "Unknown",
+  "en": "It gives advice.",
+  "zh": "它会给出建议。"
+ },
+ {
+  "seg": 49,
+  "start": 206.66,
+  "end": 208.44,
+  "speaker": "Unknown",
+  "en": "Sometimes it answers questions.",
+  "zh": "有时它会回答问题。"
+ },
+ {
+  "seg": 50,
+  "start": 208.98,
+  "end": 211.981,
+  "speaker": "Unknown",
+  "en": "And when it does this, this makes it what's called a medical device.",
+  "zh": "当它这样做时，这使它成为了所谓的医疗器械。"
+ },
+ {
+  "seg": 51,
+  "start": 212.001,
+  "end": 213.782,
+  "speaker": "Unknown",
+  "en": "And therefore, it has to, of course, be regulated.",
+  "zh": "因此，它当然必须受到监管。"
+ },
+ {
+  "seg": 52,
+  "start": 215.043,
+  "end": 216.103,
+  "speaker": "Unknown",
+  "en": "And we have to prove that it's safe.",
+  "zh": "而且我们必须证明它是安全的。"
+ },
+ {
+  "seg": 53,
+  "start": 216.883,
+  "end": 220.144,
+  "speaker": "Unknown",
+  "en": "And regulation essentially bottles down to three main questions.",
+  "zh": "监管本质上归结为三个主要问题。"
+ },
+ {
+  "seg": 54,
+  "start": 220.645,
+  "end": 221.585,
+  "speaker": "Unknown",
+  "en": "What does your software do?",
+  "zh": "你的软件是做什么的？"
+ },
+ {
+  "seg": 55,
+  "start": 222.125,
+  "end": 222.805,
+  "speaker": "Unknown",
+  "en": "What could go wrong?",
+  "zh": "可能出什么问题？"
+ },
+ {
+  "seg": 56,
+  "start": 223.246,
+  "end": 224.426,
+  "speaker": "Unknown",
+  "en": "And how do you ensure that it doesn't?",
+  "zh": "以及你如何确保它不会出问题？"
+ },
+ {
+  "seg": 57,
+  "start": 225.306,
+  "end": 227.447,
+  "speaker": "Unknown",
+  "en": "For normal software, it's quite tractable, the question.",
+  "zh": "对于普通软件来说，这个问题是相当容易处理的。"
+ },
+ {
+  "seg": 58,
+  "start": 227.487,
+  "end": 231.929,
+  "speaker": "Unknown",
+  "en": "But for a model that talks to actual patients, what could go wrong is quite huge.",
+  "zh": "但对于一个与真实患者对话的模型来说，可能出的问题就非常大了。"
+ },
+ {
+  "seg": 59,
+  "start": 233.267,
+  "end": 234.007,
+  "speaker": "Unknown",
+  "en": "So where do we start?",
+  "zh": "那么我们从哪里开始呢？"
+ },
+ {
+  "seg": 60,
+  "start": 234.407,
+  "end": 235.828,
+  "speaker": "Unknown",
+  "en": "We start from what could go wrong.",
+  "zh": "我们从可能出什么问题开始。"
+ },
+ {
+  "seg": 61,
+  "start": 235.908,
+  "end": 236.688,
+  "speaker": "Unknown",
+  "en": "We start from the harm.",
+  "zh": "我们从伤害开始。"
+ },
+ {
+  "seg": 62,
+  "start": 236.708,
+  "end": 238.168,
+  "speaker": "Unknown",
+  "en": "What could actually harm a patient?",
+  "zh": "什么实际上会伤害到患者？"
+ },
+ {
+  "seg": 63,
+  "start": 238.769,
+  "end": 240.149,
+  "speaker": "Unknown",
+  "en": "And let's look at some examples.",
+  "zh": "让我们看一些例子。"
+ },
+ {
+  "seg": 64,
+  "start": 241.59,
+  "end": 245.991,
+  "speaker": "Unknown",
+  "en": "Dora could miss a red flag symptom, such as sudden vision loss or severe pain.",
+  "zh": "Dora 可能会漏掉危险信号症状，比如突然失明或剧烈疼痛。"
+ },
+ {
+  "seg": 65,
+  "start": 246.871,
+  "end": 250.612,
+  "speaker": "Unknown",
+  "en": "A patient could ask a medical question, and Dora invents an answer, hallucinates something.",
+  "zh": "患者可能会问一个医学问题，而 Dora 编造了一个答案，幻觉出了某种东西。"
+ },
+ {
+  "seg": 66,
+  "start": 251.192,
+  "end": 255.714,
+  "speaker": "Unknown",
+  "en": "The patient could be distressed, and Dora just ignores it and carries on without actually acknowledging the distress.",
+  "zh": "患者可能处于痛苦之中，而 Dora 直接忽略它继续进行，实际上没有承认这种痛苦。"
+ },
+ {
+  "seg": 67,
+  "start": 256.674,
+  "end": 264.066,
+  "speaker": "Unknown",
+  "en": "There's many, many, many documented hazards of these, 20, 30, 40, and we have to ensure that none of them actually happen in real life.",
+  "zh": "这些都有很多很多很多有记录的危害，20、30、40 个，我们必须确保它们没有一个在现实生活中真正发生。"
+ },
+ {
+  "seg": 68,
+  "start": 265.929,
+  "end": 269.77,
+  "speaker": "Unknown",
+  "en": "So how would we actually normally catch a problem like this before it actually spreads?",
+  "zh": "那么，我们通常会如何在这类问题真正扩散之前捕捉到它呢？"
+ },
+ {
+  "seg": 69,
+  "start": 270.47,
+  "end": 273.271,
+  "speaker": "Unknown",
+  "en": "We would lean usually on the playbook that most software ships on.",
+  "zh": "我们通常会依赖大多数软件发布时所用的那套打法。"
+ },
+ {
+  "seg": 70,
+  "start": 273.932,
+  "end": 279.633,
+  "speaker": "Unknown",
+  "en": "You ship to a small percentage of people, you watch the dashboard, you roll back if it breaks, and you iterate from there.",
+  "zh": "你先发布给一小部分人，你盯着仪表盘，如果出问题就回滚，然后从那里迭代。"
+ },
+ {
+  "seg": 71,
+  "start": 280.374,
+  "end": 281.534,
+  "speaker": "Unknown",
+  "en": "This is a very good playbook.",
+  "zh": "这是一套非常好的打法。"
+ },
+ {
+  "seg": 72,
+  "start": 281.714,
+  "end": 286.435,
+  "speaker": "Unknown",
+  "en": "It's reactive, it's fast, it's very safe, and it's how the industry usually de-risks the launch.",
+  "zh": "它是反应式的，速度快，非常安全，这也是行业通常用来为发布降低风险的方式。"
+ },
+ {
+  "seg": 73,
+  "start": 287.076,
+  "end": 291.097,
+  "speaker": "Unknown",
+  "en": "But there's a hidden assumption here that it only works because you can afford to be wrong for an instant.",
+  "zh": "但这里有一个隐藏的假设：它之所以有效，是因为你能承受只错一瞬间。"
+ },
+ {
+  "seg": 74,
+  "start": 292.116,
+  "end": 296.998,
+  "speaker": "Unknown",
+  "en": "A bad change hits a few users, you can quickly catch it, you can roll back, and no one's actually literally harmed.",
+  "zh": "一个糟糕的改动影响少数几个用户，你可以快速捕捉到它，你可以回滚，实际上没有人真正受到伤害。"
+ },
+ {
+  "seg": 75,
+  "start": 297.799,
+  "end": 302.161,
+  "speaker": "Unknown",
+  "en": "This is the one assumption is why that it breaks when the actual user is a patient.",
+  "zh": "正是这个假设，当真正的用户是患者时就被打破了。"
+ },
+ {
+  "seg": 76,
+  "start": 303.621,
+  "end": 309.844,
+  "speaker": "Unknown",
+  "en": "For 5%, that could be a hundreds, if not thousands of patients that have got unproven changes and undue care.",
+  "zh": "对于 5%，那可能是几百甚至上千名患者接触到了未经证实的改动和不当护理。"
+ },
+ {
+  "seg": 77,
+  "start": 310.645,
+  "end": 312.766,
+  "speaker": "Unknown",
+  "en": "Roll back, you can't really roll back.",
+  "zh": "回滚，你根本没法回滚。"
+ },
+ {
+  "seg": 78,
+  "start": 312.786,
+  "end": 315.247,
+  "speaker": "Unknown",
+  "en": "The call has already happened, the person has already been harmed.",
+  "zh": "通话已经发生了，这个人已经受到了伤害。"
+ },
+ {
+  "seg": 79,
+  "start": 315.987,
+  "end": 320.069,
+  "speaker": "Unknown",
+  "en": "By watching the dashboards, the dashboards are just going to, going red means that a patient was actually hurt.",
+  "zh": "靠盯着仪表盘，仪表盘变红就意味着已经有一位患者真正受到了伤害。"
+ },
+ {
+  "seg": 80,
+  "start": 321.27,
+  "end": 322.851,
+  "speaker": "Unknown",
+  "en": "So the reactive loop is actually gone now.",
+  "zh": "所以反应式的闭环现在实际上不复存在了。"
+ },
+ {
+  "seg": 81,
+  "start": 323.111,
+  "end": 326.832,
+  "speaker": "Unknown",
+  "en": "So how do you iterate at all when you can't touch a patient until you're sure?",
+  "zh": "那么，当你在确定之前不能接触任何患者时，你究竟如何迭代呢？"
+ },
+ {
+  "seg": 82,
+  "start": 328.333,
+  "end": 333.335,
+  "speaker": "Unknown",
+  "en": "Well, for this, we started looking at examples from other high-reliable industries.",
+  "zh": "为此，我们开始研究其他高可靠性行业的例子。"
+ },
+ {
+  "seg": 83,
+  "start": 334.395,
+  "end": 336.316,
+  "speaker": "Unknown",
+  "en": "The most obvious one is self-driving cars.",
+  "zh": "最明显的例子就是自动驾驶汽车。"
+ },
+ {
+  "seg": 84,
+  "start": 336.456,
+  "end": 337.657,
+  "speaker": "Unknown",
+  "en": "Obviously, we're in SF now.",
+  "zh": "显然，我们现在在旧金山。"
+ },
+ {
+  "seg": 85,
+  "start": 337.677,
+  "end": 339.037,
+  "speaker": "Unknown",
+  "en": "There's a lot of Waymos driving around.",
+  "zh": "到处都有很多 Waymo 在行驶。"
+ },
+ {
+  "seg": 86,
+  "start": 339.437,
+  "end": 342.559,
+  "speaker": "Unknown",
+  "en": "They've only just come to London, unfortunately, very late to the party.",
+  "zh": "它们才刚来到伦敦，很遗憾，来得太晚了。"
+ },
+ {
+  "seg": 87,
+  "start": 342.599,
+  "end": 345.38,
+  "speaker": "Unknown",
+  "en": "But what did self-driving cars do?",
+  "zh": "但自动驾驶汽车做了什么呢？"
+ },
+ {
+  "seg": 88,
+  "start": 345.84,
+  "end": 350.682,
+  "speaker": "Unknown",
+  "en": "Well, they didn't just drive around crashing into walls and say, we won't do that again, and then doing another RL loop.",
+  "zh": "嗯，它们并不是到处撞墙然后说“我们不会再那样做了”，然后再做另一轮 RL 循环。"
+ },
+ {
+  "seg": 89,
+  "start": 351.793,
+  "end": 357.638,
+  "speaker": "Unknown",
+  "en": "They put millions of miles of simulations first before they actually got any passages into the car.",
+  "zh": "它们先在仿真里跑了几百万英里，然后才真正让任何乘客上车。"
+ },
+ {
+  "seg": 90,
+  "start": 358.719,
+  "end": 360.62,
+  "speaker": "Unknown",
+  "en": "For us, we believe in the same thing.",
+  "zh": "对我们来说，我们相信同样的道理。"
+ },
+ {
+  "seg": 91,
+  "start": 361.201,
+  "end": 364.123,
+  "speaker": "Unknown",
+  "en": "Simulation is only the real ethical option we can go with.",
+  "zh": "仿真是我们唯一能选择的真正合乎伦理的选项。"
+ },
+ {
+  "seg": 92,
+  "start": 364.563,
+  "end": 368.586,
+  "speaker": "Unknown",
+  "en": "You can't run all the hazards I just mentioned on real people as a first grasp.",
+  "zh": "你不能把刚才提到的所有危害第一次尝试就跑在真人身上。"
+ },
+ {
+  "seg": 93,
+  "start": 370.288,
+  "end": 374.531,
+  "speaker": "Unknown",
+  "en": "So for our clinical history taking, we built a simulation framework called Matrix.",
+  "zh": "所以对于我们的临床问诊，我们构建了一个叫做 Matrix 的仿真框架。"
+ },
+ {
+  "seg": 94,
+  "start": 375.252,
+  "end": 378.715,
+  "speaker": "Unknown",
+  "en": "And I'm going to work through how it works and how we use it to prove that our product is safe.",
+  "zh": "我会逐步讲解它是如何工作的，以及我们如何用它来证明我们的产品是安全的。"
+ },
+ {
+  "seg": 95,
+  "start": 379.71,
+  "end": 383.295,
+  "speaker": "Unknown",
+  "en": "And the paper's on Archive if you want to read it along with some of the other research that we do.",
+  "zh": "论文在 Archive 上，如果你想对照阅读，还有我们做的其他一些研究。"
+ },
+ {
+  "seg": 96,
+  "start": 384.977,
+  "end": 390.725,
+  "speaker": "Unknown",
+  "en": "At its core, Matrix recreates a real clinical conversation but with no real patient in it.",
+  "zh": "Matrix 的核心是重现一场真实的临床对话，但里面没有真实的患者。"
+ },
+ {
+  "seg": 97,
+  "start": 391.527,
+  "end": 393.389,
+  "speaker": "Unknown",
+  "en": "We use an LLM to play the patient.",
+  "zh": "我们用一个 LLM 来扮演患者。"
+ },
+ {
+  "seg": 98,
+  "start": 393.509,
+  "end": 394.411,
+  "speaker": "Unknown",
+  "en": "We call it Patbot.",
+  "zh": "我们叫它 Patbot。"
+ },
+ {
+  "seg": 99,
+  "start": 395.469,
+  "end": 396.109,
+  "speaker": "Unknown",
+  "en": "And what does it do?",
+  "zh": "它是做什么的呢？"
+ },
+ {
+  "seg": 100,
+  "start": 396.589,
+  "end": 401.351,
+  "speaker": "Unknown",
+  "en": "We use a simulated patient and not a hired actor because hired actors don't scale.",
+  "zh": "我们使用模拟病人而不是雇来的演员，因为雇演员无法规模化。"
+ },
+ {
+  "seg": 101,
+  "start": 401.631,
+  "end": 409.733,
+  "speaker": "Unknown",
+  "en": "If we want to iterate very fast and simulate different things at the same time while also updating our system, hiring actors would just be too slow of a process.",
+  "zh": "如果我们想非常快速地迭代，在更新系统的同时模拟不同的东西，雇演员会是一个太慢的流程。"
+ },
+ {
+  "seg": 102,
+  "start": 410.133,
+  "end": 412.854,
+  "speaker": "Unknown",
+  "en": "So as a first version, we just use a simulated patient.",
+  "zh": "所以作为第一版，我们就直接使用了模拟病人。"
+ },
+ {
+  "seg": 103,
+  "start": 414.69,
+  "end": 418.612,
+  "speaker": "Unknown",
+  "en": "The simulated patient is conditioned on the actual scenario we want to test.",
+  "zh": "模拟病人以我们想要测试的实际场景为条件。"
+ },
+ {
+  "seg": 104,
+  "start": 419.273,
+  "end": 423.355,
+  "speaker": "Unknown",
+  "en": "The scenario defines exactly what the patient should try and do when talking to our agent.",
+  "zh": "场景精确定义了病人在与我们的智能体对话时应该尝试做什么。"
+ },
+ {
+  "seg": 105,
+  "start": 424.095,
+  "end": 428.158,
+  "speaker": "Unknown",
+  "en": "For example, asking whether the agent is a human or an AI.",
+  "zh": "比如，询问这个智能体是人类还是 AI。"
+ },
+ {
+  "seg": 106,
+  "start": 429.699,
+  "end": 434.521,
+  "speaker": "Unknown",
+  "en": "Patbot then has a conversation with Dora, our target system, and then generates simulated dialogues.",
+  "zh": "然后 Patbot 与我们的目标系统 Dora 进行对话，生成模拟对话。"
+ },
+ {
+  "seg": 107,
+  "start": 435.462,
+  "end": 439.544,
+  "speaker": "Unknown",
+  "en": "Very importantly, this all happens under a very specific clinical use case context.",
+  "zh": "非常重要的一点是，这一切都发生在非常具体的临床用例语境下。"
+ },
+ {
+  "seg": 108,
+  "start": 440.025,
+  "end": 444.147,
+  "speaker": "Unknown",
+  "en": "So the scenarios are grounded in real clinical workflows and not abstract situations.",
+  "zh": "所以这些场景都植根于真实的临床工作流程，而不是抽象的情境。"
+ },
+ {
+  "seg": 109,
+  "start": 445.979,
+  "end": 449.544,
+  "speaker": "Unknown",
+  "en": "So how do we actually make sure that the patient is realistic?",
+  "zh": "那么我们实际上如何确保这个病人是逼真的呢？"
+ },
+ {
+  "seg": 110,
+  "start": 451.406,
+  "end": 454.91,
+  "speaker": "Unknown",
+  "en": "If Patbot is sounding robotic, the tests aren't really worth much.",
+  "zh": "如果 Patbot 听起来很机械，那这些测试就没有什么价值。"
+ },
+ {
+  "seg": 111,
+  "start": 455.131,
+  "end": 456.432,
+  "speaker": "Unknown",
+  "en": "So we had to, of course, validate it.",
+  "zh": "所以我们当然必须对它进行验证。"
+ },
+ {
+  "seg": 112,
+  "start": 457.453,
+  "end": 461.198,
+  "speaker": "Unknown",
+  "en": "The first thing we did was just a pure script adherence check.",
+  "zh": "我们做的第一件事就是纯粹的脚本遵循检查。"
+ },
+ {
+  "seg": 113,
+  "start": 461.779,
+  "end": 464.222,
+  "speaker": "Unknown",
+  "en": "If we told Patbot to do something, does Patbot do it?",
+  "zh": "如果我们让 Patbot 做某件事，Patbot 做了吗？"
+ },
+ {
+  "seg": 114,
+  "start": 464.362,
+  "end": 464.863,
+  "speaker": "Unknown",
+  "en": "Yes or no?",
+  "zh": "是还是否？"
+ },
+ {
+  "seg": 115,
+  "start": 466.088,
+  "end": 471.053,
+  "speaker": "Unknown",
+  "en": "This helped us filter out a lot of maybe weaker models that didn't listen to instructions properly.",
+  "zh": "这帮我们过滤掉了许多可能没有正确听从指令的较弱模型。"
+ },
+ {
+  "seg": 116,
+  "start": 471.574,
+  "end": 475.739,
+  "speaker": "Unknown",
+  "en": "But just purely following instructions does not make a realistic patient.",
+  "zh": "但仅仅纯粹地遵循指令并不能造就一个逼真的病人。"
+ },
+ {
+  "seg": 117,
+  "start": 475.959,
+  "end": 479.343,
+  "speaker": "Unknown",
+  "en": "We want a patient that flows more realistically like a real person.",
+  "zh": "我们想要一个像真人一样对话更自然流畅的病人。"
+ },
+ {
+  "seg": 118,
+  "start": 480.694,
+  "end": 484.917,
+  "speaker": "Unknown",
+  "en": "So we set up what's called a PPI study, a patient and public involvement study.",
+  "zh": "于是我们搭建了一个所谓的 PPI 研究，即病人与公众参与研究。"
+ },
+ {
+  "seg": 119,
+  "start": 485.338,
+  "end": 488.28,
+  "speaker": "Unknown",
+  "en": "We took real patients and we showed them two sets of conversations.",
+  "zh": "我们找来真实的病人，给他们看了两组对话。"
+ },
+ {
+  "seg": 120,
+  "start": 489.001,
+  "end": 496.767,
+  "speaker": "Unknown",
+  "en": "One conversation was between a real doctor and a real patient, and one conversation was between Dora and Papot within our matrix framework.",
+  "zh": "一组对话是真实医生和真实病人之间的，另一组对话是 Dora 和 Papot 在我们的矩阵框架内的。"
+ },
+ {
+  "seg": 121,
+  "start": 497.267,
+  "end": 504.253,
+  "speaker": "Unknown",
+  "en": "And we showed them these two examples side by side and said, looking at the patient, can you tell which one is the real person and which one is the simulated person?",
+  "zh": "我们把这两个例子并排展示给他们，然后问：看这个病人，你能分辨出哪一个是真人，哪一个是模拟的人吗？"
+ },
+ {
+  "seg": 122,
+  "start": 504.953,
+  "end": 508.456,
+  "speaker": "Unknown",
+  "en": "So I'm going to just wait for a few seconds here if you guys want to quickly read the two conversations.",
+  "zh": "所以我在这里稍等几秒钟，如果你们想快速读一下这两段对话的话。"
+ },
+ {
+  "seg": 123,
+  "start": 509.758,
+  "end": 511.059,
+  "speaker": "Unknown",
+  "en": "Maybe we can do a hands up.",
+  "zh": "也许我们可以举手表决一下。"
+ },
+ {
+  "seg": 124,
+  "start": 511.079,
+  "end": 513.521,
+  "speaker": "Unknown",
+  "en": "Who thinks conversation A is the real person?",
+  "zh": "谁认为对话 A 是真人？"
+ },
+ {
+  "seg": 125,
+  "start": 515.603,
+  "end": 518.466,
+  "speaker": "Unknown",
+  "en": "Who thinks conversation B is the real person?",
+  "zh": "谁认为对话 B 是真人？"
+ },
+ {
+  "seg": 126,
+  "start": 520.628,
+  "end": 520.728,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 127,
+  "start": 521.447,
+  "end": 527.674,
+  "speaker": "Unknown",
+  "en": "I think us as engineers sometimes are pretty good at finding these things, but it was actually much more difficult than we thought.",
+  "zh": "我觉得我们作为工程师有时候很擅长发现这些东西，但这实际上比我们想象的要困难得多。"
+ },
+ {
+  "seg": 128,
+  "start": 527.834,
+  "end": 531.098,
+  "speaker": "Unknown",
+  "en": "And we did this with four conversation sets, basically.",
+  "zh": "我们基本上用四组对话做了这个测试。"
+ },
+ {
+  "seg": 129,
+  "start": 531.678,
+  "end": 535.963,
+  "speaker": "Unknown",
+  "en": "In three out of the four, the majority of people actually thought that the simulated patient was more realistic.",
+  "zh": "在四组中的三组里，大多数人实际上认为模拟病人更逼真。"
+ },
+ {
+  "seg": 130,
+  "start": 536.791,
+  "end": 541.095,
+  "speaker": "Unknown",
+  "en": "But the most important thing that we found was, of course, there is no single realistic patient.",
+  "zh": "但我们发现的最重要的一点是，当然，并不存在单一的逼真病人。"
+ },
+ {
+  "seg": 131,
+  "start": 541.315,
+  "end": 542.236,
+  "speaker": "Unknown",
+  "en": "That doesn't really make sense.",
+  "zh": "那个说法其实站不住脚。"
+ },
+ {
+  "seg": 132,
+  "start": 542.756,
+  "end": 546.159,
+  "speaker": "Unknown",
+  "en": "Some people prefer to speak more verbosely, a lot of ums and ahs.",
+  "zh": "有些人说话更啰嗦，有很多嗯嗯啊啊。"
+ },
+ {
+  "seg": 133,
+  "start": 546.52,
+  "end": 548.882,
+  "speaker": "Unknown",
+  "en": "Some people are more straight to the point, a lot of yeses and nos.",
+  "zh": "有些人更直截了当，很多是和不是。"
+ },
+ {
+  "seg": 134,
+  "start": 549.502,
+  "end": 552.785,
+  "speaker": "Unknown",
+  "en": "But the point is that we actually want to simulate all these different scenarios.",
+  "zh": "但关键在于，我们实际上想要模拟所有这些不同的场景。"
+ },
+ {
+  "seg": 135,
+  "start": 552.825,
+  "end": 555.968,
+  "speaker": "Unknown",
+  "en": "We want to simulate people with very diverse personas.",
+  "zh": "我们想要模拟具有非常多样化人格的人。"
+ },
+ {
+  "seg": 136,
+  "start": 556.789,
+  "end": 561.553,
+  "speaker": "Unknown",
+  "en": "But what it did show us is that at least our PadBot was realistic enough for this simulation.",
+  "zh": "而这个测试所展示给我们的是，至少我们的 PadBot 对于这个模拟来说已经足够逼真了。"
+ },
+ {
+  "seg": 137,
+  "start": 563.898,
+  "end": 566.801,
+  "speaker": "Unknown",
+  "en": "OK, so now you've got thousands and thousands of simulated dialogues.",
+  "zh": "好，那么现在你有了成千上万条模拟对话。 [[108→142]] 我们作为工程师要一条一条读过去，看看是否发生了危害吗？"
+ },
+ {
+  "seg": 138,
+  "start": 567.442,
+  "end": 570.886,
+  "speaker": "Unknown",
+  "en": "Are us as the engineers going to go read through them one by one and see if a hazard happened?",
+  "zh": "还是我们这些工程师要一个一个去通读，看看是否发生了危险情况？"
+ },
+ {
+  "seg": 139,
+  "start": 571.406,
+  "end": 571.947,
+  "speaker": "Unknown",
+  "en": "Of course not.",
+  "zh": "当然不。"
+ },
+ {
+  "seg": 140,
+  "start": 572.027,
+  "end": 573.489,
+  "speaker": "Unknown",
+  "en": "It doesn't scale at all, for one.",
+  "zh": "首先这完全无法规模化。"
+ },
+ {
+  "seg": 141,
+  "start": 573.629,
+  "end": 577.593,
+  "speaker": "Unknown",
+  "en": "And number two, we're on clinicians, so we don't actually know if an actual hazard has really occurred.",
+  "zh": "第二，我们不是临床医生，所以我们实际上并不知道真正的危害是否真的发生了。"
+ },
+ {
+  "seg": 142,
+  "start": 579.235,
+  "end": 582.579,
+  "speaker": "Unknown",
+  "en": "So we use another LLM as a judge, of course, and we call it Bevjudge.",
+  "zh": "于是我们当然又用另一个 LLM 作为裁判，我们称它为 Bevjudge。"
+ },
+ {
+  "seg": 143,
+  "start": 583.3,
+  "end": 584.581,
+  "speaker": "Unknown",
+  "en": "It takes the simulated dialogue.",
+  "zh": "它接收模拟对话。"
+ },
+ {
+  "seg": 144,
+  "start": 585.165,
+  "end": 591.614,
+  "speaker": "Unknown",
+  "en": "A set of expected behaviors and the hazardous scenarios that we talk through with clinicians, and it makes a judgment pass or fail.",
+  "zh": "一组预期行为以及我们与临床医生讨论过的危害场景，然后做出通过或不通过的判断。"
+ },
+ {
+  "seg": 145,
+  "start": 592.375,
+  "end": 595.159,
+  "speaker": "Unknown",
+  "en": "If it fails, it gives us a reason why it gave that answer.",
+  "zh": "如果不通过，它会给出做出那个判断的原因。"
+ },
+ {
+  "seg": 146,
+  "start": 595.78,
+  "end": 600.587,
+  "speaker": "Unknown",
+  "en": "So we get a structured output of which hazards were triggered and what actually went wrong in that scenario.",
+  "zh": "于是我们得到一个结构化的输出，说明触发了哪些危害，以及那个场景中实际出了什么问题。"
+ },
+ {
+  "seg": 147,
+  "start": 602.998,
+  "end": 605.099,
+  "speaker": "Unknown",
+  "en": "So how did we validate BevJudge?",
+  "zh": "那么我们如何验证 BevJudge 呢？"
+ },
+ {
+  "seg": 148,
+  "start": 605.199,
+  "end": 607.34,
+  "speaker": "Unknown",
+  "en": "We validated BevJudge against expert clinicians.",
+  "zh": "我们对照专家临床医生验证了 BevJudge。"
+ },
+ {
+  "seg": 149,
+  "start": 607.84,
+  "end": 610.561,
+  "speaker": "Unknown",
+  "en": "We created a corpus of 240 examples.",
+  "zh": "我们创建了一个包含 240 个例子的语料库。"
+ },
+ {
+  "seg": 150,
+  "start": 611.341,
+  "end": 614.623,
+  "speaker": "Unknown",
+  "en": "We had a ground truth of whether a hazard existed in these conversations, yes or no.",
+  "zh": "我们有一个关于这些对话中是否存在危害的真值(ground truth),有还是没有。"
+ },
+ {
+  "seg": 151,
+  "start": 615.123,
+  "end": 620.585,
+  "speaker": "Unknown",
+  "en": "Then we got 10 clinicians from 10 clinical specialties to label them for whether they had a hazard or not.",
+  "zh": "然后我们请了来自 10 个临床专科的 10 位临床医生,来标注这些对话是否存在危害。"
+ },
+ {
+  "seg": 152,
+  "start": 620.765,
+  "end": 622.005,
+  "speaker": "Unknown",
+  "en": "And we did the same thing with the judge.",
+  "zh": "我们对评审(judge)也做了同样的事情。"
+ },
+ {
+  "seg": 153,
+  "start": 622.786,
+  "end": 627.908,
+  "speaker": "Unknown",
+  "en": "And the results showed that our judge is at least on par, if not slightly better, than the real expert clinicians.",
+  "zh": "结果显示,我们的评审至少与真正的专家临床医生不相上下,甚至可能略好一些。"
+ },
+ {
+  "seg": 154,
+  "start": 629.016,
+  "end": 633.238,
+  "speaker": "Unknown",
+  "en": "The top model, which, as of a year ago when we wrote the paper, was Gemini 2.5 Pro.",
+  "zh": "当时最顶尖的模型,在一年前我们写论文的时候,是 Gemini 2.5 Pro。"
+ },
+ {
+  "seg": 155,
+  "start": 633.258,
+  "end": 634.618,
+  "speaker": "Unknown",
+  "en": "Now we've maybe updated the models.",
+  "zh": "现在我们可能已经更新了模型。"
+ },
+ {
+  "seg": 156,
+  "start": 635.479,
+  "end": 637.84,
+  "speaker": "Unknown",
+  "en": "It achieved an F1 score of 0.96.",
+  "zh": "它达到了 0.96 的 F1 分数。"
+ },
+ {
+  "seg": 157,
+  "start": 638.82,
+  "end": 642.882,
+  "speaker": "Unknown",
+  "en": "And even maybe more importantly, it achieved almost perfect sensitivity.",
+  "zh": "而且也许更重要的是,它达到了几乎完美的敏感度(sensitivity)。"
+ },
+ {
+  "seg": 158,
+  "start": 643.522,
+  "end": 652.266,
+  "speaker": "Unknown",
+  "en": "Sensitivity being a very important metric to healthcare and to clinicians, of course, because you want to make 100% sure almost that no hazards appear in a conversation.",
+  "zh": "敏感度当然是对医疗行业和临床医生来说非常重要的指标,因为你几乎要百分之百确保对话中不出现任何危害。"
+ },
+ {
+  "seg": 159,
+  "start": 652.706,
+  "end": 656.088,
+  "speaker": "Unknown",
+  "en": "You would rather over-call hazards that aren't there than under-call hazards that are there.",
+  "zh": "你宁愿把不存在的危害误报出来,也不愿意漏报真正存在的危害。"
+ },
+ {
+  "seg": 160,
+  "start": 657.15,
+  "end": 664.169,
+  "speaker": "Unknown",
+  "en": "So now we have an automated judge that performs at expert level, and this is actually what makes this whole process scalable.",
+  "zh": "所以现在我们拥有一个达到专家水平的自动化评审,而这实际上正是让整个流程可扩展的关键。"
+ },
+ {
+  "seg": 161,
+  "start": 665.894,
+  "end": 671.656,
+  "speaker": "Unknown",
+  "en": "OK, so now Matrix can grade thousands of conversations, but grading isn't technically improving the product.",
+  "zh": "好,现在 Matrix 可以给成千上万段对话打分了,但打分从技术上讲并不等于在改进产品。"
+ },
+ {
+  "seg": 162,
+  "start": 672.216,
+  "end": 677.158,
+  "speaker": "Unknown",
+  "en": "A pile of pass fails tells you where door breaks and where it's not safe, but doesn't actually make the product better.",
+  "zh": "一堆通过/不通过的结果能告诉你 Door 在哪里出问题、哪里不安全,但并不能真正让产品变好。"
+ },
+ {
+  "seg": 163,
+  "start": 677.678,
+  "end": 679.799,
+  "speaker": "Unknown",
+  "en": "So how do you do this without experimenting on the patient?",
+  "zh": "那么你怎么做到这一点,而不拿病人做实验呢?"
+ },
+ {
+  "seg": 164,
+  "start": 680.7,
+  "end": 686.762,
+  "speaker": "Unknown",
+  "en": "The answer isn't like maybe very long ago in our world, eight months ago, we would manually prompt engineer this.",
+  "zh": "答案不像也许很久以前——在我们的世界里也就是八个月前——我们会手动做提示词工程。"
+ },
+ {
+  "seg": 165,
+  "start": 687.162,
+  "end": 692.244,
+  "speaker": "Unknown",
+  "en": "We would look at which agents are going wrong or which prompts are going wrong, and we would have to manually prompt engineer.",
+  "zh": "我们会去看哪些智能体出错了、哪些提示词出错了,然后我们得手动做提示词工程。"
+ },
+ {
+  "seg": 166,
+  "start": 693.377,
+  "end": 696.66,
+  "speaker": "Unknown",
+  "en": "But we know that prompt brittleness is real, and it's quite absurd.",
+  "zh": "但我们知道提示词脆弱性(prompt brittleness)是真实存在的,而且相当荒谬。"
+ },
+ {
+  "seg": 167,
+  "start": 697.32,
+  "end": 708.809,
+  "speaker": "Unknown",
+  "en": "Formatting changes alone have been seen to swing benchmark by 76 percentage points, and reordering few-shot examples flips a model from near-random, so near 50%, to near-state-of-the-art on some benchmarks.",
+  "zh": "仅仅是格式上的变化,就曾被观察到能让基准成绩波动 76 个百分点;而重新排列少样本(few-shot)示例的顺序,能把一个模型在某些基准上从接近随机——也就是接近 50%——翻转到接近最先进水平。"
+ },
+ {
+  "seg": 168,
+  "start": 709.369,
+  "end": 710.931,
+  "speaker": "Unknown",
+  "en": "And hand-tuning can't survive that.",
+  "zh": "手动调优是撑不过这种事的。"
+ },
+ {
+  "seg": 169,
+  "start": 711.451,
+  "end": 716.014,
+  "speaker": "Unknown",
+  "en": "It's very subjective, it's not reproducible, and very importantly, it's extremely time-consuming.",
+  "zh": "它非常主观、不可复现,而且非常重要的一点是,它极其耗时。"
+ },
+ {
+  "seg": 170,
+  "start": 716.775,
+  "end": 721.958,
+  "speaker": "Unknown",
+  "en": "So over the last year or so, there's been these prompt optimizers that have started to come out, and we've focused on those.",
+  "zh": "所以在过去一年左右的时间里,开始出现了一些提示词优化器,我们重点关注了这些工具。"
+ },
+ {
+  "seg": 171,
+  "start": 722.399,
+  "end": 725.901,
+  "speaker": "Unknown",
+  "en": "The one that we use the most is JEPA, which stands for Genetic Pareto.",
+  "zh": "我们用得最多的是 JEPA,它是 Genetic Pareto 的缩写。"
+ },
+ {
+  "seg": 172,
+  "start": 726.281,
+  "end": 729.763,
+  "speaker": "Unknown",
+  "en": "It comes from the same people who made DSPY, if anyone knows about them.",
+  "zh": "它出自做出 DSPY 的同一批人,如果有人了解他们的话。"
+ },
+ {
+  "seg": 173,
+  "start": 731.044,
+  "end": 731.965,
+  "speaker": "Unknown",
+  "en": "And how does JEPA work?",
+  "zh": "那 JEPA 是怎么工作的呢?"
+ },
+ {
+  "seg": 174,
+  "start": 732.345,
+  "end": 736.128,
+  "speaker": "Unknown",
+  "en": "You essentially define a metric for what good is, which I'll get into a bit later.",
+  "zh": "你本质上要为「什么是好的」定义一个指标,这个我稍后会展开讲。"
+ },
+ {
+  "seg": 175,
+  "start": 737.148,
+  "end": 739.89,
+  "speaker": "Unknown",
+  "en": "Then you pass your data through",
+  "zh": "然后你把你的数据传进去"
+ },
+ {
+  "seg": 176,
+  "start": 742.332,
+  "end": 745.553,
+  "speaker": "Unknown",
+  "en": "Through Jepa and it tells you which examples failed.",
+  "zh": "传给 Jepa,它会告诉你哪些样例失败了。"
+ },
+ {
+  "seg": 177,
+  "start": 746.213,
+  "end": 751.055,
+  "speaker": "Unknown",
+  "en": "Then you get a very strong LLM to reflect on the failures and update the prompt automatically.",
+  "zh": "然后你用一个很强的 LLM 去反思这些失败,并自动更新提示词。"
+ },
+ {
+  "seg": 178,
+  "start": 751.695,
+  "end": 762.098,
+  "speaker": "Unknown",
+  "en": "You do this over and over and over again and it keeps what they call a Pareto frontier of the best prompts until your budget has been exhausted and you've now come up with what Jepa comes up with the best prompt.",
+  "zh": "你一遍又一遍地重复这个过程,它会保留他们所说的最优提示词的帕累托前沿(Pareto frontier),直到你的预算耗尽,而这时你就得到了 Jepa 能给出的最佳提示词。"
+ },
+ {
+  "seg": 179,
+  "start": 763.881,
+  "end": 774.472,
+  "speaker": "Unknown",
+  "en": "So we believe this is a much better process from both a time-consuming process, you know, it takes maybe manual prompt engineering, we're taking the order of hours to days, to this is an hour of minutes.",
+  "zh": "所以我们相信,从耗时角度看,这是一个好得多的流程,你知道,手动提示词工程可能要花小时到天级的功夫,而这个只要小时到分钟级。"
+ },
+ {
+  "seg": 180,
+  "start": 774.532,
+  "end": 778.175,
+  "speaker": "Unknown",
+  "en": "Normally between 30 minutes and an hour, you get an optimized prompt.",
+  "zh": "通常在 30 分钟到一个小时之间,你就能得到一个优化过的提示词。"
+ },
+ {
+  "seg": 181,
+  "start": 778.916,
+  "end": 784.322,
+  "speaker": "Unknown",
+  "en": "And very importantly, it's reproducible, and there's a very clear order trail and clear feedback loop.",
+  "zh": "而且非常重要的是,它是可复现的,有非常清晰的顺序轨迹和清晰的反馈回路。"
+ },
+ {
+  "seg": 182,
+  "start": 784.802,
+  "end": 789.044,
+  "speaker": "Unknown",
+  "en": "And if anything goes wrong, you can just maybe it's purely now a data science problem.",
+  "zh": "而且如果出了任何问题,你可以说这现在纯粹变成了一个数据科学问题。"
+ },
+ {
+  "seg": 183,
+  "start": 789.084,
+  "end": 795.866,
+  "speaker": "Unknown",
+  "en": "It's mainly focused on the data, how to make your data route, the feature engineering, and you define the actual metric along with the clinicians.",
+  "zh": "它主要聚焦在数据上,如何把你的数据路由好、特征工程,而且你要和临床医生一起定义实际的指标。"
+ },
+ {
+  "seg": 184,
+  "start": 798.527,
+  "end": 800.528,
+  "speaker": "Unknown",
+  "en": "So how do you actually know what good is?",
+  "zh": "那么,你到底怎么知道什么是好的呢?"
+ },
+ {
+  "seg": 185,
+  "start": 802.748,
+  "end": 804.149,
+  "speaker": "Unknown",
+  "en": "It's not a flat accuracy score.",
+  "zh": "它不是一个单一扁平的准确率分数。"
+ },
+ {
+  "seg": 186,
+  "start": 804.169,
+  "end": 806.75,
+  "speaker": "Unknown",
+  "en": "You don't want just an average of how your whole data set did.",
+  "zh": "你不想要整个数据集表现的平均值。"
+ },
+ {
+  "seg": 187,
+  "start": 807.692,
+  "end": 809.013,
+  "speaker": "Unknown",
+  "en": "You give it a cost matrix.",
+  "zh": "你要给它一个成本矩阵。"
+ },
+ {
+  "seg": 188,
+  "start": 809.533,
+  "end": 811.533,
+  "speaker": "Unknown",
+  "en": "So let's go back to our sensitivity metric.",
+  "zh": "我们回到敏感度这个指标。"
+ },
+ {
+  "seg": 189,
+  "start": 812.014,
+  "end": 816.855,
+  "speaker": "Unknown",
+  "en": "Let's say it's very important for clinicians to understand when and where a red flag is present.",
+  "zh": "假设对临床医生来说,理解红旗信号(red flag)何时何地存在是非常重要的事。"
+ },
+ {
+  "seg": 190,
+  "start": 818.056,
+  "end": 821.957,
+  "speaker": "Unknown",
+  "en": "If a red flag is present and you correctly catch it, that's good.",
+  "zh": "如果红旗信号存在,而你正确地捕捉到了它,那是好的。"
+ },
+ {
+  "seg": 191,
+  "start": 822.278,
+  "end": 824.518,
+  "speaker": "Unknown",
+  "en": "If you miss it, it could be catastrophic.",
+  "zh": "如果你漏掉了它,后果可能是灾难性的。"
+ },
+ {
+  "seg": 192,
+  "start": 825.079,
+  "end": 827.179,
+  "speaker": "Unknown",
+  "en": "If there's no actual red flag and it overcores",
+  "zh": "如果实际上没有红旗信号,而你过度判定了"
+ },
+ {
+  "seg": 193,
+  "start": 829.43,
+  "end": 830.472,
+  "speaker": "Unknown",
+  "en": "That there's a red flag there.",
+  "zh": "说那里有红旗信号。"
+ },
+ {
+  "seg": 194,
+  "start": 830.772,
+  "end": 832.235,
+  "speaker": "Unknown",
+  "en": "It's just mildly annoying to the patient.",
+  "zh": "这只是让病人稍微有点烦。"
+ },
+ {
+  "seg": 195,
+  "start": 832.255,
+  "end": 838.405,
+  "speaker": "Unknown",
+  "en": "They may need to answer a couple extra questions, but it's not a catastrophic harm situation.",
+  "zh": "他们可能需要多回答几个问题,但这不是一个灾难性的伤害情形。"
+ },
+ {
+  "seg": 196,
+  "start": 839.147,
+  "end": 840.028,
+  "speaker": "Unknown",
+  "en": "So what can we do?",
+  "zh": "那我们能做什么呢?"
+ },
+ {
+  "seg": 197,
+  "start": 840.048,
+  "end": 841.769,
+  "speaker": "Unknown",
+  "en": "We can optimize for sensitivity.",
+  "zh": "我们可以为敏感度做优化。"
+ },
+ {
+  "seg": 198,
+  "start": 842.249,
+  "end": 851.675,
+  "speaker": "Unknown",
+  "en": "We can work with the feedback metric, and we can just give a higher reward for finding the red flags and a lower reward for missing them.",
+  "zh": "我们可以利用反馈指标,给发现红旗信号更高的奖励,给漏掉它们更低的奖励。"
+ },
+ {
+  "seg": 199,
+  "start": 851.955,
+  "end": 853.476,
+  "speaker": "Unknown",
+  "en": "So you can optimize for certain metrics.",
+  "zh": "所以你可以针对特定指标做优化。"
+ },
+ {
+  "seg": 200,
+  "start": 854.017,
+  "end": 857.819,
+  "speaker": "Unknown",
+  "en": "You can also optimize for something else that a clinician might want.",
+  "zh": "你还可以针对临床医生可能想要的其他东西做优化。"
+ },
+ {
+  "seg": 201,
+  "start": 857.839,
+  "end": 861.582,
+  "speaker": "Unknown",
+  "en": "They might want to optimize for accuracy or might want to optimize for some other metric.",
+  "zh": "他们可能想优化准确率，或者想优化其他某个指标。"
+ },
+ {
+  "seg": 202,
+  "start": 862.022,
+  "end": 866.225,
+  "speaker": "Unknown",
+  "en": "All you have to do is recompile the prompt, and then you've got a new optimized prompt.",
+  "zh": "你所要做的就是重新编译提示词，然后你就得到了一个新的优化后的提示词。"
+ },
+ {
+  "seg": 203,
+  "start": 868.445,
+  "end": 871.888,
+  "speaker": "Unknown",
+  "en": "So remember earlier when we said we feel like the reactive loop is gone?",
+  "zh": "所以还记得之前我们说过，我们感觉反应式循环已经消失了吗？"
+ },
+ {
+  "seg": 204,
+  "start": 872.549,
+  "end": 874.03,
+  "speaker": "Unknown",
+  "en": "You ship, watch, and roll back.",
+  "zh": "也就是你上线、观察、然后回滚。"
+ },
+ {
+  "seg": 205,
+  "start": 874.371,
+  "end": 875.672,
+  "speaker": "Unknown",
+  "en": "This is what we believe replaces it.",
+  "zh": "这就是我们相信能够取代它的东西。"
+ },
+ {
+  "seg": 206,
+  "start": 876.433,
+  "end": 878.275,
+  "speaker": "Unknown",
+  "en": "We take real calls, real data.",
+  "zh": "我们拿真实的通话、真实的数据。"
+ },
+ {
+  "seg": 207,
+  "start": 879.095,
+  "end": 885.602,
+  "speaker": "Unknown",
+  "en": "We use then synthetic edge cases which may not come up in real calls, such as like rare symptoms or mistranscriptions.",
+  "zh": "然后我们使用合成的边缘案例，这些案例可能在真实通话中不会出现，比如罕见症状或错误的转写。"
+ },
+ {
+  "seg": 208,
+  "start": 886.923,
+  "end": 890.606,
+  "speaker": "Unknown",
+  "en": "We get an optimized prompt through Jepo or some other prompt optimizer.",
+  "zh": "我们通过 Jepo 或其他提示词优化器得到一个优化后的提示词。"
+ },
+ {
+  "seg": 209,
+  "start": 891.366,
+  "end": 896.029,
+  "speaker": "Unknown",
+  "en": "Then we pass it through something like Matrix as a simulation safety gate.",
+  "zh": "然后我们把它通过类似 Matrix 这样的东西，作为模拟安全闸门。"
+ },
+ {
+  "seg": 210,
+  "start": 896.45,
+  "end": 903.654,
+  "speaker": "Unknown",
+  "en": "If anything fails or anything doesn't look right, we can redo that whole process, redo the data or relabel or get more data.",
+  "zh": "如果有任何失败或任何看起来不对的地方，我们可以重做整个流程，重做数据或重新标注或获取更多数据。"
+ },
+ {
+  "seg": 211,
+  "start": 904.135,
+  "end": 908.177,
+  "speaker": "Unknown",
+  "en": "And then after that, and you're happy with that, then you can do some gated deploy, which we'll get into a bit.",
+  "zh": "然后在那之后，如果你对此满意，就可以做一些带门禁的部署，这个我们稍后会讲到。"
+ },
+ {
+  "seg": 212,
+  "start": 909.659,
+  "end": 911.702,
+  "speaker": "Unknown",
+  "en": "The most important thing here is that it's a flywheel.",
+  "zh": "这里最重要的一点是，它是一个飞轮。"
+ },
+ {
+  "seg": 213,
+  "start": 912.122,
+  "end": 917.429,
+  "speaker": "Unknown",
+  "en": "Every single deployment and every new call produces more call data, so your system is consistently improving.",
+  "zh": "每一次部署和每一通新电话都会产生更多的通话数据，所以你的系统在持续改进。"
+ },
+ {
+  "seg": 214,
+  "start": 920.288,
+  "end": 924.85,
+  "speaker": "Unknown",
+  "en": "So as we said with our matrix framework, we use simulated patients.",
+  "zh": "正如我们在 Matrix 框架中所说的，我们使用模拟病人。"
+ },
+ {
+  "seg": 215,
+  "start": 924.95,
+  "end": 929.273,
+  "speaker": "Unknown",
+  "en": "But however realistic you think they are, of course they are not real patients.",
+  "zh": "但无论你觉得它们多逼真，它们当然不是真正的病人。"
+ },
+ {
+  "seg": 216,
+  "start": 929.993,
+  "end": 933.955,
+  "speaker": "Unknown",
+  "en": "Passing every test in simulation doesn't prove that Dora actually helps someone in real life.",
+  "zh": "在模拟中通过所有测试，并不能证明 Dora 在现实生活中真正帮助了某个人。"
+ },
+ {
+  "seg": 217,
+  "start": 934.015,
+  "end": 936.737,
+  "speaker": "Unknown",
+  "en": "Things might come up in real life that you can't get in simulation.",
+  "zh": "现实生活中可能出现一些在模拟中无法得到的情况。"
+ },
+ {
+  "seg": 218,
+  "start": 937.317,
+  "end": 939.678,
+  "speaker": "Unknown",
+  "en": "It only earns the right to actually try carefully.",
+  "zh": "模拟只是赢得了真正谨慎尝试的资格。"
+ },
+ {
+  "seg": 219,
+  "start": 940.418,
+  "end": 941.539,
+  "speaker": "Unknown",
+  "en": "Simulation is the inner loop.",
+  "zh": "模拟是内循环。"
+ },
+ {
+  "seg": 220,
+  "start": 941.699,
+  "end": 942.259,
+  "speaker": "Unknown",
+  "en": "It's fast.",
+  "zh": "它很快。"
+ },
+ {
+  "seg": 221,
+  "start": 942.48,
+  "end": 942.92,
+  "speaker": "Unknown",
+  "en": "It's free.",
+  "zh": "它是免费的。"
+ },
+ {
+  "seg": 222,
+  "start": 943,
+  "end": 946.642,
+  "speaker": "Unknown",
+  "en": "You can do thousands of runs before anyone actually real is exposed.",
+  "zh": "你可以在任何真人真正暴露之前进行成千上万次运行。"
+ },
+ {
+  "seg": 223,
+  "start": 947.322,
+  "end": 950.627,
+  "speaker": "Unknown",
+  "en": "But real patients are the outer loop, and that's where the only real proof is.",
+  "zh": "但真实病人才是外循环，那才是唯一真正的证明所在。"
+ },
+ {
+  "seg": 224,
+  "start": 951.167,
+  "end": 953.451,
+  "speaker": "Unknown",
+  "en": "So simulation is necessary, but it's not sufficient.",
+  "zh": "所以模拟是必要的，但并不充分。"
+ },
+ {
+  "seg": 225,
+  "start": 955.061,
+  "end": 959.744,
+  "speaker": "Unknown",
+  "en": "Simulation earns the right to test on real people and then eventually real patients.",
+  "zh": "模拟赢得了在真实人群身上测试的资格，然后最终在真实病人身上测试。"
+ },
+ {
+  "seg": 226,
+  "start": 960.124,
+  "end": 961.205,
+  "speaker": "Unknown",
+  "en": "But you don't just flip a switch.",
+  "zh": "但你不是简单地拨动一个开关。"
+ },
+ {
+  "seg": 227,
+  "start": 961.665,
+  "end": 964.807,
+  "speaker": "Unknown",
+  "en": "You cross it in stages, and each stage earns the right for the next.",
+  "zh": "你是分阶段跨越过去的，每个阶段赢得进入下一阶段的资格。"
+ },
+ {
+  "seg": 228,
+  "start": 965.628,
+  "end": 969.83,
+  "speaker": "Unknown",
+  "en": "After you've done your simulations and you're happy with the results, you might do a round of user testing.",
+  "zh": "在你完成模拟并且对结果满意之后，你可能会做一轮用户测试。"
+ },
+ {
+  "seg": 229,
+  "start": 970.35,
+  "end": 976.114,
+  "speaker": "Unknown",
+  "en": "Then you get supervised clinical evaluation based on those tests, and you base it on real patients.",
+  "zh": "然后基于这些测试，你进行有监督的临床评估，并且基于真实病人来做。"
+ },
+ {
+  "seg": 230,
+  "start": 976.314,
+  "end": 979.896,
+  "speaker": "Unknown",
+  "en": "You can do some voice actors, but of course, the most realistic is to get real patients.",
+  "zh": "你可以用一些配音演员，但当然，最真实的是找真实病人。"
+ },
+ {
+  "seg": 231,
+  "start": 980.817,
+  "end": 984.179,
+  "speaker": "Unknown",
+  "en": "But in this step, it's very important that there's clinicians at every step in the loop.",
+  "zh": "但在这一步，非常重要的是，循环的每一步都要有临床医生参与。"
+ },
+ {
+  "seg": 232,
+  "start": 985.278,
+  "end": 987.94,
+  "speaker": "Unknown",
+  "en": "Then you can do some deployments, but it's still monitored.",
+  "zh": "然后你可以做一些部署，但仍然是被监控的。"
+ },
+ {
+  "seg": 233,
+  "start": 988.48,
+  "end": 992.383,
+  "speaker": "Unknown",
+  "en": "And how much autonomy you allow the system to do depends on your evidence.",
+  "zh": "而你允许系统拥有多少自主权，取决于你的证据。"
+ },
+ {
+  "seg": 234,
+  "start": 992.863,
+  "end": 996.325,
+  "speaker": "Unknown",
+  "en": "As the system gets more evidence, you can give it more independence.",
+  "zh": "随着系统获得更多证据，你可以给它更多独立性。"
+ },
+ {
+  "seg": 235,
+  "start": 997.246,
+  "end": 1006.051,
+  "speaker": "Unknown",
+  "en": "And underneath all of this, every call, every dataset, and every pinned prompt, every judge verdict traces back to the exact hazard that it addresses.",
+  "zh": "而在这一切之下，每一次通话、每一个数据集、每一个固定的提示词、每一个评判结论，都可以追溯到它所应对的确切危害。"
+ },
+ {
+  "seg": 236,
+  "start": 1006.632,
+  "end": 1007.672,
+  "speaker": "Unknown",
+  "en": "That's the real deliverable.",
+  "zh": "这才是真正的交付物。"
+ },
+ {
+  "seg": 237,
+  "start": 1008.092,
+  "end": 1011.875,
+  "speaker": "Unknown",
+  "en": "The important thing is that you don't ship the model, you ship the evidence when trying to regulate.",
+  "zh": "重要的是，在试图通过监管时，你交付的不是模型，而是证据。"
+ },
+ {
+  "seg": 238,
+  "start": 1013.145,
+  "end": 1016.309,
+  "speaker": "Unknown",
+  "en": "So what can you take back to your own stacks, both in healthcare and other areas?",
+  "zh": "那么你能把这些带回到你自己的技术栈中吗？无论是医疗领域还是其他领域？"
+ },
+ {
+  "seg": 239,
+  "start": 1016.929,
+  "end": 1019.833,
+  "speaker": "Unknown",
+  "en": "You first have to define exactly what harm is for your product.",
+  "zh": "你首先必须精确定义对你的产品来说什么算是危害。"
+ },
+ {
+  "seg": 240,
+  "start": 1020.474,
+  "end": 1023.317,
+  "speaker": "Unknown",
+  "en": "You have to manufacture your rare but dangerous cases.",
+  "zh": "你必须制造那些罕见但危险的案例。"
+ },
+ {
+  "seg": 241,
+  "start": 1023.637,
+  "end": 1025.339,
+  "speaker": "Unknown",
+  "en": "Don't wait for them just to happen naturally.",
+  "zh": "不要只是等它们自然发生。"
+ },
+ {
+  "seg": 242,
+  "start": 1026.04,
+  "end": 1029.264,
+  "speaker": "Unknown",
+  "en": "Make your evaluation metric your real cost function to optimize.",
+  "zh": "把你的评估指标变成你真正要优化的成本函数。"
+ },
+ {
+  "seg": 243,
+  "start": 1030.025,
+  "end": 1032.127,
+  "speaker": "Unknown",
+  "en": "Pin your prompt versions and keep the traces.",
+  "zh": "固定你的提示词版本并保留追踪记录。"
+ },
+ {
+  "seg": 244,
+  "start": 1032.508,
+  "end": 1033.429,
+  "speaker": "Unknown",
+  "en": "These are the important things.",
+  "zh": "这些是重要的事情。"
+ },
+ {
+  "seg": 245,
+  "start": 1035.042,
+  "end": 1037.184,
+  "speaker": "Unknown",
+  "en": "The important thing also is that the work is never done.",
+  "zh": "同样重要的一点是，这项工作永远没有完成的时候。"
+ },
+ {
+  "seg": 246,
+  "start": 1037.564,
+  "end": 1042.268,
+  "speaker": "Unknown",
+  "en": "As you move into new modalities or new languages, there will always be new hazards that start to arise.",
+  "zh": "当你进入新的模态或新的语言时，总会有新的危害开始出现。"
+ },
+ {
+  "seg": 247,
+  "start": 1042.848,
+  "end": 1049.994,
+  "speaker": "Unknown",
+  "en": "But with something like Matrix and a prompt optimization loop, you can use the same framework as new modalities arise.",
+  "zh": "但有了 Matrix 这样的东西和一个提示词优化循环，当新模态出现时，你可以使用同样的框架。"
+ },
+ {
+  "seg": 248,
+  "start": 1050.694,
+  "end": 1057.199,
+  "speaker": "Unknown",
+  "en": "You know, when you move into voice, for example, there's things like backchanneling and interruptions, which breaks a lot of the text emails.",
+  "zh": "你知道，比如当你进入语音领域时，会出现像反馈性回应和打断这样的事情，这会打破很多文本场景的东西。"
+ },
+ {
+  "seg": 249,
+  "start": 1058.049,
+  "end": 1073.699,
+  "speaker": "Unknown",
+  "en": "For example, an agent might be mid-safety advice, like you must avoid bright lights, and when the patient maybe cuts in with some out-of-scope question, and weaker models usually just forget about the safety advice and just answer the next question.",
+  "zh": "例如，一个智能体可能正在给出安全建议，比如你必须避免强光，这时病人可能插入一个超出范围的问题，而较弱的模型通常就会忘掉安全建议，直接回答下一个问题。"
+ },
+ {
+  "seg": 250,
+  "start": 1074.059,
+  "end": 1075.54,
+  "speaker": "Unknown",
+  "en": "But Matrix captures these things.",
+  "zh": "但 Matrix 能捕捉到这些东西。"
+ },
+ {
+  "seg": 251,
+  "start": 1077.361,
+  "end": 1080.623,
+  "speaker": "Unknown",
+  "en": "Other things that usually go wrong that we've tested is that",
+  "zh": "我们测试过的其他通常会出错的情况是,"
+ },
+ {
+  "seg": 252,
+  "start": 1082.771,
+  "end": 1094.408,
+  "speaker": "Unknown",
+  "en": "The patient could, the daughter or an agent could be halfway through giving some safety advice and a back channel that's just caused the model to just completely ignore the safety advice and stop right there and wait for the patient to say something else.",
+  "zh": "病人可能——女儿或智能体可能正在给安全建议给到一半,一个后门通道刚导致模型完全无视安全建议,就停在那里,等待病人说别的什么。"
+ },
+ {
+  "seg": 253,
+  "start": 1095.559,
+  "end": 1097.401,
+  "speaker": "Unknown",
+  "en": "The failure modes change.",
+  "zh": "失败模式会变。"
+ },
+ {
+  "seg": 254,
+  "start": 1097.701,
+  "end": 1098.442,
+  "speaker": "Unknown",
+  "en": "The framework doesn't.",
+  "zh": "框架不会。"
+ },
+ {
+  "seg": 255,
+  "start": 1098.883,
+  "end": 1104.749,
+  "speaker": "Unknown",
+  "en": "You still blackbox the system, write down the new hazards, and simulate and judge them exactly that we did over text.",
+  "zh": "你仍然是把系统黑盒化,写下新的危害,然后像我们在文本上做的那样去模拟和评判它们。"
+ },
+ {
+  "seg": 256,
+  "start": 1105.249,
+  "end": 1110.515,
+  "speaker": "Unknown",
+  "en": "Voice is just a new module in the same safety case, and we actually use matrix in the voice space to do these exact same things.",
+  "zh": "语音只是同一个安全案例中的新模块,我们实际上在语音领域用 matrix 来做完全相同的事情。"
+ },
+ {
+  "seg": 257,
+  "start": 1111.296,
+  "end": 1114.199,
+  "speaker": "Unknown",
+  "en": "So whatever modality you move into, you're not starting over.",
+  "zh": "所以无论你转向哪种模态,你都不用从头再来。"
+ },
+ {
+  "seg": 258,
+  "start": 1114.479,
+  "end": 1117.102,
+  "speaker": "Unknown",
+  "en": "The same approach finds the hazards before a real user does.",
+  "zh": "同样的方法会在真实用户之前发现危害。"
+ },
+ {
+  "seg": 259,
+  "start": 1118.495,
+  "end": 1124.438,
+  "speaker": "Unknown",
+  "en": "So again, you simulate before it ever touches a patient, and you use an optimization loop to actually improve the system.",
+  "zh": "所以再说一次,在它接触病人之前你就进行模拟,并且你用一个优化循环来真正改进系统。"
+ },
+ {
+  "seg": 260,
+  "start": 1125.399,
+  "end": 1127.78,
+  "speaker": "Unknown",
+  "en": "Thank you very, very much for coming to listen.",
+  "zh": "非常非常感谢大家来听。"
+ },
+ {
+  "seg": 261,
+  "start": 1127.96,
+  "end": 1130.301,
+  "speaker": "Unknown",
+  "en": "I'm very, very open to talking more about this.",
+  "zh": "我非常非常乐意更多地聊聊这个话题。"
+ },
+ {
+  "seg": 262,
+  "start": 1130.401,
+  "end": 1134.343,
+  "speaker": "Unknown",
+  "en": "And if you want to connect during the conference or after, there's my LinkedIn and socials.",
+  "zh": "如果你想在会议期间或之后联系我,这是我的 LinkedIn 和社交账号。"
+ },
+ {
+  "seg": 263,
+  "start": 1134.524,
+  "end": 1135.064,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

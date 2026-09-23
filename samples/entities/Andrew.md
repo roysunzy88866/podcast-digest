@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":291,"Sonia":2,"Parag":2,"Parallel":5,"搜索智能体":2,"索引":2,"爬取":3,"推理":52,"Shapley 值":2,"后台智能体":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Sonia":2,"Parag":2,"Parallel":5,"搜索智能体":2,"索引":2,"爬取":3,"推理":52,"Shapley 值":2,"后台智能体":4}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]]
+[[Gagan Viani]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":291,"上下文工程":14,"规范":2,"计划":1,"代码审查":12,"垃圾话":4,"Human Layer":1,"技能":17}</script>
+<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":293,"上下文工程":14,"规范":2,"计划":1,"代码审查":12,"垃圾话":4,"Human Layer":1,"技能":18}</script>
 
 <script>
 (function(){

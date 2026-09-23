@@ -130,6 +130,7 @@ Casey 在自己的项目里完全不用 AI 工具，原因很简单：他写游�
 
 **换个口味**
 
+- [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|年轻人该去质疑，而不是听话：AI 时代重新想象大学]]<span class="pd-rz">同概念:过早优化 (premature optimization)</span>
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]]<span class="pd-rz">同公司:Substack</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:CPU</span>
 

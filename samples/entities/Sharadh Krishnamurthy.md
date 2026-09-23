@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":34,"Kai":1,"智能体":291,"治理":2,"项目":1,"工具策略":1,"人在回路":12,"技能":17,"沙箱":53}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":34,"Kai":1,"智能体":293,"治理":2,"项目":1,"工具策略":1,"人在回路":12,"技能":18,"沙箱":54}</script>
 
 <script>
 (function(){

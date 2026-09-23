@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":15,"Neon":3,"智能体":291,"本体":4,"网络安全":1,"RSI":3,"开源":25,"后训练":26,"harness":40}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":15,"Neon":3,"智能体":293,"本体":4,"网络安全":1,"RSI":3,"开源":25,"后训练":26,"harness":40}</script>
 
 <script>
 (function(){

@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Fireworks":5,"Cursor":64,"NVIDIA":42,"Anthropic":132,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":25,"推理":52}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Fireworks":5,"Cursor":64,"NVIDIA":42,"Anthropic":132,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":26,"推理":52}</script>
 
 <script>
 (function(){

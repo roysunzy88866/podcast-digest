@@ -1,0 +1,382 @@
+{
+  "episode_id": "2026-08-18-talks-building-an-agentic-video-editor-for-mas",
+  "podcast": "精选演讲",
+  "date": "2026-08-18",
+  "tags": [
+    "智能体",
+    "视频剪辑",
+    "消费者产品",
+    "AI 工程",
+    "创业"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ekaterina-deyneka",
+      "type": "person",
+      "role": "guest",
+      "name": "Ekaterina Deyneka",
+      "file": "Ekaterina Deyneka",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "reelful",
+      "type": "company",
+      "role": "company",
+      "name": "Reelful",
+      "file": "Reelful",
+      "primary": true,
+      "how_described": "本集说 Reelful 是 Kate 创办的公司，做智能体视频剪辑：用户丢入照片和视频，智能体自己挑片段、加字幕、配乐、配音、做 B-roll，产出可直接发社交媒体的成片；刚发布第二版 beta，获 A16Z speedrun 投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            258.007,
+            262.112
+          ],
+          "quote": "At Reelful, we're focusing on editing real footage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            317.813,
+            322.136
+          ],
+          "quote": "So let's actually have a look how we do it at Reelful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            520.4,
+            522.923
+          ],
+          "quote": "And this is how we're tackling that at Reelful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            596.838,
+            602.7
+          ],
+          "quote": "Yeah, and actually I have a couple of examples here that I recently created with Reelful.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：自己理解媒体素材、挑选最佳片段、组装成片的执行者，带着工具和技能在沙箱里干活；因为智能体擅长写代码，所以用 Remotion 让它们以写代码的方式做视频。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            106.764,
+            121.504
+          ],
+          "quote": "And then the agent will go understand your media, find the right moments, assemble everything together, generate captions, music, voiceover, B-rolls, and give you a ready-to-share clip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            123.333,
+            132.1
+          ],
+          "quote": "And yeah, so basically that's agentic video editing, so agent does everything by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            132.6,
+            151.094
+          ],
+          "quote": "Or another example, you recorded a speak-to-camera video and you have a lot of pauses, unsuccessful shots, and you expect an agent to figure it out to remove unsuccessful shots, remove pauses, and give you a ready-to-share clip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            206.431,
+            220.297
+          ],
+          "quote": "There is a remote machine, which is called Sandbox, which is spinning up, and inside this machine, there is an agent with tools and skills, which is working on what you're asking it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            273.178,
+            282.924
+          ],
+          "quote": "And actually, this is a more complex problem because if the agent has a blank canvas, it can do whatever they can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            283.304,
+            289.788
+          ],
+          "quote": "But in the editing case, the agent has to figure out which moments are the best.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            295.211,
+            316.242
+          ],
+          "quote": "And also sometimes footage can be messy or incomplete and agent still has to deliver a very polished result professionally made so that ideally the viewers of this content don't get if it is like AI or human edited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            370.854,
+            383.761
+          ],
+          "quote": "Once the user approved this plan, we spin up a sandbox, the remote machine that we already discussed, and this is an environment for the agent to execute everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            384.301,
+            390.545
+          ],
+          "quote": "So the agent comes with the skills, and in our case, in the case of video editing,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            411.188,
+            425.418
+          ],
+          "quote": "And then also agent can initiate some other sub processes, for example, generating music that will fit this exact composition, generating voiceover, adding sounds, animating images.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            475.421,
+            494.757
+          ],
+          "quote": "Of course, agent can make mistakes, and that's why we developed this verification layer to make sure that all the composition is clean, is well-defined, everything will be rendered, and if there are some problems, then the agent will reiterate on the composition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            652.662,
+            661.545
+          ],
+          "quote": "So yeah, basically, all these videos, they were assembled only using agent, no regular video editor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-video-editing",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体视频剪辑 (agentic video editing)",
+      "file": "智能体视频剪辑",
+      "primary": true,
+      "how_described": "本集把它说成：用户放入媒体文件加一句指令，智能体自己完成理解素材、剪辑、加字幕配乐等一切，只剪辑真实素材而非大量生成——生成是空白画布，剪辑要在凌乱素材里做出观众分不出人机的专业成品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            67.35,
+            78.339
+          ],
+          "quote": "And that's why we're building RLFL and we're trying to tackle agentic video editing problem from the agentic standpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            83.102,
+            87.446
+          ],
+          "quote": "But let's first talk about what agentic video editing is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            123.333,
+            132.1
+          ],
+          "quote": "And yeah, so basically that's agentic video editing, so agent does everything by itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成：后端启动的远程机器，是智能体执行任务的环境，里面有一个带着工具和技能的智能体；智能体应用构建器用它操作代码库，视频编辑器用它操作视频合成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            206.431,
+            220.297
+          ],
+          "quote": "There is a remote machine, which is called Sandbox, which is spinning up, and inside this machine, there is an agent with tools and skills, which is working on what you're asking it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            370.854,
+            383.761
+          ],
+          "quote": "Once the user approved this plan, we spin up a sandbox, the remote machine that we already discussed, and this is an environment for the agent to execute everything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "remotion",
+      "type": "concept",
+      "role": "concept",
+      "name": "Remotion",
+      "file": "Remotion",
+      "primary": true,
+      "how_described": "本集把它说成：一个用 React 代码写视频的开源框架，一个文件按顺序定义所有素材、轨道和衔接方式；选它是因为智能体非常擅长写代码，可以用写代码的方式创建视频。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            435.546,
+            437.968
+          ],
+          "quote": "And then comes Remotion Composition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            440.09,
+            440.931
+          ],
+          "quote": "What's Remotion?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            441.071,
+            449.679
+          ],
+          "quote": "Remotion is a framework, open source framework to create videos as code, as React code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            462.612,
+            470.309
+          ],
+          "quote": "Because agents are really good at writing code, and therefore we can use them to create videos with this Remotion framework.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": false,
+      "how_described": "本集说智能体自带技能，比如剪辑规则（怎么挑最佳片段）、字体搭配、怎么生成 B-roll——这正是品味和手艺沉淀的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            206.431,
+            220.297
+          ],
+          "quote": "There is a remote machine, which is called Sandbox, which is spinning up, and inside this machine, there is an agent with tools and skills, which is working on what you're asking it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            384.301,
+            390.545
+          ],
+          "quote": "So the agent comes with the skills, and in our case, in the case of video editing,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            391.185,
+            409.506
+          ],
+          "quote": "Our skills are, for example, cut rules, how, for example, how to select the best moments, also font pairs, which fonts are more suitable for this use case, which are not, for example, how to generate B-rolls, and this is where taste and craft live, actually.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证层 (verification layer)",
+      "file": "验证层",
+      "primary": false,
+      "how_described": "本集说因为智能体会犯错，Reelful 专门开发了验证层，检查合成是否干净、定义良好、能否全部渲染出来，发现问题就打回让智能体迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            471.238,
+            475.101
+          ],
+          "quote": "And then the last thing is the verification layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            475.421,
+            494.757
+          ],
+          "quote": "Of course, agent can make mistakes, and that's why we developed this verification layer to make sure that all the composition is clean, is well-defined, everything will be rendered, and if there are some problems, then the agent will reiterate on the composition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

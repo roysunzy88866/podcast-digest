@@ -1,0 +1,962 @@
+[
+ {
+  "seg": 0,
+  "start": 13.037,
+  "end": 13.598,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.898,
+  "end": 15.019,
+  "speaker": "Unknown",
+  "en": "I think we can start.",
+  "zh": "我想我们可以开始了。"
+ },
+ {
+  "seg": 2,
+  "start": 15.6,
+  "end": 18.863,
+  "speaker": "Unknown",
+  "en": "But before we start, I want to ask you a couple of questions.",
+  "zh": "但在开始之前，我想问你们几个问题。"
+ },
+ {
+  "seg": 3,
+  "start": 19.624,
+  "end": 24.73,
+  "speaker": "Unknown",
+  "en": "So first of all, how many of you took a photo or video during this conference?",
+  "zh": "首先，这次大会上你们有多少人拍了照片或视频？"
+ },
+ {
+  "seg": 4,
+  "start": 24.81,
+  "end": 25.851,
+  "speaker": "Unknown",
+  "en": "Please raise your hands.",
+  "zh": "请举手。"
+ },
+ {
+  "seg": 5,
+  "start": 27.473,
+  "end": 33.9,
+  "speaker": "Unknown",
+  "en": "OK. And how many of you actually posted any video content from it online?",
+  "zh": "好。那你们当中有多少人真的把其中的视频内容发到了网上？"
+ },
+ {
+  "seg": 6,
+  "start": 37.053,
+  "end": 38.094,
+  "speaker": "Unknown",
+  "en": "Not that many.",
+  "zh": "没多少人。"
+ },
+ {
+  "seg": 7,
+  "start": 38.614,
+  "end": 40.915,
+  "speaker": "Unknown",
+  "en": "And to be honest, that was me.",
+  "zh": "说实话，我也是这样。"
+ },
+ {
+  "seg": 8,
+  "start": 41.656,
+  "end": 52.462,
+  "speaker": "Unknown",
+  "en": "I was recording a lot of content during conferences, events, trips, meetups, and I never posted them online because video editing is hard.",
+  "zh": "我在大会、活动、旅行、聚会上录了很多内容，但从来没发到网上，因为视频剪辑很难。"
+ },
+ {
+  "seg": 9,
+  "start": 53.462,
+  "end": 61.407,
+  "speaker": "Unknown",
+  "en": "It sounds and it is a lot of work, it's tedious, and it's largely still manual.",
+  "zh": "它听起来而且确实是大量的工作，很繁琐，而且在很大程度上仍然是手动的。"
+ },
+ {
+  "seg": 10,
+  "start": 61.747,
+  "end": 66.55,
+  "speaker": "Unknown",
+  "en": "And it also feels like an art and not really automated.",
+  "zh": "而且它感觉像是一门艺术，而不是真正自动化的东西。"
+ },
+ {
+  "seg": 11,
+  "start": 67.35,
+  "end": 78.339,
+  "speaker": "Unknown",
+  "en": "And that's why we're building RLFL and we're trying to tackle agentic video editing problem from the agentic standpoint.",
+  "zh": "这就是为什么我们在构建 RLFL，我们试图从智能体的角度来解决智能体视频剪辑问题。"
+ },
+ {
+  "seg": 12,
+  "start": 78.939,
+  "end": 81.901,
+  "speaker": "Unknown",
+  "en": "I'm Kate, I'm founder and CEO at RLFL.",
+  "zh": "我是 Kate，RLFL 的创始人兼 CEO。"
+ },
+ {
+  "seg": 13,
+  "start": 83.102,
+  "end": 87.446,
+  "speaker": "Unknown",
+  "en": "But let's first talk about what agentic video editing is.",
+  "zh": "但我们先来谈谈什么是智能体视频剪辑。"
+ },
+ {
+  "seg": 14,
+  "start": 88.047,
+  "end": 94.012,
+  "speaker": "Unknown",
+  "en": "So as a user, you just drop in your media photos and videos and provide some context.",
+  "zh": "作为用户，你只需要把你的媒体文件——照片和视频——放进来，并提供一些上下文。"
+ },
+ {
+  "seg": 15,
+  "start": 94.333,
+  "end": 100.058,
+  "speaker": "Unknown",
+  "en": "It can be the context what happened in this media files or it can be some directions.",
+  "zh": "这个上下文可以是这些媒体文件里发生了什么，也可以是一些指令。"
+ },
+ {
+  "seg": 16,
+  "start": 100.118,
+  "end": 106.224,
+  "speaker": "Unknown",
+  "en": "For example, like add captions, add music, add voiceover and something like that.",
+  "zh": "比如，添加字幕、添加音乐、添加配音之类的。"
+ },
+ {
+  "seg": 17,
+  "start": 106.764,
+  "end": 121.504,
+  "speaker": "Unknown",
+  "en": "And then the agent will go understand your media, find the right moments, assemble everything together, generate captions, music, voiceover, B-rolls, and give you a ready-to-share clip.",
+  "zh": "然后智能体会去理解你的媒体，找到合适的片段，把所有东西组装在一起，生成字幕、音乐、配音、B-roll，给你一个可以直接分享的片段。"
+ },
+ {
+  "seg": 18,
+  "start": 123.333,
+  "end": 132.1,
+  "speaker": "Unknown",
+  "en": "And yeah, so basically that's agentic video editing, so agent does everything by itself.",
+  "zh": "是的，基本上这就是智能体视频剪辑，智能体自己完成所有事情。"
+ },
+ {
+  "seg": 19,
+  "start": 132.6,
+  "end": 151.094,
+  "speaker": "Unknown",
+  "en": "Or another example, you recorded a speak-to-camera video and you have a lot of pauses, unsuccessful shots, and you expect an agent to figure it out to remove unsuccessful shots, remove pauses, and give you a ready-to-share clip.",
+  "zh": "再举一个例子，你录了一个对着镜头说话的视频，里面有很多停顿、不成功的镜头，你期望智能体自己搞明白，去掉不成功的镜头、去掉停顿，给你一个可以直接分享的片段。"
+ },
+ {
+  "seg": 20,
+  "start": 153.341,
+  "end": 161.709,
+  "speaker": "Unknown",
+  "en": "And the interesting thing is that a lot of, actually a lot of the things inside this pipeline can be automated.",
+  "zh": "而有趣的是，这条流水线里其实很多东西都可以自动化。"
+ },
+ {
+  "seg": 21,
+  "start": 162.189,
+  "end": 164.951,
+  "speaker": "Unknown",
+  "en": "And this is exactly what we're doing at RLHF.",
+  "zh": "而这正是我们在 RLHF 所做的事情。"
+ },
+ {
+  "seg": 22,
+  "start": 165.652,
+  "end": 170.857,
+  "speaker": "Unknown",
+  "en": "Oh, this is the example of video edited.",
+  "zh": "哦，这是一个剪辑过的视频的例子。"
+ },
+ {
+  "seg": 23,
+  "start": 172.907,
+  "end": 179.733,
+  "speaker": "Unknown",
+  "en": "And since we're at AI Engineering Conference, I wanted to talk a little bit about infrastructure.",
+  "zh": "既然我们在 AI Engineering Conference，我想稍微谈谈基础设施。"
+ },
+ {
+  "seg": 24,
+  "start": 180.333,
+  "end": 188.02,
+  "speaker": "Unknown",
+  "en": "And from the infrastructure standpoint, Argentic Video Editor is very similar to Argentic App Builder.",
+  "zh": "从基础设施的角度来看，智能体视频编辑器和智能体应用构建器非常相似。"
+ },
+ {
+  "seg": 25,
+  "start": 188.72,
+  "end": 190.582,
+  "speaker": "Unknown",
+  "en": "Sorry, there is a typo on the slide.",
+  "zh": "抱歉，幻灯片上有个错别字。"
+ },
+ {
+  "seg": 26,
+  "start": 190.622,
+  "end": 193.924,
+  "speaker": "Unknown",
+  "en": "So the second column is Argentic Video Editor.",
+  "zh": "第二列是智能体视频编辑器。"
+ },
+ {
+  "seg": 27,
+  "start": 194.345,
+  "end": 196.867,
+  "speaker": "Unknown",
+  "en": "So both of them have a prompt",
+  "zh": "它们都有一个提示词"
+ },
+ {
+  "seg": 28,
+  "start": 197.727,
+  "end": 206.151,
+  "speaker": "Unknown",
+  "en": "A UI for prompt, and in the video editor case, it's a media plus prompt, and usually on backend, what's happening?",
+  "zh": "一个用于提示词的 UI，在视频编辑器的场景下，是媒体加提示词，通常在后端发生的是什么呢？"
+ },
+ {
+  "seg": 29,
+  "start": 206.431,
+  "end": 220.297,
+  "speaker": "Unknown",
+  "en": "There is a remote machine, which is called Sandbox, which is spinning up, and inside this machine, there is an agent with tools and skills, which is working on what you're asking it to do.",
+  "zh": "会启动一台远程机器，叫做沙箱，在这台机器里，有一个带着工具和技能的智能体，正在处理你要求它做的事情。"
+ },
+ {
+  "seg": 30,
+  "start": 220.977,
+  "end": 224.998,
+  "speaker": "Unknown",
+  "en": "In the case of the Argentic app builder, it's a codebase.",
+  "zh": "在智能体应用构建器的场景下，它是代码库。"
+ },
+ {
+  "seg": 31,
+  "start": 225.138,
+  "end": 230.119,
+  "speaker": "Unknown",
+  "en": "In the case of the Argentic video editor, it's a video, video composition.",
+  "zh": "在智能体视频编辑器的场景下，它是视频、视频合成。"
+ },
+ {
+  "seg": 32,
+  "start": 230.839,
+  "end": 241.102,
+  "speaker": "Unknown",
+  "en": "And as a result, in the Argentic app builder, users get an app preview, and for the video editor, users get a rendered video.",
+  "zh": "最终，智能体应用构建器给用户的是应用预览，而视频编辑器给用户的是渲染好的视频。"
+ },
+ {
+  "seg": 33,
+  "start": 243.59,
+  "end": 251.179,
+  "speaker": "Unknown",
+  "en": "And, but yes, from infrastructural standpoint, it's pretty similar, but there are a couple of differences.",
+  "zh": "是的，从基础设施的角度来看，它们非常相似，但有几个不同之处。"
+ },
+ {
+  "seg": 34,
+  "start": 252.4,
+  "end": 257.546,
+  "speaker": "Unknown",
+  "en": "And this is actually the most interesting to me, generating versus editing.",
+  "zh": "这其实是我最感兴趣的地方：生成 versus 剪辑。"
+ },
+ {
+  "seg": 35,
+  "start": 258.007,
+  "end": 262.112,
+  "speaker": "Unknown",
+  "en": "At Reelful, we're focusing on editing real footage.",
+  "zh": "在 Reelful，我们专注于剪辑真实素材。"
+ },
+ {
+  "seg": 36,
+  "start": 262.432,
+  "end": 264.793,
+  "speaker": "Unknown",
+  "en": "So we do not generate a lot of content.",
+  "zh": "所以我们不生成大量内容。"
+ },
+ {
+  "seg": 37,
+  "start": 264.853,
+  "end": 272.798,
+  "speaker": "Unknown",
+  "en": "We are expecting you to provide your real life, your personal content, and we will edit it for you.",
+  "zh": "我们期望你提供你的真实生活、你的个人内容，然后我们为你剪辑。"
+ },
+ {
+  "seg": 38,
+  "start": 273.178,
+  "end": 282.924,
+  "speaker": "Unknown",
+  "en": "And actually, this is a more complex problem because if the agent has a blank canvas, it can do whatever they can.",
+  "zh": "而且实际上，这是一个更复杂的问题，因为如果智能体有一张空白画布，它可以想做什么就做什么。"
+ },
+ {
+  "seg": 39,
+  "start": 283.304,
+  "end": 289.788,
+  "speaker": "Unknown",
+  "en": "But in the editing case, the agent has to figure out which moments are the best.",
+  "zh": "但在剪辑的场景下，智能体必须搞清楚哪些片段是最好的。"
+ },
+ {
+  "seg": 40,
+  "start": 290.748,
+  "end": 294.791,
+  "speaker": "Unknown",
+  "en": "What to omit, what to use, how to organize everything together.",
+  "zh": "省略什么、用什么、如何把它们组织在一起。"
+ },
+ {
+  "seg": 41,
+  "start": 295.211,
+  "end": 316.242,
+  "speaker": "Unknown",
+  "en": "And also sometimes footage can be messy or incomplete and agent still has to deliver a very polished result professionally made so that ideally the viewers of this content don't get if it is like AI or human edited.",
+  "zh": "而且有时候素材可能是凌乱的或不完整的，智能体仍然要交付一个非常精致、专业制作的成果，理想情况下，观看这些内容的观众分辨不出它是 AI 剪的还是人剪的。"
+ },
+ {
+  "seg": 42,
+  "start": 317.813,
+  "end": 322.136,
+  "speaker": "Unknown",
+  "en": "So let's actually have a look how we do it at Reelful.",
+  "zh": "那我们来看看我们在 Reelful 是怎么做的。"
+ },
+ {
+  "seg": 43,
+  "start": 322.597,
+  "end": 334.526,
+  "speaker": "Unknown",
+  "en": "So we start, as I already mentioned, with your media plus a prompt, some directions like how you want it to be edited, and we need to get a polished clip.",
+  "zh": "我们从，正如我已经提到的，你的媒体加提示词开始，一些指令比如你希望它怎么被剪辑，而我们需要产出一个精致的片段。"
+ },
+ {
+  "seg": 44,
+  "start": 335.146,
+  "end": 337.067,
+  "speaker": "Unknown",
+  "en": "So let's go through it step by step.",
+  "zh": "我们一步步来过一遍。"
+ },
+ {
+  "seg": 45,
+  "start": 337.607,
+  "end": 341.088,
+  "speaker": "Unknown",
+  "en": "So we are doing first media understanding.",
+  "zh": "我们首先做媒体理解。"
+ },
+ {
+  "seg": 46,
+  "start": 341.208,
+  "end": 346.99,
+  "speaker": "Unknown",
+  "en": "We need to understand what's actually happening on those clips and photos.",
+  "zh": "我们需要理解这些片段和照片上到底发生了什么。"
+ },
+ {
+  "seg": 47,
+  "start": 347.33,
+  "end": 353.412,
+  "speaker": "Unknown",
+  "en": "And we also need to transcribe speech, for example, in the case if you have speak-to-camera videos.",
+  "zh": "我们还需要转录语音，比如在你有对着镜头说话的视频的情况下。"
+ },
+ {
+  "seg": 48,
+  "start": 354.252,
+  "end": 370.033,
+  "speaker": "Unknown",
+  "en": "Then we are providing a creative plan for the user so that they can approve if they like it or not, what they want to change or maybe regenerate, and we create this plan before actually starting editing.",
+  "zh": "然后我们为用户提供一个创意方案，让他们可以批准是否喜欢、想改什么、或者可能重新生成，并且我们在真正开始剪辑之前创建这个方案。"
+ },
+ {
+  "seg": 49,
+  "start": 370.854,
+  "end": 383.761,
+  "speaker": "Unknown",
+  "en": "Once the user approved this plan, we spin up a sandbox, the remote machine that we already discussed, and this is an environment for the agent to execute everything.",
+  "zh": "用户批准这个方案后，我们启动一个沙箱，就是我们刚才讨论的那台远程机器，这是智能体执行所有事情的环境。"
+ },
+ {
+  "seg": 50,
+  "start": 384.301,
+  "end": 390.545,
+  "speaker": "Unknown",
+  "en": "So the agent comes with the skills, and in our case, in the case of video editing,",
+  "zh": "所以智能体自带技能，在我们的例子里，在视频编辑的情况下，"
+ },
+ {
+  "seg": 51,
+  "start": 391.185,
+  "end": 409.506,
+  "speaker": "Unknown",
+  "en": "Our skills are, for example, cut rules, how, for example, how to select the best moments, also font pairs, which fonts are more suitable for this use case, which are not, for example, how to generate B-rolls, and this is where taste and craft live, actually.",
+  "zh": "我们的技能比如有剪辑规则，比如如何挑选最佳片段，还有字体搭配，哪些字体更适合这个用例，哪些不适合，比如如何生成 B-roll,而这其实正是品味和手艺所在的地方。"
+ },
+ {
+  "seg": 52,
+  "start": 411.188,
+  "end": 425.418,
+  "speaker": "Unknown",
+  "en": "And then also agent can initiate some other sub processes, for example, generating music that will fit this exact composition, generating voiceover, adding sounds, animating images.",
+  "zh": "然后智能体还可以启动一些其他的子流程，比如生成适合这个具体构图的音乐、生成配音、添加音效、让图片动起来。"
+ },
+ {
+  "seg": 53,
+  "start": 425.879,
+  "end": 427.78,
+  "speaker": "Unknown",
+  "en": "Yes, this is actually what we do.",
+  "zh": "是的，这实际上就是我们在做的。"
+ },
+ {
+  "seg": 54,
+  "start": 428.281,
+  "end": 434.745,
+  "speaker": "Unknown",
+  "en": "If you provide photos, we can animate your photos to make them more dynamic and engaging.",
+  "zh": "如果你提供照片，我们可以让你的照片动起来，使它们更有动感、更吸引人。"
+ },
+ {
+  "seg": 55,
+  "start": 435.546,
+  "end": 437.968,
+  "speaker": "Unknown",
+  "en": "And then comes Remotion Composition.",
+  "zh": "接下来就是 Remotion Composition。"
+ },
+ {
+  "seg": 56,
+  "start": 438.389,
+  "end": 440.03,
+  "speaker": "Unknown",
+  "en": "So here a little bit of background.",
+  "zh": "这里先讲一点背景。"
+ },
+ {
+  "seg": 57,
+  "start": 440.09,
+  "end": 440.931,
+  "speaker": "Unknown",
+  "en": "What's Remotion?",
+  "zh": "Remotion 是什么？"
+ },
+ {
+  "seg": 58,
+  "start": 441.071,
+  "end": 449.679,
+  "speaker": "Unknown",
+  "en": "Remotion is a framework, open source framework to create videos as code, as React code.",
+  "zh": "Remotion 是一个框架，一个开源框架，用代码、用 React 代码来创建视频。"
+ },
+ {
+  "seg": 59,
+  "start": 450.539,
+  "end": 459.327,
+  "speaker": "Unknown",
+  "en": "So basically it's just like a file with the order with all your assets and tracks and how they're following each other.",
+  "zh": "基本上它就是一个文件，按顺序包含你所有的素材和轨道，以及它们如何相互衔接。"
+ },
+ {
+  "seg": 60,
+  "start": 461.429,
+  "end": 462.572,
+  "speaker": "Unknown",
+  "en": "Why it is important?",
+  "zh": "为什么这很重要？"
+ },
+ {
+  "seg": 61,
+  "start": 462.612,
+  "end": 470.309,
+  "speaker": "Unknown",
+  "en": "Because agents are really good at writing code, and therefore we can use them to create videos with this Remotion framework.",
+  "zh": "因为智能体非常擅长写代码，所以我们可以用它们通过这个 Remotion 框架来创建视频。"
+ },
+ {
+  "seg": 62,
+  "start": 471.238,
+  "end": 475.101,
+  "speaker": "Unknown",
+  "en": "And then the last thing is the verification layer.",
+  "zh": "然后最后一件事是验证层。"
+ },
+ {
+  "seg": 63,
+  "start": 475.421,
+  "end": 494.757,
+  "speaker": "Unknown",
+  "en": "Of course, agent can make mistakes, and that's why we developed this verification layer to make sure that all the composition is clean, is well-defined, everything will be rendered, and if there are some problems, then the agent will reiterate on the composition.",
+  "zh": "当然，智能体可能会犯错，这就是为什么我们开发了这个验证层，用来确保整个构图是干净的、定义良好的，所有内容都能被渲染出来，如果有一些问题，智能体就会对构图进行迭代。"
+ },
+ {
+  "seg": 64,
+  "start": 495.317,
+  "end": 497.819,
+  "speaker": "Unknown",
+  "en": "And this is how we got to a polished clip.",
+  "zh": "这就是我们最终得到一个精修过的剪辑的方式。"
+ },
+ {
+  "seg": 65,
+  "start": 499.761,
+  "end": 501.122,
+  "speaker": "Unknown",
+  "en": "So it's a lot, right?",
+  "zh": "所以这是一大堆东西，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 501.823,
+  "end": 504.185,
+  "speaker": "Unknown",
+  "en": "It's like a very complex workflow.",
+  "zh": "就像一个非常复杂的工作流。"
+ },
+ {
+  "seg": 67,
+  "start": 505.186,
+  "end": 510.631,
+  "speaker": "Unknown",
+  "en": "And ideally, we don't want our users to even know anything about it.",
+  "zh": "而理想情况下，我们甚至不想让我们的用户知道它的任何细节。"
+ },
+ {
+  "seg": 68,
+  "start": 511.432,
+  "end": 519.559,
+  "speaker": "Unknown",
+  "en": "And this is even maybe a bigger problem, how to deliver this complex agentic workflow to mass consumer.",
+  "zh": "而这甚至可能是一个更大的问题，如何把这个复杂的智能体工作流交付给大众消费者。"
+ },
+ {
+  "seg": 69,
+  "start": 520.4,
+  "end": 522.923,
+  "speaker": "Unknown",
+  "en": "And this is how we're tackling that at Reelful.",
+  "zh": "这就是我们在 Reelful 解决这个问题的方式。"
+ },
+ {
+  "seg": 70,
+  "start": 523.323,
+  "end": 533.973,
+  "speaker": "Unknown",
+  "en": "So we decided to go mobile first so that users can edit videos while driving, walking, or maybe lifting weights.",
+  "zh": "所以我们决定移动优先，让用户可以在开车、走路或举铁的时候编辑视频。"
+ },
+ {
+  "seg": 71,
+  "start": 534.193,
+  "end": 539.719,
+  "speaker": "Unknown",
+  "en": "Also, I know that prompting videos can sometimes be also challenging.",
+  "zh": "另外，我知道用提示词生成视频有时也很有挑战性。"
+ },
+ {
+  "seg": 72,
+  "start": 540.099,
+  "end": 543.142,
+  "speaker": "Unknown",
+  "en": "That's why we create directional templates.",
+  "zh": "这就是为什么我们创建了方向性模板。"
+ },
+ {
+  "seg": 73,
+  "start": 543.422,
+  "end": 544.043,
+  "speaker": "Unknown",
+  "en": "For example,",
+  "zh": "比如，"
+ },
+ {
+  "seg": 74,
+  "start": 544.303,
+  "end": 545.885,
+  "speaker": "Unknown",
+  "en": "Speak to camera and videos.",
+  "zh": "对着镜头说话的视频。"
+ },
+ {
+  "seg": 75,
+  "start": 546.166,
+  "end": 555.4,
+  "speaker": "Unknown",
+  "en": "Or maybe you want to add B-rolls or voiceover so that users can just select these directional templates, drop their media, and that's it.",
+  "zh": "或者你可能想添加 B-roll 或配音，这样用户只需选择这些方向性模板，拖入他们的素材，就这样。"
+ },
+ {
+  "seg": 76,
+  "start": 555.7,
+  "end": 557.963,
+  "speaker": "Unknown",
+  "en": "Even without any prompt, it will work.",
+  "zh": "甚至不需要任何提示词，它就能工作。"
+ },
+ {
+  "seg": 77,
+  "start": 559.698,
+  "end": 562.079,
+  "speaker": "Unknown",
+  "en": "And the third thing is a building editor.",
+  "zh": "第三件事是 building editor。"
+ },
+ {
+  "seg": 78,
+  "start": 563.18,
+  "end": 563.46,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 79,
+  "start": 563.54,
+  "end": 568.803,
+  "speaker": "Unknown",
+  "en": "Because we want to make this experience convenient and familiar for users.",
+  "zh": "因为我们想让这个体验对用户来说方便且熟悉。"
+ },
+ {
+  "seg": 80,
+  "start": 568.843,
+  "end": 578.349,
+  "speaker": "Unknown",
+  "en": "So a lot of people are already sort of using regular video editors, and that's why we want to provide this experience as well.",
+  "zh": "所以很多人已经在使用常规的视频编辑器了，这就是为什么我们也想提供这种体验。"
+ },
+ {
+  "seg": 81,
+  "start": 578.709,
+  "end": 579.549,
+  "speaker": "Unknown",
+  "en": "So how it works?",
+  "zh": "那么它是如何工作的？"
+ },
+ {
+  "seg": 82,
+  "start": 579.93,
+  "end": 587.394,
+  "speaker": "Unknown",
+  "en": "User first generates a video agentically, but if they want to tweak it, for example, remove a second or maybe",
+  "zh": "用户首先以智能体方式生成一个视频，但如果他们想微调它，比如删掉一秒，或者"
+ },
+ {
+  "seg": 83,
+  "start": 588.374,
+  "end": 590.255,
+  "speaker": "Unknown",
+  "en": "Correct some word in the captions.",
+  "zh": "修正字幕里的某个词。"
+ },
+ {
+  "seg": 84,
+  "start": 590.715,
+  "end": 594.737,
+  "speaker": "Unknown",
+  "en": "They can go into build an editor and edit it a little bit.",
+  "zh": "他们可以进入 build 一个编辑器，稍微编辑一下。"
+ },
+ {
+  "seg": 85,
+  "start": 596.838,
+  "end": 602.7,
+  "speaker": "Unknown",
+  "en": "Yeah, and actually I have a couple of examples here that I recently created with Reelful.",
+  "zh": "是的，实际上我这里有几个我最近用 Reelful 创建的例子。"
+ },
+ {
+  "seg": 86,
+  "start": 603.46,
+  "end": 605.921,
+  "speaker": "Unknown",
+  "en": "I will play them, just maybe one of them.",
+  "zh": "我会播放它们，也许就放其中一个。"
+ },
+ {
+  "seg": 87,
+  "start": 606.021,
+  "end": 606.561,
+  "speaker": "Unknown",
+  "en": "Oops, sorry.",
+  "zh": "哎呀，抱歉。"
+ },
+ {
+  "seg": 88,
+  "start": 609.783,
+  "end": 610.443,
+  "speaker": "Unknown",
+  "en": "Do you hear?",
+  "zh": "你们听到了吗？"
+ },
+ {
+  "seg": 89,
+  "start": 612.164,
+  "end": 612.624,
+  "speaker": "Unknown",
+  "en": "A little bit.",
+  "zh": "有一点。"
+ },
+ {
+  "seg": 90,
+  "start": 612.684,
+  "end": 615.065,
+  "speaker": "Unknown",
+  "en": "Okay, you just can enjoy the video.",
+  "zh": "好的，你们就欣赏这个视频吧。"
+ },
+ {
+  "seg": 91,
+  "start": 615.105,
+  "end": 620.248,
+  "speaker": "Unknown",
+  "en": "Exclusive Cursor Creator's Dinner, and honestly, it was one of the best event experiences I've had.",
+  "zh": "独家 Cursor 创作者晚宴，老实说，这是我参加过的最好的活动体验之一。"
+ },
+ {
+  "seg": 92,
+  "start": 620.408,
+  "end": 622.509,
+  "speaker": "Unknown",
+  "en": "First of all, the venue was stunning.",
+  "zh": "首先，场地太惊艳了。"
+ },
+ {
+  "seg": 93,
+  "start": 622.689,
+  "end": 626.431,
+  "speaker": "Unknown",
+  "en": "It was a custom event space transformed into this tropical sunset feast.",
+  "zh": "它是一个定制活动空间，被改造成这种热带日落盛宴。"
+ },
+ {
+  "seg": 94,
+  "start": 626.531,
+  "end": 629.152,
+  "speaker": "Unknown",
+  "en": "The whole atmosphere felt so warm and cinematic.",
+  "zh": "整个氛围感觉非常温暖且有电影感。"
+ },
+ {
+  "seg": 95,
+  "start": 629.312,
+  "end": 631.713,
+  "speaker": "Unknown",
+  "en": "Second, the food was way beyond my expectations.",
+  "zh": "第二，食物远超我的预期。"
+ },
+ {
+  "seg": 96,
+  "start": 631.854,
+  "end": 638.957,
+  "speaker": "Unknown",
+  "en": "They brought in private chefs from LA, and we had lox, a few crop, and this incredible strawberry ice cream that I was still thinking about.",
+  "zh": "他们从 LA 请来了私人厨师，我们吃了烟熏三文鱼、a few crop,还有那个我一直念念不忘的令人难以置信的草莓冰淇淋。"
+ },
+ {
+  "seg": 97,
+  "start": 639.097,
+  "end": 642.118,
+  "speaker": "Unknown",
+  "en": "But most importantly, the conversations were so much fun.",
+  "zh": "但最重要的是，那些对话太有意思了。"
+ },
+ {
+  "seg": 98,
+  "start": 642.298,
+  "end": 643.579,
+  "speaker": "Unknown",
+  "en": "It was kind of atmosphere.",
+  "zh": "就是那种氛围。"
+ },
+ {
+  "seg": 99,
+  "start": 643.659,
+  "end": 648.94,
+  "speaker": "Unknown",
+  "en": "It felt really easy to connect with people, talk about what they're working on, and just enjoy the community.",
+  "zh": "感觉很容易和人们建立联系，聊聊他们在做什么，就是享受这个社区。"
+ },
+ {
+  "seg": 100,
+  "start": 649.08,
+  "end": 650.381,
+  "speaker": "Unknown",
+  "en": "And lastly, we got gifts.",
+  "zh": "最后,我们收到了礼物。"
+ },
+ {
+  "seg": 101,
+  "start": 650.941,
+  "end": 651.781,
+  "speaker": "Unknown",
+  "en": "One of the highlights.",
+  "zh": "亮点之一。"
+ },
+ {
+  "seg": 102,
+  "start": 652.662,
+  "end": 661.545,
+  "speaker": "Unknown",
+  "en": "So yeah, basically, all these videos, they were assembled only using agent, no regular video editor.",
+  "zh": "是的,基本上,所有这些视频都只使用智能体组装的,没有用常规的视频编辑器。"
+ },
+ {
+  "seg": 103,
+  "start": 661.845,
+  "end": 664.526,
+  "speaker": "Unknown",
+  "en": "And I already posting them on social media.",
+  "zh": "而且我已经把它们发布到社交媒体上了。"
+ },
+ {
+  "seg": 104,
+  "start": 665.266,
+  "end": 668.127,
+  "speaker": "Unknown",
+  "en": "And yeah, I have a lot of fun with that.",
+  "zh": "是的,我从中获得了很多乐趣。"
+ },
+ {
+  "seg": 105,
+  "start": 669.027,
+  "end": 681.379,
+  "speaker": "Unknown",
+  "en": "And, oh sorry, and exclusively for this conference we are giving our beta, which is our new second version.",
+  "zh": "哦抱歉,还有,专门为这次大会我们正在发布我们的 beta,也就是我们新的第二个版本。"
+ },
+ {
+  "seg": 106,
+  "start": 682.18,
+  "end": 687.845,
+  "speaker": "Unknown",
+  "en": "Please give it a try and let me know if you have any feedback.",
+  "zh": "请试一试,如果有任何反馈请告诉我。"
+ },
+ {
+  "seg": 107,
+  "start": 688.625,
+  "end": 690.486,
+  "speaker": "Unknown",
+  "en": "Here is my email.",
+  "zh": "这是我的邮箱。"
+ },
+ {
+  "seg": 108,
+  "start": 690.567,
+  "end": 692.628,
+  "speaker": "Unknown",
+  "en": "Please feel free to reach out.",
+  "zh": "请随时联系我。"
+ },
+ {
+  "seg": 109,
+  "start": 693.448,
+  "end": 694.529,
+  "speaker": "Unknown",
+  "en": "We're still early.",
+  "zh": "我们还处于早期阶段。"
+ },
+ {
+  "seg": 110,
+  "start": 694.649,
+  "end": 696.43,
+  "speaker": "Unknown",
+  "en": "We're actively working on it.",
+  "zh": "我们正在积极开发中。"
+ },
+ {
+  "seg": 111,
+  "start": 697.291,
+  "end": 703.374,
+  "speaker": "Unknown",
+  "en": "So we will be happy to hear any feedback and also curious how you use it.",
+  "zh": "所以我们很乐意听取任何反馈,也好奇你们会如何使用它。"
+ },
+ {
+  "seg": 112,
+  "start": 704.235,
+  "end": 706.936,
+  "speaker": "Unknown",
+  "en": "And also some exciting news.",
+  "zh": "还有一些令人兴奋的消息。"
+ },
+ {
+  "seg": 113,
+  "start": 706.976,
+  "end": 710.158,
+  "speaker": "Unknown",
+  "en": "We recently got funded by A16Z speedrun.",
+  "zh": "我们最近获得了 A16Z speedrun 的投资。"
+ },
+ {
+  "seg": 114,
+  "start": 710.819,
+  "end": 714.161,
+  "speaker": "Unknown",
+  "en": "So I'm very excited to continue working.",
+  "zh": "所以我非常兴奋能继续做下去。"
+ },
+ {
+  "seg": 115,
+  "start": 717.214,
+  "end": 718.155,
+  "speaker": "Unknown",
+  "en": "Yeah, that's it.",
+  "zh": "是的,就这些。"
+ },
+ {
+  "seg": 116,
+  "start": 718.275,
+  "end": 719.095,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢大家。"
+ },
+ {
+  "seg": 117,
+  "start": 719.416,
+  "end": 727.722,
+  "speaker": "Unknown",
+  "en": "And because it's a presentation about content and how to edit videos, I have to film a video with you all.",
+  "zh": "因为这是一个关于内容和如何编辑视频的演讲,我必须和大家一起拍一个视频。"
+ },
+ {
+  "seg": 118,
+  "start": 745.175,
+  "end": 745.595,
+  "speaker": "Unknown",
+  "en": "Yay!",
+  "zh": "耶!"
+ },
+ {
+  "seg": 119,
+  "start": 754.225,
+  "end": 754.305,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么,"
+ }
+]

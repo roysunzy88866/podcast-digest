@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DORA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DORA">DO</div><div class="pi"><h1 class="pt">DORA</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DORA">DO</div><div class="pi"><h1 class="pt">DORA</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]]**(01:31起):本集说它是一个由部署频率、交付周期（衡量速度）、MTTR 和变更失败率（衡量稳定性）组成的规定性指标框架，用于评估整体交付流水线的表现；但在 AI 时代，它的反馈循环显得太慢了，不能盲目套用而错过工作方式的新变化。
+- **[[2026-08-19-talks-shipping-ai-to-a-million-patients-withou|《给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈》]]**(00:40起):本集介绍其为 Euphonia 的语音 AI 智能体，给患者打真正的临床电话（术后随访、术前检查），因会问症状、给建议、答问题而在法律上构成医疗器械，必须受监管。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-19-talks-shipping-ai-to-a-million-patients-withou#^q4]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]] — 作为概念
+- [[2026-08-19-talks-shipping-ai-to-a-million-patients-withou|《给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Nicole Forsgren]] · [[代码行数]] · [[SPACE]] · [[DevEx]] · [[心流状态]] · [[反馈循环]] · [[认知负荷]] · [[技术债]] · [[幻觉]]
+[[智能体]] · [[Lenny]] · [[Jared Joselowitz]] · [[Nicole Forsgren]] · [[Euphonia]] · [[代码行数]] · [[Matrix]] · [[SPACE]] · [[Patbot]] · [[DevEx]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Nicole Forsgren":1,"代码行数":1,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Lenny":67,"Jared Joselowitz":1,"Nicole Forsgren":1,"Euphonia":1,"代码行数":1,"Matrix":1,"SPACE":1,"Patbot":1,"DevEx":2}</script>
 
 <script>
 (function(){

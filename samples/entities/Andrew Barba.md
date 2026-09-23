@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":17,"DZero":1,"智能体":291,"评估":3,"技能":17,"MCP":49,"沙箱":53}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":17,"DZero":1,"智能体":293,"评估":3,"技能":18,"MCP":49,"沙箱":54}</script>
 
 <script>
 (function(){

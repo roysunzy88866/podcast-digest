@@ -1,0 +1,727 @@
+{
+  "episode_id": "2026-08-19-talks-shipping-ai-to-a-million-patients-withou",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "医疗 AI",
+    "AI 安全",
+    "评估与仿真",
+    "智能体",
+    "提示词优化"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jared-joselowitz",
+      "type": "person",
+      "role": "guest",
+      "name": "Jared Joselowitz",
+      "file": "Jared Joselowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "euphonia",
+      "type": "company",
+      "role": "company",
+      "name": "Euphonia",
+      "file": "Euphonia",
+      "primary": true,
+      "how_described": "本集介绍其为一家总部位于英国的医疗健康公司，科学团队构建 Dora 背后的安全与评估技术栈，在英国 20 家医院完成约 20 万通临床电话，并签约两年内扩展到一百万名患者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.303,
+            39.528
+          ],
+          "quote": "I now work as a research engineer for Euphonia, which is basically a healthcare company based in the UK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            87.971,
+            91.933
+          ],
+          "quote": "So everything that we do at Euphonia comes from living within these three constraints.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dora",
+      "type": "company",
+      "role": "company",
+      "name": "Dora",
+      "file": "Dora",
+      "primary": true,
+      "how_described": "本集介绍其为 Euphonia 的语音 AI 智能体，给患者打真正的临床电话（术后随访、术前检查），因会问症状、给建议、答问题而在法律上构成医疗器械，必须受监管。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.448,
+            49.235
+          ],
+          "quote": "And the work we do, our work within the science team, is we build the safety and evaluation stack behind Dora, which is a clinical conversational agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            73.663,
+            76.326
+          ],
+          "quote": "Once Dora says it, it's been said, and there is no rollback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            94.166,
+            94.827
+          ],
+          "quote": "So what is Dora?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            95.347,
+            96.288
+          ],
+          "quote": "A little bit about Dora.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            96.328,
+            102.515
+          ],
+          "quote": "Dora's a voice AI agent that phones patients and has real clinical conversations, like post-op follow-ups or pre-op checks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            103.436,
+            113.588
+          ],
+          "quote": "These are calls that a clinician would usually have to make themselves, but Dora doesn't, so Dora obviously doesn't replace doctors, but it just takes a hugely time-consuming task off their plate and gives them their time back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            135.339,
+            140.74
+          ],
+          "quote": "So I'm just going to, for a bit of a better context, I just want to do a quick demo of what the experience with DORA is actually like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            202.698,
+            205.899
+          ],
+          "quote": "So as you just heard, sometimes Dora asks about symptoms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            241.59,
+            245.991
+          ],
+          "quote": "Dora could miss a red flag symptom, such as sudden vision loss or severe pain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            246.871,
+            250.612
+          ],
+          "quote": "A patient could ask a medical question, and Dora invents an answer, hallucinates something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            251.192,
+            255.714
+          ],
+          "quote": "The patient could be distressed, and Dora just ignores it and carries on without actually acknowledging the distress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            429.699,
+            434.521
+          ],
+          "quote": "Patbot then has a conversation with Dora, our target system, and then generates simulated dialogues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            489.001,
+            496.767
+          ],
+          "quote": "One conversation was between a real doctor and a real patient, and one conversation was between Dora and Papot within our matrix framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            929.993,
+            933.955
+          ],
+          "quote": "Passing every test in simulation doesn't prove that Dora actually helps someone in real life.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线之一：Dora 是语音 AI 智能体，讲者反复讨论智能体在临床场景下会出的错（漏掉红旗症状、幻觉、被患者打断后忘掉安全建议），以及如何用仿真验证智能体的安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.448,
+            49.235
+          ],
+          "quote": "And the work we do, our work within the science team, is we build the safety and evaluation stack behind Dora, which is a clinical conversational agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            96.328,
+            102.515
+          ],
+          "quote": "Dora's a voice AI agent that phones patients and has real clinical conversations, like post-op follow-ups or pre-op checks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            419.273,
+            423.355
+          ],
+          "quote": "The scenario defines exactly what the patient should try and do when talking to our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            424.095,
+            428.158
+          ],
+          "quote": "For example, asking whether the agent is a human or an AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1058.049,
+            1073.699
+          ],
+          "quote": "For example, an agent might be mid-safety advice, like you must avoid bright lights, and when the patient maybe cuts in with some out-of-scope question, and weaker models usually just forget about the safety advice and just answer the next question.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1082.771,
+            1094.408
+          ],
+          "quote": "The patient could, the daughter or an agent could be halfway through giving some safety advice and a back channel that's just caused the model to just completely ignore the safety advice and stop right there and wait for the patient to say something else.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matrix",
+      "type": "concept",
+      "role": "concept",
+      "name": "Matrix",
+      "file": "Matrix",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            370.288,
+            374.531
+          ],
+          "quote": "So for our clinical history taking, we built a simulation framework called Matrix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            384.977,
+            390.725
+          ],
+          "quote": "At its core, Matrix recreates a real clinical conversation but with no real patient in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            489.001,
+            496.767
+          ],
+          "quote": "One conversation was between a real doctor and a real patient, and one conversation was between Dora and Papot within our matrix framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            665.894,
+            671.656
+          ],
+          "quote": "OK, so now Matrix can grade thousands of conversations, but grading isn't technically improving the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            807.692,
+            809.013
+          ],
+          "quote": "You give it a cost matrix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            891.366,
+            896.029
+          ],
+          "quote": "Then we pass it through something like Matrix as a simulation safety gate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            920.288,
+            924.85
+          ],
+          "quote": "So as we said with our matrix framework, we use simulated patients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1042.848,
+            1049.994
+          ],
+          "quote": "But with something like Matrix and a prompt optimization loop, you can use the same framework as new modalities arise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1074.059,
+            1075.54
+          ],
+          "quote": "But Matrix captures these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1105.249,
+            1110.515
+          ],
+          "quote": "Voice is just a new module in the same safety case, and we actually use matrix in the voice space to do these exact same things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "patbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Patbot",
+      "file": "Patbot",
+      "primary": true,
+      "how_described": "本集介绍其为 Matrix 中用一个 LLM 扮演的模拟患者，替代无法规模化的雇员演员；通过脚本遵循检查和 PPI 研究验证逼真度——四组对话里三组多数人认为模拟患者更逼真。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            393.509,
+            394.411
+          ],
+          "quote": "We call it Patbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            429.699,
+            434.521
+          ],
+          "quote": "Patbot then has a conversation with Dora, our target system, and then generates simulated dialogues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            451.406,
+            454.91
+          ],
+          "quote": "If Patbot is sounding robotic, the tests aren't really worth much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            461.779,
+            464.222
+          ],
+          "quote": "If we told Patbot to do something, does Patbot do it?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bevjudge",
+      "type": "concept",
+      "role": "concept",
+      "name": "BevJudge",
+      "file": "BevJudge",
+      "primary": true,
+      "how_described": "本集介绍其为 Euphonia 用来给模拟对话打分的 LLM 裁判，输入对话、预期行为与危害场景，输出结构化的通过/不通过及原因；对照 10 位专科医生的标注验证，Gemini 2.5 Pro 达 F1 0.96、敏感度接近完美。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            579.235,
+            582.579
+          ],
+          "quote": "So we use another LLM as a judge, of course, and we call it Bevjudge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            602.998,
+            605.099
+          ],
+          "quote": "So how did we validate BevJudge?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            605.199,
+            607.34
+          ],
+          "quote": "We validated BevJudge against expert clinicians.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": true,
+      "how_described": "本集把仿真说成患者安全场景下唯一合乎伦理的选项（类比自动驾驶先跑几百万英里仿真）：模拟是内循环、赢得谨慎尝试的资格，真实患者是外循环、才是唯一真正的证明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            361.201,
+            364.123
+          ],
+          "quote": "Simulation is only the real ethical option we can go with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            370.288,
+            374.531
+          ],
+          "quote": "So for our clinical history taking, we built a simulation framework called Matrix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            556.789,
+            561.553
+          ],
+          "quote": "But what it did show us is that at least our PadBot was realistic enough for this simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            891.366,
+            896.029
+          ],
+          "quote": "Then we pass it through something like Matrix as a simulation safety gate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            929.993,
+            933.955
+          ],
+          "quote": "Passing every test in simulation doesn't prove that Dora actually helps someone in real life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            934.015,
+            936.737
+          ],
+          "quote": "Things might come up in real life that you can't get in simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            940.418,
+            941.539
+          ],
+          "quote": "Simulation is the inner loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            951.167,
+            953.451
+          ],
+          "quote": "So simulation is necessary, but it's not sufficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            955.061,
+            959.744
+          ],
+          "quote": "Simulation earns the right to test on real people and then eventually real patients.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 裁判 (judge)",
+      "file": "LLM 裁判",
+      "primary": true,
+      "how_described": "本集提出用另一个 LLM 当裁判来规模化评估对话（BevJudge），并强调裁判本身也要对照专家临床医生独立验证——「裁判和被测系统一样需要被审」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            579.235,
+            582.579
+          ],
+          "quote": "So we use another LLM as a judge, of course, and we call it Bevjudge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            620.765,
+            622.005
+          ],
+          "quote": "And we did the same thing with the judge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            622.786,
+            627.908
+          ],
+          "quote": "And the results showed that our judge is at least on par, if not slightly better, than the real expert clinicians.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            657.15,
+            664.169
+          ],
+          "quote": "So now we have an automated judge that performs at expert level, and this is actually what makes this whole process scalable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            997.246,
+            1006.051
+          ],
+          "quote": "And underneath all of this, every call, every dataset, and every pinned prompt, every judge verdict traces back to the exact hazard that it addresses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1098.883,
+            1104.749
+          ],
+          "quote": "You still blackbox the system, write down the new hazards, and simulate and judge them exactly that we did over text.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-optimizer",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词优化器 (prompt optimizer)",
+      "file": "提示词优化器",
+      "primary": true,
+      "how_described": "本集说由于提示词脆弱性（改格式让基准波动 76 个百分点），手动提示词工程主观、不可复现又耗时，因此转向 GEPA 这类提示词优化器，让改进变成可复现的数据科学问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            886.923,
+            890.606
+          ],
+          "quote": "We get an optimized prompt through Jepo or some other prompt optimizer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cost-matrix",
+      "type": "concept",
+      "role": "concept",
+      "name": "成本矩阵 (cost matrix)",
+      "file": "成本矩阵",
+      "primary": true,
+      "how_described": "本集说评估指标不是扁平准确率而是成本矩阵：给漏报红旗和误报红旗赋不同代价，直接为敏感度优化，换指标就重新编译提示词。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            807.692,
+            809.013
+          ],
+          "quote": "You give it a cost matrix.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "medical-device",
+      "type": "concept",
+      "role": "concept",
+      "name": "医疗器械监管 (medical device)",
+      "file": "医疗器械监管",
+      "primary": true,
+      "how_described": "本集说 Dora 一旦问症状、给建议、答问题，法律上就成了医疗器械、必须受监管；监管归结为三个问题——软件做什么、可能出什么错、如何确保不出错，而交付给监管的不是模型是证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            208.98,
+            211.981
+          ],
+          "quote": "And when it does this, this makes it what's called a medical device.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "敏感度 (sensitivity)",
+      "file": "敏感度",
+      "primary": false,
+      "how_described": "本集说敏感度是医疗行业的关键指标：宁愿误报不存在的危害也绝不漏报真实危害，BevJudge 达到了几乎完美的敏感度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            638.82,
+            642.882
+          ],
+          "quote": "And even maybe more importantly, it achieved almost perfect sensitivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            643.522,
+            652.266
+          ],
+          "quote": "Sensitivity being a very important metric to healthcare and to clinicians, of course, because you want to make 100% sure almost that no hazards appear in a conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            809.533,
+            811.533
+          ],
+          "quote": "So let's go back to our sensitivity metric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            840.048,
+            841.769
+          ],
+          "quote": "We can optimize for sensitivity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GEPA",
+      "reason": "专名「GEPA」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

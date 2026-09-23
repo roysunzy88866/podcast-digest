@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
+[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":3,"智能体":291,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":3,"智能体":293,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
 
 <script>
 (function(){

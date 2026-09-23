@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":132,"智能体":291,"harness":40,"沙箱":53,"智能体循环":4,"上下文工程":14,"会话日志追踪":2,"泄露的凭证":3,"可观测性":24}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":132,"智能体":293,"harness":40,"沙箱":54,"智能体循环":4,"上下文工程":14,"会话日志追踪":2,"泄露的凭证":3,"可观测性":24}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Melisa Tokmak]] · [[Kevin Ball]] · [[NETIC]] · [[Emily Hsu]] · [[基础服务]] · [[Google]] · [[私募股权]] · [[企业 AI]] · [[自主企业]]
 
-<script type="application/json" class="pd-epn">{"智能体":291,"Melisa Tokmak":1,"Kevin Ball":3,"NETIC":1,"Emily Hsu":1,"基础服务":1,"Google":47,"私募股权":2,"企业 AI":1,"自主企业":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Melisa Tokmak":1,"Kevin Ball":3,"NETIC":1,"Emily Hsu":1,"基础服务":1,"Google":47,"私募股权":2,"企业 AI":1,"自主企业":1}</script>
 
 <script>
 (function(){

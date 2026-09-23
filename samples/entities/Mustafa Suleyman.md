@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
+[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":125,"AGI":25,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":125,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
 
 <script>
 (function(){

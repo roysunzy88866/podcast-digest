@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
+[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":25,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":26,"ASI":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-talks-shipping-ai-to-a-million-patients-withou",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/McknwOzbmyg.m4a",
+  "duration_sec": 1135.064,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 264,
+  "asr": true,
+  "title_en": "Shipping AI to a Million Patients Without an A/B Test — Jared Joselowitz, Ufonia",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "added": "2026-09-24",
+  "added_at": "2026-09-23T18:22:16.856Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jared Joselowitz"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jared Joselowitz"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈",
+  "guest_name": "Jared Joselowitz",
+  "guest_title": "Euphonia 研究工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

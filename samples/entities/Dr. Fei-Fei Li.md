@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
+[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":8,"具身智能":1,"苦涩的教训":9,"神经网络":1,"机器学习":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":8,"具身智能":1,"苦涩的教训":9,"神经网络":1,"机器学习":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,498 @@
+{
+  "episode_id": "2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th",
+  "podcast": "The a16z Show",
+  "date": "2026-09-23",
+  "tags": [
+    "AI 与教育",
+    "创业",
+    "智能体",
+    "公司组织变革",
+    "职业成长"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "amjad-masad",
+      "type": "person",
+      "role": "host",
+      "name": "Amjad Masad",
+      "file": "Amjad Masad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gagan-viani",
+      "type": "person",
+      "role": "cohost",
+      "name": "Gagan Viani",
+      "file": "Gagan Viani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            80.712,
+            91.802
+          ],
+          "quote": "Today, I sat down with Replit founder and CEO Amjad Massad and Horowitz and Andreessen Academy co-founder and CEO Gagan Viani to rethink what education should look like in the AI era.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集说 Replit 是 Amjad 创办的公司,靠 AI 智能体写代码大火;他还在里面做新业务线,让任何有数据的生意人都能微调模型,并以『自动驾驶公司』的方式运营",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            80.712,
+            91.802
+          ],
+          "quote": "Today, I sat down with Replit founder and CEO Amjad Massad and Horowitz and Andreessen Academy co-founder and CEO Gagan Viani to rethink what education should look like in the AI era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1103.139,
+            1110.406
+          ],
+          "quote": "You know, I tried not to start Replit, like actively not to start it, but it kind of exploded into a startup on its own, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1337.304,
+            1344.251
+          ],
+          "quote": "So the moment we were in like 2024 when Replit AG came out, before Vibe Coding as a term was coined,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1387.608,
+            1394.831
+          ],
+          "quote": "When I started playing chess, what are the hops you need to make to understand that, oh, that's going to lead me to build a new business line for Replit?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1533.011,
+            1537.994
+          ],
+          "quote": "And in starting the Academy, I've been spending all this time, you know, I built the Pitch Deck and Replit, thank you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1650.754,
+            1659.659
+          ],
+          "quote": "So at Replit, I named all the conference rooms after the greats in our industry in computer science and tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2639.216,
+            2643.237
+          ],
+          "quote": "We're excited to have people building on Replit, potentially interning Replit, potentially being funded by you.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "Vibe Coding",
+      "file": "Vibe Coding",
+      "primary": true,
+      "how_described": "本集说 vibe coding 这个词诞生于 2024 年 Replit Agent 发布之时——智能体突然会写代码、编程从此根本性改变;Amjad 还类比提出机器学习的『vibe research』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1337.304,
+            1344.251
+          ],
+          "quote": "So the moment we were in like 2024 when Replit AG came out, before Vibe Coding as a term was coined,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习 (machine learning)",
+      "file": "机器学习",
+      "primary": true,
+      "how_described": "本集说 AI 现在已经有能力做机器学习了,正处于类似 2024 年智能体学会写代码的那个时刻,可称为 vibe research / auto research",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1355.938,
+            1358.319
+          ],
+          "quote": "I think we're at a similar moment when it comes to machine learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1358.699,
+            1364.502
+          ],
+          "quote": "I think machine learning, you could call it vibe research, you could call it auto research, I think that's Karpathy's term.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1365.682,
+            1384.358
+          ],
+          "quote": "But I spent a lot of time in that world and then now I'm working on something on Rappler to bring that to the world where anyone can become a machine learning researcher or any business owner who has data can fine-tune a model to solve a certain problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说 Amjad 正在 Replit 做一条新业务线,让任何拥有数据的生意人都能微调模型去解决特定问题——这源自他训练 LLM 下国际象棋的经历",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1365.682,
+            1384.358
+          ],
+          "quote": "But I spent a lot of time in that world and then now I'm working on something on Rappler to bring that to the world where anyone can become a machine learning researcher or any business owner who has data can fine-tune a model to solve a certain problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集开场借《城市与群星》讲一座由 AGI 治理的未来城市;Amjad 又疑惑『ARC-AGI 分数都上去了、这些模型接近 AGI 了,为什么下棋这么烂』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            128,
+            129.361
+          ],
+          "quote": "That's governed by AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            129.401,
+            131.063
+          ],
+          "quote": "We sort of invented AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1300.197,
+            1307.461
+          ],
+          "quote": "And I was like, well, you know, where the Arc AGI score is getting up there, you know, these models are, you know, almost AGI, but why are they bad at chess?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 下国际象棋很烂、会幻觉出棋步,这促使 Amjad 第一次亲手训练模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1296.214,
+            1299.236
+          ],
+          "quote": "ChatGPT actually sucks at chess.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1538.834,
+            1551.181
+          ],
+          "quote": "And I've, you know, been using Claude and ChatGPT, like I'm using all of these services as a way to speed up my work and imagining how that changes an entire organization.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "project-based-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "项目式学习 (project-based learning)",
+      "file": "项目式学习",
+      "primary": true,
+      "how_described": "本集说这是流行词,它本该是标准——AI 让每个学生第一次可以不用定制大纲、直接用想学的东西(如 Python)构建让自己兴奋的项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            792.546,
+            797.048
+          ],
+          "quote": "Yeah, I mean, the buzzword for it is like project-based learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2176.018,
+            2190.686
+          ],
+          "quote": "You kind of need reps. And I think that's a lot of what project-based learning or just giving people more control over their time is the idea of just giving them more opportunities to choose a path, succeed, fail, learn from it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "premature-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "过早优化 (premature optimization)",
+      "file": "过早优化",
+      "primary": true,
+      "how_described": "本集说『过早优化是万恶之源』,而 Amjad 认为很多创业的开端就是过早优化——孩子因嫉妒预先承诺一个自己不感兴趣的想法并为其融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1030.697,
+            1036.704
+          ],
+          "quote": "Yeah, I mean, I think, you know, in programming, we have this concept of premature optimization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1037.566,
+            1042.009
+          ],
+          "quote": "And the idea, I think the saying is premature optimization is the root of all evil.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1050.996,
+            1055.1
+          ],
+          "quote": "And I think a lot of starting startups is premature optimization.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "holacracy",
+      "type": "concept",
+      "role": "concept",
+      "name": "Holacracy",
+      "file": "Holacracy",
+      "primary": true,
+      "how_described": "本集说 Medium 搞过合弄制、GitHub 搞过无管理者,都以壮观方式失败——但那是一个技术问题,现在智能体可以让它真正可行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1472.502,
+            1476.864
+          ],
+          "quote": "If you remember, Holacracy, Medium did that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1901.201,
+            1903.946
+          ],
+          "quote": "They're gonna figure out the next version of holacracy that actually works.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络安全 (cybersecurity)",
+      "file": "网络安全",
+      "primary": true,
+      "how_described": "本集说很多孩子在 Roblox 上学编程和黑客,与其把他们送进监狱,不如用沙箱发掘才能、引入网络安全岗位——『我们现在缺网络安全人才』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 418,
+          "t": [
+            2059.396,
+            2065.482
+          ],
+          "quote": "Some kind of sandbox for these people to play in and then discover talents and then funnel them into cybersecurity jobs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2066.263,
+            2075.232
+          ],
+          "quote": "Or even the government, instead of like sending these kids to jail, like take them to work at the NSA or work at like some, we need cybersecurity talent right now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "roblox",
+      "type": "company",
+      "role": "company",
+      "name": "Roblox",
+      "file": "Roblox",
+      "primary": true,
+      "how_described": "本集说现在有个大趋势是人们在 Roblox 上学习编程和黑客技术,Amjad 和其创始人 Dave 聊过为此建沙箱的想法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            2038.64,
+            2044.521
+          ],
+          "quote": "And he was on an interview talking about how he learned to hack on Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2044.842,
+            2050.043
+          ],
+          "quote": "And apparently there's a big trend where people learn programming and hacking on Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2050.943,
+            2055.064
+          ],
+          "quote": "I was talking to Dave, the founder or CEO of Roblox.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alpha-school",
+      "type": "company",
+      "role": "company",
+      "name": "Alpha School",
+      "file": "Alpha School",
+      "primary": false,
+      "how_described": "本集说这是一所按学生天然兴趣定制学习的学校,让兴趣长出需要学的知识",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            698.492,
+            707.337
+          ],
+          "quote": "That's why I'm so excited about Alpha School is the way that they take people's natural interests and get them to learn things they're going to need to know over time out of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            728.708,
+            731.329
+          ],
+          "quote": "You know, and Joe Limon of Alpha School talks about this all the time.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "replit-ag",
+      "type": "concept",
+      "role": "concept",
+      "name": "Replit AG",
+      "file": "Replit AG",
+      "primary": false,
+      "how_described": "本集提到 2024 年 Replit AG 发布、智能体突然会写代码,是 vibe coding 术语诞生之前的时刻(照稿写 Replit AG)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1337.304,
+            1344.251
+          ],
+          "quote": "So the moment we were in like 2024 when Replit AG came out, before Vibe Coding as a term was coined,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

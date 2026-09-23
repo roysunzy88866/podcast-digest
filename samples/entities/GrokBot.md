@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[MCP]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[11 Labs]] · [[OpenClaw]] · [[Town]]
 
-<script type="application/json" class="pd-epn">{"智能体":291,"Cursor":64,"MCP":49,"OpenAI":125,"Claude":61,"Anthropic":132,"Codex":53,"11 Labs":4,"OpenClaw":18,"Town":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Cursor":64,"MCP":49,"OpenAI":125,"Claude":61,"Anthropic":132,"Codex":53,"11 Labs":4,"OpenClaw":18,"Town":3}</script>
 
 <script>
 (function(){

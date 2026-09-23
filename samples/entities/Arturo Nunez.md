@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":291,"LLM":39,"细节层级":1,"视觉模型":1,"世界模型":8}</script>
+<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":293,"LLM":39,"细节层级":1,"视觉模型":1,"世界模型":8}</script>
 
 <script>
 (function(){

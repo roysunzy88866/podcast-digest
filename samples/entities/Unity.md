@@ -27,7 +27,7 @@ unlisted: true
 
 [[Arturo Nunez]] · [[Casey Moratori]] · [[Nereu]] · [[性能优化]] · [[MongoDB]] · [[汇编语言]] · [[资产标签系统]] · [[串行依赖链]] · [[实体组件系统]] · [[过早优化]]
 
-<script type="application/json" class="pd-epn">{"Arturo Nunez":1,"Casey Moratori":1,"Nereu":1,"性能优化":1,"MongoDB":5,"汇编语言":1,"资产标签系统":1,"串行依赖链":1,"实体组件系统":1,"过早优化":1}</script>
+<script type="application/json" class="pd-epn">{"Arturo Nunez":1,"Casey Moratori":1,"Nereu":1,"性能优化":1,"MongoDB":5,"汇编语言":1,"资产标签系统":1,"串行依赖链":1,"实体组件系统":1,"过早优化":2}</script>
 
 <script>
 (function(){

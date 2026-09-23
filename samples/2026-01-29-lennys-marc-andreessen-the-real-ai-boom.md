@@ -193,7 +193,7 @@ Claude Code 一周半开发出 Cowork——既说明 AI 编程惊人地强，也
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、Replit · 同概念:vibe coding、护城河 (moat)</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Claude Code · 同概念:任务 (task)、AGI</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:护城河 (moat)</span>
+- [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|年轻人该去质疑，而不是听话：AI 时代重新想象大学]]<span class="pd-rz">同公司:ChatGPT、Replit · 同概念:AGI、vibe coding</span>
 
 </div>
 </div>

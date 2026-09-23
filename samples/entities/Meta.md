@@ -106,7 +106,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Codex]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":291,"Anthropic":132,"OpenAI":125,"Google":47,"Cursor":64,"推理":52,"NVIDIA":42,"Claude":61,"Codex":53,"AGI":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Anthropic":132,"OpenAI":125,"Google":47,"Cursor":64,"推理":52,"NVIDIA":42,"Claude":61,"Codex":53,"AGI":26}</script>
 
 <script>
 (function(){

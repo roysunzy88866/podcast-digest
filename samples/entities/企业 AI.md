@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kevin Ball]] · [[Emily Hsu]] · [[Scale.ai]] · [[Google]] · [[智能体]] · [[评估]] · [[实体消解]] · [[人在回路]] · [[基准测试]] · [[校准]]
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Emily Hsu":1,"Scale.ai":2,"Google":47,"智能体":291,"评估":3,"实体消解":1,"人在回路":12,"基准测试":12,"校准":1}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Emily Hsu":1,"Scale.ai":2,"Google":47,"智能体":293,"评估":3,"实体消解":1,"人在回路":12,"基准测试":12,"校准":1}</script>
 
 <script>
 (function(){

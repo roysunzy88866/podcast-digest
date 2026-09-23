@@ -1,0 +1,214 @@
+{
+  "title_zh": "给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈",
+  "tldr": "Euphonia 研究工程师 Jared 讲解临床语音 AI「Dora」如何用仿真患者、LLM 裁判和提示词自动优化,在患者接到电话前证明产品安全。",
+  "digest_md": "一通 AI 打给白内障术后患者的随访电话里,患者问「我能不能去游泳」,AI 得回答「术后一个月内别游」。这种电话已经在英国 20 家医院打了约 20 万通,接下来两年还要扩展到一百万名患者。做这件事的公司是总部位于英国的 Euphonia,台上分享的是他们科学团队的研究工程师 Jared——他原来在南非学电气工程,几年前转行做 AI。他的团队负责 Dora 背后的安全与评估技术栈,一句话概括他们的工作:**在患者真正听到之前,证明这个产品是安全的**。\n\n为什么这件事这么难?因为交付给患者,意味着常规软件发布的那几道安全网全部失效:你**不能在患者身上做 A/B 测试**——把患者随机分进更差的变体是不道德的、通常还是违法的;你**不能回滚**——Dora 一旦说了什么,话就说出去了,没有撤销;而且**模型卡救不了你**——不能像模型供应商那样声称「某个基准 92%」,在事后审查里这不构成辩护。Dora 是一个语音 AI 智能体,给患者打真正的临床电话——术后随访、术前检查,这些本该由临床医生亲自打的电话。它一旦开始问症状、给建议、答问题,法律上就成了**医疗器械**,必须受监管。监管归结为三个问题:你的软件做什么?可能出什么错?你怎么保证不出错?\n\n## 从「什么会伤害患者」出发,而不是从功能出发\n\n他们的起点是伤害本身。Dora 可能漏掉危险信号症状,比如突然失明或剧烈疼痛;可能被患者问到一个医学问题后当场编造答案;也可能患者明显很痛苦,它却毫无察觉地继续往下说。这类有记录的危害有二三十、甚至四十种,他们必须确保每一种都不会在现实中发生。\n\n常规软件的做法是灰度发布:先给 5% 的用户上线,盯仪表盘,出问题就回滚。这套打法很好,但它成立有一个隐藏前提——**你能承受「只错一瞬间」**。仪表盘变红,意味着已经有一位真实患者受了伤害;那 5% 可能是几百上千名患者接触到了未经证实的改动。而通话一旦发生,人已经受到伤害,回滚毫无意义。反应式闭环在这里彻底失效。\n\n他们从其他高可靠行业找答案,最直接的是自动驾驶:不是开着车到处撞墙再「总结教训」,而是先在仿真里跑几百万英里,再让真人上车。Jared 的判断很直接:「仿真是我们唯一能选择的真正合乎伦理的选项」。你不可能把刚才那些危害第一次尝试就跑在真人身上。\n\n## Matrix:没有真实患者的临床对话仿真\n\n他们为临床问诊构建了仿真框架 **Matrix**。核心是重现真实的临床对话，但里面没有真实患者：用一个 LLM 扮演患者，叫 **Patbot**。不用真人演员是因为演员没法规模化——想快速迭代、同时模拟各种场景，雇人太慢。\n\n> 【背景】该工作以论文形式发布于 arXiv 预印本平台。\n\n每次测试先定义一个**场景**,精确设定这个「患者」该做什么——比如追问对方是人类还是 AI——然后 Patbot 和 Dora 对话,生成模拟对话。关键在于场景植根于真实临床工作流,不是抽象情境。\n\n那怎么证明 Patbot 本身够逼真?机械的假患者做出来的测试毫无价值。他们做了两层验证:先是脚本遵循检查——让它做某件事,它做没做,这能过滤掉不听指令的弱模型;然后做了一项 **PPI 研究**(患者与公众参与研究):给真实患者并排看两段对话,一段是真人医生与真人患者的,一段是 Dora 与 Patbot 在 Matrix 里的,问哪边的患者是真人。结果比工程师预想的难分辨得多——四组对话里有三组,多数人认为**模拟患者更逼真**。更有意思的发现是:根本不存在「单一的逼真患者」,有人啰嗦、有人直截了当,他们要的就是模拟全部这些不同人格。这个测试证明的是:Patbot 已经足够逼真,可以用于仿真。\n\n## BevJudge:达到专家水平的 LLM 裁判\n\n有了成千上万条模拟对话,工程师当然不能一条条人肉去读——既不规模化,而且他们不是临床医生,看不出危害是否真的发生了。于是用另一个 LLM 当裁判,叫 **BevJudge**:输入模拟对话、一组预期行为、以及与临床医生讨论过的危害场景,输出通过/不通过,失败时还给原因,形成「触发了哪些危害、哪里出了问题」的结构化输出。\n\n裁判本身也要验证。他们建了一个 240 例的语料库,带「有没有危害」的真值,请来自 10 个临床专科的 10 位医生来标注,再让裁判做同样的事。结果:裁判至少与真实专家临床医生持平,甚至略好——写论文时用的顶级模型是 Gemini 2.5 Pro,F1 达到 0.96,更重要的是**敏感度接近完美**。敏感度为什么关键?医疗上你宁愿误报不存在的危害,也绝不漏报真实存在的危害。一个达到专家水平的自动化裁判,正是让整套流程可规模化的关键。\n\n## 提示词自动优化:把「几天」压到「一小时」\n\n打分不等于改进产品。八个月前他们还是手动做提示词工程,但提示词脆弱性(轻微改动就能大幅影响模型表现的现象)太荒谬了:仅仅改变格式就曾让基准成绩波动 76 个百分点,重排少样本(few-shot)示例的顺序能把模型从接近随机(约 50%)翻到接近最先进水平——手动调优在这种环境下既主观、不可复现,又极其耗时。\n\n他们转向提示词优化器,用得最多的是 **GEPA**(Genetic Pareto,出自做 DSPy 的同一批人)。流程:先定义「什么是好」的指标,把数据喂进去,它告诉你哪些样例失败;然后让一个强 LLM 反思失败、自动更新提示词;反复循环,保留「帕累托前沿」(一批互有优劣的最优提示词),直到预算耗尽。手动提示词工程要几小时到几天,这个流程 30 分钟到一小时出优化后的提示词,而且**可复现**,有清晰的审计轨迹和反馈回路;出了问题就纯粹变成一个数据科学问题——数据路由、特征工程、和临床医生一起定义指标。\n\n指标也不是一个扁平的准确率,而是**成本矩阵**。以危险信号为例:信号存在且你抓到了,是好的;漏掉了,可能是灾难性的;信号不存在却误报,只是让患者多答几个问题,轻微恼人而已。所以可以给发现红旗更高奖励、漏掉红旗更低奖励,直接为敏感度优化;想换临床医生关心的其他指标?重新编译一遍提示词就行。\n\n## 分阶段赢得真实世界的入场券\n\nJared 明确承认仿真的边界:模拟患者再逼真也不是真患者,在模拟里通过所有测试,并不能证明 Dora 真的帮助了现实中的某个人。「模拟是内循环——快、免费、可以在任何真人暴露前跑成千上万次;但真实患者是外循环,那才是唯一真正的证明所在。模拟是必要的,但不充分」。它只是**赢得谨慎尝试的资格**。\n\n跨越是分阶段的,每一阶段为下一阶段赢得资格:模拟通过后做用户测试,然后基于真实患者做有监督的临床评估(每一步都必须有临床医生参与),之后才做仍被监控的部署——而给系统多大自主权,取决于你握有多少证据;证据越多,独立性越多。底层还有一条硬规矩:每一次通话、每个数据集、每个固定版本的提示词、每条评判结论,都能追溯到它所应对的那个具体危害。「你交付的不是模型,而是证据」——这才是面对监管时真正的交付物。\n\n于是替代「上线-观察-回滚」的完整飞轮是:拿真实通话数据,加上现实中未必出现的合成边缘案例(罕见症状、错误转写等),用 GEPA 拿到优化提示词,过 Matrix 这个仿真安全闸门,不过就重做数据或重新标注,满意后做带门禁的部署。每次部署和每通新电话都产生更多数据,系统因此持续改进。\n\n## 换模态,不换框架\n\n这套框架的延展性在语音上已经验证过。进入语音会出现新失败模式:比如反馈性回应(对话中「嗯」「好的」这类附和)和打断——智能体正说到安全建议的一半,比如「你必须避免强光」,患者插进来一个跑题的问题,较弱的模型通常就忘了安全建议,直接答下一个问题,甚至就此停住等患者继续。这些 Matrix 都能捕捉。核心原则是:「失败模式会变,框架不会」——照旧黑盒系统、写下新危害、模拟并评判,语音只是同一个安全案例里的新模块,转向任何模态都不用从头再来。\n\n## 本集带走\n\n- **安全网失效时要换打法,不是换强度**:当用户是患者,A/B 测试不道德、回滚不可能、仪表盘变红等于有人已受伤害——反应式发布的前提(能承受错一瞬间)整个崩塌,必须前置到仿真。\n- **从危害清单开始,并主动制造罕见危险案例**:列出产品可能伤害用户的所有方式(他们有几十种),别等罕见但危险的情况自然发生,合成出来测。\n- **每一个自动化环节都要独立验证**:假患者用「真人辨真假」测试验证逼真度,LLM 裁判对照 10 位专科医生的标注验证(此集达到专家水平、敏感度近满分)——裁判和被测系统一样需要被审。\n- **评估指标就是你的成本函数**:不是扁平准确率,而是给「漏报危险」和「误报危险」赋不同代价的成本矩阵,想优化什么就重新编译提示词。\n- **模拟赢得资格,真实才是证明**:模拟是内循环,真实用户是外循环;分阶段跨越(仿真→用户测试→有监督临床评估→受监控部署),自主权随证据增长。\n- **交付给监管的不是模型,是证据**:每次通话、每个提示词版本、每条评判结论都追溯到具体危害。\n- **失败模式会变,框架不会**:换模态(如文本转语音)只需补新的危害清单,仿真-评判-优化的循环照用,不用从头再来。",
+  "quotes": [
+    {
+      "en": "So shipping to patients takes away the normal safety nets you would normally ship with.",
+      "zh": "交付给患者,会把你通常发布时依赖的那些常规安全网全部拿走。",
+      "timestamp": "00:58",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "And very importantly, the model card won't save you.",
+      "zh": "而且非常重要的一点是,模型卡救不了你。",
+      "timestamp": "01:17",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "You can't claim like some model vendors said that they have 92% on some benchmark. It's not a defense at a post-instant review.",
+      "zh": "你不能像一些模型供应商那样声称某个基准达到了 92%,在事后审查中这不是一种辩护。",
+      "timestamp": "01:21",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "You can't undo a call. Once Dora says it, it's been said, and there is no rollback.",
+      "zh": "你不能撤销一通电话。Dora 一旦说了,话就说出去了,没有回滚。",
+      "timestamp": "01:12",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "But there's a hidden assumption here that it only works because you can afford to be wrong for an instant.",
+      "zh": "但这里有一个隐藏假设:这套打法之所以有效,是因为你能承受「只错一瞬间」。",
+      "timestamp": "04:47",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "By watching the dashboards, the dashboards are just going to, going red means that a patient was actually hurt.",
+      "zh": "靠盯仪表盘,仪表盘变红就意味着已经有一位真实患者受到了伤害。",
+      "timestamp": "05:15",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "Simulation is only the real ethical option we can go with.",
+      "zh": "仿真是我们唯一能选择的、真正合乎伦理的选项。",
+      "timestamp": "06:01",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "In three out of the four, the majority of people actually thought that the simulated patient was more realistic.",
+      "zh": "四组对话里有三组,多数人实际上认为模拟患者更逼真。",
+      "timestamp": "08:51",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "The results showed that our judge is at least on par, if not slightly better, than the real expert clinicians.",
+      "zh": "结果显示,我们的裁判至少与真正的专家临床医生不相上下,甚至可能略好一些。",
+      "timestamp": "10:22",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "You would rather over-call hazards that aren't there than under-call hazards that are there.",
+      "zh": "你宁愿把不存在的危害误报出来,也不愿意漏报真正存在的危害。",
+      "timestamp": "10:52",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "Formatting changes alone have been seen to swing benchmark by 76 percentage points, and reordering few-shot examples flips a model from near-random, so near 50%, to near-state-of-the-art on some benchmarks.",
+      "zh": "仅仅是格式上的变化,就曾被观察到能让基准成绩波动 76 个百分点;而重排少样本示例的顺序,能把模型在某些基准上从接近随机(约 50%)翻转到接近最先进水平。",
+      "timestamp": "11:37",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "Simulation is the inner loop. It's fast. It's free. You can do thousands of runs before anyone actually real is exposed. But real patients are the outer loop, and that's where the only real proof is.",
+      "zh": "模拟是内循环——快、免费、可以在任何真人暴露前跑成千上万次;但真实患者是外循环,那才是唯一真正的证明所在。",
+      "timestamp": "15:40",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "So simulation is necessary, but it's not sufficient.",
+      "zh": "所以模拟是必要的,但并不充分。",
+      "timestamp": "15:51",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "The important thing is that you don't ship the model, you ship the evidence when trying to regulate.",
+      "zh": "重要的是,在试图通过监管时,你交付的不是模型,而是证据。",
+      "timestamp": "16:48",
+      "speaker": "Jared Joselowitz"
+    },
+    {
+      "en": "The failure modes change. The framework doesn't.",
+      "zh": "失败模式会变,框架不会。",
+      "timestamp": "18:15",
+      "speaker": "Jared Joselowitz"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:58",
+      "speaker": "Jared",
+      "en": "So shipping to patients takes away the normal safety nets you would normally ship with.",
+      "zh": "交付给患者,会把你通常发布时依赖的那些常规安全网全部拿走。"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Jared",
+      "en": "And very importantly, the model card won't save you.",
+      "zh": "而且非常重要的一点是,模型卡救不了你。"
+    },
+    {
+      "timestamp": "01:21",
+      "speaker": "Jared",
+      "en": "You can't claim like some model vendors said that they have 92% on some benchmark. It's not a defense at a post-instant review.",
+      "zh": "你不能像一些模型供应商那样声称某个基准达到了 92%,在事后审查中这不是一种辩护。"
+    },
+    {
+      "timestamp": "01:13",
+      "speaker": "Jared",
+      "en": "You can't undo a call. Once Dora says it, it's been said, and there is no rollback.",
+      "zh": "你不能撤销一通电话。Dora 一旦说了,话就说出去了,没有回滚。"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Jared",
+      "en": "But there's a hidden assumption here that it only works because you can afford to be wrong for an instant.",
+      "zh": "但这里有一个隐藏假设:这套打法之所以有效,是因为你能承受「只错一瞬间」。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Jared",
+      "en": "By watching the dashboards, the dashboards are just going to, going red means that a patient was actually hurt.",
+      "zh": "靠盯仪表盘,仪表盘变红就意味着已经有一位真实患者受到了伤害。"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Jared",
+      "en": "Simulation is only the real ethical option we can go with.",
+      "zh": "仿真是我们唯一能选择的、真正合乎伦理的选项。"
+    },
+    {
+      "timestamp": "07:31",
+      "speaker": "Jared",
+      "en": "If Patbot is sounding robotic, the tests aren't really worth much.",
+      "zh": "如果 Patbot 听起来很机械,那这些测试就没有什么价值。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Jared",
+      "en": "In three out of the four, the majority of people actually thought that the simulated patient was more realistic.",
+      "zh": "四组对话里有三组,多数人实际上认为模拟患者更逼真。"
+    },
+    {
+      "timestamp": "09:01",
+      "speaker": "Jared",
+      "en": "But the most important thing that we found was, of course, there is no single realistic patient.",
+      "zh": "但我们发现的最重要的一点是:并不存在「单一的逼真患者」。"
+    },
+    {
+      "timestamp": "10:29",
+      "speaker": "Jared",
+      "en": "The results showed that our judge is at least on par, if not slightly better, than the real expert clinicians.",
+      "zh": "结果显示,我们的裁判至少与真正的专家临床医生不相上下,甚至可能略好一些。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Jared",
+      "en": "You would rather over-call hazards that aren't there than under-call hazards that are there.",
+      "zh": "你宁愿把不存在的危害误报出来,也不愿意漏报真正存在的危害。"
+    },
+    {
+      "timestamp": "11:37",
+      "speaker": "Jared",
+      "en": "Formatting changes alone have been seen to swing benchmark by 76 percentage points, and reordering few-shot examples flips a model from near-random, so near 50%, to near-state-of-the-art on some benchmarks.",
+      "zh": "仅仅是格式上的变化,就曾被观察到能让基准成绩波动 76 个百分点;而重排少样本示例的顺序,能把模型在某些基准上从接近随机(约 50%)翻转到接近最先进水平。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Jared",
+      "en": "And hand-tuning can't survive that.",
+      "zh": "手动调优是撑不过这种事的。"
+    },
+    {
+      "timestamp": "15:40",
+      "speaker": "Jared",
+      "en": "Simulation is the inner loop. It's fast. It's free. You can do thousands of runs before anyone actually real is exposed. But real patients are the outer loop, and that's where the only real proof is.",
+      "zh": "模拟是内循环——快、免费、可以在任何真人暴露前跑成千上万次;但真实患者是外循环,那才是唯一真正的证明所在。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Jared",
+      "en": "So simulation is necessary, but it's not sufficient.",
+      "zh": "所以模拟是必要的,但并不充分。"
+    },
+    {
+      "timestamp": "16:48",
+      "speaker": "Jared",
+      "en": "The important thing is that you don't ship the model, you ship the evidence when trying to regulate.",
+      "zh": "重要的是,在试图通过监管时,你交付的不是模型,而是证据。"
+    },
+    {
+      "timestamp": "17:37",
+      "speaker": "Jared",
+      "en": "For example, an agent might be mid-safety advice, like you must avoid bright lights, and when the patient maybe cuts in with some out-of-scope question, and weaker models usually just forget about the safety advice and just answer the next question.",
+      "zh": "例如,智能体可能正说到安全建议的一半,比如「你必须避免强光」,这时患者插入一个跑题的问题,较弱的模型通常就会忘掉安全建议,直接回答下一个问题。"
+    },
+    {
+      "timestamp": "18:17",
+      "speaker": "Jared",
+      "en": "The failure modes change. The framework doesn't.",
+      "zh": "失败模式会变,框架不会。"
+    }
+  ],
+  "voice_script": "今天要讲的,是一个听起来有点疯狂、但其实已经发生了的事情:一个 AI,正在给真实患者打临床随访电话。在英国,已经有二十家医院用上了它,打了大约二十万通电话,接下来两年还要扩展到一百万名患者。\n\n做这件事的公司叫 Euphonia,总部在英国。他们有个语音 AI 智能体,叫 Dora,专门给患者打那些本来该由临床医生亲自打的电话——比如白内障手术之后的随访。有患者会问:我能不能去游泳?AI 得回答:术后一个月内别游。台上分享这个项目的是他们科学团队的研究工程师 Jared,原来在南非学电气工程,几年前转行做 AI。他团队干的活,一句话就能概括:在患者真正听到这通电话之前,证明这个产品是安全的。\n\n你可能会想,这不就是软件测试吗?有什么难的?难就难在,当你的用户是患者,常规软件发布的那几道安全网,全部失效了。首先是 A/B 测试做不了——把真实患者随机分进一个可能更差的版本,这不道德,通常还是违法的。其次是回滚没了——用 Jared 的话说,你不能撤销一通电话,Dora 一旦说了,话就说出去了,没有回滚。而且模型卡也救不了你——你不能像一些模型供应商那样,声称某个基准做到了百分之九十二,在事后审查里,这不是一种辩护。\n\n那常规软件是怎么做的?灰度发布:先给百分之五的用户上线,盯着仪表盘,一出问题就回滚。这套打法本身很好,但 Jared 点破了一个隐藏假设——它成立的前提,是你能承受\"只错一瞬间\"。因为仪表盘变红,就意味着已经有一位真实患者受到了伤害。而对一通 clinical 电话来说,通话一旦发生,伤害已经造成了,回滚毫无意义。反应式的那套闭环,在这里彻底失效。\n\n答案从哪来?他们去看别的怎么做到高可靠的行业,最直接的就是自动驾驶。自动驾驶不是开着车到处撞墙再总结教训,而是先在仿真里跑几百万英里,再让真人上车。Jared 的判断很直接:仿真是我们唯一能选择的真正合乎伦理的选项。你不可能把刚才那些危害,第一次尝试就跑在真人身上。\n\n于是他们给临床问诊造了一套仿真框架,叫 Matrix。核心思路是重现真实的临床对话,但里面没有真实患者——用一个语言模型来扮演患者,起名叫 Patbot。为什么不用真人演员?因为演员没法规模化,想快速迭代、同时模拟各种场景,雇人太慢了。\n\n每次测试,先定义一个场景,精确设定这个\"患者\"该做什么,比如追问对方到底是不是 AI。然后 Patbot 和 Dora 开始对话。关键在于,这些场景都植根于真实的临床工作流,不是凭空编的抽象情境。\n\n那怎么证明这个假患者本身够逼真?假患者做得不像,测试就毫无价值。他们做了两层验证。第一层是脚本遵循检查,让它做某件事,看它做没做。第二层更有意思,是一项患者与公众参与研究:给真实患者并排看两段对话,一段是真人医生和真人患者,一段是 Dora 和 Patbot,让人猜哪边是真人。结果比工程师们预想的难分辨得多——四组对话里有三组,多数人认为模拟的那个患者更逼真。还有个发现很关键:根本不存在\"单一的逼真患者\",现实中有人啰嗦、有人直截了当,他们要的就是把这些不同人格全都模拟出来。\n\n好,仿真跑出了成千上万条对话,下一个问题来了:谁来判定这些对话里有没有出问题?工程师不可能一条条人肉去读,而且他们不是临床医生,看不出危害是不是真的发生了。于是他们用另一个语言模型当裁判,叫 BevJudge。输入模拟对话、一组预期行为,加上和临床医生讨论过的危害场景,输出通过还是不通过,失败时还给原因。\n\n但等等——裁判自己靠谱吗?这也是要验证的。他们建了一个两百四十例的语料库,带真值,请来十个临床专科的十位医生做标注,再让裁判做同样的判断。结果是:裁判至少和真实专家持平,甚至略好,用的是 Gemini 2.5 Pro,F1 达到零点九六。更重要的是敏感度接近完美。为什么敏感度这么关键?因为在医疗上,你宁愿误报一个不存在的危害,也绝不漏报一个真实存在的危害。正是这个达到专家水平的自动化裁判,让整套流程可以规模化。\n\n有了仿真,有了裁判,还差最后一环:怎么改进产品?八个月前他们还是手动调提示词,但提示词这个东西脆弱得离谱——仅仅改变一下格式,基准成绩就能波动七十六个百分点;重排几个示例的顺序,模型能从接近随机,翻到接近最先进水平。手动调优在这种环境下,既主观、又不可复现、还极其耗时。\n\n所以他们转向了提示词自动优化器,用得最多的是 GEPA。流程是:先定义什么叫做\"好\",把数据喂进去,它告诉你哪些样例失败了;然后让一个强模型去反思失败、自动改写提示词,反复循环,最后保留一批互有优劣的最优提示词。以前手动要几天,现在三十分钟到一个小时就能出结果,而且可复现,有完整的审计轨迹。而且指标不是扁平的准确率,是一张成本矩阵——比如危险信号,抓到了是好的;漏掉了可能是灾难;误报了只是让患者多答几个问题。所以系统直接为敏感度去优化。想换临床医生关心的其他指标?重新编译一遍提示词就行。\n\n当然,Jared 也很坦白:仿真有边界。模拟患者再逼真也不是真患者,在模拟里全通过,不等于 Dora 真的帮助了现实中的某个人。模拟是内循环,快、免费、可以在任何真人暴露前跑成千上万次;真实患者是外循环,那才是唯一真正的证明所在。模拟是必要的,但不充分——它只是赢得\"谨慎尝试\"的资格。所以跨越是分阶段的:模拟通过后做用户测试,然后基于真实患者做有监督的临床评估,每一步都有临床医生参与,之后才做仍被监控的部署。系统的自主权,取决于你握有多少证据,证据越多,独立性越多。而底层还有一条硬规矩:每一次通话、每个版本的提示词、每条评判结论,都能追溯到它所应对的那个具体危害。\n\n这套东西的延展性也已经验证过了。比如进入语音之后会出现新的失败模式:智能体正说到一半,\"你必须避免强光\",患者插进来一个跑题的问题,弱一点的模型往往就忘了这条安全建议。但这些,Matrix 照样能捕捉。核心原则是:失败模式会变,框架不会——照旧列危害、做仿真、做评判,换任何模态都不用从头再来。\n\n回头看,今天这期的核心其实就一句话:当安全网全部失效,你要换的是打法,不是把原来的打法加大强度。面对监管,你交付的不是模型,而是证据。"
+}

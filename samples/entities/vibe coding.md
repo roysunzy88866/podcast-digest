@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>35</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>36</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -45,6 +45,7 @@ unlisted: true
 - **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(02:47起):本集 Scott 说不没人会拿职业生涯去「vibe coding 一个核反应堆的控制系统」——它只加速代码编写环节,浅层 web 应用危险了,高后果软件另有审查与验证壁垒。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(10:51起):本集把它说成整个品类：从让用户做出可爱演示，演化成能部署到生产环境的端到端编程工具
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(48:38起):本集提到：谈论 vibe coding 的人多、敢于谈论自己项目的人少，而学习恰恰来自执行和发布
+- **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(22:17起):本集说 vibe coding 这个词诞生于 2024 年 Replit Agent 发布之时——智能体突然会写代码、编程从此根本性改变;Amjad 还类比提出机器学习的『vibe research』
 
 ## ① 提到它的金句
 
@@ -60,7 +61,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*35 集*
+*36 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -97,14 +98,15 @@ unlisted: true
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为概念
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]] — 作为概念
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为概念(提及)
+- [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Claude]] · [[ChatGPT]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[Codex]]
+[[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[Replit]]
 
-<script type="application/json" class="pd-epn">{"智能体":291,"Cursor":64,"Lenny":67,"Anthropic":132,"Claude":61,"ChatGPT":74,"护栏":50,"OpenAI":125,"Claude Code":67,"Codex":53}</script>
+<script type="application/json" class="pd-epn">{"智能体":293,"Cursor":64,"Lenny":67,"Anthropic":132,"ChatGPT":75,"Claude":61,"护栏":50,"OpenAI":125,"Claude Code":67,"Replit":17}</script>
 
 <script>
 (function(){

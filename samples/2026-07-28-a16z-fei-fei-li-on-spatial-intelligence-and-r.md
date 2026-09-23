@@ -131,8 +131,8 @@ Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从�
 **换个口味**
 
 - [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|Justin Johnson：世界模型不只有一种，而语言模型做不到这些]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
+- [[2026-08-19-talks-shipping-ai-to-a-million-patients-withou|给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同公司:Waymo</span>
-- [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|人形机器人上战场：公关跑得比机器人快]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 
 </div>
 </div>

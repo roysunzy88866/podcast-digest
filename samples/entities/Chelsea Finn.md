@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":13,"ChatGPT":74,"物理 AI":8,"强化学习":17,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":13}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":13,"ChatGPT":75,"物理 AI":8,"强化学习":17,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":13}</script>
 
 <script>
 (function(){

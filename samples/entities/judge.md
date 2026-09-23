@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>judge</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="judge">JU</div><div class="pi"><h1 class="pt">judge</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="judge">JU</div><div class="pi"><h1 class="pt">judge</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(34:29起):本集说他们用 LLM 做 judge 评估 Tolan 输出质量，但不能泛泛地问'怎么样'，必须把人类品味细化注入到单句层面——'这是好的第一句吗？应该在这里问问题吗？'需要大量人工标注来 brute force 编码品味。
+- **[[2026-08-19-talks-shipping-ai-to-a-million-patients-withou|《给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈》]]**(09:39起):本集提出用另一个 LLM 当裁判来规模化评估对话（BevJudge），并强调裁判本身也要对照专家临床医生独立验证——「裁判和被测系统一样需要被审」。
 
 ## ① 提到它的金句
 
-*9 条*
+*10 条*
 
 ![[2025-09-16-talks-evaluating-agents-with-braintrust#^q7]]
 
@@ -24,6 +25,8 @@ unlisted: true
 ![[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#^q7]]
 
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q4]]
+
+![[2026-08-19-talks-shipping-ai-to-a-million-patients-withou#^q9]]
 
 ![[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#^q5]]
 
@@ -37,17 +40,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念
+- [[2026-08-19-talks-shipping-ai-to-a-million-patients-withou|《给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Quintin]] · [[Elliot]] · [[Portola]] · [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]]
+[[Quintin]] · [[Jared Joselowitz]] · [[Elliot]] · [[Euphonia]] · [[Portola]] · [[DORA]] · [[Tolan]] · [[智能体]] · [[LLM]] · [[Matrix]]
 
-<script type="application/json" class="pd-epn">{"Quintin":1,"Elliot":1,"Portola":1,"Tolan":2,"LLM":39,"提示词":15,"记忆":13,"响应时间":1,"hook":2,"即兴演员":1}</script>
+<script type="application/json" class="pd-epn">{"Quintin":1,"Jared Joselowitz":1,"Elliot":1,"Euphonia":1,"Portola":1,"DORA":2,"Tolan":2,"智能体":293,"LLM":39,"Matrix":1}</script>
 
 <script>
 (function(){
