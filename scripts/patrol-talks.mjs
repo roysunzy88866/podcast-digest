@@ -200,6 +200,26 @@ export function loadLibraryTitles(episodesDir) {
   return out;
 }
 
+/**
+ * drift #105 补查:最后一条动作仍是 meta-failed 的片子(被 1MB 上限掐死过、早已滚出频道「最新」列表,常规巡航再也看不到)。
+ * 行 → Map(channel → [{videoId, title}]);口径与 indexPatrolLog 同(终态粘性),只收有 channel/title 的行。
+ */
+export function stuckMetaFailed(lines) {
+  const idx = indexPatrolLog(lines);
+  const out = new Map();
+  const seen = new Set();
+  for (const line of [...(lines ?? [])].reverse()) {
+    let e;
+    try { e = JSON.parse(line); } catch { continue; }
+    if (e?.action !== "meta-failed" || !e.channel || !e.videoId || seen.has(e.videoId)) continue;
+    if (idx.get(e.videoId) !== "meta-failed") continue;
+    seen.add(e.videoId);
+    if (!out.has(e.channel)) out.set(e.channel, []);
+    out.get(e.channel).push({ videoId: e.videoId, title: e.title ?? "" });
+  }
+  return out;
+}
+
 /** patrol-log.jsonl 行 → Map(videoId → 最后一条 action)。坏行跳过不炸(日志是追加型,允许历史杂音)。 */
 export function indexPatrolLog(lines) {
   const idx = new Map();
@@ -426,6 +446,7 @@ async function main() {
     return i >= 0 ? Number(argv[i + 1]) || dflt : dflt;
   };
   const discoverOnly = flags.has("--discover-only");
+  const recheckStuck = flags.has("--recheck-stuck"); // drift #105 一次性补查:不走频道发现,只重跑卡在 meta-failed 的片子
   const judgeSample = num("--judge-sample", 0);
   const seedLimit = num("--limit", 0);
   const smoke = discoverOnly || judgeSample > 0; // 烟测模式:不写日志不落种不动 git
@@ -466,7 +487,9 @@ async function main() {
           .map((d) => d.name),
   );
   const libraryTitles = loadLibraryTitles(join(ROOT, "data/episodes"));
-  const logIndex = indexPatrolLog(existsSync(PATROL_LOG) ? readFileSync(PATROL_LOG, "utf8").split("\n").filter(Boolean) : []);
+  const logLines = existsSync(PATROL_LOG) ? readFileSync(PATROL_LOG, "utf8").split("\n").filter(Boolean) : [];
+  const logIndex = indexPatrolLog(logLines);
+  const stuck = recheckStuck ? stuckMetaFailed(logLines) : null;
 
   // ── 发现 + 去重 + 预过滤 ──
   const candidates = [];
@@ -474,7 +497,10 @@ async function main() {
   for (const sub of subs) {
     console.log(`\n══ 频道:${sub.name}`);
     let via, entries;
-    try {
+    if (stuck) {
+      via = "recheck-stuck";
+      entries = stuck.get(sub.key) ?? [];
+    } else try {
       const channelId = await resolveChannelId(sub);
       ({ via, entries } = await discoverChannel(channelId));
     } catch (e) {

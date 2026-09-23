@@ -452,3 +452,4 @@
   - 根因:巡航只按 videoId 去重,从不比库内标题 —— Jeff Dean 播客集 08-01 就上站了,09-19 巡航照样判官+下载+落种了它的 YouTube 版。drift #102 已手删过 6 条同类,这次是同病复发。
   - 修:`patrol-talks.mjs` 在进判官候选前用云端同一个 `findTitleDuplicate` 比 `data/episodes/*/meta.json` 的 title_en,命中记终态 `library-twin`(不判不下)。7 条孪生种子删除(库内 7 集均核过在站)。
   - **仍留的缝**:YouTube 比播客早几小时发、巡航那一刻库里还没有 → 照样落种、云端照样待裁。发生频率低(这 7 条里只 State of Startups 1 条是这种),不为它改云端「疑似重复裁决归人」(ADR 0017)。
+- **drift #105 补查(2026-09-23 用户「补」)**:`patrol-talks.mjs --recheck-stuck` 一次性开关 —— 不走频道发现,只把 patrol-log 里最后动作仍是 meta-failed 的片子(31 条:aie 25 / yc 3 / greylock 2 / stripe 1)重跑一遍富化 → 60 天窗口(按上传日)→ 库内同名 → 判官 → 落种,口径与常规巡航完全相同。

@@ -6,7 +6,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays, SH_MAX_BUFFER, loadLibraryTitles } from "../scripts/patrol-talks.mjs";
+import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays, SH_MAX_BUFFER, loadLibraryTitles, stuckMetaFailed } from "../scripts/patrol-talks.mjs";
 
 const FIX = resolve(dirname(fileURLToPath(import.meta.url)), "fixtures");
 const feedXml = readFileSync(resolve(FIX, "yt-channel-feed.xml"), "utf8");
@@ -326,5 +326,26 @@ describe("drift #106 · 巡航落种前比库内标题(YouTube 孪生不再落�
     const i = src.indexOf("findTitleDuplicate(video.title, libraryTitles)");
     expect(i).toBeGreaterThan(0);
     expect(i).toBeLessThan(src.indexOf("candidates.push({ sub, video })"));
+  });
+});
+
+describe("drift #105 补查 · stuckMetaFailed 只挑最后仍卡在 meta-failed 的片子", () => {
+  const L = (o: any) => JSON.stringify(o);
+  const lines = [
+    L({ action: "meta-failed", channel: "aie", videoId: "A", title: "卡住的演讲" }),
+    L({ action: "meta-failed", channel: "aie", videoId: "A", title: "卡住的演讲" }), // 同片多次失败只算一条
+    L({ action: "meta-failed", channel: "yc", videoId: "B", title: "后来成功落种" }),
+    L({ action: "seeded", channel: "yc", videoId: "B", title: "后来成功落种" }),
+    L({ action: "rejected", channel: "langchain", videoId: "C", title: "判过的" }),
+    L({ action: "meta-failed", channel: "langchain", videoId: "C", title: "判过的" }), // 终态粘性:判过就不补
+    "坏行",
+  ];
+  it("★★★ 只收最后动作仍是 meta-failed 的;按频道分组;同片去重;终态(落种/判过)不补", () => {
+    const m = stuckMetaFailed(lines);
+    expect([...m.keys()]).toEqual(["aie"]);
+    expect(m.get("aie")).toEqual([{ videoId: "A", title: "卡住的演讲" }]);
+  });
+  it("★ 空日志不炸", () => {
+    expect(stuckMetaFailed([]).size).toBe(0);
   });
 });
