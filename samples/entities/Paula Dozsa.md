@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":297,"延迟":4,"记忆":14,"上下文":18,"Claude":62,"检索":3,"LLM":40}</script>
+<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":301,"延迟":4,"记忆":15,"上下文":18,"Claude":62,"检索":3,"LLM":41}</script>
 
 <script>
 (function(){

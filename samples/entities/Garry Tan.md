@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":297,"技能文件":3,"RAG":15,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":54,"YC":16,"上下文工程":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"技能文件":3,"RAG":17,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":55,"YC":16,"上下文工程":15}</script>
 
 <script>
 (function(){

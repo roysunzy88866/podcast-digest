@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]]
+[[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":297,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"judge":2,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":301,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"judge":2,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":42,"深度学习":3,"智能体":297,"沙箱":54,"Condi Rice":1,"harness":41,"Jerry":1,"AMD":4,"前沿模型":19,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":42,"深度学习":3,"智能体":301,"沙箱":56,"Condi Rice":1,"harness":41,"Jerry":1,"AMD":4,"前沿模型":20,"Sega":1}</script>
 
 <script>
 (function(){

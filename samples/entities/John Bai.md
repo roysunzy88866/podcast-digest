@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]]
+[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[Philipp Schmid]] [[Andrew Qu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Peng Zheng":1,"GrokBot":6,"智能体":297,"Figma":20,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":6,"垃圾桶方法":1}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Peng Zheng":1,"GrokBot":6,"智能体":301,"Figma":20,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":6,"垃圾桶方法":1}</script>
 
 <script>
 (function(){

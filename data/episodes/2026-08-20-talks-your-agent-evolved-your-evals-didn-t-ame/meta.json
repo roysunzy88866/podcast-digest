@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/nxokqOq1imY.m4a",
+  "duration_sec": 1432.325,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 206,
+  "asr": true,
+  "title_en": "Your Agent Evolved. Your Evals Didn't. — Ameya Bhatawdekar, Braintrust",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "added": "2026-09-24",
+  "added_at": "2026-09-24T12:41:12.312Z",
+  "speaker_map": {
+    "SPEAKER_00": "Ameya Bhatawdekar"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Ameya Bhatawdekar"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "模型一换代系统就崩？evals 才是你该押注的持久资产",
+  "guest_name": "Ameya Bhatawdekar",
+  "guest_title": "Braintrust 现场 CTO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

@@ -1,0 +1,648 @@
+{
+  "episode_id": "2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "tags": [
+    "评估",
+    "AI 智能体",
+    "可观测性",
+    "AI 应用架构",
+    "生产数据飞轮"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ameya-bhatawdekar",
+      "type": "person",
+      "role": "guest",
+      "name": "Ameya Bhatawdekar",
+      "file": "Ameya Bhatawdekar",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "braintrust",
+      "type": "company",
+      "role": "company",
+      "name": "Braintrust",
+      "file": "Braintrust",
+      "primary": true,
+      "how_described": "本集说 Braintrust 是一个可观测性平台，帮助 AI 团队满怀信心地构建和改进他们的 AI；它提供 evals、可观测性以及从生产数据中挖掘新 eval 用例的飞轮组件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.642,
+            18.807
+          ],
+          "quote": "My name is Ameya Bhattavdekar, and I'm the field CTO at Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            18.907,
+            25.913
+          ],
+          "quote": "Braintrust is an observability platform that helps AI teams build and improve their AI with confidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1229.313,
+            1233.256
+          ],
+          "quote": "So, I'm going to quickly talk a little bit about how we do this in Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1233.396,
+            1237.458
+          ],
+          "quote": "So, Braintrust provides all the components that you need to run this flywheel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把 evals 说成描述系统应该如何运作的持久资产，是代际转换时的保险；核心论点是架构每换代一次，evals 就必须同步重写，否则产生系统性盲区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            257.8,
+            266.624
+          ],
+          "quote": "But that means that you also now have to update your evals, the way you ensure that your system is going to operate reliably, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            276.408,
+            281.01
+          ],
+          "quote": "And so your evals now have to adapt and evolve to your new architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            281.71,
+            286.832
+          ],
+          "quote": "And so, you know, architecture follows model updates and your evals have to follow your architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            288.633,
+            299.054
+          ],
+          "quote": "So, as I talked through the various generations of the AI systems architectures and how you do, you know, what that architecture is and how the evals have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            304.441,
+            313.222
+          ],
+          "quote": "And so, what I want to talk about is on the subsequent slides, I'll share a bunch of notional evals, but I want them to be grounded in a real agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            737.022,
+            743.807
+          ],
+          "quote": "And so, your evals now have to not only look at the overall",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            744.387,
+            748.849
+          ],
+          "quote": "orchestration, but you have to have node level evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            748.949,
+            760.933
+          ],
+          "quote": "You have to make sure that you have evals for testing your branching logic or how you do retry loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            895.043,
+            899.546
+          ],
+          "quote": "Now you're looking at doing an analysis of the distribution of the evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1037.305,
+            1056.133
+          ],
+          "quote": "And so now, these systems are getting pretty complex and as a result, if you are continuing to use the evals from the previous generation, you're going to get sort of a partial coverage of your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1069.832,
+            1092.408
+          ],
+          "quote": "So, what that means is, just reflecting back on the pattern is like all of these model innovations resulted in corresponding shift in the architectures and so you've seen these waves of architecture and then what's needed is like your evals to be congruent with that architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1094.686,
+            1100.448
+          ],
+          "quote": "Because ultimately, it's the evals that are sort of your durable asset that describe how your system is supposed to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1122.783,
+            1129.646
+          ],
+          "quote": "The idea of harvesting data from production to inform your evals so that your evals are reflective of the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1152.93,
+            1154.571
+          ],
+          "quote": "Their evals are somewhat static.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1165.32,
+            1174.423
+          ],
+          "quote": "Flywheel, you are now getting stagnant evals that are not being as effective in helping you measure and improve the quality of your AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1187.855,
+            1198.981
+          ],
+          "quote": "You are looking out for because you have defined what good looks like as part of your evals, but you also want something to shine a light on the new failure types, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1237.618,
+            1255.09
+          ],
+          "quote": "We've got evals, we've got observability, we have ways in which you can get insights from your production data to harvest new eval cases that you can then pass off to the team that they can then use to help climb and improve your AI system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1281.755,
+            1302.388
+          ],
+          "quote": "Here's a new failure situation that you hadn't thought about, and you didn't have any guardrails in place, or you didn't have any evals in place, and so now it's really easy for teams to expand the set of their evals to now cover those kind of new failures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1386.327,
+            1398.417
+          ],
+          "quote": "And so building out like a robust evals discipline with the right tools and the right automation and the right systems becomes paramount to manage these generational changes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以一个能读也能写（回滚部署或升级给人）的 SRE agent 为贯穿例子，讲 AI 智能体架构五代演进，并预言未来几年大家都要对自己的 AI agent 做大量『手术』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            41.51,
+            49.953
+          ],
+          "quote": "Some sort of a chatbot or a AI agent or some system that's doing batch processing using AI at the heart of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            304.441,
+            313.222
+          ],
+          "quote": "And so, what I want to talk about is on the subsequent slides, I'll share a bunch of notional evals, but I want them to be grounded in a real agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            313.682,
+            316.383
+          ],
+          "quote": "In this case, we are going to look at this SRE agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            316.463,
+            322.924
+          ],
+          "quote": "The SRE agent is able to not only read information, but it's able to take actions and update systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1155.332,
+            1164.279
+          ],
+          "quote": "And even if you're not changing your AI agent architecture, by not really being disciplined about running that workflow,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把 RAG 作为第二代『链』架构的典型：先解析输入、检索信息、拼上下文再调模型，失败点从最终答案扩展到每个环节，eval 也要按环节拆开做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            425.023,
+            432.288
+          ],
+          "quote": "The typical RAG application looked like it took the user input, it passed some information from the user input.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "type": "concept",
+      "role": "concept",
+      "name": "ReAct 循环 (React)",
+      "file": "ReAct 循环",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            494.195,
+            501.583
+          ],
+          "quote": "And so in late, mid-late 2023, early 24, the React paper became really popular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            846.907,
+            853.032
+          ],
+          "quote": "And so we started looking at building out the React loop again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool calling)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "本集说早期模型在 tool calling 上表现挣扎、参数写错、调错工具，而 25 年中后期新模型让工具调用变得极其可靠，成为回归循环架构的关键解锁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            209.247,
+            217.412
+          ],
+          "quote": "Your previous systems were built to account for the fact that your models weren't really as good at tool calling, for example, and so your system",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            407.272,
+            413.556
+          ],
+          "quote": "It was narrow because there's no tool calling, there's no orchestration, there's no retrieval, no other steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            798.172,
+            801.758
+          ],
+          "quote": "was like tool calling became extremely reliable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pass-at-k",
+      "type": "concept",
+      "role": "concept",
+      "name": "pass at k",
+      "file": "pass at k",
+      "primary": true,
+      "how_described": "本集解释 pass at k 是同一 eval 跑 k 次至少成功一次，衡量系统的能力上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            909.293,
+            912.815
+          ],
+          "quote": "So now new metrics like pass at k and pass",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            921.041,
+            927.645
+          ],
+          "quote": "Pass at K is like if you take the same that eval and you run it K times, does it succeed at least once?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            942.255,
+            955.561
+          ],
+          "quote": "Now, you can understand whether your system with a high pass at K is reliable by measuring the pass wedge K metric, for example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pass-wedge-k",
+      "type": "concept",
+      "role": "concept",
+      "name": "pass wedge K",
+      "file": "pass wedge K",
+      "primary": true,
+      "how_described": "本集说 pass wedge K 衡量 k 次运行中有几次成功，是对可靠性的度量；用它才能判断高 pass at K 的系统到底可不可靠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            913.756,
+            920.721
+          ],
+          "quote": "Raise to K or pass wedge K. These are the new metrics that certainly started to make a lot of sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            931.228,
+            938.773
+          ],
+          "quote": "And pass wedge K is like if you run that eval multiple times, how many times of those K instances does it run successfully?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            942.255,
+            955.561
+          ],
+          "quote": "Now, you can understand whether your system with a high pass at K is reliable by measuring the pass wedge K metric, for example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆系统 (memory system)",
+      "file": "记忆系统",
+      "primary": true,
+      "how_described": "本集说 memory system 已变得复杂且实用，能在会话内和跨会话提供记忆存取，模型通过从之前运行中学习改进后续表现；它是第五代产品化系统的外围组件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            983.928,
+            994.554
+          ],
+          "quote": "You have a memory system that is able to provide robust memory storage and memory retrieval capabilities within a session, cross sessions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 MCP 和技能目录是模型执行期间可接入的扩展机制，用来把可扩展性编织进系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            1014.266,
+            1024.875
+          ],
+          "quote": "During execution, you've got MCP and skill directories that the model can now tap into and you can weave in extensibility.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说 Braintrust 是一个 observability 平台，提供 evals、可观测性等运行飞轮所需的全部组件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.907,
+            25.913
+          ],
+          "quote": "Braintrust is an observability platform that helps AI teams build and improve their AI with confidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1237.618,
+            1255.09
+          ],
+          "quote": "We've got evals, we've got observability, we have ways in which you can get insights from your production data to harvest new eval cases that you can then pass off to the team that they can then use to help climb and improve your AI system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "topics",
+      "type": "concept",
+      "role": "concept",
+      "name": "Topics",
+      "file": "Topics",
+      "primary": false,
+      "how_described": "本集介绍 Braintrust 的 Topics 功能：对全部生产数据做聚类分析，自动浮现你没设护栏、也没写 eval 覆盖的新失败类别，帮助团队扩展 eval 集合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1256.188,
+            1258.269
+          ],
+          "quote": "But Topics is a really cool feature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1258.349,
+            1263.71
+          ],
+          "quote": "What Topics does, it does a cluster analysis on all of your production data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": true,
+      "how_described": "本集说飞轮是从生产环境采集数据反哺 evals、让 evals 反映真实世界的工作流；人人概念上都接受，但实践中大量团队不执行，导致 evals 静态失效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            1115.92,
+            1119.682
+          ],
+          "quote": "And so everyone's seen this, you know, diagram of this flywheel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1165.32,
+            1174.423
+          ],
+          "quote": "Flywheel, you are now getting stagnant evals that are not being as effective in helping you measure and improve the quality of your AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1199.021,
+            1211.667
+          ],
+          "quote": "The system is going to fail in new and novel ways, in ways that you might not have anticipated, and you now need to start harvesting that data in a meaningful way, and you want to do this again as part of the flywheel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1233.396,
+            1237.458
+          ],
+          "quote": "So, Braintrust provides all the components that you need to run this flywheel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1399.49,
+            1426.548
+          ],
+          "quote": "And so ultimately what you want is to really index on that flywheel and make it part of your workflow so that the ability to improve incrementally when the changes in the system are incremental and the ability to improve your system in sort of a step function way are both supported by your",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

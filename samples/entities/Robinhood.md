@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[ChatGPT]] · [[Barney Hussey-Yeo]] · [[Olivia Moore]] · [[Baiju Bhatt]] · [[Josh Elman]] · [[John Collison]] · [[Frederick Rankin]] · [[Cowboy Space]]
 
-<script type="application/json" class="pd-epn">{"智能体":297,"Stripe":34,"ChatGPT":76,"Barney Hussey-Yeo":1,"Olivia Moore":1,"Baiju Bhatt":1,"Josh Elman":1,"John Collison":2,"Frederick Rankin":1,"Cowboy Space":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"Stripe":34,"ChatGPT":76,"Barney Hussey-Yeo":1,"Olivia Moore":1,"Baiju Bhatt":1,"Josh Elman":1,"John Collison":2,"Frederick Rankin":1,"Cowboy Space":1}</script>
 
 <script>
 (function(){

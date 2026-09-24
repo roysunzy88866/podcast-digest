@@ -147,8 +147,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:evals、主观能动性 (agency)、智能体 (agent)</span>
+- [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|模型一换代系统就崩？evals 才是你该押注的持久资产]]<span class="pd-rz">同概念:evals、智能体 (agent)、飞轮 (flywheel)</span>
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:evals、智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:evals、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

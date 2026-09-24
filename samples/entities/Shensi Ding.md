@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":297,"MCP":49,"沙箱":54,"连接器":3,"智能 LLM 路由器":1,"可观测性":26,"后训练":27}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":301,"MCP":51,"沙箱":56,"连接器":3,"智能 LLM 路由器":1,"可观测性":27,"后训练":27}</script>
 
 <script>
 (function(){

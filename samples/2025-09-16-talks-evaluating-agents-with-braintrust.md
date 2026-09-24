@@ -167,7 +167,7 @@ Braintrust 的客户过了某个阶段后，全都把预制裁判定制成了自
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:LLM 当裁判 (LLM as a judge)、智能体 (agent)、评估 (evals)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:LLM 当裁判 (LLM as a judge)、智能体 (agent)、评估 (evals)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)、护栏 (guardrails)</span>
+- [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|模型一换代系统就崩？evals 才是你该押注的持久资产]]<span class="pd-rz">同公司:Braintrust · 同概念:智能体 (agent)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

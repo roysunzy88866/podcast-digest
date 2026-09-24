@@ -112,6 +112,7 @@ Bo 现场播放了一段真实通话录音：智能体接听妇产科诊所电�
 **顺着「智能体」挖下去**
 
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|语音智能体不一定要说话:OpenAI 的三种语音交互模式]]<span class="pd-rz">同概念:工具调用 (tool calling)、语音智能体 (voice agents)、转写 (transcription)</span>
+- [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|模型一换代系统就崩？evals 才是你该押注的持久资产]]<span class="pd-rz">同概念:工具调用 (tool calling)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]]
+[[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ryan Greenblatt]] [[Campbell Brown]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":125,"Hugging Face":22,"Meter":3,"Redwood Research":3,"Modal":6,"智能体":297,"沙箱":54,"RL":8,"Exploit Gym":1,"Artifactory":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":126,"Hugging Face":22,"Meter":3,"Redwood Research":3,"Modal":6,"智能体":301,"沙箱":56,"RL":8,"Exploit Gym":1,"Artifactory":1}</script>
 
 <script>
 (function(){

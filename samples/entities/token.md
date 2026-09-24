@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -37,7 +37,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*30 条*
+*32 条*
 
 ![[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth#^q8]]
 
@@ -70,6 +70,10 @@ unlisted: true
 ![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q2]]
 
 ![[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t#^q11]]
+
+![[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship#^q1]]
+
+![[2026-08-20-talks-the-era-of-compound-engineering-kieran-k#^q5]]
 
 ![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q8]]
 
@@ -133,7 +137,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[GPU]] · [[Codex]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":297,"Anthropic":133,"OpenAI":125,"Cursor":65,"推理":52,"NVIDIA":42,"ChatGPT":76,"GPU":18,"Codex":54,"后训练":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"Anthropic":134,"OpenAI":126,"Cursor":66,"推理":52,"NVIDIA":42,"ChatGPT":76,"GPU":18,"Codex":55,"后训练":27}</script>
 
 <script>
 (function(){

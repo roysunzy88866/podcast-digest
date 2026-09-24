@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]]**(11:30起):本集把它说成：一种传统的搜索技术；指出只靠 RAG 和重排序，查结构化时间序列数据的准确率只有 50%，必须增加类人推理检查才能拉到 90%。
 - **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(34:26起):本集在回应'这只是 RAG 吗'的异议时说检索是原语不是产品，困难的部分是周围的一切
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(11:37起):Flo 对 RAG 相当看空，认为它不如智能体管理方式，因为记忆智能体有元记忆、能逐渐学会哪些信息源重要
+- **[[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]]**(07:05起):本集把 RAG 作为第二代『链』架构的典型：先解析输入、检索信息、拼上下文再调模型，失败点从最终答案扩展到每个环节，eval 也要按环节拆开做。
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(00:41起):本集说它经历了「被迫用→RAG 已死→重新成为企业重大优先事项」的循环，核心用途是把专有数据安全注入只在公开数据上训练的 LLM。
 - **[[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]]**(00:05起):本集说它是把模型落地到自有数据的标准做法，但瓶颈在智能体每个查询都现场重复检索和 ETL 式整理，且概率性导致答案不一致。
 - **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(00:29起):本集讨论『RAG 是否终结』:Alex 认为说法太极端,是改造而非淘汰——有了便宜长上下文可以用跨多页大块、取前 50 条、20 路并行搜索,不必再把一切压缩进 10 万 token。
@@ -26,6 +27,7 @@ unlisted: true
 - **[[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]]**(03:02起):本集说 RAG 和搜索等工具早就基本解决了公司特定知识的检索问题，但它拿不到部落知识——换 CEO 后 RAG 搜索仍会告诉你旧答案。
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(00:45起):本集反复讨论的框架:流行的说法是「RAG 已死」,但 Yuval 认为检索没死、只是沦为 2022 年水平的基础设施;RAG 分为无聊的索引阶段和每次查询时发生的检索阶段
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(09:26起):本集把 RAG 列为四种 AI 应用形态之一(半被动):先检索相关内容再让模型作答,并用 bi encoder/cross encoder 流程讲解其原理。
+- **[[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]]**(05:37起):本集把它描述为「做一次搜索、把结果直接放进上下文窗口」的传统做法,作为智能体搜索的对照被一笔带过。
 
 ## ① 提到它的金句
 
@@ -35,7 +37,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*17 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -43,6 +45,7 @@ unlisted: true
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为概念
 - [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为概念(提及)
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为概念
+- [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]] — 作为概念
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为概念
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为概念
 - [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念
@@ -52,14 +55,15 @@ unlisted: true
 - [[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]] — 作为概念
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为概念
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为概念
+- [[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[MCP]] · [[上下文工程]] · [[Claude Code]] · [[上下文]] · [[Codex]] · [[Lenny]] · [[后训练]] · [[Garry Tan]]
+[[智能体]] · [[MCP]] · [[上下文工程]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[上下文]] · [[向量搜索]] · [[Lenny]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":297,"Anthropic":133,"MCP":49,"上下文工程":14,"Claude Code":68,"上下文":18,"Codex":54,"Lenny":67,"后训练":27,"Garry Tan":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"MCP":51,"上下文工程":15,"Anthropic":134,"Codex":55,"Claude Code":70,"上下文":18,"向量搜索":3,"Lenny":67,"后训练":27}</script>
 
 <script>
 (function(){

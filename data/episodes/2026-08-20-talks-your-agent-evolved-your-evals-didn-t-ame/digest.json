@@ -1,0 +1,154 @@
+{
+  "title_zh": "模型一换代系统就崩？evals 才是你该押注的持久资产",
+  "tldr": "Braintrust 现场 CTO Ameya Bhattavdekar 梳理 AI 应用架构五代演进，主张 evals 必须随每次架构换代同步重写。",
+  "digest_md": "这一集是 Braintrust 的现场 CTO Ameya Bhattavdekar 的演讲。Braintrust 是一个可观测性平台（帮 AI 团队看清自己系统哪里出了问题的工具），他讲的主题是：过去三年，AI 应用架构换了一代又一代，每换一代，你原来建的评估体系（evals，用来验证系统是否可靠的那套测试）就作废一层——而 evals 恰恰才是你手里最该长期投资的资产 [22:11 Unknown]。\n\n钩子在这里：demo 很容易搭，生产级很难做——这不是因为你当初建错了，而是因为你周围的一切变得太快。模型每隔几个月出一个新版本，每次都不是渐进升级，而是「阶跃式变化」：更擅长调用工具、处理超长上下文、生成能安全执行的代码、记忆系统变得实用 [02:01 Unknown]。旧系统是围绕旧模型的局限设计的——你写了一大堆补丁逻辑去兜底模型不会调工具、会出错的问题。新模型一来，这些补丁反而成了拦路石：不彻底重构架构，你根本吃不到新能力 [03:29 Unknown]。而架构一动，你的 evals 也必须跟着动，因为每个新能力都带来新的出错面 [04:26 Unknown]。\n\n## 五代架构：每一代怎么坏，evals 就怎么变\n\n他用一个贯穿全场的例子来讲：一个 SRE 智能体（运维智能体），既能读信息，也能动手——回滚一次部署，或者升级给人处理、呼叫我一个人。它有读工具也有写工具 [05:13 Unknown]。\n\n**第一代：单次提示词。** 一个输入、一次模型调用、一个输出。评估只看最终答案：准不准、有没有幻觉、是不是引用了过时的训练知识。做法是攒一个黄金数据集，定义好几套评分标准，对着答案打分。够用，但很窄——没有工具调用、没有编排、没有检索 [05:40 Unknown]。\n\n**第二代：链（Chain），典型是 RAG。** 调模型之前先跑一组步骤：解析用户输入 → 检索信息 → 拼上下文 → 交给模型综合出答案。失败点一下子多了：解析器可能提错信息、检索可能拿错上下文、模型可能在长上下文里犯迷糊（早期模型窗口虽大但推理不动，即「上下文堆塞」问题）。所以你必须对每个环节分别做 eval，才能定位哪里出了错 [06:57 Unknown]。\n\n**第三代：ReAct 循环。** 2023 年中后期到 24 年初，ReAct 论文火了：让模型在循环里跑，自己发起工具调用、看返回结果、推理出下一步，循环到满足用户意图或耗尽迭代预算。想法很好——系统不再被钉死在固定工作流里，能自我编排。但那个年代的模型撑不住：参数写错、调错工具、出现「上下文坍塌」。想法没兑现承诺 [08:14 说话人]。\n\n**第四代：工作流图。** 模型控制不住怎么办？把控制权拿回来，固化到系统里——把编排、执行、规划逻辑写成图或状态机，模型只在节点层面干活。可靠性和可预测性大幅提升，24 年底、25 年初大量生产系统是这么建的。但代价是：系统只为特定的一组意图设计，一旦用户需求超出编排范围，系统就在接缝处崩裂；你只能往图里加特殊分支去兜，失败面越堆越多——分支一致性、节点间契约、分类节点自己犯错。evals 也随之膨胀：除了整体编排，还要做节点级 eval，还要测分支逻辑和重试循环 [09:46 Unknown]。\n\n**第五代（现在）：回到循环，但这次模型扛住了。** 25 年中后期，Anthropic 和 OpenAI 推出的一些惊人的新模型能力让工具调用变得极其可靠，规划更准、能管长时程任务、偏了能自己拉回正轨。基于图的系统反而吃不到这些新能力，于是大家回头重造 ReAct 循环，这次真的能用了 [13:09 Unknown]。但新问题是方差：同一个输入跑几次，轨迹截然不同，只是答案都对。eval 的单位不再是「跑一次」，而是「跑 k 次看分布」——由此出现了两个新指标：pass at k（同一 eval 跑 k 次至少成功一次吗？衡量能力上限）和 pass wedge k（k 次里成功几次？衡量可靠性）。一个 pass at k 很高的系统，要靠 pass wedge k 才能判断它到底可不可靠 [14:32 Unknown]。\n\n再往后，系统已经不是「循环里的模型」而是「产品化系统」：外围多了记忆系统（跨会话存取经验）、代码执行沙箱（安全地跑模型生成的代码）、MCP 和技能目录（让模型接入外部能力的扩展机制）、技能仓库。你如果还拿着上一代的 evals，对这些新面就是部分覆盖——系统在新解锁的地方怎么脆弱，你根本看不见 [16:07 Unknown]。\n\n## 飞轮人人都懂，多数团队就是不做\n\n模式很清楚：模型创新 → 架构换代 → evals 必须跟着换代。归根结底，evals 是那种描述「系统应该如何运作」的持久资产，代际转换时它是你的保险：保证原来正常的东西没坏，同时新能力确实解锁了 [18:14 Unknown]。\n\n配套的是那条著名的飞轮：从生产环境采集数据 → 反哺 evals → 让 evals 反映真实世界。Ameya 说他和很多团队聊过，大家都嘴上接受，实践中大量团队并不执行——evals 基本是静态的，于是逐渐失效 [19:04 Unknown]。\n\n尤其代际转换时，你需要的机制不只是抓你「预料到」的失败（那些你已在 evals 里定义了什么算好），更要照亮「没预料到」的新失败类型——系统一定会以你没想过的新方式坏掉 [19:47 Unknown]。\n\nBraintrust 对此的做法是一个叫 Topics 的功能：对所有生产数据做聚类分析，自动浮现你没设护栏、也没写 eval 覆盖的新失败类别，团队据此扩展 eval 集合。这样既持续拿到已知失败模式的新案例，更能在架构大改时看清新失败方式，从生产数据建出有效数据集 [20:29 Unknown]。\n\n## 本集带走\n\n- **换模型 ≠ 换零件**：旧系统里兜底模型缺陷的补丁逻辑，正是吃不到新能力的原因；要吃到新解锁，就得重新架构，而不是 drop-in 替换。\n- **架构每次换代，evals 同步重写**：单次调用查答案 → 链式查每个环节 → 图架构加节点级、分支、重试 eval → 循环架构看 k 次分布。拿旧 eval 测新架构 = 系统性盲区。\n- **循环架构用两个指标分开看**：pass at k 量能力（k 次至少成一次），pass wedge k 量可靠性（k 次成几次）；能力高不等于可靠。\n- **别让 evals 静态化**：飞轮（生产数据 → 新 eval 用例）人人都认可但多数人不执行，不执行它 evals 就在悄悄失效。\n- **专门防「没想到的失败」**：用聚类分析之类的手段在生产数据里找未预期的新失败类别——系统一定会以你没预料到的方式坏。\n- **这是长期战**：模型不会放缓、没到平台期，未来几个月到几年你都要对 AI 智能体做大量「手术」，健壮的 evals 纪律是管理代际变化的根本 [22:11 Unknown]。",
+  "quotes": [
+    {
+      "en": "And so, you know, architecture follows model updates and your evals have to follow your architecture.",
+      "zh": "架构跟随模型更新，而你的 evals 必须跟随你的架构。",
+      "timestamp": "04:41",
+      "speaker": "Ameya Bhatawdekar"
+    },
+    {
+      "en": "You take the control and you bake that control into the system that you're building around the model.",
+      "zh": "你接过控制权，并把这种控制固化到你在模型周围构建的系统中。",
+      "timestamp": "09:51",
+      "speaker": "Ameya Bhatawdekar"
+    },
+    {
+      "en": "You expect a certain set of applications or user interactions to work well because they can be fulfilled by the orchestration that you have designed, but when the user intent requires other things to happen beyond what's specified in the orchestration, the system can start breaking at the seams.",
+      "zh": "你期望某一套应用或用户交互能很好地工作，因为它们可以由你设计好的编排来完成，但当用户意图需要超出编排所规定范围的其他事情时，系统就会开始在接缝处崩裂。",
+      "timestamp": "10:55",
+      "speaker": "Ameya Bhatawdekar"
+    },
+    {
+      "en": "Because ultimately, it's the evals that are sort of your durable asset that describe how your system is supposed to work.",
+      "zh": "因为归根结底，evals 才是那种描述你的系统应该如何运作的持久资产。",
+      "timestamp": "18:14",
+      "speaker": "Ameya Bhatawdekar"
+    },
+    {
+      "en": "You'll be doing a lot of surgery on your AI agents in the coming months, years.",
+      "zh": "在接下来的几个月、几年里，你将会对你的 AI 智能体做大量的「手术」。",
+      "timestamp": "22:36",
+      "speaker": "Ameya Bhatawdekar"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:14",
+      "speaker": "Unknown",
+      "en": "I think everyone's probably experienced the same pattern, which is like how building a demo with AI is really easy, but making it production quality is really hard.",
+      "zh": "我想每个人都经历过同样的模式：用 AI 搭一个 demo 真的很容易，但把它做到生产级别真的很难。"
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Unknown",
+      "en": "And the challenge is not because you built it the wrong way.",
+      "zh": "而这个挑战并不是因为你以错误的方式构建了它。"
+    },
+    {
+      "timestamp": "01:40",
+      "speaker": "Unknown",
+      "en": "The challenge is because the system around you is evolving and changing so dynamically, so rapidly.",
+      "zh": "这个挑战是因为你周围的系统在如此动态、如此快速地演进和变化。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "It was not an incremental change to the previous state of art.",
+      "zh": "它不是对之前技术水平的一次渐进式改动。"
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Unknown",
+      "en": "It was a step function change, right?",
+      "zh": "它是一次阶跃式变化，对吧？"
+    },
+    {
+      "timestamp": "04:41",
+      "speaker": "Unknown",
+      "en": "And so, you know, architecture follows model updates and your evals have to follow your architecture.",
+      "zh": "架构跟随模型更新，而你的 evals 必须跟随你的架构。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "And so what do you do when your model can't be controlled, right?",
+      "zh": "那么，当你的模型无法被控制时，你会怎么做，对吧？"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Unknown",
+      "en": "You take the control and you bake that control into the system that you're building around the model.",
+      "zh": "你接过控制权，并把这种控制固化到你在模型周围构建的系统中。"
+    },
+    {
+      "timestamp": "10:55",
+      "speaker": "Unknown",
+      "en": "You expect a certain set of applications or user interactions to work well because they can be fulfilled by the orchestration that you have designed, but when the user intent requires other things to happen beyond what's specified in the orchestration, the system can start breaking at the seams.",
+      "zh": "你期望某一套应用或用户交互能很好地工作，因为它们可以由你设计好的编排来完成，但当用户意图需要超出编排所规定范围的其他事情时，系统就会开始在接缝处崩裂。"
+    },
+    {
+      "timestamp": "14:36",
+      "speaker": "Unknown",
+      "en": "So every trajectory for the same input, if you ran it a couple of times, you would see dramatically different trajectories while yielding the right answer.",
+      "zh": "对于同一个输入的每条轨迹，如果你运行几次，你会看到截然不同的轨迹，但同时都给出正确的答案。"
+    },
+    {
+      "timestamp": "15:28",
+      "speaker": "Unknown",
+      "en": "And that is a measure of its capability.",
+      "zh": "那是对其能力的一种度量。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Unknown",
+      "en": "That's a measure of its reliability.",
+      "zh": "那是对其可靠性的一种度量。"
+    },
+    {
+      "timestamp": "17:36",
+      "speaker": "Unknown",
+      "en": "You're not going to see how your system is fragile in ways",
+      "zh": "你不会看到你的系统在哪些方面是脆弱的。"
+    },
+    {
+      "timestamp": "18:14",
+      "speaker": "Unknown",
+      "en": "Because ultimately, it's the evals that are sort of your durable asset that describe how your system is supposed to work.",
+      "zh": "因为归根结底，evals 才是那种描述你的系统应该如何运作的持久资产。"
+    },
+    {
+      "timestamp": "19:59",
+      "speaker": "Unknown",
+      "en": "The system is going to fail in new and novel ways, in ways that you might not have anticipated, and you now need to start harvesting that data in a meaningful way, and you want to do this again as part of the flywheel.",
+      "zh": "系统会以新的、新颖的方式失败，以你可能没有预料到的方式失败，而你现在需要开始以有意义的方式采集那些数据，而且你想再次把这作为飞轮的一部分来做。"
+    },
+    {
+      "timestamp": "22:19",
+      "speaker": "Unknown",
+      "en": "I don't think we are going to see any slowdown.",
+      "zh": "我不认为我们会看到任何放缓。"
+    },
+    {
+      "timestamp": "22:21",
+      "speaker": "Unknown",
+      "en": "I don't think we have hit a plateau yet.",
+      "zh": "我不认为我们已经触及了平台期。"
+    },
+    {
+      "timestamp": "22:36",
+      "speaker": "Unknown",
+      "en": "You'll be doing a lot of surgery on your AI agents in the coming months, years.",
+      "zh": "在接下来的几个月、几年里，你将会对你的 AI 智能体做大量的「手术」。"
+    },
+    {
+      "timestamp": "23:06",
+      "speaker": "Unknown",
+      "en": "And so building out like a robust evals discipline with the right tools and the right automation and the right systems becomes paramount to manage these generational changes.",
+      "zh": "因此，用正确的工具、正确的自动化和正确的系统来建立一套健壮的 evals 纪律，对于管理这些代际变化来说变得至关重要。"
+    }
+  ],
+  "voice_script": "今天要给你讲的是 Braintrust 的现场 CTO Ameya Bhattavdekar 的一场演讲。Braintrust 是一个可观测性平台，说白了，就是帮做 AI 的团队看清自己系统到底哪里出了问题的工具。这场演讲聊的问题特别实在：过去三年，AI 应用的架构换了一代又一代，每换一代，你原来辛辛苦苦建的那套评估体系，也就是 evals，就作废一层。而 evals 是什么呢？就是用来验证系统是否可靠的那套测试。演讲的核心主张是：恰恰是这套东西，才是你手里最该长期投资的资产。\n\n先说说这个问题的来龙去脉。你有没有过这种体验：AI 应用做个 demo 很容易，一到生产环境就各种崩。很多人以为是自己当初建错了，Ameya 说，不是。是你周围的一切变得太快了。模型每隔几个月就出一个新版本，而且每次都不是小打小闹的升级，是阶跃式的变化：更擅长调用工具了，能处理超长上下文了，生成的代码能安全执行了，记忆系统也实用了。麻烦就出在这儿——你的旧系统是围绕旧模型的局限设计的。当年模型不会调工具、老出错，你写了一大堆补丁逻辑去兜底。新模型一来，这些补丁反而成了拦路石。不彻底重构架构，你根本吃不到新能力。而架构一动，evals 也必须跟着动，因为每个新能力都会带来新的出错面。\n\n道理听着抽象，演讲里用了一个贯穿全场的例子：一个 SRE 智能体，就是运维智能体。它既能读信息，也能动手——比如回滚一次部署，或者判断这事该升级给人处理，直接呼叫我一个人。它有读工具，也有写工具。五代架构的演进，都拿这个例子来讲。\n\n第一代，单次提示词。一个输入，一次模型调用，一个输出，就这么简单。评估也简单：只看最终答案，准不准，有没有幻觉，是不是引用了过时的训练知识。做法是攒一个黄金数据集，定义好几套评分标准，对着答案打分。够用，但很窄，没有工具调用，没有编排，没有检索。\n\n于是就有了第二代：链，最典型的就是 RAG。思路是调模型之前先跑一组步骤：先解析用户输入，再去检索信息，把检索到的拼进上下文，最后交给模型综合出答案。你注意，失败点一下子就多了：解析器可能提错信息，检索可能拿错上下文，模型还可能在长上下文里犯迷糊——早期模型窗口虽大但推理不动，有个说法叫上下文堆塞。所以这一代的 evals 就得变了：必须对每个环节分别做评估，才能定位到底哪里出了错。\n\n那模型要是自己控制流程行不行？这就引出了第三代：ReAct 循环。2023 年中后期，ReAct 这篇论文火了，思路是让模型在一个循环里跑：自己发起工具调用，看返回结果，推理出下一步，循环往复，直到满足用户意图，或者耗尽迭代预算。想法非常好——系统不再被钉死在固定工作流里，能自我编排了。但那个年代的模型撑不住：参数写错、调错工具、出现上下文坍塌。一句话，想法没兑现承诺。\n\n模型控制不住怎么办？演讲里那句原话特别传神：你接过控制权，并把这种控制固化到你在模型周围构建的系统中。这就是第四代：工作流图。把编排、执行、规划逻辑写成图或者状态机，模型只在节点层面干活。这么一改，可靠性和可预测性大幅提升，24 年底、25 年初的大量生产系统就是这么建的。但代价也来了。原话是这么说的：你期望某一套用户交互能很好地工作，因为它们可以由你设计好的编排来完成，但当用户意图超出编排范围时，系统就会开始在接缝处崩裂。你只能往图里加特殊分支去兜，失败面越堆越多。evals 也随之膨胀：除了整体编排，还要做节点级的评估，还要测分支逻辑和重试循环。\n\n然后就是现在，第五代，回到了循环——但这次模型扛住了。25 年中后期，Anthropic 和 OpenAI 推出的新模型，让工具调用变得极其可靠，规划更准，能管长时程任务，跑偏了自己能拉回正轨。有意思的是，基于图的系统反而吃不到这些新能力，于是大家回头重造 ReAct 循环，这次真的能用了。但新问题也冒出来了：方差。同一个输入跑几次，轨迹截然不同，只是答案都对。这直接改变了 eval 的单位——不再是跑一次看结果，而是跑 k 次看分布。由此出现了两个新指标：一个叫 pass at k，意思是同一评估跑 k 次，至少成功一次吗？衡量的是能力上限。另一个叫 pass wedge k，意思是 k 次里成功了几次？衡量的是可靠性。一个 pass at k 很高的系统，得靠 pass wedge k 才能判断它到底可不可靠——能力高不等于可靠。\n\n再往后，系统已经不是循环里的模型那么简单，而是一个产品化系统：外围多了记忆系统，跨会话存取经验；有代码执行沙箱，安全地跑模型生成的代码；还有 MCP 和技能目录这类扩展机制。演讲里的提醒是：你如果还拿着上一代的 evals，对这些新面就只是部分覆盖——系统在新解锁的地方怎么脆弱，你根本看不见。\n\n说到这儿，模式已经很清楚了：模型创新，架构换代，evals 必须跟着换代。配套的还有那条著名的飞轮：从生产环境采集数据，反哺 evals，让评估反映真实世界。但 Ameya 说，他和很多团队聊过，大家都嘴上接受，实践中大量团队就是不执行。evals 基本是静态的，于是悄悄失效。尤其代际转换的时候，光有静态的 evals 还不够——你需要的不只是抓那些你预料到的失败，更要照亮没预料到的新失败类型，因为系统一定会以你没想过的方式坏掉。Braintrust 自己的做法是一个叫 Topics 的功能：对生产数据做聚类分析，自动浮现你没设护栏、也没写评估覆盖的新失败类别，团队据此扩展评估集合。\n\n最后把这条线收拢一下：换模型不等于换零件，旧系统里兜底缺陷的补丁逻辑，恰恰是你吃不到新能力的原因。架构每次换代，evals 就得同步重写，拿旧评估测新架构，等于系统性盲区。而且别指望这事会结束——原话说，在接下来的几个月、几年里，你将会对你的 AI 智能体做大量的手术。架构跟随模型更新，而你的 evals 必须跟随你的架构——因为归根结底，evals 才是那种描述你的系统应该如何运作的持久资产。"
+}

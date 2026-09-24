@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":52,"Sofia Puccini":4,"智能体":297,"Theo Jaffe":6,"应用层":3,"Anthropic":133,"LLM 套壳":1,"OpenAI":125}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":6,"推理":52,"Sofia Puccini":4,"智能体":301,"Theo Jaffe":6,"应用层":3,"Anthropic":134,"LLM 套壳":1,"OpenAI":126}</script>
 
 <script>
 (function(){

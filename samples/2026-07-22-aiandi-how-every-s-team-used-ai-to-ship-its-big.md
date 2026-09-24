@@ -115,8 +115,8 @@ Austin 的心法是挑一个「你最兴奋地想发消息告诉朋友『嘿我�
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:Codex、OpenAI、Claude · 同概念:智能体 (agent)、MCP</span>
+- [[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|不写一行代码，一个人 shipping 一整个产品：复利工程方法论]]<span class="pd-rz">同公司:Every、Codex、Cursor · 同概念:compound engineering、智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex、Cursor、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:Codex、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

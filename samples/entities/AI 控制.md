@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ryan Greenblatt]] · [[Matt Turk]] · [[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Google DeepMind]] · [[Meta]] · [[Hugging Face]] · [[超级智能]] · [[AI 伪装对齐]]
 
-<script type="application/json" class="pd-epn">{"Ryan Greenblatt":2,"Matt Turk":3,"Redwood Research":3,"OpenAI":125,"Anthropic":133,"Google DeepMind":4,"Meta":35,"Hugging Face":22,"超级智能":4,"AI 伪装对齐":1}</script>
+<script type="application/json" class="pd-epn">{"Ryan Greenblatt":2,"Matt Turk":3,"Redwood Research":3,"OpenAI":126,"Anthropic":134,"Google DeepMind":4,"Meta":35,"Hugging Face":22,"超级智能":4,"AI 伪装对齐":1}</script>
 
 <script>
 (function(){

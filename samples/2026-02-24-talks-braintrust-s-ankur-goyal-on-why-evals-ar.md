@@ -173,8 +173,8 @@ AI 的本质是「定义做什么，而不是怎么做」。既然模型不可�
 **换个口味**
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同公司:Brainstore、Braintrust · 同概念:智能体 (agent)、评测 (evals)、提示词 (prompt)</span>
+- [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|模型一换代系统就崩？evals 才是你该押注的持久资产]]<span class="pd-rz">同公司:Braintrust · 同概念:智能体 (agent)、评测 (evals)、可观测性 (observability)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)、评测 (evals)</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测 (evals)</span>
 
 </div>
 </div>

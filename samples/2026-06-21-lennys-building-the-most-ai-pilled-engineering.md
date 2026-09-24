@@ -109,7 +109,7 @@ Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，�
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:Anthropic · 同概念:IC</span>
-- [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局]]<span class="pd-rz">同公司:Anthropic · 同概念:IC</span>
+- [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":297,"harness 工程":2,"Bedrock AgentCore":1,"MCP":49,"记忆":14,"多租户隔离":1,"可观测性":26,"基础设施即代码":1,"系统提示词":6,"Claude Code":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"harness 工程":2,"Bedrock AgentCore":1,"MCP":51,"记忆":15,"多租户隔离":1,"可观测性":27,"基础设施即代码":1,"系统提示词":6,"Claude Code":70}</script>
 
 <script>
 (function(){

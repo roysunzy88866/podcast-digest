@@ -1,0 +1,983 @@
+{
+  "episode_id": "2026-09-24-sed-chroma-and-agentic-retrieval",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-24",
+  "tags": [
+    "AI 基础设施",
+    "检索与向量搜索",
+    "上下文工程",
+    "开源模型",
+    "BYOC"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "hamad-bashir",
+      "type": "person",
+      "role": "host",
+      "name": "Hamad Bashir",
+      "file": "Hamad Bashir",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            91.653,
+            98.761
+          ],
+          "quote": "Hamad Bashir is the CTO of Chroma, with a background spanning machine learning, computer vision, and data systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            151.258,
+            154.3
+          ],
+          "quote": "My guest today is Hamad Bashir from Chroma.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "gregor-vand",
+      "type": "person",
+      "role": "cohost",
+      "name": "Gregor Vand",
+      "file": "Gregor Vand",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            119.511,
+            129.22
+          ],
+          "quote": "Gregor Vand is a security-focused technologist, having previously been a CTO across cybersecurity, cyber insurance, and general software engineering companies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chroma",
+      "type": "company",
+      "role": "company",
+      "name": "Chroma",
+      "file": "Chroma",
+      "primary": true,
+      "how_described": "本集主题公司:为 AI 应用构建开源基础设施,核心是让模型获得所需上下文;嘉宾 Hamad 是其 CTO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            60.352,
+            68.055
+          ],
+          "quote": "Chroma is a company building open-source infrastructure for AI applications, best known for its widely used database of the same name.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            91.653,
+            98.761
+          ],
+          "quote": "Hamad Bashir is the CTO of Chroma, with a background spanning machine learning, computer vision, and data systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            99.342,
+            118.611
+          ],
+          "quote": "In this episode, Hamad joins Gregor Vann to discuss the origins of ChromaDB, our current understanding of context rot, why a purpose-built small model can match frontier models on search tasks, the philosophy behind Chroma's open-source approach, and where the company sees AI data infrastructure heading.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            151.258,
+            154.3
+          ],
+          "quote": "My guest today is Hamad Bashir from Chroma.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 23,
+          "t": [
+            157.662,
+            159.663
+          ],
+          "quote": "So we're going to be hearing all about Chroma.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 26,
+          "t": [
+            174.93,
+            178.112
+          ],
+          "quote": "What's your quick path to getting to Chroma and all that?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 29,
+          "t": [
+            193.764,
+            205.77
+          ],
+          "quote": "And initially when we started on Chroma, the problem that we were solving is one of active learning for computer vision systems, which is the problem of every day you have a bunch of live deployed computer vision systems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            236.386,
+            247.458
+          ],
+          "quote": "Which is the stack of tools that we now build at Chroma is a stack of tools to help people develop search for their downstream AI applications so that they can get the right information or the right context into their language models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            248.743,
+            253.991
+          ],
+          "quote": "So yeah, interesting background leading into like how, I guess, everything that you guys are now doing at Chroma.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 41,
+          "t": [
+            256.756,
+            257.737
+          ],
+          "quote": "What is Chroma?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 42,
+          "t": [
+            258.078,
+            261.223
+          ],
+          "quote": "There's a few bits to the product, but like roughly speaking, what is Chroma?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 43,
+          "t": [
+            261.707,
+            266.511
+          ],
+          "quote": "So Chroma, at its core, is trying to solve the problem of getting models the context they need.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            419.824,
+            427.266
+          ],
+          "quote": "So I think just looking at Chroma generally, when I first came across this space, vector search was such a big thing for a while.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 75,
+          "t": [
+            433.991,
+            443.205
+          ],
+          "quote": "So if we kind of start there, like I guess the journey of Chroma from its founding, I guess, or when you came into Chroma and what were you working on at the start and like how has that evolved?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 129,
+          "t": [
+            745.954,
+            756.259
+          ],
+          "quote": "There was a paper that Chroma put out last year called Context Rot, which I think has become, especially in certain circles, very respected and understood for what it uncovered.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2002.345,
+            2007.007
+          ],
+          "quote": "So Chroma is an open source company, like even our core database is Apache 2.0.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2009.688,
+            2021.632
+          ],
+          "quote": "Before Chroma, I wouldn't say I was the largest, you know, open source zealot, but I've over the years, you know, become a card carrying open source member or whatever you want to call it, where I'm quite zealous about things being open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2048.466,
+            2053.53
+          ],
+          "quote": "And the way that Chroma initially grew as a product in the market was we offered a local version of the database.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2149.521,
+            2155.282
+          ],
+          "quote": "If we just look at the product stack of Chroma, there's database, there's sync, and the agent product.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2169.366,
+            2176.291
+          ],
+          "quote": "Yeah, I think most people, their first interaction with Chroma to date is the local embedded version of the database.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2262.89,
+            2267.351
+          ],
+          "quote": "And then we'll just automatically keep those sources in sync with your database, with your Chroma.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2377.148,
+            2405.297
+          ],
+          "quote": "Could you like talk to me a bit about when in Chroma's journey did this come about and why and small anecdote from talking to someone who is in the current YC batch and they were actually asking me and saying oh we're being pushed to you know by a certain big customer to do BYOC and I said really think about that strongly because that's a big undertaking and of course they're going to say they want that but don't take that on lightly I think you could probably help",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3115.467,
+            3119.748
+          ],
+          "quote": "Yeah, pip install chroma db, chroma db run is all you need to do to get up and running.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3120.268,
+            3122.409
+          ],
+          "quote": "But then if you're interested in learning more, try chroma.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3124.889,
+            3125.97
+          ],
+          "quote": "What's in the name chroma?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3139.893,
+            3145.694
+          ],
+          "quote": "So definitely do encourage people to go to chroma.com and check that out because I think you guys have done a great job with that as well.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3152.895,
+            3154.876
+          ],
+          "quote": "And we'll be following along with Chroma.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "chromadb",
+      "type": "company",
+      "role": "company",
+      "name": "ChromaDB",
+      "file": "ChromaDB",
+      "primary": true,
+      "how_described": "本集说 Chroma 的核心数据库,完全建在对象存储之上,支持向量/全文/元数据搜索,与语言模型配合广泛使用;因「每客户一个索引」的海量分区索引负载而生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            99.342,
+            118.611
+          ],
+          "quote": "In this episode, Hamad joins Gregor Vann to discuss the origins of ChromaDB, our current understanding of context rot, why a purpose-built small model can match frontier models on search tasks, the philosophy behind Chroma's open-source approach, and where the company sees AI data infrastructure heading.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            274.118,
+            279.082
+          ],
+          "quote": "The core of it is the product that most people use, which is our core database, so ChromaDB.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            610.092,
+            622.405
+          ],
+          "quote": "And so what we did is leverage that functionality in order to be able to build our database, ChromaDB, on top of object storage so that the economics would be something that make applications for AI actually viable.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context-1",
+      "type": "company",
+      "role": "company",
+      "name": "Context 1",
+      "file": "Context 1",
+      "primary": true,
+      "how_described": "本集重点介绍的 Chroma 新产品:基于 GPTOSS 20B、经 SFT+强化学习训练的 200 亿参数检索子智能体,做智能体搜索时以前沿模型质量但 10 倍速、1/10 成本运行,权重以 Apache 许可开源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.556,
+            80.501
+          ],
+          "quote": "The company also published the Influential Context Rot paper, which documented how model performance degrades as context window utilization increases, and recently released Context 1.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            326.887,
+            330.589
+          ],
+          "quote": "And then quite recently, earlier this year, we launched a product we call Context 1.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            741.052,
+            745.774
+          ],
+          "quote": "I'd love to go into the journey, especially towards Context 1.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1638.563,
+            1643.684
+          ],
+          "quote": "So when we trained Context 1, the base model is actually GPTOSS 20B, so it's a 20 billion parameter model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1754.47,
+            1770.955
+          ],
+          "quote": "I think if we just like look at how, like what the result of this is, I think it was stated that Context 1 at 20B matches, this isn't that long ago, so Opus 4.5, Sonnet 4.5, Gemini 3.1, Pro, and sort of most of your benchmarks.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "context-rot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Context Rot",
+      "file": "Context Rot",
+      "primary": true,
+      "how_described": "本集说这是 Chroma 发表的实证研究:随上下文窗口利用率增加,模型性能在几万 token 量级急剧退化,干扰项越多越糟,且历经数代前沿模型仍未解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.556,
+            80.501
+          ],
+          "quote": "The company also published the Influential Context Rot paper, which documented how model performance degrades as context window utilization increases, and recently released Context 1.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            99.342,
+            118.611
+          ],
+          "quote": "In this episode, Hamad joins Gregor Vann to discuss the origins of ChromaDB, our current understanding of context rot, why a purpose-built small model can match frontier models on search tasks, the philosophy behind Chroma's open-source approach, and where the company sees AI data infrastructure heading.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            745.954,
+            756.259
+          ],
+          "quote": "There was a paper that Chroma put out last year called Context Rot, which I think has become, especially in certain circles, very respected and understood for what it uncovered.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 131,
+          "t": [
+            760.181,
+            766.444
+          ],
+          "quote": "Could you just walk through the core of what the Context Rot finding was, especially for anyone that hasn't read the paper?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 146,
+          "t": [
+            877.723,
+            890.832
+          ],
+          "quote": "And I think that process is one that requires a lot of care in choosing not just like what queries you make, but also how you structure the data, how you prompt the model, what data you give it access to in order to not suffer from this problem of context rot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 147,
+          "t": [
+            891.452,
+            902
+          ],
+          "quote": "Because even if you solve the problem of context rot, because of the way that models work, it's quite cost prohibitive to just assume that you can grow the model's context window ad infinitum.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2844.261,
+            2852.39
+          ],
+          "quote": "Could things converge back to, you know, a frontier large model is actually going to get good enough at this stuff and context rot isn't such a thing anymore?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agentic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体搜索 (agentic search)",
+      "file": "智能体搜索",
+      "primary": true,
+      "how_described": "本集说它是模型自己把高层查询分解成多组查询、读文档、迭代执行直到满意的搜索方式,比一次性 RAG 更强但用大模型做成本高昂;是 Context 1 的目标任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            81.041,
+            91.173
+          ],
+          "quote": "A 20 billion parameter retrieval sub-agent trained to do agentic search at frontier model quality but at an order of magnitude lower cost and higher speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            334.51,
+            336.69
+          ],
+          "quote": "What it is is a model that does agentic search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            337.151,
+            348.734
+          ],
+          "quote": "So agentic search is the process of instead of a language model application, just doing a single search and then putting that search into the context window directly, a process commonly known as RAG or retrieval augmented generation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1503.093,
+            1517.163
+          ],
+          "quote": "Yeah, I think, I mean, the standard paradigm for any agentic search harness is you just want to give the model two tools, which is one, allow it to search, and the second is allow it to fetch results that it sees.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1568.4,
+            1578.026
+          ],
+          "quote": "And doing agentic search is a very token heavy process because every document that you touch you end up loading into the context window and you very quickly process a very large volume of tokens very quickly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1803.621,
+            1812.225
+          ],
+          "quote": "And if you can just figure out the right time to deploy those tasks, and if you can figure out how to be good at those subtasks, then you can be good at agentic search.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2281.618,
+            2288.61
+          ],
+          "quote": "I think agentic search is still new enough that people tend to be adopting it fairly late into their",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集说它是检索问题的早期答案,但现有向量搜索系统围绕单个大索引设计、被分区后准确度下降,不适合 AI 应用海量小索引的负载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.618,
+            47.843
+          ],
+          "quote": "Vector search was an early answer to the retrieval problem, but the rise of agentic systems has raised the stakes considerably.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            284.225,
+            296.089
+          ],
+          "quote": "What it does is you can very easily ingest data into it and use a variety of different search techniques, vector search, full text search, metadata search, in order to get information that might be relevant to a language model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            419.824,
+            427.266
+          ],
+          "quote": "So I think just looking at Chroma generally, when I first came across this space, vector search was such a big thing for a while.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 84,
+          "t": [
+            483.955,
+            487.175
+          ],
+          "quote": "And actually the way we went about solving it was using existing vector search solutions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            555.177,
+            560.419
+          ],
+          "quote": "And then two, you have to deal with the accuracy degradation in vector search when everything is in one index.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            560.599,
+            562.64
+          ],
+          "quote": "Vector search doesn't do well with being partitioned.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说是「如何选择放进上下文窗口的信息,以最大化模型下一轮成功的机会」,包括查询、数据组织、提示词和给模型访问什么数据;Context Rot 使它成为必修课。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            862.375,
+            867.136
+          ],
+          "quote": "But we have, I think, been okay with adopting the term context engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            933.048,
+            937.993
+          ],
+          "quote": "And nowadays this context engineering is simply like the way it has to be done.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "small-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "小模型 (small model)",
+      "file": "小模型",
+      "primary": true,
+      "how_described": "本集的核心论点:搜索是行为不是推理,是意图分解、相关性判断、迭代执行等窄任务的串联,不需要大量原始智能;专门训练的 20B 小模型能匹配前沿大模型,且可用 LoRA 在窄语料库上廉价微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            99.342,
+            118.611
+          ],
+          "quote": "In this episode, Hamad joins Gregor Vann to discuss the origins of ChromaDB, our current understanding of context rot, why a purpose-built small model can match frontier models on search tasks, the philosophy behind Chroma's open-source approach, and where the company sees AI data infrastructure heading.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1543.322,
+            1547.825
+          ],
+          "quote": "Our belief was that for leveraging a small model, this would be a very difficult endeavor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1555.431,
+            1561.375
+          ],
+          "quote": "And so how could we avoid any lossiness in the small model due to its inefficiencies and its inaccuracies?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1774.376,
+            1780.978
+          ],
+          "quote": "So I mean like, what's kind of your read on why a purpose-trained small model can actually get there, I guess?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1942.281,
+            1961.572
+          ],
+          "quote": "And so a larger language model will probably always outperform a smaller one at steady state, but the smaller ones are cheap enough to fine tune using LoRa that on narrow enough corpuses, you can very quickly also fine tune a small model on a narrow corpus and make it better at individualized corpuses and personalize the model for specific tasks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "byoc",
+      "type": "concept",
+      "role": "concept",
+      "name": "BYOC",
+      "file": "BYOC",
+      "primary": true,
+      "how_described": "本集说 BYOC 是把代码部署进客户 VPC、控制平面留在己方的部署模式;Hamad 强烈建议不要轻易接——必须从第一天设计、事后补不上、极大牺牲速度,但能过安全与合规审查,是大企业的入场券。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            2367.106,
+            2376.428
+          ],
+          "quote": "If we sort of look at like how a larger enterprise would want to use something like this, you guys have quite a bit of material on what's called BYOC, so bring your own cloud.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2377.148,
+            2405.297
+          ],
+          "quote": "Could you like talk to me a bit about when in Chroma's journey did this come about and why and small anecdote from talking to someone who is in the current YC batch and they were actually asking me and saying oh we're being pushed to you know by a certain big customer to do BYOC and I said really think about that strongly because that's a big undertaking and of course they're going to say they want that but don't take that on lightly I think you could probably help",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2430.166,
+            2433.788
+          ],
+          "quote": "So BYOC for us means we deploy our",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2583.641,
+            2589.263
+          ],
+          "quote": "That said, when BYOC started, I think it was pretty debated whether it was a deployment model that made sense at all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2610.434,
+            2611.875
+          ],
+          "quote": "And I think BYOC is great for that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2641.391,
+            2654.938
+          ],
+          "quote": "When we initially started talking to customers about doing BYOC, there were some customers who were quite negative about having any data on our side, even telemetry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2804.381,
+            2815.608
+          ],
+          "quote": "As an infrastructure product as yourselves, it kind of seems like the only way, but there will be other products out there that don't start that way and does make something like a BYOC deployment even more complex.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2816.289,
+            2821.092
+          ],
+          "quote": "If you came to me six months in and you were like, we're doing BYOC, I would have been like, we can't, we absolutely can't.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weights)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说开放权重模型在过去一年大幅追赶闭源、差距持续缩小,Context 1 的训练就字面意义上受益于开放权重模型,因此开源是正和游戏,现在不是零和思维的时候。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1863.346,
+            1869.515
+          ],
+          "quote": "We also have an additional supervised fine tuning stage, which uses synthetic data and data distilled from open weights models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1869.796,
+            1873.641
+          ],
+          "quote": "So we take open weights models and we distill their behaviors into the smaller model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "self-editing-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "自编辑上下文 (self-editing context)",
+      "file": "自编辑上下文",
+      "primary": true,
+      "how_described": "本集说这是 Context 1 的核心创新:给模型一个 prune chunks 工具,让它回过头从自己的上下文窗口移除已判断不相关的文档,替代有信息损失的压缩方案,把窗口保持在约 32,000 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1524.388,
+            1531.154
+          ],
+          "quote": "And then the one thing that we were interested in is this idea of self-editing context or active context management.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": false,
+      "how_described": "本集把它描述为「做一次搜索、把结果直接放进上下文窗口」的传统做法,作为智能体搜索的对照被一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            337.151,
+            348.734
+          ],
+          "quote": "So agentic search is the process of instead of a language model application, just doing a single search and then putting that search into the context window directly, a process commonly known as RAG or retrieval augmented generation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            918.232,
+            932.827
+          ],
+          "quote": "If I think back to, I think it was November 24, something like that, when RAG was suddenly like a buzzword and people barely even understood this idea of, okay, if I add a document basically to my prompt and then tell it to do things.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "object-storage",
+      "type": "concept",
+      "role": "concept",
+      "name": "对象存储 (object storage)",
+      "file": "对象存储",
+      "primary": false,
+      "how_described": "本集说条件写入(2024 年 AWS 才推出)让在对象存储上构建数据库成为可能,ChromaDB 的经济性正是靠它撑起「每客户一个索引」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            588.877,
+            592.239
+          ],
+          "quote": "And the core of it was at the time object storage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            606.089,
+            609.492
+          ],
+          "quote": "And conditional rights allow you to actually build a database on top of object storage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            610.092,
+            622.405
+          ],
+          "quote": "And so what we did is leverage that functionality in order to be able to build our database, ChromaDB, on top of object storage so that the economics would be something that make applications for AI actually viable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            637.453,
+            654.057
+          ],
+          "quote": "So by building a database solely on top of object storage and then providing a really easy to use user experience on top of that, we just built that initially for ourselves, for us to be able to serve the workload that we wanted to serve, which was, hey, how do we choose what data to put into language models at runtime?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2980.103,
+            2994.835
+          ],
+          "quote": "And so if you can build a system that manages that all in one place and makes it very cheap to move compute closer to the data by leveraging object storage, by leveraging a shared storage layer, such that if I want to, for example, just run asynchronous language model jobs on my data, I can.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说 Context 1 的训练分两阶段:先用合成数据和蒸馏做监督微调,再上强化学习,把剪枝准确率从约 80% 提到 95% 以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            385.462,
+            396.43
+          ],
+          "quote": "So context one is a model that was trained using reinforcement learning to be just as good at frontier models at this process, but at an order of magnitude less cost and an order of magnitude more speed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1860.863,
+            1862.806
+          ],
+          "quote": "It's not only trained through reinforcement learning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1904.475,
+            1916.684
+          ],
+          "quote": "And so if you just, you know, do some amount of SFT or synthetic fine tuning on the model in order to teach it that behavior from the data, it very quickly gets better at that and leverages it even before you do any sort of reinforcement learning.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -35,7 +35,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]]
+[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]]
 
 </div>
 

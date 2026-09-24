@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"UiPath":2,"Anthropic":133,"OpenAI":125,"NVIDIA":42,"Fireworks":5,"Hugging Face":22,"智能体":297,"编码智能体":15,"开源":25}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"UiPath":2,"Anthropic":134,"OpenAI":126,"NVIDIA":42,"Fireworks":5,"Hugging Face":22,"智能体":301,"编码智能体":17,"开源":25}</script>
 
 <script>
 (function(){

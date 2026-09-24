@@ -1,0 +1,1890 @@
+[
+ {
+  "seg": 0,
+  "start": 13.413,
+  "end": 13.954,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.256,
+  "end": 15.817,
+  "speaker": "Unknown",
+  "en": "Thanks for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 2,
+  "start": 16.778,
+  "end": 17.679,
+  "speaker": "Unknown",
+  "en": "I'm Hirsh Agarwal.",
+  "zh": "我是 Hirsh Agarwal。"
+ },
+ {
+  "seg": 3,
+  "start": 17.72,
+  "end": 21.425,
+  "speaker": "Unknown",
+  "en": "I'm the CTO and co-founder of The Browser Company, makers of the Arc and Dia browsers.",
+  "zh": "我是 The Browser Company 的 CTO 和联合创始人，我们做了 Arc 和 Dia 浏览器。"
+ },
+ {
+  "seg": 4,
+  "start": 22.106,
+  "end": 27.414,
+  "speaker": "Unknown",
+  "en": "And I'm going to talk about prototyping as leadership as you get to a manager schedule, how you can keep building.",
+  "zh": "今天我要讲的是，当你进入管理者日程后，如何把原型开发当作一种领导力，如何继续保持动手构建。"
+ },
+ {
+  "seg": 5,
+  "start": 28.427,
+  "end": 31.788,
+  "speaker": "Unknown",
+  "en": "So this is my actual calendar from last week.",
+  "zh": "这是我上周的真实日历。"
+ },
+ {
+  "seg": 6,
+  "start": 32.408,
+  "end": 35.169,
+  "speaker": "Unknown",
+  "en": "I imagine this is kind of familiar to some of you in leadership.",
+  "zh": "我猜这对你们中一些身处领导岗位的人来说有点眼熟。"
+ },
+ {
+  "seg": 7,
+  "start": 35.189,
+  "end": 38.31,
+  "speaker": "Unknown",
+  "en": "That was my actual week.",
+  "zh": "那就是我真实的一周。"
+ },
+ {
+  "seg": 8,
+  "start": 38.33,
+  "end": 40.37,
+  "speaker": "Unknown",
+  "en": "I have a whole org that reports up into me.",
+  "zh": "我下面有一整个组织向我汇报。"
+ },
+ {
+  "seg": 9,
+  "start": 40.45,
+  "end": 47.993,
+  "speaker": "Unknown",
+  "en": "So I have 15-plus recurring meetings a week, stand-ups, reviews, recruiting meetings, et cetera, and seven direct reports.",
+  "zh": "我每周有超过 15 个固定会议，站会、评审、招聘会议等等，还有 7 个直属下属。"
+ },
+ {
+  "seg": 10,
+  "start": 48.413,
+  "end": 52.754,
+  "speaker": "Unknown",
+  "en": "And I've noticed something over the last several months, which is I've started to consistently ship",
+  "zh": "我在过去几个月注意到一件事，就是我开始持续地交付代码"
+ },
+ {
+  "seg": 11,
+  "start": 53.134,
+  "end": 55.096,
+  "speaker": "Unknown",
+  "en": "You know, 2 to 10 PRs a week.",
+  "zh": "你知道，每周 2 到 10 个 PR。"
+ },
+ {
+  "seg": 12,
+  "start": 55.636,
+  "end": 56.136,
+  "speaker": "Unknown",
+  "en": "And this is new.",
+  "zh": "而且这是新变化。"
+ },
+ {
+  "seg": 13,
+  "start": 56.257,
+  "end": 58.398,
+  "speaker": "Unknown",
+  "en": "This was not possible several months ago.",
+  "zh": "几个月前这还不可能。"
+ },
+ {
+  "seg": 14,
+  "start": 58.438,
+  "end": 60.16,
+  "speaker": "Unknown",
+  "en": "It's really because of these new AI agents.",
+  "zh": "这真的是因为这些新的 AI 智能体。"
+ },
+ {
+  "seg": 15,
+  "start": 61.1,
+  "end": 64.103,
+  "speaker": "Unknown",
+  "en": "And notably, I also have a toddler at home, so I, like, cannot work 996.",
+  "zh": "值得一提的是，我家里还有个刚学步的孩子，所以，我没法搞 996。"
+ },
+ {
+  "seg": 16,
+  "start": 64.183,
+  "end": 69.047,
+  "speaker": "Unknown",
+  "en": "You know, I'm working 40, 50 hours a week, so I really like to fit all this in into a regular week.",
+  "zh": "你知道，我每周工作 40、50 个小时，所以我很想把这一切塞进一个正常的工作周里。"
+ },
+ {
+  "seg": 17,
+  "start": 71.328,
+  "end": 82.617,
+  "speaker": "Unknown",
+  "en": "And pre-AI agents, as you grew as a leader, you had more of the org reporting to you, you would sort of, the way you would influence the org was through communicating to people.",
+  "zh": "在 AI 智能体出现之前，随着你成长为领导者，有更多组织成员向你汇报，你影响组织的方式基本上是通过与人沟通。"
+ },
+ {
+  "seg": 18,
+  "start": 83.297,
+  "end": 93.064,
+  "speaker": "Unknown",
+  "en": "So you'd write roadmaps, docs, meetings, and you'd sort of incept your context and what you wanted to build with your employees and your engineers.",
+  "zh": "所以你会写路线图、文档、开会，把你的背景信息和你想构建的东西灌输给你的员工和工程师。"
+ },
+ {
+  "seg": 19,
+  "start": 94.165,
+  "end": 105.735,
+  "speaker": "Unknown",
+  "en": "And now, interestingly, in the last few months, as coding agents have become more autonomous and able to handle longer tasks, the manager schedule, as Paul Graham put it, is suddenly usable as building time.",
+  "zh": "而现在，有意思的是，在过去几个月里，随着编程智能体变得更自主、能够处理更长的任务，正如 Paul Graham 所说的管理者日程，突然变得可以用作构建时间了。"
+ },
+ {
+  "seg": 20,
+  "start": 106.456,
+  "end": 107.376,
+  "speaker": "Unknown",
+  "en": "You can actually ship stuff.",
+  "zh": "你真的可以交付东西了。"
+ },
+ {
+  "seg": 21,
+  "start": 108.958,
+  "end": 111.68,
+  "speaker": "Unknown",
+  "en": "And so I think building is part of the job now.",
+  "zh": "所以我认为构建现在成了工作的一部分。"
+ },
+ {
+  "seg": 22,
+  "start": 112,
+  "end": 119.127,
+  "speaker": "Unknown",
+  "en": "You can do it, first of all, as a leader, but I think it's also becoming necessary as part of the job for two reasons.",
+  "zh": "首先，作为领导者你可以做到，但我认为它也正在成为工作中必要的一部分，原因有两个。"
+ },
+ {
+  "seg": 23,
+  "start": 120.21,
+  "end": 131.234,
+  "speaker": "Unknown",
+  "en": "First, the technology world is changing where suddenly the core technology that's part of our products are these frontier models that change every three months, which is a new dynamic that's come out.",
+  "zh": "第一，技术世界正在发生变化，我们产品中的核心技术突然变成了这些每三个月就迭代一次的前沿模型，这是一种新出现的动态。"
+ },
+ {
+  "seg": 24,
+  "start": 131.834,
+  "end": 137.776,
+  "speaker": "Unknown",
+  "en": "And as each new frontier model comes out, its capabilities change, the contours of what it's useful for change,",
+  "zh": "随着每个新前沿模型的发布，它的能力在变，它的适用范围的轮廓在变，"
+ },
+ {
+  "seg": 25,
+  "start": 138.176,
+  "end": 140.878,
+  "speaker": "Unknown",
+  "en": "You know, how it actually reacts to prompting changes.",
+  "zh": "你知道，它对提示词的实际反应方式也在变。"
+ },
+ {
+  "seg": 26,
+  "start": 141.458,
+  "end": 149.563,
+  "speaker": "Unknown",
+  "en": "And there's so much noise on Twitter, even internally for us, and so many opinions with each new model release on what's good and what's bad.",
+  "zh": "Twitter 上有太多噪音，甚至在我们公司内部也是，每次新模型发布都有太多关于什么好什么坏的意见。"
+ },
+ {
+  "seg": 27,
+  "start": 150.123,
+  "end": 157.067,
+  "speaker": "Unknown",
+  "en": "And I found it is impossible to tell what a new model is good for unless you have your hands in it and you're using it all day long.",
+  "zh": "而我发现，除非你亲手投入其中、整天使用它，否则根本无法判断一个新模型适合做什么。"
+ },
+ {
+  "seg": 28,
+  "start": 157.507,
+  "end": 182.424,
+  "speaker": "Unknown",
+  "en": "And so having an ability to slot in building time into your schedule means you can figure out the contours of what is this new model family capable of and both how do I direct my engineers in terms of setting expectations on how they should be building, but also getting a sense of how does this fit into our product, how does this fit into our business, how is our strategy going to change because of this, what's going to happen in three to six months when the open source models catch up.",
+  "zh": "所以，能够在日程中留出构建时间，意味着你可以弄清楚这个新模型家族的能力边界，既能指导你的工程师、对他们应该如何构建设定预期，也能感受这如何融入我们的产品、如何融入我们的业务、我们的战略会因此如何改变、以及三到六个月后当开源模型追上来时会发生什么。"
+ },
+ {
+  "seg": 29,
+  "start": 182.965,
+  "end": 185.947,
+  "speaker": "Unknown",
+  "en": "All of that intuition comes from actually using the models and building.",
+  "zh": "所有这些直觉都来自真正使用模型和动手构建。"
+ },
+ {
+  "seg": 30,
+  "start": 187.468,
+  "end": 194.533,
+  "speaker": "Unknown",
+  "en": "I've also found even if you've built the intuition, it's actually tough to communicate that to other people who haven't played with the models.",
+  "zh": "我还发现，即使你已经建立了这种直觉，要把它传达给没有把玩过这些模型的其他人也很困难。"
+ },
+ {
+  "seg": 31,
+  "start": 195.194,
+  "end": 197.015,
+  "speaker": "Unknown",
+  "en": "And so you're like, oh, this new thing is possible.",
+  "zh": "你会说，哦，这个新东西现在是可能的了。"
+ },
+ {
+  "seg": 32,
+  "start": 197.075,
+  "end": 198.076,
+  "speaker": "Unknown",
+  "en": "It's going to be amazing.",
+  "zh": "它会很惊艳。"
+ },
+ {
+  "seg": 33,
+  "start": 198.156,
+  "end": 199.577,
+  "speaker": "Unknown",
+  "en": "And your engineers are like, OK, yeah, sure.",
+  "zh": "而你的工程师会说，行吧，好的。"
+ },
+ {
+  "seg": 34,
+  "start": 200.578,
+  "end": 204.821,
+  "speaker": "Unknown",
+  "en": "So it's really helpful to have some time to actually build stuff so you can show them.",
+  "zh": "所以留出一些时间真正构建东西会非常有帮助，这样你就可以展示给他们看。"
+ },
+ {
+  "seg": 35,
+  "start": 205.041,
+  "end": 208.263,
+  "speaker": "Unknown",
+  "en": "You can be like, hey, I built this prototype with this new model family.",
+  "zh": "你可以说，嘿，我用这个新模型家族做了这个原型。"
+ },
+ {
+  "seg": 36,
+  "start": 208.343,
+  "end": 209.504,
+  "speaker": "Unknown",
+  "en": "It works in the product.",
+  "zh": "它在产品里能用。"
+ },
+ {
+  "seg": 37,
+  "start": 209.544,
+  "end": 211.246,
+  "speaker": "Unknown",
+  "en": "Here's an actual prototype you can play with.",
+  "zh": "这是一个你可以实际把玩的原型。"
+ },
+ {
+  "seg": 38,
+  "start": 211.606,
+  "end": 217.13,
+  "speaker": "Unknown",
+  "en": "And this is just so much faster and more efficient than trying to convince people every three months when a new model family comes out.",
+  "zh": "这比每三个月新模型家族发布时试图说服所有人要快得多、高效得多。"
+ },
+ {
+  "seg": 39,
+  "start": 219.294,
+  "end": 221.755,
+  "speaker": "Unknown",
+  "en": "I also think leaders are really well suited for it.",
+  "zh": "我还认为领导者非常适合做这件事。"
+ },
+ {
+  "seg": 40,
+  "start": 221.775,
+  "end": 233.579,
+  "speaker": "Unknown",
+  "en": "You all have context, more context than anybody else in the organization about the business, the strategy, the trade-off, the decisions to be made, what needs to be done, what's coming up, what are imperatives.",
+  "zh": "你们掌握着背景信息，比组织中任何人都更多的关于业务、战略、取舍、待做决策、需要完成什么、接下来有什么、什么是当务之急的信息。"
+ },
+ {
+  "seg": 41,
+  "start": 234.019,
+  "end": 242.702,
+  "speaker": "Unknown",
+  "en": "And so the steering of a leader as you are prompting these models is per token more impactful than in ICs.",
+  "zh": "所以当你给这些模型写提示词时，领导者的引导作用按每个 token 计算比 IC 更有影响力。"
+ },
+ {
+  "seg": 42,
+  "start": 243.042,
+  "end": 245.063,
+  "speaker": "Unknown",
+  "en": "And so you can really fit this into a little bit of time.",
+  "zh": "所以你真的可以把这件事塞进一点点时间里。"
+ },
+ {
+  "seg": 43,
+  "start": 246.53,
+  "end": 248.231,
+  "speaker": "Unknown",
+  "en": "The delegation skill also transfers.",
+  "zh": "委派这项技能也是可以迁移的。"
+ },
+ {
+  "seg": 44,
+  "start": 248.531,
+  "end": 250.172,
+  "speaker": "Unknown",
+  "en": "Like, you delegate to people.",
+  "zh": "比如，你把工作委派给人。"
+ },
+ {
+  "seg": 45,
+  "start": 250.252,
+  "end": 254.235,
+  "speaker": "Unknown",
+  "en": "That's sort of one of the core skills of being a leader, and that transfers to agents pretty well.",
+  "zh": "那是作为领导者的核心技能之一，而它迁移到智能体上也相当顺利。"
+ },
+ {
+  "seg": 46,
+  "start": 254.495,
+  "end": 259.218,
+  "speaker": "Unknown",
+  "en": "You know, it's setting goals, giving context, checking in, even coaching the agent, you know, what if you tried this?",
+  "zh": "你知道，就是设定目标、给出背景信息、跟进检查，甚至是辅导智能体，比如，你要不要试试这个？"
+ },
+ {
+  "seg": 47,
+  "start": 261.1,
+  "end": 272.007,
+  "speaker": "Unknown",
+  "en": "And then I've also found, I think this is maybe specific to now, maybe this will change in several months as these models get better, but the models are really good at execution, but still not unbelievable at judgment.",
+  "zh": "然后我还发现，我觉得这一点可能只适用于当下，也许几个月后随着这些模型变好就会改变，但这些模型在执行上真的很强，但在判断力上仍然不怎么样。"
+ },
+ {
+  "seg": 48,
+  "start": 272.147,
+  "end": 277.351,
+  "speaker": "Unknown",
+  "en": "You know, often the model will come back and be like, hey, that algorithm idea is not possible, or like, I can't do this.",
+  "zh": "你知道，经常模型会回来说，嘿，那个算法想法不可行，或者，我做不了这个。"
+ },
+ {
+  "seg": 49,
+  "start": 277.731,
+  "end": 280.513,
+  "speaker": "Unknown",
+  "en": "And so you, as a leader, have to be like, oh, have you tried this thing?",
+  "zh": "而这时你作为领导者就得说，哦，你试过这个方法吗？"
+ },
+ {
+  "seg": 50,
+  "start": 280.533,
+  "end": 282.495,
+  "speaker": "Unknown",
+  "en": "And the model's like, oh, okay, cool, cool, cool, I'll try that.",
+  "zh": "然后模型会说，哦，好的，好，好，我试试。"
+ },
+ {
+  "seg": 51,
+  "start": 282.595,
+  "end": 290.24,
+  "speaker": "Unknown",
+  "en": "And so it's a really nice dynamic you can have with these models if you have time slotted out for building that really leverages all the context you have.",
+  "zh": "所以如果你留出专门的时间来做这件事，你和这些模型之间可以有一种非常好的协作动态，能充分调动你所拥有的所有上下文。"
+ },
+ {
+  "seg": 52,
+  "start": 292.422,
+  "end": 295.905,
+  "speaker": "Unknown",
+  "en": "So the great Julie Zhou had a great tweet about this a month ago.",
+  "zh": "很厉害的 Julie Zhou 一个月前就此发过一条很棒的推文。"
+ },
+ {
+  "seg": 53,
+  "start": 296.025,
+  "end": 300.128,
+  "speaker": "Unknown",
+  "en": "She polled some Bay Area technical leaders on what can you actually build?",
+  "zh": "她调查了一些湾区技术领导者，问你们实际上能构建什么？"
+ },
+ {
+  "seg": 54,
+  "start": 300.148,
+  "end": 301.509,
+  "speaker": "Unknown",
+  "en": "What should you be building in this new world?",
+  "zh": "在这个新世界里，你应该构建什么？"
+ },
+ {
+  "seg": 55,
+  "start": 302.362,
+  "end": 303.543,
+  "speaker": "Unknown",
+  "en": "And four categories emerge.",
+  "zh": "于是出现了四个类别。"
+ },
+ {
+  "seg": 56,
+  "start": 304.184,
+  "end": 310.53,
+  "speaker": "Unknown",
+  "en": "You can build internal tools, so internal efficiency, quality of life improvements, just like gardening around the code base and the product.",
+  "zh": "你可以构建内部工具，也就是内部效率、生活质量的改善，就像围绕代码库和产品做些园艺打理。"
+ },
+ {
+  "seg": 57,
+  "start": 310.55,
+  "end": 311.33,
+  "speaker": "Unknown",
+  "en": "This is really helpful.",
+  "zh": "这真的很有帮助。"
+ },
+ {
+  "seg": 58,
+  "start": 312.251,
+  "end": 312.892,
+  "speaker": "Unknown",
+  "en": "I really like this.",
+  "zh": "我真的很喜欢这个。"
+ },
+ {
+  "seg": 59,
+  "start": 312.912,
+  "end": 314.653,
+  "speaker": "Unknown",
+  "en": "I learned from this, the celebration story.",
+  "zh": "我从这个庆祝故事中学到了东西。"
+ },
+ {
+  "seg": 60,
+  "start": 314.673,
+  "end": 316.615,
+  "speaker": "Unknown",
+  "en": "You can build artifacts to celebrate people on your team.",
+  "zh": "你可以构建一些小作品来表彰你团队里的人。"
+ },
+ {
+  "seg": 61,
+  "start": 317.596,
+  "end": 335.627,
+  "speaker": "Unknown",
+  "en": "And then, arguably, I think the most important is the vision piece, is really playing with the new model families, understanding what's possible viscerally yourself, and then trying to fit that into the business and building products that can show that off to your engineers so you can really push the boundaries of what's possible with the product and business.",
+  "zh": "然后，可以说最重要的我认为是愿景这块，就是真正去把玩新的模型家族，自己发自内心地理解什么是可能的，然后尝试把它融入业务，构建能向你的工程师展示这些可能性的产品，这样你才能真正突破产品和业务上可能的边界。"
+ },
+ {
+  "seg": 62,
+  "start": 337.374,
+  "end": 337.815,
+  "speaker": "Unknown",
+  "en": "She's right.",
+  "zh": "她说得对。"
+ },
+ {
+  "seg": 63,
+  "start": 337.895,
+  "end": 339.518,
+  "speaker": "Unknown",
+  "en": "I would not take any critical path work.",
+  "zh": "我不会接任何关键路径的工作。"
+ },
+ {
+  "seg": 64,
+  "start": 339.558,
+  "end": 345.108,
+  "speaker": "Unknown",
+  "en": "The last thing you want to do is to have that dependent on you, especially you're going to be dragged into fires and recruiting calls and meetings, et cetera.",
+  "zh": "你最不想要的就是让关键路径的工作依赖于你，尤其是你会被拽去救火、招人电话和各种会议等等。"
+ },
+ {
+  "seg": 65,
+  "start": 345.969,
+  "end": 346.931,
+  "speaker": "Unknown",
+  "en": "So really trying to do this.",
+  "zh": "所以要真正做到这一点。"
+ },
+ {
+  "seg": 66,
+  "start": 347.191,
+  "end": 348.854,
+  "speaker": "Unknown",
+  "en": "One of these four categories is optimal.",
+  "zh": "这四个类别中的某一个才是最优选择。"
+ },
+ {
+  "seg": 67,
+  "start": 350.48,
+  "end": 356.684,
+  "speaker": "Unknown",
+  "en": "So this is how I work and what two to three hours a day of coding can actually look like.",
+  "zh": "这就是我的工作方式，每天两到三小时的编码实际上是什么样子。"
+ },
+ {
+  "seg": 68,
+  "start": 357.464,
+  "end": 365.829,
+  "speaker": "Unknown",
+  "en": "So I usually have a morning coding block, about an hour, and this is when I look over last night's code, what the agent did last night, review it.",
+  "zh": "我通常有一个早间编码时段，大约一个小时，这时候我会查看昨晚的代码，看看智能体昨晚做了什么，进行评审。"
+ },
+ {
+  "seg": 69,
+  "start": 366.149,
+  "end": 367.29,
+  "speaker": "Unknown",
+  "en": "I'll talk a little bit more about this.",
+  "zh": "我会再多讲一点这个。"
+ },
+ {
+  "seg": 70,
+  "start": 367.97,
+  "end": 374.054,
+  "speaker": "Unknown",
+  "en": "And then a few maybe steering blocks throughout the day interspersed between one-on-ones and reviews and meetings and everything else you need to do.",
+  "zh": "然后在一天中穿插几个引导时段，夹在一对一、评审、会议以及其他你需要做的事情之间。"
+ },
+ {
+  "seg": 71,
+  "start": 374.954,
+  "end": 386.137,
+  "speaker": "Unknown",
+  "en": "And then the most important block is that 5 p.m. block at the end of the day where you really set up whatever overnight run it is you want to run, and I'll talk about that, whether that's coding or training models or whatever you want the agent to do.",
+  "zh": "然后最重要的时段是那天结束时的下午 5 点时段，你真正在那时设置好任何你想跑的通宵任务，我会讲到这个，无论是编码还是训练模型，或者任何你想让智能体做的事。"
+ },
+ {
+  "seg": 72,
+  "start": 388.53,
+  "end": 391.052,
+  "speaker": "Unknown",
+  "en": "I'll go over sort of three examples of tasks you can do.",
+  "zh": "我会讲三个你可以做的任务例子。"
+ },
+ {
+  "seg": 73,
+  "start": 391.172,
+  "end": 394.895,
+  "speaker": "Unknown",
+  "en": "But really, what I found worked for me is this one overnight loop.",
+  "zh": "但实际上，我发现对我有效的是这一个通宵循环。"
+ },
+ {
+  "seg": 74,
+  "start": 395.036,
+  "end": 398.098,
+  "speaker": "Unknown",
+  "en": "You first, in that 5 p.m. block, gather context.",
+  "zh": "首先，在那个下午 5 点的时段，收集上下文。"
+ },
+ {
+  "seg": 75,
+  "start": 398.118,
+  "end": 398.839,
+  "speaker": "Unknown",
+  "en": "I'll talk about that.",
+  "zh": "我会讲到这个。"
+ },
+ {
+  "seg": 76,
+  "start": 399.639,
+  "end": 400.42,
+  "speaker": "Unknown",
+  "en": "You set up the run.",
+  "zh": "你设置好任务。"
+ },
+ {
+  "seg": 77,
+  "start": 400.56,
+  "end": 402.842,
+  "speaker": "Unknown",
+  "en": "You answer any clarifying questions.",
+  "zh": "你回答任何澄清性的问题。"
+ },
+ {
+  "seg": 78,
+  "start": 403.423,
+  "end": 409.348,
+  "speaker": "Unknown",
+  "en": "And then Claude Code, or whatever your coding agent is overnight, does the thing, does the work for four, six, eight hours.",
+  "zh": "然后 Claude Code，或者你用的任何编码智能体，在夜里干活，连续工作四个、六个、八个小时。"
+ },
+ {
+  "seg": 79,
+  "start": 409.968,
+  "end": 414.492,
+  "speaker": "Unknown",
+  "en": "And in the morning, you get this beautiful report, and you figure out what to do with it, and then you ship whatever it is.",
+  "zh": "到了早上，你会得到一份漂亮的报告，你弄清楚拿它做什么，然后就把成果发布出去。"
+ },
+ {
+  "seg": 80,
+  "start": 415.613,
+  "end": 417.976,
+  "speaker": "Unknown",
+  "en": "I'll talk about building features, which is sort of the most obvious one.",
+  "zh": "我会讲构建功能，这大概是最显而易见的一个。"
+ },
+ {
+  "seg": 81,
+  "start": 418.917,
+  "end": 422.682,
+  "speaker": "Unknown",
+  "en": "I found this worked really well with evals and hill climbing, so optimizing AI features.",
+  "zh": "我发现这个方法在评估和爬坡，也就是优化 AI 功能方面效果非常好。"
+ },
+ {
+  "seg": 82,
+  "start": 423.483,
+  "end": 431.133,
+  "speaker": "Unknown",
+  "en": "And then a new thing, actually, in the maybe more recent generations of models is you can have these models train other ML models overnight, too, and this works really, really well.",
+  "zh": "然后是一个新东西，实际上，在最近几代模型里，你可以让这些模型在夜里训练其他 ML 模型，而且这个效果非常非常好。"
+ },
+ {
+  "seg": 83,
+  "start": 432.988,
+  "end": 434.289,
+  "speaker": "Unknown",
+  "en": "So, building features.",
+  "zh": "那么，构建功能。"
+ },
+ {
+  "seg": 84,
+  "start": 435.65,
+  "end": 456.146,
+  "speaker": "Unknown",
+  "en": "The big mindset shift for me that really helped was starting to think about building features not in terms of how do I build this feature and break it up and then give it prompting on how to do the individual tasks, but rather what is all the context this frontier model needs to be able to make decisions like I would make.",
+  "zh": "对我帮助很大的一个思维转变是，开始思考构建功能时，不再从「我如何构建这个功能、如何拆分它、然后给它提示词教它怎么做各个单独的任务」出发，而是「这个前沿模型需要什么样的全部上下文，才能像我一样做决策」。"
+ },
+ {
+  "seg": 85,
+  "start": 456.646,
+  "end": 462.211,
+  "speaker": "Unknown",
+  "en": "So trying to give it as much context as possible, because if it's working for six hours, eight hours overnight, you're not going to be there to steer it.",
+  "zh": "所以要尽量给它尽可能多的上下文，因为它如果在夜里连续工作六、八个小时，你不会在场引导它。"
+ },
+ {
+  "seg": 86,
+  "start": 462.331,
+  "end": 466.914,
+  "speaker": "Unknown",
+  "en": "And so you want it to have as much context as you do about the business goals or whatever you're trying to get it to do.",
+  "zh": "所以你要让它拥有和你一样多的关于业务目标的上下文，或者任何你想让它做的事情的上下文。"
+ },
+ {
+  "seg": 87,
+  "start": 467.435,
+  "end": 477.903,
+  "speaker": "Unknown",
+  "en": "So a little tip I found that has worked well for me, if you have a co-work agent, whatever your Claude co-work or Codex or I recommend Dia, I feel like that's the best one, not biased at all.",
+  "zh": "所以我发现一个小技巧对我很有效，如果你有一个协作工作的智能体，不管是你的 Claude 协作智能体还是 Codex，我推荐 Dia，我觉得那是最好的，完全没有偏向。"
+ },
+ {
+  "seg": 88,
+  "start": 479.404,
+  "end": 490.971,
+  "speaker": "Unknown",
+  "en": "Whatever it is that's connected to your Slack and your Jira, Confluence, Notion, the repo, et cetera, just before a meeting or something, I'll be like at like 3, 4 p.m., be like, hey, I really want to build this.",
+  "zh": "不管它是什么，只要它连接到你的 Slack 和 Jira、Confluence、Notion、代码仓库等等，就在某个会议之前，比如下午 3、4 点，我会说，嘿，我真的很想构建这个。"
+ },
+ {
+  "seg": 89,
+  "start": 491.512,
+  "end": 501.038,
+  "speaker": "Unknown",
+  "en": "Go and do like 20 minutes of research and go dig through all of Slack and Notion and everything else and come up with a Claude Code prompt that I can paste into Claude Code.",
+  "zh": "去做 20 分钟左右的研究，去翻遍 Slack 和 Notion 以及其他所有东西，然后给我生成一个可以粘贴进 Claude Code 的提示词。"
+ },
+ {
+  "seg": 90,
+  "start": 501.458,
+  "end": 510.872,
+  "speaker": "Unknown",
+  "en": "And just give me as much context as possible, the tradeoffs, what we tried before, what works, what doesn't, why we're doing it, what is like the business context of this feature I want to build or this model I want to train.",
+  "zh": "给我尽可能多的上下文，各种权衡、我们之前尝试过什么、什么有效、什么无效、我们为什么这么做、我想构建的这个功能或想训练的这个模型的业务背景是什么。"
+ },
+ {
+  "seg": 91,
+  "start": 511.753,
+  "end": 516.219,
+  "speaker": "Unknown",
+  "en": "And that takes like 30 seconds to whisper flow into DIA or whatever your co-work agent is.",
+  "zh": "而这件事只需要 30 秒用语音流式输入到 Dia 或你用的任何协作智能体里。"
+ },
+ {
+  "seg": 92,
+  "start": 517.138,
+  "end": 523.88,
+  "speaker": "Unknown",
+  "en": "And the nice thing is this comes back with a giant prompt that then you can paste into Claude Code or Cursor or Codex or whatever your coding agent is.",
+  "zh": "好的地方是，它会返回一个巨大的提示词，然后你可以粘贴进 Claude Code 或 Cursor 或 Codex 或你用的任何编码智能体。"
+ },
+ {
+  "seg": 93,
+  "start": 523.94,
+  "end": 528.821,
+  "speaker": "Unknown",
+  "en": "So this is an example of a 5 p.m. prompt I'll have that I give it before I go to bed.",
+  "zh": "这是我的一个下午 5 点提示词的例子，我会在睡前给它。"
+ },
+ {
+  "seg": 94,
+  "start": 529.682,
+  "end": 533.903,
+  "speaker": "Unknown",
+  "en": "I'll say implement this whole feature and then just paste all of that context I got from my cowork agent.",
+  "zh": "我会说，实现整个这个功能，然后把我从协作智能体那里拿到的所有上下文粘贴上去。"
+ },
+ {
+  "seg": 95,
+  "start": 535.164,
+  "end": 536.946,
+  "speaker": "Unknown",
+  "en": "And then it's important to think about verification.",
+  "zh": "然后重要的是要考虑验证。"
+ },
+ {
+  "seg": 96,
+  "start": 536.986,
+  "end": 543.895,
+  "speaker": "Unknown",
+  "en": "So as this agent is running overnight, you want to verify how it's doing as it's building and testing the feature.",
+  "zh": "所以当这个智能体在夜里运行时，你要在它构建和测试功能的过程中验证它做得怎么样。"
+ },
+ {
+  "seg": 97,
+  "start": 543.935,
+  "end": 547.299,
+  "speaker": "Unknown",
+  "en": "So first I'll be like, hey, write the tests first so they capture what you do.",
+  "zh": "所以首先我会说，嘿，先写测试，让测试捕捉你要做的事情。"
+ },
+ {
+  "seg": 98,
+  "start": 547.319,
+  "end": 551.965,
+  "speaker": "Unknown",
+  "en": "This is really helpful because I've found decoding agents, if they write tests afterwards, they're a little sloppish.",
+  "zh": "这真的很有帮助，因为我发现解码智能体如果是事后写测试的话，会有点马虎。"
+ },
+ {
+  "seg": 99,
+  "start": 553.587,
+  "end": 556.152,
+  "speaker": "Unknown",
+  "en": "And then I'll tell it to test the end-to-end flow with computer use.",
+  "zh": "然后我会让它用 computer use 测试端到端流程。"
+ },
+ {
+  "seg": 100,
+  "start": 556.172,
+  "end": 561.16,
+  "speaker": "Unknown",
+  "en": "You know, go around, click around, just make sure the flow works and matches the business context I gave you.",
+  "zh": "你知道，四处点点，到处点击一下，确保流程能跑通，并且符合我给你的业务上下文。"
+ },
+ {
+  "seg": 101,
+  "start": 561.561,
+  "end": 567.25,
+  "speaker": "Unknown",
+  "en": "And so the modern models are really good at reasoning about, okay, does this flow actually solve the problem I was trying to solve?",
+  "zh": "所以现代模型非常擅长推理，比如：这个流程到底能不能解决我原本想解决的问题？"
+ },
+ {
+  "seg": 102,
+  "start": 568.88,
+  "end": 575.043,
+  "speaker": "Unknown",
+  "en": "And then I usually prompt it to do as much work as possible so that when I wake up in the morning, the stack is ready.",
+  "zh": "然后我通常会提示它尽可能多做工作，这样当我早上醒来时，整套技术栈就已经就绪了。"
+ },
+ {
+  "seg": 103,
+  "start": 575.423,
+  "end": 586.889,
+  "speaker": "Unknown",
+  "en": "So split this into reviewer-friendly PRs with clear descriptions, manage CI and get CI green, and just make sure you're monitoring just to make sure the whole stack is passable.",
+  "zh": "所以，把它拆分成对审查者友好的 PR，附上清晰的描述，管理 CI 并让 CI 变绿，还要确保你在持续监控，确保整个技术栈都能通过。"
+ },
+ {
+  "seg": 104,
+  "start": 587.809,
+  "end": 589.23,
+  "speaker": "Unknown",
+  "en": "AI code review is really important.",
+  "zh": "AI 代码审查非常重要。"
+ },
+ {
+  "seg": 105,
+  "start": 589.29,
+  "end": 591.511,
+  "speaker": "Unknown",
+  "en": "We have a bunch of internal AI code reviewers.",
+  "zh": "我们有一堆内部的 AI 代码审查器。"
+ },
+ {
+  "seg": 106,
+  "start": 592.911,
+  "end": 595.453,
+  "speaker": "Unknown",
+  "en": "The previous talk was talking about Codo, another AI code reviewer.",
+  "zh": "上一场演讲讲的是 Codo，另一个 AI 代码审查器。"
+ },
+ {
+  "seg": 107,
+  "start": 596.253,
+  "end": 604.887,
+  "speaker": "Unknown",
+  "en": "If you don't have any, I would look on Twitter for a bunch of AI code review skills and then just prompt it, hey, once you're done, run this AI code review skill in a clean sub-agent and then fix those things.",
+  "zh": "如果你一个都没有，我建议去 Twitter 上找一堆 AI 代码审查的 skill，然后提示它：嘿，你完成之后，在一个干净的子智能体里运行这个 AI 代码审查 skill，然后把那些问题修掉。"
+ },
+ {
+  "seg": 108,
+  "start": 605.917,
+  "end": 615.905,
+  "speaker": "Unknown",
+  "en": "And then watch the PRs, fix every bot comment, every CI check that shows up, anything you need to do, resolve the threads, run this autonomously, don't ask me questions.",
+  "zh": "然后盯着那些 PR，修掉每一条机器人评论、每一个出现的 CI 检查，任何需要做的事，解决那些讨论串，自主运行，不要问我问题。"
+ },
+ {
+  "seg": 109,
+  "start": 616.426,
+  "end": 621.65,
+  "speaker": "Unknown",
+  "en": "And then I'll throw in a little encouraging something, and it'll be like, you'll do great, I believe in you, it's gonna be great.",
+  "zh": "然后我会加一点鼓励的话，它会像是：你会做得很棒的，我相信你，一切都会很顺利。"
+ },
+ {
+  "seg": 110,
+  "start": 621.79,
+  "end": 624.793,
+  "speaker": "Unknown",
+  "en": "I don't know if that helps or not, but I tend to do that.",
+  "zh": "我不知道这是否有帮助，但我倾向于这么做。"
+ },
+ {
+  "seg": 111,
+  "start": 625.573,
+  "end": 628.215,
+  "speaker": "Unknown",
+  "en": "And then I tell them I'm going to bed, just leave me a report in the morning on what you do.",
+  "zh": "然后我告诉它们我要去睡觉了，明早给我留一份报告，说明你做了什么。"
+ },
+ {
+  "seg": 112,
+  "start": 628.255,
+  "end": 631.138,
+  "speaker": "Unknown",
+  "en": "I need the full stack ready and a report on what trade-offs you made, how you did.",
+  "zh": "我需要完整的技术栈就绪，以及一份关于你做了哪些权衡、你表现如何的报告。"
+ },
+ {
+  "seg": 113,
+  "start": 632.378,
+  "end": 633.019,
+  "speaker": "Unknown",
+  "en": "And it does great.",
+  "zh": "而且它做得很好。"
+ },
+ {
+  "seg": 114,
+  "start": 633.859,
+  "end": 637.36,
+  "speaker": "Unknown",
+  "en": "It actually modern models new Opus 4.8 or the new GBT.",
+  "zh": "实际上，现代模型，新的 Opus 4.8 或者新的 GBT。"
+ },
+ {
+  "seg": 115,
+  "start": 637.48,
+  "end": 644.263,
+  "speaker": "Unknown",
+  "en": "They can handle what used to be weeks of work in one overnight run, and you come back in the morning with this beautiful package ready for you.",
+  "zh": "它们能在一次过夜运行中处理过去需要几周的工作量，早上你回来时就会得到这个为你准备好的漂亮成品包。"
+ },
+ {
+  "seg": 116,
+  "start": 644.283,
+  "end": 647.104,
+  "speaker": "Unknown",
+  "en": "It actually makes the mornings kind of nice because you have this little present ready for you.",
+  "zh": "它确实让早晨变得挺美好，因为你会有一份为你准备好的小礼物。"
+ },
+ {
+  "seg": 117,
+  "start": 649.205,
+  "end": 651.406,
+  "speaker": "Unknown",
+  "en": "Another example is optimizing AI features.",
+  "zh": "另一个例子是优化 AI 功能。"
+ },
+ {
+  "seg": 118,
+  "start": 652.661,
+  "end": 654.343,
+  "speaker": "Unknown",
+  "en": "First, you're at the AI engineering conference.",
+  "zh": "首先，你现在是在一个 AI 工程大会上。"
+ },
+ {
+  "seg": 119,
+  "start": 654.603,
+  "end": 656.225,
+  "speaker": "Unknown",
+  "en": "I assume you all are familiar with this.",
+  "zh": "我假设你们都很熟悉这个。"
+ },
+ {
+  "seg": 120,
+  "start": 656.245,
+  "end": 662.13,
+  "speaker": "Unknown",
+  "en": "When you first build an LLM call or agent into a feature, it's not optimized.",
+  "zh": "当你第一次把一个 LLM 调用或智能体集成到功能里时，它没有被优化过。"
+ },
+ {
+  "seg": 121,
+  "start": 662.15,
+  "end": 663.011,
+  "speaker": "Unknown",
+  "en": "You need to optimize it.",
+  "zh": "你需要优化它。"
+ },
+ {
+  "seg": 122,
+  "start": 663.051,
+  "end": 666.815,
+  "speaker": "Unknown",
+  "en": "He'll climb on some evals to get the quality, the latency, the cost to where you want it to be.",
+  "zh": "他会在一些评估上爬坡，把质量、延迟、成本调到你想要的水准。"
+ },
+ {
+  "seg": 123,
+  "start": 668.096,
+  "end": 672.319,
+  "speaker": "Unknown",
+  "en": "This is also all doable overnight, especially with the modern coding agents.",
+  "zh": "这也全都可以在过夜完成，尤其是用现代的编码智能体。"
+ },
+ {
+  "seg": 124,
+  "start": 672.379,
+  "end": 677.923,
+  "speaker": "Unknown",
+  "en": "So usually if I'm prototyping a feature, I will put a little feedback button on it.",
+  "zh": "所以通常我在给一个功能做原型时，会在上面放一个反馈按钮。"
+ },
+ {
+  "seg": 125,
+  "start": 678.043,
+  "end": 683.527,
+  "speaker": "Unknown",
+  "en": "So after the LLM call or the agent runs, I'll be like, hey, just add a feedback button and a little text box.",
+  "zh": "所以在 LLM 调用或智能体运行之后，我会说：嘿，加一个反馈按钮和一个小文本框。"
+ },
+ {
+  "seg": 126,
+  "start": 684.027,
+  "end": 690.894,
+  "speaker": "Unknown",
+  "en": "And then in one of my one-hour slots or 30-minute slots throughout the day, I'll just take the time to collect a bunch of feedback.",
+  "zh": "然后在白天我的某个一小时或 30 分钟的时间段里，我会抽时间收集一堆反馈。"
+ },
+ {
+  "seg": 127,
+  "start": 690.914,
+  "end": 700.883,
+  "speaker": "Unknown",
+  "en": "So I'll run it a few times, collect a bit of feedback, be like, hey, this was bad or this was good or this could have been better, and then just have it save JSON dumps on my downloads folder.",
+  "zh": "所以我会运行几次，收集一点反馈，说：嘿，这个不好，或者这个不错，或者这个本可以更好，然后让它把 JSON 转储保存到我的下载文件夹里。"
+ },
+ {
+  "seg": 128,
+  "start": 700.903,
+  "end": 705.688,
+  "speaker": "Unknown",
+  "en": "So it'll save a dump of each of the runs with the system prompt and the inputs and my feedback.",
+  "zh": "所以它会为每次运行保存一份转储，包含 system prompt、输入和我的反馈。"
+ },
+ {
+  "seg": 129,
+  "start": 707.049,
+  "end": 710.992,
+  "speaker": "Unknown",
+  "en": "And you just collect a handful, you know, like even 4, 5, 10 are fine.",
+  "zh": "你只要收集少量几份，你知道，哪怕 4、5、10 份都可以。"
+ },
+ {
+  "seg": 130,
+  "start": 711.052,
+  "end": 715.156,
+  "speaker": "Unknown",
+  "en": "If you can get some other coworkers to run it, that would be great to collect like 20 or 30.",
+  "zh": "如果你能让一些其他同事也运行一下，那就更好了，可以收集到 20 或 30 份。"
+ },
+ {
+  "seg": 131,
+  "start": 716.737,
+  "end": 725.584,
+  "speaker": "Unknown",
+  "en": "And then similarly, at 5 p.m., when you're setting up an overnight run, just say, hey, like here are, you know, 10, 20, 30 feedback JSONs.",
+  "zh": "然后同样地，下午 5 点，在你设置过夜运行时，就说：嘿，这里是，你知道，10、20、30 份反馈 JSON。"
+ },
+ {
+  "seg": 132,
+  "start": 725.604,
+  "end": 726.905,
+  "speaker": "Unknown",
+  "en": "This is all the information they have in them.",
+  "zh": "这是它们里面包含的全部信息。"
+ },
+ {
+  "seg": 133,
+  "start": 727.766,
+  "end": 731.769,
+  "speaker": "Unknown",
+  "en": "Turn this into an eval set, like just do it locally with SQLite or Markdown or whatever you want.",
+  "zh": "把这些变成一个评估集，就用本地的方式做，用 SQLite 或 Markdown 或任何你想要的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 732.67,
+  "end": 737.592,
+  "speaker": "Unknown",
+  "en": "And then over the next few minutes, talk me through how would you design evals or scoring functions to optimize for this.",
+  "zh": "然后在接下来的几分钟里，跟我讲讲你会如何设计评估或评分函数来针对这个目标做优化。"
+ },
+ {
+  "seg": 135,
+  "start": 738.013,
+  "end": 739.193,
+  "speaker": "Unknown",
+  "en": "And let's do it interactively.",
+  "zh": "而且让我们交互式地做。"
+ },
+ {
+  "seg": 136,
+  "start": 739.974,
+  "end": 746.217,
+  "speaker": "Unknown",
+  "en": "And then I want you to, A, build a harness that runs this call against the evals and hill climbs until the score goes up.",
+  "zh": "然后我要你，A，构建一个 harness，把这个调用跑在这些评估上，并进行爬坡直到分数上升。"
+ },
+ {
+  "seg": 137,
+  "start": 746.597,
+  "end": 748.778,
+  "speaker": "Unknown",
+  "en": "Like, just do whatever you need to do to get these scores to go up.",
+  "zh": "就是说，做任何你需要做的事，让这些分数涨上去。"
+ },
+ {
+  "seg": 138,
+  "start": 749.458,
+  "end": 752.78,
+  "speaker": "Unknown",
+  "en": "And obviously, with this kind of thing, if you have such little data, overfitting is a problem.",
+  "zh": "显然，对于这类事情，如果你只有这么少的数据，过拟合是个问题。"
+ },
+ {
+  "seg": 139,
+  "start": 752.82,
+  "end": 754.141,
+  "speaker": "Unknown",
+  "en": "But even that I've found.",
+  "zh": "但即便是这样，我也发现。"
+ },
+ {
+  "seg": 140,
+  "start": 754.161,
+  "end": 756.142,
+  "speaker": "Unknown",
+  "en": "These modern models, you can just tell it to not overfit.",
+  "zh": "这些现代模型，你只要告诉它不要过拟合。"
+ },
+ {
+  "seg": 141,
+  "start": 756.182,
+  "end": 757.343,
+  "speaker": "Unknown",
+  "en": "And it actually does a pretty good job.",
+  "zh": "而且它实际上做得相当不错。"
+ },
+ {
+  "seg": 142,
+  "start": 757.943,
+  "end": 759.064,
+  "speaker": "Unknown",
+  "en": "And so just say, don't overfit.",
+  "zh": "所以就直接说：不要过拟合。"
+ },
+ {
+  "seg": 143,
+  "start": 759.104,
+  "end": 759.764,
+  "speaker": "Unknown",
+  "en": "Just keep it general.",
+  "zh": "保持通用性。"
+ },
+ {
+  "seg": 144,
+  "start": 760.564,
+  "end": 763.686,
+  "speaker": "Unknown",
+  "en": "Run overnight autonomously until we align on a scoring rubric.",
+  "zh": "自主过夜运行，直到我们对齐一个评分标准。"
+ },
+ {
+  "seg": 145,
+  "start": 763.846,
+  "end": 766.248,
+  "speaker": "Unknown",
+  "en": "And then give me a full report in the morning.",
+  "zh": "然后早上给我一份完整的报告。"
+ },
+ {
+  "seg": 146,
+  "start": 767.63,
+  "end": 773.076,
+  "speaker": "Unknown",
+  "en": "And then a little tip, it's also nice to just say, hey, save this flow as a generic skill so I can reuse it.",
+  "zh": "还有一个小技巧，你也可以这样说：嘿，把这个流程保存为一个通用的 skill，这样我就可以复用它。"
+ },
+ {
+  "seg": 147,
+  "start": 773.536,
+  "end": 776.299,
+  "speaker": "Unknown",
+  "en": "And that allows you to improve this flow over time and improve that skill.",
+  "zh": "这让你可以随着时间推移改进这个流程，并改进那个 skill。"
+ },
+ {
+  "seg": 148,
+  "start": 777.16,
+  "end": 777.601,
+  "speaker": "Unknown",
+  "en": "And this works.",
+  "zh": "而且这是有效的。"
+ },
+ {
+  "seg": 149,
+  "start": 778.021,
+  "end": 780.964,
+  "speaker": "Unknown",
+  "en": "Actually, in the morning, you wake up to ideally something hill climbed.",
+  "zh": "实际上，到了早上，你醒来时，理想情况下会看到已经爬坡完成的东西。"
+ },
+ {
+  "seg": 150,
+  "start": 781.625,
+  "end": 788.212,
+  "speaker": "Unknown",
+  "en": "And actually, when using that feature, when we shipped these features to employees, to further dogfooding, to production,",
+  "zh": "而实际上，当我们把这些功能推送给员工、进一步做内部试用、推到生产环境时，在使用那个功能，"
+ },
+ {
+  "seg": 151,
+  "start": 788.712,
+  "end": 789.793,
+  "speaker": "Unknown",
+  "en": "It actually does improve the quality.",
+  "zh": "它确实提升了质量。"
+ },
+ {
+  "seg": 152,
+  "start": 789.813,
+  "end": 790.854,
+  "speaker": "Unknown",
+  "en": "You know, these are not overfit.",
+  "zh": "你知道，这些并不是过拟合的。"
+ },
+ {
+  "seg": 153,
+  "start": 791.574,
+  "end": 793.536,
+  "speaker": "Unknown",
+  "en": "And we use this flow quite a bit internally.",
+  "zh": "我们内部相当多地使用这个流程。"
+ },
+ {
+  "seg": 154,
+  "start": 793.916,
+  "end": 797.058,
+  "speaker": "Unknown",
+  "en": "We have an internal code reviewer similar to some of the external ones.",
+  "zh": "我们有一个内部代码审查器，类似于一些外部的代码审查器。"
+ },
+ {
+  "seg": 155,
+  "start": 797.078,
+  "end": 797.979,
+  "speaker": "Unknown",
+  "en": "And same thing there.",
+  "zh": "那边也是同样的情况。"
+ },
+ {
+  "seg": 156,
+  "start": 797.999,
+  "end": 801.362,
+  "speaker": "Unknown",
+  "en": "We add that hill climb to pretty good quality just with these overnight runs.",
+  "zh": "我们仅仅通过这些隔夜运行就把质量爬坡提升到相当不错的水平。"
+ },
+ {
+  "seg": 157,
+  "start": 803.456,
+  "end": 811,
+  "speaker": "Unknown",
+  "en": "And then the last example, and this is, again, pretty new and really interesting, you can train custom models with this mechanism overnight, you know, in one night.",
+  "zh": "然后最后一个例子，这个同样是很新而且非常有趣的，你可以用这个机制在隔夜——你知道的，就一个晚上——训练自定义模型。"
+ },
+ {
+  "seg": 158,
+  "start": 811.901,
+  "end": 816.423,
+  "speaker": "Unknown",
+  "en": "So this is an example of a modern BERT PII classifier we trained.",
+  "zh": "所以这是我们训练的一个现代 BERT PII 分类的例子。"
+ },
+ {
+  "seg": 159,
+  "start": 816.443,
+  "end": 823.107,
+  "speaker": "Unknown",
+  "en": "We were trying Opus and Haiku for it, and it was expensive, and latency was not great, and we just couldn't get the precision recall to be amazing.",
+  "zh": "我们当时尝试用 Opus 和 Haiku 来做这件事，成本很高，延迟也不理想，而且我们就是没办法把精确率和召回率做到很出色。"
+ },
+ {
+  "seg": 160,
+  "start": 823.847,
+  "end": 826.669,
+  "speaker": "Unknown",
+  "en": "And so we collected a bunch of training data.",
+  "zh": "于是我们收集了一堆训练数据。"
+ },
+ {
+  "seg": 161,
+  "start": 827.609,
+  "end": 832.953,
+  "speaker": "Unknown",
+  "en": "And then overnight, one night, I was like, here is a bunch of business context and a bunch of training data we collected.",
+  "zh": "然后在某个晚上，我说，这里是一堆业务背景和我们收集的一堆训练数据。"
+ },
+ {
+  "seg": 162,
+  "start": 834.354,
+  "end": 836.075,
+  "speaker": "Unknown",
+  "en": "A, clean up the training data, Claude.",
+  "zh": "第一，把这些训练数据清理干净，Claude。"
+ },
+ {
+  "seg": 163,
+  "start": 836.295,
+  "end": 838.297,
+  "speaker": "Unknown",
+  "en": "Just bolster it with synthetic data, whatever you need to.",
+  "zh": "用合成数据去补充它，随便你怎么弄。"
+ },
+ {
+  "seg": 164,
+  "start": 838.317,
+  "end": 839.898,
+  "speaker": "Unknown",
+  "en": "Here's a bunch of OpenAI and Anthropic keys.",
+  "zh": "这里有一堆 OpenAI 和 Anthropic 的密钥。"
+ },
+ {
+  "seg": 165,
+  "start": 840.458,
+  "end": 842.68,
+  "speaker": "Unknown",
+  "en": "Use an ensemble of frontier models to push the quality.",
+  "zh": "用一组前沿模型的组合来把质量推上去。"
+ },
+ {
+  "seg": 166,
+  "start": 844.424,
+  "end": 846.446,
+  "speaker": "Unknown",
+  "en": "I don't know anything about what ML model would be good here.",
+  "zh": "我完全不知道什么样的 ML 模型在这里会合适。"
+ },
+ {
+  "seg": 167,
+  "start": 846.526,
+  "end": 847.727,
+  "speaker": "Unknown",
+  "en": "So you decide.",
+  "zh": "所以你来决定。"
+ },
+ {
+  "seg": 168,
+  "start": 847.787,
+  "end": 849.549,
+  "speaker": "Unknown",
+  "en": "Just give me the best model class.",
+  "zh": "直接给我最好的模型类别。"
+ },
+ {
+  "seg": 169,
+  "start": 849.569,
+  "end": 850.289,
+  "speaker": "Unknown",
+  "en": "Give me a few options.",
+  "zh": "给我几个选项。"
+ },
+ {
+  "seg": 170,
+  "start": 850.329,
+  "end": 851.69,
+  "speaker": "Unknown",
+  "en": "And in fact, train two.",
+  "zh": "而且实际上，训练两个。"
+ },
+ {
+  "seg": 171,
+  "start": 851.71,
+  "end": 852.431,
+  "speaker": "Unknown",
+  "en": "Don't even train one.",
+  "zh": "甚至不用只训练一个。"
+ },
+ {
+  "seg": 172,
+  "start": 852.451,
+  "end": 853.432,
+  "speaker": "Unknown",
+  "en": "Train two separate ones.",
+  "zh": "训练两个独立的。"
+ },
+ {
+  "seg": 173,
+  "start": 854.333,
+  "end": 855.814,
+  "speaker": "Unknown",
+  "en": "And then I gave it AWS access.",
+  "zh": "然后我给了它 AWS 的访问权限。"
+ },
+ {
+  "seg": 174,
+  "start": 855.854,
+  "end": 857.475,
+  "speaker": "Unknown",
+  "en": "I was like, give me a provision sandbox.",
+  "zh": "我说，给我开一个预置的沙箱。"
+ },
+ {
+  "seg": 175,
+  "start": 857.535,
+  "end": 858.276,
+  "speaker": "Unknown",
+  "en": "Do not give it prod.",
+  "zh": "不要给它生产环境的权限。"
+ },
+ {
+  "seg": 176,
+  "start": 858.556,
+  "end": 859.277,
+  "speaker": "Unknown",
+  "en": "That's not a good idea.",
+  "zh": "那不是个好主意。"
+ },
+ {
+  "seg": 177,
+  "start": 859.297,
+  "end": 860.178,
+  "speaker": "Unknown",
+  "en": "That's how you take prod down.",
+  "zh": "那样你会把生产环境搞挂的。"
+ },
+ {
+  "seg": 178,
+  "start": 861.299,
+  "end": 870.407,
+  "speaker": "Unknown",
+  "en": "Pick the right GPU, an EC2 cluster, train it, test against eval examples, deprovision it, whatever you need to do, just give me back the trained models, and then give me a report in the morning.",
+  "zh": "挑选合适的 GPU，一个 EC2 集群，训练它，对照评估样例做测试，然后销毁资源，总之你需要做什么就做什么，只要把训练好的模型交还给我，然后在早上给我一份报告。"
+ },
+ {
+  "seg": 179,
+  "start": 870.848,
+  "end": 875.732,
+  "speaker": "Unknown",
+  "en": "And in fact, even put in how I would host this with my code base on inference once this model is ready.",
+  "zh": "而且实际上，甚至把一旦这个模型就绪后我该如何在我的代码库里托管它做推理也一并写进去。"
+ },
+ {
+  "seg": 180,
+  "start": 876.913,
+  "end": 878.354,
+  "speaker": "Unknown",
+  "en": "And again, ask me any clarifying questions.",
+  "zh": "再说一次，有任何需要澄清的问题就问我。"
+ },
+ {
+  "seg": 181,
+  "start": 878.374,
+  "end": 878.855,
+  "speaker": "Unknown",
+  "en": "You can do it.",
+  "zh": "你能做到的。"
+ },
+ {
+  "seg": 182,
+  "start": 878.895,
+  "end": 879.476,
+  "speaker": "Unknown",
+  "en": "I believe in you.",
+  "zh": "我相信你。"
+ },
+ {
+  "seg": 183,
+  "start": 879.496,
+  "end": 880.136,
+  "speaker": "Unknown",
+  "en": "You're going to do great.",
+  "zh": "你会做得很棒的。"
+ },
+ {
+  "seg": 184,
+  "start": 880.797,
+  "end": 882.218,
+  "speaker": "Unknown",
+  "en": "And in the morning, just have this ready.",
+  "zh": "到了早上，就把这一切准备好。"
+ },
+ {
+  "seg": 185,
+  "start": 882.419,
+  "end": 884.14,
+  "speaker": "Unknown",
+  "en": "And of course, it works beautifully.",
+  "zh": "当然，它运行得非常漂亮。"
+ },
+ {
+  "seg": 186,
+  "start": 884.24,
+  "end": 888.445,
+  "speaker": "Unknown",
+  "en": "In the morning, you have two ML models trained, a full report, great results.",
+  "zh": "到了早上，你就有了两个训练好的 ML 模型、一份完整的报告、很棒的结果。"
+ },
+ {
+  "seg": 187,
+  "start": 889.025,
+  "end": 890.727,
+  "speaker": "Unknown",
+  "en": "And we've pushed a bunch of these to production.",
+  "zh": "我们已经把其中不少推到了生产环境。"
+ },
+ {
+  "seg": 188,
+  "start": 892.634,
+  "end": 893.815,
+  "speaker": "Unknown",
+  "en": "So those are three examples.",
+  "zh": "以上就是三个例子。"
+ },
+ {
+  "seg": 189,
+  "start": 894.355,
+  "end": 895.016,
+  "speaker": "Unknown",
+  "en": "I would try.",
+  "zh": "我会建议你去尝试。"
+ },
+ {
+  "seg": 190,
+  "start": 895.256,
+  "end": 895.797,
+  "speaker": "Unknown",
+  "en": "Try your own.",
+  "zh": "尝试你自己的。"
+ },
+ {
+  "seg": 191,
+  "start": 896.497,
+  "end": 901.121,
+  "speaker": "Unknown",
+  "en": "But I think the main takeaway for me in doing these is really to push on task scope.",
+  "zh": "但我认为做这些事情对我来说最大的收获，其实就是去突破任务范围的边界。"
+ },
+ {
+  "seg": 192,
+  "start": 901.221,
+  "end": 904.024,
+  "speaker": "Unknown",
+  "en": "So this was a tweet by Simon Last, one of the Notion founders.",
+  "zh": "这是 Notion 创始人之一 Simon Last 发的一条推文。"
+ },
+ {
+  "seg": 193,
+  "start": 904.965,
+  "end": 909.769,
+  "speaker": "Unknown",
+  "en": "And he called out, these modern models are just capable of so much more than we think.",
+  "zh": "他指出，这些现代模型能做的事情远远超出我们的想象。"
+ },
+ {
+  "seg": 194,
+  "start": 910.329,
+  "end": 922.958,
+  "speaker": "Unknown",
+  "en": "And I think it's our jobs as leaders to really understand the contours of how much we can push these models because it affects both how we lead and how we influence our teams, but also how they fit into our products and what our new products are capable of in terms of utility.",
+  "zh": "而我认为，作为领导者，我们的职责就是真正理解我们能在多大程度上推动这些模型的轮廓，因为这既影响我们如何领导、如何影响我们的团队，也影响它们如何融入我们的产品，以及我们的新产品在实用性方面能做到什么。"
+ },
+ {
+  "seg": 195,
+  "start": 923.379,
+  "end": 933.046,
+  "speaker": "Unknown",
+  "en": "So I'd really push you overnight, try to think of how do I give it more and more scope so that we can do weeks of work, months of work overnight and see what these models are really capable of.",
+  "zh": "所以我真的敦促你们，在隔夜的时间里，试着思考我如何给它越来越多的范围，让我们能够把几周的工作、几个月的工作在隔夜之间完成，看看这些模型到底能做到什么。"
+ },
+ {
+  "seg": 196,
+  "start": 935.152,
+  "end": 936.273,
+  "speaker": "Unknown",
+  "en": "I will say a caveat.",
+  "zh": "我要说一个注意事项。"
+ },
+ {
+  "seg": 197,
+  "start": 936.313,
+  "end": 939.237,
+  "speaker": "Unknown",
+  "en": "A lot of this works because of existing organizational scaffolding.",
+  "zh": "这一切之所以能行得通，很大程度上是因为已有的组织脚手架。"
+ },
+ {
+  "seg": 198,
+  "start": 939.657,
+  "end": 942.12,
+  "speaker": "Unknown",
+  "en": "So you'll have to build this up in your organization.",
+  "zh": "所以你必须在自己的组织里把这些搭建起来。"
+ },
+ {
+  "seg": 199,
+  "start": 942.341,
+  "end": 944.343,
+  "speaker": "Unknown",
+  "en": "You know, AI code reviewers, this really helps.",
+  "zh": "你知道，AI 代码审查器，这真的很有帮助。"
+ },
+ {
+  "seg": 200,
+  "start": 944.363,
+  "end": 947.467,
+  "speaker": "Unknown",
+  "en": "We have an internal one we trained, but also just external ones, whatever you need.",
+  "zh": "我们有一个内部训练的,也有一些外部的,你需要什么就用什么。"
+ },
+ {
+  "seg": 201,
+  "start": 948.968,
+  "end": 953.994,
+  "speaker": "Unknown",
+  "en": "Agents.md hygiene, you know, Claude.md, agents.md, proper CI that you can trust.",
+  "zh": "Agents.md 卫生,你知道的,Claude.md、agents.md、可以信任的正规 CI。"
+ },
+ {
+  "seg": 202,
+  "start": 954.99,
+  "end": 958.973,
+  "speaker": "Unknown",
+  "en": "And then we have a bunch of other things like really sophisticated feature flags.",
+  "zh": "然后我们还有一堆其他的东西,比如非常精细的功能开关。"
+ },
+ {
+  "seg": 203,
+  "start": 959.593,
+  "end": 963.396,
+  "speaker": "Unknown",
+  "en": "We have a prototype branch that you can push to that goes to employees but it doesn't go to production.",
+  "zh": "我们有一个原型分支,你可以推送上去,员工能看到,但不会进入生产环境。"
+ },
+ {
+  "seg": 204,
+  "start": 963.877,
+  "end": 969.241,
+  "speaker": "Unknown",
+  "en": "Just layers like that so you're not taking prod down basically as you're prototyping and showing these things off.",
+  "zh": "就是这样的层层隔离,这样你在做原型和演示这些东西的时候,基本上不会把生产环境搞挂。"
+ },
+ {
+  "seg": 205,
+  "start": 970.241,
+  "end": 972.323,
+  "speaker": "Unknown",
+  "en": "Not amazing for the CTO to take prod down.",
+  "zh": "把生产环境搞挂对 CTO 来说可不太妙。"
+ },
+ {
+  "seg": 206,
+  "start": 974.552,
+  "end": 976.954,
+  "speaker": "Unknown",
+  "en": "I will say, again, code hygiene really matters.",
+  "zh": "我要再说一次,代码卫生真的很重要。"
+ },
+ {
+  "seg": 207,
+  "start": 976.974,
+  "end": 978.075,
+  "speaker": "Unknown",
+  "en": "I've been humbled a lot.",
+  "zh": "我已经被打脸很多次了。"
+ },
+ {
+  "seg": 208,
+  "start": 978.175,
+  "end": 979.977,
+  "speaker": "Unknown",
+  "en": "You know, my code has annoyed engineers.",
+  "zh": "你知道,我的代码惹恼过工程师们。"
+ },
+ {
+  "seg": 209,
+  "start": 980.057,
+  "end": 981.458,
+  "speaker": "Unknown",
+  "en": "It's caused SEVs.",
+  "zh": "它造成过线上事故。"
+ },
+ {
+  "seg": 210,
+  "start": 981.558,
+  "end": 983.4,
+  "speaker": "Unknown",
+  "en": "Coding engines are not perfect yet.",
+  "zh": "编码引擎目前还不完美。"
+ },
+ {
+  "seg": 211,
+  "start": 983.46,
+  "end": 985.261,
+  "speaker": "Unknown",
+  "en": "So just your mileage may vary.",
+  "zh": "所以你的实际效果可能因人而异。"
+ },
+ {
+  "seg": 212,
+  "start": 985.362,
+  "end": 986.182,
+  "speaker": "Unknown",
+  "en": "You will get humbled.",
+  "zh": "你会被打脸的。"
+ },
+ {
+  "seg": 213,
+  "start": 986.242,
+  "end": 993.309,
+  "speaker": "Unknown",
+  "en": "But I still think it's worth it because you learn so much, and you can model what taking on more and more scope, even with a busy calendar, looks like.",
+  "zh": "但我仍然认为这是值得的,因为你能学到很多,而且你可以示范在日程繁忙的情况下,如何承担越来越多的职责范围。"
+ },
+ {
+  "seg": 214,
+  "start": 994.778,
+  "end": 996.158,
+  "speaker": "Unknown",
+  "en": "Some tactical tips on hygiene.",
+  "zh": "一些关于卫生的实战建议。"
+ },
+ {
+  "seg": 215,
+  "start": 997.238,
+  "end": 998.959,
+  "speaker": "Unknown",
+  "en": "I would test everything before the PR goes up.",
+  "zh": "我会在 PR 提交之前测试所有东西。"
+ },
+ {
+  "seg": 216,
+  "start": 998.979,
+  "end": 1002.98,
+  "speaker": "Unknown",
+  "en": "That morning slot, that's a lot of what I'm doing, is just testing what the overnight run did.",
+  "zh": "早上的那个时间段,我很大一部分工作就是测试通宵运行的结果。"
+ },
+ {
+  "seg": 217,
+  "start": 1003.5,
+  "end": 1006.56,
+  "speaker": "Unknown",
+  "en": "Even though there's computer use, et cetera, it's really important you test it yourself.",
+  "zh": "尽管有 computer use 等技术,你自己测试还是非常重要的。"
+ },
+ {
+  "seg": 218,
+  "start": 1008.161,
+  "end": 1010.601,
+  "speaker": "Unknown",
+  "en": "Small, readable PRs are really helpful.",
+  "zh": "小的、可读性强的 PR 非常有帮助。"
+ },
+ {
+  "seg": 219,
+  "start": 1010.801,
+  "end": 1013.742,
+  "speaker": "Unknown",
+  "en": "I think that you're modeling to the rest of the team what good looks like.",
+  "zh": "我认为你是在向团队其他人示范什么是好的标准。"
+ },
+ {
+  "seg": 220,
+  "start": 1014.242,
+  "end": 1019.783,
+  "speaker": "Unknown",
+  "en": "So if you're putting up three 5,000 line PRs, other engineers on the team are going to start doing that, and that's not amazing.",
+  "zh": "所以如果你提交了三个 5000 行的 PR,团队里的其他工程师也会开始这么做,那就不好了。"
+ },
+ {
+  "seg": 221,
+  "start": 1020.583,
+  "end": 1021.404,
+  "speaker": "Unknown",
+  "en": "It's really important.",
+  "zh": "这真的很重要。"
+ },
+ {
+  "seg": 222,
+  "start": 1021.444,
+  "end": 1024.425,
+  "speaker": "Unknown",
+  "en": "Your hygiene is really good because it's modeling for the rest of the team what good looks like.",
+  "zh": "你的卫生习惯要好,因为它是在向团队其他人示范什么是好的标准。"
+ },
+ {
+  "seg": 223,
+  "start": 1025.626,
+  "end": 1027.627,
+  "speaker": "Unknown",
+  "en": "And then, ooh, this is so tempting.",
+  "zh": "然后,哦,这个太诱人了。"
+ },
+ {
+  "seg": 224,
+  "start": 1027.707,
+  "end": 1030.969,
+  "speaker": "Unknown",
+  "en": "It's so tempting to put other reviewers on code you haven't read yet.",
+  "zh": "把你还没读过的代码交给其他审阅者去看,这个诱惑太大了。"
+ },
+ {
+  "seg": 225,
+  "start": 1031.509,
+  "end": 1032.03,
+  "speaker": "Unknown",
+  "en": "Don't do it.",
+  "zh": "不要这么做。"
+ },
+ {
+  "seg": 226,
+  "start": 1032.57,
+  "end": 1042.035,
+  "speaker": "Unknown",
+  "en": "It's mostly because you're going to look like an ass because there's going to be something in that code that is going to be so obviously bad, and then some senior engineer is going to call you and be like, yo, why didn't you read this?",
+  "zh": "主要是因为你会很难堪,因为那段代码里会有一些明显糟糕的东西,然后某个资深工程师会打电话给你说,哟,你为什么不读一下这个?"
+ },
+ {
+  "seg": 227,
+  "start": 1042.515,
+  "end": 1044.477,
+  "speaker": "Unknown",
+  "en": "So I speak from experience.",
+  "zh": "所以我是从亲身经历出发说的。"
+ },
+ {
+  "seg": 228,
+  "start": 1044.537,
+  "end": 1045.057,
+  "speaker": "Unknown",
+  "en": "Read the code.",
+  "zh": "去读代码。"
+ },
+ {
+  "seg": 229,
+  "start": 1045.077,
+  "end": 1046.978,
+  "speaker": "Unknown",
+  "en": "Review it properly before you add anybody else to it.",
+  "zh": "在你加入任何其他人之前,先认真审阅。"
+ },
+ {
+  "seg": 230,
+  "start": 1049.162,
+  "end": 1052.465,
+  "speaker": "Unknown",
+  "en": "So hopefully this convinces you building is part of the job now.",
+  "zh": "希望这能让你们相信,现在动手构建已经是这份工作的一部分了。"
+ },
+ {
+  "seg": 231,
+  "start": 1053.085,
+  "end": 1057.128,
+  "speaker": "Unknown",
+  "en": "You can do it, even with just one or two hours a day, and you should.",
+  "zh": "即使每天只有一两个小时,你也可以做到,而且你应该去做。"
+ },
+ {
+  "seg": 232,
+  "start": 1057.648,
+  "end": 1065.474,
+  "speaker": "Unknown",
+  "en": "You'll start to feel the models every three months as the new model families come out, and you'll learn the skill on how to push scope as you are instructing them.",
+  "zh": "随着新的模型系列每三个月发布一次,你会开始感受到模型的进步,并且你会学到如何在给它们下达指令时推动更大的职责范围。"
+ },
+ {
+  "seg": 233,
+  "start": 1066.015,
+  "end": 1069.578,
+  "speaker": "Unknown",
+  "en": "And you'll be able to show the team and the org what's possible as well.",
+  "zh": "你也能向团队和组织展示什么是可能的。"
+ },
+ {
+  "seg": 234,
+  "start": 1069.778,
+  "end": 1077.964,
+  "speaker": "Unknown",
+  "en": "You know, just because as you have this capability, you automatically think of ideas on what to slot in for these overnight runs, and then you can model for the team, hey, this is what the future looks like.",
+  "zh": "你知道的,因为当你拥有了这种能力,你会自然而然地想到把什么想法放进这些通宵运行里,然后你可以向团队示范:嘿,这就是未来的样子。"
+ },
+ {
+  "seg": 235,
+  "start": 1078.985,
+  "end": 1079.289,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

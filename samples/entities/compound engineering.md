@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>compound engineering</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="compound engineering">CO</div><div class="pi"><h1 class="pt">compound engineering</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="compound engineering">CO</div><div class="pi"><h1 class="pt">compound engineering</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(11:53起):本集说它是他们插件里的方法/slash LFG 指令,让智能体自己走「头脑风暴→规划→执行→审查」的 compound 循环,成果随时间不断复利叠加
+- **[[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]]**(02:31起):本集主线：Kieran 发明并实践的方法论——把思考和品味持续提取进一个会记忆、能复利的系统，让中间环节（规划、干活、审查）无需自己运转，『一个拥有复利系统的工程师能打赢完整但没用复利系统的团队』。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为概念
+- [[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Yash]] · [[Builder Pack]] · [[All Access]] · [[智能体]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]]
+[[智能体]] · [[Codex]] · [[Cursor]] · [[Every]] · [[Yash]] · [[Kieran Klaassen]] · [[Builder Pack]] · [[Compound Engineering Plugin]] · [[All Access]] · [[Cora]]
 
-<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":297,"MCP":49,"Codex":54,"Claude":62,"Anthropic":133,"OpenAI":125,"Cursor":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"Codex":55,"Cursor":66,"Every":4,"Yash":1,"Kieran Klaassen":1,"Builder Pack":1,"Compound Engineering Plugin":1,"All Access":1,"Cora":2}</script>
 
 <script>
 (function(){

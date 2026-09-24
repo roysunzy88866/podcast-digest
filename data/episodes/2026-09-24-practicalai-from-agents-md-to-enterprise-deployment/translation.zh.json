@@ -1,0 +1,1106 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.73,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客,在这里我们剖析人工智能的真实世界应用,以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让人工智能技术对每个人都实用、高效且易于获取。无论你是开发者、商业领袖,还是只是对这股热潮背后的技术感到好奇,你都来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系,及时了解节目更新、幕后内容和 AI 洞察。你可以在 practicalai.fm了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.81,
+  "end": 37.41,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.489998,
+  "end": 56.835,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. Am I CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+  "zh": "欢迎收听 Practical AI 播客的另一期节目。我是 Daniel Whitenack,Prediction Guard 的 CEO,一如既往地和我的联合主持人 Benson 一起,他是一名首席 AI 与自主性研究工程师。Chris,你怎么样?"
+ },
+ {
+  "seg": 3,
+  "start": 56.835,
+  "end": 58.595,
+  "speaker": "Chris Benson",
+  "en": "Hey. Doing great today. How's it going?",
+  "zh": "嘿。今天状态很好。你呢?"
+ },
+ {
+  "seg": 4,
+  "start": 58.595,
+  "end": 85.015,
+  "speaker": "Daniel Whitenack",
+  "en": "It's it's going great, and I and I know this is gonna be a great conversation for a few different reasons today. One of those being our our guest is one of the speakers at the upcoming Midwest AI Summit, which is gonna be amazing. There's gonna be a bunch of amazing speakers there. I'm gonna do a bit of emceeing, see if I don't mess that up. Would encourage our encourage our listeners to check that out October 15 in Indianapolis.",
+  "zh": "我很好,而且我知道今天这会是一场很棒的对话,有几个原因。其中一个原因是我们的嘉宾是即将举行的 Midwest AI Summit 的演讲者之一,那将会非常精彩。那里会有一群很棒的演讲者。我会做一些主持工作,看看我能不能不搞砸。鼓励我们的听众去看看,10 月 15 日在印第安纳波利斯举行。"
+ },
+ {
+  "seg": 5,
+  "start": 85.175,
+  "end": 109.335,
+  "speaker": "Daniel Whitenack",
+  "en": "You can, get 20% off with Practical AI 20, so check that out. So, amazing speaker, gonna be at the Midwest AI Summit. Also, a fellow podcaster, which is is great. One of the hosts of Cloud Foundry weekly and, a tech marketing, whiz at Broadcom Tanzu VMware. So welcome, Nick.",
+  "zh": "你可以用 Practical AI 20 获得 20% 的折扣,去看看吧。所以,这位出色的演讲者将出席 Midwest AI Summit。他也是一位播客主持人,这很棒。他是 Cloud Foundry weekly 的主持人之一,也是 Broadcom Tanzu VMware 的技术营销高手。欢迎,Nick。"
+ },
+ {
+  "seg": 6,
+  "start": 109.335,
+  "end": 110.135,
+  "speaker": "Daniel Whitenack",
+  "en": "Great to have you.",
+  "zh": "很高兴有你来。"
+ },
+ {
+  "seg": 7,
+  "start": 110.535,
+  "end": 117.175,
+  "speaker": "Nick",
+  "en": "Thanks for having me. Great to be on the show. Excited. Also excited to see y'all in person in Indianapolis.",
+  "zh": "谢谢你们邀请我。很高兴上这个节目。很兴奋。也很期待在印第安纳波利斯与你们面对面见面。"
+ },
+ {
+  "seg": 8,
+  "start": 117.520004,
+  "end": 127.2,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. It's gonna be fun. We're representing the good good representation of the Silicon Prairie here. I I like it. So, yeah.",
+  "zh": "是的。会很有趣。我们在这里代表着硅草原的良好形象。我喜欢这样。所以,是的。"
+ },
+ {
+  "seg": 9,
+  "start": 127.2,
+  "end": 177.97,
+  "speaker": "Daniel Whitenack",
+  "en": "Nick, I I know you're gonna be talking one of the things I thought was cool about your talk at the Midwest AI Summit is you bring in this concept of taking, like, agents.md and shipping that to a production environment where you run, you know, an actual agent in an, quote, enterprise environment, which seems to be, really fascinating. We recently had on, someone from is kind of stewarding the model context protocol and Agents. Md and those sorts of things. Very relevant kind of carry on from that conversation. But I'm wondering as we set that up, what what exactly does it mean to be operating in an enterprise environment?",
+  "zh": "Nick,我知道你会谈到——我觉得你在 Midwest AI Summit 的演讲中很酷的一点是,你引入了这个概念,比如把 agents.md 推送到一个生产环境,在那里你运行一个真正的智能体,在一个所谓的「企业环境」中,这看起来非常迷人。我们最近请了一位,可以说是在打理 model context protocol 和 Agents Md 之类东西的人。是从那次对话非常相关的延续。但我想在设置这个话题时,在「企业环境」中运营到底意味着什么?"
+ },
+ {
+  "seg": 10,
+  "start": 177.97,
+  "end": 211.20999,
+  "speaker": "Daniel Whitenack",
+  "en": "So the customers that you're working with, that you're kind of day to day, what are what makes an enterprise environment an enterprise environment? What are some of the concerns or characteristics of that type of environment? And I know you you're always experimenting. You do a lot of home lab stuff as well, so always have a whole range of experience in working in different sorts of environments. So, yeah, if you could just help us understand from a general perspective, what what what does that mean, when you say kinda enterprise?",
+  "zh": "所以你日常合作的那些客户,是什么让一个企业环境成为企业环境?那种类型的环境有哪些关注点或特征?我知道你总是在做实验。你也做很多家庭实验室的东西,所以在不同类型的环境中工作总是有全方位的经验。所以,是的,如果你能从一般的角度帮我们理解,当你说「企业」时那到底是什么意思?"
+ },
+ {
+  "seg": 11,
+  "start": 211.20999,
+  "end": 231.33,
+  "speaker": "Nick",
+  "en": "Right. So, yeah, if we think about the enterprise, we think about, you know, a few things. One, let's just assume you're gonna have not Internet limited or no Internet access. And, you know, I've been at VM Martens here for about five years. And before that, I was at one of these large enterprises for about fourteen years.",
+  "zh": "好。是的,如果我们想到企业,我们会想到,你知道,几件事。第一,我们假设你会有不是受限的网络或根本没有互联网访问。而且,你知道,我在 VM Martens 这里待了大约五年。在那之前,我在其中一家大型企业待了大约十四年。"
+ },
+ {
+  "seg": 12,
+  "start": 231.33,
+  "end": 265.92,
+  "speaker": "Nick",
+  "en": "So when we had vendors come in, it would always be like they would always assume that we could just go to the Internet. And it was always like, well, try again because that's not gonna work here. So that's kind of always like the biggest hurdle where you're gonna be regulated and or, you know, you know, you're not gonna your what you can do at home is not gonna be what you can do at work, so to speak. So you're gonna be highly regulated. You're gonna have to deal with, you know, potential, like, you know, PCI or SOX compliance or HIPAA or FIPS or, you know and I could probably go on and on about all the different compliance tiers that you'd have to deal with.",
+  "zh": "所以当我们有供应商进来时,总是他们会总是假设我们可以直接上互联网。总是那种,好吧,再试一次,因为那在这里行不通。所以那大概总是最大的障碍,你会受到监管,或者,你知道,你在家里能做的不会是你在工作中能做的,可以这么说。所以你会受到高度监管。你将不得不应对,你知道,潜在的,比如 PCI 或 SOX 合规,或 HIPAA 或 FIPS,或者,你知道,我可能可以没完没了地列举你必须应对的各种不同合规层级。"
+ },
+ {
+  "seg": 13,
+  "start": 265.92,
+  "end": 299.07,
+  "speaker": "Nick",
+  "en": "So it's just a whole different ballgame where, you know, you could potentially do something that has dramatic consequences. And you have a, you know, highly controlled, highly regulated environment where even some of the customers I work with are like, know, they actually have the real air gap. Like, we're carrying in things, you know, physically into the data center because there is no Internet access type of thing. So it's it's it's a wild world, but and it and it frustrates a lot of, I think, new folks to the enterprise space. But if you've been in it a while, you know you know you know how to deal with it and and how how to handle it type of thing.",
+  "zh": "所以这完全是另一回事,你知道,你可能会做一些具有严重后果的事情。而且你有一个,你知道,高度受控、高度受监管的环境,甚至我合作的一些客户会说,你知道,他们实际上有真正的物理隔离(air gap)。比如,我们正在把东西,你知道,物理搬运进数据中心,因为根本没有互联网访问那种情况。所以这是一个疯狂的世界,但,而且它,而且它让很多,我认为,刚进入企业领域的新人感到沮丧。但如果你在其中待了一段时间,你知道,你知道,你知道如何应对它,以及如何处理它之类的事情。"
+ },
+ {
+  "seg": 14,
+  "start": 300.17502,
+  "end": 329.98502,
+  "speaker": "Daniel Whitenack",
+  "en": "And I guess, you know, people have been dealing with these types of environments for quite a while. Right? Because there have been enterprises for for quite a while. Maybe just give us a sense of, like, leading up to AI agents, and we'll talk about agents here in a second. But leading up to AI agents, like, what were some of the ways that you could, I I guess, ease you know, put some ointment on those those pains of working in that sort of environment?",
+  "zh": "而且我想,你知道,人们应对这些类型的环境已经相当长时间了。对吧?因为企业存在已经相当长时间了。也许就让我们了解一下,比如在 AI 智能体之前——我们一会儿会谈智能体——但在 AI 智能体之前,比如有哪些方法可以,我想说,缓解——你知道,给在那种环境中工作的那些痛点涂点药膏?"
+ },
+ {
+  "seg": 15,
+  "start": 329.98502,
+  "end": 342.385,
+  "speaker": "Daniel Whitenack",
+  "en": "How do you how would you get an application into that sort of environment or or have it be enterprise ready, quote unquote? And then we can shift and talk about, you know, what changes with with agents.",
+  "zh": "你如何把一个应用程序弄进那种环境,或者让它成为所谓的「企业就绪」?然后我们可以转向谈论,你知道,智能体带来了什么变化。"
+ },
+ {
+  "seg": 16,
+  "start": 342.385,
+  "end": 375.3,
+  "speaker": "Nick",
+  "en": "Yeah. So, I mean, I think so, you know, I currently work for VMware Tanzu, and we run a a, you know, a platform or a platform as a service, you know, geared for private cloud, whether that be on your, like, on your own bare metal in your data center, or you could deploy it on a private cloud in your own VPC on a hyperscaler, that type of thing. But we think about that. Wanna in the scope of an enterprise, right, you have all these regulations, controls, etcetera. You wanna make that path to production kind of the least resistant and easiest path.",
+  "zh": "好的。那么,我是说,我想,你知道,我目前在 VMware Tanzu 工作,我们运行一个,你知道,平台或平台即服务,你知道,面向私有云,无论是在你自己的数据中心里的裸机上,还是你可以把它部署在超大规模云服务商上你自己 VPC 内的私有云上,那种情况。但我们思考这个问题。在企业范围内,对吧,你有所有这些法规、控制等等。你想让那条通往生产的路径成为阻力最小、最简单的路径。"
+ },
+ {
+  "seg": 17,
+  "start": 375.3,
+  "end": 416.42502,
+  "speaker": "Nick",
+  "en": "And if you make that path to production, like all the check boxes and everything good to go, that's gonna be a highly adopted path. So the whole concept of, you know, Teensy platform, and it's actually based on an open source project called Cloud Foundry, which is, I think I mean, it's I mean, it predates Kubernetes and Docker. So, you know, twenty eleven ish is when it kinda started originally out of VMware and spun out and then became part of a open source project. So it's been around and battle tested and seen a lot of things where you have that concept of, like, I just wanna take my code and send it to the platform, and the platform's gonna know, like, the best practices for it's gonna build a container for the developer so the developer doesn't have to worry about, like, you know, securing the container or anything like that. That platform will take care of that.",
+  "zh": "而且如果你把那条通往生产的路径——所有的勾选框等等——都弄好了,那将会是一条被高度采纳的路径。所以,你知道,Tanzu 平台的整个概念,它实际上基于一个叫 Cloud Foundry 的开源项目,我想——我是说,它比 Kubernetes 和 Docker 还早。所以,你知道,2011 年左右它最初从 VMware 起步,然后分拆出来,后来成为一个开源项目的一部分。所以它已经存在很久,经过实战检验,见过很多东西,你有那种概念,比如,我只想拿我的代码发送到平台,平台会知道,比如最佳实践,它会为开发者构建一个容器,这样开发者就不必担心,比如,你知道,保护容器安全或类似的事情。那个平台会处理好这些。"
+ },
+ {
+  "seg": 18,
+  "start": 417.14502,
+  "end": 462.76,
+  "speaker": "Nick",
+  "en": "It will handle, you know, ingress, like certs, certificates, all of the you know, load balancers, all of those things just handle health monitoring, potentially even kind of like sandboxing the apps from each other. Something that, you know, maybe some of these labs may learn from, but so that the apps can't escape type of thing. And, you know, if it if the app needs services like a database or messaging, middleware, any type of thing, even maybe a large language model, it can what we call bind or it kind of connects to a service on the fly, and that that's all kinda handled under other underneath the covers. So it's just a few commands, like you push, bind, scale your app with just a few simple constructs. And that's that's like that's how you go to production.",
+  "zh": "它会处理,你知道,ingress,比如证书、所有那些,你知道,负载均衡器,所有这些东西,只处理健康监控,甚至可能在某种程度上把应用彼此沙箱化。一些,你知道,也许这些实验室中的一些可以学习的东西,但这样应用就无法逃脱之类。而且,你知道,如果应用需要像数据库或消息传递、中间件之类的服务,任何类型的东西,甚至也许一个大语言模型,它可以——我们称之为绑定(bind)——或者它在运行中连接到一个服务,而这一切都是在底层处理的。所以只是几个命令,比如推送、绑定、扩展你的应用,只用几个简单的构造。那就是——那就是你上生产的方式。"
+ },
+ {
+  "seg": 19,
+  "start": 462.76,
+  "end": 496.58,
+  "speaker": "Nick",
+  "en": "And what we see with Enterprise is once that path like, once they take this, like, this is Tanzu platform, it's been certified through all these different standards. It's just kind of like an unlock for these enterprises because it's so easy and so simple to use, and they don't have to, you know, they don't have to recertify everything. It's it's just like this framework that they can use to get apps into production. And then the biggest thing is that you want these the enterprises or the businesses, the they don't want their developers, you know, handcrafting a a new platform or a new way to deploy apps for every sub team and have, like, a 100 different snowflakes. Right?",
+  "zh": "我们在企业中看到的是,一旦那条路径——比如,一旦他们采用这个,比如这是 Tanzu 平台,它已经通过了所有这些不同标准的认证。这对这些企业来说就像是一种解锁,因为它太容易、太简单易用,而且他们不必,你知道,他们不必重新认证一切。它就像是他们可以用来把应用投入生产的一个框架。然后最重要的是,你想要这些——企业或者业务部门,他们不想要他们的开发者,你知道,为每个子团队手工打造一个新平台或一种新的应用部署方式,然后有一百种不同的「雪花」配置。对吧?"
+ },
+ {
+  "seg": 20,
+  "start": 496.835,
+  "end": 514.91,
+  "speaker": "Nick",
+  "en": "They want the same repeatable pattern across the board so that they can audit it and secure it and have their developers actually spend time writing the business logic versus like fiddling with infrastructure. So that's kinda like the whole premise behind, you know, the the whole platform as a service construct and, you know, attains a platform. As you So, can yeah. Oh, go ahead. Yeah.",
+  "zh": "他们想要全面统一、可重复的模式,这样他们就能审计它、保护它,并让他们的开发者真正把时间花在编写业务逻辑上,而不是摆弄基础设施。所以那就是,你知道,整个平台即服务构造和,你知道,Attains 平台背后的整个前提。因为你——所以,可以。是的。哦,你先说。好的。"
+ },
+ {
+  "seg": 21,
+  "start": 514.91,
+  "end": 517.55,
+  "speaker": "Chris Benson",
+  "en": "No, no. Go ahead. Finish up, then I'll follow-up. All good.",
+  "zh": "不,不,你先说。说完,我再追问。没问题。"
+ },
+ {
+  "seg": 22,
+  "start": 517.55,
+  "end": 525.805,
+  "speaker": "Nick",
+  "en": "Okay. As as you could imagine, those principles when we're talking about apps could probably play nicely into this agent world that we're living in.",
+  "zh": "好的。正如你可以想象的,那些原则——当我们谈论应用时——很可能可以很好地套用到我们生活的这个智能体世界中。"
+ },
+ {
+  "seg": 23,
+  "start": 525.805,
+  "end": 573.26,
+  "speaker": "Chris Benson",
+  "en": "So it sounds like you're drawing a lot of commonality between kind of traditional app development and all of the structure that we're all used to, that we've been doing forever, and kind of now we're into this agentic world, and maybe people have been thinking about that in a different way, but it sounds like you've really kind of said, and correct me if I'm wrong, I'm gonna throw something out here, like it's kind of the same thing in the sense of there are differences, but agents and apps should sort of be treated the same way. Am I getting that correctly in terms of how you're structuring that, and that maybe people need to look at what they've been doing for years and make that work for agents in the same way. Is that fair?",
+  "zh": "所以听起来你在传统应用开发和所有我们习以为常、一直在做的结构之间,与现在进入的这个智能体世界之间,划出了很多共同点。也许人们一直在用不同的方式思考那个,但听起来你真的已经说了——如果我理解错了请纠正我——我要抛出一个观点:比如这在某种意义上是同一回事,虽然有差异,但智能体和应用应该以大致相同的方式对待。我理解得对吗?就你构建它的方式而言,以及也许人们需要审视他们多年来一直在做的事情,并以同样的方式让它为智能体服务。这样说公平吗?"
+ },
+ {
+  "seg": 24,
+  "start": 573.26,
+  "end": 590.595,
+  "speaker": "Nick",
+  "en": "Yeah. Mean, I think it's a pretty fair assessment, and we're starting to see that more and more just within our customer base. You know, even like, if you think about, like, apps back in the day, like, someone would write some app on their laptop and, like, run it on their laptop. But it's like, we can't just run it. You know, like, you gotta get it off your laptop somewhere.",
+  "zh": "是的。我是说,我认为这是一个相当公平的评估,而且我们开始在我们自己的客户群中越来越多地看到这一点。你知道,甚至比如,如果你想想,比如以前的应用,比如,有人会在他们的笔记本电脑上写一个应用,然后在他们的笔记本电脑上运行它。但问题是,我们不能就这样运行它。你知道,比如,你得把它从你的笔记本电脑上弄到别的地方去。"
+ },
+ {
+  "seg": 25,
+  "start": 590.595,
+  "end": 597.38,
+  "speaker": "Nick",
+  "en": "And the same thing with agents. You're like, I got this I've got all these agents run on my laptop. If I shut my lid, everything stops. Like, I I don't really want that to happen. Right?",
+  "zh": "智能体也是同样的情况。你会说,我有这些——我让所有这些智能体在我的笔记本电脑上运行。如果我一合上盖子,一切都停止了。比如,我,我真的不想要那种情况发生。对吧?"
+ },
+ {
+  "seg": 26,
+  "start": 597.38,
+  "end": 604.5,
+  "speaker": "Nick",
+  "en": "I don't want them to run twenty four seven, you know, three sixty five, and do all the work I give them. So, yeah. I think that's kinda precisely what we're going with.",
+  "zh": "我不想——我想让它们 24/7、365 天运行,做我交给它们的所有工作。所以,是的。我认为那大概正是我们要做的方向。"
+ },
+ {
+  "seg": 27,
+  "start": 604.5,
+  "end": 653.68,
+  "speaker": "Daniel Whitenack",
+  "en": "So so I guess then it begs the question, why why are people kind of throwing out what maybe their intuition? Like, in in certain ways, people are saying, oh, we have agents now. We need to do something totally different, which is maybe driven by some things that make an agent not an app not just a sort of simple application, but also it doesn't necessarily mean you know, obviously, we have to throw out everything we've learned about platform engineering and and and how to deploy things. So from your from your mindset, what where does the kind of agent equals just another app? Where where might that fall apart, or what are the kind of unique characteristics that you're dealing with on the Agents side",
+  "zh": "所以那么我想这就引出了一个问题,为什么——为什么人们要扔掉也许他们的直觉?比如,在某些方面,人们说,哦,我们现在有智能体了。我们需要做完全不同的事情,这也许是由于某些让智能体不只是一个应用——不只是一个简单应用程序的东西驱动的,但它也不一定意味着,你知道,显然,我们不必扔掉我们学到的关于平台工程以及如何部署东西的一切。所以从你的思维方式来看,「智能体等于只是另一个应用」这个等式——那可能会在哪里失效,或者你在智能体这一侧处理的那种独特特征是什么?"
+ },
+ {
+  "seg": 28,
+  "start": 653.75995,
+  "end": 654,
+  "speaker": "Nick",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 29,
+  "start": 654,
+  "end": 660.88,
+  "speaker": "Daniel Whitenack",
+  "en": "On on the deployment pathway that you might not have had to consider before or at least are considering in a new way?",
+  "zh": "在你可能以前不必考虑、或者至少要以新方式考虑的部署路径上?"
+ },
+ {
+  "seg": 30,
+  "start": 660.88,
+  "end": 697.92,
+  "speaker": "Nick",
+  "en": "Well, I mean, I I think some of the biggest differences, right, where, like, you talk about Cloud Foundry and Teensy platform, it was kinda based on this premise of a 12 factor application where storage and state are a little decoupled cleanly from the actual apps. You could I can scale up to a thousand instances and be fine, and you handle session state and things. The traditional harnesses or agents were kinda built originally just to be like, oh, I've got file system access, and I can just write a bunch of MD files, and that's like my memory. Everything's great. And they're like, well, you start to get into a cloud cloud world that things spin up and down and are ephemeral, you're gonna wanna save those MD files somewhere.",
+  "zh": "嗯,我是说,我认为一些最大的差异,对吧——比如,你谈到的 Cloud Foundry 和 Teensy 平台,它基于这个 12 因素应用的前提,其中存储和状态与实际应用比较干净地解耦。我可以——我可以扩展到一千个实例并且没问题,而且你处理会话状态之类的东西。传统的智能体工具(harness)最初构建时大概就是那种——哦,我有文件系统访问权限,我可以只写一堆 MD 文件,那就是我的记忆。一切都很好。然后他们会说,好吧,一旦你开始进入云——云世界,事物会启动和关闭并且是临时的,你会想把这些 MD 文件保存在某个地方。"
+ },
+ {
+  "seg": 31,
+  "start": 697.92,
+  "end": 734.565,
+  "speaker": "Nick",
+  "en": "They're gonna go off into the ether. So that's probably the, I think, the biggest challenge when we start talking about how do we take the app deployment methodology, right, and then push that into an agent running on a of a cloud platform per se. It's probably the biggest challenge. And then just kinda getting the fact that there's some valid use cases for your laptop or whatever. But then also, as we're starting to see more and more, like enterprise was Enterprises want agents to be on demand and usable kind of in a, like, say in a CICD pipeline or like on you know, within part of their, you know, ecommerce suite or just normal applications.",
+  "zh": "否则它们会消散到虚空里。所以那大概是,我认为,当我们开始谈论如何把应用部署方法论——对吧——然后把它推进到一个运行在云平台上的智能体上时,最大的挑战。它大概就是最大的挑战。然后就是逐渐接受这样一个事实:对于你的笔记本电脑或其他什么,确实有一些有效的使用场景。但同时,正如我们开始越来越多地看到的,比如企业——企业想要智能体是按需的、可用的,比如,比如说在一条 CICD 流水线中,或者,你知道,在他们,你知道,电子商务套件或普通应用程序的一部分之内。"
+ },
+ {
+  "seg": 32,
+  "start": 734.565,
+  "end": 760.975,
+  "speaker": "Nick",
+  "en": "And you want those to be kinda really close to the apps. Right? Because if you're if you have them way off, you know, even just from a pure networking perspective, if you have, you know, the agent or the LLM or whatever that's like, you know, 30 hops away from the the microservices try to call it, there's, you know, physics that are gonna add on to all of that latency and potentially at scale even be problematic. So they they kinda wanna collate all the intel co locate the intelligence with the app and the data as close as possible. That's what we've seen too.",
+  "zh": "而且你希望那些智能体与这些应用非常接近。对吧?因为如果你——如果你把它们放得很远,你知道,即使纯粹从网络的角度来看,如果你有,你知道,那个智能体或那个 LLM 或不管什么,离试图调用它的微服务有 30 跳远,那么,你知道,物理规律会叠加到所有那些延迟上,并且在大规模下甚至可能成为问题。所以他们——他们有点想要把所有智能——把智能与应用和数据尽可能近地同地部署(colocate)。那也是我们看到的。"
+ },
+ {
+  "seg": 33,
+  "start": 760.975,
+  "end": 791.515,
+  "speaker": "Nick",
+  "en": "That that's something that I didn't expect, really, because some of these some of these responses are kinda long, but it's like you what we've seen with our customers at scale. Like, we wanna get the LLMs and the agents closer to us and our actual apps using them and the people using them as well. And not to mention, if you're using some of these SaaS providers, they're maybe not the most reliable in terms of what traditional enterprises expect and demand. So you can't just have them, you know, going offline for hours. Because, you know, even even at my past job, the fur the very first thing I did there was work on a warehouse inventory system.",
+  "zh": "那是我真的没想到的事情,因为其中一些——其中一些响应有点长,但这是我们在客户大规模场景下看到的。比如,我们想让 LLM 和智能体更接近我们、以及实际使用它们的我们的应用、以及使用它们的人。更不用说,如果你使用其中一些 SaaS 提供商,就传统企业期望和要求的标准而言,它们也许不是最可靠的。所以你不能让它们,你知道,离线好几个小时。因为,你知道,甚至在我过去的工作中,我在那里做的第一件事就是一个仓库库存系统。"
+ },
+ {
+  "seg": 34,
+  "start": 791.515,
+  "end": 823.82,
+  "speaker": "Nick",
+  "en": "And now let's just say it was for a large retailer that was a grocery retailer in The US. And I was an intern out of college, and the app was older than me at the time, still older than me. And it was a bunch of C and shell scripts on Unix systems. And if that thing went down, like, within five minutes, like, the warehouse was backing up trucks, like, on the interstate. So it's like, you have to like, the scale of enterprise versus just, you know, have you know, like, consumer is a completely different scale.",
+  "zh": "而且,让我们这么说吧,那是为一家大型零售商做的,是美国的一家杂货零售商。我那时是刚大学毕业的实习生,那个应用当时比我还老,现在仍然比我还老。它是一堆 Unix 系统上的 C 和 shell 脚本。如果那个东西宕机了,比如,五分钟之内,仓库就会让卡车积压,比如,在州际公路上。所以就像是,你必须——比如,企业的规模 versus,你知道,比如消费者,是完全不同的规模。"
+ },
+ {
+  "seg": 35,
+  "start": 823.82,
+  "end": 833.18005,
+  "speaker": "Nick",
+  "en": "So that's why some of all the things we're trying to make them a little bit more enterprise grade and, more more used to what, these enterprises expect from software.",
+  "zh": "所以这就是为什么,你知道,我们试图把所有这些东西做得更加企业级一点,并且,更加更加习惯于这些企业对软件的期望。"
+ },
+ {
+  "seg": 36,
+  "start": 835.18,
+  "end": 858.83,
+  "speaker": "Daniel Whitenack",
+  "en": "Some mornings, as I'm drinking my morning coffee, I listen to live news updates to figure out what's going on in the world, and it seems like recently everyone is talking about AI kill switches. But the reality is that there is no one AI kill switch. We've moved from models to agents. Those agents are connected to multiple models. They have an agent harness.",
+  "zh": "有些早晨,当我喝着晨间咖啡时,我会听实时新闻更新来了解世界上正在发生什么,最近似乎每个人都在谈论 AI 紧急切断开关(kill switch)。但现实是没有单一的 AI 紧急切断开关。我们已经从模型转向智能体。那些智能体连接到多个模型。它们有一个智能体工具框架(agent harness)。"
+ },
+ {
+  "seg": 37,
+  "start": 858.83,
+  "end": 917.19995,
+  "speaker": "Sponsor",
+  "en": "They're connected to MCP servers and tools. And those agents are acting within a fleet, delegating to one another and interacting with one another. In that environment, what you don't have is a single kill switch that solves all of your problems, but that doesn't mean that you can't exert your control. You just have to exert that control across various layers of that stack through, of of course, component input output safeguards, but also controls on agents tied to their agent identity, things that track tool misuse or memory poisoning or goal drift, etcetera. And what we're providing at Prediction Guard, the company that I lead personally, is an AI control plane that you self host in your own infrastructure that gives you that control plane or control layer for the relevant stack that agents operate on top of.",
+  "zh": "它们连接到 MCP 服务器和工具。而且那些智能体在一个集群(fleet)内活动,相互委派、相互交互。在那个环境中,你没有的是一个能解决你所有问题的单一紧急切断开关,但这并不意味着你无法施加你的控制。你只需要在那个栈的各个不同层级上施加控制,通过,当然,组件的输入输出护栏,但也包括与智能体身份绑定的智能体控制,追踪工具滥用或记忆投毒或目标漂移之类的东西。而我在 Prediction Guard——我本人领导的公司——所提供的,是一个你可以在自己的基础设施中自托管的 AI 控制平面,它为智能体在其上运行的相关栈提供那个控制平面或控制层。"
+ },
+ {
+  "seg": 38,
+  "start": 917.19995,
+  "end": 947.23,
+  "speaker": "Sponsor",
+  "en": "I'd encourage you to check out what we're doing at predictionguard.com/practicalai. Go ahead and book a call with myself and the team to learn more about how you can gain control of the agents operating in your environment and exert zero trust principles in the way that you operate those agents. So check us out at predictionguard.com/practicalai. That's predictionguard.com/practicalai.",
+  "zh": "我鼓励你去 predictionguard.com/practicalai 看看我们在做什么。去预约一次与我和团队的通话,了解更多关于你如何获得对在你的环境中运行的智能体的控制,并以你运营这些智能体的方式施加零信任原则。所以请访问 predictionguard.com/practicalai。那是 predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 39,
+  "start": 949.185,
+  "end": 1010.10504,
+  "speaker": "Chris Benson",
+  "en": "So Nick, I would love to dive back. I wanna kinda build on what been sharing so far. And part of that is that we're all diving into this multi agentic world where late last year you'd have an agent, then for most people I think getting into multi agents it was probably developers in the environments that the AI providers were making available, and you had multiple agents working on a project. But now we're really seeing, with these work products and other things that have come out, we're seeing agents really multiplying across many different contexts and with a lot of different utility, it's moved out of being just frontier services, and we're now doing that with our hosted agents as well that we're running. This multiegenthic world has just taken off in a very short amount of time.",
+  "zh": "所以 Nick,我很想深入回去。我想在 Benson 到目前为止分享的基础上展开。其中一部分是,我们都在深入这个多智能体世界,去年年底你会有一个智能体,然后对大多数人来说,进入多智能体的大概是开发者,在 AI 提供商所提供的环境中,你有多个智能体在同一个项目上工作。但现在我们真正看到,随着这些工作成果和其他东西的推出,我们看到智能体真的在许多不同场景中成倍增长,并具有很多不同的实用性,它已经不只是前沿服务了,我们现在也在用我们自己运行的自托管智能体这样做。这个多智能体世界在很短的时间内就腾飞了。"
+ },
+ {
+  "seg": 40,
+  "start": 1013.705,
+  "end": 1053.24,
+  "speaker": "Chris Benson",
+  "en": "I guess I'm asking if you can paint a picture as you start scaling this out in the enterprise and what that looks like. Could you describe And we have analogies, as you've pointed out, with the traditional software development world, the containers, and how you're structuring deployment and stuff. Could you talk a little bit about what that looks like? Kind of paint a picture so that somebody can really get that in their head, me first of all, about what that multi agent world looks like when you were doing all these right things that you need to do in the Enterprise.",
+  "zh": "我想我在问,你能不能在将它扩展到企业中时描绘一幅图景,以及那是什么样子。你能不能描述——正如你指出的,我们有与传统软件开发世界、容器以及你如何构建部署之类东西的类比。你能不能稍微谈一下那是什么样子?描绘一幅图景,让人——首先是我——真正在脑海中形成那个多智能体世界的样子,当你在企业中做着所有你需要做的正确事情的时候。"
+ },
+ {
+  "seg": 41,
+  "start": 1053.24,
+  "end": 1085.135,
+  "speaker": "Nick",
+  "en": "Yeah, so I think the first thing that we wanna focus on is that the enterprise, you know, needs to get whatever technology approved throughout their system. And then we so we are providing a harness, called the, Tainzu Agent Build Pack, and that helps to that process. So our existing customers already have our customer you know, we're already approved so that we can help provide them those tools. And we just make that process just another app deployment on the on the platform. So I probably haven't covered this, but I'll explain what a buildpack is.",
+  "zh": "好的,所以我认为我们首先要关注的是,企业,你知道,需要让任何技术在整个系统中获得批准。而我们——所以我们正在提供一个工具框架(harness),叫做 Tainzu Agent Build Pack,它帮助这个过程。所以我们现有的客户——我们已经,你知道,我们已经获得批准,这样我们可以帮助他们提供那些工具。而我们只是让这个过程成为平台上的又一个应用部署。所以我可能还没有讲过这个,但我会解释什么是 buildpack。"
+ },
+ {
+  "seg": 42,
+  "start": 1085.135,
+  "end": 1085.8551,
+  "speaker": "Nick",
+  "en": "Right? So when you when",
+  "zh": "对吧?所以当你——当"
+ },
+ {
+  "seg": 43,
+  "start": 1085.8551,
+  "end": 1091.295,
+  "speaker": "Chris Benson",
+  "en": "you Yeah. I was about to I was about to ask you that. You could kinda dive into what the specifics of each of those things does.",
+  "zh": "你——好。我正要正要问你那个。你可以深入讲一下那些东西各自的具体功能。"
+ },
+ {
+  "seg": 44,
+  "start": 1091.295,
+  "end": 1113.465,
+  "speaker": "Nick",
+  "en": "Sure. So when I would do demos before AI and before, you know, a year or two ago or whatever, we would I would always take, like, a Java app, and it was like a simple, like, kind of, like, you know, music album called a spring music or whatever. But we take that Java code to be like a JAR file, like compiled Java code, and we're like, alright. Now we're gonna take this. We have a little simple manifest file that tells us what the what the name of the app is, how many how much resources to give it.",
+  "zh": "当然。所以在我做演示的时候——在 AI 之前,在,你知道,一两年前或之前——我总是,比如,拿一个 Java 应用,它是一个简单的,比如,类似,你知道,音乐专辑的应用,叫 spring music 之类的。但我们会把那个 Java 代码做成一个 JAR 文件,比如编译好的 Java 代码,然后我们说,好了。现在我们要拿这个。我们有一个小小的简单 manifest 文件,它告诉我们应用的名字是什么、给它多少资源。"
+ },
+ {
+  "seg": 45,
+  "start": 1113.465,
+  "end": 1140.9299,
+  "speaker": "Nick",
+  "en": "And we just run a command called c f push. And that would then just take that that code, the JAR file, and upload it to platform. And the platform would be like, oh, it's it's a Java app. So I'm gonna use the Java buildpack, and the buildpack is a it's basically a kind of a command set to make a best practice container based off that use case. So the Java buildpack knows to do all the JVM memory calculators, do the JDK and certificates, and all everything that's best practice to run Java in a container on a cloud platform.",
+  "zh": "然后我们只运行一个叫 cf push 的命令。然后它就会把那个代码,那个 JAR 文件,上传到平台。然后平台会说,哦,这是一个 Java 应用。所以我要用 Java buildpack,而 buildpack 是一个——它基本上是一种命令集,基于那个使用场景构建一个最佳实践的容器。所以 Java buildpack 知道要做所有 JVM 内存计算、做 JDK 和证书,以及在云平台上的容器中运行 Java 的所有最佳实践的一切。"
+ },
+ {
+  "seg": 46,
+  "start": 1141.7051,
+  "end": 1153.385,
+  "speaker": "Nick",
+  "en": "And that would be great. And then we would, you know, we would attach a database and then, you know, all these things and show how that that scales. Now we've taken that same concept and then said, hey. We're gonna have this agent. We're gonna just see if push an agent.",
+  "zh": "而且那会很棒。然后我们会,你知道,我们会附加一个数据库,然后,你知道,所有这些东西,并展示它如何扩展。现在我们已经采用那个同样的概念,然后说,嘿。我们要有一个智能体。我们就试试 push 一个智能体。"
+ },
+ {
+  "seg": 47,
+  "start": 1153.385,
+  "end": 1175.015,
+  "speaker": "Nick",
+  "en": "And instead of, like, you know, machine readable code, we have a human readable language, the AgentsMD. So, basically, you tell what the agent it's gonna do, and then you just push it to the platform. And it starts up with, you know, within a minute type of thing. And you can scale that up, and, you know, push as many agents as you want. And I think the the coolest thing that I've seen is that once we're on the platform, then we we can run models on the platform.",
+  "zh": "而且不是,比如,你知道,机器可读的代码,我们有一种人类可读的语言,即 AgentsMD。所以,基本上,你告诉智能体它要做什么,然后你就把它推送到平台。然后它启动起来,你知道,在一分钟之内之类。而且你可以把它扩展上去,而且,你知道,推送尽可能多的智能体。而且我认为我见过的最酷的事情是,一旦我们上了平台,然后我们就可以在平台上运行模型。"
+ },
+ {
+  "seg": 48,
+  "start": 1175.015,
+  "end": 1205.4149,
+  "speaker": "Nick",
+  "en": "So, you know, obviously, a lot of our customers are air gapped, and some of them were smart enough to buy GPUs a few years ago. So some of them have lots of GPUs that can run all these local models and have a great experience. Some are wishing that they bought GPUs and, you know, hardware as as the pricing of of all this hardware goes through the roof. But then they can run local models and then tie the agent to that. Or if they don't have, you know, they might have a contract with one of their cloud providers or one of their, you know, one of their approved LLMs of choice, and we can to register that.",
+  "zh": "所以,你知道,显然,我们的很多客户是物理隔离的(air gapped),其中一些几年前很聪明地买了 GPU。所以其中一些有大量 GPU,可以运行所有这些本地模型,并拥有很棒的体验。一些则在后悔没有买 GPU 和,你知道,硬件,因为所有这些硬件的价格飞上了天。但他们可以运行本地模型,然后把智能体绑定到那个上面。或者,如果他们没有,你知道,他们可能有与他们的某个云提供商的合同,或者他们某个,你知道,批准的首选 LLM,我们可以去注册那个。"
+ },
+ {
+  "seg": 49,
+  "start": 1205.4149,
+  "end": 1222.78,
+  "speaker": "Nick",
+  "en": "Then that kinda gave us a simple, like, here's your out of box agent with chat experience. And then, you know, along the way, like, we've done a lot of things with MCP, so, you know, the model context protocol. You guys covered that on the show before, but it's, know, basically a way for an app to talk to an LLM. Like, very, very high level. Right?",
+  "zh": "然后那大概给了我们一个简单的,比如,这是你的开箱即用带聊天体验的智能体。然后,你知道,在这一路上,比如,我们用 MCP 做了很多事情,所以,你知道,model context protocol。你们在节目里之前讲过那个,但它,你知道,基本上是一种让应用与 LLM 对话的方式。比如,非常非常高的层面。对吧?"
+ },
+ {
+  "seg": 50,
+  "start": 1222.995,
+  "end": 1253.565,
+  "speaker": "Nick",
+  "en": "So we that's become, you know, useful as well as we then give the agent tools via MCP servers. And even at Broadcom, like, the only way approved way to use for our developers is to deploy MCP servers on Tansy platform so that we have a whole set of MCP servers that are approved and hosted, and they're kind of secured and maintained. Because they are very similar to applications as well. And then we have a a concept of like the MCP gateway service that kinda registers that and secures all those the servers. So then we can then extend the gateway to that agent.",
+  "zh": "所以这变得有用起来，我们还通过 MCP 服务器给智能体提供工具。即使在 Broadcom，我们开发者唯一被批准的使用方式就是在 Tansy 平台上部署 MCP 服务器，这样我们就有一整套被批准并托管的 MCP 服务器，它们是被安全保护和维护的。因为它们也非常类似于应用程序。然后我们有一个类似 MCP 网关服务的概念，它会注册并保护所有这些服务器。这样我们就能把这个网关扩展到那个智能体。"
+ },
+ {
+  "seg": 51,
+  "start": 1253.645,
+  "end": 1278.725,
+  "speaker": "Nick",
+  "en": "So then the gateway this agent now has, like, secure access to a runtime, you know, battle test runtime. It can talk to an LLM that's approved and, get tools via and gateway. And then we're starting to add in like the memory service as well to have a kind of a shared memory service. So we're kind of expanding all of that out where we're seeing all those best practice app lifecycle go to, you know, see a push, go. Here's an agent.",
+  "zh": "然后通过网关，这个智能体现在就拥有了对一个运行时的安全访问，你知道的，一个经过实战检验的运行时。它可以与一个被批准的 LLM 通信，并通过网关获取工具。然后我们开始加入类似内存服务的东西，来拥有一种共享内存服务。所以我们正在扩展所有这些，我们看到所有那些最佳实践应用生命周期走向，你知道的，推送，走。这是一个智能体。"
+ },
+ {
+  "seg": 52,
+  "start": 1278.725,
+  "end": 1290.4049,
+  "speaker": "Nick",
+  "en": "Here here's all the things it wants to do. And then, you know, it can be a it can be a security review agent. And like one of the things I I showed, I was at a I think a week or two ago. I can't quite remember. I was at was in Las Vegas for a conference VM or Explorer.",
+  "zh": "这是这是它想做的所有事情。然后，你知道的，它可以是一个安全审查智能体。就像我展示的东西之一，我去了，我想是一两周前。我不太记得了。我在拉斯维加斯参加一个会议，VM 或 Explorer。"
+ },
+ {
+  "seg": 53,
+  "start": 1290.4049,
+  "end": 1309.5549,
+  "speaker": "Nick",
+  "en": "And I had like a five phase demo where I walked through this. Maybe I'll show a little bit of this at the at the Midwest Summit here. But the you know, push the agent, bind bind all these services. But the end the end goal was like the the boss level was like, alright. Now we have these these agents sitting in there, and I can hook up hook them up to a repo with like an event listener or webhook and say, alright.",
+  "zh": "我有一个大概五个阶段的演示，我在其中走完了这个流程。也许我会在这里的中西部峰会上展示其中一点。但是你知道的，推送智能体，绑定绑定所有这些服务。但最终目标就像 BOSS 级别是，好的。现在我们让这些智能体坐在那里，我可以把它们连接到一个仓库，用类似事件监听器或 webhook 的东西，然后说，好的。"
+ },
+ {
+  "seg": 54,
+  "start": 1309.5549,
+  "end": 1323.7999,
+  "speaker": "Nick",
+  "en": "Now do a sick like, you know, issue five on my repo. Do a security review on this repository. And then like, it sends it off to the agent via webhook and, oh, the Tainzu agent. And, like, it just fires up, gets it. It, you know, fires up from the platform.",
+  "zh": "现在做一个，就像你知道的，处理我仓库上的 issue 五。对这个仓库做一个安全审查。然后像，它通过 webhook 把它发送给智能体，哦，Tainzu 智能体。然后，它就启动了，收到了。它，你知道的，从平台启动。"
+ },
+ {
+  "seg": 55,
+  "start": 1323.96,
+  "end": 1368.685,
+  "speaker": "Nick",
+  "en": "It gets a request, and it just immediately pulls down the repo and starts doing a a security review and then publishes or pushes up to the issue that I created on GitHub and says, this this is security review. So you could see how that flow would be really useful in Enterprise where, like, maybe on every Git commit, you can just have all these agents spinning up on the fly that could be a security review agent, you know, potentially like a, you know, a style or, you know, code quality review agent or potentially even like a, I don't know, like maybe a design review agent, all firing up on the fly as things like call. So it's kinda like and then they all have their they're all in their own little sandbox and everything's proper. Right? Because part of, you know, the platform, for a while, it's been this very secured container runtime where they can't talk to each other unless you enable them.",
+  "zh": "它收到一个请求，然后立即拉取仓库并开始做安全审查，然后发布或推送到我在 GitHub 上创建的 issue 上，说，这是这是安全审查。所以你可以看到这个流程在企业中会多么有用，比如，也许在每次 Git 提交时，你都可以让所有这些智能体即时启动，可以是一个安全审查智能体，你知道的，可能像一个，你知道的，风格或代码质量审查智能体，或者甚至可能像一个，我不知道，也许是一个设计审查智能体，都随着类似调用的发生而即时启动。所以有点像，然后它们都有它们自己的小沙箱，一切都很妥当，对吧？因为一部分，你知道的，这个平台，在很长一段时间里，它一直是一个非常受保护的容器运行时，它们不能相互通信，除非你启用它们。"
+ },
+ {
+  "seg": 56,
+  "start": 1368.685,
+  "end": 1382.74,
+  "speaker": "Nick",
+  "en": "So they can't go to the internet. Unless it's enabled, they can't escalate. Otherwise, they only get access to what you give them. So it's kind of that benefit as well. And then obviously they're containerized, so they don't have access to the underlying host system as well.",
+  "zh": "所以它们不能上网。除非被启用，它们不能提权。否则，它们只能访问你给它们的东西。所以这也是一种好处。然后显然它们是容器化的，所以它们也无法访问底层宿主系统。"
+ },
+ {
+  "seg": 57,
+  "start": 1382.74,
+  "end": 1396.835,
+  "speaker": "Nick",
+  "en": "So that, you know, as we've seen, you know, some of these things of uncontrolled agent forms, I think we have some remedies here that some of these AI labs could maybe take into account and implement some best practices that's learned throughout the past two decades.",
+  "zh": "所以，你知道的，正如我们所见，你知道的，一些不受控制的智能体形式的事件，我想我们在这里有一些补救措施，一些这些 AI 实验室也许可以考虑并实施过去二十年中学到的一些最佳实践。"
+ },
+ {
+  "seg": 58,
+  "start": 1397.475,
+  "end": 1429.115,
+  "speaker": "Chris Benson",
+  "en": "The unplanned swarms, swarms that you don't necessarily want. I actually have a two second follow-up, and that is it's for my benefit, and we've talked a lot on the show over various episodes about agents using MCP to get access to different apps and services and tools and stuff We like that out haven't really talked about what an MCP gateway is, and I was wondering if you could share that for a moment just as a detail because that's kind of the one little new piece of architecture that we've never touched on on the show.",
+  "zh": "不受计划的蜂群，你不一定想要的蜂群。我实际上有一个两秒钟的追问，这是为了我自己的好处，我们在节目中各个集里谈了很多关于智能体使用 MCP 来访问不同的应用、服务和工具之类的东西。我们还没有真正谈过 MCP 网关是什么，我想知道你能否花点时间分享一下，作为一个细节，因为那差不多是我们在节目中从未触及的一个新的架构部分。"
+ },
+ {
+  "seg": 59,
+  "start": 1429.115,
+  "end": 1446.31,
+  "speaker": "Nick",
+  "en": "Sure. Yeah. So if you think about an MCP gateway as a way to easily control and scale access to MCP servers, especially within you're in a cloud, I guess, platform. So we may have, like, 30 or 40 MCP servers that we run, or I don't even I don't even know how many it is. Right?",
+  "zh": "当然，好的。所以如果你把 MCP 网关想成一种轻松控制和管理对 MCP 服务器访问规模的方式，尤其是在你在云平台中，我想。所以我们可能有大概 30 或 40 个我们运行的 MCP 服务器，或者我甚至不知道有多少个，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 1446.655,
+  "end": 1461.375,
+  "speaker": "Nick",
+  "en": "And then those get bound those get registered and and bound to certain specific MCP gateways. So maybe there's like a you know? And the MCP gateway is something we can spit up on the fly on on the platform. There are many different MCP gateways out there. There's many different AI gateways out there.",
+  "zh": "然后这些会被绑定，被注册并绑定到某些特定的 MCP 网关。所以也许有一个类似，你知道的。而 MCP 网关是我们可以在平台上即时生成的东西。外面有许多不同的 MCP 网关。外面有许多不同的 AI 网关。"
+ },
+ {
+  "seg": 61,
+  "start": 1461.375,
+  "end": 1495.0099,
+  "speaker": "Nick",
+  "en": "Some of some of them are the same, you know, the one in the same. But you basically register MCP servers to this gateway, and the gateway kinda controls access, so to speak, and regulates that. So it may say, like, you can bind to this gateway, you only get these these MCP servers. You only get these MCP tools within it, that type of thing. So it's a way to easily abstract all the different MCP servers that may be in an organization and kinda direct them into a certain either a certain agent, or we even have a flow where, like, you can take we'll we'll take those MCP gateways that we run that front all of our MCP servers.",
+  "zh": "有些是相同的，你知道的，同一个东西。但基本上你把 MCP 服务器注册到这个网关，然后网关可以说控制访问并调节它。所以它可能会说，比如，你可以绑定到这个网关，你只会得到这些这些 MCP 服务器。在其中你只会得到这些 MCP 工具，诸如此类。所以这是一种轻松抽象一个组织中可能存在的所有不同 MCP 服务器的方法，并把它们引导到某个特定的智能体，或者我们甚至有一个流程，像，你可以拿我们运行的那些为所有 MCP 服务器做前端的 MCP 网关。"
+ },
+ {
+  "seg": 62,
+  "start": 1495.01,
+  "end": 1511.065,
+  "speaker": "Nick",
+  "en": "And then you can say, hey, go. Give me a give me a way to connect this to my cursor or my cloud code or my whatever. And then it just injects it in there. And then then your local agent has all the tools that are approved as well for your organization. And then it's just like like a simple click, and then it just registers.",
+  "zh": "然后你可以说，嘿，走。给我一种方法把它连接到我的 cursor 或我的 cloud code 或我的随便什么。然后它就把它注入进去。然后你的本地智能体就拥有了你的组织所批准的所有工具。然后就像简单的点击一下，它就注册了。"
+ },
+ {
+  "seg": 63,
+  "start": 1511.065,
+  "end": 1545.215,
+  "speaker": "Nick",
+  "en": "And then, like, on the MCP server helps handle the auth as well. Because some of them are like, well, it's my if I'm using the GitHub MCP server, I wanna pass my end user credentials all the way through to that MCP server because I don't want, you know, I don't want it just to be like, well, here's our general generic service account for the entire organization, and every GitHub action is is gonna be, you know, seen by that one account. And you have to you have to have the individual identity pass through. So you have, like, the concept of, like, SSO and sign in as well for an identity for agents or humans running their agents on their their desktop. So that's kind of a quick level view.",
+  "zh": "然后，像，在 MCP 服务器上还帮助处理认证。因为有些是这样的，嗯，如果我使用 GitHub MCP 服务器，我想把我的终端用户凭据一路传递到那个 MCP 服务器，因为我不想，你知道的，我不想只是说，嗯，这是我们的通用服务账号，面向整个组织，每个 GitHub 操作都会被那一个账号看到，你知道的。你必须必须让个体身份传递过去。所以你有类似的概念，比如 SSO 和登录，用于在桌面上运行其智能体的智能体或人类的身份。所以这就是一个快速层面的概览。"
+ },
+ {
+  "seg": 64,
+  "start": 1545.215,
+  "end": 1567.8049,
+  "speaker": "Nick",
+  "en": "And then a great way about that too is because it's all flowing through that gateway, we get metrics out of it. So we can see all the tool calls and all the all the events happening coming from the agents to the MCP servers and back and forth. So you kinda kinda see what's happening, especially if maybe if there's something unexpected. Like, well, this one agent, you know, made 200,000 tool calls to, you know, delete repo. Like, oh, like, maybe we should alert on that.",
+  "zh": "然后这样做的一个很棒的地方也是，因为一切都通过那个网关流动，我们从那里得到指标。所以我们可以看到所有的工具调用和所有的所有的事件，从智能体到 MCP 服务器来回发生。所以你能差不多看到正在发生什么，特别是如果也许有什么意外的情况。比如，嗯，这一个智能体，你知道的，做了 20 万次工具调用去，你知道的，删除仓库。就像，哦，也许我们应该对此发出警报。"
+ },
+ {
+  "seg": 65,
+  "start": 1567.8049,
+  "end": 1581.1799,
+  "speaker": "Nick",
+  "en": "Like, that's probably not good. Yeah. So, you know, another visibility or metric to what agents are doing and what tool calls are doing as well. So I guess, hopefully, that made sense because that was that's kinda how I understand it. Right?",
+  "zh": "比如，那可能不好。对。所以，你知道的，又多了一层对智能体在做什么以及工具调用在做什么的可见性或指标。所以我想，希望这说得通，因为这差不多是我理解它的方式，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 1581.5,
+  "end": 1595.2949,
+  "speaker": "Daniel Whitenack",
+  "en": "That yeah. That was great. And and there were a couple things that you mentioned in there I think are additionally worth digging into. And you you kind of have this, if I'm understanding right, in part of the the build pack that you're working on. Mhmm.",
+  "zh": "是的，那太好了。而且你在里面提到的有几件事，我认为额外值得深入探讨。而且你，如果我理解正确的话，在你正在研究的 build pack 的一部分中有这个。嗯。"
+ },
+ {
+  "seg": 67,
+  "start": 1595.2949,
+  "end": 1631.5299,
+  "speaker": "Daniel Whitenack",
+  "en": "Part of that centers around kind of pushing an agents dot m d file. You mentioned, like, people have these m d files hanging around. You mentioned memory. You mentioned identity. I'm wondering if you could kind of help us understand, like, if I have if I if I'm working on my laptop, right, and I'm using a certain agent harness, I may have an MD file that is kind of generic, and then I have files that are created by the agent that it uses that are only corresponding to my single agent.",
+  "zh": "其中一部分围绕推送一个 agents dot m d 文件展开。你提到，像，人们有这些 m d 文件到处放着。你提到了内存。你提到了身份。我想知道你能否帮我们理解，像，如果我在如果我在我的笔记本上工作，对吧，我在使用某个智能体 harness，我可能有一个比较通用的 MD 文件，然后我有由智能体创建的、只与我单个智能体对应的文件。"
+ },
+ {
+  "seg": 68,
+  "start": 1631.61,
+  "end": 1657.7151,
+  "speaker": "Daniel Whitenack",
+  "en": "Mhmm. Then I have, you know, memory and then, you know, calls into other things. As you're pushing this, like, off the laptop now, and I imagine taking that off, like, what belongs in, like, an agent's dot m d file? And what is, like, as you're giving that example, right, you may have one agent in the platform that is a security reviewer for, that that does security reviews. Right?",
+  "zh": "嗯。然后我有，你知道的，内存，然后调用其他东西。当你把这个推到笔记本之外时，像，我想把它拿下来，什么东西属于一个 agent's dot m d 文件？什么是，像，当你举那个例子，对吧，你可能在平台里有一个智能体，它是安全审查者，做安全审查，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 1657.99,
+  "end": 1677.785,
+  "speaker": "Daniel Whitenack",
+  "en": "Mhmm. When you spin that agent up, does each instance of that, each session have a unique identity? What is the what's unique about that session and the data that that is generated by that session versus maybe the things that are always static? Like, I I'm not sure if the Agents. Md is is always static.",
+  "zh": "嗯。当你启动那个智能体时，它的每个实例、每个会话都有唯一的身份吗？那个会话有什么独特的，以及那个会话生成的数据，相对于也许始终静态的东西？像，我不确定 Agents. Md 是否始终是静态的。"
+ },
+ {
+  "seg": 70,
+  "start": 1677.785,
+  "end": 1689,
+  "speaker": "Daniel Whitenack",
+  "en": "So could you help us understand, like, which are the static elements? What's developing over time? How is that, like, state of the agent spread across Right. You know, the implementation, I guess?",
+  "zh": "所以你能帮我们理解，像，哪些是静态元素？什么在随着时间发展？那个状态，像，是如何分布在，对。你知道的，实现中，我想？"
+ },
+ {
+  "seg": 71,
+  "start": 1689,
+  "end": 1707.785,
+  "speaker": "Nick",
+  "en": "Sure. Yeah. So if you think about it, like, in, I guess, in in in this specific implementation, the the agent's build pack is basically like the the boiler plate code of what you want the agent or app to do. So, like, I'll do demos, and I'll have it be like, you're a pirate. Like like like, one of my demos is like, you're a you're a you're a Jira.",
+  "zh": "当然，好的。所以如果你想想，像，在这个这个特定实现中，我想，这个智能体的 build pack 基本上就像你想要智能体或应用做什么的样板代码。所以，像，我会做演示，我会让它像，你是一个海盗。像，像，我的一个演示是像，你是一个你是一个你是一个 Jira。"
+ },
+ {
+  "seg": 72,
+  "start": 1707.785,
+  "end": 1727.3251,
+  "speaker": "Nick",
+  "en": "Like, you're a senior software engineer. Know, you're gonna watch this Jira page, or I forgot the terminology here. But basically, watch this Jira queue and look for any inbound tickets. As inbound tickets come in, review them, and make sure that they're of good quality. And here's all these different things that you wanna do, and don't do any of this.",
+  "zh": "像，你是一名资深软件工程师。你知道的，你要监视这个 Jira 页面，或者我忘了这里的术语。但基本上，监视这个 Jira 队列，查找任何传入的工单。当传入的工单到来时，审查它们，并确保它们质量良好。然后这是所有这些你想做的不同事情，不要做这些中的任何一个。"
+ },
+ {
+  "seg": 73,
+  "start": 1727.3251,
+  "end": 1744.93,
+  "speaker": "Nick",
+  "en": "So it's more of a very simple AgentsMD where it's just telling this agent what it should do how it should act. And then you you can call that and have, like, alright. Well, like, you know, ticket 500 came in. It was poorly documented and, like, update that Jira ticket and, you know, whatever. And then you can add fun things like talk like a pirate.",
+  "zh": "所以它更像一个非常简单的 AgentsMD，只是告诉这个智能体它应该做什么，它应该如何表现。然后你可以调用它，比如，好的。像，你知道的，工单 500 进来了。它文档很差，像，更新那个 Jira 工单，你知道的，随便什么。然后你可以加有趣的东西，像像海盗一样说话。"
+ },
+ {
+  "seg": 74,
+  "start": 1744.93,
+  "end": 1752.985,
+  "speaker": "Nick",
+  "en": "So it's like, alright, matey. Your, you know, ticket 500 is is terrible. Right? Like, go back and, you know, update it, that type of thing. So that's kinda where the the static part of it is.",
+  "zh": "所以就像，好的，伙计。你的，你知道的，工单 500 很糟糕，对吧？像，回去，你知道的，更新它，诸如此类。所以这差不多是它的静态部分。"
+ },
+ {
+  "seg": 75,
+  "start": 1753.065,
+  "end": 1769.83,
+  "speaker": "Nick",
+  "en": "And then, like, the memory service we have, where you can attach it. You can have, you know you know, potentially memory of a certain project. So, you know, we kind of envision, like, each set of teams to have their own multiple set of agents. Right? And it could be like, well, you know, team A's agents have the access to team A's memory.",
+  "zh": "然后像，我们有的内存服务，你可以附加它。你可以有，你知道的，你知道的，潜在地某个项目的内存。所以，你知道的，我们大致设想，像，每个团队组拥有他们自己的多个智能体集，对吧？它可以是像，嗯，你知道的，A 团队的智能体拥有对 A 团队内存的访问权。"
+ },
+ {
+  "seg": 76,
+  "start": 1769.83,
+  "end": 1800.8799,
+  "speaker": "Nick",
+  "en": "So as they come up, they know, like, all of this historical data of, like, what like, the architecture of the application, the what's been done before, the roadmap, that type of thing. So as it spins up and does a security review, it can make proper decisions and proper guidance. So that as you kind of build your local agents and kind of give them memory and they become smarter, that that memory service as you have agents spin up and down, they just immediately they immediately know what what's happened before, know how to how to proceed. As",
+  "zh": "所以当它们启动时，它们知道，像，所有这些历史数据，像，应用的架构，以前做过什么，路线图，诸如此类。所以当它启动并做安全审查时，它可以做出恰当的决定和恰当的指导。这样，当你构建你的本地智能体并给它们内存，它们变得更聪明时，那个内存服务，当你启动和关闭智能体时，它们只是立即，它们立即知道以前发生过什么，知道如何如何继续。随着"
+ },
+ {
+  "seg": 77,
+  "start": 1802.88,
+  "end": 1859.75,
+  "speaker": "Sponsor",
+  "en": "you heard at the beginning of this episode, some amazing people like Nick, who's the guest on this episode, are joining us at the Midwest AI Summit, October 15 in Indianapolis, Indiana. Nick is gonna come talk about what it looks like to deploy AI agents in real world environments, and we've got a bunch of other amazing speakers talking about how AI enabled teams work, how to make decisions about what to say yes to and what to say no to in relation to AI and much more super practical and amazing talks. Plus, there's gonna be an AI engineering lounge where you can actually sit down with folks like myself. I'll be there. Get get review on your AI architecture, your stack, your road map, etcetera, towards the rollout of things like Agents or other AI technology.",
+  "zh": "你在本集开头听到，一些了不起的人，比如本集的嘉宾 Nick，正加入我们在中西部 AI 峰会，10 月 15 日在印第安纳州印第安纳波利斯。Nick 将来讲在真实世界环境中部署 AI 智能体是什么样子，我们还有一堆其他了不起的演讲者，谈论 AI 赋能的团队如何工作，如何对在 AI 相关的事情上对什么说是、对什么不说做出决策等等，非常实用和精彩的演讲。此外，还会有一个 AI 工程休息室，你可以在那里真正与像我这样的人坐下来。我会在那里。获得对你 AI 架构、你的技术栈、你的路线图等的评审，面向诸如智能体或其他 AI 技术的推出。"
+ },
+ {
+  "seg": 78,
+  "start": 1859.91,
+  "end": 1890.1001,
+  "speaker": "Sponsor",
+  "en": "This is a practical, event that you don't wanna miss. There'll be great food, great people, great networking, and practical value. Do not miss this. It's October 15 in Indianapolis, Indiana, and you can use the code Practical AI 20 to get 20% off registration. So go to midwestaisummit.com and use the code Practical AI 20 to get 20% off registration.",
+  "zh": "这是一个你不容错过的实用性活动。会有很棒的食物、很棒的人、很棒的社交和实用价值。千万别错过。时间是 10 月 15 日在印第安纳州印第安纳波利斯，你可以使用代码 Practical AI 20 获得 20% 的注册折扣。所以去 midwestaisummit.com 并使用代码 Practical AI 20 获得 20% 的注册折扣。"
+ },
+ {
+  "seg": 79,
+  "start": 1892.275,
+  "end": 1901.0751,
+  "speaker": "Chris Benson",
+  "en": "Nick, before we were going into break, I think I may have cut you off when you were just starting to say something. You wanna dive back into that real quick?",
+  "zh": "Nick，在我们进入广告之前，我想我可能在你刚开始说什么的时候打断了你。你想快速回到那个话题吗？"
+ },
+ {
+  "seg": 80,
+  "start": 1901.0751,
+  "end": 1908.0099,
+  "speaker": "Nick",
+  "en": "No, I think I covered Hopefully I answered the question again, but That's no problem. Okay.",
+  "zh": "不，我想我讲完了。希望我再次回答了问题，不过没关系。好的。"
+ },
+ {
+  "seg": 81,
+  "start": 1908.25,
+  "end": 1937.1699,
+  "speaker": "Chris Benson",
+  "en": "So I really appreciate This has been really good for helping me trying to conceptualize how all this fits together. I think I had some understanding, you've gotten a level of detail. I want to ask you, we are looking forward, I have several questions that are really kind of driving my thinking. You've got me thinking creatively based on what you've said. So as you look at We've talked about MCP.",
+  "zh": "所以我非常感激。这对帮助我尝试把这些如何组合在一起概念化非常有用。我想我之前有一些理解，你已经给出了一个细节层次。我想问你，我们在展望，我有几个问题真正在驱动我的思考。基于你所说的，你让我创造性地思考。所以当你看，我们已经谈过 MCP。"
+ },
+ {
+  "seg": 82,
+  "start": 1938.21,
+  "end": 1987.365,
+  "speaker": "Chris Benson",
+  "en": "There are new things coming out, things like there's the A2A, which is the agent to agent protocol, and organizations are starting to look at that, and they already have their MCP servers maybe, but they're trying to get the structure and kind of bring the sanity around it that you've been talking about. Then they kind of go, Oh, okay, it's not so different from what we already know. But as this is evolving very fast and you have things like these new protocols, do you have any guidance on how to start integrating this constant flow of change in, terms of First on the technology, and I'll hit the other half of that afterwards. As you're trying to bring things in and make it work, have you guys kind of thought about how to structure that?",
+  "zh": "有新的东西正在出来，比如有 A2A，即智能体对智能体协议，组织开始研究那个，而且他们可能已经有他们的 MCP 服务器了，但他们试图获得结构并围绕它建立你一直在谈论的那种秩序。然后他们有点说，哦，好的，这和我们已经知道的没什么太大不同。但随着这个发展非常快，而且你有像这些新协议这样的东西，对于如何开始整合这种持续不断的变化，你有什么指导吗，在技术方面，我稍后会问另一半。当你试图把东西引进来并让它运作时，你们有没有想过如何构建这个？"
+ },
+ {
+  "seg": 83,
+  "start": 1987.365,
+  "end": 2007.55,
+  "speaker": "Nick",
+  "en": "I guess we'll just say take baby steps from everything, right? Especially when we talk about the Enterprise scope, they can be a lot slower to adopt some of these newer technologies. So you kinda layer that on. And you don't have to necessarily adopt all of these things at once. You can maybe just get a simple agent running.",
+  "zh": "我想我们只会说，从一切中采取小步前进，对吧？尤其是当我们谈到企业范围时，它们在采用这些较新技术上可能会慢很多。所以你要把它分层叠加。而且你不必一次采用所有这些东西。你可以也许只是让一个简单的智能体跑起来。"
+ },
+ {
+  "seg": 84,
+  "start": 2008.215,
+  "end": 2022.9401,
+  "speaker": "Nick",
+  "en": "And, you know, for most most places, you know, just getting access to an LLM is still the biggest hurdle. Right? A secured, you know, approved. So and then potentially, you know, going through the going through the AI AI council, right, their committee. Right?",
+  "zh": "而且，你知道的，对大多数大多数地方，你知道的，仅仅获得对一个 LLM 的访问仍然是最大的障碍，对吧？一个受保护的，你知道的，被批准的。然后然后潜在地，你知道的，走通过 AI AI 委员会，对吧，他们的委员会，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 2022.9401,
+  "end": 2030.9401,
+  "speaker": "Nick",
+  "en": "Like, everything must run through the AI council and be approved. If, you know, like, most you know, if you're not if you've never worked in an enterprise, most large enterprises have a council",
+  "zh": "比如，一切都必须经过 AI 委员会并被批准。如果，你知道的，像，大多数，你知道的，如果你从未在企业工作过，大多数大型企业有一个委员会"
+ },
+ {
+  "seg": 86,
+  "start": 2030.9401,
+  "end": 2031.9,
+  "speaker": "Chris Benson",
+  "en": "or committee So I know",
+  "zh": "或委员会。所以我知道"
+ },
+ {
+  "seg": 87,
+  "start": 2032.06,
+  "end": 2033.4199,
+  "speaker": "Daniel Whitenack",
+  "en": "for everything. Right? Yes.",
+  "zh": "所有事情都要经过它，对吧？是的。"
+ },
+ {
+  "seg": 88,
+  "start": 2033.66,
+  "end": 2047.7301,
+  "speaker": "Nick",
+  "en": "So it's like, we shall go to the committee and we shall present our idea. We will wait six months and see what has the result been. Right? So you just kinda have to work through the councils and the committees and and all that fun. But once you finally get something approved, just just just iterate.",
+  "zh": "所以就像，我们要去委员会，我们要展示我们的想法。我们会等六个月看看结果如何，对吧？所以你就是得经历这些委员会和委员会之类的一切乐趣。但一旦你最终让某样东西被批准，就就就迭代。"
+ },
+ {
+  "seg": 89,
+  "start": 2047.7301,
+  "end": 2065.385,
+  "speaker": "Nick",
+  "en": "And you're like, don't don't try to boil the ocean, make baby steps, you know, to and and get progress. And then as you'll like, and you'll learn the technologies, and then the next step will just kinda be obvious. Like, well, I I can make the agent better if I get some MCP servers, get them tools. Alright. And then we gotta get these tools approved and then add on to that.",
+  "zh": "然后你就说,别别想着一口吃成胖子,要小步走,你懂的,然后取得进展。然后你会慢慢喜欢,慢慢学会这些技术,然后下一步自然就会变得显而易见。比如,好吧,我我可以通过加一些 MCP 服务器让智能体更好,给它们工具。好。然后我们得把这些工具审批通过,然后在此基础上继续加。"
+ },
+ {
+  "seg": 90,
+  "start": 2065.465,
+  "end": 2095.8052,
+  "speaker": "Nick",
+  "en": "And then, you know, you know, and some of these guardrails help inner you know, of Tainzee platform help enterprises bring these tools to to to light, because it's not just, you know, all this random stuff downloaded from the Internet. Right? Which that can be its own danger nowadays. So having the you know, having some some guardrails in place is is a good thing. If you've had you know, if you have experience with some of these platforms or apps running before, take that experience and that knowledge and kind of bring it forward.",
+  "zh": "然后，你知道的，你知道的，这些护栏中的一些帮助内部，你知道的，Tainzee 平台帮助企业把这些工具带带到光下，因为它不只是，你知道的，所有从互联网下载的随机东西，对吧？如今那本身就是一种危险。所以有一些护栏到位是是一件好事。如果你曾经有过，你知道的，如果你有运行其中一些平台或应用的经验，把那个经验和知识带过来并向前推进。"
+ },
+ {
+  "seg": 91,
+  "start": 2095.8052,
+  "end": 2118.7751,
+  "speaker": "Nick",
+  "en": "And utilize your existing people and skills, I think, too. I think a lot of times too, I see in organizations, like a new technology will come up, and a new team will be built, and that new team will decree. But there's so much other, like, really skilled people that could help, and it's always kind of a a friction too. So how try to try to get the teams to work together too, and not not just have the new team doing all the new things. And then the the teams the teams that have been there all the while have that.",
+  "zh": "而且我认为也要利用你现有的人力和技能。我想很多次也是，我看到在组织中，像，一项新技术出现，一个新团队被建立，然后那个新团队发号施令。但还有这么多其他真正有技能的人可以帮忙，而且这也总是一种摩擦。所以试着试着让团队一起工作，而不是不只是让新团队做所有的新事情。然后那些一直在那里的团队拥有那个。"
+ },
+ {
+  "seg": 92,
+  "start": 2118.7751,
+  "end": 2127.0151,
+  "speaker": "Nick",
+  "en": "Like, that's always another constant flow. So try to break those silos down as well to help get people up to speed and get through that process.",
+  "zh": "像，那总是另一股持续的流动。所以也要试着打破那些筒仓，帮助让人们跟上速度并度过那个过程。"
+ },
+ {
+  "seg": 93,
+  "start": 2127.0151,
+  "end": 2155.615,
+  "speaker": "Chris Benson",
+  "en": "Having worked in multiple enterprises myself, I think, that last point, I think I've seen that multiple times across different organizations. How do you bridge that? I think part of it, kind of have Every organization has its internal politics. They all have the different structures. It's really common to say new tech, new team there, but then I think people recognize why.",
+  "zh": "我自己曾在多家企业工作过，我想，最后那一点，我想我在不同组织中多次见过。你如何弥合它？我想其中一部分，有点像每个组织都有其内部政治。它们都有不同的结构。说新技术新团队是很常见的，但我想人们认识到了原因。"
+ },
+ {
+  "seg": 94,
+  "start": 2156.575,
+  "end": 2216.025,
+  "speaker": "Chris Benson",
+  "en": "You'll see that, and sometimes you'll see a reconciliation, but it always seems like a little bit of a struggle when that happens to try to Do you have any thoughts around, as you're trying to do that, you may have A lot of big organizations have They're very one business unit, maybe almost like in a different universe from another business unit And so how do you get that kind of cross adoption where you're taking advantage of maybe both the new teams that may be there, but also some of the old structured teams, and you're trying to spread the capability across the larger organization in a useful way? Guidance? Do you have I imagine it can't be that different from the more traditional app dev side, but I think this is a struggle that a lot of orgs are facing right now.",
+  "zh": "你会看到那个，有时你会看到一种调和，但当那发生时总是似乎有一点挣扎，试图，当你试图做那个时，你有没有任何想法，你可能有很多大型组织有，它们非常属于一个业务部门，也许几乎像和另一个业务部门处于不同宇宙。那么你如何获得那种跨采用，即你也许在利用可能在那里的新团队，但也利用一些旧的结构化团队，而且你试图以有用的方式把能力传播到更大的组织？指导？我想它不会比更传统的应用开发那边有太大不同，但我想这是很多组织现在正面临的挣扎。"
+ },
+ {
+  "seg": 95,
+  "start": 2216.025,
+  "end": 2238.575,
+  "speaker": "Nick",
+  "en": "Yeah, well, think, yeah, so I mean, it goes, I think, a lot both ways. So if you have the new team, right, the new team can like, the responsibility of the new team is, like, engage every other team because they have a lot of people that can help you out and achieve your goal. Right? Because the new team probably most likely has a very stressful and, like like, you know, like, adopt AI everywhere. Or before it was like, go cloud everywhere.",
+  "zh": "是的，好吧，我想，是的，我是说，它很大程度上是双向的。所以如果你有新团队，对吧，新团队可以，像，新团队的责任是，像，与每个其他团队接触，因为他们有很多可以帮助你并实现你目标的人，对吧？因为新团队很可能最有可能有一个非常有压力的，像，你知道的，像，到处采用 AI 的目标。或者以前是像，到处上云。"
+ },
+ {
+  "seg": 96,
+  "start": 2238.575,
+  "end": 2271.2,
+  "speaker": "Nick",
+  "en": "Right? Like, those those goals are, like, not quite easy to to get going in enterprise. The the new team needs to, like, you know, potentially run, you know, office hours, weekly office hours, reach out to their other teams, you know, maybe before, you know, like a lunch and learn if you're in the office and have people in the office, that type of thing. And just have, like, a forum for people to come in and learn and get started and, like, ask questions and not, you know, like, hey, like, I I saw this, you know, this post about, you know, this new platform or this new AI thing. How do I get started?",
+  "zh": "对吧？像，那些目标，像，在企业里不太容易推进。新团队需要，像，你知道的，潜在地运行，你知道的，办公时间，每周办公时间，接触其他团队，你知道的，也许之前，像，一个午餐学习会，如果你在办公室并且有人在办公室，诸如此类。就是有一个像，一个人们可以进来学习并起步的论坛，像，提问，而不是，你知道的，像，嘿，像，我我看到了这个，你知道的，关于这个新平台或这个新 AI 东西的帖子。我如何开始？"
+ },
+ {
+  "seg": 97,
+  "start": 2271.2,
+  "end": 2292.875,
+  "speaker": "Nick",
+  "en": "Is there any documentation, or what can I do to get started? And just kinda have an open and very welcoming place to get started to bring in the folks. And then if you're on some of the, let's say, not new teams or teams that have been there for a while, be engaging and and and reach out to those teams. Because a lot of the the new people are gonna need help. Like, they, you know, they're maybe under stress.",
+  "zh": "有没有任何文档，或者我可以做什么来开始？就是有一个开放且非常欢迎的起步场所来把人们引进来。然后如果你在一些，比方说，不是新团队或已经存在一段时间的团队中，要去接触并联系那些团队。因为很多新的人会需要帮助。像，他们，你知道的，他们也许在压力之下。"
+ },
+ {
+  "seg": 98,
+  "start": 2292.875,
+  "end": 2307.54,
+  "speaker": "Nick",
+  "en": "So it's it's just breaking that down. And then I think with this iteration, right, it's gonna happen a lot faster. And I think people just naturally wanna work together. Because I I think I I was at VMware Explorer, I I did a few talks. And I started every talk with like, alright.",
+  "zh": "所以就是打破那个。然后我想随着这种迭代，对吧，它会快很多。而且我想人们自然而然地想一起工作。因为我，我想我，我去了 VMware Explorer，我做了几个演讲。我每次演讲都以类似这样开始，好的。"
+ },
+ {
+  "seg": 99,
+  "start": 2307.54,
+  "end": 2318.195,
+  "speaker": "Nick",
+  "en": "Let's let's get a a show of hands in the room. Who has used one of these tools like in at work? Like cursor, Claude code, whatever. And pretty much the entire room and all of them went up. And I was like, well, that's a lot more than I expected.",
+  "zh": "让我们我们在房间里举个手。谁在工作中使用过这些工具之一？像 cursor、Claude code，随便什么。然后基本上整个房间，所有人都举了手。然后我说，嗯，这比我预期的多多了。"
+ },
+ {
+  "seg": 100,
+  "start": 2318.195,
+  "end": 2347.575,
+  "speaker": "Nick",
+  "en": "So like, the adoption rate even at, you know, the traditional, like, you know, platform or developer engineer, and, you know, or just infrastructure admin at some of these, personas is is well into that that scope. So the entire enterprise, I think, is picking up on this really fast. And the, you know, the more collaboration, I think it just will help out. So, you know, just office hours, you know, reach out, be proactive. And I guess if you're on if don't be be pro be be mindful or be open to change.",
+  "zh": "所以，你知道，即使在传统的，你知道，平台或开发工程师，以及，你知道，或者只是在某些这类角色中的基础设施管理员那里，采用率也早已进入那个范围。所以我认为整个企业都在非常快地接受这一点。而且，你知道，更多的协作，我认为这只会带来帮助。所以，你知道，就是办公时间，你知道，主动联系，主动出击。我想，如果你在……如果没有……要……要主动……要……要留意，或者要乐于改变。"
+ },
+ {
+  "seg": 101,
+  "start": 2347.575,
+  "end": 2372.7952,
+  "speaker": "Nick",
+  "en": "I just this is just in general. If what I've seen before and and if you're if you're resistant and resist the change, and, you know, that's that's gonna kinda get you labeled and kinda put off the side. But if you're you may be at a you may have your own opinions, but if you present them in a way that kinda is, let's say, maybe open minded per se, you have a better chance at some of those key learnings that you've dealt with throughout your career to actually be applied in the new way as well.",
+  "zh": "我只是，这只是总体而言。根据我以前所见，而且，如果你……如果你抗拒，抗拒改变，那么，你知道，这会给你贴上标签，让你被搁置一旁。但如果你……你可能处于……你可能有自己的观点，但如果你以一种，可以说，也许是开放的心态来呈现它们，那么你职业生涯中积累的一些关键经验，就更有机会同样以新的方式被应用。"
+ },
+ {
+  "seg": 102,
+  "start": 2372.875,
+  "end": 2373.8352,
+  "speaker": "Daniel Whitenack",
+  "en": "That makes sense.",
+  "zh": "这说得通。"
+ },
+ {
+  "seg": 103,
+  "start": 2373.915,
+  "end": 2392.13,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I'm curious. I wanna circle back for a moment on something you said. As we're talking about kinda spreading across, my mind goes to security, because I know in my industry security is pretty big deal. We do have air gap things and stuff like that.",
+  "zh": "是的。我很好奇。我想回到一会儿之前你说过的一点。当我们谈论它在某种程度上扩散开来时，我想到的是安全，因为我知道在我的行业里安全是件大事。我们有物理隔离之类的东西。"
+ },
+ {
+  "seg": 104,
+  "start": 2392.13,
+  "end": 2420.59,
+  "speaker": "Chris Benson",
+  "en": "That's what we do in defense. But as you're thinking about that, one of the topics that is a really common topic now is kind of going back a few weeks. We covered it in-depth on a previous episode. The whole OpenAI, the swarms got out, hugging face, that whole thing. I'll refer people back if they're not familiar with it to our episode recently that covered that, but that is top of mind.",
+  "zh": "那是我们在国防领域做的。但当你思考这个时，现在一个非常常见的话题之一，要追溯到几周前。我们在之前的一期节目里深入探讨过。整个 OpenAI，蜂群跑出去了，Hugging Face，那一整件事。如果不熟悉的话，我会推荐大家回听我们最近覆盖这件事的那期节目，但那是当下的焦点。"
+ },
+ {
+  "seg": 105,
+  "start": 2421.165,
+  "end": 2464.345,
+  "speaker": "Chris Benson",
+  "en": "It's not only top of mind for security, but it's top of mind for legal. It's top of mind for comms as they're thinking about what do we do if something like this were to happen in our org, whatever that org is. And can you talk a little bit about, as you've kind of brought the enterprise structure up to date to deal with agents, and we're beyond just the traditional software and app world, and we're taking some of the same lessons and reapplying them in a new context here. Can you talk a little bit about how that helps on the security side? For the folks out there that are really That's their job is to keep things from really going awry.",
+  "zh": "它不仅是安全部门关注的焦点，也是法务部门关注的焦点。当他们在思考如果这样的事情发生在我们的组织里，不管那是什么组织，我们该怎么办时，这也是公关部门关注的焦点。你能不能稍微谈一下，既然你已经把企业结构更新到能应对智能体，我们已经超越了传统的软件和应用世界，我们正在把一些同样的经验教训在新的语境中重新应用。你能不能谈一下这在安全方面有什么帮助？针对那些真正以防止事情彻底出乱子为工作的人来说。"
+ },
+ {
+  "seg": 106,
+  "start": 2464.44,
+  "end": 2468.2,
+  "speaker": "Chris Benson",
+  "en": "Can you talk for a moment about keeping things in the box, if you will?",
+  "zh": "你能不能谈一下把东西关在盒子里，可以这么说？"
+ },
+ {
+  "seg": 107,
+  "start": 2468.2,
+  "end": 2483.125,
+  "speaker": "Nick",
+  "en": "Yes, sure. And then I guess I'll put a disclaimer. These are all could be suggestions to help out with. If you really dig into some of the hugging face stuff, it's a little scary. So I'm not to say that we're, like, better than all of the AI labs or anything like that.",
+  "zh": "是的，当然。然后我想我要先声明一下。这些都可以只是有助于改善的建议。如果你真的深挖一些 Hugging Face 的事情，是有点吓人的。所以我并不是说我们比所有的 AI 实验室都强之类的。"
+ },
+ {
+  "seg": 108,
+  "start": 2483.125,
+  "end": 2503.51,
+  "speaker": "Nick",
+  "en": "So but if you if you look at some of the the things where how that kinda got started is where they, you know, they started getting out of the sandbox. Right? And then they they found things that were, like, they could get access to. Or, you know, having monitoring control around what those apps or agents can do is is, you know, something that's been been in mind for all enterprise apps. Right?",
+  "zh": "所以，但如果你去看看那些事情是怎么开始的，就是它们，你知道，它们开始跑出沙箱。对吧？然后它们发现了一些……它们能够访问的东西。或者，你知道，围绕这些应用或智能体能做什么建立监控控制，是，你知道，所有企业应用一直放在心上的事情。对吧？"
+ },
+ {
+  "seg": 109,
+  "start": 2503.51,
+  "end": 2513.445,
+  "speaker": "Nick",
+  "en": "So, like, having, you know, kinda guardrails, even, like, network zones. Hey. This is a highly regulated zone. It's it's super locked down. Like, even just like traditional firewall would have potentially blocked a lot of this stuff.",
+  "zh": "所以，比如，有，你知道，某种护栏，甚至是网络分区。嘿，这是高度监管的分区。它被锁得死死的。比如，即使只是传统的防火墙，本来也可能挡住这里面很多东西。"
+ },
+ {
+  "seg": 110,
+  "start": 2513.445,
+  "end": 2529.8699,
+  "speaker": "Nick",
+  "en": "Right? So it it it's kinda key. Like, you know, a lot of the core enterprise learnings that kind of maybe take that for, like, you know, the the old team versus the new team. It's like, well, guys, you could've just, you know, I don't know, had some basic controls. And, like, I think they even talked about, like, their monitoring wasn't working, and they weren't really monitoring it.",
+  "zh": "对吧？所以这有点关键。比如，你知道，很多核心的企业经验教训，也许是拿……你知道，旧团队和新团队来说。就像是，伙计们，你们本可以，你知道，我不知道，有一些基本的控制。而且，我记得他们甚至谈到过，他们的监控没在工作，而且他们并没有真正监控它。"
+ },
+ {
+  "seg": 111,
+  "start": 2529.8699,
+  "end": 2568.325,
+  "speaker": "Nick",
+  "en": "And, like, you had all these agent swarms. And then, of course, then then they got to the Artifactory, which then they found the weak link, and the Artifactory had the Internet access, and somehow they magically, you know, zeroed the Artifactory instance multiple times. So not to say that we could prevent everything, but it's just you take those, at least, core enterprise technologies that maybe would've helped out a little bit of just agent control, like hardened sandbox type con constructs, very locked down network controls. That would help a little bit potentially. You know, just, you know, monitoring what's in the in the agent, Make sure that the agents aren't, you know, somehow injecting tools that they're not supposed to have.",
+  "zh": "而且，就像，你有一大堆智能体蜂群。然后，当然，然后它们到了 Artifactory，在那里它们找到了薄弱环节，而 Artifactory 有互联网访问权限，然后它们不知怎么就神奇地，你知道，多次清空了 Artifactory 实例。所以不是说我们能预防一切，但只是把那些至少是核心的企业技术拿出来，也许会有点帮助，就是智能体控制，比如加固的沙箱之类的构造，非常严格的网络控制。这可能会有一点帮助。你知道，只是，你知道，监控智能体里面有什么。确保这些智能体没有，你知道，以某种方式注入它们不该有的工具。"
+ },
+ {
+  "seg": 112,
+  "start": 2568.325,
+  "end": 2597.1548,
+  "speaker": "Nick",
+  "en": "I don't I'm not sure if that was an issue or not. But, you know, when you talk about an application, the whole dependency stack is always up to up to grabs. You wanna make sure that the dependency stack, the container, everything is and the whole OS and the whole platform is trying to patch and reliable as possible. So it's a I I think the the key thing is obviously, you know, we had the whole mind bending effect of that they somehow made this messaging board on Artifactory, and then it got deleted, they recreated it. So there there's that factor, which I think everybody's a little like and it goes into the whole AI is gonna kill us thing that happened over the weekend.",
+  "zh": "我不确定那是不是一个问题。但是，你知道，当你说到一个应用程序时，整个依赖栈总是任人摆布的。你要确保依赖栈、容器，一切都……整个操作系统和整个平台都尽可能保持补丁和可靠。所以，我觉得关键的事情显然是，你知道，我们经历了整个烧脑的效果，就是它们不知怎么在 Artifactory 上建了这个留言板，然后它被删掉了，它们又重建了。所以有那个因素，我觉得大家都有点……它就融入了整个周末发生的那个 AI 要毁灭我们的事情。"
+ },
+ {
+  "seg": 113,
+  "start": 2597.1548,
+  "end": 2602.515,
+  "speaker": "Nick",
+  "en": "Right? Versus just do some basic security, basic stuff. Right?",
+  "zh": "对吧？而不是就做一些基本的安全，基本的事情。对吧？"
+ },
+ {
+  "seg": 114,
+  "start": 2602.515,
+  "end": 2607.6902,
+  "speaker": "Chris Benson",
+  "en": "That that was a a social media post. Less people misinterpret That",
+  "zh": "那那是一条社交媒体帖子。比较少人误解。"
+ },
+ {
+  "seg": 115,
+  "start": 2608.81,
+  "end": 2631.735,
+  "speaker": "Nick",
+  "en": "that's that's a quite yeah. If you're not on AI Twitter or AIX, there's a lot of posts around, you know, somebody left Anthropic, and a bunch of Anthropic people started posting around that they're afraid that there's like greater than 10% chance that AI is gonna take out humanity over the weekend slash Friday. And then that stirred up a lot of conversation, let's just say. So that's what I was referring to. A bit.",
+  "zh": "那那是相当……是的。如果你不在 AI Twitter 或 AIX 上，那里有很多帖子，你知道，某人离开了 Anthropic，然后一群 Anthropic 的人开始发帖说他们害怕有超过 10% 的概率 AI 会在周末斜杠周五毁灭人类。然后那可以说是激起了一场大讨论。所以这就是我指的东西，一点。"
+ },
+ {
+  "seg": 116,
+  "start": 2631.975,
+  "end": 2633.64,
+  "speaker": "Nick",
+  "en": "Yeah. Yeah.",
+  "zh": "是的。是的。"
+ },
+ {
+  "seg": 117,
+  "start": 2633.64,
+  "end": 2668.77,
+  "speaker": "Chris Benson",
+  "en": "Okay. I guess that's useful. I appreciate that. We like to finish off by kind of giving you kind of a free form question, and that is kinda toward the future. As you are doing your job and running your podcast and talking to people and kind of building up your perspective on where things are going with this, We like to ask guests to go ahead and get crazy and prognosticate just a bit, and we don't hold you to it.",
+  "zh": "好的。我想这很有用。谢谢。我们喜欢以给你一个自由发挥的问题来收尾，那是偏向未来的。当你在做你的工作、运营你的播客、和人交流、建立你对事情走向的看法时，我们喜欢请嘉宾尽管放开、做一点预言，我们也不会拿它约束你。"
+ },
+ {
+  "seg": 118,
+  "start": 2670.45,
+  "end": 2702.8352,
+  "speaker": "Chris Benson",
+  "en": "Really the way we do this is when you're kind of just letting your mind wander and you're thinking about these things in the back of your mind, going to bed at night, having a glass of wine, whatever it is you do to chill out, where do you think things are going? And you can choose the timeframe that you like, but I really like to think, what do you think is coming? What's next? What should orgs be having a thought toward for the future, even if we're not there yet today? Mhmm.",
+  "zh": "其实我们做这个的方式是，当你任由思绪游荡，你在后台思考这些事情，晚上睡觉前，喝一杯酒，或者任何你用来放松的事情，你觉得事情会往哪里走？你可以选择你喜欢的时间范围，但我真的很想思考，你觉得什么会到来？接下来是什么？即使我们今天还没到那里，组织们应该对未来有什么样的思考？嗯。"
+ },
+ {
+  "seg": 119,
+  "start": 2703.075,
+  "end": 2707.155,
+  "speaker": "Chris Benson",
+  "en": "Any any thoughts on on what that future looks like as we close out?",
+  "zh": "在我们收尾时，有什么关于那个未来样子的想法吗？"
+ },
+ {
+  "seg": 120,
+  "start": 2707.235,
+  "end": 2720.6099,
+  "speaker": "Nick",
+  "en": "Oh oh, boy. It could be it could be many things. But I I think from a a enterprise perspective, I I think we'll see a lot of, like, team change and role change. Not even just an enterprise. Like, the whole, like, from the business side, things are gonna change a lot.",
+  "zh": "哦哦，天哪。它可能是很多事情。但我觉得从企业的角度来看，我们会看到很多团队的变化和角色的变化。甚至不只是企业。比如，整个，从业务这一边来说，很多事情都会发生巨大变化。"
+ },
+ {
+  "seg": 121,
+  "start": 2720.6099,
+  "end": 2738.0251,
+  "speaker": "Nick",
+  "en": "Right? Because you're starting to see and I I was going through old episodes of my podcast this year and just some of the old just the start of this year, and there's just now. Was like, wow, a lot has changed. And I like, can't imagine, like, can you, like, you know, imagine a couple years from now how much change the rate of changes now if the L",
+  "zh": "对吧？因为你开始看到，而我，我今年在翻我播客的旧剧集，就是一些旧的，就在今年年初，然后就是现在。就像，哇，变化真大。而且我无法想象，比如，你能想象，你知道，几年之后，如果 L"
+ },
+ {
+  "seg": 122,
+  "start": 2738.105,
+  "end": 2738.585,
+  "speaker": "Chris Benson",
+  "en": "It's accelerating.",
+  "zh": "它在加速。"
+ },
+ {
+  "seg": 123,
+  "start": 2738.825,
+  "end": 2774.98,
+  "speaker": "Nick",
+  "en": "Perceived, So it's it's hard to imagine that, but I I definitely think from a business perspective, we're gonna see, like, a radical change in, like, how how, you know, development and, you know, product management and everything changes or everything kind of, you know there's gonna be, new roles get created. You know, orgs are gonna change, I think. And I think I think for the good too, because I think, like, there there's always a fear of job loss, but I I find that I've and I've heard this echoed across many personal experiences. I am, like, working harder than I ever have because I have all these agents, and they, like, they need stuff from me. And I'm constantly, like and I'm doing building things that I always wanted to build, but just never had the time to.",
+  "zh": "从感知上，所以很难想象，但我从业务角度确实认为，我们会看到开发、产品管理以及一切事情的彻底改变，或者说一切都会，你知道……会有新角色被创造出来。你知道，组织会变化，我认为。而且我认为这对好的一面也是，因为我觉得总是有对失业的恐惧，但我发现我，而且我听到很多人在个人经历中呼应这一点。我现在比以往任何时候都更努力地工作，因为我有所有这些智能体，而它们，比如，它们需要我提供东西。我不断地……而且我在做我一直想做但从来没有时间去做的东西。"
+ },
+ {
+  "seg": 124,
+  "start": 2774.98,
+  "end": 2801.285,
+  "speaker": "Nick",
+  "en": "So I feel like we're all gonna be busy, and it maybe maybe we need to, you know, not not get too crazy with the agents. But it's it's hard for me because I it's just it's it's fascinating. It's just it's really enjoyable. So doing a lot of things with automation, I can only imagine what these agents are gonna be like in the, you know, the next six months in terms of, you know, what they can do for you. I think we'll see a lot with voice come come into play and maybe even a new style of interaction with the computer as well.",
+  "zh": "所以我觉得我们都会很忙，而且也许也许我们需要，你知道，别在智能体上玩得太疯。但这对我来说很难，因为它就是，它就是，它太迷人了。它真的非常令人享受。所以用自动化做很多事情，我只能想象这些智能体在接下来六个月里会是什么样，你知道，在它们能为你做什么方面。我觉得我们会看到很多语音加入进来，也许甚至是一种与计算机交互的新方式。"
+ },
+ {
+  "seg": 125,
+  "start": 2801.285,
+  "end": 2810.2202,
+  "speaker": "Nick",
+  "en": "So that will be interesting as well. And then I I obviously, I think, you know did you see the the post, like, Hugging Face had little robot things on sale?",
+  "zh": "所以那也会很有意思。然后我显然，我认为，你知道，你看到那个帖子了吗，就是 Hugging Face 有小机器人在卖？"
+ },
+ {
+  "seg": 126,
+  "start": 2810.3,
+  "end": 2811.1,
+  "speaker": "Chris Benson",
+  "en": "Yes. Yeah.",
+  "zh": "看到了。是的。"
+ },
+ {
+  "seg": 127,
+  "start": 2811.1,
+  "end": 2813.9001,
+  "speaker": "Nick",
+  "en": "Yeah. So like the little little micro duct things or whatever.",
+  "zh": "是的。就是那些小小的微型小鸭子之类的玩意儿。"
+ },
+ {
+  "seg": 128,
+  "start": 2813.9001,
+  "end": 2819.4448,
+  "speaker": "Chris Benson",
+  "en": "I did. I was like I was like to my wife, was like, maybe we should get one. And she's like she's like, you have enough toys. You just stop.",
+  "zh": "我看到了。我当时跟我老婆说，也许我们应该买一个。然后她就说，她说，你的玩具够多了。你快收手吧。"
+ },
+ {
+  "seg": 129,
+  "start": 2819.4448,
+  "end": 2838.2,
+  "speaker": "Nick",
+  "en": "Well, I I may have ordered a few for the family, and I'm like, those things be awesome. So, like like, robotics and things, like, you know, I I think the LLM is is great and wonderful, but there's so many more possibilities where we could go that I guess, like, for humanity. Right? As long as you don't we prevent the Terminator scenario. It'll be great.",
+  "zh": "嗯，我，我可能给家里订了几个，我觉得，那些东西会很棒。所以，比如机器人和之类的东西，你知道，我觉得 LLM 很棒很了不起，但还有很多更多的可能性，我觉得我们可以走向，为了人类。对吧？只要我们防止了终结者场景，一切都会很好。"
+ },
+ {
+  "seg": 130,
+  "start": 2838.2,
+  "end": 2840.68,
+  "speaker": "Nick",
+  "en": "Right? So Totally. Absolutely.",
+  "zh": "对吧？所以完全同意。绝对的。"
+ },
+ {
+  "seg": 131,
+  "start": 2841.24,
+  "end": 2848.365,
+  "speaker": "Chris Benson",
+  "en": "Great. I appreciate you painting that. That that helps a lot. Yeah. The rate of change is just insane now, I agree with you.",
+  "zh": "好。谢谢你描绘这一切。这很有帮助。是的。变化的速度现在确实疯狂，我同意你的看法。"
+ },
+ {
+  "seg": 132,
+  "start": 2848.365,
+  "end": 2865.1,
+  "speaker": "Chris Benson",
+  "en": "I think it's going to get faster and faster, but great way to end the show. A lot of fun. I always love to hear what people say we're asking about kind of where they think things are going. Thank you for coming on the show today. It was a great I learned so much.",
+  "zh": "我觉得它会越来越快，但这是收尾节目很好的方式。非常有趣。我一直喜欢听人们在被问到他们认为事情走向时说些什么。谢谢你今天来节目。非常棒，我学到了很多。"
+ },
+ {
+  "seg": 133,
+  "start": 2866.38,
+  "end": 2887.8699,
+  "speaker": "Chris Benson",
+  "en": "Really appreciate that. And I hope people tune in to Cloud Foundry weekly hear you talking more about these topics. And they should definitely go to the Midwest Summit and hear your talk. I was there last year, did a talk. I won't be there this year, so I'll have to see if I can get ahold of the video of it or something.",
+  "zh": "真的很感谢。我希望大家收听 Cloud Foundry weekly，听你更多谈论这些话题。而且他们绝对应该去 Midwest Summit 听你的演讲。我去年在那里做过一个演讲。我今年不会去了，所以我得看看能不能搞到视频之类的。"
+ },
+ {
+  "seg": 134,
+  "start": 2887.8699,
+  "end": 2890.19,
+  "speaker": "Chris Benson",
+  "en": "But anyway, thanks for coming on Practical AI today.",
+  "zh": "但无论如何，感谢你今天来到 Practical AI。"
+ },
+ {
+  "seg": 135,
+  "start": 2890.19,
+  "end": 2891.55,
+  "speaker": "Nick",
+  "en": "Thanks for having me.",
+  "zh": "谢谢你们邀请我。"
+ },
+ {
+  "seg": 136,
+  "start": 2895.95,
+  "end": 2916.6301,
+  "speaker": "Narrator",
+  "en": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show.",
+  "zh": "好了，这就是本周的节目。如果你还没看过我们的网站，前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 进展相关的洞见，我们非常欢迎你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 137,
+  "start": 2916.87,
+  "end": 2926.1907,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Break Master Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "到 predictionguard.com 看看他们。同时，感谢 Break Master Cylinder 的节拍，也感谢你的收听。本期就到这里，我们下周再见。"
+ }
+]

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Snapchat]] · [[Lenny]] · [[Peter Sellis]] · [[Evan Spiegel]] · [[Discord]] · [[Spectacles]] · [[OpenAI]] · [[Specs]] · [[SpaceX]] · [[Glean]]
 
-<script type="application/json" class="pd-epn">{"Snapchat":3,"Lenny":67,"Peter Sellis":1,"Evan Spiegel":1,"Discord":5,"Spectacles":1,"OpenAI":125,"Specs":1,"SpaceX":18,"Glean":2}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":3,"Lenny":67,"Peter Sellis":1,"Evan Spiegel":1,"Discord":5,"Spectacles":1,"OpenAI":126,"Specs":1,"SpaceX":18,"Glean":2}</script>
 
 <script>
 (function(){

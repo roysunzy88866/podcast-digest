@@ -27,7 +27,7 @@ unlisted: true
 
 [[AI]] · [[开源 AI]] · [[Stéphane Bancel]] · [[开放权重模型]] · [[Jorge Conde]] · [[智能体]] · [[Moderna]] · [[表观遗传重编程]] · [[Merck]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"AI":19,"开源 AI":2,"Stéphane Bancel":1,"开放权重模型":1,"Jorge Conde":1,"智能体":297,"Moderna":1,"表观遗传重编程":2,"Merck":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"AI":19,"开源 AI":2,"Stéphane Bancel":1,"开放权重模型":1,"Jorge Conde":1,"智能体":301,"Moderna":1,"表观遗传重编程":2,"Merck":1,"主观能动性":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,308 @@
+{
+  "episode_id": "2026-08-20-talks-the-era-of-compound-engineering-kieran-k",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "复利工程",
+    "独立开发",
+    "工程工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kieran-klaassen",
+      "type": "person",
+      "role": "guest",
+      "name": "Kieran Klaassen",
+      "file": "Kieran Klaassen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "compound-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "复利工程 (compound engineering)",
+      "file": "复利工程",
+      "primary": true,
+      "how_described": "本集主线：Kieran 发明并实践的方法论——把思考和品味持续提取进一个会记忆、能复利的系统，让中间环节（规划、干活、审查）无需自己运转，『一个拥有复利系统的工程师能打赢完整但没用复利系统的团队』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            151.957,
+            155.779
+          ],
+          "quote": "And core as mine is where I invented compound engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            325.56,
+            328.241
+          ],
+          "quote": "And that's really where compound engineering came from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            566.499,
+            575.421
+          ],
+          "quote": "So, I have a plugin called the Compound Engineering Plugin that you can install in whatever tool you use, Codex, Claude, CodeCursor, plus ten others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            607.737,
+            611.88
+          ],
+          "quote": "Compound engineering became compound product as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            623.608,
+            632.175
+          ],
+          "quote": "And I think compound engineering is really for engineers, PMs, designers, even people that do knowledge work within every love to use compound engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            994.886,
+            998.55
+          ],
+          "quote": "So why does compound engineering resonate with people?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compound-engineering-plugin",
+      "type": "concept",
+      "role": "concept",
+      "name": "Compound Engineering Plugin",
+      "file": "Compound Engineering Plugin",
+      "primary": true,
+      "how_described": "本集介绍的开源插件（可装在 Codex、Claude Code、Cursor 等十来个工具里，每天几十万人使用），提供 CE ideate、CE DocReview、CE brainstorm、slash LFG、CE Polish、CE compound 等命令来实现复利循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            566.499,
+            575.421
+          ],
+          "quote": "So, I have a plugin called the Compound Engineering Plugin that you can install in whatever tool you use, Codex, Claude, CodeCursor, plus ten others.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cora",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cora",
+      "file": "Cora",
+      "primary": true,
+      "how_described": "本集说 Cora 是 Kieran 一个人构建的完整 AI 邮件客户端/收件箱，智能体原生，成千上万人在用，也是他发明 compound engineering 的地方（转写稿中拼作 core as mine / Quora / Cora）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            651.924,
+            657.629
+          ],
+          "quote": "And here I run it in, it's maybe a little bit small, but I say, hey, I have Cora version one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "every",
+      "type": "company",
+      "role": "company",
+      "name": "Every",
+      "file": "Every",
+      "primary": true,
+      "how_described": "本集介绍 Every 是一个研究『未来工作方式』的 AI 实验室，写作、教学并构建产品，其工作室主要是单人工程团队用 AI 构建产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            117.169,
+            118.17
+          ],
+          "quote": "I work at Every.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            118.65,
+            121.353
+          ],
+          "quote": "Every is an AI lab for the future of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            310.035,
+            317.277
+          ],
+          "quote": "So every time I repeat myself, I can say, hey, can you make sure to store this knowledge in some way?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            623.608,
+            632.175
+          ],
+          "quote": "And I think compound engineering is really for engineers, PMs, designers, even people that do knowledge work within every love to use compound engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1097.607,
+            1103.91
+          ],
+          "quote": "And again, every interaction, spend 50% of your time to make it better the next time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集贯穿的主线概念：Cora 是智能体原生的（凡是你能做的事，智能体都能做）；复盘时要能追到『哪个智能体做了哪个决定』，加智能体也是他突破早期代码瓶颈的手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            159.361,
+            163.523
+          ],
+          "quote": "It's agent native, so that means whatever you can do, the agent can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1082.802,
+            1086.784
+          ],
+          "quote": "What decision was made by whom or what agent that led to this?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到可安装 Compound Engineering Plugin 的工具之一，并说明插件不必非在 Claude Code 里运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            790.607,
+            792.068
+          ],
+          "quote": "It doesn't need to be in Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到可安装 Compound Engineering Plugin 的工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            566.499,
+            575.421
+          ],
+          "quote": "So, I have a plugin called the Compound Engineering Plugin that you can install in whatever tool you use, Codex, Claude, CodeCursor, plus ten others.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到可安装插件、且 Kieran 喜欢在里面跑 CE Polish 查看产品的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            913.041,
+            915.141
+          ],
+          "quote": "So I like to run it in cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集顺带一提：如果喜欢 vibe coding，用 slash LFG 也很好用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            877.226,
+            882.25
+          ],
+          "quote": "And if you like Vibe coding, slash LFG something is great as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

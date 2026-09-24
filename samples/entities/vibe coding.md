@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>36</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>37</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(04:06起):本集说 vibe coding 是指凭感觉描述需求让 AI 写代码，很多人用它做出自己专属的工具版本——不是给两万用户做的，是给自己解决痛点的
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(50:52起):Flo 说当前主流叙事是'SaaS 正在消亡，你可以 vibe coding 一切'，但他反驳说基础设施不能 vibe coding
 - **[[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]]**(77:24起):本集仅在提及 Addy 写过的书名时带过，未展开讨论
+- **[[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]]**(14:37起):本集顺带一提：如果喜欢 vibe coding，用 slash LFG 也很好用。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(33:14起):本集说 Martin 以一种 VC 方式做 vibe coding 来构建复古电子游戏，把它比作以前车库里搞火车模型的爱好的现代版
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(30:47起):本集说「网站 vibe coding 已经过时了」,该提升编程野心去做 3D 游戏、桌面应用、黑硬件。
 - **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(02:47起):本集 Scott 说不没人会拿职业生涯去「vibe coding 一个核反应堆的控制系统」——它只加速代码编写环节,浅层 web 应用危险了,高后果软件另有审查与验证壁垒。
@@ -61,7 +62,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*36 集*
+*37 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -92,6 +93,7 @@ unlisted: true
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为概念(提及)
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]] — 作为概念(提及)
+- [[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]] — 作为概念(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 - [[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]] — 作为概念
@@ -104,9 +106,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[Replit]]
+[[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":297,"Cursor":65,"Lenny":67,"Anthropic":133,"ChatGPT":76,"Claude":62,"护栏":52,"OpenAI":125,"Claude Code":68,"Replit":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":301,"Cursor":66,"Lenny":67,"Anthropic":134,"ChatGPT":76,"Claude":62,"Claude Code":70,"护栏":52,"OpenAI":126,"Codex":55}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
+[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":42,"Google":47,"TPU":3,"OpenAI":125,"Anthropic":133,"Broadcom":4,"AMD":4,"Gemini":10,"ChatGPT":76}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":42,"Google":47,"TPU":3,"OpenAI":126,"Anthropic":134,"Broadcom":4,"AMD":4,"Gemini":10,"ChatGPT":76}</script>
 
 <script>
 (function(){

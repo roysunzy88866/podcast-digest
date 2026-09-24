@@ -1,0 +1,1650 @@
+[
+ {
+  "seg": 0,
+  "start": 13.042,
+  "end": 13.582,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.642,
+  "end": 18.807,
+  "speaker": "Unknown",
+  "en": "My name is Ameya Bhattavdekar, and I'm the field CTO at Braintrust.",
+  "zh": "我叫 Ameya Bhattavdekar，是 Braintrust 的现场 CTO。"
+ },
+ {
+  "seg": 2,
+  "start": 18.907,
+  "end": 25.913,
+  "speaker": "Unknown",
+  "en": "Braintrust is an observability platform that helps AI teams build and improve their AI with confidence.",
+  "zh": "Braintrust 是一个可观测性平台，帮助 AI 团队满怀信心地构建和改进他们的 AI。"
+ },
+ {
+  "seg": 3,
+  "start": 28.014,
+  "end": 28.334,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 4,
+  "start": 30.747,
+  "end": 41.33,
+  "speaker": "Unknown",
+  "en": "I'm sure all of you, if not, you know, I'm sure everyone here has built some application over the last couple of years that has a model at the center of it, right?",
+  "zh": "我相信在座的各位，如果不是的话，你们知道，我相信过去几年里每个人都已经构建过某个以模型为核心的应用程序，对吧？"
+ },
+ {
+  "seg": 5,
+  "start": 41.51,
+  "end": 49.953,
+  "speaker": "Unknown",
+  "en": "Some sort of a chatbot or a AI agent or some system that's doing batch processing using AI at the heart of it.",
+  "zh": "某种聊天机器人，或者 AI 智能体，或者某个以 AI 为核心做批处理工作的系统。"
+ },
+ {
+  "seg": 6,
+  "start": 52.13,
+  "end": 59.133,
+  "speaker": "Unknown",
+  "en": "And I'm sure all of you over that time span have done significant changes to that application.",
+  "zh": "而且我相信在这段时间里，你们所有人都对那个应用程序做过重大的改动。"
+ },
+ {
+  "seg": 7,
+  "start": 59.213,
+  "end": 66.216,
+  "speaker": "Unknown",
+  "en": "You have either rewritten that application entirely or you have done some pretty complex surgery on the application.",
+  "zh": "你要么把那个应用程序整个重写了，要么对它做过相当复杂的大手术。"
+ },
+ {
+  "seg": 8,
+  "start": 66.276,
+  "end": 73.2,
+  "speaker": "Unknown",
+  "en": "And the way it looks now compared to how it looked when you started is likely very, very different.",
+  "zh": "而它现在的样子，和你当初开始时的样子相比，很可能已经非常、非常不同了。"
+ },
+ {
+  "seg": 9,
+  "start": 74.206,
+  "end": 85.208,
+  "speaker": "Unknown",
+  "en": "And I think everyone's probably experienced the same pattern, which is like how building a demo with AI is really easy, but making it production quality is really hard.",
+  "zh": "我想每个人都经历过同样的模式，就是用 AI 搭一个 demo 真的很容易，但把它做到生产级别真的很难。"
+ },
+ {
+  "seg": 10,
+  "start": 86.795,
+  "end": 95.18,
+  "speaker": "Unknown",
+  "en": "The same way when you're evolving your AI application and making significant changes to it, it can be very, very challenging, right?",
+  "zh": "同样地，当你在演进你的 AI 应用程序并对它做重大改动时，这个过程可能非常、非常具有挑战性，对吧？"
+ },
+ {
+  "seg": 11,
+  "start": 96.341,
+  "end": 100.103,
+  "speaker": "Unknown",
+  "en": "And the challenge is not because you built it the wrong way.",
+  "zh": "而这个挑战并不是因为你以错误的方式构建了它。"
+ },
+ {
+  "seg": 12,
+  "start": 100.584,
+  "end": 106.007,
+  "speaker": "Unknown",
+  "en": "The challenge is because the system around you is evolving and changing so dynamically, so rapidly.",
+  "zh": "这个挑战是因为你周围的系统在如此动态、如此快速地演进和变化。"
+ },
+ {
+  "seg": 13,
+  "start": 106.147,
+  "end": 110.07,
+  "speaker": "Unknown",
+  "en": "You know, the models are changing, the way your users use your application changes.",
+  "zh": "你知道，模型在变，你的用户使用你应用程序的方式也在变。"
+ },
+ {
+  "seg": 14,
+  "start": 110.75,
+  "end": 119.323,
+  "speaker": "Unknown",
+  "en": "The data that your application works with changes, and all of those things require you to continually make changes to your applications.",
+  "zh": "你的应用程序所处理的数据在变，而所有这些事情都要求你持续地对你的应用程序做出改动。"
+ },
+ {
+  "seg": 15,
+  "start": 121.658,
+  "end": 129.004,
+  "speaker": "Unknown",
+  "en": "And so if you look at the rate at which the models have evolved over the last couple of years, it's truly astonishing.",
+  "zh": "如果你看看过去几年模型演进的速度，那真是令人惊叹。"
+ },
+ {
+  "seg": 16,
+  "start": 129.644,
+  "end": 141.673,
+  "speaker": "Unknown",
+  "en": "Like every few months there's a new release and that unlocks a ton of new capabilities, a ton of new features that were not present in the previous generation of the models, right?",
+  "zh": "每隔几个月就有一个新版本发布，它解锁了大量新能力、大量上一代模型所不具备的新功能，对吧？"
+ },
+ {
+  "seg": 17,
+  "start": 141.974,
+  "end": 150.74,
+  "speaker": "Unknown",
+  "en": "We have started seeing like models that got really good at working with tools, models getting really good at handling very long context.",
+  "zh": "我们开始看到，模型变得非常擅长使用工具，模型变得非常擅长处理非常长的上下文。"
+ },
+ {
+  "seg": 18,
+  "start": 152.701,
+  "end": 159.784,
+  "speaker": "Unknown",
+  "en": "We started seeing models generate code that can be reliably and safely executed in sandboxes.",
+  "zh": "我们开始看到模型生成的代码可以在沙箱中可靠且安全地执行。"
+ },
+ {
+  "seg": 19,
+  "start": 160.184,
+  "end": 164.565,
+  "speaker": "Unknown",
+  "en": "We've seen memory systems becoming very sophisticated and practical.",
+  "zh": "我们看到记忆系统变得非常复杂且实用。"
+ },
+ {
+  "seg": 20,
+  "start": 165.545,
+  "end": 168.326,
+  "speaker": "Unknown",
+  "en": "And so each of those was not a minor upgrade.",
+  "zh": "而其中每一项都不是一次小升级。"
+ },
+ {
+  "seg": 21,
+  "start": 168.346,
+  "end": 170.947,
+  "speaker": "Unknown",
+  "en": "It was not an incremental change to the previous state of art.",
+  "zh": "它不是对之前技术水平的一次渐进式改动。"
+ },
+ {
+  "seg": 22,
+  "start": 170.987,
+  "end": 172.908,
+  "speaker": "Unknown",
+  "en": "It was a step function change, right?",
+  "zh": "它是一次阶跃式变化，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 173.548,
+  "end": 180.11,
+  "speaker": "Unknown",
+  "en": "And so now we are moving from this era of sort of iterating on improving applications to",
+  "zh": "所以现在我们正在从这个对应用程序进行迭代改进的时代，走向"
+ },
+ {
+  "seg": 24,
+  "start": 180.95,
+  "end": 185.225,
+  "speaker": "Unknown",
+  "en": "Re-platforming our applications because everything is changing so dramatically.",
+  "zh": "对我们的应用程序进行重新平台化，因为一切都在剧烈地变化。"
+ },
+ {
+  "seg": 25,
+  "start": 187.933,
+  "end": 194.297,
+  "speaker": "Unknown",
+  "en": "So why can't you just drop in a new model and expect your system to work?",
+  "zh": "那么，为什么你不能直接换入一个新模型，就指望你的系统能正常工作呢？"
+ },
+ {
+  "seg": 26,
+  "start": 195.338,
+  "end": 209.207,
+  "speaker": "Unknown",
+  "en": "Well, the models, the previous system that you built was built with some assumptions around the existing limitations and the constraints that the models had, right?",
+  "zh": "嗯，模型，你之前构建的那个系统，是围绕现有模型的局限和约束带着某些假设来构建的，对吧？"
+ },
+ {
+  "seg": 27,
+  "start": 209.247,
+  "end": 217.412,
+  "speaker": "Unknown",
+  "en": "Your previous systems were built to account for the fact that your models weren't really as good at tool calling, for example, and so your system",
+  "zh": "你之前的系统在构建时考虑到了你的模型并不真正擅长工具调用这件事，比如说，所以你的系统"
+ },
+ {
+  "seg": 28,
+  "start": 217.852,
+  "end": 221.234,
+  "speaker": "Unknown",
+  "en": "implemented a bunch of logic to make it work with those limitations.",
+  "zh": "实现了一大堆逻辑来让它适应那些局限。"
+ },
+ {
+  "seg": 29,
+  "start": 221.815,
+  "end": 234.643,
+  "speaker": "Unknown",
+  "en": "And so when you drop in a new model, you are not able to tap into the new capabilities, the new state-of-the-art, without really restructuring your systems in a pretty dramatic way.",
+  "zh": "所以当你换入一个新模型时，你无法真正利用那些新能力、新的最先进水平，除非你以一种相当彻底的方式重构你的系统。"
+ },
+ {
+  "seg": 30,
+  "start": 235.224,
+  "end": 241.748,
+  "speaker": "Unknown",
+  "en": "And so in order to capture that kind of capability, the new unlock, you have to re-architect.",
+  "zh": "所以为了获取那种能力、那个新的解锁，你必须重新架构。"
+ },
+ {
+  "seg": 31,
+  "start": 244.762,
+  "end": 250.626,
+  "speaker": "Unknown",
+  "en": "And so as you re-architect, right, what happens is models evolve.",
+  "zh": "而当你重新架构时，对吧，发生的事情是模型在演进。"
+ },
+ {
+  "seg": 32,
+  "start": 251.146,
+  "end": 256.77,
+  "speaker": "Unknown",
+  "en": "So you've got to go in and change your application architecture, do a lot of work on getting it to work with the new models.",
+  "zh": "所以你得进去修改你的应用程序架构，做大量工作让它与新模型配合工作。"
+ },
+ {
+  "seg": 33,
+  "start": 257.8,
+  "end": 266.624,
+  "speaker": "Unknown",
+  "en": "But that means that you also now have to update your evals, the way you ensure that your system is going to operate reliably, right?",
+  "zh": "但这也意味着你现在还必须更新你的 evals，也就是你确保系统可靠运行的方式，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 266.884,
+  "end": 275.587,
+  "speaker": "Unknown",
+  "en": "Because every new unlock is potentially also giving you new surface area where things can go wrong.",
+  "zh": "因为每一个新的解锁，潜在地也在给你带来新的可能出错的面。"
+ },
+ {
+  "seg": 35,
+  "start": 276.408,
+  "end": 281.01,
+  "speaker": "Unknown",
+  "en": "And so your evals now have to adapt and evolve to your new architecture.",
+  "zh": "所以你的 evals 现在必须适应并跟随你的新架构演进。"
+ },
+ {
+  "seg": 36,
+  "start": 281.71,
+  "end": 286.832,
+  "speaker": "Unknown",
+  "en": "And so, you know, architecture follows model updates and your evals have to follow your architecture.",
+  "zh": "所以，架构跟随模型更新，而你的 evals 必须跟随你的架构。"
+ },
+ {
+  "seg": 37,
+  "start": 288.633,
+  "end": 299.054,
+  "speaker": "Unknown",
+  "en": "So, as I talked through the various generations of the AI systems architectures and how you do, you know, what that architecture is and how the evals have",
+  "zh": "那么，当我讲过 AI 系统架构的各个世代，以及你知道，那个架构是什么，evals 又是如何"
+ },
+ {
+  "seg": 38,
+  "start": 299.7,
+  "end": 301.86,
+  "speaker": "Unknown",
+  "en": "to evolve with those architectural changes.",
+  "zh": "随着那些架构变化而演进的。"
+ },
+ {
+  "seg": 39,
+  "start": 301.88,
+  "end": 303.881,
+  "speaker": "Unknown",
+  "en": "I want to ground it in a real example.",
+  "zh": "我想用一个真实的例子来落地它。"
+ },
+ {
+  "seg": 40,
+  "start": 304.441,
+  "end": 313.222,
+  "speaker": "Unknown",
+  "en": "And so, what I want to talk about is on the subsequent slides, I'll share a bunch of notional evals, but I want them to be grounded in a real agent.",
+  "zh": "所以，在接下来的幻灯片中，我要讲的是，我会分享一堆假设性的 evals，但我想让它们落在一个真实的智能体上。"
+ },
+ {
+  "seg": 41,
+  "start": 313.682,
+  "end": 316.383,
+  "speaker": "Unknown",
+  "en": "In this case, we are going to look at this SRE agent.",
+  "zh": "在这个例子里，我们要看的是这个 SRE 智能体。"
+ },
+ {
+  "seg": 42,
+  "start": 316.463,
+  "end": 322.924,
+  "speaker": "Unknown",
+  "en": "The SRE agent is able to not only read information, but it's able to take actions and update systems.",
+  "zh": "这个 SRE 智能体不仅能读取信息，它还能采取行动并更新系统。"
+ },
+ {
+  "seg": 43,
+  "start": 323.004,
+  "end": 328.845,
+  "speaker": "Unknown",
+  "en": "So, it can roll back a deployment or escalate it to a human, page someone.",
+  "zh": "所以，它可以回滚一次部署，或者把它升级给人类，呼叫我某个人。"
+ },
+ {
+  "seg": 44,
+  "start": 329.745,
+  "end": 333.008,
+  "speaker": "Unknown",
+  "en": "So, it has access to read tools and write tools.",
+  "zh": "所以，它可以访问读工具和写工具。"
+ },
+ {
+  "seg": 45,
+  "start": 333.288,
+  "end": 339.133,
+  "speaker": "Unknown",
+  "en": "So, let's see how this system would have evolved through the various generations of AI architectures.",
+  "zh": "那么，让我们看看这个系统在 AI 架构的各个世代中会如何演进。"
+ },
+ {
+  "seg": 46,
+  "start": 340.594,
+  "end": 342.256,
+  "speaker": "Unknown",
+  "en": "So, let's start with the simplest case, right?",
+  "zh": "那么，让我们从最简单的情形开始，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 342.276,
+  "end": 346.379,
+  "speaker": "Unknown",
+  "en": "This is how a lot of AI applications started about three years ago.",
+  "zh": "这就是大约三年前很多 AI 应用程序的起步方式。"
+ },
+ {
+  "seg": 48,
+  "start": 346.84,
+  "end": 349.842,
+  "speaker": "Unknown",
+  "en": "This is a single prompt, a single model call.",
+  "zh": "这是一个单一的提示词，一次单一的模型调用。"
+ },
+ {
+  "seg": 49,
+  "start": 350.899,
+  "end": 354.081,
+  "speaker": "Unknown",
+  "en": "Yeah, one input, one model call, one output.",
+  "zh": "是的，一个输入，一次模型调用，一个输出。"
+ },
+ {
+  "seg": 50,
+  "start": 354.661,
+  "end": 360.685,
+  "speaker": "Unknown",
+  "en": "And so, the focus of evaluations was on the final answer quality, right?",
+  "zh": "所以，评估的重点是最终答案的质量，对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 360.885,
+  "end": 366.649,
+  "speaker": "Unknown",
+  "en": "Did you get the correct answer in terms of accuracy and factuality?",
+  "zh": "你是否得到了正确的答案，就准确性和事实性而言？"
+ },
+ {
+  "seg": 52,
+  "start": 367.229,
+  "end": 370.051,
+  "speaker": "Unknown",
+  "en": "Or did the model hallucinate something?",
+  "zh": "还是说模型产生了幻觉？"
+ },
+ {
+  "seg": 53,
+  "start": 370.071,
+  "end": 371.152,
+  "speaker": "Unknown",
+  "en": "Did it make up stuff?",
+  "zh": "它是不是编造了一些东西？"
+ },
+ {
+  "seg": 54,
+  "start": 371.352,
+  "end": 375.895,
+  "speaker": "Unknown",
+  "en": "Or did it reference old non, the",
+  "zh": "还是它引用了旧的、非……"
+ },
+ {
+  "seg": 55,
+  "start": 376.575,
+  "end": 381.684,
+  "speaker": "Unknown",
+  "en": "previous knowledge that it had been trained on and not the latest information related to that subject.",
+  "zh": "它之前训练时所掌握的旧知识，而不是与该主题相关的最新信息。"
+ },
+ {
+  "seg": 56,
+  "start": 382.926,
+  "end": 388.374,
+  "speaker": "Unknown",
+  "en": "So, in this case, you are really focusing primarily on the final answer.",
+  "zh": "所以，在这种情况下，你主要关注的就是最终答案。"
+ },
+ {
+  "seg": 57,
+  "start": 388.435,
+  "end": 390.378,
+  "speaker": "Unknown",
+  "en": "That was your unit of evaluation.",
+  "zh": "那是你的评估单元。"
+ },
+ {
+  "seg": 58,
+  "start": 391.142,
+  "end": 394.724,
+  "speaker": "Unknown",
+  "en": "And so the approach was you would put together a golden data set.",
+  "zh": "所以那时的做法是，你会整理一个黄金数据集。"
+ },
+ {
+  "seg": 59,
+  "start": 394.764,
+  "end": 404.751,
+  "speaker": "Unknown",
+  "en": "You will create a bunch of various scores that we're looking at encoding your definition of what good looks like that then you could evaluate the answers against.",
+  "zh": "你会创建一堆不同的评分标准，把我们关注的、对“好”的定义编码进去，然后可以据此评估答案。"
+ },
+ {
+  "seg": 60,
+  "start": 405.171,
+  "end": 405.891,
+  "speaker": "Unknown",
+  "en": "And this was great.",
+  "zh": "这很棒。"
+ },
+ {
+  "seg": 61,
+  "start": 405.931,
+  "end": 407.232,
+  "speaker": "Unknown",
+  "en": "This was a good way to get started.",
+  "zh": "这是一个很好的起步方式。"
+ },
+ {
+  "seg": 62,
+  "start": 407.272,
+  "end": 413.556,
+  "speaker": "Unknown",
+  "en": "It was narrow because there's no tool calling, there's no orchestration, there's no retrieval, no other steps.",
+  "zh": "它很狭窄，因为没有工具调用，没有编排，没有检索，没有其他步骤。"
+ },
+ {
+  "seg": 63,
+  "start": 413.616,
+  "end": 415.698,
+  "speaker": "Unknown",
+  "en": "It's just a simple call to the model.",
+  "zh": "只是对模型的一次简单调用。"
+ },
+ {
+  "seg": 64,
+  "start": 417.038,
+  "end": 419.12,
+  "speaker": "Unknown",
+  "en": "But the next iteration of this was the chain.",
+  "zh": "但下一个迭代是链。"
+ },
+ {
+  "seg": 65,
+  "start": 419.24,
+  "end": 424.323,
+  "speaker": "Unknown",
+  "en": "This is where you started doing a set of steps before you actually made the model call, right?",
+  "zh": "这时你开始在真正调用模型之前执行一组步骤，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 425.023,
+  "end": 432.288,
+  "speaker": "Unknown",
+  "en": "The typical RAG application looked like it took the user input, it passed some information from the user input.",
+  "zh": "典型的 RAG 应用看起来是这样的：它获取用户输入，从用户输入中提取一些信息。"
+ },
+ {
+  "seg": 67,
+  "start": 433.268,
+  "end": 447.733,
+  "speaker": "Unknown",
+  "en": "It then used that to retrieve information, then generate the context, and then hand it over to the model, and then the model synthesizes reasons on that information, synthesizes an answer, and you've evaluated the answer.",
+  "zh": "然后用它去检索信息，生成上下文，再交给模型，然后模型对这些信息进行综合推理，综合出一个答案，你再对这个答案进行评估。"
+ },
+ {
+  "seg": 68,
+  "start": 447.953,
+  "end": 451.114,
+  "speaker": "Unknown",
+  "en": "But there's a number of other places where things could go wrong.",
+  "zh": "但还有很多其他环节可能出问题。"
+ },
+ {
+  "seg": 69,
+  "start": 451.574,
+  "end": 454.235,
+  "speaker": "Unknown",
+  "en": "Yeah, your parser could extract the wrong information.",
+  "zh": "是啊，你的解析器可能提取错误的信息。"
+ },
+ {
+  "seg": 70,
+  "start": 454.875,
+  "end": 456.717,
+  "speaker": "Unknown",
+  "en": "It could retrieve the wrong context.",
+  "zh": "它可能检索到错误的上下文。"
+ },
+ {
+  "seg": 71,
+  "start": 457.197,
+  "end": 459.219,
+  "speaker": "Unknown",
+  "en": "The model could struggle with the context.",
+  "zh": "模型可能在处理上下文时遇到困难。"
+ },
+ {
+  "seg": 72,
+  "start": 459.299,
+  "end": 468.546,
+  "speaker": "Unknown",
+  "en": "Like in the early days, even though the context window sizes were increasing, the models struggled to reason over a large context.",
+  "zh": "比如在早期，尽管上下文窗口大小在不断增加，模型仍难以在大上下文上进行推理。"
+ },
+ {
+  "seg": 73,
+  "start": 468.626,
+  "end": 471.288,
+  "speaker": "Unknown",
+  "en": "So, context stuffing could be an issue for the model performance.",
+  "zh": "所以，上下文堆塞可能是影响模型性能的一个问题。"
+ },
+ {
+  "seg": 74,
+  "start": 471.688,
+  "end": 475.871,
+  "speaker": "Unknown",
+  "en": "And so, now you had multiple areas of failure.",
+  "zh": "于是，现在你有了多个可能失败的环节。"
+ },
+ {
+  "seg": 75,
+  "start": 476.111,
+  "end": 483.717,
+  "speaker": "Unknown",
+  "en": "And so, you needed to eval all of these steps in order to figure out where things went wrong and how to act upon it.",
+  "zh": "所以，你需要评估所有这些步骤，才能弄清楚哪里出了问题以及如何应对。"
+ },
+ {
+  "seg": 76,
+  "start": 485.305,
+  "end": 488.108,
+  "speaker": "Unknown",
+  "en": "But this was kind of very, what I would call, very limited.",
+  "zh": "但这在某种意义上是非常……我会说是非常受限的。"
+ },
+ {
+  "seg": 77,
+  "start": 488.168,
+  "end": 492.953,
+  "speaker": "Unknown",
+  "en": "Like, it did things a very specific way all the time, right?",
+  "zh": "就是说，它总是以一种非常特定的方式做事，对吧？"
+ },
+ {
+  "seg": 78,
+  "start": 494.195,
+  "end": 501.583,
+  "speaker": "Unknown",
+  "en": "And so in late, mid-late 2023, early 24, the React paper became really popular.",
+  "zh": "于是在 2023 年中后期、2024 年初，React 论文变得非常流行。"
+ },
+ {
+  "seg": 79,
+  "start": 502.204,
+  "end": 504.867,
+  "speaker": "Unknown",
+  "en": "And so folks were looking at building",
+  "zh": "于是人们开始研究构建"
+ },
+ {
+  "seg": 80,
+  "start": 506.328,
+  "end": 514.372,
+  "speaker": "Unknown",
+  "en": "model in a loop, running a model in a loop where it could reason and act in a stepwise way.",
+  "zh": "在循环中运行模型的方式，让模型能够以逐步的方式推理和行动。"
+ },
+ {
+  "seg": 81,
+  "start": 514.452,
+  "end": 516.593,
+  "speaker": "Unknown",
+  "en": "So, the model could make tool calls.",
+  "zh": "这样，模型可以发起工具调用。"
+ },
+ {
+  "seg": 82,
+  "start": 517.233,
+  "end": 534.702,
+  "speaker": "Unknown",
+  "en": "It could then understand what the tool calls returned, reason on that data, and then figure out what the next step was so that it could then continue to run this in a loop till the user intent was finally satisfied, or the model ran out of the iteration budget, right?",
+  "zh": "它随后可以理解工具调用返回了什么，对这些数据进行推理，然后弄清楚下一步是什么，从而可以继续在循环中运行，直到用户意图最终被满足，或者模型耗尽了迭代预算，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 535.522,
+  "end": 542.488,
+  "speaker": "Unknown",
+  "en": "And so this was great because it now gives the model, the AI system, a lot more flexibility.",
+  "zh": "所以这很棒，因为它现在给了模型，也就是这个 AI 系统，大得多的灵活性。"
+ },
+ {
+  "seg": 84,
+  "start": 542.548,
+  "end": 546.491,
+  "speaker": "Unknown",
+  "en": "It's not pinned down to operating in a very specific workflow.",
+  "zh": "它不再被束缚在一个非常特定的工作流中运行。"
+ },
+ {
+  "seg": 85,
+  "start": 546.611,
+  "end": 554.057,
+  "speaker": "Unknown",
+  "en": "It now is able to reason on the various intents and it's able to self-organize, self-orchestrate, and complete the user tasks.",
+  "zh": "它现在能够对各种意图进行推理，能够自我组织、自我编排，并完成用户任务。"
+ },
+ {
+  "seg": 86,
+  "start": 554.838,
+  "end": 559.283,
+  "speaker": "Unknown",
+  "en": "Unfortunately, the models of that era were not as robust as they needed to be.",
+  "zh": "不幸的是，那个时代的模型不够健壮。"
+ },
+ {
+  "seg": 87,
+  "start": 559.543,
+  "end": 562.527,
+  "speaker": "Unknown",
+  "en": "So models struggled with tool callings.",
+  "zh": "所以模型在工具调用上表现挣扎。"
+ },
+ {
+  "seg": 88,
+  "start": 562.567,
+  "end": 563.848,
+  "speaker": "Unknown",
+  "en": "They got the arguments wrong.",
+  "zh": "它们把参数弄错了。"
+ },
+ {
+  "seg": 89,
+  "start": 564.108,
+  "end": 565.93,
+  "speaker": "Unknown",
+  "en": "The models struggled with orchestration.",
+  "zh": "模型在编排上表现挣扎。"
+ },
+ {
+  "seg": 90,
+  "start": 566.371,
+  "end": 568.053,
+  "speaker": "Unknown",
+  "en": "So they called the wrong tools.",
+  "zh": "所以它们调用了错误的工具。"
+ },
+ {
+  "seg": 91,
+  "start": 568.193,
+  "end": 571.376,
+  "speaker": "Unknown",
+  "en": "The models still had challenges with reasoning.",
+  "zh": "模型在推理上仍然存在挑战。"
+ },
+ {
+  "seg": 92,
+  "start": 571.437,
+  "end": 574.22,
+  "speaker": "Unknown",
+  "en": "They weren't necessarily doing a great job of",
+  "zh": "它们不一定能很好地"
+ },
+ {
+  "seg": 93,
+  "start": 575.397,
+  "end": 585.574,
+  "speaker": "Unknown",
+  "en": "you know dealing with long contexts so you had things like context collapse and so while the idea was like really really exciting it fell short of delivering on the actual promise.",
+  "zh": "处理长上下文，所以出现了上下文坍塌之类的问题。因此，虽然这个想法非常非常令人兴奋，但它没能兑现实际的承诺。"
+ },
+ {
+  "seg": 94,
+  "start": 586.888,
+  "end": 591.072,
+  "speaker": "Unknown",
+  "en": "And so what do you do when your model can't be controlled, right?",
+  "zh": "那么，当你的模型无法被控制时，你会怎么做，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 591.112,
+  "end": 595.715,
+  "speaker": "Unknown",
+  "en": "You take the control and you bake that control into the system that you're building around the model.",
+  "zh": "你接过控制权，并把这种控制固化到你在模型周围构建的系统中。"
+ },
+ {
+  "seg": 96,
+  "start": 596.356,
+  "end": 601.36,
+  "speaker": "Unknown",
+  "en": "And so teams started moving towards these kind of workflow graphs, right?",
+  "zh": "于是团队开始转向这类工作流图，对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 602.922,
+  "end": 614.972,
+  "speaker": "Unknown",
+  "en": "They started building the orchestration and the execution and planning logic into the system itself, either as a graph or as a state machine.",
+  "zh": "他们开始把编排、执行和规划逻辑构建到系统本身中，要么以图的形式，要么以状态机的形式。"
+ },
+ {
+  "seg": 98,
+  "start": 615.572,
+  "end": 622.44,
+  "speaker": "Unknown",
+  "en": "And so you took control of the orchestration while you allowed the models to operate at the node level.",
+  "zh": "这样你控制了编排，同时允许模型在节点层面运作。"
+ },
+ {
+  "seg": 99,
+  "start": 623.341,
+  "end": 633.714,
+  "speaker": "Unknown",
+  "en": "And that way you got a lot more reliability and predictability in how your AI was going to operate across those various intents.",
+  "zh": "这样一来，你的 AI 在各种意图之间的运作方式就获得了高得多的可靠性和可预测性。"
+ },
+ {
+  "seg": 100,
+  "start": 635.445,
+  "end": 643.815,
+  "speaker": "Unknown",
+  "en": "But then the problem is you are now building a system that is designed to work for a specific set of intents for the specific types of use cases.",
+  "zh": "但问题在于，你现在构建的系统是为特定的一组意图、特定类型的用例而设计的。"
+ },
+ {
+  "seg": 101,
+  "start": 644.336,
+  "end": 648.641,
+  "speaker": "Unknown",
+  "en": "And as you start, the system starts interacting with,",
+  "zh": "而当你开始，系统开始与"
+ },
+ {
+  "seg": 102,
+  "start": 649.762,
+  "end": 655.425,
+  "speaker": "Unknown",
+  "en": "With instances that are outside that distribution, the system starts struggling with that, right?",
+  "zh": "分布之外的实例交互时，系统就开始在那方面挣扎了，对吧？"
+ },
+ {
+  "seg": 103,
+  "start": 655.445,
+  "end": 676.875,
+  "speaker": "Unknown",
+  "en": "You expect a certain set of applications or user interactions to work well because they can be fulfilled by the orchestration that you have designed, but when the user intent requires other things to happen beyond what's specified in the orchestration, the system can start breaking at the seams.",
+  "zh": "你期望某一套应用或用户交互能很好地工作，因为它们可以由你设计好的编排来完成，但当用户意图需要超出编排所规定范围的其他事情时，系统就会开始在接缝处崩裂。"
+ },
+ {
+  "seg": 104,
+  "start": 677.835,
+  "end": 683.418,
+  "speaker": "Unknown",
+  "en": "And in order to do that, folks were now building a lot more complexity into their orchestration logic.",
+  "zh": "为了做到这一点，人们开始在他们的编排逻辑里构建多得多的复杂性。"
+ },
+ {
+  "seg": 105,
+  "start": 683.458,
+  "end": 692.923,
+  "speaker": "Unknown",
+  "en": "And so you're building these special branches and way you handle special intents in the complex graph that described your system.",
+  "zh": "于是你在描述系统的复杂图里构建这些特殊分支以及处理特殊意图的方式。"
+ },
+ {
+  "seg": 106,
+  "start": 693.583,
+  "end": 699.206,
+  "speaker": "Unknown",
+  "en": "And so what that means is like you had now a ton of different surfaces for failure.",
+  "zh": "这意味着你现在有了大量不同的失败面。"
+ },
+ {
+  "seg": 107,
+  "start": 699.386,
+  "end": 700.227,
+  "speaker": "Unknown",
+  "en": "So you now had",
+  "zh": "所以你现在有了"
+ },
+ {
+  "seg": 108,
+  "start": 701.007,
+  "end": 707.236,
+  "speaker": "Unknown",
+  "en": "to deal with, you know, dealing with branch consistency and branching logic failures.",
+  "zh": "要去处理的，你知道的，分支一致性和分支逻辑失败的问题。"
+ },
+ {
+  "seg": 109,
+  "start": 707.396,
+  "end": 712.964,
+  "speaker": "Unknown",
+  "en": "You had to deal with things like the contracts between the nodes not working out well.",
+  "zh": "你还得处理节点之间的契约配合不好的问题。"
+ },
+ {
+  "seg": 110,
+  "start": 713.545,
+  "end": 716.449,
+  "speaker": "Unknown",
+  "en": "You had to deal with the limitations of",
+  "zh": "你还得处理"
+ },
+ {
+  "seg": 111,
+  "start": 717.429,
+  "end": 723.153,
+  "speaker": "Unknown",
+  "en": "The nodes that were built for a specific set of use cases.",
+  "zh": "为特定一组用例而构建的节点的局限性。"
+ },
+ {
+  "seg": 112,
+  "start": 723.233,
+  "end": 728.177,
+  "speaker": "Unknown",
+  "en": "So, there were classified nodes, for example, and they could make mistakes.",
+  "zh": "比如，有分类节点，它们可能犯错。"
+ },
+ {
+  "seg": 113,
+  "start": 728.857,
+  "end": 736.482,
+  "speaker": "Unknown",
+  "en": "And so, you could now have a significant amount of areas where the system could fail.",
+  "zh": "于是，你现在可能有大量系统可能失败的地方。"
+ },
+ {
+  "seg": 114,
+  "start": 737.022,
+  "end": 743.807,
+  "speaker": "Unknown",
+  "en": "And so, your evals now have to not only look at the overall",
+  "zh": "所以，你的 evals 现在不仅要看整体的"
+ },
+ {
+  "seg": 115,
+  "start": 744.387,
+  "end": 748.849,
+  "speaker": "Unknown",
+  "en": "orchestration, but you have to have node level evals.",
+  "zh": "编排，你还必须有节点级别的 evals。"
+ },
+ {
+  "seg": 116,
+  "start": 748.949,
+  "end": 760.933,
+  "speaker": "Unknown",
+  "en": "You have to make sure that you have evals for testing your branching logic or how you do retry loops.",
+  "zh": "你必须确保你有用于测试分支逻辑或重试循环如何执行的 evals。"
+ },
+ {
+  "seg": 117,
+  "start": 761.193,
+  "end": 770.336,
+  "speaker": "Unknown",
+  "en": "There's a lot of complex behaviors of the system that now need to be evaluated in addition to all the other things that you were evaluating before.",
+  "zh": "系统有很多复杂的行为，现在需要被评估，除此之外还有你之前评估的所有其他东西。"
+ },
+ {
+  "seg": 118,
+  "start": 774.73,
+  "end": 781.436,
+  "speaker": "Unknown",
+  "en": "So the graphs are kind of popular like in late 24, early 25.",
+  "zh": "所以图这种东西在 24 年底、25 年初挺流行的。"
+ },
+ {
+  "seg": 119,
+  "start": 781.717,
+  "end": 787.863,
+  "speaker": "Unknown",
+  "en": "And so a lot of systems are now implemented using certain frameworks and they were now in production.",
+  "zh": "于是很多系统用某些框架实现，并且已经投入生产。"
+ },
+ {
+  "seg": 120,
+  "start": 789.064,
+  "end": 795.269,
+  "speaker": "Unknown",
+  "en": "But then Anthropic and OpenAI launched some amazing new model capabilities mid-late 25.",
+  "zh": "但随后 Anthropic 和 OpenAI 在 25 年中后期推出了一些惊人的新模型能力。"
+ },
+ {
+  "seg": 121,
+  "start": 795.31,
+  "end": 795.87,
+  "speaker": "Unknown",
+  "en": "And what that",
+  "zh": "而那"
+ },
+ {
+  "seg": 122,
+  "start": 798.172,
+  "end": 801.758,
+  "speaker": "Unknown",
+  "en": "was like tool calling became extremely reliable.",
+  "zh": "就是工具调用变得极其可靠。"
+ },
+ {
+  "seg": 123,
+  "start": 802.318,
+  "end": 806.364,
+  "speaker": "Unknown",
+  "en": "We started seeing much better orchestration control.",
+  "zh": "我们开始看到好得多的编排控制。"
+ },
+ {
+  "seg": 124,
+  "start": 807.286,
+  "end": 809.889,
+  "speaker": "Unknown",
+  "en": "The models were able to plan a lot more",
+  "zh": "模型能够更有效地"
+ },
+ {
+  "seg": 125,
+  "start": 810.711,
+  "end": 812.213,
+  "speaker": "Unknown",
+  "en": "effectively, accurately.",
+  "zh": "更准确地规划。"
+ },
+ {
+  "seg": 126,
+  "start": 812.253,
+  "end": 814.515,
+  "speaker": "Unknown",
+  "en": "They were able to manage long horizon tasks.",
+  "zh": "它们能够管理长时程任务。"
+ },
+ {
+  "seg": 127,
+  "start": 814.995,
+  "end": 819.64,
+  "speaker": "Unknown",
+  "en": "They were able to do a much better job of introspecting and course correcting.",
+  "zh": "它们能够在自我审视和纠偏方面做得好得多。"
+ },
+ {
+  "seg": 128,
+  "start": 819.7,
+  "end": 827.848,
+  "speaker": "Unknown",
+  "en": "And so, as things went a little off track, the models were able to understand that and bring the execution back on track.",
+  "zh": "所以，当事情稍微偏离轨道时，模型能够理解这一点，并把执行拉回正轨。"
+ },
+ {
+  "seg": 129,
+  "start": 828.489,
+  "end": 831.252,
+  "speaker": "Unknown",
+  "en": "And so, what that meant was a lot of these",
+  "zh": "于是，这意味着很多这样的"
+ },
+ {
+  "seg": 130,
+  "start": 833.994,
+  "end": 839.48,
+  "speaker": "Unknown",
+  "en": "Graph-based systems were not able to take advantage of these new capabilities.",
+  "zh": "基于图的系统无法利用这些新能力。"
+ },
+ {
+  "seg": 131,
+  "start": 839.5,
+  "end": 846.086,
+  "speaker": "Unknown",
+  "en": "They were still running into some of those like brittleness issues that the new model state-of-art had unlocked.",
+  "zh": "它们仍然遇到一些那些脆弱性问题，而新的模型最先进水平已经解锁了（对这些问题的解决）。"
+ },
+ {
+  "seg": 132,
+  "start": 846.907,
+  "end": 853.032,
+  "speaker": "Unknown",
+  "en": "And so we started looking at building out the React loop again.",
+  "zh": "于是我们开始重新审视构建 React 循环。"
+ },
+ {
+  "seg": 133,
+  "start": 853.072,
+  "end": 854.514,
+  "speaker": "Unknown",
+  "en": "That started working.",
+  "zh": "这开始奏效了。"
+ },
+ {
+  "seg": 134,
+  "start": 854.574,
+  "end": 855.835,
+  "speaker": "Unknown",
+  "en": "And so now you had this new",
+  "zh": "于是现在你有了这种新的"
+ },
+ {
+  "seg": 135,
+  "start": 857.056,
+  "end": 862.405,
+  "speaker": "Unknown",
+  "en": "AI systems that could effectively, reliably work in a loop.",
+  "zh": "能够有效、可靠地在循环中工作的 AI 系统。"
+ },
+ {
+  "seg": 136,
+  "start": 862.805,
+  "end": 872.04,
+  "speaker": "Unknown",
+  "en": "They could make those tool calls, they could figure out the next step, and then they could essentially go in and fulfill the user intent.",
+  "zh": "它们可以进行那些工具调用，可以弄清楚下一步，然后基本上就能进去完成用户意图。"
+ },
+ {
+  "seg": 137,
+  "start": 872.88,
+  "end": 876.304,
+  "speaker": "Unknown",
+  "en": "But the way they worked was very, it had a high degree of variance.",
+  "zh": "但它们的工作方式有很高的方差。"
+ },
+ {
+  "seg": 138,
+  "start": 876.324,
+  "end": 884.574,
+  "speaker": "Unknown",
+  "en": "So every trajectory for the same input, if you ran it a couple of times, you would see dramatically different trajectories while yielding the right answer.",
+  "zh": "所以对于同一个输入的每条轨迹，如果你运行几次，你会看到截然不同的轨迹，但同时都给出正确的答案。"
+ },
+ {
+  "seg": 139,
+  "start": 885.095,
+  "end": 887.417,
+  "speaker": "Unknown",
+  "en": "And so now there's a lot of variance that you have to deal with.",
+  "zh": "所以现在有大量你必须处理的方差。"
+ },
+ {
+  "seg": 140,
+  "start": 887.938,
+  "end": 894.623,
+  "speaker": "Unknown",
+  "en": "So now instead of just focusing on a specific eval, the unit of eval was no longer just one eval.",
+  "zh": "所以现在不再只是关注单个 eval，eval 的单位不再只是一个 eval。"
+ },
+ {
+  "seg": 141,
+  "start": 895.043,
+  "end": 899.546,
+  "speaker": "Unknown",
+  "en": "Now you're looking at doing an analysis of the distribution of the evals.",
+  "zh": "现在你要看的是对 eval 分布的分析。"
+ },
+ {
+  "seg": 142,
+  "start": 899.886,
+  "end": 908.813,
+  "speaker": "Unknown",
+  "en": "You're taking the same eval, you're running it multiple times, you're running it k times, and you're ensuring that you get a statistically relevant signal from that eval.",
+  "zh": "你拿同一个 eval，运行多次，运行 k 次，并确保你从那个 eval 中获得统计上有效的信号。"
+ },
+ {
+  "seg": 143,
+  "start": 909.293,
+  "end": 912.815,
+  "speaker": "Unknown",
+  "en": "So now new metrics like pass at k and pass",
+  "zh": "所以现在有了像 pass at k 和 pass"
+ },
+ {
+  "seg": 144,
+  "start": 913.756,
+  "end": 920.721,
+  "speaker": "Unknown",
+  "en": "Raise to K or pass wedge K. These are the new metrics that certainly started to make a lot of sense.",
+  "zh": "Raise to K 或 pass wedge K 这样的新指标。这些新指标确实开始变得很有意义。"
+ },
+ {
+  "seg": 145,
+  "start": 921.041,
+  "end": 927.645,
+  "speaker": "Unknown",
+  "en": "Pass at K is like if you take the same that eval and you run it K times, does it succeed at least once?",
+  "zh": "Pass at K 就是，如果你拿同一个 eval 运行 K 次，它是否至少成功一次？"
+ },
+ {
+  "seg": 146,
+  "start": 928.246,
+  "end": 930.547,
+  "speaker": "Unknown",
+  "en": "And that is a measure of its capability.",
+  "zh": "那是对其能力的一种度量。"
+ },
+ {
+  "seg": 147,
+  "start": 931.228,
+  "end": 938.773,
+  "speaker": "Unknown",
+  "en": "And pass wedge K is like if you run that eval multiple times, how many times of those K instances does it run successfully?",
+  "zh": "而 pass wedge K 就是，如果你多次运行那个 eval，K 次实例中有多少次运行成功？"
+ },
+ {
+  "seg": 148,
+  "start": 938.813,
+  "end": 941.194,
+  "speaker": "Unknown",
+  "en": "That's a measure of its reliability.",
+  "zh": "那是对其可靠性的一种度量。"
+ },
+ {
+  "seg": 149,
+  "start": 941.254,
+  "end": 941.635,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "于是，"
+ },
+ {
+  "seg": 150,
+  "start": 942.255,
+  "end": 955.561,
+  "speaker": "Unknown",
+  "en": "Now, you can understand whether your system with a high pass at K is reliable by measuring the pass wedge K metric, for example.",
+  "zh": "现在，举例来说，你可以通过测量 pass wedge K 这个指标来理解你的高 pass at K 系统是否可靠。"
+ },
+ {
+  "seg": 151,
+  "start": 955.641,
+  "end": 965.086,
+  "speaker": "Unknown",
+  "en": "So, this gives you a lot more understanding of how your system is working, what the failure sources are, and how you work on those.",
+  "zh": "所以，这让你对自己的系统如何运作、失败来源是什么、以及如何处理这些失败有了更多的理解。"
+ },
+ {
+  "seg": 152,
+  "start": 966.32,
+  "end": 966.52,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 153,
+  "start": 967.361,
+  "end": 975.945,
+  "speaker": "Unknown",
+  "en": "And then, more recently, what we've seen is there's a big shift from your system is not just a model running in a loop, right?",
+  "zh": "然后，最近我们看到的是，有一个很大的转变，即你的系统不再只是一个在循环中运行的模型，对吧？"
+ },
+ {
+  "seg": 154,
+  "start": 975.965,
+  "end": 977.325,
+  "speaker": "Unknown",
+  "en": "It becomes a product system.",
+  "zh": "它变成了一个产品化的系统。"
+ },
+ {
+  "seg": 155,
+  "start": 977.685,
+  "end": 983.128,
+  "speaker": "Unknown",
+  "en": "It's that there's a model in the loop that's augmented by a lot of peripheral components.",
+  "zh": "也就是循环中有一个模型，并由大量外围组件来增强。"
+ },
+ {
+  "seg": 156,
+  "start": 983.928,
+  "end": 994.554,
+  "speaker": "Unknown",
+  "en": "You have a memory system that is able to provide robust memory storage and memory retrieval capabilities within a session, cross sessions.",
+  "zh": "你有一个记忆系统，能够在会话内、跨会话提供稳健的记忆存储和记忆检索能力。"
+ },
+ {
+  "seg": 157,
+  "start": 994.594,
+  "end": 1002.819,
+  "speaker": "Unknown",
+  "en": "Models can tap into this memory to improve upon their runs in subsequent instances by learning from previous runs, for example.",
+  "zh": "模型可以接入这个记忆，例如通过从之前的运行中学习，来改进它们在后续实例中的运行。"
+ },
+ {
+  "seg": 158,
+  "start": 1003.299,
+  "end": 1006.881,
+  "speaker": "Unknown",
+  "en": "You've got robust code execution sandboxes now.",
+  "zh": "你现在有了稳健的代码执行沙箱。"
+ },
+ {
+  "seg": 159,
+  "start": 1007.341,
+  "end": 1011.824,
+  "speaker": "Unknown",
+  "en": "So, you can run model-generated code reliably, robustly,",
+  "zh": "所以，你可以可靠、稳健地运行模型生成的代码，"
+ },
+ {
+  "seg": 160,
+  "start": 1014.266,
+  "end": 1024.875,
+  "speaker": "Unknown",
+  "en": "During execution, you've got MCP and skill directories that the model can now tap into and you can weave in extensibility.",
+  "zh": "在执行期间，你有 MCP 和技能目录，模型现在可以接入它们，你可以把可扩展性编织进来。"
+ },
+ {
+  "seg": 161,
+  "start": 1024.915,
+  "end": 1036.585,
+  "speaker": "Unknown",
+  "en": "You now have things like a skills repository or a skill systems that can be used to continually augment the capabilities of models through symbolic instructions.",
+  "zh": "你现在有了诸如技能仓库或技能系统之类的东西，可以通过符号化指令持续增强模型的能力。"
+ },
+ {
+  "seg": 162,
+  "start": 1037.305,
+  "end": 1056.133,
+  "speaker": "Unknown",
+  "en": "And so now, these systems are getting pretty complex and as a result, if you are continuing to use the evals from the previous generation, you're going to get sort of a partial coverage of your system.",
+  "zh": "所以现在，这些系统变得相当复杂，因此，如果你继续使用上一代的 evals，你对系统的覆盖将只是部分的。"
+ },
+ {
+  "seg": 163,
+  "start": 1056.153,
+  "end": 1061.355,
+  "speaker": "Unknown",
+  "en": "You're not going to see how your system is fragile in ways",
+  "zh": "你不会看到你的系统在哪些方面是脆弱的，"
+ },
+ {
+  "seg": 164,
+  "start": 1063.107,
+  "end": 1068.471,
+  "speaker": "Unknown",
+  "en": "because of the new surface that you have unlocked in your new system.",
+  "zh": "因为你在新系统中解锁了新的表面。"
+ },
+ {
+  "seg": 165,
+  "start": 1069.832,
+  "end": 1092.408,
+  "speaker": "Unknown",
+  "en": "So, what that means is, just reflecting back on the pattern is like all of these model innovations resulted in corresponding shift in the architectures and so you've seen these waves of architecture and then what's needed is like your evals to be congruent with that architecture.",
+  "zh": "所以，这意味着，回顾一下这个模式，就是所有这些模型创新都导致了架构上相应的转变，所以你看到了这些一波又一波的架构，而所需要的就是让你的 evals 与该架构相一致。"
+ },
+ {
+  "seg": 166,
+  "start": 1093.166,
+  "end": 1093.366,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 167,
+  "start": 1094.686,
+  "end": 1100.448,
+  "speaker": "Unknown",
+  "en": "Because ultimately, it's the evals that are sort of your durable asset that describe how your system is supposed to work.",
+  "zh": "因为归根结底，evals 才是那种描述你的系统应该如何运作的持久资产。"
+ },
+ {
+  "seg": 168,
+  "start": 1101.228,
+  "end": 1114.012,
+  "speaker": "Unknown",
+  "en": "And as you go through these generational shifts, that's a good way to ensure that your system, your users experience your system in a way that things that were working are not broken, but it's unlocked a bunch of new capability.",
+  "zh": "而当你经历这些代际转变时，这是一种很好的方式来确保你的系统、你的用户以这样的方式体验你的系统：原本正常工作的东西没有被破坏，同时又解锁了一批新能力。"
+ },
+ {
+  "seg": 169,
+  "start": 1115.92,
+  "end": 1119.682,
+  "speaker": "Unknown",
+  "en": "And so everyone's seen this, you know, diagram of this flywheel.",
+  "zh": "大家都见过这个飞轮的图，对吧。"
+ },
+ {
+  "seg": 170,
+  "start": 1119.742,
+  "end": 1122.723,
+  "speaker": "Unknown",
+  "en": "Everyone's sort of like bought into it conceptually, right?",
+  "zh": "大家在概念上多少都接受了它，对吧？"
+ },
+ {
+  "seg": 171,
+  "start": 1122.783,
+  "end": 1129.646,
+  "speaker": "Unknown",
+  "en": "The idea of harvesting data from production to inform your evals so that your evals are reflective of the real world.",
+  "zh": "这个想法就是从生产环境采集数据来反哺你的 evals，让你的 evals 反映真实世界。"
+ },
+ {
+  "seg": 172,
+  "start": 1130.226,
+  "end": 1132.247,
+  "speaker": "Unknown",
+  "en": "I think that all makes sense, right?",
+  "zh": "我认为这些都说得通，对吧？"
+ },
+ {
+  "seg": 173,
+  "start": 1132.387,
+  "end": 1142.312,
+  "speaker": "Unknown",
+  "en": "And this is the way that, you know, teams that are doing a great job at building and shipping and improving their AI systems, they follow this workflow pretty religiously.",
+  "zh": "这就是那些在构建、发布和改进 AI 系统方面做得非常出色的团队所遵循的工作流，他们相当虔诚地遵循这个流程。"
+ },
+ {
+  "seg": 174,
+  "start": 1144.363,
+  "end": 1152.87,
+  "speaker": "Unknown",
+  "en": "So I've talked to a lot of teams, and I think while there is a general acceptance that, yeah, you need to run that workflow, in practice, a lot of teams don't do that.",
+  "zh": "所以我和很多团队聊过，我认为虽然大家普遍接受“是的，你需要运行那个工作流”，但在实践中，很多团队并不这么做。"
+ },
+ {
+  "seg": 175,
+  "start": 1152.93,
+  "end": 1154.571,
+  "speaker": "Unknown",
+  "en": "Their evals are somewhat static.",
+  "zh": "他们的 evals 有点静态。"
+ },
+ {
+  "seg": 176,
+  "start": 1155.332,
+  "end": 1164.279,
+  "speaker": "Unknown",
+  "en": "And even if you're not changing your AI agent architecture, by not really being disciplined about running that workflow,",
+  "zh": "而且，即使你没有在改变你的 AI 智能体架构，由于没有真正严格地运行那个工作流、"
+ },
+ {
+  "seg": 177,
+  "start": 1165.32,
+  "end": 1174.423,
+  "speaker": "Unknown",
+  "en": "Flywheel, you are now getting stagnant evals that are not being as effective in helping you measure and improve the quality of your AI.",
+  "zh": "那个飞轮，你现在得到的是停滞的 evals，它们在帮助你测量和改进 AI 质量方面不再那么有效。"
+ },
+ {
+  "seg": 178,
+  "start": 1174.923,
+  "end": 1186.127,
+  "speaker": "Unknown",
+  "en": "And especially as you go through this generational shift, it's really important that you need a mechanism to not only harvest data from production in a way that shows you failures that",
+  "zh": "尤其是当你经历这种代际转变时，非常重要的一点是，你需要一种机制，不仅要能从生产环境采集数据，从中发现"
+ },
+ {
+  "seg": 179,
+  "start": 1187.855,
+  "end": 1198.981,
+  "speaker": "Unknown",
+  "en": "You are looking out for because you have defined what good looks like as part of your evals, but you also want something to shine a light on the new failure types, right?",
+  "zh": "你正在关注的那些失败，因为你已经在 evals 中定义了什么算“好”，而且你还需要某种东西来照亮那些新的失败类型，对吧？"
+ },
+ {
+  "seg": 180,
+  "start": 1199.021,
+  "end": 1211.667,
+  "speaker": "Unknown",
+  "en": "The system is going to fail in new and novel ways, in ways that you might not have anticipated, and you now need to start harvesting that data in a meaningful way, and you want to do this again as part of the flywheel.",
+  "zh": "系统会以新的、新颖的方式失败，以你可能没有预料到的方式失败，而你现在需要开始以有意义的方式采集那些数据，而且你想再次把这作为飞轮的一部分来做。"
+ },
+ {
+  "seg": 181,
+  "start": 1212.427,
+  "end": 1215.549,
+  "speaker": "Unknown",
+  "en": "And so this is where you need systems to come in and",
+  "zh": "所以这就是你需要系统介入的地方，"
+ },
+ {
+  "seg": 182,
+  "start": 1217.61,
+  "end": 1228.09,
+  "speaker": "Unknown",
+  "en": "Shine a light on things that are broken in ways that you had anticipated but also broken in a way in ways that you had not anticipated and this is really important.",
+  "zh": "去照亮那些以你预料到的方式坏掉的东西，同时也照亮那些以你未预料到的方式坏掉的东西，这一点非常重要。"
+ },
+ {
+  "seg": 183,
+  "start": 1229.313,
+  "end": 1233.256,
+  "speaker": "Unknown",
+  "en": "So, I'm going to quickly talk a little bit about how we do this in Braintrust.",
+  "zh": "所以，我要快速讲一点我们在 Braintrust 是怎么做的。"
+ },
+ {
+  "seg": 184,
+  "start": 1233.396,
+  "end": 1237.458,
+  "speaker": "Unknown",
+  "en": "So, Braintrust provides all the components that you need to run this flywheel.",
+  "zh": "Braintrust 提供了运行这个飞轮所需的全部组件。"
+ },
+ {
+  "seg": 185,
+  "start": 1237.618,
+  "end": 1255.09,
+  "speaker": "Unknown",
+  "en": "We've got evals, we've got observability, we have ways in which you can get insights from your production data to harvest new eval cases that you can then pass off to the team that they can then use to help climb and improve your AI system.",
+  "zh": "我们有 evals，我们有可观测性，我们有一些方法让你从生产数据中获得洞见，以采集新的 eval 用例，然后你可以把这些交给团队，他们可以用它们来帮助提升和改进你的 AI 系统。"
+ },
+ {
+  "seg": 186,
+  "start": 1256.188,
+  "end": 1258.269,
+  "speaker": "Unknown",
+  "en": "But Topics is a really cool feature.",
+  "zh": "但 Topics 是一个非常酷的功能。"
+ },
+ {
+  "seg": 187,
+  "start": 1258.349,
+  "end": 1263.71,
+  "speaker": "Unknown",
+  "en": "What Topics does, it does a cluster analysis on all of your production data.",
+  "zh": "Topics 做的事情是，对你的所有生产数据做聚类分析。"
+ },
+ {
+  "seg": 188,
+  "start": 1264.47,
+  "end": 1272.793,
+  "speaker": "Unknown",
+  "en": "And so the idea over here is now you're able to find new categories of failure that you had not anticipated.",
+  "zh": "这里的想法是，现在你能够发现你没有预料到的新的失败类别。"
+ },
+ {
+  "seg": 189,
+  "start": 1273.033,
+  "end": 1281.035,
+  "speaker": "Unknown",
+  "en": "So your system is now able to look at all what's going on in production, and it's able to now start surfacing these new failure modes that tell you",
+  "zh": "所以你的系统现在能够查看生产中正在发生的一切，并且它现在能够开始浮现出这些新的失败模式，告诉你"
+ },
+ {
+  "seg": 190,
+  "start": 1281.755,
+  "end": 1302.388,
+  "speaker": "Unknown",
+  "en": "Here's a new failure situation that you hadn't thought about, and you didn't have any guardrails in place, or you didn't have any evals in place, and so now it's really easy for teams to expand the set of their evals to now cover those kind of new failures.",
+  "zh": "这里有一个你没想过的新失败情况，你没有设置任何护栏，或者你没有设置任何 evals，所以现在团队很容易扩展他们 evals 的集合，以覆盖这类新的失败。"
+ },
+ {
+  "seg": 191,
+  "start": 1302.788,
+  "end": 1309.293,
+  "speaker": "Unknown",
+  "en": "And so this is a pretty exciting capability in brain trust that enables these teams",
+  "zh": "所以这是 brain trust 中一个相当令人兴奋的能力，它使这些团队"
+ },
+ {
+  "seg": 192,
+  "start": 1310.033,
+  "end": 1328.217,
+  "speaker": "Unknown",
+  "en": "to continually not only get new failure examples for known failure modes, but more importantly, as they make these systemic architectural changes, they're able to also understand the new ways in which your system is going to fail and build out effective datasets from production data.",
+  "zh": "不仅能够持续获得已知失败模式的新失败示例，更重要的是，随着他们做出这些系统性的架构变更，他们还能够理解你的系统将以哪些新方式失败，并从生产数据构建出有效的数据集。"
+ },
+ {
+  "seg": 193,
+  "start": 1331.338,
+  "end": 1334.919,
+  "speaker": "Unknown",
+  "en": "So I think the takeaway for today's talk is that",
+  "zh": "所以我认为今天演讲的要点是，"
+ },
+ {
+  "seg": 194,
+  "start": 1336.473,
+  "end": 1338.934,
+  "speaker": "Unknown",
+  "en": "The models will keep on changing.",
+  "zh": "模型会持续变化。"
+ },
+ {
+  "seg": 195,
+  "start": 1339.715,
+  "end": 1341.496,
+  "speaker": "Unknown",
+  "en": "I don't think we are going to see any slowdown.",
+  "zh": "我不认为我们会看到任何放缓。"
+ },
+ {
+  "seg": 196,
+  "start": 1341.536,
+  "end": 1342.976,
+  "speaker": "Unknown",
+  "en": "I don't think we have hit a plateau yet.",
+  "zh": "我不认为我们已经触及了平台期。"
+ },
+ {
+  "seg": 197,
+  "start": 1343.036,
+  "end": 1347.159,
+  "speaker": "Unknown",
+  "en": "I think there are lots of unlocks that are coming down this road.",
+  "zh": "我认为在这条路上还有很多解锁正在到来。"
+ },
+ {
+  "seg": 198,
+  "start": 1348.379,
+  "end": 1352.782,
+  "speaker": "Unknown",
+  "en": "And as a result, you will be making significant",
+  "zh": "因此，你将会对你的 AI 系统做出重大的"
+ },
+ {
+  "seg": 199,
+  "start": 1353.742,
+  "end": 1355.724,
+  "speaker": "Unknown",
+  "en": "changes to your AI systems.",
+  "zh": "变更。"
+ },
+ {
+  "seg": 200,
+  "start": 1356.224,
+  "end": 1361.748,
+  "speaker": "Unknown",
+  "en": "You'll be doing a lot of surgery on your AI agents in the coming months, years.",
+  "zh": "在接下来的几个月、几年里，你将会对你的 AI 智能体做大量的“手术”。"
+ },
+ {
+  "seg": 201,
+  "start": 1362.789,
+  "end": 1377.339,
+  "speaker": "Unknown",
+  "en": "And so it's really important that you have a robust workflow system in place to ensure that as you make those changes, as you incorporate these new models into your systems, that your systems continue to",
+  "zh": "所以非常重要的一点是，你要有一套健壮的工作流体系，确保当你做出这些改动、当你把这些新模型整合进你的系统时，你的系统能继续"
+ },
+ {
+  "seg": 202,
+  "start": 1378.38,
+  "end": 1385.666,
+  "speaker": "Unknown",
+  "en": "get better at doing new things, but also continue to work well for the things that they were doing before.",
+  "zh": "在做新事情上变得更好，同时也能继续把以前做的事情做好。"
+ },
+ {
+  "seg": 203,
+  "start": 1386.327,
+  "end": 1398.417,
+  "speaker": "Unknown",
+  "en": "And so building out like a robust evals discipline with the right tools and the right automation and the right systems becomes paramount to manage these generational changes.",
+  "zh": "因此，用正确的工具、正确的自动化和正确的系统来建立一套健壮的 evals 纪律，对于管理这些代际变化来说变得至关重要。"
+ },
+ {
+  "seg": 204,
+  "start": 1399.49,
+  "end": 1426.548,
+  "speaker": "Unknown",
+  "en": "And so ultimately what you want is to really index on that flywheel and make it part of your workflow so that the ability to improve incrementally when the changes in the system are incremental and the ability to improve your system in sort of a step function way are both supported by your",
+  "zh": "所以归根结底，你真正想要的是把重心放在那个飞轮上，并让它成为你工作流的一部分，这样当系统中的变化是渐进式的时候你就能渐进式地改进，而同时以一种阶跃函数式的方式改进你的系统的能力，这两者都能得到你的"
+ },
+ {
+  "seg": 205,
+  "start": 1428.674,
+  "end": 1432.325,
+  "speaker": "Unknown",
+  "en": "So, with that, I want to say thank you.",
+  "zh": "那么，说到这里，我想说声谢谢。"
+ }
+]

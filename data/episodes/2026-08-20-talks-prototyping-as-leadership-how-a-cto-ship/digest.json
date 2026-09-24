@@ -1,0 +1,172 @@
+{
+  "title_zh": "管理者日程突然能写代码了：CTO 的通宵智能体工作流",
+  "tldr": "The Browser Company 联合创始人、CTO Hirsh 讲述如何在每周 15+ 个会议的日程里，靠 AI 智能体持续交付代码。",
+  "digest_md": "每周 15 个以上固定会议、7 个直属下属、家里还有个刚学步的孩子——这样的日程，过去几个月却能持续每周交付 2 到 10 个代码提交。说这话的人是 Hirsh Agarwal,The Browser Company(Arc 和 Dia 浏览器的开发公司)的 CTO 和联合创始人。他在一场 AI 工程大会上分享的核心主张是：随着编程智能体变得足够自主，Paul Graham 所说的「管理者日程」突然变得可以用作构建时间——**动手构建现在成了领导者工作的一部分**。\n\n## 为什么领导者必须自己动手构建\n\n第一层原因来自技术本身：现在产品的核心技术是每三个月就迭代一次的前沿模型，每个新模型的能力边界、对提示词的反应方式都在变。Twitter 上和公司内部关于「新模型什么好什么坏」的意见满天飞，而 Hirsh 的经验是：**除非你亲手投入其中、整天使用，否则根本无法判断一个新模型适合做什么**。这些直觉决定了你如何指导工程师、如何调整产品和战略、三到六个月后开源模型追上来时怎么办。\n\n第二层是沟通效率：就算你建立了直觉，也很难传达给没把玩过模型的工程师——你说「这个东西现在可能了」，对方只会敷衍「行吧」。而拿出一个能跑的原型让他们亲手把玩，比每三个月说服一次要快得多。\n\n而且领导者恰恰是最适合做这件事的人：你掌握着全组织最多的关于业务、战略、取舍的上下文，所以「你给模型写提示词时，领导者的引导作用按每个 token 计算比 IC 更有影响力」。委派技能也能直接迁移——设定目标、给背景、跟进检查、甚至辅导智能体(「你要不要试试这个？」)。当下的模型执行很强但判断力不行，经常回来说「这个算法想法不可行」，需要你补一句「你试过那个方法吗」，模型立刻就通了。\n\n## 领导者该构建什么：四类 + 一条红线\n\nJulie Zhou 一个月前调查了一批湾区技术领导者，总结出四类适合领导者的构建：①内部工具和效率改善(给代码库做园艺)；②表彰团队的小作品；③最重要的——愿景类，亲自把玩新模型家族、 visceral 地理解什么是可能的，再做成原型展示给工程师，突破产品和业务的边界。\n\nHirsh 补了一条红线：**不要接任何关键路径的工作**。你会被拽去救火、招人电话和会议，最不该让关键工作依赖你。\n\n## 每天两三小时怎么安排\n\n他的节奏是三块：**早间约一小时编码时段**，评审昨晚智能体的产出；白天在会议之间穿插几个 15-30 分钟的**引导时段**；最重要的是**下午 5 点的时段**——设置好当晚要跑的通宵任务。\n\n通宵循环长这样：5 点收集上下文 → 设置任务、回答澄清问题 → Claude Code(或你用的编码智能体)夜里连续干四到八小时 → 早上收到一份报告，你决定怎么处置，然后发布。\n\n## 怎么给智能体足够的上下文\n\n对他帮助最大的思维转变：不再想「我如何拆分这个功能、教它做各个小任务」，而是想「**这个前沿模型需要什么样的全部上下文，才能像我一样做决策**」——因为夜里干六八小时时你不在场。\n\n一个实用技巧：下午三四点，对着连接了 Slack、Jira、Notion 和代码仓库的协作智能体(他推荐自家的 Dia,还自嘲「完全没有偏向」)说一句「我真的很想构建这个，花 20 分钟翻遍 Slack 和 Notion,给我生成一个可以粘贴进 Claude Code 的提示词」——30 秒语音输入，换回一个包含全部权衡、历史尝试、业务背景的巨型提示词，直接粘进编码智能体。\n\n然后是验证设计：**先写测试**(事后写的测试会有点马虎)；让它用 computer use(让模型自己操作屏幕点击验证)测试端到端流程是否真的解决业务问题；要求拆成对审查者友好的 PR、管好 CI 并保持绿色。还要让它在一个干净的子智能体里跑一遍 AI 代码审查 skill,修掉问题;盯着 PR,自主解决每条机器评论和 CI 检查，「不要问我问题」。他还会加一句鼓励：「你会做得很棒的，我相信你」——不知道有没有用，但他习惯这么做。\n\n他的结论：「新模型能在一次过夜运行中处理过去需要几周的工作量，早上你会得到一份准备好的漂亮礼物」。\n\n## 三个实例：功能、评估爬坡、训练模型\n\n**实例一：构建功能**，就是上面的流程。\n\n**实例二：优化 AI 功能。** 原型上加个反馈按钮和小文本框，白天抽空收集反馈，让它把每次运行的 system prompt、输入和你的反馈存成 JSON 转储——哪怕只收集 4、5、10 份都行，拉上同事能到 20、30 份。然后 5 点下指令：把这些变成评估集(本地 SQLite 或 Markdown 就行)，交互式地对齐评分设计，再构建一个 harness 反复爬坡(hill climbing,即自动迭代提示词直到评分上涨)直到分数上升。数据这么少肯定担心过拟合——「但你只要告诉它不要过拟合，它实际上做得相当不错」。再让它把这个流程存成可复用的 skill。他们内部的代码审查器就是这样靠隔夜运行把质量爬上去的，推到员工试用和生产环境后确实提升了质量。\n\n**实例三：隔夜训练自定义 ML 模型。** 他们要做一个 PII(个人身份信息)分类器，试了 Opus 和 Haiku,成本高、延迟差、精确率召回率上不去。于是某个晚上，Hirsh 给出一堆业务背景和训练数据，让 Claude 清洗数据、用合成数据补充、给一堆密钥用多模型组合推质量；因为「我完全不知道什么 ML 模型合适，所以你来决定」——而且「别只训练一个，训练两个」。关键安全设置：只给 AWS 的预置沙箱权限，「不要给生产环境权限，那样你会把生产环境搞挂的」；挑 GPU、开 EC2 集群、训练、对照评估样例测试、销毁资源，甚至连模型就绪后如何接入代码库做推理都一并写好。早上醒来：两个训练好的模型、一份完整报告，其中不少已经推到生产环境。\n\n## 最大的收获与前提条件\n\n做这些事最大的收获是**突破任务范围的边界**：他引用 Notion 创始人 Simon Last 的推文——「这些现代模型能做的事情远远超出我们的想象」。领导者的职责就是理解模型能力的轮廓，不断尝试给智能体更大的范围，看看几周、几个月的工作能不能隔夜完成。\n\n但要泼一盆冷水：这一切能行，很大程度上靠**已有的组织脚手架**——AI 代码审查器、干净的 Claude.md 和 agents.md、可信任的 CI、精细的功能开关，以及一个推给员工但不进生产的原型分支，层层隔离保证你做原型时不会搞挂生产环境。\n\n代码卫生也真的重要，他坦承自己「已经被打脸很多次」，代码惹恼过工程师、造成过线上事故。几条实战建议：PR 提交前自己测试一切(computer use 再好也替代不了你自己点一遍)；提交小而可读的 PR——因为你在向团队示范什么是好的标准，你挂三个 5000 行的 PR,别人也会开始这么干；最后，**别把还没读过的代码交给其他审查者**——代码里一定有某个明显糟糕的东西，某个资深工程师会打电话问你「你为什么不读一下？」他强调这是亲身经历。\n\n## 本集带走\n\n- **管理者日程可以当构建时间用**：每天早间 1 小时评审 + 白天零星引导 + 下午 5 点设置通宵任务，2-3 小时就能持续交付。\n- **给上下文，不是给任务拆解**：核心问题是「模型需要什么上下文才能像我一样决策」；用协作智能体花 20 分钟翻 Slack/Notion 自动生成巨型提示词，30 秒语音就能触发。\n- **验证前置**：先写测试、用 computer use 跑端到端流程、要求拆成小 PR 并保持 CI 绿色、让干净的子智能体跑 AI 代码审查。\n- **三个可复制的通宵任务**：构建整功能；收集十几份反馈 JSON 让它自建评估集并爬坡优化提示词；给沙箱权限让它隔夜清洗数据、选型并训练自定义 ML 模型——记得「训练两个」。\n- **绝不接关键路径的工作**；构建目标是内部工具和愿景原型，原型分支只到员工端不进生产。\n- **卫生就是领导力**：小 PR、亲测每一行、审完再拉人——你在示范整个团队的「什么算好」。",
+  "quotes": [
+    {
+      "en": "And so the steering of a leader as you are prompting these models is per token more impactful than in ICs.",
+      "zh": "所以当你给这些模型写提示词时，领导者的引导作用按每个 token 计算比 IC 更有影响力。",
+      "timestamp": "03:54",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "But the models are really good at execution, but still not unbelievable at judgment.",
+      "zh": "这些模型在执行上真的很强，但在判断力上仍然不怎么样。",
+      "timestamp": "04:28",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "But rather what is all the context this frontier model needs to be able to make decisions like I would make.",
+      "zh": "而是要想：这个前沿模型需要什么样的全部上下文，才能像我一样做决策。",
+      "timestamp": "07:29",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "They can handle what used to be weeks of work in one overnight run, and you come back in the morning with this beautiful package ready for you.",
+      "zh": "它们能在一次过夜运行中处理过去需要几周的工作量，早上你回来时就会得到这个为你准备好的漂亮成品包。",
+      "timestamp": "10:37",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "I would not take any critical path work.",
+      "zh": "我不会接任何关键路径的工作。",
+      "timestamp": "05:37",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "I think that you're modeling to the rest of the team what good looks like.",
+      "zh": "我认为你是在向团队其他人示范什么是好的标准。",
+      "timestamp": "16:50",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "It's so tempting to put other reviewers on code you haven't read yet. Don't do it.",
+      "zh": "把你还没读过的代码交给其他审阅者去看，这个诱惑太大了。不要这么做。",
+      "timestamp": "17:07",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "And I found it is impossible to tell what a new model is good for unless you have your hands in it and you're using it all day long.",
+      "zh": "而我发现，除非你亲手投入其中、整天使用它，否则根本无法判断一个新模型适合做什么。",
+      "timestamp": "02:30",
+      "speaker": "Hursh Agrawal"
+    },
+    {
+      "en": "So I'd really push you overnight, try to think of how do I give it more and more scope so that we can do weeks of work, months of work overnight and see what these models are really capable of.",
+      "zh": "所以我真的敦促你们，在隔夜的时间里，试着思考我如何给它越来越多的范围，让我们能够把几周的工作、几个月的工作在隔夜之间完成，看看这些模型到底能做到什么。",
+      "timestamp": "15:23",
+      "speaker": "Hursh Agrawal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:46",
+      "speaker": "Hirsh Agarwal",
+      "en": "And so I think building is part of the job now.",
+      "zh": "所以我认为构建现在成了工作的一部分。"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Hirsh Agarwal",
+      "en": "And so the steering of a leader as you are prompting these models is per token more impactful than in ICs.",
+      "zh": "所以当你给这些模型写提示词时，领导者的引导作用按每个 token 计算比 IC 更有影响力。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Hirsh Agarwal",
+      "en": "But the models are really good at execution, but still not unbelievable at judgment.",
+      "zh": "这些模型在执行上真的很强，但在判断力上仍然不怎么样。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Hirsh Agarwal",
+      "en": "But rather what is all the context this frontier model needs to be able to make decisions like I would make.",
+      "zh": "而是要想：这个前沿模型需要什么样的全部上下文，才能像我一样做决策。"
+    },
+    {
+      "timestamp": "10:33",
+      "speaker": "Hirsh Agarwal",
+      "en": "They can handle what used to be weeks of work in one overnight run, and you come back in the morning with this beautiful package ready for you.",
+      "zh": "它们能在一次过夜运行中处理过去需要几周的工作量，早上你回来时就会得到这个为你准备好的漂亮成品包。"
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Hirsh Agarwal",
+      "en": "I would not take any critical path work.",
+      "zh": "我不会接任何关键路径的工作。"
+    },
+    {
+      "timestamp": "12:34",
+      "speaker": "Hirsh Agarwal",
+      "en": "These modern models, you can just tell it to not overfit. And it actually does a pretty good job.",
+      "zh": "这些现代模型，你只要告诉它不要过拟合，它实际上做得相当不错。"
+    },
+    {
+      "timestamp": "13:43",
+      "speaker": "Hirsh Agarwal",
+      "en": "A, clean up the training data, Claude. Just bolster it with synthetic data, whatever you need to.",
+      "zh": "第一，把这些训练数据清理干净，Claude。用合成数据去补充它，随便你怎么弄。"
+    },
+    {
+      "timestamp": "14:06",
+      "speaker": "Hirsh Agarwal",
+      "en": "So you decide. Just give me the best model class.",
+      "zh": "所以你来决定。直接给我最好的模型类别。"
+    },
+    {
+      "timestamp": "15:04",
+      "speaker": "Hirsh Agarwal",
+      "en": "And he called out, these modern models are just capable of so much more than we think.",
+      "zh": "他指出，这些现代模型能做的事情远远超出我们的想象。"
+    },
+    {
+      "timestamp": "15:36",
+      "speaker": "Hirsh Agarwal",
+      "en": "A lot of this works because of existing organizational scaffolding.",
+      "zh": "这一切之所以能行得通，很大程度上是因为已有的组织脚手架。"
+    },
+    {
+      "timestamp": "16:16",
+      "speaker": "Hirsh Agarwal",
+      "en": "I've been humbled a lot. You know, my code has annoyed engineers. It's caused SEVs.",
+      "zh": "我已经被打脸很多次了。你知道，我的代码惹恼过工程师们，它造成过线上事故。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Hirsh Agarwal",
+      "en": "I think that you're modeling to the rest of the team what good looks like.",
+      "zh": "我认为你是在向团队其他人示范什么是好的标准。"
+    },
+    {
+      "timestamp": "17:07",
+      "speaker": "Hirsh Agarwal",
+      "en": "It's so tempting to put other reviewers on code you haven't read yet. Don't do it.",
+      "zh": "把你还没读过的代码交给其他审阅者去看，这个诱惑太大了。不要这么做。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Hirsh Agarwal",
+      "en": "And I found it is impossible to tell what a new model is good for unless you have your hands in it and you're using it all day long.",
+      "zh": "而我发现，除非你亲手投入其中、整天使用它，否则根本无法判断一个新模型适合做什么。"
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Hirsh Agarwal",
+      "en": "And this is just so much faster and more efficient than trying to convince people every three months when a new model family comes out.",
+      "zh": "这比每三个月新模型家族发布时试图说服所有人要快得多、高效得多。"
+    },
+    {
+      "timestamp": "15:23",
+      "speaker": "Hirsh Agarwal",
+      "en": "So I'd really push you overnight, try to think of how do I give it more and more scope so that we can do weeks of work, months of work overnight and see what these models are really capable of.",
+      "zh": "所以我真的敦促你们，在隔夜的时间里，试着思考我如何给它越来越多的范围，让我们能够把几周的工作、几个月的工作在隔夜之间完成，看看这些模型到底能做到什么。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Hirsh Agarwal",
+      "en": "But I still think it's worth it because you learn so much, and you can model what taking on more and more scope, even with a busy calendar, looks like.",
+      "zh": "但我仍然认为这是值得的，因为你能学到很多，而且你可以示范在日程繁忙的情况下，如何承担越来越多的职责范围。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫Hirsh Agarwal,是The Browser Company的CTO和联合创始人,就是做Arc和Dia浏览器的那家公司。这家公司不算小,Hirsh手底下有七个直属下属,每周固定会议超过十五个,家里还有个刚学步的孩子。就这种日程,过去几个月,居然还能持续做到每周提交两到十个代码。\n\n你没听错,一个CTO,一个典型的\"管理者日程\"——会议排满、碎片时间、根本坐不下来写代码的人——却能持续交付代码。靠的是AI智能体,而且是让它通宵干活的工作流。今天这期,就是在一场AI工程大会上,Hirsh把这套方法完整摊开来讲了一遍。\n\n先说清楚,为什么一个领导者要自己动手构建?这件事背后有两层逻辑。\n\n第一层来自技术本身。现在做产品的核心技术,是每三个月就迭代一次的前沿模型。每个新模型的能力边界在哪、对提示词的反应什么样,都在变。Twitter上、公司内部,关于\"新模型什么好什么坏\"的意见满天飞。但Hirsh的经验是:除非你亲手投入其中、整天使用,否则根本没法判断一个新模型适合做什么。而这些直觉,决定了你怎么指导工程师、怎么调整产品和战略,以及三到六个月后开源模型追上来的时候,你怎么办。\n\n第二层是沟通效率。就算你自己建立了直觉,也很难传达给没把玩过模型的工程师。你说\"这个东西现在可能了\",对方只会敷衍一句\"行吧\"。但你拿出一个能跑的原型让对方亲手把玩,比每三个月说服一次要快得多。\n\n而且,领导者恰恰是最适合干这件事的人。你手里握着全组织最多的关于业务、战略、取舍的上下文。用Hirsh自己的话说:你给模型写提示词时,领导者的引导作用,按每个token计算,比一线工程师更有影响力。更妙的是,委派技能可以直接迁移——设定目标、给背景、跟进检查,甚至辅导智能体,比如补一句\"你要不要试试这个?\"。当下的模型,执行上真的很强,但判断力仍然不怎么样,经常回来说\"这个算法想法不可行\",需要你说一句\"你试过那个方法吗\",模型立刻就通了。\n\n那具体该构建什么呢?Julie Zhou一个月前调查了一批湾区技术领导者,总结出四类适合领导者的构建:内部工具和效率改善,给代码库做园艺;表彰团队的小作品;还有最重要的——愿景类,亲自把玩新模型家族,直觉地理解什么是可能的,再做成原型展示给工程师。但Hirsh补了一条红线:绝不接任何关键路径的工作。因为你会被拽去救火、接电话、开会,最不该让关键工作依赖你。\n\n好,现在到最实操的部分:每天两三小时到底怎么安排?Hirsh的节奏分三块。早间约一小时编码时段,评审昨晚智能体的产出;白天在会议之间穿插几个十五到三十分钟的引导时段;最重要的是下午五点的时段——设置好当晚要跑的通宵任务。\n\n通宵循环长这样:五点收集上下文、设置任务、回答澄清问题,然后Claude Code或者你用的编码智能体,夜里连续干四到八小时,早上你会收到一份报告,你决定怎么处置,然后发布。\n\n但要让智能体夜里独立干六八个小时,最大的难题是:你不在场。这里有个关键思维转变,也是对Hirsh帮助最大的一点:不要再想\"我如何拆分这个功能、教它做各个小任务\",而是要想——这个前沿模型需要什么样的全部上下文,才能像我一样做决策?\n\n一个很实用的技巧:下午三四点,对着一个连接了Slack、Jira、Notion和代码仓库的协作智能体说一句——\"我真的很想构建这个,花20分钟翻遍Slack和Notion,给我生成一个可以粘贴进Claude Code的提示词\"。三十秒的语音输入,换回一个包含全部权衡、历史尝试、业务背景的巨型提示词,直接粘进编码智能体就行。\n\n然后是验证设计,这一步不能省。先写测试,因为事后写的测试会有点马虎;让它用computer use——就是让模型自己操作屏幕点击——去测试端到端流程,看是不是真的解决了业务问题;要求拆成对审查者友好的PR,管好CI并保持绿色;还要让它在一个干净的子智能体里跑一遍AI代码审查,修掉问题,盯着PR自主解决每条机器评论和CI检查,并且交代一句\"不要问我问题\"。Hirsh还会加一句鼓励:\"你会做得很棒的,我相信你。\"不知道有没有用,但习惯了。\n\n说到这,你可能想问:这一切真的能产出有价值的东西吗?看三个实例。\n\n第一个就是上面说的构建功能。第二个,优化AI功能。做法是在原型上加个反馈按钮和小文本框,白天抽空收集反馈,让智能体把每次运行的system prompt、输入和你的反馈存成JSON转储——哪怕只收集四五份、十份都行,拉上同事能到二三十份。然后五点下指令:把这些变成评估集,本地SQLite或Markdown就行,再构建一个反复爬坡的harness,自动迭代提示词直到评分上涨。数据这么少,肯定担心过拟合——但你只要告诉它不要过拟合,它实际上做得相当不错。他们内部的代码审查器,就是这样靠隔夜运行把质量爬上去的。\n\n第三个更猛:隔夜训练自定义ML模型。他们要做一个PII分类器,就是识别个人身份信息的模型。试了现成的,成本高、延迟差、准确率上不去。于是某个晚上,Hirsh给出一堆业务背景和训练数据,让Claude清洗数据、用合成数据补充、多模型组合推质量——\"我完全不知道什么ML模型合适,所以你来决定\",而且\"别只训练一个,训练两个\"。关键安全设置是:只给AWS的预置沙箱权限,不给生产环境权限,不然会把生产环境搞挂的。挑GPU、开集群、训练、测试、销毁资源,甚至连模型就绪后怎么接入代码库做推理都一并写好。早上醒来:两个训练好的模型,一份完整报告,其中不少已经推到了生产环境。\n\n这一路做下来,最大的收获是什么?是突破任务范围的边界。Hirsh引用Notion创始人Simon Last的推文:这些现代模型能做的事情,远远超出我们的想象。新的模型能在一次过夜运行中,处理过去需要几周的工作量,早上你会得到一份为你准备好的漂亮礼物。领导者的职责,就是不断尝试给智能体更大的范围,看看几周、几个月的工作能不能隔夜完成。\n\n不过得泼一盆冷水。这一切能行,很大程度上靠已有的组织脚手架——AI代码审查器、干净的配置文件、可信任的CI、精细的功能开关,以及一个推给员工但不进生产的原型分支,层层隔离,保证你做原型时不会搞挂生产环境。\n\n代码卫生也真的重要。Hirsh坦承自己已经被打脸很多次,代码惹恼过工程师、造成过线上事故。几条实战建议:PR提交前自己测试一切,computer use再好也替代不了你自己点一遍;提交小而可读的PR——因为你在向团队示范什么是好的标准,你挂三个五千行的PR,别人也会开始这么干;最后,别把还没读过的代码交给其他审查者——代码里一定有某个明显糟糕的东西,某个资深工程师会打电话问你\"你为什么不读一下?\"这是亲身经历。\n\n所以回到开头那个问题:管理者日程,突然可以当构建时间用了。早间一小时评审,白天零星引导,下午五点设置通宵任务,两三个小时,就能持续交付。而 leaders 做这件事还有个天然优势——按每个token计算,你的引导比一线工程师更有影响力。当你犹豫要不要开始的时候,记住Hirsh那条原则就够了:你在向团队示范,什么才是好的标准。"
+}

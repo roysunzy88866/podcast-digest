@@ -137,8 +137,8 @@ Chai 想留给工程师们的最后一句话：他自己曾是担心「医疗技
 **换个口味**
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同概念:前沿模型 (frontier model)、智能体 (agentic)、评估 (evals)</span>
+- [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:前沿模型 (frontier model)、评估 (evals)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:智能体 (agentic)</span>
-- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:评估 (evals)</span>
 
 </div>
 </div>

@@ -1,0 +1,184 @@
+{
+  "title_zh": "不写一行代码，一个人 shipping 一整个产品：复利工程方法论",
+  "tldr": "Every 工程师 Kiran 讲述他如何靠「复利工程」系统，一个人不写代码却持续发布产品：把判断力提取进系统，让 AI 跑通中间环节。",
+  "digest_md": "今年一行代码都没写、甚至大部分代码都没看过，但 Kiran(Every 的工程师,Every 是一家研究「未来工作方式」的 AI 实验室)却在持续发布产品:他一个人构建了一个完整的 AI 邮件客户端 CoreAsMine,成千上万的人在用,连自己的邮件收件箱都托付给它。他做这件事两年了,核心理念是:把自己的思考和品味提炼成一个**能复利的系统**——不是追逐「黑暗工厂」这类时髦概念,而是一套比潮流活得更久的工作方式。\n\n## 瓶颈一直在移动,我的角色一直在变\n\n两年前起步时,瓶颈是代码:坏代码、幻觉、跑不通的东西。他加了智能体、加了审查技能,代码变好了。下一个瓶颈是计划——有了好计划,AI 就能做比代码改动更大的事。计划变好后,瓶颈变成「决定做什么」:和用户交谈、真正理解要解决的问题。再往后,他发现自己在不断重复同样的话,于是意识到需要**记忆系统**:每次重复自己,就把知识以某种方式存下来。一开始存在 ClaudeMD 里,太大之后,他建了一个会记忆的系统——这就是「复利工程(Compound Engineering)」的由来。\n\n于是他的角色从打字转向了判断力和品味。他认为**实现基本已经被解决了**,无效的是我们的判断和品味。关键问题是:什么时候把大脑打开,什么时候利用模型。凡是思考、迭代、头脑风暴的地方,他就把那些思考提取进系统——下次 AI 做头脑风暴时,已经包含了那些思考,他就能去解决下一个更大的问题。他的结论很直接:「一个拥有复利系统的工程师,就是能打赢完整的、在用 AI 但没有复利系统的团队。」\n\n## 人类-AI 三明治:大脑放在两端\n\n他的循环是:头脑风暴 → 规划 → 工作 → 审查 → 打磨 → 复利 → 重复。诀窍在于两端——像三明治,人是面包,AI 是中间:开头头脑风暴,决定做什么、理解问题;结尾是品味起作用的地方,决定「这个很好」还是「要提高标准、要更流畅」。中间的规划、干活、审查交给机器,甚至可以通宵并行跑上好几个小时。\n\n中间能放手的唯一前提,是在系统上花时间。他的规则:**50% 的时间花在创建功能上,50% 的时间花在教导系统上**——针对它做错的每一件事,问「能学到什么?能教会系统什么?」,让下一次变得更好。\n\n一个反直觉的发现:把这些知识以「解决方案文档」存进代码仓库,人们会说「可是 token 啊」,但他的研究是**长期反而更省 token**——答案已经在上下文里,就不需要审查、不需要纠正、不需要跨互联网做深度研究。这套方法真正奏效的原因是:「我的大脑是固定的,而 AI 不是,或者说没那么固定。」他的理念是:持续提取,直到完整的中间环节能自己运转,好到让你大吃一惊。\n\n## 具体怎么做:Compound Engineering Plugin\n\n他把这套方法做成了开源插件(在 Codex、Claude Code、Cursor 等十来个工具里都能装),现在每天有几十万人使用。几个核心命令:\n\n- **CE ideate(激活大脑想方向)**:遍历你所有打开的工单(可关联 Linear、GitHub、Slack、Intercom),从一团乱麻中生成结构,论证哪些值得做;可以指向你的 OKRs,让想法生成与战略对齐,还能对照仓库里过去的实验和教训给想法打分。输出是一份干净的 HTML 页面,有人拿去让 Claude 生成带 XY 矩阵的 PowerPoint,几乎不费力气。\n- **CE DocReview(文档审查)**:别人给你一份 PRD,跑一遍,返回非常尖锐的问题;回答之后用 CE compound 把答案提取进系统,下次它就不会再问了。\n- **CE brainstorm(头脑风暴)**:想法太大没法直接描述时用,比如邮件客户端从版本 1 重构到版本 2。这是「随叫随到的大脑」——他会留出整块时间、不 multitask,专门跑它。它会拉取复合知识和用户画像,只问恰到好处数量的问题。他特别强调:拿到 30 个问题会让人感觉「我做了好多」,但目标不是回答问题,而是得到最好的成果,其他工具可能问得过多。\n- **slash LFG(自动化循环,他最喜欢、用得最多)**:一口气跑好几个小时——规划、干活、审查、测试、开 PR、dog food、修问题,还在 PR 里附前后对比视频,让你一眼看清发生了什么。可以过夜跑、并行跑,甚至可以往里丢操作录屏,让它自己分析哪里出了问题。\n- **CE Polish(抬高门槛)**:拿到 PR 后,左边显示「这是 LFG 流程哪一步引入的」,右边展示产品。他强调这不是 QA——「应该能正常工作」是底线,跑不通就是 LFG 流程失败了。Polish 抓的是品味层面的问题,比如一页上出现两个 logo 标记:技术上不算错,但他不想要。他说一句「确保永远只有一个」,再跑 CE compound,这条知识就被提取进系统,下次做设计工作时它自己就知道不要那样做。\n\n## 如果你自己动手:四条原则\n\n不用他的插件也可以,但要做到这几条:\n\n- **永远提取、永不重复**:发现自己在重复自己,就把它提取出来,确保不再发生。\n- **中间环节必须能没有你而运转**,而且它应该是无聊的、就是能正常工作。如果你还在循环里被需要,把时间花在中间环节,手动做、感受哪里不对劲、迭代到能放手。判断标准:你跑一个东西,它跑三个小时结果总是很好,你就到了。\n- **记录思考,而不是代码**:这很反开发者直觉——代码才是产物,文档不重要?他的观点是要泛化就需要「为什么这么做」的推理轨迹,哪怕是糟糕的轨迹,事后复盘时能追溯「是谁或哪个智能体做了什么决定导致了这个」,再把它变成学习,改变下次的行为。他在复盘上见过非常好的效果。\n- **每次交互都花 50% 的时间让下次更好**:构建一个会记住的系统,而不是问「这次好不好」,要让系统变得更好、让系统知道。他承认这很难,「能跑就行、继续往前」的诱惑一直都在,但经常这么做,系统真的会跑起来。\n\n## 赌注与终局\n\n这套方法押注的是:**实现只会越来越便宜,判断力不会**。未来的模型和系统需要被设置成能访问我们的判断力和品味,才能获得更大的杠杆——那才是真正的瓶颈。\n\n最后一条被颠覆的工程常识:传统工程里,你加了复杂性,下一个功能就更难;他要反过来——**下一个功能应该因为这一个被交付而变得更容易**。\n\n## 本集带走\n\n- **50/50 规则**:一半时间做功能,一半时间教系统——对 AI 做错的每件事提取教训,让下一次免费变好。\n- **大脑放两端**:开头真正理解问题、不把思考全丢给 AI;结尾用品味抬高门槛(不是 QA,是「不发布垃圾代码」)。\n- **永不重复自己**:一旦发现重复,立刻把它变成系统里的记忆(方案文档/规则),答案内置后 AI 不再问、长期还更省 token。\n- **放手的检验标准**:中间环节应该「无聊地」正常工作——能通宵跑三小时、结果总是好,才算真正建成。\n- **记录思考而非代码**:保留决策推理轨迹,复盘时能追到「哪个智能体做了哪个决定」,并把答案喂回系统。\n- **复利导向的验收**:下一个功能应该因为交付了这一个而更容易,而不是更难。",
+  "quotes": [
+    {
+      "en": "I want to start with saying I haven't written a single line of code this year.",
+      "zh": "我想先说一句：今年我还没写过一行代码。",
+      "timestamp": "00:22",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "And I think implementation is mostly solved, even though you see many people that do orchestration, dark factories.",
+      "zh": "我认为实现基本已经被解决了，尽管你看到很多人在做编排、黑暗工厂。",
+      "timestamp": "05:35",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "And I see that one engineer with a compounding system just beats teams, like full teams that use AI that don't.",
+      "zh": "我看到，一个拥有复利系统的工程师就是能打赢完整的、在用 AI 但没有复利系统的团队。",
+      "timestamp": "06:27",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "But 50% of the time should go to teaching the system for anything that it did wrong.",
+      "zh": "但另外 50% 的时间应该花在系统做错的地方去教导这个系统上。",
+      "timestamp": "08:09",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "And in my research, it's actually more token efficient because if you have the right answers and the right solutions already within the token, you don't need to do review.",
+      "zh": "而根据我的研究，实际上这样更省 token，因为如果你已经有了正确的答案和正确的解决方案在 token 里，你就不需要做审查。",
+      "timestamp": "08:39",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "The real reason why this works is my brain is fixed and AI isn't, or less fixed.",
+      "zh": "这套方法真正奏效的原因是，我的大脑是固定的，而 AI 不是，或者说没那么固定。",
+      "timestamp": "09:03",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "And my philosophy is keep extracting until the complete middle runs itself and is so freaking good that it will surprise you.",
+      "zh": "我的理念是：持续提取，直到完整的中间环节能够自己运转，并且好到会让你大吃一惊。",
+      "timestamp": "09:11",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "It's important to document the thinking, not the code.",
+      "zh": "重要的是记录思考，而不是代码。",
+      "timestamp": "17:37",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "So, the bet is implementation is only getting cheaper and judgment is not.",
+      "zh": "所以，这个赌注是：实现只会越来越便宜，而判断力不会。",
+      "timestamp": "18:50",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "But make sure to raise the bar because we're not shipping shitty code.",
+      "zh": "但一定要抬高门槛，因为我们不发布垃圾代码。",
+      "timestamp": "19:31",
+      "speaker": "Kieran Klaassen"
+    },
+    {
+      "en": "If the next feature is harder because you added complexity, which is normally how engineering works, we're flipping that.",
+      "zh": "如果下一个功能变得更难，是因为你增加了复杂性，而工程通常就是这样运作的，但我们正在颠覆这一点。",
+      "timestamp": "19:41",
+      "speaker": "Kieran Klaassen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:22",
+      "speaker": "Unknown",
+      "en": "I want to start with saying I haven't written a single line of code this year.",
+      "zh": "我想先说一句：今年我还没写过一行代码。"
+    },
+    {
+      "timestamp": "05:35",
+      "speaker": "Unknown",
+      "en": "And I think implementation is mostly solved, even though you see many people that do orchestration, dark factories.",
+      "zh": "我认为实现基本已经被解决了，尽管你看到很多人在做编排、黑暗工厂。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Unknown",
+      "en": "But the thing that doesn't work is our judgments and our taste.",
+      "zh": "但无效的东西是我们的判断和我们的品味。"
+    },
+    {
+      "timestamp": "06:27",
+      "speaker": "Unknown",
+      "en": "And I see that one engineer with a compounding system just beats teams, like full teams that use AI that don't.",
+      "zh": "我看到，一个拥有复利系统的工程师就是能打赢完整的、在用 AI 但没有复利系统的团队。"
+    },
+    {
+      "timestamp": "06:53",
+      "speaker": "Unknown",
+      "en": "It's kind of the human AI sandwich, where the human is the bread and the AI is the middle part.",
+      "zh": "这有点像人类 AI 三明治，人类是面包，AI 是中间的部分。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "But 50% of the time should go to teaching the system for anything that it did wrong.",
+      "zh": "但另外 50% 的时间应该花在系统做错的地方去教导这个系统上。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Unknown",
+      "en": "And people say, oh, but tokens.",
+      "zh": "然后人们会说，哦，但是 token 啊。"
+    },
+    {
+      "timestamp": "08:39",
+      "speaker": "Unknown",
+      "en": "And in my research, it's actually more token efficient because if you have the right answers and the right solutions already within the token, you don't need to do review.",
+      "zh": "而根据我的研究，实际上这样更省 token，因为如果你已经有了正确的答案和正确的解决方案在 token 里，你就不需要做审查。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Unknown",
+      "en": "The real reason why this works is my brain is fixed and AI isn't, or less fixed.",
+      "zh": "这套方法真正奏效的原因是，我的大脑是固定的，而 AI 不是，或者说没那么固定。"
+    },
+    {
+      "timestamp": "09:11",
+      "speaker": "Unknown",
+      "en": "And my philosophy is keep extracting until the complete middle runs itself and is so freaking good that it will surprise you.",
+      "zh": "我的理念是：持续提取，直到完整的中间环节能够自己运转，并且好到会让你大吃一惊。"
+    },
+    {
+      "timestamp": "14:10",
+      "speaker": "Unknown",
+      "en": "But in the end, the goal is not to answer questions.",
+      "zh": "但最终，目标不是回答问题。"
+    },
+    {
+      "timestamp": "14:13",
+      "speaker": "Unknown",
+      "en": "In the end, it's to get the absolute best work out of it.",
+      "zh": "最终，是要从它那里得到绝对最好的工作成果。"
+    },
+    {
+      "timestamp": "15:50",
+      "speaker": "Unknown",
+      "en": "And this is not QA.",
+      "zh": "而这不是 QA。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Unknown",
+      "en": "This is raising the bar.",
+      "zh": "这是抬高门槛。"
+    },
+    {
+      "timestamp": "17:37",
+      "speaker": "Unknown",
+      "en": "It's important to document the thinking, not the code.",
+      "zh": "重要的是记录思考，而不是代码。"
+    },
+    {
+      "timestamp": "18:50",
+      "speaker": "Unknown",
+      "en": "So, the bet is implementation is only getting cheaper and judgment is not.",
+      "zh": "所以，这个赌注是：实现只会越来越便宜，而判断力不会。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Unknown",
+      "en": "But make sure to raise the bar because we're not shipping shitty code.",
+      "zh": "但一定要抬高门槛，因为我们不发布垃圾代码。"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Unknown",
+      "en": "If the next feature is harder because you added complexity, which is normally how engineering works, we're flipping that.",
+      "zh": "如果下一个功能变得更难，是因为你增加了复杂性，而工程通常就是这样运作的，但我们正在颠覆这一点。"
+    }
+  ],
+  "voice_script": "今天这一集的主角叫 Kiran，是 Every 的工程师。Every 是一家专门研究未来工作方式的 AI 实验室。Kiran 今年干了一件听起来有点离谱的事：一整年没写过一行代码，大部分代码甚至都没看过，但产品一直在发布。一个人做出了一个完整的 AI 邮件客户端，叫 CoreAsMine，成千上万的人在用，连自己的收件箱都托付给它了。这套做法有个名字，叫复利工程。今天要讲的，就是这套系统到底是怎么回事，为什么它可能改变我们对工程师这个角色的理解。\n\n先交代来龙去脉。两年前 Kiran 刚起步的时候，瓶颈其实很传统：代码本身不行，AI 老是产生幻觉，写出来的东西跑不通。怎么办？加智能体，加审查机制，代码质量上去了。但麻烦在于，瓶颈是会移动的。代码好了，下一个瓶颈变成计划——有了好计划，AI 能干的事就比改几行代码大得多。计划也好了，瓶颈又变成「到底决定做什么」，也就是和用户交谈、真正理解要解决的问题。等这个问题也理顺了，Kiran 发现自己在一遍遍重复说同样的话。每次重复，就把那份知识存下来。一开始存在 ClaudeMD 这个文件里，存到太大装不下了，干脆建了一个会记忆的系统。复利工程，就是这么来的。\n\n这就引出一个关键判断。Kiran 认为，实现这件事，基本已经被解决了。现在无效的不是写代码，而是我们的判断力和品味。所以角色要换：从打字的，换成出判断的。凡是需要思考、迭代、头脑风暴的地方，就把那些思考提取进系统。这样下次 AI 再做头脑风暴的时候，脑子里已经装着你的想法，你就能腾出手去解决下一个更大的问题。这句话值得记住：一个拥有复利系统的工程师，就是能打赢完整的、在用 AI 但没有复利系统的团队。\n\n那这个系统具体怎么运转呢？Kiran 的循环是：头脑风暴、规划、干活、审查、打磨、复利，然后再重复。诀窍在于两头。像三明治，人是面包，AI 是夹在中间的部分。开头是人脑风暴，决定做什么、理解问题；结尾是品味起作用的地方，判断这个好不好、要不要提高标准。中间的规划、干活、审查，全部交给机器，甚至可以通宵并行跑上好几个小时。中间能放手的唯一前提，是在系统本身上花时间。这就是所谓的 50/50 规则：一半时间做功能，另一半时间花在系统做错的地方，去教导这个系统——每次出错都问一句，能学到什么、能教会系统什么，让下一次变得更好。\n\n有个很反直觉的发现。把这些知识以解决方案文档的形式存进代码仓库，很多人会说，token 不得爆了？但根据 Kiran 的研究，长期反而更省。因为答案已经在上下文里，就不需要审查、不需要纠正、也不需要跨整个互联网做深度研究。这套方法真正奏效的原因，用他的原话说：我的大脑是固定的，而 AI 不是，或者说没那么固定。理念就是持续提取，直到中间环节能自己运转，好到让你大吃一惊。\n\n这套方法已经做成了开源插件，在 Codex、Claude Code、Cursor 这十来个工具里都能装，现在每天有几十万人在用。里面几个命令很有代表性。CE ideate，是激活大脑想方向，遍历你所有打开的工单，从一团乱麻里生成结构，论证哪些值得做。CE brainstorm，是随叫随到的大脑，想法太大没法直接描述的时候用，它会拉取历史知识和用户画像，只问恰到好处数量的问题。Kiran 特别强调，拿到三十个问题会让人感觉做了好多事，但目标不是回答问题，而是得到最好的成果。最常用的是 slash LFG，一个自动化循环，一口气跑好几个小时：规划、干活、审查、测试、开 PR，还在里面附上前后对比视频。最后是 CE Polish，注意，这不是 QA。能正常工作是底线，Polish 抓的是品味问题。比如一页上出现了两个 logo 标记，技术上不算错，但 Kiran 不想要，说一句确保永远只有一个，再跑一遍提取，这条知识就进了系统，下次它自己就知道不能那样做。\n\n如果你不打算用插件，也想自己动手，有四条原则可以带走。第一，永远提取，永不重复——发现自己在重复自己，立刻把它变成系统里的记忆。第二，中间环节必须能没有你而运转，而且它应该是无聊的，就是能正常工作。检验标准很简单：你跑一个东西，跑三个小时，结果总是很好，你就到了。第三，记录思考，而不是代码。这很反直觉，但泛化恰恰需要「为什么这么做」的推理轨迹，哪怕是糟糕的轨迹，复盘时也能追溯到是哪个决定导致的，再把它变成学习。第四，每次交互都让下次更好。这很难，能跑就行、继续往前的诱惑一直都在，但经常这么做，系统真的会跑起来。\n\n所以这套方法押注的到底是什么？是这么一个判断：实现只会越来越便宜，判断力不会。传统工程里，加了一个复杂性，下一个功能就更难；复利工程要反过来，下一个功能，应该因为这一个被交付而变得更容易。"
+}

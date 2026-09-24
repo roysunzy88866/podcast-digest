@@ -186,7 +186,7 @@ Dan 的比喻是柏拉图反对写作——写作确实损害了记忆力，但�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同嘉宾:Dan Shipper · 同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:提示词 (prompt)、智能体 (agent)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code · 同概念:提示词 (prompt)、智能体 (agent)</span>
+- [[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|不写一行代码，一个人 shipping 一整个产品：复利工程方法论]]<span class="pd-rz">同公司:Cora、Every、Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

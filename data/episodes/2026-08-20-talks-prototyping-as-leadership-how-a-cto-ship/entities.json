@@ -1,0 +1,458 @@
+{
+  "episode_id": "2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "领导力",
+    "通宵任务",
+    "模型评估"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "hursh-agrawal",
+      "type": "person",
+      "role": "guest",
+      "name": "Hursh Agrawal",
+      "file": "Hursh Agrawal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "the-browser-company",
+      "type": "company",
+      "role": "company",
+      "name": "The Browser Company",
+      "file": "The Browser Company",
+      "primary": true,
+      "how_described": "本集嘉宾 Hirsh Agarwal 是它的 CTO 和联合创始人,公司开发了 Arc 和 Dia 浏览器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.72,
+            21.425
+          ],
+          "quote": "I'm the CTO and co-founder of The Browser Company, makers of the Arc and Dia browsers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dia",
+      "type": "company",
+      "role": "company",
+      "name": "Dia",
+      "file": "Dia",
+      "primary": true,
+      "how_described": "本集说 Dia 是 The Browser Company 开发的浏览器,嘉宾推荐它作为连接 Slack/Jira/Notion 的协作智能体(自嘲「完全没有偏向」)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.72,
+            21.425
+          ],
+          "quote": "I'm the CTO and co-founder of The Browser Company, makers of the Arc and Dia browsers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            467.435,
+            477.903
+          ],
+          "quote": "So a little tip I found that has worked well for me, if you have a co-work agent, whatever your Claude co-work or Codex or I recommend Dia, I feel like that's the best one, not biased at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            511.753,
+            516.219
+          ],
+          "quote": "And that takes like 30 seconds to whisper flow into DIA or whatever your co-work agent is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:随着 AI 智能体变得更自主、能处理更长任务,管理者日程可以当构建时间用;模型执行强但判断力不行,需要领导者引导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            254.495,
+            259.218
+          ],
+          "quote": "You know, it's setting goals, giving context, checking in, even coaching the agent, you know, what if you tried this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            357.464,
+            365.829
+          ],
+          "quote": "So I usually have a morning coding block, about an hour, and this is when I look over last night's code, what the agent did last night, review it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            374.954,
+            386.137
+          ],
+          "quote": "And then the most important block is that 5 p.m. block at the end of the day where you really set up whatever overnight run it is you want to run, and I'll talk about that, whether that's coding or training models or whatever you want the agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            403.423,
+            409.348
+          ],
+          "quote": "And then Claude Code, or whatever your coding agent is overnight, does the thing, does the work for four, six, eight hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            467.435,
+            477.903
+          ],
+          "quote": "So a little tip I found that has worked well for me, if you have a co-work agent, whatever your Claude co-work or Codex or I recommend Dia, I feel like that's the best one, not biased at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            511.753,
+            516.219
+          ],
+          "quote": "And that takes like 30 seconds to whisper flow into DIA or whatever your co-work agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            517.138,
+            523.88
+          ],
+          "quote": "And the nice thing is this comes back with a giant prompt that then you can paste into Claude Code or Cursor or Codex or whatever your coding agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            529.682,
+            533.903
+          ],
+          "quote": "I'll say implement this whole feature and then just paste all of that context I got from my cowork agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            536.986,
+            543.895
+          ],
+          "quote": "So as this agent is running overnight, you want to verify how it's doing as it's building and testing the feature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            596.253,
+            604.887
+          ],
+          "quote": "If you don't have any, I would look on Twitter for a bunch of AI code review skills and then just prompt it, hey, once you're done, run this AI code review skill in a clean sub-agent and then fix those things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            656.245,
+            662.13
+          ],
+          "quote": "When you first build an LLM call or agent into a feature, it's not optimized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            678.043,
+            683.527
+          ],
+          "quote": "So after the LLM call or the agent runs, I'll be like, hey, just add a feedback button and a little text box.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agent)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集说编程智能体夜里连续干四到八小时,能在一次过夜运行中处理过去需要几周的工作量,早上交付报告和代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            403.423,
+            409.348
+          ],
+          "quote": "And then Claude Code, or whatever your coding agent is overnight, does the thing, does the work for four, six, eight hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            517.138,
+            523.88
+          ],
+          "quote": "And the nice thing is this comes back with a giant prompt that then you can paste into Claude Code or Cursor or Codex or whatever your coding agent is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说产品核心技术变成了每三个月迭代一次的前沿模型,领导者必须亲手整天使用才能判断新模型适合做什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            131.834,
+            137.776
+          ],
+          "quote": "And as each new frontier model comes out, its capabilities change, the contours of what it's useful for change,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            435.65,
+            456.146
+          ],
+          "quote": "The big mindset shift for me that really helped was starting to think about building features not in terms of how do I build this feature and break it up and then give it prompting on how to do the individual tasks, but rather what is all the context this frontier model needs to be able to make decisions like I would make.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把 Claude Code 当作主要的编码智能体,用协作智能体生成的巨型提示词粘贴进去跑通宵任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            403.423,
+            409.348
+          ],
+          "quote": "And then Claude Code, or whatever your coding agent is overnight, does the thing, does the work for four, six, eight hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            491.512,
+            501.038
+          ],
+          "quote": "Go and do like 20 minutes of research and go dig through all of Slack and Notion and everything else and come up with a Claude Code prompt that I can paste into Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            517.138,
+            523.88
+          ],
+          "quote": "And the nice thing is this comes back with a giant prompt that then you can paste into Claude Code or Cursor or Codex or whatever your coding agent is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "manager-schedule",
+      "type": "concept",
+      "role": "concept",
+      "name": "管理者日程 (manager schedule)",
+      "file": "管理者日程",
+      "primary": true,
+      "how_described": "本集引用 Paul Graham 的说法:随着编程智能体变自主,管理者日程突然变得可以用作构建时间,构建成了领导者工作的一部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            22.106,
+            27.414
+          ],
+          "quote": "And I'm going to talk about prototyping as leadership as you get to a manager schedule, how you can keep building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            94.165,
+            105.735
+          ],
+          "quote": "And now, interestingly, in the last few months, as coding agents have become more autonomous and able to handle longer tasks, the manager schedule, as Paul Graham put it, is suddenly usable as building time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说可以把十几份反馈 JSON 交给智能体,让它自建评估集、交互式对齐评分设计,再构建 harness 爬坡优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            418.917,
+            422.682
+          ],
+          "quote": "I found this worked really well with evals and hill climbing, so optimizing AI features.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            663.051,
+            666.815
+          ],
+          "quote": "He'll climb on some evals to get the quality, the latency, the cost to where you want it to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            732.67,
+            737.592
+          ],
+          "quote": "And then over the next few minutes, talk me through how would you design evals or scoring functions to optimize for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            739.974,
+            746.217
+          ],
+          "quote": "And then I want you to, A, build a harness that runs this call against the evals and hill climbs until the score goes up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hill-climbing",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬坡 (hill climbing)",
+      "file": "爬坡",
+      "primary": true,
+      "how_described": "本集说 hill climbing 就是自动迭代提示词直到评估分数上涨,他们的内部代码审查器就是靠隔夜爬坡把质量提上去的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            418.917,
+            422.682
+          ],
+          "quote": "I found this worked really well with evals and hill climbing, so optimizing AI features.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集的关键安全设置:隔夜训练模型时只给 AWS 的预置沙箱权限,不给生产环境权限,「那样你会把生产环境搞挂的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            855.854,
+            857.475
+          ],
+          "quote": "I was like, give me a provision sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集说让模型自己操作屏幕点击,用来验证端到端流程是否真的解决业务问题;但嘉宾强调它替代不了自己亲手测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            553.587,
+            556.152
+          ],
+          "quote": "And then I'll tell it to test the end-to-end flow with computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1003.5,
+            1006.56
+          ],
+          "quote": "Even though there's computer use, et cetera, it's really important you test it yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

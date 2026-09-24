@@ -1,0 +1,1004 @@
+{
+  "episode_id": "2026-09-24-practicalai-from-agents-md-to-enterprise-deployment",
+  "podcast": "Practical AI",
+  "date": "2026-09-24",
+  "tags": [
+    "企业 AI 落地",
+    "智能体",
+    "平台工程",
+    "MCP",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            56.835
+          ],
+          "quote": "Welcome to another episode of the Practical AI podcast. This is Daniel Whitenack. Am I CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, who is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nick",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nick",
+      "file": "Nick",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            85.175,
+            109.335
+          ],
+          "quote": "You can, get 20% off with Practical AI 20, so check that out. So, amazing speaker, gonna be at the Midwest AI Summit. Also, a fellow podcaster, which is is great. One of the hosts of Cloud Foundry weekly and, a tech marketing, whiz at Broadcom Tanzu VMware. So welcome, Nick.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 9,
+          "t": [
+            127.2,
+            177.97
+          ],
+          "quote": "Nick, I I know you're gonna be talking one of the things I thought was cool about your talk at the Midwest AI Summit is you bring in this concept of taking, like, agents.md and shipping that to a production environment where you run, you know, an actual agent in an, quote, enterprise environment, which seems to be, really fascinating. We recently had on, someone from is kind of stewarding the model context protocol and Agents. Md and those sorts of things. Very relevant kind of carry on from that conversation. But I'm wondering as we set that up, what what exactly does it mean to be operating in an enterprise environment?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 39,
+          "t": [
+            949.185,
+            1010.10504
+          ],
+          "quote": "So Nick, I would love to dive back. I wanna kinda build on what been sharing so far. And part of that is that we're all diving into this multi agentic world where late last year you'd have an agent, then for most people I think getting into multi agents it was probably developers in the environments that the AI providers were making available, and you had multiple agents working on a project. But now we're really seeing, with these work products and other things that have come out, we're seeing agents really multiplying across many different contexts and with a lot of different utility, it's moved out of being just frontier services, and we're now doing that with our hosted agents as well that we're running. This multiegenthic world has just taken off in a very short amount of time.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 77,
+          "t": [
+            1802.88,
+            1859.75
+          ],
+          "quote": "you heard at the beginning of this episode, some amazing people like Nick, who's the guest on this episode, are joining us at the Midwest AI Summit, October 15 in Indianapolis, Indiana. Nick is gonna come talk about what it looks like to deploy AI agents in real world environments, and we've got a bunch of other amazing speakers talking about how AI enabled teams work, how to make decisions about what to say yes to and what to say no to in relation to AI and much more super practical and amazing talks. Plus, there's gonna be an AI engineering lounge where you can actually sit down with folks like myself. I'll be there. Get get review on your AI architecture, your stack, your road map, etcetera, towards the rollout of things like Agents or other AI technology.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 79,
+          "t": [
+            1892.275,
+            1901.0751
+          ],
+          "quote": "Nick, before we were going into break, I think I may have cut you off when you were just starting to say something. You wanna dive back into that real quick?",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主张：智能体其实就是又一个应用，应该用二十年平台工程经验来部署和管理——统一可重复的模式、24/7 按需可用、与应用和数据同地部署，而不是跑在开发者笔记本上一合盖就停。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            127.2,
+            177.97
+          ],
+          "quote": "Nick, I I know you're gonna be talking one of the things I thought was cool about your talk at the Midwest AI Summit is you bring in this concept of taking, like, agents.md and shipping that to a production environment where you run, you know, an actual agent in an, quote, enterprise environment, which seems to be, really fascinating. We recently had on, someone from is kind of stewarding the model context protocol and Agents. Md and those sorts of things. Very relevant kind of carry on from that conversation. But I'm wondering as we set that up, what what exactly does it mean to be operating in an enterprise environment?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 22,
+          "t": [
+            517.55,
+            525.805
+          ],
+          "quote": "Okay. As as you could imagine, those principles when we're talking about apps could probably play nicely into this agent world that we're living in.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 27,
+          "t": [
+            604.5,
+            653.68
+          ],
+          "quote": "So so I guess then it begs the question, why why are people kind of throwing out what maybe their intuition? Like, in in certain ways, people are saying, oh, we have agents now. We need to do something totally different, which is maybe driven by some things that make an agent not an app not just a sort of simple application, but also it doesn't necessarily mean you know, obviously, we have to throw out everything we've learned about platform engineering and and and how to deploy things. So from your from your mindset, what where does the kind of agent equals just another app? Where where might that fall apart, or what are the kind of unique characteristics that you're dealing with on the Agents side",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 31,
+          "t": [
+            697.92,
+            734.565
+          ],
+          "quote": "They're gonna go off into the ether. So that's probably the, I think, the biggest challenge when we start talking about how do we take the app deployment methodology, right, and then push that into an agent running on a of a cloud platform per se. It's probably the biggest challenge. And then just kinda getting the fact that there's some valid use cases for your laptop or whatever. But then also, as we're starting to see more and more, like enterprise was Enterprises want agents to be on demand and usable kind of in a, like, say in a CICD pipeline or like on you know, within part of their, you know, ecommerce suite or just normal applications.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 32,
+          "t": [
+            734.565,
+            760.975
+          ],
+          "quote": "And you want those to be kinda really close to the apps. Right? Because if you're if you have them way off, you know, even just from a pure networking perspective, if you have, you know, the agent or the LLM or whatever that's like, you know, 30 hops away from the the microservices try to call it, there's, you know, physics that are gonna add on to all of that latency and potentially at scale even be problematic. So they they kinda wanna collate all the intel co locate the intelligence with the app and the data as close as possible. That's what we've seen too.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 36,
+          "t": [
+            835.18,
+            858.83
+          ],
+          "quote": "Some mornings, as I'm drinking my morning coffee, I listen to live news updates to figure out what's going on in the world, and it seems like recently everyone is talking about AI kill switches. But the reality is that there is no one AI kill switch. We've moved from models to agents. Those agents are connected to multiple models. They have an agent harness.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 37,
+          "t": [
+            858.83,
+            917.19995
+          ],
+          "quote": "They're connected to MCP servers and tools. And those agents are acting within a fleet, delegating to one another and interacting with one another. In that environment, what you don't have is a single kill switch that solves all of your problems, but that doesn't mean that you can't exert your control. You just have to exert that control across various layers of that stack through, of of course, component input output safeguards, but also controls on agents tied to their agent identity, things that track tool misuse or memory poisoning or goal drift, etcetera. And what we're providing at Prediction Guard, the company that I lead personally, is an AI control plane that you self host in your own infrastructure that gives you that control plane or control layer for the relevant stack that agents operate on top of.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 39,
+          "t": [
+            949.185,
+            1010.10504
+          ],
+          "quote": "So Nick, I would love to dive back. I wanna kinda build on what been sharing so far. And part of that is that we're all diving into this multi agentic world where late last year you'd have an agent, then for most people I think getting into multi agents it was probably developers in the environments that the AI providers were making available, and you had multiple agents working on a project. But now we're really seeing, with these work products and other things that have come out, we're seeing agents really multiplying across many different contexts and with a lot of different utility, it's moved out of being just frontier services, and we're now doing that with our hosted agents as well that we're running. This multiegenthic world has just taken off in a very short amount of time.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 40,
+          "t": [
+            1013.705,
+            1053.24
+          ],
+          "quote": "I guess I'm asking if you can paint a picture as you start scaling this out in the enterprise and what that looks like. Could you describe And we have analogies, as you've pointed out, with the traditional software development world, the containers, and how you're structuring deployment and stuff. Could you talk a little bit about what that looks like? Kind of paint a picture so that somebody can really get that in their head, me first of all, about what that multi agent world looks like when you were doing all these right things that you need to do in the Enterprise.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1053.24,
+            1085.135
+          ],
+          "quote": "Yeah, so I think the first thing that we wanna focus on is that the enterprise, you know, needs to get whatever technology approved throughout their system. And then we so we are providing a harness, called the, Tainzu Agent Build Pack, and that helps to that process. So our existing customers already have our customer you know, we're already approved so that we can help provide them those tools. And we just make that process just another app deployment on the on the platform. So I probably haven't covered this, but I'll explain what a buildpack is.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1141.7051,
+            1153.385
+          ],
+          "quote": "And that would be great. And then we would, you know, we would attach a database and then, you know, all these things and show how that that scales. Now we've taken that same concept and then said, hey. We're gonna have this agent. We're gonna just see if push an agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1153.385,
+            1175.015
+          ],
+          "quote": "And instead of, like, you know, machine readable code, we have a human readable language, the AgentsMD. So, basically, you tell what the agent it's gonna do, and then you just push it to the platform. And it starts up with, you know, within a minute type of thing. And you can scale that up, and, you know, push as many agents as you want. And I think the the coolest thing that I've seen is that once we're on the platform, then we we can run models on the platform.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1175.015,
+            1205.4149
+          ],
+          "quote": "So, you know, obviously, a lot of our customers are air gapped, and some of them were smart enough to buy GPUs a few years ago. So some of them have lots of GPUs that can run all these local models and have a great experience. Some are wishing that they bought GPUs and, you know, hardware as as the pricing of of all this hardware goes through the roof. But then they can run local models and then tie the agent to that. Or if they don't have, you know, they might have a contract with one of their cloud providers or one of their, you know, one of their approved LLMs of choice, and we can to register that.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1205.4149,
+            1222.78
+          ],
+          "quote": "Then that kinda gave us a simple, like, here's your out of box agent with chat experience. And then, you know, along the way, like, we've done a lot of things with MCP, so, you know, the model context protocol. You guys covered that on the show before, but it's, know, basically a way for an app to talk to an LLM. Like, very, very high level. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1222.995,
+            1253.565
+          ],
+          "quote": "So we that's become, you know, useful as well as we then give the agent tools via MCP servers. And even at Broadcom, like, the only way approved way to use for our developers is to deploy MCP servers on Tansy platform so that we have a whole set of MCP servers that are approved and hosted, and they're kind of secured and maintained. Because they are very similar to applications as well. And then we have a a concept of like the MCP gateway service that kinda registers that and secures all those the servers. So then we can then extend the gateway to that agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1253.645,
+            1278.725
+          ],
+          "quote": "So then the gateway this agent now has, like, secure access to a runtime, you know, battle test runtime. It can talk to an LLM that's approved and, get tools via and gateway. And then we're starting to add in like the memory service as well to have a kind of a shared memory service. So we're kind of expanding all of that out where we're seeing all those best practice app lifecycle go to, you know, see a push, go. Here's an agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1278.725,
+            1290.4049
+          ],
+          "quote": "Here here's all the things it wants to do. And then, you know, it can be a it can be a security review agent. And like one of the things I I showed, I was at a I think a week or two ago. I can't quite remember. I was at was in Las Vegas for a conference VM or Explorer.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1290.4049,
+            1309.5549
+          ],
+          "quote": "And I had like a five phase demo where I walked through this. Maybe I'll show a little bit of this at the at the Midwest Summit here. But the you know, push the agent, bind bind all these services. But the end the end goal was like the the boss level was like, alright. Now we have these these agents sitting in there, and I can hook up hook them up to a repo with like an event listener or webhook and say, alright.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1309.5549,
+            1323.7999
+          ],
+          "quote": "Now do a sick like, you know, issue five on my repo. Do a security review on this repository. And then like, it sends it off to the agent via webhook and, oh, the Tainzu agent. And, like, it just fires up, gets it. It, you know, fires up from the platform.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1323.96,
+            1368.685
+          ],
+          "quote": "It gets a request, and it just immediately pulls down the repo and starts doing a a security review and then publishes or pushes up to the issue that I created on GitHub and says, this this is security review. So you could see how that flow would be really useful in Enterprise where, like, maybe on every Git commit, you can just have all these agents spinning up on the fly that could be a security review agent, you know, potentially like a, you know, a style or, you know, code quality review agent or potentially even like a, I don't know, like maybe a design review agent, all firing up on the fly as things like call. So it's kinda like and then they all have their they're all in their own little sandbox and everything's proper. Right? Because part of, you know, the platform, for a while, it's been this very secured container runtime where they can't talk to each other unless you enable them.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1382.74,
+            1396.835
+          ],
+          "quote": "So that, you know, as we've seen, you know, some of these things of uncontrolled agent forms, I think we have some remedies here that some of these AI labs could maybe take into account and implement some best practices that's learned throughout the past two decades.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1461.375,
+            1495.0099
+          ],
+          "quote": "Some of some of them are the same, you know, the one in the same. But you basically register MCP servers to this gateway, and the gateway kinda controls access, so to speak, and regulates that. So it may say, like, you can bind to this gateway, you only get these these MCP servers. You only get these MCP tools within it, that type of thing. So it's a way to easily abstract all the different MCP servers that may be in an organization and kinda direct them into a certain either a certain agent, or we even have a flow where, like, you can take we'll we'll take those MCP gateways that we run that front all of our MCP servers.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1495.01,
+            1511.065
+          ],
+          "quote": "And then you can say, hey, go. Give me a give me a way to connect this to my cursor or my cloud code or my whatever. And then it just injects it in there. And then then your local agent has all the tools that are approved as well for your organization. And then it's just like like a simple click, and then it just registers.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1545.215,
+            1567.8049
+          ],
+          "quote": "And then a great way about that too is because it's all flowing through that gateway, we get metrics out of it. So we can see all the tool calls and all the all the events happening coming from the agents to the MCP servers and back and forth. So you kinda kinda see what's happening, especially if maybe if there's something unexpected. Like, well, this one agent, you know, made 200,000 tool calls to, you know, delete repo. Like, oh, like, maybe we should alert on that.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 67,
+          "t": [
+            1595.2949,
+            1631.5299
+          ],
+          "quote": "Part of that centers around kind of pushing an agents dot m d file. You mentioned, like, people have these m d files hanging around. You mentioned memory. You mentioned identity. I'm wondering if you could kind of help us understand, like, if I have if I if I'm working on my laptop, right, and I'm using a certain agent harness, I may have an MD file that is kind of generic, and then I have files that are created by the agent that it uses that are only corresponding to my single agent.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1631.61,
+            1657.7151
+          ],
+          "quote": "Mhmm. Then I have, you know, memory and then, you know, calls into other things. As you're pushing this, like, off the laptop now, and I imagine taking that off, like, what belongs in, like, an agent's dot m d file? And what is, like, as you're giving that example, right, you may have one agent in the platform that is a security reviewer for, that that does security reviews. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1657.99,
+            1677.785
+          ],
+          "quote": "Mhmm. When you spin that agent up, does each instance of that, each session have a unique identity? What is the what's unique about that session and the data that that is generated by that session versus maybe the things that are always static? Like, I I'm not sure if the Agents. Md is is always static.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1677.785,
+            1689
+          ],
+          "quote": "So could you help us understand, like, which are the static elements? What's developing over time? How is that, like, state of the agent spread across Right. You know, the implementation, I guess?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1689,
+            1707.785
+          ],
+          "quote": "Sure. Yeah. So if you think about it, like, in, I guess, in in in this specific implementation, the the agent's build pack is basically like the the boiler plate code of what you want the agent or app to do. So, like, I'll do demos, and I'll have it be like, you're a pirate. Like like like, one of my demos is like, you're a you're a you're a Jira.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 73,
+          "t": [
+            1727.3251,
+            1744.93
+          ],
+          "quote": "So it's more of a very simple AgentsMD where it's just telling this agent what it should do how it should act. And then you you can call that and have, like, alright. Well, like, you know, ticket 500 came in. It was poorly documented and, like, update that Jira ticket and, you know, whatever. And then you can add fun things like talk like a pirate.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 82,
+          "t": [
+            1938.21,
+            1987.365
+          ],
+          "quote": "There are new things coming out, things like there's the A2A, which is the agent to agent protocol, and organizations are starting to look at that, and they already have their MCP servers maybe, but they're trying to get the structure and kind of bring the sanity around it that you've been talking about. Then they kind of go, Oh, okay, it's not so different from what we already know. But as this is evolving very fast and you have things like these new protocols, do you have any guidance on how to start integrating this constant flow of change in, terms of First on the technology, and I'll hit the other half of that afterwards. As you're trying to bring things in and make it work, have you guys kind of thought about how to structure that?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1987.365,
+            2007.55
+          ],
+          "quote": "I guess we'll just say take baby steps from everything, right? Especially when we talk about the Enterprise scope, they can be a lot slower to adopt some of these newer technologies. So you kinda layer that on. And you don't have to necessarily adopt all of these things at once. You can maybe just get a simple agent running.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2047.7301,
+            2065.385
+          ],
+          "quote": "And you're like, don't don't try to boil the ocean, make baby steps, you know, to and and get progress. And then as you'll like, and you'll learn the technologies, and then the next step will just kinda be obvious. Like, well, I I can make the agent better if I get some MCP servers, get them tools. Alright. And then we gotta get these tools approved and then add on to that.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2529.8699,
+            2568.325
+          ],
+          "quote": "And, like, you had all these agent swarms. And then, of course, then then they got to the Artifactory, which then they found the weak link, and the Artifactory had the Internet access, and somehow they magically, you know, zeroed the Artifactory instance multiple times. So not to say that we could prevent everything, but it's just you take those, at least, core enterprise technologies that maybe would've helped out a little bit of just agent control, like hardened sandbox type con constructs, very locked down network controls. That would help a little bit potentially. You know, just, you know, monitoring what's in the in the agent, Make sure that the agents aren't, you know, somehow injecting tools that they're not supposed to have.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "platform-as-a-service",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台即服务 (platform as a service)",
+      "file": "平台即服务",
+      "primary": true,
+      "how_described": "本集说它是解决企业环境部署痛点的老办法：开发者只管推代码，平台负责构建最佳实践容器、证书、负载均衡、健康监控和沙箱隔离，几条命令就能上生产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            342.385,
+            375.3
+          ],
+          "quote": "Yeah. So, I mean, I think so, you know, I currently work for VMware Tanzu, and we run a a, you know, a platform or a platform as a service, you know, geared for private cloud, whether that be on your, like, on your own bare metal in your data center, or you could deploy it on a private cloud in your own VPC on a hyperscaler, that type of thing. But we think about that. Wanna in the scope of an enterprise, right, you have all these regulations, controls, etcetera. You wanna make that path to production kind of the least resistant and easiest path.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 20,
+          "t": [
+            496.835,
+            514.91
+          ],
+          "quote": "They want the same repeatable pattern across the board so that they can audit it and secure it and have their developers actually spend time writing the business logic versus like fiddling with infrastructure. So that's kinda like the whole premise behind, you know, the the whole platform as a service construct and, you know, attains a platform. As you So, can yeah. Oh, go ahead. Yeah.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "tanzu",
+      "type": "company",
+      "role": "company",
+      "name": "Tanzu",
+      "file": "Tanzu",
+      "primary": true,
+      "how_described": "本集说它是 VMware 旗下的面向私有云的平台即服务，嘉宾 Nick 在此负责技术营销，团队在其上推出了 Agent Buildpack。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            85.175,
+            109.335
+          ],
+          "quote": "You can, get 20% off with Practical AI 20, so check that out. So, amazing speaker, gonna be at the Midwest AI Summit. Also, a fellow podcaster, which is is great. One of the hosts of Cloud Foundry weekly and, a tech marketing, whiz at Broadcom Tanzu VMware. So welcome, Nick.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 16,
+          "t": [
+            342.385,
+            375.3
+          ],
+          "quote": "Yeah. So, I mean, I think so, you know, I currently work for VMware Tanzu, and we run a a, you know, a platform or a platform as a service, you know, geared for private cloud, whether that be on your, like, on your own bare metal in your data center, or you could deploy it on a private cloud in your own VPC on a hyperscaler, that type of thing. But we think about that. Wanna in the scope of an enterprise, right, you have all these regulations, controls, etcetera. You wanna make that path to production kind of the least resistant and easiest path.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 19,
+          "t": [
+            462.76,
+            496.58
+          ],
+          "quote": "And what we see with Enterprise is once that path like, once they take this, like, this is Tanzu platform, it's been certified through all these different standards. It's just kind of like an unlock for these enterprises because it's so easy and so simple to use, and they don't have to, you know, they don't have to recertify everything. It's it's just like this framework that they can use to get apps into production. And then the biggest thing is that you want these the enterprises or the businesses, the they don't want their developers, you know, handcrafting a a new platform or a new way to deploy apps for every sub team and have, like, a 100 different snowflakes. Right?",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "cloud-foundry",
+      "type": "company",
+      "role": "company",
+      "name": "Cloud Foundry",
+      "file": "Cloud Foundry",
+      "primary": true,
+      "how_described": "本集说 Tanzu 平台基于的开源项目，比 Kubernetes 和 Docker 还早，2011 年左右从 VMware 起步，理念是开发者推代码、平台包办其余一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            85.175,
+            109.335
+          ],
+          "quote": "You can, get 20% off with Practical AI 20, so check that out. So, amazing speaker, gonna be at the Midwest AI Summit. Also, a fellow podcaster, which is is great. One of the hosts of Cloud Foundry weekly and, a tech marketing, whiz at Broadcom Tanzu VMware. So welcome, Nick.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 17,
+          "t": [
+            375.3,
+            416.42502
+          ],
+          "quote": "And if you make that path to production, like all the check boxes and everything good to go, that's gonna be a highly adopted path. So the whole concept of, you know, Teensy platform, and it's actually based on an open source project called Cloud Foundry, which is, I think I mean, it's I mean, it predates Kubernetes and Docker. So, you know, twenty eleven ish is when it kinda started originally out of VMware and spun out and then became part of a open source project. So it's been around and battle tested and seen a lot of things where you have that concept of, like, I just wanna take my code and send it to the platform, and the platform's gonna know, like, the best practices for it's gonna build a container for the developer so the developer doesn't have to worry about, like, you know, securing the container or anything like that. That platform will take care of that.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 30,
+          "t": [
+            660.88,
+            697.92
+          ],
+          "quote": "Well, I mean, I I think some of the biggest differences, right, where, like, you talk about Cloud Foundry and Teensy platform, it was kinda based on this premise of a 12 factor application where storage and state are a little decoupled cleanly from the actual apps. You could I can scale up to a thousand instances and be fine, and you handle session state and things. The traditional harnesses or agents were kinda built originally just to be like, oh, I've got file system access, and I can just write a bunch of MD files, and that's like my memory. Everything's great. And they're like, well, you start to get into a cloud cloud world that things spin up and down and are ephemeral, you're gonna wanna save those MD files somewhere.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 133,
+          "t": [
+            2866.38,
+            2887.8699
+          ],
+          "quote": "Really appreciate that. And I hope people tune in to Cloud Foundry weekly hear you talking more about these topics. And they should definitely go to the Midwest Summit and hear your talk. I was there last year, did a talk. I won't be there this year, so I'll have to see if I can get ahold of the video of it or something.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "buildpack",
+      "type": "concept",
+      "role": "concept",
+      "name": "buildpack",
+      "file": "buildpack",
+      "primary": true,
+      "how_described": "本集说它是把传统 Java buildpack 概念搬到智能体上的工具框架：推送一个 agents.md，平台一分钟内把它作为最佳实践容器跑起来并可扩容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            1053.24,
+            1085.135
+          ],
+          "quote": "Yeah, so I think the first thing that we wanna focus on is that the enterprise, you know, needs to get whatever technology approved throughout their system. And then we so we are providing a harness, called the, Tainzu Agent Build Pack, and that helps to that process. So our existing customers already have our customer you know, we're already approved so that we can help provide them those tools. And we just make that process just another app deployment on the on the platform. So I probably haven't covered this, but I'll explain what a buildpack is.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1113.465,
+            1140.9299
+          ],
+          "quote": "And we just run a command called c f push. And that would then just take that that code, the JAR file, and upload it to platform. And the platform would be like, oh, it's it's a Java app. So I'm gonna use the Java buildpack, and the buildpack is a it's basically a kind of a command set to make a best practice container based off that use case. So the Java buildpack knows to do all the JVM memory calculators, do the JDK and certificates, and all everything that's best practice to run Java in a container on a cloud platform.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "agents-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "agents.md",
+      "file": "agents.md",
+      "primary": true,
+      "how_described": "本集说它是一种人类可读的语言文件，告诉智能体该做什么、怎么表现（如「你是资深工程师，监视这个 Jira 队列，审查进来的工单」），推送到平台即可部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            127.2,
+            177.97
+          ],
+          "quote": "Nick, I I know you're gonna be talking one of the things I thought was cool about your talk at the Midwest AI Summit is you bring in this concept of taking, like, agents.md and shipping that to a production environment where you run, you know, an actual agent in an, quote, enterprise environment, which seems to be, really fascinating. We recently had on, someone from is kind of stewarding the model context protocol and Agents. Md and those sorts of things. Very relevant kind of carry on from that conversation. But I'm wondering as we set that up, what what exactly does it mean to be operating in an enterprise environment?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1657.99,
+            1677.785
+          ],
+          "quote": "Mhmm. When you spin that agent up, does each instance of that, each session have a unique identity? What is the what's unique about that session and the data that that is generated by that session versus maybe the things that are always static? Like, I I'm not sure if the Agents. Md is is always static.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说它基本上是一种让应用与 LLM 对话的标准方式，智能体的工具通过托管在平台上的 MCP 服务器提供——在 Broadcom 这是开发者唯一被批准的使用方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            858.83,
+            917.19995
+          ],
+          "quote": "They're connected to MCP servers and tools. And those agents are acting within a fleet, delegating to one another and interacting with one another. In that environment, what you don't have is a single kill switch that solves all of your problems, but that doesn't mean that you can't exert your control. You just have to exert that control across various layers of that stack through, of of course, component input output safeguards, but also controls on agents tied to their agent identity, things that track tool misuse or memory poisoning or goal drift, etcetera. And what we're providing at Prediction Guard, the company that I lead personally, is an AI control plane that you self host in your own infrastructure that gives you that control plane or control layer for the relevant stack that agents operate on top of.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1205.4149,
+            1222.78
+          ],
+          "quote": "Then that kinda gave us a simple, like, here's your out of box agent with chat experience. And then, you know, along the way, like, we've done a lot of things with MCP, so, you know, the model context protocol. You guys covered that on the show before, but it's, know, basically a way for an app to talk to an LLM. Like, very, very high level. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1222.995,
+            1253.565
+          ],
+          "quote": "So we that's become, you know, useful as well as we then give the agent tools via MCP servers. And even at Broadcom, like, the only way approved way to use for our developers is to deploy MCP servers on Tansy platform so that we have a whole set of MCP servers that are approved and hosted, and they're kind of secured and maintained. Because they are very similar to applications as well. And then we have a a concept of like the MCP gateway service that kinda registers that and secures all those the servers. So then we can then extend the gateway to that agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1397.475,
+            1429.115
+          ],
+          "quote": "The unplanned swarms, swarms that you don't necessarily want. I actually have a two second follow-up, and that is it's for my benefit, and we've talked a lot on the show over various episodes about agents using MCP to get access to different apps and services and tools and stuff We like that out haven't really talked about what an MCP gateway is, and I was wondering if you could share that for a moment just as a detail because that's kind of the one little new piece of architecture that we've never touched on on the show.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1429.115,
+            1446.31
+          ],
+          "quote": "Sure. Yeah. So if you think about an MCP gateway as a way to easily control and scale access to MCP servers, especially within you're in a cloud, I guess, platform. So we may have, like, 30 or 40 MCP servers that we run, or I don't even I don't even know how many it is. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1446.655,
+            1461.375
+          ],
+          "quote": "And then those get bound those get registered and and bound to certain specific MCP gateways. So maybe there's like a you know? And the MCP gateway is something we can spit up on the fly on on the platform. There are many different MCP gateways out there. There's many different AI gateways out there.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1461.375,
+            1495.0099
+          ],
+          "quote": "Some of some of them are the same, you know, the one in the same. But you basically register MCP servers to this gateway, and the gateway kinda controls access, so to speak, and regulates that. So it may say, like, you can bind to this gateway, you only get these these MCP servers. You only get these MCP tools within it, that type of thing. So it's a way to easily abstract all the different MCP servers that may be in an organization and kinda direct them into a certain either a certain agent, or we even have a flow where, like, you can take we'll we'll take those MCP gateways that we run that front all of our MCP servers.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 63,
+          "t": [
+            1511.065,
+            1545.215
+          ],
+          "quote": "And then, like, on the MCP server helps handle the auth as well. Because some of them are like, well, it's my if I'm using the GitHub MCP server, I wanna pass my end user credentials all the way through to that MCP server because I don't want, you know, I don't want it just to be like, well, here's our general generic service account for the entire organization, and every GitHub action is is gonna be, you know, seen by that one account. And you have to you have to have the individual identity pass through. So you have, like, the concept of, like, SSO and sign in as well for an identity for agents or humans running their agents on their their desktop. So that's kind of a quick level view.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1545.215,
+            1567.8049
+          ],
+          "quote": "And then a great way about that too is because it's all flowing through that gateway, we get metrics out of it. So we can see all the tool calls and all the all the events happening coming from the agents to the MCP servers and back and forth. So you kinda kinda see what's happening, especially if maybe if there's something unexpected. Like, well, this one agent, you know, made 200,000 tool calls to, you know, delete repo. Like, oh, like, maybe we should alert on that.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1908.25,
+            1937.1699
+          ],
+          "quote": "So I really appreciate This has been really good for helping me trying to conceptualize how all this fits together. I think I had some understanding, you've gotten a level of detail. I want to ask you, we are looking forward, I have several questions that are really kind of driving my thinking. You've got me thinking creatively based on what you've said. So as you look at We've talked about MCP.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 82,
+          "t": [
+            1938.21,
+            1987.365
+          ],
+          "quote": "There are new things coming out, things like there's the A2A, which is the agent to agent protocol, and organizations are starting to look at that, and they already have their MCP servers maybe, but they're trying to get the structure and kind of bring the sanity around it that you've been talking about. Then they kind of go, Oh, okay, it's not so different from what we already know. But as this is evolving very fast and you have things like these new protocols, do you have any guidance on how to start integrating this constant flow of change in, terms of First on the technology, and I'll hit the other half of that afterwards. As you're trying to bring things in and make it work, have you guys kind of thought about how to structure that?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2047.7301,
+            2065.385
+          ],
+          "quote": "And you're like, don't don't try to boil the ocean, make baby steps, you know, to and and get progress. And then as you'll like, and you'll learn the technologies, and then the next step will just kinda be obvious. Like, well, I I can make the agent better if I get some MCP servers, get them tools. Alright. And then we gotta get these tools approved and then add on to that.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "mcp-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 网关 (MCP gateway)",
+      "file": "MCP 网关",
+      "primary": true,
+      "how_described": "本集说它是一种统一控制和管理对 MCP 服务器访问的服务：注册服务器、控制谁能绑定哪些工具、支持终端用户凭据透传，并因一切流量过网关而天然产生指标和异动报警。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            1222.995,
+            1253.565
+          ],
+          "quote": "So we that's become, you know, useful as well as we then give the agent tools via MCP servers. And even at Broadcom, like, the only way approved way to use for our developers is to deploy MCP servers on Tansy platform so that we have a whole set of MCP servers that are approved and hosted, and they're kind of secured and maintained. Because they are very similar to applications as well. And then we have a a concept of like the MCP gateway service that kinda registers that and secures all those the servers. So then we can then extend the gateway to that agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1397.475,
+            1429.115
+          ],
+          "quote": "The unplanned swarms, swarms that you don't necessarily want. I actually have a two second follow-up, and that is it's for my benefit, and we've talked a lot on the show over various episodes about agents using MCP to get access to different apps and services and tools and stuff We like that out haven't really talked about what an MCP gateway is, and I was wondering if you could share that for a moment just as a detail because that's kind of the one little new piece of architecture that we've never touched on on the show.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1429.115,
+            1446.31
+          ],
+          "quote": "Sure. Yeah. So if you think about an MCP gateway as a way to easily control and scale access to MCP servers, especially within you're in a cloud, I guess, platform. So we may have, like, 30 or 40 MCP servers that we run, or I don't even I don't even know how many it is. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1446.655,
+            1461.375
+          ],
+          "quote": "And then those get bound those get registered and and bound to certain specific MCP gateways. So maybe there's like a you know? And the MCP gateway is something we can spit up on the fly on on the platform. There are many different MCP gateways out there. There's many different AI gateways out there.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说平台长期提供高度受保护的容器运行时，智能体各自在自己的沙箱里、彼此不互通、不能上网、不能提权、不接触宿主系统；失控蜂群事件缺的正是这种加固沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            1323.96,
+            1368.685
+          ],
+          "quote": "It gets a request, and it just immediately pulls down the repo and starts doing a a security review and then publishes or pushes up to the issue that I created on GitHub and says, this this is security review. So you could see how that flow would be really useful in Enterprise where, like, maybe on every Git commit, you can just have all these agents spinning up on the fly that could be a security review agent, you know, potentially like a, you know, a style or, you know, code quality review agent or potentially even like a, I don't know, like maybe a design review agent, all firing up on the fly as things like call. So it's kinda like and then they all have their they're all in their own little sandbox and everything's proper. Right? Because part of, you know, the platform, for a while, it's been this very secured container runtime where they can't talk to each other unless you enable them.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 108,
+          "t": [
+            2483.125,
+            2503.51
+          ],
+          "quote": "So but if you if you look at some of the the things where how that kinda got started is where they, you know, they started getting out of the sandbox. Right? And then they they found things that were, like, they could get access to. Or, you know, having monitoring control around what those apps or agents can do is is, you know, something that's been been in mind for all enterprise apps. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2529.8699,
+            2568.325
+          ],
+          "quote": "And, like, you had all these agent swarms. And then, of course, then then they got to the Artifactory, which then they found the weak link, and the Artifactory had the Internet access, and somehow they magically, you know, zeroed the Artifactory instance multiple times. So not to say that we could prevent everything, but it's just you take those, at least, core enterprise technologies that maybe would've helped out a little bit of just agent control, like hardened sandbox type con constructs, very locked down network controls. That would help a little bit potentially. You know, just, you know, monitoring what's in the in the agent, Make sure that the agents aren't, you know, somehow injecting tools that they're not supposed to have.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆服务 (memory)",
+      "file": "记忆服务",
+      "primary": true,
+      "how_described": "本集说传统智能体把记忆写成 MD 文件放文件系统，但云上实例是临时的、一关机记忆就消散，所以要加共享内存服务并按团队隔离，让智能体启动即获得历史上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            660.88,
+            697.92
+          ],
+          "quote": "Well, I mean, I I think some of the biggest differences, right, where, like, you talk about Cloud Foundry and Teensy platform, it was kinda based on this premise of a 12 factor application where storage and state are a little decoupled cleanly from the actual apps. You could I can scale up to a thousand instances and be fine, and you handle session state and things. The traditional harnesses or agents were kinda built originally just to be like, oh, I've got file system access, and I can just write a bunch of MD files, and that's like my memory. Everything's great. And they're like, well, you start to get into a cloud cloud world that things spin up and down and are ephemeral, you're gonna wanna save those MD files somewhere.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 37,
+          "t": [
+            858.83,
+            917.19995
+          ],
+          "quote": "They're connected to MCP servers and tools. And those agents are acting within a fleet, delegating to one another and interacting with one another. In that environment, what you don't have is a single kill switch that solves all of your problems, but that doesn't mean that you can't exert your control. You just have to exert that control across various layers of that stack through, of of course, component input output safeguards, but also controls on agents tied to their agent identity, things that track tool misuse or memory poisoning or goal drift, etcetera. And what we're providing at Prediction Guard, the company that I lead personally, is an AI control plane that you self host in your own infrastructure that gives you that control plane or control layer for the relevant stack that agents operate on top of.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1113.465,
+            1140.9299
+          ],
+          "quote": "And we just run a command called c f push. And that would then just take that that code, the JAR file, and upload it to platform. And the platform would be like, oh, it's it's a Java app. So I'm gonna use the Java buildpack, and the buildpack is a it's basically a kind of a command set to make a best practice container based off that use case. So the Java buildpack knows to do all the JVM memory calculators, do the JDK and certificates, and all everything that's best practice to run Java in a container on a cloud platform.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1253.645,
+            1278.725
+          ],
+          "quote": "So then the gateway this agent now has, like, secure access to a runtime, you know, battle test runtime. It can talk to an LLM that's approved and, get tools via and gateway. And then we're starting to add in like the memory service as well to have a kind of a shared memory service. So we're kind of expanding all of that out where we're seeing all those best practice app lifecycle go to, you know, see a push, go. Here's an agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 67,
+          "t": [
+            1595.2949,
+            1631.5299
+          ],
+          "quote": "Part of that centers around kind of pushing an agents dot m d file. You mentioned, like, people have these m d files hanging around. You mentioned memory. You mentioned identity. I'm wondering if you could kind of help us understand, like, if I have if I if I'm working on my laptop, right, and I'm using a certain agent harness, I may have an MD file that is kind of generic, and then I have files that are created by the agent that it uses that are only corresponding to my single agent.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1631.61,
+            1657.7151
+          ],
+          "quote": "Mhmm. Then I have, you know, memory and then, you know, calls into other things. As you're pushing this, like, off the laptop now, and I imagine taking that off, like, what belongs in, like, an agent's dot m d file? And what is, like, as you're giving that example, right, you may have one agent in the platform that is a security reviewer for, that that does security reviews. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1753.065,
+            1769.83
+          ],
+          "quote": "And then, like, the memory service we have, where you can attach it. You can have, you know you know, potentially memory of a certain project. So, you know, we kind of envision, like, each set of teams to have their own multiple set of agents. Right? And it could be like, well, you know, team A's agents have the access to team A's memory.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1769.83,
+            1800.8799
+          ],
+          "quote": "So as they come up, they know, like, all of this historical data of, like, what like, the architecture of the application, the what's been done before, the roadmap, that type of thing. So as it spins up and does a security review, it can make proper decisions and proper guidance. So that as you kind of build your local agents and kind of give them memory and they become smarter, that that memory service as you have agents spin up and down, they just immediately they immediately know what what's happened before, know how to how to proceed. As",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说对多数企业，拿到一个安全、被批准的 LLM 访问仍是最大障碍；且 LLM 应与调用它的应用和数据尽量同地部署，离 30 跳远的延迟在大规模下就是问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            734.565,
+            760.975
+          ],
+          "quote": "And you want those to be kinda really close to the apps. Right? Because if you're if you have them way off, you know, even just from a pure networking perspective, if you have, you know, the agent or the LLM or whatever that's like, you know, 30 hops away from the the microservices try to call it, there's, you know, physics that are gonna add on to all of that latency and potentially at scale even be problematic. So they they kinda wanna collate all the intel co locate the intelligence with the app and the data as close as possible. That's what we've seen too.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1205.4149,
+            1222.78
+          ],
+          "quote": "Then that kinda gave us a simple, like, here's your out of box agent with chat experience. And then, you know, along the way, like, we've done a lot of things with MCP, so, you know, the model context protocol. You guys covered that on the show before, but it's, know, basically a way for an app to talk to an LLM. Like, very, very high level. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1253.645,
+            1278.725
+          ],
+          "quote": "So then the gateway this agent now has, like, secure access to a runtime, you know, battle test runtime. It can talk to an LLM that's approved and, get tools via and gateway. And then we're starting to add in like the memory service as well to have a kind of a shared memory service. So we're kind of expanding all of that out where we're seeing all those best practice app lifecycle go to, you know, see a push, go. Here's an agent.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 84,
+          "t": [
+            2008.215,
+            2022.9401
+          ],
+          "quote": "And, you know, for most most places, you know, just getting access to an LLM is still the biggest hurdle. Right? A secured, you know, approved. So and then potentially, you know, going through the going through the AI AI council, right, their committee. Right?",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 129,
+          "t": [
+            2819.4448,
+            2838.2
+          ],
+          "quote": "Well, I I may have ordered a few for the family, and I'm like, those things be awesome. So, like like, robotics and things, like, you know, I I think the LLM is is great and wonderful, but there's so many more possibilities where we could go that I guess, like, for humanity. Right? As long as you don't we prevent the Terminator scenario. It'll be great.",
+          "speaker": "Nick"
+        }
+      ]
+    },
+    {
+      "id": "air-gap",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理隔离 (air gap)",
+      "file": "物理隔离",
+      "primary": true,
+      "how_described": "本集说企业环境可能完全没有互联网访问，合作的一些客户是真正的物理隔离，东西要靠人物理搬进数据中心，这类客户可跑本地模型加本地 GPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            265.92,
+            299.07
+          ],
+          "quote": "So it's just a whole different ballgame where, you know, you could potentially do something that has dramatic consequences. And you have a, you know, highly controlled, highly regulated environment where even some of the customers I work with are like, know, they actually have the real air gap. Like, we're carrying in things, you know, physically into the data center because there is no Internet access type of thing. So it's it's it's a wild world, but and it and it frustrates a lot of, I think, new folks to the enterprise space. But if you've been in it a while, you know you know you know how to deal with it and and how how to handle it type of thing.",
+          "speaker": "Nick"
+        },
+        {
+          "seg": 103,
+          "t": [
+            2373.915,
+            2392.13
+          ],
+          "quote": "Yeah. I'm curious. I wanna circle back for a moment on something you said. As we're talking about kinda spreading across, my mind goes to security, because I know in my industry security is pretty big deal. We do have air gap things and stuff like that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集仅在介绍 Cloud Foundry 历史时顺带一提它比 Kubernetes 和 Docker 还早。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            375.3,
+            416.42502
+          ],
+          "quote": "And if you make that path to production, like all the check boxes and everything good to go, that's gonna be a highly adopted path. So the whole concept of, you know, Teensy platform, and it's actually based on an open source project called Cloud Foundry, which is, I think I mean, it's I mean, it predates Kubernetes and Docker. So, you know, twenty eleven ish is when it kinda started originally out of VMware and spun out and then became part of a open source project. So it's been around and battle tested and seen a lot of things where you have that concept of, like, I just wanna take my code and send it to the platform, and the platform's gonna know, like, the best practices for it's gonna build a container for the developer so the developer doesn't have to worry about, like, you know, securing the container or anything like that. That platform will take care of that.",
+          "speaker": "Nick"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

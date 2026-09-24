@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]]
+[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Wix":3,"Base44":3,"Salesforce":26,"Atlassian":5,"vibe coding":36,"SaaS":17,"回购":1,"股权激励":1,"微调":19}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Wix":3,"Base44":3,"Salesforce":26,"Atlassian":5,"vibe coding":37,"SaaS":17,"回购":1,"股权激励":1,"微调":19}</script>
 
 <script>
 (function(){

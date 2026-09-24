@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":297,"子智能体":1,"harness":41,"提示词缓存":2,"记忆":14,"评估":3,"LLM 当裁判":8,"沙箱":54,"人在回路":13}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":301,"子智能体":1,"harness":41,"提示词缓存":2,"记忆":15,"评估":3,"LLM 当裁判":8,"沙箱":56,"人在回路":13}</script>
 
 <script>
 (function(){

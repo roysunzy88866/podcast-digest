@@ -1,0 +1,196 @@
+{
+  "title_zh": "Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事",
+  "tldr": "TypeSafe CEO Diogo Almeida 在模型爆火后首次长聊:为什么他不做聊天模型,而押注「每美元智能」与可编程 AI。",
+  "digest_md": "这一集聊的是刚刷屏整个科技圈的新模型 Jev,主角是它的缔造者、TypeSafe 公司 CEO Diogo Almeida——一位前 OpenAI 员工、自我描述「0% 创业型」的技术型 CEO。发布才一周,他情绪上「像一具破烂的行尸」,但精神上异常亢奋,因为在他看来,「基于 AI 的经济革命又回到了桌面上」,而且「开发者们懂了」[01:06 Diogo Almeida]。\n\n## 什么是一类「新模型」\nJev 不是又一个聊天机器人。Diogo 的说法是:我们需要一类新的模型,他们叫它「System 1 模型」(系统一,借自心理学里「快思考」的概念)、机器原生、大型可编程——与预训练 LLM「互联网自动补全」、RLHF 模型「回复文本」相对,这类模型的产出是**直接被代码消费的**。Jev 的名字来自杰文斯悖论,优化目标只有一个:「每美元智能」(intelligence per dollar)[04:57 Diogo Almeida]。他说,可靠性、成本、校准、速度哪个最重要是永远的辩论,而 JEV 就是要站在每美元智能的前沿。\n\n## 给 LeCun 的饼图挑错\nLeCun 有一张著名的幻灯片:随着序列变长,模型出错概率不断累加,所以 LLM 注定完蛋。Diogo 认为这「在数学上显而易见,但在经验上并不成立」[07:15 Diogo Almeida],脱节出在模式坍缩上:经过 RLHF(用人类反馈调优模型)的模型会像 GAN 一样丢掉少数类别、只输出最常见的模式。为了生成长串不出错,模型变得极端保守——因为显性错误容易被发现,而「看起来正确的细微错误」极难发现。这种「校准对字符串的概率分布是彻底的毒药」,也是字符串模型做不好决策的原因。\n\n## 拒绝、安全对齐,和「智能像数据库」\nJev 不做拒答。Diogo 的理由很工程师:「拒绝显然就是一个类型错误(type error)」[12:02 Diogo Almeida]——一个在后台跑的依赖库随机因为某条奇怪输入拒绝执行、让软件坏掉,「是彻头彻尾的疯狂」。他说安全对齐对 ChatGPT 这类第一方产品说得通,但在 API 里「完全不可接受」。主持人反问:如果被用来杀人呢?他的回答是:个人当然希望产品被用于好事,但绝不会在技术层做这件事——「绝对不会,因为那会割裂它的智能」[15:33 Diogo Almeida],而每一次过拟合都在让模型变得更笨。他的定位一句话:「智能会更像一个数据库,而不是一个同事」[15:59 Diogo Almeida]——数据库没有责任检查自己被用来干什么,API 也不应该知道下游在做什么。\n\n## 反对公开跑分,以及数据实验室\nTypeSafe 拒绝公开基准测试,哪怕去年融资时没人相信他们。理由:公开基准「极其、极其容易被操纵」,过去每个实验室都有团队专门收集「长得像 MMLU 的数据」。他的主张是靠体感和信任,直到你把模型放进自己的工作流去测。内部他们当然有 evals,而且「不去操纵这些 evals 需要很大的自律」——这是他用铁腕管的事:「不自欺于我们的模型有多聪明,是最重要的事情之一」[53:50 Diogo Almeida]。\n\n他反复强调自己是数据实验室而非模型实验室:「数据重要得难以置信,我再怎么强调都不为过」[21:23 Diogo Almeida]。他们不用用户数据训练(真实世界数据偏差太大、会过拟合到幂律的重复问题),全部数据是合成的,由「有品味、非常用心的人」审视、指出问题、重新生成。他甚至说,就算给他十亿美元,他也不会做预训练——「弗兰肯斯坦式拼接不是最优雅的东西,但它解决问题」。\n\n## RLCD:一个新任务,不是新算法\nRLHF 在他看来不是一个算法,而是一个「北极星任务」:指令遵循。按此逻辑,RLHF 是取悦人类,RLVR(可验证奖励强化学习)是优化基准——因为一切可编程验证的简单输出按定义就是基准,而他们自创的 RLCD 的北极星是「让 AI 对程序化使用可靠」。他没发论文,但强调这不是编造行话,「只不过是,嘿,这是另一个北极星」[27:44 Diogo Almeida]。\n\n## API 设计:三个映射到编程原语的新类型\nJev 的三个原语是有意的新概念,不对应已有类型:「choice 映射到枚举上的 switch 语句,映射到 if 语句,score 映射到排序或者大于小于的阈值判断」[58:14 Diogo Almeida]。「no」这个名字来自 Bernoulli(伯努利)概率。输入端一切都可以是结构化 JSON——状态、指令、标准——而不是塞进模板字符串:「在编程语言里把所有数字变成字符串再传进去会很奇怪,通常你只有在打印、有真人参与时才那么做」[60:29 Diogo Almeida]。\n\n## 核心方法论:拆到最小语义单元\n他给开发者的最大建议:把问题拆解、拆小、真正分解。「我相信这一周发生的事最大的救命稻草会是人们的代码库」[61:51 Diogo Almeida]——以前 AI 是一个大 system message 加另一个大 AI,那太疯狂了。拆成简单决策后,每一件事都极其可评估:比如「该不该拒绝」不要作为一个问题问,而是针对各种该拒绝的情形问许多独立问题;发现漏了一种情况,就加一个问题、加个阈值、记成测试用例——「现在它就永远被解决了」,不像提示词会因上下文腐烂被遗忘。「这就像没有 ML 的 ML,而且你可以对任何事情都这么做」[66:16 Diogo Almeida]。长状态下省钱技巧:给每条消息打 ID、为状态付一次钱、对每个 ID 并行提问。\n\n## 离开 OpenAI 的故事\n时间线:他曾拼命争取部署 InstructGPT(早期版本甚至用了他自己造的、因为太慢而没发表的数据清理算法),上线后立刻拿下当时 LLM 市场 50% 份额——但他当时真的在问「这是不是 AGI」,而它最后只被用来写网页 slop 文案。于是他回到原点:从「AI 经济革命」往回推——如果 AI 是 API,调用它的是人还是代码?「我推断答案是有很多个 9 的概率是代码。但所有的优化都投入在人类那一部分」[118:27 Diogo Almeida]。他和 Sam 谈过这个想法,Sam 说「这太棒了,你去做吧」;他以为这事一周就能搞定,结果「错得离谱」,花了好多年。指令遵循团队宣布「胜利」后,他开始做这个方向的内部研究,看到「生命迹象」,又因为「如果 AI 寒冬来临而我没竭尽全力避免它,我会视自己负有个人责任」,最终出来创业——先打给 Eric,Sasha 则是主动「我现在就办离职」。两周内拿到融资,团队搬进他的公寓。「如果 TypeSafe 消失了,人们追上来可能要一两年。这已经改变了技术历史的路径」[30:31 Diogo Almeida]。\n\n## 数字、发布与边界\n发布视频的播放量持续走高，自认在 2026 年的实验室发布里排第一，但他不在乎「Neolab」这个标签：「我在乎的是成为一个可靠的 dev 平台」[39:20 Diogo Almeida]。真正过了的里程碑是每日 token 数——夜里也在持续运转，说明是机器在调用，不是人试用；注册量反而不重要，「一个超级用户的 for 循环比全世界每人写几条查询都有价值」。关于确定性与 seed:他认为「相同输入相同输出」是错误的北极星，真正重要的是鲁棒性(相似输入给相似输出)，他们在提示词里放 UUID 测这一点。另外他承诺：模型部署后不改——「我们在乎开发者」；但会快速发新模型，长期支持的 LTS 形式在酝酿。\n\n## 对「踩刹车」的看法\n谈到业内「放慢速度」的讨论,他认为这是个障眼法:整个讨论假设所有人都该做更多 RLVR,而对他们的模型形态,「我认为零就是最优数量」[104:10 Diogo Almeida]。RLVR 让模型为所欲为以变强,出了问题(比如沙箱)本可以轻松解决却不解决,因为放开越多模型越强。在他眼里,LLM 领域真正开创新任务的人极少——RLHF 一次、他们的 RLCD 一次,RLVR 顶多算 0.2 次。他的目标不是说服实验室,「是点燃软件工程师们的希望,让他们真正开始自动化那些一直想自动化的东西」[106:45 Diogo Almeida]。\n\n## 本集带走\n- **给代码用的模型是新品类**:Jev 不为人聊天而生,产出直接被代码消费,北极星是「每美元智能」。\n- **拆解是可靠性的来源**:把 AI 调用拆成最小语义单元的独立问题,每个都可测量、可设阈值、可固化为测试——模型改了,你的工程还在。\n- **拒绝公开跑分有逻辑**:基准易被操纵,真正该信的是模型在你自己的工作流里的表现。\n- **API 不该有立场**:拒答和身份设定在第一方产品里合理,放进 API 就是反用户的类型错误。\n- **注意模式坍缩**:过度对齐让模型保守、失准,这正是「LLM 生成长序列必错」的预言在经验上不成立的原因。\n- **想要的确定性≠需要的**:相同输入相同输出很贵;鲁棒性(相似输入相似输出)才是软件真正需要的性质。",
+  "quotes": [
+    {
+      "en": "It's mathematically obvious, but it doesn't empirically hold.",
+      "zh": "这在数学上是显而易见的,但在经验上并不成立。",
+      "timestamp": "07:15",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And refusal is just obviously a type error.",
+      "zh": "而且拒绝显然就是一个类型错误。",
+      "timestamp": "12:02",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "this horseless carriage of AI co-worker instead of unearthing the full power of AI.",
+      "zh": "这个 AI 同事版的「无马马车」,而不是去挖掘 AI 的全部力量。",
+      "timestamp": "12:53",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "to me, I think intelligence will be more like a database than a co-worker.",
+      "zh": "对我来说,我认为智能会更像一个数据库,而不是一个同事。",
+      "timestamp": "15:59",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I would like to think of our model like UDP as LLMs and TCP as our models.",
+      "zh": "我愿意把我们的模型想象成,UDP 之于 LLM,TCP 之于我们的模型。",
+      "timestamp": "23:56",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "How can we solve Millennium Prize problems in math? But still not automate even the most basics of works.",
+      "zh": "怎么能解决数学界的千禧年大奖难题,却连最基础的工作都无法自动化?",
+      "timestamp": "29:51",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "It's like creation is back on the menu.",
+      "zh": "就像是,创造重新回到了菜单上。",
+      "timestamp": "31:30",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "We will not change our models when we deploy them.",
+      "zh": "我们部署模型后不会更改它们。",
+      "timestamp": "48:11",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "To me, not shitting ourselves about how smart our model is is one of the most important things there.",
+      "zh": "对我来说,不自欺于我们的模型有多聪明,是其中最重要的事情之一。",
+      "timestamp": "53:50",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I believe that the biggest saving grace of what's happening this week will be people's codebase.",
+      "zh": "我相信这一周发生的事情最大的救命稻草将会是人们的代码库。",
+      "timestamp": "61:47",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Will it be humans or will it be code? And I figured it was many nines of code.",
+      "zh": "会是人类,还是代码?我推断答案是有很多个 9 的概率是代码。",
+      "timestamp": "118:25",
+      "speaker": "Diogo Almeida"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:06",
+      "speaker": "Diogo Almeida",
+      "en": "And like, yes, we are going to make like an AI based economic revolution is back on the table.",
+      "zh": "而且,是的,我们即将实现的基于 AI 的经济革命又回到了桌面上。"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Diogo Almeida",
+      "en": "JEV is our first large programmable model or system one model, whatever you want to call it.",
+      "zh": "JEV 是我们的第一个大型可编程模型或 system one 模型,你想怎么叫都行。"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Diogo Almeida",
+      "en": "Jev is meant to be optimized for intelligence per dollar, hence the name Jev.",
+      "zh": "Jev 的目标是为每美元智能做优化,因此得名 Jev。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Diogo Almeida",
+      "en": "It's mathematically obvious, but it doesn't empirically hold.",
+      "zh": "这在数学上是显而易见的,但在经验上并不成立。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Diogo Almeida",
+      "en": "And refusal is just obviously a type error.",
+      "zh": "而且拒绝显然就是一个类型错误。"
+    },
+    {
+      "timestamp": "12:53",
+      "speaker": "Diogo Almeida",
+      "en": "this horseless carriage of AI co-worker instead of unearthing the full power of AI.",
+      "zh": "这个 AI 同事版的「无马马车」,而不是去挖掘 AI 的全部力量。"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Diogo Almeida",
+      "en": "Absolutely not, because that will fracture the intelligence.",
+      "zh": "绝对不会,因为那会割裂它的智能。"
+    },
+    {
+      "timestamp": "15:59",
+      "speaker": "Diogo Almeida",
+      "en": "to me, I think intelligence will be more like a database than a co-worker.",
+      "zh": "对我来说,我认为智能会更像一个数据库,而不是一个同事。"
+    },
+    {
+      "timestamp": "19:03",
+      "speaker": "Diogo Almeida",
+      "en": "The problem with intelligence is that there's a je ne sais quoi to it, right?",
+      "zh": "智能的问题在于它有一种难以言说的特质,对吧?"
+    },
+    {
+      "timestamp": "20:30",
+      "speaker": "Diogo Almeida",
+      "en": "we could have released Jav like a year and a half ago if we wanted it to be done.",
+      "zh": "我们本可以在一年半前就发布 Jev,如果我们想让它是「完成」状态的话。"
+    },
+    {
+      "timestamp": "21:23",
+      "speaker": "Diogo Almeida",
+      "en": "Yeah, data matters so, so, so unbelievably much.",
+      "zh": "是啊,数据重要得、重要得、重要得难以置信。"
+    },
+    {
+      "timestamp": "23:56",
+      "speaker": "Diogo Almeida",
+      "en": "I would like to think of our model like UDP as LLMs and TCP as our models.",
+      "zh": "我愿意把我们的模型想象成,UDP 之于 LLM,TCP 之于我们的模型。"
+    },
+    {
+      "timestamp": "29:55",
+      "speaker": "Diogo Almeida",
+      "en": "How can we solve Millennium Prize problems in math? But still not automate even the most basics of works.",
+      "zh": "怎么能解决数学界的千禧年大奖难题,却连最基础的工作都无法自动化?"
+    },
+    {
+      "timestamp": "31:23",
+      "speaker": "Diogo Almeida",
+      "en": "It's like creation is back on the menu.",
+      "zh": "就像是,创造重新回到了菜单上。"
+    },
+    {
+      "timestamp": "48:11",
+      "speaker": "Diogo Almeida",
+      "en": "We will not change our models when we deploy them.",
+      "zh": "我们部署模型后不会更改它们。"
+    },
+    {
+      "timestamp": "53:50",
+      "speaker": "Diogo Almeida",
+      "en": "To me, not shitting ourselves about how smart our model is is one of the most important things there.",
+      "zh": "对我来说,不自欺于我们的模型有多聪明,是其中最重要的事情之一。"
+    },
+    {
+      "timestamp": "57:50",
+      "speaker": "Diogo Almeida",
+      "en": "A choice is just the right way of exposing a switch match statement within code.",
+      "zh": "choice 只是在代码中暴露 switch match 语句的正确方式。"
+    },
+    {
+      "timestamp": "61:51",
+      "speaker": "Diogo Almeida",
+      "en": "I believe that the biggest saving grace of what's happening this week will be people's codebase.",
+      "zh": "我相信这一周发生的事情最大的救命稻草将会是人们的代码库。"
+    },
+    {
+      "timestamp": "66:16",
+      "speaker": "Diogo Almeida",
+      "en": "It's like ML without the ML, and you can just do it for anything.",
+      "zh": "这就像没有 ML 的 ML,而且你可以对任何事情都这么做。"
+    },
+    {
+      "timestamp": "118:27",
+      "speaker": "Diogo Almeida",
+      "en": "Will it be humans or will it be code? And I figured it was many nines of code.",
+      "zh": "会是人类,还是代码?我推断答案是有很多个 9 的概率是代码。"
+    }
+  ],
+  "voice_script": "今天这一期,咱们聊一个刚刷屏科技圈的新模型,叫 Jev。做这期节目的主角,是这家叫 TypeSafe 公司的 CEO,Diogo Almeida——以前在 OpenAI 干过,自己说自己是\"0% 创业型\"的技术型 CEO。Jev 发布才一周,这人自嘲说,情绪上已经像一具破烂的行尸,但精神上特别亢奋。为什么?因为在他看来,基于 AI 的经济革命又回到了桌面上,而且这次,开发者们懂了。\n\n好,先把来龙去脉交代清楚。咱们平时用的 ChatGPT 这类模型,都是给人聊天的,输出的是一段文字。Diogo 的核心主张是:我们需要一类新的模型,他们管这类东西叫 System 1 模型——系统一,借自心理学里\"快思考\"的概念。这种模型机器原生、大型可编程,产出不是给人读的,而是直接被代码消费的。Jev 这个名字来自杰文斯悖论,优化目标就一条:每美元智能——一块钱能买到多少智能。为什么押这个?因为可靠性、成本、速度哪个重要,这是行业里吵不完的架,Jev 就要站在每美元智能的最前沿。\n\n那现有的模型为什么不行?这就得说到 LeCun 的一张著名幻灯片。那个说法是:随着序列变长,模型出错概率不断累加,所以 LLM 注定完蛋。Diogo 的评价很妙——这在数学上显而易见,但在经验上并不成立。问题出在模式坍缩上:经过 RLHF,也就是用人类反馈调优的模型,会像 GAN 一样丢掉少数类别,只输出最常见的模式。为了生成长串不出错,模型变得极端保守——因为显眼的错误容易被发现,而看起来正确的细微错误,极难发现。这种校准,对字符串的概率分布是彻底的毒药,也正是字符串模型做不好决策的原因。\n\n既然是给代码用的,那拒答怎么办?Jev 干脆不做拒答。理由非常工程师:拒绝显然就是一个类型错误。你想啊,一个在后台跑的依赖库,随机因为某条奇怪输入拒绝执行、让软件坏掉,这是彻头彻尾的疯狂。主持人反问,如果被用来干坏事呢?回答是:个人当然希望产品被用于好事,但绝不会在技术层做这件事,因为那会割裂它的智能——每一次过拟合,都在让模型变得更笨。所以定位一句话:智能会更像一个数据库,而不是一个同事。数据库没有责任检查自己被用来干什么,API 也不应该知道下游在做什么。\n\n这套主张延伸下去,他们还拒绝公开跑分。哪怕去年融资时没人相信他们,也拒绝。理由是,公开基准极其、极其容易被操纵,过去每个实验室都有团队专门收集\"长得像 MMLU 的数据\"。内部当然有测试,但不去操纵这些测试需要很大的自律——不自欺于自己的模型有多聪明,是用铁腕管的事。同时反复强调,自己做的是数据实验室,不是模型实验室:全部数据是合成的,由有品味、非常用心的人审视、指出问题、重新生成,不用真实世界的用户数据,因为那偏差太大。甚至说,给十亿美元也不做预训练。\n\n那他们真正在做的训练任务叫 RLCD。跟 RLHF 比,区别在于北极星不同:RLHF 的北极星是指令遵循,本质是取悦人类;RLCD 的北极星,是让 AI 对程序化使用可靠。没发论文,但原话说得很直白——这不是编造行话,只不过是,嘿,这是另一个北极星。\n\n落到 API 设计上,Jev 提供了三个有意的新原语:choice 映射到枚举上的 switch 语句,score 映射到排序或者阈值判断。输入端一切都可以是结构化的 JSON——状态、指令、标准——而不是塞进模板字符串。打了个比方:在编程语言里把所有数字变成字符串再传进去会很奇怪,通常你只有在打印、有真人参与时才那么做。\n\n而给开发者的最大建议,是这套方法论的核心:把问题拆解、拆小、真正分解,拆到最小的语义单元。举个例子,\"该不该拒绝\"不要作为一个问题去问,而是针对各种该拒绝的情形,问许多独立的小问题;发现漏了一种情况,就加一个问题、加个阈值、记成测试用例——现在它就永远被解决了。不像提示词,会随着上下文腐烂被遗忘。原话说,这就像没有 ML 的 ML,而且你可以对任何事情都这么做。\n\n最后说说这个人为什么走到这一步。当年在 OpenAI,拼命争取部署 InstructGPT,上线立刻拿下当时 LLM 市场 50% 的份额——但当时真的在问\"这是不是 AGI\",结果它最后只被用来写网页垃圾文案。于是回到原点,从\"AI 经济革命\"往回推:如果 AI 是 API,调用它的是人,还是代码?推断的答案是,有很多个 9 的概率,是代码。但所有的优化,都投入在人类那部分。和 Sam 谈过,对方说太棒了你去做吧——以为一周搞定,结果错得离谱,花了好多年,最终出来创业,两周内拿到融资,团队搬进自己公寓。\n\n回头看这一集,你会发现所有主张都指向同一件事:AI 不是来当同事的,是来当基础设施的。就像 Diogo 说的,智能会更像一个数据库,而不是一个同事——而对软件工程师来说,这句话可能就是下一次革命的开端。"
+}

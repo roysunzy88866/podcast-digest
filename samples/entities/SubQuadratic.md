@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alexander Whedon]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[KVCache]] · [[Transformer]] · [[Opus 4.6]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"稀疏注意力":1,"上下文工程":14,"智能体":297,"RAG":15,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":3,"Transformer":8,"Opus 4.6":1}</script>
+<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"稀疏注意力":1,"上下文工程":15,"智能体":301,"RAG":17,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":4,"Transformer":8,"Opus 4.6":1}</script>
 
 <script>
 (function(){

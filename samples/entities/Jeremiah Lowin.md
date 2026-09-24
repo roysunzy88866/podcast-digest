@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":49,"FastMCP":1,"Prefab":1,"智能体":297,"沙箱":54,"生成式 UI":2,"Claude":62}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":51,"FastMCP":1,"Prefab":1,"智能体":301,"沙箱":56,"生成式 UI":2,"Claude":62}</script>
 
 <script>
 (function(){

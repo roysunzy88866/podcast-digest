@@ -195,7 +195,7 @@ Bret 接着说了一个更深的坑：你以为自己在回答"什么最有影�
 
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|AI 末日论反弹：是营销烟雾弹，还是真该警惕？]]<span class="pd-rz">同公司:OpenAI · 同概念:前沿模型 (frontier model)、智能体 (agent)</span>
 - [[2026-08-09-talks-velocity-sickness-what-happens-when-your|速度病：当团队 10 倍速写代码却推不出产品，怎么治]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
-- [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|Decagon CEO:从零想法起步,一年十倍狂奔到 500 人]]<span class="pd-rz">同公司:Sierra · 同概念:智能体 (agent)</span>
+- [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:前沿模型 (frontier model)、智能体 (agent)</span>
 
 </div>
 </div>

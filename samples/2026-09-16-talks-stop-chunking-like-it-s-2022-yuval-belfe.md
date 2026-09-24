@@ -114,9 +114,9 @@ Yuval 的回应分两步：第一，智能体搜索确实可能杀死了「检�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-24-sed-chroma-and-agentic-retrieval|上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体]]<span class="pd-rz">同概念:智能体搜索 (agentic search)、RAG</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:RAG</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG</span>
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同概念:RAG</span>
 
 </div>
 <div class="pd-ex">

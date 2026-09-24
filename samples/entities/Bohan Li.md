@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]]
+[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elise AI":1,"语音智能体":2,"级联语音智能体":1,"转写":2,"工具调用":2,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":2}</script>
+<script type="application/json" class="pd-epn">{"Elise AI":1,"语音智能体":2,"级联语音智能体":1,"转写":2,"工具调用":3,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":2}</script>
 
 <script>
 (function(){

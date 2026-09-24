@@ -1,0 +1,1490 @@
+{
+  "episode_id": "2026-09-21-latent-jev",
+  "podcast": "Latent Space",
+  "date": "2026-09-21",
+  "tags": [
+    "模型发布",
+    "AI 基础设施",
+    "AI 编程",
+    "后训练",
+    "API 设计"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "diogo-almeida",
+      "type": "person",
+      "role": "guest",
+      "name": "Diogo Almeida",
+      "file": "Diogo Almeida",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jev",
+      "type": "company",
+      "role": "company",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集主角模型:TypeSafe 发布的第一个大型可编程 / System 1 模型,以杰文斯悖论命名,优化目标只有一个——每美元智能(intelligence per dollar)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.221,
+            12.504
+          ],
+          "quote": "Diogo, my good buddy, launched Jev and has been taking over the complete timeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            173.879,
+            180.605
+          ],
+          "quote": "But for people who are living under a rock or just want the definitive thing, what is Jev?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            289.999,
+            295.107
+          ],
+          "quote": "JEV is our first large programmable model or system one model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            297.65,
+            302.433
+          ],
+          "quote": " Jev is meant to be optimized for intelligence per dollar, hence the name Jev.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            317.251,
+            318.592
+          ],
+          "quote": "And JEV is meant to be,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            319.072,
+            322.22499999999997
+          ],
+          "quote": "JEV will be the name of models that will be on the frontier",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            832.962,
+            834.9730000000001
+          ],
+          "quote": "JEV is not anywhere close to that yet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 583,
+          "t": [
+            1722.08,
+            1725.642
+          ],
+          "quote": "But to me, the pre-JEV world was a tragedy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            3044.407,
+            3049.234
+          ],
+          "quote": "My guess on like Jevon's paradox occurring or at least the Jev series of models and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            3057.279,
+            3060.1
+          ],
+          "quote": "So like that is what the brand of JEV is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            3136.127,
+            3141.349222222222
+          ],
+          "quote": "I love the intelligence per second use cases, but I don't think that that will be Jev's niche.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            3309.794,
+            3311.424
+          ],
+          "quote": "and this is actually the same thing with Jev,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            3319.976,
+            3321.356
+          ],
+          "quote": "Jev is just going to be a string.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            3340.99,
+            3343.434
+          ],
+          "quote": "She wanted Jev to be called Meow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1206,
+          "t": [
+            3401.501,
+            3406.624
+          ],
+          "quote": "I would be very obsessed with like, yes, here is how you use Jev with Instructor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1240,
+          "t": [
+            3512.942,
+            3514.123
+          ],
+          "quote": "Literally, this is for the JEV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            3514.163,
+            3518.3296666666665
+          ],
+          "quote": "People who are deciding to really invest in JEV, you are the expert, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1967,
+          "t": [
+            5652.31,
+            5657.476666666667
+          ],
+          "quote": "Yeah, so clearly you can operate the whole computer with voice, with Jev as a decision model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2044,
+          "t": [
+            5852.972,
+            5856.305333333333
+          ],
+          "quote": "or 100 JEV calls for every one reasoning call that you make.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2056,
+          "t": [
+            5885.232,
+            5887.195
+          ],
+          "quote": "You know, like the programming language as Jev.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2078,
+          "t": [
+            5953.388,
+            5955.321
+          ],
+          "quote": "because they're getting their jev on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2130,
+          "t": [
+            6117.996,
+            6118.965999999999
+          ],
+          "quote": "It's not Jev.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2717,
+          "t": [
+            7743.214,
+            7745.435
+          ],
+          "quote": "You don't need to call like Jev in the game loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2794,
+          "t": [
+            7980.658,
+            7981.979
+          ],
+          "quote": "You know, Jev, who should write first?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2798,
+          "t": [
+            7985.941,
+            7987.163222222222
+          ],
+          "quote": "Jev just solved locks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2932,
+          "t": [
+            8387.593,
+            8390.307
+          ],
+          "quote": "like the goal is not to just be like Jev as a company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "typesafe",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe",
+      "file": "TypeSafe",
+      "primary": true,
+      "how_described": "嘉宾创立的公司,自称数据实验室而非模型实验室:全用合成数据、拒绝公开跑分、承诺模型部署后不改,想成为「智能界的 AWS」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            265.476,
+            270.53155555555554
+          ],
+          "quote": "These are meant to have things that directly are consumed by code, hence the name TypeSafe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            1825.877,
+            1831.339
+          ],
+          "quote": "And if the whole company of TypeSafe disappears,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            1861.335,
+            1866.059
+          ],
+          "quote": "you should not take the success of TypeSafe and Jeff as just like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1600,
+          "t": [
+            4594.002,
+            4596.674
+          ],
+          "quote": " You don't necessarily get I get that from a name like Typesafe AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2110,
+          "t": [
+            6058.591,
+            6061.545
+          ],
+          "quote": "I just want to take you out of TypeSafe just generally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2420,
+          "t": [
+            6944.66,
+            6947.543
+          ],
+          "quote": "And that was the pre-TypeSafe moment, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "system-1",
+      "type": "concept",
+      "role": "concept",
+      "name": "System 1 模型 (System 1)",
+      "file": "System 1 模型",
+      "primary": true,
+      "how_described": "嘉宾提出的一类新模型:机器原生、大型可编程,产出直接被代码消费,与预训练 LLM 的「互联网自动补全」、RLHF 模型的「回复文本」相对",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            210.475,
+            213.706
+          ],
+          "quote": "The most accurate name we've come up with is System 1 models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            217.697,
+            221.898
+          ],
+          "quote": "because System 1 is beyond that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1686,
+          "t": [
+            4834.554,
+            4837.797
+          ],
+          "quote": "of intelligence Are fundamentally System 1 thinkers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1687,
+          "t": [
+            4838.398,
+            4843.886
+          ],
+          "quote": "I think that they truly, like System 1 is the closest thing to describe what LLMs are strong at.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1737,
+          "t": [
+            5007.314,
+            5010.607
+          ],
+          "quote": "And System 1 just happens to be the description of what works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1738,
+          "t": [
+            5010.657,
+            5014.82
+          ],
+          "quote": "And everything that works in that paradigm will be System 1-ish.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2375,
+          "t": [
+            6813.739,
+            6818.436
+          ],
+          "quote": "So I mean, in some ways, you are also factoring intelligence into System 1, System 2.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rlcd",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLCD",
+      "file": "RLCD",
+      "primary": true,
+      "how_described": "嘉宾自创的北极星任务(非新算法):让 AI 对程序化使用可靠、程序在环,与 RLHF「取悦人类」、RLVR「优化基准」并列",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1275.469,
+            1277.451
+          ],
+          "quote": "And now us, RLCD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1497.482,
+            1501.905
+          ],
+          "quote": "Let us actually mention RLCD, which obviously you have some secret sauce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1522.969,
+            1526.56
+          ],
+          "quote": "But I don't know what you mean when you say RLCD versus what people are familiar with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            1654.17,
+            1657.713
+          ],
+          "quote": "And for us, RLCD is this new task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2384.29,
+            2389.012222222222
+          ],
+          "quote": "I thought it was mostly about calibration, which, like, you know, we talk about RLCD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1713,
+          "t": [
+            4918.898,
+            4923.82
+          ],
+          "quote": "simple outputs that can do well, and RLCD is make it reliable for programmatic use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2216,
+          "t": [
+            6362.198,
+            6364.639
+          ],
+          "quote": "Like, RHF and then RLCD.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": true,
+      "how_described": "本集把它说成:北极星是指令遵循/取悦人类,副作用是模式坍缩——模型变保守失准,导致谄媚、过度自信与幻觉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            256.426,
+            259.47
+          ],
+          "quote": "or RLHF models like chatbot instruction following models,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            262.194,
+            265.336
+          ],
+          "quote": " Or RLVR, it's in a weird gray area with RLHF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            345.111,
+            349.136
+          ],
+          "quote": "and this is your whole argument RLHF is their mode collapsing towards what you want",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            371.439,
+            375.191
+          ],
+          "quote": "One of the things that no one paid attention to was the downsides of RLHF,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1266.262,
+            1269.225
+          ],
+          "quote": "There's RLHF, which shifted the task to instruction following.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1384.485,
+            1386.6516666666666
+          ],
+          "quote": "RLHF's is the human feedback, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1530.31,
+            1531.891
+          ],
+          "quote": "What is RLHF?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1531.931,
+            1534.771
+          ],
+          "quote": "And actually, RLHF means multiple different things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1535.172,
+            1537.532
+          ],
+          "quote": "There's the RLHF of the original,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            1612.623,
+            1617.546
+          ],
+          "quote": "This is another thing that people refer to as RLHF, which I did not co-author.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            1626.032,
+            1633.032
+          ],
+          "quote": "But the thing that I refer to RLHF is the, oh man.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            1641.822,
+            1645.574
+          ],
+          "quote": "to me, the thing that I'm calling to RLHF is the task of instruction following.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 567,
+          "t": [
+            1669.321,
+            1674.065
+          ],
+          "quote": "you know, descendants also do RLHF despite not using the algorithm in that paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1687.973,
+            1691.726
+          ],
+          "quote": "because RLHF is tuning for this so that you can automate everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2072.171,
+            2073.391
+          ],
+          "quote": "the RLHF direction,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1708,
+          "t": [
+            4904.265,
+            4906.488
+          ],
+          "quote": "RLHF is please humans, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2145,
+          "t": [
+            6170.789,
+            6172.853
+          ],
+          "quote": "back when RLHF was becoming a thing,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2339,
+          "t": [
+            6717.874,
+            6721.296
+          ],
+          "quote": "When you're optimizing for chat, this tends to be pure RLHF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2340,
+          "t": [
+            6721.696,
+            6726.38
+          ],
+          "quote": "And it's quite intrinsic in RLHF to do the stuff people naturally complain about.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlvr",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLVR",
+      "file": "RLVR",
+      "primary": true,
+      "how_described": "本集说它本质是「优化基准」——一切可编程验证的输出按定义就是基准;嘉宾认为 LLM 领域它顶多算 0.2 次新任务,且是「踩刹车」讨论的狭隘前提",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            262.194,
+            265.336
+          ],
+          "quote": " Or RLVR, it's in a weird gray area with RLHF.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1271.686,
+            1275.209
+          ],
+          "quote": "RLVR did a tiny little edit to the direction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1380.141,
+            1383.824
+          ],
+          "quote": "Like, RLVR's data is kind of environments, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1492.219,
+            1496.5523333333333
+          ],
+          "quote": "you sort of criticized my thinking as very RLVR influence, which is very fair.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1772.201,
+            1777.467
+          ],
+          "quote": "And I think RLVR is the main, well, both RLVR and RHF are extreme perpetrators of this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1701,
+          "t": [
+            4886.679,
+            4888.873
+          ],
+          "quote": "And then now look at how people talk about RLVR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1706,
+          "t": [
+            4898.857,
+            4900.499
+          ],
+          "quote": "And this is because RLVR is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1710,
+          "t": [
+            4908.611,
+            4911.175
+          ],
+          "quote": "RLVR is optimize benchmarks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1711,
+          "t": [
+            4912.375,
+            4916.297
+          ],
+          "quote": "Everything that goes into the RLVR category literally is a benchmark by definition,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2139,
+          "t": [
+            6151.817,
+            6157.582
+          ],
+          "quote": "which is that as you RLVR more, like RLVR is like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2140,
+          "t": [
+            6158.712,
+            6161.489777777778
+          ],
+          "quote": " So RLVR is not actually about verifiable rewards.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2164,
+          "t": [
+            6213.306,
+            6216.968
+          ],
+          "quote": "So just to be clear, RLVR is not purely about the reward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2173,
+          "t": [
+            6241.127,
+            6243.067
+          ],
+          "quote": "to do more RLVR, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2174,
+          "t": [
+            6243.327,
+            6249.729
+          ],
+          "quote": "Which, like, I obviously don't think I need to do more RLVR on our models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2217,
+          "t": [
+            6364.779,
+            6368.223444444445
+          ],
+          "quote": "RLVR is like a .2, in my opinion, and I think that's generous.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mode-collapse",
+      "type": "concept",
+      "role": "concept",
+      "name": "模式坍缩 (mode collapse)",
+      "file": "模式坍缩",
+      "primary": true,
+      "how_described": "嘉宾用来解释 LeCun「LLM 长序列必错」预言经验上不成立的关键:RLHF 后模型像 GAN 一样丢掉少数类别、极端保守,校准对字符串的概率分布是「彻底的毒药」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            377.762,
+            379.493
+          ],
+          "quote": "Mode dropping and mode collapse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            398.439,
+            400.5
+          ],
+          "quote": "Should I address this now or should I go in mode collapse?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            401.481,
+            402.182
+          ],
+          "quote": "Go in mode collapse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            449.334,
+            451.2228888888889
+          ],
+          "quote": " Mode collapse is related to this.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "type": "concept",
+      "role": "concept",
+      "name": "校准 (calibration)",
+      "file": "校准",
+      "primary": true,
+      "how_described": "可靠性、成本、校准、速度四者辩论之一;本集认为良好校准让阈值判断有意义,也谈到「人们需要的确定性≠需要的鲁棒性」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            312.76,
+            315.201
+          ],
+          "quote": "cost, calibration, and speed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            332.002,
+            336.225
+          ],
+          "quote": "And to me, calibration is one of the new things that people weren't talking about as much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            497.634,
+            502.52288888888893
+          ],
+          "quote": "And that calibration is like total poison into the probability distributions of strings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1516.183,
+            1518.146
+          ],
+          "quote": "One thing for me is calibration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2384.29,
+            2389.012222222222
+          ],
+          "quote": "I thought it was mostly about calibration, which, like, you know, we talk about RLCD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1411,
+          "t": [
+            4048.117,
+            4050.801
+          ],
+          "quote": "But what if just the calibration is wrong?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1412,
+          "t": [
+            4050.981,
+            4052.874
+          ],
+          "quote": "You're saying your calibration is perfect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1415,
+          "t": [
+            4056.95,
+            4059.454
+          ],
+          "quote": "Good calibration means lower value is lower,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1491,
+          "t": [
+            4267.587,
+            4269.197
+          ],
+          "quote": "My hope is calibration gets that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1492,
+          "t": [
+            4269.247,
+            4271.008
+          ],
+          "quote": "Calibration plus a cascade of models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "robustness",
+      "type": "concept",
+      "role": "concept",
+      "name": "鲁棒性 (robustness)",
+      "file": "鲁棒性",
+      "primary": true,
+      "how_described": "嘉宾主张的正确北极星:相似输入给相似输出(而非确定性式的相同输入相同输出),他们在提示词里放 UUID 来测试这一点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 881,
+          "t": [
+            2533.312,
+            2535.423111111111
+          ],
+          "quote": "I believe robustness is what people...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 891,
+          "t": [
+            2567.084,
+            2571.966
+          ],
+          "quote": " That robustness is where people get burnt with AI making decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 946,
+          "t": [
+            2717.073,
+            2719.694
+          ],
+          "quote": "I have a robustness example that's real quick.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集强烈反对公开基准:极易被操纵(各实验室曾有团队收集「长得像 MMLU 的数据」),主张靠体感与信任、在自己工作流里评估;内部 evals 不自欺是铁腕管的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1328,
+          "t": [
+            3784.604,
+            3785.4139999999998
+          ],
+          "quote": "I benchmark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1711,
+          "t": [
+            4912.375,
+            4916.297
+          ],
+          "quote": "Everything that goes into the RLVR category literally is a benchmark by definition,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1712,
+          "t": [
+            4916.317,
+            4918.848
+          ],
+          "quote": "because a benchmark is programmatically verifiable,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "safety-alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全对齐 (safety alignment)",
+      "file": "安全对齐",
+      "primary": true,
+      "how_described": "嘉宾说它对 ChatGPT 这类第一方产品说得通,但放进 API 就是反用户的「类型错误」:后台依赖库随机拒绝执行等于软件随机坏掉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            709.923,
+            714.15
+          ],
+          "quote": "is why am I opposed to safety alignment and why do we not refuse?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            718.115,
+            722.842
+          ],
+          "quote": " But I think that safety alignment is generally misaligned with users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            809.377,
+            812.121
+          ],
+          "quote": " But one tangent up about safety alignment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            812.642,
+            817.589
+          ],
+          "quote": "Safety alignment makes sense for a product, in my opinion, for like ChatGPT and Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            845.918,
+            849.704
+          ],
+          "quote": " But safety alignment is like the opposite of instruction following.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2113,
+          "t": [
+            6068.745,
+            6071.133888888889
+          ],
+          "quote": " Oh, did I not talk about safety alignment?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说它们是 Jev 最大的用例和赚钱来源;现有 coding agent 围绕单一模型构建、受 KVCache 暴政锁死,嘉宾提议摆脱 KVCache 的编程智能体新方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2068,
+          "t": [
+            5922.32,
+            5923.221
+          ],
+          "quote": "On the coding agent thing,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2083,
+          "t": [
+            5973.076,
+            5974.277
+          ],
+          "quote": "that coding agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2096,
+          "t": [
+            6010.985,
+            6014.227
+          ],
+          "quote": "And I think it'll make the coding agent game super weird.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2104,
+          "t": [
+            6041.861,
+            6044.672
+          ],
+          "quote": "and I'm sure the coding agent companies would love to work with you as well",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2519,
+          "t": [
+            7167.124,
+            7169.648
+          ],
+          "quote": "And Claude did the coding agent stuff, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2788,
+          "t": [
+            7971.331,
+            7972.553222222223
+          ],
+          "quote": "And your coding agent,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": true,
+      "how_described": "TypeSafe 全部训练数据的来源:不用用户数据(真实世界偏差大、过拟合到幂律),由有品味、用心的人审视问题并重新生成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            1368.216,
+            1371.0493333333332
+          ],
+          "quote": "we don't do the kind of synthetic data that people,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1374.358,
+            1376.809
+          ],
+          "quote": "Data and synthetic data depends on your task.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kvcache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KVCache",
+      "file": "KVCache",
+      "primary": false,
+      "how_described": "嘉宾写了《KVCache rules everything around me》一文,称之为「KVCache 暴政」:把编码智能体锁死在单一模型上,被迫追加状态、放弃最佳软件实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2726,
+          "t": [
+            7771.814,
+            7774.702888888889
+          ],
+          "quote": " Coding agents free from the tyranny of the KVCache.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2729,
+          "t": [
+            7781.829,
+            7785.495666666667
+          ],
+          "quote": "That's why I wrote the article KVCache rules everything around me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2745,
+          "t": [
+            7843.317,
+            7846.5779999999995
+          ],
+          "quote": "Like once you're freed from that, you know, that KVCache tyranny.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "嘉宾前雇主:曾拼命争取部署 InstructGPT(拿下当时 50% 份额),后因认为所有优化都投入在「人类那一半」而离开;聊天里还谈到政变、函数调用接口「疯了」等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            849.764,
+            853.79
+          ],
+          "quote": "It's when you want to follow someone else's instructions, like OpenAI Anthropics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1552.207,
+            1556.113
+          ],
+          "quote": "But I believe it was like an OpenAI alignment work that could teach a hard",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 597,
+          "t": [
+            1755.841,
+            1759.647
+          ],
+          "quote": "So I am so sorry to everyone at OpenAI that I thought I was like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2048.608,
+            2053.375
+          ],
+          "quote": "I was emotional last night when I was talking about the reasons I left OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            2873.873,
+            2876.647
+          ],
+          "quote": " I mean, you were at OpenAI when you launched all these APIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            3464.855,
+            3470.723
+          ],
+          "quote": "if you want OpenAI juice, sauce, tea, that we We should go back into that later.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1462,
+          "t": [
+            4187.522,
+            4192.285
+          ],
+          "quote": "So both OpenAI and I think even Gemini have rolled out fine tuning and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1536,
+          "t": [
+            4417.448,
+            4421.448
+          ],
+          "quote": "I don't want to be OpenAI's product teams that throw stuff at the walls.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1623,
+          "t": [
+            4660.8,
+            4665.828
+          ],
+          "quote": "It's actually extremely consistent with what the OpenAI charter used to stand for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2132,
+          "t": [
+            6121.057,
+            6128.057
+          ],
+          "quote": "And you were at OpenAI during one of the very first very visible incidents, which is the blip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2310,
+          "t": [
+            6621.067,
+            6626.022
+          ],
+          "quote": " One way to put this is that OpenAI was trending in the direction of the Omni model, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2362,
+          "t": [
+            6791.807,
+            6793.029
+          ],
+          "quote": "at least when I was in OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2393,
+          "t": [
+            6864.884,
+            6871.253
+          ],
+          "quote": "If people get the model to say it is OpenAI or Quen or Claude or whatever else,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2450,
+          "t": [
+            7003.746,
+            7006.5237777777775
+          ],
+          "quote": "Like, there's very few people like that at OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2508,
+          "t": [
+            7144.009,
+            7148.675666666667
+          ],
+          "quote": "And actually, OpenAI does better at catching up than it does at actually innovating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2626,
+          "t": [
+            7495.833,
+            7498.277444444444
+          ],
+          "quote": "the Anthropic OpenAI folks I was talking to,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2837,
+          "t": [
+            8132.704,
+            8136.537333333333
+          ],
+          "quote": "And I think I just really did feel disempowered when I was at OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集作为对照被多次提及:嘉宾称其为「保姆式国家风格、反开发者」,也提到 Claude 与 ChatGPT 的复制关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 748,
+          "t": [
+            2173.519,
+            2176.644
+          ],
+          "quote": "I think we have more nines of uptime than Anthropic while having",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1752,
+          "t": [
+            5049.568,
+            5052.568
+          ],
+          "quote": "Well, it's still secret for open-and-anthropic, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1802,
+          "t": [
+            5174.372,
+            5179.458
+          ],
+          "quote": "you end up with anthropic nanny state style thinking, which is very anti-developer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1961,
+          "t": [
+            5638.606,
+            5640.987
+          ],
+          "quote": "Rumors claim anthropic engineers worship Claude as God.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2223,
+          "t": [
+            6386.626,
+            6390.157
+          ],
+          "quote": "You know, like they just assume that open-anthropic are just doing the best they can.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2506,
+          "t": [
+            7140.208,
+            7142.769
+          ],
+          "quote": "Anthropic must be working on this already.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2626,
+          "t": [
+            7495.833,
+            7498.277444444444
+          ],
+          "quote": "the Anthropic OpenAI folks I was talking to,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

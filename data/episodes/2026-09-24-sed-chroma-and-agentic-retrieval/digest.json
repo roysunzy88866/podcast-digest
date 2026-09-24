@@ -1,0 +1,172 @@
+{
+  "title_zh": "上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体",
+  "tldr": "Chroma CTO Hamad Bashir 讲解 context rot 研究发现，以及为何一个 200 亿参数的小模型能在搜索任务上匹敌前沿大模型。",
+  "digest_md": "让 AI 应用去检索数据，早期答案是向量搜索，后来大家以为这个问题已经解决得差不多了。但 Chroma 的 CTO Hamad Bashir 在这一集里指出：智能体的兴起让检索的难度和成本都上了新台阶——而答案可能不是更大的模型，而是一个专门训练的小模型。Hamad 的背景横跨机器学习、计算机视觉和数据系统，他所在的 Chroma 发表过影响力很大的 Context Rot 论文，最近又发布了 Context 1——一个 200 亿参数的「检索子智能体」，能以前沿模型的质量做智能体搜索，但成本低一个数量级、速度快一个数量级 [02:28 Hamad]。\n\n## 为什么他们「被迫」造了个数据库\n\nChroma 最初并不是想做数据库。他们解决的问题是计算机视觉的主动学习(每天从线上数据里挑出值得标注的那一小部分)，语言模型兴起后，他们发现这和「推理时给模型挑数据」是同一类问题——也就是搜索。他们本想用市面上现成的向量搜索方案，结果发现全都胜任不了 [07:23 Hamad]。\n\n根本原因是负载形态不同。为传统搜索构建的系统围绕「一个巨大的索引」设计：十亿条信息在一个索引里，要加数据就得给集群增删节点、重新均衡，非常手动、非常运维密集。而 AI 应用几乎相反——索引极度分区：每个客户一个索引、每个团队一个索引、每段聊天历史一个索引、每个智能体一个索引。这要求系统能存储数量极其庞大的独立索引并高准确度地搜索它们。把所有数据塞进一个大索引有两个问题：一是要为索引随时在线付成本，二是向量搜索被分区后准确度会下降，所以最好的做法是在建索引时就硬分区 [08:48 Hamad]。\n\n他们的解法押在对象存储上。各大云的对象存储开始支持条件写入(AWS 直到 2024 年才推出)，这让在对象存储之上构建数据库成为可能。ChromaDB 由此诞生：完全建在对象存储上，经济性才撑得起「每个客户一个索引」——在此之前，在三重复制的磁盘或 NVMe SSD 上做这件事，你会直接烧光钱 [09:52 Hamad]。\n\n## 智能体让检索难了一个量级\n\n智能体不只改变查询数量，还改变查询频率。人最多每 30 秒发一次查询就算很快，智能体会愉快地每一到两秒发一次，而且每次还是五个、六个并行查询。读取端的压力因此大增。这里他们因祸得福：核心架构本质无状态(共享存储层，加节点即可服务读取)，能吸收这种弹性——这是当初没预料到、建成后大幅受益的设计 [11:12 Hamad]。\n\n## Context Rot:上下文塞得越多，模型越笨\n\nContext Rot 论文是想用实证方式证明大多数人凭感觉早已知道的事：随着上下文窗口利用率增加，模型性能会退化。实验很朴素——比如注入一个重复词很多次然后问模型这个词在哪里不再出现，或对大海捞针问题(在大量文档里找一条特定信息)做有趣的重排。结果是在几万 token 的量级上出现极其陡峭的性能下滑，而且即便在今天的前沿模型上依然成立——论文发布后模型已经迭代了约三代，退化还在 [12:46 Hamad]。\n\n一个反直觉的发现：被打乱、不连贯的「干草堆」有时反而比结构化的更能帮模型找到「针」。核心机制是：随着干扰项增多，模型忽略「看起来相关但其实不相关」的信息的能力会下降。模型尤其不擅长区分两个并不矛盾、但都关于同一件事的事实。一个简单例子：你问格鲁吉亚的人口并明确要的是美国的佐治亚州，文档里同时有国家格鲁吉亚和佐治亚州的信息，模型仍可能混淆。现实映射很直接：模型检索到两份同名人物的文档，把一个人的工作安到另一个人头上，指引你去问公司里错误的人；或者编码智能体在有两个认证系统的代码库里，聚焦到错误的那个 [17:17 Hamad]。\n\n这指向了「上下文工程」——如何选择放进上下文窗口的信息，以最大化模型下一轮成功的机会。它不只是发起什么查询，还包括怎么组织数据、怎么写提示词、给模型访问什么数据。而且就算解决了性能退化，无限扩大上下文在成本上也撑不住 [14:13 Hamad]。\n\n## Context 1:搜索不需要那么多「智能」\n\nContext 1 被设计为一个配合大模型使用的「检索子智能体」——这正是现在编码智能体(Codex、Claude Code、Cursor)都在用的模式：大模型启动一个子智能体去执行任务。背后的理念是传统计算的老办法：关注点分离，在正确的时间把任务交给正确的系统。他们的判断是，搜索这个狭窄问题——理解用户意图、分解成查询、判断文档相关性、迭代执行——不需要那么多原始智能，更需要的是极快地大量执行。所以衡量指标是每秒 token 数，而不是模型有多大 [22:07 Hamad]。\n\n**工具集**：任何智能体搜索框架的标配是两个工具——「搜索」和「获取结果」(给它 10 条蓝色链接，再给它点击链接的能力)。Chroma 加的第三个东西是核心创新：**自编辑上下文**。他们给了模型一个 prune chunks 工具，允许它回过头从自己的上下文窗口里移除文档。这替代了主流的「压缩」方案——对小模型来说压缩会有很大信息损失。这是 KVCache 一致性和整体 token 用量之间的权衡：智能体搜索极耗 token,每个碰过的文档都会进上下文；模型边走边删，就能把窗口保持在约 32,000 token 的有界范围，预填充和解码都快。事后看这并不意外：模型本来就要判断相关性才能完成任务，删掉自己判断为不相关的文档只是同一件事 [25:24 Hamad]。\n\n**训练**：基础模型是 GPTOSS 20B,两阶段训练——先是监督微调(用合成数据 + 从开放权重模型蒸馏的行为)，再上强化学习。剪枝准确率从基础模型的约 80% 提升到训练后的 95% 以上，最新内部 checkpoint 接近 97-98%。他们还做了分阶段课程：早期只给一到两跳的简单问题，再逐步加大难度。一个细节：GPTOSS 20B 原生不会并行工具调用，但只靠 SFT 教会这个行为，模型在还没做任何强化学习之前就大幅减少了发现信息所需的轮次。他们甚至在研究把延迟本身作为训练目标，让模型自己学出兼顾准确率和延迟的最优剪枝策略 [27:18 Hamad]。\n\n**为什么小模型能做到**：Hamad 的核心信念是——搜索时模型的那套「行为」比它的「推理」更有价值。搜索存在一个可遵循的算法：把高层次查询分解成低层次查询计划、判断页面相关性、决定后续查询、分析最终结果。这些子任务相当窄，可以通过训练样本单独优化。结果：Context 1 20B 在搜索基准上匹配了 Opus 4.5、Sonnet 4.5、Gemini 3.1 Pro 等，同时跑到约每秒 400-500 token(Opus 只有 40-80)[29:33 Hamad]。他也承认边界：稳态下大模型总会胜过小模型，世界知识确实有用——记得某个主题的信息就能发出更好的查询。但小模型用 LoRA 微调足够便宜，在足够窄的语料库上，教会它「这个语料库的地图和词汇」就能让它搜得更好，就像人搜自己的 Google 云端硬盘比搜陌生地方更高效 [32:03 Hamad]。\n\n## 为什么连模型权重都开源\n\nContext 1 的权重以 Apache 许可证开源了。理由很实际：开源会有更多人用它、告诉你什么有效什么无效、把它集成到你够不到的地方；而且模型够小可以本地跑——Chroma 早期就是靠本地版数据库长起来的，他们信奉「在开发者所在之处与之相遇」。Hamad 的表态很直接：别人发布工作时我们在学习、在受益，Context 1 的训练本身就字面意义上用了开放权重模型，所以现在是正和游戏——AI 仍处于非常早期，不是零和思维的时候 [33:22 Hamad]。\n\n## 开发者的典型路径与 BYOC 的教训\n\n典型路径是:本地嵌入式版起步(pip install 即用)→ 原型完成后用 CLI 把数据推上云。想自己控制分块策略和嵌入模型就直接用数据库；想省事就用 Sync 产品(托管 ETL,对接 S3、GitHub、网站等数据源)。行业最佳实践已经收敛：用带 splade 的稀疏向量 + 质量够但别太大的稠密嵌入模型——事实证明不需要 4096 维，更小维度的模型能以低得多的成本拿到同样的准确率。等开始追求低延迟的高质量搜索时，再上 Context 1 [36:09 Hamad]。\n\n关于 BYOC(自带云：把代码部署进客户 VPC,控制平面留在 Chroma 侧)，Hamad 给的建议非常直接：**不要轻易接**。他们从第一天就按 BYOC 设计，仍然极其痛苦——事后要补上几乎不可能，因为整个架构都取决于它。它迫使你早早画出感觉不自然的架构边界，极大牺牲速度。他给那位被大客户推着做 BYOC 的 YC 创始人的话是：如果你要做，确保你会因此赚很多钱，因为这是个巨大的分心源。但他们坚持做的原因也真实：目标客户都是大规模场景，而且买方已经开始知道这种部署模式能过安全审查、能过合规审查。具体设计上，数据平面不开放任何端口，一切靠反向隧道、由数据平面主动外连；运维也是轮询拉取式而非直连推入——Hamad 坦言这是「税」，理想情况下一个 post 请求就该完事。客户担心控制平面存了什么？因为开源，他们直接把控制平面代码发给客户自己读，甚至用 Slack 里的机器人智能体遍历代码、生成一份「我们采集哪些数据」的、直接指向代码的清单 [39:27 Hamad]。\n\n## 终局：智能跑在数据库里面\n\n对于「Postgres + pgvector 就够了」的质疑，Hamad 的回应是一个长期类比：语言模型是 CPU,旁边需要一个子系统来决定模型该看到什么信息、什么该存储、什么该更新整合——就像硬盘有自己的接口、控制器和操作系统。今天它长得像数据库，但方向是「智能真正运行在数据库内部」，出于性能和领域感知的原因，这两件事必须一起设计。他给出一个时间判断：去年主流模型还是每秒 100 token,今年消费者会普遍用上每秒 1000 token 的模型，几年后每秒 10,000 token 并非不可想象。到那时，「一次网络调用去搜索系统」的延迟假设就不成立了——他设想未来甚至完全绕过 CPU,直接在 GPU 上启动子内核内联完成索引搜索，再把数据直接喂回语言模型。能装进任何非结构化数据、能满足任何查询的系统会存在，但它不会长得像 Postgres [47:34 Hamad]。\n\n## 本集带走\n\n- **检索架构要按 AI 应用的负载设计**：AI 应用是海量小索引(每客户/每团队/每智能体一个)，不是一个大索引；分区必须在建索引时做，不能靠查询时过滤。\n- **上下文塞得越多模型越笨，且至今没被新模型解决**：几万 token 就出现陡峭性能下滑，干扰项越多越糟——上下文工程(精选进入上下文的内容)是必修课。\n- **窄任务可以交给小模型**：搜索 = 意图分解 + 相关性判断 + 迭代执行，是行为不是推理；专门训练的 20B 模型能以 10 倍速、1/10 成本匹配前沿大模型。\n- **自编辑上下文优于压缩**：给模型一个「从自己上下文里删文档」的工具，准确率练到 95%+ 后，既省 token 又让推理更快。\n- **BYOC 别轻易做**：必须从第一天按它设计，事后补不上；但若目标客户是大企业，它能过安全和合规审查，可能就是入场券。",
+  "quotes": [
+    {
+      "en": "And the agents don't query at a human rate, they query at an agentic rate.",
+      "zh": "智能体的查询频率不是人类的频率，而是智能体式的频率。",
+      "timestamp": "11:19",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "And by running these experiments, what you quickly see is a super sharp drop off in the tens of thousands of tokens.",
+      "zh": "通过运行这些实验，你很快会看到在几万 token 的量级上出现极其陡峭的性能下滑。",
+      "timestamp": "13:38",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "So models are quite bad at disambiguating between two facts that aren't in contradiction but that are about the same thing.",
+      "zh": "模型在区分两个并不矛盾、但都是关于同一件事的事实时相当糟糕。",
+      "timestamp": "17:30",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "And in most cases, you don't need that much raw intelligence as much as you need the ability to do a lot of that very quickly.",
+      "zh": "在大多数情况下，你并不需要那么多原始智能，你更需要的是能非常快速地做大量这些事情的能力。",
+      "timestamp": "23:11",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "Over a fleet of smaller models is I think a paradigm that we believe in quite firmly and it's already proving out to be how coding systems will work and I think it'll find its way into almost every agent over the coming year.",
+      "zh": "用大模型来调度一支更小模型的舰队，我认为这是我们相当坚定信奉的范式，它已经被证明是编码系统的运作方式，而且我认为在未来一年它会进入几乎每一个智能体。",
+      "timestamp": "24:29",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "Even just getting the model to tool call in parallel gives it a huge advantage in its ability to very quickly reduce the number of turns that it needs in order to discover information.",
+      "zh": "仅仅是让模型并行进行工具调用，就能给它带来巨大的优势，让它能非常快速地减少发现信息所需的轮次。",
+      "timestamp": "31:31",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "And so a larger language model will probably always outperform a smaller one at steady state, but the smaller ones are cheap enough to fine tune using LoRa that on narrow enough corpuses, you can very quickly also fine tune a small model on a narrow corpus and make it better at individualized corpuses and personalize the model for specific tasks.",
+      "zh": "所以在稳态下，一个更大的语言模型大概总是会胜过更小的模型，但小模型用 LoRA 微调足够便宜，以至于在足够窄的语料库上，你也可以非常快地微调一个小模型，让它在个性化语料库上变得更好，并为特定任务对模型进行个性化。",
+      "timestamp": "32:22",
+      "speaker": "Hamad Bashir"
+    },
+    {
+      "en": "It'll be intelligence actually runs inside of the database.",
+      "zh": "而会是智能真正运行在数据库内部。",
+      "timestamp": "49:09",
+      "speaker": "Hamad Bashir"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "11:19",
+      "speaker": "Hamad",
+      "en": "And the agents don't query at a human rate, they query at an agentic rate.",
+      "zh": "智能体的查询频率不是人类的频率，而是智能体式的频率。"
+    },
+    {
+      "timestamp": "09:09",
+      "speaker": "Hamad",
+      "en": "And if you're to store all of those in one index, one, you have to pay the cost of keeping that live at all times.",
+      "zh": "如果你把所有这些都放进一个索引里，第一，你必须承担让那个索引随时保持在线的成本。"
+    },
+    {
+      "timestamp": "12:56",
+      "speaker": "Hamad",
+      "en": "Most people already knew of this degradation, but context one was formally an investigation into how does model performance degrade as context window utilization increases?",
+      "zh": "大多数人早已知道这种性能退化，但这项研究正式回答了：随着上下文窗口利用率的增加，模型性能是如何退化的？"
+    },
+    {
+      "timestamp": "13:38",
+      "speaker": "Hamad",
+      "en": "And by running these experiments, what you quickly see is a super sharp drop off in the tens of thousands of tokens.",
+      "zh": "通过运行这些实验，你很快会看到在几万 token 的量级上出现极其陡峭的性能下滑。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Hamad",
+      "en": "It's a problem that has persisted even we released the report last year and we've had like three model generations or minor iterations of the model since then.",
+      "zh": "这是一个一直持续存在的问题——即便我们去年发布了报告，之后模型已经经历了大约三代或若干次小迭代。"
+    },
+    {
+      "timestamp": "17:30",
+      "speaker": "Hamad",
+      "en": "So models are quite bad at disambiguating between two facts that aren't in contradiction but that are about the same thing.",
+      "zh": "模型在区分两个并不矛盾、但都是关于同一件事的事实时相当糟糕。"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Hamad",
+      "en": "And in most cases, you don't need that much raw intelligence as much as you need the ability to do a lot of that very quickly.",
+      "zh": "在大多数情况下，你并不需要那么多原始智能，你更需要的是能非常快速地做大量这些事情的能力。"
+    },
+    {
+      "timestamp": "24:29",
+      "speaker": "Hamad",
+      "en": "Over a fleet of smaller models is I think a paradigm that we believe in quite firmly and it's already proving out to be how coding systems will work and I think it'll find its way into almost every agent over the coming year.",
+      "zh": "用大模型来调度一支更小模型的舰队，我认为这是我们相当坚定信奉的范式，它已经被证明是编码系统的运作方式，而且我认为在未来一年它会进入几乎每一个智能体。"
+    },
+    {
+      "timestamp": "26:30",
+      "speaker": "Hamad",
+      "en": "And what we found is the model is quite good at making judgments about relevancy and removing prior information from its own context window, which is not all that surprising in hindsight because the model already has to make that judgment in order to be successful at its task.",
+      "zh": "我们发现，这个模型在判断相关性以及从自己的上下文窗口中移除先前信息方面相当擅长——事后来看这并不那么令人惊讶，因为模型本来就必须做出这种判断才能成功完成它的任务。"
+    },
+    {
+      "timestamp": "27:33",
+      "speaker": "Hamad",
+      "en": "So that basically makes the prune chunks tool for the base model kind of a non-starter.",
+      "zh": "所以这基本上让剪枝工具对基础模型来说有点行不通。"
+    },
+    {
+      "timestamp": "29:48",
+      "speaker": "Hamad",
+      "en": "The set of behaviors it has are more valuable than the reasoning that it's doing.",
+      "zh": "它拥有的那套行为，比它正在进行的推理更有价值。"
+    },
+    {
+      "timestamp": "30:12",
+      "speaker": "Hamad",
+      "en": "Fundamentally, I think the set of tasks is how do I look at a high level user query and then decompose it into a plan of lower level queries to issue against the search system?",
+      "zh": "从根本上说，这组任务就是：我如何查看一个高层次的用户查询，然后把它分解成一个由低层次查询组成的计划，并对搜索系统发出这些查询？"
+    },
+    {
+      "timestamp": "31:31",
+      "speaker": "Hamad",
+      "en": "Even just getting the model to tool call in parallel gives it a huge advantage in its ability to very quickly reduce the number of turns that it needs in order to discover information.",
+      "zh": "仅仅是让模型并行进行工具调用，就能给它带来巨大的优势，让它能非常快速地减少发现信息所需的轮次。"
+    },
+    {
+      "timestamp": "32:22",
+      "speaker": "Hamad",
+      "en": "And so a larger language model will probably always outperform a smaller one at steady state, but the smaller ones are cheap enough to fine tune using LoRa that on narrow enough corpuses, you can very quickly also fine tune a small model on a narrow corpus and make it better at individualized corpuses and personalize the model for specific tasks.",
+      "zh": "所以在稳态下，一个更大的语言模型大概总是会胜过更小的模型，但小模型用 LoRA 微调足够便宜，以至于在足够窄的语料库上，你也可以非常快地微调一个小模型，让它在个性化语料库上变得更好，并为特定任务对模型进行个性化。"
+    },
+    {
+      "timestamp": "35:10",
+      "speaker": "Hamad",
+      "en": "AI is still very early in its life cycle and I think that right now is not the time to be zero-sum in our thinking with respect to it.",
+      "zh": "AI 仍处于其生命周期的非常早期，我认为现在不是以零和思维看待它的时候。"
+    },
+    {
+      "timestamp": "41:52",
+      "speaker": "Hamad",
+      "en": "Unless it's like quite core for your ability to grow your business.",
+      "zh": "除非它对你业务增长的能力来说是相当核心的东西。"
+    },
+    {
+      "timestamp": "49:09",
+      "speaker": "Hamad",
+      "en": "It'll be intelligence actually runs inside of the database.",
+      "zh": "而会是智能真正运行在数据库内部。"
+    },
+    {
+      "timestamp": "50:32",
+      "speaker": "Hamad",
+      "en": "But I don't think the language model will always be slow.",
+      "zh": "但我不认为语言模型会一直慢下去。"
+    },
+    {
+      "timestamp": "51:23",
+      "speaker": "Hamad",
+      "en": "And I don't think that system will look like a Postgres.",
+      "zh": "而且我不认为那个系统看起来会像一个 Postgres。"
+    }
+  ],
+  "voice_script": "今天这期聊一个听起来挺技术、但跟每个用 AI 的人都有关系的事：让 AI 去找资料这件事，正在悄悄变难，而解决方案可能不是更大的模型，反而是一个小得多的模型。\n\n先交代今天的主角。Hamad Bashir,是 Chroma 的 CTO,背景横跨机器学习、计算机视觉和数据系统。Chroma 这家公司你可能听过，他们的向量数据库很多 AI 应用都在用。这期要讲的核心是：智能体兴起之后，检索的难度和成本都上了新台阶，Chroma 给出的答案是 Context 1——一个只有 200 亿参数的小模型，搜索质量能匹敌前沿大模型，但成本低一个数量级，速度快一个数量级。\n\n要听懂这事，得先说清楚 Chroma 是怎么走到这的。一开始压根不是想做数据库，原来解决的是计算机视觉的主动学习问题，就是每天从线上数据里挑出值得标注的那一小部分。语言模型兴起之后，他们发现这跟推理时给模型挑数据是同一类问题——说白了就是搜索。本想用现成的方案，结果发现全都胜任不了。为什么？负载形态不一样。传统搜索系统围绕一个巨大的索引设计：十亿条信息塞一个索引里。但 AI 应用几乎是反过来的——每个客户一个索引、每段聊天历史一个索引、每个智能体一个索引，而且必须保证搜索准确度。所以只能自己造，把整个数据库押在对象存储上——等各大云的对象存储开始支持条件写入，这条路才真正走得通，经济性才撑得起每个客户一个索引。有意思的是，这个架构后来因祸得福：智能体来了之后，查询频率完全不是人的频率——人最多三十秒发一次，智能体会每一两秒发一次，还每次五六个并行。好在他们的架构本质无状态，加节点就能吸收这种弹性。\n\n那为什么搜索这么难还得专门优化？这就引出一篇很重要的研究，Context Rot。这个论文想实证证明一件大家凭感觉早就知道的事：上下文塞得越多，模型越笨。实验很朴素，几万 token 的量级上就出现极其陡峭的性能下滑。而且注意，论文发布之后模型又迭代了三代，这个退化依然存在。更反直觉的是，被打乱、不连贯的文档，有时反而比结构化的更能帮模型找到那条关键信息。核心机制是：干扰项越多，模型忽略那些看起来相关其实不相关的能力就越差。打个比方，你明确问美国佐治亚州的人口，文档里同时有国家格鲁吉亚和佐治亚州的信息，模型照样可能搞混。现实里的后果就是，模型搜到两份同名人物的文档，把一个人的工作安到另一个人头上，指引你去问错的人。\n\n所以答案不是无限扩大上下文——成本上也撑不住——而是上下文工程：怎么精选放进模型窗口里的信息。顺着这个逻辑，Chroma 做出了 Context 1。理念是现在编码智能体都在用的模式：大模型启动一个子智能体去执行任务。Hamad 的判断是，搜索这个狭窄任务——理解意图、分解查询、判断相关性、迭代执行——不需要那么多原始智能，更需要的是极快地大量执行。所以衡量指标是每秒 token 数，不是模型有多大。结果，这个 20B 的小模型在搜索基准上匹配了 Opus 4.5、Sonnet 4.5、Gemini 3.1 Pro,速度跑到每秒四五百 token,而 Opus 只有四十到八十。\n\n技术上有个很妙的创新：自编辑上下文。他们给了模型一个工具，允许它回过头从自己的上下文窗口里删掉文档。边走边删，窗口就保持在三万两千 token 左右的有界范围，又快又省。事后看也不意外——模型本来就得判断相关性才能完成任务，删掉不相关的只是同一件事。训练上用 GPTOSS 20B 做底座，监督微调加强化学习，剪枝准确率从八成练到九成五以上。一个细节：光靠微调就教会了模型并行工具调用，还没上强化学习，就已经大幅减少找信息需要的轮次了。\n\n为什么小模型能做到？核心信念是：搜索时模型的那套行为，比推理更有价值——这是行为不是推理，可以通过训练单独优化。Hamad 也承认边界，稳态下大模型总归更强，但小模型在足够窄的语料上，教会它这个语料库的地图和词汇，就能搜得很好，就像人搜自己的网盘比搜陌生地方更高效。也正因为这个，模型权重以 Apache 许可证开源了：别人发布工作时他们在受益，Context 1 训练本身就用了开放权重模型，现在是正和游戏。\n\n最后说说终局判断。Hamad 打了个长期比方：语言模型是 CPU,旁边需要一个子系统决定模型该看到什么、什么该存储——就像硬盘有自己的控制器和操作系统。今天这东西长得像数据库，但方向是智能真正运行在数据库内部。到几年后每秒上万 token 的模型出现时，去搜索系统发一次网络调用的延迟假设就不成立了。所以那个能装进任何非结构化数据的系统会出现，但它不会长得像 Postgres。\n\n上下文塞得越多，模型越笨——解决之道不是更大的窗口，而是在正确的时间，把任务交给正确的系统。"
+}
