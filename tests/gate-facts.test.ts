@@ -755,3 +755,23 @@ describe("drift #65 · half / quarter 认得出来", () => {
     expect(idx("it was twenty twenty two back then").numbers.has(2022)).toBe(true);
   });
 });
+
+// Scenario 5d-C([standard-change: 用户授权 2026-09-24「a」]):源侧补认前导点小数 / 复数数字词
+describe("5d-C · 源侧补认「.2」→0.2、「nines」→9(真案例:2026-09-21-latent-jev 两处误拦)", () => {
+  const nums = (text: string) => buildFactIndex([{ text, start: 0, end: 1 }] as any, {} as any, {} as any).numbers;
+  it("★★★ 「RLVR is like a .2」→ 0.2 有出处;「more nines of reliability」→ 9 有出处", () => {
+    expect(nums("RLVR is like a .2").has(0.2)).toBe(true);
+    expect(nums("so many more nines of reliability").has(9)).toBe(true);
+  });
+  it("★★★ 不误认:v1.2 / file.2 不产生 0.2;「two nines」不拼成 29", () => {
+    const a = nums("version v1.2 and file.2 only");
+    expect(a.has(0.2)).toBe(false);
+    const b = nums("two nines of uptime");
+    expect(b.has(29)).toBe(false);
+    expect(b.has(9) && b.has(2)).toBe(true);
+  });
+  it("★★ 原有口径不变:twenty five → 25、2.2 照旧", () => {
+    expect(nums("twenty five times").has(25)).toBe(true);
+    expect(nums("maybe 2.2 times").has(2.2)).toBe(true);
+  });
+});

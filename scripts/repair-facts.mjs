@@ -58,6 +58,87 @@ export function censorEntityDescriptions(entitiesObj, names) {
   return n;
 }
 
+// ── Scenario 5d-D([standard-change: 用户授权 2026-09-24「a」]):修不动的零星一两处 → 删掉所在那一句/小标题 ──
+// 起因:2026-09-21-latent-jev 3 处失败修好 2 处,剩小标题「## 可靠性的几个 9」里一个 9(模型两次重写都把 9 写回去)
+// → 整集 2 小时访谈被隔离。与不变量②的区别:②防**模型**学会删;这里是模型修不动之后**程序**机械删,且有硬上限。
+export const CUT_MAX_FAILURES = 2; // 剩余失败超过这个数 → 不删,照旧隔离
+export const CUT_MAX_CHARS = 300; // 单处删除超过这个长度 → 不删(防整段被当成一句)
+
+/**
+ * 一条失败在正文里的**唯一**字符位置;定位不唯一/找不到 → -1(宁可隔离也不删错地方)。
+ * 闸门给的 ctx 截自「剥过时间戳/背景块」的文本、换行已成空格 → 不一定能整串命中原文,故由宽到窄逐级收窄探针。
+ */
+export function locateFailureOffset(md, f) {
+  const norm = String(md).replace(/\n/g, " "); // 1:1 替换,偏移不变
+  const target = String(f.raw ?? f.name ?? "");
+  if (!target) return -1;
+  const uniqueAt = (probe) => {
+    const i = norm.indexOf(probe);
+    return i >= 0 && norm.indexOf(probe, i + 1) < 0 ? i : -1;
+  };
+  const ctx = String(f.ctx ?? "");
+  if (ctx) {
+    // raw 在 ctx 里的位置:闸门截 ctx 时 raw 前留了约 14 字 → 取离 14 最近的那次出现
+    let best = -1;
+    for (let i = ctx.indexOf(target); i >= 0; i = ctx.indexOf(target, i + 1)) if (best < 0 || Math.abs(i - 14) < Math.abs(best - 14)) best = i;
+    if (best >= 0) {
+      for (const r of [Infinity, 12, 8, 5, 3]) {
+        const a = Math.max(0, best - r), b = Math.min(ctx.length, best + target.length + r);
+        const probe = ctx.slice(a, b).trim();
+        if (!probe.includes(target)) continue;
+        const at = uniqueAt(probe);
+        if (at >= 0) return at + probe.indexOf(target, Math.max(0, best - a - (ctx.slice(a, b).length - ctx.slice(a, b).trimStart().length)));
+      }
+    }
+  }
+  return uniqueAt(target);
+}
+
+const SENT_END = "。！？!?；;";
+const CLOSERS = "」』”’）)】";
+
+/** 删掉 offset 所在的那一句(小标题行则删整行);删完成空的列表项/引用行一并去掉。超长 → null。 */
+export function cutSentenceAt(md, offset, { maxChars = CUT_MAX_CHARS } = {}) {
+  const text = String(md);
+  if (offset < 0 || offset >= text.length) return null;
+  const ls = text.lastIndexOf("\n", offset - 1) + 1;
+  let le = text.indexOf("\n", offset);
+  if (le < 0) le = text.length;
+  let start, end;
+  if (/^\s*\|/.test(text.slice(ls, le))) return null; // 表格行:删了会坏表结构 → 不删,照旧隔离(GLM 20260924-001[3])
+  if (/^\s*#{1,6}\s/.test(text.slice(ls, le))) {
+    start = ls;
+    end = le;
+  } else {
+    start = ls;
+    for (let i = offset - 1; i >= ls; i--) if (SENT_END.includes(text[i])) { start = i + 1; break; }
+    while (start < offset && CLOSERS.includes(text[start])) start++;
+    while (start < offset && /\s/.test(text[start])) start++;
+    end = le;
+    for (let i = offset; i < le; i++) if (SENT_END.includes(text[i])) { end = i + 1; break; }
+    while (end < le && CLOSERS.includes(text[end])) end++;
+    // 紧跟句尾的时间戳标注 [mm:ss 说话人] 属于这一句,一并带走(否则会挂到上一句头上)
+    const ts = text.slice(end, le).match(/^\s*[[【(（][^\]】)）\n]*\d{1,2}:\d{2}[^\]】)）\n]*[\]】)）]/);
+    if (ts) end += ts[0].length;
+    if (start > ls) while (end < le && text[end] === " ") end++; // 句中删除:别留下孤零零的空格
+  }
+  const cut = text.slice(start, end);
+  if (!cut.trim() || cut.length > maxChars) return null;
+  let out = text.slice(0, start) + text.slice(end);
+  // 这一行删空了(或只剩列表符/引用符)→ 整行去掉
+  const ls2 = out.lastIndexOf("\n", start - 1) + 1;
+  let le2 = out.indexOf("\n", start);
+  if (le2 < 0) le2 = out.length;
+  if (/^\s*(?:[-*>]|\d+\.)?\s*$/.test(out.slice(ls2, le2))) out = out.slice(0, ls2) + out.slice(Math.min(out.length, le2 + 1));
+  // 只收拾**删除处**的连续空行(GLM 20260924-001[1]:全局压空行会挪动前面文字的偏移 → 同篇第二处删错句)
+  let a = Math.min(start, out.length), b = a;
+  while (a > 0 && out[a - 1] === "\n") a--;
+  while (b < out.length && out[b] === "\n") b++;
+  if (a === 0) out = out.slice(b); // 删的是文首 → 别留空行开头
+  else if (b - a > 2) out = out.slice(0, a) + "\n\n" + out.slice(b);
+  return { md: out, cut: cut.trim(), start, end };
+}
+
 function glmAsk(system, input, maxTokens = 1200, timeoutMs = 120000) {
   return new Promise((res, rej) => {
     const p = spawn("glm-ask", ["--system", system, "--max-tokens", String(maxTokens)], { stdio: ["pipe", "pipe", "pipe"] });
@@ -358,6 +439,37 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
         fixed.push({ para: idx, softenedNouns: names });
         log(`  ✂ 段 ${idx} 已软化查不实专名:${names.join("、")}`);
       }
+    }
+  }
+
+  // ── Scenario 5d-D:还剩 ≤2 处修不动 → 删掉所在那一句/小标题(整篇复检全过才认,否则回滚照旧隔离)──
+  writeTmp(md);
+  {
+    const cur = gateFacts(dir, opts);
+    const { entity: entLeft } = splitEntityFailures(cur.failures);
+    if (!cur.pass && cur.failures.length <= CUT_MAX_FAILURES && !entLeft.size) {
+      const offs = cur.failures.map((f) => ({ f, at: locateFailureOffset(md, f) }));
+      if (offs.every((o) => o.at >= 0)) {
+        let cand = md;
+        const cuts = [];
+        let ok = true;
+        // 倒序删:后面的先删,前面的偏移不受影响;前一处若落在已删掉的那句里(同一句两条失败)→ 已随之删掉,跳过
+        for (const { at } of [...offs].sort((a, b) => b.at - a.at)) {
+          if (cuts.some((c) => at >= c.start)) continue;
+          const r = cutSentenceAt(cand, at);
+          if (!r) { ok = false; break; }
+          cuts.push({ start: r.start, text: r.cut });
+          cand = r.md;
+        }
+        if (ok) {
+          writeTmp(cand);
+          const after = gateFacts(dir, opts);
+          if (after.pass) {
+            md = cand;
+            for (const c of cuts) { fixed.push({ cutSentence: c.text }); log(`  ✂ 删句(修不动的零星一处,Scenario 5d-D):「${c.text}」`); }
+          } else log(`  ✗ 删句后事实层仍未过(${after.failures.length} 条)→ 回滚,照旧隔离`);
+        } else log(`  ✗ 待删处超过 ${CUT_MAX_CHARS} 字 → 不删,照旧隔离`);
+      } else log(`  ✗ ${offs.filter((o) => o.at < 0).length} 处在正文里定位不唯一 → 不删,照旧隔离`);
     }
   }
 

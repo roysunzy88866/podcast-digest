@@ -5,7 +5,7 @@
 // 这里测的就是「收不收这个补丁」这个真决定。整链真跑的证据在 docs/c3-定点重写回路.md。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { splitParagraphs, locateFailure, judgePatch } from "../scripts/repair-facts.mjs";
+import { splitParagraphs, locateFailure, judgePatch, locateFailureOffset, cutSentenceAt, repairFacts, CUT_MAX_FAILURES } from "../scripts/repair-facts.mjs";
 
 describe("splitParagraphs · 定位要原地替换的段", () => {
   it("按空行切段,并给出可原地替换的偏移", () => {
@@ -207,5 +207,92 @@ describe("B · 专名末轮软化兜底(源码锚,防静默删除)", () => {
     const block = src.slice(src.indexOf("末轮兜底"));
     expect(block).toContain("judgePatch(");
     expect(block).toContain("softenedNouns");
+  });
+});
+
+// ── Scenario 5d-D([standard-change: 用户授权 2026-09-24「a」]):修不动的零星一两处 → 删掉那一句/小标题 ──
+describe("5d-D · locateFailureOffset / cutSentenceAt(删哪一句)", () => {
+  const md = "## 引子\n\n正文第一句。他只给 0.2 分的小修正，还觉得慷慨。[117:03 Diogo Almeida] 后面一句保留。\n\n## 可靠性的几个 9:让智能像数据库查询一样\n\n- 列表项唯一一句 0.3。\n- 另一项。";
+  it("★★★ 小标题里的失败 → 删整行小标题,别的一个字不动(真案例:Jev 集「可靠性的几个 9」)", () => {
+    const at = locateFailureOffset(md, { raw: "9", ctx: "]。  ## 可靠性的几个 9:让智能像数据库查询一样" });
+    const r = cutSentenceAt(md, at)!;
+    expect(r.cut).toBe("## 可靠性的几个 9:让智能像数据库查询一样");
+    expect(r.md).toBe("## 引子\n\n正文第一句。他只给 0.2 分的小修正，还觉得慷慨。[117:03 Diogo Almeida] 后面一句保留。\n\n- 列表项唯一一句 0.3。\n- 另一项。");
+  });
+  it("★★★ 句中失败 → 只删那一句(连同紧跟的时间戳),前后句保留", () => {
+    const at = locateFailureOffset(md, { raw: "0.2", ctx: "正文第一句。他只给 0.2 分的小修正，还觉" });
+    const r = cutSentenceAt(md, at)!;
+    expect(r.cut).toBe("他只给 0.2 分的小修正，还觉得慷慨。[117:03 Diogo Almeida]");
+    expect(r.md).toContain("正文第一句。后面一句保留。");
+  });
+  it("★★ 列表项删空 → 整行去掉,不留孤零零的「- 」", () => {
+    const r = cutSentenceAt(md, locateFailureOffset(md, { raw: "0.3", ctx: "- 列表项唯一一句 0.3。 - 另一项" }))!;
+    expect(r.md.endsWith("## 可靠性的几个 9:让智能像数据库查询一样\n\n- 另一项。")).toBe(true);
+  });
+  it("★★★ 定位不唯一 → -1(宁可隔离也不删错地方);超长 → null(防整段当一句删)", () => {
+    expect(locateFailureOffset("a 9 b 9 c", { raw: "9" })).toBe(-1);
+    expect(cutSentenceAt("x".repeat(400) + "9。", 400)).toBe(null);
+  });
+});
+
+describe("5d-D · repairFacts 整链(假 glm-ask:模型修不动 → 末轮删句 → 整篇复检全过)", () => {
+  const mkWords = (text: string, t0: number) => text.split(" ").map((w, i) => ({ word: w, start: t0 + i, end: t0 + i + 1, speaker: "SPEAKER_00" }));
+  async function fixture(digestMd: string) {
+    const { mkdtempSync, writeFileSync, chmodSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const { join } = await import("node:path");
+    const dir = mkdtempSync(join(tmpdir(), "pd-cut-"));
+    const t = "the platform had revenue in 2023";
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify([{ text: t, start: 0, end: 6, words: mkWords(t, 0) }]));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify({ id: "x", title_en: "x", speaker_map: { SPEAKER_00: "嘉宾" } }));
+    writeFileSync(join(dir, "digest.json"), JSON.stringify({ tldr: "t", digest_md: digestMd, quotes: [] }));
+    const aliasesPath = join(dir, "aliases.json");
+    writeFileSync(aliasesPath, JSON.stringify({ entities: [] }));
+    const bin = join(dir, "bin");
+    (await import("node:fs")).mkdirSync(bin);
+    writeFileSync(join(bin, "glm-ask"), "#!/bin/sh\nexit 1\n"); // 模型永远修不动
+    chmodSync(join(bin, "glm-ask"), 0o755);
+    return { dir, aliasesPath, bin };
+  }
+  async function run(md: string) {
+    const f = await fixture(md);
+    const oldPath = process.env.PATH;
+    process.env.PATH = `${f.bin}:${oldPath}`;
+    try {
+      const logs: string[] = [];
+      const r = await repairFacts(f.dir, { aliasesPath: f.aliasesPath, log: (s: string) => logs.push(s) });
+      const saved = JSON.parse(readFileSync(`${f.dir}/digest.json`, "utf8")).digest_md;
+      return { r, logs, saved };
+    } finally {
+      process.env.PATH = oldPath;
+    }
+  }
+  it("★★★ 只剩 1 处(小标题里编造的 77)→ 删掉那行小标题,整篇过闸,日志记下删了什么", async () => {
+    const { r, logs, saved } = await run("## 可靠性要到 77 分\n\n平台在 2023 年有收入。");
+    expect(r.pass).toBe(true);
+    expect(saved).toBe("平台在 2023 年有收入。");
+    expect(logs.some((l) => l.includes("✂ 删句") && l.includes("## 可靠性要到 77 分"))).toBe(true);
+  });
+  it("★★★ 剩余超过上限 → 不删,照旧不过(交隔离)", async () => {
+    const md = Array.from({ length: CUT_MAX_FAILURES + 1 }, (_, i) => `第 ${i} 句有编造的 ${81 + i} 个数。`).join("\n\n") + "\n\n平台在 2023 年有收入。";
+    const { r, saved } = await run(md);
+    expect(r.pass).toBe(false);
+    expect(saved).toBe(md);
+  });
+});
+
+describe("5d-D · GLM 20260924-001 复核补的两条", () => {
+  it("★★★ [1] 前文有三连空行,同篇删两处 → 第二处仍删对句子(只收拾删除处的空行,不挪前文偏移)", () => {
+    const md = "开头句。\n\n\n\n甲句有 77 个。乙句保留。\n\n中间段。\n\n丙句有 88 个。丁句保留。";
+    const a2 = locateFailureOffset(md, { raw: "88" }), a1 = locateFailureOffset(md, { raw: "77" });
+    const r2 = cutSentenceAt(md, a2)!;
+    const r1 = cutSentenceAt(r2.md, a1)!;
+    expect(r1.cut).toBe("甲句有 77 个。");
+    expect(r2.md).toContain("开头句。\n\n\n\n甲句有 77 个。"); // 第一刀(删 88)没动前文 → 77 的偏移仍有效
+    expect(r1.md).toBe("开头句。\n\n乙句保留。\n\n中间段。\n\n丁句保留。"); // 第二刀的删除处顺手收拾空行
+  });
+  it("★★ [3] 落在表格行 → 不删(返回 null,照旧隔离),免得删坏表结构", () => {
+    const md = "| 指标 | 值 |\n|---|---|\n| 可靠性 | 77 |";
+    expect(cutSentenceAt(md, md.indexOf("77"))).toBe(null);
   });
 });

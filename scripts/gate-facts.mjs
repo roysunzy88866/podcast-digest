@@ -132,6 +132,10 @@ function collectNumbers(text, into) {
     const v = Number(m[0].replace(/,/g, "").replace(/\.$/, ""));
     if (Number.isFinite(v)) into.add(v);
   }
+  // 前导点小数(Scenario 5d-C · [standard-change: 用户授权 2026-09-24「a」]):原稿「RLVR is like a .2」,
+  // 中文精华如实写「0.2」→ 上面的正则要求数字打头,只抽到 2 → 判 0.2「疑编造」整集隔离(2026-09-21-latent-jev)。
+  // 前面不许是字母/数字/点(v1.2、file.2 不算);只往源侧加值 = 放宽,绝不误杀。
+  for (const m of String(text).matchAll(/(?<![\w.])\.(\d+)\b/g)) into.add(Number(`0.${m[1]}`));
   // 数字 + 量级词(19 billion / 1.7 million / $500k)——原来数字被 \d 抽走、量级词进 a-z 词流,
   // 两者被拆开、never composed → 中文导读「190亿/170万」(已缩放成 1.9e10/1.7e6)对不上英文原文 = 翻译型误判根因。
   // 量级词白名单(thousand/million/billion/trillion + bn/mn/k);不收裸 m/b(米/分钟歧义太强)。
@@ -156,6 +160,13 @@ function collectNumbers(text, into) {
     }
   };
   for (const t of toks) {
+    // 复数数字词(Scenario 5d-C · 同上授权):「more nines of reliability」→ 中文「几个 9」;只认 NUM_WORDS 里的词 + s
+    // (nines/tens/sevens…),单独记值、不并进词串(「two nines」不是 29)。
+    if (NUM_WORDS[t] == null && t.endsWith("s") && NUM_WORDS[t.slice(0, -1)] != null) {
+      flush();
+      into.add(NUM_WORDS[t.slice(0, -1)]);
+      continue;
+    }
     if (NUM_WORDS[t] != null || SCALES[t] || t === "a" || t === "and") {
       // 单个词自身的值也算「原文出现过」(ten→10、hundred→100)
       if (NUM_WORDS[t] != null) into.add(NUM_WORDS[t]);
