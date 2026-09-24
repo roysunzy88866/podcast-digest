@@ -67,7 +67,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[智能体]] · [[Microsoft]] · [[Cursor]] · [[Stripe]] · [[Meta]] · [[Harry Stebbings]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":126,"Anthropic":134,"NVIDIA":42,"智能体":301,"Microsoft":25,"Cursor":66,"Stripe":34,"Meta":35,"Harry Stebbings":18,"Salesforce":26}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":127,"Anthropic":135,"NVIDIA":44,"智能体":304,"Microsoft":25,"Cursor":66,"Stripe":34,"Meta":35,"Harry Stebbings":18,"Salesforce":26}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":134,"Eleven Labs":6,"Uber":10,"智能体":301,"智能体记忆":1,"RAG":17,"嵌入模型":3}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":135,"Eleven Labs":6,"Uber":10,"智能体":304,"智能体记忆":1,"RAG":18,"嵌入模型":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,202 @@
+{
+  "title_zh": "买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌",
+  "tldr": "Sequence Holdings 联合创始人兼 CEO Michael Lee 解释为什么 AI 时代的赢家不是创业公司，而是被收购后在位企业。",
+  "digest_md": "一家保险经纪公司，凭什么值 77 亿美元、创下迄今最大的 AI 私有化交易纪录？说这话的人是 Michael Lee,Sequence Holdings 的联合创始人兼 CEO——一家成立仅 20 个月的永久控股公司，专门收购传统行业的在位企业，再用前沿工程团队把它们重造成 AI 时代的市场领导者。他的第一笔大买卖，是联合 Dell 家族办公室以 77 亿美元收购保险经纪公司 Baldwin。\n\n## 核心论点：AI 对经济的影响是不均匀的\n\nMichael 2017 年加入 Lone Pine 时就负责覆盖 AI，那是 AlphaGo 和第一篇 Transformer 论文发表的年代。当年的模型一扩大规模就性能退化，而 ChatGPT 出现时，他意识到世界变了：「我们终于有了一个我们知道可以无限扩展的架构。」\n\n由此他得出一个判断：AI 对经济的影响将是不均匀的。餐馆、高尔夫球场不会被动摇；编程这类领域创业公司会赢(「你会把钱给 Cognition 或 Anthropic」);但有一批行业，在位者拥有品牌、规模、网络效应、监管的所有优势。他的想法是：**收购正确的在位者，继承它的所有优势，再用 AI 把它锻造成市场领导者。**这个想法逐渐成型，就是 Sequence 的起点。\n\n至于为什么是控股公司而不是当供应商：他认为这是「契合当今机会的商业模式」。现在的企业软件公司都在做同一件事——给人类流水线上的每个人配上小机器加速工作，「总比没有好」，但真正该问的是怎么**重组**整个组织。要让资本的期限与转型所需的持续投入匹配、让文化围绕锻造市场领导者而非部署资本来设计，「唯一自然的方式就是通过一家控股公司」。\n\n## 为什么「买下来」是唯一出路\n\n他给企业 CEO 摆出三条路，每条都走不通：\n\n**自己干？**招不到人也留不住人。答案藏在文化里：「地球上的每家公司都有一个备受推崇的人物形象」——Blackstone 推崇的是投资者，所以能聚拢全球最好的投资人；「在一个你相信超额收益来自工程和 AI 的世界里，你需要打造一种文化，让备受推崇的人物形象是工程师」。 Palantir 本质上就是这么一个组织：聚集世界级工程师、推崇工程师，然后把这些能力作为 wrapper 卖给拿不到这种人才的公司。\n\n**买服务？**Accenture、McKinsey、Palantir 都是好公司，但激励不对：「服务公司优化的基本上是三件事：进入你的钱包、留在你的钱包里、扩大你钱包中的份额。这是一条走向渐进主义的道路。」而且供应商无法动你真正需要动的东西——人员的组织方式、谁在组织里、激励机制。\n\n**买软件？**两个问题。明面上：人人都买得到的软件构不成优势。更微妙的是软件公司的基因决定了它只能「按照今天设计的工作流来销售」——你无法围绕一条今天还不存在的人类流水线来卖产品。而 AI 时代恰恰需要重建那条流水线。\n\n所以所有权是唯一解：拥有公司，才能让工程师、管理层、长期资本三者利益对齐。\n\n## 怎么选标的：组织物理学\n\nSequence 的选股标准有三条：市场规模要大到能打造千亿美元以上公司(「我们在 Sequence 做的事情不具备规模化……我们试图每年只做一笔交易。仅此而已。」);在位者拥有所有优势；以及 AI 今天擅长的东西能不能在这个组织里构建出特别的东西。\n\n他们反复强调「组织物理学」：喜欢**紧凑、运营集中化**的组织，这样建出来的任何东西都能摊销到庞大的业务基础上。银行是最好的例子——分支再多，承保全在总部集中进行。与之相反，市场上流行的 roll-up(连续收购整合)要整合不同系统、外派工程师、统一流程和文化，复杂度高得多。\n\n保险经纪完美命中这三条：每年超过两万亿美元保费流向保险公司，经纪人从中抽佣；而且这是个创业公司几乎进不来的行业——保险公司的利润大头来自用保费做投资而非承保，所以它在乎的是拉来高质量保费，付钱的是保险公司而不是客户；业务以关系为中心，总留存率 90%,经纪人不打价格战。 Baldwin 则是几十家里挑出的唯一：有规模的资产、集中化的技术底座、一支早就自己在推 AI 的管理层(CEO Trevor Baldwin 很早就让 Anthropic 端到端在内部落地)。\n\n## 平台 Atlas:80% 通用，20% 垂直\n\nAtlas 是他们在银行里建出来的共享平台，核心假设来自工程师们在 Scale 和 Palantir 的经验：把业务拆到原子单元后，**80% 基本同质，只有 20% 是垂直行业特定的**。所以银行里建的核心基础设施，到 Baldwin 和未来任何公司都能复用。\n\nAtlas 有四层：最底层是数据本体——用代码定义组织和业务的运作方式，「我们如何让业务对模型变得可读」，让智能体认得出两个系统里的客户是同一个；往上是智能体构建器，构建以真值为基础的高性能智能体；第三层是编排引擎 Lattice,用建好的智能体编排工作流；最顶层是应用构建器 Artifacts。\n\n但他反复说，工程问题是两者中容易的那个：「我们在 Sequence 有两个问题：一个工程问题和一个人类工程问题，而人类工程问题比工程问题难得多。」投资银行之后最大的教训是要对员工的感受极度敏感——转型带来的焦虑是真实的，关键是怎么让人们感到 AI 在提升他们的工作、拿走机械重复的部分、让组织在赢。\n\n## 银行试点的实际成果\n\nBank South(佐治亚州一家社区银行)成了 Sequence 的完美试点：先以服务模式干了一段时间，那家人主动问他们愿不愿意长期合作，于是变成第一笔投资，后来拿到美联储和 OCC 批准。他甚至说「银行受监管的性质是一个特性，而不是缺陷」——受监管机构运作方式明确定义、数据卫生出色，这恰恰对智能体极其友好。\n\n六个月的成果：消费贷款承保全部搬进系统，平均消费信贷承保量下降 94%;商业贷款承保铺开后，平均一笔贷款的端到端处理时间从 30 天缩到 11 天。今年 Q2 银行贷款量环比翻倍——历史上中后台带宽不够、银行会主动拒绝业务，这次全部消化，且承保标准一点没松，承保团队反而更小了(一人退休、一人调去前台)。 结果是每个人都在做最擅长的事：贷款专员多跑实地、少写信贷备忘录；承保人只处理最难最复杂的贷款。\n\n## 和私募股权的本质区别\n\nMichael 自己在 Apollo 干过，深知 PE 的玩法。他不否认大 PE 会继续成功，但认为它们做激进 AI 转型有三重结构性限制：一是文化——典型 PE 歌颂投资者，25 岁的工程师对投资决策有任何发言权都是「极不寻常的」，而优秀工程师想在决策桌上有一席之地；二是时间跨度——「基金里的一笔典型投资，你通常是在琢磨如何在三年内开始打包并卖掉这个东西」，这对技术变革是完全不同的框架；三是专注度——PE 有部署资本的压力，LP 会说你今年投得不够，而 Sequence 每年只做一笔、今年一笔不做也完全可以。\n\n## 挑团队：看他们怎么打这场比赛\n\n每年只做一笔交易，意味着对生意质量和团队极致挑剔。他看管理团队两点：一是他们在自己的行业里「怎么打这场比赛」——他没有经营银行或经纪公司的专业能力，高度依赖管理团队在自己的手艺上做到最好；二是看他们是否**已经**在推动变革：上云、集中数据基础设施、在组织里部署 OpenAI 和 Anthropic。「这能让你非常了解这样一个人——在一个去做这件事还不那么显而易见的时间点，愿意率先去做的人。」\n\n## 职业投资人创业的最大领悟\n\n从 Lone Pine 私募业务负责人到创始人，他说对创始人的同理心「天壤之别」——把想法从无到有、吸引人和资本加入，都不容易，「有些日子极其、异常孤独，但我不能更开心了」。而他给早期投资人的建议出人意料地「风投」：「点子很廉价，执行才是真正困难的。真正杰出的人总能找到办法把事情做成。」他 2017 年见过 Jensen Huang,那时 NVIDIA 还不是今天的 NVIDIA——但 Jensen 思路始终一致、执行力惊人、身边聚着忠诚的聪明人、不断重构自己的业务。结论：**在超大市场里押注杰出的人，几乎是唯一重要的事，即使看起来很疯狂——支持这些人的上行凸性会抵消其余一切。**\n\n## 本集带走\n\n- **判断 AI 落点的方法**：把经济分成三块——AI 碰不到的(餐馆、球场)、创业公司通吃的(编程)、在位者占尽优势的(银行、保险经纪)。第三块才是收购+改造的机会。\n- **为什么单靠买工具/买服务救不了传统企业**：软件只能顺着现有工作流卖，服务商会卡在激励问题上(扩大你的钱包份额)，只有所有权能让工程师、管理层、长期资本三者对齐。\n- **文化先行**：想要世界级工程师，公司推崇的形象必须是工程师本人——Blackstone 靠这个聚投资人，Palantir 靠这个聚工程师。\n- **选标的看组织物理学**：运营集中、组织紧凑，建出来的东西才能摊销到全业务；roll-up 式整合的系统、流程、文化成本是反例。\n- **平台思维**：把业务拆到原子单元，约 80% 同质、20% 垂直——底层数据本体和智能体基础设施跨行业复用，换行业只改上面那 20%。\n- **人的工程比工程难**：转型最大的阻力是员工焦虑，成功案例里没人被裁，是被腾出来去做判断、做关系、做最难的那部分。\n- **识别值得投的管理层**：看他们在没人要求时就做的事——上云、集中数据、早早部署前沿模型，说明这个团队敢在不明朗时下注。",
+  "quotes": [
+    {
+      "en": "What we do is scarce. We're trying to do one deal per year. That's it. Our job is to do one.",
+      "zh": "我们做的事情是稀缺的。我们试图每年只做一笔交易。仅此而已。我们的工作就是做成一笔。",
+      "timestamp": "00:22",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer, and that's what's required.",
+      "zh": "在一个你相信超额收益来自工程和 AI 的世界里,你需要打造一种文化,让备受推崇的人物形象是工程师,这就是必需的。",
+      "timestamp": "00:02",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "We finally had an architecture that we knew could scale infinitely.",
+      "zh": "我们终于有了一个我们知道可以无限扩展的架构。",
+      "timestamp": "02:52",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "When you have machines that can work 24-7, that can scale with electricity, that can accomplish what no individual human or group of humans can do, the right answer is to think about how do you start to reorganize what an organization should be to meet the opportunity of what's available today with technology.",
+      "zh": "当你拥有能够 24 小时 7 天工作的机器、能够随电力而扩展的机器、能够完成任何个人或人群都无法做到的事情的机器时,正确的答案是思考如何重组一个组织应该是什么样的,以迎接当今技术所带来的机会。",
+      "timestamp": "05:40",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "Services companies optimize for kind of three things, getting in your wallet, staying in your wallet, growing the share of your wallet. It is a path towards incrementalism.",
+      "zh": "服务公司优化的基本上是三件事:进入你的钱包、留在你的钱包里、扩大你钱包中的份额。这是一条走向渐进主义的道路。",
+      "timestamp": "09:36",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "You can't sell a product around a new human assembly line that doesn't exist today because that's how you think it is.",
+      "zh": "你无法围绕一条今天还不存在的人类流水线来销售产品,即便你认为它应该是那样。",
+      "timestamp": "10:43",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "In a weird way, the regulated nature of the bank was a feature, not a bug.",
+      "zh": "说来也怪,银行受监管的性质是一个特性,而不是缺陷。",
+      "timestamp": "16:21",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "If you break down the business to its atomic units, 80% of it is largely homogenous and 20% of it is vertically specific.",
+      "zh": "如果你把业务拆解到它的原子单元,其中 80% 基本上是同质的,20% 是垂直行业特定的。",
+      "timestamp": "21:13",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "We have an engineering problem and a human engineering problem. And the human engineering problem is much more difficult than the engineering problem.",
+      "zh": "我们有一个工程问题和一个人类工程问题。而人类工程问题比工程问题难得多。",
+      "timestamp": "20:49",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "There are days where it's extremely exceptionally lonely, but I could not be having more fun.",
+      "zh": "有些日子极其、异常孤独,但我不能玩得更开心了。",
+      "timestamp": "35:54",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "Ideas are cheap and execution is really hard. And truly exceptional people will always figure out how to make something work.",
+      "zh": "点子很廉价,执行才是真正困难的。而真正杰出的人总能找到办法把事情做成。",
+      "timestamp": "40:26",
+      "speaker": "Michael Lee"
+    },
+    {
+      "en": "By the end of the day, this is a people business, particularly early on, and people working on who are highly ambitious on really hard problems that are in very large markets, you should back them all the time, even if it seems crazy.",
+      "zh": "归根结底,这是一个人与人相关的生意,尤其是在早期,而那些雄心勃勃地在非常大的市场中解决真正困难问题的人,你应该一直支持他们,即使这看起来很疯狂。",
+      "timestamp": "41:01",
+      "speaker": "Michael Lee"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:20",
+      "speaker": "Michael Lee",
+      "en": "What we do is scarce. We're trying to do one deal per year. That's it. Our job is to do one.",
+      "zh": "我们做的事情是稀缺的。我们试图每年只做一笔交易。仅此而已。我们的工作就是做成一笔。"
+    },
+    {
+      "timestamp": "00:02",
+      "speaker": "Michael Lee",
+      "en": "In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer, and that's what's required.",
+      "zh": "在一个你相信超额收益来自工程和 AI 的世界里,你需要打造一种文化,让备受推崇的人物形象是工程师,这就是必需的。"
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Michael Lee",
+      "en": "We finally had an architecture that we knew could scale infinitely.",
+      "zh": "我们终于有了一个我们知道可以无限扩展的架构。"
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Michael Lee",
+      "en": "I kind of felt strongly that AI would have an uneven impact on the economy.",
+      "zh": "我当时比较强烈地感觉到,AI 对经济的影响将是不均匀的。"
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Michael Lee",
+      "en": "When you have machines that can work 24-7, that can scale with electricity, that can accomplish what no individual human or group of humans can do, the right answer is to think about how do you start to reorganize what an organization should be to meet the opportunity of what's available today with technology.",
+      "zh": "当你拥有能够 24 小时 7 天工作的机器、能够随电力而扩展的机器、能够完成任何个人或人群都无法做到的事情的机器时,正确的答案是思考如何重组一个组织应该是什么样的,以迎接当今技术所带来的机会。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Michael Lee",
+      "en": "Every company on the planet has a celebrated persona.",
+      "zh": "地球上的每一家公司都有一个备受赞誉的代表人物。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Michael Lee",
+      "en": "Services companies optimize for kind of three things, getting in your wallet, staying in your wallet, growing the share of your wallet. It is a path towards incrementalism.",
+      "zh": "服务公司优化的基本上是三件事:进入你的钱包、留在你的钱包里、扩大你钱包中的份额。这是一条走向渐进主义的道路。"
+    },
+    {
+      "timestamp": "10:10",
+      "speaker": "Michael Lee",
+      "en": "If it's available to everybody, it's available to everybody.",
+      "zh": "如果它对每个人都可用,那它就对每个人都可用。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Michael Lee",
+      "en": "You can't sell a product around a new human assembly line that doesn't exist today because that's how you think it is.",
+      "zh": "你无法围绕一条今天还不存在的人类流水线来销售产品,即便你认为它应该是那样。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Michael Lee",
+      "en": "In a weird way, the regulated nature of the bank was a feature, not a bug.",
+      "zh": "说来也怪,银行受监管的性质是一个特性,而不是缺陷。"
+    },
+    {
+      "timestamp": "17:29",
+      "speaker": "Michael Lee",
+      "en": "The physics of the business are quite dense.",
+      "zh": "这个业务的物理学是非常紧凑的。"
+    },
+    {
+      "timestamp": "21:16",
+      "speaker": "Michael Lee",
+      "en": "If you break down the business to its atomic units, 80% of it is largely homogenous and 20% of it is vertically specific.",
+      "zh": "如果你把业务拆解到它的原子单元,其中 80% 基本上是同质的,20% 是垂直行业特定的。"
+    },
+    {
+      "timestamp": "20:49",
+      "speaker": "Michael Lee",
+      "en": "We have an engineering problem and a human engineering problem. And the human engineering problem is much more difficult than the engineering problem.",
+      "zh": "我们有一个工程问题和一个人类工程问题。而人类工程问题比工程问题难得多。"
+    },
+    {
+      "timestamp": "26:27",
+      "speaker": "Michael Lee",
+      "en": "You're typically trying to figure out how do we start to package to sell this thing in three years.",
+      "zh": "你通常是在琢磨如何在三年内开始打包并卖掉这个东西。"
+    },
+    {
+      "timestamp": "27:16",
+      "speaker": "Michael Lee",
+      "en": "I hope to hold sequence equity for, you know, the rest of my life.",
+      "zh": "我希望终生持有 Sequence 的股权。"
+    },
+    {
+      "timestamp": "29:07",
+      "speaker": "Michael Lee",
+      "en": "It tells you a lot about the individual who is willing to go ahead and do that at a point in time where it's still not obvious to go do.",
+      "zh": "这能让你非常了解这样一个人——在一个去做这件事还不那么显而易见的时间点,愿意率先去做的人。"
+    },
+    {
+      "timestamp": "35:13",
+      "speaker": "Michael Lee",
+      "en": "It is remarkable to see people take an idea from nothing to something.",
+      "zh": "看到人们把一个想法从无到有,是非常了不起的。"
+    },
+    {
+      "timestamp": "35:54",
+      "speaker": "Michael Lee",
+      "en": "There are days where it's extremely exceptionally lonely, but I could not be having more fun.",
+      "zh": "有些日子极其、异常孤独,但我不能玩得更开心了。"
+    },
+    {
+      "timestamp": "40:29",
+      "speaker": "Michael Lee",
+      "en": "Ideas are cheap and execution is really hard. And truly exceptional people will always figure out how to make something work.",
+      "zh": "点子很廉价,执行才是真正困难的。而真正杰出的人总能找到办法把事情做成。"
+    },
+    {
+      "timestamp": "41:01",
+      "speaker": "Michael Lee",
+      "en": "By the end of the day, this is a people business, particularly early on, and people working on who are highly ambitious on really hard problems that are in very large markets, you should back them all the time, even if it seems crazy.",
+      "zh": "归根结底,这是一个人与人相关的生意,尤其是在早期,而那些雄心勃勃地在非常大的市场中解决真正困难问题的人,你应该一直支持他们,即使这看起来很疯狂。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Michael Lee,是 Sequence Holdings 的联合创始人兼 CEO。这家公司成立才二十个月，做的事情听起来有点疯狂：专门收购传统行业里的老牌企业，再用一支前沿工程团队，把它们重造成 AI 时代的市场领导者。第一笔大买卖，是联合 Dell 家族办公室，用 77 亿美元收购了一家保险经纪公司，叫 Baldwin——这也是迄今最大的 AI 私有化交易。一个保险经纪公司，凭什么值这个价？这期节目，就是 Michael 自己来回答这个问题。\n\n先把背景垫一下。Michael 早在 2017 年就在 Lone Pine 负责覆盖 AI,那时候是 AlphaGo 和第一篇 Transformer 论文的年代。当年的模型一扩大规模就性能退化，所以很难押注。但 ChatGPT 出现的时候，意识到世界变了——用原话说，“我们终于有了一个我们知道可以无限扩展的架构。”从这里，引出了一个核心判断：AI 对经济的影响，是不均匀的。\n\n怎么个不均匀法？把经济分成三块。第一块，AI 根本碰不到，比如餐馆、高尔夫球场。第二块，创业公司通吃，比如编程——你会把钱给 Cognition 或者 Anthropic。但还有第三块，也是机会所在：有一批行业，在位者握着品牌、规模、网络效应、监管的所有优势。Michael 的想法很简单：与其跟他们竞争，不如收购正确的在位者，把它的优势全部继承下来，再用 AI 把它锻造成市场领导者。这个想法，就是 Sequence 的起点。\n\n那为什么不直接卖方案给这些企业，非要买下来？Michael 给企业 CEO 摆了三条路，每条都走不通。\n\n第一条路，自己干。问题是招不到人、也留不住人。答案藏在文化里。Blackstone 推崇的形象是投资者，所以能聚拢全球最好的投资人。用原话说：“在一个你相信超额收益来自工程和 AI 的世界里，你需要打造一种文化，让备受推崇的人物形象是工程师。”Palantir 本质上就是这么一个组织。\n\n第二条路，买服务。Accenture、McKinsey 都是好公司，但激励不对。有句话说得特别狠：“服务公司优化的基本上是三件事：进入你的钱包、留在你的钱包里、扩大你钱包中的份额。这是一条走向渐进主义的道路。”而且服务商动不了真正需要动的东西——人员的组织方式和激励机制。\n\n第三条路，买软件。明面上，人人都买得到的软件构不成优势；更深层的问题是，软件公司只能按照今天的工作流来卖产品，可 AI 时代恰恰需要重建那条流水线。\n\n所以你看，三条路都堵死了，所有权就成了唯一解：只有拥有这家公司，才能让工程师、管理层、长期资本三方的利益真正对齐。\n\n那标的怎么选？这里有个概念叫“组织物理学”。Sequence 喜欢紧凑、运营集中化的组织，这样建出来的任何东西，都能摊销到庞大的业务基础上。银行就是最好的例子——分支机构再多，承保全在总部集中做。反过来，市场上流行的连续收购整合，要统一系统、统一流程、统一文化，复杂度高得多。保险经纪正好全中：每年超过两万亿美元保费流向保险公司，经纪人从中抽佣，总留存率高达百分之九十，创业公司几乎进不来。而 Baldwin 是几十家里挑出的唯一——有规模，技术底座集中，管理层早就自己在推 AI 了。\n\n选完之后怎么改造？Sequence 在银行里建了一个共享平台，叫 Atlas,核心假设是：把业务拆到原子单元之后，百分之八十基本同质，只有百分之二十是垂直行业特定的。所以底层的数据本体、智能体构建器、编排引擎，换一家公司还能接着用。\n\n说到这，还有一个容易被忽略的点：工程问题是两者中容易的那个。原话是“我们在 Sequence 有两个问题：一个工程问题和一个人类工程问题，而人类工程问题比工程问题难得多。”转型带来的员工焦虑是真实的，关键是让每个人感到 AI 在提升自己的工作、拿走机械重复的部分。\n\n效果怎么样？看看真实数据。佐治亚州一家社区银行，成了试点。六个月，消费贷款承保全部搬进系统，平均承保量下降百分之九十四；商业贷款的端到端处理时间，从三十天缩到十一天。今年第二季度贷款量环比翻倍，历史上中后台带宽不够、银行会主动拒绝业务，这次全部消化了，而且承保标准一点没松，承保团队反而更小了——没人被裁，是被腾出来做判断、做关系、做最难的那部分。\n\n最后，这跟私募股权有什么本质区别？Michael 自己在 Apollo 干过，深知那套玩法。大 PE 当然会继续成功，但做激进的 AI 转型，有三重结构性限制：文化上，典型 PE 歌颂投资者，工程师没有决策席；时间上，基金的典型投资是琢磨三年内怎么打包卖掉；专注度上，PE 有部署资本的压力，而 Sequence 每年只做一笔交易，今年一笔不做也完全可以。\n\n有句话适合带走：点子很廉价，执行才是真正困难的。在超大市场里押注杰出的人，支持这些人的上行凸性，会抵消其余一切。"
+}

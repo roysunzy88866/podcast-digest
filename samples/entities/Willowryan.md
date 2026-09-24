@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":15,"SpaceX":18,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":18}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":15,"SpaceX":18,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Hugging Face":22,"权重空间学习":1,"权重":2,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":4,"数据集提示":1,"神经架构搜索":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Hugging Face":22,"权重空间学习":1,"权重":3,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":4,"数据集提示":1,"神经架构搜索":1}</script>
 
 <script>
 (function(){

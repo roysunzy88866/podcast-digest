@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":1,"Anthropic":134,"William Grant":1,"Boston Dynamics":2,"智能体":301,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":1,"Anthropic":135,"William Grant":1,"Boston Dynamics":2,"智能体":304,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

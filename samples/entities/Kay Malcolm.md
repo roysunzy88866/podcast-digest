@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":8,"智能体":301,"harness":41,"记忆":15,"上下文窗口":7,"护栏":52,"检索":3,"Codex":55,"Git":4,"OpenAI":126}</script>
+<script type="application/json" class="pd-epn">{"Oracle":8,"智能体":304,"harness":41,"记忆":15,"上下文窗口":7,"护栏":52,"检索":3,"Codex":55,"Git":4,"OpenAI":127}</script>
 
 <script>
 (function(){

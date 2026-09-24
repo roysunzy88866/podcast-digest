@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":134,"智能体":301,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":14,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":135,"智能体":304,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":14,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

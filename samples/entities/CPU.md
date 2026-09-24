@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Arm]] · [[GPU]] · [[推理]] · [[Condi Rice]] · [[Casey Moratori]] · [[Nathan]] · [[Elad]] · [[Jensen Huang]] · [[性能优化]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":42,"Arm":2,"GPU":18,"推理":52,"Condi Rice":1,"Casey Moratori":1,"Nathan":4,"Elad":1,"Jensen Huang":3,"性能优化":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":44,"Arm":2,"GPU":18,"推理":53,"Condi Rice":1,"Casey Moratori":1,"Nathan":4,"Elad":1,"Jensen Huang":3,"性能优化":1}</script>
 
 <script>
 (function(){

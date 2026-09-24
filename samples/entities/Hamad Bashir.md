@@ -45,7 +45,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]]
 
 </div>
 

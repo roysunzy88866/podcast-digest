@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":134,"Claude 认证架构师考试":1,"智能体":301,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":70}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":135,"Claude 认证架构师考试":1,"智能体":304,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":71}</script>
 
 <script>
 (function(){

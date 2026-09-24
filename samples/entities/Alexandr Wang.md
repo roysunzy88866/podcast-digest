@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":3,"Meta":35,"MuseSpark":1,"开源模型":19,"智能体":301,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":4,"Meta":35,"MuseSpark":1,"开源模型":19,"智能体":304,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

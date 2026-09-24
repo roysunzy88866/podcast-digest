@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Scale.ai":2,"Google":47,"企业 AI":1,"智能体":301,"评估":3,"实体消解":1,"人在回路":13,"基准测试":13,"校准":2}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Scale.ai":2,"Google":47,"企业 AI":1,"智能体":304,"评估":3,"实体消解":1,"人在回路":13,"基准测试":13,"校准":2}</script>
 
 <script>
 (function(){

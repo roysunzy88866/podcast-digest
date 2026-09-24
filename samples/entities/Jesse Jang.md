@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jubin":2,"Decagon":8,"Sierra":6,"智能体":301,"PMF":2,"销售探索":1,"Bar raiser(抬杆者)":1,"部署模式":1,"点子迷宫":1,"办公室政治":1}</script>
+<script type="application/json" class="pd-epn">{"Jubin":2,"Decagon":8,"Sierra":6,"智能体":304,"PMF":2,"销售探索":1,"Bar raiser(抬杆者)":1,"部署模式":1,"点子迷宫":1,"办公室政治":1}</script>
 
 <script>
 (function(){

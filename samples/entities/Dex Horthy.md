@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Mayfor":1,"软件工厂":7,"智能体":301,"上下文工程":15,"规范":2,"计划":1,"代码审查":13,"垃圾话":4,"Human Layer":1,"技能":18}</script>
+<script type="application/json" class="pd-epn">{"Simon Mayfor":1,"软件工厂":7,"智能体":304,"上下文工程":15,"规范":2,"计划":1,"代码审查":14,"垃圾话":4,"Human Layer":1,"技能":18}</script>
 
 <script>
 (function(){

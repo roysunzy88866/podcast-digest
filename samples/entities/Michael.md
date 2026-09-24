@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":42}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":44}</script>
 
 <script>
 (function(){

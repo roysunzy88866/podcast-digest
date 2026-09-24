@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"Zapier":2,"MCP":51,"智能体":301,"确定性代码":1,"Automation Bench":1,"daily driver":1,"token":23,"Cursor":66,"ChatGPT":76}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"Zapier":2,"MCP":51,"智能体":304,"确定性代码":1,"Automation Bench":1,"daily driver":1,"token":23,"Cursor":66,"ChatGPT":76}</script>
 
 <script>
 (function(){

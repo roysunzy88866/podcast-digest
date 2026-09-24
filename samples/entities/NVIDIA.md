@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>42</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -53,6 +53,8 @@ unlisted: true
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(10:04起):本集提到 NVIDIA 的 A100 这类老 GPU 每小时成本反而在升值,且从 A100 到 H100 再到 B300,每代浮点精度都在下降。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(01:35起):本集用其 GPU 说明内存墙：2014-2024 单块 GPU flops 提升约 120 倍而内存带宽只提升 17 倍；也是推理部署的主导硬件，且在市场内存条件下正减少单设备内存。
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(26:08起):本集说 Jensen 受开源的成功所束缚——若只剩 Anthropic 与 OpenAI 双寡头它们会自造芯片,所以开源必须成功;收购 Hugging Face 被认为是把钱花在自己利益所在处。
+- **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(00:52起):本集说它是投资者兼最深合作伙伴：无法律文件、不排他，任意时点十几个协作项目、双方各投三位数开发者，从网络设备到机密计算到下一代 GPU/DPU，同时 VastData 也与 AMD 合作
+- **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(38:19起):本集举 Jensen Huang 为例:2017 年见过他时 NVIDIA 还不是今天的 NVIDIA,但思路一致、执行力惊人、身边聚着忠诚的聪明人。
 
 ## ① 提到它的金句
 
@@ -76,7 +78,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*42 集*
+*44 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -120,14 +122,16 @@ unlisted: true
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
+- [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为被讨论公司
+- [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[推理]] · [[GPU]] · [[Cursor]] · [[Microsoft]] · [[数据中心]] · [[Google]] · [[护栏]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Cursor]] · [[Microsoft]] · [[数据中心]] · [[Google]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":134,"OpenAI":126,"智能体":301,"推理":52,"GPU":18,"Cursor":66,"Microsoft":25,"数据中心":15,"Google":47,"护栏":52}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":135,"智能体":304,"OpenAI":127,"推理":53,"GPU":18,"Cursor":66,"Microsoft":25,"数据中心":15,"Google":47,"护栏":52}</script>
 
 <script>
 (function(){

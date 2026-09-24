@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,10 +29,11 @@ unlisted: true
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(70:06起):本集两次顺带提及：一家做基于价值定价的公司，也是使用 FDE（前置部署工程师）模式的代表。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(46:20起):本集顺带提到：Palantir 常说 ontology 这个词，且在帮组织把隐性知识写下来这件事上做得不错。
 - **[[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]]**(38:17起):本集用 Palantir 作类比,形容 Sierra 那种专注前置部署工程师、替客户包办的部署模式。
+- **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(08:51起):本集举例:Palantir 本质是聚集世界级工程师、推崇工程师的组织,把这些能力作为 wrapper 卖给拿不到这种人才的公司;其工程师也是 Sequence 团队来源。
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -52,14 +53,15 @@ unlisted: true
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司(提及)
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司(提及)
 - [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]] — 作为被讨论公司(提及)
+- [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[后训练]] · [[开源模型]] · [[Meta]] · [[ChatGPT]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[后训练]] · [[开源模型]] · [[Meta]] · [[Scale]] · [[前向部署工程师]] · [[NVIDIA]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":301,"Anthropic":134,"OpenAI":126,"后训练":27,"开源模型":19,"Meta":35,"ChatGPT":76,"前向部署工程师":1,"Microsoft":25,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":304,"Anthropic":135,"OpenAI":127,"后训练":27,"开源模型":19,"Meta":35,"Scale":4,"前向部署工程师":1,"NVIDIA":44,"主观能动性":1}</script>
 
 <script>
 (function(){

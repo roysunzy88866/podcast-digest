@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":301,"LLM":41,"推荐系统":1,"监督学习":2,"强化学习":18,"Transformer":8,"创造性破坏":1,"Anthropic":134}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":304,"LLM":41,"推荐系统":1,"监督学习":2,"强化学习":1,"Transformer":8,"创造性破坏":1,"Anthropic":135}</script>
 
 <script>
 (function(){

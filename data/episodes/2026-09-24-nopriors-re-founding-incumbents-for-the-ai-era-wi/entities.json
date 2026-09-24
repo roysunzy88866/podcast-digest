@@ -1,0 +1,990 @@
+{
+  "episode_id": "2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi",
+  "podcast": "No Priors",
+  "date": "2026-09-24",
+  "tags": [
+    "AI 转型",
+    "控股公司",
+    "私募股权",
+    "保险经纪",
+    "智能体"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "michael-lee",
+      "type": "person",
+      "role": "guest",
+      "name": "Michael Lee",
+      "file": "Michael Lee",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            35.799,
+            39.38
+          ],
+          "quote": "Today, I'm here with Michael Lee, co-founder and CEO of Sequence Holdings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2482.475,
+            2487.339
+          ],
+          "quote": "Mr. Michael Lee, private equity and public markets guy is saying back great people in huge markets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sequence-holdings",
+      "type": "company",
+      "role": "company",
+      "name": "Sequence Holdings",
+      "file": "Sequence Holdings",
+      "primary": true,
+      "how_described": "本集主线:Michael Lee 创办 20 个月的永久控股公司,每年只做一笔交易,收购传统行业的在位企业,用前沿工程团队把它们重造成 AI 时代的市场领导者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            35.799,
+            39.38
+          ],
+          "quote": "Today, I'm here with Michael Lee, co-founder and CEO of Sequence Holdings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            62.754,
+            72.479
+          ],
+          "quote": "So you started Sequence Holdings, which is a permanent holding company that works with management teams to buy and refund their businesses to be market leaders with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            405.029,
+            412.251
+          ],
+          "quote": "So in terms of like the holding company structure itself, you know, when I thought about what is required to accomplish what Sequence Holdings wants to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            654.879,
+            660.143
+          ],
+          "quote": "How do you create an organization like Sequence Holdings that celebrates to engineer and bring frontier engineering to bear?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2168.24,
+            2172.201
+          ],
+          "quote": "I love this partnership of Equals, Sequence Holdings and the Dell Family Office.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2386.885,
+            2399.634
+          ],
+          "quote": "And like, I think that's, you know, that experience has really what colors how we think about investing here at Sequence Holdings, which is like, how do we marry kind of all the skillsets and the best of what I think are kind of the key domains for my investing career?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "baldwin",
+      "type": "company",
+      "role": "company",
+      "name": "Baldwin",
+      "file": "Baldwin",
+      "primary": true,
+      "how_described": "本集宣布的与 Dell 家族办公室联手以 77 亿美元私有化收购的保险经纪公司,被称为几十家保险经纪里的唯一之选,CEO Trevor Baldwin 早已推动 Anthropic 端到端内部落地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            39.64,
+            47.323
+          ],
+          "quote": "They just announced the largest AI take private to date with the Dell family office of Baldwin for $7.7 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            74.259,
+            78.181
+          ],
+          "quote": "We should talk about that and it's a very exciting model, but you also announced this big transaction in Baldwin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            95.792,
+            102.153
+          ],
+          "quote": "We've met dozens of insurance brokers, and Baldwin was truly N of one of all the insurance brokers that we've met.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            102.494,
+            113.697
+          ],
+          "quote": "It's been a privilege over the last few months to spend a lot of time with Trevor Baldwin and the management team, and we could not be more excited about the journey that lies ahead between us, the Baldwin team, and the Dell family office that supported us in this transaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1201.686,
+            1217.356
+          ],
+          "quote": "And that's what the opportunity at Baldwin presented, which is a scaled asset with a centralized technological foundation and a world-class leadership team that is both ambitious, but also extremely excited about what's possible today with frontier technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1360.773,
+            1370.119
+          ],
+          "quote": "And so if you think about what we've built in terms of Atlas and what we've built here at the bank, foundationally, all the core infrastructure we've built is reusable at Baldwin and any future company that we do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1428.053,
+            1429.554
+          ],
+          "quote": "We expect to learn a lot here at Baldwin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1768.47,
+            1770.912
+          ],
+          "quote": "And so, you know, I think Baldwin is a perfect example of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1771.452,
+            1775.497
+          ],
+          "quote": "You have Trevor Baldwin, an exceptional CEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1776.779,
+            1780.343
+          ],
+          "quote": "He was early in terms of driving Anthropic end-to-end within Baldwin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2196.914,
+            2200.775
+          ],
+          "quote": "Approaching Baldwin together around kind of exploring the thesis that we brought to bear.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bank-south",
+      "type": "company",
+      "role": "company",
+      "name": "Bank South",
+      "file": "Bank South",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            675.435,
+            681.279
+          ],
+          "quote": "And the early evidence from kind of Bank South and kind of what we've observed in the field today have proven that out today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            681.779,
+            690.065
+          ],
+          "quote": "I want to talk a little bit about Bank South as well, but you have a team that includes a bunch of like Scale and Palantir DNA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            788.173,
+            796.018
+          ],
+          "quote": "I remember when you first told me, hey, we think we're gonna go buy a piece of a bank and partner with the Bank South team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1895.449,
+            1910.562
+          ],
+          "quote": "And then you have the core apparatus in the middle today that works very closely around how do we underwrite loans and ensure that we're giving loans to the right people in the community such that we're servicing the community in the right way, but we're also creating kind of the right economic model for Bank South.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atlas",
+      "file": "Atlas",
+      "primary": true,
+      "how_described": "本集说 Atlas 是 Sequence 在银行建出、预期跨行业泛化的共享平台,分四层:数据本体、智能体构建器、编排引擎 Lattice、应用构建器 Artifacts,核心基础设施可在 Baldwin 复用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1235.801,
+            1239.664
+          ],
+          "quote": "One is Atlas, which is our platform, which I'll tell you about here more in a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1255.332,
+            1257.754
+          ],
+          "quote": "But if we think about the engineering problem, we think about Atlas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1258.514,
+            1259.535
+          ],
+          "quote": "So what is Atlas today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1260.216,
+            1267.361
+          ],
+          "quote": "Atlas is our platform that we have built at the bank that we expect to generalize over industries over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1281.071,
+            1282.392
+          ],
+          "quote": "And so if you think about what is Atlas,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1283.012,
+            1286.735
+          ],
+          "quote": "Atlas is basically our platform that both does a number of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1360.773,
+            1370.119
+          ],
+          "quote": "And so if you think about what we've built in terms of Atlas and what we've built here at the bank, foundationally, all the core infrastructure we've built is reusable at Baldwin and any future company that we do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论:如今软件公司在做的是给人类流水线每人配小机器的 AI agent,而真正该做的是重组组织;受监管行业规则明确、数据卫生好,对 agent 极其友好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1286.855,
+            1300.045
+          ],
+          "quote": "One, it helps improve the speed to which we can deploy, improves agent performance, improves our build rates for our own engineers, and ultimately it's a builder platform that allows the operating company engineers to build upon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1317.796,
+            1323.638
+          ],
+          "quote": "How does a business, how does an agent know that this customer is the same as the customer in this system here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1334.36,
+            1344.043
+          ],
+          "quote": "The layer on top of that is our agent builder, which is basically how do we build high-performance agents grounded in ground truth, kind of the things that I think we hear and read a lot about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "holding-company",
+      "type": "concept",
+      "role": "concept",
+      "name": "控股公司 (holding company)",
+      "file": "控股公司",
+      "primary": true,
+      "how_described": "本集论证的唯一自然方式:用永久 holding company 让资本期限匹配转型投入、让文化围绕锻造市场领导者而非部署资本设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            62.754,
+            72.479
+          ],
+          "quote": "So you started Sequence Holdings, which is a permanent holding company that works with management teams to buy and refund their businesses to be market leaders with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            396.067,
+            398.128
+          ],
+          "quote": "Like why a permanent holding company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            405.029,
+            412.251
+          ],
+          "quote": "So in terms of like the holding company structure itself, you know, when I thought about what is required to accomplish what Sequence Holdings wants to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            422.773,
+            425.295
+          ],
+          "quote": "The only natural way to do this was through a holding company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            456.555,
+            461.197
+          ],
+          "quote": "And so when I think about the opportunities in front of us, the only natural way to go do this was through a holding company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            837.37,
+            839.271
+          ],
+          "quote": "So the holding company models a weird business.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "organizational-physics",
+      "type": "concept",
+      "role": "concept",
+      "name": "组织物理学 (organizational physics)",
+      "file": "组织物理学",
+      "primary": true,
+      "how_described": "本集说 Sequence 选标的强调 organizational physics:喜欢紧凑、运营集中化的组织,这样建出来的东西能摊销到庞大业务基础上,与 roll-up 形成对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1012.165,
+            1016.508
+          ],
+          "quote": "So when we talk at Sequence about companies we're looking for, we talk a lot about organizational physics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集举例:Palantir 本质是聚集世界级工程师、推崇工程师的组织,把这些能力作为 wrapper 卖给拿不到这种人才的公司;其工程师也是 Sequence 团队来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            531.126,
+            533.269
+          ],
+          "quote": "It's the reason why does Palantir exist?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            557.148,
+            566.615
+          ],
+          "quote": "And these are great companies, Accenture, McKinsey, Palantir, that do celebrate the engineer, that do celebrate changing technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            681.779,
+            690.065
+          ],
+          "quote": "I want to talk a little bit about Bank South as well, but you have a team that includes a bunch of like Scale and Palantir DNA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1267.841,
+            1280.51
+          ],
+          "quote": "And part of that is an observation that a number of our engineers have had from their prior lives, both at Scale, Palantir, and others, which is if you break down the business to its atomic units, 80% of it is largely homogenous and 20% of it is vertically specific.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1379.745,
+            1387.31
+          ],
+          "quote": "I think one of the nice things about having great, talented engineers from places like ScaleEye and Palantir that they have developed the playbook, but what we do is different.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "blackstone",
+      "type": "company",
+      "role": "company",
+      "name": "Blackstone",
+      "file": "Blackstone",
+      "primary": false,
+      "how_described": "本集举例:Blackstone 备受推崇的人物形象是投资者,所以能聚拢全球最好的投资人——说明文化决定你能招到谁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            502.79,
+            507.073
+          ],
+          "quote": "So let's take Blackstone, for example, an incredible organization, one that I admire a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            511.512,
+            514.896
+          ],
+          "quote": "But the celebrated persona at Blackstone is the investor.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dell-family-office",
+      "type": "company",
+      "role": "company",
+      "name": "Dell Family Office",
+      "file": "Dell Family Office",
+      "primary": false,
+      "how_described": "本集说它为 Baldwin 私有化提供资本确定性,与 Sequence 共同控股,由 Michael Dell 和 Dan Batar 主导承销这笔交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            39.64,
+            47.323
+          ],
+          "quote": "They just announced the largest AI take private to date with the Dell family office of Baldwin for $7.7 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            102.494,
+            113.697
+          ],
+          "quote": "It's been a privilege over the last few months to spend a lot of time with Trevor Baldwin and the management team, and we could not be more excited about the journey that lies ahead between us, the Baldwin team, and the Dell family office that supported us in this transaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2168.24,
+            2172.201
+          ],
+          "quote": "I love this partnership of Equals, Sequence Holdings and the Dell Family Office.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2201.596,
+            2204.137
+          ],
+          "quote": "We got introduced to the Dell family office.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到编程这类领域钱会给 Cognition 或 Anthropic;并称赞 Trevor Baldwin 很早就在 Baldwin 内部端到端部署 Anthropic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            709.603,
+            713.966
+          ],
+          "quote": "We would not be here today if it weren't for Anthropic, OpenAI, xAI, and the like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1739.787,
+            1745.753
+          ],
+          "quote": "It probably means that you've already started to install OpenAI and or Anthropic across your organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1776.779,
+            1780.343
+          ],
+          "quote": "He was early in terms of driving Anthropic end-to-end within Baldwin.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            709.603,
+            713.966
+          ],
+          "quote": "We would not be here today if it weren't for Anthropic, OpenAI, xAI, and the like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1739.787,
+            1745.753
+          ],
+          "quote": "It probably means that you've already started to install OpenAI and or Anthropic across your organization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lone-pine",
+      "type": "company",
+      "role": "company",
+      "name": "Lone Pine",
+      "file": "Lone Pine",
+      "primary": false,
+      "how_described": "本集说 Michael 2017 年加入 Lone Pine 负责覆盖 AI,后来管私募业务,在那里学会研究世界上最伟大的公司和欣赏长期复利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            129.211,
+            135.937
+          ],
+          "quote": "You know, when I first joined Lone Pine in 2017, one of the first areas that I was asked to cover was AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2085.611,
+            2090.812
+          ],
+          "quote": "So when we met, you were leaving the privates business at Lone Pine, a career investor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2101.155,
+            2112.259
+          ],
+          "quote": "And, you know, maybe like if you take a giant step back, the level of empathy I have for founders today versus even when I was running the privates business at Lone Pine is like just night and day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2280.862,
+            2286.406
+          ],
+          "quote": "The opportunity to go to Lone Pine was really an opportunity to start to study the best companies in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2286.446,
+            2299.876
+          ],
+          "quote": "What's amazing about Lone Pine and working in an organization that gets to look at the full public company universe and have the difficult challenge of figuring out what are the best companies in the world is just an amazing aperture to learn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2318.944,
+            2331.669
+          ],
+          "quote": "And that was a really, really powerful kind of five years that I did at Lone Pine around studying the greatest companies in the world and like really deeply internalizing that the greatest companies in the world compound at rates that no one ever thinks that they can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2333.043,
+            2347.796
+          ],
+          "quote": "The opportunity to kind of go and build out the private investing business at Lone Pine was really an opportunity to start to spend time at the frontier of technology, spending time with founders working on really hard problems that like other people didn't really see.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2490.982,
+            2502.791
+          ],
+          "quote": "Like if I think back and I reflect on like the best investments that we've made at Lone Pine, if I think about the best companies that have been in the market today, has been like, go find exceptional people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "apollo",
+      "type": "company",
+      "role": "company",
+      "name": "Apollo",
+      "file": "Apollo",
+      "primary": false,
+      "how_described": "本集说 Michael 曾在 Apollo 工作,在那里学习交易结构、资本结构和私募股权的基本功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1478.734,
+            1479.634
+          ],
+          "quote": "I used to work at Apollo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1479.835,
+            1480.875
+          ],
+          "quote": "I used to work at Apollo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2259.246,
+            2262.388
+          ],
+          "quote": "I went to work at Apollo, which was just like an awesome experience.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集举 Jensen Huang 为例:2017 年见过他时 NVIDIA 还不是今天的 NVIDIA,但思路一致、执行力惊人、身边聚着忠诚的聪明人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 463,
+          "t": [
+            2299.936,
+            2301.017
+          ],
+          "quote": "What makes NVIDIA great?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集说在编程这类创业公司会赢的领域,你会把钱给 Cognition 或 Anthropic,而不是收购外包编程服务业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            207.022,
+            217.169
+          ],
+          "quote": "Take coding, for example, like Conviction and Sequence going to go buy and outsource coding services business feels like a terrible idea, which you will give money to Cognition or Toanthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "type": "company",
+      "role": "company",
+      "name": "Scale",
+      "file": "Scale",
+      "primary": false,
+      "how_described": "本集说 Sequence 工程团队带有 Scale 和 Palantir 的基因,80%/20% 的平台假设正来自他们之前在 Scale、Palantir 的经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            144.209,
+            149.812
+          ],
+          "quote": "And there was a lot of excitement at the time around what would be commercially viable if you scale these architectures.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            158.397,
+            162.18
+          ],
+          "quote": "But as you scaled these architectures, there were degrading effects over time to scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            172.132,
+            176.055
+          ],
+          "quote": "We finally had an architecture that we knew could scale infinitely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            176.216,
+            183.763
+          ],
+          "quote": "Now, whether or not that was possible, what would come from that was not clear, but we did know that we could scale with compute, that the architecture would improve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            224.709,
+            229.771
+          ],
+          "quote": "And that could be brand, that could be scale, network effects, regulatory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            294.776,
+            301.658
+          ],
+          "quote": "How did you think about, you know, scale and the idea of being able to engage with or even own incumbents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            339.183,
+            357.084
+          ],
+          "quote": "But as you know, when you have machines that can work 24-7, that can scale with electricity, that can accomplish what no individual human or group of humans can do, the right answer is to think about how do you start to reorganize what an organization should be to meet the opportunity of what's available today with technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            681.779,
+            690.065
+          ],
+          "quote": "I want to talk a little bit about Bank South as well, but you have a team that includes a bunch of like Scale and Palantir DNA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            864.872,
+            868.456
+          ],
+          "quote": "And as I think you know, we've always had a bias towards scale and enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            974.32,
+            979.803
+          ],
+          "quote": "It was an ability to buy into minority stakes, so a venture-scale type check, to operate in a real enterprise-like environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1081.274,
+            1082.976
+          ],
+          "quote": "We think about one is scale of the market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1083.557,
+            1085.539
+          ],
+          "quote": "You know, what we do here at Sequence doesn't scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1267.841,
+            1280.51
+          ],
+          "quote": "And part of that is an observation that a number of our engineers have had from their prior lives, both at Scale, Palantir, and others, which is if you break down the business to its atomic units, 80% of it is largely homogenous and 20% of it is vertically specific.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1831.318,
+            1840.404
+          ],
+          "quote": "I believe that this is a way that enormous businesses can change and go win industries, and then I think it's much, much harder than people think, and I think it's better at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1867.68,
+            1870.822
+          ],
+          "quote": "And then what is giving you confidence on doing this at more scale?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

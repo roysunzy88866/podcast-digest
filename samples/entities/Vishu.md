@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":4,"Claygent":1,"Sculptor":1,"LangChain":7,"智能体":301,"评估":3,"trace":2,"LLM 当裁判":8,"harness":41,"数据湖":2}</script>
+<script type="application/json" class="pd-epn">{"Clay":4,"Claygent":1,"Sculptor":1,"LangChain":7,"智能体":304,"评估":3,"trace":2,"LLM 当裁判":8,"harness":41,"数据湖":2}</script>
 
 <script>
 (function(){

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Harvey]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]] · [[Decagon]]
+[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[XAI]] · [[Salesforce]] · [[Harvey]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":126,"Anthropic":134,"Salesforce":26,"Harvey":12,"Cursor":66,"11 Labs":4,"GrokBot":6,"Town":3,"Decagon":8}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":127,"Anthropic":135,"XAI":6,"Salesforce":26,"Harvey":12,"Cursor":66,"11 Labs":4,"GrokBot":6,"Town":3}</script>
 
 <script>
 (function(){

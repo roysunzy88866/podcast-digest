@@ -7,17 +7,18 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Scale</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Scale">SC</div><div class="pi"><h1 class="pt">Scale</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Scale">SC</div><div class="pi"><h1 class="pt">Scale</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(04:20起):本集提到 Scale 被以约 300 亿美元收购，过去是标注领域的主要公司，但竞争对手可能不希望自己的最新研究被同行投资
 - **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(01:48起):本集说它是嘉宾在19岁时创办的公司,核心业务是提供训练模型的数据,因为在MIT训练模型时发现获取数据和算力、代码不同,无法按个按钮就拿到。
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(23:15起):本集说 YC 在 2016 年投资 Scale 时,卖数据给实验室还算不上一个品类,如今已成大品类。
+- **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(02:24起):本集说 Sequence 工程团队带有 Scale 和 Palantir 的基因,80%/20% 的平台假设正来自他们之前在 Scale、Palantir 的经验。
 
 ## ① 提到它的金句
 
-*30 条*
+*32 条*
 
 ![[2025-12-02-talks-powering-the-ai-law-firm-with-harvey#^q9]]
 
@@ -79,21 +80,26 @@ unlisted: true
 
 ![[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j#^q7]]
 
+![[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi#^q3]]
+
+![[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi#^q4]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为被讨论公司
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
+- [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Palantir]] · [[YC]] · [[Meta]] · [[Garrett Lord]] · [[Alexandr Wang]] · [[Diana]] · [[Lenny]] · [[MuseSpark]] · [[Jared]]
+[[智能体]] · [[Palantir]] · [[Meta]] · [[YC]] · [[NVIDIA]] · [[Anthropic]] · [[Garrett Lord]] · [[Alexandr Wang]] · [[Diana]] · [[Michael Lee]]
 
-<script type="application/json" class="pd-epn">{"智能体":301,"Palantir":18,"YC":16,"Meta":35,"Garrett Lord":1,"Alexandr Wang":1,"Diana":1,"Lenny":67,"MuseSpark":1,"Jared":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":304,"Palantir":19,"Meta":35,"YC":16,"NVIDIA":44,"Anthropic":135,"Garrett Lord":1,"Alexandr Wang":1,"Diana":1,"Michael Lee":1}</script>
 
 <script>
 (function(){

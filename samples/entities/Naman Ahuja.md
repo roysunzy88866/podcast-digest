@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":52,"智能体":301,"微服务":2,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":27}</script>
+<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":53,"智能体":304,"微服务":2,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":27}</script>
 
 <script>
 (function(){

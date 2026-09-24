@@ -1,0 +1,1099 @@
+{
+  "episode_id": "2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30",
+  "podcast": "The MAD Podcast",
+  "date": "2026-09-24",
+  "tags": [
+    "AI 基础设施",
+    "存储",
+    "机密计算",
+    "NeoCloud",
+    "创业公司故事"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "renen-hallak",
+      "type": "person",
+      "role": "host",
+      "name": "Renen Hallak",
+      "file": "Renen Hallak",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.015,
+            18.635
+          ],
+          "quote": "Hi, I'm Matt Turk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4195.168,
+            4196.229
+          ],
+          "quote": "Hi, it's Matt Turk again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vastdata",
+      "type": "company",
+      "role": "company",
+      "name": "VastData",
+      "file": "VastData",
+      "primary": true,
+      "how_described": "本集主角：估值 300 亿美元、为 XAI 等顶级 AI 玩家提供数据底座的软件基础设施公司，用「共享一切」架构重做存储、数据库与计算编排，盈利且业务约每两年增长 10 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.818,
+            45.181
+          ],
+          "quote": "My guest today is Renan Halleck, founder and CEO of VastData, a company that is surprisingly under the radar considering it's been most recently valued at $30 billion and powers top AI players like XAI and some of the biggest AI neoclads in the world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它是投资者兼最深合作伙伴：无法律文件、不排他，任意时点十几个协作项目、双方各投三位数开发者，从网络设备到机密计算到下一代 GPU/DPU，同时 VastData 也与 AMD 合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            52.404,
+            72.632
+          ],
+          "quote": "So to anchor this whole conversation, I wanted to start with that mental model from Jensen at NVIDIA that I find so helpful, where when he describes AI, he uses the analogy of a five-layer cake where you have power at the very bottom and then hardware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            149.052,
+            159.377
+          ],
+          "quote": "There is a related concept to that five-layer cake that thing may have originated from NVIDIA again, but it keeps coming back in conversation, which is this idea of AI factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            908.701,
+            932.002
+          ],
+          "quote": "And so with help from NVIDIA and encrypted memory underneath, we're able to make sure that no one sees what they're not allowed to see and to hopefully increase the total addressable market of these model builders into regulated industries, into large enterprises that are careful with their sensitive information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2598.276,
+            2607.202
+          ],
+          "quote": "We leverage hardware abilities underneath us from companies like NVIDIA, who is a big part of this launch, who allow us to bring encrypted data",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2713.932,
+            2716.556
+          ],
+          "quote": "And of course the chip makers themselves like NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2809.534,
+            2821.399
+          ],
+          "quote": "The demand side of the whole compute boom, so you work with a lot of the NeoCloud and NVIDIA, so you're intimately familiar with the supply side, you're part of the supply side yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3243.195,
+            3251.482
+          ],
+          "quote": "I find the end users come, what NVIDIA calls off-takers, and they want immediate access to compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3321.827,
+            3325.951
+          ],
+          "quote": "Financing vehicles for NVIDIA GPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3678.405,
+            3686.226
+          ],
+          "quote": "I'm curious about how you think about the place of NVIDIA in the ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3710.994,
+            3720.581
+          ],
+          "quote": "So interestingly, other than as an investor, there's no legal document between us and NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3779.35,
+            3784.171
+          ],
+          "quote": "And so we really enjoy working with NVIDIA also from a cultural perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3823.573,
+            3828.178
+          ],
+          "quote": "We work with AMD, we work with other companies in parallel to working with NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3849.742,
+            3855.385
+          ],
+          "quote": "We mentioned NVIDIA, but XAI has been a very important customer for you guys.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "XAI",
+      "file": "XAI",
+      "primary": true,
+      "how_described": "本集说 XAI 是 VastData 非常重要的客户，是它支持的顶级 AI 玩家之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.818,
+            45.181
+          ],
+          "quote": "My guest today is Renan Halleck, founder and CEO of VastData, a company that is surprisingly under the radar considering it's been most recently valued at $30 billion and powers top AI players like XAI and some of the biggest AI neoclads in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3849.742,
+            3855.385
+          ],
+          "quote": "We mentioned NVIDIA, but XAI has been a very important customer for you guys.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "software-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件基础设施 (software infrastructure)",
+      "file": "软件基础设施",
+      "primary": true,
+      "how_described": "本集把它说成五层蛋糕正中间那层、这个新时代的操作系统：管理算力、存储、网络与模型，给 GPU 喂数据，也是执行「数据不出门、权重不被偷」信任的正确位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            20.015,
+            30.538
+          ],
+          "quote": "We talk a lot about AI models on this show and we talk a lot about compute, but today is about the layer in between, the crucial software infrastructure layer that feeds massive amounts of data to all those GPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            73.312,
+            78.098
+          ],
+          "quote": "Then software infrastructure, then models, then applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            82.684,
+            92.496
+          ],
+          "quote": "That software infrastructure layer is the one that we do in collaboration, of course, with the hardware vendors underneath us and with the model builders on top of us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            92.896,
+            98.818
+          ],
+          "quote": "Yeah, so at a high level, what does that mean, software infrastructure in the context of AI building?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            142.15,
+            145.551
+          ],
+          "quote": "Sometimes I like to call it software infrastructure and other times I like to call it the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            475.576,
+            498.039
+          ],
+          "quote": "And so it is our job as the ones building that software infrastructure layer to make these new technologies accessible to the enterprises such that they don't need to think about it too much and that they can start adopting them at pace rather than get left behind and have new companies with AI experts take their place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            746.08,
+            752.105
+          ],
+          "quote": "And again, the software infrastructure layer is the right place to enforce that type of trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            814.891,
+            819.694
+          ],
+          "quote": "So basically what we're trying to do is fill out that software infrastructure layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            825.739,
+            830.583
+          ],
+          "quote": "The models don't really live on top of the software infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3631.677,
+            3639.559
+          ],
+          "quote": "And so the software infrastructure layer tends to accrue a lot of value and then on a more selective basis at the application layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 工厂 (AI factory)",
+      "file": "AI 工厂",
+      "primary": true,
+      "how_described": "本集说它是新技术栈的集大成：每一层（电力、硬件、网络、SSD）都要重做，因为处理的是图片、视频、声音和自然语言且 GPU 要求极快访问；且不只属于大实验室，企业中期都需要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            149.052,
+            159.377
+          ],
+          "quote": "There is a related concept to that five-layer cake that thing may have originated from NVIDIA again, but it keeps coming back in conversation, which is this idea of AI factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            168.541,
+            170.263
+          ],
+          "quote": "to create an AI factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            243.154,
+            247.015
+          ],
+          "quote": "And I think the culmination of this stack is what we call the AI factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            247.279,
+            256.425
+          ],
+          "quote": "And is the concept of AI Factory mostly for the big labs or like this whole data center plus model kind of thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            340.262,
+            346.268
+          ],
+          "quote": "Is the concept of an AI factory that you build your own AI, so you have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            511.137,
+            514.899
+          ],
+          "quote": "The concept of an AI factory revolves around owning a lot of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            530.226,
+            541.049
+          ],
+          "quote": "I think the physical location of this AI factory can be on-prem, can be in a colo, can be in an AI cloud where you rent it from somebody rather than manage it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3454.502,
+            3464.111
+          ],
+          "quote": "It seemed to me that the concept of AI factory that we discussed at the very beginning was largely around this concept of sovereign AI like a year or two ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "confidential-computing",
+      "type": "concept",
+      "role": "concept",
+      "name": "机密计算 (confidential computing)",
+      "file": "机密计算",
+      "primary": true,
+      "how_described": "本集说它是本周发布的核心：推理跑在企业机房或 VPC 里，权重借助 NVIDIA 硬件端到端加密（网络→内存→GPU），只有模型厂商自己的推理应用能解开——数据不出门、权重不被偷；技术上不新，只是时机已到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            880.38,
+            908.061
+          ],
+          "quote": "One specific aspect of model management which we're announcing and we have a lot of the model builders as partners join the announcement is around confidential computing and enabling that ability of enterprises to run inference on-prem without exposing the model builder's weights and so both sides can rest assured that my data is not exposed and your weights are not exposed to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2631.505,
+            2636.728
+          ],
+          "quote": "And why is it possible now, that concept of confidential computing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3756.242,
+            3767.867
+          ],
+          "quote": "inference microservices to this agentic confidential computing project to the next generation of GPUs and DPUs and how we take advantage of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "权重 (weights)",
+      "file": "权重",
+      "primary": true,
+      "how_described": "本集说企业 IP 最终会被蒸馏进模型、变成权重，企业不该让大模型厂商随时间拥有一切，因此要在加密保护下让双方都看不到对方的权重",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            375.918,
+            376.718
+          ],
+          "quote": "It will be weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            397.806,
+            419.959
+          ],
+          "quote": "is slightly different than your model of the universe because we had different experiences and so I think in the same way all of these agents will fine-tune models through reinforced learning over time and every organization's IP will be able to be distilled into the models that they own and the weights that they've accumulated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            425.387,
+            436.895
+          ],
+          "quote": "You know, like doing model work and like weights and GPUs, that's a whole kind of expertise that ultimately few people in the world already own, already know, have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            556.493,
+            562.278
+          ],
+          "quote": "Really, I think owns the information, owns the models, owns the weights, owns the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            742.617,
+            745.44
+          ],
+          "quote": "On the other hand, a model builder does not expose their weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            785.733,
+            789.676
+          ],
+          "quote": "Or maybe I'm selling it to you, but I still don't want you to see those weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            880.38,
+            908.061
+          ],
+          "quote": "One specific aspect of model management which we're announcing and we have a lot of the model builders as partners join the announcement is around confidential computing and enabling that ability of enterprises to run inference on-prem without exposing the model builder's weights and so both sides can rest assured that my data is not exposed and your weights are not exposed to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2182.127,
+            2189.571
+          ],
+          "quote": "Data, the raw data, the generated data, the input data, the weights of the model, the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2542.44,
+            2555.584
+          ],
+          "quote": "And so if today model builders want to keep their weights very close because that's their IP and they're afraid of giving it to a million customers and having one of them take it and do something that they're not supposed to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2590.89,
+            2597.775
+          ],
+          "quote": "And the way that we make sure the model builders are happy is by encrypting those weights and we encrypt them end to end.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体看作人造人：通过强化学习持续微调、把组织 IP 沉淀进自有权重；基础设施要给智能体分配用户 ID、角色和属性，细粒度控制其数据、工具与对话权限",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            2207.381,
+            2219.827
+          ],
+          "quote": "Model, whether it's a human or an agent, it becomes very, very interesting as you layer one, two, three, four of these things one on top of the other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2307.413,
+            2314.016
+          ],
+          "quote": "And to what you just said, the concept of agent memory works the same way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2318.578,
+            2324.201
+          ],
+          "quote": "Did you say you effectively give the agent authentication authorization the way a human would?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2330.403,
+            2333.785
+          ],
+          "quote": "Now this user ID is assigned to an agent rather than a person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2427.88,
+            2445.489
+          ],
+          "quote": "And in the meantime, the concept of agent collaboration, which is all the rage now, highlighted in part through the recent security and safety issues, but the concept of agent swarm is everywhere.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说训练只要规模和速度，推理才是真正考验：低延迟、100% 在线（「训练挂了没人注意；推理挂了，就没有服务了」）、要韧性、分布式、安全，还要模型路由、缓存与上下文管理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            115.924,
+            138.069
+          ],
+          "quote": "The compute through training and inference functions and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            227.03,
+            237.913
+          ],
+          "quote": "And of course, all of this compute, all of these GPUs need very fast access to this information, whether they're training on it or whether they're running low latency inference functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            880.38,
+            908.061
+          ],
+          "quote": "One specific aspect of model management which we're announcing and we have a lot of the model builders as partners join the announcement is around confidential computing and enabling that ability of enterprises to run inference on-prem without exposing the model builder's weights and so both sides can rest assured that my data is not exposed and your weights are not exposed to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2011.145,
+            2014.848
+          ],
+          "quote": "And is it different for training compared to inference?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2035.901,
+            2040.683
+          ],
+          "quote": "Inference is becoming a whole complex world of its own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2041.263,
+            2051.387
+          ],
+          "quote": "Inference started by obviously requiring low latency access because people are on the other end prompting and they want fast responses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2067.395,
+            2070.258
+          ],
+          "quote": "If inference is down, there is no service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2074.121,
+            2083.931
+          ],
+          "quote": "Resilience, distributed nature, low latency, very secure environments, all of that is important in inference versus training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2569.96,
+            2581.723
+          ],
+          "quote": "What we're doing is we're letting that inference process, rather than running within the premises of the model builder or within one of their clouds, we're letting it run within the premises of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2607.903,
+            2617.432
+          ],
+          "quote": "Through the network, into memory, from memory, up to the GPU, and only the model builder's inference application is allowed to access it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3756.242,
+            3767.867
+          ],
+          "quote": "inference microservices to this agentic confidential computing project to the next generation of GPUs and DPUs and how we take advantage of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforced-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforced learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说智能体通过强化学习不断微调模型，组织经验随之沉淀为自有权重；同时要追踪哪些信息进入了哪个模型的微调、防止泄露",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            115.924,
+            138.069
+          ],
+          "quote": "The compute through training and inference functions and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            397.806,
+            419.959
+          ],
+          "quote": "is slightly different than your model of the universe because we had different experiences and so I think in the same way all of these agents will fine-tune models through reinforced learning over time and every organization's IP will be able to be distilled into the models that they own and the weights that they've accumulated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2086.734,
+            2106.95
+          ],
+          "quote": "Once we start talking about multiple models, once we start talking about agents, once we start talking about reinforced learning, definitely once we expand outside of the world of data centers into physical AI and actual devices, each one of those adds another layer that means that we need to develop a new set of tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2195.054,
+            2206.901
+          ],
+          "quote": "We need to keep track as we do reinforced learning of what information went into fine tuning each model and make sure that that information isn't leaked through interacting with somebody who's using that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集用「白天推理、晚上微调」的人脑类比说明：智能体基于与用户的经历微调模型，让每个组织拥有自己生成的 IP",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            389.823,
+            395.645
+          ],
+          "quote": "We infer during the day, we fine tune at night, and tomorrow we'll be a little bit smarter than we were today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            397.806,
+            419.959
+          ],
+          "quote": "is slightly different than your model of the universe because we had different experiences and so I think in the same way all of these agents will fine-tune models through reinforced learning over time and every organization's IP will be able to be distilled into the models that they own and the weights that they've accumulated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            625.018,
+            634.64
+          ],
+          "quote": "And that will allow us familiarity with our agents, but that requires them to fine tune models based on experiences that they had with us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            714.955,
+            724.039
+          ],
+          "quote": "Because if you want to fine tune or do RL against model, you know, having access to an open source model enables you to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            753.907,
+            764.336
+          ],
+          "quote": "And over time, as the enterprise starts to generate their own models or fine tune on top of base models, they should also be able to monetize the skill sets that they develop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            863.336,
+            879.28
+          ],
+          "quote": "And that's today when we have four or five of them as we start to reinforce learning and fine tune, as we start to have hundreds and thousands of agents and over time generating new derivatives of those models, that's going to be a much bigger task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shared-everything",
+      "type": "concept",
+      "role": "concept",
+      "name": "共享一切 (shared everything)",
+      "file": "共享一切",
+      "primary": true,
+      "how_described": "本集说这是 VastData 的核心架构：把 SSD 放到网络另一端，通过 NVMe over Fabrics 让所有节点像直连一样看到全部数据、无需互相同步，与通信平方级增长、撑不过一百节点的无共享架构相反，是其护城河",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1352.154,
+            1353.434
+          ],
+          "quote": "Disaggregated, shared everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1478.293,
+            1481.756
+          ],
+          "quote": "And that's what led us to being able to do what we call shared everything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shared-nothing",
+      "type": "concept",
+      "role": "concept",
+      "name": "无共享架构 (shared nothing)",
+      "file": "无共享架构",
+      "primary": true,
+      "how_described": "本集说这是旧可扩展系统的分片式架构：每节点负责一块蛋糕、互相同步，节点一多通信按平方级增长、韧性崩溃，撑不过一百个节点，而 AI 需要数百万节点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1356.395,
+            1364.696
+          ],
+          "quote": "So the old way to build scalable systems is based on a concept called sharding, what's known as shared nothing systems, where you have a lot of nodes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1445.025,
+            1452.291
+          ],
+          "quote": "And so to do that, we needed to build an architecture that ended up being the opposite of the way shared nothing systems work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1732.974,
+            1741.144
+          ],
+          "quote": "That old architecture, the shared nothing architecture, is not scalable enough to the levels that we need today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说短期记忆（最近几周）和长期记忆（两年前）要通过 RAG 之类的机制接入推理环境，让模型按需访问外部资料",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            2167.797,
+            2178.625
+          ],
+          "quote": "We need short-term memory the last few weeks or long-term memory what happened two years ago to also be accessible through things like RAG into these environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2220.028,
+            2231.432
+          ],
+          "quote": "So if you have enterprise data to play it back, that data could be used by the model through the context window, through the KV cache, which is the model's memory, or through RAG.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neocloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "NeoCloud",
+      "file": "NeoCloud",
+      "primary": true,
+      "how_described": "本集说 NeoCloud 赢家画像是有电力土地、与硬件厂商关系好、会融资、且在需求到来之前建设；针对「只是 GPU 融资工具、终被超大规模云打败」的批评，他说是创新者的窘境，AI 云天天实战学习、技能差距在扩大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2809.534,
+            2821.399
+          ],
+          "quote": "The demand side of the whole compute boom, so you work with a lot of the NeoCloud and NVIDIA, so you're intimately familiar with the supply side, you're part of the supply side yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3204.391,
+            3215.62
+          ],
+          "quote": "You have a lot of customers in the NeoCloud ecosystem, and I'm curious about what you view might be on that ecosystem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sovereign-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "主权 AI (sovereign AI)",
+      "file": "主权 AI",
+      "primary": true,
+      "how_described": "本集说 AI 智能会和电力、水一样成为基本需求，国家未必能造每一层，但至少要让 AI 在自己国境和司法管辖之内",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 587,
+          "t": [
+            3452.2,
+            3454.002
+          ],
+          "quote": "What do you make of sovereign AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3454.502,
+            3464.111
+          ],
+          "quote": "It seemed to me that the concept of AI factory that we discussed at the very beginning was largely around this concept of sovereign AI like a year or two ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3526.216,
+            3531.34
+          ],
+          "quote": "And so they're trying to build sovereign AI solutions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hyperscalers",
+      "type": "concept",
+      "role": "concept",
+      "name": "超大规模云 (hyperscalers)",
+      "file": "超大规模云",
+      "primary": true,
+      "how_described": "本集说超大规模云当年用旧栈建了 S3，两年前还说不用担心新东西，如今已意识到「自己的午餐正被别人吃掉」并开始反应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            279.821,
+            286.768
+          ],
+          "quote": "Some start by leveraging them out of the clouds, out of the hyperscalers, the neoclouds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            541.769,
+            549.071
+          ],
+          "quote": "Eventually, my guess is that the hyperscalers will also enable these AI factories to be built within their premises.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1800.126,
+            1819.941
+          ],
+          "quote": "That's a big part of the reason these AI clouds are starting to pop up because the traditional hyperscalers that built S3 built the old stack and these new AI clouds are building the new stack and now the older clouds need to adapt in order to stay relevant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3326.171,
+            3334.078
+          ],
+          "quote": "The primary skill is finance and eventually hyperscalers will beat them because hyperscalers will always have a lower cost of capital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3351.638,
+            3363.605
+          ],
+          "quote": "The fact that we have so many of these new AI clouds and the fact that the hyperscalers have not beaten them yet, I think it goes back to the innovators dilemma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3376.312,
+            3395.936
+          ],
+          "quote": "But yes, regardless of where it started, I think these AI clouds have built up a skill set and a specialty, and it's not the same to build this new stack in these AI factories versus to build the old stack in the way that the hyperscalers built clouds five and ten years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3402.377,
+            3413.644
+          ],
+          "quote": "They're learning and the NeoClouds that are sitting on very cheap financing, but not yet are the hyperscalers that are sitting on very cheap financing, but are not yet doing this work are not learning that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3419.307,
+            3421.288
+          ],
+          "quote": "Now, I think the hyperscalers have realized that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[OpenAI]] · [[开放权重模型]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]] · [[Byung-Gon (Gon) Chun]] · [[Daniel Whitenack]] · [[Superconductor]]
 
-<script type="application/json" class="pd-epn">{"智能体":301,"沙箱":56,"OpenAI":126,"开放权重模型":1,"Chris Benson":9,"Arjun Singh":1,"Connor Hegey":1,"Byung-Gon (Gon) Chun":1,"Daniel Whitenack":8,"Superconductor":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":304,"沙箱":56,"OpenAI":127,"开放权重模型":1,"Chris Benson":9,"Arjun Singh":1,"Connor Hegey":1,"Byung-Gon (Gon) Chun":1,"Daniel Whitenack":8,"Superconductor":1}</script>
 
 <script>
 (function(){

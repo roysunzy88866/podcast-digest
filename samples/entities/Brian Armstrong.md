@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":301,"智能体金融":1,"X402":1,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":304,"智能体金融":1,"X402":1,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
 
 <script>
 (function(){

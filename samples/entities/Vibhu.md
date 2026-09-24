@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Modal":6,"智能体":301,"AX":1,"DX":3,"沙箱":56,"推理":52,"弹性推理":1,"投机解码":2}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Modal":6,"智能体":304,"AX":1,"DX":3,"沙箱":56,"推理":53,"弹性推理":1,"投机解码":2}</script>
 
 <script>
 (function(){

@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":301,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":3,"智能体":304,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

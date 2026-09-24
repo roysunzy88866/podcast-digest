@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":134,"Claude Tag":2,"Claude Code":70,"智能体":301,"沙箱":56,"记忆":15,"dreaming":3,"智能体身份":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":135,"Claude Tag":2,"Claude Code":71,"智能体":304,"沙箱":56,"记忆":15,"dreaming":3,"智能体身份":2}</script>
 
 <script>
 (function(){

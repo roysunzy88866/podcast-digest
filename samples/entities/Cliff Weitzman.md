@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Speechify":1,"Eleven Labs":6,"Sierra":6,"NVIDIA":42,"Dell":1,"Anthropic":134,"OpenAI":126,"Claude Code":70,"Cursor":66}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Speechify":1,"Eleven Labs":6,"Sierra":6,"NVIDIA":44,"Dell":1,"Anthropic":135,"OpenAI":127,"Claude Code":71,"Cursor":66}</script>
 
 <script>
 (function(){

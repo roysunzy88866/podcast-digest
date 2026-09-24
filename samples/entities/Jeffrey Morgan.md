@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":42,"Docker":3,"Apple":18,"基准测试":13,"OpenRouter":10,"开源模型":19,"编码智能体":17,"智能体":301,"推理":52}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":44,"Docker":3,"Apple":18,"基准测试":13,"OpenRouter":10,"开源模型":19,"编码智能体":17,"智能体":304,"推理":53}</script>
 
 <script>
 (function(){

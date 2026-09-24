@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"Shopify":9,"River":2,"智能体":301,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Shopify":9,"River":2,"智能体":304,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

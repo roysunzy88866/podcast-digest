@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>134</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>135</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -142,6 +142,7 @@ unlisted: true
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(12:02起):本集说其 API 业务据报道毛利高达 80 个点，主因是缓存 token 的惊人利润；Dario 提出「守住前沿」，但 Thomas 认为 Anthropic 内部大多是真信徒，且若停止训练就能一夜之间巨额盈利。
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(36:13起):本集作为对照被多次提及:嘉宾称其为「保姆式国家风格、反开发者」,也提到 Claude 与 ChatGPT 的复制关系
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(38:09起):Dines 押注的公司(「上一期播客里你问我押哪家,我说 Anthropic」),其 CEO Dario 提出「数据中心里数百万爱因斯坦」的说法构成本集讨论起点;Dines 仍会用其划算模型但坚持保留开源备份不被锁定。
+- **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(11:49起):本集提到编程这类领域钱会给 Cognition 或 Anthropic;并称赞 Trevor Baldwin 很早就在 Baldwin 内部端到端部署 Anthropic。
 
 ## ① 提到它的金句
 
@@ -189,7 +190,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*134 集*
+*135 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -325,14 +326,15 @@ unlisted: true
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司(提及)
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
+- [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[Claude]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[NVIDIA]] · [[Cursor]] · [[推理]] · [[Claude]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":301,"OpenAI":126,"Claude Code":70,"Cursor":66,"NVIDIA":42,"推理":52,"Claude":62,"Lenny":67,"Google":47,"ChatGPT":76}</script>
+<script type="application/json" class="pd-epn">{"智能体":304,"OpenAI":127,"Claude Code":71,"NVIDIA":44,"Cursor":66,"推理":53,"Claude":62,"Lenny":67,"Google":47,"ChatGPT":76}</script>
 
 <script>
 (function(){

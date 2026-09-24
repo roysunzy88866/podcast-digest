@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":134,"智能体":301,"harness":41,"沙箱":56,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":27}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":135,"智能体":304,"harness":41,"沙箱":56,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":27}</script>
 
 <script>
 (function(){

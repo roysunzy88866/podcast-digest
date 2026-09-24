@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":301,"harness":41,"模型独立性":1,"路由器":1,"token":23,"开源模型":19,"软件工厂":7,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":304,"harness":41,"模型独立性":1,"路由器":1,"token":23,"开源模型":19,"软件工厂":7,"基于结果的付费":3}</script>
 
 <script>
 (function(){

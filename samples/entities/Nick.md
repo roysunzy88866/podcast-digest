@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"智能体":301,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":1,"MCP":51,"MCP 网关":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"智能体":304,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":1,"MCP":51,"MCP 网关":1}</script>
 
 <script>
 (function(){

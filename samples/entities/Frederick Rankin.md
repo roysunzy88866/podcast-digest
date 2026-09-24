@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":301,"人在回路":13,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":34}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":304,"人在回路":13,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":34}</script>
 
 <script>
 (function(){

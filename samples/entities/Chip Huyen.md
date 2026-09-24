@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"后训练":27,"强化学习":18,"评估":3,"RAG":17,"数据准备":1,"测试时计算":4,"系统思维":4,"采样策略":1,"监督微调":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"后训练":27,"强化学习":1,"评估":3,"RAG":18,"数据准备":1,"测试时计算":4,"系统思维":4,"采样策略":1,"监督微调":2}</script>
 
 <script>
 (function(){

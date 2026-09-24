@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":134,"Salesforce":26,"YC":16,"智能体":301,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":135,"Salesforce":26,"YC":16,"智能体":304,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

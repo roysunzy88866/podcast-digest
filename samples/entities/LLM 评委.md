@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chaitanya Asawa]] · [[Abridge]] · [[Glean]] · [[智能体]] · [[临床决策支持]] · [[评估]] · [[评分细则]] · [[后训练]] · [[前沿模型]] · [[临床记录]]
 
-<script type="application/json" class="pd-epn">{"Chaitanya Asawa":1,"Abridge":1,"Glean":2,"智能体":301,"临床决策支持":1,"评估":3,"评分细则":1,"后训练":27,"前沿模型":20,"临床记录":1}</script>
+<script type="application/json" class="pd-epn">{"Chaitanya Asawa":1,"Abridge":1,"Glean":2,"智能体":304,"临床决策支持":1,"评估":3,"评分细则":1,"后训练":27,"前沿模型":20,"临床记录":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,160 @@
+{
+  "title_zh": "最后一次人类代码审查：靠“上下文”而不是更好的模型",
+  "tldr": "Codo 联合创始人兼 CEO Inamor Friedman 论证 AI 代码审查的瓶颈不在模型而在上下文，并给出固化团队规则、构建上下文引擎、逐步实现自动批准与阻止 PR 的路线。",
+  "digest_md": "这一集是一场技术演讲：Codo（公司名，含义是“开发质量优化”）的联合创始人兼 CEO Inamor Friedman，谈的是几乎所有工程团队眼下都撞上的那堵墙——AI 生成的代码越来越多，快到人类已经审不过来了。他的核心主张很直接：**模型已经不是瓶颈了，缺的是上下文和一套治理层**。只要把团队的隐性知识固化下来、喂给审查系统，人类逐行看 PR（pull request，代码合并请求）的日子就会结束。\n\n## 为什么要有代码审查？自动化前先想清楚\n\n要自动化代码审查，先得回答：代码审查到底是干嘛的。他归纳为两类：一是**验证**——代码是不是高质量、安全、可维护、符合团队架构和最佳实践；二是**对齐和学习**——资深开发者在代码上生产前把最后一道关，借机做教学和拉齐认知。任何新工具、新流程，只要能解除瓶颈又不丢掉这两件事，就是走在正路上。\n\n## 模型不再是障碍，上下文才是\n\n他刚从一家头部实验室回来，看了一个反直觉的数据：**代码审查基准测试在最新模型上几乎没有提升**。也就是说，别再指望“换个更强的模型”来解决问题。给模型正确的上下文，它已经能很好地推理出一次代码变更该暴露哪些问题；不给上下文，再好的模型也只会给你一堆泛泛的意见——比如“你考虑过错误处理吗”，而错误处理在有些场景是关键、有些场景根本不重要。\n\n而现在团队的上下文散落各处：AgentsMD、ClaudeMD、SkillsMD 各有各的标准，不同组织甚至同一团队内用法都不统一；编码智能体一个团队用这套、另一个团队用另一套；还有大量代码从工作流里的智能体（而非 IDE 或 CLI）生成，有的团队这类代码已经超过手写量。这一切带来不了信任和一致性。\n\n## 部落知识：真正的金矿\n\n那正确的上下文在哪？他说，很大一部分是**部落知识**——开发者脑子里的经验、Slack 和 Teams 里的讨论、基础设施文档、过去三个月哪些 bug 真正造成过宕机（比如微服务一改了接口契约、弄坏了微服务二的那些 P0 事故）。这些大多不在代码审查记录里，要自己构建非常难。\n\n固化的关键设计是：**给人类和给智能体各建一个接口**。给人类的，是审查时明确展示“本次审查用了哪些规则、违反了哪几条”并附规则链接——人要能信任和审计这个系统；给智能体的，则是机器可读的形式，比如一条评论直接对另一个智能体说“这个 PR 有五个问题，修复已经开好了，这是一个通过了全部规则的 PR”，让下一个智能体可以直接采用。\n\n更深一层，最值钱的部落知识藏在**系统架构的理解**里：微服务之间在每个节点、每条边上的契约是什么，开发者当年修根因时讨论了什么。把这些建成一张软件图（哪个仓库连哪个仓库、契约是什么、历史上踩过什么坑），你才达到“上下文引擎”的层次。\n\n## 从逐行审 PR，到在图上看全局\n\n有了这个层次的上下文，就可以开始**自动批准和自动阻止 PR** 了——但不是让 AI 自己拍板，而是人类给出语义规则：什么情况批、什么情况拦，这些判断标准本身也要作为上下文积累起来。他给出的判断信号很具体：当规则和接口都到位后，开发者会在 PR 里写的评论越来越少——**当一百个这样的 PR 走下来已经没人再看，你就准备好自动化了**。\n\n他描绘的终局是：代码治理从“审查一个个 PR”变成“从一张图上审查整个软件开发”——每个 PR 是一个气泡，能看出三个 PR 同时在飞时，谁会撞坏谁的契约。\n\n## 你已经在问题里，而不是在问题前面\n\n这是全场最尖锐的一句：**如果你的 AI 代码发布速度已经超过人类的审查速度，你不是领先于问题，你就是在问题之中**。10 倍速的承诺不会因为模型变强自动兑现——先把基础设施和上下文攒起来，否则审查就是瓶颈。具体要做的：① 拥有并固化你的规则和标准，对每条规则做统计分析——触发多少次、是否真的有用、要不要更新；② 对软件图有完整可视化，能看出哪两个 PR 正在改同一条边、即将撞车；③ 逐步增加自动批准和自动阻止的规则，一步步渐进自动化，而不是一夜切换。\n\n他把这称为“从人工智能走向人工智慧”：判断什么是好代码的权力现在在你的开发者手里，不在 AI 工具里；要把判断力迁移给工具，就得把经验以正确的方式、在正确的位置固化下来。他的目标很激进：2027 年做到零宕机、生产环境零关键和高严重性 bug。\n\n> 【背景】Codo 是一家做 AI 代码审查与代码治理的初创公司，讲者为其联合创始人兼 CEO；「Codo」取自 Quality of Development Optimization（开发质量优化）——这些是讲者在演讲开头自我介绍的。\n\n## 本集带走\n\n- **别再指望更强的模型**：代码审查基准在新模型上几乎没动；缺的是上下文，不是推理能力。\n- **先把部落知识挖出来**：资深开发者的判断、Slack 里的讨论、造成过宕机的 P0 事故，都要编纂成机器和人都能用的形式。\n- **给人类和智能体分别建接口**：人类要能看到“用了哪几条规则、违反了哪几条”才能信任结果；智能体要拿到机器可读的规则与修复结果。\n- **画出你的软件图**：微服务间的契约、历史踩坑记录放进图里，才能看出哪些 PR 会撞车。\n- **渐进式自动化**：用语义规则先自动批准低风险 PR、逐步增加规则，直到人类连续一百个 PR 不再看——那时就到位了。\n- **警惕假领先**：AI 代码出得比人审得快，说明你已经在问题里；不补治理层，10 倍速只是空头支票。",
+  "quotes": [
+    {
+      "en": "As I mentioned, that's the real gold mine here to get the code review automated.",
+      "zh": "正如我提到的，那才是这里真正的金矿，要让代码审查自动化。",
+      "timestamp": "09:43",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "And when that is in place, you will see that developers are writing less and less comments in the pull request, and then after 100 of these pull requests, there's no more human review, you know that you're ready for automation, okay?",
+      "zh": "而当这些都到位后，你会看到开发者在 pull request 里写的评论越来越少，然后在一百个这样的 pull request 之后，不再有人类审查，你就知道你已经准备好自动化了，好吗？",
+      "timestamp": "12:09",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "What I'm actually saying is that software development, at least code governance, is going to change from reviewing your pull request to actually reviewing your entire software development from a graph obstruction.",
+      "zh": "我实际上在说的是，软件开发，至少代码治理，将从审查你的 pull request 转变为从一个图抽象层面审查你的整个软件开发。",
+      "timestamp": "14:11",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "If you are already shipping AI-generated code faster than your human can review, I'm actually saying that you are in the problem.",
+      "zh": "如果你已经在以快于人类能审查的速度发布 AI 生成的代码，我要说的是，你正身处问题之中。",
+      "timestamp": "15:47",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "If you put the infrastructure, if you gather the context, if you start accumulating how code review can be automated for you, then that's where you're gonna get the 10x velocity that you're being promising your CEO or yourself or your developers, because otherwise it's a bottleneck.",
+      "zh": "如果你搭建了基础设施，如果你收集了上下文，如果你开始积累代码审查如何为你自动化的经验，那才是你能获得 10 倍速度的地方，也就是你向你的 CEO 或你自己或你的开发者承诺过的速度，否则它就是一个瓶颈。",
+      "timestamp": "15:59",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "What are two PRs that are going to crash very soon because they're touching the same edge and they don't know?",
+      "zh": "哪两个 PR 很快会撞车，因为它们在改动同一条边而彼此不知道？",
+      "timestamp": "16:41",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "And sorry for the buzz or whatever you want to call it, that's moving from artificial intelligence to artificial wisdom.",
+      "zh": "抱歉说了这个流行词，或者你怎么称呼它都行，那就是从人工智能走向人工智慧。",
+      "timestamp": "17:44",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "If you want to get to a point where judgment is moving to your AI tools, that's AI wisdom where that experience needs to be codified in the right way, the right place for agents and humans.",
+      "zh": "如果你想达到判断转移到你 AI 工具的那一天，那就是 AI 智慧，那时那些经验需要以正确的方式、在正确的位置被固化，为了智能体和人类。",
+      "timestamp": "18:03",
+      "speaker": "Itamar Friedman"
+    },
+    {
+      "en": "We want to reach in 2027 to a place where you have zero outages, zero bugs in production, at least the critical and the high ones.",
+      "zh": "我们想在 2027 年达到一个地方：你拥有零宕机、生产环境中零 bug，至少是关键和高严重性的那些。",
+      "timestamp": "18:24",
+      "speaker": "Itamar Friedman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:21",
+      "speaker": "Inamor Friedman",
+      "en": "Basically, the models are improving, but I'm telling you, I just came from one of the leading labs where we are inspecting how benchmarks for code review did not change a lot throughout the latest model.",
+      "zh": "基本上，模型在进步，但我告诉你，我刚从一家领先的实验室过来，我们在检查代码审查基准测试时发现，在最新的模型上并没有太大变化。"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Inamor Friedman",
+      "en": "So, I claim that models are not a barrier anymore.",
+      "zh": "所以我主张，模型已经不再是障碍了。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Inamor Friedman",
+      "en": "Otherwise, if you don't have the context, even the best model out there, they will give you different types of bugs and issues.",
+      "zh": "否则，如果你没有那个上下文，即使是市面上最好的模型，它们也会给你各种不同类型的 bug 和问题。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Inamor Friedman",
+      "en": "We're missing, like, a governance layer for us to move to the next level, okay?",
+      "zh": "我们缺少一个治理层，让我们能迈向下一个层级，好吗？"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Inamor Friedman",
+      "en": "And the answer is that you probably need to build your context lake, your context engine.",
+      "zh": "而答案是，你很可能需要构建你的上下文湖、你的上下文引擎。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Inamor Friedman",
+      "en": "As I mentioned, that's the real gold mine here to get the code review automated.",
+      "zh": "正如我提到的，那才是这里真正的金矿，要让代码审查自动化。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Inamor Friedman",
+      "en": "In order to trust, okay, in order to trust the results that are coming from your code review tool, et cetera, you have to build that interface for human.",
+      "zh": "为了信任，好吧，为了信任来自你的代码审查工具等的结果，你必须为人类构建那个接口。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Inamor Friedman",
+      "en": "And when that is in place, you will see that developers are writing less and less comments in the pull request, and then after 100 of these pull requests, there's no more human review, you know that you're ready for automation, okay?",
+      "zh": "而当这些都到位后，你会看到开发者在 pull request 里写的评论越来越少，然后在一百个这样的 pull request 之后，不再有人类审查，你就知道你已经准备好自动化了，好吗？"
+    },
+    {
+      "timestamp": "13:43",
+      "speaker": "Inamor Friedman",
+      "en": "Now you're ready to start approving and blocking PRs automatically.",
+      "zh": "现在你已经准备好开始自动批准和阻止 PR 了。"
+    },
+    {
+      "timestamp": "14:11",
+      "speaker": "Inamor Friedman",
+      "en": "What I'm actually saying is that software development, at least code governance, is going to change from reviewing your pull request to actually reviewing your entire software development from a graph obstruction.",
+      "zh": "我实际上在说的是，软件开发，至少代码治理，将从审查你的 pull request 转变为从一个图抽象层面审查你的整个软件开发。"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "Inamor Friedman",
+      "en": "If you are already shipping AI-generated code faster than your human can review, I'm actually saying that you are in the problem.",
+      "zh": "如果你已经在以快于人类能审查的速度发布 AI 生成的代码，我要说的是，你正身处问题之中。"
+    },
+    {
+      "timestamp": "15:59",
+      "speaker": "Inamor Friedman",
+      "en": "If you put the infrastructure, if you gather the context, if you start accumulating how code review can be automated for you, then that's where you're gonna get the 10x velocity that you're being promising your CEO or yourself or your developers, because otherwise it's a bottleneck.",
+      "zh": "如果你搭建了基础设施，如果你收集了上下文，如果你开始积累代码审查如何为你自动化的经验，那才是你能获得 10 倍速度的地方，也就是你向你的 CEO 或你自己或你的开发者承诺过的速度，否则它就是一个瓶颈。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Inamor Friedman",
+      "en": "What are two PRs that are going to crash very soon because they're touching the same edge and they don't know?",
+      "zh": "哪两个 PR 很快会撞车，因为它们在改动同一条边而彼此不知道？"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "Inamor Friedman",
+      "en": "And sorry for the buzz or whatever you want to call it, that's moving from artificial intelligence to artificial wisdom.",
+      "zh": "抱歉说了这个流行词，或者你怎么称呼它都行，那就是从人工智能走向人工智慧。"
+    },
+    {
+      "timestamp": "18:03",
+      "speaker": "Inamor Friedman",
+      "en": "If you want to get to a point where judgment is moving to your AI tools, that's AI wisdom where that experience needs to be codified in the right way, the right place for agents and humans.",
+      "zh": "如果你想达到判断转移到你 AI 工具的那一天，那就是 AI 智慧，那时那些经验需要以正确的方式、在正确的位置被固化，为了智能体和人类。"
+    },
+    {
+      "timestamp": "18:24",
+      "speaker": "Inamor Friedman",
+      "en": "We want to reach in 2027 to a place where you have zero outages, zero bugs in production, at least the critical and the high ones.",
+      "zh": "我们想在 2027 年达到一个地方：你拥有零宕机、生产环境中零 bug，至少是关键和高严重性的那些。"
+    }
+  ],
+  "voice_script": "今天这期是一场技术演讲,讲的人叫 Inamor Friedman,是一家叫 Codo 的公司的联合创始人兼 CEO。Codo 这个名字取自\"开发质量优化\",做的事是 AI 代码审查和代码治理。这场演讲聊的问题,几乎每个工程团队现在都撞上了:AI 写代码的速度越来越快,快到人类已经审不过来了。而讲者的核心主张非常直接——瓶颈不在模型,缺的是上下文,和一套治理层。\n\n先把这个背景垫一下。现在 AI 生成的代码量在暴涨,而且很多代码不是从开发者的编辑器里出来的,是从工作流里的智能体直接生成的,有的团队这类代码已经超过了手写的量。代码这么多,谁来看?靠人逐行看代码合并请求,也就是 PR,这条路已经走不通了。所以问题是:能不能把代码审查自动化?要回答这个,得先想清楚一件更根本的事——代码审查到底是干嘛的。\n\n讲者把代码审查归纳成两类。第一类是验证:代码是不是高质量、安全、可维护,符不符合团队的架构和最佳实践。第二类是对齐和学习:资深开发者在上线前把最后一道关,顺便做教学、拉齐团队认知。所以任何新工具、新流程,只要能解除瓶颈,又不丢掉这两件事,就是走在正路上。那现在最该解除的瓶颈是什么?是不是换个更强的模型就行了?\n\n答案可能有点反直觉。讲者刚从一家头部实验室回来,看到的数据是:代码审查的基准测试,在最新模型上几乎没有提升。换句话说,别再指望\"换个更强的模型\"来解决问题了。给模型正确的上下文,它已经能很好地推理出一次代码变更该暴露哪些问题;不给上下文,再好的模型也只会给你一堆泛泛的意见,比如\"你考虑过错误处理吗\"——可错误处理这种事,有些场景是关键,有些场景根本不重要,没有上下文,模型根本分不清。\n\n那正确的上下文从哪来?这就引出这场演讲里最有意思的一个概念:部落知识。所谓部落知识,就是开发者脑子里的经验、Slack 和 Teams 里的讨论、基础设施文档,还有过去三个月哪些 bug 真正造成过宕机——比如微服务一改了接口契约,把微服务二弄坏了,那种 P0 事故。这些东西大多不在代码审查记录里,要自己构建,非常难,但也正是真正的金矿。\n\n怎么把这些知识固化下来?关键的设计是给人类和给智能体各建一个接口。给人类的,是审查时明确展示:这次用了哪些规则、违反了哪几条,并且附上规则链接。为什么?因为人要能信任和审计这个系统。给智能体的,则是机器可读的形式——比如一条评论直接对另一个智能体说,这个 PR 有五个问题,修复已经开好了,这是一个通过了全部规则的 PR,下一个智能体可以直接拿去用。\n\n再往深一层,最值钱的部落知识藏在系统架构的理解里:微服务之间,在每个节点、每条边上,契约是什么;开发者当年修根因的时候讨论了什么。把这些建成一张软件图——哪个仓库连哪个仓库,契约是什么,历史上踩过什么坑——才算达到了\"上下文引擎\"的层次。\n\n有了这个层次的上下文,就可以开始自动批准和自动阻止 PR 了。注意,不是让 AI 自己拍板,而是人类给出语义规则:什么情况批、什么情况拦,这些判断标准本身也要作为上下文积累起来。那怎么知道自己准备好了?判断信号很具体:当规则和接口都到位后,开发者会在 PR 里写的评论越来越少。当一百个这样的 PR 走下来已经没人再看,你就准备好自动化了。\n\n讲者描绘的终局是这样的:代码治理从\"审查一个个 PR\",变成\"从一张图上审查整个软件开发\"。每个 PR 是图上的一个气泡,你能看出三个 PR 同时在飞的时候,谁会撞坏谁的契约。哪两个 PR 很快会撞车?就是它们在改同一条边,而彼此不知道的那种。\n\n最后落到一句最尖锐的话上:如果你的 AI 代码发布速度已经超过人类的审查速度,你不是领先于问题,你就是身处问题之中。10 倍速的承诺,不会因为模型变强自动兑现。具体要做的有三件事:第一,拥有并固化你的规则和标准,对每条规则做统计分析——触发多少次、是否真的有用、要不要更新;第二,对软件图有完整的可视化,能看出哪两个 PR 正在改同一条边、即将撞车;第三,逐步增加自动批准和自动阻止的规则,一步一步渐进自动化,而不是一夜切换。讲者把这称为\"从人工智能走向人工智慧\"——判断什么是好代码的权力,现在在开发者手里,不在 AI 工具里;要把判断力迁移给工具,就得把经验以正确的方式、在正确的位置固化下来。目标甚至很激进:2027 年做到零宕机、生产环境零关键和高严重性 bug。记住这句话:先把基础设施和上下文攒起来,那才是你能拿到 10 倍速的地方,否则,审查就是瓶颈。"
+}

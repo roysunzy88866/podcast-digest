@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"智能体":301,"vibe coding":37,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":34,"真实性":2,"机器学习":4,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"智能体":304,"vibe coding":37,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":34,"真实性":2,"机器学习":4,"Magic School":1}</script>
 
 <script>
 (function(){

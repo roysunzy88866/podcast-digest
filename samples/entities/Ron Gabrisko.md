@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":15,"数据科学智能体":4,"Spark":2,"a16z":15,"Cursor":66,"Palantir":18,"托管服务":1,"开源":25,"按用量定价":3,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"Databricks":15,"数据科学智能体":4,"Spark":2,"a16z":15,"Cursor":66,"Palantir":19,"托管服务":1,"开源":25,"按用量定价":3,"企业销售":3}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":51,"智能体":301,"沙箱":56,"可观测性":27,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":51,"智能体":304,"沙箱":56,"可观测性":27,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

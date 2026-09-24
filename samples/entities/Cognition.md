@@ -8,7 +8,7 @@ aliases: ["cognition"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cognition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>17</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>18</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,10 +29,11 @@ aliases: ["cognition"]
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(36:34起):本集说据报道它正以约 460 亿美元估值融资、年底 ARR 将达 16 亿，且它甚至不是品类前两三名——印证市场大到连第三名都能成（Postmates 效应）。
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(16:23起):本集在列举在中国开源模型上微调/后训练的垂直 AI 公司时顺带提到 Cognition
 - **[[2026-09-11-talks-building-ambitious-software-jonathan-kel|《从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课》]]**(18:42起):本集结尾提到它是收购了 Dioxys 的公司，正在为「下一代软件的工具」招聘。
+- **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(03:27起):本集说在编程这类创业公司会赢的领域,你会把钱给 Cognition 或 Anthropic,而不是收购外包编程服务业务。
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
@@ -51,14 +52,15 @@ aliases: ["cognition"]
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
 - [[2026-09-11-talks-building-ambitious-software-jonathan-kel|《从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课》]] — 作为被讨论公司(提及)
+- [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Claude Code]] · [[Stripe]] · [[NVIDIA]] · [[Salesforce]] · [[SpaceX]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Claude Code]] · [[NVIDIA]] · [[Stripe]] · [[Salesforce]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"智能体":301,"Anthropic":134,"OpenAI":126,"Cursor":66,"推理":52,"Claude Code":70,"Stripe":34,"NVIDIA":42,"Salesforce":26,"SpaceX":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":304,"Anthropic":135,"OpenAI":127,"Cursor":66,"推理":53,"Claude Code":71,"NVIDIA":44,"Stripe":34,"Salesforce":26,"SpaceX":18}</script>
 
 <script>
 (function(){

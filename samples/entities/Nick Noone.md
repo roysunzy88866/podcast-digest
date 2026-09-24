@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":18,"前置部署工程":3,"智能体":301,"数据治理":1,"反网络效应":1,"本体":4}</script>
+<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":19,"前置部署工程":3,"智能体":304,"数据治理":1,"反网络效应":1,"本体":4}</script>
 
 <script>
 (function(){

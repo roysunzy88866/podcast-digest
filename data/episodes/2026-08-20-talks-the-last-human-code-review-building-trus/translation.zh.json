@@ -1,0 +1,1490 @@
+[
+ {
+  "seg": 0,
+  "start": 12.518,
+  "end": 14.619,
+  "speaker": "Unknown",
+  "en": "Are you all set up with your AI factory?",
+  "zh": "你的 AI 工厂都搭建好了吗?"
+ },
+ {
+  "seg": 1,
+  "start": 15.699,
+  "end": 16.699,
+  "speaker": "Unknown",
+  "en": "Everything is smooth.",
+  "zh": "一切都很顺畅。"
+ },
+ {
+  "seg": 2,
+  "start": 18,
+  "end": 22.261,
+  "speaker": "Unknown",
+  "en": "As you're sitting here, your code is being deployed, ARR growing, right?",
+  "zh": "当你坐在这里的时候，你的代码正在部署，ARR 在增长，对吧？"
+ },
+ {
+  "seg": 3,
+  "start": 22.702,
+  "end": 23.842,
+  "speaker": "Unknown",
+  "en": "If it's like that, raise your hand.",
+  "zh": "如果是这样的话，请举手。"
+ },
+ {
+  "seg": 4,
+  "start": 24.742,
+  "end": 25.062,
+  "speaker": "Unknown",
+  "en": "No?",
+  "zh": "没有人吗？"
+ },
+ {
+  "seg": 5,
+  "start": 25.203,
+  "end": 25.643,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦，好吧。"
+ },
+ {
+  "seg": 6,
+  "start": 25.983,
+  "end": 26.763,
+  "speaker": "Unknown",
+  "en": "Two people, great.",
+  "zh": "两位，很好。"
+ },
+ {
+  "seg": 7,
+  "start": 28.384,
+  "end": 30.664,
+  "speaker": "Unknown",
+  "en": "Let us know before and after this talk, what's ARR?",
+  "zh": "在这次演讲前后告诉我们一下，ARR 是什么？"
+ },
+ {
+  "seg": 8,
+  "start": 33.375,
+  "end": 41.121,
+  "speaker": "Unknown",
+  "en": "Do you feel like there is a bottleneck, a new bottleneck that is not on writing code, rather somewhere else in the STLC?",
+  "zh": "你是否觉得存在一个瓶颈，一个新的瓶颈，它不在于写代码，而是在 STLC 的其他环节？"
+ },
+ {
+  "seg": 9,
+  "start": 41.181,
+  "end": 46.565,
+  "speaker": "Unknown",
+  "en": "Is that your biggest thing to tackle, if you are tackling that right now?",
+  "zh": "如果你现在正在解决它，这是不是你最需要攻克的问题？"
+ },
+ {
+  "seg": 10,
+  "start": 47.526,
+  "end": 48.566,
+  "speaker": "Unknown",
+  "en": "Okay, so you're in the right place.",
+  "zh": "好的，那你们来对地方了。"
+ },
+ {
+  "seg": 11,
+  "start": 49.087,
+  "end": 50.748,
+  "speaker": "Unknown",
+  "en": "And what about, like,",
+  "zh": "那么关于，"
+ },
+ {
+  "seg": 12,
+  "start": 51.827,
+  "end": 59.734,
+  "speaker": "Unknown",
+  "en": "Code review, verifying that the code work according to your intent, according to your architecture, standards, best practices, et cetera.",
+  "zh": "代码审查，验证代码是否按照你的意图、按照你的架构、标准、最佳实践等正常工作，"
+ },
+ {
+  "seg": 13,
+  "start": 59.854,
+  "end": 63.177,
+  "speaker": "Unknown",
+  "en": "Is this something that you're tackling day to day or week by week?",
+  "zh": "这是不是你们每天都在处理或者每周都在处理的事情？"
+ },
+ {
+  "seg": 14,
+  "start": 63.997,
+  "end": 65.419,
+  "speaker": "Unknown",
+  "en": "Okay, so you're in the right place.",
+  "zh": "好的，那你们来对地方了。"
+ },
+ {
+  "seg": 15,
+  "start": 65.939,
+  "end": 68.461,
+  "speaker": "Unknown",
+  "en": "So, I'm Inamor Friedman, the CEO and co-founder of Codo.",
+  "zh": "我是 Inamor Friedman，Codo 的 CEO 兼联合创始人。"
+ },
+ {
+  "seg": 16,
+  "start": 69.342,
+  "end": 73.966,
+  "speaker": "Unknown",
+  "en": "I don't share too much, but Codo stands for Quality of Development Optimization.",
+  "zh": "我不常分享这个，但 Codo 代表 Quality of Development Optimization(开发质量优化)。"
+ },
+ {
+  "seg": 17,
+  "start": 74.667,
+  "end": 78.27,
+  "speaker": "Unknown",
+  "en": "Our mission is to help you all",
+  "zh": "我们的使命是帮助你们所有人"
+ },
+ {
+  "seg": 18,
+  "start": 79.511,
+  "end": 92.48,
+  "speaker": "Unknown",
+  "en": "Have a code governance, code review platform that understand your code base, your tribal knowledge, your best practices, and that does not come off the shelf from the model.",
+  "zh": "拥有一个代码治理、代码审查平台，它能理解你的代码库、你的隐性知识、你的最佳实践，而这些不是模型自带的。"
+ },
+ {
+  "seg": 19,
+  "start": 92.92,
+  "end": 99.865,
+  "speaker": "Unknown",
+  "en": "It requires a system that optimize for you as we go, and that's why we decided to name our company this way.",
+  "zh": "它需要一个随时间推移为你持续优化的系统，这就是我们决定这样给公司命名的原因。"
+ },
+ {
+  "seg": 20,
+  "start": 101.046,
+  "end": 107.39,
+  "speaker": "Unknown",
+  "en": "So, I'm going to talk about the last human code review and what do we need to do in order to get there.",
+  "zh": "所以，我要谈谈最后一次人类代码审查，以及我们要做些什么才能达到那一步。"
+ },
+ {
+  "seg": 21,
+  "start": 108.05,
+  "end": 108.35,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗？"
+ },
+ {
+  "seg": 22,
+  "start": 108.991,
+  "end": 113.052,
+  "speaker": "Unknown",
+  "en": "And can you switch, instead of seeing myself seeing the presentation here?",
+  "zh": "你能切换一下吗，别让我看到自己，而是让我看到这里的演示文稿？"
+ },
+ {
+  "seg": 23,
+  "start": 113.592,
+  "end": 113.893,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 24,
+  "start": 114.953,
+  "end": 122.056,
+  "speaker": "Unknown",
+  "en": "So, I think, like, first of all, we need to agree on why do we have code review at all?",
+  "zh": "所以，我认为，首先，我们需要达成一致：我们到底为什么要做代码审查？"
+ },
+ {
+  "seg": 25,
+  "start": 123.002,
+  "end": 128.365,
+  "speaker": "Unknown",
+  "en": "So, I think basically these are two buckets that we should agree on, and I think it's quite common.",
+  "zh": "我认为基本上有两个类别我们应该达成共识，而且这很常见。"
+ },
+ {
+  "seg": 26,
+  "start": 128.886,
+  "end": 137.13,
+  "speaker": "Unknown",
+  "en": "One is we want to validate the code that is in high quality, safe, maintainable, the right architecture according to our best practice, et cetera.",
+  "zh": "一个是我们想要验证代码是高质量的、安全的、可维护的、符合我们最佳实践的正确架构等等。"
+ },
+ {
+  "seg": 27,
+  "start": 137.491,
+  "end": 140.873,
+  "speaker": "Unknown",
+  "en": "The second reason is actually alignment and learning.",
+  "zh": "第二个原因实际上是对齐和学习。"
+ },
+ {
+  "seg": 28,
+  "start": 141.473,
+  "end": 141.653,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 141.693,
+  "end": 153.541,
+  "speaker": "Unknown",
+  "en": "Like, where senior developers, for example, have one last chance, a gateway, a gatekeeper, before it's being, a code is being pushed to production to have that alignment and teaching.",
+  "zh": "比如，资深开发者，举例来说，在代码被推送到生产环境之前有最后一次机会，一个关口，一个守门人的角色，来做那种对齐和教学。"
+ },
+ {
+  "seg": 30,
+  "start": 153.921,
+  "end": 154.141,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 31,
+  "start": 154.401,
+  "end": 155.422,
+  "speaker": "Unknown",
+  "en": "So, these are the two reasons.",
+  "zh": "所以，这就是两个原因。"
+ },
+ {
+  "seg": 32,
+  "start": 155.762,
+  "end": 158.784,
+  "speaker": "Unknown",
+  "en": "And then, that's what you need to think if you're trying to automate a code review.",
+  "zh": "然后，如果你试图自动化代码审查，你需要思考这个。"
+ },
+ {
+  "seg": 33,
+  "start": 160.625,
+  "end": 162.666,
+  "speaker": "Unknown",
+  "en": "Human still do that.",
+  "zh": "人类仍然在做这件事。"
+ },
+ {
+  "seg": 34,
+  "start": 162.946,
+  "end": 170.71,
+  "speaker": "Unknown",
+  "en": "And if this is the right place, the code review process, the pull request process, is that the right place to still doing these two things?",
+  "zh": "如果这是合适的位置，代码审查流程、pull request 流程，还是做这两件事的合适位置吗？"
+ },
+ {
+  "seg": 35,
+  "start": 171.53,
+  "end": 183.356,
+  "speaker": "Unknown",
+  "en": "If you have new tools, new processes that will help you unblock this bottleneck but let you still do these two buckets of tasks, then you're on the right path.",
+  "zh": "如果你有新的工具、新的流程能帮你解除这个瓶颈，同时让你仍然可以做这两类任务，那你就在正确的道路上。"
+ },
+ {
+  "seg": 36,
+  "start": 184.436,
+  "end": 187.018,
+  "speaker": "Unknown",
+  "en": "So, we're here to ask yes, no.",
+  "zh": "所以，我们今天就是来问是还是否的。"
+ },
+ {
+  "seg": 37,
+  "start": 187.498,
+  "end": 188.999,
+  "speaker": "Unknown",
+  "en": "Is human code review",
+  "zh": "人类代码审查"
+ },
+ {
+  "seg": 38,
+  "start": 190.179,
+  "end": 192.26,
+  "speaker": "Unknown",
+  "en": "Still optional end of 2026?",
+  "zh": "在 2026 年底还是必须的吗？"
+ },
+ {
+  "seg": 39,
+  "start": 192.42,
+  "end": 196.442,
+  "speaker": "Unknown",
+  "en": "Is it becoming optional or is it still mandatory?",
+  "zh": "它正在变得可选，还是仍然是强制的？"
+ },
+ {
+  "seg": 40,
+  "start": 197.142,
+  "end": 198.783,
+  "speaker": "Unknown",
+  "en": "Okay, that's where we're here to answer.",
+  "zh": "好的，这就是我们今天要回答的问题。"
+ },
+ {
+  "seg": 41,
+  "start": 199.123,
+  "end": 210.687,
+  "speaker": "Unknown",
+  "en": "Do you think, like, every PR or the majority of PRs are gonna be reviewed line by line or, you know, bucket by bucket in the chunks and the hunks by our developers?",
+  "zh": "你觉得，每一个 PR 或者大多数 PR 都会被我们的开发者逐行审查，或者按块、按 hunk 分块审查吗？"
+ },
+ {
+  "seg": 42,
+  "start": 210.747,
+  "end": 211.288,
+  "speaker": "Unknown",
+  "en": "Raise your hand.",
+  "zh": "请举手。"
+ },
+ {
+  "seg": 43,
+  "start": 211.328,
+  "end": 216.79,
+  "speaker": "Unknown",
+  "en": "Or do you think by end of this year your developers are still going to review diff by diff?",
+  "zh": "还是说你认为到今年年底你的开发者仍然会逐个 diff 地审查？"
+ },
+ {
+  "seg": 44,
+  "start": 218.662,
+  "end": 218.902,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 45,
+  "start": 219.223,
+  "end": 221.785,
+  "speaker": "Unknown",
+  "en": "So, try to think why is that happening.",
+  "zh": "试着想想为什么会这样。"
+ },
+ {
+  "seg": 46,
+  "start": 222.085,
+  "end": 233.155,
+  "speaker": "Unknown",
+  "en": "Now, I wanted to share with you that yesterday night we did a drone show and I had the opportunity to talk to different people during that drone show to different engineering leaders.",
+  "zh": "现在，我想和你们分享，昨天晚上我们举办了一场无人机表演，我有机会在那场表演期间和不同的工程负责人交谈。"
+ },
+ {
+  "seg": 47,
+  "start": 233.175,
+  "end": 236.598,
+  "speaker": "Unknown",
+  "en": "And what I can tell you is that I saw two very",
+  "zh": "我可以告诉你们的是，我看到了两个非常"
+ },
+ {
+  "seg": 48,
+  "start": 238.712,
+  "end": 242.073,
+  "speaker": "Unknown",
+  "en": "Different groups of school of thoughts, okay?",
+  "zh": "不同的思想流派，好吗？"
+ },
+ {
+  "seg": 49,
+  "start": 242.674,
+  "end": 247.736,
+  "speaker": "Unknown",
+  "en": "They both agree that bugs are coming in different shapes.",
+  "zh": "他们都同意 bug 会以不同的形态出现。"
+ },
+ {
+  "seg": 50,
+  "start": 248.336,
+  "end": 255.859,
+  "speaker": "Unknown",
+  "en": "For some, this is fine, and we're just going to fix that quickly after it hits the production, and for some, not.",
+  "zh": "对某些人来说，这没问题，等它上线生产之后再快速修复就行；而对另一些人来说，并非如此。"
+ },
+ {
+  "seg": 51,
+  "start": 255.999,
+  "end": 257.94,
+  "speaker": "Unknown",
+  "en": "So actually, we do see two teams.",
+  "zh": "所以实际上，我们看到有两类团队。"
+ },
+ {
+  "seg": 52,
+  "start": 258.48,
+  "end": 264.143,
+  "speaker": "Unknown",
+  "en": "Those that are thinking about the room is split into two, those that are thinking like, hey, we have to",
+  "zh": "那些人在思考——这个房间分成两半——一类人在想：嘿，我们必须"
+ },
+ {
+  "seg": 53,
+  "start": 265.063,
+  "end": 270.728,
+  "speaker": "Unknown",
+  "en": "Let's make sure that every piece of line is trusted and the humans must review that.",
+  "zh": "确保每一行代码都是可信的，必须由人来审查。"
+ },
+ {
+  "seg": 54,
+  "start": 271.369,
+  "end": 280.977,
+  "speaker": "Unknown",
+  "en": "Or the other group somewhat reckless or so saying let's like push those bugs into production and",
+  "zh": "或者另一类人，有点鲁莽，说：让我们把这些 bug 推到生产环境，"
+ },
+ {
+  "seg": 55,
+  "start": 282.678,
+  "end": 287.239,
+  "speaker": "Unknown",
+  "en": "We quickly fix that, and that's how we actually do things, because it's much faster.",
+  "zh": "然后我们快速修复它，我们实际上就是这么做事的，因为这样快得多。"
+ },
+ {
+  "seg": 56,
+  "start": 287.299,
+  "end": 291.14,
+  "speaker": "Unknown",
+  "en": "Velocity is more important than getting things right.",
+  "zh": "速度比把事情做对更重要。"
+ },
+ {
+  "seg": 57,
+  "start": 291.84,
+  "end": 295.301,
+  "speaker": "Unknown",
+  "en": "And I think, like, you need to think, like, where do you sit?",
+  "zh": "而我认为，你需要想一想：你处在哪个位置？"
+ },
+ {
+  "seg": 58,
+  "start": 295.341,
+  "end": 302.163,
+  "speaker": "Unknown",
+  "en": "Of course, I put it in two sides of the spectrum, but there's somewhere in between, and you need to think,",
+  "zh": "当然，我把它放在了光谱的两端，但中间总有个位置，你需要思考："
+ },
+ {
+  "seg": 59,
+  "start": 302.583,
+  "end": 303.704,
+  "speaker": "Unknown",
+  "en": "What's your philosophy?",
+  "zh": "你的理念是什么？"
+ },
+ {
+  "seg": 60,
+  "start": 303.724,
+  "end": 315.874,
+  "speaker": "Unknown",
+  "en": "Because that will lead you to different milestones or different tools that you need to use in order to get that confidence that you can skip over a human review in the pull request and the code review.",
+  "zh": "因为这将引导你走向不同的里程碑或不同的工具，你需要用它们来获得那种信心，让你能在 pull request 和代码审查中跳过人工审查。"
+ },
+ {
+  "seg": 61,
+  "start": 317.055,
+  "end": 320.257,
+  "speaker": "Unknown",
+  "en": "So, let's start talking about what is the process?",
+  "zh": "那么，让我们开始谈谈流程是什么？"
+ },
+ {
+  "seg": 62,
+  "start": 320.277,
+  "end": 321.698,
+  "speaker": "Unknown",
+  "en": "How do we need to start thinking about it?",
+  "zh": "我们需要如何开始思考这件事？"
+ },
+ {
+  "seg": 63,
+  "start": 321.878,
+  "end": 326.002,
+  "speaker": "Unknown",
+  "en": "So, I claim that models are not a barrier anymore.",
+  "zh": "所以我主张，模型已经不再是障碍了。"
+ },
+ {
+  "seg": 64,
+  "start": 326.822,
+  "end": 329.945,
+  "speaker": "Unknown",
+  "en": "Like, it's not a matter of the, you know, a model",
+  "zh": "就是说，问题不在于，你知道的，一个模型"
+ },
+ {
+  "seg": 65,
+  "start": 331.243,
+  "end": 333.404,
+  "speaker": "Unknown",
+  "en": "Doing a good job or not.",
+  "zh": "做得好还是不好。"
+ },
+ {
+  "seg": 66,
+  "start": 333.444,
+  "end": 335.345,
+  "speaker": "Unknown",
+  "en": "Having the right reasoning or not.",
+  "zh": "有没有正确的推理。"
+ },
+ {
+  "seg": 67,
+  "start": 335.865,
+  "end": 348.99,
+  "speaker": "Unknown",
+  "en": "Basically, the models are improving, but I'm telling you, I just came from one of the leading labs where we are inspecting how benchmarks for code review did not change a lot throughout the latest model.",
+  "zh": "基本上，模型在进步，但我告诉你，我刚从一家领先的实验室过来，我们在检查代码审查基准测试时发现，在最新的模型上并没有太大变化。"
+ },
+ {
+  "seg": 68,
+  "start": 350.091,
+  "end": 352.852,
+  "speaker": "Unknown",
+  "en": "The key here is actually context.",
+  "zh": "这里的关键其实是上下文。"
+ },
+ {
+  "seg": 69,
+  "start": 353.713,
+  "end": 354.013,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗？"
+ },
+ {
+  "seg": 70,
+  "start": 354.053,
+  "end": 368.981,
+  "speaker": "Unknown",
+  "en": "Like, the models, if you give them the right context, and what is that right context we're gonna talk about, they could already reason pretty well over what are the issues that we need to surface for a certain change in the code.",
+  "zh": "就是说，如果你给模型正确的上下文——而什么是正确的上下文我们会谈到——它们已经能很好地推理出对于某次代码变更我们需要浮现哪些问题。"
+ },
+ {
+  "seg": 71,
+  "start": 369.977,
+  "end": 376.362,
+  "speaker": "Unknown",
+  "en": "Otherwise, if you don't have the context, even the best model out there, they will give you different types of bugs and issues.",
+  "zh": "否则，如果你没有那个上下文，即使是市面上最好的模型，它们也会给你各种不同类型的 bug 和问题。"
+ },
+ {
+  "seg": 72,
+  "start": 376.402,
+  "end": 377.362,
+  "speaker": "Unknown",
+  "en": "Some of them are really good.",
+  "zh": "其中有些真的很好。"
+ },
+ {
+  "seg": 73,
+  "start": 377.803,
+  "end": 383.707,
+  "speaker": "Unknown",
+  "en": "But in many cases, they will simply tell you, hey, did you consider error handling or not?",
+  "zh": "但在很多情况下，它们只会告诉你：嘿，你考虑过错误处理吗？"
+ },
+ {
+  "seg": 74,
+  "start": 384.007,
+  "end": 387.43,
+  "speaker": "Unknown",
+  "en": "By the way, error handling could be a really good thing to handle.",
+  "zh": "顺便说一句，错误处理可能真的是值得处理的好东西。"
+ },
+ {
+  "seg": 75,
+  "start": 387.99,
+  "end": 388.51,
+  "speaker": "Unknown",
+  "en": "Depends.",
+  "zh": "看情况。"
+ },
+ {
+  "seg": 76,
+  "start": 388.911,
+  "end": 390.112,
+  "speaker": "Unknown",
+  "en": "In some cases, it's critical.",
+  "zh": "在某些情况下，它是关键的。"
+ },
+ {
+  "seg": 77,
+  "start": 390.152,
+  "end": 391.072,
+  "speaker": "Unknown",
+  "en": "In some cases, it's not.",
+  "zh": "在某些情况下，它不是。"
+ },
+ {
+  "seg": 78,
+  "start": 391.573,
+  "end": 394.094,
+  "speaker": "Unknown",
+  "en": "And again, the context is what matters.",
+  "zh": "再次强调，上下文才是关键。"
+ },
+ {
+  "seg": 79,
+  "start": 394.515,
+  "end": 398.698,
+  "speaker": "Unknown",
+  "en": "Right now, our context is spread all across.",
+  "zh": "现在，我们的上下文散落各处。"
+ },
+ {
+  "seg": 80,
+  "start": 399.218,
+  "end": 407.841,
+  "speaker": "Unknown",
+  "en": "Like, we have AgentsMDs, ClaudeMDs, SkillsMDs, and the thing is that each one of them has, like, different standards.",
+  "zh": "就是说，我们有 AgentsMD、ClaudeMD、SkillsMD，问题是它们每一个都有不同的标准。"
+ },
+ {
+  "seg": 81,
+  "start": 407.941,
+  "end": 412.082,
+  "speaker": "Unknown",
+  "en": "Different organization and sub-organization are dealing with differently.",
+  "zh": "不同的组织和子组织处理方式各不相同。"
+ },
+ {
+  "seg": 82,
+  "start": 412.422,
+  "end": 416.343,
+  "speaker": "Unknown",
+  "en": "Even with a certain team, you might be using that differently.",
+  "zh": "即使在同一个团队里，你也可能在用不同的方式使用它们。"
+ },
+ {
+  "seg": 83,
+  "start": 416.963,
+  "end": 426.791,
+  "speaker": "Unknown",
+  "en": "And you're actually maybe using like the same, one team is using the same agent to do code review and, sorry, coding and code review.",
+  "zh": "而且实际上，你可能——一个团队用同一个智能体来做代码审查，抱歉，是做编码和代码审查。"
+ },
+ {
+  "seg": 84,
+  "start": 427.172,
+  "end": 429.133,
+  "speaker": "Unknown",
+  "en": "The other might be using something else.",
+  "zh": "另一个团队可能用的是别的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 429.694,
+  "end": 434.518,
+  "speaker": "Unknown",
+  "en": "And all of that does not bring you the trust and consistency that you're looking towards.",
+  "zh": "而所有这些都无法给你带来你所期待的信任和一致性。"
+ },
+ {
+  "seg": 86,
+  "start": 435.699,
+  "end": 447.49,
+  "speaker": "Unknown",
+  "en": "By the way, you also might have coding agents that are running in your IDE, but you're probably building the AI factory that running those agents in workflows to automate some of the coding.",
+  "zh": "顺便说一句，你可能还有在 IDE 里运行的编码智能体，但你很可能在构建 AI 工厂，通过工作流运行那些智能体来自动化部分编码工作。"
+ },
+ {
+  "seg": 87,
+  "start": 447.83,
+  "end": 454.316,
+  "speaker": "Unknown",
+  "en": "I see teams that are already having more lines of code being shipped that are not",
+  "zh": "我看到一些团队，已经发布了更多行代码，这些代码不是"
+ },
+ {
+  "seg": 88,
+  "start": 455.057,
+  "end": 457.379,
+  "speaker": "Unknown",
+  "en": "Generated from the CLI or the IDE.",
+  "zh": "从 CLI 或 IDE 生成的。"
+ },
+ {
+  "seg": 89,
+  "start": 457.799,
+  "end": 459.8,
+  "speaker": "Unknown",
+  "en": "So, how do you control all that?",
+  "zh": "那么，你怎么控制这一切？"
+ },
+ {
+  "seg": 90,
+  "start": 459.941,
+  "end": 466.365,
+  "speaker": "Unknown",
+  "en": "Like, that's missing, like, right now, like, in our tools, in our infrastructure.",
+  "zh": "这部分是缺失的，就是现在，在我们的工具里，在我们的基础设施里。"
+ },
+ {
+  "seg": 91,
+  "start": 467.106,
+  "end": 476.913,
+  "speaker": "Unknown",
+  "en": "And let alone if you add those MCPs and RAG-like style context, I don't know if you have, like, great visibility.",
+  "zh": "更别说如果你再加上那些 MCP 和 RAG 风格的上下文，我不确定你是否能有很好的可见性。"
+ },
+ {
+  "seg": 92,
+  "start": 477.733,
+  "end": 479.414,
+  "speaker": "Unknown",
+  "en": "There are ways to tackle that.",
+  "zh": "有办法解决这个问题。"
+ },
+ {
+  "seg": 93,
+  "start": 479.474,
+  "end": 480.694,
+  "speaker": "Unknown",
+  "en": "There's great talks out there.",
+  "zh": "有很多很棒的分享。"
+ },
+ {
+  "seg": 94,
+  "start": 481.094,
+  "end": 489.197,
+  "speaker": "Unknown",
+  "en": "Check how you could have, like, MCP versioning and have data sets for every, like, a benchmark for every MCP change, but that's hard to manage.",
+  "zh": "看看你如何能做 MCP 版本管理，并为每一次 MCP 变更准备数据集，比如基准测试，但这很难管理。"
+ },
+ {
+  "seg": 95,
+  "start": 489.637,
+  "end": 495.478,
+  "speaker": "Unknown",
+  "en": "We're missing, like, a governance layer for us to move to the next level, okay?",
+  "zh": "我们缺少一个治理层，让我们能迈向下一个层级，好吗？"
+ },
+ {
+  "seg": 96,
+  "start": 495.498,
+  "end": 498.579,
+  "speaker": "Unknown",
+  "en": "Like, where we can actually trust the code without human reviewing it.",
+  "zh": "也就是我们能在没有人工审查的情况下真正信任代码的那个层级。"
+ },
+ {
+  "seg": 97,
+  "start": 499.3,
+  "end": 501.28,
+  "speaker": "Unknown",
+  "en": "So, where is that context?",
+  "zh": "那么，那个上下文在哪里？"
+ },
+ {
+  "seg": 98,
+  "start": 501.92,
+  "end": 502.741,
+  "speaker": "Unknown",
+  "en": "Where is that context?",
+  "zh": "那个上下文在哪里？"
+ },
+ {
+  "seg": 99,
+  "start": 502.961,
+  "end": 506.542,
+  "speaker": "Unknown",
+  "en": "Basically, I would say experience, tribal knowledge,",
+  "zh": "基本上，我会说，是经验、部落知识，"
+ },
+ {
+  "seg": 100,
+  "start": 508.19,
+  "end": 511.393,
+  "speaker": "Unknown",
+  "en": "Wisdom of your developers is a lot in their heads.",
+  "zh": "你开发者们的智慧很多都在他们脑子里。"
+ },
+ {
+  "seg": 101,
+  "start": 511.954,
+  "end": 513.675,
+  "speaker": "Unknown",
+  "en": "They are in some documents.",
+  "zh": "有些在文档里。"
+ },
+ {
+  "seg": 102,
+  "start": 513.715,
+  "end": 522.784,
+  "speaker": "Unknown",
+  "en": "There are documents, infrastructure documents, but a lot, by the way, a lot of them are Slacks or Teens or so.",
+  "zh": "是有文档的,基础设施文档,但顺便说一句,很多很多其实是 Slack 或 Teams 之类的。"
+ },
+ {
+  "seg": 103,
+  "start": 522.824,
+  "end": 529.57,
+  "speaker": "Unknown",
+  "en": "The data is there, but a lot of the information are in your developer heads, and we need to codify them.",
+  "zh": "数据就在那里,但很多信息都在你开发者的脑子里,我们需要把它们编纂出来。"
+ },
+ {
+  "seg": 104,
+  "start": 530.631,
+  "end": 530.851,
+  "speaker": "Unknown",
+  "en": "Now,",
+  "zh": "那么,"
+ },
+ {
+  "seg": 105,
+  "start": 533.968,
+  "end": 550.874,
+  "speaker": "Unknown",
+  "en": "I think, like, basically, another thing that I'm saying, like, when I'm saying that we need to codify human knowledge, what we're actually saying is that we're trying to build an interface for agents, an interface for humans, to collaborate each other on that knowledge.",
+  "zh": "我认为,基本上,我在说的另一件事是,当我说我们需要编纂人类知识时,我们实际上在说的是,我们试图构建一个接口,一个供智能体、供人类在那个知识上相互协作的接口。"
+ },
+ {
+  "seg": 106,
+  "start": 551.374,
+  "end": 554.957,
+  "speaker": "Unknown",
+  "en": "And that's a very important point.",
+  "zh": "这是一个非常重要的点。"
+ },
+ {
+  "seg": 107,
+  "start": 555.537,
+  "end": 567.868,
+  "speaker": "Unknown",
+  "en": "When you want to extract that information, the tribal knowledge from your senior developers, et cetera, and codify that, do you codify that only in agent's language?",
+  "zh": "当你想从你的资深开发者等那里提取那些部落知识并编纂时,你是只用智能体的语言来编纂它吗?"
+ },
+ {
+  "seg": 108,
+  "start": 569.429,
+  "end": 572.131,
+  "speaker": "Unknown",
+  "en": "Which is very maybe verbose and structured.",
+  "zh": "那种语言可能非常冗长且结构化。"
+ },
+ {
+  "seg": 109,
+  "start": 572.151,
+  "end": 574.132,
+  "speaker": "Unknown",
+  "en": "Or you want to codify it in a wiki style.",
+  "zh": "还是你想以 wiki 的风格来编纂它。"
+ },
+ {
+  "seg": 110,
+  "start": 575.233,
+  "end": 578.015,
+  "speaker": "Unknown",
+  "en": "Get started and all that, what developers love doing.",
+  "zh": "入门指南之类的,开发者们喜欢做的事。"
+ },
+ {
+  "seg": 111,
+  "start": 578.435,
+  "end": 583.218,
+  "speaker": "Unknown",
+  "en": "And the answer is that you probably need to build your context lake, your context engine.",
+  "zh": "而答案是,你很可能需要构建你的上下文湖、你的上下文引擎。"
+ },
+ {
+  "seg": 112,
+  "start": 583.599,
+  "end": 591.464,
+  "speaker": "Unknown",
+  "en": "As I mentioned, that's the real gold mine here to get the code review automated.",
+  "zh": "正如我提到的,那才是这里真正的金矿,要让代码审查自动化。"
+ },
+ {
+  "seg": 113,
+  "start": 591.884,
+  "end": 593.845,
+  "speaker": "Unknown",
+  "en": "You have to have it fitting for both.",
+  "zh": "你必须让它对两者都适用。"
+ },
+ {
+  "seg": 114,
+  "start": 594.326,
+  "end": 597.488,
+  "speaker": "Unknown",
+  "en": "So, what you're seeing here, for example, is that",
+  "zh": "所以,你在这里看到的,例如,是"
+ },
+ {
+  "seg": 115,
+  "start": 597.928,
+  "end": 609.814,
+  "speaker": "Unknown",
+  "en": "Codo as an example, but you can use other tools, help you collect all the rules and standards that your team own, that your team is using day to day.",
+  "zh": "以 Codo 为例,但你也可以用其他工具,帮你收集你的团队拥有的、你的团队日常使用的所有规则和标准。"
+ },
+ {
+  "seg": 116,
+  "start": 610.374,
+  "end": 616.217,
+  "speaker": "Unknown",
+  "en": "And then it will provide that information during the review for humans.",
+  "zh": "然后它会在审查过程中为人类提供那些信息。"
+ },
+ {
+  "seg": 117,
+  "start": 616.757,
+  "end": 620.279,
+  "speaker": "Unknown",
+  "en": "Hey, notice that Codo used four rules.",
+  "zh": "嘿,注意 Codo 使用了四条规则。"
+ },
+ {
+  "seg": 118,
+  "start": 621.447,
+  "end": 629.849,
+  "speaker": "Unknown",
+  "en": "Sorry, use many rules and four are violated and that includes a link to all the rules that were being used.",
+  "zh": "抱歉,使用了很多条规则,其中四条被违反了,并附带一个指向所有被使用规则的链接。"
+ },
+ {
+  "seg": 119,
+  "start": 629.929,
+  "end": 630.769,
+  "speaker": "Unknown",
+  "en": "That's for human.",
+  "zh": "那是给人类的。"
+ },
+ {
+  "seg": 120,
+  "start": 631.189,
+  "end": 639.81,
+  "speaker": "Unknown",
+  "en": "In order to trust, okay, in order to trust the results that are coming from your code review tool, et cetera, you have to build that interface for human.",
+  "zh": "为了信任,好吧,为了信任来自你的代码审查工具等的结果,你必须为人类构建那个接口。"
+ },
+ {
+  "seg": 121,
+  "start": 640.11,
+  "end": 643.271,
+  "speaker": "Unknown",
+  "en": "You have to accumulate that knowledge and have an interface for human.",
+  "zh": "你必须积累那些知识,并为人类提供一个接口。"
+ },
+ {
+  "seg": 122,
+  "start": 643.671,
+  "end": 648.012,
+  "speaker": "Unknown",
+  "en": "But you also want to have an interface that is dedicated for agents.",
+  "zh": "但你也想要一个专门为智能体准备的接口。"
+ },
+ {
+  "seg": 123,
+  "start": 648.532,
+  "end": 656.036,
+  "speaker": "Unknown",
+  "en": "What you're seeing here, for example, is a comment, for example, by Codo that is speaking to another agent.",
+  "zh": "你在这里看到的,例如,是 Codo 发出的一条评论,它是在对另一个智能体说话。"
+ },
+ {
+  "seg": 124,
+  "start": 656.656,
+  "end": 664.94,
+  "speaker": "Unknown",
+  "en": "Hey, dear agent, Codo just reviewed this PR and has found five different issues.",
+  "zh": "嘿,亲爱的智能体,Codo 刚刚审查了这个 PR,并发现了五个不同的问题。"
+ },
+ {
+  "seg": 125,
+  "start": 665.421,
+  "end": 669.803,
+  "speaker": "Unknown",
+  "en": "Codo already spend, like, some background task.",
+  "zh": "Codo 已经花了,嗯,一些后台任务。"
+ },
+ {
+  "seg": 126,
+  "start": 670.523,
+  "end": 698.897,
+  "speaker": "Unknown",
+  "en": "And use Claude Code, for example, Arnest, in order to do fixes, and there is a closed PR, like you can see here on the top right, there is some closed PR with all the fixes, and now when an agent is coming to review this PR once again, then it has like a cherry-picking moment with everything that all the code that is actually is passing your rules, your standard, and everything, like more architectural decision that we're going to talk about.",
+  "zh": "并使用 Claude Code,例如,Arnest,来做修复,并且有一个已关闭的 PR,就像你在右上角看到的,有一个包含所有修复的已关闭 PR,现在当一个智能体再次来审查这个 PR 时,它就有一个像挑选一样的时刻,所有实际通过你的规则、你的标准的代码,以及更多架构决策,我们接下来会谈到。"
+ },
+ {
+  "seg": 127,
+  "start": 700.478,
+  "end": 718.661,
+  "speaker": "Unknown",
+  "en": "What I said so far is that, just to recap so far, if you want to trust and you want to get to a point where you're trusting the code is being shipped, you need to have the right context that is being gathered and being used during the code review process.",
+  "zh": "我到目前为止所说的是,回顾一下,如果你想信任,想达到一个你信任代码被交付的程度,你需要在代码审查过程中收集并使用正确的上下文。"
+ },
+ {
+  "seg": 128,
+  "start": 719.681,
+  "end": 729.389,
+  "speaker": "Unknown",
+  "en": "Then, you will see that this code review process have links and information for human and have links and information for agents, okay?",
+  "zh": "然后,你会看到这个代码审查过程有给人类的链接和信息,也有给智能体的链接和信息,好吗?"
+ },
+ {
+  "seg": 129,
+  "start": 729.71,
+  "end": 745.263,
+  "speaker": "Unknown",
+  "en": "And when that is in place, you will see that developers are writing less and less comments in the pull request, and then after 100 of these pull requests, there's no more human review, you know that you're ready for automation, okay?",
+  "zh": "而当这些都到位后,你会看到开发者在 pull request 里写的评论越来越少,然后在一百个这样的 pull request 之后,不再有人类审查,你就知道你已经准备好自动化了,好吗?"
+ },
+ {
+  "seg": 130,
+  "start": 745.683,
+  "end": 747.605,
+  "speaker": "Unknown",
+  "en": "Now, back to the context.",
+  "zh": "现在,回到上下文。"
+ },
+ {
+  "seg": 131,
+  "start": 748.666,
+  "end": 751.167,
+  "speaker": "Unknown",
+  "en": "So far, I talked about relatively simple context.",
+  "zh": "到目前为止,我说的是相对简单的上下文。"
+ },
+ {
+  "seg": 132,
+  "start": 751.547,
+  "end": 755.169,
+  "speaker": "Unknown",
+  "en": "I talked about rules and standards and skills.",
+  "zh": "我说了规则、标准和技能。"
+ },
+ {
+  "seg": 133,
+  "start": 755.609,
+  "end": 762.793,
+  "speaker": "Unknown",
+  "en": "But actual, the human knowledge, the tribal knowledge in your organization sits in understanding the system architecture.",
+  "zh": "但实际上,人类知识、你组织里的部落知识,存在于对系统架构的理解中。"
+ },
+ {
+  "seg": 134,
+  "start": 763.738,
+  "end": 776.848,
+  "speaker": "Unknown",
+  "en": "What are the P0s, the bugs that actually made an outage for you, unfortunately, in the last, like, three months or so when a microservice one changed its contract and broke a microservice two, right?",
+  "zh": "哪些是 P0,那些实际上给你造成了宕机的 bug,不幸的是,在过去大概三个月里,当微服务一改变了它的契约并弄坏了微服务二,对吧?"
+ },
+ {
+  "seg": 135,
+  "start": 777.568,
+  "end": 783.813,
+  "speaker": "Unknown",
+  "en": "That does not exist in most code review and, like, if you try to build yourself, it's really hard to build.",
+  "zh": "那在大多数代码审查里是不存在的,而且,如果你试图自己构建,真的很难构建。"
+ },
+ {
+  "seg": 136,
+  "start": 784.373,
+  "end": 789.218,
+  "speaker": "Unknown",
+  "en": "But it is available in some of those code review solutions that is dedicated for that.",
+  "zh": "但它在那些专门为此设计的代码审查解决方案中是可用的。"
+ },
+ {
+  "seg": 137,
+  "start": 789.659,
+  "end": 797.007,
+  "speaker": "Unknown",
+  "en": "For example, what you're seeing here is the graph being built for a certain microservice and all the repos and their connection.",
+  "zh": "例如,你在这里看到的是为某个微服务构建的图,以及所有仓库和它们的连接。"
+ },
+ {
+  "seg": 138,
+  "start": 797.588,
+  "end": 805.597,
+  "speaker": "Unknown",
+  "en": "And in each node, an edge, if it's an edge, what is the contract between two piece of your software?",
+  "zh": "而在每个节点、每条边上,如果它是一条边,你的软件两个部分之间的契约是什么?"
+ },
+ {
+  "seg": 139,
+  "start": 806.077,
+  "end": 815.909,
+  "speaker": "Unknown",
+  "en": "But also links to history of discussions between developers that they had when they fixed an issue because of root code analysis and now you need to codify that.",
+  "zh": "还有指向开发者之间讨论历史的链接,他们因为根因分析而修复了一个问题时的讨论,现在你需要把这些编纂出来。"
+ },
+ {
+  "seg": 140,
+  "start": 817.091,
+  "end": 817.351,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗?"
+ },
+ {
+  "seg": 141,
+  "start": 818.353,
+  "end": 822.117,
+  "speaker": "Unknown",
+  "en": "And when you get to that level of a context engine,",
+  "zh": "而当你达到那个上下文引擎的层次时,"
+ },
+ {
+  "seg": 142,
+  "start": 823.016,
+  "end": 828.7,
+  "speaker": "Unknown",
+  "en": "Now you're ready to start approving and blocking PRs automatically.",
+  "zh": "现在你已经准备好开始自动批准和阻止 PR 了。"
+ },
+ {
+  "seg": 143,
+  "start": 829.421,
+  "end": 839.288,
+  "speaker": "Unknown",
+  "en": "And you want to do that not just by letting AI choose by yourself, rather giving some semantic rules.",
+  "zh": "而你想做这件事,不只是让 AI 自己选择,而是给出一些语义规则。"
+ },
+ {
+  "seg": 144,
+  "start": 840.738,
+  "end": 845.959,
+  "speaker": "Unknown",
+  "en": "That, for example, when do you guys approve or block a PR?",
+  "zh": "比如,你们什么时候会批准或阻止一个 PR?"
+ },
+ {
+  "seg": 145,
+  "start": 846.479,
+  "end": 850.4,
+  "speaker": "Unknown",
+  "en": "And that knowledge also needs to be accumulated as part of your context.",
+  "zh": "而那些知识也需要作为你上下文的一部分被积累起来。"
+ },
+ {
+  "seg": 146,
+  "start": 851.42,
+  "end": 867.144,
+  "speaker": "Unknown",
+  "en": "What I'm actually saying is that software development, at least code governance, is going to change from reviewing your pull request to actually reviewing your entire software development from a graph obstruction.",
+  "zh": "我实际上在说的是,软件开发,至少代码治理,将从审查你的 pull request 转变为从一个图抽象层面审查你的整个软件开发。"
+ },
+ {
+  "seg": 147,
+  "start": 868.388,
+  "end": 881.996,
+  "speaker": "Unknown",
+  "en": "Where you're seeing your PRs as bubbles with all the issues that might happen, even with three different PRs are in on the fly, which contract they might bridge, they might ruin.",
+  "zh": "在那里你把你的 PR 看作气泡,带着所有可能发生的问题,甚至当三个不同的 PR 同时在进行时,它们可能会破坏哪些契约,它们可能会毁掉什么。"
+ },
+ {
+  "seg": 148,
+  "start": 883.977,
+  "end": 884.277,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗?"
+ },
+ {
+  "seg": 149,
+  "start": 884.957,
+  "end": 889.14,
+  "speaker": "Unknown",
+  "en": "And that's how the software development future is gonna look like.",
+  "zh": "而这就是软件开发未来的样子。"
+ },
+ {
+  "seg": 150,
+  "start": 890.267,
+  "end": 894.248,
+  "speaker": "Unknown",
+  "en": "What you need to do in order to get there is to codify your standards.",
+  "zh": "你需要做的，是把你的标准固化下来。"
+ },
+ {
+  "seg": 151,
+  "start": 894.808,
+  "end": 901.07,
+  "speaker": "Unknown",
+  "en": "It needs to be built in a way that humans can trust and audit and control.",
+  "zh": "它必须以人类可以信任、可以审计、可以控制的方式构建。"
+ },
+ {
+  "seg": 152,
+  "start": 901.63,
+  "end": 917.853,
+  "speaker": "Unknown",
+  "en": "You need to build real-time self-learning context, learning from peer history, learning from accepted and unacceptable, learning from discussions between developers, learning from those cases that broke your production.",
+  "zh": "你需要构建实时自学习的上下文，从对等历史中学习，从可接受和不可接受的情况中学习，从开发者之间的讨论中学习，从那些搞坏你生产环境的事件中学习。"
+ },
+ {
+  "seg": 153,
+  "start": 918.334,
+  "end": 919.694,
+  "speaker": "Unknown",
+  "en": "And that context needs to be",
+  "zh": "而那个上下文需要"
+ },
+ {
+  "seg": 154,
+  "start": 920.634,
+  "end": 922.396,
+  "speaker": "Unknown",
+  "en": "It's not just, like, thrown into files.",
+  "zh": "它不只是，比如说，被随手扔进文件里。"
+ },
+ {
+  "seg": 155,
+  "start": 922.476,
+  "end": 929.561,
+  "speaker": "Unknown",
+  "en": "It needs to sit and locate it in a place that agents understand where is that context fitting.",
+  "zh": "它需要被放置和定位在一个智能体能够理解的地方，知道那个上下文适配在哪里。"
+ },
+ {
+  "seg": 156,
+  "start": 930.302,
+  "end": 939.169,
+  "speaker": "Unknown",
+  "en": "And then you need the governance infrastructure that gives you that visibility of what's happening, rather the graph I presented, but there is more to that.",
+  "zh": "然后你需要治理基础设施，给你提供对正在发生的事情的可视性，也就是我展示的那个图，但不止于此。"
+ },
+ {
+  "seg": 157,
+  "start": 939.869,
+  "end": 946.675,
+  "speaker": "Unknown",
+  "en": "Okay, I'm gonna show you very soon another visualization that helps you understand the overall status of your PRs and software.",
+  "zh": "好的，我很快会给你展示另一个可视化，帮助你理解你的 PR 和软件的整体状态。"
+ },
+ {
+  "seg": 158,
+  "start": 947.895,
+  "end": 955.799,
+  "speaker": "Unknown",
+  "en": "If you are already shipping AI-generated code faster than your human can review, I'm actually saying that you are in the problem.",
+  "zh": "如果你已经在以快于人类能审查的速度发布 AI 生成的代码，我要说的是，你正身处问题之中。"
+ },
+ {
+  "seg": 159,
+  "start": 956.28,
+  "end": 957.74,
+  "speaker": "Unknown",
+  "en": "You're not, like, ahead of the problem.",
+  "zh": "你并不是，比如说，领先于问题。"
+ },
+ {
+  "seg": 160,
+  "start": 959.261,
+  "end": 975.27,
+  "speaker": "Unknown",
+  "en": "If you put the infrastructure, if you gather the context, if you start accumulating how code review can be automated for you, then that's where you're gonna get the 10x velocity that you're being promising your CEO or yourself or your developers, because otherwise it's a bottleneck.",
+  "zh": "如果你搭建了基础设施，如果你收集了上下文，如果你开始积累代码审查如何为你自动化的经验，那才是你能获得 10 倍速度的地方，也就是你向你的 CEO 或你自己或你的开发者承诺过的速度，否则它就是一个瓶颈。"
+ },
+ {
+  "seg": 161,
+  "start": 976.31,
+  "end": 993.123,
+  "speaker": "Unknown",
+  "en": "You need to own your rules and standards and codify them and get analytics and statistics about each one of them, how many times they're being caught, which rules and standards and skill is actually being used during the review process, and is it useful or not, or does it need to get an update?",
+  "zh": "你需要拥有你的规则和标准，把它们固化下来，并获得关于每一条的分析和统计，它们被触发了多少次，哪些规则、标准和技能在审查过程中真正被使用了，它是否有用，还是需要更新？"
+ },
+ {
+  "seg": 162,
+  "start": 993.883,
+  "end": 997.885,
+  "speaker": "Unknown",
+  "en": "You need to have full visualization of your software graph.",
+  "zh": "你需要对你的软件图有完整的可视化。"
+ },
+ {
+  "seg": 163,
+  "start": 998.205,
+  "end": 999.045,
+  "speaker": "Unknown",
+  "en": "What is the connection?",
+  "zh": "连接是什么？"
+ },
+ {
+  "seg": 164,
+  "start": 999.085,
+  "end": 1000.006,
+  "speaker": "Unknown",
+  "en": "What are the contracts?",
+  "zh": "契约是什么？"
+ },
+ {
+  "seg": 165,
+  "start": 1000.346,
+  "end": 1001.006,
+  "speaker": "Unknown",
+  "en": "What is working?",
+  "zh": "什么在正常工作？"
+ },
+ {
+  "seg": 166,
+  "start": 1001.026,
+  "end": 1001.866,
+  "speaker": "Unknown",
+  "en": "What is not working?",
+  "zh": "什么没有正常工作？"
+ },
+ {
+  "seg": 167,
+  "start": 1001.986,
+  "end": 1007.329,
+  "speaker": "Unknown",
+  "en": "What are two PRs that are going to crash very soon because they're touching the same edge and they don't know?",
+  "zh": "哪两个 PR 很快会撞车，因为它们在改动同一条边而彼此不知道？"
+ },
+ {
+  "seg": 168,
+  "start": 1008.049,
+  "end": 1012.951,
+  "speaker": "Unknown",
+  "en": "And you need to start learning how to auto-approve and auto-block.",
+  "zh": "而你需要开始学习如何自动批准和自动阻止。"
+ },
+ {
+  "seg": 169,
+  "start": 1013.391,
+  "end": 1015.432,
+  "speaker": "Unknown",
+  "en": "That won't happen immediately.",
+  "zh": "这不会立即发生。"
+ },
+ {
+  "seg": 170,
+  "start": 1015.672,
+  "end": 1021.975,
+  "speaker": "Unknown",
+  "en": "That needs to gradually be automated for you step by step by adding more",
+  "zh": "这需要逐步为你自动化，一步一步地，通过增加更多"
+ },
+ {
+  "seg": 171,
+  "start": 1023.36,
+  "end": 1028.462,
+  "speaker": "Unknown",
+  "en": "Rules for blocking and more rules for approving over time.",
+  "zh": "用于阻止的规则和用于批准的规则，随着时间推移。"
+ },
+ {
+  "seg": 172,
+  "start": 1031.164,
+  "end": 1042.609,
+  "speaker": "Unknown",
+  "en": "So trustworthy automated review, your rules, your standards in your software graph placed in the right edge and the right node of your software.",
+  "zh": "所以，值得信赖的自动化审查，是你的规则、你的标准，放置在你的软件图的正确的边和正确的节点上。"
+ },
+ {
+  "seg": 173,
+  "start": 1043.729,
+  "end": 1049.792,
+  "speaker": "Unknown",
+  "en": "Learning from the tribal knowledge of discussions of history of your software and codifying that.",
+  "zh": "从你的讨论、你的软件历史的部落知识中学习，并将其固化。"
+ },
+ {
+  "seg": 174,
+  "start": 1050.928,
+  "end": 1058.211,
+  "speaker": "Unknown",
+  "en": "There's so much tribal knowledge what to do and not to do, and that needs to be codified as well, both for the agents and for the humans.",
+  "zh": "有太多关于该做什么和不该做什么的部落知识，那些也需要被固化，既为了智能体，也为了人类。"
+ },
+ {
+  "seg": 175,
+  "start": 1058.871,
+  "end": 1063.533,
+  "speaker": "Unknown",
+  "en": "And basically, you need to accumulate that experience and codify that.",
+  "zh": "基本上，你需要积累那些经验并将其固化。"
+ },
+ {
+  "seg": 176,
+  "start": 1064.273,
+  "end": 1071.276,
+  "speaker": "Unknown",
+  "en": "And sorry for the buzz or whatever you want to call it, that's moving from artificial intelligence to artificial wisdom.",
+  "zh": "抱歉说了这个流行词，或者你怎么称呼它都行，那就是从人工智能走向人工智慧。"
+ },
+ {
+  "seg": 177,
+  "start": 1071.976,
+  "end": 1072.877,
+  "speaker": "Unknown",
+  "en": "Because right now...",
+  "zh": "因为现在……"
+ },
+ {
+  "seg": 178,
+  "start": 1073.777,
+  "end": 1079.922,
+  "speaker": "Unknown",
+  "en": "You know better than I that your developer holds the judgment of what's bad and what's good.",
+  "zh": "你比我更清楚，是你的开发者掌握着什么是坏的、什么是好的判断。 [[149-不适用]]"
+ },
+ {
+  "seg": 179,
+  "start": 1079.962,
+  "end": 1082.604,
+  "speaker": "Unknown",
+  "en": "It's not your AI tools.",
+  "zh": "不是你的 AI 工具。"
+ },
+ {
+  "seg": 180,
+  "start": 1083.004,
+  "end": 1095.733,
+  "speaker": "Unknown",
+  "en": "If you want to get to a point where judgment is moving to your AI tools, that's AI wisdom where that experience needs to be codified in the right way, the right place for agents and humans.",
+  "zh": "如果你想达到判断转移到你 AI 工具的那一天，那就是 AI 智慧，那时那些经验需要以正确的方式、在正确的位置被固化，为了智能体和人类。"
+ },
+ {
+  "seg": 181,
+  "start": 1096.934,
+  "end": 1100.537,
+  "speaker": "Unknown",
+  "en": "And that's why we are here, Coda, to help you and our",
+  "zh": "而这就是我们在这里的原因，Coda,来帮助你，还有我们的"
+ },
+ {
+  "seg": 182,
+  "start": 1101.889,
+  "end": 1104.19,
+  "speaker": "Unknown",
+  "en": "Vision and mission is not far away from now.",
+  "zh": "愿景和使命离现在不远了。"
+ },
+ {
+  "seg": 183,
+  "start": 1104.25,
+  "end": 1112.654,
+  "speaker": "Unknown",
+  "en": "We want to reach in 2027 to a place where you have zero outages, zero bugs in production, at least the critical and the high ones.",
+  "zh": "我们想在 2027 年达到一个地方：你拥有零宕机、生产环境中零 bug,至少是关键和高严重性的那些。"
+ },
+ {
+  "seg": 184,
+  "start": 1113.175,
+  "end": 1113.955,
+  "speaker": "Unknown",
+  "en": "That's why we're here.",
+  "zh": "这就是我们在这里的原因。"
+ },
+ {
+  "seg": 185,
+  "start": 1114.635,
+  "end": 1115.856,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me.",
+  "zh": "非常感谢你们邀请我。"
+ }
+]

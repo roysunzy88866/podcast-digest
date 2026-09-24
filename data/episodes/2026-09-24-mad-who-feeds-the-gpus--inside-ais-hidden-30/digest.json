@@ -1,0 +1,238 @@
+{
+  "title_zh": "300亿美元的隐形公司：VastData 要做 AI 时代的操作系统",
+  "tldr": "VastData 创始人兼 CEO Renan Halleck 讲解 AI 数据基础设施：旧技术栈为何全要重做、机密计算如何解开企业用商业模型的死结、需求为何一再超预期。",
+  "digest_md": "这一集聊的是 AI 五层蛋糕里最不性感、却最关键的那一层——软件基础设施(介于硬件与模型之间，给 GPU 喂数据的那层)。主角 Renan Halleck 是 VastData 的创始人兼 CEO,这家公司估值已达 300 亿美元，为 XAI 等顶级 AI 玩家提供数据底座，却因为处在“蛋糕正中间”而不为人知。开场他就甩出一个吓人的数字：一家规模不大的 AI 云客户，一个季度前说未来三年需要 500 PB 存储，上周回来说要在 500 PB 之外再加 2 EB(1 EB = 1000 PB)。他说这种需求加速“有时候让我感到害怕” [00:00 Renan Halleck]。\n\n## AI 工厂：每一层都要重做\n\n主持人 Matt Turk 用 NVIDIA 的 Jensen 提出的五层蛋糕开场：电力、硬件、软件基础设施、模型、应用。Renan 自认就坐在正中间那一层，并称之为“这个新时代的操作系统”。\n\n为什么整层栈要推倒重来？因为旧栈的假设全失效了：过去是 10 千瓦机架，今天要 500 千瓦；过去是 10 千兆以太网加机械硬盘，今天要极快网络加大 SSD;过去分析的是数据库里的数字和列，今天处理的是图片、视频、声音和自然语言——这需要多得多的空间，而且 GPU 无论是训练还是低延迟推理，都要求极快地访问这些数据 [02:57 Renan Halleck]。\n\n他认为 AI 工厂最终不只是大实验室的事，所有企业中期都需要。一旦达到一定规模，自建比租用更划算；而更深一层，他认为企业的知识产权(IP)最终会被“蒸馏”进模型——变成权重。“随着时间推移，所有这些组织的 IP 都将被蒸馏进模型，它将是权重，而他们不一定需要构建基础模型” [06:15 Renan Halleck]。他用人脑类比：我们生来带着基础模型，白天推理、晚上微调，明天比今天聪明一点；同样地，智能体通过强化学习不断微调，每个组织的 IP 就沉淀进自己拥有的权重里，而不是让大模型厂商随时间拥有一切。\n\n## 机密计算：解开“数据不敢出门、权重不敢给”的死结\n\n这个愿景有个现实障碍：企业不想把专有数据、流程、秘方交给 OpenAI/Anthropic 之类，模型厂商也不肯把权重交给你。Renan 认为解法在软件基础设施层执行“双方都不暴露”的信任——这就是他们本周的发布：机密计算(confidential computing)与 Data Enclave。\n\n做法说白了就是加密内存：推理过程不再跑在模型厂商的场所，而是跑在企业自己的机房或虚拟私有云(VPC)里；模型的权重借助 NVIDIA 的硬件能力全程端到端加密——从网络到内存再到 GPU,只有模型厂商自己的推理应用能解开。结果是企业确信没人能看到自己的数据，厂商确信没人能偷走权重。Renan 说底层技术并不新，CPU 上已存在十多年，只是最近 GPU 上也可用了，“这只是一个时机已到的想法” [44:05 Renan Halleck]。\n\n他还有一个更远的概念：智能市场(intelligence marketplace)。假如你的木工机器人是全行业最好的，你应该能把那个“大脑模块”租给别人用一周，到期收回，或者卖掉但对方看不到权重——让企业的技能也能变现。\n\n## 从“没人投的存储公司”到护城河\n\nRenan 小时候痴迷数学，曾花六个月试图证明 P=NP,结论是“我不够聪明”。但他那时就认定：要在他有生之年看到千禧年难题被解，只能靠计算机加速人。2015 年他看到神经网络第一次能识别“视频里有没有猫”——关键不是新算法，而是让神经网络更快访问多得多的数据，于是创立了 VastData,比 Transformer 论文早三年，比 ChatGPT 早近七年。\n\n旧架构叫“无共享”(shared nothing):每个节点负责一块蛋糕，互相协作，但节点一多，节点间通信按平方级增长，韧性也崩——这种系统撑不过一百个节点，而 AI 需要数百万节点。VastData 的架构正好相反：把 SSD 放到网络的另一端，通过 NVMe over Fabrics 之类的高速协议，让所有节点像直连一样看到所有数据——“共享一切”(shared everything),节点之间不需要互相通信。他们有一个客户站点，单集群已做到多个 EB、每秒交付数十 TB。这个架构后来向上长出了数据库(新加坡某客户的摄像头画面要向量化出数万亿向量，市面上没有为万亿行构建的数据库)和计算编排——客户迫使他们意识到，要重做的不只是存储，而是整层。\n\n早期向 VC 推销这家公司“太糟糕了”——存储是全栈最不性感的部分，董事会一直问“部件没造出来怎么办”，他只能回答“我们没有 B 计划”。但塞翁失马：竞争少正是当年的护城河。“这就是我们的护城河——我们是唯一拥有这个架构的公司” [27:04 Renan Halleck]。公司的商业模式也因此受益：卖软件、高毛利，早期拿不到投资被迫自给自足，如今是盈利的，业务大约每两年增长 10 倍。他每天早上只看一张图：客户满意度红黄绿图——任何人都能把客户标黄标红，但移回绿色只有一个标准：客户自己说满意了。公司的总金额留存率接近 100%,没有客户主动流失，现有客户每年数据量翻倍到三倍。\n\n## 数据怎么喂 GPU:训练简单，推理正在变成复杂世界\n\n训练很简单：大量 GPU 喂大量数据，定期存 checkpoint,要的只是规模和速度。推理完全不同：要低延迟(另一端有人在等)、要永远在线——“训练挂了没人注意；推理挂了，就没有服务了” [34:27 Renan Halleck]。要韧性、要分布式、要安全。\n\n再往上叠加就复杂了：多模型时代要按擅长与成本路由 prompt;要重度缓存、保存上下文窗口，把请求路由到不仅加载了正确模型、缓存里还有你上下文的那块 GPU;短期记忆、长期记忆要通过 RAG(检索增强生成，让模型按需查询外部资料)接入；做强化学习时还要追踪哪些信息进了哪个模型的微调，防止通过对话泄露。权限上，他们直接接入企业的身份验证体系(Active Directory、访问控制列表)，再把这些权限扩展到智能体——给智能体分配用户 ID、角色和属性，细粒度地控制它能读什么数据、能调用哪些工具、能和谁对话，所有对话跑在他们提供的持久化流式服务上，可观测、可审计。一旦扩展到汽车、人形机器人、卫星，风险从数据安全升级为物理安全，基础设施必须处在数据路径中，不但报告还要能拦截。\n\n## 需求一再超预期，旧云的午餐正被吃掉\n\n限制因素是物理的：土地、电力、芯片，建晶圆厂太慢，有些 AI 云未来一年半已售罄、停止售卖容量。“据我所知，我们只是处于世界大部分运转建立在 AI 之上的最最初期” [49:45 Renan Halleck]。\n\n对循环交易和债务融资，他的看法是：新技术栈的新生态在供应链某些环节缺流动性，生态内的公司因为看得见、信得过，自然成为出资方。对 NeoCloud(新兴 AI 云)，赢家的画像是：有电力和土地、与硬件厂商关系好、会融资，而且最关键的是**在需求到来之前建设**——你要让终端用户\"off-taker\" immediate 拿到算力，否则他们扭头就走。至于“NeoCloud 只是 NVIDIA GPU 的融资工具、终将被资金成本更低的超大规模云打败”这一流行批评，他说现实恰恰相反——这是创新者的窘境：“当你有一些新东西要建，而你还有一头需要关注的老现金牛时，这比有一些新东西要建却没有那种遗留负担要难得多” [56:04 Renan Halleck]。AI 云每天都在一线实战学习，技能差距只会在扩大；两年前还在说“我们不需要担心这个新东西”的超大规模云，如今已经意识到“自己的午餐正被别人吃掉” [57:18 Renan Halleck]。\n\n主权 AI 方面，他认为 AI 智能会和电力、水一样成为基本需求，国家未必能造每一层，但至少要让它在自己国境和司法管辖之内。价值会沉淀在哪？看历史：硬件相对快地商品化，软件层积累巨量价值(Amazon、Microsoft、Apple、Google 都是历次革命的软件层构建者)，应用层选择性积累；而模型层是人类从未有过的层，难说——而且他观察到模型公司在变应用公司、应用公司又在变模型公司(Cognition、Cursor),这两层也许最终会合并回一层。\n\n与 NVIDIA 的关系也很特别：除了投资，双方没有任何法律文件、没有转售关系，却是最深的伙伴——任意时点都有十几个协作项目、双方各投入三位数开发者，从网络设备到机密计算到下一代 GPU/DPU。同时没有任何排他，AMD 也合作。至于速度，他向 Elon 学到的就是：找到限制因素，消除它，再找下一个。“你必须和人交谈，问他们这个问题，他们知道。作为 CEO,你不知道，但在一线的人知道” [66:01 Renan Halleck]——所以组织要尽可能扁平、人们不怕提出问题，并且“坏事要大声、反复地说，好事要说一次、轻声说” [66:26 Renan Halleck]。\n\n收尾的十年预测：如果 AI 不停滞于人类智能水平并持续超越，还能物理接触这个世界——十年后的变化会超过过去一千年，政府形态、金钱与所有权、生活方式全都会不同。而他给 VastData 定的理想就一句话：全世界所有的数据都由他们管理。\n\n## 本集带走\n\n- **旧存储架构(无共享/分片)撑不过一百个节点**，因为节点间通信按平方级增长；VastData 用“共享一切”架构把介质放到网络另一端，让所有节点像直连一样访问全部数据，才撑得起 AI 级的数万到数百万节点。\n- **机密计算解开了 AI 采用的最大死结**：推理跑在企业自己的环境里，权重端到端加密、只有厂商自己的推理应用能访问——数据不出门、权重不被偷，双方同时放心。\n- **企业的长期 IP 不在数据里，而在权重里**：智能体通过强化学习持续微调，组织独有的经验会蒸馏成自有的模型资产，这也是不该把它全托付给大模型厂商的原因。\n- **训练只要规模和速度，推理才是基础设施的真正考验**：低延迟、100% 在线、按成本与擅长路由模型、缓存上下文、管住智能体权限——每一项都要新的工具层。\n- **找瓶颈的方法**：直接问一线的人，他们知道而 CEO 不知道；组织尽量扁平、不许有拖慢事情的指挥链，坏事大声反复说，好事轻声说一次。",
+  "quotes": [
+    {
+      "en": "We had a customer, one of these AI clouds, they said, we're probably going to need about 500 petabytes over the next three years.",
+      "zh": "我们有一个客户，是那些 AI 云之一，他们说，未来三年我们大概需要 500 PB。",
+      "timestamp": "00:01",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "Over time, I think all of these organizations' IP will be distilled in models. It will be weights.",
+      "zh": "随着时间推移，我认为所有这些组织的 IP 都将被蒸馏进模型，它将是权重。",
+      "timestamp": "06:09",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "We infer during the day, we fine tune at night, and tomorrow we'll be a little bit smarter than we were today.",
+      "zh": "我们白天推理,晚上微调,明天我们会比今天更聪明一点。",
+      "timestamp": "06:29",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "And so for the first time, I think we're at a point today where AI has proven that it can do things that we don't know how to do.",
+      "zh": "所以第一次，我认为我们今天到了一个 AI 已经证明它能做到我们不知道怎么做的事情的节点。",
+      "timestamp": "18:11",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "They were able to recognize which videos had cats in them and which videos did not have cats in them, which was, again, astonishing to me because suddenly we can try to mimic the human brain without really understanding the human brain.",
+      "zh": "它们能够识别哪些视频里有猫、哪些视频里没有猫，这再一次让我震惊，因为突然之间我们可以尝试模仿人脑，而不必真正理解人脑。",
+      "timestamp": "19:41",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "The architectures were built on an assumption that things needed to be fast or big. And here you needed something that was both fast and very, very large.",
+      "zh": "这些架构是建立在一种假设之上：系统要么需要快，要么需要大。而这里你需要的是既快又非常非常大的东西。",
+      "timestamp": "21:04",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "I owe you guys a lot of our success because as hard as it was to pitch storage to VCs, now we're reaping the benefits of having a lot less competition than we otherwise would have had.",
+      "zh": "我们的很大一部分成功要归功于你们，因为虽然向 VC 推销存储很难，但如今我们正在收获好处——竞争对手比本来会有的少得多。",
+      "timestamp": "25:32",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "I kept telling them we don't have a plan B, which they didn't like.",
+      "zh": "我一直告诉他们我们没有 B 计划，他们不喜欢这个说法。",
+      "timestamp": "26:37",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "That's our moat, the fact that we're the only ones with this architecture.",
+      "zh": "这就是我们的护城河——我们是唯一拥有这个架构的公司。",
+      "timestamp": "27:00",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "It's not a hundred percent because a few of our customers have gone out of business over the years, but no one's actively decided I'm going to stop using Vast.",
+      "zh": "不是百分之百，因为这些年有少数客户倒闭了，但没有任何人是主动决定「我要停止使用 Vast」的。",
+      "timestamp": "32:54",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "They set 10,000 agents loose at an age-old math problem and within a few days they came back with the result.",
+      "zh": "他们把一万个智能体放到一个由来已久的数学问题上，几天之内他们就带回了结果。",
+      "timestamp": "41:21",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "Some of these AI clouds have stopped selling more capacity just because they're sold out for the next year and a half.",
+      "zh": "有些 AI 云已经停止售卖更多容量，只因为它们未来一年半都已经售罄了。",
+      "timestamp": "49:01",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "As far as I can tell, we're just at the very, very beginning of most of the world running on AI.",
+      "zh": "据我所知，我们只是处于世界大部分运转建立在 AI 之上的最最初期。",
+      "timestamp": "49:45",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "When you have something new to build and you have this old cash cow to focus on, it's a lot harder than when you have something new to build and you don't have that legacy.",
+      "zh": "当你有一些新东西要建，而你还有一头需要关注的老现金牛时，这比有一些新东西要建却没有那种遗留负担要难得多。",
+      "timestamp": "56:04",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "You find the limiting factor and you get rid of it. And then you find the new limiting factor and you get rid of it.",
+      "zh": "你找到限制因素，然后把它消除。然后你再找到新的限制因素，再把它消除。",
+      "timestamp": "64:33",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "As CEO, you don't know. But the people that are on the ground know.",
+      "zh": "作为 CEO,你不知道，但在一线的人知道。",
+      "timestamp": "65:59",
+      "speaker": "Renen Hallak"
+    },
+    {
+      "en": "Bad things should be stated loudly and often and good things once and softly.",
+      "zh": "坏事要大声、反复地说，好事要说一次、轻声说。",
+      "timestamp": "66:26",
+      "speaker": "Renen Hallak"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:01",
+      "speaker": "Renan Halleck",
+      "en": "We had a customer, one of these AI clouds, they said, we're probably going to need about 500 petabytes over the next three years.",
+      "zh": "我们有一个客户，是那些 AI 云之一，他们说，未来三年我们大概需要 500 PB。"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Renan Halleck",
+      "en": "operating system for this new era.",
+      "zh": "这个新时代的操作系统。"
+    },
+    {
+      "timestamp": "06:15",
+      "speaker": "Renan Halleck",
+      "en": "Over time, I think all of these organizations' IP will be distilled in models. It will be weights.",
+      "zh": "随着时间推移，我认为所有这些组织的 IP 都将被蒸馏进模型，它将是权重。"
+    },
+    {
+      "timestamp": "06:29",
+      "speaker": "Renan Halleck",
+      "en": "We infer during the day, we fine tune at night, and tomorrow we'll be a little bit smarter than we were today.",
+      "zh": "我们白天推理,晚上微调,明天我们会比今天更聪明一点。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Matt Turk",
+      "en": "Because people used to say that about data, but now we're saying this about intelligence, processes and memory and therefore intelligence.",
+      "zh": "因为人们过去对数据是这么说的，但现在我们对智能、流程和记忆这么说，因而也是对智能本身这么说。"
+    },
+    {
+      "timestamp": "18:22",
+      "speaker": "Renan Halleck",
+      "en": "And so for the first time, I think we're at a point today where AI has proven that it can do things that we don't know how to do.",
+      "zh": "所以第一次，我认为我们今天到了一个 AI 已经证明它能做到我们不知道怎么做的事情的节点。"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Renan Halleck",
+      "en": "They were able to recognize which videos had cats in them and which videos did not have cats in them, which was, again, astonishing to me because suddenly we can try to mimic the human brain without really understanding the human brain.",
+      "zh": "它们能够识别哪些视频里有猫、哪些视频里没有猫，这再一次让我震惊，因为突然之间我们可以尝试模仿人脑，而不必真正理解人脑。"
+    },
+    {
+      "timestamp": "21:04",
+      "speaker": "Renan Halleck",
+      "en": "The architectures were built on an assumption that things needed to be fast or big. And here you needed something that was both fast and very, very large.",
+      "zh": "这些架构是建立在一种假设之上：系统要么需要快，要么需要大。而这里你需要的是既快又非常非常大的东西。"
+    },
+    {
+      "timestamp": "25:32",
+      "speaker": "Renan Halleck",
+      "en": "I owe you guys a lot of our success because as hard as it was to pitch storage to VCs, now we're reaping the benefits of having a lot less competition than we otherwise would have had.",
+      "zh": "我们的很大一部分成功要归功于你们，因为虽然向 VC 推销存储很难，但如今我们正在收获好处——竞争对手比本来会有的少得多。"
+    },
+    {
+      "timestamp": "26:37",
+      "speaker": "Renan Halleck",
+      "en": "I kept telling them we don't have a plan B, which they didn't like.",
+      "zh": "我一直告诉他们我们没有 B 计划，他们不喜欢这个说法。"
+    },
+    {
+      "timestamp": "27:04",
+      "speaker": "Renan Halleck",
+      "en": "That's our moat, the fact that we're the only ones with this architecture.",
+      "zh": "这就是我们的护城河——我们是唯一拥有这个架构的公司。"
+    },
+    {
+      "timestamp": "32:54",
+      "speaker": "Renan Halleck",
+      "en": "It's not a hundred percent because a few of our customers have gone out of business over the years, but no one's actively decided I'm going to stop using Vast.",
+      "zh": "不是百分之百，因为这些年有少数客户倒闭了，但没有任何人是主动决定「我要停止使用 Vast」的。"
+    },
+    {
+      "timestamp": "34:27",
+      "speaker": "Renan Halleck",
+      "en": "If inference is down, there is no service.",
+      "zh": "如果推理挂了，就没有服务了。"
+    },
+    {
+      "timestamp": "41:21",
+      "speaker": "Renan Halleck",
+      "en": "They set 10,000 agents loose at an age-old math problem and within a few days they came back with the result.",
+      "zh": "他们把一万个智能体放到一个由来已久的数学问题上，几天之内他们就带回了结果。"
+    },
+    {
+      "timestamp": "49:01",
+      "speaker": "Renan Halleck",
+      "en": "Some of these AI clouds have stopped selling more capacity just because they're sold out for the next year and a half.",
+      "zh": "有些 AI 云已经停止售卖更多容量，只因为它们未来一年半都已经售罄了。"
+    },
+    {
+      "timestamp": "49:45",
+      "speaker": "Renan Halleck",
+      "en": "As far as I can tell, we're just at the very, very beginning of most of the world running on AI.",
+      "zh": "据我所知，我们只是处于世界大部分运转建立在 AI 之上的最最初期。"
+    },
+    {
+      "timestamp": "56:04",
+      "speaker": "Renan Halleck",
+      "en": "When you have something new to build and you have this old cash cow to focus on, it's a lot harder than when you have something new to build and you don't have that legacy.",
+      "zh": "当你有一些新东西要建，而你还有一头需要关注的老现金牛时，这比有一些新东西要建却没有那种遗留负担要难得多。"
+    },
+    {
+      "timestamp": "57:18",
+      "speaker": "Renan Halleck",
+      "en": "And I think they're aware of the fact that their lunch is being eaten by someone else.",
+      "zh": "而且我认为他们意识到了自己的午餐正在被别人吃掉。"
+    },
+    {
+      "timestamp": "64:33",
+      "speaker": "Renan Halleck",
+      "en": "You find the limiting factor and you get rid of it. And then you find the new limiting factor and you get rid of it.",
+      "zh": "你找到限制因素，然后把它消除。然后你再找到新的限制因素，再把它消除。"
+    },
+    {
+      "timestamp": "66:01",
+      "speaker": "Renan Halleck",
+      "en": "As CEO, you don't know. But the people that are on the ground know.",
+      "zh": "作为 CEO,你不知道，但在一线的人知道。"
+    },
+    {
+      "timestamp": "66:26",
+      "speaker": "Renan Halleck",
+      "en": "Bad things should be stated loudly and often and good things once and softly.",
+      "zh": "坏事要大声、反复地说，好事要说一次、轻声说。"
+    }
+  ],
+  "voice_script": "今天聊一个人、一家公司，和 AI 这块大蛋糕里最不起眼、却最要命的那一层。人叫 Renan Halleck,是 VastData 的创始人兼 CEO。这家公司做的是数据基础设施，说白了就是给 GPU 喂数据的那层软件，估值已经到了 300 亿美元，XAI 这样的顶级玩家都是客户。但因为处在整个技术栈的正中间，这家公司外面几乎没人知道。开场 Renan 就甩出一个吓人的数字：一家规模不大的 AI 云客户，一个季度前说未来三年需要 500 PB 存储，上周回来说，除了这 500 PB,还要再加 2 EB——一个 EB 等于一千个 PB。用 Renan 自己的话说，这种需求加速，有时候让他感到害怕。\n\n那为什么这一层非得重做不可？主持人 Matt Turk 用 NVIDIA 的 Jensen 提出的五层蛋糕来开场：电力、硬件、软件基础设施、模型、应用，Renan 自认就坐在正中间那一层，还把它叫作\"AI 时代的操作系统\"。理由很简单：旧技术栈的假设全失效了。过去一个机架 10 千瓦，今天要 500 千瓦；过去靠 10 千兆以太网加机械硬盘，今天要极快的网络加大 SSD;过去分析的是数据库里的数字，今天处理的是图片、视频、声音和自然语言，占的空间大得多，而且 GPU 不管训练还是推理，都要求极快地碰到这些数据。这些老架构建立在一种假设上：系统要么快，要么大。而 AI 需要的，是既快又非常非常大的东西。\n\n再往深一层看，Renan 认为 AI 工厂不只是大实验室的事，所有企业中期都需要，因为企业的知识产权最终会被蒸馏进模型，变成权重。打了个比方：我们生来带着基础模型，白天推理，晚上微调，明天会比今天更聪明一点。智能体也一样，通过强化学习不断微调，组织独有的经验就沉淀进自己拥有的权重里，而不是全交给大模型厂商。\n\n但这个愿景有个死结：企业不敢把专有数据、秘方交给 OpenAI、Anthropic 这些厂商，厂商也不肯把权重交给你。解法呢，就在基础设施层做\"双方都不暴露\"的信任，这就是本周发布的机密计算。说白了就是加密内存：推理不再跑在厂商那边，而是跑在企业自己的机房里，模型的权重借助 NVIDIA 的硬件能力，从网络到内存再到 GPU 全程加密，只有厂商自己的推理应用能解开。企业确信没人能看到自己的数据，厂商确信没人能偷走权重。底层技术其实不新，CPU 上已经存在十多年，只是最近 GPU 上也可用了，用 Renan 的话说，这是一个时机已到的想法。\n\n这家公司的起点也值得一提。2015 年，Renan 第一次看到神经网络能识别视频里有没有猫——关键不是新算法，而是让网络更快地访问多得多的数据。于是创立了 VastData,比 Transformer 论文早三年，比 ChatGPT 早近七年。旧存储架构叫无共享，每个节点管一块，节点一多，通信量按平方级暴涨，撑不过一百个节点，而 AI 需要数百万节点。VastData 反过来做共享一切：把 SSD 放到网络另一端，用高速协议让所有节点像直连一样看到全部数据，节点之间根本不用互相通信。这个架构后来又长出了数据库和计算编排——是客户逼着他们意识到，要重做的不只是存储，而是整层。早期融资推销得非常糟糕，存储是全栈最不性感的部分，董事会一直问部件没造出来怎么办，只能回答我们没有 B 计划。但塞翁失马，竞争少恰恰成了护城河，如今公司盈利，业务大约每两年增长 10 倍。\n\n需求端为什么这么疯？限制因素是物理的：土地、电力、芯片，建晶圆厂太慢，有些 AI 云未来一年半已经售罄。而对超大规模云会被 AI 云取代的流行批评，Renan 的回答是创新者的窘境：当你有一头需要照顾的老现金牛，再建新东西，比没有遗留负担要难得多。超大规模云两年前还说不用担心这个新东西，如今已经意识到，自己的午餐正被别人吃掉。\n\n至于 AI 本身会走多远，收尾给了一个十年预测：如果 AI 不停滞于人类智能水平，还能物理接触这个世界，那么未来十年的变化，会超过过去一千年。而第一次，我们到了一个 AI 已经证明它能做到我们不知道怎么做的事情的节点。"
+}

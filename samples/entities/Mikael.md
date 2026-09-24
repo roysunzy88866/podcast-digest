@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":18,"Hermes":2,"智能体":301,"知识图谱":4,"向量数据库":3,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":18,"Hermes":2,"智能体":304,"知识图谱":4,"向量数据库":3,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

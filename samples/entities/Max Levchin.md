@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":301}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":304}</script>
 
 <script>
 (function(){

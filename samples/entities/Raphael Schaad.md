@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":18,"智能体":301,"Codex":55,"Claude Code":70,"MCP":51,"提示注入":1,"CLI":2,"护城河":12,"Discord":5}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":18,"智能体":304,"Codex":55,"Claude Code":71,"MCP":51,"提示注入":1,"CLI":2,"护城河":12,"Discord":5}</script>
 
 <script>
 (function(){

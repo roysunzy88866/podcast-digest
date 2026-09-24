@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":55,"智能体":301,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":35,"Vercel":17,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":55,"智能体":304,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":35,"Vercel":17,"Cognition":18}</script>
 
 <script>
 (function(){

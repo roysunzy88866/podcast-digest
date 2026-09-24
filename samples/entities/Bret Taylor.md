@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":6,"智能体":301,"基于结果的定价":4,"应用 AI":1,"前沿模型":20,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":51}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":6,"智能体":304,"基于结果的定价":4,"应用 AI":1,"前沿模型":20,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":51}</script>
 
 <script>
 (function(){

@@ -1,0 +1,698 @@
+{
+  "episode_id": "2026-08-20-talks-the-last-human-code-review-building-trus",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 编程",
+    "代码审查",
+    "代码治理",
+    "上下文工程",
+    "部落知识"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "itamar-friedman",
+      "type": "person",
+      "role": "guest",
+      "name": "Itamar Friedman",
+      "file": "Itamar Friedman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "codo",
+      "type": "company",
+      "role": "company",
+      "name": "Codo",
+      "file": "Codo",
+      "primary": true,
+      "how_described": "讲者是该公司联合创始人兼 CEO，Codo 代表 Quality of Development Optimization（开发质量优化），本集介绍为一个理解团队代码库、部落知识与最佳实践的代码治理、代码审查平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            65.939,
+            68.461
+          ],
+          "quote": "So, I'm Inamor Friedman, the CEO and co-founder of Codo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            69.342,
+            73.966
+          ],
+          "quote": "I don't share too much, but Codo stands for Quality of Development Optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            597.928,
+            609.814
+          ],
+          "quote": "Codo as an example, but you can use other tools, help you collect all the rules and standards that your team own, that your team is using day to day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            616.757,
+            620.279
+          ],
+          "quote": "Hey, notice that Codo used four rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            648.532,
+            656.036
+          ],
+          "quote": "What you're seeing here, for example, is a comment, for example, by Codo that is speaking to another agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            656.656,
+            664.94
+          ],
+          "quote": "Hey, dear agent, Codo just reviewed this PR and has found five different issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            665.421,
+            669.803
+          ],
+          "quote": "Codo already spend, like, some background task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集主线：人类逐行审 PR 的时代正在终结，代码审查有验证与对齐学习两大目的，自动化的前提是先补齐上下文和治理层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            51.827,
+            59.734
+          ],
+          "quote": "Code review, verifying that the code work according to your intent, according to your architecture, standards, best practices, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            79.511,
+            92.48
+          ],
+          "quote": "Have a code governance, code review platform that understand your code base, your tribal knowledge, your best practices, and that does not come off the shelf from the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            101.046,
+            107.39
+          ],
+          "quote": "So, I'm going to talk about the last human code review and what do we need to do in order to get there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            114.953,
+            122.056
+          ],
+          "quote": "So, I think, like, first of all, we need to agree on why do we have code review at all?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            155.762,
+            158.784
+          ],
+          "quote": "And then, that's what you need to think if you're trying to automate a code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            162.946,
+            170.71
+          ],
+          "quote": "And if this is the right place, the code review process, the pull request process, is that the right place to still doing these two things?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            187.498,
+            188.999
+          ],
+          "quote": "Is human code review",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            303.724,
+            315.874
+          ],
+          "quote": "Because that will lead you to different milestones or different tools that you need to use in order to get that confidence that you can skip over a human review in the pull request and the code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            335.865,
+            348.99
+          ],
+          "quote": "Basically, the models are improving, but I'm telling you, I just came from one of the leading labs where we are inspecting how benchmarks for code review did not change a lot throughout the latest model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            416.963,
+            426.791
+          ],
+          "quote": "And you're actually maybe using like the same, one team is using the same agent to do code review and, sorry, coding and code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            583.599,
+            591.464
+          ],
+          "quote": "As I mentioned, that's the real gold mine here to get the code review automated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            631.189,
+            639.81
+          ],
+          "quote": "In order to trust, okay, in order to trust the results that are coming from your code review tool, et cetera, you have to build that interface for human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            700.478,
+            718.661
+          ],
+          "quote": "What I said so far is that, just to recap so far, if you want to trust and you want to get to a point where you're trusting the code is being shipped, you need to have the right context that is being gathered and being used during the code review process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            719.681,
+            729.389
+          ],
+          "quote": "Then, you will see that this code review process have links and information for human and have links and information for agents, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            777.568,
+            783.813
+          ],
+          "quote": "That does not exist in most code review and, like, if you try to build yourself, it's really hard to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            784.373,
+            789.218
+          ],
+          "quote": "But it is available in some of those code review solutions that is dedicated for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            959.261,
+            975.27
+          ],
+          "quote": "If you put the infrastructure, if you gather the context, if you start accumulating how code review can be automated for you, then that's where you're gonna get the 10x velocity that you're being promising your CEO or yourself or your developers, because otherwise it's a bottleneck.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集核心主张：模型已不是瓶颈，代码审查基准在最新模型上几乎没有提升；给模型正确上下文它就能推理出该暴露哪些问题，不给上下文再好的模型也只会给泛泛意见",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            350.091,
+            352.852
+          ],
+          "quote": "The key here is actually context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            354.053,
+            368.981
+          ],
+          "quote": "Like, the models, if you give them the right context, and what is that right context we're gonna talk about, they could already reason pretty well over what are the issues that we need to surface for a certain change in the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            369.977,
+            376.362
+          ],
+          "quote": "Otherwise, if you don't have the context, even the best model out there, they will give you different types of bugs and issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            391.573,
+            394.094
+          ],
+          "quote": "And again, the context is what matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            394.515,
+            398.698
+          ],
+          "quote": "Right now, our context is spread all across.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            467.106,
+            476.913
+          ],
+          "quote": "And let alone if you add those MCPs and RAG-like style context, I don't know if you have, like, great visibility.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            499.3,
+            501.28
+          ],
+          "quote": "So, where is that context?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            501.92,
+            502.741
+          ],
+          "quote": "Where is that context?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            578.435,
+            583.218
+          ],
+          "quote": "And the answer is that you probably need to build your context lake, your context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            700.478,
+            718.661
+          ],
+          "quote": "What I said so far is that, just to recap so far, if you want to trust and you want to get to a point where you're trusting the code is being shipped, you need to have the right context that is being gathered and being used during the code review process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            745.683,
+            747.605
+          ],
+          "quote": "Now, back to the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            748.666,
+            751.167
+          ],
+          "quote": "So far, I talked about relatively simple context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            818.353,
+            822.117
+          ],
+          "quote": "And when you get to that level of a context engine,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            846.479,
+            850.4
+          ],
+          "quote": "And that knowledge also needs to be accumulated as part of your context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            901.63,
+            917.853
+          ],
+          "quote": "You need to build real-time self-learning context, learning from peer history, learning from accepted and unacceptable, learning from discussions between developers, learning from those cases that broke your production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            918.334,
+            919.694
+          ],
+          "quote": "And that context needs to be",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            922.476,
+            929.561
+          ],
+          "quote": "It needs to sit and locate it in a place that agents understand where is that context fitting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            959.261,
+            975.27
+          ],
+          "quote": "If you put the infrastructure, if you gather the context, if you start accumulating how code review can be automated for you, then that's where you're gonna get the 10x velocity that you're being promising your CEO or yourself or your developers, because otherwise it's a bottleneck.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tribal-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "部落知识 (tribal knowledge)",
+      "file": "部落知识",
+      "primary": true,
+      "how_described": "本集说它是自动化代码审查的真正金矿：开发者脑中的经验、Slack/Teams 里的讨论、造成宕机的 P0 事故，需要编纂成人和智能体都能用的形式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            79.511,
+            92.48
+          ],
+          "quote": "Have a code governance, code review platform that understand your code base, your tribal knowledge, your best practices, and that does not come off the shelf from the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            502.961,
+            506.542
+          ],
+          "quote": "Basically, I would say experience, tribal knowledge,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            555.537,
+            567.868
+          ],
+          "quote": "When you want to extract that information, the tribal knowledge from your senior developers, et cetera, and codify that, do you codify that only in agent's language?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            755.609,
+            762.793
+          ],
+          "quote": "But actual, the human knowledge, the tribal knowledge in your organization sits in understanding the system architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1043.729,
+            1049.792
+          ],
+          "quote": "Learning from the tribal knowledge of discussions of history of your software and codifying that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1050.928,
+            1058.211
+          ],
+          "quote": "There's so much tribal knowledge what to do and not to do, and that needs to be codified as well, both for the agents and for the humans.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎 (context engine)",
+      "file": "上下文引擎",
+      "primary": true,
+      "how_described": "本集提出要构建同时服务人类和智能体的上下文湖/上下文引擎，把规则、标准、系统架构理解都积累在智能体能定位的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            578.435,
+            583.218
+          ],
+          "quote": "And the answer is that you probably need to build your context lake, your context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            818.353,
+            822.117
+          ],
+          "quote": "And when you get to that level of a context engine,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件图 (software graph)",
+      "file": "软件图",
+      "primary": true,
+      "how_described": "本集描述为微服务间每个节点、每条边上的契约及历史踩坑记录构成的图；有了它才能看出哪些 PR 会撞坏契约，从图上审查整个软件开发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            993.883,
+            997.885
+          ],
+          "quote": "You need to have full visualization of your software graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1031.164,
+            1042.609
+          ],
+          "quote": "So trustworthy automated review, your rules, your standards in your software graph placed in the right edge and the right node of your software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论工作流中运行、生成大量代码的编码智能体，以及给智能体专用的机器可读接口——如一条评论直接对另一个智能体说问题已修复、PR 已通过全部规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            416.963,
+            426.791
+          ],
+          "quote": "And you're actually maybe using like the same, one team is using the same agent to do code review and, sorry, coding and code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            555.537,
+            567.868
+          ],
+          "quote": "When you want to extract that information, the tribal knowledge from your senior developers, et cetera, and codify that, do you codify that only in agent's language?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            648.532,
+            656.036
+          ],
+          "quote": "What you're seeing here, for example, is a comment, for example, by Codo that is speaking to another agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            656.656,
+            664.94
+          ],
+          "quote": "Hey, dear agent, Codo just reviewed this PR and has found five different issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            670.523,
+            698.897
+          ],
+          "quote": "And use Claude Code, for example, Arnest, in order to do fixes, and there is a closed PR, like you can see here on the top right, there is some closed PR with all the fixes, and now when an agent is coming to review this PR once again, then it has like a cherry-picking moment with everything that all the code that is actually is passing your rules, your standard, and everything, like more architectural decision that we're going to talk about.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码治理 (code governance)",
+      "file": "代码治理",
+      "primary": true,
+      "how_described": "本集主张软件开发正从审查一个个 pull request 转变为从图抽象层面审查整个软件开发，需要人类可信任、可审计、可控制的治理基础设施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            79.511,
+            92.48
+          ],
+          "quote": "Have a code governance, code review platform that understand your code base, your tribal knowledge, your best practices, and that does not come off the shelf from the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            851.42,
+            867.144
+          ],
+          "quote": "What I'm actually saying is that software development, at least code governance, is going to change from reviewing your pull request to actually reviewing your entire software development from a graph obstruction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-rules",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义规则 (semantic rules)",
+      "file": "语义规则",
+      "primary": true,
+      "how_described": "本集说自动批准和自动阻止 PR 不靠 AI 自己拍板，而是由人类给出语义规则，且这些判断标准本身要作为上下文积累并做统计分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            829.421,
+            839.288
+          ],
+          "quote": "And you want to do that not just by letting AI choose by yourself, rather giving some semantic rules.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集在演示 Codo 的修复流程时顺带提到用它来执行修复并生成已关闭的修复 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            670.523,
+            698.897
+          ],
+          "quote": "And use Claude Code, for example, Arnest, in order to do fixes, and there is a closed PR, like you can see here on the top right, there is some closed PR with all the fixes, and now when an agent is coming to review this PR once again, then it has like a cherry-picking moment with everything that all the code that is actually is passing your rules, your standard, and everything, like more architectural decision that we're going to talk about.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

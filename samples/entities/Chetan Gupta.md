@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"Rackspace":2,"Hitachi":2,"Anthropic":134,"Hugging Face":22,"工业 AI":3,"物理 AI":8,"LLM":41,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"Rackspace":2,"Hitachi":2,"Anthropic":135,"Hugging Face":22,"工业 AI":3,"物理 AI":8,"LLM":41,"生成式 AI":2}</script>
 
 <script>
 (function(){

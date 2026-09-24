@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]]
+[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":3,"Claude Code":70,"Codex":55,"ChatGPT":76,"Notion":13,"Slack":27,"Whisper":2,"Cursor":66,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":3,"Claude Code":71,"Codex":55,"ChatGPT":76,"Notion":13,"Slack":27,"Whisper":2,"Cursor":66,"Optimizely":2}</script>
 
 <script>
 (function(){

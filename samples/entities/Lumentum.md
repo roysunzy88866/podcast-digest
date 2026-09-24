@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael]] · [[Molly]] · [[光纤]] · [[数据中心]] · [[纵向扩展]] · [[磷化铟]] · [[激光]] · [[超大规模云厂商]] · [[TSMC]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Michael":1,"Molly":2,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":42}</script>
+<script type="application/json" class="pd-epn">{"Michael":1,"Molly":2,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":44}</script>
 
 <script>
 (function(){
