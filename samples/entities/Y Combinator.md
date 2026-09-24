@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[GoCardless]] · [[Blake Scholl]] · [[Ali Haghani]] · [[Max Junestrand]] · [[Brex]] · [[Boom]] · [[Circleback]] · [[Legora]]
 
-<script type="application/json" class="pd-epn">{"智能体":295,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Max Junestrand":1,"Brex":5,"Boom":2,"Circleback":2,"Legora":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":297,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Max Junestrand":1,"Brex":5,"Boom":2,"Circleback":2,"Legora":2}</script>
 
 <script>
 (function(){

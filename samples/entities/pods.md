@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Adam Mosseri]] · [[Instagram]] · [[TikTok]] · [[Anthropic]] · [[Facebook]] · [[open ai]] · [[Twitter]] · [[Reels]] · [[Stories]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Adam Mosseri":1,"Instagram":4,"TikTok":5,"Anthropic":132,"Facebook":15,"open ai":2,"Twitter":7,"Reels":2,"Stories":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Adam Mosseri":1,"Instagram":4,"TikTok":5,"Anthropic":133,"Facebook":15,"open ai":2,"Twitter":7,"Reels":2,"Stories":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>39</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>40</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(03:27起):本集说 LLM 里的解决方案都是已有的方案，当遇到全新问题时模型能帮你加速想但不能完全替你解决
 - **[[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|《下一代游戏引擎不会有使用手册》]]**(07:19起):本集反复谈：有强大的 LLM 但若用引擎/代码的词汇提问它就会失控乱来、重复造轮子；Nereu 主要靠 LLM 驱动，且要把整个场景的上下文按细节层级分级喂给它以免爆炸
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(22:38起):本集说 LLM 不仅仅是生成媒体的工具，它本身就是一种全新的叙事媒介（new medium for storytelling），就像收音机、电影刚出现时一样，还没人知道什么形式会行得通。
+- **[[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]]**(13:49起):被讨论为智能体执行者：吞得下海量上下文而人不行；不是确定性的，使 evals 难做
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(10:26起):本集提到在 Cursor 中不是所有任务都需要最新的 LLM 模型，可以按需挑选不同模型来执行。
 - **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(10:40起):本集说持续拥有处理风险会议逐字稿的 LLM，帮助记忆、提供洞察并起到一定预测作用；最终目标是把所有部门生成的文本跟数值数据打通
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(01:50起):本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题
@@ -53,7 +54,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*31 条*
+*33 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -95,6 +96,10 @@ unlisted: true
 
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q3]]
 
+![[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea#^q2]]
+
+![[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea#^q4]]
+
 ![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q6]]
 
 ![[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#^q5]]
@@ -119,7 +124,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*39 集*
+*40 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -145,6 +150,7 @@ unlisted: true
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
 - [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|《下一代游戏引擎不会有使用手册》]] — 作为概念
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念
+- [[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]] — 作为概念(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念(提及)
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为概念
@@ -167,7 +173,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[MCP]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":295,"Anthropic":132,"ChatGPT":76,"Lenny":67,"Claude":62,"OpenAI":125,"Claude Code":68,"Google":47,"MCP":49,"Cursor":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":297,"Anthropic":133,"ChatGPT":76,"Lenny":67,"Claude":62,"OpenAI":125,"Claude Code":68,"Google":47,"MCP":49,"Cursor":65}</script>
 
 <script>
 (function(){

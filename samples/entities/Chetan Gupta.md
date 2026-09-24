@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Chris Benson":8,"Rackspace":2,"Hitachi":2,"Anthropic":132,"Hugging Face":22,"工业 AI":3,"物理 AI":8,"LLM":39,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"Chris Benson":8,"Rackspace":2,"Hitachi":2,"Anthropic":133,"Hugging Face":22,"工业 AI":3,"物理 AI":8,"LLM":40,"生成式 AI":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,580 @@
+{
+  "episode_id": "2026-08-19-talks-from-ambient-documentation-to-clinical-i",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "AI 智能体",
+    "医疗 AI",
+    "评估",
+    "前沿模型",
+    "创业公司故事"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "chaitanya-asawa",
+      "type": "person",
+      "role": "guest",
+      "name": "Chaitanya Asawa",
+      "file": "Chaitanya Asawa",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "abridge",
+      "type": "company",
+      "role": "company",
+      "name": "Abridge",
+      "file": "Abridge",
+      "primary": true,
+      "how_described": "本集主讲公司:从临床文档切入、两三年内进入美国 300 家最大医疗系统(含 Kaiser、Mayo、Johns Hopkins、Sutter),核心论点是医疗一切环节都围绕医生与患者的对话展开,要把行政部分自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            40.787,
+            45.371
+          ],
+          "quote": "I'm gonna let you hear actually from our users to start off on a little about Abridge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            568.325,
+            574.827
+          ],
+          "quote": "We've been building a solution that allows the physician to interact with Abridge directly by using their voice.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            575.507,
+            576.047
+          ],
+          "quote": "Hi, Abridge.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            581.28,
+            583.261
+          ],
+          "quote": "He may be eligible for the ABRIDGE-HF study.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            598.311,
+            605.015
+          ],
+          "quote": "And then when I'm done for the day, I can just ask ABRIDGE, hey ABRIDGE, can you prepare my charts for tomorrow?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 114,
+          "t": [
+            606.316,
+            608.017
+          ],
+          "quote": "And ABRIDGE is working for me.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1263.121,
+            1269.564
+          ],
+          "quote": "Well, Abridge has proven this at scale, for sure, and hopefully I gave you a taste of some of the frontier problems that we work on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "glean",
+      "type": "company",
+      "role": "company",
+      "name": "Glean",
+      "file": "Glean",
+      "primary": false,
+      "how_described": "本集被提及为嘉宾此前任职的企业搜索公司,被他描述为「打造你工作场所的 ChatGPT」,他见证它从 10 人长到 1100 多人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            199.536,
+            207.217
+          ],
+          "quote": "Then I started working at this company called Glean because I faced this problem in my workplace itself, how information scattered all over the place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            210.298,
+            212.818
+          ],
+          "quote": "And Glean was building basically the ChatGPT for your workplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            711.34,
+            715.864
+          ],
+          "quote": "When I used to work at Glean, while I love that product, I could be wrong, and it would have been fine.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vicarious",
+      "type": "company",
+      "role": "company",
+      "name": "Vicarious",
+      "file": "Vicarious",
+      "primary": false,
+      "how_described": "本集被提及为嘉宾职业生涯起点的公司,目标开发 AGI,但走神经科学与概率图模型启发的方法、做机器人方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            184.083,
+            191.63
+          ],
+          "quote": "I first started in research engineering at a company called Vicarious, which his goal was actually to develop AGI, but they took very different methods.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复以「智能体产品」框架展开:任何智能体产品都逃不开质量、延迟、成本三个 KPI,而医疗在三者上都是困难模式;嘉宾领导 Abridge 的智能体体验团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            313.468,
+            323.719
+          ],
+          "quote": "I specifically work on, lead our engineering teams for clinical decision support and our agentic experiences that the technology is now enabled and how we can bring that to healthcare.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            687.173,
+            697.078
+          ],
+          "quote": "So if you've ever worked on a agentic product before, regardless of vertical, the three KPIs that tend to matter are quality and latency and cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            756.482,
+            762.188
+          ],
+          "quote": "And it actually, I think it's funny that it really maps to the three KPIs that you care about in any agentic product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "clinical-decision-support",
+      "type": "concept",
+      "role": "concept",
+      "name": "临床决策支持 (clinical decision support)",
+      "file": "临床决策支持",
+      "primary": true,
+      "how_described": "本集嘉宾负责的产品主线:结合 EHR 数据、医患实时对话与医学文献/临床指南回答医生问题,属于高风险的前沿 AI 问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            313.468,
+            323.719
+          ],
+          "quote": "I specifically work on, lead our engineering teams for clinical decision support and our agentic experiences that the technology is now enabled and how we can bring that to healthcare.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            527.393,
+            537.18
+          ],
+          "quote": "Everything else is downstream of that, whether it relates to billing, whether it relates to things like clinical trial matching, or whether it relates to clinical decision support.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            702.932,
+            706.395
+          ],
+          "quote": "This is a high-stakes scenario, especially when you're doing something like clinical decision support.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            777.794,
+            787.637
+          ],
+          "quote": "Before we develop any product, whether we're talking about clinical trial matching, clinical note, clinical decision support, coding, we start with a robust set of internal benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            885.298,
+            889.402
+          ],
+          "quote": "I want to deep dive into the product that I work on, which is clinical decision support.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            890.543,
+            898.111
+          ],
+          "quote": "So to give you an example of what clinical decision support looks like, and specifically, we're building something novel, which is contextual clinical decision support.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把 evals 说成「操作系统、公司的命脉」:先建内部基准做离线评估,再走 alpha→beta→A/B→持续监控的分阶段推出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            767.932,
+            773.533
+          ],
+          "quote": "For us, we really treat evals as the operating system, the life's blood of the company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lm-judges",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 评委 (LM judges)",
+      "file": "LLM 评委",
+      "primary": true,
+      "how_described": "本集说他们的做法是把临床医生的判断编码进专家校准的 LM judges,形成反馈闭环,让非医生的工程师也能快速迭代爬山;还包括临床安全 judge、边界与对抗 judge 等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            827.975,
+            832.079
+          ],
+          "quote": "How we do this is we always have expert calibrated LM judges.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            839.846,
+            847.473
+          ],
+          "quote": "So how can the rest of the company still move fast is by encoding that clinician judgment into LM judges.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rubric",
+      "type": "concept",
+      "role": "concept",
+      "name": "评分细则 (rubric)",
+      "file": "评分细则",
+      "primary": true,
+      "how_described": "本集说为绕开「生成器-验证器差距小」的死结,让相互独立的医生各自制定 rubric(列出好回答应包含的要素)、再由另一位医生仲裁、第四位临床医生做 QA,LLM 评委据此做语义匹配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1029.164,
+            1031.445
+          ],
+          "quote": "We had independent physicians create a rubric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1031.725,
+            1034.846
+          ],
+          "quote": "So this rubric said elements of what we wanted in the response.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1035.067,
+            1042.569
+          ],
+          "quote": "So it's not here's the exact response because, again, there's many infinite possible responses, but a good rubric elements that what a good response would look like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1042.95,
+            1051.313
+          ],
+          "quote": "And then we had a separate physician that actually adjudicated it, brought these two independent rubrics together, created a final rubric, and we actually had a fourth clinician do QA on these rubrics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1052.287,
+            1055.108
+          ],
+          "quote": "Once you have these rubrics, and here's a sample rubric what it looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1058.69,
+            1061.191
+          ],
+          "quote": "You have a rubric of what are the elements that a response should look like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1061.871,
+            1077.377
+          ],
+          "quote": "Now we can actually have an LLM judge that compares our agents' responses to these rubric elements and does some basic semantic match to tell, hey, is our model performing well as we continue to hill climb whether it's our agent architecture, our models, or search ranking algorithms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-train",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-train)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说他们不是每个问题都用基础模型,而是把问题分解成更小的工作流,针对不同问题甚至病历不同章节后训练更小的模型,大幅降成本与延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1132.424,
+            1140.106
+          ],
+          "quote": "So we actually post-train a lot of smaller models for different problems, such as different actually even to the granularity of different sections in the clinical node.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集提出「制胜权」逻辑:拥有前沿实验室没有的数据、聚焦他们没聚焦的问题,就可能跑赢前沿模型的变化速度;质量已到顶的任务则训模型只为降本降延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1167.905,
+            1172.629
+          ],
+          "quote": "But there are other problems where the quality isn't maxed out and people say, oh, the frontier model would just steamroll you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1173.07,
+            1185.161
+          ],
+          "quote": "Our key insight is we can actually potentially beat the rate of change on the frontier model if we have the right to win by having the right data that they may not have and the focus on a problem that they may not be focusing on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "clinical-note",
+      "type": "concept",
+      "role": "concept",
+      "name": "临床记录 (clinical note)",
+      "file": "临床记录",
+      "primary": true,
+      "how_described": "本集说 SOAP 病历是医生每天约两小时、常在下班后「睡衣时间」完成的负担与倦怠来源,同时是计费依据和下一位医生的上下文,风险极高;Abridge 的起点就是生成高质量、个性化的临床记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            522.745,
+            526.468
+          ],
+          "quote": "So we started over here with the conversation to clinical note.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            632.265,
+            637.728
+          ],
+          "quote": "The patient visit summary, the actual clinical note, and we actually penned orders as you might have seen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            777.794,
+            787.637
+          ],
+          "quote": "Before we develop any product, whether we're talking about clinical trial matching, clinical note, clinical decision support, coding, we start with a robust set of internal benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            871.484,
+            880.048
+          ],
+          "quote": "We also have a lot of online signals, whether how you're editing the clinical note and your typical thumbs up, thumbs down, and star ratings and other free form text.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1097.438,
+            1102.081
+          ],
+          "quote": "So one place that this problem comes up is actually in generating the clinical note.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1102.421,
+            1105.283
+          ],
+          "quote": "So when you're generating the clinical note, there's many different sections to it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ehr",
+      "type": "concept",
+      "role": "concept",
+      "name": "EHR",
+      "file": "EHR",
+      "primary": true,
+      "how_described": "本集说 EHR 上下文是支撑产品的三类上下文之一(既往化验、既往病历),医生也在 EHR 里确认签署系统生成的医嘱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            642.632,
+            649.016
+          ],
+          "quote": "We have access to all of the EHR context, so we know everything about the patient, the prior labs, the prior notes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            910.623,
+            916.347
+          ],
+          "quote": "So the first thing we're going to do is we're actually going to pull from the EHR data previous lab values.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1201.304,
+            1210.912
+          ],
+          "quote": "So what we have is while we're listening in the visit, as the clinician says order, we actually queue it up in the background and let them actually sign it off in the EHR.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "clinical-trial-matching",
+      "type": "concept",
+      "role": "concept",
+      "name": "临床试验匹配 (clinical trial matching)",
+      "file": "临床试验匹配",
+      "primary": false,
+      "how_described": "本集作为「一切都围绕对话」的下游应用被提及,并用「Nathan 有资格参加哪些临床试验」的语音交互演示。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            527.393,
+            537.18
+          ],
+          "quote": "Everything else is downstream of that, whether it relates to billing, whether it relates to things like clinical trial matching, or whether it relates to clinical decision support.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            777.794,
+            787.637
+          ],
+          "quote": "Before we develop any product, whether we're talking about clinical trial matching, clinical note, clinical decision support, coding, we start with a robust set of internal benchmarks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

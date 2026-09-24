@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Wes Bos]] · [[Jeremiah Lowin]] · [[vibe coding]] · [[MCP Apps]] · [[迭代循环]] · [[MCP]] · [[LLM]] · [[FastMCP]] · [[本地模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":295,"Wes Bos":1,"Jeremiah Lowin":1,"vibe coding":36,"MCP Apps":3,"迭代循环":1,"MCP":49,"LLM":39,"FastMCP":1,"本地模型":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":297,"Wes Bos":1,"Jeremiah Lowin":1,"vibe coding":36,"MCP Apps":3,"迭代循环":1,"MCP":49,"LLM":40,"FastMCP":1,"本地模型":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,835 @@
+{
+  "episode_id": "2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea",
+  "podcast": "精选演讲",
+  "date": "2026-08-19",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "医疗健康 AI",
+    "企业级部署",
+    "架构设计"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "christopher-lovejoy",
+      "type": "person",
+      "role": "guest",
+      "name": "Christopher Lovejoy",
+      "file": "Christopher Lovejoy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            16.131,
+            19.672
+          ],
+          "quote": "My name is Christopher Lovejoy, and I'm a member of technical staff at Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saul-howard",
+      "type": "person",
+      "role": "guest",
+      "name": "Saul Howard",
+      "file": "Saul Howard",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "Christopher Lovejoy 的现职公司，他作为前置部署工程师嵌入企业帮助其使用 AI 智能体获取价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            16.131,
+            19.672
+          ],
+          "quote": "My name is Christopher Lovejoy, and I'm a member of technical staff at Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anterior",
+      "type": "company",
+      "role": "company",
+      "name": "Anterior",
+      "file": "Anterior",
+      "primary": false,
+      "how_described": "Saul 任工程副总裁的纽约公司，向美国健康保险公司销售智能体式 AI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.977,
+            30.798
+          ],
+          "quote": "And I previously worked at Anterior with Saul.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            33.439,
+            35.3
+          ],
+          "quote": "I'm VP of engineering at Anterior.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：AI 智能体要进医疗企业生产环境，需解决审计、数据、人工升级、评估四大问题；平台层面应强制更宽泛的 agent 定义，把人类和 LLM 都囊括在内",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            251.865,
+            257.327
+          ],
+          "quote": "Like for us, for compliance, it's critical that we can see every step, every action that the agent takes, every piece of data that it accesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            284.837,
+            293.181
+          ],
+          "quote": "Because we know in certain scenarios we have to escalate to a clinician who will then approve or not agree with what the agent is saying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            301.546,
+            303.547
+          ],
+          "quote": "How do we know that the agent continues to perform well?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            350.942,
+            355.883
+          ],
+          "quote": "It has to contain a complete record of absolutely every action that the agent took.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            356.444,
+            364.166
+          ],
+          "quote": "It has to contain all of the places where the agent accessed data, all of the authorization by which the agent did something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            374.274,
+            378.219
+          ],
+          "quote": "Say our agent's decisions came up in a court of law.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            554.65,
+            568.215
+          ],
+          "quote": "You cannot have your agent, just as you cannot have humans, accessing and reading and utilizing healthcare data that they don't absolutely have a necessity to use at that point in time for that particular journey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            640.339,
+            652.628
+          ],
+          "quote": "So the events we talked about as the record of what the agent is doing at any particular time only contain references to the schema-driven blobs that are the storage of the actual healthcare data itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            653.448,
+            663.436
+          ],
+          "quote": "And it's important, therefore, that the healthcare data is stored immutably, again, so that you can always go back in time and reconstruct what data the agent had access to at that particular point in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            677.909,
+            694.453
+          ],
+          "quote": "For example, with a system like this, it's possible for developers to go back and debug and have observability over what happened, what particular steps the agent took, why it did that, and retrace the agent's steps without having access to the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            742.604,
+            755.496
+          ],
+          "quote": "The way I think about the lethal trifecta is, can I solve for the constraint, if I have an agent at point A with access to this data, is it possible within my architecture for the agent to be also accessing data over here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            768.932,
+            774.679
+          ],
+          "quote": "It won't be possible for the agent to access data within the same process that you've given it the previous data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            782.211,
+            789.456
+          ],
+          "quote": "And in many scenarios you will want to be able to escalate the decision that an agent makes or an action that an agent makes to a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            792.858,
+            795.86
+          ],
+          "quote": "So you don't know in advance when exactly perhaps the agent's going to escalate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            829.091,
+            842.998
+          ],
+          "quote": "One pattern that can work very well here is if in your platform you enforce a wider definition of agent which encompasses both LLMs and humans, then you can make it such that any action that can be taken by an LLM could also be taken by a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            843.738,
+            856.125
+          ],
+          "quote": "And this is helpful because at any point in the chain of actions that your agent is taking, it can escalate to a human, the human could perform that action, and then any step downstream doesn't care about whether it was a human or an LLM that did those actions upstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            860.024,
+            882.729
+          ],
+          "quote": "On the second point around the context, what this also makes much easier is that you can define methods that take the context, which has some kind of shared definition of context, which is irrespective of whether it's a human or an LLM that's going to be accessing it, and you can take those methods to then map into something that's agent-friendly, like a prompt, or into something that's more human-friendly, for example, a UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            976.498,
+            988.763
+          ],
+          "quote": "Secondly, you have this human agent equivalency, which means that for any task, you could get both the agent, the LLM agent, and the human to perform it, and your difference is your eval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1000.028,
+            1005.01
+          ],
+          "quote": "And you can get your eval results without the sensitive data ever needing to come to where your agent's performing the work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1019.092,
+            1035.287
+          ],
+          "quote": "The immutable ledger of actions, the orchestration adjacent object storage, the human agent equivalency, and the way that with these three principles evals can emerge as a first class property of the system rather than as something you attach onto the side.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "audit-trail",
+      "type": "concept",
+      "role": "concept",
+      "name": "审计轨迹 (audit trail)",
+      "file": "审计轨迹",
+      "primary": true,
+      "how_described": "在 SOC2/HITRUST/HIPAA 等安全框架下，必须是智能体每个动作、每次数据访问、每项授权的完整记录，达到可辩护的证据链标准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            247.224,
+            251.745
+          ],
+          "quote": "And somebody raises their hand and says, can I see the audit trail for this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            320.436,
+            323.178
+          ],
+          "quote": "And let's start with this one about the audit trail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            328.504,
+            330.326
+          ],
+          "quote": "They're going to want to see an audit trail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            331.268,
+            337.015
+          ],
+          "quote": "And for programmers, an audit trail sounds very like a typical developer log that you might have in Datadog.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            339.538,
+            350.702
+          ],
+          "quote": "But for security frameworks that exist in the real enterprise world, like SOC2, HITRUST, HIPAA, an audit trail is a bit more than that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            452.996,
+            465.141
+          ],
+          "quote": "It's impossible not to be able to roll back time and see exactly the state of the system at a particular point in time and be able to provide that as an audit trail for what happened at each point in time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transaction-log",
+      "type": "concept",
+      "role": "concept",
+      "name": "交易日志 (transaction log)",
+      "file": "交易日志",
+      "primary": true,
+      "how_described": "借鉴金融行业的模式：只追加、带时间戳的不可变事件日志，作为全系统唯一事实来源，使可审计性从存储范式中自然产生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            407.949,
+            424.781
+          ],
+          "quote": "And a particular pattern that is used in lots of different industries, for example, in finance, is a transaction log, an immutable record of events that store all of the transactions that happen throughout the system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "event-sourcing",
+      "type": "concept",
+      "role": "concept",
+      "name": "事件溯源 (event sourcing)",
+      "file": "事件溯源",
+      "primary": false,
+      "how_described": "事件日志模式的别名：写入极简单（扔一个事件），读取变难（需重放所有事件重构视图），可用缓存和快照缓解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            471.686,
+            478.85
+          ],
+          "quote": "I think we could say that for this kind of event logging, or sometimes called event sourcing pattern, writes become very easy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "object-storage",
+      "type": "concept",
+      "role": "concept",
+      "name": "对象存储 (object storage)",
+      "file": "对象存储",
+      "primary": true,
+      "how_described": "与事件日志分离的模式驱动对象存储：事件只存数据 blob 的引用，实际医疗数据不可变存储其中，支撑可观测性不碰 PHI、零信任与提示词注入缓解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            625.589,
+            629.712
+          ],
+          "quote": "And so an architectural paradigm I might go to is object storage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            630.512,
+            633.194
+          ],
+          "quote": "Schema-driven object storage I think is a good fit for this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            664.177,
+            673.465
+          ],
+          "quote": "This separation of events for what happened and object storage for the data that was used at that particular point in time",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            718.698,
+            722.279
+          ],
+          "quote": "The object storage becomes a place where you can apply zero trust principles",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            756.437,
+            768.612
+          ],
+          "quote": "And zero trust principles, tokens are bared by the agents, and object storage segregated from the event stream that has your orchestration logic gives you a place to be able to solve for that constraint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            990.764,
+            999.968
+          ],
+          "quote": "And then finally, what the object storage enables you to do is to actually run these evals on production data, including inside your customer's environment, without actually ever exposing that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1019.092,
+            1035.287
+          ],
+          "quote": "The immutable ledger of actions, the orchestration adjacent object storage, the human agent equivalency, and the way that with these three principles evals can emerge as a first class property of the system rather than as something you attach onto the side.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zero-trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "零信任 (zero trust)",
+      "file": "零信任",
+      "primary": true,
+      "how_described": "在对象存储上落地：智能体持令牌、在使用点凭令牌访问数据，不允许数据在系统中随意流动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            712.597,
+            716.078
+          ],
+          "quote": "This then has another benefit, which is zero trust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            718.698,
+            722.279
+          ],
+          "quote": "The object storage becomes a place where you can apply zero trust principles",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            756.437,
+            768.612
+          ],
+          "quote": "And zero trust principles, tokens are bared by the agents, and object storage segregated from the event stream that has your orchestration logic gives you a place to be able to solve for that constraint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "不可信数据操纵智能体的攻击（致命三要素）；本集解法是在架构上保证智能体无法在同一进程里既访问这份又访问那份敏感数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            735.598,
+            741.944
+          ],
+          "quote": "This then leads into a mitigation for prompt injection for the lethal trifecta.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "phi",
+      "type": "concept",
+      "role": "concept",
+      "name": "PHI",
+      "file": "PHI",
+      "primary": true,
+      "how_described": "受保护健康信息，有法律红线（HIPAA 等）：智能体和人一样不能访问非当前旅程绝对必需的数据，有的客户甚至要求数据不离开本地 VPC",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            544.185,
+            547.087
+          ],
+          "quote": "It's PHI, protected or personal health information.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "衡量模型/系统表现的评估，公认难做（LLM 非确定性、离线数据不代表性、数据漂移）；本集通过重放、人机对比、在生产数据上不暴露地评估，把 evals 变成前三条架构原则的免费副产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            887.136,
+            891.579
+          ],
+          "quote": "And then on this fourth and final question that we're going to talk about, evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            893.24,
+            895.122
+          ],
+          "quote": "Obviously, we hear a lot about evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            895.242,
+            896.643
+          ],
+          "quote": "We know that evals can be very helpful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            903.587,
+            905.209
+          ],
+          "quote": "But we also know that evals can be pretty hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            942.543,
+            951.477
+          ],
+          "quote": "Actually give you effective privacy preserving evals almost as a byproduct without needing to kind of bolt something onto the side of your architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            990.764,
+            999.968
+          ],
+          "quote": "And then finally, what the object storage enables you to do is to actually run these evals on production data, including inside your customer's environment, without actually ever exposing that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1019.092,
+            1035.287
+          ],
+          "quote": "The immutable ledger of actions, the orchestration adjacent object storage, the human agent equivalency, and the way that with these three principles evals can emerge as a first class property of the system rather than as something you attach onto the side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1096.554,
+            1104.201
+          ],
+          "quote": "Okay, we need evals, we need security, we need auditability, and bolting these on as additions to the foundations of the POC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "poc",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC",
+      "file": "POC",
+      "primary": true,
+      "how_described": "企业概念验证：定客户用例、派两工程师干四周、指标达标人人兴奋——但本集警告最大的坑是拿着高准确率 POC 往上 bolt 安全、审计、evals",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            111.74,
+            119.345
+          ],
+          "quote": "And to make this concrete, let's start by considering a scenario that might be familiar to many of you, which is the enterprise proof of concept, the enterprise POC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            138.321,
+            139.422
+          ],
+          "quote": "You scope out a POC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            163.322,
+            167.827
+          ],
+          "quote": "For your POC, you're going to need some access to the model provider as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            259.308,
+            267.191
+          ],
+          "quote": "And you realize that actually, you know, with the way things have been implemented in the initial POC without these kind of true integrations, that actually that's going to be quite challenging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1076.898,
+            1096.494
+          ],
+          "quote": "And I'd say the takeaway is that where I've seen it go wrong is taking that initial POC, that point solution that showed so much promise and that showed the high accuracy, for example, and then trying to build up from it, strapping on the enterprise requirements as you come across them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1096.554,
+            1104.201
+          ],
+          "quote": "Okay, we need evals, we need security, we need auditability, and bolting these on as additions to the foundations of the POC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1112.978,
+            1130.746
+          ],
+          "quote": "But where I've seen it go well is if you take the constraints of a production-ready scaled enterprise system seriously from the beginning and treat those as the architectural principles that you're going to build everything upon and then build back up towards that POC accuracy using your new primitives.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "事件与数据分离的好处之一：开发者可回溯调试智能体每一步为什么这么做，但只能看到数据形状、碰不到 PHI 本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            677.909,
+            694.453
+          ],
+          "quote": "For example, with a system like this, it's possible for developers to go back and debug and have observability over what happened, what particular steps the agent took, why it did that, and retrace the agent's steps without having access to the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            706.195,
+            711.617
+          ],
+          "quote": "So you can separate out observability and orchestration and instrumentation from the healthcare data itself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "snapshots",
+      "type": "concept",
+      "role": "concept",
+      "name": "快照 (snapshots)",
+      "file": "快照",
+      "primary": false,
+      "how_described": "事件溯源读取变难的缓解手段之一，与缓存并用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            487.474,
+            492.577
+          ],
+          "quote": "And there are patterns like caching and snapshots that you can bring to make that simpler.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "企业集成问题的例子：POC 生产化时如何连接到 Salesforce、Epic 等企业应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            305.308,
+            308.169
+          ],
+          "quote": "How do we connect to Epic, to Salesforce, to the other kind of applications that we care about?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "被讨论为智能体执行者：吞得下海量上下文而人不行；不是确定性的，使 evals 难做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            829.091,
+            842.998
+          ],
+          "quote": "One pattern that can work very well here is if in your platform you enforce a wider definition of agent which encompasses both LLMs and humans, then you can make it such that any action that can be taken by an LLM could also be taken by a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            843.738,
+            856.125
+          ],
+          "quote": "And this is helpful because at any point in the chain of actions that your agent is taking, it can escalate to a human, the human could perform that action, and then any step downstream doesn't care about whether it was a human or an LLM that did those actions upstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            860.024,
+            882.729
+          ],
+          "quote": "On the second point around the context, what this also makes much easier is that you can define methods that take the context, which has some kind of shared definition of context, which is irrespective of whether it's a human or an LLM that's going to be accessing it, and you can take those methods to then map into something that's agent-friendly, like a prompt, or into something that's more human-friendly, for example, a UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            976.498,
+            988.763
+          ],
+          "quote": "Secondly, you have this human agent equivalency, which means that for any task, you could get both the agent, the LLM agent, and the human to perform it, and your difference is your eval.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

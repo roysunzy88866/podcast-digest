@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[John Willett]] · [[Josh Elman]] · [[Rogo]] · [[Oli Forsyth]] · [[Foundation]] · [[Andreessen Horowitz]] · [[Basis]] · [[信任建立]]
 
-<script type="application/json" class="pd-epn">{"智能体":295,"ChatGPT":76,"John Willett":1,"Josh Elman":1,"Rogo":1,"Oli Forsyth":1,"Foundation":2,"Andreessen Horowitz":2,"Basis":1,"信任建立":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":297,"ChatGPT":76,"John Willett":1,"Josh Elman":1,"Rogo":1,"Oli Forsyth":1,"Foundation":2,"Andreessen Horowitz":2,"Basis":1,"信任建立":4}</script>
 
 <script>
 (function(){

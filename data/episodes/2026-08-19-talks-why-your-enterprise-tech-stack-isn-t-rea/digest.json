@@ -1,0 +1,142 @@
+{
+  "title_zh": "企业还没为 AI 智能体做好准备：四条架构原则补上缺口",
+  "tldr": "Anthropic 前置部署工程师 Christopher Lovejoy 与 Anterior 工程副总裁 Saul,讲解医疗企业部署 AI 智能体的四条架构原则。",
+  "digest_md": "把 AI 智能体卖进医疗健康企业，最难的往往不是把 AI 做准，而是把它送进生产环境。这一集的两位主角都常年深耕企业级医疗 AI:Christopher Lovejoy 是 Anthropic 的前置部署工程师(嵌入企业内部、帮它们用 AI 智能体拿到价值)，Saul 是纽约公司 Anterior 的工程副总裁，专门向美国健康保险公司卖智能体式 AI。\n\n他们从一个所有人都熟悉的场景讲起：企业 POC(概念验证)。你定了客户和用例，规划范围、定好指标，派两个工程师干四周——然后 AI 表现符合预期，又快又便宜，汇报会上人人兴奋：财务想知道对预算的影响，首席医疗官急着夸自家 AI 有多准，销售负责人问什么时候能在官网写上「由 AI 驱动」。但所有人都默认「难的部分已经做完了」。第二天一开会，真实的问题才涌出来：审计轨迹在哪？敏感数据怎么流转？谁在批准智能体的决策？不可信数据能操纵模型吗？怎么连进 Epic、Salesforce 这些系统？他们选了四个最要命的问题，逐一给出架构答案。\n\n## 审计轨迹：不是日志，是法庭证据\n\n对程序员来说，审计轨迹听起来像 Datadog 里的开发日志。但在真实企业的安全框架(如 SOC2、HITRUST、HIPAA)下，它必须是智能体每一个动作、每一次数据访问、每一项授权的完整记录。一个直观的检验标准：如果智能体的决策上了法庭，你能不能拿出一条可辩护的证据链？这在医疗场景完全可能发生。\n\n答案是借鉴金融行业的**交易日志**模式：一条只追加、带时间戳的不可变事件记录，作为全系统唯一的事实来源——即使你有多个智能体并行运行，也只有这一个真相。这样架构之后，可审计性不再是要专门做的事，而是从数据存储范式中自然长出来的：回溯任何时间点、看清系统当时的确切状态，是做不到「不」的。权衡在哪？写入变得极简单(扔一个事件就行)，读取变难(要重放所有事件才能重构视图)，可以用缓存和快照缓解。而且他们发现医疗场景反而受益：事后常有新事件改变对医疗旅程的解读，你需要同一个时间点的不同视图——所有视图都是事件日志的临时计算投影，想怎么看就怎么算。\n\n## 敏感数据：模式驱动的对象存储 + 零信任\n\n医疗数据是 PHI(受保护健康信息)，有法律红线：智能体和人一样，不能访问任何非当前旅程绝对必需的数据；有的客户甚至不让数据离开自己的本地 VPC(云上的私有网络环境)。这类数据很复杂——有时结构化有时不结构化、单条轻松超过一兆、访问控制严格。\n\n他们的方案是**模式驱动的对象存储**(按预定义数据形状来存的大对象存储)，与事件日志分离：事件只存「发生了什么」，只包含指向数据 blob 的引用，真正的医疗数据以不可变方式存在对象存储里。这个分离带来三个好处：\n\n- **可观测性不碰隐私**：开发者可以回溯调试、看清智能体每一步为什么这么做——但只能看到数据的「形状」，拿不到数据本身。\n- **零信任落地**：对象存储成为执行零信任原则的地方，智能体持令牌、在使用点凭令牌取数据，数据不许在系统里随意流动。\n- **缓解提示词注入**(攻击者借不可信数据操纵智能体)：他们称之为「致命三要素」的解法——架构上保证持有一个智能体无法在同一进程里又摸到这份数据又摸到那份，把约束直接消灭在结构里。\n\n## 人工升级：把人也当成一种「智能体」\n\n上报机制很难预判——可能是 AI 不确定时上报，也可能是规则触发(治疗超过阈值必须由临床医生批准)。而且 LLM 吞得下海量上下文，人不行。\n\n他们的模式：在平台层面强制一个更宽泛的「智能体」定义，**把人类和 LLM 都囊括在内**。任何 LLM 能执行的动作，人类也能执行。于是动作链上任何一点都可以升级给人类，人做完这一步，下游根本不在乎上游是人还是 LLM 干的。共享的上下文定义还能分别映射成两种呈现：给智能体的 prompt,或给人的 UI。\n\n## Evals:前三条原则的免费副产品\n\nEvals(评估，衡量模型/系统表现好坏的测试)公认难做：LLM 不是确定性的，难以锁定哪处改动导致了输出变化；离线数据集未必代表生产数据；数据还会随时间漂移。而前面三条原则让他们几乎不加东西就拿到了有效的隐私保护 evals:\n\n- **重放**：回到事件序列的任何时刻，看到系统完整状态，微调 prompt、换模型、改代码，精确看到直接影响。\n- **人机对比**：因为人类与智能体等价，任何任务都可以让人和 LLM 各做一遍，差异就是 eval 分数。\n- **生产数据上跑而不暴露**：对象存储让 evals 能直接在生产数据上跑、甚至在客户环境内部跑，敏感数据从不需要来到智能体工作的地方。\n\n## 本集带走\n\n- **审计别事后补**：用金融式的不可变交易日志(只追加、带时间戳、全系统唯一事实来源)，可审计性从存储范式中自然产生；代价是读取变难，用缓存/快照缓解。\n- **数据与事件分离**：事件只存引用，数据进不可变的模式驱动对象存储——可观测性不碰 PHI、零信任令牌有落点、提示词注入的约束在架构层面被消灭。\n- **把人纳入「智能体」定义**：任何 LLM 动作人类也能执行，升级上报变得随处可行、下游无感。\n- **evals 是副产品不是附件**：重放任意时刻 + 人机同题对比 + 在生产数据上评估而不暴露数据。\n- **最大的坑**：拿着高准确率的 POC 往上垒，遇到需求再bolt上安全、审计、evals——最后得到一个脆弱、难泛化的东西。正确做法是从第一天就把可投产的企业级约束当架构原则，反向构建回 POC 的准确率。",
+  "quotes": [
+    {
+      "en": "Your agents can bear tokens and use those tokens to access the data at the point of use and not allow data to flow around the system as it likes.",
+      "zh": "你的智能体可以持有令牌，并在使用点上使用这些令牌访问数据，而不允许数据在系统中随意流动。",
+      "timestamp": "12:03",
+      "speaker": "Saul Howard"
+    },
+    {
+      "en": "One pattern that can work very well here is if in your platform you enforce a wider definition of agent which encompasses both LLMs and humans, then you can make it such that any action that can be taken by an LLM could also be taken by a human.",
+      "zh": "一种在这里能运作得很好的模式是，如果你在平台中强制执行一个更宽泛的 agent 定义，把 LLM 和人类都囊括在内，那么你就可以做到让任何 LLM 能执行的动作，人类也能执行。",
+      "timestamp": "13:49",
+      "speaker": "Christopher Lovejoy"
+    },
+    {
+      "en": "Actually give you effective privacy preserving evals almost as a byproduct without needing to kind of bolt something onto the side of your architecture.",
+      "zh": "实际上几乎作为副产品就给了你有效的隐私保护的 evals,而不需要在架构旁边额外加上什么东西。",
+      "timestamp": "15:42",
+      "speaker": "Christopher Lovejoy"
+    },
+    {
+      "en": "Secondly, you have this human agent equivalency, which means that for any task, you could get both the agent, the LLM agent, and the human to perform it, and your difference is your eval.",
+      "zh": "其次，你有这种人类与智能体的等价性，这意味着对于任何任务，你可以让智能体——也就是 LLM 智能体——和人类都执行它，而你们的差异就是你的 eval。",
+      "timestamp": "16:16",
+      "speaker": "Christopher Lovejoy"
+    },
+    {
+      "en": "And I'd say the takeaway is that where I've seen it go wrong is taking that initial POC, that point solution that showed so much promise and that showed the high accuracy, for example, and then trying to build up from it, strapping on the enterprise requirements as you come across them.",
+      "zh": "我想说的是，我见过走错路的地方，是拿着最初的那个 POC——那个展现出巨大前景、比如展现出高准确率的单点解决方案——然后试图从它向上构建，在遇到企业需求时再把它们绑上去。",
+      "timestamp": "17:56",
+      "speaker": "Saul Howard"
+    },
+    {
+      "en": "But where I've seen it go well is if you take the constraints of a production-ready scaled enterprise system seriously from the beginning and treat those as the architectural principles that you're going to build everything upon and then build back up towards that POC accuracy using your new primitives.",
+      "zh": "而我见过走得好的地方是，如果你从一开始就认真对待一个可投产的、规模化企业系统的约束，把那些当作你要构建一切的架构原则，然后用你的新原语反向构建，重新达到那个 POC 的准确率。",
+      "timestamp": "18:32",
+      "speaker": "Saul Howard"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:51",
+      "speaker": "Unknown",
+      "en": "But actually, as we know, often getting things into production is really where the challenge lies.",
+      "zh": "但实际上，正如我们所知道的，把东西送入生产环境往往才是真正的挑战所在。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Unknown",
+      "en": "It has to contain a complete record of absolutely every action that the agent took.",
+      "zh": "它必须包含智能体所采取的绝对每一个动作的完整记录。"
+    },
+    {
+      "timestamp": "06:19",
+      "speaker": "Unknown",
+      "en": "Could we show a justifiable chain of evidence for why the particular actions were taken by a decision?",
+      "zh": "我们能否展示出一条可辩护的证据链，说明为什么某个决策采取了那些特定的行动？"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Unknown",
+      "en": "And architecting this way, making this trade-off, means that auditability becomes trivial.",
+      "zh": "而以这种方式进行架构、做出这种权衡，意味着可审计性变得轻而易举。"
+    },
+    {
+      "timestamp": "07:32",
+      "speaker": "Unknown",
+      "en": "It's impossible not to be able to roll back time and see exactly the state of the system at a particular point in time and be able to provide that as an audit trail for what happened at each point in time.",
+      "zh": "你不可能做不到回溯时间、看清系统在某个特定时间点的确切状态，并把那个作为审计轨迹提供出来，说明每个时间点发生了什么。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Unknown",
+      "en": "You cannot have your agent, just as you cannot have humans, accessing and reading and utilizing healthcare data that they don't absolutely have a necessity to use at that point in time for that particular journey.",
+      "zh": "你不能让你的智能体——就像你不能让人类一样——去访问、读取和利用它们在那个时间点、那次特定旅程中并非绝对必需的医疗健康数据。"
+    },
+    {
+      "timestamp": "11:52",
+      "speaker": "Unknown",
+      "en": "This then has another benefit, which is zero trust.",
+      "zh": "这又带来了另一个好处，那就是零信任。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Unknown",
+      "en": "Your agents can bear tokens and use those tokens to access the data at the point of use and not allow data to flow around the system as it likes.",
+      "zh": "你的智能体可以持有令牌，并在使用点上使用这些令牌访问数据，而不允许数据在系统中随意流动。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Unknown",
+      "en": "One pattern that can work very well here is if in your platform you enforce a wider definition of agent which encompasses both LLMs and humans, then you can make it such that any action that can be taken by an LLM could also be taken by a human.",
+      "zh": "一种在这里能运作得很好的模式是，如果你在平台中强制执行一个更宽泛的 agent 定义，把 LLM 和人类都囊括在内，那么你就可以做到让任何 LLM 能执行的动作，人类也能执行。"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Unknown",
+      "en": "On the second point around the context, what this also makes much easier is that you can define methods that take the context, which has some kind of shared definition of context, which is irrespective of whether it's a human or an LLM that's going to be accessing it, and you can take those methods to then map into something that's agent-friendly, like a prompt, or into something that's more human-friendly, for example, a UI.",
+      "zh": "关于上下文的第二点，这也让另一件事变得容易得多：你可以定义一些方法，接收上下文——上下文有某种共享的定义，与将要访问它的是人类还是 LLM 无关——然后用这些方法把它映射成对智能体友好的东西，比如一个 prompt,或者映射成对人类更友好的东西，比如一个 UI。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "Unknown",
+      "en": "Actually give you effective privacy preserving evals almost as a byproduct without needing to kind of bolt something onto the side of your architecture.",
+      "zh": "实际上几乎作为副产品就给了你有效的隐私保护的 evals,而不需要在架构旁边额外加上什么东西。"
+    },
+    {
+      "timestamp": "16:16",
+      "speaker": "Unknown",
+      "en": "Secondly, you have this human agent equivalency, which means that for any task, you could get both the agent, the LLM agent, and the human to perform it, and your difference is your eval.",
+      "zh": "其次，你有这种人类与智能体的等价性，这意味着对于任何任务，你可以让智能体——也就是 LLM 智能体——和人类都执行它，而你们的差异就是你的 eval。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Unknown",
+      "en": "And then finally, what the object storage enables you to do is to actually run these evals on production data, including inside your customer's environment, without actually ever exposing that data.",
+      "zh": "最后，对象存储让你能做到的是，真正在生产数据上运行这些 evals,包括在你的客户环境内部，而实际上从不暴露那些数据。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Unknown",
+      "en": "And sure, with AI, we need to combine them in new, sometimes radical ways and bring in other pieces.",
+      "zh": "当然，有了 AI,我们需要以新的、有时是激进的方式组合它们，并引入其他部分。"
+    },
+    {
+      "timestamp": "17:56",
+      "speaker": "Unknown",
+      "en": "And I'd say the takeaway is that where I've seen it go wrong is taking that initial POC, that point solution that showed so much promise and that showed the high accuracy, for example, and then trying to build up from it, strapping on the enterprise requirements as you come across them.",
+      "zh": "我想说的是，我见过走错路的地方，是拿着最初的那个 POC——那个展现出巨大前景、比如展现出高准确率的单点解决方案——然后试图从它向上构建，在遇到企业需求时再把它们绑上去。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Unknown",
+      "en": "But where I've seen it go well is if you take the constraints of a production-ready scaled enterprise system seriously from the beginning and treat those as the architectural principles that you're going to build everything upon and then build back up towards that POC accuracy using your new primitives.",
+      "zh": "而我见过走得好的地方是，如果你从一开始就认真对待一个可投产的、规模化企业系统的约束，把那些当作你要构建一切的架构原则，然后用你的新原语反向构建，重新达到那个 POC 的准确率。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个很多企业都正在踩的坑:怎么把 AI 智能体真正送进医疗健康企业。\n\n先交代一下今天的两位主角。Christopher Lovejoy 是 Anthropic 的前置部署工程师——所谓前置部署,就是人直接嵌到企业内部,帮它们把 AI 智能体真正用出价值来。另一位是 Saul,纽约一家叫 Anterior 的公司的工程副总裁,专门向美国的健康保险公司卖智能体式 AI。两个人都是常年泡在企业级医疗 AI 一线的,所以今天讲的东西,都是从真实的部署里摔打出来的。\n\n他们从一个特别熟悉的场景讲起:概念验证,也就是大家常说的 POC。你定好了客户和用例,规划范围、定好指标,派两个工程师干上四周。然后呢,AI 表现符合预期,又快又便宜。汇报会上人人兴奋:财务想知道这对预算有什么影响,首席医疗官急着夸自家 AI 有多准,销售负责人已经在问什么时候能在官网上写上\"由 AI 驱动\"。但注意,这个时候所有人都默认一件事——难的部分已经做完了。\n\n第二天一开会,真实的问题才涌出来。审计轨迹在哪?敏感数据怎么流转?谁在批准智能体的决策?不可信的数据能不能操纵模型?还有,怎么连进 Epic、Salesforce 这些企业系统?这一期,他们就挑了四个最要命的问题,逐一给出架构上的答案。\n\n先说第一个,审计轨迹。对程序员来说,这三个字听起来像 Datadog 里那种开发日志。但在真实企业的安全框架下——比如 SOC2、HITRUST、HIPAA——它必须是智能体每一个动作、每一次数据访问、每一项授权的完整记录。检验标准很直观:如果智能体的决策上了法庭,你能不能拿出一条可辩护的证据链?在医疗场景,这种事是完全可能发生的。\n\n怎么做到?他们借鉴了金融行业的交易日志模式。说白了,就是一条只追加、带时间戳、不可变的事件记录,作为全系统唯一的事实来源。哪怕你有多个智能体并行运行,真相也只有一个。这么架构之后,有个很妙的结果:可审计性不再是需要专门去做的事,而是从数据存储的方式里自然长出来的——你要回溯任何时间点、看清系统当时的状态,是想不做到都不行的。\n\n当然有代价。写入变得极简单,扔一个事件进去就行;读取变难了,要重放所有事件才能重构出视图。这个可以用缓存和快照来缓解。而且他们发现,医疗场景反而因此受益:事后常常有新事件,会改变你对一段医疗旅程的解读,你需要同一个时间点的不同视图。所有视图都是事件日志的临时计算投影,想怎么看就怎么算。\n\n那第二个问题紧跟着就来了:敏感数据怎么办?医疗数据是受保护健康信息,有法律红线——智能体跟人一样,不能访问任何非当前旅程绝对必需的数据。有的客户甚至不让数据离开自己的本地 VPC,也就是云上的私有网络环境。这类数据还很复杂,有时结构化、有时不结构化,单条轻松超过一兆,访问控制又严格。\n\n他们的方案,是把数据存进一种模式驱动的对象存储——就是按预定义的数据形状来存的大对象存储——并且跟事件日志分开。事件只存\"发生了什么\",里面只放指向数据的引用;真正的医疗数据,以不可变的方式待在对象存储里。\n\n这个分离带来三个好处。第一,可观测性不碰隐私:开发者可以回溯调试、看清智能体每一步为什么这么做,但只能看到数据的\"形状\",拿不到数据本身。第二,零信任有了落点。用原话说:你的智能体可以持有令牌,并在使用点上使用这些令牌访问数据,而不允许数据在系统中随意流动。第三,还能缓解提示词注入——就是攻击者借不可信数据操纵智能体。他们叫它\"致命三要素\"的解法:架构上保证智能体没法在同一个进程里又摸到这份数据又摸到那份,把约束直接消灭在结构里。\n\n接着说第三个问题:人工升级。什么时候该把事情上报给人?这很难预判——可能是 AI 不确定的时候,也可能是规则触发,比如治疗超过了阈值,必须由临床医生批准。而且这里有个矛盾:大语言模型吞得下海量上下文,人可不行。\n\n他们的办法特别漂亮:在平台层面,强制执行一个更宽泛的\"智能体\"定义,把 LLM 和人类都囊括在内。用原话说:任何 LLM 能执行的动作,人类也能执行。这样一来,动作链上的任何一点都可以升级给人类;人做完这一步,下游根本不在乎上游是人还是模型干的。共享的上下文还能分别映射成两种呈现:给智能体的提示词,或者给人的操作界面。\n\n这就引出了第四个问题,而且这个答案有点意外:评估,也就是 evals,成了前三条原则的免费副产品。评估公认难做——大语言模型不是确定性的,你很难锁定是哪处改动导致了输出变化;离线数据集未必代表生产数据;数据还会随时间漂移。但前面三条架构,让他们几乎不用加任何东西,就拿到了有效的、保护隐私的评估。怎么讲?第一,重放:回到事件序列的任何时刻,看到系统完整状态,改提示词、换模型、改代码,精确看到直接影响。第二,人机对比:正因为人类和智能体是等价的,任何任务都可以让人和模型各做一遍,两者之间的差异,就是你的评估分数。第三,评估可以直接跑在生产数据上,甚至跑在客户环境内部,敏感数据从不需要来到智能体工作的地方。\n\n最后说说这期最大的一个坑。他们见过走错路的,就是拿着最初那个概念验证——那个展现出巨大前景、比如高准确率的单点解决方案——试图从它向上构建,遇到企业需求了,再把安全、审计、评估这些绑上去。最后得到的东西,脆弱、难泛化。而走得好的路是反过来:从第一天起,就把一个可投产、可规模化的企业系统的约束,当成架构原则,用它们反向构建,重新达到当初那个 POC 的准确率。\n\n所以这一期真正的重点,不是四条技术细节,而是一个顺序问题:企业级的约束,应该出现在第一天,而不是上线前一夜。"
+}

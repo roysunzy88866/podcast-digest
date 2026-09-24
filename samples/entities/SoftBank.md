@@ -31,7 +31,7 @@ unlisted: true
 
 [[推理]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[OpenAI]] · [[Harry Stebbings]] · [[Michael Tannenbaum]] · [[Anthropic]] · [[Elad]] · [[Andrew MacDonald]]
 
-<script type="application/json" class="pd-epn">{"推理":52,"智能体":295,"Meta":35,"NVIDIA":42,"OpenAI":125,"Harry Stebbings":18,"Michael Tannenbaum":1,"Anthropic":132,"Elad":1,"Andrew MacDonald":1}</script>
+<script type="application/json" class="pd-epn">{"推理":52,"智能体":297,"Meta":35,"NVIDIA":42,"OpenAI":125,"Harry Stebbings":18,"Michael Tannenbaum":1,"Anthropic":133,"Elad":1,"Andrew MacDonald":1}</script>
 
 <script>
 (function(){

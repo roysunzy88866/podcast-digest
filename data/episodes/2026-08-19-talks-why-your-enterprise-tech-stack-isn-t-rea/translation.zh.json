@@ -1,0 +1,1570 @@
+[
+ {
+  "seg": 0,
+  "start": 15.11,
+  "end": 15.61,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 16.131,
+  "end": 19.672,
+  "speaker": "Unknown",
+  "en": "My name is Christopher Lovejoy, and I'm a member of technical staff at Anthropic.",
+  "zh": "我叫 Christopher Lovejoy,我是 Anthropic 的技术成员。"
+ },
+ {
+  "seg": 2,
+  "start": 19.792,
+  "end": 21.793,
+  "speaker": "Unknown",
+  "en": "And I work as a forward-deployed engineer.",
+  "zh": "我的工作是前置部署工程师。"
+ },
+ {
+  "seg": 3,
+  "start": 22.054,
+  "end": 27.096,
+  "speaker": "Unknown",
+  "en": "So I embed within enterprise organizations and help them get value from using AI agents.",
+  "zh": "所以我嵌入到企业组织内部，帮助他们从使用 AI 智能体中获得价值。"
+ },
+ {
+  "seg": 4,
+  "start": 27.977,
+  "end": 30.798,
+  "speaker": "Unknown",
+  "en": "And I previously worked at Anterior with Saul.",
+  "zh": "我之前和 Saul 一起在 Anterior 工作。"
+ },
+ {
+  "seg": 5,
+  "start": 31.659,
+  "end": 32.259,
+  "speaker": "Unknown",
+  "en": "Hi, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 6,
+  "start": 32.499,
+  "end": 33.239,
+  "speaker": "Unknown",
+  "en": "I'm Saul.",
+  "zh": "我是 Saul。"
+ },
+ {
+  "seg": 7,
+  "start": 33.439,
+  "end": 35.3,
+  "speaker": "Unknown",
+  "en": "I'm VP of engineering at Anterior.",
+  "zh": "我是 Anterior 的工程副总裁。"
+ },
+ {
+  "seg": 8,
+  "start": 35.38,
+  "end": 42.904,
+  "speaker": "Unknown",
+  "en": "We're a New York-based company selling AI, agentic AI, to US health insurance companies.",
+  "zh": "我们是一家总部位于纽约的公司，向美国健康保险公司销售 AI、智能体式 AI。"
+ },
+ {
+  "seg": 9,
+  "start": 45.141,
+  "end": 51.803,
+  "speaker": "Unknown",
+  "en": "Chris and I have spent a lot of time building in enterprise and in healthcare enterprises particularly.",
+  "zh": "Chris 和我花了很多时间在企业领域做构建，尤其是在医疗健康企业领域。"
+ },
+ {
+  "seg": 10,
+  "start": 52.503,
+  "end": 57.985,
+  "speaker": "Unknown",
+  "en": "And healthcare is a very challenging place to develop and deploy AI.",
+  "zh": "而医疗健康是一个非常有挑战性的 AI 开发和部署领域。"
+ },
+ {
+  "seg": 11,
+  "start": 59.085,
+  "end": 71.689,
+  "speaker": "Unknown",
+  "en": "Healthcare is so challenging because of the requirements around process and compliance, the regulatory requirements that are so important.",
+  "zh": "医疗健康之所以这么有挑战性，是因为流程和合规方面的要求，以及那些极其重要的监管要求。"
+ },
+ {
+  "seg": 12,
+  "start": 72.721,
+  "end": 80.286,
+  "speaker": "Unknown",
+  "en": "Also because of the direct, real impact that your work has on people's lives, which is, of course, also what makes it so rewarding.",
+  "zh": "还因为你的工作会对人们的生活产生直接的真实影响，当然，这也是让它如此有回报感的原因。"
+ },
+ {
+  "seg": 13,
+  "start": 82.067,
+  "end": 98.178,
+  "speaker": "Unknown",
+  "en": "I think a lot of the learnings you can take from working in enterprise for healthcare, you can take to enterprise in other regulated industries, like finance, defense, government work, anywhere where process is so important and has to be followed.",
+  "zh": "我认为你在医疗健康企业工作获得的很多经验，可以带到其他受监管行业的企业中，比如金融、国防、政府工作，任何流程极其重要且必须被遵循的地方。"
+ },
+ {
+  "seg": 14,
+  "start": 99.673,
+  "end": 110.459,
+  "speaker": "Unknown",
+  "en": "In this talk, we're going to talk about some of the learnings that we've had, and specifically, we're going to talk about why enterprise tech stacks aren't ready for AI agents, and some of the primitives that we've built in the past in order to unlock them.",
+  "zh": "在这次演讲中，我们将谈论我们获得的一些经验，具体来说，我们将谈论为什么企业技术栈还没有为 AI 智能体做好准备，以及我们过去为解锁它们而构建的一些原语。"
+ },
+ {
+  "seg": 15,
+  "start": 111.74,
+  "end": 119.345,
+  "speaker": "Unknown",
+  "en": "And to make this concrete, let's start by considering a scenario that might be familiar to many of you, which is the enterprise proof of concept, the enterprise POC.",
+  "zh": "为了让这个话题具体化，让我们从一个你们很多人可能都熟悉的场景开始，那就是企业概念验证，也就是企业 POC。"
+ },
+ {
+  "seg": 16,
+  "start": 120.657,
+  "end": 127.166,
+  "speaker": "Unknown",
+  "en": "And let's say we have identified a customer that we want to serve and we've identified a priority use case with them.",
+  "zh": "假设我们已经确定了一个想要服务的客户，并和他们一起确定了一个优先用例。"
+ },
+ {
+  "seg": 17,
+  "start": 127.387,
+  "end": 129.45,
+  "speaker": "Unknown",
+  "en": "So obviously we're on the healthcare track here.",
+  "zh": "显然，我们这里走的是医疗健康路线。"
+ },
+ {
+  "seg": 18,
+  "start": 129.49,
+  "end": 136.68,
+  "speaker": "Unknown",
+  "en": "Let's consider a large health system and a use case that is some sort of administrative healthcare workflow.",
+  "zh": "让我们考虑一个大型医疗系统，用例是某种医疗行政管理类工作流。"
+ },
+ {
+  "seg": 19,
+  "start": 137.581,
+  "end": 138.261,
+  "speaker": "Unknown",
+  "en": "So you work with them.",
+  "zh": "所以你和他们一起工作。"
+ },
+ {
+  "seg": 20,
+  "start": 138.321,
+  "end": 139.422,
+  "speaker": "Unknown",
+  "en": "You scope out a POC.",
+  "zh": "你规划出一个 POC 的范围。"
+ },
+ {
+  "seg": 21,
+  "start": 139.442,
+  "end": 143.264,
+  "speaker": "Unknown",
+  "en": "You define the metrics that you are going to care about and you're going to benchmark yourselves on.",
+  "zh": "你定义你将会关心并用来给自己做基准测试的指标。"
+ },
+ {
+  "seg": 22,
+  "start": 144.244,
+  "end": 145.245,
+  "speaker": "Unknown",
+  "en": "You allocate two engineers.",
+  "zh": "你分配两名工程师。"
+ },
+ {
+  "seg": 23,
+  "start": 145.365,
+  "end": 146.726,
+  "speaker": "Unknown",
+  "en": "You spend four weeks building it.",
+  "zh": "你花四周时间构建它。"
+ },
+ {
+  "seg": 24,
+  "start": 147.726,
+  "end": 151.428,
+  "speaker": "Unknown",
+  "en": "And the actual build out might look a little bit something like this.",
+  "zh": "实际的构建过程可能看起来大致像这样。"
+ },
+ {
+  "seg": 25,
+  "start": 152.59,
+  "end": 155.794,
+  "speaker": "Unknown",
+  "en": "An enterprise stack is very complicated.",
+  "zh": "企业技术栈非常复杂。"
+ },
+ {
+  "seg": 26,
+  "start": 156.034,
+  "end": 157.916,
+  "speaker": "Unknown",
+  "en": "It's much, much more than we're showing here.",
+  "zh": "它比我们这里展示的要复杂得多。"
+ },
+ {
+  "seg": 27,
+  "start": 157.976,
+  "end": 163.302,
+  "speaker": "Unknown",
+  "en": "But generally, you can have an application layer, a control plane layer, the data plane.",
+  "zh": "但一般来说，你可以有一个应用层、一个控制平面层、数据平面。"
+ },
+ {
+  "seg": 28,
+  "start": 163.322,
+  "end": 167.827,
+  "speaker": "Unknown",
+  "en": "For your POC, you're going to need some access to the model provider as well.",
+  "zh": "对于你的 POC,你还需要某种对模型提供商的访问权限。"
+ },
+ {
+  "seg": 29,
+  "start": 168.708,
+  "end": 173.03,
+  "speaker": "Unknown",
+  "en": "And your PC is going to need access to data across all of these different planes.",
+  "zh": "而且你的 POC 需要访问跨越所有这些不同平面的数据。"
+ },
+ {
+  "seg": 30,
+  "start": 173.09,
+  "end": 176.571,
+  "speaker": "Unknown",
+  "en": "It may be some in the data lake, some directly from the application layer, for example.",
+  "zh": "例如，可能有一部分在数据湖里，有一部分直接来自应用层。"
+ },
+ {
+  "seg": 31,
+  "start": 177.292,
+  "end": 180.513,
+  "speaker": "Unknown",
+  "en": "And so you're going to deploy it, something like this.",
+  "zh": "于是你会像这样部署它。"
+ },
+ {
+  "seg": 32,
+  "start": 180.693,
+  "end": 182.954,
+  "speaker": "Unknown",
+  "en": "It's going to connect to all these different places.",
+  "zh": "它会连接到所有这些不同的地方。"
+ },
+ {
+  "seg": 33,
+  "start": 183.254,
+  "end": 185.315,
+  "speaker": "Unknown",
+  "en": "There's going to be some offline data pulling.",
+  "zh": "会有一些离线数据拉取。"
+ },
+ {
+  "seg": 34,
+  "start": 185.355,
+  "end": 187.316,
+  "speaker": "Unknown",
+  "en": "There's going to be maybe some online.",
+  "zh": "可能还会有一些在线的。"
+ },
+ {
+  "seg": 35,
+  "start": 188.096,
+  "end": 191.498,
+  "speaker": "Unknown",
+  "en": "Generally, you'll get access to the data and push towards the results.",
+  "zh": "一般来说，你会获得数据的访问权限，并推动得到结果。"
+ },
+ {
+  "seg": 36,
+  "start": 194.147,
+  "end": 194.867,
+  "speaker": "Unknown",
+  "en": "And so things go well.",
+  "zh": "于是事情进展顺利。"
+ },
+ {
+  "seg": 37,
+  "start": 195.267,
+  "end": 196.128,
+  "speaker": "Unknown",
+  "en": "You get great results.",
+  "zh": "你得到了很好的结果。"
+ },
+ {
+  "seg": 38,
+  "start": 196.208,
+  "end": 198.589,
+  "speaker": "Unknown",
+  "en": "The AI performs as you expected.",
+  "zh": "AI 的表现如你所预期。"
+ },
+ {
+  "seg": 39,
+  "start": 198.649,
+  "end": 200.609,
+  "speaker": "Unknown",
+  "en": "You hit the performance metrics.",
+  "zh": "你达到了性能指标。"
+ },
+ {
+  "seg": 40,
+  "start": 200.849,
+  "end": 201.449,
+  "speaker": "Unknown",
+  "en": "It's fast.",
+  "zh": "它很快。"
+ },
+ {
+  "seg": 41,
+  "start": 201.77,
+  "end": 202.59,
+  "speaker": "Unknown",
+  "en": "It's relatively cheap.",
+  "zh": "它相对便宜。"
+ },
+ {
+  "seg": 42,
+  "start": 203.21,
+  "end": 204.811,
+  "speaker": "Unknown",
+  "en": "And you hold a meeting.",
+  "zh": "然后你召开了一次会议。"
+ },
+ {
+  "seg": 43,
+  "start": 204.831,
+  "end": 207.431,
+  "speaker": "Unknown",
+  "en": "You present this to the relevant stakeholders, and everyone seems pretty happy.",
+  "zh": "你把这个展示给相关利益相关者，每个人看起来都相当满意。"
+ },
+ {
+  "seg": 44,
+  "start": 208.232,
+  "end": 215.134,
+  "speaker": "Unknown",
+  "en": "So your chief of finance in the company is very excited and wants to understand what's going to be the impact on the budget for next year.",
+  "zh": "比如你公司的财务负责人非常兴奋，想知道这对明年的预算会有什么影响。"
+ },
+ {
+  "seg": 45,
+  "start": 215.954,
+  "end": 220.136,
+  "speaker": "Unknown",
+  "en": "Your chief medical officer is excited to tell his colleagues how accurate his AI is.",
+  "zh": "你的首席医疗官很兴奋地想告诉他的同事们他的 AI 有多准确。"
+ },
+ {
+  "seg": 46,
+  "start": 221.537,
+  "end": 224.659,
+  "speaker": "Unknown",
+  "en": "And the head of sales asks, okay, when can we put Powered by AI?",
+  "zh": "然后销售负责人问，好了，我们什么时候能加上“由 AI 驱动”？"
+ },
+ {
+  "seg": 47,
+  "start": 224.679,
+  "end": 225.66,
+  "speaker": "Unknown",
+  "en": "When can we put that on the websites?",
+  "zh": "我们什么时候能把这个放到网站上？"
+ },
+ {
+  "seg": 48,
+  "start": 226.801,
+  "end": 231.305,
+  "speaker": "Unknown",
+  "en": "But the problem is that everyone here is assuming that the hard part is done, that the AI was the challenging part.",
+  "zh": "但问题在于，这里的每个人都假定困难的部分已经完成了，AI 就是那个具有挑战性的部分。"
+ },
+ {
+  "seg": 49,
+  "start": 231.725,
+  "end": 235.568,
+  "speaker": "Unknown",
+  "en": "But actually, as we know, often getting things into production is really where the challenge lies.",
+  "zh": "但实际上，正如我们所知道的，把东西送入生产环境往往才是真正的挑战所在。"
+ },
+ {
+  "seg": 50,
+  "start": 236.509,
+  "end": 238.61,
+  "speaker": "Unknown",
+  "en": "And to get a bit more specific on what that challenge looks like,",
+  "zh": "再稍微具体一点说明这个挑战是什么样子的,"
+ },
+ {
+  "seg": 51,
+  "start": 240.561,
+  "end": 241.542,
+  "speaker": "Unknown",
+  "en": "You hold a meeting the next day.",
+  "zh": "你第二天召开了一次会议。"
+ },
+ {
+  "seg": 52,
+  "start": 241.822,
+  "end": 246.243,
+  "speaker": "Unknown",
+  "en": "You bring in the relevant stakeholders to discuss productionizing this proof-of-concept application.",
+  "zh": "你把相关的利益相关者召集起来,讨论将这个概念验证应用投入生产化。"
+ },
+ {
+  "seg": 53,
+  "start": 247.224,
+  "end": 251.745,
+  "speaker": "Unknown",
+  "en": "And somebody raises their hand and says, can I see the audit trail for this?",
+  "zh": "然后有人举手说,我能看看这个的审计轨迹吗?"
+ },
+ {
+  "seg": 54,
+  "start": 251.865,
+  "end": 257.327,
+  "speaker": "Unknown",
+  "en": "Like for us, for compliance, it's critical that we can see every step, every action that the agent takes, every piece of data that it accesses.",
+  "zh": "比如对我们来说,为了合规,关键是能看到智能体采取的每一步、每一个动作、它访问的每一份数据。"
+ },
+ {
+  "seg": 55,
+  "start": 257.847,
+  "end": 258.808,
+  "speaker": "Unknown",
+  "en": "Can you give that to me?",
+  "zh": "你能把这些给我吗?"
+ },
+ {
+  "seg": 56,
+  "start": 259.308,
+  "end": 267.191,
+  "speaker": "Unknown",
+  "en": "And you realize that actually, you know, with the way things have been implemented in the initial POC without these kind of true integrations, that actually that's going to be quite challenging.",
+  "zh": "然后你意识到,实际上,你知道,按照最初 POC 的实现方式,没有这类真正的集成,这其实会相当有挑战性。"
+ },
+ {
+  "seg": 57,
+  "start": 268.009,
+  "end": 270.17,
+  "speaker": "Unknown",
+  "en": "And then somebody else pops up with some other questions.",
+  "zh": "然后又有其他人提出了另外的问题。"
+ },
+ {
+  "seg": 58,
+  "start": 270.39,
+  "end": 273.472,
+  "speaker": "Unknown",
+  "en": "So somebody asks, OK, well, actually, how is sensitive data being handled here?",
+  "zh": "有人问,好,那么实际上,敏感数据在这里是如何被处理的?"
+ },
+ {
+  "seg": 59,
+  "start": 274.052,
+  "end": 275.012,
+  "speaker": "Unknown",
+  "en": "How is that being passed to the agents?",
+  "zh": "这些数据是如何被传给智能体的?"
+ },
+ {
+  "seg": 60,
+  "start": 275.133,
+  "end": 279.114,
+  "speaker": "Unknown",
+  "en": "We have a very strict boundary around where our data can go and where it can't go.",
+  "zh": "对于我们的数据可以去哪里、不能去哪里,我们有非常严格的边界。"
+ },
+ {
+  "seg": 61,
+  "start": 279.775,
+  "end": 280.735,
+  "speaker": "Unknown",
+  "en": "Is this respecting that?",
+  "zh": "这有没有遵守那个边界?"
+ },
+ {
+  "seg": 62,
+  "start": 280.775,
+  "end": 281.296,
+  "speaker": "Unknown",
+  "en": "How does that look?",
+  "zh": "那是什么样的情况?"
+ },
+ {
+  "seg": 63,
+  "start": 282.056,
+  "end": 284.817,
+  "speaker": "Unknown",
+  "en": "And then your chief medical officer says, again, who's approving the decisions here?",
+  "zh": "然后你的首席医疗官说,再说一次,这里是谁在批准这些决策?"
+ },
+ {
+  "seg": 64,
+  "start": 284.837,
+  "end": 293.181,
+  "speaker": "Unknown",
+  "en": "Because we know in certain scenarios we have to escalate to a clinician who will then approve or not agree with what the agent is saying.",
+  "zh": "因为我们知道在某些场景下,我们必须升级给一位临床医生,由他来批准或不同意智能体所说的内容。"
+ },
+ {
+  "seg": 65,
+  "start": 294.102,
+  "end": 294.902,
+  "speaker": "Unknown",
+  "en": "So how does that happen?",
+  "zh": "那么这是如何发生的?"
+ },
+ {
+  "seg": 66,
+  "start": 294.922,
+  "end": 295.763,
+  "speaker": "Unknown",
+  "en": "What's the mechanism for that?",
+  "zh": "这背后的机制是什么?"
+ },
+ {
+  "seg": 67,
+  "start": 296.563,
+  "end": 299.064,
+  "speaker": "Unknown",
+  "en": "And over the course of the meetings, you can imagine you get more and more questions.",
+  "zh": "而且在整个会议过程中,你可以想象问题会越来越多。"
+ },
+ {
+  "seg": 68,
+  "start": 299.124,
+  "end": 301.166,
+  "speaker": "Unknown",
+  "en": "So can untrusted data manipulate the model?",
+  "zh": "比如不可信的数据能操纵模型吗?"
+ },
+ {
+  "seg": 69,
+  "start": 301.546,
+  "end": 303.547,
+  "speaker": "Unknown",
+  "en": "How do we know that the agent continues to perform well?",
+  "zh": "我们怎么知道智能体持续表现良好?"
+ },
+ {
+  "seg": 70,
+  "start": 303.967,
+  "end": 305.288,
+  "speaker": "Unknown",
+  "en": "How do we deal with integrations?",
+  "zh": "我们如何处理集成?"
+ },
+ {
+  "seg": 71,
+  "start": 305.308,
+  "end": 308.169,
+  "speaker": "Unknown",
+  "en": "How do we connect to Epic, to Salesforce, to the other kind of applications that we care about?",
+  "zh": "我们如何连接到 Epic、Salesforce,以及我们关心的其他那些应用?"
+ },
+ {
+  "seg": 72,
+  "start": 309.19,
+  "end": 313.192,
+  "speaker": "Unknown",
+  "en": "And for the purposes of this talk, we're going to focus on these four, the highlighted ones.",
+  "zh": "为了本次演讲的目的,我们将聚焦在这四个被高亮的问题上。"
+ },
+ {
+  "seg": 73,
+  "start": 313.672,
+  "end": 316.134,
+  "speaker": "Unknown",
+  "en": "For the other two, feel free to come and chat to me and Saul about these later.",
+  "zh": "对于另外两个,欢迎稍后来找我或 Saul 聊聊这些问题。"
+ },
+ {
+  "seg": 74,
+  "start": 316.154,
+  "end": 319.736,
+  "speaker": "Unknown",
+  "en": "We're very happy to talk, but just in the interest of time, we'll stay focused.",
+  "zh": "我们非常乐意交流,不过为了节省时间,我们还是保持聚焦。"
+ },
+ {
+  "seg": 75,
+  "start": 320.436,
+  "end": 323.178,
+  "speaker": "Unknown",
+  "en": "And let's start with this one about the audit trail.",
+  "zh": "那么让我们从关于审计轨迹的这个问题开始。"
+ },
+ {
+  "seg": 76,
+  "start": 323.898,
+  "end": 327.963,
+  "speaker": "Unknown",
+  "en": "So this is a question you're guaranteed to get from the security team.",
+  "zh": "这是一个你肯定会被安全团队问到的问题。"
+ },
+ {
+  "seg": 77,
+  "start": 328.504,
+  "end": 330.326,
+  "speaker": "Unknown",
+  "en": "They're going to want to see an audit trail.",
+  "zh": "他们会想看到一份审计轨迹。"
+ },
+ {
+  "seg": 78,
+  "start": 331.268,
+  "end": 337.015,
+  "speaker": "Unknown",
+  "en": "And for programmers, an audit trail sounds very like a typical developer log that you might have in Datadog.",
+  "zh": "对程序员来说,审计轨迹听起来很像你在 Datadog 里可能有的那种典型的开发者日志。"
+ },
+ {
+  "seg": 79,
+  "start": 337.055,
+  "end": 338.917,
+  "speaker": "Unknown",
+  "en": "Surely it's a similar kind of thing.",
+  "zh": "肯定是类似的东西吧。"
+ },
+ {
+  "seg": 80,
+  "start": 339.538,
+  "end": 350.702,
+  "speaker": "Unknown",
+  "en": "But for security frameworks that exist in the real enterprise world, like SOC2, HITRUST, HIPAA, an audit trail is a bit more than that.",
+  "zh": "但对于真实企业世界里存在的安全框架,比如 SOC2、HITRUST、HIPAA,审计轨迹比那要多一些。"
+ },
+ {
+  "seg": 81,
+  "start": 350.942,
+  "end": 355.883,
+  "speaker": "Unknown",
+  "en": "It has to contain a complete record of absolutely every action that the agent took.",
+  "zh": "它必须包含智能体所采取的绝对每一个动作的完整记录。"
+ },
+ {
+  "seg": 82,
+  "start": 356.444,
+  "end": 364.166,
+  "speaker": "Unknown",
+  "en": "It has to contain all of the places where the agent accessed data, all of the authorization by which the agent did something.",
+  "zh": "它必须包含智能体访问数据的所有位置、智能体做某件事的所有授权。"
+ },
+ {
+  "seg": 83,
+  "start": 364.927,
+  "end": 368.748,
+  "speaker": "Unknown",
+  "en": "It's this complete record in a much more fundamental way.",
+  "zh": "它在一种更根本的意义上是这份完整记录。"
+ },
+ {
+  "seg": 84,
+  "start": 369.668,
+  "end": 372.712,
+  "speaker": "Unknown",
+  "en": "And one way of thinking about it is in a legal sense.",
+  "zh": "理解它的一种方式是从法律意义上来看。"
+ },
+ {
+  "seg": 85,
+  "start": 374.274,
+  "end": 378.219,
+  "speaker": "Unknown",
+  "en": "Say our agent's decisions came up in a court of law.",
+  "zh": "假设我们智能体的决策在法庭上被提及。"
+ },
+ {
+  "seg": 86,
+  "start": 379.06,
+  "end": 384.668,
+  "speaker": "Unknown",
+  "en": "Could we show a justifiable chain of evidence for why the particular actions were taken by a decision?",
+  "zh": "我们能否展示出一条可辩护的证据链,说明为什么某个决策采取了那些特定的行动?"
+ },
+ {
+  "seg": 87,
+  "start": 385.008,
+  "end": 387.872,
+  "speaker": "Unknown",
+  "en": "And that's something that could easily happen within the healthcare context, for example.",
+  "zh": "而举例来说,这种情况在医疗健康场景中是很容易发生的。"
+ },
+ {
+  "seg": 88,
+  "start": 389.155,
+  "end": 397.439,
+  "speaker": "Unknown",
+  "en": "When I think about architecting systems like this, I think often about what do I want to make easy.",
+  "zh": "当我思考如何架构这样的系统时,我经常思考的是我想让什么变得容易。"
+ },
+ {
+  "seg": 89,
+  "start": 398.059,
+  "end": 406.903,
+  "speaker": "Unknown",
+  "en": "When I'm choosing my constraints, I'm saying, OK, these are the things I want my system to be easy, and let that drive the trade-offs that I'm going to make.",
+  "zh": "当我在选择约束时,我会说,好,这些是我希望我的系统容易做到的事情,然后让我要做的权衡由这个来驱动。"
+ },
+ {
+  "seg": 90,
+  "start": 407.949,
+  "end": 424.781,
+  "speaker": "Unknown",
+  "en": "And a particular pattern that is used in lots of different industries, for example, in finance, is a transaction log, an immutable record of events that store all of the transactions that happen throughout the system.",
+  "zh": "有一种在许多不同行业都被使用的模式,例如在金融领域,就是交易日志,一种不可变的事件记录,存储整个系统中发生的所有交易。"
+ },
+ {
+  "seg": 91,
+  "start": 425.902,
+  "end": 428.726,
+  "speaker": "Unknown",
+  "en": "And this is append-only, timestamp-log.",
+  "zh": "它是只追加的、带时间戳的日志。"
+ },
+ {
+  "seg": 92,
+  "start": 429.447,
+  "end": 430.548,
+  "speaker": "Unknown",
+  "en": "It's complete.",
+  "zh": "它是完整的。"
+ },
+ {
+  "seg": 93,
+  "start": 430.768,
+  "end": 433.772,
+  "speaker": "Unknown",
+  "en": "So this is your source of truth for all of the data of the system.",
+  "zh": "所以这是系统所有数据的事实来源。"
+ },
+ {
+  "seg": 94,
+  "start": 434.553,
+  "end": 435.234,
+  "speaker": "Unknown",
+  "en": "And it's unified.",
+  "zh": "而且它是统一的。"
+ },
+ {
+  "seg": 95,
+  "start": 435.254,
+  "end": 440.14,
+  "speaker": "Unknown",
+  "en": "So there is only one source of truth across all of the different agents that you might have running in parallel, for example.",
+  "zh": "所以,举例来说,对于你可能并行运行的所有不同智能体,只有一个事实来源。"
+ },
+ {
+  "seg": 96,
+  "start": 441.291,
+  "end": 448.054,
+  "speaker": "Unknown",
+  "en": "And architecting this way, making this trade-off, means that auditability becomes trivial.",
+  "zh": "而以这种方式进行架构、做出这种权衡,意味着可审计性变得轻而易举。"
+ },
+ {
+  "seg": 97,
+  "start": 448.754,
+  "end": 452.596,
+  "speaker": "Unknown",
+  "en": "It falls out of your data storage paradigm that you've chosen.",
+  "zh": "它从你所选择的数据存储范式中自然产生。"
+ },
+ {
+  "seg": 98,
+  "start": 452.996,
+  "end": 465.141,
+  "speaker": "Unknown",
+  "en": "It's impossible not to be able to roll back time and see exactly the state of the system at a particular point in time and be able to provide that as an audit trail for what happened at each point in time.",
+  "zh": "你不可能做不到回溯时间、看清系统在某个特定时间点的确切状态,并把那个作为审计轨迹提供出来,说明每个时间点发生了什么。"
+ },
+ {
+  "seg": 99,
+  "start": 466.323,
+  "end": 468.844,
+  "speaker": "Unknown",
+  "en": "And of course, these are trade-offs.",
+  "zh": "当然,这些都是权衡。"
+ },
+ {
+  "seg": 100,
+  "start": 469.105,
+  "end": 471.286,
+  "speaker": "Unknown",
+  "en": "So what's a trade-off you're making here?",
+  "zh": "那么你在这里做了什么权衡?"
+ },
+ {
+  "seg": 101,
+  "start": 471.686,
+  "end": 478.85,
+  "speaker": "Unknown",
+  "en": "I think we could say that for this kind of event logging, or sometimes called event sourcing pattern, writes become very easy.",
+  "zh": "我认为可以说,对于这种事件日志记录方式,或者有时称为事件溯源模式,写入变得非常容易。"
+ },
+ {
+  "seg": 102,
+  "start": 478.91,
+  "end": 480.05,
+  "speaker": "Unknown",
+  "en": "So you just drop an event.",
+  "zh": "你只需投放一个事件。"
+ },
+ {
+  "seg": 103,
+  "start": 480.691,
+  "end": 487.414,
+  "speaker": "Unknown",
+  "en": "Reads become more difficult because you have to read through all of the events in order to reconstruct a view of what happened.",
+  "zh": "读取则变得更加困难,因为你必须读取所有事件,才能重构出发生了什么的视图。"
+ },
+ {
+  "seg": 104,
+  "start": 487.474,
+  "end": 492.577,
+  "speaker": "Unknown",
+  "en": "And there are patterns like caching and snapshots that you can bring to make that simpler.",
+  "zh": "不过有一些模式,比如缓存和快照,可以让这件事变得更简单。"
+ },
+ {
+  "seg": 105,
+  "start": 492.597,
+  "end": 493.958,
+  "speaker": "Unknown",
+  "en": "But there always is more effort there.",
+  "zh": "但那里总是需要更多的投入。"
+ },
+ {
+  "seg": 106,
+  "start": 494.878,
+  "end": 505.704,
+  "speaker": "Unknown",
+  "en": "Although I have seen in the healthcare context that actually you're going to want different interpretations of the raw data that your agents recorded after the fact.",
+  "zh": "尽管我在医疗健康领域的情境中看到,实际上你会在事后想要对智能体记录的原始数据做出不同的解读。"
+ },
+ {
+  "seg": 107,
+  "start": 506.124,
+  "end": 517.69,
+  "speaker": "Unknown",
+  "en": "So for example, it might be that more events happened and that changes the interpretation of the healthcare journey and you want a different view of the source of truth at that particular time.",
+  "zh": "比如说,可能发生了更多事件,这改变了对医疗旅程的解读,而你想要在那个特定时间点得到一个不同的真相来源视图。"
+ },
+ {
+  "seg": 108,
+  "start": 518.51,
+  "end": 527.235,
+  "speaker": "Unknown",
+  "en": "And this pattern makes that easy because all of your views of the data are ephemeral computed projections of the event log.",
+  "zh": "而这种模式让这件事变得容易,因为你对数据的所有视图都是事件日志的临时计算投影。"
+ },
+ {
+  "seg": 109,
+  "start": 527.976,
+  "end": 529.056,
+  "speaker": "Unknown",
+  "en": "OK, next.",
+  "zh": "好,下一个。"
+ },
+ {
+  "seg": 110,
+  "start": 530.717,
+  "end": 536.02,
+  "speaker": "Unknown",
+  "en": "The compliance officer comes and is asking, how is the sensitive data passed around the system?",
+  "zh": "合规官来了,问:敏感数据在系统中是如何传递的?"
+ },
+ {
+  "seg": 111,
+  "start": 536.04,
+  "end": 538.402,
+  "speaker": "Unknown",
+  "en": "What's the life cycle of data within our system?",
+  "zh": "数据在我们系统内的生命周期是什么样的?"
+ },
+ {
+  "seg": 112,
+  "start": 538.942,
+  "end": 544.005,
+  "speaker": "Unknown",
+  "en": "And within a health care context, as we all know, data means a lot.",
+  "zh": "在医疗健康领域,正如我们所知,数据的分量很重。"
+ },
+ {
+  "seg": 113,
+  "start": 544.185,
+  "end": 547.087,
+  "speaker": "Unknown",
+  "en": "It's PHI, protected or personal health information.",
+  "zh": "它是 PHI,受保护或个人健康信息。"
+ },
+ {
+  "seg": 114,
+  "start": 547.987,
+  "end": 554.029,
+  "speaker": "Unknown",
+  "en": "It has legal restrictions around it, not just HIPAA, but other legal restrictions about the use of people's data.",
+  "zh": "它有法律上的限制,不仅是 HIPAA,还有其他关于使用个人数据的法律限制。"
+ },
+ {
+  "seg": 115,
+  "start": 554.65,
+  "end": 568.215,
+  "speaker": "Unknown",
+  "en": "You cannot have your agent, just as you cannot have humans, accessing and reading and utilizing healthcare data that they don't absolutely have a necessity to use at that point in time for that particular journey.",
+  "zh": "你不能让你的智能体——就像你不能让人类一样——去访问、读取和利用它们在那个时间点、那次特定旅程中并非绝对必需的医疗健康数据。"
+ },
+ {
+  "seg": 116,
+  "start": 569.69,
+  "end": 577.944,
+  "speaker": "Unknown",
+  "en": "So again, architecturally, when I think about how am I storing data within a particular system, I would like to think, what is the shape of the data?",
+  "zh": "所以再说一次,当我思考如何在特定系统内存储数据时,我会想:数据的形状是什么?"
+ },
+ {
+  "seg": 117,
+  "start": 577.964,
+  "end": 581.51,
+  "speaker": "Unknown",
+  "en": "What kind of characteristics does the data have?",
+  "zh": "数据具有什么样的特征?"
+ },
+ {
+  "seg": 118,
+  "start": 582.343,
+  "end": 585.666,
+  "speaker": "Unknown",
+  "en": "For healthcare data, that might be that it's very complicated.",
+  "zh": "对于医疗健康数据来说,可能是非常复杂的。"
+ },
+ {
+  "seg": 119,
+  "start": 586.226,
+  "end": 590.85,
+  "speaker": "Unknown",
+  "en": "It doesn't follow strict hierarchical relationships.",
+  "zh": "它不遵循严格的层级关系。"
+ },
+ {
+  "seg": 120,
+  "start": 591.75,
+  "end": 594.733,
+  "speaker": "Unknown",
+  "en": "It's sometimes unstructured and it's sometimes structured.",
+  "zh": "它有时是非结构化的,有时是结构化的。"
+ },
+ {
+  "seg": 121,
+  "start": 595.253,
+  "end": 596.214,
+  "speaker": "Unknown",
+  "en": "It could be very large.",
+  "zh": "它可能非常庞大。"
+ },
+ {
+  "seg": 122,
+  "start": 596.314,
+  "end": 602.599,
+  "speaker": "Unknown",
+  "en": "For example, healthcare data, one piece of healthcare data can easily be over a megabyte in size or much more than that.",
+  "zh": "例如医疗健康数据,一条医疗健康数据很容易超过一兆字节的大小,甚至远超于此。"
+ },
+ {
+  "seg": 123,
+  "start": 603.58,
+  "end": 605.961,
+  "speaker": "Unknown",
+  "en": "It has strict access controls, as we've been saying.",
+  "zh": "它有严格的访问控制,正如我们一直说的。"
+ },
+ {
+  "seg": 124,
+  "start": 606.041,
+  "end": 607.723,
+  "speaker": "Unknown",
+  "en": "The RBAC comes into play.",
+  "zh": "RBAC 就派上用场了。"
+ },
+ {
+  "seg": 125,
+  "start": 608.923,
+  "end": 612.925,
+  "speaker": "Unknown",
+  "en": "Both for humans and then for agents downstream of that.",
+  "zh": "既针对人类,也针对其下游的智能体。"
+ },
+ {
+  "seg": 126,
+  "start": 613.445,
+  "end": 621.348,
+  "speaker": "Unknown",
+  "en": "It may even be, I've seen customers where they're not willing to have their healthcare data leave their own environment, leave their on-prem VPC, for example.",
+  "zh": "甚至可能是这样,我见过有客户不愿意让他们的医疗健康数据离开自己的环境,比如离开他们的本地部署 VPC。"
+ },
+ {
+  "seg": 127,
+  "start": 621.748,
+  "end": 624.349,
+  "speaker": "Unknown",
+  "en": "So we have tangential access to their data.",
+  "zh": "所以我们对他们的数据只有间接的接触。"
+ },
+ {
+  "seg": 128,
+  "start": 625.589,
+  "end": 629.712,
+  "speaker": "Unknown",
+  "en": "And so an architectural paradigm I might go to is object storage.",
+  "zh": "因此我可能会采用的一种架构范式是对象存储。"
+ },
+ {
+  "seg": 129,
+  "start": 630.512,
+  "end": 633.194,
+  "speaker": "Unknown",
+  "en": "Schema-driven object storage I think is a good fit for this.",
+  "zh": "我认为模式驱动的对象存储很适合这个场景。"
+ },
+ {
+  "seg": 130,
+  "start": 633.855,
+  "end": 640.259,
+  "speaker": "Unknown",
+  "en": "It matches well with the choice of using event logging because you can separate the two.",
+  "zh": "它与选择使用事件日志很好地契合,因为你可以把两者分开。"
+ },
+ {
+  "seg": 131,
+  "start": 640.339,
+  "end": 652.628,
+  "speaker": "Unknown",
+  "en": "So the events we talked about as the record of what the agent is doing at any particular time only contain references to the schema-driven blobs that are the storage of the actual healthcare data itself.",
+  "zh": "我们谈到的事件作为智能体在任何特定时间所做行为的记录,只包含对模式驱动 blob 的引用,而那些 blob 才是实际医疗健康数据本身的存储。"
+ },
+ {
+  "seg": 132,
+  "start": 653.448,
+  "end": 663.436,
+  "speaker": "Unknown",
+  "en": "And it's important, therefore, that the healthcare data is stored immutably, again, so that you can always go back in time and reconstruct what data the agent had access to at that particular point in time.",
+  "zh": "因此很重要的一点是,医疗健康数据要以不可变的方式存储,这样你才能随时回到过去,重构智能体在那个特定时间点可以访问哪些数据。"
+ },
+ {
+  "seg": 133,
+  "start": 664.177,
+  "end": 673.465,
+  "speaker": "Unknown",
+  "en": "This separation of events for what happened and object storage for the data that was used at that particular point in time",
+  "zh": "这种“用事件记录发生了什么、用对象存储存放当时使用的数据”的分离"
+ },
+ {
+  "seg": 134,
+  "start": 674.888,
+  "end": 677.429,
+  "speaker": "Unknown",
+  "en": "has actually some very useful benefits.",
+  "zh": "实际上带来一些非常有用的好处。"
+ },
+ {
+  "seg": 135,
+  "start": 677.909,
+  "end": 694.453,
+  "speaker": "Unknown",
+  "en": "For example, with a system like this, it's possible for developers to go back and debug and have observability over what happened, what particular steps the agent took, why it did that, and retrace the agent's steps without having access to the",
+  "zh": "例如,有了这样一个系统,开发者可以回溯调试,对发生了什么拥有可观测性——智能体采取了哪些特定步骤、为什么这么做——并重现智能体的步骤,而无需访问"
+ },
+ {
+  "seg": 136,
+  "start": 695.573,
+  "end": 696.993,
+  "speaker": "Unknown",
+  "en": "Personal Health Information itself.",
+  "zh": "个人健康信息本身。"
+ },
+ {
+  "seg": 137,
+  "start": 697.393,
+  "end": 705.855,
+  "speaker": "Unknown",
+  "en": "Although, because of the schema-driven, they can see the shape of that data, they can't and, to be honest, often won't be able to be given access to that healthcare data.",
+  "zh": "不过,由于是模式驱动的,他们能看到数据的形状,但无法——说实话,通常也不会被给予——访问那些医疗健康数据。"
+ },
+ {
+  "seg": 138,
+  "start": 706.195,
+  "end": 711.617,
+  "speaker": "Unknown",
+  "en": "So you can separate out observability and orchestration and instrumentation from the healthcare data itself.",
+  "zh": "所以你可以把可观测性、编排和插桩与医疗健康数据本身分离开来。"
+ },
+ {
+  "seg": 139,
+  "start": 712.597,
+  "end": 716.078,
+  "speaker": "Unknown",
+  "en": "This then has another benefit, which is zero trust.",
+  "zh": "这又带来了另一个好处,那就是零信任。"
+ },
+ {
+  "seg": 140,
+  "start": 718.698,
+  "end": 722.279,
+  "speaker": "Unknown",
+  "en": "The object storage becomes a place where you can apply zero trust principles",
+  "zh": "对象存储成为一个你可以应用零信任原则的地方。"
+ },
+ {
+  "seg": 141,
+  "start": 723.114,
+  "end": 734.717,
+  "speaker": "Unknown",
+  "en": "Your agents can bear tokens and use those tokens to access the data at the point of use and not allow data to flow around the system as it likes.",
+  "zh": "你的智能体可以持有令牌,并在使用点上使用这些令牌访问数据,而不允许数据在系统中随意流动。"
+ },
+ {
+  "seg": 142,
+  "start": 735.598,
+  "end": 741.944,
+  "speaker": "Unknown",
+  "en": "This then leads into a mitigation for prompt injection for the lethal trifecta.",
+  "zh": "这就引出了对提示词注入——即致命三要素——的一种缓解手段。"
+ },
+ {
+  "seg": 143,
+  "start": 742.604,
+  "end": 755.496,
+  "speaker": "Unknown",
+  "en": "The way I think about the lethal trifecta is, can I solve for the constraint, if I have an agent at point A with access to this data, is it possible within my architecture for the agent to be also accessing data over here?",
+  "zh": "我对致命三要素的思考方式是:我能否解决这个约束——如果我在 A 点有一个可以访问这些数据的智能体,在我的架构中是否可能让该智能体同时也访问另一边的那些数据?"
+ },
+ {
+  "seg": 144,
+  "start": 756.437,
+  "end": 768.612,
+  "speaker": "Unknown",
+  "en": "And zero trust principles, tokens are bared by the agents, and object storage segregated from the event stream that has your orchestration logic gives you a place to be able to solve for that constraint.",
+  "zh": "零信任原则、由智能体持有令牌、以及与包含编排逻辑的事件流相隔离的对象存储,给了你一个能够解决该约束的地方。"
+ },
+ {
+  "seg": 145,
+  "start": 768.932,
+  "end": 774.679,
+  "speaker": "Unknown",
+  "en": "It won't be possible for the agent to access data within the same process that you've given it the previous data.",
+  "zh": "这样一来,智能体就无法在同一个进程中访问你之前给过它的那些数据。"
+ },
+ {
+  "seg": 146,
+  "start": 777.988,
+  "end": 781.731,
+  "speaker": "Unknown",
+  "en": "Okay, so then it comes to how do you handle escalation.",
+  "zh": "好,那么接下来就是如何处理升级上报。"
+ },
+ {
+  "seg": 147,
+  "start": 782.211,
+  "end": 789.456,
+  "speaker": "Unknown",
+  "en": "And in many scenarios you will want to be able to escalate the decision that an agent makes or an action that an agent makes to a human.",
+  "zh": "在很多场景中,你会希望能够把智能体做出的某个决定或采取的某个行动升级上报给人类。"
+ },
+ {
+  "seg": 148,
+  "start": 790.116,
+  "end": 792.838,
+  "speaker": "Unknown",
+  "en": "But one of the challenges here is that this is quite dynamic.",
+  "zh": "但这里的一个挑战是,这是相当动态的。"
+ },
+ {
+  "seg": 149,
+  "start": 792.858,
+  "end": 795.86,
+  "speaker": "Unknown",
+  "en": "So you don't know in advance when exactly perhaps the agent's going to escalate.",
+  "zh": "所以你无法提前确切知道智能体什么时候可能上报。"
+ },
+ {
+  "seg": 150,
+  "start": 796.321,
+  "end": 799.323,
+  "speaker": "Unknown",
+  "en": "It could be that you're asking the AI to escalate when it's not sure.",
+  "zh": "可能是你要求 AI 在不确定时进行升级上报。"
+ },
+ {
+  "seg": 151,
+  "start": 800.283,
+  "end": 813.685,
+  "speaker": "Unknown",
+  "en": "It could be that you define some sort of rules in your system, maybe in a medical context, the treatments going above a certain threshold means that it needs to be escalated for an approval, but this makes it very challenging because of this inability to predict.",
+  "zh": "也可能是你在系统里定义了某种规则,比如在医疗场景中,治疗超过某个阈值就意味着需要升级以获得批准,但由于无法预测,这使得这件事非常具有挑战性。"
+ },
+ {
+  "seg": 152,
+  "start": 814.326,
+  "end": 819.847,
+  "speaker": "Unknown",
+  "en": "And a second challenge is also that humans and LLMs ultimately process context differently.",
+  "zh": "第二个挑战是,人类和 LLM 处理上下文的方式从根本上不同。"
+ },
+ {
+  "seg": 153,
+  "start": 820.747,
+  "end": 825.127,
+  "speaker": "Unknown",
+  "en": "LLMs will have no problem if you give them massive, massive amounts of text, but humans, that's not the case.",
+  "zh": "LLM 对你给它们海量、海量的文本毫无问题,但人类并非如此。"
+ },
+ {
+  "seg": 154,
+  "start": 825.888,
+  "end": 827.708,
+  "speaker": "Unknown",
+  "en": "So what we've seen is that",
+  "zh": "所以我们看到的是"
+ },
+ {
+  "seg": 155,
+  "start": 829.091,
+  "end": 842.998,
+  "speaker": "Unknown",
+  "en": "One pattern that can work very well here is if in your platform you enforce a wider definition of agent which encompasses both LLMs and humans, then you can make it such that any action that can be taken by an LLM could also be taken by a human.",
+  "zh": "一种在这里能运作得很好的模式是,如果你在平台中强制执行一个更宽泛的 agent 定义,把 LLM 和人类都囊括在内,那么你就可以做到让任何 LLM 能执行的动作,人类也能执行。"
+ },
+ {
+  "seg": 156,
+  "start": 843.738,
+  "end": 856.125,
+  "speaker": "Unknown",
+  "en": "And this is helpful because at any point in the chain of actions that your agent is taking, it can escalate to a human, the human could perform that action, and then any step downstream doesn't care about whether it was a human or an LLM that did those actions upstream.",
+  "zh": "这很有帮助,因为在你的智能体所采取的动作链中的任何一点,它都可以升级给人类,人类可以执行那个动作,而下游的任何步骤都不在乎上游那些动作是由人类还是 LLM 执行的。"
+ },
+ {
+  "seg": 157,
+  "start": 860.024,
+  "end": 882.729,
+  "speaker": "Unknown",
+  "en": "On the second point around the context, what this also makes much easier is that you can define methods that take the context, which has some kind of shared definition of context, which is irrespective of whether it's a human or an LLM that's going to be accessing it, and you can take those methods to then map into something that's agent-friendly, like a prompt, or into something that's more human-friendly, for example, a UI.",
+  "zh": "关于上下文的第二点,这也让另一件事变得容易得多:你可以定义一些方法,接收上下文——上下文有某种共享的定义,与将要访问它的是人类还是 LLM 无关——然后用这些方法把它映射成对智能体友好的东西,比如一个 prompt,或者映射成对人类更友好的东西,比如一个 UI。"
+ },
+ {
+  "seg": 158,
+  "start": 887.136,
+  "end": 891.579,
+  "speaker": "Unknown",
+  "en": "And then on this fourth and final question that we're going to talk about, evals.",
+  "zh": "接下来是我们将要讨论的第四个也是最后一个问题,evals。"
+ },
+ {
+  "seg": 159,
+  "start": 893.24,
+  "end": 895.122,
+  "speaker": "Unknown",
+  "en": "Obviously, we hear a lot about evals.",
+  "zh": "显然,我们听到很多关于 evals 的讨论。"
+ },
+ {
+  "seg": 160,
+  "start": 895.242,
+  "end": 896.643,
+  "speaker": "Unknown",
+  "en": "We know that evals can be very helpful.",
+  "zh": "我们知道 evals 可以非常有帮助。"
+ },
+ {
+  "seg": 161,
+  "start": 896.983,
+  "end": 903.087,
+  "speaker": "Unknown",
+  "en": "Often they drive decision-making about the types of model you want to use, the type of approach you might want to use within your product.",
+  "zh": "它们常常驱动着关于你想使用的模型类型、你想在产品中采用的方法类型的决策。"
+ },
+ {
+  "seg": 162,
+  "start": 903.587,
+  "end": 905.209,
+  "speaker": "Unknown",
+  "en": "But we also know that evals can be pretty hard.",
+  "zh": "但我们也知道 evals 可能相当困难。"
+ },
+ {
+  "seg": 163,
+  "start": 905.609,
+  "end": 906.73,
+  "speaker": "Unknown",
+  "en": "And there's various factors here.",
+  "zh": "这里有各种因素。"
+ },
+ {
+  "seg": 164,
+  "start": 907.23,
+  "end": 909.491,
+  "speaker": "Unknown",
+  "en": "We know that LLMs are not deterministic.",
+  "zh": "我们知道 LLM 不是确定性的。"
+ },
+ {
+  "seg": 165,
+  "start": 909.772,
+  "end": 914.115,
+  "speaker": "Unknown",
+  "en": "So it can be quite tricky to pin down the precise change that led to some sort of change in output.",
+  "zh": "所以要精确锁定是哪一处改动导致了输出上的某种变化,可能相当棘手。"
+ },
+ {
+  "seg": 166,
+  "start": 916.038,
+  "end": 922.621,
+  "speaker": "Unknown",
+  "en": "We also know that the data that you might put in an offline dataset might not necessarily represent production data.",
+  "zh": "我们也知道,你可能放进离线数据集的数据不一定能代表生产数据。"
+ },
+ {
+  "seg": 167,
+  "start": 923.021,
+  "end": 928.143,
+  "speaker": "Unknown",
+  "en": "And it could be that maybe you sampled from data, but actually that sample isn't truly representative.",
+  "zh": "还有可能是你从数据中做了抽样,但实际上那个样本并不真正具有代表性。"
+ },
+ {
+  "seg": 168,
+  "start": 928.583,
+  "end": 934.186,
+  "speaker": "Unknown",
+  "en": "And then you also have drift of data over time, so maybe your offline dataset is now out of date.",
+  "zh": "然后你还会有数据随时间的漂移,所以也许你的离线数据集现在已经过时了。"
+ },
+ {
+  "seg": 169,
+  "start": 936.987,
+  "end": 941.61,
+  "speaker": "Unknown",
+  "en": "And what we found is that these three primitives that we've described so far in the talk",
+  "zh": "而我们发现,我们到目前为止在本次演讲中描述的这三个原语"
+ },
+ {
+  "seg": 170,
+  "start": 942.543,
+  "end": 951.477,
+  "speaker": "Unknown",
+  "en": "Actually give you effective privacy preserving evals almost as a byproduct without needing to kind of bolt something onto the side of your architecture.",
+  "zh": "实际上几乎作为副产品就给了你有效的隐私保护的 evals,而不需要在架构旁边额外加上什么东西。"
+ },
+ {
+  "seg": 171,
+  "start": 952.428,
+  "end": 956.889,
+  "speaker": "Unknown",
+  "en": "So to make that more concrete, what this means is that you can replay your actions.",
+  "zh": "为了更具体地说明,这意味着你可以重放你的动作。"
+ },
+ {
+  "seg": 172,
+  "start": 957.409,
+  "end": 961.59,
+  "speaker": "Unknown",
+  "en": "So you can go back to any particular time in this sequence of events.",
+  "zh": "你可以回到这个事件序列中的任何特定时间点。"
+ },
+ {
+  "seg": 173,
+  "start": 961.97,
+  "end": 964.591,
+  "speaker": "Unknown",
+  "en": "You can see the complete state of the system at that point in time.",
+  "zh": "你可以看到那个时间点系统的完整状态。"
+ },
+ {
+  "seg": 174,
+  "start": 965.071,
+  "end": 967.631,
+  "speaker": "Unknown",
+  "en": "And if you wanted to, you could then make very specific tweaks.",
+  "zh": "而且如果你愿意,你可以做非常具体的微调。"
+ },
+ {
+  "seg": 175,
+  "start": 967.771,
+  "end": 968.632,
+  "speaker": "Unknown",
+  "en": "So you could tweak a prompt.",
+  "zh": "你可以微调一个 prompt。"
+ },
+ {
+  "seg": 176,
+  "start": 968.652,
+  "end": 969.852,
+  "speaker": "Unknown",
+  "en": "You could tweak a model.",
+  "zh": "你可以微调一个模型。"
+ },
+ {
+  "seg": 177,
+  "start": 969.872,
+  "end": 970.952,
+  "speaker": "Unknown",
+  "en": "You could tweak the code.",
+  "zh": "你可以微调代码。"
+ },
+ {
+  "seg": 178,
+  "start": 971.372,
+  "end": 974.933,
+  "speaker": "Unknown",
+  "en": "And you can see the exact direct impact of that because you have all of that context.",
+  "zh": "而且你可以看到它的确切的直接影响,因为你拥有所有那些上下文。"
+ },
+ {
+  "seg": 179,
+  "start": 976.498,
+  "end": 988.763,
+  "speaker": "Unknown",
+  "en": "Secondly, you have this human agent equivalency, which means that for any task, you could get both the agent, the LLM agent, and the human to perform it, and your difference is your eval.",
+  "zh": "其次,你有这种人类与智能体的等价性,这意味着对于任何任务,你可以让智能体——也就是 LLM 智能体——和人类都执行它,而你们的差异就是你的 eval。"
+ },
+ {
+  "seg": 180,
+  "start": 988.783,
+  "end": 989.824,
+  "speaker": "Unknown",
+  "en": "That gives you the eval scores.",
+  "zh": "这就给了你 eval 分数。"
+ },
+ {
+  "seg": 181,
+  "start": 990.764,
+  "end": 999.968,
+  "speaker": "Unknown",
+  "en": "And then finally, what the object storage enables you to do is to actually run these evals on production data, including inside your customer's environment, without actually ever exposing that data.",
+  "zh": "最后,对象存储让你能做到的是,真正在生产数据上运行这些 evals,包括在你的客户环境内部,而实际上从不暴露那些数据。"
+ },
+ {
+  "seg": 182,
+  "start": 1000.028,
+  "end": 1005.01,
+  "speaker": "Unknown",
+  "en": "And you can get your eval results without the sensitive data ever needing to come to where your agent's performing the work.",
+  "zh": "你可以拿到 eval 结果,而敏感数据从不需要来到你的智能体执行工作的地方。"
+ },
+ {
+  "seg": 183,
+  "start": 1008.302,
+  "end": 1018.531,
+  "speaker": "Unknown",
+  "en": "Right, so we've gone through four architectural principles that we found useful for building in healthcare and more generally in regulated environments for enterprise.",
+  "zh": "好,我们已经讲了四条我们发现对在医疗健康领域、以及更广泛地在受监管的企业环境中构建有用的架构原则。"
+ },
+ {
+  "seg": 184,
+  "start": 1019.092,
+  "end": 1035.287,
+  "speaker": "Unknown",
+  "en": "The immutable ledger of actions, the orchestration adjacent object storage, the human agent equivalency, and the way that with these three principles evals can emerge as a first class property of the system rather than as something you attach onto the side.",
+  "zh": "不可变的动作账本、编排相邻的对象存储、人类与智能体等价性,以及基于这三条原则,evals 可以作为系统的一等属性而浮现,而不是你附加在旁边的东西。"
+ },
+ {
+  "seg": 185,
+  "start": 1036.547,
+  "end": 1050.556,
+  "speaker": "Unknown",
+  "en": "I think one of the matters here is that I like to think about architecture as taking your constraints very seriously and thinking about what you want to be simple within the system and then choosing the trade-offs for that.",
+  "zh": "我想这里的一个要点是,我喜欢把架构理解为认真对待你的约束,思考你想让系统中的什么变得简单,然后为此选择权衡。"
+ },
+ {
+  "seg": 186,
+  "start": 1051.476,
+  "end": 1057.04,
+  "speaker": "Unknown",
+  "en": "And of course, alongside that, some things will become hard, but it's the things that are simple that are most important to you.",
+  "zh": "当然,与此同时,有些东西会变得困难,但那些对你最重要的东西是简单的。"
+ },
+ {
+  "seg": 187,
+  "start": 1058.015,
+  "end": 1062.816,
+  "speaker": "Unknown",
+  "en": "And that there are patterns that already exist across enterprises that solve for a lot of these things.",
+  "zh": "而且企业中已经存在能解决其中很多问题的模式。"
+ },
+ {
+  "seg": 188,
+  "start": 1062.956,
+  "end": 1068.258,
+  "speaker": "Unknown",
+  "en": "And sure, with AI, we need to combine them in new, sometimes radical ways and bring in other pieces.",
+  "zh": "当然,有了 AI,我们需要以新的、有时是激进的方式组合它们,并引入其他部分。"
+ },
+ {
+  "seg": 189,
+  "start": 1068.878,
+  "end": 1075.72,
+  "speaker": "Unknown",
+  "en": "But there are patterns that have worked very well within finance, within defense, within big tech that can be applied to this kind of system architecture.",
+  "zh": "但有一些在金融、国防、大型科技公司中已经运作得非常好的模式,可以应用于这种系统架构。"
+ },
+ {
+  "seg": 190,
+  "start": 1076.898,
+  "end": 1096.494,
+  "speaker": "Unknown",
+  "en": "And I'd say the takeaway is that where I've seen it go wrong is taking that initial POC, that point solution that showed so much promise and that showed the high accuracy, for example, and then trying to build up from it, strapping on the enterprise requirements as you come across them.",
+  "zh": "我想说的是,我见过走错路的地方,是拿着最初的那个 POC——那个展现出巨大前景、比如展现出高准确率的单点解决方案——然后试图从它向上构建,在遇到企业需求时再把它们绑上去。"
+ },
+ {
+  "seg": 191,
+  "start": 1096.554,
+  "end": 1104.201,
+  "speaker": "Unknown",
+  "en": "Okay, we need evals, we need security, we need auditability, and bolting these on as additions to the foundations of the POC.",
+  "zh": "好的,我们需要 evals,我们需要安全,我们需要可审计性,然后把这些作为附加项bolt在 POC 的基础之上。"
+ },
+ {
+  "seg": 192,
+  "start": 1105.434,
+  "end": 1111.857,
+  "speaker": "Unknown",
+  "en": "You end up with something very brittle, something very hard to externalize and to generalize across different use cases.",
+  "zh": "你最终会得到一个非常脆弱的东西,一个很难外部化、很难在不同用例之间泛化的东西。"
+ },
+ {
+  "seg": 193,
+  "start": 1112.978,
+  "end": 1130.746,
+  "speaker": "Unknown",
+  "en": "But where I've seen it go well is if you take the constraints of a production-ready scaled enterprise system seriously from the beginning and treat those as the architectural principles that you're going to build everything upon and then build back up towards that POC accuracy using your new primitives.",
+  "zh": "而我见过走得好的地方是,如果你从一开始就认真对待一个可投产的、规模化企业系统的约束,把那些当作你要构建一切的架构原则,然后用你的新原语反向构建,重新达到那个 POC 的准确率。"
+ },
+ {
+  "seg": 194,
+  "start": 1133.387,
+  "end": 1134.068,
+  "speaker": "Unknown",
+  "en": "Thank you for your attention.",
+  "zh": "感谢大家的聆听。"
+ },
+ {
+  "seg": 195,
+  "start": 1134.428,
+  "end": 1134.708,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

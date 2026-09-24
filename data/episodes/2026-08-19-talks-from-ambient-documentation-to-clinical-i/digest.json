@@ -1,0 +1,178 @@
+{
+  "title_zh": "医疗是最高风险的前沿 AI 战场：Abridge 的 clinical intelligence 之路",
+  "tldr": "Abridge 工程负责人 Chaitanya 讲述产品如何从临床病历写作扩展到临床决策支持，并拆解医疗场景下质量、延迟、成本三大难题的解法。",
+  "digest_md": "医生每天下午四点半就能下班、病历全部写完——这是一线临床医生描述使用 Abridge 后的状态。做这场分享的人是 Chai(Chaitanya),Abridge 的工程负责人，领导临床决策支持和智能体体验团队。他的职业轨迹一直在 AI 创业公司：先在一家目标直指 AGI、但走神经科学与概率图模型路线的公司 Vicarious 做研究工程，之后作为最早一批工程师加入企业搜索公司 Glean,见证它从 10 人长到 1100 多人 [02:57 Chaitanya]。他一直对医疗感兴趣，最终在 AI 浪潮席卷之时加入 Abridge——这家公司在两三年内进入了美国 300 家最大的医疗系统，包括 Kaiser、Mayo Clinic、Johns Hopkins、Sutter [04:50 Chaitanya]。\n\n## 为什么医疗是「困难模式」\n\nChai 先坦承：过去医疗领域的技术问题常被认为不够有趣，很多流程还在靠传真机运转 [02:13 Chaitanya]。但数据说明问题有多严重：过去几十年几乎所有行业的成本都在随生产率提升而下降，唯独医疗的行政成本只升不降；许多医院利润率薄如刀片、甚至关门；病人背着巨额医疗债务；医生普遍倦怠，甚至不建议自己的子女从医 [05:30 Chaitanya]。\n\nAbridge 的切入点是临床文档：每次就诊结束后，临床医生必须写一份 SOAP 病历(按主诉、评估、计划等固定结构组织的记录)，通常每天要花约两小时，还常常是下班后的「睡衣时间」——这是医生倦怠的主要来源之一 [07:06 Chaitanya]。而这些病历风险极高：它们既是计费依据，又是下一位医生接诊时的上下文、病人纵向医疗记录的一部分 [07:22 Chaitanya]。技术终于追上来，能生成高质量、且为每位医生个性化的病历——这正是 Abridge 撬开这个对技术保守行业的「楔子」。\n\n## 核心论点：一切都围绕那场对话\n\n公司的核心论点是：医疗的每个环节都围绕医生与患者的对话展开——计费、临床试验匹配、临床决策支持，全都由此而来。我们围绕那场「神圣的对话」建了一整套行政机器，而 Abridge 想做的就是把这一切拉回对话本身、把行政部分自动化 [08:36 Chaitanya]。\n\n具体形态：诊前，系统建议讨论话题；诊中，医生可以直接用语音与 Abridge 对话——问「Nathan 有资格参加哪些临床试验」，系统回答他可能符合某项研究、大部分筛查标准已满足，但需要一份新的超声心动图确认射血分数，医生说「那就安排」，系统直接下单；诊后，患者总结、临床病历、甚至医嘱都自动生成 [09:28 Chaitanya]。支撑这一切的是三类上下文：完整的 EHR(电子病历系统)数据——既往化验、既往病历；医生与患者的实时对话——Chai 称之为医疗领域的「调试现场」，你在那里了解病人当下真正面对什么；再加上世界医学文献和临床指南作为依据 [10:42 Chaitanya]。\n\n## 质量、延迟、成本：三个 KPI 全是困难模式\n\n任何智能体产品都逃不开质量、延迟、成本三个 KPI,而医疗在三个上都是困难模式：答案必须对，因为答错有真实后果、会彻底失去信任——Chai 对比自己在 Glean 时「答错了也没关系」，但医疗不行 [11:42 Chaitanya];延迟上，你不能太晚才行动，还得在正确的时机行动才有用。他提到公司座右铭「拯救生命、节省时间、节省金钱」，恰好对应这三个 KPI [12:25 Chaitanya]。\n\n**质量：evals 是公司的命脉。** 他们把评估体系当作操作系统：任何产品动手之前，先建稳健的内部基准做离线评估，再用真实世界见过的案例测试；然后分阶段推出——从信任且理解利害的临床医生 alpha 组、到 beta、再到大规模 A/B 测试；全面上线后还要持续监控 [12:47 Chaitanya]。执行方式是「专家校准的 LM judges」:临床医生遍布公司各处，但不是所有工程师都是医生，于是他们把临床医生的判断编码进 LM judges(用语言模型当评审来给输出打分)，形成反馈闭环，让任何人都能据此爬山迭代 [13:47 Chaitanya]。在线信号还包括医生如何编辑病历、点赞点踩、星级评分和自由文本 [14:31 Chaitanya]。\n\n**评估难题：生成器-验证器差距极小。** 临床决策支持最难的地方在于，它不像数独——数独解题极难、验证极容易，所以容易构建评估并爬山；而这里，如果你有一个足够好的验证器，它本身就是你的生成器了 [15:42 Chaitanya]。怎么造一个「不只是语言模型本身」的可信参照？他们的做法是用大量真实临床案例，让相互独立的医生各自制定评分细则(rubric,列出好回答应包含的要素，而非唯一标准答案)，再由另一位医生仲裁整合，还有第四位临床医生做 QA [16:55 Chaitanya]。有了这些细则，LLM 评委就能把智能体的回答与细则要素做语义匹配，判断模型在架构、模型、搜索排序算法各层迭代时表现是否达标 [17:41 Chaitanya]。此外还有临床安全 judge、边界与对抗 judge,以及语气风格等产品向 judges——用多个信号各捕捉这个难测问题的一角 [16:25 Chaitanya]。\n\n**成本：不是每个问题都需要前沿智能。** 他们以每年一亿次医疗对话的规模在对话中实时运行，所以成本敏感。核心洞察：与其用一个基础模型生成病历的所有部分(现病史、既往史、评估与计划……),不如把问题分解成更小的工作流，针对不同问题——甚至细到病历的不同章节——后训练更小的模型，成本和延迟都大幅下降 [18:17 Chaitanya]。更关键的是数据飞轮：每年一亿次医疗对话的独特数据集，据他们所知没有别人有。「制胜权(right to win)」的逻辑是：有些问题质量已经到顶，训模型就该为了降本降延迟；而对于质量还没到顶、别人说「前沿模型会碾压你」的问题，只要拥有前沿实验室没有的数据、聚焦他们没聚焦的问题，就有可能跑赢前沿模型的变化速度 [19:18 Chaitanya]。\n\n另一个省钱案例是「就诊中医嘱」：医生常在就诊中随口提到医嘱(药物或非药物)，系统在后台排队、让医生在 EHR 里确认签署。但如果每隔几秒就监听一遍有没有医嘱，成本会爆炸。他们的技巧是用一系列更便宜、更快的「闸门」先找到对话中值得触发的事件，再把工作交接给更重的模型做端到端的医嘱匹配(不只是听到医嘱，还要匹配到系统批准的、与对话相关的医嘱条目)[19:49 Chaitanya]。\n\n## 医疗需要前沿 AI\n\nChai 想留给工程师们的最后一句话：他自己曾是担心「医疗技术到底行不行」的工程师，而 Abridge 已经在大规模上证明了这一点。医疗是一个真正需要前沿 AI、并且把它用在最高风险场景的领域 [20:47 Chaitanya]。\n\n## 本集带走\n\n- **把 evals 当操作系统**：动手做产品前先建内部基准和离线评估，再走 alpha→beta→A/B→持续监控的分阶段推出；利害越高的产品，越不能「测几个 case 就上线」。\n- **用 rubric 代替黄金答案**：答案变异性大的领域，让多位独立医生各写评分细则、专人仲裁、第四人 QA,再用 LLM 评委对细则要素做语义匹配——绕开「生成器-验证器差距小」的死结。\n- **把领域专家的判断编码进 LM judges**:不是人人都是医生也能快速迭代——专家校准的评审形成反馈闭环，非专家也能爬山。\n- **分解问题、按需用小模型**：病历按章节拆成小工作流，各训小模型，不必每个环节都上前沿级智能；成本和延迟随之大降。\n- **数据「制胜权」逻辑**：拥有别人没有的独特数据、聚焦别人没聚焦的问题，就可能跑赢前沿模型的进步速度；质量已到顶的任务，训模型就为降本降延迟。\n- **用便宜闸门触发重模型**：实时场景别每几秒都跑大模型，先用廉价快速的信号筛出关键事件(如医嘱被提到)，再把端到端的重活交给大模型。",
+  "quotes": [
+    {
+      "en": "For us, we really treat evals as the operating system, the life's blood of the company.",
+      "zh": "对我们来说，我们真正把 evals 当作操作系统，当作公司的命脉。",
+      "timestamp": "12:47",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "But in healthcare, if we answer something incorrectly, there's actually consequences, and we entirely lose our trust.",
+      "zh": "但在医疗领域，如果我们答错了什么，是会有真实后果的，我们会完全失去信任。",
+      "timestamp": "11:57",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "It's all about the conversation, that sacred doctor and patient conversation, and we've just built all this administrative machinery around that.",
+      "zh": "一切都围绕对话，那场神圣的医生与患者的对话，而我们只是围绕它构建了这一整套行政机器。",
+      "timestamp": "08:57",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "If I had a really, really good generator, verifier, then that would just be my generator itself.",
+      "zh": "如果我有一个非常非常好的生成器验证器，那它本身就是我的生成器了。",
+      "timestamp": "16:08",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "You know, I think a really great evaluation system has a property that it reflects the behaviors that you want in your product.",
+      "zh": "我认为一个真正出色的评估系统有一个特性：它反映了你在产品中想要的行为。",
+      "timestamp": "14:08",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "We don't need frontier-level intelligence for every problem.",
+      "zh": "我们不是每个问题都需要前沿级别的智能。",
+      "timestamp": "18:49",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "Our key insight is we can actually potentially beat the rate of change on the frontier model if we have the right to win by having the right data that they may not have and the focus on a problem that they may not be focusing on.",
+      "zh": "我们的关键洞察是，如果我们拥有制胜权——也就是拥有他们可能没有的合适数据，以及聚焦于他们可能没有聚焦的问题——我们实际上有可能跑赢前沿模型的变化速度。",
+      "timestamp": "19:33",
+      "speaker": "Chaitanya Asawa"
+    },
+    {
+      "en": "Again, the stakes are really high, and you cannot get away with just being like a prototype that you just ship out there and be like, yeah, I mean, I tested on a few cases and it works.",
+      "zh": "再说一次，利害真的非常高，你不能只是像个原型那样直接发出去，然后说，yeah,我在几个案例上测试过，它没问题，这样是行不通的。",
+      "timestamp": "13:39",
+      "speaker": "Chaitanya Asawa"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "12:47",
+      "speaker": "Chaitanya",
+      "en": "For us, we really treat evals as the operating system, the life's blood of the company.",
+      "zh": "对我们来说，我们真正把 evals 当作操作系统，当作公司的命脉。"
+    },
+    {
+      "timestamp": "11:37",
+      "speaker": "Chaitanya",
+      "en": "In healthcare, I feel that we're actually playing on hard mode for all of these three KPIs.",
+      "zh": "在医疗领域，我觉得我们实际上在这三个 KPI 上都在玩困难模式。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Chaitanya",
+      "en": "But in healthcare, if we answer something incorrectly, there's actually consequences, and we entirely lose our trust.",
+      "zh": "但在医疗领域，如果我们答错了什么，是会有真实后果的，我们会完全失去信任。"
+    },
+    {
+      "timestamp": "08:57",
+      "speaker": "Chaitanya",
+      "en": "It's all about the conversation, that sacred doctor and patient conversation, and we've just built all this administrative machinery around that.",
+      "zh": "一切都围绕对话，那场神圣的医生与患者的对话，而我们只是围绕它构建了这一整套行政机器。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Chaitanya",
+      "en": "That's where the quote-unquote debugging happens in healthcare, where you learn about what the patient is facing now.",
+      "zh": "那是医疗领域所谓「调试」发生的地方，你在那里了解患者当下正在面对什么。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "Chaitanya",
+      "en": "And this is a case where the generator and the verifier gap is really small.",
+      "zh": "这是一个生成器与验证器差距非常小的情况。"
+    },
+    {
+      "timestamp": "16:08",
+      "speaker": "Chaitanya",
+      "en": "If I had a really, really good generator, verifier, then that would just be my generator itself.",
+      "zh": "如果我有一个非常非常好的生成器验证器，那它本身就是我的生成器了。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Chaitanya",
+      "en": "You know, I think a really great evaluation system has a property that it reflects the behaviors that you want in your product.",
+      "zh": "我认为一个真正出色的评估系统有一个特性：它反映了你在产品中想要的行为。"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Chaitanya",
+      "en": "And so who best, other than our clinicians, to actually create our judges that represent what they want?",
+      "zh": "那么除了我们的临床医生之外，还有谁能最好地创建真正代表他们想要的 judges 呢？"
+    },
+    {
+      "timestamp": "18:43",
+      "speaker": "Chaitanya",
+      "en": "You don't need Fable 5 to actually solve all of your clinical nodes.",
+      "zh": "你不需要 Fable 5 来解决你所有的临床笔记问题。"
+    },
+    {
+      "timestamp": "18:52",
+      "speaker": "Chaitanya",
+      "en": "We don't need frontier-level intelligence for every problem.",
+      "zh": "我们不是每个问题都需要前沿级别的智能。"
+    },
+    {
+      "timestamp": "19:22",
+      "speaker": "Chaitanya",
+      "en": "There are problems where the quality is already maxed out.",
+      "zh": "有些问题的质量已经到顶了。"
+    },
+    {
+      "timestamp": "19:33",
+      "speaker": "Chaitanya",
+      "en": "Our key insight is we can actually potentially beat the rate of change on the frontier model if we have the right to win by having the right data that they may not have and the focus on a problem that they may not be focusing on.",
+      "zh": "我们的关键洞察是，如果我们拥有制胜权——也就是拥有他们可能没有的合适数据，以及聚焦于他们可能没有聚焦的问题——我们实际上有可能跑赢前沿模型的变化速度。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Chaitanya",
+      "en": "And as far as we know, no one else has such a large data set.",
+      "zh": "据我们所知，没有其他人拥有这么大的数据集。"
+    },
+    {
+      "timestamp": "20:11",
+      "speaker": "Chaitanya",
+      "en": "But you can imagine if we did this in a very naive way, like every few seconds they're just listening for orders, that would really break the bank.",
+      "zh": "但你可以想象，如果我们用非常天真的方式做这件事，比如每隔几秒就去监听有没有医嘱，那成本真的会爆炸。"
+    },
+    {
+      "timestamp": "20:56",
+      "speaker": "Chaitanya",
+      "en": "In the past, I, as an engineer myself, was worried about working in healthcare.",
+      "zh": "过去，我作为一名工程师本人，曾担心在医疗行业工作。"
+    },
+    {
+      "timestamp": "20:47",
+      "speaker": "Chaitanya",
+      "en": "But the message I want to leave you with is healthcare is a domain that needs frontier AI and actually puts it to the higher stakes.",
+      "zh": "但我想留给你们的信息是：医疗保健是一个需要前沿 AI 的领域，而且真正把它用在了高风险的场景上。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Chaitanya",
+      "en": "Again, the stakes are really high, and you cannot get away with just being like a prototype that you just ship out there and be like, yeah, I mean, I tested on a few cases and it works.",
+      "zh": "再说一次，利害真的非常高，你不能只是像个原型那样直接发出去，然后说，yeah,我在几个案例上测试过，它没问题，这样是行不通的。"
+    },
+    {
+      "timestamp": "16:59",
+      "speaker": "Chaitanya",
+      "en": "But you can't just create a human golden response because there is a lot of variability in the potential responses.",
+      "zh": "但你不能直接创建一个人类的黄金答案，因为潜在答案存在很大的变异性。"
+    },
+    {
+      "timestamp": "05:53",
+      "speaker": "Chaitanya",
+      "en": "And a lot of our problems in healthcare we solve with labor, but even that we cannot actually keep up.",
+      "zh": "医疗保健中的很多问题我们是靠人力解决的，但即便是人力，我们实际上也跟不上了。"
+    }
+  ],
+  "voice_script": "今天这一集，咱们聊一家医疗 AI 公司，Abridge,以及它的工程负责人 Chai,全名 Chaitanya。这个人值得先介绍一下：职业轨迹一直在 AI 创业公司，最早在一家走神经科学和概率图模型路线、目标直指 AGI 的公司 Vicarious 做研究工程，后来作为最早一批工程师加入了企业搜索公司 Glean,亲眼看着它从十个人长到一千一百多人。他对医疗一直有兴趣，所以在 AI 浪潮席卷的时候加入了 Abridge——这家公司短短两三年，就进了美国三百家最大的医疗系统，包括 Kaiser、Mayo Clinic、Johns Hopkins 这些名字。\n\n这期聊的问题是什么呢？一句话：医疗场景下做 AI,到底难在哪，又该怎么解。为什么现在值得聊？因为医疗这个领域，在技术圈里长期被当作困难模式，甚至有点无聊。Chai 自己也坦承，过去医疗领域的技术问题常被认为不够有趣，很多流程还在靠传真机运转。但另一边，数据很扎眼：过去几十年，几乎所有行业的成本都随着生产率提升在下降，唯独医疗的行政成本只升不降；很多医院利润率薄如刀片，甚至关门；病人背着巨额医疗债务；医生普遍倦怠，倦怠到什么程度？甚至不建议自己的子女从医。\n\nAbridge 从哪切进去的？切入点是临床文档。每次看完病，临床医生必须写一份 SOAP 病历——就是按主诉、评估、计划这些固定结构组织的记录。这个活儿通常每天要花大约两小时，还常常是下班以后、穿着睡衣写的，所以有个词叫睡衣时间。这是医生倦怠的主要来源之一。而且这些病历风险极高：它既是计费依据，又是下一位医生接诊时的上下文，还是病人纵向医疗记录的一部分。技术终于追上来了，能生成高质量、还为每位医生个性化的病历——这正是 Abridge 撬开这个技术保守行业的楔子。效果有多好？有临床医生形容，用上 Abridge 之后，每天下午四点半就能下班，病历全写完。\n\n而这一切背后，公司有个核心论点：医疗的每个环节，都围绕医生和患者的那场对话展开。计费也好，临床试验匹配也好，临床决策支持也好，全都是从对话里来的。用 Chai 的话说：一切都围绕那场神圣的对话，而我们只是围绕它构建了一整套行政机器。Abridge 想做的，就是把这一切拉回对话本身，把行政部分自动化。\n\n具体是什么形态？看病之前，系统会建议今天该聊哪些话题；看病过程中，医生可以直接用语音跟 Abridge 对话，比如问一句：Nathan 有资格参加哪些临床试验？系统会回答，某个研究他可能符合，大部分筛查标准已经满足，但还需要一份新的超声心动图来确认射血分数。医生说那就安排，系统直接下单。看完病之后，患者总结、临床病历、甚至医嘱，都是自动生成的。支撑这一切的是三类上下文：第一，完整的电子病历系统数据，包括既往的化验和病历；第二，医生和患者的实时对话——Chai 把这称作医疗领域的调试现场，你只有在那个现场，才知道病人当下真正面对的是什么；第三，世界医学文献和临床指南，作为依据。\n\n好，讲到这儿你可能觉得挺顺的，但接下来才是这期的重头戏。任何智能体产品都逃不开三个指标：质量、延迟、成本。而医疗在这三个上，全是困难模式。质量上，答案必须对，因为答错有真实后果。Chai 对比自己在 Glean 的日子，那时候答错了也没关系，但医疗不行——用他自己的话说，答错了什么，会有真实后果，我们会完全失去信任。延迟上，不能太晚才行动，还得在正确的时机行动才有用。公司有句座右铭：拯救生命、节省时间、节省金钱——恰好对应这三个指标。\n\n先说质量。这部分有句话很关键：他们真正把 evals,也就是评估体系，当作操作系统、当作公司的命脉。怎么运作？任何产品动手之前，先建稳健的内部基准做离线评估，再用真实世界里见过的案例来测试；然后分阶段推出，从信任且理解利害的临床医生组成的 alpha 组，到 beta,再到大规模 A/B 测试；全面上线之后还要持续监控。这里有个执行上的难题：公司里医生很多，但不是所有工程师都是医生，那非医学背景的人怎么迭代？他们的办法，是把临床医生的判断编码进 LM judges——说白了就是用语言模型当评审，给输出打分。专家的判断变成评分标准，形成反馈闭环，这样任何人都能据此往上爬。在线信号也包括医生怎么编辑病历、点赞点踩、星级评分和自由文本。\n\n不过在这条路上，有一个特别根本的评估难题，值得单独讲。一般做评估，靠的是生成和验证之间的落差：就像数独，解题极难，但验证对错极容易，所以好构建评估、好迭代。可临床决策支持不一样——这里的生成器和验证器差距极小。Chai 有句话说得非常透：如果我有一个非常非常好的验证器，那它本身就是我的生成器了。那怎么造一个不只是语言模型本身的、可信的参照？他们的做法是：用大量真实临床案例，让相互独立的医生各自制定评分细则，也就是 rubric——列出一个好回答应该包含哪些要素，而不是给唯一的标准答案；然后由另一位医生仲裁整合，还有第四位临床医生做质检。有了这些细则，语言模型评委就能把智能体的回答跟细则要素做语义匹配，判断模型在架构、模型、搜索排序算法各层的迭代是不是达标。除此之外还有临床安全评委、边界与对抗评委，以及语气风格这类产品向的评委——用多个信号，各捕捉这个难题的一角。\n\n质量问题有了解法，那成本呢？这就引出另一个关键洞察：不是每个问题都需要前沿级别的智能。Abridge 是以每年一亿次医疗对话的规模、在对话中实时运行的，所以成本非常敏感。核心思路是：与其用一个基础模型生成病历的所有部分——现病史、既往史、评估与计划——不如把问题分解成更小的工作流，针对不同问题、甚至细到病历的不同章节，分别后训练更小的模型。这样一来，成本和延迟都大幅下降。但更关键的，是数据飞轮：每年一亿次医疗对话，这个独特的数据集，据他们所知没有别人有。这就是所谓的制胜权逻辑：有些问题质量已经到顶了，训模型就该为了降本降延迟；而对于那些质量还没到顶、别人说前沿模型会碾压你的问题，只要拥有前沿实验室没有的数据、聚焦他们没聚焦的问题，就有可能跑赢前沿模型的变化速度。\n\n成本这块还有个很实用的例子，叫就诊中医嘱。医生常常在看病过程中随口提到医嘱，可能是药物也可能不是，系统在后台排队，让医生稍后在电子病历系统里确认签署。可问题是，如果每隔几秒就把整段对话跑一遍大模型去找有没有医嘱，成本会爆炸。他们的技巧是：先用一系列更便宜、更快的闸门，找到对话里值得触发的事件，再把活儿交接给更重的模型，去做端到端的医嘱匹配——不只是听到医嘱，还要匹配到系统里批准的、跟对话相关的条目。便宜信号筛事件，大模型干重活，这个组合拳很值得记住。\n\n最后，Chai 想留给工程师们一句话。他自己就曾是那个担心医疗技术到底行不行的工程师，而 Abridge 已经在大规模上证明了这件事：医疗是一个真正需要前沿 AI、并且把它用在最高风险场景的领域。技术上很难，但正因为难，才值得做。"
+}

@@ -59,7 +59,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[后训练]] · [[开源模型]] · [[Meta]] · [[ChatGPT]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":295,"Anthropic":132,"OpenAI":125,"后训练":26,"开源模型":19,"Meta":35,"ChatGPT":76,"前向部署工程师":1,"Microsoft":25,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":297,"Anthropic":133,"OpenAI":125,"后训练":27,"开源模型":19,"Meta":35,"ChatGPT":76,"前向部署工程师":1,"Microsoft":25,"主观能动性":1}</script>
 
 <script>
 (function(){

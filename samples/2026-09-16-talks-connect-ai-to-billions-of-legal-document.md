@@ -123,9 +123,9 @@ Turbo Puffer 的解法是把不同司法辖区做成不同命名空间：欧盟�
 
 **换个口味**
 
+- [[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|企业还没为 AI 智能体做好准备：四条架构原则补上缺口]]<span class="pd-rz">同概念:对象存储 (object storage)、智能体 (agent)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:智能体 (agent)、Postgres、RAG</span>
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同概念:智能体 (agent)、RAG</span>
-- [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"]]<span class="pd-rz">同概念:智能体 (agent)、RAG</span>
 
 </div>
 </div>
