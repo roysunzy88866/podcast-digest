@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"评估":3,"PRD":7,"智能体":317,"harness":44,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":57}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"评估":3,"PRD":7,"智能体":321,"harness":44,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":57}</script>
 
 <script>
 (function(){

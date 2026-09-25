@@ -108,9 +108,9 @@ Matt 想看到更多原创的、有勇气的消费级产品，而不是又一个
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍]]<span class="pd-rz">同公司:Cloudflare · 同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
 - [[2026-06-16-devtools-swyx-aie|AI Engineer 大会背后的社区逻辑与创业生存法则]]<span class="pd-rz">同公司:Cloudflare · 同概念:code mode、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|Merge的"二次创业"：从SaaS集成到AI连接基础设施]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)、可观测性 (observability)</span>
-- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

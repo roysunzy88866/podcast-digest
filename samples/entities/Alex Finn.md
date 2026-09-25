@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":6,"gpt 5.6":1,"Fable":9,"Anthropic":138,"open ai":2,"Codex":57,"智能体":317,"提示词":16,"原型":7,"浏览器使用":8}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":6,"gpt 5.6":1,"Fable":9,"Anthropic":139,"open ai":2,"Codex":57,"智能体":321,"提示词":17,"原型":7,"浏览器使用":8}</script>
 
 <script>
 (function(){

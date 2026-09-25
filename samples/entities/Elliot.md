@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Quintin":1,"Portola":1,"Tolan":2,"LLM":41,"提示词":16,"记忆":15,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Quintin":1,"Portola":1,"Tolan":2,"LLM":42,"提示词":17,"记忆":15,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){

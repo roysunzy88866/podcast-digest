@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>41</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>42</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(10:40起):本集说持续拥有处理风险会议逐字稿的 LLM，帮助记忆、提供洞察并起到一定预测作用；最终目标是把所有部门生成的文本跟数值数据打通
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(01:50起):本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(03:01起):本集说现在每个人都在跟自己选择的 LLM 对话，这非常孤独且不是视觉化的
+- **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(11:33起):多智能体工作流中的每次模型调用都有可观测性,记录输入与输出以便排查每次运行的问题。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(15:32起):本集反复出现，被描述为使用时不管结果对不对都要付费的'文本机器'，提供中位数答案，幻觉在数学上保证会发生，是所有数据中心建设的唯一服务对象。
 - **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(03:13起):本集说 LLM 的获取成本正在大幅下降，使得住在美国经济腹地、拥有领域知识（制造业、医疗、物流等）的创始人可以用 AI 把痛点变成可规模化的公司
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(20:53起):本集把 LLM 视为架构中的一层（模型层不只有大 LLM，还有自己的模型库），讨论其 token 成本、数据主权风险与换进换出。
@@ -125,7 +126,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*41 集*
+*42 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -156,6 +157,7 @@ unlisted: true
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为概念
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 - [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为概念
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
@@ -173,9 +175,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[MCP]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"Anthropic":138,"ChatGPT":77,"Lenny":67,"Claude":65,"OpenAI":129,"Claude Code":73,"Google":47,"MCP":55,"Cursor":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"Anthropic":139,"ChatGPT":77,"MCP":57,"Lenny":67,"Claude":65,"OpenAI":130,"Claude Code":73,"Google":47,"Cursor":68}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":129,"Codex":57,"Work":1,"ChatGPT":77,"智能体":317,"知识工作":2,"Sites":1,"Stripe":34,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":130,"Codex":57,"Work":1,"ChatGPT":77,"智能体":321,"知识工作":2,"Sites":1,"Stripe":34,"写作即思考":1}</script>
 
 <script>
 (function(){

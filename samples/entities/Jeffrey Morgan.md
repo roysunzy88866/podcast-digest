@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":45,"Docker":4,"Apple":18,"基准测试":13,"OpenRouter":10,"开源模型":20,"编码智能体":18,"智能体":317,"推理":53}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":45,"Docker":4,"Apple":18,"基准测试":13,"OpenRouter":10,"开源模型":20,"编码智能体":18,"智能体":321,"推理":53}</script>
 
 <script>
 (function(){

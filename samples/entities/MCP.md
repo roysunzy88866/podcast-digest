@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>55</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>57</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,6 +39,7 @@ unlisted: true
 - **[[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]]**(16:54起):本集提到 MCP 和技能目录是模型执行期间可接入的扩展机制，用来把可扩展性编织进系统。
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(10:42起):本集说 MCP 是让 AI 工具连接外部数据源的协议（如 Figma MCP 插件、Fresh Service MCP），演示了通过它让 Claude 一条提示词拉取 60 天工单、生成根因分析报告并批量回复。
 - **[[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]]**(05:22起):本集说系统接了五六个不同的 MCP 连接，靠它们做集成、支撑销售自动化工作流（监控收件箱和 Slack、起草回复存进 Gmail），是第二波能力浪潮的关键。
+- **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(13:18起):让模型调用外部工具/数据的接口,智能体通过查询 MCP 拉取数据,与技能仓库、AI 网关共同构成智能体工作区的三部分。
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:53起):本集说智能体优先必须 API 优先，MCP、CLI 都行，重要的是可编程接口；Exa 的 Salesforce 以 MCP 形式暴露，所有智能体都能访问 Salesforce MCP。
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(38:49起):本集说 MCP 是让客户接入其平台的连接协议，用 MCP 的客户上线更多智能体，因此上线时定下『90 天 100 个用户』的硬指标作为实验案例
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(55:25起):本集说 2025 年靠工具和 MCP 解决了 LLM 知识截止日期问题；MongoDB 提供 MCP 服务器让智能体更容易访问数据。
@@ -65,6 +66,7 @@ unlisted: true
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(00:23起):本集说工厂由一堆 MCP 服务器等组成，Zach 还通过 Figma MCP、Granola MCP 让编码智能体改幻灯片、分析销售会议
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(33:21起):本集提到 Zapier 的 MCP 与 SaaS 应暴露 MCP 服务器，把底层能力交给编码智能体
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(14:18起):本集说它基本上是一种让应用与 LLM 对话的标准方式，智能体的工具通过托管在平台上的 MCP 服务器提供——在 Broadcom 这是开发者唯一被批准的使用方式。
+- **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(23:18起):本集主持人问 Maggie 会不会做 MCP 让客户从 Claude 之类访问数据,她说这是「价值百万美元的问题」,每个 SaaS 平台都在测,目前专注让客户在 Toast 里干完活
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
@@ -83,7 +85,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*55 集*
+*57 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -113,6 +115,7 @@ unlisted: true
 - [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]] — 作为概念(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 - [[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]] — 作为概念
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为概念
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为概念(提及)
@@ -139,15 +142,16 @@ unlisted: true
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为概念
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
+- [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[harness]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[沙箱]] · [[Cursor]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"Claude":65,"Anthropic":138,"Codex":57,"Claude Code":73,"护栏":56,"OpenAI":129,"沙箱":58,"Cursor":68,"harness":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"Claude":65,"Anthropic":139,"OpenAI":130,"Codex":57,"Claude Code":73,"护栏":57,"沙箱":58,"Cursor":68,"harness":44}</script>
 
 <script>
 (function(){

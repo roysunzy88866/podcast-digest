@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":4,"市场进入工程":1,"透明":1,"PLG":11}</script>
+<script type="application/json" class="pd-epn">{"Clay":6,"市场进入工程":1,"透明":1,"PLG":11}</script>
 
 <script>
 (function(){

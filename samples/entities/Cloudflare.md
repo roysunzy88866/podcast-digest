@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloudflare</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(21:57起):本集提到 Cloudflare 作为基础设施供应商之一，和 Datadog、JFrog 一样，赶上历史上最大的基础设施繁荣
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(47:25起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel；也提到Cloudflare预测五年后智能体流量是人类流量的1000倍
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(34:01起):本集顺带提到 Cloudflare 说在其网络流量监控中，AI 流量在页面阅读方面大约与人类流量相同
+- **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(00:46起):本集演讲者 Justin Joyce 所在的公司,他任首席销售运营与策略经理,并利用 Cloudflare 自家产品(Workers、Durable Objects)搭建内部智能体工作区。
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用其 Project Think 论文和 Durable Objects、agents SDK，说 Cloudflare 栈对智能体很棒但会带来平台锁定，因为 Cloudflare 的生意是让你在它的云上运行
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(00:08起):本集以 CEO Matthew Prince 的视角介绍它:给全球很大一部分网站提供防护与加速、看得清全网流量构成的公司;正在推动默认屏蔽 Google 抓取广告/订阅制网站内容、建微支付基础设施,并用 Workers 和 isolates 等更轻量的技术为 1000 倍智能体流量做准备。
 
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为被讨论公司
 - [[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]] — 作为被讨论公司
@@ -44,6 +45,7 @@ unlisted: true
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为被讨论公司
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司
 
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[Google]] · [[Claude]] · [[code mode]] · [[推理]] · [[Copilot]] · [[Notion]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[Google]] · [[可观测性]] · [[Claude]] · [[code mode]] · [[推理]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"Anthropic":138,"OpenAI":129,"沙箱":58,"Google":47,"Claude":65,"code mode":2,"推理":53,"Copilot":11,"Notion":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"Anthropic":139,"OpenAI":130,"沙箱":58,"Google":47,"可观测性":28,"Claude":65,"code mode":2,"推理":53,"Copilot":11}</script>
 
 <script>
 (function(){

@@ -51,7 +51,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
 
 </div>
 

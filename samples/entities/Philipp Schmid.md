@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":317,"沙箱":58,"harness":44,"函数调用":1,"上下文窗口":7,"评估":3,"JSON schema":1,"Gemini":10,"Google":47,"Cursor":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"沙箱":58,"harness":44,"函数调用":1,"上下文窗口":7,"评估":3,"JSON schema":1,"Gemini":10,"Google":47,"Cursor":68}</script>
 
 <script>
 (function(){

@@ -81,6 +81,13 @@ jsonLd: |
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「增长与销售」挖下去**
+
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍]]<span class="pd-rz">同概念:可观测性 (observability)</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:CI/CD、可观测性 (observability)</span>

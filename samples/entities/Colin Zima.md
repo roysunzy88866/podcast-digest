@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":11,"Databricks":15,"Google":47,"BI":1,"数据模型":1,"语义层":4,"创新者的窘境":3,"产品市场契合":22}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":12,"Databricks":15,"Google":47,"BI":1,"数据模型":1,"语义层":4,"创新者的窘境":3,"产品市场契合":22}</script>
 
 <script>
 (function(){

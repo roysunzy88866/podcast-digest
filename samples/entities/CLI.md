@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[Claude Code]] · [[OpenClaw]] · [[Lenny]] · [[Raphael Schaad]] · [[Dan Shipper]] · [[Peter Steinberger]] · [[SaaS]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"Codex":57,"Claude Code":73,"OpenClaw":18,"Lenny":67,"Raphael Schaad":1,"Dan Shipper":2,"Peter Steinberger":3,"SaaS":17,"MCP":55}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"Codex":57,"Claude Code":73,"OpenClaw":18,"Lenny":67,"Raphael Schaad":1,"Dan Shipper":2,"Peter Steinberger":3,"SaaS":17,"MCP":57}</script>
 
 <script>
 (function(){

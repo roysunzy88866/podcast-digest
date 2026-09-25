@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>138</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>139</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -146,10 +146,11 @@ unlisted: true
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(36:13起):本集作为对照被多次提及:嘉宾称其为「保姆式国家风格、反开发者」,也提到 Claude 与 ChatGPT 的复制关系
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(38:09起):Dines 押注的公司(「上一期播客里你问我押哪家,我说 Anthropic」),其 CEO Dario 提出「数据中心里数百万爱因斯坦」的说法构成本集讨论起点;Dines 仍会用其划算模型但坚持保留开源备份不被锁定。
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(11:49起):本集提到编程这类领域钱会给 Cognition 或 Anthropic;并称赞 Trevor Baldwin 很早就在 Baldwin 内部端到端部署 Anthropic。
+- **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 Anthropic 和 OpenAI 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源
 
 ## ① 提到它的金句
 
-*20 条*
+*21 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -191,9 +192,11 @@ unlisted: true
 
 ![[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo#^q3]]
 
+![[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i#^q1]]
+
 ## ② 出现在这些集
 
-*138 集*
+*139 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -333,6 +336,7 @@ unlisted: true
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司(提及)
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
+- [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -340,7 +344,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"OpenAI":129,"Claude Code":73,"NVIDIA":45,"Cursor":68,"Claude":65,"推理":53,"Lenny":67,"Google":47,"ChatGPT":77}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"OpenAI":130,"Claude Code":73,"NVIDIA":45,"Cursor":68,"Claude":65,"推理":53,"Lenny":67,"Google":47,"ChatGPT":77}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jubin]] · [[Jesse Jang]] · [[Decagon]] · [[Sierra]] · [[智能体]] · [[PMF]] · [[销售探索]] · [[部署模式]] · [[点子迷宫]] · [[办公室政治]]
 
-<script type="application/json" class="pd-epn">{"Jubin":2,"Jesse Jang":1,"Decagon":8,"Sierra":6,"智能体":317,"PMF":2,"销售探索":1,"部署模式":1,"点子迷宫":1,"办公室政治":1}</script>
+<script type="application/json" class="pd-epn">{"Jubin":2,"Jesse Jang":1,"Decagon":8,"Sierra":6,"智能体":321,"PMF":2,"销售探索":1,"部署模式":1,"点子迷宫":1,"办公室政治":1}</script>
 
 <script>
 (function(){

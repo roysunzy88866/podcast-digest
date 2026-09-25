@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":7,"SpaceX AI":1,"智能体":317,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":15,"MCP":55}</script>
+<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":7,"SpaceX AI":1,"智能体":321,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":15,"MCP":57}</script>
 
 <script>
 (function(){

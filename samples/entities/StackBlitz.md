@@ -31,7 +31,7 @@ unlisted: true
 
 [[Eric Simons]] · [[Bolt]] · [[云 IDE]] · [[vibe coding]] · [[智能体]] · [[开放权重]] · [[开源]] · [[按用量定价]] · [[按席位收费]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Eric Simons":1,"Bolt":3,"云 IDE":1,"vibe coding":37,"智能体":317,"开放权重":6,"开源":27,"按用量定价":3,"按席位收费":1,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"Eric Simons":1,"Bolt":3,"云 IDE":1,"vibe coding":37,"智能体":321,"开放权重":6,"开源":27,"按用量定价":3,"按席位收费":1,"SaaS":17}</script>
 
 <script>
 (function(){

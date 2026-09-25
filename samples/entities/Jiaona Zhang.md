@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
+[[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":23,"Slack":28,"Dust":1,"Devon":3,"智能体":317,"剧本":4,"技能":20,"本体":4}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":23,"Slack":28,"Dust":1,"Devon":3,"智能体":321,"剧本":4,"技能":20,"本体":4}</script>
 
 <script>
 (function(){

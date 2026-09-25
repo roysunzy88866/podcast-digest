@@ -33,7 +33,7 @@ unlisted: true
 
 [[Dan Feng]] · [[Ken]] · [[Maven Clinic]] · [[Dave Fletcher]] · [[AI 原生公司]] · [[Lead Dev]] · [[Cursor]] · [[可观测性]] · [[代码审查]] · [[CI-CD]]
 
-<script type="application/json" class="pd-epn">{"Dan Feng":1,"Ken":1,"Maven Clinic":1,"Dave Fletcher":1,"AI 原生公司":1,"Lead Dev":1,"Cursor":68,"可观测性":27,"代码审查":14,"CI-CD":12}</script>
+<script type="application/json" class="pd-epn">{"Dan Feng":1,"Ken":1,"Maven Clinic":1,"Dave Fletcher":1,"AI 原生公司":1,"Lead Dev":1,"Cursor":68,"可观测性":28,"代码审查":14,"CI-CD":12}</script>
 
 <script>
 (function(){

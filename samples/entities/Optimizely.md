@@ -27,7 +27,7 @@ unlisted: true
 
 [[Notion]] · [[Slack]] · [[ChatGPT]] · [[Jon Noronha]] · [[Daniel Blum]] · [[Gamma]] · [[Claire Vo]] · [[PowerPoint]] · [[Co-work]] · [[Google Slides]]
 
-<script type="application/json" class="pd-epn">{"Notion":13,"Slack":28,"ChatGPT":77,"Jon Noronha":1,"Daniel Blum":1,"Gamma":3,"Claire Vo":5,"PowerPoint":1,"Co-work":3,"Google Slides":1}</script>
+<script type="application/json" class="pd-epn">{"Notion":14,"Slack":28,"ChatGPT":77,"Jon Noronha":1,"Daniel Blum":1,"Gamma":3,"Claire Vo":5,"PowerPoint":1,"Co-work":3,"Google Slides":1}</script>
 
 <script>
 (function(){

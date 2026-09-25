@@ -178,8 +178,8 @@ Andrew 最大的心态转变:「十年前我以为大多数事会渐进式起作
 **换个口味**
 
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)、智能体 (agents)</span>
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍]]<span class="pd-rz">同概念:go to market、MCP</span>
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法]]<span class="pd-rz">同概念:go to market、MCP</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:MCP</span>
 
 </div>
 </div>

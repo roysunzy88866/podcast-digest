@@ -35,7 +35,7 @@ unlisted: true
 
 [[RL 环境]] · [[合成数据]] · [[Osvald Nitski]] · [[Brendan Foody]] · [[Harry Stebbings]] · [[后训练]] · [[智能体]] · [[验证器]] · [[开源]] · [[超长时程]]
 
-<script type="application/json" class="pd-epn">{"RL 环境":6,"合成数据":8,"Osvald Nitski":1,"Brendan Foody":1,"Harry Stebbings":18,"后训练":1,"智能体":317,"验证器":6,"开源":27,"超长时程":1}</script>
+<script type="application/json" class="pd-epn">{"RL 环境":6,"合成数据":8,"Osvald Nitski":1,"Brendan Foody":1,"Harry Stebbings":18,"后训练":1,"智能体":321,"验证器":6,"开源":27,"超长时程":1}</script>
 
 <script>
 (function(){

@@ -198,9 +198,9 @@ Kareem 对自己的内省很直白：童年父母大离婚、跨国辗转，让�
 
 **换个口味**
 
+- [[2026-08-26-talks-gtm-engineering-the-technical-bits-evere|GTM 工程：让销售像工程团队一样两周发布一次]]<span class="pd-rz">同公司:Clay</span>
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同公司:Clay</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:PLG</span>
-- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场]]<span class="pd-rz">同概念:PLG</span>
 
 </div>
 </div>

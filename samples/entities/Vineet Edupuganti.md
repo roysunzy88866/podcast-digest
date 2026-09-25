@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Evan Reiser":1,"Abnormal":1,"Cogent Security":1,"智能体":317,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":14}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Evan Reiser":1,"Abnormal":1,"Cogent Security":1,"智能体":321,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":14}</script>
 
 <script>
 (function(){

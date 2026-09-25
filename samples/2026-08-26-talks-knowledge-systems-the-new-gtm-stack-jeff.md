@@ -123,9 +123,9 @@ Exa 从 2023 年年中发布起，就是以 AI 智能体为先的视角设计 go
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍]]<span class="pd-rz">同公司:Salesforce · 同概念:go-to-market（市场推广） (go-to-market)、MCP、智能体 (agent)</span>
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Salesforce · 同概念:go-to-market（市场推广） (go-to-market)、智能体 (agent)</span>
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:go-to-market（市场推广） (go-to-market)、智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

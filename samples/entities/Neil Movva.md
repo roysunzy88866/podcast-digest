@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":317,"推理":53,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":321,"推理":53,"GPU":18,"KVCache":4}</script>
 
 <script>
 (function(){

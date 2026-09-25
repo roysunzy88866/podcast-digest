@@ -1,0 +1,498 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 0,
+  "speaker": "Unknown",
+  "en": "Trailer",
+  "zh": "预告片"
+ },
+ {
+  "seg": 1,
+  "start": 0,
+  "end": 12,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You guys had a killer quarter, a Q2 with one of the fastest, steepest growth curves in history, growing at $2.4 billion, 25% year over year, and profitable.",
+  "zh": "你们刚度过了一个杀手级的季度,一个 Q2,史上增长最快、最陡的增长曲线之一,以 24 亿美元的规模增长,同比增长 25%,而且盈利。"
+ },
+ {
+  "seg": 2,
+  "start": 12,
+  "end": 19,
+  "speaker": "Maggie Crowley",
+  "en": "The better we are at understanding what our customers need, the better able we are to build things they're willing to pay for.",
+  "zh": "我们越善于理解客户需要什么,我们就越有能力去打造他们愿意付费的东西。"
+ },
+ {
+  "seg": 3,
+  "start": 19,
+  "end": 27,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Maggie Crowley, VP of Product at Toast. Ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy.",
+  "zh": "Maggie Crowley,Toast 产品副总裁。说到底,我认为你在为很多不在 X 上的人打造产品,对吧?那才是真实的经济。"
+ },
+ {
+  "seg": 4,
+  "start": 27,
+  "end": 38,
+  "speaker": "Maggie Crowley",
+  "en": "Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow.",
+  "zh": "我们的工作是搞清楚如何把 Anthropic 或 OpenAI 拿出来的所有这些技术投入到为他们服务的工作中去,这样他们就不必花时间去想该用哪个模型或如何搭建工作流。"
+ },
+ {
+  "seg": 5,
+  "start": 38,
+  "end": 44,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "This looks so similar to the kind of questions I used to ask my team every week, and now I just use Claude, and I'm a happier person.",
+  "zh": "这看起来和我以前每周问我团队的问题如此相似,而现在我只需使用 Claude,我就成了一个更快乐的人。"
+ },
+ {
+  "seg": 6,
+  "start": 44,
+  "end": 50,
+  "speaker": "Maggie Crowley",
+  "en": "You can't necessarily launch something that doesn't work. Then they're going to not want to use your product, and you're going to burn trust.",
+  "zh": "你不一定能发布一个不能用的东西。那样的话他们就不会想用你的产品,而你会烧掉信任。"
+ },
+ {
+  "seg": 7,
+  "start": 50,
+  "end": 55,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One thing I noticed, especially with AI, is that the user is changing their expectation from \"help me do this\" to \"do this for me.\" Introduction",
+  "zh": "我注意到的一点,尤其是在 AI 方面,是用户正在改变他们的期望,从“帮我做这件事”变成“替我做这件事”。开场介绍"
+ },
+ {
+  "seg": 8,
+  "start": 55,
+  "end": 90,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Maggie Crowley, VP of Product at Toast. Two fun facts before we start: she finished fifth at the 2006 Winter Olympics as a speed skater, and she was contributing to Product School years ago, back when she was at Drift. Toast is the point of sale behind the restaurants and coffee shops you already pay at, and her customers are not on X all day. They are running slim-margin businesses that have zero patience for AI theater. Things we'll cover in this episode: shipping AI into a 14-year-old platform, not a blank slate; ten customers, one WhatsApp group, a year of iterating before GA; the least tech-savvy operators loved it first, and why; how long you have before consumer patterns become your users' expectations; and a live demo changing a real menu price from chat. Let's get into it. Welcome to The Product Podcast, Maggie. Thank you so much.",
+  "zh": "嘿,我是 Carlos,Product School 的 CEO,也是《The Product Podcast》的主持人。我今天的嘉宾是 Toast 产品副总裁 Maggie Crowley。开始之前先说两个趣事:她在 2006 年冬季奥运会上作为速度滑冰选手获得第五名,而且她多年前就在为 Product School 做贡献,当时她还在 Drift。Toast 是你已经付过钱的那些餐厅和咖啡店背后的销售点系统,而她的客户并不是整天泡在 X 上。他们经营的是利润微薄的生意,对 AI 表演毫无耐心。本期节目我们会聊到:把 AI 装进一个有 14 年历史的平台,而不是一块白板;十个客户、一个 WhatsApp 群、GA 之前一年的迭代;最不懂数据技术的运营者最先爱上了它,以及为什么;在消费级模式变成你的用户的期望之前,你有多长时间;以及一个实时演示,通过聊天修改一个真实的菜单价格。让我们开始吧。欢迎来到《The Product Podcast》,Maggie。非常感谢。"
+ },
+ {
+  "seg": 9,
+  "start": 90,
+  "end": 92,
+  "speaker": "Maggie Crowley",
+  "en": "Happy to be here. Two Fun Facts: The Olympics and Drift",
+  "zh": "很高兴来到这里。两个趣事:奥运会和 Drift"
+ },
+ {
+  "seg": 10,
+  "start": 92,
+  "end": 100,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I have two fun facts. One is related to your own career: you told me you finished fifth at the Winter Olympics in 2006, right?",
+  "zh": "我有两个趣事。一个和你自己的职业生涯有关:你告诉我你在 2006 年冬奥会上获得第五名,对吧?"
+ },
+ {
+  "seg": 11,
+  "start": 100,
+  "end": 101,
+  "speaker": "Maggie Crowley",
+  "en": "That's correct.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 12,
+  "start": 101,
+  "end": 102,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "As a speed skater?",
+  "zh": "作为速度滑冰选手?"
+ },
+ {
+  "seg": 13,
+  "start": 102,
+  "end": 104,
+  "speaker": "Maggie Crowley",
+  "en": "Yep, speed skating.",
+  "zh": "是的,速度滑冰。"
+ },
+ {
+  "seg": 14,
+  "start": 104,
+  "end": 117,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Nice. And the other one, probably less impressive but still cool, is that you were a contributor to Product School many years ago, way before you were a VP of Product at Toast. I think at that time you were a senior director of product at Drift.",
+  "zh": "不错。另一个,可能没那么惊人但依然很酷,是你很多年前是 Product School 的贡献者,远在你成为 Toast 产品副总裁之前。我想那时你是 Drift 的产品高级总监。"
+ },
+ {
+  "seg": 15,
+  "start": 117,
+  "end": 122,
+  "speaker": "Maggie Crowley",
+  "en": "Yes, yes. It feels like not as long ago as it actually was, unfortunately.",
+  "zh": "是的,是的。感觉没有实际上那么久远,遗憾的是。"
+ },
+ {
+  "seg": 16,
+  "start": 122,
+  "end": 135,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "A few things have changed since then, and that's why I'm excited to have you back. So for some context, I'm sure everybody listening has used Toast at some point, but maybe they don't even realize it. Maybe you can explain what Toast is.",
+  "zh": "从那以后发生了一些变化,这也是我很高兴请你回来的原因。先做一些背景介绍,我相信每个听众都曾在某个时候用过 Toast,但也许他们甚至没意识到。也许你可以解释一下 Toast 是什么。"
+ },
+ {
+  "seg": 17,
+  "start": 135,
+  "end": 180,
+  "speaker": "Maggie Crowley",
+  "en": "Absolutely. Toast is a retail and restaurant point of sale. It's the thing where, if you go to a restaurant or a coffee shop and you want to pay for a meal, you're probably swiping your card, whether it's at a kiosk, at a counter, or maybe there's a handheld they bring around where you swipe your card. That's the thing most people interact with. But behind the scenes, it's the hardware in the store itself, and all of the software that helps our operators run their menus, their inventory, their team schedule, their prep, and how they understand how their business is doing. So there's a whole host of things happening above store. We also have a bunch of products for how we help our operators drive traffic to their locations. And then we have a consumer app as well. Building for People Who Aren't on X",
+  "zh": "当然。Toast 是一个零售和餐饮销售点系统。它是这样一种东西:如果你去一家餐厅或咖啡店,想为一顿饭付钱,你很可能在刷卡,无论是在一个自助终端、在柜台,还是他们拿过来的一个手持设备上刷卡。那是大多数人都接触过的东西。但在幕后,它是店里的硬件,以及所有帮助我们的运营者管理菜单、库存、团队排班、备餐,以及了解生意状况的软件。所以门店之上有一大堆事情在发生。我们还有一系列产品帮助我们的运营者为他们的门店引流。我们还有一个消费者应用。为不在 X 上的人打造产品"
+ },
+ {
+  "seg": 18,
+  "start": 180,
+  "end": 200,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Those are the things I want to unpack. We spend a lot of time on X, and we're hopefully at the forefront of AI in some ways. But ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy. So the way you build for them and drive adoption is different than some of the keynotes we see from OpenAI or Anthropic.",
+  "zh": "这些是我想展开聊的东西。我们花很多时间在 X 上,我们也希望在某种程度上处于 AI 的前沿。但说到底,我认为你在为很多不在 X 上的人打造产品,对吧?那才是真实的经济。所以你为他们打造产品并推动采用的方式,不同于我们从 OpenAI 或 Anthropic 看到的一些主题演讲。"
+ },
+ {
+  "seg": 19,
+  "start": 200,
+  "end": 260,
+  "speaker": "Maggie Crowley",
+  "en": "That's true. I always think about our role at Toast as: these operators are super sophisticated, they run really difficult, slim-margin businesses, and they do it largely because they love it. Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI or whoever, and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow. Our job is to figure out how we make it useful for them, and then how we make it something that is actually real and not a distraction. There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome? Did it help you make more money? Did it help you save money? Did it save you real time? That's the bar I think about when we're building with these tools for businesses, and it's a different type of challenge that I find really interesting. Shipping AI Into a Platform That Existed Before AI",
+  "zh": "确实如此。我总是在想我们在 Toast 的角色是:这些运营者非常老练,他们经营的是非常困难、利润微薄的生意,而他们这么做很大程度上是因为热爱。我们的工作是搞清楚如何把 Anthropic 或 OpenAI 或其他谁拿出来的所有这些技术投入到为他们服务的工作中去,这样他们就不必花时间去想该用哪个模型或如何搭建工作流。我们的工作是搞清楚如何让它对他们有用,然后如何让它成为真正真实的东西,而不是一种干扰。用 AI 你可以做很多事情,而围绕着“感觉自己做成了什么”有太多的表演。但问题是,它真的驱动了结果吗?它帮你赚了更多钱吗?它帮你省了钱吗?它帮你省了真正的时间吗?那就是我在为企业用这些工具构建时思考的门槛,而它是一种不同类型的挑战,我觉得非常有意思。把 AI 装进 AI 出现之前就存在的平台"
+ },
+ {
+  "seg": 20,
+  "start": 260,
+  "end": 280,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One thing I noticed you mentioned on X recently is that you're building agents within SaaS products that existed before AI. That's a key difference from AI-native products that didn't have something to compare with. So from your perspective, what does that really mean, and how is it different from a native product?",
+  "zh": "我注意到你最近在 X 上提到的一点是,你们在 AI 出现之前就存在的 SaaS 产品内构建智能体。这与没有东西可以比较的 AI 原生产品是一个关键区别。所以从你的角度来看,这究竟意味着什么,它与原生产品有何不同?"
+ },
+ {
+  "seg": 21,
+  "start": 280,
+  "end": 370,
+  "speaker": "Maggie Crowley",
+  "en": "There are a couple of challenges. One is that your customers, if you're lucky, already know what they use you for. They have really specific ways they've set up their workflows, whether that's just the muscle memory of how they use your tool, or specific workflows in the tool. They're used to doing that. So anything you want to do has to convince them to do it in a different way. There's a layer of behavior change you have to figure out. There's also the question of how much change your customers can absorb. Do they want to try something new? Is the thing your AI tool does actually germane to the outcome they're trying to get, and how do you make it useful for them? How do you make them want to use it? And then there's a scale question, which is that you can't necessarily launch something that doesn't work, isn't fast, isn't accurate, or isn't performant to your install base. Because then they're going to not want to use your product, and you're going to burn trust. If you're early, there's a bit of a sense that you can just try things and test them out. There are lots of things we're seeing come through a channel like X that are early, a little bit broken, maybe the integrations aren't great or the security isn't perfect, but that's okay, because we're all early adopters. When you're building AI in a platform like Toast, you have to think about the bar for quality and excellence being really high from the start. So you have to get creative about how you build in that environment. It's not that you can't build quickly and iteratively; it's just a different way of thinking about it. The Design-Partner Playbook",
+  "zh": "这里有几个挑战。一个是你的客户,如果你幸运的话,已经知道他们用你做什么。他们有非常具体的方式设置好了他们的工作流,无论是使用你的工具的肌肉记忆,还是工具内的具体工作流。他们习惯于那样做。所以任何你想做的事情都必须说服他们以不同的方式去做。有一层行为改变你必须搞清楚。还有你的客户能吸收多少改变的问题。他们想尝试新东西吗?你的 AI 工具做的事与他们想得到的结果真的相关吗,以及你如何让它对他们有用?你如何让他们想用它?然后还有一个规模问题,那就是你不能向你的安装用户群发布一个不能用、不快、不准确或性能不好的东西。因为那样的话他们就不会想用你的产品,而你会烧掉信任。如果你是早期阶段,会有一种感觉,就是你可以只是尝试并测试一些东西。我们通过像 X 这样的渠道看到很多早期、有点破损的东西,也许集成不好或安全性不完美,但没关系,因为我们都是早期采用者。当你在像 Toast 这样的平台里构建 AI 时,你必须从一开始就思考质量和卓越的门槛非常高。所以你必须在那样的环境里发挥创意去构建。这不是说你不能快速和迭代地构建;只是它是一种不同的思考方式。设计伙伴手册"
+ },
+ {
+  "seg": 22,
+  "start": 370,
+  "end": 373,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So how are you building in that environment?",
+  "zh": "那你们是如何在那个环境中构建的?"
+ },
+ {
+  "seg": 23,
+  "start": 373,
+  "end": 510,
+  "speaker": "Maggie Crowley",
+  "en": "The way we thought about it, in the very early days when we started working on this at the end of 2023, we didn't even really know exactly what the use case would end up being. But we knew this technology was coming, and we wanted to start trying. So we found just a handful of design partners, as we called them, and we put ourselves in WhatsApp groups with these customers. We started turning an assistant on. We picked one platform, so we started on mobile just to make it easy for ourselves, and we picked one use case around reporting. We shipped it to these ten people, and we walled ourselves off to iterate with them as fast as we could, to get to a point where the product was good enough that we could start to scale it. We've done that with every major feature we've released since then. We did that for honestly about a year. Then the models finally got good enough in early 2025, and we made it generally available last fall, in October, and have built a lot into it since. But it was really that process: finding a couple of customers, building really quickly and iteratively with them, being in a channel where you could get fast feedback, and then scaling from there. That's how we figured out how to operate. Probably the other thing that's unique about building in this space is that you have to bring the AI to your customer. We couldn't assume they'd discover it on their own. Just adding a chat box somewhere isn't enough. You have to bring it to them. You have to get them over the blank-page problem. You have to help them understand when to use it. And an enduring challenge of these tools is that even if you get one of your users to use it, you're probably adding all sorts of capabilities in the background, and there's no way for them to see that, because it's all behind the scenes. So you have to constantly think about how you get them to use it, and then how you help them understand everything you're adding. You have to constantly re-onboard your users, because it's constantly changing. It's an interesting way to think about a product. Maybe before, you could launch something and assume that once your user figured it out and used it once, they understood how it worked. That's not the case with AI. You have to build a better muscle around bringing the product to them, helping them understand what it does, and then re-engaging them when you have new things. Re-Onboarding Users Who Have Other Jobs to Do",
+  "zh": "我们的想法是,在 2023 年底我们开始做这件事的很早期,我们甚至不太清楚用例最终会是什么。但我们知道这项技术要来了,我们想开始尝试。所以我们找到了仅仅一小撮设计伙伴,我们这样称呼他们,并且我们把自己放进与这些客户的 WhatsApp 群里。我们开始把一个助手打开。我们选了一个平台,所以我们从移动端开始,为了让自己的事情简单一点,并且我们选了一个围绕报表的用例。我们把它发布给这十个人,并且我们把自己隔离开来,尽可能快地与他们迭代,直到产品好到可以开始扩展的程度。从那以后我们发布的每一个主要功能都是这么做的。老实说,我们这样做了大约一年。然后模型终于在 2025 年初变得足够好,我们在去年秋天,也就是十月,正式发布了它,并且从那时起已经构建了很多东西进去。但真的就是那个过程:找到几个客户,与他们一起非常快速和迭代地构建,待在一个你可以获得快速反馈的渠道里,然后从那里扩展。我们就是这样摸索出如何运作的。也许在这个领域构建的另一件独特的事是,你必须把 AI 带给你的客户。我们不能假设他们会自己发现它。只是在某个地方加一个聊天框是不够的。你必须把它带给他们。你必须帮他们跨过空白页问题。你必须帮他们理解什么时候用它。而这些工具的一个持久的挑战是,即使你让你的一个用户使用了它,你可能也在后台添加了各种各样的能力,而他们没有办法看到,因为一切都在幕后。所以你必须不断思考如何让他们使用它,然后如何帮他们理解你添加的一切。你必须不断地让你的用户重新上手,因为它在不断变化。这是一种有趣的产品思考方式。也许以前,你可以发布一个东西,并假设一旦你的用户弄明白了它并使用过一次,他们就理解了它如何工作。AI 不是这样。你必须围绕把产品带给他们、帮他们理解它做什么、然后在你有新东西时重新激活他们,建立更强的肌肉。为有其他工作要做的用户重新上手"
+ },
+ {
+  "seg": 24,
+  "start": 510,
+  "end": 535,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I think that's a good point. Onboarding has always been critical, but especially as you start shipping more stuff. How do you do that, especially for someone who is probably doing other things? We go to bed thinking about the product we're building, but they probably have other things to figure out. So how do you do that type of onboarding differently now, to make sure it's driving the right level of adoption for those new capabilities?",
+  "zh": "我认为这是一个很好的观点。上手引导一直很关键,尤其当你开始发布更多东西的时候。你是怎么做的,尤其是对那些很可能在做其他事情的人?我们睡觉时想的是我们在构建的产品,但他们可能有别的事情要处理。那么你现在如何以不同的方式做那种上手引导,以确保它为那些新能力带来正确程度的采用?"
+ },
+ {
+  "seg": 25,
+  "start": 535,
+  "end": 620,
+  "speaker": "Maggie Crowley",
+  "en": "If I had totally cracked the onboarding problem for an AI product, maybe I'd have my own startup, I don't know. The way we think about it: the more you understand your customer, your user, the way they're working, and what they're up to, the better you're going to be at figuring out when they should use the thing you're building. And that's the same as any product you'd build. But you have to really understand, for us physically, where they are in the store or the restaurant. What time of day is it? Is it during a shift or not? What role do they have in the restaurant or retail shop, and where are they? And then, what might they need to do? And how do you close that gap and bring them whatever the use case is at that moment? So practically speaking, we of course have this assistant, Toast IQ, in our product. But it's entry points throughout the product. It's pre-written prompts that we know work really well, that we know are questions they're going to ask. And it's making sure it works really well in our mobile app as well as our desktop, and that we tailor the starter prompts based on what they're doing on those platforms at different times of day. So it's about getting really specific about all of those things and trying to make it really easy for them to get started. Once they get in and start asking their questions, then it's relatively easy; you just have to figure out how to get them in to start. From \"Help Me Do This\" to \"Do This for Me\"",
+  "zh": "如果我完全破解了 AI 产品的上手引导问题,也许我就有自己的创业公司了,谁知道呢。我们的思考方式是:你越理解你的客户、你的用户、他们工作的方式、以及他们在忙什么,你就越善于搞清楚他们什么时候应该使用你正在构建的东西。这与你构建的任何产品都一样。但你必须真正理解,对我们来说,从物理上讲,他们在店里或餐厅里的哪个位置。现在是一天中的什么时间?是不是在班次期间?他们在餐厅或零售店里扮演什么角色,他们在哪里?然后,他们可能需要做什么?你如何弥合那个差距,在那个时刻把用例带给他们?所以从实践上讲,我们当然在产品里有这个助手,Toast IQ。但它是遍布产品的入口。它是我们已知效果非常好的预写好的提示词,我们知道那是他们会问的问题。而且要确保它在我们的移动应用以及桌面端都运行得非常好,并且我们根据他们在这些平台上一天中不同时间在做什么来定制起始提示词。所以关键是对所有这些事情变得非常具体,并努力让他们非常容易上手。一旦他们进来并开始问他们的问题,那就相对容易了;你只需要搞清楚如何让他们进来开始。从“帮我做这件事”到“替我做这件事”"
+ },
+ {
+  "seg": 26,
+  "start": 620,
+  "end": 640,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Spoiler alert, but I know you're going to give us a demo of Toast IQ, and I think that's powerful, because ultimately it proves how people are interacting with your product. One thing I noticed, especially with AI, is that the user is changing their expectation from \"tool, help me do this\" to \"tool, do this for me.\"",
+  "zh": "剧透一下,我知道你将给我们演示 Toast IQ,我认为那很有说服力,因为它最终证明了人们是如何与你的产品互动的。我注意到的一点,尤其是在 AI 方面,是用户正在改变他们的期望,从“工具,帮我做这件事”变成“工具,替我做这件事。”"
+ },
+ {
+  "seg": 27,
+  "start": 640,
+  "end": 710,
+  "speaker": "Maggie Crowley",
+  "en": "I think about this a lot, because the dream, of course, is what you're saying: to actually hand off a workflow end to end. So many of us are trying out all these new consumer AI tools and playing around with them. Those tools and those patterns feel inevitable to me. But there's some unknown amount of time from when the consumer market has those things to when they're fully adopted in a B2B context, and it probably depends heavily on the type of user you have and the space you're in. So it's interesting to be in this moment where we see where things are going, we see where the behavior is going, and we have a chance to figure out how to do it well for our users. To me, it's the most interesting time to be building in a space like this. And I love building for a customer like ours, because they have such a low tolerance for doing AI for AI's sake. They don't care at all if it's AI or Toast IQ or whatever. All they care about is: did you help me with my business, and did you help me with a specific problem? So I'm really interested to see how it all plays out. The Clock on Consumer AI Patterns",
+  "zh": "我经常想这个问题,因为梦想当然是像你说的那样:真正把一个工作流端到端地交出去。我们很多人都在试用所有这些新的消费级 AI 工具,摆弄它们。那些工具和那些模式对我来说感觉是不可避免的。但从消费市场拥有这些东西到它们在 B2B 环境中被完全采用,有一段未知的时长,而它可能在很大程度上取决于你拥有的用户类型和你所处的领域。所以处在这个时刻很有意思,我们看到了事情正走向何方,我们看到行为正走向何方,而我们有机会搞清楚如何为我们的用户把它做好。对我而言,这是在这样一个领域构建的最有意思的时刻。而且我热爱为像我们这样的客户构建,因为他们对为了 AI 而 AI 的容忍度极低。他们完全不在乎它是 AI 还是 Toast IQ 还是别的什么。他们只在乎:你有没有帮到我的生意,你有没有帮我解决一个具体的问题?所以我真的很想看看这一切会如何展开。消费级 AI 模式的时钟"
+ },
+ {
+  "seg": 28,
+  "start": 710,
+  "end": 745,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You mentioned these new consumer AI agents. I've been obsessing over them. Literally yesterday I went to sleep at 3 a.m. because I couldn't stop; the thing kept doing things for me, and it was fun and addictive. It also made me miserable. But I can see how that B2C pattern that makes someone feel invincible could eventually apply to B2B and allow business owners of all kinds to have a much better understanding of their business, and eventually get to do things they used to do when the business was smaller.",
+  "zh": "你提到了这些新的消费级 AI 智能体。我一直在为它们着迷。 literally 昨天我凌晨 3 点才睡,因为我停不下来;那东西不停地替我做事情,很有趣也很上瘾。它也让我很痛苦。但我能看出那种让人觉得无敌的 B2C 模式最终如何能应用到 B2B,让各种生意的老板对自己的生意有更好的理解,并最终能去做生意还小的时候他们自己做的那些事。"
+ },
+ {
+  "seg": 29,
+  "start": 745,
+  "end": 800,
+  "speaker": "Maggie Crowley",
+  "en": "Absolutely. And there's almost a clock, because the second you start to see interactions like that in the consumer market, there's a certain amount of time until those patterns become standard. And then, if you have an AI product, your users expect that. So I also see it as: okay, we're seeing these patterns happen now, how long do I have before my users assume that's how my tool will work? I have that amount of time to make sure I can do whatever those things do. We have to stay relevant enough in the space. It's fun, because to me it means you almost have no idea where your product is going to go, and you have to figure out how to be more flexible, because you don't really know what the patterns are going to be, in terms of the interaction patterns, but also in terms of what the models can do. Before AI, building was almost getting boring, relatively. Now it's much more dynamic and interesting, because we have no idea what's coming.",
+  "zh": "完全同意。而且几乎有一个时钟,因为一旦你开始在消费市场看到那样的互动,距离那些模式变成标准就有一定的时间。然后,如果你有一个 AI 产品,你的用户就期望那样。所以我也把它看作是:好吧,我们现在看到这些模式在发生,在我的用户默认我的工具也会那样工作之前,我有多长时间?我就有那么多的时间来确保我能做到那些东西做的事。我们必须在这个领域保持足够的相关性。这很有趣,因为对我而言这意味着你几乎完全不知道你的产品会走向哪里,你必须搞清楚如何更加灵活,因为你真的不知道模式会是什么,无论是交互模式方面,还是模型能做什么方面。在 AI 之前,构建相对来说几乎变得无聊了。现在它更加动态和有趣,因为我们完全不知道会来什么。"
+ },
+ {
+  "seg": 30,
+  "start": 800,
+  "end": 808,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You don't know where the limits are. Before, the constraints would define your behavior. Now you're like, \"Hey, can you create this new button and do something else?\"",
+  "zh": "你不知道极限在哪里。以前,约束会定义你的行为。现在你会说,“嘿,你能创建这个新按钮并做点别的吗?”"
+ },
+ {
+  "seg": 31,
+  "start": 808,
+  "end": 810,
+  "speaker": "Maggie Crowley",
+  "en": "Totally. The Competitive Landscape",
+  "zh": "完全如此。竞争格局"
+ },
+ {
+  "seg": 32,
+  "start": 810,
+  "end": 835,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I also want to cover the market landscape. When you think about the restaurant, point of sale is important, and I imagine companies like Square are part of that market. But even more broadly, when I think about food delivery with companies like DoorDash or Uber Eats, or table reservations with OpenTable, or reputation management with Yelp, how are you thinking about your position in this bigger platform?",
+  "zh": "我还想聊聊市场格局。当你想到餐饮业,销售点很重要,我想像 Square 这样的公司是这个市场的一部分。但更广泛地说,当我想到 DoorDash 或 Uber Eats 这样的外卖公司,或 OpenTable 的订位,或 Yelp 的口碑管理,你如何看待自己在这个更大平台中的位置?"
+ },
+ {
+  "seg": 33,
+  "start": 835,
+  "end": 930,
+  "speaker": "Maggie Crowley",
+  "en": "It's a good question, and everybody is trying to figure out how the market is going to play out. I don't know that anybody knows how we're all going to interact and how it's all going to land. The way I think about this problem is: how do we make sure we're keeping our customers at the heart of what we're doing? It's so easy to get distracted by the competitive dynamics, the market dynamics, who's going to be the winner, whether there's going to be a winner, how it's all going to play out. It's interesting to game that out from a strategic standpoint. But at the end of the day, the company that wins, if there is such a thing, is the one that solves the right problem in the best way for their market and deeply understands it. So now, even more than before, the most important thing is to really understand the user and what they're up to. Be with them physically, go to their places, watch them do their work, be the person they can call. The more you do that, the better positioned you'll be for whatever the future holds. In the same way that three weeks ago we'd never heard of some of these consumer AI tools and now they're all we can talk about, who knows what new entrants will happen or what other companies will do? If you try to anchor too much on gaming that out, you're going to miss the point of right now, which is: build for your user and do everything you can for them, because that's what's going to make you successful no matter what happens in the market. Growth Levers as a Public Company",
+  "zh": "这是一个好问题,每个人都在试图搞清楚市场会如何演变。我不知道是否有人知道我们会如何互动,这一切会如何落地。我思考这个问题的方法是:我们如何确保把客户放在我们所做事情的核心?太容易被竞争动态、市场动态、谁会是赢家、是否会有赢家、这一切会如何演变所分心。从战略角度推演这些是有趣的。但说到底,赢的公司,如果真有这么一回事,是为自己的市场以最好的方式解决正确问题并深刻理解它的那一家。所以现在,比以往任何时候都更重要的是真正理解用户和他们在忙什么。在物理上和他们在一起,去他们的地方,看他们工作,成为他们可以打电话的那个人。你做得越多,无论未来如何你都会处于越有利的位置。就像三周前我们从未听说过其中一些消费级 AI 工具而现在它们是我们唯一能谈论的东西一样,谁知道会有什么新进入者或其他公司会做什么?如果你过于执着于推演那些,你就会错过当下的重点,那就是:为你的用户构建,为他们做你能做的一切,因为无论市场发生什么,这才是让你成功的东西。上市公司的增长杠杆"
+ },
+ {
+  "seg": 34,
+  "start": 930,
+  "end": 950,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Looking at some of the market numbers: you had a killer quarter, a Q2 with one of the fastest, steepest growth curves in history, growing at $2.4 billion, 25% year over year, and profitable. At the same time, you also have to pick a lane. So from a strategic standpoint, how are you figuring out your growth levers?",
+  "zh": "看看一些市场数据:你们刚度过了一个杀手级的季度,一个 Q2,史上增长最快、最陡的增长曲线之一,以 24 亿美元的规模增长,同比增长 25%,而且盈利。与此同时,你也必须选择一条赛道。所以从战略角度,你们是如何确定增长杠杆的?"
+ },
+ {
+  "seg": 35,
+  "start": 950,
+  "end": 1000,
+  "speaker": "Maggie Crowley",
+  "en": "It's as simple as what I'm saying. The better we are at understanding what our customers need, the better able we are to build things they're willing to pay for. Especially in a business as tight as a restaurant, you don't have the option of just assuming people will pay for extra things. You have to understand the P&L of a restaurant to understand where any additional dollar you're going to charge is going to come from, and whether it's actually going to be worth their time. And especially being a public company, we have a really strong finance team who are amazing, and we've been really disciplined about that. So the way we think about building always has to be something that really matters for the user. That's how we think about growth: deeply understand what they need, solve real problems, and then the rest kind of figures itself out. From \"We Manage Your POS\" to \"We Grow Your Restaurant\"",
+  "zh": "就像我说的那么简单。我们越善于理解客户需要什么,我们就越有能力去打造他们愿意付费的东西。尤其是在餐饮这样业务紧绷的行业,你没有选项去假设人们会为额外的东西付费。你必须理解一家餐厅的损益表,才能理解你要收的任何额外的钱会从哪里来,以及它是否真的值得他们花那份钱。尤其作为一家上市公司,我们有一个非常强大的财务团队,他们很出色,而我们在这上面一直非常自律。所以我们思考构建的方式始终是:必须是真正对用户重要的东西。这就是我们思考增长的方式:深刻理解他们需要什么,解决真实的问题,然后其余的事情自然就会理顺。从“我们管理你的销售点”到“我们帮你的餐厅增长”"
+ },
+ {
+  "seg": 36,
+  "start": 1000,
+  "end": 1025,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One of the things I read about the positioning of your product, Toast IQ, is that you're going from \"we manage your point of sale\" to \"we grow your restaurant.\" So you're now taking a bigger stance on helping your client make more money. What does that really mean for other tools, like email marketing tools or other technology that maybe isn't restaurant-specific but is now more related to what you do?",
+  "zh": "我读到过关于你们产品 Toast IQ 定位的一点,是你们正在从“我们管理你的销售点”走向“我们帮你的餐厅增长”。所以你们现在在帮客户赚更多钱这件事上采取了更大的立场。这对其他工具,比如邮件营销工具或其他技术,意味着什么?它们可能不是餐饮专属的,但现在与你们做的事更相关了?"
+ },
+ {
+  "seg": 37,
+  "start": 1025,
+  "end": 1100,
+  "speaker": "Maggie Crowley",
+  "en": "The marketing one is really interesting. That product has been so successful. What's interesting is that there's one customer who has reduced their marketing agency spend by over 70%, and can tie marketing to sales and attribute a specific amount of sales to marketing since they launched it via this product we built. We have examples like that showing you can use AI to dramatically reduce the cost of doing something, but also take off work you're not willing to do yourself, or don't want to do yourself. A lot of the sweet spot for us is that a marketer or a restaurateur isn't necessarily someone who loves doing email marketing or online marketing or building a website. So they pay someone to do it, and that's really expensive, and it's a low-margin business. They're happy to pay less than they'd pay an agency to get a lot of what they're getting from the agency, but using AI. So that's been one of the breakthrough use cases for us. That team has done a really amazing job building an agent that solves a painful problem: driving demand for a restaurant.",
+  "zh": "营销这个真的很有意思。那个产品一直非常成功。有意思的是,有一个客户把他们的营销代理支出减少了超过 70%,并且能把营销与销售挂钩,把具体金额的销售归因于营销,自他们通过我们构建的这个产品发布以来。我们有这样的例子,表明你可以用 AI 大幅降低做某件事的成本,同时也能卸掉你自己不愿意做、或不想自己做的工作。对我们来说,很多最佳甜蜜点在于,营销人员或餐厅经营者并不一定是喜欢做邮件营销、在线营销或建网站的人。所以他们付钱请人做,而那非常贵,而且这是一个低利润率的生意。他们乐意付比付给代理机构更少的钱,就能得到他们从代理机构得到的很多东西,而且是使用 AI。所以这一直是我们的突破性用例之一。那个团队做了一件非常了不起的工作,构建了一个解决痛苦问题的智能体:为餐厅驱动需求。"
+ },
+ {
+  "seg": 38,
+  "start": 1100,
+  "end": 1106,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So this is an agent that can do a lot of that marketing work on behalf of the restaurant, via email, text, and other channels.",
+  "zh": "所以这是一个能替餐厅完成很多营销工作的智能体,通过邮件、短信和其他渠道。"
+ },
+ {
+  "seg": 39,
+  "start": 1106,
+  "end": 1117,
+  "speaker": "Maggie Crowley",
+  "en": "Yeah, it's called Toast IQ Grow, and the whole game of it is: how do we put butts in seats, and all the different pieces that go into that, helping our customers offload that work.",
+  "zh": "是的,它叫 Toast IQ Grow,它的整个游戏就是:我们如何让顾客坐进座位,以及为此付出的所有不同环节,帮助我们的客户卸掉那些工作。"
+ },
+ {
+  "seg": 40,
+  "start": 1117,
+  "end": 1137,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "The other big thing, as you mentioned marketing, is how you show up not only on Google search but also now on LLMs. That's super sophisticated, requires a ton of effort, and someone running a restaurant maybe isn't focusing much on that online positioning. So how are you thinking about that as it applies to how you build product?",
+  "zh": "另一个大问题,就像你提到的营销,是你不仅在 Google 搜索上如何出现,还有现在在 LLM 上如何出现。那非常复杂,需要大量精力,而经营餐厅的人也许并不太关注那种线上定位。那么当这个问题关系到你如何构建产品时,你是怎么想的?"
+ },
+ {
+  "seg": 41,
+  "start": 1137,
+  "end": 1190,
+  "speaker": "Maggie Crowley",
+  "en": "I feel like I'm a broken record here, but it's the same thing. The more we can spend our time really understanding the technology, the better we are at doing that for customers. So the way we structure our teams is we try to make sure we have a PM focused deeply in that kind of space, so they can figure out, with their technical counterparts, how to bring that solution to our users, rather than forcing a customer to figure it out themselves. We're doing that across basically every use case we can think of, trying to figure out what we can take off your plate with AI, what problems we can solve, and how we make it easy for you, so that as a customer you don't have to think about which model to use, which tool to use, whether to use Anthropic or OpenAI or an open weight model. We can do all that for them, so all they have to do is plug into Toast and it works. Why a VP Still Line-Manages a Frontline Team",
+  "zh": "我感觉我在这里像个复读机,但就是同一件事。我们越能把时间花在真正理解技术上,我们就越善于为客户做好这件事。所以我们搭建团队的方式是,我们努力确保有一位 PM 深度专注于那类领域,这样他们可以和他们的技术伙伴一起搞清楚如何把那个解决方案带给我们的用户,而不是强迫客户自己去搞明白。我们在基本每一个能想到的用例上都在这样做,试图搞清楚我们能用 AI 从你盘子里卸掉什么、我们能解决什么问题、以及我们如何让它对你变得容易,这样作为客户你就不必去想该用哪个模型、该用哪个工具、该用 Anthropic 还是 OpenAI 还是一个开放权重模型。我们可以为他们做这一切,所以他们只需接入 Toast,它就能工作。为什么一位 VP 仍然一线带团队"
+ },
+ {
+  "seg": 42,
+  "start": 1190,
+  "end": 1205,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "As a VP of Product, you're not an IC anymore, but I imagine you're also carving out time to do some IC work, to stay in touch with customers. How does the day-to-day look now, different from before AI became that popular?",
+  "zh": "作为产品副总裁,你已经不是 IC 了,但我想你也在挤出时间做一些 IC 的工作,以保持与客户的接触。在 AI 变得这么流行之后,现在的日常是什么样的,和以前有何不同?"
+ },
+ {
+  "seg": 43,
+  "start": 1205,
+  "end": 1280,
+  "speaker": "Maggie Crowley",
+  "en": "I really think that in this day and age, if you don't keep a hand in how the teams are building, it's going to be really difficult to be a leader in nine months, a year, or two years, because the way teams build is so different. So whether that's finding a project to do on your own, or finding a way to be a line manager versus a manager of managers, at whatever level you're at, I think that's super critical for leaders right now. For me, the way I've done it is: any time a PM goes on parental leave, or we have an opening, I try to hop in and do that job for a little bit, to keep myself in the weeds on those products, and to make sure I understand what's going on at the frontline level. I also have areas where I don't have a middle-management layer and I manage the frontline team myself, because I want to stay close to the product. I think you can scale yourself as a leader much more effectively using AI tools, which lets you keep a flatter team than you used to. And if you don't do that as a leader, there's only so long until you don't understand how these tools work, and you're going to be somewhat irrelevant. Live Demo: Toast IQ",
+  "zh": "我真的认为,在当今这个时代,如果你不亲身参与团队如何构建,那么在九个月、一年或两年后想成为领导者会非常困难,因为团队构建的方式已经如此不同。所以无论是自己找一个项目来做,还是找到一种方式去做一线经理而不是经理的经理,无论你处于什么层级,我认为这对现在的领导者来说超级关键。对我而言,我一直在做的方式是:任何时候有一位 PM 休育儿假,或者我们有一个空缺,我都会试着跳进去做那份工作一段时间,以让自己保持在那些产品的一线细节里,并确保我理解一线层面正在发生什么。我还有一些领域是没有中层管理层的,我自己直接管理一线团队,因为我想离产品更近。我认为你可以用 AI 工具更高效地扩展自己作为领导者的能力,这让你能保持比过去更扁平的团队。而如果你作为领导者不这样做,那么要不了多久你就会不理解这些工具如何工作,而你会变得有些无关紧要。现场演示:Toast IQ"
+ },
+ {
+  "seg": 44,
+  "start": 1280,
+  "end": 1285,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Case in point, I would love for you to roll up your sleeves and show us your product.",
+  "zh": "正是个好例子,我很想让你撸起袖子给我们展示一下你的产品。"
+ },
+ {
+  "seg": 45,
+  "start": 1285,
+  "end": 1364,
+  "speaker": "Maggie Crowley",
+  "en": "Okay. I have to imagine there's this series of caveats we all share: this is a demo environment, and this is AI. So let's go on a journey. The most useful thing to think about as we go through this is that I'm going to show one typical type of workflow our customers go through, and there are of course tons of other things we can do. But I find most customers usually like to start with just trying to understand what's going on, especially what's going on today, what happened yesterday, where they're at on their week, and how they might react to what's coming next. So I might want to understand how that compares to the week prior.",
+  "zh": "好的。我得说,我们大概都有一连串共同的免责声明:这是一个演示环境,而这是 AI。那我们来开启一段旅程吧。在我们进行的过程中,最有用的思考方式是:我将展示我们客户会经历的一种典型工作流,当然我们还能做很多其他事情。但我发现大多数客户通常喜欢从只是试图理解正在发生什么开始,尤其是今天正在发生什么、昨天发生了什么、他们这一周进展如何,以及他们可能如何应对接下来会发生什么。所以我可能想了解这与前一周相比如何。"
+ },
+ {
+  "seg": 46,
+  "start": 1364,
+  "end": 1384,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You and I were joking about this before we started recording: this is where we work on our comedy routines as we wait for AI to load, day in and day out, when you're demoing these for your customers.",
+  "zh": "你和我在开始录制前还在为此开玩笑:这就是我们等 AI 加载时打磨喜剧段子的时候,日复一日,当你为你的客户做这些演示的时候。"
+ },
+ {
+  "seg": 47,
+  "start": 1384,
+  "end": 1398,
+  "speaker": "Maggie Crowley",
+  "en": "So I can tell you how this compares to the week prior. Maybe there's something specific that you're seeing. In this instance, my average check is higher, so let's see what drove that.",
+  "zh": "所以我可以告诉你这与前一周相比如何。也许你看到了什么具体的东西。在这个例子里,我的平均客单价更高了,所以我们来看看是什么驱动的。"
+ },
+ {
+  "seg": 48,
+  "start": 1398,
+  "end": 1420,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "This looks so similar to the kind of questions I used to ask my team every week. We'd go, and then someone would have to pull the report from Salesforce, and there was a meeting to prep for the meeting, and it was just so horrible. And now I just use Claude, it's connected to my Salesforce via MCP, I ask those questions and the follow-up questions, and I'm a happier person.",
+  "zh": "这看起来和我以前每周问我团队的那种问题如此相似。我们会去找他们,然后得有人从 Salesforce 拉报表,还要为准备会议而开一个会,那简直太糟糕了。而现在我只需使用 Claude,它通过 MCP 连接到我的 Salesforce,我问那些问题和后续问题,我就成了一个更快乐的人。"
+ },
+ {
+  "seg": 49,
+  "start": 1420,
+  "end": 1544,
+  "speaker": "Maggie Crowley",
+  "en": "Totally. Some of the really interesting magic when we first started is that it wasn't necessarily that you couldn't do this, or couldn't answer these questions if you wanted to in Toast, but maybe it just wasn't the easiest to do, or it wasn't intuitive to find. Toast has been around for 14 years. We have so much product, and a customer might not want to spend the time learning all of it. So this is just such a fast path to getting the answer. What was really interesting is that I also learned in the very early days that we had this assumption that only really tech-savvy early adopters would want to use this. But what happened was we found that some of the less tech-savvy operators loved it, because they didn't have to learn software. They just used their human language, and they loved it, because they could just ask questions without needing to feel like they had to learn a tool. I always thought that was an interesting learning from the early days. Okay, so what do we have here? It looks like the drivers I have are this prepaid dinner and my pepperoni flatbread. So I'm trying to remember: can you list out all the flatbreads on the menu? Because I'm thinking maybe I could juice my sales if I add to this menu category. A lot of what our customers are doing is trying to establish, day in and day out, how their menus might want to move, especially if there are changes in the cost of ingredients. One of the things we hear all the time is that the cost of ingredients and food is going up, and it's really difficult to keep raising your menu prices to match. So they're thinking about other ways they can construct a menu that's going to work, that's going to help their business be successful, and take into account that food costs are rising. So it looks like I've got eight flatbreads.",
+  "zh": "完全同意。我们刚开始时一些真正有意思的魔力在于,并不是说你在 Toast 里做不到这些,或者想答的话答不了这些问题,而也许只是做起来不是最简单的,或者找起来不直观。Toast 已经存在 14 年了。我们有非常多的产品,而客户可能不想花时间学会全部。所以这就是一条获得答案的如此快速的路径。真正有意思的是,我在很早期还了解到,我们原本有一个假设,认为只有真正懂技术的早期采用者才会想用它。但实际发生的是,我们发现一些没那么懂数据技术的运营者爱上了它,因为他们不必学习软件。他们只需使用他们的人类语言,他们很喜欢,因为他们可以直接问问题,而不需要觉得自己必须学会一个工具。我一直觉得那是早期阶段一个有意思的收获。好,那我们这里有什么?看起来我的驱动因素是这个 prepaid dinner 和我的 pepperoni flatbread。所以我想回忆一下:你能列出菜单上所有的 flatbread 吗?因为我在想,如果我在这个菜单类别里增加菜品,也许能提振我的销售。我们的客户在做的很多事情,就是日复一日地试图确定他们的菜单应该如何调整,尤其是当食材成本有变化时。我们经常听到的一件事是,食材和食品的成本在上涨,而持续跟着涨价来匹配是非常困难的。所以他们在思考其他方式来构造一个可行的菜单、一个能帮他们生意成功的菜单,并把食品成本上涨纳入考量。所以看起来我有八个 flatbread。"
+ },
+ {
+  "seg": 50,
+  "start": 1544,
+  "end": 1558,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Maggie, is the plan that users use that interface? Or are you also thinking about creating an MCP so they can access the same information from Claude or Codex?",
+  "zh": "Maggie,计划是让用户使用那个界面吗?还是你也在考虑创建一个 MCP,让他们可以从 Claude 或 Codex 访问同样的信息?"
+ },
+ {
+  "seg": 51,
+  "start": 1558,
+  "end": 1585,
+  "speaker": "Maggie Crowley",
+  "en": "That is the million-dollar question. Right now we're focused on how we help our customers just get their work done in Toast. There are all kinds of examples of every SaaS platform asking the same question and testing out different things. I don't know that we have a perfect answer yet. But I'm listening to our customers, having calls about what information they want to bring in, what they want to bring out, and how we help them get their work done. So that's probably as far as I can go on that before legal comes for me.",
+  "zh": "那是个价值百万美元的问题。现在我们专注于如何帮助我们的客户直接在 Toast 里完成他们的工作。每一个 SaaS 平台都有各种各样的例子在问同样的问题并测试不同的东西。我不知道我们是否已经有了完美的答案。但我在倾听我们的客户,通过通话了解他们想要引入什么信息、想要导出什么信息,以及我们如何帮助他们完成工作。所以在法务来找我之前,我能说的大概就到这里了。"
+ },
+ {
+  "seg": 52,
+  "start": 1585,
+  "end": 1600,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One of the things that comes to mind is that the same way you're integrating with a lot of the front-end tools like food delivery or restaurant reservations, you also integrate with a lot of the back-end stuff, right? Because there's a lot of financial information here.",
+  "zh": "我想到的一件事是,就像你们与很多前端工具(比如外卖或餐厅预订)集成一样,你们也与很多后端的东西集成,对吧?因为这里有很多财务信息。"
+ },
+ {
+  "seg": 53,
+  "start": 1600,
+  "end": 1700,
+  "speaker": "Maggie Crowley",
+  "en": "Yeah, we have partners we work with across basically the full lifecycle of a restaurant or retail shop. We have products within Toast they can use, and then we also try to make sure we can pull in any other context they have. But again, our goal is just how we help them get the information they need to get the job done. Increasingly with Toast IQ, we're trying to take that job as far as we can, and take on as much of the work as possible. So we end up in situations like this, where in the early days maybe just having insights was enough, but of course that's not enough anymore. You have to actually be able to make changes. So maybe let's make it $14.99. That sounds good. This is something that before AI would have been relatively annoying to do. If you're just making one menu change, it's relatively simple. But if you want to make bulk changes, or you have multiple menus across multiple locations, you can see how this kind of experience would get really complicated, and Toast IQ makes it a lot easier to just get it all done in chat. One interesting thing, just to give a little behind the scenes: this card is generated on the fly by Toast IQ based on the activity you're trying to get done. We're using different frameworks to make that possible. It's been interesting to see how this comes to life, because we built all these components in the back end, they're in the system, and then Toast IQ assembles it based on the question you're asking and the thing you're trying to get done. So it's cool to see this happen live, because it's pulling together something on the fly, not something we've constructed to look explicitly like this.",
+  "zh": "是的,我们与合作伙伴合作,基本上覆盖了餐厅或零售店的完整生命周期。我们有 Toast 内部的产品可供他们使用,然后我们也尽量确保能够引入他们拥有的任何其他上下文。但再次强调,我们的目标只是如何帮助他们获取完成工作所需的信息。随着 Toast IQ 的不断发展,我们正试图把这件事做得尽可能深入,承担尽可能多的工作。所以我们最终会遇到这样的情况:早期可能仅有洞察就足够了,但当然这已经不够了。你必须真的能够做出更改。比如,我们把它改成 14.99 美元,听起来不错。在 AI 之前,这是件相对麻烦的事。如果你只做一个菜单更改,那相对简单。但如果你想批量更改,或者你在多个地点有多个菜单,你可以想象这种体验会变得非常复杂,而 Toast IQ 让在聊天中把这一切搞定变得容易得多。有一件有趣的事,稍微透露一些幕后情况:这张卡片是由 Toast IQ 根据你正试图完成的活动即时生成的。我们在使用不同的框架来实现这一点。看到这个过程如何实现很有意思,因为我们在后端构建了所有这些组件,它们都在系统里,然后 Toast IQ 根据你提的问题和你想完成的事情把它们组装起来。所以看到这一切实时发生很酷,因为它是即时拼装出来的东西,而不是我们特意构建成这个样子的。"
+ },
+ {
+  "seg": 54,
+  "start": 1700,
+  "end": 1725,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "And as you said, it's not just about getting the insight. You're also taking actions that are being pushed now, in real time, to menus in this case. But I can see how you could also run a campaign, or investigate what's going on with a specific location. It kind of reminds me of e-commerce stores, where you're running this on an interface and trying to understand what's happening with your inventory. Now you can apply that same mindset to a restaurant or a chain of restaurants.",
+  "zh": "正如你所说,这不仅仅是获取洞察。你还在执行操作,在这种情况下,这些操作正被实时推送到菜单上。但我可以看出,你也可以运行一个营销活动,或者调查某个特定地点发生了什么。这有点让我想起电商店铺,你在界面上运行操作,试图了解你的库存情况。现在你可以把同样的思路应用到一家餐厅或一个餐厅连锁上。"
+ },
+ {
+  "seg": 55,
+  "start": 1725,
+  "end": 1745,
+  "speaker": "Maggie Crowley",
+  "en": "Exactly. You can imagine doing pretty much any type of activity this way, whether that's a bulk action or one action at a time. You can schedule these kinds of things based on an event or a specific time frame. So there are lots of different things you can do to take work off our customers' plates with this tool.",
+  "zh": "没错。你可以想象用这种方式完成几乎任何类型的活动,无论是批量操作还是逐个操作。你可以根据某个事件或特定时间范围来安排这类事情。所以通过这个工具,你可以做很多不同的事情,来为我们的客户减轻工作负担。"
+ },
+ {
+  "seg": 56,
+  "start": 1745,
+  "end": 1752,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Maggie, thank you for letting me put you on the spot and demo, for real, something that is cool, and that you build.",
+  "zh": "Maggie,谢谢你让我把你推到台上,真实地演示了一个很酷的东西,一个你们打造的东西。"
+ },
+ {
+  "seg": 57,
+  "start": 1752,
+  "end": 1765,
+  "speaker": "Maggie Crowley",
+  "en": "Major credit to the team. I've been involved in this since the beginning, and I was the first, or maybe the second, PM who worked on it. There's now a big team that works on it, and they've done an incredible job.",
+  "zh": "主要功劳归团队。我从一开始就参与其中,我是做这个项目的第一个,或者可能是第二个 PM。现在有一个大团队在负责它,他们做得非常出色。"
+ },
+ {
+  "seg": 58,
+  "start": 1765,
+  "end": 1780,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "But here you are, sharing a screen and going for it. This podcast typically hosts product leaders from OpenAI and Anthropic, and there's nothing wrong with that, but I think it's something special to also bring some of this magic to the real economy.",
+  "zh": "但你在这里,共享屏幕并放手去做。这个播客通常会邀请来自 OpenAI 和 Anthropic 的产品负责人,这没什么不好,但我认为把这种魔力带给实体经济也是一件特别的事。"
+ },
+ {
+  "seg": 59,
+  "start": 1780,
+  "end": 1815,
+  "speaker": "Maggie Crowley",
+  "en": "Yeah. It's so fun to be able to take that and bring it to a group of people who maybe wouldn't typically be using that kind of software, or maybe aren't going to be the most sophisticated in using it, or aren't the earliest adopters, because the bar for getting it right is so much higher. You can't just assume they're going to use it because they like trying cool new stuff. So to me, that makes it a more interesting challenge from a product perspective. And as you said, these businesses usually have razor-thin margins, so the impact you can make by optimizing certain things is real. It's money in their pocket.",
+  "zh": "是的。能够把这种东西带给一群可能通常不会使用这类软件的人,或者在使用上可能不是最老练的人,或者不是最早的采用者,这非常有意思,因为做对的门槛要高得多。你不能想当然地认为他们会使用它,因为他们喜欢尝试新奇的东西。所以对我来说,从产品角度来看,这是一个更有意思的挑战。而且正如你所说,这些企业通常利润率薄如刀片,所以通过优化某些事情所能产生的影响是实实在在的。那是装进他们口袋里的钱。"
+ },
+ {
+  "seg": 60,
+  "start": 1815,
+  "end": 1818,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Absolutely. Well, thank you for your time.",
+  "zh": "完全同意。好的,感谢你抽出时间。"
+ },
+ {
+  "seg": 61,
+  "start": 1818,
+  "end": 1821.6,
+  "speaker": "Maggie Crowley",
+  "en": "Of course. It was fun to come and chat.",
+  "zh": "不客气。来聊聊天很开心。"
+ }
+]

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":317,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":20,"确定性":3,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":20,"确定性":3,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

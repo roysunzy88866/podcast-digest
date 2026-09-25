@@ -5,7 +5,7 @@
   "end": 14.457,
   "speaker": "Unknown",
   "en": "Well, first of all, hi, everyone.",
-  "zh": "好的，首先，大家好。"
+  "zh": "首先,大家好。"
  },
  {
   "seg": 1,
@@ -13,7 +13,7 @@
   "end": 20.939,
   "speaker": "Unknown",
   "en": "I'm an engineer on the product growth team at Notion and now working on the GTM engineering team.",
-  "zh": "我是 Notion 产品增长团队的一名工程师，现在在 GTM 工程团队工作。"
+  "zh": "我是 Notion 产品增长团队的一名工程师,现在在 GTM 工程团队工作。"
  },
  {
   "seg": 2,
@@ -21,7 +21,7 @@
   "end": 26.522,
   "speaker": "Unknown",
   "en": "A year ago, I would have told you that building a GTM system was a marketing ops problem.",
-  "zh": "一年前，我会告诉你，构建 GTM 系统是一个营销运营问题。"
+  "zh": "一年前,如果你问我,我会告诉你搭建 GTM 系统是一个营销运营问题。"
  },
  {
   "seg": 3,
@@ -29,7 +29,7 @@
   "end": 31.924,
   "speaker": "Unknown",
   "en": "And today, I think it's one of the most interesting distributed systems problems that I've worked on.",
-  "zh": "而今天，我认为它是我所参与过的最有趣的分布式系统问题之一。"
+  "zh": "而今天,我认为它是我参与过的最有趣的分布式系统问题之一。"
  },
  {
   "seg": 4,
@@ -37,7 +37,7 @@
   "end": 45.361,
   "speaker": "Unknown",
   "en": "GTM at most companies involve a spider web of tools like what you see here, and they're stitched together by customer notes, proposals, contracts that are passed back and forth.",
-  "zh": "大多数公司的 GTM 涉及像你在这里看到的这样一张工具蜘蛛网，它们由客户笔记、提案、合同来回传递拼接在一起。"
+  "zh": "大多数公司的 GTM 涉及到一张工具的蛛网,就像你们在这里看到的,它们靠客户备注、提案、合同来回传递拼接在一起。"
  },
  {
   "seg": 5,
@@ -45,7 +45,7 @@
   "end": 54.028,
   "speaker": "Unknown",
   "en": "Over the last few months, a small team and myself, we've been trying to turn this spider web into a unified GTM system.",
-  "zh": "在过去几个月里，我和一个小团队一直在尝试把这个蜘蛛网变成一个统一的 GTM 系统。"
+  "zh": "在过去几个月里,我和一个小团队一直在尝试把这张蛛网改造成一个统一的 GTM 系统。"
  },
  {
   "seg": 6,
@@ -53,7 +53,7 @@
   "end": 58.892,
   "speaker": "Unknown",
   "en": "We're still in the midst of it, but we've learned a ton that I'd like to share with you today.",
-  "zh": "我们仍在这个过程中，但我们学到了大量东西，今天想与大家分享。"
+  "zh": "我们仍处于其中,但我们学到了非常多的东西,今天我想分享给大家。"
  },
  {
   "seg": 7,
@@ -69,7 +69,7 @@
   "end": 73.908,
   "speaker": "Unknown",
   "en": "We've been wrestling with pieces of it for years, lifecycle messaging, product recommendations, sales automations, customer data, and onboarding.",
-  "zh": "我们多年来一直在与它的各个部分搏斗：生命周期消息、产品推荐、销售自动化、客户数据和入职引导。"
+  "zh": "多年来我们一直在和它的各个部分较劲:生命周期消息、产品推荐、销售自动化、客户数据,以及新用户上手。"
  },
  {
   "seg": 9,
@@ -77,7 +77,7 @@
   "end": 78.732,
   "speaker": "Unknown",
   "en": "But the solutions were fragmented because the underlying technology forced them to be.",
-  "zh": "但解决方案是碎片化的，因为底层技术迫使他们如此。"
+  "zh": "但解决方案是碎片化的,因为底层技术迫使它们如此。"
  },
  {
   "seg": 10,
@@ -85,7 +85,7 @@
   "end": 94.104,
   "speaker": "Unknown",
   "en": "Then over the winter break, our CEO Ivan spent it building a video game, and he came back convinced that software engineering could be applied to many problems that were previously unwieldy or too costly.",
-  "zh": "然后在寒假期间，我们的 CEO Ivan 用它来做了一款电子游戏，他回来后深信，软件工程可以应用于许多以前难以驾驭或成本过高的问题。"
+  "zh": "然后在寒假期间,我们的 CEO Ivan 用它来做了一款电子游戏,他回来后坚信软件工程可以应用于许多以前难以驾驭或成本过高的问题。"
  },
  {
   "seg": 11,
@@ -93,7 +93,7 @@
   "end": 103.568,
   "speaker": "Unknown",
   "en": "At the same time, our ability to execute skyrocketed with agentic technology, and the breadth of problems we could solve did too.",
-  "zh": "与此同时，借助智能体技术，我们的执行能力飙升，我们能解决的问题范围也随之扩大。"
+  "zh": "同时,借助智能体技术,我们的执行能力飙升,我们能解决的问题范围也随之扩大。"
  },
  {
   "seg": 12,
@@ -101,7 +101,7 @@
   "end": 110.11,
   "speaker": "Unknown",
   "en": "The costly, time-consuming, and previously unsolvable spaghetti could now be sorted.",
-  "zh": "那些成本高、耗时、以前无法解决的意大利面条式混乱，现在可以被理顺了。"
+  "zh": "那些昂贵、耗时、以前无法解决的\"意大利面条式\"流程,现在可以被理顺了。"
  },
  {
   "seg": 13,
@@ -109,7 +109,7 @@
   "end": 114.959,
   "speaker": "Unknown",
   "en": "So what we found is that GTM had become a systems problem.",
-  "zh": "所以我们发现，GTM 已经变成了一个系统问题。"
+  "zh": "所以我们发现,GTM 已经变成了一个系统问题。"
  },
  {
   "seg": 14,
@@ -117,7 +117,7 @@
   "end": 118.94,
   "speaker": "Unknown",
   "en": "That made us realize we could chip away at this holistically.",
-  "zh": "这让我们意识到，我们可以从整体上逐步攻克它。"
+  "zh": "这让我们意识到,我们可以从整体上逐步攻克它。"
  },
  {
   "seg": 15,
@@ -125,7 +125,7 @@
   "end": 126.304,
   "speaker": "Unknown",
   "en": "In case you don't know, Notion's platform is a collaborative brain for human and agents to think together.",
-  "zh": "以防你不了解，Notion 的平台是一个供人类与智能体共同思考的协作大脑。"
+  "zh": "如果你还不了解,Notion 的平台是一个让人和智能体共同思考的协作大脑。"
  },
  {
   "seg": 16,
@@ -133,7 +133,7 @@
   "end": 132.967,
   "speaker": "Unknown",
   "en": "Over the years, we've evolved into a context layer for your company, and AI agents can act on it.",
-  "zh": "多年来，我们已经演变成你公司的上下文层，AI 智能体可以在其上行动。"
+  "zh": "多年来,我们已演变成贵公司的上下文层,AI 智能体可以在其上行动。"
  },
  {
   "seg": 17,
@@ -141,7 +141,7 @@
   "end": 142.156,
   "speaker": "Unknown",
   "en": "Notion's business moves between self-serve growth and sales assist, and customers move between these two motions all the time.",
-  "zh": "Notion 的业务在自助增长和销售辅助之间流动，客户也一直在这两种模式之间移动。"
+  "zh": "Notion 的业务在自助增长和销售辅助之间流转,客户也不断地在这两种模式之间移动。"
  },
  {
   "seg": 18,
@@ -149,7 +149,7 @@
   "end": 153.704,
   "speaker": "Unknown",
   "en": "The problem is that customers experience one journey, but internally it is supported by disconnected systems that don't actually talk to each other very well.",
-  "zh": "问题在于，客户体验到的是一段旅程，但在内部却由彼此之间实际上无法很好互通的割裂系统支撑着。"
+  "zh": "问题是,客户体验到的是一段旅程,但在内部,它由互不联通、实际上无法很好地相互通信的割裂系统支撑。"
  },
  {
   "seg": 19,
@@ -157,7 +157,7 @@
   "end": 160.368,
   "speaker": "Unknown",
   "en": "These processes were rife with human error and put a lot of cognitive burden on our teams.",
-  "zh": "这些流程充满了人为错误，给我们的团队带来了很大的认知负担。"
+  "zh": "这些流程充斥着人为错误,给我们的团队带来了沉重的认知负担。"
  },
  {
   "seg": 20,
@@ -165,7 +165,7 @@
   "end": 170.139,
   "speaker": "Unknown",
   "en": "For example, sales reps are probably not the strongest at managing systems, but their strength is in sussing out human signals during the buying process.",
-  "zh": "例如，销售代表在管理系统方面可能不是最强的，但他们的优势在于在购买过程中捕捉人的信号。"
+  "zh": "举例来说,销售代表在管理系统方面可能并不是最强的,但他们的强项是在购买过程中捕捉人的信号。"
  },
  {
   "seg": 21,
@@ -173,7 +173,7 @@
   "end": 180.643,
   "speaker": "Unknown",
   "en": "So every time they had to context switch between after a call, doing research, drafting follow-up, they were spending less time with our customers and customer problems.",
-  "zh": "所以每次他们在通话后、做调研、起草跟进之间进行上下文切换时，花在客户和客户问题上的时间就更少了。"
+  "zh": "所以每次他们在通话后、做调研、起草跟进之间进行上下文切换时,他们花在客户和客户问题上的时间就变少了。"
  },
  {
   "seg": 22,
@@ -181,7 +181,7 @@
   "end": 189.242,
   "speaker": "Unknown",
   "en": "Most companies have separate systems for sales assist and product-led growth, and this is actually also true for us.",
-  "zh": "大多数公司有独立的系统分别用于销售辅助和产品驱动增长，事实上我们也一样。"
+  "zh": "大多数公司为销售辅助和产品驱动增长配备相互独立的系统,实际上我们也是如此。"
  },
  {
   "seg": 23,
@@ -189,7 +189,7 @@
   "end": 201.234,
   "speaker": "Unknown",
   "en": "Marketing runs on one set of tools, sales on another, customer ops on a third, but all of them are looking at a customer independently and making decisions separately.",
-  "zh": "市场营销运行在一套工具上，销售在另一套上，客户运营在第三套上，但他们都在独立地观察同一个客户，并各自做出决策。"
+  "zh": "营销用一套工具运行,销售用另一套,客户运营用第三套,但他们都在各自独立地观察同一位客户并各自独立地做决策。"
  },
  {
   "seg": 24,
@@ -197,7 +197,7 @@
   "end": 215.172,
   "speaker": "Unknown",
   "en": "So what we set out to build is a single decisioning system that spans self-serve growth and sales assist, and it can help the customer decide the next step so that everything is cohesive.",
-  "zh": "所以我们要构建的是一个单一的决策系统，横跨自助增长和销售辅助，它能帮助客户决定下一步做什么，从而让一切保持连贯。"
+  "zh": "所以我们着手构建的,是一个横跨自助增长和销售辅助的单一决策系统,它能帮助客户决定下一步,从而让一切协调一致。"
  },
  {
   "seg": 25,
@@ -205,7 +205,7 @@
   "end": 221.639,
   "speaker": "Unknown",
   "en": "Our vision is for this system to be programmable, proactive, and continuous.",
-  "zh": "我们的愿景是让这个系统可编程、主动、持续。"
+  "zh": "我们的愿景是让这个系统可编程、主动式、且持续运行。"
  },
  {
   "seg": 26,
@@ -213,7 +213,7 @@
   "end": 226.465,
   "speaker": "Unknown",
   "en": "When we started, we were faced with some challenges.",
-  "zh": "当我们开始时，我们面临一些挑战。"
+  "zh": "当我们开始时,我们面临一些挑战。"
  },
  {
   "seg": 27,
@@ -221,7 +221,7 @@
   "end": 235.533,
   "speaker": "Unknown",
   "en": "There was no single source of truth, so customer data was spread across Salesforce, Gong, Outreach, Zoom Info, and many more.",
-  "zh": "没有单一的事实来源，客户数据散落在 Salesforce、Gong、Outreach、Zoom Info 等众多系统中。"
+  "zh": "没有单一的事实来源,客户数据散落在 Salesforce、Gong、Outreach、Zoom Info 等等很多地方。"
  },
  {
   "seg": 28,
@@ -229,7 +229,7 @@
   "end": 237.815,
   "speaker": "Unknown",
   "en": "Product usage lived in Snowflake.",
-  "zh": "产品使用数据存放在 Snowflake 中。"
+  "zh": "产品使用数据存在于 Snowflake。"
  },
  {
   "seg": 29,
@@ -237,7 +237,7 @@
   "end": 242.139,
   "speaker": "Unknown",
   "en": "And a decade of the most important context lived in Notes and Meeting Docs.",
-  "zh": "而十年间最重要的上下文存放在笔记和会议文档中。"
+  "zh": "而十年间最重要的上下文存在于备注和会议文档中。"
  },
  {
   "seg": 30,
@@ -245,7 +245,7 @@
   "end": 244.621,
   "speaker": "Unknown",
   "en": "Yes, our sales reps do use Notion for that, too.",
-  "zh": "是的，我们的销售代表也用 Notion 来做这些。"
+  "zh": "是的,我们的销售代表也确实在用 Notion 做这件事。"
  },
  {
   "seg": 31,
@@ -253,7 +253,7 @@
   "end": 254.655,
   "speaker": "Unknown",
   "en": "Notion employees were actively using MCPs and their own agents to solve problems already, but they were innovating within their own departments.",
-  "zh": "Notion 员工已经在积极使用 MCP 和自己的智能体来解决问题了，但他们是在各自部门内进行创新。"
+  "zh": "Notion 员工已经在积极使用 MCP 和自己的智能体来解决问题,但他们是在各自部门内部创新。"
  },
  {
   "seg": 32,
@@ -261,7 +261,7 @@
   "end": 259.397,
   "speaker": "Unknown",
   "en": "So it was single player mode, or you could say here, single department mode.",
-  "zh": "所以那是单人模式，或者你可以说是单部门模式。"
+  "zh": "所以那是单人模式,或者你可以说,是\"单部门模式\"。"
  },
  {
   "seg": 33,
@@ -269,7 +269,7 @@
   "end": 272.223,
   "speaker": "Unknown",
   "en": "Marketing built tools for marketing, sales built tools for sales, and each tool served a tiny slice of that customer journey, and it would make it really hard to create something that was more holistic.",
-  "zh": "市场营销为市场营销构建工具，销售为销售构建工具，每个工具只服务客户旅程中很小的一片，这使得创建更整体的东西变得非常困难。"
+  "zh": "营销为营销做工具,销售为销售做工具,每个工具只服务于客户旅程中很小的一块,这使得要做出更整体的东西变得非常困难。"
  },
  {
   "seg": 34,
@@ -277,7 +277,7 @@
   "end": 277.64,
   "speaker": "Unknown",
   "en": "When we tried to automate across all of that, we hit some roadblocks.",
-  "zh": "当我们试图在所有这些之上实现自动化时，我们遇到了一些障碍。"
+  "zh": "当我们试图在所有这些之上实现自动化时,我们遇到了一些障碍。"
  },
  {
   "seg": 35,
@@ -285,7 +285,7 @@
   "end": 279.621,
   "speaker": "Unknown",
   "en": "First, data quality.",
-  "zh": "第一，数据质量。"
+  "zh": "第一,数据质量。"
  },
  {
   "seg": 36,
@@ -293,7 +293,7 @@
   "end": 284.285,
   "speaker": "Unknown",
   "en": "Conflicting systems of records, wrong contacts tied to different accounts.",
-  "zh": "相互冲突的记录系统，错误的联系人被关联到不同的账户上。"
+  "zh": "相互冲突的记录系统,错误的联系人被关联到不同的账户。"
  },
  {
   "seg": 37,
@@ -301,7 +301,7 @@
   "end": 290.611,
   "speaker": "Unknown",
   "en": "One bad mapping was enough to lose trust for sales rep. Secondly, data latency.",
-  "zh": "一个糟糕的映射就足以让销售代表失去信任。其次，数据延迟。"
+  "zh": "一个错误的映射就足以让销售代表失去信任。第二,数据延迟。"
  },
  {
   "seg": 38,
@@ -309,7 +309,7 @@
   "end": 299.098,
   "speaker": "Unknown",
   "en": "Every vendor added a hop, and this lag was causing us to act on stale data, and that meant we were automating on yesterday's world.",
-  "zh": "每个供应商都增加一跳，这种延迟导致我们基于过时数据行动，这意味着我们在基于昨天的世界进行自动化。"
+  "zh": "每个供应商都增加了一跳,这种滞后导致我们基于过时的数据行动,这意味着我们在基于昨天的世界做自动化。"
  },
  {
   "seg": 39,
@@ -317,7 +317,7 @@
   "end": 303.877,
   "speaker": "Unknown",
   "en": "Third, and this is a big one, structured and unstructured data.",
-  "zh": "第三，也是个大问题，结构化和非结构化数据。"
+  "zh": "第三,这也是个大问题,结构化数据和非结构化数据。"
  },
  {
   "seg": 40,
@@ -325,7 +325,7 @@
   "end": 315.265,
   "speaker": "Unknown",
   "en": "The most important facts about a customer were left in notes, like the champion just left, or don't contact this customer again, or they're blocked and legal.",
-  "zh": "关于客户最重要的事实留在笔记里，比如\"关键支持者刚刚离职\"，或者\"不要再联系这个客户\"，或者\"他们被法务卡住了\"。"
+  "zh": "关于客户最重要的事实往往留在备注里,比如:关键支持者刚离职,或者不要再联系这个客户,或者他们被法务卡住了。"
  },
  {
   "seg": 41,
@@ -333,7 +333,7 @@
   "end": 321.19,
   "speaker": "Unknown",
   "en": "And so these are exactly the types of notes that help sales rep move forward and decide what to do next.",
-  "zh": "而这些正是帮助销售代表推进并决定下一步该做什么的那类笔记。"
+  "zh": "而这些正是能帮助销售代表推进并决定下一步该做什么的那类备注。"
  },
  {
   "seg": 42,
@@ -341,7 +341,7 @@
   "end": 327.074,
   "speaker": "Unknown",
   "en": "And if an automation couldn't see it or process it, it could do something catastrophically wrong.",
-  "zh": "如果一个自动化看不到或无法处理它，它就可能做出灾难性的错误行为。"
+  "zh": "如果一个自动化看不到或处理不了它,就可能酿成灾难性的错误。"
  },
  {
   "seg": 43,
@@ -357,7 +357,7 @@
   "end": 341.525,
   "speaker": "Unknown",
   "en": "And after brainstorming together, we all kept finding the same patterns underneath that complexity.",
-  "zh": "在一起头脑风暴之后，我们都不断在这复杂性之下发现相同的模式。"
+  "zh": "在一起头脑风暴之后,我们不断在复杂性之下发现相同的模式。"
  },
  {
   "seg": 45,
@@ -365,7 +365,7 @@
   "end": 344.226,
   "speaker": "Unknown",
   "en": "Whoops, oh.",
-  "zh": "哎呀，哦。"
+  "zh": "哎呀,哦。"
  },
  {
   "seg": 46,
@@ -373,7 +373,7 @@
   "end": 347.267,
   "speaker": "Unknown",
   "en": "Every workflow could be reduced to four questions.",
-  "zh": "每个工作流程都可以归结为四个问题。"
+  "zh": "每个工作流都可以被归结为四个问题。"
  },
  {
   "seg": 47,
@@ -381,7 +381,7 @@
   "end": 349.567,
   "speaker": "Unknown",
   "en": "What do we know about the customer?",
-  "zh": "我们对客户了解什么？"
+  "zh": "关于客户我们了解什么?"
  },
  {
   "seg": 48,
@@ -389,7 +389,7 @@
   "end": 351.448,
   "speaker": "Unknown",
   "en": "What should happen next?",
-  "zh": "接下来应该发生什么？"
+  "zh": "接下来应该发生什么?"
  },
  {
   "seg": 49,
@@ -397,7 +397,7 @@
   "end": 353.869,
   "speaker": "Unknown",
   "en": "How do we execute that safely?",
-  "zh": "我们如何安全地执行它？"
+  "zh": "我们如何安全地执行它?"
  },
  {
   "seg": 50,
@@ -405,7 +405,7 @@
   "end": 355.369,
   "speaker": "Unknown",
   "en": "And did it work?",
-  "zh": "那它起作用了吗？"
+  "zh": "那它奏效了吗？"
  },
  {
   "seg": 51,
@@ -413,7 +413,7 @@
   "end": 358.03,
   "speaker": "Unknown",
   "en": "That became our architecture.",
-  "zh": "那成了我们的架构。"
+  "zh": "那成为了我们的架构。"
  },
  {
   "seg": 52,
@@ -445,7 +445,7 @@
   "end": 384.206,
   "speaker": "Unknown",
   "en": "Third, act and fire a concrete action that could be a lifecycle email, an in-app nudge, or a task handed to a rep. And then learn, watch what happened and feed it back into the decisioning so that it's a loop.",
-  "zh": "第三，Act(行动)，触发一个具体的动作，可以是一封生命周期邮件、一个应用内提示，或交给销售代表的一项任务。然后是 Learn(学习)，观察发生了什么，并把它反馈到决策中，使其成为一个闭环。"
+  "zh": "第三，Act(行动)，触发一个具体的动作，可以是一封生命周期邮件、一个应用内提示，或者交给销售代表的任务。然后是 Learn(学习)，观察发生了什么，并把它反馈到决策中，使其成为一个循环。"
  },
  {
   "seg": 56,
@@ -461,7 +461,7 @@
   "end": 396.307,
   "speaker": "Unknown",
   "en": "The most important part is that humans and agents are operating on the same loop.",
-  "zh": "最重要的部分是，人类和智能体在同一条闭环上运作。"
+  "zh": "最重要的一部分是，人类和智能体在同一个循环上运行。"
  },
  {
   "seg": 58,
@@ -469,7 +469,7 @@
   "end": 404.39,
   "speaker": "Unknown",
   "en": "Concretely, this means that the context needs to be displayed so that humans and agents can read and operate on it together.",
-  "zh": "具体来说，这意味着上下文需要被展示出来，使人类和智能体能够共同读取并基于它进行操作。"
+  "zh": "具体来说，这意味着上下文需要被展示出来，以便人类和智能体能够一起阅读并基于它进行操作。"
  },
  {
   "seg": 59,
@@ -477,7 +477,7 @@
   "end": 409.887,
   "speaker": "Unknown",
   "en": "So you can see that they're working in the same system, but they might have different roles.",
-  "zh": "所以你可以看到，他们在同一个系统中工作，但他们可能有不同的角色。"
+  "zh": "所以你可以看到他们在同一个系统中工作，但他们可能有不同的角色。"
  },
  {
   "seg": 60,
@@ -485,7 +485,7 @@
   "end": 419.073,
   "speaker": "Unknown",
   "en": "Agents do the repetitive work at scale, like gathering context, researching, drafting recommendations, and writing artifacts.",
-  "zh": "智能体做大规模的重复性工作，比如收集上下文、做调研、起草建议和撰写产出物。"
+  "zh": "智能体做大规模的重复性工作，比如收集上下文、做研究、起草建议和撰写产物。"
  },
  {
   "seg": 61,
@@ -493,7 +493,7 @@
   "end": 428.298,
   "speaker": "Unknown",
   "en": "Humans provide the judgment, adding nuance, deciding what to do next and if a recommendation is correct, and owning the customer relationship.",
-  "zh": "人类提供判断，加入细微差别、决定下一步做什么、判断一条建议是否正确，并负责维护客户关系。"
+  "zh": "人类提供判断，添加细微差别，决定下一步做什么、某个建议是否正确，并拥有客户关系。"
  },
  {
   "seg": 62,
@@ -501,7 +501,7 @@
   "end": 440.638,
   "speaker": "Unknown",
   "en": "We found that instead of building an AI layer on top of our business, we designed our architecture so that the agent can operate as another operator within the same system as humans.",
-  "zh": "我们发现，与其在我们的业务之上构建一个 AI 层，我们把架构设计成让智能体可以作为另一个操作者，与人类在同一个系统内运作。"
+  "zh": "我们发现，与其在我们的业务之上构建一个 AI 层，我们设计了架构，让智能体能够作为与人类在同一个系统中的另一个操作者来运作。"
  },
  {
   "seg": 63,
@@ -509,7 +509,7 @@
   "end": 447.283,
   "speaker": "Unknown",
   "en": "Before we built the system, we made some choices about how we were going to implement this.",
-  "zh": "在构建这个系统之前，我们对如何实现它做了一些选择。"
+  "zh": "在我们构建这个系统之前，我们对如何实现它做了一些选择。"
  },
  {
   "seg": 64,
@@ -525,7 +525,7 @@
   "end": 459.901,
   "speaker": "Unknown",
   "en": "For sales assist workflows, humans stay in the loop by default and approve anything the agents do.",
-  "zh": "对于销售辅助类工作流，默认情况下人类保持在闭环中，并批准智能体所做的任何操作。"
+  "zh": "对于销售辅助工作流，人类默认保持在循环中，并批准智能体所做的任何事情。"
  },
  {
   "seg": 66,
@@ -541,7 +541,7 @@
   "end": 466.524,
   "speaker": "Unknown",
   "en": "That decision also has a security dimension too.",
-  "zh": "这个决定还有一个安全层面的考量。"
+  "zh": "这个决定也有安全层面的考量。"
  },
  {
   "seg": 68,
@@ -549,7 +549,7 @@
   "end": 472.888,
   "speaker": "Unknown",
   "en": "If a prospect fills out a contact sales form online, we treat that as untrusted user input.",
-  "zh": "如果一个潜在客户在线填写了联系销售表单，我们会将其视为不可信的用户输入。"
+  "zh": "如果一个潜在客户在线填写了联系销售表单，我们会将其视为不受信任的用户输入。"
  },
  {
   "seg": 69,
@@ -565,7 +565,7 @@
   "end": 483.666,
   "speaker": "Unknown",
   "en": "Secondly, routing and eligibility became a first-class primitive.",
-  "zh": "其次，路由和资格判定成为了一等公民原语。"
+  "zh": "其次，路由和资格判定成为了一等原语。"
  },
  {
   "seg": 71,
@@ -573,7 +573,7 @@
   "end": 487.308,
   "speaker": "Unknown",
   "en": "Eligibility used to be scattered all over the place.",
-  "zh": "资格判定以前散落在各个地方。"
+  "zh": "资格判定过去散落各处。"
  },
  {
   "seg": 72,
@@ -581,7 +581,7 @@
   "end": 505.48,
   "speaker": "Unknown",
   "en": "We had one checker rule in an email tool, another in sales, and we pulled that all into one place so that these rules can be consumed across our code base, product, sales, engineering, and these are like customer segmentations or signal definitions.",
-  "zh": "我们在邮件工具里有一条检查规则，在销售系统里又有一条，我们把它们全部收拢到一个地方，让这些规则可以在我们的代码库、产品、销售、工程中被消费，它们类似于客户分层或信号定义。"
+  "zh": "我们在邮件工具里有一条检查规则，在销售系统里又有另一条，我们把它们全部整合到一个地方，这样这些规则可以在我们的代码库、产品、销售、工程中被消费，这些就像客户分群或信号定义。"
  },
  {
   "seg": 73,
@@ -589,7 +589,7 @@
   "end": 509.959,
   "speaker": "Unknown",
   "en": "And then a single classifier will route what the customer should do.",
-  "zh": "然后由一个单一的分类器来路由客户应该做什么。"
+  "zh": "然后一个单一的分类器会路由客户应该做什么。"
  },
  {
   "seg": 74,
@@ -597,7 +597,7 @@
   "end": 515.905,
   "speaker": "Unknown",
   "en": "And this will actually prevent double sends from our system and create very cohesive communication across.",
-  "zh": "这实际上可以防止我们系统出现重复发送，并在整体上形成非常连贯的沟通。"
+  "zh": "这实际上会防止我们系统的重复发送，并创建非常连贯的沟通。"
  },
  {
   "seg": 75,
@@ -605,7 +605,7 @@
   "end": 522.01,
   "speaker": "Unknown",
   "en": "And last but not least, we decided that it was very important to own the context layer.",
-  "zh": "最后同样重要的是，我们决定拥有上下文层是非常关键的。"
+  "zh": "最后但同样重要的是，我们决定拥有上下文层是非常重要的。"
  },
  {
   "seg": 76,
@@ -613,7 +613,7 @@
   "end": 524.511,
   "speaker": "Unknown",
   "en": "And we decided to rent everything else.",
-  "zh": "而我们决定其余的一切都租用。"
+  "zh": "而我们决定其余一切都租用。"
  },
  {
   "seg": 77,
@@ -621,7 +621,7 @@
   "end": 531.295,
   "speaker": "Unknown",
   "en": "Since we are a lean team, we will not build our own email vendor or enrichment services like Clay.",
-  "zh": "由于我们是一个精简团队，我们不会自建邮件服务商或像 Clay 这样的数据增强服务。"
+  "zh": "由于我们是一个精简的团队，我们不会构建自己的邮件服务商或像 Clay 这样的数据增强服务。"
  },
  {
   "seg": 78,
@@ -629,7 +629,7 @@
   "end": 532.355,
   "speaker": "Unknown",
   "en": "We use Clay.",
-  "zh": "我们用 Clay。"
+  "zh": "我们使用 Clay。"
  },
  {
   "seg": 79,
@@ -637,7 +637,7 @@
   "end": 536.237,
   "speaker": "Unknown",
   "en": "And we believe that we understood our customers the best.",
-  "zh": "而且我们相信，我们对客户的理解是最好的。"
+  "zh": "而且我们相信我们对客户的理解是最透彻的。"
  },
  {
   "seg": 80,
@@ -645,7 +645,7 @@
   "end": 539.178,
   "speaker": "Unknown",
   "en": "So we will not give that away.",
-  "zh": "所以我们不会把这一点交出去。"
+  "zh": "所以我们不会放弃这一点。"
  },
  {
   "seg": 81,
@@ -653,7 +653,7 @@
   "end": 542.84,
   "speaker": "Unknown",
   "en": "So let's get into what we built.",
-  "zh": "那么让我们来看看我们构建了什么。"
+  "zh": "那么让我们进入我们构建的东西。"
  },
  {
   "seg": 82,
@@ -669,7 +669,7 @@
   "end": 552.689,
   "speaker": "Unknown",
   "en": "Snowflake, which is our data warehouse, is where we compute this truth.",
-  "zh": "Snowflake 是我们的数据仓库，我们在这里计算这个真相。"
+  "zh": "Snowflake，也就是我们的数据仓库，是我们计算这个真相的地方。"
  },
  {
   "seg": 84,
@@ -685,7 +685,7 @@
   "end": 560.976,
   "speaker": "Unknown",
   "en": "We run daily transforms, and in some cases, real time.",
-  "zh": "我们运行每日转换，某些情况下是实时的。"
+  "zh": "我们运行每日转换，在某些情况下是实时的。"
  },
  {
   "seg": 86,
@@ -693,7 +693,7 @@
   "end": 564.609,
   "speaker": "Unknown",
   "en": "To produce a small set of modeled versioned entities.",
-  "zh": "来产出一小组建模的、带版本控制的实体。"
+  "zh": "以产出一小组建模的、带版本的实体。"
  },
  {
   "seg": 87,
@@ -701,7 +701,7 @@
   "end": 569.65,
   "speaker": "Unknown",
   "en": "And these are accounts, contacts, workspaces, eligibility and facts.",
-  "zh": "这些实体是账户、联系人、工作区、资格判定和事实。"
+  "zh": "这些是账户、联系人、工作区、资格和事实。"
  },
  {
   "seg": 88,
@@ -709,7 +709,7 @@
   "end": 575.571,
   "speaker": "Unknown",
   "en": "And this also has clear ownership of what teams or tools they come from and like timestamps.",
-  "zh": "这其中还包括清晰的归属，说明它们来自哪些团队或工具，以及时间戳之类的东西。"
+  "zh": "这也有清晰的归属，说明它们来自哪些团队或工具，还有时间戳之类的。"
  },
  {
   "seg": 89,
@@ -717,7 +717,7 @@
   "end": 581.913,
   "speaker": "Unknown",
   "en": "DynamoDB is our key value store and it's where we compute our truth or serve our truth.",
-  "zh": "DynamoDB 是我们的键值存储，我们在这里计算我们的真相或提供我们的真相。"
+  "zh": "DynamoDB 是我们的键值存储，是我们计算真相或提供真相服务的地方。"
  },
  {
   "seg": 90,
@@ -725,7 +725,7 @@
   "end": 589.635,
   "speaker": "Unknown",
   "en": "We publish a denormalized key addressable profile that agents can quickly query in milliseconds with no joins.",
-  "zh": "我们发布一个非规范化的、按键寻址的画像，智能体可以在几毫秒内快速查询，无需任何 join。"
+  "zh": "我们发布一个反规范化的、按键寻址的画像，智能体可以在几毫秒内快速查询，无需任何 join。"
  },
  {
   "seg": 91,
@@ -733,7 +733,7 @@
   "end": 595.256,
   "speaker": "Unknown",
   "en": "We also persist agent-persisted or generated artifacts.",
-  "zh": "我们还持久化智能体持久化或生成的产出物。"
+  "zh": "我们还持久化由智能体持久化或生成的产物。"
  },
  {
   "seg": 92,
@@ -741,7 +741,7 @@
   "end": 599.422,
   "speaker": "Unknown",
   "en": "And these are research snippets, summarized notes, rolling summaries.",
-  "zh": "这些是调研片段、摘要笔记、滚动摘要。"
+  "zh": "这些是研究片段、摘要笔记、滚动摘要。"
  },
  {
   "seg": 93,
@@ -749,7 +749,7 @@
   "end": 607.533,
   "speaker": "Unknown",
   "en": "And these unstructured data are also keyed by the same IDs so that downstream systems can read all of this in one shot.",
-  "zh": "这些非结构化数据也用同样的 ID 作为键，这样下游系统可以一次性读取所有这些内容。"
+  "zh": "这些非结构化数据也用相同的 ID 作为键，以便下游系统可以一次性读取所有这些内容。"
  },
  {
   "seg": 94,
@@ -757,7 +757,7 @@
   "end": 618.18,
   "speaker": "Unknown",
   "en": "So this data was normalized, and of course we brought it into Notion so that we could work with structured and unstructured data at the same time.",
-  "zh": "于是这些数据被规范化了，当然我们把它引入了 Notion，这样我们就可以同时处理结构化和非结构化数据。"
+  "zh": "所以这些数据被规范化了，当然我们把它带进了 Notion，这样我们就可以同时处理结构化和非结构化数据。"
  },
  {
   "seg": 95,
@@ -765,7 +765,7 @@
   "end": 634.586,
   "speaker": "Unknown",
   "en": "So some of the data I showed you in the boxes earlier, there's product usage data, there's activity log from across our vendor stack, and then we also have unstructured data, like I mentioned, that is most important for sales context with research reports and notes.",
-  "zh": "我之前在框里给你展示的一些数据，有产品使用数据，有来自我们整个供应商技术栈的活动日志，然后正如我提到的，我们还有非结构化数据，它们对于销售上下文最为重要，包括调研报告和笔记。"
+  "zh": "我之前在那些框里给你展示的一些数据，有产品使用数据，有来自我们整个供应商技术栈的活动日志，然后我们还有非结构化数据，就像我提到的，这对销售上下文最为重要，包括研究报告和笔记。"
  },
  {
   "seg": 96,
@@ -781,7 +781,7 @@
   "end": 645.247,
   "speaker": "Unknown",
   "en": "First, our internal GTM teams didn't need to jump between many tools anymore.",
-  "zh": "第一，我们内部的 GTM 团队不再需要在许多工具之间跳来跳去了。"
+  "zh": "首先，我们内部的 GTM 团队不再需要在许多工具之间跳转了。"
  },
  {
   "seg": 98,
@@ -789,7 +789,7 @@
   "end": 659.258,
   "speaker": "Unknown",
   "en": "They could use Notion itself, a tool they were already using, to explore context, investigate accounts, answer questions, and they could even take actions like sending to Nooks or sending to Outreach.",
-  "zh": "他们可以直接使用 Notion 这个他们已经在用的工具，来探索上下文、调查账户、回答问题，他们甚至可以执行操作，比如发送到 Nooks 或发送到 Outreach。"
+  "zh": "他们可以直接使用 Notion 本身，一个他们已经在用的工具，来探索上下文、调查账户、回答问题，他们甚至可以采取行动，比如发送到 Nooks 或发送到 Outreach。"
  },
  {
   "seg": 99,
@@ -797,7 +797,7 @@
   "end": 664.482,
   "speaker": "Unknown",
   "en": "This is a tool that they were very familiar with, and they didn't need to open seven tabs anymore.",
-  "zh": "这是一个他们非常熟悉的工具，他们不再需要打开七个标签页了。"
+  "zh": "这是他们非常熟悉的工具，他们不再需要打开七个标签页了。"
  },
  {
   "seg": 100,
@@ -805,7 +805,7 @@
   "end": 672.933,
   "speaker": "Unknown",
   "en": "Secondly, because we weren't building an AI layer, humans, workflows, and agents could all operate on the same source of truth.",
-  "zh": "其次，因为我们不是在构建一个 AI 层，人类、工作流和智能体都可以在同一个事实来源上运作。"
+  "zh": "其次，因为我们没有构建 AI 层，人类、工作流和智能体都可以在同一事实来源上运行。"
  },
  {
   "seg": 101,
@@ -821,7 +821,7 @@
   "end": 686.314,
   "speaker": "Unknown",
   "en": "The next primitive we decided that we needed was a way to turn customer events into actions.",
-  "zh": "我们决定需要的下一个基元，是一种把客户事件转化为行动的方式。"
+  "zh": "我们决定需要的下一个原语，是一种把客户事件转化为行动的方式。"
  },
  {
   "seg": 103,
@@ -829,7 +829,7 @@
   "end": 688.375,
   "speaker": "Unknown",
   "en": "The unit here is a signal.",
-  "zh": "这里的单位是信号。"
+  "zh": "这里的单元是信号。"
  },
  {
   "seg": 104,
@@ -837,7 +837,7 @@
   "end": 694.98,
   "speaker": "Unknown",
   "en": "A signal is a single customer event that's important enough to change what should happen next for a customer.",
-  "zh": "信号是一个单一的客户事件，它重要到足以改变该客户接下来应该发生什么。"
+  "zh": "信号是一个单独的客户事件，它重要到足以改变接下来该为这个客户做什么。"
  },
  {
   "seg": 105,
@@ -845,7 +845,7 @@
   "end": 702.506,
   "speaker": "Unknown",
   "en": "Some are user-driven, like a customer hitting their AI limit, or maybe they reached out to contact sales.",
-  "zh": "有些是用户驱动的，比如客户达到了他们的 AI 使用上限，或者他们联系了销售。"
+  "zh": "有些是用户驱动的，比如客户触达了他们的 AI 上限，或者他们主动联系了销售。"
  },
  {
   "seg": 106,
@@ -853,7 +853,7 @@
   "end": 713.681,
   "speaker": "Unknown",
   "en": "But some of them are not user-initiated at all, which are these external signal examples I listed here, like company raising funding, hiring signals, or shift in their tech stack.",
-  "zh": "但有些根本不是用户发起的，也就是我在这里列出的这些外部信号的例子，比如公司融资、招聘信号，或者他们技术栈的变化。"
+  "zh": "但有些根本不是用户发起的，就是我在这里列出的这些外部信号例子，比如公司融资、招聘信号，或者他们技术栈的变动。"
  },
  {
   "seg": 107,
@@ -861,7 +861,7 @@
   "end": 718.663,
   "speaker": "Unknown",
   "en": "Those external signals are what allowed us to be proactive instead of reactive.",
-  "zh": "这些外部信号让我们能够主动出击，而不是被动响应。"
+  "zh": "这些外部信号让我们能够主动出击，而不是被动应对。"
  },
  {
   "seg": 108,
@@ -869,7 +869,7 @@
   "end": 736.709,
   "speaker": "Unknown",
   "en": "So this is the signal service that watches the customer profile, decides whether a single action is available, decides who should own that action, and then it emits a concrete task following the architecture I described before.",
-  "zh": "这就是信号服务，它监控客户画像，判断是否有单一行动可用，决定谁应该拥有那个行动，然后按照我之前描述的架构发出一个具体任务。"
+  "zh": "这就是信号服务，它监控客户画像，判断某个单独的行动是否可用，决定谁应该拥有那个行动，然后按照我之前描述的架构发出一个具体任务。"
  },
  {
   "seg": 109,
@@ -877,7 +877,7 @@
   "end": 739.991,
   "speaker": "Unknown",
   "en": "And this task could be for a human or an agent.",
-  "zh": "这个任务可能是给人类的，也可能是给智能体的。"
+  "zh": "这个任务可以是给人类的，也可以是给智能体的。"
  },
  {
   "seg": 110,
@@ -885,7 +885,7 @@
   "end": 746.815,
   "speaker": "Unknown",
   "en": "If there is a task for a sales rep, that actually just lands in their Notion database, and they can quickly view it and act on it.",
-  "zh": "如果有一个给销售代表的任务，它实际上会直接落到他们的 Notion 数据库里，他们可以快速查看并处理它。"
+  "zh": "如果有一个任务给销售代表，它实际上会直接落入他们的 Notion 数据库，他们可以快速查看并采取行动。"
  },
  {
   "seg": 111,
@@ -893,7 +893,7 @@
   "end": 757.769,
   "speaker": "Unknown",
   "en": "What's interesting about the way we built our GTM systems is that if there is no signal about a customer, the marketing component of our system kicks in.",
-  "zh": "我们构建 GTM 系统的方式有一个有趣之处：如果关于某个客户没有任何信号，我们系统的营销组件就会启动。"
+  "zh": "我们构建 GTM 系统的方式中有趣的一点是，如果关于某个客户没有信号，我们系统的营销组件就会启动。"
  },
  {
   "seg": 112,
@@ -901,7 +901,7 @@
   "end": 772.442,
   "speaker": "Unknown",
   "en": "We have a predictive engine that will recommend product features most relevant for that customer, and it will send out lifecycle emails and in-app nudges or multi-channel communication to drive a customer towards adoption automatically.",
-  "zh": "我们有一个预测引擎，它会推荐与该客户最相关的产品功能，并自动发送生命周期邮件、应用内提醒或多渠道沟通，以推动客户走向采用。"
+  "zh": "我们有一个预测引擎，它会推荐与该客户最相关的产品功能，并自动发送生命周期邮件和应用内提示或多渠道沟通，以推动客户走向采用。"
  },
  {
   "seg": 113,
@@ -909,7 +909,7 @@
   "end": 785.617,
   "speaker": "Unknown",
   "en": "So diving deep into a small slice of what happens when we decide what action should be emitted, this is for the sales workflow.",
-  "zh": "那么深入剖析一下当我们决定应该发出什么行动时会发生什么的一小部分，这是销售工作流的部分。"
+  "zh": "那么深入看一个小切片，看看当我们决定应该发出什么行动时会发生什么，这是针对销售工作流的。"
  },
  {
   "seg": 114,
@@ -917,7 +917,7 @@
   "end": 794.905,
   "speaker": "Unknown",
   "en": "And we shadowed our best reps to capture something that was the most repetitive part of our job and encoded it as a durable multi-agent workflow.",
-  "zh": "我们跟随我们最好的销售代表，捕捉了我们工作中最重复的部分，并将其编码为一个持久的多智能体工作流。"
+  "zh": "我们跟随了我们最好的销售代表，捕捉了工作中最重复的部分，并将其编码为一个持久的多智能体工作流。"
  },
  {
   "seg": 115,
@@ -925,7 +925,7 @@
   "end": 799.675,
   "speaker": "Unknown",
   "en": "Every signal becomes a workflow on Temporal, which is something we rent.",
-  "zh": "每个信号都会变成 Temporal 上的一个工作流，Temporal 是我们租用的。"
+  "zh": "每个信号都变成 Temporal 上的一个工作流，Temporal 是我们租用的东西。"
  },
  {
   "seg": 116,
@@ -933,7 +933,7 @@
   "end": 805.84,
   "speaker": "Unknown",
   "en": "And a single run will touch enrichment, web search, draft generation, and more.",
-  "zh": "单次运行会触及数据充实、网络搜索、草稿生成等等。"
+  "zh": "一次运行会涉及数据富化、网页搜索、草稿生成等等。"
  },
  {
   "seg": 117,
@@ -941,7 +941,7 @@
   "end": 810.103,
   "speaker": "Unknown",
   "en": "Each of these is a network call that could fail or rate limit.",
-  "zh": "其中每一项都是一次可能失败或被限流的网络调用。"
+  "zh": "其中每一个都是一个可能失败或被限流的网络调用。"
  },
  {
   "seg": 118,
@@ -949,7 +949,7 @@
   "end": 824.535,
   "speaker": "Unknown",
   "en": "And so Temporal lets us focus on writing the sequential logic for our GTM use cases while it will handle the retries, dedupes, and handling and going back to exactly where failures left off.",
-  "zh": "因此 Temporal 让我们能够专注于为我们的 GTM 用例编写顺序逻辑，而它会处理重试、去重、处理并回到失败发生的确切位置继续。"
+  "zh": "所以 Temporal 让我们能够专注于为我们的 GTM 用例编写顺序逻辑，而它会处理重试、去重、处理错误，并精确回到失败发生的地方继续。"
  },
  {
   "seg": 119,
@@ -957,7 +957,7 @@
   "end": 830.384,
   "speaker": "Unknown",
   "en": "And one malformed transcript can't take down the whole batch, which was really important to us.",
-  "zh": "而且一份格式错误的转写稿不能搞垮整批任务，这对我们来说非常重要。"
+  "zh": "而且一个格式错误的转录不会拖垮整批任务，这对我们来说非常重要。"
  },
  {
   "seg": 120,
@@ -965,7 +965,7 @@
   "end": 838.756,
   "speaker": "Unknown",
   "en": "So an example of a cold outbound signal for us, we'll have a research sub-agent do concurrent web researches.",
-  "zh": "举一个对我们来说是冷启动外呼信号的例子，我们会让一个研究子智能体并发地进行多项网络研究。"
+  "zh": "举个例子，一个对我们来说的冷启动外联信号，我们会有一个研究子智能体去做并发的网页研究。"
  },
  {
   "seg": 121,
@@ -973,7 +973,7 @@
   "end": 841.18,
   "speaker": "Unknown",
   "en": "Then I'll draft like an email.",
-  "zh": "然后我会起草比如一封邮件。"
+  "zh": "然后它会起草一封类似邮件的东西。"
  },
  {
   "seg": 122,
@@ -981,7 +981,7 @@
   "end": 845.923,
   "speaker": "Unknown",
   "en": "And those emails, there should be three of them, so they're scored.",
-  "zh": "而那些邮件，应该有三封，所以它们会被打分。"
+  "zh": "那些邮件应该有三封，所以它们会被打分。"
  },
  {
   "seg": 123,
@@ -989,7 +989,7 @@
   "end": 851.187,
   "speaker": "Unknown",
   "en": "And then a review agent will pick the highest scoring one and make any updates if necessary.",
-  "zh": "然后一个评审智能体会挑出得分最高的那一封，并在必要时做任何更新。"
+  "zh": "然后一个评审智能体会挑选得分最高的那封，并在必要时做任何更新。"
  },
  {
   "seg": 124,
@@ -997,7 +997,7 @@
   "end": 855.87,
   "speaker": "Unknown",
   "en": "And this also operates on a loop so that the email drafts are improved.",
-  "zh": "而且这也在一个循环上运行，以便邮件草稿得到改进。"
+  "zh": "这也运行在一个循环上，以便邮件草稿得到改进。"
  },
  {
   "seg": 125,
@@ -1005,7 +1005,7 @@
   "end": 862.715,
   "speaker": "Unknown",
   "en": "And then when it's ready, this email draft will land in the sales task that is available for them to act on.",
-  "zh": "然后当它准备好时，这份邮件草稿会落入销售任务中，供他们审阅和处理。"
+  "zh": "然后当它准备好时，这封邮件草稿会落入销售任务中，供他们采取行动。"
  },
  {
   "seg": 126,
@@ -1013,7 +1013,7 @@
   "end": 867.278,
   "speaker": "Unknown",
   "en": "For more reactive signals after a follow-up call,",
-  "zh": "对于跟进电话之后的更多响应式信号，"
+  "zh": "对于跟进电话之后的更多反应性信号，"
  },
  {
   "seg": 127,
@@ -1021,7 +1021,7 @@
   "end": 885.269,
   "speaker": "Unknown",
   "en": "The Gong transcript will come in, our agent will parse the transcript, and then, again, it will extract the critical sales med pick data, metrics, economic buyer, decision criteria, plan, and champion, and draft a grounded follow-up for that.",
-  "zh": "Gong 转写稿会进来，我们的智能体会解析转写稿，然后，同样地，它会提取关键的销售 MEDPIC 数据——指标、经济买方、决策标准、计划、和拥护者——并据此起草一份有依据的跟进。"
+  "zh": "Gong 转录会进来，我们的智能体会解析转录，然后同样会提取关键的销售 med pick 数据——指标、经济买家、决策标准、计划和支持者，并为此起草一个有据可依的跟进。"
  },
  {
   "seg": 128,
@@ -1029,7 +1029,7 @@
   "end": 891.013,
   "speaker": "Unknown",
   "en": "Every LLM step is traced so that we can evaluate quality and improve over time.",
-  "zh": "每一个 LLM 步骤都会被追踪，以便我们能够评估质量并随时间改进。"
+  "zh": "每个 LLM 步骤都被追踪，以便我们能够评估质量并持续改进。"
  },
  {
   "seg": 129,
@@ -1037,7 +1037,7 @@
   "end": 898.31,
   "speaker": "Unknown",
   "en": "The third layer is what turns this automation into a system that self-improves.",
-  "zh": "第三层是把这套自动化变成一个自我改进系统的关键。"
+  "zh": "第三层是把这种自动化转变为一个自我改进系统的关键。"
  },
  {
   "seg": 130,
@@ -1045,7 +1045,7 @@
   "end": 905.153,
   "speaker": "Unknown",
   "en": "Every action is a decision log and every outcome threads back to the decision that caused it.",
-  "zh": "每一个行动都是一条决策日志，每一个结果都会回溯到导致它的那个决策。"
+  "zh": "每个行动都是一个决策日志，每个结果都回溯到导致它的那个决策。"
  },
  {
   "seg": 131,
@@ -1053,7 +1053,7 @@
   "end": 912.658,
   "speaker": "Unknown",
   "en": "So the naive version of this is a data analyst coming in and trying to understand if the output of this could be better.",
-  "zh": "所以这个系统的朴素版本，是让一位数据分析师进来，试图理解这个系统的输出是否可以更好。"
+  "zh": "所以这个的朴素版本是一个数据分析师进来，试图理解这个系统的输出是否可以更好。"
  },
  {
   "seg": 132,
@@ -1061,7 +1061,7 @@
   "end": 924.327,
   "speaker": "Unknown",
   "en": "The rebuilt version of this is wiring our engagement history back into the decision layer so that the system decides whether or not to continue a thread, advance to the next step, or pivot.",
-  "zh": "重建后的版本，是把我们的互动历史重新接回决策层，让系统来决定是继续一个话题串、推进到下一步，还是转向。"
+  "zh": "重建后的版本是把我们的互动历史接回决策层，让系统决定是继续一个话题线程、推进到下一步，还是转向。"
  },
  {
   "seg": 133,
@@ -1069,7 +1069,7 @@
   "end": 930.312,
   "speaker": "Unknown",
   "en": "The system will continue to do that with the lifecycle message performance history as well.",
-  "zh": "系统也会继续利用生命周期消息的表现历史来做到这一点。"
+  "zh": "系统也会利用生命周期消息的表现历史来持续这样做。"
  },
  {
   "seg": 134,
@@ -1085,7 +1085,7 @@
   "end": 942.533,
   "speaker": "Unknown",
   "en": "Let's see how an agent and human work together in this shared customer view.",
-  "zh": "让我们看看智能体和人类如何在这个共享的客户视图中协作。"
+  "zh": "让我们看看在这个共享客户视图中，智能体和人类是如何协作的。"
  },
  {
   "seg": 136,
@@ -1101,7 +1101,7 @@
   "end": 956.745,
   "speaker": "Unknown",
   "en": "They used to find all of this across many different tabs, and now they can just come here each day.",
-  "zh": "他们过去要在许多不同的标签页之间查找所有这些信息，而现在他们每天只需来到这里。"
+  "zh": "他们过去要在很多不同的标签页之间寻找所有这些信息，而现在他们每天只需要来到这里。"
  },
  {
   "seg": 138,
@@ -1117,7 +1117,7 @@
   "end": 972.502,
   "speaker": "Unknown",
   "en": "We can also use Notion custom agents, which are shareable across companies, to access this data context for recurring automated workflows.",
-  "zh": "我们还可以使用 Notion 自定义智能体——它们可以跨公司共享——来访问这些数据上下文，用于周期性的自动化工作流。"
+  "zh": "我们还可以使用 Notion 自定义智能体——它们可以跨公司共享——来为周期性的自动化工作流访问这个数据上下文。"
  },
  {
   "seg": 140,
@@ -1125,7 +1125,7 @@
   "end": 990.84,
   "speaker": "Unknown",
   "en": "In the task view, a rep starts their day with an already prioritized task box, and they already know how to move forward with accounts and contacts, and the email draft for an outreach task is already pre-researched and available for them to review.",
-  "zh": "在任务视图中，销售代表开始一天的工作时，面对的是一个已经排好优先级的任务箱，他们已经知道如何推进客户和联系人，而且外呼任务的邮件草稿已经预先研究好，可供他们审阅。"
+  "zh": "在任务视图中，销售代表开始一天工作时面对的是一个已经排好优先级的任务框，他们已经知道如何推进账户和联系人，而且外联任务的邮件草稿已经预先研究好，可供他们审阅。"
  },
  {
   "seg": 141,
@@ -1133,7 +1133,7 @@
   "end": 1000.809,
   "speaker": "Unknown",
   "en": "The human is still in the loop and actually adds their own judgment and taste and sales secret sauce, but they're no longer starting from a blank slate.",
-  "zh": "人类仍在循环中，并且实际上加入了自己的判断、品味和销售独门秘方，但他们不再从一张白纸开始。"
+  "zh": "人类仍然在循环中，并且实际上加入了自己的判断、品味和销售独门秘诀，但他们不再是从一张白纸开始。"
  },
  {
   "seg": 142,
@@ -1141,7 +1141,7 @@
   "end": 1005.886,
   "speaker": "Unknown",
   "en": "And this does more than help one rep be productive.",
-  "zh": "而且这不仅仅是帮助一个销售代表提高效率。"
+  "zh": "而且这不仅仅帮助一个销售代表提高效率。"
  },
  {
   "seg": 143,
@@ -1157,7 +1157,7 @@
   "end": 1025.71,
   "speaker": "Unknown",
   "en": "So a new sales rep coming in, they can learn the Notion sales process, understand what signals are important to look for, understand which playbooks are effective, and basically know what good follow-up looks like.",
-  "zh": "所以一个新加入的销售代表，可以学习 Notion 的销售流程，理解哪些信号是值得关注的，理解哪些行动手册是有效的，并且基本知道好的跟进是什么样子。"
+  "zh": "所以一个新入职的销售代表，可以学习 Notion 的销售流程，理解哪些信号是值得寻找的，理解哪些 playbook 是有效的，并且基本知道好的跟进是什么样子。"
  },
  {
   "seg": 145,
@@ -1165,7 +1165,7 @@
   "end": 1034.098,
   "speaker": "Unknown",
   "en": "Reps who are ramping can still learn from the patterns of the strongest reps without needing every lesson to be passed down manually.",
-  "zh": "正在成长的销售代表仍然可以从最强销售代表的模式中学习，而不需要每一课都靠人工传授。"
+  "zh": "正在成长中的销售代表仍然可以从最强代表的模式中学习，而不需要每一课都被手动传授。"
  },
  {
   "seg": 146,
@@ -1173,7 +1173,7 @@
   "end": 1044.386,
   "speaker": "Unknown",
   "en": "So one of the questions that we came across along every step of the way is a classic question, do we build or buy?",
-  "zh": "所以在我们一路走来的每一步中遇到的问题之一，是一个经典问题：我们是自建还是购买？"
+  "zh": "所以在我们一路走来的每一步中都遇到的一个问题是一个经典问题：我们是自建还是购买？"
  },
  {
   "seg": 147,
@@ -1181,7 +1181,7 @@
   "end": 1048.508,
   "speaker": "Unknown",
   "en": "And it's very tempting and trendy to say, build everything.",
-  "zh": "说“一切都自建”是非常诱人也非常时髦的。"
+  "zh": "说「全部自建」是非常诱人也是非常时髦的。"
  },
  {
   "seg": 148,
@@ -1189,7 +1189,7 @@
   "end": 1055.874,
   "speaker": "Unknown",
   "en": "But what we found is that there are still key areas to build and rent access to at every single layer.",
-  "zh": "但我们发现，在每一层都仍然有关键的领域需要自建，也需要租用访问能力。"
+  "zh": "但我们发现，在每一层都仍然有需要自建的关键领域和需要租用的部分。"
  },
  {
   "seg": 149,
@@ -1197,7 +1197,7 @@
   "end": 1061.377,
   "speaker": "Unknown",
   "en": "Internal agents are actually cheaper and faster to build than most people assume.",
-  "zh": "内部智能体实际上比大多数人假设的更便宜、更快可以构建。"
+  "zh": "内部智能体实际上比大多数人假设的更便宜、更快来构建。"
  },
  {
   "seg": 150,
@@ -1205,7 +1205,7 @@
   "end": 1070.984,
   "speaker": "Unknown",
   "en": "And so since we have the most data on our data model, we build it there first, and then we rented the generalizable parts later.",
-  "zh": "所以既然我们在数据模型上拥有最多的数据，我们就先在那里构建，然后再把可泛化的部分租用过来。"
+  "zh": "所以，因为我们在自己的数据模型上拥有最多的数据，我们先在那里构建，之后再泛化可通用的部分。"
  },
  {
   "seg": 151,
@@ -1213,7 +1213,7 @@
   "end": 1074.567,
   "speaker": "Unknown",
   "en": "So for us, the build versus buy is a per-layer decision.",
-  "zh": "所以对我们来说，自建还是购买是一个逐层的决策。"
+  "zh": "对我们来说，自建还是购买是一个逐层的决策。"
  },
  {
   "seg": 152,
@@ -1237,7 +1237,7 @@
   "end": 1086.727,
   "speaker": "Unknown",
   "en": "We refuse to outsource the context layer because that's where our edge is.",
-  "zh": "我们拒绝把上下文层外包出去，因为那正是我们的优势所在。"
+  "zh": "我们拒绝外包上下文层，因为那是我们的优势所在。"
  },
  {
   "seg": 155,
@@ -1245,7 +1245,7 @@
   "end": 1096.593,
   "speaker": "Unknown",
   "en": "A generic tool can't capture all of our esoteric data models or workflows, and we do not want that context layer to be something we can't debug.",
-  "zh": "一个通用工具无法捕捉我们所有深奥的数据模型或工作流，而且我们不希望上下文层成为我们无法调试的东西。"
+  "zh": "一个通用工具无法捕捉我们所有晦涩的数据模型或工作流，而且我们不希望上下文层成为我们无法调试的东西。"
  },
  {
   "seg": 156,
@@ -1269,7 +1269,7 @@
   "end": 1107.934,
   "speaker": "Unknown",
   "en": "A language that agents are fluent in.",
-  "zh": "一种智能体能流利使用的语言。"
+  "zh": "markdown 是智能体非常精通的语言。"
  },
  {
   "seg": 159,
@@ -1277,7 +1277,7 @@
   "end": 1112.015,
   "speaker": "Unknown",
   "en": "And we have databases and hierarchies that they can navigate easily.",
-  "zh": "而且我们有数据库和层级结构，它们可以轻松导航。"
+  "zh": "而且我们有一些它们可以轻松导航的数据库和层级结构。"
  },
  {
   "seg": 160,
@@ -1301,7 +1301,7 @@
   "end": 1124.62,
   "speaker": "Unknown",
   "en": "And this has all the data synced across sources.",
-  "zh": "而且这里所有数据都在各数据源之间同步。"
+  "zh": "并且这里所有数据都在各数据源之间同步。"
  },
  {
   "seg": 163,
@@ -1309,7 +1309,7 @@
   "end": 1133.872,
   "speaker": "Unknown",
   "en": "Ultimately, the reason to see if we can do all of this is to see if we could get a better throughput on deals.",
-  "zh": "归根结底，我们尝试做这一切的目的，是看我们能否在交易上获得更高的吞吐量。"
+  "zh": "归根结底，看我们能否做到这一切，是为了看我们能否在成单上获得更高的吞吐量。"
  },
  {
   "seg": 164,
@@ -1317,7 +1317,7 @@
   "end": 1135.753,
   "speaker": "Unknown",
   "en": "It's very early for us.",
-  "zh": "对我们来说这还很早期。"
+  "zh": "对我们来说这还非常早期。"
  },
  {
   "seg": 165,
@@ -1325,7 +1325,7 @@
   "end": 1137.114,
   "speaker": "Unknown",
   "en": "We're still building this out.",
-  "zh": "我们仍在构建中。"
+  "zh": "我们仍在搭建中。"
  },
  {
   "seg": 166,
@@ -1333,7 +1333,7 @@
   "end": 1138.775,
   "speaker": "Unknown",
   "en": "But the initial signs are promising.",
-  "zh": "但初步迹象是令人振奋的。"
+  "zh": "但初步迹象是有希望的。"
  },
  {
   "seg": 167,
@@ -1341,7 +1341,7 @@
   "end": 1146.06,
   "speaker": "Unknown",
   "en": "In the last 13 weeks, we are already seeing enterprise reps have increased qualification or qualified opportunities.",
-  "zh": "在过去的 13 周里，我们已经看到企业销售代表的合格商机或资格认定的商机增加了。"
+  "zh": "在过去 13 周里，我们已经看到企业销售代表的资质审核或合格商机有所增加。"
  },
  {
   "seg": 168,
@@ -1349,7 +1349,7 @@
   "end": 1154.125,
   "speaker": "Unknown",
   "en": "And on the lifecycle marketing side, users who received context-aware recommendations were 63% more likely to take the next step.",
-  "zh": "而在生命周期营销方面，收到情境感知推荐的用户采取下一步行动的可能性高出 63%。"
+  "zh": "而在生命周期营销方面，收到基于上下文的推荐的用户，采取下一步行动的可能性高出 63%。"
  },
  {
   "seg": 169,
@@ -1357,7 +1357,7 @@
   "end": 1165.216,
   "speaker": "Unknown",
   "en": "This is the early days with a lot more features we want to build, but our thesis that building a single system on know, decide, act, and learn seems to be right so far.",
-  "zh": "这还处于早期，还有很多我们想要构建的功能，但我们的论题——在 know、decide、act 和 learn 上构建单一系统——目前看来似乎是对的。"
+  "zh": "这还处于早期，我们还有很多想要构建的功能，但我们在 know、decide、act 和 learn 之上构建单一系统的论点，目前来看似乎是对的。"
  },
  {
   "seg": 170,
@@ -1365,7 +1365,7 @@
   "end": 1176.105,
   "speaker": "Unknown",
   "en": "A few key takeaways from entering this world as an engineer in the last six months is that before you build, shadow your best human.",
-  "zh": "作为一名过去六个月进入这个世界的工程师，几个关键的收获是：在你构建之前，先跟随观察你最好的人类。"
+  "zh": "作为一名在过去六个月进入这个世界的工程师，几个关键收获是：在你构建之前，先跟随观察你最好的人类销售。"
  },
  {
   "seg": 171,
@@ -1373,7 +1373,7 @@
   "end": 1184.072,
   "speaker": "Unknown",
   "en": "I talked to many sales reps, and when they opened their computers, I saw how many tabs and tools they were navigating between.",
-  "zh": "我和许多销售代表聊过，当他们打开电脑时，我看到他们在多少个标签页和工具之间来回切换。"
+  "zh": "我和很多销售代表聊过，当他们打开电脑时，我看到他们在多少个标签页和工具之间来回切换。"
  },
  {
   "seg": 172,
@@ -1381,7 +1381,7 @@
   "end": 1187.035,
   "speaker": "Unknown",
   "en": "And that was a chaos, but it was also the spec.",
-  "zh": "那是一种混乱，但那也是规格说明。"
+  "zh": "那是一片混乱，但那也是规格说明。"
  },
  {
   "seg": 173,
@@ -1389,7 +1389,7 @@
   "end": 1191.219,
   "speaker": "Unknown",
   "en": "And so if you encode a mediocre process, you get a mediocre agent.",
-  "zh": "所以如果你编码一个平庸的流程，你就会得到一个平庸的智能体。"
+  "zh": "所以如果你把一个平庸的流程编码进去，你就会得到一个平庸的智能体。"
  },
  {
   "seg": 174,
@@ -1405,7 +1405,7 @@
   "end": 1197.015,
   "speaker": "Unknown",
   "en": "That's the one that's documented and repeated.",
-  "zh": "那就是有文档记录且不断重复的那一个。"
+  "zh": "那就是有文档记录且重复执行的那个。"
  },
  {
   "seg": 176,
@@ -1413,7 +1413,7 @@
   "end": 1201.337,
   "speaker": "Unknown",
   "en": "And let humans stay in the loop on where there are risky possibilities.",
-  "zh": "并且让人类在有风险的环节保持在回路中。"
+  "zh": "在存在风险可能性的地方，让人类保持在环中。"
  },
  {
   "seg": 177,
@@ -1421,7 +1421,7 @@
   "end": 1211.902,
   "speaker": "Unknown",
   "en": "Model GTM as primitives, entities, context, triggers, actions, eligibility rules, and the alien world becomes a system you can engineer.",
-  "zh": "把 GTM 建模为原语：实体、上下文、触发器、动作、资格规则，那么这个陌生的世界就变成了一个你可以工程化的系统。"
+  "zh": "把 GTM 建模为原语——实体、上下文、触发器、动作、资格规则——这个陌生的世界就变成一个你可以工程化的系统。"
  },
  {
   "seg": 178,
@@ -1429,7 +1429,7 @@
   "end": 1218.786,
   "speaker": "Unknown",
   "en": "Last but not least, be headless by default and design for agents as operators and not just copilots.",
-  "zh": "最后但同样重要的是，默认做成 headless，把智能体设计成操作者，而不仅仅是副驾驶。"
+  "zh": "最后但同样重要的是，默认做成无头（headless）的，并且为智能体作为操作者而设计，而不仅仅是副驾驶。"
  },
  {
   "seg": 179,
@@ -1437,7 +1437,7 @@
   "end": 1226.512,
   "speaker": "Unknown",
   "en": "If humans and agents can't read from the same substrate, you're basically building two systems that will eventually drift apart.",
-  "zh": "如果人类和智能体无法从同一个基底读取数据，那你基本上就是在构建两个最终会漂移分离的系统。"
+  "zh": "如果人类和智能体不能从同一个底座上读取，你基本上就是在构建两个最终会渐行渐远的系统。"
  },
  {
   "seg": 180,
@@ -1445,7 +1445,7 @@
   "end": 1228.794,
   "speaker": "Unknown",
   "en": "For us, that layer is Notion.",
-  "zh": "对我们来说，那个层就是 Notion。"
+  "zh": "对我们来说，那一层就是 Notion。"
  },
  {
   "seg": 181,
@@ -1453,7 +1453,7 @@
   "end": 1235.559,
   "speaker": "Unknown",
   "en": "Right now, humans are the primary consumer of GTM data, and agents are helping at the edges.",
-  "zh": "现在，人类是 GTM 数据的主要消费者，而智能体在边缘提供帮助。"
+  "zh": "现在，人类是 GTM 数据的主要消费者，智能体在边缘提供帮助。"
  },
  {
   "seg": 182,
@@ -1461,7 +1461,7 @@
   "end": 1243.763,
   "speaker": "Unknown",
   "en": "Soon, agents will become primary first-class consumers within the system, moving from drafting to acting within guardrails.",
-  "zh": "很快，智能体将成为系统内的主要一等消费者，从起草走向在护栏内行动。"
+  "zh": "很快，智能体将成为系统内主要的一等消费者，从起草转向在护栏内行动。"
  },
  {
   "seg": 183,
@@ -1469,7 +1469,7 @@
   "end": 1252.246,
   "speaker": "Unknown",
   "en": "By creating the best context and substrate for humans and agents to collaborate together now, you're setting up your team to sprint faster.",
-  "zh": "通过现在就为人类和智能体协作创造最好的上下文和基底，你就是在为你的团队更快冲刺做好准备。"
+  "zh": "通过现在就为人类和智能体协作创造最好的上下文和底座，你是在为你的团队更快冲刺做好准备。"
  },
  {
   "seg": 184,
@@ -1477,7 +1477,7 @@
   "end": 1257.509,
   "speaker": "Unknown",
   "en": "Yeah, and feel free to contact me if you guys want to ask more questions.",
-  "zh": "好的，如果你们想问更多问题，欢迎随时联系我。"
+  "zh": "好的，如果大家想问更多问题，欢迎随时联系我。"
  },
  {
   "seg": 185,

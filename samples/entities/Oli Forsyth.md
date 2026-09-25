@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":77,"智能体":317,"信任建立":4,"微短剧":1,"推理":53,"网络效应":12,"语音":1,"Discord":5}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":77,"智能体":321,"信任建立":4,"微短剧":1,"推理":53,"网络效应":12,"语音":1,"Discord":5}</script>
 
 <script>
 (function(){

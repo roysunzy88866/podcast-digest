@@ -1,0 +1,1410 @@
+[
+ {
+  "seg": 0,
+  "start": 12.879,
+  "end": 13.939,
+  "speaker": "Unknown",
+  "en": "Okay, good morning, everyone.",
+  "zh": "好的,大家早上好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.099,
+  "end": 16.52,
+  "speaker": "Unknown",
+  "en": "I'm stoked to kick things off this morning.",
+  "zh": "我很高兴今天早上来开场。"
+ },
+ {
+  "seg": 2,
+  "start": 17.681,
+  "end": 30.425,
+  "speaker": "Unknown",
+  "en": "Today's talk is going to start off with just a brief look at GTM engineering and what it is, and then I'm gonna get into kind of the areas that I consider to be the most technically interesting and challenging within this space.",
+  "zh": "今天的演讲会先简单介绍一下 GTM 工程以及它是什么,然后我会深入讲讲我认为在这个领域里技术上最有意思、最有挑战性的一些方面。"
+ },
+ {
+  "seg": 3,
+  "start": 30.985,
+  "end": 33.008,
+  "speaker": "Unknown",
+  "en": "So GTME is pretty new.",
+  "zh": "所以 GTME 相当新。"
+ },
+ {
+  "seg": 4,
+  "start": 33.809,
+  "end": 45.086,
+  "speaker": "Unknown",
+  "en": "It's arosen out of a couple factors, but one of the main motivating ones is that GTM teams have kind of realized that it is now possible to ship as fast as a product and engineering team.",
+  "zh": "它的兴起有几个因素,但其中一个主要的动因是,GTM 团队已经意识到,现在可以做到像产品和工程团队一样快速地交付了。"
+ },
+ {
+  "seg": 5,
+  "start": 45.867,
+  "end": 56.929,
+  "speaker": "Unknown",
+  "en": "And so the best GTM teams that I work with are generally pushing changes to their GTM structure almost at the same cadence that an engineering team might be doing releases.",
+  "zh": "因此,与我合作的最优秀的 GTM 团队,推进 GTM 结构变更的节奏,几乎和工程团队发布版本的节奏一样快。"
+ },
+ {
+  "seg": 6,
+  "start": 57.529,
+  "end": 74.533,
+  "speaker": "Unknown",
+  "en": "And so at Clay, what that looks like is something like this, where every two weeks we are pushing new data to our teams, we are pushing new automations, we're, of course, running new campaigns, and we're constantly iterating on the things that we're shipping and trying to keep pace with the speed that our engineering team is working at.",
+  "zh": "在 Clay,这大概是这样一种状态:每两周我们向团队推送新数据、推送新自动化,当然还会跑新的营销活动,并且不断迭代我们交付的东西,努力跟上工程团队的工作速度。"
+ },
+ {
+  "seg": 7,
+  "start": 75.433,
+  "end": 79.315,
+  "speaker": "Unknown",
+  "en": "So to do this, you need a couple fundamentals in place.",
+  "zh": "要做到这一点,你需要具备一些基础条件。"
+ },
+ {
+  "seg": 8,
+  "start": 79.676,
+  "end": 90.122,
+  "speaker": "Unknown",
+  "en": "And in my view, GTM engineering at its heart is really about removing the constraints that have historically stopped GTM teams from shipping at speed using technology.",
+  "zh": "在我看来,GTM 工程的核心,本质上是消除那些历史上一直阻碍 GTM 团队借助技术快速交付的制约因素。"
+ },
+ {
+  "seg": 9,
+  "start": 91.282,
+  "end": 93.163,
+  "speaker": "Unknown",
+  "en": "And the role itself has exploded.",
+  "zh": "而且这个角色本身已经爆发式增长。"
+ },
+ {
+  "seg": 10,
+  "start": 93.323,
+  "end": 100.625,
+  "speaker": "Unknown",
+  "en": "So I would venture to say that most advanced GTM teams are now hiring GTM engineers or looking for this role.",
+  "zh": "所以我敢说,大多数先进的 GTM 团队现在都在招聘 GTM 工程师,或者正在寻找这个角色。"
+ },
+ {
+  "seg": 11,
+  "start": 101.245,
+  "end": 107.647,
+  "speaker": "Unknown",
+  "en": "And in my opinion, it's one of the first roles that actually is an index on the advances that we're making in AI.",
+  "zh": "而且在我看来,这是第一批真正能够反映 AI 进展指数的角色之一。"
+ },
+ {
+  "seg": 12,
+  "start": 108.147,
+  "end": 114.969,
+  "speaker": "Unknown",
+  "en": "And so as models have become more powerful, GTM engineers have gained more leverage within their organization and become more valuable.",
+  "zh": "因此,随着模型变得更强大,GTM 工程师在他们组织中所获得的杠杆也更大,价值也更高。"
+ },
+ {
+  "seg": 13,
+  "start": 115.309,
+  "end": 117.53,
+  "speaker": "Unknown",
+  "en": "And we've seen tremendous growth in this role.",
+  "zh": "我们已经看到这个角色出现了巨大的增长。"
+ },
+ {
+  "seg": 14,
+  "start": 118.938,
+  "end": 122.039,
+  "speaker": "Unknown",
+  "en": "So I kind of break it down into four areas.",
+  "zh": "我大致把它分成四个领域。"
+ },
+ {
+  "seg": 15,
+  "start": 122.299,
+  "end": 128.92,
+  "speaker": "Unknown",
+  "en": "And what I hope to do with this talk is kind of lightning round, go through some of the technical problems and solutions that I see for this.",
+  "zh": "我希望通过这次演讲,以快速轮播的方式,讲一讲我在这些方面看到的一些技术问题和解决方案。"
+ },
+ {
+  "seg": 16,
+  "start": 129.14,
+  "end": 134.182,
+  "speaker": "Unknown",
+  "en": "If you're not familiar with Clay, we are obviously building infrastructure that kind of attacks these areas.",
+  "zh": "如果你不熟悉 Clay,我们显然正在构建针对这些领域的基础设施。"
+ },
+ {
+  "seg": 17,
+  "start": 134.582,
+  "end": 136.742,
+  "speaker": "Unknown",
+  "en": "But this is not meant to be a sales pitch.",
+  "zh": "但这不是来做推销的。"
+ },
+ {
+  "seg": 18,
+  "start": 136.942,
+  "end": 143.484,
+  "speaker": "Unknown",
+  "en": "It's more meant to be, if you're an engineer or a GTM engineer that's working on these things, some ways to think about how to structure it.",
+  "zh": "它更多是面向——如果你是一名正在做这些事情的工程师或 GTM 工程师——提供一些如何搭建这套体系的思路。"
+ },
+ {
+  "seg": 19,
+  "start": 143.784,
+  "end": 148.865,
+  "speaker": "Unknown",
+  "en": "And then if you're a founder in the space, some of the interesting problems that I think are worth tackling.",
+  "zh": "而如果你是这个领域的创始人,这里有一些我认为值得攻克的有意思的问题。"
+ },
+ {
+  "seg": 20,
+  "start": 150.365,
+  "end": 152.106,
+  "speaker": "Unknown",
+  "en": "So the first is data.",
+  "zh": "第一个是数据。"
+ },
+ {
+  "seg": 21,
+  "start": 152.526,
+  "end": 157.567,
+  "speaker": "Unknown",
+  "en": "And more than most teams within a company, data is the lifeblood of GTM.",
+  "zh": "比公司里大多数团队更甚,数据是 GTM 的命脉。"
+ },
+ {
+  "seg": 22,
+  "start": 158.267,
+  "end": 168.29,
+  "speaker": "Unknown",
+  "en": "And the core goal that I think we're trying to accomplish with our data is to create a perfect virtual copy of the market, the ideal customers, the accounts, the context that you're going after.",
+  "zh": "我认为我们用数据想要实现的核心目标,是创建一个市场的完美虚拟副本,也就是你正在瞄准的理想客户、客户公司和上下文。"
+ },
+ {
+  "seg": 23,
+  "start": 169.35,
+  "end": 173.313,
+  "speaker": "Unknown",
+  "en": "So most teams start out with something that looks like this.",
+  "zh": "所以大多数团队起步时的结构大致是这样的。"
+ },
+ {
+  "seg": 24,
+  "start": 173.394,
+  "end": 178.538,
+  "speaker": "Unknown",
+  "en": "You have accounts, which are the companies that you're targeting, and contacts, which are the people that you're going after.",
+  "zh": "你有客户公司(accounts),也就是你定位的公司;还有联系人(contacts),也就是你要触达的人。"
+ },
+ {
+  "seg": 25,
+  "start": 179.239,
+  "end": 185.084,
+  "speaker": "Unknown",
+  "en": "The problem, though, that makes this challenging is that accounts at least exist in a state of constant change.",
+  "zh": "然而,让这件事变得有挑战性的问题在于,客户公司至少是处于持续变化的状态中的。"
+ },
+ {
+  "seg": 26,
+  "start": 185.824,
+  "end": 188.725,
+  "speaker": "Unknown",
+  "en": "As an organization, a company might be getting acquired.",
+  "zh": "作为一个组织,一家公司可能正在被收购。"
+ },
+ {
+  "seg": 27,
+  "start": 188.845,
+  "end": 191.246,
+  "speaker": "Unknown",
+  "en": "It might be spinning up new offices.",
+  "zh": "它可能正在开设新的办公室。"
+ },
+ {
+  "seg": 28,
+  "start": 191.366,
+  "end": 192.766,
+  "speaker": "Unknown",
+  "en": "It might be launching new products.",
+  "zh": "它可能正在发布新产品。"
+ },
+ {
+  "seg": 29,
+  "start": 193.126,
+  "end": 194.887,
+  "speaker": "Unknown",
+  "en": "So the company itself is always changing.",
+  "zh": "所以这家公司本身总是在变化。"
+ },
+ {
+  "seg": 30,
+  "start": 195.347,
+  "end": 200.729,
+  "speaker": "Unknown",
+  "en": "In addition, you as the GTM team are doing things to the company that it's making it change as well.",
+  "zh": "此外,你作为 GTM 团队,也在对这家公司做一些事情,使它同样发生变化。"
+ },
+ {
+  "seg": 31,
+  "start": 201.089,
+  "end": 202.329,
+  "speaker": "Unknown",
+  "en": "So you're marketing at them.",
+  "zh": "你在向他们做营销。"
+ },
+ {
+  "seg": 32,
+  "start": 202.369,
+  "end": 203.59,
+  "speaker": "Unknown",
+  "en": "You're selling towards them.",
+  "zh": "你在向他们销售。"
+ },
+ {
+  "seg": 33,
+  "start": 203.63,
+  "end": 204.77,
+  "speaker": "Unknown",
+  "en": "You're trying to book meetings.",
+  "zh": "你在试图约会议。"
+ },
+ {
+  "seg": 34,
+  "start": 205.09,
+  "end": 206.691,
+  "speaker": "Unknown",
+  "en": "That's changing the state of the account.",
+  "zh": "这些都在改变这个客户公司的状态。"
+ },
+ {
+  "seg": 35,
+  "start": 207.051,
+  "end": 213.793,
+  "speaker": "Unknown",
+  "en": "And then also the company itself is hiring people and firing people and doing things that provide signals for you.",
+  "zh": "而且这家公司本身也在招聘人、裁掉人,做一些能为你提供信号的事情。"
+ },
+ {
+  "seg": 36,
+  "start": 214.433,
+  "end": 223.487,
+  "speaker": "Unknown",
+  "en": "So as GTM engineers, we need to manage all of this state within our accounts, and we don't have all the data that we need to do this kind of right off the bat.",
+  "zh": "所以作为 GTM 工程师,我们需要管理客户公司内部的这一切状态,而我们并不能一开始就拥有做好这件事所需的全部数据。"
+ },
+ {
+  "seg": 37,
+  "start": 224.68,
+  "end": 228.443,
+  "speaker": "Unknown",
+  "en": "So this is what an example from Clay's CRM looks like.",
+  "zh": "这是 Clay 的 CRM 中的一个例子。"
+ },
+ {
+  "seg": 38,
+  "start": 228.483,
+  "end": 238.391,
+  "speaker": "Unknown",
+  "en": "You can see I have a ton of fields that are simply telling me what state this account is in, whether they're a customer or not, whether they're expanding or churning, how big they are, how well they're scoring.",
+  "zh": "你可以看到,我有大量的字段,它们只是在告诉我这个客户公司处于什么状态:他们是不是客户、是在扩张还是在流失、规模有多大、评分有多好。"
+ },
+ {
+  "seg": 39,
+  "start": 238.771,
+  "end": 246.738,
+  "speaker": "Unknown",
+  "en": "And so one of the fundamental things that we need to do is make sure that our records are updated so that we can accurately action on what's happening here.",
+  "zh": "所以我们需要做的一件基础性的事情,就是确保我们的记录被更新,这样我们才能准确地针对这里发生的情况采取行动。"
+ },
+ {
+  "seg": 40,
+  "start": 248.184,
+  "end": 264.35,
+  "speaker": "Unknown",
+  "en": "And so in a brand new CRM or a CRM that I'm going into, the first thing that I am doing is actually filling up the account with relevant contacts, and then I'm layering in third-party information that is gonna help me figure out which accounts to target and which ones are in market.",
+  "zh": "因此,在一个全新的 CRM 或者一个我即将接手的 CRM 中,我做的第一件事实际上是往客户公司里填入相关联系人,然后再叠加第三方信息,这些信息会帮我判断哪些客户公司值得定位、哪些正处于市场活跃期。"
+ },
+ {
+  "seg": 41,
+  "start": 264.77,
+  "end": 280.821,
+  "speaker": "Unknown",
+  "en": "Primarily I'm looking at the account hierarchy, the firmographics that describe how big the company is and so forth, the technographics that describe what technology they're using, and then I'm trying to create signals on top of those accounts that are going to allow me to go after that company.",
+  "zh": "我主要看的是客户公司的层级结构、描述公司规模大小等信息的 firmographics(企业属性数据)、描述他们使用什么技术的 technographics(技术属性数据),然后我会尝试在这些客户公司之上创建信号,让我能够去攻下那家公司。"
+ },
+ {
+  "seg": 42,
+  "start": 282.21,
+  "end": 289.513,
+  "speaker": "Unknown",
+  "en": "And so because there's a lot of third-party data involved here, we need to actually go out and source and procure that data.",
+  "zh": "由于这里涉及大量第三方数据,我们需要真正走出去,采购并获取这些数据。"
+ },
+ {
+  "seg": 43,
+  "start": 290.093,
+  "end": 301.398,
+  "speaker": "Unknown",
+  "en": "And within GTM, there is literally hundreds of vendors that you can turn to to get the data that you need, but none of those vendors is gonna have a complete picture of all the information you desire.",
+  "zh": "在 GTM 领域,实际上有数百家供应商可以为你提供所需的数据,但没有任何一家供应商能够完整覆盖你想要的所有信息。"
+ },
+ {
+  "seg": 44,
+  "start": 301.798,
+  "end": 304.359,
+  "speaker": "Unknown",
+  "en": "And so the key technique here is called waterfalling.",
+  "zh": "所以这里的关键技术叫做 waterfalling(瀑布式查询)。"
+ },
+ {
+  "seg": 45,
+  "start": 304.679,
+  "end": 309.941,
+  "speaker": "Unknown",
+  "en": "This is where I'm going to actually go and look into multiple providers to try to fill in all the information that I need.",
+  "zh": "这就是我实际去查询多个供应商,来补全我所需的全部信息。"
+ },
+ {
+  "seg": 46,
+  "start": 309.961,
+  "end": 316.863,
+  "speaker": "Unknown",
+  "en": "If you see here, if I was just using Forager to get phone numbers for this set of countries, I'd only get halfway there.",
+  "zh": "如果你看到这里,如果我只是用 Forager 来获取这组国家的电话号码,我只能拿到一半。"
+ },
+ {
+  "seg": 47,
+  "start": 317.263,
+  "end": 320.744,
+  "speaker": "Unknown",
+  "en": "So instead what I need to do is layer on all of these other providers.",
+  "zh": "所以相反,我需要做的是把所有这些其他供应商叠加进来。"
+ },
+ {
+  "seg": 48,
+  "start": 321.124,
+  "end": 326.151,
+  "speaker": "Unknown",
+  "en": "And that's not only true for phone numbers, but for most of the other data points that we care about within GTM.",
+  "zh": "而且这不仅适用于电话号码,也适用于 GTM 中我们关心的大多数其他数据点。"
+ },
+ {
+  "seg": 49,
+  "start": 326.231,
+  "end": 333.963,
+  "speaker": "Unknown",
+  "en": "And so either you or the vendor that you're using needs to run evals against these data providers in order to obtain the most accurate information.",
+  "zh": "因此,要么是你自己,要么是你使用的供应商,需要针对这些数据供应商跑 evals(评测),才能获得最准确的信息。"
+ },
+ {
+  "seg": 50,
+  "start": 335.411,
+  "end": 343.755,
+  "speaker": "Unknown",
+  "en": "And so not only do I need to sync in third-party information to my data layer, I also need to incorporate first-party information, and I need to keep that constantly up to date.",
+  "zh": "所以我不仅需要把第三方信息同步到我的数据层,还需要纳入第一方信息,并且要让这些信息始终保持最新。"
+ },
+ {
+  "seg": 51,
+  "start": 344.415,
+  "end": 348.818,
+  "speaker": "Unknown",
+  "en": "It's also incredibly expensive to update data all the time, especially if you're purchasing it.",
+  "zh": "而且不断更新数据的成本非常高,尤其是在你需要购买数据的情况下。"
+ },
+ {
+  "seg": 52,
+  "start": 349.158,
+  "end": 353.38,
+  "speaker": "Unknown",
+  "en": "So I can't just update all the fields, I need to kind of selectively choose which fields to update.",
+  "zh": "所以我不能只是更新所有字段,我需要有选择地挑选要更新哪些字段。"
+ },
+ {
+  "seg": 53,
+  "start": 354.02,
+  "end": 361.064,
+  "speaker": "Unknown",
+  "en": "And not only am I pulling information from various sources, but if I'm running a signals program, information that I need is getting pushed to me all the time as well.",
+  "zh": "而且我不仅是在从各种来源拉取信息,如果我在运行一个信号程序,我需要的信息也会不断地被推送给我。"
+ },
+ {
+  "seg": 54,
+  "start": 361.724,
+  "end": 369.512,
+  "speaker": "Unknown",
+  "en": "And because I'm using multiple third-party sources, the actual representation of a single account in those different sources is gonna be different.",
+  "zh": "而且因为我使用了多个第三方来源,同一个账户在这些不同来源中的实际呈现会是不一样的。"
+ },
+ {
+  "seg": 55,
+  "start": 369.533,
+  "end": 372.356,
+  "speaker": "Unknown",
+  "en": "So I need to resolve the entities in between them.",
+  "zh": "所以我需要在这些来源之间做实体消解。"
+ },
+ {
+  "seg": 56,
+  "start": 372.856,
+  "end": 378.943,
+  "speaker": "Unknown",
+  "en": "And so a great data layer will tackle all of these things and allow me to kind of move on to the more interesting work.",
+  "zh": "因此,一个优秀的数据层会解决所有这些问题,让我能够继续去做更有意思的工作。"
+ },
+ {
+  "seg": 57,
+  "start": 379.063,
+  "end": 382.887,
+  "speaker": "Unknown",
+  "en": "But without this, it's really, really hard to execute automated GTM plays.",
+  "zh": "但如果没有这些,要执行自动化的 GTM 打法真的非常非常难。"
+ },
+ {
+  "seg": 58,
+  "start": 384.308,
+  "end": 387.069,
+  "speaker": "Unknown",
+  "en": "So the next piece that I need to get right is orchestration.",
+  "zh": "所以我需要搞对的下一块是编排。"
+ },
+ {
+  "seg": 59,
+  "start": 387.65,
+  "end": 393.333,
+  "speaker": "Unknown",
+  "en": "And this occurs because within GoToMarket there are literally dozens of tools that most teams are using.",
+  "zh": "之所以需要编排,是因为在 GoToMarket 中,大多数团队实际使用的工具多达几十种。"
+ },
+ {
+  "seg": 60,
+  "start": 393.773,
+  "end": 399.636,
+  "speaker": "Unknown",
+  "en": "So I might have a sequencer or a dialer or a bunch of places where my reps are living or my field marketing is living.",
+  "zh": "所以我可能有一个序列器、一个拨号器,或者一堆我的销售代表所在的地方,或者我的现场营销所在的地方。"
+ },
+ {
+  "seg": 61,
+  "start": 400.296,
+  "end": 405.959,
+  "speaker": "Unknown",
+  "en": "And in most cases, the view of the world that those tools have is different depending on where you look.",
+  "zh": "而在大多数情况下,这些工具对世界的看法,取决于你从哪里看,是不一样的。"
+ },
+ {
+  "seg": 62,
+  "start": 406.339,
+  "end": 410.642,
+  "speaker": "Unknown",
+  "en": "And so orchestration, in my view, is really the act of keeping all that up to date.",
+  "zh": "所以在我看来,编排实际上就是让所有这些保持最新的行为。"
+ },
+ {
+  "seg": 63,
+  "start": 411.702,
+  "end": 427.652,
+  "speaker": "Unknown",
+  "en": "And so what happens to our data model then is I'm, on top of my enriched information, I'm sending emails and calling into my contacts, the account is generating events that I need to keep track of, and I now need a system to actually plug all this into my data layer.",
+  "zh": "那么我们的数据模型接下来会发生什么呢,在我的富化信息之上,我在给我的联系人发邮件、打电话,账户正在生成我需要追踪的事件,而我现在需要一个系统来把所有这些真正接入我的数据层。"
+ },
+ {
+  "seg": 64,
+  "start": 428.553,
+  "end": 439.801,
+  "speaker": "Unknown",
+  "en": "And so most teams are going to have something that looks like this as their basic stack, CRM, data warehouse, sequencer, a dialer, a note taker for call recording, and some chat interface like Slack.",
+  "zh": "因此,大多数团队都会有看起来像这样的基础技术栈:CRM、数据仓库、序列器、拨号器、一个用于通话录音的笔记工具,以及某个像 Slack 这样的聊天界面。"
+ },
+ {
+  "seg": 65,
+  "start": 440.381,
+  "end": 450.368,
+  "speaker": "Unknown",
+  "en": "However, I usually see like 10 or 20 or 30 tools that actually these teams are interfacing with, and orchestration needs to kind of keep that information up to date.",
+  "zh": "然而,我通常看到这些团队实际对接的工具是 10 个、20 个或 30 个,而编排需要让这些信息保持最新。"
+ },
+ {
+  "seg": 66,
+  "start": 451.359,
+  "end": 455.722,
+  "speaker": "Unknown",
+  "en": "The problem with orchestration is all of these different systems have different data needs.",
+  "zh": "编排的问题在于,所有这些不同的系统有不同的数据需求。"
+ },
+ {
+  "seg": 67,
+  "start": 456.103,
+  "end": 459.866,
+  "speaker": "Unknown",
+  "en": "So some systems need kind of like real-time updates, one record at a time.",
+  "zh": "有些系统需要类似实时的更新,一次一条记录。"
+ },
+ {
+  "seg": 68,
+  "start": 460.306,
+  "end": 464.029,
+  "speaker": "Unknown",
+  "en": "Other systems are gonna need hundreds of thousands of records, maybe updated once a day.",
+  "zh": "其他系统则可能需要几十万条记录,也许一天更新一次。"
+ },
+ {
+  "seg": 69,
+  "start": 464.049,
+  "end": 469.253,
+  "speaker": "Unknown",
+  "en": "I might need to schedule updates on a monthly or weekly basis depending on the data I'm using.",
+  "zh": "我可能需要根据我使用的数据,按月或按周安排更新。"
+ },
+ {
+  "seg": 70,
+  "start": 469.713,
+  "end": 472.075,
+  "speaker": "Unknown",
+  "en": "Some data points like employee count change all the time.",
+  "zh": "有些数据点,比如员工人数,一直在变化。"
+ },
+ {
+  "seg": 71,
+  "start": 472.275,
+  "end": 475.097,
+  "speaker": "Unknown",
+  "en": "Other data points like headquarters location change very rarely.",
+  "zh": "其他数据点,比如总部位置,则很少变化。"
+ },
+ {
+  "seg": 72,
+  "start": 476.298,
+  "end": 479.341,
+  "speaker": "Unknown",
+  "en": "And I'm not going to be making updates to all the fields at the same time.",
+  "zh": "而且我不会在同一时间更新所有字段。"
+ },
+ {
+  "seg": 73,
+  "start": 479.421,
+  "end": 482.664,
+  "speaker": "Unknown",
+  "en": "So I need logic within these systems that helps with that.",
+  "zh": "所以我需要这些系统内有逻辑来帮助处理这一点。"
+ },
+ {
+  "seg": 74,
+  "start": 482.805,
+  "end": 490.372,
+  "speaker": "Unknown",
+  "en": "I also need to be able to take a single system that I'm working with and actually fan its information out to multiple different systems.",
+  "zh": "我还需要能够拿一个我正在使用的单一系统,把它的信息扇出到多个不同的系统。"
+ },
+ {
+  "seg": 75,
+  "start": 490.712,
+  "end": 495.456,
+  "speaker": "Unknown",
+  "en": "And because I end up with this kind of distributed setup, I also have failures that are happening all the time.",
+  "zh": "而且由于我最终会有这种分布式设置,我也就会遇到不断发生的故障。"
+ },
+ {
+  "seg": 76,
+  "start": 495.877,
+  "end": 500.001,
+  "speaker": "Unknown",
+  "en": "So this turns into a fairly complex data engineering problem that we need to resolve.",
+  "zh": "所以这就变成了一个相当复杂的数据工程问题,我们需要解决它。"
+ },
+ {
+  "seg": 77,
+  "start": 501.262,
+  "end": 513.49,
+  "speaker": "Unknown",
+  "en": "A classic example of this is when I'm working with these different systems, usually they are not fully orchestrated, which means that one system is talking to each other while I'm trying to talk to both of those systems at the same time.",
+  "zh": "这方面一个经典的例子是,当我在使用这些不同的系统时,通常它们并没有被完全编排,这意味着一个系统在互相通信的同时,我又在尝试同时与这两个系统通信。"
+ },
+ {
+  "seg": 78,
+  "start": 513.971,
+  "end": 523.497,
+  "speaker": "Unknown",
+  "en": "So for example, if you have a Salesforce connected to outreach or a sequencer, usually that CRM and that sequencer are syncing independently of your orchestration system.",
+  "zh": "比如说,如果你有一个 Salesforce 连接到 outreach 或某个序列器,通常那个 CRM 和那个序列器是在独立于你的编排系统进行同步的。"
+ },
+ {
+  "seg": 79,
+  "start": 523.917,
+  "end": 527.98,
+  "speaker": "Unknown",
+  "en": "And so if you create contacts in your CRM, you actually need to wait for that contact to sync",
+  "zh": "所以如果你在你的 CRM 里创建了联系人,你实际上需要等待那个联系人同步"
+ },
+ {
+  "seg": 80,
+  "start": 528.36,
+  "end": 530.604,
+  "speaker": "Unknown",
+  "en": "to the sequencer before you can then take action on it.",
+  "zh": "到序列器,然后才能对它采取行动。"
+ },
+ {
+  "seg": 81,
+  "start": 531.005,
+  "end": 536.916,
+  "speaker": "Unknown",
+  "en": "This creates some difficult problems where you actually need to introduce things like waits and loops to check if information is ready.",
+  "zh": "这会带来一些棘手的问题,你实际上需要引入等待和循环之类的东西来检查信息是否就绪。"
+ },
+ {
+  "seg": 82,
+  "start": 538.448,
+  "end": 552.196,
+  "speaker": "Unknown",
+  "en": "So Clay, we've iterated on this problem quite a bit, and we've ended up in a place where we are basically taking a graph-based view of the orchestration problem with a series of general-purpose nodes that are executing various things.",
+  "zh": "所以在 Clay,我们对这个问题做了相当多的迭代,最终我们基本上是对编排问题采用基于图的观点,用一系列通用节点来执行各种事情。"
+ },
+ {
+  "seg": 83,
+  "start": 552.736,
+  "end": 565.583,
+  "speaker": "Unknown",
+  "en": "And so we have nodes that run agents, nodes that make tool calls, nodes that handle our conditional logic, nodes that run code, and the nodes that run effectively this MapReduce system to fan out the information and bring it back.",
+  "zh": "于是我们有运行智能体的节点、进行工具调用的节点、处理条件逻辑的节点、运行代码的节点,以及实际上运行这个 MapReduce 系统来把信息扇出再收回来的节点。"
+ },
+ {
+  "seg": 84,
+  "start": 566.023,
+  "end": 574.806,
+  "speaker": "Unknown",
+  "en": "And so a great orchestration layer will handle all of these, and whether you buy it or build it, I think this is fundamentally the kind of modern way to set this up.",
+  "zh": "因此,一个优秀的编排层会处理所有这些,无论你是购买还是自建,我认为这从根本上就是搭建这件事的现代方式。"
+ },
+ {
+  "seg": 85,
+  "start": 576.186,
+  "end": 586.67,
+  "speaker": "Unknown",
+  "en": "Here's an example of this in Clay, and again, you can use other tools for this, but basically I'm going to have some sort of event that kicks off my orchestration, some trigger or some schedule.",
+  "zh": "这是 Clay 中的一个例子,当然,你也可以用其他工具来做这件事,但基本上我会有某种事件来启动我的编排,某个触发器或某个定时计划。"
+ },
+ {
+  "seg": 86,
+  "start": 587.03,
+  "end": 589.251,
+  "speaker": "Unknown",
+  "en": "I'm going to then talk to a couple different systems.",
+  "zh": "然后我会去和几个不同的系统通信。"
+ },
+ {
+  "seg": 87,
+  "start": 589.571,
+  "end": 595.573,
+  "speaker": "Unknown",
+  "en": "I'm gonna combine that information back together, and then I'm gonna push it out to different interfaces that my reps are using.",
+  "zh": "我会把那些信息重新组合起来,然后把它推送到我的销售代表们使用的不同界面。"
+ },
+ {
+  "seg": 88,
+  "start": 597.584,
+  "end": 606.73,
+  "speaker": "Unknown",
+  "en": "Okay, so now that I have a data layer set up and I have my everything orchestrated, I now have this system which is starting to look a lot more complex.",
+  "zh": "好,现在我已经搭好了数据层,一切也都编排好了,我现在有了这个开始看起来复杂得多的系统。"
+ },
+ {
+  "seg": 89,
+  "start": 607.191,
+  "end": 613.395,
+  "speaker": "Unknown",
+  "en": "And if you spend a lot of time in GoToMarket, I think this is actually like one of the simplest views of what is happening with an account.",
+  "zh": "而如果你在 GoToMarket 领域花过很多时间,我认为这实际上已经是账户上发生的事情最简单的视图之一了。"
+ },
+ {
+  "seg": 90,
+  "start": 613.855,
+  "end": 616.298,
+  "speaker": "Unknown",
+  "en": "Where I have multiple signals that are occurring.",
+  "zh": "我有多个正在发生的信号。"
+ },
+ {
+  "seg": 91,
+  "start": 616.378,
+  "end": 617.779,
+  "speaker": "Unknown",
+  "en": "I have data that needs to be updated.",
+  "zh": "我有需要更新的数据。"
+ },
+ {
+  "seg": 92,
+  "start": 617.799,
+  "end": 620.482,
+  "speaker": "Unknown",
+  "en": "I have actions that my agents or reps are taking.",
+  "zh": "我有我的智能体或销售代表正在采取的行动。"
+ },
+ {
+  "seg": 93,
+  "start": 620.842,
+  "end": 623.905,
+  "speaker": "Unknown",
+  "en": "And then I have meetings that are happening and feedback that's occurring.",
+  "zh": "然后我还有正在发生的会议和不断产生的反馈。"
+ },
+ {
+  "seg": 94,
+  "start": 624.465,
+  "end": 630.611,
+  "speaker": "Unknown",
+  "en": "And so the state of the world today is that we are relying on sales reps in a lot of cases to manually sort through this.",
+  "zh": "而如今的世界现状是,在很多情况下,我们依赖销售代表来手动梳理这些。"
+ },
+ {
+  "seg": 95,
+  "start": 631.131,
+  "end": 637.698,
+  "speaker": "Unknown",
+  "en": "But one of the great advances in the last year or so is that we can now use agents to take care of all this context.",
+  "zh": "但过去一年左右最伟大的进展之一是,我们现在可以使用智能体来处理所有这些上下文。"
+ },
+ {
+  "seg": 96,
+  "start": 639.005,
+  "end": 644.849,
+  "speaker": "Unknown",
+  "en": "However, if you use agents, you actually run into some of the same problems that you are dealing with if you just use LLMs.",
+  "zh": "然而,如果你使用智能体,你实际上会遇到一些和你只用 LLM 时所面对的相同问题。"
+ },
+ {
+  "seg": 97,
+  "start": 645.35,
+  "end": 655.396,
+  "speaker": "Unknown",
+  "en": "So in GTM in particular, we are trying to build very long-running agents, agents that run over a course of weeks or months that keep track of the state of an account throughout a deal cycle.",
+  "zh": "特别是在 GTM 中,我们试图构建非常长时间运行的智能体,运行数周或数月的智能体,在整个交易周期内追踪一个账户的状态。"
+ },
+ {
+  "seg": 98,
+  "start": 656.037,
+  "end": 666.124,
+  "speaker": "Unknown",
+  "en": "We also have a high bar for error because a lot of the results of our GTM work is customer communication, and getting that wrong can have disastrous consequences.",
+  "zh": "我们对错误也有很高的标准,因为我们 GTM 工作的很多成果是客户沟通,弄错了可能会带来灾难性的后果。"
+ },
+ {
+  "seg": 99,
+  "start": 666.724,
+  "end": 673.676,
+  "speaker": "Unknown",
+  "en": "And then finally, the agents are often doing unstructured work and pushing that into systems that are highly structured like a CRM.",
+  "zh": "最后,这些智能体通常在做非结构化的工作,并把结果推进高度结构化的系统中,比如 CRM。"
+ },
+ {
+  "seg": 100,
+  "start": 674.097,
+  "end": 678.385,
+  "speaker": "Unknown",
+  "en": "And so the mapping of what the agent is producing is super important.",
+  "zh": "所以智能体所产出内容的映射是非常重要的。"
+ },
+ {
+  "seg": 101,
+  "start": 679.745,
+  "end": 688.031,
+  "speaker": "Unknown",
+  "en": "So the architecture that we've landed on for this that I think is most powerful is an agent that exists for each account and maintains a persistent state of that account.",
+  "zh": "我们为此确定的最强大的架构，是为每个账户都存在一个智能体，并维护该账户的持久状态。"
+ },
+ {
+  "seg": 102,
+  "start": 688.631,
+  "end": 697.198,
+  "speaker": "Unknown",
+  "en": "It's always going to execute, and because it's executing over a course of weeks or months, it's often gonna be dormant for most of the time that it's available.",
+  "zh": "它会持续执行，而且由于它的执行跨越数周或数月，它在大部分可用时间里往往是休眠的。"
+ },
+ {
+  "seg": 103,
+  "start": 697.638,
+  "end": 708.026,
+  "speaker": "Unknown",
+  "en": "So we need to use smart triggers or a heartbeat or something to wake it up, and then when it wakes up, it needs to kind of ingest the current context of the account from our data layer and our orchestration layer.",
+  "zh": "所以我们需要使用智能触发器或心跳之类的机制来唤醒它，然后当它醒来时，它需要从我们的数据层和编排层摄取该账户的当前上下文。"
+ },
+ {
+  "seg": 104,
+  "start": 708.726,
+  "end": 715.25,
+  "speaker": "Unknown",
+  "en": "And because the agent is making decisions for us in many cases automatically we need to allow for feedback on the agent as well.",
+  "zh": "而且由于智能体在很多情况下是在替我们做决策，我们也需要允许对智能体进行反馈。"
+ },
+ {
+  "seg": 105,
+  "start": 716.05,
+  "end": 726.176,
+  "speaker": "Unknown",
+  "en": "The cutting edge of doing this is the learning phase where as the agent works on an account or a series of accounts it updates its own view of what's working.",
+  "zh": "这样做的前沿是学习阶段，即当智能体处理一个账户或一系列账户时，它会更新自己对什么有效的看法。"
+ },
+ {
+  "seg": 106,
+  "start": 726.956,
+  "end": 737.582,
+  "speaker": "Unknown",
+  "en": "Today in GTM this is not fully solved yet and in fact the continual learning effort and the next best action suggestions are kind of one of the cutting edge problems that we're working on.",
+  "zh": "今天在 GTM 领域这还没有完全解决，事实上，持续学习的工作和下一步最佳行动建议正是我们正在攻克的前沿问题之一。"
+ },
+ {
+  "seg": 107,
+  "start": 739.055,
+  "end": 742.296,
+  "speaker": "Unknown",
+  "en": "So here's a look at a kind of a basic agent.",
+  "zh": "这里展示的是一个基础智能体的样子。"
+ },
+ {
+  "seg": 108,
+  "start": 742.696,
+  "end": 746.218,
+  "speaker": "Unknown",
+  "en": "You can see here that I'm pulling in information from a couple different sources.",
+  "zh": "你可以看到，我从几个不同的来源拉取信息。"
+ },
+ {
+  "seg": 109,
+  "start": 746.238,
+  "end": 748.138,
+  "speaker": "Unknown",
+  "en": "I'm using reasoning steps here.",
+  "zh": "我在这里使用了推理步骤。"
+ },
+ {
+  "seg": 110,
+  "start": 748.558,
+  "end": 753.44,
+  "speaker": "Unknown",
+  "en": "And then critically, I'm also updating different values in my CRM that are just for the agents.",
+  "zh": "然后关键的是，我也在更新 CRM 中一些专供智能体使用的不同数值。"
+ },
+ {
+  "seg": 111,
+  "start": 753.94,
+  "end": 761.183,
+  "speaker": "Unknown",
+  "en": "So I always recommend separating the fields that agents are updating from the fields that deterministic systems are updating or that people are updating.",
+  "zh": "所以我总是建议把智能体更新的字段与确定性系统更新的字段或人工更新的字段分开。"
+ },
+ {
+  "seg": 112,
+  "start": 762.043,
+  "end": 766.425,
+  "speaker": "Unknown",
+  "en": "And to look at a full view of an agent, this is a closed loss for your Waken agent.",
+  "zh": "再来看一个智能体的完整视图，这是你的 Waken 智能体的一个丢单案例。"
+ },
+ {
+  "seg": 113,
+  "start": 766.445,
+  "end": 772.047,
+  "speaker": "Unknown",
+  "en": "So you can see it's talking to GAN, email, CRM, and my data warehouse.",
+  "zh": "你可以看到它在和 GAN、邮件、CRM 以及我的数据仓库对话。"
+ },
+ {
+  "seg": 114,
+  "start": 772.427,
+  "end": 774.868,
+  "speaker": "Unknown",
+  "en": "And so it's pulling together multiple pieces of information.",
+  "zh": "所以它正在把多条信息整合在一起。"
+ },
+ {
+  "seg": 115,
+  "start": 775.388,
+  "end": 778.029,
+  "speaker": "Unknown",
+  "en": "And this agent is triggered on a time basis.",
+  "zh": "而且这个智能体是按时间触发。"
+ },
+ {
+  "seg": 116,
+  "start": 778.089,
+  "end": 783.131,
+  "speaker": "Unknown",
+  "en": "So if we lose an account, we're not gonna kind of like immediately go after that account again.",
+  "zh": "所以如果我们失去了一个账户，我们不会立刻再次去追那个账户。"
+ },
+ {
+  "seg": 117,
+  "start": 783.191,
+  "end": 787.733,
+  "speaker": "Unknown",
+  "en": "We're going to wait for a little bit of time in order to attack it again.",
+  "zh": "我们会等待一段时间，然后再去攻下它。"
+ },
+ {
+  "seg": 118,
+  "start": 788.093,
+  "end": 789.214,
+  "speaker": "Unknown",
+  "en": "So there's a number of kind of",
+  "zh": "所以有相当多的"
+ },
+ {
+  "seg": 119,
+  "start": 789.574,
+  "end": 793.875,
+  "speaker": "Unknown",
+  "en": "The timing and context issues that we have to address when we're building agents for GTM.",
+  "zh": "时机和上下文问题，是我们在为 GTM 构建智能体时必须解决的。"
+ },
+ {
+  "seg": 120,
+  "start": 795.276,
+  "end": 799.677,
+  "speaker": "Unknown",
+  "en": "The last step that is important here is the actual execution step.",
+  "zh": "这里最后一个重要的步骤是实际的执行步骤。"
+ },
+ {
+  "seg": 121,
+  "start": 800.057,
+  "end": 815.202,
+  "speaker": "Unknown",
+  "en": "So now that we have a data layer that contains the perfect copy of the virtual world, we have an orchestrated system that's sharing context with all of our systems, we have agents that are making decisions and reasoning about what to do, we actually need to get in front of customers and execute our messaging.",
+  "zh": "现在我们有了一个包含虚拟世界完美副本的数据层，有了一个与所有系统共享上下文的编排系统，有了正在做决策并对该做什么进行推理的智能体，我们实际上需要触达客户并执行我们的信息传达。"
+ },
+ {
+  "seg": 122,
+  "start": 816.738,
+  "end": 821.444,
+  "speaker": "Unknown",
+  "en": "Unfortunately, messaging and execution is one of the hardest problems in GTM engineering.",
+  "zh": "不幸的是，信息传达和执行是 GTM 工程中最难的问题之一。"
+ },
+ {
+  "seg": 123,
+  "start": 821.804,
+  "end": 827.05,
+  "speaker": "Unknown",
+  "en": "Here's a look at some of the email open and reply rates over time.",
+  "zh": "这里展示的是一段时间内邮件打开率和回复率的一些数据。"
+ },
+ {
+  "seg": 124,
+  "start": 827.771,
+  "end": 832.096,
+  "speaker": "Unknown",
+  "en": "Generally, what we observe is that cold email works less and less well as the years go on.",
+  "zh": "总的来说，我们观察到的是，随着年份推移，冷邮件的效果越来越差。"
+ },
+ {
+  "seg": 125,
+  "start": 832.116,
+  "end": 833.498,
+  "speaker": "Unknown",
+  "en": "This is a trend that's been true forever.",
+  "zh": "这是一个一直存在的趋势。"
+ },
+ {
+  "seg": 126,
+  "start": 835.012,
+  "end": 836.232,
+  "speaker": "Unknown",
+  "en": "Look at a snapshot of this.",
+  "zh": "看一下这个快照。"
+ },
+ {
+  "seg": 127,
+  "start": 837.013,
+  "end": 845.535,
+  "speaker": "Unknown",
+  "en": "If you look at the far left here, I actually think these are pretty elevated rates for some of these, but the relative differences between these channels is correct.",
+  "zh": "如果你看最左边，我实际上认为其中一些数据是相当高的，但这些渠道之间的相对差异是正确的。"
+ },
+ {
+  "seg": 128,
+  "start": 845.575,
+  "end": 849.176,
+  "speaker": "Unknown",
+  "en": "So, you know, LinkedIn can be three to four times more effective than cold email.",
+  "zh": "所以，你知道，LinkedIn 的效果可以是冷邮件的三到四倍。"
+ },
+ {
+  "seg": 129,
+  "start": 849.536,
+  "end": 851.477,
+  "speaker": "Unknown",
+  "en": "Cold calling and cold email are roughly the same.",
+  "zh": "冷电话和冷邮件大致相同。"
+ },
+ {
+  "seg": 130,
+  "start": 852.217,
+  "end": 858.14,
+  "speaker": "Unknown",
+  "en": "And then on the right here, this is a series of statistics from Smart Lead.",
+  "zh": "然后在右边，这是来自 Smart Lead 的一系列统计数据。"
+ },
+ {
+  "seg": 131,
+  "start": 858.16,
+  "end": 860.061,
+  "speaker": "Unknown",
+  "en": "This is across, I think, 20 million emails.",
+  "zh": "这跨越了，我想，两千万封邮件。"
+ },
+ {
+  "seg": 132,
+  "start": 860.582,
+  "end": 864.764,
+  "speaker": "Unknown",
+  "en": "And so you can see we've got somewhere between a half a percent and one percent reply rates.",
+  "zh": "所以你可以看到，回复率大概在百分之零点五到百分之一之间。"
+ },
+ {
+  "seg": 133,
+  "start": 865.204,
+  "end": 870.327,
+  "speaker": "Unknown",
+  "en": "So what that means is, of course, if we've got 100 contacts that we're sequencing, maybe one of them will reply.",
+  "zh": "所以这意味着，当然，如果我们正在对 100 个联系人进行序列触达，也许只有一个会回复。"
+ },
+ {
+  "seg": 134,
+  "start": 870.927,
+  "end": 883.41,
+  "speaker": "Unknown",
+  "en": "And so that really raises the stakes for agentic execution within GTM because if your agents are doing the wrong things, then you're missing out on the margin, which is where most GTM teams are having success.",
+  "zh": "所以这真正提高了 GTM 中智能体执行的风险，因为如果你的智能体在做错误的事情，那你就会错失那个利润空间，而大多数 GTM 团队正是在那里取得成功的。"
+ },
+ {
+  "seg": 135,
+  "start": 885.648,
+  "end": 888.992,
+  "speaker": "Unknown",
+  "en": "The other thing with execution is you have to solve some very human problems.",
+  "zh": "关于执行的另一件事是，你必须解决一些非常人性化的难题。"
+ },
+ {
+  "seg": 136,
+  "start": 889.252,
+  "end": 895.138,
+  "speaker": "Unknown",
+  "en": "So for example, do you email on behalf of the rep or do you let the agent do the emailing?",
+  "zh": "比如，你是代表销售代表发邮件，还是让智能体去发邮件？"
+ },
+ {
+  "seg": 137,
+  "start": 895.658,
+  "end": 901.344,
+  "speaker": "Unknown",
+  "en": "If you email on behalf of the rep, what that means is like everett.clay.com is actually reaching out directly to customers.",
+  "zh": "如果你代表销售代表发邮件，那意味着 like everett.clay.com 实际上在直接联系客户。"
+ },
+ {
+  "seg": 138,
+  "start": 902.025,
+  "end": 910.609,
+  "speaker": "Unknown",
+  "en": "But if I do that in the wrong way or I don't get the replies that I need, that then means that my overall domain reputation is going to suffer for my company.",
+  "zh": "但如果我以错误的方式那样做，或者我没有得到我需要的回复，那就意味着我公司的整体域名声誉会受损。"
+ },
+ {
+  "seg": 139,
+  "start": 911.17,
+  "end": 914.891,
+  "speaker": "Unknown",
+  "en": "So a common technique then is to use multiple domains to get in touch with customers.",
+  "zh": "所以一个常见的技术是使用多个域名来联系客户。"
+ },
+ {
+  "seg": 140,
+  "start": 915.192,
+  "end": 921.455,
+  "speaker": "Unknown",
+  "en": "But then if I do that, I actually need to find a way to route responses on that domain back to my main domain so my reps can process it.",
+  "zh": "但如果那样做，我实际上需要找到一种方法，把那个域名上的回复路由回我的主域名，这样我的销售代表才能处理。"
+ },
+ {
+  "seg": 141,
+  "start": 922.428,
+  "end": 923.428,
+  "speaker": "Unknown",
+  "en": "And that's just email.",
+  "zh": "而这还只是邮件。"
+ },
+ {
+  "seg": 142,
+  "start": 923.508,
+  "end": 938.613,
+  "speaker": "Unknown",
+  "en": "There's also multi-channel outreach, which is tricky as well because you then have to, for example, if you get a call connection and a meeting booked on your call sequence, you then need to suppress your email sequence and maybe unenroll someone from a lifecycle marketing campaign.",
+  "zh": "还有多渠道触达，这也很棘手，因为例如，如果你在电话序列上得到了通话接通和预约的会议，你就需要抑制你的邮件序列，也许还要把某人从生命周期营销活动中退订。"
+ },
+ {
+  "seg": 143,
+  "start": 939.353,
+  "end": 948.936,
+  "speaker": "Unknown",
+  "en": "So the coordination of the execution of all of this is also a hard problem and also something that we can use agents to help resolve.",
+  "zh": "所以所有这些执行的协调也是一个难题，也是我们可以用智能体来帮助解决的问题。"
+ },
+ {
+  "seg": 144,
+  "start": 950.502,
+  "end": 953.363,
+  "speaker": "Unknown",
+  "en": "So here's a look at one way that we're tackling this.",
+  "zh": "这里展示的是我们解决这个问题的一种方式。"
+ },
+ {
+  "seg": 145,
+  "start": 953.403,
+  "end": 962.945,
+  "speaker": "Unknown",
+  "en": "This is a setup for a kind of rep proxy view where we have a bunch of rep inboxes that are connected to our sequencer, and we're actually sending that on behalf of reps.",
+  "zh": "这是一个销售代表代理视图的设置，我们有一堆连接到我们的序列器的销售代表收件箱，我们实际上是代表销售代表发送。"
+ },
+ {
+  "seg": 146,
+  "start": 963.985,
+  "end": 967.326,
+  "speaker": "Unknown",
+  "en": "But like I said, we do this for kind of a portion of our accounts.",
+  "zh": "但就像我说的，我们只对一部分账户这样做。"
+ },
+ {
+  "seg": 147,
+  "start": 967.606,
+  "end": 973.408,
+  "speaker": "Unknown",
+  "en": "For many of our accounts, we actually use multiple domains to go after them, and then we have to tackle the routing problem.",
+  "zh": "对于我们的许多账户，我们实际上使用多个域名去触达它们，然后我们就必须解决路由问题。"
+ },
+ {
+  "seg": 148,
+  "start": 975.632,
+  "end": 982.098,
+  "speaker": "Unknown",
+  "en": "So that was kind of a lightning review of what I consider to be some of the harder problems within GTM engineering.",
+  "zh": "那就是对我认为 GTM 工程中一些更难问题的快速回顾。"
+ },
+ {
+  "seg": 149,
+  "start": 982.638,
+  "end": 990.946,
+  "speaker": "Unknown",
+  "en": "I think if you get these pieces right, you can end up in a place where you're providing a technical foundation for growth that is helping your company achieve incredible results.",
+  "zh": "我觉得如果你把这些环节做对了，你就能处在一个为增长提供技术基础的位置，帮助你的公司取得令人难以置信的成果。"
+ },
+ {
+  "seg": 150,
+  "start": 991.947,
+  "end": 1000.975,
+  "speaker": "Unknown",
+  "en": "But I think a lot of teams actually overlook some of the harder pieces here and don't necessarily design around some of the constraints that they have to deal with.",
+  "zh": "但我认为很多团队实际上忽视了一些更难的部分，并没有围绕他们必须应对的一些约束来做设计。"
+ },
+ {
+  "seg": 151,
+  "start": 1002.581,
+  "end": 1003.882,
+  "speaker": "Unknown",
+  "en": "So that's my talk.",
+  "zh": "这就是我的演讲。"
+ },
+ {
+  "seg": 152,
+  "start": 1004.083,
+  "end": 1005.724,
+  "speaker": "Unknown",
+  "en": "You can see me on LinkedIn.",
+  "zh": "你可以在 LinkedIn 上找到我。"
+ },
+ {
+  "seg": 153,
+  "start": 1005.744,
+  "end": 1006.685,
+  "speaker": "Unknown",
+  "en": "There's a URL there.",
+  "zh": "那里有一个链接。"
+ },
+ {
+  "seg": 154,
+  "start": 1006.745,
+  "end": 1018.957,
+  "speaker": "Unknown",
+  "en": "And it looks like I have about 90 seconds for questions if anyone wants to ask anything.",
+  "zh": "看起来我还有大约 90 秒的时间可以提问，如果有人想问点什么的话。"
+ },
+ {
+  "seg": 155,
+  "start": 1019.157,
+  "end": 1020.639,
+  "speaker": "Unknown",
+  "en": "Any questions for Everett?",
+  "zh": "有什么问题要问 Everett 的吗？"
+ },
+ {
+  "seg": 156,
+  "start": 1022.14,
+  "end": 1022.721,
+  "speaker": "Unknown",
+  "en": "Raise your hand.",
+  "zh": "举手。"
+ },
+ {
+  "seg": 157,
+  "start": 1022.781,
+  "end": 1022.861,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 158,
+  "start": 1029.595,
+  "end": 1036.982,
+  "speaker": "Unknown",
+  "en": "Just curious as to what your biggest challenge is putting out these new changes within the org.",
+  "zh": "我只是好奇，你们在组织内部推出这些新变更时最大的挑战是什么。"
+ },
+ {
+  "seg": 159,
+  "start": 1038.763,
+  "end": 1043.007,
+  "speaker": "Unknown",
+  "en": "I think one of the harder problems is probably the interface between the human and the agent.",
+  "zh": "我认为其中一个比较难的问题可能是人和智能体之间的接口。"
+ },
+ {
+  "seg": 160,
+  "start": 1044.468,
+  "end": 1053.737,
+  "speaker": "Unknown",
+  "en": "Like I said, I think the most powerful use of agents within GTM is to act as the reasoning and decision layer for a lot of tasks that a sales rep was previously doing.",
+  "zh": "就像我说的，我认为智能体在 GTM 中最强大的用法，是作为许多任务的推理和决策层，而这些任务以前是由销售代表来做的。"
+ },
+ {
+  "seg": 161,
+  "start": 1054.877,
+  "end": 1062.501,
+  "speaker": "Unknown",
+  "en": "And so you run into a lot of instances where the rep might think that they should do something different or the rep might not know that the agent did something.",
+  "zh": "所以你会遇到很多情况，销售代表可能认为他们应该做点不一样的事情，或者销售代表可能不知道智能体已经做了某件事。"
+ },
+ {
+  "seg": 162,
+  "start": 1062.941,
+  "end": 1078.468,
+  "speaker": "Unknown",
+  "en": "So because ultimately a human still needs to get on a call with a prospect, coordinating the connection between what the automated systems are doing and what the human sales rep is doing and making that work well I think is probably one of the hardest problems.",
+  "zh": "因为归根结底，最终还是需要由人来跟潜在客户通话，把自动化系统在做的事情和人类销售代表在做的事情之间的衔接协调好，并让它顺畅运转，我认为这可能是最难的问题之一。"
+ },
+ {
+  "seg": 163,
+  "start": 1080.889,
+  "end": 1082.41,
+  "speaker": "Unknown",
+  "en": "Okay, well, oh yeah, one more.",
+  "zh": "好，那，哦对，还有一个。"
+ },
+ {
+  "seg": 164,
+  "start": 1088.234,
+  "end": 1089.094,
+  "speaker": "Unknown",
+  "en": "I have a question.",
+  "zh": "我有一个问题。"
+ },
+ {
+  "seg": 165,
+  "start": 1089.134,
+  "end": 1095.117,
+  "speaker": "Unknown",
+  "en": "So GDM engineers are fundamentally software developers that have this knowledge.",
+  "zh": "GDM 工程师从根本上说是具备这些知识的软件开发人员。"
+ },
+ {
+  "seg": 166,
+  "start": 1095.537,
+  "end": 1101.38,
+  "speaker": "Unknown",
+  "en": "And my other question is that this is mainly for outbound or inbound as well is included in this?",
+  "zh": "我的另一个问题是，这主要是针对外呼（outbound）的还是呼入（inbound）也包括在内？"
+ },
+ {
+  "seg": 167,
+  "start": 1101.74,
+  "end": 1102.64,
+  "speaker": "Unknown",
+  "en": "For everything, yeah.",
+  "zh": "所有方面都包括，是的。"
+ },
+ {
+  "seg": 168,
+  "start": 1102.76,
+  "end": 1106.822,
+  "speaker": "Unknown",
+  "en": "So like the orchestration problem is pretty acute in inbound.",
+  "zh": "像这种编排问题在呼入（inbound）里非常突出。"
+ },
+ {
+  "seg": 169,
+  "start": 1106.842,
+  "end": 1108.102,
+  "speaker": "Unknown",
+  "en": "You have to get the routing right.",
+  "zh": "你必须把路由做对。"
+ },
+ {
+  "seg": 170,
+  "start": 1108.142,
+  "end": 1109.903,
+  "speaker": "Unknown",
+  "en": "You have to qualify the account properly.",
+  "zh": "你必须正确地对客户账户做资质认定。"
+ },
+ {
+  "seg": 171,
+  "start": 1109.923,
+  "end": 1113.665,
+  "speaker": "Unknown",
+  "en": "There's usually historical context on inbound that comes in that needs to be",
+  "zh": "呼入（inbound）通常会带来历史背景信息，需要被"
+ },
+ {
+  "seg": 172,
+  "start": 1114.385,
+  "end": 1115.286,
+  "speaker": "Unknown",
+  "en": "needs to be understood.",
+  "zh": "需要被理解。"
+ },
+ {
+  "seg": 173,
+  "start": 1115.386,
+  "end": 1119.648,
+  "speaker": "Unknown",
+  "en": "So yeah, I think GTM Engineering covers all of GTM.",
+  "zh": "所以是的，我认为 GTM Engineering 涵盖了 GTM 的所有方面。"
+ },
+ {
+  "seg": 174,
+  "start": 1120.628,
+  "end": 1125.651,
+  "speaker": "Unknown",
+  "en": "And if you want to chat with me more about this, I'll just be right outside, but I will hand it to the next speaker now.",
+  "zh": "如果你想跟我多聊聊这个话题，我就在外面，不过我现在要把话筒交给下一位演讲者了。"
+ },
+ {
+  "seg": 175,
+  "start": 1125.751,
+  "end": 1126.071,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

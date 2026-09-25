@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":2,"智能体":317,"工作流":8,"开源":27,"fair-code":1,"LLM":41,"人在回路":14,"自托管":1,"自带密钥":1,"编排":6}</script>
+<script type="application/json" class="pd-epn">{"n8n":2,"智能体":321,"工作流":8,"开源":27,"fair-code":1,"LLM":42,"人在回路":14,"自托管":1,"自带密钥":1,"编排":7}</script>
 
 <script>
 (function(){

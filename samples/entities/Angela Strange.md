@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":15,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":17,"Brex":5,"OpenAI":129,"DoorDash":6}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":15,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":17,"Brex":5,"OpenAI":130,"DoorDash":7}</script>
 
 <script>
 (function(){

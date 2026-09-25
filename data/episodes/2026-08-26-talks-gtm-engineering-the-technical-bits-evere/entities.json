@@ -1,0 +1,647 @@
+{
+  "episode_id": "2026-08-26-talks-gtm-engineering-the-technical-bits-evere",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "GTM 工程",
+    "智能体",
+    "销售与营销自动化",
+    "数据基础设施",
+    "编排系统"
+  ],
+  "categories": [
+    "智能体",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "everett-berry",
+      "type": "person",
+      "role": "guest",
+      "name": "Everett Berry",
+      "file": "Everett Berry",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": true,
+      "how_described": "本集说 Clay 是给 GTM 团队构建数据与自动化基础设施的公司,演讲者 Everett 来自 Clay;他们在 Clay 内部每两周向团队推送新数据、新自动化、新营销活动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            57.529,
+            74.533
+          ],
+          "quote": "And so at Clay, what that looks like is something like this, where every two weeks we are pushing new data to our teams, we are pushing new automations, we're, of course, running new campaigns, and we're constantly iterating on the things that we're shipping and trying to keep pace with the speed that our engineering team is working at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            129.14,
+            134.182
+          ],
+          "quote": "If you're not familiar with Clay, we are obviously building infrastructure that kind of attacks these areas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            224.68,
+            228.443
+          ],
+          "quote": "So this is what an example from Clay's CRM looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            538.448,
+            552.196
+          ],
+          "quote": "So Clay, we've iterated on this problem quite a bit, and we've ended up in a place where we are basically taking a graph-based view of the orchestration problem with a series of general-purpose nodes that are executing various things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            576.186,
+            586.67
+          ],
+          "quote": "Here's an example of this in Clay, and again, you can use other tools for this, but basically I'm going to have some sort of event that kicks off my orchestration, some trigger or some schedule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            895.658,
+            901.344
+          ],
+          "quote": "If you email on behalf of the rep, what that means is like everett.clay.com is actually reaching out directly to customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gtm-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "GTM 工程 (GTM engineering)",
+      "file": "GTM 工程",
+      "primary": true,
+      "how_described": "本集把它说成:一个爆发式增长的新角色,核心是消除历史上阻碍 GTM 团队借助技术快速交付的制约因素,把销售与营销当成工程问题来做,分为数据、编排、智能体、执行四块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.681,
+            30.425
+          ],
+          "quote": "Today's talk is going to start off with just a brief look at GTM engineering and what it is, and then I'm gonna get into kind of the areas that I consider to be the most technically interesting and challenging within this space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            79.676,
+            90.122
+          ],
+          "quote": "And in my view, GTM engineering at its heart is really about removing the constraints that have historically stopped GTM teams from shipping at speed using technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            816.738,
+            821.444
+          ],
+          "quote": "Unfortunately, messaging and execution is one of the hardest problems in GTM engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            975.632,
+            982.098
+          ],
+          "quote": "So that was kind of a lightning review of what I consider to be some of the harder problems within GTM engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1115.386,
+            1119.648
+          ],
+          "quote": "So yeah, I think GTM Engineering covers all of GTM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 GTM 里最强架构是为每个账户配一个长期运行、维护持久状态的智能体,休眠时靠触发器/心跳唤醒;错误容忍度极低,且最难的是人与智能体的接口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            674.097,
+            678.385
+          ],
+          "quote": "And so the mapping of what the agent is producing is super important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            679.745,
+            688.031
+          ],
+          "quote": "So the architecture that we've landed on for this that I think is most powerful is an agent that exists for each account and maintains a persistent state of that account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            708.726,
+            715.25
+          ],
+          "quote": "And because the agent is making decisions for us in many cases automatically we need to allow for feedback on the agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            716.05,
+            726.176
+          ],
+          "quote": "The cutting edge of doing this is the learning phase where as the agent works on an account or a series of accounts it updates its own view of what's working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            739.055,
+            742.296
+          ],
+          "quote": "So here's a look at a kind of a basic agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            762.043,
+            766.425
+          ],
+          "quote": "And to look at a full view of an agent, this is a closed loss for your Waken agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            775.388,
+            778.029
+          ],
+          "quote": "And this agent is triggered on a time basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            889.252,
+            895.138
+          ],
+          "quote": "So for example, do you email on behalf of the rep or do you let the agent do the emailing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1038.763,
+            1043.007
+          ],
+          "quote": "I think one of the harder problems is probably the interface between the human and the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1054.877,
+            1062.501
+          ],
+          "quote": "And so you run into a lot of instances where the rep might think that they should do something different or the rep might not know that the agent did something.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集把它说成:让几十个对世界看法不一致的工具保持同步的行为;Clay 的答案是图 + 通用节点(跑智能体、工具调用、条件逻辑、代码、MapReduce)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            384.308,
+            387.069
+          ],
+          "quote": "So the next piece that I need to get right is orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            406.339,
+            410.642
+          ],
+          "quote": "And so orchestration, in my view, is really the act of keeping all that up to date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            440.381,
+            450.368
+          ],
+          "quote": "However, I usually see like 10 or 20 or 30 tools that actually these teams are interfacing with, and orchestration needs to kind of keep that information up to date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            451.359,
+            455.722
+          ],
+          "quote": "The problem with orchestration is all of these different systems have different data needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            513.971,
+            523.497
+          ],
+          "quote": "So for example, if you have a Salesforce connected to outreach or a sequencer, usually that CRM and that sequencer are syncing independently of your orchestration system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            538.448,
+            552.196
+          ],
+          "quote": "So Clay, we've iterated on this problem quite a bit, and we've ended up in a place where we are basically taking a graph-based view of the orchestration problem with a series of general-purpose nodes that are executing various things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            566.023,
+            574.806
+          ],
+          "quote": "And so a great orchestration layer will handle all of these, and whether you buy it or build it, I think this is fundamentally the kind of modern way to set this up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            576.186,
+            586.67
+          ],
+          "quote": "Here's an example of this in Clay, and again, you can use other tools for this, but basically I'm going to have some sort of event that kicks off my orchestration, some trigger or some schedule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            697.638,
+            708.026
+          ],
+          "quote": "So we need to use smart triggers or a heartbeat or something to wake it up, and then when it wakes up, it needs to kind of ingest the current context of the account from our data layer and our orchestration layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1102.76,
+            1106.822
+          ],
+          "quote": "So like the orchestration problem is pretty acute in inbound.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据层 (data layer)",
+      "file": "数据层",
+      "primary": true,
+      "how_described": "本集说数据是 GTM 的命脉,数据层的目标是创建市场的完美虚拟副本,需要瀑布式查询补全、选择性更新昂贵字段、跨来源实体消解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            335.411,
+            343.755
+          ],
+          "quote": "And so not only do I need to sync in third-party information to my data layer, I also need to incorporate first-party information, and I need to keep that constantly up to date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            372.856,
+            378.943
+          ],
+          "quote": "And so a great data layer will tackle all of these things and allow me to kind of move on to the more interesting work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            411.702,
+            427.652
+          ],
+          "quote": "And so what happens to our data model then is I'm, on top of my enriched information, I'm sending emails and calling into my contacts, the account is generating events that I need to keep track of, and I now need a system to actually plug all this into my data layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            597.584,
+            606.73
+          ],
+          "quote": "Okay, so now that I have a data layer set up and I have my everything orchestrated, I now have this system which is starting to look a lot more complex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            697.638,
+            708.026
+          ],
+          "quote": "So we need to use smart triggers or a heartbeat or something to wake it up, and then when it wakes up, it needs to kind of ingest the current context of the account from our data layer and our orchestration layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            800.057,
+            815.202
+          ],
+          "quote": "So now that we have a data layer that contains the perfect copy of the virtual world, we have an orchestrated system that's sharing context with all of our systems, we have agents that are making decisions and reasoning about what to do, we actually need to get in front of customers and execute our messaging.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "waterfalling",
+      "type": "concept",
+      "role": "concept",
+      "name": "瀑布式查询 (waterfalling)",
+      "file": "瀑布式查询",
+      "primary": true,
+      "how_described": "本集说它是数据补全的关键技术:数百家供应商没一家能覆盖全部信息,需依次查询多个供应商来补齐,适用于电话号码及大多数 GTM 数据点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            301.798,
+            304.359
+          ],
+          "quote": "And so the key technique here is called waterfalling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "resolve-the-entities",
+      "type": "concept",
+      "role": "concept",
+      "name": "实体消解 (resolve the entities)",
+      "file": "实体消解",
+      "primary": false,
+      "how_described": "本集说由于多个第三方来源对同一家公司的呈现不一样,需要在来源之间做实体消解,把不同来源的记录认成同一家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            369.533,
+            372.356
+          ],
+          "quote": "So I need to resolve the entities in between them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "type": "concept",
+      "role": "concept",
+      "name": "CRM",
+      "file": "CRM",
+      "primary": false,
+      "how_described": "本集说 CRM 是 GTM 基础技术栈的核心:要先往账户记录填联系人、叠第三方信息,且要把智能体更新的字段与人工/确定性字段分开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            224.68,
+            228.443
+          ],
+          "quote": "So this is what an example from Clay's CRM looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            248.184,
+            264.35
+          ],
+          "quote": "And so in a brand new CRM or a CRM that I'm going into, the first thing that I am doing is actually filling up the account with relevant contacts, and then I'm layering in third-party information that is gonna help me figure out which accounts to target and which ones are in market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            428.553,
+            439.801
+          ],
+          "quote": "And so most teams are going to have something that looks like this as their basic stack, CRM, data warehouse, sequencer, a dialer, a note taker for call recording, and some chat interface like Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            513.971,
+            523.497
+          ],
+          "quote": "So for example, if you have a Salesforce connected to outreach or a sequencer, usually that CRM and that sequencer are syncing independently of your orchestration system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            523.917,
+            527.98
+          ],
+          "quote": "And so if you create contacts in your CRM, you actually need to wait for that contact to sync",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            666.724,
+            673.676
+          ],
+          "quote": "And then finally, the agents are often doing unstructured work and pushing that into systems that are highly structured like a CRM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            748.558,
+            753.44
+          ],
+          "quote": "And then critically, I'm also updating different values in my CRM that are just for the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            766.445,
+            772.047
+          ],
+          "quote": "So you can see it's talking to GAN, email, CRM, and my data warehouse.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": false,
+      "how_described": "本集说无论自己还是数据供应商,都要对这些数据供应商跑 evals 才能拿到最准确的信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            326.231,
+            333.963
+          ],
+          "quote": "And so either you or the vendor that you're using needs to run evals against these data providers in order to obtain the most accurate information.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集举它为例:连接到序列器后,CRM 和序列器会独立于编排系统自行同步,导致必须用等待和循环检查信息是否就绪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            513.971,
+            523.497
+          ],
+          "quote": "So for example, if you have a Salesforce connected to outreach or a sequencer, usually that CRM and that sequencer are syncing independently of your orchestration system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sequencer",
+      "type": "concept",
+      "role": "concept",
+      "name": "序列器 (sequencer)",
+      "file": "序列器",
+      "primary": false,
+      "how_described": "本集说它是自动按节奏发触达消息的工具,是 GTM 基础技术栈的一部分,与 CRM 的独立同步带来编排难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            393.773,
+            399.636
+          ],
+          "quote": "So I might have a sequencer or a dialer or a bunch of places where my reps are living or my field marketing is living.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            428.553,
+            439.801
+          ],
+          "quote": "And so most teams are going to have something that looks like this as their basic stack, CRM, data warehouse, sequencer, a dialer, a note taker for call recording, and some chat interface like Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            513.971,
+            523.497
+          ],
+          "quote": "So for example, if you have a Salesforce connected to outreach or a sequencer, usually that CRM and that sequencer are syncing independently of your orchestration system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            528.36,
+            530.604
+          ],
+          "quote": "to the sequencer before you can then take action on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            953.403,
+            962.945
+          ],
+          "quote": "This is a setup for a kind of rep proxy view where we have a bunch of rep inboxes that are connected to our sequencer, and we're actually sending that on behalf of reps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

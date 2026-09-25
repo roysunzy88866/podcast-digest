@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Daniel Jones":1,"Simon Maple":9,"智能体":317,"智能体编码":3,"PR":5,"CI-CD":12,"可观测性":27,"护栏":56,"token":24}</script>
+<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Daniel Jones":1,"Simon Maple":9,"智能体":321,"智能体编码":3,"PR":5,"CI-CD":12,"可观测性":28,"护栏":57,"token":24}</script>
 
 <script>
 (function(){

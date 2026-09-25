@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":317,"Sydney":1,"沙箱":58,"LLM":41,"pull request":2,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":321,"Sydney":1,"沙箱":58,"LLM":42,"pull request":2,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

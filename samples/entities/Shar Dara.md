@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Barba":1,"Kevin Ball":3,"Eve":3,"Vercel":17,"DZero":1,"智能体":317,"评估":3,"技能":20,"MCP":55,"沙箱":58}</script>
+<script type="application/json" class="pd-epn">{"Andrew Barba":1,"Kevin Ball":3,"Eve":3,"Vercel":17,"DZero":1,"智能体":321,"评估":3,"技能":20,"MCP":57,"沙箱":58}</script>
 
 <script>
 (function(){

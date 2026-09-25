@@ -1,0 +1,835 @@
+{
+  "episode_id": "2026-08-26-talks-ai-in-gtm-at-notion-flora-liu",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "GTM 工程",
+    "智能体",
+    "销售工作流",
+    "上下文层",
+    "多智能体工作流"
+  ],
+  "categories": [
+    "智能体",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "flora-liu",
+      "type": "person",
+      "role": "guest",
+      "name": "Flora Liu",
+      "file": "Flora Liu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集讲的平台:人和智能体共同思考的协作大脑,也是 Notion 自家 GTM 系统的上下文层——「我们在用 Notion 来发展 Notion」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.157,
+            20.939
+          ],
+          "quote": "I'm an engineer on the product growth team at Notion and now working on the GTM engineering team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            120.601,
+            126.304
+          ],
+          "quote": "In case you don't know, Notion's platform is a collaborative brain for human and agents to think together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            134.011,
+            142.156
+          ],
+          "quote": "Notion's business moves between self-serve growth and sales assist, and customers move between these two motions all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            242.619,
+            244.621
+          ],
+          "quote": "Yes, our sales reps do use Notion for that, too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            245.771,
+            254.655
+          ],
+          "quote": "Notion employees were actively using MCPs and their own agents to solve problems already, but they were innovating within their own departments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            610.257,
+            618.18
+          ],
+          "quote": "So this data was normalized, and of course we brought it into Notion so that we could work with structured and unstructured data at the same time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            645.828,
+            659.258
+          ],
+          "quote": "They could use Notion itself, a tool they were already using, to explore context, investigate accounts, answer questions, and they could even take actions like sending to Nooks or sending to Outreach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            673.735,
+            677.122
+          ],
+          "quote": "In a very literal sense, we are using Notion to grow Notion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            740.711,
+            746.815
+          ],
+          "quote": "If there is a task for a sales rep, that actually just lands in their Notion database, and they can quickly view it and act on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            964.241,
+            972.502
+          ],
+          "quote": "We can also use Notion custom agents, which are shareable across companies, to access this data context for recurring automated workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1010.807,
+            1025.71
+          ],
+          "quote": "So a new sales rep coming in, they can learn the Notion sales process, understand what signals are important to look for, understand which playbooks are effective, and basically know what good follow-up looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1098.854,
+            1102.576
+          ],
+          "quote": "And so, as I mentioned before, that context layer is a notion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1227.132,
+            1228.794
+          ],
+          "quote": "For us, that layer is Notion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gtm",
+      "type": "concept",
+      "role": "concept",
+      "name": "GTM",
+      "file": "GTM",
+      "primary": true,
+      "how_described": "本集把它说成:原本是营销运营问题,如今是最有趣的分布式系统问题之一;把营销/销售/客户运营的工具蛛网改造成 Know→Decide→Act→Learn 的单一决策系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.157,
+            20.939
+          ],
+          "quote": "I'm an engineer on the product growth team at Notion and now working on the GTM engineering team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            21.72,
+            26.522
+          ],
+          "quote": "A year ago, I would have told you that building a GTM system was a marketing ops problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            33.531,
+            45.361
+          ],
+          "quote": "GTM at most companies involve a spider web of tools like what you see here, and they're stitched together by customer notes, proposals, contracts that are passed back and forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            46.522,
+            54.028
+          ],
+          "quote": "Over the last few months, a small team and myself, we've been trying to turn this spider web into a unified GTM system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            111.317,
+            114.959
+          ],
+          "quote": "So what we found is that GTM had become a systems problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            553.269,
+            557.193
+          ],
+          "quote": "We ingest data from all the vendors in our GTM stack to Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            639.883,
+            645.247
+          ],
+          "quote": "First, our internal GTM teams didn't need to jump between many tools anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            749.741,
+            757.769
+          ],
+          "quote": "What's interesting about the way we built our GTM systems is that if there is no signal about a customer, the marketing component of our system kicks in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            810.604,
+            824.535
+          ],
+          "quote": "And so Temporal lets us focus on writing the sequential logic for our GTM use cases while it will handle the retries, dedupes, and handling and going back to exactly where failures left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1116.137,
+            1121.439
+          ],
+          "quote": "So this is what lets our engineers, agents, and GTM work off the same context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1202.358,
+            1211.902
+          ],
+          "quote": "Model GTM as primitives, entities, context, triggers, actions, eligibility rules, and the alien world becomes a system you can engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1230.697,
+            1235.559
+          ],
+          "quote": "Right now, humans are the primary consumer of GTM data, and agents are helping at the edges.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体作为与人类同一系统里的「另一个操作者」运作:做大规模重复工作(收集上下文、调研、起草),人类提供判断并批准,不让智能体直接对客户说话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            429.57,
+            440.638
+          ],
+          "quote": "We found that instead of building an AI layer on top of our business, we designed our architecture so that the agent can operate as another operator within the same system as humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            448.124,
+            452.627
+          ],
+          "quote": "Firstly, we deliberately chose not to let an agent talk directly to a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            473.608,
+            478.211
+          ],
+          "quote": "And so trust boundaries don't break down, especially because there is an agent in the middle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            590.73,
+            595.256
+          ],
+          "quote": "We also persist agent-persisted or generated artifacts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            737.249,
+            739.991
+          ],
+          "quote": "And this task could be for a human or an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            786.117,
+            794.905
+          ],
+          "quote": "And we shadowed our best reps to capture something that was the most repetitive part of our job and encoded it as a durable multi-agent workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            831.326,
+            838.756
+          ],
+          "quote": "So an example of a cold outbound signal for us, we'll have a research sub-agent do concurrent web researches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            846.463,
+            851.187
+          ],
+          "quote": "And then a review agent will pick the highest scoring one and make any updates if necessary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            867.696,
+            885.269
+          ],
+          "quote": "The Gong transcript will come in, our agent will parse the transcript, and then, again, it will extract the critical sales med pick data, metrics, economic buyer, decision criteria, plan, and champion, and draft a grounded follow-up for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            939.01,
+            942.533
+          ],
+          "quote": "Let's see how an agent and human work together in this shared customer view.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            957.625,
+            963.11
+          ],
+          "quote": "The rep can ask an agent, and the agent will reply querying our context layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1187.555,
+            1191.219
+          ],
+          "quote": "And so if you encode a mediocre process, you get a mediocre agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体工作流 (multi-agent workflow)",
+      "file": "多智能体工作流",
+      "primary": true,
+      "how_described": "本集说销售工作流被编码为 Temporal 上的持久多智能体工作流:研究子智能体并发调研→起草三封邮件打分→评审智能体挑优,循环改进后落入销售任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            786.117,
+            794.905
+          ],
+          "quote": "And we shadowed our best reps to capture something that was the most repetitive part of our job and encoded it as a durable multi-agent workflow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文层 (context layer)",
+      "file": "上下文层",
+      "primary": true,
+      "how_described": "本集强调「只拥有上下文层,其余全租」:对客户理解最透彻、不能外包给通用工具,Notion 就是他们的上下文层,人和智能体从同一底座读取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            127.364,
+            132.967
+          ],
+          "quote": "Over the years, we've evolved into a context layer for your company, and AI agents can act on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            361.729,
+            365.031
+          ],
+          "quote": "Know, a context layer we can trust about every customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            517.148,
+            522.01
+          ],
+          "quote": "And last but not least, we decided that it was very important to own the context layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            957.625,
+            963.11
+          ],
+          "quote": "The rep can ask an agent, and the agent will reply querying our context layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1082.904,
+            1086.727
+          ],
+          "quote": "We refuse to outsource the context layer because that's where our edge is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1087.467,
+            1096.593
+          ],
+          "quote": "A generic tool can't capture all of our esoteric data models or workflows, and we do not want that context layer to be something we can't debug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1098.854,
+            1102.576
+          ],
+          "quote": "And so, as I mentioned before, that context layer is a notion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "信号 (signal)",
+      "file": "信号",
+      "primary": true,
+      "how_described": "本集把信号定义为一个重要到足以改变客户下一步的单个事件(用户驱动或外部如融资、招聘),信号服务据此发出给人类或智能体的具体任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            487.748,
+            505.48
+          ],
+          "quote": "We had one checker rule in an email tool, another in sales, and we pulled that all into one place so that these rules can be consumed across our code base, product, sales, engineering, and these are like customer segmentations or signal definitions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            686.994,
+            688.375
+          ],
+          "quote": "The unit here is a signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            689.136,
+            694.98
+          ],
+          "quote": "A signal is a single customer event that's important enough to change what should happen next for a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            703.758,
+            713.681
+          ],
+          "quote": "But some of them are not user-initiated at all, which are these external signal examples I listed here, like company raising funding, hiring signals, or shift in their tech stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            720.94,
+            736.709
+          ],
+          "quote": "So this is the signal service that watches the customer profile, decides whether a single action is available, decides who should own that action, and then it emits a concrete task following the architecture I described before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            749.741,
+            757.769
+          ],
+          "quote": "What's interesting about the way we built our GTM systems is that if there is no signal about a customer, the marketing component of our system kicks in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            795.872,
+            799.675
+          ],
+          "quote": "Every signal becomes a workflow on Temporal, which is something we rent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            831.326,
+            838.756
+          ],
+          "quote": "So an example of a cold outbound signal for us, we'll have a research sub-agent do concurrent web researches.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "company",
+      "role": "company",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": true,
+      "how_described": "本集说它是他们租用的工作流编排服务,处理重试、去重、断点续跑,让团队专注写顺序逻辑,单个格式错误的转录不会拖垮整批。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            795.872,
+            799.675
+          ],
+          "quote": "Every signal becomes a workflow on Temporal, which is something we rent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            810.604,
+            824.535
+          ],
+          "quote": "And so Temporal lets us focus on writing the sequential logic for our GTM use cases while it will handle the retries, dedupes, and handling and going back to exactly where failures left off.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集列为客户数据散落、缺乏单一事实来源的供应商系统之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            227.226,
+            235.533
+          ],
+          "quote": "There was no single source of truth, so customer data was spread across Salesforce, Gong, Outreach, Zoom Info, and many more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gong",
+      "type": "company",
+      "role": "company",
+      "name": "Gong",
+      "file": "Gong",
+      "primary": true,
+      "how_described": "本集说跟进电话后 Gong 转录会被智能体解析,提取 MEDDICC 要素(指标、经济买家、决策标准、计划、支持者),起草有据可依的跟进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            227.226,
+            235.533
+          ],
+          "quote": "There was no single source of truth, so customer data was spread across Salesforce, Gong, Outreach, Zoom Info, and many more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            867.696,
+            885.269
+          ],
+          "quote": "The Gong transcript will come in, our agent will parse the transcript, and then, again, it will extract the critical sales med pick data, metrics, economic buyer, decision criteria, plan, and champion, and draft a grounded follow-up for that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outreach",
+      "type": "company",
+      "role": "company",
+      "name": "Outreach",
+      "file": "Outreach",
+      "primary": false,
+      "how_described": "本集列为数据散落的供应商之一,也是 GTM 团队可直接从 Notion 发送任务的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            227.226,
+            235.533
+          ],
+          "quote": "There was no single source of truth, so customer data was spread across Salesforce, Gong, Outreach, Zoom Info, and many more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            645.828,
+            659.258
+          ],
+          "quote": "They could use Notion itself, a tool they were already using, to explore context, investigate accounts, answer questions, and they could even take actions like sending to Nooks or sending to Outreach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            974.906,
+            990.84
+          ],
+          "quote": "In the task view, a rep starts their day with an already prioritized task box, and they already know how to move forward with accounts and contacts, and the email draft for an outreach task is already pre-researched and available for them to review.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集说它是他们的数据仓库,摄取 GTM 技术栈所有供应商数据、跑每日转换,产出一小组建模带版本的实体,是计算「真相」的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            236.254,
+            237.815
+          ],
+          "quote": "Product usage lived in Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            549.286,
+            552.689
+          ],
+          "quote": "Snowflake, which is our data warehouse, is where we compute this truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            553.269,
+            557.193
+          ],
+          "quote": "We ingest data from all the vendors in our GTM stack to Snowflake.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dynamodb",
+      "type": "company",
+      "role": "company",
+      "name": "DynamoDB",
+      "file": "DynamoDB",
+      "primary": false,
+      "how_described": "本集说是他们的键值存储,发布反规范化的按键寻址画像,智能体毫秒级查询、无需 join。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            576.792,
+            581.913
+          ],
+          "quote": "DynamoDB is our key value store and it's where we compute our truth or serve our truth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": false,
+      "how_described": "本集说作为精简团队不自建数据增强服务,直接使用 Clay 这类供应商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            525.472,
+            531.295
+          ],
+          "quote": "Since we are a lean team, we will not build our own email vendor or enrichment services like Clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            531.795,
+            532.355
+          ],
+          "quote": "We use Clay.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集展望智能体将从起草走向在护栏内行动,成为系统的一等消费者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1236.259,
+            1243.763
+          ],
+          "quote": "Soon, agents will become primary first-class consumers within the system, moving from drafting to acting within guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "build-or-buy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自建还是购买 (build or buy)",
+      "file": "自建还是购买",
+      "primary": true,
+      "how_described": "本集给出的答案是逐层决策:内部智能体比想象的更便宜更快,在自己数据最厚处先建、其余租用;编排、邮件、CRM 交给供应商,上下文层坚决自持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            1036.54,
+            1044.386
+          ],
+          "quote": "So one of the questions that we came across along every step of the way is a classic question, do we build or buy?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "MCP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

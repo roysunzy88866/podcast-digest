@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":19,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":317,"产品市场契合":22}</script>
+<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":19,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":321,"产品市场契合":22}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DoorDash</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DoorDash">DO</div><div class="pi"><h1 class="pt">DoorDash</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DoorDash">DO</div><div class="pi"><h1 class="pt">DoorDash</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(06:03起):本集提到 DoorDash 作为 Stripe 在 YC 早期捕捉到并随其成长的公司例子，也提到 DoorDash 在使用 Tempo。
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(10:04起):本集提到 DoorDash 作为美国外卖市场第一的竞争对手，说它是一家优秀的公司、行动快、有侵略性、资金雄厚
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(35:41起):本集说当 pip.com 的创始人来硅谷时，a16z 帮他约了 DoorDash 的高管进行深度对话
+- **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(13:30起):本集作为外卖领域的平台被主持人顺带提到,用来讨论 Toast 在更大平台格局中的位置
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]] — 作为被讨论公司(提及)
@@ -38,14 +39,15 @@ unlisted: true
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
+- [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Waymo]] · [[自主性]] · [[推理]] · [[Uber]] · [[智能体商务]] · [[Stripe]] · [[OpenAI]] · [[Cognition]] · [[a16z]]
+[[智能体]] · [[Waymo]] · [[OpenAI]] · [[自主性]] · [[推理]] · [[Uber]] · [[智能体商务]] · [[Stripe]] · [[设计合作伙伴]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"Waymo":13,"自主性":7,"推理":53,"Uber":13,"智能体商务":3,"Stripe":34,"OpenAI":129,"Cognition":19,"a16z":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"Waymo":13,"OpenAI":130,"自主性":7,"推理":53,"Uber":13,"智能体商务":3,"Stripe":34,"设计合作伙伴":4,"Cognition":19}</script>
 
 <script>
 (function(){

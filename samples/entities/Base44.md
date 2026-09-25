@@ -39,7 +39,7 @@ unlisted: true
 
 [[Wix]] · [[Lenny]] · [[Claude Code]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Cursor]] · [[vibe coding]] · [[LLM]] · [[Maor Shlomo]]
 
-<script type="application/json" class="pd-epn">{"Wix":3,"Lenny":67,"Claude Code":73,"Lovable":16,"Bolt":3,"Replit":17,"Cursor":68,"vibe coding":37,"LLM":41,"Maor Shlomo":1}</script>
+<script type="application/json" class="pd-epn">{"Wix":3,"Lenny":67,"Claude Code":73,"Lovable":16,"Bolt":3,"Replit":17,"Cursor":68,"vibe coding":37,"LLM":42,"Maor Shlomo":1}</script>
 
 <script>
 (function(){

@@ -141,7 +141,10 @@
     "rbjWzZK2LU0": "2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach",
     "zCJtYuqwm7E": "2026-08-22-talks-coding-agents-don-t-scale-themselves-nei",
     "6pbQgnJ9Voc": "2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff",
-    "DrTdD-ttjCY": "2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl"
+    "DrTdD-ttjCY": "2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl",
+    "L4I7WgiEquo": "2026-08-26-talks-ai-in-gtm-at-notion-flora-liu",
+    "Qw_tC68KKes": "2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin",
+    "UhCY231d0FQ": "2026-08-26-talks-gtm-engineering-the-technical-bits-evere"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -162,8 +165,7 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
-    "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
-    "2026-08-26-talks-ai-in-gtm-at-notion-flora-liu": 1
+    "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1
   },
   "cutoffs": {
     "lennys": "2026-09-22T23:12:49.000Z",
@@ -172,7 +174,7 @@
     "yc": "2026-09-18T14:59:58.000Z",
     "mad": "2026-09-24T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
-    "bigtech": "2026-09-23T14:30:00.000Z",
+    "bigtech": "2026-09-25T18:21:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-24T10:00:00.000Z",
     "thepeel": "2026-09-24T13:04:14.000Z",
@@ -182,7 +184,7 @@
     "doac": "2026-09-17T05:00:00.000Z",
     "deepmind": "2026-09-09T16:08:26.000Z",
     "twentyvc": "2026-09-24T07:07:00.000Z",
-    "cogrev": "2026-09-19T18:28:55.000Z",
+    "cogrev": "2026-09-25T18:13:31.000Z",
     "knowledge": "2026-09-15T10:00:00.000Z",
     "pragmatic": "2026-09-23T17:07:22.000Z",
     "practicalai": "2026-09-24T09:00:00.000Z",
@@ -197,7 +199,7 @@
     "uncapped": "2026-09-15T09:00:00.000Z",
     "pmf": "2026-09-14T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
-    "productpodcast": "2026-09-16T19:00:00.000Z",
+    "productpodcast": "2026-09-25T19:00:00.000Z",
     "ainativedev": "2026-09-22T12:00:00.000Z",
     "newcomer": "2026-09-24T21:12:05.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
@@ -1627,6 +1629,18 @@
       "reason": "题材不对味:拿不准:标题信息不足,无法判断是产业/创始人访谈还是产品发布宣传",
       "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
       "pubDate": "2026-09-25T14:00:00.000Z"
+    },
+    {
+      "id": "2026-09-25-bigtech-meta-s-muse-revival-frontier-ai-under-th",
+      "reason": "题材不对味:单集塞多个互不相关话题(Meta产品动态、行业威胁、流量网站),属多主题新闻聚合速览体裁,非单主题深挖",
+      "title": "Meta’s Muse Revival, Frontier AI Under Threat, The Rise Of Dopamine Sites",
+      "pubDate": "2026-09-25T18:21:00.000Z"
+    },
+    {
+      "id": "2026-09-25-cogrev-zero-to-one-in-ai-safety-halcyon-s-mike",
+      "reason": "题材不对味:AI 安全组织建设属安全/对齐思辨题材,落在档案明确的「不要」清单里",
+      "title": "Zero to One in AI Safety: Halcyon's Mike McCormick on Launching 30 New Orgs & the Founder Bottleneck",
+      "pubDate": "2026-09-25T18:13:31.000Z"
     }
   ]
 }

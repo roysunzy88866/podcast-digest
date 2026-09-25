@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":138,"智能体":317,"harness":44,"沙箱":58,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":27}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":139,"智能体":321,"harness":44,"沙箱":58,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":28}</script>
 
 <script>
 (function(){

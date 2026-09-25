@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Notion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,11 +23,12 @@ unlisted: true
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(30:36起):本集仅作为 Parag 个人用例一笔带过，说他使用 Notion 的智能体构建自定义会议准备智能体，每次开会前自动做几十到几百次网络搜索
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(30:36起):本集提到 Parag 使用 Notion 的智能体构建自定义会议准备智能体，结合 Parallel API 做数十到数百次网络搜索
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(07:11起):本集提到 Notion 是堆栈中用于计划工作或捕获决策的工具之一
+- **[[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]]**(00:15起):本集讲的平台:人和智能体共同思考的协作大脑,也是 Notion 自家 GTM 系统的上下文层——「我们在用 Notion 来发展 Notion」。
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(06:43起):本集说 Notion 在系统中充当几乎只读的看板，分 top of mind、this week、inbox 三块，是优先级和焦点的唯一真相源，所有操作通过 CoWork 完成
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2025-12-07-lennys-surge-ai-edwin-chen#^q7]]
 
@@ -39,11 +40,13 @@ unlisted: true
 
 ![[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it#^q3]]
 
+![[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu#^q4]]
+
 ![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q5]]
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
@@ -57,15 +60,16 @@ unlisted: true
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu|《用 Notion 卖 Notion:把 GTM 蛛网重造成一个系统》]] — 作为被讨论公司
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Figma]] · [[OpenAI]] · [[Claude]] · [[Slack]] · [[Anthropic]] · [[GitHub]] · [[LLM]] · [[Google]]
+[[智能体]] · [[ChatGPT]] · [[Figma]] · [[OpenAI]] · [[Claude]] · [[Slack]] · [[Anthropic]] · [[护栏]] · [[GitHub]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":317,"ChatGPT":77,"Figma":20,"OpenAI":129,"Claude":65,"Slack":28,"Anthropic":138,"GitHub":23,"LLM":41,"Google":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":321,"ChatGPT":77,"Figma":20,"OpenAI":130,"Claude":65,"Slack":28,"Anthropic":139,"护栏":57,"GitHub":23,"LLM":42}</script>
 
 <script>
 (function(){

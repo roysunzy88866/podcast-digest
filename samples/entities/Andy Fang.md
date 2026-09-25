@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":317,"自主性":7,"分发":6,"无人机":2,"harness":44,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":7,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":321,"自主性":7,"分发":6,"无人机":2,"harness":44,"开放权重模型":1}</script>
 
 <script>
 (function(){

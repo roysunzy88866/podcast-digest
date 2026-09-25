@@ -22,7 +22,7 @@ unlisted: true
 
 [[Elena Berger]] · [[Keith Parris]] · [[Andy McCall]] · [[Alex Rampell]] · [[Lighthouse]] · [[Lightfield]] · [[LandGrab]] · [[Tome]] · [[Samsara]] · [[CRM]]
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Keith Parris":1,"Andy McCall":1,"Alex Rampell":3,"Lighthouse":1,"Lightfield":2,"LandGrab":1,"Tome":2,"Samsara":2,"CRM":5}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Keith Parris":1,"Andy McCall":1,"Alex Rampell":3,"Lighthouse":1,"Lightfield":2,"LandGrab":1,"Tome":2,"Samsara":2,"CRM":6}</script>
 
 <script>
 (function(){

@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":2,"Opus 4.5":2,"Mythos":3,"编排":6,"拟物化":1,"沉没成本心态":1,"AWS":13,"Vercel":17,"Reddit":7,"Slack":28}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":2,"Opus 4.5":2,"Mythos":3,"编排":7,"拟物化":1,"沉没成本心态":1,"AWS":13,"Vercel":17,"Reddit":7,"Slack":28}</script>
 
 <script>
 (function(){

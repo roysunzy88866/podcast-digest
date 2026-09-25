@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":55,"FastMCP":1,"Prefab":1,"智能体":317,"沙箱":58,"生成式 UI":2,"Claude":65}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":57,"FastMCP":1,"Prefab":1,"智能体":321,"沙箱":58,"生成式 UI":2,"Claude":65}</script>
 
 <script>
 (function(){

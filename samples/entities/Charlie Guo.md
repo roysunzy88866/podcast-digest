@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":129,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":57,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":130,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":57,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
 
 <script>
 (function(){

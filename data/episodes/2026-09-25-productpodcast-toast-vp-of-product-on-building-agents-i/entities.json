@@ -1,0 +1,662 @@
+{
+  "episode_id": "2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i",
+  "podcast": "The Product Podcast",
+  "date": "2026-09-25",
+  "tags": [
+    "产品方法",
+    "AI 智能体",
+    "B2B 产品",
+    "餐饮 SaaS",
+    "AI 采用"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "maggie-crowley",
+      "type": "person",
+      "role": "host",
+      "name": "Maggie Crowley",
+      "file": "Maggie Crowley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19,
+            27
+          ],
+          "quote": "Maggie Crowley, VP of Product at Toast. Ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 8,
+          "t": [
+            55,
+            90
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Maggie Crowley, VP of Product at Toast. Two fun facts before we start: she finished fifth at the 2006 Winter Olympics as a speed skater, and she was contributing to Product School years ago, back when she was at Drift. Toast is the point of sale behind the restaurants and coffee shops you already pay at, and her customers are not on X all day. They are running slim-margin businesses that have zero patience for AI theater. Things we'll cover in this episode: shipping AI into a 14-year-old platform, not a blank slate; ten customers, one WhatsApp group, a year of iterating before GA; the least tech-savvy operators loved it first, and why; how long you have before consumer patterns become your users' expectations; and a live demo changing a real menu price from chat. Let's get into it. Welcome to The Product Podcast, Maggie. Thank you so much.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "type": "company",
+      "role": "company",
+      "name": "Toast",
+      "file": "Toast",
+      "primary": true,
+      "how_described": "本集说 Toast 是零售和餐饮销售点(POS)系统:顾客刷卡结账碰到的终端,背后还有帮运营者管菜单、库存、排班、备餐的软件,客户是利润微薄、对「为了 AI 而 AI」零容忍的餐厅经营者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19,
+            27
+          ],
+          "quote": "Maggie Crowley, VP of Product at Toast. Ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 8,
+          "t": [
+            55,
+            90
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Maggie Crowley, VP of Product at Toast. Two fun facts before we start: she finished fifth at the 2006 Winter Olympics as a speed skater, and she was contributing to Product School years ago, back when she was at Drift. Toast is the point of sale behind the restaurants and coffee shops you already pay at, and her customers are not on X all day. They are running slim-margin businesses that have zero patience for AI theater. Things we'll cover in this episode: shipping AI into a 14-year-old platform, not a blank slate; ten customers, one WhatsApp group, a year of iterating before GA; the least tech-savvy operators loved it first, and why; how long you have before consumer patterns become your users' expectations; and a live demo changing a real menu price from chat. Let's get into it. Welcome to The Product Podcast, Maggie. Thank you so much.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            104,
+            117
+          ],
+          "quote": "Nice. And the other one, probably less impressive but still cool, is that you were a contributor to Product School many years ago, way before you were a VP of Product at Toast. I think at that time you were a senior director of product at Drift.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            122,
+            135
+          ],
+          "quote": "A few things have changed since then, and that's why I'm excited to have you back. So for some context, I'm sure everybody listening has used Toast at some point, but maybe they don't even realize it. Maybe you can explain what Toast is.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 17,
+          "t": [
+            135,
+            180
+          ],
+          "quote": "Absolutely. Toast is a retail and restaurant point of sale. It's the thing where, if you go to a restaurant or a coffee shop and you want to pay for a meal, you're probably swiping your card, whether it's at a kiosk, at a counter, or maybe there's a handheld they bring around where you swipe your card. That's the thing most people interact with. But behind the scenes, it's the hardware in the store itself, and all of the software that helps our operators run their menus, their inventory, their team schedule, their prep, and how they understand how their business is doing. So there's a whole host of things happening above store. We also have a bunch of products for how we help our operators drive traffic to their locations. And then we have a consumer app as well. Building for People Who Aren't on X",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 19,
+          "t": [
+            200,
+            260
+          ],
+          "quote": "That's true. I always think about our role at Toast as: these operators are super sophisticated, they run really difficult, slim-margin businesses, and they do it largely because they love it. Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI or whoever, and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow. Our job is to figure out how we make it useful for them, and then how we make it something that is actually real and not a distraction. There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome? Did it help you make more money? Did it help you save money? Did it save you real time? That's the bar I think about when we're building with these tools for businesses, and it's a different type of challenge that I find really interesting. Shipping AI Into a Platform That Existed Before AI",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 21,
+          "t": [
+            280,
+            370
+          ],
+          "quote": "There are a couple of challenges. One is that your customers, if you're lucky, already know what they use you for. They have really specific ways they've set up their workflows, whether that's just the muscle memory of how they use your tool, or specific workflows in the tool. They're used to doing that. So anything you want to do has to convince them to do it in a different way. There's a layer of behavior change you have to figure out. There's also the question of how much change your customers can absorb. Do they want to try something new? Is the thing your AI tool does actually germane to the outcome they're trying to get, and how do you make it useful for them? How do you make them want to use it? And then there's a scale question, which is that you can't necessarily launch something that doesn't work, isn't fast, isn't accurate, or isn't performant to your install base. Because then they're going to not want to use your product, and you're going to burn trust. If you're early, there's a bit of a sense that you can just try things and test them out. There are lots of things we're seeing come through a channel like X that are early, a little bit broken, maybe the integrations aren't great or the security isn't perfect, but that's okay, because we're all early adopters. When you're building AI in a platform like Toast, you have to think about the bar for quality and excellence being really high from the start. So you have to get creative about how you build in that environment. It's not that you can't build quickly and iteratively; it's just a different way of thinking about it. The Design-Partner Playbook",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 25,
+          "t": [
+            535,
+            620
+          ],
+          "quote": "If I had totally cracked the onboarding problem for an AI product, maybe I'd have my own startup, I don't know. The way we think about it: the more you understand your customer, your user, the way they're working, and what they're up to, the better you're going to be at figuring out when they should use the thing you're building. And that's the same as any product you'd build. But you have to really understand, for us physically, where they are in the store or the restaurant. What time of day is it? Is it during a shift or not? What role do they have in the restaurant or retail shop, and where are they? And then, what might they need to do? And how do you close that gap and bring them whatever the use case is at that moment? So practically speaking, we of course have this assistant, Toast IQ, in our product. But it's entry points throughout the product. It's pre-written prompts that we know work really well, that we know are questions they're going to ask. And it's making sure it works really well in our mobile app as well as our desktop, and that we tailor the starter prompts based on what they're doing on those platforms at different times of day. So it's about getting really specific about all of those things and trying to make it really easy for them to get started. Once they get in and start asking their questions, then it's relatively easy; you just have to figure out how to get them in to start. From \"Help Me Do This\" to \"Do This for Me\"",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 26,
+          "t": [
+            620,
+            640
+          ],
+          "quote": "Spoiler alert, but I know you're going to give us a demo of Toast IQ, and I think that's powerful, because ultimately it proves how people are interacting with your product. One thing I noticed, especially with AI, is that the user is changing their expectation from \"tool, help me do this\" to \"tool, do this for me.\"",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 27,
+          "t": [
+            640,
+            710
+          ],
+          "quote": "I think about this a lot, because the dream, of course, is what you're saying: to actually hand off a workflow end to end. So many of us are trying out all these new consumer AI tools and playing around with them. Those tools and those patterns feel inevitable to me. But there's some unknown amount of time from when the consumer market has those things to when they're fully adopted in a B2B context, and it probably depends heavily on the type of user you have and the space you're in. So it's interesting to be in this moment where we see where things are going, we see where the behavior is going, and we have a chance to figure out how to do it well for our users. To me, it's the most interesting time to be building in a space like this. And I love building for a customer like ours, because they have such a low tolerance for doing AI for AI's sake. They don't care at all if it's AI or Toast IQ or whatever. All they care about is: did you help me with my business, and did you help me with a specific problem? So I'm really interested to see how it all plays out. The Clock on Consumer AI Patterns",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1000,
+            1025
+          ],
+          "quote": "One of the things I read about the positioning of your product, Toast IQ, is that you're going from \"we manage your point of sale\" to \"we grow your restaurant.\" So you're now taking a bigger stance on helping your client make more money. What does that really mean for other tools, like email marketing tools or other technology that maybe isn't restaurant-specific but is now more related to what you do?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1106,
+            1117
+          ],
+          "quote": "Yeah, it's called Toast IQ Grow, and the whole game of it is: how do we put butts in seats, and all the different pieces that go into that, helping our customers offload that work.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1137,
+            1190
+          ],
+          "quote": "I feel like I'm a broken record here, but it's the same thing. The more we can spend our time really understanding the technology, the better we are at doing that for customers. So the way we structure our teams is we try to make sure we have a PM focused deeply in that kind of space, so they can figure out, with their technical counterparts, how to bring that solution to our users, rather than forcing a customer to figure it out themselves. We're doing that across basically every use case we can think of, trying to figure out what we can take off your plate with AI, what problems we can solve, and how we make it easy for you, so that as a customer you don't have to think about which model to use, which tool to use, whether to use Anthropic or OpenAI or an open weight model. We can do all that for them, so all they have to do is plug into Toast and it works. Why a VP Still Line-Manages a Frontline Team",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1205,
+            1280
+          ],
+          "quote": "I really think that in this day and age, if you don't keep a hand in how the teams are building, it's going to be really difficult to be a leader in nine months, a year, or two years, because the way teams build is so different. So whether that's finding a project to do on your own, or finding a way to be a line manager versus a manager of managers, at whatever level you're at, I think that's super critical for leaders right now. For me, the way I've done it is: any time a PM goes on parental leave, or we have an opening, I try to hop in and do that job for a little bit, to keep myself in the weeds on those products, and to make sure I understand what's going on at the frontline level. I also have areas where I don't have a middle-management layer and I manage the frontline team myself, because I want to stay close to the product. I think you can scale yourself as a leader much more effectively using AI tools, which lets you keep a flatter team than you used to. And if you don't do that as a leader, there's only so long until you don't understand how these tools work, and you're going to be somewhat irrelevant. Live Demo: Toast IQ",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1420,
+            1544
+          ],
+          "quote": "Totally. Some of the really interesting magic when we first started is that it wasn't necessarily that you couldn't do this, or couldn't answer these questions if you wanted to in Toast, but maybe it just wasn't the easiest to do, or it wasn't intuitive to find. Toast has been around for 14 years. We have so much product, and a customer might not want to spend the time learning all of it. So this is just such a fast path to getting the answer. What was really interesting is that I also learned in the very early days that we had this assumption that only really tech-savvy early adopters would want to use this. But what happened was we found that some of the less tech-savvy operators loved it, because they didn't have to learn software. They just used their human language, and they loved it, because they could just ask questions without needing to feel like they had to learn a tool. I always thought that was an interesting learning from the early days. Okay, so what do we have here? It looks like the drivers I have are this prepaid dinner and my pepperoni flatbread. So I'm trying to remember: can you list out all the flatbreads on the menu? Because I'm thinking maybe I could juice my sales if I add to this menu category. A lot of what our customers are doing is trying to establish, day in and day out, how their menus might want to move, especially if there are changes in the cost of ingredients. One of the things we hear all the time is that the cost of ingredients and food is going up, and it's really difficult to keep raising your menu prices to match. So they're thinking about other ways they can construct a menu that's going to work, that's going to help their business be successful, and take into account that food costs are rising. So it looks like I've got eight flatbreads.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1558,
+            1585
+          ],
+          "quote": "That is the million-dollar question. Right now we're focused on how we help our customers just get their work done in Toast. There are all kinds of examples of every SaaS platform asking the same question and testing out different things. I don't know that we have a perfect answer yet. But I'm listening to our customers, having calls about what information they want to bring in, what they want to bring out, and how we help them get their work done. So that's probably as far as I can go on that before legal comes for me.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1600,
+            1700
+          ],
+          "quote": "Yeah, we have partners we work with across basically the full lifecycle of a restaurant or retail shop. We have products within Toast they can use, and then we also try to make sure we can pull in any other context they have. But again, our goal is just how we help them get the information they need to get the job done. Increasingly with Toast IQ, we're trying to take that job as far as we can, and take on as much of the work as possible. So we end up in situations like this, where in the early days maybe just having insights was enough, but of course that's not enough anymore. You have to actually be able to make changes. So maybe let's make it $14.99. That sounds good. This is something that before AI would have been relatively annoying to do. If you're just making one menu change, it's relatively simple. But if you want to make bulk changes, or you have multiple menus across multiple locations, you can see how this kind of experience would get really complicated, and Toast IQ makes it a lot easier to just get it all done in chat. One interesting thing, just to give a little behind the scenes: this card is generated on the fly by Toast IQ based on the activity you're trying to get done. We're using different frameworks to make that possible. It's been interesting to see how this comes to life, because we built all these components in the back end, they're in the system, and then Toast IQ assembles it based on the question you're asking and the thing you're trying to get done. So it's cool to see this happen live, because it's pulling together something on the fly, not something we've constructed to look explicitly like this.",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "toast-iq",
+      "type": "company",
+      "role": "company",
+      "name": "Toast IQ",
+      "file": "Toast IQ",
+      "primary": true,
+      "how_described": "本集说 Toast IQ 是 Toast 产品内的 AI 助手,入口遍布产品各处、带预写好的提示词,能聊天查报表,并能直接在聊天里改菜单价格(卡片按问题即时组装),定位正从「管理你的销售点」走向「帮你的餐厅增长」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            535,
+            620
+          ],
+          "quote": "If I had totally cracked the onboarding problem for an AI product, maybe I'd have my own startup, I don't know. The way we think about it: the more you understand your customer, your user, the way they're working, and what they're up to, the better you're going to be at figuring out when they should use the thing you're building. And that's the same as any product you'd build. But you have to really understand, for us physically, where they are in the store or the restaurant. What time of day is it? Is it during a shift or not? What role do they have in the restaurant or retail shop, and where are they? And then, what might they need to do? And how do you close that gap and bring them whatever the use case is at that moment? So practically speaking, we of course have this assistant, Toast IQ, in our product. But it's entry points throughout the product. It's pre-written prompts that we know work really well, that we know are questions they're going to ask. And it's making sure it works really well in our mobile app as well as our desktop, and that we tailor the starter prompts based on what they're doing on those platforms at different times of day. So it's about getting really specific about all of those things and trying to make it really easy for them to get started. Once they get in and start asking their questions, then it's relatively easy; you just have to figure out how to get them in to start. From \"Help Me Do This\" to \"Do This for Me\"",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 26,
+          "t": [
+            620,
+            640
+          ],
+          "quote": "Spoiler alert, but I know you're going to give us a demo of Toast IQ, and I think that's powerful, because ultimately it proves how people are interacting with your product. One thing I noticed, especially with AI, is that the user is changing their expectation from \"tool, help me do this\" to \"tool, do this for me.\"",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 27,
+          "t": [
+            640,
+            710
+          ],
+          "quote": "I think about this a lot, because the dream, of course, is what you're saying: to actually hand off a workflow end to end. So many of us are trying out all these new consumer AI tools and playing around with them. Those tools and those patterns feel inevitable to me. But there's some unknown amount of time from when the consumer market has those things to when they're fully adopted in a B2B context, and it probably depends heavily on the type of user you have and the space you're in. So it's interesting to be in this moment where we see where things are going, we see where the behavior is going, and we have a chance to figure out how to do it well for our users. To me, it's the most interesting time to be building in a space like this. And I love building for a customer like ours, because they have such a low tolerance for doing AI for AI's sake. They don't care at all if it's AI or Toast IQ or whatever. All they care about is: did you help me with my business, and did you help me with a specific problem? So I'm really interested to see how it all plays out. The Clock on Consumer AI Patterns",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1000,
+            1025
+          ],
+          "quote": "One of the things I read about the positioning of your product, Toast IQ, is that you're going from \"we manage your point of sale\" to \"we grow your restaurant.\" So you're now taking a bigger stance on helping your client make more money. What does that really mean for other tools, like email marketing tools or other technology that maybe isn't restaurant-specific but is now more related to what you do?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1106,
+            1117
+          ],
+          "quote": "Yeah, it's called Toast IQ Grow, and the whole game of it is: how do we put butts in seats, and all the different pieces that go into that, helping our customers offload that work.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1205,
+            1280
+          ],
+          "quote": "I really think that in this day and age, if you don't keep a hand in how the teams are building, it's going to be really difficult to be a leader in nine months, a year, or two years, because the way teams build is so different. So whether that's finding a project to do on your own, or finding a way to be a line manager versus a manager of managers, at whatever level you're at, I think that's super critical for leaders right now. For me, the way I've done it is: any time a PM goes on parental leave, or we have an opening, I try to hop in and do that job for a little bit, to keep myself in the weeds on those products, and to make sure I understand what's going on at the frontline level. I also have areas where I don't have a middle-management layer and I manage the frontline team myself, because I want to stay close to the product. I think you can scale yourself as a leader much more effectively using AI tools, which lets you keep a flatter team than you used to. And if you don't do that as a leader, there's only so long until you don't understand how these tools work, and you're going to be somewhat irrelevant. Live Demo: Toast IQ",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1600,
+            1700
+          ],
+          "quote": "Yeah, we have partners we work with across basically the full lifecycle of a restaurant or retail shop. We have products within Toast they can use, and then we also try to make sure we can pull in any other context they have. But again, our goal is just how we help them get the information they need to get the job done. Increasingly with Toast IQ, we're trying to take that job as far as we can, and take on as much of the work as possible. So we end up in situations like this, where in the early days maybe just having insights was enough, but of course that's not enough anymore. You have to actually be able to make changes. So maybe let's make it $14.99. That sounds good. This is something that before AI would have been relatively annoying to do. If you're just making one menu change, it's relatively simple. But if you want to make bulk changes, or you have multiple menus across multiple locations, you can see how this kind of experience would get really complicated, and Toast IQ makes it a lot easier to just get it all done in chat. One interesting thing, just to give a little behind the scenes: this card is generated on the fly by Toast IQ based on the activity you're trying to get done. We're using different frameworks to make that possible. It's been interesting to see how this comes to life, because we built all these components in the back end, they're in the system, and then Toast IQ assembles it based on the question you're asking and the thing you're trying to get done. So it's cool to see this happen live, because it's pulling together something on the fly, not something we've constructed to look explicitly like this.",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "toast-iq-grow",
+      "type": "company",
+      "role": "company",
+      "name": "Toast IQ Grow",
+      "file": "Toast IQ Grow",
+      "primary": true,
+      "how_described": "本集说 Toast IQ Grow 是营销智能体,目标是「让顾客坐进座位」,通过邮件、短信等渠道替餐厅做营销,有客户用它把营销代理支出砍掉超过 70% 并把销售归因到营销活动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            1106,
+            1117
+          ],
+          "quote": "Yeah, it's called Toast IQ Grow, and the whole game of it is: how do we put butts in seats, and all the different pieces that go into that, helping our customers offload that work.",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Toast 在 AI 出现前就存在的 SaaS 平台里构建智能体,亮点是替客户干他们本来要花钱外包的活(如营销),并讨论了消费级 AI 智能体的交互模式如何在一段时间后变成 B2B 用户的默认期望",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            1025,
+            1100
+          ],
+          "quote": "The marketing one is really interesting. That product has been so successful. What's interesting is that there's one customer who has reduced their marketing agency spend by over 70%, and can tie marketing to sales and attribute a specific amount of sales to marketing since they launched it via this product we built. We have examples like that showing you can use AI to dramatically reduce the cost of doing something, but also take off work you're not willing to do yourself, or don't want to do yourself. A lot of the sweet spot for us is that a marketer or a restaurateur isn't necessarily someone who loves doing email marketing or online marketing or building a website. So they pay someone to do it, and that's really expensive, and it's a low-margin business. They're happy to pay less than they'd pay an agency to get a lot of what they're getting from the agency, but using AI. So that's been one of the breakthrough use cases for us. That team has done a really amazing job building an agent that solves a painful problem: driving demand for a restaurant.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1100,
+            1106
+          ],
+          "quote": "So this is an agent that can do a lot of that marketing work on behalf of the restaurant, via email, text, and other channels.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "design-partners",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计伙伴 (design partners)",
+      "file": "设计伙伴",
+      "primary": true,
+      "how_described": "本集说的「设计伙伴手册」:2023 年底立项时找十来个设计伙伴客户、进同一个 WhatsApp 群、只选移动端一个平台报表一个用例,封闭快速迭代约一年,模型够好后再正式发布并扩展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            373,
+            510
+          ],
+          "quote": "The way we thought about it, in the very early days when we started working on this at the end of 2023, we didn't even really know exactly what the use case would end up being. But we knew this technology was coming, and we wanted to start trying. So we found just a handful of design partners, as we called them, and we put ourselves in WhatsApp groups with these customers. We started turning an assistant on. We picked one platform, so we started on mobile just to make it easy for ourselves, and we picked one use case around reporting. We shipped it to these ten people, and we walled ourselves off to iterate with them as fast as we could, to get to a point where the product was good enough that we could start to scale it. We've done that with every major feature we've released since then. We did that for honestly about a year. Then the models finally got good enough in early 2025, and we made it generally available last fall, in October, and have built a lot into it since. But it was really that process: finding a couple of customers, building really quickly and iteratively with them, being in a channel where you could get fast feedback, and then scaling from there. That's how we figured out how to operate. Probably the other thing that's unique about building in this space is that you have to bring the AI to your customer. We couldn't assume they'd discover it on their own. Just adding a chat box somewhere isn't enough. You have to bring it to them. You have to get them over the blank-page problem. You have to help them understand when to use it. And an enduring challenge of these tools is that even if you get one of your users to use it, you're probably adding all sorts of capabilities in the background, and there's no way for them to see that, because it's all behind the scenes. So you have to constantly think about how you get them to use it, and then how you help them understand everything you're adding. You have to constantly re-onboard your users, because it's constantly changing. It's an interesting way to think about a product. Maybe before, you could launch something and assume that once your user figured it out and used it once, they understood how it worked. That's not the case with AI. You have to build a better muscle around bringing the product to them, helping them understand what it does, and then re-engaging them when you have new things. Re-Onboarding Users Who Have Other Jobs to Do",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "re-onboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "重新上手 (re-onboard)",
+      "file": "重新上手",
+      "primary": true,
+      "how_described": "本集说 AI 产品必须不断让用户重新上手:能力一直在后台悄悄增加、用户看不见,不能指望发布一次用户就懂,要建一套把产品带给用户、讲清楚、有新东西时再激活他们的肌肉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            373,
+            510
+          ],
+          "quote": "The way we thought about it, in the very early days when we started working on this at the end of 2023, we didn't even really know exactly what the use case would end up being. But we knew this technology was coming, and we wanted to start trying. So we found just a handful of design partners, as we called them, and we put ourselves in WhatsApp groups with these customers. We started turning an assistant on. We picked one platform, so we started on mobile just to make it easy for ourselves, and we picked one use case around reporting. We shipped it to these ten people, and we walled ourselves off to iterate with them as fast as we could, to get to a point where the product was good enough that we could start to scale it. We've done that with every major feature we've released since then. We did that for honestly about a year. Then the models finally got good enough in early 2025, and we made it generally available last fall, in October, and have built a lot into it since. But it was really that process: finding a couple of customers, building really quickly and iteratively with them, being in a channel where you could get fast feedback, and then scaling from there. That's how we figured out how to operate. Probably the other thing that's unique about building in this space is that you have to bring the AI to your customer. We couldn't assume they'd discover it on their own. Just adding a chat box somewhere isn't enough. You have to bring it to them. You have to get them over the blank-page problem. You have to help them understand when to use it. And an enduring challenge of these tools is that even if you get one of your users to use it, you're probably adding all sorts of capabilities in the background, and there's no way for them to see that, because it's all behind the scenes. So you have to constantly think about how you get them to use it, and then how you help them understand everything you're adding. You have to constantly re-onboard your users, because it's constantly changing. It's an interesting way to think about a product. Maybe before, you could launch something and assume that once your user figured it out and used it once, they understood how it worked. That's not the case with AI. You have to build a better muscle around bringing the product to them, helping them understand what it does, and then re-engaging them when you have new things. Re-Onboarding Users Who Have Other Jobs to Do",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "point-of-sale",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售点系统 (point of sale)",
+      "file": "销售点系统",
+      "primary": true,
+      "how_described": "本集说 Toast 就是零售和餐饮的销售点系统——餐厅、咖啡店结账刷卡时用的终端,背后还有门店硬件和管理菜单、库存、排班、备餐的软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            55,
+            90
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Maggie Crowley, VP of Product at Toast. Two fun facts before we start: she finished fifth at the 2006 Winter Olympics as a speed skater, and she was contributing to Product School years ago, back when she was at Drift. Toast is the point of sale behind the restaurants and coffee shops you already pay at, and her customers are not on X all day. They are running slim-margin businesses that have zero patience for AI theater. Things we'll cover in this episode: shipping AI into a 14-year-old platform, not a blank slate; ten customers, one WhatsApp group, a year of iterating before GA; the least tech-savvy operators loved it first, and why; how long you have before consumer patterns become your users' expectations; and a live demo changing a real menu price from chat. Let's get into it. Welcome to The Product Podcast, Maggie. Thank you so much.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 17,
+          "t": [
+            135,
+            180
+          ],
+          "quote": "Absolutely. Toast is a retail and restaurant point of sale. It's the thing where, if you go to a restaurant or a coffee shop and you want to pay for a meal, you're probably swiping your card, whether it's at a kiosk, at a counter, or maybe there's a handheld they bring around where you swipe your card. That's the thing most people interact with. But behind the scenes, it's the hardware in the store itself, and all of the software that helps our operators run their menus, their inventory, their team schedule, their prep, and how they understand how their business is doing. So there's a whole host of things happening above store. We also have a bunch of products for how we help our operators drive traffic to their locations. And then we have a consumer app as well. Building for People Who Aren't on X",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 32,
+          "t": [
+            810,
+            835
+          ],
+          "quote": "I also want to cover the market landscape. When you think about the restaurant, point of sale is important, and I imagine companies like Square are part of that market. But even more broadly, when I think about food delivery with companies like DoorDash or Uber Eats, or table reservations with OpenTable, or reputation management with Yelp, how are you thinking about your position in this bigger platform?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1000,
+            1025
+          ],
+          "quote": "One of the things I read about the positioning of your product, Toast IQ, is that you're going from \"we manage your point of sale\" to \"we grow your restaurant.\" So you're now taking a bigger stance on helping your client make more money. What does that really mean for other tools, like email marketing tools or other technology that maybe isn't restaurant-specific but is now more related to what you do?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompts)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集说 Toast IQ 的入口是预写好的、已验证效果好的提示词,并按移动端/桌面端、一天中的时段、用户位置和角色定制起始提示词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            535,
+            620
+          ],
+          "quote": "If I had totally cracked the onboarding problem for an AI product, maybe I'd have my own startup, I don't know. The way we think about it: the more you understand your customer, your user, the way they're working, and what they're up to, the better you're going to be at figuring out when they should use the thing you're building. And that's the same as any product you'd build. But you have to really understand, for us physically, where they are in the store or the restaurant. What time of day is it? Is it during a shift or not? What role do they have in the restaurant or retail shop, and where are they? And then, what might they need to do? And how do you close that gap and bring them whatever the use case is at that moment? So practically speaking, we of course have this assistant, Toast IQ, in our product. But it's entry points throughout the product. It's pre-written prompts that we know work really well, that we know are questions they're going to ask. And it's making sure it works really well in our mobile app as well as our desktop, and that we tailor the starter prompts based on what they're doing on those platforms at different times of day. So it's about getting really specific about all of those things and trying to make it really easy for them to get started. Once they get in and start asking their questions, then it's relatively easy; you just have to figure out how to get them in to start. From \"Help Me Do This\" to \"Do This for Me\"",
+          "speaker": "Maggie Crowley"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集把 Anthropic 和 OpenAI 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27,
+            38
+          ],
+          "quote": "Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 18,
+          "t": [
+            180,
+            200
+          ],
+          "quote": "Those are the things I want to unpack. We spend a lot of time on X, and we're hopefully at the forefront of AI in some ways. But ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy. So the way you build for them and drive adoption is different than some of the keynotes we see from OpenAI or Anthropic.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 19,
+          "t": [
+            200,
+            260
+          ],
+          "quote": "That's true. I always think about our role at Toast as: these operators are super sophisticated, they run really difficult, slim-margin businesses, and they do it largely because they love it. Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI or whoever, and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow. Our job is to figure out how we make it useful for them, and then how we make it something that is actually real and not a distraction. There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome? Did it help you make more money? Did it help you save money? Did it save you real time? That's the bar I think about when we're building with these tools for businesses, and it's a different type of challenge that I find really interesting. Shipping AI Into a Platform That Existed Before AI",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1137,
+            1190
+          ],
+          "quote": "I feel like I'm a broken record here, but it's the same thing. The more we can spend our time really understanding the technology, the better we are at doing that for customers. So the way we structure our teams is we try to make sure we have a PM focused deeply in that kind of space, so they can figure out, with their technical counterparts, how to bring that solution to our users, rather than forcing a customer to figure it out themselves. We're doing that across basically every use case we can think of, trying to figure out what we can take off your plate with AI, what problems we can solve, and how we make it easy for you, so that as a customer you don't have to think about which model to use, which tool to use, whether to use Anthropic or OpenAI or an open weight model. We can do all that for them, so all they have to do is plug into Toast and it works. Why a VP Still Line-Manages a Frontline Team",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1765,
+            1780
+          ],
+          "quote": "But here you are, sharing a screen and going for it. This podcast typically hosts product leaders from OpenAI and Anthropic, and there's nothing wrong with that, but I think it's something special to also bring some of this magic to the real economy.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集把 OpenAI 与 Anthropic 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源;主持也提到该播客常请 OpenAI、Anthropic 的产品负责人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27,
+            38
+          ],
+          "quote": "Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow.",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 18,
+          "t": [
+            180,
+            200
+          ],
+          "quote": "Those are the things I want to unpack. We spend a lot of time on X, and we're hopefully at the forefront of AI in some ways. But ultimately, I think you're building a product for a lot of people who are not on X, right? That's the real economy. So the way you build for them and drive adoption is different than some of the keynotes we see from OpenAI or Anthropic.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 19,
+          "t": [
+            200,
+            260
+          ],
+          "quote": "That's true. I always think about our role at Toast as: these operators are super sophisticated, they run really difficult, slim-margin businesses, and they do it largely because they love it. Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI or whoever, and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow. Our job is to figure out how we make it useful for them, and then how we make it something that is actually real and not a distraction. There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome? Did it help you make more money? Did it help you save money? Did it save you real time? That's the bar I think about when we're building with these tools for businesses, and it's a different type of challenge that I find really interesting. Shipping AI Into a Platform That Existed Before AI",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1137,
+            1190
+          ],
+          "quote": "I feel like I'm a broken record here, but it's the same thing. The more we can spend our time really understanding the technology, the better we are at doing that for customers. So the way we structure our teams is we try to make sure we have a PM focused deeply in that kind of space, so they can figure out, with their technical counterparts, how to bring that solution to our users, rather than forcing a customer to figure it out themselves. We're doing that across basically every use case we can think of, trying to figure out what we can take off your plate with AI, what problems we can solve, and how we make it easy for you, so that as a customer you don't have to think about which model to use, which tool to use, whether to use Anthropic or OpenAI or an open weight model. We can do all that for them, so all they have to do is plug into Toast and it works. Why a VP Still Line-Manages a Frontline Team",
+          "speaker": "Maggie Crowley"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1765,
+            1780
+          ],
+          "quote": "But here you are, sharing a screen and going for it. This podcast typically hosts product leaders from OpenAI and Anthropic, and there's nothing wrong with that, but I think it's something special to also bring some of this magic to the real economy.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集主持人问 Maggie 会不会做 MCP 让客户从 Claude 之类访问数据,她说这是「价值百万美元的问题」,每个 SaaS 平台都在测,目前专注让客户在 Toast 里干完活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            1398,
+            1420
+          ],
+          "quote": "This looks so similar to the kind of questions I used to ask my team every week. We'd go, and then someone would have to pull the report from Salesforce, and there was a meeting to prep for the meeting, and it was just so horrible. And now I just use Claude, it's connected to my Salesforce via MCP, I ask those questions and the follow-up questions, and I'm a happier person.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1544,
+            1558
+          ],
+          "quote": "Maggie, is the plan that users use that interface? Or are you also thinking about creating an MCP so they can access the same information from Claude or Codex?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "square",
+      "type": "company",
+      "role": "company",
+      "name": "Square",
+      "file": "Square",
+      "primary": false,
+      "how_described": "本集作为餐饮销售点市场的竞争者之一被主持人提到,Maggie 的回应是别被竞争动态分心,盯住理解用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            810,
+            835
+          ],
+          "quote": "I also want to cover the market landscape. When you think about the restaurant, point of sale is important, and I imagine companies like Square are part of that market. But even more broadly, when I think about food delivery with companies like DoorDash or Uber Eats, or table reservations with OpenTable, or reputation management with Yelp, how are you thinking about your position in this bigger platform?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集作为外卖领域的平台被主持人顺带提到,用来讨论 Toast 在更大平台格局中的位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            810,
+            835
+          ],
+          "quote": "I also want to cover the market landscape. When you think about the restaurant, point of sale is important, and I imagine companies like Square are part of that market. But even more broadly, when I think about food delivery with companies like DoorDash or Uber Eats, or table reservations with OpenTable, or reputation management with Yelp, how are you thinking about your position in this bigger platform?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "opentable",
+      "type": "company",
+      "role": "company",
+      "name": "OpenTable",
+      "file": "OpenTable",
+      "primary": false,
+      "how_described": "本集作为订位平台被主持人顺带提到,用来讨论 Toast 在更大平台格局中的位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            810,
+            835
+          ],
+          "quote": "I also want to cover the market landscape. When you think about the restaurant, point of sale is important, and I imagine companies like Square are part of that market. But even more broadly, when I think about food delivery with companies like DoorDash or Uber Eats, or table reservations with OpenTable, or reputation management with Yelp, how are you thinking about your position in this bigger platform?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

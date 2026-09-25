@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":1,"Asana":2,"Stripe":34,"Shopify":9,"Snowflake":11,"Twilio":2,"Vercel":17,"Pinecone":3,"Perplexity":6}</script>
+<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":1,"Asana":2,"Stripe":34,"Shopify":9,"Snowflake":12,"Twilio":2,"Vercel":17,"Pinecone":3,"Perplexity":6}</script>
 
 <script>
 (function(){

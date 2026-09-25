@@ -1,0 +1,130 @@
+{
+  "title_zh": "Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍",
+  "tldr": "Cloudflare 销售运营负责人 Justin Joyce 讲解如何用技能文件、自动化洞察和智能体自助工作区，把销售运营从手工分析升级为规模化体系。",
+  "digest_md": "一个销售运营团队要同时服务高管的分析需求、领导层的指标需求和一线销售的客户信息需求，靠人肉在 Excel 里一周泡好几个小时，是撑不住的。这一集的演讲者是 Cloudflare 的首席销售运营与策略经理 Justin Joyce——他从销售起步，在 Grainger 做了约七年机器学习，六个月前回到销售运营，把两边技能合起来改造 Cloudflare 的市场进入(go-to-market,即产品从销售到触达客户的全流程)运营。他开场的判断很直接：**传统的市场进入方式无法规模化**。\n\n## 问题出在哪\n\nJoyce 把问题拆成两块。一块在后台运营侧：运营团队最差在 Excel/Sheets 里每周手工构建分析，项目一多工作量指数级增长；最好也就是做仪表板，满足大多数团队但不是所有团队的需求——团队需要信息的时候，不一定拿得到。\n\n另一块在销售侧，有两个差距。第一个是**上下文差距**：销售一通电话在谈新客户，下一通在谈老客户的采用(adoption)对话，再下一通可能在处理客户满意度，他们必须不停切换上下文，而每次切换所需的背景信息都得自己在通话之间收集。第二个是他称之为**专家差距**的东西：专家级销售处理一个场景的方式——怎么跟潜在客户谈、怎么打采用电话、怎么应对拒绝——和一个刚上手的新销售之间落差很大；理想状态是所有人在同一个运营水平上执行，保持评估客户问题与产品匹配的表达一致性。\n\n## 三支柱框架\n\nJoyce 给出的解法是三支柱：规模化分析、规模化洞察、给市场进入团队自助服务能力。他强调，三者缺一，智能体系统就服务不好市场进入需求。\n\n**支柱一：规模化分析。** 团队构建了**特定角色的技能文件**——把业务知识的上下文与数据关联起来、供 AI 使用的信息文件，技术和非技术用户都能用。关键做法是：通过测试，把业务会向数据提出的各类问题预先嵌进技能文件，比如商机截止日期的变化、商机金额的变化，这样能覆盖 80% 以上的常见问题，剩下 20% 才是更复杂的战略问题。效果很实在：完全不懂 SQL 的用户，过去他们的请求会卡在「找一个会写 SQL 的人」这个瓶颈上，现在能直接向数据提问拿到答案；团队还用同样的技能文件快速构建了多个应用——这类活儿以前归 IT 且必然排队。腾出来的时间转向战略和赋能。\n\n**支柱二：规模化洞察。** 核心理念是「数据里有一个故事，但人们不应该非得自己去搜它」。团队每周自动发出一份摘要：业务进展、相对目标的节奏，以及趋势、亮点和需要关注的事项——就像打开手机看当天备忘一样，把故事推送给团队，而不是让他们去仪表板里挖。Joyce 承认仪表板有用武之地，但任何公司里 KPI 指标的采纳程度都是分层的：有人热爱仪表板，也有人永远不看，所以需要一个能覆盖全业务的脚手架。\n\n实现方式有两层。数据层：按时间、业务逻辑切分(管理者、区域)和指标预处理数据，把「怎么筛选、怎么聚合」的业务逻辑全部**前期工程化**，让 AI 智能体能以一致、干净的方式分析，这能处理 80% 以上的请求。编排层：一个**多智能体工作流**——第一个智能体取数并产出初稿(调用 MCP,即让模型调用外部工具/数据的接口)，第二个审阅者智能体核查数据真实性，第三个「语气」智能体用多示例提示词撰写消息，同等突出风险与机会；每次运行对每个 LLM 调用都有可观测性(能看到每次模型调用的输入输出)。这套架构测试了两三个月、逐次检查每次运行哪里出错，才稳定下来。\n\n**支柱三：自助服务。** 这是 Joyce 认为最大的一个支柱。Cloudflare 内部有个叫 Cloudflare OS 的智能体工作区，跑在 Cloudflare 自家产品上：用 Cloudflare Workers 加 Durable Objects(一种持久化存储，类似 S3)为每个销售启动自己的计算和持久环境。销售进来就能拿到场景所需的专家级信息——左下角的技能仓库由市场进入团队和运营团队共同策划、集中审核，防止技能泛滥，保证每个层面都有专家级知识，覆盖任何客户情境。具体用例包括：预测简报、QBR(季度业务回顾)幻灯片、新客户已购内容的购买说明幻灯片、客户规划、数据查询、续约准备——比如查客户已经用了什么，决定怎么向上销售或推动更深采用。\n\n## 心得与下一步\n\nJoyce 总结三条心得。**技能策划是一切智能体化劳动力的基础**——把业务知识嵌进技能文件，才能让智能体系统以更可预测、更确定性的方式运行，全团队执行均匀。**反馈循环很重要**——像对外卖产品一样对待内部工具，持续确认做的东西真有用、问题在哪。**三支柱分层互补**——有的团队喜欢来找你提问，有的靠推送，有的自助，三者交织才能覆盖所有需求。总效果：**效率翻倍**。\n\n未来方向：一是与工作系统的深度集成——比如把 QBR 幻灯片和续约通话技能自动嵌入销售会议，不用手动拉取，以及从通话中自动获取会议记录；二是更硬的问题——报价、审批和直接更新 CRM,他们在用 Salesforce,正在构建用智能体系统更新它的连接，同样会用多智能体工作流保证正确性。最后一个观察很点题：现在用智能体系统处在「寒武纪阶段」，用 AI 解决一切问题的方法在爆发式增长；但随着走向完整集成和标准化，需要回头找一种战略性的方式让各团队使用智能体系统，保证唯一事实来源和所有系统对得齐。\n\n## 本集带走\n\n- **三支柱缺一不可**：规模化分析(运营团队提效)、推送洞察(数据故事主动送上门)、自助服务(销售随取随用)，只做其一解决不了市场进入的低效。\n- **把高频问题预先工程化进技能文件**：通过测试摸清业务会问什么(如商机日期/金额变化)，嵌入筛选与聚合逻辑，覆盖 80% 以上的请求，AI 才能稳定输出。\n- **关键分析用多智能体把关**：产出、审数、语气三个智能体分工，每次运行可观测，测试两三个月逐次纠错才上线——可靠性是编排出来的，不是天生的。\n- **技能仓库要集中策划审核**：防止技能泛滥，保证每个场景都有专家级知识，这是缩小新老销售「专家差距」的核心手段。\n- **效率翻倍后把时间还给战略**：让不懂 SQL 的人直接问数据、绕开 IT 瓶颈建应用，运营团队才能聚焦策略与赋能。",
+  "quotes": [
+    {
+      "en": "So I've seen users who do not know any SQL, and essentially their requests in the past, we bottleneck to someone who knows data and can write SQL for complex queries, be able to just ask questions of the data and get answers.",
+      "zh": "我见过完全不懂 SQL 的用户——过去他们的请求会卡在「找一个懂数据、能为复杂查询写 SQL 的人」这个瓶颈上——而现在他们能直接向数据提问并获得答案。",
+      "timestamp": "08:02",
+      "speaker": "Justin Joyce"
+    },
+    {
+      "en": "And the second thing is we're sort of reached the Cambrian stage of using agentic systems, which means there's an explosion of excitement and skills and finding out ways to solve anything with AI.",
+      "zh": "另一件事是，我们在某种程度上已经到了使用智能体系统的寒武纪阶段——兴奋、技能以及用 AI 解决一切问题的方法正在爆发式增长。",
+      "timestamp": "18:20",
+      "speaker": "Justin Joyce"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:59",
+      "speaker": "Justin Joyce",
+      "en": "The general problem is that traditional go-to-market does not scale.",
+      "zh": "总体问题就是，传统的市场进入方式无法规模化。"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Justin Joyce",
+      "en": "is the expert gap, which is the gap between how your expert salesperson or expert go-to-market sales individual, how he would approach a situation, how he would talk to a prospect, how he would work on an adoption call, how he would handle a customer satisfaction issue, and between also a new salesperson or someone that's just ramping up.",
+      "zh": "这就是专家差距——你的专家级销售处理一个场景、和潜在客户谈话、打采用电话、处理客户满意度问题的方式，与一个新销售或刚上手的人之间的差距。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Justin Joyce",
+      "en": "How can they take things that would take two hours to do down to five minutes?",
+      "zh": "他们如何能把原本要花两个小时的事情缩短到五分钟？"
+    },
+    {
+      "timestamp": "05:54",
+      "speaker": "Justin Joyce",
+      "en": "There's a story in the data, and how can we provide that to the team?",
+      "zh": "数据里有一个故事，我们如何把它提供给团队？"
+    },
+    {
+      "timestamp": "05:58",
+      "speaker": "Justin Joyce",
+      "en": "How can we provide that team at the weekly level, at the different levels of management?",
+      "zh": "我们如何以周为单位、在不同的管理层级上把这个故事提供给团队？"
+    },
+    {
+      "timestamp": "06:02",
+      "speaker": "Justin Joyce",
+      "en": "How can we provide that information, that insight, that story to every customer that these sales teams are talking to?",
+      "zh": "我们如何把这些信息、这些洞察、这个故事提供给销售团队正在接触的每一个客户？"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Justin Joyce",
+      "en": "In this case, looking at close date changes in opportunities, as well as changes in the amount of the opportunities, so that we can answer essentially 80% or more of the questions, where the other 20% might be more complex strategic questions.",
+      "zh": "在这个案例里，就是查看商机截止日期的变化以及商机金额的变化，这样我们基本能回答 80% 或更多的问题，剩下 20% 可能才是更复杂的战略问题。"
+    },
+    {
+      "timestamp": "08:02",
+      "speaker": "Justin Joyce",
+      "en": "So I've seen users who do not know any SQL, and essentially their requests in the past, we bottleneck to someone who knows data and can write SQL for complex queries, be able to just ask questions of the data and get answers.",
+      "zh": "我见过完全不懂 SQL 的用户——过去他们的请求会卡在「找一个懂数据、能为复杂查询写 SQL 的人」这个瓶颈上——而现在他们能直接向数据提问并获得答案。"
+    },
+    {
+      "timestamp": "08:49",
+      "speaker": "Justin Joyce",
+      "en": "So this allows us to free up our time so that we can focus on strategy and enablement.",
+      "zh": "这让我们得以腾出时间，专注于战略和赋能。"
+    },
+    {
+      "timestamp": "09:04",
+      "speaker": "Justin Joyce",
+      "en": "What I'm showing you here is synthetic data on the right.",
+      "zh": "我在这里展示的是右侧的合成数据。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Justin Joyce",
+      "en": "Of course, there's a place for dashboards in standardized information, but there's a different level of adoption of the KPI metrics at any given company.",
+      "zh": "当然，仪表板和标准化信息有用武之地，但在任何一家公司，KPI 指标的采纳程度是分层次的。"
+    },
+    {
+      "timestamp": "10:38",
+      "speaker": "Justin Joyce",
+      "en": "So the embedding of the logic of how you would filter this data to even analyze it, as well as the logical aggregations the business would want to see, is all engineered up front.",
+      "zh": "所以，如何筛选这些数据以进行分析的逻辑，以及业务希望看到的逻辑聚合，全都是前期就工程化好的。"
+    },
+    {
+      "timestamp": "15:37",
+      "speaker": "Justin Joyce",
+      "en": "So the first thing is skill curation is the basis for all of this agentic workforce.",
+      "zh": "第一件事是，技能策划是所有这些智能体化劳动力的基础。"
+    },
+    {
+      "timestamp": "15:58",
+      "speaker": "Justin Joyce",
+      "en": "You're really able to give them the ability to use the agentic systems in a more predictable and deterministic way so that they can execute evenly across the board.",
+      "zh": "你就真正能让他们以更可预测、更确定性的方式使用智能体系统，从而在整个范围内均匀地执行。"
+    },
+    {
+      "timestamp": "16:14",
+      "speaker": "Justin Joyce",
+      "en": "Just like a company would try to sell a product externally and get feedback with these internal teams, the feedback loop is very important to be able to see is what you're building is actually useful, what are some issues that they're having, and how can you make this work more efficiently.",
+      "zh": "就像公司对外卖产品要获取反馈一样，对这些内部团队，反馈循环非常重要——它让你看到做的东西是否真有用、他们遇到了什么问题、你如何能让它更高效。"
+    },
+    {
+      "timestamp": "16:58",
+      "speaker": "Justin Joyce",
+      "en": "Different pillars that I talked about, we've really been able to 2X our efficiency and be able to serve the teams as well as allowing them to be able to get the information that they need to do their job.",
+      "zh": "通过我谈到的这些不同支柱，我们真正把效率翻了一倍，既服务了各团队，也让他们能拿到完成工作所需的信息。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Justin Joyce",
+      "en": "And the second thing is we're sort of reached the Cambrian stage of using agentic systems, which means there's an explosion of excitement and skills and finding out ways to solve anything with AI.",
+      "zh": "另一件事是，我们在某种程度上已经到了使用智能体系统的寒武纪阶段——兴奋、技能以及用 AI 解决一切问题的方法正在爆发式增长。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Justin Joyce",
+      "en": "But I see as we get to this fuller integration and standardization, we're going to want to come back and not really limit, but just figure out a really strategic approach for allowing each team to use the agentic system so that the source of truth and all the systems are aligning.",
+      "zh": "但我看到，随着走向更完整的集成和标准化，我们会想要回头——不是真的限制，而是找出一种真正战略性的方式让每个团队使用智能体系统，让唯一事实来源和所有系统保持一致。"
+    }
+  ],
+  "voice_script": "今天这一集,讲的是 Cloudflare 的销售运营是怎么被 AI 改造的。演讲的人叫 Justin Joyce,是 Cloudflare 的首席销售运营与策略经理。这个人的背景挺有意思:他是从销售做起的,后来在 Grainger 做了大约七年机器学习,六个月前才回到销售运营。也就是说,懂销售、又懂技术,这两手技能合在一起,正好用来改造 Cloudflare 的市场进入运营——所谓市场进入,说白了就是产品从销售到触达客户的全流程。\n\n他对这件事的判断很直接:传统的市场进入方式,没办法规模化。\n\n那问题到底出在哪儿?他把问题拆成了两块。\n\n第一块在后台运营这边。一个销售运营团队,要同时服务高管的分析需求、领导层的指标需求,还有一线销售要的客户信息。做法最差的情况,是在 Excel 或者表格里每周手工做分析,项目一多,工作量指数级往上涨;做到最好的,也就是做几个仪表板——可仪表板能照顾到大多数团队,照顾不到所有团队。团队需要信息的时候,不一定拿得到。\n\n第二块在销售这边,有两个差距。一个叫上下文差距:一个销售,这一通电话在谈新客户,下一通电话在聊老客户的产品使用情况,再下一通可能在处理客户满意度。每一通电话的场景都不一样,每次切换,需要的背景信息都得自己在这通电话和那通电话之间去搜集。另一个叫专家差距:一个专家级的销售怎么跟潜在客户谈、怎么应对拒绝,和一个刚上手的新销售之间,落差非常大。理想状态是所有人都在同一个水平上执行,说的话有一致性。\n\n那怎么解决?Joyce 给出的答案是一个三支柱框架:规模化分析、规模化洞察、给市场进入团队自助服务能力。他特别强调,这三样缺一个,智能体系统就服务不好市场需求。我们一个一个来看。\n\n先说第一个支柱,规模化分析。核心做法是给不同的角色构建技能文件——所谓技能文件,就是把业务知识组织起来、供 AI 使用的信息文件,技术的人和非技术的人都能用。关键在哪?他们通过测试,把业务会向数据提的各类问题预先嵌进技能文件里,比如商机截止日期变了、商机金额变了,这样能覆盖百分之八十以上的常见问题,剩下那百分之二十,才是更复杂的战略问题。效果很实在。有句话值得记住:我见过完全不懂 SQL 的用户,过去他们的请求会卡在找一个懂数据、能写 SQL 的人这个瓶颈上,而现在,他们能直接向数据提问,拿到答案。而且团队还用同样的技能文件快速搭了多个应用——这种活儿以前归 IT 管,还必然排队。腾出来的时间干什么?转向战略和赋能。\n\n那分析做出来了,是不是人人都会去看?这就引出第二个支柱的问题。Joyce 承认仪表板有用武之地,但任何公司里,KPI 指标的采纳程度都是分层的:有人热爱仪表板,也有人永远不看。所以核心念想是:数据里有一个故事,但人们不应该非得自己去搜它。与其让人去仪表板里挖,不如把故事推送给他们——就像打开手机看当天的备忘一样,打开就能看到业务的进展、相对目标的节奏,还有趋势、亮点和需要关注的事项。\n\n这套自动推送,实现起来有两层。下面是数据层:按时间、按业务逻辑切分好的指标数据,把怎么筛选、怎么聚合这些业务逻辑,全部提前工程化,让 AI 智能体能用一致、干净的方式去分析——这一下就能处理百分之八十以上的请求。上面是编排层,一个多智能体工作流:第一个智能体取数,产出初稿,中间用到一种叫 MCP 的接口,就是让模型能调用外部工具和数据的接口;第二个是审阅者智能体,专门核查数据是不是真实的;第三个是语气智能体,负责撰写消息,而且要同等突出风险和机会。这套架构他们测试了两三个月,逐次检查每次运行哪里出错,才稳定下来。\n\n好,分析和洞察都有了,那销售本人呢?这就到了第三个支柱,也是 Joyce 认为最大的一个:自助服务。Cloudflare 内部有个叫 Cloudflare OS 的智能体工作区,跑在自家产品上,给每个销售启动自己的计算和持久环境。销售进来,就能拿到当前场景所需的专家级信息。左下角有一个技能仓库,由市场进入团队和运营团队共同策划、集中审核——注意,是集中审核,防止技能泛滥,保证每个层面都有专家级知识。具体用例包括预测简报、季度业务回顾的幻灯片、客户规划、续约准备——比如查一下这个客户已经用了什么,再决定怎么向上销售。\n\n做下来,Joyce 总结了三条心得。第一,技能策划是一切智能体化劳动力的基础,把业务知识嵌进技能文件,智能体系统才能以更可预测的方式运行。第二,反馈循环很重要,要像对外卖产品一样对待内部工具,持续确认做的东西真有用。第三,三支柱是分层互补的,有的团队喜欢来找你提问,有的靠推送,有的自助,三者交织才能覆盖所有需求。总的效果,用一句话说:效率翻倍。\n\n接下来他们还要往深里走,比如把季度业务回顾的幻灯片和续约技能自动嵌进销售会议,再往前一步是用智能体系统直接更新 CRM,同样用多智能体工作流保证正确性。Joyce 最后有个观察很点题:现在用智能体系统,某种程度上已经到了寒武纪阶段——用 AI 解决一切问题的方法正在爆发式增长。但随着走向完整集成和标准化,还得回头找一种战略性的方式,让各团队把智能体系统用对、用齐。\n\n这一集听完,最值得记住的一句话可能是这个:不懂 SQL 的人现在能直接向数据提问、拿到答案——把专家级的能力放进每个人的工作流里,效率翻倍只是顺带的结果。"
+}

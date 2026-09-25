@@ -1,0 +1,184 @@
+{
+  "title_zh": "Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户",
+  "tldr": "Toast 产品副总裁 Maggie Crowley 讲如何把 AI 助手装进有 14 年历史的餐饮 POS 平台:十个设计伙伴起步、只认结果不认 AI、现场改菜单价。",
+  "digest_md": "餐厅老板可能是最不该讨好 AI 的用户:利润薄如刀片、没空研究新工具、对「为了 AI 而 AI」零容忍。这一集的嘉宾 Maggie Crowley 是 Toast 的产品副总裁——Toast 就是你去餐厅、咖啡店刷卡结账时碰到的那个销售点(POS)系统,背后还管着菜单、库存、排班、备餐。她聊的是怎么把 AI 真正装进这套有 14 年历史、体量庞大的老平台,而不是从零起家。开场她甩出的最反直觉的发现是:最先爱上 AI 助手的,不是那些懂技术的早期采用者,而是**最不懂数据技术的运营者**——因为他们不用学软件,直接用自己的话问问题就行了 [24:34 Maggie Crowley]。\n\n## 把 AI 装进老平台,和 AI 原生完全是两种游戏\n\nAI 原生产品没有「之前」可比,Toast 不是。Maggie 说这带来三层挑战 [04:40 Maggie Crowley]:一是客户已经用肌肉记忆形成了固定工作流,任何新东西都得说服他们换一种方式做;二是要掂量客户能吸收多少改变;三是最要命的质量门槛——**你不能向整个安装用户群发布一个不好用、不快、不准的东西,那样会烧掉信任**。X 上那种「有点破损但没关系,大家都是早期采用者」的宽容,在 Toast 这种平台里不存在,质量和卓越的门槛从一开始就得很高。\n\n所以只能换一种构建方式,她的答案是一套「设计伙伴手册」:2023 年底立项时,团队甚至不清楚最终用例是什么,只知道这技术要来了、想先试起来。他们找了十来个设计伙伴客户,直接把自己拉进和这些客户的 WhatsApp 群,只选移动端一个平台、只选报表一个用例,发布给这十个人,然后封闭起来以最快速度迭代,直到产品好到可以扩展 [06:13 Maggie Crowley]。这套流程老实说跑了一年,到 2025 年初模型终于够好了,去年十月正式发布,之后每个大功能都照此办理。方法核心就三件事:找几个客户、和他们极快地迭代、待在一个能拿到快速反馈的渠道里,然后再扩展。\n\n## 你必须把 AI 带到客户面前,还得不断让他们重新上手\n\n在这个领域构建的另一条独特规矩:不能假设客户会自己发现 AI。只加一个聊天框是不够的——你得帮他们跨过「空白页问题」,帮他们理解什么时候该用。更持久的难题是,这些工具的能力一直在后台悄悄增加,用户根本看不见。Maggie 的结论是:**AI 产品必须不断让用户「重新上手」,因为产品在不断变化**。以前可以发布一次、用户用懂一次就完事,AI 时代不行,你得建一套「把产品带给用户、讲清楚它做什么、有新东西时再激活他们」的肌肉 [06:13 Maggie Crowley]。\n\n具体做法上,Toast 的助手叫 Toast IQ,它的入口遍布产品各处:预写好、且经过验证效果好的提示词(用户大概率会问的问题),再按移动端/桌面端、一天中的时段、用户在店里的位置和角色来定制起始提示词。 Maggie 说你得真正理解用户「物理上」在哪——是不是在班次中、在店里哪个位置、什么角色——才能在对的时刻把用例递到他们面前 [08:55 Maggie Crowley]。\n\n## 从「帮我做」到「替我做」,中间有一个时钟\n\n主持人 Carlos 提出一个观察:用户对 AI 的期望正从「帮我做这件事」变成「替我做这件事」。Maggie 完全认同,而且她说这里面几乎有一个时钟:消费市场一旦出现某种交互模式,距离它变成用户的默认期望就只剩一段时间——**在用户默认「你的工具也该这么干活」之前,就是你要做完这件事的窗口期** [12:25 Maggie Crowley]。这也让构建变得前所未有的不确定:你几乎不知道产品会走向哪里,交互模式和模型能力都在变,必须保持灵活。「AI 之前,构建相对来说几乎变得无聊了;现在完全不知道会来什么」。\n\n## 竞争格局不重要,理解用户才重要\n\n聊到 Square、DoorDash、OpenTable 这些公司, Maggie 的态度是:没人知道市场会怎么落地,与其被竞争动态牵着走,不如盯住一件事——**最终赢的公司,是为自己的市场用最好的方式解决正确问题、并深刻理解它的那一家**。去客户的地方、看他们干活、成为他们能打电话的那个人,你为用户做得越多,无论市场怎么变你都处于有利位置 [13:55 Maggie Crowley]。增长逻辑同样朴素:深刻理解客户需要什么、解决真实问题、打造他们愿意付费的东西——尤其餐厅利润这么薄,你必须看懂一家餐厅的损益表,才知道你要收的每一笔额外的钱从哪来、值不值得他们掏。\n\n## 最佳甜蜜点:替客户干他们本来要花钱外包的活\n\nToast IQ 定位正在从「我们管理你的销售点」走向「我们帮你的餐厅增长」。突破性用例是营销智能体 Toast IQ Grow——目标是「让顾客坐进座位」。有个客户用它把营销代理支出砍掉了超过 70%,还能把具体金额的销售归因到营销活动上 [17:05 Maggie Crowley]。逻辑很清楚:餐厅经营者本来就不爱做邮件营销、建网站这些事,所以花钱请代理机构,而这又贵、行业利润又薄——用 AI 用比代理便宜的价格干掉大部分同类活,客户当然乐意。**甜蜜点不是炫技,是「卸掉客户自己不愿意干、或不想自己干的活」**。\n\n至于餐厅要不要操心在 LLM 里怎么被搜到——Maggie 的答案还是那句话:别让客户操心。团队结构上,她为每个这类领域配一位深耕的 PM,和技术伙伴一起把方案带给用户;客户不必想该用哪个模型、该用 Anthropic 还是 OpenAI 还是开放权重模型,「只需接入 Toast,它就能工作」[18:57 Maggie Crowley]。\n\n## 为什么一位 VP 还坚持一线带团队\n\nMaggie 有个对管理者的硬观点:当今时代,如果你不亲身参与团队怎么构建,九个月到两年后你就很难继续当好领导者,因为团队的构建方式已经天翻地覆。她自己的做法是:任何 PM 休育儿假或出现空缺,她就跳进去顶岗一段时间;她还刻意保留了几个没有中层的领域,直接管一线团队。理由很务实——AI 工具能让领导者更高效地扩展自己,保持比过去更扁平的团队;不这么做,用不了多久你就会不理解这些工具,「变得有些无关紧要」[20:05 Maggie Crowley]。\n\n## 现场演示:在聊天里改掉一个真实的菜单价格\n\n演示里她走了一条典型工作流:先问今天生意和上周比如何、平均客单价为什么涨了——Toast 存在 14 年、产品太多,这些答案以前查起来不直观,现在一句自然语言就是最快的路径。然后她问菜单上有哪些 flatbread(薄饼),想把这类菜品加几个提振销售——背景是食材成本一直在涨,老板们很难一直跟着涨价,只能想别的菜单结构。最后她直接在聊天里把一个菜价改成 14.99 美元并确认。以前改一个价不算难,但批量改、或者跨多个门店的多个菜单改,复杂度会爆炸;Toast IQ 让这一切在聊天里完成。还有一个幕后细节:确认用的那张卡片是 Toast IQ 根据你正在做的事**即时组装**的——后端预制好组件,助手按你的问题实时拼出来,不是提前搭好的界面 [26:40 Maggie Crowley]。洞察已经不够了,必须能动手改东西——批量操作、按事件或时间定时执行都可以。\n\n被问会不会做 MCP 让客户从 Claude 之类访问数据,Maggie 说是「价值百万美元的问题」:每个 SaaS 平台都在测,她们目前专注让客户在 Toast 里把活干完,同时倾听客户想引入什么、导出什么——「在法务来找我之前,我能说的就到这里」[25:58 Maggie Crowley]。\n\n## 本集带走\n\n- **老平台发 AI,门槛是信任,不是速度**:X 上「有点破损没关系」的宽容不存在;不好用、不快、不准的东西一旦推给全体安装用户,烧掉的是信任。先在封闭小圈子里磨到够好再扩展。\n- **设计伙伴手册**:十来个客户 + 一个 WhatsApp 群 + 只选一个平台一个用例,极快迭代约一年,模型成熟后一次推全量——之后每个大功能照此办理。\n- **AI 产品要不断让用户重新上手**:能力在后台持续增加、用户看不见,别指望「教会一次管一辈子」,要持续把新能力主动带到用户面前。\n- **最不懂数据技术的用户可能最爱它**:不用学软件、用自己的话提问就行——别只按「技术早期采用者」画像做 AI 采用策略。\n- **找对甜蜜点:替客户干他们本来要花钱外包的活**:有客户用 Toast IQ Grow 把营销代理支出砍掉超 70%——AI 的价值叙事要落在省下的真金白银上。\n- **给管理者的:保住一线手感**:顶 PM 的空缺、直接带一线团队,否则两年内你会看不懂团队的构建方式。\n- **消费级模式是一张倒计时表**:消费市场出现的交互模式,会在一段时间内变成你 B2B 用户的默认期望——那就是你的准备窗口。",
+  "quotes": [
+    {
+      "en": "Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow.",
+      "zh": "我们的工作是搞清楚如何把 Anthropic 或 OpenAI 拿出来的所有这些技术投入到为他们服务的工作中去,这样他们就不必花时间去想该用哪个模型或如何搭建工作流。",
+      "timestamp": "00:27",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome?",
+      "zh": "用 AI 你可以做很多事情,而围绕着「感觉自己做成了什么」有太多的表演。但问题是,它真的驱动了结果吗?",
+      "timestamp": "03:53",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "You have to constantly re-onboard your users, because it's constantly changing.",
+      "zh": "你必须不断地让你的用户重新上手,因为它在不断变化。",
+      "timestamp": "08:03",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "I love building for a customer like ours, because they have such a low tolerance for doing AI for AI's sake.",
+      "zh": "我热爱为像我们这样的客户构建,因为他们对为了 AI 而 AI 的容忍度极低。",
+      "timestamp": "11:26",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "Before AI, building was almost getting boring, relatively. Now it's much more dynamic and interesting, because we have no idea what's coming.",
+      "zh": "在 AI 之前,构建相对来说几乎变得无聊了。现在它更加动态和有趣,因为我们完全不知道会来什么。",
+      "timestamp": "13:12",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "The company that wins, if there is such a thing, is the one that solves the right problem in the best way for their market and deeply understands it.",
+      "zh": "赢的公司,如果真有这么一回事,是为自己的市场以最好的方式解决正确问题并深刻理解它的那一家。",
+      "timestamp": "14:33",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "There's one customer who has reduced their marketing agency spend by over 70%, and can tie marketing to sales and attribute a specific amount of sales to marketing.",
+      "zh": "有一个客户把他们的营销代理支出减少了超过 70%,并且能把营销与销售挂钩,把具体金额的销售归因于营销。",
+      "timestamp": "17:11",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "If you don't keep a hand in how the teams are building, it's going to be really difficult to be a leader in nine months, a year, or two years, because the way teams build is so different.",
+      "zh": "如果你不亲身参与团队如何构建,那么在九个月、一年或两年后想成为领导者会非常困难,因为团队构建的方式已经如此不同。",
+      "timestamp": "20:07",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "If you don't do that as a leader, there's only so long until you don't understand how these tools work, and you're going to be somewhat irrelevant.",
+      "zh": "如果你作为领导者不这样做,那么要不了多久你就会不理解这些工具如何工作,而你会变得有些无关紧要。",
+      "timestamp": "21:09",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "We found that some of the less tech-savvy operators loved it, because they didn't have to learn software. They just used their human language, and they loved it.",
+      "zh": "我们发现一些没那么懂数据技术的运营者爱上了它,因为他们不必学习软件。他们只需使用他们的人类语言,他们很喜欢。",
+      "timestamp": "24:24",
+      "speaker": "Maggie Crowley"
+    },
+    {
+      "en": "These businesses usually have razor-thin margins, so the impact you can make by optimizing certain things is real. It's money in their pocket.",
+      "zh": "这些企业通常利润率薄如刀片,所以通过优化某些事情所能产生的影响是实实在在的。那是装进他们口袋里的钱。",
+      "timestamp": "30:07",
+      "speaker": "Maggie Crowley"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:27",
+      "speaker": "Maggie Crowley",
+      "en": "Our job is to figure out how we take all that technology coming out of Anthropic or OpenAI and put it to work for them, so they don't have to spend time thinking about which model to use or how to set up a workflow.",
+      "zh": "我们的工作是搞清楚如何把 Anthropic 或 OpenAI 拿出来的所有这些技术投入到为他们服务的工作中去,这样他们就不必花时间去想该用哪个模型或如何搭建工作流。"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Maggie Crowley",
+      "en": "You can't necessarily launch something that doesn't work. Then they're going to not want to use your product, and you're going to burn trust.",
+      "zh": "你不能发布一个不能用的东西。那样的话他们就不会想用你的产品,而你会烧掉信任。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Maggie Crowley",
+      "en": "There's so much you could do with AI, and there's so much theater around feeling like you've done something. But the question is, did it actually drive an outcome?",
+      "zh": "用 AI 你可以做很多事情,而围绕着「感觉自己做成了什么」有太多的表演。但问题是,它真的驱动了结果吗?"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Maggie Crowley",
+      "en": "When you're building AI in a platform like Toast, you have to think about the bar for quality and excellence being really high from the start.",
+      "zh": "当你在像 Toast 这样的平台里构建 AI 时,你必须从一开始就思考质量和卓越的门槛非常高。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Maggie Crowley",
+      "en": "We found just a handful of design partners, as we called them, and we put ourselves in WhatsApp groups with these customers.",
+      "zh": "我们找到了一小撮我们称之为设计伙伴的客户,并且把自己放进与这些客户的 WhatsApp 群里。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Maggie Crowley",
+      "en": "You have to constantly re-onboard your users, because it's constantly changing.",
+      "zh": "你必须不断地让你的用户重新上手,因为它在不断变化。"
+    },
+    {
+      "timestamp": "10:40",
+      "speaker": "Maggie Crowley",
+      "en": "I love building for a customer like ours, because they have such a low tolerance for doing AI for AI's sake.",
+      "zh": "我热爱为像我们这样的客户构建,因为他们对为了 AI 而 AI 的容忍度极低。"
+    },
+    {
+      "timestamp": "12:25",
+      "speaker": "Maggie Crowley",
+      "en": "Once you start to see interactions like that in the consumer market, there's a certain amount of time until those patterns become standard.",
+      "zh": "一旦你开始在消费市场看到那样的互动,距离那些模式变成标准就有一定的时间。"
+    },
+    {
+      "timestamp": "12:25",
+      "speaker": "Maggie Crowley",
+      "en": "Before AI, building was almost getting boring, relatively. Now it's much more dynamic and interesting, because we have no idea what's coming.",
+      "zh": "在 AI 之前,构建相对来说几乎变得无聊了。现在它更加动态和有趣,因为我们完全不知道会来什么。"
+    },
+    {
+      "timestamp": "13:55",
+      "speaker": "Maggie Crowley",
+      "en": "The company that wins, if there is such a thing, is the one that solves the right problem in the best way for their market and deeply understands it.",
+      "zh": "赢的公司,如果真有这么一回事,是为自己的市场以最好的方式解决正确问题并深刻理解它的那一家。"
+    },
+    {
+      "timestamp": "15:30",
+      "speaker": "Maggie Crowley",
+      "en": "The better we are at understanding what our customers need, the better able we are to build things they're willing to pay for.",
+      "zh": "我们越善于理解客户需要什么,我们就越有能力去打造他们愿意付费的东西。"
+    },
+    {
+      "timestamp": "17:05",
+      "speaker": "Maggie Crowley",
+      "en": "There's one customer who has reduced their marketing agency spend by over 70%, and can tie marketing to sales and attribute a specific amount of sales to marketing.",
+      "zh": "有一个客户把他们的营销代理支出减少了超过 70%,并且能把营销与销售挂钩,把具体金额的销售归因于营销。"
+    },
+    {
+      "timestamp": "18:57",
+      "speaker": "Maggie Crowley",
+      "en": "We can do all that for them, so all they have to do is plug into Toast and it works.",
+      "zh": "我们可以为他们做这一切,所以他们只需接入 Toast,它就能工作。"
+    },
+    {
+      "timestamp": "20:05",
+      "speaker": "Maggie Crowley",
+      "en": "If you don't keep a hand in how the teams are building, it's going to be really difficult to be a leader in nine months, a year, or two years, because the way teams build is so different.",
+      "zh": "如果你不亲身参与团队如何构建,那么在九个月、一年或两年后想成为领导者会非常困难,因为团队构建的方式已经如此不同。"
+    },
+    {
+      "timestamp": "20:05",
+      "speaker": "Maggie Crowley",
+      "en": "If you don't do that as a leader, there's only so long until you don't understand how these tools work, and you're going to be somewhat irrelevant.",
+      "zh": "如果你作为领导者不这样做,那么要不了多久你就会不理解这些工具如何工作,而你会变得有些无关紧要。"
+    },
+    {
+      "timestamp": "24:34",
+      "speaker": "Maggie Crowley",
+      "en": "We found that some of the less tech-savvy operators loved it, because they didn't have to learn software. They just used their human language, and they loved it.",
+      "zh": "我们发现一些没那么懂数据技术的运营者爱上了它,因为他们不必学习软件。他们只需使用他们的人类语言,他们很喜欢。"
+    },
+    {
+      "timestamp": "25:58",
+      "speaker": "Maggie Crowley",
+      "en": "That is the million-dollar question. Right now we're focused on how we help our customers just get their work done in Toast.",
+      "zh": "那是个价值百万美元的问题。现在我们专注于如何帮助我们的客户直接在 Toast 里完成他们的工作。"
+    },
+    {
+      "timestamp": "29:40",
+      "speaker": "Maggie Crowley",
+      "en": "These businesses usually have razor-thin margins, so the impact you can make by optimizing certain things is real. It's money in their pocket.",
+      "zh": "这些企业通常利润率薄如刀片,所以通过优化某些事情所能产生的影响是实实在在的。那是装进他们口袋里的钱。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Maggie Crowley,是 Toast 的产品副总裁。Toast 这家公司你可能没听过名字,但大概率用过它的东西——你去餐厅、咖啡店刷卡结账时碰到的那个收银系统,就是 Toast 的 POS。背后那一整套菜单、库存、排班、备餐,也归它管。今天要聊的问题很具体:怎么把 AI 助手,真正装进这套跑了 14 年、体量庞大的老平台里,而不是从零起家做一个全新的 AI 产品。\n\n为什么这个话题现在值得听?因为市面上大部分 AI 产品是\"AI 原生\"的——没有\"之前\"可比。Toast 不一样。Maggie 说这带来三层挑战。第一,客户已经用肌肉记忆形成了固定工作流,任何新东西都得说服他们换一种方式干活。第二,得掂量客户一次能吸收多少改变。第三条最要命,是质量门槛——你不能向整个安装用户群发布一个不好用、不快、不准的东西,那样会烧掉信任。\n\n这第三条值得多说一句。你在 X 上经常看到那种\"有点破损但没关系,反正大家都是早期采用者\"的宽容,但在 Toast 这种平台里,这种宽容根本不存在。质量和卓越的门槛,从第一天起就得很高。\n\n那怎么办?答案是一套她自己叫\"设计伙伴手册\"的打法。2023 年底立项的时候,团队其实都不清楚最终用例是什么,只知道这波技术要来了,想先试起来。做法是:找十来个设计伙伴客户,直接把自己拉进和这些客户的 WhatsApp 群,只选移动端一个平台、只选报表一个用例,先发布给这十个人,然后封闭起来以最快的速度迭代,直到产品好到可以往外扩。这套流程老实说跑了一年,到 2025 年初模型终于够好了,去年十月正式发布。之后每个大功能,都照这个办法来。核心就三件事:找几个客户、跟他们极快地迭代、待在一个能拿到快速反馈的渠道里,然后再扩展。\n\n聊到这里,你可能会觉得故事挺顺的。但在这个领域构建,还有一条很独特的规矩:不能假设客户会自己发现 AI。只加一个聊天框是不够的——你得帮用户跨过\"空白页问题\",帮他们理解什么时候该用这东西。更麻烦的是,工具的能力一直在后台悄悄增加,用户根本看不见。所以 Maggie 有个结论:AI 产品必须不断让用户\"重新上手\",因为产品在不断变化。以前可以发布一次、用户用懂一次就完事,AI 时代不行,你得专门练一套肌肉——把产品带给用户、讲清楚它能做什么、有新东西时再激活一次。\n\n具体怎么落地?Toast 的助手叫 Toast IQ,入口遍布产品各处:预写好、验证过效果好的提示词,再按设备、一天中的时段、用户在店里的位置和角色来定制。用 Maggie 的话说,你得真正理解用户\"物理上\"在哪——是不是在班次中、在店里哪个位置、什么角色——才能在对的时刻把用例递到人家面前。\n\n再往下聊,话题从\"怎么用\"变成了\"往哪走\"。主持人 Carlos 提出一个观察:用户对 AI 的期望,正在从\"帮我做这件事\"变成\"替我做这件事\"。Maggie 完全认同,而且这里面几乎有一个时钟:消费市场一旦出现某种交互模式,距离它变成用户的默认期望,就只剩一段时间。在用户默认\"你的工具也该这么干活\"之前,就是你要做完这件事的窗口期。这也让构建变得前所未有地不确定——你几乎不知道产品会走向哪里,交互模式和模型能力都在变。她原话是:\"AI 之前,构建相对来说几乎变得无聊了;现在完全不知道会来什么。\"\n\n既然这么不确定,竞争怎么办?Square、DoorDash、OpenTable 这些公司都在盯着餐饮这块。Maggie 的态度很干脆:没人知道市场会怎么落地,与其被竞争动态牵着走,不如盯住一件事——最终赢的公司,是为自己的市场用最好的方式解决正确问题、并深刻理解它的那一家。去客户的地方、看他们干活、成为他们能打电话的那个人,你为用户做得越多,无论市场怎么变,你都处在有利位置。\n\n说到这,就得落到 Toast IQ 真正的甜蜜点上了。它的定位正在从\"我们管理你的销售点\",走向\"我们帮你的餐厅增长\"。突破性用例是营销智能体 Toast IQ Grow,目标是\"让顾客坐进座位\"。有个客户用它把营销代理支出砍掉了超过 70%,还能把具体金额的销售归因到营销活动上。逻辑其实特别清楚:餐厅经营者本来就不爱做邮件营销、建网站这些事,所以才花钱请代理机构,而这又贵、行业利润又薄。用 AI 用比代理便宜的价格干掉大部分同类活,客户当然乐意。所以甜蜜点不是炫技,是\"卸掉客户自己不愿意干、或者不想自己干的活\"。这也是为什么开场 Maggie 甩出的那个反直觉发现能成立:最先爱上 AI 助手的,不是懂技术的早期采用者,而是最不懂数据技术的运营者——因为不用学软件,用自己的话问问题就行了。\n\n顺便说一句,餐厅老板对\"为了 AI 而 AI\"的容忍度是零。利润薄如刀片,看不懂一家餐厅的损益表,你连收的每一笔钱从哪来都说不清,更别提让人掏钱。\n\n最后再讲一个很能说明问题的细节。演示环节里,Maggie 先问今天生意和上周比怎么样、平均客单价为什么涨了——Toast 存在 14 年、产品太多,这些答案以前查起来不直观,现在一句自然语言就是最快的路径。然后她问菜单上有哪些薄饼,想把这类菜加几个提振销售。最后,她直接在聊天里,把一个菜的真实价格改成了 14.99 美元并确认。以前改一个价不算难,但批量改、或者跨多个门店的多个菜单改,复杂度会爆炸;现在这一切都在聊天里完成。还有个幕后细节:确认用的那张卡片,是 Toast IQ 根据你正在做的事即时组装出来的——后端预制好组件,助手按你的问题实时拼,不是提前搭好的界面。用 Maggie 的话说,洞察已经不够了,必须能动手改东西。\n\n这一集听完,最能带走的就是 Maggie 自己那句话:用 AI 你可以做很多事,但围绕\"感觉自己做成了什么\"有太多表演——真正的问题是,它有没有驱动结果。"
+}

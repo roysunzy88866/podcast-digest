@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
+[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":19,"Neon":3,"Parallel":5,"Devin":3,"智能体":317,"沙箱":58,"突发负载":1,"裸金属":1,"计算机使用":14}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":19,"Neon":3,"Parallel":5,"Devin":3,"智能体":321,"沙箱":58,"突发负载":1,"裸金属":1,"计算机使用":14}</script>
 
 <script>
 (function(){
