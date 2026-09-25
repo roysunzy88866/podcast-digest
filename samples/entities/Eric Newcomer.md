@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":44,"Hugging Face":23,"开源":26,"蒸馏":11,"推理":53,"新云":3,"前沿模型":20,"垂直 AI":2,"智能体":309}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":44,"Hugging Face":23,"开源":26,"蒸馏":11,"推理":53,"新云":3,"前沿模型":20,"垂直 AI":2,"智能体":312}</script>
 
 <script>
 (function(){

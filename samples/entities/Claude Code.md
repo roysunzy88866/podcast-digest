@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>71</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>73</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -58,6 +58,8 @@ unlisted: true
 - **[[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]]**(13:10起):本集提到可安装 Compound Engineering Plugin 的工具之一，并说明插件不必非在 Claude Code 里运行。
 - **[[2026-08-20-talks-the-last-human-code-review-building-trus|《最后一次人类代码审查：靠“上下文”而不是更好的模型》]]**(11:10起):本集在演示 Codo 的修复流程时顺带提到用它来执行修复并生成已关闭的修复 PR
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(05:07起):本集说 Claude Code 出来后，似乎所有人都从 Cursor 跑了，'Cursor 死了'，但 Cursor 随后通过接入多模型扭转了局面。
+- **[[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]]**(09:42起):本集顺带提及：准入 webhook 的绕过标志在 Claude Code 会话里直接失效，只会让智能体请人类自己运行命令。
+- **[[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]]**(05:18起):本集举例问听众谁偏好用 Claude Code 作为本地 harness，作为开发者 harness 偏好的例子。
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(35:47起):本集说 Claude Code 在创建和延续设计系统方面无可替代，能将 Figma 或示例站点拆成可复用的设计令牌，但输出格式让人血压升高
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:09起):本集说 Claude Code 于 2025 年 5 月强势推出，是 Cursor 面对的竞争轮换角色之一，但 Michael 对此表示'不吓倒我们'
 - **[[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]]**(05:46起):本集将其作为同步智能体的参照例子，说它是运行在桌面上的编码智能体，可以实时协作、获得即时反馈
@@ -104,7 +106,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*71 集*
+*73 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -154,6 +156,8 @@ unlisted: true
 - [[2026-08-20-talks-the-era-of-compound-engineering-kieran-k|《不写一行代码，一个人 shipping 一整个产品：复利工程方法论》]] — 作为概念(提及)
 - [[2026-08-20-talks-the-last-human-code-review-building-trus|《最后一次人类代码审查：靠“上下文”而不是更好的模型》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
+- [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]] — 作为概念(提及)
+- [[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]] — 作为概念(提及)
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]] — 作为被讨论公司(提及)
@@ -182,9 +186,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Cursor]] · [[沙箱]] · [[Lenny]] · [[harness]] · [[评估]] · [[MCP]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[Lenny]] · [[harness]] · [[评估]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":309,"Anthropic":135,"Codex":56,"OpenAI":128,"Cursor":66,"沙箱":57,"Lenny":67,"harness":42,"评估":3,"MCP":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":312,"Anthropic":136,"Codex":57,"OpenAI":128,"沙箱":58,"Cursor":66,"Lenny":67,"harness":44,"评估":3,"MCP":52}</script>
 
 <script>
 (function(){

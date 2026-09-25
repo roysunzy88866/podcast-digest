@@ -1,0 +1,1426 @@
+[
+ {
+  "seg": 0,
+  "start": 12.958,
+  "end": 14.419,
+  "speaker": "Unknown",
+  "en": "Hi, welcome to this session.",
+  "zh": "大家好，欢迎来到本次分享。"
+ },
+ {
+  "seg": 1,
+  "start": 14.439,
+  "end": 18.24,
+  "speaker": "Unknown",
+  "en": "It is mysteriously titled The Agent Behind the Curtain.",
+  "zh": "标题起得有点神秘，叫作《幕后智能体》。"
+ },
+ {
+  "seg": 2,
+  "start": 19.221,
+  "end": 24.163,
+  "speaker": "Unknown",
+  "en": "It's about how the team at Warp build our cloud agent platform.",
+  "zh": "内容是关于 Warp 团队如何构建我们的云端智能体平台。"
+ },
+ {
+  "seg": 3,
+  "start": 25.744,
+  "end": 32.007,
+  "speaker": "Unknown",
+  "en": "Before I talk about the how, though, I want to talk about the why and share a little bit about my own background.",
+  "zh": "不过在讲“怎么做”之前，我想先讲讲“为什么”，并分享一点我自己的背景。"
+ },
+ {
+  "seg": 4,
+  "start": 33.327,
+  "end": 36.308,
+  "speaker": "Unknown",
+  "en": "So I've spent the past eight years building developer tooling.",
+  "zh": "过去八年我一直在做开发者工具。"
+ },
+ {
+  "seg": 5,
+  "start": 37.129,
+  "end": 43.491,
+  "speaker": "Unknown",
+  "en": "I started off in open source in the Python and data science space on the Jupyter Notebook core team.",
+  "zh": "我从开源起步，在 Python 和数据科学领域，服务于 Jupyter Notebook 核心团队。"
+ },
+ {
+  "seg": 6,
+  "start": 43.931,
+  "end": 46.052,
+  "speaker": "Unknown",
+  "en": "I was a maintainer on the Interact project.",
+  "zh": "我是 Interact 项目的一名维护者。"
+ },
+ {
+  "seg": 7,
+  "start": 46.612,
+  "end": 53.015,
+  "speaker": "Unknown",
+  "en": "That work continued in my time at Microsoft helping build APIs and SDKs for web developers.",
+  "zh": "这份工作延续到我在微软的时光，我在那里帮助为 web 开发者构建 API 和 SDK。"
+ },
+ {
+  "seg": 8,
+  "start": 53.695,
+  "end": 58.237,
+  "speaker": "Unknown",
+  "en": "And now I'm working on bringing AI agents to the cloud at warp.",
+  "zh": "现在我在 Warp 致力于把 AI 智能体带到云端。"
+ },
+ {
+  "seg": 9,
+  "start": 59.488,
+  "end": 69.593,
+  "speaker": "Unknown",
+  "en": "And one of the lessons that I've learned in my time building developer tooling is that really good dev tools meet devs where they are and grow with them.",
+  "zh": "我在构建开发者工具的过程中学到的一个经验是：真正好的开发工具会在开发者所在之处与他们相遇，并随他们一起成长。"
+ },
+ {
+  "seg": 10,
+  "start": 70.633,
+  "end": 79.838,
+  "speaker": "Unknown",
+  "en": "A tool that you're gonna be using every day should accommodate your workflows but also be really adaptable as the complexity and the nature of the work changes.",
+  "zh": "一个你每天都要用的工具，应该适配你的工作流，同时随着工作的复杂度和性质的变化，也要有很强的适应性。"
+ },
+ {
+  "seg": 11,
+  "start": 80.953,
+  "end": 86.856,
+  "speaker": "Unknown",
+  "en": "And it's important for us to build really great DevTools because DevTools have a compounding effect on the world.",
+  "zh": "打造真正出色的开发工具很重要，因为开发工具对世界有复利效应。"
+ },
+ {
+  "seg": 12,
+  "start": 87.397,
+  "end": 96.562,
+  "speaker": "Unknown",
+  "en": "If you make a piece of software that helps a developer or a builder do great work, your ability to magnify how much great software exists in the world increases.",
+  "zh": "如果你做出一款帮助开发者或构建者做出卓越工作的软件，你放大世界上优秀软件总量的能力就会提升。"
+ },
+ {
+  "seg": 13,
+  "start": 97.052,
+  "end": 101.473,
+  "speaker": "Unknown",
+  "en": "So I think it is super important that these dev tools accommodate people's workflows.",
+  "zh": "所以我认为，这些开发工具能够适配人们的工作流是极其重要的。"
+ },
+ {
+  "seg": 14,
+  "start": 102.053,
+  "end": 105.594,
+  "speaker": "Unknown",
+  "en": "And people's workflows are important because they love their preferences.",
+  "zh": "而人们的工作流之所以重要，是因为他们钟爱自己的偏好。"
+ },
+ {
+  "seg": 15,
+  "start": 105.654,
+  "end": 110.494,
+  "speaker": "Unknown",
+  "en": "You might have a preference for a shell, a language, a harness, a review process.",
+  "zh": "你可能对某个 shell、某种语言、某个 harness、某个评审流程有偏好。"
+ },
+ {
+  "seg": 16,
+  "start": 110.874,
+  "end": 118.456,
+  "speaker": "Unknown",
+  "en": "And something that adapts to your workflows and preferences is going to be more enjoyable to use and more enjoyable to build software with.",
+  "zh": "一个能适应你的工作流和偏好的工具，用起来会更愉悦，用它构建软件也会更愉悦。"
+ },
+ {
+  "seg": 17,
+  "start": 118.916,
+  "end": 122.076,
+  "speaker": "Unknown",
+  "en": "And it also becomes like a part of how you think and build.",
+  "zh": "它甚至会成为你思考和构建方式的一部分。"
+ },
+ {
+  "seg": 18,
+  "start": 122.597,
+  "end": 125.017,
+  "speaker": "Unknown",
+  "en": "So it's super important to be attuned to that.",
+  "zh": "所以对此保持敏感是超级重要的。"
+ },
+ {
+  "seg": 19,
+  "start": 125.962,
+  "end": 136.33,
+  "speaker": "Unknown",
+  "en": "And this notion of tools meeting developers where they are and growing with them comes to light really clearly in the progression of AI tooling in this space.",
+  "zh": "而工具在开发者所在之处与他们相遇、并随他们成长这一理念，在这个领域 AI 工具的演进中体现得非常清晰。"
+ },
+ {
+  "seg": 20,
+  "start": 137.082,
+  "end": 142.563,
+  "speaker": "Unknown",
+  "en": "So this is the story for warp specifically, but it's also the story for a lot of developer tools.",
+  "zh": "这既是 Warp 的故事，也是很多开发者工具的故事。"
+ },
+ {
+  "seg": 21,
+  "start": 143.163,
+  "end": 149.445,
+  "speaker": "Unknown",
+  "en": "Pre-AI era, we had the warp terminal, which kind of met people in their command line workflows that they were used to.",
+  "zh": "在前 AI 时代，我们有 Warp 终端，它在人们熟悉的命令行工作流中与他们相遇。"
+ },
+ {
+  "seg": 22,
+  "start": 150.105,
+  "end": 158.526,
+  "speaker": "Unknown",
+  "en": "And then this fantastic thing happened where AI got introduced to developers, and now you had a whole new set of tools that was available to you locally on your machine.",
+  "zh": "然后一件奇妙的事情发生了：AI 被引入给开发者，于是你在本地机器上有了全新的一套可用工具。"
+ },
+ {
+  "seg": 23,
+  "start": 158.767,
+  "end": 165.388,
+  "speaker": "Unknown",
+  "en": "And a lot of people started to interact with agentic coding patterns in their terminal, in their IDE, in their editor.",
+  "zh": "很多人开始在终端、IDE、编辑器里与智能体编码模式交互。"
+ },
+ {
+  "seg": 24,
+  "start": 166.323,
+  "end": 180.294,
+  "speaker": "Unknown",
+  "en": "And then eventually we realized that we had kind of reached the limits of what we could do on our laptops and we wanted agents to do work that was more long running, that was adaptive to different constraints and that work needed to happen in the cloud.",
+  "zh": "最终我们意识到，笔记本电脑上能做的事已经到了极限，我们希望智能体去做运行时间更长的工作、能适应不同约束的工作，而这些工作需要发生在云端。"
+ },
+ {
+  "seg": 25,
+  "start": 181.574,
+  "end": 192.563,
+  "speaker": "Unknown",
+  "en": "And whenever you send anything to the cloud, you adopt a law of complexity because running things in the cloud requires us to navigate a much messier stack of infrastructure concerns.",
+  "zh": "而每当你把任何东西送到云端，你就要接受一条复杂性定律，因为在云端运行东西要求我们应对一摊更加杂乱的基础设施问题。"
+ },
+ {
+  "seg": 26,
+  "start": 193.143,
+  "end": 197.768,
+  "speaker": "Unknown",
+  "en": "And when I say we here, I mean the people building developer tools because that is the person that I am.",
+  "zh": "我这里说的“我们”，是指构建开发者工具的人，因为这就是我的身份。"
+ },
+ {
+  "seg": 27,
+  "start": 198.528,
+  "end": 211.12,
+  "speaker": "Unknown",
+  "en": "And it gets at one of the things that are like a core principle in how we think about unlocking capabilities here and building good developer tools is that platforms should take on complexity before it reaches the user.",
+  "zh": "这触及了我们在思考如何解锁能力、构建优秀开发者工具时的一个核心原则：平台应该在复杂性到达用户之前就把它承担下来。"
+ },
+ {
+  "seg": 28,
+  "start": 211.781,
+  "end": 218.027,
+  "speaker": "Unknown",
+  "en": "A really good experience should not expose anything of the leaky complexity that it handles to you.",
+  "zh": "一个真正好的体验，不应该把它所处理的任何泄漏出来的复杂性暴露给你。"
+ },
+ {
+  "seg": 29,
+  "start": 219.687,
+  "end": 230.599,
+  "speaker": "Unknown",
+  "en": "When we think about building our cloud agent platform, we try and structure it so that every primitive models this philosophy of hiding complexity from the user so they can focus on the work that matters to them.",
+  "zh": "在构建我们的云端智能体平台时，我们努力把每个原语都设计成体现这种向用户隐藏复杂性的理念，让用户能专注于对他们重要的工作。"
+ },
+ {
+  "seg": 30,
+  "start": 231.841,
+  "end": 239.65,
+  "speaker": "Unknown",
+  "en": "The first place that this shows up when you're building a cloud agent platform is where does the agent run if it's not running on a developer's machine?",
+  "zh": "构建云端智能体平台时，这件事首先出现在这里：如果智能体不是运行在开发者的机器上，那它在哪里运行？"
+ },
+ {
+  "seg": 31,
+  "start": 241.613,
+  "end": 246.738,
+  "speaker": "Unknown",
+  "en": "It needs a place to do its work like any developer would, and that place is typically a sandbox.",
+  "zh": "它需要有一个地方去做它的工作，就像任何开发者一样，而这个地方通常就是一个沙箱。"
+ },
+ {
+  "seg": 32,
+  "start": 246.778,
+  "end": 250.461,
+  "speaker": "Unknown",
+  "en": "It's an isolated environment in the cloud where agents do this task.",
+  "zh": "它是云端的一个隔离环境，智能体在其中执行任务。"
+ },
+ {
+  "seg": 33,
+  "start": 251.281,
+  "end": 262.591,
+  "speaker": "Unknown",
+  "en": "When we started building these out for our cloud agent platform, our first situation was to provide self-hosted sandboxes so that developers had a really easy on-ramp for getting into our cloud agent platform.",
+  "zh": "当我们开始为云端智能体平台构建这些时，我们的第一方案是提供托管沙箱，让开发者能以非常轻松的方式进入我们的云端智能体平台。"
+ },
+ {
+  "seg": 34,
+  "start": 262.871,
+  "end": 265.193,
+  "speaker": "Unknown",
+  "en": "You didn't have to think about where your compute lived.",
+  "zh": "你不需要去想你的算力在哪里。"
+ },
+ {
+  "seg": 35,
+  "start": 265.613,
+  "end": 266.694,
+  "speaker": "Unknown",
+  "en": "It was just there for you.",
+  "zh": "它就在那里为你服务。"
+ },
+ {
+  "seg": 36,
+  "start": 267.555,
+  "end": 272.856,
+  "speaker": "Unknown",
+  "en": "But the reality is that for teams doing serious work, they're probably managing their own infrastructure.",
+  "zh": "但现实是，对于做严肃工作的团队来说，他们很可能在管理自己的基础设施。"
+ },
+ {
+  "seg": 37,
+  "start": 272.936,
+  "end": 275.697,
+  "speaker": "Unknown",
+  "en": "They probably have dev boxes that they need to interact with.",
+  "zh": "他们可能有需要交互的开发机。"
+ },
+ {
+  "seg": 38,
+  "start": 276.177,
+  "end": 279.958,
+  "speaker": "Unknown",
+  "en": "And so something that is hosted or managed is usually not sufficient.",
+  "zh": "所以托管或被管理的方案通常是不够的。"
+ },
+ {
+  "seg": 39,
+  "start": 280.418,
+  "end": 291.14,
+  "speaker": "Unknown",
+  "en": "You really need to be able to run agent workloads on infrastructure that people bring so it adapts to their security concerns, their deployment practices, their workflows and preferences on their team.",
+  "zh": "你真正需要的是能够在人们自带的基础设施上运行智能体工作负载，从而适配他们的安全关切、部署实践，以及他们团队的工作流和偏好。"
+ },
+ {
+  "seg": 40,
+  "start": 292.062,
+  "end": 297.485,
+  "speaker": "Unknown",
+  "en": "And so you add support for not only managed hosting, but also self-hosting to the platform.",
+  "zh": "于是你在平台上不仅增加了托管服务，还增加了自托管支持。"
+ },
+ {
+  "seg": 41,
+  "start": 297.845,
+  "end": 302.308,
+  "speaker": "Unknown",
+  "en": "And that is complexity that you abstract away from the user and how the behavior is modeled.",
+  "zh": "而这就是你从用户那里抽象掉的复杂性，以及行为是如何建模的。"
+ },
+ {
+  "seg": 42,
+  "start": 303.909,
+  "end": 309.392,
+  "speaker": "Unknown",
+  "en": "The next kind of component is a little bit more personal to people, and it's the harness that they want to use.",
+  "zh": "下一个组件与个人关系更密切一些，那就是他们想用的 harness。"
+ },
+ {
+  "seg": 43,
+  "start": 310.092,
+  "end": 315.035,
+  "speaker": "Unknown",
+  "en": "As we talked about earlier, people are really passionate about the tools that shape their workflows.",
+  "zh": "正如前面谈到的，人们对塑造自己工作流的工具充满热情。"
+ },
+ {
+  "seg": 44,
+  "start": 315.816,
+  "end": 317.597,
+  "speaker": "Unknown",
+  "en": "One of those tools is the harness.",
+  "zh": "其中一个工具就是 harness。"
+ },
+ {
+  "seg": 45,
+  "start": 318.437,
+  "end": 321.439,
+  "speaker": "Unknown",
+  "en": "Who here has a preference for Claude Code as a harness locally?",
+  "zh": "在座有谁在本地偏好用 Claude Code 作为 harness？"
+ },
+ {
+  "seg": 46,
+  "start": 322.805,
+  "end": 326.71,
+  "speaker": "Unknown",
+  "en": "Codex, something else entirely, right?",
+  "zh": "Codex，或者完全别的什么，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 326.81,
+  "end": 330.415,
+  "speaker": "Unknown",
+  "en": "So much diversity in the room and we want to meet people where they work.",
+  "zh": "屋里多样性十足，而我们想在人们工作之处与他们相遇。"
+ },
+ {
+  "seg": 48,
+  "start": 331.685,
+  "end": 339.707,
+  "speaker": "Unknown",
+  "en": "So you want to integrate multi-harness support that not only accommodates preferences but also gives people the ability to use the right tool for the job.",
+  "zh": "所以你要集成多 harness 支持，不仅照顾偏好，还让人们有能力为工作选用合适的工具。"
+ },
+ {
+  "seg": 49,
+  "start": 340.328,
+  "end": 348.61,
+  "speaker": "Unknown",
+  "en": "And flexibility isn't something that should just be crammed into a platform because a real risk you run if you cram it in is that it becomes fragmented.",
+  "zh": "而灵活性不应该只是硬塞进一个平台里，因为硬塞进去的一个真实风险是它变得碎片化。"
+ },
+ {
+  "seg": 50,
+  "start": 349.05,
+  "end": 354.932,
+  "speaker": "Unknown",
+  "en": "Your experience with working with Claude is different from working with Codex versus a custom harness that you might have.",
+  "zh": "你使用 Claude 的体验不同于使用 Codex,也不同于你自定义的 harness。"
+ },
+ {
+  "seg": 51,
+  "start": 355.552,
+  "end": 364.097,
+  "speaker": "Unknown",
+  "en": "And so one of the key properties is making sure that the platform provides structure and guardrails around the harness so that the experience is consistent.",
+  "zh": "所以一个关键属性就是确保平台围绕 harness 提供结构和护栏，让体验保持一致。"
+ },
+ {
+  "seg": 52,
+  "start": 364.937,
+  "end": 370.48,
+  "speaker": "Unknown",
+  "en": "For us, this means that harnesses can interact with all of the platform native experiences.",
+  "zh": "对我们来说，这意味着 harness 可以与所有平台原生体验进行交互。"
+ },
+ {
+  "seg": 53,
+  "start": 370.84,
+  "end": 382.447,
+  "speaker": "Unknown",
+  "en": "So just being able to store conversation state and rehydrate it, being able to interact with the artifacts and outputs that are produced by agents, whether they're PRs, issues, new files that are generated.",
+  "zh": "比如能够存储会话状态并恢复它，能够与智能体产出的工件和输出进行交互，无论是 PR、issue,还是新生成的文件。"
+ },
+ {
+  "seg": 54,
+  "start": 383.027,
+  "end": 385.368,
+  "speaker": "Unknown",
+  "en": "All of that should kind of be structured the same way.",
+  "zh": "所有这些都应该以同样的方式被结构化。"
+ },
+ {
+  "seg": 55,
+  "start": 386.789,
+  "end": 387.429,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的，很酷。"
+ },
+ {
+  "seg": 56,
+  "start": 387.889,
+  "end": 397.052,
+  "speaker": "Unknown",
+  "en": "So we gave you a place for your agent to run, and we gave you a choice for what harness you use, including Warpstone harness and any other harnesses that you want to bring.",
+  "zh": "所以我们给了你的智能体一个运行的地方，我们给了你选择用什么 harness 的自由，包括 Warpstone harness 以及任何你想引入的其他 harness。"
+ },
+ {
+  "seg": 57,
+  "start": 398.333,
+  "end": 401.034,
+  "speaker": "Unknown",
+  "en": "What if one agent isn't enough to do work?",
+  "zh": "那如果一个智能体不够用来完成工作呢？"
+ },
+ {
+  "seg": 58,
+  "start": 401.527,
+  "end": 404.128,
+  "speaker": "Unknown",
+  "en": "That's the reality of most software engineering.",
+  "zh": "这正是大多数软件工程的现实。"
+ },
+ {
+  "seg": 59,
+  "start": 405.068,
+  "end": 414.49,
+  "speaker": "Unknown",
+  "en": "I wish that I could just send off one prompt and solve all of the problems that exist in my software, but the reality is that real engineering work rarely fits inside one prompt.",
+  "zh": "我多希望自己只发一个 prompt 就能解决我软件里存在的所有问题，但现实是，真正的工程工作很少能装进一个 prompt 里。"
+ },
+ {
+  "seg": 60,
+  "start": 415.19,
+  "end": 420.432,
+  "speaker": "Unknown",
+  "en": "In a typical workflow, you might need one agent to go research a problem and plan a solution.",
+  "zh": "在典型的工作流中，你可能需要一个智能体去研究问题并规划解决方案。"
+ },
+ {
+  "seg": 61,
+  "start": 420.572,
+  "end": 425.253,
+  "speaker": "Unknown",
+  "en": "You might need another agent to implement it, and you might need to bring in a third to validate it.",
+  "zh": "你可能需要另一个智能体去实现它，还可能需要引入第三个来验证它。"
+ },
+ {
+  "seg": 62,
+  "start": 425.873,
+  "end": 434.319,
+  "speaker": "Unknown",
+  "en": "And you might want each of these agents to use different harnesses and different models in order to have a real adversarial and robust approach.",
+  "zh": "而且你可能希望这些智能体中的每一个使用不同的 harness 和不同的模型，以便形成真正对抗性且稳健的方法。"
+ },
+ {
+  "seg": 63,
+  "start": 435.319,
+  "end": 436.941,
+  "speaker": "Unknown",
+  "en": "So we have built-in support for that.",
+  "zh": "所以我们内置了对此的支持。"
+ },
+ {
+  "seg": 64,
+  "start": 437.721,
+  "end": 440.723,
+  "speaker": "Unknown",
+  "en": "You can orchestrate agents across the stack.",
+  "zh": "你可以在整个技术栈中编排智能体。"
+ },
+ {
+  "seg": 65,
+  "start": 441.804,
+  "end": 446.407,
+  "speaker": "Unknown",
+  "en": "With a lot of agent-based experiences, this orchestration happens via a prompt.",
+  "zh": "在很多基于智能体的体验中，这种编排是通过一个 prompt 发生的。"
+ },
+ {
+  "seg": 66,
+  "start": 446.847,
+  "end": 454.953,
+  "speaker": "Unknown",
+  "en": "So I say slash orchestrate or I queue the agent via prompting that I wanted to delegate work across multiple sub-agents for a task that I have here.",
+  "zh": "比如我输入 slash orchestrate,或者我通过 prompt 排队一个智能体，让它把这里的任务委托给多个子智能体。"
+ },
+ {
+  "seg": 67,
+  "start": 455.593,
+  "end": 466.821,
+  "speaker": "Unknown",
+  "en": "And this orchestrator agent will do all of the messy complexity of interacting with sub-agents, mediating messages between them, and tracking the work that's happening for me behind the scenes with a single prompt.",
+  "zh": "这个编排者智能体会替我处理与子智能体交互的所有复杂细节、在它们之间传递消息、在幕后跟踪正在进行的工作，而这只需要一个 prompt。"
+ },
+ {
+  "seg": 68,
+  "start": 467.621,
+  "end": 472.184,
+  "speaker": "Unknown",
+  "en": "We abstract complexity away from the user by giving them this experience.",
+  "zh": "我们通过提供这种体验，把复杂性从用户那里抽象掉。"
+ },
+ {
+  "seg": 69,
+  "start": 473.385,
+  "end": 480.15,
+  "speaker": "Unknown",
+  "en": "This sort of prompt-based model for interacting with agents and sub-agents is really powerful.",
+  "zh": "这种基于 prompt 的与智能体和子智能体交互的模型非常强大。"
+ },
+ {
+  "seg": 70,
+  "start": 481.535,
+  "end": 488.36,
+  "speaker": "Unknown",
+  "en": "An even more interesting one is the notion of interacting with agents and sub-agents via the API.",
+  "zh": "一个更有意思的概念是通过 API 与智能体和子智能体交互。"
+ },
+ {
+  "seg": 71,
+  "start": 489.201,
+  "end": 501.45,
+  "speaker": "Unknown",
+  "en": "So everything in our surface area is exposed via an API and I can fire off a request to say that I want to run a sub-agent that is attached to a parent agent via configuration that I provide.",
+  "zh": "我们产品表面的一切都通过 API 暴露出来，我可以发起一个请求，声明我想运行一个子智能体，并通过我提供的配置把它挂到某个父智能体上。"
+ },
+ {
+  "seg": 72,
+  "start": 502.092,
+  "end": 509.454,
+  "speaker": "Unknown",
+  "en": "And this API is super magical because this is the key component of a platform.",
+  "zh": "而这个 API 超级神奇，因为它是平台的关键组成部分。"
+ },
+ {
+  "seg": 73,
+  "start": 510.294,
+  "end": 514.495,
+  "speaker": "Unknown",
+  "en": "It's exposing the primitives in a way that users can build on top of.",
+  "zh": "它以一种用户可以在其上构建的方式暴露原语。"
+ },
+ {
+  "seg": 74,
+  "start": 515.775,
+  "end": 526.238,
+  "speaker": "Unknown",
+  "en": "The thing about great APIs and SDKs is people can build on top of them, which means that they're not restricted to your UI or your opinion of how a particular experience should look.",
+  "zh": "优秀的 API 和 SDK 的妙处在于人们可以在其上构建，这意味着他们不受限于你的 UI,也不受限于你对某个特定体验应该长什么样的个人看法。"
+ },
+ {
+  "seg": 75,
+  "start": 526.838,
+  "end": 529.459,
+  "speaker": "Unknown",
+  "en": "This is where like composability becomes really powerful.",
+  "zh": "这就是可组合性变得非常强大的地方。"
+ },
+ {
+  "seg": 76,
+  "start": 530.317,
+  "end": 535.603,
+  "speaker": "Unknown",
+  "en": "And so we're trying to be intentional about exposing an API for every key component of the stack.",
+  "zh": "所以我们正努力有意识地为技术栈的每个关键组件都暴露一个 API。"
+ },
+ {
+  "seg": 77,
+  "start": 536.124,
+  "end": 545.835,
+  "speaker": "Unknown",
+  "en": "So this is APIs for spinning up agents and sub-agents for managing the environments and compute that these agents are running in, for working with the artifacts that they produce.",
+  "zh": "包括启动智能体和子智能体的 API、管理这些智能体运行所在的环境和算力的 API、处理它们产出的工件的 API。"
+ },
+ {
+  "seg": 78,
+  "start": 546.416,
+  "end": 550.361,
+  "speaker": "Unknown",
+  "en": "All of that is exposed in an API that you can build on top of.",
+  "zh": "所有这些都通过 API 暴露出来，你可以在其上构建。"
+ },
+ {
+  "seg": 79,
+  "start": 551.399,
+  "end": 564.482,
+  "speaker": "Unknown",
+  "en": "And this ability to build on top of these primitives that are exposed via an API becomes really useful because anyone can build tools that overlap on top of these agentic experiences.",
+  "zh": "这种在通过 API 暴露的原语之上进行构建的能力变得非常有用，因为任何人都可以在这些智能体体验之上构建相互重叠的工具。"
+ },
+ {
+  "seg": 80,
+  "start": 566.29,
+  "end": 580.394,
+  "speaker": "Unknown",
+  "en": "Like interesting phenomena that's happened for us internally is we have a bunch of non-engineering teammates at Warp who have been able to use our SDK and API to build custom Slack bots to do a bunch of things.",
+  "zh": "我们内部出现的一个有趣现象是，Warp 有一批非工程背景的同事，能够使用我们的 SDK 和 API 构建自定义的 Slack 机器人来做各种事情。"
+ },
+ {
+  "seg": 81,
+  "start": 580.494,
+  "end": 587.636,
+  "speaker": "Unknown",
+  "en": "So we have folks in our developer relations team who have actually built out tooling to help us manage all of our social mentions.",
+  "zh": "比如我们开发者关系团队的一些同事，真的构建出了帮助我们管理所有社交媒体提及的工具。"
+ },
+ {
+  "seg": 82,
+  "start": 588.216,
+  "end": 605.133,
+  "speaker": "Unknown",
+  "en": "So as tweets and Reddit posts and things are coming in, we have agents that will pick them up, do some sentiment analysis on them, try and understand what the user wants, and then propose a response that folks on our social media team should use in response to the original tweet or Reddit post or what have you.",
+  "zh": "当推文、Reddit 帖子之类的Incoming 时，我们有智能体会把它们捡起来，做一些情感分析，尝试理解用户想要什么，然后提出一条我们社交媒体团队的同事应该用来回复原始推文或 Reddit 帖子之类的回应。"
+ },
+ {
+  "seg": 83,
+  "start": 605.514,
+  "end": 607.516,
+  "speaker": "Unknown",
+  "en": "And all of this is enabled by our SDK.",
+  "zh": "而这一切都是由我们的 SDK 实现的。"
+ },
+ {
+  "seg": 84,
+  "start": 608.036,
+  "end": 614.084,
+  "speaker": "Unknown",
+  "en": "And you see a plethora of these types of experiences internally at Warp.",
+  "zh": "在 Warp 内部，你可以看到大量这类体验。"
+ },
+ {
+  "seg": 85,
+  "start": 614.705,
+  "end": 622.917,
+  "speaker": "Unknown",
+  "en": "We have people who have used them to help answer queries about how our product is working, do competitive research, all sorts of interesting things.",
+  "zh": "有人用它们帮助回答关于我们产品如何运作的查询、做竞品研究，各种有意思的事情。"
+ },
+ {
+  "seg": 86,
+  "start": 625.499,
+  "end": 632.525,
+  "speaker": "Unknown",
+  "en": "And these primitives became a really big deal for us specifically when we decided to go open source.",
+  "zh": "而这些原语对我们来说变得极其重要，尤其是在我们决定开源的时候。"
+ },
+ {
+  "seg": 87,
+  "start": 632.605,
+  "end": 638.951,
+  "speaker": "Unknown",
+  "en": "As I mentioned earlier, Warp started off as a terminal, but it grew into an agentic development environment.",
+  "zh": "正如我之前提到的，Warp 最初是一个终端，但它成长为了一个智能体开发环境。"
+ },
+ {
+  "seg": 88,
+  "start": 639.412,
+  "end": 642.615,
+  "speaker": "Unknown",
+  "en": "And about three months ago, we decided to go open source.",
+  "zh": "大约三个月前，我们决定开源。"
+ },
+ {
+  "seg": 89,
+  "start": 644.507,
+  "end": 647.128,
+  "speaker": "Unknown",
+  "en": "This was much anticipated, long-awaited.",
+  "zh": "这件事备受期待、等了很久。"
+ },
+ {
+  "seg": 90,
+  "start": 647.148,
+  "end": 649.649,
+  "speaker": "Unknown",
+  "en": "It was a huge success for us.",
+  "zh": "对我们来说是一次巨大的成功。"
+ },
+ {
+  "seg": 91,
+  "start": 650.609,
+  "end": 658.092,
+  "speaker": "Unknown",
+  "en": "The number of GitHub stars that we had, I think, catapulted from around 20,000 to over 60,000.",
+  "zh": "我们拥有的 GitHub 星数，我记得，从大约 20,000 飙升到了超过 60,000。"
+ },
+ {
+  "seg": 92,
+  "start": 658.552,
+  "end": 660.493,
+  "speaker": "Unknown",
+  "en": "We had thousands of PRs.",
+  "zh": "我们收到了数千个 PR。"
+ },
+ {
+  "seg": 93,
+  "start": 660.533,
+  "end": 663.073,
+  "speaker": "Unknown",
+  "en": "I'll talk a little bit more about how we've been managing that.",
+  "zh": "我会再多讲一点我们是如何管理这些的。"
+ },
+ {
+  "seg": 94,
+  "start": 663.494,
+  "end": 670.436,
+  "speaker": "Unknown",
+  "en": "And hundreds of contributors who had been long-time users of the platform and were finally getting a chance to build on top of it.",
+  "zh": "还有数百位贡献者，他们一直是平台的长期用户，终于有机会在其上构建了。"
+ },
+ {
+  "seg": 95,
+  "start": 671.75,
+  "end": 679.194,
+  "speaker": "Unknown",
+  "en": "And when we went open source, we wanted to be really thoughtful about how we could use agents to help us manage the repository.",
+  "zh": "而当我们开源时，我们非常谨慎地思考如何利用智能体来帮助我们管理仓库。"
+ },
+ {
+  "seg": 96,
+  "start": 680.094,
+  "end": 684.977,
+  "speaker": "Unknown",
+  "en": "We didn't want this to be the kind of thing where agents are just writing code and firing off PRs.",
+  "zh": "我们不希望变成那种智能体只是写代码然后狂发 PR 的局面。"
+ },
+ {
+  "seg": 97,
+  "start": 685.477,
+  "end": 696.923,
+  "speaker": "Unknown",
+  "en": "We wanted them to participate kind of meaningfully in the structure that we used to triage issues that came into the repo, provide context around them, do implementation, do reviews.",
+  "zh": "我们希望它们有意义地参与到仓库中处理 issue 的流程结构里，提供上下文、做实现、做评审。"
+ },
+ {
+  "seg": 98,
+  "start": 697.656,
+  "end": 701.74,
+  "speaker": "Unknown",
+  "en": "But still have the space for humans to participate in this loop.",
+  "zh": "但仍然要为人类保留参与这个循环的空间。"
+ },
+ {
+  "seg": 99,
+  "start": 702.66,
+  "end": 703.201,
+  "speaker": "Unknown",
+  "en": "And we did that.",
+  "zh": "我们做到了。"
+ },
+ {
+  "seg": 100,
+  "start": 703.301,
+  "end": 714.31,
+  "speaker": "Unknown",
+  "en": "So if you go to the warp open source repo right now, you'll notice that if you file a new issue with a bug report or a feature request, an agent will kick in and start to triage the issue automatically.",
+  "zh": "所以如果你现在去 warp 的开源仓库，你会注意到，如果你提交一个包含 bug 报告或功能请求的新 issue，一个智能体会自动启动并开始对 issue 进行分类。"
+ },
+ {
+  "seg": 101,
+  "start": 714.67,
+  "end": 719.875,
+  "speaker": "Unknown",
+  "en": "It'll do research across the code base and context in the repo to understand what you're trying to propose.",
+  "zh": "它会在代码库和仓库的上下文中做研究，以理解你想提出的内容。"
+ },
+ {
+  "seg": 102,
+  "start": 720.355,
+  "end": 725.6,
+  "speaker": "Unknown",
+  "en": "It might ask you questions if it feels like your original query was a little abstract to get more information.",
+  "zh": "如果它觉得你最初的查询有点抽象，它可能会问你一些问题以获取更多信息。"
+ },
+ {
+  "seg": 103,
+  "start": 726.16,
+  "end": 738.747,
+  "speaker": "Unknown",
+  "en": "And it will kind of do the work that's historically been very hard for open source, which is somebody has a problem or a bug that they want fixed, they don't give you enough details, and it's hard to get to the clarity that you need to get to to drive the work forward.",
+  "zh": "它会做那种在开源历史上一直很难做的工作，也就是某人有一个想要修复的问题或 bug，但他们没有给你足够的细节，而很难达到推动工作前进所需的清晰度。"
+ },
+ {
+  "seg": 104,
+  "start": 739.108,
+  "end": 741.329,
+  "speaker": "Unknown",
+  "en": "So we can use agents to help us meaningfully in that way.",
+  "zh": "所以我们可以用智能体在这方面有意义地帮助我们。"
+ },
+ {
+  "seg": 105,
+  "start": 741.869,
+  "end": 749.533,
+  "speaker": "Unknown",
+  "en": "They can also help draft initial specifications and work for tasks, do implementation, and provide a review gate.",
+  "zh": "它们还可以帮助起草任务的初始规格和工作内容、进行实现，并提供一个审查关卡。"
+ },
+ {
+  "seg": 106,
+  "start": 750.034,
+  "end": 755.277,
+  "speaker": "Unknown",
+  "en": "So all PRs that get contributed to warp go through an agent-managed review process.",
+  "zh": "所以所有被贡献到 warp 的 PR 都会经过一个由智能体管理的审查流程。"
+ },
+ {
+  "seg": 107,
+  "start": 755.777,
+  "end": 766.66,
+  "speaker": "Unknown",
+  "en": "And it goes through multiple iterations and we don't actually ping any of the human reviewers on our team until an agent has approved our PRs, which helps manage the workload a lot for the team.",
+  "zh": "它会经历多次迭代，而且在智能体批准我们的 PR 之前，我们实际上不会通知团队里的任何人类审查者，这对管理团队的工作量帮助很大。"
+ },
+ {
+  "seg": 108,
+  "start": 766.68,
+  "end": 772.482,
+  "speaker": "Unknown",
+  "en": "So all of those thousands of PRs, the things that humans actually have to manage are only the high-signal, high-quality ones.",
+  "zh": "所以在所有这数千个 PR 中，人类真正需要管理的只有那些高信号、高质量的。"
+ },
+ {
+  "seg": 109,
+  "start": 773.567,
+  "end": 782.075,
+  "speaker": "Unknown",
+  "en": "And one of the key principles is that we improve the agent as we get more PRs in the repo and we see more examples of code.",
+  "zh": "而其中一个关键原则是，随着仓库里进来的 PR 越来越多、我们看到越来越多的代码示例，我们会持续改进智能体。"
+ },
+ {
+  "seg": 110,
+  "start": 782.415,
+  "end": 790.082,
+  "speaker": "Unknown",
+  "en": "One of the things that we believe is that self-improvement loops are a really important way for you to enhance the overall SDLC life cycle that you're seeing.",
+  "zh": "我们相信的事情之一是，自我改进循环是增强你所看到的整个 SDLC 生命周期的一种非常重要的方式。"
+ },
+ {
+  "seg": 111,
+  "start": 791.564,
+  "end": 792.204,
+  "speaker": "Unknown",
+  "en": "So we did this.",
+  "zh": "所以我们这么做了。"
+ },
+ {
+  "seg": 112,
+  "start": 794.227,
+  "end": 797.129,
+  "speaker": "Unknown",
+  "en": "And we had a light bulb moment because it unlocked something huge.",
+  "zh": "然后我们有了一个顿悟时刻，因为它解锁了巨大的东西。"
+ },
+ {
+  "seg": 113,
+  "start": 797.189,
+  "end": 803.472,
+  "speaker": "Unknown",
+  "en": "We had this structured process that could accommodate a big influx of issues and PRs on the repo.",
+  "zh": "我们有了这个结构化流程，可以容纳仓库上大量涌入的 issue 和 PR。"
+ },
+ {
+  "seg": 114,
+  "start": 805.113,
+  "end": 816.959,
+  "speaker": "Unknown",
+  "en": "And the agents were there to support anyone in bringing their idea or their bug feature request or bug report to AWARP and then getting it through to the actual product.",
+  "zh": "智能体在那里支持任何人把他们的想法或功能请求或 bug 报告带到 AWARP，然后让它一路进入实际产品。"
+ },
+ {
+  "seg": 115,
+  "start": 818.869,
+  "end": 831.768,
+  "speaker": "Unknown",
+  "en": "That key insight of agents providing structure and context was a really big thing for us because it meant that anyone could participate in translating their intent into implementation.",
+  "zh": "智能体提供结构和上下文这个关键洞察对我们来说是一件非常重要的事，因为它意味着任何人都可以参与把他们的意图转化为实现。"
+ },
+ {
+  "seg": 116,
+  "start": 833.747,
+  "end": 839.789,
+  "speaker": "Unknown",
+  "en": "And oftentimes the people who have really interesting intents and goals are the ones who are using software in interesting ways.",
+  "zh": "而且通常那些拥有非常有趣的意图和目标的人，正是那些以有趣的方式使用软件的人。"
+ },
+ {
+  "seg": 117,
+  "start": 839.809,
+  "end": 841.689,
+  "speaker": "Unknown",
+  "en": "And it's not always the person that's building it.",
+  "zh": "而不一定是构建它的人。"
+ },
+ {
+  "seg": 118,
+  "start": 841.709,
+  "end": 844.39,
+  "speaker": "Unknown",
+  "en": "It's the person who's kind of got domain knowledge in the space.",
+  "zh": "而是那个在这个领域拥有领域知识的人。"
+ },
+ {
+  "seg": 119,
+  "start": 844.99,
+  "end": 850.351,
+  "speaker": "Unknown",
+  "en": "And we're lucky because we're developers building a developer tool and that's a really unique niche to fill in.",
+  "zh": "而我们很幸运，因为我们是构建开发者工具的开发者，这是一个非常独特的可以填补的细分位置。"
+ },
+ {
+  "seg": 120,
+  "start": 850.811,
+  "end": 859.033,
+  "speaker": "Unknown",
+  "en": "But most software is developers building tools for non-developers in situations where they don't have domain expertise.",
+  "zh": "但大多数软件都是开发者在他们没有领域知识的情况下为非开发者构建工具。"
+ },
+ {
+  "seg": 121,
+  "start": 859.773,
+  "end": 872.22,
+  "speaker": "Unknown",
+  "en": "If we provide these structures and guardrails, though, people who are non-developers can have the necessary tools to ship serious software because the infrastructure to support them exists.",
+  "zh": "不过，如果我们提供这些结构和护栏，非开发者就可以拥有交付严肃软件所需的工具，因为支持他们的基础设施是存在的。"
+ },
+ {
+  "seg": 122,
+  "start": 873.921,
+  "end": 875.702,
+  "speaker": "Unknown",
+  "en": "This is where things get buzzy.",
+  "zh": "这就是事情变得热闹起来的地方。"
+ },
+ {
+  "seg": 123,
+  "start": 875.742,
+  "end": 878.384,
+  "speaker": "Unknown",
+  "en": "You might have heard this term of the software factory.",
+  "zh": "你可能听过“软件工厂”这个术语。"
+ },
+ {
+  "seg": 124,
+  "start": 878.944,
+  "end": 887.609,
+  "speaker": "Unknown",
+  "en": "People talk about it a lot as far as automating how software gets built, providing these systems for doing work, all of these fun things.",
+  "zh": "人们经常谈论它，比如自动化软件的构建方式、提供这些做工作的系统，诸如此类有趣的东西。"
+ },
+ {
+  "seg": 125,
+  "start": 888.735,
+  "end": 891.917,
+  "speaker": "Unknown",
+  "en": "I kind of want to push back on this term a little bit.",
+  "zh": "我有点想对这个术语提出一点反驳。"
+ },
+ {
+  "seg": 126,
+  "start": 892.097,
+  "end": 899.821,
+  "speaker": "Unknown",
+  "en": "I kind of actually hate it because I don't think it gets the point across and it feels a little, hmm, where's the people in this?",
+  "zh": "我其实有点讨厌它，因为我不认为它表达了重点，而且感觉有点，嗯，人在哪里？"
+ },
+ {
+  "seg": 127,
+  "start": 901.102,
+  "end": 905.604,
+  "speaker": "Unknown",
+  "en": "So I want to tell a story before I share what I think is actually the better word.",
+  "zh": "所以在我分享我认为实际上更好的词之前，我想讲一个故事。"
+ },
+ {
+  "seg": 128,
+  "start": 906.185,
+  "end": 907.906,
+  "speaker": "Unknown",
+  "en": "So this is a mug that I have.",
+  "zh": "这是我有的一个马克杯。"
+ },
+ {
+  "seg": 129,
+  "start": 908.026,
+  "end": 911.608,
+  "speaker": "Unknown",
+  "en": "I bought this mug about two summers ago from a farmer's market.",
+  "zh": "我大约在两个夏天前从一个农夫市集买到这个马克杯。"
+ },
+ {
+  "seg": 130,
+  "start": 912.855,
+  "end": 922.017,
+  "speaker": "Unknown",
+  "en": "And I stopped by this booth at the farmer's market and you could just tell the person who had crafted this, the potter was just someone who was like really passionate about their work and what they do.",
+  "zh": "我在农夫市集路过这个摊位，你一眼就能看出制作这个杯子的人，那位陶艺师，是一个对自己的工作和所做的事情非常有热情的人。"
+ },
+ {
+  "seg": 131,
+  "start": 922.558,
+  "end": 931.36,
+  "speaker": "Unknown",
+  "en": "And so he was telling me about all of these interesting details in the mug, the specific like curve of the handle and the way he had structured it to accommodate different people's hands.",
+  "zh": "所以他给我讲了这个马克杯里所有有趣的细节，比如手柄的具体弧度，以及他如何设计它以适应不同人的手。"
+ },
+ {
+  "seg": 132,
+  "start": 931.855,
+  "end": 940.219,
+  "speaker": "Unknown",
+  "en": "He had this specific dimple at the top of the handle where you could rest your thumb because he felt like that was a key ergonomic detail of this mug.",
+  "zh": "他在手柄顶部做了这个特定的凹槽，你可以把拇指放在那里，因为他觉得那是这个马克杯的一个关键人体工学细节。"
+ },
+ {
+  "seg": 133,
+  "start": 940.559,
+  "end": 945.422,
+  "speaker": "Unknown",
+  "en": "He had this glazing at the top, so if your cup overflowed, it wouldn't dribble down the sides.",
+  "zh": "他在顶部上了这个釉，所以如果你的杯子溢出来了，它不会顺着杯壁滴下来。"
+ },
+ {
+  "seg": 134,
+  "start": 945.482,
+  "end": 946.762,
+  "speaker": "Unknown",
+  "en": "The glazing would kind of catch it.",
+  "zh": "釉会把它接住。"
+ },
+ {
+  "seg": 135,
+  "start": 947.163,
+  "end": 951.665,
+  "speaker": "Unknown",
+  "en": "So he just spent so much time thinking about the details of this mug and crafting it.",
+  "zh": "所以他花了非常多时间思考这个马克杯的细节并精心制作它。"
+ },
+ {
+  "seg": 136,
+  "start": 951.685,
+  "end": 955.807,
+  "speaker": "Unknown",
+  "en": "And then I was kind of talking to him about his workshop, like how many potters do you have?",
+  "zh": "然后我有点开始和他聊起他的工作室，比如你有多少位陶艺师？"
+ },
+ {
+  "seg": 137,
+  "start": 955.887,
+  "end": 957.388,
+  "speaker": "Unknown",
+  "en": "How many of these mugs are you making?",
+  "zh": "你们在做多少个这样的杯子？"
+ },
+ {
+  "seg": 138,
+  "start": 958.622,
+  "end": 967.405,
+  "speaker": "Unknown",
+  "en": "And he got even more animated and he started talking about his workshop setup and how he had set up different stations for different components of the mug.",
+  "zh": "他变得更加兴奋了，他开始讲他的工作室布置，以及他如何为马克杯的不同部件设置了不同的工位。"
+ },
+ {
+  "seg": 139,
+  "start": 967.825,
+  "end": 972.206,
+  "speaker": "Unknown",
+  "en": "He had talked about how he had a specific process for sourcing clay and preparing ahead of time.",
+  "zh": "他讲了他如何有一个特定的流程来采购黏土并提前准备。"
+ },
+ {
+  "seg": 140,
+  "start": 972.627,
+  "end": 977.348,
+  "speaker": "Unknown",
+  "en": "He talked about how he actually incorporated verification for different components of the mug.",
+  "zh": "他讲了他实际上如何为马克杯的不同部件纳入了验证环节。"
+ },
+ {
+  "seg": 141,
+  "start": 977.388,
+  "end": 980.309,
+  "speaker": "Unknown",
+  "en": "If the dimple wasn't the right size, what would you do?",
+  "zh": "如果那个凹槽尺寸不对，你会怎么做？"
+ },
+ {
+  "seg": 142,
+  "start": 980.589,
+  "end": 982.23,
+  "speaker": "Unknown",
+  "en": "What part of the process would you restart?",
+  "zh": "你会重启流程的哪个部分？"
+ },
+ {
+  "seg": 143,
+  "start": 983.25,
+  "end": 1002.841,
+  "speaker": "Unknown",
+  "en": "All of this thought that he had put not into the mug itself, but how the workshop existed to support the creation of the mug, and how he was able to scale this to dozens of apprentices in his shop and like hundreds of mugs handcrafted per day, which is pretty impressive.",
+  "zh": "他投入的所有这些思考，不是放在马克杯本身，而是放在工作室如何存在以支撑马克杯的创造上，以及他如何能够把这个扩展到他店里的几十个学徒，以及每天手工制作几百个杯子，这相当令人印象深刻。"
+ },
+ {
+  "seg": 144,
+  "start": 1003.951,
+  "end": 1007.713,
+  "speaker": "Unknown",
+  "en": "And this got me thinking, I love what he did with his workshop.",
+  "zh": "这让我开始思考，我非常喜欢他对他的工作室所做的事情。"
+ },
+ {
+  "seg": 145,
+  "start": 1008.434,
+  "end": 1021.102,
+  "speaker": "Unknown",
+  "en": "He had this really great idea and he developed a serious and repeatable system that allowed anyone to take the idea of a perfect mug and turn it into the actual existence of a perfect mug.",
+  "zh": "他有这个非常棒的点子，并且他开发了一个严肃且可重复的系统，让任何人都能把一个完美马克杯的想法变成一个完美马克杯的实际存在。"
+ },
+ {
+  "seg": 146,
+  "start": 1021.97,
+  "end": 1040.472,
+  "speaker": "Unknown",
+  "en": "You know, some people might think like workshops are this quaint thing where it's like a workspace for a single individual, but I think the story really shows that there are actually heavy duty systems for doing work and that they're malleable and that they react to signals and how people are interacting with the thing they're building in the space they're building it.",
+  "zh": "你知道，有些人可能觉得工作室是一种古朴的东西，就好像是给单个个体的工作空间，但我认为这个故事真正表明的是，实际上存在做工作的重型系统，而且它们是可塑的，会对信号以及人们如何与他们正在构建的东西、在他们正在构建的空间中互动做出反应。"
+ },
+ {
+  "seg": 147,
+  "start": 1041.328,
+  "end": 1049.615,
+  "speaker": "Unknown",
+  "en": "And it also underscores the like really close interaction loop that humans have with the spaces they work in and the outputs that are produced.",
+  "zh": "它还强调了人类与他们工作的空间以及产出的成果之间那种非常紧密的互动循环。"
+ },
+ {
+  "seg": 148,
+  "start": 1050.015,
+  "end": 1056.36,
+  "speaker": "Unknown",
+  "en": "And I'm synthesizing all of these ideas and I think this is what really we're driving at when we talk about building software factories.",
+  "zh": "而我正在综合所有这些想法，我认为这就是当我们谈论构建软件工厂时我们真正想表达的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 1057.107,
+  "end": 1067.192,
+  "speaker": "Unknown",
+  "en": "We want to give more builders, and the definition of who a builder is is expanding to non-developers, serious systems for turning their ideas into code.",
+  "zh": "我们想给更多的建造者，而建造者的定义正在扩展到非开发者，严肃的、把他们的想法变成代码的系统。"
+ },
+ {
+  "seg": 150,
+  "start": 1067.772,
+  "end": 1078.758,
+  "speaker": "Unknown",
+  "en": "And we as individuals who've been building DevTooling or have been in software engineering for a long time have an understanding of what that serious system looks like and what kind of support it needs to give to individuals.",
+  "zh": "而我们这些一直构建开发者工具或长期从事软件工程的人，深知一个严肃的系统是什么样子，以及它需要为个人提供什么样的支持。"
+ },
+ {
+  "seg": 151,
+  "start": 1080.684,
+  "end": 1089.271,
+  "speaker": "Unknown",
+  "en": "We break this down into the same techniques that my Potter friend had and the same methodologies that I talked about earlier about exposing primitives.",
+  "zh": "我们把它拆解成与我那位陶艺师朋友相同的技巧，以及我之前谈到的关于暴露原语的相同方法论。"
+ },
+ {
+  "seg": 152,
+  "start": 1090.672,
+  "end": 1107.524,
+  "speaker": "Unknown",
+  "en": "We expose things like the ability for these agents to implement automations that react to events in the real world the same way that a human in a workspace might need to react to a real event of a kiln being a stray or a handle being broken.",
+  "zh": "我们暴露诸如让这些智能体实现能对现实世界中的事件做出反应的自动化之类的功能，就像工作空间中的人类可能需要对窑炉失控或把手断裂这样的真实事件做出反应一样。"
+ },
+ {
+  "seg": 153,
+  "start": 1108.941,
+  "end": 1110.602,
+  "speaker": "Unknown",
+  "en": "We need to make these systems observable.",
+  "zh": "我们需要让这些系统具备可观测性。"
+ },
+ {
+  "seg": 154,
+  "start": 1110.822,
+  "end": 1117.166,
+  "speaker": "Unknown",
+  "en": "My Potter friend talked about how he actually watched the way people worked in his space and refined the process over time.",
+  "zh": "我那位陶艺师朋友谈到，他实际上观察了人们在他的空间里工作的方式，并随着时间推移不断改进流程。"
+ },
+ {
+  "seg": 155,
+  "start": 1117.667,
+  "end": 1118.607,
+  "speaker": "Unknown",
+  "en": "That doesn't come for free.",
+  "zh": "这不是免费得来的。"
+ },
+ {
+  "seg": 156,
+  "start": 1118.647,
+  "end": 1122.07,
+  "speaker": "Unknown",
+  "en": "Your system has to actually be something that you can inspect and look into.",
+  "zh": "你的系统必须真正是你可以检查和深入查看的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 1123.15,
+  "end": 1124.711,
+  "speaker": "Unknown",
+  "en": "And it has to improve over time.",
+  "zh": "而且它必须随着时间不断改进。"
+ },
+ {
+  "seg": 158,
+  "start": 1125.092,
+  "end": 1127.453,
+  "speaker": "Unknown",
+  "en": "The workspace is not the static component.",
+  "zh": "工作空间不是静态的组件。"
+ },
+ {
+  "seg": 159,
+  "start": 1127.613,
+  "end": 1128.934,
+  "speaker": "Unknown",
+  "en": "That doesn't change ever.",
+  "zh": "不是永远一成不变的。"
+ },
+ {
+  "seg": 160,
+  "start": 1128.974,
+  "end": 1137.46,
+  "speaker": "Unknown",
+  "en": "It needs to react to what's going on and modify itself to amend to the goals of the people that are working in it and the product that it's producing.",
+  "zh": "它需要对正在发生的事情做出反应，并调整自身以服务于在其中工作的人们的目标以及它所生产的产品。"
+ },
+ {
+  "seg": 161,
+  "start": 1139.252,
+  "end": 1141.273,
+  "speaker": "Unknown",
+  "en": "And it needs to be cost effective.",
+  "zh": "而且它需要具有成本效益。"
+ },
+ {
+  "seg": 162,
+  "start": 1141.733,
+  "end": 1144.755,
+  "speaker": "Unknown",
+  "en": "You wanna reduce the number of broken mugs that come out the other end.",
+  "zh": "你想减少从另一端产出的破损杯子数量。"
+ },
+ {
+  "seg": 163,
+  "start": 1145.015,
+  "end": 1150.057,
+  "speaker": "Unknown",
+  "en": "You wanna reduce the amount of buggy software that comes out of the other end of your factory.",
+  "zh": "你想减少从你的工厂另一端产出的有 bug 的软件数量。"
+ },
+ {
+  "seg": 164,
+  "start": 1150.938,
+  "end": 1155.48,
+  "speaker": "Unknown",
+  "en": "And you wanna do this without compromising on cost, without spinning too many tokens.",
+  "zh": "而且你想在不牺牲成本、不过度消耗 token 的情况下做到这一点。"
+ },
+ {
+  "seg": 165,
+  "start": 1157.061,
+  "end": 1161.103,
+  "speaker": "Unknown",
+  "en": "All of these principles work to achieve a shared goal.",
+  "zh": "所有这些原则都服务于一个共同的目标。"
+ },
+ {
+  "seg": 166,
+  "start": 1161.643,
+  "end": 1170.314,
+  "speaker": "Unknown",
+  "en": "And that shared goal is building systems that remove toil and drudgery from our software process so that more people have the ability to build.",
+  "zh": "这个共同的目标就是构建能消除我们软件流程中劳苦和繁重工作的系统，让更多的人有能力去构建。"
+ },
+ {
+  "seg": 167,
+  "start": 1170.794,
+  "end": 1173.637,
+  "speaker": "Unknown",
+  "en": "We've seen the way toil and drudgery have manifested.",
+  "zh": "我们已经见过劳苦和繁重工作的种种表现。"
+ },
+ {
+  "seg": 168,
+  "start": 1173.658,
+  "end": 1177.682,
+  "speaker": "Unknown",
+  "en": "It could be all of the difficulty you might have reproducing a bug.",
+  "zh": "它可能是你在复现一个 bug 时可能遇到的所有困难。"
+ },
+ {
+  "seg": 169,
+  "start": 1178.463,
+  "end": 1183.346,
+  "speaker": "Unknown",
+  "en": "The challenges of monitoring a production system, those are things that are really hard to do.",
+  "zh": "监控生产系统的挑战，那些都是真正难以做到的事情。"
+ },
+ {
+  "seg": 170,
+  "start": 1183.366,
+  "end": 1194.194,
+  "speaker": "Unknown",
+  "en": "And we can finally start to think about the structure of how we do them and building systems that allow us to do them repeatably and transferably to people who are in non-technical roles.",
+  "zh": "而我们终于可以开始思考做这些事情的结构，并构建让我们能够可重复地做这些事情、并能将其转移给处于非技术岗位的人们的系统。"
+ },
+ {
+  "seg": 171,
+  "start": 1195.608,
+  "end": 1206.395,
+  "speaker": "Unknown",
+  "en": "If these ideas excite you about how we can build these robust and reliable systems for anyone to ship software, you could stop by the warp booth to come talk to me and the crew.",
+  "zh": "如果这些关于我们如何为任何人构建稳健可靠的软件交付系统的想法让你感到兴奋，你可以来到 Warp 的展位来和我以及团队聊聊。"
+ },
+ {
+  "seg": 172,
+  "start": 1206.475,
+  "end": 1207.616,
+  "speaker": "Unknown",
+  "en": "We're at UG20.",
+  "zh": "我们在 UG20。"
+ },
+ {
+  "seg": 173,
+  "start": 1208.276,
+  "end": 1210.298,
+  "speaker": "Unknown",
+  "en": "You can also mention me on Twitter.",
+  "zh": "你也可以在 Twitter 上提及我。"
+ },
+ {
+  "seg": 174,
+  "start": 1210.358,
+  "end": 1216.782,
+  "speaker": "Unknown",
+  "en": "I'm CaptainSafia on all social media, GitHub, Twitter, all of that fun stuff, or just drop me an email.",
+  "zh": "我在所有社交媒体上都是 CaptainSafia,GitHub、Twitter 等等，或者直接给我发邮件。"
+ },
+ {
+  "seg": 175,
+  "start": 1216.802,
+  "end": 1218.503,
+  "speaker": "Unknown",
+  "en": "You can find my email on my personal site.",
+  "zh": "你可以在我的个人网站上找到我的邮箱。"
+ },
+ {
+  "seg": 176,
+  "start": 1219.533,
+  "end": 1221.336,
+  "speaker": "Unknown",
+  "en": "Thanks for coming to this presentation.",
+  "zh": "感谢大家来听这个演讲。"
+ },
+ {
+  "seg": 177,
+  "start": 1221.416,
+  "end": 1230.768,
+  "speaker": "Unknown",
+  "en": "I hope you learned something interesting about some of the engineering philosophies that are driving the next set of work we do as far as agents, developers, and AI.",
+  "zh": "我希望你们了解到了一些有趣的工程理念，它们正在驱动我们接下来在智能体、开发者和 AI 方面要做的工作。"
+ }
+]

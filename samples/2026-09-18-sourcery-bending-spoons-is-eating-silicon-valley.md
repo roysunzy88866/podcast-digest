@@ -182,7 +182,7 @@ AI 落地上最能说明他们风格的是今年内部开发的 [[Alt Spooner|Al
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:智能体 (agent)、编排 (orchestration)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同概念:智能体 (agent)、编排 (orchestration)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-08-22-talks-the-agent-behind-the-curtain-building-th|Warp 如何打造云端智能体平台：把复杂性挡在用户之前]]<span class="pd-rz">同概念:智能体 (agent)、编排 (orchestration)</span>
 
 </div>
 </div>

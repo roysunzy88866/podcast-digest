@@ -185,8 +185,8 @@ BigSpin 基于 Anthropic 的 AI 熟练度指数做了研究，头条结论：专
 **换个口味**
 
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、bitter lesson、token</span>
+- [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:token、智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -1,0 +1,612 @@
+{
+  "episode_id": "2026-08-22-talks-the-agent-behind-the-curtain-building-th",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "开发者工具",
+    "开源",
+    "软件工程"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "safia-abdalla",
+      "type": "person",
+      "role": "guest",
+      "name": "Safia Abdalla",
+      "file": "Safia Abdalla",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "warp",
+      "type": "company",
+      "role": "company",
+      "name": "Warp",
+      "file": "Warp",
+      "primary": true,
+      "how_described": "本集介绍 Warp 从终端成长为智能体开发环境，团队构建云端智能体平台，三个月前决定开源，GitHub 星数从约两万飙到超六万，收到数千个 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.221,
+            24.163
+          ],
+          "quote": "It's about how the team at Warp build our cloud agent platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            53.695,
+            58.237
+          ],
+          "quote": "And now I'm working on bringing AI agents to the cloud at warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.082,
+            142.563
+          ],
+          "quote": "So this is the story for warp specifically, but it's also the story for a lot of developer tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            143.163,
+            149.445
+          ],
+          "quote": "Pre-AI era, we had the warp terminal, which kind of met people in their command line workflows that they were used to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            566.29,
+            580.394
+          ],
+          "quote": "Like interesting phenomena that's happened for us internally is we have a bunch of non-engineering teammates at Warp who have been able to use our SDK and API to build custom Slack bots to do a bunch of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            608.036,
+            614.084
+          ],
+          "quote": "And you see a plethora of these types of experiences internally at Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            632.605,
+            638.951
+          ],
+          "quote": "As I mentioned earlier, Warp started off as a terminal, but it grew into an agentic development environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            703.301,
+            714.31
+          ],
+          "quote": "So if you go to the warp open source repo right now, you'll notice that if you file a new issue with a bug report or a feature request, an agent will kick in and start to triage the issue automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            750.034,
+            755.277
+          ],
+          "quote": "So all PRs that get contributed to warp go through an agent-managed review process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1195.608,
+            1206.395
+          ],
+          "quote": "If these ideas excite you about how we can build these robust and reliable systems for anyone to ship software, you could stop by the warp booth to come talk to me and the crew.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：把 AI 智能体搬到云端运行，用它们做编排、triage、实现与审查，让智能体提供结构和上下文，使任何人都能把意图转化为实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.439,
+            18.24
+          ],
+          "quote": "It is mysteriously titled The Agent Behind the Curtain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            19.221,
+            24.163
+          ],
+          "quote": "It's about how the team at Warp build our cloud agent platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            219.687,
+            230.599
+          ],
+          "quote": "When we think about building our cloud agent platform, we try and structure it so that every primitive models this philosophy of hiding complexity from the user so they can focus on the work that matters to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            231.841,
+            239.65
+          ],
+          "quote": "The first place that this shows up when you're building a cloud agent platform is where does the agent run if it's not running on a developer's machine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            251.281,
+            262.591
+          ],
+          "quote": "When we started building these out for our cloud agent platform, our first situation was to provide self-hosted sandboxes so that developers had a really easy on-ramp for getting into our cloud agent platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            280.418,
+            291.14
+          ],
+          "quote": "You really need to be able to run agent workloads on infrastructure that people bring so it adapts to their security concerns, their deployment practices, their workflows and preferences on their team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            387.889,
+            397.052
+          ],
+          "quote": "So we gave you a place for your agent to run, and we gave you a choice for what harness you use, including Warpstone harness and any other harnesses that you want to bring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            398.333,
+            401.034
+          ],
+          "quote": "What if one agent isn't enough to do work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            415.19,
+            420.432
+          ],
+          "quote": "In a typical workflow, you might need one agent to go research a problem and plan a solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            420.572,
+            425.253
+          ],
+          "quote": "You might need another agent to implement it, and you might need to bring in a third to validate it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            441.804,
+            446.407
+          ],
+          "quote": "With a lot of agent-based experiences, this orchestration happens via a prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            446.847,
+            454.953
+          ],
+          "quote": "So I say slash orchestrate or I queue the agent via prompting that I wanted to delegate work across multiple sub-agents for a task that I have here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            455.593,
+            466.821
+          ],
+          "quote": "And this orchestrator agent will do all of the messy complexity of interacting with sub-agents, mediating messages between them, and tracking the work that's happening for me behind the scenes with a single prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            489.201,
+            501.45
+          ],
+          "quote": "So everything in our surface area is exposed via an API and I can fire off a request to say that I want to run a sub-agent that is attached to a parent agent via configuration that I provide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            703.301,
+            714.31
+          ],
+          "quote": "So if you go to the warp open source repo right now, you'll notice that if you file a new issue with a bug report or a feature request, an agent will kick in and start to triage the issue automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            750.034,
+            755.277
+          ],
+          "quote": "So all PRs that get contributed to warp go through an agent-managed review process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            755.777,
+            766.66
+          ],
+          "quote": "And it goes through multiple iterations and we don't actually ping any of the human reviewers on our team until an agent has approved our PRs, which helps manage the workload a lot for the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            773.567,
+            782.075
+          ],
+          "quote": "And one of the key principles is that we improve the agent as we get more PRs in the repo and we see more examples of code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集讲编排时说：一个编排者智能体通过一个 prompt 在幕后处理与子智能体交互、消息传递和工作跟踪的全部复杂细节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            489.201,
+            501.45
+          ],
+          "quote": "So everything in our surface area is exposed via an API and I can fire off a request to say that I want to run a sub-agent that is attached to a parent agent via configuration that I provide.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集说平台内置跨技术栈的智能体编排，可在整个技术栈中编排智能体，由编排者智能体替用户处理复杂细节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            441.804,
+            446.407
+          ],
+          "quote": "With a lot of agent-based experiences, this orchestration happens via a prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是云端一个隔离环境，智能体在其中执行任务；平台同时支持托管沙箱和自托管，并把这两者的复杂性从用户那里抽象掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            241.613,
+            246.738
+          ],
+          "quote": "It needs a place to do its work like any developer would, and that place is typically a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说 harness 是驱动智能体的工具，开发者对它有强烈偏好（如 Claude Code、Codex），平台做多 harness 支持并围绕它提供结构和护栏让体验一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            105.654,
+            110.494
+          ],
+          "quote": "You might have a preference for a shell, a language, a harness, a review process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            303.909,
+            309.392
+          ],
+          "quote": "The next kind of component is a little bit more personal to people, and it's the harness that they want to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            315.816,
+            317.597
+          ],
+          "quote": "One of those tools is the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            318.437,
+            321.439
+          ],
+          "quote": "Who here has a preference for Claude Code as a harness locally?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            331.685,
+            339.707
+          ],
+          "quote": "So you want to integrate multi-harness support that not only accommodates preferences but also gives people the ability to use the right tool for the job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            349.05,
+            354.932
+          ],
+          "quote": "Your experience with working with Claude is different from working with Codex versus a custom harness that you might have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            355.552,
+            364.097
+          ],
+          "quote": "And so one of the key properties is making sure that the platform provides structure and guardrails around the harness so that the experience is consistent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            387.889,
+            397.052
+          ],
+          "quote": "So we gave you a place for your agent to run, and we gave you a choice for what harness you use, including Warpstone harness and any other harnesses that you want to bring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": true,
+      "how_described": "本集说平台表面的一切都通过 API 暴露——启动智能体和子智能体、管理环境和算力、处理工件都可以编程调用，优秀 API 和 SDK 让人们能在其上构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            481.535,
+            488.36
+          ],
+          "quote": "An even more interesting one is the notion of interacting with agents and sub-agents via the API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            489.201,
+            501.45
+          ],
+          "quote": "So everything in our surface area is exposed via an API and I can fire off a request to say that I want to run a sub-agent that is attached to a parent agent via configuration that I provide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            502.092,
+            509.454
+          ],
+          "quote": "And this API is super magical because this is the key component of a platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            530.317,
+            535.603
+          ],
+          "quote": "And so we're trying to be intentional about exposing an API for every key component of the stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            546.416,
+            550.361
+          ],
+          "quote": "All of that is exposed in an API that you can build on top of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            551.399,
+            564.482
+          ],
+          "quote": "And this ability to build on top of these primitives that are exposed via an API becomes really useful because anyone can build tools that overlap on top of these agentic experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            566.29,
+            580.394
+          ],
+          "quote": "Like interesting phenomena that's happened for us internally is we have a bunch of non-engineering teammates at Warp who have been able to use our SDK and API to build custom Slack bots to do a bunch of things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说平台围绕 harness 提供结构和护栏以保证体验一致；提供结构和护栏这套基础设施能让非开发者也交付严肃软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            355.552,
+            364.097
+          ],
+          "quote": "And so one of the key properties is making sure that the platform provides structure and guardrails around the harness so that the experience is consistent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            859.773,
+            872.22
+          ],
+          "quote": "If we provide these structures and guardrails, though, people who are non-developers can have the necessary tools to ship serious software because the infrastructure to support them exists.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集举例问听众谁偏好用 Claude Code 作为本地 harness，作为开发者 harness 偏好的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            318.437,
+            321.439
+          ],
+          "quote": "Who here has a preference for Claude Code as a harness locally?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集与 Claude Code 并列提及，作为开发者偏好 harness 的另一例子，并说用 Claude 的体验不同于用 Codex。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            322.805,
+            326.71
+          ],
+          "quote": "Codex, something else entirely, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            349.05,
+            354.932
+          ],
+          "quote": "Your experience with working with Claude is different from working with Codex versus a custom harness that you might have.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "observability",
+      "reason": "专名「observability」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

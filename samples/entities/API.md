@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>API</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="API">AP</div><div class="pi"><h1 class="pt">API</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="API">AP</div><div class="pi"><h1 class="pt">API</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(01:11起):本集说 API 是 OpenAI 的第一个产品，最流行的端点是 Responses API，针对构建长时间运行的智能体做了优化
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(32:33起):本集提到：它是 OpenAI 成立几年后想出来的商业模式，允许人们接入并付费使用其模型能力。
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(24:31起):本集通过联合创始人 Eric 的故事说明：不应把具体业务逻辑（如夺旗游戏的旗子对象）硬编码进核心 C++ 代码，而应做通用的 API 接口，这个工程决策决定了平台的 UGC 天花板。
+- **[[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]]**(08:01起):本集说平台表面的一切都通过 API 暴露——启动智能体和子智能体、管理环境和算力、处理工件都可以编程调用，优秀 API 和 SDK 让人们能在其上构建。
 
 ## ① 提到它的金句
 
@@ -37,19 +38,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念(提及)
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
+- [[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[Sherwin Wu]] · [[Sam Altman]] · [[Roblox CEO]] · [[Lenny]] · [[初创公司]] · [[Roblox]] · [[Codex]]
+[[智能体]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[ChatGPT]] · [[护栏]] · [[Sherwin Wu]] · [[Sam Altman]] · [[Roblox CEO]] · [[Safia Abdalla]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":128,"ChatGPT":76,"智能体":309,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Lenny":67,"初创公司":1,"Roblox":4,"Codex":56}</script>
+<script type="application/json" class="pd-epn">{"智能体":312,"Codex":57,"沙箱":58,"OpenAI":128,"ChatGPT":76,"护栏":55,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Safia Abdalla":1}</script>
 
 <script>
 (function(){

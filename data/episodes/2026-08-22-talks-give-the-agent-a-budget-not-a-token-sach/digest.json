@@ -1,0 +1,184 @@
+{
+  "title_zh": "给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道",
+  "tldr": "Anthropic CI 工程师 Sachin 讲解如何用非对称动词、速率限制、绊线和身份代理层，让智能体安全地在生产环境干真活。",
+  "digest_md": "Anthropic 的 CI 团队工程师 Sachin 负责公司所有代码的测试机制——测试隔离、合并自动化、CI 自动扩缩容，让几千名工程师每天能安全发布代码。这一集他讲的是一个很多人踩过的坑：给智能体一个「超级令牌」和一份工具列表，看它三秒钟搭好一个网站，大家鼓掌，然后有人把它放进了生产环境。\n\n然后事故来了。智能体想「自我清理」，列出一批它认为不再需要的工作负载并删除。管道里某个阶段的过滤器求值结果为空，选择器于是匹配到了**所有东西**——90 秒内删掉了约 200 个工作负载，波及约 20 名工程师的成果，其中有些是长时间运行的训练任务，甚至没做检查点，几个小时的工作量直接蒸发。没有人怀有恶意，智能体真心以为自己在打扫卫生。\n\nSachin 的复盘很扎心：智能体严格来说没做任何他本人做不了的事——毕竟它用的是他的令牌。失败的根源不是模型，而是**他给了智能体无限制的权力，去做一件他没有密切盯着的事**。\n\n## 用带新员工的方式带智能体\n\n我们已经解决过一次这类问题——只是对象是人。新工程师入职时，没人会站在他椅子后面盯着每一个按键；总有一条升级路径，灾难性的操作在结构上对他够不着。智能体和新人的差别在于：它们永不疲倦、永不睡觉，而且每隔一段时间会非常自信地犯错——「说实话，这可能就是我们大多数人入职第一个月的样子」。所以答案不是发明新东西，而是**把你给工程师的入职清单写下来，变成智能体的策略**。\n\n标准的修复办法是收窄令牌权限——直接把删除权限拿走。Sachin 认为这不对：你绝不会对新员工把整个「动词」拿走，而且对智能体也不管用——也许撑一两周，之后智能体真需要删点东西时，你就得坐在那儿一遍遍手动按回车。\n\n核心问题在于：**令牌是个布尔值**——静态的权限列表，有或没有。列表太紧，智能体没用；太宽，你就在写事故复盘。预算是另一种形状，有四个维度：能做多少？做多快？能自己撤销什么？以及它执行时谁在看着？\n\n## 原语一：非对称动词\n\n「动词」指智能体能做的操作——API 调用、CLI 命令都算。之所以「非对称」，是因为看起来同样大小的动作，实际爆炸半径可能天差地别。关键思维转变：**别从资源出发，从动词出发**——问「这个动词出错时会发生什么」。\n\n有些动词会**大声失败**：智能体错误地取消跳过一个测试，最坏结果就是 CI 对一堆人变红；错误地呼叫值班人员，也只是骚扰一下 on-call，总有人能纠正。有些动词会**安静地失败**：智能体不该跳过测试却跳过了，什么都不会变红，一个真正的 bug 可以带着绿色勾进生产环境，很久没人发现。\n\n所以规则是：**把会大声报错的动词给智能体，会安静失败的留给人类**。在 Anthropic 的实践中，智能体可以重新启用被测试隔离服务跳过的测试（错了只是变红，人工恢复成本极低）；但「跳过测试」是值班人员在事故中的破例（break-glass）操作，智能体搞错就意味着 bug 溜进生产——这必须经过人类，且始终留下审计轨迹。关键细节：**智能体永远不亲自握着记录自己行为的笔**——中间有个代理负责在每次调用上盖上调用者身份的印章。\n\n## 原语二：速率限制\n\n这是预算理念最具体的形式：**一个会补充的天花板**。每个调用者在每个时间窗口内拿到少量破坏性操作额度，怎么花随它——没有审批、没有等待；越线了请求直接被弹回，等一会儿额度自动补充。效果是：智能体在限额内拥有完全自主权，而单个循环能糟到什么程度有硬性上限。\n\n每一次写入都有速率限制，没有例外，区别只在大小：删自己命名空间里的东西限额高一些，碰共享命名空间的限额小一些。事故之后，Sachin 隔壁的团队建了一个准入 webhook，把删除次数按每小时、每资源类型、每命名空间封顶。他最喜欢的一个细节：绕过标志在 Claude Code 会话里**直接失效**——只会告诉智能体让人类自己去运行那条命令。于是智能体拿到限额，人类保留覆盖权，而且没人需要为提额提交工单，因为额度自己会补。\n\n## 原语三：绊线优于允许列表\n\n允许列表本质上是你**预先做的猜测**——猜测智能体需要什么——而且是在你还没有任何行为数据时写下的。绊线则是你**事后获取数据**的方式：让智能体去干，每个操作都带着身份戳被记录下来。两者配合：速率限制是强制执行，绊线让你知道实际发生了什么。\n\n观察的是**聚合情况**而非单个调用。一个真实案例：Anthropic 追踪「智能体针对测试失败每小时发起的调查线程数」。某天早上这个数字远超基线，绊线呼叫了值班人员——这一步很重要，「没人看到的绊线毫无用处」。它在写入已发生之后才响，所以它是**烟雾报警器，不是门锁**。查下来发现：智能体为几十个以同一种错误特征失败的任务各起了一个调查线程，每个单独看都合理，合在一起看才知道是基础设施故障。修复呢？只是在智能体上下文里加了一两句话：「下次遇到这种事，先把多个失败关联起来再起调查线程」。下次它就照做了。\n\n核心对比：允许列表不会随时间变好，只会过时；**绊线会随时间变好**。\n\n## 衡量标尺：撤销测试\n\n这不是写进代码的东西，而是评估上述三个原语时问的两个问题：**智能体能不能自己把它恢复回去？真搞错了影响有多糟？** 它和动词那条容易混：动词问的是你能不能**注意到**失败，撤销问的是你能不能**从中恢复**。\n\n两个都能答「是」→ 记入日志，放行。任何一个答「否」→ 需要第二把钥匙，而第二把钥匙绝不能由智能体自己持有，必须另有其人，且要有审计记录。\n\nCI 之外的例子是功能开关：在金丝雀环境（预发布流量加内部试用客户）智能体握有完整旋钮，可以从 0 推到 100、根据 bug 报告开关切换；但**无权把开关提升到真正的生产环境**——最多只能提议。这里的第二把钥匙不是新认证系统，就是「生产的受限钥匙」和「金丝雀的受限钥匙」两把不同的钥匙。\n\n回到开头那次删除事故做回测：速率限制会把它封在几十个工作负载以内；撤销测试则告诉你，别人命名空间里正在运行的任务**根本无法撤销删除**——所以超出上限的任何操作都需要持第二把钥匙的人类。\n\n## 策略住在哪里：文本 + 基础设施\n\n两个地方，缺一不可。\n\n**文本层**：提示词、上下文文件、智能体行动前读的 markdown。在这里解释「为什么」和意图。Sachin 把前面那句关联失败的指引一字不差写在 markdown 里，大约 80% 的时候管用。好处是改动便宜、能讲道理；坏处是文件会膨胀、需要打理，而且说到底**只是建议**——文本塑造意图，但没有任何强制执行。\n\n**基础设施层**：代理（proxy，坐在智能体和真实系统之间的一层）。代理不读提示词、不知道也不在乎智能体为什么想做什么。它只看到：一个删除在发生、预算被越过——返回一个 403，对话结束。它窄、确定性强：计数、比较、允许或拒绝；它解释不了为什么，但**再聪明的提示词注入也说服不了它放弃规则**。一句话：文本塑造智能体想做什么，基础设施约束它能错到什么程度。\n\n架构上，每个智能体会话旁边都跑着自己的代理；每个出站调用都过代理，被盖上智能体自己的身份——不是 Sachin 的身份。集群把这个身份作为标签写到作业上，之后所有子作业继承同一身份，而系统里所有的保障——所有权、配额、速率限制、审批、绊线——全都以这一个标签为键，智能体从头到尾没碰过它。\n\n为什么盖章必须由代理层而不是调用方自己做？因为如果智能体能在请求头里自报身份，它撞上限额后最简单的「修复」就是把 Sachin 改成 Sachin2——瞧，全新预算到手。这时你其实没有速率限制，**只有一个建议**。有代理在链路中，智能体永远不用自报家门：代理持有真实凭证，用它已知而非智能体声称的身份盖章，还能按会话 ID 区分多个并行会话，看哪个在过度反应。\n\n## 本集带走\n\n- **从动词想安全，不从资源想**：把会大声失败（CI 变红、呼错人）的操作给智能体，把会安静失败（悄悄跳过测试让 bug 溜进生产）的留给人类。\n- **给每次写入设一个会自动补充的上限**：限额内完全自主，越线自动弹回、无需提工单提额；共享命名空间的限额设得更小。\n- **用绊线代替允许列表**：先放行并记录带身份戳的操作，盯着聚合指标，触线就呼叫值班人员；修复通常只是往智能体上下文里加一两句指引。\n- **用撤销测试定档**：能自愈且爆炸半径可接受 → 放行；不能恢复或影响太糟 → 需要智能体拿不到的第二把钥匙 + 审计记录（如生产和金丝雀各一把受限钥匙）。\n- **身份必须来自基础设施，不来自请求**：由代理层盖章，智能体永远不能自报身份——Sachin 说这是唯一真正重要的规则，「把这条做对，其他一切都只是调优」。\n- **文本和基础设施各管一半**：markdown 文件解释意图（八成时候管用但只是建议），代理层做确定性的强制执行，提示词注入说服不了它。",
+  "quotes": [
+    {
+      "en": "The failure wasn't the model itself. The failure was that I was giving the agent unbounded amount of power to do something that I wasn't watching super intently.",
+      "zh": "失败不在于模型本身。失败在于我给了智能体无限制的权力，去做一件我没有非常密切盯着的事情。",
+      "timestamp": "03:18",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "So the core point is that you need to stop thinking about resources for a second and think about verbs.",
+      "zh": "所以核心点是，你需要暂时停止思考资源，而去思考动词。",
+      "timestamp": "06:09",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "A real bug can actually walk into production with green checks and nobody would notice it until much later.",
+      "zh": "一个真正的 bug 可以带着绿色勾选进入生产环境，而且直到很久以后都没人会注意到它。",
+      "timestamp": "06:50",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "The core point is that allow lists don't really get better over time. They can get stale, but tripwires do get better over time.",
+      "zh": "核心点是，允许列表并不会随时间变得更好。它们会变得过时，但绊线会随时间变得更好。",
+      "timestamp": "10:57",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "And that part's important, because a tripwire that nobody sees is practically useless.",
+      "zh": "而这一点很重要，因为一个没人看到的绊线实际上毫无用处。",
+      "timestamp": "11:17",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "It's effectively the smoke detector, not the lock on the door.",
+      "zh": "它实际上更像烟雾报警器，而不是门上的锁。",
+      "timestamp": "11:27",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "And the second key is not something that the agent holds itself, it has to be someone else.",
+      "zh": "而第二把钥匙不是智能体自己持有的东西，它必须是另外某个人。",
+      "timestamp": "12:55",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "Text can shape the intent, but there is no enforcement anywhere.",
+      "zh": "文本可以塑造意图，但任何地方都没有强制执行。",
+      "timestamp": "16:02",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "What it can't do is explain the why, and a clever prompt injection cannot really talk it out of the rule itself.",
+      "zh": "它做不到的是解释为什么，而且一个聪明的提示词注入也没法真的说服它放弃规则本身。",
+      "timestamp": "16:28",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "Now, in this case, you technically don't have a rate limit. You just have a suggestion.",
+      "zh": "现在，在这种情况下，你在技术上其实没有一个速率限制。你只有一个建议。",
+      "timestamp": "18:19",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "With the proxy in the path, the agent never gets to say who it is. The proxy already knows.",
+      "zh": "有了代理在链路中，智能体永远不能说它是谁。代理已经知道了。",
+      "timestamp": "18:23",
+      "speaker": "Sachin Malhotra"
+    },
+    {
+      "en": "If you get that one rule right, everything else is just tuning.",
+      "zh": "如果你把这一条规则做对了，其他一切都只是调优。",
+      "timestamp": "19:29",
+      "speaker": "Sachin Malhotra"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:22",
+      "speaker": "Sachin",
+      "en": "The problem in this case is that this idea of, like, here's a token and here's a tool list, that is just, like, not enough.",
+      "zh": "这个案例中的问题在于，「给你一个令牌和一份工具列表」这个想法，根本就不够。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Sachin",
+      "en": "The failure wasn't the model itself. The failure was that I was giving the agent unbounded amount of power to do something that I wasn't watching super intently.",
+      "zh": "失败不在于模型本身。失败在于我给了智能体无限制的权力，去做一件我没有非常密切盯着的事情。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Sachin",
+      "en": "And if I'm being honest, that's maybe most of us on the first month of our jobs anyways.",
+      "zh": "说实话，这可能就是我们大多数人入职第一个月的样子。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Sachin",
+      "en": "A budget is a very different shape.",
+      "zh": "预算是一个非常不同的形状。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Sachin",
+      "en": "So the core point is that you need to stop thinking about resources for a second and think about verbs.",
+      "zh": "所以核心点是，你需要暂时停止思考资源，而去思考动词。"
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Sachin",
+      "en": "A real bug can actually walk into production with green checks and nobody would notice it until much later.",
+      "zh": "一个真正的 bug 可以带着绿色勾选进入生产环境，而且直到很久以后都没人会注意到它。"
+    },
+    {
+      "timestamp": "09:00",
+      "speaker": "Sachin",
+      "en": "And every write effectively gets a rate limit. There are no exceptions to that.",
+      "zh": "而且实际上每一次写入都会得到一个速率限制。对此没有例外。"
+    },
+    {
+      "timestamp": "10:57",
+      "speaker": "Sachin",
+      "en": "The core point is that allow lists don't really get better over time. They can get stale, but tripwires do get better over time.",
+      "zh": "核心点是，允许列表并不会随时间变得更好。它们会变得过时，但绊线会随时间变得更好。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Sachin",
+      "en": "And that part's important, because a tripwire that nobody sees is practically useless.",
+      "zh": "而这一点很重要，因为一个没人看到的绊线实际上毫无用处。"
+    },
+    {
+      "timestamp": "11:27",
+      "speaker": "Sachin",
+      "en": "It's effectively the smoke detector, not the lock on the door.",
+      "zh": "它实际上更像烟雾报警器，而不是门上的锁。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Sachin",
+      "en": "And the second key is not something that the agent holds itself, it has to be someone else.",
+      "zh": "而第二把钥匙不是智能体自己持有的东西，它必须是另外某个人。"
+    },
+    {
+      "timestamp": "14:58",
+      "speaker": "Sachin",
+      "en": "So anything past the cap basically need a human with a second key.",
+      "zh": "所以任何超出上限的操作基本上都需要一个持有第二把钥匙的人。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "Sachin",
+      "en": "Text can shape the intent, but there is no enforcement anywhere.",
+      "zh": "文本可以塑造意图，但任何地方都没有强制执行。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Sachin",
+      "en": "What it can't do is explain the why, and a clever prompt injection cannot really talk it out of the rule itself.",
+      "zh": "它做不到的是解释为什么，而且一个聪明的提示词注入也没法真的说服它放弃规则本身。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Sachin",
+      "en": "Now, in this case, you technically don't have a rate limit. You just have a suggestion.",
+      "zh": "现在，在这种情况下，你在技术上其实没有一个速率限制。你只有一个建议。"
+    },
+    {
+      "timestamp": "18:23",
+      "speaker": "Sachin",
+      "en": "With the proxy in the path, the agent never gets to say who it is. The proxy already knows.",
+      "zh": "有了代理在链路中，智能体永远不能说它是谁。代理已经知道了。"
+    },
+    {
+      "timestamp": "19:29",
+      "speaker": "Sachin",
+      "en": "If you get that one rule right, everything else is just tuning.",
+      "zh": "如果你把这一条规则做对了，其他一切都只是调优。"
+    }
+  ],
+  "voice_script": "今天咱们聊 Anthropic 的一期内容。主角叫 Sachin，是 Anthropic CI 团队的工程师，负责公司所有代码的测试机制，测试隔离、合并自动化、CI 扩缩容，让几千名工程师每天能安全地发布代码。他要讲的问题，很多玩过智能体的人都踩过：你给智能体一个超级令牌，再加一份工具列表，看它三秒钟搭好一个网站，大家鼓掌，然后有人顺手把它放进了生产环境。\n\n事故就是这么来的。Anthropic 真出过一次：智能体想自我清理，列出一批它认为不再需要的工作负载，然后删了。管道里某个阶段的过滤器求值结果是空的，选择器于是匹配到了所有东西——九十秒内删掉大约两百个工作负载，波及二十名工程师的成果，有些是跑了很久的训练任务，连检查点都没做，几个小时的工作直接蒸发。没有人怀有恶意，智能体是真心以为自己在打扫卫生。\n\nSachin 复盘的时候说了句很扎心的话：失败不在于模型本身，失败在于给了智能体无限制的权力，去做一件没有密切盯着的事情。注意，智能体用的就是他本人的令牌，严格来说它没做任何他自己做不到的事，问题是权力没有边界。\n\n那怎么修？其实这类问题人类早就解决过一次，只是对象是新人。新工程师入职时，没人站在椅子后面盯着每一个按键，总有一条升级路径，灾难性操作在结构上就够不着。智能体和新人的差别在于：永不疲倦、永不睡觉，还时不时非常自信地犯个错。所以答案不是发明新东西，而是把你给工程师的入职清单写下来，变成智能体的策略。\n\n标准的修法是直接收窄权限，把删除权限整个拿走。Sachin 认为这不对。你绝不会对新员工把整个动词拿走，而且对智能体也不管用——也许撑一两周，等它真需要删点东西，你就得坐在那儿一遍遍手动按回车。核心问题在于：令牌是个布尔值，权限列表有或没有，太紧了没用，太宽了你就在写事故复盘。预算是另一种形状，有四个维度：能做多少，做多快，能自己撤销什么，执行时谁在看着。\n\n怎么落地？有三个原语。第一个叫非对称动词。动词就是智能体能做的操作，API 调用、命令行命令都算。之所以非对称，是因为看起来同样大小的动作，爆炸半径可能天差地别。关键转变是别从资源出发，从动词出发，问一句：这个动词出错时会发生什么。有些动词会大声失败，比如错误地取消跳过一个测试，最坏也就是 CI 对一堆人变红，马上有人来纠正。有些动词会安静失败，比如智能体不该跳过测试却跳过了，什么都不会变红，一个真正的 bug 可以带着绿色勾选进入生产环境，很久以后都没人注意到。所以规则很简单：会大声报错的动词给智能体，会安静失败的留给人类。\n\n第二个原语是速率限制，这是预算理念最具体的形式——一个会自动补充的天花板。每个调用者在每个时间窗口里拿到少量破坏性操作的额度，怎么花随它，没有审批没有等待；越线了请求直接弹回，额度过一会儿自己补上。效果是智能体在限额内完全自主，而单个循环能糟到什么程度有硬性上限。Anthropic 的实践里还有个细节：绕过标志在会话里直接失效，智能体只会被告知让人类自己去跑那条命令。没人需要为提额提交工单，因为额度自己会补。\n\n第三个原语是绊线优于允许列表。允许列表本质上是你在没有任何行为数据时做的预先猜测，只会随时间过时；绊线是事后获取数据的方式，会随时间变得越来越好。两者配合：速率限制负责强制执行，绊线让你知道实际发生了什么。有个真实案例，Anthropic 追踪智能体每小时针对测试失败发起的调查线程数。某天早上这个数字远超基线，绊线呼叫了值班人员——这一步很重要，没人看到的绊线毫无用处。查下来发现，智能体为几十个以同一种错误特征失败的任务各起了一个线程，单独看每个都合理，合在一起才知道是基础设施故障。修复呢？只是在智能体的上下文里加了一两句话，下次遇到这种事先把失败关联起来。下次它就照做了。要提醒的是，绊线是在操作已经发生之后才响的，所以它更像烟雾报警器，而不是门上的锁。\n\n那怎么判断一个操作该不该放给智能体？有个标尺叫撤销测试，问两个问题：智能体能不能自己把它恢复回去？真搞错了影响有多糟？两个都答是，记日志放行；任何一个答否，就需要第二把钥匙，而且第二把钥匙绝不能由智能体自己持有。CI 之外的例子是功能开关：在金丝雀环境里智能体握有完整旋钮，可以从零推到一百，但无权把开关提升到真正的生产环境，最多只能提议——生产的钥匙和金丝雀的钥匙，就是两把不同的钥匙。\n\n最后还有个根基性的问题：身份从哪来。每个智能体会话旁边都跑着自己的代理层，每个出站调用都经过代理，被盖上智能体自己的身份，不是 Sachin 的身份。为什么必须由代理盖章？因为如果智能体能在请求头里自报身份，它撞上限额之后最简单的修复就是把自己的名字改一下——瞧，全新预算到手。这时你其实没有速率限制，只有一个建议。有了代理在链路中，智能体永远不用自报家门，所有保障——所有权、配额、审批、绊线——都挂在代理盖的那个标签上，智能体从头到尾没碰过它。Sachin 说这是唯一真正重要的规则：把这条做对，其他一切都只是调优。\n\n总结一下。文本塑造智能体想做什么，基础设施约束它能错到什么程度——想清楚这件事，智能体才能真正安全地上生产干真活。"
+}

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Warp</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Warp">WA</div><div class="pi"><h1 class="pt">Warp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Warp">WA</div><div class="pi"><h1 class="pt">Warp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]]**(00:19起):本集介绍 Warp 从终端成长为智能体开发环境，团队构建云端智能体平台，三个月前决定开源，GitHub 星数从约两万飙到超六万，收到数千个 PR。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(01:24起):本集主角公司，CEO Zach Lloyd 介绍其智能体终端产品，以及内部名为 Wilson 的软件工厂实践
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]] — 作为被讨论公司
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Zach Lloyd]] · [[Claire Vo]] · [[软件工厂]] · [[智能体]] · [[编码智能体]] · [[代码审查]] · [[计算机使用]] · [[LLM 当裁判]] · [[自我改进]] · [[MCP]]
+[[智能体]] · [[Claude Code]] · [[Codex]] · [[Safia Abdalla]] · [[Zach Lloyd]] · [[子智能体]] · [[Claire Vo]] · [[编排]] · [[软件工厂]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Zach Lloyd":1,"Claire Vo":5,"软件工厂":7,"智能体":309,"编码智能体":17,"代码审查":14,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":312,"Claude Code":73,"Codex":57,"Safia Abdalla":1,"Zach Lloyd":1,"子智能体":2,"Claire Vo":5,"编排":6,"软件工厂":7,"沙箱":58}</script>
 
 <script>
 (function(){

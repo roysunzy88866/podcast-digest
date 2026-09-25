@@ -1,0 +1,1978 @@
+[
+ {
+  "seg": 0,
+  "start": 13.014,
+  "end": 13.255,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.337,
+  "end": 14.657,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 2,
+  "start": 15.359,
+  "end": 16.16,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 3,
+  "start": 16.38,
+  "end": 22.171,
+  "speaker": "Unknown",
+  "en": "So welcome to the talk, Give the Agent a Budget, Not a Token.",
+  "zh": "欢迎来到这次演讲《给智能体一个预算，而不是一个令牌》。"
+ },
+ {
+  "seg": 4,
+  "start": 23.988,
+  "end": 24.708,
+  "speaker": "Unknown",
+  "en": "Quick intro about me.",
+  "zh": "简单介绍一下我自己。"
+ },
+ {
+  "seg": 5,
+  "start": 24.868,
+  "end": 25.489,
+  "speaker": "Unknown",
+  "en": "My name is Sachin.",
+  "zh": "我叫 Sachin。"
+ },
+ {
+  "seg": 6,
+  "start": 25.969,
+  "end": 27.929,
+  "speaker": "Unknown",
+  "en": "I'm an engineer on the CI team at Anthropic.",
+  "zh": "我是 Anthropic CI 团队的一名工程师。"
+ },
+ {
+  "seg": 7,
+  "start": 28.83,
+  "end": 33.451,
+  "speaker": "Unknown",
+  "en": "We basically build and manage all of the test machinery for all the code that people write.",
+  "zh": "我们基本上是为人们编写的所有代码构建和管理所有的测试机制。"
+ },
+ {
+  "seg": 8,
+  "start": 33.851,
+  "end": 39.953,
+  "speaker": "Unknown",
+  "en": "So everything from test quarantining to merge automation to CI auto-scaling to merge queues, everything and anything in between.",
+  "zh": "所以从测试隔离到合并自动化，再到 CI 自动扩缩容、合并队列，以及介于其间的所有事情。"
+ },
+ {
+  "seg": 9,
+  "start": 40.553,
+  "end": 44.294,
+  "speaker": "Unknown",
+  "en": "It's basically the plumbing that allows a few thousand engineers every day to ship code safely.",
+  "zh": "它基本上就是让几千名工程师每天都能安全地发布代码的管道工程。"
+ },
+ {
+  "seg": 10,
+  "start": 45.495,
+  "end": 47.155,
+  "speaker": "Unknown",
+  "en": "Been at the company for a little over 10 months.",
+  "zh": "我在这家公司待了十个月多一点。"
+ },
+ {
+  "seg": 11,
+  "start": 47.315,
+  "end": 48.116,
+  "speaker": "Unknown",
+  "en": "I'm based out of Seattle.",
+  "zh": "我在西雅图。"
+ },
+ {
+  "seg": 12,
+  "start": 49.476,
+  "end": 52.357,
+  "speaker": "Unknown",
+  "en": "And outside of work, I love dialing my espressos and climbing some crazy mountains.",
+  "zh": "工作之外，我喜欢调校我的意式浓缩咖啡，也喜欢攀登一些疯狂的山峰。"
+ },
+ {
+  "seg": 13,
+  "start": 54.243,
+  "end": 58.187,
+  "speaker": "Unknown",
+  "en": "So a lot of cool agent demos, they start with the same way, really.",
+  "zh": "很多很酷的智能体演示，它们的开始方式其实都一样。"
+ },
+ {
+  "seg": 14,
+  "start": 58.327,
+  "end": 64.833,
+  "speaker": "Unknown",
+  "en": "So someone gives an agent a god token and gives it an access to some sort of tool list and just watches it go.",
+  "zh": "有人给智能体一个超级令牌，给它访问某种工具列表的权限，然后就看着它跑。"
+ },
+ {
+  "seg": 15,
+  "start": 65.494,
+  "end": 66.015,
+  "speaker": "Unknown",
+  "en": "And it does go.",
+  "zh": "而它确实跑起来了。"
+ },
+ {
+  "seg": 16,
+  "start": 66.115,
+  "end": 69.959,
+  "speaker": "Unknown",
+  "en": "In this particular example, it'll spin up a cute little coffee website.",
+  "zh": "在这个特定的例子里，它会搭起一个可爱的小咖啡网站。"
+ },
+ {
+  "seg": 17,
+  "start": 70.159,
+  "end": 74.163,
+  "speaker": "Unknown",
+  "en": "It'll build all the pages, deploy them, bring it up live, and it's done in three seconds.",
+  "zh": "它会构建所有页面，部署它们，把它们上线，三秒钟就完成了。"
+ },
+ {
+  "seg": 18,
+  "start": 75.104,
+  "end": 76.305,
+  "speaker": "Unknown",
+  "en": "People will nod, people will clap.",
+  "zh": "人们点头，人们鼓掌。"
+ },
+ {
+  "seg": 19,
+  "start": 76.725,
+  "end": 78.586,
+  "speaker": "Unknown",
+  "en": "And someone will ship it into production.",
+  "zh": "然后有人会把它发布到生产环境。"
+ },
+ {
+  "seg": 20,
+  "start": 79.066,
+  "end": 86.45,
+  "speaker": "Unknown",
+  "en": "And this talk is basically about what happens after that, after the demo ships, once the agent is starting to do some real work in production.",
+  "zh": "而这次演讲基本上讲的就是那之后发生的事，演示上线之后，当智能体开始在生产环境里做一些真正的工作时。"
+ },
+ {
+  "seg": 21,
+  "start": 88.53,
+  "end": 92.172,
+  "speaker": "Unknown",
+  "en": "So here's what after looked like in one of our scenarios.",
+  "zh": "这是我们其中一个场景里「之后」的样子。"
+ },
+ {
+  "seg": 22,
+  "start": 92.292,
+  "end": 94.213,
+  "speaker": "Unknown",
+  "en": "So what you're looking at is like a real command.",
+  "zh": "你看到的是一条真实的命令。"
+ },
+ {
+  "seg": 23,
+  "start": 94.814,
+  "end": 96.535,
+  "speaker": "Unknown",
+  "en": "The agent was trying to clean up after itself.",
+  "zh": "智能体当时在尝试自我清理。"
+ },
+ {
+  "seg": 24,
+  "start": 97.615,
+  "end": 104.319,
+  "speaker": "Unknown",
+  "en": "It was basically listing a bunch of workloads that were no longer interesting or useful to itself, and then it found them and deleted them.",
+  "zh": "它基本上是列出了一堆对它自己来说不再有价值或不再有用的工作负载，然后找到它们并删除了。"
+ },
+ {
+  "seg": 25,
+  "start": 104.959,
+  "end": 114.305,
+  "speaker": "Unknown",
+  "en": "Now that's completely reasonable, except one stage in the pipeline basically evaluated to nothing, and the filter dropped out, and now the selector matched everything.",
+  "zh": "这完全合理，只不过管道中的某个阶段求值结果为空，过滤器失效了，于是这个选择器匹配到了所有东西。"
+ },
+ {
+  "seg": 26,
+  "start": 116.177,
+  "end": 124.241,
+  "speaker": "Unknown",
+  "en": "So you can see it took out about 200 workloads, which ended up impacting about 20 engineers' worth of stuff, and all of that was gone in 90 seconds.",
+  "zh": "你可以看到它干掉了大约 200 个工作负载，最终影响了大约 20 名工程师的工作成果，而这一切在 90 秒内全部消失。"
+ },
+ {
+  "seg": 27,
+  "start": 125.141,
+  "end": 127.342,
+  "speaker": "Unknown",
+  "en": "Nobody was being malicious in this case.",
+  "zh": "在这个案例中没有人怀有恶意。"
+ },
+ {
+  "seg": 28,
+  "start": 127.643,
+  "end": 131.344,
+  "speaker": "Unknown",
+  "en": "The agent genuinely thought it was tidying up after itself.",
+  "zh": "智能体真心以为它是在自我清理。"
+ },
+ {
+  "seg": 29,
+  "start": 131.384,
+  "end": 134.406,
+  "speaker": "Unknown",
+  "en": "Some of these workloads were long-running training jobs and stuff.",
+  "zh": "其中一些工作负载是长时间运行的训练任务之类的东西。"
+ },
+ {
+  "seg": 30,
+  "start": 134.666,
+  "end": 136.207,
+  "speaker": "Unknown",
+  "en": "Maybe some of these were not even checkpointed.",
+  "zh": "也许其中一些甚至没有做检查点。"
+ },
+ {
+  "seg": 31,
+  "start": 136.807,
+  "end": 141.469,
+  "speaker": "Unknown",
+  "en": "And it was just hours of progress that was gone, poof, in 90 seconds and stuff, right?",
+  "zh": "那就是好几个小时的进展没了，噗，90 秒内消失殆尽，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 142.97,
+  "end": 150.575,
+  "speaker": "Unknown",
+  "en": "The problem in this case is that this idea of, like, here's a token and here's a tool list, that is just, like, not enough.",
+  "zh": "这个案例中的问题在于，「给你一个令牌和一份工具列表」这个想法，根本就不够。"
+ },
+ {
+  "seg": 33,
+  "start": 150.635,
+  "end": 154.498,
+  "speaker": "Unknown",
+  "en": "Like, it just doesn't scale when the agent is starting to do some, like, real work in production.",
+  "zh": "当智能体开始在生产环境里做一些真正的工作时，它就是无法扩展。"
+ },
+ {
+  "seg": 34,
+  "start": 157.096,
+  "end": 160.357,
+  "speaker": "Unknown",
+  "en": "So here's just a brief summary of what we're gonna talk about today.",
+  "zh": "这是我们今天要讲的内容的简要总结。"
+ },
+ {
+  "seg": 35,
+  "start": 160.718,
+  "end": 165.159,
+  "speaker": "Unknown",
+  "en": "I'm gonna walk through three primitives and asymmetric verbs.",
+  "zh": "我会介绍三个原语和非对称动词。"
+ },
+ {
+  "seg": 36,
+  "start": 165.72,
+  "end": 167.68,
+  "speaker": "Unknown",
+  "en": "We're gonna look at some rate limits.",
+  "zh": "我们会看一些速率限制。"
+ },
+ {
+  "seg": 37,
+  "start": 168.121,
+  "end": 170.882,
+  "speaker": "Unknown",
+  "en": "We're gonna look at this idea of tripwires over allow lists.",
+  "zh": "我们会看「绊线优于允许列表」这个理念。"
+ },
+ {
+  "seg": 38,
+  "start": 171.422,
+  "end": 178.345,
+  "speaker": "Unknown",
+  "en": "And then I'm gonna talk about this one lens which I call the undo test that you can sort of use to size up the other three primitives.",
+  "zh": "然后我会讲一个我称之为「撤销测试」的视角，你可以用它来衡量另外三个原语。"
+ },
+ {
+  "seg": 39,
+  "start": 179.545,
+  "end": 183.287,
+  "speaker": "Unknown",
+  "en": "So three things that you basically enforce and then one question you sort of ask about all of them.",
+  "zh": "所以就是三件你基本上要强制执行的事，再加一个你用来审视它们全部的问题。"
+ },
+ {
+  "seg": 40,
+  "start": 186.914,
+  "end": 192.059,
+  "speaker": "Unknown",
+  "en": "So here's basically what bugged me after the cleanup was done for the incident that I was just showing you.",
+  "zh": "这基本上就是在刚才给你展示的那次事故的清理完成之后，困扰我的东西。"
+ },
+ {
+  "seg": 41,
+  "start": 192.919,
+  "end": 195.782,
+  "speaker": "Unknown",
+  "en": "The agent technically hadn't done anything that I couldn't have done.",
+  "zh": "严格来说，智能体没有做任何我做不了的事。"
+ },
+ {
+  "seg": 42,
+  "start": 196.943,
+  "end": 198.084,
+  "speaker": "Unknown",
+  "en": "It was using my token after all.",
+  "zh": "毕竟它用的是我的令牌。"
+ },
+ {
+  "seg": 43,
+  "start": 198.965,
+  "end": 200.406,
+  "speaker": "Unknown",
+  "en": "The failure wasn't the model itself.",
+  "zh": "失败不在于模型本身。"
+ },
+ {
+  "seg": 44,
+  "start": 200.526,
+  "end": 206.692,
+  "speaker": "Unknown",
+  "en": "The failure was that I was giving the agent unbounded amount of power to do something that I wasn't watching super intently.",
+  "zh": "失败在于我给了智能体无限制的权力，去做一件我没有非常密切盯着的事情。"
+ },
+ {
+  "seg": 45,
+  "start": 208.313,
+  "end": 217.279,
+  "speaker": "Unknown",
+  "en": "And we've basically solved this same kind of problem, except not for agents, but the first time you onboarded a junior engineer onto your own teams, right?",
+  "zh": "而我们基本上已经解决过同样的这类问题，只不过对象不是智能体，而是你第一次把一个初级工程师引入你自己团队的时候，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 217.339,
+  "end": 218.7,
+  "speaker": "Unknown",
+  "en": "So just think about it.",
+  "zh": "只要想想看。"
+ },
+ {
+  "seg": 47,
+  "start": 218.78,
+  "end": 226.746,
+  "speaker": "Unknown",
+  "en": "We don't basically sit around watching every engineer or new boarded person just type out every keystroke on their keyboard, right?",
+  "zh": "我们基本上不会坐在那里盯着每一位工程师或每一个新入职的人敲出他们键盘上的每一个按键，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 226.786,
+  "end": 229.148,
+  "speaker": "Unknown",
+  "en": "We're not behind their chairs just watching everything that they're doing.",
+  "zh": "我们不会站在他们的椅子后面盯着他们做的每一件事。"
+ },
+ {
+  "seg": 49,
+  "start": 230.008,
+  "end": 233.311,
+  "speaker": "Unknown",
+  "en": "There is always a path on whenever a new engineer wants to ask for something.",
+  "zh": "每当一位新工程师想要请求什么东西时，总是有一条路径可走。"
+ },
+ {
+  "seg": 50,
+  "start": 233.951,
+  "end": 235.212,
+  "speaker": "Unknown",
+  "en": "There is always an escalation path.",
+  "zh": "总是有一条升级路径。"
+ },
+ {
+  "seg": 51,
+  "start": 236.893,
+  "end": 239.694,
+  "speaker": "Unknown",
+  "en": "The catastrophic stuff is just structurally out of reach for them.",
+  "zh": "灾难性的东西在结构上对他们来说是够不着的。"
+ },
+ {
+  "seg": 52,
+  "start": 240.354,
+  "end": 243.556,
+  "speaker": "Unknown",
+  "en": "So the other side of the coin is that the agents are very different.",
+  "zh": "所以硬币的另一面是,智能体是非常不一样的。"
+ },
+ {
+  "seg": 53,
+  "start": 243.796,
+  "end": 244.556,
+  "speaker": "Unknown",
+  "en": "They never get tired.",
+  "zh": "它们永远不会累。"
+ },
+ {
+  "seg": 54,
+  "start": 244.756,
+  "end": 245.336,
+  "speaker": "Unknown",
+  "en": "They never sleep.",
+  "zh": "它们永远不会睡觉。"
+ },
+ {
+  "seg": 55,
+  "start": 245.796,
+  "end": 247.757,
+  "speaker": "Unknown",
+  "en": "And every so often, they're just very confidently wrong.",
+  "zh": "而且每隔一段时间,它们就会非常自信地犯错。"
+ },
+ {
+  "seg": 56,
+  "start": 248.717,
+  "end": 252.399,
+  "speaker": "Unknown",
+  "en": "And if I'm being honest, that's maybe most of us on the first month of our jobs anyways.",
+  "zh": "说实话,这可能就是我们大多数人入职第一个月的样子。"
+ },
+ {
+  "seg": 57,
+  "start": 253.019,
+  "end": 260.562,
+  "speaker": "Unknown",
+  "en": "And so what we're going to talk about in a little bit is just this idea of your onboarding checklist, but written down as policy for agents.",
+  "zh": "所以我们稍后要谈的就是这个想法:把你的入职清单写下来,作为智能体的策略。"
+ },
+ {
+  "seg": 58,
+  "start": 263.742,
+  "end": 273.63,
+  "speaker": "Unknown",
+  "en": "And that brings me to the word in the title of my talk here is that the standard fix for an incident like that is basically that you narrow the token scope, right?",
+  "zh": "这就引出了我这次演讲标题中的那个词。对于那样的事故,标准的修复办法基本上就是收窄 token 的权限范围,对吧?"
+ },
+ {
+  "seg": 59,
+  "start": 273.75,
+  "end": 275.631,
+  "speaker": "Unknown",
+  "en": "You just take the deletes away effectively.",
+  "zh": "你实际上就是把删除的权限拿走。"
+ },
+ {
+  "seg": 60,
+  "start": 276.612,
+  "end": 278.954,
+  "speaker": "Unknown",
+  "en": "You would technically never do that for a new hire, right?",
+  "zh": "你在技术上绝不会对一个新员工这么做,对吧?"
+ },
+ {
+  "seg": 61,
+  "start": 278.994,
+  "end": 281.336,
+  "speaker": "Unknown",
+  "en": "You wouldn't take the whole verb away from them.",
+  "zh": "你不会把整个动词从他们那里拿走。"
+ },
+ {
+  "seg": 62,
+  "start": 281.996,
+  "end": 283.637,
+  "speaker": "Unknown",
+  "en": "And it also doesn't work for an agent either.",
+  "zh": "而且这对智能体也不起作用。"
+ },
+ {
+  "seg": 63,
+  "start": 284.498,
+  "end": 298.247,
+  "speaker": "Unknown",
+  "en": "Maybe it works for about a week, maybe two, but then you eventually end up in a situation where the agent is genuinely trying to delete something that it feels like is just not in the infrastructure, and you will just be there sitting and pressing enter by hand all over again.",
+  "zh": "也许管一个星期,也许两个星期,但最终你会陷入一种情况:智能体真的想删除某个东西,而它觉得那东西根本不在基础设施里,然后你就只能坐在那里一遍又一遍地手动按回车。"
+ },
+ {
+  "seg": 64,
+  "start": 299.682,
+  "end": 303.484,
+  "speaker": "Unknown",
+  "en": "The core concept with the token that I feel like is wrong is that a token is a Boolean.",
+  "zh": "我觉得 token 的核心问题在于,token 是一个布尔值。"
+ },
+ {
+  "seg": 65,
+  "start": 303.644,
+  "end": 304.564,
+  "speaker": "Unknown",
+  "en": "It's just a yes or no.",
+  "zh": "它就是一个是或否。"
+ },
+ {
+  "seg": 66,
+  "start": 304.684,
+  "end": 305.865,
+  "speaker": "Unknown",
+  "en": "It's a static list of scopes.",
+  "zh": "它是一个静态的权限范围列表。"
+ },
+ {
+  "seg": 67,
+  "start": 307.246,
+  "end": 308.646,
+  "speaker": "Unknown",
+  "en": "You either have it or you don't have it.",
+  "zh": "你要么有,要么没有。"
+ },
+ {
+  "seg": 68,
+  "start": 309.086,
+  "end": 313.148,
+  "speaker": "Unknown",
+  "en": "So if the token list is too tight, then your agent is effectively useless.",
+  "zh": "所以如果 token 列表太紧,那你的智能体实际上就没用了。"
+ },
+ {
+  "seg": 69,
+  "start": 313.369,
+  "end": 317.791,
+  "speaker": "Unknown",
+  "en": "If the token list is too wide, then you're maybe writing like a postmortem.",
+  "zh": "如果 token 列表太宽,那你可能就是在写一份事后复盘了。"
+ },
+ {
+  "seg": 70,
+  "start": 318.851,
+  "end": 320.112,
+  "speaker": "Unknown",
+  "en": "A budget is a very different shape.",
+  "zh": "预算是一个非常不同的形状。"
+ },
+ {
+  "seg": 71,
+  "start": 320.132,
+  "end": 325.655,
+  "speaker": "Unknown",
+  "en": "A budget is not just like one number, it just has like four different dimensions, right?",
+  "zh": "预算不只是一个数字,它有四个不同的维度,对吧?"
+ },
+ {
+  "seg": 72,
+  "start": 326.336,
+  "end": 327.577,
+  "speaker": "Unknown",
+  "en": "How much can the agent do?",
+  "zh": "智能体能做多少?"
+ },
+ {
+  "seg": 73,
+  "start": 328.277,
+  "end": 329.358,
+  "speaker": "Unknown",
+  "en": "How fast can it do it?",
+  "zh": "它能做多快?"
+ },
+ {
+  "seg": 74,
+  "start": 329.898,
+  "end": 331.139,
+  "speaker": "Unknown",
+  "en": "What can it undo on its own?",
+  "zh": "它能自己撤销什么?"
+ },
+ {
+  "seg": 75,
+  "start": 331.379,
+  "end": 334.301,
+  "speaker": "Unknown",
+  "en": "And then who's noticing while it's actually taking those actions?",
+  "zh": "然后在它实际执行这些操作时,谁在注意着?"
+ },
+ {
+  "seg": 76,
+  "start": 335.061,
+  "end": 345.908,
+  "speaker": "Unknown",
+  "en": "And that's roughly the umbrella for like my four primitives, is that each of the things that follow, they're basically being one of the things along these dimensions, and they're gonna replace a yes or no question with a budget.",
+  "zh": "这大概就是我那四个原语的伞形框架:接下来的每一个东西,基本上都对应这些维度中的一件事,它们会把一个是或否的问题替换成一个预算。"
+ },
+ {
+  "seg": 77,
+  "start": 347.808,
+  "end": 350.931,
+  "speaker": "Unknown",
+  "en": "So I'm going to start off with this first verb, which I call asymmetric verbs.",
+  "zh": "所以我要从第一个动词开始,我称之为非对称动词。"
+ },
+ {
+  "seg": 78,
+  "start": 351.851,
+  "end": 355.394,
+  "speaker": "Unknown",
+  "en": "And by verbs, I simply mean operations or actions that an agent can take.",
+  "zh": "说到动词,我指的只是智能体可以采取的操作或行动。"
+ },
+ {
+  "seg": 79,
+  "start": 355.414,
+  "end": 356.575,
+  "speaker": "Unknown",
+  "en": "So it could be API calls.",
+  "zh": "它可以是 API 调用。"
+ },
+ {
+  "seg": 80,
+  "start": 356.595,
+  "end": 358.437,
+  "speaker": "Unknown",
+  "en": "It could be CLI commands.",
+  "zh": "它可以是 CLI 命令。"
+ },
+ {
+  "seg": 81,
+  "start": 358.457,
+  "end": 359.318,
+  "speaker": "Unknown",
+  "en": "It could be really anything.",
+  "zh": "它几乎可以是任何东西。"
+ },
+ {
+  "seg": 82,
+  "start": 359.998,
+  "end": 369.166,
+  "speaker": "Unknown",
+  "en": "And they're asymmetric because the same sized action, even though it looks same size, they can have very different blast radius in actuality, depending on which direction it goes.",
+  "zh": "它们是非对称的,因为同样大小的行动,尽管看起来一样大,但实际上可能有非常不同的爆炸半径,取决于它往哪个方向走。"
+ },
+ {
+  "seg": 83,
+  "start": 369.687,
+  "end": 374.211,
+  "speaker": "Unknown",
+  "en": "So the core point is that you need to stop thinking about resources for a second and think about verbs.",
+  "zh": "所以核心点是,你需要暂时停止思考资源,而去思考动词。"
+ },
+ {
+  "seg": 84,
+  "start": 374.911,
+  "end": 379.653,
+  "speaker": "Unknown",
+  "en": "So specifically, think about what happens when one of the verbs goes wrong.",
+  "zh": "具体来说,想一想当其中一个动词出错时会发生什么。"
+ },
+ {
+  "seg": 85,
+  "start": 380.153,
+  "end": 381.873,
+  "speaker": "Unknown",
+  "en": "So some verbs, they fail out loud.",
+  "zh": "有些动词,它们会大声地失败。"
+ },
+ {
+  "seg": 86,
+  "start": 381.993,
+  "end": 391.317,
+  "speaker": "Unknown",
+  "en": "So in this particular example, let's say if an agent decides to unskip a test and say it's the wrong call, the worst that would happen is CI would go red for a bunch of people.",
+  "zh": "在这个特定的例子里,假设一个智能体决定取消跳过一个测试,如果说这是个错误的判断,最坏的结果就是 CI 对一堆人变红。"
+ },
+ {
+  "seg": 87,
+  "start": 392.217,
+  "end": 393.077,
+  "speaker": "Unknown",
+  "en": "Same with paging.",
+  "zh": "呼叫人(paging)也一样。"
+ },
+ {
+  "seg": 88,
+  "start": 393.177,
+  "end": 400.14,
+  "speaker": "Unknown",
+  "en": "If an agent decides to page a human and if it's the wrong call, the worst that's happening is that it's a nuisance for the on-call, but there is always a human to correct it.",
+  "zh": "如果一个智能体决定呼叫一个人,如果这是个错误的判断,最坏的结果就是对值班人员造成一点困扰,但总有人可以纠正它。"
+ },
+ {
+  "seg": 89,
+  "start": 401.38,
+  "end": 403.482,
+  "speaker": "Unknown",
+  "en": "There are other verbs that fail silently, right?",
+  "zh": "还有其他动词会默默地失败,对吧?"
+ },
+ {
+  "seg": 90,
+  "start": 403.522,
+  "end": 409.886,
+  "speaker": "Unknown",
+  "en": "So if the agent decides to skip a test due to whatever reason it shouldn't have, nothing technically turns red.",
+  "zh": "所以如果智能体出于任何不该有的原因决定跳过一个测试,技术上什么都不会变红。"
+ },
+ {
+  "seg": 91,
+  "start": 410.526,
+  "end": 415.169,
+  "speaker": "Unknown",
+  "en": "A real bug can actually walk into production with green checks and nobody would notice it until much later.",
+  "zh": "一个真正的 bug 可以带着绿色勾选进入生产环境,而且直到很久以后都没人会注意到它。"
+ },
+ {
+  "seg": 92,
+  "start": 415.81,
+  "end": 424.035,
+  "speaker": "Unknown",
+  "en": "So unskip and skip in this example, they're effectively, they're the same kind of action, but the difference is which of the failures would show up on a dashboard and which one wouldn't.",
+  "zh": "所以在这个例子里,取消跳过和跳过,它们实际上是同一类操作,但区别在于哪种失败会显示在仪表盘上,哪种不会。"
+ },
+ {
+  "seg": 93,
+  "start": 424.556,
+  "end": 426.037,
+  "speaker": "Unknown",
+  "en": "And so the core idea is that you give",
+  "zh": "所以核心想法是,你把"
+ },
+ {
+  "seg": 94,
+  "start": 427.119,
+  "end": 432.414,
+  "speaker": "Unknown",
+  "en": "Access to verbs that can fill out loudly on a dashboard to your agent and for the other ones just involve a human.",
+  "zh": "那些能在仪表盘上大声报错的动词的访问权限给你的智能体,而对其他那些,就让人参与进来。"
+ },
+ {
+  "seg": 95,
+  "start": 434.67,
+  "end": 450.718,
+  "speaker": "Unknown",
+  "en": "Just a bit of context on CI stuff and how this plays out for us is that we have a test quarantining service behind the scenes, and it basically holds a list of all the tests that are currently skipped because an on-call decided that they had to break glass a certain situation whenever there was an incident or something.",
+  "zh": "简单说一下 CI 方面的背景,以及这对我们来说是如何运作的:我们在幕后有一个测试隔离服务,它基本上维护着一个当前被跳过的所有测试的列表,因为值班人员在发生事故之类的特定情况下决定破例(break glass)。"
+ },
+ {
+  "seg": 96,
+  "start": 451.218,
+  "end": 458.922,
+  "speaker": "Unknown",
+  "en": "Now, the agent has the ability to re-enable any one of these zones depending on when it evaluates, when the tests are working fine and stuff.",
+  "zh": "现在,智能体有能力根据它的评估结果——比如测试工作正常之类——重新启用其中任何一个隔离区。"
+ },
+ {
+  "seg": 97,
+  "start": 459.762,
+  "end": 466.884,
+  "speaker": "Unknown",
+  "en": "Again, if it's the wrong call, the worst that would happen is a bunch of different builds and tests would just start showing up red, and then a human can actually put them back very cheaply.",
+  "zh": "再说一次,如果这是个错误的判断,最坏的结果就是一堆不同的构建和测试开始变红,然后一个人可以非常低成本地把它们恢复回去。"
+ },
+ {
+  "seg": 98,
+  "start": 467.705,
+  "end": 470.025,
+  "speaker": "Unknown",
+  "en": "The skip is a break-glass verb itself, right?",
+  "zh": "跳过本身就是一个破例(break-glass)动词,对吧?"
+ },
+ {
+  "seg": 99,
+  "start": 470.065,
+  "end": 475.167,
+  "speaker": "Unknown",
+  "en": "It's basically, as I mentioned, what our on-call would reach for during a very critical situation, during under pressure and stuff.",
+  "zh": "它基本上,正如我提到的,是我们的值班人员在非常危急的情况下、在压力之下会去用的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 475.727,
+  "end": 483.01,
+  "speaker": "Unknown",
+  "en": "And so in that scenario, if an agent actually gets it wrong, a real bug can walk into production.",
+  "zh": "所以在那种场景下，如果智能体真的搞错了，一个真正的 bug 就可能溜进生产环境。"
+ },
+ {
+  "seg": 101,
+  "start": 483.03,
+  "end": 485.911,
+  "speaker": "Unknown",
+  "en": "So this needs a human, and it will always leave an audit trail.",
+  "zh": "所以这需要一个人类，而且它总是会留下审计轨迹。"
+ },
+ {
+  "seg": 102,
+  "start": 486.891,
+  "end": 491.316,
+  "speaker": "Unknown",
+  "en": "And the key detail is that the agent itself is not responsible for writing the row or the audit trail itself.",
+  "zh": "关键细节在于，智能体本身并不负责写入那一行或审计轨迹本身。"
+ },
+ {
+  "seg": 103,
+  "start": 491.656,
+  "end": 499.904,
+  "speaker": "Unknown",
+  "en": "There is a proxy in the middle that I've highlighted that I'm going to talk about in a little bit, which is responsible for stamping the caller's main identity on every call, whether it's a skip or an unskip.",
+  "zh": "中间有一个我标出来的代理，我稍后会讲到它，它负责在每一次调用上盖下调用者主身份的印章，无论是 skip 还是 unskip。"
+ },
+ {
+  "seg": 104,
+  "start": 501.445,
+  "end": 504.849,
+  "speaker": "Unknown",
+  "en": "The agent technically never holds the pen on its own provenance.",
+  "zh": "从技术上讲，智能体永远不会亲自握着关于自身来源记录的笔。"
+ },
+ {
+  "seg": 105,
+  "start": 507.094,
+  "end": 508.535,
+  "speaker": "Unknown",
+  "en": "The second primitive is about rate limits.",
+  "zh": "第二个基元是关于速率限制的。"
+ },
+ {
+  "seg": 106,
+  "start": 509.135,
+  "end": 515.379,
+  "speaker": "Unknown",
+  "en": "It's a pretty standard concept, and this is the most concrete form of the budget idea as a whole, so a ceiling that refills.",
+  "zh": "这是一个相当标准的概念，也是整个预算理念最具体的形式，也就是一个会补充的天花板。"
+ },
+ {
+  "seg": 107,
+  "start": 515.98,
+  "end": 521.983,
+  "speaker": "Unknown",
+  "en": "So every caller gets a small amount of disruptive actions per time window, so you can spend them however you want.",
+  "zh": "所以每个调用者在每个时间窗口内会得到少量破坏性操作的额度，你可以随意支配它们。"
+ },
+ {
+  "seg": 108,
+  "start": 522.804,
+  "end": 529.788,
+  "speaker": "Unknown",
+  "en": "There's no approval, there's no waiting, and if you cross the line, the request simply bounces back with the count, saying that you're actually exceeding your budget.",
+  "zh": "没有审批，没有等待，如果你越过了线，请求会直接被弹回并附带计数，说明你实际上超出了你的预算。"
+ },
+ {
+  "seg": 109,
+  "start": 530.468,
+  "end": 532.51,
+  "speaker": "Unknown",
+  "en": "You wait a bit, and then the limit essentially refills.",
+  "zh": "你稍等一会儿，然后限制基本上就会补充。"
+ },
+ {
+  "seg": 110,
+  "start": 533.01,
+  "end": 534.03,
+  "speaker": "Unknown",
+  "en": "And that's the whole thing.",
+  "zh": "这就是全部内容。"
+ },
+ {
+  "seg": 111,
+  "start": 534.09,
+  "end": 539.872,
+  "speaker": "Unknown",
+  "en": "So the agent gets full autonomy within the limit, and there is a hard ceiling on how bad a single loop can get.",
+  "zh": "所以智能体在限制之内获得完全的自主权，而单个循环能有多糟存在一个硬性天花板。"
+ },
+ {
+  "seg": 112,
+  "start": 540.652,
+  "end": 543.053,
+  "speaker": "Unknown",
+  "en": "And every write effectively gets a rate limit.",
+  "zh": "而且实际上每一次写入都会得到一个速率限制。"
+ },
+ {
+  "seg": 113,
+  "start": 543.433,
+  "end": 544.473,
+  "speaker": "Unknown",
+  "en": "There are no exceptions to that.",
+  "zh": "对此没有例外。"
+ },
+ {
+  "seg": 114,
+  "start": 545.033,
+  "end": 546.633,
+  "speaker": "Unknown",
+  "en": "What changes is the size of the rate limit.",
+  "zh": "变化的是速率限制的大小。"
+ },
+ {
+  "seg": 115,
+  "start": 546.653,
+  "end": 551.775,
+  "speaker": "Unknown",
+  "en": "So if I'm trying to delete a bunch of workloads in my own namespace, my rate limit might be higher.",
+  "zh": "我觉得它相当静态，而且你在还没有任何关于智能体在不同情况下如何表现的数据之前就把它写好了。"
+ },
+ {
+  "seg": 116,
+  "start": 552.155,
+  "end": 556.356,
+  "speaker": "Unknown",
+  "en": "But if I'm trying to touch resources in a shared namespace, my rate limits might be smaller.",
+  "zh": "但如果我试图触碰共享命名空间里的资源，我的速率限制可能会更小。"
+ },
+ {
+  "seg": 117,
+  "start": 559.396,
+  "end": 563.702,
+  "speaker": "Unknown",
+  "en": "So this is effectively the solution for the incident that I was showing earlier.",
+  "zh": "所以这实际上就是我之前展示的那次事故的解决方案。"
+ },
+ {
+  "seg": 118,
+  "start": 564.083,
+  "end": 574.878,
+  "speaker": "Unknown",
+  "en": "After the incident, the team that sits next to mine, they built an admission webhook of sorts whose sole job is to cap the number of deletes at a fixed number per hour, per resource kind, per namespace.",
+  "zh": "事故之后，坐我隔壁的团队构建了某种准入 webhook，它唯一的任务就是把删除次数上限固定在每小时、每资源类型、每命名空间一个固定数字上。"
+ },
+ {
+  "seg": 119,
+  "start": 575.659,
+  "end": 581.841,
+  "speaker": "Unknown",
+  "en": "There is always a bypass flag because sometimes you genuinely want to delete more than you're allowed for in maybe some on-call scenario or whatever.",
+  "zh": "总会有一个绕过标志，因为有时候你确实想删除比允许的更多，也许在某些值班场景之类的。"
+ },
+ {
+  "seg": 120,
+  "start": 582.421,
+  "end": 590.603,
+  "speaker": "Unknown",
+  "en": "And the part that I absolutely love in this case is that inside a Claude Code session or inside an agent session effectively, the bypass flag simply refuses to do anything.",
+  "zh": "而在这种情况下我非常喜欢的一点是，在一个 Claude Code 会话里，或者说实际上在一个智能体会话里，那个绕过标志就是拒绝做任何事。"
+ },
+ {
+  "seg": 121,
+  "start": 591.083,
+  "end": 594.404,
+  "speaker": "Unknown",
+  "en": "All it's going to do is tell the agent to ask the human to run the command itself.",
+  "zh": "它只会告诉智能体去让人类自己来运行那条命令。"
+ },
+ {
+  "seg": 122,
+  "start": 595.304,
+  "end": 603.086,
+  "speaker": "Unknown",
+  "en": "So the agent effectively gets the rate limit and the human keeps the override and nobody effectively has to file a ticket for the limit because it just like refills.",
+  "zh": "所以智能体实际上得到了速率限制，而人类保留了覆盖权，而且实际上没有人需要为这个限制提交工单，因为它自己就会补充。"
+ },
+ {
+  "seg": 123,
+  "start": 605.802,
+  "end": 609.566,
+  "speaker": "Unknown",
+  "en": "The third primitive is about this concept of tripwires over allow lists.",
+  "zh": "第三个基元是这个「绊线优于允许列表」的概念。"
+ },
+ {
+  "seg": 124,
+  "start": 610.127,
+  "end": 617.995,
+  "speaker": "Unknown",
+  "en": "So in my mind, an allow list is effectively a guess that you're making upfront about what the agent needs or about model behavior or agent behavior itself.",
+  "zh": "在我看来，允许列表实际上是你预先做出的一个猜测，猜测智能体需要什么，或者猜测模型行为或智能体行为本身。"
+ },
+ {
+  "seg": 125,
+  "start": 618.476,
+  "end": 624.422,
+  "speaker": "Unknown",
+  "en": "I feel like it's pretty static, and you write it upfront before you have any data on how the agent is behaving in different situations.",
+  "zh": "我觉得它是相当静态的，而且你在还没有任何关于智能体在不同情况下如何表现的数据之前就把它写好了。"
+ },
+ {
+  "seg": 126,
+  "start": 625.123,
+  "end": 628.745,
+  "speaker": "Unknown",
+  "en": "A tripwire, on the other hand, is how you get that data, like after the fact.",
+  "zh": "而绊线，另一方面，是你事后获取那些数据的方式。"
+ },
+ {
+  "seg": 127,
+  "start": 629.205,
+  "end": 634.987,
+  "speaker": "Unknown",
+  "en": "So for cheap actions, you let the agent act and every action gets recorded with the actor sort of stamp, identity stamp.",
+  "zh": "所以对于廉价操作，你让智能体行动，而每个操作都会被记录，并带上执行者的印章、身份印章。"
+ },
+ {
+  "seg": 128,
+  "start": 635.587,
+  "end": 639.029,
+  "speaker": "Unknown",
+  "en": "And these two kind of go well together, like rate limits are the enforcement.",
+  "zh": "这两者其实配合得很好，比如速率限制是强制执行。"
+ },
+ {
+  "seg": 129,
+  "start": 640.189,
+  "end": 642.69,
+  "speaker": "Unknown",
+  "en": "They put a hard limit on the rate itself.",
+  "zh": "它们对速率本身施加了一个硬性限制。"
+ },
+ {
+  "seg": 130,
+  "start": 642.81,
+  "end": 646.932,
+  "speaker": "Unknown",
+  "en": "Tripwires are how you find out what actually happened, so you've got something to react to.",
+  "zh": "绊线是你弄清楚实际发生了什么的方式，所以你才有可以做出反应的东西。"
+ },
+ {
+  "seg": 131,
+  "start": 647.792,
+  "end": 650.756,
+  "speaker": "Unknown",
+  "en": "So you effectively watch the aggregate and not like individual calls.",
+  "zh": "所以实际上你观察的是聚合情况，而不是单个调用。"
+ },
+ {
+  "seg": 132,
+  "start": 651.437,
+  "end": 656.903,
+  "speaker": "Unknown",
+  "en": "And usually when a tripwire goes off, the fix is like maybe one or two lines in the agent's context and not really a big code change.",
+  "zh": "而且通常当绊线被触发时，修复方法大概只是智能体上下文里的一两行内容，而不是什么大的代码改动。"
+ },
+ {
+  "seg": 133,
+  "start": 657.604,
+  "end": 660.307,
+  "speaker": "Unknown",
+  "en": "The core point is that allow lists don't really get better over time.",
+  "zh": "核心点是，允许列表并不会随时间变得更好。"
+ },
+ {
+  "seg": 134,
+  "start": 660.327,
+  "end": 662.55,
+  "speaker": "Unknown",
+  "en": "They can get stale, but tripwires do get better over time.",
+  "zh": "它们会变得过时，但绊线会随时间变得更好。"
+ },
+ {
+  "seg": 135,
+  "start": 664.605,
+  "end": 666.767,
+  "speaker": "Unknown",
+  "en": "So here's a loop in practice for us.",
+  "zh": "所以这是我们实践中的一条循环。"
+ },
+ {
+  "seg": 136,
+  "start": 666.787,
+  "end": 673.112,
+  "speaker": "Unknown",
+  "en": "So we track one number, which is the number of investigation threads that our agent is launching per hour for a given test job failure.",
+  "zh": "我们追踪一个数字，也就是我们的智能体针对给定测试任务失败每小时发起的调查线程数量。"
+ },
+ {
+  "seg": 137,
+  "start": 673.653,
+  "end": 677.816,
+  "speaker": "Unknown",
+  "en": "So one morning, say, the number was way above the baseline, and the tripwire page is on call.",
+  "zh": "所以某天早上，比方说，那个数字远高于基线，绊线就呼机呼叫了值班人员。"
+ },
+ {
+  "seg": 138,
+  "start": 677.956,
+  "end": 681.74,
+  "speaker": "Unknown",
+  "en": "And that part's important, because a tripwire that nobody sees is practically useless.",
+  "zh": "而这一点很重要，因为一个没人看到的绊线实际上毫无用处。"
+ },
+ {
+  "seg": 139,
+  "start": 682.58,
+  "end": 686.624,
+  "speaker": "Unknown",
+  "en": "It pages after the write has already happened, after the limit has been crossed, not before.",
+  "zh": "它是在写入已经发生、限制已经被越过之后才呼叫的，而不是之前。"
+ },
+ {
+  "seg": 140,
+  "start": 687.164,
+  "end": 689.726,
+  "speaker": "Unknown",
+  "en": "It's effectively the smoke detector, not the lock on the door.",
+  "zh": "它实际上更像烟雾报警器，而不是门上的锁。"
+ },
+ {
+  "seg": 141,
+  "start": 690.807,
+  "end": 698.114,
+  "speaker": "Unknown",
+  "en": "The agent has spun up, in this particular scenario, a bunch of investigation threads for dozens of jobs that were all failing with the same kind of error signature.",
+  "zh": "在这个特定场景中，智能体为几十个以同一种错误特征失败的任务启动了一大堆调查线程。"
+ },
+ {
+  "seg": 142,
+  "start": 698.974,
+  "end": 705.28,
+  "speaker": "Unknown",
+  "en": "Each thread effectively looked reasonable on its own, but if you took them in aggregate, you would realize that it was actually an infrastructure failure that was causing...",
+  "zh": "每个线程单独看实际上都显得合理，但如果你把它们放在一起看，你就会意识到其实是一次基础设施故障导致了……"
+ },
+ {
+  "seg": 143,
+  "start": 705.68,
+  "end": 707.821,
+  "speaker": "Unknown",
+  "en": "The same test failure signatures across the board.",
+  "zh": "全线相同的测试失败特征。"
+ },
+ {
+  "seg": 144,
+  "start": 708.401,
+  "end": 719.444,
+  "speaker": "Unknown",
+  "en": "So the fix in this case was simply as telling the agent, hey, the next time you encounter something like this, maybe try to correlate a bunch of different failures and test jobs and stuff before launching a separate investigation thread.",
+  "zh": "所以这种情况下的修复方法很简单，就是告诉智能体，嘿，下次你遇到类似这样的事情时，也许先试着把一堆不同的失败和测试任务关联起来，然后再启动单独的调查线程。"
+ },
+ {
+  "seg": 145,
+  "start": 719.464,
+  "end": 720.645,
+  "speaker": "Unknown",
+  "en": "So that correlation is important.",
+  "zh": "所以那种关联很重要。"
+ },
+ {
+  "seg": 146,
+  "start": 721.585,
+  "end": 730.328,
+  "speaker": "Unknown",
+  "en": "And the next time when this happened, it did exactly that because that example and that line of how it should react and how it should debug things was right there to guide it.",
+  "zh": "而下次这种情况发生时，它正是那样做的，因为那个示例和那行关于它应该如何反应、应该如何调试的内容就在那里指引着它。"
+ },
+ {
+  "seg": 147,
+  "start": 732.986,
+  "end": 734.527,
+  "speaker": "Unknown",
+  "en": "So that's three rough primitives.",
+  "zh": "所以这就是三个粗略的基元。"
+ },
+ {
+  "seg": 148,
+  "start": 734.687,
+  "end": 739.27,
+  "speaker": "Unknown",
+  "en": "Now, the lens I mentioned at the start is this idea of undo test, and this one's slightly different.",
+  "zh": "现在，我一开始提到的那把标尺就是这个「撤销测试」的想法，而它有点不同。"
+ },
+ {
+  "seg": 149,
+  "start": 739.671,
+  "end": 741.452,
+  "speaker": "Unknown",
+  "en": "It's not something you effectively enforce in code.",
+  "zh": "它实际上不是你在代码里强制执行的东西。"
+ },
+ {
+  "seg": 150,
+  "start": 741.912,
+  "end": 743.894,
+  "speaker": "Unknown",
+  "en": "It's the question you ask when you're sizing the other three.",
+  "zh": "这是你衡量其他三个要素时要问的问题。"
+ },
+ {
+  "seg": 151,
+  "start": 744.554,
+  "end": 746.055,
+  "speaker": "Unknown",
+  "en": "So it's two questions, really.",
+  "zh": "所以其实是两个问题。"
+ },
+ {
+  "seg": 152,
+  "start": 746.175,
+  "end": 748.217,
+  "speaker": "Unknown",
+  "en": "One, can the agent put it back by itself?",
+  "zh": "第一，智能体能不能自己把它恢复回去？"
+ },
+ {
+  "seg": 153,
+  "start": 748.977,
+  "end": 751.759,
+  "speaker": "Unknown",
+  "en": "And how bad would the impact be if it actually got it wrong?",
+  "zh": "第二，如果它真的搞错了，影响会有多糟？"
+ },
+ {
+  "seg": 154,
+  "start": 752.46,
+  "end": 762.387,
+  "speaker": "Unknown",
+  "en": "And this sounds like asymmetric verbs in a sense, but it's kind of different because the verbs ask whether you would notice the failure, and undo asks whether you can recover from it.",
+  "zh": "这听起来有点像不对称动词那一套，但其实有点不一样，因为动词问的是你能不能注意到失败，而撤销问的是你能不能从失败中恢复。"
+ },
+ {
+  "seg": 155,
+  "start": 763.603,
+  "end": 770.987,
+  "speaker": "Unknown",
+  "en": "So if the agent can effectively roll back its own change and the blast radius is acceptable to you, you effectively log it and you let it go.",
+  "zh": "所以如果智能体能有效地回滚自己的更改，而且爆炸半径对你来说是可以接受的，那你实际上就把它记入日志，然后放行。"
+ },
+ {
+  "seg": 156,
+  "start": 771.767,
+  "end": 775.169,
+  "speaker": "Unknown",
+  "en": "If either of the answers is no, then you effectively need a second key.",
+  "zh": "如果任何一个答案是否定的，那你实际上就需要第二把钥匙。"
+ },
+ {
+  "seg": 157,
+  "start": 775.65,
+  "end": 779.592,
+  "speaker": "Unknown",
+  "en": "And the second key is not something that the agent holds itself, it has to be someone else.",
+  "zh": "而第二把钥匙不是智能体自己持有的东西，它必须是另外某个人。"
+ },
+ {
+  "seg": 158,
+  "start": 780.632,
+  "end": 785.535,
+  "speaker": "Unknown",
+  "en": "And there has to be an audit record so that you can track on what happened, why the second key was involved and stuff like that.",
+  "zh": "而且必须有审计记录，这样你才能追踪发生了什么、为什么动用了第二把钥匙之类的事情。"
+ },
+ {
+  "seg": 159,
+  "start": 787.843,
+  "end": 792.006,
+  "speaker": "Unknown",
+  "en": "Let me just show you another example of how this works outside of the CI domain specifically.",
+  "zh": "让我给你们展示另一个例子，说明这套东西在 CI 领域之外是怎么运作的。"
+ },
+ {
+  "seg": 160,
+  "start": 792.046,
+  "end": 795.549,
+  "speaker": "Unknown",
+  "en": "So our agent has a key for one of our feature flag services.",
+  "zh": "我们的智能体拥有我们其中一个功能开关服务的钥匙。"
+ },
+ {
+  "seg": 161,
+  "start": 796.189,
+  "end": 801.633,
+  "speaker": "Unknown",
+  "en": "So on the canary side, which is basically a staging traffic and a bunch of dog-fooding customers, the agent effectively has the full dial.",
+  "zh": "在金丝雀这一侧，基本上就是预发布流量和一批内部试用客户，智能体实际上拥有完整的调节旋钮。"
+ },
+ {
+  "seg": 162,
+  "start": 801.713,
+  "end": 809.759,
+  "speaker": "Unknown",
+  "en": "It has the ability to ramp up a specific feature flag, roll it out to all of the canary traffic, and it can take it all the way from zero to 100.",
+  "zh": "它可以调高某个特定的功能开关，把它推给所有的金丝雀流量，而且可以从零一路推到 100。"
+ },
+ {
+  "seg": 163,
+  "start": 810.299,
+  "end": 814.723,
+  "speaker": "Unknown",
+  "en": "And it also has the ability to sort of look at any bugs that are being filed and toggle it back off and on.",
+  "zh": "它还能查看被提交的 bug,然后把开关关掉再打开。"
+ },
+ {
+  "seg": 164,
+  "start": 815.563,
+  "end": 818.924,
+  "speaker": "Unknown",
+  "en": "What the agent's key is not scoped to do is for promoting the flag to real production.",
+  "zh": "智能体的钥匙不被授权做的事，是把开关提升到真正的生产环境。"
+ },
+ {
+  "seg": 165,
+  "start": 819.544,
+  "end": 828.027,
+  "speaker": "Unknown",
+  "en": "The best that an agent can do for now in a lot of cases is that it can propose that someone actually promote the feature flag in production because it's been tested out in Canary.",
+  "zh": "目前在很多情况下，智能体能做到的最好的事，就是提议让某个人把功能开关提升到生产环境，因为它已经在金丝雀里测试过了。"
+ },
+ {
+  "seg": 166,
+  "start": 828.327,
+  "end": 829.087,
+  "speaker": "Unknown",
+  "en": "But that's pretty much it.",
+  "zh": "但也就到此为止。"
+ },
+ {
+  "seg": 167,
+  "start": 830.628,
+  "end": 833.809,
+  "speaker": "Unknown",
+  "en": "The second key in this scenario is not necessarily a new auth system.",
+  "zh": "这个场景里的第二把钥匙不一定是一套新的认证系统。"
+ },
+ {
+  "seg": 168,
+  "start": 833.849,
+  "end": 837.15,
+  "speaker": "Unknown",
+  "en": "It's a scoped key for production and a scoped key for Canary.",
+  "zh": "它是生产环境的受限钥匙和金丝雀的受限钥匙。"
+ },
+ {
+  "seg": 169,
+  "start": 839.808,
+  "end": 842.73,
+  "speaker": "Unknown",
+  "en": "So this is what it looks like day-to-day for me personally.",
+  "zh": "这就是我个人的日常操作方式。"
+ },
+ {
+  "seg": 170,
+  "start": 842.83,
+  "end": 849.035,
+  "speaker": "Unknown",
+  "en": "It's like I asked Claude Tag in our Slack channel to own the entire loop on rolling out a flag.",
+  "zh": "就比如我在 Slack 频道里让 Claude Tag 负责功能开关推出的整个流程。"
+ },
+ {
+  "seg": 171,
+  "start": 849.155,
+  "end": 853.898,
+  "speaker": "Unknown",
+  "en": "It can basically ask me a clarifying question on whether this is for internal dog fooding group or early access or whatever.",
+  "zh": "它基本上可以问我一个澄清性的问题，比如这是给内部试用群体的，还是早期访问之类的。"
+ },
+ {
+  "seg": 172,
+  "start": 854.959,
+  "end": 857.781,
+  "speaker": "Unknown",
+  "en": "And the important part is that I'm not in the middle of any of these things.",
+  "zh": "而重要的是，我并不处于这些事情中的任何一环中间。"
+ },
+ {
+  "seg": 173,
+  "start": 858.422,
+  "end": 861.904,
+  "speaker": "Unknown",
+  "en": "Every action that the agent is taking is stamped with its own identity and not mine.",
+  "zh": "智能体采取的每一个动作都盖着它自己的身份戳，而不是我的。"
+ },
+ {
+  "seg": 174,
+  "start": 862.345,
+  "end": 864.726,
+  "speaker": "Unknown",
+  "en": "And that stamp is basically what ties the whole thing together.",
+  "zh": "而那个戳基本上就是把整个体系串起来的东西。"
+ },
+ {
+  "seg": 175,
+  "start": 867.142,
+  "end": 872.726,
+  "speaker": "Unknown",
+  "en": "So these primitives, they compose together nicely because each one asks a different question, right?",
+  "zh": "这些原语之所以能很好地组合在一起，是因为每一个都在问不同的问题，对吧？"
+ },
+ {
+  "seg": 176,
+  "start": 872.766,
+  "end": 879.431,
+  "speaker": "Unknown",
+  "en": "The verbs ask what the agent is touching, the rate limit asks how often, and the tripwires catch what happened afterwards.",
+  "zh": "动词问的是智能体在触碰什么，速率限制问的是频率有多高，而绊线捕捉的是事后发生了什么。"
+ },
+ {
+  "seg": 177,
+  "start": 879.491,
+  "end": 882.814,
+  "speaker": "Unknown",
+  "en": "And the undo test is sort of the lens that I personally use to size all these three.",
+  "zh": "而撤销测试是我个人用来衡量这三个的透镜。"
+ },
+ {
+  "seg": 178,
+  "start": 883.703,
+  "end": 891.706,
+  "speaker": "Unknown",
+  "en": "Now, the original sort of cold open delete that I was showing you, the incident itself, the rate limit itself would have capped it at a few couple of tens of workloads itself.",
+  "zh": "现在，回到我之前展示的那个冷开场删除事件，就事件本身而言，速率限制本身会把它限制在几十个工作负载以内。"
+ },
+ {
+  "seg": 179,
+  "start": 892.346,
+  "end": 898.548,
+  "speaker": "Unknown",
+  "en": "The undo test, if you would be thinking about it, it would basically tell you that you can't undelete a running job in someone else's namespace.",
+  "zh": "撤销测试，如果你去想的话，它基本上会告诉你，你没法撤销删除别人命名空间里一个正在运行的任务。"
+ },
+ {
+  "seg": 180,
+  "start": 898.668,
+  "end": 902.39,
+  "speaker": "Unknown",
+  "en": "So anything past the cap basically need a human with a second key.",
+  "zh": "所以任何超出上限的操作基本上都需要一个持有第二把钥匙的人。"
+ },
+ {
+  "seg": 181,
+  "start": 903.413,
+  "end": 907.316,
+  "speaker": "Unknown",
+  "en": "So the important part is that you don't need all the checks in every write scenario.",
+  "zh": "所以重点是，你不需要在每个写入场景里都加上所有这些检查。"
+ },
+ {
+  "seg": 182,
+  "start": 907.396,
+  "end": 910.718,
+  "speaker": "Unknown",
+  "en": "Only some of these might be relevant for like whatever kind of action you're trying to evaluate.",
+  "zh": "对于你要评估的任何一种动作，可能只有其中一部分是相关的。"
+ },
+ {
+  "seg": 183,
+  "start": 911.859,
+  "end": 918.023,
+  "speaker": "Unknown",
+  "en": "And if any of these really sound familiar, it should because this is effectively some sort of onboarding checklist for your engineers.",
+  "zh": "而如果这些听起来真的很耳熟，那很正常，因为这实际上就是给你们工程师准备的某种入职清单。"
+ },
+ {
+  "seg": 184,
+  "start": 918.063,
+  "end": 919.924,
+  "speaker": "Unknown",
+  "en": "Like what can a new engineer touch?",
+  "zh": "比如一个新工程师能触碰什么？"
+ },
+ {
+  "seg": 185,
+  "start": 920.104,
+  "end": 921.085,
+  "speaker": "Unknown",
+  "en": "How much rope do they get?",
+  "zh": "给他们多大的发挥空间？"
+ },
+ {
+  "seg": 186,
+  "start": 921.185,
+  "end": 922.506,
+  "speaker": "Unknown",
+  "en": "Who signs off on their operations?",
+  "zh": "谁来为他们的操作签字？"
+ },
+ {
+  "seg": 187,
+  "start": 923.026,
+  "end": 924.547,
+  "speaker": "Unknown",
+  "en": "And how do we know it's effectively working?",
+  "zh": "我们怎么知道它确实在正常运作？"
+ },
+ {
+  "seg": 188,
+  "start": 925.068,
+  "end": 926.208,
+  "speaker": "Unknown",
+  "en": "We just wrote it for people.",
+  "zh": "我们之前只是为人类写了这套东西。"
+ },
+ {
+  "seg": 189,
+  "start": 926.468,
+  "end": 928.49,
+  "speaker": "Unknown",
+  "en": "It's now the same checklist that we want for agents.",
+  "zh": "现在这就是我们希望智能体也有的同一份清单。"
+ },
+ {
+  "seg": 190,
+  "start": 930.97,
+  "end": 933.492,
+  "speaker": "Unknown",
+  "en": "So where does all the policy that I've been talking about really live?",
+  "zh": "那么，我一直在讲的这些策略到底存在于哪里？"
+ },
+ {
+  "seg": 191,
+  "start": 933.912,
+  "end": 935.573,
+  "speaker": "Unknown",
+  "en": "It's two places and I feel like you need both.",
+  "zh": "有两个地方，而且我觉得你两个都需要。"
+ },
+ {
+  "seg": 192,
+  "start": 936.133,
+  "end": 937.094,
+  "speaker": "Unknown",
+  "en": "The first one is text.",
+  "zh": "第一个是文本。"
+ },
+ {
+  "seg": 193,
+  "start": 937.774,
+  "end": 942.137,
+  "speaker": "Unknown",
+  "en": "That's prompts, that's your context files, mark down the agent reads before it can act.",
+  "zh": "那是提示词，是你的上下文文件，是智能体在行动之前要读的 markdown 文件。"
+ },
+ {
+  "seg": 194,
+  "start": 942.537,
+  "end": 944.778,
+  "speaker": "Unknown",
+  "en": "And this is where you can explain your why, the intent.",
+  "zh": "在这里你可以解释你的为什么，也就是意图。"
+ },
+ {
+  "seg": 195,
+  "start": 944.918,
+  "end": 949.381,
+  "speaker": "Unknown",
+  "en": "We've got exactly the same sentence that I was showing earlier written on in a markdown file.",
+  "zh": "我们把我前面展示过的那句话一字不差地写在了某个 markdown 文件里。"
+ },
+ {
+  "seg": 196,
+  "start": 949.961,
+  "end": 951.622,
+  "speaker": "Unknown",
+  "en": "It works about 80% of the time.",
+  "zh": "它大约 80% 的时候是管用的。"
+ },
+ {
+  "seg": 197,
+  "start": 952.883,
+  "end": 955.765,
+  "speaker": "Unknown",
+  "en": "The upside is that it's very cheap to change and you can explain the reasoning.",
+  "zh": "好处是改起来非常便宜，而且你可以解释理由。"
+ },
+ {
+  "seg": 198,
+  "start": 956.585,
+  "end": 959.567,
+  "speaker": "Unknown",
+  "en": "The downside is you have to garden it because the files can grow over time.",
+  "zh": "坏处是你得一直打理它，因为这些文件会随时间不断膨胀。"
+ },
+ {
+  "seg": 199,
+  "start": 960.248,
+  "end": 961.709,
+  "speaker": "Unknown",
+  "en": "And at the end of the day, it's just advice.",
+  "zh": "而且说到底，它只是建议而已。"
+ },
+ {
+  "seg": 200,
+  "start": 962.67,
+  "end": 965.292,
+  "speaker": "Unknown",
+  "en": "Text can shape the intent, but there is no enforcement anywhere.",
+  "zh": "文本可以塑造意图，但任何地方都没有强制执行。"
+ },
+ {
+  "seg": 201,
+  "start": 966.673,
+  "end": 970.256,
+  "speaker": "Unknown",
+  "en": "The second place is infrastructure, which is the proxy layer for us.",
+  "zh": "第二个地方是基础设施，对我们来说就是代理层。"
+ },
+ {
+  "seg": 202,
+  "start": 970.396,
+  "end": 972.537,
+  "speaker": "Unknown",
+  "en": "So the proxy is not reading the prompt.",
+  "zh": "所以代理不去读提示词。"
+ },
+ {
+  "seg": 203,
+  "start": 972.557,
+  "end": 976.12,
+  "speaker": "Unknown",
+  "en": "It doesn't know why the agent wants to do something, and it doesn't really care.",
+  "zh": "它不知道智能体为什么想做某件事，它也真的不在乎。"
+ },
+ {
+  "seg": 204,
+  "start": 976.801,
+  "end": 977.922,
+  "speaker": "Unknown",
+  "en": "It will see a delete happening.",
+  "zh": "它会看到一个删除操作正在发生。"
+ },
+ {
+  "seg": 205,
+  "start": 978.102,
+  "end": 982.465,
+  "speaker": "Unknown",
+  "en": "It will see a budget being crossed, and it will simply return a 403, and that's the whole conversation, really.",
+  "zh": "它会看到预算被越过，它就会直接返回一个 403，这就是全部的对话了，真的。"
+ },
+ {
+  "seg": 206,
+  "start": 983.026,
+  "end": 983.466,
+  "speaker": "Unknown",
+  "en": "It's narrow.",
+  "zh": "它很窄。"
+ },
+ {
+  "seg": 207,
+  "start": 983.486,
+  "end": 984.206,
+  "speaker": "Unknown",
+  "en": "It's deterministic.",
+  "zh": "它是确定性的。"
+ },
+ {
+  "seg": 208,
+  "start": 985.347,
+  "end": 988.309,
+  "speaker": "Unknown",
+  "en": "It counts, compares, it can allow or delete or deny.",
+  "zh": "它计数、比较，它可以允许或删除或拒绝。"
+ },
+ {
+  "seg": 209,
+  "start": 988.589,
+  "end": 993.833,
+  "speaker": "Unknown",
+  "en": "What it can't do is explain the why, and a clever prompt injection cannot really talk it out of the rule itself.",
+  "zh": "它做不到的是解释为什么，而且一个聪明的提示词注入也没法真的说服它放弃规则本身。"
+ },
+ {
+  "seg": 210,
+  "start": 994.233,
+  "end": 995.394,
+  "speaker": "Unknown",
+  "en": "So you need both.",
+  "zh": "所以你需要两者。"
+ },
+ {
+  "seg": 211,
+  "start": 996.434,
+  "end": 1000.377,
+  "speaker": "Unknown",
+  "en": "The text shapes what an agent is trying to do, and infra is bounding how wrong can it go.",
+  "zh": "文本塑造智能体想做什么，而基础设施在约束它能错到什么程度。"
+ },
+ {
+  "seg": 212,
+  "start": 1003.053,
+  "end": 1007.177,
+  "speaker": "Unknown",
+  "en": "So zooming out, this is where the infrastructure sort of really lives for us.",
+  "zh": "那么拉远视角，这就是基础设施对我们来说真正所在的位置。"
+ },
+ {
+  "seg": 213,
+  "start": 1007.197,
+  "end": 1010.099,
+  "speaker": "Unknown",
+  "en": "So like every agent session has its own proxy running right next to it.",
+  "zh": "就像每个智能体会话都有它自己的代理运行在它旁边。"
+ },
+ {
+  "seg": 214,
+  "start": 1010.88,
+  "end": 1014.703,
+  "speaker": "Unknown",
+  "en": "The agent starts off by reading its own context file, the markdown files that I was showing earlier.",
+  "zh": "智能体一开始会读它自己的上下文文件，就是我之前展示的那些 markdown 文件。"
+ },
+ {
+  "seg": 215,
+  "start": 1014.723,
+  "end": 1015.904,
+  "speaker": "Unknown",
+  "en": "That's the text layer.",
+  "zh": "那是文本层。"
+ },
+ {
+  "seg": 216,
+  "start": 1016.325,
+  "end": 1020.368,
+  "speaker": "Unknown",
+  "en": "And every outbound call goes through the proxy after that point, which is the infrastructure layer.",
+  "zh": "而从那之后每一个出站调用都要经过代理，这就是基础设施层。"
+ },
+ {
+  "seg": 217,
+  "start": 1020.788,
+  "end": 1027.735,
+  "speaker": "Unknown",
+  "en": "So the proxy is not like, whatever the agent is trying to do, the proxy is only responsible for stamping that action with the agent's identity.",
+  "zh": "所以代理不是那样的，不管智能体想做什么，代理只负责给那个动作盖上智能体的身份。"
+ },
+ {
+  "seg": 218,
+  "start": 1028.655,
+  "end": 1033.42,
+  "speaker": "Unknown",
+  "en": "If the agent is trying to launch a bunch of jobs in a Kubernetes cluster, the proxy is not following it.",
+  "zh": "如果智能体想在 Kubernetes 集群里启动一堆作业，代理并不跟踪它。"
+ },
+ {
+  "seg": 219,
+  "start": 1033.78,
+  "end": 1037.603,
+  "speaker": "Unknown",
+  "en": "What is following is the stamp itself, the identity itself.",
+  "zh": "跟踪它的是那个印记本身，是身份本身。"
+ },
+ {
+  "seg": 220,
+  "start": 1038.464,
+  "end": 1046.291,
+  "speaker": "Unknown",
+  "en": "In this example, the cluster would write the stamp onto the job as a label, and every child job or anything that's happening afterwards simply inherits the same identity.",
+  "zh": "在这个例子里，集群会把印记作为标签写到作业上，之后每一个子作业或发生的任何事情都直接继承同一个身份。"
+ },
+ {
+  "seg": 221,
+  "start": 1047.622,
+  "end": 1053.304,
+  "speaker": "Unknown",
+  "en": "And every safeguard that is there in the rest of our systems, they're simply reading that one label.",
+  "zh": "而我们系统其余部分里的每一个保障措施，它们都只是读那一个标签。"
+ },
+ {
+  "seg": 222,
+  "start": 1053.984,
+  "end": 1061.287,
+  "speaker": "Unknown",
+  "en": "Whether it's ownership, whether it's quotas, rate limits, approvals, tripwires, whatever it is, they're all keyed on the same stamp and the agent never got to touch it.",
+  "zh": "无论是所有权、配额、速率限制、审批、绊线，无论是什么，它们都以同一个印记为键，而智能体从来没碰过它。"
+ },
+ {
+  "seg": 223,
+  "start": 1063.722,
+  "end": 1078.93,
+  "speaker": "Unknown",
+  "en": "So, that's roughly the shape of it, but before I wrap up, I want to spend like 30 seconds on why it has to be a proxy layer, like a different layer that is doing the stamping on this identity and not the caller itself, because without it, the agent can roughly pick a different name, and every limit that you've basically set resets.",
+  "zh": "所以，这大致就是它的形状，但在我收尾之前，我想花大概 30 秒讲讲为什么它必须是一个代理层，比如一个不同的层来做这个身份的盖章，而不是调用者本身，因为没有它，智能体大致可以换个名字，而你设置的所有限制基本上都重置了。"
+ },
+ {
+  "seg": 224,
+  "start": 1081.092,
+  "end": 1081.272,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 225,
+  "start": 1082.375,
+  "end": 1085.397,
+  "speaker": "Unknown",
+  "en": "Say the agent has the ability to set its own identity in a header, right?",
+  "zh": "假设智能体有能力在头部里设置它自己的身份，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1085.497,
+  "end": 1091.28,
+  "speaker": "Unknown",
+  "en": "So let's say it hits a specific limit, and what's the easiest fix from an agent's point of view that it can do?",
+  "zh": "那么假设它撞上了某个特定的限制，从智能体的角度来看，它能做的最简单的修复是什么？"
+ },
+ {
+  "seg": 227,
+  "start": 1091.34,
+  "end": 1092.721,
+  "speaker": "Unknown",
+  "en": "Like, it'll just change the header.",
+  "zh": "比如，它只要换个头部就行。"
+ },
+ {
+  "seg": 228,
+  "start": 1093.061,
+  "end": 1095.443,
+  "speaker": "Unknown",
+  "en": "In this case, it'll just say instead of Sachin, Sachin2.",
+  "zh": "在这种情况下，它只要把 Sachin 改成 Sachin2。"
+ },
+ {
+  "seg": 229,
+  "start": 1096.043,
+  "end": 1098.385,
+  "speaker": "Unknown",
+  "en": "And voila, you just have a fresh budget to work with.",
+  "zh": "瞧，你就又有了一个全新的预算可以用。"
+ },
+ {
+  "seg": 230,
+  "start": 1099.045,
+  "end": 1101.666,
+  "speaker": "Unknown",
+  "en": "Now, in this case, you technically don't have a rate limit.",
+  "zh": "现在，在这种情况下，你在技术上其实没有一个速率限制。"
+ },
+ {
+  "seg": 231,
+  "start": 1101.686,
+  "end": 1102.746,
+  "speaker": "Unknown",
+  "en": "You just have a suggestion.",
+  "zh": "你只有一个建议。"
+ },
+ {
+  "seg": 232,
+  "start": 1103.606,
+  "end": 1106.147,
+  "speaker": "Unknown",
+  "en": "With the proxy in the path, the agent never gets to say who it is.",
+  "zh": "有了代理在链路中，智能体永远不能说它是谁。"
+ },
+ {
+  "seg": 233,
+  "start": 1106.327,
+  "end": 1107.387,
+  "speaker": "Unknown",
+  "en": "The proxy already knows.",
+  "zh": "代理已经知道了。"
+ },
+ {
+  "seg": 234,
+  "start": 1107.987,
+  "end": 1109.708,
+  "speaker": "Unknown",
+  "en": "It's the thing that's holding real credentials.",
+  "zh": "它是那个持有真实凭证的东西。"
+ },
+ {
+  "seg": 235,
+  "start": 1110.268,
+  "end": 1114.629,
+  "speaker": "Unknown",
+  "en": "And it stamps every call with the identity that it already knows, not the one that agent claims.",
+  "zh": "它用它已经知道的身份给每一个调用盖章，而不是智能体声称的那个身份。"
+ },
+ {
+  "seg": 236,
+  "start": 1115.189,
+  "end": 1126.312,
+  "speaker": "Unknown",
+  "en": "And because proxy is the one that is stamping, you also get this per session ID so that you're able to differentiate different sessions that are running all for you and see which one's overreacting or which one's not acting as it's supposed to be.",
+  "zh": "而且因为是代理在盖章，你还能得到这个按会话 ID 的区分，这样你就能区分所有为你运行的不同会话，看看哪个在过度反应，或者哪个没有按它应该的方式行动。"
+ },
+ {
+  "seg": 237,
+  "start": 1129.825,
+  "end": 1139.049,
+  "speaker": "Unknown",
+  "en": "So again, just stuff that I want you to take home with is give the agent access to verbs that would fail out loud and keep the human on the ones that can fail out quietly.",
+  "zh": "所以再说一次，我想让你们带走的东西就是：给智能体那些会大声失败的动词的访问权，而把那些会安静失败的留给人类。"
+ },
+ {
+  "seg": 238,
+  "start": 1139.749,
+  "end": 1145.151,
+  "speaker": "Unknown",
+  "en": "Two, you put a ceiling on every right and that has the ability to refill on its own so nobody's effectively filing tickets.",
+  "zh": "第二，你给每个写入设一个上限，而它有能力自行恢复填充，这样就没人需要实际上去提工单。"
+ },
+ {
+  "seg": 239,
+  "start": 1146.051,
+  "end": 1150.853,
+  "speaker": "Unknown",
+  "en": "Three, you watch the aggregate and not the individual calls that help you understand the agent's behavior.",
+  "zh": "第三，你观察聚合情况而不是单个调用，这能帮你理解智能体的行为。"
+ },
+ {
+  "seg": 240,
+  "start": 1151.994,
+  "end": 1153.695,
+  "speaker": "Unknown",
+  "en": "And then you fix whatever you can with the sentence.",
+  "zh": "然后你用哨兵(sentences)修好你能修的一切。"
+ },
+ {
+  "seg": 241,
+  "start": 1154.515,
+  "end": 1161.319,
+  "speaker": "Unknown",
+  "en": "And four, you use the undo test to sort of size all of these three or any other primitives that you have for your own write operations.",
+  "zh": "第四，你用撤销测试来为你自己的写入操作给这三条或你拥有的任何其他原语定量 sizing。"
+ },
+ {
+  "seg": 242,
+  "start": 1161.839,
+  "end": 1167.962,
+  "speaker": "Unknown",
+  "en": "And underneath all of this is this concept of identity, which has to come from the infrastructure, not from the request.",
+  "zh": "而在所有这些之下的是身份这个概念，它必须来自基础设施，而不是来自请求。"
+ },
+ {
+  "seg": 243,
+  "start": 1168.602,
+  "end": 1169.623,
+  "speaker": "Unknown",
+  "en": "I feel like that's one rule.",
+  "zh": "我觉得这就是一条规则。"
+ },
+ {
+  "seg": 244,
+  "start": 1169.663,
+  "end": 1172.784,
+  "speaker": "Unknown",
+  "en": "If you get that one rule right, everything else is just tuning.",
+  "zh": "如果你把这一条规则做对了，其他一切都只是调优。"
+ },
+ {
+  "seg": 245,
+  "start": 1173.985,
+  "end": 1174.265,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 246,
+  "start": 1183.915,
+  "end": 1185.761,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

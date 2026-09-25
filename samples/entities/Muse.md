@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire]] · [[Meta]] · [[智能体]] · [[OpenClaw]] · [[浏览器使用]] · [[权限授予]] · [[活动流]] · [[目标]] · [[信息流]] · [[资料库]]
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Meta":35,"智能体":309,"OpenClaw":18,"浏览器使用":8,"权限授予":1,"活动流":1,"目标":1,"信息流":1,"资料库":1}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Meta":35,"智能体":312,"OpenClaw":18,"浏览器使用":8,"权限授予":1,"活动流":1,"目标":1,"信息流":1,"资料库":1}</script>
 
 <script>
 (function(){

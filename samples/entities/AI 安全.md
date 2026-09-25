@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[对齐]] · [[超级智能]] · [[Alex]] · [[Theo Jaffe]] · [[Nick Bostrom]] · [[Eddy Lazzarin]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":128,"Hugging Face":23,"智能体":309,"对齐":9,"超级智能":5,"Alex":5,"Theo Jaffe":7,"Nick Bostrom":1,"Eddy Lazzarin":1,"Anthropic":135}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":128,"Hugging Face":23,"智能体":312,"对齐":9,"超级智能":5,"Alex":5,"Theo Jaffe":7,"Nick Bostrom":1,"Eddy Lazzarin":1,"Anthropic":136}</script>
 
 <script>
 (function(){

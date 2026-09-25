@@ -1,0 +1,1319 @@
+{
+  "episode_id": "2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "AI 基础设施",
+    "CI/CD",
+    "权限与身份"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "sachin-malhotra",
+      "type": "person",
+      "role": "guest",
+      "name": "Sachin Malhotra",
+      "file": "Sachin Malhotra",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集嘉宾所在的公司：Sachin 是 Anthropic CI 团队的工程师，讲述公司内部智能体在生产环境安全运行的实践与删除事故复盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.969,
+            27.929
+          ],
+          "quote": "I'm an engineer on the CI team at Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线对象：智能体像永不疲倦、偶尔自信犯错的新员工，应被给予预算（非对称动词、速率限制、绊线、撤销测试）而非无限制令牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.38,
+            22.171
+          ],
+          "quote": "So welcome to the talk, Give the Agent a Budget, Not a Token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            54.243,
+            58.187
+          ],
+          "quote": "So a lot of cool agent demos, they start with the same way, really.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            58.327,
+            64.833
+          ],
+          "quote": "So someone gives an agent a god token and gives it an access to some sort of tool list and just watches it go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            79.066,
+            86.45
+          ],
+          "quote": "And this talk is basically about what happens after that, after the demo ships, once the agent is starting to do some real work in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            94.814,
+            96.535
+          ],
+          "quote": "The agent was trying to clean up after itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            127.643,
+            131.344
+          ],
+          "quote": "The agent genuinely thought it was tidying up after itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            150.635,
+            154.498
+          ],
+          "quote": "Like, it just doesn't scale when the agent is starting to do some, like, real work in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            192.919,
+            195.782
+          ],
+          "quote": "The agent technically hadn't done anything that I couldn't have done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            200.526,
+            206.692
+          ],
+          "quote": "The failure was that I was giving the agent unbounded amount of power to do something that I wasn't watching super intently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            281.996,
+            283.637
+          ],
+          "quote": "And it also doesn't work for an agent either.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            284.498,
+            298.247
+          ],
+          "quote": "Maybe it works for about a week, maybe two, but then you eventually end up in a situation where the agent is genuinely trying to delete something that it feels like is just not in the infrastructure, and you will just be there sitting and pressing enter by hand all over again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            309.086,
+            313.148
+          ],
+          "quote": "So if the token list is too tight, then your agent is effectively useless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            326.336,
+            327.577
+          ],
+          "quote": "How much can the agent do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            351.851,
+            355.394
+          ],
+          "quote": "And by verbs, I simply mean operations or actions that an agent can take.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            381.993,
+            391.317
+          ],
+          "quote": "So in this particular example, let's say if an agent decides to unskip a test and say it's the wrong call, the worst that would happen is CI would go red for a bunch of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            393.177,
+            400.14
+          ],
+          "quote": "If an agent decides to page a human and if it's the wrong call, the worst that's happening is that it's a nuisance for the on-call, but there is always a human to correct it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            403.522,
+            409.886
+          ],
+          "quote": "So if the agent decides to skip a test due to whatever reason it shouldn't have, nothing technically turns red.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            427.119,
+            432.414
+          ],
+          "quote": "Access to verbs that can fill out loudly on a dashboard to your agent and for the other ones just involve a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            451.218,
+            458.922
+          ],
+          "quote": "Now, the agent has the ability to re-enable any one of these zones depending on when it evaluates, when the tests are working fine and stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            475.727,
+            483.01
+          ],
+          "quote": "And so in that scenario, if an agent actually gets it wrong, a real bug can walk into production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            486.891,
+            491.316
+          ],
+          "quote": "And the key detail is that the agent itself is not responsible for writing the row or the audit trail itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            501.445,
+            504.849
+          ],
+          "quote": "The agent technically never holds the pen on its own provenance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            534.09,
+            539.872
+          ],
+          "quote": "So the agent gets full autonomy within the limit, and there is a hard ceiling on how bad a single loop can get.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            582.421,
+            590.603
+          ],
+          "quote": "And the part that I absolutely love in this case is that inside a Claude Code session or inside an agent session effectively, the bypass flag simply refuses to do anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            591.083,
+            594.404
+          ],
+          "quote": "All it's going to do is tell the agent to ask the human to run the command itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            595.304,
+            603.086
+          ],
+          "quote": "So the agent effectively gets the rate limit and the human keeps the override and nobody effectively has to file a ticket for the limit because it just like refills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            610.127,
+            617.995
+          ],
+          "quote": "So in my mind, an allow list is effectively a guess that you're making upfront about what the agent needs or about model behavior or agent behavior itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            618.476,
+            624.422
+          ],
+          "quote": "I feel like it's pretty static, and you write it upfront before you have any data on how the agent is behaving in different situations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            629.205,
+            634.987
+          ],
+          "quote": "So for cheap actions, you let the agent act and every action gets recorded with the actor sort of stamp, identity stamp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            651.437,
+            656.903
+          ],
+          "quote": "And usually when a tripwire goes off, the fix is like maybe one or two lines in the agent's context and not really a big code change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            666.787,
+            673.112
+          ],
+          "quote": "So we track one number, which is the number of investigation threads that our agent is launching per hour for a given test job failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            690.807,
+            698.114
+          ],
+          "quote": "The agent has spun up, in this particular scenario, a bunch of investigation threads for dozens of jobs that were all failing with the same kind of error signature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            708.401,
+            719.444
+          ],
+          "quote": "So the fix in this case was simply as telling the agent, hey, the next time you encounter something like this, maybe try to correlate a bunch of different failures and test jobs and stuff before launching a separate investigation thread.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            746.175,
+            748.217
+          ],
+          "quote": "One, can the agent put it back by itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            763.603,
+            770.987
+          ],
+          "quote": "So if the agent can effectively roll back its own change and the blast radius is acceptable to you, you effectively log it and you let it go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            775.65,
+            779.592
+          ],
+          "quote": "And the second key is not something that the agent holds itself, it has to be someone else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            792.046,
+            795.549
+          ],
+          "quote": "So our agent has a key for one of our feature flag services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            796.189,
+            801.633
+          ],
+          "quote": "So on the canary side, which is basically a staging traffic and a bunch of dog-fooding customers, the agent effectively has the full dial.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            815.563,
+            818.924
+          ],
+          "quote": "What the agent's key is not scoped to do is for promoting the flag to real production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            819.544,
+            828.027
+          ],
+          "quote": "The best that an agent can do for now in a lot of cases is that it can propose that someone actually promote the feature flag in production because it's been tested out in Canary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            858.422,
+            861.904
+          ],
+          "quote": "Every action that the agent is taking is stamped with its own identity and not mine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            872.766,
+            879.431
+          ],
+          "quote": "The verbs ask what the agent is touching, the rate limit asks how often, and the tripwires catch what happened afterwards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            937.774,
+            942.137
+          ],
+          "quote": "That's prompts, that's your context files, mark down the agent reads before it can act.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            972.557,
+            976.12
+          ],
+          "quote": "It doesn't know why the agent wants to do something, and it doesn't really care.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            996.434,
+            1000.377
+          ],
+          "quote": "The text shapes what an agent is trying to do, and infra is bounding how wrong can it go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1007.197,
+            1010.099
+          ],
+          "quote": "So like every agent session has its own proxy running right next to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1010.88,
+            1014.703
+          ],
+          "quote": "The agent starts off by reading its own context file, the markdown files that I was showing earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1020.788,
+            1027.735
+          ],
+          "quote": "So the proxy is not like, whatever the agent is trying to do, the proxy is only responsible for stamping that action with the agent's identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1028.655,
+            1033.42
+          ],
+          "quote": "If the agent is trying to launch a bunch of jobs in a Kubernetes cluster, the proxy is not following it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1053.984,
+            1061.287
+          ],
+          "quote": "Whether it's ownership, whether it's quotas, rate limits, approvals, tripwires, whatever it is, they're all keyed on the same stamp and the agent never got to touch it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1063.722,
+            1078.93
+          ],
+          "quote": "So, that's roughly the shape of it, but before I wrap up, I want to spend like 30 seconds on why it has to be a proxy layer, like a different layer that is doing the stamping on this identity and not the caller itself, because without it, the agent can roughly pick a different name, and every limit that you've basically set resets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1082.375,
+            1085.397
+          ],
+          "quote": "Say the agent has the ability to set its own identity in a header, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1085.497,
+            1091.28
+          ],
+          "quote": "So let's say it hits a specific limit, and what's the easiest fix from an agent's point of view that it can do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1103.606,
+            1106.147
+          ],
+          "quote": "With the proxy in the path, the agent never gets to say who it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1110.268,
+            1114.629
+          ],
+          "quote": "And it stamps every call with the identity that it already knows, not the one that agent claims.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1129.825,
+            1139.049
+          ],
+          "quote": "So again, just stuff that I want you to take home with is give the agent access to verbs that would fail out loud and keep the human on the ones that can fail out quietly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1146.051,
+            1150.853
+          ],
+          "quote": "Three, you watch the aggregate and not the individual calls that help you understand the agent's behavior.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集场景基石：Anthropic 的 CI 团队构建测试隔离、合并自动化、CI 自动扩缩容等机制，让几千名工程师每天安全发布代码；智能体权限案例（如测试跳过/取消跳过）都发生在 CI 里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.969,
+            27.929
+          ],
+          "quote": "I'm an engineer on the CI team at Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            33.851,
+            39.953
+          ],
+          "quote": "So everything from test quarantining to merge automation to CI auto-scaling to merge queues, everything and anything in between.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            381.993,
+            391.317
+          ],
+          "quote": "So in this particular example, let's say if an agent decides to unskip a test and say it's the wrong call, the worst that would happen is CI would go red for a bunch of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            434.67,
+            450.718
+          ],
+          "quote": "Just a bit of context on CI stuff and how this plays out for us is that we have a test quarantining service behind the scenes, and it basically holds a list of all the tests that are currently skipped because an on-call decided that they had to break glass a certain situation whenever there was an incident or something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            787.843,
+            792.006
+          ],
+          "quote": "Let me just show you another example of how this works outside of the CI domain specifically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "令牌 (token)",
+      "file": "令牌",
+      "primary": true,
+      "how_described": "本集批判的对象：令牌是一个布尔值、静态的权限列表——太紧智能体没用，太宽就是在写事故复盘；标题主张「给预算，不是给令牌」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.38,
+            22.171
+          ],
+          "quote": "So welcome to the talk, Give the Agent a Budget, Not a Token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            58.327,
+            64.833
+          ],
+          "quote": "So someone gives an agent a god token and gives it an access to some sort of tool list and just watches it go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            142.97,
+            150.575
+          ],
+          "quote": "The problem in this case is that this idea of, like, here's a token and here's a tool list, that is just, like, not enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            196.943,
+            198.084
+          ],
+          "quote": "It was using my token after all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            263.742,
+            273.63
+          ],
+          "quote": "And that brings me to the word in the title of my talk here is that the standard fix for an incident like that is basically that you narrow the token scope, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            299.682,
+            303.484
+          ],
+          "quote": "The core concept with the token that I feel like is wrong is that a token is a Boolean.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            309.086,
+            313.148
+          ],
+          "quote": "So if the token list is too tight, then your agent is effectively useless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            313.369,
+            317.791
+          ],
+          "quote": "If the token list is too wide, then you're maybe writing like a postmortem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rate-limit",
+      "type": "concept",
+      "role": "concept",
+      "name": "速率限制 (rate limit)",
+      "file": "速率限制",
+      "primary": true,
+      "how_described": "本集三大原语之二：预算理念最具体的形式——一个会自动补充的天花板，每个调用者每时间窗拿到少量破坏性操作额度，越线即弹回，无需工单提额。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            540.652,
+            543.053
+          ],
+          "quote": "And every write effectively gets a rate limit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            545.033,
+            546.633
+          ],
+          "quote": "What changes is the size of the rate limit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            546.653,
+            551.775
+          ],
+          "quote": "So if I'm trying to delete a bunch of workloads in my own namespace, my rate limit might be higher.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            595.304,
+            603.086
+          ],
+          "quote": "So the agent effectively gets the rate limit and the human keeps the override and nobody effectively has to file a ticket for the limit because it just like refills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            872.766,
+            879.431
+          ],
+          "quote": "The verbs ask what the agent is touching, the rate limit asks how often, and the tripwires catch what happened afterwards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            883.703,
+            891.706
+          ],
+          "quote": "Now, the original sort of cold open delete that I was showing you, the incident itself, the rate limit itself would have capped it at a few couple of tens of workloads itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1099.045,
+            1101.666
+          ],
+          "quote": "Now, in this case, you technically don't have a rate limit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tripwire",
+      "type": "concept",
+      "role": "concept",
+      "name": "绊线 (tripwire)",
+      "file": "绊线",
+      "primary": true,
+      "how_described": "本集三大原语之三：绊线优于允许列表——它是事后获取行为数据的方式，观察聚合指标（如智能体每小时发起的调查线程数），触线呼叫值班人员；像烟雾报警器而非门锁，会随时间变好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            625.123,
+            628.745
+          ],
+          "quote": "A tripwire, on the other hand, is how you get that data, like after the fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            651.437,
+            656.903
+          ],
+          "quote": "And usually when a tripwire goes off, the fix is like maybe one or two lines in the agent's context and not really a big code change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            673.653,
+            677.816
+          ],
+          "quote": "So one morning, say, the number was way above the baseline, and the tripwire page is on call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            677.956,
+            681.74
+          ],
+          "quote": "And that part's important, because a tripwire that nobody sees is practically useless.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "allow-list",
+      "type": "concept",
+      "role": "concept",
+      "name": "允许列表 (allow list)",
+      "file": "允许列表",
+      "primary": true,
+      "how_described": "本集作为绊线的对照被讨论：允许列表是你预先做出的猜测、写在还没有任何行为数据之前，静态且只会过时、不会随时间变好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            610.127,
+            617.995
+          ],
+          "quote": "So in my mind, an allow list is effectively a guess that you're making upfront about what the agent needs or about model behavior or agent behavior itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asymmetric-verbs",
+      "type": "concept",
+      "role": "concept",
+      "name": "非对称动词 (asymmetric verbs)",
+      "file": "非对称动词",
+      "primary": true,
+      "how_described": "本集三大原语之一：智能体可做的操作（API 调用、CLI 命令）爆炸半径不同；要把会大声失败的动词（CI 变红）给智能体，会安静失败的（跳过测试放 bug 进生产）留给人类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            160.718,
+            165.159
+          ],
+          "quote": "I'm gonna walk through three primitives and asymmetric verbs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            347.808,
+            350.931
+          ],
+          "quote": "So I'm going to start off with this first verb, which I call asymmetric verbs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            752.46,
+            762.387
+          ],
+          "quote": "And this sounds like asymmetric verbs in a sense, but it's kind of different because the verbs ask whether you would notice the failure, and undo asks whether you can recover from it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "undo-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "撤销测试 (undo test)",
+      "file": "撤销测试",
+      "primary": true,
+      "how_described": "本集提出的衡量标尺：问两个问题——智能体能不能自己恢复？搞错了影响多糟？任一为否就需要智能体拿不到的第二把钥匙加审计记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            171.422,
+            178.345
+          ],
+          "quote": "And then I'm gonna talk about this one lens which I call the undo test that you can sort of use to size up the other three primitives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            734.687,
+            739.27
+          ],
+          "quote": "Now, the lens I mentioned at the start is this idea of undo test, and this one's slightly different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            879.491,
+            882.814
+          ],
+          "quote": "And the undo test is sort of the lens that I personally use to size all these three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            892.346,
+            898.548
+          ],
+          "quote": "The undo test, if you would be thinking about it, it would basically tell you that you can't undelete a running job in someone else's namespace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1154.515,
+            1161.319
+          ],
+          "quote": "And four, you use the undo test to sort of size all of these three or any other primitives that you have for your own write operations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proxy",
+      "type": "concept",
+      "role": "concept",
+      "name": "代理 (proxy)",
+      "file": "代理",
+      "primary": true,
+      "how_described": "本集基础设施层的核心：坐在智能体和真实系统之间的确定性代理，不读提示词、只计数比较允许拒绝，给每次调用盖上身份戳，越预算直接返回 403，提示词注入说服不了它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            491.656,
+            499.904
+          ],
+          "quote": "There is a proxy in the middle that I've highlighted that I'm going to talk about in a little bit, which is responsible for stamping the caller's main identity on every call, whether it's a skip or an unskip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            966.673,
+            970.256
+          ],
+          "quote": "The second place is infrastructure, which is the proxy layer for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            970.396,
+            972.537
+          ],
+          "quote": "So the proxy is not reading the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1007.197,
+            1010.099
+          ],
+          "quote": "So like every agent session has its own proxy running right next to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1016.325,
+            1020.368
+          ],
+          "quote": "And every outbound call goes through the proxy after that point, which is the infrastructure layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1020.788,
+            1027.735
+          ],
+          "quote": "So the proxy is not like, whatever the agent is trying to do, the proxy is only responsible for stamping that action with the agent's identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1028.655,
+            1033.42
+          ],
+          "quote": "If the agent is trying to launch a bunch of jobs in a Kubernetes cluster, the proxy is not following it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1063.722,
+            1078.93
+          ],
+          "quote": "So, that's roughly the shape of it, but before I wrap up, I want to spend like 30 seconds on why it has to be a proxy layer, like a different layer that is doing the stamping on this identity and not the caller itself, because without it, the agent can roughly pick a different name, and every limit that you've basically set resets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1103.606,
+            1106.147
+          ],
+          "quote": "With the proxy in the path, the agent never gets to say who it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1106.327,
+            1107.387
+          ],
+          "quote": "The proxy already knows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1115.189,
+            1126.312
+          ],
+          "quote": "And because proxy is the one that is stamping, you also get this per session ID so that you're able to differentiate different sessions that are running all for you and see which one's overreacting or which one's not acting as it's supposed to be.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份 (identity)",
+      "file": "身份",
+      "primary": true,
+      "how_described": "本集强调的唯一真正重要的规则：身份必须来自基础设施而非请求——由代理盖章而非智能体自报，否则它改成 Sachin2 就拿到全新预算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            491.656,
+            499.904
+          ],
+          "quote": "There is a proxy in the middle that I've highlighted that I'm going to talk about in a little bit, which is responsible for stamping the caller's main identity on every call, whether it's a skip or an unskip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            629.205,
+            634.987
+          ],
+          "quote": "So for cheap actions, you let the agent act and every action gets recorded with the actor sort of stamp, identity stamp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            858.422,
+            861.904
+          ],
+          "quote": "Every action that the agent is taking is stamped with its own identity and not mine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1020.788,
+            1027.735
+          ],
+          "quote": "So the proxy is not like, whatever the agent is trying to do, the proxy is only responsible for stamping that action with the agent's identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1033.78,
+            1037.603
+          ],
+          "quote": "What is following is the stamp itself, the identity itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1038.464,
+            1046.291
+          ],
+          "quote": "In this example, the cluster would write the stamp onto the job as a label, and every child job or anything that's happening afterwards simply inherits the same identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1063.722,
+            1078.93
+          ],
+          "quote": "So, that's roughly the shape of it, but before I wrap up, I want to spend like 30 seconds on why it has to be a proxy layer, like a different layer that is doing the stamping on this identity and not the caller itself, because without it, the agent can roughly pick a different name, and every limit that you've basically set resets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1082.375,
+            1085.397
+          ],
+          "quote": "Say the agent has the ability to set its own identity in a header, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1110.268,
+            1114.629
+          ],
+          "quote": "And it stamps every call with the identity that it already knows, not the one that agent claims.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1161.839,
+            1167.962
+          ],
+          "quote": "And underneath all of this is this concept of identity, which has to come from the infrastructure, not from the request.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "功能开关 (feature flag)",
+      "file": "功能开关",
+      "primary": true,
+      "how_described": "本集 CI 之外的第二把钥匙案例：智能体在金丝雀环境拥有完整旋钮可从 0 推到 100、按 bug 报告切换，但无权提升到真正的生产环境，只能提议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            792.046,
+            795.549
+          ],
+          "quote": "So our agent has a key for one of our feature flag services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            801.713,
+            809.759
+          ],
+          "quote": "It has the ability to ramp up a specific feature flag, roll it out to all of the canary traffic, and it can take it all the way from zero to 100.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            819.544,
+            828.027
+          ],
+          "quote": "The best that an agent can do for now in a lot of cases is that it can propose that someone actually promote the feature flag in production because it's been tested out in Canary.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "canary",
+      "type": "concept",
+      "role": "concept",
+      "name": "金丝雀 (canary)",
+      "file": "金丝雀",
+      "primary": true,
+      "how_described": "本集功能开关案例中的环境：由预发布流量加内部试用客户组成，智能体在此有完整权限，与真正的生产环境各持一把不同的受限钥匙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            796.189,
+            801.633
+          ],
+          "quote": "So on the canary side, which is basically a staging traffic and a bunch of dog-fooding customers, the agent effectively has the full dial.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            801.713,
+            809.759
+          ],
+          "quote": "It has the ability to ramp up a specific feature flag, roll it out to all of the canary traffic, and it can take it all the way from zero to 100.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            819.544,
+            828.027
+          ],
+          "quote": "The best that an agent can do for now in a lot of cases is that it can propose that someone actually promote the feature flag in production because it's been tested out in Canary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            833.849,
+            837.15
+          ],
+          "quote": "It's a scoped key for production and a scoped key for Canary.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集一笔带过：聪明的提示词注入也说服不了代理层放弃规则——用来说明基础设施强制执行的确定性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            988.589,
+            993.833
+          ],
+          "quote": "What it can't do is explain the why, and a clever prompt injection cannot really talk it out of the rule itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集顺带提及：准入 webhook 的绕过标志在 Claude Code 会话里直接失效，只会让智能体请人类自己运行命令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            582.421,
+            590.603
+          ],
+          "quote": "And the part that I absolutely love in this case is that inside a Claude Code session or inside an agent session effectively, the bypass flag simply refuses to do anything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集顺带举例：智能体在集群里启动作业时，集群把代理盖的身份戳作为标签写到作业上，子作业继承同一身份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1028.655,
+            1033.42
+          ],
+          "quote": "If the agent is trying to launch a bunch of jobs in a Kubernetes cluster, the proxy is not following it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

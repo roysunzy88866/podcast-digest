@@ -1,152 +1,131 @@
 ===标题===
-Zapier CEO 的 AI 素养评分标准：变革级是「样本量为一」
+Zapier CEO 亲授：AI 素养量表与产品工厂怎么建
 ===导语===
-Zapier 联合创始人兼 CEO Wade Foster 展示公司的 AI 素养评分标准，现场批改产品经理作业，并演示他个人的智能体工作流。
-===正文##
+Zapier CEO 兼联合创始人 Wade Foster 公开公司的 AI 素养评级标准，现场评审 PM 工作产物，并展示他个人的智能体工作流。
+===正文===
+把「会用 AI」写进绩效考核，Zapier、Shopify 已经在做——Zapier CEO Wade Foster 断言：AI 在 2026 年只是每份工作的标准期望。他是 Zapier 的 CEO 兼联合创始人，也是那份被大量公司效仿、疯传的 AI 素养量表（rubric）的作者。这一集他不仅讲量表，还当场给主持人的三份 PM 工作产物打分，把「什么算合格、什么算不可接受」演示得清清楚楚。
 
-这一集聊的是 2026 年产品经理到底该怎么用 AI 才算合格。主角 Wade Foster 是自动化平台 Zapier 的 CEO 和联合创始人，他写的那份疯传的 AI 素养评分标准(AI fluency rubric)可以说是这条赛道的起点。他这回不只是讲理论，而是当场批改主持人的三份「PM 作业」，从「不可接受」一路打到「变革级」——中间暴露的评判逻辑，比标准本身更值钱 [02:57 Wade Foster]。
+## 量表：四档标准，底线是「不可接受」
 
-## 四档评分标准：AI 会总结会写 PRD,只是及格线
+Zapier 的 V2 量表发布于 2026 年 3 月 31 日，把员工分成四档：能干型（capable）、采纳型（adoptive）、变革型（transformative），以及一条「不可接受」线——那是公司选择不录用的标准。以产品经理为例：在 2026 年还只用 AI 做总结、写作、查资料、生成基础 PRD，这只是入场门槛；公司真正想找的，是对生成规格说明、原型有一套结构化方法、能用 AI 挖掘海量定量定性用户洞察、能快速产出大量可用方案的人 [04:16 Wade Foster]。
 
-Zapier 把 AI 素养分成四档：胜任型(capable)、采纳型(adoptive)、变革型(transformative),外加一档「不可接受」——那是他们选择不录用的线 [03:00 Wade Foster]。注意门槛：在 2026 年，用 AI 做总结、写作、查资料、生成基础 PRD 这类事，「对大多数公司来说只是基本门槛」；他们要找的是有结构化方法生成规格说明和原型、能跨项目复用打磨、能用 AI 挖掘定量定性用户洞察、快速生成大量可行方案的人 [04:16 Wade Foster]。
+再往上是采纳型：PM 成为组织内的通才和「超级构建者」，借助 AI 把数据分析、营销、销售这些相邻技能用到 80-90% 的水平。而变革型的核心是系统构建——「你真正在想的是我如何构建这条智能体流水线：接进客户反馈、生成规格说明、原型化方案、交付功能。你可以开始思考，我们如何构建那个构建最终系统的系统」[05:45 Wade Foster]。
 
-再往上是系统构建——「你不再只是思考这个功能要如何运作，而是我如何构建这条智能体流水线：接进客户反馈、生成规格、做原型、发布功能」[05:57 Wade Foster]。这就是「构建那个构建终极系统的系统」，也就是变革级的起点 [06:11 Wade Foster]。
+值得注意的分布预期：Foster 说团队大部分时间应待在采纳型这一「曲线的肥厚中段」，偶尔做实验冲击变革型——因为「100% 的时间都待在变革型可能并没有帮助，如果你是这样，你其实并没有把工作做完，你只是在不停地调整你的系统和工作方式」[07:30 Wade Foster]。变革型的门槛极高：「对我来说，变革型就真的是，你是一个样本量为 1 的存在，你是做这件新事情的开创者」[63:17 Wade Foster]。Zapier 大约有 30-40 个 PM，他不需要 30 套各自为政的系统，而是要一套「Zapier 产品工厂」。
 
-一个反直觉的点：大多数 PM 不是、也不应该每天都待在变革级。「100% 的时间都待在那里可能并没有帮助，因为你其实没把工作做完——你一直在不停调整你的系统和工作方式」。Zapier 产品团队的大多数人常态是在采纳级附近，偶尔做实验冲一冲 [07:31 Wade Foster]。所以评分不是给人贴标签，更像「大部分时间我是这样，但有些地方有空洞，偶尔有些东西在上面」[08:08 Wade Foster]。
+## 现场评审：一份 PRD 的两版对比
 
-## 现场批改一：只有 PRD,在 2026 年已经过时
+主持人拿同一创意（给 Claude Code 做一个接上 Zapier 自动化平台的开发环境）写了两版 PRD 让 Foster 打分。第一版只有概述、问题、方案、指标——Foster 的评价是有不错的产品直觉，但「为什么止步于 PRD？」他给出两个提升方向：一，去把第一版原型构建出来——「重点不是让产品经理写生产级代码，重点是眼见为实」，「一个原型，就是一图胜千言的十倍」[17:30 Wade Foster]；二，去找客户证据——用 AI 筛查 Gong 通话录音、Zendesk 工单、Reddit、LinkedIn，弄清楚「我对这个产品形态的把握是不是对的」。过去这两件事要么做不了、要么要花几周并先争取认可，「而如今，那个获得认可的步骤可以晚得多才发生，你可以走得远得多」[20:35 Wade Foster]。
 
-主持人交了第一份作业：一份「给 Cloud Code 做 Zapier 测试框架」的 PRD,纯文档。Wade 先肯定了产品直觉——想法本身有意思，看出了「构建自动化有新方式」[16:28 Wade Foster]。但他紧接着给了两个升级方向：
+第二版补上了可运行原型（能预览 payload、自动拦截破坏性的 Jira 删除操作）和证据（47 通 Gong 通话里 34 通主动提到智能体工具、312 张 MCP 标签工单、六家设计合作伙伴试点五家启用预授权写入）。Foster 判定为「稳稳的采纳型」，但追问：为什么要等到 Q4 beta？「你可以从零到设计合作伙伴，速度极快……这五周我们要干什么？」[36:04 Wade Foster]
 
-**一、为什么止步于 PRD?** 应该直接启动编码智能体做出第一版原型。重点不是让 PM 写生产级代码，而是「眼见为实」——「一张图胜过千言万语，而一个原型是那个的十倍」[18:02 Wade Foster]。
+第三个产物更进一步：一个五层智能体栈——团队技能库、并行扇出的子智能体编排层（含一个专门唱反调的「怀疑者」）、工具与 MCP 层、带来源校验的记忆层，外加一套每夜运行的自动流水线：分诊蜂群聚类客户信号、自动生成假设，人类只守两道闸门（这条构建链要不要、这个 PR 要不要合并），把 10 天的开发流程压到 2 天。Foster 的评语：「这绝对已经开始进入变革性的领域。三年前产品和软件完全不是这样构建的，差得远……你的工作不是去亲手做这些单独的任务，你的工作是审计这个系统」[43:22 Wade Foster]。他用工厂做比：工厂出了次品，工人不会逐个修部件，而是回去查机器——「现在人类的工作是审计整个系统，这东西到底运转得好不好」。但他也指出，闸门放在哪里、为什么放那里，全行业都还没有共识。
 
-**二、客户证据在哪里？** 去翻 Gong 录音、Zendesk 工单、Reddit、LinkedIn、X,找人们在哪儿抱怨这类问题、表达这类需求，确认产品的形态对不对、客户真正在乎的痛点是什么。这些事过去不靠 AI 也能做，但 AI 让你能在短时间内筛过「一座数据源的大山」[19:11 Wade Foster]。更关键的是流程变了：过去做原型前要先拿到老板的方向性认可，如今「这个获得认可的环节可以大大推后，你可以走得远得多」——等你来找老板要资源时，背后已经堆了一座证据山；或者你已经自己发现这是个烂主意，直接搁置 [20:35 Wade Foster]。
+## slop、责任与判断力
 
-Wade 补了一条经验法则：**在你的专业领域里，你应该比你的 CEO 走得更靠前**。「你每天醒来都泡在这些东西里。如果我发现了对我来说显而易见、而你却没发现的东西，我会想，哦，这让我紧张了」[22:25 Wade Foster]。他自己评价自己的 AI 素养，「大概在大多数方面算是采纳级的水平」——这正是他给下属留出的超越空间 [22:36 Wade Foster]。
+关于 AI 垃圾内容（slop），Zapier 的说法是：「你可以把工作委派出去，但你不能把责任委派出去」[00:42 Wade Foster]。Zapier 内部开始形成一套分享礼仪：主动声明「我用 AI 起草了这份文档、只快速扫过一遍」，或者「每个表述我都背书、每句话都经我审阅」——让读者知道该期待什么质量水平。Foster 引用「slop 炮 vs 涡轮大脑」的框架并认同：判断力是 AI 时代最关键的核心技能之一，「你得把你的大脑打开。如果你的大脑是开着的，你多半会发现自己处在好的阵营里」[29:35 Wade Foster]。还有一个反直觉的经验法则：在你的专业领域里，你应该比你的 CEO 更 AI 素养——Foster 自评大多处于采纳型，「如果我发现了那些对我来说显而易见而对你不显而易见的事情，我会想，哦，那让我很紧张」[23:00 Wade Foster]。而只有判断力没有判断地狂用 AI 的人，产出反而比不用 AI 的人更难处理——「至少你很安静」。
 
-## Slop 的处理方式：可以委派工作，不能委派责任
+## Foster 的个人智能体
 
-两人都认同 Dan Hockenmeyer(FAIR)那个框架：没判断力又用 AI 的人是「slop 大炮」，有判断力又用 AI 的人是「涡轮大脑」。Wade 补了个刻薄观察：跟 slop 大炮共事，甚至比「判断力差又不用 AI」的人更难——「至少你还很安静」；前者能生成海量东西，你得一样一样拍开说「这不是我要的」[26:11 Wade Foster]。主持人从管理者角度补了一刀：下属把 slop 发给你，本质是他自己没动用判断力、把判断的责任转嫁给了你——这和职场向上走的方向正好相反，你该向上传递的是筛过的高质量信息 [26:38 Akash]。
+- **晨间简报（Morning Brief）**：入门首选。把智能体接到日历、收件箱、Slack，每天 6 点生成一份每日简报。关键工程决策：部署在 Zapier 上确定性运行——抓日历、发 Slack 都是代码，不烧 token，只有总结那一步走模型；在本地跑智能体产品则「一切都本地运行、还要烧掉大量 token」。
+- **记录员（Scribe）**：他心目中价值大得多的每日复盘。每天下午 5 点遍历未处理邮件、Slack 稍后处理、全部 Granola 会议转写稿，起草跟进邮件和待办，把过去每天约两小时的收尾工作压到 15 分钟。
+- **AI 议程生成器**：为高管会和董事会遍历一周的会议、Slack、邮件和所有 AI 会话，指出真正悬而未决、必须讨论的话题——比如「你这个的转化率上周真的很糟，你需要谈谈这个。别让人们在没提出这件事的情况下蒙混过关」，破解各成员塞偏爱议程的老问题。
+- **CEO CRM**：他一边说「别用 vibe code 写 CRM」一边真写了一个——但定位不是看板，而是每周六晚自动运行的智能体：扫描企业账户的续约时点、用量变化，周一早上收件箱里已有 10-20 封按他口吻起草的客户跟进邮件，只等他扫一眼发出。最难的部分不是搭建，而是「把这些智能体掰弯得像人类一样写作，它们就是不太擅长这个」。
 
-Zapier 内部的解法是「slop 礼仪」：分享文档时 upfront 标明投入等级。要么说「我用 AI 起草的，快速浏览了一遍、删掉了最明显糟糕的部分，但想先抛出来因为速度重要」；要么说「这份我逐句审过，我为每句话负责」。「真正痛苦的是你把纯 AI 生成的东西冒充成认真做的——读者一眼就能看出来你根本没花功夫，现在你却让我来干苦差事。那你干脆直接让我来做这份工作好了」[28:30 Wade Foster]。所以适度 slop 是可以的，前提是坦白——判断力才是 AI 时代最关键的核心技能，「你得把大脑打开。大脑开着的，大概率会发现自己处于好的阵营里」[29:44 Wade Foster]。
+## 战略：新的 no code 是代码
 
-## 现场批改二：稳稳的采纳级，但「为什么等 Q4?」
-
-第二份作业同一主题，但这次有原型(演示了智能体通过 Zapier 调 Slack、Jira,破坏性的删除操作被策略文件自动拦截)、有证据(47 通 Gong 通话里 34 通主动提到智能体工具、312 个 Zendesk 工单、社区 1800 条帖子、9 个设计伙伴访谈)、结论是「瓶颈在权限而非连接」，并申请扩到 10 家设计伙伴、Q4 上 beta。Wade 的评价：上次的两条批评全补上了，「强太多了」，评级是「稳稳的采纳级」——这种水平的 PM 工作他巴不得全 Zapier 都是 [36:47 Wade Foster]。
-
-但还有一个推的地方：**「我们为什么要等 Q4?你已经走到这么远了。能不能更快？」**「这些 AI 工具相当神奇的一点是，你可以从零到设计伙伴，快得惊人。如果 Q4 是十月，你还有五周——这五周我们要干什么？」他的核心施压点是让迭代周期快很多很多 [36:04 Wade Foster]。
-
-(主持人随后承认自己确实在直播中用 AI 实时吸收了 Wade 的反馈——Gong、Zendesk 这些出处列得太「AI 式精确」反而成了破绽：AI 的超高具体性一眼可辨 [37:44 Wade Foster]。)
-
-## 第三份作业：变革级——PM 的工作从做任务变成审计工厂
-
-第三份展示了完整的智能体产品流水线：五层架构——团队技能库(40 多个，如 PRD 准备、评估、发布清单)、编排层(含一个专职唱反调的「怀疑者」子智能体)、工具/MCP 层、带确定性强制执行的记忆层(证据无来源就拒绝写入记忆，禁止「脏着大脑」结束会话)、外加每晚运行的「分诊蜂群」自动去重聚类客户信号。人工闸门只有两个：要不要启动这条构建链、要不要合并。目标是把 10 天的开发流程压到 2 天 [38:45 Akash]。
-
-Wade 的判定：「这绝对已经开始进入变革性的领域。这根本不是三年前产品和软件的构建方式，差得远。它看起来更像一座工厂」[43:27 Wade Foster]。他的类比很精确：工厂出了不合格品，没人去一个个修部件——丢掉那批，回去查机器哪里出了问题。「人肉机器正在被替换，现在人类的工作是审计整个系统：这东西到底有没有效？」[44:15 Wade Foster] 而全行业都还在摸索的正是循环设计：人类闸门放在哪儿、为什么放那儿？第一个闸门拿掉、所有事都先跑智能体行不行？还是不跑、因为烧 token 太浪费？「我不认为目前在什么才是最好的方式这个问题上已经有了共识」[44:48 Wade Foster]。
-
-不过他立刻降温：不是所有 PM 都该去建这种系统。Zapier 有三四十个 PM,「我不需要 30 套这样的循环系统都在运转，我其实想要一种统一的方式」——少数人负责转型建系统，其他人先跑旧打法、偶尔给新系统当用户测试者 [47:44 Wade Foster]。变革级的门槛他定得极高：「对我来说，变革级就是你字面意义上是一个样本量为一的存在，你是第一个做这种新事情的人，而且你正在摸索出来」[63:17 Wade Foster]。他自己也只给自己评采纳级，「当我向变革级推进时，说实话，我就是从团队里更强的人那里偷师」[62:17 Wade Foster]。
-
-## Wade 自己的「机器人员工」
-
-Wade 展示了他的个人智能体仪表盘(非 Zapier 生产系统)：
-
-- **Morning Brief(晨报)**：他给新手的经典入门建议——把智能体接到日历、收件箱、Slack,每天生成简报。他的是每天 6 点在 Zapier 上确定性运行：抓取、发布到 Slack 都是纯代码、不烧 token,只有总结摘要那一步用模型。好处是可靠、每次一样、成本低得多，晚上可以合上笔记本 [50:00 Wade Foster]。但他坦白晨报「价值只是一般般」[53:27 Wade Foster]。
-- **Scribe(每日回顾)**：他最喜欢的，每天下午 5 点跑——遍历未处理邮件、Slack 稍后处理、所有 Granola 会议转写稿，起草跟进邮件、归档待办。「过去每天下班前大概要花两个小时处理堆积的事，现在大概只要 15 分钟」[55:03 Wade Foster]。
-- **议程智能体**：为高管会和董事会生成每周议程——遍历本周所有会议、Slack、邮件、AI 会话，列出仍悬而未决的议题。「人们开会总爱带私心议题，但它未必是最重要的。你让 AI 遍历上周所有指标，它会直接说：你这个转化率上周真的很烂，你得谈谈这个」[56:26 Wade Foster]。
-- **CEO CRM**:网上争论该不该用 vibe coding 搭 CRM,他嘴上说不要、结果自己搭了一个。它每周六晚运行，周一早上他的收件箱里已有 10 到 20 封给企业客户的邮件草稿，附上「为什么本周该联系这个人」(续约将至、用量异动)。「过去有 CSM 团队替我维护客户关系，但客户真正爱听的是 CEO 的消息」[58:49 Wade Foster]。最难的部分意外地不是智能体逻辑——「搞定所有智能体逻辑，跟让智能体写得像个人相比都太容易了。它们就是不太擅长这个」[60:26 Wade Foster]。
-
-## 业务与竞争：新的无代码就是代码
-
-主持人问起 2021 年那个 50 亿美元估值标签。Wade 说自 2021 年以来 Zapier 一直在增长，而且因为 2012 年之后基本没再融过一级资本，「估值这件事对我们没那么重要——估值只在发生交易的那一刻才重要」[64:37 Wade Foster]。
-
-对于「无代码末日」的说法，他的回答是：「我们逐渐相信的一点是，新的无代码就是代码」——晨报底下跑的就是代码，他本人从来没看过那段代码，「我也不在乎，因为它对我好用」[65:37 Wade Foster]。无代码产品要做的是把底层能力(触发器、动作、运行时、治理层)暴露给编码智能体，让智能体替客户去构建。推到极致就是 SaaS 的 headless 化：「过去十年所有 SaaS 仍然是人在做工作。你软件的用户现在变成了智能体——智能体进来把所有活干掉，人被解放出来做判断」[68:23 Wade Foster]。「如果你的软件不是无界面的、不能无界面运行，你会发现自己有点在逆流而行——至少在 B2B 是这样」[69:03 Wade Foster]。
-
-面对 Lindy、N8N 这批新对手，他把竞争压力讲成了战略必修课：15 年里这个领域大部分时间不拥挤，这让他们建成了至今无人匹敌的集成库——「超过 9000 个不同的工具可供接入。人们一直说写集成越来越容易，然而没人做到我们所做的」[70:32 Wade Foster]。好消息是自动化需求空前高涨，坏消息是玩家多了，你必须像 Anthropic 聚焦代码那样做战略取舍。Zapier 的答案是：帮你确定性地运行自动化——不烧 token、不用开着笔记本，同时保有智能体帮你搭建、管理、故障恢复的能力 [70:09 Wade Foster]。
+主持人问到 2021 年 Zapier 标到的 50 亿美元估值与 no code 末日论，Foster 回应：Zapier 自 2012 年以来几乎没有再做过一级市场融资，「估值其实只在发生交易的那一刻才真正重要」，公司自 2021 年以来一直在增长。对行业他的判断是：「新的 no code 就是代码」——晨间简报底下跑的就是代码，而他从未看过那些代码也不在乎。SaaS 的出路是把触发基础设施、运行时环境、治理层暴露给编码智能体：「你的软件的用户现在变成了智能体。」在 B2B 场景，人想的是把事情委派出去，所以「如果你的软件不是无头的、或者不能以无头方式运行，你会发现自己有点在逆流而上」[69:03 Wade Foster]。面对 N8N、Lindy 等新对手，Zapier 的定位是帮客户确定性地运行自动化——不烧 token、不用开着笔记本电脑，智能体负责搭建和故障恢复。
 
 ## 本集带走
 
-- **用四档给自己定位**：AI 总结写作生成 PRD = 2026 年的基本门槛；有结构化方法、能快速出原型和证据 = 胜任/采纳；建出「构建系统的系统」= 变革级，而变革级的门槛是「样本量为一」，一个团队半年出一个就不错了。
-- **PM 交付物的两条新底线**：别只交 PRD——用编码智能体把原型做出来(眼见为实，原型胜过千言万语)；别只靠直觉——用 AI 筛 Gong/工单/社区，堆出客户证据的山。
-- **你应该比 CEO 更懂 AI**:老板发现对你显而易见、你却没发现的东西，是危险信号。
-- **给 slop 定礼仪**：分享 AI 参与的文档时标明投入等级(草稿级/逐句审阅级)，可以追求速度，但不能把没花功夫的东西冒充成认真做的。
-- **需要确定性就用代码，需要推理才用智能体**：定时任务、工具调用走纯代码、不烧 token,只在摘要/起草那一步用模型。
-- **SaaS 的终局问题**：你的软件用户正在变成智能体——不能 headless 运行，就是在逆流而行。===金句===
+- **对照四档标准自查**：用 AI 做总结/写基础 PRD 是 2026 年的入场门槛；有结构化的规格与原型方法、用 AI 大规模挖用户洞察才算够格；建「构建系统的系统」才是变革型。
+- **别止步于 PRD**：用编码智能体做出原型（眼见为实的十倍），再用 AI 筛 Gong/Zendesk/Reddit 找客户证据——认可可以晚点要，先把证据大山堆出来。
+- **声明你的质量档位**：分享 AI 草稿时讲明投入程度（「扫过一遍」还是「句句背书」），让读者知道该用多严的标准读；委派工作可以，委派责任不行。
+- **能确定性跑的就用代码**：定时、格式固定的流程写成代码步骤，只在需要推理的一步烧 token——更可靠、便宜得多。
+- **入门智能体从晨间简报开始，真正的杠杆是每日复盘**：遍历当天所有邮件、消息、会议转写，自动起草跟进事项，两小时收尾变 15 分钟。
+- **在你的领域要领先你的 CEO**：如果老板一眼看出你看不见的东西，那是最危险的信号。
+===金句===
 00:06 | Wade Foster
 EN | If AI was important in 2026, it's just the standard expectation for every job.
-ZH | 如果说 AI 在 2026 年很重要，那它现在只是每份工作的标准预期。
+ZH | 如果说 AI 在 2026 年很重要，那现在它只是对每份工作的标准期望。
 
-00:43 | Wade Foster
+00:42 | Wade Foster
 EN | The line we use at Zapier on Slop, you can delegate the work, but you can't delegate the accountability.
-ZH | 我们在 Zapier 关于 Slop 的说法是：你可以委派工作，但你不能委派责任。
+ZH | 我们在 Zapier 关于 Slop 的说法是：你可以把工作委派出去，但你不能把责任委派出去。
+
+00:25 | Wade Foster
+EN | And if you combine those, you get excellence. But if you just let AI kind of just do everything, you're probably going to get mediocrity.
+ZH | 如果你把真正理解客户问题和解决问题的直觉结合起来，你就会得到卓越。但如果你只是让 AI 什么都做，你很可能会得到平庸。
 
 06:11 | Wade Foster
 EN | You can start to think about how do we Build the system that builds the ultimate system.
-ZH | 你可以开始思考，我们如何构建那个构建终极系统的系统。
+ZH | 你可以开始思考，我们如何构建那个构建最终系统的系统。
+
+07:31 | Wade Foster
+EN | It's probably not actually helpful to be here 100% of the time because if you are, you're not actually getting work done. You're constantly just tweaking your systems and way of working.
+ZH | 100% 的时间都待在变革型那一档可能实际上并没有帮助，因为如果你是这样，你其实并没有把工作做完，你只是在不停地调整你的系统和工作方式。
+
+08:07 | Wade Foster
+EN | And if I'm spotting things like are obvious to me and not to you, I'm like, ooh, that makes me nervous, right?
+ZH | 所以如果我发现的那些东西对我是显而易见的、对你却不是，我就会想，哦，这让我紧张，对吧？
+
+17:33 | Wade Foster
+EN | Why stop at the PRD? There's opportunity to go build out the first prototype of what this thing looks like.
+ZH | 为什么止步于 PRD？有机会去把这个东西的第一版原型构建出来。
 
 18:08 | Wade Foster
 EN | Well, you know, a prototype is, you know, that times ten.
-ZH | 一个原型，就是那张图的十倍。
+ZH | 你知道，一个原型，就是一图胜千言的十倍。
 
-20:40 | Wade Foster
+20:35 | Wade Foster
 EN | Whereas nowadays, that buy-in step can happen way later. You can just go so much farther.
-ZH | 而如今，这个获得认可的环节可以大大推后。你可以走得远得多。
+ZH | 而如今，那个获得认可的步骤可以晚得多才发生。你可以走得远得多。
 
-22:25 | Wade Foster
-EN | Like, you know, you probably want to be in your discipline. You probably want to be farther ahead than your CEO is.
-ZH | 在你的专业领域里，你可能应该比你的 CEO 走得更靠前。
+21:09 | Wade Foster
+EN | And so that's where I think an AI-powered PM just has these superpowers that you didn't have in the past.
+ZH | 所以我认为这就是一个 AI 赋能的 PM 拥有的这些超能力，那是你在过去所没有的。
 
 23:05 | Wade Foster
-EN | So if I'm spotting things that are obvious to me and not to you, I'm like, ooh, That makes me nervous, right?
-ZH | 所以如果我发现了一些对我来说显而易见、而你却没发现的东西，我会想，哦，那让我紧张了，对吧？
+EN | And so if I'm spotting things that are obvious to me and not to you, I'm like, ooh, That makes me nervous, right?
+ZH | 所以如果我发现了那些对我来说显而易见而对你不显而易见的事情，我会想，哦，那让我很紧张，对吧？
 
 24:29 | Wade Foster
 EN | And if you combine those, you get excellence. But if you just let AI kind of just do everything, you're probably going to get Kind of mediocrity.
-ZH | 如果你把两者结合起来，你就能得到卓越。但如果你只是让 AI 把一切都做了，你很可能得到的就是某种平庸。
-
-24:43 | Wade Foster
-EN | But if you have good judgment and you use AI, you can become a turbo brain.
-ZH | 但如果你有好的判断力并且你用 AI,你可以变成一个涡轮大脑。
-
-26:13 | Wade Foster
-EN | Right? Like, so, uh, It's an interesting framework too.
-ZH | 对吧？所以，呃，这也是个有意思的框架。
+ZH | 如果你把理解客户问题和解题直觉结合起来，你就会得到卓越。但如果你只是让 AI 把所有事情都做了，你很可能会得到某种平庸。
 
 29:44 | Wade Foster
-EN | You've got to turn your brain on.
-ZH | 你得把你的大脑打开。
+EN | You've got to turn your brain on. And if your brain is on, you're probably going to mostly find yourself in a good camp.
+ZH | 你得把你的大脑打开。而如果你的大脑是开着的，你多半会发现自己处在好的阵营里。
 
-36:04 | Wade Foster
-EN | This is where I'm like, why are we waiting for Q4? You've already gotten all this far. Can you do it faster?
-ZH | 这就是我会问的地方：我们为什么要等 Q4?你已经走到这么远了。你能不能更快一点？
+36:19 | Wade Foster
+EN | one of the things that's pretty magical about these AI tools is you can go from zero to design partner, Exceptionally fast.
+ZH | 这些 AI 工具非常神奇的一点：你可以从零到设计合作伙伴，速度极快。
 
-36:39 | Wade Foster
-EN | But by and large, this is much better than before.
-ZH | 但总体来说，这比之前好多了。
+43:33 | Wade Foster
+EN | It is a totally different way of working. It looks a lot more like a factory, right?
+ZH | 这是一种完全不同的工作方式。它看起来更像一座工厂，对吧？
 
-43:27 | Wade Foster
-EN | This is just not how product and software was built three years ago. Not even close.
-ZH | 这根本不是三年前产品和软件的构建方式。差得远。
+44:24 | Wade Foster
+EN | And so this is where the job is kind of shifting to. It's like, oh, instead of having human machines that are sort of like stamping out each step of the process, we're replacing those.
+ZH | 这就是工作正在转移到的方向：与其让人类充当机器、把流程的每一步都盖出来，我们正在替换掉那些。
 
-44:48 | Wade Foster
-EN | what is the right way to run this factory?
-ZH | 运营这座工厂的正确方式是什么？
+45:04 | Wade Foster
+EN | And I don't think there is a consensus yet on what is the exact best way to run these loops.
+ZH | 而且我认为关于什么才是运行这些循环的最佳方式，目前还没有共识。
 
 47:48 | Wade Foster
 EN | I don't need 30 systems of this loop running. I actually want one sort of way of doing this stuff.
-ZH | 我不需要 30 套这样的循环系统都在运转。我其实想要一种统一的方式来做事。
-
-53:27 | Wade Foster
-EN | I actually think it's only modestly valuable.
-ZH | 但我实际上认为它的价值只是一般般。
-
-55:03 | Wade Foster
-EN | I would say my end-of-day recap work is now probably 15 minutes instead of two hours.
-ZH | 我可以说，我每天下班前的复盘工作现在大概只要 15 分钟，而不是两个小时。
-
-60:37 | Wade Foster
-EN | They just are not very good at that.
-ZH | 它们就是不太擅长这个。
+ZH | 我不需要 30 套这样的循环系统同时运转。我其实想要一种做这类事情的方式。
 
 63:17 | Wade Foster
-EN | to me, transformative is like, you are literally an N of one. You're the first of its kind doing this new thing.
-ZH | 对我来说，变革级就是你字面意义上是一个样本量为一的存在，你是第一个做这种新事情的人。===END===
+EN | Like it literally is like, to me, transformative is like, you are literally an N of one. You're the first of its kind doing this new thing.
+ZH | 对我来说，变革型就真的是，你是一个样本量为 1 的存在。你是做这件新事情的开创者。
+
+65:37 | Wade Foster
+EN | Well, I think one of the things we've come to believe is that the new no code is code.
+ZH | 我认为我们逐渐相信的一件事是，新的 no code 就是代码。
+
+69:07 | Wade Foster
+EN | So if your software isn't headless or cannot be run headless, I think you're going to find yourself You know, sort of swimming against the current a little bit.
+ZH | 所以如果你的软件不是无头的、或者不能以无头方式运行，我觉得你会发现自己有点在逆流而上。
+===END===

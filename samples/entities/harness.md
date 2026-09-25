@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>42</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>44</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,6 +36,8 @@ unlisted: true
 - **[[2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h|《给医疗理赔智能体套上 X12 护栏》]]**(04:04起):本集把 harness 宽泛定义为围绕智能体推理的所有螺母和螺栓——记忆、工具、检查、权限、交接、eval——在医疗理赔语境下核心就是 X12。
 - **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(04:57起):本集说我们一定会用多个 harness（承载智能体运行的框架外壳），押注单一 harness 会让模型选择受限，所以安全方案必须跨 harness 生效。
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(06:14起):本集将其描述为套在模型外面让它能调用工具的框架，说为了让 OpenClaw、Scout 这些套索有效，你想给它接上一切——所有邮件、日历、数据库
+- **[[2026-08-22-talks-coding-agents-don-t-scale-themselves-nei|《黑灯工厂来了:赢的不是单人玩家,是会改组织的团队》]]**(03:51起):本集把它说成:给智能体套上的约束与工具框架,是开发者的新技术路径;线束越好,人类介入次数越低,且不应止步于编码,还要延伸到下游自动化与需求收集。
+- **[[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]]**(01:45起):本集说 harness 是驱动智能体的工具，开发者对它有强烈偏好（如 Claude Code、Codex），平台做多 harness 支持并围绕它提供结构和护栏让体验一致。
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(03:02起):本集把它说成：Clay 各产品线共用的 eval/智能体测试框架，开发者只需自带 eval 套件和 LLM 裁判即可即插即用；智能体调用工具失败时也用它来改进。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(19:52起):本集称其为新一代应用，所有逻辑在这里发生、状态在这里维护，上下文窗口扩展通过智能体内部的压缩机制而非模型层解决，持续学习也发生在套索层
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(32:10起):嘉宾认为是最关键的新构建：把机器学习模型与可用成果绑起来的机制；同一个模型配两个不同线束会得到两个不同成果，编码工具好用靠的是编码线束而非模型本身。
@@ -105,7 +107,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*42 集*
+*44 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -132,6 +134,8 @@ unlisted: true
 - [[2026-08-19-talks-healthcare-s-agent-bytecode-x12-as-the-h|《给医疗理赔智能体套上 X12 护栏》]] — 作为概念
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为概念
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为概念(提及)
+- [[2026-08-22-talks-coding-agents-don-t-scale-themselves-nei|《黑灯工厂来了:赢的不是单人玩家,是会改组织的团队》]] — 作为概念
+- [[2026-08-22-talks-the-agent-behind-the-curtain-building-th|《Warp 如何打造云端智能体平台：把复杂性挡在用户之前》]] — 作为概念
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为概念
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
@@ -154,9 +158,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[MCP]] · [[推理]]
+[[智能体]] · [[沙箱]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[评估]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":309,"Anthropic":135,"沙箱":57,"Claude Code":71,"评估":3,"Codex":56,"OpenAI":128,"护栏":53,"MCP":52,"推理":53}</script>
+<script type="application/json" class="pd-epn">{"智能体":312,"沙箱":58,"Anthropic":136,"Claude Code":73,"Codex":57,"评估":3,"护栏":55,"OpenAI":128,"MCP":52,"推理":53}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>34</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>34</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(33:16起):本集作为成本度量单位，嘉宾提到一次重构花掉 2 亿个 token 才意识到必须停止全程用最贵模型，在 1400 人组织中每个工程师每月几千美元的 token 费用会引发领导层质疑
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(17:49起):在成本管理讨论中出现。Datadog 刻意不走配额限制路线，而是从系统角度去压缩输出、减少 token 浪费。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(16:00起):本集把它说成：数据中心这个工厂生产的、史上贬值最快的商品，在恒定性能下每年跌价 70% 到 80%，持续至少四年没有停下来的迹象。
+- **[[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]]**(00:16起):本集批判的对象：令牌是一个布尔值、静态的权限列表——太紧智能体没用，太宽就是在写事故复盘；标题主张「给预算，不是给令牌」。
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(32:22起):本集说从生成式 AI 到智能体 AI，token 消耗量是两年前系统的 20 到 40 倍，一个输入可能触发 50 个动作，智能体可能陷入循环吃掉大量 token
 - **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(02:21起):本集把 token 当作今天智能的计量单位：他的北极星是每 token 成本全行业最低，token 买了立即用、无法囤积，因此推理支出无投机性。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(11:47起):本集解释为约四分之三个单词，是 AI 公司的计费货币，像出租车的计价器；月费订阅隐藏了实际 token 消耗，200 美元月费可烧掉 14000 美元的 token。
@@ -109,7 +110,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*23 集*
+*24 集*
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
@@ -119,6 +120,7 @@ unlisted: true
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为概念(提及)
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
+- [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]] — 作为概念
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为概念
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为概念
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
@@ -139,9 +141,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[GPU]] · [[Codex]] · [[后训练]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[GPU]] · [[Codex]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":309,"Anthropic":135,"OpenAI":128,"Cursor":66,"推理":53,"NVIDIA":44,"ChatGPT":76,"GPU":18,"Codex":56,"后训练":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":312,"Anthropic":136,"OpenAI":128,"Cursor":66,"推理":53,"NVIDIA":44,"ChatGPT":76,"GPU":18,"Codex":57,"Claude Code":73}</script>
 
 <script>
 (function(){

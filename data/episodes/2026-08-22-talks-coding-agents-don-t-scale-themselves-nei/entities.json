@@ -1,0 +1,521 @@
+{
+  "episode_id": "2026-08-22-talks-coding-agents-don-t-scale-themselves-nei",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "tags": [
+    "智能体",
+    "组织与领导力",
+    "工程实践",
+    "黑灯工厂",
+    "平台工程"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "patrick-debois",
+      "type": "person",
+      "role": "guest",
+      "name": "Patrick Debois",
+      "file": "Patrick Debois",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:组织内自主工作的执行者,开发者应停止修它产出的代码、转而改进围绕它的系统(上下文、线束、循环),并用「人类介入次数」衡量它做对事的效率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            132.15,
+            142.206
+          ],
+          "quote": "But today I'm not talking about like how you become better with your agent, but it is about how we will change your team dynamics, your platform and your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            176.908,
+            184.972
+          ],
+          "quote": "And I think that's fair, that's been an evolution that we're on on the path, we're more like becoming the managers of the agent, kind of dealing with the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            243.125,
+            254.735
+          ],
+          "quote": "All of a sudden, we were helping the agent with tooling, building tooling for the agent, and that kind of reignited some of the developers who kind of felt that it wasn't for them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            289.933,
+            294.116
+          ],
+          "quote": "to engage in creating better context for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            297.158,
+            300.48
+          ],
+          "quote": "Please put all your knowledge to improve the result of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            302.242,
+            317.953
+          ],
+          "quote": "So if you have those kind of more resistant people that complain maybe about the quality that things were produced by just the vanilla kind of coding agent, use almost that anger, use kind of that skepticism to kind of make it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            320.728,
+            333.853
+          ],
+          "quote": "And the big mentality shift, if I would advise a company right now for their developers is kind of stop fixing the code that the agent kind of produced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            413.725,
+            420.836
+          ],
+          "quote": "Engineering practices still matter for you to maintain the system and also for the agent to keep getting better at this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            442.621,
+            448.645
+          ],
+          "quote": "So on the retro part is like, hey, the agent went over and over, hit this problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            578.096,
+            585.461
+          ],
+          "quote": "One is you start measuring how many human touches you still do to have the agent do the right thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            826.638,
+            832.583
+          ],
+          "quote": "If I can reduce the number of iterations the agent has to run through, that is an optimization that I can run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1092.807,
+            1099.631
+          ],
+          "quote": "So it's an easier way to kind of show metrics than comparing productivity with and without agent decoding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1267.13,
+            1273.351
+          ],
+          "quote": "I'm working on a website where I try to list some of the agent enablement patterns that I described.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dark-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "黑灯工厂 (dark factory)",
+      "file": "黑灯工厂",
+      "primary": true,
+      "how_described": "本集把它说成:组织内几乎无需人工干预的自主工作方式,如同当年被嘲「疯了」的持续交付;现实大概是「昏暗工厂」,需按功能分风险等级,投资审计、溯源、验证器与态势感知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            38.458,
+            44.383
+          ],
+          "quote": "And I feel we're in kind of the same era or kind of the same thing right now with a dark factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            101.185,
+            107.495
+          ],
+          "quote": "Assume we're heading towards the dark factory, some kind of form of autonomous working within an organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1193.91,
+            1198.031
+          ],
+          "quote": "So one of the final things is the dark factory, which is probably a dim factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "线束 (harness)",
+      "file": "线束",
+      "primary": true,
+      "how_described": "本集把它说成:给智能体套上的约束与工具框架,是开发者的新技术路径;线束越好,人类介入次数越低,且不应止步于编码,还要延伸到下游自动化与需求收集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            231.286,
+            241.8
+          ],
+          "quote": "What I've seen is that when we started introducing harness and loops and eventually more autonomous work within the whole organization, a new technical path opened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            300.641,
+            301.841
+          ],
+          "quote": "And the same with the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            351.152,
+            355.876
+          ],
+          "quote": "So we're going on that abstraction where that is with context, with harness, with loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            471.349,
+            481.815
+          ],
+          "quote": "So there were like a split in the planning where it said these things can straight go into agents, well-defined, and the harness is getting better, and this is conversational things that we need to decide as a team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            492.651,
+            500.016
+          ],
+          "quote": "Yes, they learn first about prompting, they get better, specs, context, harness, loop, also the industry's learning like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            542.873,
+            545.074
+          ],
+          "quote": "So your harness doesn't stop at your coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            588.343,
+            591.885
+          ],
+          "quote": "The better your harness is, the better your context is, the better your guidelines are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            619.611,
+            624.775
+          ],
+          "quote": "You can start that in a team, working together within your repo, sharing the context, working on the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            753.584,
+            760.168
+          ],
+          "quote": "They make sure that it's modular, that other people can extend kind of the context, for example, or the harness, that it's security scan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把它说成:团队主管要求「别再 prompting 了,把上下文做成可复用的」——上下文是沉淀组织知识、供跨团队复用并汇入平台注册表的核心资产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            204.742,
+            213.03
+          ],
+          "quote": "There was a thing that came around, which maybe is more context engineering, that put a first step around, like, hey, it's not just a prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            289.933,
+            294.116
+          ],
+          "quote": "to engage in creating better context for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            351.152,
+            355.876
+          ],
+          "quote": "So we're going on that abstraction where that is with context, with harness, with loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            492.651,
+            500.016
+          ],
+          "quote": "Yes, they learn first about prompting, they get better, specs, context, harness, loop, also the industry's learning like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            500.876,
+            508.682
+          ],
+          "quote": "But there is the lead of the team can say, well, stop prompting, make the context reusable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            588.343,
+            591.885
+          ],
+          "quote": "The better your harness is, the better your context is, the better your guidelines are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            619.611,
+            624.775
+          ],
+          "quote": "You can start that in a team, working together within your repo, sharing the context, working on the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            650,
+            659.565
+          ],
+          "quote": "They need to think about like maybe skill registries or eval systems for a context and guardrails specifically for coding agents and identities and stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            698.392,
+            700.253
+          ],
+          "quote": "Reusable context across teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            753.584,
+            760.168
+          ],
+          "quote": "They make sure that it's modular, that other people can extend kind of the context, for example, or the harness, that it's security scan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            841.289,
+            853.036
+          ],
+          "quote": "And so what I'm arguing is that we should somewhere move from the solo developer to the team shared kind of context and pieces to a multiplayer system in your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1116.288,
+            1132.014
+          ],
+          "quote": "Your reflex should be, let's optimize the spend and help them kind of reduce that in a good way, whether that's as simple as saying, pick the right model, educate them on the model, but also on giving them better context and harnesses, because that will make your cost go down there as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1232.865,
+            1241.07
+          ],
+          "quote": "The knowledge you're putting now into skills, in your context, and maybe in your hardness, the way you kind of restrain this, your business context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continuous-delivery",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续交付 (continuous delivery)",
+      "file": "持续交付",
+      "primary": true,
+      "how_described": "本集把它说成:2009 年被众人嘲笑「疯了」但最终成功的工程实践,用来类比今天对黑灯工厂的质疑,并预言它将演进为「持续学习」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            31.613,
+            37.718
+          ],
+          "quote": "So in 2009, a lot of people were telling me the idea of continuous delivery was crazy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1241.63,
+            1246.393
+          ],
+          "quote": "And for me, that kind of brings continuous delivery actually to continuous learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continuous-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continuous learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集把它说成:持续交付的概念升级——把知识不断沉淀进技能、上下文和线束里;终极问题不再是让系统更可靠,而是能否在改动更多部分的同时保持可靠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1241.63,
+            1246.393
+          ],
+          "quote": "And for me, that kind of brings continuous delivery actually to continuous learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paved-roads",
+      "type": "concept",
+      "role": "concept",
+      "name": "铺装路 (paved roads)",
+      "file": "铺装路",
+      "primary": true,
+      "how_described": "本集把它说成:类似云时代铺装路的平台注册表内可复用组件(认证系统、linter、安全工具),最终往往是一份三、四条铺装路的目录供团队挑选;自搞一套可以,但走自己的预算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            694.491,
+            695.992
+          ],
+          "quote": "Because you won't have paved roads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            787.271,
+            793.295
+          ],
+          "quote": "So you probably don't end up with one thing but a catalog of three, four paved roads where they can pick off.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集把它说成:平台团队需要关注的新冒出来的东西之一,专门面向编码智能体的护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            650,
+            659.565
+          ],
+          "quote": "They need to think about like maybe skill registries or eval systems for a context and guardrails specifically for coding agents and identities and stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
