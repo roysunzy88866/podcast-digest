@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangChain</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(04:18起):讲者所在的公司,开源了 DeepAgents 和 LangGraph 等框架,为构建智能体提供基础工具调用基础设施,并提供 LangSmith 部署作为打包方案。
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(00:35起):本集在举例时顺带提到它，用以说明 Scout 能够处理像「谁是 LangChain 的 CEO」这样的简单查询。
 - **[[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]]**(00:59起):Harrison 联合创办并任 CEO 的公司;本集说他们构建了一个非常基础、极简的 harness,并在其上打造 DeepAgents 和 LangSmith/LangSmith Engine。
+- **[[2026-08-22-talks-finops-for-ai-agents-who-spent-all-the-t|《谁花光了所有 token：给 AI 智能体装上成本治理》]]**(12:06起):本集举例说明 boundary 注解与框架无关时提到的框架之一。
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(03:28起):本集把它说成：Clay 用来持久化、版本化管理 eval 结果以及跑在线评估器和用例分类器的平台。
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(15:59起):本集提到他们在销售冻结期间重建平台，使其能适配不断变化的智能体工作流框架，如 LangChain。
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(15:54起):本集引用 LangChain 一年内重新架构了他们的 OpenDeep Research 三次,作为行业在向「文件驱动智能体」方向收敛的证据。
@@ -27,12 +28,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为被讨论公司
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为被讨论公司(提及)
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]] — 作为被讨论公司
+- [[2026-08-22-talks-finops-for-ai-agents-who-spent-all-the-t|《谁花光了所有 token：给 AI 智能体装上成本治理》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
@@ -43,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[harness]] · [[沙箱]] · [[评估]] · [[中间件]] · [[Codex]] · [[前沿模型]] · [[Deep Agents]] · [[上下文]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"智能体":306,"harness":42,"沙箱":57,"评估":3,"中间件":3,"Codex":56,"前沿模型":20,"Deep Agents":3,"上下文":19,"微调":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":309,"harness":42,"沙箱":57,"评估":3,"中间件":3,"Codex":56,"前沿模型":20,"Deep Agents":3,"上下文":19,"微调":20}</script>
 
 <script>
 (function(){

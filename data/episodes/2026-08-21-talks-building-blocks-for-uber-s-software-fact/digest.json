@@ -1,0 +1,160 @@
+{
+  "title_zh": "Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写",
+  "tldr": "Uber 工程效能团队负责人 Uday 与同事 Adam 展示 Uber 六大智能体基础设施模块，以及一个功能如何由 AI 端到端交付。",
+  "digest_md": "Uber 全球有几千名工程师、12 个技术园区。过去一年，他们在智能体 AI 上的投入带来了一个惊人的结果：**超过 70% 的 PR 现在由本地或云端智能体完成**，每位工程师的代码行数同比翻了一倍 [00:38 Uday]。他们还用自动化迁移处理了超过 250 次迁移、约 900 万行代码 [01:04 Uday]。这一集里，两位演讲者把这套体系拆成六个「构建模块」逐一讲解，再演示如何把它们串成一条端到端的「受管理软件工厂」流水线。\n\n## 六个构建模块\n\n**1. 模型网关(Model Gateway)**:所有内部用例、编码工具链、外部用例都走一个统一的 OpenAI/Anthropic 兼容端点，中间经过一系列中间件——用 Spire 做身份认证、数据匿名化器脱敏 20 多种 PII 类型(PII 即个人身份信息)、一个叫 AI guard 的安全层用五个专门模型处理安全与策略，全部在 100 毫秒内完成 [02:31 Uday]。每个请求都能按用户、项目、团队归因，既实时也进数据湖，由此可以跨整个产品组合做支出护栏。今天内部有 800 多个项目走这个网关，每天处理超过 1 亿次模型请求，涵盖前沿模型和开源模型 [03:30 Uday]。工程师只需用原生客户端设一个 project ID,其余全由平台处理。\n\n**2. MCP 网关**:去年起步时，Uber 有数千个内部 API,但「没有一个开箱即用就能被智能体调用」；各家 SaaS 工具认证方式各异，而且「一旦你装了足够多的 MCP,它们会累加起来，产生巨大的 token 税」[04:06 Uday](MCP 即模型可调用的工具接口)。他们的做法是一个自动化爬虫，只需一条配置变更就能把内部 API 投影成 MCP;Google、Slack、Jira 等 SaaS 也统一接入网关，由平台托管、做 token 交换。token 优化演进了几代：从直连 MCP,到只需装一个就能发现并调用所有 MCP 的 OmniMCP,再到 CLI 模式让响应也不占上下文，最近还有自动安装的 code mode 技能，即时生成 Python 脚本优化 token 消耗最高的用例。现在他们有 1000 多个 MCP 工具，仅这些优化就换来全集群超过 40% 的节省 [05:27 Uday]。\n\n**3. 智能体运行环境**:多年给工程师用的云端远程开发环境 DevPod 被改造成智能体也适用的形态——预置的 Kubernetes balloon pods(预先备好、随取随用的容器),仓库已做快照、搜索索引已建好，智能体几秒内就能开工 [06:28 Uday]。而且由于智能体和工程师都要跨仓库工作，他们做了一个把所有仓库放在一处的 mega dev port,现在自主编码智能体就用它。甚至非工程员工也能几秒内上手任何智能体工具链。\n\n于是他们建了托管式技能市场，现在有 2500 个技能，经过链接检查和自动化评审保证基线质量；一条命令即可发现并安装任何插件，还会按工程师画像自动装好默认技能。最近还在收集 traces 和持续评估，把反馈回馈给技能作者。全集群每天执行超过 20000 次技能 [08:27 Uday]。\n\n**5. 上下文图(Context Graph)**:他们从执行轨迹里发现，智能体花大量时间只是在一百多万行代码的 monorepo 里找基本上下文——服务在哪、依赖什么、谁在用、该遵循什么模式，而这些信息散落在 Uber 内部 20 到 30 个不同系统里，每个都要各自的技能和 MCP 去取，烧 token、加延迟、结果还不可预测。解法是把「Uber 是如何运转的」全部整合进一张上下文图：150 种节点和边类型、4000 万条条目，从移动 App 构建方式到后端、数据湖、设计文档、Jira、事故和 bug 全部互连 [09:24 Uday]。效果实测显著:以「印度的出行行程有多少被缓存」这类问题为例,有图谱对比没图谱,token、轮次和延迟都有巨大改进 [10:08 Uday]。\n\n**6. 统一入口 Cortana**:以上所有能力——技能、MCP、上下文图——都接进一个叫 Cortana 的 AI 助手，在 Slack、CLI、网页各种界面都可用，任何员工都能提问、查图谱、调技能、查任何代码库。现在员工还能个性化定制：接入自定义技能和提示词、挂到团队 Slack 频道，让它像那个团队的一员一样工作。仅最近一个月就创建了 300 个这样的个性化人设，每天超过 20000 个会话 [11:19 Uday]。\n\n## 端到端实战：一个世界杯功能的诞生\n\nAdam 用一个真实场景演示整条流水线：世界杯期间，让离开拥挤体育场的乘客有更好的上车点。流程是这样的——在 Slack 里讨论想法，把 Cortana 拉进来，借助上下文图做商业调研(以前发生过哪些大型场馆活动、哪些体育场值得做)，再帮忙定产品需求(只上北美，因为体育场在那里)、生成 Figma 设计的两个 A/B 变体。「以前让所有人达成一致可能需要几周，现在可以压缩到很短的时间内，很快做出原型」[13:08 Adam]。\n\n然后交给 Minion——Uber 的云端编码智能体，由 DevPod 驱动，有完整构建环境、能跨仓库同时改后端和前端。但它会在创建 draft PR 后停下来、不推 CI,原因是：这种自主模式适合苦力型工作，但要做更高级的端到端功能，「如果我们能在推送到 CI 之前更早地验证，那会是很大的收益」，同时避免给 CI 带来额外负载 [14:08 Adam]。\n\n具体做法是把原本在外循环(CI)的检查前移到内循环：静态分析问题当场修；视觉验证用一个技能启动模拟器、抓截图和 Figma 规格比对；还能在后端 staging 环境把服务拉起来，验证前后端集成。CI 上仍出的错由「自愈 CI」修;代码评审也拆成两层——外循环用强大模型加推理做深入评审，内循环用更小更快的模型。关键的一环是:如果一个 diff 来自自主运行的 Minion,PR 上会附一张表，列出它经历过的所有检查、包括截图，「让人类评审者有信心，这个 diff 已经经历过大量的自我改进,而不只是信任最初那次生成」[15:30 Adam]。\n\n## 维护：比生成更重要的下半场\n\n代码产出变多后，维护更重要。他们把功能和服务登记进「维护技能」——比如 feature flag 清理(世界杯那个 modal 的 B 变体实验结束后，调度一个循环自动清掉)。两个设计约束值得注意：这是受管理的循环，全公司统一到一个界面去设置，「我们不希望全公司范围内毫无边界地设立成千上万个循环」[16:28 Adam];循环安排在周日跑,那时 CI 容量充裕,同时控制工程师周一早上收到的 diff 数量。更妙的是，技能生成的 diff 被合入或被拒、收到评论，「这些都是很好的标注数据，我们可以用它来改进技能本身」[16:56 Adam]。他们还以月度为节奏,从事故复盘里提炼新的维护技能，推广到所有服务。\n\n## 新瓶颈在哪\n\n流水线跑通后，瓶颈转移了：一是基础设施——「现在我们对基础设施施加了更大的压力，所以要预判 CI 容量需要达到什么水平，并在那里做正确的基础性投资」[17:31 Adam];二是能切实运行的实验数量有限;三是决策——「不再是能不能构建,我们现在大概都能构建出来,问题变成了:该不该构建它？」[17:49 Adam]\n\n## 本集带走\n\n- **网关是平台化的起点**：模型和工具都收口到单一入口(一个端点、一个 MCP 安装方式)，安全、审计、归因、成本护栏才能整体做，而不是每个团队各搞一套。\n- **上下文是智能体最大的隐性成本**：智能体找上下文比干活还费 token;把组织知识整合成一张图，token、轮次、延迟全面下降。\n- **验证前移比生成能力更关键**：自主智能体产出的代码要靠模拟器截图比对、前后端联调、分层代码评审等内循环检查提前兜底，再给人类评审者一张「它经过了哪些检查」的表建立信任。\n- **自动化也要有围栏**：维护循环统一管理、安排在 CI 空闲时段、控制每周 diff 数量；技能产出的合入/拒绝反馈回收成改进技能的标注数据。\n- **瓶颈会转移**：当构建不再是问题，真正的约束变成 CI 容量、实验额度，以及「该不该做」的产品决策。\n\n> 【背景】两位演讲者 Uday 与 Adam 来自 Uber 的工程效能团队；转写稿中未给出他们的完整姓名与头衔，以上身份根据演讲开场自我介绍推断。",
+  "quotes": [
+    {
+      "en": "Over the last year, all of the investments we made in agentic AI have led to more than 70% of our PRs, now either by local or cloud agents.",
+      "zh": "过去一年，我们在智能体 AI 上的所有投入，使得超过 70% 的 PR 现在由本地或云端智能体完成。",
+      "timestamp": "00:38",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "We handled more than 250 automated migrations, relatively 9 million lines of code automatically for our engineers.",
+      "zh": "我们为工程师处理了超过 250 次自动化迁移，自动化迁移了约 900 万行代码。",
+      "timestamp": "01:04",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "Today we have 800 plus projects internally going through this, cumulatively handling more than 100 million model requests per day.",
+      "zh": "今天，我们内部有 800 多个项目经过这个网关，累计每天处理超过 1 亿次模型请求。",
+      "timestamp": "03:30",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "And once you end up with enough MCPs, they'll all add up and have a massive token tax.",
+      "zh": "一旦你装了足够多的 MCP,它们会累加起来，产生巨大的 token 税。",
+      "timestamp": "04:06",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "And all of this led to, like, now we have 1,000-plus MCP tools, and just with these optimization efforts, we've saved more than 40% fleet-wide savings.",
+      "zh": "所有这些带来的结果是，现在我们拥有 1000 多个 MCP 工具，仅凭这些优化工作，我们就在整个集群范围内节省了超过 40%。",
+      "timestamp": "05:27",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "With and without graph, we see massive improvement in tokens, turns, and latency.",
+      "zh": "有图谱和没有图谱相比，我们在 token、轮次和延迟上看到了巨大的改进。",
+      "timestamp": "10:08",
+      "speaker": "Uday Kiran Medisetty"
+    },
+    {
+      "en": "And we have, just in the last one month, 300 unique personas created and more than 20,000 sessions per day.",
+      "zh": "仅最近一个月，我们就创建了 300 个独特的个性化人设，每天有超过 20,000 个会话。",
+      "timestamp": "11:19",
+      "speaker": "Uday Kiran Medisetty"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:49",
+      "speaker": "Uday",
+      "en": "Over the last year, all of the investments we made in agentic AI have led to more than 70% of our PRs, now either by local or cloud agents.",
+      "zh": "过去一年，我们在智能体 AI 上的所有投入，使得超过 70% 的 PR 现在由本地或云端智能体完成。"
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Uday",
+      "en": "We handled more than 250 automated migrations, relatively 9 million lines of code automatically for our engineers.",
+      "zh": "我们为工程师处理了超过 250 次自动化迁移，自动化迁移了约 900 万行代码。"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Uday",
+      "en": "And any guardrail that we add here, the latency of that is strictly bounded.",
+      "zh": "我们在这里添加的任何护栏，其延迟都有严格的上限。"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Uday",
+      "en": "Today we have 800 plus projects internally going through this, cumulatively handling more than 100 million model requests per day.",
+      "zh": "今天，我们内部有 800 多个项目经过这个网关，累计每天处理超过 1 亿次模型请求。"
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Uday",
+      "en": "And once you end up with enough MCPs, they'll all add up and have a massive token tax.",
+      "zh": "一旦你装了足够多的 MCP,它们会累加起来，产生巨大的 token 税。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Uday",
+      "en": "And all of this led to, like, now we have 1,000-plus MCP tools, and just with these optimization efforts, we've saved more than 40% fleet-wide savings.",
+      "zh": "所有这些带来的结果是，现在我们拥有 1000 多个 MCP 工具，仅凭这些优化工作，我们就在整个集群范围内节省了超过 40%。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Uday",
+      "en": "So the agents can start working within a matter of seconds.",
+      "zh": "所以智能体可以在几秒钟内开始工作。"
+    },
+    {
+      "timestamp": "08:56",
+      "speaker": "Uday",
+      "en": "And all of this context is gathered across scattered systems across Uber.",
+      "zh": "而所有这些上下文，分散在 Uber 各处的系统中收集。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Uday",
+      "en": "We have 40 million entries there right now.",
+      "zh": "我们目前里面有 4000 万条条目。"
+    },
+    {
+      "timestamp": "10:08",
+      "speaker": "Uday",
+      "en": "With and without graph, we see massive improvement in tokens, turns, and latency.",
+      "zh": "有图谱和没有图谱相比，我们在 token、轮次和延迟上看到了巨大的改进。"
+    },
+    {
+      "timestamp": "11:19",
+      "speaker": "Uday",
+      "en": "And we have, just in the last one month, 300 unique personas created and more than 20,000 sessions per day.",
+      "zh": "仅最近一个月，我们就创建了 300 个独特的个性化人设，每天有超过 20,000 个会话。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Adam",
+      "en": "It could take weeks to get everyone aligned.",
+      "zh": "让所有人达成一致可能需要几周。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Adam",
+      "en": "So if we can validate sooner before we push to CI, that would be a big benefit.",
+      "zh": "所以如果我们能在推送到 CI 之前更早地验证，那会是很大的收益。"
+    },
+    {
+      "timestamp": "15:30",
+      "speaker": "Adam",
+      "en": "Now, another key thing here is if this is an autonomous diff coming from Minion, we want to give a human reviewer some confidence that this diff has gone through a lot of self-improvement already, not just trusting that initial generation that happened, but all these other steps have happened.",
+      "zh": "另一个关键点是，如果这个 diff 来自自主运行的 Minion,我们希望让人类评审者有信心，这个 diff 已经经历过大量的自我改进，而不只是信任最初那次生成，而是所有这些其他步骤都已经发生过了。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Adam",
+      "en": "We don't want thousands of loops being set up across the company without any bounds.",
+      "zh": "我们不希望全公司范围内毫无边界地设立成千上万个循环。"
+    },
+    {
+      "timestamp": "16:56",
+      "speaker": "Adam",
+      "en": "That's all good label data that we can use to improve the skill itself.",
+      "zh": "这些都是很好的标注数据，我们可以用它来改进技能本身。"
+    },
+    {
+      "timestamp": "17:31",
+      "speaker": "Adam",
+      "en": "Now we're putting more strain on our infrastructure, so we're trying to anticipate where our CI capacity needs to be and make the right foundational investments there.",
+      "zh": "现在我们对基础设施施加了更大的压力，所以我们试图预判 CI 容量需要达到什么水平，并在那里做出正确的基础性投资。"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Adam",
+      "en": "It's more of a question of, should we build it?",
+      "zh": "这更像是一个问题：我们是否应该构建它？"
+    }
+  ],
+  "voice_script": "今天带你去 Uber 看一件事：工程师到底还被需要多少？Uber 全球有几千名工程师、12 个技术园区，过去一年在智能体 AI 上砸了不少投入，结果就是——超过 70% 的 PR,也就是代码合并请求，现在由本地或云端的智能体完成，每位工程师产出的代码行数同比翻了一倍。讲这件事的两位主角，Uday 和 Adam,都来自 Uber 的工程效能团队，也就是专门给工程师修路搭桥的那个部门。这一集要讲的，就是他们怎么把 AI 写代码这件事，从零散的尝鲜，做成了一条端到端的软件工厂流水线。\n\n那这条流水线是怎么搭起来的？Uday 把它拆成六个构建模块，咱们顺着讲。\n\n第一个是模型网关。你要让全公司都用 AI,第一件事就是把所有模型请求收口到一个入口。Uber 做了一个统一的端点，兼容 OpenAI 和 Anthropic 的接口，中间串了一串中间件：用 Spire 做身份认证，用脱敏器处理 20 多种个人身份信息，还有一个叫 AI guard 的安全层，用五个专门模型做安全和策略检查——这一整套要在 100 毫秒内跑完。每个请求都能按用户、项目、团队归因，所以成本看得清清楚楚，可以做支出护栏。今天内部有 800 多个项目走这个网关，每天超过 1 亿次模型请求。工程师这边呢，只要设一个项目 ID,其他全不用管。\n\n模型有了，第二个问题是工具。智能体要干活，得能调用各种 API 和服务，这就引出 MCP——说白了，就是模型可调用的工具接口。Uber 的痛点是：内部有几千个 API,但没有一个开箱即用能被智能体调用。他们的解法是一个自动化爬虫，改一条配置就能把内部 API 投影成 MCP;Google、Slack、Jira 这些外部工具也统一接入网关托管。但工具有新问题：装得多了，每次调用都往上下文里塞一堆描述，token 消耗暴涨。用 Uday 的原话说，\"一旦你装了足够多的 MCP,它们会累加起来，产生巨大的 token 税\"。为了省这笔税，方案迭代了好几代，最新的是自动生成 Python 脚本，只返回真正需要的结果。现在 Uber 有 1000 多个 MCP 工具，光这些优化就在全集群省了超过 40%。\n\n有了模型和工具，第三个模块是智能体在哪干活。Uber 把原本给工程师用的云端开发环境 DevPod 改造了一下：容器预先备好、随取随用，仓库快照和搜索索引都提前建好，智能体几秒内就能开工。顺带还建了个技能市场，现在有 2500 个技能，每天被执行超过两万次。\n\n前三个模块解决的是\"能不能干活\"，但 Uday 团队从执行轨迹里发现了一个更隐蔽的问题：智能体花大量时间，其实只是在找上下文。一个一百多万行代码的巨型代码库，某个服务在哪、依赖什么、该遵循什么模式，这些信息散落在 20 到 30 个不同系统里，每取一次都烧 token、加延迟。于是他们做了第五个模块——上下文图，把\"Uber 是怎么运转的\"全部整合成一张图，4000 万条条目，从 App 构建方式到事故记录全部互连。效果很明显，拿\"印度的出行行程有多少被缓存\"这类问题实测，有图和没图相比，token、轮次、延迟都有巨大改进。\n\n这些能力最后都接进一个统一入口，叫 Cortana,任何员工在 Slack 里、命令行里、网页上都能用。光最近一个月，员工就创建了 300 个个性化的 Cortana 人设，每天超过两万个会话。\n\n那这套东西拼起来，真能交付一个功能吗？Adam 用世界杯演示了一遍。场景是：比赛散场，让离开拥挤体育场的乘客有更好的上车点。流程是——在 Slack 里讨论想法，把 Cortana 拉进来，借助上下文图做调研、定需求、生成两版设计方案。Adam 说，以前让所有人达成一致可能需要几周，现在可以压缩到很短的时间。然后交给 Minion——Uber 的云端编码智能体，它能跨仓库同时改前后端。但有意思的是，它写完代码会停下来，不自动推 CI。为什么？因为与其等代码跑到外层的持续集成里再报错，不如把验证前移：静态分析问题当场修，用模拟器截图和设计稿比对，还在测试环境把前后端拉起来联调。最关键的一环是，智能体提交的代码会附一张表，列出它经历过的所有检查、包括截图，用 Adam 的说法，这让人类评审者有信心，这份代码经过了大量的自我改进，而不是只信任最初那次生成。\n\n代码越写越多，维护就成了下半场。Uber 把清理旧功能开关这类活儿登记成维护技能，自动调度执行。但自动化有围栏：全公司统一界面管理，不允许多头开循环，而且安排在周日 CI 空闲时跑，免得工程师周一早上被 diff 淹没。更妙的是，技能产出的代码被合入还是被拒绝，都成了标注数据，反过来改进技能本身。\n\n流水线跑通之后，瓶颈也转移了。一是 CI 容量得提前规划，二是能跑的实验数量有限，三是最根本的——Adam 那句话说得很透：不再是能不能构建，我们现在大概都能构建出来，问题变成了，该不该构建它？当写代码不再是问题，真正稀缺的，变成了判断力。"
+}

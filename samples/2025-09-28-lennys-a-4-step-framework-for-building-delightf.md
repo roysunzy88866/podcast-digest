@@ -170,7 +170,7 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|Uber COO 谈会员制反转、自动驾驶终局与AI预算失控]]<span class="pd-rz">同公司:Uber、Revolut</span>
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:Uber</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack</span>
+- [[2026-08-21-talks-building-blocks-for-uber-s-software-fact|Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写]]<span class="pd-rz">同公司:Uber</span>
 
 </div>
 </div>

@@ -133,7 +133,10 @@
     "bdHaOXZOhcM": "2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship",
     "nxokqOq1imY": "2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame",
     "s-aixZYJG4c": "2026-08-20-talks-the-last-human-code-review-building-trus",
-    "zaGyGgLW3SM": "2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai"
+    "zaGyGgLW3SM": "2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai",
+    "17-YSUHo6Lk": "2026-08-21-talks-building-blocks-for-uber-s-software-fact",
+    "0I6aoPSRzVc": "2026-08-22-talks-what-if-your-chip-design-team-moved-like",
+    "GJX19pNhmSw": "2026-08-22-talks-finops-for-ai-agents-who-spent-all-the-t"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -156,7 +159,8 @@
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
     "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
-    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": 2
+    "2026-08-21-twist-open-source-is-going-to-win-it-all-harve": 2,
+    "2026-09-24-pg-zapier-ai-fluency-rubric-for-pms": 1
   },
   "cutoffs": {
     "lennys": "2026-09-22T23:12:49.000Z",
@@ -192,7 +196,7 @@
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-16T19:00:00.000Z",
     "ainativedev": "2026-09-22T12:00:00.000Z",
-    "newcomer": "2026-09-17T20:43:55.000Z",
+    "newcomer": "2026-09-24T21:12:05.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
     "sourcery": "2026-09-22T14:00:01.000Z",
     "iltb": "2026-09-22T08:00:00.000Z",
@@ -202,7 +206,7 @@
     "grit": "2026-09-21T09:00:03.000Z",
     "mos": "2026-09-24T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
-    "latent": "2026-09-21T22:13:49.000Z"
+    "latent": "2026-09-25T01:30:57.000Z"
   },
   "skipped": [
     {
@@ -1602,6 +1606,18 @@
       "reason": "题材不对味:拿不准:Al Gore 谈清洁能源属高管访谈式常青内容,但主题偏能源/气候而非 AI 产业格局,档案未明确覆盖",
       "title": "Al Gore on the $4.5 Trillion Clean Energy Opportunity",
       "pubDate": "2026-09-24T18:17:00.000Z"
+    },
+    {
+      "id": "2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Josh Elman on Apple, AI Agents & Why Startups Can Still Win",
+      "pubDate": "2026-09-24T21:12:05.000Z"
+    },
+    {
+      "id": "2026-09-25-latent-runway",
+      "reason": "题材不对味:拿不准:偏模型/技术发布(WorldPrompt)且涉及世界模型前沿技术深挖,商业与实操面不明",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "pubDate": "2026-09-25T01:30:57.000Z"
     }
   ]
 }

@@ -1,0 +1,1115 @@
+{
+  "episode_id": "2026-08-22-talks-finops-for-ai-agents-who-spent-all-the-t",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "成本治理",
+    "可观测性"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tisha-chawla",
+      "type": "person",
+      "role": "guest",
+      "name": "Tisha Chawla",
+      "file": "Tisha Chawla",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tokenops",
+      "type": "concept",
+      "role": "concept",
+      "name": "TokenOps",
+      "file": "TokenOps",
+      "primary": true,
+      "how_described": "本集提出的方案：一套面向 AI 智能体的失控 token 治理系统，带外控制平面不干扰代码，基准测试中平均支出下降近 78%、完成率从 67% 提升到约 96%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            661.866,
+            666.049
+          ],
+          "quote": "So yeah, we have established the principles behind TokenOps till now, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            673.854,
+            679.538
+          ],
+          "quote": "So what I have behind me on the screen is the like bird's eye view of what TokenOps looks like today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1164.777,
+            1166.939
+          ],
+          "quote": "So that is the value add that TokenOps is doing here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体工作流产生难以追溯的 AI 账单，控制平面需要能即时调整智能体行为（steer）而不是简单杀掉（halt）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            276.388,
+            283.793
+          ],
+          "quote": "And if we don't have proper attribution, like if we don't know what agent want run made that particular call,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            299.681,
+            312.507
+          ],
+          "quote": "And like once you know which particular run or which particular agent is actually, you know, attributing to the cost, you should have proper policies in place to actually stop it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            391.925,
+            409.816
+          ],
+          "quote": "You know like monitors you at the run instead like if you see we need something which can control the loop between like the agent call between the tool and the agent something you know which can",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            411.477,
+            422.067
+          ],
+          "quote": "see or control the spawning of multiple sub-agents happening from a one main agent or like something which can control the growing of context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            514.136,
+            525.561
+          ],
+          "quote": "So, this is the missing piece which is you know the basically navigating it at the you know the model the agent run layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            683.521,
+            688.524
+          ],
+          "quote": "So on the leftmost, you have your own agent runtime which you're trying to instrument and kind of manage the cost for, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            689.105,
+            695.189
+          ],
+          "quote": "The middle layer is what we're calling the bridge that basically shuffles data between your agent and the control plane.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            705.035,
+            711.341
+          ],
+          "quote": "So, what we're trying to do here is every agent run that you do, it's attributed to some user dimensions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            711.482,
+            717.467
+          ],
+          "quote": "So, the idea is everything that you do, every run of the agent is accounted to some usability or some usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            747.133,
+            751.257
+          ],
+          "quote": "Now, this will be annotated with the further agent run ID and the other attributes and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            751.777,
+            757.959
+          ],
+          "quote": "The second thing the boundary annotation does is it acts as a channel through which the control plane can push actions down to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            762.941,
+            771.945
+          ],
+          "quote": "We want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            802.923,
+            813.106
+          ],
+          "quote": "The governor knows what actions are allowed on your agent by you as a developer and it receives those actions from the control plane and knows how to apply it in a non-destructive way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            819.229,
+            824.891
+          ],
+          "quote": "So as we know, most of the agent providers or the model providers, they provide objects rather than methods for their LLMs, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            838.802,
+            849.693
+          ],
+          "quote": "So, any dimensions that you float from the attribution layer, let's say you have a preview agent that you share with everyone in this room and your agent is floating a dimension saying that cohort is AIE 2026, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            861.42,
+            865.162
+          ],
+          "quote": "So you don't necessarily have to restrict everything at an agent level or a run level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            871.887,
+            875.71
+          ],
+          "quote": "Ledger, as I mentioned, is just one agent run all the traces in one place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            877.291,
+            883.276
+          ],
+          "quote": "Budgets are basically just the static thresholds that work across a time window against a particular segment or an agent run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            887.72,
+            892.023
+          ],
+          "quote": "First is the halt type actions, which basically just kill your agent if it exceeds a budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            896.447,
+            907.194
+          ],
+          "quote": "So here we do not kill the agent, instead we try to steer the behavior of the agent or the components of the agent to try and fit that particular run within the allotted budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            910.076,
+            917.281
+          ],
+          "quote": "You basically group the budgets, the actions and then set your policies against certain segments or agent runs and that is where it executes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            962.287,
+            964.269
+          ],
+          "quote": "So it's a simple two-agent workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            964.429,
+            967.011
+          ],
+          "quote": "We have a research agent which has access to a search tool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            972.837,
+            979.504
+          ],
+          "quote": "And once it knows that it has all the data, it passes the findings on to the second agent, which is a summarizer, which creates a research report.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1062.432,
+            1065.555
+          ],
+          "quote": "But the agent exceeded the budget and it was killed immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1081.487,
+            1087.414
+          ],
+          "quote": "The budget allotted for this one is slightly higher, but it's still not high enough for the agent to complete in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1149.048,
+            1156.733
+          ],
+          "quote": "On the completion part, when we compare it with throttling, just simple throttling, your simple throttling is going to kill your agent runs no matter what, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "control-plane",
+      "type": "concept",
+      "role": "concept",
+      "name": "控制平面 (control plane)",
+      "file": "控制平面",
+      "primary": true,
+      "how_described": "本集称其为系统的大脑，带外设计、运行在用户自己的租户里，包含 segment、ledger、budgets、actions、policies 等模块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            151.08,
+            157.504
+          ],
+          "quote": "But what we've observed is that there isn't a proper control plane in place for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            157.985,
+            168.832
+          ],
+          "quote": "Like we do have control plane in place for you in place as model gateways where there are hard caps or there is model routing to downgrade the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            689.105,
+            695.189
+          ],
+          "quote": "The middle layer is what we're calling the bridge that basically shuffles data between your agent and the control plane.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            695.749,
+            699.091
+          ],
+          "quote": "And the control plane is where the mind of the system lies, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            751.777,
+            757.959
+          ],
+          "quote": "The second thing the boundary annotation does is it acts as a channel through which the control plane can push actions down to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            762.941,
+            771.945
+          ],
+          "quote": "We want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            772.445,
+            774.687
+          ],
+          "quote": "Now, let's say the control plane pushes down an action.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            789.04,
+            793.941
+          ],
+          "quote": "So let's say the control plane observes this and it wants to limit the output to just five chunks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            802.923,
+            813.106
+          ],
+          "quote": "The governor knows what actions are allowed on your agent by you as a developer and it receives those actions from the control plane and knows how to apply it in a non-destructive way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            829.313,
+            831.735
+          ],
+          "quote": "Let's shift right to the control plane.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            832.176,
+            833.978
+          ],
+          "quote": "On the control plane, the first layer is the segment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            930.05,
+            934.113
+          ],
+          "quote": "This boundary annotation will take care of floating all the information up to the control plane.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            934.133,
+            935.894
+          ],
+          "quote": "And the control plane lies in your own tenant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            950.789,
+            955.314
+          ],
+          "quote": "So that your control plane cannot just willingly do any random things on your agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1212.647,
+            1226.115
+          ],
+          "quote": "So what we want to try is, we want to try a self-learning module within the token ops plane, within the control plane, which can look at this ledger and ask this question, hey, why or what is the failure mode that I'm still not able to catch?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "attribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "归因 (attribution)",
+      "file": "归因",
+      "primary": true,
+      "how_described": "本集的第一性原理之一：不知道是哪个智能体、哪次运行发起的调用就没法控制成本，只知道大概哪里出了问题却无法追溯或缩小范围。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            276.388,
+            283.793
+          ],
+          "quote": "And if we don't have proper attribution, like if we don't know what agent want run made that particular call,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            295.379,
+            298.96
+          ],
+          "quote": "So that is why attribution is a very important element to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            438.501,
+            452.248
+          ],
+          "quote": "Like the attribution runs which happened and then where enforcement actually happens in call path rather than a separate thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            564.442,
+            586.464
+          ],
+          "quote": "Like the basic telemetry, the open telemetry, the cost in microns and like the enrichment layer and basically the attribution like what caused that like particular run and then there is obviously accounting where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            701.913,
+            704.615
+          ],
+          "quote": "If we go from top to bottom, you have the attribution on top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            834.278,
+            838.402
+          ],
+          "quote": "Now, this is where the attribution that we talked about earlier comes into picture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            838.802,
+            849.693
+          ],
+          "quote": "So, any dimensions that you float from the attribution layer, let's say you have a preview agent that you share with everyone in this room and your agent is floating a dimension saying that cohort is AIE 2026, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token-maxing",
+      "type": "concept",
+      "role": "concept",
+      "name": "token maxing",
+      "file": "token maxing",
+      "primary": true,
+      "how_described": "本集说业界现在推崇为探索等目的花最多的 token，人们以自称 token 亿万富翁为荣；演讲主张转向 value maxing。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.702,
+            54.993
+          ],
+          "quote": "And I don't think that's a problem right now because right now the industry is valuing, you know, token maxing that is like spending the most amount of tokens for exploration for all of those purposes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            60.458,
+            66.723
+          ],
+          "quote": "But this talk is, you know, the shift from token maxing to value maxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            90.918,
+            106.485
+          ],
+          "quote": "Now, in order to minimize the gap, you know, from token maxing to value maxing, we'll kind of see, we'll observe the patterns which the, like the existing, like the past software evolution era has had.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ledger",
+      "type": "concept",
+      "role": "concept",
+      "name": "账本 (ledger)",
+      "file": "账本",
+      "primary": true,
+      "how_described": "本集描述为一次 agent run 的所有追踪集中一处、持续更新的记账机制，也是未来自学习模块审视的依据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            588.332,
+            595.155
+          ],
+          "quote": "You will basically accumulate it in a kind of a ledger, like the total runs which are happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            739.807,
+            746.653
+          ],
+          "quote": "First, it's going to track the input and the output, and it's going to flight that up to the control layer and record it there as a ledger entry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            871.887,
+            875.71
+          ],
+          "quote": "Ledger, as I mentioned, is just one agent run all the traces in one place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1209.804,
+            1212.307
+          ],
+          "quote": "We have a ledger that is continuously being updated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1212.647,
+            1226.115
+          ],
+          "quote": "So what we want to try is, we want to try a self-learning module within the token ops plane, within the control plane, which can look at this ledger and ask this question, hey, why or what is the failure mode that I'm still not able to catch?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "type": "concept",
+      "role": "concept",
+      "name": "预算 (budget)",
+      "file": "预算",
+      "primary": true,
+      "how_described": "本集定义为时间窗口内针对特定 segment 或运行的静态阈值，预算封顶停机只作为最后手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            191.457,
+            218.825
+          ],
+          "quote": "Like if you've read the news, there was news about the AI budget for Uber getting exhausted within four months and there were companies who ran into hundreds of millions of dollars within just months or days and there were a lot of other news in place as well where these runaway loops led to a very",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            337.582,
+            344.165
+          ],
+          "quote": "And if and as the last resort only like a halting or a should happen from a budget gap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            376.861,
+            387.371
+          ],
+          "quote": "They like they are like model gateways which will you know basically do like model routing or hard budget capping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            426.651,
+            437.781
+          ],
+          "quote": "So for all of this, we like kind of are proposing a platform which first of all has a cumulative budget across",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            467.157,
+            478.601
+          ],
+          "quote": "And after that, after basically exhausting the list of all in place policies, only the budget cap halt should happen at the very last.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            613.963,
+            617.786
+          ],
+          "quote": "Like final thing if you know your budget is getting exhausted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            762.941,
+            771.945
+          ],
+          "quote": "We want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            776.048,
+            782.794
+          ],
+          "quote": "Let's say you have a RAG retrieval tool, which is generating 20 chunks for every call, and that's eating up your budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            887.72,
+            892.023
+          ],
+          "quote": "First is the halt type actions, which basically just kill your agent if it exceeds a budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            896.447,
+            907.194
+          ],
+          "quote": "So here we do not kill the agent, instead we try to steer the behavior of the agent or the components of the agent to try and fit that particular run within the allotted budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1024.545,
+            1027.686
+          ],
+          "quote": "So you can see the cost budget, the cost guard, and so on, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1059.649,
+            1061.912
+          ],
+          "quote": "So, you had a budget allotted for this run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1062.432,
+            1065.555
+          ],
+          "quote": "But the agent exceeded the budget and it was killed immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1081.487,
+            1087.414
+          ],
+          "quote": "The budget allotted for this one is slightly higher, but it's still not high enough for the agent to complete in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1094.722,
+            1097.445
+          ],
+          "quote": "First, how much of your allotted budget have you consumed?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1100.708,
+            1110.416
+          ],
+          "quote": "Now, based on these two things, if it predicts that you are going to run out of your tokens or your allotted budget by the end of the run, it is going to inject something into your system instructions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1110.817,
+            1118.984
+          ],
+          "quote": "That something could be as simple as, hey, you are running out of budget, so make sure that the LLM outputs are more succinct or more summarized, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "steer",
+      "type": "concept",
+      "role": "concept",
+      "name": "steer 动作 (steer)",
+      "file": "steer 动作",
+      "primary": true,
+      "how_described": "本集真正的增值点：不杀智能体，而是由 cost guard 根据已耗预算和 token 消耗速度，向系统指令注入提示引导行为落在预算内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            892.544,
+            896.087
+          ],
+          "quote": "The second part where we are adding value is the steer type actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            896.447,
+            907.194
+          ],
+          "quote": "So here we do not kill the agent, instead we try to steer the behavior of the agent or the components of the agent to try and fit that particular run within the allotted budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1070.759,
+            1078.405
+          ],
+          "quote": "And now let's see the steer behavior, which is where we are trying to add value to this entire cost management scenario.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1195.488,
+            1198.151
+          ],
+          "quote": "The halt type actions and then the steer type actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1198.191,
+            1203.256
+          ],
+          "quote": "So, for the steer we can do allow, mutate, inject and so on and for the halt it can be a simple kill.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "halt",
+      "type": "concept",
+      "role": "concept",
+      "name": "halt 动作 (halt)",
+      "file": "halt 动作",
+      "primary": true,
+      "how_described": "本集演示的第二种动作：智能体超出预算被立即终止，一种熔断器式的方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            467.157,
+            478.601
+          ],
+          "quote": "And after that, after basically exhausting the list of all in place policies, only the budget cap halt should happen at the very last.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            608.741,
+            612.543
+          ],
+          "quote": "And then we have halt in place as the final",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            887.72,
+            892.023
+          ],
+          "quote": "First is the halt type actions, which basically just kill your agent if it exceeds a budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1068.717,
+            1070.378
+          ],
+          "quote": "So this is the halt behavior.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1195.488,
+            1198.151
+          ],
+          "quote": "The halt type actions and then the steer type actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1198.191,
+            1203.256
+          ],
+          "quote": "So, for the steer we can do allow, mutate, inject and so on and for the halt it can be a simple kill.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "boundary-annotation",
+      "type": "concept",
+      "role": "concept",
+      "name": "boundary 注解 (boundary annotation)",
+      "file": "boundary 注解",
+      "primary": true,
+      "how_described": "本集称其为桥接层的心脏和灵魂：追踪方法输入输出上浮为账本条目，同时充当控制平面下行调整智能体行为的通道，不改代码逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            720.29,
+            725.876
+          ],
+          "quote": "The second part, which is the boundary annotation that you see, this is pretty much the heart and soul of this middle layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            726.336,
+            733.922
+          ],
+          "quote": "So, the idea behind the boundary annotation is that you take any method, it doesn't matter what framework you're using, you might be using, let's say, LangChain, LangSmith, whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            751.777,
+            757.959
+          ],
+          "quote": "The second thing the boundary annotation does is it acts as a channel through which the control plane can push actions down to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            921.244,
+            923.065
+          ],
+          "quote": "That is the boundary annotation that we just talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            930.05,
+            934.113
+          ],
+          "quote": "This boundary annotation will take care of floating all the information up to the control plane.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "runaway-costs",
+      "type": "concept",
+      "role": "concept",
+      "name": "失控成本 (runaway costs)",
+      "file": "失控成本",
+      "primary": true,
+      "how_described": "本集说失控循环导致成本大幅飙升却没有合适机制控制，举例 Uber 的 AI 预算四个月内耗尽；TokenOps 就是针对这类失控 token 的治理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1229.197,
+            1244.917
+          ],
+          "quote": "One is it can enhance, it can generate new policies on the fly based on the missing or the still runaway costs or it can refine the existing parameters for the existing policies that are there so that the runaway costs are managed more effectively in the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "self-learning-module",
+      "type": "concept",
+      "role": "concept",
+      "name": "自学习模块 (self-learning module)",
+      "file": "自学习模块",
+      "primary": true,
+      "how_described": "本集设想的最终状态：让控制平面内的自学习模块审视账本，问什么样的失效模式仍捕获不了，然后即时生成新策略或优化现有策略参数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1212.647,
+            1226.115
+          ],
+          "quote": "So what we want to try is, we want to try a self-learning module within the token ops plane, within the control plane, which can look at this ledger and ask this question, hey, why or what is the failure mode that I'm still not able to catch?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "company",
+      "role": "company",
+      "name": "browser use",
+      "file": "browser use",
+      "primary": false,
+      "how_described": "本集用来做基准测试的开源仓库之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            1132.413,
+            1135.555
+          ],
+          "quote": "So we have benchmarked it on browser use as well as MetaGPT.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "metagpt",
+      "type": "company",
+      "role": "company",
+      "name": "MetaGPT",
+      "file": "MetaGPT",
+      "primary": false,
+      "how_described": "本集用来做基准测试的开源仓库之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            1132.413,
+            1135.555
+          ],
+          "quote": "So we have benchmarked it on browser use as well as MetaGPT.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集引用的新闻：Uber 的 AI 预算在四个月内耗尽，作为失控消费的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            191.457,
+            218.825
+          ],
+          "quote": "Like if you've read the news, there was news about the AI budget for Uber getting exhausted within four months and there were companies who ran into hundreds of millions of dollars within just months or days and there were a lot of other news in place as well where these runaway loops led to a very",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": false,
+      "how_described": "本集举例说明 boundary 注解与框架无关时提到的框架之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            726.336,
+            733.922
+          ],
+          "quote": "So, the idea behind the boundary annotation is that you take any method, it doesn't matter what framework you're using, you might be using, let's say, LangChain, LangSmith, whatever.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "model gateway",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

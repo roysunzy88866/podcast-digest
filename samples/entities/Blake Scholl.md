@@ -86,7 +86,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":14,"Boeing":2,"FAA":2,"Uber":10,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":14,"Boeing":2,"FAA":2,"Uber":12,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
 
 <script>
 (function(){

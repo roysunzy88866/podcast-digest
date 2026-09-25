@@ -134,8 +134,8 @@ Liatrio 不绑任何特定工具或云厂商。Chris 认为现在签三到五年
 **顺着「组织与领导力」挖下去**
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:DevOps</span>
+- [[2026-08-22-talks-what-if-your-chip-design-team-moved-like|芯片设计缺的不是智能，是对齐：给工程团队装一套共享神经系统]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 - [[2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in|Canva 联合创始人:AI 把设计成本从零变成美分之后]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
-- [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 
 </div>
 <div class="pd-ex">

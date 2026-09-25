@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Blond]] · [[Monaco]] · [[Brex]] · [[EchoSign]] · [[Salesforce]] · [[go-to-market]] · [[智能体]] · [[记录系统]] · [[单点解决方案]] · [[创新者的窘境]]
 
-<script type="application/json" class="pd-epn">{"Sam Blond":1,"Monaco":1,"Brex":5,"EchoSign":1,"Salesforce":26,"go-to-market":9,"智能体":306,"记录系统":5,"单点解决方案":2,"创新者的窘境":3}</script>
+<script type="application/json" class="pd-epn">{"Sam Blond":1,"Monaco":1,"Brex":5,"EchoSign":1,"Salesforce":26,"go-to-market":9,"智能体":309,"记录系统":5,"单点解决方案":2,"创新者的窘境":3}</script>
 
 <script>
 (function(){

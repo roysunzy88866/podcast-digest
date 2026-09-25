@@ -1,0 +1,356 @@
+{
+  "episode_id": "2026-08-22-talks-what-if-your-chip-design-team-moved-like",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "tags": [
+    "对齐",
+    "智能体",
+    "芯片设计",
+    "多人 AI 协作",
+    "团队生产力"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "abduallah-mohamed",
+      "type": "person",
+      "role": "guest",
+      "name": "Abduallah Mohamed",
+      "file": "Abduallah Mohamed",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "aidachimp",
+      "type": "company",
+      "role": "company",
+      "name": "AidaChimp",
+      "file": "AidaChimp",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            24.486,
+            27.489
+          ],
+          "quote": "I'm Abdullah Mohamed, the VP of AIML at AidaChimp.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集主线概念:团队一大,沟通与对齐成本二次方增长;「对齐胜过个人技术」「缺的不是智能,缺的是对齐」,从业者 70% 时间花在对齐上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            144.581,
+            149.745
+          ],
+          "quote": "So in short, we can say alignment beats individual skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            172.572,
+            181.233
+          ],
+          "quote": "But we know from the literature that the more people you have, the quadratic term of communication between them and alignment them, keep growing and keep growing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            200.206,
+            201.946
+          ],
+          "quote": "And this is why the alignment is important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            252.344,
+            265.267
+          ],
+          "quote": "And we spoke to many practitioners in the field, on average like 15 practitioners, and we found that most of them pointed towards the same problem, that we spend 70% of our time doing alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            266.648,
+            270.03
+          ],
+          "quote": "Alignment to make sure that once we print a chip, nothing is there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            634.611,
+            636.173
+          ],
+          "quote": "We try to grade the alignment itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            926.216,
+            928.758
+          ],
+          "quote": "It wasn't missing intelligence, it was missing alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            953.001,
+            954.602
+          ],
+          "quote": "And alignment is universal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论:由领域专家开发的专用智能体(数字/模拟设计智能体),不评估单个智能体而评估对齐,并讲了智能体越界、真相漂移、猫鼠游戏等翻车史。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            405.412,
+            419.963
+          ],
+          "quote": "And lastly, instead of having this general coding agent that everyone uses today, we have a special designed agent that being developed by subject matter experts to help the engineers doing their work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            420.704,
+            426.768
+          ],
+          "quote": "So for example, like we have digital design agent, analog design agent, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            653.697,
+            658.36
+          ],
+          "quote": "And if we're going to zoom into the bare component, you can measure like if that agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            699.218,
+            701.519
+          ],
+          "quote": "Sometimes the agent goes out on that end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            777.569,
+            779.21
+          ],
+          "quote": "First, agent overstepped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            780.17,
+            792.275
+          ],
+          "quote": "In early design phases of the system, we found that an analog agent that's specifically for analog design actually overstepping and doing RTL agent work, which wasn't really great.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            801.016,
+            807.662
+          ],
+          "quote": "An agent modifying something in the system not necessarily means it modifies it everywhere it should be modified.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            810.084,
+            815.348
+          ],
+          "quote": "Like we have a case specifically where one agent were modifying a parameter and updated it in one place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            818.88,
+            824.246
+          ],
+          "quote": "And the third one is one of my favorite is we ask the agent do not write into specs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            855.077,
+            863.699
+          ],
+          "quote": "First, we have a spec hierarchy with agent scope and file isolation to allow them only to work on this specific task or specific domain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            868.32,
+            884.224
+          ],
+          "quote": "Second one is we have a single source of truth with automatic conflict detection that is not LLM-based but actually rule-based that can detect that this agent did this issue and we want to change its value and actually resonate in the whole system immediately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            885.07,
+            895.961
+          ],
+          "quote": "And thirdly, which I think as an IT administration for agent, we block at the source, like we block from system level, not above level, like tool by tool, but just we try to block it over there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在环 (human-in-the-loop)",
+      "file": "人在环",
+      "primary": true,
+      "how_described": "意图系统(组织的圣经)不允许智能体直接改动,任何变更都要经过人在环的批准;评估时也测量智能体是否越过人审边界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            364.065,
+            379.181
+          ],
+          "quote": "has all the constraints of the system, has all the decisions over there, it keeps evolving, and as an AI person, actually, we don't allow the agents to touch it, except with human-in-the-loop approval for specific changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            695.297,
+            698.518
+          ],
+          "quote": "Are our agents overstepping, human in the loop, approval or not?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tribal-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "部落知识 (tribal knowledge)",
+      "file": "部落知识",
+      "primary": true,
+      "how_described": "随日常使用不断演进的知识记忆层,捕捉所有信息与文档、跨项目保留最佳实践;并指出学界没有针对部落记忆/机构记忆的研究,他们正自建数据集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            386.782,
+            388.643
+          ],
+          "quote": "And the next one is the tribal knowledge layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            389.044,
+            404.275
+          ],
+          "quote": "The tribal knowledge layer, we can think about it as a memory that keeps evolving with day-to-day usage and the knowledge base that capture all the information and documents and it keeps evolving from a project to project and keeping the best practice over there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "single-source-of-truth",
+      "type": "concept",
+      "role": "concept",
+      "name": "单一真相来源 (single source of truth)",
+      "file": "单一真相来源",
+      "primary": true,
+      "how_described": "三条防翻车原则之一:带自动冲突检测的单一真相来源,基于规则而非 LLM,改动立即在整个系统共鸣传播。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            868.32,
+            884.224
+          ],
+          "quote": "Second one is we have a single source of truth with automatic conflict detection that is not LLM-based but actually rule-based that can detect that this agent did this issue and we want to change its value and actually resonate in the whole system immediately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "substrate",
+      "type": "concept",
+      "role": "concept",
+      "name": "基底层 (substrate)",
+      "file": "基底层",
+      "primary": false,
+      "how_described": "关键教训:聪明的智能体最需要的是它们所生活的基底层/世界,能做什么、不能做什么比智能体本身更重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            901.658,
+            908.743
+          ],
+          "quote": "Agents care about, like if you have your agents which are intelligent, what matters is a substrate layer that they are living in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

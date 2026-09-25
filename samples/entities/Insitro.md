@@ -25,7 +25,7 @@ unlisted: true
 
 [[Vijay Pande]] · [[VZVC]] · [[Function Health]] · [[Genesis Therapeutics]] · [[Devoted Health]] · [[智能体]] · [[临床试验]] · [[基础模型]] · [[精准医疗]] · [[go-to-market]]
 
-<script type="application/json" class="pd-epn">{"Vijay Pande":1,"VZVC":1,"Function Health":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":306,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":9}</script>
+<script type="application/json" class="pd-epn">{"Vijay Pande":1,"VZVC":1,"Function Health":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":309,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":9}</script>
 
 <script>
 (function(){

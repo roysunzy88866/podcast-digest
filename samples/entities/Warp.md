@@ -25,7 +25,7 @@ unlisted: true
 
 [[Zach Lloyd]] · [[Claire Vo]] · [[软件工厂]] · [[智能体]] · [[编码智能体]] · [[代码审查]] · [[计算机使用]] · [[LLM 当裁判]] · [[自我改进]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Zach Lloyd":1,"Claire Vo":5,"软件工厂":7,"智能体":306,"编码智能体":17,"代码审查":14,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":52}</script>
+<script type="application/json" class="pd-epn">{"Zach Lloyd":1,"Claire Vo":5,"软件工厂":7,"智能体":309,"编码智能体":17,"代码审查":14,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":52}</script>
 
 <script>
 (function(){

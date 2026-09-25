@@ -1,31 +1,33 @@
 ---
-title: MCP 网关 (MCP gateway)
+title: MCP 网关 (MCP Gateway)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 网关 (MCP gateway)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 网关 (MCP Gateway)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP 网关">MC</div><div class="pi"><h1 class="pt">MCP 网关 (MCP gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP 网关">MC</div><div class="pi"><h1 class="pt">MCP 网关 (MCP Gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-21-talks-building-blocks-for-uber-s-software-fact|《Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写》]]**(04:14起):Uber 的统一工具入口：自动化爬虫把内部 API 投影成 MCP，SaaS 工具统一接入托管，解决各家认证各异和「装多了 MCP 会累加出巨大 token 税」的问题，现有 1000 多个 MCP 工具，优化带来超 40% 的节省。
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(20:22起):本集说它是一种统一控制和管理对 MCP 服务器访问的服务：注册服务器、控制谁能绑定哪些工具、支持终端用户凭据透传，并因一切流量过网关而天然产生指标和异动报警。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-21-talks-building-blocks-for-uber-s-software-fact|《Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写》]] — 作为概念
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Daniel Whitenack]] · [[Chris Benson]] · [[Nick]] · [[智能体]] · [[平台即服务]] · [[Tanzu]] · [[Cloud Foundry]] · [[buildpack]] · [[agents.md]] · [[MCP]]
+[[智能体]] · [[Uday Kiran Medisetty]] · [[Daniel Whitenack]] · [[Uber]] · [[Chris Benson]] · [[模型网关]] · [[Nick]] · [[上下文图]] · [[平台即服务]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"Nick":1,"智能体":306,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":1,"MCP":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":309,"Uday Kiran Medisetty":1,"Daniel Whitenack":8,"Uber":12,"Chris Benson":9,"模型网关":1,"Nick":1,"上下文图":1,"平台即服务":1,"技能":19}</script>
 
 <script>
 (function(){

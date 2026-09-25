@@ -1,0 +1,788 @@
+{
+  "episode_id": "2026-08-21-talks-building-blocks-for-uber-s-software-fact",
+  "podcast": "精选演讲",
+  "date": "2026-08-21",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "AI 基础设施",
+    "工程效能",
+    "平台化"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "uday-kiran-medisetty",
+      "type": "person",
+      "role": "host",
+      "name": "Uday Kiran Medisetty",
+      "file": "Uday Kiran Medisetty",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集主讲公司：全球几千名工程师、12 个技术园区，过去一年在 agentic AI 上的投入使其超过 70% 的 PR 由智能体完成，正在打造端到端的 Managed Software Factory。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            98.637,
+            104.821
+          ],
+          "quote": "And all of these are in various stages of maturity and rollout within Uber, but we want to give everyone a sneak peek of what we are up to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            203.407,
+            210.029
+          ],
+          "quote": "And for an engineer at Uber, you take the vanilla client, you set the project ID, and we take care of everything else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            355.482,
+            356.943
+          ],
+          "quote": "And this is how engineers work at Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            536.148,
+            540.751
+          ],
+          "quote": "And all of this context is gathered across scattered systems across Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            557.52,
+            561.424
+          ],
+          "quote": "We took all of the information of how Uber runs into one context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            799.127,
+            802.548
+          ],
+          "quote": "So we hand off from that Cortana agent to what we have at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            804.429,
+            806.91
+          ],
+          "quote": "It's an Uber's cloud coding agent solution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1074.429,
+            1078.054
+          ],
+          "quote": "And the next talk is going to be actually from Uber as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：从编码智能体（超过 70% 的 PR 由本地或云端智能体完成）、自主编码智能体，到 Cortana AI 助手，智能体贯穿整个工程生命周期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            230.572,
+            236.557
+          ],
+          "quote": "Last year, when we started on this journey, we had thousands of internal APIs, but none of them are agent taxable out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            378.839,
+            384.263
+          ],
+          "quote": "When an agent requires a new environment to run, it can take one of that, which is already pre-provisioned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            417.927,
+            426.877
+          ],
+          "quote": "And even for our non-engineered employees, we are providing a simple way for them to get started with any of the agent harnesses in a matter of seconds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            799.127,
+            802.548
+          ],
+          "quote": "So we hand off from that Cortana agent to what we have at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            802.668,
+            804.329
+          ],
+          "quote": "We have a Minion agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            804.429,
+            806.91
+          ],
+          "quote": "It's an Uber's cloud coding agent solution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型网关 (model gateway)",
+      "file": "模型网关",
+      "primary": true,
+      "how_described": "Uber 的第一个构建模块：所有内外部用例走单一 OpenAI/Anthropic 兼容端点，中间件做身份认证、PII 脱敏和安全策略，按用户/项目/团队归因，每天处理超过 1 亿次模型请求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            109.879,
+            111.4
+          ],
+          "quote": "The first one is model gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            135.56,
+            144.83
+          ],
+          "quote": "So we have a model gateway and we made sure all of our internal use cases, our coding harnesses, our external use cases, they all go through one single OpenAI Anthropic compatible endpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            254.06,
+            259.462
+          ],
+          "quote": "Similar to Model Gateway, we have an MCP Gateway that handles a whole bunch of middlewares for engineers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 网关 (MCP Gateway)",
+      "file": "MCP 网关",
+      "primary": true,
+      "how_described": "Uber 的统一工具入口：自动化爬虫把内部 API 投影成 MCP，SaaS 工具统一接入托管，解决各家认证各异和「装多了 MCP 会累加出巨大 token 税」的问题，现有 1000 多个 MCP 工具，优化带来超 40% 的节省。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            254.06,
+            259.462
+          ],
+          "quote": "Similar to Model Gateway, we have an MCP Gateway that handles a whole bunch of middlewares for engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            272.811,
+            277.056
+          ],
+          "quote": "Whether it's Google, Slack, Jira, all of this, they go to the MCP gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文图 (context graph)",
+      "file": "上下文图",
+      "primary": true,
+      "how_described": "本集核心知识构建模块：智能体在大型 monorepo 里找基本上下文要烧 token、加延迟，Uber 把公司如何运转的全部信息整合进一张有 150 种节点/边类型、4000 万条目的图，token、轮次和延迟都显著下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            555.458,
+            556.94
+          ],
+          "quote": "So we have one context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            557.52,
+            561.424
+          ],
+          "quote": "We took all of the information of how Uber runs into one context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            626.919,
+            636.845
+          ],
+          "quote": "All of the things that I mentioned so far, whether it's skills, MCPs, and context graph, they're all plugged into that in every surface possible, whether it's on Slack, CLI, web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            640.067,
+            647.851
+          ],
+          "quote": "It can look up the context graph, invoke any skill, check any code, check any code in any code base, and give an answer across any of these surfaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            728.917,
+            734.041
+          ],
+          "quote": "Cortana with that context graph can help us determine whether this is a good business opportunity to go after.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "给智能体的操作能力包：工程师在各仓库造了大量技能但重复、难发现、质量参差，Uber 建了托管式技能市场，现有 2500 个技能、每天执行超 2 万次，并回收合入/拒绝反馈改进技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            435.197,
+            438.898
+          ],
+          "quote": "We started noticing engineers building tons of skills across many repositories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            439.819,
+            452.083
+          ],
+          "quote": "When three problems we noticed was there's a lot of duplication, same skill being built by different engineers in different repos, and discovery and configuration was a huge hassle, and a lot of skills were of subpar quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            453.08,
+            455.601
+          ],
+          "quote": "So we built an entire lifecycle around skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            455.621,
+            458.582
+          ],
+          "quote": "So we have core skills and domain-specific skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            459.183,
+            461.444
+          ],
+          "quote": "All of that go into a managed skills marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            462.164,
+            464.465
+          ],
+          "quote": "We have 2,500 skills there right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            465.586,
+            472.869
+          ],
+          "quote": "And it goes through a whole bunch of link checks, automated reviews, which ensures a baseline skill quality for any skills that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            482.632,
+            489.739
+          ],
+          "quote": "And based on the engineer personas, we even auto-installed some of the default skills so the agents automatically can pick up the right skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            507.432,
+            513.697
+          ],
+          "quote": "And we have 2,500 skills and relatively more than 20,000 skill executions per day across our fleet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            542.632,
+            546.815
+          ],
+          "quote": "Each needs its own skills, its own MCPs to gather the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            581.365,
+            589.854
+          ],
+          "quote": "We are now plugging all of our skills and use cases into the graph, whether it's our on-call RCA, whether it's our planning or data analysis or security scans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            590.514,
+            594.958
+          ],
+          "quote": "And we see across all of this, we are improving the skills by a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            626.919,
+            636.845
+          ],
+          "quote": "All of the things that I mentioned so far, whether it's skills, MCPs, and context graph, they're all plugged into that in every surface possible, whether it's on Slack, CLI, web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            653.798,
+            665.073
+          ],
+          "quote": "You can hook up your custom skills, custom prompt, and hook it up into your team Slack channel so that it knows all of the things about that team and works like that teammate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            960.66,
+            969.003
+          ],
+          "quote": "What we have set up now is we can actually enroll our feature or skill into our feature or service into maintenance skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            970.143,
+            974.105
+          ],
+          "quote": "So these are some examples of those skills that we have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1020.877,
+            1031.444
+          ],
+          "quote": "And then at a kind of monthly cadence, we're looking to see what skills can we now learn from in our incident reviews and turn those into new maintenance skills that we can apply to all of our services.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "devpod",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevPod",
+      "file": "DevPod",
+      "primary": true,
+      "how_described": "Uber 多年的云端远程开发环境，被改造成智能体运行环境：预置的 Kubernetes balloon pods，仓库已快照、索引已建好，智能体几秒内即可开工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            815.668,
+            821.811
+          ],
+          "quote": "Yure mentioned the DevPod building block, so this is powered by that DevPod, so it's got a full build environment, and it can work across repos.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cortana",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cortana",
+      "file": "Cortana",
+      "primary": true,
+      "how_described": "Uber 的统一 AI 助手入口：技能、MCP、上下文图都接进它，在 Slack、CLI、网页可用，任何员工都能提问、查图谱、调技能，最近一个月创建了 300 个个性化人设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            623.817,
+            626.679
+          ],
+          "quote": "So we have our AI assistant called Cortana.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            724.694,
+            726.055
+          ],
+          "quote": "Let's tag in Cortana.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            728.917,
+            734.041
+          ],
+          "quote": "Cortana with that context graph can help us determine whether this is a good business opportunity to go after.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            734.921,
+            739.405
+          ],
+          "quote": "So we can go here from Slack and now open Cortana into a web interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            758.025,
+            762.127
+          ],
+          "quote": "We can even then bring in Cortana to help us think about the Figma designs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            774.672,
+            780.415
+          ],
+          "quote": "Now we'll start to think a little bit about the design, and Cortana 2 can help us think about what code changes would need to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            799.127,
+            802.548
+          ],
+          "quote": "So we hand off from that Cortana agent to what we have at Uber.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "minion",
+      "type": "concept",
+      "role": "concept",
+      "name": "Minion",
+      "file": "Minion",
+      "primary": true,
+      "how_described": "Uber 的云端编码智能体，由 DevPod 驱动，有完整构建环境、能跨仓库同时改前后端；会停在 draft PR 阶段不推 CI，以便先在内循环完成验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            802.668,
+            804.329
+          ],
+          "quote": "We have a Minion agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            808.411,
+            812.273
+          ],
+          "quote": "So you can use Minion in an interactive mode or you can run it in an autonomous mode as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            825.373,
+            832.657
+          ],
+          "quote": "We're going to see Minion kind of progress here, and it's going to stop at just creating a draft PR, and it's not going to push it to CI yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            930.069,
+            944.866
+          ],
+          "quote": "Now, another key thing here is if this is an autonomous diff coming from Minion, we want to give a human reviewer some confidence that this diff has gone through a lot of self-improvement already, not just trusting that initial generation that happened, but all these other steps have happened.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集反复讨论的外循环：智能体验证要前移以免给 CI 带来额外负载；维护循环安排在 CI 容量充裕的周日跑；CI 容量成为新瓶颈之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            825.373,
+            832.657
+          ],
+          "quote": "We're going to see Minion kind of progress here, and it's going to stop at just creating a draft PR, and it's not going to push it to CI yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            845.402,
+            848.164
+          ],
+          "quote": "And we want to prevent a lot of extra load coming onto CI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            848.744,
+            853.487
+          ],
+          "quote": "So if we can validate sooner before we push to CI, that would be a big benefit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            893.518,
+            902.102
+          ],
+          "quote": "So now that we've moved a, now that we've done that part, we move to the outer loop where CI typically happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            902.683,
+            905.404
+          ],
+          "quote": "Errors can still happen on CI, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            905.444,
+            910.067
+          ],
+          "quote": "So self-healing CI is something that we've implemented here where we can fix a lot of the issues that you hit on CI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            996.354,
+            1001.217
+          ],
+          "quote": "So it runs on Sunday when we know we have better CI capacity available.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1051.852,
+            1058.3
+          ],
+          "quote": "Now we're putting more strain on our infrastructure, so we're trying to anticipate where our CI capacity needs to be and make the right foundational investments there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "type": "concept",
+      "role": "concept",
+      "name": "维护 (maintenance)",
+      "file": "维护",
+      "primary": true,
+      "how_described": "本集强调「维护比生成更重要」：把功能和服务登记进维护技能（如 feature flag 清理），循环受管理、统一界面设置，技能 diff 的合入/拒绝反馈回收成改进技能的标注数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            956.438,
+            957.959
+          ],
+          "quote": "Let's talk about maintenance, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            957.999,
+            960.339
+          ],
+          "quote": "Maintenance is even more important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            960.66,
+            969.003
+          ],
+          "quote": "What we have set up now is we can actually enroll our feature or skill into our feature or service into maintenance skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1020.877,
+            1031.444
+          ],
+          "quote": "And then at a kind of monthly cadence, we're looking to see what skills can we now learn from in our incident reviews and turn those into new maintenance skills that we can apply to all of our services.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "模型网关层做的护栏机制：AI guard 五个专门模型处理安全与策略、跨产品组合的支出护栏，自动化也要有围栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            185.486,
+            191.427
+          ],
+          "quote": "This enables us to create all kinds of spent years and guardrails in a holistic way across our portfolio.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bazel",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bazel",
+      "file": "Bazel",
+      "primary": false,
+      "how_described": "Uber 过去六年迁移到的构建系统，与 monorepo 一起为智能体加速奠定了基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            72.357,
+            83.92
+          ],
+          "quote": "And before even the building blocks, all the investments we made over the last six years on moving to MonoRepos, moving to Bazel, all of that also laid a really solid foundation for us to accelerate this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

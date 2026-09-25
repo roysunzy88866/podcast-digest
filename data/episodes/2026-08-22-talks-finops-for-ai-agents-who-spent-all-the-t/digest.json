@@ -1,0 +1,130 @@
+{
+  "title_zh": "谁花光了所有 token：给 AI 智能体装上成本治理",
+  "tldr": "Tisha 与 Sushim 讲解 TokenOps：在智能体运行层面做 token 成本归因与治理，实测平均支出降 78%。",
+  "digest_md": "打开智能体工作流的 AI 账单，却追查不出钱到底花在哪——演讲者 Tisha 说，这是当今 AI 领域最昂贵的问题。她和联合演讲者 Sushim 在这场演讲里提出了一个方案：TokenOps,一套针对 AI 智能体的失控 token 治理系统，在开源仓库上的基准测试中，把平均支出降了近 78%。\n\n先看问题有多大。现在业界推崇的是 token maxing——为了探索等各种目的花最多的 token,人们还以自称 token 亿万富翁为荣。他们认为这没错，真正的问题是价值与花费脱节：有新闻说 Uber 的 AI 预算四个月内耗尽，还有公司几个月甚至几天就烧掉数亿美元，失控循环导致成本飙升，却没有机制能控制。所以这场演讲的主题是从 token maxing 转向 value maxing——核心问题就一句：到底是谁花光了所有 token?\n\n## 为什么现有的控制手段都差一环\n\n他们从软件演进的历史找规律：SaaS 时代的界面是 UI,控制靠席位限制和分层策略；云时代变成按量付费，控制靠自动配置和自动伸缩。而现在智能体的成本按模型调用计算，却没有一个合适的控制平面——模型网关这类工具虽有硬性上限或模型路由降级，但都发生在**请求层面**，而“代码调用模型的地方”才是成本真正产生的地方。\n\n由此他们提出几条第一性原理:\n- **token 是成本单位**：既然按 token 收费，就必须用 token 来衡量价值；\n- **成本产生在模型调用边界**，追踪就必须做到那里；\n- **归因(attribution)是前提**：不知道是哪个智能体、哪次运行发起的调用，就谈不上控制——你只知道大概哪里出了问题，却无法追溯或缩小范围；\n- **策略先行，停机是最后手段**：发现某个循环过度运行或上下文增长失控，应该有策略当场解决那个具体问题，只有穷尽了这些手段，才由预算封顶触发停机。\n\n## TokenOps 怎么设计\n\n一个关键的有意决策：控制平面是**带外**(out of band)的，完全不干扰你的代码。系统分三层：最左是你自己的智能体运行时；中间是桥接层；右边是控制平面，也就是系统的大脑。\n\n桥接层的心脏是 boundary 注解：拿任意一个方法——不管你用 LangChain 还是别的框架——加上 boundary 注解，它会做两件事：一是追踪输入输出，上浮到控制层记为账本条目(附上 agent run ID 等属性)；二是充当一条下行通道，让控制平面能**即时调整智能体的行为**，好在预算内塞进更多运行。“我们不是一条单向的高速公路”。下行动作由 governor 节点接收执行——它知道你作为开发者允许对智能体做哪些动作，并以非破坏性的方式应用，控制平面因此不能对你的智能体随意行事。\n\n控制平面包含：segment(按归因维度划分用户群，比如按“cohort 是 AIE 2026”建群，在群这一层级设预算，不必把一切都限制在智能体或单次运行层级)、ledger(一次运行的所有追踪集中一处)、budgets(时间窗口内针对特定 segment 或运行的静态阈值)、actions 和 policies(把预算和动作分组，针对特定 segment 或运行设置并执行)。\n\n具体代码改动很小：只需在已有方法上加注解，不需改代码逻辑；控制平面运行在你自己的租户里，不用担心数据泄露。\n\n## 演示与实测数据\n\n测试台是一个双智能体工作流：研究智能体可随意用搜索工具查网络，把发现交给总结智能体生成研究报告。三个场景层层递进：\n\n1. **预览模式**：所有策略照常运行，但不执行强制动作——运行正常完成，仪表盘上能看到成本预算、cost guard 等策略都执行了。这是为了安全上线：先放进生产环境测试护栏、调整护栏、确定阈值。\n2. **halt 行为**：打开治理后，智能体超出分配的预算，被立即终止——一种熔断器式的方法。\n3. **steer 行为**(他们真正加价值的地方)：预算略高但仍不够时，cost guard 介入。它看两个指标——已消耗多少预算、消耗 token 的速度——据此预测你会在运行结束前耗尽预算，于是向系统指令注入提示，简单到像“嘿，你预算快用完了，确保输出更简洁、更概括”。不杀智能体，而是引导它的行为落在预算内。\n\n基准测试在 browser use 和 MetaGPT 两个开源仓库上做的，跑了多轮迭代、压力测试、难易场景：启用 TokenOps 完整策略套件后，平均支出下降近 78%;对比简单限流(无论如何都会杀死运行)，完成率从 67% 提升到约 96%。策略目录覆盖三大类失效模式：支出管理、上下文管理(上下文压缩、工具输出缩减)、循环检测与进度检测。\n\n## 下一步：自学习\n\n他们设想的最终状态是：账本在持续更新，在控制平面内加一个自学习模块，让它审视账本并自问“什么样的失效模式我仍然捕获不了”——然后要么基于仍然失控的成本即时生成新策略，要么优化现有策略的参数，让未来的失控成本被管理得更有效。\n\n## 本集带走\n\n- **控制成本要下到智能体运行层，不是请求层**：模型网关的硬上限和路由都在请求层面，而成本产生在代码调用模型的边界——这是现有工具缺失的一环。\n- **归因先于控制**：不知道哪次运行、哪个智能体在花钱，就什么都管不了；有了归因，才能按 segment、智能体或单次运行做粗细不同的预算。\n- **steer 优于 halt**:超预算别急着杀运行——根据已耗预算和消耗速度预测是否将耗尽，向系统指令注入“输出更简洁”之类的引导，能在预算内完成任务(完成率 67%→96%)。\n- **预览模式先行**：强制措施上线前，先让策略空跑、调好阈值，再真正启用治理。\n- **接入成本可以很低**：带外设计 + boundary 注解，不改代码逻辑，控制平面跑在自己租户内。===金句===\n00:40 | Unknown\nAnd I don't think that's a problem right now because right now the industry is valuing, you know, token maxing that is like spending the most amount of tokens for exploration for all of those purposes.\nZH | 我认为这现在还不算问题，因为现在业界推崇的是 token maxing,也就是为了探索等各种目的花最多的 token。\n\n00:55 | Unknown\nAnd people are proud to call themselves token billionaires.\nZH | 人们还以自称 token 亿万富翁为荣。\n\n01:13 | Unknown\nWho spent all the tokens?\nZH | 到底是谁花光了所有 token？\n\n03:54 | Unknown\nBut we'll instead talk about the first principles of how, you know, we can design a system which is actually true enough to solve the problem from the very root.\nZH | 但我们想谈的反而是第一性原理，也就是我们如何设计一个足够真实的系统，能从根源上解决这个问题。\n\n04:44 | Unknown\nWe can't, you know, control it, right?\nZH | 我们就没法控制它，对吧？\n\n06:31 | Unknown\nYou know like monitors you at the run instead like if you see we need something which can control the loop between like the agent call between the tool and the agent something you know which can\nZH | 你知道的，在运行时监控你的东西，你看，我们需要某种能够控制智能体调用与工具之间循环的东西，某种可以\n\n09:06 | Unknown\nAn out of bound plane.\nZH | 一个带外的控制平面。\n\n09:10 | Unknown\nSo, if you see here that out of the bound plane has three modules which I will be talking about the first one being instrumentation.\nZH | 所以，你看，这个带外平面有三个模块，我会逐一谈到，第一个是插桩。\n\n12:39 | Unknown\nThis is where the entire intelligence lies.\nZH | 这就是全部智能所在的地方。\n\n12:42 | Unknown\nWe want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?\nZH | 我们希望控制平面能够即时调整智能体的行为，以确保我们能够在预算缺口内塞进更多的 run,对吧？\n\n13:22 | Unknown\nThat is where the third node, the governor node comes in.\nZH | 这就是第三个节点，governor 节点登场的地方。\n\n13:33 | Unknown\nSo that's the first three.\nZH | 所以这就是前三个。\n\n14:56 | Unknown\nThe second part where we are adding value is the steer type actions.\nZH | 第二个我们正在增加价值的部分是 steer 类型的动作。\n\n17:45 | Unknown\nSo that's the simple circuit breaker sort of a methodology.\nZH | 这就是一种简单的熔断器式的方法。\n\n19:01 | Unknown\nAnd the results we see are the average spend goes down by almost 78% with token ops enabled with the full policy suit that we have today.\nZH | 我们看到的结果是，在启用 TokenOps 以及我们现有的完整策略套件的情况下，平均支出下降了近 78%。\n\n19:17 | Unknown\nSo with the reduced average spend, what you get is you get an uplift in that completion percentage from 67% to roughly 96%.\nZH | 所以在降低平均支出的同时，你得到的是完成百分比从 67% 提升到大约 96%。\n\n20:26 | Unknown\nAnd then based on that, it can do two things.\nZH | 然后基于此，它可以做两件事。\n\n20:26 | Unknown\nOne is it can enhance, it can generate new policies on the fly based on the missing or the still runaway costs or it can refine the existing parameters for the existing policies that are there so that the runaway costs are managed more effectively in the future.\nZH | 一是它可以增强，它可以基于缺失的或仍然存在的失控成本即时生成新策略，或者它可以优化现有策略的现有参数，以便失控成本在未来得到更有效的管理。",
+  "quotes": [
+    {
+      "en": "And the results we see are the average spend goes down by almost 78% with token ops enabled with the full policy suit that we have today.",
+      "zh": "我们看到的结果是，在启用 TokenOps 以及我们现有的完整策略套件的情况下，平均支出下降了近 78%。",
+      "timestamp": "19:01",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "So with the reduced average spend, what you get is you get an uplift in that completion percentage from 67% to roughly 96%.",
+      "zh": "所以在降低平均支出的同时，你得到的是完成百分比从 67% 提升到大约 96%。",
+      "timestamp": "19:17",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:40",
+      "speaker": "Unknown",
+      "en": "And I don't think that's a problem right now because right now the industry is valuing, you know, token maxing that is like spending the most amount of tokens for exploration for all of those purposes.",
+      "zh": "我认为这现在还不算问题，因为现在业界推崇的是 token maxing,也就是为了探索等各种目的花最多的 token。"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Unknown",
+      "en": "And people are proud to call themselves token billionaires.",
+      "zh": "人们还以自称 token 亿万富翁为荣。"
+    },
+    {
+      "timestamp": "01:13",
+      "speaker": "Unknown",
+      "en": "Who spent all the tokens?",
+      "zh": "到底是谁花光了所有 token？"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Unknown",
+      "en": "But we'll instead talk about the first principles of how, you know, we can design a system which is actually true enough to solve the problem from the very root.",
+      "zh": "但我们想谈的反而是第一性原理，也就是我们如何设计一个足够真实的系统，能从根源上解决这个问题。"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Unknown",
+      "en": "We can't, you know, control it, right?",
+      "zh": "我们就没法控制它，对吧？"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Unknown",
+      "en": "You know like monitors you at the run instead like if you see we need something which can control the loop between like the agent call between the tool and the agent something you know which can",
+      "zh": "你知道的，在运行时监控你的东西，你看，我们需要某种能够控制智能体调用与工具之间循环的东西，某种可以"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Unknown",
+      "en": "An out of bound plane.",
+      "zh": "一个带外的控制平面。"
+    },
+    {
+      "timestamp": "09:10",
+      "speaker": "Unknown",
+      "en": "So, if you see here that out of the bound plane has three modules which I will be talking about the first one being instrumentation.",
+      "zh": "所以，你看，这个带外平面有三个模块，我会逐一谈到，第一个是插桩。"
+    },
+    {
+      "timestamp": "12:39",
+      "speaker": "Unknown",
+      "en": "This is where the entire intelligence lies.",
+      "zh": "这就是全部智能所在的地方。"
+    },
+    {
+      "timestamp": "12:42",
+      "speaker": "Unknown",
+      "en": "We want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?",
+      "zh": "我们希望控制平面能够即时调整智能体的行为，以确保我们能够在预算缺口内塞进更多的 run,对吧？"
+    },
+    {
+      "timestamp": "13:22",
+      "speaker": "Unknown",
+      "en": "That is where the third node, the governor node comes in.",
+      "zh": "这就是第三个节点，governor 节点登场的地方。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Unknown",
+      "en": "So that's the first three.",
+      "zh": "所以这就是前三个。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "The second part where we are adding value is the steer type actions.",
+      "zh": "第二个我们正在增加价值的部分是 steer 类型的动作。"
+    },
+    {
+      "timestamp": "17:45",
+      "speaker": "Unknown",
+      "en": "So that's the simple circuit breaker sort of a methodology.",
+      "zh": "这就是一种简单的熔断器式的方法。"
+    },
+    {
+      "timestamp": "19:01",
+      "speaker": "Unknown",
+      "en": "And the results we see are the average spend goes down by almost 78% with token ops enabled with the full policy suit that we have today.",
+      "zh": "我们看到的结果是，在启用 TokenOps 以及我们现有的完整策略套件的情况下，平均支出下降了近 78%。"
+    },
+    {
+      "timestamp": "19:17",
+      "speaker": "Unknown",
+      "en": "So with the reduced average spend, what you get is you get an uplift in that completion percentage from 67% to roughly 96%.",
+      "zh": "所以在降低平均支出的同时，你得到的是完成百分比从 67% 提升到大约 96%。"
+    },
+    {
+      "timestamp": "20:26",
+      "speaker": "Unknown",
+      "en": "And then based on that, it can do two things.",
+      "zh": "然后基于此，它可以做两件事。"
+    },
+    {
+      "timestamp": "20:26",
+      "speaker": "Unknown",
+      "en": "One is it can enhance, it can generate new policies on the fly based on the missing or the still runaway costs or it can refine the existing parameters for the existing policies that are there so that the runaway costs are managed more effectively in the future.",
+      "zh": "一是它可以增强，它可以基于缺失的或仍然存在的失控成本即时生成新策略，或者它可以优化现有策略的现有参数，以便失控成本在未来得到更有效的管理。"
+    }
+  ],
+  "voice_script": "打开智能体工作流的 AI 账单,却追查不出钱到底花在了哪——演讲者 Tisha 说,这是当今 AI 领域最昂贵的问题。这一期,Tisha 和联合演讲者 Sushim 讲的就是这件事:一套叫 TokenOps 的系统,专门治理 AI 智能体的失控 token 成本。在开源仓库的基准测试里,它把平均支出降了近 78%。\n\n先把问题垫清楚。现在业界推崇一个词,叫 token maxing,就是为了探索等各种目的,花最多的 token,人们甚至以自称 token 亿万富翁为荣。两位演讲者觉得,这本身不算问题,真正的问题是价值与花费脱节了。有新闻说 Uber 的 AI 预算四个月内就耗尽,还有公司几个月甚至几天就烧掉数亿美元,成本一路飙升,却没有任何机制能控制。所以这场演讲的主线,就是从 token maxing 转向 value maxing——核心问题就一句:到底是谁花光了所有 token?\n\n那现成的控制手段为什么不管用?他们从软件演进的历史里找规律。SaaS 时代,界面是 UI,控制靠席位限制和分层策略;到了云时代,变成按量付费,控制靠自动配置和自动伸缩。而现在,智能体的成本是按模型调用算的,却没有一个合适的控制平面。模型网关这类工具虽然有硬性上限、有模型路由降级,但都发生在请求层面——而\"代码调用模型的地方\",才是成本真正产生的地方。这就是现有工具缺失的一环。\n\n顺着这个判断,他们提了几条第一性原理。第一条,token 是成本单位——既然按 token 收费,就必须用 token 来衡量价值。第二条,成本产生在模型调用边界,所以追踪就必须做到那里。第三条最关键:归因是前提。所谓归因,说白了就是搞清楚每一次调用,到底是哪个智能体、哪次运行发起的。不知道这个,你就只知道大概哪里出了问题,却没法追溯、没法缩小范围,也就谈不上控制。第四条,策略先行,停机是最后手段——发现某个循环过度运行、或者上下文增长失控,应该有策略当场解决那个具体问题,只有把这些手段穷尽了,才由预算封顶触发停机。\n\n这些原理怎么落成一个系统?这里有个关键的有意决策:控制平面是带外的,完全不干扰你的代码。整个系统分三层:最左边是你自己的智能体运行时,中间是桥接层,右边是控制平面,也就是系统的大脑。\n\n桥接层的心脏是 boundary 注解。拿你任意一个方法,不管用 LangChain 还是别的框架,加上这个注解,它会做两件事。一是追踪输入输出,上浮到控制层,记为账本条目,附上 agent run ID 这些属性。二是充当一条下行通道,让控制平面能即时调整智能体的行为,好在预算内塞进更多运行。用 Tisha 的话说,\"我们不是一条单向的高速公路\"。那控制平面下发的动作谁来执行?这就是 governor 节点登场的地方。它知道你作为开发者,允许对智能体做哪些动作,并以非破坏性的方式去应用——所以控制平面不能对你的智能体随意行事。\n\n控制平面里有几个部件。segment 是按归因维度划分用户群,比如按\"cohort 是 AIE 2026\"建群,在群这一层级设预算,不必把一切都压到智能体或单次运行的层级。ledger 把一次运行的所有追踪集中一处。budgets 是时间窗口内、针对特定 segment 或运行的静态阈值。actions 和 policies 则把预算和动作分组,针对特定 segment 或运行来设置并执行。这套东西,这就是全部智能所在的地方。而接入成本可以很低:只需在已有方法上加注解,不改代码逻辑;控制平面跑在你自己的租户里,不用担心数据泄露。\n\n那实际效果怎么样?测试台是一个双智能体工作流:研究智能体可以随意用搜索工具查网络,把发现交给总结智能体,生成研究报告。演示分三个场景,层层递进。第一个是预览模式——所有策略照常运行,但不执行强制动作,运行正常完成,仪表盘上能看到成本预算、cost guard 这些策略都跑过了。这是为了安全上线:先放进生产环境测试护栏、调整护栏、确定阈值。第二个是 halt 行为——打开治理后,智能体一旦超出分配的预算,就被立即终止,这是一种熔断器式的简单办法。第三个,也是他们真正加价值的地方,叫 steer 行为:预算略高一些、但仍然不够用的时候,cost guard 介入。它看两个指标——已经消耗了多少预算、消耗 token 的速度——据此预测你会不会在运行结束前耗尽预算。如果会,它就向系统指令注入一条提示,简单到像\"嘿,你预算快用完了,确保输出更简洁、更概括\"。不杀智能体,而是引导它的行为落在预算内。\n\n实测数据在 browser use 和 MetaGPT 两个开源仓库上做的,跑了多轮迭代、压力测试、难易场景。启用 TokenOps 完整策略套件后,平均支出下降近 78%;而对比简单限流——不管怎样都会杀死运行的那种——完成率从 67% 提升到大约 96%。策略目录覆盖三大类失效模式:支出管理、上下文管理(比如上下文压缩、工具输出缩减),还有循环检测与进度检测。\n\n他们设想的下一步是自学习:账本在持续更新,在控制平面里加一个自学习模块,让它审视账本、自问\"什么样的失效模式我仍然捕获不了\",然后要么基于仍然失控的成本即时生成新策略,要么优化现有策略的参数,让未来的失控成本被管理得更有效。\n\n这一集的核心,其实就是一句话:控制成本要下到智能体运行层,而不是请求层;有了归因才能控制,而引导永远优于直接叫停。正如那组数据所示——启用完整策略套件后,平均支出下降近 78%,完成率反而从 67% 升到约 96%。省钱的答案,不在别的地方,就藏在\"到底是谁花光了所有 token\"这个问题里。"
+}

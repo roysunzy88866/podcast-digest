@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-22-talks-what-if-your-chip-design-team-moved-like",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/0I6aoPSRzVc.m4a",
+  "duration_sec": 998.168,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 205,
+  "asr": true,
+  "title_en": "What If Your Chip Design Team Moved Like a Single Body? — Abduallah Mohamed, AIDAChip",
+  "podcast": "精选演讲",
+  "date": "2026-08-22",
+  "added": "2026-09-25",
+  "added_at": "2026-09-25T02:51:19.119Z",
+  "speaker_map": {
+    "SPEAKER_00": "Abduallah Mohamed"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Abduallah Mohamed"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "芯片设计缺的不是智能，是对齐：给工程团队装一套共享神经系统",
+  "guest_name": "Abduallah Mohamed",
+  "guest_title": "AidaChimp AIML 副总裁",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

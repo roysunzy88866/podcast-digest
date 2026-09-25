@@ -159,9 +159,9 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-08-21-talks-building-blocks-for-uber-s-software-fact|Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写]]<span class="pd-rz">同概念:CI/CD、智能体 (agent)</span>
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|软件工厂的教训：不读代码的四五个月后，我们重写了整个产品]]<span class="pd-rz">同概念:劣质代码 (slop)、智能体 (agent)</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、CI/CD</span>
-- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、CI/CD</span>
 
 </div>
 <div class="pd-ex">

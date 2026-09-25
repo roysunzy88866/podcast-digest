@@ -1,0 +1,1802 @@
+[
+ {
+  "seg": 0,
+  "start": 13.557,
+  "end": 14.178,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.518,
+  "end": 15.399,
+  "speaker": "Unknown",
+  "en": "Good morning, everyone.",
+  "zh": "大家早上好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.719,
+  "end": 19.843,
+  "speaker": "Unknown",
+  "en": "So, I'm Tisha and I have Sushim with me as my co-presenter.",
+  "zh": "我是 Tisha，和我一起做联合演讲的是 Sushim。"
+ },
+ {
+  "seg": 3,
+  "start": 20.524,
+  "end": 20.784,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 4,
+  "start": 20.804,
+  "end": 25.288,
+  "speaker": "Unknown",
+  "en": "So, we'll be talking about the most expensive question in AI today.",
+  "zh": "我们今天要谈的是当今 AI 领域最昂贵的一个问题。"
+ },
+ {
+  "seg": 5,
+  "start": 26.209,
+  "end": 34.457,
+  "speaker": "Unknown",
+  "en": "I think a lot of you would have come across the scenario that, you know, when you opened an AI bill through your agentic workflows,",
+  "zh": "我想你们中很多人应该都遇到过这种情况，就是当你打开一份 AI 账单时，是通过智能体工作流产生的，"
+ },
+ {
+  "seg": 6,
+  "start": 35.658,
+  "end": 39.922,
+  "speaker": "Unknown",
+  "en": "You couldn't actually trace back where that bill was actually coming from, right?",
+  "zh": "你其实没法追溯这份账单到底是哪里来的，对吧？"
+ },
+ {
+  "seg": 7,
+  "start": 40.702,
+  "end": 54.993,
+  "speaker": "Unknown",
+  "en": "And I don't think that's a problem right now because right now the industry is valuing, you know, token maxing that is like spending the most amount of tokens for exploration for all of those purposes.",
+  "zh": "而且我认为这现在还不算问题，因为现在业界推崇的是 token maxing，也就是为了探索等各种目的花最多的 token。"
+ },
+ {
+  "seg": 8,
+  "start": 55.914,
+  "end": 58.636,
+  "speaker": "Unknown",
+  "en": "And people are proud to call themselves token billionaires.",
+  "zh": "人们还以自称 token 亿万富翁为荣。"
+ },
+ {
+  "seg": 9,
+  "start": 58.817,
+  "end": 60.178,
+  "speaker": "Unknown",
+  "en": "And I think that's all right.",
+  "zh": "而且我觉得这没什么问题。"
+ },
+ {
+  "seg": 10,
+  "start": 60.458,
+  "end": 66.723,
+  "speaker": "Unknown",
+  "en": "But this talk is, you know, the shift from token maxing to value maxing.",
+  "zh": "但这次演讲的主题就是从 token maxing 转向 value maxing。"
+ },
+ {
+  "seg": 11,
+  "start": 66.963,
+  "end": 68.424,
+  "speaker": "Unknown",
+  "en": "You know, how do we get there?",
+  "zh": "我们要怎么做到这一点？"
+ },
+ {
+  "seg": 12,
+  "start": 69.105,
+  "end": 73.148,
+  "speaker": "Unknown",
+  "en": "And we'll talk about it from this question.",
+  "zh": "我们会从这个问题谈起。"
+ },
+ {
+  "seg": 13,
+  "start": 73.849,
+  "end": 75.93,
+  "speaker": "Unknown",
+  "en": "Who spent all the tokens?",
+  "zh": "到底是谁花光了所有 token？"
+ },
+ {
+  "seg": 14,
+  "start": 78.492,
+  "end": 83.034,
+  "speaker": "Unknown",
+  "en": "If anyone spent all the tokens, there has to be value associated with this, right?",
+  "zh": "如果有人花光了所有 token，那背后必定要有对应的价值，对吧？"
+ },
+ {
+  "seg": 15,
+  "start": 83.054,
+  "end": 86.756,
+  "speaker": "Unknown",
+  "en": "And that is the talk about.",
+  "zh": "这就是本次演讲要讲的内容。"
+ },
+ {
+  "seg": 16,
+  "start": 90.438,
+  "end": 90.778,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 17,
+  "start": 90.918,
+  "end": 106.485,
+  "speaker": "Unknown",
+  "en": "Now, in order to minimize the gap, you know, from token maxing to value maxing, we'll kind of see, we'll observe the patterns which the, like the existing, like the past software evolution era has had.",
+  "zh": "现在，为了缩小从 token maxing 到 value maxing 之间的差距，我们会观察一下现有过去的软件演进时代的模式。"
+ },
+ {
+  "seg": 18,
+  "start": 107.632,
+  "end": 117,
+  "speaker": "Unknown",
+  "en": "Like for instance, when we talk about the SaaS era, the interface was UI and the control was in the form of usage gaps, right?",
+  "zh": "比如说，在 SaaS 时代，界面是 UI，控制的形式是用量限制，对吧？"
+ },
+ {
+  "seg": 19,
+  "start": 117.4,
+  "end": 119.682,
+  "speaker": "Unknown",
+  "en": "They go the seat limits or tier based policies.",
+  "zh": "比如席位限制或者按分层（tier）的策略。"
+ },
+ {
+  "seg": 20,
+  "start": 120.823,
+  "end": 126.007,
+  "speaker": "Unknown",
+  "en": "Now, when we moved on to the cloud era, the control surface again changed.",
+  "zh": "现在我们进入云时代，控制面又变了。"
+ },
+ {
+  "seg": 21,
+  "start": 126.107,
+  "end": 133.353,
+  "speaker": "Unknown",
+  "en": "The model became pay as you go and the control moved like in the form of auto provisioning and auto scaling policies.",
+  "zh": "模式变成了按量付费，控制则变成了自动配置和自动伸缩策略的形式。"
+ },
+ {
+  "seg": 22,
+  "start": 134.654,
+  "end": 135.915,
+  "speaker": "Unknown",
+  "en": "Now we are in the",
+  "zh": "现在我们处于"
+ },
+ {
+  "seg": 23,
+  "start": 138.151,
+  "end": 148.636,
+  "speaker": "Unknown",
+  "en": "And now how the cost is calculated here is in the form of model calls right like how like the",
+  "zh": "而现在这里的成本计算方式是按模型调用算的，比如"
+ },
+ {
+  "seg": 24,
+  "start": 149.499,
+  "end": 150.74,
+  "speaker": "Unknown",
+  "en": "Code calls your model.",
+  "zh": "代码调用你的模型。"
+ },
+ {
+  "seg": 25,
+  "start": 151.08,
+  "end": 157.504,
+  "speaker": "Unknown",
+  "en": "But what we've observed is that there isn't a proper control plane in place for that.",
+  "zh": "但我们观察到，这方面并没有一个合适的控制平面。"
+ },
+ {
+  "seg": 26,
+  "start": 157.985,
+  "end": 168.832,
+  "speaker": "Unknown",
+  "en": "Like we do have control plane in place for you in place as model gateways where there are hard caps or there is model routing to downgrade the model.",
+  "zh": "比如我们确实有控制平面，比如模型网关，有硬性上限，或者有模型路由来降级模型。"
+ },
+ {
+  "seg": 27,
+  "start": 169.352,
+  "end": 173.255,
+  "speaker": "Unknown",
+  "en": "But the part like the where the code you know",
+  "zh": "但这部分，也就是代码"
+ },
+ {
+  "seg": 28,
+  "start": 173.802,
+  "end": 179.327,
+  "speaker": "Unknown",
+  "en": "Calls the model that is what we will be talking about today.",
+  "zh": "调用模型的地方，这才是我们今天要谈的。"
+ },
+ {
+  "seg": 29,
+  "start": 180.548,
+  "end": 190.357,
+  "speaker": "Unknown",
+  "en": "And we also you know see like in the last year we seen a lot of unbounded consumption happening.",
+  "zh": "而且我们也看到，过去一年里出现了大量无上限的消费。"
+ },
+ {
+  "seg": 30,
+  "start": 191.457,
+  "end": 218.825,
+  "speaker": "Unknown",
+  "en": "Like if you've read the news, there was news about the AI budget for Uber getting exhausted within four months and there were companies who ran into hundreds of millions of dollars within just months or days and there were a lot of other news in place as well where these runaway loops led to a very",
+  "zh": "如果你看过新闻的话，有新闻说 Uber 的 AI 预算在四个月内就用完了，还有公司仅仅几个月甚至几天内就烧掉了几亿美元，还有很多其他新闻，这些失控的循环导致了成本的"
+ },
+ {
+  "seg": 31,
+  "start": 219.526,
+  "end": 224.737,
+  "speaker": "Unknown",
+  "en": "Like massive increase in the cost and there wasn't proper mechanisms to control it.",
+  "zh": "大幅飙升，而且没有合适的机制来控制它。"
+ },
+ {
+  "seg": 32,
+  "start": 228.032,
+  "end": 234.237,
+  "speaker": "Unknown",
+  "en": "So, when we see all of this, the first thing that comes to our mind is, is there a tool or is there a product to save us?",
+  "zh": "所以看到这一切，我们脑海中最先冒出的念头是：有没有一个工具或产品能拯救我们？"
+ },
+ {
+  "seg": 33,
+  "start": 234.877,
+  "end": 247.567,
+  "speaker": "Unknown",
+  "en": "But we'll instead talk about the first principles of how, you know, we can design a system which is actually true enough to solve the problem from the very root.",
+  "zh": "但我们想谈的反而是第一性原理，也就是我们如何设计一个足够真实的系统，能从根源上解决这个问题。"
+ },
+ {
+  "seg": 34,
+  "start": 247.927,
+  "end": 251.91,
+  "speaker": "Unknown",
+  "en": "So, for that, let's like dive on to the principles.",
+  "zh": "为此，让我们深入讲讲这些原理。"
+ },
+ {
+  "seg": 35,
+  "start": 252.31,
+  "end": 255.893,
+  "speaker": "Unknown",
+  "en": "First of all, let's talk about token being the unit of cost.",
+  "zh": "首先，谈谈 token 作为成本单位。"
+ },
+ {
+  "seg": 36,
+  "start": 256.413,
+  "end": 259.075,
+  "speaker": "Unknown",
+  "en": "Right, we are charged in terms of token.",
+  "zh": "对，我们是按 token 收费的。"
+ },
+ {
+  "seg": 37,
+  "start": 259.495,
+  "end": 264.579,
+  "speaker": "Unknown",
+  "en": "So, the now we have to see value also in terms of token, right.",
+  "zh": "所以现在我们也必须用 token 来看待价值，对吧。"
+ },
+ {
+  "seg": 38,
+  "start": 265.7,
+  "end": 272.325,
+  "speaker": "Unknown",
+  "en": "Next, we all know that cost is created at the LLM like the model call boundary.",
+  "zh": "其次，我们都知道成本是在 LLM 也就是模型调用边界处产生的。"
+ },
+ {
+  "seg": 39,
+  "start": 273.525,
+  "end": 275.787,
+  "speaker": "Unknown",
+  "en": "So, that is what we'll have to track.",
+  "zh": "所以这就是我们必须追踪的地方。"
+ },
+ {
+  "seg": 40,
+  "start": 276.388,
+  "end": 283.793,
+  "speaker": "Unknown",
+  "en": "And if we don't have proper attribution, like if we don't know what agent want run made that particular call,",
+  "zh": "而如果我们没有合适的归因（attribution），比如我们不知道是哪个智能体哪次运行发起了那次调用，"
+ },
+ {
+  "seg": 41,
+  "start": 284.193,
+  "end": 286.574,
+  "speaker": "Unknown",
+  "en": "We can't, you know, control it, right?",
+  "zh": "我们就没法控制它，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 286.834,
+  "end": 295.018,
+  "speaker": "Unknown",
+  "en": "We just know the, like the broad picture of what went wrong, but we don't, we can't, you know, trace it back or narrow it down.",
+  "zh": "我们只知道哪里出了问题的大概情况，但没法追溯或者缩小范围。"
+ },
+ {
+  "seg": 43,
+  "start": 295.379,
+  "end": 298.96,
+  "speaker": "Unknown",
+  "en": "So that is why attribution is a very important element to have.",
+  "zh": "所以这就是为什么归因是一个非常重要的要素。"
+ },
+ {
+  "seg": 44,
+  "start": 299.681,
+  "end": 312.507,
+  "speaker": "Unknown",
+  "en": "And like once you know which particular run or which particular agent is actually, you know, attributing to the cost, you should have proper policies in place to actually stop it.",
+  "zh": "而且一旦你知道是哪次运行或哪个智能体在贡献成本，你就应该有合适的策略来真正阻止它。"
+ },
+ {
+  "seg": 45,
+  "start": 313.067,
+  "end": 329.157,
+  "speaker": "Unknown",
+  "en": "Let's take an example that if you have a loop which is running very excessively and which is not required or if your context is growing very out of range,",
+  "zh": "举个例子，如果你有一个运行得非常过度的循环，而这循环是不必要的，或者你的上下文增长严重超出范围，"
+ },
+ {
+  "seg": 46,
+  "start": 329.817,
+  "end": 337.221,
+  "speaker": "Unknown",
+  "en": "You should have in place policies which can like solve that particular thing there and there instead of halting that.",
+  "zh": "你应该有相应的策略能够当场解决那个具体问题，而不是直接停下来。"
+ },
+ {
+  "seg": 47,
+  "start": 337.582,
+  "end": 344.165,
+  "speaker": "Unknown",
+  "en": "And if and as the last resort only like a halting or a should happen from a budget gap.",
+  "zh": "只有作为最后手段，才应该由预算限制来触发停止（halting）。"
+ },
+ {
+  "seg": 48,
+  "start": 345.106,
+  "end": 346.467,
+  "speaker": "Unknown",
+  "en": "So, these are the first principles.",
+  "zh": "以上就是这些第一性原理。"
+ },
+ {
+  "seg": 49,
+  "start": 346.747,
+  "end": 355.112,
+  "speaker": "Unknown",
+  "en": "Now, let's see how we can you know define an ideal platform on top of that from these principles which we talked about.",
+  "zh": "现在，让我们看看如何基于我们谈到的这些原理，在其之上定义一个理想的平台。"
+ },
+ {
+  "seg": 50,
+  "start": 357.41,
+  "end": 370.298,
+  "speaker": "Unknown",
+  "en": "So, one thing which is very important at which matters here is that when we talk about like the existing frameworks for token ops or for token management, most of them are at the",
+  "zh": "所以，有一点很重要，在这里很关键，就是当我们谈论现有的 token ops 或 token 管理框架时，它们大多数是在"
+ },
+ {
+  "seg": 51,
+  "start": 372.016,
+  "end": 376.28,
+  "speaker": "Unknown",
+  "en": "Like basically monitor the model request.",
+  "zh": "就是基本上监控模型请求。"
+ },
+ {
+  "seg": 52,
+  "start": 376.861,
+  "end": 387.371,
+  "speaker": "Unknown",
+  "en": "They like they are like model gateways which will you know basically do like model routing or hard budget capping.",
+  "zh": "它们就像模型网关，你知道，基本上做模型路由或硬性预算封顶。"
+ },
+ {
+  "seg": 53,
+  "start": 387.751,
+  "end": 391.275,
+  "speaker": "Unknown",
+  "en": "But what we need right now is something which",
+  "zh": "但我们现在需要的是某种"
+ },
+ {
+  "seg": 54,
+  "start": 391.925,
+  "end": 409.816,
+  "speaker": "Unknown",
+  "en": "You know like monitors you at the run instead like if you see we need something which can control the loop between like the agent call between the tool and the agent something you know which can",
+  "zh": "你知道的，在运行时监控你的东西，你看，我们需要某种能够控制智能体调用与工具之间循环的东西，某种可以"
+ },
+ {
+  "seg": 55,
+  "start": 411.477,
+  "end": 422.067,
+  "speaker": "Unknown",
+  "en": "see or control the spawning of multiple sub-agents happening from a one main agent or like something which can control the growing of context.",
+  "zh": "看到或控制从一个主智能体派生出多个子智能体的东西，或者某种可以控制上下文增长的东西。"
+ },
+ {
+  "seg": 56,
+  "start": 422.087,
+  "end": 424.909,
+  "speaker": "Unknown",
+  "en": "So like that is the need of the AIR, right?",
+  "zh": "所以，这就是 AIR 的需求，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 425.41,
+  "end": 426.371,
+  "speaker": "Unknown",
+  "en": "And that is what we need.",
+  "zh": "而这正是我们需要的。"
+ },
+ {
+  "seg": 58,
+  "start": 426.651,
+  "end": 437.781,
+  "speaker": "Unknown",
+  "en": "So for all of this, we like kind of are proposing a platform which first of all has a cumulative budget across",
+  "zh": "所以，为了这一切，我们提出一个平台，首先它有一个跨"
+ },
+ {
+  "seg": 59,
+  "start": 438.501,
+  "end": 452.248,
+  "speaker": "Unknown",
+  "en": "Like the attribution runs which happened and then where enforcement actually happens in call path rather than a separate thing.",
+  "zh": "归因运行的累计预算，然后强制执行实际上发生在调用路径中，而不是一个独立的东西。"
+ },
+ {
+  "seg": 60,
+  "start": 452.608,
+  "end": 458.35,
+  "speaker": "Unknown",
+  "en": "Like for example, if something goes wrong, if your context is just growing heavily, then like",
+  "zh": "比如，举例来说，如果出了问题，如果你的上下文在急剧增长，那么"
+ },
+ {
+  "seg": 61,
+  "start": 459.995,
+  "end": 466.497,
+  "speaker": "Unknown",
+  "en": "In place compaction should happen or in place caching or something like that should happen.",
+  "zh": "应该进行就地压缩，或者就地缓存或类似的事情。"
+ },
+ {
+  "seg": 62,
+  "start": 467.157,
+  "end": 478.601,
+  "speaker": "Unknown",
+  "en": "And after that, after basically exhausting the list of all in place policies, only the budget cap halt should happen at the very last.",
+  "zh": "而在那之后，在基本上穷尽了所有就地策略的列表之后，最后才应该发生预算封顶停机。"
+ },
+ {
+  "seg": 63,
+  "start": 479.682,
+  "end": 495.362,
+  "speaker": "Unknown",
+  "en": "So, that is something which we are proposing, but if we look at the landscape today, if you see the like the tools like this LIDL, LIM, Portkey, Cloudflare, all of those, they happen at again the request level.",
+  "zh": "所以，这就是我们提出的方案，但如果我们看看今天的格局，你看，像 LIDL、LIM、Portkey、Cloudflare 这些工具，它们同样都发生在请求层面。"
+ },
+ {
+  "seg": 64,
+  "start": 495.868,
+  "end": 512.335,
+  "speaker": "Unknown",
+  "en": "Like if you see like halting is there routing is there for some of those, but all of this again is at a request and you cannot control the cost at the request layer at the model layer right.",
+  "zh": "比如，你看，其中一些有停机、有路由，但这一切同样都在请求层面，而你在请求层、模型层是无法控制成本的，对吧。"
+ },
+ {
+  "seg": 65,
+  "start": 514.136,
+  "end": 525.561,
+  "speaker": "Unknown",
+  "en": "So, this is the missing piece which is you know the basically navigating it at the you know the model the agent run layer.",
+  "zh": "所以，这就是缺失的一环，也就是在模型、智能体运行层面进行导航。"
+ },
+ {
+  "seg": 66,
+  "start": 527.125,
+  "end": 538.388,
+  "speaker": "Unknown",
+  "en": "So, for that we have token ops which is you know a runaway token governance for AI agents and this is the architecture for that.",
+  "zh": "所以，为此我们有了 token ops，也就是面向 AI 智能体的失控 token 治理，这就是它的架构。"
+ },
+ {
+  "seg": 67,
+  "start": 538.868,
+  "end": 545.73,
+  "speaker": "Unknown",
+  "en": "So, first of all one thing I would want to highlight is the like the intentional deciding decision we took here was",
+  "zh": "首先，我想强调的一点是，我们在这里做出的一个有意为之的决定是"
+ },
+ {
+  "seg": 68,
+  "start": 546.37,
+  "end": 547.671,
+  "speaker": "Unknown",
+  "en": "An out of bound plane.",
+  "zh": "一个带外的控制平面。"
+ },
+ {
+  "seg": 69,
+  "start": 547.911,
+  "end": 550.833,
+  "speaker": "Unknown",
+  "en": "So, it does not interfere with your code at all.",
+  "zh": "所以，它完全不会干扰你的代码。"
+ },
+ {
+  "seg": 70,
+  "start": 550.853,
+  "end": 558.378,
+  "speaker": "Unknown",
+  "en": "So, if you see here that out of the bound plane has three modules which I will be talking about the first one being instrumentation.",
+  "zh": "所以，你看，这个带外平面有三个模块，我会逐一谈到，第一个是插桩。"
+ },
+ {
+  "seg": 71,
+  "start": 558.698,
+  "end": 563.422,
+  "speaker": "Unknown",
+  "en": "It is a common observability layer where you know you will like have",
+  "zh": "它是一个公共可观测性层，你知道，你会有"
+ },
+ {
+  "seg": 72,
+  "start": 564.442,
+  "end": 586.464,
+  "speaker": "Unknown",
+  "en": "Like the basic telemetry, the open telemetry, the cost in microns and like the enrichment layer and basically the attribution like what caused that like particular run and then there is obviously accounting where",
+  "zh": "像基础遥测、open telemetry、以 microns 计的成本，还有富化层，基本上还有归因，即是什么导致了那次特定的运行，然后显然还有记账，"
+ },
+ {
+  "seg": 73,
+  "start": 588.332,
+  "end": 595.155,
+  "speaker": "Unknown",
+  "en": "You will basically accumulate it in a kind of a ledger, like the total runs which are happening.",
+  "zh": "你基本上会把它累计到一个账本中，比如正在发生的所有运行。"
+ },
+ {
+  "seg": 74,
+  "start": 595.475,
+  "end": 601.118,
+  "speaker": "Unknown",
+  "en": "And finally, we have this enforced layer, which has two main purposes.",
+  "zh": "最后，我们有这个强制执行层，它有两个主要用途。"
+ },
+ {
+  "seg": 75,
+  "start": 601.338,
+  "end": 608.081,
+  "speaker": "Unknown",
+  "en": "One is steering it through the policies which we've defined, which I think Sushim will cover later.",
+  "zh": "一是通过我们定义的策略进行引导，我想 Sushim 稍后会讲到。"
+ },
+ {
+  "seg": 76,
+  "start": 608.741,
+  "end": 612.543,
+  "speaker": "Unknown",
+  "en": "And then we have halt in place as the final",
+  "zh": "然后我们有就地停机作为最后的"
+ },
+ {
+  "seg": 77,
+  "start": 613.963,
+  "end": 617.786,
+  "speaker": "Unknown",
+  "en": "Like final thing if you know your budget is getting exhausted.",
+  "zh": "最后手段，如果你知道的，你的预算快耗尽了。"
+ },
+ {
+  "seg": 78,
+  "start": 619.127,
+  "end": 621.268,
+  "speaker": "Unknown",
+  "en": "So yeah, that is there.",
+  "zh": "所以，是的，就是这些。"
+ },
+ {
+  "seg": 79,
+  "start": 621.608,
+  "end": 639.78,
+  "speaker": "Unknown",
+  "en": "Now when we again look at the landscape, this kind of will solve a lot of problems which kind of happened when we like look at the previous tools or products there because it is happening at run and it is",
+  "zh": "现在，当我们再次看这个格局时，这基本上会解决很多之前那些工具或产品所出现的问题，因为它发生在运行层面，而且"
+ },
+ {
+  "seg": 80,
+  "start": 640.16,
+  "end": 647.103,
+  "speaker": "Unknown",
+  "en": "And, you know, helping you solve the problem from the very root by steering it in place.",
+  "zh": "它，你知道，通过就地引导帮你从根源上解决问题。"
+ },
+ {
+  "seg": 81,
+  "start": 648.364,
+  "end": 648.624,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 82,
+  "start": 648.984,
+  "end": 652.866,
+  "speaker": "Unknown",
+  "en": "So, with this, I would like to hand it over to Sashim for the demo.",
+  "zh": "那么，借此，我想把它交给 Sashim 来做演示。"
+ },
+ {
+  "seg": 83,
+  "start": 653.867,
+  "end": 658.309,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 84,
+  "start": 658.369,
+  "end": 660.13,
+  "speaker": "Unknown",
+  "en": "Everyone in the back can hear me?",
+  "zh": "后面的各位能听到我吗？"
+ },
+ {
+  "seg": 85,
+  "start": 660.825,
+  "end": 661.325,
+  "speaker": "Unknown",
+  "en": "All right, perfect.",
+  "zh": "好的，完美。"
+ },
+ {
+  "seg": 86,
+  "start": 661.866,
+  "end": 666.049,
+  "speaker": "Unknown",
+  "en": "So yeah, we have established the principles behind TokenOps till now, right?",
+  "zh": "那么，是的，到目前为止我们已经确立了 TokenOps 背后的原则，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 666.809,
+  "end": 673.454,
+  "speaker": "Unknown",
+  "en": "Now let's shift gears, talk about the design part of it and maybe get into the code and the eventual demo, right?",
+  "zh": "现在让我们换个话题，谈谈它的设计部分，然后也许进入代码和最终的演示，对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 673.854,
+  "end": 679.538,
+  "speaker": "Unknown",
+  "en": "So what I have behind me on the screen is the like bird's eye view of what TokenOps looks like today.",
+  "zh": "所以，我身后屏幕上的是今天 TokenOps 样子的鸟瞰图。"
+ },
+ {
+  "seg": 89,
+  "start": 680.079,
+  "end": 681.259,
+  "speaker": "Unknown",
+  "en": "It's three layers.",
+  "zh": "它有三层。"
+ },
+ {
+  "seg": 90,
+  "start": 681.78,
+  "end": 683.181,
+  "speaker": "Unknown",
+  "en": "We'll go left to right and top to bottom.",
+  "zh": "我们会从左到右、从上到下讲。"
+ },
+ {
+  "seg": 91,
+  "start": 683.521,
+  "end": 688.524,
+  "speaker": "Unknown",
+  "en": "So on the leftmost, you have your own agent runtime which you're trying to instrument and kind of manage the cost for, right?",
+  "zh": "最左边，是你自己的智能体运行时，你正试图对它进行插桩并管理其成本，对吧？"
+ },
+ {
+  "seg": 92,
+  "start": 689.105,
+  "end": 695.189,
+  "speaker": "Unknown",
+  "en": "The middle layer is what we're calling the bridge that basically shuffles data between your agent and the control plane.",
+  "zh": "中间那层是我们所说的桥接层，它基本上在你的智能体和控制平面之间搬运数据。"
+ },
+ {
+  "seg": 93,
+  "start": 695.749,
+  "end": 699.091,
+  "speaker": "Unknown",
+  "en": "And the control plane is where the mind of the system lies, right?",
+  "zh": "而控制平面是系统的大脑所在，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 699.451,
+  "end": 701.273,
+  "speaker": "Unknown",
+  "en": "So let's talk about the bridge layer very briefly.",
+  "zh": "那么，让我们非常简短地谈谈桥接层。"
+ },
+ {
+  "seg": 95,
+  "start": 701.913,
+  "end": 704.615,
+  "speaker": "Unknown",
+  "en": "If we go from top to bottom, you have the attribution on top.",
+  "zh": "如果我们从上到下看，最上面是归因。"
+ },
+ {
+  "seg": 96,
+  "start": 705.035,
+  "end": 711.341,
+  "speaker": "Unknown",
+  "en": "So, what we're trying to do here is every agent run that you do, it's attributed to some user dimensions.",
+  "zh": "所以，我们在这里尝试做的是，你做的每一次智能体运行，都被归因到某些用户维度。"
+ },
+ {
+  "seg": 97,
+  "start": 711.482,
+  "end": 717.467,
+  "speaker": "Unknown",
+  "en": "So, the idea is everything that you do, every run of the agent is accounted to some usability or some usage.",
+  "zh": "所以，这个想法是，你所做的一切，智能体的每一次运行，都被记账到某种可用性或某种使用上。"
+ },
+ {
+  "seg": 98,
+  "start": 717.728,
+  "end": 719.429,
+  "speaker": "Unknown",
+  "en": "This comes in handy later, we'll talk about it.",
+  "zh": "这在后面会派上用场，我们会谈到。"
+ },
+ {
+  "seg": 99,
+  "start": 720.29,
+  "end": 725.876,
+  "speaker": "Unknown",
+  "en": "The second part, which is the boundary annotation that you see, this is pretty much the heart and soul of this middle layer.",
+  "zh": "第二部分，就是你看到的边界标注，这基本上是中间层的心脏和灵魂。"
+ },
+ {
+  "seg": 100,
+  "start": 726.336,
+  "end": 733.922,
+  "speaker": "Unknown",
+  "en": "So, the idea behind the boundary annotation is that you take any method, it doesn't matter what framework you're using, you might be using, let's say, LangChain, LangSmith, whatever.",
+  "zh": "所以，boundary 注解背后的思路是，你拿任意一个方法，不管你用的是哪个框架，比如你可能用的是 LangChain、LangSmith，随便什么。"
+ },
+ {
+  "seg": 101,
+  "start": 734.403,
+  "end": 736.585,
+  "speaker": "Unknown",
+  "en": "If you have a method, you can annotate it with boundary.",
+  "zh": "如果你有一个方法，你可以用 boundary 来注解它。"
+ },
+ {
+  "seg": 102,
+  "start": 737.045,
+  "end": 739.687,
+  "speaker": "Unknown",
+  "en": "What this annotation is going to do is, it's going to do two things.",
+  "zh": "这个注解要做的是，它会做两件事。"
+ },
+ {
+  "seg": 103,
+  "start": 739.807,
+  "end": 746.653,
+  "speaker": "Unknown",
+  "en": "First, it's going to track the input and the output, and it's going to flight that up to the control layer and record it there as a ledger entry.",
+  "zh": "第一，它会追踪输入和输出，并把这些信息上浮到控制层，在那里记录为一条账本条目。"
+ },
+ {
+  "seg": 104,
+  "start": 747.133,
+  "end": 751.257,
+  "speaker": "Unknown",
+  "en": "Now, this will be annotated with the further agent run ID and the other attributes and so on.",
+  "zh": "现在，这条账本条目会被附上进一步的 agent run ID 以及其他属性等等。"
+ },
+ {
+  "seg": 105,
+  "start": 751.777,
+  "end": 757.959,
+  "speaker": "Unknown",
+  "en": "The second thing the boundary annotation does is it acts as a channel through which the control plane can push actions down to the agent.",
+  "zh": "boundary 注解做的第二件事是，它充当一条通道，控制平面可以通过它把动作向下推送给智能体。"
+ },
+ {
+  "seg": 106,
+  "start": 758.32,
+  "end": 759.82,
+  "speaker": "Unknown",
+  "en": "This is where the entire intelligence lies.",
+  "zh": "这就是全部智能所在的地方。"
+ },
+ {
+  "seg": 107,
+  "start": 759.88,
+  "end": 762.521,
+  "speaker": "Unknown",
+  "en": "So, we do not have a single directional highway.",
+  "zh": "所以，我们不是一条单向的高速公路。"
+ },
+ {
+  "seg": 108,
+  "start": 762.941,
+  "end": 771.945,
+  "speaker": "Unknown",
+  "en": "We want the control plane to be able to tweak the behavior of the agent on the fly to ensure that we are able to squeeze in more runs inside our budget gap, right?",
+  "zh": "我们希望控制平面能够即时调整智能体的行为，以确保我们能够在预算缺口内塞进更多的 run，对吧？"
+ },
+ {
+  "seg": 109,
+  "start": 772.445,
+  "end": 774.687,
+  "speaker": "Unknown",
+  "en": "Now, let's say the control plane pushes down an action.",
+  "zh": "现在，假设控制平面向下推送一个动作。"
+ },
+ {
+  "seg": 110,
+  "start": 774.747,
+  "end": 776.028,
+  "speaker": "Unknown",
+  "en": "Let's take a small example.",
+  "zh": "我们举一个小例子。"
+ },
+ {
+  "seg": 111,
+  "start": 776.048,
+  "end": 782.794,
+  "speaker": "Unknown",
+  "en": "Let's say you have a RAG retrieval tool, which is generating 20 chunks for every call, and that's eating up your budget.",
+  "zh": "假设你有一个 RAG 检索工具，每次调用生成 20 个 chunk，而这就是在吃掉你的预算。"
+ },
+ {
+  "seg": 112,
+  "start": 783.115,
+  "end": 787.479,
+  "speaker": "Unknown",
+  "en": "And let's say the LLM is not even using the chunks that are after five because they are just not relevant.",
+  "zh": "再假设 LLM 甚至没有使用第 5 个之后的 chunk，因为它们就是不相关。"
+ },
+ {
+  "seg": 113,
+  "start": 787.519,
+  "end": 788.62,
+  "speaker": "Unknown",
+  "en": "They are sorted by relevance.",
+  "zh": "它们是按相关性排序的。"
+ },
+ {
+  "seg": 114,
+  "start": 789.04,
+  "end": 793.941,
+  "speaker": "Unknown",
+  "en": "So let's say the control plane observes this and it wants to limit the output to just five chunks.",
+  "zh": "所以假设控制平面观察到了这一点，它想把输出限制为只有 5 个 chunk。"
+ },
+ {
+  "seg": 115,
+  "start": 794.301,
+  "end": 800.103,
+  "speaker": "Unknown",
+  "en": "So it can push down an action but that action has to be received by boundary and then has to be executed by something.",
+  "zh": "那么它可以向下推送一个动作，但这个动作必须由 boundary 接收，然后由某个东西来执行。"
+ },
+ {
+  "seg": 116,
+  "start": 800.483,
+  "end": 802.523,
+  "speaker": "Unknown",
+  "en": "That is where the third node, the governor node comes in.",
+  "zh": "这就是第三个节点，governor 节点登场的地方。"
+ },
+ {
+  "seg": 117,
+  "start": 802.923,
+  "end": 813.106,
+  "speaker": "Unknown",
+  "en": "The governor knows what actions are allowed on your agent by you as a developer and it receives those actions from the control plane and knows how to apply it in a non-destructive way.",
+  "zh": "governor 知道你作为开发者允许在你的智能体上执行哪些动作，它从控制平面接收这些动作，并知道如何以非破坏性的方式应用它们。"
+ },
+ {
+  "seg": 118,
+  "start": 813.526,
+  "end": 815.047,
+  "speaker": "Unknown",
+  "en": "So that's the first three.",
+  "zh": "所以这就是前三个。"
+ },
+ {
+  "seg": 119,
+  "start": 815.127,
+  "end": 818.808,
+  "speaker": "Unknown",
+  "en": "The fourth one, the wrap complete is essentially just a helper method.",
+  "zh": "第四个，wrap complete，本质上只是一个辅助方法。"
+ },
+ {
+  "seg": 120,
+  "start": 819.229,
+  "end": 824.891,
+  "speaker": "Unknown",
+  "en": "So as we know, most of the agent providers or the model providers, they provide objects rather than methods for their LLMs, right?",
+  "zh": "正如我们所知，大多数智能体提供商或模型提供商，它们为其 LLM 提供的是对象而不是方法，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 825.231,
+  "end": 828.653,
+  "speaker": "Unknown",
+  "en": "So wrap complete is just another way of applying boundary on objects rather than methods.",
+  "zh": "所以 wrap complete 只是对对象而不是方法应用 boundary 的另一种方式。"
+ },
+ {
+  "seg": 122,
+  "start": 829.313,
+  "end": 831.735,
+  "speaker": "Unknown",
+  "en": "Let's shift right to the control plane.",
+  "zh": "我们转向控制平面。"
+ },
+ {
+  "seg": 123,
+  "start": 832.176,
+  "end": 833.978,
+  "speaker": "Unknown",
+  "en": "On the control plane, the first layer is the segment.",
+  "zh": "在控制平面上，第一层是 segment。"
+ },
+ {
+  "seg": 124,
+  "start": 834.278,
+  "end": 838.402,
+  "speaker": "Unknown",
+  "en": "Now, this is where the attribution that we talked about earlier comes into picture.",
+  "zh": "现在，我们之前谈到的归因就在这里发挥作用了。"
+ },
+ {
+  "seg": 125,
+  "start": 838.802,
+  "end": 849.693,
+  "speaker": "Unknown",
+  "en": "So, any dimensions that you float from the attribution layer, let's say you have a preview agent that you share with everyone in this room and your agent is floating a dimension saying that cohort is AIE 2026, right?",
+  "zh": "所以，你从归因层上浮的任何维度，假设你有一个预览智能体，你分享给在座的每一个人，而你的智能体正在上浮一个维度，表明 cohort 是 AIE 2026，对吧？"
+ },
+ {
+  "seg": 126,
+  "start": 851.254,
+  "end": 858.698,
+  "speaker": "Unknown",
+  "en": "So you can create a segment, which is a cohort of users, which is based on this tag, like dimension being AI2026, right?",
+  "zh": "那么你可以创建一个 segment，也就是一个用户 cohort，它基于这个标签，比如维度是 AI2026，对吧？"
+ },
+ {
+  "seg": 127,
+  "start": 859.019,
+  "end": 861.16,
+  "speaker": "Unknown",
+  "en": "And you can apply your budgets at this cohort level.",
+  "zh": "然后你可以在这个 cohort 层级应用你的预算。"
+ },
+ {
+  "seg": 128,
+  "start": 861.42,
+  "end": 865.162,
+  "speaker": "Unknown",
+  "en": "So you don't necessarily have to restrict everything at an agent level or a run level.",
+  "zh": "所以你不必非得把所有东西都限制在智能体层级或 run 层级。"
+ },
+ {
+  "seg": 129,
+  "start": 865.542,
+  "end": 869.685,
+  "speaker": "Unknown",
+  "en": "You can do roll-ups, you can do fine-grained or coarse-grained control, right?",
+  "zh": "你可以做汇总，你可以做细粒度或粗粒度的控制，对吧？"
+ },
+ {
+  "seg": 130,
+  "start": 870.125,
+  "end": 871.486,
+  "speaker": "Unknown",
+  "en": "So that's the segmentation part of it.",
+  "zh": "这就是它的分段部分。"
+ },
+ {
+  "seg": 131,
+  "start": 871.887,
+  "end": 875.71,
+  "speaker": "Unknown",
+  "en": "Ledger, as I mentioned, is just one agent run all the traces in one place.",
+  "zh": "账本，正如我提到的，就是把一次 agent run 的所有追踪放在一个地方。"
+ },
+ {
+  "seg": 132,
+  "start": 876.27,
+  "end": 877.151,
+  "speaker": "Unknown",
+  "en": "Then you have budgets.",
+  "zh": "然后你有预算。"
+ },
+ {
+  "seg": 133,
+  "start": 877.291,
+  "end": 883.276,
+  "speaker": "Unknown",
+  "en": "Budgets are basically just the static thresholds that work across a time window against a particular segment or an agent run.",
+  "zh": "预算基本上就是静态阈值，在一个时间窗口内针对特定 segment 或 agent run 生效。"
+ },
+ {
+  "seg": 134,
+  "start": 883.817,
+  "end": 884.617,
+  "speaker": "Unknown",
+  "en": "And then you have actions.",
+  "zh": "然后你有动作。"
+ },
+ {
+  "seg": 135,
+  "start": 885.058,
+  "end": 887.42,
+  "speaker": "Unknown",
+  "en": "So on the actions part, we have broadly two flavors.",
+  "zh": "在动作部分，我们大体上有两种类型。"
+ },
+ {
+  "seg": 136,
+  "start": 887.72,
+  "end": 892.023,
+  "speaker": "Unknown",
+  "en": "First is the halt type actions, which basically just kill your agent if it exceeds a budget.",
+  "zh": "第一种是 halt 类型的动作，它基本上就是在智能体超出预算时直接杀掉它。"
+ },
+ {
+  "seg": 137,
+  "start": 892.544,
+  "end": 896.087,
+  "speaker": "Unknown",
+  "en": "The second part where we are adding value is the steer type actions.",
+  "zh": "第二个我们正在增加价值的部分是 steer 类型的动作。"
+ },
+ {
+  "seg": 138,
+  "start": 896.447,
+  "end": 907.194,
+  "speaker": "Unknown",
+  "en": "So here we do not kill the agent, instead we try to steer the behavior of the agent or the components of the agent to try and fit that particular run within the allotted budget.",
+  "zh": "在这里我们不杀掉智能体，而是尝试引导智能体或智能体组件的行为，尝试让那个特定的 run 落在分配的预算之内。"
+ },
+ {
+  "seg": 139,
+  "start": 907.615,
+  "end": 909.936,
+  "speaker": "Unknown",
+  "en": "And then the policies layer is where it all comes together.",
+  "zh": "然后策略层就是把所有东西汇聚起来的地方。"
+ },
+ {
+  "seg": 140,
+  "start": 910.076,
+  "end": 917.281,
+  "speaker": "Unknown",
+  "en": "You basically group the budgets, the actions and then set your policies against certain segments or agent runs and that is where it executes.",
+  "zh": "你基本上把预算、动作分组，然后针对某些 segment 或 agent run 设置你的策略，它就在那里执行。"
+ },
+ {
+  "seg": 141,
+  "start": 918.262,
+  "end": 919.103,
+  "speaker": "Unknown",
+  "en": "So, moving on.",
+  "zh": "那么，继续往下讲。"
+ },
+ {
+  "seg": 142,
+  "start": 919.983,
+  "end": 920.784,
+  "speaker": "Unknown",
+  "en": "What changes in your code?",
+  "zh": "你的代码会有什么变化？"
+ },
+ {
+  "seg": 143,
+  "start": 921.244,
+  "end": 923.065,
+  "speaker": "Unknown",
+  "en": "That is the boundary annotation that we just talked about.",
+  "zh": "那就是我们刚刚谈到的 boundary 注解。"
+ },
+ {
+  "seg": 144,
+  "start": 923.626,
+  "end": 925.527,
+  "speaker": "Unknown",
+  "en": "As Tisha mentioned earlier, this is all out of band.",
+  "zh": "正如 Tisha 早些时候提到的，这一切都是带外进行的。"
+ },
+ {
+  "seg": 145,
+  "start": 925.627,
+  "end": 927.108,
+  "speaker": "Unknown",
+  "en": "So, you do not have to change your code.",
+  "zh": "所以，你不必更改你的代码。"
+ },
+ {
+  "seg": 146,
+  "start": 927.128,
+  "end": 929.59,
+  "speaker": "Unknown",
+  "en": "You just have to apply the annotation on the methods that you have.",
+  "zh": "你只需要在你已有的方法上应用这个注解。"
+ },
+ {
+  "seg": 147,
+  "start": 930.05,
+  "end": 934.113,
+  "speaker": "Unknown",
+  "en": "This boundary annotation will take care of floating all the information up to the control plane.",
+  "zh": "这个 boundary 注解会负责把所有信息上浮到控制平面。"
+ },
+ {
+  "seg": 148,
+  "start": 934.133,
+  "end": 935.894,
+  "speaker": "Unknown",
+  "en": "And the control plane lies in your own tenant.",
+  "zh": "而控制平面就在你自己的租户里。"
+ },
+ {
+  "seg": 149,
+  "start": 935.994,
+  "end": 938.496,
+  "speaker": "Unknown",
+  "en": "So, you do not need to worry about any data leaks or anything.",
+  "zh": "所以，你不需要担心任何数据泄露之类的问题。"
+ },
+ {
+  "seg": 150,
+  "start": 939.076,
+  "end": 945.203,
+  "speaker": "Unknown",
+  "en": "Then if I talk about the governor, so for the governor you just have to create an instance, you just have to pass it to your own configs.",
+  "zh": "然后如果我要讲 governor 的话，对于 governor 你只需要创建一个实例，你只需要把你自己的配置传进去。"
+ },
+ {
+  "seg": 151,
+  "start": 945.563,
+  "end": 950.408,
+  "speaker": "Unknown",
+  "en": "These configs will basically declare what sort of actions are allowed for those agents, right?",
+  "zh": "这些配置基本上会声明允许那些智能体执行哪些类型的操作，对吧？"
+ },
+ {
+  "seg": 152,
+  "start": 950.789,
+  "end": 955.314,
+  "speaker": "Unknown",
+  "en": "So that your control plane cannot just willingly do any random things on your agents.",
+  "zh": "这样你的控制面就不能随意地对你的智能体做任何随机的事情。"
+ },
+ {
+  "seg": 153,
+  "start": 956.701,
+  "end": 961.786,
+  "speaker": "Unknown",
+  "en": "So before we move on to the demo, I'll just briefly touch upon the test bench that we're going to use today.",
+  "zh": "所以在进入演示之前，我会简要讲一下我们今天要用的测试台。"
+ },
+ {
+  "seg": 154,
+  "start": 962.287,
+  "end": 964.269,
+  "speaker": "Unknown",
+  "en": "So it's a simple two-agent workflow.",
+  "zh": "这是一个简单的双智能体工作流。"
+ },
+ {
+  "seg": 155,
+  "start": 964.429,
+  "end": 967.011,
+  "speaker": "Unknown",
+  "en": "We have a research agent which has access to a search tool.",
+  "zh": "我们有一个研究智能体，它可以访问一个搜索工具。"
+ },
+ {
+  "seg": 156,
+  "start": 967.812,
+  "end": 972.337,
+  "speaker": "Unknown",
+  "en": "You give it a question, it's allowed to look up on the web as many times as it wants.",
+  "zh": "你给它一个问题，它被允许在网络上想查多少次就查多少次。"
+ },
+ {
+  "seg": 157,
+  "start": 972.837,
+  "end": 979.504,
+  "speaker": "Unknown",
+  "en": "And once it knows that it has all the data, it passes the findings on to the second agent, which is a summarizer, which creates a research report.",
+  "zh": "一旦它知道自己掌握了所有数据，它就把发现的内容传给第二个智能体，也就是一个总结器，由它生成一份研究报告。"
+ },
+ {
+  "seg": 158,
+  "start": 980.524,
+  "end": 983.846,
+  "speaker": "Unknown",
+  "en": "So with that out of the way, let's just quickly walk over to the demo.",
+  "zh": "那么说完这些，我们快速进入演示吧。"
+ },
+ {
+  "seg": 159,
+  "start": 984.366,
+  "end": 987.027,
+  "speaker": "Unknown",
+  "en": "So for the demo, we have three different scenarios that we're going to talk about.",
+  "zh": "在演示中，我们要讲三个不同的场景。"
+ },
+ {
+  "seg": 160,
+  "start": 987.347,
+  "end": 991.189,
+  "speaker": "Unknown",
+  "en": "For the first one, we're going to run the token ops in what we call preview mode.",
+  "zh": "第一个场景，我们要以我们所谓的预览模式运行 TokenOps。"
+ },
+ {
+  "seg": 161,
+  "start": 991.609,
+  "end": 996.692,
+  "speaker": "Unknown",
+  "en": "So in preview mode, what happens is that all the policies run as is, but the enforcement doesn't happen.",
+  "zh": "在预览模式下，发生的情况是所有策略照常运行，但不执行强制措施。"
+ },
+ {
+  "seg": 162,
+  "start": 996.892,
+  "end": 1005.996,
+  "speaker": "Unknown",
+  "en": "So if you see, we ran a particular run over here, which completed, but we did not see any sort of failures there.",
+  "zh": "所以你可以看到，我们在这里运行了一次特定的运行，它完成了，但我们没有看到任何失败。"
+ },
+ {
+  "seg": 163,
+  "start": 1006.216,
+  "end": 1007.857,
+  "speaker": "Unknown",
+  "en": "The policy is executed, but",
+  "zh": "策略被执行了，但是"
+ },
+ {
+  "seg": 164,
+  "start": 1008.597,
+  "end": 1012.163,
+  "speaker": "Unknown",
+  "en": "The actions that were associated with those policies were not allowed to be executed.",
+  "zh": "与那些策略关联的动作不被允许执行。"
+ },
+ {
+  "seg": 165,
+  "start": 1012.423,
+  "end": 1015.508,
+  "speaker": "Unknown",
+  "en": "So we're just going to load the dashboard screen here.",
+  "zh": "所以我们就在这里加载一下仪表盘界面。"
+ },
+ {
+  "seg": 166,
+  "start": 1017.262,
+  "end": 1019.703,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is the governance output.",
+  "zh": "对，这就是治理输出。"
+ },
+ {
+  "seg": 167,
+  "start": 1020.083,
+  "end": 1021.804,
+  "speaker": "Unknown",
+  "en": "Governance is off, the run completed.",
+  "zh": "治理是关闭的，运行完成了。"
+ },
+ {
+  "seg": 168,
+  "start": 1022.224,
+  "end": 1024.525,
+  "speaker": "Unknown",
+  "en": "But in the dashboard, you can see the policies have executed.",
+  "zh": "但在仪表盘上，你可以看到策略已经执行。"
+ },
+ {
+  "seg": 169,
+  "start": 1024.545,
+  "end": 1027.686,
+  "speaker": "Unknown",
+  "en": "So you can see the cost budget, the cost guard, and so on, right?",
+  "zh": "你可以看到成本预算、cost guard 等等，对吧？"
+ },
+ {
+  "seg": 170,
+  "start": 1028.067,
+  "end": 1029.107,
+  "speaker": "Unknown",
+  "en": "So this was the first scenario.",
+  "zh": "这就是第一个场景。"
+ },
+ {
+  "seg": 171,
+  "start": 1029.547,
+  "end": 1032.789,
+  "speaker": "Unknown",
+  "en": "For the second scenario, what we're going to do is we're going to turn on the governance now.",
+  "zh": "对于第二个场景，我们要做的是现在把治理打开。"
+ },
+ {
+  "seg": 172,
+  "start": 1033.709,
+  "end": 1036.05,
+  "speaker": "Unknown",
+  "en": "While that is happening, I just want to touch upon why this is important.",
+  "zh": "趁这个在进行的时候，我只想讲一下为什么这很重要。"
+ },
+ {
+  "seg": 173,
+  "start": 1036.09,
+  "end": 1042.793,
+  "speaker": "Unknown",
+  "en": "So if you want to include this product into your production agents, you want to have a safe environment or a safe way to firstly",
+  "zh": "如果你想把这个产品纳入你的生产智能体中，你需要一个安全的环境或安全的方式，首先"
+ },
+ {
+  "seg": 174,
+  "start": 1043.173,
+  "end": 1051.121,
+  "speaker": "Unknown",
+  "en": "Put it in your production environment, test the guardrails, tweak the guardrails, see what the policies are doing and then finalize the thresholds.",
+  "zh": "把它放进你的生产环境，测试护栏、调整护栏、看看策略在做什么，然后确定阈值。"
+ },
+ {
+  "seg": 175,
+  "start": 1051.541,
+  "end": 1059.549,
+  "speaker": "Unknown",
+  "en": "So, this is the second one where we have now enforced the governance and you can see in the dashboard that the pre-call cost cap has exceeded.",
+  "zh": "所以，这是第二个场景，我们现在已经强制启用了治理，你可以在仪表盘中看到调用前成本上限已经超出。"
+ },
+ {
+  "seg": 176,
+  "start": 1059.649,
+  "end": 1061.912,
+  "speaker": "Unknown",
+  "en": "So, you had a budget allotted for this run.",
+  "zh": "也就是说，你为这次运行分配了一个预算。"
+ },
+ {
+  "seg": 177,
+  "start": 1062.432,
+  "end": 1065.555,
+  "speaker": "Unknown",
+  "en": "But the agent exceeded the budget and it was killed immediately.",
+  "zh": "但智能体超出了预算，它被立即终止了。"
+ },
+ {
+  "seg": 178,
+  "start": 1065.615,
+  "end": 1068.477,
+  "speaker": "Unknown",
+  "en": "So that's the simple circuit breaker sort of a methodology.",
+  "zh": "这就是一种简单的熔断器式的方法。"
+ },
+ {
+  "seg": 179,
+  "start": 1068.717,
+  "end": 1070.378,
+  "speaker": "Unknown",
+  "en": "So this is the halt behavior.",
+  "zh": "这就是 halt 行为。"
+ },
+ {
+  "seg": 180,
+  "start": 1070.759,
+  "end": 1078.405,
+  "speaker": "Unknown",
+  "en": "And now let's see the steer behavior, which is where we are trying to add value to this entire cost management scenario.",
+  "zh": "现在让我们看看 steer 行为，也就是我们试图为整个成本管理场景增加价值的地方。"
+ },
+ {
+  "seg": 181,
+  "start": 1078.785,
+  "end": 1080.907,
+  "speaker": "Unknown",
+  "en": "So this time we're going to run the second problem.",
+  "zh": "这次我们要运行第二个问题。"
+ },
+ {
+  "seg": 182,
+  "start": 1081.487,
+  "end": 1087.414,
+  "speaker": "Unknown",
+  "en": "The budget allotted for this one is slightly higher, but it's still not high enough for the agent to complete in time.",
+  "zh": "为这一次分配的预算略高一些，但仍然不够高到让智能体及时完成。"
+ },
+ {
+  "seg": 183,
+  "start": 1087.814,
+  "end": 1091.718,
+  "speaker": "Unknown",
+  "en": "So what instead happens is, there is something called cost guard which kicks in.",
+  "zh": "所以实际发生的是，有一个叫 cost guard 的东西会介入。"
+ },
+ {
+  "seg": 184,
+  "start": 1092.199,
+  "end": 1094.481,
+  "speaker": "Unknown",
+  "en": "This cost guard, it takes into account two things.",
+  "zh": "这个 cost guard，它考虑两件事。"
+ },
+ {
+  "seg": 185,
+  "start": 1094.722,
+  "end": 1097.445,
+  "speaker": "Unknown",
+  "en": "First, how much of your allotted budget have you consumed?",
+  "zh": "第一，你已经消耗了多少分配的预算？"
+ },
+ {
+  "seg": 186,
+  "start": 1097.985,
+  "end": 1100.227,
+  "speaker": "Unknown",
+  "en": "Second, what is the velocity at which you are consuming tokens?",
+  "zh": "第二，你消耗 token 的速度是多少？"
+ },
+ {
+  "seg": 187,
+  "start": 1100.708,
+  "end": 1110.416,
+  "speaker": "Unknown",
+  "en": "Now, based on these two things, if it predicts that you are going to run out of your tokens or your allotted budget by the end of the run, it is going to inject something into your system instructions.",
+  "zh": "现在，基于这两点，如果它预测你会在运行结束前耗尽 token 或分配的预算，它就会向你的系统指令中注入一些内容。"
+ },
+ {
+  "seg": 188,
+  "start": 1110.817,
+  "end": 1118.984,
+  "speaker": "Unknown",
+  "en": "That something could be as simple as, hey, you are running out of budget, so make sure that the LLM outputs are more succinct or more summarized, right?",
+  "zh": "那个内容可以简单到像“嘿，你的预算快用完了，所以要确保 LLM 的输出更简洁或更概括”，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 1119.384,
+  "end": 1122.127,
+  "speaker": "Unknown",
+  "en": "So, that is the way we are doing this theory.",
+  "zh": "所以，这就是我们做这个 steer 的方式。"
+ },
+ {
+  "seg": 190,
+  "start": 1122.707,
+  "end": 1128.751,
+  "speaker": "Unknown",
+  "en": "Now, this was a very simple test bench to show you how this works on a working code.",
+  "zh": "现在，这是一个非常简单的测试台，用来向你展示这在可运行的代码上是如何工作的。"
+ },
+ {
+  "seg": 191,
+  "start": 1129.411,
+  "end": 1132.353,
+  "speaker": "Unknown",
+  "en": "We have also benchmarked it on a couple of open source repos.",
+  "zh": "我们也在几个开源仓库上做了基准测试。"
+ },
+ {
+  "seg": 192,
+  "start": 1132.413,
+  "end": 1135.555,
+  "speaker": "Unknown",
+  "en": "So we have benchmarked it on browser use as well as MetaGPT.",
+  "zh": "所以我们在 browser use 以及 MetaGPT 上做了基准测试。"
+ },
+ {
+  "seg": 193,
+  "start": 1136.235,
+  "end": 1141.158,
+  "speaker": "Unknown",
+  "en": "We ran it across multiple iterations, across stress tests, across simple scenarios, hard scenarios and everything.",
+  "zh": "我们跑了多次迭代、压力测试、简单场景、困难场景等等所有情况。"
+ },
+ {
+  "seg": 194,
+  "start": 1141.519,
+  "end": 1148.143,
+  "speaker": "Unknown",
+  "en": "And the results we see are the average spend goes down by almost 78% with token ops enabled with the full policy suit that we have today.",
+  "zh": "我们看到的结果是，在启用 TokenOps 以及我们现有的完整策略套件的情况下，平均支出下降了近 78%。"
+ },
+ {
+  "seg": 195,
+  "start": 1149.048,
+  "end": 1156.733,
+  "speaker": "Unknown",
+  "en": "On the completion part, when we compare it with throttling, just simple throttling, your simple throttling is going to kill your agent runs no matter what, right?",
+  "zh": "在完成率方面，当我们与限流比较时，仅仅是简单的限流，你的简单限流无论如何都会杀死你的智能体运行，对吧？"
+ },
+ {
+  "seg": 196,
+  "start": 1157.153,
+  "end": 1164.417,
+  "speaker": "Unknown",
+  "en": "So with the reduced average spend, what you get is you get an uplift in that completion percentage from 67% to roughly 96%.",
+  "zh": "所以在降低平均支出的同时，你得到的是完成百分比从 67% 提升到大约 96%。"
+ },
+ {
+  "seg": 197,
+  "start": 1164.777,
+  "end": 1166.939,
+  "speaker": "Unknown",
+  "en": "So that is the value add that TokenOps is doing here.",
+  "zh": "这就是 TokenOps 在这里带来的增值。"
+ },
+ {
+  "seg": 198,
+  "start": 1167.588,
+  "end": 1170.81,
+  "speaker": "Unknown",
+  "en": "Now, this is the policy catalog that we run this benchmark against.",
+  "zh": "现在，这是我们运行这个基准测试所针对的策略目录。"
+ },
+ {
+  "seg": 199,
+  "start": 1170.87,
+  "end": 1171.871,
+  "speaker": "Unknown",
+  "en": "This is what we support today.",
+  "zh": "这是我们目前支持的内容。"
+ },
+ {
+  "seg": 200,
+  "start": 1172.431,
+  "end": 1178.075,
+  "speaker": "Unknown",
+  "en": "We kind of research what are the different failure modes that are there today out in the wild and tried to cover most of them here.",
+  "zh": "我们研究了目前野外存在的各种不同的失效模式，并尝试在这里覆盖其中大部分。"
+ },
+ {
+  "seg": 201,
+  "start": 1178.416,
+  "end": 1183.799,
+  "speaker": "Unknown",
+  "en": "So you have things across spend management, you have things across context management like context compaction, tool output reduction.",
+  "zh": "所以你有关于支出管理的内容，有关于上下文管理的内容，比如上下文压缩、工具输出缩减。"
+ },
+ {
+  "seg": 202,
+  "start": 1184.2,
+  "end": 1187.182,
+  "speaker": "Unknown",
+  "en": "You have things across loop detection and progress detection and stuff like that.",
+  "zh": "你还有关于循环检测和进度检测之类的内容。"
+ },
+ {
+  "seg": 203,
+  "start": 1187.642,
+  "end": 1189.743,
+  "speaker": "Unknown",
+  "en": "So this is the entire set of policies that we support.",
+  "zh": "这就是我们支持的整套策略。"
+ },
+ {
+  "seg": 204,
+  "start": 1190.064,
+  "end": 1191.545,
+  "speaker": "Unknown",
+  "en": "And at the bottom, you can see the actions.",
+  "zh": "在底部，你可以看到动作。"
+ },
+ {
+  "seg": 205,
+  "start": 1191.825,
+  "end": 1193.586,
+  "speaker": "Unknown",
+  "en": "So as I mentioned earlier, we have two flavors.",
+  "zh": "正如我之前提到的，我们有两种形式。"
+ },
+ {
+  "seg": 206,
+  "start": 1193.766,
+  "end": 1194.327,
+  "speaker": "Unknown",
+  "en": "You have the",
+  "zh": "你有"
+ },
+ {
+  "seg": 207,
+  "start": 1195.488,
+  "end": 1198.151,
+  "speaker": "Unknown",
+  "en": "The halt type actions and then the steer type actions.",
+  "zh": "halt 类型的动作，然后是 steer 类型的动作。"
+ },
+ {
+  "seg": 208,
+  "start": 1198.191,
+  "end": 1203.256,
+  "speaker": "Unknown",
+  "en": "So, for the steer we can do allow, mutate, inject and so on and for the halt it can be a simple kill.",
+  "zh": "对于 steer，我们可以执行 allow、mutate、inject 等等；对于 halt，它可以是一个简单的 kill。"
+ },
+ {
+  "seg": 209,
+  "start": 1203.837,
+  "end": 1206.18,
+  "speaker": "Unknown",
+  "en": "But this is not the end state that we envision for this.",
+  "zh": "但这并不是我们为此设想的最终状态。"
+ },
+ {
+  "seg": 210,
+  "start": 1207.281,
+  "end": 1209.704,
+  "speaker": "Unknown",
+  "en": "The end state is we have a lot of data, right?",
+  "zh": "最终状态是，我们拥有大量数据，对吧？"
+ },
+ {
+  "seg": 211,
+  "start": 1209.804,
+  "end": 1212.307,
+  "speaker": "Unknown",
+  "en": "We have a ledger that is continuously being updated.",
+  "zh": "我们有一个持续更新的账本。"
+ },
+ {
+  "seg": 212,
+  "start": 1212.647,
+  "end": 1226.115,
+  "speaker": "Unknown",
+  "en": "So what we want to try is, we want to try a self-learning module within the token ops plane, within the control plane, which can look at this ledger and ask this question, hey, why or what is the failure mode that I'm still not able to catch?",
+  "zh": "所以我们想要尝试的是，我们想在 token ops 平面内、在控制平面内尝试一个自学习模块，它可以查看这个账本并提出这样的问题：嘿，为什么或者什么样的失效模式我仍然无法捕获？"
+ },
+ {
+  "seg": 213,
+  "start": 1226.676,
+  "end": 1228.617,
+  "speaker": "Unknown",
+  "en": "And then based on that, it can do two things.",
+  "zh": "然后基于此，它可以做两件事。"
+ },
+ {
+  "seg": 214,
+  "start": 1229.197,
+  "end": 1244.917,
+  "speaker": "Unknown",
+  "en": "One is it can enhance, it can generate new policies on the fly based on the missing or the still runaway costs or it can refine the existing parameters for the existing policies that are there so that the runaway costs are managed more effectively in the future.",
+  "zh": "一是它可以增强，它可以基于缺失的或仍然存在的失控成本即时生成新策略，或者它可以优化现有策略的现有参数，以便失控成本在未来得到更有效的管理。"
+ },
+ {
+  "seg": 215,
+  "start": 1245.969,
+  "end": 1249.111,
+  "speaker": "Unknown",
+  "en": "So, with that, I think that is all we have for you guys today.",
+  "zh": "那么，我想今天我们要讲的就是这些了。"
+ },
+ {
+  "seg": 216,
+  "start": 1249.371,
+  "end": 1250.291,
+  "speaker": "Unknown",
+  "en": "Thank you so much for your time.",
+  "zh": "非常感谢大家抽出时间。"
+ },
+ {
+  "seg": 217,
+  "start": 1250.591,
+  "end": 1252.172,
+  "speaker": "Unknown",
+  "en": "And you can scan this QR code.",
+  "zh": "你们可以扫描这个二维码。"
+ },
+ {
+  "seg": 218,
+  "start": 1252.192,
+  "end": 1253.072,
+  "speaker": "Unknown",
+  "en": "That's the public wiki.",
+  "zh": "那是公开的 wiki。"
+ },
+ {
+  "seg": 219,
+  "start": 1253.173,
+  "end": 1254.953,
+  "speaker": "Unknown",
+  "en": "We are updating it almost regularly.",
+  "zh": "我们几乎在定期更新它。"
+ },
+ {
+  "seg": 220,
+  "start": 1255.414,
+  "end": 1257.675,
+  "speaker": "Unknown",
+  "en": "So, you can scan this and stay up to date.",
+  "zh": "所以，你们可以扫描它并保持最新。"
+ },
+ {
+  "seg": 221,
+  "start": 1258.015,
+  "end": 1259.295,
+  "speaker": "Unknown",
+  "en": "And Tisha and I are around.",
+  "zh": "我和 Tisha 都在这里。"
+ },
+ {
+  "seg": 222,
+  "start": 1259.316,
+  "end": 1262.957,
+  "speaker": "Unknown",
+  "en": "So, if you guys have any questions or if you want to discuss more about it, just let us know.",
+  "zh": "所以，如果你们有任何问题，或者想进一步讨论，请告诉我们。"
+ },
+ {
+  "seg": 223,
+  "start": 1263.377,
+  "end": 1263.618,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 224,
+  "start": 1263.638,
+  "end": 1264.198,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]
