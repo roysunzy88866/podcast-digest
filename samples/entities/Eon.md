@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ofir Ehrlich]] · [[Gonen Stein]] · [[智能体]] · [[数据基础]] · [[ETL]] · [[token]] · [[后训练]] · [[PLG]] · [[Google]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Gonen Stein":1,"智能体":312,"数据基础":2,"ETL":2,"token":24,"后训练":27,"PLG":11,"Google":47,"AWS":13}</script>
+<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Gonen Stein":1,"智能体":317,"数据基础":2,"ETL":2,"token":24,"后训练":1,"PLG":11,"Google":47,"AWS":13}</script>
 
 <script>
 (function(){

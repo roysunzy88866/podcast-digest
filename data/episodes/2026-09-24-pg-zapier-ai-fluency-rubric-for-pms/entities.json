@@ -1,0 +1,1865 @@
+{
+  "episode_id": "2026-09-24-pg-zapier-ai-fluency-rubric-for-pms",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-09-24",
+  "tags": [
+    "AI 熟练度",
+    "产品管理",
+    "智能体",
+    "自动化",
+    "无代码"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "wade-foster",
+      "type": "person",
+      "role": "host",
+      "name": "Wade Foster",
+      "file": "Wade Foster",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.362,
+            13.365
+          ],
+          "quote": "Wade Foster is the CEO and co-founder of Zapier.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "type": "company",
+      "role": "concept",
+      "name": "Zapier",
+      "file": "Zapier",
+      "primary": true,
+      "how_described": "本集主线公司：CEO Wade Foster 展示其 AI 熟练度评分标准、内部 PM 工作方式与个人智能体，并谈其增长与确定性自动化定位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.814,
+            6.077
+          ],
+          "quote": "Zapier, Shopify, and many others already are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            10.362,
+            13.365
+          ],
+          "quote": "Wade Foster is the CEO and co-founder of Zapier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            42.346,
+            43.928
+          ],
+          "quote": "The line we use at Zapier on Slop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            50.515,
+            53.255
+          ],
+          "quote": "For you at Zapier, you've been around since 2012.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            53.636,
+            55.776
+          ],
+          "quote": "Where does Zapier's business sit now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            55.916,
+            60.047000000000004
+          ],
+          "quote": "One thing that's unique about Zapier is the valuation thing doesn't matter as much to us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            124.91,
+            127.734
+          ],
+          "quote": " Since then, Zapier has updated their thinking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            169.381,
+            172.263
+          ],
+          "quote": "How do you guys measure AI fluency at Zapier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            180.906,
+            187.906
+          ],
+          "quote": "This, published March 31st, 2026, is our updated AI fluency bar at Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            413.014,
+            417.316
+          ],
+          "quote": "So what is the distribution that you want to see at Zapier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            667.375,
+            670.077
+          ],
+          "quote": "but even in turn inside of Zapier was building",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            780.02,
+            784.6866666666666
+          ],
+          "quote": "but like every product person in Zapier kind of got like a jetpack put on their back",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            823.208,
+            829.853
+          ],
+          "quote": "What I thought of was, what if Zapier had an IDE harness for Cloud Code?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            878.552,
+            883.294
+          ],
+          "quote": "So we combined CloudCode with Zapier's automation platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            899.922,
+            902.0331111111111
+          ],
+          "quote": "for building these Zapier automations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            910.405,
+            914.4605555555555
+          ],
+          "quote": "I want to build and test Zapier automations without constantly switching.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            958.403,
+            963.1750000000001
+          ],
+          "quote": "And sort of my vision is cloud rights or automation, Zapier helps make sure it actually works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1006.107,
+            1009.0514444444444
+          ],
+          "quote": "There's some value in sort of having like the Zapier,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1027.429,
+            1030.949
+          ],
+          "quote": "on Zapier because Zapier can run them in a Deterministic manner,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1125.408,
+            1132.275
+          ],
+          "quote": "you know, the Zapier You know, like Gong recordings or Zendesk tickets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1188.023,
+            1192.906
+          ],
+          "quote": "well, where is the unique value that Zapier brings to the table on top of it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1199.569,
+            1204.892
+          ],
+          "quote": "there is something here that is uniquely Zapier's to own and provide value on top",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            1824.828,
+            1827.5800000000002
+          ],
+          "quote": " And so it's again, it's like a Zapier harness for Cloud Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1837.776,
+            1842.553777777778
+          ],
+          "quote": "I actually did start with a prototype and I tried to create some Zapier branding even.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1857.826,
+            1864.048
+          ],
+          "quote": "And so the whole idea is we'd just cloud plugin install Zapier, Zapier Connect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            1913.852,
+            1916.1853333333333
+          ],
+          "quote": "We could even replay it in Zapier history.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 634,
+          "t": [
+            1961.701,
+            1965.674
+          ],
+          "quote": "All of that can happen using Zapier's connections and Zapier's policies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2217.829,
+            2219.884555555556
+          ],
+          "quote": "across Zapier at this moment in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 895,
+          "t": [
+            2806.214,
+            2809.285
+          ],
+          "quote": "But if you're getting the company of Zapier size where we have,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 916,
+          "t": [
+            2864.351,
+            2868.432
+          ],
+          "quote": "I don't want, I think we have something like 30 or 40 PMs in Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 921,
+          "t": [
+            2878.174,
+            2879.894
+          ],
+          "quote": "there's a few different jobs inside of Zapier,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            2889.185,
+            2893.228
+          ],
+          "quote": "There is a sort of like Zapier product factory that does a lot of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 929,
+          "t": [
+            2900.513,
+            2904.335
+          ],
+          "quote": "I want to see a little bit more of Zapier's internal sauce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 934,
+          "t": [
+            2921.501,
+            2923.962
+          ],
+          "quote": "So these are not like Zapier production systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 972,
+          "t": [
+            3028.661,
+            3032.141
+          ],
+          "quote": "You can actually see how it runs inside of Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3032.361,
+            3035.1943333333334
+          ],
+          "quote": "So the nice thing is I have this running on Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3035.262,
+            3041.169
+          ],
+          "quote": "And what is handy about running these workflows on Zapier versus having You know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            3041.449,
+            3044.051
+          ],
+          "quote": "quad code or codex or any of these tool run them is that Zapier is going",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            3158.364,
+            3162.685
+          ],
+          "quote": "with Zapier is you can actually prompt an AI agent to create these workflows",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            3171.988,
+            3174.8213333333333
+          ],
+          "quote": "but then I'm sort of deploying it to Zapier to run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            3848.319,
+            3852.866
+          ],
+          "quote": "But it was a $5 billion mark that got labeled onto Zapier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1250,
+          "t": [
+            3857.833,
+            3861.616
+          ],
+          "quote": " For you at Zapier, you've been around since 2012.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1252,
+          "t": [
+            3864.678,
+            3866.84
+          ],
+          "quote": "Where does Zapier's business sit now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1257,
+          "t": [
+            3877.389,
+            3878.97
+          ],
+          "quote": "One thing that's unique about Zapier is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4027.485,
+            4032.847
+          ],
+          "quote": "we had Brian on your CTO and co-founder talking about the Zapier MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            4063.966,
+            4066.329
+          ],
+          "quote": "And so, you know, Zapier, that's always what we've been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4070.328,
+            4076.089
+          ],
+          "quote": " But the one place where a human had to do work to use Zapier was building out this automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            4095.435,
+            4098.246999999999
+          ],
+          "quote": "Whether you're a tool like Zapier or you're a CRM like Salesforce",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            4203.139,
+            4206.92
+          ],
+          "quote": "and how do you create that unique space for Zapier,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1405,
+          "t": [
+            4332.094,
+            4332.874
+          ],
+          "quote": "I think for Zapier,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1417,
+          "t": [
+            4364.104,
+            4369.188
+          ],
+          "quote": "but I need to let you get onto the day job of managing Zapier to growth and success.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-fluency",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 熟练度 (AI fluency)",
+      "file": "AI 熟练度",
+      "primary": true,
+      "how_described": "本集核心概念：用四档评分标准（能干/采纳/变革/不可接受）衡量员工的 AI 使用水平，变革级门槛极高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            2.7221111111111114
+          ],
+          "quote": " Every PM is about to get graded on AI fluency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            13.465,
+            18.07
+          ],
+          "quote": " He wrote the viral AI fluency rubric that arguably kicked off this track.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            107.565,
+            113.213
+          ],
+          "quote": "to figure out what AI fluency actually means How do product leaders,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            118,
+            123.028
+          ],
+          "quote": "Wade published what I think was the first AI fluency rubric online.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            165.097,
+            169.22
+          ],
+          "quote": "the world's best person to talk to us about AI fluency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            169.381,
+            172.263
+          ],
+          "quote": "How do you guys measure AI fluency at Zapier?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            177.965,
+            180.706
+          ],
+          "quote": "So we have an AI fluency rubric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            180.906,
+            187.906
+          ],
+          "quote": "This, published March 31st, 2026, is our updated AI fluency bar at Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            220.166,
+            225.694
+          ],
+          "quote": " Help people stand out in terms of their AI fluency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            976.609,
+            981.869
+          ],
+          "quote": "part of your prompt to me was, you know, How does this grade an AI fluency?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1279.593,
+            1280.981888888889
+          ],
+          "quote": "It's not just AI fluency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1356.647,
+            1360.869222222222
+          ],
+          "quote": "you know, my AI fluency is like probably, you know, adoptive in most places.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1399.032,
+            1405.994
+          ],
+          "quote": "for everybody who is listening is it's not easy to just separate AI fluency",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 928,
+          "t": [
+            2896.79,
+            2900.453
+          ],
+          "quote": "You understand as a PM how to rate on AI fluency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            3823.027,
+            3825.029
+          ],
+          "quote": " Okay, so that covers AI fluency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            4369.308,
+            4374.392
+          ],
+          "quote": "Wade, thank you so much for being on and teaching us about AI fluency today.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体正在成为软件的用户、PM 要搭建智能体流水线，Wade 还展示了自己的机器人员工（晨报、Scribe、CEO CRM 等）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            580.734,
+            584.0490000000001
+          ],
+          "quote": "I didn't have a way to see what my agent was actually doing step by step.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            597.678,
+            600.332
+          ],
+          "quote": "Now Cloud Code already knows how to instrument my agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            623.637,
+            627.5920000000001
+          ],
+          "quote": "my resume feedback agent was supposed to pull the company's tech stack from",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            647.952,
+            652.859
+          ],
+          "quote": "and found that my agent was making the same kind of mistake about 12% of the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            717.507,
+            722.5625555555555
+          ],
+          "quote": "Then you boot up a coding agent and the coding agent would have access to all that context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1060.235,
+            1065.42
+          ],
+          "quote": "Let's go fire up your favorite coding agent of choice and start",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1436.406,
+            1440.1570000000002
+          ],
+          "quote": "just take this PRD, slap it into a coding agent, have it build the first prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            1843.8,
+            1846.002
+          ],
+          "quote": "Your agent has the connections, it just can't reach them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            1852.705,
+            1857.546
+          ],
+          "quote": " What would it look like if a coding agent could actually use them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1994.819,
+            1999.7
+          ],
+          "quote": "And I found that agent tooling came up unprompted in 34 of these 47 calls.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2001.991,
+            2006.432
+          ],
+          "quote": " On Zendesk, I saw we had 312 tickets tagged MCP or AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2037.578,
+            2041.362
+          ],
+          "quote": "that devs will let an agent perform rights to production systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2113.574,
+            2118.118
+          ],
+          "quote": "is Akash actually running this live transcript into a coding agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            2294.505,
+            2298.817
+          ],
+          "quote": "where you can kind of see my agent title kind of gives it away of what I'm trying",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2325.445,
+            2332.445
+          ],
+          "quote": " What I did here is I created two images to show what my agent stack looks like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 748,
+          "t": [
+            2334.234,
+            2340.601
+          ],
+          "quote": "So if I go into here, it looks like this is my agent stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2462.092,
+            2463.773
+          ],
+          "quote": "So this is my agent's setup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 838,
+          "t": [
+            2640.606,
+            2644.048
+          ],
+          "quote": "Like when the agent fails, okay, why did the agent fail at that task?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            2904.375,
+            2907.607
+          ],
+          "quote": "Can you show us a little bit of your internal agent dashboards",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            2946.949,
+            2950.39
+          ],
+          "quote": "I had my agent build out this demo page for us,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 946,
+          "t": [
+            2961.359,
+            2966.581222222222
+          ],
+          "quote": "This is sort of a lot closer to like kind of the production agent that we showed off just now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 961,
+          "t": [
+            3007.093,
+            3009.514
+          ],
+          "quote": "You hook up an agent to your calendar,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            3049.595,
+            3050.876
+          ],
+          "quote": "This is not an agent running this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            3151.382,
+            3154.513
+          ],
+          "quote": "but you get the power of like an agent reasoning through the task",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            3158.364,
+            3162.685
+          ],
+          "quote": "with Zapier is you can actually prompt an AI agent to create these workflows",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            3186.898,
+            3189.761
+          ],
+          "quote": "agent products make you do right now because everything's running locally",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            3463.468,
+            3469.91
+          ],
+          "quote": "is an agent that handles a very set of specific workflows that I personally care",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1126,
+          "t": [
+            3482.113,
+            3486.594
+          ],
+          "quote": "but mostly now it runs as agent and I only showing the UI because it's hard",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            3529.181,
+            3534.004
+          ],
+          "quote": "And so what this agent really does for me now is every Saturday night it runs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            3616.29,
+            3619.9566666666665
+          ],
+          "quote": "on their agent's setup if they're gonna wanna have drafts created,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            3650.437,
+            3655.636
+          ],
+          "quote": " I don't have it in my demo, but I do have an agent That is running analytics on this stuff too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1303,
+          "t": [
+            4022.473,
+            4025.255
+          ],
+          "quote": "that exposes those capabilities to a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            4098.297,
+            4103.101
+          ],
+          "quote": "or incident these other tools, the user of your software now is the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1329,
+          "t": [
+            4103.521,
+            4106.414
+          ],
+          "quote": "The agent is one that comes in and does all that work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1341,
+          "t": [
+            4142.397,
+            4143.947999999999
+          ],
+          "quote": "And increasingly, that's a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1346,
+          "t": [
+            4160.163,
+            4163.156
+          ],
+          "quote": "Because it was focused on a human user, not an agent user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1410,
+          "t": [
+            4344.423,
+            4348.6759999999995
+          ],
+          "quote": "But you still can have a power of an agent that's building them and helping you manage them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1413,
+          "t": [
+            4352.929,
+            4355.288
+          ],
+          "quote": "the agent can help you recover from that stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说 PM 应在 PRD 之后启动编码智能体做原型（原型是图片的十倍），SaaS 要把能力暴露给编码智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            717.507,
+            722.5625555555555
+          ],
+          "quote": "Then you boot up a coding agent and the coding agent would have access to all that context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1060.235,
+            1065.42
+          ],
+          "quote": "Let's go fire up your favorite coding agent of choice and start",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1436.406,
+            1440.1570000000002
+          ],
+          "quote": "just take this PRD, slap it into a coding agent, have it build the first prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            1852.705,
+            1857.546
+          ],
+          "quote": " What would it look like if a coding agent could actually use them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2113.574,
+            2118.118
+          ],
+          "quote": "is Akash actually running this live transcript into a coding agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1303,
+          "t": [
+            4022.473,
+            4025.255
+          ],
+          "quote": "that exposes those capabilities to a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1341,
+          "t": [
+            4142.397,
+            4143.947999999999
+          ],
+          "quote": "And increasingly, that's a coding agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性执行 (deterministic)",
+      "file": "确定性执行",
+      "primary": true,
+      "how_described": "本集反复强调在 Zapier 上确定性运行自动化：可靠、每次一样、不烧 token，只在总结/起草那一步用模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1027.429,
+            1030.949
+          ],
+          "quote": "on Zapier because Zapier can run them in a Deterministic manner,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2402.567,
+            2406.1225555555557
+          ],
+          "quote": "that there's this deterministic enforcement in this environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            3137.837,
+            3143.319
+          ],
+          "quote": "So that's where it's – having these sort of like quasi-deterministic agents",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集说 2026 年合格 PM 不止步于 PRD，要用编码智能体做出可点原型——「一图胜千言，一个原型就是那个的十倍」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            362.357,
+            366.0236666666667
+          ],
+          "quote": "generates specs, starts to prototype solutions, shipfall features.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1053.77,
+            1059.995
+          ],
+          "quote": "There's an opportunity to go build out the first prototype of what this thing looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1065.46,
+            1068.403
+          ],
+          "quote": "to see what you can prototype and build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1088.232,
+            1091.733
+          ],
+          "quote": "Well, you know, a prototype is, you know, that times ten.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1220.657,
+            1223.568
+          ],
+          "quote": "well, I can't build a prototype, so I just simply can't do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1436.406,
+            1440.1570000000002
+          ],
+          "quote": "just take this PRD, slap it into a coding agent, have it build the first prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            1827.63,
+            1831.372
+          ],
+          "quote": "I predicted we should probably start with a prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            1831.552,
+            1834.754
+          ],
+          "quote": "So I did come up with a prototype here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1837.776,
+            1842.553777777778
+          ],
+          "quote": "I actually did start with a prototype and I tried to create some Zapier branding even.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 624,
+          "t": [
+            1938.995,
+            1941.257
+          ],
+          "quote": "So we just went through the prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2102.385,
+            2105.758
+          ],
+          "quote": "which was, this should be a prototype, and where's the evidence?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2317.249,
+            2319.249
+          ],
+          "quote": "There was a pretty decent prototype.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2565.54,
+            2566.971
+          ],
+          "quote": "Then it creates the prototype,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2571.305,
+            2575.8379999999997
+          ],
+          "quote": "We get that with the prototype link, the user tests, the draft PR and the linear tickets.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-gate",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类闸门 (human gate)",
+      "file": "人类闸门",
+      "primary": true,
+      "how_described": "本集说智能体流水线里人类闸门放哪、为什么放那是全行业还没共识、团队抓耳挠腮的关键设计问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 820,
+          "t": [
+            2575.888,
+            2577.87
+          ],
+          "quote": "And that's when we have the next human gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            2577.91,
+            2581.192
+          ],
+          "quote": "So human gate one was, do we care about this build chain?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2581.513,
+            2583.4018888888886
+          ],
+          "quote": "Human gate two is, do we merge it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 864,
+          "t": [
+            2717.243,
+            2720.314
+          ],
+          "quote": "Maybe you want to actually take the first human gate out and say,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 870,
+          "t": [
+            2733.89,
+            2736.261
+          ],
+          "quote": "And so it's worth it to have a human gate there,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾内容 (slop)",
+      "file": "AI 垃圾内容",
+      "primary": true,
+      "how_described": "本集说没判断力又大量用 AI 会产出 slop，比不用 AI 的人更难共事；共享 AI 产出要标注投入程度——「可委派工作，不可委派责任」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            42.346,
+            43.928
+          ],
+          "quote": "The line we use at Zapier on Slop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            936.56,
+            938.922
+          ],
+          "quote": "but it'll have AI slop detection.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1477.919,
+            1479.6
+          ],
+          "quote": "You're going to get what people call AI slop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1483.622,
+            1484.743
+          ],
+          "quote": "Speaking of slop,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1490.007,
+            1494.1200000000001
+          ],
+          "quote": "If you don't have good judgment and you use AI, you can become a slop cannon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1590.306,
+            1595.732
+          ],
+          "quote": "I find that when somebody sends me something that might fall in the slop category,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1629.959,
+            1632.541
+          ],
+          "quote": "like, you know, the rise of slop internally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            1738.619,
+            1743.581
+          ],
+          "quote": "It's okay to have a little bit of slop if you're going for speed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            3606.016,
+            3609.681
+          ],
+          "quote": " Given our conversation about slop earlier, it's all lowercase.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": true,
+      "how_described": "本集通过给三份 PRD 现场打分，示范 2026 年 PRD 不再是终点：要有原型、有客户证据、认可环节大大推后",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            846.795,
+            848.6283333333333
+          ],
+          "quote": "That's why I wrote a PRD on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            849.275,
+            852.796
+          ],
+          "quote": "And I want to walk you through this PRD as if I were a PM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1050.847,
+            1053.149
+          ],
+          "quote": " Why stop at the PRD?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1283.434,
+            1287.034
+          ],
+          "quote": "really important points around it's not just the PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1327.757,
+            1330.209
+          ],
+          "quote": "Like I'll literally just take your PRD and like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1436.406,
+            1440.1570000000002
+          ],
+          "quote": "just take this PRD, slap it into a coding agent, have it build the first prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            1921.178,
+            1923.1224444444445
+          ],
+          "quote": "And this is where I started my PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            1924.083,
+            1928.317
+          ],
+          "quote": "So I'm going to keep going and just explain a little bit more the PRD behind it too,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            1930.148,
+            1933.511
+          ],
+          "quote": "So now if I show the PRD,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2349.867,
+            2355.109
+          ],
+          "quote": "Where I have these skills for our team's recurring work like PRD, prep,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            2557.694,
+            2563.458
+          ],
+          "quote": "So each step is gonna need the layer above, but first it starts with a quick two page PRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2563.739,
+            2565.49
+          ],
+          "quote": "Then it does a PRD review panel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1345,
+          "t": [
+            4154.617,
+            4159.117
+          ],
+          "quote": "So this is making me think my PRD might not have been aligned with your strategy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 Zapier 的 MCP 与 SaaS 应暴露 MCP 服务器，把底层能力交给编码智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 645,
+          "t": [
+            2001.991,
+            2006.432
+          ],
+          "quote": " On Zendesk, I saw we had 312 tickets tagged MCP or AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2008.573,
+            2012.333
+          ],
+          "quote": "over 1,800 posts mentioning the MCP and our design partners,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2012.353,
+            2015.5240000000001
+          ],
+          "quote": "we had nine interviews where they had built an MCP server.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 757,
+          "t": [
+            2377.251,
+            2380.353
+          ],
+          "quote": " Layer three is the tools in MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1302,
+          "t": [
+            4019.17,
+            4022.433
+          ],
+          "quote": "It's the APIs and the MCP servers and all that stuff under the hood",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4027.485,
+            4032.847
+          ],
+          "quote": "we had Brian on your CTO and co-founder talking about the Zapier MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            4036.368,
+            4038.109
+          ],
+          "quote": "Should every SaaS be creating an MCP?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "second-brain",
+      "type": "concept",
+      "role": "concept",
+      "name": "第二大脑 (second brain)",
+      "file": "第二大脑",
+      "primary": false,
+      "how_described": "本集说 Zapier 一位产品负责人把个人 second brain 扩成公司大脑，让全员获得上下文、像被装上喷气背包",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            737.611,
+            739.7620000000001
+          ],
+          "quote": "This second brain concept is pretty interesting,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            767.341,
+            772.104
+          ],
+          "quote": "we're going to get everybody sort of using this second brain or company brain",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "headless",
+      "type": "concept",
+      "role": "concept",
+      "name": "headless",
+      "file": "headless",
+      "primary": false,
+      "how_described": "本集说 Salesforce 已是无头的，软件如果不能以无界面方式运行就是在逆流而上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1299,
+          "t": [
+            4013.325,
+            4014.626
+          ],
+          "quote": "Salesforce is headless now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1307,
+          "t": [
+            4034.348,
+            4036.348
+          ],
+          "quote": "Should all SaaS be going headless?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1342,
+          "t": [
+            4143.998,
+            4147.19
+          ],
+          "quote": "So if your software isn't headless or cannot be run headless,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "type": "company",
+      "role": "concept",
+      "name": "Airtable",
+      "file": "Airtable",
+      "primary": false,
+      "how_described": "本集提到 Airtable 估值已不到巅峰 10%，作为「无代码末日」话题的引子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            99.794,
+            101.957
+          ],
+          "quote": " Airtable, Speechify, Descript, Magic",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            3832.678,
+            3838.725
+          ],
+          "quote": "And the tough question on everybody's mind, Airtable, like you guys, huge evaluation 2021.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1249,
+          "t": [
+            3853.266,
+            3856.766
+          ],
+          "quote": "People are looking at Airtable, now it's less than 10% of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1437,
+          "t": [
+            4424.851,
+            4429.814
+          ],
+          "quote": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lindy",
+      "type": "company",
+      "role": "concept",
+      "name": "Lindy",
+      "file": "Lindy",
+      "primary": false,
+      "how_described": "本集把 Lindy 列为 Zapier 的新型自动化竞争对手之一，谈到要做出战略选择与反向定位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1350,
+          "t": [
+            4169.712,
+            4171.674
+          ],
+          "quote": "So we had the Lindy CEO on...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1404,
+          "t": [
+            4328.131,
+            4332.044
+          ],
+          "quote": " You know, ourselves, Lindy, N8N, any of us like have to go answer those questions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "n8n",
+      "type": "company",
+      "role": "concept",
+      "name": "N8N",
+      "file": "N8N",
+      "primary": false,
+      "how_described": "本集提到 N8N 从 700 万到 1 亿 ARR 的惊人增长，作为 Zapier 新对手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1354,
+          "t": [
+            4181.249,
+            4185.95
+          ],
+          "quote": "We also, I'm recording with Jan, the CEO of N8N as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1404,
+          "t": [
+            4328.131,
+            4332.044
+          ],
+          "quote": " You know, ourselves, Lindy, N8N, any of us like have to go answer those questions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "concept",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集以 Salesforce 为例说 SaaS 在位者的价值在于 API 和 MCP 服务器等底层能力，已走向无头化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1117,
+          "t": [
+            3455.817,
+            3459.94
+          ],
+          "quote": " This is not anywhere close to what you get from like HubSpot or Salesforce or any",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1298,
+          "t": [
+            4011.764,
+            4013.305
+          ],
+          "quote": "Benny Off is talking about this with Salesforce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1299,
+          "t": [
+            4013.325,
+            4014.626
+          ],
+          "quote": "Salesforce is headless now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            4014.666,
+            4015.747
+          ],
+          "quote": "That's the value of Salesforce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            4095.435,
+            4098.246999999999
+          ],
+          "quote": "Whether you're a tool like Zapier or you're a CRM like Salesforce",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

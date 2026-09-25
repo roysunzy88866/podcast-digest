@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 熟练度 (AI fluency)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 熟练度">AI</div><div class="pi"><h1 class="pt">AI 熟练度 (AI fluency)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 熟练度">AI</div><div class="pi"><h1 class="pt">AI 熟练度 (AI fluency)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]]**(28:58起):本集说 Netflix 没有为 AI 单独写逐级标准，而是在所有岗位之上叠加的一层期望：意味着你有实验心态、知道 AI 在哪里有用在哪里没用、而且真的动手用它做过东西。
+- **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(00:00起):本集核心概念：用四档评分标准（能干/采纳/变革/不可接受）衡量员工的 AI 使用水平，变革级门槛极高
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为概念
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Elizabeth Stone]] · [[Netflix]] · [[InterPositive]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]]
+[[智能体]] · [[Lenny]] · [[Wade Foster]] · [[Elizabeth Stone]] · [[Zapier]] · [[Netflix]] · [[编码智能体]] · [[InterPositive]] · [[确定性]] · [[GenAI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Elizabeth Stone":1,"Netflix":4,"InterPositive":1,"GenAI":1,"智能体":312,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Lenny":67,"Wade Foster":2,"Elizabeth Stone":1,"Zapier":3,"Netflix":4,"编码智能体":18,"InterPositive":1,"确定性":3,"GenAI":1}</script>
 
 <script>
 (function(){

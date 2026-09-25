@@ -1,0 +1,593 @@
+{
+  "episode_id": "2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a",
+  "podcast": "Masters of Scale",
+  "date": "2026-08-18",
+  "tags": [
+    "未来工作",
+    "自由职业",
+    "智能体",
+    "劳动力市场",
+    "AI 技能"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "host",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            124.643,
+            128.507
+          ],
+          "quote": "I'm Bob Safian, and this is Rapid Response.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 21,
+          "t": [
+            155.53,
+            156.471
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1912.468,
+            1913.609
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1970.794,
+            1972.535
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "hayden-brown",
+      "type": "person",
+      "role": "guest",
+      "name": "Hayden Brown",
+      "file": "Hayden Brown",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            70.17,
+            75.133
+          ],
+          "quote": "That's Hayden Brown, CEO of Upwork, the global tech platform for freelance workers.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 22,
+          "t": [
+            156.531,
+            159.753
+          ],
+          "quote": "I'm here with Hayden Brown, president and CEO of Upwork.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1068.44,
+            1075.565
+          ],
+          "quote": "Before the break, Upwork's Hayden Brown talked about what's really going on in the job market as AI shifts expectations and needs.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "upwork",
+      "type": "company",
+      "role": "company",
+      "name": "Upwork",
+      "file": "Upwork",
+      "primary": true,
+      "how_described": "全球自由职业者技术平台,过去一年有 1800 万活跃自由职业者;CEO Hayden Brown 讲述其裁员四分之一、推出 MCP server、用真实工作履历数据对抗 AI 垃圾申请等实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            70.17,
+            75.133
+          ],
+          "quote": "That's Hayden Brown, CEO of Upwork, the global tech platform for freelance workers.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 13,
+          "t": [
+            75.773,
+            85.379
+          ],
+          "quote": "As AI radically resets expectations across the workforce, Upwork has a critical vantage point on how the job market is actually evolving.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 15,
+          "t": [
+            93.903,
+            102.886
+          ],
+          "quote": "Hayden is forthright about the pressures facing organizations and their teams, including her own decision to lay off Upwork staffers earlier this year.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 22,
+          "t": [
+            156.531,
+            159.753
+          ],
+          "quote": "I'm here with Hayden Brown, president and CEO of Upwork.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 48,
+          "t": [
+            246.526,
+            249.172
+          ],
+          "quote": "Does it reflect what you see on Upwork?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 91,
+          "t": [
+            468.618,
+            474.783
+          ],
+          "quote": "You announced in May that you had to cut a quarter of Upwork's corporate staff yourselves.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 122,
+          "t": [
+            673.821,
+            678.986
+          ],
+          "quote": "Upwork even has, I think, a specific service for clients to allow agents to access your freelancer database.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 126,
+          "t": [
+            692.035,
+            711.766
+          ],
+          "quote": "And that was one of the reasons we launched this, what's called the MCP server, but really is a capability to let agents authenticate with Upwork so we know who they are, we know if they're good actors or bad actors, and then based on that authentication, they can go forward, help post jobs, make hires, manage projects, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            733.817,
+            743.545
+          ],
+          "quote": "With our MCP, now they can directly connect to Upwork, share that deliverable with a freelancer immediately and get the on-demand help they need from a human expert in real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            761.324,
+            768.951
+          ],
+          "quote": "Upwork has its own agent, Uma, that assists users writing job descriptions and prepping interviews and things like that.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 142,
+          "t": [
+            842.595,
+            858.092
+          ],
+          "quote": "Yeah, and I think that's one of the main values that we see being so enduring even in the AI era for Upwork specifically in our customers is the problem we've always solved for them is giving them real, tangible, accurate data around who can do what",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            916.83,
+            922.371
+          ],
+          "quote": "So how does Upwork engage with the big AI companies, including open source players in China?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1068.44,
+            1075.565
+          ],
+          "quote": "Before the break, Upwork's Hayden Brown talked about what's really going on in the job market as AI shifts expectations and needs.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1158.53,
+            1162.091
+          ],
+          "quote": "Do you let agents built on those models be on Upwork?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1347.069,
+            1353.035
+          ],
+          "quote": "If I have a portfolio of three to five clients on Upwork, they keep coming back to me for repeat work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1639.2,
+            1656.172
+          ],
+          "quote": "As I alluded to it at the beginning, you've been CEO through this extraordinary period, you know, pandemic, Ukraine invasion, which prompted you to shut down operations in Russia and Belarus, a backlash against globalization, which also kind of threatens Upwork's premise.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1873.005,
+            1883.388
+          ],
+          "quote": "I keep coming back to her reflection on meritocracy, that Upwork's system quantifies and captures what specific human talent actually gets done and the value delivered.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1894.093,
+            1898.777
+          ],
+          "quote": "Whatever crystal ball Upwork has built internally, it only reflects the past.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集实测:客户直接用智能体端到端交付工作几乎从不成功,但加少量人类专家沟通成功率提升 70% 以上;智能体已在平台上发布招聘广告,机器开始尝试雇人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            761.324,
+            768.951
+          ],
+          "quote": "Upwork has its own agent, Uma, that assists users writing job descriptions and prepping interviews and things like that.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 146,
+          "t": [
+            879.578,
+            885.364
+          ],
+          "quote": "Noise that was created by, you know, an AI agent applying for them, not these empty promises or claims about their expertise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            890.289,
+            902.801
+          ],
+          "quote": "And frankly, advancing this meritocratic idea of it shouldn't be about who has the best agent or who sounds the most shiny on paper, but really who has the data and the experience to demonstrate that they can do the work that's required.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP server",
+      "file": "MCP server",
+      "primary": true,
+      "how_described": "Upwork 推出的接口能力,让外部智能体与 Upwork 进行身份验证——平台能识别它们是善意还是恶意行为者,进而允许其发布职位、招聘、管理项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            692.035,
+            711.766
+          ],
+          "quote": "And that was one of the reasons we launched this, what's called the MCP server, but really is a capability to let agents authenticate with Upwork so we know who they are, we know if they're good actors or bad actors, and then based on that authentication, they can go forward, help post jobs, make hires, manage projects, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "Brown 认为很多开源模型在合适控制下可安全可靠使用,不是『要么用 Claude 要么自求多福』的二元选择;Upwork 用网关方式测试各模型,部分场景可省 10 倍以上成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1211.973,
+            1218.598
+          ],
+          "quote": "And I think a lot of those open source models can be used safely and securely with the right controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1225.483,
+            1233.809
+          ],
+          "quote": "We personally in our business have taken a gateway approach where we are constantly testing, you know, the performance of a variety of different models, including open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1234.269,
+            1249.193
+          ],
+          "quote": "And now that token costs have been going up so significantly from the major providers here in the US, there are definitely use cases where we know we can get, you know, 10x savings or more by using open source models and doing it safely inside of our own environments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "freelancing",
+      "type": "concept",
+      "role": "concept",
+      "name": "自由职业 (freelancing)",
+      "file": "自由职业",
+      "primary": true,
+      "how_described": "既是选择也是避险:美国知识型工作者自由职业比例一年内从 28% 涨到 38%,42% 的 Z 世代在从事自由职业,组合式职业成新常态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            348.409,
+            354.597
+          ],
+          "quote": "Our most recent survey showed a 10-point increase in freelancing in the U.S. within knowledge workers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1326.296,
+            1335.498
+          ],
+          "quote": "We also hear really loud and clear from freelancers that the economics of freelancing have become much more appealing over the last few years before the 2008-2009 Great Recession.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1364.324,
+            1366.365
+          ],
+          "quote": "42% of Gen Z are freelancing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1385.993,
+            1405.165
+          ],
+          "quote": "And it also reflects, you know, if you think about this AI moment when everyone is trying to prove that they have these skills or if they don't learn them and then prove like, hey, I've gotten these skills now, I'm an AI-relevant employee or worker, freelancing is an amazing way to do that because they're getting on-the-job experience doing real work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-orchestrator",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编排师 (AI Orchestrator)",
+      "file": "AI 编排师",
+      "primary": true,
+      "how_described": "本集提出的新通才角色:能编排使用各种 AI 工具、不深钻单一领域、核心能力是快速采用和弄明白新工具的人,在 Upwork 平台上正变得极其流行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1574.946,
+            1580.208
+          ],
+          "quote": "And that's one reason we're seeing the rise of a new generalist called the AI Orchestrator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            720.729,
+            728.392
+          ],
+          "quote": "And at the same time, we're seeing a lot of clients who are working inside these AI tools, Claude or ChatGPT, and they're getting stuck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1105.592,
+            1112.554
+          ],
+          "quote": "We have this growth of these new channels where customers are suddenly doing work inside of ChatGPT and Claude and all of these third-party tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1121.476,
+            1128.498
+          ],
+          "quote": "We also know with 900 plus million users on ChatGPT, you know, Anthropic growing so massively, you know,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "Anthropic 的 AI 工具,与 ChatGPT 并列为『工作的新目的地』之一;Brown 强调选择模型不是二元对立",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            720.729,
+            728.392
+          ],
+          "quote": "And at the same time, we're seeing a lot of clients who are working inside these AI tools, Claude or ChatGPT, and they're getting stuck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1105.592,
+            1112.554
+          ],
+          "quote": "We have this growth of these new channels where customers are suddenly doing work inside of ChatGPT and Claude and all of these third-party tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1219.038,
+            1224.982
+          ],
+          "quote": "It's not a binary of, you know, use Claude or, you know, good luck to you and there's nothing, you know, you can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它在大规模增长,是 Upwork 需要与之打交道的大型 AI 玩家之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1121.476,
+            1128.498
+          ],
+          "quote": "We also know with 900 plus million users on ChatGPT, you know, Anthropic growing so massively, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1147.307,
+            1156.09
+          ],
+          "quote": "Do you have a differentiation between places like OpenAI and Anthropic versus the open models from China?",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "crystal-ball",
+      "type": "concept",
+      "role": "concept",
+      "name": "Crystal Ball",
+      "file": "Crystal Ball",
+      "primary": true,
+      "how_described": "Upwork 内部搭建的工具,接入所有内部数据,Brown 可直接用自然语言查询数据库、获取实时业务洞察并实时做决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1076.225,
+            1092.996
+          ],
+          "quote": "Now she talks about dealing with the big AI companies, how to actually build AI skills effectively, and what Hayden calls her crystal ball, plus her specific strategies for leading in a world where, as she puts it, even a one-year planning horizon is too far out.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1610.932,
+            1618.815
+          ],
+          "quote": "And so inside of our environment, we've set up a very powerful tool, we call it Crystal Ball, and it has access to all of our internal data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1894.093,
+            1898.777
+          ],
+          "quote": "Whatever crystal ball Upwork has built internally, it only reflects the past.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

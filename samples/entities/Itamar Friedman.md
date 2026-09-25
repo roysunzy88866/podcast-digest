@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]]
+[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":14,"上下文":20,"部落知识":4,"上下文引擎":3,"软件图":1,"智能体":312,"代码治理":1,"语义规则":1,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":14,"上下文":20,"部落知识":4,"上下文引擎":3,"软件图":1,"智能体":317,"代码治理":1,"语义规则":1,"Claude Code":73}</script>
 
 <script>
 (function(){

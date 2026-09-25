@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lindy</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lindy">LI</div><div class="pi"><h1 class="pt">Lindy</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lindy">LI</div><div class="pi"><h1 class="pt">Lindy</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(43:10起):本集说 Lindy 是一个让你构建工作流和智能体的平台，Andrew 在其中跑了四五个收件箱智能体，替代了他之前专门处理邮件的全职助理，每月花费约 200 美元、24-7 工作
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(00:03起):本集核心讨论对象，正推出 Lindy TeamMate 产品——一个住在 Slack 里的 AI 员工，连接公司所有工具并积累团队上下文
+- **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(69:29起):本集把 Lindy 列为 Zapier 的新型自动化竞争对手之一，谈到要做出战略选择与反向定位
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[vibe coding]] · [[Andrew Wilkinson]] · [[Flo Crivello]] · [[Lenny]] · [[Nathan]] · [[Tiny]] · [[上下文]] · [[Replit]] · [[记忆智能体]]
+[[智能体]] · [[vibe coding]] · [[Andrew Wilkinson]] · [[Flo Crivello]] · [[Wade Foster]] · [[Lenny]] · [[Nathan]] · [[Zapier]] · [[Tiny]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"vibe coding":37,"Andrew Wilkinson":1,"Flo Crivello":1,"Lenny":67,"Nathan":4,"Tiny":1,"上下文":20,"Replit":17,"记忆智能体":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"vibe coding":37,"Andrew Wilkinson":1,"Flo Crivello":1,"Wade Foster":2,"Lenny":67,"Nathan":4,"Zapier":3,"Tiny":1,"上下文":20}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uber":12,"智能体":312,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":19,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":12}</script>
+<script type="application/json" class="pd-epn">{"Uber":13,"智能体":317,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":20,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":12}</script>
 
 <script>
 (function(){

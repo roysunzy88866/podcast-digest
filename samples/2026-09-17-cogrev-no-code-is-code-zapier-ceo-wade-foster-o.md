@@ -166,9 +166,9 @@ Token 支出也成了真问题：有的工程师每月花 30,000 美元买 token
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺]]<span class="pd-rz">同嘉宾:Wade Foster · 同公司:Zapier · 同概念:智能体 (agent)、MCP</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Cursor、OpenAI · 同概念:token、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:MCP、智能体 (agent)、Gemini</span>
-- [[2026-09-03-talks-model-selection-token-efficiency|Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来]]<span class="pd-rz">同公司:Cursor · 同概念:token、智能体 (agent)、MCP</span>
 
 </div>
 <div class="pd-ex">

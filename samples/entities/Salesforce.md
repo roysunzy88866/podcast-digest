@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>26</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(21:03起):本集说 Supersonic 通过校友网络联系上曾任 Salesforce CRO、现任 COO 的人，使 Salesforce 成为第一个设计合作伙伴
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(32:16起):本集将 Salesforce 与 Workday 对比，说 Salesforce 是一个很大程度上开放的平台，你可以在上面构建自己的智能体，但这意味着智能体可以连接任何东西包括竞争对手，价值会被智能体吸走。相比之下 Workday 极其封闭，反而有更多缓冲。
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(14:52起):本集说 Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，是应用层角色的比喻
+- **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(11:53起):本集以 Salesforce 为例说明「买还是建」是虚假两难：Exa 在用 Salesforce，因为它是个很好的数据库、在「销售该长什么样」上做了他们不想自己做的出色选择，且以 MCP 形式暴露给所有智能体。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(77:42起):本集说它拥有大家共识的工作流和记录系统，即使人们说讨厌但都会买，这使其业务比技术本身更持久
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(29:18起):本集说它与 Anthropic 的合作表面是营销，真正领先两年的是接受多表面（headless 使用）和开始做基于结果的定价，还收购了按解决数收费的 Intercom。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(22:39起):本集举例：销售团队报上 10 到 20 个「鼠标点不到 Salesforce 仪表盘那个位置」的具体案例，基础设施修复后反馈如潮水般涌来。
@@ -36,6 +37,7 @@ unlisted: true
 - **[[2026-09-17-sourcery-brad-gerstner-the-100-test-that-could-sa|《100 美元、15 分钟：一场想把心脏CT变成「乳腺钼靶」的登月计划》]]**(15:08起):本集提到 Brad 希望 Salesforce 的 Mark Benioff 参与「买一送一」：为全体员工免费扫描并付双倍的钱
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(15:11起):本集说 Salesforce 是 SaaS 股票复苏的最好例子,经典的记录系统论证正在它身上上演,护城河目前完好,智能体使用软件更多反而驱动其增长。
 - **[[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]]**(37:26起):本集把 Salesforce 和 Google 并列为客服领域的大平台默认选项,并提到其前 CEO Brett Taylor 是 Sierra 的对手;Decagon 靠产品赢下大单。
+- **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(57:35起):本集以 Salesforce 为例说 SaaS 在位者的价值在于 API 和 MCP 服务器等底层能力，已走向无头化
 
 ## ① 提到它的金句
 
@@ -53,7 +55,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*28 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -71,6 +73,7 @@ unlisted: true
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
@@ -81,14 +84,15 @@ unlisted: true
 - [[2026-09-17-sourcery-brad-gerstner-the-100-test-that-could-sa|《100 美元、15 分钟：一场想把心脏CT变成「乳腺钼靶」的登月计划》]] — 作为被讨论公司(提及)
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]] — 作为被讨论公司(提及)
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[Stripe]] · [[SaaS]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[Cognition]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"OpenAI":128,"Anthropic":136,"Cursor":66,"Harry Stebbings":18,"ChatGPT":76,"Lenny":67,"NVIDIA":44,"Stripe":34,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"OpenAI":129,"Anthropic":138,"Cursor":68,"Harry Stebbings":18,"ChatGPT":77,"Lenny":67,"NVIDIA":45,"Cognition":19,"MCP":55}</script>
 
 <script>
 (function(){

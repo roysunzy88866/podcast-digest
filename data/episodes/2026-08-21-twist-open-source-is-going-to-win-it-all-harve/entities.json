@@ -1,0 +1,1482 @@
+{
+  "episode_id": "2026-08-21-twist-open-source-is-going-to-win-it-all-harve",
+  "podcast": "This Week in Startups",
+  "date": "2026-08-21",
+  "tags": [
+    "智能体",
+    "开源模型",
+    "应用层与前沿模型",
+    "创业打法",
+    "自动驾驶"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "lon-harris",
+      "type": "person",
+      "role": "host",
+      "name": "Lon Harris",
+      "file": "Lon Harris",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            69.744,
+            73.146
+          ],
+          "quote": "Roy J. Colley with Lon Harris, episode 23, 28.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集说它是跑在云端、自带电脑的智能体助手，能自己操作浏览器、自动连上 X、Slack、Google Sheet 等各种应用，比 OpenClaw 更稳定不脆弱，Jason 花了 200 美元订阅。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            91.299,
+            93.039
+          ],
+          "quote": "You started playing with GrokBot.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 42,
+          "t": [
+            124.75,
+            131.391
+          ],
+          "quote": "You kept having to remind things and log it in this API key that GrokBot is automatic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 49,
+          "t": [
+            152.986,
+            157.109
+          ],
+          "quote": "GrokBot just is like, hey, here, I'm going to bring up my computer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 65,
+          "t": [
+            179.226,
+            180.306
+          ],
+          "quote": "Let's see your GrokBot.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 66,
+          "t": [
+            180.326,
+            181.307
+          ],
+          "quote": "Show us your GrokBot.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 67,
+          "t": [
+            181.447,
+            183.888
+          ],
+          "quote": "Well, here's my GrokBot and what I'm doing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 139,
+          "t": [
+            450.23,
+            453.612
+          ],
+          "quote": "So far with GrokBot, it is all very, very seamless.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1212.917,
+            1216.879
+          ],
+          "quote": "Like I'm perfectly happy with GrokBot if it works better, you know, like I don't think there is.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线之一：把找嘉宾、扫新闻、竞争情报等重复目标交给智能体每天自动跑的系统流程，人类只负责排名与把关，Jason 提出「每个人都必须成为系统思考者」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            537.6,
+            547.987
+          ],
+          "quote": "And that's why defining the goal is great, but then it's fine to give your bot that, whatever one you're using, your agent, but you want to build a system that doesn't break and doesn't require a human.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1508.33,
+            1513.714
+          ],
+          "quote": "And then I want our agent to look at how right or wrong I was and give me two lists.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "systems-over-goals",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统胜过目标 (systems over goals)",
+      "file": "系统胜过目标",
+      "primary": true,
+      "how_described": "Jason 本集分享的方法论：目标只是「找到好嘉宾」，系统则是让智能体每天做研究、团队成员排名、进 Google Sheet 的完整流程，每位嘉宾能省 5-10 小时研究加 3 小时邀约。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            357.067,
+            359.709
+          ],
+          "quote": "of systems over goals.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 143,
+          "t": [
+            462.378,
+            463.398
+          ],
+          "quote": "Systems over goals.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说其 CFO 宣布 2027 年或更早上市、把 IPO 定性为「里程碑、又一轮融资」；Jason 指出流失率和真实服务成本不会因上市公开，且它作为 Harvey 的早期投资人如今被其弃用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.819,
+            15.405
+          ],
+          "quote": "Harvey now is like, not only do we not trust OpenAI with this, we need to have our own model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 4,
+          "t": [
+            19.717,
+            23.138
+          ],
+          "quote": "I'm going to say 10 million a month with OpenAI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 250,
+          "t": [
+            813.085,
+            815.086
+          ],
+          "quote": "Well, let's start with OpenAI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 259,
+          "t": [
+            839.168,
+            850.912
+          ],
+          "quote": "As they raised $122 billion in cash back in March, OpenAI confidentially filed their prospectus in June, but they're in a tight race for users and attention with rivals Anthropic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 260,
+          "t": [
+            851.172,
+            854.773
+          ],
+          "quote": "The latest volley, OpenAI now pledges not to retain data.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 266,
+          "t": [
+            866.12,
+            875.647
+          ],
+          "quote": "If you think about somebody who is serving other enterprises who are trusting them with incredibly sensitive data, that's Aaliyah Howes, OpenAI's head of product policy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 275,
+          "t": [
+            911.361,
+            918.105
+          ],
+          "quote": "OpenAI's, Anthropics, they're not gonna need to give us how many people are unsubscribing or how those trends are going for the major accounts.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1319.437,
+            1321.42
+          ],
+          "quote": "She's OpenAI's head of product policy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 566,
+          "t": [
+            1948.652,
+            1951.194
+          ],
+          "quote": "OpenAI was the day one believer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 578,
+          "t": [
+            1972.966,
+            1976.167
+          ],
+          "quote": "One of the OpenAI Startup Fund's first four investments.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 583,
+          "t": [
+            1981.129,
+            1983.25
+          ],
+          "quote": "It was the OpenAI Startup Fund.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 586,
+          "t": [
+            1991.533,
+            1997.076
+          ],
+          "quote": "Sarah Fryer, CFO of OpenAI, says, hey, we hear you loud and clear.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2023.871,
+            2030.453
+          ],
+          "quote": "Harvey now is like, not only do we not trust OpenAI with this, we need to have our own model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2069.995,
+            2072.318
+          ],
+          "quote": "I'm gonna say 10 million a month with OpenAI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2073.159,
+            2087.134
+          ],
+          "quote": "I would say Lovable or Eleven Labs or, you know, Cursor, those level of companies also probably were spending 10 or 20 or 30 million dollars a month with the OpenAI's and Anthropics of the world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集最大新闻主角：法律 AI 公司，发布基于 Kimi K3 的自研后训练模型 Harvey Tenet，让竞争律所各用各的专属模型、数据互不共享；Jason 估计它每月给 OpenAI 约 1000 万美元并将撤走 99% 的支出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.474,
+            8.238
+          ],
+          "quote": "Acme litigators and Delta litigators are both using Harvey, let's say.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 2,
+          "t": [
+            8.819,
+            15.405
+          ],
+          "quote": "Harvey now is like, not only do we not trust OpenAI with this, we need to have our own model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.505,
+            18.488
+          ],
+          "quote": "Harvey was probably spending, if I had to guess,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 245,
+          "t": [
+            806.84,
+            808.141
+          ],
+          "quote": "There was a Harvey story.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1307.761,
+            1317.354
+          ],
+          "quote": "There was a moment in this story where you were talking about, give me the quote one more time about we hear loud and clear that people are, and then segue into the Harvey story.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1335.437,
+            1345.432
+          ],
+          "quote": "And so that does segue very neatly into our other big story today, which is Harvey, the legal AI company, released their very first in-house proprietary model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1345.772,
+            1350.058
+          ],
+          "quote": "It helps Harvey's software take on more tasks that were typically performed by lawyers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 493,
+          "t": [
+            1620.116,
+            1625.139
+          ],
+          "quote": "So anyway, what you're seeing with the Harvey thing, I said this two years ago.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 517,
+          "t": [
+            1746.014,
+            1747.895
+          ],
+          "quote": "Here it is, Harvey, pull up the story.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1748.556,
+            1750.638
+          ],
+          "quote": "Harvey is making their own model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1756.782,
+            1760.624
+          ],
+          "quote": "Over the past six months, Harvey's research agenda has focused on two goals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 526,
+          "t": [
+            1771.449,
+            1779.033
+          ],
+          "quote": "Today, we're sharing an update on that research effort, including initial results from our first post-trade model, which we're calling Harvey Tenet.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1779.633,
+            1785.774
+          ],
+          "quote": "Harvey Tennant is a Kimi K3 base that we post-train together with fireworks research for long horizon legal work.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 554,
+          "t": [
+            1892.959,
+            1901.663
+          ],
+          "quote": "The original backers of Harvey and who were their original Frontier model",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 555,
+          "t": [
+            1902.612,
+            1907.813
+          ],
+          "quote": "Providers, who were, who were Harvey's original backers?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 587,
+          "t": [
+            1999.539,
+            2012.267
+          ],
+          "quote": "Harvey's saying, hey, by the way, just want to let everybody know, six months ago, we started using these open source models, we started building our own, and we're building our own for our clients so that our clients don't share the intelligence.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2018.31,
+            2023.311
+          ],
+          "quote": "So Acme litigators and Delta litigators are both using Harvey, let's say.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2023.871,
+            2030.453
+          ],
+          "quote": "Harvey now is like, not only do we not trust OpenAI with this, we need to have our own model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2065.749,
+            2068.71
+          ],
+          "quote": "Harvey was probably spending, if I had to guess.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "type": "company",
+      "role": "company",
+      "name": "Kimi K3",
+      "file": "Kimi K3",
+      "primary": true,
+      "how_described": "本集说 Harvey Tenet 是以 Kimi K3 为基座、与 fireworks research 一起做后训练的开放权重模型，被 Jason 引为「开源赢得一切」的标志性证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            1350.459,
+            1356.422
+          ],
+          "quote": "It is, Jason, a post-trained open weight model built on top of Kimi K3.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1779.633,
+            1785.774
+          ],
+          "quote": "Harvey Tennant is a Kimi K3 base that we post-train together with fireworks research for long horizon legal work.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集的核心判断：「开源将会赢得一切」——应用层公司会把手握的专家数据用来训练开源自研模型，压倒性多数的企业 token 将跑在企业内部而非前沿模型上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.231,
+            3.174
+          ],
+          "quote": "Open source is going to win it all.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1235.577,
+            1238.239
+          ],
+          "quote": "And there'll be an open source harness like WordPress.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1403.701,
+            1408.582
+          ],
+          "quote": "You need to get off the frontier models and use open source ones and own your content and not educate them to the extent you can.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 494,
+          "t": [
+            1625.159,
+            1637.867
+          ],
+          "quote": "If you can find the two-year clip where I said when I was in Tahoe skiing, and I think you pulled it for a previous all-in, and I said two years ago, there's a chance that open source is going to win the AI race.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1640.868,
+            1653.811
+          ],
+          "quote": "I think what we learned in 2023 was that the language models are starting to hit parity very quickly and that the real value is going to be in, and it may even become commodities and open source may win the day.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1669.675,
+            1677.039
+          ],
+          "quote": "On the pod, I said on the pod, open source is going to win the day.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 519,
+          "t": [
+            1750.658,
+            1751.859
+          ],
+          "quote": "They forked an open source model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 587,
+          "t": [
+            1999.539,
+            2012.267
+          ],
+          "quote": "Harvey's saying, hey, by the way, just want to let everybody know, six months ago, we started using these open source models, we started building our own, and we're building our own for our clients so that our clients don't share the intelligence.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2114.562,
+            2117.503
+          ],
+          "quote": "Open source is going to win it all.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2118.063,
+            2118.743
+          ],
+          "quote": "Open source,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2123.016,
+            2127.177
+          ],
+          "quote": "Two and a half years ago, three years ago, I said, you know, open source could win it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2127.277,
+            2128.638
+          ],
+          "quote": "Now I'm telling you, open source is gonna win it all.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2408.885,
+            2410.387
+          ],
+          "quote": "Like open source tool.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3473.73,
+            3485.4
+          ],
+          "quote": "There's been a lot of talk about NVIDIA and Uber and this open source stack that they're providing because they want, Uber obviously strategically wants open source driving.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            3509.944,
+            3511.285
+          ],
+          "quote": "Or are there other open source ones?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1101,
+          "t": [
+            3520.211,
+            3528.778
+          ],
+          "quote": "And so we found that a lot of the open source models, surprisingly, were either way too large or didn't generalize well to the environment that we're driving on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            3614.906,
+            3617.607
+          ],
+          "quote": "Is there a name to this company or a website or open source project?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说应用层公司正在集体弃用它：Harvey、Lovable、Eleven Labs、Cursor 这个量级的公司 99% 的支出都会从前沿模型撤走，剩下的也只用于蒸馏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 416,
+          "t": [
+            1402.061,
+            1403.681
+          ],
+          "quote": "You need to start working on frontier model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 554,
+          "t": [
+            1892.959,
+            1901.663
+          ],
+          "quote": "The original backers of Harvey and who were their original Frontier model",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "post-trained",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-trained)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集介绍 Harvey Tenet 是在 Kimi K3 开放权重基座上做后训练的模型，Jason 还预言应用层公司保留在前沿模型上的少量支出也是用来做蒸馏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            1350.459,
+            1356.422
+          ],
+          "quote": "It is, Jason, a post-trained open weight model built on top of Kimi K3.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说应用层公司从前沿模型撤走支出后，剩余支出主要用于蒸馏——花小钱从大模型里提取信息来训练自己的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 611,
+          "t": [
+            2096.998,
+            2103.779
+          ],
+          "quote": "And any spend they do have with the Frontier models is likely, even if it's like 5% of their spend, to be them doing distillation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2104.359,
+            2105.64
+          ],
+          "quote": "It's gonna be them doing distillation.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "churn",
+      "type": "concept",
+      "role": "concept",
+      "name": "流失率 (churn)",
+      "file": "流失率",
+      "primary": false,
+      "how_described": "本集说 OpenAI 上市也不会公开的最关键真相之一：有多少用户在退订、谁在踩刹车以及为什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            878.53,
+            882.215
+          ],
+          "quote": "What we actually need to know is what their churn is.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 272,
+          "t": [
+            892.547,
+            894.169
+          ],
+          "quote": "They're never gonna share the churn data.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 273,
+          "t": [
+            895.192,
+            903.221
+          ],
+          "quote": "When companies become very robust, they kind of get enough institutional holdings that a company like Netflix or Verizon has to start reporting on churn.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "willow",
+      "type": "company",
+      "role": "company",
+      "name": "Willow",
+      "file": "Willow",
+      "primary": true,
+      "how_described": "本集嘉宾 Alan Guo 的公司：免费的 AI 语音听写应用，延迟低于 250 毫秒，付费产品是结合知识库与个人上下文的写作助手 Scribe。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            2191.931,
+            2201.116
+          ],
+          "quote": "He is the co-founder and CEO of the AI-powered Free, speaking of free, things that are free, the free AI-powered voice dictation app, Willow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2238.293,
+            2240.675
+          ],
+          "quote": "So in this period of time, I'm going to have to convince you to use Willow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2269.258,
+            2273.659
+          ],
+          "quote": "As a quick intro on what Willow is, we're a voice dictation product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2295.042,
+            2298.783
+          ],
+          "quote": "You tell it what you want to say, and then Willow writes it for you using her style and context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2309.506,
+            2311.667
+          ],
+          "quote": "Any idea what's happening with Willow?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2604.486,
+            2610.629
+          ],
+          "quote": "And we actually launched a comparison video, one showing Willow, our free version, and one showing other dictation products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 823,
+          "t": [
+            2686.333,
+            2688.195
+          ],
+          "quote": "If you're WhisperFlow, you're not talking about Willow Voice.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 826,
+          "t": [
+            2691.296,
+            2693.738
+          ],
+          "quote": "So if you're Willow, you want to fight with Whisper.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "dictation",
+      "type": "concept",
+      "role": "concept",
+      "name": "听写 (dictation)",
+      "file": "听写",
+      "primary": true,
+      "how_described": "本集说听写正在商品化，Apple 两三年内会做到 70-80% 水平并深度内建设备，所以 Willow 主动把它免费化、转而在上游的 Scribe 收费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            2191.931,
+            2201.116
+          ],
+          "quote": "He is the co-founder and CEO of the AI-powered Free, speaking of free, things that are free, the free AI-powered voice dictation app, Willow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2241.706,
+            2251.569
+          ],
+          "quote": "Well, I mean, the other thing that I will say, Lon, I don't know if you noticed this, my Grammarly and my Notion are all trying to get in on the dictation game.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2251.929,
+            2259.052
+          ],
+          "quote": "So they also have dictation offerings and they're continuing to try to intercept this very important function.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2269.258,
+            2273.659
+          ],
+          "quote": "As a quick intro on what Willow is, we're a voice dictation product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2277.319,
+            2279.04
+          ],
+          "quote": "Similar to Whisper, we have a dictation product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2290.922,
+            2292.822
+          ],
+          "quote": "And Scribe is a step above dictation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2304.485,
+            2308.686
+          ],
+          "quote": "Someone said, you know, my dictation quality has gone down this week for some reason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2318.66,
+            2324.302
+          ],
+          "quote": "With dictation, as you know, you can press a hot key and you can say, hey, Sarah, this is a test, best Alan.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 693,
+          "t": [
+            2328.323,
+            2331.644
+          ],
+          "quote": "You know, less than 250 milliseconds, the most accurate dictation tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2549.069,
+            2553.873
+          ],
+          "quote": "So what we've realized is that dictation is a commoditizing market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 778,
+          "t": [
+            2558.655,
+            2568.382
+          ],
+          "quote": "There's no doubt in my mind that within two, three years, Apple is going to get 70, 80% as good as dictation tools like Willavoy and other ones, AI dictation tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2597.103,
+            2604.046
+          ],
+          "quote": "We made speech or text that's faster than Whisperflow, more accurate than Whisperflow and other dictation tools completely free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2604.486,
+            2610.629
+          ],
+          "quote": "And we actually launched a comparison video, one showing Willow, our free version, and one showing other dictation products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 842,
+          "t": [
+            2725.239,
+            2736.05
+          ],
+          "quote": "If the roadmap for dictation starts with crisp dictation, then it goes to interpretation, which is kind of what he's doing here, and you have this killer feature known as snippets, what should you do?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "self-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶高尔夫球车 (self-driving)",
+      "file": "自动驾驶高尔夫球车",
+      "primary": true,
+      "how_described": "本集斯坦福学生 Ethan Goodhart 的项目（Wind）：标准高尔夫球车加装改装套件、6 摄像头纯视觉、NVIDIA Jetson 直连电池，原型两三周跑起来；他发现开源模型太大或难以泛化到校园环境，最终自写软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 935,
+          "t": [
+            2990.629,
+            3004.9
+          ],
+          "quote": "He's a Stanford computer science student and the designer of the self-driving robo-taxi golf cart that you'll recall that all the high priests of AI and tech were riding around because they all hang out on the Stanford campus.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 988,
+          "t": [
+            3103.206,
+            3105.247
+          ],
+          "quote": "So, self-driving.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            3511.305,
+            3514.267
+          ],
+          "quote": "Tell us about the self-driving software, the brains.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            3626.43,
+            3629.231
+          ],
+          "quote": "Wind, self-driving, golf cart.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            3648.359,
+            3653.083
+          ],
+          "quote": "And so we basically waited outside the lecture and said, hey, we built a self-driving golf cart.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            3914.345,
+            3919.247
+          ],
+          "quote": "Well, it depends on how many self-driving golf carts they built, I guess.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-jetson-thor",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA Jetson Thor",
+      "file": "NVIDIA Jetson Thor",
+      "primary": false,
+      "how_described": "本集说它是自动驾驶高尔夫球车的车载算力，直接接到球车电池上，耗电量不小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1018,
+          "t": [
+            3225.592,
+            3231.184
+          ],
+          "quote": "Yeah, we have a NVIDIA Jetson Thor that's wired directly to the battery of the golf cart.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它是 OpenAI 在用户与关注度上的激烈竞争对手，并被用作「用户月付 200 美元却烧掉 8000 美元算力」梗图的主角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            839.168,
+            850.912
+          ],
+          "quote": "As they raised $122 billion in cash back in March, OpenAI confidentially filed their prospectus in June, but they're in a tight race for users and attention with rivals Anthropic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1208.115,
+            1212.897
+          ],
+          "quote": "Like they're not, Anthropic's not killing all of its competitors and embedding in, like you got to use Claude.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1285.7,
+            1294.507
+          ],
+          "quote": "That's why more than 4.5 million developers are already using Sentry, including amazing high-profile teams like Disney Plus and Anthropic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1412.123,
+            1422.226
+          ],
+          "quote": "But if you give Sam Oldman, who is a sharp elbow guy, and he's got to figure out how to fill in a $1 trillion market cap, he's going to do exactly what Anthropic did or Microsoft or Facebook, which is he's going to look at the applications coming in.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2154.244,
+            2161.148
+          ],
+          "quote": "If Anthropic's gonna pop off at cocktail parties or internally telling people, and I believe it's true, they say it's not true,",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集用 Uber 早期价格战类比 AI 补贴：当年每单亏 5-7 美元、靠风投补贴烧出习惯再涨价，但 Jason 指出 AI 算力市场替代品太多，补贴逻辑未必成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1035.478,
+            1039.1
+          ],
+          "quote": "So this is exactly what I saw up close and personal with Uber.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1040.067,
+            1046.716
+          ],
+          "quote": "In the price wars between Lyft and Uber, and then there were other competitors like Sidecar, and then DoorDash, Grubhub, Postmates.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1077.294,
+            1081.998
+          ],
+          "quote": "I'm gonna, next week I'm doing Lyft, the week after I'm doing Uber, I hit my incentive, I flip to the next person.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1184.663,
+            1187.145
+          ],
+          "quote": "I mean, with Uber, that makes a lot of sense.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1191.168,
+            1194.429
+          ],
+          "quote": "You don't want to drive drunk home, just use Uber.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1685.644,
+            1698.811
+          ],
+          "quote": "The evidence, so back to my like Jason's takes and just holding me accountable to my takes and my professor Icicle takes Prof G and Macy's is going to beat Amazon and Uber and Tesla and Robinhood are going to zero.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2514.582,
+            2520.264
+          ],
+          "quote": "He's a Silicon Valley entrepreneur, angel investor, podcaster, best known as a third investor in Uber.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 867,
+          "t": [
+            2817.365,
+            2824.013
+          ],
+          "quote": "Yeah, when you take an Uber in Japan, they have these little commuter vans that they pick.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3473.73,
+            3485.4
+          ],
+          "quote": "There's been a lot of talk about NVIDIA and Uber and this open source stack that they're providing because they want, Uber obviously strategically wants open source driving.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3486.861,
+            3491.325
+          ],
+          "quote": "They want every single car to have it so that Waymo or Uber or...",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集说它与 Eleven Labs、Cursor 同量级，都是前沿实验室的大客户，月支出或达千万美元级，且 99% 的支出将会从前沿模型上撤走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            1719.113,
+            1725.301
+          ],
+          "quote": "I had mentioned when I talked to Lovable and Eleven Labs, they're huge, huge customers of the Frontier Labs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2073.159,
+            2087.134
+          ],
+          "quote": "I would say Lovable or Eleven Labs or, you know, Cursor, those level of companies also probably were spending 10 or 20 or 30 million dollars a month with the OpenAI's and Anthropics of the world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": false,
+      "how_described": "本集说它与 Lovable、Cursor 同量级，是前沿实验室的大客户，正在考虑做自己的模型，支出将大规模撤出前沿模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            1719.113,
+            1725.301
+          ],
+          "quote": "I had mentioned when I talked to Lovable and Eleven Labs, they're huge, huge customers of the Frontier Labs.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2073.159,
+            2087.134
+          ],
+          "quote": "I would say Lovable or Eleven Labs or, you know, Cursor, those level of companies also probably were spending 10 or 20 or 30 million dollars a month with the OpenAI's and Anthropics of the world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说它与 Lovable、Eleven Labs 同量级，很可能每月向 OpenAI 和 Anthropic 花 1000-3000 万美元，且这些支出将撤向前沿模型之外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 513,
+          "t": [
+            1725.782,
+            1735.274
+          ],
+          "quote": "Frontier Labs can get competitive with them, just like Figma and Design, Cursor, and Claude Code, Figma and Claude Design.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2073.159,
+            2087.134
+          ],
+          "quote": "I would say Lovable or Eleven Labs or, you know, Cursor, those level of companies also probably were spending 10 or 20 or 30 million dollars a month with the OpenAI's and Anthropics of the world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "whisper-flow",
+      "type": "company",
+      "role": "company",
+      "name": "Whisper Flow",
+      "file": "Whisper Flow",
+      "primary": false,
+      "how_described": "本集说它是 Jason 重度上瘾的听写工具，也是 Willow 明确要取代的竞品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 660,
+          "t": [
+            2228.347,
+            2231.208
+          ],
+          "quote": "I'm addicted to whisper flow.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2231.589,
+            2234.311
+          ],
+          "quote": "I use whisper flow constantly.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集说 AI 消费的钱一路流向上游的微软和 NVIDIA，全在互相付钱；其开源自动驾驶技术栈话题也被 Ethan 的项目间接涉及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            996.771,
+            998.972
+          ],
+          "quote": "And then he goes back to like NVIDIA.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 306,
+          "t": [
+            998.992,
+            1000.193
+          ],
+          "quote": "Microsoft and NVIDIA.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            3220.49,
+            3225.332
+          ],
+          "quote": "So I'm assuming you have an NVIDIA Spark or something down there doing this.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            3225.592,
+            3231.184
+          ],
+          "quote": "Yeah, we have a NVIDIA Jetson Thor that's wired directly to the battery of the golf cart.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3473.73,
+            3485.4
+          ],
+          "quote": "There's been a lot of talk about NVIDIA and Uber and this open source stack that they're providing because they want, Uber obviously strategically wants open source driving.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1093,
+          "t": [
+            3500.238,
+            3502.9
+          ],
+          "quote": "And NVIDIA wants to sell compute hardware.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

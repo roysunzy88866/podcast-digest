@@ -195,8 +195,8 @@ Monaco 二月上线，之前完全隐身、营销花费为零。策略是「把�
 **顺着「增长与销售」挖下去**
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Salesforce · 同概念:go-to-market、智能体 (agent)、CRM</span>
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法]]<span class="pd-rz">同公司:Salesforce · 同概念:go-to-market、智能体 (agent)</span>
 - [[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法]]<span class="pd-rz">同公司:Salesforce · 同概念:记录系统 (system of record)、CRM</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:go-to-market、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":312,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":55}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":317,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":56}</script>
 
 <script>
 (function(){

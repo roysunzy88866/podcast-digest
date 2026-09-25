@@ -1,0 +1,2354 @@
+[
+ {
+  "seg": 0,
+  "start": 12.842,
+  "end": 13.302,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.542,
+  "end": 17.524,
+  "speaker": "Unknown",
+  "en": "So I think I'm one of the last speakers that is standing between you and the long weekend.",
+  "zh": "我想我是最后几位演讲者之一，站在你们和长周末之间。"
+ },
+ {
+  "seg": 2,
+  "start": 18.125,
+  "end": 20.206,
+  "speaker": "Unknown",
+  "en": "So I hope I can get your energy levels up.",
+  "zh": "所以我希望我能让大家的精神振作起来。"
+ },
+ {
+  "seg": 3,
+  "start": 21.546,
+  "end": 24.388,
+  "speaker": "Unknown",
+  "en": "So I'm responsible for our internal AI tools for our sales team.",
+  "zh": "我负责我们销售团队的内部 AI 工具。"
+ },
+ {
+  "seg": 4,
+  "start": 25.669,
+  "end": 31.972,
+  "speaker": "Unknown",
+  "en": "And the reason I'm here today is, indeed, we launched our internal go-to-market assistant in September last year.",
+  "zh": "我今天在这里的原因是，我们确实在去年 9 月上线了我们的内部 go-to-market 助手。"
+ },
+ {
+  "seg": 5,
+  "start": 32.652,
+  "end": 35.153,
+  "speaker": "Unknown",
+  "en": "It answered more than one million questions so far.",
+  "zh": "它到目前为止已经回答了超过一百万个问题。"
+ },
+ {
+  "seg": 6,
+  "start": 35.534,
+  "end": 37.515,
+  "speaker": "Unknown",
+  "en": "We have roughly answered 40,000 questions a week.",
+  "zh": "我们每周大约回答 40,000 个问题。"
+ },
+ {
+  "seg": 7,
+  "start": 39.008,
+  "end": 42.12,
+  "speaker": "Unknown",
+  "en": "And we are the customer zero for all of Snowflake products.",
+  "zh": "而且我们是所有 Snowflake 产品的 customer zero(零号客户)。"
+ },
+ {
+  "seg": 8,
+  "start": 42.16,
+  "end": 44.048,
+  "speaker": "Unknown",
+  "en": "So this is build on Snowflake co-work.",
+  "zh": "这是构建在 Snowflake co-work 上的。"
+ },
+ {
+  "seg": 9,
+  "start": 46.082,
+  "end": 48.604,
+  "speaker": "Unknown",
+  "en": "And I meet a lot of customers every week, okay?",
+  "zh": "我每周都会见很多客户，好吗？"
+ },
+ {
+  "seg": 10,
+  "start": 48.624,
+  "end": 55.109,
+  "speaker": "Unknown",
+  "en": "So I meet a lot of enterprises, Fortune 500 companies, and then they're all trying to build similar things, and they all struggle, right?",
+  "zh": "我会见到很多企业、财富 500 强公司，他们都在尝试构建类似的东西，而且他们都很挣扎，对吧？"
+ },
+ {
+  "seg": 11,
+  "start": 55.129,
+  "end": 57.831,
+  "speaker": "Unknown",
+  "en": "So, and then I end up, like, having this discussion with them all the time.",
+  "zh": "所以，我最后总是要和他们进行这样的讨论。"
+ },
+ {
+  "seg": 12,
+  "start": 58.291,
+  "end": 59.893,
+  "speaker": "Unknown",
+  "en": "Like, they ask, like, how did you guys do it?",
+  "zh": "比如，他们会问，你们是怎么做到的？"
+ },
+ {
+  "seg": 13,
+  "start": 60.213,
+  "end": 61.514,
+  "speaker": "Unknown",
+  "en": "And then we share our best practices.",
+  "zh": "然后我们分享我们的最佳实践。"
+ },
+ {
+  "seg": 14,
+  "start": 62.074,
+  "end": 64.016,
+  "speaker": "Unknown",
+  "en": "So I will try to share some of those things with you.",
+  "zh": "所以我会尝试与你们分享其中的一些内容。"
+ },
+ {
+  "seg": 15,
+  "start": 64.997,
+  "end": 67.479,
+  "speaker": "Unknown",
+  "en": "I'm told that I need to have some code in my presentation.",
+  "zh": "有人告诉我在演示中要有一些代码。"
+ },
+ {
+  "seg": 16,
+  "start": 67.539,
+  "end": 72.643,
+  "speaker": "Unknown",
+  "en": "I don't, but I will try to show you at least some architectural diagrams, just to make it more interesting for the engineering audience.",
+  "zh": "我没有代码，但我会至少给你们展示一些架构图，好让工程听众觉得更有意思。"
+ },
+ {
+  "seg": 17,
+  "start": 73.539,
+  "end": 74.4,
+  "speaker": "Unknown",
+  "en": "But let's jump into it.",
+  "zh": "但让我们直接开始吧。"
+ },
+ {
+  "seg": 18,
+  "start": 75.06,
+  "end": 85.867,
+  "speaker": "Unknown",
+  "en": "I think before we start, like I think I already, I was watching the other presentations, like I think everyone tries to give their interpretation of like, you know, why are we even building things for go-to-market, okay?",
+  "zh": "我想在开始之前，我想我已经——我看了其他几场演讲，我想每个人都在给出自己的解读，解释我们到底为什么要为 go-to-market 构建东西，好吗？"
+ },
+ {
+  "seg": 19,
+  "start": 85.887,
+  "end": 88.108,
+  "speaker": "Unknown",
+  "en": "So this is how I explain it to family and friends.",
+  "zh": "我就是这样向家人和朋友解释的。"
+ },
+ {
+  "seg": 20,
+  "start": 89.029,
+  "end": 90.77,
+  "speaker": "Unknown",
+  "en": "So let's take Snowflake, okay?",
+  "zh": "那我们就拿 Snowflake 来说，好吗？"
+ },
+ {
+  "seg": 21,
+  "start": 90.79,
+  "end": 93.272,
+  "speaker": "Unknown",
+  "en": "So we are a company of like, you know, close to 10,000 people.",
+  "zh": "我们是一家有差不多 10,000 名员工的公司。"
+ },
+ {
+  "seg": 22,
+  "start": 94.072,
+  "end": 99.256,
+  "speaker": "Unknown",
+  "en": "So if you look at our organization, almost half of our basically workforce is sales, right?",
+  "zh": "如果你看看我们的组织，几乎一半的基本员工队伍都是销售，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 99.416,
+  "end": 100.617,
+  "speaker": "Unknown",
+  "en": "And what are they responsible for?",
+  "zh": "那他们负责什么？"
+ },
+ {
+  "seg": 24,
+  "start": 100.637,
+  "end": 102.718,
+  "speaker": "Unknown",
+  "en": "They're responsible for revenue generation.",
+  "zh": "他们负责创造营收。"
+ },
+ {
+  "seg": 25,
+  "start": 103.863,
+  "end": 104.724,
+  "speaker": "Unknown",
+  "en": "What do they struggle with?",
+  "zh": "他们在为什么而挣扎？"
+ },
+ {
+  "seg": 26,
+  "start": 105.284,
+  "end": 107.445,
+  "speaker": "Unknown",
+  "en": "And I talk to a lot of customers.",
+  "zh": "我和很多客户交谈过。"
+ },
+ {
+  "seg": 27,
+  "start": 107.585,
+  "end": 108.486,
+  "speaker": "Unknown",
+  "en": "It's very common.",
+  "zh": "这很常见。"
+ },
+ {
+  "seg": 28,
+  "start": 109.226,
+  "end": 110.347,
+  "speaker": "Unknown",
+  "en": "Everyone's data is siloed.",
+  "zh": "每个人的数据都是孤岛。"
+ },
+ {
+  "seg": 29,
+  "start": 110.447,
+  "end": 113.309,
+  "speaker": "Unknown",
+  "en": "We work with a lot of first-party data, a lot of third-party data.",
+  "zh": "我们使用很多第一方数据、很多第三方数据。"
+ },
+ {
+  "seg": 30,
+  "start": 113.689,
+  "end": 116.431,
+  "speaker": "Unknown",
+  "en": "It's all locked down in these SaaS tools and things like that.",
+  "zh": "这些数据全都被锁在这些 SaaS 工具之类的东西里。"
+ },
+ {
+  "seg": 31,
+  "start": 116.831,
+  "end": 127.998,
+  "speaker": "Unknown",
+  "en": "And literally, we have, for example, wraps who are using 15 different tools, not because they love the UI of those tools, because every tool has a different data point, and then they end up stitching all of that together in spreadsheets and running it there, right?",
+  "zh": "字面意义上，我们有，比如，wraps 在使用 15 种不同的工具，不是因为他们喜欢那些工具的界面，而是因为每个工具都有不同的数据点，然后他们最后要把所有这些在电子表格里拼接起来，在那上面运行，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 128.858,
+  "end": 129.999,
+  "speaker": "Unknown",
+  "en": "Then the data is endless.",
+  "zh": "然后数据是无止境的。"
+ },
+ {
+  "seg": 33,
+  "start": 130.399,
+  "end": 134.463,
+  "speaker": "Unknown",
+  "en": "Like we have reps who have 1,000 accounts assigned to them, 1,000 customers.",
+  "zh": "比如我们有销售代表被分配了 1,000 个客户账户、1,000 个客户。"
+ },
+ {
+  "seg": 34,
+  "start": 135.244,
+  "end": 142.711,
+  "speaker": "Unknown",
+  "en": "They have to stay on top of their recent news, what's happening with their consumption, did they get in support tickets recently, what was their latest earning results, everything.",
+  "zh": "他们必须随时掌握他们的最新新闻、他们的消费情况如何、他们最近有没有提交支持工单、他们最新的财报业绩是什么，所有一切。"
+ },
+ {
+  "seg": 35,
+  "start": 143.171,
+  "end": 146.594,
+  "speaker": "Unknown",
+  "en": "There's not a single human on this planet can stay on top of that much data.",
+  "zh": "这个星球上没有一个人能跟得上那么多的数据。"
+ },
+ {
+  "seg": 36,
+  "start": 147.155,
+  "end": 150.338,
+  "speaker": "Unknown",
+  "en": "And then they need to do that 30 times, 40 times a day, right?",
+  "zh": "然后他们每天需要做这样的事情 30 次、40 次，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 151.439,
+  "end": 152.82,
+  "speaker": "Unknown",
+  "en": "So what has AI offered for them?",
+  "zh": "那么 AI 为他们提供了什么？"
+ },
+ {
+  "seg": 38,
+  "start": 154.055,
+  "end": 159.341,
+  "speaker": "Unknown",
+  "en": "It offers data democratization, no more like thousand dashboards, no more access to analysts.",
+  "zh": "它提供了数据民主化，不再需要上千个仪表盘，不再需要去找分析师获取数据。"
+ },
+ {
+  "seg": 39,
+  "start": 160.382,
+  "end": 162.765,
+  "speaker": "Unknown",
+  "en": "It offers automation possibilities for them.",
+  "zh": "它为他们提供了自动化的可能性。"
+ },
+ {
+  "seg": 40,
+  "start": 163.085,
+  "end": 164.267,
+  "speaker": "Unknown",
+  "en": "It frees up their inbox.",
+  "zh": "它把他们的收件箱解放出来。"
+ },
+ {
+  "seg": 41,
+  "start": 164.867,
+  "end": 168.672,
+  "speaker": "Unknown",
+  "en": "It offers tool consolidation, no longer 15 different tools that I need to work for.",
+  "zh": "它提供了工具整合，不再需要为 15 种不同的工具而工作。"
+ },
+ {
+  "seg": 42,
+  "start": 170.198,
+  "end": 172.139,
+  "speaker": "Unknown",
+  "en": "And that brings productivity savings.",
+  "zh": "而这带来了生产力上的节省。"
+ },
+ {
+  "seg": 43,
+  "start": 172.219,
+  "end": 173.599,
+  "speaker": "Unknown",
+  "en": "It frees up your time.",
+  "zh": "它解放了你的时间。"
+ },
+ {
+  "seg": 44,
+  "start": 173.639,
+  "end": 175.12,
+  "speaker": "Unknown",
+  "en": "You can use that time on other things.",
+  "zh": "你可以把那些时间用在其他事情上。"
+ },
+ {
+  "seg": 45,
+  "start": 175.2,
+  "end": 176.52,
+  "speaker": "Unknown",
+  "en": "It helps you become a better seller.",
+  "zh": "它帮助你成为更好的销售。"
+ },
+ {
+  "seg": 46,
+  "start": 176.54,
+  "end": 178.101,
+  "speaker": "Unknown",
+  "en": "You are more effective with your customers.",
+  "zh": "你对客户更加高效。"
+ },
+ {
+  "seg": 47,
+  "start": 178.621,
+  "end": 180.422,
+  "speaker": "Unknown",
+  "en": "And that translates to business results.",
+  "zh": "而这转化为业务成果。"
+ },
+ {
+  "seg": 48,
+  "start": 180.682,
+  "end": 182.723,
+  "speaker": "Unknown",
+  "en": "You can cover more of your book.",
+  "zh": "你可以覆盖你客户名册中更多的部分。"
+ },
+ {
+  "seg": 49,
+  "start": 182.763,
+  "end": 184.423,
+  "speaker": "Unknown",
+  "en": "You can have better win rates.",
+  "zh": "你可以获得更好的赢单率。"
+ },
+ {
+  "seg": 50,
+  "start": 185.164,
+  "end": 186.524,
+  "speaker": "Unknown",
+  "en": "You can have shorter deal cycles.",
+  "zh": "你可以拥有更短的成交周期。"
+ },
+ {
+  "seg": 51,
+  "start": 186.564,
+  "end": 190.025,
+  "speaker": "Unknown",
+  "en": "And ultimately, what everyone cares about, you can get incremental revenue.",
+  "zh": "而最终，每个人在意的，你能获得增量收入。"
+ },
+ {
+  "seg": 52,
+  "start": 190.045,
+  "end": 194.467,
+  "speaker": "Unknown",
+  "en": "So that's the reason why I'm working for making the go-to-market organizations more effective.",
+  "zh": "这就是我致力于让 go-to-market 组织更高效的原因。"
+ },
+ {
+  "seg": 53,
+  "start": 196.548,
+  "end": 197.648,
+  "speaker": "Unknown",
+  "en": "But there's a catch.",
+  "zh": "但有一个陷阱。"
+ },
+ {
+  "seg": 54,
+  "start": 197.988,
+  "end": 199.449,
+  "speaker": "Unknown",
+  "en": "These are non-deterministic systems.",
+  "zh": "这些是非确定性系统。"
+ },
+ {
+  "seg": 55,
+  "start": 200.155,
+  "end": 200.355,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 201.536,
+  "end": 204.879,
+  "speaker": "Unknown",
+  "en": "And I run into this problem every time with users.",
+  "zh": "我每次都会和用户遇到这个问题。"
+ },
+ {
+  "seg": 57,
+  "start": 205.76,
+  "end": 210.584,
+  "speaker": "Unknown",
+  "en": "I see many, many, many AI projects failed, and then it fails on this principle.",
+  "zh": "我见过很多很多很多 AI 项目失败，而且都是败在这个原则上。"
+ },
+ {
+  "seg": 58,
+  "start": 211.825,
+  "end": 216.188,
+  "speaker": "Unknown",
+  "en": "User trust is earned extremely hard, and it's lost overnight.",
+  "zh": "用户信任极难赢得，却能在一夜之间失去。"
+ },
+ {
+  "seg": 59,
+  "start": 217.229,
+  "end": 217.429,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 218.19,
+  "end": 222.153,
+  "speaker": "Unknown",
+  "en": "So at the end, what you are doing is you are putting a free-form chat box there.",
+  "zh": "所以说到底，你做的事情就是放一个自由格式的聊天框在那里。"
+ },
+ {
+  "seg": 61,
+  "start": 223.314,
+  "end": 223.534,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 223.835,
+  "end": 226.717,
+  "speaker": "Unknown",
+  "en": "And people will come in, and they will ask any question they can think of.",
+  "zh": "人们会过来，问出他们能想到的任何问题。"
+ },
+ {
+  "seg": 63,
+  "start": 227.664,
+  "end": 231.406,
+  "speaker": "Unknown",
+  "en": "If they like what they see in the first five questions, they come back.",
+  "zh": "如果他们喜欢前五个问题看到的答案，他们会回来。"
+ },
+ {
+  "seg": 64,
+  "start": 232.327,
+  "end": 238.19,
+  "speaker": "Unknown",
+  "en": "If they don't like what they see, it's 10 times more effort for you to win them back, if you can ever win them back, right?",
+  "zh": "如果他们不喜欢看到的答案，你要花十倍的功夫才能赢回他们——如果你还能赢回来的话，对吧？"
+ },
+ {
+  "seg": 65,
+  "start": 239.051,
+  "end": 243.573,
+  "speaker": "Unknown",
+  "en": "So we have a saying in our team, we say quality is P minus one, right?",
+  "zh": "所以我们团队有一句话，我们说质量是 P 减一，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 244.634,
+  "end": 246.875,
+  "speaker": "Unknown",
+  "en": "And that's basically, we take that very, very seriously.",
+  "zh": "基本上，我们对这一点非常非常重视。"
+ },
+ {
+  "seg": 67,
+  "start": 248.196,
+  "end": 252.619,
+  "speaker": "Unknown",
+  "en": "So one of the things that we really cared about is when I first joined the team,",
+  "zh": "所以我们真正在乎的事情之一是，我当初刚加入团队的时候，"
+ },
+ {
+  "seg": 68,
+  "start": 253.493,
+  "end": 256.995,
+  "speaker": "Unknown",
+  "en": "You know, the team had all these like data sources connected from our top dashboards.",
+  "zh": "你知道，团队已经从我们的顶级仪表板接入了所有这些数据源。"
+ },
+ {
+  "seg": 69,
+  "start": 257.015,
+  "end": 259.536,
+  "speaker": "Unknown",
+  "en": "We had a knowledge assistant built into it and so on.",
+  "zh": "我们内置了一个知识助手等等。"
+ },
+ {
+  "seg": 70,
+  "start": 259.916,
+  "end": 261.777,
+  "speaker": "Unknown",
+  "en": "We had three lines of agent instructions.",
+  "zh": "我们有三行智能体指令。"
+ },
+ {
+  "seg": 71,
+  "start": 262.657,
+  "end": 267.72,
+  "speaker": "Unknown",
+  "en": "And then before I even tried the agent, I opened the spreadsheet, I took the sales process, I wrote down 150 questions.",
+  "zh": "然后在我还没试过这个智能体之前，我打开电子表格，对照销售流程，写下了 150 个问题。"
+ },
+ {
+  "seg": 72,
+  "start": 268.66,
+  "end": 271.202,
+  "speaker": "Unknown",
+  "en": "And then the sales, our engineering team was like, what are you doing?",
+  "zh": "然后销售团队、我们的工程团队就说，你在干什么？"
+ },
+ {
+  "seg": 73,
+  "start": 271.222,
+  "end": 272.482,
+  "speaker": "Unknown",
+  "en": "We don't have that data in the agent.",
+  "zh": "智能体里没有那些数据。"
+ },
+ {
+  "seg": 74,
+  "start": 273.383,
+  "end": 274.283,
+  "speaker": "Unknown",
+  "en": "I was like, it doesn't matter.",
+  "zh": "我说，没关系。"
+ },
+ {
+  "seg": 75,
+  "start": 274.443,
+  "end": 276.124,
+  "speaker": "Unknown",
+  "en": "These are the questions your sellers are gonna ask.",
+  "zh": "这些就是你们的销售人员会问的问题。"
+ },
+ {
+  "seg": 76,
+  "start": 276.848,
+  "end": 277.048,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 77,
+  "start": 277.669,
+  "end": 281.792,
+  "speaker": "Unknown",
+  "en": "And then we run our task, 50% accuracy, you know, like everyone's depressed and so on.",
+  "zh": "然后我们跑任务，50% 的准确率，你知道，大家都挺沮丧的之类。"
+ },
+ {
+  "seg": 78,
+  "start": 282.192,
+  "end": 286.015,
+  "speaker": "Unknown",
+  "en": "So we said, okay, let's make sure that we don't go for coverage, but we go for quality.",
+  "zh": "所以我们说，好，我们确保不追求覆盖面，而是追求质量。"
+ },
+ {
+  "seg": 79,
+  "start": 286.595,
+  "end": 286.795,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 80,
+  "start": 287.175,
+  "end": 290.618,
+  "speaker": "Unknown",
+  "en": "We don't want to try to answer 100 questions and get them 70% right.",
+  "zh": "我们不想尝试回答 100 个问题，却只有 70% 答对。"
+ },
+ {
+  "seg": 81,
+  "start": 290.958,
+  "end": 293.9,
+  "speaker": "Unknown",
+  "en": "We want to answer 50 questions, but get them 95% right.",
+  "zh": "我们想回答 50 个问题，但 95% 答对。"
+ },
+ {
+  "seg": 82,
+  "start": 294.181,
+  "end": 294.381,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 294.741,
+  "end": 298.544,
+  "speaker": "Unknown",
+  "en": "Because with that, you get the first impression, good first impression, you build the trust with them.",
+  "zh": "因为这样，你能得到第一印象，好的第一印象，你和他们建立起信任。"
+ },
+ {
+  "seg": 84,
+  "start": 299.124,
+  "end": 303.647,
+  "speaker": "Unknown",
+  "en": "And then rather than being in that boat of, oh, this thing doesn't work, people are like, oh, this thing is awesome.",
+  "zh": "然后与其处在那种境地——哦，这东西不好使——人们会说，哦，这东西太棒了。"
+ },
+ {
+  "seg": 85,
+  "start": 303.667,
+  "end": 304.488,
+  "speaker": "Unknown",
+  "en": "Can I get more of that?",
+  "zh": "我能要更多吗？"
+ },
+ {
+  "seg": 86,
+  "start": 305.269,
+  "end": 305.449,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 306.271,
+  "end": 313.537,
+  "speaker": "Unknown",
+  "en": "So we started small, and 60% of the data we actually edit after the launch, after the six, seven months post-launch.",
+  "zh": "所以我们从小处开始，实际上 60% 的数据是我们在上线之后、上线后六七个月时才编辑的。"
+ },
+ {
+  "seg": 88,
+  "start": 314.117,
+  "end": 317.339,
+  "speaker": "Unknown",
+  "en": "Today, if you look into our agent, I mean, it's not a small agent.",
+  "zh": "今天，如果你看我们的智能体，我的意思是，它不是一个小智能体。"
+ },
+ {
+  "seg": 89,
+  "start": 317.74,
+  "end": 321.723,
+  "speaker": "Unknown",
+  "en": "We have 15 semantic views, 85 tables, 3,000 columns of data.",
+  "zh": "我们有 15 个语义视图、85 张表、3,000 列数据。"
+ },
+ {
+  "seg": 90,
+  "start": 322.183,
+  "end": 328.868,
+  "speaker": "Unknown",
+  "en": "We have, like, five to six different MCP connections on it, you know, close to 20 skills connected to that, and so on and so on, right?",
+  "zh": "我们在上面接了大概五六个不同的 MCP 连接，你知道，接近 20 个技能连在上面，等等等等，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 329.288,
+  "end": 331.41,
+  "speaker": "Unknown",
+  "en": "So it's a huge system that we are managing in here.",
+  "zh": "所以这是我们在管理的一个庞大系统。"
+ },
+ {
+  "seg": 92,
+  "start": 333.332,
+  "end": 335.936,
+  "speaker": "Unknown",
+  "en": "And then you cannot just launch these things to everyone, right?",
+  "zh": "然后你不能直接把这些东西发布给所有人，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 335.956,
+  "end": 341.304,
+  "speaker": "Unknown",
+  "en": "So we said that, look, we need to do this in a controlled way because we want to make sure that we earn that first five questions.",
+  "zh": "所以我们说，听着，我们需要以受控的方式来做这件事，因为我们要确保赢得那前五个问题。"
+ },
+ {
+  "seg": 94,
+  "start": 341.464,
+  "end": 344.689,
+  "speaker": "Unknown",
+  "en": "We don't want to burn our bridges in that first five questions, right?",
+  "zh": "我们不想在那前五个问题上把自己的桥烧掉，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 345.33,
+  "end": 348.155,
+  "speaker": "Unknown",
+  "en": "So that's why with every product we do, we do a face launch.",
+  "zh": "所以这就是为什么我们做的每个产品都做一个 face launch(分阶段发布)。"
+ },
+ {
+  "seg": 96,
+  "start": 349.192,
+  "end": 350.352,
+  "speaker": "Unknown",
+  "en": "The first one is a pilot.",
+  "zh": "第一个是试点。"
+ },
+ {
+  "seg": 97,
+  "start": 350.533,
+  "end": 354.454,
+  "speaker": "Unknown",
+  "en": "The goal of the pilot is to prove the accuracy, prove the quality, right?",
+  "zh": "试点的目标是证明准确性，证明质量，对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 354.854,
+  "end": 366.559,
+  "speaker": "Unknown",
+  "en": "You get your top, you know, AI native folks in the organization who are eager to work with you, give you feedback, improve the product, make sure that you got the rough edges through that, right?",
+  "zh": "你把组织里最顶尖的、渴望与你合作、给你反馈、改进产品的那帮 AI 原生的人拉进来，确保你通过他们磨平了那些粗糙的边缘，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 367.219,
+  "end": 373.141,
+  "speaker": "Unknown",
+  "en": "And then after a couple of weeks, you come to a point where it looks like, okay, those rough edges are more smoother now, okay?",
+  "zh": "然后几周之后，你到达一个节点，看起来，好，那些粗糙的边缘现在更平滑了，好吧？"
+ },
+ {
+  "seg": 100,
+  "start": 373.301,
+  "end": 374.802,
+  "speaker": "Unknown",
+  "en": "Then you go into your beta launch.",
+  "zh": "然后你进入 beta 发布阶段。"
+ },
+ {
+  "seg": 101,
+  "start": 374.842,
+  "end": 376.983,
+  "speaker": "Unknown",
+  "en": "We do a 10% beta, right, with 600 people.",
+  "zh": "我们做 10% 的 beta,对吧,600 个人。"
+ },
+ {
+  "seg": 102,
+  "start": 378.118,
+  "end": 382.28,
+  "speaker": "Unknown",
+  "en": "There you are looking at do I truly have basically a minimum viable product?",
+  "zh": "那时你要看的是,我真的有一个最小可行产品吗?"
+ },
+ {
+  "seg": 103,
+  "start": 382.68,
+  "end": 384.541,
+  "speaker": "Unknown",
+  "en": "Is the MVP really there?",
+  "zh": "MVP 真的成立了吗?"
+ },
+ {
+  "seg": 104,
+  "start": 384.941,
+  "end": 387.362,
+  "speaker": "Unknown",
+  "en": "And what will happen is that you will start getting tons of requests.",
+  "zh": "接下来会发生的是,你会开始收到海量的请求。"
+ },
+ {
+  "seg": 105,
+  "start": 387.382,
+  "end": 388.382,
+  "speaker": "Unknown",
+  "en": "Can you connect this data?",
+  "zh": "你能接上这个数据吗?"
+ },
+ {
+  "seg": 106,
+  "start": 388.422,
+  "end": 389.823,
+  "speaker": "Unknown",
+  "en": "Can you connect that data and everything?",
+  "zh": "你能接上那个数据吗,诸如此类?"
+ },
+ {
+  "seg": 107,
+  "start": 390.303,
+  "end": 393.704,
+  "speaker": "Unknown",
+  "en": "And then you are looking at where are actually the concentrations happening?",
+  "zh": "然后你要看的是,这些需求实际上在哪里集中出现?"
+ },
+ {
+  "seg": 108,
+  "start": 394.285,
+  "end": 398.106,
+  "speaker": "Unknown",
+  "en": "Because that means that if you don't get those things in, you don't truly have an MVP.",
+  "zh": "因为这意味着,如果你不把这些东西接入,你就没有真正的 MVP。"
+ },
+ {
+  "seg": 109,
+  "start": 398.426,
+  "end": 400.307,
+  "speaker": "Unknown",
+  "en": "Then it's not gonna work for their daily workflows.",
+  "zh": "那样它就无法适用于他们的日常工作流。"
+ },
+ {
+  "seg": 110,
+  "start": 401.488,
+  "end": 404.889,
+  "speaker": "Unknown",
+  "en": "And then at that stage, you're also trying to prove are they coming back?",
+  "zh": "然后到了这个阶段,你还要证明,他们会回来吗?"
+ },
+ {
+  "seg": 111,
+  "start": 405.827,
+  "end": 406.027,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 112,
+  "start": 406.387,
+  "end": 413.17,
+  "speaker": "Unknown",
+  "en": "So the things that we've really tracked there is basically like, okay, how many questions they're asking and everything, but what is the retention rate?",
+  "zh": "所以我们真正追踪的指标,基本上是,好吧,他们问了多少问题之类的,但留存率是多少?"
+ },
+ {
+  "seg": 113,
+  "start": 413.79,
+  "end": 418.952,
+  "speaker": "Unknown",
+  "en": "So we exited, for example, that at like more than 70% retention rate that the weekly active users were coming back.",
+  "zh": "比如我们在那一阶段结束时,周活用户的回访留存率达到了 70% 以上。"
+ },
+ {
+  "seg": 114,
+  "start": 419.593,
+  "end": 421.233,
+  "speaker": "Unknown",
+  "en": "Okay, now we're in a good place, right?",
+  "zh": "好了,现在我们处于一个好的位置,对吧?"
+ },
+ {
+  "seg": 115,
+  "start": 421.253,
+  "end": 427.296,
+  "speaker": "Unknown",
+  "en": "We have confidence on the accuracy, we have on the confidence of basically the coverage of the product we have, and people are coming back.",
+  "zh": "我们对准确性有信心,我们对产品的覆盖面基本上有信心,而且用户会回来。"
+ },
+ {
+  "seg": 116,
+  "start": 427.776,
+  "end": 430.737,
+  "speaker": "Unknown",
+  "en": "Okay, now let's go to GA, and then you launch to the GA.",
+  "zh": "好,现在我们进入 GA,然后你正式发布了 GA。"
+ },
+ {
+  "seg": 117,
+  "start": 431.297,
+  "end": 432.598,
+  "speaker": "Unknown",
+  "en": "But then you have your next problem.",
+  "zh": "但接下来你有下一个问题。"
+ },
+ {
+  "seg": 118,
+  "start": 433.647,
+  "end": 437.908,
+  "speaker": "Unknown",
+  "en": "I know that this is a technical conference, but this is also where a lot of these products fail.",
+  "zh": "我知道这是一个技术大会,但这也是很多产品失败的地方。"
+ },
+ {
+  "seg": 119,
+  "start": 438.669,
+  "end": 440.429,
+  "speaker": "Unknown",
+  "en": "It's basically how do you derive change management.",
+  "zh": "基本上就是,你如何做好变革管理。"
+ },
+ {
+  "seg": 120,
+  "start": 441.069,
+  "end": 445.331,
+  "speaker": "Unknown",
+  "en": "So you launch your product, you're two weeks into the launch, and then you are here.",
+  "zh": "所以你发布了产品,发布后两周,然后你在这里。"
+ },
+ {
+  "seg": 121,
+  "start": 445.751,
+  "end": 449.532,
+  "speaker": "Unknown",
+  "en": "And all your management is like disappointed or frustrated.",
+  "zh": "为什么数字这么低?"
+ },
+ {
+  "seg": 122,
+  "start": 449.612,
+  "end": 450.772,
+  "speaker": "Unknown",
+  "en": "Why aren't people using this?",
+  "zh": "为什么没人用这个?"
+ },
+ {
+  "seg": 123,
+  "start": 450.812,
+  "end": 452.153,
+  "speaker": "Unknown",
+  "en": "Why are numbers that are very low?",
+  "zh": "为什么这些数字这么低?"
+ },
+ {
+  "seg": 124,
+  "start": 452.873,
+  "end": 453.073,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 453.533,
+  "end": 454.553,
+  "speaker": "Unknown",
+  "en": "And I show them this graph.",
+  "zh": "然后我给他们看这张图。"
+ },
+ {
+  "seg": 126,
+  "start": 455.314,
+  "end": 460.155,
+  "speaker": "Unknown",
+  "en": "I say that only 20% of your, basically, organization actually tried the product.",
+  "zh": "我说,你的组织里基本上只有 20% 的人真正试用过这个产品。"
+ },
+ {
+  "seg": 127,
+  "start": 460.927,
+  "end": 466.999,
+  "speaker": "Unknown",
+  "en": "I cannot do anything, it's not the product's fault if people are not even taking five minutes to try the product, right?",
+  "zh": "我无能为力,如果人们连五分钟都不肯花来试用产品,那不是产品的错,对吧?"
+ },
+ {
+  "seg": 128,
+  "start": 467.46,
+  "end": 471.047,
+  "speaker": "Unknown",
+  "en": "If they try it and if they don't come back, okay, that's my problem, right?",
+  "zh": "如果他们试用了,但没有回来,好吧,那是我的问题,对吧?"
+ },
+ {
+  "seg": 129,
+  "start": 471.087,
+  "end": 472.911,
+  "speaker": "Unknown",
+  "en": "But if they don't try it, then we have another problem.",
+  "zh": "但如果他们根本没试用,那我们就有另一个问题了。"
+ },
+ {
+  "seg": 130,
+  "start": 473.85,
+  "end": 481.293,
+  "speaker": "Unknown",
+  "en": "So the first, and I've seen this with many, many sales organizations in my past life as well and so on, usually this is a couple of month process.",
+  "zh": "所以第一点,我在过去生涯中见过非常非常多的销售组织,通常这是一个持续几个月的过程。"
+ },
+ {
+  "seg": 131,
+  "start": 481.914,
+  "end": 485.875,
+  "speaker": "Unknown",
+  "en": "And then you significantly invest in basically change management, in activation.",
+  "zh": "然后你需要在变革管理和激活上大幅投入。"
+ },
+ {
+  "seg": 132,
+  "start": 486.396,
+  "end": 500.342,
+  "speaker": "Unknown",
+  "en": "I will spend 60, 70% of my time in sales meetings, giving demos, building dashboards to see which teams adapted, you know, shaming the managers whose team is actually doing good, getting sponsorship from sales leaders to basically like make sure that they, you know,",
+  "zh": "我会把 60%、70% 的时间花在销售会议上,做演示,搭建仪表盘来看哪些团队采用了,你知道的,让那些团队表现好的经理有面子,从销售负责人那里获得支持,基本上就是为了确保他们,你知道的,"
+ },
+ {
+  "seg": 133,
+  "start": 500.602,
+  "end": 511.291,
+  "speaker": "Unknown",
+  "en": "They push their people to try these things and so on and then ultimately that gets your blue line up and then your questions start coming up and then your focus can shift into, okay, how do I drive more depth, right?",
+  "zh": "他们推动自己的团队去试用这些东西等等,最终这让蓝线升上去,然后你的问题开始增多,然后你的重心就可以转移到,好,我如何驱动更深的深度,对吧?"
+ },
+ {
+  "seg": 134,
+  "start": 512.241,
+  "end": 519.405,
+  "speaker": "Unknown",
+  "en": "And I want to really, really emphasize this, because if you hadn't done this, we would probably be doing half of where we are today.",
+  "zh": "我想非常非常强调这一点,因为如果你没做这件事,我们今天可能只有一半的成果。"
+ },
+ {
+  "seg": 135,
+  "start": 519.786,
+  "end": 521.286,
+  "speaker": "Unknown",
+  "en": "So it's a very, very important part.",
+  "zh": "所以这是一个非常非常重要的部分。"
+ },
+ {
+  "seg": 136,
+  "start": 521.727,
+  "end": 530.392,
+  "speaker": "Unknown",
+  "en": "And then as engineers, if you spend all your effort, you want to have a good product, make sure that the activation and the change management is lined up, like post-launch of the product as well.",
+  "zh": "而作为工程师,如果你投入全部精力想做出好产品,那就要确保激活和变革管理在产品发布之后也排上日程。"
+ },
+ {
+  "seg": 137,
+  "start": 533.014,
+  "end": 534.234,
+  "speaker": "Unknown",
+  "en": "Now we run into another issue.",
+  "zh": "现在我们遇到了另一个问题。"
+ },
+ {
+  "seg": 138,
+  "start": 534.394,
+  "end": 538.317,
+  "speaker": "Unknown",
+  "en": "Okay, you are, let's say that, four to six months down the run, right?",
+  "zh": "好,你,比如说,跑到第四到六个月了,对吧?"
+ },
+ {
+  "seg": 139,
+  "start": 539.19,
+  "end": 544.373,
+  "speaker": "Unknown",
+  "en": "What happens is you successfully launch the product, you're first rock stars in the company.",
+  "zh": "发生的情况是,你成功发布了产品,你成了公司里的第一批明星。"
+ },
+ {
+  "seg": 140,
+  "start": 544.393,
+  "end": 555.839,
+  "speaker": "Unknown",
+  "en": "People literally show you on the corridor like, hey, your product is awesome, we can talk to our data now, we don't need to wait on the queue to get access to analysts to answer our questions in every two weeks and so on.",
+  "zh": "人们在走廊上直接对你说,嘿,你的产品太棒了,我们现在可以直接和我们的数据对话了,我们不用再排队等分析师每两周才回答我们的问题了,等等。"
+ },
+ {
+  "seg": 141,
+  "start": 556.339,
+  "end": 559.08,
+  "speaker": "Unknown",
+  "en": "And after a couple of months, they start coming back to you with frustrations.",
+  "zh": "而几个月后,他们开始带着不满回来找你。"
+ },
+ {
+  "seg": 142,
+  "start": 559.1,
+  "end": 561.522,
+  "speaker": "Unknown",
+  "en": "Hey, I cannot do this in the product anymore.",
+  "zh": "嘿,我没法在产品里做这个了。"
+ },
+ {
+  "seg": 143,
+  "start": 562.282,
+  "end": 564.823,
+  "speaker": "Unknown",
+  "en": "I saw this other AI product that does this and so on.",
+  "zh": "我看到了另一个能做这个的 AI 产品,等等。"
+ },
+ {
+  "seg": 144,
+  "start": 565.324,
+  "end": 567.745,
+  "speaker": "Unknown",
+  "en": "This is what I call the collapsing of the wall factor.",
+  "zh": "这就是我所称的惊艳墙效应的坍塌。"
+ },
+ {
+  "seg": 145,
+  "start": 568.488,
+  "end": 573.553,
+  "speaker": "Unknown",
+  "en": "Okay, so initially you are cool, but then that becomes a habit, right?",
+  "zh": "好吧,一开始你很酷,但之后那就变成习惯了,对吧?"
+ },
+ {
+  "seg": 146,
+  "start": 573.593,
+  "end": 576.195,
+  "speaker": "Unknown",
+  "en": "You basically change their habit and it becomes standard for them.",
+  "zh": "你基本上改变了他们的习惯,它成了他们的标准。"
+ },
+ {
+  "seg": 147,
+  "start": 576.796,
+  "end": 578.197,
+  "speaker": "Unknown",
+  "en": "Now you need to raise the bar again.",
+  "zh": "现在你需要再次抬高门槛。"
+ },
+ {
+  "seg": 148,
+  "start": 578.958,
+  "end": 583.062,
+  "speaker": "Unknown",
+  "en": "So the journey that we usually see with the sales teams is like you start with talk to your data.",
+  "zh": "所以我们通常在销售团队身上看到的旅程是,你从「和你的数据对话」开始。"
+ },
+ {
+  "seg": 149,
+  "start": 583.523,
+  "end": 593.232,
+  "speaker": "Unknown",
+  "en": "How do we get you out of those hundreds of dashboard situation, dependency to the analyst, and then first we'll basically democratize the data for you so that you can basically talk to your data.",
+  "zh": "我们如何把你从那几百个仪表盘的处境和对分析师的依赖中解放出来,然后首先我们基本上把数据民主化给你,这样你基本上就能和你的数据对话了。"
+ },
+ {
+  "seg": 150,
+  "start": 594.293,
+  "end": 597.648,
+  "speaker": "Unknown",
+  "en": "And the next wave comes with all the MCP connections, right?",
+  "zh": "而下一波浪潮伴随着所有的 MCP 连接到来，对吧？"
+ },
+ {
+  "seg": 151,
+  "start": 597.708,
+  "end": 599.135,
+  "speaker": "Unknown",
+  "en": "All the integrations that you are building.",
+  "zh": "所有你们正在构建的集成。"
+ },
+ {
+  "seg": 152,
+  "start": 599.798,
+  "end": 601.699,
+  "speaker": "Unknown",
+  "en": "Now it becomes like automate my workflows.",
+  "zh": "现在它就变成了，比如自动化我的工作流程。"
+ },
+ {
+  "seg": 153,
+  "start": 602.319,
+  "end": 618.427,
+  "speaker": "Unknown",
+  "en": "We literally have now sellers who are going to use our agent basically to monitor their inbox, then monitor their Slack channels, you know, keep track of all the customer questions coming about, like product questions, use the agent to draft responses that, save that in Gmail, review them afterwards, like send those things out, right?",
+  "zh": "我们现在真的有一些销售人员，他们要用我们的智能体基本上来监控他们的收件箱，然后监控他们的 Slack 频道，你知道的，跟踪所有不断出现的客户问题，比如产品问题，用智能体起草回复，把它保存在 Gmail 里，之后审阅，然后把它们发出去，对吧？"
+ },
+ {
+  "seg": 154,
+  "start": 619.027,
+  "end": 621.329,
+  "speaker": "Unknown",
+  "en": "Or they automate their like outreach workflows and so on.",
+  "zh": "或者他们自动化他们的外联工作流程等等。"
+ },
+ {
+  "seg": 155,
+  "start": 621.429,
+  "end": 622.069,
+  "speaker": "Unknown",
+  "en": "Okay, that's great.",
+  "zh": "好的，那很棒。"
+ },
+ {
+  "seg": 156,
+  "start": 622.269,
+  "end": 624.33,
+  "speaker": "Unknown",
+  "en": "Now I became an orchestrator, right?",
+  "zh": "现在我变成了一个编排者，对吧？"
+ },
+ {
+  "seg": 157,
+  "start": 624.43,
+  "end": 625.871,
+  "speaker": "Unknown",
+  "en": "I'm basically automating my workflows.",
+  "zh": "我基本上是在自动化我的工作流程。"
+ },
+ {
+  "seg": 158,
+  "start": 627.362,
+  "end": 634.807,
+  "speaker": "Unknown",
+  "en": "Then the next thing you see start happening is teams, they get these tool democratization, this empowerment coming to them, right?",
+  "zh": "然后你开始看到的下一件事是，团队，他们获得了这种工具民主化、这种赋权，对吧？"
+ },
+ {
+  "seg": 159,
+  "start": 635.308,
+  "end": 646.516,
+  "speaker": "Unknown",
+  "en": "Because historically, a lot of these go-to-market teams, they have been always in the backlog of someone, backlog of an IT team, or trying to get a SaaS budget to get a vendor on board to actually enable something.",
+  "zh": "因为从历史上看，很多这些市场推广团队，他们一直排在某个人的积压任务里，排在 IT 团队的积压任务里，或者试图拿到 SaaS 预算来引入一个供应商，才能真正启用某些东西。"
+ },
+ {
+  "seg": 160,
+  "start": 647.207,
+  "end": 650.25,
+  "speaker": "Unknown",
+  "en": "And now, all of a sudden, they're able to build team skills.",
+  "zh": "而现在，突然之间，他们能够构建团队技能了。"
+ },
+ {
+  "seg": 161,
+  "start": 650.73,
+  "end": 661.359,
+  "speaker": "Unknown",
+  "en": "They're able to build custom dashboards that are basically fully optimized for what their team needs, are able to deploy applications, automations, alerts, and things like that.",
+  "zh": "他们能够构建基本上完全针对他们团队需求优化的自定义仪表盘，能够部署应用、自动化、告警之类的东西。"
+ },
+ {
+  "seg": 162,
+  "start": 662.119,
+  "end": 665.322,
+  "speaker": "Unknown",
+  "en": "And then there comes a phase of hyper-personalization.",
+  "zh": "然后就进入了超个性化的阶段。"
+ },
+ {
+  "seg": 163,
+  "start": 665.922,
+  "end": 673.909,
+  "speaker": "Unknown",
+  "en": "Everyone is able to now get everything personalized for them, not only for themselves, but also for their customers with living contacts of customers, contacts, and things like that.",
+  "zh": "现在每个人都能够让一切为他们个性化，不仅是为他们自己，也是为他们的客户，结合客户、联系人等的实时情境。"
+ },
+ {
+  "seg": 164,
+  "start": 674.514,
+  "end": 684.757,
+  "speaker": "Unknown",
+  "en": "I think the main message I want to give here is, if you just do the first stage, and if you just wait there, you will get disrupted in a month or two, right?",
+  "zh": "我想在这里传达的主要信息是，如果你只做到第一个阶段，如果你只是停留在那里，你会在一两个月内被颠覆，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 685.257,
+  "end": 693.3,
+  "speaker": "Unknown",
+  "en": "Because now you already raised their expectations, that already became a baseline, and then they will find another product that does better than you, and right now the switch is very easy.",
+  "zh": "因为现在你已经提高了他们的期望，那已经成为了基线，然后他们会找到另一个比你做得更好的产品，而现在切换非常容易。"
+ },
+ {
+  "seg": 166,
+  "start": 693.5,
+  "end": 695.281,
+  "speaker": "Unknown",
+  "en": "They're gonna just switch overnight, okay?",
+  "zh": "他们会一夜之间就切换过去，对吧？"
+ },
+ {
+  "seg": 167,
+  "start": 695.621,
+  "end": 702.923,
+  "speaker": "Unknown",
+  "en": "So you need to keep iterating, you need to keep that wow factor, and I cannot just rely on the fact that, you know, what I built so far is gonna stay cool forever.",
+  "zh": "所以你需要持续迭代，你需要保持那种惊艳感，我不能仅仅依赖这样一个事实，就是，到目前为止我构建的东西会永远保持酷炫。"
+ },
+ {
+  "seg": 168,
+  "start": 705.375,
+  "end": 709.297,
+  "speaker": "Unknown",
+  "en": "And the next thing is, how do you deal with, basically, the changing technology?",
+  "zh": "接下来的问题是，你如何应对，基本上，不断变化的技术？"
+ },
+ {
+  "seg": 169,
+  "start": 709.958,
+  "end": 719.503,
+  "speaker": "Unknown",
+  "en": "So I talk to a lot of customers, and then, you know, sometimes you run into these customers, big enterprises, very big brands, and then they are still trying to purchase that perfect architecture.",
+  "zh": "我和很多客户交流，然后，你知道的，有时候你会遇到这样的客户，大型企业，非常大的品牌，然后他们仍在试图购买那套完美的架构。"
+ },
+ {
+  "seg": 170,
+  "start": 720.384,
+  "end": 730.87,
+  "speaker": "Unknown",
+  "en": "They are trying to, like, test different frameworks, they are trying to see how the, you know, the technology is maturing and everything and so on, but the thing that they don't do is they don't build, and then they don't launch, and they don't learn.",
+  "zh": "他们试图，比如，测试不同的框架，他们试图观察这个技术，你知道的，是如何成熟的等等，但他们没做的事情是他们不去构建，然后不去上线，也不去学习。"
+ },
+ {
+  "seg": 171,
+  "start": 732.304,
+  "end": 737.409,
+  "speaker": "Unknown",
+  "en": "All these blue boxes that you see here, those are all the things we edit after the launch.",
+  "zh": "你在这里看到的所有这些蓝色方块，那些都是我们在上线之后修改的东西。"
+ },
+ {
+  "seg": 172,
+  "start": 737.789,
+  "end": 742.594,
+  "speaker": "Unknown",
+  "en": "When we literally first launched the agent, it was a nine-page long agent instructions.",
+  "zh": "当我们第一次上线这个智能体时，它是一份九页长的智能体指令。"
+ },
+ {
+  "seg": 173,
+  "start": 743.254,
+  "end": 745.897,
+  "speaker": "Unknown",
+  "en": "It was a couple of Cortex analyst tools, semantic views.",
+  "zh": "它是一 couple of 个 Cortex analyst 工具，语义视图。"
+ },
+ {
+  "seg": 174,
+  "start": 745.957,
+  "end": 748.44,
+  "speaker": "Unknown",
+  "en": "It was a Cortex search service for our unstructured data.",
+  "zh": "它是一个针对我们非结构化数据的 Cortex search 服务。"
+ },
+ {
+  "seg": 175,
+  "start": 749.06,
+  "end": 752.223,
+  "speaker": "Unknown",
+  "en": "And we were managing these agent instruction versions out of a Google Doc.",
+  "zh": "而且我们是用一个 Google Doc 来管理这些智能体指令版本的。"
+ },
+ {
+  "seg": 176,
+  "start": 752.744,
+  "end": 754.566,
+  "speaker": "Unknown",
+  "en": "That's how we launched it to 6,000 people.",
+  "zh": "我们就是这样把它上线给 6000 个人的。"
+ },
+ {
+  "seg": 177,
+  "start": 756.067,
+  "end": 757.668,
+  "speaker": "Unknown",
+  "en": "Now we realize, okay, it's not going to work out.",
+  "zh": "现在我们意识到，好的，这样行不通。"
+ },
+ {
+  "seg": 178,
+  "start": 757.688,
+  "end": 758.789,
+  "speaker": "Unknown",
+  "en": "Let's figure out CI, CD.",
+  "zh": "我们来搞定 CI、CD 吧。"
+ },
+ {
+  "seg": 179,
+  "start": 758.809,
+  "end": 759.55,
+  "speaker": "Unknown",
+  "en": "It's not going to work out.",
+  "zh": "这样行不通。"
+ },
+ {
+  "seg": 180,
+  "start": 759.57,
+  "end": 764.694,
+  "speaker": "Unknown",
+  "en": "Let's figure out our basically eval infrastructure with all the unit tests, routing tests, and everything, right?",
+  "zh": "我们来搞定我们的基本上评估基础设施，包括所有单元测试、路由测试等等，对吧？"
+ },
+ {
+  "seg": 181,
+  "start": 765.274,
+  "end": 771.539,
+  "speaker": "Unknown",
+  "en": "Then we start basically coming to a point where, for example, we were creating all these business processes and workflows.",
+  "zh": "然后我们开始基本上到了这样一个阶段，比如，我们在创建所有这些业务流程和工作流程。"
+ },
+ {
+  "seg": 182,
+  "start": 771.919,
+  "end": 773.88,
+  "speaker": "Unknown",
+  "en": "We couldn't fit them into the agent instructions anymore.",
+  "zh": "我们没法再把它们塞进智能体指令里了。"
+ },
+ {
+  "seg": 183,
+  "start": 774.001,
+  "end": 775.962,
+  "speaker": "Unknown",
+  "en": "And then the skills came, and we were like, oh, perfect.",
+  "zh": "然后技能出现了，我们就像，哦，太好了。"
+ },
+ {
+  "seg": 184,
+  "start": 775.982,
+  "end": 776.923,
+  "speaker": "Unknown",
+  "en": "Let's build a skill library.",
+  "zh": "我们来建一个技能库吧。"
+ },
+ {
+  "seg": 185,
+  "start": 778.002,
+  "end": 779.282,
+  "speaker": "Unknown",
+  "en": "You know, then the MCPs came.",
+  "zh": "你知道的，然后 MCP 出现了。"
+ },
+ {
+  "seg": 186,
+  "start": 779.662,
+  "end": 780.062,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 187,
+  "start": 780.302,
+  "end": 783.623,
+  "speaker": "Unknown",
+  "en": "But now, like, we have to put a bunch of other instructions to basically orchestrate that.",
+  "zh": "但现在，比如，我们必须加入一堆其他指令来基本上编排它。"
+ },
+ {
+  "seg": 188,
+  "start": 783.883,
+  "end": 785.483,
+  "speaker": "Unknown",
+  "en": "We hit the limits on the agent instructions.",
+  "zh": "我们碰到了智能体指令的极限。"
+ },
+ {
+  "seg": 189,
+  "start": 785.583,
+  "end": 786.083,
+  "speaker": "Unknown",
+  "en": "What do we do?",
+  "zh": "我们怎么办？"
+ },
+ {
+  "seg": 190,
+  "start": 786.504,
+  "end": 789.084,
+  "speaker": "Unknown",
+  "en": "Okay, let's do the progressive disclosures, right?",
+  "zh": "好的，我们来做渐进式披露，对吧？"
+ },
+ {
+  "seg": 191,
+  "start": 789.764,
+  "end": 792.305,
+  "speaker": "Unknown",
+  "en": "And then user memory counts, task scheduling counts.",
+  "zh": "然后用户记忆功能、任务调度功能。"
+ },
+ {
+  "seg": 192,
+  "start": 792.325,
+  "end": 796.985,
+  "speaker": "Unknown",
+  "en": "We want to go beyond the chat screen and then, you know, chat interface and start doing the Slack interface and things like that.",
+  "zh": "我们想超越聊天屏幕，你知道的，聊天界面，开始做 Slack 界面之类的东西。"
+ },
+ {
+  "seg": 193,
+  "start": 797.666,
+  "end": 805.567,
+  "speaker": "Unknown",
+  "en": "If I look at the PRD and the architectural diagram we wrote in the beginning of the project, if I compare it to this architecture we have now, 80% of it doesn't match.",
+  "zh": "如果我去看我们在项目开始时写的 PRD 和架构图，如果我和我们现在拥有的这个架构相比，80% 都对不上。"
+ },
+ {
+  "seg": 194,
+  "start": 806.932,
+  "end": 807.172,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 195,
+  "start": 807.732,
+  "end": 820.054,
+  "speaker": "Unknown",
+  "en": "So, like, if you look at our sprints, like, maybe 60-70% of the work we are doing is adding new features, improving quality, and all kinds of things, but 30-40% of the work is that we are constantly re-architecting with the new technology.",
+  "zh": "所以，比如，如果你看我们的冲刺，也许 60%-70% 的工作是在添加新功能、提升质量和各种各样的事情，但有 30%-40% 的工作是我们在不断地用新技术重新架构。"
+ },
+ {
+  "seg": 196,
+  "start": 821.115,
+  "end": 828.716,
+  "speaker": "Unknown",
+  "en": "So this is a time where, like, you need to get your hands dirty, you need to run with the new technology, and then you shouldn't be, like, you know, too much tied to your architecture.",
+  "zh": "所以现在是这样一个时期，就是，你需要亲自动手，你需要跟上新技术去跑，然后你不应该，就是，你知道的，和你的架构绑定得太深。"
+ },
+ {
+  "seg": 197,
+  "start": 829.056,
+  "end": 834.857,
+  "speaker": "Unknown",
+  "en": "You should be okay to, like, pivot very easily so that you can basically double down on these, like, new capabilities and things like that.",
+  "zh": "你应该能够，比如，非常轻松地转向，这样你就可以基本上在这些新能力之类的东西上加倍投入。"
+ },
+ {
+  "seg": 198,
+  "start": 835.65,
+  "end": 848.718,
+  "speaker": "Unknown",
+  "en": "And then the longer you wait, the more you lose towards your competition, because if your competition is doing these kind of things like three, four months ahead of you, right, that means that they're also getting more customers.",
+  "zh": "然后你等待的时间越长，你在竞争中失去的就越多，因为如果你的竞争对手在这类事情上领先你三、四个月，对吧，那意味着他们也在获得更多客户。"
+ },
+ {
+  "seg": 199,
+  "start": 849.238,
+  "end": 856.603,
+  "speaker": "Unknown",
+  "en": "Last thing is I would really, really recommend investing in your logs, okay, because they create basically the feedback loop.",
+  "zh": "最后一点是我真的、真的建议投资于你的日志，对吧，因为它们基本上构成了反馈循环。"
+ },
+ {
+  "seg": 200,
+  "start": 857.624,
+  "end": 859.425,
+  "speaker": "Unknown",
+  "en": "So first of all, technically it's very fun.",
+  "zh": "所以首先，从技术上来说这非常有趣。"
+ },
+ {
+  "seg": 201,
+  "start": 859.909,
+  "end": 863.791,
+  "speaker": "Unknown",
+  "en": "Okay, so you basically use LLAMs to like classify your logs and things like that.",
+  "zh": "好的，你基本上是用 LLAM 来给日志之类的东西做分类。"
+ },
+ {
+  "seg": 202,
+  "start": 864.251,
+  "end": 866.192,
+  "speaker": "Unknown",
+  "en": "As I said, like we have 1.2 million questions.",
+  "zh": "正如我所说，我们有 120 万个问题。"
+ },
+ {
+  "seg": 203,
+  "start": 866.212,
+  "end": 867.933,
+  "speaker": "Unknown",
+  "en": "We get 40,000 questions every week.",
+  "zh": "我们每周收到 4 万个问题。"
+ },
+ {
+  "seg": 204,
+  "start": 868.393,
+  "end": 869.393,
+  "speaker": "Unknown",
+  "en": "It's technically very fun.",
+  "zh": "从技术上讲这非常有趣。"
+ },
+ {
+  "seg": 205,
+  "start": 869.573,
+  "end": 872.475,
+  "speaker": "Unknown",
+  "en": "You know how you do that at scale without breaking the bank and so on.",
+  "zh": "你知道如何在不把银行搞破产的情况下大规模做这件事，等等。"
+ },
+ {
+  "seg": 206,
+  "start": 872.855,
+  "end": 876.517,
+  "speaker": "Unknown",
+  "en": "You know, our data scientists love working on those things and then they really experiment with new things.",
+  "zh": "你知道，我们的数据科学家很喜欢做这些事情，然后他们真的会实验新东西。"
+ },
+ {
+  "seg": 207,
+  "start": 877.157,
+  "end": 878.798,
+  "speaker": "Unknown",
+  "en": "But as a result of that, what we get",
+  "zh": "但作为结果，我们得到的是"
+ },
+ {
+  "seg": 208,
+  "start": 879.638,
+  "end": 883.941,
+  "speaker": "Unknown",
+  "en": "We get a very extremely detailed breakdown of topics and things that we are having.",
+  "zh": "我们得到了一个非常极其详细的主题细分和我们拥有的各类内容。"
+ },
+ {
+  "seg": 209,
+  "start": 884.021,
+  "end": 891.387,
+  "speaker": "Unknown",
+  "en": "I'm just showing you the top categorization level there, but then basically we are able to track what kind of questions they are asking.",
+  "zh": "我这里只给你展示了最顶层的分类，但基本上我们能够追踪他们在问什么类型的问题。"
+ },
+ {
+  "seg": 210,
+  "start": 891.407,
+  "end": 893.729,
+  "speaker": "Unknown",
+  "en": "We are able to break down each of those categories.",
+  "zh": "我们能够细分其中每一个类别。"
+ },
+ {
+  "seg": 211,
+  "start": 893.749,
+  "end": 898.372,
+  "speaker": "Unknown",
+  "en": "The subcategories, we are able to get detailed example questions, this and that, and so on.",
+  "zh": "子类别，我们能够拿到详细的示例问题，这个那个，等等。"
+ },
+ {
+  "seg": 212,
+  "start": 899.273,
+  "end": 900.994,
+  "speaker": "Unknown",
+  "en": "All good, but how do we use that?",
+  "zh": "都很好，但我们怎么使用它呢？"
+ },
+ {
+  "seg": 213,
+  "start": 901.294,
+  "end": 903.216,
+  "speaker": "Unknown",
+  "en": "Then we start creating basically the feedback loops.",
+  "zh": "然后我们基本上开始创建反馈回路。"
+ },
+ {
+  "seg": 214,
+  "start": 903.91,
+  "end": 904.13,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 215,
+  "start": 904.591,
+  "end": 909.476,
+  "speaker": "Unknown",
+  "en": "I know, I mean, I still interview, of course, users, but now I see in real time what my feature gaps are.",
+  "zh": "我知道，我是说，我当然仍然会访谈用户，但现在我能实时看到我的功能缺口在哪里。"
+ },
+ {
+  "seg": 216,
+  "start": 910.117,
+  "end": 919.286,
+  "speaker": "Unknown",
+  "en": "I'm clearly seeing what people are asking and we are not able to answer or where we have like a quality issue where they're swearing at the agent or like repeating their question so that we see where to improve.",
+  "zh": "我能清楚地看到人们在问什么而我们无法回答，或者哪里我们有质量问题，比如他们在对智能体爆粗口，或者重复他们的问题，这样我们就能看到该改进哪里。"
+ },
+ {
+  "seg": 217,
+  "start": 920.207,
+  "end": 922.269,
+  "speaker": "Unknown",
+  "en": "For sales enablement, it's a goldmine.",
+  "zh": "对于销售赋能来说，这是一座金矿。"
+ },
+ {
+  "seg": 218,
+  "start": 922.91,
+  "end": 924.452,
+  "speaker": "Unknown",
+  "en": "Let's say that we launch a new product.",
+  "zh": "比如说我们发布一个新产品。"
+ },
+ {
+  "seg": 219,
+  "start": 925.484,
+  "end": 935.008,
+  "speaker": "Unknown",
+  "en": "Usually, they would need to interview maybe 100 sellers a week to be able to understand how basically the topics are changing, where there's gaps in terms of knowledge documents, battle cards.",
+  "zh": "通常，他们需要每周访谈也许 100 个销售人员，才能了解话题基本上是如何变化的，知识文档、作战卡方面哪里有缺口。"
+ },
+ {
+  "seg": 220,
+  "start": 935.508,
+  "end": 938.85,
+  "speaker": "Unknown",
+  "en": "I see that in real time in a minute or two by just asking another question.",
+  "zh": "我只需再问一个问题，一两分钟内就能实时看到这些。"
+ },
+ {
+  "seg": 221,
+  "start": 939.47,
+  "end": 941.511,
+  "speaker": "Unknown",
+  "en": "And then we can then connect to Confluence.",
+  "zh": "然后我们可以连接到 Confluence。"
+ },
+ {
+  "seg": 222,
+  "start": 941.531,
+  "end": 942.451,
+  "speaker": "Unknown",
+  "en": "We can connect to Jira.",
+  "zh": "我们可以连接到 Jira。"
+ },
+ {
+  "seg": 223,
+  "start": 942.471,
+  "end": 943.732,
+  "speaker": "Unknown",
+  "en": "We can connect to Slack channels.",
+  "zh": "我们可以连接到 Slack 频道。"
+ },
+ {
+  "seg": 224,
+  "start": 944.072,
+  "end": 945.373,
+  "speaker": "Unknown",
+  "en": "We can ingest the PRDs.",
+  "zh": "我们可以摄取 PRD。"
+ },
+ {
+  "seg": 225,
+  "start": 945.673,
+  "end": 950.755,
+  "speaker": "Unknown",
+  "en": "And in a couple of minutes, we can actually generate battle cards, sales enablement document, and then feed it back into the agent.",
+  "zh": "然后在几分钟内，我们实际上可以生成作战卡、销售赋能文档，然后再把它反馈给智能体。"
+ },
+ {
+  "seg": 226,
+  "start": 951.565,
+  "end": 951.745,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 951.765,
+  "end": 955.547,
+  "speaker": "Unknown",
+  "en": "I mean, you cannot do that kind of a feedback loop with humans, right?",
+  "zh": "我是说，你没办法用人类做这种反馈回路，对吧？"
+ },
+ {
+  "seg": 228,
+  "start": 955.567,
+  "end": 958.989,
+  "speaker": "Unknown",
+  "en": "So then we can basically automate these kind of things.",
+  "zh": "所以我们基本上可以把这类事情自动化。"
+ },
+ {
+  "seg": 229,
+  "start": 959.169,
+  "end": 963.032,
+  "speaker": "Unknown",
+  "en": "Within the sales organization, there will be different teams that are trying to connect each other.",
+  "zh": "在销售组织内部，会有不同的团队试图互相连接。"
+ },
+ {
+  "seg": 230,
+  "start": 963.052,
+  "end": 965.733,
+  "speaker": "Unknown",
+  "en": "They are trying to maybe target similar accounts from different angles.",
+  "zh": "他们可能试图从不同角度瞄准相似的客户账户。"
+ },
+ {
+  "seg": 231,
+  "start": 966.174,
+  "end": 967.434,
+  "speaker": "Unknown",
+  "en": "They don't know about each other.",
+  "zh": "他们彼此不知道对方。"
+ },
+ {
+  "seg": 232,
+  "start": 967.634,
+  "end": 967.955,
+  "speaker": "Unknown",
+  "en": "We do.",
+  "zh": "我们知道。"
+ },
+ {
+  "seg": 233,
+  "start": 968.215,
+  "end": 969.255,
+  "speaker": "Unknown",
+  "en": "We are now able to ping them.",
+  "zh": "我们现在能够去提醒他们。"
+ },
+ {
+  "seg": 234,
+  "start": 969.656,
+  "end": 971.297,
+  "speaker": "Unknown",
+  "en": "And then we are able to basically do matchmaking.",
+  "zh": "然后我们基本上能够做撮合。"
+ },
+ {
+  "seg": 235,
+  "start": 972.057,
+  "end": 972.237,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 236,
+  "start": 972.277,
+  "end": 974.458,
+  "speaker": "Unknown",
+  "en": "I'm just giving you a couple of examples.",
+  "zh": "我只是给你们举几个例子。"
+ },
+ {
+  "seg": 237,
+  "start": 974.478,
+  "end": 979.862,
+  "speaker": "Unknown",
+  "en": "This is also one of those areas where, like, you start building your AI platform, you start building your architecture,",
+  "zh": "这也是那些领域之一，就是，你开始构建你的 AI 平台，你开始构建你的架构，"
+ },
+ {
+  "seg": 238,
+  "start": 980.643,
+  "end": 991.192,
+  "speaker": "Unknown",
+  "en": "The first features are difficult to get out, the next ones are easy, and then once you start tapping into your logs, this hockey stick exponential thing actually starts happening, and it's magical.",
+  "zh": "头几个功能很难做出来，接下来的就容易了，然后一旦你开始挖掘你的日志，这种曲棍球杆式的指数增长就真的开始发生了，非常神奇。"
+ },
+ {
+  "seg": 239,
+  "start": 994.735,
+  "end": 999.699,
+  "speaker": "Unknown",
+  "en": "So, if you were to take a couple of things from this talk, like quality over coverage.",
+  "zh": "所以，如果你要从这次演讲中带走几件事的话，比如质量重于覆盖面。"
+ },
+ {
+  "seg": 240,
+  "start": 1000.56,
+  "end": 1003.022,
+  "speaker": "Unknown",
+  "en": "I'm very, very religious about this.",
+  "zh": "我对此非常非常虔诚。"
+ },
+ {
+  "seg": 241,
+  "start": 1003.822,
+  "end": 1008.186,
+  "speaker": "Unknown",
+  "en": "If you go for the coverage, you are going to shoot yourself in the foot, okay?",
+  "zh": "如果你追求覆盖面，你会搬起石头砸自己的脚，好吗？"
+ },
+ {
+  "seg": 242,
+  "start": 1009.705,
+  "end": 1010.626,
+  "speaker": "Unknown",
+  "en": "Change management.",
+  "zh": "变革管理。"
+ },
+ {
+  "seg": 243,
+  "start": 1010.806,
+  "end": 1013.207,
+  "speaker": "Unknown",
+  "en": "A lot of engineers doesn't think about this, right?",
+  "zh": "很多工程师不去想这个，对吧？"
+ },
+ {
+  "seg": 244,
+  "start": 1013.667,
+  "end": 1020.771,
+  "speaker": "Unknown",
+  "en": "A lot of these AI initiatives, they don't fail because there's an issue with the technology, there's an issue with that, assuming you did the first one, right?",
+  "zh": "很多这样的 AI 项目，它们失败并不是因为技术有问题、那个有问题，前提是你做了第一件事，对吧？"
+ },
+ {
+  "seg": 245,
+  "start": 1021.472,
+  "end": 1023.473,
+  "speaker": "Unknown",
+  "en": "So they fail actually in activation.",
+  "zh": "所以它们实际上是在激活环节失败的。"
+ },
+ {
+  "seg": 246,
+  "start": 1024.433,
+  "end": 1032.678,
+  "speaker": "Unknown",
+  "en": "So make sure that you have a plan for that, especially in large organizations where we are dealing with like 6,000 go-to-market users, right?",
+  "zh": "所以确保你为此有一个计划，尤其是在大型组织里，我们要面对的是 6000 个面向市场端的用户，对吧？"
+ },
+ {
+  "seg": 247,
+  "start": 1032.878,
+  "end": 1035.82,
+  "speaker": "Unknown",
+  "en": "Again, don't forget this concept of collapsing wow factor.",
+  "zh": "再次强调，别忘了这个“惊叹感坍缩”的概念。"
+ },
+ {
+  "seg": 248,
+  "start": 1036.767,
+  "end": 1038.448,
+  "speaker": "Unknown",
+  "en": "You cannot stay where you are.",
+  "zh": "你不能停留在原地。"
+ },
+ {
+  "seg": 249,
+  "start": 1038.468,
+  "end": 1040.548,
+  "speaker": "Unknown",
+  "en": "You cannot just say that, hey, I did an innovation.",
+  "zh": "你不能只说，嘿，我做了一个创新。"
+ },
+ {
+  "seg": 250,
+  "start": 1040.949,
+  "end": 1042.069,
+  "speaker": "Unknown",
+  "en": "I'm going to serve that for a year.",
+  "zh": "我打算把它供上一年。"
+ },
+ {
+  "seg": 251,
+  "start": 1043.329,
+  "end": 1045.59,
+  "speaker": "Unknown",
+  "en": "You know, every time people are happy, you should be paranoid.",
+  "zh": "你知道，每次大家都满意的时候，你应该保持警惕。"
+ },
+ {
+  "seg": 252,
+  "start": 1045.61,
+  "end": 1048.371,
+  "speaker": "Unknown",
+  "en": "You should be like, OK, what am I going to show them in a month or two now?",
+  "zh": "不要试图投入那些超级架构，搞这些六到九个月的长期项目之类的东西。"
+ },
+ {
+  "seg": 253,
+  "start": 1049.392,
+  "end": 1051.272,
+  "speaker": "Unknown",
+  "en": "How do I basically keep that excitement going on?",
+  "zh": "我该怎么让那种兴奋感持续下去？"
+ },
+ {
+  "seg": 254,
+  "start": 1052.173,
+  "end": 1052.353,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 255,
+  "start": 1053.253,
+  "end": 1055.033,
+  "speaker": "Unknown",
+  "en": "Build fast with today's stack.",
+  "zh": "用今天的现有技术栈快速构建。"
+ },
+ {
+  "seg": 256,
+  "start": 1055.053,
+  "end": 1063.335,
+  "speaker": "Unknown",
+  "en": "Don't try to invest in these super architectures and have these six, nine months of long projects and things like that.",
+  "zh": "不要试图投资这些超级架构,搞这些六、九个月的长期项目之类的东西。"
+ },
+ {
+  "seg": 257,
+  "start": 1063.695,
+  "end": 1066.296,
+  "speaker": "Unknown",
+  "en": "How do you turn around these things in weeks, days, and so on?",
+  "zh": "你怎么在几周、几天内把这些东西周转起来？"
+ },
+ {
+  "seg": 258,
+  "start": 1067.096,
+  "end": 1070.396,
+  "speaker": "Unknown",
+  "en": "And just be comfortable with the fact that you are constantly going to be re-architecting.",
+  "zh": "而且要坦然接受你会不断地重新做架构。"
+ },
+ {
+  "seg": 259,
+  "start": 1070.416,
+  "end": 1072.217,
+  "speaker": "Unknown",
+  "en": "That's fine, right?",
+  "zh": "没关系，对吧？"
+ },
+ {
+  "seg": 260,
+  "start": 1073.217,
+  "end": 1075.577,
+  "speaker": "Unknown",
+  "en": "Just don't over-invest in the current architecture.",
+  "zh": "只不过不要过度投入在当前架构上。"
+ },
+ {
+  "seg": 261,
+  "start": 1075.617,
+  "end": 1077.898,
+  "speaker": "Unknown",
+  "en": "Just make sure that you keep your flexibility out there.",
+  "zh": "只要确保你把灵活性留在外面。"
+ },
+ {
+  "seg": 262,
+  "start": 1079.378,
+  "end": 1080.299,
+  "speaker": "Unknown",
+  "en": "And then the feedback loops.",
+  "zh": "然后是反馈回路。"
+ },
+ {
+  "seg": 263,
+  "start": 1080.54,
+  "end": 1086.289,
+  "speaker": "Unknown",
+  "en": "I think that's what kind of like gives you really that like you know the incremental part of like that hockey stick exponential part of the thing.",
+  "zh": "我认为这就是真正给你带来那种，你知道，那种曲棍球杆式指数增长中增量部分的东西。"
+ },
+ {
+  "seg": 264,
+  "start": 1087.614,
+  "end": 1094.456,
+  "speaker": "Unknown",
+  "en": "We constantly publish blog posts where we try to have our learnings shared with our customers and so on.",
+  "zh": "我们持续发布博客文章，试图把我们的经验分享给我们的客户等等。"
+ },
+ {
+  "seg": 265,
+  "start": 1094.476,
+  "end": 1106.739,
+  "speaker": "Unknown",
+  "en": "We have blog posts on how we do agent instructions, how we do our structured data with semantic views, how we basically build our rack-based knowledge assistance, the non-technical side of the story, like how do you drive change management and so on.",
+  "zh": "我们有关于我们如何做智能体指令的博客文章，如何用语义视图做结构化数据，我们基本上如何构建基于 RAG 的知识助手，还有故事的非技术层面，比如你如何推动变革管理等等。"
+ },
+ {
+  "seg": 266,
+  "start": 1106.8,
+  "end": 1109.12,
+  "speaker": "Unknown",
+  "en": "So feel free to check those.",
+  "zh": "欢迎大家去看那些文章。"
+ },
+ {
+  "seg": 267,
+  "start": 1109.44,
+  "end": 1111.981,
+  "speaker": "Unknown",
+  "en": "And yeah, I think that's the end of my talk.",
+  "zh": "对，我想我的演讲就到这里。"
+ },
+ {
+  "seg": 268,
+  "start": 1116.211,
+  "end": 1117.692,
+  "speaker": "Unknown",
+  "en": "We have time for one question?",
+  "zh": "我们有时间提一个问题吗？"
+ },
+ {
+  "seg": 269,
+  "start": 1119.473,
+  "end": 1119.773,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "OK。"
+ },
+ {
+  "seg": 270,
+  "start": 1120.013,
+  "end": 1120.434,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "请吧。"
+ },
+ {
+  "seg": 271,
+  "start": 1127.778,
+  "end": 1128.719,
+  "speaker": "Unknown",
+  "en": "Thanks for the talk.",
+  "zh": "谢谢你的演讲。"
+ },
+ {
+  "seg": 272,
+  "start": 1129.059,
+  "end": 1140.827,
+  "speaker": "Unknown",
+  "en": "I don't know if you already said this, but I saw in the titles of the article Snowflake Intelligence, is that an underlying context or layer that the tool or system you built was on top of?",
+  "zh": "我不知道你是不是已经说过了，但我在 Snowflake Intelligence 那篇文章的标题里看到，那是你们所构建的工具或系统所基于的底层上下文或层吗？"
+ },
+ {
+  "seg": 273,
+  "start": 1140.927,
+  "end": 1141.467,
+  "speaker": "Unknown",
+  "en": "Or was that?",
+  "zh": "还是说那是？"
+ },
+ {
+  "seg": 274,
+  "start": 1142.508,
+  "end": 1144.45,
+  "speaker": "Unknown",
+  "en": "The tool itself or something else?",
+  "zh": "工具本身还是别的东西？"
+ },
+ {
+  "seg": 275,
+  "start": 1144.791,
+  "end": 1144.931,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 276,
+  "start": 1145.211,
+  "end": 1149.496,
+  "speaker": "Unknown",
+  "en": "Snowflake Intelligence, we renamed that to Snowflake Cowork a couple of weeks ago in our summit.",
+  "zh": "Snowflake Intelligence,我们在几周前的峰会上把它改名为 Snowflake Cowork 了。"
+ },
+ {
+  "seg": 277,
+  "start": 1149.836,
+  "end": 1155.983,
+  "speaker": "Unknown",
+  "en": "That's basically our non-code agent platform that we basically have available for our business users.",
+  "zh": "这基本上是我们的无代码智能体平台，我们基本上提供给我们的业务用户使用。"
+ },
+ {
+  "seg": 278,
+  "start": 1156.164,
+  "end": 1159.047,
+  "speaker": "Unknown",
+  "en": "I mean, the advantage of that is that all of these tools around like, you know,",
+  "zh": "我的意思是，它的优势在于，所有这些工具，比如，你知道，"
+ },
+ {
+  "seg": 279,
+  "start": 1160.468,
+  "end": 1163.289,
+  "speaker": "Unknown",
+  "en": "Cortex Analysts or Cortex Search or Cortex Science.",
+  "zh": "Cortex Analysts 或 Cortex Search 或 Cortex Science。"
+ },
+ {
+  "seg": 280,
+  "start": 1163.309,
+  "end": 1166.391,
+  "speaker": "Unknown",
+  "en": "A lot of those things are basically comes out of the box.",
+  "zh": "其中很多东西基本上都是开箱即用的。"
+ },
+ {
+  "seg": 281,
+  "start": 1166.431,
+  "end": 1173.194,
+  "speaker": "Unknown",
+  "en": "We made a strategic choice for our internal thing where we said that, look, it is important that we bring all our data together and we do that in Snowflake.",
+  "zh": "我们为内部的东西做了一个战略选择，我们说，听着，重要的是把我们所有的数据汇集到一起，我们在 Snowflake 里做这件事。"
+ },
+ {
+  "seg": 282,
+  "start": 1173.214,
+  "end": 1177.877,
+  "speaker": "Unknown",
+  "en": "We bring all the first party, the third party data, all the Salesforce data, everything, the call transcripts and so on.",
+  "zh": "我们把所有第一方数据、第三方数据、所有 Salesforce 数据、所有东西、通话记录等等都汇集进来。"
+ },
+ {
+  "seg": 283,
+  "start": 1178.337,
+  "end": 1178.837,
+  "speaker": "Unknown",
+  "en": "All together.",
+  "zh": "全部放在一起。"
+ },
+ {
+  "seg": 284,
+  "start": 1179.298,
+  "end": 1185.041,
+  "speaker": "Unknown",
+  "en": "And then these agents then can basically inherit a lot of the role-based access controls and so on.",
+  "zh": "然后这些智能体基本上就可以继承很多基于角色的访问控制等等。"
+ },
+ {
+  "seg": 285,
+  "start": 1185.501,
+  "end": 1189.003,
+  "speaker": "Unknown",
+  "en": "And then literally you can deploy these agents without writing a single line of code, right?",
+  "zh": "然后真的可以不用写一行代码就部署这些智能体，对吧？"
+ },
+ {
+  "seg": 286,
+  "start": 1190.024,
+  "end": 1192.185,
+  "speaker": "Unknown",
+  "en": "And then you don't need to worry about the UI.",
+  "zh": "然后你不用担心 UI。"
+ },
+ {
+  "seg": 287,
+  "start": 1192.245,
+  "end": 1194.646,
+  "speaker": "Unknown",
+  "en": "The chat UI comes out of the box and so on.",
+  "zh": "聊天 UI 是开箱即用的，等等。"
+ },
+ {
+  "seg": 288,
+  "start": 1195.107,
+  "end": 1198.449,
+  "speaker": "Unknown",
+  "en": "And then we have been the customer zero of that internally to build this ourselves.",
+  "zh": "然后我们在内部一直是它的零号客户，自己来构建这些东西。"
+ },
+ {
+  "seg": 289,
+  "start": 1198.529,
+  "end": 1204.512,
+  "speaker": "Unknown",
+  "en": "And then our customers are able to go and then build similar things basically on Snowflake Covert platform as well.",
+  "zh": "然后我们的客户也能够在 Snowflake Covert 平台上构建类似的东西。"
+ },
+ {
+  "seg": 290,
+  "start": 1204.572,
+  "end": 1214.275,
+  "speaker": "Unknown",
+  "en": "And it comes with the guardrails and things where you don't really need to worry about them going very crazy on what data sources to do things and so on.",
+  "zh": "它自带护栏之类的东西，你不太需要担心它们在用什么数据源做事情这些方面变得太疯狂。"
+ },
+ {
+  "seg": 291,
+  "start": 1214.295,
+  "end": 1215.836,
+  "speaker": "Unknown",
+  "en": "So we are able to do a lot of curation.",
+  "zh": "所以我们能够做大量的策划。"
+ },
+ {
+  "seg": 292,
+  "start": 1216.176,
+  "end": 1218.657,
+  "speaker": "Unknown",
+  "en": "We are able to do a lot of security guardrails on there as well.",
+  "zh": "我们也能够在上面做很多安全护栏。"
+ },
+ {
+  "seg": 293,
+  "start": 1221.658,
+  "end": 1221.978,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Harvey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]]**(02:00起):本集提到它是 Mercor 的客户之一,当年靠雇律师起家,现合作构建其法律领域的环境。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(13:20起):本集把它说成是灯塔策略的教科书案例：做 AI 法律科技（替代初级律师），因拿下头部律所，其安全证明在圈层内疯狂传播。
 - **[[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|《经验差距：让智能体越用越聪明》]]**(13:18起):本集提到 Trajectory 合作的前沿客户之一，是「真正在推动智能体生产环境能力边界」的公司，产品演示中以它和某 benchmark 为例展示模型训练与 eval 流程
+- **[[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]]**(00:03起):本集最大新闻主角：法律 AI 公司，发布基于 Kimi K3 的自研后训练模型 Harvey Tenet，让竞争律所各用各的专属模型、数据互不共享；Jason 估计它每月给 OpenAI 约 1000 万美元并将撤走 99% 的支出。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(37:11起):本集在讨论法律AI赛道资金过剩时提到，认为Harvey因拥有最广泛的分发而处于非常有利的地位
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(15:05起):本集说你需要 Harvey 把智能原语变成法律行业的经济成果
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(07:10起):本集说 Harvey 就在几天前刚发布了一个法律数据集，因为市面上能用的、像真实世界的高质量数据集太少了
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为被讨论公司
@@ -41,6 +42,7 @@ unlisted: true
 - [[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]] — 作为概念(提及)
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|《经验差距：让智能体越用越聪明》]] — 作为被讨论公司
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]] — 作为被讨论公司
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[后训练]] · [[DeepMind]] · [[Anthropic]] · [[前沿模型]] · [[RL 环境]] · [[合成数据]] · [[NVIDIA]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[后训练]] · [[Anthropic]] · [[前沿模型]] · [[DeepMind]] · [[NVIDIA]] · [[RL 环境]] · [[合成数据]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"Cursor":66,"OpenAI":128,"后训练":27,"DeepMind":10,"Anthropic":136,"前沿模型":20,"RL 环境":6,"合成数据":8,"NVIDIA":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Cursor":68,"OpenAI":129,"后训练":1,"Anthropic":138,"前沿模型":21,"DeepMind":10,"NVIDIA":45,"RL 环境":6,"合成数据":8}</script>
 
 <script>
 (function(){

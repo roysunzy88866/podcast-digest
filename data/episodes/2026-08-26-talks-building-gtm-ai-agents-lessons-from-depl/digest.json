@@ -1,0 +1,184 @@
+{
+  "title_zh": "Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训",
+  "tldr": "Snowflake 负责销售团队内部 AI 工具的负责人复盘其 go-to-market 智能体（已回答超一百万个问题）的构建方法与踩坑教训。",
+  "digest_md": "这一集是一位 Snowflake 高管的演讲——他负责公司销售团队的内部 AI 工具，团队在去年 9 月上线了一个内部 go-to-market 助手（帮销售做数据分析、回答业务问题的智能体），到演讲时已回答超过一百万个问题，每周约 4 万个。这个智能体构建在 Snowflake 自家的 Cowork 平台上，他们是自家产品的「零号客户」。\n\n最反直觉的一点：他们给销售写智能体之前，先打开电子表格、对照销售流程写下 150 个销售真会问的问题，然后一测——准确率只有 50%，全组沮丧。而他们的应对不是补数据冲覆盖率，而是砍问题面、保质量。以下是他分享的核心打法。\n\n## 质量是第一优先级：宁答 50 题 95% 对，不答 100 题 70% 对\n\n他反复强调这是团队最「虔诚」的原则。用户信任极难赢得、却一夜之间就能失去——放一个自由聊天框在那里，用户前五个问题如果体验好，就会回来；体验不好，你要花十倍功夫才可能赢回他们，甚至永远赢不回来。所以团队有句口号：「质量是 P 减一」。他们从小处起步，甚至 60% 的数据是上线之后六七个月里才陆续编辑的。今天这个系统已长成庞然大物：15 个语义视图、85 张表、3000 列数据、五六个 MCP 连接、接近 20 个技能。\n\n## 分阶段发布：试点 → 10% beta → 正式发布\n\n不能一上来就发布给所有人，因为「我们要确保赢得那前五个问题」。他们的每个产品都走三步：\n\n- **试点**：拉组织里最「AI 原生」、愿意给反馈的人进来，目标是证明准确性、磨平粗糙边缘。\n- **10% beta（600 人）**：验证 MVP 是否成立。此时会涌入海量「能不能接这个数据」的请求，要看需求在哪里集中出现——那些集中点不接上，就不是真 MVP。这一阶段的核心指标是留存率：他们结束时周活用户回访留存率超过 70%。\n- **GA 正式发布**。\n\n## 发布才是真正的战斗：变革管理\n\n「这是很多产品失败的地方」。发布两周后管理层就失望：为什么没人用？他的回答是：组织里只有 20% 的人真正试用过产品——人们连五分钟都不肯花，那不是产品的错；试了不回来才是我的问题。\n\n所以他在变革管理上大幅投入：把 60%、70% 的时间花在销售会议上做演示、搭仪表盘看哪些团队采用了、让表现好的团队经理「有面子」、从销售负责人那里拿到支持去推动团队试用。他说得非常重：「如果你没做这件事，我们今天可能只有一半的成果」。工程师容易忽略：很多 AI 项目不是败在技术，而是败在激活环节。\n\n## 「惊艳感坍塌」：只做第一波，一两个月内就会被颠覆\n\n成功上线几个月后，用户从走廊里夸你，变成回来抱怨「这个做不了了」「我看到别的 AI 产品能做」——他称之为「惊艳墙效应的坍塌」：你很酷，然后变成习惯，再变成基线，用户一夜之间就会切换到更好的产品。\n\n所以产品要一波接一波地抬门槛，他们看到的是这样一条演进路线：\n1. **和你的数据对话**——从几百个仪表盘和对分析师的依赖里解放出来；\n2. **自动化工作流**——靠 MCP 连接和集成，销售用智能体监控收件箱和 Slack、起草客户回复存进 Gmail、审阅后发出；\n3. **团队自助构建**——过去市场团队永远排在 IT 积压任务里，现在他们能自己建团队技能、自定义仪表盘、应用、自动化和告警；\n4. **超个性化**——结合客户实时情境，为每个销售甚至每个客户定制。\n\n## 不追求完美架构：80% 的 PRD 和现在对不上\n\n他见过很多大企业客户还在「试图购买那套完美的架构」、反复测试框架——但他们不构建、不上线、不学习。而他自己的团队恰恰相反：首次上线时智能体指令长达九页，版本靠一个 Google Doc 管理，就这样发给了 6000 人。之后才逐步补上 CI/CD、评估基础设施（单元测试、路由测试）、技能库、渐进式披露等。\n\n如今对比项目初期的 PRD 和架构图，「80% 都对不上」。他们的冲刺里 60%-70% 是加新功能、提质量，30%-40% 是用新技术不断重新架构。他的建议：别过度投资当前架构、别搞六到九个月的超级架构项目，用今天的现有技术栈在几周甚至几天内交付，坦然接受持续重架构——你等待越久，竞争对手就多拿三四个月的客户。\n\n## 投资日志：反馈回路是指数增长的来源\n\n最后一条强烈建议：投资你的日志。他们用 LLM 对 120 万个问题做大规模分类（技术上很有趣、数据科学家很爱做），得到极细的主题细分，能实时看到功能缺口——用户问了答不上、对智能体爆粗口、重复提问的位置。\n\n这个日志对销售赋能是座金矿：过去要每周访谈约 100 个销售才能摸清话题变化和知识缺口，现在问一个问题、一两分钟就有答案；再接上 Confluence、Jira、Slack、PRD，几分钟内自动生成作战卡和销售赋能文档，再喂回智能体。他们还能发现销售组织里不同团队在从不同角度瞄准相似客户账户却互不知情，然后主动撮合。他说，头几个功能最难做，但一旦开始挖掘日志，「曲棍球杆式的指数增长就真的开始发生了，非常神奇」。\n\n## 本集带走\n\n- **质量重于覆盖面**：宁答 50 题 95% 对，不答 100 题 70% 对。前五个问题的体验决定用户回不回来，信任丢了要花十倍力气赢回。\n- **先写 150 个真实问题再动手**：对照销售流程列出卖家的真实问题，用它们当验收标准，而不是先堆数据源。\n- **分阶段发布**：试点磨精度 → 10% beta 验证 MVP 和留存（他们做到 70%+ 回访留存）→ 再正式发布。\n- **变革管理占大头**：发布后 60-70% 的时间投入销售会议、演示、团队仪表盘和销售负责人背书——很多 AI 项目败在激活，不是败在技术。\n- **警惕惊艳感坍塌**：用户满意时就要保持警惕，规划一两个月后的下一波功能；只做「和数据对话」这一层，很快会被切换掉。\n- **别追完美架构**：别搞六到九个月的长期项目，几周几天交付，接受持续重架构（他们的冲刺 30-40% 时间在重架构）。\n- **投资日志反馈回路**：用 LLM 分类用户问题，实时发现缺口、自动生成销售赋能材料、做团队撮合——这是增长曲线翘起来的地方。",
+  "quotes": [
+    {
+      "en": "User trust is earned extremely hard, and it's lost overnight.",
+      "zh": "用户信任极难赢得，却能在一夜之间失去。",
+      "timestamp": "03:31",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "If they don't like what they see, it's 10 times more effort for you to win them back, if you can ever win them back, right?",
+      "zh": "如果他们不喜欢看到的答案，你要花十倍的功夫才能赢回他们——如果你还能赢回来的话，对吧？",
+      "timestamp": "03:52",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "There's not a single human on this planet can stay on top of that much data.",
+      "zh": "这个星球上没有一个人能跟得上那么多的数据。",
+      "timestamp": "02:23",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "I cannot do anything, it's not the product's fault if people are not even taking five minutes to try the product, right?",
+      "zh": "我无能为力，如果人们连五分钟都不肯花来试用产品，那不是产品的错，对吧？",
+      "timestamp": "07:40",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "I think the main message I want to give here is, if you just do the first stage, and if you just wait there, you will get disrupted in a month or two, right?",
+      "zh": "我想在这里传达的主要信息是，如果你只做到第一个阶段，如果你只是停留在那里，你会在一两个月内被颠覆，对吧？",
+      "timestamp": "11:14",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "If I look at the PRD and the architectural diagram we wrote in the beginning of the project, if I compare it to this architecture we have now, 80% of it doesn't match.",
+      "zh": "如果我去看我们在项目开始时写的 PRD 和架构图，如果我和我们现在拥有的这个架构相比，80% 都对不上。",
+      "timestamp": "13:17",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "So, like, if you look at our sprints, like, maybe 60-70% of the work we are doing is adding new features, improving quality, and all kinds of things, but 30-40% of the work is that we are constantly re-architecting with the new technology.",
+      "zh": "比如，如果你看我们的冲刺，也许 60%-70% 的工作是在添加新功能、提升质量和各种各样的事情，但有 30%-40% 的工作是我们在不断地用新技术重新架构。",
+      "timestamp": "13:27",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "The first features are difficult to get out, the next ones are easy, and then once you start tapping into your logs, this hockey stick exponential thing actually starts happening, and it's magical.",
+      "zh": "头几个功能很难做出来，接下来的就容易了，然后一旦你开始挖掘你的日志，这种曲棍球杆式的指数增长就真的开始发生了，非常神奇。",
+      "timestamp": "16:20",
+      "speaker": "Sait Izmit"
+    },
+    {
+      "en": "If you go for the coverage, you are going to shoot yourself in the foot, okay?",
+      "zh": "如果你追求覆盖面，你会搬起石头砸自己的脚，好吗？",
+      "timestamp": "16:43",
+      "speaker": "Sait Izmit"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:31",
+      "speaker": "Unknown",
+      "en": "User trust is earned extremely hard, and it's lost overnight.",
+      "zh": "用户信任极难赢得，却能在一夜之间失去。"
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Unknown",
+      "en": "If they don't like what they see, it's 10 times more effort for you to win them back, if you can ever win them back, right?",
+      "zh": "如果他们不喜欢看到的答案，你要花十倍的功夫才能赢回他们——如果你还能赢回来的话，对吧？"
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "Unknown",
+      "en": "We want to answer 50 questions, but get them 95% right.",
+      "zh": "我们想回答 50 个问题，但 95% 答对。"
+    },
+    {
+      "timestamp": "02:23",
+      "speaker": "Unknown",
+      "en": "There's not a single human on this planet can stay on top of that much data.",
+      "zh": "这个星球上没有一个人能跟得上那么多的数据。"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Unknown",
+      "en": "I know that this is a technical conference, but this is also where a lot of these products fail.",
+      "zh": "我知道这是一个技术大会，但这也是很多产品失败的地方。"
+    },
+    {
+      "timestamp": "07:40",
+      "speaker": "Unknown",
+      "en": "I cannot do anything, it's not the product's fault if people are not even taking five minutes to try the product, right?",
+      "zh": "我无能为力，如果人们连五分钟都不肯花来试用产品，那不是产品的错，对吧？"
+    },
+    {
+      "timestamp": "08:32",
+      "speaker": "Unknown",
+      "en": "And I want to really, really emphasize this, because if you hadn't done this, we would probably be doing half of where we are today.",
+      "zh": "我想非常非常强调这一点，因为如果你没做这件事，我们今天可能只有一半的成果。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Unknown",
+      "en": "I think the main message I want to give here is, if you just do the first stage, and if you just wait there, you will get disrupted in a month or two, right?",
+      "zh": "我想在这里传达的主要信息是，如果你只做到第一个阶段，如果你只是停留在那里，你会在一两个月内被颠覆，对吧？"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Unknown",
+      "en": "They're gonna just switch overnight, okay?",
+      "zh": "他们会一夜之间就切换过去，对吧？"
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Unknown",
+      "en": "So you need to keep iterating, you need to keep that wow factor, and I cannot just rely on the fact that, you know, what I built so far is gonna stay cool forever.",
+      "zh": "所以你需要持续迭代，你需要保持那种惊艳感，我不能仅仅依赖这样一个事实，就是，到目前为止我构建的东西会永远保持酷炫。"
+    },
+    {
+      "timestamp": "12:23",
+      "speaker": "Unknown",
+      "en": "When we literally first launched the agent, it was a nine-page long agent instructions.",
+      "zh": "当我们第一次上线这个智能体时，它是一份九页长的智能体指令。"
+    },
+    {
+      "timestamp": "13:17",
+      "speaker": "Unknown",
+      "en": "If I look at the PRD and the architectural diagram we wrote in the beginning of the project, if I compare it to this architecture we have now, 80% of it doesn't match.",
+      "zh": "如果我去看我们在项目开始时写的 PRD 和架构图，如果我和我们现在拥有的这个架构相比，80% 都对不上。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Unknown",
+      "en": "So, like, if you look at our sprints, like, maybe 60-70% of the work we are doing is adding new features, improving quality, and all kinds of things, but 30-40% of the work is that we are constantly re-architecting with the new technology.",
+      "zh": "比如，如果你看我们的冲刺，也许 60%-70% 的工作是在添加新功能、提升质量和各种各样的事情，但有 30%-40% 的工作是我们在不断地用新技术重新架构。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Unknown",
+      "en": "You should be okay to, like, pivot very easily so that you can basically double down on these, like, new capabilities and things like that.",
+      "zh": "你应该能够非常轻松地转向，这样你就可以在这些新能力之类的东西上加倍投入。"
+    },
+    {
+      "timestamp": "14:09",
+      "speaker": "Unknown",
+      "en": "Last thing is I would really, really recommend investing in your logs, okay, because they create basically the feedback loop.",
+      "zh": "最后一点是我真的、真的建议投资于你的日志，因为它们基本上构成了反馈循环。"
+    },
+    {
+      "timestamp": "15:20",
+      "speaker": "Unknown",
+      "en": "For sales enablement, it's a goldmine.",
+      "zh": "对于销售赋能来说，这是一座金矿。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Unknown",
+      "en": "I mean, you cannot do that kind of a feedback loop with humans, right?",
+      "zh": "我是说，你没办法用人类做这种反馈回路，对吧？"
+    },
+    {
+      "timestamp": "16:20",
+      "speaker": "Unknown",
+      "en": "The first features are difficult to get out, the next ones are easy, and then once you start tapping into your logs, this hockey stick exponential thing actually starts happening, and it's magical.",
+      "zh": "头几个功能很难做出来，接下来的就容易了，然后一旦你开始挖掘你的日志，这种曲棍球杆式的指数增长就真的开始发生了，非常神奇。"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Unknown",
+      "en": "If you go for the coverage, you are going to shoot yourself in the foot, okay?",
+      "zh": "如果你追求覆盖面，你会搬起石头砸自己的脚，好吗？"
+    },
+    {
+      "timestamp": "17:04",
+      "speaker": "Unknown",
+      "en": "So they fail actually in activation.",
+      "zh": "所以它们实际上是在激活环节失败的。"
+    }
+  ],
+  "voice_script": "今天要聊的这个人,在 Snowflake 负责销售团队的内部 AI 工具。他们去年 9 月上线了一个内部助手,专门帮销售做数据分析、回答业务问题,到做这个分享的时候,已经回答超过一百万个问题,每周大概四万个。这个东西建在 Snowflake 自家的 Cowork 平台上,用他自己的话说,他们是自家产品的零号客户。这一集,就是复盘这个智能体是怎么做出来的,踩过哪些坑。\n\n先说一个最反直觉的做法。在动手写智能体之前,他们先打开电子表格,对照销售流程,写下 150 个销售真会问的问题。然后拿这些问题一测——准确率只有 50%,全组都挺沮丧。你猜怎么应对?不是拼命补数据、扩大覆盖面,而是反着来:砍掉问题面,保住质量。\n\n这就引出了他们最核心的一条原则,团队里甚至有句口号,叫质量是 P 减一,意思是优先级最高中的最高。为什么这么执着?因为用户信任这东西,极难赢得,却一夜之间就能失去。你放一个自由聊天框在那儿,用户头五个问题如果体验好,就会回来;要是体验不好,你得花十倍的功夫才可能赢回他们,甚至永远赢不回来。所以他们从小处起步,答 50 题就要 95% 对,不答 100 题只对 70%。甚至一开始有 60% 的数据,是上线之后六七个月里才慢慢补的。今天这个系统已经长得很庞大了:15 个语义视图、85 张表、3000 列数据、五六个 MCP 连接、接近 20 个技能。\n\n那质量定了,接下来怎么发?他们没有一上来就推给所有人,还是那句话——要确保赢得那前五个问题。每个产品都走三步。第一步试点,拉组织里最懂 AI、愿意给反馈的人进来,目标是证明准确性,把粗糙的地方磨平。第二步,放开给 10% 的人做 beta,大概 600 人。这个阶段会涌进海量的请求,全是\"能不能接这个数据、接那个数据\"。这时候要看需求在哪儿集中出现——集中出现的地方不接上,就不算真正的 MVP。这个阶段的核心指标是留存率,他们结束时,周活用户的回访留存率超过了 70%。第三步,才是正式发布。\n\n但发布,才是真正战斗的开始。上线两周后,管理层就失望了:怎么没人用?负责人怎么回应的?他说,组织里只有 20% 的人真正试用过产品。如果人们连五分钟都不肯花来试用,那不是产品的错;试了不回来,那才是我的问题。所以接下来,把大量时间砸在变革管理上——60%、70% 的时间花在销售会议上做演示,搭仪表盘盯着哪些团队采用了,让表现好的团队经理\"有面子\",再从销售负责人那里拿到支持,去推动团队试用。他说得非常重:如果没做这件事,今天可能只有一半的成果。很多 AI 项目不是败在技术,是败在激活这一环,工程师特别容易忽略这个。\n\n好,产品火了、用户回来了,是不是就高枕无忧了?恰恰相反。几个月后,用户从在走廊里夸你,变成回来抱怨:这个做不了了,我看到别的 AI 产品能做。这有个名字,叫惊艳感坍塌——你很酷,然后变成习惯,再变成基线,用户一夜之间就会切换到更好的产品。所以产品得一波接一波地抬门槛。他们看到的演进路线是这样的:第一波,和你的数据对话,把销售从几百个仪表盘、事事依赖分析师里解放出来;第二波,自动化工作流,靠 MCP 连接,销售让智能体盯着收件箱和 Slack,起草客户回复,审一遍再发;第三波,团队自助构建,过去市场团队的活永远排在 IT 的积压清单里,现在他们能自己建技能、建仪表盘、建自动化;第四波,超个性化,结合客户实时情境,给每个销售、甚至每个客户定制。只停留在第一波,一两个月内就会被颠覆。\n\n还有一点特别值得说:别追完美架构。他见过很多大企业客户,还在反复测试框架、想买一套完美架构——结果就是,不构建、不上线、不学习。他们团队正好反过来。第一次上线的时候,智能体的指令长达九页,版本靠一个 Google Doc 管,就这么发给了 6000 人。之后才一点点补上 CI/CD、评估基础设施、技能库这些。现在回头看项目初期写的 PRD 和架构图,80% 都跟现在对不上。他们每个冲刺里,60% 到 70% 是加新功能、提质量,30% 到 40% 是用新技术重新架构。建议就是:别搞六到九个月的超级架构项目,用今天的技术栈,几周甚至几天就交付。你等待越久,竞争对手就多拿三四个月的客户。\n\n那新功能的需求从哪儿来?最后一条强烈建议:投资你的日志。他们用大模型对 120 万个用户问题做了大规模分类,得到极细的主题细分,能实时看到功能缺口——用户问了答不上来的地方、对智能体爆粗口的地方、反复提问的地方。这个日志对销售赋能是一座金矿。过去要每周访谈大约 100 个销售,才能摸清话题变化和知识缺口;现在问一个问题,一两分钟就有答案。再接上 Confluence、Jira、Slack 和 PRD,几分钟就能自动生成作战卡和赋能文档,再喂回智能体。他们甚至发现,销售组织里不同团队在从不同角度盯着相似的客户账户,却互不知情,然后主动撮合。头几个功能最难做,但一旦开始挖日志,曲棍球杆式的指数增长就真的开始了。\n\n这一集最值得带走的一句话:宁答 50 题 95% 对,不答 100 题 70% 对——因为信任极难赢得,却能在一夜之间失去。"
+}

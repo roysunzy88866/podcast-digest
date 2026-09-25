@@ -25,7 +25,7 @@ unlisted: true
 
 [[Laurent]] · [[Charles Gorintin]] · [[Alan]] · [[Mistral]] · [[Stripe]] · [[OpenAI]] · [[智能体]] · [[彻底透明]] · [[Shasterton 障碍]] · [[GPT-3]]
 
-<script type="application/json" class="pd-epn">{"Laurent":1,"Charles Gorintin":1,"Alan":1,"Mistral":6,"Stripe":34,"OpenAI":128,"智能体":312,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":3}</script>
+<script type="application/json" class="pd-epn">{"Laurent":1,"Charles Gorintin":1,"Alan":1,"Mistral":6,"Stripe":34,"OpenAI":129,"智能体":317,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":3}</script>
 
 <script>
 (function(){

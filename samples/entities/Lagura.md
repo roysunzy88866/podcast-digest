@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Matt Murphy]] · [[Anthropic]] · [[Menlo]] · [[OpenAI]] · [[Lovable]] · [[OpenRouter]] · [[Eleven Labs]] · [[ChatGPT]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Matt Murphy":1,"Anthropic":136,"Menlo":1,"OpenAI":128,"Lovable":15,"OpenRouter":10,"Eleven Labs":6,"ChatGPT":76,"Cursor":66}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Matt Murphy":1,"Anthropic":138,"Menlo":1,"OpenAI":129,"Lovable":16,"OpenRouter":10,"Eleven Labs":7,"ChatGPT":77,"Cursor":68}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":19,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":14,"验证器":6,"上下文":20}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":20,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":14,"验证器":6,"上下文":20}</script>
 
 <script>
 (function(){

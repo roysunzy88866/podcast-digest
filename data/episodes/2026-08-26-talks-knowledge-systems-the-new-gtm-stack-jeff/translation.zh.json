@@ -1,0 +1,1938 @@
+[
+ {
+  "seg": 0,
+  "start": 12.704,
+  "end": 13.424,
+  "speaker": "Unknown",
+  "en": "Hey, everybody, I'm Jeff.",
+  "zh": "嘿,大家好,我是 Jeff。"
+ },
+ {
+  "seg": 1,
+  "start": 13.564,
+  "end": 24.09,
+  "speaker": "Unknown",
+  "en": "I guess I was introduced, but I'm the co-founder of Exa, and today I'm gonna give a talk on turning go-to-market into an AI engineering problem in the spirit of this AI engineering affair.",
+  "zh": "我猜刚才已经介绍过我了,我是 Exa 的联合创始人,今天我要做一个演讲,主题是把 go-to-market(市场推广)变成一个 AI 工程问题,以契合这场 AI 工程活动的精神。"
+ },
+ {
+  "seg": 2,
+  "start": 24.17,
+  "end": 27.131,
+  "speaker": "Unknown",
+  "en": "And just a quick show of hands just to understand the audience.",
+  "zh": "先快速举手调查一下,了解一下观众情况。"
+ },
+ {
+  "seg": 3,
+  "start": 27.552,
+  "end": 28.792,
+  "speaker": "Unknown",
+  "en": "Raise your hand if you're technical.",
+  "zh": "如果你是技术人员,请举手。"
+ },
+ {
+  "seg": 4,
+  "start": 30.573,
+  "end": 31.454,
+  "speaker": "Unknown",
+  "en": "Okay, great, okay.",
+  "zh": "好,很好,好的。"
+ },
+ {
+  "seg": 5,
+  "start": 31.494,
+  "end": 39.758,
+  "speaker": "Unknown",
+  "en": "So I kind of oriented this talk around go-to-market as presented to engineers, so I'm happy that I did that.",
+  "zh": "所以我把这个演讲定位为面向工程师的 go-to-market,我很高兴我这么做了。"
+ },
+ {
+  "seg": 6,
+  "start": 40.902,
+  "end": 49.984,
+  "speaker": "Unknown",
+  "en": "Cool, so first, just to ground what EXA is, because it's sort of relevant inside of this presentation, EXA is a search engine for agents.",
+  "zh": "好,首先,先说明一下 EXA 是什么,因为它和这个演示的内容有点相关,EXA 是一个面向智能体的搜索引擎。"
+ },
+ {
+  "seg": 7,
+  "start": 50.044,
+  "end": 53.185,
+  "speaker": "Unknown",
+  "en": "Think like, agents are really smart, but they don't have access to the web.",
+  "zh": "想象一下,智能体非常聪明,但它们无法访问网络。"
+ },
+ {
+  "seg": 8,
+  "start": 53.205,
+  "end": 55.786,
+  "speaker": "Unknown",
+  "en": "We're like this web MCP, web tool that agents can access.",
+  "zh": "我们就像一个网络 MCP、一个智能体可以访问的网络工具。"
+ },
+ {
+  "seg": 9,
+  "start": 55.806,
+  "end": 59.627,
+  "speaker": "Unknown",
+  "en": "We power Cursor, we power Cognition, we power a lot of the AI ecosystem at this point.",
+  "zh": "我们为 Cursor 提供支持,为 Cognition 提供支持,目前为 AI 生态系统的很大一部分提供支持。"
+ },
+ {
+  "seg": 10,
+  "start": 60.674,
+  "end": 65.82,
+  "speaker": "Unknown",
+  "en": "And before we start, I also just want to talk about, especially as a technical audience, why should you even care?",
+  "zh": "在开始之前,我也想谈谈,尤其是对技术观众来说,你为什么要在乎这个?"
+ },
+ {
+  "seg": 11,
+  "start": 66.661,
+  "end": 67.782,
+  "speaker": "Unknown",
+  "en": "Why should you care about go-to-market?",
+  "zh": "你为什么要关心 go-to-market?"
+ },
+ {
+  "seg": 12,
+  "start": 67.822,
+  "end": 72.046,
+  "speaker": "Unknown",
+  "en": "I guess this audience cares about go-to-market because you chose to go to this go-to-market talk.",
+  "zh": "我猜这个观众关心 go-to-market,因为你们选择了来听这个 go-to-market 演讲。"
+ },
+ {
+  "seg": 13,
+  "start": 72.347,
+  "end": 79.514,
+  "speaker": "Unknown",
+  "en": "But I think there's this funny narrative right now, which is people are like, oh, product is the only thing that matters, or distribution is the only thing that matters.",
+  "zh": "(勘误:此行应保持原编号)你要找出关于目标对象的信息。"
+ },
+ {
+  "seg": 14,
+  "start": 79.895,
+  "end": 81.056,
+  "speaker": "Unknown",
+  "en": "And there's all sorts of Twitter flame wars.",
+  "zh": "而且 Twitter 上有各种各样的骂战。"
+ },
+ {
+  "seg": 15,
+  "start": 82.998,
+  "end": 87.662,
+  "speaker": "Unknown",
+  "en": "Like, oh, is Clueli going to succeed because they're really good at distribution, but they're like, what the heck is their product?",
+  "zh": "比如,哦,Clueli 会成功是因为他们真的很擅长分发,但他们的产品到底是什么鬼?"
+ },
+ {
+  "seg": 16,
+  "start": 87.682,
+  "end": 94.968,
+  "speaker": "Unknown",
+  "en": "And then other people are like, oh, the product needs to be super good because agents shop for the product, so they'll shop for the best product.",
+  "zh": "然后另一些人说,哦,产品必须超级好,因为智能体会挑选产品,所以它们会挑选最好的产品。"
+ },
+ {
+  "seg": 17,
+  "start": 95.328,
+  "end": 98.691,
+  "speaker": "Unknown",
+  "en": "And so my view and my experience in the last few years is that",
+  "zh": "而我的观点和过去几年的经验是:"
+ },
+ {
+  "seg": 18,
+  "start": 99.572,
+  "end": 100.672,
+  "speaker": "Unknown",
+  "en": "You just kind of have to do both.",
+  "zh": "你基本上必须两者都做。"
+ },
+ {
+  "seg": 19,
+  "start": 100.872,
+  "end": 103.993,
+  "speaker": "Unknown",
+  "en": "Like, I think you have to get product right and you have to get go-to-market right.",
+  "zh": "我认为你必须把产品做对,也必须把 go-to-market 做对。"
+ },
+ {
+  "seg": 20,
+  "start": 104.473,
+  "end": 105.613,
+  "speaker": "Unknown",
+  "en": "Like, you got to build the thing.",
+  "zh": "你得把东西造出来。"
+ },
+ {
+  "seg": 21,
+  "start": 105.653,
+  "end": 106.394,
+  "speaker": "Unknown",
+  "en": "It's got to be good.",
+  "zh": "它得是好的。"
+ },
+ {
+  "seg": 22,
+  "start": 106.934,
+  "end": 108.374,
+  "speaker": "Unknown",
+  "en": "And then you got to get it into people's hands.",
+  "zh": "然后你得把它送到人们手中。"
+ },
+ {
+  "seg": 23,
+  "start": 108.394,
+  "end": 110.554,
+  "speaker": "Unknown",
+  "en": "If you don't do both things, then you don't have a company.",
+  "zh": "如果你不同时做到这两件事,你就没有一家公司。"
+ },
+ {
+  "seg": 24,
+  "start": 111.635,
+  "end": 114.095,
+  "speaker": "Unknown",
+  "en": "So that's kind of my view on the matter.",
+  "zh": "这就是我对这件事的看法。"
+ },
+ {
+  "seg": 25,
+  "start": 114.695,
+  "end": 121.337,
+  "speaker": "Unknown",
+  "en": "And I would say, like, a really funny thing also is, like, as a technical person, when you start a company or you start some sort of project,",
+  "zh": "我想说,还有一件非常有趣的事是,作为一个技术人员,当你创办一家公司或开始某种项目时,"
+ },
+ {
+  "seg": 26,
+  "start": 121.777,
+  "end": 126.279,
+  "speaker": "Unknown",
+  "en": "Like very much so the bias is like, hey, I'm going to just build the thing.",
+  "zh": "倾向性非常明显,就是:嘿,我就只管把东西造出来。"
+ },
+ {
+  "seg": 27,
+  "start": 126.299,
+  "end": 128.58,
+  "speaker": "Unknown",
+  "en": "I'm gonna make it really, really freaking good, right?",
+  "zh": "我要把它做得非常非常厉害,对吧?"
+ },
+ {
+  "seg": 28,
+  "start": 128.6,
+  "end": 130.62,
+  "speaker": "Unknown",
+  "en": "Like that's kind of like the bias you have as like an engineer.",
+  "zh": "这基本上就是你作为工程师的倾向。"
+ },
+ {
+  "seg": 29,
+  "start": 130.861,
+  "end": 135.282,
+  "speaker": "Unknown",
+  "en": "That's the bias we had when we started Exo and we were like honestly pretty bad at go to market.",
+  "zh": "这就是我们创办 Exo 时的倾向,而说实话,我们当时很不擅长 go-to-market。"
+ },
+ {
+  "seg": 30,
+  "start": 135.302,
+  "end": 138.303,
+  "speaker": "Unknown",
+  "en": "Like we were not doing enough marketing, we were not doing enough sales.",
+  "zh": "我们做的营销不够,销售也不够。"
+ },
+ {
+  "seg": 31,
+  "start": 139.084,
+  "end": 149.588,
+  "speaker": "Unknown",
+  "en": "But I think the cool thing about go to market, particularly in 2026, is you can treat go to market like an engineering problem and particularly an AI engineering problem.",
+  "zh": "但我认为 go-to-market 的酷之处,尤其是在 2026 年,是你可以把 go-to-market 当作一个工程问题来对待,尤其是当作一个 AI 工程问题。"
+ },
+ {
+  "seg": 32,
+  "start": 149.988,
+  "end": 151.87,
+  "speaker": "Unknown",
+  "en": "And so I think that's a super exciting thing.",
+  "zh": "所以我觉得这是一件非常令人兴奋的事。"
+ },
+ {
+  "seg": 33,
+  "start": 151.89,
+  "end": 157.657,
+  "speaker": "Unknown",
+  "en": "It's more fun for engineers than ever to do go to market, because you can automate things.",
+  "zh": "对工程师来说,做 go-to-market 比以往任何时候都更有趣,因为你可以自动化很多事情。"
+ },
+ {
+  "seg": 34,
+  "start": 157.697,
+  "end": 161.501,
+  "speaker": "Unknown",
+  "en": "You can do so much as one person, et cetera.",
+  "zh": "一个人可以做非常多的事情,等等。"
+ },
+ {
+  "seg": 35,
+  "start": 161.822,
+  "end": 164.905,
+  "speaker": "Unknown",
+  "en": "Also, I want to make this interactive.",
+  "zh": "另外,我想让这个演讲有互动性。"
+ },
+ {
+  "seg": 36,
+  "start": 165.045,
+  "end": 170.612,
+  "speaker": "Unknown",
+  "en": "If anybody has questions at any point, please ask, because I'm aware there's a lot of talks, and I don't want to bore you.",
+  "zh": "如果任何人在任何时候有问题,请提问,因为我知道演讲很多,我不想让你们觉得无聊。"
+ },
+ {
+  "seg": 37,
+  "start": 172.985,
+  "end": 178.811,
+  "speaker": "Unknown",
+  "en": "Cool, so the hypothesis I have is if you're an engineer, or if you're anyone, you can treat go-to-market like an engineering problem.",
+  "zh": "好,我的假设是:如果你是工程师,或者你是任何人,你都可以把 go-to-market 当作一个工程问题来对待。"
+ },
+ {
+  "seg": 38,
+  "start": 178.831,
+  "end": 181.014,
+  "speaker": "Unknown",
+  "en": "So first, I guess, what do go-to-market teams do?",
+  "zh": "那么,首先,go-to-market 团队都做些什么?"
+ },
+ {
+  "seg": 39,
+  "start": 181.595,
+  "end": 186.28,
+  "speaker": "Unknown",
+  "en": "So I have a laundry list of things here, of things that go-to-market teams do, but here are a few.",
+  "zh": "我这里有一个长长的清单,列出了 go-to-market 团队做的事情,这里列举几个。"
+ },
+ {
+  "seg": 40,
+  "start": 186.38,
+  "end": 187.341,
+  "speaker": "Unknown",
+  "en": "One is you gotta research",
+  "zh": "一个是你要做研究。"
+ },
+ {
+  "seg": 41,
+  "start": 188.177,
+  "end": 189.138,
+  "speaker": "Unknown",
+  "en": "Like, your customer, right?",
+  "zh": "比如,你的客户,对吧?"
+ },
+ {
+  "seg": 42,
+  "start": 189.158,
+  "end": 190.358,
+  "speaker": "Unknown",
+  "en": "You gotta research your targets.",
+  "zh": "你要研究你的目标对象。"
+ },
+ {
+  "seg": 43,
+  "start": 190.778,
+  "end": 193.84,
+  "speaker": "Unknown",
+  "en": "You have to find out information about targets.",
+  "zh": "你必须找到关于目标的信息。"
+ },
+ {
+  "seg": 44,
+  "start": 193.86,
+  "end": 196.401,
+  "speaker": "Unknown",
+  "en": "You have to find the right people at particular companies.",
+  "zh": "你必须找到特定公司里的合适的人。"
+ },
+ {
+  "seg": 45,
+  "start": 196.982,
+  "end": 198.303,
+  "speaker": "Unknown",
+  "en": "You have to build POCs.",
+  "zh": "你必须构建 POC。"
+ },
+ {
+  "seg": 46,
+  "start": 199.103,
+  "end": 201.384,
+  "speaker": "Unknown",
+  "en": "There's, like, just a ton of stuff you have to do, right?",
+  "zh": "你要做的事情实在太多了,对吧?"
+ },
+ {
+  "seg": 47,
+  "start": 202.885,
+  "end": 206.847,
+  "speaker": "Unknown",
+  "en": "So, you know, I'm not gonna list everything here, but, like, what is the grand unifying theme?",
+  "zh": "所以,你知道,我不打算在这里列出所有事情,但是,大统一的主题是什么?"
+ },
+ {
+  "seg": 48,
+  "start": 207.107,
+  "end": 210.149,
+  "speaker": "Unknown",
+  "en": "Well, go-to-market is a data problem, right?",
+  "zh": "嗯,go-to-market 是一个数据问题,对吧?"
+ },
+ {
+  "seg": 49,
+  "start": 210.169,
+  "end": 213.291,
+  "speaker": "Unknown",
+  "en": "So you have this, like, entire world of...",
+  "zh": "所以你有了这个,整个世界的……"
+ },
+ {
+  "seg": 50,
+  "start": 215.112,
+  "end": 224.581,
+  "speaker": "Unknown",
+  "en": "of what your product does, and then this entire world of all your potential customers, and you're just trying to learn and figure out what your world looks like.",
+  "zh": "你的产品是做什么的，然后是整个由所有潜在客户组成的世界，而你只是试图学习和弄清楚你的世界是什么样子。"
+ },
+ {
+  "seg": 51,
+  "start": 225.142,
+  "end": 227.524,
+  "speaker": "Unknown",
+  "en": "And so this is my proposal.",
+  "zh": "所以这就是我的提议。"
+ },
+ {
+  "seg": 52,
+  "start": 227.604,
+  "end": 230.107,
+  "speaker": "Unknown",
+  "en": "It's a data problem, and we have to solve it from a data perspective.",
+  "zh": "这是一个数据问题，我们必须从数据的角度来解决它。"
+ },
+ {
+  "seg": 53,
+  "start": 231.627,
+  "end": 233.968,
+  "speaker": "Unknown",
+  "en": "Cool, so okay, so what is the data that is relevant?",
+  "zh": "好的，那么，相关的是什么数据呢？"
+ },
+ {
+  "seg": 54,
+  "start": 234.648,
+  "end": 240.049,
+  "speaker": "Unknown",
+  "en": "I propose that you need basically a live model of your world that agents can act on.",
+  "zh": "我提出，你基本上需要一个智能体可以据此行动的、关于你的世界的实时模型。"
+ },
+ {
+  "seg": 55,
+  "start": 240.609,
+  "end": 241.81,
+  "speaker": "Unknown",
+  "en": "And so what does that mean?",
+  "zh": "那么这意味着什么呢？"
+ },
+ {
+  "seg": 56,
+  "start": 242.05,
+  "end": 244.11,
+  "speaker": "Unknown",
+  "en": "Okay, well, one is you have a ton of internal data, right?",
+  "zh": "好的，首先，你拥有大量内部数据，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 244.39,
+  "end": 250.412,
+  "speaker": "Unknown",
+  "en": "There's all this information that you know about your customers, about people that are at your company,",
+  "zh": "有所有这些你了解的关于你的客户、关于你公司里的人的信息，"
+ },
+ {
+  "seg": 58,
+  "start": 252.092,
+  "end": 254.193,
+  "speaker": "Unknown",
+  "en": "Data about how people use the product.",
+  "zh": "关于人们如何使用产品的数据。"
+ },
+ {
+  "seg": 59,
+  "start": 254.214,
+  "end": 256.035,
+  "speaker": "Unknown",
+  "en": "That's internal data that you know.",
+  "zh": "那是你了解的内部数据。"
+ },
+ {
+  "seg": 60,
+  "start": 256.715,
+  "end": 258.576,
+  "speaker": "Unknown",
+  "en": "And then there's all sorts of external data.",
+  "zh": "然后还有各种各样的外部数据。"
+ },
+ {
+  "seg": 61,
+  "start": 259.077,
+  "end": 265.321,
+  "speaker": "Unknown",
+  "en": "There's over 60 million companies in the world, and there's billions of people, over a billion that are on LinkedIn, for example.",
+  "zh": "世界上有超过 6000 万家公司，有数十亿人，比如在 LinkedIn 上就有超过十亿人。"
+ },
+ {
+  "seg": 62,
+  "start": 265.781,
+  "end": 269.024,
+  "speaker": "Unknown",
+  "en": "And all sorts of stuff is happening every day.",
+  "zh": "而且每天都在发生各种各样的事情。"
+ },
+ {
+  "seg": 63,
+  "start": 269.064,
+  "end": 270.024,
+  "speaker": "Unknown",
+  "en": "There's all this news.",
+  "zh": "有这么多新闻。"
+ },
+ {
+  "seg": 64,
+  "start": 270.645,
+  "end": 281.232,
+  "speaker": "Unknown",
+  "en": "And so when you're building this data go-to-market system, it's important to keep in mind all the different sources that exist and are available to your agents.",
+  "zh": "所以当你构建这个数据驱动的市场进入系统时，重要的是要记住所有存在的、可供你的智能体使用的不同数据源。"
+ },
+ {
+  "seg": 65,
+  "start": 283.085,
+  "end": 290.749,
+  "speaker": "Unknown",
+  "en": "And cool, so I'm gonna go through, hopefully pretty fast, just all the different components of what we've built at EXA.",
+  "zh": "好，那么我接下来会，希望比较快地，把我们构建的各个组成部分全部过一遍。"
+ },
+ {
+  "seg": 66,
+  "start": 291.309,
+  "end": 294.971,
+  "speaker": "Unknown",
+  "en": "And just for context, I've been really passionate about this for a long time.",
+  "zh": "先说明一下背景，我对这个话题充满热情已经很久了。"
+ },
+ {
+  "seg": 67,
+  "start": 295.011,
+  "end": 300.794,
+  "speaker": "Unknown",
+  "en": "So EXA was launched in the middle of 2023, and so we were post-GPT4, and...",
+  "zh": "EXA 是在 2023 年年中推出的，当时我们处于 GPT-4 之后的时代，然后……"
+ },
+ {
+  "seg": 68,
+  "start": 302.835,
+  "end": 312.121,
+  "speaker": "Unknown",
+  "en": "GPT-4 was really incredible, because it could actually, even then, even though it's way worse than like Fable or whatever, like it could actually just automate entire parts of go-to-market.",
+  "zh": "GPT-4 真的非常了不起，因为即使在那时，尽管它比如 Fable 之类的差得远，它实际上已经可以自动化市场进入的整个环节。"
+ },
+ {
+  "seg": 69,
+  "start": 312.141,
+  "end": 317.264,
+  "speaker": "Unknown",
+  "en": "And so from the beginning, I've been thinking about our go-to-market from a very, very AI agent first perspective.",
+  "zh": "所以从一开始，我就一直以一种非常、非常以 AI 智能体为先的视角来思考我们的市场进入策略。"
+ },
+ {
+  "seg": 70,
+  "start": 317.725,
+  "end": 321.627,
+  "speaker": "Unknown",
+  "en": "And so we're gonna go over two interfaces that we have that help us, and then two agents.",
+  "zh": "所以我们要过一遍两个帮助我们做到这一点的界面，然后是两个智能体。"
+ },
+ {
+  "seg": 71,
+  "start": 322.668,
+  "end": 322.888,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 72,
+  "start": 327.038,
+  "end": 329.9,
+  "speaker": "Unknown",
+  "en": "Cool, okay, the first is what we call our ICP dashboard.",
+  "zh": "好，第一个是我们所说的 ICP 仪表盘。"
+ },
+ {
+  "seg": 73,
+  "start": 330.44,
+  "end": 336.063,
+  "speaker": "Unknown",
+  "en": "And the ICP dashboard is a product that we have internally that answers the question, like, what is our world?",
+  "zh": "ICP 仪表盘是我们内部的一个产品，它回答这个问题，比如，我们的世界是什么？"
+ },
+ {
+  "seg": 74,
+  "start": 336.383,
+  "end": 341.005,
+  "speaker": "Unknown",
+  "en": "Like, what is the world of customers and use cases that we care about?",
+  "zh": "比如，我们关心的客户和用例的世界是什么？"
+ },
+ {
+  "seg": 75,
+  "start": 341.686,
+  "end": 345.628,
+  "speaker": "Unknown",
+  "en": "And what we actually do is we go ahead and use EXA",
+  "zh": "而我们实际做的，就是直接使用 EXA"
+ },
+ {
+  "seg": 76,
+  "start": 346.268,
+  "end": 351.33,
+  "speaker": "Unknown",
+  "en": "And again, EXA is this arbitrarily powerful search engine for AI's essentially.",
+  "zh": "再说一次，EXA 本质上是这个为 AI 打造的无比强大的搜索引擎。"
+ },
+ {
+  "seg": 77,
+  "start": 351.83,
+  "end": 356.792,
+  "speaker": "Unknown",
+  "en": "And we just classify basically every possible company that is inside of our total addressable market.",
+  "zh": "我们基本上对处于我们总体可触达市场之内的每一家可能的公司进行分类。"
+ },
+ {
+  "seg": 78,
+  "start": 357.612,
+  "end": 363.514,
+  "speaker": "Unknown",
+  "en": "And I kind of blurred out some of the details on how much money we make from each category and stuff like that.",
+  "zh": "我把一些关于我们每个类别赚多少钱之类的细节模糊掉了。"
+ },
+ {
+  "seg": 79,
+  "start": 363.574,
+  "end": 368.796,
+  "speaker": "Unknown",
+  "en": "But yeah, we have categories like model providers, AI coding platforms, like say Cursor, go-to-market intelligence tools.",
+  "zh": "但我们有像模型提供商、AI 编程平台（比如 Cursor）、市场进入情报工具这样的类别。"
+ },
+ {
+  "seg": 80,
+  "start": 369.537,
+  "end": 375.459,
+  "speaker": "Unknown",
+  "en": "And this makes up our TAM and we have an understanding of literally almost every company within those segments.",
+  "zh": "这构成了我们的 TAM，我们实际上了解这些细分领域内几乎每一家公司。"
+ },
+ {
+  "seg": 81,
+  "start": 376.687,
+  "end": 378.929,
+  "speaker": "Unknown",
+  "en": "And then for each of those companies, we can deep dive, right?",
+  "zh": "然后对于其中每一家公司，我们都可以深入挖掘，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 378.949,
+  "end": 380.17,
+  "speaker": "Unknown",
+  "en": "So here's the example of SpaceX.",
+  "zh": "这里是 SpaceX 的例子。"
+ },
+ {
+  "seg": 83,
+  "start": 380.65,
+  "end": 385.855,
+  "speaker": "Unknown",
+  "en": "We can see how much annual spend we could anticipate them to have, then all this metadata about the company.",
+  "zh": "我们可以看到我们可以预期他们有多少年度支出，然后还有关于这家公司的所有这些元数据。"
+ },
+ {
+  "seg": 84,
+  "start": 385.875,
+  "end": 389.118,
+  "speaker": "Unknown",
+  "en": "So we have a list of all the companies and then a ton of data about each company.",
+  "zh": "所以我们有一份所有公司的清单，然后有关于每家公司的大量数据。"
+ },
+ {
+  "seg": 85,
+  "start": 389.999,
+  "end": 390.599,
+  "speaker": "Unknown",
+  "en": "How do we do this?",
+  "zh": "我们是怎么做到的？"
+ },
+ {
+  "seg": 86,
+  "start": 391.18,
+  "end": 394.262,
+  "speaker": "Unknown",
+  "en": "Again, we're able to do this because EXA is this search engine.",
+  "zh": "再说一次，我们能做到这一点是因为 EXA 是这个搜索引擎。"
+ },
+ {
+  "seg": 87,
+  "start": 394.302,
+  "end": 399.226,
+  "speaker": "Unknown",
+  "en": "We take the internet, we crawl it, we train embeddings to do web search really well.",
+  "zh": "我们抓取整个互联网，我们训练嵌入模型来把网页搜索做得非常好。"
+ },
+ {
+  "seg": 88,
+  "start": 399.587,
+  "end": 403.991,
+  "speaker": "Unknown",
+  "en": "And so basically, from a technical perspective, you can think about EXA as embeddings over the internet.",
+  "zh": "所以基本上，从技术角度来说，你可以把 EXA 想成互联网之上的嵌入。"
+ },
+ {
+  "seg": 89,
+  "start": 404.751,
+  "end": 412.573,
+  "speaker": "Unknown",
+  "en": "And when you have embeddings over the internet, you have this arbitrarily powerful semantic filtering and slicing and dicing of any type of data that you want.",
+  "zh": "而当你拥有了互联网之上的嵌入，你就可以对任何你想要的数据类型进行无比强大的语义过滤、切片和切分。"
+ },
+ {
+  "seg": 90,
+  "start": 412.793,
+  "end": 416.654,
+  "speaker": "Unknown",
+  "en": "And so we use that to generate this gigantic list of potential ICPs.",
+  "zh": "于是我们用它来生成这个巨大的潜在 ICP 清单。"
+ },
+ {
+  "seg": 91,
+  "start": 419.774,
+  "end": 419.994,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 92,
+  "start": 420.134,
+  "end": 423.155,
+  "speaker": "Unknown",
+  "en": "Next, we have a tool we call RequestLens.",
+  "zh": "接下来，我们有一个叫做 RequestLens 的工具。"
+ },
+ {
+  "seg": 93,
+  "start": 423.775,
+  "end": 425.015,
+  "speaker": "Unknown",
+  "en": "RequestLens, what is RequestLens?",
+  "zh": "RequestLens，什么是 RequestLens？"
+ },
+ {
+  "seg": 94,
+  "start": 425.055,
+  "end": 430.136,
+  "speaker": "Unknown",
+  "en": "Well, it's basically a system where any time something significant happens with any of our customers, we're alerted.",
+  "zh": "嗯，它基本上是一个系统，任何时候我们的任何客户发生了什么重要的事情，我们都会收到警报。"
+ },
+ {
+  "seg": 95,
+  "start": 430.997,
+  "end": 432.417,
+  "speaker": "Unknown",
+  "en": "Someone signed up, someone used a ton of",
+  "zh": "有人注册了，有人使用了大量的"
+ },
+ {
+  "seg": 96,
+  "start": 433.512,
+  "end": 433.892,
+  "speaker": "Unknown",
+  "en": "Searches.",
+  "zh": "搜索。"
+ },
+ {
+  "seg": 97,
+  "start": 434.072,
+  "end": 435.333,
+  "speaker": "Unknown",
+  "en": "Someone stopped using searches.",
+  "zh": "有人停止使用搜索了。"
+ },
+ {
+  "seg": 98,
+  "start": 435.894,
+  "end": 437.495,
+  "speaker": "Unknown",
+  "en": "Someone showed up that we really, really care about.",
+  "zh": "有一个我们非常、非常在乎的人出现了。"
+ },
+ {
+  "seg": 99,
+  "start": 437.855,
+  "end": 442.278,
+  "speaker": "Unknown",
+  "en": "All these things are signals that we are notified about and that our team can act on.",
+  "zh": "所有这些都是我们会收到通知的信号，我们的团队可以据此采取行动。"
+ },
+ {
+  "seg": 100,
+  "start": 448.883,
+  "end": 449.163,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 101,
+  "start": 449.183,
+  "end": 453.766,
+  "speaker": "Unknown",
+  "en": "So those are the two interfaces that we have, and then I'll go over two types of agents that we have.",
+  "zh": "这就是我们的两个界面，接下来我会介绍我们拥有的两种类型的智能体。"
+ },
+ {
+  "seg": 102,
+  "start": 453.887,
+  "end": 455.888,
+  "speaker": "Unknown",
+  "en": "So one is coding agents.",
+  "zh": "第一种是编程智能体。"
+ },
+ {
+  "seg": 103,
+  "start": 456.168,
+  "end": 458.03,
+  "speaker": "Unknown",
+  "en": "So our go-to-market team...",
+  "zh": "所以我们的市场推广团队……"
+ },
+ {
+  "seg": 104,
+  "start": 459.028,
+  "end": 462.131,
+  "speaker": "Unknown",
+  "en": "is crazy, crazy, crazy deep on agents.",
+  "zh": "在智能体方面 crazy、crazy、crazy 地深入。"
+ },
+ {
+  "seg": 105,
+  "start": 462.151,
+  "end": 470.319,
+  "speaker": "Unknown",
+  "en": "So our engineering team uses a lot of agents, but our go-to-market team is like, you could look at some of their devin spend and other agent spend, it's really freaking high.",
+  "zh": "我们的工程团队大量使用智能体，但我们的市场推广团队，你可以看看他们的 Devin 支出和其他智能体支出，真的高得离谱。"
+ },
+ {
+  "seg": 106,
+  "start": 470.699,
+  "end": 478.166,
+  "speaker": "Unknown",
+  "en": "And that's because everybody on our go-to-market team is constantly asking agents about our customers, we have like,",
+  "zh": "这是因为我们市场推广团队里的每个人都在不断地向智能体询问我们客户的情况，我们有，"
+ },
+ {
+  "seg": 107,
+  "start": 479.167,
+  "end": 482.81,
+  "speaker": "Unknown",
+  "en": "Account executives that build demos for our customers.",
+  "zh": "为客户构建演示的销售人员(Account Executive)。"
+ },
+ {
+  "seg": 108,
+  "start": 483.131,
+  "end": 489.156,
+  "speaker": "Unknown",
+  "en": "It's just this crazy ecosystem where we have maybe a dozen different agents inside of our Slack, and anybody can use any of them.",
+  "zh": "这是一个 crazy 的生态系统，我们的 Slack 里大概有十几个不同的智能体，任何人都可以使用其中任何一个。"
+ },
+ {
+  "seg": 109,
+  "start": 489.176,
+  "end": 491.458,
+  "speaker": "Unknown",
+  "en": "They all have access to tons and tons of our internal data.",
+  "zh": "它们都可以访问海量海量的我们内部数据。"
+ },
+ {
+  "seg": 110,
+  "start": 492.238,
+  "end": 498.444,
+  "speaker": "Unknown",
+  "en": "And yeah, anytime we want to dig deeper on account, anytime we want to make a demo, et cetera, we depend heavily on agents.",
+  "zh": "是的，任何时候我们想深入了解某个客户、任何时候我们想做演示等等，我们都高度依赖智能体。"
+ },
+ {
+  "seg": 111,
+  "start": 503.075,
+  "end": 505.738,
+  "speaker": "Unknown",
+  "en": "Cool, and then I want to talk about another really cool agent that I'm pretty proud of.",
+  "zh": "好，接下来我想谈谈另一个我觉得相当自豪的、非常酷的智能体。"
+ },
+ {
+  "seg": 112,
+  "start": 505.778,
+  "end": 508.101,
+  "speaker": "Unknown",
+  "en": "We call it JeffBot, or I call it JeffBot.",
+  "zh": "我们叫它 JeffBot,或者我把它叫做 JeffBot。"
+ },
+ {
+  "seg": 113,
+  "start": 508.802,
+  "end": 513.348,
+  "speaker": "Unknown",
+  "en": "JeffBot is an AI clone of myself as much as possible.",
+  "zh": "JeffBot 是一个尽可能像我本人的 AI 克隆。"
+ },
+ {
+  "seg": 114,
+  "start": 513.408,
+  "end": 513.968,
+  "speaker": "Unknown",
+  "en": "So what is it?",
+  "zh": "那么它是什么？"
+ },
+ {
+  "seg": 115,
+  "start": 514.008,
+  "end": 516.491,
+  "speaker": "Unknown",
+  "en": "Well, basically, this winter break,",
+  "zh": "嗯，基本上，这个寒假期间，"
+ },
+ {
+  "seg": 116,
+  "start": 518.35,
+  "end": 523.313,
+  "speaker": "Unknown",
+  "en": "I'm sure a lot of you spent that break playing with Opus 4.5 and I was no different.",
+  "zh": "我相信你们中很多人都在那个假期里玩 Opus 4.5,我也不例外。"
+ },
+ {
+  "seg": 117,
+  "start": 524.474,
+  "end": 533.719,
+  "speaker": "Unknown",
+  "en": "So I was in Mexico and I had a week off and so my goal with that week and with Opus 4.5 was to just try to make a digital clone of myself.",
+  "zh": "当时我在墨西哥，有一周的假期，所以我在那一周里用 Opus 4.5 的目标就是尝试做一个我自己的数字克隆。"
+ },
+ {
+  "seg": 118,
+  "start": 533.879,
+  "end": 535.24,
+  "speaker": "Unknown",
+  "en": "And so I did things like analyze",
+  "zh": "于是我做了诸如分析"
+ },
+ {
+  "seg": 119,
+  "start": 535.92,
+  "end": 540.264,
+  "speaker": "Unknown",
+  "en": "Like 760 of my emails to figure out what my email voice is.",
+  "zh": "我大约 760 封邮件的事情，来弄清楚我的邮件文风。"
+ },
+ {
+  "seg": 120,
+  "start": 540.284,
+  "end": 546.829,
+  "speaker": "Unknown",
+  "en": "Like, oh, I use 18 words on average per email, and I like to end emails with best and not sincerely, like all that type of stuff, right?",
+  "zh": "比如，哦，我平均每封邮件用 18 个词，我喜欢用 best 而不是 sincerely 来结尾邮件，诸如此类的东西，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 547.11,
+  "end": 553.535,
+  "speaker": "Unknown",
+  "en": "So I made like a voice for myself, and then I also made a decision-making framework.",
+  "zh": "所以我为自己做了一种文风，然后我还做了一个决策框架。"
+ },
+ {
+  "seg": 122,
+  "start": 553.595,
+  "end": 558.479,
+  "speaker": "Unknown",
+  "en": "So I made like a decision-making framework where I analyzed hundreds of decisions I've made in the past.",
+  "zh": "我做了一个决策框架，分析了我过去做出的数百个决策。"
+ },
+ {
+  "seg": 123,
+  "start": 559.381,
+  "end": 561.565,
+  "speaker": "Unknown",
+  "en": "And I analyzed them and I created evals.",
+  "zh": "我分析了它们，并创建了 evals。"
+ },
+ {
+  "seg": 124,
+  "start": 562.066,
+  "end": 567.979,
+  "speaker": "Unknown",
+  "en": "So I actually created evals from those decisions and calibrated this agent system to behave like myself.",
+  "zh": "所以我真的从那些决策中创建了 evals,并校准了这个智能体系统，让它表现得像我自己。"
+ },
+ {
+  "seg": 125,
+  "start": 569.174,
+  "end": 573.458,
+  "speaker": "Unknown",
+  "en": "And then finally I gave it read and write access to all the data that I personally have.",
+  "zh": "最后，我给了它对我个人所有数据的读写权限。"
+ },
+ {
+  "seg": 126,
+  "start": 573.538,
+  "end": 582.825,
+  "speaker": "Unknown",
+  "en": "And there's a cool advantage to this because I basically have access to every single system at the company because I'm in the nice seat of having that.",
+  "zh": "而这有一个很酷的优势，因为我基本上可以访问公司的每一个系统，因为我处在拥有这种权限的很好的位置上。"
+ },
+ {
+  "seg": 127,
+  "start": 583.005,
+  "end": 587.069,
+  "speaker": "Unknown",
+  "en": "And so, yeah, this thing has access to everything.",
+  "zh": "所以，是的，这个东西可以访问一切。"
+ },
+ {
+  "seg": 128,
+  "start": 587.449,
+  "end": 590.231,
+  "speaker": "Unknown",
+  "en": "And basically what happens is anybody at the company can use JeffBot",
+  "zh": "基本上发生的事情是，公司里的任何人都可以使用 JeffBot"
+ },
+ {
+  "seg": 129,
+  "start": 590.952,
+  "end": 595.736,
+  "speaker": "Unknown",
+  "en": "to create drafts of Slack messages that are basically like answers or decisions that are made.",
+  "zh": "来创建 Slack 消息的草稿，这些消息基本上就是回答或做出的决策。"
+ },
+ {
+  "seg": 130,
+  "start": 596.236,
+  "end": 597.777,
+  "speaker": "Unknown",
+  "en": "And this is a huge, great thing.",
+  "zh": "这是一件非常棒的事情。"
+ },
+ {
+  "seg": 131,
+  "start": 597.797,
+  "end": 599.879,
+  "speaker": "Unknown",
+  "en": "Our go-to-market team uses it to draft emails, for example.",
+  "zh": "比如，我们的市场推广团队用它来起草邮件。"
+ },
+ {
+  "seg": 132,
+  "start": 603.862,
+  "end": 604.162,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 133,
+  "start": 605.483,
+  "end": 610.146,
+  "speaker": "Unknown",
+  "en": "All right, so those are the systems that we have at Exa.",
+  "zh": "好了，这些就是我们在 Exa 拥有的系统。"
+ },
+ {
+  "seg": 134,
+  "start": 610.166,
+  "end": 610.907,
+  "speaker": "Unknown",
+  "en": "It works pretty well.",
+  "zh": "它运行得相当不错。"
+ },
+ {
+  "seg": 135,
+  "start": 611.107,
+  "end": 613.389,
+  "speaker": "Unknown",
+  "en": "Our go-to-market team is very lean but very productive.",
+  "zh": "我们的市场推广团队非常精简但非常有生产力。"
+ },
+ {
+  "seg": 136,
+  "start": 614.71,
+  "end": 618.512,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I just want to cover, lastly, just a few principles",
+  "zh": "所以，是的，我最后只想讲几个原则，"
+ },
+ {
+  "seg": 137,
+  "start": 620.947,
+  "end": 624.587,
+  "speaker": "Unknown",
+  "en": "Principles I have around what it means to be an agent first company.",
+  "zh": "关于成为一家智能体优先的公司意味着什么的几个原则。"
+ },
+ {
+  "seg": 138,
+  "start": 625.945,
+  "end": 628.566,
+  "speaker": "Unknown",
+  "en": "So firstly, to be agent first, you must be API first.",
+  "zh": "首先，要做到智能体优先，你必须做到 API 优先。"
+ },
+ {
+  "seg": 139,
+  "start": 628.626,
+  "end": 642.174,
+  "speaker": "Unknown",
+  "en": "So all these systems that we built, whether it was those agents or whether it was those GUIs that we have, if there did not exist really good APIs on top of any internal and external data, we'd be out of luck.",
+  "zh": "所以我们构建的所有这些系统，无论是那些智能体还是那些 GUI,如果在任何内部和外部数据之上不存在真正好的 API,我们就没戏了。"
+ },
+ {
+  "seg": 140,
+  "start": 642.354,
+  "end": 644.155,
+  "speaker": "Unknown",
+  "en": "You need to create really good APIs.",
+  "zh": "你需要创建真正好的 API。"
+ },
+ {
+  "seg": 141,
+  "start": 644.215,
+  "end": 649.598,
+  "speaker": "Unknown",
+  "en": "If you don't have really good APIs, your agents are not going to be able to have data access.",
+  "zh": "如果你没有真正好的 API,你的智能体就无法访问数据。"
+ },
+ {
+  "seg": 142,
+  "start": 649.878,
+  "end": 652.119,
+  "speaker": "Unknown",
+  "en": "So you can think about this as MCP, CLI, whatever.",
+  "zh": "你可以把它理解为 MCP、CLI,什么都行。"
+ },
+ {
+  "seg": 143,
+  "start": 652.219,
+  "end": 652.84,
+  "speaker": "Unknown",
+  "en": "It doesn't really matter.",
+  "zh": "这其实无关紧要。"
+ },
+ {
+  "seg": 144,
+  "start": 652.86,
+  "end": 655.021,
+  "speaker": "Unknown",
+  "en": "You just need some interface that's programmatic.",
+  "zh": "你只需要某种可编程的界面。"
+ },
+ {
+  "seg": 145,
+  "start": 657.271,
+  "end": 665.777,
+  "speaker": "Unknown",
+  "en": "Secondly, I think there's still this mistake in the agent world which is made that's like, hey, does everything need to be a chatbot?",
+  "zh": "其次，我认为智能体领域仍然存在这样一个错误认识，就是：嘿，是不是一切都得做成聊天机器人？"
+ },
+ {
+  "seg": 146,
+  "start": 667.198,
+  "end": 668.279,
+  "speaker": "Unknown",
+  "en": "I think the answer is no.",
+  "zh": "我认为答案是否定的。"
+ },
+ {
+  "seg": 147,
+  "start": 668.499,
+  "end": 675.184,
+  "speaker": "Unknown",
+  "en": "I think both Buies and chatbots are both super useful and have their own",
+  "zh": "我认为 GUI 和聊天机器人都非常 useful,各有各的——"
+ },
+ {
+  "seg": 148,
+  "start": 676.792,
+  "end": 684.999,
+  "speaker": "Unknown",
+  "en": "I don't know how many people in this room have thought about dynamic user interfaces, but yes, dynamic user interfaces are amazing.",
+  "zh": "我不知道这个房间里有多少人思考过动态用户界面，但是是的，动态用户界面太棒了。"
+ },
+ {
+  "seg": 149,
+  "start": 685.019,
+  "end": 689.844,
+  "speaker": "Unknown",
+  "en": "Yes, technically, AI can just produce a new UI for any use case that you have.",
+  "zh": "是的，从技术上讲，AI 确实可以为你拥有的任何用例生成一个新的 UI。"
+ },
+ {
+  "seg": 150,
+  "start": 690.605,
+  "end": 693.167,
+  "speaker": "Unknown",
+  "en": "Just to answer a question, it could produce an HTML markdown file, right?",
+  "zh": "只是回答一个问题，它可以生成一个 HTML markdown 文件，对吧？"
+ },
+ {
+  "seg": 151,
+  "start": 693.467,
+  "end": 697.671,
+  "speaker": "Unknown",
+  "en": "But I think there is something really nice about being able to visit the same consistent",
+  "zh": "但我觉得有一个非常好的地方在于，能够访问同样的、一致的"
+ },
+ {
+  "seg": 152,
+  "start": 698.532,
+  "end": 703.135,
+  "speaker": "Unknown",
+  "en": "UX for the same use cases over time so that you can learn how to use some tool.",
+  "zh": "UX，针对同样的用例，随时间推移，这样你就能学会如何使用某个工具。"
+ },
+ {
+  "seg": 153,
+  "start": 703.175,
+  "end": 711.699,
+  "speaker": "Unknown",
+  "en": "So yeah, I think having crystallized UIs and then also arbitrarily powerful flexible chat agents are both important components of being agent first.",
+  "zh": "所以是的，我认为拥有固化的 UI，以及任意强大、灵活的聊天智能体，都是「智能体优先」的重要组成部分。"
+ },
+ {
+  "seg": 154,
+  "start": 713.64,
+  "end": 724.046,
+  "speaker": "Unknown",
+  "en": "And then finally, there's this question like, hey, should you shop for Salesforce or should you build your own CRM or something, right?",
+  "zh": "然后最后，还有这样一个问题，比如：嘿，你是应该购买 Salesforce，还是应该自建自己的 CRM 之类的，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 724.647,
+  "end": 726.568,
+  "speaker": "Unknown",
+  "en": "I actually think this is a false dichotomy.",
+  "zh": "我其实认为这是一个虚假的两难选择。"
+ },
+ {
+  "seg": 156,
+  "start": 728.487,
+  "end": 729.831,
+  "speaker": "Unknown",
+  "en": "It's not a choice.",
+  "zh": "这不是一个非此即彼的选择。"
+ },
+ {
+  "seg": 157,
+  "start": 730.472,
+  "end": 734.823,
+  "speaker": "Unknown",
+  "en": "We don't live in a world where the choice is between purchasing SaaS and building things yourself.",
+  "zh": "我们并不是生活在「购买 SaaS」和「自己构建」二选一的世界里。"
+ },
+ {
+  "seg": 158,
+  "start": 734.843,
+  "end": 736.127,
+  "speaker": "Unknown",
+  "en": "The way I like to think about it is",
+  "zh": "我喜欢的思考方式是："
+ },
+ {
+  "seg": 159,
+  "start": 738.504,
+  "end": 742.945,
+  "speaker": "Unknown",
+  "en": "You should just be using something that is arbitrarily customizable.",
+  "zh": "你应该使用那种可以任意自定义的东西。"
+ },
+ {
+  "seg": 160,
+  "start": 743.505,
+  "end": 749.007,
+  "speaker": "Unknown",
+  "en": "Obviously, if you build something yourself, then it's arbitrarily customizable, because you can vibe code and make it better at any given point.",
+  "zh": "显然，如果你自己构建某个东西，那它就是可任意自定义的，因为你可以随时 vibe coding 让它变得更好。"
+ },
+ {
+  "seg": 161,
+  "start": 749.867,
+  "end": 759.55,
+  "speaker": "Unknown",
+  "en": "But also, if you procure SaaS, if you can make that SaaS work on your behalf and be arbitrarily customizable, then that works too, right?",
+  "zh": "但同时，如果你采购 SaaS，如果你能让那个 SaaS 替你工作，并且可以任意自定义，那也行得通，对吧？"
+ },
+ {
+  "seg": 162,
+  "start": 759.57,
+  "end": 760.75,
+  "speaker": "Unknown",
+  "en": "You don't need to build this like...",
+  "zh": "你不需要像……那样去构建"
+ },
+ {
+  "seg": 163,
+  "start": 761.502,
+  "end": 767.243,
+  "speaker": "Unknown",
+  "en": "GUI and, like, have a proactive roadmap as to, like, what features make really great sense inside of some system.",
+  "zh": "GUI，然后还要有一个前瞻性的路线图，规划什么功能放在某个系统里才真正合理。"
+ },
+ {
+  "seg": 164,
+  "start": 767.263,
+  "end": 773.044,
+  "speaker": "Unknown",
+  "en": "Like, if you can arbitrarily customize the system, even if it's a system you've purchased, then you're, like, pretty good, right?",
+  "zh": "就是说，如果你可以任意自定义一个系统，即使它是你购买的系统，那你就已经相当不错了，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 773.104,
+  "end": 774.585,
+  "speaker": "Unknown",
+  "en": "So, like, for example, we use Salesforce.",
+  "zh": "所以，举例来说，我们用 Salesforce。"
+ },
+ {
+  "seg": 166,
+  "start": 774.605,
+  "end": 780.046,
+  "speaker": "Unknown",
+  "en": "Like, we use Salesforce at Exa, and it's great because it's a really good database.",
+  "zh": "我们在 Exa 用 Salesforce，它很棒，因为它是一个非常优秀的数据库。"
+ },
+ {
+  "seg": 167,
+  "start": 780.066,
+  "end": 787.207,
+  "speaker": "Unknown",
+  "en": "It's made a lot of amazing choices around what sales should look like, choices that we don't want to make ourselves, and then it's exposed as MCP.",
+  "zh": "它在销售应该是什么样这个问题上做了很多出色的选择，那些我们不想自己做选择的事情，然后它以 MCP 的形式暴露出来。"
+ },
+ {
+  "seg": 168,
+  "start": 787.327,
+  "end": 789.248,
+  "speaker": "Unknown",
+  "en": "So all of our agents have access to Salesforce MCP.",
+  "zh": "所以我们所有的智能体都能访问 Salesforce MCP。"
+ },
+ {
+  "seg": 169,
+  "start": 789.268,
+  "end": 790.368,
+  "speaker": "Unknown",
+  "en": "It works really well.",
+  "zh": "它运行得非常好。"
+ },
+ {
+  "seg": 170,
+  "start": 790.408,
+  "end": 791.288,
+  "speaker": "Unknown",
+  "en": "Our team uses it every day.",
+  "zh": "我们的团队每天都在用它。"
+ },
+ {
+  "seg": 171,
+  "start": 792.048,
+  "end": 796.59,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I think infinite customizability is really the highest order bit.",
+  "zh": "所以，是的，我认为无限的可用自定义性才是最高优先级的因素。"
+ },
+ {
+  "seg": 172,
+  "start": 799.872,
+  "end": 802.173,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 173,
+  "start": 802.473,
+  "end": 803.074,
+  "speaker": "Unknown",
+  "en": "That's all I had.",
+  "zh": "我要讲的就这些。"
+ },
+ {
+  "seg": 174,
+  "start": 803.714,
+  "end": 805.695,
+  "speaker": "Unknown",
+  "en": "Yeah, does anyone have any questions?",
+  "zh": "是的，有人有问题吗？"
+ },
+ {
+  "seg": 175,
+  "start": 806.295,
+  "end": 807.656,
+  "speaker": "Unknown",
+  "en": "We have time for questions.",
+  "zh": "我们有时间提问。"
+ },
+ {
+  "seg": 176,
+  "start": 809.076,
+  "end": 809.737,
+  "speaker": "Unknown",
+  "en": "Okay, coming.",
+  "zh": "好，来了。"
+ },
+ {
+  "seg": 177,
+  "start": 816.4,
+  "end": 820.382,
+  "speaker": "Unknown",
+  "en": "Hey, so you said you took all your past decisions.",
+  "zh": "嗨，你提到你拿出了你过去所有的决策。"
+ },
+ {
+  "seg": 178,
+  "start": 821,
+  "end": 822.52,
+  "speaker": "Unknown",
+  "en": "Can you elaborate a bit about that?",
+  "zh": "你能稍微展开讲讲吗？"
+ },
+ {
+  "seg": 179,
+  "start": 823.821,
+  "end": 825.041,
+  "speaker": "Unknown",
+  "en": "What artifacts are those?",
+  "zh": "那些产物（artifacts）是什么？"
+ },
+ {
+  "seg": 180,
+  "start": 826.121,
+  "end": 827.982,
+  "speaker": "Unknown",
+  "en": "Usually people don't save their decisions.",
+  "zh": "通常人们不会保存自己的决策。"
+ },
+ {
+  "seg": 181,
+  "start": 828.002,
+  "end": 828.722,
+  "speaker": "Unknown",
+  "en": "Is it Slack?",
+  "zh": "是 Slack 吗？"
+ },
+ {
+  "seg": 182,
+  "start": 828.742,
+  "end": 829.342,
+  "speaker": "Unknown",
+  "en": "Is it email?",
+  "zh": "是邮件吗？"
+ },
+ {
+  "seg": 183,
+  "start": 829.382,
+  "end": 831.243,
+  "speaker": "Unknown",
+  "en": "Is it other artifacts?",
+  "zh": "还是其他产物？"
+ },
+ {
+  "seg": 184,
+  "start": 832.143,
+  "end": 832.883,
+  "speaker": "Unknown",
+  "en": "Yeah, good question.",
+  "zh": "嗯，好问题。"
+ },
+ {
+  "seg": 185,
+  "start": 833.083,
+  "end": 836.344,
+  "speaker": "Unknown",
+  "en": "I looked at decisions I made within Slack and email.",
+  "zh": "我看的是我在 Slack 和邮件里做的决策。"
+ },
+ {
+  "seg": 186,
+  "start": 836.844,
+  "end": 842.546,
+  "speaker": "Unknown",
+  "en": "I mean, a surprisingly large amount of everything that goes on a company is on Slack, right?",
+  "zh": "我是说，公司里发生的事情有惊人大的比例都在 Slack 上，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 842.666,
+  "end": 848.347,
+  "speaker": "Unknown",
+  "en": "So if you just read a ton of Slack history, you can definitely find hundreds of decisions that you've made in the past.",
+  "zh": "所以只要你读大量的 Slack 历史，你肯定能找到你过去做过的数百个决策。"
+ },
+ {
+  "seg": 188,
+  "start": 849.948,
+  "end": 850.228,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 189,
+  "start": 850.48,
+  "end": 851.621,
+  "speaker": "Unknown",
+  "en": "Quick question over here.",
+  "zh": "这边有个快速问题。"
+ },
+ {
+  "seg": 190,
+  "start": 852.302,
+  "end": 858.087,
+  "speaker": "Unknown",
+  "en": "So your go-to-market team, what's the split between, are they just all like AI cracked?",
+  "zh": "你的 go-to-market 团队，他们的构成是怎样的，是不是全都是 AI 玩得飞起的人？"
+ },
+ {
+  "seg": 191,
+  "start": 858.508,
+  "end": 861.19,
+  "speaker": "Unknown",
+  "en": "Or do they also have like the domain expertise too?",
+  "zh": "还是他们同时也具备领域专业知识？"
+ },
+ {
+  "seg": 192,
+  "start": 861.23,
+  "end": 864.233,
+  "speaker": "Unknown",
+  "en": "What's the split between technical and non-technical?",
+  "zh": "技术和非技术的比例是怎样的？"
+ },
+ {
+  "seg": 193,
+  "start": 864.293,
+  "end": 867.876,
+  "speaker": "Unknown",
+  "en": "Because obviously you need them to like know how to do marketing, sales, et cetera.",
+  "zh": "因为显然你需要他们懂得如何做市场营销、销售等。"
+ },
+ {
+  "seg": 194,
+  "start": 867.936,
+  "end": 871.84,
+  "speaker": "Unknown",
+  "en": "But then do they also, are they also upskilling in terms of using AI systems?",
+  "zh": "但他们在使用 AI 系统方面是否也在提升技能？"
+ },
+ {
+  "seg": 195,
+  "start": 871.88,
+  "end": 873.622,
+  "speaker": "Unknown",
+  "en": "Are you handing them tools or are they building their own?",
+  "zh": "你是给他们配工具，还是他们自己构建？"
+ },
+ {
+  "seg": 196,
+  "start": 875.422,
+  "end": 876.582,
+  "speaker": "Unknown",
+  "en": "That's a very good question.",
+  "zh": "这是一个非常好的问题。"
+ },
+ {
+  "seg": 197,
+  "start": 876.742,
+  "end": 885.085,
+  "speaker": "Unknown",
+  "en": "So our go-to-market team is comprised of, like, there's account executives which, like, run the deals.",
+  "zh": "我们的 go-to-market 团队是由……比如说，有客户经理（account executives）负责跑交易。"
+ },
+ {
+  "seg": 198,
+  "start": 885.946,
+  "end": 891.188,
+  "speaker": "Unknown",
+  "en": "There are, like, sales, like, SDRs that help with demand generation.",
+  "zh": "还有销售类的 SDR，帮助做需求挖掘。"
+ },
+ {
+  "seg": 199,
+  "start": 892.068,
+  "end": 897.47,
+  "speaker": "Unknown",
+  "en": "And then there are separately, there's separately, like, a FDE org, so Forward Deployed Engineering Organization.",
+  "zh": "然后另外还有，另外还有一个 FDE 组织，也就是 Forward Deployed Engineering（前置部署工程）组织。"
+ },
+ {
+  "seg": 200,
+  "start": 898.31,
+  "end": 900.491,
+  "speaker": "Unknown",
+  "en": "And what I'll say is that, like,",
+  "zh": "我想说的是，"
+ },
+ {
+  "seg": 201,
+  "start": 902.363,
+  "end": 910.845,
+  "speaker": "Unknown",
+  "en": "Everyone that's not in FDE has learned how to use AI really well.",
+  "zh": "所有不在 FDE 岗位上的人都学会了如何很好地使用 AI。"
+ },
+ {
+  "seg": 202,
+  "start": 911.125,
+  "end": 914.206,
+  "speaker": "Unknown",
+  "en": "So the answer is they're not vibe coding.",
+  "zh": "所以答案是，他们并不是在 vibe coding。"
+ },
+ {
+  "seg": 203,
+  "start": 914.566,
+  "end": 925.849,
+  "speaker": "Unknown",
+  "en": "They're not generally, and there's some exceptions, they're not generally vibe coding these interfaces that we have, but they are using the tools really, really well, and we make sure that we have training sessions and just make sure that people",
+  "zh": "一般来说不是，也有一些例外，他们一般不会对我们的这些界面进行 vibe coding，但他们非常非常善于使用这些工具，而且我们确保设有培训课程，确保大家"
+ },
+ {
+  "seg": 204,
+  "start": 926.995,
+  "end": 928.336,
+  "speaker": "Unknown",
+  "en": "Really understand how to use these tools.",
+  "zh": "真正理解如何使用这些工具。"
+ },
+ {
+  "seg": 205,
+  "start": 928.696,
+  "end": 938.983,
+  "speaker": "Unknown",
+  "en": "And then we have this funny thing, which is our Ford Deployed Engineering organization is actually the one that does a lot of the maintenance and feature building of these AI systems.",
+  "zh": "然后我们还有一个有趣的事情，那就是我们的 Ford Deployed Engineering 组织实际上承担了大量这些 AI 系统的维护和功能构建工作。"
+ },
+ {
+  "seg": 206,
+  "start": 939.103,
+  "end": 953.653,
+  "speaker": "Unknown",
+  "en": "And so they're both running deals and supporting deals, but then also making everything smoother by doing sales, but then also building the sales system.",
+  "zh": "所以他们既在跑交易、支持交易，又通过做销售让一切更顺畅，同时还在构建销售系统。"
+ },
+ {
+  "seg": 207,
+  "start": 954.074,
+  "end": 956.075,
+  "speaker": "Unknown",
+  "en": "It's kind of a funky thing we have going on, yeah.",
+  "zh": "这算是我们在进行的一种挺新奇的做法，是的。"
+ },
+ {
+  "seg": 208,
+  "start": 958.557,
+  "end": 960.998,
+  "speaker": "Unknown",
+  "en": "How do you think about different security?",
+  "zh": "你如何看待不同的安全？"
+ },
+ {
+  "seg": 209,
+  "start": 963.26,
+  "end": 966.281,
+  "speaker": "Unknown",
+  "en": "How do you think about different security boundaries within your enterprise?",
+  "zh": "你如何看待企业内部不同的安全边界？"
+ },
+ {
+  "seg": 210,
+  "start": 966.702,
+  "end": 977.828,
+  "speaker": "Unknown",
+  "en": "What you said suggested that you've got JeffBot, which runs with all of your full privileges, and then it's available to everybody, which suggests that there's one security level and everyone can see everything all the time.",
+  "zh": "你刚才所说的暗示你有 JeffBot，它以你的全部权限运行，然后对所有人可用，这意味着只有一个安全级别，每个人随时都能看到一切。"
+ },
+ {
+  "seg": 211,
+  "start": 977.928,
+  "end": 981.83,
+  "speaker": "Unknown",
+  "en": "Is that what you're going with, or is there some other guardrails in place?",
+  "zh": "你是打算这么做，还是有其他一些护栏？"
+ },
+ {
+  "seg": 212,
+  "start": 982.834,
+  "end": 983.874,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a good question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 213,
+  "start": 983.954,
+  "end": 987.356,
+  "speaker": "Unknown",
+  "en": "We pay pretty special, we pay pretty careful attention to guardrails.",
+  "zh": "我们付出了相当特别的，我们对护栏相当细心地关注。"
+ },
+ {
+  "seg": 214,
+  "start": 987.536,
+  "end": 999.3,
+  "speaker": "Unknown",
+  "en": "So, for example, in the case of JeffBot, when I use JeffBot and I call JeffBot, it has access to a ton of systems and it can, for example, do reads and writes.",
+  "zh": "比如，以 JeffBot 为例，当我自己使用 JeffBot、调用 JeffBot 时，它可以访问大量系统，例如，它可以进行读写。"
+ },
+ {
+  "seg": 215,
+  "start": 999.82,
+  "end": 1005.562,
+  "speaker": "Unknown",
+  "en": "However, when anybody else calls JeffBot, all it can do is draft messages and also I don't give JeffBot",
+  "zh": "然而，当其他任何人调用 JeffBot 时，它能做的只是起草消息，而且我不给 JeffBot"
+ },
+ {
+  "seg": 216,
+  "start": 1006.709,
+  "end": 1011.612,
+  "speaker": "Unknown",
+  "en": "Permissions to all of our MCPs and tools, in the case of what other people call it.",
+  "zh": "授权访问我们所有的 MCP 和工具，在其他什么人调用它的情况下。"
+ },
+ {
+  "seg": 217,
+  "start": 1012.072,
+  "end": 1017.975,
+  "speaker": "Unknown",
+  "en": "And so, in short, it's pretty well-defined, or we do pay some care to the security.",
+  "zh": "所以简而言之，它的定义相当明确，或者说我们确实在安全方面付出了一些心思。"
+ },
+ {
+  "seg": 218,
+  "start": 1018.776,
+  "end": 1018.936,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 219,
+  "start": 1019.136,
+  "end": 1020.257,
+  "speaker": "Unknown",
+  "en": "Okay, last question.",
+  "zh": "好，最后一个问题。"
+ },
+ {
+  "seg": 220,
+  "start": 1025.139,
+  "end": 1029.402,
+  "speaker": "Unknown",
+  "en": "Can you share the origin story of the FDE team?",
+  "zh": "你能分享一下 FDE 团队的起源故事吗？"
+ },
+ {
+  "seg": 221,
+  "start": 1029.562,
+  "end": 1032.643,
+  "speaker": "Unknown",
+  "en": "Did that just happen organically, or did you intentionally do it?",
+  "zh": "它是自然而然出现的，还是你们有意为之？"
+ },
+ {
+  "seg": 222,
+  "start": 1032.703,
+  "end": 1035.385,
+  "speaker": "Unknown",
+  "en": "I'm just really curious how that came to exist.",
+  "zh": "我只是很好奇它是怎么形成的。"
+ },
+ {
+  "seg": 223,
+  "start": 1036.544,
+  "end": 1037.084,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 224,
+  "start": 1037.184,
+  "end": 1045.386,
+  "speaker": "Unknown",
+  "en": "I mean, my hypothesis on this is, like, once upon a time, the FDE role didn't really exist.",
+  "zh": "我的假设是，从前，FDE 这个角色其实并不存在。"
+ },
+ {
+  "seg": 225,
+  "start": 1045.466,
+  "end": 1049.427,
+  "speaker": "Unknown",
+  "en": "Like, Palantir started calling some people FDEs, but that was really it.",
+  "zh": "比如，Palantir 开始把一些人称为 FDE，但也就仅此而已。"
+ },
+ {
+  "seg": 226,
+  "start": 1049.927,
+  "end": 1056.829,
+  "speaker": "Unknown",
+  "en": "And what tech companies had was, like, solutions and sales engineers and then, like, account executives.",
+  "zh": "而科技公司有的是，比如解决方案和销售工程师，然后是，比如客户经理。"
+ },
+ {
+  "seg": 227,
+  "start": 1058.289,
+  "end": 1058.649,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 228,
+  "start": 1059.209,
+  "end": 1060.09,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 229,
+  "start": 1060.15,
+  "end": 1065.411,
+  "speaker": "Unknown",
+  "en": "The thing that I think has changed is that because of AI, as, like, a...",
+  "zh": "我认为已经改变的是，因为 AI，作为一个……"
+ },
+ {
+  "seg": 230,
+  "start": 1066.693,
+  "end": 1081.18,
+  "speaker": "Unknown",
+  "en": "As a technical person that is supporting revenue generation, you can actually not only support their revenue generation, but then very easily build the tooling to smooth everything over and make your own life easier, make the lives of AEs easier.",
+  "zh": "作为一名支持收入创造的技术人员，你实际上不仅可以支持他们的收入创造，而且可以很容易地构建工具来把一切理顺，让你自己的生活更轻松，让 AE 们的生活更轻松。"
+ },
+ {
+  "seg": 231,
+  "start": 1081.62,
+  "end": 1083.961,
+  "speaker": "Unknown",
+  "en": "Because of AI, this is just possible now.",
+  "zh": "因为 AI，这在现在成为了可能。"
+ },
+ {
+  "seg": 232,
+  "start": 1084.721,
+  "end": 1086.782,
+  "speaker": "Unknown",
+  "en": "Before that was two jobs, and now it's one job.",
+  "zh": "在那之前这是两份工作，现在它是一份工作。"
+ },
+ {
+  "seg": 233,
+  "start": 1088.463,
+  "end": 1094.706,
+  "speaker": "Unknown",
+  "en": "In theory, like now when our team grows, like right now it's about eight or nine FDEs, like will it scale such that everyone does everything?",
+  "zh": "理论上，比如现在我们团队在成长，比如现在大约有八九个 FDE，它会不会扩展到每个人都做所有事情？"
+ },
+ {
+  "seg": 234,
+  "start": 1095.227,
+  "end": 1099.469,
+  "speaker": "Unknown",
+  "en": "Probably not, but at least right now that's what we have and I think that's a really good working model to get pretty far.",
+  "zh": "可能不会，但至少现在我们就是这样，我认为这是一个可以走得很远的好工作模式。"
+ },
+ {
+  "seg": 235,
+  "start": 1100.349,
+  "end": 1102.79,
+  "speaker": "Unknown",
+  "en": "Eight out of how many?",
+  "zh": "八个占多少？"
+ },
+ {
+  "seg": 236,
+  "start": 1102.85,
+  "end": 1104.391,
+  "speaker": "Unknown",
+  "en": "Oh, eight of like how big is our go-to-market org?",
+  "zh": "哦，八个占我们的 go-to-market 组织有多大？"
+ },
+ {
+  "seg": 237,
+  "start": 1104.411,
+  "end": 1109.314,
+  "speaker": "Unknown",
+  "en": "You have eight FDEs and the size of the company right now is how many?",
+  "zh": "你有八个 FDE，公司现在的规模是多少人？"
+ },
+ {
+  "seg": 238,
+  "start": 1109.694,
+  "end": 1110.574,
+  "speaker": "Unknown",
+  "en": "Oh, we're about 115 people.",
+  "zh": "哦，我们大约有 115 人。"
+ },
+ {
+  "seg": 239,
+  "start": 1110.594,
+  "end": 1110.875,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 240,
+  "start": 1110.935,
+  "end": 1111.115,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 241,
+  "start": 1119.303,
+  "end": 1120.004,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

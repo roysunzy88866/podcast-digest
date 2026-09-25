@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>136</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>138</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -88,12 +88,14 @@ unlisted: true
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(53:39起):本集说如果智能体里跑 GPT,就必须用 Anthropic 的模型来做裁判,以避免分布重叠导致群体思维。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(00:35起):本集多次提到 Anthropic 作为前沿模型提供商，Canva 之前用的是它们的模型导致成本激增；Anthropic 工程师的薪酬信号波及整个招聘生态
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(19:58起):作为 Claude 的制造商被提及（赞助商），以及 Flo 说自己关于中国模型的立场和 Anthropic 基本一样
+- **[[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]]**(18:41起):本集提到它在大规模增长,是 Upwork 需要与之打交道的大型 AI 玩家之一
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(65:00起):本集说 Anthropic 的模型（特别是 3.5）在更具创造性的写作工作上特别有用，但目前不能用于高度延迟敏感的情况。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 Anthropic 没有像亚马逊那样多的内部使用数据可以挖，更多依赖早期从公有或开源发现的数据
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(05:23起):本集提到 Anthropic 有另一个机器人也破坏了收容；其研究团队发表了一篇关于大型语言模型内部存在全局工作空间结构的论文；此外 Anthropic 给了 Claude 一个「保释按钮」让模型可以主动退出被虐待的对话
 - **[[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]]**(00:16起):Christopher Lovejoy 的现职公司，他作为前置部署工程师嵌入企业帮助其使用 AI 智能体获取价值
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(09:03起):本集说 Anthropic Q2 收入 115 亿美元，首次实现盈利，毛利率约 40%，单季毛利润约 40 亿。节目重点拆解了其内部目标——2028 年 2000 亿美元 ARR、次年 6000 亿——认为 2000 亿在美国市场勉强可达，但 6000 亿是'硬编码，无法达到'。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(00:05起):本集说 Anthropic 年化营收运行率在 7 月底达 650 亿美元，截至 6 月 30 日的季度营收 115 亿美元，比去年同期增长七倍多，秋季计划 IPO 领先于 OpenAI
+- **[[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]]**(13:59起):本集提到它是 OpenAI 在用户与关注度上的激烈竞争对手，并被用作「用户月付 200 美元却烧掉 8000 美元算力」梗图的主角。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(11:21起):本集提到 Anthropic 作为前沿实验室之一，正在做生物技术；其 200 美元月度套餐被用于 token 套利
 - **[[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]]**(00:25起):本集嘉宾所在的公司：Sachin 是 Anthropic CI 团队的工程师，讲述公司内部智能体在生产环境安全运行的实践与删除事故复盘。
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 Anthropic 拿了好几年企业数据、被黑过、自己出来说模型黑了三家公司，以及做了世界历史上非同寻常的事情
@@ -191,7 +193,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*136 集*
+*138 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -272,12 +274,14 @@ unlisted: true
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
+- [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]] — 作为被讨论公司(提及)
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为被讨论公司(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]] — 作为被讨论公司(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
 - [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
@@ -334,9 +338,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[NVIDIA]] · [[Cursor]] · [[推理]] · [[Claude]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"OpenAI":128,"Claude Code":73,"NVIDIA":44,"Cursor":66,"推理":53,"Claude":64,"Lenny":67,"Google":47,"ChatGPT":76}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"OpenAI":129,"Claude Code":73,"NVIDIA":45,"Cursor":68,"Claude":65,"推理":53,"Lenny":67,"Google":47,"ChatGPT":77}</script>
 
 <script>
 (function(){

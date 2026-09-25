@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish":1,"Raj":1,"Traversal":1,"智能体":312,"生产世界模型":1,"可观测性":27,"遥测数据":1,"上下文":20,"文件系统":3,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Anish":1,"Raj":1,"Traversal":1,"智能体":317,"生产世界模型":1,"可观测性":27,"遥测数据":1,"上下文":20,"文件系统":3,"评估":3}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>34</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,7 +38,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*34 条*
+*35 条*
 
 ![[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth#^q8]]
 
@@ -71,6 +71,8 @@ unlisted: true
 ![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q2]]
 
 ![[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t#^q11]]
+
+![[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a#^q9]]
 
 ![[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship#^q1]]
 
@@ -143,7 +145,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[GPU]] · [[Codex]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"Anthropic":136,"OpenAI":128,"Cursor":66,"推理":53,"NVIDIA":44,"ChatGPT":76,"GPU":18,"Codex":57,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Anthropic":138,"OpenAI":129,"Cursor":68,"推理":53,"NVIDIA":45,"ChatGPT":77,"GPU":18,"Codex":57,"Claude Code":73}</script>
 
 <script>
 (function(){

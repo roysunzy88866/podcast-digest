@@ -27,7 +27,7 @@ unlisted: true
 
 [[Jeanne DeWitt Grosser]] · [[Eric Landau]] · [[Lenny]] · [[Anchored]] · [[Vercel]] · [[物理 AI]] · [[Stripe]] · [[多模态]] · [[OpenAI]] · [[苦涩的教训]]
 
-<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Eric Landau":1,"Lenny":67,"Anchored":1,"Vercel":17,"物理 AI":8,"Stripe":34,"多模态":6,"OpenAI":128,"苦涩的教训":9}</script>
+<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Eric Landau":1,"Lenny":67,"Anchored":1,"Vercel":17,"物理 AI":8,"Stripe":34,"多模态":6,"OpenAI":129,"苦涩的教训":9}</script>
 
 <script>
 (function(){

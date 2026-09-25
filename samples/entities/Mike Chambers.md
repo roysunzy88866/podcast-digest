@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":312,"harness 工程":2,"Bedrock AgentCore":1,"MCP":52,"记忆":15,"多租户隔离":1,"可观测性":27,"基础设施即代码":1,"系统提示词":6,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"harness 工程":2,"Bedrock AgentCore":1,"MCP":55,"记忆":15,"多租户隔离":1,"可观测性":27,"基础设施即代码":1,"系统提示词":6,"Claude Code":73}</script>
 
 <script>
 (function(){

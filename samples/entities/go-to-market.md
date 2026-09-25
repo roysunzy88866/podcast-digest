@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>go-to-market</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]]**(15:47起):Eric 主要从 go-to-market 视角讲述组织演进：销售、客户管理、支持等职能如何随公司长大而专业化、垂直化。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(51:15起):本集提到招聘中的 Go to Market(市场推广/商业化)团队也会做面试挑战项目,让他们一起解决棘手客户的问题来作为评估。
 - **[[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|《AI 改写药物研发，而他只投五家公司》]]**(19:46起):本集说这是嘉宾多年投资最想早点知道的一课：无论技术多酷，归根结底要回到好的市场，进入市场那侧至少和技术一样难，甚至更难。
+- **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:13起):本集主张工程师可以把 go-to-market 当成一个工程问题、尤其是一个 AI 工程问题来做，其本质是一个数据问题：需要智能体可以据此行动的、关于你的世界的实时模型。
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(30:03起):本集双方共识：产品市场匹配大多与 go to market 关系不大——好销售营销是好和伟大之间的区别，不是好和坏之间的区别；小公司无法靠渐进的 go to market 走出慢增长
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(02:24起):本集嘉宾负责的整个体系：他给了企业阶段地图——0 到一两千万找产品市场契合，两千万到 1 亿建可重复 playbook，1 亿到 10 亿做国际化和渠道，数十亿之后拼领导者和文化。
 
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
@@ -50,6 +51,7 @@ unlisted: true
 - [[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]] — 作为概念
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为概念(提及)
 - [[2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin|《AI 改写药物研发，而他只投五家公司》]] — 作为概念
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为概念
 
@@ -57,9 +59,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Salesforce]] · [[前向部署工程师]] · [[Vercel]] · [[Replit]] · [[HubSpot]] · [[Cursor]] · [[OpenAI]] · [[Delphi]]
+[[智能体]] · [[Lenny]] · [[Salesforce]] · [[前向部署工程师]] · [[Cursor]] · [[Vercel]] · [[Replit]] · [[HubSpot]] · [[MCP]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"Lenny":67,"Salesforce":26,"前向部署工程师":1,"Vercel":17,"Replit":17,"HubSpot":8,"Cursor":66,"OpenAI":128,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Lenny":67,"Salesforce":28,"前向部署工程师":1,"Cursor":68,"Vercel":17,"Replit":17,"HubSpot":8,"MCP":55,"OpenAI":129}</script>
 
 <script>
 (function(){

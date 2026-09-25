@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Daniel Dines]] [[Josh Elman]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Daniel Dines]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":312,"编码智能体":17,"代码审查":14,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":52}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":317,"编码智能体":18,"代码审查":14,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":55}</script>
 
 <script>
 (function(){

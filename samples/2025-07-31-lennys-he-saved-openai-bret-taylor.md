@@ -184,9 +184,9 @@ Bret 接着说了一个更深的坑：你以为自己在回答"什么最有影�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|Harvey 弃用 OpenAI:开源将赢得一切]]<span class="pd-rz">同公司:Harvey、OpenAI · 同概念:前沿模型 (frontier model)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Cursor、OpenAI · 同概念:前沿模型 (frontier model)、智能体 (agent)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)、MCP</span>
-- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Sierra、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":312,"多智能体系统":5,"专用推理硬件":1,"推理":53,"上下文工程":15,"TPU":3,"MapReduce":1,"蒸馏":11,"AlphaFold":2,"Gemini":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"多智能体系统":5,"专用推理硬件":1,"推理":53,"上下文工程":15,"TPU":3,"MapReduce":1,"蒸馏":12,"AlphaFold":2,"Gemini":10}</script>
 
 <script>
 (function(){

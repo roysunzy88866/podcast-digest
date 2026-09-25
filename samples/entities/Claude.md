@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>64</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>65</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -47,6 +47,7 @@ unlisted: true
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(20:01起):本集说 Claude 被用作搜索和答案工具，且嘉宾个人在过去 12 个月完全投入使用 Claude，思想领导力产出提升了 10 倍
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(00:14起):被提及为 Lindy TeamMate 的竞争产品，以及用户可在设置里切换到的美国模型选项之一
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(04:52起):本集说 Claude 没有实现多账号连接功能，且在设计输出上永远选棕-棕褐-橙配色，一眼就知道是 AI 做的
+- **[[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]]**(12:00起):Anthropic 的 AI 工具,与 ChatGPT 并列为『工作的新目的地』之一;Brown 强调选择模型不是二元对立
 - **[[2026-08-19-talks-trading-desks-to-clinical-trials-paralle|《垂直 AI 创业的七步配方：护城河不是模型，是领域专业知识》]]**(05:29起):与 ChatGPT 并列的通用基线；演讲者还以 Sonnet 5 写代码为例说明工程师有判断编程好坏的心智模型。
 - **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(20:13起):本集演示中提到可在沙箱里运行，内部原型中的主智能体也只有 Anthropic/Claude 权限。
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(29:06起):本集提到 Claude 作为可能给企业提供智能体的供应商之一，TrustWise 对其是不可知的
@@ -151,7 +152,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*64 集*
+*65 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -190,6 +191,7 @@ unlisted: true
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
+- [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]] — 作为被讨论公司(提及)
 - [[2026-08-19-talks-trading-desks-to-clinical-trials-paralle|《垂直 AI 创业的七步配方：护城河不是模型，是领域专业知识》]] — 作为被讨论公司(提及)
 - [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为概念(提及)
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
@@ -224,7 +226,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[MCP]] · [[Google]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"ChatGPT":76,"Anthropic":136,"OpenAI":128,"Codex":57,"Lenny":67,"MCP":52,"Google":47,"沙箱":58,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"ChatGPT":77,"Anthropic":138,"OpenAI":129,"Codex":57,"Lenny":67,"MCP":55,"Google":47,"沙箱":58,"Claude Code":73}</script>
 
 <script>
 (function(){

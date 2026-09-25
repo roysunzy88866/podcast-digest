@@ -165,7 +165,7 @@ Eddie 收尾给出一个预测：未来一年内，AI 话语圈将被彻底翻�
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|Harvey 弃用 OpenAI:开源将赢得一切]]<span class="pd-rz">同公司:OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
 
 </div>
 </div>

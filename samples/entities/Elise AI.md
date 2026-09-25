@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bohan Li]] · [[语音智能体]] · [[级联语音智能体]] · [[转写]] · [[工具调用]] · [[文本转语音]] · [[前缀缓存]] · [[Cartesia]] · [[自动驾驶]]
 
-<script type="application/json" class="pd-epn">{"Bohan Li":1,"语音智能体":2,"级联语音智能体":1,"转写":2,"工具调用":3,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":2}</script>
+<script type="application/json" class="pd-epn">{"Bohan Li":1,"语音智能体":2,"级联语音智能体":1,"转写":2,"工具调用":3,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":3}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":312,"vibe coding":37,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":16}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":317,"vibe coding":37,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":16}</script>
 
 <script>
 (function(){

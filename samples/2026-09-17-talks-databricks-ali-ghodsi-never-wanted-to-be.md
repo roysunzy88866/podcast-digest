@@ -175,9 +175,9 @@ Ali 的回答很妙：「我们在谈论人。如果我从来没见过你，我�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训]]<span class="pd-rz">同公司:Snowflake</span>
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学]]<span class="pd-rz">同概念:AI</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Databricks、Snowflake</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:AGI</span>
 
 </div>
 <div class="pd-ex">

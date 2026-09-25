@@ -1,0 +1,166 @@
+{
+  "title_zh": "把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法",
+  "tldr": "Exa 联合创始人 Jeff 讲解如何把 go-to-market 变成 AI 工程问题：ICP 仪表盘、信号警报系统、个人 AI 克隆 JeffBot,以及智能体优先公司的三条原则。",
+  "digest_md": "这一集是 Exa 联合创始人 Jeff 的一场演讲。Exa 是一个面向智能体的搜索引擎——智能体很聪明，但没法直接访问网络，Exa 就像一个给智能体用的网络工具(类似 web MCP),为 Cursor、Cognition 等 AI 生态的很大一部分提供支持。Jeff 要讲的主张是：工程师完全可以把 go-to-market(市场推广)当成一个工程问题、尤其是 AI 工程问题来做。\n\n先回应一个常见争论：现在有一种说法是「产品才是一切」或「分发才是一切」，Twitter 上为此吵个不停——有人说有的公司赢在分发但产品不行，有人说智能体会自己挑最好的产品所以只要产品好。Jeff 的经验和观点是：两者都必须做好，「把东西造出来、造得好，然后送到人们手中。如果不同时做到这两件事，你就没有一家公司」。技术人员创业时的天然倾向是只管把东西做得极好——Exa 早期就是这样，营销和销售都做得很不够。但好消息是，在 2026 年，对工程师来说做 go-to-market 比以往任何时候都有趣，因为可以自动化，一个人能做非常多的事。\n\n## 核心假设：go-to-market 是一个数据问题\n\ngo-to-market 团队做的事一大堆：研究客户、研究目标对象、找到目标公司里的合适的人、构建 POC 等等。Jeff 的「大统一主题」是：**go-to-market 本质上是一个数据问题**——你有一个「产品能做什么」的世界，和一个「所有潜在客户」的世界，你要做的就是学习和弄清这个世界长什么样，必须从数据角度去解决。他的提议是：你需要一个智能体可以据此行动的、关于你的世界的**实时模型**。数据包括内部数据(客户信息、产品使用数据)和外部数据——世界上有超过 6000 万家公司、仅 LinkedIn 上就有超过十亿人，每天都有大量新闻发生。\n\n## Exa 内部怎么搭：两个界面 + 两种智能体\n\nExa 从 2023 年年中发布起，就是以 AI 智能体为先的视角设计 go-to-market 的——连 GPT-4 那时就已经能自动化 go-to-market 的整个环节了。具体拆成两块界面、两类智能体：\n\n**ICP 仪表盘**(回答「我们的世界是什么」)：用 Exa 对处于总体可触达市场(TAM)之内的几乎每一家公司做分类，比如模型提供商、AI 编程平台、go-to-market 情报工具等类别，并对每家公司深入挖掘——能预估其年度支出、看到公司元数据。技术上之所以做得到，是因为 Exa 本质是「互联网之上的嵌入」(embeddings):抓取整个互联网、训练嵌入模型做好网页搜索，由此获得强大的语义过滤和切片能力，用来生成巨大的潜在 ICP 清单。\n\n**RequestLens**(信号警报系统)：任何客户发生重要的事——有人注册了、搜索用量暴增、有人停止使用了、出现了他们非常在乎的人——都会收到通知，团队可以据此行动。\n\n**编程智能体**:Exa 的 go-to-market 团队对智能体的使用深得惊人——看他们的 Devin 等智能体支出就很高得离谱。Slack 里大概有十几个不同的智能体，人人都能用，都能访问海量内部数据；深入了解客户、做演示全都高度依赖智能体。\n\n**JeffBot**(Jeff 自己的 AI 克隆)：寒假里他用 Opus 4.5 花一周做了一个尽可能像自己的数字克隆。做法很有工程味：分析了约 760 封自己的邮件总结文风(平均每封 18 个词、爱用 best 而不是 sincerely 结尾)；分析了过去数百个决策、据此创建 evals 来校准系统 behaving 像自己；最后给了它对自己个人数据的读写权限——而他作为创始人能访问公司每个系统，所以这个智能体能访问一切。公司任何人都可以用 JeffBot 起草 Slack 消息或决策草稿，go-to-market 团队用它起草邮件。\n\n## 智能体优先公司的三条原则\n\n**一、智能体优先必须 API 优先。** 所有系统——智能体也好、GUI 也好——如果内部和外部数据之上没有真正好的 API,一切免谈。MCP、CLI 都行，形式不重要，重要的是有可编程的接口，否则智能体无法访问数据。\n\n**二、不是什么都要做成聊天机器人。** 固化的 UI 和灵活的聊天智能体各有价值。技术上 AI 确实能为任何用例现生成一个 UI,但能用同一个一致的用户界面处理同样的用例、让人学会使用工具，这一点很好——两者都是智能体优先的重要组成部分。\n\n**三、「买 Salesforce 还是自建 CRM」是虚假两难。** 真正的标准是：你用的东西要**可以任意自定义**。自己造的当然可以随时 vibe coding 改进；采购的 SaaS 如果能让它替你工作、任意定制，也行。Exa 就在用 Salesforce,因为它是个很好的数据库，在「销售该长什么样」上做了很多他们不想自己做的出色选择，而且以 MCP 形式暴露——所有智能体都能访问 Salesforce MCP,团队每天在用。无限的可用自定义性才是最高优先级的因素。\n\n## 观众问答的几个补充\n\n- **JeffBot 的训练数据**来自 Slack 和邮件——公司里发生的事有惊人比例都在 Slack 上，读大量 Slack 历史就能找到数百个过去做过的决策。\n- **团队构成**：go-to-market 团队有跑交易的客户经理(AE)、做需求挖掘的 SDR,还有一个 FDE(前置部署工程)组织。非 FDE 的所有人都学会了把 AI 用得很好——不是自己 vibe coding,而是非常善于使用工具，公司还专门设了培训。\n- **最有意思的是 FDE 组织**：他们既跑交易、支持交易，又承担大量 AI 系统的维护和功能构建——以前「做销售」和「建销售系统」是两份工作，因为 AI 现在成了一份工作。目前约八九个 FDE,公司总共约 115 人。Jeff 认为团队长大后未必人人全包，但这套模式能走得很远。\n- **安全边界**：JeffBot 不是人人全权限——Jeff 自己调用时可以读写大量系统；其他人调用时只能起草消息，且不开放所有 MCP 和工具的权限，护栏定义得相当明确。\n\n## 本集带走\n\n- **把 go-to-market 当数据问题解**：先回答「我的世界是什么」——用搜索/嵌入把 TAM 里几乎每家公司分类并建档，再对客户信号(注册、用量激增、流失)做实时警报，智能体基于这个实时模型行动。\n- **智能体优先 ⇒ API 优先**：所有内部和外部数据都要有可编程接口(MCP/CLI 均可)，否则智能体没数据可用，一切免谈。\n- **别把一切都做成聊天机器人**：固化 UI(可学习、一致)与灵活聊天智能体并存，才是完整的智能体优先形态。\n- **买还是建是假问题，可定制性才是真标准**:Exa 直接用 Salesforce,因为它数据库好用、已替你做好销售领域的选择，再通过 MCP 让所有智能体接入。\n- **AI 让「两份工作变一份」**:FDE 既跑交易又构建销售系统本身——这是 AI 之前做不到的新角色，也是精简团队保持高生产力的关键。\n- **克隆自己可行且有章法**：分析邮件定文风、把历史决策做成 evals 校准行为、给足数据权限——克隆的价值来自真实决策数据，而不是单纯的大模型。",
+  "quotes": [
+    {
+      "en": "You got to build the thing. It's got to be good. And then you got to get it into people's hands. If you don't do both things, then you don't have a company.",
+      "zh": "你得把东西造出来,它得是好的,然后你得把它送到人们手中。如果不同时做到这两件事,你就没有一家公司。",
+      "timestamp": "01:44",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "I propose that you need basically a live model of your world that agents can act on.",
+      "zh": "我提出,你基本上需要一个智能体可以据此行动的、关于你的世界的实时模型。",
+      "timestamp": "03:54",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "And when you have embeddings over the internet, you have this arbitrarily powerful semantic filtering and slicing and dicing of any type of data that you want.",
+      "zh": "当你拥有了互联网之上的嵌入,你就可以对任何你想要的数据类型进行无比强大的语义过滤、切片和切分。",
+      "timestamp": "06:44",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "I actually created evals from those decisions and calibrated this agent system to behave like myself.",
+      "zh": "我真的从那些决策中创建了 evals,并校准了这个智能体系统,让它表现得像我自己。",
+      "timestamp": "09:22",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "Firstly, to be agent first, you must be API first.",
+      "zh": "首先,要做到智能体优先,你必须做到 API 优先。",
+      "timestamp": "10:26",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "Hey, does everything need to be a chatbot? I think the answer is no.",
+      "zh": "嘿,是不是一切都得做成聊天机器人?我认为答案是否定的。",
+      "timestamp": "11:03",
+      "speaker": "Jeffrey Wang"
+    },
+    {
+      "en": "I think infinite customizability is really the highest order bit.",
+      "zh": "我认为无限的可用自定义性才是最高优先级的因素。",
+      "timestamp": "13:12",
+      "speaker": "Jeffrey Wang"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:44",
+      "speaker": "Jeff",
+      "en": "You got to build the thing. It's got to be good. And then you got to get it into people's hands. If you don't do both things, then you don't have a company.",
+      "zh": "你得把东西造出来,它得是好的,然后你得把它送到人们手中。如果不同时做到这两件事,你就没有一家公司。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Jeff",
+      "en": "Well, go-to-market is a data problem, right?",
+      "zh": "go-to-market 是一个数据问题,对吧?"
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Jeff",
+      "en": "I propose that you need basically a live model of your world that agents can act on.",
+      "zh": "我提出,你基本上需要一个智能体可以据此行动的、关于你的世界的实时模型。"
+    },
+    {
+      "timestamp": "06:39",
+      "speaker": "Jeff",
+      "en": "You can think about EXA as embeddings over the internet.",
+      "zh": "从技术角度来说,你可以把 Exa 想成互联网之上的嵌入。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Jeff",
+      "en": "And when you have embeddings over the internet, you have this arbitrarily powerful semantic filtering and slicing and dicing of any type of data that you want.",
+      "zh": "当你拥有了互联网之上的嵌入,你就可以对任何你想要的数据类型进行无比强大的语义过滤、切片和切分。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Jeff",
+      "en": "You could look at some of their devin spend and other agent spend, it's really freaking high.",
+      "zh": "你可以看看他们 Devin 的支出和其他智能体支出,真的高得离谱。"
+    },
+    {
+      "timestamp": "08:12",
+      "speaker": "Jeff",
+      "en": "Anytime we want to dig deeper on account, anytime we want to make a demo, et cetera, we depend heavily on agents.",
+      "zh": "任何时候我们想深入了解某个客户、任何时候我们想做演示等等,我们都高度依赖智能体。"
+    },
+    {
+      "timestamp": "08:28",
+      "speaker": "Jeff",
+      "en": "JeffBot is an AI clone of myself as much as possible.",
+      "zh": "JeffBot 是一个尽可能像我本人的 AI 克隆。"
+    },
+    {
+      "timestamp": "09:00",
+      "speaker": "Jeff",
+      "en": "Oh, I use 18 words on average per email, and I like to end emails with best and not sincerely, like all that type of stuff, right?",
+      "zh": "比如,哦,我平均每封邮件用 18 个词,我喜欢用 best 而不是 sincerely 来结尾邮件,诸如此类的东西,对吧?"
+    },
+    {
+      "timestamp": "09:22",
+      "speaker": "Jeff",
+      "en": "I actually created evals from those decisions and calibrated this agent system to behave like myself.",
+      "zh": "我真的从那些决策中创建了 evals,并校准了这个智能体系统,让它表现得像我自己。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Jeff",
+      "en": "Firstly, to be agent first, you must be API first.",
+      "zh": "首先,要做到智能体优先,你必须做到 API 优先。"
+    },
+    {
+      "timestamp": "10:44",
+      "speaker": "Jeff",
+      "en": "If you don't have really good APIs, your agents are not going to be able to have data access.",
+      "zh": "如果你没有真正好的 API,你的智能体就无法访问数据。"
+    },
+    {
+      "timestamp": "11:07",
+      "speaker": "Jeff",
+      "en": "Hey, does everything need to be a chatbot? I think the answer is no.",
+      "zh": "嘿,是不是一切都得做成聊天机器人?我认为答案是否定的。"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Jeff",
+      "en": "I actually think this is a false dichotomy.",
+      "zh": "我其实认为这是一个虚假的两难选择。"
+    },
+    {
+      "timestamp": "12:18",
+      "speaker": "Jeff",
+      "en": "You should just be using something that is arbitrarily customizable.",
+      "zh": "你应该使用那种可以任意自定义的东西。"
+    },
+    {
+      "timestamp": "12:41",
+      "speaker": "Jeff",
+      "en": "If you can arbitrarily customize the system, even if it's a system you've purchased, then you're, like, pretty good, right?",
+      "zh": "如果你可以任意自定义一个系统,即使它是你购买的系统,那你就已经相当不错了,对吧?"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Jeff",
+      "en": "I think infinite customizability is really the highest order bit.",
+      "zh": "我认为无限的可用自定义性才是最高优先级的因素。"
+    },
+    {
+      "timestamp": "14:02",
+      "speaker": "Jeff",
+      "en": "If you just read a ton of Slack history, you can definitely find hundreds of decisions that you've made in the past.",
+      "zh": "只要你读大量的 Slack 历史,你肯定能找到你过去做过的数百个决策。"
+    },
+    {
+      "timestamp": "18:04",
+      "speaker": "Jeff",
+      "en": "Before that was two jobs, and now it's one job.",
+      "zh": "在那之前这是两份工作,现在它是一份工作。"
+    }
+  ],
+  "voice_script": "今天跟你聊的这个人叫 Jeff,是 Exa 的联合创始人。Exa 是一个专门给 AI 智能体用的搜索引擎——智能体再聪明，也没法直接上网，Exa 就像一个给智能体用的网络工具，Cursor、Cognition 这些 AI 生态里的重要产品都在用它。Jeff 这次演讲要讲的主张特别有意思：市场推广，也就是 go-to-market,工程师完全可以把它当成一个工程问题，尤其是 AI 工程问题来做。\n\n先交代一下这个话题为什么值得聊。创业圈一直在吵一件事：到底是产品才是一切，还是分发才是一切？有人说有的公司赢在分发但产品不行，也有人说智能体反正会自己挑最好的产品，所以只要产品好就行。Jeff 的回答很直接：两者都得做好。用原话说，你得把东西造出来，它得是好的，然后你得把它送到人们手中。如果不同时做到这两件事，你就没有一家公司。技术人员创业有个天然倾向，就是只顾着把东西做得极好——Exa 早期就是这样，营销和销售都做得很不够。但好消息是，到了现在这个时点，工程师做市场推广比以往任何时候都有趣，因为可以自动化，一个人能干非常多的事。\n\n那具体怎么把市场推广变成一个工程问题呢？Jeff 有一条大统一主题：市场推广本质上是一个数据问题。你想，做推广的团队平时在干嘛？研究客户、找到目标公司里的合适的人、搭建产品验证，这些事的共同点是什么？是你有一个「产品能做什么」的世界，还有另一个「所有潜在客户」的世界，你要做的就是学习、弄清这两个世界长什么样。所以 Jeff 的提议是：你需要一个智能体可以据此行动的、关于你的世界的实时模型。数据从哪来？内部有客户信息和产品使用数据，外部呢，世界上有超过六千万家公司，光 LinkedIn 上就有超过十亿人，每天还有大量新闻发生。\n\n道理讲完了，那 Exa 内部到底怎么搭的？从这里开始才是实操。他们的做法是两个界面加两类智能体。\n\n第一个界面叫 ICP 仪表盘，回答的问题是「我们的世界是什么」。用 Exa 自己的工具，把总体可触达市场之内的几乎每一家公司都分类——比如哪些是模型提供商、哪些是 AI 编程平台、哪些做市场情报工具——而且对每家公司还能深入挖掘，预估它的年度支出、看到各种公司元数据。为什么做得到？因为 Exa 的本质是「互联网之上的嵌入」：抓取整个互联网、训练嵌入模型做好网页搜索。有句话值得记住：当你拥有了互联网之上的嵌入，你就可以对任何你想要的数据类型进行无比强大的语义过滤、切片和切分。靠这个，就能生成巨大的潜在客户清单。\n\n那清单有了，客户的状态是随时在变的，怎么办？这就是第二个界面要解决的——一个叫 RequestLens 的信号警报系统。任何客户发生重要的事，比如有人注册了、搜索用量暴增了、有人停止使用了、出现了他们非常在乎的人，团队都会收到通知，然后据此行动。你看，仪表盘是静态的地图，警报是实时的雷达，两个加起来，就是那个「关于你的世界的实时模型」。\n\n地图和雷达都有了，谁来干活？这就轮到智能体了。Exa 的市场团队对智能体的使用深得惊人——光看他们在 Devin 这类编程智能体上的支出就高得离谱。Slack 里大概有十几个不同的智能体，人人都能用，都能访问海量内部数据，深入了解客户、做演示，全都高度依赖智能体。\n\n这里面有个特别有意思的东西，叫 JeffBot——Jeff 在寒假里用 Opus 4.5 花一周给自己做的数字克隆。做法特别有工程味。第一步，分析了大约七百六十封自己的邮件，总结文风——平均每封十八个词，爱用 best 而不是 sincerely 结尾。第二步，分析了过去数百个自己做过的决策，并且真的从那些决策中创建了 evals,校准这个智能体系统，让它表现得像自己。第三步，给了它对个人数据的读写权限——而 Jeff 作为创始人能访问公司每个系统，所以这个智能体能访问一切。结果就是，公司任何人都可以用 JeffBot 起草 Slack 消息或决策草稿，市场团队用它起草邮件。顺便补一句，训练数据主要来自 Slack 和邮件，因为公司里发生的事有惊人比例都在 Slack 上，读大量 Slack 历史就能找到数百个过去做过的决策。\n\n讲到这，Exa 的整套打法就清楚了。但要把这套做法推广到任何一家公司，Jeff 总结了三条原则。\n\n第一条，要做到智能体优先，你必须做到 API 优先。意思就是，所有内部和外部数据，如果没有真正好的可编程接口，一切免谈。MCP 也好、命令行也好，形式不重要，重要的是智能体得能拿到数据。\n\n第二条，是不是一切都得做成聊天机器人？Jeff 认为答案是否定的。固化的界面和灵活的聊天智能体各有价值。技术上 AI 确实能为任何用例现生成一个界面，但用同一个一致的用户界面处理同样的用例、让人学会使用工具，这一点也很好。两者都是智能体优先的组成部分。\n\n第三条，很多人纠结「买 Salesforce 还是自建 CRM」,Jeff 说这是个虚假两难。真正的标准只有一个：你用的东西要可以任意自定义。自己造的当然随时能改；采购的软件如果能任意定制，也行。Exa 就直接用 Salesforce,因为它是个很好的数据库，在「销售该长什么样」这个领域做了很多他们不想自己做的出色选择，而且以 MCP 的形式暴露出来，所有智能体都能访问。所以，无限的可用自定义性，才是最高优先级的因素。\n\n观众问答里还补了几个细节，最值得听的是关于团队构成的。Exa 的市场团队里有跑交易的客户经理、做需求挖掘的 SDR,还有一个 FDE 组织——前置部署工程师。这些人特别有意思：既跑交易、支持交易，又承担大量 AI 系统的维护和功能构建。以前，「做销售」和「建销售系统」是两份工作，因为 AI,现在成了一份工作。目前 FDE 大概八九个人，公司总共约一百一十五人。非 FDE 的所有人也都学会了把 AI 用得很好——不是自己写代码，而是非常善于使用工具，公司还专门设了培训。至于安全边界，JeffBot 也不是人人全权限：Jeff 自己调用可以读写大量系统，其他人调用只能起草消息，不开放所有工具的权限，护栏定义得相当明确。\n\n这一集如果只记一句话，就记这个：把市场推广当数据问题来解——先弄清你的世界是什么，再对客户信号做实时警报，让智能体基于这个实时模型去行动。而支撑这一切的前提，是 API 优先。产品要好，分发也要好，两个都得做——不这样，你就没有一家公司。"
+}

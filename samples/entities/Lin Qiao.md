@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Fireworks":5,"Cursor":66,"NVIDIA":44,"Anthropic":136,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":26,"推理":53}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Fireworks":5,"Cursor":68,"NVIDIA":45,"Anthropic":138,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":26,"推理":53}</script>
 
 <script>
 (function(){

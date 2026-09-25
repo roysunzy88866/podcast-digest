@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权替代代言":1,"合伙制领导":1,"社会变迁造品牌":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":5,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权替代代言":1,"合伙制领导":1,"社会变迁造品牌":1}</script>
 
 <script>
 (function(){

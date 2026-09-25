@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael Lee]] · [[Sequence Holdings]] · [[Bank South]] · [[Atlas]] · [[智能体]] · [[控股公司]] · [[组织物理学]] · [[Palantir]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Michael Lee":1,"Sequence Holdings":1,"Bank South":1,"Atlas":3,"智能体":312,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":136,"OpenAI":128}</script>
+<script type="application/json" class="pd-epn">{"Michael Lee":1,"Sequence Holdings":1,"Bank South":1,"Atlas":3,"智能体":317,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":138,"OpenAI":129}</script>
 
 <script>
 (function(){

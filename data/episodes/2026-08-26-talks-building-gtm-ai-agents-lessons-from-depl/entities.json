@@ -1,0 +1,530 @@
+{
+  "episode_id": "2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "企业 AI 落地",
+    "智能体",
+    "内部工具",
+    "变革管理",
+    "数据分析"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "sait-izmit",
+      "type": "person",
+      "role": "guest",
+      "name": "Sait Izmit",
+      "file": "Sait Izmit",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "嘉宾所在公司，近万名员工、近半为销售；他的团队是 Snowflake 产品的零号客户，在自家平台上为销售团队构建内部 go-to-market 智能体助手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            39.008,
+            42.12
+          ],
+          "quote": "And we are the customer zero for all of Snowflake products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            42.16,
+            44.048
+          ],
+          "quote": "So this is build on Snowflake co-work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            89.029,
+            90.77
+          ],
+          "quote": "So let's take Snowflake, okay?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1129.059,
+            1140.827
+          ],
+          "quote": "I don't know if you already said this, but I saw in the titles of the article Snowflake Intelligence, is that an underlying context or layer that the tool or system you built was on top of?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1145.211,
+            1149.496
+          ],
+          "quote": "Snowflake Intelligence, we renamed that to Snowflake Cowork a couple of weeks ago in our summit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1166.431,
+            1173.194
+          ],
+          "quote": "We made a strategic choice for our internal thing where we said that, look, it is important that we bring all our data together and we do that in Snowflake.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1198.529,
+            1204.512
+          ],
+          "quote": "And then our customers are able to go and then build similar things basically on Snowflake Covert platform as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "company",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": true,
+      "how_described": "本集说它是 Snowflake 的无代码智能体平台（几周前峰会上由 Snowflake Intelligence 改名而来），内含 Cortex Analyst、Cortex Search 等开箱即用工具，自带护栏，业务用户无需写一行代码即可部署智能体；本集的 go-to-market 助手就构建在它之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1145.211,
+            1149.496
+          ],
+          "quote": "Snowflake Intelligence, we renamed that to Snowflake Cowork a couple of weeks ago in our summit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：一个回答了超百万个问题、每周约 4 万个的内部 go-to-market 智能体。嘉宾强调它是非确定性系统，用户信任极难赢得、一夜就能失去，因此质量优先于覆盖面；并描述了智能体从『和你的数据对话』到自动化工作流、团队自助构建、超个性化的演进，以及九页长智能体指令、用 Google Doc 管版本等发布细节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            259.916,
+            261.777
+          ],
+          "quote": "We had three lines of agent instructions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            262.657,
+            267.72
+          ],
+          "quote": "And then before I even tried the agent, I opened the spreadsheet, I took the sales process, I wrote down 150 questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            271.222,
+            272.482
+          ],
+          "quote": "We don't have that data in the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            314.117,
+            317.339
+          ],
+          "quote": "Today, if you look into our agent, I mean, it's not a small agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            602.319,
+            618.427
+          ],
+          "quote": "We literally have now sellers who are going to use our agent basically to monitor their inbox, then monitor their Slack channels, you know, keep track of all the customer questions coming about, like product questions, use the agent to draft responses that, save that in Gmail, review them afterwards, like send those things out, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            737.789,
+            742.594
+          ],
+          "quote": "When we literally first launched the agent, it was a nine-page long agent instructions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            749.06,
+            752.223
+          ],
+          "quote": "And we were managing these agent instruction versions out of a Google Doc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            771.919,
+            773.88
+          ],
+          "quote": "We couldn't fit them into the agent instructions anymore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            783.883,
+            785.483
+          ],
+          "quote": "We hit the limits on the agent instructions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            910.117,
+            919.286
+          ],
+          "quote": "I'm clearly seeing what people are asking and we are not able to answer or where we have like a quality issue where they're swearing at the agent or like repeating their question so that we see where to improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            945.673,
+            950.755
+          ],
+          "quote": "And in a couple of minutes, we can actually generate battle cards, sales enablement document, and then feed it back into the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1094.476,
+            1106.739
+          ],
+          "quote": "We have blog posts on how we do agent instructions, how we do our structured data with semantic views, how we basically build our rack-based knowledge assistance, the non-technical side of the story, like how do you drive change management and so on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1149.836,
+            1155.983
+          ],
+          "quote": "That's basically our non-code agent platform that we basically have available for our business users.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说系统接了五六个不同的 MCP 连接，靠它们做集成、支撑销售自动化工作流（监控收件箱和 Slack、起草回复存进 Gmail），是第二波能力浪潮的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            322.183,
+            328.868
+          ],
+          "quote": "We have, like, five to six different MCP connections on it, you know, close to 20 skills connected to that, and so on and so on, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            594.293,
+            597.648
+          ],
+          "quote": "And the next wave comes with all the MCP connections, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "change-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "变革管理 (change management)",
+      "file": "变革管理",
+      "primary": true,
+      "how_described": "本集说『这是很多产品失败的地方』：发布两周后只有 20% 的人真正试用过产品，很多 AI 项目不是败在技术而是败在激活环节；嘉宾把 60-70% 的时间花在销售会议做演示、搭采用仪表盘、争取销售负责人背书，并说没做这件事今天可能只有一半的成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            438.669,
+            440.429
+          ],
+          "quote": "It's basically how do you derive change management.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            481.914,
+            485.875
+          ],
+          "quote": "And then you significantly invest in basically change management, in activation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            521.727,
+            530.392
+          ],
+          "quote": "And then as engineers, if you spend all your effort, you want to have a good product, make sure that the activation and the change management is lined up, like post-launch of the product as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1009.705,
+            1010.626
+          ],
+          "quote": "Change management.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1094.476,
+            1106.739
+          ],
+          "quote": "We have blog posts on how we do agent instructions, how we do our structured data with semantic views, how we basically build our rack-based knowledge assistance, the non-technical side of the story, like how do you drive change management and so on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semantic-views",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义视图 (semantic views)",
+      "file": "语义视图",
+      "primary": true,
+      "how_described": "本集说今天的智能体系统有 15 个语义视图、85 张表、3000 列数据；首版只有几个 Cortex Analyst 工具加语义视图，后续用语义视图做结构化数据，60% 的数据是上线后六七个月里才编辑的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            317.74,
+            321.723
+          ],
+          "quote": "We have 15 semantic views, 85 tables, 3,000 columns of data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            743.254,
+            745.897
+          ],
+          "quote": "It was a couple of Cortex analyst tools, semantic views.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1094.476,
+            1106.739
+          ],
+          "quote": "We have blog posts on how we do agent instructions, how we do our structured data with semantic views, how we basically build our rack-based knowledge assistance, the non-technical side of the story, like how do you drive change management and so on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eval-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估基础设施 (eval infrastructure)",
+      "file": "评估基础设施",
+      "primary": false,
+      "how_described": "本集说首版发布时没有这些，后来意识到 Google Doc 管版本行不通，才补上 CI/CD 和评估基础设施，包括单元测试、路由测试等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            759.57,
+            764.694
+          ],
+          "quote": "Let's figure out our basically eval infrastructure with all the unit tests, routing tests, and everything, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": false,
+      "how_described": "本集说系统接了近 20 个技能；当业务流程塞不进智能体指令时，技能出现了，于是他们建了技能库，团队也能自助构建团队技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            322.183,
+            328.868
+          ],
+          "quote": "We have, like, five to six different MCP connections on it, you know, close to 20 skills connected to that, and so on and so on, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            647.207,
+            650.25
+          ],
+          "quote": "And now, all of a sudden, they're able to build team skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            774.001,
+            775.962
+          ],
+          "quote": "And then the skills came, and we were like, oh, perfect.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "feedback-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "反馈回路 (feedback loop)",
+      "file": "反馈回路",
+      "primary": true,
+      "how_described": "本集最后的核心建议：投资你的日志，用 LLM 对 120 万个问题做大规模分类，实时看到功能缺口和质量问题，自动生成作战卡和销售赋能文档再喂回智能体，还能做团队撮合——一旦开始挖掘日志，曲棍球杆式的指数增长就真的开始发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            849.238,
+            856.603
+          ],
+          "quote": "Last thing is I would really, really recommend investing in your logs, okay, because they create basically the feedback loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            951.765,
+            955.547
+          ],
+          "quote": "I mean, you cannot do that kind of a feedback loop with humans, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "retention-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "留存率 (retention rate)",
+      "file": "留存率",
+      "primary": false,
+      "how_described": "本集说 10% beta 阶段的核心验证指标是留存率：要证明用户会回来，他们退出 beta 时周活用户回访留存率超过 70%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            406.387,
+            413.17
+          ],
+          "quote": "So the things that we've really tracked there is basically like, okay, how many questions they're asking and everything, but what is the retention rate?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            413.79,
+            418.952
+          ],
+          "quote": "So we exited, for example, that at like more than 70% retention rate that the weekly active users were coming back.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集 Q&A 里说 Cowork 平台自带护栏，不用担心智能体在数据源使用上失控，团队因此能做大量策划和安全护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1204.572,
+            1214.275
+          ],
+          "quote": "And it comes with the guardrails and things where you don't really need to worry about them going very crazy on what data sources to do things and so on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1216.176,
+            1218.657
+          ],
+          "quote": "We are able to do a lot of security guardrails on there as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

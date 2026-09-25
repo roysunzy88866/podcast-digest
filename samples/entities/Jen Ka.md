@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":128,"Anthropic":136,"XAI":6,"Salesforce":26,"Harvey":12,"Cursor":66,"11 Labs":4,"GrokBot":6,"Town":3}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":129,"Anthropic":138,"XAI":6,"Salesforce":28,"Harvey":13,"Cursor":68,"11 Labs":4,"GrokBot":7,"Town":3}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]]
+[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":312,"编排器":2,"护栏":55,"循环":8,"规则":2,"police 文件":1,"vibe coding":37,"vibe engineering":1,"技能文件":3,"Codex":57}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"编排器":2,"护栏":56,"循环":8,"规则":2,"police 文件":1,"vibe coding":37,"vibe engineering":1,"技能文件":3,"Codex":57}</script>
 
 <script>
 (function(){

@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Exa</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Exa">EX</div><div class="pi"><h1 class="pt">Exa</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Exa">EX</div><div class="pi"><h1 class="pt">Exa</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(51:08起):本集把它说成:一个网络搜索 API;当智能体因为网页反爬虫而用不了浏览器时,可以通过接入 Exa 等程序化搜索 API 来获取网络信息。
+- **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:13起):本集介绍 Exa 是一个面向智能体的搜索引擎——一个智能体可以访问的网络 MCP/网络工具，为 Cursor、Cognition 等 AI 生态的很大一部分提供支持，技术上是互联网之上的嵌入。
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(00:30起):本集说 Exa 是为 AI 智能体打造的搜索引擎、第一家为 AI 做搜索的公司，服务超 5000 家公司、40 万开发者，客户包括 Cursor 编程智能体和 HubSpot 销售智能体。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为被讨论公司
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Will Bryk]] · [[Claire Vo]] · [[Cursor]] · [[OpenClaw]] · [[HubSpot]] · [[上下文过载]] · [[Google]]
+[[智能体]] · [[ChatGPT]] · [[Cursor]] · [[Slack]] · [[Lenny]] · [[Jeffrey Wang]] · [[Will Bryk]] · [[Claire Vo]] · [[go-to-market]] · [[HubSpot]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"ChatGPT":76,"Lenny":67,"Will Bryk":1,"Claire Vo":5,"Cursor":66,"OpenClaw":18,"HubSpot":8,"上下文过载":1,"Google":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"ChatGPT":77,"Cursor":68,"Slack":28,"Lenny":67,"Jeffrey Wang":1,"Will Bryk":1,"Claire Vo":5,"go-to-market":10,"HubSpot":8}</script>
 
 <script>
 (function(){

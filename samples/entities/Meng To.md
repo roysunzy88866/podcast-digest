@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]]
+[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Codex":57,"Cursor":66,"obsidian":1,"hey gen":1,"智能体":312,"上下文":20,"护栏":55,"Figma":20,"playwright":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Codex":57,"Cursor":68,"obsidian":1,"hey gen":1,"智能体":317,"上下文":20,"护栏":56,"Figma":20,"playwright":1}</script>
 
 <script>
 (function(){

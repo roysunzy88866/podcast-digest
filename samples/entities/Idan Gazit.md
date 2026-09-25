@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]]
+[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":11,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":55,"提示词注入":15,"Cloudflare":9,"Slack":27}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":11,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":56,"提示词注入":15,"Cloudflare":9,"Slack":28}</script>
 
 <script>
 (function(){

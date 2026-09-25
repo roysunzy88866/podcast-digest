@@ -150,7 +150,7 @@ Ron 强调创始人要亲自去：「向大公司 CIO 做推销是个大机会�
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Databricks · 同概念:按用量定价 (usage-based pricing)、智能体 (agent)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)、进入市场 (go-to-market)、PLG</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:数据上下文 (context)、智能体 (agent)</span>
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法]]<span class="pd-rz">同概念:智能体 (agent)、进入市场 (go-to-market)、FDE</span>
 
 </div>
 <div class="pd-ex">

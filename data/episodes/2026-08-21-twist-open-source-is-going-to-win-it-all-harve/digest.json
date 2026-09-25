@@ -1,0 +1,172 @@
+{
+  "title_zh": "Harvey 弃用 OpenAI:开源将赢得一切",
+  "tldr": "主持人 Jason Calacanis 与 Lon Harris 聊 GrokBot 实战、OpenAI 上市与 Harvey 自研模型，并访谈免费听写工具 Willow 和斯坦福学生做的自动驾驶高尔夫球车。",
+  "digest_md": "这一集是 This Week in Startups(第 2328 集)，主持人 Jason 和 Lon Harris 聊 AI 圈的最新动向。开场 Jason 就演示了他刚花 200 美元订阅的 GrokBot——一个跑在云端、自带电脑的智能体(能自己操作浏览器、连上各种应用的 AI 助手)，随后他把话题推向本集最重的主张：应用层公司正在集体弃用前沿模型，他说出了那句判断——「开源将会赢得一切」[35:14 Jason]。\n\n## GrokBot 实战：系统胜过目标\n\nJason 用 GrokBot 搭了几套持续运转的工作流：每天找适合 Founder University 的演讲者(含对方的 X 和 LinkedIn 账号)、每晚为 This Week in AI 扫描头条、追踪 Politico、Economist、Forbes 等媒体的动态和人事变动，连找新联合主持人都交给它——包括查候选人的政治立场，因为他请过立场鲜明的嘉宾，听众流失很直接。他的核心方法论是「系统胜过目标」：目标只是「找到好嘉宾」，系统则是让智能体每天做研究、团队成员排名、进 Google Sheet 的完整流程。他算了笔账：每位嘉宾意味着 5 到 10 小时的研究加 3 小时的邀约，系统能省掉这些[08:12 Jason]。结论是「每个人都必须成为系统思考者」[09:12 Jason],而他自认还没解决的是反向问题——怎么让有系统思维的人学会品味。\n\n## OpenAI 上市：增长背后看不清的两个数字\n\nOpenAI 的 CFO 在全员会上表示公司将在 2027 年或更早上市，还把 IPO 定性为「里程碑、又一轮融资」而非终点线。Jason 认为有两件事不会随 IPO 公开：一是流失率(churn,即有多少用户在退订)，而这恰是他最想看的真相；二是提供服务的真实成本。他还分享了一个老梗图式的故事：有人月付 200 美元买 Anthropic 高级档位、月底一看用量表花了 8000 美元算力，笑到歇斯底里——钱一路流向上游的微软和 NVIDIA,全在互相付钱。「人们已经开始盯着计价器了」[17:13 Jason]。他拿 Uber 早期类比：当年每单亏 5 到 7 美元，靠风投补贴烧出习惯、再慢慢涨价——但他随即指出 AI 算力市场不一样，替代品太多、竞争太激烈，补贴逻辑未必成立。\n\n## Harvey 自研模型：应用层的集体叛逃\n\n本集最大新闻：法律 AI 公司 Harvey 发布了第一个自研后训练模型 Harvey Tenet，基座是开源的 Kimi K3，与 fireworks research 合作训练。Jason 翻出旧账：Harvey 最早的种子轮正是 OpenAI 创业基金领投的 500 万美元，还是其最早四笔投资之一，并给了 GPT-4 早期访问权限[32:56 Lon]——如今却「不仅不信任 OpenAI，还需要拥有自己的模型」[33:43 Jason]。\n\n> 【背景】Kimi K3 的开发方月之暗面（Moonshot AI）为背景补充，本段原文未提及公司名。\n\nHarvey 的动机很直接：让竞争对手的律所各用各的专属模型、数据互不共享，像各自守着城堡。Jason 估计 Harvey 每月给 OpenAI 的花费约 1000 万美元，并预言 Lovable、Eleven Labs、Cursor 这个量级的公司同样如此，而它们「99% 的支出都会从前沿模型上撤走」[34:49 Jason],剩下的钱也只会用来做蒸馏(用大模型的输出训练自己的小模型)。他的最终判断：「压倒性多数的美国企业界的 token,不会跑在前沿模型上，而是会在那些企业内部」[35:30 Jason]——因为企业「不想把自己的智能交给某个想做成『最终公司』的人」。他还重播了自己两年前在 All-In 上的预言「开源可能赢得 AI 竞赛、赢家是拥有训练数据的人」，宣布从「可能」升级为「必将」。给创始人的忠告也延续了他一贯的火药味：「当有人带着免费 token 来找你时，要知道生活中没有免费的东西」[23:55 Jason]。\n\n## Willow:把听写免费化的「向上打」打法\n\n第一位嘉宾是 Willow 联合创始人兼 CEO Alan Guo。Willow 是免费的 AI 语音听写应用，竞品是 Jason 重度上瘾的一款同类听写工具，延迟低于 250 毫秒。真正的付费产品是 Scribe：一个写作助手，你只需说「用我们的常用排查建议回复她」，它结合知识库、个人上下文甚至你的日历链接直接生成整段回复，客服和销售团队已不必逐字口述。\n\n免费策略的逻辑由 Alan 亲口道出：听写正在商品化，Apple 两三年内会做到 70-80% 的水平且深度内建设备，「与其被这种商品化吞噬，我们想先把它商品化」[43:10 Alan]。Jason 当场总结出两条可复用的创业法则：一是「向上打」——小公司要挑战比自己大的对手，大鱼永远不要向下应战；二是「你的利润率就是我的机会」[44:00 Jason]——对手收费的环节直接免费，在别处收费。\n\n## 斯坦福学生的自动驾驶高尔夫球车\n\n第二位嘉宾是斯坦福计算机系大三学生 Ethan Goodhart,他做的自动驾驶改装高尔夫球车在校园里爆火，连 NVIDIA 的 Jensen 都坐过——他是守在讲座外面拦到的。项目细节很有信息量：标准高尔夫球车加装物理改装套件，不动原车电子系统；纯视觉方案(6 个摄像头，无激光雷达)，算力是一台直连电池的 NVIDIA Jetson Thor;车顶装 Starlink Mini,用于测试云端推理和边开边部署代码。第一个原型只花了两三周[52:31 Ethan]。\n\n最有意思的是软件选择：他们最终放弃开源自动驾驶模型，自写软件——「很多开源模型出人意料地要么太大，要么不能很好地泛化到我们行驶的环境上」[58:40 Ethan],校园场景的行人密度和普通道路差异极大。他估计量产套件售价可低于几千美元，而高尔夫球场、Disney 这类有大量球车需求的场景已有真实兴趣。Jason 顺势聊起 AI 时代的大学教育：Ethan 坦言同学们对不感兴趣的课就直接「AI 速通」，热爱的课才真正去学——Jason 的结论是「孩子们会没事的」，因为这和成年人绕开无聊工作干正事是一回事。\n\n## 本集带走\n\n- **「系统胜过目标」的具体做法**：把重复目标(找嘉宾、扫新闻、竞争情报)拆成智能体每天自动跑的流程，人类只负责最后的排名与把关；每位嘉宾能省下 5-10 小时研究加 3 小时邀约。\n- **应用层公司的资金正在大迁徙**：Harvey 这类手握专家数据的公司会把绝大部分支出从前沿模型撤向开源自研模型，剩余支出主要用于蒸馏；这是 Jason 判断「开源赢得一切」的核心依据。\n- **警惕平台的「免费 token」**:OpenAI 既是 Harvey 最早的投资人又给了 GPT-4 早期访问，如今 Harvey 自研模型自立门户——大平台的扶持往往伴随被复制、被吞并的风险。\n- **商品化市场的先手棋**：当基础功能注定免费(如听写)，主动把它免费化、卡位上游，在上下文理解和团队协作层收费。\n- **两个创业法则**：向上打(挑战更大的对手，大鱼别向下应战)；你的利润率就是我的机会。\n- **自动驾驶的门槛在软件**：硬件原型两三周就能跑起来，难点是找到适合具体场景、跑得动边缘算力的模型——开源方案未必直接可用。",
+  "quotes": [
+    {
+      "en": "Open source is going to win it all.",
+      "zh": "开源将会赢得一切。",
+      "timestamp": "35:14",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "The majority of tokens, the overwhelming majority of tokens in corporate America. will not be on the frontier models, it will be inside those enterprises.",
+      "zh": "大多数的 token,压倒性多数的美国企业界的 token,不会跑在前沿模型上，而是会在那些企业内部。",
+      "timestamp": "35:30",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "There's no free beer, there's no free pizza, there's always a price.",
+      "zh": "没有免费啤酒，没有免费披萨，总有一笔代价。",
+      "timestamp": "23:59",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "Nobody who went to bed with Microsoft in the 80s, Facebook in the 2000s or Sam Altman now in the 2020s did not wake up with their throat slit.",
+      "zh": "那些在 80 年代跟 Microsoft 同床共枕、2000 年代跟 Facebook、或者现在 2020 年代跟 Sam Altman 合作的人，没有一个不是醒来时喉咙被割开的。",
+      "timestamp": "24:40",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "So then I think the winner is folks who have the training data.",
+      "zh": "所以我认为赢家是那些拥有训练数据的人。",
+      "timestamp": "27:34",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "Everybody has to become a systems thinker.",
+      "zh": "每个人都必须成为系统思考者。",
+      "timestamp": "09:12",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "And so rather than getting eaten by this commoditization, we want to commoditize it first.",
+      "zh": "所以与其被这种商品化吞噬，我们想先把它商品化。",
+      "timestamp": "43:10",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "And two, your margin is my opportunity.",
+      "zh": "第二，你的利润率就是我的机会。",
+      "timestamp": "43:58",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "I think we live in a world where every young person has access to a superhuman software engineer, mathematician, expert in medicine, physics, all at the same time.",
+      "zh": "我觉得我们生活在一个这样的世界里：每个年轻人都能接触到一位超人类的软件工程师、数学家、医学专家、物理学专家——全都同时拥有。",
+      "timestamp": "64:50",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "35:14",
+      "speaker": "Jason",
+      "en": "Open source is going to win it all.",
+      "zh": "开源将会赢得一切。"
+    },
+    {
+      "timestamp": "35:30",
+      "speaker": "Jason",
+      "en": "The majority of tokens, the overwhelming majority of tokens in corporate America. will not be on the frontier models, it will be inside those enterprises.",
+      "zh": "大多数的 token,压倒性多数的美国企业界的 token,不会跑在前沿模型上，而是会在那些企业内部。"
+    },
+    {
+      "timestamp": "34:49",
+      "speaker": "Jason",
+      "en": "Are gonna move their spend, 99% of their spend is coming off the Frontier models.",
+      "zh": "将会把它们的支出转移走，它们 99% 的支出都会从前沿模型上撤走。"
+    },
+    {
+      "timestamp": "23:55",
+      "speaker": "Jason",
+      "en": "There's no free beer, there's no free pizza, there's always a price.",
+      "zh": "没有免费啤酒，没有免费披萨，总有一笔代价。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Jason",
+      "en": "Nobody who went to bed with Microsoft in the 80s, Facebook in the 2000s or Sam Altman now in the 2020s did not wake up with their throat slit.",
+      "zh": "那些在 80 年代跟 Microsoft 同床共枕、2000 年代跟 Facebook、或者现在 2020 年代跟 Sam Altman 合作的人，没有一个不是醒来时喉咙被割开的。"
+    },
+    {
+      "timestamp": "27:34",
+      "speaker": "Jason",
+      "en": "So then I think the winner is folks who have the training data.",
+      "zh": "所以我认为赢家是那些拥有训练数据的人。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Jason",
+      "en": "Everybody has to become a systems thinker.",
+      "zh": "每个人都必须成为系统思考者。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Jason",
+      "en": "And that's going to be the final piece for me is to have that taste algorithm.",
+      "zh": "而这对我来说将是最后一块拼图，就是拥有那个品味算法。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Jason",
+      "en": "But if we can remove, let's say, 10 hours of research a week, five hours of research a week, and then start with research that's better than human, okay.",
+      "zh": "但如果我们能省掉，比如说，每周 10 小时的研究、每周 5 小时的研究，并且从比人类更好的研究开始，好吧。"
+    },
+    {
+      "timestamp": "17:13",
+      "speaker": "Jason",
+      "en": "People have started watching the meter.",
+      "zh": "人们已经开始盯着计价器了。"
+    },
+    {
+      "timestamp": "14:52",
+      "speaker": "Jason",
+      "en": "They're never gonna share the churn data.",
+      "zh": "他们永远不会分享流失率数据。"
+    },
+    {
+      "timestamp": "43:10",
+      "speaker": "Alan",
+      "en": "And so rather than getting eaten by this commoditization, we want to commoditize it first.",
+      "zh": "所以与其被这种商品化吞噬，我们想先把它商品化。"
+    },
+    {
+      "timestamp": "42:48",
+      "speaker": "Alan",
+      "en": "There's no doubt in my mind that within two, three years, Apple is going to get 70, 80% as good as dictation tools like Willavoy and other ones, AI dictation tools.",
+      "zh": "我毫不怀疑，在两三年内，Apple 会在听写上达到 Willow 之类 AI 听写工具 70% 到 80% 的水平。"
+    },
+    {
+      "timestamp": "44:00",
+      "speaker": "Jason",
+      "en": "And two, your margin is my opportunity.",
+      "zh": "第二，你的利润率就是我的机会。"
+    },
+    {
+      "timestamp": "58:40",
+      "speaker": "Ethan",
+      "en": "And so we found that a lot of the open source models, surprisingly, were either way too large or didn't generalize well to the environment that we're driving on.",
+      "zh": "而且我们发现，很多开源模型出人意料地要么太大，要么不能很好地泛化到我们行驶的环境上。"
+    },
+    {
+      "timestamp": "52:31",
+      "speaker": "Ethan",
+      "en": "We got the first prototype up in like two, three weeks.",
+      "zh": "我们大概两三周就把第一个原型跑起来了。"
+    },
+    {
+      "timestamp": "64:58",
+      "speaker": "Jason",
+      "en": "I think we live in a world where every young person has access to a superhuman software engineer, mathematician, expert in medicine, physics, all at the same time.",
+      "zh": "我觉得我们生活在一个这样的世界里：每个年轻人都能接触到一位超人类的软件工程师、数学家、医学专家、物理学专家——全都同时拥有。"
+    },
+    {
+      "timestamp": "57:42",
+      "speaker": "Ethan",
+      "en": "Yeah, where you could see a retrofit version of a kit like this where you could sell for under a couple thousand dollars.",
+      "zh": "是的，你可以想象这样一个套件的改装版本，售价可以低于几千美元。"
+    }
+  ],
+  "voice_script": "今天这期节目来自 This Week in Startups,主持人 Jason 拉上老搭档 Lon Harris,一起聊 AI 圈这几天的几件大事。开场 Jason 先演示了自己刚花两百美元订阅的 GrokBot——这是个跑在云端、自带电脑的智能体，说白了就是一个能自己操作浏览器、连上各种应用的 AI 助手。演示完之后，话锋一转，抛出了这一集最重的判断：应用层的公司正在集体弃用前沿模型，开源将会赢得一切。这句话怎么来的，咱们顺着往下捋。\n\n先说 GrokBot 实战。Jason 拿它搭了好几套每天自动运转的工作流：每天找适合 Founder University 的演讲者，连对方的社交账号都查好；每晚为一档 AI 节目扫头条；追踪几家主流媒体的动态和人事变动；甚至连找新的联合主持人都交给它，包括查候选人的政治立场——因为请过立场太鲜明的嘉宾，听众流失很直接。背后的方法论就一句话，系统胜过目标。目标只是\"找到好嘉宾\"，系统则是让智能体每天做研究、团队成员来排名、结果进表格的完整流程。这笔账很清楚：找一位嘉宾，人工要花五到十小时研究、三小时邀约，系统全给省了。所以 Jason 的结论是，每个人都必须成为系统思考者。不过也承认，还没解决的反向问题是——怎么让有系统思维的人学会品味。\n\n那接着看 OpenAI。有消息说 OpenAI 的 CFO 在全员会上表示，公司会在 2027 年或更早上市，还把上市定性为\"里程碑、又一轮融资\"，而不是终点线。Jason 却指出了两件事，上市也不会公开：一是流失率，也就是到底有多少用户在退订，这恰恰是最想看的真相；二是提供服务的真实成本。这里有个流传很广的段子：有人月付两百美元买 Anthropic 的高级档位，月底一看用量表，实际烧掉了八千美元的算力，笑到歇斯底里——钱一路流向上游的微软和 NVIDIA,大家全在互相付钱。Jason 说，人们已经开始盯着计价器了。早年 Uber 每单亏五到七美元，靠风投补贴烧出用户习惯、再慢慢涨价，但 AI 算力市场不一样，替代品太多、竞争太激烈，补贴那套逻辑未必成立。\n\n这就引出了本集最大的新闻，也正好解释了开头那句\"开源赢得一切\"。法律 AI 公司 Harvey 发布了第一个自研后训练模型，叫 Harvey Tenet,基座用的是开源的 Kimi K3,和 Fireworks 合作训练。这事之所以震撼，是因为翻旧账看反差太大：Harvey 最早的种子轮，正是 OpenAI 创业基金领投的五百万美元，还是最早四笔投资之一，当时甚至拿到了 GPT-4 的早期访问权限。如今呢？\"不仅不信任 OpenAI,还需要拥有自己的模型。\"Harvey 的动机很直接：让竞争对手的律所各用各的专属模型，数据互不共享，像各自守着城堡。Jason 估计 Harvey 每月给 OpenAI 的花费约一千万美元，并预言 Lovable、Eleven Labs、Cursor 这个量级的公司都会如此，而且这些公司百分之九十九的支出都会从前沿模型上撤走，剩下的钱也只用来做蒸馏——就是拿大模型的输出去训练自己的小模型。最终判断是：压倒性多数的美国企业界的 token,不会跑在前沿模型上，而是会在那些企业内部。因为企业不想把自己的智能，交给某个想做成\"最终公司\"的人。两年前 Jason 在 All-In 上说过，开源可能赢得 AI 竞赛，赢家是拥有训练数据的人。现在，\"可能\"升级成了\"必将\"。留给创始人的忠告也很扎心：当有人带着免费 token 来找你时，要知道生活中没有免费的东西。\n\n聊完这些判断，节目请来了两位创业者，看看这套逻辑在真实项目里怎么落地。第一位是听写工具 Willow 的联合创始人兼 CEO Alan Guo。Willow 是免费的 AI 语音听写应用，对标的是 Jason 重度上瘾的另一款同类工具，延迟低于两百五十毫秒。但真正的付费产品叫 Scribe,是个写作助手：你只需说一句\"用我们的常用排查建议回复她\"，它就结合知识库、个人上下文甚至你的日历，直接生成整段回复。为什么听写要免费？Alan 说得很直白：听写正在商品化，Apple 两三年内就能做到七八成的水平、还深度内建设备，与其被商品化吞噬，不如先自己把它商品化。Jason 当场总结出两条创业法则：一是\"向上打\"，小公司要挑战比自己大的对手，大鱼永远不要向下应战；二是\"你的利润率就是我的机会\"，对手收费的环节直接免费，在别处赚钱。\n\n第二位嘉宾更有意思，是斯坦福计算机系大三学生 Ethan Goodhart,做了辆自动驾驶改装高尔夫球车，在校园里爆火，连 NVIDIA 的 Jensen 都坐过——人是守在讲座外面拦到的。技术方案很有信息量：普通高尔夫球车加物理改装套件，不动原车电子系统；纯视觉，六个摄像头，不用激光雷达；算力是一台直连电池的 NVIDIA Jetson Thor;车顶装了 Starlink Mini,用来测试云端推理和边开边部署代码。第一个原型只花了两三周。最有意思的是软件选择：放弃了开源自动驾驶模型，自己写——很多开源模型出人意料地要么太大，要么没法泛化到校园这种行人密度极高的环境。估计量产套件能压到几千美元以内，高尔夫球场、Disney 这类有大量球车需求的场景已经有真实兴趣。顺着这个，俩人聊到 AI 时代的教育：Ethan 坦言同学们对不感兴趣的课就直接 AI 速通，热爱的课才真学。Jason 的结论是，孩子们会没事的——这跟成年人绕开无聊工作干正事，是一回事。\n\n回到开头那句话。这一集真正想说的是，钱和数据正在从大平台流向企业自己手里。用 Jason 的话收尾：没有免费啤酒，没有免费披萨，总有一笔代价——所以开源，将会赢得一切。"
+}

@@ -153,6 +153,7 @@ Brad 的打法很硅谷：发起运动、创办公司、连接华盛顿。三年
 
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同概念:CAC</span>
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Salesforce</span>
+- [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法]]<span class="pd-rz">同公司:Salesforce</span>
 
 </div>
 </div>

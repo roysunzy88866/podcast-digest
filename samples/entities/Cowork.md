@@ -7,31 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cowork</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cowork">CO</div><div class="pi"><h1 class="pt">Cowork</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cowork">CO</div><div class="pi"><h1 class="pt">Cowork</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(75:01起):本集说它由 Claude Code 在一周半内开发出来，引发了对产品进入壁垒有多高的讨论
 - **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(08:23起):本集说它是 Anthropic 的非技术智能体产品，把 Claude Code 放进桌面应用里，团队用 Claude Code 在 10 天内构建完成，发布后立即爆火，远超早期的 Claude Code
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:05起):Anthropic 基于 Claude Code 概念构建的更好封装的产品，Dan 预测它和 Codex 一样，将成为承载人们大部分日常工作的本地操作系统。
+- **[[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]]**(19:05起):本集说它是 Snowflake 的无代码智能体平台（几周前峰会上由 Snowflake Intelligence 改名而来），内含 Cortex Analyst、Cortex Search 等开箱即用工具，自带护栏，业务用户无需写一行代码即可部署智能体；本集的 go-to-market 助手就构建在它之上。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(02:56起):本集提及它是 Anthropic 从编程智能体演化出的知识工作组件，也是被用户从其转移向 Grok Bot 的竞品之一。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
+- [[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|《Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训》]] — 作为被讨论公司
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Claude Code]] · [[Cursor]] · [[Codex]] · [[Anthropic]] · [[OpenClaw]] · [[Marc Andreessen]] · [[Boris Cherny]] · [[Dan Shipper]]
+[[智能体]] · [[Lenny]] · [[Cursor]] · [[Claude Code]] · [[Codex]] · [[Anthropic]] · [[OpenClaw]] · [[护栏]] · [[Marc Andreessen]] · [[Boris Cherny]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":312,"Claude Code":73,"Cursor":66,"Codex":57,"Anthropic":136,"OpenClaw":18,"Marc Andreessen":2,"Boris Cherny":3,"Dan Shipper":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Lenny":67,"Cursor":68,"Claude Code":73,"Codex":57,"Anthropic":138,"OpenClaw":18,"护栏":56,"Marc Andreessen":2,"Boris Cherny":3}</script>
 
 <script>
 (function(){

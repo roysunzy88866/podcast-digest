@@ -1,0 +1,920 @@
+{
+  "episode_id": "2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "GTM 与增长",
+    "智能体",
+    "AI 工程",
+    "销售与市场",
+    "组织方法"
+  ],
+  "categories": [
+    "增长与销售",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jeffrey-wang",
+      "type": "person",
+      "role": "guest",
+      "name": "Jeffrey Wang",
+      "file": "Jeffrey Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "exa",
+      "type": "company",
+      "role": "company",
+      "name": "Exa",
+      "file": "Exa",
+      "primary": true,
+      "how_described": "本集介绍 Exa 是一个面向智能体的搜索引擎——一个智能体可以访问的网络 MCP/网络工具，为 Cursor、Cognition 等 AI 生态的很大一部分提供支持，技术上是互联网之上的嵌入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.564,
+            24.09
+          ],
+          "quote": "I guess I was introduced, but I'm the co-founder of Exa, and today I'm gonna give a talk on turning go-to-market into an AI engineering problem in the spirit of this AI engineering affair.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 6,
+          "t": [
+            40.902,
+            49.984
+          ],
+          "quote": "Cool, so first, just to ground what EXA is, because it's sort of relevant inside of this presentation, EXA is a search engine for agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            283.085,
+            290.749
+          ],
+          "quote": "And cool, so I'm gonna go through, hopefully pretty fast, just all the different components of what we've built at EXA.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 67,
+          "t": [
+            295.011,
+            300.794
+          ],
+          "quote": "So EXA was launched in the middle of 2023, and so we were post-GPT4, and...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            341.686,
+            345.628
+          ],
+          "quote": "And what we actually do is we go ahead and use EXA",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            346.268,
+            351.33
+          ],
+          "quote": "And again, EXA is this arbitrarily powerful search engine for AI's essentially.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            391.18,
+            394.262
+          ],
+          "quote": "Again, we're able to do this because EXA is this search engine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            399.587,
+            403.991
+          ],
+          "quote": "And so basically, from a technical perspective, you can think about EXA as embeddings over the internet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 133,
+          "t": [
+            605.483,
+            610.146
+          ],
+          "quote": "All right, so those are the systems that we have at Exa.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            774.605,
+            780.046
+          ],
+          "quote": "Like, we use Salesforce at Exa, and it's great because it's a really good database.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "go-to-market（市场推广） (go-to-market)",
+      "file": "go-to-market（市场推广）",
+      "primary": true,
+      "how_described": "本集主张工程师可以把 go-to-market 当成一个工程问题、尤其是一个 AI 工程问题来做，其本质是一个数据问题：需要智能体可以据此行动的、关于你的世界的实时模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.564,
+            24.09
+          ],
+          "quote": "I guess I was introduced, but I'm the co-founder of Exa, and today I'm gonna give a talk on turning go-to-market into an AI engineering problem in the spirit of this AI engineering affair.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 5,
+          "t": [
+            31.494,
+            39.758
+          ],
+          "quote": "So I kind of oriented this talk around go-to-market as presented to engineers, so I'm happy that I did that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 11,
+          "t": [
+            66.661,
+            67.782
+          ],
+          "quote": "Why should you care about go-to-market?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 12,
+          "t": [
+            67.822,
+            72.046
+          ],
+          "quote": "I guess this audience cares about go-to-market because you chose to go to this go-to-market talk.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            100.872,
+            103.993
+          ],
+          "quote": "Like, I think you have to get product right and you have to get go-to-market right.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            130.861,
+            135.282
+          ],
+          "quote": "That's the bias we had when we started Exo and we were like honestly pretty bad at go to market.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            139.084,
+            149.588
+          ],
+          "quote": "But I think the cool thing about go to market, particularly in 2026, is you can treat go to market like an engineering problem and particularly an AI engineering problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            151.89,
+            157.657
+          ],
+          "quote": "It's more fun for engineers than ever to do go to market, because you can automate things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            172.985,
+            178.811
+          ],
+          "quote": "Cool, so the hypothesis I have is if you're an engineer, or if you're anyone, you can treat go-to-market like an engineering problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            178.831,
+            181.014
+          ],
+          "quote": "So first, I guess, what do go-to-market teams do?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            181.595,
+            186.28
+          ],
+          "quote": "So I have a laundry list of things here, of things that go-to-market teams do, but here are a few.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            207.107,
+            210.149
+          ],
+          "quote": "Well, go-to-market is a data problem, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            270.645,
+            281.232
+          ],
+          "quote": "And so when you're building this data go-to-market system, it's important to keep in mind all the different sources that exist and are available to your agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            302.835,
+            312.121
+          ],
+          "quote": "GPT-4 was really incredible, because it could actually, even then, even though it's way worse than like Fable or whatever, like it could actually just automate entire parts of go-to-market.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            312.141,
+            317.264
+          ],
+          "quote": "And so from the beginning, I've been thinking about our go-to-market from a very, very AI agent first perspective.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            363.574,
+            368.796
+          ],
+          "quote": "But yeah, we have categories like model providers, AI coding platforms, like say Cursor, go-to-market intelligence tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 103,
+          "t": [
+            456.168,
+            458.03
+          ],
+          "quote": "So our go-to-market team...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            462.151,
+            470.319
+          ],
+          "quote": "So our engineering team uses a lot of agents, but our go-to-market team is like, you could look at some of their devin spend and other agent spend, it's really freaking high.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            470.699,
+            478.166
+          ],
+          "quote": "And that's because everybody on our go-to-market team is constantly asking agents about our customers, we have like,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            597.797,
+            599.879
+          ],
+          "quote": "Our go-to-market team uses it to draft emails, for example.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 135,
+          "t": [
+            611.107,
+            613.389
+          ],
+          "quote": "Our go-to-market team is very lean but very productive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 190,
+          "t": [
+            852.302,
+            858.087
+          ],
+          "quote": "So your go-to-market team, what's the split between, are they just all like AI cracked?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            876.742,
+            885.085
+          ],
+          "quote": "So our go-to-market team is comprised of, like, there's account executives which, like, run the deals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1102.85,
+            1104.391
+          ],
+          "quote": "Oh, eight of like how big is our go-to-market org?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以 AI 智能体优先的视角设计 go-to-market：Slack 里约十几个智能体供人人使用、深度访问内部数据；编程智能体（如 Devin）支出很高；还构建了 JeffBot 这样的个人克隆智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            312.141,
+            317.264
+          ],
+          "quote": "And so from the beginning, I've been thinking about our go-to-market from a very, very AI agent first perspective.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            462.151,
+            470.319
+          ],
+          "quote": "So our engineering team uses a lot of agents, but our go-to-market team is like, you could look at some of their devin spend and other agent spend, it's really freaking high.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            503.075,
+            505.738
+          ],
+          "quote": "Cool, and then I want to talk about another really cool agent that I'm pretty proud of.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            562.066,
+            567.979
+          ],
+          "quote": "So I actually created evals from those decisions and calibrated this agent system to behave like myself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            620.947,
+            624.587
+          ],
+          "quote": "Principles I have around what it means to be an agent first company.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            625.945,
+            628.566
+          ],
+          "quote": "So firstly, to be agent first, you must be API first.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 145,
+          "t": [
+            657.271,
+            665.777
+          ],
+          "quote": "Secondly, I think there's still this mistake in the agent world which is made that's like, hey, does everything need to be a chatbot?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            703.175,
+            711.699
+          ],
+          "quote": "So yeah, I think having crystallized UIs and then also arbitrarily powerful flexible chat agents are both important components of being agent first.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说智能体优先必须 API 优先，MCP、CLI 都行，重要的是可编程接口；Exa 的 Salesforce 以 MCP 形式暴露，所有智能体都能访问 Salesforce MCP。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            53.205,
+            55.786
+          ],
+          "quote": "We're like this web MCP, web tool that agents can access.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            649.878,
+            652.119
+          ],
+          "quote": "So you can think about this as MCP, CLI, whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 167,
+          "t": [
+            780.066,
+            787.207
+          ],
+          "quote": "It's made a lot of amazing choices around what sales should look like, choices that we don't want to make ourselves, and then it's exposed as MCP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 168,
+          "t": [
+            787.327,
+            789.248
+          ],
+          "quote": "So all of our agents have access to Salesforce MCP.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "api-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "API 优先 (API first)",
+      "file": "API 优先",
+      "primary": true,
+      "how_described": "本集提出成为智能体优先公司的第一原则：内部和外部数据之上必须有真正好的 API，否则智能体无法访问数据、一切免谈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            625.945,
+            628.566
+          ],
+          "quote": "So firstly, to be agent first, you must be API first.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "embeddings",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embeddings)",
+      "file": "嵌入",
+      "primary": true,
+      "how_described": "本集从技术角度把 Exa 描述为互联网之上的嵌入：抓取整个互联网、训练嵌入模型做好网页搜索，由此获得强大的语义过滤和切片能力，用来生成巨大的潜在 ICP 清单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            394.302,
+            399.226
+          ],
+          "quote": "We take the internet, we crawl it, we train embeddings to do web search really well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            399.587,
+            403.991
+          ],
+          "quote": "And so basically, from a technical perspective, you can think about EXA as embeddings over the internet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            404.751,
+            412.573
+          ],
+          "quote": "And when you have embeddings over the internet, you have this arbitrarily powerful semantic filtering and slicing and dicing of any type of data that you want.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "icp-dashboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "ICP 仪表盘 (ICP dashboard)",
+      "file": "ICP 仪表盘",
+      "primary": true,
+      "how_described": "本集说 ICP 仪表盘是 Exa 内部产品，回答「我们的世界是什么」：用 Exa 对 TAM 内几乎每家公司分类（模型提供商、AI 编程平台等）并深入挖掘年度支出和公司元数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            327.038,
+            329.9
+          ],
+          "quote": "Cool, okay, the first is what we call our ICP dashboard.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            330.44,
+            336.063
+          ],
+          "quote": "And the ICP dashboard is a product that we have internally that answers the question, like, what is our world?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "requestlens",
+      "type": "concept",
+      "role": "concept",
+      "name": "RequestLens",
+      "file": "RequestLens",
+      "primary": true,
+      "how_described": "本集介绍 RequestLens 是 Exa 的信号警报系统：客户注册、搜索用量暴增、停止使用、重要人物出现等信号都会通知团队，团队可据此行动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            420.134,
+            423.155
+          ],
+          "quote": "Next, we have a tool we call RequestLens.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            423.775,
+            425.015
+          ],
+          "quote": "RequestLens, what is RequestLens?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jeffbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "JeffBot",
+      "file": "JeffBot",
+      "primary": true,
+      "how_described": "本集说 JeffBot 是 Jeff 用 Opus 4.5 花一周做的自己的数字克隆：分析约 760 封邮件定文风、把数百个历史决策做成 evals 校准行为，并对其个人数据有读写权限，公司任何人可用它起草消息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            505.778,
+            508.101
+          ],
+          "quote": "We call it JeffBot, or I call it JeffBot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 113,
+          "t": [
+            508.802,
+            513.348
+          ],
+          "quote": "JeffBot is an AI clone of myself as much as possible.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            587.449,
+            590.231
+          ],
+          "quote": "And basically what happens is anybody at the company can use JeffBot",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            966.702,
+            977.828
+          ],
+          "quote": "What you said suggested that you've got JeffBot, which runs with all of your full privileges, and then it's available to everybody, which suggests that there's one security level and everyone can see everything all the time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            987.536,
+            999.3
+          ],
+          "quote": "So, for example, in the case of JeffBot, when I use JeffBot and I call JeffBot, it has access to a ton of systems and it can, for example, do reads and writes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            999.82,
+            1005.562
+          ],
+          "quote": "However, when anybody else calls JeffBot, all it can do is draft messages and also I don't give JeffBot",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集以 Salesforce 为例说明「买还是建」是虚假两难：Exa 在用 Salesforce，因为它是个很好的数据库、在「销售该长什么样」上做了他们不想自己做的出色选择，且以 MCP 形式暴露给所有智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            713.64,
+            724.046
+          ],
+          "quote": "And then finally, there's this question like, hey, should you shop for Salesforce or should you build your own CRM or something, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            773.104,
+            774.585
+          ],
+          "quote": "So, like, for example, we use Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            774.605,
+            780.046
+          ],
+          "quote": "Like, we use Salesforce at Exa, and it's great because it's a really good database.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 168,
+          "t": [
+            787.327,
+            789.248
+          ],
+          "quote": "So all of our agents have access to Salesforce MCP.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fde",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDE",
+      "file": "FDE",
+      "primary": true,
+      "how_described": "本集说 FDE 组织既跑交易、支持交易，又承担大量 AI 系统的维护和功能构建——因为 AI，以前的两份工作现在成了一份工作；Exa 约有八九个 FDE，公司共约 115 人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            892.068,
+            897.47
+          ],
+          "quote": "And then there are separately, there's separately, like, a FDE org, so Forward Deployed Engineering Organization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            902.363,
+            910.845
+          ],
+          "quote": "Everyone that's not in FDE has learned how to use AI really well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1025.139,
+            1029.402
+          ],
+          "quote": "Can you share the origin story of the FDE team?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1037.184,
+            1045.386
+          ],
+          "quote": "I mean, my hypothesis on this is, like, once upon a time, the FDE role didn't really exist.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集提到 Jeff 分析了过去数百个决策、从中创建 evals 来校准 JeffBot 的行为使其像自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            559.381,
+            561.565
+          ],
+          "quote": "And I analyzed them and I created evals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            562.066,
+            567.979
+          ],
+          "quote": "So I actually created evals from those decisions and calibrated this agent system to behave like myself.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说公司里发生的事有惊人比例都在 Slack 上，读大量 Slack 历史就能找到数百个过去的决策；Exa 的 Slack 里有约十几个智能体供人人使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            483.131,
+            489.156
+          ],
+          "quote": "It's just this crazy ecosystem where we have maybe a dozen different agents inside of our Slack, and anybody can use any of them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            590.952,
+            595.736
+          ],
+          "quote": "to create drafts of Slack messages that are basically like answers or decisions that are made.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            828.002,
+            828.722
+          ],
+          "quote": "Is it Slack?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 185,
+          "t": [
+            833.083,
+            836.344
+          ],
+          "quote": "I looked at decisions I made within Slack and email.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 186,
+          "t": [
+            836.844,
+            842.546
+          ],
+          "quote": "I mean, a surprisingly large amount of everything that goes on a company is on Slack, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            842.666,
+            848.347
+          ],
+          "quote": "So if you just read a ton of Slack history, you can definitely find hundreds of decisions that you've made in the past.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Exa 为 Cursor 提供支持，并举 Cursor 作为 AI 编程平台类别（Exa ICP 分类之一）的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            55.806,
+            59.627
+          ],
+          "quote": "We power Cursor, we power Cognition, we power a lot of the AI ecosystem at this point.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            363.574,
+            368.796
+          ],
+          "quote": "But yeah, we have categories like model providers, AI coding platforms, like say Cursor, go-to-market intelligence tools.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "concept",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到 Exa 为 Cognition 等提供支持，是其服务的 AI 生态的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            55.806,
+            59.627
+          ],
+          "quote": "We power Cursor, we power Cognition, we power a lot of the AI ecosystem at this point.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

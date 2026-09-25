@@ -111,8 +111,8 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 **换个口味**
 
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face、Anthropic、OpenAI · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|Harvey 弃用 OpenAI:开源将赢得一切]]<span class="pd-rz">同公司:OpenAI · 同概念:Kimi K3、智能体 (agent)、蒸馏 (distillation)</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)</span>
-- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Hugging Face、Anthropic、OpenAI · 同概念:开源权重 (open weight)、智能体 (agent)</span>
 
 </div>
 </div>

@@ -33,7 +33,7 @@ unlisted: true
 
 [[合成数据]] · [[Brendan Foody]] · [[Diogo Almeida]] · [[Mercor]] · [[Jev]] · [[RL 环境]] · [[TypeSafe]] · [[后训练]] · [[System 1 模型]] · [[验证器]]
 
-<script type="application/json" class="pd-epn">{"合成数据":8,"Brendan Foody":1,"Diogo Almeida":1,"Mercor":2,"Jev":1,"RL 环境":6,"TypeSafe":1,"后训练":27,"System 1 模型":1,"验证器":6}</script>
+<script type="application/json" class="pd-epn">{"合成数据":8,"Brendan Foody":1,"Diogo Almeida":1,"Mercor":2,"Jev":1,"RL 环境":6,"TypeSafe":1,"后训练":1,"System 1 模型":1,"验证器":6}</script>
 
 <script>
 (function(){

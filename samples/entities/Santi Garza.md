@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]]
+[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin":1,"Cursor":66,"智能体":312,"token":24,"harness":44,"上下文窗口":7,"提示词":16,"缓存":1,"压缩":2,"模型选择":1}</script>
+<script type="application/json" class="pd-epn">{"Martin":1,"Cursor":68,"智能体":317,"token":24,"harness":44,"上下文窗口":7,"提示词":16,"缓存":1,"压缩":2,"模型选择":1}</script>
 
 <script>
 (function(){

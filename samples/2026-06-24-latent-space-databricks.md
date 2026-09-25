@@ -126,8 +126,8 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 **顺着「智能体」挖下去**
 
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文]]<span class="pd-rz">同公司:Databricks、Neon · 同概念:智能体 (agent)</span>
+- [[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl|Snowflake 内部销售 AI 助手复盘：一百万个问题换来的教训]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Databricks、Snowflake · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

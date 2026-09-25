@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,17 @@ unlisted: true
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:56起):本集评测模型能力的四大高频场景之一,主持人发现 Tara 模型在编写简洁、切中要害的商务 PRD 文档上表现最为出色。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(41:00起):本集将其描述为传统的产品需求文档，虽然在明确痛点的开发中被评估（evals）替代，但在需要对齐大量利益相关者或探索极其模糊的新领域时依然具有不可替代的价值。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(01:48起):本集把它说成:过去产品经理用来传达产品诉求的文档,详细规定产品各种情况下的运作方式和用户价值,但在 Gen AI 时代因为产品能做的事太多、难以用文字描述,其核心职能被评估取代。
+- **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(14:06起):本集通过给三份 PRD 现场打分，示范 2026 年 PRD 不再是终点：要有原型、有客户证据、认可环节大大推后
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-26-talks-building-gtm-ai-agents-lessons-from-depl#^q6]]
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
@@ -28,14 +35,15 @@ unlisted: true
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念(提及)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[评估]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[主观能动性]] · [[Meta]] · [[原型]] · [[Claude Code]]
+[[智能体]] · [[Lenny]] · [[评估]] · [[Anthropic]] · [[Codex]] · [[MCP]] · [[OpenAI]] · [[原型]] · [[主观能动性]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"Lenny":67,"评估":3,"Anthropic":136,"Codex":57,"OpenAI":128,"主观能动性":1,"Meta":35,"原型":6,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Lenny":67,"评估":3,"Anthropic":138,"Codex":57,"MCP":55,"OpenAI":129,"原型":7,"主观能动性":1,"Meta":35}</script>
 
 <script>
 (function(){

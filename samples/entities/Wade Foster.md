@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Wade Foster</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Wade Foster">WA</div><div class="pi"><h1 class="pt">Wade Foster</h1><div class="byl">The Cognitive Revolution 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Wade Foster">WA</div><div class="pi"><h1 class="pt">Wade Foster</h1><div class="byl">The Cognitive Revolution 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*9 条*
+*14 条*
 
 ![[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o#^q1]]
 
@@ -31,17 +31,28 @@ unlisted: true
 
 ![[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o#^q9]]
 
+![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q1]]
+
+![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q2]]
+
+![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q3]]
+
+![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q4]]
+
+![[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms#^q5]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为联合主持
+- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Nathan]] · [[Zapier]] · [[MCP]] · [[智能体]] · [[确定性代码]] · [[Automation Bench]] · [[daily driver]] · [[token]] · [[Cursor]] · [[ChatGPT]]
+[[Zapier]] · [[MCP]] · [[智能体]] · [[Salesforce]] · [[Nathan]] · [[AI 熟练度]] · [[确定性代码]] · [[编码智能体]] · [[Automation Bench]] · [[确定性]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -51,7 +62,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"Zapier":2,"MCP":52,"智能体":312,"确定性代码":1,"Automation Bench":1,"daily driver":1,"token":24,"Cursor":66,"ChatGPT":76}</script>
+<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":55,"智能体":317,"Salesforce":28,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":18,"Automation Bench":1,"确定性":3}</script>
 
 <script>
 (function(){

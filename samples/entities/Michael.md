@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":44}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":1,"光纤":1,"数据中心":15,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":6,"NVIDIA":45}</script>
 
 <script>
 (function(){

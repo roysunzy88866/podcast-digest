@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":16,"OpenAI":128,"ChatGPT":76,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":26,"推理":53,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":16,"OpenAI":129,"ChatGPT":77,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":26,"推理":53,"图灵测试":2}</script>
 
 <script>
 (function(){

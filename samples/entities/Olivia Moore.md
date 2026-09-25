@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Daniel Dines]]
+[[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":312,"人在回路":14,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":34}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":317,"人在回路":14,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":34}</script>
 
 <script>
 (function(){

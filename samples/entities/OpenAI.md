@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>128</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>129</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -81,6 +81,7 @@ unlisted: true
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(29:51起):本集提到瑞典后起之秀 Gabriel Peterson 成为 OpenAI 最年轻的研究员之一
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(04:33起):本集在讨论 Anthropic 上市时机时提到 OpenAI，说 OpenAI 不得不整顿内部、有更多高管动荡，上半年增速比其之前的初级竞争对手慢，可能被迫第二个上市，届时可能无法像 SpaceX 和 Anthropic 那样伴随炒作交易。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(00:05起):本集说 OpenAI 第二季度营收环比仅增长 18%、亏损加深，首席营收官 Denise Dresser 上任不到一年离职，在编码领域被 Anthropic 打了措手不及后被迫转向 Codex，寻求 2 万亿美元估值
+- **[[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]]**(00:08起):本集说其 CFO 宣布 2027 年或更早上市、把 IPO 定性为「里程碑、又一轮融资」；Jason 指出流失率和真实服务成本不会因上市公开，且它作为 Harvey 的早期投资人如今被其弃用。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(08:45起):本集说 OpenAI 是前沿实验室之一，拥有 95% 的市场份额（按收入加权），筹集资本能力令人难以置信，能直接将资本转化为增长；其模型定价有补贴，存在被套利空间
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 OpenAI 拿了好几年企业数据、被黑过，以及做了世界历史上非同寻常的事情
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到使用 Codex 时搭配来自 OpenAI 的基本上无限的 token
@@ -182,7 +183,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*128 集*
+*129 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -254,6 +255,7 @@ unlisted: true
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
+- [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]] — 作为被讨论公司
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
@@ -317,9 +319,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Lenny]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":312,"Anthropic":136,"ChatGPT":76,"Google":47,"推理":53,"Cursor":66,"NVIDIA":44,"Codex":57,"Claude":64,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":317,"Anthropic":138,"ChatGPT":77,"Google":47,"Cursor":68,"推理":53,"NVIDIA":45,"Codex":57,"Claude":65,"Lenny":67}</script>
 
 <script>
 (function(){
