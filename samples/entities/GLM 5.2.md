@@ -7,31 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GLM 5.2</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GLM 5.2">GL</div><div class="pi"><h1 class="pt">GLM 5.2</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GLM 5.2">GL</div><div class="pi"><h1 class="pt">GLM 5.2</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(39:20起):本集说 GLM 5.2 是一个来自中国的开源权重推理和编码模型，能力接近 Claude Opus 4.8 或 GPT 5.5 水平，Hugging Face 以完全主权方式内部托管它来处理安全日志
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(02:06起):本集把它说成:一款开源权重模型,团队对其很满意且打算继续投入,目前通过它合并的工作份额在持续增长。
 - **[[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]]**(67:10起):本集说开源模型评过、工具效率差太多不划算,但嘉宾一直在私下试用 GLM 5.2,「也许那就是救星」。
+- **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(04:35起):本集作为「我们都会用开源模型」的证据被提了一句：GLM 5.2 最近几周进展令人惊叹，这只是开始。
 - **[[2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen|《智能体推理不是聊天加量：Friendly AI 重建推理云》]]**(02:19起):本集把它说成:运行在 Friendly AI 上的开放权重模型,完成塔防游戏任务只要 0.27 美元、比 Opus 4.8 便宜 5.6 倍,质量明显可用。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为被讨论公司
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司(提及)
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为概念(提及)
+- [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为概念(提及)
 - [[2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen|《智能体推理不是聊天加量：Friendly AI 重建推理云》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[OpenAI]] · [[开放权重模型]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]] · [[Byung-Gon (Gon) Chun]] · [[Daniel Whitenack]] · [[Superconductor]]
+[[智能体]] · [[沙箱]] · [[OpenAI]] · [[开放权重模型]] · [[harness]] · [[Codex]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]] · [[Tushar Jain]]
 
-<script type="application/json" class="pd-epn">{"智能体":304,"沙箱":56,"OpenAI":127,"开放权重模型":1,"Chris Benson":9,"Arjun Singh":1,"Connor Hegey":1,"Byung-Gon (Gon) Chun":1,"Daniel Whitenack":8,"Superconductor":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":306,"沙箱":57,"OpenAI":128,"开放权重模型":1,"harness":42,"Codex":56,"Chris Benson":9,"Arjun Singh":1,"Connor Hegey":1,"Tushar Jain":1}</script>
 
 <script>
 (function(){

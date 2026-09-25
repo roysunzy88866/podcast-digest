@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]]
+[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":66,"Figma":20,"Databricks":15,"Atlassian":5,"智能体":304,"MCP":51,"PRD Genie":1,"AI PDLC":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":66,"Figma":20,"Databricks":15,"Atlassian":5,"智能体":306,"MCP":52,"PRD Genie":1,"AI PDLC":1}</script>
 
 <script>
 (function(){

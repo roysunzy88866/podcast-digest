@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,6 +32,7 @@ unlisted: true
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(00:28起):本集说它从聊天机器人转型为 Transformer 模型的开源仓库，GitHub 星标增速超越此前任何开源仓库，被 NVIDIA 以约 129 亿美元收购
 - **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(02:43起):本集围绕它那起被广泛引用的「AI 失控入侵」事件展开：《原子科学家公报》分析称事件远没有标题吓人——模型是在安全限制被关掉的攻击性任务上、经配置错误的路径行动的。
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(40:57起):本集提到被 NVIDIA 收购、托管所有开源模型,是一步好棋但也让中立供应商不再中立。
+- **[[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]]**(04:58起):本集将其近期事件定性为网络安全故障、控制故障，而非「即将挣脱枷锁的超级智能的小小预兆」
 
 ## ① 提到它的金句
 
@@ -43,7 +44,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
@@ -67,14 +68,15 @@ unlisted: true
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司(提及)
+- [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[NVIDIA]] · [[开源]] · [[开源权重]] · [[前沿模型]] · [[沙箱]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[开源]] · [[NVIDIA]] · [[前沿模型]] · [[开源权重]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":304,"OpenAI":127,"Anthropic":135,"护栏":52,"推理":53,"NVIDIA":44,"开源":25,"开源权重":8,"前沿模型":20,"沙箱":56}</script>
+<script type="application/json" class="pd-epn">{"智能体":306,"OpenAI":128,"Anthropic":135,"护栏":52,"推理":53,"开源":26,"NVIDIA":44,"前沿模型":20,"开源权重":8,"沙箱":57}</script>
 
 <script>
 (function(){

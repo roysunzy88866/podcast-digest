@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 

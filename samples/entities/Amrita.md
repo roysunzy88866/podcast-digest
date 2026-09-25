@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":66,"智能体":304,"云端智能体":1,"重构":1,"计划模式":5,"MCP":51,"PR":5,"测试覆盖率":1,"自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":66,"智能体":306,"云端智能体":1,"重构":1,"计划模式":5,"MCP":52,"PR":5,"测试覆盖率":1,"自动化":1}</script>
 
 <script>
 (function(){

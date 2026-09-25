@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":127,"Anthropic":135,"XAI":6,"Salesforce":26,"Harvey":12,"Cursor":66,"11 Labs":4,"GrokBot":6,"Town":3}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":128,"Anthropic":135,"XAI":6,"Salesforce":26,"Harvey":12,"Cursor":66,"11 Labs":4,"GrokBot":6,"Town":3}</script>
 
 <script>
 (function(){

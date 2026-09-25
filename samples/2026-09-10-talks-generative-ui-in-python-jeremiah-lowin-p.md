@@ -121,7 +121,7 @@ Prefab 已完全内置进 FastMCP:装上可选组件、导入、返回，当天�
 
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|Merge的"二次创业"：从SaaS集成到AI连接基础设施]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|智能体网络来了：网站和浏览器正在被“拆成原子”]]<span class="pd-rz">同概念:MCP、MCP Apps、智能体 (agent)</span>
+- [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|解锁智能体自主性：安全才是下一个瓶颈]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

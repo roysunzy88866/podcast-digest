@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NPS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NPS">NP</div><div class="pi"><h1 class="pt">NPS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NPS">NP</div><div class="pi"><h1 class="pt">NPS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(29:32起):本集借用该指标（区间 -100 到 +100）来衡量科技人是否愿推荐亲友入行。结果显示目前没有任何一个科技岗位的 NPS 为正，连最幸福的创始人也不例外。
+- **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(28:26起):本集说薪资 HR 行业 NPS 为正就已领先，Gusto 平时以 70 为目标，疫情期间因帮助客户撑过困境 NPS 跳到 88、89 并长期停留
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为概念
+- [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Noam Segal]] · [[Lenny]] · [[职业倦怠]] · [[认知衰退]] · [[同薪挤压]] · [[技能萎缩]] · [[经理有效性]] · [[大扁平化]] · [[冒名顶替综合征]] · [[Cognition]]
+[[Noam Segal]] · [[Tomer London]] · [[Lenny]] · [[Gusto]] · [[职业倦怠]] · [[payroll（工资发放）]] · [[认知衰退]] · [[小企业]] · [[同薪挤压]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Noam Segal":1,"Lenny":67,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":18}</script>
+<script type="application/json" class="pd-epn">{"Noam Segal":1,"Tomer London":1,"Lenny":67,"Gusto":2,"职业倦怠":2,"payroll（工资发放）":1,"认知衰退":1,"小企业":1,"同薪挤压":1,"AI":20}</script>
 
 <script>
 (function(){

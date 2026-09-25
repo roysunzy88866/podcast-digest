@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Sequoia":5,"智能体":304,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Sequoia":5,"智能体":306,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":18}</script>
 
 <script>
 (function(){

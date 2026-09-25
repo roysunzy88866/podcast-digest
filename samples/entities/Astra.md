@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[Greg Brockman]] · [[Nathan]] · [[Ben Horowitz]] · [[Wade Foster]] · [[Stripe]] · [[Zapier]] · [[Codex]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":127,"ChatGPT":76,"Greg Brockman":1,"Nathan":4,"Ben Horowitz":5,"Wade Foster":1,"Stripe":34,"Zapier":2,"Codex":55,"MCP":51}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":128,"ChatGPT":76,"Greg Brockman":1,"Nathan":4,"Ben Horowitz":5,"Wade Foster":1,"Stripe":34,"Zapier":2,"Codex":56,"MCP":52}</script>
 
 <script>
 (function(){

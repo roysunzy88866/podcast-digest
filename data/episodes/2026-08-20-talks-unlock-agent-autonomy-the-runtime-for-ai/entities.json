@@ -1,0 +1,907 @@
+{
+  "episode_id": "2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai",
+  "podcast": "精选演讲",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "沙箱",
+    "权限治理",
+    "Docker"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tushar-jain",
+      "type": "person",
+      "role": "guest",
+      "name": "Tushar Jain",
+      "file": "Tushar Jain",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "docker",
+      "type": "company",
+      "role": "company",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": true,
+      "how_described": "主讲人所在公司：本集说 Docker 过去十年解决了软件从笔记本搬上云的可移植性问题，现在正把这套经验延伸去做智能体安全的运行时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            628.932,
+            630.974
+          ],
+          "quote": "Docker spend the last everyone knows Docker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            630.994,
+            632.936
+          ],
+          "quote": "I'm going to assume everyone knows Docker has used Docker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            635.298,
+            637.58
+          ],
+          "quote": "And what Docker solved the last decade is portability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的核心主题：智能已不再是瓶颈，真正的挑战是如何安全地给智能体所需的访问权限与自主性，否则自主性解锁不了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            25.384,
+            29.246
+          ],
+          "quote": "So, we're going to talk about unlocking agent autonomy and what that means.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            104.274,
+            106.255
+          ],
+          "quote": "This agent's been running for weeks just fine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            144.241,
+            147.144
+          ],
+          "quote": "That agent should never have had write access to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            155.551,
+            160.296
+          ],
+          "quote": "Let's imagine I have an agent, and I'm asking it to investigate a latency spike.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            204.736,
+            213.298
+          ],
+          "quote": "We now end up with an agent that has access to everything at the same time, and so anything becomes a vector where the blast radius expands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            253.132,
+            258.478
+          ],
+          "quote": "Also, this is something we can't just rely on, the next frontier agent being really good and not making a mistake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            326.406,
+            330.187
+          ],
+          "quote": "So, the kind of harnesses an agent will use will grow, and you'll build your own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            347.463,
+            356.427
+          ],
+          "quote": "An environment where the agent runs, where if something goes wrong, there's limited blast radius, and we only give it the access it needs, and we do this in a safe and correct manner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            357.247,
+            372.995
+          ],
+          "quote": "We think the best way to do this is to create a runtime, is to have a runtime that all agents run on, so this runs across any agent, any harness, and across models, and that's where we create these artifacts, these capabilities that we want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            379.199,
+            382.32
+          ],
+          "quote": "You need to create an environment where it's controlled what the agent can get.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            390.524,
+            396.647
+          ],
+          "quote": "So one, you have a sandbox in which you run the agent, and it gets only what it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            397.167,
+            403.21
+          ],
+          "quote": "And importantly, you run the agent inside the untrusted boundary, and you run controls outside the VM boundary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            414.366,
+            420.613
+          ],
+          "quote": "So, in our example, the agent now wants to access Slack to search for any conversations around this incident.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            434.649,
+            437.952
+          ],
+          "quote": "And I don't want this agent to get access to other content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            455.258,
+            457.201
+          ],
+          "quote": "And that's what the agent gets access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            782.422,
+            783.683
+          ],
+          "quote": "This looks like a normal agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1208.72,
+            1211.002
+          ],
+          "quote": "On the left, you see an agent running in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1211.522,
+            1212.783
+          ],
+          "quote": "You see the main agent over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1226.672,
+            1229.254
+          ],
+          "quote": "This agent in this sandbox is scope limited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1279.973,
+            1285.495
+          ],
+          "quote": "And this is running at a base runtime layer, so it runs across every agent, every model, every harness that you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1331.014,
+            1334.316
+          ],
+          "quote": "That's what we think is needed to actually go unlock agent autonomy next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1339.199,
+            1342.341
+          ],
+          "quote": "You can run Claude, Codex, OpenCode, any agent, build your own in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把沙箱作为「遏制」支柱的基础：在不受信任边界内跑智能体、控制在 VM 边界之外，且主张拆任务、每个任务一个范围受限的小沙箱而非一个大沙箱堆权限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            385.462,
+            388.803
+          ],
+          "quote": "And look, you can throw a rock and find many sandbox companies at this point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            390.524,
+            396.647
+          ],
+          "quote": "So one, you have a sandbox in which you run the agent, and it gets only what it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            458.008,
+            468.796
+          ],
+          "quote": "We create a new, and instead of having a big sandbox that we keep adding capabilities to, take that part, run it in a scoped sandbox for that task with just the scoped capability it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            548.832,
+            564.246
+          ],
+          "quote": "But do this not just based on the Frontier Lab or the model that's running, but do this independent, running at like a control layer in the control sandbox layer in the core governance aspect, independent across all models and all harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            740.951,
+            751.593
+          ],
+          "quote": "Just like that, this is going to go spin up Codex for me in a sandbox that's running with my credentials injected in and with the network controls injected there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            778.039,
+            782.342
+          ],
+          "quote": "I'll wait a minute for that to run, but just to describe this, the base environment here is got a sandbox running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            816.905,
+            820.887
+          ],
+          "quote": "I don't need a single monolithic sandbox where I give it both credentials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            823.487,
+            829.009
+          ],
+          "quote": "I can have a separate sandbox with just Notion access nor the network access to take that and write it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            843.183,
+            845.965
+          ],
+          "quote": "So I'm going to create a sandbox here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            906.776,
+            909.058
+          ],
+          "quote": "And if you look here, I'm creating another sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1013.608,
+            1024.535
+          ],
+          "quote": "But this now feels the same, but the exact same sandbox just runs in the cloud because the runtime is portable and goes there with the policies applied, with all your controls applied.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1208.72,
+            1211.002
+          ],
+          "quote": "On the left, you see an agent running in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1226.672,
+            1229.254
+          ],
+          "quote": "This agent in this sandbox is scope limited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1242.814,
+            1247.097
+          ],
+          "quote": "And if you look here now, we created a scope sub-sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时 (runtime)",
+      "file": "运行时",
+      "primary": true,
+      "how_described": "本集主张构建一个跨模型、跨 harness、跨本地/云端/VPC 的运行时控制层，提供遏制、范围限定与基于意图的访问，不依赖模型本身不出错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            221.2,
+            229.203
+          ],
+          "quote": "But now, as agents become autonomous and they gain and they try to solve more problems, what they're doing changes at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            229.343,
+            231.243
+          ],
+          "quote": "The access they need changes at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            357.247,
+            372.995
+          ],
+          "quote": "We think the best way to do this is to create a runtime, is to have a runtime that all agents run on, so this runs across any agent, any harness, and across models, and that's where we create these artifacts, these capabilities that we want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            443.738,
+            454.677
+          ],
+          "quote": "Well, what the runtime should do is maybe create a just-in-time tool that composes over existing Slack MCP tools or anything else, but restricts access to just conversations about the incident.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            469.677,
+            482.967
+          ],
+          "quote": "This now starts to build the runtime and fabric for us where we can give agents fine scoped access, break down work into tasks cross-security boundaries, run those in contained sandboxes with just the access they need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            565.627,
+            574.094
+          ],
+          "quote": "This is sort of, this starts to get us to a world now where we can actually have a runtime layer and run agents safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            585.395,
+            595.482
+          ],
+          "quote": "But we're not done once we do this, because if you're building a runtime, not only does it have to provide the safety aspects we need, it also has to meet our functional aspects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            596.791,
+            598.152
+          ],
+          "quote": "The runtime needs to follow the work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            614.241,
+            619.364
+          ],
+          "quote": "The runtime has to be omnipresent and be able to move across all these environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            641.303,
+            646.868
+          ],
+          "quote": "We're taking all of that experience and building a runtime and evolving that to now solve for safety.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            649.17,
+            651.292
+          ],
+          "quote": "And you need this runtime to run across all environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            968.947,
+            971.068
+          ],
+          "quote": "That'd be nice if my runtime just extends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1013.608,
+            1024.535
+          ],
+          "quote": "But this now feels the same, but the exact same sandbox just runs in the cloud because the runtime is portable and goes there with the policies applied, with all your controls applied.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1051.914,
+            1062.543
+          ],
+          "quote": "So this is the power where you get the same experience you have locally in the cloud with the same secure runtime and the same policy and scoped access running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1138.941,
+            1145.525
+          ],
+          "quote": "This is the same runtime with the same control plane, with the same policy and scoped access, but now scaled out to orchestration and running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1164.278,
+            1174.136
+          ],
+          "quote": "A runtime that's providing a scope-like containment for just the task you need with scoped access, and the same thing follows you locally to the cloud to full orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1231.108,
+            1238.252
+          ],
+          "quote": "In this environment, we built an intent-based tool for it where it can ask the runtime and say, hey, I want to take this action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1279.973,
+            1285.495
+          ],
+          "quote": "And this is running at a base runtime layer, so it runs across every agent, every model, every harness that you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1321.151,
+            1328.573
+          ],
+          "quote": "And this runtime has to work across models, across harnesses, and move across all environments, local, cloud, VPC, orchestration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说我们一定会用多个 harness（承载智能体运行的框架外壳），押注单一 harness 会让模型选择受限，所以安全方案必须跨 harness 生效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            297.409,
+            300.752
+          ],
+          "quote": "You won't just use a single harness from a single provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            301.132,
+            311.198
+          ],
+          "quote": "One, you should, like, betting entirely on a harness from a frontier lab makes it hard to get choice across models from labs and across open models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            357.247,
+            372.995
+          ],
+          "quote": "We think the best way to do this is to create a runtime, is to have a runtime that all agents run on, so this runs across any agent, any harness, and across models, and that's where we create these artifacts, these capabilities that we want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1279.973,
+            1285.495
+          ],
+          "quote": "And this is running at a base runtime layer, so it runs across every agent, every model, every harness that you need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说运行时应即时生成新工具，组合在现有 Slack MCP 工具之上、只放行相关范围的访问；演示里 Notion 沙箱也只有 Notion MCP 访问权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            443.738,
+            454.677
+          ],
+          "quote": "Well, what the runtime should do is maybe create a just-in-time tool that composes over existing Slack MCP tools or anything else, but restricts access to just conversations about the incident.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            653.674,
+            663.58
+          ],
+          "quote": "This is a new, it starts with a brand new VM technology, and on top of that, a bunch of advancements on MCP and policy and safety and governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            791.267,
+            794.189
+          ],
+          "quote": "Network policy is controlled, and you'll see later you can control MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            909.678,
+            913.321
+          ],
+          "quote": "I'm giving this access to the Notion MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            947.665,
+            949.246
+          ],
+          "quote": "It'll find the MCP tool and do all that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microvm",
+      "type": "concept",
+      "role": "concept",
+      "name": "MicroVM",
+      "file": "MicroVM",
+      "primary": true,
+      "how_described": "本集介绍 SPX 底层是一项新的 MicroVM 技术，可跨 Windows、Mac、Linux、云端运行，是这套运行时的起点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            723.09,
+            728.714
+          ],
+          "quote": "This runs with a new MicroVM that runs across all environments, Windows, Mac, Linux, Cloud, everywhere.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intent-based-access",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于意图的访问 (intent-based access)",
+      "file": "基于意图的访问",
+      "primary": true,
+      "how_described": "本集第三大支柱：理解用户/任务意图与上下文再决定授权——合理的（调查事件要 Slack 读权限）放行，无依据的（突然要邮箱权限）拒绝或转人工审批。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            509.736,
+            512.9
+          ],
+          "quote": "This is where we have to, this is what intent-based access becomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1186.04,
+            1189.883
+          ],
+          "quote": "So, we said now we need, um, we need intent-based access.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spx",
+      "type": "concept",
+      "role": "concept",
+      "name": "SPX",
+      "file": "SPX",
+      "primary": true,
+      "how_described": "本集现场演示的新工具：一条命令在沙箱里启动 Codex 等智能体、凭证运行时注入、可加参数原样跑上云，可用 brew install SPX 试用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            719.808,
+            721.349
+          ],
+          "quote": "So, you've got a new tool called SPX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1336.397,
+            1338.999
+          ],
+          "quote": "You can just go brew install SPX, run this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集演示中在沙箱里启动的编码智能体之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            734.817,
+            735.758
+          ],
+          "quote": "I'm going to say Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            737.41,
+            739.97
+          ],
+          "quote": "Test1, Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            740.951,
+            751.593
+          ],
+          "quote": "Just like that, this is going to go spin up Codex for me in a sandbox that's running with my credentials injected in and with the network controls injected there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            772.696,
+            775.358
+          ],
+          "quote": "GitHub and Codex, Creds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            902.532,
+            906.155
+          ],
+          "quote": "I can create another one here where I'll say this time I'm going to use Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1339.199,
+            1342.341
+          ],
+          "quote": "You can run Claude, Codex, OpenCode, any agent, build your own in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集演示中提到可在沙箱里运行，内部原型中的主智能体也只有 Anthropic/Claude 权限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1213.524,
+            1216.245
+          ],
+          "quote": "This has access just Anthropic and Claude, no GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1339.199,
+            1342.341
+          ],
+          "quote": "You can run Claude, Codex, OpenCode, any agent, build your own in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "glm-5-2",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLM 5.2",
+      "file": "GLM 5.2",
+      "primary": false,
+      "how_described": "本集作为「我们都会用开源模型」的证据被提了一句：GLM 5.2 最近几周进展令人惊叹，这只是开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            275.437,
+            281.34
+          ],
+          "quote": "We're all living through the GLM 5.2 amazing progress the last few weeks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    }
+  ]
+}

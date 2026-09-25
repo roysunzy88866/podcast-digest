@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]] [[Josh Elman]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":304,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":135,"OpenAI":127}</script>
+<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":306,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":135,"OpenAI":128}</script>
 
 <script>
 (function(){

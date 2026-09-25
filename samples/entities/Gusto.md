@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gusto</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gusto">GU</div><div class="pi"><h1 class="pt">Gusto</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gusto">GU</div><div class="pi"><h1 class="pt">Gusto</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(00:35起):本集嘉宾所在的、拥有上千名研发人员的科技公司，主营薪资发放和人力资源服务，内部孵化出了全新的 AI 助手产品线。
+- **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(00:05起):本集主线公司：服务美国小企业的薪资与 HR 平台，约 15 年历史、收入超 10 亿美元、客户超 50 万，以对小企业的同理心为『秘方』
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为被讨论公司
+- [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
+[[联合创始人]] · [[Claire Vo]] · [[Tomer London]] · [[Eddie Kim]] · [[payroll（工资发放）]] · [[vibe coding]] · [[小企业]] · [[永久 Zoom]] · [[AI]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Eddie Kim":1,"联合创始人":3,"vibe coding":37,"永久 Zoom":1,"智能体":304,"垃圾桶法":1,"Cloudflare Worker":2,"Vercel AI SDK":2,"Claude Code":71}</script>
+<script type="application/json" class="pd-epn">{"联合创始人":4,"Claire Vo":5,"Tomer London":1,"Eddie Kim":1,"payroll（工资发放）":1,"vibe coding":37,"小企业":1,"永久 Zoom":1,"AI":20,"智能体":306}</script>
 
 <script>
 (function(){

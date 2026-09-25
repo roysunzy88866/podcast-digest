@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]]
+[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":10,"Anthropic":135,"Discord":5,"Twitter":7,"智能体":304,"红队测试":4,"提示词注入":14,"越狱":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":10,"Anthropic":135,"Discord":5,"Twitter":7,"智能体":306,"红队测试":4,"提示词注入":14,"越狱":2}</script>
 
 <script>
 (function(){

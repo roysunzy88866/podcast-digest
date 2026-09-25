@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]]
+[[Tomer London]] [[Peter Sellis]] [[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":135,"OpenAI":127,"Claude":62,"Claude Code":71,"评估":3,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":20,"技能":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":135,"OpenAI":128,"Claude":64,"Claude Code":71,"评估":3,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":20,"技能":18}</script>
 
 <script>
 (function(){

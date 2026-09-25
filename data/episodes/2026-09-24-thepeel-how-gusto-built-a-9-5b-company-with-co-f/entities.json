@@ -1,0 +1,2069 @@
+{
+  "episode_id": "2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f",
+  "podcast": "The Peel",
+  "date": "2026-09-24",
+  "tags": [
+    "创业与行业",
+    "产品方法",
+    "AI 应用",
+    "小企业服务",
+    "客户至上"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "tomer-london",
+      "type": "person",
+      "role": "host",
+      "name": "Tomer London",
+      "file": "Tomer London",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gusto",
+      "type": "company",
+      "role": "company",
+      "name": "Gusto",
+      "file": "Gusto",
+      "primary": true,
+      "how_described": "本集主线公司：服务美国小企业的薪资与 HR 平台，约 15 年历史、收入超 10 亿美元、客户超 50 万，以对小企业的同理心为『秘方』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.955,
+            8.078
+          ],
+          "quote": "So Gusto is about 15 years old.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            15.248,
+            21.191
+          ],
+          "quote": "How the product has changed, how you build things inside of Gusto has changed over the past 15 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            22.571,
+            34.497
+          ],
+          "quote": "Well, there is a lot that has changed for sure, but I'll tell you what did not change, because I think there is, in a way, that's kind of the secret sauce and the thing that really makes Gusto special, in my opinion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            69.572,
+            79.017
+          ],
+          "quote": "And what we're trying to do with Gusto is to make that dream come true, like make it easier for folks to take that dream, take that idea, and then go and build a whole business behind it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            239.801,
+            245.345
+          ],
+          "quote": "Like, how do you guys stay focused on just building things that the customer, that the small businesses that run on Gusto actually need?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            253.89,
+            261.916
+          ],
+          "quote": "And there's, in the company like Gusto, in a product like us that ours that, you know, serves like again, hundreds of thousands of small businesses and millions of employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            265.507,
+            273.57
+          ],
+          "quote": "I can walk around with a Gusto T-shirt and, you know, people do say hi and, like, they tell us, they talk with us or talk with me about their experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            465.34,
+            472.563
+          ],
+          "quote": "One thing we were going to talk a little bit about, about how Gusto has incorporated AI into the product to go faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            473.363,
+            477.145
+          ],
+          "quote": "You have this thing that you made recently that you launched, it's called Gusto Co-Founder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            482.347,
+            486.689
+          ],
+          "quote": "So what is Gusto Co-Founder and how did that kind of go launching this and why did you do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            646.482,
+            656.43
+          ],
+          "quote": "Capability would be, for example, that we help people instead of building their timesheets for their employees like in a manual way, you can click a button and boom, like Gusto already.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            668.76,
+            678.929
+          ],
+          "quote": "So CoFunder basically is this idea like, hey, what if instead of logging into gusto.com, you never needed to log in and you could just text Gusto and run your whole...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            694.805,
+            697.186
+          ],
+          "quote": "And to have a new interface for Gusto that's based on text.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            942.758,
+            949.704
+          ],
+          "quote": "And I think you currently have about, I think it's like 9% of all SMBs in the country that use Gusto.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            962.313,
+            977.736
+          ],
+          "quote": "So that means statistically we look at all the customers on Gusto, we look at specifically a representative set of the whole economy, we dedupe, and then from there we project, you know, the basically economic numbers for the whole economy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1308.723,
+            1320.827
+          ],
+          "quote": "Over the course of March and April, externally with your customers inside of Gusto, how did that go just throughout going into COVID, the depths of it coming out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1419.937,
+            1426.94
+          ],
+          "quote": "We basically have an economic dashboard internally in gusto, and we see things like hiring, we see things like wages, we see PTO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1860.466,
+            1864.529
+          ],
+          "quote": "I think that's, I could see why people were so in love with Gusto after that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1956.982,
+            1958.542
+          ],
+          "quote": "How did that go inside Gusto?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2126.153,
+            2150.942
+          ],
+          "quote": "We have a business called Gusto Embedded where we actually take a lot of our payments processing, our tax processing, and we resell it as an embedded payroll product for large platforms like JPMorgan Chase uses it, and US Bank uses it, and Xero Accounting uses it, and there's a bunch of other kind of business platforms that offer payroll that's powered by Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2163.033,
+            2174.503
+          ],
+          "quote": "That's kind of interesting because you could say there's like different lenses to look through that kind of product where, you know, Gusto should be going out and acquiring all these customers and getting them on your own platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2179.207,
+            2188.532
+          ],
+          "quote": "Or you can also think of it as like maybe Xero or JP Morgan is now like a go-to-market partner essentially for the Gusto payroll rails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2206.342,
+            2210.763
+          ],
+          "quote": "One, Gusto serves under 10% of the market today still.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2210.783,
+            2212.364
+          ],
+          "quote": "This is like Gusto customers?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2212.404,
+            2213.184
+          ],
+          "quote": "Gusto.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2213.804,
+            2218.126
+          ],
+          "quote": "Like small businesses, only 9% of small businesses use Gusto today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2223.067,
+            2231.95
+          ],
+          "quote": "So we are, this is like a way for us to go and enable, you know, small businesses to reach and use Gusto technology through other means.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2276.498,
+            2286.508
+          ],
+          "quote": "Business, there's a bunch of those kind of vertical SaaS, like Vegaro is one of them, for example, and they have that payroll tab there, and that payroll tab, you run payroll, it's using Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2288.469,
+            2299.08
+          ],
+          "quote": "There's a bunch of businesses, I think, out there, small businesses that will benefit from a business in a box, and then they will need payroll in that box, and Gusto is happy to be that payroll in the box for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2333.763,
+            2338.025
+          ],
+          "quote": "And it could be through one of our partners, it could be, you know, through Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2903.919,
+            2910.883
+          ],
+          "quote": "So what Gusto does today, and it's not just getting, I talk a lot about the infrastructure and the software, but there's also a lot of operations involved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3278.699,
+            3284.18
+          ],
+          "quote": "So that's, again, one of the things that's going back to Gusto's mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3533.382,
+            3534.522
+          ],
+          "quote": "Is he able to use Gusto?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3537.263,
+            3538.724
+          ],
+          "quote": "No, so you can't use Gusto yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            4127.487,
+            4135.295
+          ],
+          "quote": "And it's because of, again, this point that I made earlier around like, for Gusto to grow, for Gusto to get new customers, we had to have people love the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            4305.652,
+            4325.231
+          ],
+          "quote": "Now every PM at Gusto, every engineer, every designer can just go to Claude and ask our data questions about customer behavior, customer questions, everything anonymized, of course, but you can ask- So this is like internal, like amplitude type of dashboard data, or this is like usage data inside Gusto?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            4423.72,
+            4426.341
+          ],
+          "quote": "So I do feel like that's something we're seeing at Gusto too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            4576.74,
+            4577.921
+          ],
+          "quote": "There's a company like Gusto right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4581.283,
+            4594.153
+          ],
+          "quote": "Guideline is one of the leading 401k providers in the U.S. And they are very similar to Gusto where they kind of say everything you said, like I just said about payroll in the past hour or so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1128,
+          "t": [
+            4649.373,
+            4656.778
+          ],
+          "quote": "Take your 401k with you where your Gusto wallet is, which is kind of the mobile app where you get paid in Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1131,
+          "t": [
+            4665.081,
+            4674.405
+          ],
+          "quote": "And I think the M&A is a very interesting way of just adding fuel to the fire of what Gusto is already doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            4678.346,
+            4689.311
+          ],
+          "quote": "And that's the bar when we think about, you know, companies to acquire and products is we ask ourselves, what is the acceleration value of this company to gusto?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            4710.144,
+            4712.565
+          ],
+          "quote": "What's the value of bringing that all inside of Gusto?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4764.189,
+            4766.131
+          ],
+          "quote": "There's the value to acceleration to gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            4793.516,
+            4794.597
+          ],
+          "quote": "Like whether Gusto or other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            4807.846,
+            4810.008
+          ],
+          "quote": "This feels like it would be a really great match to Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1174,
+          "t": [
+            4810.468,
+            4819.897
+          ],
+          "quote": "You measure the, you say, okay, you know, it's probably going to accelerate us for 18 months, let's say, and then you come in with numbers, like that's worth for Gusto, let's call it whatever, like $50 million, let's say.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            4820.637,
+            4823.7
+          ],
+          "quote": "So it adds enterprise value for Gusto, let's say $50 million.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1194,
+          "t": [
+            4896.156,
+            4907.225
+          ],
+          "quote": "Yeah, because then you'd basically have to be justifying what's the valuation of the cash flows and modeling all that into Gusto and making sure it's all about- Often we don't want that revenue either.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            4907.866,
+            4916.533
+          ],
+          "quote": "We are excited about the product they build and the code base and the team and we want to bring that into Gusto and we're quickly using AI, make it available to all of our customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "payroll",
+      "type": "concept",
+      "role": "concept",
+      "name": "payroll（工资发放） (payroll)",
+      "file": "payroll（工资发放）",
+      "primary": true,
+      "how_described": "本集反复解释：payroll 不只是打钱，还要出 W-2、代扣税、按时向各政府机构付款申报，出错后果极高，美国管辖区高度碎片化（按县、按学区征税）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            731.122,
+            748.196
+          ],
+          "quote": "But in this new world of AI, like, again, the concept here, the idea here is like, well, what if it was just, Gus was just a person, you can just text, hey, you know, change this person's salary, hey, run a bonus payroll, hey, pay a contract or, you know, help me kind of figure out my time sheets and, you know, approving PTO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            778.807,
+            785.373
+          ],
+          "quote": "So it could be things like, hey, you have seven PTO requests that you need to approve before this payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            796,
+            801.123
+          ],
+          "quote": "But it could also be something else, which is like, hey, you know, you know, payroll's going to run smoothly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1044.77,
+            1048.911
+          ],
+          "quote": "If you end up using payroll and actually paying people, yeah, it's a serious business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1616.93,
+            1620.691
+          ],
+          "quote": "We changed our left nav and the first item was not run payroll anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1760.463,
+            1762.465
+          ],
+          "quote": "The payroll, the world of payroll and HR and all of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1786.062,
+            1788.243
+          ],
+          "quote": "At that point, I'm mostly a payroll product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1883.2,
+            1896.007
+          ],
+          "quote": "We worked with the banks as partners, but we kind of got into what you're saying, which is this world of cash flow, like understanding what does it mean when, you know, you have to pay this team, but you don't have income to use that for payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1906.854,
+            1908.855
+          ],
+          "quote": "It's called Payroll Bridge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1940.737,
+            1943.539
+          ],
+          "quote": "It's technically illegal to not pay payroll or something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1951.501,
+            1954.522
+          ],
+          "quote": "When SVB happened, it was on a payroll week, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1990.689,
+            1998.371
+          ],
+          "quote": "So then when they on Wednesday had to go and say, okay, I'm going to go pay my employees, run payroll, you know, there's no bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2002.011,
+            2008.193
+          ],
+          "quote": "So, you know, so they obviously, you know, if we did not step in to help them, they would not make payroll for their employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2035.824,
+            2037.945
+          ],
+          "quote": "Basically, we paid payroll for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2044.328,
+            2045.549
+          ],
+          "quote": "You can run payroll safely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2045.629,
+            2046.89
+          ],
+          "quote": "We're going to make payroll for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2126.153,
+            2150.942
+          ],
+          "quote": "We have a business called Gusto Embedded where we actually take a lot of our payments processing, our tax processing, and we resell it as an embedded payroll product for large platforms like JPMorgan Chase uses it, and US Bank uses it, and Xero Accounting uses it, and there's a bunch of other kind of business platforms that offer payroll that's powered by Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2179.207,
+            2188.532
+          ],
+          "quote": "Or you can also think of it as like maybe Xero or JP Morgan is now like a go-to-market partner essentially for the Gusto payroll rails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2190.453,
+            2196.637
+          ],
+          "quote": "Because you're basically saying like, hey, we were going to try to acquire these customers, but now we're like, US Bank is probably going to get them for payroll.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2266.07,
+            2271.894
+          ],
+          "quote": "And the payroll button, there's like a payroll button in the software, just like pay all your bakers or pay the cashier, pay the employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2276.498,
+            2286.508
+          ],
+          "quote": "Business, there's a bunch of those kind of vertical SaaS, like Vegaro is one of them, for example, and they have that payroll tab there, and that payroll tab, you run payroll, it's using Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2288.469,
+            2299.08
+          ],
+          "quote": "There's a bunch of businesses, I think, out there, small businesses that will benefit from a business in a box, and then they will need payroll in that box, and Gusto is happy to be that payroll in the box for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2304.882,
+            2306.743
+          ],
+          "quote": "The other thing I'll say is that Gasto is not just payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2307.043,
+            2309.884
+          ],
+          "quote": "So this is Gasto Embedded Payroll at this point we're talking about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2312.112,
+            2313.453
+          ],
+          "quote": "Way more than payroll at this point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2325.699,
+            2328.66
+          ],
+          "quote": "There's a bunch of things that we're doing way beyond payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2338.945,
+            2350.035
+          ],
+          "quote": "By the way, again, the market when we started had, since 15 years ago, right, had, you know, ADP and Paychex as the biggest payroll companies out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2364.788,
+            2372.234
+          ],
+          "quote": "And so like talking about back when you started, so what was running payroll like if like when I think it was called Zen Payroll?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2373.174,
+            2374.475
+          ],
+          "quote": "So Zen Payroll doesn't exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2381.04,
+            2382.882
+          ],
+          "quote": "Like what was so hard about running payroll?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2384.103,
+            2385.384
+          ],
+          "quote": "So first, like, what is payroll?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2386.925,
+            2388.786
+          ],
+          "quote": "Payroll is not just like wiring someone money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2395.329,
+            2408.352
+          ],
+          "quote": "The payroll means that you get somebody a proper W-2 at the end of the year, that you, as an employer, withhold taxes, that you pay the different government agencies at the right time, you do the right filings at the right time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2455.741,
+            2457.062
+          ],
+          "quote": "So that's why payroll companies existed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2457.122,
+            2459.525
+          ],
+          "quote": "We didn't invent payroll companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2467.051,
+            2475.839
+          ],
+          "quote": "So my co-founder, Josh, actually has this story where in his previous company, he wanted to kind of go set up payroll to pay himself and his co-founders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2496.212,
+            2504.477
+          ],
+          "quote": "A dude with a suit with a briefcase that comes with a big stack of paperwork, explains to you, like asks you, like basically onboards you to payroll, asks you all the questions about, you know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2537.073,
+            2540.555
+          ],
+          "quote": "And then every time you need to run payroll, you need to call in the hours.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2550.46,
+            2565.53
+          ],
+          "quote": "There's a bunch of there were a lot of small kind of mom and pop kind of payroll processing shops that did similar things, but maybe gave you even more of a warm kind of day to day, you know, kind of number to call and ask questions about HR stuff as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2565.59,
+            2566.95
+          ],
+          "quote": "So these are kind of local payroll bureaus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2571.753,
+            2575.956
+          ],
+          "quote": "I remember my first big corporate internship I had, there was like a payroll room.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2576.577,
+            2579.158
+          ],
+          "quote": "There's like four ladies who ran payroll all day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2596.435,
+            2600.959
+          ],
+          "quote": "We had a couple thousand people that worked at the company, and we literally had four payroll ladies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2602.58,
+            2608.065
+          ],
+          "quote": "And one of the craziest thing about payroll, I think, is what's the cost of a mistake?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2675.28,
+            2684.585
+          ],
+          "quote": "Imagine, you know, you paid an employee and then, you know, the payroll company or you made, just put the wrong number in the wrong box in like some sort of a quarterly filings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2813.868,
+            2818.39
+          ],
+          "quote": "So you have tens of thousands of localities from a payroll standpoint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2859.934,
+            2861.716
+          ],
+          "quote": "So that's kind of one crazy kind of payroll fact.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2862.096,
+            2867.081
+          ],
+          "quote": "Another crazy payroll fact is some of these localities are so small, they don't have like, you know, big robust systems or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2920.263,
+            2927.566
+          ],
+          "quote": "To ask her how her kids and grandkids are doing, and then ask her, did anything change recently that we should know about as a payroll processor?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3493.001,
+            3498.383
+          ],
+          "quote": "So what's the story of actually starting Zen Payroll back when I think it was 2012?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3521.116,
+            3533.281
+          ],
+          "quote": "And the reason is like, again, where he came from is just incredible amount of stress of, you know, like, it's just so many ups and downs in running the business and not knowing if you can make the next payroll and not knowing if you can, you know, you'll survive basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4581.283,
+            4594.153
+          ],
+          "quote": "Guideline is one of the leading 401k providers in the U.S. And they are very similar to Gusto where they kind of say everything you said, like I just said about payroll in the past hour or so.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "small-business",
+      "type": "concept",
+      "role": "concept",
+      "name": "小企业 (small business)",
+      "file": "小企业",
+      "primary": true,
+      "how_described": "本集核心对象：小企业主是没有部门、没有职业阶梯的一人团队，什么都要自己扛；Tomer 认为创业梦想本身就是安全网",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            35.177,
+            42.721
+          ],
+          "quote": "And that's just the obsession with the customer and understanding, building empathy towards the small business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            137.488,
+            139.409
+          ],
+          "quote": "It's kind of like, you know, think about it as a small business, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            418.543,
+            422.406
+          ],
+          "quote": "And, you know, it's interesting, but everyone has something to do with small business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            422.947,
+            433.896
+          ],
+          "quote": "You know, whether, you know, you know someone who's running a small business or works at a small business or, you know, someone, or your family, or just, you just have a favorite small business down the street that you walk to and go get your coffee or whatever that is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            613.763,
+            618.945
+          ],
+          "quote": "So again, our goal, what we're trying to do is to make life easier for small business owners, for entrepreneurs starting their businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            920.721,
+            930.168
+          ],
+          "quote": "So, you know, there's a case to be said here that, you know, when you're a small business, AI can be like, you can get the impact of AI much, much faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            989.058,
+            993.803
+          ],
+          "quote": "So the average small business you're saying in general was adding jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1126.698,
+            1134.409
+          ],
+          "quote": "So again, every part of starting a small business is now faster and easier to do using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1196.933,
+            1202.139
+          ],
+          "quote": "Is there going to be almost like a resurgence of the small business across America or across the world?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1222.812,
+            1233.395
+          ],
+          "quote": "I remember in COVID, for example, there was like one of the most, like one of the major newspapers, I think it was Wall Street Journal read with this like headline front page was like the end of small business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1427.04,
+            1441.025
+          ],
+          "quote": "We really see how employment works in the world of small business in the U.S. And you saw the rate of terminations just jump to a rate that we've never seen anything even.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1796.985,
+            1801.667
+          ],
+          "quote": "I think a lot of people, if you don't run a small business, you don't realize how hard the financing aspect is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2891.872,
+            2901.918
+          ],
+          "quote": "How are you supposed to know as a small business who employs someone in that particular, you know, call it like county, but this person is kind of working remotely or something like that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2967.91,
+            2970.813
+          ],
+          "quote": "Like anything specific about running a small business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3026.339,
+            3028.781
+          ],
+          "quote": "But when you're a small business owner, you don't have any of that stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3065.595,
+            3068.7
+          ],
+          "quote": "But you, as a small business owner, need to think about",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3540.424,
+            3553.357
+          ],
+          "quote": "So I think that kind of mental thing is something that was very instructive for us as we started the company because we understood that we're not just building a business tool, we're trying to build a partner for the small business owner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3627.092,
+            3637.697
+          ],
+          "quote": "So we assume you're not a tax expert, but again, you're a small business owner, you're now walking from your desk to the bathroom, and during that, those one-minute walk, you're trying to pay a contractor, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 905,
+          "t": [
+            3738.088,
+            3742.709
+          ],
+          "quote": "And we connected on that small business experiences connection.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3763.769,
+            3771.116
+          ],
+          "quote": "So many technology companies are focused on enterprises, but in small business, for some reason, it's a huge market, but there's just not a lot of success stories there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 924,
+          "t": [
+            3808.508,
+            3814.009
+          ],
+          "quote": "You sell your CRM product for like a small business with five employees, you can make a thousand dollars a year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 939,
+          "t": [
+            3866.677,
+            3867.918
+          ],
+          "quote": "For small business, not as much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3879.98,
+            3881.26
+          ],
+          "quote": "But small business is kind of weird.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 949,
+          "t": [
+            3898.223,
+            3900.363
+          ],
+          "quote": "There hasn't been a lot of companies that stayed in small business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 953,
+          "t": [
+            3912.346,
+            3923.788
+          ],
+          "quote": "Yeah, so the thing that I think we realized is to think about the small business owner as a single decision maker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            4165.119,
+            4172.89
+          ],
+          "quote": "Well, if you're a small business owner, the bar for intuitive is very, very high because again, small business owners and us normal people are not experts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 让小企业更快获得技术红利（雇人更多、更有韧性），把 Gusto 开发速度翻倍，并让『煮沸海洋』式的多产品并行成为可能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            465.34,
+            472.563
+          ],
+          "quote": "One thing we were going to talk a little bit about, about how Gusto has incorporated AI into the product to go faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            505.589,
+            511.556
+          ],
+          "quote": "Their solution combines AI-driven automation with human expertise to manage global sales tax compliance end-to-end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            512.077,
+            520.567
+          ],
+          "quote": "Numeral supports over 3,000 customers, including companies like Brex and Character AI, and they pride themselves on white-glove, high-touch customer service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            542.498,
+            544.739
+          ],
+          "quote": "It's the AI native private bank for business owners.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            545.319,
+            551.461
+          ],
+          "quote": "I use Flex personally, and I love it because I use AI to underwrite the cash flow of your business, giving you a real credit line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            608.06,
+            613.743
+          ],
+          "quote": "Yeah, so, you know, I think AI represents a bunch of, like, opportunities to do the job we're trying to do better, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            634.313,
+            636.755
+          ],
+          "quote": "And AI is obviously a fantastic example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            656.73,
+            663.296
+          ],
+          "quote": "Using AI figures out the optimal timesheets for you or can kind of rejigger things for you and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            731.122,
+            748.196
+          ],
+          "quote": "But in this new world of AI, like, again, the concept here, the idea here is like, well, what if it was just, Gus was just a person, you can just text, hey, you know, change this person's salary, hey, run a bonus payroll, hey, pay a contract or, you know, help me kind of figure out my time sheets and, you know, approving PTO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            837.026,
+            843.532
+          ],
+          "quote": "I think you guys have some interesting data around kind of like AI adoption by SMBs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            844.313,
+            851.241
+          ],
+          "quote": "I think the number, you can correct whatever I get wrong here, but I think the number is like a 10% increase in AI, I think exposure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            857.768,
+            862.252
+          ],
+          "quote": "So what's kind of the data showing you about AI adoption by small businesses?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            900.288,
+            907.992
+          ],
+          "quote": "And when you look deeper, you know, I think there's a good case to be said that, you know, that actually AI is a big contributor to this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            908.472,
+            920.701
+          ],
+          "quote": "Because what we're seeing happening is that companies who, small businesses who end up using AI as they start their business, as they operate their business, they end up hiring more, they end up growing faster, they end up, you know, being more successful and more resilient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            920.721,
+            930.168
+          ],
+          "quote": "So, you know, there's a case to be said here that, you know, when you're a small business, AI can be like, you can get the impact of AI much, much faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            931.329,
+            934.151
+          ],
+          "quote": "And for larger companies, it's just much more complicated to implement AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            934.191,
+            937.394
+          ],
+          "quote": "And as a result of that, small businesses actually benefit tremendously from AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            997.446,
+            1005.755
+          ],
+          "quote": "And again, with that additional set about knowledge about AI, that's quite interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1009.078,
+            1013.799
+          ],
+          "quote": "Well, yeah, cause I mean a lot of people, I feel like kind of the headline is AI is stealing your job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1064.255,
+            1073.077
+          ],
+          "quote": "Versus if you want to use an AI product to make some Instagram posts or something, you might pay $2 to get that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1075.697,
+            1080.038
+          ],
+          "quote": "So the accessibility of using AI to increase your productivity is actually",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1089.109,
+            1097.56
+          ],
+          "quote": "And if it works, they'll make, they'll grow revenue, they'll get bigger, and then they can invest more and spend even more, either on hiring people or on more AI tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1107.484,
+            1108.605
+          ],
+          "quote": "How can AI help them?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1126.698,
+            1134.409
+          ],
+          "quote": "So again, every part of starting a small business is now faster and easier to do using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1148.294,
+            1150.154
+          ],
+          "quote": "That funnel, we optimize it a little bit using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1166.198,
+            1178.221
+          ],
+          "quote": "Using AI, whether it's, again, it's like making marketing more efficient, so you get more customers, whether it's service, to make a service more efficient, whether it's upsell, additional products you want to sell to your customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1178.261,
+            1181.642
+          ],
+          "quote": "So I think also AI improves survivability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1372.517,
+            1375.698
+          ],
+          "quote": "Amplitude, with AI analytics, all you have to do is ask.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1383.936,
+            1387.638
+          ],
+          "quote": "Monaco's AI-nated platform replaces your legacy CRM and sales point solutions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3681.213,
+            3683.475
+          ],
+          "quote": "Oh crap, like we're now in the world of AI and agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            4287.11,
+            4296.601
+          ],
+          "quote": "And then how has AI enabled you to incorporate more of that into the product because it's probably, you can include more things or like move faster or something?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            4408.257,
+            4423.7
+          ],
+          "quote": "But his argument, which I think is a really good one, which is like, if there was a time to boil the ocean, if there was a time to actually go and try to build multiple products at the same time and increase your ambition, this is the time to do it because AI does make it much easier to build new things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            4492.776,
+            4503.583
+          ],
+          "quote": "And this is because using AI coding ships the code faster, and then there's a process of reviewing it and designing the features like it just happens quicker?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            4549.818,
+            4553.021
+          ],
+          "quote": "The kind of strength in how they use AI and like different proficiency in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1146,
+          "t": [
+            4730.111,
+            4738.072
+          ],
+          "quote": "By the way, with AI, now that equation changes because, well, we know we can build it, but maybe it wouldn't take us two years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4738.212,
+            4739.893
+          ],
+          "quote": "Maybe now with AI, it's going to take us one year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            4839.419,
+            4843.965
+          ],
+          "quote": "If the company's growing and- Yeah, it's an AI company that might be worth like a trillion dollars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            4907.866,
+            4916.533
+          ],
+          "quote": "We are excited about the product they build and the code base and the team and we want to bring that into Gusto and we're quickly using AI, make it available to all of our customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Gusto 每个PM、工程师、设计师都能去问 Claude 匿名化的客户数据问题，原本几周几个月的用户研究现在几分钟起步",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1356.892,
+            1362.614
+          ],
+          "quote": "Get the answers you need while building directly in the tools you are already in, like Claude, Cursor, Lovable, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            4305.652,
+            4325.231
+          ],
+          "quote": "Now every PM at Gusto, every engineer, every designer can just go to Claude and ask our data questions about customer behavior, customer questions, everything anonymized, of course, but you can ask- So this is like internal, like amplitude type of dashboard data, or this is like usage data inside Gusto?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            4354.442,
+            4357.563
+          ],
+          "quote": "And Claude can go and kind of help you find those things and start this research for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            4373.906,
+            4379.327
+          ],
+          "quote": "Now you can just like ask the question to Claude and that's kind of really helps you accelerate it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1083,
+          "t": [
+            4452.172,
+            4454.777
+          ],
+          "quote": "Claude will just do it in the background for a day and then it's done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "co-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Co-Founder",
+      "file": "Co-Founder",
+      "primary": true,
+      "how_described": "本集介绍的 Gusto AI 界面：5 人团队 8 周做出，不用登录网站、直接在 iMessage/Slack/WhatsApp 上发短信办 payroll，关键是主动替你做事、只就有疑问的来问你",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            473.363,
+            477.145
+          ],
+          "quote": "You have this thing that you made recently that you launched, it's called Gusto Co-Founder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            482.347,
+            486.689
+          ],
+          "quote": "So what is Gusto Co-Founder and how did that kind of go launching this and why did you do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            684.715,
+            691.922
+          ],
+          "quote": "So we can do it on iMessage, you can do it on, use it on Slack, you can use it on WhatsApp, you can use it on, you could actually still log into co-founder and like text over there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            748.516,
+            753.201
+          ],
+          "quote": "So it's kind of like having a co-founder and be like, hey, Tomer, like, fix this thing that just came up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            754.002,
+            763.071
+          ],
+          "quote": "And the sort of co-founder that's, you know, most helpful is not someone who's just sitting there waiting for you to text them, but rather they do stuff proactively for you and they ask you questions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            764.493,
+            771.3
+          ],
+          "quote": "So one of the things that we do, for example, is a co-founder wakes up in the morning and they're, you know, obviously within that kind of data center somewhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            826.816,
+            834.603
+          ],
+          "quote": "And again, that's the sort of stuff that if that co-founder was a human, you would say, ah, this is a pretty good employee, pretty good person on my team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2467.051,
+            2475.839
+          ],
+          "quote": "So my co-founder, Josh, actually has this story where in his previous company, he wanted to kind of go set up payroll to pay himself and his co-founders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3689.36,
+            3700.108
+          ],
+          "quote": "So, you know, we're, we're building a bunch of these, you know, experiences now that really do feel like you're talking with someone that's kind of the agentic experience with co-founder and some other stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nps",
+      "type": "concept",
+      "role": "concept",
+      "name": "NPS",
+      "file": "NPS",
+      "primary": true,
+      "how_described": "本集说薪资 HR 行业 NPS 为正就已领先，Gusto 平时以 70 为目标，疫情期间因帮助客户撑过困境 NPS 跳到 88、89 并长期停留",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1706.534,
+            1713.997
+          ],
+          "quote": "Something that we're really proud of, and interesting, like, you know, in product land, we use NPS a lot over the years, and Net Promoter Score.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1737.682,
+            1738.403
+          ],
+          "quote": "So that's how we use NPS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1740.955,
+            1750.279
+          ],
+          "quote": "We didn't expect it at all, or in retrospect sounds obvious maybe, but like NPS just jumped up to like, I want to say, 88, 89 and stayed there for a very, very long time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1750.299,
+            1757.762
+          ],
+          "quote": "And by the way, in our industry, if you have a positive NPS, meaning like larger than zero, you are ahead of the curve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1762.765,
+            1763.626
+          ],
+          "quote": "NPS is very, very low.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            4000.237,
+            4002.538
+          ],
+          "quote": "I mentioned that NPS of over 80, over 70,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            4325.511,
+            4343.598
+          ],
+          "quote": "So you have access to all the comments from our NPS surveys, all the comments from our, you know, different customer feedback surveys, things that our salespeople, our customer care people write down and like the actual, like, you know, transcripts of the kind of conversations, again, everything anonymized.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mvp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MVP",
+      "file": "MVP",
+      "primary": true,
+      "how_described": "本集把 MVP 与 minimum lovable product 对比：能用、直观只是 MVP 门槛，可爱还要加上『令人愉悦』——产品能预判你脑子里的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1031,
+          "t": [
+            4196.922,
+            4203.303
+          ],
+          "quote": "And I think for that, these two things already kind of clear the bar for a minimal viable product for the MVP, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            4254.035,
+            4255.095
+          ],
+          "quote": "That would be the MVP approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            4255.375,
+            4259.658
+          ],
+          "quote": "The MVP approach is like, okay, great, let's build a benefits comparison tool, like a benefits benchmarking tool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            4263.04,
+            4264.001
+          ],
+          "quote": "That's great MVP.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "word-of-mouth",
+      "type": "concept",
+      "role": "concept",
+      "name": "口碑 (word of mouth)",
+      "file": "口碑",
+      "primary": true,
+      "how_described": "本集说小企业软件卡在消费级与企业级中间，整个游戏的关键就是口碑——需要值得谈论、被人喜爱的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 970,
+          "t": [
+            3974.691,
+            3977.392
+          ],
+          "quote": "The whole name of the game is word of mouth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 971,
+          "t": [
+            3978.372,
+            3984.214
+          ],
+          "quote": "And to make word of mouth successful, you really need a product worth talking about and a product that people really love.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 976,
+          "t": [
+            4008.462,
+            4014.427
+          ],
+          "quote": "And then that's going to be really the engine for growth, just referrals and word of mouth.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "svb",
+      "type": "company",
+      "role": "company",
+      "name": "SVB",
+      "file": "SVB",
+      "primary": true,
+      "how_described": "本集讲 SVB 倒闭正逢发薪周：Gusto 因一直用多家银行做支付处理而未受影响，并主动为被影响的客户垫付工资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            1948.801,
+            1951.081
+          ],
+          "quote": "I remember that was a big deal, I think, with SVB.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1951.501,
+            1954.522
+          ],
+          "quote": "When SVB happened, it was on a payroll week, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1958.562,
+            1961.943
+          ],
+          "quote": "Were you guys using SVB or exposed to it anyway?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1961.963,
+            1964.703
+          ],
+          "quote": "Yeah, we did not use SVB exclusively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1978.15,
+            1983.859
+          ],
+          "quote": "It's not that I knew that SVB is going to go down or anything like that, but more like, you know, resilience system, you want to have like multiple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1987.264,
+            1990.269
+          ],
+          "quote": "However, some of our customers were banked with SVB.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guideline",
+      "type": "company",
+      "role": "company",
+      "name": "Guideline",
+      "file": "Guideline",
+      "primary": true,
+      "how_described": "本集说 Gusto 收购了这家美国领先 401k 提供商之一，标准只有一个：对 Gusto 路线图的加速价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1112,
+          "t": [
+            4567.312,
+            4569.734
+          ],
+          "quote": "It was called Guideline, the company you guys acquired.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4578.741,
+            4580.223
+          ],
+          "quote": "Okay, so we acquired Guideline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4581.283,
+            4594.153
+          ],
+          "quote": "Guideline is one of the leading 401k providers in the U.S. And they are very similar to Gusto where they kind of say everything you said, like I just said about payroll in the past hour or so.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zen-payroll",
+      "type": "company",
+      "role": "company",
+      "name": "Zen Payroll",
+      "file": "Zen Payroll",
+      "primary": true,
+      "how_described": "本集说 Gusto 15 年前创业时的名字，契机是联合创始人 Josh 在老式发薪公司被要求与西装销售在咖啡店见面、填几小时表格才能给自己发工资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 543,
+          "t": [
+            2364.788,
+            2372.234
+          ],
+          "quote": "And so like talking about back when you started, so what was running payroll like if like when I think it was called Zen Payroll?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2373.174,
+            2374.475
+          ],
+          "quote": "So Zen Payroll doesn't exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3493.001,
+            3498.383
+          ],
+          "quote": "So what's the story of actually starting Zen Payroll back when I think it was 2012?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gusto-embedded",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gusto Embedded",
+      "file": "Gusto Embedded",
+      "primary": true,
+      "how_described": "本集说内部系统按『能独立成产品』的标准建，后来真做出了 Gusto Embedded：把支付与税务处理作为嵌入式薪资产品卖给 JPMorgan Chase、US Bank、Xero 等大平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 490,
+          "t": [
+            2126.153,
+            2150.942
+          ],
+          "quote": "We have a business called Gusto Embedded where we actually take a lot of our payments processing, our tax processing, and we resell it as an embedded payroll product for large platforms like JPMorgan Chase uses it, and US Bank uses it, and Xero Accounting uses it, and there's a bunch of other kind of business platforms that offer payroll that's powered by Gusto.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": false,
+      "how_described": "本集提到 Gusto 是在 YC 创办的公司，并引用 YC 的 Gary Tan『煮沸海洋』的说法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            182.472,
+            194.14
+          ],
+          "quote": "And then the challenge is how you do it, not just when you're three people out of Y Combinator or when you're just starting, but how do you scale it when you get to like 2,000, 3,000 people?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

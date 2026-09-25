@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"OpenAI":127,"数据中心":15,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":53,"GPU":18,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"OpenAI":128,"数据中心":15,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":53,"GPU":18,"核能":1}</script>
 
 <script>
 (function(){

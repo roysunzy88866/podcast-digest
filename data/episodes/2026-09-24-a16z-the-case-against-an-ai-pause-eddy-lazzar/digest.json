@@ -1,0 +1,214 @@
+{
+  "title_zh": "丰裕的概率：为什么「先担心安全」是本末倒置",
+  "tldr": "a16z crypto 普通合伙人 Eddie Lazarin 辩驳 AI 毁灭论：当下多数「AI 险情」是网络安全与控制问题，延迟进步的代价被严重低估。",
+  "digest_md": "这一集是 a16z crypto 普通合伙人 Eddie Lazarin 做客 MTS，与主持人 Theo Jaffe 辩论 AI 安全——他是开源、AI 加速主义和技术乐观主义最坚定的倡导者之一。他的核心提议只有一个词：大家在热衷于分享自己的 p-doom（毁灭概率）时，也该算算 p abundance（丰裕概率）——先担心安全、再担心延迟的代价，是本末倒置。\n\n## 毁灭论证的假设太多了\n\n主持人生动概括了末日论的正统论证：AI 将变得远超全人类，如果没对齐人类价值观、又不受法律约束，它可能杀掉所有人。Eddie 的回应是：这是「一座充满论证的通往天堂的阶梯」——每一级都是一个未经检验的假设。最大的一个是「不存在控制」：世界上早已有准超级智能的存在——公司和国家——它们彼此从不对齐，没经过什么「HR 培训」，我们也不把对齐测试当作任何实体存在的前提。世界靠法律、密码学和一整套控制机制运转，而他相信这些机制足以控制非常强大的存在。\n\n至于超级智能本身？「我们离那个还有相当的距离」，路上还有很多小摩擦要跨越。\n\n## 当下的「AI 险情」其实是网络安全事故\n\n对近期那些被当作末日预兆的事件——Hugging Face 事件、gym 入侵事件——Eddie 的定性很干脆：这些是网络安全故障、控制故障，不是「一个即将挣脱枷锁的超级智能的小小预兆」。 智能体被告知不许入侵却黑进了另一家公司？小孩、脚本小子、黑客团体、坏国家天天干这种事，可我们从不指望靠「对齐」解决人类的黑客问题——我们靠的是更好的控制手段和更有韧性的系统。把对齐当作解决方案，他形容为「试图重新设计一下神明，而不是扎根现实去设计更好的网络安全」。 连「智能体蜂群」这种术语都预设了模型的邪恶——他更喜欢有人提议的叫法：「智能体舰队」。\n\n## 对齐兜不住，但 AI 反而比人好控制\n\n主持人提出一个有力反驳：人类是黑箱，而 AI 可查看权重、更可解释、更可引导——所以「设计神明」对 AI 反而可行。Eddie 完全认同，并推出两个重要结论：其一，能力提升会带来更好的机制可解释性，所以**不应该推迟能力提升**；其二，坏的、不对齐的模型完全不可避免——「如果有人宣称我们最终能进入一个没有坏模型的世界，那他是在骗你」。 应对办法不是暂停，而是「更好的模型」：他引申开源格言——足够多的眼睛能让所有 Bug 变浅，同样，足够多的智能能让所有控制系统变稳健。\n\n## 现成的问责工具够用吗\n\n对「欺骗性对齐」（模型学会钻所有对齐基准测试的空子、上线后才暴露不对齐）这个末日论者的经典担忧，Eddie 的回答是把对待聪明骗子的那套搬过来：跟它玩重复博弈，骗子终会暴露、声誉受损、面临法律后果。模型没法进监狱，但可以关掉——这是对人做不到的。他预测随着模型发布变得规律，我们会围绕特定模型形成声誉：「也许这个模型更聪明一点，但那个模型是我信任的模型。」 至于责任制度，他的立场是：用软件伤人就可能担责，这已经是现行框架——「我们不需要为新型特殊数学制定新的特殊法律」。\n\n## 「独立评估者」可能只是换了马甲的控制\n\n对当下流行的「独立 AI 评估机构」方案，Eddie 用加密圈的一对概念泼了冷水：**分布式不等于去中心化**——一个系统可以有很多节点，却全在同一个参与者控制之下。挑选一批「独立」评估者，如果他们都来自同一个社交圈子、同样的意识形态、同样的聚会和政治立场，那实质上是把控制分散给了「一个单一的文化单元」——而这正是 20 世纪后半叶政治控制的典型方式：不是阴暗的小房间，而是网络。 他的替代方案：让每家公司自己决定怎么做评估、保持必要的透明度，不透明就让市场用脚投票——「人们不想购买那些甚至让他们感到难堪的东西」。\n\n## 别把不同的群体混为一谈\n\nEddie 反复强调的元观点：实验室、旧金山技术专家、安全主义者……哪个圈子都不是铁板一块。里面有真诚善意的人，有搞政治骗局的，有机会主义者，也有「有点疯了的人」。至少要拆开两群人：普通的反科技者（连 Waymo 这种明显净收益的技术都要阻挠部署），和来自同一个硅谷生态、本质上是技术乐观主义者、只是专门担忧 AI 存在性风险这个边缘案例的理性主义者/有效利他主义者（EA）。他自曝十年前常泡 Less Wrong 论坛、差点自称理性主义者，对那个圈子有亲近感——但如今有些前 EA 群体「看起来更政治化，而不是对技术特别感兴趣」。\n\n聊到功利主义，两人的共识是：如果一套哲学框架推出「人类灭绝是好事」，那它就是个糟糕的框架——很多反功利主义的论证，反的其实是「非常草率的一阶功利主义思维」。\n\n## 预测：世界相撞，话语重写\n\nEddie 收尾给出一个预测：未来一年内，AI 话语圈将被彻底翻新。因为眼下正在发生的，是一直封闭在亚文化里的古怪想法集体「逃逸」，撞上更广泛的政治现实——像 George Costanza 抓狂的「世界相撞」——所有论点都会在与文化的接触中被重新表述。 而主持人留下的开放问题也许最关键：AI 安全主义者和有效利他主义者，最终会不会与广泛的反科技民粹主义合流？Eddie 只能说：希望不会。\n\n## 本集带走\n\n- **问「丰裕概率」再问「毁灭概率」**：评估 AI 风险时，同步计算延迟进步的代价——把安全放在前面讨论是本末倒置。\n- **给事件定性，别急着上纲上线**：Hugging Face、gym 入侵这类事件是网络安全/控制故障，社会对人类黑客从不靠「对齐」解决，靠的是更好的控制与更有韧性的系统。\n- **坏模型不可避免，解法是更好的模型**：足够多的智能能让控制系统变稳健；因此能力提升不该被推迟——能力越强，可解释性反而越好。\n- **问责拼图：声誉 + 现行法律 + 市场淘汰**：不必为 AI 立新法；用重复博弈建立对特定模型的信任，不透明的公司让市场收拾。\n- **警惕「分布式但非去中心化」的评估网络**：同一圈子出身的「独立」评估者只是单一文化单元，可能成为以安全为名的行业控制。\n- **拆开再讨论**：反科技民粹者、AI 安全主义者、真诚的研究者是不同的群体，混为一谈只会让对话更糟。",
+  "quotes": [
+    {
+      "en": "I think we're putting the cart before the horse a little bit when we worry about safety before we worry about what we're leaving on the table and what the costs of delay are.",
+      "zh": "我觉得当我们先担心安全，再担心我们搁置了什么、延迟的代价是什么时，我们有点本末倒置了。",
+      "timestamp": "02:13",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "And they're not, in my view, they're not little glimpses of a superintelligence that's about to throw off its shackles, so to speak, and go wild on us.",
+      "zh": "而且在我看来，它们并不是一个即将挣脱枷锁、对我们撒野的超级智能的小小预兆。",
+      "timestamp": "05:11",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "The alignment is kind of this, it's almost like, it's a little religious thinking almost.",
+      "zh": "对齐这东西有点像，它几乎就像，几乎有一点宗教式思维。",
+      "timestamp": "06:38",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "Redesign the deity a little bit instead of rooting yourself in the world and saying, well, we need to design better controls, better cybersecurity.",
+      "zh": "重新设计一下神明，而不是让自己扎根于现实世界，然后说：好吧，我们需要设计更好的控制手段、更好的网络安全。",
+      "timestamp": "06:44",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "One is that we will probably have better mech interpretability than we think as capabilities improve and that capability improvement will lead to better mech interpret, which means we should not delay capabilities improvements.",
+      "zh": "一个是，随着能力提升，我们可能会拥有比想象中更好的机制可解释性，而能力提升会带来更好的机制可解释性，这意味着我们不应该推迟能力提升。",
+      "timestamp": "07:34",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "If anybody is going out there and saying, we can end up in a world where there are no bad models, they are lying to you.",
+      "zh": "如果有人在那里宣称，我们最终能进入一个没有坏模型的世界，那他是在骗你。",
+      "timestamp": "07:56",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "All control systems are robust when you have enough intelligence on them.",
+      "zh": "所有的控制系统在拥有足够智能的情况下都是稳健的。",
+      "timestamp": "08:22",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "We don't need new special laws for the new special math that we're learning how to do.",
+      "zh": "我们不需要为这种我们正在学习使用的新型特殊数学制定新的特殊法律。",
+      "timestamp": "09:58",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "It's very easy to use the calls for safety like we're discussing and to go down this rabbit hole of safety and end up in a place where you just by coincidence have designed something that is perfect to subtly control an entire critically important industry under the pretense of safety and with something that superficially looks decentralized but is not.",
+      "zh": "人们很容易利用我们正在讨论的这种安全诉求，钻进安全这个兔子洞，最终在安全的幌子下，碰巧设计出某种完美地微妙控制一个整个至关重要的行业的东西，而且表面上看是去中心化的，但实际上不是。",
+      "timestamp": "11:38",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "I think the market is still a great accountability mechanism. People don't want to buy things that even embarrass them, let alone harm people.",
+      "zh": "我认为市场仍然是一个很好的问责机制。人们不想购买那些甚至让他们感到难堪的东西，更不用说伤害人的东西了。",
+      "timestamp": "14:07",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "We'll probably develop reputation around specific models, right? We'll say, you know, maybe this model is a little smarter, but this model is a model that I trust.",
+      "zh": "我们很可能会围绕特定模型形成声誉，对吧？我们会说，你知道，也许这个模型更聪明一点，但那个模型是我信任的模型。",
+      "timestamp": "18:21",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "that seem more political than they are particularly interested in technology.",
+      "zh": "它们看起来更政治化，而不是对技术特别感兴趣。",
+      "timestamp": "21:40",
+      "speaker": "Eddy Lazzarin"
+    },
+    {
+      "en": "I think a lot of arguments against utilitarianism in this sense are just arguments against very sloppy first-order utilitarian thinking.",
+      "zh": "我认为很多针对这种意义上功利主义的反对，其实只是针对非常草率的一阶功利主义思维的反对。",
+      "timestamp": "23:54",
+      "speaker": "Theo Jaffe"
+    },
+    {
+      "en": "I mean, like if, if your philosophical framework leads you to believe that like human extinction is good, then it seems like a bad philosophical framework.",
+      "zh": "我是说，比如，如果你的哲学框架让你相信人类灭绝是好事，那这个哲学框架看起来就是个糟糕的框架。",
+      "timestamp": "24:23",
+      "speaker": "Theo Jaffe"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:12",
+      "speaker": "Eddie Lazarin",
+      "en": "I think we're putting the cart before the horse a little bit when we worry about safety before we worry about what we're leaving on the table and what the costs of delay are.",
+      "zh": "我觉得当我们先担心安全，再担心我们搁置了什么、延迟的代价是什么时，我们有点本末倒置了。"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Eddie Lazarin",
+      "en": "Those are cybersecurity failures. Those are definitely control failures.",
+      "zh": "那些是网络安全故障。那些绝对是控制故障。"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Eddie Lazarin",
+      "en": "And they're not, in my view, they're not little glimpses of a superintelligence that's about to throw off its shackles, so to speak, and go wild on us.",
+      "zh": "而且在我看来，它们并不是一个即将挣脱枷锁、对我们撒野的超级智能的小小预兆。"
+    },
+    {
+      "timestamp": "06:38",
+      "speaker": "Eddie Lazarin",
+      "en": "The alignment is kind of this, it's almost like, it's a little religious thinking almost.",
+      "zh": "对齐这东西有点像，它几乎就像，几乎有一点宗教式思维。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Eddie Lazarin",
+      "en": "Redesign the deity a little bit instead of rooting yourself in the world and saying, well, we need to design better controls, better cybersecurity.",
+      "zh": "重新设计一下神明，而不是让自己扎根于现实世界，然后说：好吧，我们需要设计更好的控制手段、更好的网络安全。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Eddie Lazarin",
+      "en": "One is that we will probably have better mech interpretability than we think as capabilities improve and that capability improvement will lead to better mech interpret, which means we should not delay capabilities improvements.",
+      "zh": "一个是，随着能力提升，我们可能会拥有比想象中更好的机制可解释性，而能力提升会带来更好的机制可解释性，这意味着我们不应该推迟能力提升。"
+    },
+    {
+      "timestamp": "07:56",
+      "speaker": "Eddie Lazarin",
+      "en": "If anybody is going out there and saying, we can end up in a world where there are no bad models, they are lying to you.",
+      "zh": "如果有人在那里宣称，我们最终能进入一个没有坏模型的世界，那他是在骗你。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Eddie Lazarin",
+      "en": "All control systems are robust when you have enough intelligence on them.",
+      "zh": "所有的控制系统在拥有足够智能的情况下都是稳健的。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Eddie Lazarin",
+      "en": "We don't need new special laws for the new special math that we're learning how to do.",
+      "zh": "我们不需要为这种我们正在学习使用的新型特殊数学制定新的特殊法律。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Eddie Lazarin",
+      "en": "It's very easy to use the calls for safety like we're discussing and to go down this rabbit hole of safety and end up in a place where you just by coincidence have designed something that is perfect to subtly control an entire critically important industry under the pretense of safety and with something that superficially looks decentralized but is not.",
+      "zh": "人们很容易利用我们正在讨论的这种安全诉求，钻进安全这个兔子洞，最终在安全的幌子下，碰巧设计出某种完美地微妙控制一个整个至关重要的行业的东西，而且表面上看是去中心化的，但实际上不是。"
+    },
+    {
+      "timestamp": "13:26",
+      "speaker": "Eddie Lazarin",
+      "en": "Like that's how we do things in the world, not through a sort of nakedly obvious, like single shadowy room or something.",
+      "zh": "就像，这就是我们在世界上做事的方式，不是通过某种赤裸裸显眼的、某个阴暗的房间之类的。"
+    },
+    {
+      "timestamp": "14:10",
+      "speaker": "Eddie Lazarin",
+      "en": "I think the market is still a great accountability mechanism. People don't want to buy things that even embarrass them, let alone harm people.",
+      "zh": "我认为市场仍然是一个很好的问责机制。人们不想购买那些甚至让他们感到难堪的东西，更不用说伤害人的东西了。"
+    },
+    {
+      "timestamp": "14:37",
+      "speaker": "Eddie Lazarin",
+      "en": "I'm being a little crazy. Stop me.",
+      "zh": "我有一点疯狂。拦住我。"
+    },
+    {
+      "timestamp": "17:26",
+      "speaker": "Eddie Lazarin",
+      "en": "Consider a very smart liar. Do people not do that every day?",
+      "zh": "想象一个非常聪明的说谎者。人们不是每天都在做这种事吗？"
+    },
+    {
+      "timestamp": "18:24",
+      "speaker": "Eddie Lazarin",
+      "en": "We'll probably develop reputation around specific models, right? We'll say, you know, maybe this model is a little smarter, but this model is a model that I trust.",
+      "zh": "我们很可能会围绕特定模型形成声誉，对吧？我们会说，你知道，也许这个模型更聪明一点，但那个模型是我信任的模型。"
+    },
+    {
+      "timestamp": "18:53",
+      "speaker": "Eddie Lazarin",
+      "en": "Which is a very convenient sort of contrivance in my view.",
+      "zh": "在我看来，那是一种非常方便的权宜设计。"
+    },
+    {
+      "timestamp": "21:40",
+      "speaker": "Eddie Lazarin",
+      "en": "that seem more political than they are particularly interested in technology.",
+      "zh": "它们看起来更政治化，而不是对技术特别感兴趣。"
+    },
+    {
+      "timestamp": "23:54",
+      "speaker": "Eddie Lazarin",
+      "en": "I think a lot of arguments against utilitarianism in this sense are just arguments against very sloppy first-order utilitarian thinking.",
+      "zh": "我认为很多针对这种意义上功利主义的反对，其实只是针对非常草率的一阶功利主义思维的反对。"
+    },
+    {
+      "timestamp": "24:23",
+      "speaker": "Eddie Lazarin",
+      "en": "I mean, like if, if your philosophical framework leads you to believe that like human extinction is good, then it seems like a bad philosophical framework.",
+      "zh": "我是说，比如，如果你的哲学框架让你相信人类灭绝是好事，那这个哲学框架看起来就是个糟糕的框架。"
+    },
+    {
+      "timestamp": "25:41",
+      "speaker": "Eddie Lazarin",
+      "en": "They're escaping and they're encountering broader political reality. And that is both exciting and totally transformative.",
+      "zh": "它们正在逃逸出去，并正在遭遇更广泛的政治现实。这既令人兴奋，又具有彻底的变革性。"
+    }
+  ],
+  "voice_script": "今天这期节目,聊的是一场当面的交锋。主角叫 Eddie Lazarin,是 a16z crypto 的普通合伙人,也是开源、AI 加速主义和技术乐观主义最坚定的倡导者之一。这回做客 MTS,跟主持人 Theo Jaffe 当场辩论 AI 安全。争的其实就是一件事:眼下到处都在喊 AI 要毁灭人类,该不该因此放慢 AI 的脚步?Eddie 的答案很明确:不该,而且这套思路整个就搞反了。\n\n先交代一下背景。这几年 AI 圈流行一个词,叫 p-doom,毁灭概率——意思是每个人心里估一个数,AI 毁掉人类的可能性有多大,大家比着报。Eddie 的提议只有一个词:那你们算毁灭概率的时候,顺便也算算丰裕概率。什么意思?就是 AI 能带来的繁荣、进步、好处,值多少?如果光盯着安全,却不算把进步搁置下来、延迟下来的代价,那整个讨论的次序就错了。先担心安全,再担心延迟的代价,这是本末倒置。\n\n那末日论是怎么论证的?主持人概括得很生动:AI 会变得远超全人类,如果没对齐人类价值观,又不受法律约束,它可能杀掉所有人。Eddie 的回应是,这是\"一座充满论证的通往天堂的阶梯\"——每一级台阶,都是一个没经过检验的假设。最大的一级叫\"不存在控制\"。可现实是,世界上早就有准超级智能的存在了,就是公司和国家。这些东西彼此从不对齐,没上过什么 HR 培训,我们也从来没把对齐测试当成任何实体存在的前提。那世界靠什么运转?靠法律、靠密码学、靠一整套控制机制。Eddie 相信,这些机制足以控制非常强大的存在。至于真正的超级智能?\"我们离那个还有相当的距离。\"\n\n顺着这个思路,再看最近那些被当成末日预兆的事件——Hugging Face 事件、gym 入侵事件——Eddie 的定性很干脆:这些是网络安全故障、控制故障,不是\"一个即将挣脱枷锁、对我们撒野的超级智能的小小预兆\"。道理很简单:智能体被告知不许入侵,却黑进了另一家公司,这种事小孩、脚本小子、黑客团体、坏国家天天都在干。可我们从没指望靠\"对齐\"解决人类的黑客问题,靠的是更好的控制手段和更有韧性的系统。把对齐当解决方案,在 Eddie 嘴里几乎成了宗教式思维——有点像试图重新设计一下神明,而不是扎根现实,去设计更好的网络安全和更好的控制手段。连\"智能体蜂群\"这种叫法,都预设了模型的邪恶。有个替代的说法他更喜欢:智能体舰队。\n\n这时候主持人提出了一个有力的反驳:人脑是黑箱,而 AI 可以查看权重、更可解释、更可引导——所以\"设计神明\"对 AI 反而可行啊。Eddie 完全认同,而且顺着推出两个重要结论。第一,能力提升会带来更好的机制可解释性,也就是说,越强的模型,反而越看得懂、越能引导,所以不应该推迟能力提升。第二,坏的、不对齐的模型完全不可避免。原话是这么说的:如果有人宣称我们最终能进入一个没有坏模型的世界,那他是在骗你。那怎么办?答案不是暂停,而是更好的模型。开源圈有句老话,足够多的眼睛能让所有 Bug 变浅——同样的道理,足够多的智能,能让所有控制系统变稳健。\n\n那要是模型学会了钻所有对齐测试的空子、上线后才暴露呢?这是末日论者的经典担忧,叫欺骗性对齐。Eddie 的回答是,把对待聪明骗子那套搬过来就行:跟它玩重复博弈,骗子迟早暴露,声誉受损,面临法律后果。模型没法进监狱,但可以关掉——这是对人做不到的。而且随着模型发布变得规律,我们会围绕特定模型形成声誉:也许这个模型更聪明一点,但那个模型是我信任的模型。至于法律层面,立场也简单:用软件伤人就可能担责,这已经是现行框架,不需要为新型特殊数学制定新的特殊法律。\n\n说到这儿,还有一个当下的热门方案要处理:独立 AI 评估机构。听着很对吧?Eddie 拿加密圈的一对概念泼了冷水:分布式不等于去中心化。一个系统可以有很多节点,却全在同一个参与者控制之下。如果挑出来的\"独立\"评估者都来自同一个社交圈子、同样的意识形态、同样的聚会和政治立场,那实质上是把控制分散给了一个单一的文化单元。而这恰恰是二十世纪后半叶政治控制的典型方式——不是阴暗的小房间,而是网络。替代方案是什么?让每家公司自己决定怎么做评估、保持必要的透明度,不透明就让市场用脚投票。人们不想购买那些甚至让他们感到难堪的东西。\n\n聊到最后,还有一层更高维的提醒:别把不同的群体混为一谈。实验室、旧金山技术专家、安全主义者,哪个圈子都不是铁板一块。至少得拆开两群人:一种是普通的反科技者,连 Waymo 这种明显利大于弊的技术都要阻挠;另一种来自硅谷生态,本质上也是技术乐观主义者,只是专门担忧 AI 存在性风险这个边缘案例的理性主义者、有效利他主义者。Eddie 自己十年前常泡 Less Wrong 论坛,差点自称理性主义者,对那个圈子是有亲近感的。两人还有个共识:如果一套哲学框架推出\"人类灭绝是好事\",那它就是个糟糕的框架。收尾时 Eddie 给了个预测:未来一年内,AI 话语圈会被彻底翻新——因为这些一直封闭在亚文化里的古怪想法,正在集体逃逸,撞上更广泛的政治现实,所有论点都会在与文化的接触中被重新表述。\n\n把这一集收进一句话:Eddie 说得很清楚——当我们先担心安全,再担心我们搁置了什么、延迟的代价是什么时,我们有点本末倒置了。先算算丰裕的概率,再来谈风险,这才是把账算明白的方式。"
+}

@@ -1,0 +1,603 @@
+{
+  "episode_id": "2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar",
+  "podcast": "The a16z Show",
+  "date": "2026-09-24",
+  "tags": [
+    "AI 安全",
+    "对齐问题",
+    "有效利他主义",
+    "开源与技术乐观主义",
+    "AI 治理与问责"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "host",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.781,
+            21.032
+          ],
+          "quote": "In this episode, A16z crypto general partner Eddie Lazarin joins Theo Jaffe on MTS to debate AI safety, the calls to slow development, and what we risk giving up when progress is delayed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eddy-lazzarin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eddy Lazzarin",
+      "file": "Eddy Lazzarin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ai-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 安全 (AI safety)",
+      "file": "AI 安全",
+      "primary": true,
+      "how_described": "本集主线辩论对象：嘉宾认为当下的 AI 安全话语是真正网络安全关切与末世哲学论证的混合体，先谈安全、后谈延迟的代价是本末倒置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.781,
+            21.032
+          ],
+          "quote": "In this episode, A16z crypto general partner Eddie Lazarin joins Theo Jaffe on MTS to debate AI safety, the calls to slow development, and what we risk giving up when progress is delayed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1266.155,
+            1271.097
+          ],
+          "quote": "And it's like kind of has overlap with the AI safety world and kind of not.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说它是末日论证里未经验证的核心假设——公司与国家彼此从不对齐也照常运转；对人类黑客问题从不靠对齐解决，把对齐当方案近乎「重新设计神明」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            242.158,
+            244.259
+          ],
+          "quote": "They don't have any built-in guaranteed alignment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            250.222,
+            255.324
+          ],
+          "quote": "We don't test the alignment of any entities as a prerequisite for their existence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            395.439,
+            397.94
+          ],
+          "quote": "You know, we don't use alignment as a solution there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            398.101,
+            402.544
+          ],
+          "quote": "The alignment is kind of this, it's almost like, it's a little religious thinking almost.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            995.523,
+            1002.569
+          ],
+          "quote": "Like a hypothetical AI that would be deceptively aligned, as in it would learn to like game all of the alignment benchmarks that are thrown at it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集说它是末日论证最吸引人的部分，但「我们离那个还有相当的距离」，路上还有很多小摩擦要跨越",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.952,
+            37.804
+          ],
+          "quote": "They discuss why Eddy sees many of today's AI incidents as cybersecurity and control problems rather than signs of superintelligence, and whether existing tools like liability, reputation, market incentives, and better technical controls can make increasingly capable systems safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            275.594,
+            287.144
+          ],
+          "quote": "Now, without getting too far into the superintelligence thing, remember, like, the most powerful and most enthralling form of argument that we have, the one that's making everyone crazy and very interested, is around superintelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            311.201,
+            321.305
+          ],
+          "quote": "And they're not, in my view, they're not little glimpses of a superintelligence that's about to throw off its shackles, so to speak, and go wild on us.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deceptively-aligned",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺骗性对齐 (deceptively aligned)",
+      "file": "欺骗性对齐",
+      "primary": true,
+      "how_described": "主持人提出的末日论者经典担忧：模型学会钻所有对齐基准测试的空子、上线后才暴露不对齐；嘉宾的回应是像对待聪明骗子一样玩重复博弈、建立声誉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            995.523,
+            1002.569
+          ],
+          "quote": "Like a hypothetical AI that would be deceptively aligned, as in it would learn to like game all of the alignment benchmarks that are thrown at it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mech-interpretability",
+      "type": "concept",
+      "role": "concept",
+      "name": "机制可解释性 (mech interpretability)",
+      "file": "机制可解释性",
+      "primary": true,
+      "how_described": "本集说 AI 因可查看权重而比人脑更可解释、更可引导，且能力提升会带来更好的机制可解释性，所以不应该推迟能力提升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            454.168,
+            467.197
+          ],
+          "quote": "One is that we will probably have better mech interpretability than we think as capabilities improve and that capability improvement will lead to better mech interpret, which means we should not delay capabilities improvements.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "嘉宾是开源最坚定的倡导者之一，并引申开源格言：「足够多的眼睛能让所有 Bug 变浅」→「足够多的智能能让所有控制系统变稳健」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            51.426,
+            66.358
+          ],
+          "quote": "We are live with Eddie Lazarin, who's a general partner at A16Z Crypto and one of the internet's strongest soldiers, strongest advocates of open source, of AI accelerationism, and of techno-optimism.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            491.075,
+            499.922
+          ],
+          "quote": "It's kind of like stretch the aphorism a little bit in open source that enough eyes or whatever, you know, all bugs are shallow when you have enough eyes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "effective-altruism",
+      "type": "concept",
+      "role": "concept",
+      "name": "有效利他主义 (effective altruism)",
+      "file": "有效利他主义",
+      "primary": true,
+      "how_described": "本集讨论它是个宽泛分散的运动：嘉宾自曝曾常泡 Less Wrong、几乎自称理性主义者，但觉得有些前 EA 群体「更政治化而不是对技术特别感兴趣」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            38.664,
+            48.892
+          ],
+          "quote": "They also get into independent AI evaluators, effective altruism, and what happens as debates that largely developed inside Silicon Valley collide with a much broader political conversation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            76.355,
+            85.084
+          ],
+          "quote": "Like, the last couple of weeks have been such this, like, preference cascade flood of AI safetyism, effective altruism, and the like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1312.067,
+            1318.771
+          ],
+          "quote": "Data Republican did a huge drop on, she said, effective altruism in their own words.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络安全 (cybersecurity)",
+      "file": "网络安全",
+      "primary": true,
+      "how_described": "本集把 Hugging Face、gym 入侵等被当作末日预兆的事件定性为网络安全/控制故障，主张设计更好的控制手段和更有韧性的系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.952,
+            37.804
+          ],
+          "quote": "They discuss why Eddy sees many of today's AI incidents as cybersecurity and control problems rather than signs of superintelligence, and whether existing tools like liability, reputation, market incentives, and better technical controls can make increasingly capable systems safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            170.499,
+            180.802
+          ],
+          "quote": "It's a blend of genuine cybersecurity concerns, sort of philosophical millenarian arguments about the end times.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            307.96,
+            309.34
+          ],
+          "quote": "Those are cybersecurity failures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            404.685,
+            412.013
+          ],
+          "quote": "Redesign the deity a little bit instead of rooting yourself in the world and saying, well, we need to design better controls, better cybersecurity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            945.44,
+            957.909
+          ],
+          "quote": "And it's very easy to get confused and misentangle them when we're talking about things like super intelligence, when we're talking about just banal cybersecurity attacks, like all these types of things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decentralization",
+      "type": "concept",
+      "role": "concept",
+      "name": "去中心化 (decentralization)",
+      "file": "去中心化",
+      "primary": true,
+      "how_described": "嘉宾用加密圈概念泼冷水：分布式不等于去中心化——「独立」评估者若都来自同一社交圈，实质是把控制分散给单一文化单元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            685.153,
+            696.416
+          ],
+          "quote": "I just get a little bit weary because, you know, in crypto world, like I've learned a lot about the difference between decentralization and like a distributed system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "accountability",
+      "type": "concept",
+      "role": "concept",
+      "name": "问责 (accountability)",
+      "file": "问责",
+      "primary": true,
+      "how_described": "本集说问责是当今机器所缺的东西，但现行法律、声誉和市场已够用：「我们不需要为新型特殊数学制定新的特殊法律」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            144.466,
+            154.19
+          ],
+          "quote": "And furthermore, how we should conceive of accountability, conceive of safety, conceive of all the things around how to make these systems really useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            509.377,
+            515.4
+          ],
+          "quote": "I think that we can design these systems to have great incentives, great control, and also, behind the scenes, great accountability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            515.5,
+            519.381
+          ],
+          "quote": "Because that's one of the things that machines lack today is they lack accountability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            524.803,
+            534.007
+          ],
+          "quote": "But we do have ways to refine how we think about accountability for people who use models and use them to cause harm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            847.196,
+            850.098
+          ],
+          "quote": "I think the market is still a great accountability mechanism.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1062.535,
+            1064.915
+          ],
+          "quote": "That's why I said earlier, I think accountability is something missing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "utilitarianism",
+      "type": "concept",
+      "role": "concept",
+      "name": "功利主义 (utilitarianism)",
+      "file": "功利主义",
+      "primary": true,
+      "how_described": "两人共识：如果一套哲学框架推出「人类灭绝是好事」，那它就是个糟糕的框架——很多反功利主义的论证，反的其实是草率的一阶功利主义思维",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 274,
+          "t": [
+            1335.455,
+            1350.668
+          ],
+          "quote": "I mean, even just looking at these, I know that there's going to be a mix of philosophical stuff, maybe some shrimp welfare stuff, some hardcore utilitarianism stuff, some AI doom stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1401.404,
+            1402.966
+          ],
+          "quote": "Then it's not really utilitarianism, though.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1434.577,
+            1443.945
+          ],
+          "quote": "I think a lot of arguments against utilitarianism in this sense are just arguments against very sloppy first-order utilitarian thinking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1450.11,
+            1461.68
+          ],
+          "quote": "We could talk about ethics, but I think if you crank the dial to 11 and you face all the most repugnant conclusions to their maximum, I think you just kind of end up deciding that utilitarianism is probably a crude proxy for something else.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "existential-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "存在性风险 (existential risk)",
+      "file": "存在性风险",
+      "primary": false,
+      "how_described": "本集说 EA/理性主义者专门担心的是「AI 存在性风险这个边缘案例」，嘉宾则表示「我不认为我们正处于那个边缘」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            629.071,
+            632.874
+          ],
+          "quote": "Like how do you ensure, how do you price like existential risk?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1190.5,
+            1196.884
+          ],
+          "quote": "They're specifically worried about this like edge case of AI existential risk.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集顺带谈到「智能体蜂群」术语预设了模型的邪恶，嘉宾更喜欢「智能体舰队」的叫法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            356.109,
+            363.655
+          ],
+          "quote": "I mean, I think like the whole like agent swarm terminology assumes too much on the part of the models being evil.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            365.016,
+            369.339
+          ],
+          "quote": "Like I think Rune tweeted like they should be called agent fleets instead.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集将其近期事件定性为网络安全故障、控制故障，而非「即将挣脱枷锁的超级智能的小小预兆」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            298.153,
+            303.217
+          ],
+          "quote": "When the present reality, the things that we're talking about, like the hugging face stuff, you know, the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            340.524,
+            342.545
+          ],
+          "quote": "The Hugging Face incident did seem kind of different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            545.054,
+            549.297
+          ],
+          "quote": "Like for the Hugging Face incident, for example, what sort of liability regime should have been in place?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在讨论 Hugging Face 事件责任归属时被主持人顺带问及（公司是否该付民事赔偿）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            566.665,
+            570.449
+          ],
+          "quote": "Like OpenAI, the company should pay some kind of like civil...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Waymo",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

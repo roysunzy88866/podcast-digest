@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Eric Sager]] · [[Harry Stebbings]] · [[Square]] · [[JD]] · [[Visa]] · [[Town]] · [[Perplexity]] · [[AI 助手]] · [[Replit]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":127,"Eric Sager":1,"Harry Stebbings":18,"Square":4,"JD":1,"Visa":2,"Town":3,"Perplexity":6,"AI 助手":2,"Replit":17}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":128,"Eric Sager":1,"Harry Stebbings":18,"Square":4,"JD":1,"Visa":2,"Town":3,"Perplexity":6,"AI 助手":2,"Replit":17}</script>
 
 <script>
 (function(){

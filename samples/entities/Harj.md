@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":34,"Atlas":3,"精益创业":2,"智能体":304,"YC":16,"Google":47,"Claude":62,"OpenAI":127,"Shopify":9}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":34,"Atlas":3,"精益创业":2,"智能体":306,"YC":16,"Google":47,"Claude":64,"OpenAI":128,"Shopify":9}</script>
 
 <script>
 (function(){

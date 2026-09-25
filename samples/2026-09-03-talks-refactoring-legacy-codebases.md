@@ -134,7 +134,7 @@ Amrita 现场建了一个「feature flag 清理器」：每周扫一遍仓库，
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:harness、MCP、智能体 (agent)</span>
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
-- [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
+- [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|解锁智能体自主性：安全才是下一个瓶颈]]<span class="pd-rz">同概念:harness、MCP、智能体 (agent)</span>
 
 </div>
 </div>

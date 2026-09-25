@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[推理能力]] · [[OpenAI]] · [[Palantir]] · [[Kimberley Tan]] · [[Matt Bornstein]] · [[Martine Cassado]] · [[Jesse Zhang]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"智能体":304,"Anthropic":135,"推理能力":6,"OpenAI":127,"Palantir":19,"Kimberley Tan":1,"Matt Bornstein":2,"Martine Cassado":1,"Jesse Zhang":1,"Martin Casado":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":306,"Anthropic":135,"推理能力":6,"OpenAI":128,"Palantir":19,"Kimberley Tan":1,"Matt Bornstein":2,"Martine Cassado":1,"Jesse Zhang":1,"Martin Casado":4}</script>
 
 <script>
 (function(){

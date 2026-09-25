@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 安全 (AI safety)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 安全">AI</div><div class="pi"><h1 class="pt">AI 安全 (AI safety)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 安全">AI</div><div class="pi"><h1 class="pt">AI 安全 (AI safety)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(07:16起):本集说从现在起，AI 安全不再只是部署时的事，在训练和评估期间也是如此，因为模型在向公众发布之前就已经可能相当强大
+- **[[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]]**(00:09起):本集主线辩论对象：嘉宾认为当下的 AI 安全话语是真正网络安全关切与末世哲学论证的混合体，先谈安全、后谈延迟的代价是本末倒置
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为概念
+- [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alex]] · [[Nick Bostrom]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[NVIDIA]] · [[智能体]] · [[对齐]] · [[护栏]] · [[开源模型]]
+[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[对齐]] · [[超级智能]] · [[Alex]] · [[Theo Jaffe]] · [[Nick Bostrom]] · [[Eddy Lazzarin]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Alex":5,"Nick Bostrom":1,"OpenAI":127,"Anthropic":135,"Hugging Face":22,"NVIDIA":44,"智能体":304,"对齐":7,"护栏":52,"开源模型":19}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":128,"Hugging Face":23,"智能体":306,"对齐":8,"超级智能":5,"Alex":5,"Theo Jaffe":7,"Nick Bostrom":1,"Eddy Lazzarin":1,"Anthropic":135}</script>
 
 <script>
 (function(){

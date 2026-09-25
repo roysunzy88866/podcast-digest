@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/c4640152-7d44-401d-a3a0-eea1a7ba0aef/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=c4640152-7d44-401d-a3a0-eea1a7ba0aef&feed=JGE3yC0V",
+  "duration_sec": 1658.81,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 335,
+  "asr": true,
+  "title_en": "The Case Against an AI Pause | Eddy Lazzarin",
+  "podcast": "The a16z Show",
+  "date": "2026-09-24",
+  "added": "2026-09-25",
+  "added_at": "2026-09-24T20:49:57.879Z",
+  "speaker_map": {
+    "SPEAKER_00": "Theo Jaffe",
+    "SPEAKER_02": "Eddy Lazzarin"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Theo Jaffe",
+  "cohosts": [
+    "Eddy Lazzarin"
+  ],
+  "title_zh": "丰裕的概率：为什么「先担心安全」是本末倒置",
+  "guest_name": "Eddy Lazzarin",
+  "guest_title": "a16z crypto 普通合伙人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

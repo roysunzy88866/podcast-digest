@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":304,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":306,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":2}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":25,"JP Morgan":3,"Coinbase":5,"Stripe":34}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":5,"加密货币":2,"区块链":2,"分词":4,"开源":26,"JP Morgan":3,"Coinbase":5,"Stripe":34}</script>
 
 <script>
 (function(){

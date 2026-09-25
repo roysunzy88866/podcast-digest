@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Campbell Brown]]
+[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":127,"Anthropic":135,"Hugging Face":22,"对齐":7,"奖励黑客":4,"智能体":304,"Matt Turk":4,"Theo Jaffe":6,"Google DeepMind":4}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":128,"Anthropic":135,"Hugging Face":23,"对齐":8,"奖励黑客":4,"智能体":306,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":4}</script>
 
 <script>
 (function(){

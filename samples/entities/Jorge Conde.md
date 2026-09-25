@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":19}</script>
+<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":20}</script>
 
 <script>
 (function(){

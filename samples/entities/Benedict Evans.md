@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":127,"Anthropic":135,"基础模型":6,"AGI":26,"Lenny":67,"Jacob Efron":1,"Google":47,"TSMC":6,"Meta":35,"LLM":41}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":128,"Anthropic":135,"基础模型":6,"AGI":26,"Lenny":67,"Jacob Efron":1,"Google":47,"TSMC":6,"Meta":35,"LLM":41}</script>
 
 <script>
 (function(){

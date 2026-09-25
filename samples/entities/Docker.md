@@ -7,19 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Docker</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Docker">DO</div><div class="pi"><h1 class="pt">Docker</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Docker">DO</div><div class="pi"><h1 class="pt">Docker</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(24:37起):本集提到不是每个人都在 Docker 容器中运行代码，这让安全地处理 bash 命令变得更棘手
+- **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(10:28起):主讲人所在公司：本集说 Docker 过去十年解决了软件从笔记本搬上云的可移植性问题，现在正把这套经验延伸去做智能体安全的运行时。
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(23:13起):本集说 Docker 自己说容器不安全，所以他们在 Docker 沙箱方面取得了巨大成功，是理解沙箱行为的最好公司之一
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(12:38起):Ollama 两位创始人的老东家,他们在 Docker 做了 Docker Desktop、学会什么是好的开发者体验;Docker 当年变现迟缓的教训也被本集引用。
 
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai#^q8]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
+- [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为被讨论公司
 
@@ -27,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[开源模型]] · [[推理]] · [[GPU]] · [[OpenRouter]] · [[Boris]] · [[Harry Stebbings]] · [[Jeffrey Morgan]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[沙箱]] · [[开源模型]] · [[MCP]] · [[推理]] · [[GPU]] · [[OpenRouter]] · [[Boris]] · [[Tushar Jain]]
 
-<script type="application/json" class="pd-epn">{"智能体":304,"Anthropic":135,"开源模型":19,"推理":53,"GPU":18,"OpenRouter":10,"Boris":1,"Harry Stebbings":18,"Jeffrey Morgan":1,"Claude Code":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":306,"Anthropic":135,"沙箱":57,"开源模型":19,"MCP":52,"推理":53,"GPU":18,"OpenRouter":10,"Boris":1,"Tushar Jain":1}</script>
 
 <script>
 (function(){

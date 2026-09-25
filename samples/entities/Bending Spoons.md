@@ -37,7 +37,7 @@ unlisted: true
 
 [[Luca Ferrari]] · [[AOL]] · [[极致所有权]] · [[Vali]] · [[Airtable]] · [[Grindr]] · [[Evernote]] · [[MosaicML]] · [[智能体]] · [[收购]]
 
-<script type="application/json" class="pd-epn">{"Luca Ferrari":2,"AOL":3,"极致所有权":2,"Vali":1,"Airtable":4,"Grindr":1,"Evernote":1,"MosaicML":2,"智能体":304,"收购":2}</script>
+<script type="application/json" class="pd-epn">{"Luca Ferrari":2,"AOL":3,"极致所有权":2,"Vali":1,"Airtable":4,"Grindr":1,"Evernote":1,"MosaicML":2,"智能体":306,"收购":2}</script>
 
 <script>
 (function(){

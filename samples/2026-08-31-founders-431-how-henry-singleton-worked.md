@@ -140,6 +140,7 @@ Singleton 不相信详细的战略规划。"我知道很多人有非常确定的
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的]]<span class="pd-rz">同概念:收购 (acquisition)</span>
+- [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|丰裕的概率：为什么「先担心安全」是本末倒置]]<span class="pd-rz">同概念:去中心化 (decentralization)</span>
 
 </div>
 </div>

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]] [[Daniel Dines]]
+[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":127,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":128,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,3146 @@
+[
+ {
+  "seg": 0,
+  "start": 12.936,
+  "end": 14.037,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.057,
+  "end": 14.477,
+  "speaker": "Unknown",
+  "en": "Good start.",
+  "zh": "开场不错。"
+ },
+ {
+  "seg": 2,
+  "start": 14.577,
+  "end": 14.777,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 3,
+  "start": 14.797,
+  "end": 16.078,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "来了。"
+ },
+ {
+  "seg": 4,
+  "start": 16.338,
+  "end": 16.779,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "嗨，各位。"
+ },
+ {
+  "seg": 5,
+  "start": 17.299,
+  "end": 17.639,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎大家。"
+ },
+ {
+  "seg": 6,
+  "start": 18.84,
+  "end": 20.141,
+  "speaker": "Unknown",
+  "en": "I hope everyone's enjoying the conference.",
+  "zh": "希望大家都在享受这次大会。"
+ },
+ {
+  "seg": 7,
+  "start": 20.261,
+  "end": 22.642,
+  "speaker": "Unknown",
+  "en": "This is a really fun conference.",
+  "zh": "这是一个非常有趣的大会。"
+ },
+ {
+  "seg": 8,
+  "start": 22.662,
+  "end": 24.223,
+  "speaker": "Unknown",
+  "en": "I've enjoyed all the talks and the presence here.",
+  "zh": "我很享受这里的所有演讲和现场氛围。"
+ },
+ {
+  "seg": 9,
+  "start": 24.984,
+  "end": 25.244,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 10,
+  "start": 25.384,
+  "end": 29.246,
+  "speaker": "Unknown",
+  "en": "So, we're going to talk about unlocking agent autonomy and what that means.",
+  "zh": "那么，我们要谈谈解锁智能体自主性，以及这意味着什么。"
+ },
+ {
+  "seg": 11,
+  "start": 29.847,
+  "end": 31.088,
+  "speaker": "Unknown",
+  "en": "These last years have been crazy.",
+  "zh": "过去这几年太疯狂了。"
+ },
+ {
+  "seg": 12,
+  "start": 31.108,
+  "end": 32.348,
+  "speaker": "Unknown",
+  "en": "I'm sure we all felt it, right?",
+  "zh": "我相信我们都感受到了，对吧？"
+ },
+ {
+  "seg": 13,
+  "start": 32.469,
+  "end": 35.03,
+  "speaker": "Unknown",
+  "en": "Like, two years ago, we were talking about chatbots, and here we are.",
+  "zh": "比如，两年前我们还在聊聊天机器人，而现在，"
+ },
+ {
+  "seg": 14,
+  "start": 36.111,
+  "end": 37.172,
+  "speaker": "Unknown",
+  "en": "We're now in this world where",
+  "zh": "我们已经身处这样一个世界："
+ },
+ {
+  "seg": 15,
+  "start": 38.316,
+  "end": 40.304,
+  "speaker": "Unknown",
+  "en": "We all see the time we get from agents.",
+  "zh": "我们都能看到智能体给我们带来的时间。"
+ },
+ {
+  "seg": 16,
+  "start": 40.464,
+  "end": 43.535,
+  "speaker": "Unknown",
+  "en": "Agents have become powerful and they'll continue being so.",
+  "zh": "智能体已经变得强大，而且还会继续强大下去。"
+ },
+ {
+  "seg": 17,
+  "start": 45.299,
+  "end": 53.482,
+  "speaker": "Unknown",
+  "en": "At this point, the next big challenge, like we spent the last two years trying to make agents more intelligent and powerful, and they'll keep going, and I think we're almost there.",
+  "zh": "到这一步，下一个重大挑战——就像过去两年我们一直致力于让智能体更智能、更强大，它们也会继续进步，而且我觉得我们差不多快做到了——"
+ },
+ {
+  "seg": 18,
+  "start": 53.522,
+  "end": 58.283,
+  "speaker": "Unknown",
+  "en": "The next challenge in front of us is actually harder and more important, which is how to make them safer.",
+  "zh": "摆在我们面前的下一个挑战其实更难也更重要，那就是如何让它们更安全。"
+ },
+ {
+  "seg": 19,
+  "start": 58.983,
+  "end": 63.185,
+  "speaker": "Unknown",
+  "en": "At this point, I don't think intelligence is the next big blocker for us to leverage agents.",
+  "zh": "到这一步，我不认为智能是我们利用智能体的下一个重大阻碍。"
+ },
+ {
+  "seg": 20,
+  "start": 63.385,
+  "end": 68.106,
+  "speaker": "Unknown",
+  "en": "It is actually how to do so safely so we can give them all the access and autonomy they need.",
+  "zh": "真正的问题其实是如何安全地做到这一点，这样我们才能赋予它们所需的全部访问权限和自主性。"
+ },
+ {
+  "seg": 21,
+  "start": 68.926,
+  "end": 70.867,
+  "speaker": "Unknown",
+  "en": "Just as a story, just a small anecdote.",
+  "zh": "举个例子，只是一个小插曲。"
+ },
+ {
+  "seg": 22,
+  "start": 70.947,
+  "end": 72.747,
+  "speaker": "Unknown",
+  "en": "I'm sure everyone here has some version of this.",
+  "zh": "我相信在座每个人都有某种类似的经历。"
+ },
+ {
+  "seg": 23,
+  "start": 74.648,
+  "end": 76.068,
+  "speaker": "Unknown",
+  "en": "This is one of many agents I run.",
+  "zh": "这是我运行的众多智能体之一。"
+ },
+ {
+  "seg": 24,
+  "start": 76.308,
+  "end": 77.169,
+  "speaker": "Unknown",
+  "en": "This runs every night.",
+  "zh": "它每晚运行。"
+ },
+ {
+  "seg": 25,
+  "start": 77.969,
+  "end": 79.769,
+  "speaker": "Unknown",
+  "en": "It looks at some reports I care about.",
+  "zh": "它查看一些我在意的报告。"
+ },
+ {
+  "seg": 26,
+  "start": 80.209,
+  "end": 81.649,
+  "speaker": "Unknown",
+  "en": "And, you know, just does some analysis for me.",
+  "zh": "然后，你知道，就替我做一些分析。"
+ },
+ {
+  "seg": 27,
+  "start": 82.09,
+  "end": 83.21,
+  "speaker": "Unknown",
+  "en": "What activities happen?",
+  "zh": "发生了哪些活动？"
+ },
+ {
+  "seg": 28,
+  "start": 83.37,
+  "end": 84.31,
+  "speaker": "Unknown",
+  "en": "Who's been doing what?",
+  "zh": "谁在做什么？"
+ },
+ {
+  "seg": 29,
+  "start": 84.33,
+  "end": 85.35,
+  "speaker": "Unknown",
+  "en": "What progress has been made?",
+  "zh": "取得了什么进展？"
+ },
+ {
+  "seg": 30,
+  "start": 86.19,
+  "end": 92.872,
+  "speaker": "Unknown",
+  "en": "I have others that might do some more, might analyze the code review comments, have some of my own analysis, and they'll be like, what was the tone?",
+  "zh": "我还有其他一些智能体，可能会做更多事情，比如分析代码审查评论，做我自己的一些分析，然后它们会问，语气如何？"
+ },
+ {
+  "seg": 31,
+  "start": 92.992,
+  "end": 93.552,
+  "speaker": "Unknown",
+  "en": "Who did what?",
+  "zh": "谁做了什么？"
+ },
+ {
+  "seg": 32,
+  "start": 93.572,
+  "end": 94.252,
+  "speaker": "Unknown",
+  "en": "How were they acting?",
+  "zh": "他们的表现怎样？"
+ },
+ {
+  "seg": 33,
+  "start": 94.792,
+  "end": 95.492,
+  "speaker": "Unknown",
+  "en": "I'm a manager.",
+  "zh": "我是一名管理者。"
+ },
+ {
+  "seg": 34,
+  "start": 95.592,
+  "end": 98.513,
+  "speaker": "Unknown",
+  "en": "This is not meant for proof reviews, just meant to help me keep a pulse.",
+  "zh": "这不是用来做绩效考核的，只是帮我掌握动态。"
+ },
+ {
+  "seg": 35,
+  "start": 99.073,
+  "end": 101.854,
+  "speaker": "Unknown",
+  "en": "But still, it's not something I want shared.",
+  "zh": "尽管如此，这也不是我想被分享出去的东西。"
+ },
+ {
+  "seg": 36,
+  "start": 101.914,
+  "end": 103.634,
+  "speaker": "Unknown",
+  "en": "It's for my own knowledge to help me keep up.",
+  "zh": "它只是我自己的认知，帮我跟上节奏。"
+ },
+ {
+  "seg": 37,
+  "start": 104.274,
+  "end": 106.255,
+  "speaker": "Unknown",
+  "en": "This agent's been running for weeks just fine.",
+  "zh": "这个智能体已经稳定运行了好几周。"
+ },
+ {
+  "seg": 38,
+  "start": 106.395,
+  "end": 106.995,
+  "speaker": "Unknown",
+  "en": "Runs every night.",
+  "zh": "每晚运行。"
+ },
+ {
+  "seg": 39,
+  "start": 107.396,
+  "end": 108.056,
+  "speaker": "Unknown",
+  "en": "Sends me an email.",
+  "zh": "给我发一封邮件。"
+ },
+ {
+  "seg": 40,
+  "start": 108.236,
+  "end": 108.676,
+  "speaker": "Unknown",
+  "en": "I look at it.",
+  "zh": "我看一下。"
+ },
+ {
+  "seg": 41,
+  "start": 109.597,
+  "end": 115.039,
+  "speaker": "Unknown",
+  "en": "Randomly, one day, it decided to post this report as a PR on the repo.",
+  "zh": "随机的某一天，它决定把这份报告作为一个 PR 发布到代码仓库上。"
+ },
+ {
+  "seg": 42,
+  "start": 115.54,
+  "end": 115.82,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 43,
+  "start": 116,
+  "end": 116.68,
+  "speaker": "Unknown",
+  "en": "Nothing's changed.",
+  "zh": "什么都没变。"
+ },
+ {
+  "seg": 44,
+  "start": 116.78,
+  "end": 118.921,
+  "speaker": "Unknown",
+  "en": "Just the model decided to be helpful.",
+  "zh": "只是模型决定要帮忙。"
+ },
+ {
+  "seg": 45,
+  "start": 120.362,
+  "end": 122.843,
+  "speaker": "Unknown",
+  "en": "So thank you.",
+  "zh": "所以，谢谢你了。"
+ },
+ {
+  "seg": 46,
+  "start": 124.584,
+  "end": 126.146,
+  "speaker": "Unknown",
+  "en": "But this is a fundamental thing, right?",
+  "zh": "但这是一个根本性的问题，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 126.446,
+  "end": 128.048,
+  "speaker": "Unknown",
+  "en": "Like, agents do stuff.",
+  "zh": "比如，智能体会做事。"
+ },
+ {
+  "seg": 48,
+  "start": 128.388,
+  "end": 129.429,
+  "speaker": "Unknown",
+  "en": "They try to be helpful.",
+  "zh": "它们试图帮忙。"
+ },
+ {
+  "seg": 49,
+  "start": 130.07,
+  "end": 138.499,
+  "speaker": "Unknown",
+  "en": "They increase and change the goal they're doing, either because they themselves are just trying to be helpful, or they get confused, they make a mistake, or they get prompt injected, right?",
+  "zh": "它们会增加和改变自己正在执行的目标，原因可能是它们自己只是想帮忙，或者它们搞糊涂了、犯了个错，又或者它们被提示词注入了，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 140.558,
+  "end": 141.919,
+  "speaker": "Unknown",
+  "en": "This is a simple example, honestly.",
+  "zh": "说实话，这只是一个简单的例子。"
+ },
+ {
+  "seg": 51,
+  "start": 142.119,
+  "end": 143.561,
+  "speaker": "Unknown",
+  "en": "Like, it's easy to fix this.",
+  "zh": "比如，修复这个问题很容易。"
+ },
+ {
+  "seg": 52,
+  "start": 144.241,
+  "end": 147.144,
+  "speaker": "Unknown",
+  "en": "That agent should never have had write access to GitHub.",
+  "zh": "那个智能体本来就不应该拥有 GitHub 的写权限。"
+ },
+ {
+  "seg": 53,
+  "start": 147.604,
+  "end": 150.867,
+  "speaker": "Unknown",
+  "en": "It should have just had read access, and that's an easy fix.",
+  "zh": "它应该只有读权限，这是个很容易的修复。"
+ },
+ {
+  "seg": 54,
+  "start": 151.508,
+  "end": 152.709,
+  "speaker": "Unknown",
+  "en": "But it's not that simple, right?",
+  "zh": "但事情没那么简单，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 152.729,
+  "end": 153.63,
+  "speaker": "Unknown",
+  "en": "That's a very easy case.",
+  "zh": "那是一个非常容易的情况。"
+ },
+ {
+  "seg": 56,
+  "start": 153.67,
+  "end": 155.451,
+  "speaker": "Unknown",
+  "en": "Let's take another example.",
+  "zh": "而这正是我们从根本上遇到麻烦的地方。"
+ },
+ {
+  "seg": 57,
+  "start": 155.551,
+  "end": 160.296,
+  "speaker": "Unknown",
+  "en": "Let's imagine I have an agent, and I'm asking it to investigate a latency spike.",
+  "zh": "想象我有一个智能体，我让它去调查一次延迟飙升。"
+ },
+ {
+  "seg": 58,
+  "start": 160.356,
+  "end": 161.277,
+  "speaker": "Unknown",
+  "en": "Check out latency spike.",
+  "zh": "查一下延迟飙升。"
+ },
+ {
+  "seg": 59,
+  "start": 161.577,
+  "end": 161.817,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 60,
+  "start": 161.857,
+  "end": 162.357,
+  "speaker": "Unknown",
+  "en": "It starts.",
+  "zh": "它开始了。"
+ },
+ {
+  "seg": 61,
+  "start": 162.578,
+  "end": 163.418,
+  "speaker": "Unknown",
+  "en": "It's looking at the logs.",
+  "zh": "它在查看日志。"
+ },
+ {
+  "seg": 62,
+  "start": 164.199,
+  "end": 166.02,
+  "speaker": "Unknown",
+  "en": "It sees, oh, I think there's another service here.",
+  "zh": "它看到，哦，我想这里还有另一个服务。"
+ },
+ {
+  "seg": 63,
+  "start": 166.04,
+  "end": 168.242,
+  "speaker": "Unknown",
+  "en": "I want logs for that service.",
+  "zh": "我想要那个服务的日志。"
+ },
+ {
+  "seg": 64,
+  "start": 168.262,
+  "end": 169.283,
+  "speaker": "Unknown",
+  "en": "Let me get that access.",
+  "zh": "让我去获取那个权限。"
+ },
+ {
+  "seg": 65,
+  "start": 169.903,
+  "end": 172.325,
+  "speaker": "Unknown",
+  "en": "Oh, I see this might be related to a recent check-in.",
+  "zh": "哦，我看到这可能与最近的一次代码提交有关。"
+ },
+ {
+  "seg": 66,
+  "start": 172.445,
+  "end": 175.807,
+  "speaker": "Unknown",
+  "en": "I would like access to GitHub to the repos to read recent commits.",
+  "zh": "我想要访问 GitHub 上的仓库来读取最近的提交。"
+ },
+ {
+  "seg": 67,
+  "start": 176.788,
+  "end": 177.948,
+  "speaker": "Unknown",
+  "en": "This looks like it may have happened.",
+  "zh": "这看起来可能是发生的事情。"
+ },
+ {
+  "seg": 68,
+  "start": 178.289,
+  "end": 182.572,
+  "speaker": "Unknown",
+  "en": "Let me look at Slack conversations to see has there been any chatter about this to learn from there.",
+  "zh": "让我看看 Slack 上的对话，看有没有关于此事的讨论，从那里学习一下。"
+ },
+ {
+  "seg": 69,
+  "start": 183.212,
+  "end": 183.432,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 70,
+  "start": 183.472,
+  "end": 184.513,
+  "speaker": "Unknown",
+  "en": "It lasts for Slack access.",
+  "zh": "它请求了 Slack 访问权限。"
+ },
+ {
+  "seg": 71,
+  "start": 185.333,
+  "end": 188.235,
+  "speaker": "Unknown",
+  "en": "These are all reasonable steps, right?",
+  "zh": "这些都是合理的步骤，对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 188.275,
+  "end": 188.896,
+  "speaker": "Unknown",
+  "en": "This makes sense.",
+  "zh": "这是说得通的。"
+ },
+ {
+  "seg": 73,
+  "start": 188.916,
+  "end": 190.497,
+  "speaker": "Unknown",
+  "en": "This is what I would expect an engineer to do.",
+  "zh": "这也是我会期望一个工程师去做的事情。"
+ },
+ {
+  "seg": 74,
+  "start": 191.093,
+  "end": 198.135,
+  "speaker": "Unknown",
+  "en": "But what's happening is that each time as it's expanding its goal, expanding what it's doing, it's crossing the trust boundary.",
+  "zh": "但实际发生的是，每当它扩展自己的目标、扩展它正在做的事情时，它就跨越了信任边界。"
+ },
+ {
+  "seg": 75,
+  "start": 198.375,
+  "end": 199.855,
+  "speaker": "Unknown",
+  "en": "It's increasing the scope of the task.",
+  "zh": "它在扩大任务的范围。"
+ },
+ {
+  "seg": 76,
+  "start": 200.375,
+  "end": 202.296,
+  "speaker": "Unknown",
+  "en": "And this is fundamentally where we run into trouble.",
+  "zh": "而这从根本上就是我们遇到麻烦的地方。"
+ },
+ {
+  "seg": 77,
+  "start": 202.556,
+  "end": 204.236,
+  "speaker": "Unknown",
+  "en": "How do we know it's okay to give it access?",
+  "zh": "我们怎么知道给它权限是可以的？"
+ },
+ {
+  "seg": 78,
+  "start": 204.736,
+  "end": 213.298,
+  "speaker": "Unknown",
+  "en": "We now end up with an agent that has access to everything at the same time, and so anything becomes a vector where the blast radius expands.",
+  "zh": "我们最终会得到一个同时拥有一切权限的智能体，于是任何事情都成了爆炸半径扩大的攻击向量。"
+ },
+ {
+  "seg": 79,
+  "start": 213.858,
+  "end": 216.839,
+  "speaker": "Unknown",
+  "en": "This is fundamentally the big difference we're running into in the big challenge.",
+  "zh": "这从根本上就是我们遇到的大差异、大挑战。"
+ },
+ {
+  "seg": 80,
+  "start": 217.339,
+  "end": 219.36,
+  "speaker": "Unknown",
+  "en": "Earlier, traditional software was deterministic.",
+  "zh": "之前，传统软件是确定性的。"
+ },
+ {
+  "seg": 81,
+  "start": 219.38,
+  "end": 220.56,
+  "speaker": "Unknown",
+  "en": "You could define the permissions.",
+  "zh": "你可以预先定义好权限。"
+ },
+ {
+  "seg": 82,
+  "start": 221.2,
+  "end": 229.203,
+  "speaker": "Unknown",
+  "en": "But now, as agents become autonomous and they gain and they try to solve more problems, what they're doing changes at runtime.",
+  "zh": "但现在，随着智能体变得自主，并且它们试图解决更多问题，它们在做的事情在运行时发生改变。"
+ },
+ {
+  "seg": 83,
+  "start": 229.343,
+  "end": 231.243,
+  "speaker": "Unknown",
+  "en": "The access they need changes at runtime.",
+  "zh": "它们需要的权限在运行时发生改变。"
+ },
+ {
+  "seg": 84,
+  "start": 231.863,
+  "end": 233.804,
+  "speaker": "Unknown",
+  "en": "And right now, we haven't truly solved this.",
+  "zh": "而现在，我们还没有真正解决这个问题。"
+ },
+ {
+  "seg": 85,
+  "start": 234.044,
+  "end": 240.026,
+  "speaker": "Unknown",
+  "en": "We haven't solved how to give them exactly the access they need, how to do this in a safe manner, how to know if it's correct.",
+  "zh": "我们还没有解决如何给它们恰好所需的权限、如何以安全的方式做到这一点、如何知道这是否正确。"
+ },
+ {
+  "seg": 86,
+  "start": 240.486,
+  "end": 244.967,
+  "speaker": "Unknown",
+  "en": "And this is the fundamental thing I think we have to go solve now to actually unlock autonomy.",
+  "zh": "而这就是我认为我们现在必须去解决的根本问题，才能真正解锁自主性。"
+ },
+ {
+  "seg": 87,
+  "start": 245.428,
+  "end": 247.088,
+  "speaker": "Unknown",
+  "en": "And so, we go away from, like, can it do this?",
+  "zh": "于是，我们从「它能不能做到？」"
+ },
+ {
+  "seg": 88,
+  "start": 247.308,
+  "end": 248.308,
+  "speaker": "Unknown",
+  "en": "Like, should it do this?",
+  "zh": "转向「它应不应该做到？」"
+ },
+ {
+  "seg": 89,
+  "start": 248.448,
+  "end": 249.869,
+  "speaker": "Unknown",
+  "en": "And how do we give it that access?",
+  "zh": "以及我们如何给它那个权限？"
+ },
+ {
+  "seg": 90,
+  "start": 253.132,
+  "end": 258.478,
+  "speaker": "Unknown",
+  "en": "Also, this is something we can't just rely on, the next frontier agent being really good and not making a mistake.",
+  "zh": "另外，这件事我们不能只指望下一个前沿智能体足够好、不犯错。"
+ },
+ {
+  "seg": 91,
+  "start": 259.288,
+  "end": 261.109,
+  "speaker": "Unknown",
+  "en": "We're going to use more than one model.",
+  "zh": "我们会使用不止一个模型。"
+ },
+ {
+  "seg": 92,
+  "start": 262.049,
+  "end": 264.531,
+  "speaker": "Unknown",
+  "en": "I just think, fundamentally, we're all already there, I think.",
+  "zh": "我只是觉得，从根本上，我们其实都已经这样做了，我认为。"
+ },
+ {
+  "seg": 93,
+  "start": 265.171,
+  "end": 269.533,
+  "speaker": "Unknown",
+  "en": "No one is going to bet everything on a single model or even a single frontier lab.",
+  "zh": "没有人会把一切都押在单一模型上，甚至是单一前沿实验室上。"
+ },
+ {
+  "seg": 94,
+  "start": 270.074,
+  "end": 272.555,
+  "speaker": "Unknown",
+  "en": "You'll use models from different frontier labs as they make progress.",
+  "zh": "随着不同前沿实验室取得进展，你会使用来自它们的模型。"
+ },
+ {
+  "seg": 95,
+  "start": 273.115,
+  "end": 275.237,
+  "speaker": "Unknown",
+  "en": "And importantly, we will all use open models.",
+  "zh": "而重要的是，我们都会使用开源模型。"
+ },
+ {
+  "seg": 96,
+  "start": 275.437,
+  "end": 281.34,
+  "speaker": "Unknown",
+  "en": "We're all living through the GLM 5.2 amazing progress the last few weeks.",
+  "zh": "我们都在经历 GLM 5.2 过去几周令人惊叹的进展。"
+ },
+ {
+  "seg": 97,
+  "start": 281.4,
+  "end": 282.24,
+  "speaker": "Unknown",
+  "en": "And this is just the start.",
+  "zh": "而这只是开始。"
+ },
+ {
+  "seg": 98,
+  "start": 282.64,
+  "end": 283.961,
+  "speaker": "Unknown",
+  "en": "But there will be more and more of this.",
+  "zh": "以后还会有越来越多这样的事。"
+ },
+ {
+  "seg": 99,
+  "start": 284.361,
+  "end": 286.863,
+  "speaker": "Unknown",
+  "en": "So we'll end up wanting to use different models for different reasons.",
+  "zh": "所以我们最终会因为不同的原因想要使用不同的模型。"
+ },
+ {
+  "seg": 100,
+  "start": 287.563,
+  "end": 289.124,
+  "speaker": "Unknown",
+  "en": "Privacy, cost, et cetera.",
+  "zh": "隐私、成本等等。"
+ },
+ {
+  "seg": 101,
+  "start": 289.544,
+  "end": 294.368,
+  "speaker": "Unknown",
+  "en": "So, we need a solution that runs across them and doesn't just rely on the model itself being good.",
+  "zh": "所以，我们需要一个能跨它们运行的解决方案，而不仅仅是依赖模型本身足够好。"
+ },
+ {
+  "seg": 102,
+  "start": 295.488,
+  "end": 297.349,
+  "speaker": "Unknown",
+  "en": "We'll also use multiple harnesses.",
+  "zh": "我们还会使用多个 harness。"
+ },
+ {
+  "seg": 103,
+  "start": 297.409,
+  "end": 300.752,
+  "speaker": "Unknown",
+  "en": "You won't just use a single harness from a single provider.",
+  "zh": "你不会只用来自单一供应商的单一 harness。"
+ },
+ {
+  "seg": 104,
+  "start": 301.132,
+  "end": 311.198,
+  "speaker": "Unknown",
+  "en": "One, you should, like, betting entirely on a harness from a frontier lab makes it hard to get choice across models from labs and across open models.",
+  "zh": "第一，完全押注于来自前沿实验室的某个 harness，会让你很难在来自各实验室的模型以及各开源模型之间做选择。"
+ },
+ {
+  "seg": 105,
+  "start": 312.119,
+  "end": 314.26,
+  "speaker": "Unknown",
+  "en": "Two, there'll be harnesses of different use cases.",
+  "zh": "第二，会有针对不同用例的 harness。"
+ },
+ {
+  "seg": 106,
+  "start": 314.6,
+  "end": 317.221,
+  "speaker": "Unknown",
+  "en": "Right now, we're all very focused on coding, but we're going to expand.",
+  "zh": "现在，我们都非常专注于编码，但我们会扩展。"
+ },
+ {
+  "seg": 107,
+  "start": 318.182,
+  "end": 321.964,
+  "speaker": "Unknown",
+  "en": "The OpenClaw moment happened, but it's still not landed fully, right?",
+  "zh": "OpenClaw 时刻已经发生了，但它还没有完全落地，对吧？"
+ },
+ {
+  "seg": 108,
+  "start": 322.324,
+  "end": 325.825,
+  "speaker": "Unknown",
+  "en": "You can imagine salespeople, marketing people having claws running, doing stuff.",
+  "zh": "你可以想象销售人员、营销人员让 claws 运行着，做各种事情。"
+ },
+ {
+  "seg": 109,
+  "start": 326.406,
+  "end": 330.187,
+  "speaker": "Unknown",
+  "en": "So, the kind of harnesses an agent will use will grow, and you'll build your own.",
+  "zh": "所以，智能体会使用的 harness 种类会增长，而且你还会构建自己的 harness。"
+ },
+ {
+  "seg": 110,
+  "start": 330.828,
+  "end": 335.71,
+  "speaker": "Unknown",
+  "en": "So, we need something that works across harnesses and works across models.",
+  "zh": "所以，我们需要某种能跨 harness 工作、也能跨模型工作的东西。"
+ },
+ {
+  "seg": 111,
+  "start": 337.239,
+  "end": 344.026,
+  "speaker": "Unknown",
+  "en": "And we need something that doesn't just depend on no mistake happening, but constrains the environment around it.",
+  "zh": "我们还需要某种不依赖于「不出错」，而是约束它周围环境的东西。"
+ },
+ {
+  "seg": 112,
+  "start": 344.207,
+  "end": 345.108,
+  "speaker": "Unknown",
+  "en": "So, what we want is",
+  "zh": "所以，我们想要的是"
+ },
+ {
+  "seg": 113,
+  "start": 347.463,
+  "end": 356.427,
+  "speaker": "Unknown",
+  "en": "An environment where the agent runs, where if something goes wrong, there's limited blast radius, and we only give it the access it needs, and we do this in a safe and correct manner.",
+  "zh": "一个智能体运行的环境，如果出了问题，爆炸半径是有限的，我们只给它所需的访问权限，并且我们以安全、正确的方式做到这一点。"
+ },
+ {
+  "seg": 114,
+  "start": 357.247,
+  "end": 372.995,
+  "speaker": "Unknown",
+  "en": "We think the best way to do this is to create a runtime, is to have a runtime that all agents run on, so this runs across any agent, any harness, and across models, and that's where we create these artifacts, these capabilities that we want.",
+  "zh": "我们认为最好的方法是创建一个运行时，让所有智能体都运行在一个运行时上，这样它就能跨任何智能体、任何 harness、跨模型工作，这就是我们创造这些工件、这些我们想要的能力的地方。"
+ },
+ {
+  "seg": 115,
+  "start": 374.815,
+  "end": 375.996,
+  "speaker": "Unknown",
+  "en": "There are three core pillars here.",
+  "zh": "这里有三大核心支柱。"
+ },
+ {
+  "seg": 116,
+  "start": 377.258,
+  "end": 378.559,
+  "speaker": "Unknown",
+  "en": "First is containment.",
+  "zh": "第一是遏制。"
+ },
+ {
+  "seg": 117,
+  "start": 379.199,
+  "end": 382.32,
+  "speaker": "Unknown",
+  "en": "You need to create an environment where it's controlled what the agent can get.",
+  "zh": "你需要创建一个环境，其中智能体能获取什么是受控的。"
+ },
+ {
+  "seg": 118,
+  "start": 383.841,
+  "end": 385.242,
+  "speaker": "Unknown",
+  "en": "This does mean sandboxes.",
+  "zh": "这确实意味着沙箱。"
+ },
+ {
+  "seg": 119,
+  "start": 385.462,
+  "end": 388.803,
+  "speaker": "Unknown",
+  "en": "And look, you can throw a rock and find many sandbox companies at this point.",
+  "zh": "你看，现在你随便扔块石头都能砸中好多沙箱公司。"
+ },
+ {
+  "seg": 120,
+  "start": 388.883,
+  "end": 389.724,
+  "speaker": "Unknown",
+  "en": "But it's more than that.",
+  "zh": "但不止如此。"
+ },
+ {
+  "seg": 121,
+  "start": 390.524,
+  "end": 396.647,
+  "speaker": "Unknown",
+  "en": "So one, you have a sandbox in which you run the agent, and it gets only what it needs.",
+  "zh": "首先，你有一个运行智能体的沙箱，它只获取它所需的东西。"
+ },
+ {
+  "seg": 122,
+  "start": 397.167,
+  "end": 403.21,
+  "speaker": "Unknown",
+  "en": "And importantly, you run the agent inside the untrusted boundary, and you run controls outside the VM boundary.",
+  "zh": "重要的是，你在不受信任边界之内运行智能体，而把控制放在 VM 边界之外运行。"
+ },
+ {
+  "seg": 123,
+  "start": 404.671,
+  "end": 406.292,
+  "speaker": "Unknown",
+  "en": "Second, you scope access.",
+  "zh": "第二，你要限定访问范围。"
+ },
+ {
+  "seg": 124,
+  "start": 407.217,
+  "end": 414.085,
+  "speaker": "Unknown",
+  "en": "This is more than just what network can you access or even what tool can you access, but you need to give actual scope capabilities.",
+  "zh": "这不只是你能访问哪个网络、甚至你能访问哪个工具，而是你需要给出真正限定了范围的能力。"
+ },
+ {
+  "seg": 125,
+  "start": 414.366,
+  "end": 420.613,
+  "speaker": "Unknown",
+  "en": "So, in our example, the agent now wants to access Slack to search for any conversations around this incident.",
+  "zh": "在我们的例子里，智能体现在想访问 Slack，搜索围绕这个事件的任何对话。"
+ },
+ {
+  "seg": 126,
+  "start": 421.374,
+  "end": 424.778,
+  "speaker": "Unknown",
+  "en": "Well, I could give it read-only to Slack, but that's still more than what I want to give it.",
+  "zh": "嗯，我可以给它 Slack 的只读权限，但这仍然超出我想给它的范围。"
+ },
+ {
+  "seg": 127,
+  "start": 425.639,
+  "end": 428.582,
+  "speaker": "Unknown",
+  "en": "Maybe there's a single channel with only conversation with the incident.",
+  "zh": "也许有一个单一频道，里面只有关于这个事件的对话。"
+ },
+ {
+  "seg": 128,
+  "start": 428.622,
+  "end": 429.163,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "那很好。"
+ },
+ {
+  "seg": 129,
+  "start": 429.764,
+  "end": 430.965,
+  "speaker": "Unknown",
+  "en": "Oftentimes, that's not the case.",
+  "zh": "但通常情况并非如此。"
+ },
+ {
+  "seg": 130,
+  "start": 431.045,
+  "end": 434.609,
+  "speaker": "Unknown",
+  "en": "It could be spread across many channels or a team channel with other conversation.",
+  "zh": "它可能分散在许多频道里，或者在一个还有其他对话的团队频道里。"
+ },
+ {
+  "seg": 131,
+  "start": 434.649,
+  "end": 437.952,
+  "speaker": "Unknown",
+  "en": "And I don't want this agent to get access to other content.",
+  "zh": "而我不想让这个智能体访问其他内容。"
+ },
+ {
+  "seg": 132,
+  "start": 438.032,
+  "end": 438.753,
+  "speaker": "Unknown",
+  "en": "How do I do this?",
+  "zh": "我怎么做这个？"
+ },
+ {
+  "seg": 133,
+  "start": 439.474,
+  "end": 443.198,
+  "speaker": "Unknown",
+  "en": "The upfront predefined tools typically aren't that fine scoped.",
+  "zh": "预先定义好的工具通常没有那么细的范围限定。"
+ },
+ {
+  "seg": 134,
+  "start": 443.738,
+  "end": 454.677,
+  "speaker": "Unknown",
+  "en": "Well, what the runtime should do is maybe create a just-in-time tool that composes over existing Slack MCP tools or anything else, but restricts access to just conversations about the incident.",
+  "zh": "那么，运行时应该做的是，也许创建一个即时生成的工具，组合在现有的 Slack MCP 工具或其他工具之上，但把访问限制在只关于该事件的对话。"
+ },
+ {
+  "seg": 135,
+  "start": 455.258,
+  "end": 457.201,
+  "speaker": "Unknown",
+  "en": "And that's what the agent gets access to.",
+  "zh": "这就是智能体获得的访问权限。"
+ },
+ {
+  "seg": 136,
+  "start": 458.008,
+  "end": 468.796,
+  "speaker": "Unknown",
+  "en": "We create a new, and instead of having a big sandbox that we keep adding capabilities to, take that part, run it in a scoped sandbox for that task with just the scoped capability it needs.",
+  "zh": "我们创建一个新的，与其拥有一个不断往里添加能力的大沙箱，不如把那一部分拿出来，在一个为该任务限定了范围的沙箱中运行，只带上它所需的限定范围的能力。"
+ },
+ {
+  "seg": 137,
+  "start": 469.677,
+  "end": 482.967,
+  "speaker": "Unknown",
+  "en": "This now starts to build the runtime and fabric for us where we can give agents fine scoped access, break down work into tasks cross-security boundaries, run those in contained sandboxes with just the access they need.",
+  "zh": "这就开始为我们构建运行时和底层结构，我们可以给智能体细粒度限定范围的访问，把工作拆解为跨安全边界的任务，并在只带所需访问权限的受控沙箱中运行它们。"
+ },
+ {
+  "seg": 138,
+  "start": 484.11,
+  "end": 487.211,
+  "speaker": "Unknown",
+  "en": "This feels much better, and now we're getting to a place where we can be safer.",
+  "zh": "这感觉好多了，现在我们正在走向一个能更安全的地方。"
+ },
+ {
+  "seg": 139,
+  "start": 487.651,
+  "end": 492.752,
+  "speaker": "Unknown",
+  "en": "But we're still not done, because the core fundamental challenge is what access should you get?",
+  "zh": "但我们还没有完成，因为核心的根本挑战是：你应该获得什么访问权限？"
+ },
+ {
+  "seg": 140,
+  "start": 493.512,
+  "end": 495.553,
+  "speaker": "Unknown",
+  "en": "If this is asking for Slack, is that correct?",
+  "zh": "如果它在请求 Slack，那是对的吗？"
+ },
+ {
+  "seg": 141,
+  "start": 496.373,
+  "end": 502.234,
+  "speaker": "Unknown",
+  "en": "If it's asking to read from the Slack channel or have right access to something, should that be allowed?",
+  "zh": "如果它请求从 Slack 频道读取，或者对某个东西有写权限，那应该被允许吗？"
+ },
+ {
+  "seg": 142,
+  "start": 502.414,
+  "end": 509.176,
+  "speaker": "Unknown",
+  "en": "How do you differentiate between what is correct, where it's making a mistake or being incorrectly eager, or where it's being prompted rejected?",
+  "zh": "你怎么区分什么是对的、什么是它在犯错或不当的急切，或者什么是它在被提示词注入攻击？"
+ },
+ {
+  "seg": 143,
+  "start": 509.736,
+  "end": 512.9,
+  "speaker": "Unknown",
+  "en": "This is where we have to, this is what intent-based access becomes.",
+  "zh": "这就是我们必须——这就是基于意图的访问所变成的东西。"
+ },
+ {
+  "seg": 144,
+  "start": 513.341,
+  "end": 523.695,
+  "speaker": "Unknown",
+  "en": "We need to understand the user's intent or the task intent, take the context in account, and then decide what access you get and how that should be run in which container environment.",
+  "zh": "我们需要理解用户的意图或任务的意图，把上下文纳入考量，然后决定你获得什么访问权限，以及它应该在哪个容器环境中运行。"
+ },
+ {
+  "seg": 145,
+  "start": 524.738,
+  "end": 530.381,
+  "speaker": "Unknown",
+  "en": "And so, that becomes the next big challenge for us to do, which is how do we safely evolve the capabilities the task gets.",
+  "zh": "所以，这成为了我们要做的下一个大挑战，也就是我们如何安全地演进任务所获得的能力。"
+ },
+ {
+  "seg": 146,
+  "start": 530.802,
+  "end": 532.443,
+  "speaker": "Unknown",
+  "en": "So, in this example, it makes sense.",
+  "zh": "在这个例子里，这是合理的。"
+ },
+ {
+  "seg": 147,
+  "start": 533.003,
+  "end": 536.865,
+  "speaker": "Unknown",
+  "en": "Okay, investigating this incident, you're asking for read access to Slack for that incident.",
+  "zh": "好的，正在调查这个事件，你在请求对该事件相关 Slack 的读取权限。"
+ },
+ {
+  "seg": 148,
+  "start": 537.205,
+  "end": 538.286,
+  "speaker": "Unknown",
+  "en": "That seems rational.",
+  "zh": "这看起来是理性的。"
+ },
+ {
+  "seg": 149,
+  "start": 538.346,
+  "end": 538.906,
+  "speaker": "Unknown",
+  "en": "Let's do that.",
+  "zh": "我们就这么做吧。"
+ },
+ {
+  "seg": 150,
+  "start": 539.587,
+  "end": 541.828,
+  "speaker": "Unknown",
+  "en": "All of a sudden, you would like email access.",
+  "zh": "突然之间，它想要邮箱访问权限。"
+ },
+ {
+  "seg": 151,
+  "start": 542.148,
+  "end": 542.428,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 152,
+  "start": 542.608,
+  "end": 544.65,
+  "speaker": "Unknown",
+  "en": "Nothing about the prompts that you should have that.",
+  "zh": "你给的提示词里没有任何东西表明它应该有这个权限。"
+ },
+ {
+  "seg": 153,
+  "start": 545.01,
+  "end": 548.272,
+  "speaker": "Unknown",
+  "en": "So, I'll deny that or I'll raise it up for human approval.",
+  "zh": "所以，我会拒绝它，或者把它提升给人工审批。"
+ },
+ {
+  "seg": 154,
+  "start": 548.832,
+  "end": 564.246,
+  "speaker": "Unknown",
+  "en": "But do this not just based on the Frontier Lab or the model that's running, but do this independent, running at like a control layer in the control sandbox layer in the core governance aspect, independent across all models and all harnesses.",
+  "zh": "而且这么做不只是基于 Frontier Lab 或正在运行的模型，而是独立地、作为一个控制层在控制沙箱层、在核心治理层面运行，独立于所有模型和所有 harness。"
+ },
+ {
+  "seg": 155,
+  "start": 565.627,
+  "end": 574.094,
+  "speaker": "Unknown",
+  "en": "This is sort of, this starts to get us to a world now where we can actually have a runtime layer and run agents safely.",
+  "zh": "这在某种程度上，让我们开始走向一个我们真正可以拥有运行时层并安全运行智能体的世界。"
+ },
+ {
+  "seg": 156,
+  "start": 575.087,
+  "end": 579.09,
+  "speaker": "Unknown",
+  "en": "in a contained manner with scoped access and not deal with the dynamic aspect of this.",
+  "zh": "以一种受控的方式、带有范围限定的访问权限来运行，而不必处理这方面的动态性问题。"
+ },
+ {
+  "seg": 157,
+  "start": 579.971,
+  "end": 581.332,
+  "speaker": "Unknown",
+  "en": "And to be clear, look, this is a hard problem.",
+  "zh": "而且要说清楚，看，这是一个很难的问题。"
+ },
+ {
+  "seg": 158,
+  "start": 581.352,
+  "end": 584.614,
+  "speaker": "Unknown",
+  "en": "It's not fully solved yet, but this is the world I think we have to move towards.",
+  "zh": "它还没有被完全解决，但这是我认为我们必须迈向的世界。"
+ },
+ {
+  "seg": 159,
+  "start": 585.395,
+  "end": 595.482,
+  "speaker": "Unknown",
+  "en": "But we're not done once we do this, because if you're building a runtime, not only does it have to provide the safety aspects we need, it also has to meet our functional aspects.",
+  "zh": "但做到这一点我们还没完，因为如果你在构建一个运行时，它不仅要提供我们所需的安全性，还必须满足我们的功能性需求。"
+ },
+ {
+  "seg": 160,
+  "start": 596.791,
+  "end": 598.152,
+  "speaker": "Unknown",
+  "en": "The runtime needs to follow the work.",
+  "zh": "运行时需要跟随工作走。"
+ },
+ {
+  "seg": 161,
+  "start": 598.372,
+  "end": 601.214,
+  "speaker": "Unknown",
+  "en": "This can't just be something that runs locally or only in the cloud.",
+  "zh": "它不能只是本地运行的东西，或者只在云端运行的东西。"
+ },
+ {
+  "seg": 162,
+  "start": 601.594,
+  "end": 605.336,
+  "speaker": "Unknown",
+  "en": "It needs to go wherever we work, wherever agents work, and that's going to be everywhere.",
+  "zh": "它需要去往我们工作的任何地方、智能体工作的任何地方，而那将是无处不在的。"
+ },
+ {
+  "seg": 163,
+  "start": 605.876,
+  "end": 606.717,
+  "speaker": "Unknown",
+  "en": "We'll work locally.",
+  "zh": "我们会在本地工作。"
+ },
+ {
+  "seg": 164,
+  "start": 607.237,
+  "end": 608.498,
+  "speaker": "Unknown",
+  "en": "We'll have the agents running the cloud.",
+  "zh": "我们会让智能体在云端运行。"
+ },
+ {
+  "seg": 165,
+  "start": 608.658,
+  "end": 610.359,
+  "speaker": "Unknown",
+  "en": "We'll do orchestration across clouds.",
+  "zh": "我们会做跨云的编排。"
+ },
+ {
+  "seg": 166,
+  "start": 610.759,
+  "end": 613.761,
+  "speaker": "Unknown",
+  "en": "We'll run them in our own VPC or in the customer's VPC as need be.",
+  "zh": "我们会根据需要在他们自己的 VPC 或客户的 VPC 中运行他们。"
+ },
+ {
+  "seg": 167,
+  "start": 614.241,
+  "end": 619.364,
+  "speaker": "Unknown",
+  "en": "The runtime has to be omnipresent and be able to move across all these environments.",
+  "zh": "运行时必须无处不在，并能够跨所有这些环境移动。"
+ },
+ {
+  "seg": 168,
+  "start": 619.524,
+  "end": 625.067,
+  "speaker": "Unknown",
+  "en": "And ideally, it should be connected by fabric, and so you can move agents up and down as you need to do.",
+  "zh": "理想情况下，它应该由一个 fabric 连接起来，这样你就可以根据需要上下移动智能体。"
+ },
+ {
+  "seg": 169,
+  "start": 628.932,
+  "end": 630.974,
+  "speaker": "Unknown",
+  "en": "Docker spend the last everyone knows Docker.",
+  "zh": "Docker 花了最后的……大家都知道 Docker。"
+ },
+ {
+  "seg": 170,
+  "start": 630.994,
+  "end": 632.936,
+  "speaker": "Unknown",
+  "en": "I'm going to assume everyone knows Docker has used Docker.",
+  "zh": "我假设大家都知道 Docker,用过 Docker。"
+ },
+ {
+  "seg": 171,
+  "start": 633.436,
+  "end": 634.517,
+  "speaker": "Unknown",
+  "en": "And you know some containers.",
+  "zh": "也知道一些容器。"
+ },
+ {
+  "seg": 172,
+  "start": 635.298,
+  "end": 637.58,
+  "speaker": "Unknown",
+  "en": "And what Docker solved the last decade is portability.",
+  "zh": "Docker 在过去十年解决的是可移植性。"
+ },
+ {
+  "seg": 173,
+  "start": 638.14,
+  "end": 640.463,
+  "speaker": "Unknown",
+  "en": "How do you get software from your laptop to the cloud?",
+  "zh": "怎么把软件从你的笔记本搬到云端？"
+ },
+ {
+  "seg": 174,
+  "start": 641.303,
+  "end": 646.868,
+  "speaker": "Unknown",
+  "en": "We're taking all of that experience and building a runtime and evolving that to now solve for safety.",
+  "zh": "我们正在把所有这些经验拿来构建一个运行时，并把它演进到如今去解决安全性问题。"
+ },
+ {
+  "seg": 175,
+  "start": 647.008,
+  "end": 649.03,
+  "speaker": "Unknown",
+  "en": "You still need portability, but you need safety.",
+  "zh": "你仍然需要可移植性，但你还需要安全性。"
+ },
+ {
+  "seg": 176,
+  "start": 649.17,
+  "end": 651.292,
+  "speaker": "Unknown",
+  "en": "And you need this runtime to run across all environments.",
+  "zh": "而且你需要这个运行时能跨所有环境运行。"
+ },
+ {
+  "seg": 177,
+  "start": 652.533,
+  "end": 653.534,
+  "speaker": "Unknown",
+  "en": "That's what we're focused on now.",
+  "zh": "这就是我们现在专注的方向。"
+ },
+ {
+  "seg": 178,
+  "start": 653.674,
+  "end": 663.58,
+  "speaker": "Unknown",
+  "en": "This is a new, it starts with a brand new VM technology, and on top of that, a bunch of advancements on MCP and policy and safety and governance.",
+  "zh": "这是一个全新的，它始于一项全新的 VM 技术，在此之上，还有一系列关于 MCP、策略、安全性和治理的进展。"
+ },
+ {
+  "seg": 179,
+  "start": 664.12,
+  "end": 665.741,
+  "speaker": "Unknown",
+  "en": "So, I'm going to show you a quick demo.",
+  "zh": "那么，我要给大家看一个快速的演示。"
+ },
+ {
+  "seg": 180,
+  "start": 667.062,
+  "end": 668.443,
+  "speaker": "Unknown",
+  "en": "Let's see if I can get this done in time.",
+  "zh": "看看我能不能在时间内搞定。"
+ },
+ {
+  "seg": 181,
+  "start": 669.203,
+  "end": 674.266,
+  "speaker": "Unknown",
+  "en": "Also, you'll have to bear with me for a minute while I figure out how to do this here.",
+  "zh": "另外，我得花一分钟摸索一下怎么在这里操作，请大家忍耐一下。"
+ },
+ {
+  "seg": 182,
+  "start": 675.387,
+  "end": 675.887,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "让我看看。"
+ },
+ {
+  "seg": 183,
+  "start": 681.361,
+  "end": 682.522,
+  "speaker": "Unknown",
+  "en": "I had this figured out.",
+  "zh": "我之前是搞定了的。"
+ },
+ {
+  "seg": 184,
+  "start": 686.986,
+  "end": 687.627,
+  "speaker": "Unknown",
+  "en": "Let's just do that.",
+  "zh": "我们就这么干吧。"
+ },
+ {
+  "seg": 185,
+  "start": 687.647,
+  "end": 693.452,
+  "speaker": "Unknown",
+  "en": "Do you guys see that?",
+  "zh": "你们能看到吗？"
+ },
+ {
+  "seg": 186,
+  "start": 693.732,
+  "end": 693.973,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 187,
+  "start": 694.673,
+  "end": 695.013,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 188,
+  "start": 695.234,
+  "end": 698.477,
+  "speaker": "Unknown",
+  "en": "So, is that visible?",
+  "zh": "那么，那个可见吗？"
+ },
+ {
+  "seg": 189,
+  "start": 700.238,
+  "end": 700.659,
+  "speaker": "Unknown",
+  "en": "You'll see that?",
+  "zh": "你们能看到吗？"
+ },
+ {
+  "seg": 190,
+  "start": 700.699,
+  "end": 700.799,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 191,
+  "start": 700.819,
+  "end": 701.459,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 192,
+  "start": 701.72,
+  "end": 702.74,
+  "speaker": "Unknown",
+  "en": "I'm going to type over here.",
+  "zh": "我要在这边打字。"
+ },
+ {
+  "seg": 193,
+  "start": 702.821,
+  "end": 703.661,
+  "speaker": "Unknown",
+  "en": "We'll see if this works.",
+  "zh": "我们看看这能不能行。"
+ },
+ {
+  "seg": 194,
+  "start": 704.142,
+  "end": 704.922,
+  "speaker": "Unknown",
+  "en": "So, oops.",
+  "zh": "那么，哎呀。"
+ },
+ {
+  "seg": 195,
+  "start": 705.843,
+  "end": 706.424,
+  "speaker": "Unknown",
+  "en": "Give me a minute.",
+  "zh": "给我一点时间。"
+ },
+ {
+  "seg": 196,
+  "start": 709.662,
+  "end": 710.923,
+  "speaker": "Unknown",
+  "en": "Let's start really basic.",
+  "zh": "我们从非常基础的开始。"
+ },
+ {
+  "seg": 197,
+  "start": 712.023,
+  "end": 713.865,
+  "speaker": "Unknown",
+  "en": "Oh, my God.",
+  "zh": "哦，天哪。"
+ },
+ {
+  "seg": 198,
+  "start": 715.005,
+  "end": 716.086,
+  "speaker": "Unknown",
+  "en": "And I am there.",
+  "zh": "我进来了。"
+ },
+ {
+  "seg": 199,
+  "start": 717.647,
+  "end": 718.447,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 200,
+  "start": 718.707,
+  "end": 719.748,
+  "speaker": "Unknown",
+  "en": "Just to orient you all.",
+  "zh": "只是为了让大家了解一下情况。"
+ },
+ {
+  "seg": 201,
+  "start": 719.808,
+  "end": 721.349,
+  "speaker": "Unknown",
+  "en": "So, you've got a new tool called SPX.",
+  "zh": "所以，你们有一个叫 SPX 的新工具。"
+ },
+ {
+  "seg": 202,
+  "start": 721.669,
+  "end": 722.63,
+  "speaker": "Unknown",
+  "en": "One guess what it stands for.",
+  "zh": "猜一次它代表什么。"
+ },
+ {
+  "seg": 203,
+  "start": 723.09,
+  "end": 728.714,
+  "speaker": "Unknown",
+  "en": "This runs with a new MicroVM that runs across all environments, Windows, Mac, Linux, Cloud, everywhere.",
+  "zh": "这个运行在一个新的 MicroVM 上，可以跨所有环境运行，Windows、Mac、Linux、云端，无处不在。"
+ },
+ {
+  "seg": 204,
+  "start": 729.514,
+  "end": 730.955,
+  "speaker": "Unknown",
+  "en": "Let's start simple, just so you can see us.",
+  "zh": "让我们从简单的开始，这样你们就能看到我们。"
+ },
+ {
+  "seg": 205,
+  "start": 731.115,
+  "end": 733.316,
+  "speaker": "Unknown",
+  "en": "Let's say I just do something like, let's give this a name.",
+  "zh": "假设我就做一些类似的事情，我们给它起个名字。"
+ },
+ {
+  "seg": 206,
+  "start": 733.336,
+  "end": 734.737,
+  "speaker": "Unknown",
+  "en": "I'm going to create something.",
+  "zh": "我要创建一个东西。"
+ },
+ {
+  "seg": 207,
+  "start": 734.817,
+  "end": 735.758,
+  "speaker": "Unknown",
+  "en": "I'm going to say Codex.",
+  "zh": "我要说 Codex。"
+ },
+ {
+  "seg": 208,
+  "start": 737.41,
+  "end": 739.97,
+  "speaker": "Unknown",
+  "en": "Test1, Codex.",
+  "zh": "Test1，Codex。"
+ },
+ {
+  "seg": 209,
+  "start": 740.371,
+  "end": 740.591,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 210,
+  "start": 740.951,
+  "end": 751.593,
+  "speaker": "Unknown",
+  "en": "Just like that, this is going to go spin up Codex for me in a sandbox that's running with my credentials injected in and with the network controls injected there.",
+  "zh": "就这样，它会为我在一个沙箱里启动 Codex，沙箱注入了我的凭证，并且注入了网络控制。"
+ },
+ {
+  "seg": 211,
+  "start": 751.653,
+  "end": 764.355,
+  "speaker": "Unknown",
+  "en": "So, just as a test, I can do tell me a joke, and you can see this works, and hopefully it tells me something funny, and I can also say, what credentials do you have?",
+  "zh": "所以，只是作为测试，我可以输入讲个笑话，你们可以看到这有效，希望它能告诉我一些有趣的东西，我还可以问，你有哪些凭证？"
+ },
+ {
+  "seg": 212,
+  "start": 765.487,
+  "end": 769.746,
+  "speaker": "Unknown",
+  "en": "Access to, and are they real or stubs?",
+  "zh": "访问权限，它们是真实的还是存根？"
+ },
+ {
+  "seg": 213,
+  "start": 772.696,
+  "end": 775.358,
+  "speaker": "Unknown",
+  "en": "GitHub and Codex, Creds.",
+  "zh": "GitHub 和 Codex，凭证。"
+ },
+ {
+  "seg": 214,
+  "start": 775.578,
+  "end": 777.859,
+  "speaker": "Unknown",
+  "en": "Ignore my typos.",
+  "zh": "忽略我的拼写错误。"
+ },
+ {
+  "seg": 215,
+  "start": 778.039,
+  "end": 782.342,
+  "speaker": "Unknown",
+  "en": "I'll wait a minute for that to run, but just to describe this, the base environment here is got a sandbox running.",
+  "zh": "我会等一分钟让它运行，但先描述一下，这里的基础环境已经有一个沙箱在运行。"
+ },
+ {
+  "seg": 216,
+  "start": 782.422,
+  "end": 783.683,
+  "speaker": "Unknown",
+  "en": "This looks like a normal agent.",
+  "zh": "这看起来像一个普通的智能体。"
+ },
+ {
+  "seg": 217,
+  "start": 783.703,
+  "end": 788.105,
+  "speaker": "Unknown",
+  "en": "You get the DX you're used to, but this is running in a safe environment now for you.",
+  "zh": "你能得到你熟悉的 DX，但它现在在一个为你准备的安全环境中运行。"
+ },
+ {
+  "seg": 218,
+  "start": 788.546,
+  "end": 789.506,
+  "speaker": "Unknown",
+  "en": "No credentials are there.",
+  "zh": "没有凭证在那里。"
+ },
+ {
+  "seg": 219,
+  "start": 790.027,
+  "end": 790.927,
+  "speaker": "Unknown",
+  "en": "They're all injected in.",
+  "zh": "它们都是被注入进去的。"
+ },
+ {
+  "seg": 220,
+  "start": 791.267,
+  "end": 794.189,
+  "speaker": "Unknown",
+  "en": "Network policy is controlled, and you'll see later you can control MCP.",
+  "zh": "网络策略是受控的，稍后你们会看到你可以控制 MCP。"
+ },
+ {
+  "seg": 221,
+  "start": 794.229,
+  "end": 795.37,
+  "speaker": "Unknown",
+  "en": "You can control a lot more here.",
+  "zh": "你在这里可以控制更多东西。"
+ },
+ {
+  "seg": 222,
+  "start": 795.99,
+  "end": 796.23,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 223,
+  "start": 796.571,
+  "end": 799.433,
+  "speaker": "Unknown",
+  "en": "I'm just going to ask you to believe me so we can save some time.",
+  "zh": "我只是要请你们相信我，这样我们可以节省一些时间。"
+ },
+ {
+  "seg": 224,
+  "start": 799.513,
+  "end": 804.196,
+  "speaker": "Unknown",
+  "en": "This will come back and say all the credits are there, but they're all stubs, and they're all just being injected in.",
+  "zh": "这会回来说所有的凭证都在那里，但它们都是存根，它们都只是被注入进去的。"
+ },
+ {
+  "seg": 225,
+  "start": 805.137,
+  "end": 806.959,
+  "speaker": "Unknown",
+  "en": "This takes some time, so I'm going to escape out for this.",
+  "zh": "这需要一些时间，所以我打算退出这个。"
+ },
+ {
+  "seg": 226,
+  "start": 807.619,
+  "end": 807.859,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 227,
+  "start": 807.919,
+  "end": 810.281,
+  "speaker": "Unknown",
+  "en": "So now let's work through use case.",
+  "zh": "那么现在让我们过一遍用例。"
+ },
+ {
+  "seg": 228,
+  "start": 810.341,
+  "end": 814.985,
+  "speaker": "Unknown",
+  "en": "Let's say I want to review a PR, and I want to write that summary into a Notion page.",
+  "zh": "假设我想审查一个 PR，并且我想把那个总结写进一个 Notion 页面。"
+ },
+ {
+  "seg": 229,
+  "start": 815.565,
+  "end": 816.785,
+  "speaker": "Unknown",
+  "en": "Well, I can break this down.",
+  "zh": "嗯，我可以把这个分解开。"
+ },
+ {
+  "seg": 230,
+  "start": 816.905,
+  "end": 820.887,
+  "speaker": "Unknown",
+  "en": "I don't need a single monolithic sandbox where I give it both credentials.",
+  "zh": "我不需要一个单一的整体式沙箱，在那里我给它两份凭证。"
+ },
+ {
+  "seg": 231,
+  "start": 820.947,
+  "end": 823.067,
+  "speaker": "Unknown",
+  "en": "I can have one task with the PR, write it down.",
+  "zh": "我可以有一个带 PR 的任务，把它写下来。"
+ },
+ {
+  "seg": 232,
+  "start": 823.487,
+  "end": 829.009,
+  "speaker": "Unknown",
+  "en": "I can have a separate sandbox with just Notion access nor the network access to take that and write it up.",
+  "zh": "我可以有一个只有 Notion 访问权限和相应网络访问权限的独立沙箱，来接手这个并把它写上去。"
+ },
+ {
+  "seg": 233,
+  "start": 829.389,
+  "end": 830.589,
+  "speaker": "Unknown",
+  "en": "This could be a good way to break it down.",
+  "zh": "这可能是一个很好的分解方式。"
+ },
+ {
+  "seg": 234,
+  "start": 830.609,
+  "end": 832.83,
+  "speaker": "Unknown",
+  "en": "So, let's just do that manually so we get a feel for it.",
+  "zh": "所以，让我们手动做一遍，这样我们能有个感觉。"
+ },
+ {
+  "seg": 235,
+  "start": 835.551,
+  "end": 840.272,
+  "speaker": "Unknown",
+  "en": "So, I'm going to just pull this over.",
+  "zh": "所以，我打算把这个拖过来。"
+ },
+ {
+  "seg": 236,
+  "start": 843.183,
+  "end": 845.965,
+  "speaker": "Unknown",
+  "en": "So I'm going to create a sandbox here.",
+  "zh": "所以我要在这里创建一个沙箱。"
+ },
+ {
+  "seg": 237,
+  "start": 845.985,
+  "end": 846.646,
+  "speaker": "Unknown",
+  "en": "I'll give it a name.",
+  "zh": "我会给它起个名字。"
+ },
+ {
+  "seg": 238,
+  "start": 847.026,
+  "end": 850.83,
+  "speaker": "Unknown",
+  "en": "I've got a skill that tells it how to do the PR.",
+  "zh": "我有一个技能，告诉它怎么做这个 PR。"
+ },
+ {
+  "seg": 239,
+  "start": 851.35,
+  "end": 852.151,
+  "speaker": "Unknown",
+  "en": "And go ahead and do that.",
+  "zh": "然后继续做吧。"
+ },
+ {
+  "seg": 240,
+  "start": 852.791,
+  "end": 853.772,
+  "speaker": "Unknown",
+  "en": "And while that's going,",
+  "zh": "趁它在运行的时候，"
+ },
+ {
+  "seg": 241,
+  "start": 858.843,
+  "end": 859.664,
+  "speaker": "Unknown",
+  "en": "So, that's created.",
+  "zh": "所以，它已经创建好了。"
+ },
+ {
+  "seg": 242,
+  "start": 861.245,
+  "end": 864.168,
+  "speaker": "Unknown",
+  "en": "Just to get a sense, we can look at the policies here.",
+  "zh": "为了让大家有个概念，我们可以看看这里的策略。"
+ },
+ {
+  "seg": 243,
+  "start": 865.589,
+  "end": 870.834,
+  "speaker": "Unknown",
+  "en": "That was my PR bot, and as you can see, it's got access to GitHub and Anthropic, and that's it.",
+  "zh": "那是我的 PR 机器人，正如你们所见，它有 GitHub 和 Anthropic 的访问权限，仅此而已。"
+ },
+ {
+  "seg": 244,
+  "start": 871.215,
+  "end": 871.695,
+  "speaker": "Unknown",
+  "en": "Nothing else.",
+  "zh": "没有别的了。"
+ },
+ {
+  "seg": 245,
+  "start": 872.056,
+  "end": 874.918,
+  "speaker": "Unknown",
+  "en": "I can't go anywhere else now.",
+  "zh": "我现在不能去任何其他地方。"
+ },
+ {
+  "seg": 246,
+  "start": 876.019,
+  "end": 878.762,
+  "speaker": "Unknown",
+  "en": "And actually, just to make sure, I'm going to give it some more access.",
+  "zh": "而实际上，为了确保无误，我要再给它一些访问权限。"
+ },
+ {
+  "seg": 247,
+  "start": 878.782,
+  "end": 879.463,
+  "speaker": "Unknown",
+  "en": "I already gave it that.",
+  "zh": "我已经给了它那个。"
+ },
+ {
+  "seg": 248,
+  "start": 879.523,
+  "end": 879.743,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 249,
+  "start": 880.123,
+  "end": 880.744,
+  "speaker": "Unknown",
+  "en": "So, let's just run it.",
+  "zh": "那么，我们就运行它吧。"
+ },
+ {
+  "seg": 250,
+  "start": 888.638,
+  "end": 888.838,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 251,
+  "start": 888.918,
+  "end": 889.459,
+  "speaker": "Unknown",
+  "en": "This will run.",
+  "zh": "这个会运行。"
+ },
+ {
+  "seg": 252,
+  "start": 889.499,
+  "end": 891.44,
+  "speaker": "Unknown",
+  "en": "And now I can tell it, go research this PR.",
+  "zh": "现在我可以告诉它，去研究这个 PR。"
+ },
+ {
+  "seg": 253,
+  "start": 891.541,
+  "end": 893.442,
+  "speaker": "Unknown",
+  "en": "And I'll go off and do the work and write a summary.",
+  "zh": "然后它就会去做工作并写一份总结。"
+ },
+ {
+  "seg": 254,
+  "start": 893.923,
+  "end": 894.143,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 255,
+  "start": 894.163,
+  "end": 896.285,
+  "speaker": "Unknown",
+  "en": "Just to save us time, I'd already done this.",
+  "zh": "为了节省时间，我已经做过了。"
+ },
+ {
+  "seg": 256,
+  "start": 897.566,
+  "end": 898.767,
+  "speaker": "Unknown",
+  "en": "So now imagine this ran.",
+  "zh": "所以现在假设这个已经运行了。"
+ },
+ {
+  "seg": 257,
+  "start": 902.532,
+  "end": 906.155,
+  "speaker": "Unknown",
+  "en": "I can create another one here where I'll say this time I'm going to use Codex.",
+  "zh": "我可以在这里再创建一个，这次我要用 Codex。"
+ },
+ {
+  "seg": 258,
+  "start": 906.776,
+  "end": 909.058,
+  "speaker": "Unknown",
+  "en": "And if you look here, I'm creating another sandbox.",
+  "zh": "如果你在这里看，我正在创建另一个沙箱。"
+ },
+ {
+  "seg": 259,
+  "start": 909.678,
+  "end": 913.321,
+  "speaker": "Unknown",
+  "en": "I'm giving this access to the Notion MCP.",
+  "zh": "我给了它 Notion MCP 的访问权限。"
+ },
+ {
+  "seg": 260,
+  "start": 913.721,
+  "end": 918.125,
+  "speaker": "Unknown",
+  "en": "So, this is not an example of me containing it and giving scoped access just to what it needs.",
+  "zh": "所以，这不是我把它限制住、只给它所需范围访问权限的例子。"
+ },
+ {
+  "seg": 261,
+  "start": 918.826,
+  "end": 920.407,
+  "speaker": "Unknown",
+  "en": "And this is not going to get access.",
+  "zh": "而且这个不会获得访问权限。"
+ },
+ {
+  "seg": 262,
+  "start": 921.288,
+  "end": 923.69,
+  "speaker": "Unknown",
+  "en": "I already created this one, so assume I already created it.",
+  "zh": "我已经创建了这个，所以假设我已经创建了。"
+ },
+ {
+  "seg": 263,
+  "start": 924.891,
+  "end": 925.872,
+  "speaker": "Unknown",
+  "en": "And this one",
+  "zh": "而这一个"
+ },
+ {
+  "seg": 264,
+  "start": 927.693,
+  "end": 930.175,
+  "speaker": "Unknown",
+  "en": "Gets access to just those things.",
+  "zh": "只获得那些东西的访问权限。"
+ },
+ {
+  "seg": 265,
+  "start": 930.195,
+  "end": 932.016,
+  "speaker": "Unknown",
+  "en": "Does not have access to GitHub anymore over here.",
+  "zh": "它在这边不再有 GitHub 的访问权限了。"
+ },
+ {
+  "seg": 266,
+  "start": 932.576,
+  "end": 933.637,
+  "speaker": "Unknown",
+  "en": "And now I can run this.",
+  "zh": "现在我可以运行这个。"
+ },
+ {
+  "seg": 267,
+  "start": 934.457,
+  "end": 935.678,
+  "speaker": "Unknown",
+  "en": "And there I am.",
+  "zh": "我在这里。"
+ },
+ {
+  "seg": 268,
+  "start": 935.718,
+  "end": 936.919,
+  "speaker": "Unknown",
+  "en": "And I can tell it, go do work.",
+  "zh": "我可以告诉它，去干活。"
+ },
+ {
+  "seg": 269,
+  "start": 939.66,
+  "end": 944.803,
+  "speaker": "Unknown",
+  "en": "So hopefully, the idea you're getting is we get these sandboxes that can be composed and scoped down to the access they need.",
+  "zh": "所以希望你们得到的理解是，我们可以获得这些沙箱，它们可以被组合并缩减到所需访问权限的范围。"
+ },
+ {
+  "seg": 270,
+  "start": 945.003,
+  "end": 945.284,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 271,
+  "start": 946.104,
+  "end": 946.844,
+  "speaker": "Unknown",
+  "en": "This is going to run.",
+  "zh": "这个会运行。"
+ },
+ {
+  "seg": 272,
+  "start": 946.925,
+  "end": 947.625,
+  "speaker": "Unknown",
+  "en": "It'll do the right thing.",
+  "zh": "它会做正确的事。"
+ },
+ {
+  "seg": 273,
+  "start": 947.665,
+  "end": 949.246,
+  "speaker": "Unknown",
+  "en": "It'll find the MCP tool and do all that.",
+  "zh": "它会找到 MCP 工具并完成所有这些。"
+ },
+ {
+  "seg": 274,
+  "start": 949.286,
+  "end": 950.126,
+  "speaker": "Unknown",
+  "en": "We'll save time there.",
+  "zh": "我们在那里节省时间。"
+ },
+ {
+  "seg": 275,
+  "start": 950.146,
+  "end": 951.507,
+  "speaker": "Unknown",
+  "en": "Just trust me.",
+  "zh": "相信我就好。"
+ },
+ {
+  "seg": 276,
+  "start": 951.547,
+  "end": 951.787,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 277,
+  "start": 952.528,
+  "end": 953.929,
+  "speaker": "Unknown",
+  "en": "So great.",
+  "zh": "那么很好。"
+ },
+ {
+  "seg": 278,
+  "start": 954.129,
+  "end": 955.77,
+  "speaker": "Unknown",
+  "en": "Let's escape that, too, while that's running.",
+  "zh": "在它运行的时候，我们也退出这个吧。"
+ },
+ {
+  "seg": 279,
+  "start": 957.244,
+  "end": 958.404,
+  "speaker": "Unknown",
+  "en": "OK, so this is great.",
+  "zh": "好，这很棒。"
+ },
+ {
+  "seg": 280,
+  "start": 958.544,
+  "end": 959.285,
+  "speaker": "Unknown",
+  "en": "I've got this now.",
+  "zh": "我现在有了这个。"
+ },
+ {
+  "seg": 281,
+  "start": 959.525,
+  "end": 964.926,
+  "speaker": "Unknown",
+  "en": "But you know what would be great is I had created this thing.",
+  "zh": "但你知道什么会很棒吗？我创建了这个东西。"
+ },
+ {
+  "seg": 282,
+  "start": 965.206,
+  "end": 967.227,
+  "speaker": "Unknown",
+  "en": "Well, can I just put this in the cloud?",
+  "zh": "嗯，我能直接把它放到云上吗？"
+ },
+ {
+  "seg": 283,
+  "start": 968.287,
+  "end": 968.847,
+  "speaker": "Unknown",
+  "en": "Let's find out.",
+  "zh": "我们来看看。"
+ },
+ {
+  "seg": 284,
+  "start": 968.947,
+  "end": 971.068,
+  "speaker": "Unknown",
+  "en": "That'd be nice if my runtime just extends.",
+  "zh": "如果我的运行时直接能扩展过去就太好了。"
+ },
+ {
+  "seg": 285,
+  "start": 972.348,
+  "end": 972.888,
+  "speaker": "Unknown",
+  "en": "Like, sure.",
+  "zh": "就像，行。"
+ },
+ {
+  "seg": 286,
+  "start": 972.908,
+  "end": 978.469,
+  "speaker": "Unknown",
+  "en": "I already created that, so give me, I'm just going to give it a different name.",
+  "zh": "我已经创建过那个了，所以给我……我只是给它换个名字。"
+ },
+ {
+  "seg": 287,
+  "start": 979.83,
+  "end": 982.29,
+  "speaker": "Unknown",
+  "en": "Just there.",
+  "zh": "就在那里。"
+ },
+ {
+  "seg": 288,
+  "start": 987.268,
+  "end": 988.189,
+  "speaker": "Unknown",
+  "en": "So, cool.",
+  "zh": "所以，很酷。"
+ },
+ {
+  "seg": 289,
+  "start": 988.309,
+  "end": 988.77,
+  "speaker": "Unknown",
+  "en": "That ran.",
+  "zh": "运行了。"
+ },
+ {
+  "seg": 290,
+  "start": 989.01,
+  "end": 990.071,
+  "speaker": "Unknown",
+  "en": "And can I just go in there?",
+  "zh": "那我能直接进去吗？"
+ },
+ {
+  "seg": 291,
+  "start": 997.599,
+  "end": 998.339,
+  "speaker": "Unknown",
+  "en": "What did I do?",
+  "zh": "我做了什么来着？"
+ },
+ {
+  "seg": 292,
+  "start": 1001.102,
+  "end": 1003.805,
+  "speaker": "Unknown",
+  "en": "Dash, dash, cloud.",
+  "zh": "Dash, dash, cloud。"
+ },
+ {
+  "seg": 293,
+  "start": 1003.825,
+  "end": 1004.506,
+  "speaker": "Unknown",
+  "en": "And great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 294,
+  "start": 1005.307,
+  "end": 1006.388,
+  "speaker": "Unknown",
+  "en": "Are you running?",
+  "zh": "你在运行吗？"
+ },
+ {
+  "seg": 295,
+  "start": 1008.385,
+  "end": 1010.827,
+  "speaker": "Unknown",
+  "en": "On the cloud or on a Mac?",
+  "zh": "是在云上还是在 Mac 上？"
+ },
+ {
+  "seg": 296,
+  "start": 1011.567,
+  "end": 1013.548,
+  "speaker": "Unknown",
+  "en": "This might take a while for it to debug, it all come down.",
+  "zh": "它调试起来、全部加载下来可能需要一段时间。"
+ },
+ {
+  "seg": 297,
+  "start": 1013.608,
+  "end": 1024.535,
+  "speaker": "Unknown",
+  "en": "But this now feels the same, but the exact same sandbox just runs in the cloud because the runtime is portable and goes there with the policies applied, with all your controls applied.",
+  "zh": "但现在感觉是一样的，完全相同的沙箱直接在云上运行，因为运行时是可移植的，会跟着过去，策略照常生效，你所有的控制照常生效。"
+ },
+ {
+  "seg": 298,
+  "start": 1024.555,
+  "end": 1028.518,
+  "speaker": "Unknown",
+  "en": "So, the same policy plane, same control continues with you and extends.",
+  "zh": "所以，同样的策略平面、同样的控制会跟着你并扩展过去。"
+ },
+ {
+  "seg": 299,
+  "start": 1029.418,
+  "end": 1031.78,
+  "speaker": "Unknown",
+  "en": "All right, I'm going to let this be great to figure it out.",
+  "zh": "好的，我就让它跑着，它会搞定一切的。"
+ },
+ {
+  "seg": 300,
+  "start": 1031.8,
+  "end": 1032.78,
+  "speaker": "Unknown",
+  "en": "It's running in the cloud.",
+  "zh": "它在云端运行。"
+ },
+ {
+  "seg": 301,
+  "start": 1033.881,
+  "end": 1036.963,
+  "speaker": "Unknown",
+  "en": "If I have the cloud, well, it'd be nice if I could",
+  "zh": "如果我有了云，那么，要是能"
+ },
+ {
+  "seg": 302,
+  "start": 1039.143,
+  "end": 1039.904,
+  "speaker": "Unknown",
+  "en": "Do a lot of work with it.",
+  "zh": "用它做大量的工作就好了。"
+ },
+ {
+  "seg": 303,
+  "start": 1039.924,
+  "end": 1040.544,
+  "speaker": "Unknown",
+  "en": "Can I fan out?",
+  "zh": "我能并行展开吗？"
+ },
+ {
+  "seg": 304,
+  "start": 1041.005,
+  "end": 1051.394,
+  "speaker": "Unknown",
+  "en": "So a little script that goes, tries to review six PRs, creates, it's going to clean up, I found this right before this, creates six sandboxes and runs them all in parallel.",
+  "zh": "所以这是一个小脚本，它去尝试审查六个 PR，创建——它会清理——我刚好在这之前发现了这个——创建六个沙箱并行运行它们。"
+ },
+ {
+  "seg": 305,
+  "start": 1051.914,
+  "end": 1062.543,
+  "speaker": "Unknown",
+  "en": "So this is the power where you get the same experience you have locally in the cloud with the same secure runtime and the same policy and scoped access running.",
+  "zh": "所以这就是它的威力：你在云端获得与本地相同的体验，使用相同的安全运行时、相同的策略和受限访问权限在运行。"
+ },
+ {
+  "seg": 306,
+  "start": 1062.723,
+  "end": 1065.226,
+  "speaker": "Unknown",
+  "en": "So this is going to run all six running in parallel.",
+  "zh": "所以这会把全部六个并行运行。"
+ },
+ {
+  "seg": 307,
+  "start": 1065.666,
+  "end": 1066.207,
+  "speaker": "Unknown",
+  "en": "This is great.",
+  "zh": "这很棒。"
+ },
+ {
+  "seg": 308,
+  "start": 1067.127,
+  "end": 1069.429,
+  "speaker": "Unknown",
+  "en": "I'm going to save us time and come out of that.",
+  "zh": "我要为我们节省点时间，从那里退出来。"
+ },
+ {
+  "seg": 309,
+  "start": 1071.01,
+  "end": 1071.731,
+  "speaker": "Unknown",
+  "en": "Assume they all run.",
+  "zh": "假设它们都运行了。"
+ },
+ {
+  "seg": 310,
+  "start": 1072.872,
+  "end": 1074.513,
+  "speaker": "Unknown",
+  "en": "Let me skip.",
+  "zh": "让我跳过。"
+ },
+ {
+  "seg": 311,
+  "start": 1074.593,
+  "end": 1076.074,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 312,
+  "start": 1077.915,
+  "end": 1081.718,
+  "speaker": "Unknown",
+  "en": "Well, if I have... Let that be for a minute.",
+  "zh": "好吧，如果我有了……让它先跑一会儿。"
+ },
+ {
+  "seg": 313,
+  "start": 1084.18,
+  "end": 1085.561,
+  "speaker": "Unknown",
+  "en": "While that's running.",
+  "zh": "在它运行的同时。"
+ },
+ {
+  "seg": 314,
+  "start": 1086.041,
+  "end": 1091.525,
+  "speaker": "Unknown",
+  "en": "If I can do cloud, well, it'd be really nice if I can orchestrate.",
+  "zh": "如果我能用云，那么，要是能编排就真的太好了。"
+ },
+ {
+  "seg": 315,
+  "start": 1092.046,
+  "end": 1092.986,
+  "speaker": "Unknown",
+  "en": "Let's see if I can do that.",
+  "zh": "让我们看看我能不能做到。"
+ },
+ {
+  "seg": 316,
+  "start": 1093.967,
+  "end": 1095.368,
+  "speaker": "Unknown",
+  "en": "Oh, that's my slight talk.",
+  "zh": "哦，那是我的小演讲。"
+ },
+ {
+  "seg": 317,
+  "start": 1095.508,
+  "end": 1096.049,
+  "speaker": "Unknown",
+  "en": "Excuse me.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 318,
+  "start": 1098.65,
+  "end": 1098.87,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 319,
+  "start": 1100.852,
+  "end": 1103.113,
+  "speaker": "Unknown",
+  "en": "So what if I can now do actual orchestration?",
+  "zh": "那么，如果我现在能做真正的编排呢？"
+ },
+ {
+  "seg": 320,
+  "start": 1103.574,
+  "end": 1107.197,
+  "speaker": "Unknown",
+  "en": "So this is an orchestration tool we have.",
+  "zh": "这是我们的一个编排工具。"
+ },
+ {
+  "seg": 321,
+  "start": 1107.217,
+  "end": 1110.319,
+  "speaker": "Unknown",
+  "en": "We see the same bots here, the Notion one and PR one.",
+  "zh": "我们在这里看到同样的机器人，Notion 那个和 PR 那个。"
+ },
+ {
+  "seg": 322,
+  "start": 1111.22,
+  "end": 1113.461,
+  "speaker": "Unknown",
+  "en": "And we have this orchestrator that knows how to orchestrate.",
+  "zh": "我们还有这个知道如何编排的编排器。"
+ },
+ {
+  "seg": 323,
+  "start": 1115.523,
+  "end": 1117.785,
+  "speaker": "Unknown",
+  "en": "Can I come here and tell it",
+  "zh": "我能到这里告诉它"
+ },
+ {
+  "seg": 324,
+  "start": 1121.41,
+  "end": 1122.011,
+  "speaker": "Unknown",
+  "en": "Where's my course?",
+  "zh": "我的课件在哪儿？"
+ },
+ {
+  "seg": 325,
+  "start": 1122.091,
+  "end": 1122.871,
+  "speaker": "Unknown",
+  "en": "Can I come and tell it?",
+  "zh": "我能过来告诉它吗？"
+ },
+ {
+  "seg": 326,
+  "start": 1123.652,
+  "end": 1134.178,
+  "speaker": "Unknown",
+  "en": "Find 10 random PRs from, and view them, and write a summary to Notion.",
+  "zh": "从……找出 10 个随机的 PR，查看它们，并把摘要写到 Notion。"
+ },
+ {
+  "seg": 327,
+  "start": 1136.119,
+  "end": 1136.92,
+  "speaker": "Unknown",
+  "en": "This will take some time.",
+  "zh": "这会需要一些时间。"
+ },
+ {
+  "seg": 328,
+  "start": 1136.98,
+  "end": 1138.321,
+  "speaker": "Unknown",
+  "en": "I'll just briefly show you what it's doing.",
+  "zh": "我简单给你们展示一下它在做什么。"
+ },
+ {
+  "seg": 329,
+  "start": 1138.941,
+  "end": 1145.525,
+  "speaker": "Unknown",
+  "en": "This is the same runtime with the same control plane, with the same policy and scoped access, but now scaled out to orchestration and running.",
+  "zh": "这是相同的运行时、相同的控制平面、相同的策略和受限访问，但现在扩展到了编排并在运行。"
+ },
+ {
+  "seg": 330,
+  "start": 1145.886,
+  "end": 1146.606,
+  "speaker": "Unknown",
+  "en": "This will go off.",
+  "zh": "这会被触发。"
+ },
+ {
+  "seg": 331,
+  "start": 1146.886,
+  "end": 1148.247,
+  "speaker": "Unknown",
+  "en": "It finds those agents.",
+  "zh": "它会找到那些智能体。"
+ },
+ {
+  "seg": 332,
+  "start": 1148.748,
+  "end": 1149.588,
+  "speaker": "Unknown",
+  "en": "It'll schedule them.",
+  "zh": "它会调度它们。"
+ },
+ {
+  "seg": 333,
+  "start": 1150.008,
+  "end": 1155.812,
+  "speaker": "Unknown",
+  "en": "It'll compose over them, run PR with just the PR about limited access, and then run the Notion one with just the Notion tool.",
+  "zh": "它会在它们之上组合，用仅限 PR 的受限访问运行 PR，然后用仅有 Notion 工具的方式运行 Notion 那个。"
+ },
+ {
+  "seg": 334,
+  "start": 1156.333,
+  "end": 1157.454,
+  "speaker": "Unknown",
+  "en": "This goes off and does work.",
+  "zh": "这会被触发并开始干活。"
+ },
+ {
+  "seg": 335,
+  "start": 1157.894,
+  "end": 1159.555,
+  "speaker": "Unknown",
+  "en": "And once I have this, you can do more things.",
+  "zh": "一旦我有了这个，你就能做更多事情。"
+ },
+ {
+  "seg": 336,
+  "start": 1159.775,
+  "end": 1162.217,
+  "speaker": "Unknown",
+  "en": "You can create a schedule and schedule all that.",
+  "zh": "你可以创建一个日程安排，把所有这些都排上。"
+ },
+ {
+  "seg": 337,
+  "start": 1162.257,
+  "end": 1163.057,
+  "speaker": "Unknown",
+  "en": "So we go from",
+  "zh": "所以我们从"
+ },
+ {
+  "seg": 338,
+  "start": 1164.278,
+  "end": 1174.136,
+  "speaker": "Unknown",
+  "en": "A runtime that's providing a scope-like containment for just the task you need with scoped access, and the same thing follows you locally to the cloud to full orchestration.",
+  "zh": "一个为仅你需要的任务提供类沙箱隔离、具有受限访问的运行时——同样的事情从本地跟随你到云端——一直到完整的编排。"
+ },
+ {
+  "seg": 339,
+  "start": 1175.017,
+  "end": 1175.378,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 340,
+  "start": 1175.658,
+  "end": 1176.299,
+  "speaker": "Unknown",
+  "en": "Last thing.",
+  "zh": "最后一件事。"
+ },
+ {
+  "seg": 341,
+  "start": 1181.277,
+  "end": 1185.02,
+  "speaker": "Unknown",
+  "en": "And where is, uh, there you go.",
+  "zh": "然后是……呃，好了。"
+ },
+ {
+  "seg": 342,
+  "start": 1185.04,
+  "end": 1185.24,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 343,
+  "start": 1186.04,
+  "end": 1189.883,
+  "speaker": "Unknown",
+  "en": "So, we said now we need, um, we need intent-based access.",
+  "zh": "那么，我们说过现在我们需要，呃，我们需要基于意图的访问。"
+ },
+ {
+  "seg": 344,
+  "start": 1190.183,
+  "end": 1191.624,
+  "speaker": "Unknown",
+  "en": "How do we manage this dynamically?",
+  "zh": "我们如何动态地管理这个？"
+ },
+ {
+  "seg": 345,
+  "start": 1192.145,
+  "end": 1195.607,
+  "speaker": "Unknown",
+  "en": "This is still, I'm showing you an only prototype we have internally, not built yet.",
+  "zh": "这仍然是，我给你们展示的只是我们内部的一个原型，还没构建好。"
+ },
+ {
+  "seg": 346,
+  "start": 1196.588,
+  "end": 1201.311,
+  "speaker": "Unknown",
+  "en": "Um, let me fetch a PR here, just, I mean,",
+  "zh": "呃，让我在这里获取一个 PR，就是，我是说，"
+ },
+ {
+  "seg": 347,
+  "start": 1205.378,
+  "end": 1205.859,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 348,
+  "start": 1206.999,
+  "end": 1208.22,
+  "speaker": "Unknown",
+  "en": "So, what's happening here is we're running.",
+  "zh": "那么，这里发生的事情是我们在运行。"
+ },
+ {
+  "seg": 349,
+  "start": 1208.72,
+  "end": 1211.002,
+  "speaker": "Unknown",
+  "en": "On the left, you see an agent running in a sandbox.",
+  "zh": "在左边，你们看到一个智能体在沙箱中运行。"
+ },
+ {
+  "seg": 350,
+  "start": 1211.522,
+  "end": 1212.783,
+  "speaker": "Unknown",
+  "en": "You see the main agent over here.",
+  "zh": "你可以看到这边的主智能体。"
+ },
+ {
+  "seg": 351,
+  "start": 1213.524,
+  "end": 1216.245,
+  "speaker": "Unknown",
+  "en": "This has access just Anthropic and Claude, no GitHub.",
+  "zh": "它只能访问 Anthropic 和 Claude，没有 GitHub。"
+ },
+ {
+  "seg": 352,
+  "start": 1216.846,
+  "end": 1223.77,
+  "speaker": "Unknown",
+  "en": "But now I tell it, do a quick overview of this PR.",
+  "zh": "但现在我告诉它，对这个 PR 做一个快速概览。"
+ },
+ {
+  "seg": 353,
+  "start": 1226.672,
+  "end": 1229.254,
+  "speaker": "Unknown",
+  "en": "This agent in this sandbox is scope limited.",
+  "zh": "这个沙箱里的智能体权限是受限的。"
+ },
+ {
+  "seg": 354,
+  "start": 1229.434,
+  "end": 1230.115,
+  "speaker": "Unknown",
+  "en": "It cannot do that.",
+  "zh": "它做不到。"
+ },
+ {
+  "seg": 355,
+  "start": 1231.108,
+  "end": 1238.252,
+  "speaker": "Unknown",
+  "en": "In this environment, we built an intent-based tool for it where it can ask the runtime and say, hey, I want to take this action.",
+  "zh": "在这个环境中，我们为它构建了一个基于意图的工具，它可以询问运行时说，嘿，我想执行这个操作。"
+ },
+ {
+  "seg": 356,
+  "start": 1238.932,
+  "end": 1239.633,
+  "speaker": "Unknown",
+  "en": "What should happen?",
+  "zh": "应该发生什么？"
+ },
+ {
+  "seg": 357,
+  "start": 1239.793,
+  "end": 1240.993,
+  "speaker": "Unknown",
+  "en": "It says, oh, my network's blocked.",
+  "zh": "它说，哦，我的网络被屏蔽了。"
+ },
+ {
+  "seg": 358,
+  "start": 1241.514,
+  "end": 1242.574,
+  "speaker": "Unknown",
+  "en": "Let me delegate and ask.",
+  "zh": "让我委托并询问一下。"
+ },
+ {
+  "seg": 359,
+  "start": 1242.814,
+  "end": 1247.097,
+  "speaker": "Unknown",
+  "en": "And if you look here now, we created a scope sub-sandbox.",
+  "zh": "如果你现在看这里，我们创建了一个范围受限的子沙箱。"
+ },
+ {
+  "seg": 360,
+  "start": 1248.297,
+  "end": 1249.598,
+  "speaker": "Unknown",
+  "en": "That got access to GitHub.",
+  "zh": "它获得了 GitHub 的访问权限。"
+ },
+ {
+  "seg": 361,
+  "start": 1251.087,
+  "end": 1252.547,
+  "speaker": "Unknown",
+  "en": "And the main one did not.",
+  "zh": "而主沙箱没有。"
+ },
+ {
+  "seg": 362,
+  "start": 1253.067,
+  "end": 1253.988,
+  "speaker": "Unknown",
+  "en": "So we're running that.",
+  "zh": "所以我们正在运行它。"
+ },
+ {
+  "seg": 363,
+  "start": 1254.308,
+  "end": 1256.168,
+  "speaker": "Unknown",
+  "en": "We decided that the intent made sense.",
+  "zh": "我们判定这个意图是合理的。"
+ },
+ {
+  "seg": 364,
+  "start": 1256.208,
+  "end": 1259.749,
+  "speaker": "Unknown",
+  "en": "The user query said review this PR, so it makes sense you want access to that.",
+  "zh": "用户查询说的是审查这个 PR，所以想要访问它是合理的。"
+ },
+ {
+  "seg": 365,
+  "start": 1260.069,
+  "end": 1265.23,
+  "speaker": "Unknown",
+  "en": "But I'm going to create a scope substand box for you where you get that access, and the result comes back.",
+  "zh": "但我会为你创建一个范围受限的子沙箱，让你获得那个访问权限，然后结果会返回。"
+ },
+ {
+  "seg": 366,
+  "start": 1265.73,
+  "end": 1268.411,
+  "speaker": "Unknown",
+  "en": "And the same thing can expand and grow from there.",
+  "zh": "同样的机制可以从这里继续扩展和生长。"
+ },
+ {
+  "seg": 367,
+  "start": 1268.851,
+  "end": 1273.272,
+  "speaker": "Unknown",
+  "en": "So what we did manually can start happening automatically with judgment in person.",
+  "zh": "所以我们手动做的事情，可以开始带着人工判断自动发生。"
+ },
+ {
+  "seg": 368,
+  "start": 1273.572,
+  "end": 1279.433,
+  "speaker": "Unknown",
+  "en": "If the PR, suppose the text PR said, I want you to now export this to pastebin.com, that would get rejected.",
+  "zh": "假如这个 PR 的文本说，我要你现在把这个导出到 pastebin.com，那就会被拒绝。"
+ },
+ {
+  "seg": 369,
+  "start": 1279.973,
+  "end": 1285.495,
+  "speaker": "Unknown",
+  "en": "And this is running at a base runtime layer, so it runs across every agent, every model, every harness that you need.",
+  "zh": "而且这是运行在基础运行时层的，所以它能覆盖每一个智能体、每一个模型、你所需要的每一个 harness。"
+ },
+ {
+  "seg": 370,
+  "start": 1286.655,
+  "end": 1287.915,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 371,
+  "start": 1288.115,
+  "end": 1290.756,
+  "speaker": "Unknown",
+  "en": "Let's come back to our presentation.",
+  "zh": "让我们回到我们的演示文稿。"
+ },
+ {
+  "seg": 372,
+  "start": 1290.916,
+  "end": 1292.556,
+  "speaker": "Unknown",
+  "en": "If I can figure out how to do this.",
+  "zh": "让我看看怎么操作这个。"
+ },
+ {
+  "seg": 373,
+  "start": 1293.356,
+  "end": 1293.897,
+  "speaker": "Unknown",
+  "en": "Let's see here.",
+  "zh": "看看这里。"
+ },
+ {
+  "seg": 374,
+  "start": 1294.597,
+  "end": 1294.797,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 375,
+  "start": 1295.457,
+  "end": 1295.617,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 376,
+  "start": 1298.886,
+  "end": 1303.367,
+  "speaker": "Unknown",
+  "en": "Just to recap, the core thing here is to really unlock autonomy, we need safety.",
+  "zh": "简单回顾一下，这里的核心是，要真正解锁自主性，我们需要安全性。"
+ },
+ {
+  "seg": 377,
+  "start": 1303.867,
+  "end": 1307.548,
+  "speaker": "Unknown",
+  "en": "To succeed at safety, you have to do this across models, across harnesses.",
+  "zh": "要在安全性上取得成功，你必须跨模型、跨 harness 做到这一点。"
+ },
+ {
+  "seg": 378,
+  "start": 1308.108,
+  "end": 1311.169,
+  "speaker": "Unknown",
+  "en": "You need to provide a contained environment.",
+  "zh": "你需要提供一个受控的环境。"
+ },
+ {
+  "seg": 379,
+  "start": 1311.409,
+  "end": 1313.249,
+  "speaker": "Unknown",
+  "en": "You need to put that environment.",
+  "zh": "你需要放置那个环境。"
+ },
+ {
+  "seg": 380,
+  "start": 1313.289,
+  "end": 1316.43,
+  "speaker": "Unknown",
+  "en": "You need to be able to add scoped capabilities to that environment.",
+  "zh": "你需要能够为那个环境添加范围受限的能力。"
+ },
+ {
+  "seg": 381,
+  "start": 1317.03,
+  "end": 1320.611,
+  "speaker": "Unknown",
+  "en": "You need to be able to know what capabilities to provide there based on intent.",
+  "zh": "你需要能够基于意图知道在那里提供哪些能力。"
+ },
+ {
+  "seg": 382,
+  "start": 1321.151,
+  "end": 1328.573,
+  "speaker": "Unknown",
+  "en": "And this runtime has to work across models, across harnesses, and move across all environments, local, cloud, VPC, orchestration.",
+  "zh": "而且这个运行时必须跨模型、跨 harness 工作，并且能在所有环境中迁移，本地、云端、VPC、编排。"
+ },
+ {
+  "seg": 383,
+  "start": 1329.373,
+  "end": 1330.394,
+  "speaker": "Unknown",
+  "en": "That's what we're focused on.",
+  "zh": "这就是我们关注的。"
+ },
+ {
+  "seg": 384,
+  "start": 1330.414,
+  "end": 1330.994,
+  "speaker": "Unknown",
+  "en": "That's what we're building.",
+  "zh": "这就是我们在构建的。"
+ },
+ {
+  "seg": 385,
+  "start": 1331.014,
+  "end": 1334.316,
+  "speaker": "Unknown",
+  "en": "That's what we think is needed to actually go unlock agent autonomy next.",
+  "zh": "这就是我们认为下一步真正解锁智能体自主性所需要的。"
+ },
+ {
+  "seg": 386,
+  "start": 1334.796,
+  "end": 1335.657,
+  "speaker": "Unknown",
+  "en": "Please go try this out.",
+  "zh": "请去试用一下。"
+ },
+ {
+  "seg": 387,
+  "start": 1335.717,
+  "end": 1336.257,
+  "speaker": "Unknown",
+  "en": "It's really easy.",
+  "zh": "真的很简单。"
+ },
+ {
+  "seg": 388,
+  "start": 1336.397,
+  "end": 1338.999,
+  "speaker": "Unknown",
+  "en": "You can just go brew install SPX, run this.",
+  "zh": "你只需要 brew install SPX，运行它。"
+ },
+ {
+  "seg": 389,
+  "start": 1339.199,
+  "end": 1342.341,
+  "speaker": "Unknown",
+  "en": "You can run Claude, Codex, OpenCode, any agent, build your own in there.",
+  "zh": "你可以运行 Claude、Codex、OpenCode、任何智能体，在里面构建你自己的。"
+ },
+ {
+  "seg": 390,
+  "start": 1343.321,
+  "end": 1347.224,
+  "speaker": "Unknown",
+  "en": "I'll be around afterwards, open for questions, and we have a booth down below.",
+  "zh": "我之后会在这里，欢迎提问，我们在下面有一个展位。"
+ },
+ {
+  "seg": 391,
+  "start": 1347.324,
+  "end": 1348.204,
+  "speaker": "Unknown",
+  "en": "Come find us there, too.",
+  "zh": "也可以到那里来找我们。"
+ },
+ {
+  "seg": 392,
+  "start": 1349.025,
+  "end": 1349.305,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

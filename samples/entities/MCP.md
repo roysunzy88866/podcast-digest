@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>51</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>52</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]]**(09:02起):本集说 MCP 是一种让 AI 智能体调用外部工具的协议，但大多数公共 MCP 服务成功率只有 60%，且协议本身不覆盖治理层、可观测性、DLP 等企业需求
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(35:41起):本集说这是一种让 AI 调用外部工具的协议，Roblox 内部系统（如 Roblox 操作系统）都启用了 MCP，任何人都可以拿自己的 AI 系统在上面跑。
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(01:23起):本集说 GrokBot 把 Cursor 上很棒的插件 MCP 体验带入了聊天智能体，连接器可以对接 Gmail、Slack 等服务
+- **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(07:23起):本集说运行时应即时生成新工具，组合在现有 Slack MCP 工具之上、只放行相关范围的访问；演示里 Notion 沙箱也只有 Notion MCP 访问权。
 - **[[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]]**(16:54起):本集提到 MCP 和技能目录是模型执行期间可接入的扩展机制，用来把可扩展性编织进系统。
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(10:42起):本集说 MCP 是让 AI 工具连接外部数据源的协议（如 Figma MCP 插件、Fresh Service MCP），演示了通过它让 Claude 一条提示词拉取 60 天工单、生成根因分析报告并批量回复。
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(38:49起):本集说 MCP 是让客户接入其平台的连接协议，用 MCP 的客户上线更多智能体，因此上线时定下『90 天 100 个用户』的硬指标作为实验案例
@@ -77,7 +78,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*51 集*
+*52 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -103,6 +104,7 @@ unlisted: true
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为概念
+- [[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]] — 作为概念
 - [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]] — 作为概念(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
@@ -135,9 +137,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[沙箱]] · [[Cursor]] · [[harness]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[OpenAI]] · [[护栏]] · [[harness]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":304,"Claude":62,"Anthropic":135,"Claude Code":71,"OpenAI":127,"Codex":55,"护栏":52,"沙箱":56,"Cursor":66,"harness":41}</script>
+<script type="application/json" class="pd-epn">{"智能体":306,"Claude":64,"Anthropic":135,"Codex":56,"Claude Code":71,"OpenAI":128,"护栏":52,"harness":42,"沙箱":57,"Cursor":66}</script>
 
 <script>
 (function(){
