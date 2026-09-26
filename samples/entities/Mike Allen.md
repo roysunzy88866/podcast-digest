@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":45,"OpenAI":133,"Anthropic":143,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":21,"封闭模型":2,"沙箱":59}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":45,"OpenAI":134,"Anthropic":145,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":21,"封闭模型":2,"沙箱":60}</script>
 
 <script>
 (function(){

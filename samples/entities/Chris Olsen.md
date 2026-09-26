@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":5,"Path Robotics":1,"LLM":42,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":22,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":5,"Path Robotics":1,"LLM":43,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":22,"第一性原理":5}</script>
 
 <script>
 (function(){

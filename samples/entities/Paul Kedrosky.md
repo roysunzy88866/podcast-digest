@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":15,"token":26,"GPU":18,"推理":55,"商业地产":1,"前沿模型":21,"harness":45,"预训练":6,"后训练":1,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"数据中心":15,"token":26,"GPU":18,"推理":55,"商业地产":1,"前沿模型":21,"harness":46,"预训练":6,"后训练":1,"AGI":26}</script>
 
 <script>
 (function(){

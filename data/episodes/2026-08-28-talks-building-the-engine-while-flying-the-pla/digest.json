@@ -1,0 +1,160 @@
+{
+  "title_zh": "Figma 第一个 MCP server 是怎么三个月做出来的",
+  "tldr": "Figma 工程师 Jesse 讲述团队如何三个月内构建 Figma 首个 MCP server：序列化格式选型、eval 体系、绕过客户端缺陷的技巧与产品决策。",
+  "digest_md": "这一集是 Figma 工程师 Jesse 的技术演讲，讲的是他们如何在大约三个月内构建了 Figma 的第一个 MCP server——一种让 AI 编程工具直接读取设计稿上下文的通道，AI 工具不用做专门集成，接上这个 server 就能开工。Jesse 本来做增长项目，看到内部演示后很兴奋，觉得能让非设计师也用上 Figma，就每周抽一天自己搞起了插件版的 MCP server——一个公司其实并不存在的「20% 项目」。后来他和其他人组成小团队正式推进。开场他就强调：后面我会频繁说「我」和「我们」，这背后是一个很大的团队 [00:14 Jesse]。\n\n> 【背景】MCP 指 Model Context Protocol，Anthropic 在 2024 年 11 月发布的规范，让 AI 智能体能调用外部工具和数据。\n\n## 最大的选型：怎么把设计稿喂给智能体\n\nFigma 的画布在内部是一张 C++ 场景图(scene graph)——由相连节点构成的图，类似 HTML DOM。要传给智能体，得先决定用什么格式表示它。他们手里有三个选项：一是内部表示，类似 JSX/XML,抽象但保真度不高；二是 D2R,即 React Tailwind 表示——因为 Figma 有 sites 产品，已有现成的场景图转 HTML 管线；三是直接给一张截图。他们押注 React Tailwind,直觉依据是：很多模型都在这类代码上做过 RL(强化学习训练)，效果应该会好 [04:30 Jesse]。结果今天的 MCP 输出粘贴进一个简单的 HTTP server 就能做到像素级精确——「如果不是，请提一个 bug」[04:18 Jesse]。\n\n图片的处理上踩过坑：最初把 Base64 数据直接嵌进代码，「直接把上下文窗口撑爆了，方方面面都很糟。别那么做」[05:21 Jesse]。改成把图片抽出来放到顶层，再附一张当前节点的截图。单靠图片转代码效果不好，但「把代码上下文加上图片一起用，智能体的输出反而更好了」[05:30 Jesse]。\n\n## eval:从手工 Excel 到每周几百次\n\n怎么知道哪种表示「更好」？他们先做了很简单的 eval,定量看有没有用对变量、主题化、间距，定性看「好不好看」「信息不全时决策是否合理」。第一次花了两小时人肉往 Excel 表格里填评分，「然后我们说，再也不干这种事了。太痛苦了。能不手工做 eval 就别手工做」[06:11 Jesse]。难点在于：开源代码很多，但附带 FIG 设计文件的开源项目几乎没有，所以只能自己造数据或做自动化。最终他们写了个 web 应用来跑 eval,现在每周自动运行几百次，工程师改了 prompt 就能用 LLM judge(用另一个大模型当裁判打分)自动评分，把不需要人的环节里的人移出了流程 [06:55 Jesse]。\n\n## 像素级完美只是半个故事：CodeConnect\n\n企业不在乎像素级完美——如果代码没有用上经过实战检验、带可访问性和国际化支持的组件，那就不行。Figma 已有 CodeConnect,能把设计组件链接到代码库里的真实组件。他们把它接进 MCP:同样是画一个按钮，不传一大坨 React Tailwind,而是通过 CodeConnect 传回一个指针，智能体就会用你代码库里真正的 button 组件。这既带来高保真实现，又省上下文窗口——「你就从这个庞大的 React Tailwind 东西变成了那个小的 React 组件，它只是写着『使用 button 组件』」[08:30 Jesse]。\n\n## 客户端支持参差，只能自己 hack\n\nMCP 规范在推进，但各客户端支持节奏差异很大：Claude Desktop 支持早但 Claude Code 功能不全，OpenAI 和 VS Code 很久才有支持，VS Code 到七月(July)才 GA，而且很多客户端只支持 tools。VS Code 最终支持了几乎所有规范，「真的就像是黄金客户端」[02:26 Jesse]——但很难搞清到底在为什么而构建。\n\n规范里有但他们特别想要的两个特性：elicitation(server 向用户提问、拿回输入)和 sampling(server 借用客户端的 LLM 做小型查询)。他们想组合两者：问用户「要不要把你的代码库映射到 CodeConnect」,然后让智能体扫描代码找匹配，批量建立连接，输出更好、上下文更省。可惜大多客户端没实现，sampling 即便在 VS Code 里也只能当通用智能体查询，不能针对代码库。于是他们用工具调用绕过：获取某个设计的上下文时，发现它是组件且未连接，就下发一个 prompt 模仿 elicitation 去问用户；用户同意后再下发 prompt 让智能体扫描代码库找匹配，模仿 sampling,最后批量传回建立 CodeConnect [11:49 Jesse]。「在我们的案例里，魔法在于结合这两个特性……最终用户获得了更好的体验」[12:14 Jesse]。\n\n另一个小技巧：规范里的 server instructions(给 LLM 的使用说明)写在规范里却没客户端实现，他们就把它塞进每次工具调用里。为了让输出适配不同代码库，他们还在工具调用里加了可选参数，让智能体回报用户用的语言和框架——「这并不完美。智能体会撒谎。但它至少是一个信号」[12:55 Jesse],帮他们判断哪类用户可能体验不好。\n\n## 架构：先本地，再远程\n\n做 beta 时目标有四个：快速上线、安全标准尽可能高、尊重文件权限、尊重定价打包以免被滥用。2025 年 3 月规范引入 OAuth 后，他们面临选择：继续本地 server 还是转远程。「我们搁置了」[13:41 Jesse]。本地方案很快：Figma 桌面应用是 Electron 的，前端就是跑在里面的 Figma.com,通过 IPC 桥接到 Node 进程读写文件系统，再暴露一个 server-send events server,客户端就能本地直连。企业也喜欢「数据不外发」。这是最快验证产品市场契合的路径。内部上线时反馈「非常坦诚」，修完各种毛病后社区口碑转正。同年九月上线远程 server,十月两个 server 都 GA,随后加入读写能力。「这些事情综合起来，最终让它成为 Figma 有史以来增长最快的产品之一，这是我们在开始做这个时没有预料到的」[15:10 Jesse]。\n\n去年底他还顺手孵化了 make in your local codebase——Figma 在 GitHub 和本地代码库上工作的智能体方案。他最后想让人带走两件事：第一，「MCP 规范才两岁，我们仍在摸索最佳做法」——这个领域太早了；第二，Figma 的文化是放手让工程师去构建、去发现下一步——「我并没有被正式指派到 MCP 项目上……但我最终帮助了它们被构建出来，只是因为我被给予了这样做的自由空间」[16:10 Jesse]。\n\n## 本集带走\n\n- **选智能体「熟悉」的代码格式**：在抽象 XML 和 React Tailwind 之间，他们押了后者，因为模型在这种代码上做过强化学习——判断依据是模型的训练分布，不是格式本身的优雅程度。\n- **图片别嵌 Base64**:会把上下文窗口撑爆；图片应抽出顶层、以截图形式作为代码上下文的补充，两者组合效果最好。\n- **别手工做 eval**:第一次两小时填 Excel 就让他们彻底转向自动化，最终建成每周跑几百次、LLM judge 打分的 eval 流水线。\n- **客户端不支持规范？用工具调用模仿**：elicitation 和 sampling 没实现，他们就靠下发 prompt 分两步模拟「先问用户、再让智能体扫描代码库」，同样跑通了 CodeConnect 映射工作流。\n- **验证路径优先**：先做本地 Electron + Node 方案最快拿到用户反馈，远程和 OAuth 之后再说；企业客户反而喜欢数据不出本地的本地方案。\n- **给智能体留自报口味的通道**：在工具调用里加可选参数让智能体回报语言和框架，虽然智能体会撒谎，但足够当作定位体验问题的信号。",
+  "quotes": [
+    {
+      "en": "If you actually copy the output of the Figma MCP today and you paste it into a simple HTTP server, it should be pixel perfect. And if it's not, file a bug.",
+      "zh": "如果你今天真的把 Figma MCP 的输出复制下来，粘贴到一个简单的 HTTP server 里，它应该是像素级精确的。如果不是，请提一个 bug。",
+      "timestamp": "04:18",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "Our first attempt was just passing Base64 data into the code, and that was just a terrible idea. It just blew up the context window and was bad all around. Don't do that.",
+      "zh": "我们最初的尝试是把 Base64 数据直接传进代码，那是个非常糟糕的主意。它直接把上下文窗口撑爆了，方方面面都很糟。别那么做。",
+      "timestamp": "05:16",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "And we spent like two hours grading an eval into an Excel spreadsheet. And we said, we're never doing that again. It was awful. Don't do evals by hand if you can help it.",
+      "zh": "我们花了大概两个小时把一个 eval 的评分填进 Excel 表格。然后我们说，再也不干这种事了。太痛苦了。能不手工做 eval 就别手工做。",
+      "timestamp": "06:04",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "So we kind of remove the human from the loop where we don't need it.",
+      "zh": "这样我们在不需要人的环节就把人从流程里移除了。",
+      "timestamp": "06:55",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "An enterprise doesn't care if it's pixel-perfect. If it's not using, it's battle-tested, accessible, and internationalized components.",
+      "zh": "企业不在乎它是不是像素级完美。如果它没有使用经过实战检验、可访问、并且国际化了的组件，那就不行。",
+      "timestamp": "07:10",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "The screenshot on the right is the MCP Inspector, and if you haven't used it and you're developing an MCP server, you're doing yourself a disservice.",
+      "zh": "右边的截图是 MCP Inspector,如果你在开发 MCP server 却没用过它，那你就是在亏待自己。",
+      "timestamp": "12:04",
+      "speaker": "Jesse Lumarie"
+    },
+    {
+      "en": "I wasn't staffed on MCP. I wasn't staffed on our make product. But I ended up helping them be built just because I was kind of giving the leeway to do so and learning a ton along the way.",
+      "zh": "我并没有被正式指派到 MCP 项目上，也没有被正式指派到我们的 make 产品上。但我最终帮助了它们被构建出来，只是因为我被给予了这样做的自由空间，并在此过程中学到了大量东西。",
+      "timestamp": "16:10",
+      "speaker": "Jesse Lumarie"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:18",
+      "speaker": "Jesse",
+      "en": "If you actually copy the output of the Figma MCP today and you paste it into a simple HTTP server, it should be pixel perfect. And if it's not, file a bug.",
+      "zh": "如果你今天真的把 Figma MCP 的输出复制下来，粘贴到一个简单的 HTTP server 里，它应该是像素级精确的。如果不是，请提一个 bug。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Jesse",
+      "en": "Our first attempt was just passing Base64 data into the code, and that was just a terrible idea. It just blew up the context window and was bad all around. Don't do that.",
+      "zh": "我们最初的尝试是把 Base64 数据直接传进代码，那是个非常糟糕的主意。它直接把上下文窗口撑爆了，方方面面都很糟。别那么做。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Jesse",
+      "en": "While the image by itself did not do a good job of converting to code, having the code context plus the image actually had better agentic output.",
+      "zh": "虽然图片本身在转换成代码这件事上效果不好，但把代码上下文加上图片一起用，智能体的输出反而更好了。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Jesse",
+      "en": "And we spent like two hours grading an eval into an Excel spreadsheet. And we said, we're never doing that again. It was awful. Don't do evals by hand if you can help it.",
+      "zh": "我们花了大概两个小时把一个 eval 的评分填进 Excel 表格。然后我们说，再也不干这种事了。太痛苦了。能不手工做 eval 就别手工做。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Jesse",
+      "en": "So we kind of remove the human from the loop where we don't need it.",
+      "zh": "这样我们在不需要人的环节就把人从流程里移除了。"
+    },
+    {
+      "timestamp": "07:10",
+      "speaker": "Jesse",
+      "en": "An enterprise doesn't care if it's pixel-perfect. If it's not using, it's battle-tested, accessible, and internationalized components.",
+      "zh": "企业不在乎它是不是像素级完美。如果它没有使用经过实战检验、可访问、并且国际化了的组件，那就不行。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Jesse",
+      "en": "So effectively you go from like this big old thing of React Tailwind to the small React component that just says use button component.",
+      "zh": "所以实际上你就从这个庞大的 React Tailwind 东西变成了那个小的 React 组件，它只是写着「使用 button 组件」。"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Jesse",
+      "en": "VS Code was truly like the golden client.",
+      "zh": "VS Code 真的就像是黄金客户端。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Jesse",
+      "en": "The screenshot on the right is the MCP Inspector, and if you haven't used it and you're developing an MCP server, you're doing yourself a disservice.",
+      "zh": "右边的截图是 MCP Inspector,如果你在开发 MCP server 却没用过它，那你就是在亏待自己。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Jesse",
+      "en": "But the magic, in our case, was combining these two features, because we could ask the user for permission, we can have the agent give us those suggestions, and we can map them, and in the end, the users got a better experience.",
+      "zh": "但在我们的案例里，魔法在于结合这两个特性，因为我们可以请求用户许可，可以让智能体给我们那些建议，可以映射它们，最终用户获得了更好的体验。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Jesse",
+      "en": "This is imperfect. Agents lie. But it was at least a signal for us to understand, like, oh, this type of user, this felt user may not have had a good experience.",
+      "zh": "这并不完美。智能体会撒谎。但它至少是一个信号，让我们理解，比如，哦，这类用户可能没有获得好的体验。"
+    },
+    {
+      "timestamp": "13:41",
+      "speaker": "Jesse",
+      "en": "We punted.",
+      "zh": "我们搁置了。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Jesse",
+      "en": "The local store is also really great with enterprises because they kind of like the idea of our data not being sent anywhere.",
+      "zh": "本地方案对企业也非常友好，因为他们挺喜欢数据不会被发送到任何地方这个想法。"
+    },
+    {
+      "timestamp": "14:18",
+      "speaker": "Jesse",
+      "en": "This architecture was our fastest path to getting something into the hands of users to understand product-market fit and what kind of tools and use cases folks had.",
+      "zh": "这个架构是我们最快把东西交到用户手中、以理解产品市场契合度以及大家有哪些工具和用例的路径。"
+    },
+    {
+      "timestamp": "15:10",
+      "speaker": "Jesse",
+      "en": "And kind of all these things combined ended up making for Figment one of the fastest growing products that they've ever had, which was not something we expected when we started working on this.",
+      "zh": "这些事情综合起来，最终让它成为 Figma 有史以来增长最快的产品之一，这是我们在开始做这个时没有预料到的。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Jesse",
+      "en": "We're so early. Like, this has not been a long time. The MCP spec is only two years old, and we're still figuring out the best way to do things.",
+      "zh": "我们还太早了。就是说，这并没有经历很长时间。MCP 规范才两岁，我们仍在摸索最佳做法。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Jesse",
+      "en": "I wasn't staffed on MCP. I wasn't staffed on our make product. But I ended up helping them be built just because I was kind of giving the leeway to do so and learning a ton along the way.",
+      "zh": "我并没有被正式指派到 MCP 项目上，也没有被正式指派到我们的 make 产品上。但我最终帮助了它们被构建出来，只是因为我被给予了这样做的自由空间，并在此过程中学到了大量东西。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "Jesse",
+      "en": "And then second, Figma's done a great job of letting engineers build and figure out what's next and letting them run with it.",
+      "zh": "第二，Figma 在让工程师去构建并搞清楚下一步是什么、然后放手让他们去做这方面做得非常出色。"
+    }
+  ],
+  "voice_script": "今天这一期，讲的是 Figma 的工程师 Jesse,怎么带着团队在大概三个月里，做出了 Figma 历史上第一个 MCP server。先交代一下背景：MCP 全称是 Model Context Protocol,是 Anthropic 在 2024 年 11 月发布的一套规范，说白了就是给 AI 智能体开的一个标准化接口，让 AI 编程工具不用做专门集成，接上这个接口就能直接拿到外部的数据和工具。Figma 做的这个东西，就是让 AI 工具能直接读取设计稿上下文的一条通道。\n\nJesse 本来做的是增长项目，有次看到内部演示很兴奋，觉得这东西能让不会设计的普通人也用上 Figma,就每周抽一天自己搞起了插件版的 MCP server——严格说，公司里根本不存在这么一个「20% 项目」。后来才拉上其他人组成小团队正式推进。开场的时候特意强调了一句：后面会频繁说「我」和「我们」，但这背后其实是一个很大的团队。\n\n那这个项目最核心的技术难题是什么？是选型：到底用什么格式，把 Figma 的设计稿喂给智能体。这里得先讲一下 Figma 的底层。画布在内部是一张 C++ 场景图——就是由相连节点构成的图，有点类似网页里的 HTML DOM。要交给 AI,总得先变成某种文本表示。摆在面前的有三个选项：一是内部表示，类似 JSX 或 XML,抽象但保真度不高；二是 React Tailwind 表示，因为 Figma 有 sites 产品，已经有现成的场景图转 HTML 的管线；三是干脆给一张截图。\n\n团队押注了 React Tailwind。直觉依据很有意思：很多大模型都在这类代码上做过强化学习训练，也就是模型对这种代码「最熟悉」，效果应该会好。注意这个判断的出发点——不是看格式本身优不优雅，而是看模型的训练分布。结果呢？今天 MCP 的输出，粘贴进一个简单的 HTTP server 就能做到像素级精确。用原话说就是：如果不是，请提一个 bug。这话说得相当自信。\n\n不过图片这块踩过坑。最初的尝试是把 Base64 数据直接嵌进代码里，结果直接把上下文窗口撑爆了，方方面面都很糟，用原话说就是「别那么做」。后来改成把图片抽出来放到顶层，再附一张当前节点的截图。有意思的是，单靠图片转代码效果并不好，但把代码上下文和图片一起用，智能体的输出反而更好了。\n\n那怎么知道哪种表示「更好」呢？这就引出第二个话题：eval,也就是评测体系。做法说起来很朴素——定量看有没有用对变量、主题化、间距，定性看好不好看、信息不全时决策是否合理。但第一次做评测，是花了两小时人肉往 Excel 表格里填评分。填完大家就说，再也不干这种事了，太痛苦了，能不手工做 eval 就别手工做。这里还有个现实的困难：开源代码很多，但附带设计文件的开源项目几乎没有，所以只能自己造数据或者做自动化。最终团队写了个 web 应用来跑 eval,现在每周自动运行几百次，工程师改了 prompt,就用 LLM judge——用另一个大模型当裁判打分——自动评分。用一句话总结，就是在不需要人的环节里，把人从流程中移除了。\n\n但故事讲到这，其实只讲了一半。因为企业客户不在乎像素级完美——如果生成的代码没有用上经过实战检验、带可访问性和国际化支持的组件，那就不行。好在 Figma 已经有个叫 CodeConnect 的东西，能把设计组件链接到代码库里的真实组件。团队把它接进了 MCP:同样是画一个按钮，不传一大坨 React Tailwind,而是通过 CodeConnect 传回一个指针，智能体就会用你代码库里真正的 button 组件。这样既保真，又省上下文窗口。\n\n而要跑通这套映射工作流，需要用到 MCP 规范里的两个特性：一个叫 elicitation,就是 server 向用户提问、拿回输入；另一个叫 sampling,就是 server 借用客户端的大模型做小型查询。想法是组合两者：先问用户要不要把代码库映射到 CodeConnect,再让智能体扫描代码找匹配，批量建立连接。麻烦在于，MCP 规范虽然一直在推进，但各客户端的支持节奏参差不齐——Claude Desktop 支持得早，Claude Code 功能不全，OpenAI 和 VS Code 很久才有支持，VS Code 到七月才正式发布，而且很多客户端只支持 tools。有意思的是，VS Code 最终支持了几乎所有规范，被称为「黄金客户端」，但也很难搞清它到底在为什么而构建。回到那两个特性，大多客户端根本没实现。怎么办？团队选择用工具调用绕过：获取某个设计的上下文时，发现它是组件且未连接，就下发一个 prompt 模仿提问去问用户；用户同意后，再下发一个 prompt 让智能体扫描代码库找匹配，模仿借模型查询，最后批量传回，建立 CodeConnect 连接。用原话说，魔法就在于结合这两个特性，最终用户获得了更好的体验。还有个类似的小技巧：规范里给大模型的使用说明，写进规范了却没客户端实现，那就把它塞进每次工具调用里。为了适配不同代码库，还加了可选参数让智能体回报用户用的语言和框架——虽然智能体会撒谎，但至少是个信号。\n\n最后说说架构，思路是先本地、再远程。做 beta 时目标有四个：快速上线、安全标准尽可能高、尊重文件权限、尊重定价打包以免被滥用。2025 年 3 月规范引入 OAuth 之后，团队面临选择：继续本地 server 还是转远程？答案是先搁置。本地方案很快：Figma 桌面应用是 Electron 的，前端就是跑在里面的网页版，通过 IPC 桥接到一个 Node 进程读写文件系统，再暴露一个本地服务，客户端直连就能用。企业客户反而喜欢「数据不外发」。这是最快验证产品市场契合的路径。内部上线时收到的反馈非常坦诚，修完各种毛病之后社区口碑转正。同年九月上线远程 server,十月两个 server 都正式发布，随后加入了读写能力。这些事情综合起来，让它成了 Figma 有史以来增长最快的产品之一——这是当初动手时没有预料到的。\n\n顺带一提，去年底 Jesse 还顺手孵化了一个项目，让 Figma 能在 GitHub 和本地代码库上工作。而最后想让人带走的，其实是两件事。第一，MCP 规范才两岁，整个领域还在摸索最佳做法，现在仍然太早。第二，Figma 的文化是放手让工程师去构建、去发现下一步——就像原话说的那样：并没有被正式指派到 MCP 项目上，但最终帮助了它们被构建出来，只是因为被给予了这样做的自由空间。最好的产品，有时候就是这么长出来的。"
+}

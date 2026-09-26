@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":13,"Cowork":6,"智能体":330,"MCP":60,"变革管理":3,"语义视图":1,"技能":21,"反馈回路":2,"护栏":61}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":13,"Cowork":6,"智能体":334,"MCP":60,"变革管理":3,"语义视图":1,"技能":21,"反馈回路":2,"护栏":61}</script>
 
 <script>
 (function(){

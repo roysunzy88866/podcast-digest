@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lovable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,12 +25,13 @@ unlisted: true
 - **[[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]]**(28:39起):本集说它与 Eleven Labs、Cursor 同量级，都是前沿实验室的大客户，月支出或达千万美元级，且 99% 的支出将会从前沿模型上撤走。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(22:12起):本集作为增长速度极快的例子提到，一年内就到了1亿ARR
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(21:01起):本集说非技术人员正在用 Lovable 这类工具搭建东西，把公司数据放进去，完全不考虑安全和合规
+- **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(05:13起):本集说 Lovable 的定价核心是纯积分模式:用户预付积分、每月自动充值,积分分构建额度、计划模式额度、云端额度、AI 网关额度等多种类型,超支了周期结束再出账单。
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(17:54起):本集以它举例说明能力的扩散：打开 Lovable 输入一句话就能得到一个完整应用。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(13:03起):本集把它作为 vibe coding 赛道上与 Bolt 竞争的公司之一提及
 
 ## ① 提到它的金句
 
-*5 条*
+*6 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q6]]
 
@@ -38,13 +39,15 @@ unlisted: true
 
 ![[2026-02-08-lennys-getting-paid-to-vibe-code#^q4]]
 
+![[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a#^q6]]
+
 ![[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l#^q7]]
 
 ![[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f#^q8]]
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
@@ -60,6 +63,7 @@ unlisted: true
 - [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司(提及)
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
 
@@ -69,7 +73,7 @@ unlisted: true
 
 [[Cursor]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[开源]] · [[vibe coding]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Cursor":68,"Anthropic":143,"智能体":330,"OpenAI":133,"Lenny":67,"Replit":17,"开源":27,"vibe coding":38,"推理":55,"ChatGPT":77}</script>
+<script type="application/json" class="pd-epn">{"Cursor":69,"Anthropic":145,"智能体":334,"OpenAI":134,"Lenny":67,"Replit":17,"开源":27,"vibe coding":39,"推理":55,"ChatGPT":77}</script>
 
 <script>
 (function(){

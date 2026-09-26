@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":330,"MCP":60,"沙箱":59,"连接器":3,"智能 LLM 路由器":1,"可观测性":30,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":334,"MCP":60,"沙箱":60,"连接器":3,"智能 LLM 路由器":1,"可观测性":30,"后训练":1}</script>
 
 <script>
 (function(){

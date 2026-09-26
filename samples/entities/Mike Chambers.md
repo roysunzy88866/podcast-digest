@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":330,"harness 工程":2,"Bedrock AgentCore":1,"MCP":60,"记忆":15,"多租户隔离":1,"可观测性":30,"基础设施即代码":1,"系统提示词":6,"Claude Code":76}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"harness 工程":2,"Bedrock AgentCore":1,"MCP":60,"记忆":15,"多租户隔离":1,"可观测性":30,"基础设施即代码":1,"系统提示词":6,"Claude Code":76}</script>
 
 <script>
 (function(){

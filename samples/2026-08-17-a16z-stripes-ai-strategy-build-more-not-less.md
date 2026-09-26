@@ -178,9 +178,9 @@ Stripe 感到了新的使命：像保护美元一样保护用户的 token。「�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Stripe、Metronome · 同概念:Stripe Projects、智能体 (agent)、智能体商务 (agentic commerce)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Cursor · 同概念:主观能动性 (agency)、智能体 (agent)、Claude Code</span>
 - [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同公司:DoorDash · 同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
-- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1346 @@
+[
+ {
+  "seg": 0,
+  "start": 12.93,
+  "end": 13.37,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.591,
+  "end": 15.371,
+  "speaker": "Unknown",
+  "en": "My name is Andrew Garvin.",
+  "zh": "我叫 Andrew Garvin。"
+ },
+ {
+  "seg": 2,
+  "start": 15.391,
+  "end": 16.932,
+  "speaker": "Unknown",
+  "en": "I'm one of the co-founders of Metronome.",
+  "zh": "我是 Metronome 的联合创始人之一。"
+ },
+ {
+  "seg": 3,
+  "start": 17.473,
+  "end": 22.836,
+  "speaker": "Unknown",
+  "en": "Metronome, if you're not familiar, is the top platform for usage billing, which, as you might imagine, is taking off right now.",
+  "zh": "如果你不了解的话,Metronome 是按用量计费领域的顶级平台,可以想象,这个领域现在正在起飞。"
+ },
+ {
+  "seg": 4,
+  "start": 23.636,
+  "end": 28.159,
+  "speaker": "Unknown",
+  "en": "So much so that earlier this year, we were acquired by Stripe in the largest deal that Stripe has ever done.",
+  "zh": "以至于今年早些时候,我们被 Stripe 收购了,这是 Stripe 历史上最大的一笔交易。"
+ },
+ {
+  "seg": 5,
+  "start": 29.12,
+  "end": 37.645,
+  "speaker": "Unknown",
+  "en": "And what I'm going to show you today is a fun project that we've been cooking on with the Stripe team that is a demonstration of some of the things that we could work on together.",
+  "zh": "今天我要给大家展示的,是我们和 Stripe 团队一起一直在做的一个有趣项目,它演示了我们可以一起合作的一些方向。"
+ },
+ {
+  "seg": 6,
+  "start": 39.086,
+  "end": 42.949,
+  "speaker": "Unknown",
+  "en": "This is going to combine two very different products within Stripe.",
+  "zh": "这将结合 Stripe 内部两个非常不同的产品。"
+ },
+ {
+  "seg": 7,
+  "start": 44.271,
+  "end": 46.833,
+  "speaker": "Unknown",
+  "en": "If you haven't seen it already, I recommend looking at Stripe projects.",
+  "zh": "如果你还没见过,我推荐去看看 Stripe projects。"
+ },
+ {
+  "seg": 8,
+  "start": 46.873,
+  "end": 49.796,
+  "speaker": "Unknown",
+  "en": "Just open that up on your phone while I'm going through this.",
+  "zh": "在我讲解的时候,可以在手机上打开它。"
+ },
+ {
+  "seg": 9,
+  "start": 50.917,
+  "end": 58.284,
+  "speaker": "Unknown",
+  "en": "This is something that actually was launched literally the week that Metronome was acquired, and so, as you might imagine, the velocity of development at Stripe and at Metronome is pretty high.",
+  "zh": "这个东西实际上是在 Metronome 被收购的那一周发布的,所以可以想象,Stripe 和 Metronome 的开发速度都非常快。"
+ },
+ {
+  "seg": 10,
+  "start": 59.1,
+  "end": 65.786,
+  "speaker": "Unknown",
+  "en": "Basically, what Stripe Projects is, is it's an orchestrator to allow you to operate and build your business as fast as possible.",
+  "zh": "基本上,Stripe Projects 就是一个编排器,让你能以最快的速度运营和构建你的业务。"
+ },
+ {
+  "seg": 11,
+  "start": 66.847,
+  "end": 81.58,
+  "speaker": "Unknown",
+  "en": "And so, in essence, what it does is it provisions a Stripe account for you, as well as backend services that you may need, think like Vercel, Postgres, and in this case, a metronome billing agent, in order to launch a product quickly or an application quickly, all through the CLI.",
+  "zh": "从本质上讲,它的作用是为你开通一个 Stripe 账户,以及你可能需要的后端服务,比如 Vercel、Postgres,在这个例子中还有一个 Metronome 计费智能体,以便快速上线一个产品或一个应用,全部通过 CLI 完成。"
+ },
+ {
+  "seg": 12,
+  "start": 82.36,
+  "end": 90.752,
+  "speaker": "Unknown",
+  "en": "So the demonstration that we're going to do today is a very simple demonstration of how to get set up through Stripe projects, but you can imagine all the sorts of things that people are building on Stripe today.",
+  "zh": "所以我们今天要做的演示,是一个非常简单的、如何通过 Stripe projects 完成配置的演示,但你可以想象人们今天在 Stripe 上构建的各种各样的东西。"
+ },
+ {
+  "seg": 13,
+  "start": 92.299,
+  "end": 96.162,
+  "speaker": "Unknown",
+  "en": "One of the really cool aspects of being inside Stripe is their scale and data.",
+  "zh": "身处 Stripe 内部的一个非常酷的方面,就是他们的规模和数据。"
+ },
+ {
+  "seg": 14,
+  "start": 97.122,
+  "end": 105.588,
+  "speaker": "Unknown",
+  "en": "And one of the things that we've observed inside of Stripe is that the use of Stripe's CLI has exponentially increased over the course of the past five, six months.",
+  "zh": "我们在 Stripe 内部观察到的一件事是,Stripe 的 CLI 的使用量在过去五、六个月里呈指数级增长。"
+ },
+ {
+  "seg": 15,
+  "start": 105.908,
+  "end": 113.593,
+  "speaker": "Unknown",
+  "en": "We're thinking about all of the implications of the coding agent's operating systems, which we'll get into a greater topic on later in this demonstration.",
+  "zh": "我们正在思考编码智能体操作系统的所有影响,在这个演示的后面我们会更深入地谈这个话题。"
+ },
+ {
+  "seg": 16,
+  "start": 114.931,
+  "end": 120.777,
+  "speaker": "Unknown",
+  "en": "So the beginning part was sort of the thesis for this is how to avoid disaster when vibe coding a billing engine.",
+  "zh": "所以前面那部分差不多就是这件事的论点:如何在 vibe coding 一个计费引擎时避免灾难。"
+ },
+ {
+  "seg": 17,
+  "start": 121.338,
+  "end": 132.289,
+  "speaker": "Unknown",
+  "en": "As you might imagine, being in the billing space for multiple years now, we've seen all sorts of crazy things happen, and it's even getting crazier now that people are expecting to operate Metronome, a very complicated and deep product.",
+  "zh": "可以想象,在计费领域干了多年,我们见过各种疯狂的事情发生,而现在更加疯狂了,因为人们期望用编码智能体来操作 Metronome 这个非常复杂、非常深度的产品。"
+ },
+ {
+  "seg": 18,
+  "start": 132.669,
+  "end": 134.05,
+  "speaker": "Unknown",
+  "en": "with a coding agent.",
+  "zh": "用一个编码智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 134.91,
+  "end": 143.413,
+  "speaker": "Unknown",
+  "en": "And so as a result, we are working from a developer experience standpoint to make this a more seamless experience for people and to have them avoid disaster.",
+  "zh": "因此,我们正从开发者体验的角度出发,让人们获得更无缝的体验,并帮助他们避免灾难。"
+ },
+ {
+  "seg": 20,
+  "start": 144.434,
+  "end": 149.575,
+  "speaker": "Unknown",
+  "en": "And so we're going to see in a second a demonstration of what that might look like and how we're guiding things.",
+  "zh": "所以我们马上就会看到一个演示,展示这可能是什么样子,以及我们如何引导整个过程。"
+ },
+ {
+  "seg": 21,
+  "start": 150.156,
+  "end": 157.999,
+  "speaker": "Unknown",
+  "en": "But just to frame it, what's happening today with launching agent products can go crazy, and it can go sideways in all sorts of ways.",
+  "zh": "但先说明一下,今天上线智能体产品的情况可能会失控,并且会以各种方式出岔子。"
+ },
+ {
+  "seg": 22,
+  "start": 158.199,
+  "end": 161.42,
+  "speaker": "Unknown",
+  "en": "So as just a couple of the types of problems that Metronome helped solve for folks,",
+  "zh": "举几个 Metronome 帮助客户解决的问题类型作为例子,"
+ },
+ {
+  "seg": 23,
+  "start": 162.22,
+  "end": 170.847,
+  "speaker": "Unknown",
+  "en": "First, we are, for example, and have for many years now, taken in all of the API calls to OpenAI and Anthropic and metered that for those companies.",
+  "zh": "首先,比如我们多年来一直在为 OpenAI 和 Anthropic 接收所有的 API 调用,并为这些公司做用量计量。"
+ },
+ {
+  "seg": 24,
+  "start": 170.987,
+  "end": 173.229,
+  "speaker": "Unknown",
+  "en": "We've worked with those companies since before they had any revenue.",
+  "zh": "我们从这些公司还没有任何收入之前就和他们合作了。"
+ },
+ {
+  "seg": 25,
+  "start": 173.769,
+  "end": 178.933,
+  "speaker": "Unknown",
+  "en": "And so obviously we've operated at global scale, operating a metering service with a number of different data impacts.",
+  "zh": "所以显然我们在全球规模上运营过一个计量服务,处理多种不同的数据影响。"
+ },
+ {
+  "seg": 26,
+  "start": 179.514,
+  "end": 181.875,
+  "speaker": "Unknown",
+  "en": "In addition to that, we also operate credit models.",
+  "zh": "除此之外,我们还运营信用额度模型。"
+ },
+ {
+  "seg": 27,
+  "start": 182.216,
+  "end": 189.921,
+  "speaker": "Unknown",
+  "en": "Obviously today with usage-based pricing, it's not just about having a pay-go metered business model, but also all sorts of different forms of credits, commits.",
+  "zh": "显然,如今对于基于用量的定价,不仅仅是有按量付费的商业模式,还有各种不同形式的信用额度、承诺消费。"
+ },
+ {
+  "seg": 28,
+  "start": 190.802,
+  "end": 192.763,
+  "speaker": "Unknown",
+  "en": "Sales-led discounts and offers.",
+  "zh": "销售主导的折扣和优惠。"
+ },
+ {
+  "seg": 29,
+  "start": 193.343,
+  "end": 203.627,
+  "speaker": "Unknown",
+  "en": "And then finally, now in the last six months especially, the impact of failures here is growing in importance, in particular because agents can run away with spend.",
+  "zh": "最后,尤其是在过去六个月里,这里发生故障的影响越来越重要,特别是因为智能体可能把花费跑飞。"
+ },
+ {
+  "seg": 30,
+  "start": 203.667,
+  "end": 209.589,
+  "speaker": "Unknown",
+  "en": "And so we're thinking about how to give more controls to our customers that they can offer to theirs.",
+  "zh": "所以我们正在思考如何给我们的客户更多控制能力,让他们可以提供给他们的客户。"
+ },
+ {
+  "seg": 31,
+  "start": 209.989,
+  "end": 216.432,
+  "speaker": "Unknown",
+  "en": "So think like, for example, having agents have a wallet that only they can spend from and having controls at that level.",
+  "zh": "比如说,让智能体拥有一个只有它们能从中消费的钱包,并在那个层级上做控制。"
+ },
+ {
+  "seg": 32,
+  "start": 217.634,
+  "end": 219.295,
+  "speaker": "Unknown",
+  "en": "Okay, so that's what we're gonna go into today.",
+  "zh": "好的,这就是我们今天要讲的内容。"
+ },
+ {
+  "seg": 33,
+  "start": 219.315,
+  "end": 221.756,
+  "speaker": "Unknown",
+  "en": "Let's actually get into doing this demonstration.",
+  "zh": "我们实际开始做这个演示吧。"
+ },
+ {
+  "seg": 34,
+  "start": 222.077,
+  "end": 223.277,
+  "speaker": "Unknown",
+  "en": "You're gonna see how simple it is.",
+  "zh": "你们会看到这有多简单。"
+ },
+ {
+  "seg": 35,
+  "start": 223.898,
+  "end": 227.16,
+  "speaker": "Unknown",
+  "en": "So I'm gonna initialize Stripe projects right now.",
+  "zh": "所以我现在要初始化 Stripe projects。"
+ },
+ {
+  "seg": 36,
+  "start": 232.203,
+  "end": 232.443,
+  "speaker": "Unknown",
+  "en": "Oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 37,
+  "start": 234.404,
+  "end": 238.407,
+  "speaker": "Unknown",
+  "en": "And this is, in fact, a live demo, so you should expect all sorts of different things to happen here.",
+  "zh": "这实际上是一个现场演示,所以你们应该会看到各种各样的事情发生。"
+ },
+ {
+  "seg": 38,
+  "start": 239.167,
+  "end": 242.329,
+  "speaker": "Unknown",
+  "en": "So what this is doing is, again, initializing Stripe projects.",
+  "zh": "所以它现在正在做的,就是初始化 Stripe projects。"
+ },
+ {
+  "seg": 39,
+  "start": 242.849,
+  "end": 245.151,
+  "speaker": "Unknown",
+  "en": "We are going to, I think this should work.",
+  "zh": "我们将要……我觉得这应该能行。"
+ },
+ {
+  "seg": 40,
+  "start": 247.947,
+  "end": 251.908,
+  "speaker": "Unknown",
+  "en": "Um, so we've selected that we're going to use Claude here, and we have a very simple thing.",
+  "zh": "嗯,我们已经选择了在这里使用 Claude,而且我们有一个非常简单的东西。"
+ },
+ {
+  "seg": 41,
+  "start": 251.928,
+  "end": 255.029,
+  "speaker": "Unknown",
+  "en": "I go around the world basically talking with companies about their business model.",
+  "zh": "我基本上是满世界跑,和各家公司聊他们的商业模式。"
+ },
+ {
+  "seg": 42,
+  "start": 256.01,
+  "end": 256.79,
+  "speaker": "Unknown",
+  "en": "It's not initialized.",
+  "zh": "它没有初始化。"
+ },
+ {
+  "seg": 43,
+  "start": 257.87,
+  "end": 258.09,
+  "speaker": "Unknown",
+  "en": "Uh-huh.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 44,
+  "start": 258.371,
+  "end": 258.611,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 45,
+  "start": 258.651,
+  "end": 262.092,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 46,
+  "start": 262.112,
+  "end": 262.432,
+  "speaker": "Unknown",
+  "en": "Come on up.",
+  "zh": "上来吧。"
+ },
+ {
+  "seg": 47,
+  "start": 277.125,
+  "end": 277.625,
+  "speaker": "Unknown",
+  "en": "Cool, I got it.",
+  "zh": "好,我搞定了。"
+ },
+ {
+  "seg": 48,
+  "start": 277.705,
+  "end": 278.805,
+  "speaker": "Unknown",
+  "en": "All right, thanks.",
+  "zh": "好的,谢谢。"
+ },
+ {
+  "seg": 49,
+  "start": 278.905,
+  "end": 287.368,
+  "speaker": "Unknown",
+  "en": "All right, sweet.",
+  "zh": "好了,不错。"
+ },
+ {
+  "seg": 50,
+  "start": 288.768,
+  "end": 289.648,
+  "speaker": "Unknown",
+  "en": "Yes, let's proceed.",
+  "zh": "是的,我们继续。"
+ },
+ {
+  "seg": 51,
+  "start": 292.869,
+  "end": 296.73,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 52,
+  "start": 296.75,
+  "end": 299.111,
+  "speaker": "Unknown",
+  "en": "All right, so our product is, in fact, ready now.",
+  "zh": "那么我们的产品现在实际上已经准备好了。"
+ },
+ {
+  "seg": 53,
+  "start": 301.913,
+  "end": 304.734,
+  "speaker": "Unknown",
+  "en": "And so I go around the world talking with companies about how to set up their businesses.",
+  "zh": "我在世界各地走访各家公司,谈如何搭建他们的业务。"
+ },
+ {
+  "seg": 54,
+  "start": 305.115,
+  "end": 310.237,
+  "speaker": "Unknown",
+  "en": "One of the things that's really top of mind right now is replicating certain business models.",
+  "zh": "目前非常受关注的话题之一是复制某些商业模式。"
+ },
+ {
+  "seg": 55,
+  "start": 310.257,
+  "end": 312.698,
+  "speaker": "Unknown",
+  "en": "People want to get off the ground without having to think about it too deeply.",
+  "zh": "人们希望无需深入思考就能起步。"
+ },
+ {
+  "seg": 56,
+  "start": 313.218,
+  "end": 316.9,
+  "speaker": "Unknown",
+  "en": "One of the key topics right now is replicating Lovable's pricing model.",
+  "zh": "当下的关键话题之一是复制 Lovable 的定价模式。"
+ },
+ {
+  "seg": 57,
+  "start": 317.681,
+  "end": 328.086,
+  "speaker": "Unknown",
+  "en": "And so I'm going to enter a prompt in natural language that allows us to guide the metronome billing agent and Stripe to set up a demo account that has that",
+  "zh": "所以我要用自然语言输入一个提示词,让我们引导 Metronome 计费智能体和 Stripe 来建立一个具备该要素的演示账户,"
+ },
+ {
+  "seg": 58,
+  "start": 329.684,
+  "end": 330.906,
+  "speaker": "Unknown",
+  "en": "That has that element to it.",
+  "zh": "具备那个要素。"
+ },
+ {
+  "seg": 59,
+  "start": 331.327,
+  "end": 341.483,
+  "speaker": "Unknown",
+  "en": "And create a demo billing engine in metronome mimicking the lovable pricing model.",
+  "zh": "并在 Metronome 中创建一个模仿 Lovable 定价模式的演示计费引擎。"
+ },
+ {
+  "seg": 60,
+  "start": 341.723,
+  "end": 341.964,
+  "speaker": "Unknown",
+  "en": "Oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 61,
+  "start": 342.184,
+  "end": 344.127,
+  "speaker": "Unknown",
+  "en": "Let me just make sure I don't misspell that.",
+  "zh": "让我确认一下没有拼错。"
+ },
+ {
+  "seg": 62,
+  "start": 345.873,
+  "end": 358.21,
+  "speaker": "Unknown",
+  "en": "And so if you want to on the side you can see you can open up Lovable's pricing and you can see all the different elements to it but in particular they have a prepaid credit auto recharge model which is very common in sort of a self-serve motion today.",
+  "zh": "如果你想,你可以在旁边打开 Lovable 的定价页面,你会看到其中所有不同的要素,特别是他们有一种预付额度自动充值模式,这在当今的自助服务模式中非常常见。"
+ },
+ {
+  "seg": 63,
+  "start": 359.231,
+  "end": 360.133,
+  "speaker": "Unknown",
+  "en": "So let's get this going.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 64,
+  "start": 361.895,
+  "end": 366.038,
+  "speaker": "Unknown",
+  "en": "So while this is going, I want you to pay attention to a couple of things that will happen.",
+  "zh": "在这个过程进行的同时,我希望你注意将会发生的几件事。"
+ },
+ {
+  "seg": 65,
+  "start": 367.079,
+  "end": 371.542,
+  "speaker": "Unknown",
+  "en": "And in particular, if you look at the slide on the left, there's a couple of different points that I want to hit on.",
+  "zh": "特别是,如果你看左边这张幻灯片,有几个要点我想讲一下。"
+ },
+ {
+  "seg": 66,
+  "start": 372.002,
+  "end": 381.289,
+  "speaker": "Unknown",
+  "en": "So first, again, Metronome is a very complicated and deep product, and there's a lot of different ways to hit foot guns, et cetera, if you're not guided.",
+  "zh": "首先再说一次,Metronome 是一个非常复杂且深刻的产品,如果没有引导,有很多地方可能会踩坑。"
+ },
+ {
+  "seg": 67,
+  "start": 381.329,
+  "end": 388.854,
+  "speaker": "Unknown",
+  "en": "And so what we've invested in is building an extensible set of skills files that can provide context to the agent that's implementing Metronome and working with our API.",
+  "zh": "因此我们所投入建设的,是一套可扩展的 skills 文件,它能为正在实施 Metronome 并使用我们 API 的智能体提供上下文。"
+ },
+ {
+  "seg": 68,
+  "start": 390.235,
+  "end": 393.698,
+  "speaker": "Unknown",
+  "en": "These skills files are also portable and easy to install, so you can use them on your own side.",
+  "zh": "这些 skills 文件也是可移植且易于安装的,所以你可以在自己的环境里使用它们。"
+ },
+ {
+  "seg": 69,
+  "start": 394.398,
+  "end": 399.762,
+  "speaker": "Unknown",
+  "en": "And what it does is it allows us to essentially remove the friction associated with getting started.",
+  "zh": "它的作用是让我们从根本上消除上手相关的摩擦。"
+ },
+ {
+  "seg": 70,
+  "start": 400.583,
+  "end": 407.228,
+  "speaker": "Unknown",
+  "en": "And that's very important because you want to be able to test and work with the product and evolve over time.",
+  "zh": "这非常重要,因为你要能够测试和使用产品,并随时间演进。"
+ },
+ {
+  "seg": 71,
+  "start": 407.429,
+  "end": 408.77,
+  "speaker": "Unknown",
+  "en": "You're seeing here an error code.",
+  "zh": "你在这里看到了一个错误代码。"
+ },
+ {
+  "seg": 72,
+  "start": 409.45,
+  "end": 412.573,
+  "speaker": "Unknown",
+  "en": "From a developer experience standpoint, nothing new, but",
+  "zh": "从开发者体验的角度看,这没什么新鲜的,但是"
+ },
+ {
+  "seg": 73,
+  "start": 413.245,
+  "end": 420.41,
+  "speaker": "Unknown",
+  "en": "Our perspective is to have much more verbose and clear errors so that the agent can self-correct.",
+  "zh": "我们的理念是提供更加详细、更清晰的错误信息,让智能体能够自我纠正。"
+ },
+ {
+  "seg": 74,
+  "start": 421.531,
+  "end": 431.718,
+  "speaker": "Unknown",
+  "en": "And so, again, our developer experience teams are working on finding more failure cases like that and being able to help guide, especially in the initialization and setup.",
+  "zh": "因此,我们的开发者体验团队正在努力寻找更多类似的失败案例,以便能够提供引导,尤其是在初始化和设置阶段。"
+ },
+ {
+  "seg": 75,
+  "start": 433.019,
+  "end": 446.891,
+  "speaker": "Unknown",
+  "en": "One thing that's important here, I think keying off of the last talk that was in this room, the goal that we have from a product development standpoint is not to have a customer operate the entire system without a human in the loop.",
+  "zh": "这里有一点很重要,我想接着刚才在这个房间里进行的那场演讲说,从产品开发的角度看,我们的目标并不是让客户在没有人在环的情况下操作整个系统。"
+ },
+ {
+  "seg": 76,
+  "start": 447.211,
+  "end": 455.359,
+  "speaker": "Unknown",
+  "en": "This is a type of system that is both business critical, has deep business logic behind it, and so instead what we are recommending and building toward is to",
+  "zh": "这类系统既是业务关键的,背后又有深厚的业务逻辑,所以我们所推荐并正在构建的方向是"
+ },
+ {
+  "seg": 77,
+  "start": 456.019,
+  "end": 462.982,
+  "speaker": "Unknown",
+  "en": "Use your coding agent as a way to accelerate your work and get into a test mode and test environment.",
+  "zh": "把你的编码智能体当作加速工作的方式,进入测试模式和测试环境。"
+ },
+ {
+  "seg": 78,
+  "start": 463.722,
+  "end": 466.563,
+  "speaker": "Unknown",
+  "en": "And so, again, what we're doing here, we're not expecting to ship into production.",
+  "zh": "所以,我们在这里做的事情,并不期望上线到生产环境。"
+ },
+ {
+  "seg": 79,
+  "start": 466.583,
+  "end": 467.744,
+  "speaker": "Unknown",
+  "en": "We're not pushing it into production.",
+  "zh": "我们不会把它推到生产环境。"
+ },
+ {
+  "seg": 80,
+  "start": 468.084,
+  "end": 473.466,
+  "speaker": "Unknown",
+  "en": "In fact, when we go into the metronome environment, you'll see that basically what we've done is built a sandbox experience.",
+  "zh": "事实上,当我们进入 Metronome 环境时,你会看到我们基本上做的只是构建了一个沙箱体验。"
+ },
+ {
+  "seg": 81,
+  "start": 474.467,
+  "end": 483.09,
+  "speaker": "Unknown",
+  "en": "And in the metronome context, what it means to sort of test your initial setup is not just that you can see a contract or something like that or see a customer provision.",
+  "zh": "在 Metronome 的语境下,测试你的初始设置不只是能看到一个合同之类的,或者看到一个客户被开通,"
+ },
+ {
+  "seg": 82,
+  "start": 483.39,
+  "end": 484.731,
+  "speaker": "Unknown",
+  "en": "But also you need to see usage.",
+  "zh": "你还需要看到用量。"
+ },
+ {
+  "seg": 83,
+  "start": 484.951,
+  "end": 496.216,
+  "speaker": "Unknown",
+  "en": "And so on the back end here, our skills files are directing the agent to actually flow usage into the Metronome platform so that you can see what a live customer would look like.",
+  "zh": "所以在这里的后端,我们的 skills 文件正在引导智能体把用量真正流入 Metronome 平台,这样你就能看到一个真实客户会是什么样子。"
+ },
+ {
+  "seg": 84,
+  "start": 499.453,
+  "end": 501.534,
+  "speaker": "Unknown",
+  "en": "I'm going to do one more beat on Stripe projects here.",
+  "zh": "我在这里想再多讲一下 Stripe 项目。"
+ },
+ {
+  "seg": 85,
+  "start": 501.894,
+  "end": 509.816,
+  "speaker": "Unknown",
+  "en": "I think in this case, what's happening is that Stripe projects, so using Stripe CLI, it's engaging with Metronome, which is an external vendor here.",
+  "zh": "我想在这个案例中,正在发生的是,Stripe 项目——也就是使用 Stripe CLI——正在与 Metronome 互动,Metronome 在这里是外部供应商。"
+ },
+ {
+  "seg": 86,
+  "start": 510.096,
+  "end": 515.858,
+  "speaker": "Unknown",
+  "en": "You could also imagine also provisioning a bunch of other applications and using natural language to call for those as well.",
+  "zh": "你也可以想象再开通一堆其他应用,并用自然语言去调用它们。"
+ },
+ {
+  "seg": 87,
+  "start": 516.858,
+  "end": 523.901,
+  "speaker": "Unknown",
+  "en": "And so again, what's nice about this is that it basically removes the friction associated with setting up a test application or a test environment.",
+  "zh": "所以同样,这样做的好处是它从根本上消除了搭建测试应用或测试环境相关的摩擦。"
+ },
+ {
+  "seg": 88,
+  "start": 525.445,
+  "end": 531.649,
+  "speaker": "Unknown",
+  "en": "And we, again, have seen a ton of usage of this form, and we expect to see even more.",
+  "zh": "而且我们再次看到了大量这种形式的用法,我们预计还会看到更多。"
+ },
+ {
+  "seg": 89,
+  "start": 532.97,
+  "end": 546.539,
+  "speaker": "Unknown",
+  "en": "This is sort of, like, from our perspective coming into Stripe, this is one of the things that's been really amazing, is that Stripe is on the forefront of thinking about agentic commerce and preparing primitives for the moment that we're in right now, where, in fact, this is exactly what's happening.",
+  "zh": "从我们来到 Stripe 的角度看,这有点像,这是真正令人惊叹的事情之一,就是 Stripe 站在思考智能体商务的前沿,并为我们当下所处的时刻准备着原语,而事实上,这正是正在发生的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 546.74,
+  "end": 554.265,
+  "speaker": "Unknown",
+  "en": "Companies that are launching new applications and new businesses, we've seen an exponential increase in new business formation at Stripe.",
+  "zh": "那些正在推出新应用和新业务的公司,我们在 Stripe 看到了新业务形成的指数级增长。"
+ },
+ {
+  "seg": 91,
+  "start": 555.025,
+  "end": 562.332,
+  "speaker": "Unknown",
+  "en": "And then in addition to that, an exponential increase in customers that are using Stripe and using Metronome through the coding agents themselves.",
+  "zh": "除此之外,还有通过编码智能体本身使用 Stripe 和 Metronome 的客户的指数级增长。"
+ },
+ {
+  "seg": 92,
+  "start": 564.374,
+  "end": 565.895,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 93,
+  "start": 567.096,
+  "end": 569.058,
+  "speaker": "Unknown",
+  "en": "We are almost done here, I believe.",
+  "zh": "我相信我们快完成了。"
+ },
+ {
+  "seg": 94,
+  "start": 571.147,
+  "end": 584.67,
+  "speaker": "Unknown",
+  "en": "While this is going, another sort of thing to sit back and think about, when I go around to product teams today, they're obviously thinking about building for agents, but I think one of the things that's important to do is to decode what exactly does that mean.",
+  "zh": "在这个进行的同时,还有一件事值得停下来想一想,如今我去走访各个产品团队,他们显然在思考为智能体而构建,但我认为重要的一点是要解码这到底意味着什么。"
+ },
+ {
+  "seg": 95,
+  "start": 584.83,
+  "end": 592.812,
+  "speaker": "Unknown",
+  "en": "And so what I like about this sort of framework for thinking about the coding agents today is thinking about the different roles that they play.",
+  "zh": "所以我喜欢用这样一个框架来思考当今的编码智能体,就是思考它们扮演的不同角色。"
+ },
+ {
+  "seg": 96,
+  "start": 593.232,
+  "end": 599.774,
+  "speaker": "Unknown",
+  "en": "So obviously companies are launching agents as a product, and therefore that's one of the reasons why they need to have a usage-based pricing model,",
+  "zh": "显然,各公司正在把智能体作为产品推出,因此这也是他们需要基于用量的定价模式的原因之一,"
+ },
+ {
+  "seg": 97,
+  "start": 600.735,
+  "end": 605.686,
+  "speaker": "Unknown",
+  "en": "If the agent can be the product and run up a token bill, it's important for you to be able to meter on that.",
+  "zh": "如果智能体可以成为产品并烧出高额的 token 账单,那么你能够对此进行计量就很重要。"
+ },
+ {
+  "seg": 98,
+  "start": 607.184,
+  "end": 616.632,
+  "speaker": "Unknown",
+  "en": "What we're talking about here with the Stripe project CLI is the agent as a buyer, so literally procuring their initial Stripe instance as well as additional backend services.",
+  "zh": "我们在这里用 Stripe project CLI 谈论的是智能体作为买家,字面意义上采购它们的初始 Stripe 实例以及其他后端服务。"
+ },
+ {
+  "seg": 99,
+  "start": 617.053,
+  "end": 624.8,
+  "speaker": "Unknown",
+  "en": "That's important to basically make your services discoverable to agents that may be building an application or working in the open web.",
+  "zh": "这一点很重要,就是让你的服务对那些可能正在构建应用或在开放网络中工作的智能体来说是可被发现的。"
+ },
+ {
+  "seg": 100,
+  "start": 625.721,
+  "end": 632.107,
+  "speaker": "Unknown",
+  "en": "On the Stripe side, that means both in a B2C environment, so they're working on agentic commerce, but then in the metronome environment, we're talking about in a B2B context.",
+  "zh": "在 Stripe 这边，这意味着既在 B2C 环境中，他们正在做智能体商务，同时在 metronome 环境中，我们说的是 B2B 场景。"
+ },
+ {
+  "seg": 101,
+  "start": 632.947,
+  "end": 636.209,
+  "speaker": "Unknown",
+  "en": "And so there's sort of like multiple different levels to play out there.",
+  "zh": "所以这里有多个不同的层面可以展开。"
+ },
+ {
+  "seg": 102,
+  "start": 636.85,
+  "end": 641.792,
+  "speaker": "Unknown",
+  "en": "And then finally, one of the reasons why Metronome is really taking off right now is because of the agents as a user.",
+  "zh": "然后最后，Metronome 现在真正起飞的原因之一就是智能体作为用户。"
+ },
+ {
+  "seg": 103,
+  "start": 642.513,
+  "end": 645.754,
+  "speaker": "Unknown",
+  "en": "And so, for example, we've been working with HubSpot for the past couple of years.",
+  "zh": "举个例子，过去几年我们一直在和 HubSpot 合作。"
+ },
+ {
+  "seg": 104,
+  "start": 646.035,
+  "end": 651.418,
+  "speaker": "Unknown",
+  "en": "They are currently on a path to transform their entire business from a seats-based model to a credits-based model.",
+  "zh": "他们目前正走在一条把整个业务从按席位模式转变为按积分模式的道路上。"
+ },
+ {
+  "seg": 105,
+  "start": 651.458,
+  "end": 658.802,
+  "speaker": "Unknown",
+  "en": "If you've seen some things in the news, that's starting in EMEA where they have dramatically lowered their seats-based price and added on a credits-based model.",
+  "zh": "如果你看过一些新闻，这是从 EMEA 开始的，他们大幅降低了按席位的价格，并加上了按积分的模式。"
+ },
+ {
+  "seg": 106,
+  "start": 659.502,
+  "end": 666.205,
+  "speaker": "Unknown",
+  "en": "The fundamental reason behind that is because what they need to be concerned about is a world in which an agent can operate their entire system.",
+  "zh": "这背后的根本原因是，他们需要担心的是一个智能体可以操作他们整个系统的世界。"
+ },
+ {
+  "seg": 107,
+  "start": 666.886,
+  "end": 674.75,
+  "speaker": "Unknown",
+  "en": "And in that world, essentially paying for a seat-level access to the product to perform your work is no longer important in some sense.",
+  "zh": "在那个世界里，从某种意义上说，为产品支付席位级别的访问权限来完成你的工作就不再重要了。"
+ },
+ {
+  "seg": 108,
+  "start": 674.93,
+  "end": 678.051,
+  "speaker": "Unknown",
+  "en": "We've been talking about this as sort of headlessness.",
+  "zh": "我们一直在把它称作某种无头化(headlessness)。"
+ },
+ {
+  "seg": 109,
+  "start": 678.491,
+  "end": 680.512,
+  "speaker": "Unknown",
+  "en": "Salesforce, various others have talked about this.",
+  "zh": "Salesforce 和其他一些公司也谈过这个。"
+ },
+ {
+  "seg": 110,
+  "start": 680.793,
+  "end": 682.673,
+  "speaker": "Unknown",
+  "en": "This is what Metronome is literally seeing today.",
+  "zh": "这就是 Metronome 今天字面上正在看到的。"
+ },
+ {
+  "seg": 111,
+  "start": 683.514,
+  "end": 686.335,
+  "speaker": "Unknown",
+  "en": "And so as like one example, last week I was at a",
+  "zh": "所以举个例子，上周我在一个"
+ },
+ {
+  "seg": 112,
+  "start": 687.916,
+  "end": 699.886,
+  "speaker": "Unknown",
+  "en": "I was at Andreessen's demo day where all five of the demoing companies were sales-led agents meant to operate platforms like SAP or operate invoicing platforms, et cetera, et cetera.",
+  "zh": "我在 Andreessen 的 demo day 上，所有五家演示公司都是面向销售的智能体， meant to operate 像 SAP 这样的平台或操作发票平台，等等等等。"
+ },
+ {
+  "seg": 113,
+  "start": 700.866,
+  "end": 712.596,
+  "speaker": "Unknown",
+  "en": "And again, in that world, it's important for you to have a usage-based pricing model because you have the possibility of essentially all of the value accruing to essentially one user of your platform, which in this case would be an agent.",
+  "zh": "再说一次，在那个世界里，拥有基于用量的定价模式很重要，因为有可能所有的价值基本上都归属于你平台的 essentially 一个用户，在这个案例中就是一个智能体。"
+ },
+ {
+  "seg": 114,
+  "start": 714.859,
+  "end": 719.923,
+  "speaker": "Unknown",
+  "en": "If you guys are thinking about pricing models and not just developing in the agenting space, I'm a good person to talk to.",
+  "zh": "如果你们在想定价模式，而且不只是想在智能体领域开发，我是一个可以聊的好人。"
+ },
+ {
+  "seg": 115,
+  "start": 719.963,
+  "end": 721.184,
+  "speaker": "Unknown",
+  "en": "I'll be out here in a second.",
+  "zh": "我一会儿就过来。"
+ },
+ {
+  "seg": 116,
+  "start": 721.544,
+  "end": 734.815,
+  "speaker": "Unknown",
+  "en": "Some of the things that we're thinking about here are basically not only having a credit space model, which has been dominant on the market since OpenAI launched their prepaid credit auto recharge model a couple of years ago through Metronome.",
+  "zh": "我们在这里思考的一些事情基本上不仅是拥有积分空间模式，自从 OpenAI 几年前通过 Metronome 推出他们的预付费积分自动充值模式以来，这种模式一直在市场上占主导地位。"
+ },
+ {
+  "seg": 117,
+  "start": 735.275,
+  "end": 741.5,
+  "speaker": "Unknown",
+  "en": "But in addition to that, offering more and extended offers, including in a sales-led and an enterprise environment.",
+  "zh": "但除此之外，提供更多和扩展的方案，包括在销售主导和企业环境中。"
+ },
+ {
+  "seg": 118,
+  "start": 742.201,
+  "end": 762.877,
+  "speaker": "Unknown",
+  "en": "And so, for example, what's happening with all the coding agents in the enterprise, think like Cognition or Cursor or OpenAI and Anthropic themselves, is that they are starting to adopt more commit structures like the CSPs have done for the past 10 years, think having prepaid commitments, postpaid commitments, and specific types of offers for specific types of customers.",
+  "zh": "举个例子，所有编程智能体在企业中的情况，想想 Cognition 或 Cursor 或 OpenAI 和 Anthropic 自己，就是他们开始采用更多 commit 结构，就像 CSP 们过去 10 年所做的那样，想想拥有预付费承诺、后付费承诺，以及针对特定类型客户的特定类型的方案。"
+ },
+ {
+  "seg": 119,
+  "start": 764.363,
+  "end": 769.906,
+  "speaker": "Unknown",
+  "en": "Okay, I think that we should be good to go now, and let's see what it looks like when we open up Metronome.",
+  "zh": "好的，我想我们现在应该可以开始了，让我们看看打开 Metronome 会是什么样子。"
+ },
+ {
+  "seg": 120,
+  "start": 781.492,
+  "end": 782.032,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 121,
+  "start": 791.838,
+  "end": 792.138,
+  "speaker": "Unknown",
+  "en": "What's up?",
+  "zh": "怎么样?"
+ },
+ {
+  "seg": 122,
+  "start": 795.112,
+  "end": 795.412,
+  "speaker": "Unknown",
+  "en": "Aha.",
+  "zh": "啊哈。"
+ },
+ {
+  "seg": 123,
+  "start": 797.475,
+  "end": 799.537,
+  "speaker": "Unknown",
+  "en": "We've done multiple different versions of this, as you might imagine.",
+  "zh": "正如你可以想象的，我们已经做过多个不同的版本。"
+ },
+ {
+  "seg": 124,
+  "start": 808.086,
+  "end": 808.467,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 125,
+  "start": 809.268,
+  "end": 813.893,
+  "speaker": "Unknown",
+  "en": "So as we open this up, uh, pull this.",
+  "zh": "那么当我们打开这个，呃，把它拉出来。"
+ },
+ {
+  "seg": 126,
+  "start": 825.562,
+  "end": 827.743,
+  "speaker": "Unknown",
+  "en": "Fun, I love all these demos where you're just looking at people logging in.",
+  "zh": "有趣，我喜欢所有这些你只是看着别人登录的演示。"
+ },
+ {
+  "seg": 127,
+  "start": 828.703,
+  "end": 836.465,
+  "speaker": "Unknown",
+  "en": "So as we open this up, so the general pain that Metronome has is an onboarding wizard meant for a human that needs to set up their environment.",
+  "zh": "那么当我们打开这个，Metronome 的一般痛点是有一个面向需要设置自己环境的人类的引导向导。"
+ },
+ {
+  "seg": 128,
+  "start": 836.805,
+  "end": 839.445,
+  "speaker": "Unknown",
+  "en": "We don't need this now because we had an agent set up this environment.",
+  "zh": "我们现在不需要这个，因为我们让一个智能体设置了这个环境。"
+ },
+ {
+  "seg": 129,
+  "start": 839.665,
+  "end": 842.806,
+  "speaker": "Unknown",
+  "en": "And as I come in, you're gonna see some of the core Metronome primitives here.",
+  "zh": "当我进来时，你会在这里看到一些 Metronome 的核心原语。"
+ },
+ {
+  "seg": 130,
+  "start": 843.306,
+  "end": 845.267,
+  "speaker": "Unknown",
+  "en": "Let's start by looking at the customer that was set up.",
+  "zh": "让我们先看看被设置好的客户。"
+ },
+ {
+  "seg": 131,
+  "start": 845.427,
+  "end": 846.667,
+  "speaker": "Unknown",
+  "en": "Again, this is for testing purposes.",
+  "zh": "再说一次，这是用于测试目的。"
+ },
+ {
+  "seg": 132,
+  "start": 847.727,
+  "end": 851.429,
+  "speaker": "Unknown",
+  "en": "Up at the top, you're seeing the customer with a certain lifetime spend.",
+  "zh": "在顶部，你会看到具有一定生命周期支出的客户。"
+ },
+ {
+  "seg": 133,
+  "start": 851.81,
+  "end": 856.392,
+  "speaker": "Unknown",
+  "en": "This was auto, again, populated by the agent for the demo environment.",
+  "zh": "这是自动的，再重复一次，由智能体为演示环境填充的。"
+ },
+ {
+  "seg": 134,
+  "start": 857.053,
+  "end": 861.755,
+  "speaker": "Unknown",
+  "en": "I'm immediately going to go into their invoice, and we'll come back to this in a second.",
+  "zh": "我马上要进入他们的发票，我们稍后会回到这个。"
+ },
+ {
+  "seg": 135,
+  "start": 862.175,
+  "end": 870.24,
+  "speaker": "Unknown",
+  "en": "And so what you see here is a draft invoice that was created associated with sort of replicating the lovable pricing model again.",
+  "zh": "所以你在这里看到的是一张草稿发票，它的创建与某种再次复制 lovable 定价模式相关联。"
+ },
+ {
+  "seg": 136,
+  "start": 870.74,
+  "end": 873.083,
+  "speaker": "Unknown",
+  "en": "So if you have this on the side, you can see all the different elements of that.",
+  "zh": "如果你把这个放在旁边，你可以看到它的所有不同元素。"
+ },
+ {
+  "seg": 137,
+  "start": 873.123,
+  "end": 880.29,
+  "speaker": "Unknown",
+  "en": "But the core aspect of Lovable's pricing model is a credits-only pricing model where you auto-recharge on a monthly basis.",
+  "zh": "但 Lovable 定价模式的核心方面是一个纯积分定价模式，你在每月的基础上自动充值。"
+ },
+ {
+  "seg": 138,
+  "start": 880.33,
+  "end": 885.215,
+  "speaker": "Unknown",
+  "en": "And then in addition to that, they have multiple different types of credits that are scoped to different types of usage.",
+  "zh": "除此之外，他们有多种不同类型的积分，限定于不同类型的用量。"
+ },
+ {
+  "seg": 139,
+  "start": 885.715,
+  "end": 891.882,
+  "speaker": "Unknown",
+  "en": "Beyond the use of those credits, then, if you go over and if you overspend, then you have an invoice at the end of the period.",
+  "zh": "超出这些积分的使用，然后，如果你超支了，那么你在周期结束时有一张发票。"
+ },
+ {
+  "seg": 140,
+  "start": 892.843,
+  "end": 898.068,
+  "speaker": "Unknown",
+  "en": "So a couple of the different like concepts there that are relatively complicated to administer is the credit itself.",
+  "zh": "所以其中几个相对难以管理的概念就是积分本身。"
+ },
+ {
+  "seg": 141,
+  "start": 898.148,
+  "end": 900.671,
+  "speaker": "Unknown",
+  "en": "And so Metronome has a first class credit object.",
+  "zh": "因此 Metronome 有一等公民的积分对象。"
+ },
+ {
+  "seg": 142,
+  "start": 900.991,
+  "end": 905.676,
+  "speaker": "Unknown",
+  "en": "Here what you're seeing is that there was a credit created for the initial period that we're testing for.",
+  "zh": "这里你看到的是为我们正在测试的初始周期创建了一个积分。"
+ },
+ {
+  "seg": 143,
+  "start": 905.976,
+  "end": 909.559,
+  "speaker": "Unknown",
+  "en": "We had usage that drew down from that entire credit balance.",
+  "zh": "我们有用量从整个积分余额中扣减。"
+ },
+ {
+  "seg": 144,
+  "start": 910.16,
+  "end": 918.131,
+  "speaker": "Unknown",
+  "en": "And then finally, if we go back to the customer pane, in addition to that, you can see the usage that we plopped in.",
+  "zh": "然后，最后，如果我们回到客户面板，除此之外，你可以看到我们放入的用量。"
+ },
+ {
+  "seg": 145,
+  "start": 918.231,
+  "end": 922.838,
+  "speaker": "Unknown",
+  "en": "Obviously, in a production environment, you would be seeing this against real usage that you have.",
+  "zh": "显然，在生产环境中，你会看到这是针对你拥有的真实用量。"
+ },
+ {
+  "seg": 146,
+  "start": 923.458,
+  "end": 926.703,
+  "speaker": "Unknown",
+  "en": "The core reason, again, to show it in this manner is to just see.",
+  "zh": "再次强调，以这种方式展示它的核心原因只是为了看看。"
+ },
+ {
+  "seg": 147,
+  "start": 927.564,
+  "end": 931.426,
+  "speaker": "Unknown",
+  "en": "What it would look like if you adopted the pricing model and then had real usage against it.",
+  "zh": "如果你采用这个定价模式然后有真实的用量对它，会是什么样子。"
+ },
+ {
+  "seg": 148,
+  "start": 931.446,
+  "end": 933.227,
+  "speaker": "Unknown",
+  "en": "Again, I'm going to come back to the invoice.",
+  "zh": "再次，我要回到发票。"
+ },
+ {
+  "seg": 149,
+  "start": 933.267,
+  "end": 936.169,
+  "speaker": "Unknown",
+  "en": "And so here you can click into each of these different components.",
+  "zh": "所以在这里你可以点击进入这些不同的组件。"
+ },
+ {
+  "seg": 150,
+  "start": 936.749,
+  "end": 939.451,
+  "speaker": "Unknown",
+  "en": "Build credits, plan mode credits, cloud credits, AI gateway credits.",
+  "zh": "构建额度、计划模式额度、云端额度、AI 网关额度。"
+ },
+ {
+  "seg": 151,
+  "start": 939.471,
+  "end": 941.532,
+  "speaker": "Unknown",
+  "en": "This is exactly what the lovable pricing model looks like.",
+  "zh": "这正是 Lovable 定价模式的样子。"
+ },
+ {
+  "seg": 152,
+  "start": 941.812,
+  "end": 949.197,
+  "speaker": "Unknown",
+  "en": "And again, the way that we coached the agent to be able to build this was just describing a natural language to replicate lovable's pricing model.",
+  "zh": "再说一次，我们指导智能体来构建这个的方式，只是用自然语言描述来复刻 Lovable 的定价模式。"
+ },
+ {
+  "seg": 153,
+  "start": 949.457,
+  "end": 950.918,
+  "speaker": "Unknown",
+  "en": "It was nothing more difficult than that.",
+  "zh": "没有比这更难的东西了。"
+ },
+ {
+  "seg": 154,
+  "start": 952.058,
+  "end": 962.647,
+  "speaker": "Unknown",
+  "en": "So without going into Metronome's platform to great an extent, what we just did here was we initialized and created a Stripe instance.",
+  "zh": "所以在不深入介绍 Metronome 平台的前提下，我们在这里所做的只是初始化并创建了一个 Stripe 实例。"
+ },
+ {
+  "seg": 155,
+  "start": 963.307,
+  "end": 967.21,
+  "speaker": "Unknown",
+  "en": "Through Stripe projects, we also created a Metronome instance.",
+  "zh": "通过 Stripe Projects，我们还创建了一个 Metronome 实例。"
+ },
+ {
+  "seg": 156,
+  "start": 967.671,
+  "end": 976.497,
+  "speaker": "Unknown",
+  "en": "Then we coached the agent to be able to build a demo instance of Metronome that had a real pricing model live in production.",
+  "zh": "然后我们指导智能体构建了一个 Metronome 的演示实例，它有一个真实运行在生产环境中的定价模式。"
+ },
+ {
+  "seg": 157,
+  "start": 976.517,
+  "end": 979.42,
+  "speaker": "Unknown",
+  "en": "And so you could imagine basically testing then from there",
+  "zh": "所以你基本可以想象接下来从那里进行测试"
+ },
+ {
+  "seg": 158,
+  "start": 979.92,
+  "end": 984.142,
+  "speaker": "Unknown",
+  "en": "The exact testing and tweaking from there exactly what you wanted before bringing that into production.",
+  "zh": "在把它投入生产之前，从那里精确地测试和调整你想要的东西。"
+ },
+ {
+  "seg": 159,
+  "start": 985.122,
+  "end": 1001.57,
+  "speaker": "Unknown",
+  "en": "This sort of framework for thinking about development both applies to Stripe, where we are working very, very hard to make it easier to run a complicated business model and get off the ground, but also I think it bears lessons for how we might pursue agentic development more generally outside of Stripe.",
+  "zh": "这种关于开发的思考框架既适用于 Stripe——我们正在非常非常努力地让运行复杂商业模式并起步变得更容易——但我也认为它为我们如何在 Stripe 之外更普遍地推进智能体开发提供了经验。"
+ },
+ {
+  "seg": 160,
+  "start": 1001.95,
+  "end": 1004.751,
+  "speaker": "Unknown",
+  "en": "So again, think about some of the printives that we talked about here today.",
+  "zh": "再说一次，想想我们今天在这里谈到的一些原语。"
+ },
+ {
+  "seg": 161,
+  "start": 1005.231,
+  "end": 1014.014,
+  "speaker": "Unknown",
+  "en": "Agent as a buyer, Agent as your product, Agent as your user, and disambiguating what the different modes and implications of those are.",
+  "zh": "智能体作为买家、智能体作为你的产品、智能体作为你的用户，并厘清这些不同模式的含义和影响。"
+ },
+ {
+  "seg": 162,
+  "start": 1014.494,
+  "end": 1022.877,
+  "speaker": "Unknown",
+  "en": "And then in addition to that, having ways in which we coach the agent to operate more effectively, including in a difficult environment.",
+  "zh": "除此之外，还要有我们指导智能体更有效运作的方法，包括在困难的环境中。"
+ },
+ {
+  "seg": 163,
+  "start": 1023.688,
+  "end": 1024.628,
+  "speaker": "Unknown",
+  "en": "You can try this for yourself now.",
+  "zh": "你现在就可以亲自尝试这个。"
+ },
+ {
+  "seg": 164,
+  "start": 1024.968,
+  "end": 1029.169,
+  "speaker": "Unknown",
+  "en": "So the easiest way to get started is with the commands that are listed here.",
+  "zh": "最简单的上手方式是使用这里列出的命令。"
+ },
+ {
+  "seg": 165,
+  "start": 1029.609,
+  "end": 1038.211,
+  "speaker": "Unknown",
+  "en": "And you can see everything that is available through Stripe Projects through Stripe Projects Online, as there are a number of different providers that are onboarding every day.",
+  "zh": "你可以通过 Stripe Projects Online 查看 Stripe Projects 上所有可用的东西，因为每天都有许多不同的提供商在入驻。"
+ },
+ {
+  "seg": 166,
+  "start": 1038.971,
+  "end": 1051.093,
+  "speaker": "Unknown",
+  "en": "So companies like Vercel, like Hugging Face, et cetera, are basically like working in Stripe Projects environment to be able to make their own products more discoverable to agents that are operating Stripe system.",
+  "zh": "所以像 Vercel、Hugging Face 等公司，基本上都在 Stripe Projects 环境中工作，让自己产品更容易被运行 Stripe 系统的智能体发现。"
+ },
+ {
+  "seg": 167,
+  "start": 1058.402,
+  "end": 1058.783,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

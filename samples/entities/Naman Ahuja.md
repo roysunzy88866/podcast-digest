@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":55,"智能体":330,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":30}</script>
+<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":35,"推理":55,"智能体":334,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":30}</script>
 
 <script>
 (function(){

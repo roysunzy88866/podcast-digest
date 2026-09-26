@@ -174,7 +174,7 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|Decagon CEO:从零想法起步,一年十倍狂奔到 500 人]]<span class="pd-rz">同公司:Decagon、Sierra · 同概念:智能体 (agent)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|编码智能体开始接管机器人：LLM 控制物理世界的前沿]]<span class="pd-rz">同概念:延迟 (latency)、智能体 (agent)、微调 (fine-tune)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1036 @@
+{
+  "episode_id": "2026-08-28-talks-building-the-engine-while-flying-the-pla",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "MCP",
+    "AI 编程",
+    "智能体",
+    "eval",
+    "Figma"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jesse-lumarie",
+      "type": "person",
+      "role": "guest",
+      "name": "Jesse Lumarie",
+      "file": "Jesse Lumarie",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集讲的正是 Figma 如何三个月内做出第一个 MCP server,让 AI 工具直接读取设计稿上下文;内部画布是一张 C++ 场景图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.264,
+            22.688
+          ],
+          "quote": "Hi, I'm Jesse, and I've been a software engineer at Figma for about three years, and I'm going to talk to you about how we built Figma's first MCP server in about three months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            23.649,
+            31.192
+          ],
+          "quote": "And in case you don't know what it is, the Figma MCP server is a way for you to send context between production, code, and design, and vice versa.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            34.314,
+            37.996
+          ],
+          "quote": "They can just use our Figma MCP, and they kind of get started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            75.384,
+            78.586
+          ],
+          "quote": "I thought it'd be great for non-designers to kind of be able to use Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            79.566,
+            84.349
+          ],
+          "quote": "I started creating actually a Figma plugin-based MCP server, and I started doing it one day a week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            185.823,
+            193.667
+          ],
+          "quote": "They would use a single prompt like, help me implement this, and a developer could pull everything that they would normally get from Figma's dev mode into their coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            204.195,
+            210.94
+          ],
+          "quote": "But they all share this kind of mutual goal to make Figma context available for developers wherever they are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            212.989,
+            213.989
+          ],
+          "quote": "So, Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            214.089,
+            220.81
+          ],
+          "quote": "If you know about Figma, Figma is a canvas, and it's represented as a scene graph in C++.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            250.721,
+            256.926
+          ],
+          "quote": "And the reason why we had this is Figma has a sites product, and so we already had a way of basically converting the scene graph into HTML.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            258.267,
+            265.914
+          ],
+          "quote": "If you actually copy the output of the Figma MCP today and you paste it into a simple HTTP server, it should be pixel perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            298.532,
+            304.436
+          ],
+          "quote": "On the left here we have a Figma frame, and on the right we have the React Tailwind code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            388.634,
+            390.796
+          ],
+          "quote": "One interesting thing is Figma",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            392.377,
+            393.857
+          ],
+          "quote": "There are Figma files which we are converting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            437.313,
+            442.516
+          ],
+          "quote": "At Figma, we already had this concept of CodeConnect, which allows you to link design components to components in your codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            568.758,
+            578.061
+          ],
+          "quote": "Today, for example, we expose a host of resources to an agent so that it can figure out how to use our server as well as different help articles within Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            693.951,
+            708.13
+          ],
+          "quote": "When you got the context of a particular component, or sorry, of a particular design in Figma, if we noticed it was a component and that it wasn't code connected, we'd send down a prompt to ask the user if they'd want to map the unleaked component, kind of mimicking elicitation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            829.442,
+            844.87
+          ],
+          "quote": "So, for folks who don't know, the Figma desktop app is Electron, and so, the front end of it is a web app, and we basically just run Figma.com in that, and then we have an IPC bridge between the two, and that sends it to our node process that allows us to talk to the user's file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            931.309,
+            944.614
+          ],
+          "quote": "So, I started hacking with a bunch of MCP folks at an offsite, and this eventually became something called make in your local codebase, which is kind of Figma's agent solution for working on GitHub and local codebases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            962.81,
+            970.197
+          ],
+          "quote": "And then second, Figma's done a great job of letting engineers build and figure out what's next and letting them run with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            986.055,
+            988.056
+          ],
+          "quote": "I'm happy to talk about MCP, Figma and all that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP server",
+      "file": "MCP server",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.264,
+            22.688
+          ],
+          "quote": "Hi, I'm Jesse, and I've been a software engineer at Figma for about three years, and I'm going to talk to you about how we built Figma's first MCP server in about three months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            23.649,
+            31.192
+          ],
+          "quote": "And in case you don't know what it is, the Figma MCP server is a way for you to send context between production, code, and design, and vice versa.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            39.393,
+            50.039
+          ],
+          "quote": "So taking you back to November 2024, long, long time ago, Anthropic released the MCP server spec, and everyone in the world of AI was sort of starting to use it and experiment with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            79.566,
+            84.349
+          ],
+          "quote": "I started creating actually a Figma plugin-based MCP server, and I started doing it one day a week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            157.877,
+            166.301
+          ],
+          "quote": "But even though we didn't know exactly what the MCP server spec would be supported, we knew that it would be extremely powerful and a great product for us to utilize, and so we started building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            168.015,
+            174.958
+          ],
+          "quote": "And so taking a more high-level recap, about a year ago, we launched our local MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            443.356,
+            447.904
+          ],
+          "quote": "We needed a way to use this with our MCP server so that an agent used the correct components.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            545.997,
+            558.68
+          ],
+          "quote": "Once we felt good about the serialization syntax, we started to look at what an MCP server can be, and the MCP spec had a lot of great pieces in it, but some features weren't quite fleshed out within clients and other features we really wish existed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            665.375,
+            676.225
+          ],
+          "quote": "What we wanted to do was ask a user, can we map out your code base for code connections so that our MCP server can link them so that the output would be better and reduce the amount of contacts we send.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            724.478,
+            730.899
+          ],
+          "quote": "The screenshot on the right is the MCP Inspector, and if you haven't used it and you're developing an MCP server, you're doing yourself a disservice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            808.035,
+            819.278
+          ],
+          "quote": "And so after the spec changed and introduced OAuth in March 2025, we had to decide whether to keep our MCP server local or sort of switch to the new remote server using streamable HTTP and kind of like work on all the OAuth problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            869.026,
+            875.171
+          ],
+          "quote": "We launched the MCP server internally, and the reception was extremely honest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体如何消费设计上下文:押注模型做过 RL 的 React Tailwind 代码格式、代码+图片组合让智能体输出更好、用工具调用下发 prompt 模仿 elicitation/sampling、以及「智能体会撒谎」但可作为信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            185.823,
+            193.667
+          ],
+          "quote": "They would use a single prompt like, help me implement this, and a developer could pull everything that they would normally get from Figma's dev mode into their coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            227.432,
+            236.813
+          ],
+          "quote": "We had this internal representation, which was kind of akin to JSX or XML, effectively converting the scene graph into JSS tags and XML tags and passing those to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            326.934,
+            329.898
+          ],
+          "quote": "We'd also pass an image of the current node to the agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            419.064,
+            424.507
+          ],
+          "quote": "But having an agent translate a pixel-perfect version of code isn't enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            443.356,
+            447.904
+          ],
+          "quote": "We needed a way to use this with our MCP server so that an agent used the correct components.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            499.246,
+            509.909
+          ],
+          "quote": "And by connecting the user's code to the design, we're able to pass back effectively what is a pointer, which allows the agent to use the code component leading to our higher fidelity implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            568.758,
+            578.061
+          ],
+          "quote": "Today, for example, we expose a host of resources to an agent so that it can figure out how to use our server as well as different help articles within Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            578.141,
+            587.004
+          ],
+          "quote": "Whereas before, we would send that information down with, like, an error, for example, and the agent would have to crawl, wasting inference and sort of reasoning to sort of figure out what is actually going wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            676.926,
+            683.615
+          ],
+          "quote": "Unfortunately, though, most of the clients didn't implement these features and didn't allow you to properly query the agent in the context of the codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            683.675,
+            689.703
+          ],
+          "quote": "So for sampling, even when VS Code supported it, you could only really query it as a general agent, not specific to the codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            709.415,
+            715.816
+          ],
+          "quote": "If the user said yes, we'd send down another prompt to have the agent scan the code paste for potential matches, mimicking sampling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            716.416,
+            724.038
+          ],
+          "quote": "We'd then service them in a specified format, or ask the agent to do so, and then have them send it back in bulk to make a bunch of code connections.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            734.72,
+            745.367
+          ],
+          "quote": "But the magic, in our case, was combining these two features, because we could ask the user for permission, we can have the agent give us those suggestions, and we can map them, and in the end, the users got a better experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            931.309,
+            944.614
+          ],
+          "quote": "So, I started hacking with a bunch of MCP folks at an offsite, and this eventually became something called make in your local codebase, which is kind of Figma's agent solution for working on GitHub and local codebases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "eval",
+      "file": "eval",
+      "primary": true,
+      "how_described": "本集用 eval 判断哪种设计稿表示更好:第一次手工往 Excel 填两小时评分后彻底转向自动化,最终建成每周跑几百次、用 LLM judge 打分的流水线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            364.978,
+            368.861
+          ],
+          "quote": "And we spent like two hours grading an eval into an Excel spreadsheet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            405.24,
+            409.982
+          ],
+          "quote": "And now we have a eval that sort of runs like hundreds of times a week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codeconnect",
+      "type": "concept",
+      "role": "concept",
+      "name": "CodeConnect",
+      "file": "CodeConnect",
+      "primary": true,
+      "how_described": "本集说它是把设计组件链接到代码库真实组件的机制;接进 MCP 后传回指针而非一大坨 React Tailwind,既高保真又省上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            437.313,
+            442.516
+          ],
+          "quote": "At Figma, we already had this concept of CodeConnect, which allows you to link design components to components in your codebase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集警告 Base64 图片「直接把上下文窗口撑爆了」,而 CodeConnect 的指针表示能把庞大代码换成小组件、省下上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            321.049,
+            323.711
+          ],
+          "quote": "It just blew up the context window and was bad all around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            467.66,
+            470.221
+          ],
+          "quote": "And then second, you'd eat up the context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "react-tailwind",
+      "type": "concept",
+      "role": "concept",
+      "name": "React Tailwind",
+      "file": "React Tailwind",
+      "primary": true,
+      "how_described": "本集讲他们押注 React Tailwind(D2R)作为场景图表示,直觉依据是很多模型都在这类代码上做过 RL,今天输出已能做到像素级精确。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            241.514,
+            250.081
+          ],
+          "quote": "Another option that we had internally was D2R, which is our way of saying a React Tailwind representation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            270.965,
+            280.327
+          ],
+          "quote": "We had a hunch that this representation would be the best one because lots of the models were sort of RL'd on this React Tailwind type of code, and we had a suspicion that it would work really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            298.532,
+            304.436
+          ],
+          "quote": "On the left here we have a Figma frame, and on the right we have the React Tailwind code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            425.167,
+            429.049
+          ],
+          "quote": "I mentioned that the React Tailwind version of our output was pixel-perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            474.103,
+            482.934
+          ],
+          "quote": "We use React Tailwind to basically convert things over, but we want to make sure we do it in the sparsest way possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            490.003,
+            492.104
+          ],
+          "quote": "But now we have like all this React Tailwind code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            510.23,
+            517.192
+          ],
+          "quote": "So effectively you go from like this big old thing of React Tailwind to the small React component that just says use button component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            748.249,
+            759.737
+          ],
+          "quote": "The last sort of little thing that we did was we wanted to make our output the best it could be, and we didn't necessarily know when we were starting, you know, we had our evals, but we didn't know if the React Tailwind code would be successful for other types of code bases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            39.393,
+            50.039
+          ],
+          "quote": "So taking you back to November 2024, long, long time ago, Anthropic released the MCP server spec, and everyone in the world of AI was sort of starting to use it and experiment with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            51.32,
+            55.142
+          ],
+          "quote": "But outside of Anthropic, none of the other AI agents or labs were really using it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            595.708,
+            602.531
+          ],
+          "quote": "And it wasn't really highlighted in the docs until Anthropic added a nice blog post to sort of talk about it, and then some clients started adding it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "elicitation",
+      "type": "concept",
+      "role": "concept",
+      "name": "elicitation",
+      "file": "elicitation",
+      "primary": false,
+      "how_described": "本集说它是 server 向用户提问、拿回输入传回 server 的规范特性,但多数客户端没实现,他们只能用工具调用下发 prompt 模仿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            615.176,
+            618.839
+          ],
+          "quote": "Some other features that we really, really wanted were elicitation and sampling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            620.781,
+            627.127
+          ],
+          "quote": "Elicitation, if you haven't heard of it, is a way for you to ask the user a question, take that input and pass it back to your server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            654.746,
+            658.809
+          ],
+          "quote": "We thought it would be really useful to combine elicitation and sampling into a single workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            693.951,
+            708.13
+          ],
+          "quote": "When you got the context of a particular component, or sorry, of a particular design in Figma, if we noticed it was a component and that it wasn't code connected, we'd send down a prompt to ask the user if they'd want to map the unleaked component, kind of mimicking elicitation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            760.637,
+            765.438
+          ],
+          "quote": "And outside of the elicitation and sampling, which didn't really work as we wanted, there was no way of getting that information from the user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sampling",
+      "type": "concept",
+      "role": "concept",
+      "name": "sampling",
+      "file": "sampling",
+      "primary": false,
+      "how_described": "本集说它是 server 借用客户端 LLM 做小型查询的特性,可惜已弃用、且 VS Code 里只能当通用智能体查询,他们靠下发 prompt 让智能体扫描代码库来模仿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            615.176,
+            618.839
+          ],
+          "quote": "Some other features that we really, really wanted were elicitation and sampling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            636.375,
+            651.664
+          ],
+          "quote": "Which is interesting on its own, but we thought in combination with sampling, which is unfortunately deprecated, but it's fine because you're able to work around it, but sampling is a way of having a server query the client's LLM from our server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            654.746,
+            658.809
+          ],
+          "quote": "We thought it would be really useful to combine elicitation and sampling into a single workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            683.675,
+            689.703
+          ],
+          "quote": "So for sampling, even when VS Code supported it, you could only really query it as a general agent, not specific to the codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            709.415,
+            715.816
+          ],
+          "quote": "If the user said yes, we'd send down another prompt to have the agent scan the code paste for potential matches, mimicking sampling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            760.637,
+            765.438
+          ],
+          "quote": "And outside of the elicitation and sampling, which didn't really work as we wanted, there was no way of getting that information from the user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scene-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "场景图 (scene graph)",
+      "file": "场景图",
+      "primary": false,
+      "how_described": "本集说 Figma 画布在内部是一张 C++ 场景图——由相连节点构成的图,类似 HTML DOM,是喂给智能体前要选择表示格式的对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            214.089,
+            220.81
+          ],
+          "quote": "If you know about Figma, Figma is a canvas, and it's represented as a scene graph in C++.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            224.331,
+            226.731
+          ],
+          "quote": "And we had a number of different ways we could represent the scene graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            227.432,
+            236.813
+          ],
+          "quote": "We had this internal representation, which was kind of akin to JSX or XML, effectively converting the scene graph into JSS tags and XML tags and passing those to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            250.721,
+            256.926
+          ],
+          "quote": "And the reason why we had this is Figma has a sites product, and so we already had a way of basically converting the scene graph into HTML.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            310.181,
+            315.505
+          ],
+          "quote": "We also basically abstract out the images within the code, sorry, within the scene graph, and put them at the top level.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "electron",
+      "type": "concept",
+      "role": "concept",
+      "name": "Electron",
+      "file": "Electron",
+      "primary": false,
+      "how_described": "本集说 Figma 桌面应用是 Electron 的,前端跑 Figma.com,经 IPC 桥接到 Node 进程读写文件系统,暴露 server-send events server 供客户端本地直连。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            829.442,
+            844.87
+          ],
+          "quote": "So, for folks who don't know, the Figma desktop app is Electron, and so, the front end of it is a web app, and we basically just run Figma.com in that, and then we have an IPC bridge between the two, and that sends it to our node process that allows us to talk to the user's file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oauth",
+      "type": "concept",
+      "role": "concept",
+      "name": "OAuth",
+      "file": "OAuth",
+      "primary": false,
+      "how_described": "本集提到 2025 年 3 月规范引入 OAuth 后,他们面临本地还是远程 server 的选择,最后选择搁置、先做本地验证产品市场契合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            808.035,
+            819.278
+          ],
+          "quote": "And so after the spec changed and introduced OAuth in March 2025, we had to decide whether to keep our MCP server local or sort of switch to the new remote server using streamable HTTP and kind of like work on all the OAuth problems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "company",
+      "role": "company",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            55.162,
+            57.464
+          ],
+          "quote": "So OpenAI, Cursor VS Code, they didn't support it yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            129.371,
+            133.054
+          ],
+          "quote": "OpenAI and VS Code didn't have support until that spec update.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            133.574,
+            138.158
+          ],
+          "quote": "And then it wasn't even then, VS Code didn't get to GA until July.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            146.552,
+            149.233
+          ],
+          "quote": "VS Code was truly like the golden client.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            627.607,
+            635.014
+          ],
+          "quote": "So, here we have, it's VS Code, and basically it's asking, you know, what's my name, and you're able to take that input and pass it back to the server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            683.675,
+            689.703
+          ],
+          "quote": "So for sampling, even when VS Code supported it, you could only really query it as a general agent, not specific to the codebase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 2024 年底 Cursor 最初不支持 MCP,后来他们通过 Cursor 里的功能首次实际体验、开始构思产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            55.162,
+            57.464
+          ],
+          "quote": "So OpenAI, Cursor VS Code, they didn't support it yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            59.425,
+            67.23
+          ],
+          "quote": "Once we got access to the feature in Cursor, however, we were able to kind of ideate and understand what it was capable of, and we got something a little bit closer to an actual product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude Desktop 很早支持 MCP,但 Claude Code 功能一直不全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            122.466,
+            128.871
+          ],
+          "quote": "Claude had early support, Claude Desktop, but Claude Code wasn't really supported with all the complete set of features.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM judge",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

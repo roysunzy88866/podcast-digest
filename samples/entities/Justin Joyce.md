@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":11,"Salesforce":31,"Cloudflare OS":1,"技能文件":4,"智能体":330,"多智能体工作流":2,"go-to-market":12,"MCP":60,"可观测性":30,"LLM":42}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":11,"Salesforce":31,"Cloudflare OS":1,"技能文件":4,"智能体":334,"多智能体工作流":2,"go-to-market":12,"MCP":60,"可观测性":30,"LLM":43}</script>
 
 <script>
 (function(){

@@ -174,9 +174,9 @@ Bolt 自己就是[[按用量定价|按用量定价]]的开创者。上线时全�
 
 **换个口味**
 
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Lovable · 同概念:Anthropic 式路线 (Anthropic)、vibe coding、按用量定价 (usage-based pricing)、智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Bolt、Cursor、Lovable · 同概念:智能体 (agent)、Anthropic 式路线 (Anthropic)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、智能体 (agent)</span>
-- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Cursor、Lovable · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 </div>

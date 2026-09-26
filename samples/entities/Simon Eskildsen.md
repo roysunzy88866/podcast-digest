@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":330,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
+<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":334,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
 
 <script>
 (function(){

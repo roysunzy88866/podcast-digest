@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":330,"子智能体":3,"harness":45,"提示词缓存":2,"记忆":15,"评估":3,"LLM 当裁判":8,"沙箱":59,"人在回路":15}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":334,"子智能体":3,"harness":46,"提示词缓存":2,"记忆":15,"评估":3,"LLM 当裁判":9,"沙箱":60,"人在回路":15}</script>
 
 <script>
 (function(){

@@ -7,31 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>API 优先 (API first)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="API 优先">AP</div><div class="pi"><h1 class="pt">API 优先 (API first)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="API 优先">AP</div><div class="pi"><h1 class="pt">API 优先 (API first)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(10:25起):本集提出成为智能体优先公司的第一原则：内部和外部数据之上必须有真正好的 API，否则智能体无法访问数据、一切免谈。
+- **[[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]]**(03:17起):本集说成平台演进的关键一步:先建稳定 API 再在其上构建 UI,让工程师不被中央平台阻塞,也解锁了用编程智能体自助生成标注界面。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff#^q5]]
 
+![[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach#^q1]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念
+- [[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeffrey Wang]] · [[Exa]] · [[go-to-market]] · [[智能体]] · [[MCP]] · [[嵌入]] · [[ICP 仪表盘]] · [[RequestLens]] · [[JeffBot]] · [[Salesforce]]
+[[智能体]] · [[评估]] · [[Jeffrey Wang]] · [[Swaroop Chitlur Haridas]] · [[Exa]] · [[Nachiket Paranjape]] · [[go-to-market]] · [[DoorDash]] · [[MCP]] · [[LLM 网关]]
 
-<script type="application/json" class="pd-epn">{"Jeffrey Wang":1,"Exa":3,"go-to-market":12,"智能体":330,"MCP":60,"嵌入":2,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":31}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"评估":3,"Jeffrey Wang":1,"Swaroop Chitlur Haridas":1,"Exa":3,"Nachiket Paranjape":1,"go-to-market":12,"DoorDash":8,"MCP":60,"LLM 网关":1}</script>
 
 <script>
 (function(){

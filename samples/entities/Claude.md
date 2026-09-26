@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>66</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>67</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -59,6 +59,7 @@ unlisted: true
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(29:37起):本集说 Claude 有点抽象，基本上只是别人的电脑，很难向普通人解释它是什么
 - **[[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]]**(01:16起):本集里 Claude 被描述为「比 Mike 聪明得多」的模型队友：干完活要给它拆解权衡，非技术同事直接问 Claude 改产品，PR 的调查问题也丢给 Claude 去研究。
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(11:37起):本集提到 ClaudeMD 拥有最高优先级的配置文件，Claude app 被用来在移动端管理智能体配置，Claude Design 被用来创建董事会演示文稿
+- **[[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]]**(02:02起):本集说 Claude Desktop 很早支持 MCP,但 Claude Code 功能一直不全。
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(00:00起):本集提到有好的 eval 套件就可以放心让 Claude 这类编码智能体替你改提示词。
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(77:40起):本集两处提及：一是作为需付费的私有模型；二是说现在用 Claude 做邮件整理和日程安排，替代了助理的工作
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(09:28起):本集说 Claude 在很长一段时间里对研究数学没有用，大概在 Opus 4.5 或 4.6 左右赶上，并且在解释结果时对用户已知和未知内容的判断（心智理论）不如 5.6 准确
@@ -157,7 +158,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*66 集*
+*67 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -208,6 +209,7 @@ unlisted: true
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]] — 作为被讨论公司
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司(提及)
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
@@ -232,7 +234,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[MCP]] · [[Google]] · [[Claude Code]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":330,"Anthropic":143,"ChatGPT":77,"OpenAI":133,"Codex":57,"Lenny":67,"MCP":60,"Google":47,"Claude Code":76,"沙箱":59}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"Anthropic":145,"ChatGPT":77,"OpenAI":134,"Codex":57,"Lenny":67,"MCP":60,"Google":47,"Claude Code":76,"沙箱":60}</script>
 
 <script>
 (function(){

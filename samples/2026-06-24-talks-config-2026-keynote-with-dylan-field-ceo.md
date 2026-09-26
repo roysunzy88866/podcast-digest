@@ -116,7 +116,7 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
 
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Figma · 同概念:智能体 (agent)</span>
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:Figma · 同概念:智能体 (agent)</span>
-- [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量]]<span class="pd-rz">同公司:Figma · 同概念:智能体 (agent)</span>
+- [[2026-08-28-talks-building-the-engine-while-flying-the-pla|Figma 第一个 MCP server 是怎么三个月做出来的]]<span class="pd-rz">同公司:Figma · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

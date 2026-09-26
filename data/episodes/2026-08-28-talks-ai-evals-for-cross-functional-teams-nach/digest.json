@@ -1,0 +1,106 @@
+{
+  "title_zh": "DoorDash 的评估平台实践：让非工程师也能给 AI 打分",
+  "tldr": "DoorDash GenAI 平台团队 Swaroop 与 Nachiket 分享他们如何把 AI 评估从工程工具做成跨职能自助平台，让运营和产品经理直接参与质量迭代。",
+  "digest_md": "给 AI 产品做评估(evals,即系统地衡量 AI 输出质量)，听起来是纯工程活，但 DoorDash 的经验恰恰相反：真正难的不是写测试框架，而是把领域专家的判断装进质量体系——而这些专家不是工程师，是产品经理、战略运营人员，甚至外部标注合作伙伴。分享这件事的是 DoorDash 的 Gen AI 平台团队的 Swaroop 和 Nachiket,这是一个横向团队，为所有产品团队提供 AI 基础设施，核心是帮产品团队平衡三股力量：准确性、延迟和成本 [01:00 Swaroop]。\n\n他们的平台有四大支柱：LLM 网关(可以在不同模型间轻松切换)、智能体网关(连接工具和其他智能体，统一解决认证和智能体身份，让安全团队集中认可)、开源权重模型托管(成本是当下头号关注点，他们押注开源模型已见显著成效)，以及今天的主题——evals。\n\n## 评估为什么是团队运动\n\n他们跟内部各产品团队一聊，发现需求五花八门：购物助手团队需要会话级质量判断，个性化机器学习团队需要扩展人类判断的方式，多智能体系统则需要基于轨迹的评估。共同点浮出来了：必须赋能领域专家。联合创始人 Andy Fang 给的指导是 UI 优先——先做出非工程师也能用的界面；后来演化为 API 优先，让工程师不被中央平台阻塞；随着编程智能体出现，又变成了工作流优先，运营和产品经理能直接操作平台。\n\nNachiket 把分工讲得很清楚：战略与运营人员定优先级和质量标准，产品人员把需求转化成评分标准(rubrics)和工作流，运营团队跑标注，工程团队提供 API、遥测、数据集和评审器——「从追踪到数据集再到评分机制，这基本上是一项团队运动」。整个质量体系被他们归纳成一个持续迭代循环：追踪 → 抽样缩减到你想细看的小集合 → 用领域知识标注 → 审查 → 生成黄金数据集(用来衡量和校准的基准)→ 校准评审器 → 持续监控 → 再来一轮。\n\n## 平台怎么落地\n\n平台分两层：遥测层存所有追踪记录、分数和观测数据，可通过 MCP、SDK 和 API 访问；工作流层是产品团队干活的地方——设置标注任务、审查黄金数据集、创建和校准评审器。所有能力都由一套稳定 API 支撑，UI 只是建在上面的一层。\n\n标注环节最关键的一步棋：因为做了 API 优先，他们让战略运营团队直接用 Codex 或 Claude Code「vibe coding」(用自然语言让 AI 生成代码)出自己的标注 UI。不同团队有图像标注、手动测试等不同用例，但底层模式相似——与其平台团队为每个用例建专门界面，不如把工作流交到运营人员手里，让他们自己造。一个餐厅菜单标注界面，看起来不花哨，但干净、能用、拿到需要的标注。\n\n评审器校准(LLM as a judge,即用一个 LLM 按提示词给输出打分)也做成了自助流程：从某个裁判提示词起步 → 在追踪记录上跑出基线分数 → 用 JEPA 这个常用的提示词优化库跑迭代循环 → 团队满意后把提示词定为正式评审器。产品经理或运营人员在自助 UI 上设配置就能自己跑校准，任选模型(Gemini、Claude、OpenAI 都行)。两点设计很讲究：一是可视化——把原始提示词和校准后的提示词并排展示给合作团队，「让他们在构建过程中建立信任」;二是灵活配置——有的团队提示词归战略运营管，有的归产品经理，有的归工程团队，这给组织自己摸索演进留了空间。\n\n## 结果\n\n自助式标注平台直接带来了成本下降：DoorDash 每周有数千行数据要标注，规模下成本相当可观，自助化后每条标注成本大幅降低、速度提升。各团队在完全自助的环境里校准自己的评审器，迭代循环快了一大截。\n\n## 本集带走\n\n- **评估先想清楚「谁来贡献判断」**：领域知识在运营和 PM 手里，平台要 UI 优先降低他们参与的门槛，而不是把 evals 锁在工程团队里。\n- **API 优先是解锁 vibe coding 的前提**：先把稳定 API 建好，各团队就能用编程智能体生成自己的标注界面，平台团队不必为每个用例定制 UI。\n- **校准循环做进自助 UI**:基线分数 → 提示词优化迭代 → 满意后提升为正式评审器，非工程师设个配置就能自己跑，还能任选模型。\n- **让校准过程可审查**：并排展示校准前后的提示词，黑盒变透明，合作团队才敢信任这套东西。\n- **成本账要算在标注上**：每周数千行标注在规模化下很贵，自助标注平台同时压低了每条成本、加快了迭代循环。",
+  "quotes": [
+    {
+      "en": "Everybody has access to coding agents, and we actually doubled down on that API-first approach.",
+      "zh": "每个人都能使用编程智能体，而我们实际上在 API 优先的方式上加倍投入。",
+      "timestamp": "09:19",
+      "speaker": "Nachiket Paranjape"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:18",
+      "speaker": "Nachiket",
+      "en": "So from your traces to your data sets, from your scoring mechanisms, this is all basically a team sport.",
+      "zh": "从你的追踪记录到你的数据集，再到你的评分机制，这基本上都是一项团队运动。"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Nachiket",
+      "en": "And combining all these together is what a recipe is for actually making sure that you are shipping quality AI products through an evals platform.",
+      "zh": "把这些整合在一起，就是通过评估平台确保你交付高质量 AI 产品的配方。"
+    },
+    {
+      "timestamp": "09:19",
+      "speaker": "Nachiket",
+      "en": "Everybody has access to coding agents, and we actually doubled down on that API-first approach.",
+      "zh": "每个人都能使用编程智能体，而我们实际上在 API 优先的方式上加倍投入。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Nachiket",
+      "en": "So because we had these APIs, we were actually able to enable our stat ops teams to use something like a Codex or a Claude Code and Vibecode their own annotation UIs.",
+      "zh": "正因为我们有了这些 API,我们才能让战略运营团队使用类似 Codex 或 Claude Code 这样的工具，用 vibe coding 的方式构建他们自己的标注 UI。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Nachiket",
+      "en": "But the point I want to make here is that what helped us was to give this workflow in the hands of the operators so that they can actually build their own vibe-coded annotation UIs.",
+      "zh": "但我想说的重点是，帮助到我们的是把这个工作流交到运营人员手中，让他们能够真正构建自己的 vibe coding 标注 UI。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Nachiket",
+      "en": "So the second piece that we built was actually giving them visualization and visibility into what's actually happening.",
+      "zh": "所以我们构建的第二个部分，就是给他们提供可视化，让他们能看到实际在发生什么。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "Unknown",
+      "en": "Yeah, just wanted to add to that is this enables different configurations in different teams.",
+      "zh": "是的，我只是想补充一点，这使得不同团队可以使用不同的配置。"
+    },
+    {
+      "timestamp": "13:19",
+      "speaker": "Unknown",
+      "en": "So even the org design is improving, and we are enabling that.",
+      "zh": "所以连组织设计都在改进，而我们正在促成这一点。"
+    },
+    {
+      "timestamp": "13:25",
+      "speaker": "Nachiket",
+      "en": "I think the overall idea was to build something which is as self-serve as possible so that people aren't always necessarily blocked by our team helping them out.",
+      "zh": "我觉得总体思路是构建尽可能自助的东西，这样人们不必总是被我们团队的帮助所阻塞。"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "Nachiket",
+      "en": "I think a very good result that we do like to call out is we actually did see a lot of reduction in the spend at per annotation cost.",
+      "zh": "我想一个我们很愿意特别指出的好结果是，我们确实看到了每条标注成本支出的大幅降低。"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Nachiket",
+      "en": "It is a cross-functional effort across different pillars, across different teams that actually helps us add all the domain-specific knowledge into the quality of the AI itself.",
+      "zh": "它是一项跨不同支柱、跨不同团队的跨职能工作，真正帮助我们为 AI 本身的质量注入所有领域特定的知识。"
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Swaroop",
+      "en": "And in our case, that was strategy and operations folks.",
+      "zh": "在我们的案例中，他们是战略与运营人员。"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Swaroop",
+      "en": "And this was the guidance we had from Andy Fang, our co-founder as well.",
+      "zh": "这也是我们的联合创始人 Andy Fang 给我们的指导。"
+    },
+    {
+      "timestamp": "01:54",
+      "speaker": "Swaroop",
+      "en": "And we kind of invested in OpenWeights models and have seen significant impact already.",
+      "zh": "我们投资于开源权重模型，并且已经看到了显著的影响。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Nachiket",
+      "en": "So, we tried to really remove all the complicated logic and make this into a self-serve UI.",
+      "zh": "所以，我们尝试真正移除所有复杂的逻辑，把它做成一个自助式 UI。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们聊 DoorDash。具体说，是 DoorDash 的 Gen AI 平台团队，两位负责人 Swaroop 和 Nachiket,来讲一件事：给 AI 产品做评估，也就是大家常说的 evals,系统地衡量 AI 输出质量这件事，他们怎么从一个纯工程工具，做成了全公司都能用的自助平台。\n\n先交代下背景。这个团队是个横向团队，不给哪个产品线打工，而是给全公司所有做 AI 产品的团队提供基础设施。平时要帮产品团队平衡三股力量：准确性、延迟和成本。他们手上有四大支柱，一个是 LLM 网关，可以在不同模型之间轻松切换；一个是智能体网关，连接各种工具和其他智能体，统一解决认证问题，安全团队也方便集中认可；一个是开源权重模型托管，因为成本现在是头号关注点，他们押注开源模型，已经见了显著成效。而今天要展开讲的，是第四个支柱，就是评估。\n\n那评估这事，为什么值得单独拎出来讲一期？因为 DoorDash 踩出来的经验恰恰和直觉相反。你以为做评估最难的是写测试框架、搭工程系统，其实不是。真正难的，是把领域专家的判断装进质量体系里。而这些专家是谁？不是工程师，是产品经理、战略运营人员，甚至还有外部的标注合作伙伴。也就是说，评估根本不是工程团队自己关起门能干完的活，是一项团队运动。\n\n这话怎么讲？他们跟内部各产品团队一聊，发现需求五花八门。购物助手团队需要会话级的质量判断，个性化机器学习团队需要扩展人类判断的方式，做多智能体系统的则需要基于轨迹的评估。需求各不相同，但共同点浮出来了：必须赋能领域专家。因为真正的领域知识，不在工程师手里，在运营和产品经理手里。\n\n怎么赋能？DoorDash 的联合创始人 Andy Fang 给过一条指导，一开始是 UI 优先，先做出非工程师也能用的界面。后来演化为 API 优先，让工程师不被中央平台卡住。再后来编程智能体出现了，又变成了工作流优先，运营和产品经理可以直接上手操作平台。\n\n有了方向，分工就清晰了。Nachiket 把这件事讲得很明白：战略与运营人员定优先级和质量标准，产品人员把需求转化成评分标准和工作流，运营团队跑标注，工程团队提供 API、遥测、数据集和评审器。有句话值得记住：从追踪到数据集再到评分机制，这基本上是一项团队运动。整个质量体系被他们归纳成一个持续迭代的循环：先有追踪，然后抽样缩减到你想细看的小集合，再用领域知识去标注，接着审查，生成所谓的黄金数据集——就是用来衡量和校准的基准，然后拿它校准评审器，持续监控，之后再进入下一轮。\n\n那这套理念落到平台上，长什么样？平台分两层。底下是遥测层，存所有追踪记录、分数和观测数据，可以通过 MCP、SDK 和 API 访问。上面是工作流层，是产品团队干活的地方，设置标注任务、审查黄金数据集、创建和校准评审器，都在这一层。所有能力都由一套稳定的 API 支撑，界面只是建在上面的一层皮。\n\n这里有个特别关键的棋。正因为当年坚持了 API 优先，他们让战略运营团队直接用 Codex 或者 Claude Code,用自然语言让 AI 生成代码，也就是所谓的 vibe coding,自己造出标注界面来。不同团队有不同用例，有的标图像，有的做手动测试，但底层模式是相似的。与其中央平台团队为每个用例建专门界面，不如把工作流交到运营人员手里，让他们自己造。比如一个餐厅菜单的标注界面，看起来不花哨，但干净、能用、能拿到需要的标注，这就够了。\n\n再往循环的下游看，评审器校准也做成了自助流程。评审器是什么？就是用一个 LLM 按提示词给输出打分，相当于请了个 AI 裁判。自助流程是这样的：从某个裁判提示词起步，在追踪记录上跑出基线分数，然后用 JEPA 这个常用的提示词优化库跑迭代循环，团队满意之后，把提示词定为正式评审器。产品经理或者运营人员，在自助界面上设个配置就能自己跑校准，模型随便挑，Gemini、Claude、OpenAI 都行。\n\n这里有两个设计很讲究。第一是可视化，把原始提示词和校准后的提示词并排展示给合作团队，让他们在构建过程中建立信任——黑盒变透明了，人才敢用。第二是灵活配置，有的团队提示词归战略运营管，有的归产品经理，有的归工程团队，这给组织自己摸索演进留了空间。\n\n那这一套下来，效果怎么样？最直接的是成本下降。DoorDash 每周有几千行数据要标注，这个规模下成本相当可观。自助化之后，每条标注的成本大幅降低，速度也提上来了。各团队在完全自助的环境里校准自己的评审器，迭代循环快了一大截。\n\n所以回头看，DoorDash 这期真正给我们上的课，不是什么炫的技术，而是一个组织问题：做评估，先想清楚谁来贡献判断。领域知识在运营和产品经理手里，那平台就该降低他们参与的门槛，而不是把评估锁死在工程团队里。先把稳定的 API 建好，等编程智能体来了，各团队就能自己生成标注界面，中央平台也不必事事定制。说到底，正如他们那句话——每个人都能使用编程智能体，而我们要做的，是在 API 优先的方式上加倍投入。"
+}

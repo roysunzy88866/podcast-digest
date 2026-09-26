@@ -1,0 +1,1498 @@
+[
+ {
+  "seg": 0,
+  "start": 13.023,
+  "end": 13.843,
+  "speaker": "Unknown",
+  "en": "All right, get started.",
+  "zh": "好的，开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 14.264,
+  "end": 22.688,
+  "speaker": "Unknown",
+  "en": "Hi, I'm Jesse, and I've been a software engineer at Figma for about three years, and I'm going to talk to you about how we built Figma's first MCP server in about three months.",
+  "zh": "大家好，我是 Jesse，我在 Figma 做软件工程师大约三年了，今天我要讲的是我们如何在大约三个月内构建了 Figma 的第一个 MCP server。"
+ },
+ {
+  "seg": 2,
+  "start": 23.649,
+  "end": 31.192,
+  "speaker": "Unknown",
+  "en": "And in case you don't know what it is, the Figma MCP server is a way for you to send context between production, code, and design, and vice versa.",
+  "zh": "如果你不知道它是什么，Figma MCP server 是一种让你在生产、代码和设计之间传递上下文的方式，反之亦然。"
+ },
+ {
+  "seg": 3,
+  "start": 31.773,
+  "end": 34.274,
+  "speaker": "Unknown",
+  "en": "AI tools don't need to build a dedicated integration.",
+  "zh": "AI 工具不需要构建专门的集成。"
+ },
+ {
+  "seg": 4,
+  "start": 34.314,
+  "end": 37.996,
+  "speaker": "Unknown",
+  "en": "They can just use our Figma MCP, and they kind of get started.",
+  "zh": "它们只需使用我们的 Figma MCP，就差不多可以开始了。"
+ },
+ {
+  "seg": 5,
+  "start": 39.393,
+  "end": 50.039,
+  "speaker": "Unknown",
+  "en": "So taking you back to November 2024, long, long time ago, Anthropic released the MCP server spec, and everyone in the world of AI was sort of starting to use it and experiment with it.",
+  "zh": "把时间拉回 2024 年 11 月，很久很久以前，Anthropic 发布了 MCP server 规范，AI 世界里的每个人都在开始使用它并进行实验。"
+ },
+ {
+  "seg": 6,
+  "start": 51.32,
+  "end": 55.142,
+  "speaker": "Unknown",
+  "en": "But outside of Anthropic, none of the other AI agents or labs were really using it.",
+  "zh": "但在 Anthropic 之外，没有其他 AI 智能体或实验室真正在使用它。"
+ },
+ {
+  "seg": 7,
+  "start": 55.162,
+  "end": 57.464,
+  "speaker": "Unknown",
+  "en": "So OpenAI, Cursor VS Code, they didn't support it yet.",
+  "zh": "所以 OpenAI、Cursor、VS Code 都还不支持它。"
+ },
+ {
+  "seg": 8,
+  "start": 59.425,
+  "end": 67.23,
+  "speaker": "Unknown",
+  "en": "Once we got access to the feature in Cursor, however, we were able to kind of ideate and understand what it was capable of, and we got something a little bit closer to an actual product.",
+  "zh": "不过，一旦我们在 Cursor 中用上了这个功能，我们就能够构思并理解它的能力，我们做出了一个更接近实际产品的东西。"
+ },
+ {
+  "seg": 9,
+  "start": 68.32,
+  "end": 69.781,
+  "speaker": "Unknown",
+  "en": "And that's where my story begins.",
+  "zh": "我的故事就是从这里开始的。"
+ },
+ {
+  "seg": 10,
+  "start": 70.821,
+  "end": 75.304,
+  "speaker": "Unknown",
+  "en": "I was working on growth initiatives at the time, and I saw our internal demo, and I really wanted to use it.",
+  "zh": "我当时在做增长项目，看到了我们的内部演示，我真的很想用它。"
+ },
+ {
+  "seg": 11,
+  "start": 75.384,
+  "end": 78.586,
+  "speaker": "Unknown",
+  "en": "I thought it'd be great for non-designers to kind of be able to use Figma.",
+  "zh": "我觉得让非设计师也能使用 Figma 会很棒。"
+ },
+ {
+  "seg": 12,
+  "start": 79.566,
+  "end": 84.349,
+  "speaker": "Unknown",
+  "en": "I started creating actually a Figma plugin-based MCP server, and I started doing it one day a week.",
+  "zh": "我实际上开始创建一个基于 Figma 插件的 MCP server，每周花一天时间做这件事。"
+ },
+ {
+  "seg": 13,
+  "start": 84.549,
+  "end": 89.492,
+  "speaker": "Unknown",
+  "en": "It was kind of my 20% project that we didn't, we didn't really have 20% projects, but I really wanted to work on it, so I did.",
+  "zh": "这算是我的 20% 项目，其实我们并没有真正的 20% 项目，但我真的很想做这个，所以我就做了。"
+ },
+ {
+  "seg": 14,
+  "start": 90.352,
+  "end": 93.294,
+  "speaker": "Unknown",
+  "en": "And so I got staffed with some other folks on the team.",
+  "zh": "后来我和团队里的一些其他人一起被分配了任务。"
+ },
+ {
+  "seg": 15,
+  "start": 93.314,
+  "end": 94.134,
+  "speaker": "Unknown",
+  "en": "We were the MC Peeps.",
+  "zh": "我们是 MC Peeps。"
+ },
+ {
+  "seg": 16,
+  "start": 94.454,
+  "end": 94.975,
+  "speaker": "Unknown",
+  "en": "That's a peep.",
+  "zh": "那是一种 peep。"
+ },
+ {
+  "seg": 17,
+  "start": 95.215,
+  "end": 96.335,
+  "speaker": "Unknown",
+  "en": "It's a candy, if you don't know.",
+  "zh": "那是一种糖果，如果你不知道的话。"
+ },
+ {
+  "seg": 18,
+  "start": 97.176,
+  "end": 97.716,
+  "speaker": "Unknown",
+  "en": "They're delicious.",
+  "zh": "它们很好吃。"
+ },
+ {
+  "seg": 19,
+  "start": 97.996,
+  "end": 99.257,
+  "speaker": "Unknown",
+  "en": "And I just want to be very clear.",
+  "zh": "我想非常清楚地说明一点。"
+ },
+ {
+  "seg": 20,
+  "start": 99.637,
+  "end": 101.678,
+  "speaker": "Unknown",
+  "en": "I'm going to say I a lot, and we.",
+  "zh": "我会频繁地说“我”和“我们”。"
+ },
+ {
+  "seg": 21,
+  "start": 101.918,
+  "end": 105.52,
+  "speaker": "Unknown",
+  "en": "There was a big team behind this, so it's not just me, and they're all fantastic.",
+  "zh": "这背后有一个很大的团队，所以不只是我一个人，他们都很出色。"
+ },
+ {
+  "seg": 22,
+  "start": 106.28,
+  "end": 115.105,
+  "speaker": "Unknown",
+  "en": "A few weeks later, after we started getting our initial architecture sorted, a new version of the spec dropped, deprecating the support type that we were going to use, which was service and events.",
+  "zh": "几周后，在我们开始理清初始架构之后，规范的新版本发布了，弃用了我们原本打算使用的支持类型，也就是 service and events。"
+ },
+ {
+  "seg": 23,
+  "start": 116.522,
+  "end": 121.666,
+  "speaker": "Unknown",
+  "en": "And while the MCP spec was sort of chugging along, clients were adding features and support in different paces.",
+  "zh": "在 MCP 规范缓慢推进的同时，各个客户端在添加功能和支持方面的节奏各不相同。"
+ },
+ {
+  "seg": 24,
+  "start": 122.466,
+  "end": 128.871,
+  "speaker": "Unknown",
+  "en": "Claude had early support, Claude Desktop, but Claude Code wasn't really supported with all the complete set of features.",
+  "zh": "Claude 早早提供了支持，Claude Desktop，但 Claude Code 并没有真正支持完整的功能集。"
+ },
+ {
+  "seg": 25,
+  "start": 129.371,
+  "end": 133.054,
+  "speaker": "Unknown",
+  "en": "OpenAI and VS Code didn't have support until that spec update.",
+  "zh": "OpenAI 和 VS Code 直到那次规范更新才有了支持。"
+ },
+ {
+  "seg": 26,
+  "start": 133.574,
+  "end": 138.158,
+  "speaker": "Unknown",
+  "en": "And then it wasn't even then, VS Code didn't get to GA until July.",
+  "zh": "而且即便到那时，VS Code 也是到七月才达到 GA。"
+ },
+ {
+  "seg": 27,
+  "start": 138.858,
+  "end": 140.86,
+  "speaker": "Unknown",
+  "en": "It didn't mean that all the features were implemented either.",
+  "zh": "这也不意味着所有功能都实现了。"
+ },
+ {
+  "seg": 28,
+  "start": 140.96,
+  "end": 142.181,
+  "speaker": "Unknown",
+  "en": "There are lots of different pieces.",
+  "zh": "有很多不同的部分。"
+ },
+ {
+  "seg": 29,
+  "start": 142.601,
+  "end": 144.943,
+  "speaker": "Unknown",
+  "en": "And in many cases, only tools were supported.",
+  "zh": "而且在很多情况下，只支持 tools。"
+ },
+ {
+  "seg": 30,
+  "start": 146.552,
+  "end": 149.233,
+  "speaker": "Unknown",
+  "en": "VS Code was truly like the golden client.",
+  "zh": "VS Code 真的就像是黄金客户端。"
+ },
+ {
+  "seg": 31,
+  "start": 149.273,
+  "end": 157.157,
+  "speaker": "Unknown",
+  "en": "They eventually supported kind of all pieces of the spec, but it was hard to kind of understand what you were building towards because clients supported so many different things.",
+  "zh": "他们最终支持了规范的几乎所有部分，但很难搞清楚你到底在为什么而构建，因为各客户端支持的东西差异很大。"
+ },
+ {
+  "seg": 32,
+  "start": 157.877,
+  "end": 166.301,
+  "speaker": "Unknown",
+  "en": "But even though we didn't know exactly what the MCP server spec would be supported, we knew that it would be extremely powerful and a great product for us to utilize, and so we started building.",
+  "zh": "不过，尽管我们不确定 MCP server 规范最终会得到怎样的支持，我们知道它会非常强大，是对我们很有价值的产品，所以我们开始构建了。"
+ },
+ {
+  "seg": 33,
+  "start": 168.015,
+  "end": 174.958,
+  "speaker": "Unknown",
+  "en": "And so taking a more high-level recap, about a year ago, we launched our local MCP server.",
+  "zh": "做一个更高层次的回顾，大约一年前，我们发布了本地 MCP server。"
+ },
+ {
+  "seg": 34,
+  "start": 175.018,
+  "end": 178.48,
+  "speaker": "Unknown",
+  "en": "And what local means, it was heavily designed for developer use cases.",
+  "zh": "所谓本地，是指它主要为开发者用例而设计。"
+ },
+ {
+  "seg": 35,
+  "start": 178.5,
+  "end": 185.483,
+  "speaker": "Unknown",
+  "en": "You kind of had to know what you were doing a little bit, and we targeted developers because they were the first to adopt AI workflows.",
+  "zh": "你得稍微懂一点才知道怎么用，我们瞄准开发者，因为他们是最早采用 AI 工作流的人群。"
+ },
+ {
+  "seg": 36,
+  "start": 185.823,
+  "end": 193.667,
+  "speaker": "Unknown",
+  "en": "They would use a single prompt like, help me implement this, and a developer could pull everything that they would normally get from Figma's dev mode into their coding agent.",
+  "zh": "他们可以使用像“帮我实现这个”这样的单个 prompt，开发者就能把通常从 Figma dev mode 获得的一切内容拉进他们的编程智能体。"
+ },
+ {
+  "seg": 37,
+  "start": 194.447,
+  "end": 203.874,
+  "speaker": "Unknown",
+  "en": "This includes things like component data, spacing variables, and from there we just kept adding more and more retools like for FigJam, for Make, et cetera.",
+  "zh": "这包括组件数据、间距变量等内容，从那以后我们不断为 FigJam、Make 等工具添加更多功能。"
+ },
+ {
+  "seg": 38,
+  "start": 204.195,
+  "end": 210.94,
+  "speaker": "Unknown",
+  "en": "But they all share this kind of mutual goal to make Figma context available for developers wherever they are.",
+  "zh": "但它们都共享同一个目标：让 Figma 上下文在开发者所在的任何地方都可用。"
+ },
+ {
+  "seg": 39,
+  "start": 212.989,
+  "end": 213.989,
+  "speaker": "Unknown",
+  "en": "So, Figma.",
+  "zh": "那么，Figma。"
+ },
+ {
+  "seg": 40,
+  "start": 214.089,
+  "end": 220.81,
+  "speaker": "Unknown",
+  "en": "If you know about Figma, Figma is a canvas, and it's represented as a scene graph in C++.",
+  "zh": "如果你了解 Figma，Figma 是一个画布，它在内部表示为 C++ 中的场景图。"
+ },
+ {
+  "seg": 41,
+  "start": 221.21,
+  "end": 223.771,
+  "speaker": "Unknown",
+  "en": "It's a graph of connected nodes, not unlike the HTML DOM.",
+  "zh": "它是一张由相连节点构成的图，有点类似 HTML DOM。"
+ },
+ {
+  "seg": 42,
+  "start": 224.331,
+  "end": 226.731,
+  "speaker": "Unknown",
+  "en": "And we had a number of different ways we could represent the scene graph.",
+  "zh": "我们有多种不同的方式来表示这个场景图。"
+ },
+ {
+  "seg": 43,
+  "start": 227.432,
+  "end": 236.813,
+  "speaker": "Unknown",
+  "en": "We had this internal representation, which was kind of akin to JSX or XML, effectively converting the scene graph into JSS tags and XML tags and passing those to the agent.",
+  "zh": "我们有这种内部表示，有点类似 JSX 或 XML，实际上就是把场景图转换成 JSS 标签和 XML 标签，然后传递给智能体。"
+ },
+ {
+  "seg": 44,
+  "start": 237.413,
+  "end": 240.774,
+  "speaker": "Unknown",
+  "en": "It was abstract and sparse, but it didn't have super rigorous fidelity.",
+  "zh": "它抽象而稀疏，但没有特别严格的保真度。"
+ },
+ {
+  "seg": 45,
+  "start": 241.514,
+  "end": 250.081,
+  "speaker": "Unknown",
+  "en": "Another option that we had internally was D2R, which is our way of saying a React Tailwind representation.",
+  "zh": "我们内部的另一个选项是 D2R，也就是我们所说的 React Tailwind 表示。"
+ },
+ {
+  "seg": 46,
+  "start": 250.721,
+  "end": 256.926,
+  "speaker": "Unknown",
+  "en": "And the reason why we had this is Figma has a sites product, and so we already had a way of basically converting the scene graph into HTML.",
+  "zh": "我们之所以有这个，是因为 Figma 有一个 sites 产品，所以我们已经有了一种把场景图基本上转换成 HTML 的方式。"
+ },
+ {
+  "seg": 47,
+  "start": 258.267,
+  "end": 265.914,
+  "speaker": "Unknown",
+  "en": "If you actually copy the output of the Figma MCP today and you paste it into a simple HTTP server, it should be pixel perfect.",
+  "zh": "如果你今天真的把 Figma MCP 的输出复制下来，粘贴到一个简单的 HTTP server 里，它应该是像素级精确的。"
+ },
+ {
+  "seg": 48,
+  "start": 266.454,
+  "end": 267.955,
+  "speaker": "Unknown",
+  "en": "And if it's not, file a bug.",
+  "zh": "如果不是，请提一个 bug。"
+ },
+ {
+  "seg": 49,
+  "start": 270.965,
+  "end": 280.327,
+  "speaker": "Unknown",
+  "en": "We had a hunch that this representation would be the best one because lots of the models were sort of RL'd on this React Tailwind type of code, and we had a suspicion that it would work really well.",
+  "zh": "我们有一种直觉，认为这种表示会是最好的，因为很多模型都在这类 React Tailwind 风格的代码上做过 RL，我们怀疑它会效果很好。"
+ },
+ {
+  "seg": 50,
+  "start": 281.108,
+  "end": 295.031,
+  "speaker": "Unknown",
+  "en": "The last one that we kind of considered was just a plain image, but back in early 2025, agents weren't great at converting images directly to HTML or CSS or sort of other languages, and so we kind of used that as an additional piece of context, not as a sole one.",
+  "zh": "我们最后考虑的一种方式就是直接用一张普通图片,但在 2025 年早期,智能体在把图片直接转换成 HTML、CSS 或其他语言方面还不太行,所以我们把它当作额外的上下文来用,而不是作为唯一的依据。"
+ },
+ {
+  "seg": 51,
+  "start": 295.631,
+  "end": 297.832,
+  "speaker": "Unknown",
+  "en": "And to give you what this kind of looks like in practice,",
+  "zh": "为了给你们展示这在实践中是什么样子,"
+ },
+ {
+  "seg": 52,
+  "start": 298.532,
+  "end": 304.436,
+  "speaker": "Unknown",
+  "en": "On the left here we have a Figma frame, and on the right we have the React Tailwind code.",
+  "zh": "左边这里是一个 Figma frame,右边是 React Tailwind 代码。"
+ },
+ {
+  "seg": 53,
+  "start": 304.456,
+  "end": 309.78,
+  "speaker": "Unknown",
+  "en": "You can also see at the very top the image Canyon Crew Meetup link.",
+  "zh": "你还能看到最顶部有 image Canyon Crew Meetup 这个链接。"
+ },
+ {
+  "seg": 54,
+  "start": 310.181,
+  "end": 315.505,
+  "speaker": "Unknown",
+  "en": "We also basically abstract out the images within the code, sorry, within the scene graph, and put them at the top level.",
+  "zh": "我们基本上把图片从代码里抽象出来,抱歉,是从 scene graph 里抽象出来,放到顶层。"
+ },
+ {
+  "seg": 55,
+  "start": 316.045,
+  "end": 320.929,
+  "speaker": "Unknown",
+  "en": "Our first attempt was just passing Base64 data into the code, and that was just a terrible idea.",
+  "zh": "我们最初的尝试是把 Base64 数据直接传进代码,那是个非常糟糕的主意。"
+ },
+ {
+  "seg": 56,
+  "start": 321.049,
+  "end": 323.711,
+  "speaker": "Unknown",
+  "en": "It just blew up the context window and was bad all around.",
+  "zh": "它直接把上下文窗口撑爆了,方方面面都很糟。"
+ },
+ {
+  "seg": 57,
+  "start": 324.531,
+  "end": 324.932,
+  "speaker": "Unknown",
+  "en": "Don't do that.",
+  "zh": "别那么做。"
+ },
+ {
+  "seg": 58,
+  "start": 326.934,
+  "end": 329.898,
+  "speaker": "Unknown",
+  "en": "We'd also pass an image of the current node to the agent as well.",
+  "zh": "我们还会把当前节点的截图传给智能体。"
+ },
+ {
+  "seg": 59,
+  "start": 330.199,
+  "end": 339.112,
+  "speaker": "Unknown",
+  "en": "While the image by itself did not do a good job of converting to code, having the code context plus the image actually had better agentic output.",
+  "zh": "虽然图片本身在转换成代码这件事上效果不好,但把代码上下文加上图片一起用,智能体的输出反而更好了。"
+ },
+ {
+  "seg": 60,
+  "start": 340.44,
+  "end": 341.921,
+  "speaker": "Unknown",
+  "en": "So what do I mean by better?",
+  "zh": "那我说的「更好」是什么意思呢?"
+ },
+ {
+  "seg": 61,
+  "start": 342.001,
+  "end": 343.002,
+  "speaker": "Unknown",
+  "en": "How did we know it was better?",
+  "zh": "我们怎么知道它更好?"
+ },
+ {
+  "seg": 62,
+  "start": 343.742,
+  "end": 345.444,
+  "speaker": "Unknown",
+  "en": "We tried to do evals.",
+  "zh": "我们尝试做 eval。"
+ },
+ {
+  "seg": 63,
+  "start": 345.504,
+  "end": 350.487,
+  "speaker": "Unknown",
+  "en": "And so we did some sort of very simple evals to start with a mix of quantitative and qualitative data.",
+  "zh": "所以我们一开始做了些非常简单的 eval,混合了定量和定性的数据。"
+ },
+ {
+  "seg": 64,
+  "start": 352.309,
+  "end": 355.131,
+  "speaker": "Unknown",
+  "en": "From a quantitative standpoint, we looked at did it use variables?",
+  "zh": "从定量角度看,我们看它有没有使用变量?"
+ },
+ {
+  "seg": 65,
+  "start": 355.811,
+  "end": 357.092,
+  "speaker": "Unknown",
+  "en": "Did it use the theming we expected?",
+  "zh": "有没有使用我们期望的主题化(theming)?"
+ },
+ {
+  "seg": 66,
+  "start": 357.212,
+  "end": 358.153,
+  "speaker": "Unknown",
+  "en": "Did it use the right spot?",
+  "zh": "有没有用对位置?"
+ },
+ {
+  "seg": 67,
+  "start": 358.774,
+  "end": 361.536,
+  "speaker": "Unknown",
+  "en": "And from the qualitative side of things, does it look good?",
+  "zh": "从定性角度看,就是它看起来好不好?"
+ },
+ {
+  "seg": 68,
+  "start": 361.896,
+  "end": 364.057,
+  "speaker": "Unknown",
+  "en": "Did it make good decisions with incomplete information?",
+  "zh": "在信息不完整的情况下,它有没有做出好的决策?"
+ },
+ {
+  "seg": 69,
+  "start": 364.978,
+  "end": 368.861,
+  "speaker": "Unknown",
+  "en": "And we spent like two hours grading an eval into an Excel spreadsheet.",
+  "zh": "然后我们花了大概两个小时把一个 eval 的评分填进 Excel 表格。"
+ },
+ {
+  "seg": 70,
+  "start": 369.381,
+  "end": 370.682,
+  "speaker": "Unknown",
+  "en": "And we said, we're never doing that again.",
+  "zh": "然后我们说,再也不干这种事了。"
+ },
+ {
+  "seg": 71,
+  "start": 370.922,
+  "end": 371.383,
+  "speaker": "Unknown",
+  "en": "It was awful.",
+  "zh": "太痛苦了。"
+ },
+ {
+  "seg": 72,
+  "start": 371.663,
+  "end": 374.204,
+  "speaker": "Unknown",
+  "en": "Don't do evals by hand if you can help it.",
+  "zh": "能不手工做 eval 就别手工做。"
+ },
+ {
+  "seg": 73,
+  "start": 374.885,
+  "end": 379.628,
+  "speaker": "Unknown",
+  "en": "We had a bunch of toy repos that we kind of created or kind of had folks create for us.",
+  "zh": "我们有一堆玩具仓库,有些是我们自己创建的,有些是找别人帮我们创建的。"
+ },
+ {
+  "seg": 74,
+  "start": 379.989,
+  "end": 387.914,
+  "speaker": "Unknown",
+  "en": "And we eventually ended up coding up a web app to sort of help us with the evals, which made things a lot easier, at least from like a process perspective.",
+  "zh": "后来我们最终写了一个 web 应用来帮我们做 eval,这让事情轻松了很多,至少从流程的角度来说是这样。"
+ },
+ {
+  "seg": 75,
+  "start": 388.634,
+  "end": 390.796,
+  "speaker": "Unknown",
+  "en": "One interesting thing is Figma",
+  "zh": "有意思的一点是 Figma"
+ },
+ {
+  "seg": 76,
+  "start": 392.377,
+  "end": 393.857,
+  "speaker": "Unknown",
+  "en": "There are Figma files which we are converting.",
+  "zh": "我们在转换的是 Figma 文件。"
+ },
+ {
+  "seg": 77,
+  "start": 394.138,
+  "end": 400.219,
+  "speaker": "Unknown",
+  "en": "There's a lot of open source code out there, but there's not a lot of open source code that also has FIG files attached.",
+  "zh": "开源代码有很多,但同时附带 FIG 文件的开源代码就不多了。"
+ },
+ {
+  "seg": 78,
+  "start": 400.579,
+  "end": 405,
+  "speaker": "Unknown",
+  "en": "And so we had to either create our own or sort of find different ways to make automated systems.",
+  "zh": "所以我们要么自己创建,要么想办法搞一些自动化系统。"
+ },
+ {
+  "seg": 79,
+  "start": 405.24,
+  "end": 409.982,
+  "speaker": "Unknown",
+  "en": "And now we have a eval that sort of runs like hundreds of times a week.",
+  "zh": "现在我们有一个 eval,大概每周运行几百次。"
+ },
+ {
+  "seg": 80,
+  "start": 410.282,
+  "end": 415.343,
+  "speaker": "Unknown",
+  "en": "Engineers can kick this off and sort of grade against prompt changes with LLM judges.",
+  "zh": "工程师可以启动它,在 prompt 变更后用 LLM judge 来打分。"
+ },
+ {
+  "seg": 81,
+  "start": 415.403,
+  "end": 417.784,
+  "speaker": "Unknown",
+  "en": "So we kind of remove the human from the loop where we don't need it.",
+  "zh": "这样我们在不需要人的环节就把人从流程里移除了。"
+ },
+ {
+  "seg": 82,
+  "start": 419.064,
+  "end": 424.507,
+  "speaker": "Unknown",
+  "en": "But having an agent translate a pixel-perfect version of code isn't enough.",
+  "zh": "但光让一个智能体翻译出像素级完美的代码是不够的。"
+ },
+ {
+  "seg": 83,
+  "start": 425.167,
+  "end": 429.049,
+  "speaker": "Unknown",
+  "en": "I mentioned that the React Tailwind version of our output was pixel-perfect.",
+  "zh": "我提过我们输出的 React Tailwind 版本是像素级完美的。"
+ },
+ {
+  "seg": 84,
+  "start": 429.249,
+  "end": 430.33,
+  "speaker": "Unknown",
+  "en": "That's really only half the story.",
+  "zh": "但这其实只是一半的故事。"
+ },
+ {
+  "seg": 85,
+  "start": 430.97,
+  "end": 432.711,
+  "speaker": "Unknown",
+  "en": "An enterprise doesn't care if it's pixel-perfect.",
+  "zh": "企业不在乎它是不是像素级完美。"
+ },
+ {
+  "seg": 86,
+  "start": 432.771,
+  "end": 436.433,
+  "speaker": "Unknown",
+  "en": "If it's not using, it's battle-tested, accessible, and internationalized components.",
+  "zh": "如果它没有使用经过实战检验、可访问、并且国际化了的组件,那就不行。"
+ },
+ {
+  "seg": 87,
+  "start": 437.313,
+  "end": 442.516,
+  "speaker": "Unknown",
+  "en": "At Figma, we already had this concept of CodeConnect, which allows you to link design components to components in your codebase.",
+  "zh": "在 Figma,我们已经有 CodeConnect 这个概念,它允许你把设计组件链接到你代码库里的组件。"
+ },
+ {
+  "seg": 88,
+  "start": 443.356,
+  "end": 447.904,
+  "speaker": "Unknown",
+  "en": "We needed a way to use this with our MCP server so that an agent used the correct components.",
+  "zh": "我们需要一种方式把这套东西和我们的 MCP server 一起用,这样智能体就能使用正确的组件。"
+ },
+ {
+  "seg": 89,
+  "start": 448.785,
+  "end": 449.246,
+  "speaker": "Unknown",
+  "en": "For example,",
+  "zh": "比如说,"
+ },
+ {
+  "seg": 90,
+  "start": 450.113,
+  "end": 451.093,
+  "speaker": "Unknown",
+  "en": "This beautiful button here.",
+  "zh": "这个漂亮的按钮。"
+ },
+ {
+  "seg": 91,
+  "start": 452.094,
+  "end": 456.515,
+  "speaker": "Unknown",
+  "en": "This would be a perfect representation if you were to throw that into an HTML server.",
+  "zh": "如果你把它扔进一个 HTML server,它会是一个完美的呈现。"
+ },
+ {
+  "seg": 92,
+  "start": 456.996,
+  "end": 459.036,
+  "speaker": "Unknown",
+  "en": "But you kind of see two problems.",
+  "zh": "但你能看到两个问题。"
+ },
+ {
+  "seg": 93,
+  "start": 459.597,
+  "end": 462.098,
+  "speaker": "Unknown",
+  "en": "If you had a primary button in your codebase, you wouldn't be referencing it.",
+  "zh": "如果你的代码库里有一个 primary button,你并没有引用它。"
+ },
+ {
+  "seg": 94,
+  "start": 462.878,
+  "end": 467.24,
+  "speaker": "Unknown",
+  "en": "And that's not ideal if it has accessibility properties or internationalization properties.",
+  "zh": "如果它带有可访问性属性或国际化属性,那这就很不理想。"
+ },
+ {
+  "seg": 95,
+  "start": 467.66,
+  "end": 470.221,
+  "speaker": "Unknown",
+  "en": "And then second, you'd eat up the context window.",
+  "zh": "然后,这样会吃掉上下文窗口。"
+ },
+ {
+  "seg": 96,
+  "start": 470.801,
+  "end": 473.262,
+  "speaker": "Unknown",
+  "en": "We use... Oh, this happened last time.",
+  "zh": "我们用……哦,上次也出过这个状况。"
+ },
+ {
+  "seg": 97,
+  "start": 474.103,
+  "end": 482.934,
+  "speaker": "Unknown",
+  "en": "We use React Tailwind to basically convert things over, but we want to make sure we do it in the sparsest way possible.",
+  "zh": "我们用 React Tailwind 来做转换,但我们想确保用尽可能稀疏的方式来做。"
+ },
+ {
+  "seg": 98,
+  "start": 484.156,
+  "end": 484.656,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 99,
+  "start": 485.598,
+  "end": 487.1,
+  "speaker": "Unknown",
+  "en": "Just going to keep vamping a bit here.",
+  "zh": "我就在这里多撑一会儿场子。"
+ },
+ {
+  "seg": 100,
+  "start": 487.46,
+  "end": 489.162,
+  "speaker": "Unknown",
+  "en": "And so, picture the same thing on screen.",
+  "zh": "所以，想象一下屏幕上同样的东西。"
+ },
+ {
+  "seg": 101,
+  "start": 490.003,
+  "end": 492.104,
+  "speaker": "Unknown",
+  "en": "But now we have like all this React Tailwind code.",
+  "zh": "但现在我们有了所有这些 React Tailwind 代码。"
+ },
+ {
+  "seg": 102,
+  "start": 492.584,
+  "end": 498.366,
+  "speaker": "Unknown",
+  "en": "It's gonna then be converted into sending over basically a sparse representation of it via Code Connect.",
+  "zh": "它随后会被转换成通过 Code Connect 发送的、基本上是一种稀疏表示。"
+ },
+ {
+  "seg": 103,
+  "start": 499.246,
+  "end": 509.909,
+  "speaker": "Unknown",
+  "en": "And by connecting the user's code to the design, we're able to pass back effectively what is a pointer, which allows the agent to use the code component leading to our higher fidelity implementation.",
+  "zh": "通过把用户的代码连接到设计，我们能够传回 effectively 一个指针，让智能体使用代码组件，从而实现我们的高保真实现。"
+ },
+ {
+  "seg": 104,
+  "start": 510.23,
+  "end": 517.192,
+  "speaker": "Unknown",
+  "en": "So effectively you go from like this big old thing of React Tailwind to the small React component that just says use button component.",
+  "zh": "所以 effectively 你就从这个庞大的 React Tailwind 东西变成了那个小的 React 组件，它只是写着“使用 button 组件”。"
+ },
+ {
+  "seg": 105,
+  "start": 520.974,
+  "end": 521.415,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 106,
+  "start": 522.296,
+  "end": 522.976,
+  "speaker": "Unknown",
+  "en": "I'm just going to let you.",
+  "zh": "我就先让你来。"
+ },
+ {
+  "seg": 107,
+  "start": 523.537,
+  "end": 524.138,
+  "speaker": "Unknown",
+  "en": "You got to restart it?",
+  "zh": "你需要重启它吗？"
+ },
+ {
+  "seg": 108,
+  "start": 524.158,
+  "end": 524.578,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好，可以。"
+ },
+ {
+  "seg": 109,
+  "start": 525.559,
+  "end": 526.18,
+  "speaker": "Unknown",
+  "en": "I'll just pause.",
+  "zh": "我先暂停。"
+ },
+ {
+  "seg": 110,
+  "start": 526.761,
+  "end": 527.301,
+  "speaker": "Unknown",
+  "en": "Oh, just that.",
+  "zh": "哦，就那样。"
+ },
+ {
+  "seg": 111,
+  "start": 527.321,
+  "end": 527.561,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 112,
+  "start": 535.49,
+  "end": 537.372,
+  "speaker": "Unknown",
+  "en": "I can start talking a little bit about the next bit.",
+  "zh": "我可以开始讲下一点了。"
+ },
+ {
+  "seg": 113,
+  "start": 537.432,
+  "end": 537.673,
+  "speaker": "Unknown",
+  "en": "Oh, wait.",
+  "zh": "哦，等等。"
+ },
+ {
+  "seg": 114,
+  "start": 537.833,
+  "end": 538.674,
+  "speaker": "Unknown",
+  "en": "You can see this cool thing.",
+  "zh": "你们能看到这个很酷的东西。"
+ },
+ {
+  "seg": 115,
+  "start": 539.655,
+  "end": 545.556,
+  "speaker": "Unknown",
+  "en": "You can ask yourself how I described it well, but yeah, it's basically like a React component that you're able to then bring into your code.",
+  "zh": "你可以问自己我是不是描述得好，不过 yeah,它基本上就是一个 React 组件，你可以把它引入到你的代码中。"
+ },
+ {
+  "seg": 116,
+  "start": 545.997,
+  "end": 558.68,
+  "speaker": "Unknown",
+  "en": "Once we felt good about the serialization syntax, we started to look at what an MCP server can be, and the MCP spec had a lot of great pieces in it, but some features weren't quite fleshed out within clients and other features we really wish existed.",
+  "zh": "一旦我们对序列化语法感觉不错了，我们就开始研究 MCP server 可以是什么，MCP 规范里有很多很棒的部分，但有些特性在客户端里并没有完全实现，还有些特性我们真心希望它们存在。"
+ },
+ {
+  "seg": 117,
+  "start": 559.42,
+  "end": 563.441,
+  "speaker": "Unknown",
+  "en": "Many clients only implemented a subset of the spec, and many features were very experimental.",
+  "zh": "很多客户端只实现了规范的一个子集，很多特性都非常实验性。"
+ },
+ {
+  "seg": 118,
+  "start": 564.441,
+  "end": 567.262,
+  "speaker": "Unknown",
+  "en": "This is the client compatibility matrix from March 2025.",
+  "zh": "这是 2025 年 3 月的客户端兼容性矩阵。"
+ },
+ {
+  "seg": 119,
+  "start": 568.758,
+  "end": 578.061,
+  "speaker": "Unknown",
+  "en": "Today, for example, we expose a host of resources to an agent so that it can figure out how to use our server as well as different help articles within Figma.",
+  "zh": "举例来说，今天我们向智能体暴露了一堆资源，让它能弄清楚如何使用我们的 server,以及 Figma 里的不同帮助文章。"
+ },
+ {
+  "seg": 120,
+  "start": 578.141,
+  "end": 587.004,
+  "speaker": "Unknown",
+  "en": "Whereas before, we would send that information down with, like, an error, for example, and the agent would have to crawl, wasting inference and sort of reasoning to sort of figure out what is actually going wrong.",
+  "zh": "而在这之前，我们会把这些信息随错误一起发送下去，比如，智能体就得去爬取，浪费推理和 sort of 推理去 sort of 弄清楚到底哪里出了问题。"
+ },
+ {
+  "seg": 121,
+  "start": 588.765,
+  "end": 591.766,
+  "speaker": "Unknown",
+  "en": "One small part of the spec that was missing was server instructions.",
+  "zh": "规范中缺失的一小部分是 server instructions。"
+ },
+ {
+  "seg": 122,
+  "start": 591.806,
+  "end": 592.887,
+  "speaker": "Unknown",
+  "en": "I shouldn't say missing from the spec.",
+  "zh": "我不该说规范里缺失。"
+ },
+ {
+  "seg": 123,
+  "start": 592.987,
+  "end": 594.808,
+  "speaker": "Unknown",
+  "en": "It was in the spec, but no clients implemented it.",
+  "zh": "它在规范里，但没有客户端实现它。"
+ },
+ {
+  "seg": 124,
+  "start": 595.708,
+  "end": 602.531,
+  "speaker": "Unknown",
+  "en": "And it wasn't really highlighted in the docs until Anthropic added a nice blog post to sort of talk about it, and then some clients started adding it.",
+  "zh": "而且它在文档里也一直没有被强调，直到 Anthropic 添加了一篇不错的博客文章来 sort of 谈论它，然后一些客户端开始添加它。"
+ },
+ {
+  "seg": 125,
+  "start": 602.611,
+  "end": 614.296,
+  "speaker": "Unknown",
+  "en": "And therefore, we would add additional instructions into each tool call, basically instructing the LLM how to use our server, even though server descriptions weren't necessarily written out yet.",
+  "zh": "因此，我们会在每次工具调用里加入额外指令，基本上是在指示 LLM 如何使用我们的 server,即便那时 server 描述还没 necessarily 写出来。"
+ },
+ {
+  "seg": 126,
+  "start": 615.176,
+  "end": 618.839,
+  "speaker": "Unknown",
+  "en": "Some other features that we really, really wanted were elicitation and sampling.",
+  "zh": "我们真心非常想要的另一些特性是 elicitation 和 sampling。"
+ },
+ {
+  "seg": 127,
+  "start": 620.781,
+  "end": 627.127,
+  "speaker": "Unknown",
+  "en": "Elicitation, if you haven't heard of it, is a way for you to ask the user a question, take that input and pass it back to your server.",
+  "zh": "Elicitation,如果你没听说过，是一种向用户提问、拿到输入再传回你的 server 的方式。"
+ },
+ {
+  "seg": 128,
+  "start": 627.607,
+  "end": 635.014,
+  "speaker": "Unknown",
+  "en": "So, here we have, it's VS Code, and basically it's asking, you know, what's my name, and you're able to take that input and pass it back to the server.",
+  "zh": "所以，这里是 VS Code,基本上它在问，you know,我叫什么名字，然后你就能拿到那个输入并传回 server。"
+ },
+ {
+  "seg": 129,
+  "start": 636.375,
+  "end": 651.664,
+  "speaker": "Unknown",
+  "en": "Which is interesting on its own, but we thought in combination with sampling, which is unfortunately deprecated, but it's fine because you're able to work around it, but sampling is a way of having a server query the client's LLM from our server.",
+  "zh": "这本身就很有意思，但我们想到与 sampling 结合，sampling 很遗憾已被弃用了，不过没关系因为你能绕过它，sampling 是让 server 从我们的 server 查询客户端 LLM 的一种方式。"
+ },
+ {
+  "seg": 130,
+  "start": 652.045,
+  "end": 654.226,
+  "speaker": "Unknown",
+  "en": "And kind of the canonical case was for small queries.",
+  "zh": "它的典型用例是小型查询。"
+ },
+ {
+  "seg": 131,
+  "start": 654.746,
+  "end": 658.809,
+  "speaker": "Unknown",
+  "en": "We thought it would be really useful to combine elicitation and sampling into a single workflow.",
+  "zh": "我们觉得把 elicitation 和 sampling 组合到单个工作流里会非常有用。"
+ },
+ {
+  "seg": 132,
+  "start": 659.609,
+  "end": 664.894,
+  "speaker": "Unknown",
+  "en": "We talked about how Code Connect improves users' workflows quite a bit and kind of makes outputs a lot better.",
+  "zh": "我们谈过 Code Connect 如何大幅改善用户的工作流，并让输出好很多。"
+ },
+ {
+  "seg": 133,
+  "start": 665.375,
+  "end": 676.225,
+  "speaker": "Unknown",
+  "en": "What we wanted to do was ask a user, can we map out your code base for code connections so that our MCP server can link them so that the output would be better and reduce the amount of contacts we send.",
+  "zh": "我们想做的是问用户，能否为 code connections 把你的代码库映射出来，以便我们的 MCP server 能把它们链接起来，这样输出会更好，并减少我们发送的上下文数量。"
+ },
+ {
+  "seg": 134,
+  "start": 676.926,
+  "end": 683.615,
+  "speaker": "Unknown",
+  "en": "Unfortunately, though, most of the clients didn't implement these features and didn't allow you to properly query the agent in the context of the codebase.",
+  "zh": "不过很遗憾，大多数客户端没有实现这些特性，也不允许你在代码库的上下文中正确地查询智能体。"
+ },
+ {
+  "seg": 135,
+  "start": 683.675,
+  "end": 689.703,
+  "speaker": "Unknown",
+  "en": "So for sampling, even when VS Code supported it, you could only really query it as a general agent, not specific to the codebase.",
+  "zh": "比如对于 sampling,即便 VS Code 支持它，你也只能把它当作一个通用智能体来查询，而不是特定于代码库的。"
+ },
+ {
+  "seg": 136,
+  "start": 690.224,
+  "end": 692.527,
+  "speaker": "Unknown",
+  "en": "But we were able to kind of hack around it using tools.",
+  "zh": "但我们能够用工具 sort of 绕过它。"
+ },
+ {
+  "seg": 137,
+  "start": 693.951,
+  "end": 708.13,
+  "speaker": "Unknown",
+  "en": "When you got the context of a particular component, or sorry, of a particular design in Figma, if we noticed it was a component and that it wasn't code connected, we'd send down a prompt to ask the user if they'd want to map the unleaked component, kind of mimicking elicitation.",
+  "zh": "当你获取某个特定组件的上下文，或者 sorry,某个特定设计在 Figma 里的上下文时，如果我们注意到它是一个组件且尚未 code connected,我们会下发一个提示词去问用户是否想映射那个 unleaked 组件，kind of 模仿 elicitation。"
+ },
+ {
+  "seg": 138,
+  "start": 709.415,
+  "end": 715.816,
+  "speaker": "Unknown",
+  "en": "If the user said yes, we'd send down another prompt to have the agent scan the code paste for potential matches, mimicking sampling.",
+  "zh": "如果用户说是，我们会下发另一个提示词，让智能体扫描代码 paste 寻找潜在匹配，模仿 sampling。"
+ },
+ {
+  "seg": 139,
+  "start": 716.416,
+  "end": 724.038,
+  "speaker": "Unknown",
+  "en": "We'd then service them in a specified format, or ask the agent to do so, and then have them send it back in bulk to make a bunch of code connections.",
+  "zh": "然后我们会以指定格式处理它们，或者让智能体这么做，然后让它们批量传回，以建立一堆 code connections。"
+ },
+ {
+  "seg": 140,
+  "start": 724.478,
+  "end": 730.899,
+  "speaker": "Unknown",
+  "en": "The screenshot on the right is the MCP Inspector, and if you haven't used it and you're developing an MCP server, you're doing yourself a disservice.",
+  "zh": "右边的截图是 MCP Inspector,如果你没用过它而你在开发 MCP server,那你就是在亏待自己。"
+ },
+ {
+  "seg": 141,
+  "start": 730.959,
+  "end": 732.98,
+  "speaker": "Unknown",
+  "en": "It's a really great tool, and it's open source and great.",
+  "zh": "它是一个非常棒的工具，而且开源、很棒。"
+ },
+ {
+  "seg": 142,
+  "start": 734.72,
+  "end": 745.367,
+  "speaker": "Unknown",
+  "en": "But the magic, in our case, was combining these two features, because we could ask the user for permission, we can have the agent give us those suggestions, and we can map them, and in the end, the users got a better experience.",
+  "zh": "但在我们的案例里，魔法在于结合这两个特性，因为我们可以请求用户许可，可以让智能体给我们那些建议，可以映射它们，最终用户获得了更好的体验。"
+ },
+ {
+  "seg": 143,
+  "start": 745.968,
+  "end": 746.868,
+  "speaker": "Unknown",
+  "en": "It's pretty great.",
+  "zh": "相当不错。"
+ },
+ {
+  "seg": 144,
+  "start": 748.249,
+  "end": 759.737,
+  "speaker": "Unknown",
+  "en": "The last sort of little thing that we did was we wanted to make our output the best it could be, and we didn't necessarily know when we were starting, you know, we had our evals, but we didn't know if the React Tailwind code would be successful for other types of code bases.",
+  "zh": "我们做的最后 sort of 一件小事是，我们想让输出尽可能最好，而我们开始时 necessarily 不知道，you know,我们有我们的 evals,但我们不知道 React Tailwind 代码对其他类型的代码库是否成功。"
+ },
+ {
+  "seg": 145,
+  "start": 760.637,
+  "end": 765.438,
+  "speaker": "Unknown",
+  "en": "And outside of the elicitation and sampling, which didn't really work as we wanted, there was no way of getting that information from the user.",
+  "zh": "而在 elicitation 和 sampling 之外——它们没有像我们希望的那样工作——没有办法从用户那里获取那个信息。"
+ },
+ {
+  "seg": 146,
+  "start": 765.878,
+  "end": 773.62,
+  "speaker": "Unknown",
+  "en": "So we added some optional query arguments to our tool calls, for ones like git design context, where they would send back what sort of language and what sort of framework the user might be using.",
+  "zh": "所以我们在工具调用里添加了一些可选的查询参数，对于像 git design context 这样的，它们会传回用户可能在用哪种语言、哪种框架。"
+ },
+ {
+  "seg": 147,
+  "start": 774.2,
+  "end": 774.961,
+  "speaker": "Unknown",
+  "en": "This is imperfect.",
+  "zh": "这并不完美。"
+ },
+ {
+  "seg": 148,
+  "start": 775.561,
+  "end": 776.181,
+  "speaker": "Unknown",
+  "en": "Agents lie.",
+  "zh": "智能体会撒谎。"
+ },
+ {
+  "seg": 149,
+  "start": 776.581,
+  "end": 782.562,
+  "speaker": "Unknown",
+  "en": "But it was at least a signal for us to understand, like, oh, this type of user, this felt user may not have had a good experience.",
+  "zh": "但它至少是一个信号，让我们理解，比如，哦，这类用户，这个 felt 用户可能没有获得好的体验。"
+ },
+ {
+  "seg": 150,
+  "start": 783.043,
+  "end": 785.663,
+  "speaker": "Unknown",
+  "en": "Perhaps it's because our translation layer wasn't working as well.",
+  "zh": "也许是因为我们的翻译层当时工作得不太好。"
+ },
+ {
+  "seg": 151,
+  "start": 786.143,
+  "end": 789.044,
+  "speaker": "Unknown",
+  "en": "We have found that that works pretty well, but this was kind of our way of verifying that.",
+  "zh": "我们发现那个方案效果相当不错，但这也是我们验证它的方式。"
+ },
+ {
+  "seg": 152,
+  "start": 790.372,
+  "end": 790.895,
+  "speaker": "Jesse Lumarie",
+  "en": "And I think that's a good thing.",
+  "zh": "我认为这是件好事。"
+ },
+ {
+  "seg": 153,
+  "start": 791.771,
+  "end": 795.452,
+  "speaker": "Unknown",
+  "en": "While we were working towards our first beta, we know we wanted four things.",
+  "zh": "在我们朝着第一个 beta 努力的时候，我们明确想要做到四件事。"
+ },
+ {
+  "seg": 154,
+  "start": 795.792,
+  "end": 807.455,
+  "speaker": "Unknown",
+  "en": "We wanted to launch quickly, we wanted to have the highest possible bar for our security, we wanted to respect file permissions, and we wanted to respect our pricing and packaging so we didn't have abuse vectors.",
+  "zh": "我们想快速上线，我们想为安全性设定尽可能高的标准，我们想尊重文件权限，我们还想尊重我们的定价和打包方式，这样就不会出现滥用途径。"
+ },
+ {
+  "seg": 155,
+  "start": 808.035,
+  "end": 819.278,
+  "speaker": "Unknown",
+  "en": "And so after the spec changed and introduced OAuth in March 2025, we had to decide whether to keep our MCP server local or sort of switch to the new remote server using streamable HTTP and kind of like work on all the OAuth problems.",
+  "zh": "于是在 2025 年 3 月规范变更并引入 OAuth 之后，我们不得不决定是保留本地的 MCP server,还是切换到使用 streamable HTTP 的新远程 server,并着手处理所有 OAuth 相关的问题。"
+ },
+ {
+  "seg": 156,
+  "start": 821.258,
+  "end": 821.678,
+  "speaker": "Unknown",
+  "en": "We punted.",
+  "zh": "我们搁置了。"
+ },
+ {
+  "seg": 157,
+  "start": 822.459,
+  "end": 829.422,
+  "speaker": "Unknown",
+  "en": "So, until LH Mart, there wasn't this off spec to build from, and we could easily relay off from our web app to our desktop app.",
+  "zh": "所以，在 LH Mart 之前，并没有这样一个可供构建的 off spec,而且我们可以很容易地从 web 应用中继到桌面应用。"
+ },
+ {
+  "seg": 158,
+  "start": 829.442,
+  "end": 844.87,
+  "speaker": "Unknown",
+  "en": "So, for folks who don't know, the Figma desktop app is Electron, and so, the front end of it is a web app, and we basically just run Figma.com in that, and then we have an IPC bridge between the two, and that sends it to our node process that allows us to talk to the user's file system.",
+  "zh": "对于不了解的人来说，Figma 桌面应用是 Electron 的，所以它的前端是一个 web 应用，我们基本上就是在里面运行 Figma.com,然后在两者之间有一个 IPC bridge,把它发送到我们的 node 进程，这个进程让我们能够与用户的文件系统对话。"
+ },
+ {
+  "seg": 159,
+  "start": 846.35,
+  "end": 852.193,
+  "speaker": "Unknown",
+  "en": "We then sort of exposed a server-send events server in Node, and that way clients could talk directly locally.",
+  "zh": "然后我们在 Node 中暴露了一个 server-send events server,这样客户端就可以在本地直接对话。"
+ },
+ {
+  "seg": 160,
+  "start": 852.573,
+  "end": 858.335,
+  "speaker": "Unknown",
+  "en": "The local store is also really great with enterprises because they kind of like the idea of our data not being sent anywhere.",
+  "zh": "本地方案对企业也非常友好，因为他们挺喜欢数据不会被发送到任何地方这个想法。"
+ },
+ {
+  "seg": 161,
+  "start": 858.675,
+  "end": 865.718,
+  "speaker": "Unknown",
+  "en": "This architecture was our fastest path to getting something into the hands of users to understand product-market fit and what kind of tools and use cases folks had.",
+  "zh": "这个架构是我们最快把东西交到用户手中、以理解产品市场契合度以及大家有哪些工具和用例的路径。"
+ },
+ {
+  "seg": 162,
+  "start": 869.026,
+  "end": 875.171,
+  "speaker": "Unknown",
+  "en": "We launched the MCP server internally, and the reception was extremely honest.",
+  "zh": "我们在内部上线了 MCP server,反馈非常坦诚。"
+ },
+ {
+  "seg": 163,
+  "start": 877.112,
+  "end": 884.138,
+  "speaker": "Unknown",
+  "en": "But we worked out a lot of the kinks and we started to get some really positive feedback in the community from a bunch of nice folks.",
+  "zh": "但我们解决了许多小问题，并开始在社区中从一群好心人那里获得一些非常正面的反馈。"
+ },
+ {
+  "seg": 164,
+  "start": 884.538,
+  "end": 886.82,
+  "speaker": "Unknown",
+  "en": "But launching this part was just the beginning.",
+  "zh": "但上线这部分仅仅是个开始。"
+ },
+ {
+  "seg": 165,
+  "start": 886.92,
+  "end": 891.023,
+  "speaker": "Unknown",
+  "en": "We had a lot of improvements that we wanted to make, and we immediately started working on the remote server as soon as we launched.",
+  "zh": "我们有很多想要做的改进，一上线我们就立即开始着手远程 server 的工作。"
+ },
+ {
+  "seg": 166,
+  "start": 893.768,
+  "end": 899.89,
+  "speaker": "Unknown",
+  "en": "Clients were on different timelines, and we were still trying to figure out where we were going, but we knew we wanted to get the remote server out, so that's what we worked on.",
+  "zh": "各客户端的时间线不同，我们也仍在试图搞清楚我们要走向何方，但我们知道自己想把远程 server 推出去，所以我们就做这个。"
+ },
+ {
+  "seg": 167,
+  "start": 901.45,
+  "end": 903.531,
+  "speaker": "Unknown",
+  "en": "In September, we launched the remote server.",
+  "zh": "9 月，我们上线了远程 server。"
+ },
+ {
+  "seg": 168,
+  "start": 903.831,
+  "end": 906.572,
+  "speaker": "Unknown",
+  "en": "We GA'd both servers in October 2025.",
+  "zh": "我们在 2025 年 10 月将两个 server 都 GA 了。"
+ },
+ {
+  "seg": 169,
+  "start": 907.632,
+  "end": 910.053,
+  "speaker": "Unknown",
+  "en": "And then we started adding read and write capabilities.",
+  "zh": "然后我们开始添加读取和写入能力。"
+ },
+ {
+  "seg": 170,
+  "start": 910.573,
+  "end": 917.935,
+  "speaker": "Unknown",
+  "en": "And kind of all these things combined ended up making for Figment one of the fastest growing products that they've ever had, which was not something we expected when we started working on this.",
+  "zh": "这些事情综合起来，最终让 Figment 成为他们有史以来增长最快的产品之一，这是我们在开始做这个时没有预料到的。"
+ },
+ {
+  "seg": 171,
+  "start": 920.065,
+  "end": 923.226,
+  "speaker": "Unknown",
+  "en": "So, late last year, I started working on a slightly different thing.",
+  "zh": "所以，去年晚些时候，我开始做一个稍微不同的东西。"
+ },
+ {
+  "seg": 172,
+  "start": 924.507,
+  "end": 930.849,
+  "speaker": "Unknown",
+  "en": "We started to see some research that designers really wanted to shift to writing production code in certain cases, and we didn't really have a dedicated product for this.",
+  "zh": "我们开始看到一些研究，表明设计师在某些情况下真的很想转向编写生产代码，而我们并没有一个专门为此打造的产品。"
+ },
+ {
+  "seg": 173,
+  "start": 931.309,
+  "end": 944.614,
+  "speaker": "Unknown",
+  "en": "So, I started hacking with a bunch of MCP folks at an offsite, and this eventually became something called make in your local codebase, which is kind of Figma's agent solution for working on GitHub and local codebases.",
+  "zh": "于是，我在一次 offsite 上和一群 MCP 相关的人一起 hack,这最终变成了一个叫 make in your local codebase 的东西，它基本上是 Figma 用于在 GitHub 和本地代码库上工作的智能体解决方案。"
+ },
+ {
+  "seg": 174,
+  "start": 945.615,
+  "end": 949.361,
+  "speaker": "Unknown",
+  "en": "The reason I bring this up is only slightly self-serving, but it relates to this next slide.",
+  "zh": "我提这个的原因只是稍微有点私心，但它和下一张幻灯片有关。"
+ },
+ {
+  "seg": 175,
+  "start": 950.583,
+  "end": 952.887,
+  "speaker": "Unknown",
+  "en": "If there's one thing you want to take away from this talk, it's that...",
+  "zh": "如果这场演讲你只想带走一件事，那就是……"
+ },
+ {
+  "seg": 176,
+  "start": 953.742,
+  "end": 954.443,
+  "speaker": "Unknown",
+  "en": "We're so early.",
+  "zh": "我们还太早了。"
+ },
+ {
+  "seg": 177,
+  "start": 955.323,
+  "end": 956.785,
+  "speaker": "Unknown",
+  "en": "Like, this has not been a long time.",
+  "zh": "就是说，这并没有经历很长时间。"
+ },
+ {
+  "seg": 178,
+  "start": 957.145,
+  "end": 962.069,
+  "speaker": "Unknown",
+  "en": "The MCP spec is only two years old, and we're still figuring out the best way to do things.",
+  "zh": "MCP 规范才两岁，我们仍在摸索最佳做法。"
+ },
+ {
+  "seg": 179,
+  "start": 962.81,
+  "end": 970.197,
+  "speaker": "Unknown",
+  "en": "And then second, Figma's done a great job of letting engineers build and figure out what's next and letting them run with it.",
+  "zh": "第二，Figma 在让工程师去构建并搞清楚下一步是什么、然后放手让他们去做这方面做得非常出色。"
+ },
+ {
+  "seg": 180,
+  "start": 970.257,
+  "end": 972.318,
+  "speaker": "Unknown",
+  "en": "I wasn't staffed on MCP.",
+  "zh": "我并没有被正式指派到 MCP 项目上。"
+ },
+ {
+  "seg": 181,
+  "start": 972.759,
+  "end": 974.28,
+  "speaker": "Unknown",
+  "en": "I wasn't staffed on our make product.",
+  "zh": "我也没有被正式指派到我们的 make 产品上。"
+ },
+ {
+  "seg": 182,
+  "start": 974.601,
+  "end": 980.366,
+  "speaker": "Unknown",
+  "en": "But I ended up helping them be built just because I was kind of giving the leeway to do so and learning a ton along the way.",
+  "zh": "但我最终帮助了它们被构建出来，只是因为我被给予了这样做的自由空间，并在此过程中学到了大量东西。"
+ },
+ {
+  "seg": 183,
+  "start": 982.734,
+  "end": 983.554,
+  "speaker": "Unknown",
+  "en": "That's all for my talk.",
+  "zh": "我的演讲就到这里。"
+ },
+ {
+  "seg": 184,
+  "start": 984.075,
+  "end": 986.035,
+  "speaker": "Unknown",
+  "en": "I'll be around today and tomorrow, but feel free to reach out.",
+  "zh": "今天和明天我都会在现场，欢迎随时找我。"
+ },
+ {
+  "seg": 185,
+  "start": 986.055,
+  "end": 988.056,
+  "speaker": "Unknown",
+  "en": "I'm happy to talk about MCP, Figma and all that.",
+  "zh": "我很乐意聊聊 MCP、Figma 之类的。"
+ },
+ {
+  "seg": 186,
+  "start": 988.376,
+  "end": 988.996,
+  "speaker": "Unknown",
+  "en": "Thanks so much for your time.",
+  "zh": "非常感谢大家的时间。"
+ }
+]

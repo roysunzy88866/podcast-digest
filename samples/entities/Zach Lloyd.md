@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":330,"编码智能体":19,"代码审查":16,"计算机使用":14,"LLM 当裁判":8,"自我改进":1,"MCP":60}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":334,"编码智能体":20,"代码审查":16,"计算机使用":14,"LLM 当裁判":9,"自我改进":1,"MCP":60}</script>
 
 <script>
 (function(){

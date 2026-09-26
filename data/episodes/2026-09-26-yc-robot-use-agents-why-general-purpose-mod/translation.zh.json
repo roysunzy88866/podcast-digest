@@ -1,0 +1,2850 @@
+[
+ {
+  "seg": 0,
+  "start": 0.111,
+  "end": 4.815,
+  "speaker": "Unknown",
+  "en": "One of the big surprises the last few years has been the generalizability of coding agents across different domains.",
+  "zh": "过去几年最大的惊喜之一，是编码智能体在不同领域之间的通用性。"
+ },
+ {
+  "seg": 1,
+  "start": 5.175,
+  "end": 8.498,
+  "speaker": "Unknown",
+  "en": "And now frontier researchers are showing that this includes controlling robots.",
+  "zh": "而现在，前沿研究人员正在表明，这也包括控制机器人。"
+ },
+ {
+  "seg": 2,
+  "start": 8.878,
+  "end": 18.806,
+  "speaker": "Unknown",
+  "en": "This led MIT professor Philip Isola to suggest in a recent viral essay that we may be entering the era of robot use agents, where general purpose models could make different robots more capable.",
+  "zh": "这促使 MIT 教授 Philip Isola 在最近一篇爆火的文章中提出，我们可能正在进入机器人使用智能体的时代，通用模型可以让不同的机器人变得更能干。"
+ },
+ {
+  "seg": 3,
+  "start": 19.086,
+  "end": 28.053,
+  "speaker": "Unknown",
+  "en": "So today Francois and I invited the founders of Waddle Labs and RoboCurve, two groups of startups that are working at the very frontier of making robots more capable with LLMs.",
+  "zh": "所以今天，Francois 和我邀请了 Waddle Labs 和 RoboCurve 的创始人，这两家创业公司都在用 LLM 让机器人变得更能干的 very 前沿工作。"
+ },
+ {
+  "seg": 4,
+  "start": 35.556,
+  "end": 40.541,
+  "speaker": "Unknown",
+  "en": "Maybe you guys want to briefly introduce yourselves and just say a little bit about what each of your companies focuses on.",
+  "zh": "也许你们想简单自我介绍一下，并简单说说你们各自的公司专注于什么。"
+ },
+ {
+  "seg": 5,
+  "start": 40.641,
+  "end": 41.041,
+  "speaker": "Unknown",
+  "en": "I'm Han Mei.",
+  "zh": "我是 Han Mei。"
+ },
+ {
+  "seg": 6,
+  "start": 41.081,
+  "end": 42.843,
+  "speaker": "Unknown",
+  "en": "I'm from Waterlabs together with Vincent.",
+  "zh": "我来自 Waterlabs，和 Vincent 一起。"
+ },
+ {
+  "seg": 7,
+  "start": 43.283,
+  "end": 46.306,
+  "speaker": "Unknown",
+  "en": "We work on building LLMs that control robots.",
+  "zh": "我们致力于构建控制机器人的 LLM。"
+ },
+ {
+  "seg": 8,
+  "start": 46.466,
+  "end": 54.314,
+  "speaker": "Unknown",
+  "en": "And we do this by doing two things, building a harness that allows the LMs to do this very effectively, collecting data, and then using that data to train better LLMs.",
+  "zh": "我们通过做两件事来实现这一点：构建一个能让 LM 非常有效地做到这一点的 harness，收集数据，然后用这些数据训练更好的 LLM。"
+ },
+ {
+  "seg": 9,
+  "start": 54.695,
+  "end": 57.297,
+  "speaker": "Unknown",
+  "en": "Hi, I'm Jay, co-founder of RoboCurve.",
+  "zh": "你好，我是 Jay，RoboCurve 的联合创始人。"
+ },
+ {
+  "seg": 10,
+  "start": 57.957,
+  "end": 61.08,
+  "speaker": "Unknown",
+  "en": "We are an evals company for physical AI.",
+  "zh": "我们是一家面向物理 AI 的 evals 公司。"
+ },
+ {
+  "seg": 11,
+  "start": 61.52,
+  "end": 71.207,
+  "speaker": "Unknown",
+  "en": "We measure everything, any robot, any model, including LLMs and also classical approaches such as VLAs, Vision Language Action Models, and World Action Models.",
+  "zh": "我们测量一切，任何机器人、任何模型，包括 LLM，也包括经典方法，比如 VLA（视觉-语言-动作模型）和世界-动作模型。"
+ },
+ {
+  "seg": 12,
+  "start": 71.547,
+  "end": 80.334,
+  "speaker": "Unknown",
+  "en": "And we evaluate all kinds of embodiments like hands, grippers, arms, humanoids, quadruplets, all kinds of stuff.",
+  "zh": "而且我们评估各种本体，比如手、夹爪、机械臂、人形机器人、四足机器人，各种各样的东西。"
+ },
+ {
+  "seg": 13,
+  "start": 80.614,
+  "end": 85.658,
+  "speaker": "Unknown",
+  "en": "So in the last few weeks, videos from both of you guys went quite viral on Twitter and I think inspired.",
+  "zh": "所以在最近几周，你们两位的视频在 Twitter 上相当爆火，我想也带来了启发。"
+ },
+ {
+  "seg": 14,
+  "start": 85.678,
+  "end": 89.741,
+  "speaker": "Unknown",
+  "en": "I think both of them are actually quoted in that Philip Isola essay talking about robot use agents.",
+  "zh": "我想他们的两个其实都被引用在 Philip Isola 那篇关于机器人使用智能体的文章里。"
+ },
+ {
+  "seg": 15,
+  "start": 90.422,
+  "end": 99.649,
+  "speaker": "Unknown",
+  "en": "The videos showed things like LOMs being able to unscrew caps, being able to communicate between multiple robots, being able to do tasks like uncapping a pen, for example.",
+  "zh": "这些视频展示了诸如 LOM 能够拧开瓶盖、能够在多个机器人之间通信、能够完成比如拔开笔帽之类的任务。"
+ },
+ {
+  "seg": 16,
+  "start": 100.189,
+  "end": 106.735,
+  "speaker": "Unknown",
+  "en": "And so I thought maybe what would be fun is for Francois and I to dig in with you guys on some of the research that led to this moment to begin.",
+  "zh": "所以我想，有趣的做法可能是让 Francois 和我和你们一起深入挖掘一下，那些促成了这一时刻的 一些研究，作为开始。"
+ },
+ {
+  "seg": 17,
+  "start": 106.855,
+  "end": 109.697,
+  "speaker": "Unknown",
+  "en": "And then maybe we can also show some demonstrations of what this can actually do.",
+  "zh": "然后也许我们还可以展示一些它实际能做什么的演示。"
+ },
+ {
+  "seg": 18,
+  "start": 110.012,
+  "end": 116.878,
+  "speaker": "Unknown",
+  "en": "To start, why don't we talk about some of the early research around transfer between language models and robot control.",
+  "zh": "首先，我们何不谈谈围绕语言模型与机器人控制之间迁移的一些早期研究。"
+ },
+ {
+  "seg": 19,
+  "start": 117.058,
+  "end": 125.044,
+  "speaker": "Unknown",
+  "en": "So I want to talk about some of the early work on pre-training language models for decision-making, and then also the RT2 paper, which established the VLA.",
+  "zh": "所以我想谈谈一些围绕为决策而预训练语言模型的早期工作，还有那篇确立了 VLA 的 RT2 论文。"
+ },
+ {
+  "seg": 20,
+  "start": 125.465,
+  "end": 131.83,
+  "speaker": "Unknown",
+  "en": "So maybe Jay, do you want to tell us a little bit about some of this early work involving being able to use language models to do any kind of robot control?",
+  "zh": "也许 Jay，你想给我们讲讲一些涉及能够用语言模型做任何形式的机器人控制的早期工作吗？"
+ },
+ {
+  "seg": 21,
+  "start": 132.11,
+  "end": 147.476,
+  "speaker": "Unknown",
+  "en": "One of the earliest successful approaches of using AI on robots is the RT2 paper, where they use a pre-trained language model on web, text, and images, and use that to control robots.",
+  "zh": "在机器人上使用 AI 最早的成功方法之一就是 RT2 论文，他们在网络文本和图像上使用了一个预训练的语言模型，并用它来控制机器人。"
+ },
+ {
+  "seg": 22,
+  "start": 147.876,
+  "end": 153.438,
+  "speaker": "Unknown",
+  "en": "And the interesting thing about that is that it's a fine-tuned version of a language model.",
+  "zh": "有趣的是，它是一个语言模型的微调版本。"
+ },
+ {
+  "seg": 23,
+  "start": 154.118,
+  "end": 158.78,
+  "speaker": "Unknown",
+  "en": "And instead of outputting English, for example, they just output, um,",
+  "zh": "它不是输出英语之类的，而是输出，呃，"
+ },
+ {
+  "seg": 24,
+  "start": 159.675,
+  "end": 167.98,
+  "speaker": "Unknown",
+  "en": "What we call an end effector pose, which is the coordinates that you can then translate into join commands that can control the robots.",
+  "zh": "我们所说的末端执行器位姿，也就是你可以随后转换成关节指令的坐标，这些指令可以控制机器人。"
+ },
+ {
+  "seg": 25,
+  "start": 168.56,
+  "end": 178.726,
+  "speaker": "Unknown",
+  "en": "Uh, in some cases, it's, um, in some sense, it's very similar to what we see now with large language models, just that instead of fine tuning, the models are good enough to just do it off the box.",
+  "zh": "呃，在某些情况下，它，呃，从某种意义上说，它和我们现在在大语言模型上看到的非常相似，只是它不是靠微调，而是模型已经足够好，开箱即用就能做到。"
+ },
+ {
+  "seg": 26,
+  "start": 178.957,
+  "end": 184.981,
+  "speaker": "Unknown",
+  "en": "And this is actually quite similar to like the mapping that I have in my head is kind of like the COT moment.",
+  "zh": "而这其实非常类似于，比如，我脑子里有的那个映射，有点像 COT 时刻。"
+ },
+ {
+  "seg": 27,
+  "start": 185.401,
+  "end": 190.545,
+  "speaker": "Unknown",
+  "en": "And so like when we did GSM8K and you said, Susie had $8, she spent five, how much does she have now?",
+  "zh": "就像当我们做 GSM8K 时，题目说，Susie 有 8 美元，她花了 5 美元，她现在还剩多少钱？"
+ },
+ {
+  "seg": 28,
+  "start": 191.385,
+  "end": 196.649,
+  "speaker": "Unknown",
+  "en": "It had to output like four hash marks and then the answer and then EOS.",
+  "zh": "它必须输出类似四个计数符号，然后是答案，然后是 EOS。"
+ },
+ {
+  "seg": 29,
+  "start": 197.329,
+  "end": 199.77,
+  "speaker": "Unknown",
+  "en": "There was no ability for it to chain of thought.",
+  "zh": "它没有办法进行思维链。"
+ },
+ {
+  "seg": 30,
+  "start": 200.29,
+  "end": 205.291,
+  "speaker": "Unknown",
+  "en": "And so then we allowed it to actually have like, okay, let me go eight minus five is three.",
+  "zh": "然后我们允许它真正地去想，比如，好，让我算一下，8 减 5 等于 3。"
+ },
+ {
+  "seg": 31,
+  "start": 205.311,
+  "end": 208.072,
+  "speaker": "Unknown",
+  "en": "And so like, hash, hash, hash, hash, three.",
+  "zh": "于是就像，划、划、划、划，3。"
+ },
+ {
+  "seg": 32,
+  "start": 208.492,
+  "end": 212.793,
+  "speaker": "Unknown",
+  "en": "And so you allowed it to do this kind of thinking before it actually gave an action or an answer.",
+  "zh": "所以你允许它在真正给出一个动作或一个答案之前先做这种思考。"
+ },
+ {
+  "seg": 33,
+  "start": 213.873,
+  "end": 217.094,
+  "speaker": "Unknown",
+  "en": "And similarly now, like VLA is, we're basically like an arc.",
+  "zh": "同样地，现在，比如，VLA 基本上就像一个 arc。"
+ },
+ {
+  "seg": 34,
+  "start": 217.694,
+  "end": 219.655,
+  "speaker": "Unknown",
+  "en": "RT2 is basically like, it has to output an action.",
+  "zh": "RT2 基本上就是，它必须输出一个动作。"
+ },
+ {
+  "seg": 35,
+  "start": 219.935,
+  "end": 223.175,
+  "speaker": "Unknown",
+  "en": "There's no, like, I can't allocate more compute for a more complex task.",
+  "zh": "没有，比如，我无法为更复杂的任务分配更多算力。"
+ },
+ {
+  "seg": 36,
+  "start": 223.616,
+  "end": 226.776,
+  "speaker": "Unknown",
+  "en": "And then now I have this code chain of thought thing that I can do.",
+  "zh": "而现在，我有了这个我可以做的代码思维链。"
+ },
+ {
+  "seg": 37,
+  "start": 227.076,
+  "end": 235.438,
+  "speaker": "Unknown",
+  "en": "And I can say, okay, even if you were using the example where you're not actually outputting the code, you're just giving it to Astra and let it think, think, think, think, think, and then output an action.",
+  "zh": "我可以说，好，即便你用的是那个例子，即你实际上并不输出代码，你只是把它交给 Astra，让它思考、思考、思考、思考、思考，然后输出一个动作。"
+ },
+ {
+  "seg": 38,
+  "start": 235.838,
+  "end": 246.801,
+  "speaker": "Unknown",
+  "en": "Similarly now, like, and then with code, it's a more Kolmogorov complexity or lower Kolmogorov complexity code length to just use code and really compact code to just like, here's code.",
+  "zh": "同样地，现在，比如，有了代码，它是一个更低 Kolmogorov 复杂度的代码长度，只需使用代码，非常紧凑的代码，就像，这是代码。"
+ },
+ {
+  "seg": 39,
+  "start": 247.461,
+  "end": 249.342,
+  "speaker": "Unknown",
+  "en": "Yeah, I totally agree with you on that.",
+  "zh": "是的，我在这点上完全同意你。"
+ },
+ {
+  "seg": 40,
+  "start": 249.382,
+  "end": 252.763,
+  "speaker": "Unknown",
+  "en": "I feel like at the end of the day, it's a lot about the better lesson, right?",
+  "zh": "我觉得归根结底，这在很大程度上关乎更好的苦涩教训（bitter lesson），对吧？"
+ },
+ {
+  "seg": 41,
+  "start": 252.883,
+  "end": 265.108,
+  "speaker": "Unknown",
+  "en": "If you give the agents or you give the AI model more autonomy and if you unshackle it a bit more and give it more resources, it can actually do a lot of the things that we fine-tune it to do.",
+  "zh": "如果你给智能体，或者说给 AI 模型更多自主权，如果你稍微解开它的束缚，给它更多资源，它其实能完成很多我们微调它去做的事情。"
+ },
+ {
+  "seg": 42,
+  "start": 265.728,
+  "end": 267.269,
+  "speaker": "Unknown",
+  "en": "I'm just going to hop in here as well.",
+  "zh": "我也想插一句。"
+ },
+ {
+  "seg": 43,
+  "start": 267.429,
+  "end": 276.352,
+  "speaker": "Unknown",
+  "en": "I think the really interesting thing about the bitter lesson here is that like VLA's by design architecturally, they're built on top of language models as well, right?",
+  "zh": "我觉得这里的苦涩教训真正有趣的地方在于，VLA 在架构设计上，它们其实也是构建在语言模型之上的，对吧？"
+ },
+ {
+  "seg": 44,
+  "start": 276.593,
+  "end": 278.753,
+  "speaker": "Unknown",
+  "en": "They can potentially reason, they can write code.",
+  "zh": "它们有可能进行推理，它们可以写代码。"
+ },
+ {
+  "seg": 45,
+  "start": 279.234,
+  "end": 286.096,
+  "speaker": "Unknown",
+  "en": "So perhaps the bitter lesson here isn't necessarily what architecture you build necessarily, but it's what data is most useful, right?",
+  "zh": "所以也许这里的苦涩教训并不一定在于你构建了什么架构，而在于什么数据是最有用的，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 286.116,
+  "end": 286.817,
+  "speaker": "Unknown",
+  "en": "Like people have been...",
+  "zh": "就像人们一直在……"
+ },
+ {
+  "seg": 47,
+  "start": 287.577,
+  "end": 293.199,
+  "speaker": "Unknown",
+  "en": "Sort of nagging at this VLA data bottleneck for years now, and we're seeing very, very slow progress.",
+  "zh": "多年来一直在纠结这个 VLA 数据瓶颈，而我们看到的是非常非常缓慢的进展。"
+ },
+ {
+  "seg": 48,
+  "start": 293.659,
+  "end": 297.14,
+  "speaker": "Unknown",
+  "en": "And so the lesson here is maybe we have a modality of data that we know works very well.",
+  "zh": "所以这里的教训也许是，我们有一种已知效果非常好的数据模态。"
+ },
+ {
+  "seg": 49,
+  "start": 297.6,
+  "end": 302.222,
+  "speaker": "Unknown",
+  "en": "And this idea of transferring across different modalities, which Ham and I are super excited about.",
+  "zh": "还有这种跨不同模态进行迁移的想法，Han 和我对这一点都超级兴奋。"
+ },
+ {
+  "seg": 50,
+  "start": 302.462,
+  "end": 306.983,
+  "speaker": "Unknown",
+  "en": "Like, how do you take something that is traditionally out of distribution, like robotics, and make it something that's in distribution?",
+  "zh": "就是说,你怎么把传统上属于分布之外的东西,比如机器人技术,变成分布内的东西?"
+ },
+ {
+  "seg": 51,
+  "start": 307.323,
+  "end": 311.445,
+  "speaker": "Unknown",
+  "en": "Like maybe the way of harnessing the bitter lesson is saying, let's pick a data for which...",
+  "zh": "也许利用苦涩教训的方式就是说,让我们选一种数据,使得……"
+ },
+ {
+  "seg": 52,
+  "start": 312.065,
+  "end": 313.488,
+  "speaker": "Unknown",
+  "en": "We know this modality is pretty blessed.",
+  "zh": "我们知道这种模态是相当受眷顾的。"
+ },
+ {
+  "seg": 53,
+  "start": 313.608,
+  "end": 321.822,
+  "speaker": "Unknown",
+  "en": "There's a lot of data, these models understand it well, and then use this as a way of unlocking a lot of other domains as well.",
+  "zh": "数据很多,这些模型对它理解得很好,然后以此作为解锁许多其他领域的方式。"
+ },
+ {
+  "seg": 54,
+  "start": 322.117,
+  "end": 334.72,
+  "speaker": "Unknown",
+  "en": "Yeah, and to add to that, the reason why RT2 is such a good model is because it is using a language model that taps into the modality of all the data that a language model is trained on.",
+  "zh": "是的,补充一点,RT2 之所以是这么好的模型,是因为它使用的语言模型接入了语言模型训练所用的全部数据的模态。"
+ },
+ {
+  "seg": 55,
+  "start": 335.04,
+  "end": 345.043,
+  "speaker": "Unknown",
+  "en": "So all those web images and web text actually improves the VLA compared to just training a specific robotics foundation model without any pre-training.",
+  "zh": "所以所有那些网络图片和网络文本实际上提升了 VLA,相比训练一个没有任何预训练的特定机器人基础模型。"
+ },
+ {
+  "seg": 56,
+  "start": 345.665,
+  "end": 351.251,
+  "speaker": "Unknown",
+  "en": "So you're benefiting in the case of RT2, these early VLA approaches from pre-training.",
+  "zh": "所以在 RT2 这些早期 VLA 方法的情况下,你是从预训练中获益的。"
+ },
+ {
+  "seg": 57,
+  "start": 351.872,
+  "end": 360.141,
+  "speaker": "Unknown",
+  "en": "I guess, what's the limitation in the, I guess, action-taking, fine-tuning approach that you can now get around if you can directly write code?",
+  "zh": "我猜,在采取动作、微调的方法中,局限是什么,如果可以直接写代码,现在就能绕过去?"
+ },
+ {
+  "seg": 58,
+  "start": 360.161,
+  "end": 362.904,
+  "speaker": "Unknown",
+  "en": "Like you're referring to like a difference in data there.",
+  "zh": "你指的像是数据上的一个差异。"
+ },
+ {
+  "seg": 59,
+  "start": 363.184,
+  "end": 365.026,
+  "speaker": "Unknown",
+  "en": "What exactly is that difference in data you're referring to?",
+  "zh": "你所指的那个数据差异到底是什么?"
+ },
+ {
+  "seg": 60,
+  "start": 365.386,
+  "end": 368.328,
+  "speaker": "Unknown",
+  "en": "There's a few things that models have got much better at since RD2.",
+  "zh": "自从 RD2 以来,模型在很多方面变得强得多了。"
+ },
+ {
+  "seg": 61,
+  "start": 369.689,
+  "end": 372.911,
+  "speaker": "Unknown",
+  "en": "Like one, I mean, they're much better tool use, for example.",
+  "zh": "比如,我是说,例如它们在工具使用上强得多了。"
+ },
+ {
+  "seg": 62,
+  "start": 373.051,
+  "end": 378.155,
+  "speaker": "Unknown",
+  "en": "So, you know, one kind of data is now these models can, well, I mean, they write code much better.",
+  "zh": "所以,你知道,一种数据是现在这些模型可以,嗯,我是说,它们写代码写得好得多了。"
+ },
+ {
+  "seg": 63,
+  "start": 378.275,
+  "end": 380.797,
+  "speaker": "Unknown",
+  "en": "So now they can write complex policies as code.",
+  "zh": "所以现在它们可以把复杂策略写成代码。"
+ },
+ {
+  "seg": 64,
+  "start": 381.157,
+  "end": 386.16,
+  "speaker": "Unknown",
+  "en": "They're also much better using tools to explore the kinds of environments they're in, like what arms they have access to.",
+  "zh": "它们也更擅长使用工具去探索它们所处的环境,比如它们能用哪些机械臂。"
+ },
+ {
+  "seg": 65,
+  "start": 386.581,
+  "end": 388.602,
+  "speaker": "Unknown",
+  "en": "And a lot of this comes from in-context learning.",
+  "zh": "而其中很多来自上下文学习。"
+ },
+ {
+  "seg": 66,
+  "start": 388.842,
+  "end": 393.185,
+  "speaker": "Unknown",
+  "en": "Like the key difference between like these VLAs and like GPT-6 or LLM, isn't",
+  "zh": "比如这些 VLA 和比如 GPT-6 或 LLM 之间的关键区别,并不"
+ },
+ {
+  "seg": 67,
+  "start": 393.185,
+  "end": 397.227,
+  "speaker": "Unknown",
+  "en": "Not necessarily the architecture, but kind of the approach you take towards training.",
+  "zh": "不一定是架构,而是你在训练上采取的方法。"
+ },
+ {
+  "seg": 68,
+  "start": 397.627,
+  "end": 399.167,
+  "speaker": "Unknown",
+  "en": "We want to be bitter less than pill, right?",
+  "zh": "我们想要服用苦涩教训药丸,对吧?"
+ },
+ {
+  "seg": 69,
+  "start": 399.187,
+  "end": 401.688,
+  "speaker": "Unknown",
+  "en": "We want to benefit from all kinds of data.",
+  "zh": "我们想从各种数据中获益。"
+ },
+ {
+  "seg": 70,
+  "start": 401.789,
+  "end": 405.39,
+  "speaker": "Unknown",
+  "en": "We want to pour in computer use data into our robot models.",
+  "zh": "我们想把计算机使用数据灌入我们的机器人模型。"
+ },
+ {
+  "seg": 71,
+  "start": 405.41,
+  "end": 407.151,
+  "speaker": "Unknown",
+  "en": "We want to pour in coding data into our robot models.",
+  "zh": "我们想把编码数据灌入我们的机器人模型。"
+ },
+ {
+  "seg": 72,
+  "start": 407.431,
+  "end": 412.433,
+  "speaker": "Unknown",
+  "en": "But when you do that, you just end up getting what we think of as like these general purpose LLM agents.",
+  "zh": "但当你这么做时,你最终得到的就是我们所认为的这类通用 LLM 智能体。"
+ },
+ {
+  "seg": 73,
+  "start": 412.933,
+  "end": 424.778,
+  "speaker": "Unknown",
+  "en": "And then so to me, it's like, okay, why not just build a really good foundational LLM and then use that to control robots rather than training like a model that's specifically for robotics and that's more dependent on just robot data.",
+  "zh": "所以对我而言,就是,好吧,为什么不直接构建一个非常好的基础 LLM,然后用它来控制机器人,而不是训练一个专门面向机器人、更依赖于纯机器人数据的模型。"
+ },
+ {
+  "seg": 74,
+  "start": 425.178,
+  "end": 427.439,
+  "speaker": "Unknown",
+  "en": "On that note, maybe one of the things that I think...",
+  "zh": "说到这里,也许有一点我认为……"
+ },
+ {
+  "seg": 75,
+  "start": 428.259,
+  "end": 434.88,
+  "speaker": "Unknown",
+  "en": "If we could rewind the clock a couple of years, may have been a good sign that we were trending in a good direction to this, is research on code as policies, right?",
+  "zh": "如果我们能回拨几年的时钟,那可能是我们正朝好的方向迈进的一个好迹象,那就是「代码即策略」的研究,对吧?"
+ },
+ {
+  "seg": 76,
+  "start": 435.121,
+  "end": 439.842,
+  "speaker": "Unknown",
+  "en": "Do you guys want to talk a little bit about when the research community refers to code as policies, what exactly that means?",
+  "zh": "你们想谈谈当研究界提到 code as policies 时,那到底意味着什么吗?"
+ },
+ {
+  "seg": 77,
+  "start": 439.862,
+  "end": 446.823,
+  "speaker": "Unknown",
+  "en": "And I think it's worth putting this in the context of when this paper came out, which was coding agents just starting to work.",
+  "zh": "我认为值得把这放在这篇论文发表时的背景下,当时编码智能体刚刚开始能用了。"
+ },
+ {
+  "seg": 78,
+  "start": 446.863,
+  "end": 455.225,
+  "speaker": "Unknown",
+  "en": "I think this was still in the era in which people were like putting comments and auto-filling, you know, Python code blocks, which, you know, now we think of as ancient history, but this was like two years ago.",
+  "zh": "我记得当时还处在人们往里面写注释然后自动补全 Python 代码块的年代,你知道,现在我们把这当作远古历史,但那是大概两年前的事。"
+ },
+ {
+  "seg": 79,
+  "start": 455.865,
+  "end": 460.569,
+  "speaker": "Unknown",
+  "en": "So yeah, how does code as policies work and how did that inspire some of what you guys are now seeing as possible?",
+  "zh": "那么,code as policies 是怎么工作的,它又如何启发了你们现在所看到的一些可能性?"
+ },
+ {
+  "seg": 80,
+  "start": 460.97,
+  "end": 467.276,
+  "speaker": "Unknown",
+  "en": "I'd probably rewind back to Voyager where like Voyager was like the one of the first, what is, what does a coding agent mean?",
+  "zh": "我大概会回溯到 Voyager,Voyager 算是最早的,什么是,编码智能体意味着什么?"
+ },
+ {
+  "seg": 81,
+  "start": 467.556,
+  "end": 471.359,
+  "speaker": "Unknown",
+  "en": "Coding agent requires good tool use and on the fly tool creation.",
+  "zh": "编码智能体需要好的工具使用和即时的工具创建。"
+ },
+ {
+  "seg": 82,
+  "start": 471.92,
+  "end": 472.801,
+  "speaker": "Unknown",
+  "en": "That's called code.",
+  "zh": "那就叫代码。"
+ },
+ {
+  "seg": 83,
+  "start": 473.421,
+  "end": 473.681,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 84,
+  "start": 473.701,
+  "end": 475.283,
+  "speaker": "Unknown",
+  "en": "You have Python built-ins.",
+  "zh": "你有 Python 内置的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 475.844,
+  "end": 477.486,
+  "speaker": "Unknown",
+  "en": "Let's just say I have only Python built-ins.",
+  "zh": "假设我只有 Python 内置的东西。"
+ },
+ {
+  "seg": 86,
+  "start": 477.786,
+  "end": 478.467,
+  "speaker": "Unknown",
+  "en": "Those are their tools.",
+  "zh": "那些就是它们的工具。"
+ },
+ {
+  "seg": 87,
+  "start": 479.027,
+  "end": 483.693,
+  "speaker": "Unknown",
+  "en": "And I have sort and I have like, if, and I have four and I have while, and I have all these things.",
+  "zh": "我有 sort,我有 if,我有 for,我有 while,我有所有这些东西。"
+ },
+ {
+  "seg": 88,
+  "start": 483.753,
+  "end": 488.678,
+  "speaker": "Unknown",
+  "en": "And I need to like use those tools to assemble a new tool called a new Francois.py.",
+  "zh": "然后我需要用这些工具去组装一个新工具,叫做新的 Francois.py。"
+ },
+ {
+  "seg": 89,
+  "start": 489.159,
+  "end": 489.339,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对吧。"
+ },
+ {
+  "seg": 90,
+  "start": 489.62,
+  "end": 491.382,
+  "speaker": "Unknown",
+  "en": "And like, now that's a new tool and I get to use that.",
+  "zh": "然后,现在那是一个新工具,我可以使用它。"
+ },
+ {
+  "seg": 91,
+  "start": 491.822,
+  "end": 492.523,
+  "speaker": "Unknown",
+  "en": "That was Voyager.",
+  "zh": "那就是 Voyager。"
+ },
+ {
+  "seg": 92,
+  "start": 492.763,
+  "end": 493.604,
+  "speaker": "Unknown",
+  "en": "And like, yeah, I don't know.",
+  "zh": "然后,嗯,我不知道。"
+ },
+ {
+  "seg": 93,
+  "start": 493.624,
+  "end": 495.186,
+  "speaker": "Unknown",
+  "en": "I'm not going to say Voyager was the first one to do this.",
+  "zh": "我不会说 Voyager 是第一个做这个的。"
+ },
+ {
+  "seg": 94,
+  "start": 495.206,
+  "end": 497.088,
+  "speaker": "Unknown",
+  "en": "Voyager was the most popular one to do this for Minecraft.",
+  "zh": "Voyager 是做这个的里面最出名的,是在 Minecraft 上。"
+ },
+ {
+  "seg": 95,
+  "start": 497.528,
+  "end": 507.159,
+  "speaker": "Unknown",
+  "en": "And then they created tools that they can invoke on the fly to help them play the game better and compressed thinking and experience into a new tool that I can later invoke.",
+  "zh": "然后它们创建了可以即时调用的工具来帮助自己更好地玩这个游戏,并把思考和经验压缩进一个我以后可以调用的新工具里。"
+ },
+ {
+  "seg": 96,
+  "start": 507.519,
+  "end": 509.762,
+  "speaker": "Unknown",
+  "en": "And then I think because everyone in 20...",
+  "zh": "然后我想因为在 20……"
+ },
+ {
+  "seg": 97,
+  "start": 511.283,
+  "end": 512.943,
+  "speaker": "Unknown",
+  "en": "24 had this insight.",
+  "zh": "24 年,所有人都有这个洞见。"
+ },
+ {
+  "seg": 98,
+  "start": 512.963,
+  "end": 525.726,
+  "speaker": "Unknown",
+  "en": "It was like, okay, if we just pour, you know, Dari and Sam both all realized if I pour all of my heart and soul and resources and compute and intelligence into getting better at coding, we will have liftoff.",
+  "zh": "就是,好吧,如果我们只是灌,Dari 和 Sam 都意识到,如果我把全部心血和灵魂、资源和算力和智力都投入到在编码上变得更强,我们就会迎来腾飞。"
+ },
+ {
+  "seg": 99,
+  "start": 525.766,
+  "end": 529.826,
+  "speaker": "Unknown",
+  "en": "Then I can automate the ML engineer, then I can have liftoff and I'll have all the things.",
+  "zh": "然后我就可以自动化 ML 工程师,然后我就能腾飞,我就会有所有这一切。"
+ },
+ {
+  "seg": 100,
+  "start": 529.866,
+  "end": 531.287,
+  "speaker": "Unknown",
+  "en": "I'll solve all the things.",
+  "zh": "我会解决所有问题。"
+ },
+ {
+  "seg": 101,
+  "start": 531.687,
+  "end": 532.887,
+  "speaker": "Unknown",
+  "en": "And so then that's what everyone did.",
+  "zh": "于是大家就都这么做了。"
+ },
+ {
+  "seg": 102,
+  "start": 532.927,
+  "end": 534.707,
+  "speaker": "Unknown",
+  "en": "And I don't think that they had the insight.",
+  "zh": "而我不认为他们有那样的洞见。"
+ },
+ {
+  "seg": 103,
+  "start": 534.727,
+  "end": 538.428,
+  "speaker": "Unknown",
+  "en": "I don't think they were so insightful to know that, oh, if I did this,",
+  "zh": "我不认为他们有那么深的洞察力,能知道,哦,如果我这么做,"
+ },
+ {
+  "seg": 104,
+  "start": 539.088,
+  "end": 544.312,
+  "speaker": "Unknown",
+  "en": "Then we will have LLMs that will be good enough to write policies for robotics.",
+  "zh": "那么我们将拥有足够好的 LLM,可以为机器人学写策略。"
+ },
+ {
+  "seg": 105,
+  "start": 544.672,
+  "end": 548.354,
+  "speaker": "Unknown",
+  "en": "And I can displace all of robotics with actual coding agents.",
+  "zh": "而且我可以用真正的编程智能体取代整个机器人学领域。"
+ },
+ {
+  "seg": 106,
+  "start": 548.634,
+  "end": 555.419,
+  "speaker": "Unknown",
+  "en": "And I can displace artists with like, you know, coding agents that are writing JavaScript to make beautiful like art.",
+  "zh": "而且我可以用编程智能体取代艺术家,比如,你知道,写 JavaScript 来创作美丽艺术的编程智能体。"
+ },
+ {
+  "seg": 107,
+  "start": 555.719,
+  "end": 557.94,
+  "speaker": "Unknown",
+  "en": "Like, I'm not sure that they had that insight, to be honest.",
+  "zh": "说实话,我不确定他们是否有那样的洞见。"
+ },
+ {
+  "seg": 108,
+  "start": 558.021,
+  "end": 561.863,
+  "speaker": "Unknown",
+  "en": "Can we talk a little bit about what some of these early code as policy methods were even able to do?",
+  "zh": "我们能不能稍微谈谈这些早期的 code as policy 方法到底能做到什么?"
+ },
+ {
+  "seg": 109,
+  "start": 561.983,
+  "end": 567.587,
+  "speaker": "Unknown",
+  "en": "So even, you know, this is well ahead of us having coding agents that are widely available and people intuitively understanding how they work.",
+  "zh": "因为,你知道,这远远早于我们有广泛可用的编程智能体、人们直观理解它们如何运作的时代。"
+ },
+ {
+  "seg": 110,
+  "start": 567.887,
+  "end": 572.39,
+  "speaker": "Unknown",
+  "en": "It's well ahead of people using RL methods to actually train those coding agents to be really good at tool calling.",
+  "zh": "也远远早于人们用 RL 方法真正训练那些编程智能体,使其非常擅长工具调用的时代。"
+ },
+ {
+  "seg": 111,
+  "start": 572.771,
+  "end": 580.256,
+  "speaker": "Unknown",
+  "en": "What did some of those early ones, maybe even before Voyager, like Coda's policies, which I think the paper came out in 2022 at the end, right around when ChatGPT came out.",
+  "zh": "那些早期的方法是什么样的,甚至在 Voyager 之前,比如 Coda's policies,我记得那篇论文是 2022 年底发表的,大约就在 ChatGPT 发布前后,对吧。"
+ },
+ {
+  "seg": 112,
+  "start": 580.656,
+  "end": 582.898,
+  "speaker": "Unknown",
+  "en": "What was the capability of those compared to what you can see now?",
+  "zh": "与现在你能看到的相比,那些方法的能力如何?"
+ },
+ {
+  "seg": 113,
+  "start": 583.592,
+  "end": 598.46,
+  "speaker": "Unknown",
+  "en": "Yeah, those coders policy papers, especially ones from the Google DeepMind team, were incredible because what they did is they created these kind of functions, like pick up an object, lift up, or like move to certain posts.",
+  "zh": "是的,那些 coders policy 论文,尤其是 Google DeepMind 团队的那几篇,非常了不起,因为他们做的事情是创建了这类函数,比如拾取一个物体、抬起,或者移动到某些位置。"
+ },
+ {
+  "seg": 114,
+  "start": 599.101,
+  "end": 604.584,
+  "speaker": "Unknown",
+  "en": "Like they provided this list of functions to a coding agent in the form of like literary Python functions.",
+  "zh": "比如他们以字面形式的 Python 函数,把这一列函数提供给一个编程智能体。"
+ },
+ {
+  "seg": 115,
+  "start": 605.144,
+  "end": 611.348,
+  "speaker": "Unknown",
+  "en": "And then the coding agent will be able to write code involving these functions and then control the robot to do very complex hacks.",
+  "zh": "然后编程智能体就能编写涉及这些函数的代码,进而控制机器人去做非常复杂的技巧。"
+ },
+ {
+  "seg": 116,
+  "start": 611.928,
+  "end": 617.311,
+  "speaker": "Unknown",
+  "en": "And what was very surprising, what excelled was that coding agents can do this very one-shot.",
+  "zh": "而令人非常惊讶、表现突出的一点是,编程智能体可以一次性完成这件事。"
+ },
+ {
+  "seg": 117,
+  "start": 617.591,
+  "end": 622.514,
+  "speaker": "Unknown",
+  "en": "They did not need additional robot data in order to work with this code because they're already trained on so much coding data.",
+  "zh": "它们不需要额外的机器人数据就能用这些代码工作,因为它们已经在如此多的代码数据上训练过了。"
+ },
+ {
+  "seg": 118,
+  "start": 622.794,
+  "end": 628.878,
+  "speaker": "Unknown",
+  "en": "They already have a sense of what to do first, what to do second in order to move a block into a bowl, for example.",
+  "zh": "它们已经有了先后顺序的感觉,比如为了把一个方块移动进碗里,先做什么、后做什么。"
+ },
+ {
+  "seg": 119,
+  "start": 629.578,
+  "end": 640.905,
+  "speaker": "Unknown",
+  "en": "And I think it's this one-shot ability, this in-context exploration ability that really motivated a lot of data work to continue exploring, including us, to continue exploring how we can apply LLMs to robotics.",
+  "zh": "而且我认为正是这种一次性能力、这种上下文内探索能力,真正推动了很多数据工作继续探索,包括我们,继续探索如何把 LLM 应用到机器人学上。"
+ },
+ {
+  "seg": 120,
+  "start": 641.445,
+  "end": 646.491,
+  "speaker": "Unknown",
+  "en": "I know, Francois, you have this framework we've talked about of, you know, the various ways that learning can happen.",
+  "zh": "我知道,Francois,你有这个我们聊过的框架,关于学习可以发生的各种方式。"
+ },
+ {
+  "seg": 121,
+  "start": 646.511,
+  "end": 650.054,
+  "speaker": "Unknown",
+  "en": "There's going to be learning that's embedded into the weights versus being in context learning and so on.",
+  "zh": "会有嵌入到权重里的学习, versus 上下文内学习等等。"
+ },
+ {
+  "seg": 122,
+  "start": 650.074,
+  "end": 651.276,
+  "speaker": "Unknown",
+  "en": "Do you want to quickly talk about that?",
+  "zh": "你想快速讲讲那个吗?"
+ },
+ {
+  "seg": 123,
+  "start": 651.296,
+  "end": 657.723,
+  "speaker": "Unknown",
+  "en": "And then maybe we can think about where all the research over the last few years has fit into that framework, especially the direction it seems to be going.",
+  "zh": "然后也许我们可以思考过去几年的所有研究是如何契合到那个框架里的,尤其是它似乎正在走的方向。"
+ },
+ {
+  "seg": 124,
+  "start": 657.923,
+  "end": 679.351,
+  "speaker": "Unknown",
+  "en": "I mean, I've been working on this experiment and actually I haven't really crystallized it into a paper yet, but basically it's like, what is the most efficient way from an intelligence per sample perspective to input a learning, in this context, a state action result or state action reward tuple back into the policy?",
+  "zh": "我的意思是,我一直在做这个实验,实际上我还没真正把它凝练成论文,但基本上就是,从每样本智能度的角度来看,把学习——在这个语境下,一个状态-动作-结果或状态-动作-奖励元组——重新输入回策略的最高效方式是什么?"
+ },
+ {
+  "seg": 125,
+  "start": 679.931,
+  "end": 681.792,
+  "speaker": "Unknown",
+  "en": "There's ICL, there is...",
+  "zh": "有 ICL,有……"
+ },
+ {
+  "seg": 126,
+  "start": 681.812,
+  "end": 682.993,
+  "speaker": "Unknown",
+  "en": "So that's in-context-learning.",
+  "zh": "那就是上下文内学习。"
+ },
+ {
+  "seg": 127,
+  "start": 683.013,
+  "end": 685.835,
+  "speaker": "Unknown",
+  "en": "In-context-learning, where I just append it.",
+  "zh": "上下文内学习,我就是直接把它附加进去。"
+ },
+ {
+  "seg": 128,
+  "start": 686.075,
+  "end": 689.917,
+  "speaker": "Unknown",
+  "en": "This is how most people are using LLMs.",
+  "zh": "这就是大多数人使用 LLM 的方式。"
+ },
+ {
+  "seg": 129,
+  "start": 689.937,
+  "end": 691.838,
+  "speaker": "Unknown",
+  "en": "They're just like, oh, no, don't do it like this, do it like this.",
+  "zh": "他们就像,哦,不,别这么做,要这么做。"
+ },
+ {
+  "seg": 130,
+  "start": 691.939,
+  "end": 692.519,
+  "speaker": "Unknown",
+  "en": "And it's like, okay.",
+  "zh": "然后就是,好。"
+ },
+ {
+  "seg": 131,
+  "start": 692.679,
+  "end": 693.86,
+  "speaker": "Unknown",
+  "en": "And then it's still in the context.",
+  "zh": "然后它仍然在上下文里。"
+ },
+ {
+  "seg": 132,
+  "start": 693.88,
+  "end": 695.761,
+  "speaker": "Unknown",
+  "en": "And then I can remember, I can iterate.",
+  "zh": "然后我可以记住,我可以迭代。"
+ },
+ {
+  "seg": 133,
+  "start": 696.021,
+  "end": 697.422,
+  "speaker": "Unknown",
+  "en": "And that really only works if...",
+  "zh": "而这真正有效的条件是……"
+ },
+ {
+  "seg": 134,
+  "start": 697.642,
+  "end": 710.765,
+  "speaker": "Unknown",
+  "en": "You train the LLM, or at least post-train the LLM, to be able to learn and improve, and that self-refines a reflection literature from way back that actually allowed multi-turn into the training set.",
+  "zh": "你训练了 LLM,或者至少对 LLM 做了后训练,使它能够学习并改进,而那个自我精炼了来自很久以前的反思文献,它真正把多轮对话放进了训练集。"
+ },
+ {
+  "seg": 135,
+  "start": 710.965,
+  "end": 712.245,
+  "speaker": "Unknown",
+  "en": "If you don't have that, it doesn't learn.",
+  "zh": "如果你没有那个,它就学不到。"
+ },
+ {
+  "seg": 136,
+  "start": 713.546,
+  "end": 716.326,
+  "speaker": "Unknown",
+  "en": "But even then, there's a limit to how good ICL can go.",
+  "zh": "但即便如此,ICL 能达到的高度也有一个上限。"
+ },
+ {
+  "seg": 137,
+  "start": 716.666,
+  "end": 719.187,
+  "speaker": "Unknown",
+  "en": "So I've done this experiment where you take an LLM.",
+  "zh": "所以我做过这样一个实验,你拿一个 LLM。"
+ },
+ {
+  "seg": 138,
+  "start": 720.502,
+  "end": 726.946,
+  "speaker": "Unknown",
+  "en": "That we've trained on and I've held out a task, let's just say GSMAK for simplicity.",
+  "zh": "那个我们在其上训练过、而我留出了一项任务的模型,为了简单起见就说是 GSMAK 吧。"
+ },
+ {
+  "seg": 139,
+  "start": 727.327,
+  "end": 732.87,
+  "speaker": "Unknown",
+  "en": "And then I ICL it and I want to measure on the vowel set how much it improves on a per sample basis.",
+  "zh": "然后我对它做 ICL,我想在 vowel 集上测量它每个样本提升了多少。"
+ },
+ {
+  "seg": 140,
+  "start": 733.151,
+  "end": 735.052,
+  "speaker": "Unknown",
+  "en": "And it improves greatly, very cheaply.",
+  "zh": "它提升很大,而且非常便宜。"
+ },
+ {
+  "seg": 141,
+  "start": 735.232,
+  "end": 735.952,
+  "speaker": "Unknown",
+  "en": "It doesn't cost much.",
+  "zh": "花不了多少成本。"
+ },
+ {
+  "seg": 142,
+  "start": 735.972,
+  "end": 737.914,
+  "speaker": "Unknown",
+  "en": "I don't have, there's no SGD, so I don't have any flops.",
+  "zh": "我没有,没有 SGD,所以我不消耗任何 flops。"
+ },
+ {
+  "seg": 143,
+  "start": 738.334,
+  "end": 741.016,
+  "speaker": "Unknown",
+  "en": "And so very quickly I can adapt and improve on my vowel set.",
+  "zh": "所以我可以非常快地适应并在我的 vowel 集上提升。"
+ },
+ {
+  "seg": 144,
+  "start": 741.276,
+  "end": 742.337,
+  "speaker": "Unknown",
+  "en": "Example, example, example.",
+  "zh": "一个例子,又一个例子,又一个例子。"
+ },
+ {
+  "seg": 145,
+  "start": 743.217,
+  "end": 745.199,
+  "speaker": "Unknown",
+  "en": "One is non-monotonic improvement.",
+  "zh": "第一,提升是非单调的。"
+ },
+ {
+  "seg": 146,
+  "start": 746.095,
+  "end": 746.635,
+  "speaker": "Unknown",
+  "en": "Which is wild.",
+  "zh": "这很离谱。"
+ },
+ {
+  "seg": 147,
+  "start": 746.776,
+  "end": 751.079,
+  "speaker": "Unknown",
+  "en": "So it gets worse, it gets better, it gets worse, it gets better, like pretty aggressively.",
+  "zh": "它变差,变好,变差,变好,而且幅度相当剧烈。"
+ },
+ {
+  "seg": 148,
+  "start": 751.439,
+  "end": 753.461,
+  "speaker": "Unknown",
+  "en": "Number two is that it caps out very quickly.",
+  "zh": "第二是它很快就封顶了。"
+ },
+ {
+  "seg": 149,
+  "start": 753.741,
+  "end": 761.247,
+  "speaker": "Unknown",
+  "en": "And so after like 20, 30, maybe 40 examples, it is basically saturated and more examples back into the context does not improve.",
+  "zh": "所以大约在 20、30,也许 40 个例子之后,它基本上就饱和了,更多的例子放回上下文里不会再提升。"
+ },
+ {
+  "seg": 150,
+  "start": 762.167,
+  "end": 765.51,
+  "speaker": "Unknown",
+  "en": "You're constrained by the model's ability to intelligently use all of its context.",
+  "zh": "你受到模型智能地利用其全部上下文的能力的约束。"
+ },
+ {
+  "seg": 151,
+  "start": 765.55,
+  "end": 767.011,
+  "speaker": "Unknown",
+  "en": "Exactly, from the post-training.",
+  "zh": "没错，来自后训练。"
+ },
+ {
+  "seg": 152,
+  "start": 767.031,
+  "end": 771.235,
+  "speaker": "Unknown",
+  "en": "How many multi-turns did it actually get to be able to improve and do self-reflection?",
+  "zh": "它实际上经历了多少次多轮对话，才能真正提升并做到自我反思？"
+ },
+ {
+  "seg": 153,
+  "start": 771.495,
+  "end": 778.32,
+  "speaker": "Unknown",
+  "en": "And then the most important one it for surely can't do is after it hits the context window, context length of the model that it was trained on.",
+  "zh": "然后它肯定做不到的最重要一点是，当它超出训练时所用模型的上下文窗口、上下文长度之后。"
+ },
+ {
+  "seg": 154,
+  "start": 778.621,
+  "end": 782.384,
+  "speaker": "Unknown",
+  "en": "If it was trained on 100,000, really that means you have a context window of like 50,000.",
+  "zh": "如果它是用 100,000 训练的，那实际上意味着你的上下文窗口大概只有 50,000。"
+ },
+ {
+  "seg": 155,
+  "start": 782.784,
+  "end": 784.866,
+  "speaker": "Unknown",
+  "en": "Once you exceed 50,000, you don't improve anymore.",
+  "zh": "一旦超过 50,000,你就不会再有提升了。"
+ },
+ {
+  "seg": 156,
+  "start": 784.926,
+  "end": 787.288,
+  "speaker": "Unknown",
+  "en": "You actually just get worse because the model can't attend over everything.",
+  "zh": "你实际上只会变得更糟，因为模型无法对所有内容保持注意力。"
+ },
+ {
+  "seg": 157,
+  "start": 788.068,
+  "end": 806.477,
+  "speaker": "Unknown",
+  "en": "There's a really good example you said, which I didn't really think about, is like, well, if I can rag or I can load into active memory, and this is very prime agent continual harness kind of like thinking where I can pull stuff in on the fly, similar examples, then it's like me, like, hmm, I have an exam.",
+  "zh": "你说了一个很好的例子，这是我之前没有真正想过的，就是，嗯，如果我可以 rag 或者加载到活动内存中，这是非常原始的智能体持续框架式的思路，即我可以即时拉取内容进来，类似的例子，那么就像，嗯，我要参加考试。"
+ },
+ {
+  "seg": 158,
+  "start": 807.417,
+  "end": 808.798,
+  "speaker": "Unknown",
+  "en": "Or I have an exam with a textbook.",
+  "zh": "或者我有一场带教科书的考试。"
+ },
+ {
+  "seg": 159,
+  "start": 809.498,
+  "end": 811.999,
+  "speaker": "Unknown",
+  "en": "I'm going to do better if I have the textbook to look up as reference.",
+  "zh": "如果我有教科书可以查阅作参考，我会做得更好。"
+ },
+ {
+  "seg": 160,
+  "start": 812.419,
+  "end": 815.12,
+  "speaker": "Unknown",
+  "en": "And so that is, you know, definitely going to work.",
+  "zh": "所以那你知道，肯定行得通。"
+ },
+ {
+  "seg": 161,
+  "start": 815.42,
+  "end": 819.481,
+  "speaker": "Unknown",
+  "en": "And it's still, and it also scales, I would imagine, much better.",
+  "zh": "而且它仍然是，我猜想，它还能扩展得更好得多。"
+ },
+ {
+  "seg": 162,
+  "start": 819.901,
+  "end": 825.003,
+  "speaker": "Unknown",
+  "en": "And then the last two paradigms would be Laura with rank one or rank two or whatever.",
+  "zh": "然后最后两个范式会是 rank 为 1 或 rank 为 2 之类的 Laura。"
+ },
+ {
+  "seg": 163,
+  "start": 825.463,
+  "end": 826.764,
+  "speaker": "Unknown",
+  "en": "Laura with rank...",
+  "zh": "Laura 用 rank……"
+ },
+ {
+  "seg": 164,
+  "start": 827.944,
+  "end": 831.445,
+  "speaker": "Unknown",
+  "en": "10 or rank 100 and then all the way to full SFT RL.",
+  "zh": "10 或 rank 100,然后一直到完整的 SFT RL。"
+ },
+ {
+  "seg": 165,
+  "start": 831.746,
+  "end": 839.928,
+  "speaker": "Unknown",
+  "en": "And if you're Tesla and you have all the data, infinite data, and you're learning, doing self-driving car by ICL, what are you doing?",
+  "zh": "如果你 Tesla,你有所有数据、无限数据，而你在通过 ICL 学习做自动驾驶汽车，那你在干什么？"
+ },
+ {
+  "seg": 166,
+  "start": 840.469,
+  "end": 840.989,
+  "speaker": "Unknown",
+  "en": "Like, are you kidding?",
+  "zh": "比如说，你在开玩笑吗？"
+ },
+ {
+  "seg": 167,
+  "start": 841.009,
+  "end": 842.769,
+  "speaker": "Unknown",
+  "en": "It's like, clearly we wouldn't do that, right?",
+  "zh": "就像，显然我们不会那么做，对吧？"
+ },
+ {
+  "seg": 168,
+  "start": 843.39,
+  "end": 844.71,
+  "speaker": "Unknown",
+  "en": "And if you're figure or something like that.",
+  "zh": "而如果你是 figure 之类的公司的话。"
+ },
+ {
+  "seg": 169,
+  "start": 845.05,
+  "end": 849.372,
+  "speaker": "Unknown",
+  "en": "But it's amazing how good in low data regimes...",
+  "zh": "但令人惊讶的是，在低数据情境下它有多好……"
+ },
+ {
+  "seg": 170,
+  "start": 850.032,
+  "end": 858.337,
+  "speaker": "Unknown",
+  "en": "You can do with ICL and then even cooler, we can compress the ICL into tool use, into tools or like compression into learnings.",
+  "zh": "你可以用 ICL 做到，然后更酷的是，我们可以把 ICL 压缩成工具使用，压缩成工具或者压缩成学习成果。"
+ },
+ {
+  "seg": 171,
+  "start": 858.397,
+  "end": 862.519,
+  "speaker": "Unknown",
+  "en": "And that's, that's the hierarchy that we haven't really figured out that you guys are probably on the forefront of.",
+  "zh": "而这就是我们还没有真正搞清楚的层级结构，而你们大概正处在最前沿。"
+ },
+ {
+  "seg": 172,
+  "start": 862.539,
+  "end": 863.06,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 173,
+  "start": 863.1,
+  "end": 864.5,
+  "speaker": "Unknown",
+  "en": "Do you guys want to elaborate on that a little bit?",
+  "zh": "你们想就这一点稍微展开讲讲吗？"
+ },
+ {
+  "seg": 174,
+  "start": 864.521,
+  "end": 866.962,
+  "speaker": "Unknown",
+  "en": "Cause I imagine that's a central part of how you guys think about building Waddle.",
+  "zh": "因为我猜这是你们思考如何构建 Waddle 的核心部分。"
+ },
+ {
+  "seg": 175,
+  "start": 867.142,
+  "end": 869.704,
+  "speaker": "Unknown",
+  "en": "There's a few things that are quite interesting here, I think, to unpack.",
+  "zh": "我觉得这里有挺有意思的几点可以展开。"
+ },
+ {
+  "seg": 176,
+  "start": 869.984,
+  "end": 879.25,
+  "speaker": "Unknown",
+  "en": "Yeah, the first thing is we've been sort of thinking about this idea of a harness almost as a form of like domain specificity.",
+  "zh": "是的，第一件事是我们一直在把框架这个概念，某种程度上当作一种领域特定性来思考。"
+ },
+ {
+  "seg": 177,
+  "start": 879.45,
+  "end": 883.273,
+  "speaker": "Unknown",
+  "en": "Like when you, for example, deploy a robot in a new environment, maybe...",
+  "zh": "比如当你，举例来说，在一个新环境中部署一个机器人，也许……"
+ },
+ {
+  "seg": 178,
+  "start": 884.013,
+  "end": 888.035,
+  "speaker": "Unknown",
+  "en": "It's in a wet lab and it just needs to do a lot of tests you're picking up, for example.",
+  "zh": "它在一个湿实验室里，它只需要做很多你正在挑选的测试，举例来说。"
+ },
+ {
+  "seg": 179,
+  "start": 888.315,
+  "end": 897.879,
+  "speaker": "Unknown",
+  "en": "You can learn a lot of this in context, but then one way of consolidating this context for future agents is sort of packaging each of these skills that you've learned into specific programs, for example.",
+  "zh": "你可以在上下文中学到其中很多，但把这些上下文为未来的智能体巩固下来的一种方式，是把学到的每一项技能打包成具体的程序，举例来说。"
+ },
+ {
+  "seg": 180,
+  "start": 898.199,
+  "end": 902.021,
+  "speaker": "Unknown",
+  "en": "Like writing out these skills and writing out these memories is a form of consolidating.",
+  "zh": "比如把这些技能写出来、把这些记忆写出来，就是一种巩固的形式。"
+ },
+ {
+  "seg": 181,
+  "start": 902.441,
+  "end": 906.703,
+  "speaker": "Unknown",
+  "en": "It's like a form of distillation from past experience for your future agents to use.",
+  "zh": "这就像是一种从过去经验向未来智能体的蒸馏形式，供它们使用。"
+ },
+ {
+  "seg": 182,
+  "start": 907.123,
+  "end": 908.024,
+  "speaker": "Unknown",
+  "en": "So this is quite interesting.",
+  "zh": "所以这一点挺有意思。"
+ },
+ {
+  "seg": 183,
+  "start": 908.264,
+  "end": 909.545,
+  "speaker": "Unknown",
+  "en": "The other thing that's quite interesting is...",
+  "zh": "另一件挺有意思的事是……"
+ },
+ {
+  "seg": 184,
+  "start": 910.765,
+  "end": 918.607,
+  "speaker": "Unknown",
+  "en": "Um, it almost seems like there's some relationship to the broader meta-learning literature, uh, throughout in machine learning history.",
+  "zh": "嗯，它似乎和整个机器学习史上更宏观的元学习文献有某种关系。"
+ },
+ {
+  "seg": 185,
+  "start": 918.928,
+  "end": 922.409,
+  "speaker": "Unknown",
+  "en": "Like you have this sort of bigger model that then programs a smaller model to do things.",
+  "zh": "就像你有一个更大的模型，然后编程一个更小的模型去做事情。"
+ },
+ {
+  "seg": 186,
+  "start": 922.849,
+  "end": 926.79,
+  "speaker": "Unknown",
+  "en": "And one of the very interesting things is that yes, these smaller models are going to learn in context.",
+  "zh": "而其中非常有趣的一点是，是的，这些更小的模型会在上下文中学习。"
+ },
+ {
+  "seg": 187,
+  "start": 927.09,
+  "end": 929.171,
+  "speaker": "Unknown",
+  "en": "They're sort of wrapped inside the harness and they're doing a task.",
+  "zh": "它们某种程度上被包裹在框架里，正在执行一个任务。"
+ },
+ {
+  "seg": 188,
+  "start": 929.431,
+  "end": 930.471,
+  "speaker": "Unknown",
+  "en": "You can make them maybe smaller.",
+  "zh": "你可以让它们可能更小。"
+ },
+ {
+  "seg": 189,
+  "start": 930.491,
+  "end": 932.632,
+  "speaker": "Unknown",
+  "en": "You can make them run faster as long as the bigger model",
+  "zh": "你可以让它们跑得更快，只要那个更大的模型"
+ },
+ {
+  "seg": 190,
+  "start": 933.672,
+  "end": 936.573,
+  "speaker": "Unknown",
+  "en": "You can do this domain specialization of your harness quite well.",
+  "zh": "你可以把你的框架的领域专门化做得相当好。"
+ },
+ {
+  "seg": 191,
+  "start": 937.013,
+  "end": 940.815,
+  "speaker": "Unknown",
+  "en": "So this is something that we're pretty interested in right now.",
+  "zh": "所以这是我们目前相当感兴趣的东西。"
+ },
+ {
+  "seg": 192,
+  "start": 941.135,
+  "end": 946.897,
+  "speaker": "Unknown",
+  "en": "And last point as well, I think the really interesting theoretical question is how far in-context learning can get you.",
+  "zh": "还有最后一点，我觉得非常有趣的理论问题是，上下文学习能带你走多远。"
+ },
+ {
+  "seg": 193,
+  "start": 947.437,
+  "end": 949.258,
+  "speaker": "Unknown",
+  "en": "And I think it's really anyone's guess as to that.",
+  "zh": "我觉得这真的谁都说不准。"
+ },
+ {
+  "seg": 194,
+  "start": 949.418,
+  "end": 954.88,
+  "speaker": "Unknown",
+  "en": "There's papers that show that these models can approximate gradient descent during in-context learning as well.",
+  "zh": "有论文表明，这些模型在上下文学习过程中也能近似梯度下降。"
+ },
+ {
+  "seg": 195,
+  "start": 956.1,
+  "end": 960.324,
+  "speaker": "Unknown",
+  "en": "This line between weight space and symbolic space I think is a little bit blurry.",
+  "zh": "我认为权重空间与符号空间之间的这条界限有点模糊。"
+ },
+ {
+  "seg": 196,
+  "start": 960.685,
+  "end": 963.568,
+  "speaker": "Unknown",
+  "en": "YC's next batch is now taking applications.",
+  "zh": "YC 的下一批现在正在接受申请。"
+ },
+ {
+  "seg": 197,
+  "start": 963.768,
+  "end": 964.809,
+  "speaker": "Unknown",
+  "en": "Got a startup in you?",
+  "zh": "你心里有个创业项目吗？"
+ },
+ {
+  "seg": 198,
+  "start": 965.129,
+  "end": 967.672,
+  "speaker": "Unknown",
+  "en": "Apply at ycombinator.com slash apply.",
+  "zh": "在 ycombinator.com/apply 申请。"
+ },
+ {
+  "seg": 199,
+  "start": 968.132,
+  "end": 972.176,
+  "speaker": "Unknown",
+  "en": "It's never too early and filling out the app will level up your idea.",
+  "zh": "永远不会太早，而且填写申请会提升你的想法水平。"
+ },
+ {
+  "seg": 200,
+  "start": 972.577,
+  "end": 973.978,
+  "speaker": "Unknown",
+  "en": "Okay, back to the video.",
+  "zh": "好的，回到视频。"
+ },
+ {
+  "seg": 201,
+  "start": 974.178,
+  "end": 975.62,
+  "speaker": "Unknown",
+  "en": "So what exactly are we watching here?",
+  "zh": "那么我们现在到底在看什么？"
+ },
+ {
+  "seg": 202,
+  "start": 976.26,
+  "end": 982.825,
+  "speaker": "Unknown",
+  "en": "We're watching Astra controlling the arms to pick a block off the table and put it into the bone.",
+  "zh": "我们在看 Astra 控制机械臂，从桌上拿起一个方块并把它放进碗里。"
+ },
+ {
+  "seg": 203,
+  "start": 983.005,
+  "end": 991.412,
+  "speaker": "Unknown",
+  "en": "So here Astra is using just these camera inputs and presumably it's aware of the robot that it's controlling and it's going to write code that controls the robot at its individual joints.",
+  "zh": "这里 Astra 只使用这些摄像头输入，大概它知道自己在控制哪台机器人，并且它会编写代码来控制机器人的各个关节。"
+ },
+ {
+  "seg": 204,
+  "start": 991.912,
+  "end": 994.313,
+  "speaker": "Unknown",
+  "en": "Yes, so it does look at all the cameras.",
+  "zh": "是的，它确实会看所有的摄像头。"
+ },
+ {
+  "seg": 205,
+  "start": 994.393,
+  "end": 995.473,
+  "speaker": "Unknown",
+  "en": "It has all the camera feeds.",
+  "zh": "它拥有所有的摄像头画面。"
+ },
+ {
+  "seg": 206,
+  "start": 996.493,
+  "end": 998.774,
+  "speaker": "Unknown",
+  "en": "Instead of code, it's more like a tool call.",
+  "zh": "与其说是代码，不如说更像是一次工具调用。"
+ },
+ {
+  "seg": 207,
+  "start": 999.214,
+  "end": 1005.835,
+  "speaker": "Unknown",
+  "en": "So it sends commands to the robot to control and put the block into the ball.",
+  "zh": "所以它向机器人发送指令来控制它，把方块放进碗里。"
+ },
+ {
+  "seg": 208,
+  "start": 1006.396,
+  "end": 1012.237,
+  "speaker": "Unknown",
+  "en": "So in this situation, we're using Astr directly, but if we were using, say, Waddle's harness, what's the kind of difference between...",
+  "zh": "那么在这个情况下，我们是直接使用 Astra，但如果我们用的是，比如说，Waddle 的 harness，那么……"
+ },
+ {
+  "seg": 209,
+  "start": 1012.837,
+  "end": 1016.198,
+  "speaker": "Unknown",
+  "en": "Directly using Astro to control this versus doing this through Waddle's API.",
+  "zh": "直接用 Astro 来控制这个，和通过 Waddle 的 API 来做这件事，有什么区别？"
+ },
+ {
+  "seg": 210,
+  "start": 1016.438,
+  "end": 1024.142,
+  "speaker": "Unknown",
+  "en": "Sometimes directly, like having Astro directly command the post a robot should go to is not the optimal tool to use.",
+  "zh": "有时候，直接让 Astro 命令机器人该去哪个位姿并不是最优的工具。"
+ },
+ {
+  "seg": 211,
+  "start": 1024.282,
+  "end": 1026.443,
+  "speaker": "Unknown",
+  "en": "If it's a repetitive task, you don't want Astro in the loop.",
+  "zh": "如果是重复性任务，你不会想让 Astro 处在循环里。"
+ },
+ {
+  "seg": 212,
+  "start": 1026.623,
+  "end": 1027.583,
+  "speaker": "Unknown",
+  "en": "Maybe you want to write code.",
+  "zh": "也许你想要写代码。"
+ },
+ {
+  "seg": 213,
+  "start": 1027.863,
+  "end": 1029.584,
+  "speaker": "Unknown",
+  "en": "It can run repeatedly very, very fast.",
+  "zh": "代码可以非常非常快地反复运行。"
+ },
+ {
+  "seg": 214,
+  "start": 1030.084,
+  "end": 1037.787,
+  "speaker": "Unknown",
+  "en": "Or if it's a task, you've done a similar task before, you should be able to call a skill that has compiled and use that skill to do the task faster and handle edge cases better.",
+  "zh": "或者如果是一个任务，你以前做过类似任务，你应该能调用一个已经编译好的技能，用那个技能更快地完成任务，并更好地处理边界情况。"
+ },
+ {
+  "seg": 215,
+  "start": 1038.087,
+  "end": 1039.528,
+  "speaker": "Unknown",
+  "en": "So here we can see it seems to be...",
+  "zh": "那么这里我们可以看到它似乎是……"
+ },
+ {
+  "seg": 216,
+  "start": 1040.408,
+  "end": 1041.768,
+  "speaker": "Unknown",
+  "en": "Approaching in on this guy?",
+  "zh": "正在接近这个家伙？"
+ },
+ {
+  "seg": 217,
+  "start": 1041.928,
+  "end": 1042.689,
+  "speaker": "Unknown",
+  "en": "Oh, very dramatic.",
+  "zh": "哦，非常戏剧化。"
+ },
+ {
+  "seg": 218,
+  "start": 1042.869,
+  "end": 1043.529,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 219,
+  "start": 1043.609,
+  "end": 1049.69,
+  "speaker": "Unknown",
+  "en": "You can notice that the latency is a bit slow because we are bottlenecked by the latency of Azure.",
+  "zh": "你可以注意到延迟有点慢，因为我们被 Azure 的延迟卡住了瓶颈。"
+ },
+ {
+  "seg": 220,
+  "start": 1049.75,
+  "end": 1054.552,
+  "speaker": "Unknown",
+  "en": "But if you look at the trends, the latency of these models are improving very rapidly.",
+  "zh": "但如果你看趋势，这些模型的延迟正在非常快速地改善。"
+ },
+ {
+  "seg": 221,
+  "start": 1054.712,
+  "end": 1054.872,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 222,
+  "start": 1055.032,
+  "end": 1058.793,
+  "speaker": "Unknown",
+  "en": "So one thing that we saw is that for Fable class LLMs,",
+  "zh": "我们观察到的一件事是，对于 Fable 级别的 LLM，"
+ },
+ {
+  "seg": 223,
+  "start": 1059.473,
+  "end": 1064.195,
+  "speaker": "Unknown",
+  "en": "Their latency is improving by around 2x per month, which is very, very fast.",
+  "zh": "它们的延迟大约每月改善 2 倍，这是非常非常快的。"
+ },
+ {
+  "seg": 224,
+  "start": 1064.215,
+  "end": 1064.636,
+  "speaker": "Unknown",
+  "en": "Very fast.",
+  "zh": "非常快。"
+ },
+ {
+  "seg": 225,
+  "start": 1064.676,
+  "end": 1064.876,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 226,
+  "start": 1065.056,
+  "end": 1070.059,
+  "speaker": "Unknown",
+  "en": "If the trends continue, we could get real-time control by end of the year.",
+  "zh": "如果趋势持续下去，我们可能在年底前实现实时控制。"
+ },
+ {
+  "seg": 227,
+  "start": 1070.399,
+  "end": 1074.521,
+  "speaker": "Unknown",
+  "en": "So now that we saw this task go from end to end, why don't we walk through what that actually entailed?",
+  "zh": "既然我们看到了这个任务从头到尾跑完，为什么我们不走一遍这实际上包含了什么？"
+ },
+ {
+  "seg": 228,
+  "start": 1074.641,
+  "end": 1077.222,
+  "speaker": "Unknown",
+  "en": "So there's a coding agent in the loop here running this.",
+  "zh": "这里有一个编码智能体在循环中运行着这一切。"
+ },
+ {
+  "seg": 229,
+  "start": 1077.402,
+  "end": 1077.983,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 230,
+  "start": 1078.283,
+  "end": 1079.964,
+  "speaker": "Unknown",
+  "en": "What are the steps that the coding agent would have taken?",
+  "zh": "这个编码智能体会采取哪些步骤？"
+ },
+ {
+  "seg": 231,
+  "start": 1080.024,
+  "end": 1086.247,
+  "speaker": "Unknown",
+  "en": "And let's kind of contrast the direct coding agent version versus the waddle harness in the loop version.",
+  "zh": "让我们对比一下直接用编码智能体的版本，和用 waddle harness 在循环中的版本。"
+ },
+ {
+  "seg": 232,
+  "start": 1086.527,
+  "end": 1098.92,
+  "speaker": "Unknown",
+  "en": "So what just happened was that in a series of turns, Astra received the images from the cameras and it outputted the end-effector pose for the robot to go to.",
+  "zh": "刚才发生的是，在一系列回合中，Astra 从摄像头接收图像，并输出机器人要去的目标末端执行器位姿。"
+ },
+ {
+  "seg": 233,
+  "start": 1099.641,
+  "end": 1102.984,
+  "speaker": "Unknown",
+  "en": "And it does it over multiple turns to complete the task.",
+  "zh": "它通过多个回合来完成这个任务。"
+ },
+ {
+  "seg": 234,
+  "start": 1103.385,
+  "end": 1107.289,
+  "speaker": "Unknown",
+  "en": "This is less of code as policies, but more of tool calls.",
+  "zh": "这与其说是“代码即策略”，不如说更像是工具调用。"
+ },
+ {
+  "seg": 235,
+  "start": 1107.769,
+  "end": 1109.43,
+  "speaker": "Unknown",
+  "en": "The unscreen part is pretty repetitive.",
+  "zh": "未探索的部分是相当重复的。"
+ },
+ {
+  "seg": 236,
+  "start": 1109.65,
+  "end": 1114.351,
+  "speaker": "Unknown",
+  "en": "So you could actually ultimately a lot of that using code, as well as actually approaching the bottle, picking it up.",
+  "zh": "所以你其实最终可以用代码来处理其中很多部分，包括实际接近瓶子、把它拿起来。"
+ },
+ {
+  "seg": 237,
+  "start": 1114.391,
+  "end": 1121.714,
+  "speaker": "Unknown",
+  "en": "Like a lot of these things are pretty deterministic once you've done a task quite a few times.",
+  "zh": "一旦你把一个任务做了相当多遍，很多东西都是相当确定性的。"
+ },
+ {
+  "seg": 238,
+  "start": 1122.614,
+  "end": 1126.316,
+  "speaker": "Unknown",
+  "en": "The interesting part is where you're building the variation into the code as policy graph.",
+  "zh": "有意思的部分在于，你要把变化性构建到代码即策略图里。"
+ },
+ {
+  "seg": 239,
+  "start": 1126.436,
+  "end": 1126.816,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "那么……"
+ },
+ {
+  "seg": 240,
+  "start": 1127.496,
+  "end": 1128.517,
+  "speaker": "Unknown",
+  "en": "We have a few points of variation.",
+  "zh": "我们有几个变化点。"
+ },
+ {
+  "seg": 241,
+  "start": 1128.557,
+  "end": 1132.941,
+  "speaker": "Unknown",
+  "en": "This can come from, for example, when you detect an object, maybe you use a VLM as far as your tool core.",
+  "zh": "这些可以来自，比如说，当你检测一个物体时，也许你用一个 VLM 作为你的工具调用。"
+ },
+ {
+  "seg": 242,
+  "start": 1133.762,
+  "end": 1137.185,
+  "speaker": "Unknown",
+  "en": "Or when something fails, for example, how do you check that it's failed?",
+  "zh": "或者当某件事失败时，比如，你怎么检查它失败了？"
+ },
+ {
+  "seg": 243,
+  "start": 1137.505,
+  "end": 1140.768,
+  "speaker": "Unknown",
+  "en": "How do you then potentially do something else depending on the failure?",
+  "zh": "然后你怎么根据失败情况去做别的事情？"
+ },
+ {
+  "seg": 244,
+  "start": 1141.029,
+  "end": 1143.811,
+  "speaker": "Unknown",
+  "en": "Like there's kind of more flexible responses.",
+  "zh": "就是说有更灵活的响应方式。"
+ },
+ {
+  "seg": 245,
+  "start": 1144.252,
+  "end": 1152.98,
+  "speaker": "Unknown",
+  "en": "We tend to put a VLM inside a loop to ensure that, you know, while the coding graph is sort of deterministic, there's points of variation that allow it to generalize.",
+  "zh": "我们倾向于把一个 VLM 放进循环里，以确保，你知道，虽然编码图是确定性的，但有一些变化点让它能够泛化。"
+ },
+ {
+  "seg": 246,
+  "start": 1153.18,
+  "end": 1163.208,
+  "speaker": "Unknown",
+  "en": "The biggest insight I think I've had a change in worldview on how to perform machine learning and how to get the rest of the distance on AGI was like a lot of conversations I've had with Francis Chollet.",
+  "zh": "我最大的一个领悟——关于如何做机器学习、如何走完通往 AGI 的剩余路程的世界观转变——是来自我和 Francis Chollet 的很多对话。"
+ },
+ {
+  "seg": 247,
+  "start": 1163.628,
+  "end": 1172.195,
+  "speaker": "Unknown",
+  "en": "And in 2020, maybe even 2018, when he did On the Measure of Intelligence, he talked a lot about transduction versus is just wrong.",
+  "zh": "在 2020 年，甚至 2018 年，当他写《On the Measure of Intelligence》时，他大量谈到转导 versus 是错误的。"
+ },
+ {
+  "seg": 248,
+  "start": 1172.595,
+  "end": 1173.816,
+  "speaker": "Unknown",
+  "en": "Versus program induction.",
+  "zh": "与程序归纳。"
+ },
+ {
+  "seg": 249,
+  "start": 1173.896,
+  "end": 1178.359,
+  "speaker": "Unknown",
+  "en": "And transduction just means I'm learning a function theta that maps from x's to y's.",
+  "zh": "转导只是意味着我在学习一个函数 theta，把 x 映射到 y。"
+ },
+ {
+  "seg": 250,
+  "start": 1178.799,
+  "end": 1179.64,
+  "speaker": "Unknown",
+  "en": "And why is that wrong?",
+  "zh": "那为什么这是错的呢?"
+ },
+ {
+  "seg": 251,
+  "start": 1179.66,
+  "end": 1180.32,
+  "speaker": "Unknown",
+  "en": "It's just slow.",
+  "zh": "它就是慢。"
+ },
+ {
+  "seg": 252,
+  "start": 1180.54,
+  "end": 1182.682,
+  "speaker": "Unknown",
+  "en": "And it's information inefficient.",
+  "zh": "而且它的信息效率低。"
+ },
+ {
+  "seg": 253,
+  "start": 1183.022,
+  "end": 1186.704,
+  "speaker": "Unknown",
+  "en": "And so to go from x's to y's, I need a lot of pairs of x's to y's.",
+  "zh": "所以要从 x 到 y,我需要大量的 x 到 y 的配对。"
+ },
+ {
+  "seg": 254,
+  "start": 1187.285,
+  "end": 1190.287,
+  "speaker": "Unknown",
+  "en": "And if I have a very small amount, then you need a lot of inductive bias.",
+  "zh": "而如果我只有很少的数据,那你就需要很强的归纳偏置。"
+ },
+ {
+  "seg": 255,
+  "start": 1190.387,
+  "end": 1195.77,
+  "speaker": "Unknown",
+  "en": "And what you need to act is a good generator to map from x's to y's.",
+  "zh": "而要执行你所需要的,是一个好的生成器来把 x 映射到 y。"
+ },
+ {
+  "seg": 256,
+  "start": 1195.79,
+  "end": 1197.672,
+  "speaker": "Unknown",
+  "en": "So now my theta takes in",
+  "zh": "所以现在我的 theta 接收"
+ },
+ {
+  "seg": 257,
+  "start": 1199.273,
+  "end": 1204.818,
+  "speaker": "Unknown",
+  "en": "N pairs of x's and y's and emits the function that maps from x to y's.",
+  "zh": "N 对 x 和 y,并输出那个从 x 映射到 y 的函数。"
+ },
+ {
+  "seg": 258,
+  "start": 1204.919,
+  "end": 1205.88,
+  "speaker": "Unknown",
+  "en": "And that's what code is.",
+  "zh": "而这就是代码的本质。"
+ },
+ {
+  "seg": 259,
+  "start": 1206.2,
+  "end": 1210.945,
+  "speaker": "Unknown",
+  "en": "And so that's like, if you give me a coding interview, you have a whiteboard, you say, okay, here's a coding problem.",
+  "zh": "这就好比,如果你给我一个编程面试,你有一块白板,你说,好,这里有一道编程题。"
+ },
+ {
+  "seg": 260,
+  "start": 1210.965,
+  "end": 1211.745,
+  "speaker": "Unknown",
+  "en": "Here's some examples.",
+  "zh": "这里有一些示例。"
+ },
+ {
+  "seg": 261,
+  "start": 1212.106,
+  "end": 1212.486,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好,很好。"
+ },
+ {
+  "seg": 262,
+  "start": 1212.506,
+  "end": 1213.047,
+  "speaker": "Unknown",
+  "en": "Write the function.",
+  "zh": "写出这个函数。"
+ },
+ {
+  "seg": 263,
+  "start": 1213.547,
+  "end": 1216.931,
+  "speaker": "Unknown",
+  "en": "And then we are emitting an F that will map from x to y.",
+  "zh": "然后我们输出的就是一个能把 x 映射到 y 的 F。"
+ },
+ {
+  "seg": 264,
+  "start": 1217.609,
+  "end": 1218.631,
+  "speaker": "Unknown",
+  "en": "And this is quite interesting, right?",
+  "zh": "而这相当有意思,对吧?"
+ },
+ {
+  "seg": 265,
+  "start": 1218.651,
+  "end": 1223.336,
+  "speaker": "Unknown",
+  "en": "Because I think, I mean, this was a lot of the traditional program synthesis literature.",
+  "zh": "因为我觉得,我的意思是,这在很大程度上就是传统的程序合成文献。"
+ },
+ {
+  "seg": 266,
+  "start": 1223.697,
+  "end": 1228.542,
+  "speaker": "Unknown",
+  "en": "And I feel like a lot of reason why those methods didn't work as well was because that inductive bias, as you said, right?",
+  "zh": "而我觉得那些方法效果不佳的很大一个原因,正如你所说的,就是那个归纳偏置,对吧?"
+ },
+ {
+  "seg": 267,
+  "start": 1228.603,
+  "end": 1237.133,
+  "speaker": "Unknown",
+  "en": "It's, you're shifting the difficulty of the problem from finding that mapping to finding the right inductive biases to map it to this like smaller code to then do the mapping.",
+  "zh": "就是说,你把问题的难度从寻找那个映射,转移到了寻找正确的归纳偏置来把它映射到这种更小的代码上,然后再去做映射。"
+ },
+ {
+  "seg": 268,
+  "start": 1237.493,
+  "end": 1239.534,
+  "speaker": "Unknown",
+  "en": "But finding that set of inductive biases is super hard.",
+  "zh": "但找到那套归纳偏置是超级难的。"
+ },
+ {
+  "seg": 269,
+  "start": 1239.955,
+  "end": 1241.376,
+  "speaker": "Unknown",
+  "en": "But maybe that's what Astra is buying us.",
+  "zh": "但也许这正是 Astra 给我们带来的东西。"
+ },
+ {
+  "seg": 270,
+  "start": 1241.676,
+  "end": 1248.88,
+  "speaker": "Unknown",
+  "en": "Like even in CoxI, there's a giant shift in the literature from, you know, specifically neurosymbolic methods to just using Astra to write code to map.",
+  "zh": "比如即使在 CoxI 里,文献中也有一个巨大的转变,从专门的神经符号方法,转向直接用 Astra 写代码来做映射。"
+ },
+ {
+  "seg": 271,
+  "start": 1249.281,
+  "end": 1251.882,
+  "speaker": "Unknown",
+  "en": "And so maybe that's a cool way to think about this.",
+  "zh": "所以也许这是思考这个问题的一个很酷的方式。"
+ },
+ {
+  "seg": 272,
+  "start": 1251.902,
+  "end": 1252.443,
+  "speaker": "Unknown",
+  "en": "Which is neurosymbolic.",
+  "zh": "也就是神经符号。"
+ },
+ {
+  "seg": 273,
+  "start": 1252.523,
+  "end": 1253.283,
+  "speaker": "Unknown",
+  "en": "That is neurosymbolic.",
+  "zh": "那确实就是神经符号。"
+ },
+ {
+  "seg": 274,
+  "start": 1253.303,
+  "end": 1255.204,
+  "speaker": "Unknown",
+  "en": "We have neurons and then they're emitting symbols.",
+  "zh": "我们有神经元,然后它们输出符号。"
+ },
+ {
+  "seg": 275,
+  "start": 1255.465,
+  "end": 1255.705,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 276,
+  "start": 1256.185,
+  "end": 1267.35,
+  "speaker": "Unknown",
+  "en": "I think this is actually a pretty good segue to a kind of final topic, which is around, inspired by this paper also from Philip Isola that he titles the Platonic Representation Hypothesis, right?",
+  "zh": "我想这其实是一个很好的过渡,可以引出最后一个话题,这个话题的灵感同样来自 Philip Isola 的一篇论文,他把它命名为柏拉图表示假说,对吧?"
+ },
+ {
+  "seg": 277,
+  "start": 1267.37,
+  "end": 1274.954,
+  "speaker": "Unknown",
+  "en": "Where Platonic, because as a reference to Plato's cave and, you know, the idea that, you know, you're seeing shadows of various realities.",
+  "zh": "之所以叫柏拉图,是因为它引用了柏拉图的洞穴,以及那个观念,即你看到的是各种现实的影子。"
+ },
+ {
+  "seg": 278,
+  "start": 1274.994,
+  "end": 1282.898,
+  "speaker": "Unknown",
+  "en": "And I think here the point he's making is that there's extensive evidence to show that language models and",
+  "zh": "而我想他在这里要表达的观点是,有大量的证据表明,语言模型以及"
+ },
+ {
+  "seg": 279,
+  "start": 1283.478,
+  "end": 1293.773,
+  "speaker": "Unknown",
+  "en": "Various representations of different data actually learn these distance mappings between similar things under different training policies that are overlapping.",
+  "zh": "不同数据的各种表示,实际上在不同的、相互重叠的训练策略下,学到了相似事物之间的这些距离映射。"
+ },
+ {
+  "seg": 280,
+  "start": 1293.833,
+  "end": 1300.142,
+  "speaker": "Unknown",
+  "en": "And so like the idea there would be that as you train these systems on increasingly large amounts of data,",
+  "zh": "所以那里的想法就是,当你用越来越大量的数据训练这些系统时,"
+ },
+ {
+  "seg": 281,
+  "start": 1300.522,
+  "end": 1304.643,
+  "speaker": "Unknown",
+  "en": "They converge to a kind of consistent mapping of the world.",
+  "zh": "它们会收敛到对世界的一种一致的映射。"
+ },
+ {
+  "seg": 282,
+  "start": 1305.164,
+  "end": 1312.086,
+  "speaker": "Unknown",
+  "en": "And maybe this implies that we would expect language models to get better and better at things over time that would make them useful for new tasks like robot control.",
+  "zh": "而这也许意味着,我们可以预期语言模型会随着时间在越来越多的方面变得越来越好,从而使它们能胜任像机器人控制这样的新任务。"
+ },
+ {
+  "seg": 283,
+  "start": 1312.106,
+  "end": 1319.088,
+  "speaker": "Unknown",
+  "en": "But maybe I imagine this representation hypothesis is actually pretty central to all of your guys' worldview or your view of your companies.",
+  "zh": "但我想这个表示假说也许在你们所有人的世界观或者你们对各自公司的看法中处于相当核心的位置。"
+ },
+ {
+  "seg": 284,
+  "start": 1319.128,
+  "end": 1326.271,
+  "speaker": "Unknown",
+  "en": "And so maybe why don't you guys tell me a little about how you think about this and also maybe we can use that to make some guesses as to why we think.",
+  "zh": "那么也许你们可以跟我讲讲你们是怎么看待这个问题的,而且我们也许可以借此做一些猜测,来解释为什么我们认为——"
+ },
+ {
+  "seg": 285,
+  "start": 1326.931,
+  "end": 1333.219,
+  "speaker": "Unknown",
+  "en": "models like Astra seem to be so much better at robot control than previous models and make some predictions for where we might be going here.",
+  "zh": "像 Astra 这样的模型在机器人控制上似乎比之前的模型好得多,并对我们可能的发展方向做一些预测。"
+ },
+ {
+  "seg": 286,
+  "start": 1333.239,
+  "end": 1333.46,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 287,
+  "start": 1333.66,
+  "end": 1345.235,
+  "speaker": "Unknown",
+  "en": "I think one way to make this concrete for the robotics models versus language models debate is that the very, very strong language models will have very similar representations of the world.",
+  "zh": "我想把机器人模型与语言模型之争具体化的一个方式是,非常非常强的语言模型会和"
+ },
+ {
+  "seg": 288,
+  "start": 1345.495,
+  "end": 1347.455,
+  "speaker": "Unknown",
+  "en": "with very strong robotics models.",
+  "zh": "非常强的机器人模型拥有非常相似的世界表示。"
+ },
+ {
+  "seg": 289,
+  "start": 1347.976,
+  "end": 1358.958,
+  "speaker": "Unknown",
+  "en": "And if that's the case, then if you have a really strong language model, you also have a really strong robotics model using, if we believe in the platonic representation hypothesis.",
+  "zh": "如果是这样的话,那么如果你有一个非常强的语言模型,你也就有了一个非常强的机器人模型,前提是我们相信柏拉图表示假说。"
+ },
+ {
+  "seg": 290,
+  "start": 1359.558,
+  "end": 1366.259,
+  "speaker": "Unknown",
+  "en": "And if that's the true, that's the better lesson, that is the best manifestation of the better lesson, right?",
+  "zh": "如果那是真的,那便是更好的教训,那是更好的教训的最佳体现,对吧?"
+ },
+ {
+  "seg": 291,
+  "start": 1366.279,
+  "end": 1371.66,
+  "speaker": "Unknown",
+  "en": "Because you just need one really strong model, regardless of architecture, and they would be",
+  "zh": "因为你只需要一个非常强的模型,无论架构如何,而它会"
+ },
+ {
+  "seg": 292,
+  "start": 1372.46,
+  "end": 1375.922,
+  "speaker": "Unknown",
+  "en": "Outperforming any specific models that is slightly weaker.",
+  "zh": "胜过任何稍微弱一点的特定模型。"
+ },
+ {
+  "seg": 293,
+  "start": 1376.103,
+  "end": 1386.149,
+  "speaker": "Unknown",
+  "en": "The interesting thing that that's maybe not entirely intuitive and maybe I'd be curious to hear you guys all think about is why specifically it seems like these newest models, specifically Astra, seems to be so much better at spatial intelligence.",
+  "zh": "有意思的是,这一点也许并不完全符合直觉,也许我很想听听你们大家的想法,那就是为什么具体来说,这些最新的模型,尤其是 Astra,似乎在空间智能上强得多。"
+ },
+ {
+  "seg": 294,
+  "start": 1386.169,
+  "end": 1390.192,
+  "speaker": "Unknown",
+  "en": "You know, we've all seen the demos online of, you know, controlling Blender and making great 3D images.",
+  "zh": "我们都在网上看过那些演示,比如控制 Blender、生成很棒的 3D 图像。"
+ },
+ {
+  "seg": 295,
+  "start": 1390.692,
+  "end": 1397.257,
+  "speaker": "Unknown",
+  "en": "Now it seems like, you know, you showed Jay in a benchmark that is like a meaningful step function improvement on certain tasks.",
+  "zh": "现在看来,你知道,你给 Jay 展示的某个基准测试,在某些任务上是一个有意义的阶梯式跃升。"
+ },
+ {
+  "seg": 296,
+  "start": 1398.197,
+  "end": 1409.189,
+  "speaker": "Unknown",
+  "en": "Where do you guys think the pre-training and post-training, I guess, of those models, what has likely changed about OpenAI's approach there that made them so much better compared to models even six months earlier?",
+  "zh": "你们觉得这些模型的预训练和后训练,或者说 OpenAI 的方法在那里可能发生了什么变化,使它们比哪怕六个月前的模型好这么多?"
+ },
+ {
+  "seg": 297,
+  "start": 1409.289,
+  "end": 1416.717,
+  "speaker": "Unknown",
+  "en": "Like, you know, that still we're benefiting from their lesson and we're still extremely good at code and we're still solving math problems, but haven't quite cracked the spatial intelligence needed here.",
+  "zh": "你知道,那些模型仍然在受益于它们的教训,它们在代码上仍然极其出色,仍然能解数学题,但却还没有完全攻克这里所需的空间智能。"
+ },
+ {
+  "seg": 298,
+  "start": 1417.037,
+  "end": 1421.623,
+  "speaker": "Unknown",
+  "en": "I think what Astra does incredibly well is it's like vision capabilities.",
+  "zh": "我觉得 Astra 做得极其出色的地方在于它的视觉能力。"
+ },
+ {
+  "seg": 299,
+  "start": 1421.943,
+  "end": 1425.227,
+  "speaker": "Unknown",
+  "en": "It was probably pre-trained on way more computer use data than ever before.",
+  "zh": "它很可能在比以往多得多的计算机使用数据上做了预训练。"
+ },
+ {
+  "seg": 300,
+  "start": 1425.588,
+  "end": 1427.79,
+  "speaker": "Unknown",
+  "en": "It's probably pre-trained on so much like CAD data.",
+  "zh": "它很可能在非常多的 CAD 数据上做过预训练。"
+ },
+ {
+  "seg": 301,
+  "start": 1428.311,
+  "end": 1433.577,
+  "speaker": "Unknown",
+  "en": "And it's like all of these kinds of data probably teach the model like similar like...",
+  "zh": "而所有这些类型的数据，可能教会了模型类似的……"
+ },
+ {
+  "seg": 302,
+  "start": 1434.198,
+  "end": 1437.92,
+  "speaker": "Unknown",
+  "en": "Understanding of like the physical world as like a lot of robot data might.",
+  "zh": "对物理世界的理解，就像大量机器人数据可能会做到的那样。"
+ },
+ {
+  "seg": 303,
+  "start": 1438.24,
+  "end": 1452.908,
+  "speaker": "Unknown",
+  "en": "So the computer use data is an interesting point because it's not totally intuitive I think why computer use data is useful for understanding the physical world and that it you know tends to be like a computer where you're clicking around like say more about why you think that is a big unlock because I totally buy they trained way more computer use data than ever before.",
+  "zh": "所以计算机使用数据是一个有趣的点，因为为什么计算机使用数据对理解物理世界有用，这并不是完全直观的，你知道，它往往是一台电脑，你在上面点来点去，再多说说为什么你认为这是一个重大的解锁，因为我完全相信他们训练了比以往多得多的计算机使用数据。"
+ },
+ {
+  "seg": 304,
+  "start": 1453.308,
+  "end": 1453.488,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 305,
+  "start": 1453.848,
+  "end": 1458.069,
+  "speaker": "Unknown",
+  "en": "I think immediately, if you were just training a model for computer use, that would not be able to apply for robotics.",
+  "zh": "我认为，如果你只是训练一个用于计算机使用的模型，那它将无法应用到机器人技术上。"
+ },
+ {
+  "seg": 306,
+  "start": 1458.509,
+  "end": 1468.351,
+  "speaker": "Unknown",
+  "en": "But if you feed a computer use data into a big model like Astra, and by computer use data, I mean like you drag a cursor around on a screen to orbit some CAD object in order to design in Blender.",
+  "zh": "但如果你把计算机使用数据喂给像 Astra 这样的大模型——我说的计算机使用数据是指你在屏幕上拖动光标来旋转某个 CAD 物体，以便在 Blender 里做设计。"
+ },
+ {
+  "seg": 307,
+  "start": 1468.631,
+  "end": 1476.913,
+  "speaker": "Unknown",
+  "en": "This tells you like how to reason about spaces, at least tells you about like top down, left, right, all these concepts that you need to control a robot.",
+  "zh": "这会告诉你如何对空间进行推理，至少告诉你上下、左右，以及控制机器人所需的所有这些概念。"
+ },
+ {
+  "seg": 308,
+  "start": 1477.293,
+  "end": 1477.914,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 309,
+  "start": 1478.554,
+  "end": 1483.937,
+  "speaker": "Unknown",
+  "en": "And I think that's why this data helps so much for making these LLMs so much better at robot use.",
+  "zh": "我认为这就是为什么这些数据对让这些 LLM 在机器人使用上变得好得多有如此大的帮助。"
+ },
+ {
+  "seg": 310,
+  "start": 1484.218,
+  "end": 1490.182,
+  "speaker": "Unknown",
+  "en": "I think like from the other direction, like a lot of people in the robotics community were trying more and more different kinds of data as well.",
+  "zh": "我认为从另一个方向来看，机器人社区里的很多人也在尝试越来越多的不同类型的数据。"
+ },
+ {
+  "seg": 311,
+  "start": 1490.202,
+  "end": 1499.648,
+  "speaker": "Unknown",
+  "en": "Like egocentric videos kind of went from just tele-operation to like, you know, a broader range of this data because it's not just robot data that can teach a model how to use a robot.",
+  "zh": "比如自我中心视角视频，从单纯的遥操作扩展到了更广范围的数据，因为能教会模型如何使用机器人的不只是机器人数据。"
+ },
+ {
+  "seg": 312,
+  "start": 1500.388,
+  "end": 1507.009,
+  "speaker": "Unknown",
+  "en": "So if we take this to the extreme, it's like, why not feed every kind of data, coding, computer use, egocentric, into the same model?",
+  "zh": "所以如果我们把这个推向极端，那就是：为什么不把每一种数据——编程、计算机使用、自我中心视角——都喂给同一个模型？"
+ },
+ {
+  "seg": 313,
+  "start": 1507.549,
+  "end": 1510.89,
+  "speaker": "Unknown",
+  "en": "I think that's how we get to the most capable robot use agent.",
+  "zh": "我认为这就是我们如何得到最强机器人使用智能体的路径。"
+ },
+ {
+  "seg": 314,
+  "start": 1511.13,
+  "end": 1521.612,
+  "speaker": "Unknown",
+  "en": "I think it's so funny that like, you know, if you go to 1980s, Xerox PARC or whatever, like we literally made the graphical user interface to be more like the physical world so that we could interface with it.",
+  "zh": "我觉得特别有意思的是，你知道，如果你回到 80 年代的 Xerox PARC 之类的地方，我们造出图形用户界面，就是为了让它更像物理世界，这样我们才能与之交互。"
+ },
+ {
+  "seg": 315,
+  "start": 1522.052,
+  "end": 1528.433,
+  "speaker": "Unknown",
+  "en": "And like what we ended up doing is building an environment that was actually helpful for robotics to learn how to use the physical world.",
+  "zh": "而结果呢，我们建造出的这个环境，实际上对机器人学习如何使用物理世界是有帮助的。"
+ },
+ {
+  "seg": 316,
+  "start": 1529.674,
+  "end": 1539.921,
+  "speaker": "Unknown",
+  "en": "We have file systems, we have files, we have folders, we have the GUIs for SolidWorks and Autodesk to spin around stuff to make it similar to the physical world.",
+  "zh": "我们有文件系统，我们有文件，我们有文件夹，我们有 SolidWorks 和 Autodesk 的 GUI 来旋转物体，让它类似于物理世界。"
+ },
+ {
+  "seg": 317,
+  "start": 1540.362,
+  "end": 1545.886,
+  "speaker": "Unknown",
+  "en": "And then we couldn't get robots to work in the physical world, so we just trained on that, and now it works.",
+  "zh": "然后我们没法让机器人在物理世界里工作，所以我们就在那个东西上训练，现在它成了。"
+ },
+ {
+  "seg": 318,
+  "start": 1546.266,
+  "end": 1546.827,
+  "speaker": "Unknown",
+  "en": "Right, exactly.",
+  "zh": "对，没错。"
+ },
+ {
+  "seg": 319,
+  "start": 1546.847,
+  "end": 1551.511,
+  "speaker": "Unknown",
+  "en": "There were incredible papers, I think, from Princeton and also Cloudplace Robotics touches on this.",
+  "zh": "有一些非常了不起的论文，我想来自 Princeton，还有 Cloudplace Robotics 也触及了这一点。"
+ },
+ {
+  "seg": 320,
+  "start": 1551.551,
+  "end": 1565.143,
+  "speaker": "Unknown",
+  "en": "It's like, if you design a right harness where you make the tools that can face with the robot look like computer use tools, like you have an agent drag a cursor around to control where the robot goes, that improves how well the LLM is able to perform on these physical tasks.",
+  "zh": "就是说，如果你设计一个合适的 harness，让你提供的能与机器人交互的工具看起来像计算机使用工具——比如你让一个智能体拖动光标来控制机器人去哪里——这能提升 LLM 在这些物理任务上的表现。"
+ },
+ {
+  "seg": 321,
+  "start": 1565.543,
+  "end": 1586.188,
+  "speaker": "Unknown",
+  "en": "Where do you guys see, you know, given like a reasonable guesses as to where the base models are going to continue improving and your guys' own investments in either evaluating these models or building harnesses around them, what do you think is going to be capabilities that we maybe now see as challenging to do, but that are going to be increasingly possible or even trivial very few months from now?",
+  "zh": "那么你们怎么看，你知道，在对基础模型将继续改进的方向做出合理猜测的前提下，加上你们自己在评估这些模型或围绕它们构建 harness 上的投入，你们认为有哪些能力，现在我们可能觉得很有挑战性，但几个月之后就会越来越可行、甚至变得轻而易举？"
+ },
+ {
+  "seg": 322,
+  "start": 1586.228,
+  "end": 1588.149,
+  "speaker": "Unknown",
+  "en": "Like, you know, six months ago, even the demonstrations that...",
+  "zh": "比如，你知道，六个月前，甚至那些演示……"
+ },
+ {
+  "seg": 323,
+  "start": 1588.489,
+  "end": 1591.872,
+  "speaker": "Unknown",
+  "en": "I've seen you guys post on your Twitter, I think would have been kind of mind-blowing to imagine coming from LLM.",
+  "zh": "我见过你们在 Twitter 上发的，我想如果想象它们出自 LLM，在当时会是相当令人震撼的。"
+ },
+ {
+  "seg": 324,
+  "start": 1592.232,
+  "end": 1603.021,
+  "speaker": "Unknown",
+  "en": "There's some consensus within the Frontier Labs and also in the Robotics Foundation models companies that will have general-purpose robots within the next two years or even earlier.",
+  "zh": "Frontier 实验室内部以及机器人基础模型公司之间存在某种共识，那就是我们将在未来两年内甚至更早拥有通用机器人。"
+ },
+ {
+  "seg": 325,
+  "start": 1603.121,
+  "end": 1607.664,
+  "speaker": "Unknown",
+  "en": "And this is something that society is probably unaware of or even unprepared for.",
+  "zh": "而这可能是社会尚未意识到、甚至毫无准备的事情。"
+ },
+ {
+  "seg": 326,
+  "start": 1608.025,
+  "end": 1617.172,
+  "speaker": "Unknown",
+  "en": "And when we say general-purpose robots, we mean something like if you give any natural language instruction, it can do what a competent teenager could do with their bare hands.",
+  "zh": "当我们说通用机器人时，我们的意思是，如果你给出任何自然语言指令，它能做到一个能干的青少年用双手能做到的事情。"
+ },
+ {
+  "seg": 327,
+  "start": 1617.532,
+  "end": 1626.298,
+  "speaker": "Unknown",
+  "en": "It's kind of like the ChatGPT moment, but for robotics in terms of capabilities, where you can generalize to unseen tasks and unseen environments.",
+  "zh": "这有点像 ChatGPT 时刻，只不过是机器人技术版本的能力，即能够泛化到未见过的任务和未见过的环境。"
+ },
+ {
+  "seg": 328,
+  "start": 1626.759,
+  "end": 1630.381,
+  "speaker": "Unknown",
+  "en": "For you guys, for the Wallet Labs guys, what does that mean for what you guys are building?",
+  "zh": "那么对你们来说，对 Wallet Labs 的各位来说，这对你们正在构建的东西意味着什么？"
+ },
+ {
+  "seg": 329,
+  "start": 1630.541,
+  "end": 1633.984,
+  "speaker": "Unknown",
+  "en": "I think we're going to take steps to get there in about two years' time.",
+  "zh": "我认为我们会在大约两年的时间内分步骤走到那一步。"
+ },
+ {
+  "seg": 330,
+  "start": 1634.324,
+  "end": 1636.365,
+  "speaker": "Unknown",
+  "en": "I think there's so many challenges that are very visible.",
+  "zh": "我认为有很多非常显而易见的挑战。"
+ },
+ {
+  "seg": 331,
+  "start": 1636.446,
+  "end": 1640.028,
+  "speaker": "Unknown",
+  "en": "For example, when I let people online talk about latency, this is a big problem.",
+  "zh": "比如，我让人们在网上谈到延迟，这是个大问题。"
+ },
+ {
+  "seg": 332,
+  "start": 1640.528,
+  "end": 1644.711,
+  "speaker": "Unknown",
+  "en": "If you just have Astra being in the loop, thinking at every step, this is really slow.",
+  "zh": "如果你只是让 Astra 处在循环中，每一步都进行思考，这真的非常慢。"
+ },
+ {
+  "seg": 333,
+  "start": 1644.791,
+  "end": 1646.833,
+  "speaker": "Unknown",
+  "en": "It's not going to be economically useful.",
+  "zh": "它不会在经济上有用。"
+ },
+ {
+  "seg": 334,
+  "start": 1647.293,
+  "end": 1660.06,
+  "speaker": "Unknown",
+  "en": "So how do you, you know, consolidate kind of a first pass by Astra, like this contextual learning into like a faster skill or policy that you can then run repeatedly at incredibly high throughput?",
+  "zh": "所以你怎么把 Astra 的第一遍处理，比如这种上下文学习，整合成一个更快的技能或策略，让你可以以极高的吞吐量反复运行？"
+ },
+ {
+  "seg": 335,
+  "start": 1660.4,
+  "end": 1664.903,
+  "speaker": "Unknown",
+  "en": "I think it's the mappings to humans will get more and more like this.",
+  "zh": "我 thinks 它与人类的类比会越来越像这样。"
+ },
+ {
+  "seg": 336,
+  "start": 1666.104,
+  "end": 1684.661,
+  "speaker": "Unknown",
+  "en": "The optimal thing to do may be to put a new SAR state action reward back into context because it's very quick, but then there needs to be some like of go to sleep for a while, like almost everything that is intelligent sleeps, like tell me an intelligent system that doesn't sleep, right, in some way, and then...",
+  "zh": "最优做法可能是把一个新的状态-动作-奖励放回上下文里，因为这非常快，但之后就需要某种类似睡一会儿的东西，几乎所有有智能的东西都会睡觉，告诉我一个不以某种方式睡觉的智能系统，对吧，然后……"
+ },
+ {
+  "seg": 337,
+  "start": 1685.442,
+  "end": 1686.724,
+  "speaker": "Unknown",
+  "en": "During sleep, compression happens.",
+  "zh": "在睡眠期间，压缩发生了。"
+ },
+ {
+  "seg": 338,
+  "start": 1686.744,
+  "end": 1696.094,
+  "speaker": "Unknown",
+  "en": "The weird thing that happens from your hippocampus and it shortwave ripples to both lobes and like there's weird, you know, paths from memories that were compressed throughout the day to train the weights.",
+  "zh": "从你的海马体发生的奇怪事情，短波涟漪传到两个脑叶，你知道，记忆经过压缩的奇怪路径被用来训练权重。"
+ },
+ {
+  "seg": 339,
+  "start": 1696.294,
+  "end": 1704.603,
+  "speaker": "Unknown",
+  "en": "And similarly, maybe what the right thing to do is similar to Dagger, a data segregation framework in our classic RL, where you're going, you're collecting a bunch of data.",
+  "zh": "类似地，也许正确的做法类似于 Dagger，我们经典 RL 中的一个数据聚合框架，你在运行，你在收集一堆数据。"
+ },
+ {
+  "seg": 340,
+  "start": 1704.963,
+  "end": 1708.467,
+  "speaker": "Unknown",
+  "en": "And then you're somewhat reflecting on it and then you're using it to update your wait file.",
+  "zh": "然后你对它进行某种反思，然后你用它来更新你的 wait file。"
+ },
+ {
+  "seg": 341,
+  "start": 1708.868,
+  "end": 1716.056,
+  "speaker": "Unknown",
+  "en": "And then you have distillation in from those experiences back into an updated wait file that maybe isn't Astro, but maybe is your own models.",
+  "zh": "然后你把这些经验蒸馏回一个更新过的 wait file 里，那也许不是 Astro，但也许是你自己的模型。"
+ },
+ {
+  "seg": 342,
+  "start": 1716.496,
+  "end": 1721.822,
+  "speaker": "Unknown",
+  "en": "It sounds very Dreamcoder-esque, but a lot of those specific tools, I think that people used to build.",
+  "zh": "这听起来很有 Dreamcoder 的味道，但那些特定的工具，我想是人们过去构建的。"
+ },
+ {
+  "seg": 343,
+  "start": 1722.082,
+  "end": 1723.483,
+  "speaker": "Unknown",
+  "en": "To take Dreamcoder, for example, right?",
+  "zh": "以 Dreamcoder 为例，对吧？"
+ },
+ {
+  "seg": 344,
+  "start": 1723.543,
+  "end": 1729.889,
+  "speaker": "Unknown",
+  "en": "It had this library of skills and then during the sleep phase, it basically refactored everything into a more compact representation and so on.",
+  "zh": "它有这个技能库，然后在睡眠阶段，它基本上把一切重构为一个更紧凑的表示等等。"
+ },
+ {
+  "seg": 345,
+  "start": 1730.189,
+  "end": 1739.097,
+  "speaker": "Unknown",
+  "en": "I mean, we're seeing sort of similar things just happen not as rigidly as before in the space of programs, but now it's maybe like, maybe you want to refactor traces.",
+  "zh": "我的意思是，我们看到类似的事情正在发生，只是不像以前在程序空间里那么僵化，但现在也许是，也许你想重构轨迹。"
+ },
+ {
+  "seg": 346,
+  "start": 1739.718,
+  "end": 1741.9,
+  "speaker": "Unknown",
+  "en": "Maybe you want to refactor skills.",
+  "zh": "也许你想重构技能。"
+ },
+ {
+  "seg": 347,
+  "start": 1742.26,
+  "end": 1743.982,
+  "speaker": "Unknown",
+  "en": "A lot of these robotic coders policy papers, right?",
+  "zh": "很多那些机器人代码策略论文，对吧？"
+ },
+ {
+  "seg": 348,
+  "start": 1744.002,
+  "end": 1748.846,
+  "speaker": "Unknown",
+  "en": "They have this growing ladder of skills and it's anyone's guess really how you print them, how you organize them and things like that.",
+  "zh": "它们有这个不断增长的技能阶梯，而如何打印它们、如何组织它们之类的问题真的谁也说不准。"
+ },
+ {
+  "seg": 349,
+  "start": 1748.926,
+  "end": 1759.355,
+  "speaker": "Unknown",
+  "en": "So yeah, I think as Waddle goes forward, like how you manage our growing context of skills, of deployment data, all of that is going to be quite interesting.",
+  "zh": "所以是的，我认为随着 Waddle 向前发展，你如何管理我们不断增长的技能上下文、部署数据等等，将会相当有意思。"
+ },
+ {
+  "seg": 350,
+  "start": 1759.863,
+  "end": 1762.004,
+  "speaker": "Unknown",
+  "en": "I think with that, I think this was an excellent discussion.",
+  "zh": "就说到这里，我认为这是一次非常出色的讨论。"
+ },
+ {
+  "seg": 351,
+  "start": 1762.144,
+  "end": 1764.425,
+  "speaker": "Unknown",
+  "en": "Thank you so much, Vincent, Hanming, and Jay for being here.",
+  "zh": "非常感谢 Vincent、Hanming 和 Jay 来到这里。"
+ },
+ {
+  "seg": 352,
+  "start": 1764.745,
+  "end": 1769.648,
+  "speaker": "Unknown",
+  "en": "I'm very excited for all the incredible robotics advancements I think we're going to see over the next few years.",
+  "zh": "我非常期待未来几年我们将看到的所有令人惊叹的机器人技术进展。"
+ },
+ {
+  "seg": 353,
+  "start": 1769.688,
+  "end": 1775.57,
+  "speaker": "Unknown",
+  "en": "And I think you're totally right, Jay, that I don't think broader society is totally aware of how much is coming.",
+  "zh": "而且我认为你说得完全正确，Jay,我认为更广泛的社会还没有完全意识到即将到来的东西有多少。"
+ },
+ {
+  "seg": 354,
+  "start": 1775.59,
+  "end": 1777.611,
+  "speaker": "Unknown",
+  "en": "And it's going to be a very incredible few years to come.",
+  "zh": "未来几年将会是非常令人惊叹的几年。"
+ },
+ {
+  "seg": 355,
+  "start": 1777.631,
+  "end": 1778.612,
+  "speaker": "Unknown",
+  "en": "So thank you so much.",
+  "zh": "所以非常感谢大家。"
+ }
+]

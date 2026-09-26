@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>37</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -37,6 +37,7 @@ unlisted: true
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(83:33起):本集提到 Stripe 相当高调地宣扬不上市，但 Michael 认为并非每家公司都能像 Stripe 那样有大量投资者需求而不需要上市，Stripe 的情况是独一无二的。
 - **[[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]]**(03:50起):本集提到 Collison 兄弟著名的「把笔记本塞到你手里帮你装上 Stripe」的推广方式，与如今「一条提示词」对比。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(42:56起):本集引用 Stripe 的信件，其中提出'智能应该像资本一样被管理和分配，而不是像软件许可证'，收入加速至 41%，账单增长 71%
+- **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(00:23起):本集说 Stripe 收购了 Metronome,并站在智能体商务思考的前沿;其 CLI 使用量在过去五六个月里随编码智能体的调用呈指数级增长。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(28:41起):本集说它以 80 亿美元收购 OpenRouter，买的不是路由技术而是信息和智能分配方向的数据，以押注企业如何分配资源
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:35起):本集提到 Stripe 是一个成熟市场，可以从第一性原理严谨推演竞争对手行动；内部有以写作为导向的文化，简报会在公司内疯传
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(27:41起):本集说 Allad 在 Stripe 交易上做了非常令人印象深刻的事，同时它是 Founders Fund 集中押注的例子之一
@@ -60,7 +61,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*36 集*
+*37 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -88,6 +89,7 @@ unlisted: true
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 - [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
@@ -105,7 +107,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[推理]] · [[ChatGPT]] · [[Lenny]] · [[Claude Code]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":330,"OpenAI":133,"Anthropic":143,"Cursor":68,"Vercel":18,"推理":55,"ChatGPT":77,"Lenny":67,"Claude Code":76,"Cognition":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"OpenAI":134,"Anthropic":145,"Cursor":69,"Vercel":18,"推理":55,"ChatGPT":77,"Lenny":67,"Claude Code":76,"Cognition":19}</script>
 
 <script>
 (function(){

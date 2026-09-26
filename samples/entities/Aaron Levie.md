@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":55,"Sofia Puccini":4,"智能体":330,"Theo Jaffe":7,"应用层":3,"Anthropic":143,"LLM 套壳":1,"OpenAI":133}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":55,"Sofia Puccini":4,"智能体":334,"Theo Jaffe":7,"应用层":3,"Anthropic":145,"LLM 套壳":1,"OpenAI":134}</script>
 
 <script>
 (function(){

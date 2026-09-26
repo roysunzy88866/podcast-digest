@@ -1,0 +1,1163 @@
+{
+  "episode_id": "2026-09-26-yc-robot-use-agents-why-general-purpose-mod",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-09-26",
+  "tags": [
+    "机器人",
+    "LLM",
+    "智能体",
+    "VLA",
+    "前沿研究"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "han-mei",
+      "type": "person",
+      "role": "host",
+      "name": "Han Mei",
+      "file": "Han Mei",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            40.641,
+            41.041
+          ],
+          "quote": "I'm Han Mei.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "francois",
+      "type": "person",
+      "role": "cohost",
+      "name": "Francois",
+      "file": "Francois",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.086,
+            28.053
+          ],
+          "quote": "So today Francois and I invited the founders of Waddle Labs and RoboCurve, two groups of startups that are working at the very frontier of making robots more capable with LLMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            100.189,
+            106.735
+          ],
+          "quote": "And so I thought maybe what would be fun is for Francois and I to dig in with you guys on some of the research that led to this moment to begin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            483.753,
+            488.678
+          ],
+          "quote": "And I need to like use those tools to assemble a new tool called a new Francois.py.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            641.445,
+            646.491
+          ],
+          "quote": "I know, Francois, you have this framework we've talked about of, you know, the various ways that learning can happen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ham",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ham",
+      "file": "Ham",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            297.6,
+            302.222
+          ],
+          "quote": "And this idea of transferring across different modalities, which Ham and I are super excited about.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vincent",
+      "type": "person",
+      "role": "cohost",
+      "name": "Vincent",
+      "file": "Vincent",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            41.081,
+            42.843
+          ],
+          "quote": "I'm from Waterlabs together with Vincent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1762.144,
+            1764.425
+          ],
+          "quote": "Thank you so much, Vincent, Hanming, and Jay for being here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jay",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jay",
+      "file": "Jay",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            54.695,
+            57.297
+          ],
+          "quote": "Hi, I'm Jay, co-founder of RoboCurve.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 20,
+          "t": [
+            125.465,
+            131.83
+          ],
+          "quote": "So maybe Jay, do you want to tell us a little bit about some of this early work involving being able to use language models to do any kind of robot control?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1390.692,
+            1397.257
+          ],
+          "quote": "Now it seems like, you know, you showed Jay in a benchmark that is like a meaningful step function improvement on certain tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1762.144,
+            1764.425
+          ],
+          "quote": "Thank you so much, Vincent, Hanming, and Jay for being here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1769.688,
+            1775.57
+          ],
+          "quote": "And I think you're totally right, Jay, that I don't think broader society is totally aware of how much is coming.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waddle-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Waddle Labs",
+      "file": "Waddle Labs",
+      "primary": true,
+      "how_described": "Han Mei 与 Vincent 共同创办的公司，构建控制机器人的 LLM：先造一个让 LLM 高效驾驭机器人的 harness，再收集数据训练更好的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.086,
+            28.053
+          ],
+          "quote": "So today Francois and I invited the founders of Waddle Labs and RoboCurve, two groups of startups that are working at the very frontier of making robots more capable with LLMs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "robocurve",
+      "type": "company",
+      "role": "company",
+      "name": "RoboCurve",
+      "file": "RoboCurve",
+      "primary": true,
+      "how_described": "Jay 联合创办的「物理 AI 的 evals 公司」，测一切：任何机器人、任何模型（LLM、VLA），本体涵盖机械臂、夹爪、人形、四足。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.086,
+            28.053
+          ],
+          "quote": "So today Francois and I invited the founders of Waddle Labs and RoboCurve, two groups of startups that are working at the very frontier of making robots more capable with LLMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            54.695,
+            57.297
+          ],
+          "quote": "Hi, I'm Jay, co-founder of RoboCurve.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：编码智能体的通用性正扩展到机器人控制，正在进入「机器人使用智能体（robot use agents）」的时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            460.97,
+            467.276
+          ],
+          "quote": "I'd probably rewind back to Voyager where like Voyager was like the one of the first, what is, what does a coding agent mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            467.556,
+            471.359
+          ],
+          "quote": "Coding agent requires good tool use and on the fly tool creation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            599.101,
+            604.584
+          ],
+          "quote": "Like they provided this list of functions to a coding agent in the form of like literary Python functions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            605.144,
+            611.348
+          ],
+          "quote": "And then the coding agent will be able to write code involving these functions and then control the robot to do very complex hacks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 157,
+          "t": [
+            788.068,
+            806.477
+          ],
+          "quote": "There's a really good example you said, which I didn't really think about, is like, well, if I can rag or I can load into active memory, and this is very prime agent continual harness kind of like thinking where I can pull stuff in on the fly, similar examples, then it's like me, like, hmm, I have an exam.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1074.641,
+            1077.222
+          ],
+          "quote": "So there's a coding agent in the loop here running this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1078.283,
+            1079.964
+          ],
+          "quote": "What are the steps that the coding agent would have taken?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1080.024,
+            1086.247
+          ],
+          "quote": "And let's kind of contrast the direct coding agent version versus the waddle harness in the loop version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1507.549,
+            1510.89
+          ],
+          "quote": "I think that's how we get to the most capable robot use agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1551.551,
+            1565.143
+          ],
+          "quote": "It's like, if you design a right harness where you make the tools that can face with the robot look like computer use tools, like you have an agent drag a cursor around to control where the robot goes, that improves how well the LLM is able to perform on these physical tasks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集主张不训练专用机器人模型，而是构建非常好的基础 LLM 直接控制机器人——强语言模型即强机器人模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            388.842,
+            393.185
+          ],
+          "quote": "Like the key difference between like these VLAs and like GPT-6 or LLM, isn't",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            407.431,
+            412.433
+          ],
+          "quote": "But when you do that, you just end up getting what we think of as like these general purpose LLM agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            412.933,
+            424.778
+          ],
+          "quote": "And then so to me, it's like, okay, why not just build a really good foundational LLM and then use that to control robots rather than training like a model that's specifically for robotics and that's more dependent on just robot data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 134,
+          "t": [
+            697.642,
+            710.765
+          ],
+          "quote": "You train the LLM, or at least post-train the LLM, to be able to learn and improve, and that self-refines a reflection literature from way back that actually allowed multi-turn into the training set.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            716.666,
+            719.187
+          ],
+          "quote": "So I've done this experiment where you take an LLM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1551.551,
+            1565.143
+          ],
+          "quote": "It's like, if you design a right harness where you make the tools that can face with the robot look like computer use tools, like you have an agent drag a cursor around to control where the robot goes, that improves how well the LLM is able to perform on these physical tasks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1588.489,
+            1591.872
+          ],
+          "quote": "I've seen you guys post on your Twitter, I think would have been kind of mind-blowing to imagine coming from LLM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLA",
+      "file": "VLA",
+      "primary": true,
+      "how_described": "由 RT2 论文确立的机器人模型范式，被类比为「必须直接输出动作、无法为复杂任务分配更多算力」的链式思维之前阶段，且多年受数据瓶颈困扰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            117.058,
+            125.044
+          ],
+          "quote": "So I want to talk about some of the early work on pre-training language models for decision-making, and then also the RT2 paper, which established the VLA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            213.873,
+            217.094
+          ],
+          "quote": "And similarly now, like VLA is, we're basically like an arc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            267.429,
+            276.352
+          ],
+          "quote": "I think the really interesting thing about the bitter lesson here is that like VLA's by design architecturally, they're built on top of language models as well, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 47,
+          "t": [
+            287.577,
+            293.199
+          ],
+          "quote": "Sort of nagging at this VLA data bottleneck for years now, and we're seeing very, very slow progress.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            335.04,
+            345.043
+          ],
+          "quote": "So all those web images and web text actually improves the VLA compared to just training a specific robotics foundation model without any pre-training.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 56,
+          "t": [
+            345.665,
+            351.251
+          ],
+          "quote": "So you're benefiting in the case of RT2, these early VLA approaches from pre-training.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rt2",
+      "type": "concept",
+      "role": "concept",
+      "name": "RT2",
+      "file": "RT2",
+      "primary": true,
+      "how_described": "在机器人上用 AI 最早的成功方法之一：把网页文本和图像上预训练的语言模型微调为输出末端执行器位姿来控制机器人，因接入语言模型的全部数据模态而强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            117.058,
+            125.044
+          ],
+          "quote": "So I want to talk about some of the early work on pre-training language models for decision-making, and then also the RT2 paper, which established the VLA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            132.11,
+            147.476
+          ],
+          "quote": "One of the earliest successful approaches of using AI on robots is the RT2 paper, where they use a pre-trained language model on web, text, and images, and use that to control robots.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 34,
+          "t": [
+            217.694,
+            219.655
+          ],
+          "quote": "RT2 is basically like, it has to output an action.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            322.117,
+            334.72
+          ],
+          "quote": "Yeah, and to add to that, the reason why RT2 is such a good model is because it is using a language model that taps into the modality of all the data that a language model is trained on.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 56,
+          "t": [
+            345.665,
+            351.251
+          ],
+          "quote": "So you're benefiting in the case of RT2, these early VLA approaches from pre-training.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-as-policies",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码即策略 (code as policies)",
+      "file": "代码即策略",
+      "primary": true,
+      "how_described": "Google DeepMind 2022 年底的论文：给编程智能体一列字面 Python 函数（拾取、抬起、移动到位姿），它不需额外机器人数据就能一次性写出控制代码完成任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            428.259,
+            434.88
+          ],
+          "quote": "If we could rewind the clock a couple of years, may have been a good sign that we were trending in a good direction to this, is research on code as policies, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            435.121,
+            439.842
+          ],
+          "quote": "Do you guys want to talk a little bit about when the research community refers to code as policies, what exactly that means?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            455.865,
+            460.569
+          ],
+          "quote": "So yeah, how does code as policies work and how did that inspire some of what you guys are now seeing as possible?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1103.385,
+            1107.289
+          ],
+          "quote": "This is less of code as policies, but more of tool calls.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "in-context-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文内学习 (in-context learning)",
+      "file": "上下文内学习",
+      "primary": true,
+      "how_described": "Francois 的学习层级框架中最便宜的一档：把状态-动作-结果元组附加进上下文，每样本提升大、成本极低，但约 20-40 例后饱和、超上下文长度反而变差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            386.581,
+            388.602
+          ],
+          "quote": "And a lot of this comes from in-context learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 121,
+          "t": [
+            646.511,
+            650.054
+          ],
+          "quote": "There's going to be learning that's embedded into the weights versus being in context learning and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            681.812,
+            682.993
+          ],
+          "quote": "So that's in-context-learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            683.013,
+            685.835
+          ],
+          "quote": "In-context-learning, where I just append it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            941.135,
+            946.897
+          ],
+          "quote": "And last point as well, I think the really interesting theoretical question is how far in-context learning can get you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 194,
+          "t": [
+            949.418,
+            954.88
+          ],
+          "quote": "There's papers that show that these models can approximate gradient descent during in-context learning as well.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "Jay 用它类比 RT2 到现在的跃迁：当年 GSM8K 模型必须直接吐答案，允许先思考再作答能力就上去；现在模型可以先用代码思考再输出动作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            197.329,
+            199.77
+          ],
+          "quote": "There was no ability for it to chain of thought.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            223.616,
+            226.776
+          ],
+          "quote": "And then now I have this code chain of thought thing that I can do.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩教训 (bitter lesson)",
+      "file": "苦涩教训",
+      "primary": true,
+      "how_described": "本集反复引用：给智能体更多自主权和资源它能完成很多微调才能做的事；Han Mei 的版本是关键不在架构而在什么数据最有用——LLM 的数据模态是「被眷顾的」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            267.429,
+            276.352
+          ],
+          "quote": "I think the really interesting thing about the bitter lesson here is that like VLA's by design architecturally, they're built on top of language models as well, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 45,
+          "t": [
+            279.234,
+            286.096
+          ],
+          "quote": "So perhaps the bitter lesson here isn't necessarily what architecture you build necessarily, but it's what data is most useful, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 51,
+          "t": [
+            307.323,
+            311.445
+          ],
+          "quote": "Like maybe the way of harnessing the bitter lesson is saying, let's pick a data for which...",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "platonic-representation-hypothesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "柏拉图表示假说 (Platonic Representation Hypothesis)",
+      "file": "柏拉图表示假说",
+      "primary": true,
+      "how_described": "Isola 的论文：不同数据、训练策略下的模型收敛到对世界一致的距离映射——所以有一个非常强的语言模型，就也有一个非常强的机器人模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1256.185,
+            1267.35
+          ],
+          "quote": "I think this is actually a pretty good segue to a kind of final topic, which is around, inspired by this paper also from Philip Isola that he titles the Platonic Representation Hypothesis, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1347.976,
+            1358.958
+          ],
+          "quote": "And if that's the case, then if you have a really strong language model, you also have a really strong robotics model using, if we believe in the platonic representation hypothesis.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness（框架） (harness)",
+      "file": "harness（框架）",
+      "primary": true,
+      "how_described": "Waddle 把 harness 当作一种「领域特定性」：包裹 LLM 执行任务的框架，把学到的技能打包成程序、从过去经验向未来智能体蒸馏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.466,
+            54.314
+          ],
+          "quote": "And we do this by doing two things, building a harness that allows the LMs to do this very effectively, collecting data, and then using that data to train better LLMs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 157,
+          "t": [
+            788.068,
+            806.477
+          ],
+          "quote": "There's a really good example you said, which I didn't really think about, is like, well, if I can rag or I can load into active memory, and this is very prime agent continual harness kind of like thinking where I can pull stuff in on the fly, similar examples, then it's like me, like, hmm, I have an exam.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            869.984,
+            879.25
+          ],
+          "quote": "Yeah, the first thing is we've been sort of thinking about this idea of a harness almost as a form of like domain specificity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            927.09,
+            929.171
+          ],
+          "quote": "They're sort of wrapped inside the harness and they're doing a task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 190,
+          "t": [
+            933.672,
+            936.573
+          ],
+          "quote": "You can do this domain specialization of your harness quite well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1006.396,
+            1012.237
+          ],
+          "quote": "So in this situation, we're using Astr directly, but if we were using, say, Waddle's harness, what's the kind of difference between...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1080.024,
+            1086.247
+          ],
+          "quote": "And let's kind of contrast the direct coding agent version versus the waddle harness in the loop version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1551.551,
+            1565.143
+          ],
+          "quote": "It's like, if you design a right harness where you make the tools that can face with the robot look like computer use tools, like you have an agent drag a cursor around to control where the robot goes, that improves how well the LLM is able to perform on these physical tasks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集指出直接用 Astra 每步都思考太慢且不经济，但前沿 LLM 延迟约每月改善 2 倍，年底前可能实现机器人实时控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1043.609,
+            1049.69
+          ],
+          "quote": "You can notice that the latency is a bit slow because we are bottlenecked by the latency of Azure.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1049.75,
+            1054.552
+          ],
+          "quote": "But if you look at the trends, the latency of these models are improving very rapidly.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1059.473,
+            1064.195
+          ],
+          "quote": "Their latency is improving by around 2x per month, which is very, very fast.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1636.446,
+            1640.028
+          ],
+          "quote": "For example, when I let people online talk about latency, this is a big problem.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "本集讨论的最新前沿模型，空间智能突然强很多——猜测因在更多计算机使用数据和 CAD 数据上预训练，视频演示中直接控制机械臂抓取方块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            227.076,
+            235.438
+          ],
+          "quote": "And I can say, okay, even if you were using the example where you're not actually outputting the code, you're just giving it to Astra and let it think, think, think, think, think, and then output an action.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 202,
+          "t": [
+            976.26,
+            982.825
+          ],
+          "quote": "We're watching Astra controlling the arms to pick a block off the table and put it into the bone.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 203,
+          "t": [
+            983.005,
+            991.412
+          ],
+          "quote": "So here Astra is using just these camera inputs and presumably it's aware of the robot that it's controlling and it's going to write code that controls the robot at its individual joints.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1086.527,
+            1098.92
+          ],
+          "quote": "So what just happened was that in a series of turns, Astra received the images from the cameras and it outputted the end-effector pose for the robot to go to.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1239.955,
+            1241.376
+          ],
+          "quote": "But maybe that's what Astra is buying us.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1241.676,
+            1248.88
+          ],
+          "quote": "Like even in CoxI, there's a giant shift in the literature from, you know, specifically neurosymbolic methods to just using Astra to write code to map.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1326.931,
+            1333.219
+          ],
+          "quote": "models like Astra seem to be so much better at robot control than previous models and make some predictions for where we might be going here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1376.103,
+            1386.149
+          ],
+          "quote": "The interesting thing that that's maybe not entirely intuitive and maybe I'd be curious to hear you guys all think about is why specifically it seems like these newest models, specifically Astra, seems to be so much better at spatial intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1417.037,
+            1421.623
+          ],
+          "quote": "I think what Astra does incredibly well is it's like vision capabilities.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1458.509,
+            1468.351
+          ],
+          "quote": "But if you feed a computer use data into a big model like Astra, and by computer use data, I mean like you drag a cursor around on a screen to orbit some CAD object in order to design in Blender.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1640.528,
+            1644.711
+          ],
+          "quote": "If you just have Astra being in the loop, thinking at every step, this is really slow.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1647.293,
+            1660.06
+          ],
+          "quote": "So how do you, you know, consolidate kind of a first pass by Astra, like this contextual learning into like a faster skill or policy that you can then run repeatedly at incredibly high throughput?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "voyager",
+      "type": "concept",
+      "role": "concept",
+      "name": "Voyager",
+      "file": "Voyager",
+      "primary": false,
+      "how_described": "Minecraft 上最出名的早期编码智能体，展示了「编码智能体意味着好的工具使用和即时的工具创建」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            460.97,
+            467.276
+          ],
+          "quote": "I'd probably rewind back to Voyager where like Voyager was like the one of the first, what is, what does a coding agent mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            491.822,
+            492.523
+          ],
+          "quote": "That was Voyager.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            493.624,
+            495.186
+          ],
+          "quote": "I'm not going to say Voyager was the first one to do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            495.206,
+            497.088
+          ],
+          "quote": "Voyager was the most popular one to do this for Minecraft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            572.771,
+            580.256
+          ],
+          "quote": "What did some of those early ones, maybe even before Voyager, like Coda's policies, which I think the paper came out in 2022 at the end, right around when ChatGPT came out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "RT2 采用的方法：微调语言模型使其输出机器人控制坐标；本集主张的路线则不再依赖微调纯机器人数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            252.883,
+            265.108
+          ],
+          "quote": "If you give the agents or you give the AI model more autonomy and if you unshackle it a bit more and give it more resources, it can actually do a lot of the things that we fine-tune it to do.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "computer-use-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用数据 (computer use data)",
+      "file": "计算机使用数据",
+      "primary": true,
+      "how_described": "本集的关键论点：拖动光标旋转 CAD 物体等计算机使用数据教会模型空间推理（上下左右），是让 LLM 学会控制机器人的重大解锁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            401.789,
+            405.39
+          ],
+          "quote": "We want to pour in computer use data into our robot models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1421.943,
+            1425.227
+          ],
+          "quote": "It was probably pre-trained on way more computer use data than ever before.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1438.24,
+            1452.908
+          ],
+          "quote": "So the computer use data is an interesting point because it's not totally intuitive I think why computer use data is useful for understanding the physical world and that it you know tends to be like a computer where you're clicking around like say more about why you think that is a big unlock because I totally buy they trained way more computer use data than ever before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1458.509,
+            1468.351
+          ],
+          "quote": "But if you feed a computer use data into a big model like Astra, and by computer use data, I mean like you drag a cursor around on a screen to orbit some CAD object in order to design in Blender.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dreamcoder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dreamcoder",
+      "file": "Dreamcoder",
+      "primary": false,
+      "how_described": "类比「睡眠」阶段：技能库在睡眠期被重构为更紧凑表示；今天也许想重构的不再是程序而是轨迹和技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1716.496,
+            1721.822
+          ],
+          "quote": "It sounds very Dreamcoder-esque, but a lot of those specific tools, I think that people used to build.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1722.082,
+            1723.483
+          ],
+          "quote": "To take Dreamcoder, for example, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

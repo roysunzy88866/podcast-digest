@@ -1,0 +1,190 @@
+{
+  "title_zh": "编码智能体开始接管机器人：LLM 控制物理世界的前沿",
+  "tldr": "Waddle Labs 的 Han Mei 与 RoboCurve 的 Jay 解释为什么通用 LLM 正在成为控制机器人的最佳路径，以及两年内通用机器人为何可期。",
+  "digest_md": "这一集聊的是一个正在发生的转折：过去几年最大的惊喜之一，是编码智能体在不同领域之间的通用性——而现在，前沿研究人员正在表明，这也包括控制机器人。MIT 教授 Philip Isola 在最近一篇爆火的文章里提出，我们可能正在进入「机器人使用智能体」的时代。请来的两位主角：Han Mei，Waddle Labs 联合创始人（与 Vincent 一起），他们做的是「构建控制机器人的 LLM」，路径是两条腿走路——先造一个让 LLM 高效驾驭机器人的 harness（框架），再收集数据训练更好的模型；以及 Jay，RoboCurve 联合创始人，他们是一家「物理 AI 的 evals 公司」，测一切：任何机器人、任何模型，从 LLM 到 VLA（视觉-语言-动作模型），本体涵盖机械臂、夹爪、人形、四足。两家公司的视频最近都在 Twitter 上爆火，还被 Isola 的文章引用——视频里 LLM 能拧瓶盖、多机器人通信、拔笔帽。\n\n## 起点：RT2 与「苦涩教训」\n\n一切要从 RT2 论文说起——在机器人上用 AI 最早的成功方法之一。他们把一个在网页文本和图像上预训练过的语言模型拿来微调，只是不让它输出英语，而是输出「末端执行器位姿」——也就是可以转换成关节指令、直接控制机器人的坐标。Jay 的脑子里把这个类比为思维链（chain of thought）时刻：当年做 GSM8K 小学数学题，模型必须直接吐出「划四道、答案、结束」，没有思考空间；后来允许它先想「8 减 5 等于 3」再作答，能力就上去了。RT2 时代的 VLA 就是那个「必须直接输出动作」的阶段——无法为更复杂的任务分配更多算力。而现在，模型可以先用代码思考、思考、再输出动作。\n\nHan Mei 把这归结为「苦涩教训」（bitter lesson，即通用方法+更多算力终会胜过人工巧思）的又一印证：给智能体更多自主权、更多资源，它能完成很多我们费劲微调它去做的事。但他的版本更具体：苦涩教训不在于你选什么架构，而在于**什么数据最有用**。VLA 的数据瓶颈纠结多年、进展缓慢；而 LLM 的数据模态是「被眷顾的」——RT2 之所以好，正因为它接入了语言模型训练所用的全部数据模态，那些网络图片和文本实实在在地提升了它，胜过从零训练一个纯机器人基础模型。所以结论很激进：**为什么不直接构建一个非常好的基础 LLM，用它来控制机器人，而要去训练一个专门依赖机器人数据的模型？**他们想把计算机使用数据、编码数据统统灌进机器人模型。\n\n## 代码即策略：一次性就能干活\n\n顺着时间线回看，Jay 会先回溯到 Voyager——Minecraft 里最早的著名编码智能体，它展示了「编码智能体意味着好的工具使用和即时的工具创建」：用 Python 内置的 sort、if、for、while 这些「工具」组装出新工具，把思考和经验压缩进以后可以调用的新工具里。到了大家都想通的时候：把全部资源和算力砸向编码，就能自动化 ML 工程师、迎来腾飞——但 Han Mei 直言，头部实验室的掌门人未必有那个洞见，知道这会带来「好到能为机器人写策略的 LLM」。\n\n> 【背景】原文段落缺内联时间戳，无法核对「Dario」「Sam」具体指谁及「2024 年」这一时间点；此处按原文可证范围改写为「头部实验室的掌门人」，并将年份从正文移除。\n\n而更早的「代码即策略」论文（尤其 Google DeepMind 那几篇，2022 年底、约 ChatGPT 发布前后）已经展示了一件惊人的事：他们给编程智能体提供一列字面上的 Python 函数——拾取物体、抬起、移动到位姿——智能体就能写出调用这些函数的代码去完成复杂任务，而且**可以一次性完成，不需要任何额外机器人数据**，因为它已经在海量代码数据上训练过，天然知道「把方块移进碗里」该先做什么后做什么。Jay 认为正是这种一次性能力、这种上下文内探索能力，推动了包括他们自己在内的整条数据路线继续探索。\n\n## 学习放哪里：上下文还是权重？\n\n主持人 Francois 拿出一个框架：学到的经验该以什么形态回到策略里？最便宜的是 ICL（上下文内学习）——直接把「状态-动作-结果」元组附加进上下文，像带教科书考试。他做过实验：留出一个任务，用 ICL 灌例子，每样本提升大、成本极低（没有 SGD、不耗 flops），但有三个硬限制：提升非单调、大约 20-40 个例子后基本饱和、一旦超出训练时的上下文长度（训练 10 万的话实际可用约 5 万）反而变差。往上走是对部分参数做轻量微调，再到完整 SFT/RL——如果你是 Tesla、有无限数据还用 ICL 做自动驾驶，那你在开玩笑；但低数据情境下 ICL 好得惊人。\n\n> 【背景】这里「轻量微调」一类方法在业界常指 LoRA 等低秩适配技术，即只微调一小部分参数。\n\nWaddle 的解法是把 harness 当成一种「领域特定性」：机器人在湿实验室里部署后，可以在上下文中学会很多，而巩固的方式是把每项学到的技能打包成具体程序——把技能和记忆写出来，是一种「从过去经验向未来智能体的蒸馏」。这还连着元学习的老传统：大模型给小模型编程，小模型只要够小够快就行。至于理论上 ICL 到底能走多远——有论文表明模型在上下文学习中也能近似梯度下降，Han Mei 说权重空间与符号空间的界限其实有点模糊，这真是谁都说不准。\n\n## 柏拉图表示假说：强语言模型即强机器人模型\n\nIsola 的「柏拉图表示假说」（名字取自柏拉图的洞穴：你看到的是各种现实的影子）指出，不同数据、不同训练策略下的模型，会收敛到对世界一致的距离映射。Jay 认为这是苦涩教训的最佳体现：**如果你有一个非常强的语言模型，你就也有一个非常强的机器人模型**——你只需要一个最强的模型，无论架构，它会胜过任何稍弱的专用模型。\n\n那为什么最新的模型（Astra）空间智能突然强这么多？Han Mei 的猜测是它的视觉能力：可能在比以往多得多的计算机使用数据和 CAD 数据上做过预训练。计算机使用数据为什么有用？乍不直观，但你想想：在屏幕上拖动光标旋转 CAD 物体、在 Blender 里做设计——这教会模型如何对空间推理，上下左右这些控制机器人必需的概念。反向也成立：机器人社区发现，教会模型用机器人的不只是机器人数据，自我中心视角视频等也在被纳入。把这个推向极端就是：编程、计算机使用、自我中心视角，全部喂给同一个模型——这就是通往最强机器人使用智能体的路径。\n\n主持人补了一个绝妙的历史回环：Xerox PARC 造图形界面，就是为了让计算机更像物理世界以便人类交互——结果我们造出的文件、文件夹、SolidWorks 那些旋转物体的 GUI，反而成了机器人学习物理世界的训练场。「我们没法让机器人在物理世界里工作，所以我们就在那个东西上训练，现在它成了。」\n\n> 【背景】Xerox PARC(施乐帕克研究中心)是图形界面等众多计算机技术的发源地。\n\n## 延迟与「睡觉」：从对话到实时\n\n现在的演示仍有明显短板：直接用 Astra 每一步都在思考，延迟很慢、经济上不划算——重复性任务你不会想让 Astra 呆在循环里，该写代码（可以极快地反复运行）或调用已编译的技能。但趋势极快：他们观察到前沿级别 LLM 的延迟大约**每月改善 2 倍**——如果持续，年底前就可能实现实时控制。VLA 化的套路是：确定性的编码图里留出变化点（用 VLM 做物体检测、判断失败并灵活响应），让它既快又能泛化。\n\nHan Mei 还给了一个生物学类比：最优做法可能是把新的状态-动作-奖励迅速放回上下文，但之后需要「睡一觉」——几乎所有有智能的系统都会睡觉，睡眠期间记忆被压缩、用来训练权重。对应到工程上就像 Dreamcoder：技能库在「睡眠阶段」被重构为更紧凑的表示。今天也许你想重构的不再是程序，而是轨迹和技能。随着 Waddle 向前走，如何管理不断增长的技能上下文和部署数据，会是核心问题。\n\n## 预测：两年内的 ChatGPT 时刻\n\nJay 抛出的判断相当大胆：Frontier 实验室和机器人基础模型公司内部已存在共识——**未来两年内甚至更早，我们会有通用机器人**。所谓通用，是给出任何自然语言指令，它能做到一个能干的青少年用双手能做到的事；相当于机器人版的 ChatGPT 时刻——泛化到未见过的任务和环境。而社会对此可能毫无准备，甚至毫无意识。Waddle 的路径是分步走：先解决把 Astra 的第一遍上下文学习整合成可高速反复运行的技能或策略。主持人以认同收尾：更广泛的社会确实还没意识到即将到来的东西有多少。\n\n## 本集带走\n\n- **强语言模型 ≈ 强机器人模型**：按柏拉图表示假说，模型越大、数据越多，会收敛到一致的世界表示——所以与其训练专用机器人模型，不如用最强的基础 LLM 直接控制机器人。\n- **机器人数据瓶颈的绕法**：不是去造更多机器人数据，而是把「分布外」的机器人任务变成「分布内」——计算机使用、CAD、编码、自我中心视角视频都能教会模型空间推理。\n- **代码即策略的一次性魔力**：给编码智能体一列 Python 技能函数，它不靠额外机器人数据就能一次性写出控制代码——因为它早已在海量代码上训练过。\n- **经验的正确安放是一套层级**：低数据用 ICL（快但约 20-40 例就饱和、超上下文长度反而变差），重复性技能编译成代码或工具调用，周期性的「睡眠」把轨迹蒸馏回权重。\n- **延迟不再是死结**：前沿 LLM 延迟约每月改善 2 倍，年底前可能实现机器人实时控制。\n- **行业共识的时间表**：两年内甚至更早出现通用机器人——能听懂任意自然语言指令、做到能干青少年双手能做的事；而社会还没准备好。",
+  "quotes": [
+    {
+      "en": "There's some consensus within the Frontier Labs and also in the Robotics Foundation models companies that will have general-purpose robots within the next two years or even earlier.",
+      "zh": "Frontier 实验室内部以及机器人基础模型公司之间存在某种共识，那就是我们将在未来两年内甚至更早拥有通用机器人。",
+      "timestamp": "26:32",
+      "speaker": "Jay"
+    },
+    {
+      "en": "And when we say general-purpose robots, we mean something like if you give any natural language instruction, it can do what a competent teenager could do with their bare hands.",
+      "zh": "当我们说通用机器人时，我们的意思是，如果你给出任何自然语言指令，它能做到一个能干的青少年用双手能做到的事情。",
+      "timestamp": "26:48",
+      "speaker": "Jay"
+    },
+    {
+      "en": "And then so to me, it's like, okay, why not just build a really good foundational LLM and then use that to control robots rather than training like a model that's specifically for robotics and that's more dependent on just robot data.",
+      "zh": "所以对我而言，就是，好吧，为什么不直接构建一个非常好的基础 LLM，然后用它来控制机器人，而不是训练一个专门面向机器人、更依赖于纯机器人数据的模型。",
+      "timestamp": "06:52",
+      "speaker": "Ham"
+    },
+    {
+      "en": "So if we take this to the extreme, it's like, why not feed every kind of data, coding, computer use, egocentric, into the same model? I think that's how we get to the most capable robot use agent.",
+      "zh": "所以如果我们把这个推向极端，那就是：为什么不把每一种数据——编程、计算机使用、自我中心视角——都喂给同一个模型？我认为这就是我们如何得到最强机器人使用智能体的路径。",
+      "timestamp": "25:00",
+      "speaker": "Ham"
+    },
+    {
+      "en": "And what was very surprising, what excelled was that coding agents can do this very one-shot. They did not need additional robot data in order to work with this code because they're already trained on so much coding data.",
+      "zh": "而令人非常惊讶、表现突出的一点是，编程智能体可以一次性完成这件事。它们不需要额外的机器人数据就能用这些代码工作，因为它们已经在如此多的代码数据上训练过了。",
+      "timestamp": "10:11",
+      "speaker": "Ham"
+    },
+    {
+      "en": "So one thing that we saw is that for Fable class LLMs, their latency is improving by around 2x per month, which is very, very fast.",
+      "zh": "我们观察到的一件事是，对于 Fable 级别的 LLM，它们的延迟大约每月改善 2 倍，这是非常非常快的。",
+      "timestamp": "17:35",
+      "speaker": "Jay"
+    },
+    {
+      "en": "And I can displace all of robotics with actual coding agents.",
+      "zh": "而且我可以用真正的编程智能体取代整个机器人学领域。",
+      "timestamp": "09:04",
+      "speaker": "Francois"
+    },
+    {
+      "en": "Once you exceed 50,000, you don't improve anymore. You actually just get worse because the model can't attend over everything.",
+      "zh": "一旦超过 50,000，你就不会再有提升了。你实际上只会变得更糟，因为模型无法对所有内容保持注意力。",
+      "timestamp": "13:02",
+      "speaker": "Francois"
+    },
+    {
+      "en": "The optimal thing to do may be to put a new SAR state action reward back into context because it's very quick, but then there needs to be some like of go to sleep for a while, like almost everything that is intelligent sleeps, like tell me an intelligent system that doesn't sleep, right, in some way, and then...",
+      "zh": "最优做法可能是把一个新的状态-动作-奖励放回上下文里，因为这非常快，但之后就需要某种类似睡一会儿的东西，几乎所有有智能的东西都会睡觉，告诉我一个不以某种方式睡觉的智能系统，对吧，然后……",
+      "timestamp": "27:46",
+      "speaker": "Francois"
+    },
+    {
+      "en": "One of the big surprises the last few years has been the generalizability of coding agents across different domains.",
+      "zh": "过去几年最大的惊喜之一，是编码智能体在不同领域之间的通用性。",
+      "timestamp": "00:00",
+      "speaker": "Han Mei"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "26:32",
+      "speaker": "Unknown",
+      "en": "There's some consensus within the Frontier Labs and also in the Robotics Foundation models companies that will have general-purpose robots within the next two years or even earlier.",
+      "zh": "Frontier 实验室内部以及机器人基础模型公司之间存在某种共识，那就是我们将在未来两年内甚至更早拥有通用机器人。"
+    },
+    {
+      "timestamp": "26:48",
+      "speaker": "Unknown",
+      "en": "And when we say general-purpose robots, we mean something like if you give any natural language instruction, it can do what a competent teenager could do with their bare hands.",
+      "zh": "当我们说通用机器人时，我们的意思是，如果你给出任何自然语言指令，它能做到一个能干的青少年用双手能做到的事情。"
+    },
+    {
+      "timestamp": "22:39",
+      "speaker": "Unknown",
+      "en": "And if that's the true, that's the better lesson, that is the best manifestation of the better lesson, right?",
+      "zh": "如果那是真的，那便是更好的教训，那是更好的教训的最佳体现，对吧？"
+    },
+    {
+      "timestamp": "07:05",
+      "speaker": "Unknown",
+      "en": "And then so to me, it's like, okay, why not just build a really good foundational LLM and then use that to control robots rather than training like a model that's specifically for robotics and that's more dependent on just robot data.",
+      "zh": "所以对我而言，就是，好吧，为什么不直接构建一个非常好的基础 LLM，然后用它来控制机器人，而不是训练一个专门面向机器人、更依赖于纯机器人数据的模型。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Unknown",
+      "en": "So if we take this to the extreme, it's like, why not feed every kind of data, coding, computer use, egocentric, into the same model? I think that's how we get to the most capable robot use agent.",
+      "zh": "所以如果我们把这个推向极端，那就是：为什么不把每一种数据——编程、计算机使用、自我中心视角——都喂给同一个模型？我认为这就是我们如何得到最强机器人使用智能体的路径。"
+    },
+    {
+      "timestamp": "10:17",
+      "speaker": "Unknown",
+      "en": "And what was very surprising, what excelled was that coding agents can do this very one-shot. They did not need additional robot data in order to work with this code because they're already trained on so much coding data.",
+      "zh": "而令人非常惊讶、表现突出的一点是，编程智能体可以一次性完成这件事。它们不需要额外的机器人数据就能用这些代码工作，因为它们已经在如此多的代码数据上训练过了。"
+    },
+    {
+      "timestamp": "17:35",
+      "speaker": "Unknown",
+      "en": "So one thing that we saw is that for Fable class LLMs, their latency is improving by around 2x per month, which is very, very fast.",
+      "zh": "我们观察到的一件事是，对于 Fable 级别的 LLM，它们的延迟大约每月改善 2 倍，这是非常非常快的。"
+    },
+    {
+      "timestamp": "17:45",
+      "speaker": "Unknown",
+      "en": "If the trends continue, we could get real-time control by end of the year.",
+      "zh": "如果趋势持续下去，我们可能在年底前实现实时控制。"
+    },
+    {
+      "timestamp": "25:22",
+      "speaker": "Unknown",
+      "en": "And like what we ended up doing is building an environment that was actually helpful for robotics to learn how to use the physical world.",
+      "zh": "而结果呢，我们建造出的这个环境，实际上对机器人学习如何使用物理世界是有帮助的。"
+    },
+    {
+      "timestamp": "25:40",
+      "speaker": "Unknown",
+      "en": "And then we couldn't get robots to work in the physical world, so we just trained on that, and now it works.",
+      "zh": "然后我们没法让机器人在物理世界里工作，所以我们就在那个东西上训练，现在它成了。"
+    },
+    {
+      "timestamp": "09:08",
+      "speaker": "Unknown",
+      "en": "And I can displace all of robotics with actual coding agents.",
+      "zh": "而且我可以用真正的编程智能体取代整个机器人学领域。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "Like, how do you take something that is traditionally out of distribution, like robotics, and make it something that's in distribution?",
+      "zh": "就是说，你怎么把传统上属于分布之外的东西，比如机器人技术，变成分布内的东西?"
+    },
+    {
+      "timestamp": "12:26",
+      "speaker": "Unknown",
+      "en": "One is non-monotonic improvement. Which is wild.",
+      "zh": "第一，提升是非单调的。这很离谱。"
+    },
+    {
+      "timestamp": "13:01",
+      "speaker": "Unknown",
+      "en": "Once you exceed 50,000, you don't improve anymore. You actually just get worse because the model can't attend over everything.",
+      "zh": "一旦超过 50,000，你就不会再有提升了。你实际上只会变得更糟，因为模型无法对所有内容保持注意力。"
+    },
+    {
+      "timestamp": "27:46",
+      "speaker": "Unknown",
+      "en": "The optimal thing to do may be to put a new SAR state action reward back into context because it's very quick, but then there needs to be some like of go to sleep for a while, like almost everything that is intelligent sleeps, like tell me an intelligent system that doesn't sleep, right, in some way, and then...",
+      "zh": "最优做法可能是把一个新的状态-动作-奖励放回上下文里，因为这非常快，但之后就需要某种类似睡一会儿的东西，几乎所有有智能的东西都会睡觉，告诉我一个不以某种方式睡觉的智能系统，对吧，然后……"
+    },
+    {
+      "timestamp": "28:05",
+      "speaker": "Unknown",
+      "en": "During sleep, compression happens.",
+      "zh": "在睡眠期间，压缩发生了。"
+    },
+    {
+      "timestamp": "27:06",
+      "speaker": "Unknown",
+      "en": "It's kind of like the ChatGPT moment, but for robotics in terms of capabilities, where you can generalize to unseen tasks and unseen environments.",
+      "zh": "这有点像 ChatGPT 时刻，只不过是机器人技术版本的能力，即能够泛化到未见过的任务和未见过的环境。"
+    },
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "One of the big surprises the last few years has been the generalizability of coding agents across different domains.",
+      "zh": "过去几年最大的惊喜之一，是编码智能体在不同领域之间的通用性。"
+    },
+    {
+      "timestamp": "19:13",
+      "speaker": "Unknown",
+      "en": "The biggest insight I think I've had a change in worldview on how to perform machine learning and how to get the rest of the distance on AGI was like a lot of conversations I've had with Francis Chollet.",
+      "zh": "我最大的一个领悟——关于如何做机器学习、如何走完通往 AGI 的剩余路程的世界观转变——是来自我和 Francis Chollet 的很多对话。"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "Unknown",
+      "en": "And I think it's really anyone's guess as to that. There's papers that show that these models can approximate gradient descent during in-context learning as well.",
+      "zh": "我觉得这真的谁都说不准。有论文表明，这些模型在上下文学习过程中也能近似梯度下降。"
+    }
+  ],
+  "voice_script": "今天聊一个正在发生的转折：编码智能体正在开始接管机器人。听着有点玄，其实说白了就是——过去几年最大的惊喜之一，是那些本来写代码、用电脑的智能体，居然在不同领域之间是通用的。而现在前沿研究人员发现，这通用性也包括控制物理世界里的机器人。MIT 教授 Philip Isola 最近有篇爆火的文章，说我们可能正在进入「机器人使用智能体」的时代。这期请来的两位主角都跟这事直接相关：一位是 Han Mei，Waddle Labs 的联合创始人，做的事就是构建能控制机器人的 LLM；另一位是 Jay，RoboCurve 的联合创始人，这是一家物理 AI 的评测公司，什么机器人、什么模型都测，从大语言模型到视觉语言动作模型，本体从机械臂到人形再到四足。两家公司最近发的视频都在网上爆火，视频里大语言模型能拧瓶盖、能让多个机器人互相通信、能拔笔帽。\n\n那这条路是怎么来的？得从一篇叫 RT2 的论文说起，这是在机器人上用 AI 最早的成功方法之一。做法是把一个在海量网页文本和图片上训练过的语言模型拿来微调，只是不让它输出英语，而是输出可以转换成关节指令的坐标，直接控制机器人。Jay 脑子里把这个类比为思维链时刻。当年模型做小学数学题，必须直接吐出答案，没有思考空间；后来允许它先在心里算一步再作答，能力就上去了。RT2 那一代机器人模型就是那个必须直接输出动作的阶段，没法为更复杂的任务分配更多思考。而现在，模型可以先用代码想清楚，再输出动作。\n\nHan Mei 把这归结为所谓苦涩教训的又一次印证——苦涩教训就是说，通用方法加上更多算力，终究会胜过人工的巧妙设计。但这个版本说得更具体：关键不在于你选什么架构，而在于什么数据最有用。机器人领域纠结数据瓶颈好多年，进展一直慢；而语言模型的数据来源是被眷顾的。所以结论就很激进了，用原话说：为什么不直接构建一个非常好的基础语言模型，用它来控制机器人，而要去训练一个专门依赖机器人数据的模型？\n\n顺着时间线再看，这个想法不是凭空来的。更早的「代码即策略」论文，在 ChatGPT 发布前后就展示了一件惊人的事：给编程智能体一列字面上的 Python 函数，比如拾取物体、移动到位姿，智能体就能自己写出调用这些函数的代码去完成复杂任务，而且一次性就能干活，不需要任何额外机器人数据。为什么？因为它早就在海量代码上训练过，天然知道「把方块移进碗里」该先做什么后做什么。Jay 认为正是这种能力，推动了包括他们自己在内的整条数据路线继续往下探索。\n\n那学到的经验该放在哪里？这里有个很实用的层级。最便宜的是上下文内学习，直接把状态、动作、结果这些例子附加进上下文，像开卷考试。每条例子的提升大、成本极低，但有三个硬限制：提升不稳定，大约二三十到四十个例子之后基本饱和，而且一旦超出训练时的上下文长度，效果反而变差。往上走就是对部分参数做轻量微调，再往上是完整训练。如果你的数据无限多还只用上下文内学习，那是在开玩笑；但数据少的场景里，这招好得惊人。Waddle 的解法是把学到的技能打包成具体程序存下来，相当于把过去经验蒸馏给未来的智能体。Han Mei 还打了个生物学比方：新的经验先放进上下文，但之后需要「睡一觉」——几乎所有有智能的系统都睡觉，睡眠期间记忆被压缩、用来训练权重。工程上也一样，周期性地把积累的技能蒸馏回模型。\n\n接下来是这个故事里最漂亮的部分，叫柏拉图表示假说。名字取自柏拉图的洞穴比喻——你看到的都是现实的影子。假说说的是：不同数据、不同方法训练出来的模型，会收敛到对世界一致的理解。这意味着什么？Jay 的判断是：如果你有一个非常强的语言模型，你就同时拥有一个非常强的机器人模型。你只需要最强的那个模型，它会胜过任何稍弱的专用模型。\n\n顺着这个逻辑，为什么最新的模型空间智能突然强了这么多？Han Mei 猜测是视觉能力：它可能在比以往多得多的计算机使用数据和 CAD 设计数据上做过预训练。想想看，在屏幕上拖动光标旋转一个三维物体，这教会模型如何做空间推理，教会它上下左右——而这些正是控制机器人必需的概念。反向也成立，机器人社区发现教会模型用机器人的不只是机器人数据，第一人称视角的视频也在被纳入。把这个推到极端就是：编程、计算机使用、第一人称视角视频，全部喂给同一个模型。用原话说，这就是我们如何得到最强机器人使用智能体的路径。主持人还补了一个绝妙的历史回环：当年施乐帕克研究中心造图形界面，是为了让计算机更像物理世界、方便人类使用——结果我们造出的文件夹、那些可以旋转物体的设计软件，如今反而成了机器人学习物理世界的训练场。我们没法让机器人在物理世界里干活，所以就先在那个东西上训练，现在它成了。\n\n当然，今天的演示还有明显短板。直接用最强的模型来控制，每一步都在思考，延迟很慢、经济上也不划算——重复性任务不该让大模型呆在循环里，该写成代码反复运行。但趋势极快：他们观察到前沿级别的语言模型，延迟大约每个月改善 2 倍。如果这个速度持续，年底之前就可能实现实时控制。\n\n所以最后落到 Jay 抛出的那个大胆判断上：前沿实验室和机器人基础模型公司内部已经存在一种共识——未来两年内甚至更早，我们会有通用机器人。所谓通用，意思是给出任何自然语言指令，它能做到一个能干的青少年用双手能做到的事。这相当于机器人的 ChatGPT 时刻，而社会对此可能毫无准备，甚至毫无意识。听懂这期节目的人，至少算领先半步了。"
+}

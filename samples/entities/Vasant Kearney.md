@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":330,"X12":1,"harness":45,"护栏":61,"记忆":15,"多模态":6,"EHR":2,"Claude Code":76,"Codex":57}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"X12":1,"harness":46,"护栏":61,"记忆":15,"多模态":6,"EHR":2,"Claude Code":76,"Codex":57}</script>
 
 <script>
 (function(){

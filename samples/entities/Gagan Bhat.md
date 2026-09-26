@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":143,"智能体":330,"harness":45,"沙箱":59,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":30}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":145,"智能体":334,"harness":46,"沙箱":60,"智能体循环":4,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":30}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1182 @@
+{
+  "episode_id": "2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "按用量计费",
+    "vibe coding",
+    "定价模式"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "andrew-garvin",
+      "type": "person",
+      "role": "guest",
+      "name": "Andrew Garvin",
+      "file": "Andrew Garvin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.591,
+            15.371
+          ],
+          "quote": "My name is Andrew Garvin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metronome",
+      "type": "company",
+      "role": "company",
+      "name": "Metronome",
+      "file": "Metronome",
+      "primary": true,
+      "how_described": "本集说 Metronome 是按用量计费领域的顶级平台,为 OpenAI 和 Anthropic 计量所有 API 调用,今年早些时候被 Stripe 以其历史上最大一笔交易收购;现场用它搭了个模仿 Lovable 定价模式的演示计费引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.391,
+            16.932
+          ],
+          "quote": "I'm one of the co-founders of Metronome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.473,
+            22.836
+          ],
+          "quote": "Metronome, if you're not familiar, is the top platform for usage billing, which, as you might imagine, is taking off right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            50.917,
+            58.284
+          ],
+          "quote": "This is something that actually was launched literally the week that Metronome was acquired, and so, as you might imagine, the velocity of development at Stripe and at Metronome is pretty high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            66.847,
+            81.58
+          ],
+          "quote": "And so, in essence, what it does is it provisions a Stripe account for you, as well as backend services that you may need, think like Vercel, Postgres, and in this case, a metronome billing agent, in order to launch a product quickly or an application quickly, all through the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            121.338,
+            132.289
+          ],
+          "quote": "As you might imagine, being in the billing space for multiple years now, we've seen all sorts of crazy things happen, and it's even getting crazier now that people are expecting to operate Metronome, a very complicated and deep product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            158.199,
+            161.42
+          ],
+          "quote": "So as just a couple of the types of problems that Metronome helped solve for folks,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            317.681,
+            328.086
+          ],
+          "quote": "And so I'm going to enter a prompt in natural language that allows us to guide the metronome billing agent and Stripe to set up a demo account that has that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            331.327,
+            341.483
+          ],
+          "quote": "And create a demo billing engine in metronome mimicking the lovable pricing model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            372.002,
+            381.289
+          ],
+          "quote": "So first, again, Metronome is a very complicated and deep product, and there's a lot of different ways to hit foot guns, et cetera, if you're not guided.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            381.329,
+            388.854
+          ],
+          "quote": "And so what we've invested in is building an extensible set of skills files that can provide context to the agent that's implementing Metronome and working with our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            468.084,
+            473.466
+          ],
+          "quote": "In fact, when we go into the metronome environment, you'll see that basically what we've done is built a sandbox experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            474.467,
+            483.09
+          ],
+          "quote": "And in the metronome context, what it means to sort of test your initial setup is not just that you can see a contract or something like that or see a customer provision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            484.951,
+            496.216
+          ],
+          "quote": "And so on the back end here, our skills files are directing the agent to actually flow usage into the Metronome platform so that you can see what a live customer would look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            501.894,
+            509.816
+          ],
+          "quote": "I think in this case, what's happening is that Stripe projects, so using Stripe CLI, it's engaging with Metronome, which is an external vendor here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            555.025,
+            562.332
+          ],
+          "quote": "And then in addition to that, an exponential increase in customers that are using Stripe and using Metronome through the coding agents themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            625.721,
+            632.107
+          ],
+          "quote": "On the Stripe side, that means both in a B2C environment, so they're working on agentic commerce, but then in the metronome environment, we're talking about in a B2B context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            636.85,
+            641.792
+          ],
+          "quote": "And then finally, one of the reasons why Metronome is really taking off right now is because of the agents as a user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            680.793,
+            682.673
+          ],
+          "quote": "This is what Metronome is literally seeing today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            721.544,
+            734.815
+          ],
+          "quote": "Some of the things that we're thinking about here are basically not only having a credit space model, which has been dominant on the market since OpenAI launched their prepaid credit auto recharge model a couple of years ago through Metronome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            764.363,
+            769.906
+          ],
+          "quote": "Okay, I think that we should be good to go now, and let's see what it looks like when we open up Metronome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            828.703,
+            836.465
+          ],
+          "quote": "So as we open this up, so the general pain that Metronome has is an onboarding wizard meant for a human that needs to set up their environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            839.665,
+            842.806
+          ],
+          "quote": "And as I come in, you're gonna see some of the core Metronome primitives here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            898.148,
+            900.671
+          ],
+          "quote": "And so Metronome has a first class credit object.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            952.058,
+            962.647
+          ],
+          "quote": "So without going into Metronome's platform to great an extent, what we just did here was we initialized and created a Stripe instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            963.307,
+            967.21
+          ],
+          "quote": "Through Stripe projects, we also created a Metronome instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            967.671,
+            976.497
+          ],
+          "quote": "Then we coached the agent to be able to build a demo instance of Metronome that had a real pricing model live in production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 收购了 Metronome,并站在智能体商务思考的前沿;其 CLI 使用量在过去五六个月里随编码智能体的调用呈指数级增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.636,
+            28.159
+          ],
+          "quote": "So much so that earlier this year, we were acquired by Stripe in the largest deal that Stripe has ever done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            29.12,
+            37.645
+          ],
+          "quote": "And what I'm going to show you today is a fun project that we've been cooking on with the Stripe team that is a demonstration of some of the things that we could work on together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            39.086,
+            42.949
+          ],
+          "quote": "This is going to combine two very different products within Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            44.271,
+            46.833
+          ],
+          "quote": "If you haven't seen it already, I recommend looking at Stripe projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            50.917,
+            58.284
+          ],
+          "quote": "This is something that actually was launched literally the week that Metronome was acquired, and so, as you might imagine, the velocity of development at Stripe and at Metronome is pretty high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            59.1,
+            65.786
+          ],
+          "quote": "Basically, what Stripe Projects is, is it's an orchestrator to allow you to operate and build your business as fast as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            66.847,
+            81.58
+          ],
+          "quote": "And so, in essence, what it does is it provisions a Stripe account for you, as well as backend services that you may need, think like Vercel, Postgres, and in this case, a metronome billing agent, in order to launch a product quickly or an application quickly, all through the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            82.36,
+            90.752
+          ],
+          "quote": "So the demonstration that we're going to do today is a very simple demonstration of how to get set up through Stripe projects, but you can imagine all the sorts of things that people are building on Stripe today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            92.299,
+            96.162
+          ],
+          "quote": "One of the really cool aspects of being inside Stripe is their scale and data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            97.122,
+            105.588
+          ],
+          "quote": "And one of the things that we've observed inside of Stripe is that the use of Stripe's CLI has exponentially increased over the course of the past five, six months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            223.898,
+            227.16
+          ],
+          "quote": "So I'm gonna initialize Stripe projects right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            239.167,
+            242.329
+          ],
+          "quote": "So what this is doing is, again, initializing Stripe projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            317.681,
+            328.086
+          ],
+          "quote": "And so I'm going to enter a prompt in natural language that allows us to guide the metronome billing agent and Stripe to set up a demo account that has that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            499.453,
+            501.534
+          ],
+          "quote": "I'm going to do one more beat on Stripe projects here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            501.894,
+            509.816
+          ],
+          "quote": "I think in this case, what's happening is that Stripe projects, so using Stripe CLI, it's engaging with Metronome, which is an external vendor here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            532.97,
+            546.539
+          ],
+          "quote": "This is sort of, like, from our perspective coming into Stripe, this is one of the things that's been really amazing, is that Stripe is on the forefront of thinking about agentic commerce and preparing primitives for the moment that we're in right now, where, in fact, this is exactly what's happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            546.74,
+            554.265
+          ],
+          "quote": "Companies that are launching new applications and new businesses, we've seen an exponential increase in new business formation at Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            555.025,
+            562.332
+          ],
+          "quote": "And then in addition to that, an exponential increase in customers that are using Stripe and using Metronome through the coding agents themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            607.184,
+            616.632
+          ],
+          "quote": "What we're talking about here with the Stripe project CLI is the agent as a buyer, so literally procuring their initial Stripe instance as well as additional backend services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            625.721,
+            632.107
+          ],
+          "quote": "On the Stripe side, that means both in a B2C environment, so they're working on agentic commerce, but then in the metronome environment, we're talking about in a B2B context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            952.058,
+            962.647
+          ],
+          "quote": "So without going into Metronome's platform to great an extent, what we just did here was we initialized and created a Stripe instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            963.307,
+            967.21
+          ],
+          "quote": "Through Stripe projects, we also created a Metronome instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            985.122,
+            1001.57
+          ],
+          "quote": "This sort of framework for thinking about development both applies to Stripe, where we are working very, very hard to make it easier to run a complicated business model and get off the ground, but also I think it bears lessons for how we might pursue agentic development more generally outside of Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1029.609,
+            1038.211
+          ],
+          "quote": "And you can see everything that is available through Stripe Projects through Stripe Projects Online, as there are a number of different providers that are onboarding every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1038.971,
+            1051.093
+          ],
+          "quote": "So companies like Vercel, like Hugging Face, et cetera, are basically like working in Stripe Projects environment to be able to make their own products more discoverable to agents that are operating Stripe system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe-projects",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe Projects",
+      "file": "Stripe Projects",
+      "primary": true,
+      "how_described": "本集说 Stripe Projects 是一个刚发布的编排器:一条命令通过 CLI 帮你开通 Stripe 账户并连带配好后端服务(Vercel、Postgres、Metronome 计费智能体);Vercel、Hugging Face 等已在其环境中让产品对智能体可被发现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            44.271,
+            46.833
+          ],
+          "quote": "If you haven't seen it already, I recommend looking at Stripe projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            59.1,
+            65.786
+          ],
+          "quote": "Basically, what Stripe Projects is, is it's an orchestrator to allow you to operate and build your business as fast as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            82.36,
+            90.752
+          ],
+          "quote": "So the demonstration that we're going to do today is a very simple demonstration of how to get set up through Stripe projects, but you can imagine all the sorts of things that people are building on Stripe today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            223.898,
+            227.16
+          ],
+          "quote": "So I'm gonna initialize Stripe projects right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            239.167,
+            242.329
+          ],
+          "quote": "So what this is doing is, again, initializing Stripe projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            499.453,
+            501.534
+          ],
+          "quote": "I'm going to do one more beat on Stripe projects here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            501.894,
+            509.816
+          ],
+          "quote": "I think in this case, what's happening is that Stripe projects, so using Stripe CLI, it's engaging with Metronome, which is an external vendor here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            963.307,
+            967.21
+          ],
+          "quote": "Through Stripe projects, we also created a Metronome instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1029.609,
+            1038.211
+          ],
+          "quote": "And you can see everything that is available through Stripe Projects through Stripe Projects Online, as there are a number of different providers that are onboarding every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1038.971,
+            1051.093
+          ],
+          "quote": "So companies like Vercel, like Hugging Face, et cetera, are basically like working in Stripe Projects environment to be able to make their own products more discoverable to agents that are operating Stripe system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Metronome 从 OpenAI 还没有任何收入之前就为它计量 API 调用,而且 OpenAI 几年前正是通过 Metronome 推出了预付积分自动充值模式,该模式此后主导了自助服务市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            162.22,
+            170.847
+          ],
+          "quote": "First, we are, for example, and have for many years now, taken in all of the API calls to OpenAI and Anthropic and metered that for those companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            721.544,
+            734.815
+          ],
+          "quote": "Some of the things that we're thinking about here are basically not only having a credit space model, which has been dominant on the market since OpenAI launched their prepaid credit auto recharge model a couple of years ago through Metronome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            742.201,
+            762.877
+          ],
+          "quote": "And so, for example, what's happening with all the coding agents in the enterprise, think like Cognition or Cursor or OpenAI and Anthropic themselves, is that they are starting to adopt more commit structures like the CSPs have done for the past 10 years, think having prepaid commitments, postpaid commitments, and specific types of offers for specific types of customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Metronome 多年来接收 Anthropic 的所有 API 调用并为其做用量计量,从它还没有收入之前就开始合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            162.22,
+            170.847
+          ],
+          "quote": "First, we are, for example, and have for many years now, taken in all of the API calls to OpenAI and Anthropic and metered that for those companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            742.201,
+            762.877
+          ],
+          "quote": "And so, for example, what's happening with all the coding agents in the enterprise, think like Cognition or Cursor or OpenAI and Anthropic themselves, is that they are starting to adopt more commit structures like the CSPs have done for the past 10 years, think having prepaid commitments, postpaid commitments, and specific types of offers for specific types of customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集说 Lovable 的定价核心是纯积分模式:用户预付积分、每月自动充值,积分分构建额度、计划模式额度、云端额度、AI 网关额度等多种类型,超支了周期结束再出账单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            313.218,
+            316.9
+          ],
+          "quote": "One of the key topics right now is replicating Lovable's pricing model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            331.327,
+            341.483
+          ],
+          "quote": "And create a demo billing engine in metronome mimicking the lovable pricing model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            345.873,
+            358.21
+          ],
+          "quote": "And so if you want to on the side you can see you can open up Lovable's pricing and you can see all the different elements to it but in particular they have a prepaid credit auto recharge model which is very common in sort of a self-serve motion today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            862.175,
+            870.24
+          ],
+          "quote": "And so what you see here is a draft invoice that was created associated with sort of replicating the lovable pricing model again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            873.123,
+            880.29
+          ],
+          "quote": "But the core aspect of Lovable's pricing model is a credits-only pricing model where you auto-recharge on a monthly basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            939.471,
+            941.532
+          ],
+          "quote": "This is exactly what the lovable pricing model looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            941.812,
+            949.197
+          ],
+          "quote": "And again, the way that we coached the agent to be able to build this was just describing a natural language to replicate lovable's pricing model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": true,
+      "how_described": "本集说 HubSpot 正与 Metronome 合作,把整个业务从按席位模式转为按积分模式——从 EMEA 开始大幅降低席位价、叠加积分制,因为智能体可操作整个系统的世界里席位逻辑不再成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            642.513,
+            645.754
+          ],
+          "quote": "And so, for example, we've been working with HubSpot for the past couple of years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集给出核心框架:为智能体构建要拆成三种角色——智能体作为产品(要计量其 token 消耗)、作为买家(采购自己的 Stripe 实例)、作为用户(席位逻辑失效,价值归属到单个智能体用户)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            66.847,
+            81.58
+          ],
+          "quote": "And so, in essence, what it does is it provisions a Stripe account for you, as well as backend services that you may need, think like Vercel, Postgres, and in this case, a metronome billing agent, in order to launch a product quickly or an application quickly, all through the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            105.908,
+            113.593
+          ],
+          "quote": "We're thinking about all of the implications of the coding agent's operating systems, which we'll get into a greater topic on later in this demonstration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            132.669,
+            134.05
+          ],
+          "quote": "with a coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            150.156,
+            157.999
+          ],
+          "quote": "But just to frame it, what's happening today with launching agent products can go crazy, and it can go sideways in all sorts of ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            317.681,
+            328.086
+          ],
+          "quote": "And so I'm going to enter a prompt in natural language that allows us to guide the metronome billing agent and Stripe to set up a demo account that has that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            381.329,
+            388.854
+          ],
+          "quote": "And so what we've invested in is building an extensible set of skills files that can provide context to the agent that's implementing Metronome and working with our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            413.245,
+            420.41
+          ],
+          "quote": "Our perspective is to have much more verbose and clear errors so that the agent can self-correct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            456.019,
+            462.982
+          ],
+          "quote": "Use your coding agent as a way to accelerate your work and get into a test mode and test environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            484.951,
+            496.216
+          ],
+          "quote": "And so on the back end here, our skills files are directing the agent to actually flow usage into the Metronome platform so that you can see what a live customer would look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            600.735,
+            605.686
+          ],
+          "quote": "If the agent can be the product and run up a token bill, it's important for you to be able to meter on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            607.184,
+            616.632
+          ],
+          "quote": "What we're talking about here with the Stripe project CLI is the agent as a buyer, so literally procuring their initial Stripe instance as well as additional backend services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            659.502,
+            666.205
+          ],
+          "quote": "The fundamental reason behind that is because what they need to be concerned about is a world in which an agent can operate their entire system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            700.866,
+            712.596
+          ],
+          "quote": "And again, in that world, it's important for you to have a usage-based pricing model because you have the possibility of essentially all of the value accruing to essentially one user of your platform, which in this case would be an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            836.805,
+            839.445
+          ],
+          "quote": "We don't need this now because we had an agent set up this environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            851.81,
+            856.392
+          ],
+          "quote": "This was auto, again, populated by the agent for the demo environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            941.812,
+            949.197
+          ],
+          "quote": "And again, the way that we coached the agent to be able to build this was just describing a natural language to replicate lovable's pricing model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            967.671,
+            976.497
+          ],
+          "quote": "Then we coached the agent to be able to build a demo instance of Metronome that had a real pricing model live in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1005.231,
+            1014.014
+          ],
+          "quote": "Agent as a buyer, Agent as your product, Agent as your user, and disambiguating what the different modes and implications of those are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1014.494,
+            1022.877
+          ],
+          "quote": "And then in addition to that, having ways in which we coach the agent to operate more effectively, including in a difficult environment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集把编码智能体当作操作复杂产品(如 Metronome)的主体来讨论:Stripe 的 CLI 使用量因它指数级增长;企业端编程智能体(Cognition、Cursor、OpenAI、Anthropic)正在采用承诺消费结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            105.908,
+            113.593
+          ],
+          "quote": "We're thinking about all of the implications of the coding agent's operating systems, which we'll get into a greater topic on later in this demonstration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            132.669,
+            134.05
+          ],
+          "quote": "with a coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            456.019,
+            462.982
+          ],
+          "quote": "Use your coding agent as a way to accelerate your work and get into a test mode and test environment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集的论点就是『如何在 vibe coding 一个计费引擎时避免灾难』——用一句自然语言指挥智能体搭起整套计费系统,难度上限就是那句自然语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            114.931,
+            120.777
+          ],
+          "quote": "So the beginning part was sort of the thesis for this is how to avoid disaster when vibe coding a billing engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "usage-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "按用量定价 (usage-based pricing)",
+      "file": "按用量定价",
+      "primary": true,
+      "how_described": "本集说按用量定价正因智能体而起飞:智能体作为产品会烧出高额 token 账单、作为用户会让所有价值归属单个智能体,所以基于用量的定价必不可少;积分模式只是起点,企业端将铺开承诺消费结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            182.216,
+            189.921
+          ],
+          "quote": "Obviously today with usage-based pricing, it's not just about having a pay-go metered business model, but also all sorts of different forms of credits, commits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            593.232,
+            599.774
+          ],
+          "quote": "So obviously companies are launching agents as a product, and therefore that's one of the reasons why they need to have a usage-based pricing model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            700.866,
+            712.596
+          ],
+          "quote": "And again, in that world, it's important for you to have a usage-based pricing model because you have the possibility of essentially all of the value accruing to essentially one user of your platform, which in this case would be an agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集强调业务关键的计费系统不该让智能体无人监督地上生产;演示里搭的全部是沙箱体验,智能体在测试环境里灌入用量、看真实客户会长什么样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            468.084,
+            473.466
+          ],
+          "quote": "In fact, when we go into the metronome environment, you'll see that basically what we've done is built a sandbox experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills-files",
+      "type": "concept",
+      "role": "concept",
+      "name": "skills 文件 (skills files)",
+      "file": "skills 文件",
+      "primary": true,
+      "how_described": "本集说 Metronome 投入建设一套可扩展、可移植、易安装的 skills 文件,为调用其 API 的智能体提供上下文,消除上手摩擦,并引导智能体把用量真正灌进平台完成测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            381.329,
+            388.854
+          ],
+          "quote": "And so what we've invested in is building an extensible set of skills files that can provide context to the agent that's implementing Metronome and working with our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            390.235,
+            393.698
+          ],
+          "quote": "These skills files are also portable and easy to install, so you can use them on your own side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            484.951,
+            496.216
+          ],
+          "quote": "And so on the back end here, our skills files are directing the agent to actually flow usage into the Metronome platform so that you can see what a live customer would look like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集说 Stripe 站在思考智能体商务的前沿、为当下时刻准备原语;Stripe 在 B2C 侧做智能体商务,Metronome 场景则是 B2B,多个层面同时展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            532.97,
+            546.539
+          ],
+          "quote": "This is sort of, like, from our perspective coming into Stripe, this is one of the things that's been really amazing, is that Stripe is on the forefront of thinking about agentic commerce and preparing primitives for the moment that we're in right now, where, in fact, this is exactly what's happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            625.721,
+            632.107
+          ],
+          "quote": "On the Stripe side, that means both in a B2C environment, so they're working on agentic commerce, but then in the metronome environment, we're talking about in a B2B context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "headlessness",
+      "type": "concept",
+      "role": "concept",
+      "name": "无头化 (headlessness)",
+      "file": "无头化",
+      "primary": true,
+      "how_described": "本集用无头化来描述席位模式的终结:在智能体可以操作整个系统的世界里,为『一个人类坐席』付费的逻辑不成立,HubSpot 的转型就是它正在字面发生的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            674.93,
+            678.051
+          ],
+          "quote": "We've been talking about this as sort of headlessness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

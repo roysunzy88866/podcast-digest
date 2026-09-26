@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>68</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>69</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -60,6 +60,7 @@ unlisted: true
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:55起):本集提到 Exa 为 Cursor 提供支持，并举 Cursor 作为 AI 编程平台类别（Exa ICP 分类之一）的例子。
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(01:03起):本集说 Cursor 是一个 AI 编程编辑器，最初 fork 了 VS Code 做独立产品而非插件；在两年内从 IDE 演进到智能体平台再到模型平台，自我颠覆速度极快
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(02:13起):本集提到 Cursor 作为从负毛利率走出来、达到 600 亿估值的经典案例，'孩子们会搞定的，那些负毛利率'，是毛利率改善的成功样本
+- **[[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]]**(00:55起):本集说 2024 年底 Cursor 最初不支持 MCP,后来他们通过 Cursor 里的功能首次实际体验、开始构思产品。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(01:26起):本集说它被 SpaceX 收购后在算力上有规模优势但会带来模型偏见，企业中更多被视为 IDE 而非主要企业软件开发策略
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(25:19起):本集在赞助商段和正文中各提一次，说它是几个月前被大量炒作的编码工具，但 Daniel 觉得对 PM 不够友好而选择等待 CoWork
 - **[[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]]**(00:13起):本集把它说成：GrokBot 可以启动的云端编码任务执行方——PR 的 rebase 和按评论改代码交给 Cursor 云端智能体去干，Holly 修 bug 也被授权用它。
@@ -81,7 +82,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*10 条*
+*11 条*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -92,6 +93,8 @@ unlisted: true
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q1]]
 
 ![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q8]]
+
+![[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a#^q5]]
 
 ![[2026-09-03-talks-refactoring-legacy-codebases#^q1]]
 
@@ -105,7 +108,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*68 集*
+*69 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
@@ -157,6 +160,7 @@ unlisted: true
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为被讨论公司(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]] — 作为被讨论公司
@@ -180,9 +184,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[ChatGPT]] · [[Lovable]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[ChatGPT]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":330,"OpenAI":133,"Anthropic":143,"Codex":57,"Lenny":67,"Claude Code":76,"vibe coding":38,"推理":55,"ChatGPT":77,"Lovable":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"Anthropic":145,"OpenAI":134,"Codex":57,"Lenny":67,"Claude Code":76,"vibe coding":39,"推理":55,"ChatGPT":77,"Lovable":17}</script>
 
 <script>
 (function(){

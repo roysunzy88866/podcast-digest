@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":330,"应用垂直 AI":1,"专有数据":2,"可观测性":30,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":8,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"应用垂直 AI":1,"专有数据":2,"可观测性":30,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":9,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":15}</script>
 
 <script>
 (function(){

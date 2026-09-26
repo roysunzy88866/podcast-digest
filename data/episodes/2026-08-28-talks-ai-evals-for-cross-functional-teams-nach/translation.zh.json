@@ -1,0 +1,1330 @@
+[
+ {
+  "seg": 0,
+  "start": 13.527,
+  "end": 14.387,
+  "speaker": "Unknown",
+  "en": "Good afternoon, everyone.",
+  "zh": "大家下午好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.448,
+  "end": 18.389,
+  "speaker": "Unknown",
+  "en": "Thanks for coming for a post-lunch talk.",
+  "zh": "感谢大家在午餐后来听这场分享。"
+ },
+ {
+  "seg": 2,
+  "start": 18.789,
+  "end": 20.97,
+  "speaker": "Unknown",
+  "en": "Always appreciate that.",
+  "zh": "一直很感激这一点。"
+ },
+ {
+  "seg": 3,
+  "start": 21.61,
+  "end": 24.031,
+  "speaker": "Unknown",
+  "en": "My name is Swaroop, and here's my teammate, Nachiket.",
+  "zh": "我叫 Swaroop,这位是我的队友 Nachiket。"
+ },
+ {
+  "seg": 4,
+  "start": 24.611,
+  "end": 29.052,
+  "speaker": "Unknown",
+  "en": "We are here on behalf of the DoorDash JNAI platform team.",
+  "zh": "我们代表 DoorDash JNAI 平台团队来到这里。"
+ },
+ {
+  "seg": 5,
+  "start": 31.013,
+  "end": 33.075,
+  "speaker": "Unknown",
+  "en": "And we kind of wanted to share our EVALS journey.",
+  "zh": "我们想分享一下我们的 EVALS(评估)历程。"
+ },
+ {
+  "seg": 6,
+  "start": 34.295,
+  "end": 43.502,
+  "speaker": "Unknown",
+  "en": "It started as, you know, EVALS is another engineering thing, but then it slowly we realized it evolved into a cross-functional effort.",
+  "zh": "一开始,你知道的,EVALS 只是一件工程上的事,但后来我们慢慢意识到它演变成了一项跨职能的工作。"
+ },
+ {
+  "seg": 7,
+  "start": 44.002,
+  "end": 46.164,
+  "speaker": "Unknown",
+  "en": "And we kind of want to share our story here.",
+  "zh": "我们想在这里分享我们的故事。"
+ },
+ {
+  "seg": 8,
+  "start": 46.764,
+  "end": 48.445,
+  "speaker": "Unknown",
+  "en": "So what is this team?",
+  "zh": "那么这个团队是做什么的?"
+ },
+ {
+  "seg": 9,
+  "start": 48.485,
+  "end": 50.327,
+  "speaker": "Unknown",
+  "en": "This team is a Gen AI platform team.",
+  "zh": "这个团队是一个 Gen AI 平台团队。"
+ },
+ {
+  "seg": 10,
+  "start": 51.267,
+  "end": 54.149,
+  "speaker": "Unknown",
+  "en": "We are a horizontal team that helps all other product teams.",
+  "zh": "我们是一个横向团队,帮助所有其他产品团队。"
+ },
+ {
+  "seg": 11,
+  "start": 54.229,
+  "end": 59.033,
+  "speaker": "Unknown",
+  "en": "So product teams add DoorDash, build on top of the infrastructure and the primitives that we provide.",
+  "zh": "在 DoorDash,产品团队在我们提供的基础设施和基础构件之上进行构建。"
+ },
+ {
+  "seg": 12,
+  "start": 60.273,
+  "end": 71.361,
+  "speaker": "Unknown",
+  "en": "And we see our USP and the value that we provide is that we help product teams balance these three forces, which is accuracy, latency, and cost.",
+  "zh": "我们认为我们的 USP(独特卖点)和我们所提供的价值在于,我们帮助产品团队平衡这三种力量,即准确性、延迟和成本。"
+ },
+ {
+  "seg": 13,
+  "start": 71.922,
+  "end": 76.425,
+  "speaker": "Unknown",
+  "en": "Initially, we applied this in terms of models, but if you think about it, it also applies to agents.",
+  "zh": "最初,我们将其应用于模型,但如果你仔细想想,它同样适用于智能体。"
+ },
+ {
+  "seg": 14,
+  "start": 78.146,
+  "end": 82.108,
+  "speaker": "Unknown",
+  "en": "And the way we achieve this is we have primitives and building blocks.",
+  "zh": "我们实现这一点的方式是,我们拥有基础构件和构建模块。"
+ },
+ {
+  "seg": 15,
+  "start": 83.169,
+  "end": 90.292,
+  "speaker": "Unknown",
+  "en": "So for example, we have an LLM gateway where you can easily switch between different models and try the latest and greatest.",
+  "zh": "举例来说,我们有一个 LLM 网关,你可以在不同模型之间轻松切换,尝试最新最好的模型。"
+ },
+ {
+  "seg": 16,
+  "start": 91.272,
+  "end": 96.195,
+  "speaker": "Unknown",
+  "en": "We have an agent gateway where you can connect to tools and other agents.",
+  "zh": "我们有一个智能体网关,你可以在其中连接工具和其他智能体。"
+ },
+ {
+  "seg": 17,
+  "start": 97.275,
+  "end": 104.439,
+  "speaker": "Unknown",
+  "en": "And we help solve authentication, agent identity, and other things in a central place, which our security team can bless.",
+  "zh": "我们帮助在一个中心位置解决认证、智能体身份等问题,我们的安全团队可以对之进行认可。"
+ },
+ {
+  "seg": 18,
+  "start": 105.739,
+  "end": 109.983,
+  "speaker": "Unknown",
+  "en": "Similarly, we pair the LLM Gateway with OpenWeights models hosting.",
+  "zh": "同样,我们为 LLM 网关配套了 OpenWeights 模型托管。"
+ },
+ {
+  "seg": 19,
+  "start": 110.703,
+  "end": 113.325,
+  "speaker": "Unknown",
+  "en": "Of course, cost is a number one concern these days.",
+  "zh": "当然,成本是当今的头号关注点。"
+ },
+ {
+  "seg": 20,
+  "start": 114.286,
+  "end": 120.19,
+  "speaker": "Unknown",
+  "en": "And we kind of invested in OpenWeights models and have seen significant impact already.",
+  "zh": "我们投资于 OpenWeights 模型,并且已经看到了显著的影响。"
+ },
+ {
+  "seg": 21,
+  "start": 121.611,
+  "end": 123.733,
+  "speaker": "Unknown",
+  "en": "And maybe we'll talk about that in a future conference.",
+  "zh": "也许我们会在未来的会议上谈论这个。"
+ },
+ {
+  "seg": 22,
+  "start": 124.834,
+  "end": 128.977,
+  "speaker": "Unknown",
+  "en": "The fourth pillar is evals, and that's the part that we would want to share today.",
+  "zh": "第四大支柱是 evals,这也是我们今天想要分享的部分。"
+ },
+ {
+  "seg": 23,
+  "start": 131.699,
+  "end": 135.215,
+  "speaker": "Unknown",
+  "en": "When we started talking to product teams internally at DoorDash, there were",
+  "zh": "当我们开始在 DoorDash 内部与产品团队交流时,有"
+ },
+ {
+  "seg": 24,
+  "start": 136.805,
+  "end": 139.826,
+  "speaker": "Unknown",
+  "en": "Varying distinct needs across teams.",
+  "zh": "各团队之间各不相同的需求。"
+ },
+ {
+  "seg": 25,
+  "start": 140.346,
+  "end": 143.667,
+  "speaker": "Unknown",
+  "en": "We had a consumer discovery and shopping assistant team.",
+  "zh": "我们有一个消费者发现和购物助手团队。"
+ },
+ {
+  "seg": 26,
+  "start": 144.427,
+  "end": 150.729,
+  "speaker": "Unknown",
+  "en": "For those who attended RAGOS Talk earlier today, you will see the need for session-level quality judgments.",
+  "zh": "对于今天早些时候参加了 RAGOS 演讲的人来说,你会看到对会话级质量判断的需求。"
+ },
+ {
+  "seg": 27,
+  "start": 152.469,
+  "end": 157.49,
+  "speaker": "Unknown",
+  "en": "Then the personalization ML, then you needed a way to scale up human judgment.",
+  "zh": "然后是个性化 ML,接着你需要一种扩展人类判断的方式。"
+ },
+ {
+  "seg": 28,
+  "start": 158.13,
+  "end": 161.571,
+  "speaker": "Unknown",
+  "en": "And with multi-agent systems, we needed trajectory-based evals.",
+  "zh": "而对于多智能体系统,我们需要基于轨迹的 evals。"
+ },
+ {
+  "seg": 29,
+  "start": 162.211,
+  "end": 164.012,
+  "speaker": "Unknown",
+  "en": "Now, the question is, how do you",
+  "zh": "现在,问题是,你如何"
+ },
+ {
+  "seg": 30,
+  "start": 165.348,
+  "end": 168.35,
+  "speaker": "Unknown",
+  "en": "cater to all these different needs under a common platform.",
+  "zh": "在一个通用平台下满足所有这些不同的需求。"
+ },
+ {
+  "seg": 31,
+  "start": 170.371,
+  "end": 177.834,
+  "speaker": "Unknown",
+  "en": "And as we spoke to these teams, we realized we needed to empower the people who are the domain experts.",
+  "zh": "在与这些团队交流的过程中,我们意识到我们需要赋能那些领域专家。"
+ },
+ {
+  "seg": 32,
+  "start": 178.375,
+  "end": 180.796,
+  "speaker": "Unknown",
+  "en": "And in our case, that was strategy and operations folks.",
+  "zh": "在我们的案例中,他们是战略与运营人员。"
+ },
+ {
+  "seg": 33,
+  "start": 180.876,
+  "end": 181.997,
+  "speaker": "Unknown",
+  "en": "It was product managers.",
+  "zh": "是产品经理。"
+ },
+ {
+  "seg": 34,
+  "start": 182.857,
+  "end": 186.099,
+  "speaker": "Unknown",
+  "en": "It was even labeling partners and not only engineers.",
+  "zh": "甚至是标注合作伙伴,而不仅仅是工程师。"
+ },
+ {
+  "seg": 35,
+  "start": 186.779,
+  "end": 189.582,
+  "speaker": "Unknown",
+  "en": "So we kind of started with, like, OK, we have to be UI first.",
+  "zh": "所以我们开始的想法是,好的,我们必须 UI 优先。"
+ },
+ {
+  "seg": 36,
+  "start": 189.622,
+  "end": 192.766,
+  "speaker": "Unknown",
+  "en": "And this was the guidance we had from Andy Fang, our co-founder as well.",
+  "zh": "这也是我们的联合创始人 Andy Fang 给我们的指导。"
+ },
+ {
+  "seg": 37,
+  "start": 194.027,
+  "end": 196.81,
+  "speaker": "Unknown",
+  "en": "So we had UIs for non-engineers to contribute.",
+  "zh": "于是我们有了供非工程师贡献的 UI。"
+ },
+ {
+  "seg": 38,
+  "start": 197.791,
+  "end": 205.58,
+  "speaker": "Unknown",
+  "en": "Then we kind of evolved to also being API first so that engineers can also build and not be blocked on the central platform.",
+  "zh": "然后我们逐渐演变为同时也是 API 优先,这样工程师也可以自行构建,而不被中央平台阻塞。"
+ },
+ {
+  "seg": 39,
+  "start": 205.92,
+  "end": 206.841,
+  "speaker": "Unknown",
+  "en": "And they can build their own",
+  "zh": "他们可以构建自己的"
+ },
+ {
+  "seg": 40,
+  "start": 210.464,
+  "end": 223.331,
+  "speaker": "Unknown",
+  "en": "And then, of course, with the coding agents, now we have become workflow-first, where we kind of empower SNO and PMs to also being able to navigate the platform and run operations as well.",
+  "zh": "然后,当然,随着编码智能体的出现,现在我们变成了工作流优先,我们赋能 SNO 和 PM 也能够操作平台并运行各项操作。"
+ },
+ {
+  "seg": 41,
+  "start": 225.012,
+  "end": 229.835,
+  "speaker": "Unknown",
+  "en": "So with that context, I'll hand it off to Nachigate to talk about how we went about delivering this.",
+  "zh": "有了这个背景,我将交给 Nachigate 来谈谈我们是如何实现这一点的。"
+ },
+ {
+  "seg": 42,
+  "start": 230.425,
+  "end": 230.585,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 43,
+  "start": 231.646,
+  "end": 232.707,
+  "speaker": "Unknown",
+  "en": "Thanks, Faroop.",
+  "zh": "谢谢,Faroop。"
+ },
+ {
+  "seg": 44,
+  "start": 233.027,
+  "end": 234.188,
+  "speaker": "Unknown",
+  "en": "And thanks, everyone, for joining us.",
+  "zh": "也谢谢大家加入我们。"
+ },
+ {
+  "seg": 45,
+  "start": 234.368,
+  "end": 238.231,
+  "speaker": "Unknown",
+  "en": "I know Franzen is playing right now, and I promise you this will be better than that.",
+  "zh": "我知道 Franzen 正在进行,我保证我们的分享会比那个更精彩。"
+ },
+ {
+  "seg": 46,
+  "start": 238.812,
+  "end": 239.172,
+  "speaker": "Unknown",
+  "en": "I'm kidding.",
+  "zh": "我开玩笑的。"
+ },
+ {
+  "seg": 47,
+  "start": 240.802,
+  "end": 244.583,
+  "speaker": "Unknown",
+  "en": "So as Farooq was saying, evals is not just an engineering harness.",
+  "zh": "正如 Farooq 所说,evals 不仅仅是一个工程测试框架。"
+ },
+ {
+  "seg": 48,
+  "start": 244.743,
+  "end": 258.046,
+  "speaker": "Unknown",
+  "en": "It is a cross-functional effort across different pillars, across different teams that actually helps us add all the domain-specific knowledge into the quality of the AI itself.",
+  "zh": "它是一项跨不同支柱、跨不同团队的跨职能工作,真正帮助我们为 AI 本身的质量注入所有领域特定的知识。"
+ },
+ {
+  "seg": 49,
+  "start": 258.726,
+  "end": 267.208,
+  "speaker": "Unknown",
+  "en": "So from your traces to your data sets, from your scoring mechanisms, this is all basically a team sport.",
+  "zh": "从你的 traces 到你的数据集,再到你的评分机制,这基本上都是一项团队运动。"
+ },
+ {
+  "seg": 50,
+  "start": 267.228,
+  "end": 267.928,
+  "speaker": "Unknown",
+  "en": "We all have to play",
+  "zh": "我们都必须参与其中"
+ },
+ {
+  "seg": 51,
+  "start": 268.728,
+  "end": 270.93,
+  "speaker": "Unknown",
+  "en": "And help improve the quality of AI.",
+  "zh": "并帮助提升 AI 的质量。"
+ },
+ {
+  "seg": 52,
+  "start": 273.532,
+  "end": 281.558,
+  "speaker": "Unknown",
+  "en": "So going a little bit deeper into the same aspect, we have different teams at DoorDash who help us actually improve the quality of AI.",
+  "zh": "那么再深入聊聊同一个方面，我们在 DoorDash 有不同的团队来帮助我们实际提升 AI 的质量。"
+ },
+ {
+  "seg": 53,
+  "start": 282.218,
+  "end": 287.823,
+  "speaker": "Unknown",
+  "en": "So you're going to have your strategy and operations folks who are going to set priorities, set the quality bar that you want to aim for.",
+  "zh": "你会有你的战略与运营人员，他们会设定优先级，设定你想要达到的质量标准。"
+ },
+ {
+  "seg": 54,
+  "start": 288.403,
+  "end": 290.945,
+  "speaker": "Unknown",
+  "en": "You're going to have your product people who are going to translate.",
+  "zh": "你会有你的产品人员，他们负责转化。"
+ },
+ {
+  "seg": 55,
+  "start": 292.045,
+  "end": 294.426,
+  "speaker": "Unknown",
+  "en": "These requirements into rubrics, workflows.",
+  "zh": "把这些需求转化成评分标准（rubrics）、工作流。"
+ },
+ {
+  "seg": 56,
+  "start": 294.466,
+  "end": 298.187,
+  "speaker": "Unknown",
+  "en": "You're going to have your operations teams running annotations.",
+  "zh": "你会有你的运营团队运行标注工作。"
+ },
+ {
+  "seg": 57,
+  "start": 298.267,
+  "end": 306.129,
+  "speaker": "Unknown",
+  "en": "You're going to have your engineering teams, like us, providing APIs, telemetry, data sets, judges, all the cool things.",
+  "zh": "你会有你的工程团队，比如我们，提供 API、遥测、数据集、评审器（judges），所有这些很酷的东西。"
+ },
+ {
+  "seg": 58,
+  "start": 307.289,
+  "end": 318.172,
+  "speaker": "Unknown",
+  "en": "And combining all these together is what a recipe is for actually making sure that you are shipping quality AI products through an evals platform.",
+  "zh": "把这些整合在一起，就是通过一个评估平台确保你交付高质量 AI 产品的配方。"
+ },
+ {
+  "seg": 59,
+  "start": 319.67,
+  "end": 325.734,
+  "speaker": "Unknown",
+  "en": "So we've tried to boil this down into sort of a continuous iteration loop.",
+  "zh": "所以我们试着把这一点归纳成某种持续迭代循环。"
+ },
+ {
+  "seg": 60,
+  "start": 325.814,
+  "end": 344.628,
+  "speaker": "Unknown",
+  "en": "So right from tracing, having a tracing solution, viewing your sessions, your traces, to sampling them down to a very small set that you actually want to look at, annotating these with the domain-specific expertise that you bring in with the different teams I mentioned,",
+  "zh": "从追踪开始，有一个追踪方案，查看你的会话、你的追踪记录，然后把它们抽样缩减到你实际想要查看的很小一部分，再借助我提到的不同团队带来的领域专业知识对这些进行标注，"
+ },
+ {
+  "seg": 61,
+  "start": 345.228,
+  "end": 355.612,
+  "speaker": "Unknown",
+  "en": "Reviewing those, then creating those golden datasets, which are going to be your golden datasets that you want to measure or calibrate against.",
+  "zh": "然后审查这些标注，接着创建那些黄金数据集，也就是你想要用来衡量或校准的黄金数据集。"
+ },
+ {
+  "seg": 62,
+  "start": 356.472,
+  "end": 362.335,
+  "speaker": "Unknown",
+  "en": "And then, of course, monitoring this over a period of time, and then rinse and repeat, go through the whole loop again.",
+  "zh": "然后当然，在一段时间内对此进行监控，然后 rinse and repeat，再走一遍整个循环。"
+ },
+ {
+  "seg": 63,
+  "start": 362.835,
+  "end": 370.598,
+  "speaker": "Unknown",
+  "en": "So this is, in our experience, has been a good sort of continuous loop for shipping quality AI.",
+  "zh": "根据我们的经验，这就是一个交付高质量 AI 的不错的持续循环。"
+ },
+ {
+  "seg": 64,
+  "start": 373.349,
+  "end": 375.87,
+  "speaker": "Unknown",
+  "en": "On the platform level, we have two surfaces.",
+  "zh": "在平台层面，我们有两个界面。"
+ },
+ {
+  "seg": 65,
+  "start": 376.391,
+  "end": 382.254,
+  "speaker": "Unknown",
+  "en": "So we have the telemetry layer where we have all our traces, our scores, observations.",
+  "zh": "我们有遥测层，那里有我们所有的追踪记录、分数、观测数据。"
+ },
+ {
+  "seg": 66,
+  "start": 382.795,
+  "end": 389.299,
+  "speaker": "Unknown",
+  "en": "That is also sort of the plane where users are able to access these traces using an MCP, using an SDK.",
+  "zh": "这也是用户能够通过 MCP、通过 SDK 访问这些追踪记录的那一层。"
+ },
+ {
+  "seg": 67,
+  "start": 390.3,
+  "end": 391.121,
+  "speaker": "Unknown",
+  "en": "using our APIs.",
+  "zh": "通过我们的 API。"
+ },
+ {
+  "seg": 68,
+  "start": 391.521,
+  "end": 392.643,
+  "speaker": "Unknown",
+  "en": "And then we have the workflow layer.",
+  "zh": "然后我们有工作流层。"
+ },
+ {
+  "seg": 69,
+  "start": 392.803,
+  "end": 396.969,
+  "speaker": "Unknown",
+  "en": "This is where a lot of our startups, our product teams, operate on the platform.",
+  "zh": "这是我们很多初创团队、产品团队在平台上运作的地方。"
+ },
+ {
+  "seg": 70,
+  "start": 397.43,
+  "end": 399.693,
+  "speaker": "Unknown",
+  "en": "So this is where all the annotation tasks are set.",
+  "zh": "所有标注任务都是在这里设置的。"
+ },
+ {
+  "seg": 71,
+  "start": 400.794,
+  "end": 406.062,
+  "speaker": "Unknown",
+  "en": "This is where they review their golden datasets, create their judges, calibrate their judges, and so on.",
+  "zh": "这里是他们审查黄金数据集、创建评审器、校准评审器等等的地方。"
+ },
+ {
+  "seg": 72,
+  "start": 407.622,
+  "end": 415.428,
+  "speaker": "Unknown",
+  "en": "So maybe today we'll go through these sort of four different modules or pillars of our platform step by step.",
+  "zh": "那么今天我们也许会逐步过一遍我们平台的这四个不同模块或支柱。"
+ },
+ {
+  "seg": 73,
+  "start": 416.329,
+  "end": 428.979,
+  "speaker": "Unknown",
+  "en": "So again, first one, tracing and sampling, which is actually capturing what your agents, what your LLMs are actually outputting, for lack of better words, and actually viewing those.",
+  "zh": "再说一次，第一个是追踪与抽样，也就是捕捉你的智能体、你的 LLM 实际输出的内容（找不到更好的词），并实际查看这些内容。"
+ },
+ {
+  "seg": 74,
+  "start": 430.825,
+  "end": 439.775,
+  "speaker": "Unknown",
+  "en": "Now, in order to also power this whole platform, I think, as Swaroop mentioned, we have gone in an API-first approach.",
+  "zh": "现在，为了支撑整个平台，我想，正如 Swaroop 提到的，我们采取了 API 优先的方式。"
+ },
+ {
+  "seg": 75,
+  "start": 439.815,
+  "end": 443.619,
+  "speaker": "Unknown",
+  "en": "What that has allowed us to do is have these stable APIs that actually",
+  "zh": "这让我们做到的是拥有这些稳定的 API，"
+ },
+ {
+  "seg": 76,
+  "start": 445.395,
+  "end": 448.057,
+  "speaker": "Unknown",
+  "en": "And then build UIs on top of that.",
+  "zh": "然后在此基础上构建 UI。"
+ },
+ {
+  "seg": 77,
+  "start": 448.657,
+  "end": 450.758,
+  "speaker": "Unknown",
+  "en": "So all our scores are data sets.",
+  "zh": "所以我们所有的分数都是数据集。"
+ },
+ {
+  "seg": 78,
+  "start": 451.479,
+  "end": 455.221,
+  "speaker": "Unknown",
+  "en": "These are all powered by very stable APIs that our team owns.",
+  "zh": "这些都由我们团队拥有的非常稳定的 API 支撑。"
+ },
+ {
+  "seg": 79,
+  "start": 455.701,
+  "end": 462.806,
+  "speaker": "Unknown",
+  "en": "So all your API access, including an SDK access, is basically powered by this single plane.",
+  "zh": "所以你所有的 API 访问，包括 SDK 访问，基本上都由这一个平面支撑。"
+ },
+ {
+  "seg": 80,
+  "start": 467.306,
+  "end": 476.229,
+  "speaker": "Unknown",
+  "en": "Going back and just refreshing your memory, step one, capture your traces, capture your sessions, measure your scores.",
+  "zh": "回顾一下、提醒你们一下，第一步，捕捉你的追踪记录，捕捉你的会话，测量你的分数。"
+ },
+ {
+  "seg": 81,
+  "start": 477.43,
+  "end": 490.895,
+  "speaker": "Unknown",
+  "en": "Then you want to start almost adding all your judgment, your context, your domain knowledge, and then calibrating your judges is what we have seen as the whole lifecycle.",
+  "zh": "然后你想要开始添加你所有的判断、你的上下文、你的领域知识，然后校准你的评审器，这就是我们所看到的整个生命周期。"
+ },
+ {
+  "seg": 82,
+  "start": 493.148,
+  "end": 495.049,
+  "speaker": "Unknown",
+  "en": "Step two is on the annotation side.",
+  "zh": "第二步是标注方面。"
+ },
+ {
+  "seg": 83,
+  "start": 495.509,
+  "end": 507.473,
+  "speaker": "Unknown",
+  "en": "So you obviously are capturing a lot of your agentic behavior, your sessions, your traces, but you actually want to see what are some places where things went well and what are some places where things did not go well.",
+  "zh": "显然，你在捕捉大量的智能体行为、你的会话、你的追踪记录，但你实际想看看哪些地方做得好，哪些地方做得不好。"
+ },
+ {
+  "seg": 84,
+  "start": 507.894,
+  "end": 516.997,
+  "speaker": "Unknown",
+  "en": "This is where you can actually titrate your, you know, and actually look inside what's actually happening at the session level and annotate these data sets.",
+  "zh": "这就是你可以真正调节的、真正深入查看会话层面实际发生的事情并对这些数据集进行标注的地方。"
+ },
+ {
+  "seg": 85,
+  "start": 519.592,
+  "end": 522.373,
+  "speaker": "Unknown",
+  "en": "And as Faroop mentioned, we have a lot of use cases.",
+  "zh": "正如 Faroop 提到的，我们有很多用例。"
+ },
+ {
+  "seg": 86,
+  "start": 522.453,
+  "end": 529.774,
+  "speaker": "Unknown",
+  "en": "We talk to multiple different teams who have various ways of annotating their data sets.",
+  "zh": "我们与多个不同的团队交流，他们有各种不同的数据集标注方式。"
+ },
+ {
+  "seg": 87,
+  "start": 530.715,
+  "end": 538.036,
+  "speaker": "Unknown",
+  "en": "And it's almost hard for a platform team to, you know, build like a UI specific for each use case.",
+  "zh": "而且对一个平台团队来说，要为每个用例专门构建一个 UI 几乎是很难做到的。"
+ },
+ {
+  "seg": 88,
+  "start": 538.716,
+  "end": 545.697,
+  "speaker": "Unknown",
+  "en": "And, you know, to give you an example, it's usually going to be an annotator who's going to annotate these data sets.",
+  "zh": "举个例子，通常是标注员来标注这些数据集。"
+ },
+ {
+  "seg": 89,
+  "start": 546.178,
+  "end": 547.558,
+  "speaker": "Unknown",
+  "en": "So the platform team is, you know,",
+  "zh": "所以平台团队，"
+ },
+ {
+  "seg": 90,
+  "start": 548.298,
+  "end": 556.9,
+  "speaker": "Unknown",
+  "en": "In charge of the APIs, we have a strategy and ops person who's actually deciding what to annotate, and then you have an annotator who's actually going to annotate your dataset.",
+  "zh": "负责 API，我们有一位战略与运营人员实际决定标注什么，然后有一位标注员实际去标注你的数据集。"
+ },
+ {
+  "seg": 91,
+  "start": 557.7,
+  "end": 558.6,
+  "speaker": "Unknown",
+  "en": "So we took this approach.",
+  "zh": "所以我们采取了这种做法。"
+ },
+ {
+  "seg": 92,
+  "start": 559.32,
+  "end": 565.182,
+  "speaker": "Unknown",
+  "en": "Everybody has access to coding agents, and we actually doubled down on that API-first approach.",
+  "zh": "每个人都能使用编程智能体，而我们实际上在 API 优先的方式上加倍投入。"
+ },
+ {
+  "seg": 93,
+  "start": 565.842,
+  "end": 576.504,
+  "speaker": "Unknown",
+  "en": "So because we had these APIs, we were actually able to enable our stat ops teams to use something like a Codex or a Claude Code and Vibecode their own annotation UIs.",
+  "zh": "正因为我们有了这些 API，我们才能够让我们的战略运营团队使用类似 Codex 或 Claude Code 这样的工具，用 vibe coding 的方式构建他们自己的标注 UI。"
+ },
+ {
+  "seg": 94,
+  "start": 577.915,
+  "end": 580.316,
+  "speaker": "Unknown",
+  "en": "So, we had different use cases.",
+  "zh": "所以，我们有不同的用例。"
+ },
+ {
+  "seg": 95,
+  "start": 580.636,
+  "end": 583.216,
+  "speaker": "Unknown",
+  "en": "I think we had a talk from Raghav before.",
+  "zh": "我记得之前 Raghav 做过一次分享。"
+ },
+ {
+  "seg": 96,
+  "start": 583.877,
+  "end": 585.697,
+  "speaker": "Unknown",
+  "en": "We had image annotation use cases.",
+  "zh": "我们有图像标注用例。"
+ },
+ {
+  "seg": 97,
+  "start": 585.737,
+  "end": 588.158,
+  "speaker": "Unknown",
+  "en": "We had some, you know, manual testing use cases.",
+  "zh": "我们还有一些手动测试用例。"
+ },
+ {
+  "seg": 98,
+  "start": 588.878,
+  "end": 592.559,
+  "speaker": "Unknown",
+  "en": "What stood out to us was the underlying patterns were similar.",
+  "zh": "让我们印象深刻的是，底层的模式是相似的。"
+ },
+ {
+  "seg": 99,
+  "start": 593.019,
+  "end": 600.881,
+  "speaker": "Unknown",
+  "en": "So, if we are API first, we can actually enable our partners to simply Vibecode these UIs for annotation.",
+  "zh": "所以，如果我们是 API 优先，我们就能真正让我们的合作伙伴简单地用 vibe coding 的方式构建这些用于标注的 UI。"
+ },
+ {
+  "seg": 100,
+  "start": 601.681,
+  "end": 606.022,
+  "speaker": "Unknown",
+  "en": "It's like a very simple example of a vibe-coded UI.",
+  "zh": "这是一个非常简单的 vibe coding UI 的例子。"
+ },
+ {
+  "seg": 101,
+  "start": 606.122,
+  "end": 610.964,
+  "speaker": "Unknown",
+  "en": "It looks pretty clean, does the job, and you get the annotation that you need.",
+  "zh": "它看起来相当干净，能完成工作，你也能得到所需的标注。"
+ },
+ {
+  "seg": 102,
+  "start": 611.204,
+  "end": 613.564,
+  "speaker": "Unknown",
+  "en": "This is basically like a menu from a restaurant.",
+  "zh": "这基本上就像餐厅的菜单一样。"
+ },
+ {
+  "seg": 103,
+  "start": 613.824,
+  "end": 615.525,
+  "speaker": "Unknown",
+  "en": "It's nothing crazy.",
+  "zh": "没什么了不起的。"
+ },
+ {
+  "seg": 104,
+  "start": 616.705,
+  "end": 627.848,
+  "speaker": "Unknown",
+  "en": "But the point I want to make here is that what helped us was to give this workflow in the hands of the operators so that they can actually build their own vibe-coded annotation UIs.",
+  "zh": "但我想说的重点是，帮助到我们的是把这个工作流交到运营人员手中，让他们能够真正构建自己的 vibe coding 标注 UI。"
+ },
+ {
+  "seg": 105,
+  "start": 629.263,
+  "end": 635.152,
+  "speaker": "Unknown",
+  "en": "So moving on, once you have these annotation UIs, you obviously want to, you know, calibrate your judge prompts.",
+  "zh": "那么继续，一旦你有了这些标注 UI，你显然想要，你知道，校准你的裁判提示词。"
+ },
+ {
+  "seg": 106,
+  "start": 635.172,
+  "end": 638.497,
+  "speaker": "Unknown",
+  "en": "You obviously have some LM as a judge metric that you're tracking.",
+  "zh": "你显然有一些你在跟踪的 LM as a judge 指标。"
+ },
+ {
+  "seg": 107,
+  "start": 638.537,
+  "end": 642.182,
+  "speaker": "Unknown",
+  "en": "You want to now start improving that with these golden datasets.",
+  "zh": "你现在想用这些黄金数据集来改进它。"
+ },
+ {
+  "seg": 108,
+  "start": 644.537,
+  "end": 648.319,
+  "speaker": "Unknown",
+  "en": "In order to do that, we have a pretty simple process.",
+  "zh": "为了做到这一点，我们有一个非常简单的流程。"
+ },
+ {
+  "seg": 109,
+  "start": 648.6,
+  "end": 657.385,
+  "speaker": "Unknown",
+  "en": "You're going to start with some judge prompt, take a look at what exactly do you want to measure from the output, have something simple.",
+  "zh": "你会从某个裁判提示词开始，看看你到底想从输出中衡量什么，保持简单。"
+ },
+ {
+  "seg": 110,
+  "start": 657.926,
+  "end": 666.211,
+  "speaker": "Unknown",
+  "en": "You're going to have your baseline scores where you're going to simply run those LLM judges on your traces, and then you're going to have that optimization loop.",
+  "zh": "你会有你的基线分数，你只需在这些 trace 上运行那些 LLM 裁判，然后你就会进入那个优化循环。"
+ },
+ {
+  "seg": 111,
+  "start": 666.871,
+  "end": 672.675,
+  "speaker": "Unknown",
+  "en": "So we use the JEPA library, which is a pretty commonly used library out there for prompt optimization.",
+  "zh": "我们使用 JEPA 库，这是一个相当常用的提示词优化库。"
+ },
+ {
+  "seg": 112,
+  "start": 673.455,
+  "end": 682.721,
+  "speaker": "Unknown",
+  "en": "And once the iteration loop is complete, our partner teams are happy, they're going to then elevate that judge prompt as their LLM as a judge.",
+  "zh": "一旦迭代循环完成，我们的合作团队满意了，他们就会把那个裁判提示词提升为他们的 LLM as a judge。"
+ },
+ {
+  "seg": 113,
+  "start": 683.842,
+  "end": 694.608,
+  "speaker": "Unknown",
+  "en": "Now, even while doing that, LLM as a judge, as a concept, the whole prompt calibration concept might be straightforward to a lot of folks, but it is still like a pretty new and evolving field.",
+  "zh": "现在，即使在做这件事，LLM as a judge 作为一个概念，整个提示词校准的概念对很多人来说可能很直白，但它仍然是一个相当新兴且不断演进的领域。"
+ },
+ {
+  "seg": 114,
+  "start": 695.869,
+  "end": 700.192,
+  "speaker": "Unknown",
+  "en": "And what we wanted to do was really reduce the friction of back and forth with an engineering team.",
+  "zh": "我们想做的，是真正减少与工程团队来回沟通的摩擦。"
+ },
+ {
+  "seg": 115,
+  "start": 700.732,
+  "end": 706.856,
+  "speaker": "Unknown",
+  "en": "So, we tried to really remove all the complicated logic and make this into a self-serve UI.",
+  "zh": "所以，我们尝试真正移除所有复杂的逻辑，把它做成一个自助式 UI。"
+ },
+ {
+  "seg": 116,
+  "start": 707.256,
+  "end": 709.558,
+  "speaker": "Unknown",
+  "en": "So, the screenshot that you actually see is what actually exists.",
+  "zh": "所以，你实际看到的截图是真实存在的。"
+ },
+ {
+  "seg": 117,
+  "start": 710.378,
+  "end": 714.761,
+  "speaker": "Unknown",
+  "en": "So, you know, like a product manager or an operator is going to come to our UI.",
+  "zh": "你知道，产品经理或运营人员会来到我们的 UI。"
+ },
+ {
+  "seg": 118,
+  "start": 714.781,
+  "end": 720.684,
+  "speaker": "Unknown",
+  "en": "They're going to set some of these configs on the platform and then actually run the calibration loop themselves.",
+  "zh": "他们会在平台上设置一些配置，然后真正自己运行校准循环。"
+ },
+ {
+  "seg": 119,
+  "start": 720.745,
+  "end": 726.068,
+  "speaker": "Unknown",
+  "en": "So, they don't have to worry about the different settings that they need to worry about, what are the different",
+  "zh": "这样，他们就不必操心需要操心的各种设置，不用管各种"
+ },
+ {
+  "seg": 120,
+  "start": 726.989,
+  "end": 728.491,
+  "speaker": "Unknown",
+  "en": "tweaks that they need to do.",
+  "zh": "需要做的调整。"
+ },
+ {
+  "seg": 121,
+  "start": 728.551,
+  "end": 732.275,
+  "speaker": "Unknown",
+  "en": "And they can actually run a calibration loop using any model of their choice.",
+  "zh": "而且他们实际上可以用自己选择的任何模型来运行校准循环。"
+ },
+ {
+  "seg": 122,
+  "start": 732.315,
+  "end": 734.138,
+  "speaker": "Unknown",
+  "en": "I think in this example, I have Gemini.",
+  "zh": "我想在这个例子里，我用的是 Gemini。"
+ },
+ {
+  "seg": 123,
+  "start": 734.538,
+  "end": 738.343,
+  "speaker": "Unknown",
+  "en": "They can run it using any of the Claude or the OpenAI models, too.",
+  "zh": "他们也可以用任何 Claude 或 OpenAI 的模型来运行。"
+ },
+ {
+  "seg": 124,
+  "start": 739.148,
+  "end": 742.369,
+  "speaker": "Unknown",
+  "en": "The other important piece was actually making this reviewable.",
+  "zh": "另一个重要的部分是让它变得可审查。"
+ },
+ {
+  "seg": 125,
+  "start": 742.909,
+  "end": 749.452,
+  "speaker": "Unknown",
+  "en": "You know, again, a lot of this is a closed box where you can't really, it's hard to see what's actually happening.",
+  "zh": "你知道，再说一次，很多这是一个黑盒子，你没法真正，很难看到实际在发生什么。"
+ },
+ {
+  "seg": 126,
+  "start": 750.192,
+  "end": 756.174,
+  "speaker": "Unknown",
+  "en": "So the second piece that we built was actually giving them visualization and visibility into what's actually happening.",
+  "zh": "所以我们构建的第二个部分，就是给他们提供可视化，让他们能看到实际在发生什么。"
+ },
+ {
+  "seg": 127,
+  "start": 756.194,
+  "end": 765.598,
+  "speaker": "Unknown",
+  "en": "So on the left you can see we, and this is like one of the good examples where we saw like a significant amount of improvement in the judge prompt, and we actually",
+  "zh": "你在左边可以看到我们，这是其中一个很好的例子，我们看到裁判提示词有了显著的改进，而且我们实际上"
+ },
+ {
+  "seg": 128,
+  "start": 766.479,
+  "end": 776.611,
+  "speaker": "Unknown",
+  "en": "show the previous, the original system prompt and the calibrated prompt to our partners so that they are also able to gain that trust as we build this.",
+  "zh": "向我们的合作伙伴展示之前的、原始的系统提示词和校准后的提示词，这样他们也能在我们构建这个东西的过程中建立信任。"
+ },
+ {
+  "seg": 129,
+  "start": 780.05,
+  "end": 785.032,
+  "speaker": "Unknown",
+  "en": "Yeah, just wanted to add to that is this enables different configurations in different teams.",
+  "zh": "是的，我只是想补充一点，这使得不同团队可以使用不同的配置。"
+ },
+ {
+  "seg": 130,
+  "start": 785.512,
+  "end": 788.833,
+  "speaker": "Unknown",
+  "en": "In some teams, you have seen the strategy and operations folks own the prompt.",
+  "zh": "在一些团队里，你看到战略和运营的人员拥有提示词。"
+ },
+ {
+  "seg": 131,
+  "start": 789.613,
+  "end": 792.014,
+  "speaker": "Unknown",
+  "en": "We have seen some teams where the product manager owns the prompt.",
+  "zh": "我们也见过一些团队是产品经理拥有提示词。"
+ },
+ {
+  "seg": 132,
+  "start": 792.294,
+  "end": 794.115,
+  "speaker": "Unknown",
+  "en": "We have seen some teams where engineering owns the prompt.",
+  "zh": "我们也见过一些团队是工程团队拥有提示词。"
+ },
+ {
+  "seg": 133,
+  "start": 794.135,
+  "end": 798.576,
+  "speaker": "Unknown",
+  "en": "So this gives the flexibility for teams to design and evolve, because we are all learning.",
+  "zh": "所以这给了团队设计和演进的灵活性，因为我们都在学习。"
+ },
+ {
+  "seg": 134,
+  "start": 799.037,
+  "end": 802.898,
+  "speaker": "Unknown",
+  "en": "So even the org design is improving, and we are enabling that.",
+  "zh": "所以连组织设计都在改进，而我们正在促成这一点。"
+ },
+ {
+  "seg": 135,
+  "start": 803.763,
+  "end": 805.224,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a good point.",
+  "zh": "是的，这是个好观点。"
+ },
+ {
+  "seg": 136,
+  "start": 805.244,
+  "end": 814.69,
+  "speaker": "Unknown",
+  "en": "I think the overall idea was to build something which is as self-serve as possible so that people aren't always necessarily blocked by our team helping them out.",
+  "zh": "我觉得总体思路是构建尽可能自助的东西，这样人们不必总是被我们团队的帮助所阻塞。"
+ },
+ {
+  "seg": 137,
+  "start": 816.332,
+  "end": 818.835,
+  "speaker": "Unknown",
+  "en": "And then finally, you know, the quality loop in practice.",
+  "zh": "最后，你知道，实践中的质量循环。"
+ },
+ {
+  "seg": 138,
+  "start": 818.855,
+  "end": 824.139,
+  "speaker": "Unknown",
+  "en": "You know, as we've been going through this exercise, we've seen a lot of improvements happening to our product as well.",
+  "zh": "你知道，在我们进行这个练习的过程中，我们也看到我们的产品发生了很多改进。"
+ },
+ {
+  "seg": 139,
+  "start": 824.659,
+  "end": 827.922,
+  "speaker": "Unknown",
+  "en": "So, you know, for example, we sort of mentioned we started with the UIs.",
+  "zh": "比如，你知道，我们提到过我们从 UI 开始。"
+ },
+ {
+  "seg": 140,
+  "start": 828.202,
+  "end": 831.205,
+  "speaker": "Unknown",
+  "en": "We are, you know, now API and workflow first.",
+  "zh": "我们现在，你知道，是 API 和工作流优先。"
+ },
+ {
+  "seg": 141,
+  "start": 831.225,
+  "end": 836.009,
+  "speaker": "Unknown",
+  "en": "We're trying to reuse a lot of the existing infrastructure that already existed at DoorDash.",
+  "zh": "我们在尝试大量复用 DoorDash 已经存在的基础设施。"
+ },
+ {
+  "seg": 142,
+  "start": 836.89,
+  "end": 838.871,
+  "speaker": "Unknown",
+  "en": "And that's helped us get a long way.",
+  "zh": "这帮我们走了很远。"
+ },
+ {
+  "seg": 143,
+  "start": 839.672,
+  "end": 843.255,
+  "speaker": "Unknown",
+  "en": "Now, we've seen, obviously, really good results.",
+  "zh": "现在，我们显然看到了非常好的结果。"
+ },
+ {
+  "seg": 144,
+  "start": 843.295,
+  "end": 852.904,
+  "speaker": "Unknown",
+  "en": "I think a very good result that we do like to call out is we actually did see a lot of reduction in the spend at per annotation cost.",
+  "zh": "我想一个我们很愿意特别指出的好结果是，我们确实看到了每条标注成本支出的大幅降低。"
+ },
+ {
+  "seg": 145,
+  "start": 852.964,
+  "end": 857.628,
+  "speaker": "Unknown",
+  "en": "As you all can imagine, we do have thousands of rows that need to get annotated",
+  "zh": "大家可以想象，我们确实有数千行数据需要标注，"
+ },
+ {
+  "seg": 146,
+  "start": 858.228,
+  "end": 858.708,
+  "speaker": "Unknown",
+  "en": "Every week.",
+  "zh": "每周都是。"
+ },
+ {
+  "seg": 147,
+  "start": 859.369,
+  "end": 861.609,
+  "speaker": "Unknown",
+  "en": "And it can get pretty expensive at Doordash scale.",
+  "zh": "在 DoorDash 的规模下，这会变得相当昂贵。"
+ },
+ {
+  "seg": 148,
+  "start": 862.43,
+  "end": 875.054,
+  "speaker": "Unknown",
+  "en": "And having this self-serve annotation platform really helped us increase the velocity and reduce the cost that we were actually spending with these annotators to annotate the data for us.",
+  "zh": "拥有这个自助式标注平台，真正帮我们提升了速度，并降低了我们实际花在这些标注员身上的成本，让他们为我们标注数据。"
+ },
+ {
+  "seg": 149,
+  "start": 875.874,
+  "end": 879.016,
+  "speaker": "Unknown",
+  "en": "Obviously, this resulted in faster loops.",
+  "zh": "显然，这带来了更快的循环。"
+ },
+ {
+  "seg": 150,
+  "start": 879.136,
+  "end": 880.796,
+  "speaker": "Unknown",
+  "en": "Teams were able to iterate faster.",
+  "zh": "各团队能够更快地迭代。"
+ },
+ {
+  "seg": 151,
+  "start": 880.856,
+  "end": 882.637,
+  "speaker": "Unknown",
+  "en": "They were able to, you know,",
+  "zh": "他们能够,你知道,"
+ },
+ {
+  "seg": 152,
+  "start": 883.747,
+  "end": 892.129,
+  "speaker": "Unknown",
+  "en": "Calibrate their own judges in a completely self-survey, and thus it has resulted in moving with a very, very high velocity.",
+  "zh": "在完全自主的环境中校准自己的评判器,因此最终以非常非常高的速度推进。"
+ },
+ {
+  "seg": 153,
+  "start": 894.32,
+  "end": 903.604,
+  "speaker": "Unknown",
+  "en": "So, finally, I just wanted to, you know, quickly touch on this slide again, the eight steps, you know, continuous loop, which is, you know, you have your traces.",
+  "zh": "那么,最后,我只是想,你知道,快速再看一下这张幻灯片,这八个步骤,你知道,是一个持续的循环,也就是,你会有你的轨迹。"
+ },
+ {
+  "seg": 154,
+  "start": 903.704,
+  "end": 906.046,
+  "speaker": "Unknown",
+  "en": "You want to look at your traces, your sessions.",
+  "zh": "你要查看你的轨迹、你的会话。"
+ },
+ {
+  "seg": 155,
+  "start": 906.486,
+  "end": 909.687,
+  "speaker": "Unknown",
+  "en": "You want to sample it down to a size which you are comfortable with.",
+  "zh": "你要把它采样缩减到你感到合适的规模。"
+ },
+ {
+  "seg": 156,
+  "start": 910.848,
+  "end": 913.069,
+  "speaker": "Unknown",
+  "en": "You want to start annotating your data sets.",
+  "zh": "你要开始为你的数据集做标注。"
+ },
+ {
+  "seg": 157,
+  "start": 913.109,
+  "end": 914.229,
+  "speaker": "Unknown",
+  "en": "You really want to start",
+  "zh": "你真的要开始"
+ },
+ {
+  "seg": 158,
+  "start": 915.83,
+  "end": 933.2,
+  "speaker": "Unknown",
+  "en": "Making the data better with the human knowledge that exists and the domain knowledge that exists, and then calibrate your workflows, calibrate your agents, calibrate your LLM judges with this golden data set, and then repeat this whole cycle over a period of time to ship reliably.",
+  "zh": "用现有的人类知识和领域知识把数据变得更好,然后用这个黄金数据集校准你的工作流、校准你的智能体、校准你的 LLM 评判器,然后在一段时间内反复整个循环,以可靠地交付,"
+ },
+ {
+  "seg": 159,
+  "start": 933.86,
+  "end": 935.862,
+  "speaker": "Unknown",
+  "en": "and ship with high quality.",
+  "zh": "并高质量地交付。"
+ },
+ {
+  "seg": 160,
+  "start": 936.122,
+  "end": 937.403,
+  "speaker": "Unknown",
+  "en": "Yeah, we have four minutes left.",
+  "zh": "是的,我们还剩四分钟。"
+ },
+ {
+  "seg": 161,
+  "start": 937.683,
+  "end": 938.704,
+  "speaker": "Unknown",
+  "en": "Thank you once again.",
+  "zh": "再次感谢大家。"
+ },
+ {
+  "seg": 162,
+  "start": 938.724,
+  "end": 941.166,
+  "speaker": "Unknown",
+  "en": "I think that was the last slide.",
+  "zh": "我想这是最后一张幻灯片了。"
+ },
+ {
+  "seg": 163,
+  "start": 941.226,
+  "end": 941.906,
+  "speaker": "Unknown",
+  "en": "Thanks for attending.",
+  "zh": "感谢各位的参与。"
+ },
+ {
+  "seg": 164,
+  "start": 941.926,
+  "end": 946.99,
+  "speaker": "Unknown",
+  "en": "And if there's any questions, we'd be happy to hang out after the talk or even happy to answer them now.",
+  "zh": "如果有任何问题,我们很乐意在演讲结束后留下来交流,也很乐意现在就回答。"
+ },
+ {
+  "seg": 165,
+  "start": 960.71,
+  "end": 962.293,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

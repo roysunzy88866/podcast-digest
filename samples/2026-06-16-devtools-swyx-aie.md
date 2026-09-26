@@ -126,7 +126,7 @@ Swyx 对黑客松持明确反对态度——"很多人为了赢会作弊，激�
 
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同嘉宾:Swyx · 同公司:Modal · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:代码模式 (code mode)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|AI 想给每个人定制 App,但云架构 25 年前就走错了路]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic · 同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe Projects</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe Projects">ST</div><div class="pi"><h1 class="pt">Stripe Projects</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe Projects">ST</div><div class="pi"><h1 class="pt">Stripe Projects</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(17:17起):本集说 Stripe Projects 狭义上是脚手架应用的方式，但最令人兴奋的是它是一种以智能体方式配置 B2B 服务的方式——智能体可以直接去采用 Vercel 等服务而不需要人去操作。
+- **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(00:44起):本集说 Stripe Projects 是一个刚发布的编排器:一条命令通过 CLI 帮你开通 Stripe 账户并连带配好后端服务(Vercel、Postgres、Metronome 计费智能体);Vercel、Hugging Face 等已在其环境中让产品对智能体可被发现。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为概念
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[David George]] · [[Will Gabrick]] · [[Stripe]] · [[Stripe Minions]] · [[智能体]] · [[智能体商务]] · [[稳定币]] · [[微交易]] · [[Tempo]] · [[link agent wallet]]
+[[Stripe]] · [[智能体]] · [[智能体商务]] · [[Metronome]] · [[David George]] · [[Andrew Garvin]] · [[Will Gabrick]] · [[OpenAI]] · [[Stripe Minions]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"David George":3,"Will Gabrick":1,"Stripe":36,"Stripe Minions":1,"智能体":330,"智能体商务":3,"稳定币":5,"微交易":1,"Tempo":1,"link agent wallet":1}</script>
+<script type="application/json" class="pd-epn">{"Stripe":37,"智能体":334,"智能体商务":4,"Metronome":2,"David George":3,"Andrew Garvin":1,"Will Gabrick":1,"OpenAI":134,"Stripe Minions":1,"Anthropic":145}</script>
 
 <script>
 (function(){

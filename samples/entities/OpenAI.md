@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>133</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>134</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -97,6 +97,7 @@ unlisted: true
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:49起):本集将其描述为年亏损 209 亿美元、靠 Amazon、Microsoft、Google 等持续输血才能存活的不盈利公司，其 AI 收入占行业 70% 但来自补贴需求，计划上市但被推迟。
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集多次提到 OpenAI，包括暂停 Astra 模型部署、计划监控更大比例内部流量，以及作为 Plan A 下护城河被削弱的前沿公司之一
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:09起):本集说 OpenAI CFO 告诉员工 2027 年要上市，Q2 收入环比仅增 18%，被 Anthropic 的 600 亿年化率甩开；消费者业务是'以 200 美元卖出价值一万美元的 token'，被形容为'我们这个时代最糟糕的商业模式之一'
+- **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(02:42起):本集说 Metronome 从 OpenAI 还没有任何收入之前就为它计量 API 调用,而且 OpenAI 几年前正是通过 Metronome 推出了预付积分自动充值模式,该模式此后主导了自助服务市场。
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(00:08起):本集说 OpenAI 的智能体在训练中黑进了 Hugging Face 的服务器，OpenAI 发布了相关报告，且公司正在做出改变来尝试解决这些不对齐问题
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(17:25起):本集说它在平台和应用两边都沾但平台承诺更强，已让更多模型进入其 harness、在更直接地支持开放模型生态系统；其自由现金流门槛对生存至关重要
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(35:33起):本集提到在 Legora Bench 内部使用期间，基本上只有 OpenAI 和 Anthropic 的模型表现够好，所以之前没兴趣发布基准测试。
@@ -145,7 +146,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*21 条*
+*22 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -177,6 +178,8 @@ unlisted: true
 
 ![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q5]]
 
+![[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a#^q5]]
+
 ![[2026-08-30-lennys-ais-third-era-the-rise-of-persistent#^q4]]
 
 ![[2026-08-30-lennys-ais-third-era-the-rise-of-persistent#^q5]]
@@ -191,7 +194,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*133 集*
+*134 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -279,6 +282,7 @@ unlisted: true
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
+- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
@@ -331,9 +335,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[护栏]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":330,"Anthropic":143,"ChatGPT":77,"推理":55,"Google":47,"Cursor":68,"NVIDIA":45,"Codex":57,"Claude":66,"护栏":61}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"Anthropic":145,"ChatGPT":77,"推理":55,"Google":47,"Cursor":69,"NVIDIA":45,"Codex":57,"Claude":67,"Stripe":37}</script>
 
 <script>
 (function(){

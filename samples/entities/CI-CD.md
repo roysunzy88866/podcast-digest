@@ -54,7 +54,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[护栏]] · [[Anthropic]] · [[Codex]] · [[token]] · [[Python]] · [[Claude Code]] · [[OpenAI]] · [[沙箱]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":330,"护栏":61,"Anthropic":143,"Codex":57,"token":26,"Python":5,"Claude Code":76,"OpenAI":133,"沙箱":59,"MCP":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":334,"护栏":61,"Anthropic":145,"Codex":57,"token":26,"Python":5,"Claude Code":76,"OpenAI":134,"沙箱":60,"MCP":60}</script>
 
 <script>
 (function(){

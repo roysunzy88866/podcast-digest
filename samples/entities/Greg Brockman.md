@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":5,"OpenAI":133,"Stripe":36,"Astra":2,"ChatGPT":77,"Codex":57,"AGI":26,"计算机使用":14,"对齐":10,"沙箱":59}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":5,"OpenAI":134,"Stripe":37,"Astra":3,"ChatGPT":77,"Codex":57,"AGI":26,"计算机使用":14,"对齐":10,"沙箱":60}</script>
 
 <script>
 (function(){

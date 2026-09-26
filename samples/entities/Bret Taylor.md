@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
+[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":6,"智能体":330,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":60}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":6,"智能体":334,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":60}</script>
 
 <script>
 (function(){

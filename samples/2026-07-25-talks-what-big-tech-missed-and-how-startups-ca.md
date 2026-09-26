@@ -135,8 +135,8 @@ Alex 说现在的机器人「非常非常笨」：硬件进化得令人难以置
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同概念:LLM、世界模型 (world model)</span>
+- [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|编码智能体开始接管机器人：LLM 控制物理世界的前沿]]<span class="pd-rz">同概念:LLM、VLA</span>
 - [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同概念:LLM、AGI</span>
-- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同概念:LLM、AGI</span>
 
 </div>
 <div class="pd-ex">

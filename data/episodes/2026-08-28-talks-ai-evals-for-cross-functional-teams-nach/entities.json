@@ -1,0 +1,599 @@
+{
+  "episode_id": "2026-08-28-talks-ai-evals-for-cross-functional-teams-nach",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "评估(evals)",
+    "智能体",
+    "AI 基础设施",
+    "跨职能协作",
+    "vibe coding"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "swaroop-chitlur-haridas",
+      "type": "person",
+      "role": "guest",
+      "name": "Swaroop Chitlur Haridas",
+      "file": "Swaroop Chitlur Haridas",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nachiket-paranjape",
+      "type": "person",
+      "role": "guest",
+      "name": "Nachiket Paranjape",
+      "file": "Nachiket Paranjape",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            24.611,
+            29.052
+          ],
+          "quote": "We are here on behalf of the DoorDash JNAI platform team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.229,
+            59.033
+          ],
+          "quote": "So product teams add DoorDash, build on top of the infrastructure and the primitives that we provide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            131.699,
+            135.215
+          ],
+          "quote": "When we started talking to product teams internally at DoorDash, there were",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            273.532,
+            281.558
+          ],
+          "quote": "So going a little bit deeper into the same aspect, we have different teams at DoorDash who help us actually improve the quality of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            831.225,
+            836.009
+          ],
+          "quote": "We're trying to reuse a lot of the existing infrastructure that already existed at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            859.369,
+            861.609
+          ],
+          "quote": "And it can get pretty expensive at Doordash scale.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集主题:系统衡量 AI 输出质量的实践,被说成不只是工程测试框架,而是一项把领域专家判断注入 AI 质量的跨职能团队运动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            31.013,
+            33.075
+          ],
+          "quote": "And we kind of wanted to share our EVALS journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.295,
+            43.502
+          ],
+          "quote": "It started as, you know, EVALS is another engineering thing, but then it slowly we realized it evolved into a cross-functional effort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            124.834,
+            128.977
+          ],
+          "quote": "The fourth pillar is evals, and that's the part that we would want to share today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            158.13,
+            161.571
+          ],
+          "quote": "And with multi-agent systems, we needed trajectory-based evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            240.802,
+            244.583
+          ],
+          "quote": "So as Farooq was saying, evals is not just an engineering harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            307.289,
+            318.172
+          ],
+          "quote": "And combining all these together is what a recipe is for actually making sure that you are shipping quality AI products through an evals platform.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把准确性、延迟、成本的三力平衡从模型扩展到智能体;多智能体系统需要基于轨迹的评估,智能体行为通过追踪被捕捉和分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            91.272,
+            96.195
+          ],
+          "quote": "We have an agent gateway where you can connect to tools and other agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            97.275,
+            104.439
+          ],
+          "quote": "And we help solve authentication, agent identity, and other things in a central place, which our security team can bless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            158.13,
+            161.571
+          ],
+          "quote": "And with multi-agent systems, we needed trajectory-based evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 网关 (LLM gateway)",
+      "file": "LLM 网关",
+      "primary": true,
+      "how_described": "本集介绍的平台四大支柱之一:可以在不同模型之间轻松切换、尝试最新最好的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            83.169,
+            90.292
+          ],
+          "quote": "So for example, we have an LLM gateway where you can easily switch between different models and try the latest and greatest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            105.739,
+            109.983
+          ],
+          "quote": "Similarly, we pair the LLM Gateway with OpenWeights models hosting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体网关 (agent gateway)",
+      "file": "智能体网关",
+      "primary": true,
+      "how_described": "本集介绍的平台四大支柱之一:连接工具和其他智能体,在中心位置统一解决认证和智能体身份问题,供安全团队认可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            91.272,
+            96.195
+          ],
+          "quote": "We have an agent gateway where you can connect to tools and other agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openweights-models-hosting",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型托管 (OpenWeights models hosting)",
+      "file": "开源权重模型托管",
+      "primary": true,
+      "how_described": "本集说 DoorDash 押注开源权重模型来应对成本这一头号关注点,并已看到显著影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            105.739,
+            109.983
+          ],
+          "quote": "Similarly, we pair the LLM Gateway with OpenWeights models hosting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 即评审器 (LLM as a judge)",
+      "file": "LLM 即评审器",
+      "primary": true,
+      "how_described": "本集说成用一个 LLM 按裁判提示词给输出打分的做法;DoorDash 把它的校准做成自助 UI,让 PM 和运营人员自己跑基线分数和优化循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            673.455,
+            682.721
+          ],
+          "quote": "And once the iteration loop is complete, our partner teams are happy, they're going to then elevate that judge prompt as their LLM as a judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            683.842,
+            694.608
+          ],
+          "quote": "Now, even while doing that, LLM as a judge, as a concept, the whole prompt calibration concept might be straightforward to a lot of folks, but it is still like a pretty new and evolving field.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "golden-datasets",
+      "type": "concept",
+      "role": "concept",
+      "name": "黄金数据集 (golden datasets)",
+      "file": "黄金数据集",
+      "primary": true,
+      "how_described": "本集说成由领域专家标注、审查后生成的数据集,用来衡量和校准评审器的基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            345.228,
+            355.612
+          ],
+          "quote": "Reviewing those, then creating those golden datasets, which are going to be your golden datasets that you want to measure or calibrate against.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            400.794,
+            406.062
+          ],
+          "quote": "This is where they review their golden datasets, create their judges, calibrate their judges, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            638.537,
+            642.182
+          ],
+          "quote": "You want to now start improving that with these golden datasets.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "annotation",
+      "type": "concept",
+      "role": "concept",
+      "name": "标注 (annotation)",
+      "file": "标注",
+      "primary": true,
+      "how_described": "本集强调标注是把领域知识加进数据的关键环节;自助式标注平台让每条标注成本大幅降低、速度提升,每周数千行数据在 DoorDash 规模下原本相当昂贵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            397.43,
+            399.693
+          ],
+          "quote": "So this is where all the annotation tasks are set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            493.148,
+            495.049
+          ],
+          "quote": "Step two is on the annotation side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            565.842,
+            576.504
+          ],
+          "quote": "So because we had these APIs, we were actually able to enable our stat ops teams to use something like a Codex or a Claude Code and Vibecode their own annotation UIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            583.877,
+            585.697
+          ],
+          "quote": "We had image annotation use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            593.019,
+            600.881
+          ],
+          "quote": "So, if we are API first, we can actually enable our partners to simply Vibecode these UIs for annotation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            606.122,
+            610.964
+          ],
+          "quote": "It looks pretty clean, does the job, and you get the annotation that you need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            616.705,
+            627.848
+          ],
+          "quote": "But the point I want to make here is that what helped us was to give this workflow in the hands of the operators so that they can actually build their own vibe-coded annotation UIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            629.263,
+            635.152
+          ],
+          "quote": "So moving on, once you have these annotation UIs, you obviously want to, you know, calibrate your judge prompts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            843.295,
+            852.904
+          ],
+          "quote": "I think a very good result that we do like to call out is we actually did see a lot of reduction in the spend at per annotation cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            862.43,
+            875.054
+          ],
+          "quote": "And having this self-serve annotation platform really helped us increase the velocity and reduce the cost that we were actually spending with these annotators to annotate the data for us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪 (traces)",
+      "file": "追踪",
+      "primary": true,
+      "how_described": "本集把追踪说成质量循环的起点:捕捉智能体和 LLM 实际输出的会话与追踪记录,存于遥测层,可经 MCP、SDK 和 API 访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            258.726,
+            267.208
+          ],
+          "quote": "So from your traces to your data sets, from your scoring mechanisms, this is all basically a team sport.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            325.814,
+            344.628
+          ],
+          "quote": "So right from tracing, having a tracing solution, viewing your sessions, your traces, to sampling them down to a very small set that you actually want to look at, annotating these with the domain-specific expertise that you bring in with the different teams I mentioned,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            376.391,
+            382.254
+          ],
+          "quote": "So we have the telemetry layer where we have all our traces, our scores, observations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            382.795,
+            389.299
+          ],
+          "quote": "That is also sort of the plane where users are able to access these traces using an MCP, using an SDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            467.306,
+            476.229
+          ],
+          "quote": "Going back and just refreshing your memory, step one, capture your traces, capture your sessions, measure your scores.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            495.509,
+            507.473
+          ],
+          "quote": "So you obviously are capturing a lot of your agentic behavior, your sessions, your traces, but you actually want to see what are some places where things went well and what are some places where things did not go well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            657.926,
+            666.211
+          ],
+          "quote": "You're going to have your baseline scores where you're going to simply run those LLM judges on your traces, and then you're going to have that optimization loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            894.32,
+            903.604
+          ],
+          "quote": "So, finally, I just wanted to, you know, quickly touch on this slide again, the eight steps, you know, continuous loop, which is, you know, you have your traces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            903.704,
+            906.046
+          ],
+          "quote": "You want to look at your traces, your sessions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "api-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "API 优先 (API-first)",
+      "file": "API 优先",
+      "primary": true,
+      "how_described": "本集说成平台演进的关键一步:先建稳定 API 再在其上构建 UI,让工程师不被中央平台阻塞,也解锁了用编程智能体自助生成标注界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            197.791,
+            205.58
+          ],
+          "quote": "Then we kind of evolved to also being API first so that engineers can also build and not be blocked on the central platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            430.825,
+            439.775
+          ],
+          "quote": "Now, in order to also power this whole platform, I think, as Swaroop mentioned, we have gone in an API-first approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            559.32,
+            565.182
+          ],
+          "quote": "Everybody has access to coding agents, and we actually doubled down on that API-first approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            593.019,
+            600.881
+          ],
+          "quote": "So, if we are API first, we can actually enable our partners to simply Vibecode these UIs for annotation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

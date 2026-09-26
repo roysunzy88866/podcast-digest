@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ON</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>495</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>501</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*495 条*
+*501 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q3]]
 
@@ -653,11 +653,19 @@ unlisted: true
 
 ![[2026-08-28-pg-company-os-hermes-openclaw#^q2]]
 
+![[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach#^q1]]
+
+![[2026-08-28-talks-building-the-engine-while-flying-the-pla#^q6]]
+
+![[2026-08-28-talks-building-the-engine-while-flying-the-pla#^q7]]
+
 ![[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl#^q4]]
 
 ![[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl#^q5]]
 
 ![[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl#^q7]]
+
+![[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a#^q3]]
 
 ![[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#^q1]]
 
@@ -1004,6 +1012,10 @@ unlisted: true
 ![[2026-09-26-mos-rapid-response-stop-creating-businesses#^q18]]
 
 ![[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age#^q4]]
+
+![[2026-09-26-yc-robot-use-agents-why-general-purpose-mod#^q3]]
+
+![[2026-09-26-yc-robot-use-agents-why-general-purpose-mod#^q5]]
 
 ![[2026-singju-openclaw-80apps#^q1]]
 
