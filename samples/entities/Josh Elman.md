@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":77,"智能体":321,"信任建立":4,"微短剧":1,"推理":53,"网络效应":12,"语音":1,"Discord":5}</script>
+<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":77,"智能体":325,"信任建立":4,"微短剧":1,"推理":54,"网络效应":12,"语音":1,"Discord":6}</script>
 
 <script>
 (function(){

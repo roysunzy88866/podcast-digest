@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]]**(00:16起):本集批判的对象：令牌是一个布尔值、静态的权限列表——太紧智能体没用，太宽就是在写事故复盘；标题主张「给预算，不是给令牌」。
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(32:22起):本集说从生成式 AI 到智能体 AI，token 消耗量是两年前系统的 20 到 40 倍，一个输入可能触发 50 个动作，智能体可能陷入循环吃掉大量 token
 - **[[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]]**(02:21起):本集把 token 当作今天智能的计量单位：他的北极星是每 token 成本全行业最低，token 买了立即用、无法囤积，因此推理支出无投机性。
+- **[[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|《智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建》]]**(14:00起):本集反复以 token 成本论证抓取原则的价值:Fast Search API 响应不到 2,000 个 token、Web Scraper API 只返回有效内容,都是为了减少 token 浪费、让成本可预测。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(11:47起):本集解释为约四分之三个单词，是 AI 公司的计费货币，像出租车的计价器；月费订阅隐藏了实际 token 消耗，200 美元月费可烧掉 14000 美元的 token。
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(27:18起):本集说我们不再处于 token 最大化（token maxing）的时代了，要为每一个 token 获取价值，因为它变得越来越贵
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(09:43起):本集说企业和个人已经'对 token 上瘾了'——'我需要我的 10 个子智能体全天候 24 小时运行来做我的工作，否则我就辞职'；但 CFO 面临硬约束，token 账单会直接冲击 EPS
@@ -35,10 +36,11 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(11:01起):本集说智能体工作流烧 token 极凶,有 YouTube 博主估算 200 美元订阅相当于每月 1.5 万美元的 API token 用量,公司等于在价格倾销。
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(23:23起):本集谈到 token 支出已成真问题：有工程师每月花 30,000 美元买 token；Zapier 暂不设预算、给成本仪表盘自我管理，Wade 预计 token 预算终将成真且属于 AI 素养的一部分。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(05:50起):本集围绕 token 经济展开：缓存 token 是印钞机、token 价格五年降 60 倍但质量涨约百倍，单位智能价值可能接近千倍提升，且未来可能不再按 token 定价。
+- **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(63:10起):Anjney 的大局判断:token 是正在互联网上传输的新的价值单位,未来 10 年整个互联网价值链都得应对——token 越值钱,越多坏人想染指。
 
 ## ① 提到它的金句
 
-*35 条*
+*36 条*
 
 ![[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth#^q8]]
 
@@ -88,6 +90,8 @@ unlisted: true
 
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q4]]
 
+![[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so#^q5]]
+
 ![[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#^q7]]
 
 ![[2026-08-29-yc-max-junestrand-you-need-the-willingness#^q11]]
@@ -112,7 +116,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*26 集*
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
@@ -125,6 +129,7 @@ unlisted: true
 - [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|《给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道》]] — 作为概念
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为概念
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|《把 token 压到最便宜：一家「代币工厂」的算力拾荒术》]] — 作为概念
+- [[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|《智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建》]] — 作为概念
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为概念
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为概念
@@ -138,14 +143,15 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为概念(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为概念
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为概念
+- [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[GPU]] · [[Codex]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[OpenRouter]] · [[GPU]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"Anthropic":139,"OpenAI":130,"Cursor":68,"推理":53,"NVIDIA":45,"ChatGPT":77,"GPU":18,"Codex":57,"Claude Code":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"Anthropic":140,"OpenAI":131,"Cursor":68,"推理":54,"NVIDIA":45,"ChatGPT":77,"OpenRouter":11,"GPU":18,"Codex":57}</script>
 
 <script>
 (function(){

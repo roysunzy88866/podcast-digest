@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex Finn]] · [[系统提示词]] · [[Fable]] · [[Anthropic]] · [[open ai]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
 
-<script type="application/json" class="pd-epn">{"Alex Finn":1,"系统提示词":6,"Fable":9,"Anthropic":139,"open ai":2,"Codex":57,"智能体":321,"提示词":17,"原型":7,"浏览器使用":8}</script>
+<script type="application/json" class="pd-epn">{"Alex Finn":1,"系统提示词":6,"Fable":9,"Anthropic":140,"open ai":2,"Codex":57,"智能体":325,"提示词":17,"原型":7,"浏览器使用":8}</script>
 
 <script>
 (function(){

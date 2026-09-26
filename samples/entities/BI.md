@@ -31,7 +31,7 @@ unlisted: true
 
 [[Colin Zima]] · [[Omni]] · [[Looker]] · [[Snowflake]] · [[Databricks]] · [[Google]] · [[数据模型]] · [[语义层]] · [[创新者的窘境]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Colin Zima":1,"Omni":1,"Looker":1,"Snowflake":12,"Databricks":15,"Google":47,"数据模型":1,"语义层":4,"创新者的窘境":3,"产品市场契合":22}</script>
+<script type="application/json" class="pd-epn">{"Colin Zima":1,"Omni":1,"Looker":1,"Snowflake":13,"Databricks":15,"Google":47,"数据模型":1,"语义层":4,"创新者的窘境":3,"产品市场契合":22}</script>
 
 <script>
 (function(){

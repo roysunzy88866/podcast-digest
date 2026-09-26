@@ -143,9 +143,9 @@ Varun 的天花板：改一份规格说明、系统自动写越来越多的代�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)、人在回路 (human in the loop)</span>
 - [[2026-07-13-eyeonai-inside-the-enterprise-browser-rebuilding|企业浏览器 Island：给智能体戴上企业级护栏]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:MCP、多智能体协作 (agent-to-agent)、智能体 (agent)</span>
-- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:人在回路 (human in the loop)、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

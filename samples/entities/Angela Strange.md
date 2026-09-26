@@ -25,17 +25,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gabriel Vasquez]] · [[Elena Berger]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[DoorDash]]
+[[Gabriel Vasquez]] · [[Elena Berger]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[MidJourney]] · [[OpenAI]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":15,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":17,"Brex":5,"OpenAI":130,"DoorDash":7}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":15,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":18,"Brex":5,"MidJourney":3,"OpenAI":131}</script>
 
 <script>
 (function(){

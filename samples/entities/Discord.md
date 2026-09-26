@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Discord</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Discord">DI</div><div class="pi"><h1 class="pt">Discord</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Discord">DI</div><div class="pi"><h1 class="pt">Discord</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,25 +15,27 @@ unlisted: true
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(18:00起):本集把它说成:嘉宾因高度面向客户而日常使用的团队沟通软件，可用于替代 Linear 等工具的团队聊天功能。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(25:50起):本集反复用 Discord 做核心方法论案例：先赢得游戏语音场景，再变成聊天的地方，『慢慢赢得了让你在更多事情上依赖它的资格』——也是 2015 年新社交网络仍能崛起的证明
 - **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(01:44起):本集说嘉宾是 Discord 的产品负责人，收购了 Nikita Bier 的公司；通过聚焦「和朋友一起玩多人游戏」这一被公认 100% 渗透的核心人群，做出了疫情后最快的增长。
+- **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(08:23起):本集把 Discord 说成早期 AI 应用的培养皿:Anjney 在此负责平台,做内容审核时被 OpenAI 拒绝给权重,由此意识到需要开放模型;MidJourney、Claude 内测版都在这里长大。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:25起):本集提到嘉宾为了让公众“体验”到 OpenClaw 的厉害之处，做了一个挺疯的举动：创建了一个 Discord，把自己的机器人毫无安全限制地放进去，让大家来交互、看他构建软件甚至黑它。
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
+- [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Twitter]] · [[Meta]] · [[ChatGPT]] · [[护栏]] · [[MCP]] · [[信任建立]] · [[OpenClaw]] · [[Zico Kolter]]
+[[智能体]] · [[Codex]] · [[Anthropic]] · [[Meta]] · [[ChatGPT]] · [[OpenAI]] · [[Twitter]] · [[MCP]] · [[信任建立]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"Codex":57,"Twitter":7,"Meta":35,"ChatGPT":77,"护栏":57,"MCP":57,"信任建立":4,"OpenClaw":18,"Zico Kolter":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"Codex":57,"Anthropic":140,"Meta":35,"ChatGPT":77,"OpenAI":131,"Twitter":7,"MCP":58,"信任建立":4,"护栏":58}</script>
 
 <script>
 (function(){

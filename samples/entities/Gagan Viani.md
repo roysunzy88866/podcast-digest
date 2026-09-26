@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]] [[Diogo Almeida]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Biani]] [[Goggin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":3,"Replit":17,"vibe coding":37,"机器学习":4,"微调":20,"AGI":26,"ChatGPT":77,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":3,"Replit":17,"vibe coding":37,"机器学习":4,"微调":21,"AGI":26,"ChatGPT":77,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
 
 <script>
 (function(){

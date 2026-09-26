@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":15,"token":24,"GPU":18,"推理":53,"商业地产":1,"前沿模型":21,"harness":44,"预训练":6,"后训练":1,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"数据中心":15,"token":26,"GPU":18,"推理":54,"商业地产":1,"前沿模型":21,"harness":44,"预训练":6,"后训练":1,"AGI":26}</script>
 
 <script>
 (function(){

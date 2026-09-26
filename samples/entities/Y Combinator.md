@@ -7,23 +7,25 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Y Combinator</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Y Combinator">Y </div><div class="pi"><h1 class="pt">Y Combinator</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Y Combinator">Y </div><div class="pi"><h1 class="pt">Y Combinator</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]]**(02:23起):本集是 YC 合伙人的公开答问；多位合伙人说 YC 投的是人不是想法、上一批约三分之一的公司转型改了想法，并在试验让 AI 成为 YC 的 AI 原生公司（如虚拟合伙人办公时间）
 - **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(19:46起):本集把它说成：Boom 早期曾参加过的创业孵化器，Boom 当时在批次结束时展示的仅是一个用硬纸板和胶合板拼成的客机模型。
 - **[[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|《Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体》]]**(03:48起):本集说 Circleback 来自 YC 24 冬季批次；Ali 用 Circleback 建了专门的 YC 公司页面，跟踪接触过的 YC 人员、行动项和完整对话时间线。
+- **[[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]]**(03:34起):本集说 Christopher 刚参加完 Y Combinator，并以此说明如今获客「就是给人们一条提示词」。
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(00:07起):本集讲述 Legora 第一次申请 YC 被拒、两个月后以新名字被录取的经历，称在瑞典被 YC 录取感觉像去奥林匹斯山。
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(03:02起):本集提到 Gusto 是在 YC 创办的公司，并引用 YC 的 Gary Tan『煮沸海洋』的说法
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-25-talks-what-actually-makes-a-startup-durable|《YC 合伙人现场答问：AI 时代创业的难与易》]] — 作为被讨论公司
 - [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为被讨论公司(提及)
 - [[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|《Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体》]] — 作为被讨论公司
+- [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]] — 作为被讨论公司(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为被讨论公司(提及)
 
@@ -31,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[联合创始人]] · [[评估]] · [[GoCardless]] · [[Blake Scholl]] · [[Ali Haghani]] · [[Max Junestrand]] · [[Tomer London]] · [[Brex]] · [[Boom]]
+[[智能体]] · [[联合创始人]] · [[评估]] · [[GoCardless]] · [[Blake Scholl]] · [[Ali Haghani]] · [[Christopher Burns]] · [[Max Junestrand]] · [[Tomer London]] · [[Brex]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"联合创始人":4,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Max Junestrand":1,"Tomer London":1,"Brex":5,"Boom":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"联合创始人":4,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Christopher Burns":1,"Max Junestrand":1,"Tomer London":1,"Brex":5}</script>
 
 <script>
 (function(){

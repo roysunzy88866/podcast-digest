@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Jeanne DeWitt Grosser]] · [[Eric Landau]] · [[Flora Liu]] · [[Lenny]] · [[Anchored]] · [[Notion]] · [[Vercel]] · [[物理 AI]] · [[GTM]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"Jeanne DeWitt Grosser":1,"Eric Landau":1,"Flora Liu":1,"Lenny":67,"Anchored":1,"Notion":14,"Vercel":17,"物理 AI":8,"GTM":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"Jeanne DeWitt Grosser":1,"Eric Landau":1,"Flora Liu":1,"Lenny":67,"Anchored":1,"Notion":14,"Vercel":18,"物理 AI":8,"GTM":1}</script>
 
 <script>
 (function(){

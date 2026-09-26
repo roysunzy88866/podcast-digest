@@ -1,0 +1,577 @@
+{
+  "episode_id": "2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "文档工程",
+    "开源",
+    "开发者体验"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "christopher-burns",
+      "type": "person",
+      "role": "guest",
+      "name": "Christopher Burns",
+      "file": "Christopher Burns",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            67.348,
+            70.211
+          ],
+          "quote": "So for quick context, I'm Christopher Burns.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "c15t",
+      "type": "company",
+      "role": "company",
+      "name": "C15T",
+      "file": "C15T",
+      "primary": true,
+      "how_described": "本集说 C15T 是 Christopher Burns 创建的开源 cookie 横幅库，为开发者而非营销人员/律师打造，已有 300 万 NPM 下载、2800 个网站生产使用，且如今最大入站来源是 Claude、ChatGPT、Codex、Gemini 的推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            72.133,
+            79.06
+          ],
+          "quote": "I created an open source cookie banner library called C15T, that really annoying thing on the internet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            163.798,
+            165.299
+          ],
+          "quote": "You know, we start with the top of C15T and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            278.595,
+            287.278
+          ],
+          "quote": "And we built all of these things into C15T because we wanted C15T to be the best developer framework in this tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            469.054,
+            479.202
+          ],
+          "quote": "If you look at all the best documentation websites, Minify, Vercel, C15T, pat myself on the back, they all have this in the header.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            714.755,
+            726.044
+          ],
+          "quote": "And again, just doubling down into this point, looking at like the agents.md file, you can say like when working with C15T Next.js library, read the bundles and...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lead-type",
+      "type": "concept",
+      "role": "concept",
+      "name": "lead type",
+      "file": "lead type",
+      "primary": true,
+      "how_described": "本集说它是从 C15T 抽象出的独立开源框架（原文如此，演讲中称 lead type），一条框架中立的文档流水线：接收 .mdx 文件，运行生成命令，输出所有针对智能体体验优化的内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            299.548,
+            301.209
+          ],
+          "quote": "that we call lead type.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成正在取代人类成为库的安装者和网站访问者的角色——「从 wizards 安装我们的软件变成智能体安装它们」，开发者体验基元正在变成智能体基元，且编码智能体实际读的是 node_modules 而不是网站。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            250.407,
+            258.791
+          ],
+          "quote": "And really what that means is that our very good developer experience primitives are now hitting agent primitives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            310.776,
+            318.581
+          ],
+          "quote": "We have our friends at other developer companies implementing it and seeing similar results about how to optimize for the agent experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            332.237,
+            344.183
+          ],
+          "quote": "But really, all it basically does is take your .mdx files, you run leadtype generate, and it will spit out everything for optimized agent experience for your websites.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            510.976,
+            514.398
+          ],
+          "quote": "So as you like copy it to an agent, you say .md.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            522.624,
+            534.768
+          ],
+          "quote": "into your Next.js config so that if it detects an agent has the header of accepting markdown, instead of returning the HTML, it will return the markdown.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            540.57,
+            544.651
+          ],
+          "quote": "So there's also a URL query of mode equals agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            555.443,
+            566.99
+          ],
+          "quote": "But one of the really interesting ones is where we're going next, and our tooling is also helping this, is that an agent can't ask your website anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            585.474,
+            593.683
+          ],
+          "quote": "Again, our library led type is pulling all of that context together so an agent can easily ask it the right questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            768.157,
+            783.95
+          ],
+          "quote": "And one of the big things was when I put this talk together, you know, we were seeing the results that Claude was recommending, but there was not really any, like, test suites yet or test harnesses on, like, is your site agent ready?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体体验 (agent experience)",
+      "file": "智能体体验",
+      "primary": true,
+      "how_described": "本集说它正在取代开发者体验成为优化目标：过去优化开发者体验，现在同一套基元变成针对智能体体验的优化，lead type 输出的就是为智能体体验优化的一切内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            310.776,
+            318.581
+          ],
+          "quote": "We have our friends at other developer companies implementing it and seeing similar results about how to optimize for the agent experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            332.237,
+            344.183
+          ],
+          "quote": "But really, all it basically does is take your .mdx files, you run leadtype generate, and it will spit out everything for optimized agent experience for your websites.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llms-txt",
+      "type": "concept",
+      "role": "concept",
+      "name": "llms.txt",
+      "file": "llms.txt",
+      "primary": true,
+      "how_described": "本集说它是帮智能体在几百页文档中导航的解法，且研究发现应手写而非自动生成——「大约 40 行优质内容胜过 1000 行噪音」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            169.03,
+            176.256
+          ],
+          "quote": "There's many, many tools that go into it from LLMs.txt to sitemaps to RSSPs to robot.txts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            345.843,
+            357.747
+          ],
+          "quote": "And the rest of this talk is gonna look a bit like a BuzzFeed list, to put simply, of these problems, because again, not everybody knows even how to put an llms.txt on their website.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            370.71,
+            373.452
+          ],
+          "quote": "The first solution is obviously in LLMs.txt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            380.217,
+            384.16
+          ],
+          "quote": "It is much better to write your LLMs.txt from hand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            943.549,
+            948.21
+          ],
+          "quote": "So yeah, I would say llms.txt is your first shout.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            949.23,
+            953.872
+          ],
+          "quote": "llms.txt, full.txt, second.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agents-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "agents.md",
+      "file": "agents.md",
+      "primary": true,
+      "how_described": "本集说它是放进 node_modules 的文件，告诉智能体「有问题的话所有文档都在这里，去 grep 它们」，实测跨多个模型能节省近 50% 的 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            646.517,
+            666.471
+          ],
+          "quote": "So again, following what people like Vercel are doing and people who are thought leaders in this industry is that we take the bundled markdown documents and then we also put them in the node modules with an agents.md file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            667.492,
+            675.098
+          ],
+          "quote": "And the agents.md file basically says if you've got a problem, if you've got a question, all the documents are here, grep them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            714.755,
+            726.044
+          ],
+          "quote": "And again, just doubling down into this point, looking at like the agents.md file, you can say like when working with C15T Next.js library, read the bundles and...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "webmcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebMCP",
+      "file": "WebMCP",
+      "primary": true,
+      "how_described": "本集说它是一个非常早期的方向，让智能体能向网站提问；他的工具已向 WebMCP 暴露 SearchDocs、GetPages、AskDocs 三个工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            568.505,
+            571.086
+          ],
+          "quote": "So we need to think about the WebMCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            571.607,
+            581.232
+          ],
+          "quote": "And this is still very early, but our tool is already exposing three different tools to WebMCP.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "node-modules",
+      "type": "concept",
+      "role": "concept",
+      "name": "node modules",
+      "file": "node modules",
+      "primary": true,
+      "how_described": "本集说它是「令人不安的真相」所在：编码智能体实际从不访问库的网站，而是读仓库和 node_modules，带着过时训练数据从编译后源码里搞清楚库能干什么；把打包文档放进 node_modules 是最有效的方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            627.965,
+            631.067
+          ],
+          "quote": "They're actually visiting the node modules.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            631.508,
+            634.77
+          ],
+          "quote": "They read the repo, and they read the node modules.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            646.517,
+            666.471
+          ],
+          "quote": "So again, following what people like Vercel are doing and people who are thought leaders in this industry is that we take the bundled markdown documents and then we also put them in the node modules with an agents.md file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            700.305,
+            704.608
+          ],
+          "quote": "Then having the node modules built in is a very effective solution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            705.109,
+            712.834
+          ],
+          "quote": "This is also working without any skills, but if you want as well, you can add skills to it to say, look at the node modules and go from there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aura-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "Aura AI",
+      "file": "Aura AI",
+      "primary": true,
+      "how_described": "本集说它是他最喜欢的网站智能体友好度测试工具，输入网站即给出优化建议；C15T 自己只得 59 分且评分标准一直在变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            787.52,
+            792.262
+          ],
+          "quote": "But my favorite is actually one called Aura AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            807.87,
+            812.973
+          ],
+          "quote": "So Aura.ai, put in your website, and it will start giving you recommendations.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到 Collison 兄弟著名的「把笔记本塞到你手里帮你装上 Stripe」的推广方式，与如今「一条提示词」对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            230.336,
+            242.743
+          ],
+          "quote": "These are the co-founders of Stripe, the Collison Brothers, and they had a really classic saying of like a Collison Brothers install, and they would hand you their laptop, and they would install Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            287.658,
+            288.818
+          ],
+          "quote": "Think of it like Stripe Docs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集说 Vercel 是该领域的思想领袖，在 header 里声明 Markdown 替代版、并把打包好的 markdown 文档放进 node_modules 的做法值得跟随。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            469.054,
+            479.202
+          ],
+          "quote": "If you look at all the best documentation websites, Minify, Vercel, C15T, pat myself on the back, they all have this in the header.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            646.517,
+            666.471
+          ],
+          "quote": "So again, following what people like Vercel are doing and people who are thought leaders in this industry is that we take the bundled markdown documents and then we also put them in the node modules with an agents.md file.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集提到 Cloudflare 推出了一个检验网站是否对智能体友好的测试框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            784.531,
+            786.573
+          ],
+          "quote": "And Cloudflare brought one of them out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": false,
+      "how_described": "本集说 Christopher 刚参加完 Y Combinator，并以此说明如今获客「就是给人们一条提示词」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            214.828,
+            229.896
+          ],
+          "quote": "So what's really funny is that we went from wizards installing our software to agents installing them, and I just went through Y Combinator, and what's really interesting is if you know who these two people are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            246.725,
+            249.966
+          ],
+          "quote": "Being in Y Combinator, we just give people a prompt.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "llms-full.txt",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

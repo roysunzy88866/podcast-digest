@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":321,"延迟":4,"记忆":15,"上下文":20,"Claude":65,"检索":3,"LLM":42}</script>
+<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":325,"延迟":4,"记忆":15,"上下文":20,"Claude":65,"检索":3,"LLM":42}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1258 @@
+[
+ {
+  "seg": 0,
+  "start": 13.011,
+  "end": 14.493,
+  "speaker": "Unknown",
+  "en": "Yeah, really appreciate everybody showing up.",
+  "zh": "是的，非常感谢大家到场。"
+ },
+ {
+  "seg": 1,
+  "start": 15.374,
+  "end": 17.157,
+  "speaker": "Unknown",
+  "en": "As Mada mentioned, my name's Armand.",
+  "zh": "正如 Mada 提到的，我叫 Armand。"
+ },
+ {
+  "seg": 2,
+  "start": 17.397,
+  "end": 21.203,
+  "speaker": "Unknown",
+  "en": "I lead our product and sales-led growth engineering teams at RAMP.",
+  "zh": "我在 RAMP 领导我们的产品和销售驱动增长工程团队。"
+ },
+ {
+  "seg": 3,
+  "start": 22.404,
+  "end": 27.251,
+  "speaker": "Unknown",
+  "en": "And today I'm going to talk to you about the building blocks of go-to-market orchestration.",
+  "zh": "今天我要和大家谈谈\"go-to-market 编排\"的构建模块。"
+ },
+ {
+  "seg": 4,
+  "start": 29.975,
+  "end": 32.716,
+  "speaker": "Unknown",
+  "en": "To kick it off, what do I mean by go-to-market orchestration?",
+  "zh": "首先来说说，我说的 go-to-market 编排是什么意思？"
+ },
+ {
+  "seg": 5,
+  "start": 33.317,
+  "end": 53.566,
+  "speaker": "Unknown",
+  "en": "Effectively, what we're building towards is the ability to just describe emotion, whether it's playbooks or experiments or evergreen campaigns that you want to run, and how those get distributed across the channels through which you actually execute your go-to-market, whether it's outbound or ads or web or whatever.",
+  "zh": "实际上，我们正在构建的目标是：能够仅仅描述一个动作，无论是你想运行的 playbook、实验还是常青活动，以及这些动作如何分布到你实际执行 go-to-market 的各个渠道中，无论是外呼、广告、网页还是其他。"
+ },
+ {
+  "seg": 6,
+  "start": 55.559,
+  "end": 59.521,
+  "speaker": "Unknown",
+  "en": "We want the ability to describe this and automate that output.",
+  "zh": "我们想要能够描述这些并自动化其产出。"
+ },
+ {
+  "seg": 7,
+  "start": 60.181,
+  "end": 66.545,
+  "speaker": "Unknown",
+  "en": "And this really started a few years ago where we noticed that there's a ton of great ideas.",
+  "zh": "这一切真正开始于几年前，当时我们注意到有海量的好点子。"
+ },
+ {
+  "seg": 8,
+  "start": 66.665,
+  "end": 72.648,
+  "speaker": "Unknown",
+  "en": "Everybody across product and data and engineering and go to market have really good ideas for things that they want to do.",
+  "zh": "产品、数据、工程和 go-to-market 的每个人，对他们想做的事情都有非常好的想法。"
+ },
+ {
+  "seg": 9,
+  "start": 73.248,
+  "end": 76.49,
+  "speaker": "Unknown",
+  "en": "And the bottleneck is everything after that.",
+  "zh": "而瓶颈在于那之后的一切。"
+ },
+ {
+  "seg": 10,
+  "start": 76.51,
+  "end": 78.651,
+  "speaker": "Unknown",
+  "en": "How do you go pull an audience to go and target?",
+  "zh": "你如何去拉取一个受众去定位？"
+ },
+ {
+  "seg": 11,
+  "start": 78.691,
+  "end": 80.412,
+  "speaker": "Unknown",
+  "en": "How do you go and convince a bunch of people to",
+  "zh": "你如何去说服一群人"
+ },
+ {
+  "seg": 12,
+  "start": 82.573,
+  "end": 86.955,
+  "speaker": "Unknown",
+  "en": "Abide by whatever strategy that you've come up with, or playbooks, or enablement materials.",
+  "zh": "遵循你想出的任何策略，或者 playbook，或者赋能材料。"
+ },
+ {
+  "seg": 13,
+  "start": 88.095,
+  "end": 92.116,
+  "speaker": "Unknown",
+  "en": "And we wanted to try to aim to reduce that coordination cost.",
+  "zh": "而我们想尝试降低那种协调成本。"
+ },
+ {
+  "seg": 14,
+  "start": 92.456,
+  "end": 96.478,
+  "speaker": "Unknown",
+  "en": "So there's parts of this where we could see it as an engineering problem.",
+  "zh": "所以这其中有一部分，我们可以把它看作一个工程问题。"
+ },
+ {
+  "seg": 15,
+  "start": 96.718,
+  "end": 103.36,
+  "speaker": "Unknown",
+  "en": "Even a few years ago, just go and create a consistent data substrate, go and federate that across the different systems through which you",
+  "zh": "即使在几年前，也只是去创建一个一致的数据底座，去把它联邦化到不同的系统中，通过这些系统你"
+ },
+ {
+  "seg": 16,
+  "start": 104.5,
+  "end": 105.361,
+  "speaker": "Unknown",
+  "en": "Run your go-to-market.",
+  "zh": "运行你的 go-to-market。"
+ },
+ {
+  "seg": 17,
+  "start": 106.021,
+  "end": 118.027,
+  "speaker": "Unknown",
+  "en": "And obviously in the last few years, agents have really deepened our ability to go and push the level of automation that you can do on behalf of operators as close as possible to those points of execution.",
+  "zh": "显然，在过去几年里，智能体极大地加深了我们推动自动化水平的能力，能够把代表运营者所做的自动化尽可能推进到那些执行点上。"
+ },
+ {
+  "seg": 18,
+  "start": 120.322,
+  "end": 122.863,
+  "speaker": "Unknown",
+  "en": "So really specifically, I'm a golfer.",
+  "zh": "具体一点说，我是一个高尔夫球手。"
+ },
+ {
+  "seg": 19,
+  "start": 123.143,
+  "end": 130.907,
+  "speaker": "Unknown",
+  "en": "Suppose I want to offer golfers at East Coast construction companies an incentive to try ramp, talk to sales, whatever.",
+  "zh": "假设我想向东海岸建筑公司的高尔夫球手提供一个尝试 RAMP 的激励，和销售聊聊，随便什么。"
+ },
+ {
+  "seg": 20,
+  "start": 131.747,
+  "end": 138.79,
+  "speaker": "Unknown",
+  "en": "And we want to be able to go and spin up an audience of golfers at East Coast construction companies, spin up an incentive.",
+  "zh": "而我们想要能够拉起一个东海岸建筑公司高尔夫球手的受众，拉起一个激励。"
+ },
+ {
+  "seg": 21,
+  "start": 138.87,
+  "end": 148.795,
+  "speaker": "Unknown",
+  "en": "Let's go offer some Pro V1 golf balls to these people, go create outbound sequences, generate the copy, generate creative for paid ads and for web.",
+  "zh": "我们去给这些人提供一些 Pro V1 高尔夫球，去创建外呼序列，生成文案，为付费广告和网页生成创意。"
+ },
+ {
+  "seg": 22,
+  "start": 149.435,
+  "end": 151.78,
+  "speaker": "Unknown",
+  "en": "Maybe show some in-app notifications for your customers.",
+  "zh": "也许为你的客户展示一些应用内通知。"
+ },
+ {
+  "seg": 23,
+  "start": 152.501,
+  "end": 156.729,
+  "speaker": "Unknown",
+  "en": "And do all of that seamlessly by just describing the intent, right?",
+  "zh": "而仅仅通过描述意图就无缝完成这一切，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 157.17,
+  "end": 159.074,
+  "speaker": "Unknown",
+  "en": "And probably more than just this one sentence.",
+  "zh": "可能不止这一句话。"
+ },
+ {
+  "seg": 25,
+  "start": 161.609,
+  "end": 165.31,
+  "speaker": "Unknown",
+  "en": "So a few years ago, we kind of identified a few fundamental challenges here.",
+  "zh": "所以几年前，我们大致识别出了这里的几个根本性挑战。"
+ },
+ {
+  "seg": 26,
+  "start": 166.671,
+  "end": 172.974,
+  "speaker": "Unknown",
+  "en": "As was previously mentioned, the necessary data for this was just messy, inconsistent across systems, right?",
+  "zh": "如前面提到的，所需的数据非常混乱，跨系统不一致，对吧？"
+ },
+ {
+  "seg": 27,
+  "start": 173.054,
+  "end": 183.64,
+  "speaker": "Unknown",
+  "en": "Everybody's operating off of a different source of truth, and that makes it effectively impossible to go and distribute some coordinated action across these different go-to-market teams and channels.",
+  "zh": "每个人都在不同的真相源上运营，这使得要跨这些不同的 go-to-market 团队和渠道去分发某个协调一致的行动，实际上是不可能的。"
+ },
+ {
+  "seg": 28,
+  "start": 184.68,
+  "end": 188.602,
+  "speaker": "Unknown",
+  "en": "The next is that reps were just buried in busy work.",
+  "zh": "下一个是销售代表们完全被琐事埋没了。"
+ },
+ {
+  "seg": 29,
+  "start": 188.682,
+  "end": 207.89,
+  "speaker": "Unknown",
+  "en": "Even if you have the best intentions, I want to go and run this campaign, I want your help doing it, the reality is that our sales teams are in back-to-back-to-back-to-back meetings all day, they're outbounding, they're selling, and the operational burden of doing everything in between sales was just really high, which made",
+  "zh": "即使你有最好的意图，我想去运行这个活动，我想让你的帮助来做这件事，现实是我们的销售团队整天都在连轴转的会议里，他们在做外呼、在卖东西，而销售之间所有这些事情的操作负担真的非常高，这使得"
+ },
+ {
+  "seg": 30,
+  "start": 208.77,
+  "end": 212.712,
+  "speaker": "Unknown",
+  "en": "Kind of like really scaling out experimentation and creativity, challenging.",
+  "zh": "大规模扩展实验和创造力变得很困难。"
+ },
+ {
+  "seg": 31,
+  "start": 213.973,
+  "end": 217.935,
+  "speaker": "Unknown",
+  "en": "And similar to that, just the coordination and distribution are expensive, right?",
+  "zh": "与此类似，仅仅是协调和分发就很昂贵，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 218.215,
+  "end": 225.378,
+  "speaker": "Unknown",
+  "en": "If you're like, I have this idea, I'm gonna go write this proposal, this enablement material, I'm gonna go try to convince a bunch of people to go and use all of this.",
+  "zh": "如果你说，我有这个想法，我要去写这个提案、这份赋能材料，我要去试图说服一群人去使用所有这些。"
+ },
+ {
+  "seg": 33,
+  "start": 225.999,
+  "end": 232.822,
+  "speaker": "Unknown",
+  "en": "That's just like a really challenging thing to do on any pace that's not on the order of months.",
+  "zh": "这在任何不是以月为单位的速度上，都是一件非常难做到的事。"
+ },
+ {
+  "seg": 34,
+  "start": 233.723,
+  "end": 233.963,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 35,
+  "start": 235.987,
+  "end": 239.734,
+  "speaker": "Unknown",
+  "en": "Over the last few years, we've been trying to solve this problem from the ground up, right?",
+  "zh": "在过去几年里，我们一直在尝试从根本上解决这个问题，对吧？"
+ },
+ {
+  "seg": 36,
+  "start": 239.754,
+  "end": 246.346,
+  "speaker": "Unknown",
+  "en": "How can we start with that ingestion and consistency problem and data quality, which is just like,",
+  "zh": "我们如何从这个摄取和一致性问题以及数据质量入手，这就像是，"
+ },
+ {
+  "seg": 37,
+  "start": 247.351,
+  "end": 248.911,
+  "speaker": "Unknown",
+  "en": "You know, on the roadmap every quarter.",
+  "zh": "你知道的，每个季度都在路线图上。"
+ },
+ {
+  "seg": 38,
+  "start": 250.052,
+  "end": 268.157,
+  "speaker": "Unknown",
+  "en": "How can we then go build those vertical efficiency and growth levers, saving people time and like managing operations and execution, as well as like how can we improve conversion rates, make people more performant by being able to kind of scale some of these more like informed and personalized and creative strategies.",
+  "zh": "我们如何接着去构建那些纵向的效率和增长杠杆，为人们节省时间，比如管理运营和执行，以及我们如何提升转化率，通过能够扩展这些更有信息量、更个性化、更有创造性的策略，让人们表现更好。"
+ },
+ {
+  "seg": 39,
+  "start": 268.798,
+  "end": 270.978,
+  "speaker": "Unknown",
+  "en": "And then how can we extend this horizontally, right?",
+  "zh": "然后我们如何把它横向扩展，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 271.358,
+  "end": 272.279,
+  "speaker": "Unknown",
+  "en": "Teams have very",
+  "zh": "各团队拥有非常"
+ },
+ {
+  "seg": 41,
+  "start": 273.219,
+  "end": 275.121,
+  "speaker": "Unknown",
+  "en": "Common workflows at some level, right?",
+  "zh": "相似的工作流，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 275.161,
+  "end": 277.242,
+  "speaker": "Unknown",
+  "en": "Everybody wants to outbound, everybody has meetings.",
+  "zh": "每个人都想做外呼，每个人都有会议。"
+ },
+ {
+  "seg": 43,
+  "start": 278.023,
+  "end": 282.306,
+  "speaker": "Unknown",
+  "en": "How can we go take the patterns that we built for one team and start to just mirror it to others?",
+  "zh": "我们如何把为一个团队构建的模式，开始直接复用到其他团队？"
+ },
+ {
+  "seg": 44,
+  "start": 283.327,
+  "end": 287.811,
+  "speaker": "Unknown",
+  "en": "And now kind of where we're at is like this distribution and coordination problem, right?",
+  "zh": "而现在我们所在的位置大致是这个分发和协调问题，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 287.831,
+  "end": 293.996,
+  "speaker": "Unknown",
+  "en": "How can you go and execute across multiple channels simultaneously through just like the description of intent?",
+  "zh": "你如何仅通过描述意图，就同时在多个渠道上执行？"
+ },
+ {
+  "seg": 46,
+  "start": 296.247,
+  "end": 300.734,
+  "speaker": "Unknown",
+  "en": "So, yeah, I'll get into the building blocks really broadly.",
+  "zh": "所以，是的，我会非常宽泛地讲讲这些构建模块。"
+ },
+ {
+  "seg": 47,
+  "start": 301.776,
+  "end": 303.118,
+  "speaker": "Unknown",
+  "en": "Go-to-market agents are complicated.",
+  "zh": "go-to-market 智能体很复杂。"
+ },
+ {
+  "seg": 48,
+  "start": 304.907,
+  "end": 332.202,
+  "speaker": "Unknown",
+  "en": "In order to do this effectively, your agents have to understand pretty much the entirety of your company, how you go to market, why products are useful, how to segment your buyers, your prospects, your customers, from people who have never heard about you and you have no information on them and they have no information on you, all the way to customers who are actively using your products who have a totally different set of problems that you have to work with.",
+  "zh": "为了有效地做到这一点，你的智能体必须理解你公司的几乎全貌，你们如何进入市场、为什么产品有用、如何对你的买家、潜在客户、客户进行细分，从那些从未听说过你、你对他们毫无信息、他们对你也毫无信息的人，一直到正在积极使用你产品的客户，他们有着完全不同的一组你必须应对的问题。"
+ },
+ {
+  "seg": 49,
+  "start": 334.917,
+  "end": 343.846,
+  "speaker": "Unknown",
+  "en": "And to just start to get a little technical here, we started with this consistent data foundation problem.",
+  "zh": "而稍微技术性一点地说，我们从这个一致的数据基础问题开始。"
+ },
+ {
+  "seg": 50,
+  "start": 344.147,
+  "end": 349.492,
+  "speaker": "Unknown",
+  "en": "And if you're looking at this and you're like, that looks like a CDP, yeah, you're right.",
+  "zh": "如果你看到这个觉得，这看起来像个 CDP,对，你说得对。"
+ },
+ {
+  "seg": 51,
+  "start": 350.113,
+  "end": 351.434,
+  "speaker": "Unknown",
+  "en": "We effectively went and built",
+  "zh": "我们实际上去构建了"
+ },
+ {
+  "seg": 52,
+  "start": 353.338,
+  "end": 359.201,
+  "speaker": "Unknown",
+  "en": "An internal customer data platform at RAMP where we're effectively doing your very traditional things.",
+  "zh": "RAMP 内部的一个客户数据平台，我们实际上在做非常传统的事情。"
+ },
+ {
+  "seg": 53,
+  "start": 359.302,
+  "end": 368.967,
+  "speaker": "Unknown",
+  "en": "We're going to take CRM data, product data, enrichment data, web data, buying signals, whether it's things that are internally modeled like",
+  "zh": "我们要拿 CRM 数据、产品数据、富化数据、网站数据、购买信号，无论是内部建模的东西，比如"
+ },
+ {
+  "seg": 54,
+  "start": 371.017,
+  "end": 386.88,
+  "speaker": "Unknown",
+  "en": "I don't know, we think that this customer has a high propensity to attach to procurement or treasury, all the way to things that are external signals like funding announcements, as well as interaction data, emails, meetings, calls, page views.",
+  "zh": "我不确定，我们觉得这个客户有很高的倾向去使用采购或财资产品，一直到外部信号，比如融资公告，还有交互数据、邮件、会议、电话、页面浏览。"
+ },
+ {
+  "seg": 55,
+  "start": 388.46,
+  "end": 398.042,
+  "speaker": "Unknown",
+  "en": "And on the signal side of this, we have some set of real-time events that are coming in, things like emails, you can go and pipe them onto a Kafka topic, consume them.",
+  "zh": "在信号这一侧，我们有一组进来的实时事件，比如邮件之类的，你可以把它们导入一个 Kafka topic,然后消费它们。"
+ },
+ {
+  "seg": 56,
+  "start": 398.922,
+  "end": 414.943,
+  "speaker": "Unknown",
+  "en": "And then funnel them back into both like a Postgres database that backs all of this and enables us to maintain like transactional guarantees, referential integrity between the entities that exist and the different entities that exist, right, between your CRM, between your product.",
+  "zh": "然后把它们回流到一个 Postgres 数据库中，这个数据库支撑着所有这些，并使我们能够维护事务性保证、各个实体之间的引用完整性，对吧，在你的 CRM、你的产品之间，"
+ },
+ {
+  "seg": 57,
+  "start": 415.403,
+  "end": 427.455,
+  "speaker": "Unknown",
+  "en": "between third parties, and attribute everything to the right level of detail, which we found to be a pretty important problem, as well as all the associated metadata around capturing, like, where did this come from?",
+  "zh": "在第三方之间，并把所有内容归因到正确的细节层级，我们发现这是一个相当重要的问题，还有所有相关的元数据，比如记录，这是从哪里来的？"
+ },
+ {
+  "seg": 58,
+  "start": 427.495,
+  "end": 428.136,
+  "speaker": "Unknown",
+  "en": "When did it come in?",
+  "zh": "它是什么时候进来的？"
+ },
+ {
+  "seg": 59,
+  "start": 430.66,
+  "end": 433.102,
+  "speaker": "Unknown",
+  "en": "As well as starting to embed a lot of this data, right?",
+  "zh": "同时也开始对大量这类数据做嵌入，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 433.642,
+  "end": 438.345,
+  "speaker": "Unknown",
+  "en": "So much sales data is just inherently unstructured, right?",
+  "zh": "太多销售数据本质上就是非结构化的，对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 438.365,
+  "end": 444.109,
+  "speaker": "Unknown",
+  "en": "You have like call transcripts, you have emails, you have notes, and the ability to kind of search across that is really valuable.",
+  "zh": "你有通话记录、邮件、笔记，能够跨这些内容进行搜索是非常有价值的。"
+ },
+ {
+  "seg": 62,
+  "start": 445.29,
+  "end": 447.691,
+  "speaker": "Unknown",
+  "en": "We have a set of online batch jobs which are",
+  "zh": "我们有一组在线批处理作业，它们"
+ },
+ {
+  "seg": 63,
+  "start": 448.692,
+  "end": 451.234,
+  "speaker": "Unknown",
+  "en": "Really just calling a lot of APIs for the most part.",
+  "zh": "在大多数情况下其实就是在调用大量的 API。"
+ },
+ {
+  "seg": 64,
+  "start": 451.955,
+  "end": 458.281,
+  "speaker": "Unknown",
+  "en": "RAMP's addressable market is pretty much like the entire US and now expanding internationally.",
+  "zh": "RAMP 的可触达市场差不多是整个美国，现在正在向国际扩张。"
+ },
+ {
+  "seg": 65,
+  "start": 458.721,
+  "end": 467.489,
+  "speaker": "Unknown",
+  "en": "So being able to pre-compute, pre-process, pre-ingest all this enrichment data about who we can sell to and who we're already selling to is",
+  "zh": "所以能够预计算、预处理、预摄取所有这些关于我们可以向谁销售以及我们已经在向谁销售的富化数据，"
+ },
+ {
+  "seg": 66,
+  "start": 468.51,
+  "end": 469.391,
+  "speaker": "Unknown",
+  "en": "Really important for us.",
+  "zh": "对我们来说非常重要。"
+ },
+ {
+  "seg": 67,
+  "start": 470.132,
+  "end": 484.587,
+  "speaker": "Unknown",
+  "en": "And then, as previously mentioned, a ton of work has gone into the offline piece of this with DBT, Snowflake, pulling everything into our warehouse, doing a lot of offline batch compute, and then piping that in via reverse CTL back into the same layer.",
+  "zh": "然后，正如之前提到的，大量工作投入到了这部分离线环节，用 DBT、Snowflake,把所有东西拉进我们的数据仓库，做大量离线批处理计算，然后通过 reverse CTL 把结果输送回同一个层。"
+ },
+ {
+  "seg": 68,
+  "start": 487.87,
+  "end": 495.474,
+  "speaker": "Unknown",
+  "en": "Next, more tactically, the way we tend to approach these problems is solve for one team first, then scale horizontally.",
+  "zh": "接下来，更战术性地讲，我们处理这些问题的方式通常是先为某一个团队解决，然后再横向扩展。"
+ },
+ {
+  "seg": 69,
+  "start": 497.055,
+  "end": 501.757,
+  "speaker": "Unknown",
+  "en": "As I mentioned before, you have a very overlapping set of problems that exist.",
+  "zh": "正如我之前提到的，你会有一组高度重叠的问题存在。"
+ },
+ {
+  "seg": 70,
+  "start": 501.837,
+  "end": 513.684,
+  "speaker": "Unknown",
+  "en": "Everybody wants to do automated outbound, everybody wants to prepare for meetings, whereas certain teams may have problems or things that they do that are isolated to them, like QBR generation.",
+  "zh": "每个人都想做自动化外呼，每个人想做会前准备，而某些团队可能有只属于他们自己的问题或要做的事情，比如 QBR 生成。"
+ },
+ {
+  "seg": 71,
+  "start": 517.337,
+  "end": 522.483,
+  "speaker": "Unknown",
+  "en": "To get into an example, one of the things that we shipped is pre-meeting briefs.",
+  "zh": "举一个例子，我们发布的东西之一就是会前简报。"
+ },
+ {
+  "seg": 72,
+  "start": 523.484,
+  "end": 526.847,
+  "speaker": "Unknown",
+  "en": "For AMs, AMs are account managers.",
+  "zh": "面向 AM,AM 就是客户经理。"
+ },
+ {
+  "seg": 73,
+  "start": 528.009,
+  "end": 535.016,
+  "speaker": "Unknown",
+  "en": "They manage the customer relationships that exist, trying to ensure that customers are using Ramp as best as possible.",
+  "zh": "他们管理现有的客户关系，努力确保客户尽可能好地使用 Ramp。"
+ },
+ {
+  "seg": 74,
+  "start": 535.877,
+  "end": 541.319,
+  "speaker": "Unknown",
+  "en": "And there's a lot of important context that goes into a meeting.",
+  "zh": "而一次会议有很多重要的背景信息。"
+ },
+ {
+  "seg": 75,
+  "start": 541.659,
+  "end": 543.46,
+  "speaker": "Unknown",
+  "en": "It's like, what are we talking about?",
+  "zh": "比如，我们要谈什么？"
+ },
+ {
+  "seg": 76,
+  "start": 543.54,
+  "end": 544.42,
+  "speaker": "Unknown",
+  "en": "Who are we meeting with?",
+  "zh": "我们在和谁开会？"
+ },
+ {
+  "seg": 77,
+  "start": 545.76,
+  "end": 547.601,
+  "speaker": "Unknown",
+  "en": "What is the AM trying to do?",
+  "zh": "这个 AM 想做什么？"
+ },
+ {
+  "seg": 78,
+  "start": 547.661,
+  "end": 550.282,
+  "speaker": "Unknown",
+  "en": "What are the product usage information?",
+  "zh": "产品使用信息是什么？"
+ },
+ {
+  "seg": 79,
+  "start": 550.322,
+  "end": 551.482,
+  "speaker": "Unknown",
+  "en": "What are the account vitals?",
+  "zh": "账户关键指标是什么？"
+ },
+ {
+  "seg": 80,
+  "start": 551.622,
+  "end": 553.123,
+  "speaker": "Unknown",
+  "en": "What's the agenda that we want to tackle?",
+  "zh": "我们想要处理的议程是什么？"
+ },
+ {
+  "seg": 81,
+  "start": 553.623,
+  "end": 555.904,
+  "speaker": "Unknown",
+  "en": "And similarly, what is the customer trying to do?",
+  "zh": "类似地，客户想做什么？"
+ },
+ {
+  "seg": 82,
+  "start": 556.444,
+  "end": 558.705,
+  "speaker": "Unknown",
+  "en": "Do they have open tickets that they're trying to address?",
+  "zh": "他们有没有想要解决的未关闭工单？"
+ },
+ {
+  "seg": 83,
+  "start": 559.325,
+  "end": 563.09,
+  "speaker": "Unknown",
+  "en": "Did they email us saying that there was a specific thing they're trying to talk about?",
+  "zh": "他们有没有给我们发邮件说要谈某件具体的事？"
+ },
+ {
+  "seg": 84,
+  "start": 563.731,
+  "end": 572.864,
+  "speaker": "Unknown",
+  "en": "And how can we pull this together for AM so that they can go in prepared and kind of manage the operational piece of just being in back-to-back-to-back meetings all day?",
+  "zh": "我们如何把这些整合起来给 AM,让他们可以有备而来，并处理好那种整天一个会接着一个会连轴转的运营层面的事务？"
+ },
+ {
+  "seg": 85,
+  "start": 576.187,
+  "end": 581.392,
+  "speaker": "Unknown",
+  "en": "Again, technically, the place to start with this is obviously for trying to generate a pre-meeting brief.",
+  "zh": "再说一次，在技术上，做这件事的起点显然是为了生成一份会前简报。"
+ },
+ {
+  "seg": 86,
+  "start": 581.512,
+  "end": 594.243,
+  "speaker": "Unknown",
+  "en": "We need to know when these meetings are so we can pipe in meeting events, do some hydration, map things like attendee emails, meeting titles back to the accounts that we're meeting with.",
+  "zh": "我们需要知道这些会议的时间，这样我们就可以导入会议事件，做一些数据充实，把参会人邮箱、会议标题之类的东西映射回我们要开会的那些账户。"
+ },
+ {
+  "seg": 87,
+  "start": 594.824,
+  "end": 610.485,
+  "speaker": "Unknown",
+  "en": "This is like a sneaky hard problem at RAMP because you have the same emails that can work on behalf of multiple businesses so it's kind of like a fuzzy match and we can go and persist that so that way every downstream consumer of like, hey I care about this meeting doesn't have to go and like recompute this from the ground up.",
+  "zh": "一切都被表示为一个围绕 Temporal 构建的持久化线程，把每一次工具调用和模型调用表示为一个 activity。"
+ },
+ {
+  "seg": 88,
+  "start": 612.428,
+  "end": 619.471,
+  "speaker": "Unknown",
+  "en": "And also, as mentioned in the previous talk, we've also built a system around durable execution.",
+  "zh": "另外，正如在上一场演讲中提到的，我们还围绕持久化执行构建了一个系统。"
+ },
+ {
+  "seg": 89,
+  "start": 619.671,
+  "end": 622.072,
+  "speaker": "Unknown",
+  "en": "That's pretty agnostic to the trigger that comes in.",
+  "zh": "它对进来的触发器是相当无关的。"
+ },
+ {
+  "seg": 90,
+  "start": 622.833,
+  "end": 629.676,
+  "speaker": "Unknown",
+  "en": "Everything is represented as a durable thread built around temporal, representing each tool call and model call as an activity.",
+  "zh": "一切都被表示为一条持久线程，围绕 temporal 构建，把每次工具调用和模型调用都表示为一个 activity。"
+ },
+ {
+  "seg": 91,
+  "start": 632.177,
+  "end": 648.292,
+  "speaker": "Unknown",
+  "en": "You know, like a worker goes out for some reason, it can resume execution from where it left off, pulling together all the state that it accumulated at that point in time, instead of starting back from like the beginning of the thread and trying to reprocess everything, which would be very inefficient and slow.",
+  "zh": "你知道，比如某个 worker 因为某种原因挂了，它可以从上次中断的地方恢复执行，把它在那个时间点积累的所有状态拉回来，而不是从线程的开头重新开始并试图重新处理所有东西，那样会非常低效和缓慢。"
+ },
+ {
+  "seg": 92,
+  "start": 649.554,
+  "end": 657.021,
+  "speaker": "Unknown",
+  "en": "There's also like great out-of-the-box capabilities for things like config scope tool calls, different agents are gonna have access to different",
+  "zh": "还有一些很好的开箱即用的能力，比如 config 范围的工具调用，不同的智能体将可以访问不同的"
+ },
+ {
+  "seg": 93,
+  "start": 657.761,
+  "end": 665.349,
+  "speaker": "Unknown",
+  "en": "Sets of tools which give them access to different information, different integrations, and different skills that might be necessary to actually perform the work.",
+  "zh": "工具集合，这些工具给它们访问不同的信息、不同的集成，以及实际执行工作可能需要的不同技能。"
+ },
+ {
+  "seg": 94,
+  "start": 666.129,
+  "end": 673.296,
+  "speaker": "Unknown",
+  "en": "And similarly there's things like human in the loop tooling to just pause execution, get input, resume.",
+  "zh": "类似地，还有 human in the loop 工具之类的东西，可以暂停执行、获取输入、然后恢复。"
+ },
+ {
+  "seg": 95,
+  "start": 676.688,
+  "end": 689.977,
+  "speaker": "Unknown",
+  "en": "And then getting to the unstructured piece of this, as I mentioned, unstructured information is probably the most valuable thing you're sitting on within your warehouse or your notes or wherever you store this today.",
+  "zh": "然后说到非结构化这部分，正如我提到的，非结构化信息可能是你在数据仓库、笔记或你今天存放这些内容的任何地方所拥有的最有价值的东西。"
+ },
+ {
+  "seg": 96,
+  "start": 690.798,
+  "end": 695.081,
+  "speaker": "Unknown",
+  "en": "So we have some set of real-time data coming in, meeting transcripts, emails.",
+  "zh": "所以我们有一组进来的实时数据，会议记录、邮件。"
+ },
+ {
+  "seg": 97,
+  "start": 695.641,
+  "end": 702.446,
+  "speaker": "Unknown",
+  "en": "We have some set of batch jobs that are pulling in enablement materials, product knowledge, playbooks.",
+  "zh": "我们有一组批处理作业在拉取赋能材料、产品知识、打法手册。"
+ },
+ {
+  "seg": 98,
+  "start": 703.627,
+  "end": 710.809,
+  "speaker": "Unknown",
+  "en": "Chunking them, embedding them, putting them in TurboPuffer, and it allows you to kind of, or allows agents to go and search, like, what do I care about?",
+  "zh": "对它们做分块、嵌入，放进 TurboPuffer,它让你可以，或者说让智能体可以去搜索，比如，我关心什么？"
+ },
+ {
+  "seg": 99,
+  "start": 710.829,
+  "end": 712.11,
+  "speaker": "Unknown",
+  "en": "What am I trying to answer right now?",
+  "zh": "我现在想回答的是什么？"
+ },
+ {
+  "seg": 100,
+  "start": 712.47,
+  "end": 729.635,
+  "speaker": "Unknown",
+  "en": "And doing some combination of, like, vector search, attribute search, keyword search, in order to pull information scoped to, like, a specific account, for example, without having to pull in, like, the full raw corpus into agent context, which would also be very inefficient, very expensive.",
+  "zh": "并且做一些组合，比如向量搜索、属性搜索、关键词搜索，以便拉取限定在特定范围内的信息，比如说，针对特定账户，而不必把完整的原始语料库拉进智能体的上下文里，那也会非常低效、非常昂贵。"
+ },
+ {
+  "seg": 101,
+  "start": 731.805,
+  "end": 736.166,
+  "speaker": "Unknown",
+  "en": "And similarly, we've gone and built a skill library to allow people to customize their agents.",
+  "zh": "类似地，我们还构建了一个技能库，让人们可以自定义他们的智能体。"
+ },
+ {
+  "seg": 102,
+  "start": 736.186,
+  "end": 751.89,
+  "speaker": "Unknown",
+  "en": "Getting back to the meeting brief example, different people have different formats that they care about, they have different information that they care about, and allowing them to kind of represent that in text, giving that to the agent to pull it together has been very valuable for getting adoption.",
+  "zh": "回到会议简报的例子，不同的人有不同的格式偏好，他们关心的信息也不同，允许他们用文本把这一点表达出来，并交给智能体去整合，这对推动采用非常有价值。"
+ },
+ {
+  "seg": 103,
+  "start": 753.526,
+  "end": 757.309,
+  "speaker": "Unknown",
+  "en": "And putting all this together, you get an operational background agent, right?",
+  "zh": "把这些拼在一起，你就得到了一个运营型的后台智能体，对吧？"
+ },
+ {
+  "seg": 104,
+  "start": 757.329,
+  "end": 780.145,
+  "speaker": "Unknown",
+  "en": "You have, like, every night we're gonna go and generate these things, fan out a set of agents that are gonna go and compute per account meeting prep, which gives, or which use some set of tools, giving them access to, like, that online CDP in Postgres I had mentioned, the vector database, meeting prep skills that we own at the system level, as well as, like, custom instructions that users are providing themselves.",
+  "zh": "你有，比如说，每晚我们会去生成这些东西，派发出一组智能体，它们会去计算每个账户的会议准备，它们使用一组工具，让它们可以访问我之前提到的 Postgres 里的在线 CDP、向量数据库、我们在系统层面拥有的会议准备技能，以及用户自己提供的自定义指令。"
+ },
+ {
+  "seg": 105,
+  "start": 783.105,
+  "end": 789.831,
+  "speaker": "Unknown",
+  "en": "And getting into extending the blocks, the goal is for these foundations to speed up the next thing.",
+  "zh": "进入扩展这些模块的部分，目标是让这些基础设施加速下一件事。"
+ },
+ {
+  "seg": 106,
+  "start": 789.971,
+  "end": 791.112,
+  "speaker": "Unknown",
+  "en": "Meetings are super important.",
+  "zh": "会议超级重要。"
+ },
+ {
+  "seg": 107,
+  "start": 791.192,
+  "end": 801.882,
+  "speaker": "Unknown",
+  "en": "We want to be able to generate things like post-meeting follow-ups and things like automatic CRM updates, which can pull in the transcript and say, hey, we discussed this potential expansion opportunity.",
+  "zh": "我们希望能够生成诸如会后跟进和自动 CRM 更新之类的东西，它可以拉取转写稿并说，嘿，我们讨论了这个潜在的扩张机会。"
+ },
+ {
+  "seg": 108,
+  "start": 802.342,
+  "end": 807.907,
+  "speaker": "Unknown",
+  "en": "Let me go and pre-fill all the information needed to create that opportunity, get a thumbs up from a rep, and just make it happen.",
+  "zh": "让我去预填创建该机会所需的所有信息，从销售代表那里获得一个点赞，然后直接搞定。"
+ },
+ {
+  "seg": 109,
+  "start": 810.33,
+  "end": 833.451,
+  "speaker": "Unknown",
+  "en": "And similarly, we want to extend it horizontally to other teams, which is mainly an exercise of creating specific skills, data integrations, and just data ingestion itself, where we can say, okay, email, call transcript embeddings, custom instructions, generalizable, but if we're building this for AEs who are handling pre-sales opportunities,",
+  "zh": "类似地，我们想把它横向扩展到其他团队，这主要是创建特定技能、数据集成以及数据摄取本身的练习，在那些场景下我们可以说，好的，邮件、通话转写嵌入、自定义指令，这些是可泛化的，但如果我们是为处理售前机会的 AE 构建这个，"
+ },
+ {
+  "seg": 110,
+  "start": 834.152,
+  "end": 838.496,
+  "speaker": "Unknown",
+  "en": "We need to go and focus more on third-party data instead of a bunch of product data that we have already.",
+  "zh": "我们就需要更多地去关注第三方数据，而不是我们已经拥有的大量产品数据。"
+ },
+ {
+  "seg": 111,
+  "start": 839.036,
+  "end": 842.859,
+  "speaker": "Unknown",
+  "en": "And that needs to be incorporated into our customer data platform.",
+  "zh": "而这需要被纳入我们的客户数据平台。"
+ },
+ {
+  "seg": 112,
+  "start": 842.879,
+  "end": 849.085,
+  "speaker": "Unknown",
+  "en": "The skills need to go and reference a different set of information that we have on the people that we're trying to sell to.",
+  "zh": "技能需要去引用我们掌握的关于我们要向其销售的人群的另一套信息。"
+ },
+ {
+  "seg": 113,
+  "start": 851.499,
+  "end": 859.043,
+  "speaker": "Unknown",
+  "en": "And similarly, we've built this in a way where employees have access to the same tools and skills that are being used for the background agents that we're creating.",
+  "zh": "类似地，我们构建它的方式是让员工能够访问与我们创建的后台智能体所使用的相同的工具和技能。"
+ },
+ {
+  "seg": 114,
+  "start": 859.783,
+  "end": 862.224,
+  "speaker": "Unknown",
+  "en": "We set up what we call our GTM MCP.",
+  "zh": "我们搭建了我们所谓的 GTM MCP。"
+ },
+ {
+  "seg": 115,
+  "start": 863.045,
+  "end": 868.807,
+  "speaker": "Unknown",
+  "en": "And this is basically just a window into the same exact tools that we've set up for these background agents.",
+  "zh": "这基本上只是一个窗口，通向我们为这些后台智能体搭建的完全相同的工具。"
+ },
+ {
+  "seg": 116,
+  "start": 869.027,
+  "end": 875.911,
+  "speaker": "Unknown",
+  "en": "So that way, the things that we build are just kind of automatically federated out to people who want to go and build their own agents.",
+  "zh": "这样一来，我们构建的东西就会自动分发给那些想要去构建自己智能体的人。"
+ },
+ {
+  "seg": 117,
+  "start": 875.931,
+  "end": 880.073,
+  "speaker": "Unknown",
+  "en": "They want to go chat with the information that we're setting up and build their own automations.",
+  "zh": "他们想要去与我们搭建的信息进行对话，并构建自己的自动化。"
+ },
+ {
+  "seg": 118,
+  "start": 881.885,
+  "end": 882.805,
+  "speaker": "Unknown",
+  "en": "And they're building a ton of them.",
+  "zh": "而且他们正在构建大量的这类东西。"
+ },
+ {
+  "seg": 119,
+  "start": 883.486,
+  "end": 896.67,
+  "speaker": "Unknown",
+  "en": "This is just a glimpse into some of the analytics that we've done, taking the reasoning generated by the MCP tool calls that are being executed remotely.",
+  "zh": "这只是对我们所做的一些分析的简要展示，提取由远程执行的 MCP 工具调用所产生的推理过程。"
+ },
+ {
+  "seg": 120,
+  "start": 897.51,
+  "end": 906.574,
+  "speaker": "Unknown",
+  "en": "And this compounds because when people go and build their own thing and they go and connect to our MCP, they're basically telling us, here is a problem that I have.",
+  "zh": "而这会产生复利效应，因为当人们去构建自己的东西并连接到我们的 MCP 时，他们基本上是在告诉我们，这是我的一个问题。"
+ },
+ {
+  "seg": 121,
+  "start": 906.754,
+  "end": 908.254,
+  "speaker": "Unknown",
+  "en": "Here is how I'm trying to solve this problem.",
+  "zh": "这是我尝试解决这个问题的方式。"
+ },
+ {
+  "seg": 122,
+  "start": 908.734,
+  "end": 910.255,
+  "speaker": "Unknown",
+  "en": "And we can go and work with them to be like,",
+  "zh": "而我们可以与他们合作，说："
+ },
+ {
+  "seg": 123,
+  "start": 910.875,
+  "end": 915.877,
+  "speaker": "Unknown",
+  "en": "OK, we can just go and productionize this, distribute this to everybody who probably has similar problems.",
+  "zh": "好的，我们可以直接把这个产品化，分发给所有可能遇到类似问题的人。"
+ },
+ {
+  "seg": 124,
+  "start": 916.337,
+  "end": 928.802,
+  "speaker": "Unknown",
+  "en": "And they give us the prompts and the skills and even applications of their Vibe coding to just really simplify our ability to just go and productionize these use cases.",
+  "zh": "而他们给我们提供提示词、技能，甚至是他们 vibe coding 的应用成果，这真的极大简化了我们去产品化这些用例的能力。"
+ },
+ {
+  "seg": 125,
+  "start": 930.823,
+  "end": 938.546,
+  "speaker": "Unknown",
+  "en": "So now you're probably wondering, what about that golf example that I had mentioned at the beginning, the orchestration problem?",
+  "zh": "那么现在你可能在想，我在开头提到的高尔夫例子怎么样了，那个编排问题？"
+ },
+ {
+  "seg": 126,
+  "start": 940.923,
+  "end": 953.654,
+  "speaker": "Unknown",
+  "en": "The point that I'm trying to convey by talking about all these specific things that we're doing is that these vertical builds that we're creating are the foundation of multi-team, multi-channel distribution.",
+  "zh": "我讲这些我们正在做的具体事情，想传达的观点是，我们创建的这些垂直构建是多团队、多渠道分发的基础。"
+ },
+ {
+  "seg": 127,
+  "start": 955.155,
+  "end": 968.806,
+  "speaker": "Unknown",
+  "en": "If we want to be able to say, here is a playbook, here's how you sell procurement, here's how you sell to construction, or here are wacky experiment ideas that we have, like offering Pro V1s to golfers, which is actually",
+  "zh": "如果我们想要能够说，这里有一个 playbook，这是你向采购部门销售的方法，这是你向建筑行业销售的方法，或者这些是我们的一些古怪实验点子，比如向高尔夫球手提供 Pro V1 球，这实际上"
+ },
+ {
+  "seg": 128,
+  "start": 969.999,
+  "end": 971.861,
+  "speaker": "Unknown",
+  "en": "It works really well.",
+  "zh": "效果非常好。"
+ },
+ {
+  "seg": 129,
+  "start": 972.802,
+  "end": 986.556,
+  "speaker": "Unknown",
+  "en": "We need to be able to say like take in that corpus of information of things that people are trying to do and federate that out through the background agents that are actually creating these artifacts that people are like using to operationalize like go to market and execute.",
+  "zh": "我们需要能够说，把人们正在尝试做的事情的那批信息吸收进来，并通过后台智能体分发出去，这些智能体真正在创建这些产物，人们用它们来把 go-to-market 落地运作并执行。"
+ },
+ {
+  "seg": 130,
+  "start": 989.199,
+  "end": 1003.613,
+  "speaker": "Unknown",
+  "en": "For my Pro V1 golf example, the goal is to funnel this into Ramp Revenue, the internal application that we have built, and go and effectively funnel this into some of these vertical solutions that we've created.",
+  "zh": "对于我的 Pro V1 高尔夫例子，目标是把它导入 Ramp Revenue，也就是我们构建的内部应用，并有效地把它导入我们创建的一些垂直解决方案中。"
+ },
+ {
+  "seg": 131,
+  "start": 1004.034,
+  "end": 1004.815,
+  "speaker": "Unknown",
+  "en": "So you can say, like,",
+  "zh": "所以你可以说，比如，"
+ },
+ {
+  "seg": 132,
+  "start": 1005.335,
+  "end": 1009.256,
+  "speaker": "Unknown",
+  "en": "For SDRs, we want to go and create an audience of here are the golfers that we want to send things to.",
+  "zh": "对于 SDR,我们要去创建一个受众群体，这里是我们要发送内容的高尔夫球手。"
+ },
+ {
+  "seg": 133,
+  "start": 1009.716,
+  "end": 1013.277,
+  "speaker": "Unknown",
+  "en": "We can go and generate personalized copy and sequences that they can go and send.",
+  "zh": "我们可以去生成个性化文案和序列，供他们去发送。"
+ },
+ {
+  "seg": 134,
+  "start": 1013.818,
+  "end": 1020.96,
+  "speaker": "Unknown",
+  "en": "Maybe we want to go and create web landing pages and spin up the images and the creative that we'll point these email sequences to.",
+  "zh": "也许我们还想去创建网页落地页，并制作图片和创意素材，把这些邮件序列指向它们。"
+ },
+ {
+  "seg": 135,
+  "start": 1021.52,
+  "end": 1030.143,
+  "speaker": "Unknown",
+  "en": "And we can do all of that through just the description of here's my intent, get the people who own these channels to review them and sign off, and really allow us to just",
+  "zh": "而我们可以做到这一切，只需描述“这是我的意图”，让拥有这些渠道的人去审核并签字确认，真正让我们能够"
+ },
+ {
+  "seg": 136,
+  "start": 1031.183,
+  "end": 1039.294,
+  "speaker": "Unknown",
+  "en": "move a lot quicker in how we ship and scale creatively across all these different go-to-market channels.",
+  "zh": "在所有这些不同的 go-to-market 渠道上，以快得多的速度进行创意的发布和扩展。"
+ },
+ {
+  "seg": 137,
+  "start": 1040.117,
+  "end": 1046.642,
+  "speaker": "Unknown",
+  "en": "So the goal of this is to ship faster, ship safer, scale our teams, become more efficient.",
+  "zh": "所以这一切的目标是更快地发布、更安全地发布、扩展我们的团队、变得更高效。"
+ },
+ {
+  "seg": 138,
+  "start": 1047.483,
+  "end": 1054.588,
+  "speaker": "Unknown",
+  "en": "And with these campaigns, we can go and execute them across multiple channels with consistent audience targeting.",
+  "zh": "而借助这些营销活动，我们可以跨多个渠道执行它们，并保持一致的受众定位。"
+ },
+ {
+  "seg": 139,
+  "start": 1056.09,
+  "end": 1060.333,
+  "speaker": "Unknown",
+  "en": "Agents can go and hold context on multiple things that are options.",
+  "zh": "智能体可以保有关于多个候选选项的上下文。"
+ },
+ {
+  "seg": 140,
+  "start": 1060.353,
+  "end": 1064.456,
+  "speaker": "Unknown",
+  "en": "We can go and execute this campaign or that campaign or that experiment and balance the",
+  "zh": "我们可以去执行这个活动、那个活动或那个实验，并平衡"
+ },
+ {
+  "seg": 141,
+  "start": 1065.457,
+  "end": 1074.804,
+  "speaker": "Unknown",
+  "en": "Traditional multi-armed bandit problem of exploring new possibilities versus being safe and going into just known returns.",
+  "zh": "探索新可能性与稳健地只走已知回报之间的传统多臂老虎机问题。"
+ },
+ {
+  "seg": 142,
+  "start": 1075.725,
+  "end": 1087.214,
+  "speaker": "Unknown",
+  "en": "And then we can build in guardrails as well to go and effectively manage compliance rules, rules of engagement, being context-aware, making sure we're not doing the same thing over and over again.",
+  "zh": "然后我们还可以内置护栏，有效地管理合规规则、参与规则，做到具备情境意识，确保我们不会一遍又一遍地做同样的事情。"
+ },
+ {
+  "seg": 143,
+  "start": 1089.355,
+  "end": 1091.297,
+  "speaker": "Unknown",
+  "en": "And yeah, just do this on behalf of everybody.",
+  "zh": "对，就是代表所有人去做这件事。"
+ },
+ {
+  "seg": 144,
+  "start": 1093.652,
+  "end": 1095.873,
+  "speaker": "Unknown",
+  "en": "And those are the building blocks of go-to-market orchestration.",
+  "zh": "这些就是 go-to-market 编排的构建模块。"
+ },
+ {
+  "seg": 145,
+  "start": 1096.413,
+  "end": 1096.933,
+  "speaker": "Unknown",
+  "en": "Thank you, everybody.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 146,
+  "start": 1100.775,
+  "end": 1103.316,
+  "speaker": "Unknown",
+  "en": "We have probably time for one question.",
+  "zh": "我们可能还有时间提一个问题。"
+ },
+ {
+  "seg": 147,
+  "start": 1104.436,
+  "end": 1105.396,
+  "speaker": "Unknown",
+  "en": "Hey, there we go.",
+  "zh": "嘿，来了一个。"
+ },
+ {
+  "seg": 148,
+  "start": 1112.159,
+  "end": 1112.379,
+  "speaker": "Unknown",
+  "en": "Hey.",
+  "zh": "嘿。"
+ },
+ {
+  "seg": 149,
+  "start": 1113.519,
+  "end": 1120.982,
+  "speaker": "Unknown",
+  "en": "So just curious, how would you approach building something like this for a smaller company or for a company that's just getting started?",
+  "zh": "那么很好奇，你会如何为一家较小的公司或者一家刚刚起步的公司来构建类似这样的东西？"
+ },
+ {
+  "seg": 150,
+  "start": 1122.012,
+  "end": 1122.292,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 151,
+  "start": 1122.613,
+  "end": 1136.623,
+  "speaker": "Unknown",
+  "en": "I think a few people before have mentioned something similar, but I would go and find the very specific use cases that you can build automation around and just solve really specific problems that exist first.",
+  "zh": "我想之前有几个人提过类似的东西，但我会去找那些你能围绕它构建自动化的非常具体的用例，先去解决那些真实存在的非常具体的问题。"
+ },
+ {
+  "seg": 152,
+  "start": 1136.724,
+  "end": 1140.787,
+  "speaker": "Unknown",
+  "en": "Three years ago, there was two of us, and we were building automated outbound.",
+  "zh": "三年前，我们只有两个人，当时我们在做自动化外呼(outbound)。"
+ },
+ {
+  "seg": 153,
+  "start": 1142.548,
+  "end": 1154.073,
+  "speaker": "Unknown",
+  "en": "We were just trying to figure out how can we go and use GPT 3.5 and put personalized copy into some sequences and go and pull data from wherever to go and generate that.",
+  "zh": "我们只是想弄清楚，怎么用 GPT 3.5 把个性化的文案放进一些序列里，再从各处拉数据来生成这些内容。"
+ },
+ {
+  "seg": 154,
+  "start": 1154.933,
+  "end": 1164.878,
+  "speaker": "Unknown",
+  "en": "And by doing these things and solving these problems, you get a really good understanding of how this works, how it could extend to other teams, and solving real problems as you go.",
+  "zh": "通过做这些事情、解决这些问题，你会对它如何运作、如何扩展到其他团队有非常深刻的理解，并且在过程中解决真实的问题。"
+ },
+ {
+  "seg": 155,
+  "start": 1165.318,
+  "end": 1171.641,
+  "speaker": "Unknown",
+  "en": "The reality is that you can't spend a year going and building some really complicated system architecture that",
+  "zh": "现实是，你不可能花一年时间去构建某种非常复杂的系统架构，让它"
+ },
+ {
+  "seg": 156,
+  "start": 1172.502,
+  "end": 1177.268,
+  "speaker": "Unknown",
+  "en": "is perfect, so you have to like piece together the vertical solutions and then stick them together.",
+  "zh": "完美无缺，所以你必须把各个垂直解决方案拼凑起来，然后把它们粘在一起。"
+ }
+]

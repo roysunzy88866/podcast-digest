@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Whatnot":4,"直播购物":2,"市场":2,"信任与安全":2,"规则引擎":1,"大型语言模型":4,"发现":2,"网络效应":12,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":4,"发现":2,"网络效应":12,"虚拟形象":2}</script>
 
 <script>
 (function(){

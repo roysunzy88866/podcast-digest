@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"PayPal":5,"Square":5,"Faire":1,"Ramp":7,"Airbnb":10,"桶和弹药":1,"人才密度":4,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"PayPal":5,"Square":5,"Faire":1,"Ramp":8,"Airbnb":10,"桶和弹药":1,"人才密度":4,"PM":3,"商业头脑":1}</script>
 
 <script>
 (function(){

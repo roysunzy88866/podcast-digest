@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":53,"微调":20,"BitNet":1,"LoRa":1,"数据中心":15,"去中介化":2,"智能体":321,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":54,"微调":21,"BitNet":1,"LoRa":1,"数据中心":15,"去中介化":2,"智能体":325,"GPU":18}</script>
 
 <script>
 (function(){

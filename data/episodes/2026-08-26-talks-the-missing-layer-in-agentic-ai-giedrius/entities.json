@@ -1,0 +1,541 @@
+{
+  "episode_id": "2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "智能体",
+    "网页抓取",
+    "AI 基础设施",
+    "浏览器自动化",
+    "成本优化"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "giedrius-teimantas",
+      "type": "person",
+      "role": "guest",
+      "name": "Giedrius Šteimantas",
+      "file": "Giedrius Šteimantas",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:构建能上网购物的 AI 智能体,分发现、决策、确认、执行四个阶段,并论证它需要一层抓取基础设施才能在开放网络上自由运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            55.427,
+            63.169
+          ],
+          "quote": "that a shopping agent would then take and attempt to find them online and purchase them for the customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            142.805,
+            151.182
+          ],
+          "quote": "And he was missing a layer, an infrastructure layer that would allow this agent to operate freely on the open web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            176.501,
+            183.608
+          ],
+          "quote": "And before we go into this agent and see how we can build it, I wanted to talk a little bit about the scraping industry and how we operate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            229.487,
+            231.628
+          ],
+          "quote": "So coming back to my friend's agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            232.588,
+            238.051
+          ],
+          "quote": "Let's take a look and see how we could do a better job in making this agent run more lively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            243.834,
+            250.457
+          ],
+          "quote": "Discovery, the agent was supposed to find products pages on websites where these items can be bought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            251.197,
+            260.899
+          ],
+          "quote": "Then a decision stage where an agent can decide what products to buy based on the content of these pages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            261.059,
+            269.621
+          ],
+          "quote": "So the agent has to visit them, verify that the stock is there, the price is right, the description fits the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            418.05,
+            423.995
+          ],
+          "quote": "However, for this specific discovery phase, you also want to allow your agent to search the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            450.262,
+            461.292
+          ],
+          "quote": "And most importantly, it gives your agent access to many popular search engines that all of these websites have been indexed already a long time ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            462.783,
+            469.645
+          ],
+          "quote": "So in the discovery phase, instead of predefined list and the browser, we give agent a tool to search the web, fast search API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            470.465,
+            474.686
+          ],
+          "quote": "Agent formulates fan out queries and selects the relevant URLs from search results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            475.446,
+            483.128
+          ],
+          "quote": "Since the responses are quite small and there's no need for complicated models, we can have the agent run quite quickly in this stage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            486.55,
+            492.234
+          ],
+          "quote": "Yeah, so now the agent has searched the web and selected some relevant URLs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            493.255,
+            503.883
+          ],
+          "quote": "It is time for the agent to visit those pages to see what they're all about in order to confirm price, stock level, description, product details, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            508.226,
+            511.368
+          ],
+          "quote": "This is where agent selects the items we will purchase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            533.237,
+            539.619
+          ],
+          "quote": "The agent would be left with very few choices, with the majority of popular retailers being left out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            612.919,
+            617.96
+          ],
+          "quote": "This will lead to more options for the agent to choose from and fewer wasted tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            784.981,
+            797.472
+          ],
+          "quote": "With this replacement, I hardened this agent with years of scripting experience and got proper stealth done at the browser source code level, a residential proxy attached to it out of the box,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            829.848,
+            839.073
+          ],
+          "quote": "And boom, we have an agent that commands a powerful infrastructure hardened by years of web scraping experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oxylabs",
+      "type": "company",
+      "role": "company",
+      "name": "Oxylabs",
+      "file": "Oxylabs",
+      "primary": true,
+      "how_described": "嘉宾所在公司:过去十年帮训练大语言模型的公司获取数据,现在用同一套抓取基础设施帮 AI 智能体大规模、低成本地访问网络;本集演示了它的 Fast Search API、Web Scraper API 和无头浏览器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            153.664,
+            163.788
+          ],
+          "quote": "I work for Oxylabs, where in the past 10 years we've helped companies that trained large language models get their data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "web-scraping",
+      "type": "concept",
+      "role": "concept",
+      "name": "网页抓取 (web scraping)",
+      "file": "网页抓取",
+      "primary": true,
+      "how_described": "本集称之为智能体缺失的基础设施层,并提炼抓取行业三条老原则:只有绝对必要时才用浏览器、先验证内容(HTTP 200 不等于有效内容)、内容越轻量越好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.841,
+            26.553
+          ],
+          "quote": "Today I'm going to talk a lot about missing layer of agentic AI and explain a little bit about how web scraping infrastructure can actually help you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            829.848,
+            839.073
+          ],
+          "quote": "And boom, we have an agent that commands a powerful infrastructure hardened by years of web scraping experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器自动化 (browser automation)",
+      "file": "浏览器自动化",
+      "primary": true,
+      "how_described": "朋友最初全流程都用浏览器自动化框架,结果是又慢又贵又不可靠;本集主张它是最后手段,只在填表单、交互性强的购买环节才真正需要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            105.721,
+            111.405
+          ],
+          "quote": "He was using a browser automation framework for everything, and it was slow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            323.654,
+            326.196
+          ],
+          "quote": "He used the browser automation tool for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            330.852,
+            338.495
+          ],
+          "quote": "Their browser automation tool lacked what we call stealth, so they would get captures and sometimes fail to access the sites altogether.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "captcha",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证码 (CAPTCHA)",
+      "file": "验证码",
+      "primary": true,
+      "how_described": "朋友搭建的智能体一路被验证码拦截导致流程崩溃;本集指出多数客户检测不到这种失败,把验证码页当有效内容喂给模型是白白浪费 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            561.17,
+            569.673
+          ],
+          "quote": "Now, a large language model, of course, can distinguish between valid eShop content and a CAPTCHA, but we need to spend tokens in order to do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language model)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集强调要先验证内容再喂给大语言模型:开 10 个网站只有 3 个有效却全喂进去,等于浪费 70% 的 token;模型虽能分辨验证码,但分辨本身要花 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            561.17,
+            569.673
+          ],
+          "quote": "Now, a large language model, of course, can distinguish between valid eShop content and a CAPTCHA, but we need to spend tokens in order to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            643.268,
+            651.112
+          ],
+          "quote": "In case of CAPTCHAs or other blocks, the request would fail with an explicit error message, so I know not to include it when sending to a large language model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            749.584,
+            754.345
+          ],
+          "quote": "We both used Playwright MCP with a browser and a large language model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集反复以 token 成本论证抓取原则的价值:Fast Search API 响应不到 2,000 个 token、Web Scraper API 只返回有效内容,都是为了减少 token 浪费、让成本可预测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            840.834,
+            847.318
+          ],
+          "quote": "Not only does it open up the web, but also saves the time on implementation and token cost.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fast-search-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fast Search API",
+      "file": "Fast Search API",
+      "primary": true,
+      "how_described": "Oxylabs 专为智能体打造的搜索产品:返回紧凑 JSON(每次不到 2,000 token)、平均响应不到 700 毫秒、价格低且可预测,让智能体用搜索引擎索引替代用浏览器逐站翻找。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            427.677,
+            433.282
+          ],
+          "quote": "That is why I chose to use a product that we built, especially for agents, Fast Search API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            462.783,
+            469.645
+          ],
+          "quote": "So in the discovery phase, instead of predefined list and the browser, we give agent a tool to search the web, fast search API.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "web-scraper-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Web Scraper API",
+      "file": "Web Scraper API",
+      "primary": true,
+      "how_described": "Oxylabs 的轻量 REST 抓取接口:只返回有效内容、失败时带明确错误信息、支持 Markdown 输出与地理定位、可并行数百请求,且只为成功结果付费——「不治愈,不收费」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            629.222,
+            636.025
+          ],
+          "quote": "So I tried to rebuild the stage without a browser, only by using Oxlabs Web Scraper API.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playwright-mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "Playwright MCP",
+      "file": "Playwright MCP",
+      "primary": true,
+      "how_described": "本集购买阶段使用的让大模型操控浏览器的工具协议,配合浏览器加大模型;换成 Oxylabs 无头浏览器后即为即插即用替换,解决了访问被验证码拦的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            749.584,
+            754.345
+          ],
+          "quote": "We both used Playwright MCP with a browser and a large language model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "headless-browser",
+      "type": "concept",
+      "role": "concept",
+      "name": "无头浏览器 (headless browser)",
+      "file": "无头浏览器",
+      "primary": true,
+      "how_described": "Oxylabs 的不带界面的后台浏览器,对 Playwright MCP 即插即用;带浏览器源码级隐身处理、开箱即用的住宅代理和地理定位能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            778.516,
+            783.86
+          ],
+          "quote": "I just connected the Oxlabs headless browser since it supports player at MCP is just a drop-in replacement.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "geolocation",
+      "type": "concept",
+      "role": "concept",
+      "name": "地理定位 (geolocation)",
+      "file": "地理定位",
+      "primary": true,
+      "how_described": "本集强调地理定位要贯穿全流程:很多电商按用户位置显示库存和尺码,发现、验证、购买三环节用同一套地理定位,否则结账时才发现缺货。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            685.989,
+            692.395
+          ],
+          "quote": "And finally, it supports geolocation options so I can localize my results and get relevant content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            799.55,
+            803.491
+          ],
+          "quote": "Most importantly, in this case, a geolocation capability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集提到朋友因可观测性做得好才发现了验证码失败,而多数客户只查状态码和内容大小、检测不到失败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            541.022,
+            544.743
+          ],
+          "quote": "It's a good thing he did well with observability, so he actually noticed when it happened.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

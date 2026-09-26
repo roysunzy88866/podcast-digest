@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Wix":3,"Base44":3,"Salesforce":31,"Atlassian":5,"vibe coding":37,"SaaS":17,"回购":1,"股权激励":1,"微调":20}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Wix":3,"Base44":3,"Salesforce":31,"Atlassian":5,"vibe coding":37,"SaaS":17,"回购":1,"股权激励":1,"微调":21}</script>
 
 <script>
 (function(){

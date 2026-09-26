@@ -1,0 +1,1050 @@
+[
+ {
+  "seg": 0,
+  "start": 13.773,
+  "end": 14.614,
+  "speaker": "Unknown",
+  "en": "What a beautiful voice.",
+  "zh": "多么好听的声音。"
+ },
+ {
+  "seg": 1,
+  "start": 14.634,
+  "end": 17.278,
+  "speaker": "Unknown",
+  "en": "All right, thank you for coming.",
+  "zh": "好了，感谢各位的到来。"
+ },
+ {
+  "seg": 2,
+  "start": 18.841,
+  "end": 26.553,
+  "speaker": "Unknown",
+  "en": "Today I'm going to talk a lot about missing layer of agentic AI and explain a little bit about how web scraping infrastructure can actually help you.",
+  "zh": "今天我会大量讨论智能体 AI 所缺失的那一层，并稍微解释一下网页抓取基础设施实际上能如何帮到你。"
+ },
+ {
+  "seg": 3,
+  "start": 27.209,
+  "end": 31.772,
+  "speaker": "Unknown",
+  "en": "But first, let me talk a little bit about my friend's idea.",
+  "zh": "但首先，让我先聊聊我朋友的点子。"
+ },
+ {
+  "seg": 4,
+  "start": 32.773,
+  "end": 34.214,
+  "speaker": "Unknown",
+  "en": "So my friend had this idea.",
+  "zh": "我朋友有这么一个想法。"
+ },
+ {
+  "seg": 5,
+  "start": 34.694,
+  "end": 47.602,
+  "speaker": "Unknown",
+  "en": "He built this AI chatbot that chatted with people about their style, and it was supposed to help them pick out new items, some sort of a personal shopper.",
+  "zh": "他做了一个 AI 聊天机器人，和人们聊他们的穿搭风格，本应该帮助他们挑选新商品，某种私人购物助手。"
+ },
+ {
+  "seg": 6,
+  "start": 48.182,
+  "end": 54.787,
+  "speaker": "Unknown",
+  "en": "And once those items were picked out, this chatbot would produce prompts,",
+  "zh": "一旦商品被挑选出来，这个聊天机器人就会生成提示词,"
+ },
+ {
+  "seg": 7,
+  "start": 55.427,
+  "end": 63.169,
+  "speaker": "Unknown",
+  "en": "that a shopping agent would then take and attempt to find them online and purchase them for the customers.",
+  "zh": "然后一个购物智能体会拿这些提示词，尝试在网上找到这些商品并为客户购买。"
+ },
+ {
+  "seg": 8,
+  "start": 64.55,
+  "end": 79.054,
+  "speaker": "Unknown",
+  "en": "This idea is not new and it could be applicable to many scenarios but my friend was good at building agents but he ran into different problems and asked me for advice and when he ran it",
+  "zh": "这个想法并不新鲜，也可以适用于很多场景，但我朋友擅长构建智能体，却遇到了各种不同的问题，于是向我请教，当他运行它的时候"
+ },
+ {
+  "seg": 9,
+  "start": 80.855,
+  "end": 86.651,
+  "speaker": "Unknown",
+  "en": "He would usually, instead of product pages or whatever, he would get things like that.",
+  "zh": "他通常得到的不是产品页面之类的东西，而是那样的东西。"
+ },
+ {
+  "seg": 10,
+  "start": 88.435,
+  "end": 89.278,
+  "speaker": "Unknown",
+  "en": "He would get captured.",
+  "zh": "他会被验证码拦住。"
+ },
+ {
+  "seg": 11,
+  "start": 91.354,
+  "end": 104.461,
+  "speaker": "Unknown",
+  "en": "And, of course, he was doing it very, very quickly, so he wipe-coded the whole thing while having a thought about infrastructure and underlying layers and how it should work at all.",
+  "zh": "而且，当然，他做得非常非常快，所以他一边思考基础设施、底层以及它到底应该如何工作，一边用 vibe coding 把整个东西写完了。"
+ },
+ {
+  "seg": 12,
+  "start": 105.721,
+  "end": 111.405,
+  "speaker": "Unknown",
+  "en": "He was using a browser automation framework for everything, and it was slow.",
+  "zh": "他把所有事情都用浏览器自动化框架来做，结果很慢。"
+ },
+ {
+  "seg": 13,
+  "start": 112.569,
+  "end": 114.71,
+  "speaker": "Unknown",
+  "en": "Expensive and unreliable.",
+  "zh": "昂贵且不可靠。"
+ },
+ {
+  "seg": 14,
+  "start": 115.651,
+  "end": 122.135,
+  "speaker": "Unknown",
+  "en": "So at the end he made a product that does not work and is expensive to run.",
+  "zh": "所以最后他做出了一个不能用的产品，而且运行成本很高。"
+ },
+ {
+  "seg": 15,
+  "start": 123.476,
+  "end": 124.536,
+  "speaker": "Unknown",
+  "en": "So he asked me for help.",
+  "zh": "于是他向我求助。"
+ },
+ {
+  "seg": 16,
+  "start": 124.716,
+  "end": 131.66,
+  "speaker": "Unknown",
+  "en": "And I was a little bit reluctant at first because I don't like giving out professional advice for free.",
+  "zh": "一开始我有点不情愿，因为我不喜欢免费提供专业建议。"
+ },
+ {
+  "seg": 17,
+  "start": 132.321,
+  "end": 139.125,
+  "speaker": "Unknown",
+  "en": "But I took a look at it and I got a little curious, I have to be honest.",
+  "zh": "但老实说，我看了一眼之后，有点好奇了。"
+ },
+ {
+  "seg": 18,
+  "start": 139.145,
+  "end": 140.866,
+  "speaker": "Unknown",
+  "en": "I noticed that he was missing something.",
+  "zh": "我注意到他缺了点什么。"
+ },
+ {
+  "seg": 19,
+  "start": 142.805,
+  "end": 151.182,
+  "speaker": "Unknown",
+  "en": "And he was missing a layer, an infrastructure layer that would allow this agent to operate freely on the open web.",
+  "zh": "他缺了一层，一个能让这个智能体在开放网络上自由运作的基础设施层。"
+ },
+ {
+  "seg": 20,
+  "start": 152.303,
+  "end": 153.524,
+  "speaker": "Unknown",
+  "en": "My name is Giedrus.",
+  "zh": "我叫 Giedrus。"
+ },
+ {
+  "seg": 21,
+  "start": 153.664,
+  "end": 163.788,
+  "speaker": "Unknown",
+  "en": "I work for Oxylabs, where in the past 10 years we've helped companies that trained large language models get their data.",
+  "zh": "我在 Oxylabs 工作，在过去 10 年里，我们帮助那些训练大型语言模型的公司获取数据。"
+ },
+ {
+  "seg": 22,
+  "start": 164.568,
+  "end": 174.292,
+  "speaker": "Unknown",
+  "en": "And now we use this infrastructure to help AI agents to access web on scale and at low cost.",
+  "zh": "现在我们用这套基础设施来帮助 AI 智能体大规模、低成本地访问网络。"
+ },
+ {
+  "seg": 23,
+  "start": 176.501,
+  "end": 183.608,
+  "speaker": "Unknown",
+  "en": "And before we go into this agent and see how we can build it, I wanted to talk a little bit about the scraping industry and how we operate.",
+  "zh": "在深入这个智能体、看看我们如何构建它之前，我想先稍微谈谈抓取行业，以及我们是如何运作的。"
+ },
+ {
+  "seg": 24,
+  "start": 184.389,
+  "end": 191.956,
+  "speaker": "Unknown",
+  "en": "And the principles that we operate on can be summed up by one sentence.",
+  "zh": "而我们运作的原则可以用一句话来概括。"
+ },
+ {
+  "seg": 25,
+  "start": 191.976,
+  "end": 193.618,
+  "speaker": "Unknown",
+  "en": "You know, cost matters.",
+  "zh": "你知道，成本很重要。"
+ },
+ {
+  "seg": 26,
+  "start": 195.399,
+  "end": 199.824,
+  "speaker": "Unknown",
+  "en": "And the first principle is use a browser when you absolutely have to.",
+  "zh": "第一条原则是：只有在绝对必要时才使用浏览器。"
+ },
+ {
+  "seg": 27,
+  "start": 201.328,
+  "end": 202.368,
+  "speaker": "Unknown",
+  "en": "Validate content.",
+  "zh": "验证内容。"
+ },
+ {
+  "seg": 28,
+  "start": 203.489,
+  "end": 206.95,
+  "speaker": "Unknown",
+  "en": "HTTP response 200 does not mean that we are good to go.",
+  "zh": "HTTP 响应 200 并不意味着一切正常。"
+ },
+ {
+  "seg": 29,
+  "start": 208.371,
+  "end": 209.791,
+  "speaker": "Unknown",
+  "en": "Lighter content is preferred.",
+  "zh": "更轻量的内容更受青睐。"
+ },
+ {
+  "seg": 30,
+  "start": 210.752,
+  "end": 218.895,
+  "speaker": "Unknown",
+  "en": "Websites are full of JavaScript, CSS, HTML, and there's a lot of bytes that do not deliver any value whatsoever.",
+  "zh": "网站上充满了 JavaScript、CSS、HTML，其中有大量字节根本不提供任何价值。"
+ },
+ {
+  "seg": 31,
+  "start": 220.075,
+  "end": 227.738,
+  "speaker": "Unknown",
+  "en": "And today, I will demonstrate how these principles are also applicable when building agents that interact with the web.",
+  "zh": "而今天，我将演示这些原则在构建与网络交互的智能体时同样适用。"
+ },
+ {
+  "seg": 32,
+  "start": 229.487,
+  "end": 231.628,
+  "speaker": "Unknown",
+  "en": "So coming back to my friend's agent.",
+  "zh": "那么回到我朋友的智能体。"
+ },
+ {
+  "seg": 33,
+  "start": 232.588,
+  "end": 238.051,
+  "speaker": "Unknown",
+  "en": "Let's take a look and see how we could do a better job in making this agent run more lively.",
+  "zh": "我们来看一看，如何能把工作做得更好，让这个智能体运行得更顺畅。"
+ },
+ {
+  "seg": 34,
+  "start": 238.631,
+  "end": 241.433,
+  "speaker": "Unknown",
+  "en": "So here's how my friends settle all up.",
+  "zh": "这就是我朋友搭建的整体结构。"
+ },
+ {
+  "seg": 35,
+  "start": 241.753,
+  "end": 243.113,
+  "speaker": "Unknown",
+  "en": "So four different stages.",
+  "zh": "一共四个不同的阶段。"
+ },
+ {
+  "seg": 36,
+  "start": 243.834,
+  "end": 250.457,
+  "speaker": "Unknown",
+  "en": "Discovery, the agent was supposed to find products pages on websites where these items can be bought.",
+  "zh": "发现阶段，智能体应该在网站上找到可以购买这些商品的产品页面。"
+ },
+ {
+  "seg": 37,
+  "start": 251.197,
+  "end": 260.899,
+  "speaker": "Unknown",
+  "en": "Then a decision stage where an agent can decide what products to buy based on the content of these pages.",
+  "zh": "然后是决策阶段，智能体可以基于这些页面的内容决定购买哪些商品。"
+ },
+ {
+  "seg": 38,
+  "start": 261.059,
+  "end": 269.621,
+  "speaker": "Unknown",
+  "en": "So the agent has to visit them, verify that the stock is there, the price is right, the description fits the prompt.",
+  "zh": "所以智能体必须访问这些页面，核实有货、价格合适、描述符合提示词。"
+ },
+ {
+  "seg": 39,
+  "start": 270.461,
+  "end": 279.483,
+  "speaker": "Unknown",
+  "en": "And once that decision is made, user is given with a choice, whether to go ahead with the purchase or reject it altogether.",
+  "zh": "一旦做出决策，用户会得到一个选择：是继续购买，还是完全放弃。"
+ },
+ {
+  "seg": 40,
+  "start": 280.533,
+  "end": 287.716,
+  "speaker": "Unknown",
+  "en": "The problem was that sometimes, and of course we go to execution right away, then execution is making the purchase.",
+  "zh": "问题在于，有时候——当然我们直接进入执行阶段——执行就是完成购买。"
+ },
+ {
+  "seg": 41,
+  "start": 288.176,
+  "end": 292.158,
+  "speaker": "Unknown",
+  "en": "But the problem was that sometimes it worked and sometimes it did not.",
+  "zh": "但问题是，有时候它能成功，有时候不能。"
+ },
+ {
+  "seg": 42,
+  "start": 293.198,
+  "end": 294.319,
+  "speaker": "Unknown",
+  "en": "That was a little problematic.",
+  "zh": "这就有点麻烦了。"
+ },
+ {
+  "seg": 43,
+  "start": 295.739,
+  "end": 306.864,
+  "speaker": "Unknown",
+  "en": "So let's dissect it step by step and see how we could build this differently while improving performance and reducing the cost dramatically by using the same principles from the scraping industry.",
+  "zh": "那么，让我们一步一步拆解它，看看如何运用抓取行业的同样原则，以不同的方式构建它，同时提升性能并大幅降低成本。"
+ },
+ {
+  "seg": 44,
+  "start": 309.663,
+  "end": 312.045,
+  "speaker": "Unknown",
+  "en": "So the first stage, discovery.",
+  "zh": "第一个阶段，发现。"
+ },
+ {
+  "seg": 45,
+  "start": 312.906,
+  "end": 323.114,
+  "speaker": "Unknown",
+  "en": "So my friend, he chose to go with a predefined list of websites, major retailers, and query their search pages in order to find these products.",
+  "zh": "我朋友选择使用一份预定义的网站列表，也就是大型零售商，并查询它们的搜索页来找到这些商品。"
+ },
+ {
+  "seg": 46,
+  "start": 323.654,
+  "end": 326.196,
+  "speaker": "Unknown",
+  "en": "He used the browser automation tool for that.",
+  "zh": "他为此使用了浏览器自动化工具。"
+ },
+ {
+  "seg": 47,
+  "start": 326.276,
+  "end": 329.018,
+  "speaker": "Unknown",
+  "en": "It kind of worked, but it did have challenges.",
+  "zh": "勉强能用，但确实有挑战。"
+ },
+ {
+  "seg": 48,
+  "start": 330.852,
+  "end": 338.495,
+  "speaker": "Unknown",
+  "en": "Their browser automation tool lacked what we call stealth, so they would get captures and sometimes fail to access the sites altogether.",
+  "zh": "他们的浏览器自动化工具缺少我们所说的隐身能力，所以他们会被验证码拦住，有时甚至完全无法访问网站。"
+ },
+ {
+  "seg": 49,
+  "start": 338.776,
+  "end": 352.882,
+  "speaker": "Unknown",
+  "en": "This would break down the flow, so a retry mechanism would have to be put in place, making the whole process very long, costly, and sometimes the sites would not be accessed at all.",
+  "zh": "这会打断整个流程，所以必须加入重试机制，使得整个过程非常漫长、成本高昂，而且有时网站根本无法访问。"
+ },
+ {
+  "seg": 50,
+  "start": 354.182,
+  "end": 359.885,
+  "speaker": "Unknown",
+  "en": "And also, as a result, it also became very difficult to predict the final cost per transaction.",
+  "zh": "而且结果就是，最终每笔交易的成本也变得非常难以预测。"
+ },
+ {
+  "seg": 51,
+  "start": 361.368,
+  "end": 370.036,
+  "speaker": "Unknown",
+  "en": "The list of websites that my friend was checking was also deterministic, so selection of items would only be limited to the few choices he put in.",
+  "zh": "我朋友检查的网站列表也是确定性的，所以商品的选择只会局限于他放入的那几个选项。"
+ },
+ {
+  "seg": 52,
+  "start": 372.098,
+  "end": 376.923,
+  "speaker": "Unknown",
+  "en": "Websites themselves were heavy on JavaScript, making the whole process very slow and costly.",
+  "zh": "网站本身 JavaScript 很重，使得整个流程非常缓慢且成本高昂。"
+ },
+ {
+  "seg": 53,
+  "start": 378.892,
+  "end": 401.123,
+  "speaker": "Unknown",
+  "en": "And finally, even if it worked, items ended up being unavailable at checkout because in the discovery phase he was not able to use energy allocation capabilities and a lot of e-commerce websites are, you know, they take your user's location into account when displaying stock options, sizes, and so ever.",
+  "zh": "最后，即使流程跑通了，商品在结账时也不可用，因为在发现阶段他无法使用地理位置分配能力，而且很多电商网站，你知道的，在显示库存选项、尺码等时会考虑用户的位置。"
+ },
+ {
+  "seg": 54,
+  "start": 405.24,
+  "end": 408.182,
+  "speaker": "Unknown",
+  "en": "So now we solve these problems at Oxalabs every day.",
+  "zh": "所以现在我们在 Oxalabs 每天都在解决这些问题。"
+ },
+ {
+  "seg": 55,
+  "start": 408.362,
+  "end": 417.129,
+  "speaker": "Unknown",
+  "en": "So when scraping, you always want the results to appear in the first try and not to use browser unless absolutely necessary.",
+  "zh": "在抓取时，你总是希望结果第一次就出现，并且除非绝对必要，不要使用浏览器。"
+ },
+ {
+  "seg": 56,
+  "start": 418.05,
+  "end": 423.995,
+  "speaker": "Unknown",
+  "en": "However, for this specific discovery phase, you also want to allow your agent to search the web.",
+  "zh": "然而，对于这个特定的发现阶段，你还希望允许你的智能体搜索网络。"
+ },
+ {
+  "seg": 57,
+  "start": 424.675,
+  "end": 426.797,
+  "speaker": "Unknown",
+  "en": "Doing so with a browser is very cumbersome.",
+  "zh": "用浏览器来做这件事非常繁琐。"
+ },
+ {
+  "seg": 58,
+  "start": 427.677,
+  "end": 433.282,
+  "speaker": "Unknown",
+  "en": "That is why I chose to use a product that we built, especially for agents, Fast Search API.",
+  "zh": "这就是为什么我选择使用我们专为智能体打造的产品 Fast Search API。"
+ },
+ {
+  "seg": 59,
+  "start": 434.808,
+  "end": 449.341,
+  "speaker": "Unknown",
+  "en": "It returns a compact JSON, which is less than 2,000 tokens per response, has fast response times, less than 700 milliseconds on average, and it has a high success rate at a predictable low price.",
+  "zh": "它返回紧凑的 JSON，每次响应少于 2,000 个 token，响应时间快，平均少于 700 毫秒，并且它有很高的成功率，价格低且可预测。"
+ },
+ {
+  "seg": 60,
+  "start": 450.262,
+  "end": 461.292,
+  "speaker": "Unknown",
+  "en": "And most importantly, it gives your agent access to many popular search engines that all of these websites have been indexed already a long time ago.",
+  "zh": "最重要的是，它让你的智能体可以访问许多流行的搜索引擎，所有这些网站都早已被索引。"
+ },
+ {
+  "seg": 61,
+  "start": 462.783,
+  "end": 469.645,
+  "speaker": "Unknown",
+  "en": "So in the discovery phase, instead of predefined list and the browser, we give agent a tool to search the web, fast search API.",
+  "zh": "所以在发现阶段，我们不给智能体预定义的列表和浏览器，而是给它一个搜索网络的工具——Fast Search API。"
+ },
+ {
+  "seg": 62,
+  "start": 470.465,
+  "end": 474.686,
+  "speaker": "Unknown",
+  "en": "Agent formulates fan out queries and selects the relevant URLs from search results.",
+  "zh": "智能体制定扇出查询，并从搜索结果中选择相关的 URL。"
+ },
+ {
+  "seg": 63,
+  "start": 475.446,
+  "end": 483.128,
+  "speaker": "Unknown",
+  "en": "Since the responses are quite small and there's no need for complicated models, we can have the agent run quite quickly in this stage.",
+  "zh": "由于响应相当小，也不需要复杂的模型，我们可以让智能体在这个阶段运行得相当快。"
+ },
+ {
+  "seg": 64,
+  "start": 486.55,
+  "end": 492.234,
+  "speaker": "Unknown",
+  "en": "Yeah, so now the agent has searched the web and selected some relevant URLs.",
+  "zh": "是的，现在智能体已经搜索了网络并选择了一些相关的 URL。"
+ },
+ {
+  "seg": 65,
+  "start": 493.255,
+  "end": 503.883,
+  "speaker": "Unknown",
+  "en": "It is time for the agent to visit those pages to see what they're all about in order to confirm price, stock level, description, product details, and so on.",
+  "zh": "现在是时候让智能体访问这些页面，看看它们的内容是什么，以确认价格、库存水平、描述、产品详情等等。"
+ },
+ {
+  "seg": 66,
+  "start": 505.304,
+  "end": 508.125,
+  "speaker": "Unknown",
+  "en": "With this, we can go to the decision phase.",
+  "zh": "有了这些，我们就可以进入决策阶段。"
+ },
+ {
+  "seg": 67,
+  "start": 508.226,
+  "end": 511.368,
+  "speaker": "Unknown",
+  "en": "This is where agent selects the items we will purchase.",
+  "zh": "这是智能体选择我们要购买的商品的地方。"
+ },
+ {
+  "seg": 68,
+  "start": 512.39,
+  "end": 514.011,
+  "speaker": "Unknown",
+  "en": "For this, my friend also used the browser.",
+  "zh": "为此，我朋友也使用了浏览器。"
+ },
+ {
+  "seg": 69,
+  "start": 514.651,
+  "end": 521.253,
+  "speaker": "Unknown",
+  "en": "He ran many browsers in parallel so the whole process could happen faster, and that is not a bad thing.",
+  "zh": "他并行运行了许多浏览器，这样整个流程可以更快地完成，这并不是坏事。"
+ },
+ {
+  "seg": 70,
+  "start": 522.493,
+  "end": 523.894,
+  "speaker": "Unknown",
+  "en": "He managed to get some results.",
+  "zh": "他设法获得了一些结果。"
+ },
+ {
+  "seg": 71,
+  "start": 524.074,
+  "end": 527.795,
+  "speaker": "Unknown",
+  "en": "However, many of the results would end up like this.",
+  "zh": "然而，很多结果最后都会变成这样。"
+ },
+ {
+  "seg": 72,
+  "start": 531.276,
+  "end": 531.876,
+  "speaker": "Unknown",
+  "en": "And the result?",
+  "zh": "结果呢？"
+ },
+ {
+  "seg": 73,
+  "start": 533.237,
+  "end": 539.619,
+  "speaker": "Unknown",
+  "en": "The agent would be left with very few choices, with the majority of popular retailers being left out.",
+  "zh": "智能体只剩下非常少的选择，大多数热门零售商都被排除了。"
+ },
+ {
+  "seg": 74,
+  "start": 541.022,
+  "end": 544.743,
+  "speaker": "Unknown",
+  "en": "It's a good thing he did well with observability, so he actually noticed when it happened.",
+  "zh": "好在他可观测性做得不错，所以当问题发生时他真的注意到了。"
+ },
+ {
+  "seg": 75,
+  "start": 545.524,
+  "end": 552.786,
+  "speaker": "Unknown",
+  "en": "But what we see when working with these types of customers is that they often fail to detect the failure.",
+  "zh": "但我们在与这类客户合作时看到的是，他们往往无法检测到失败。"
+ },
+ {
+  "seg": 76,
+  "start": 553.527,
+  "end": 560.129,
+  "speaker": "Unknown",
+  "en": "They end up checking only the content size and HTTP response code and then feeding this large HTML to an LLM.",
+  "zh": "他们最终只检查内容大小和 HTTP 响应码，然后把这个巨大的 HTML 喂给 LLM。"
+ },
+ {
+  "seg": 77,
+  "start": 561.17,
+  "end": 569.673,
+  "speaker": "Unknown",
+  "en": "Now, a large language model, of course, can distinguish between valid eShop content and a CAPTCHA, but we need to spend tokens in order to do that.",
+  "zh": "当然，大语言模型可以区分有效的电商内容和验证码，但我们需要花费 token 才能做到这一点。"
+ },
+ {
+  "seg": 78,
+  "start": 570.888,
+  "end": 582.852,
+  "speaker": "Unknown",
+  "en": "And when we attempt to open 10 websites, but only three return valid content, but feed all of the 10 to the model, it is a problem.",
+  "zh": "当我们尝试打开 10 个网站，只有 3 个返回有效内容，却把全部 10 个都喂给模型时，这就是个问题。"
+ },
+ {
+  "seg": 79,
+  "start": 584.533,
+  "end": 587.133,
+  "speaker": "Unknown",
+  "en": "It means that we waste 70% of the tokens.",
+  "zh": "这意味着我们浪费了 70% 的 token。"
+ },
+ {
+  "seg": 80,
+  "start": 588.074,
+  "end": 590.395,
+  "speaker": "Unknown",
+  "en": "And that is a little crazy in my opinion.",
+  "zh": "在我看来这有点疯狂。"
+ },
+ {
+  "seg": 81,
+  "start": 593.656,
+  "end": 595.436,
+  "speaker": "Unknown",
+  "en": "So I noticed this problem as well.",
+  "zh": "所以我也注意到了这个问题。"
+ },
+ {
+  "seg": 82,
+  "start": 595.696,
+  "end": 600.198,
+  "speaker": "Unknown",
+  "en": "My initial hunch was compression, was to compress the output.",
+  "zh": "我最初的直觉是压缩，去压缩输出。"
+ },
+ {
+  "seg": 83,
+  "start": 601.017,
+  "end": 603.938,
+  "speaker": "Unknown",
+  "en": "But then I thought, wait, the problem is not the compression.",
+  "zh": "但后来我想，等等，问题不在于压缩。"
+ },
+ {
+  "seg": 84,
+  "start": 604.238,
+  "end": 606.778,
+  "speaker": "Unknown",
+  "en": "The problem is that the content is not valid.",
+  "zh": "问题在于内容是无效的。"
+ },
+ {
+  "seg": 85,
+  "start": 607.498,
+  "end": 612.239,
+  "speaker": "Unknown",
+  "en": "We need to make sure that the content is valid before even attempting any compression.",
+  "zh": "我们需要在尝试任何压缩之前先确保内容是有效的。"
+ },
+ {
+  "seg": 86,
+  "start": 612.919,
+  "end": 617.96,
+  "speaker": "Unknown",
+  "en": "This will lead to more options for the agent to choose from and fewer wasted tokens.",
+  "zh": "这将为智能体带来更多可选择的选项，并减少浪费的 token。"
+ },
+ {
+  "seg": 87,
+  "start": 619.06,
+  "end": 621.181,
+  "speaker": "Unknown",
+  "en": "And then I remember rule number one of scraping.",
+  "zh": "然后我想起了抓取的第一条规则。"
+ },
+ {
+  "seg": 88,
+  "start": 622.001,
+  "end": 624.481,
+  "speaker": "Unknown",
+  "en": "Use the browser when you absolutely need it.",
+  "zh": "在绝对需要时才使用浏览器。"
+ },
+ {
+  "seg": 89,
+  "start": 626.202,
+  "end": 628.182,
+  "speaker": "Unknown",
+  "en": "Otherwise, look for other solutions.",
+  "zh": "否则，寻找其他解决方案。"
+ },
+ {
+  "seg": 90,
+  "start": 629.222,
+  "end": 636.025,
+  "speaker": "Unknown",
+  "en": "So I tried to rebuild the stage without a browser, only by using Oxlabs Web Scraper API.",
+  "zh": "所以我尝试在没有浏览器的情况下重建这个阶段，只使用 Oxlabs Web Scraper API。"
+ },
+ {
+  "seg": 91,
+  "start": 636.765,
+  "end": 638.586,
+  "speaker": "Unknown",
+  "en": "And this gave me many benefits.",
+  "zh": "这给我带来了很多好处。"
+ },
+ {
+  "seg": 92,
+  "start": 639.366,
+  "end": 642.708,
+  "speaker": "Unknown",
+  "en": "But firstly, only valid content was returned.",
+  "zh": "但首先，只有有效的内容会被返回。"
+ },
+ {
+  "seg": 93,
+  "start": 643.268,
+  "end": 651.112,
+  "speaker": "Unknown",
+  "en": "In case of CAPTCHAs or other blocks, the request would fail with an explicit error message, so I know not to include it when sending to a large language model.",
+  "zh": "在遇到验证码或其他封锁的情况下，请求会以明确的错误消息失败，这样我就知道在发送给大语言模型时不要包含它。"
+ },
+ {
+  "seg": 94,
+  "start": 651.952,
+  "end": 658.915,
+  "speaker": "Unknown",
+  "en": "But the success rates are quite high, even for protected websites, so that wasn't that much of a problem.",
+  "zh": "但成功率相当高，即使是受保护的网站也是如此，所以这不算什么大问题。"
+ },
+ {
+  "seg": 95,
+  "start": 660.336,
+  "end": 664.537,
+  "speaker": "Unknown",
+  "en": "So no browser was needed, and everything is a lightweight REST API.",
+  "zh": "所以不需要浏览器，一切都是轻量级的 REST API。"
+ },
+ {
+  "seg": 96,
+  "start": 665.057,
+  "end": 669.318,
+  "speaker": "Unknown",
+  "en": "I can run hundreds of requests in parallel and receive content at the same time.",
+  "zh": "我可以并行运行数百个请求并同时接收内容。"
+ },
+ {
+  "seg": 97,
+  "start": 671.679,
+  "end": 678,
+  "speaker": "Unknown",
+  "en": "Also, the API supports Markdown, so no need to submit raw HTML to LLMs.",
+  "zh": "此外，该 API 支持 Markdown，因此无需将原始 HTML 提交给 LLM。"
+ },
+ {
+  "seg": 98,
+  "start": 678.281,
+  "end": 684.102,
+  "speaker": "Unknown",
+  "en": "If a website is dynamic, it runs a full browser under the hood to render the content correctly.",
+  "zh": "如果网站是动态的，它会在底层运行完整的浏览器来正确渲染内容。"
+ },
+ {
+  "seg": 99,
+  "start": 685.989,
+  "end": 692.395,
+  "speaker": "Unknown",
+  "en": "And finally, it supports geolocation options so I can localize my results and get relevant content.",
+  "zh": "最后，它支持地理定位选项，这样我可以对结果进行本地化并获得相关内容。"
+ },
+ {
+  "seg": 100,
+  "start": 694.017,
+  "end": 694.717,
+  "speaker": "Unknown",
+  "en": "The best part?",
+  "zh": "最棒的部分是什么？"
+ },
+ {
+  "seg": 101,
+  "start": 696.279,
+  "end": 698.221,
+  "speaker": "Unknown",
+  "en": "Customers only pay for successful results.",
+  "zh": "客户只需要为成功的结果付费。"
+ },
+ {
+  "seg": 102,
+  "start": 699.302,
+  "end": 705.688,
+  "speaker": "Unknown",
+  "en": "So actually, yeah, that's what's the best thing about it.",
+  "zh": "所以实际上，是的，这就是它最棒的地方。"
+ },
+ {
+  "seg": 103,
+  "start": 705.728,
+  "end": 707.229,
+  "speaker": "Unknown",
+  "en": "No cure, no pay.",
+  "zh": "不治愈，不收费。"
+ },
+ {
+  "seg": 104,
+  "start": 707.47,
+  "end": 710.773,
+  "speaker": "Unknown",
+  "en": "If the scraper fails, there's no cost and it fails loudly.",
+  "zh": "如果爬取失败了，就没有成本，而且它会大声地失败。"
+ },
+ {
+  "seg": 105,
+  "start": 714.865,
+  "end": 718.407,
+  "speaker": "Unknown",
+  "en": "So now we have all of the information to make a decision.",
+  "zh": "所以现在我们拥有了做出决策所需的全部信息。"
+ },
+ {
+  "seg": 106,
+  "start": 718.927,
+  "end": 722.73,
+  "speaker": "Unknown",
+  "en": "We present the decision to the user, and the user makes the final call.",
+  "zh": "我们把决策呈现给用户，由用户做最终决定。"
+ },
+ {
+  "seg": 107,
+  "start": 723.43,
+  "end": 728.213,
+  "speaker": "Unknown",
+  "en": "Once it's affirmative, we move to the last stage of the workflow, the purchase.",
+  "zh": "一旦确认，我们就进入工作流的最后一个阶段——购买。"
+ },
+ {
+  "seg": 108,
+  "start": 729.894,
+  "end": 733.596,
+  "speaker": "Unknown",
+  "en": "So I remember what I said a couple of times about browsers.",
+  "zh": "我记得我之前有好几次谈到过浏览器。"
+ },
+ {
+  "seg": 109,
+  "start": 734.416,
+  "end": 735.417,
+  "speaker": "Unknown",
+  "en": "But this time is different.",
+  "zh": "但这次不一样。"
+ },
+ {
+  "seg": 110,
+  "start": 736.017,
+  "end": 739.74,
+  "speaker": "Unknown",
+  "en": "This time you absolutely need to use a browser.",
+  "zh": "这次你绝对需要使用浏览器。"
+ },
+ {
+  "seg": 111,
+  "start": 740.42,
+  "end": 743.702,
+  "speaker": "Unknown",
+  "en": "We need to process inputs, and the content is highly dynamic.",
+  "zh": "我们需要处理输入，而且内容是高度动态的。"
+ },
+ {
+  "seg": 112,
+  "start": 744.883,
+  "end": 749.424,
+  "speaker": "Unknown",
+  "en": "Now, this time, my implementation, my friend's implementation does not differ much.",
+  "zh": "这一次，我的实现和我朋友的实现没有太大差别。"
+ },
+ {
+  "seg": 113,
+  "start": 749.584,
+  "end": 754.345,
+  "speaker": "Unknown",
+  "en": "We both used Playwright MCP with a browser and a large language model.",
+  "zh": "我们都使用了 Playwright MCP 加上一个浏览器和一个大语言模型。"
+ },
+ {
+  "seg": 114,
+  "start": 757.826,
+  "end": 764.648,
+  "speaker": "Unknown",
+  "en": "The main problem my friend faced, however, just like in the previous stages using browser, was access.",
+  "zh": "不过，我朋友面临的主要问题，和之前使用浏览器的阶段一样，是访问问题。"
+ },
+ {
+  "seg": 115,
+  "start": 765.728,
+  "end": 773.33,
+  "speaker": "Unknown",
+  "en": "Just like in the beginning, as he was using the browser, he was getting captured into oblivion, making it impossible to automate the flow.",
+  "zh": "就像最开始那样，当他使用浏览器时，他一直被验证码折磨到崩溃，导致无法自动化这个流程。"
+ },
+ {
+  "seg": 116,
+  "start": 775.994,
+  "end": 777.255,
+  "speaker": "Unknown",
+  "en": "Well, the fix was quite easy.",
+  "zh": "嗯，修复方法其实很简单。"
+ },
+ {
+  "seg": 117,
+  "start": 778.516,
+  "end": 783.86,
+  "speaker": "Unknown",
+  "en": "I just connected the Oxlabs headless browser since it supports player at MCP is just a drop-in replacement.",
+  "zh": "我只是接上了 Oxlabs 的无头浏览器，因为它支持 player at，MCP 只是一个即插即用的替代品。"
+ },
+ {
+  "seg": 118,
+  "start": 784.981,
+  "end": 797.472,
+  "speaker": "Unknown",
+  "en": "With this replacement, I hardened this agent with years of scripting experience and got proper stealth done at the browser source code level, a residential proxy attached to it out of the box,",
+  "zh": "通过这个替换，我用多年的脚本经验加固了这个智能体，在浏览器源代码层面做了妥当的隐身处理，还开箱即用地附带了一个住宅代理，"
+ },
+ {
+  "seg": 119,
+  "start": 799.55,
+  "end": 803.491,
+  "speaker": "Unknown",
+  "en": "Most importantly, in this case, a geolocation capability.",
+  "zh": "最重要的是，在这个案例中，还有地理位置定位能力。"
+ },
+ {
+  "seg": 120,
+  "start": 804.211,
+  "end": 809.513,
+  "speaker": "Unknown",
+  "en": "So my results are localized the same way as in the verification stage.",
+  "zh": "所以我的结果会像验证阶段那样进行本地化。"
+ },
+ {
+  "seg": 121,
+  "start": 811.174,
+  "end": 827.959,
+  "speaker": "Unknown",
+  "en": "So if we run it, we actually have a browser that accesses the content and can actually automate the flow by selecting the write size from the prompt, add it to cart, and complete the purchase.",
+  "zh": "所以如果我们运行它，我们实际上拥有一个能访问内容的浏览器，并且可以通过从提示词中选择正确的尺码、加入购物车并完成购买，真正把流程自动化。"
+ },
+ {
+  "seg": 122,
+  "start": 829.848,
+  "end": 839.073,
+  "speaker": "Unknown",
+  "en": "And boom, we have an agent that commands a powerful infrastructure hardened by years of web scraping experience.",
+  "zh": "然后砰，我们就拥有了一个智能体，它指挥着一套由多年网页爬取经验加固的强大基础设施。"
+ },
+ {
+  "seg": 123,
+  "start": 840.834,
+  "end": 847.318,
+  "speaker": "Unknown",
+  "en": "Not only does it open up the web, but also saves the time on implementation and token cost.",
+  "zh": "它不仅打开了整个网络，还节省了实现时间和 token 成本。"
+ },
+ {
+  "seg": 124,
+  "start": 848.659,
+  "end": 853.862,
+  "speaker": "Unknown",
+  "en": "And if I can leave you with a few lessons we learned today was that",
+  "zh": "如果我要给你们留下今天学到的几点经验，那就是："
+ },
+ {
+  "seg": 125,
+  "start": 855.138,
+  "end": 860.201,
+  "speaker": "Unknown",
+  "en": "You know, when building agents use the same principles from the scraping industry.",
+  "zh": "你知道吗，构建智能体时，要运用爬虫行业的相同原则。"
+ },
+ {
+  "seg": 126,
+  "start": 860.921,
+  "end": 863.242,
+  "speaker": "Unknown",
+  "en": "Use the browser when you absolutely need to.",
+  "zh": "只有在绝对必要时才使用浏览器。"
+ },
+ {
+  "seg": 127,
+  "start": 864.743,
+  "end": 869.565,
+  "speaker": "Unknown",
+  "en": "You have to validate content before feeding it to large language models.",
+  "zh": "在把内容喂给大语言模型之前，你必须先验证内容。"
+ },
+ {
+  "seg": 128,
+  "start": 870.726,
+  "end": 878.049,
+  "speaker": "Unknown",
+  "en": "And most importantly, fill the missing layer with the proper infrastructure so you can focus on building stuff.",
+  "zh": "最重要的是，用合适的基础设施填补缺失的那一层，这样你就可以专注于构建东西。"
+ },
+ {
+  "seg": 129,
+  "start": 878.79,
+  "end": 880.611,
+  "speaker": "Unknown",
+  "en": "But remember, cost matters.",
+  "zh": "但要记住，成本很重要。"
+ },
+ {
+  "seg": 130,
+  "start": 882.151,
+  "end": 882.792,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

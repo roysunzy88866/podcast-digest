@@ -1,0 +1,148 @@
+{
+  "title_zh": "让 AI 智能体读懂你的开源库：文档优化实战清单",
+  "tldr": "C15T 创始人 Christopher Burns 分享如何让 LLM 与编码智能体真正理解并推荐你的开源库，从 llms.txt 到 node_modules 内置文档的完整做法。",
+  "digest_md": "Christopher Burns 是开源 cookie 横幅库 C15T(就是网站上那个 cookie 同意横幅)的创始人。他开场先自嘲:没有科学背景、不来自实验室,只是个\"滑来滑去、点来点去、东西不好使\"的普通开发者——\"我只是在这个问题上比你们多折腾了一阵子\"。[00:37 Unknown]\n\n但折腾出了真结果:C15T 已有 300 万 NPM 下载量、45% 的月环比增长、2800 个网站在生产环境使用,从 Minlify 到 Zed 都在用。\n\n这意味着获客逻辑变了:过去是 Collison 兄弟那种\"把笔记本塞到你手里帮你装上 Stripe\"的著名推广方式,如今\"差不多就是一条提示词\"。以前优化的是开发者体验,现在同一套基元正在变成**智能体体验**。[04:03 Unknown]\n\n## 核心思路:没有万能工具,只有一条文档流水线\n\n他的第一个判断是:没有任何单一工具能解决所有问题,\"像蝙蝠侠的万能腰带,很多非常小的东西,各自针对不同领域\"。他们把这些小工具都构建进 C15T,后来又抽象成一个独立开源框架(演讲中称为 lead type),做成一条\"框架中立的文档流水线\":接收你的 .mdx 文件,运行一条生成命令,输出所有针对智能体体验优化的内容。其他开发者公司已在实现并看到类似效果。[05:10 Unknown]\n\n下面是具体清单——从几乎人人都知道的,到大多数人还没做的。\n\n## 第一层:llms.txt 和 llms-full.txt\n\n**问题一:文档有几百个页面,智能体怎么导航找到答案?** 第一个解法是 llms.txt。但研究中有个反直觉发现:**不要自动生成,要手写**。把它写成\"你正试图把答案传达给 LLM\"的样子——\"大约 40 行优质内容,胜过 1000 行噪音\"。[06:24 Unknown]\n\n**问题二:智能体不会\"浏览\",只会\"抓取\"。** 所以还需要 llms-full.txt:把它想象成一个站点地图,包含实际页面、链接、以及每个页面用途的简短描述,供 LLM 参考。[06:44 Unknown]\n\n## 第二层:直接给智能体发 Markdown,别发 HTML\n\n事情开始变复杂、也是当前大量优化集中的地方:**HTML 很贵(token 意义上),为什么不直接把 Markdown 交给智能体?** 可以,而且现在人人都开始做 \".md 后缀\"——在正常网址末尾加 .md(比如 Next.js Quickstart 加 .md),加载后就进入 Markdown 版本。[07:07 Unknown]\n\n但真正关键的一步大多数人没做:在网站 header 里声明存在 Markdown 替代版本。所有最好的文档网站(Minify、Vercel、C15T)都在 header 里放了这一行,等于告诉每个来访的智能体\"这里有 Markdown 版\"。至于谁真的支持这个声明?\"Perplexity、一些智能体,这些都还没有定论。\"[07:49 Unknown]\n\n另外 .md 文件要保证**多种获取方式**,因为不是所有智能体能力相同:\n- 直接加 .md 后缀;\n- 在 Next.js config 里加重定向:检测到请求 header 接受 markdown 时,不返回 HTML 而返回 markdown;\n- 提供 URL 查询参数 `mode=agent`,给那些无法附加 header 标签的智能体用。[08:24 Unknown]\n\n## 第三层:让智能体能向你的网站提问(WebMCP)\n\n目前智能体只能抓取你的网页,无法向网站提问。方向是 WebMCP——还很早期,但他的工具已经向 WebMCP 暴露了三个工具:SearchDocs、GetPages、AskDocs,把文档上下文整合起来,智能体可以直接提问。他甚至认为未来会出现通过电子邮件通信的智能体,旧金山已有公司在做。[09:15 Unknown]\n\n## 最重要也最不舒服的真相:智能体根本不访问你的网站\n\n对任何有开发者模块的人(NPM、cargo、Python),\"令人不安的真相是,编码智能体实际上从不访问那个网站。它们实际访问的是 node_modules。\"[10:24 Unknown] 它们读仓库、读 node_modules,带着过时的训练数据,试图从编译后的源码里搞清楚这个库能干什么。\n\n解法是跟着 Vercel 这类思想领袖做:把打包好的 markdown 文档直接放进 node_modules,附带一个 agents.md 文件,内容大意是\"有问题的话,所有文档都在这里,去 grep 它们\"。[10:46 Unknown]\n\n这一招效果出奇地真实:跨多个模型测试,**相比去搜索网页、找工具、从代码库拉 markdown 文件,能节省近 50% 的 token**。[11:22 Unknown] 如果你的库经常变动,node_modules 内置文档是非常有效的方案——智能体拿到的永远是和安装版本一致的文档。这在不用任何 skills 的情况下就生效,也可以加一条 skill 明确说\"先看 node_modules\"。agents.md 里还可以写得更具体:\"使用 C15T Next.js 库时,阅读打包好的文档,验证它们是否匹配,再继续。\"[11:54 Unknown]\n\n## 怎么检验你的网站对智能体是否友好\n\n这个领域刚开始出现测试框架。Cloudflare 推出了一个,他最喜欢的是一个叫 Aura AI 的新工具:输入你的网站,它会给出优化建议。他乐意展示自家 59 分的成绩——\"三周前它还要高得多\",因为评分标准一直在变,这本身就是这个领域\"永远在变\"的写照。[13:04 Unknown]\n\n问答环节有网站代理公司问:从零建一个普通网站(不一定是开发者工具),该专注哪个方法?他的答案:第一是为**每一个页面**提供 .md 文件(很多 CMS 不是这样构建的,他自己甚至为此造了个自用 CMS);优先级是 llms.txt 第一、llms-full.txt 第二;即使你的系统没有 markdown,也推荐手动做这些文件。理由很直接:越来越多的网站访问者是智能体而不是真实人类,从 token 效率角度也该主动提供 markdown。[14:49 Unknown]\n\n## 本集带走\n\n- **手写 llms.txt,别自动生成**:约 40 行优质内容胜过 1000 行噪音;配上 llms-full.txt 当\"站点地图\"(页面+链接+一句话用途)。\n- **给每个页面提供 .md 版本**,并在 header 里声明存在 Markdown 替代版;同时支持多种获取方式(.md 后缀、按 header 协商返回 markdown、`mode=agent` 查询参数)。\n- **把打包好的文档直接放进 node_modules,附 agents.md**:智能体实际读的是 node_modules 而不是你的网站——实测能省近 50% token,库频繁更新时尤其有效。\n- **用 Aura AI / Cloudflare 的工具检测网站对智能体的友好度**,但分数标准一直在变,持续跟进即可。\n- **别追求完美**:市场、智能体、LLM 永远在变,\"你添加的每一件小事确实都很重要\"。",
+  "quotes": [
+    {
+      "en": "So what's really funny is that we went from wizards installing our software to agents installing them",
+      "zh": "真正有意思的是,我们从 wizards 安装我们的软件,变成了智能体安装它们",
+      "timestamp": "03:34",
+      "speaker": "Christopher Burns"
+    },
+    {
+      "en": "It is much better to write your LLMs.txt from hand.",
+      "zh": "手写你的 LLMs.txt 是好得多的。",
+      "timestamp": "06:20",
+      "speaker": "Christopher Burns"
+    },
+    {
+      "en": "For about 40 good lines beats 1,000 lines of noise from our testing.",
+      "zh": "从我们的测试来看,大约 40 行优质内容胜过 1,000 行噪音。",
+      "timestamp": "06:33",
+      "speaker": "Christopher Burns"
+    },
+    {
+      "en": "But where things are starting to get very complicated, and we're seeing a lot of optimizations right now, is that HTML is expensive, and why can't we just ship Markdown to the agents?",
+      "zh": "但事情开始变得非常复杂、也是我们现在看到大量优化的地方,是 HTML 很昂贵,为什么我们不能直接把 Markdown 交给智能体?",
+      "timestamp": "07:07",
+      "speaker": "Christopher Burns"
+    },
+    {
+      "en": "We can see that between many different models, almost 50% token saving on instead of trying to search the web, find the right tools, pulling the markdown files from your code base.",
+      "zh": "我们可以看到,在许多不同的模型之间,与试图搜索网页、找到正确的工具相比,能节省近 50% 的 token,不用从你的代码库中拉取 markdown 文件。",
+      "timestamp": "11:22",
+      "speaker": "Christopher Burns"
+    },
+    {
+      "en": "So never get caught with being perfect.",
+      "zh": "所以永远不要因为追求完美而卡住。",
+      "timestamp": "14:00",
+      "speaker": "Christopher Burns"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:34",
+      "speaker": "Unknown",
+      "en": "So what's really funny is that we went from wizards installing our software to agents installing them",
+      "zh": "真正有意思的是,我们从 wizards 安装我们的软件,变成了智能体安装它们"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Unknown",
+      "en": "These days, it's kind of like just a prompt.",
+      "zh": "如今,这差不多就是一条提示词。"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Unknown",
+      "en": "And really what that means is that our very good developer experience primitives are now hitting agent primitives.",
+      "zh": "而这真正意味着的是,我们非常好的开发者体验基元,现在正在变成智能体基元。"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Unknown",
+      "en": "I like to think about these problems like, you know, Batman's utility belt.",
+      "zh": "我喜欢把这些问题想象成,你知道,蝙蝠侠的万能腰带。"
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Unknown",
+      "en": "It is much better to write your LLMs.txt from hand.",
+      "zh": "手写你的 LLMs.txt 是好得多的。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "For about 40 good lines beats 1,000 lines of noise from our testing.",
+      "zh": "从我们的测试来看,大约 40 行优质内容胜过 1,000 行噪音。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Unknown",
+      "en": "They know how to fetch.",
+      "zh": "它们只知道如何抓取。"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Unknown",
+      "en": "But where things are starting to get very complicated, and we're seeing a lot of optimizations right now, is that HTML is expensive, and why can't we just ship Markdown to the agents?",
+      "zh": "但事情开始变得非常复杂、也是我们现在看到大量优化的地方,是 HTML 很昂贵,为什么我们不能直接把 Markdown 交给智能体?"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Unknown",
+      "en": "Who actually supports it? Don't ask me.",
+      "zh": "谁真的支持它?别问我。"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Unknown",
+      "en": "And I think the most important one that anybody who has any type of developer module surface, NPM modules, cargo, Python, whatever, is that the uncomfortable truth is that coding agents",
+      "zh": "我认为最重要的一个,对任何拥有任何类型开发者模块界面的人来说,NPM 模块、cargo、Python,不管是什么,令人不安的真相是,编码智能体"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Unknown",
+      "en": "They're actually visiting the node modules.",
+      "zh": "它们实际访问的是 node modules。"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "Unknown",
+      "en": "And we actually see that this has surprisingly real effects.",
+      "zh": "我们实际上看到,这有出奇真实的效果。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "Unknown",
+      "en": "We can see that between many different models, almost 50% token saving on instead of trying to search the web, find the right tools, pulling the markdown files from your code base.",
+      "zh": "我们可以看到,在许多不同的模型之间,与试图搜索网页、找到正确的工具相比,能节省近 50% 的 token,不用从你的代码库中拉取 markdown 文件。"
+    },
+    {
+      "timestamp": "13:47",
+      "speaker": "Unknown",
+      "en": "There is no such thing as perfection.",
+      "zh": "没有完美这回事。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "Unknown",
+      "en": "So never get caught with being perfect.",
+      "zh": "所以永远不要因为追求完美而卡住。"
+    },
+    {
+      "timestamp": "14:05",
+      "speaker": "Unknown",
+      "en": "really does matter.",
+      "zh": "确实都很重要。"
+    },
+    {
+      "timestamp": "15:17",
+      "speaker": "Unknown",
+      "en": "So in terms of even like trying to be proactive and token efficient, you should provide a markdown file if you can.",
+      "zh": "所以,即便从主动性和 token 效率的角度考虑,如果可以的话你应该提供一个 markdown 文件。"
+    }
+  ],
+  "voice_script": "今天这一期,聊聊一件挺新的事:怎么让 AI 智能体读懂你的开源库。\n\n主角叫 Christopher Burns,是一个开源 cookie 横幅库 C15T 的创始人——就是你上网站时弹出来、问你同不同意 cookie 的那个横幅。开场他就自嘲:没有科学背景,不来自实验室,就是个普通开发者,只不过在这个问题上比你们多折腾了一阵子。但这一阵子折腾出了真结果:C15T 现在 NPM 下载量三百万,月环比增长百分之四十五,两千八百个网站在生产环境使用,从 Minlify 到 Zed 都在用。\n\n为什么这事值得聊?因为获客逻辑变了。过去推广开发者工具,有个著名的例子是 Collison 兄弟,直接把笔记本塞到你手里,帮你把 Stripe 装上。而如今,差不多的活儿就是一条提示词——你问智能体\"这个项目该用什么库\",智能体回答什么,你就用什么。以前大家优化的是开发者体验,现在同一套东西,正在变成智能体体验。\n\n那具体怎么做?Christopher 的第一个判断是:没有任何单一工具能解决所有问题。这更像蝙蝠侠的万能腰带——很多非常小的东西,各自针对不同领域。他们把这些小工具都构建进 C15T,后来又抽象成一个独立的开源框架,做成一条框架中立的文档流水线:接收你的 mdx 文件,跑一条生成命令,输出所有针对智能体优化过的内容。\n\n下面这条线,从几乎人人都知道的,一路讲到大多数人还没做的。\n\n第一层,叫 llms.txt。问题是:你的文档有几百个页面,智能体怎么导航找到答案?解法就是写一个 llms.txt 文件。但研究里有个反直觉发现:这个东西不要自动生成,要手写。手写成什么样子?写成\"你正试图把答案传达给一个 LLM\"的样子。用原话说,大约四十行优质内容,胜过一千行噪音。另外还需要一个 llms-full.txt,把它想象成一个站点地图:包含实际的页面、链接、以及每个页面用途的一句话描述。因为智能体不会\"浏览\",只会\"抓取\"。\n\n那第二层是什么?事情从这里开始变复杂,也是现在大量优化集中的地方:HTML 很贵——token 意义上的贵。那为什么不能直接把 Markdown 交给智能体?可以,而且现在大家都开始做\".md 后缀\":在正常网址末尾加个 .md,比如 Next.js 的 Quickstart 页面加个 .md,加载出来就是 Markdown 版本。但真正关键的一步,大多数人没做:在网站 header 里声明,本站存在 Markdown 替代版本。所有最好的文档网站,Minify、Vercel、C15T,都在 header 里放了这一行,等于告诉每个来访的智能体:这里有 Markdown 版。至于现在谁真的支持这个声明?Perplexity、一些智能体,这些都还没有定论。还有,Markdown 文件要保证多种获取方式,因为不是所有智能体能力都一样:可以直接加 .md 后缀;也可以在 Next.js config 里加重定向,检测到请求头接受 markdown 时,不返回 HTML,返回 markdown;还可以提供一个 mode=agent 的查询参数,给那些没法附加 header 标签的智能体用。\n\n说到这里,一个更根本的问题浮出来了:能不能让智能体直接向你的网站提问?目前它只能抓取你的网页,不能提问。方向叫 WebMCP,还很早期,但 Christopher 的工具已经向 WebMCP 暴露了三个工具:SearchDocs、GetPages、AskDocs,把文档上下文整合起来,智能体就能直接发问。甚至有人认为未来会出现通过电子邮件通信的智能体,旧金山已经有公司在做了。\n\n而接下来这一条,是整个分享里最重要、也最让人不舒服的真相:智能体根本不访问你的网站。对任何有 NPM 包、cargo 包、Python 包的开发者来说,令人不安的真相是,编码智能体实际上从不访问那个网站。它们实际访问的是 node_modules。它们读仓库、读 node_modules,带着过时的训练数据,试图从编译后的源码里搞清楚这个库能干什么。解法是跟着 Vercel 这类思想领袖做:把打包好的 markdown 文档直接放进 node_modules,再附带一个 agents.md 文件,内容大意是:有问题的话,所有文档都在这里,去 grep 它们。这一招的效果出奇地真实——跨多个模型测试,相比搜索网页、找工具、从代码库拉 markdown 文件,能节省近百分之五十的 token。如果你的库经常变动,这个方案尤其有效,因为智能体拿到的文档,永远和安装的版本一致。而且这不用任何 skill 就能生效,也可以加一条 skill 明确说:先看 node_modules。agents.md 里还可以写得更具体,比如:使用 C15T Next.js 库时,先阅读打包好的文档,验证它们是否匹配,再继续。\n\n那怎么检验你的网站对智能体友好不友好?这个领域刚开始出现测试框架。Cloudflare 推出了一个,Christopher 最喜欢的是一个叫 Aura AI 的新工具:输入你的网站,给出优化建议。他乐意展示自家五十九分的成绩——还补了一句,三周前分数还要高得多,因为评分标准一直在变,这本身就是这个领域永远在变的写照。\n\n问答环节有家网站代理公司问:从零建一个普通网站,不一定开发者工具,该专注哪个方法?答案很清楚:第一,给每一个页面都提供 .md 文件——很多 CMS 不是这样构建的,为此甚至造了个自用 CMS;优先级是 llms.txt 第一,llms-full.txt 第二;就算你的系统没有 markdown,也推荐手动做这些文件。理由很直接:访问你网站的,越来越多是智能体而不是真人,从 token 效率的角度也该主动提供 markdown。\n\n最后记住一句话就够了:别追求完美,市场和智能体永远在变,你添加的每一件小事,确实都很重要。"
+}

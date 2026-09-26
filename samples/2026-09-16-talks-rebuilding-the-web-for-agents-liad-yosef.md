@@ -165,8 +165,8 @@ Google 押注的是另一端：WebMCP 协议，让网站暴露 JavaScript 工具
 **换个口味**
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:PostHog · 同概念:MCP、智能体 (agent)</span>
+- [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|让 AI 智能体读懂你的开源库：文档优化实战清单]]<span class="pd-rz">同概念:llms.txt、智能体 (agent)、WebMCP</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同公司:ChatGPT · 同概念:智能体 (agent)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

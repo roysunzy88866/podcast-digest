@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Salesforce]] · [[Decagon]] · [[Harry Stebbings]] · [[基于结果的定价]] · [[Harvey]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"Cursor":68,"OpenAI":130,"Anthropic":139,"Lenny":67,"Salesforce":31,"Decagon":8,"Harry Stebbings":18,"基于结果的定价":4,"Harvey":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"Cursor":68,"OpenAI":131,"Anthropic":140,"Lenny":67,"Salesforce":31,"Decagon":8,"Harry Stebbings":18,"基于结果的定价":4,"Harvey":13}</script>
 
 <script>
 (function(){

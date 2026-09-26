@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Nick]] · [[智能体]] · [[平台即服务]] · [[Tanzu]] · [[Cloud Foundry]] · [[agents.md]] · [[MCP]] · [[MCP 网关]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"Nick":1,"智能体":321,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"agents.md":1,"MCP":57,"MCP 网关":2}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"Chris Benson":9,"Nick":1,"智能体":325,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"agents.md":2,"MCP":58,"MCP 网关":2}</script>
 
 <script>
 (function(){

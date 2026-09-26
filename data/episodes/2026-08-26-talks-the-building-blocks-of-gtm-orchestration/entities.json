@@ -1,0 +1,428 @@
+{
+  "episode_id": "2026-08-26-talks-the-building-blocks-of-gtm-orchestration",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "GTM 增长",
+    "智能体",
+    "数据基础设施",
+    "销售自动化",
+    "企业级 AI 落地"
+  ],
+  "categories": [
+    "增长与销售",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "arman-vaziri",
+      "type": "person",
+      "role": "guest",
+      "name": "Arman Vaziri",
+      "file": "Arman Vaziri",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "RAMP",
+      "file": "RAMP",
+      "primary": true,
+      "how_described": "本集主角：一家企业支出管理公司，嘉宾在其中领导产品和销售驱动增长工程团队，讲它如何构建 go-to-market 编排体系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.397,
+            21.203
+          ],
+          "quote": "I lead our product and sales-led growth engineering teams at RAMP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            123.143,
+            130.907
+          ],
+          "quote": "Suppose I want to offer golfers at East Coast construction companies an incentive to try ramp, talk to sales, whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            353.338,
+            359.201
+          ],
+          "quote": "An internal customer data platform at RAMP where we're effectively doing your very traditional things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            451.955,
+            458.281
+          ],
+          "quote": "RAMP's addressable market is pretty much like the entire US and now expanding internationally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            528.009,
+            535.016
+          ],
+          "quote": "They manage the customer relationships that exist, trying to ensure that customers are using Ramp as best as possible.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            594.824,
+            610.485
+          ],
+          "quote": "This is like a sneaky hard problem at RAMP because you have the same emails that can work on behalf of multiple businesses so it's kind of like a fuzzy match and we can go and persist that so that way every downstream consumer of like, hey I care about this meeting doesn't have to go and like recompute this from the ground up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            989.199,
+            1003.613
+          ],
+          "quote": "For my Pro V1 golf example, the goal is to funnel this into Ramp Revenue, the internal application that we have built, and go and effectively funnel this into some of these vertical solutions that we've created.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market-orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "go-to-market 编排 (go-to-market orchestration)",
+      "file": "go-to-market 编排",
+      "primary": true,
+      "how_described": "本集核心主题：只需描述一个意图（如「给东海岸建筑公司的高尔夫球手推试用激励」），系统就自动拉受众、生成外呼文案、广告创意和落地页，多渠道同时执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            22.404,
+            27.251
+          ],
+          "quote": "And today I'm going to talk to you about the building blocks of go-to-market orchestration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            29.975,
+            32.716
+          ],
+          "quote": "To kick it off, what do I mean by go-to-market orchestration?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1093.652,
+            1095.873
+          ],
+          "quote": "And those are the building blocks of go-to-market orchestration.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是执行自动化的载体：每晚派出一组后台智能体为每个账户生成会前简报，还能同时持有多个候选活动做探索/收益的平衡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            712.47,
+            729.635
+          ],
+          "quote": "And doing some combination of, like, vector search, attribute search, keyword search, in order to pull information scoped to, like, a specific account, for example, without having to pull in, like, the full raw corpus into agent context, which would also be very inefficient, very expensive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            736.186,
+            751.89
+          ],
+          "quote": "Getting back to the meeting brief example, different people have different formats that they care about, they have different information that they care about, and allowing them to kind of represent that in text, giving that to the agent to pull it together has been very valuable for getting adoption.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            753.526,
+            757.309
+          ],
+          "quote": "And putting all this together, you get an operational background agent, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "本集称其为后台智能体的关键设计：每次工具调用和模型调用都是一条 activity，worker 挂了可以从断点恢复全部状态，而不是从头重算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            612.428,
+            619.471
+          ],
+          "quote": "And also, as mentioned in the previous talk, we've also built a system around durable execution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cdp",
+      "type": "concept",
+      "role": "concept",
+      "name": "CDP",
+      "file": "CDP",
+      "primary": true,
+      "how_described": "本集说 RAMP 在内部自建了一个 CDP，把 CRM、产品、富化、网站、购买信号和交互数据汇成统一底座，是编排的第一块地基",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            344.147,
+            349.492
+          ],
+          "quote": "And if you're looking at this and you're like, that looks like a CDP, yeah, you're right.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            757.329,
+            780.145
+          ],
+          "quote": "You have, like, every night we're gonna go and generate these things, fan out a set of agents that are gonna go and compute per account meeting prep, which gives, or which use some set of tools, giving them access to, like, that online CDP in Postgres I had mentioned, the vector database, meeting prep skills that we own at the system level, as well as, like, custom instructions that users are providing themselves.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说他们搭了 GTM MCP，把后台智能体用的同一套工具开放给全体员工，员工自建的东西反被产品化分发给所有人，产生复利效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            859.783,
+            862.224
+          ],
+          "quote": "We set up what we call our GTM MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            883.486,
+            896.67
+          ],
+          "quote": "This is just a glimpse into some of the analytics that we've done, taking the reasoning generated by the MCP tool calls that are being executed remotely.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            897.51,
+            906.574
+          ],
+          "quote": "And this compounds because when people go and build their own thing and they go and connect to our MCP, they're basically telling us, here is a problem that I have.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说编排系统内置护栏来管理合规规则和参与规则，具备情境意识，避免对同一批人重复轰炸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            1075.725,
+            1087.214
+          ],
+          "quote": "And then we can build in guardrails as well to go and effectively manage compliance rules, rules of engagement, being context-aware, making sure we're not doing the same thing over and over again.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "company",
+      "role": "company",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": false,
+      "how_described": "本集说他们的持久化执行系统围绕 Temporal 构建，把一切表示为持久线程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            622.833,
+            629.676
+          ],
+          "quote": "Everything is represented as a durable thread built around temporal, representing each tool call and model call as an activity.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "turbopuffer",
+      "type": "company",
+      "role": "company",
+      "name": "TurboPuffer",
+      "file": "TurboPuffer",
+      "primary": false,
+      "how_described": "本集说非结构化销售数据经分块、嵌入后放进 TurboPuffer，供智能体做向量/属性/关键词组合搜索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            703.627,
+            710.809
+          ],
+          "quote": "Chunking them, embedding them, putting them in TurboPuffer, and it allows you to kind of, or allows agents to go and search, like, what do I care about?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集提离线侧用 DBT 和 Snowflake 做批处理，结果回灌到同一数据层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            470.132,
+            484.587
+          ],
+          "quote": "And then, as previously mentioned, a ton of work has gone into the offline piece of this with DBT, Snowflake, pulling everything into our warehouse, doing a lot of offline batch compute, and then piping that in via reverse CTL back into the same layer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "type": "company",
+      "role": "company",
+      "name": "Kafka",
+      "file": "Kafka",
+      "primary": false,
+      "how_described": "本集提实时事件（如邮件）被导入 Kafka topic 再消费回流到 Postgres",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            388.46,
+            398.042
+          ],
+          "quote": "And on the signal side of this, we have some set of real-time events that are coming in, things like emails, you can go and pipe them onto a Kafka topic, consume them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "company",
+      "role": "company",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": false,
+      "how_described": "本集说 Postgres 数据库支撑整个 CDP，提供事务性保证和实体间的引用完整性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            398.922,
+            414.943
+          ],
+          "quote": "And then funnel them back into both like a Postgres database that backs all of this and enables us to maintain like transactional guarantees, referential integrity between the entities that exist and the different entities that exist, right, between your CRM, between your product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            757.329,
+            780.145
+          ],
+          "quote": "You have, like, every night we're gonna go and generate these things, fan out a set of agents that are gonna go and compute per account meeting prep, which gives, or which use some set of tools, giving them access to, like, that online CDP in Postgres I had mentioned, the vector database, meeting prep skills that we own at the system level, as well as, like, custom instructions that users are providing themselves.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "human in the loop",
+      "file": "human in the loop",
+      "primary": false,
+      "how_described": "本集提他们有 human-in-the-loop 工具：暂停执行、获取人类输入、再恢复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            666.129,
+            673.296
+          ],
+          "quote": "And similarly there's things like human in the loop tooling to just pause execution, get input, resume.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

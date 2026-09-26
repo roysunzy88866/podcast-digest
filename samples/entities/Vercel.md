@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:45起):本集提到 Vercel 的创始人 Guillermo Rauch 作为拉丁美洲裔在硅谷成功的人物，积极参与 a16z 的无国界晚宴、帮助后来的拉美创始人
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(49:33起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(11:08起):本集提到 Vercel 是 AI 原生公司的例子，其产品领导者从上到下都在发布
+- **[[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]]**(07:49起):本集说 Vercel 是该领域的思想领袖，在 header 里声明 Markdown 替代版、并把打包好的 markdown 文档放进 node_modules 的做法值得跟随。
 - **[[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]]**(50:05起):本集说 Vercel 的 CTO Malta Ubel 运行着跨主要模型提供商的 AI 网关，并做了开源工具 DeepSec 做全仓库漏洞扫描。
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(15:54起):本集说 Vercel 移除了 80% 的工具,以实现更少的步骤、更快的响应和更好的准确性。
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(00:16起):本集说 Vercel 构建智能体基础设施、从 Web 起家，内部用智能体自动化数据查询等职能，已有约 20 个有产品市场契合度的内部智能体。
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -56,6 +57,7 @@ unlisted: true
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]] — 作为被讨论公司(提及)
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]] — 作为被讨论公司(提及)
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]] — 作为概念
@@ -67,7 +69,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[Cursor]] · [[OpenAI]] · [[Slack]] · [[沙箱]] · [[SaaS]] · [[Lenny]] · [[技能]] · [[Eve]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"Stripe":34,"Cursor":68,"OpenAI":130,"Slack":28,"沙箱":58,"SaaS":17,"Lenny":67,"技能":20,"Eve":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"Stripe":36,"Cursor":68,"OpenAI":131,"Slack":28,"沙箱":58,"SaaS":17,"Lenny":67,"技能":20,"Eve":3}</script>
 
 <script>
 (function(){

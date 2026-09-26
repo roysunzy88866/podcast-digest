@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Postgres</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Postgres">PO</div><div class="pi"><h1 class="pt">Postgres</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Postgres">PO</div><div class="pi"><h1 class="pt">Postgres</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(12:57起):本集用作类比,嘉宾指出就像 Postgres 只是 B 树一样,RAG(检索增强生成)只是最基础的原语,难点在于围绕它构建的一切
+- **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(06:38起):本集说 Postgres 数据库支撑整个 CDP，提供事务性保证和实体间的引用完整性
 - **[[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]]**(04:48起):本集说 Legora 曾用 Postgres + PG Vector 做搜索、4000 个分区装箱项目，但冷热项目混在同一分区导致缓存抖动、P99 从 100 毫秒飙到 20 秒。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为概念(提及)
+- [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
 - [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[RAG]] · [[Garry Tan]] · [[Simon Eskildsen]] · [[技能文件]] · [[Jacob Lauritzen]] · [[上下文工程]] · [[Legora]] · [[公司大脑]] · [[Turbo Puffer]]
+[[智能体]] · [[RAG]] · [[Garry Tan]] · [[Arman Vaziri]] · [[Simon Eskildsen]] · [[技能文件]] · [[Ramp]] · [[Jacob Lauritzen]] · [[上下文工程]] · [[go-to-market 编排]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"RAG":18,"Garry Tan":2,"Simon Eskildsen":1,"技能文件":4,"Jacob Lauritzen":1,"上下文工程":15,"Legora":2,"公司大脑":2,"Turbo Puffer":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"RAG":18,"Garry Tan":2,"Arman Vaziri":1,"Simon Eskildsen":1,"技能文件":4,"Ramp":8,"Jacob Lauritzen":1,"上下文工程":15,"go-to-market 编排":1}</script>
 
 <script>
 (function(){

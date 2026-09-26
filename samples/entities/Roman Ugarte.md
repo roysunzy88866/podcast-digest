@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":68,"SpaceXAI":1,"OpenClaw":18,"OpenAI":130,"Anthropic":139,"Codex":57,"Cowork":5,"Salesforce":31,"智能体":321}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":68,"SpaceXAI":1,"OpenClaw":18,"OpenAI":131,"Anthropic":140,"Codex":57,"Cowork":5,"Salesforce":31,"智能体":325}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":321,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":58,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":11}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":325,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":58,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":11}</script>
 
 <script>
 (function(){

@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":139,"OpenAI":130,"Claude":65,"Claude Code":73,"宪法 AI":2,"智能体":321,"缩放定律":7,"对齐":9,"超级智能":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":140,"OpenAI":131,"Claude":65,"Claude Code":73,"宪法 AI":2,"智能体":325,"缩放定律":8,"对齐":9,"超级智能":5}</script>
 
 <script>
 (function(){

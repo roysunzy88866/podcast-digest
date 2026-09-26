@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":321,"判断力":5,"品味":11,"认知协调":1,"案例教学法":1,"智能体工程":2,"可观测性":28,"护栏":57,"金丝雀":2,"代码审查":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"判断力":5,"品味":11,"认知协调":1,"案例教学法":1,"智能体工程":2,"可观测性":29,"护栏":58,"金丝雀":2,"代码审查":14}</script>
 
 <script>
 (function(){

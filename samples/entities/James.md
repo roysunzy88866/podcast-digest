@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":321,"沙箱":58,"会话日志追踪":2,"多智能体系统":5,"Managed Agents":4,"Anthropic":139,"Cloudflare":10,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":325,"沙箱":58,"会话日志追踪":2,"多智能体系统":5,"Managed Agents":4,"Anthropic":140,"Cloudflare":11,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

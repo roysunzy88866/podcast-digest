@@ -1,0 +1,208 @@
+{
+  "title_zh": "OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长",
+  "tldr": "OpenRouter 创始人 Alex Atallah 与首位投资人 Anjney Midha 回顾从 600 美元的 Alpaca 时刻到被 Stripe 收购的历程，及代币经济的安全挑战。",
+  "digest_md": "这一集聊的是 OpenRouter——那个开发者用来一站调用各家大模型的「路由器」——从创立到被 Stripe 收购的完整故事。两位主角：创始人 Alex Atallah(OpenSea 联合创始人出身)，和他的老友、首位投资人 Anjney Midha(Anthropic 最早的投资人之一，曾负责 Discord 平台，后加入 A16Z)。两人从斯坦福一份校报相识，一路见证了整个开放模型生态的崛起。\n\n最反直觉的一点：当初几乎所有投资人都觉得这东西「说白了就是个套壳市场」，Anjney 却说，「规模定律」恰恰是 OpenRouter 会很值钱的原因，而不是缺陷 [16:33 Anjney Midha]。一个月后 Menlo Ventures 的 Matt Murphy 把估值上调了 10 倍 [25:59 Anjney Midha]。\n\n## 起点：600 美元的 Alpaca 时刻\n\nAlex 用他早期写下的「PubSub 产品原则」解释 OpenRouter 的形态：市场平台本质是「发布-订阅」结构——供应商向 SKU 发布产品，消费者订阅；OpenRouter 就是把这套结构套在模型上，Model Slug 是可订阅的 SKU,再加上 auto router(自动帮你在模型间路由) [00:49 Alex Atallah]。\n\n顿悟来自 2023 年初的 Alpaca:斯坦福团队用合成数据微调 Llama,只花了 600 美元，就得到一个在很多情况下和 ChatGPT 分不出差别的模型 [03:38 Alex Atallah]。Alex 的推理是：如果做模型这么便宜，那「把有价值的数据压缩成一个模型」就成了全新的数据变现方式、全新的商业模式 [04:18 Alex Atallah]。而模型一多，就需要一个市场来发现它们——当时互联网上没有任何 LLM 的「大本营」，连 Hugging Face 那时也没有闭源模型、也看不到谁在用 [05:20 Alex Atallah]。\n\n## Discord 的教训：你需要开放模型\n\nAnjney 的顿悟来自 Discord。OpenAI 给了 Discord GPT-3.5 早期访问权限，他们想做两件事：内部助手 Clyde,和内容审核。审核场景很具体——每个 Discord 服务器都有自己的社区规范，理想方案是把规范喂给 LLM,让它为每个服务器做「上下文内审核」，替代全球 5000 多人的外包审核团队 [12:51 Anjney Midha]。但模型动不动就拒绝：后训练的护栏太粗暴，一个哈利·波特粉丝社区的审核请求会直接被拒(因为涉及商标内容)，侦探小说里写暴力情节的一章也会被拒 [13:34 Anjney Midha]。他们找 OpenAI 要权重，得到的回复是「抱歉，我们是闭源公司」[10:48 Anjney Midha]。「那是我第一次意识到我们需要开放模型，企业需要对能力有更多控制，最终需要某种控制平面来编排这些开放模型」[10:52 Anjney Midha]。\n\n## 「大模型赢者通吃」和「就是个套壳」\n\n融资时最大的质疑是「大模型赢者通吃」：像 Google 赢搜索那样，价值全归一家公司，路由器只能捡残羹 [14:55 Alex Atallah]。Alex 的反驳：LLM 不只是用户界面，更是构建全新业务的地基——如果真出现 Google 级的垄断，整个经济都依赖它，结局会疯狂到离谱；而且创造优秀竞争者的经济学更容易去中心化 [15:53 Alex Atallah]。Anjney 从投资人角度补刀：他是 Anthropic 最早的投资人之一，「苦涩的教训」(算力扩展总能赢)在 ML 朋友圈里是共识，所以他投了 Mistral、Black Forest Labs、Luma——一个多模型生态正在形成 [16:27 Anjney Midha]。\n\n更让他愤怒的是「就是个套壳」的说法：「这是最愚蠢的、过度简化的框架，显然出自一个没有任何一线部署产品经验的人」[26:24 Anjney Midha]。他还顺嘴补了一句：「投资人不就是 LP 的套壳吗？全都是套壳，一路套到裸金属」[26:40 Anjney Midha]。\n\n## 实验室的盲区：训练完然后呢？\n\nAnjney 看到的共同痛点：各实验室的研究团队极擅长造能力，却毫无开发者思维——checkpoint(训练完成的模型存档)做完、发个 API,然后鸦雀无声。「以 Claude 为例，第一个 Claude checkpoint 实际上比对外发布早了一年完成，ChatGPT 出来后他们才决定发布，而且没有任何让开发者尝试它的计划」——Claude 1 博客里的三个示例，一个是 Discord 机器人，一个是他妻子的公司，一个是 Notion,「全因为都是朋友，规划就是这么临时」[18:20 Anjney Midha]。而 Google 训完新模型，一夜之间就能推到十亿台 Android 设备上；这种看不见的分发优势，在 OpenRouter 出现前，每家实验室都得自己扛 [20:02 Anjney Midha]。Anthropic 花了超过 12 个月才做到第一笔 1000 万美元收入；相比之下，BFL 找上门时，OpenRouter 一句「你上线那天，我们可以给你带去一百万开发者」——Anjney 说那是阶跃函数式的力量变化 [20:24 Anjney Midha]。如今 OpenRouter 开发者超过 1000 万(已做大量去重)[20:53 Alex Atallah]。\n\nAlex 补充另一面：模型是黑盒，不能像普通产品那样把功能罗列在网页上，需要有人照亮「大黑房间」的每个角落，而且必须是中立第三方——这正是市场平台在做模型营销时和实验室自卖自夸的本质区别 [22:24 Alex Atallah]。\n\n## 冷启动飞轮：加密是生成式 AI 的彩排\n\n怎么冷启动？Alex 的方法论来自 OpenSea 时代：找到被某个具体问题卡死的社区，做他们真正想要的东西。「用户主动分享链接，是非常明确的信号，说明有重要的事正在发生」[29:42 Alex Atallah]。LLM 早期那个问题就是 OpenAI 拒绝续写。\n\nAnjney 则给了一个被低估的元观点：他们那批人幸运地与加密社区相邻，而「加密最终有点像是生成式模型的一次彩排」[36:26 Anjney Midha]。Discord 时代的 Axie Infinity 服务器(菲律宾约 10% 人口在上面，交易量几十亿美元)逼出了扩展基础设施；之后这些抽象恰好接住了 MidJourney——他很早就和 MidJourney 创始人 David 一起吃火锅玩万智牌，看着这个文生图机器人长成 Discord 增长最快的社区之一。单机版网页留存极差，因为人对着空白输入框会不知所措；而 Discord 里能看到别人怎么用、照着抄，「MidJourney 从发布到 1 亿美元收入运行率，不到八个月」[42:01 Anjney Midha]。Claude 上线前是 Discord 内部机器人，Eleven Labs 的 TTS 也在——「Discord 成了早期应用创新的培养皿」，而 Alex 最早意识到这些应用需要互联网上的「自己的家」，OpenRouter 是这个社区需求的延续 [39:28 Anjney Midha]。为什么 OpenRouter 本身不以 Discord 为中心？Alex:MidJourney 的 Discord 就是用户体验本身；LLM 需要代码级集成、密钥治理、数据策略，一个 Discord 服务器装不下 [40:48 Alex Atallah]。Alex 甚至在 Discord/OpenSea 合作会议上，是唯一举手说「把用户弹出跳转不是好体验，应该内嵌 iframe 直接结账」的人——他还是利益受损的一方。Anjney:同时懂 ML 社区、开发者体验和终端用户体验的人非常罕见，「这就是为什么没人应该对 Stripe 决定收购 OpenRouter 感到惊讶」[32:42 Anjney Midha]。\n\n## 增长里程碑：一部 AI 演进的电影\n\nOpenRouter 的排行榜和增长曲线，基本就是这几年 AI 领域的编年史 [68:26 Alex Atallah]。主持人说，成年的标志是 Andre Karpathy 公开放话「我不再看 Local Llama 了，直接看 OpenRouter 排行榜」[68:51 SPEAKER_00]。关键节点：\n\n- 2024 年 5 月前，大家主要在玩 prose 类应用，编码还不行；**Claude Sonnet 3.5** 中间发布，编码能力巨大飞跃，用量激增，用户开始盯着账单喊「我需要更便宜的等效模型」[64:30 Alex Atallah]。\n- 随后 **Mixtral** 发布，价格降了约 80%,开放权重模型第一次被严肃地称为「世界最好模型」(有炒作成分，确实有很多例子超过 GPT-4)[43:40 SPEAKER_00 / 44:17 Alex Atallah]。这形成了反复出现的循环：「模型实验室拿出前沿创新→用量激增→30 天后用户看着账单懵了→开源权重模型两三个月后交付高性价比选项」[65:44 Alex Atallah]。Anjney 还补了个观察：Mixtral 被认为比 GPT-4 聪明，部分原因只是它快——「有时候模型跑得更快，你就会觉得它更聪明」[46:04 Anjney Midha]。\n- 2025 年底 **OpenClaw** 出现：全新形态，带来开发者之外的新用户(生产力型、互联网创作者)，而且它的「心跳」架构(定期调模型确认自己活着)不需要贵模型——auto router 突然对这批用户极有用，随后指数级暴涨 [66:24 Alex Atallah]。\n\n## 拒绝过的路：专注是被低估的\n\n他们做过但删掉的原型：微调即服务(喂几个 YouTube 视频，微调出一个像主播那样说话的模型)——方向对但没人用，而且他们判断它本质是「美化版的 RAG」,人们终究想找到源视频 [55:15 Alex Atallah / 56:24 SPEAKER_00];更早还有一个叫 Window AI 的 Chrome 扩展(让用户在浏览器里配置网页用哪个模型)，结论是形态不对，需要更多发现体验和可视化，这才引出了 OpenRouter [34:35 Alex Atallah]。还有 2024 年初的原型 **MOM(Mixture of Models,模型混合)**：选几个模型分别作答，再用其中最聪明的那个融合结果——但当时最强模型遥遥领先于第二名第三名，融合结果反而更差，于是他们把代码全删了 [59:40 Alex Atallah]。到 2026 年初，前三名模型差距缩小、RL 扩展了各模型推理的多样性，Alex 做了个个人实验(把同一任务给所有模型，融合后再让各模型评判)，都认为融合更好——Fusion 由此重建 [61:46 Alex Atallah]。记忆、技能、沙箱这些相邻能力也不做：「开发者想自己架构那些东西」，中立市场只和做这些的公司合作 [67:52 Alex Atallah]。\n\n「即使在 AI 时代，专注也被低估了」——不只是把人聚焦能做出更好产品，还因为世界知道你的专注点是什么，有问题时知道该找哪个品牌 [52:08 Alex Atallah]。Anjney 用 Anthropic 印证：起步时落后 OpenAI 100 亿美元，从第一天的种子备忘录起，使命就是「负责任地商业化 AI 结对编程」，公司所有主要评测一直是编程、长时程、智能体编程——五年内成了万亿美元公司 [52:54 Anjney Midha / 54:03]。至于 Arena 和 OpenRouter 为什么是两家公司：表面相邻，使命完全不同——Arena(Anjney 是其首任 CEO,做了五个月)服务实验室的后训练研究员，做评估统计方法；OpenRouter 服务开发者 [48:48 Anjney Midha]。而且一家公司卖数据、另一家默认不能看数据，品牌上就得分开：「OpenRouter 看不到你的提示词或补全，除非你主动选择开启」[47:53 Alex Atallah]。\n\n## Stripe 收购：这是一个安全故事\n\n被问及 OpenRouter 和 Stripe 的未来，Alex 说的很克制：加速进入市场、更快走向高端，品牌和路线图保持不变，「接下来六个月，大多数事情会和独立运作时一样，只是一切都会更快」[79:07 Alex Atallah]。\n\n真正的暗线是欺诈。OpenRouter 上个月拦截的美元交易量是前一个月的 10 倍，代币 fraud 类型在快速多样化：盗刷信用卡、违反条款转卖流量、被入侵的账号、偷偷转卖推理、失控的智能体烧钱 [69:32 Alex Atallah]。Anjney 早在 MidJourney 时代就领教过：一夜涌入大量免费试用用户，创始人 David 关掉免费试用，让他看 IP 地理位置——中国的某人把免费试用转卖成了订阅生意，「MidJourney 从那以后再也没开过免费试用」[73:28 Anjney Midha]。他的大局判断：「token 是一种正在互联网上传输的新的价值单位，未来 10 年整个互联网价值链都得应对一件事——token 越值钱，就有越多坏人想染指」[74:03 Anjney Midha]。Stripe 的前身剧本正是如此：支付起家，靠多年打造的欺诈检测(Stripe Radar)守住主导地位——「人们以为 Stripe 是支付公司，不，它其实是一家安全公司」[76:35 Anjney Midha]。\n\n而下一步更可怕：「Alex 描述的所有现在由人类实施的坏事，未来 10 年都将由 AI 智能体实施」——攻击 token 流的不只是坏人，还有所有坏智能体，规模是递归的 [77:37 Anjney Midha]。研究员永远只看得到自己训练的智能体怎么失控，看不到全生态的不良行为；所以需要「新警长」——能看到各实验室、各部署方全部坏行为的防御者，为整个代币经济造一面盾牌。否则，未来 10 万亿美元量级的 GMV 增长里，很大一部分可能是欺诈滥用，「而且如果人们根本不信任 token,我们可能永远也到不了那一步」[78:41 Anjney Midha]。\n\n## 本集带走\n\n- **「套壳」是最偷懒的判断**：模型是黑盒，中立第三方做的发现、路由、信任和分发，是实验室自己给不了的价值——判断一层是否有价值，看它解决什么一线问题，别用名词否定它。\n- **实验室的共同盲区是「训练完之后」**：几亿美元训练完，缺的往往是密钥管理、版本控制、开发者分发这些被研究者视为「管道工程」的东西；分发优势(Google 一夜推十亿台设备)是隐形的胜负手。\n- **启动飞轮的笨办法最好用**：找到被一个具体问题卡死的社区(早期就是模型乱拒绝)，做他们真正想要的东西；用户自发分享链接是最可靠的信号。\n- **专注 + 明确的最高期望客户**：OpenRouter 服务开发者、Anthropic 从第一天只押编程、Arena 只服务实验室评估——「为多类客户同时超越期望」几乎不可能。\n- **token 是新的价值单位，fraud 是它的影子**：凡是大量价值流过的地方就需要新的安全基础设施(支付→Stripe Radar,推理→代币经济的新警长)；而且下一波攻击者是 AI 智能体，不是人。\n- **时机错了的正确想法值得删除重来**：MOM 融合模型 2024 年太早就删光代码，2026 年模型差距缩小后重建为 Fusion——「魔鬼在细节里，技术可能就是太早了」。",
+  "quotes": [
+    {
+      "en": "In many cases, you could not discern a chat GPT versus an Alpaca result.",
+      "zh": "在很多情况下,你根本分辨不出 ChatGPT 和 Alpaca 的结果有什么区别。",
+      "timestamp": "03:38",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "The scaling laws were never like, in my mind, were always a feature, not a bug for why OpenRouter would be very valuable.",
+      "zh": "在我脑子里,规模定律从来都不是缺陷,恰恰是 OpenRouter 会非常有价值的一个特性。",
+      "timestamp": "16:33",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "In the case of Claude, the first Claude checkpoint was actually done a year",
+      "zh": "以 Claude 为例,第一个 Claude checkpoint 实际上早在一年前就已经完成了。",
+      "timestamp": "18:20",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "The day you launch, we can send a million developers to you.",
+      "zh": "你上线的那天,我们可以给你带去一百万开发者。",
+      "timestamp": "20:38",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "Models are not products where you can just enumerate all their features onto a webpage.",
+      "zh": "模型不是那种你可以把所有功能罗列到一个网页上的产品。",
+      "timestamp": "22:18",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "OpenRouter is like this wrapper on top of other APIs. This is the most stupid reductive framework.",
+      "zh": "说 OpenRouter 是架在其他 API 之上的一个包装层——这是最愚蠢的、过度简化的框架。",
+      "timestamp": "26:25",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "I mean, investors are wrappers on LPs, right?",
+      "zh": "我是说,投资人不就是 LP 的套壳吗,对吧?",
+      "timestamp": "26:40",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "crypto ended up being kind of like a dress rehearsal for generative models.",
+      "zh": "加密最终有点像是生成式模型的一次彩排。",
+      "timestamp": "36:26",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "There was never any need to ask that for AI because the use case was so visceral.",
+      "zh": "对 AI 从来不需要问那个问题(用例是什么),因为用例太直观了。",
+      "timestamp": "38:57",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "from launch to 100 million revenue run rate, it was less than eight months.",
+      "zh": "从发布到 1 亿美元收入运行率,不到八个月。",
+      "timestamp": "42:01",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "Sometimes when they're faster, you think they're smarter.",
+      "zh": "有时候模型跑得更快,你就会觉得它更聪明。",
+      "timestamp": "46:01",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "Yeah, I still think even in the age of AI, like focus is underrated.",
+      "zh": "是的,我至今仍然认为,即使在 AI 时代,专注也被低估了。",
+      "timestamp": "52:08",
+      "speaker": "Alex Atallah"
+    },
+    {
+      "en": "The company was starting $10 billion behind OpenAI.",
+      "zh": "公司起步时落后 OpenAI 100 亿美元。",
+      "timestamp": "52:54",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "there's a new type of unit of value that's being streamed across the internet called",
+      "zh": "有一种新的价值单位正在互联网上被传输,叫做 token。",
+      "timestamp": "74:03",
+      "speaker": "Anjney Midha"
+    },
+    {
+      "en": "All the bad things that Alex described as being perpetuated by humans right now is going to be perpetuated by AI agents over the next 10 years.",
+      "zh": "Alex 描述的所有那些目前由人类实施的坏事,在未来 10 年都将由 AI 智能体来实施。",
+      "timestamp": "77:37",
+      "speaker": "Anjney Midha"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:38",
+      "speaker": "Alex Atallah",
+      "en": "In many cases, you could not discern a chat GPT versus an Alpaca result.",
+      "zh": "在很多情况下,你根本分辨不出 ChatGPT 和 Alpaca 的结果有什么区别。"
+    },
+    {
+      "timestamp": "04:18",
+      "speaker": "Alex Atallah",
+      "en": "And so it's just a whole new business model for the economy.",
+      "zh": "这对整个经济体来说是一种全新的商业模式。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Anjney Midha",
+      "en": "And so that was my first realization that we needed open models and",
+      "zh": "所以那是我第一次意识到,我们需要开放模型。"
+    },
+    {
+      "timestamp": "16:33",
+      "speaker": "Anjney Midha",
+      "en": "The scaling laws were never like, in my mind, were always a feature, not a bug for why OpenRouter would be very valuable.",
+      "zh": "在我脑子里,规模定律从来都不是缺陷,恰恰是 OpenRouter 会非常有价值的一个特性。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Anjney Midha",
+      "en": "In the case of Claude, the first Claude checkpoint was actually done a year",
+      "zh": "以 Claude 为例,第一个 Claude checkpoint 实际上早在一年前就已经完成了。"
+    },
+    {
+      "timestamp": "20:38",
+      "speaker": "Anjney Midha",
+      "en": "The day you launch, we can send a million developers to you.",
+      "zh": "你上线的那天,我们可以给你带去一百万开发者。"
+    },
+    {
+      "timestamp": "22:24",
+      "speaker": "Alex Atallah",
+      "en": "Models are not products where you can just enumerate all their features onto a webpage.",
+      "zh": "模型不是那种你可以把所有功能罗列到一个网页上的产品。"
+    },
+    {
+      "timestamp": "26:24",
+      "speaker": "Anjney Midha",
+      "en": "OpenRouter is like this wrapper on top of other APIs. This is the most stupid reductive framework.",
+      "zh": "说 OpenRouter 是架在其他 API 之上的一个包装层——这是最愚蠢的、过度简化的框架。"
+    },
+    {
+      "timestamp": "26:40",
+      "speaker": "Anjney Midha",
+      "en": "I mean, investors are wrappers on LPs, right?",
+      "zh": "我是说,投资人不就是 LP 的套壳吗,对吧?"
+    },
+    {
+      "timestamp": "36:26",
+      "speaker": "Anjney Midha",
+      "en": "crypto ended up being kind of like a dress rehearsal for generative models.",
+      "zh": "加密最终有点像是生成式模型的一次彩排。"
+    },
+    {
+      "timestamp": "38:57",
+      "speaker": "Anjney Midha",
+      "en": "There was never any need to ask that for AI because the use case was so visceral.",
+      "zh": "对 AI 从来不需要问那个问题(用例是什么),因为用例太直观了。"
+    },
+    {
+      "timestamp": "42:01",
+      "speaker": "Anjney Midha",
+      "en": "from launch to 100 million revenue run rate, it was less than eight months.",
+      "zh": "从发布到 1 亿美元收入运行率,不到八个月。"
+    },
+    {
+      "timestamp": "46:01",
+      "speaker": "Anjney Midha",
+      "en": "Sometimes when they're faster, you think they're smarter.",
+      "zh": "有时候模型跑得更快,你就会觉得它更聪明。"
+    },
+    {
+      "timestamp": "52:08",
+      "speaker": "Alex Atallah",
+      "en": "Yeah, I still think even in the age of AI, like focus is underrated.",
+      "zh": "是的,我至今仍然认为,即使在 AI 时代,专注也被低估了。"
+    },
+    {
+      "timestamp": "52:54",
+      "speaker": "Anjney Midha",
+      "en": "The company was starting $10 billion behind OpenAI.",
+      "zh": "公司起步时落后 OpenAI 100 亿美元。"
+    },
+    {
+      "timestamp": "65:44",
+      "speaker": "Alex Atallah",
+      "en": "And then open-weight models would deliver cost-effective options two, three months later.",
+      "zh": "然后开源权重模型会在两三个月后交付高性价比的选择。"
+    },
+    {
+      "timestamp": "74:03",
+      "speaker": "Anjney Midha",
+      "en": "there's a new type of unit of value that's being streamed across the internet called",
+      "zh": "有一种新的价值单位正在互联网上被传输,叫做 token。"
+    },
+    {
+      "timestamp": "77:37",
+      "speaker": "Anjney Midha",
+      "en": "All the bad things that Alex described as being perpetuated by humans right now is going to be perpetuated by AI agents over the next 10 years.",
+      "zh": "Alex 描述的所有那些目前由人类实施的坏事,在未来 10 年都将由 AI 智能体来实施。"
+    }
+  ],
+  "voice_script": "今天这期，咱们听两个人讲一段完整的故事：OpenRouter,就是那个让开发者一站调用各家大模型的路由器，从创立到被 Stripe 收购的全过程。讲的人一位是创始人 Alex Atallah,OpenSea 的联合创始人出身；另一位是首位投资人 Anjney Midha,Anthropic 最早的投资人之一，早年在 Discord 负责平台，后来加入了 A16Z。这两个人从斯坦福一份校报认识，一路见证了整个开放模型生态怎么起来的。\n\n先说起点。Alex 早年在 OpenSea 时代就总结过一套产品原则，说市场平台本质上是发布加订阅的结构，供应商发布产品，消费者来订阅。OpenRouter 就是把这套结构套在模型上，每个模型是一个可以订阅的 SKU,再加一个自动帮你在模型之间路由的功能。那为什么做这个？转折点在 2023 年初的 Alpaca：斯坦福团队用合成数据微调 Llama,只花了 600 美元，得到的模型在很多情况下和 ChatGPT 根本分不出区别。Alex 的推理很简单：做模型都这么便宜了，把有价值的数据压缩成一个模型，就成了一种全新的数据变现方式。模型一多，就需要市场来发现它们，可当时互联网上没有任何大模型的大本营。\n\n而 Anjney 的顿悟来自 Discord。OpenAI 给过 Discord GPT-3.5 的早期权限，Discord 想用它做内容审核，方案是把每个服务器的社区规范喂给模型，让模型做定制化的审核。结果模型动不动就拒绝：哈利·波特粉丝社区的请求，因为涉及商标，直接被拒；侦探小说里的暴力情节，也被拒。找 OpenAI 要权重，回复是抱歉，我们是闭源公司。从那天起，结论就清楚了：企业需要开放模型，需要一个控制平面来编排这些开放模型。\n\n但融资的时候，质疑声特别大。第一种质疑是大模型赢者通吃，像 Google 赢搜索那样，路由器只能捡残羹。Alex 的反驳是，大模型不只是界面，是构建新业务的地基，而且做出优秀竞争者的经济学，天然更容易去中心化。Anjney 的角度更直接：算力扩展总能赢，这在圈里是共识，所以一个多模型生态正在形成，不然也不会有 Mistral、Black Forest Labs 这些公司。更难听的是第二种，说这东西说白了就是个套壳市场。Anjney 原话是，这是最愚蠢的、过度简化的框架，显然出自一个没有任何一线部署产品经验的人。说完还补了一刀：投资人不就是 LP 的套壳吗？全都是套壳，一路套到裸金属。\n\n那 OpenRouter 的真实价值在哪？在于实验室有个共同的盲区：训练完之后呢。Anjney 说，第一个 Claude 的模型存档，实际上比对外发布早了一年完成，而且没有任何让开发者尝试的计划，Claude 一代博客里的三个示例全是朋友的公司。对比之下，Google 训完新模型，一夜之间就能推到十亿台 Android 设备上，这种分发优势是隐形的胜负手。而 BFL 找上门的时候，OpenRouter 的一句话是：你上线那天，我们可以给你带去一百万开发者。如今这个数字已经超过一千万，还做了大量去重。Alex 补了另一面：模型是黑盒，不是能把功能全罗列在一个网页上的产品，需要有人照亮大黑房间的每个角落，而且必须是中立第三方。\n\n所以才有那个被验证过的循环：模型实验室拿出前沿创新，用量激增，三十天后用户盯着账单发懵，然后开源权重模型两三个月后交付高性价比选项。Claude Sonnet 3.5 让编码能力大飞跃是这样，Mixtral 把价格砍掉八成也是这样。到 2025 年底 OpenClaw 出现，连生产力和创作型的新用户都进来了，指数级暴涨。\n\n至于被 Stripe 收购，表面看是商业动作，真正的暗线是安全。OpenRouter 上个月拦截的欺诈交易量，是前一个月的 10 倍：盗刷信用卡、违规转卖流量、被入侵的账号、失控的智能体烧钱。Anjney 早在 MidJourney 时代就领教过，免费试用被人转卖成订阅生意，从此 MidJourney 再没开过免费试用。Anjney 的判断是，token 是互联网上正在传输的新的价值单位，未来十年整个价值链都得面对一件事：token 越值钱，越多坏人想染指。而下一波攻击者不是人，是 AI 智能体，规模是递归的。所以需要一位新警长，能为整个代币经济造一面盾牌，Stripe 的前身剧本正是如此，人们以为 Stripe 是支付公司，不，它其实是一家安全公司。\n\n最后留一句话。这一集我最想让你带走的，是 Anjney 那句反直觉的判断：规模定律从来不是缺陷，恰恰是 OpenRouter 会非常有价值的特性——价值永远藏在别人用名词否定你的地方。"
+}

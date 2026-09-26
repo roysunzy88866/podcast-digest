@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(17:44起):本集说 Stripe 以 70 亿美元收购 OpenRouter，逻辑与其现有业务一致：收资金流的一小部分来管理信用卡收款复杂性，现在收 AI 调用流的一小部分来管理模型路由复杂性。同时 Stripe 还在谈收购 PayPal，一步打入新地盘、一步巩固旧地盘，全部在私有状态下完成。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 Stripe 同意收购 OpenRouter，因为两家公司都将事物视为市场——一个将 token 视为价值，一个将支付视为价值
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(83:33起):本集提到 Stripe 相当高调地宣扬不上市，但 Michael 认为并非每家公司都能像 Stripe 那样有大量投资者需求而不需要上市，Stripe 的情况是独一无二的。
+- **[[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]]**(03:50起):本集提到 Collison 兄弟著名的「把笔记本塞到你手里帮你装上 Stripe」的推广方式，与如今「一条提示词」对比。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(42:56起):本集引用 Stripe 的信件，其中提出'智能应该像资本一样被管理和分配，而不是像软件许可证'，收入加速至 41%，账单增长 71%
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(28:41起):本集说它以 80 亿美元收购 OpenRouter，买的不是路由技术而是信息和智能分配方向的数据，以押注企业如何分配资源
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:35起):本集提到 Stripe 是一个成熟市场，可以从第一性原理严谨推演竞争对手行动；内部有以写作为导向的文化，简报会在公司内疯传
@@ -45,6 +46,7 @@ unlisted: true
 - **[[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]]**(01:29起):本集背景公司：极其复杂的全球性支付业务，因 AI 之前就在开发者体验、数据平台、分析层上持续投入，如今成为智能体时代的杠杆（Claire 称『把 DevEx 团队和数据团队规模翻一倍』）。
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(00:29起):开场被提到是 Greg 职业生涯的第一次大押注:早期参与建设 Stripe。
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(09:38起):本集类比:像当年新初创公司宁愿选 Stripe 而不是传统信用卡服务商,如今国防科技初创公司也更愿意买能跟上自己速度的新初创公司的东西。
+- **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(32:42起):本集说它收购了 OpenRouter;Anjney 强调 Stripe 其实是一家安全公司——支付起家,靠 Stripe Radar 那样的欺诈检测守住主导地位,这正是 OpenRouter 未来要走的路。
 
 ## ① 提到它的金句
 
@@ -58,7 +60,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*34 集*
+*36 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -84,6 +86,7 @@ unlisted: true
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-how-we-got-llms-to-recommend-our-open-so|《让 AI 智能体读懂你的开源库：文档优化实战清单》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为被讨论公司(提及)
@@ -94,6 +97,7 @@ unlisted: true
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]] — 作为被讨论公司
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司(提及)
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
+- [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -101,7 +105,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[推理]] · [[ChatGPT]] · [[Lenny]] · [[Claude Code]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":321,"OpenAI":130,"Anthropic":139,"Cursor":68,"Vercel":17,"推理":53,"ChatGPT":77,"Lenny":67,"Claude Code":73,"Cognition":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":325,"OpenAI":131,"Anthropic":140,"Cursor":68,"Vercel":18,"推理":54,"ChatGPT":77,"Lenny":67,"Claude Code":73,"Cognition":19}</script>
 
 <script>
 (function(){

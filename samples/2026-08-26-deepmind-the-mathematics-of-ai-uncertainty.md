@@ -146,7 +146,7 @@ jsonLd: |
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同概念:AlphaFold</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Google DeepMind</span>
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同概念:transformer、持续学习 (continual learning)</span>
+- [[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建]]<span class="pd-rz">同概念:大语言模型 (large language model)</span>
 
 </div>
 </div>

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":1,"token":24,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":9,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":1,"token":26,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":9,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

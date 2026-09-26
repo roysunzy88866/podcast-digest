@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]] [[Jesse Jang]]
+[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":26,"智能体":321,"沙箱":58,"对齐失败":1,"推理":53,"权力集中":1,"主观能动性":1,"OpenAI":130,"YC":16}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":26,"智能体":325,"沙箱":58,"对齐失败":1,"推理":54,"权力集中":1,"主观能动性":1,"OpenAI":131,"YC":16}</script>
 
 <script>
 (function(){

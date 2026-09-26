@@ -1,0 +1,1242 @@
+[
+ {
+  "seg": 0,
+  "start": 12.781,
+  "end": 23.87,
+  "speaker": "Unknown",
+  "en": "The talk title, we'll see if it lines up by the end of it, but when we put this talk title in, just to be honest with you, so much changes in like three days at this point.",
+  "zh": "演讲标题，我们最后再看它是否还成立。但老实说，光是提这个标题的时候，如今三天之内变化就已经非常大了。"
+ },
+ {
+  "seg": 1,
+  "start": 24.25,
+  "end": 25.171,
+  "speaker": "Unknown",
+  "en": "We'll see how it goes.",
+  "zh": "我们拭目以待。"
+ },
+ {
+  "seg": 2,
+  "start": 25.871,
+  "end": 36.819,
+  "speaker": "Unknown",
+  "en": "So yeah, the whole point of it was that how I got LLMs to understand my open source library and what I did to do it well.",
+  "zh": "所以对，整个演讲的核心就是：我如何让 LLM 理解我的开源库，以及我为此做了哪些事情把它做好。"
+ },
+ {
+  "seg": 3,
+  "start": 37.24,
+  "end": 39.261,
+  "speaker": "Unknown",
+  "en": "Is it some kind of scientific background?",
+  "zh": "我是不是有什么科学背景？"
+ },
+ {
+  "seg": 4,
+  "start": 39.361,
+  "end": 40.242,
+  "speaker": "Unknown",
+  "en": "Am I from a lab?",
+  "zh": "我是不是出自某个实验室？"
+ },
+ {
+  "seg": 5,
+  "start": 40.983,
+  "end": 41.123,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不是。"
+ },
+ {
+  "seg": 6,
+  "start": 44.297,
+  "end": 45.637,
+  "speaker": "Unknown",
+  "en": "It's slidey clicky, things not working.",
+  "zh": "就是滑来滑去、点来点去、东西不好使的那些事。"
+ },
+ {
+  "seg": 7,
+  "start": 46.198,
+  "end": 49.459,
+  "speaker": "Unknown",
+  "en": "So I'd just like to say again, I'm just like you.",
+  "zh": "所以我想再说一次，我和你们一样。"
+ },
+ {
+  "seg": 8,
+  "start": 49.939,
+  "end": 51.679,
+  "speaker": "Unknown",
+  "en": "I'm just this side of the stage.",
+  "zh": "我只是舞台的这一边。"
+ },
+ {
+  "seg": 9,
+  "start": 52.16,
+  "end": 59.862,
+  "speaker": "Unknown",
+  "en": "I'm just hacking it together, figuring out what is useful, what is token efficient, these kind of things.",
+  "zh": "我只是把它拼凑起来，搞清楚什么有用、什么节省 token,这类事情。"
+ },
+ {
+  "seg": 10,
+  "start": 60.022,
+  "end": 61.863,
+  "speaker": "Unknown",
+  "en": "And again, I am British.",
+  "zh": "再说一遍，我是英国人。"
+ },
+ {
+  "seg": 11,
+  "start": 62.343,
+  "end": 64.644,
+  "speaker": "Unknown",
+  "en": "Please don't think my accent makes me an expert.",
+  "zh": "请不要因为我的口音就以为我是专家。"
+ },
+ {
+  "seg": 12,
+  "start": 67.348,
+  "end": 70.211,
+  "speaker": "Unknown",
+  "en": "So for quick context, I'm Christopher Burns.",
+  "zh": "简单介绍一下背景，我是 Christopher Burns。"
+ },
+ {
+  "seg": 13,
+  "start": 70.751,
+  "end": 71.872,
+  "speaker": "Unknown",
+  "en": "I'm the founder of Anth.",
+  "zh": "我是 Anth 的创始人。"
+ },
+ {
+  "seg": 14,
+  "start": 72.133,
+  "end": 79.06,
+  "speaker": "Unknown",
+  "en": "I created an open source cookie banner library called C15T, that really annoying thing on the internet.",
+  "zh": "我创建了一个叫 C15T 的开源 cookie 横幅库，就是互联网上那个特别烦人的东西。"
+ },
+ {
+  "seg": 15,
+  "start": 79.46,
+  "end": 80.101,
+  "speaker": "Unknown",
+  "en": "That is me.",
+  "zh": "这就是我。"
+ },
+ {
+  "seg": 16,
+  "start": 81.442,
+  "end": 87.268,
+  "speaker": "Unknown",
+  "en": "I spoke at NextConf after it started taking off, and it had 1.2 thousand downloads at the time.",
+  "zh": "在它开始走红之后，我在 NextConf 上演讲，当时它有 1.2 千次下载。"
+ },
+ {
+  "seg": 17,
+  "start": 87.488,
+  "end": 88.789,
+  "speaker": "Unknown",
+  "en": "Now it's closer to two million.",
+  "zh": "现在已经接近两百万了。"
+ },
+ {
+  "seg": 18,
+  "start": 89.67,
+  "end": 98.416,
+  "speaker": "Unknown",
+  "en": "In terms of, like, statistics, so we just check that, you know, this is not theoretical, this is actual something that is succeeding.",
+  "zh": "说到统计数据，我们核对一下，你知道，这不是理论，这是确实在成功的东西。"
+ },
+ {
+  "seg": 19,
+  "start": 99.316,
+  "end": 113.105,
+  "speaker": "Unknown",
+  "en": "We have 3 million NPM downloads, 4.5, 45% month-on-month growth, 2.8 thousand websites using as in production, from Minlify to Zed to InPhysical.",
+  "zh": "我们有 300 万 NPM 下载量，4.5、45% 的月环比增长，2.8 千个网站在生产环境使用，从 Minlify 到 Zed 再到 InPhysical。"
+ },
+ {
+  "seg": 20,
+  "start": 115.823,
+  "end": 124.512,
+  "speaker": "Unknown",
+  "en": "The whole concept of this talk was it goes back to we were doing all these things to make our library more efficient.",
+  "zh": "这场演讲的整个概念要回到：我们当时做了所有这些事情来让我们的库更高效。"
+ },
+ {
+  "seg": 21,
+  "start": 124.932,
+  "end": 129.036,
+  "speaker": "Unknown",
+  "en": "You know, we were batting upwards compared to every other tool.",
+  "zh": "你知道，和所有其他工具相比，我们是在往上拼。"
+ },
+ {
+  "seg": 22,
+  "start": 129.116,
+  "end": 131.539,
+  "speaker": "Unknown",
+  "en": "Every other tool was built for marketers and lawyers.",
+  "zh": "所有其他工具都是为营销人员和律师打造的。"
+ },
+ {
+  "seg": 23,
+  "start": 131.979,
+  "end": 133.501,
+  "speaker": "Unknown",
+  "en": "We were built for the developer.",
+  "zh": "我们是为开发者打造的。"
+ },
+ {
+  "seg": 24,
+  "start": 133.901,
+  "end": 137.064,
+  "speaker": "Unknown",
+  "en": "So we had to make sure we had a very good developer experience.",
+  "zh": "所以我们必须确保有非常好的开发者体验。"
+ },
+ {
+  "seg": 25,
+  "start": 138.025,
+  "end": 141.707,
+  "speaker": "Unknown",
+  "en": "And we had an onboarding form that said, how did you hear about this?",
+  "zh": "我们有一个引导登记表单，上面写着：你是怎么听说这个的？"
+ },
+ {
+  "seg": 26,
+  "start": 142.307,
+  "end": 159.216,
+  "speaker": "Unknown",
+  "en": "And we started to get spikes that from April the 13th, you know, now it is our number one source of inbound is Claude, ChatGPT, Codex, that is ChatGPT, Gemini recommending us.",
+  "zh": "然后我们开始看到尖峰，从 4 月 13 日开始，你知道，现在它是我们最大的入站来源，就是 Claude、ChatGPT、Codex,那个 ChatGPT、Gemini 在推荐我们。"
+ },
+ {
+  "seg": 27,
+  "start": 160.136,
+  "end": 163.738,
+  "speaker": "Unknown",
+  "en": "And I like to think of this as, you know, the iceberg.",
+  "zh": "我喜欢把这个想象成，你知道，冰山。"
+ },
+ {
+  "seg": 28,
+  "start": 163.798,
+  "end": 165.299,
+  "speaker": "Unknown",
+  "en": "You know, we start with the top of C15T and",
+  "zh": "你知道，我们从 C15T 的顶端开始，然后"
+ },
+ {
+  "seg": 29,
+  "start": 169.03,
+  "end": 176.256,
+  "speaker": "Unknown",
+  "en": "There's many, many tools that go into it from LLMs.txt to sitemaps to RSSPs to robot.txts.",
+  "zh": "有很多很多工具投入其中，从 LLMs.txt 到 sitemaps 到 RSSPs 再到 robot.txts。"
+ },
+ {
+  "seg": 30,
+  "start": 176.777,
+  "end": 183.002,
+  "speaker": "Unknown",
+  "en": "So many micro-optimizations that you can do from old methods of running the internet to new methods.",
+  "zh": "从运行互联网的老方法到新方法，你能做的微优化实在太多了。"
+ },
+ {
+  "seg": 31,
+  "start": 184.143,
+  "end": 190.849,
+  "speaker": "Unknown",
+  "en": "And how many of you have, you know, made these kind of tools?",
+  "zh": "你们有多少人，你知道，做过这类工具？"
+ },
+ {
+  "seg": 32,
+  "start": 191.009,
+  "end": 195.553,
+  "speaker": "Unknown",
+  "en": "How many of you have really, put simply, said, hey,",
+  "zh": "你们有多少人，简单说，说过：嘿，"
+ },
+ {
+  "seg": 33,
+  "start": 196.708,
+  "end": 199.79,
+  "speaker": "Unknown",
+  "en": "Agents, we need this to be done.",
+  "zh": "智能体们，我们需要把这个做完。"
+ },
+ {
+  "seg": 34,
+  "start": 200.611,
+  "end": 207.836,
+  "speaker": "Unknown",
+  "en": "And yeah, it said we should install this library, and you've gone, okay, raise your hands, how many people have done this?",
+  "zh": "然后它说我们应该安装这个库，你就说：好的，举下手，多少人这么干过？"
+ },
+ {
+  "seg": 35,
+  "start": 209.657,
+  "end": 210.658,
+  "speaker": "Unknown",
+  "en": "Pretty much most people.",
+  "zh": "几乎大部分人。"
+ },
+ {
+  "seg": 36,
+  "start": 212.419,
+  "end": 213.24,
+  "speaker": "Unknown",
+  "en": "That's a lot of hands.",
+  "zh": "好多手啊。"
+ },
+ {
+  "seg": 37,
+  "start": 214.828,
+  "end": 229.896,
+  "speaker": "Unknown",
+  "en": "So what's really funny is that we went from wizards installing our software to agents installing them, and I just went through Y Combinator, and what's really interesting is if you know who these two people are.",
+  "zh": "真正有意思的是，我们从 wizards 安装我们的软件，变成了智能体安装它们，而我刚参加了 Y Combinator,很有意思的是，如果你知道这两个人是谁。"
+ },
+ {
+  "seg": 38,
+  "start": 230.336,
+  "end": 242.743,
+  "speaker": "Unknown",
+  "en": "These are the co-founders of Stripe, the Collison Brothers, and they had a really classic saying of like a Collison Brothers install, and they would hand you their laptop, and they would install Stripe.",
+  "zh": "他们是 Stripe 的联合创始人，Collison 兄弟，他们有一个很经典的「Collison 兄弟式安装」的说法，他们会把笔记本电脑塞到你手里，然后给你装上 Stripe。"
+ },
+ {
+  "seg": 39,
+  "start": 243.343,
+  "end": 246.044,
+  "speaker": "Unknown",
+  "en": "These days, it's kind of like just a prompt.",
+  "zh": "如今，这差不多就是一条提示词。"
+ },
+ {
+  "seg": 40,
+  "start": 246.725,
+  "end": 249.966,
+  "speaker": "Unknown",
+  "en": "Being in Y Combinator, we just give people a prompt.",
+  "zh": "在 Y Combinator,我们就是给人们一条提示词。"
+ },
+ {
+  "seg": 41,
+  "start": 250.407,
+  "end": 258.791,
+  "speaker": "Unknown",
+  "en": "And really what that means is that our very good developer experience primitives are now hitting agent primitives.",
+  "zh": "而这真正意味着的是，我们非常好的开发者体验基元，现在正在变成智能体基元。"
+ },
+ {
+  "seg": 42,
+  "start": 260.506,
+  "end": 267.829,
+  "speaker": "Unknown",
+  "en": "So, as we was pulling all these things together, there is no one tool that fixes everything.",
+  "zh": "所以，在我们把这些东西拼在一起的过程中，没有任何一个工具能解决所有问题。"
+ },
+ {
+  "seg": 43,
+  "start": 268.389,
+  "end": 272.23,
+  "speaker": "Unknown",
+  "en": "I like to think about these problems like, you know, Batman's utility belt.",
+  "zh": "我喜欢把这些问题想象成，你知道，蝙蝠侠的万能腰带。"
+ },
+ {
+  "seg": 44,
+  "start": 272.53,
+  "end": 276.792,
+  "speaker": "Unknown",
+  "en": "Loads of really small things targeted in different areas to get it done.",
+  "zh": "很多非常小的东西，各自针对不同的领域，来把事情搞定。"
+ },
+ {
+  "seg": 45,
+  "start": 278.595,
+  "end": 287.278,
+  "speaker": "Unknown",
+  "en": "And we built all of these things into C15T because we wanted C15T to be the best developer framework in this tool.",
+  "zh": "我们把所有这些东西都构建进了 C15T,因为我们想让 C15T 成为这个领域里最好的开发者框架。"
+ },
+ {
+  "seg": 46,
+  "start": 287.658,
+  "end": 288.818,
+  "speaker": "Unknown",
+  "en": "Think of it like Stripe Docs.",
+  "zh": "可以把它想成 Stripe 文档那样。"
+ },
+ {
+  "seg": 47,
+  "start": 289.498,
+  "end": 298.501,
+  "speaker": "Unknown",
+  "en": "And as we was building more and more tools, more and more documentation websites, we actually started abstracting these tools into a side quest.",
+  "zh": "而在我们构建越来越多工具、越来越多文档网站的过程中，我们实际上开始把这些工具抽象成一个支线任务。"
+ },
+ {
+  "seg": 48,
+  "start": 299.548,
+  "end": 301.209,
+  "speaker": "Unknown",
+  "en": "that we call lead type.",
+  "zh": "我们称之为 lead type。"
+ },
+ {
+  "seg": 49,
+  "start": 301.629,
+  "end": 310.276,
+  "speaker": "Unknown",
+  "en": "So all of the things that we're gonna talk about now are things that we have already solved with this open source framework.",
+  "zh": "所以我们接下来要讲的所有东西，都是我们已经用这个开源框架解决了的东西。"
+ },
+ {
+  "seg": 50,
+  "start": 310.776,
+  "end": 318.581,
+  "speaker": "Unknown",
+  "en": "We have our friends at other developer companies implementing it and seeing similar results about how to optimize for the agent experience.",
+  "zh": "我们在其他开发者公司的朋友们在实现它,并看到了关于如何为智能体体验优化方面的类似结果。"
+ },
+ {
+  "seg": 51,
+  "start": 319.922,
+  "end": 323.225,
+  "speaker": "Unknown",
+  "en": "So again, this isn't a magic SEO tool.",
+  "zh": "所以再说一次,这并不是什么神奇的 SEO 工具。"
+ },
+ {
+  "seg": 52,
+  "start": 323.725,
+  "end": 324.445,
+  "speaker": "Unknown",
+  "en": "It's actually,",
+  "zh": "它其实是,"
+ },
+ {
+  "seg": 53,
+  "start": 325.393,
+  "end": 329.715,
+  "speaker": "Unknown",
+  "en": "A very non-sexy title, but it's a framework-neutral docs pipeline.",
+  "zh": "一个很不性感的标题,但它是一个框架中立的文档流水线。"
+ },
+ {
+  "seg": 54,
+  "start": 330.696,
+  "end": 331.376,
+  "speaker": "Unknown",
+  "en": "Complex.",
+  "zh": "复杂。"
+ },
+ {
+  "seg": 55,
+  "start": 332.237,
+  "end": 344.183,
+  "speaker": "Unknown",
+  "en": "But really, all it basically does is take your .mdx files, you run leadtype generate, and it will spit out everything for optimized agent experience for your websites.",
+  "zh": "但实际上,它基本上做的就是接收你的 .mdx 文件,你运行 leadtype generate,它就会为你的网站输出一切针对优化智能体体验的内容。"
+ },
+ {
+  "seg": 56,
+  "start": 345.843,
+  "end": 357.747,
+  "speaker": "Unknown",
+  "en": "And the rest of this talk is gonna look a bit like a BuzzFeed list, to put simply, of these problems, because again, not everybody knows even how to put an llms.txt on their website.",
+  "zh": "这个演讲剩下的部分,简单来说,会有点像 BuzzFeed 清单一样列出这些问题,因为再说一次,不是每个人都知道怎么在他们的网站上放一个 llms.txt。"
+ },
+ {
+  "seg": 57,
+  "start": 358.347,
+  "end": 368.97,
+  "speaker": "Unknown",
+  "en": "So, you know, that comes to the first problem, of if your docs have hundreds of pages, and how can it navigate them to find the right questions?",
+  "zh": "所以,这就来到了第一个问题,如果你的文档有几百个页面,智能体如何导航它们来找到正确的问题?"
+ },
+ {
+  "seg": 58,
+  "start": 370.71,
+  "end": 373.452,
+  "speaker": "Unknown",
+  "en": "The first solution is obviously in LLMs.txt.",
+  "zh": "第一个解决方案显然是 LLMs.txt。"
+ },
+ {
+  "seg": 59,
+  "start": 374.072,
+  "end": 379.776,
+  "speaker": "Unknown",
+  "en": "What we found in our research is that it's much better not to just generate this.",
+  "zh": "我们在研究中发现,不只是自动生成它是好得多的做法。"
+ },
+ {
+  "seg": 60,
+  "start": 380.217,
+  "end": 384.16,
+  "speaker": "Unknown",
+  "en": "It is much better to write your LLMs.txt from hand.",
+  "zh": "手写你的 LLMs.txt 是好得多的。"
+ },
+ {
+  "seg": 61,
+  "start": 384.9,
+  "end": 392.205,
+  "speaker": "Unknown",
+  "en": "Obviously our tool wraps it, but write it as you are trying to get the answers across to the LLMs.",
+  "zh": "显然我们的工具把它包装起来了,但你要把它写成你正在试图把答案传达给 LLM 的样子。"
+ },
+ {
+  "seg": 62,
+  "start": 393.326,
+  "end": 398.57,
+  "speaker": "Unknown",
+  "en": "For about 40 good lines beats 1,000 lines of noise from our testing.",
+  "zh": "从我们的测试来看,大约 40 行优质内容胜过 1,000 行噪音。"
+ },
+ {
+  "seg": 63,
+  "start": 399.915,
+  "end": 404.417,
+  "speaker": "Unknown",
+  "en": "And that comes to the second issue of agents don't know how to browse.",
+  "zh": "这就来到了第二个问题:智能体不知道如何浏览。"
+ },
+ {
+  "seg": 64,
+  "start": 404.677,
+  "end": 405.938,
+  "speaker": "Unknown",
+  "en": "They know how to fetch.",
+  "zh": "它们只知道如何抓取。"
+ },
+ {
+  "seg": 65,
+  "start": 407.058,
+  "end": 410.84,
+  "speaker": "Unknown",
+  "en": "So you then need the second part of the solution of the LLMs full.",
+  "zh": "所以你还需要解决方案的第二部分,LLMs full。"
+ },
+ {
+  "seg": 66,
+  "start": 411.6,
+  "end": 423.325,
+  "speaker": "Unknown",
+  "en": "Again, think of this as a site map where it takes the actual page and the links and a short description of what each page is for the LLMs to reference.",
+  "zh": "再次强调,把它想象成一个站点地图,它包含实际页面和链接以及每个页面用途的简短描述,供 LLM 参考。"
+ },
+ {
+  "seg": 67,
+  "start": 424.126,
+  "end": 426.627,
+  "speaker": "Unknown",
+  "en": "Again, most people have heard these two solutions.",
+  "zh": "再说一次,大多数人都听说过这两个解决方案。"
+ },
+ {
+  "seg": 68,
+  "start": 427.548,
+  "end": 439.931,
+  "speaker": "Unknown",
+  "en": "But where things are starting to get very complicated, and we're seeing a lot of optimizations right now, is that HTML is expensive, and why can't we just ship Markdown to the agents?",
+  "zh": "但事情开始变得非常复杂的地方,也是我们现在看到大量优化的地方,是 HTML 很昂贵,为什么我们不能直接把 Markdown 交给智能体?"
+ },
+ {
+  "seg": 69,
+  "start": 441.031,
+  "end": 442.472,
+  "speaker": "Unknown",
+  "en": "And we can.",
+  "zh": "我们可以。"
+ },
+ {
+  "seg": 70,
+  "start": 443.012,
+  "end": 448.213,
+  "speaker": "Unknown",
+  "en": "And you've seen that everybody has started creating twin MDs.",
+  "zh": "而且你已经看到每个人都开始创建 twin MD 了。"
+ },
+ {
+  "seg": 71,
+  "start": 448.633,
+  "end": 456.155,
+  "speaker": "Unknown",
+  "en": "So that's taking the normal website, such as Next.js Quickstart, and then having a .md on the end of it.",
+  "zh": "也就是拿正常的网站,比如 Next.js Quickstart,然后在末尾加上 .md。"
+ },
+ {
+  "seg": 72,
+  "start": 457.241,
+  "end": 462.172,
+  "speaker": "Unknown",
+  "en": "And when you load that, it goes to the Markdown version.",
+  "zh": "当你加载它时,它会进入 Markdown 版本。"
+ },
+ {
+  "seg": 73,
+  "start": 463.469,
+  "end": 468.453,
+  "speaker": "Unknown",
+  "en": "But what's really important here, and it's really worth noting, is this line at the bottom.",
+  "zh": "但这里真正重要的、非常值得注意的是底部这一行。"
+ },
+ {
+  "seg": 74,
+  "start": 469.054,
+  "end": 479.202,
+  "speaker": "Unknown",
+  "en": "If you look at all the best documentation websites, Minify, Vercel, C15T, pat myself on the back, they all have this in the header.",
+  "zh": "如果你看看所有最好的文档网站,Minify、Vercel、C15T,我自己也拍拍马屁,它们都在 header 里有这个。"
+ },
+ {
+  "seg": 75,
+  "start": 479.663,
+  "end": 487.91,
+  "speaker": "Unknown",
+  "en": "This is saying to the agents whenever they visit the website that there is an alternative version of this in Markdown.",
+  "zh": "这是在告诉智能体,每当它们访问这个网站时,存在一个 Markdown 的替代版本。"
+ },
+ {
+  "seg": 76,
+  "start": 488.35,
+  "end": 488.61,
+  "speaker": "Unknown",
+  "en": "Again,",
+  "zh": "再说一次,"
+ },
+ {
+  "seg": 77,
+  "start": 489.391,
+  "end": 490.832,
+  "speaker": "Unknown",
+  "en": "Who actually supports it?",
+  "zh": "谁真的支持它?"
+ },
+ {
+  "seg": 78,
+  "start": 491.112,
+  "end": 491.792,
+  "speaker": "Unknown",
+  "en": "Don't ask me.",
+  "zh": "别问我。"
+ },
+ {
+  "seg": 79,
+  "start": 492.352,
+  "end": 496.013,
+  "speaker": "Unknown",
+  "en": "Perplexity, some of the agents, it's all up in the air.",
+  "zh": "Perplexity,一些智能体,这些都还没有定论。"
+ },
+ {
+  "seg": 80,
+  "start": 497.334,
+  "end": 503.276,
+  "speaker": "Unknown",
+  "en": "And then the second thing as well is that taking the .mds",
+  "zh": "然后第二件事是,采用这些 .md 文件"
+ },
+ {
+  "seg": 81,
+  "start": 504.451,
+  "end": 508.114,
+  "speaker": "Unknown",
+  "en": "You need to make sure that they're available through multiple methods.",
+  "zh": "你需要确保它们可以通过多种方法获取。"
+ },
+ {
+  "seg": 82,
+  "start": 508.674,
+  "end": 510.816,
+  "speaker": "Unknown",
+  "en": "So one of them is like the .md.",
+  "zh": "其中一种就是 .md 后缀。"
+ },
+ {
+  "seg": 83,
+  "start": 510.976,
+  "end": 514.398,
+  "speaker": "Unknown",
+  "en": "So as you like copy it to an agent, you say .md.",
+  "zh": "就像你把它复制给智能体时,你说 .md。"
+ },
+ {
+  "seg": 84,
+  "start": 515.179,
+  "end": 522.104,
+  "speaker": "Unknown",
+  "en": "Another one is just taking the normal link and then adding a redirect.",
+  "zh": "所以还有一个 URL 查询参数 mode equals agent。"
+ },
+ {
+  "seg": 85,
+  "start": 522.624,
+  "end": 534.768,
+  "speaker": "Unknown",
+  "en": "into your Next.js config so that if it detects an agent has the header of accepting markdown, instead of returning the HTML, it will return the markdown.",
+  "zh": "到你的 Next.js config 里,这样如果它检测到一个智能体的 header 接受 markdown,它就不会返回 HTML,而是返回 markdown。"
+ },
+ {
+  "seg": 86,
+  "start": 535.428,
+  "end": 539.989,
+  "speaker": "Unknown",
+  "en": "And then the third one is that not all agents can append header tags.",
+  "zh": "然后第三种是,并非所有智能体都能附加 header 标签。"
+ },
+ {
+  "seg": 87,
+  "start": 540.57,
+  "end": 544.651,
+  "speaker": "Unknown",
+  "en": "So there's also a URL query of mode equals agent.",
+  "zh": "所以还有一个 URL 查询参数 mode equals agent。"
+ },
+ {
+  "seg": 88,
+  "start": 546.598,
+  "end": 553.982,
+  "speaker": "Unknown",
+  "en": "So they're the ones that pretty much everybody knows, and it's pretty basic internet knowledge at this point.",
+  "zh": "以上就是几乎每个人都知道的那些,在这一点上这已经是很基础的互联网知识了。"
+ },
+ {
+  "seg": 89,
+  "start": 555.443,
+  "end": 566.99,
+  "speaker": "Unknown",
+  "en": "But one of the really interesting ones is where we're going next, and our tooling is also helping this, is that an agent can't ask your website anything.",
+  "zh": "但一个非常有趣的下一个方向,我们的工具也在帮助实现这一点,是智能体无法向你的网站提问任何东西。"
+ },
+ {
+  "seg": 90,
+  "start": 568.505,
+  "end": 571.086,
+  "speaker": "Unknown",
+  "en": "So we need to think about the WebMCP.",
+  "zh": "所以我们需要考虑 WebMCP。"
+ },
+ {
+  "seg": 91,
+  "start": 571.607,
+  "end": 581.232,
+  "speaker": "Unknown",
+  "en": "And this is still very early, but our tool is already exposing three different tools to WebMCP.",
+  "zh": "这仍然非常早期,但我们的工具已经向 WebMCP 暴露了三个不同的工具。"
+ },
+ {
+  "seg": 92,
+  "start": 581.772,
+  "end": 584.874,
+  "speaker": "Unknown",
+  "en": "SearchDocs, GetPages, and AskDocs.",
+  "zh": "SearchDocs、GetPages 和 AskDocs。"
+ },
+ {
+  "seg": 93,
+  "start": 585.474,
+  "end": 593.683,
+  "speaker": "Unknown",
+  "en": "Again, our library led type is pulling all of that context together so an agent can easily ask it the right questions.",
+  "zh": "再次强调,我们的库 lead type 正在把所有这些上下文整合在一起,这样智能体就可以轻松地向它提出正确的问题。"
+ },
+ {
+  "seg": 94,
+  "start": 594.364,
+  "end": 601.932,
+  "speaker": "Unknown",
+  "en": "I think we'll even see a future where communication happens over email, and there's companies in San Francisco building that today.",
+  "zh": "我想我们甚至会看到一个通过电子邮件进行通信的未来,现在旧金山就有公司在构建这个。"
+ },
+ {
+  "seg": 95,
+  "start": 604.429,
+  "end": 607.351,
+  "speaker": "Unknown",
+  "en": "But this is actually the most interesting one.",
+  "zh": "但这其实是最有趣的一个。"
+ },
+ {
+  "seg": 96,
+  "start": 607.952,
+  "end": 624.203,
+  "speaker": "Unknown",
+  "en": "And I think the most important one that anybody who has any type of developer module surface, NPM modules, cargo, Python, whatever, is that the uncomfortable truth is that coding agents are",
+  "zh": "我认为也是最重要的一个,对于任何拥有任何类型开发者模块界面的人来说,NPM 模块、cargo、Python,不管是什么,令人不安的真相是,编码智能体"
+ },
+ {
+  "seg": 97,
+  "start": 624.203,
+  "end": 627.385,
+  "speaker": "Unknown",
+  "en": "are actually never visiting the website if you have a library.",
+  "zh": "如果你有一个库,它们实际上从不访问那个网站。"
+ },
+ {
+  "seg": 98,
+  "start": 627.965,
+  "end": 631.067,
+  "speaker": "Unknown",
+  "en": "They're actually visiting the node modules.",
+  "zh": "它们实际上访问的是 node modules。"
+ },
+ {
+  "seg": 99,
+  "start": 631.508,
+  "end": 634.77,
+  "speaker": "Unknown",
+  "en": "They read the repo, and they read the node modules.",
+  "zh": "它们读仓库,它们读 node modules。"
+ },
+ {
+  "seg": 100,
+  "start": 635.27,
+  "end": 645.516,
+  "speaker": "Unknown",
+  "en": "They have previous stale training data, and they're trying to work it out on what it can do from the compiled source.",
+  "zh": "它们带着过时的训练数据，试图从编译后的源码中搞清楚它能做什么。"
+ },
+ {
+  "seg": 101,
+  "start": 646.517,
+  "end": 666.471,
+  "speaker": "Unknown",
+  "en": "So again, following what people like Vercel are doing and people who are thought leaders in this industry is that we take the bundled markdown documents and then we also put them in the node modules with an agents.md file.",
+  "zh": "所以，再跟着 Vercel 这类公司以及这个行业思想领袖们的做法，我们把打包好的 markdown 文档放进 node modules 里，同时放一个 agents.md 文件。"
+ },
+ {
+  "seg": 102,
+  "start": 667.492,
+  "end": 675.098,
+  "speaker": "Unknown",
+  "en": "And the agents.md file basically says if you've got a problem, if you've got a question, all the documents are here, grep them.",
+  "zh": "这个 agents.md 文件基本上是说，如果你遇到问题、有疑问，所有文档都在这里，去 grep 它们。"
+ },
+ {
+  "seg": 103,
+  "start": 676.452,
+  "end": 681.554,
+  "speaker": "Unknown",
+  "en": "And we actually see that this has surprisingly real effects.",
+  "zh": "我们实际上看到，这有出奇真实的效果。"
+ },
+ {
+  "seg": 104,
+  "start": 682.194,
+  "end": 695.359,
+  "speaker": "Unknown",
+  "en": "We can see that between many different models, almost 50% token saving on instead of trying to search the web, find the right tools, pulling the markdown files from your code base.",
+  "zh": "我们可以看到，在许多不同的模型之间，与试图搜索网页、找到正确的工具相比，能节省近 50% 的 token,不用从你的代码库中拉取 markdown 文件。"
+ },
+ {
+  "seg": 105,
+  "start": 695.739,
+  "end": 698.88,
+  "speaker": "Unknown",
+  "en": "So if you have a library that's forever changing,",
+  "zh": "所以如果你有一个永远在变化的库，"
+ },
+ {
+  "seg": 106,
+  "start": 700.305,
+  "end": 704.608,
+  "speaker": "Unknown",
+  "en": "Then having the node modules built in is a very effective solution.",
+  "zh": "那么内置 node modules 是一个非常有效的解决方案。"
+ },
+ {
+  "seg": 107,
+  "start": 705.109,
+  "end": 712.834,
+  "speaker": "Unknown",
+  "en": "This is also working without any skills, but if you want as well, you can add skills to it to say, look at the node modules and go from there.",
+  "zh": "这在不使用任何 skills 的情况下也能生效，但如果你愿意，你也可以给它添加 skills,让它去查看 node modules,然后从那里继续。"
+ },
+ {
+  "seg": 108,
+  "start": 714.755,
+  "end": 726.044,
+  "speaker": "Unknown",
+  "en": "And again, just doubling down into this point, looking at like the agents.md file, you can say like when working with C15T Next.js library, read the bundles and...",
+  "zh": "再强调一下这一点，看看 agents.md 文件，你可以写上，在使用 C15T Next.js 库工作时，阅读打包好的文档并……"
+ },
+ {
+  "seg": 109,
+  "start": 727.684,
+  "end": 730.065,
+  "speaker": "Unknown",
+  "en": "Verify that they match and go from there.",
+  "zh": "验证它们是否匹配，然后从那里继续。"
+ },
+ {
+  "seg": 110,
+  "start": 731.409,
+  "end": 735.952,
+  "speaker": "Unknown",
+  "en": "So that's really how we've done it.",
+  "zh": "所以，这基本上就是我们做法的全部。"
+ },
+ {
+  "seg": 111,
+  "start": 736.633,
+  "end": 740.636,
+  "speaker": "Unknown",
+  "en": "I don't want to say this is prescriptive, that I know the answers.",
+  "zh": "我不想说这是规定性的，好像我知道答案。"
+ },
+ {
+  "seg": 112,
+  "start": 741.256,
+  "end": 751.043,
+  "speaker": "Unknown",
+  "en": "If you have documentation websites or if you have any type of markdown, if you're running your own blog, I've been using our package as well on our marketing website.",
+  "zh": "如果你有文档网站，或者你有任何类型的 markdown,如果你在运营自己的博客，我自己也在营销网站上使用我们的包。"
+ },
+ {
+  "seg": 113,
+  "start": 751.244,
+  "end": 754.946,
+  "speaker": "Unknown",
+  "en": "Every part of our marketing website also has a markdown file.",
+  "zh": "我们营销网站的每一个部分也都有一个 markdown 文件。"
+ },
+ {
+  "seg": 114,
+  "start": 755.547,
+  "end": 757.848,
+  "speaker": "Unknown",
+  "en": "It can be something that's used for many things.",
+  "zh": "它可以成为用于多种用途的东西。"
+ },
+ {
+  "seg": 115,
+  "start": 758.049,
+  "end": 758.949,
+  "speaker": "Unknown",
+  "en": "We're currently just",
+  "zh": "我们目前只是"
+ },
+ {
+  "seg": 116,
+  "start": 760.39,
+  "end": 766.876,
+  "speaker": "Unknown",
+  "en": "Most people are just using it for documentation, but you can literally run it and it will pull out all of these extra files.",
+  "zh": "大多数人只是把它用于文档，但你真的可以直接运行它，它会提取出所有这些额外的文件。"
+ },
+ {
+  "seg": 117,
+  "start": 768.157,
+  "end": 783.95,
+  "speaker": "Unknown",
+  "en": "And one of the big things was when I put this talk together, you know, we were seeing the results that Claude was recommending, but there was not really any, like, test suites yet or test harnesses on, like, is your site agent ready?",
+  "zh": "其中一件重要的事是，当我准备这个演讲时，你知道，我们看到了 Claude 推荐的结果，但还几乎没有测试套件或测试框架来检验你的网站是否对智能体友好。"
+ },
+ {
+  "seg": 118,
+  "start": 784.531,
+  "end": 786.573,
+  "speaker": "Unknown",
+  "en": "And Cloudflare brought one of them out.",
+  "zh": "Cloudflare 推出了其中一个。"
+ },
+ {
+  "seg": 119,
+  "start": 787.52,
+  "end": 792.262,
+  "speaker": "Unknown",
+  "en": "But my favorite is actually one called Aura AI.",
+  "zh": "但我最喜欢的其实是一个叫 Aura AI 的。"
+ },
+ {
+  "seg": 120,
+  "start": 793.043,
+  "end": 796.445,
+  "speaker": "Unknown",
+  "en": "This is brand new, and it tests a lot.",
+  "zh": "这个是全新的，它测试很多东西。"
+ },
+ {
+  "seg": 121,
+  "start": 797.325,
+  "end": 801.987,
+  "speaker": "Unknown",
+  "en": "I'm happy to show our score of 59 because it's constantly changing.",
+  "zh": "我很乐意展示我们 59 分的成绩，因为它一直在变。"
+ },
+ {
+  "seg": 122,
+  "start": 802.348,
+  "end": 804.108,
+  "speaker": "Unknown",
+  "en": "Three weeks ago, it was a lot higher.",
+  "zh": "三周前它还要高得多。"
+ },
+ {
+  "seg": 123,
+  "start": 804.469,
+  "end": 807.47,
+  "speaker": "Unknown",
+  "en": "And again, this is a forever changing area.",
+  "zh": "再说，这是一个永远在变化的领域。"
+ },
+ {
+  "seg": 124,
+  "start": 807.87,
+  "end": 812.973,
+  "speaker": "Unknown",
+  "en": "So Aura.ai, put in your website, and it will start giving you recommendations.",
+  "zh": "所以，Aura.ai,输入你的网站，它就会开始给你建议。"
+ },
+ {
+  "seg": 125,
+  "start": 813.193,
+  "end": 814.194,
+  "speaker": "Unknown",
+  "en": "It's forever changing.",
+  "zh": "它永远在变。"
+ },
+ {
+  "seg": 126,
+  "start": 814.614,
+  "end": 816.635,
+  "speaker": "Unknown",
+  "en": "Again, we can just stay on top of it.",
+  "zh": "我们也只能持续跟上它。"
+ },
+ {
+  "seg": 127,
+  "start": 817.355,
+  "end": 827.221,
+  "speaker": "Unknown",
+  "en": "And yeah, this is like one of my final slides is that the market, agents, LLMs, everything is forever changing.",
+  "zh": "是的，这是我最后几页幻灯片之一，就是市场、智能体、LLM,一切都在永远变化。"
+ },
+ {
+  "seg": 128,
+  "start": 827.841,
+  "end": 829.723,
+  "speaker": "Unknown",
+  "en": "There is no such thing as perfection.",
+  "zh": "没有完美这回事。"
+ },
+ {
+  "seg": 129,
+  "start": 830.143,
+  "end": 839.749,
+  "speaker": "Unknown",
+  "en": "When I started making these slides, I got so caught up of like, everyone expects me to be the expert here, but I've just been hacking on this problem a little more than you guys have so far.",
+  "zh": "当我开始做这些幻灯片时，我一度非常纠结，大家都期待我在这里是专家，但其实我只是在解决这个问题上比你们多折腾了一阵子而已。"
+ },
+ {
+  "seg": 130,
+  "start": 840.189,
+  "end": 842.55,
+  "speaker": "Unknown",
+  "en": "So never get caught with being perfect.",
+  "zh": "所以永远不要因为追求完美而卡住。"
+ },
+ {
+  "seg": 131,
+  "start": 843.091,
+  "end": 845.212,
+  "speaker": "Unknown",
+  "en": "Every small little increase",
+  "zh": "每一点点提升"
+ },
+ {
+  "seg": 132,
+  "start": 845.652,
+  "end": 846.973,
+  "speaker": "Unknown",
+  "en": "really does matter.",
+  "zh": "确实都很重要。"
+ },
+ {
+  "seg": 133,
+  "start": 847.154,
+  "end": 849.716,
+  "speaker": "Unknown",
+  "en": "Every small little thing you add really does matter.",
+  "zh": "你添加的每一件小事确实都很重要。"
+ },
+ {
+  "seg": 134,
+  "start": 851.357,
+  "end": 852.018,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 135,
+  "start": 852.398,
+  "end": 855.962,
+  "speaker": "Unknown",
+  "en": "You can find me on X, Bern, Chris, and LinkedIn and everywhere.",
+  "zh": "你可以在 X、Bern、Chris,还有 LinkedIn 以及各处找到我。"
+ },
+ {
+  "seg": 136,
+  "start": 859.685,
+  "end": 864.009,
+  "speaker": "Unknown",
+  "en": "I think we have time for one or two questions.",
+  "zh": "我想我们还有时间提一两个问题。"
+ },
+ {
+  "seg": 137,
+  "start": 864.489,
+  "end": 865.03,
+  "speaker": "Unknown",
+  "en": "Yeah, of course.",
+  "zh": "好的，当然。"
+ },
+ {
+  "seg": 138,
+  "start": 872.585,
+  "end": 876.689,
+  "speaker": "Unknown",
+  "en": "So if you were building, we're a website agency.",
+  "zh": "那么如果你在建设，我们是一家网站代理公司。"
+ },
+ {
+  "seg": 139,
+  "start": 876.709,
+  "end": 879.632,
+  "speaker": "Unknown",
+  "en": "We work with a lot of startups building their own websites.",
+  "zh": "我们与很多为自己建设网站的初创公司合作。"
+ },
+ {
+  "seg": 140,
+  "start": 880.313,
+  "end": 888.702,
+  "speaker": "Unknown",
+  "en": "If you were just building a website, not necessarily a developer tool, but just a website to be found, which of these methods would you concentrate on if you're starting from scratch?",
+  "zh": "如果你只是要建一个网站，不一定是开发者工具，只是一个希望被发现的网站，如果从零开始，你会专注于这些方法中的哪一种？"
+ },
+ {
+  "seg": 141,
+  "start": 889.974,
+  "end": 900.602,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the most important ones, and we're starting to see this more and more, is trying to provide a .md file for every single page.",
+  "zh": "嗯，我认为最重要的是，我们越来越多地看到这一点，就是尽量为每一个页面提供一个 .md 文件。"
+ },
+ {
+  "seg": 142,
+  "start": 900.862,
+  "end": 902.964,
+  "speaker": "Unknown",
+  "en": "A lot of CMSs are not built in this way.",
+  "zh": "很多 CMS 并不是按这种方式构建的。"
+ },
+ {
+  "seg": 143,
+  "start": 903.864,
+  "end": 916.334,
+  "speaker": "Unknown",
+  "en": "And we see this optimization happening more and more where, I didn't put in this slide, but we're seeing more and more websites being visited by agents instead of real humans.",
+  "zh": "我们看到这种优化越来越多地发生，虽然我没放进这页幻灯片，但我们看到越来越多的网站访问者是智能体而不是真实的人类。"
+ },
+ {
+  "seg": 144,
+  "start": 917.054,
+  "end": 924.86,
+  "speaker": "Unknown",
+  "en": "So in terms of even like trying to be proactive and token efficient, you should provide a markdown file if you can.",
+  "zh": "所以，即便从主动性和 token 效率的角度考虑，如果可以的话你应该提供一个 markdown 文件。"
+ },
+ {
+  "seg": 145,
+  "start": 925.34,
+  "end": 928.503,
+  "speaker": "Unknown",
+  "en": "Again, a lot of CMSs are not built this way.",
+  "zh": "再说一次，很多 CMS 并不是按这种方式构建的。"
+ },
+ {
+  "seg": 146,
+  "start": 928.883,
+  "end": 930.604,
+  "speaker": "Unknown",
+  "en": "I actually built my own CMS.",
+  "zh": "我实际上自己构建了一个 CMS。"
+ },
+ {
+  "seg": 147,
+  "start": 931.325,
+  "end": 935.808,
+  "speaker": "Unknown",
+  "en": "My name is Chris and I built ChrisCMS, short for Christmas.",
+  "zh": "我叫 Chris,我构建了 ChrisCMS,是 Christmas(圣诞节)的缩写。"
+ },
+ {
+  "seg": 148,
+  "start": 935.888,
+  "end": 937.71,
+  "speaker": "Unknown",
+  "en": "It's a whole thing my team wishes I never built.",
+  "zh": "这是我团队希望我从没构建过的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 938.487,
+  "end": 943.088,
+  "speaker": "Unknown",
+  "en": "But it does work, and it does bring this token efficiency up.",
+  "zh": "但它确实能用，而且确实提升了这种 token 效率。"
+ },
+ {
+  "seg": 150,
+  "start": 943.549,
+  "end": 948.21,
+  "speaker": "Unknown",
+  "en": "So yeah, I would say llms.txt is your first shout.",
+  "zh": "所以是的，我会说 llms.txt 是你的首选。"
+ },
+ {
+  "seg": 151,
+  "start": 949.23,
+  "end": 953.872,
+  "speaker": "Unknown",
+  "en": "llms.txt, full.txt, second.",
+  "zh": "llms.txt，full.txt，第二。"
+ },
+ {
+  "seg": 152,
+  "start": 954.432,
+  "end": 962.334,
+  "speaker": "Unknown",
+  "en": "If you can just do them manually, say you're not even working on systems that have markdown, I still recommend them.",
+  "zh": "如果你可以手动做这些，比如说你甚至在处理没有 markdown 的系统，我仍然推荐它们。"
+ },
+ {
+  "seg": 153,
+  "start": 963.675,
+  "end": 966.936,
+  "speaker": "Unknown",
+  "en": "But you can always get creative with creating these,",
+  "zh": "但你总是可以在创建这些时发挥创意，"
+ },
+ {
+  "seg": 154,
+  "start": 968.236,
+  "end": 969.377,
+  "speaker": "Unknown",
+  "en": "files on the go.",
+  "zh": "即时生成文件。"
+ }
+]

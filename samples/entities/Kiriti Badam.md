@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":321,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":4,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":325,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":4,"行为校准":1}</script>
 
 <script>
 (function(){

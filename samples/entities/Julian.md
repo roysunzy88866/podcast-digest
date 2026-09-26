@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":53,"专用推理":1,"开源模型":20,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":68,"Decagon":8}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":54,"专用推理":1,"开源模型":20,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":68,"Decagon":8}</script>
 
 <script>
 (function(){

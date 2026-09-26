@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Base44":3,"Wix":3,"Lovable":16,"Bolt":3,"Replit":17,"Vercel":17,"Cursor":68,"Render.com":1,"MongoDB":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Base44":3,"Wix":3,"Lovable":16,"Bolt":3,"Replit":17,"Vercel":18,"Cursor":68,"Render.com":1,"MongoDB":5}</script>
 
 <script>
 (function(){
