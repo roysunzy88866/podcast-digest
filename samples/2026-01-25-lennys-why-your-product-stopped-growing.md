@@ -146,8 +146,8 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 **顺着「增长与销售」挖下去**
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:SaaS</span>
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同概念:定价 (pricing)</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:LLM、SEO</span>
-- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同概念:LLM、SEO</span>
 
 </div>
 <div class="pd-ex">

@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":77,"Claude":65,"GPT":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":77,"Claude":66,"GPT":3}</script>
 
 <script>
 (function(){

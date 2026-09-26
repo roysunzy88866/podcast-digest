@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":77,"Claude":65,"Facebook":15,"Google":47,"LinkedIn":4,"Apple":18,"HubSpot":8,"Zynga":2,"Cursor":68}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":77,"Claude":66,"Facebook":15,"Google":47,"LinkedIn":4,"Apple":18,"HubSpot":8,"Zynga":2,"Cursor":68}</script>
 
 <script>
 (function(){

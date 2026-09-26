@@ -168,7 +168,7 @@ jsonLd: |
 
 - [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年]]<span class="pd-rz">同概念:Product Market Fit</span>
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|Omni 创始人：丢掉五笔交易后怎么找到产品市场契合]]<span class="pd-rz">同概念:Product Market Fit</span>
-- [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|三次找到产品市场匹配：一个创始人的实战手册]]<span class="pd-rz">同概念:Product Market Fit</span>
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同概念:设计合作伙伴 (design partner)</span>
 
 </div>
 <div class="pd-ex">

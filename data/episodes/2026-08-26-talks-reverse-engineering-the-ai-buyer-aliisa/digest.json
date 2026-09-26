@@ -1,0 +1,202 @@
+{
+  "title_zh": "先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法",
+  "tldr": "前 OpenAI 企业增长负责人 Elisa 分享 AI 时代销售组织打法：先自动化再雇人、避免试点地狱、定价与招聘的实战教训。",
+  "digest_md": "这一集的主角叫 Elisa,她四年多前加入当时还只有几百万美元收入的 OpenAI,一路把企业侧收入做到几十亿美元，发布过多个产品。她现在到处给创始人讲 AI 时代的 go-to-market(产品走向市场的打法)该怎么做，而她的核心主张非常反直觉：**别先招销售团队，先把机器造出来。**\n\n## 反着做：先机器，后团队\n\n大多数公司的惯性是：招销售、招销售运营(RevOps)、招销售工程师，搭好组织，然后再找瓶颈、加自动化。Elisa 给创始人的建议是反着做——**先构建机器，再构建团队**：先搞清楚哪些环节能自动化、瓶颈和坏点在哪，然后才在瓶颈处加上人力去打通。2026 年已有的工具足够多，过去那种一进来就招一大堆 BDR、SDR(外呼/内呼销售)的打法已经被颠覆了。\n\n## OpenAI 自己也做过反的：先企业版，后自助版\n\nChatGPT 在 2022 年底发布时没有任何企业功能，Elisa 被企业客户轰炸——要 SSO(单点登录)、要 NDA(保密协议)、要发票。她恳求了九个月才拿到做企业版的批准。但这九个月里喊得最响的都是大企业，于是他们一上来就做了个「保时捷」：功能全加满、速度飞快、定价很高、直奔高端市场。做得还行，但四个月后(2024 年 1 月)上线了自助服务版本，结果**自助版完全蚕食了企业业务**——大多数人根本不想跟销售员打交道，自助业务增长远快于重销售的企业业务。\n\n教训：应该先发自助版，听客户反馈他们缺什么，再建更贵的企业版、再招团队去卖。此后 OpenAI 每个新产品都坚持自助先行。\n\n## 被入站线索淹没：每天一万个\n\n企业版上线前，Elisa 和四个销售代表每天面对一万个入站线索——完全被淹没。她的复盘：\n\n- **注册表单一开始就该加满字段**，比如电话号码。等后来建好了自动化、想跟进时，手里却没有信息。选填也行，但愿意给的人就该拿到——「说不定哪天你会想给他们打电话,或者让 AI 给他们打」。\n- **尽量回复每一个人**。哪怕只是一封自动化邮件：「我们听到了，企业版还没好，你在等待名单上，告诉我们你想要什么」。因为九个月后她出去谈企业版时，几乎每家公司都说「你们从来没回复过我」，然后转身买了 Microsoft Copilot。\n- **出站销售**:Clay、Nooks 这类工具可以做调研、排序、拨号,把出站管道生成尽量自动化,让销售代表只专注合格线索和高价值对话。\n\n## 让买家轻松：别布置作业，别搞试点\n\n给搭建 go-to-market 的公司最大的一条建议：**让买家轻松，别给他们布置作业**。永远不要说「你去做这五件事再来找我」——你要替买家做尽可能多的工作，必要时办黑客马拉松、上门、开 Zoom 一起做。把买家打发走再等他回来，你就彻底失去了对销售周期的控制，一切都会变慢。其次,购买流程摩擦越少越好:定价选项越少越好、文书简单快捷、审批好走。\n\n另一个要反复敲黑板的：**不惜一切代价避免试点(pilot)**。创始人最常见的抱怨就是「困在试点地狱」：一堆试点没有一个转化；就算转化了，还得把整个销售流程从头再来一遍。试点不该是默认，只留给你最有价值、付费最高的机会。但每个客户都会要 POC(概念验证),怎么办——记住一点：**一旦交出产品访问权限，你就交出了交易周期里的权力和筹码**。替代做法:\n\n- 介绍他们认识另一个客户；\n- 用他们的一部分数据做评测，或用他们的定制数据在 Zoom 上做演示，而不是给访问权限；\n- 给退出条款：签合同，90 天内不满足需求可退出——倒计时开始压在他们身上，试用验证的责任就转移了；\n- 「我们标准合同三年，但可以跟你签一年的 POC」。\n\n## 安全环节也能自动化\n\n安全(security review)是交易最容易停滞死掉的地方。现在有很多工具可以搭信任门户(trust portal):客户自助签 NDA、自助查文档；有 AI 产品能自动填安全问卷。大多数客户会说「我需要打两小时电话」——要顶回去，把他们推向信任门户，让他们来找你说「这是我找不到的、所以我才需要电话」。安全环节自动化能大大加速销售周期。\n\n## 定价：60 美元一席的教训\n\nChatGPT Enterprise 最初定价**每用户每月 60 美元**——市场上第一个产品，不知道该怎么定价，就按服务成本来定。结果 Copilot、Gemini、Anthropic 都以低得多的价格进场,他们才发现定高了。后来改成「许可费(用产品的基础费用)+ 基于用量计费」:准入门槛一降,签许可的公司暴增,用量也随时间上涨。60 美元时代,组织只给团队里一小撮人买;门槛一降,「像野火一样蔓延,所有人都开始用」。\n\n按用量计费如今也遭抵制(用量成本飙升)，但有简单解法：给每月支出设上限的仪表盘、给个别员工设上限——大多数公司不会用，但他们喜欢知道上限在那里。\n\n## 什么时候才招人、招什么人\n\n时机：当你在自助流程里已经走到头，大量公司在说「我就是需要和真人谈谈、要个演示、要看着人的眼睛建立信任」。往上游市场走时这会自然出现——大公司要和人握手。\n\n但**尽可能抵制大客户的诱惑**：一旦拿到愿意花一百万、一千万美元的客户，你会很想围绕他调整整个业务——他会占走你大量的法务、安全、产品、工程、销售资源。对最初几个大企业伙伴要非常、非常挑剔。\n\n招人标准：招 **AI 原生**的销售——真正懂 AI、生活在其中、因为真心认同所以能真实地推销它的人。她把现在这个阶段叫「**牛排晚餐的复仇**」:自动化外呼、自动化演示、自动化安全清单越多,公司越渴望与真人面对面——会议、展位、和买家吃晚餐效果好且不贵，而这些目前仍需要人来运营。人也更擅长「价值销售」——你卖的不是工具,是工具能给买方带来什么,这一点 AI 还有路要走。\n\n薪酬：OpenAI 至今没发提成方案(靠股权和价值增长撑着)，她不建议普通公司学。最初两三个销售可以不靠提成——那批人是为建公司、为股权来的；但之后要雇「见钱眼开」的企业级销售,就必须有薪酬计划。原则：**越简单越好，但要给超额完成者留上升空间**。\n\n## 问答要点\n\n- **自助使用 vs POC 的区别**:PLG(产品驱动增长)式的自助使用完全可以，可以用消费量、时间、功能门槛来设限，形成自然漏斗；她反对的是需要销售工程师全程监督、人工服务型的 POC。\n- **前置部署工程师**(forward-deployed engineer,驻客户现场帮集成的工程师):理想世界不需要他们，但现在约 55,000 个职位空缺、只有约 5,000 人会干。贵、难招，但能让产品极粘——客户投入集成后短期不会走。找不到就别让产品依赖他们。\n- **前 10 个客户**:不是自动化外呼的对象，是设计合作伙伴(design partner),要手把手带。挑选要挑剔。一个好策略：找一家 logo 漂亮的公司，但做他们的**内部/非核心产品**——他们才愿意担风险、绕过一些安全流程；你拿到 logo,再去敲别家的门。这些关系最好来自已有的人脉：合作过的公司、投资人引荐、朋友。\n\n## 本集带走\n\n- **先造机器再招人**：先把能自动化的自动化，找到真正的瓶颈，再在瓶颈处加人，而不是先搭销售组织再补自动化。\n- **自助先行**：先发自助版、听反馈，再建贵的企业版和销售团队——OpenAI 顺序做反，被自己的自助版蚕食了企业业务。\n- **收集线索信息要趁早**：注册表单一开始就加足字段(如电话)，并给每个线索至少一封自动化回复——不回复，客户就买了 Microsoft Copilot。\n- **绕开试点**：用客户介绍、定制数据 Zoom 演示、90 天退出条款、一年 POC 代替试点，别交出访问权限丢掉筹码。\n- **定价低门槛 + 用量计费**：60 美元/席把客户挡在门外；许可费+用量让使用蔓延，再配上支出上限仪表盘化解成本失控的担忧。\n- **首批销售招 AI 原生的人**；前两三个可以不靠提成，之后要招现金驱动的企业销售就得有简单、给超额者留空间的薪酬计划。\n- **设计伙伴要挑人、挑非核心产品**：拿内部系统当切入口，既换 logo 又降低对方的风险门槛。",
+  "quotes": [
+    {
+      "en": "My current advice to founders is do the opposite. So start with what you can automate.",
+      "zh": "我现在给创始人的建议是反着做：从你能自动化的地方开始。",
+      "timestamp": "01:15",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "So my advice to founders is build the machine first before you build the team, figure out what you can automate, figure out where the bottlenecks are and what's broken, and then add humans on top of that to get through those bottlenecks.",
+      "zh": "我给创始人的建议是：先构建机器，再构建团队——搞清楚能自动化什么、瓶颈在哪、什么坏了，然后在此基础上加人来打通那些瓶颈。",
+      "timestamp": "01:46",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "It grew so much faster. It turns out most people just didn't want to talk to a salesperson, and our mid-market SMB sort of self-serve business was much higher growth than our heavy enterprise business.",
+      "zh": "它增长得快得多。事实证明，大多数人只是不想和销售员交谈，我们面向中型市场 SMB 的自助服务业务增长远远高于重销售的企业业务。",
+      "timestamp": "03:22",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "So in the beginning, we were just completely overwhelmed with inbound, which I know sounds like such a champagne problem, but it was me and four sales reps, and we were getting 10,000 inbound a day.",
+      "zh": "一开始我们完全被入站线索淹没了，我知道这听起来像个香槟酒问题，但当时只有我和四个销售代表，我们每天收到一万个入站线索。",
+      "timestamp": "04:21",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "Because when we finally did launch our enterprise product nine months later, almost every company I went out and talked to said, well, you never got back to me. And I went out and I brought Microsoft Copilot.",
+      "zh": "因为九个月后我们终于发布企业版产品时，几乎每一家我去谈的公司都说：可你们从来没回复过我。然后我就出去买了 Microsoft Copilot。",
+      "timestamp": "05:20",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "Don't give them homework.",
+      "zh": "不要给你的买家布置作业。",
+      "timestamp": "06:00",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "But whatever you do, don't send your buyer away to do something and wait for them to come back because you lose total control of the sales cycle and it makes everything take longer.",
+      "zh": "但无论你做什么，都不要把买家打发走去做事然后等他回来——那样你会彻底失去对销售周期的控制，而且一切都会变慢。",
+      "timestamp": "06:25",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "And the other thing I'll hammer home is to avoid pilots at all cost.",
+      "zh": "另一件我要反复强调的事是：不惜一切代价避免试点。",
+      "timestamp": "06:48",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "Just remember, as soon as you give someone access to your product, you're giving away a lot of power and leverage in the deal cycle.",
+      "zh": "只要记住，一旦你把产品的访问权限交给别人，你在整个交易周期里就交出了大量的权力和筹码。",
+      "timestamp": "07:39",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "It's not something you do when you're a giant company, but when you're a startup, you can get away with these things.",
+      "zh": "大公司不会这么干，但作为初创公司，你可以这么干而没人说什么。",
+      "timestamp": "07:59",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "On that note, I will say, avoid the pull-up market as long as you can resist it, because once you get a big customer, they'll come and they'll say, I can spend a million dollars, 10 million dollars with you, and it's very tempting to want to orient your whole business around that.",
+      "zh": "说到这里我要说：只要还能抵制，就尽量别急着冲上游市场——一旦拿到大客户，他们会说我可以在你身上花一百万、一千万美元，你会很想把整个业务都围绕他们来调整。",
+      "timestamp": "11:35",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "So you want to be really, really picky about who those first big enterprise partners are.",
+      "zh": "所以你要对自己最初几个大型企业合作伙伴的选择非常、非常挑剔。",
+      "timestamp": "11:56",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "So who do you hire? You hire someone who is AI native, who really gets AI, who lives it, who can authentically sell it because they're really bought into it.",
+      "zh": "那么雇谁？雇一个 AI 原生的人——真正懂 AI、生活在其中、因为真心认同所以能真实地推销它的人。",
+      "timestamp": "12:08",
+      "speaker": "Aliisa Rosenthal"
+    },
+    {
+      "en": "You're not selling your tool. You're not selling your product. You're selling what that tool or that product does to your champion or your buyer.",
+      "zh": "你卖的不是你的工具，不是你的产品；你卖的是那个工具或产品能给你的支持者或买方带来什么。",
+      "timestamp": "14:19",
+      "speaker": "Aliisa Rosenthal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:18",
+      "speaker": "Elisa",
+      "en": "My current advice to founders is do the opposite. So start with what you can automate.",
+      "zh": "我现在给创始人的建议是反着做：从你能自动化的地方开始。"
+    },
+    {
+      "timestamp": "01:46",
+      "speaker": "Elisa",
+      "en": "So my advice to founders is build the machine first before you build the team, figure out what you can automate, figure out where the bottlenecks are and what's broken, and then add humans on top of that to get through those bottlenecks.",
+      "zh": "我给创始人的建议是：先构建机器，再构建团队——搞清楚能自动化什么、瓶颈在哪、什么坏了，然后在此基础上加人来打通那些瓶颈。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Elisa",
+      "en": "It grew so much faster. It turns out most people just didn't want to talk to a salesperson, and our mid-market SMB sort of self-serve business was much higher growth than our heavy enterprise business.",
+      "zh": "它增长得快得多。事实证明，大多数人只是不想和销售员交谈，我们面向中型市场 SMB 的自助服务业务增长远远高于重销售的企业业务。"
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Elisa",
+      "en": "So we did it all backwards.",
+      "zh": "所以我们全都做反了。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Elisa",
+      "en": "So in the beginning, we were just completely overwhelmed with inbound, which I know sounds like such a champagne problem, but it was me and four sales reps, and we were getting 10,000 inbound a day.",
+      "zh": "一开始我们完全被入站线索淹没了，我知道这听起来像个香槟酒问题，但当时只有我和四个销售代表，我们每天收到一万个入站线索。"
+    },
+    {
+      "timestamp": "05:25",
+      "speaker": "Elisa",
+      "en": "Because when we finally did launch our enterprise product nine months later, almost every company I went out and talked to said, well, you never got back to me. And I went out and I brought Microsoft Copilot.",
+      "zh": "因为九个月后我们终于发布企业版产品时，几乎每一家我去谈的公司都说：可你们从来没回复过我。然后我就出去买了 Microsoft Copilot。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Elisa",
+      "en": "Don't give them homework.",
+      "zh": "不要给你的买家布置作业。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Elisa",
+      "en": "But whatever you do, don't send your buyer away to do something and wait for them to come back because you lose total control of the sales cycle and it makes everything take longer.",
+      "zh": "但无论你做什么，都不要把买家打发走去做事然后等他回来——那样你会彻底失去对销售周期的控制，而且一切都会变慢。"
+    },
+    {
+      "timestamp": "06:48",
+      "speaker": "Elisa",
+      "en": "And the other thing I'll hammer home is to avoid pilots at all cost.",
+      "zh": "另一件我要反复强调的事是：不惜一切代价避免试点。"
+    },
+    {
+      "timestamp": "07:39",
+      "speaker": "Elisa",
+      "en": "Just remember, as soon as you give someone access to your product, you're giving away a lot of power and leverage in the deal cycle.",
+      "zh": "只要记住，一旦你把产品的访问权限交给别人，你在整个交易周期里就交出了大量的权力和筹码。"
+    },
+    {
+      "timestamp": "07:59",
+      "speaker": "Elisa",
+      "en": "It's not something you do when you're a giant company, but when you're a startup, you can get away with these things.",
+      "zh": "大公司不会这么干，但作为初创公司，你可以这么干而没人说什么。"
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Elisa",
+      "en": "On that note, I will say, avoid the pull-up market as long as you can resist it, because once you get a big customer, they'll come and they'll say, I can spend a million dollars, 10 million dollars with you, and it's very tempting to want to orient your whole business around that.",
+      "zh": "说到这里我要说：只要还能抵制，就尽量别急着冲上游市场——一旦拿到大客户，他们会说我可以在你身上花一百万、一千万美元，你会很想把整个业务都围绕他们来调整。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Elisa",
+      "en": "So you want to be really, really picky about who those first big enterprise partners are.",
+      "zh": "所以你要对自己最初几个大型企业合作伙伴的选择非常、非常挑剔。"
+    },
+    {
+      "timestamp": "12:08",
+      "speaker": "Elisa",
+      "en": "So who do you hire? You hire someone who is AI native, who really gets AI, who lives it, who can authentically sell it because they're really bought into it.",
+      "zh": "那么雇谁？雇一个 AI 原生的人——真正懂 AI、生活在其中、因为真心认同所以能真实地推销它的人。"
+    },
+    {
+      "timestamp": "12:27",
+      "speaker": "Elisa",
+      "en": "I'm calling this the revenge of the steak dinner.",
+      "zh": "我把这称为「牛排晚餐的复仇」。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Elisa",
+      "en": "You're not selling your tool. You're not selling your product. You're selling what that tool or that product does to your champion or your buyer.",
+      "zh": "你卖的不是你的工具，不是你的产品；你卖的是那个工具或产品能给你的支持者或买方带来什么。"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "Elisa",
+      "en": "But once we lowered the threshold, it spread like wildfire. Everyone started using it.",
+      "zh": "但一旦我们降低了门槛，它就像野火一样蔓延开来，所有人都开始用了。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Elisa",
+      "en": "So we basically priced it according to how expensive it was for us to serve it.",
+      "zh": "所以我们基本上是按服务成本来定价的。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Elisa，她四年多前加入 OpenAI，那时候公司的收入才几百万美元。四年之后，企业侧收入做到了几十亿美元，中间还发布了好几个产品。现在她到处给创始人讲课，讲的是 AI 时代产品怎么走向市场——行话叫 go-to-market。而她最核心的主张，听起来特别反直觉：别急着招销售团队，先把机器造出来。\n\n大多数公司是怎么做的呢？惯性是先招销售、招销售运营、招销售工程师，把组织搭起来，然后再回头找瓶颈、加自动化。Elisa 说应该反着来：先搞清楚哪些环节能自动化、瓶颈和坏点在哪，然后在瓶颈的地方才加上人力去打通。她认为到 2026 年，现成的工具已经足够多了，那种一进来就招一大堆外呼和内呼销售的打法，已经被彻底颠覆了。\n\n说到顺序做反，OpenAI 自己就吃过一个大亏。ChatGPT 在 2022 年底发布的时候，没有任何企业功能。结果企业客户天天来轰炸，要单点登录、要保密协议、要发票。Elisa 恳求了整整九个月，才拿到做企业版的批准。但这九个月里喊得最响的全是大企业，所以团队一上来就做了个「保时捷」：功能全加满、速度飞快、定价很高，直奔高端市场。产品做得还行，可是四个月后上线了自助服务版本，坏事了——自助版完全蚕食了企业业务。事实证明，大多数人根本不想跟销售员打交道，自助业务涨得比重销售的企业业务快得多。\n\n所以教训很清楚：应该先发自助版，听客户反馈缺什么，再建更贵的企业版、再招团队去卖。从那以后，OpenAI 每个新产品都坚持自助先行。\n\n那企业版做之前那段日子是什么样的？一句话，被淹没了。当时只有 Elisa 和四个销售代表，每天要面对一万个入站线索。我知道这听起来像是个香槟酒问题，但人手就是完全不够。复盘下来有几条很实在的经验。第一条，注册表单一开始就该加满字段，比如电话号码。等后来把自动化建好了想跟进，手里却没信息，就晚了。选填也行，但愿意给的人就该拿到——说不定哪天你会想给他们打电话，或者让 AI 给他们打。第二条，尽量回复每一个人，哪怕只是一封自动化邮件，告诉对方「我们听到了，企业版还没好，你在等待名单上，说说你想要什么」。为什么这条这么要命？因为九个月后 Elisa 出去谈企业版的时候，几乎每一家公司都说：可你们从来没回复过我。然后人家就转身去买 Microsoft Copilot 了。第三条，出站销售也有 Clay、Nooks 这类工具，可以自动做调研、排序、拨号，让销售代表只专注于合格线索和高价值对话。\n\n线索的问题解决了，下一个环节就是怎么让买家下单。这里有条建议，她说要给所有搭 go-to-market 的公司：让买家轻松，别给买家布置作业。永远不要说「你去做这五件事再来找我」——你要替买家做尽可能多的工作，必要的时候办黑客马拉松、上门、开着 Zoom 一起干。把买家打发走再等他回来，你就彻底失去了对销售周期的控制，一切都会变慢。\n\n顺着这个思路往下推，还有一个要反复敲黑板的：不惜一切代价避免试点。创始人最常抱怨的就是困在试点地狱——一堆试点没有一个转化，就算转化了，还得把整个销售流程从头再来一遍。可每个客户都会要概念验证，怎么办？记住一点：一旦交出产品访问权限，你就交出了交易周期里的权力和筹码。替代办法其实不少。可以把他们介绍给另一个客户；可以拿他们的一部分数据做评测，或者用他们的定制数据在 Zoom 上做演示，就是不给访问权限；还可以给退出条款——签合同，九十天内不满足需求可以退出，倒计时压在他们身上，验证的责任就转移了；再或者「我们标准合同三年，但可以跟你签一年的 POC」。\n\n交易里还有一个特别容易死掉的地方，就是安全审查。这个环节现在也能自动化。有很多工具可以搭信任门户，让客户自助签保密协议、自助查文档；还有 AI 产品能自动填安全问卷。大多数客户会说「我需要打两小时电话」，这时候要顶回去，把他们推向信任门户，让他们来找你说「这是我在文档里找不到的，所以才需要电话」。安全环节自动化能大大加速整个销售周期。\n\n再说说定价，这里有个 60 美元的教训。ChatGPT Enterprise 最初定价是每用户每月 60 美元——市场上第一个产品，不知道该怎么定价，就按服务成本来定了。结果 Copilot、Gemini、Anthropic 都以低得多的价格进场，这才发现定高了。后来改成许可费加用量计费：先用一笔基础费用拿到准入，再按使用量收费。门槛一降，签许可的公司暴增，用量也随时间往上涨。60 美元时代，组织只给团队里一小撮人买；门槛一降，就像野火一样蔓延，所有人都开始用了。按用量计费如今也遭抵制，因为用量成本会飙升，但有简单解法：给每月支出设上限的仪表盘，给个别员工设上限。大多数公司不会真去用，但他们喜欢知道上限在那里。\n\n那到底什么时候才该招人？答案是：当你在自助流程里已经走到头，大量公司在说「我就是需要和真人谈谈，要个演示，要看着人的眼睛建立信任」。往大客户市场走的时候，这会自然出现，因为大公司要和人握手。不过这里有个提醒：尽可能抵制大客户的诱惑。一旦拿到愿意花一百万、一千万美元的客户，你会很想围绕他调整整个业务——他会占走你大量的法务、安全、产品、工程和销售资源。对最初几个大企业伙伴，要非常、非常挑剔。\n\n招人的标准是什么？招 AI 原生的销售——真正懂 AI、生活在其中、因为真心认同所以能真实地推销它的人。Elisa 把现在这个阶段叫「牛排晚餐的复仇」：自动化外呼、自动化演示、自动化安全清单越多，公司就越渴望和真人面对面。会议、展位、和买家吃顿晚餐，效果好而且不贵，而这些目前仍然需要人来运营。人还更擅长价值销售——你卖的不是工具，是工具能给买方带来什么，这一点 AI 还有路要走。至于薪酬，OpenAI 至今没发提成方案，靠股权和价值增长撑着，但她不建议普通公司学。最初两三个销售可以不靠提成，那批人是为建公司、为股权来的；但之后再招的企业级销售就是见钱眼开型的，必须有薪酬计划。原则是越简单越好，但要给超额完成的人留上升空间。\n\n最后还有几条问答里的干货，正好补上前面没讲到的。有人问，自助使用和试点到底差在哪？区别在于：产品驱动增长式的自助使用完全可以，可以用消费量、时间、功能门槛来设限，形成自然漏斗；要反对的是那种需要销售工程师全程监督、人工服务型的试点。再比如前十个客户，那不是自动化外呼的对象，而是设计合作伙伴，要手把手带，挑选要挑剔。一个好策略是找一家 logo 漂亮的公司，但做他们的内部产品、非核心产品——他们才愿意担风险、绕过一些安全流程；你拿到 logo，再去敲别家的门。这些关系最好来自已有的人脉：合作过的公司、投资人引荐、朋友。\n\n把这一集拎起来看，其实就一句话：从你能自动化的地方开始，搞清楚瓶颈在哪、什么坏了，先构建机器，再构建团队，然后在这个基础上加人，去打通那些真正的瓶颈。"
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jordan Tigani]] · [[MotherDuck]] · [[DuckDB]] · [[DuckDB Labs]] · [[Snowflake]] · [[open core]] · [[数据仓库]] · [[智能体]] · [[仪表盘]]
 
-<script type="application/json" class="pd-epn">{"Jordan Tigani":1,"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"Snowflake":13,"open core":1,"数据仓库":3,"智能体":325,"仪表盘":1}</script>
+<script type="application/json" class="pd-epn">{"Jordan Tigani":1,"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"Snowflake":13,"open core":1,"数据仓库":3,"智能体":327,"仪表盘":1}</script>
 
 <script>
 (function(){

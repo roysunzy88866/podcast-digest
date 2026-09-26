@@ -133,9 +133,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|智能体为什么总是新员工？给它们造一个上下文引擎]]<span class="pd-rz">同公司:Claude Code · 同概念:上下文引擎 (context engine)、智能体 (agent)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
-- [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|个人 AGI：用 Markdown 组建你自己的劳动力]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 </div>

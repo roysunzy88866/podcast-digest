@@ -176,8 +176,8 @@ Plaid 的 go-to-market([[go-to-market|进入市场]])组织走了四步。早期
 **换个口味**
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Replit · 同概念:进入市场 (go-to-market)</span>
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同公司:OpenAI · 同概念:进入市场 (go-to-market)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Plaid、OpenAI</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:进入市场 (go-to-market)</span>
 
 </div>
 </div>

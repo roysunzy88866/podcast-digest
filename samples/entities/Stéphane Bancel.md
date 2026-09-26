@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jorge Conde":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":20}</script>
+<script type="application/json" class="pd-epn">{"Jorge Conde":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":21}</script>
 
 <script>
 (function(){

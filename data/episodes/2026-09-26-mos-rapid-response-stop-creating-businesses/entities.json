@@ -1,0 +1,636 @@
+{
+  "episode_id": "2026-09-26-mos-rapid-response-stop-creating-businesses",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-26",
+  "tags": [
+    "创业与收购",
+    "小企业",
+    "商业系统",
+    "AI 应用",
+    "个人品牌"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "host",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            66.952,
+            70.896
+          ],
+          "quote": "I'm Bob Safian, and this is Rapid Response.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            75.482,
+            77.465
+          ],
+          "quote": "Hey, listeners, Bob Safian here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            220.178,
+            221.178
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2092.041,
+            2093.963
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2145.532,
+            2146.633
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codie-sanchez",
+      "type": "person",
+      "role": "guest",
+      "name": "Codie Sanchez",
+      "file": "Codie Sanchez",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "eli-wallen",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eli Wallen",
+      "file": "Eli Wallen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            77.625,
+            83.975
+          ],
+          "quote": "Before we get into today's episode, I want to introduce you to Eli Wallen, founder and CEO of Engine.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "contrarian-thinking",
+      "type": "company",
+      "role": "company",
+      "name": "Contrarian Thinking",
+      "file": "Contrarian Thinking",
+      "primary": true,
+      "how_described": "本集介绍它是 Cody Sanchez 创办并任 CEO 的金融与媒体公司，已与约 15,000 名小企业主打过交道，使命是让普通人学会收购并经营小企业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            28.722,
+            34.185
+          ],
+          "quote": "That's Cody Sanchez, founder and CEO of finance and media company Contrarian Thinking.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1222.881,
+            1229.647
+          ],
+          "quote": "Before the break, Cody Sanchez of Contrarian Thinking talked about why owning your own business should be everyone's goal.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "bizscout",
+      "type": "company",
+      "role": "company",
+      "name": "BizScout",
+      "file": "BizScout",
+      "primary": true,
+      "how_described": "本集说它是 Cody 今年早些时候推出的平台，帮助人们买下现有小企业；其 Scout Sites 功能像房产界的 Zestimate，用数以万计的企业数据给目标生意打分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1246.613,
+            1256.06
+          ],
+          "quote": "You launched a business earlier this year, BizScout, to help people buy existing small businesses rather than creating ones from scratch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1262.665,
+            1275.455
+          ],
+          "quote": "You can go to BizScout and you can go to our calculators page and they'll give you a valuation analysis and talk to one of our representatives and they'll tell you, yeah, your business is like totally sellable or here's how you should prep to sell it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1293.832,
+            1296.514
+          ],
+          "quote": "On BizScout now, we have something called Scout Sites.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sba",
+      "type": "company",
+      "role": "company",
+      "name": "SBA",
+      "file": "SBA",
+      "primary": true,
+      "how_described": "本集以 SBA（美国小企业管理局）贷款审批的收购为例：通过 SBA 批准的小企业贷款，10 年期失败率低于 13%，远低于创业的 90%，以此论证『买比创划算』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1385.456,
+            1392.88
+          ],
+          "quote": "Obviously you have to take a loan out typically or do seller financing, but the SBA's failure rate right now is like less than 13%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1393.94,
+            1397.162
+          ],
+          "quote": "So you go get a loan on a small business, it gets SBA approved.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "buying-a-business",
+      "type": "concept",
+      "role": "concept",
+      "name": "收购企业 (buying a business)",
+      "file": "收购企业",
+      "primary": true,
+      "how_described": "本集核心主张：与其创业，不如买下一门现成的盈利小企业——数据上收购失败率远低于创业，且更容易预判成败；她上一本书就教人怎么买，这本书教怎么经营。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1406.65,
+            1412.058
+          ],
+          "quote": "And that's why I talk to so many people about buying a business, even though people don't always like that I talk about that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1428.364,
+            1437.553
+          ],
+          "quote": "And so if somebody has gone through something incredibly traumatizing like buying a business and failing at it, all they see are other people that will fail too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2071.372,
+            2082.055
+          ],
+          "quote": "As for buying a business, starting a business, Cody's underlying message is to craft your ownership, your career based on your own proclivities and goals.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统化经营 (systems)",
+      "file": "系统化经营",
+      "primary": true,
+      "how_described": "本集说大多数小企业不盈利不是不够努力，而是『不依靠系统运营』；凭感觉即兴做决定（cowboying）是最大陷阱，生意的每个方面——定价、销售、雇人、推广——都要系统化并每 90 天复盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            101.531,
+            112.697
+          ],
+          "quote": "The larger corporations, the bigger businesses, they really have not had a lot of opportunity to adopt AI yet in a meaningful way, kind of primarily because of the legacy systems that are still trying to catch up.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 124,
+          "t": [
+            612.942,
+            616.645
+          ],
+          "quote": "What we've seen is that most business owners, they don't run on systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cowboying",
+      "type": "concept",
+      "role": "concept",
+      "name": "凭感觉经营（cowboying） (cowboying)",
+      "file": "凭感觉经营（cowboying）",
+      "primary": true,
+      "how_described": "Cody 在本集称之为商业中的关键陷阱：企业主凭当下感觉随性做决定、即兴发挥，她甚至因两名年薪几十万美元的高管不肯用系统而将其辞退。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            56.782,
+            65.21
+          ],
+          "quote": "And her advice translates even if you do work for someone else, decrying what she calls cowboying in business as a key pitfall.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            629.175,
+            632.959
+          ],
+          "quote": "They wanted to cowboy it because cowboying it as a business owner feels good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "12-profit-levers",
+      "type": "concept",
+      "role": "concept",
+      "name": "12 个利润杠杆 (12 profit levers)",
+      "file": "12 个利润杠杆",
+      "primary": true,
+      "how_described": "本集介绍这是她书里给出的一套经营系统，涵盖从定价、销售对象、雇人、产品到推销、推广的每个方面，源自私募股权领域用了多年的理论，以前小企业主接触不到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            647.227,
+            653.251
+          ],
+          "quote": "And that's why private equity companies eat a lot of normal businesses lunch, what we call the 12 profit levers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "p-l-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "损益审查 (P&L review)",
+      "file": "损益审查",
+      "primary": true,
+      "how_described": "本集把它说成 AI 给不了、真正有效的经营诊断方法：找行业内干了 10 年的企业主，对着损益表对比行业数据（如营销支出占比 2% 对行业平均 15%），找到『钱在的地方』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            924.764,
+            932.687
+          ],
+          "quote": "But if you talk to a business owner who's been doing this for 10 years in your industry, and you have the data set on everybody else, you can just say, well, we do something called a P&L review.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集对 AI 当经营顾问泼冷水：多数建议太泛化、太笼统，倾向说你爱听的话，还会编造数据且从不说『我不知道』；AI 是加速器，不会把普通人变成超级英雄，更好的打法是和街边小生意竞争再加一点 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            91.026,
+            96.109
+          ],
+          "quote": "How is AI impacting how people book, manage, and finance travel today?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            101.531,
+            112.697
+          ],
+          "quote": "The larger corporations, the bigger businesses, they really have not had a lot of opportunity to adopt AI yet in a meaningful way, kind of primarily because of the legacy systems that are still trying to catch up.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 22,
+          "t": [
+            133.554,
+            141.476
+          ],
+          "quote": "As you're building engine and the engine experience, do you assume your customers will be AI agents?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            141.616,
+            146.037
+          ],
+          "quote": "Like is a service for AI agents different than one for humans?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            178.517,
+            194.308
+          ],
+          "quote": "And kind of the underlying network of suppliers and content and rates and all of these things that put us in a very strong position today, which is, you know, a modern infrastructure platform that AI can sit on top of travel management, travel policies, approvals.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 190,
+          "t": [
+            841.257,
+            852.002
+          ],
+          "quote": "And do you find in your data that like our small business owners, like, are they going to AI bots and asking them advice about what should I do or where the next market is?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            946.672,
+            952.094
+          ],
+          "quote": "But AI isn't going to get there because you won't even know the answers to ask it or the questions to ask it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1070.466,
+            1074.23
+          ],
+          "quote": "And are hands-on trades really worth considering in an AI world?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1179.226,
+            1182.447
+          ],
+          "quote": "Humans will never be more intelligent than AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1184.469,
+            1187.53
+          ],
+          "quote": "Those are great at AI and those that went out of business because they weren't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1192.937,
+            1199.82
+          ],
+          "quote": "I'm Rana Elkayubi, and on my podcast, Pioneers of AI, we answer that question and so many more.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1200.56,
+            1206.862
+          ],
+          "quote": "As an AI scientist, entrepreneur, and investor, I know what it takes to build AI that works for everyone.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1207.642,
+            1215.685
+          ],
+          "quote": "Every week, I sit down with the pioneers shaping our future, and we take you behind the scenes of the AI that's transforming our lives.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1217.266,
+            1219.827
+          ],
+          "quote": "Find Pioneers of AI wherever you tune in.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1230.207,
+            1242.017
+          ],
+          "quote": "Now she talks about the advantages of buying an existing business over starting your own, the trap of thinking AI can make a business better, and which fields offer the best opportunity right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1569.209,
+            1576.675
+          ],
+          "quote": "You know, I asked you about AI a little bit earlier, and I'm curious how new tech affects new business owners.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1576.695,
+            1585.882
+          ],
+          "quote": "I mean, we've seen sort of Sam Altman saying he expects like a solo unicorn to emerge, you know, one person building a billion-dollar enterprise using AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1605.794,
+            1610.657
+          ],
+          "quote": "Those people probably would have built really big businesses without AI, too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1632.108,
+            1640.276
+          ],
+          "quote": "I think the better play is let's go compete with the handyman down the street who's 65 and then I can add just a little bit of AI on top of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1739.187,
+            1740.588
+          ],
+          "quote": "They're like, well, what am I doing with AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1748.917,
+            1756.185
+          ],
+          "quote": "And the guy is like, well, you know, I'm working on this AI integration and it's going here and it's been pretty incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1768.302,
+            1772.567
+          ],
+          "quote": "There is, I kid you not, an AI special jingle the guy made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1883.436,
+            1889.282
+          ],
+          "quote": "We've seen growing media coverage around hands-on jobs that can't be displaced by AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "personal-brand",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人品牌 (personal brand)",
+      "file": "个人品牌",
+      "primary": true,
+      "how_described": "本集观点出人意料：大多数小企业完全不该做个人品牌，靠它赚不到钱——『你家附近做洒水系统的人赚的大概是 YouTuber 们的 5 倍』，而且永远保持热度太难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 412,
+          "t": [
+            1814.015,
+            1820.603
+          ],
+          "quote": "Is building a personal brand now sort of an economic necessity for everyone, for every business?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1821.129,
+            1825.234
+          ],
+          "quote": "No, I do not think most small businesses should build a personal brand at all.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "profit-sharing",
+      "type": "concept",
+      "role": "concept",
+      "name": "员工持股 (profit sharing)",
+      "file": "员工持股",
+      "primary": true,
+      "how_described": "本集主张不创业也可以『不被拥有』：员工可以拿股份、做收入分成、做利润分成，理解企业怎么赚钱就能谈下自己应得的那一份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            323.28,
+            324.621
+          ],
+          "quote": "You can do profit sharing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "owner-score",
+      "type": "concept",
+      "role": "concept",
+      "name": "所有者得分 (owner score)",
+      "file": "所有者得分",
+      "primary": false,
+      "how_described": "本集介绍这是她系统三要素之一：先搞清楚你是哪种类型的所有者——比如艺术家/创始人型的定价比『成交者』型低 30% 到 40%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            729.006,
+            730.889
+          ],
+          "quote": "One, we have something called the owner score.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

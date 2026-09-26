@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>369</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>372</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,10 +31,11 @@ unlisted: true
 - **[[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]]**(13:30起):本集说 Autodesk 很早投入 AI,把它当作处于设计与制造之间的「项目大脑」,连接并自动化双方决策;并主张用 AI 交付精确性、速度和总拥有成本将定义未来的纵向软件。
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(29:16起):本集反复谈 AI:模型已比周围大多数人聪明,但企业只把它当聊天机器人和写代码工具,真正瓶颈是流程再造,人类至少需要十年才能吸收和扩散 AI。
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(07:45起):本集说 AI 让小企业更快获得技术红利（雇人更多、更有韧性），把 Gusto 开发速度翻倍，并让『煮沸海洋』式的多产品并行成为可能
+- **[[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]]**(01:31起):本集对 AI 当经营顾问泼冷水：多数建议太泛化、太笼统，倾向说你爱听的话，还会编造数据且从不说『我不知道』；AI 是加速器，不会把普通人变成超级英雄，更好的打法是和街边小生意竞争再加一点 AI。
 
 ## ① 提到它的金句
 
-*369 条*
+*372 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -486,6 +487,8 @@ unlisted: true
 
 ![[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin#^q2]]
 
+![[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa#^q13]]
+
 ![[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr#^q4]]
 
 ![[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio#^q1]]
@@ -509,6 +512,8 @@ unlisted: true
 ![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q8]]
 
 ![[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#^q8]]
+
+![[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m#^q6]]
 
 ![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q10]]
 
@@ -774,9 +779,11 @@ unlisted: true
 
 ![[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i#^q5]]
 
+![[2026-09-26-mos-rapid-response-stop-creating-businesses#^q18]]
+
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -798,6 +805,7 @@ unlisted: true
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为概念
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为概念
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
+- [[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]] — 作为概念
 
 ## ③ 关联
 
@@ -805,7 +813,7 @@ unlisted: true
 
 [[Claude]] · [[Lenny]] · [[Stripe]] · [[a16z]] · [[智能体]] · [[Databricks]] · [[Google]] · [[MCP]] · [[LLM]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Claude":65,"Lenny":67,"Stripe":36,"a16z":15,"智能体":325,"Databricks":15,"Google":47,"MCP":58,"LLM":42,"Anthropic":140}</script>
+<script type="application/json" class="pd-epn">{"Claude":66,"Lenny":67,"Stripe":36,"a16z":15,"智能体":327,"Databricks":15,"Google":47,"MCP":59,"LLM":42,"Anthropic":142}</script>
 
 <script>
 (function(){

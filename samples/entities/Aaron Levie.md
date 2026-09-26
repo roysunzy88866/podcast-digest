@@ -92,7 +92,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":54,"Sofia Puccini":4,"智能体":325,"Theo Jaffe":7,"应用层":3,"Anthropic":140,"LLM 套壳":1,"OpenAI":131}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":54,"Sofia Puccini":4,"智能体":327,"Theo Jaffe":7,"应用层":3,"Anthropic":142,"LLM 套壳":1,"OpenAI":132}</script>
 
 <script>
 (function(){

@@ -128,8 +128,8 @@ Brandon 现场发了三个二维码，给出可以直接拿走用的工具：
 **顺着「智能体」挖下去**
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、上下文工程 (context engineering)、智能体 (agent)</span>
+- [[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|智能体为什么总是新员工？给它们造一个上下文引擎]]<span class="pd-rz">同公司:Unblocked · 同概念:上下文引擎 (context engine)、智能体 (agent)、MCP</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG、上下文工程 (context engineering)、智能体 (agent)</span>
-- [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力]]<span class="pd-rz">同概念:RAG、上下文工程 (context engineering)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

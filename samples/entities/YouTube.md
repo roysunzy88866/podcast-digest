@@ -31,7 +31,7 @@ unlisted: true
 
 [[LLM]] · [[Lenny]] · [[智能体]] · [[AEO]] · [[SEO]] · [[citation]] · [[ChatGPT]] · [[Google]] · [[Reddit]] · [[Ethan Smith]]
 
-<script type="application/json" class="pd-epn">{"LLM":42,"Lenny":67,"智能体":325,"AEO":5,"SEO":7,"citation":2,"ChatGPT":77,"Google":47,"Reddit":7,"Ethan Smith":1}</script>
+<script type="application/json" class="pd-epn">{"LLM":42,"Lenny":67,"智能体":327,"AEO":5,"SEO":7,"citation":2,"ChatGPT":77,"Google":47,"Reddit":7,"Ethan Smith":1}</script>
 
 <script>
 (function(){

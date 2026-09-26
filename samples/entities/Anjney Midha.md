@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]] [[Goggin]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Atallah":1,"OpenRouter":11,"Stripe":36,"Anthropic":140,"Discord":6,"OpenAI":131,"MidJourney":3,"OpenSea":1,"Mistral":7,"开放权重":7}</script>
+<script type="application/json" class="pd-epn">{"Alex Atallah":1,"OpenRouter":11,"Stripe":36,"Anthropic":142,"Discord":6,"OpenAI":132,"MidJourney":3,"OpenSea":1,"Mistral":7,"开放权重":7}</script>
 
 <script>
 (function(){

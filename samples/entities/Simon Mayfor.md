@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":325,"上下文工程":15,"规范":2,"计划":1,"代码审查":14,"垃圾话":5,"Human Layer":1,"技能":20}</script>
+<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":327,"上下文工程":15,"规范":2,"计划":1,"代码审查":15,"垃圾话":5,"Human Layer":1,"技能":20}</script>
 
 <script>
 (function(){

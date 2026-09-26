@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paul Bakaus]] · [[harness]] · [[智能体]] · [[一次性设计]] · [[AI 垃圾内容]] · [[品味]] · [[形容词引导设计]]
 
-<script type="application/json" class="pd-epn">{"Paul Bakaus":1,"harness":44,"智能体":325,"一次性设计":1,"AI 垃圾内容":2,"品味":11,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Paul Bakaus":1,"harness":44,"智能体":327,"一次性设计":1,"AI 垃圾内容":2,"品味":11,"形容词引导设计":1}</script>
 
 <script>
 (function(){

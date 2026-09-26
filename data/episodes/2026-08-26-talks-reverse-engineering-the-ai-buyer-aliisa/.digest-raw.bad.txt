@@ -1,0 +1,113 @@
+===标题===
+OpenAI 企业销售负责人:先造机器,再造团队
+===导语===
+前 OpenAI 销售负责人 Elisa 复盘 ChatGPT 企业版教训:先用自动化搭销售机器,再招人补瓶颈,并分享定价、试点与安全环节的具体打法。
+===正文===
+说话的人叫 Elisa(A-L-I-I-S-A,她特别强调了拼写),四年多前加入当时收入只有几百万美元的 OpenAI,后来把企业侧收入做到几十亿美元、发布多个产品,全程站在「把 AI 这门有点外星般的科技卖进组织」的最前沿。她这一集讲的核心主张非常反直觉:**搭建 go-to-market(把产品推向市场的销售体系)时,别先招销售团队,先把机器造出来。**
+
+## 先造机器,再造团队
+
+大多数公司的做法是:招一堆销售、销售运营、销售工程师,搭好销售组织,再找瓶颈、加自动化。Elisa 给创始人的建议是反着来——**先想清楚你能自动化什么,找出瓶颈和坏掉的地方,再在人身上花钱打通那些瓶颈** [01:15]。
+
+OpenAI 自己就栽过跟头。2022 年底发布 ChatGPT 时没有任何企业功能,她被客户的 SSO、NDA、发票需求轰炸,恳求了九个月才拿到做企业版的批准。那九个月里喊得最响的是大企业,于是她决定「先造保时捷」:加上所有花哨功能、定价很高、直奔高端市场。做得还行,但一个季度后他们补推了自助服务版本,结果**自助版完全蚕食了企业业务**——事实证明大多数人根本不想跟销售员说话,自助业务的增长远高于重型企业业务 [03:22]。销售代表还得跟自助服务抢客户。她的结论:本该先发自助版、听客户反馈、再造更贵的企业版、再招人卖。「我们全都做反了。」此后 OpenAI 每个产品都坚持自助优先,搞清哪里需要人再补人 [04:03]。
+
+## 每天一万条线索:自动化先行
+
+企业版还没影时,她和四个销售代表每天面对一万条入站线索。回头看,她有几条具体教训:
+
+- **注册表单多收信息**,比如电话号码(选填也行)——等自动化建好时,她发现自己没有足够信息去跟进那些人。「说不定什么时候你会想给他们打电话,或者让 AI 给他们打」[04:54]。
+- **尽量回复每一个人**,哪怕只是自动化邮件说「我们听到了,你在等待名单上,告诉我们你想要什么」。九个月后她出去卖企业版,几乎每家公司都说:你们从没回复过我,于是我买了 Microsoft Copilot [05:25]。
+- **出站销售**:用 Clay(自动整理客户情报、写外呼信息的工具)、Nooks 这类工具把调研、排序、拨号全自动化,让销售代表只专注合格线索和高价值对话 [05:36]。
+
+## 让买家轻松,别给作业
+
+她最大的建议:**让你的买家轻松一点,不要给他们布置作业。** 永远不要说「去做这五件事然后回来找我」——你要替买家做尽可能多的工作,必要时办黑客马拉松、亲自到客户办公室或开 Zoom 陪做。把买家打发走,你就失去了对销售周期的控制,一切都会变慢 [06:25]。
+
+配套几条:定价选项越少越好;文书和审批流程要快;以及——**不惜一切代价避免试点**。创始人最常见的抱怨就是「困在试点地狱」:一堆试点没有一个转化,转化了又得从头再跑一遍完整销售流程。试点不该是默认,只留给最有价值、付费最高的机会 [07:16]。
+
+怎么绕开客户要的 POC(概念验证)?记住:一旦交出产品访问权限,你在交易里就交出了筹码。替代方案有——介绍他们认识另一个客户;用他们的一部分数据做评测;用他们的定制数据在 Zoom 上演示而不是给权限;或者给一个**退出条款**:签约后 90 天内不满足需求可退出,把验证的责任转移到客户身上,因为倒计时在逼他们 [08:02]。还有一个招数:「标准合同是三年,但可以跟你做一年期 POC。」另一个杀手是安全审查——交易常常死在这里。用信任门户(客户自助签 NDA、查文档的页面)加 AI 自动填安全问卷,客户说必须聊两小时时,顶回去,让他们先去门户里找,找不到再来找你 [08:58]。
+
+## 定价:60 美元一席位学到的
+
+ChatGPT Enterprise 最初定价**每用户每月 60 美元**——市场上没有先例,他们基本按服务成本定价。随后 Copilot、Gemini、Anthropic 都以低得多的价格进场,他们才意识到定高了。调整方式:改成「许可费 + 基于用量的计费」。门槛一降,签许可的公司大增,用量也随时间上涨——60 美元时代,公司只肯给一小撮人买;门槛一低,「像野火一样蔓延,所有人都开始用」[10:20]。
+
+至于按用量计费遭到的「成本失控」质疑:给客户一个仪表盘,可以给每月支出设上限、给某些员工设上限。大多数公司不会真用,但他们喜欢知道上限在那里 [10:43]。
+
+## 什么时候招人、招谁、怎么付钱
+
+招人的时机:当你的自助流程走到头,大量客户说「我就是需要跟人谈谈」「我需要看着对方的眼睛建立信任」——通常发生在自然向上游市场移动时,大公司想跟人握手 [11:19]。
+
+一条警告:**能抵制多久就抵制多久,别急着进上游市场**。大客户一开口就是「我能花一百万、一千万美元」,你会很想把整个业务围绕他调整——而他会吃掉你大量的法务、安全、产品、工程、销售资源。所以对最初几个大企业伙伴要非常挑剔 [11:56]。
+
+招谁?招 **AI 原生**的销售——真正懂 AI、生活在其中、因为真心认同所以能真实地推销它的人。她还提了个说法:「牛排晚餐的复仇」:自动化外呼、自动化演示、自动化安全清单越多,公司越渴望与人面对面——会议展位、晚餐效果很好,办一场晚餐也不贵,而此刻你确实还需要人来做这些 [12:29]。付酬方面,OpenAI 出了名地至今没发提成方案,靠股权包撑着走得远,但她不认为别家该效仿。最初两三个销售可以不付浮动薪酬——那批人是冲着建设公司和股权来的;再往后招「见钱眼开」的企业级销售,就必须有薪酬计划了。原则:**越简单越好,但要给超额完成者留上升空间** [14:00]。
+
+还有一个底层提醒:你卖的不是工具,不是产品,**你卖的是这个产品能为你的买家带来什么**。人仍然擅长这种「价值销售」,AI 在这一点上还有路要走——所以在完全攻克之前,牛排晚餐还得吃 [14:36]。
+
+## Q&A 要点
+
+- **自助使用 ≠ POC**:PLG(产品驱动增长,用户自助用起来)完全可以,可以用消费量、时间、功能门槛做限制,形成自然漏斗;她反对的是那种要销售工程师从旁监督、签约固定时段、团队投入资源的服务型 POC [15:20]。
+- **前置部署工程师**(派驻客户现场帮集成的工程师):理想世界不需要他们;现在很贵又难招——据说约 55,000 个职位空缺,会做的人只有约 5,000。好处是产品变得极粘,客户感觉工具为自己量身定制,不会轻易离开 [16:26]。
+- **前 10 个客户**:不要自动化打法,他们是设计合作伙伴,要手把手带;要挑剔——让他们当设计伙伴是给对方的一种带排他性和稀缺性的馈赠。一个策略:找一家 logo 漂亮的公司,做他们**非核心**的内部产品,他们才愿意担风险、绕过安全流程;然后你把 logo 挂上网,既敲开别家大门,也可能随时间换来同一家更大的合同 [18:13]。理想情况这些关系本来就有:合作过的公司、投资人引荐、朋友所在的公司。
+
+## 本集带走
+
+- **顺序别反**:自助服务优先 → 自动化管线(Clay/Nooks 做出站、信任门户做安全)→ 找出自动化过不去的瓶颈 → 在瓶颈处加人。
+- **试点不是默认**:用客户推荐、Zoom 演示、90 天退出条款、一年期合同等替代方案绕开 POC;把验证责任和时间压力转移到客户一侧。
+- **别让买家做作业**:替他做掉一切,打发走买家等于失控销售周期;回复每一条线索,哪怕只是自动化邮件。
+- **低价门槛 + 用量计费**:高席位价会把客户限制成「只给一小撮人买」;给成本焦虑者一个支出上限的仪表盘即可。
+- **对第一个大客户极度挑剔**:他会吃掉你整块资源;前三个设计伙伴选非核心系统、本来就有关系的公司。
+- **销售薪酬**:前两三个销售可以只靠股权,之后必须有简单但有超额上限空间的薪酬计划;招 AI 原生的销售。
+
+===金句===
+01:15 | Unknown
+My current advice to founders is do the opposite. ‖ 我现在给创始人的建议是反着做。
+
+01:46 | Unknown
+Build the machine first before you build the team, figure out what you can automate, figure out where the bottlenecks are and what's broken, and then add humans on top of that to get through those bottlenecks. ‖ 先构建机器,再构建团队,搞清楚你能自动化什么,搞清楚瓶颈在哪里、什么东西坏了,然后在此基础上加上人力来打通那些瓶颈。
+
+03:22 | Unknown
+It turns out most people just didn't want to talk to a salesperson, and our mid-market SMB sort of self-serve business was much higher growth than our heavy enterprise business. ‖ 事实证明,大多数人只是不想和销售员交谈,而我们的中型市场 SMB 这类自助服务业务的增长远远高于我们繁重的企业业务。
+
+05:25 | Unknown
+When we finally did launch our enterprise product nine months later, almost every company I went out and talked to said, well, you never got back to me. And I went out and I brought Microsoft Copilot. ‖ 等到九个月后我们终于发布企业版产品时,几乎每一个我去接触的公司都说:可你们从来没回复过我。然后我就出去买了 Microsoft Copilot。
+
+05:52 | Unknown
+Just make it easy on your buyers. Don't give them homework. ‖ 让你的买家轻松一点。不要给他们布置作业。
+
+06:25 | Unknown
+Don't send your buyer away to do something and wait for them to come back because you lose total control of the sales cycle and it makes everything take longer. † ‖ 不要把你的买家打发走去做什么事然后等他们回来,因为这样你会完全失去对销售周期的控制,而且会让一切都变慢。
+
+06:48 | Unknown
+Avoid pilots at all cost. ‖ 不惜一切代价避免试点。
+
+07:39 | Unknown
+As soon as you give someone access to your product, you're giving away a lot of power and leverage in the deal cycle. ‖ 只要记住,一旦你把产品的访问权限交给别人,你在整个交易周期中就交出了大量的权力和筹码。
+
+08:02 | Unknown
+Sign a contract, you have 90 days to opt out if it doesn't meet your needs, and that shifts the onus of trying out the product and validating it. ‖ 签一份合同,如果产品不满足需求,你们有 90 天时间可以选择退出,这就把试用和验证产品的责任转移了。
+
+09:27 | Unknown
+ChatGPT Enterprise was $60 per user per month. ‖ ChatGPT Enterprise 是每用户每月 60 美元。
+
+10:20 | Unknown
+But once we lowered the threshold, it spread like wildfire. Everyone started using it. ‖ 但一旦我们降低了门槛,它就像野火一样蔓延开来。所有人都开始用了。
+
+11:35 | Unknown
+Once you get a big customer, they'll come and they'll say, I can spend a million dollars, 10 million dollars with you, and it's very tempting to want to orient your whole business around that. ‖ 一旦你拿到一个大客户,他们会来说,我可以花一百万美元、一千万美元在你身上,你会很想把整个业务都围绕他们来调整。
+
+12:08 | Unknown
+You hire someone who is AI native, who really gets AI, who lives it, who can authentically sell it because they're really bought into it. ‖ 你雇一个 AI 原生的人,一个真正懂 AI 的人,一个生活在其中的人,一个能够真实地推销它的人,因为他们真正认同它。
+
+12:27 | Unknown
+I'm calling this the revenge of the steak dinner. ‖ 我把这称为“牛排晚餐的复仇”。
+
+14:19 | Unknown
+You're not selling your tool. You're not selling your product. You're selling what that tool or that product does to your champion or your buyer. ‖ 你卖的不是你的工具。你卖的不是你的产品。你卖的是那个工具或产品能对你的支持者或你的买方带来什么。
+
+16:32 | Unknown
+I think there's something like 55,000 job wrecks or forward-deployed engineers right now and about 5,000 people who know how to do that job. ‖ 我觉得现在大概有 55,000 个前置部署工程师的职位空缺,而知道怎么做这份工作的人大概只有 5,000 个。
+
+18:09 | Unknown
+Go to a company that has a great logo but work on their internal product or some sort of product that's not their main production so that they are willing to take a little bit more risks with you and bypass some security processes. ‖ 去找一家拥有漂亮 logo 的公司,但做的是他们的内部产品或某种不是他们主生产线的非核心产品,这样他们才愿意和你一起承担多一点风险,绕过一些安全流程。
+
+===END===

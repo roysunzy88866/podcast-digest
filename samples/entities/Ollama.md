@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[微调]] · [[开源模型]] · [[Lenny]] · [[Jeffrey Morgan]] · [[Ezinne Udezue]] · [[NVIDIA]] · [[Oji]] · [[Docker]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"推理":54,"微调":21,"开源模型":20,"Lenny":67,"Jeffrey Morgan":1,"Ezinne Udezue":1,"NVIDIA":45,"Oji":1,"Docker":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"推理":54,"微调":21,"开源模型":20,"Lenny":67,"Jeffrey Morgan":1,"Ezinne Udezue":1,"NVIDIA":45,"Oji":1,"Docker":4}</script>
 
 <script>
 (function(){

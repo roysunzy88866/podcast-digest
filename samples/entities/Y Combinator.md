@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[联合创始人]] · [[评估]] · [[GoCardless]] · [[Blake Scholl]] · [[Ali Haghani]] · [[Christopher Burns]] · [[Max Junestrand]] · [[Tomer London]] · [[Brex]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"联合创始人":4,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Christopher Burns":1,"Max Junestrand":1,"Tomer London":1,"Brex":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"联合创始人":4,"评估":3,"GoCardless":1,"Blake Scholl":2,"Ali Haghani":1,"Christopher Burns":1,"Max Junestrand":1,"Tomer London":1,"Brex":5}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":58,"智能体":325,"RL 环境":6,"vibe coding":37,"code mode":2,"开源 AI 框架":1,"推理":54,"PLG":11}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":58,"智能体":327,"RL 环境":6,"vibe coding":37,"code mode":2,"开源 AI 框架":1,"推理":54,"PLG":12}</script>
 
 <script>
 (function(){

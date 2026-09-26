@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>POC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="POC">PO</div><div class="pi"><h1 class="pt">POC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="POC">PO</div><div class="pi"><h1 class="pt">POC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(19:06起):本集强调 POC 的唯一目标是跟客户共创商业案例，不是技术功能验证；应该收费以筛掉好奇者，但报价必须与后续商业谈判解耦
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(04:56起):在本集出现两次语境：一是 Cursor 的内部试用 POC；二是高级工程师晋升期望的变化——现在鼓励先用 AI 快速做多个 POC，带着实际运行结果回来做决策，而非花几周写 RFC。
 - **[[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]]**(01:51起):企业概念验证：定客户用例、派两工程师干四周、指标达标人人兴奋——但本集警告最大的坑是拿着高准确率 POC 往上 bolt 安全、审计、evals
+- **[[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]]**(07:29起):本集区分了 PLG 式自助使用(可以)与需销售工程师全程监督的人工服务型 POC(要绕开)；可用一年期 POC 合同等谈判方式替代。
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(60:05起):本集说 Databricks 早期的 POC 和试点基本全免费——「我们不是想靠试点赚钱，是要证明价值」，但要设成功标准、30 天时间盒、必须有高管背书。
 
 ## ① 提到它的金句
@@ -28,20 +29,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为概念
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 - [[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|《企业还没为 AI 智能体做好准备：四条架构原则补上缺口》]] — 作为概念
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]] — 作为概念
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[评估]] · [[上下文]] · [[Madhavan Ramanujam]] · [[Simon Maple]] · [[Christopher Lovejoy]] · [[Ron Gabrisko]] · [[Lenny]] · [[Guy for Germany]]
+[[智能体]] · [[Cursor]] · [[评估]] · [[Anthropic]] · [[go-to-market]] · [[上下文]] · [[PLG]] · [[Madhavan Ramanujam]] · [[Simon Maple]] · [[Christopher Lovejoy]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Cursor":68,"评估":3,"上下文":20,"Madhavan Ramanujam":1,"Simon Maple":9,"Christopher Lovejoy":1,"Ron Gabrisko":1,"Lenny":67,"Guy for Germany":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Cursor":68,"评估":3,"Anthropic":142,"go-to-market":12,"上下文":20,"PLG":12,"Madhavan Ramanujam":1,"Simon Maple":9,"Christopher Lovejoy":1}</script>
 
 <script>
 (function(){

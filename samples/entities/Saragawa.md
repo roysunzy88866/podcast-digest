@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":23,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":44,"轨迹":2,"智能体":325}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":23,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":44,"轨迹":2,"智能体":327}</script>
 
 <script>
 (function(){

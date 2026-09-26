@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Dr. Becky Kennedy]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Webflow":2,"Slack":28,"Box":4,"智能体":325,"护栏":58,"产品市场契合":22}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Webflow":2,"Slack":28,"Box":4,"智能体":327,"护栏":58,"产品市场契合":22}</script>
 
 <script>
 (function(){

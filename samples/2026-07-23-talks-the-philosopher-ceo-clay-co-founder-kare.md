@@ -189,9 +189,9 @@ Kareem 对自己的内省很直白：童年父母大离婚、跨国辗转，让�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法]]<span class="pd-rz">同公司:Clay</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Clay</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:PLG</span>
-- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:Clay</span>
 
 </div>
 <div class="pd-ex">

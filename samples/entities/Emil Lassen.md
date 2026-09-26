@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":325,"红队测试":4,"幻觉":10,"越狱":2,"提示词注入":15,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":8,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":327,"红队测试":4,"幻觉":10,"越狱":2,"提示词注入":15,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

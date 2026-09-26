@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":1,"Anthropic":140,"William Grant":1,"Boston Dynamics":2,"智能体":325,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Nexus Black":1,"IFS":1,"Anthropic":142,"William Grant":1,"Boston Dynamics":2,"智能体":327,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

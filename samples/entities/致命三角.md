@@ -25,7 +25,7 @@ unlisted: true
 
 [[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[Discord]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":13,"Anthropic":140,"Discord":6,"Twitter":7,"智能体":325,"红队测试":4,"提示词注入":15}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":13,"Anthropic":142,"Discord":6,"Twitter":7,"智能体":327,"红队测试":4,"提示词注入":15}</script>
 
 <script>
 (function(){

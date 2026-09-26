@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,11 +42,13 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*4 条*
+*5 条*
 
 ![[2026-07-08-talks-everything-we-knew-about-software-has-ch#^q7]]
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q7]]
+
+![[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m#^q3]]
 
 ![[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin#^q1]]
 
@@ -91,7 +93,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[沙箱]] · [[Claude]] · [[评估]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Claude Code":73,"Lenny":67,"GitHub":23,"Anthropic":140,"沙箱":58,"Claude":65,"评估":3,"Cursor":68,"护栏":58}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Claude Code":75,"Lenny":67,"GitHub":23,"Anthropic":142,"沙箱":58,"Claude":66,"评估":3,"Cursor":68,"护栏":58}</script>
 
 <script>
 (function(){

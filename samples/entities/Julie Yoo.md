@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":15,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":20,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":15,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":21,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

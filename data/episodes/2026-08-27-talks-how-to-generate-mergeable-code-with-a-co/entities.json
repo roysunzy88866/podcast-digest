@@ -1,0 +1,453 @@
+{
+  "episode_id": "2026-08-27-talks-how-to-generate-mergeable-code-with-a-co",
+  "podcast": "精选演讲",
+  "date": "2026-08-27",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "上下文引擎",
+    "AI 编程",
+    "代码评审"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "peter-werry",
+      "type": "person",
+      "role": "guest",
+      "name": "Peter Werry",
+      "file": "Peter Werry",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "unblocked",
+      "type": "company",
+      "role": "company",
+      "name": "Unblocked",
+      "file": "Unblocked",
+      "primary": true,
+      "how_described": "本集主角公司:构建一个上下文引擎,为人类员工和智能体提供组织上下文;还有代码评审智能体、开源工具和上下文引擎模拟器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            544.217,
+            552.783
+          ],
+          "quote": "And Unblocked will sit and kind of listen for things that are things that can chime in on when it provides a high degree of, oh, sorry, we went to the wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            566.201,
+            568.363
+          ],
+          "quote": "So I can ask questions like this in Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            571.765,
+            577.79
+          ],
+          "quote": "Otherwise, I can just address Unblocked directly and ask the same question.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            586.172,
+            591.755
+          ],
+          "quote": "And so we can get quite a bit of interesting content there from Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            591.775,
+            592.535
+          ],
+          "quote": "Thank you, Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            612.013,
+            617.937
+          ],
+          "quote": "So what I did here is I went into Claude Code and I asked it without using Unblocked to...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            685.393,
+            692.495
+          ],
+          "quote": "If I pull up usage here, you can see that with unblocked, the total cost was sub-dollar to create the plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            699.937,
+            704.399
+          ],
+          "quote": "And then if I look at the usage without unblocked,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            833.932,
+            835.932
+          ],
+          "quote": "And he was debugging it with Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            837.012,
+            842.813
+          ],
+          "quote": "He got all the way to the bottom and realized roughly what the problem was and then asked Unblocked to fix it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            848.978,
+            852.382
+          ],
+          "quote": "So Unblocked can run as an agent in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            972.231,
+            977.115
+          ],
+          "quote": "So what you can see here is this sort of like the rough breakdown of our team structure at Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1021.913,
+            1044.325
+          ],
+          "quote": "We have, for those that want a taste of what a context engine can do but don't want to sign up for unblocked right away, you can use something that we call the context engine simulator which will basically build up a context behind the scenes on a per task basis and then use that context to drive the task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集用它做现场对比演示:带与不带 Unblocked 上下文生成优化计划,后者更快更便宜且抓住细微差别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            383.232,
+            388.577
+          ],
+          "quote": "So in this morning's keynote, Tariq from Claude Code mentioned unknown unknowns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            612.013,
+            617.937
+          ],
+          "quote": "So what I did here is I went into Claude Code and I asked it without using Unblocked to...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎 (context engine)",
+      "file": "上下文引擎",
+      "primary": true,
+      "how_described": "本集核心概念:为人类和智能体交付组织上下文(意图、团队约定、过往决策、Slack 讨论、架构理由等冰山之下的信息),让智能体干真活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.531,
+            14.612
+          ],
+          "quote": "What we do at UnBlock is we build a context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            21.336,
+            31.182
+          ],
+          "quote": "So at a high level, a context engine delivers organizational context to both your human workers and now increasingly your agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            33.003,
+            40.227
+          ],
+          "quote": "Before we go too deep on the mechanics of how our context engine works, I just want to talk briefly about the problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            419.236,
+            423.798
+          ],
+          "quote": "And that's why your agents need a context engine to get real work done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            732.698,
+            737.461
+          ],
+          "quote": "So the real value of a context engine is not like the upfront cost on these short tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1010.496,
+            1013.199
+          ],
+          "quote": "And that's exactly what we use within the context engine itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1021.913,
+            1044.325
+          ],
+          "quote": "We have, for those that want a taste of what a context engine can do but don't want to sign up for unblocked right away, you can use something that we call the context engine simulator which will basically build up a context behind the scenes on a per task basis and then use that context to drive the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1070.274,
+            1072.135
+          ],
+          "quote": "And that's exactly what a context engine can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体比作每次都第一次入职的新员工:每开始新任务知识就重置,必须重新发现代码库、测试和部署方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            122.431,
+            131.657
+          ],
+          "quote": "And so you can think of an agent like an expert software engineer who's a new employee onboarding for the first time every time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            269.499,
+            274.063
+          ],
+          "quote": "It still doesn't tell the agent where the information is that it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            354.334,
+            368.44
+          ],
+          "quote": "In practice, that, of course, doesn't work, not just because you've got way more organizational context than can fit into a context window, even one that's a million tokens in size, but it causes the agent to get distracted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            397.227,
+            400.889
+          ],
+          "quote": "And so this is what your agent can see at the top of the iceberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            759.92,
+            763.444
+          ],
+          "quote": "So we also have a code review agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            789.687,
+            793.629
+          ],
+          "quote": "But we thought that this would be really helpful to surface for the review agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            848.978,
+            852.382
+          ],
+          "quote": "So Unblocked can run as an agent in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            951.035,
+            957.82
+          ],
+          "quote": "And then from there, you can issue any kind of queries that you like and get all kinds of insights out of it through the agent chat.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说把整个代码库和架构文档塞进上下文窗口行不通:组织上下文远超百万 token 容量,还会让智能体分心、浪费 token 和时间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            341.008,
+            348.951
+          ],
+          "quote": "And so some people will then ask, well, what if we just take the entire code base and all of our architecture documents and just slam it into the context window?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            354.334,
+            368.44
+          ],
+          "quote": "In practice, that, of course, doesn't work, not just because you've got way more organizational context than can fit into a context window, even one that's a million tokens in size, but it causes the agent to get distracted.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审智能体 (code review agent)",
+      "file": "代码评审智能体",
+      "primary": true,
+      "how_described": "本集演示 Unblocked 的评审智能体:从 PR 数据生成最佳实践、用资历给重要评论加权,还能在云端运行并追溯 Slack 对话生成带完整上下文的修复 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            759.92,
+            763.444
+          ],
+          "quote": "So we also have a code review agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "satisfaction-of-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索满足感 (satisfaction of search)",
+      "file": "搜索满足感",
+      "primary": true,
+      "how_described": "本集借放射科术语说明智能体的毛病:找到一个看似正确的答案就停手,错过其他更重要的信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            274.703,
+            284.41
+          ],
+          "quote": "It can search for things in the wiki, but then what happens is it'll suffer from something that radiologists call satisfaction of search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集在 AI 成熟度曲线第四到五阶段提到:给智能体配 MCP 和 skills 教它们如何导航和构建上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            198.087,
+            205.573
+          ],
+          "quote": "Well, if you give MCP and skills to your agents to teach them how to navigate and build context,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "software factory",
+      "reason": "专名「software factory」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -158,6 +158,7 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码]]<span class="pd-rz">同概念:职业倦怠 (burnout)</span>
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>

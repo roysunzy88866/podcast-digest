@@ -1,0 +1,148 @@
+{
+  "title_zh": "智能体为什么总是新员工？给它们造一个上下文引擎",
+  "tldr": "Unblocked 演讲者讲解为什么智能体缺少组织上下文就干不了真活，并现场演示上下文引擎如何让 Claude Code 的计划更快、更便宜、更准。",
+  "digest_md": "把一个专家级工程师招进公司，但他每次接任务都是「第一次入职的新员工」——每次都要重新发现你的代码库、你们怎么做测试、怎么部署。这就是今天所有编程智能体的处境。这一场演讲的主角是 Unblocked 的一位演讲者（Unblocked 是一家构建「上下文引擎」的公司），他讲的正是这个问题的解法：给智能体接上一个上下文引擎，为人类员工和智能体提供组织上下文。\n\n## 智能体的真正瓶颈不是模型，是上下文\n\n多年以来，人类工程师自己就是「上下文层」：在各个数据源、讨论串和代码库之间翻找，靠应对事故和写文档慢慢积累起「部落知识」。智能体面对同样的挑战，但更糟——它们每开始一个新任务，知识就重置一次。\n\n演讲者给了一张「AI 成熟度曲线」：从早期 GPT 时代的自动补全（还记得 Copilot 吗），到 Cursor，再到试图解决上下文问题——有人建组织维基，有人给智能体配 MCP 和 skills 教它们怎么找信息。大多数人现在处于第四到第五阶段，已经意识到上下文是瓶颈。而终点是第八阶段的「软件工厂」：智能体要全面自动化，没有组织上下文根本无法运作，它们会迷失方向。\n\n核心问题一句话：**获取信息不等于理解**。挂一个维基给智能体，它还是不知道需要的信息在哪。而且它会患上放射科的「搜索满足感」——看 X 光找到一个可疑病灶就停手，错过其他更重要的指标。智能体也一样：找到某个看似正确的东西，就停了。它们也不会提炼理解：能找到信息，却不明白各部分怎么拼合、依赖之间如何互动、架构规划会怎样约束接下来的工作。\n\n那把整个代码库加架构文档全塞进上下文窗口行不行？实践中不行：组织上下文远超百万 token 的窗口容量，而且会让智能体分心——干活需要的是针对任务的专注流，东张西望只会浪费 token 和时间。冰山之下是智能体看不到的东西：真实意图、团队约定、过往决策、Slack 里讨论过的内容、架构背后的理由。这就是为什么智能体需要一个上下文引擎才能干真活。\n\n## 现场演示：同一个问题，有没有上下文差别有多大\n\n上下文引擎的第一层价值是服务人类——人类层并没有消失，最终问责止于人：你在 PR 上点合并之前，必须理解它在干什么。演示里问一个关于内部 SourceMark 引擎的问题，系统不仅能把架构讲清楚，连架构图都是根据代码现状现场推断生成的，还能给出未来架构提议。关键的是它「展示工作过程」——这首先是建立信任，其次如果答案不完全对，人可以去知识库里纠正。\n\n然后是重头戏：同一个任务，让 Claude Code 生成优化 SourceMark 计算器的计划——\n\n- **不带 Unblocked**：Claude Code 自己翻代码、推断算法，结论不错，但抓不住细微差别；耗时约两分钟，成本更高。\n- **带上 Unblocked**：它抓住了团队在 PR 里讨论过的未来改进可能、Slack 对话、Notion 和架构文档，计划直击要害；总成本不到一美元，约一分钟。\n\n而且这些来源会回传给 Claude,Claude 确切知道接下来该跳到哪里深挖。短任务上的差距还只是小头，真正的价值在**累积效应**：不带上下文时，智能体不仅要多花工作去发现东西，发现的还不是正确的东西——执行到深处才发现自己在错误的计划或假设上运行，然后返工、循环往复。「循环会累积，你必须全程让上下文保持高效」。\n\n## 组织上下文不只是数据，还是智能\n\nUnblocked 还有一个代码评审智能体。它从拉取请求数据里生成一系列最佳实践，帮助智能体与你的代码库对齐。演示里它发表的意见让工程师 Richie 说「这像是我会说的话」——因为这确实是他之前说过的话，系统调出了他的历史评论。他们还用资历和专业度做信号，给重要评论加权。\n\n更神奇的一幕：Richie 发现代码评审问题数量急剧下降，和 Unblocked 一起调试，追到底后让云端运行的 Unblocked 智能体去修——它不仅生成了修复 PR,还把因果关系讲清楚了：切换到 Claude 4 之后评审行为变了，问题才下降。它甚至找到了那段关联的 Slack 对话，把全部历史串起来，最终产出一个带完整上下文的 PR。\n\n## 开源工具与你能上手的东西\n\n演讲者最后给了几个可以直接玩的东西:\n\n- **Document Query Engine**（开源）：跑在你的 GitHub 仓库上，摄取历史 PR,基于可采样的文档合成一个 schema,然后就能随意查询、通过智能体聊天获得各种洞察。\n- **工程社交图谱**（开源）：从代码评审关系里聚类出团队结构和专家覆盖，连成线的就是互相评审代码的人。可以生成团队标签，也能看出哪里缺乏专家覆盖——这正是上下文引擎内部用的东西。\n- **上下文引擎模拟器**：不想注册 Unblocked 也可以试，它对每个任务在后台构建上下文，再用/不用上下文各跑一遍，让你直观看差异。\n\n收尾引用一位客户的话：「token 减少 50%,分类更快，答案更好。」\n\n## 本集带走\n\n- **智能体像每次都重新入职的新员工**：每个任务都重置知识，必须重新发现代码库、测试和部署方式——这是智能体干真活的根本瓶颈。\n- **获取信息不等于理解**：挂维基没用，智能体会有「搜索满足感」（找到一个答案就停）也不会提炼理解；全塞进上下文窗口则容量不够且让智能体分心。\n- **上下文的价值在累积而非单次**：带上组织上下文，生成计划更快更便宜；不带的话智能体会在错误假设上越走越深、返工循环。\n- **「展示工作过程」是信任机制**：答案附上来源，人能核对并纠正，来源还能帮智能体自己决定下一步深挖哪里。\n- **上下文引擎 = 数据 + 智能**：从 PR 历史提炼最佳实践、用资历做评论权重、用评审关系构建工程社交图谱找专家盲区——这些都能上手（开源的 Document Query Engine 和工程社交图谱，以及上下文引擎模拟器）。",
+  "quotes": [
+    {
+      "en": "Agents are like new employees. They reset their knowledge every time you start a new task.",
+      "zh": "智能体就像新员工。每当你开始一个新任务时，它们的知识都会重置。",
+      "timestamp": "01:54",
+      "speaker": "Peter Werry"
+    },
+    {
+      "en": "You can think of an agent like an expert software engineer who's a new employee onboarding for the first time every time.",
+      "zh": "你可以把一个智能体想象成一位专家级软件工程师，但每次都是第一次入职的新员工。",
+      "timestamp": "02:03",
+      "speaker": "Peter Werry"
+    },
+    {
+      "en": "Access to information doesn't equal understanding.",
+      "zh": "获取信息不等于理解。",
+      "timestamp": "04:13",
+      "speaker": "Peter Werry"
+    },
+    {
+      "en": "And that's why your agents need a context engine to get real work done.",
+      "zh": "这就是为什么你的智能体需要一个上下文引擎才能完成真正的工作。",
+      "timestamp": "06:59",
+      "speaker": "Peter Werry"
+    },
+    {
+      "en": "The loops compound. And you have to be efficient the entire way through with your context.",
+      "zh": "循环会累积。而你必须在整个过程中都让上下文的使用保持高效。",
+      "timestamp": "12:25",
+      "speaker": "Peter Werry"
+    },
+    {
+      "en": "50% fewer tokens, faster triage, better answers. And that's exactly what a context engine can do.",
+      "zh": "token 减少 50%,分类更快，答案更好。而这正是上下文引擎能做到的。",
+      "timestamp": "17:45",
+      "speaker": "Peter Werry"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:57",
+      "speaker": "Unknown",
+      "en": "Agents are like new employees. They reset their knowledge every time you start a new task.",
+      "zh": "智能体就像新员工。每当你开始一个新任务时，它们的知识都会重置。"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Unknown",
+      "en": "You can think of an agent like an expert software engineer who's a new employee onboarding for the first time every time.",
+      "zh": "你可以把一个智能体想象成一位专家级软件工程师，但每次都是第一次入职的新员工。"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Unknown",
+      "en": "They just can't operate without organizational context. They get lost.",
+      "zh": "没有组织上下文，它们根本无法运作。它们会迷失方向。"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Unknown",
+      "en": "Access to information doesn't equal understanding.",
+      "zh": "获取信息不等于理解。"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Unknown",
+      "en": "They find something that they think is correct, and then they stop.",
+      "zh": "它们找到了某个它们认为正确的东西，然后就停下来了。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Unknown",
+      "en": "When you're working on a task, you want task-specific flow.",
+      "zh": "当你在处理一项任务时，你需要的是针对任务的专注流。"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Unknown",
+      "en": "And it can be phrased a different way, which is finding the things that really matter.",
+      "zh": "它可以用另一种方式来表述，就是找出真正重要的东西。"
+    },
+    {
+      "timestamp": "06:59",
+      "speaker": "Unknown",
+      "en": "And that's why your agents need a context engine to get real work done.",
+      "zh": "这就是为什么你的智能体需要一个上下文引擎才能完成真正的工作。"
+    },
+    {
+      "timestamp": "07:40",
+      "speaker": "Unknown",
+      "en": "The human layer hasn't gone away.",
+      "zh": "人类这一层并没有消失。"
+    },
+    {
+      "timestamp": "07:51",
+      "speaker": "Unknown",
+      "en": "When you hit merge on a PR, you need to understand what it's doing.",
+      "zh": "当你在一个 PR 上点击合并时，你需要理解它在做什么。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Unknown",
+      "en": "And so I just want to show you what the impact of that is.",
+      "zh": "所以我只想给你们展示一下这样做的影响是什么。"
+    },
+    {
+      "timestamp": "11:58",
+      "speaker": "Unknown",
+      "en": "Not only does it have to do more work to discover things, it doesn't discover the right things.",
+      "zh": "它不仅必须做更多的工作去发现东西，而且它发现的还不是正确的东西。"
+    },
+    {
+      "timestamp": "12:17",
+      "speaker": "Unknown",
+      "en": "It's the compounding effect.",
+      "zh": "而在于累积效应。"
+    },
+    {
+      "timestamp": "12:26",
+      "speaker": "Unknown",
+      "en": "The loops compound. And you have to be efficient the entire way through with your context.",
+      "zh": "循环会累积。而你必须在整个过程中都让上下文的使用保持高效。"
+    },
+    {
+      "timestamp": "14:35",
+      "speaker": "Unknown",
+      "en": "So this PR was created because, and you read that context thing, it's mind-blowing.",
+      "zh": "这个 PR 是因为……而创建的，你去读那段上下文内容，简直令人震撼。"
+    },
+    {
+      "timestamp": "16:44",
+      "speaker": "Unknown",
+      "en": "You can see kind of where the holes are, where you might be lacking expert coverage.",
+      "zh": "你可以看到漏洞在哪里，哪里可能缺乏专家覆盖。"
+    },
+    {
+      "timestamp": "17:45",
+      "speaker": "Unknown",
+      "en": "50% fewer tokens, faster triage, better answers. And that's exactly what a context engine can do.",
+      "zh": "token 减少 50%,分类更快，答案更好。而这正是上下文引擎能做到的。"
+    }
+  ],
+  "voice_script": "今天要讲的是一家叫 Unblocked 的公司的一场演讲。这家公司做的事，一句话说就是：给编程智能体造一个上下文引擎。演讲者提了一个特别扎心的比喻——你可以把今天的智能体想象成一位专家级的软件工程师，但每次接任务，都像是第一次入职的新员工。你想想，把一个很厉害的工程师招进公司，结果每次干活都得重新摸一遍你的代码库、重新搞清楚你们怎么测试、怎么部署，什么都不记得。这就是现在所有编程智能体的真实处境。\n\n那这个问题是怎么来的？其实好多年里，人类工程师自己就是公司的上下文层。什么叫上下文？就是这个组织里的知识——架构怎么定的、当初为什么这么决策、哪些坑踩过。人是在各个数据源、讨论串、代码库之间翻找，靠处理事故、写文档，慢慢把这些部落知识攒起来的。智能体面对同样的挑战，但处境更糟，因为每开始一个新任务，它们的知识就重置一次。\n\n演讲者还画了一条 AI 成熟度曲线。从早期 GPT 时代的自动补全，就是 Copilot 那个阶段，到 Cursor，再到有人开始解决上下文问题——比如建组织维基，或者给智能体配上 MCP 和 skills，教它们怎么找信息。大多数团队现在处在第四到第五阶段，已经意识到上下文是瓶颈了。而这条曲线的终点是第八阶段，叫软件工厂，智能体要全面自动化。到那个阶段，没有组织上下文，智能体根本没法运作，会彻底迷失方向。\n\n那有人会说，找信息难，我把维基挂给智能体不就行了？演讲者把核心问题用一句话点破了：获取信息不等于理解。挂一个维基，智能体还是不知道需要的信息在哪。而且它会患上一种放射科的毛病，叫搜索满足感——放射科医生看 X 光，找到一个可疑病灶就可能停手，错过其他更重要的指标。智能体也一样，找到一个看起来正确的东西就停了。就算不偷懒，它也不会提炼理解：能找到信息，但搞不明白各个部分怎么拼起来、依赖之间怎么互动、架构会怎么约束接下来的工作。\n\n那把整个代码库加架构文档全塞进上下文窗口呢？实践中也不行。一来组织上下文远超百万 token 的窗口容量；二来会让智能体分心——干活需要的是针对任务的专注流，东张西望只会浪费 token 和时间。而真正的冰山之下，是智能体看不到的东西：真实意图、团队约定、过往决策、Slack 里讨论过的内容、架构背后的理由。所以结论就是，你的智能体需要一个上下文引擎，才能完成真正的工作。\n\n这套东西怎么用？第一层价值其实是服务人类，因为最终问责止于人——你在 PR 上点合并之前，必须理解它在干什么。演示里问了一个关于内部 SourceMark 引擎的问题，系统不光把架构讲清楚，连架构图都是根据代码现状现场推断生成的，还能给出未来架构的提议。关键是它会展示工作过程，这首先建立信任，其次如果答案不对，人可以去知识库里纠正。\n\n然后是重头戏。同一个任务，让 Claude Code 生成优化 SourceMark 计算器的计划。不带 Unblocked 的时候，Claude Code 自己翻代码、自己推断算法，结论不错，但抓不住细微差别，耗时大约两分钟，成本也更高。带上 Unblocked 之后再跑一遍，它抓住了团队在 PR 里讨论过的未来改进、Slack 对话、Notion 和架构文档，计划直击要害，总成本不到一美元，大概一分钟。而且这些来源会回传给 Claude，让它确切知道接下来该跳到哪里深挖。\n\n不过短任务上的差距还只是小头。真正的价值在累积效应——不带上下文时，智能体不仅要多花功夫去发现东西，发现的还往往不是正确的东西。执行到深处才发现自己跑在错误的计划和假设上，然后返工，循环往复。用演讲者自己的话说：循环会累积，而你必须全程让上下文的使用保持高效。\n\nUnblocked 还有个代码评审智能体，能从 PR 数据里生成最佳实践，让智能体跟你的代码库对齐。演示里它发表的一条意见，让一位叫 Richie 的工程师说，这像是我会说的话——因为那确实就是他说过的话，系统调出了他的历史评论，还用资历和专业度做信号，给重要评论加权。更神的一幕是，Richie 发现评审问题数量急剧下降，跟 Unblocked 一起追查到底后，让云端跑的智能体去修。它不但生成了修复 PR，还把因果关系讲清楚了：是切换到 Claude 4 之后评审行为变了，问题才下降的。它甚至找到了那段关联的 Slack 对话，把全部历史串起来，最后产出一个带完整上下文的 PR。\n\n最后还有几个你可以直接上手的东西。一个是开源的 Document Query Engine，跑在你的 GitHub 仓库上，摄取历史 PR，合成一个 schema，然后随便查询、跟智能体聊天拿洞察。还有一个开源的工程社交图谱，从代码评审关系里聚类出团队结构和专家覆盖，能看出哪里缺专家。不想注册的话，还有个上下文引擎模拟器，对每个任务在后台构建上下文，再用和不用各跑一遍，让你直观看差异。\n\n用一位客户的话来收尾：token 减少 50%，分类更快，答案更好。而这正是上下文引擎能做到的。"
+}

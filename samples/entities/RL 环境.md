@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Harvey]] · [[合成数据]] · [[后训练]] · [[评估]] · [[Cursor]] · [[Mercor]] · [[NVIDIA]] · [[DeepMind]] · [[机器人]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Harvey":13,"合成数据":8,"后训练":1,"评估":3,"Cursor":68,"Mercor":2,"NVIDIA":45,"DeepMind":10,"机器人":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Harvey":13,"合成数据":8,"后训练":1,"评估":3,"Cursor":68,"Mercor":2,"NVIDIA":45,"DeepMind":10,"机器人":7}</script>
 
 <script>
 (function(){

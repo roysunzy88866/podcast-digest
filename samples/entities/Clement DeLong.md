@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":23,"开源":27,"前沿模型":21,"本地模型":3,"模型路由":7,"蒸馏":12,"推理":54,"护栏":58,"Anthropic":140,"OpenAI":131}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":23,"开源":27,"前沿模型":21,"本地模型":3,"模型路由":7,"蒸馏":12,"推理":54,"护栏":58,"Anthropic":142,"OpenAI":132}</script>
 
 <script>
 (function(){

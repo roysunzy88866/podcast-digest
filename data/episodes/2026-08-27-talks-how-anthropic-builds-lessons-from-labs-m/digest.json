@@ -1,0 +1,190 @@
+{
+  "title_zh": "Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码",
+  "tldr": "Instagram 联合创始人、Anthropic 的 Mike Krieger 讲述 AI 如何改变他的工作方式：表达目标而非委派任务、周末完成整库语言迁移，以及初创企业为何依然值得做。",
+  "digest_md": "这一集的主角是 Mike Krieger——Instagram 联合创始人，如今在 Anthropic 带领实验室团队。他在台上聊了一个很有意思的转变：他现在会让 Claude 干完活之后，「能不能解释得再简单点，就当我比你笨一点，因为我需要你把这个给我拆解一下」——因为模型已经「比我聪明得多」。\n\n## 从「拆解任务」到「描述目标」\n\nMike 说，加入 Anthropic 头两年他做 CPO,只能周末拼命用模型，FOMO 越来越强，最后干脆转成一线 IC。角色一变，工作范式也变了：过去是「我有一个想法，先在脑子里拆解、逐步迭代」；现在是「我描述目标，你去干，然后我们聊聊你发现了哪些权衡、提出了哪些问题，再看落在哪里」。核心是从任务委派转向表达最终状态，让它自己去搞定。\n\n## 「不合常理」地用模型\n\n主持人问他在提示词上如何更雄心勃勃，他借用了大会报纸上那句「要不合常理」(be unreasonable):行业要教会人们更大胆地使用模型。他举例：一个非技术同事说内部产品不好用，他的回应不是自己动手，而是「你为什么不问问 Claude?」\n\n他最「不合常理」的一次操作：一个用 Python 写的实验室项目，因为发现 Claude Code 用 Bun(一个 JavaScript 运行时)部署方案更好，他直接让模型把整个代码库迁到 TypeScript——在 2010 年代的工程标准下这是蠢主意，「谁会去迁移几百、几千行代码？」但他搭了一个动态工作流环境，让它周末不停验证、复查、两边代码对照，周一回来就得到了一个迁移完成、可部署的版本。\n\n至于能不能照搬到整个 Instagram(他顺口提到 Instagram 全是 Python,现在据说正靠模型往 PHP 转)，他分享了个经验：当年 Python 3 出来时他们做了 MonkeyType,捕获生产环境实际用到的运行时类型再映射回代码库——用 LLM 做语言转换时同样可以更多依赖生产数据、跑分段测试。最难的是「找到能增量开始的边界，而不是试图一口吞下整个海洋、一夜全换」。\n\n## tag:Anthropic 内部真正的写代码方式\n\n如今他 60% 以上的代码由模型写出，主要靠 tag(一个在 Slack 里委派任务给 Claude 的工具)。他透露 Anthropic 内部交互式迭代用 Claude Code,但大部分使用其实是「通过 tagging 委派」。tag 最有趣的是多人协作性——他类比 Midjourney 当年大家都在 Discord 上互相看到怎么用，这直接拉高了使用的大胆程度：他看到有人 tag Claude 说「你不只修这个 bug,你现在负责代码库的这一部分，监控这个反馈渠道、主动接任务、修掉它们，API 变了也要处理」，他才意识到自己「一直把它当作 Slack 里美化版的 Claude Code 在用，完全低估了它」。更高级的用法是把它当真正的队友：持有上下文、有记忆、能主动行动——这改变了 Anthropic 内部的运作方式，变成多人、异步、主动的协作。\n\n被问 code review 瓶颈时他很坦率：仍然卡，而且「更像是瓶颈在于人类甚至无法完全构思我们正在做的事情」——有 PR 大到像「2,000 天的代码量」，根本没法逐行看。所以他们开始改发 Claude Code artifact:解释、变更意图、所做的权衡。「讨论意图和权衡，然后在生产环境中衡量，这是我们的方向」。他自己收到 PR 也不逐行 review,而是把「我会问的问题」丢给 Claude 去调查——Claude 驱动、人类主导的 review。\n\n## Labs 的组织方式：双周「坚持还是转向」\n\nLabs 的节奏是每两周评审一次，每个项目都面临「坚持还是转向」，甚至关停——几乎每轮都会关项目，做多了大家就不再觉得「我的项目被关 = 我失败」。因此组织架构不能绑死在项目上，否则等于每两周重组一次。他们的做法是：每个 bet(赌注)临时抽调产品、边缘团队等成员组成小组，设一个 bet 负责人，但**他不管理任何人**——工程经理的角色变成确保每个人分到最感兴趣、最能发挥的事。只有当产品跑出持久生命力(如 Claude Design,六月做了大版本、开始为它专门招人)才固化为正式团队。松散，直到固化。\n\n## 该删掉什么：Fable 替观众提的问题\n\n主持人转述了让 Fable 自己生成的问题：「你在 AI 里会删掉什么？」Mike 说 Anthropic 有个 Slack 频道叫 Project Unship(项目下架)，专门问「现在产品里有什么该删」。他们最近下线了 styles——使用率低、运作方式刻板，skills 明显更好。他的观点是：「必须愿意把上一代 AI 的基本构件下架，或用下一代的东西取代它们」。而最大的产品问题是他自己产品的碎片化：要求用户区分写代码、协作办公、聊天，「普通人根本没法解释为什么这些界面全都不一样」，它们还互不打通、不能互相委托——他吐槽在 CoWork 里规划得清清楚楚，最后还要「生成一段文字粘贴进 Claude Code」是「2020 年的工作流，不该再存在」。\n\n## 对初创企业：依然非常看多\n\n面对「Anthropic 明天发几个 markdown 文件就能摧毁我行业，为什么不直接放弃加入 Anthropic」的尖锐提问，他回应：模型让实验更简单、让小团队更快，这恰恰催生下一代初创公司。大厂产品必然「受制于已有的整合、围绕自身优势来做」，而痴迷于某个垂直领域或某群你深度了解的用户，是任何实验室都到不了的理解深度。「一个四五人、痴迷于某个问题的团队，仍会比同样这些人待在任何受制于复杂性的组织里移动得更快」。关键洞察是：「写代码从来都不是限制性的环节」——真正的门槛是空间和用户理解。金融领域他也看到机会：模型即时生成分析/仪表盘的灵活性，与可验证性、审计日志、数据溯源之间需要找到切分线，现有系统对智能体工作负载不灵活，「技术栈两端都有机会」。\n\n## 心理健康：情绪说出来，然后问「我们怎么办」\n\n最后聊倦怠。他说现在 AI 行业的强度比 Instagram 时代高好几倍——那时一年操心一次 WWDC、三四个月一次对手发布；现在 Anthropic 每周全员会都有一页「本周 AI 大事(才到周三)」的幻灯片。他的两条自用方法：一是真正留出休息时间——「没有任何一份工作重要到你不能离线几天」，倦怠了恢复要很久；二是体育圈那句话：「你永远不会像你最好的一场比赛那么好，也永远不会像你最差的一场比赛那么糟」——内化了「完了完了/我们又行了」这个循环永远在转，就知道事情从来没那么糟。而对他帮助最大的一条教练建议是：**你有的感受，团队其他人多半也有**。他几个月前真的一场会就这么开场：「我很难过、我很沮丧，我真希望这件事能成」——这为其他人说出情绪留出了空间，然后才能一起问「那我们打算怎么办？」\n\n## 本集带走\n\n- **表达目标，不要拆解任务**：把「描述最终状态 + 让它自己干 + 事后对权衡」当默认工作范式，交互式高带宽场景才用 Claude Code 这类工具。\n- **敢下「不合常理」的指令**：整库语言迁移、让非技术同事直接找 Claude 改产品——先按新规则想「现在可不可行」，别按 2010 年代直觉否决。\n- **把模型当有记忆、能主动的队友，不是聊天窗口**：让它负责代码库的一部分、监控反馈渠道、主动接任务；别人的大胆用法是最好的学习素材。\n- **大 PR 不逐行看，看意图和权衡**：分享变更解释与取舍，在生产环境验证，而不是指望人类读完两千天的代码量。\n- **组织要松散直到产品跑出来**：项目按 bet 临时组队、双周「坚持还是转向」、负责人不管理人；有生命力的产品再固化成正式团队。\n- **写代码从来不是成败关键**：空间理解、用户理解、快速迭代才是——小团队依然比大组织快，初创仍值得做。\n- **情绪说出来**：自己先示弱，团队才敢说真话；从「我们都有情绪」出发，比从假装没事出发解决问题容易得多。",
+  "quotes": [
+    {
+      "en": "I think the hardest part is always finding the boundary around where you can start doing it incrementally without trying to boil the whole ocean and like swap it overnight.",
+      "zh": "我觉得最难的部分始终是找到边界，让你可以增量地开始做，而不是试图一口吞下整个海洋，一夜之间全换掉。",
+      "timestamp": "06:22",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "Pre-measure everything that you think you might even remotely need because the worst thing is an outage where you're like, well, is this like number normal or is it high?",
+      "zh": "提前测量所有你认为哪怕稍微可能需要的东西，因为最糟糕的情况是宕机的时候你在想，这个数字是正常还是偏高？",
+      "timestamp": "07:15",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "I saw somebody do that, I was like, oh wait, I've been totally underutilizing this thing. I've just been using it as like a glorified Claude Code in Slack.",
+      "zh": "我看到有人这么做，我就想，哦等等，我一直完全低估了这个东西。我只是把它当作 Slack 里一个美化版的 Claude Code 在用。",
+      "timestamp": "09:33",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "It's like bottlenecked on human ability to even fully conceptualize what we're doing.",
+      "zh": "更像是瓶颈在于人类甚至无法完全构思我们正在做的事情。",
+      "timestamp": "10:24",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "I think the depth of the engineering manager discipline has been greatly exaggerated.",
+      "zh": "我觉得工程管理这门学科的深度被大大夸大了。",
+      "timestamp": "12:01",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "So I think you have to be willing to take the primitives of like one generation of AI and like unship them or at least like supplement them or supplant them with the next one as well.",
+      "zh": "所以我认为你必须愿意把上一代 AI 的那些基本构件拿掉下架，或者至少用下一代的东西去补充或取代它们。",
+      "timestamp": "16:24",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "It is still the case that a group of four or five people obsessed with a problem is going to move faster than those same people at any other kind of organizations that are subject just to the complexity.",
+      "zh": "现在依然是这样：一个由四五个人组成的、痴迷于某个问题的团队，会比同样这些人待在受制于复杂性的任何其他类型组织里移动得更快。",
+      "timestamp": "19:05",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "It papers over the fact that writing code was never the limiting part. Maybe it was on the timeline perspective, but it was never the thing that was going to make or break your startup.",
+      "zh": "它掩盖了一个事实：写代码从来都不是限制性的环节。也许在时间线层面上是，但它从来都不是决定你初创企业成败的东西。",
+      "timestamp": "19:29",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "And then I think the other one as well is like I love sports and like this is the notion of like you're never as good as like your best game and you're never as bad as your worst game.",
+      "zh": "然后我觉得另一个例子是,我很喜欢体育,就像有这么一个说法:你永远不会像你最好的一场比赛那样好,也永远不会像你最差的一场比赛那样糟。",
+      "timestamp": "23:26",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "We definitely had it on Instagram a couple of times. And then you get through it, and it defines the company when you can actually go through that.",
+      "zh": "我们在 Instagram 肯定也经历过几次。然后你挺过去了，而当你真正能挺过去的时候，它就定义了这家公司。",
+      "timestamp": "24:00",
+      "speaker": "Mike Krieger"
+    },
+    {
+      "en": "I think if you can get yourself to be open and vulnerable, it often like lets other people verbalize that.",
+      "zh": "我觉得如果你能让自己保持开放和脆弱，往往能让其他人也把情绪说出来。",
+      "timestamp": "25:28",
+      "speaker": "Mike Krieger"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:23",
+      "speaker": "Unknown",
+      "en": "So sometimes it'll finish work and be like, here's the trade-offs I made. I'm like, can you explain it to me like I'm a little dumber than you are because I need you to sort of break this down for me?",
+      "zh": "有时候它干完活会说：这是我在权衡中做的取舍。我就说：能不能解释得再简单点，就当我比你笨一点，因为我需要你把这个给我拆解一下？"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Unknown",
+      "en": "We have to teach people to be more unreasonable in their usage, and it's sort of hard to imagine.",
+      "zh": "我们必须教会人们在使用上更「不合常理」一些，这其实有点难以想象。"
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Unknown",
+      "en": "If I put on my 2010s engineering hat, or even my early 20s, that's a dumb idea. Who would ever port at that point a couple hundred, thousands of lines of code?",
+      "zh": "如果我戴上 2010 年代的工程师帽子，甚至是 20 年代初的，这都是个蠢主意。谁会在那个节点去迁移几百、几千行代码呢？"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Unknown",
+      "en": "I think the hardest part is always finding the boundary around where you can start doing it incrementally without trying to boil the whole ocean and like swap it overnight.",
+      "zh": "我觉得最难的部分始终是找到边界，让你可以增量地开始做，而不是试图一口吞下整个海洋，一夜之间全换掉。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Unknown",
+      "en": "Pre-measure everything that you think you might even remotely need because the worst thing is an outage where you're like, well, is this like number normal or is it high?",
+      "zh": "提前测量所有你认为哪怕稍微可能需要的东西，因为最糟糕的情况是宕机的时候你在想，这个数字是正常还是偏高？"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Unknown",
+      "en": "I saw somebody do that, I was like, oh wait, I've been totally underutilizing this thing. I've just been using it as like a glorified Claude Code in Slack.",
+      "zh": "我看到有人这么做，我就想，哦等等，我一直完全低估了这个东西。我只是把它当作 Slack 里一个美化版的 Claude Code 在用。"
+    },
+    {
+      "timestamp": "09:44",
+      "speaker": "Unknown",
+      "en": "And the more advanced version is really trying to start thinking of it as a teammate that is actually sort of holds context, has memory, and can be proactive.",
+      "zh": "而更高级的版本是真正开始把它当作一个队友来思考，它实际上持有上下文、有记忆，并且可以主动行动。"
+    },
+    {
+      "timestamp": "10:24",
+      "speaker": "Unknown",
+      "en": "It's like bottlenecked on human ability to even fully conceptualize what we're doing.",
+      "zh": "更像是瓶颈在于人类甚至无法完全构思我们正在做的事情。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Unknown",
+      "en": "But actually, like, discussing intent and trade-offs and then measuring in production is, I think, at least the direction of travel we've gotten.",
+      "zh": "但实际上，讨论意图和权衡，然后在生产环境中衡量，我觉得至少是我们目前的方向。"
+    },
+    {
+      "timestamp": "12:05",
+      "speaker": "Unknown",
+      "en": "I think the depth of the engineering manager discipline has been greatly exaggerated.",
+      "zh": "我觉得工程管理这门学科的深度被大大夸大了。"
+    },
+    {
+      "timestamp": "16:24",
+      "speaker": "Unknown",
+      "en": "So I think you have to be willing to take the primitives of like one generation of AI and like unship them or at least like supplement them or supplant them with the next one as well.",
+      "zh": "所以我认为你必须愿意把上一代 AI 的那些基本构件拿掉下架，或者至少用下一代的东西去补充或取代它们。"
+    },
+    {
+      "timestamp": "16:48",
+      "speaker": "Unknown",
+      "en": "I think the average person off the street could not explain to you why those surfaces are all different.",
+      "zh": "我认为街上的普通人根本没法向你解释为什么这些界面全都不一样。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Unknown",
+      "en": "That is some 2020 kind of workflow there that really shouldn't exist anymore.",
+      "zh": "这简直是某种 2020 年的工作流，真的不应该再存在了。"
+    },
+    {
+      "timestamp": "19:05",
+      "speaker": "Unknown",
+      "en": "It is still the case that a group of four or five people obsessed with a problem is going to move faster than those same people at any other kind of organizations that are subject just to the complexity.",
+      "zh": "现在依然是这样：一个由四五个人组成的、痴迷于某个问题的团队，会比同样这些人待在受制于复杂性的任何其他类型组织里移动得更快。"
+    },
+    {
+      "timestamp": "19:29",
+      "speaker": "Unknown",
+      "en": "It papers over the fact that writing code was never the limiting part. Maybe it was on the timeline perspective, but it was never the thing that was going to make or break your startup.",
+      "zh": "它掩盖了一个事实：写代码从来都不是限制性的环节。也许在时间线层面上是，但它从来都不是决定你初创企业成败的东西。"
+    },
+    {
+      "timestamp": "23:26",
+      "speaker": "Unknown",
+      "en": "And then I think the other one as well is like I love sports and like this is the notion of like you're never as good as like your best game and you're never as bad as your worst game.",
+      "zh": "然后我觉得另一个例子是,我很喜欢体育,就像有这么一个说法:你永远不会像你最好的一场比赛那样好,也永远不会像你最差的一场比赛那样糟。"
+    },
+    {
+      "timestamp": "24:00",
+      "speaker": "Unknown",
+      "en": "We definitely had it on Instagram a couple of times. And then you get through it, and it defines the company when you can actually go through that.",
+      "zh": "我们在 Instagram 肯定也经历过几次。然后你挺过去了，而当你真正能挺过去的时候，它就定义了这家公司。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Unknown",
+      "en": "So this is like advice I got from my coach around just being like, just verbalizing emotions, like even saying, like, hey, I'm feeling really stressed out about this, or yeah, I'm really sad that we are shutting down this labs initiative.",
+      "zh": "这是我从我的教练那里得到的建议，就是把情绪说出来，比如甚至说，「嘿，这件事让我压力很大」，或者「是的，我们关闭这个 labs 项目让我很难过」。"
+    },
+    {
+      "timestamp": "25:25",
+      "speaker": "Unknown",
+      "en": "I think if you can get yourself to be open and vulnerable, it often like lets other people verbalize that.",
+      "zh": "我觉得如果你能让自己保持开放和脆弱，往往能让其他人也把情绪说出来。"
+    }
+  ],
+  "voice_script": "今天这期有点特别，主角是 Mike Krieger——你可能听过这个名字，Instagram 的联合创始人。当年 Instagram 从几个人的小团队做到十几亿人用的产品，写代码的就是他。如今呢，在 Anthropic,就是做 Claude 那家公司，带实验室团队。这一期聊的是一件很实在的事：一个写了半辈子代码的老兵，在 AI 时代到底怎么干活，工作方式变了多少。答案可能会颠覆你的一些直觉。\n\n先说说他自己的转变。加入 Anthropic 头两年，Mike 做的是 CPO,就是首席产品官，管理岗，忙到只能周末偷偷摸摸用模型，越用越焦虑，怕跟不上。最后干脆一咬牙，转成一线工程师，天天泡在代码里。角色一变，工作范式也跟着变了。过去写代码，是脑子里有个想法，自己拆解成小步骤，一步步迭代。现在呢？是把目标描述出来，让模型去干，干完之后俩人聊聊：你发现了哪些权衡？提出了哪些问题？我们再决定落在哪。核心就一句话——从委派任务，变成表达最终状态，剩下的让它自己搞定。\n\n这个思路推到极致，就是主持人问起「怎么在提示词上更大胆」的时候。Mike 借用了大会报纸上的一句话，叫「要不合常理」。什么意思呢？就是整个行业都得学会，更大胆地用模型，别按老经验设限。举个例子，有个不懂技术的同事抱怨内部产品不好用，换以前的老板，可能自己撸起袖子改了。Mike 的回应是：你为什么不问问 Claude?\n\n最离谱的一次操作是这样的。有个用 Python 写的实验室项目，因为发现 Claude Code 配合一个叫 Bun 的 JavaScript 运行时，部署方案更好，于是直接让模型把整个代码库迁移到 TypeScript。搁在二零一零年代的工程标准下，这是蠢主意——谁会去迁移几百、几千行代码？但 Mike 搭了一套动态工作流环境，让模型整个周末不停验证、复查、两边代码对照。周一回来，一个迁移完成、可以部署的版本就摆在那了。\n\n那这种玩法能不能照搬到整个 Instagram 呢？顺带一提，Instagram 全是 Python,据说现在正靠模型往 PHP 转。Mike 分享了条经验：当年 Python 3 出来的时候，团队做了个工具叫 MonkeyType,捕获生产环境里实际用到的类型，再映射回代码库。用大语言模型做语言转换也是一样，可以更多依赖生产数据、跑分段测试。有句话值得记住：最难的部分，始终是找到能增量开始的边界，而不是试图一口吞下整个海洋，一夜之间全换掉。\n\n说回 Anthropic 内部，真正的写代码方式是什么样的。Mike 说自己六成以上的代码是模型写的，主要靠一个叫 tag 的工具——说白了，就是在 Slack 里给 Claude 派活。内部交互式迭代用 Claude Code,但大部分使用，其实是通过 tag 委派。这工具最有意思的是多人协作性，有点像当年 Midjourney,大家在 Discord 上互相看见别人怎么用，胆子自然就大了。Mike 说，看到有人这么派活：「你不只修这个 bug,你现在负责代码库的这一部分，监控这个反馈渠道、主动接任务、修掉它们，API 变了也要处理」——当场就愣住了，原来自己一直把它当 Slack 里美化版的 Claude Code 在用，完全低估了这东西。更高级的用法，是把模型当真正的队友：有上下文、有记忆、能主动行动。这直接改变了 Anthropic 内部的运作方式，变成多人、异步、主动的协作。\n\n那问题来了，模型写代码这么快，人是不是就成了瓶颈？Mike 很坦率：确实卡，但卡的地方你可能想不到——瓶颈在于人类甚至无法完全构思我们正在做的事情。有的大型代码变更，相当于两千天的代码量，根本没法逐行看。所以团队开始改发一种东西：变更说明，解释意图、讲清做了哪些权衡。先讨论意图和权衡，再在生产环境里衡量，这是他们的方向。Mike 自己收到 PR 也不逐行审，而是把「我会问的问题」丢给 Claude 去调查——模型驱动，人类主导。\n\n代码这么搞，组织怎么跟？Labs 的节奏是每两周评审一次，每个项目都面临「坚持还是转向」，甚至关停——几乎每轮都会关项目。关多了有个好处，大家不再觉得项目被关等于自己失败。因此组织架构绝不能绑死在项目上，不然等于每两周重组一次。他们的做法是：每个赌注临时抽人组队，设一个负责人，但注意，这个负责人不管理任何人。工程经理的角色变成确保每个人分到最感兴趣、最能发挥的事。只有产品跑出持久生命力，比如 Claude Design 六月发了大版本、开始专门招人了，才固化成正式团队。一句话：松散，直到固化。\n\n顺着这个思路，还有个反直觉的话题：该删掉什么。Anthropic 内部有个 Slack 频道，专门问「现在产品里有什么该删」。最近就下线了一个使用率低、运作刻板的功能，因为新的 skills 明显更好。Mike 的观点是：必须愿意把上一代 AI 的基本构件下架，或者用下一代的东西取代它们。而最大的产品问题，反而是自家产品的碎片化——要求用户区分写代码、协作办公、聊天，普通人根本没法解释为什么这些界面全都不一样，还互不打通。在一边规划得清清楚楚，最后还要生成一段文字粘贴到另一边，这种工作流，不该再存在了。\n\n聊到创业，有个听众问得很尖锐：Anthropic 明天发几个 markdown 文件，就能摧毁一整个行业，那为什么不干脆放弃、加入 Anthropic?Mike 的回应很坚定：模型让实验更简单、让小团队更快，这恰恰在催生下一代初创公司。大厂产品必然受制于已有的整合，只能围绕自身优势来做；而痴迷于某个垂直领域、或某群你深度了解的用户，那种理解深度是任何实验室都到不了的。一个四五个人、痴迷于某个问题的团队，仍然会比同样这些人待在任何受制于复杂性的组织里，移动得更快。关键洞察是这句：写代码从来都不是限制性的环节。真正的门槛，是对空间的理解、对用户的理解。连金融领域他也看到机会——技术栈两端都有机会。\n\n最后聊聊人本身。Mike 说现在 AI 行业的强度，比 Instagram 时代高好几倍。那时候一年操心一次 WWDC,三四个月一次对手发布；现在每周全员会都有一页幻灯片，标题叫「本周 AI 大事」——才到周三。怎么扛？两条自用方法。第一，真正留出休息时间，没有任何一份工作重要到你不能离线几天，因为倦怠了恢复要很久。第二，体育圈那句老话：你永远不会像你最好的一场比赛那么好，也永远不会像你最差的一场比赛那么糟。内化了这一点，就知道「完了完了」和「我们又行了」这个循环永远在转，事情从来没那么糟。而对他帮助最大的一条教练建议是：你有的感受，团队其他人多半也有。几个月前一场会，就这么开的场：我很难过，我很沮丧，我真希望这件事能成。先示弱，其他人才敢说真话，然后大家才能一起问：那我们打算怎么办？\n\n把这期串起来，其实就一个道理：AI 时代最不合常理的做法，往往恰恰是最合理的——描述目标而不是拆任务，把模型当队友而不是工具，愿意删掉昨天刚建的东西，也愿意在人前承认自己撑不住。写代码从来不是成败的关键，敢想敢说敢换，才是。"
+}

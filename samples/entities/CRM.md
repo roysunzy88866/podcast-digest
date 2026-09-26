@@ -43,7 +43,7 @@ unlisted: true
 
 [[Salesforce]] · [[智能体]] · [[记录系统]] · [[Vercel]] · [[绿地市场]] · [[Lightfield]] · [[编排]] · [[HubSpot]] · [[Tome]] · [[go-to-market]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":31,"智能体":325,"记录系统":5,"Vercel":18,"绿地市场":2,"Lightfield":2,"编排":7,"HubSpot":8,"Tome":2,"go-to-market":11}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":31,"智能体":327,"记录系统":5,"Vercel":18,"绿地市场":2,"Lightfield":2,"编排":7,"HubSpot":8,"Tome":2,"go-to-market":12}</script>
 
 <script>
 (function(){

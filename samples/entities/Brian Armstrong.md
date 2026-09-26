@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":325,"智能体金融":1,"X402":1,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":327,"智能体金融":1,"X402":1,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
 
 <script>
 (function(){

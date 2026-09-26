@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Airbnb]] · [[护栏]] · [[PM]] · [[Codex]] · [[Cognition]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Lenny":67,"Anthropic":140,"OpenAI":131,"Airbnb":10,"护栏":58,"PM":3,"Codex":57,"Cognition":19,"ChatGPT":77}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Lenny":67,"Anthropic":142,"OpenAI":132,"Airbnb":10,"护栏":58,"PM":3,"Codex":57,"Cognition":19,"ChatGPT":77}</script>
 
 <script>
 (function(){

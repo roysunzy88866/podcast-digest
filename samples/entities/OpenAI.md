@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>131</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>132</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -92,6 +92,7 @@ unlisted: true
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(39:05起):本集顺带提到 Parag 曾把 Twitter 数据卖给 OpenAI
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(02:38起):本集说 OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(11:22起):本集提到 OpenAI 作为主要模型公司之一，其自我评估方式被类比为'银行自审'，且 ChatGPT 被观察到倾向于反射用户使用的语言
+- **[[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]]**(00:14起):Elisa 四年多前加入时收入只有几百万美元，她把企业侧收入做到几十亿美元；本集用 OpenAI 先做企业版后做自助版的教训贯穿全篇。
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:00起):本集说 Cursor 不需要在模型上与 Anthropic 和 OpenAI 竞争，人机界面才是差异化所在；还提到 Microsoft 拥有 OpenAI 权重
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:49起):本集将其描述为年亏损 209 亿美元、靠 Amazon、Microsoft、Google 等持续输血才能存活的不盈利公司，其 AI 收入占行业 70% 但来自补贴需求，计划上市但被推迟。
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集多次提到 OpenAI，包括暂停 Astra 模型部署、计划监控更大比例内部流量，以及作为 Plan A 下护城河被削弱的前沿公司之一
@@ -189,7 +190,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*131 集*
+*132 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -272,6 +273,7 @@ unlisted: true
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司(提及)
+- [[2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa|《先造机器再招人：OpenAI 前企业销售负责人的 Go-to-Market 反常识打法》]] — 作为被讨论公司
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
@@ -329,7 +331,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Claude]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Anthropic":140,"ChatGPT":77,"Google":47,"推理":54,"Cursor":68,"NVIDIA":45,"Codex":57,"Claude":65,"Stripe":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Anthropic":142,"ChatGPT":77,"Google":47,"推理":54,"Cursor":68,"NVIDIA":45,"Codex":57,"Claude":66,"Stripe":36}</script>
 
 <script>
 (function(){

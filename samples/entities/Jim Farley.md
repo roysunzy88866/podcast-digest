@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]] [[Gagan Viani]] [[Gagan Biani]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":5,"Ford":1,"BYD":1,"Tesla":9,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Ford":1,"BYD":1,"Tesla":9,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

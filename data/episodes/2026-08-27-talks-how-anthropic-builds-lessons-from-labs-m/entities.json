@@ -1,0 +1,897 @@
+{
+  "episode_id": "2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m",
+  "podcast": "精选演讲",
+  "date": "2026-08-27",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "组织与领导力",
+    "创业与行业",
+    "心理健康"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "mike-krieger",
+      "type": "person",
+      "role": "guest",
+      "name": "Mike Krieger",
+      "file": "Mike Krieger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.848,
+            20.693
+          ],
+          "quote": "Joining us on stage is the co-founder of Instagram and a member of technical staff at Anthropic, Mike Krieger.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "Mike Krieger 现任 Anthropic 技术团队成员并领导 Labs；本集大量讲述 Anthropic 内部如何用模型写代码、以 tag 委派协作，以及 Labs 双周「坚持还是转向」的组织方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.848,
+            20.693
+          ],
+          "quote": "Joining us on stage is the co-founder of Instagram and a member of technical staff at Anthropic, Mike Krieger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            50.024,
+            55.748
+          ],
+          "quote": "You are one of the preeminent builders, and you're leading labs at Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            65.882,
+            69.183
+          ],
+          "quote": "So for like the first two years I was at Anthropic, I was chief product officer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            94.774,
+            100.977
+          ],
+          "quote": "Several people that were CTOs at other places are now joining as ICs at Anthropic in other places.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            505.267,
+            516.171
+          ],
+          "quote": "So like with, I was really excited, I was talking to Swix earlier, like I'm really excited that we have tag out there because it is how we've been working for a while and I would get up on stages and people be like, how do you work at Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            522.113,
+            536.997
+          ],
+          "quote": "But if you got to poke into Anthropic, you would see, of course, Claude Code usage for things that are more interactive or if you're iterating on a particular specific thing where you want a lot of the high bandwidth back and forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            694.127,
+            697.568
+          ],
+          "quote": "I wanted to talk also a little bit about Anthropic Labs in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1044.4,
+            1057.184
+          ],
+          "quote": "A lot of people, today is like the startups day for AIE, you are obviously very sympathetically aligned to startups, but there's some anxiety in the room because tomorrow Anthropic could wake up and publish some markdown files that destroy my industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1058.184,
+            1061.605
+          ],
+          "quote": "So why should we not all just give up and join Anthropic?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1065.461,
+            1086.365
+          ],
+          "quote": "I mean, I actually joined, one of the main reasons I joined Anthropic was because I saw how much, this was like, you know, the models weren't that good at code yet, but they were getting there, like, how much it would unlock, like, hold, like, next generation of startups, not because it was gonna solve their ideation or their taste, but because, like, it would make experimentation way simpler and would get you to move faster, and I still, like, really believe that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1104.215,
+            1115.023
+          ],
+          "quote": "I think that is going to be true, though, not giving advice on how to compete with Anthropic, I guess, in a way, but it's actually not, because we're also a platform, which is like, there is so much, I think, room to be laser-obsessed with your particular",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1447.197,
+            1460.504
+          ],
+          "quote": "I try to remind myself and the team here, even within Anthropic, which is like, this is a fast-moving, but it is also a long game, and it's never just about today's model launch and reaction or this product launch or something else.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集里 Claude 被描述为「比 Mike 聪明得多」的模型队友：干完活要给它拆解权衡，非技术同事直接问 Claude 改产品，PR 的调查问题也丢给 Claude 去研究。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            76.886,
+            81.268
+          ],
+          "quote": "But for example, on product strategy, I would write a strategy doc and then have Claude critique it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            194.452,
+            197.613
+          ],
+          "quote": "And I realized, oh, I'm just going to go ask Claude to do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            197.633,
+            198.873
+          ],
+          "quote": "Like, why don't you ask Claude?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            272.663,
+            281.765
+          ],
+          "quote": "And for deployment, I realized that Claude Code had figured out a better deployment story with Bun, and I was like, okay, I need to port this whole thing from Python to TypeScript.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            516.192,
+            519.713
+          ],
+          "quote": "And I'd be like, oh yeah, we use these things like that are not quite Claude code,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            522.113,
+            536.997
+          ],
+          "quote": "But if you got to poke into Anthropic, you would see, of course, Claude Code usage for things that are more interactive or if you're iterating on a particular specific thing where you want a lot of the high bandwidth back and forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            548.22,
+            572.792
+          ],
+          "quote": "Actually, mid-journey, the fact that everybody was on Discord, seeing how other people were using it, I think, actually, to your earlier question, really helps with that unreasonableness or ambition, where the first time you see somebody tag Claude and be like, hey, don't just fix this bug, but now you are responsible for this part of the codebase, and I want you to monitor this feedback channel and proactively take on tasks, and then fix them, and then also take, if this API changes, do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            576.875,
+            579.477
+          ],
+          "quote": "I've just been using it as like a glorified Claude Code in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            630.502,
+            641.41
+          ],
+          "quote": "So one of the reasons we built Claude Code artifacts that we shipped a couple weeks ago was partially for that, which is you would send somebody a PR, and then they'd be like, I don't know, man, this is like 2,000 days of code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            643.571,
+            668.387
+          ],
+          "quote": "And what we started doing instead is sharing much more, like, here's a Claude Code artifact, like, here's the explanation, here's the intention of the change, here's the trade-offs that were made, and, like, I think that's gonna much more be the trend by which we communicate, which is the code is ultimately, you know, verifiable using some things, but actually, like, discussing intent and trade-offs and then measuring in production is, I think, at least the direction of travel we've gotten.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            673.029,
+            677.39
+          ],
+          "quote": "I'd actually talk to Claude about the code and say, all right, these are the questions that I would have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            678.511,
+            682.933
+          ],
+          "quote": "So it is kind of Claude-powered code review, but still human-driven, and for the really important ones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            709.013,
+            710.073
+          ],
+          "quote": "Everyone knows Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            822.206,
+            825.587
+          ],
+          "quote": "Like, Claude Design, for example, started in this sort of ad hoc sort of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            841.067,
+            842.328
+          ],
+          "quote": "What's the future of Claude Design?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            848.612,
+            856.398
+          ],
+          "quote": "I think for me, I mean, the things that are holding back Claude Design for being even better is better interaction with our other surfaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            856.758,
+            867.787
+          ],
+          "quote": "So, you know, I was designing something, or I was talking to Claude Code the other day, I'm like, I want a really much more seamless, like, what I'm talking about, the design for it, you know, interactive design, back to that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            867.807,
+            872.191
+          ],
+          "quote": "And I think in general, I mean, this goes back again to kind of unconstraining Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            882.919,
+            889.723
+          ],
+          "quote": "And then the other one is people, the lines between a Claude design and an app get blurrier and blurrier over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            889.763,
+            899.288
+          ],
+          "quote": "I've seen people, of course there's no persistence, but build fully functional, even games, which is definitely not what we designed Claude design for, but you can do it, it's just HTML and JavaScript.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            936.687,
+            938.488
+          ],
+          "quote": "Or more specifically, what would you delete in Claude?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1019.939,
+            1023.421
+          ],
+          "quote": "Also because then Claude can do what it needs to do and do well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1023.441,
+            1032.528
+          ],
+          "quote": "There's nothing more frustrating than having a co-work session where you're like, great, I've mapped out exactly what I want you to build and then be like, can you please create a paragraph that I can paste into Claude code?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1214.462,
+            1216.304
+          ],
+          "quote": "Any potential for Claude?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "Anthropic 内部用于交互式、高带宽来回迭代的场景；Mike 还靠它发现了用 Bun 的更好部署方案，并借它把整个 Python 项目迁到 TypeScript。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            272.663,
+            281.765
+          ],
+          "quote": "And for deployment, I realized that Claude Code had figured out a better deployment story with Bun, and I was like, okay, I need to port this whole thing from Python to TypeScript.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            516.192,
+            519.713
+          ],
+          "quote": "And I'd be like, oh yeah, we use these things like that are not quite Claude code,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            522.113,
+            536.997
+          ],
+          "quote": "But if you got to poke into Anthropic, you would see, of course, Claude Code usage for things that are more interactive or if you're iterating on a particular specific thing where you want a lot of the high bandwidth back and forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            576.875,
+            579.477
+          ],
+          "quote": "I've just been using it as like a glorified Claude Code in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            630.502,
+            641.41
+          ],
+          "quote": "So one of the reasons we built Claude Code artifacts that we shipped a couple weeks ago was partially for that, which is you would send somebody a PR, and then they'd be like, I don't know, man, this is like 2,000 days of code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            643.571,
+            668.387
+          ],
+          "quote": "And what we started doing instead is sharing much more, like, here's a Claude Code artifact, like, here's the explanation, here's the intention of the change, here's the trade-offs that were made, and, like, I think that's gonna much more be the trend by which we communicate, which is the code is ultimately, you know, verifiable using some things, but actually, like, discussing intent and trade-offs and then measuring in production is, I think, at least the direction of travel we've gotten.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            709.013,
+            710.073
+          ],
+          "quote": "Everyone knows Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            856.758,
+            867.787
+          ],
+          "quote": "So, you know, I was designing something, or I was talking to Claude Code the other day, I'm like, I want a really much more seamless, like, what I'm talking about, the design for it, you know, interactive design, back to that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1023.441,
+            1032.528
+          ],
+          "quote": "There's nothing more frustrating than having a co-work session where you're like, great, I've mapped out exactly what I want you to build and then be like, can you please create a paragraph that I can paste into Claude code?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tag",
+      "type": "company",
+      "role": "company",
+      "name": "tag",
+      "file": "tag",
+      "primary": true,
+      "how_described": "本集说 tag 是在 Slack 里委派任务给 Claude 的工具，Mike 60% 以上的代码由它写出；它的多人协作性让人把 Claude 当持有上下文、有记忆、能主动行动的真正队友。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            505.267,
+            516.171
+          ],
+          "quote": "So like with, I was really excited, I was talking to Swix earlier, like I'm really excited that we have tag out there because it is how we've been working for a while and I would get up on stages and people be like, how do you work at Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            537.197,
+            542.239
+          ],
+          "quote": "But most usage is actually much more delegating via tagging and via tag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            548.22,
+            572.792
+          ],
+          "quote": "Actually, mid-journey, the fact that everybody was on Discord, seeing how other people were using it, I think, actually, to your earlier question, really helps with that unreasonableness or ambition, where the first time you see somebody tag Claude and be like, hey, don't just fix this bug, but now you are responsible for this part of the codebase, and I want you to monitor this feedback channel and proactively take on tasks, and then fix them, and then also take, if this API changes, do that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "Mike 联合创始的公司，本集回顾其全 Python 技术栈（据说正靠模型往 PHP 转）、上线首周崩溃的扩容故事，以及 Python 3 时代做 MonkeyType 加类型的经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.848,
+            20.693
+          ],
+          "quote": "Joining us on stage is the co-founder of Instagram and a member of technical staff at Anthropic, Mike Krieger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            263.277,
+            264.578
+          ],
+          "quote": "All of Instagram is in Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            327.276,
+            333.639
+          ],
+          "quote": "Can you port Instagram, which you would know very well, to PHP like that, like a product?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            337.56,
+            342.582
+          ],
+          "quote": "One of the things we did at Instagram, this is when Python 3 came out, and we were able to add type hints for the first time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            407.498,
+            413.523
+          ],
+          "quote": "It's like we launched Instagram and it happened to be the first week everything melted because we didn't really know what we were doing on the backend side of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            449.472,
+            458
+          ],
+          "quote": "So even, you know, early Instagram, we had like a very simple but really effective like way in which you could do like ramp ups and rolls and dynamic config too where, you know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            473.693,
+            478.656
+          ],
+          "quote": "My favorite scaling story on Instagram, by the way, I think it's like your launch day when you DDoS yourself with email.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            926.884,
+            935.167
+          ],
+          "quote": "You deleted almost all of Bourbon to get to Instagram, which is like you had a whole, you know, solo-mo whatever thing, and you went to Instagram.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            948.075,
+            949.756
+          ],
+          "quote": "I mean, this is hard at Instagram.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            949.776,
+            959.444
+          ],
+          "quote": "The Instagram, we, some things that have like four to five percent usage, you're like, oh, that's really not very many, but then you have like 20 features that each have four to five percent usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1090.945,
+            1096.349
+          ],
+          "quote": "And we saw this on Instagram, we'd get questions at investors, like, well, what happens when Google launches a Photos product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1335.298,
+            1343.041
+          ],
+          "quote": "Like, on Instagram, like, the two things that we were thinking about was, like, what is Apple going to announce at WWC and is it going to, like, totally mess us up or boost us, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1440.093,
+            1441.795
+          ],
+          "quote": "We definitely had it on Instagram a couple of times.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-design",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Design",
+      "file": "Claude Design",
+      "primary": true,
+      "how_described": "本集说 Claude Design 是从 Labs 临时 bet 团队长出来、已有持久生命力的产品：六月发了大版本并开始为它专门招人；未来方向是与 Claude Code 等界面更互通、模糊设计与应用的界限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            822.206,
+            825.587
+          ],
+          "quote": "Like, Claude Design, for example, started in this sort of ad hoc sort of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            841.067,
+            842.328
+          ],
+          "quote": "What's the future of Claude Design?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            848.612,
+            856.398
+          ],
+          "quote": "I think for me, I mean, the things that are holding back Claude Design for being even better is better interaction with our other surfaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            882.919,
+            889.723
+          ],
+          "quote": "And then the other one is people, the lines between a Claude design and an app get blurrier and blurrier over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            889.763,
+            899.288
+          ],
+          "quote": "I've seen people, of course there's no persistence, but build fully functional, even games, which is definitely not what we designed Claude design for, but you can do it, it's just HTML and JavaScript.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "company",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集开场提到 Mike 赶在大会前发布了 Fable，主持人还转述了让 Fable 自己生成的问题「你在 AI 里会删掉什么」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            41.758,
+            44.12
+          ],
+          "quote": "Mike, thank you for releasing Fable just in time for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            101.157,
+            109.322
+          ],
+          "quote": "But I made a role shift, and it was actually right around the time where we started getting internal snapshots of what became Mythos and Fable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            920.421,
+            923.602
+          ],
+          "quote": "I actually asked Fable what Fable wants to ask you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            924.503,
+            926.323
+          ],
+          "quote": "And this is what Fable came up with.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "company",
+      "name": "CoWork",
+      "file": "CoWork",
+      "primary": false,
+      "how_described": "Mike 用 CoWork 举例说明每个知识工作者是否都需要一台能写 bash 的虚拟机，并吐槽在 CoWork 里规划清楚后还要生成文字粘贴进 Claude Code 是「2020 年的工作流」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            232.952,
+            242.982
+          ],
+          "quote": "And I think as you see our own product progression, even with things like CoWork, where does every single knowledge worker need a virtual machine that can write bash?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monkeytype",
+      "type": "company",
+      "role": "company",
+      "name": "MonkeyType",
+      "file": "MonkeyType",
+      "primary": false,
+      "how_described": "Mike 在 Instagram 时做的工具，捕获生产环境实际用到的运行时类型再映射回代码库，被他类比为用 LLM 做语言转换时可依赖生产数据的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            354.533,
+            364.743
+          ],
+          "quote": "And we built this thing called MonkeyType, where we basically, like, captured runtime types, like, basically the types that were actually getting used in production, and then mapped those back to the types in the codebase.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 tag 的用法讲成把 Claude 当有记忆、能主动接任务的队友，并说金融领域现有系统对 agentic 工作负载不灵活，技术栈两端都有机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1289.84,
+            1301.023
+          ],
+          "quote": "The hard part is a lot of the systems that were built to do the verifiability are kind of, almost by design, not super flexible in terms of agentic workloads on top, so I think there's opportunity at both sides of the stack there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "Mike 承认仍被 review 卡瓶颈，真正的瓶颈是人类无法完全构思正在做的事；他们改发 Claude Code artifact 讨论意图与权衡、在生产环境衡量，他本人则把「我会问的问题」丢给 Claude 去调查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            678.511,
+            682.933
+          ],
+          "quote": "So it is kind of Claude-powered code review, but still human-driven, and for the really important ones.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "startup",
+      "type": "concept",
+      "role": "concept",
+      "name": "初创公司 (startup)",
+      "file": "初创公司",
+      "primary": true,
+      "how_described": "本集 Mike 表示对初创企业依然非常看多：模型让实验更简单，痴迷于垂直领域的四五人团队比大组织更快，写代码从来不是限制性环节，关键在空间与用户理解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1174.303,
+            1178.79
+          ],
+          "quote": "Maybe it was on the timeline perspective, but it was never the thing that was going to make or break your startup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1427.421,
+            1438.171
+          ],
+          "quote": "Ben Horowitz's book, The Hard Thing About Hard Things, has this chapter on we're effed, it's over, and that feeling as a startup that probably many of you have had at startups where you're like, oh, I can't believe this thing happened.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "burnout",
+      "type": "concept",
+      "role": "concept",
+      "name": "倦怠 (burnout)",
+      "file": "倦怠",
+      "primary": true,
+      "how_described": "Mike 说倦怠了基本就完了、恢复要很久，建议真正留出休息时间——「没有任何一份工作重要到你不能离线几天」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1319.592,
+            1322.953
+          ],
+          "quote": "How do you advise people who are working 996 to avoid burnout?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1379.27,
+            1381.433
+          ],
+          "quote": "Burnout, if you burn out, you're kind of done.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ivan Burazin]] · [[Daytona]] · [[Cognition]] · [[Neon]] · [[Parallel]] · [[Devin]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Daytona":3,"Cognition":19,"Neon":3,"Parallel":5,"Devin":3,"智能体":325,"沙箱":58,"突发负载":1,"裸金属":1}</script>
+<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Daytona":3,"Cognition":19,"Neon":3,"Parallel":5,"Devin":3,"智能体":327,"沙箱":58,"突发负载":1,"裸金属":1}</script>
 
 <script>
 (function(){

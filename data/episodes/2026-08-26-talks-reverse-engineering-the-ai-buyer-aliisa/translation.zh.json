@@ -1,0 +1,2170 @@
+[
+ {
+  "seg": 0,
+  "start": 13.264,
+  "end": 13.804,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.304,
+  "end": 20.747,
+  "speaker": "Unknown",
+  "en": "My name is Elisa, and I joined a little research lab called OpenAI a little over four years ago.",
+  "zh": "我叫 Elisa,大约四年多前加入了一家叫 OpenAI 的小型研究实验室。"
+ },
+ {
+  "seg": 2,
+  "start": 21.287,
+  "end": 25.388,
+  "speaker": "Unknown",
+  "en": "When I joined, it was, you know, a couple million in revenue.",
+  "zh": "我加入的时候，它的收入大概只有几百万美元。"
+ },
+ {
+  "seg": 3,
+  "start": 25.408,
+  "end": 27.009,
+  "speaker": "Unknown",
+  "en": "We had a self-serve API.",
+  "zh": "我们有一个自助服务的 API。"
+ },
+ {
+  "seg": 4,
+  "start": 27.029,
+  "end": 30.81,
+  "speaker": "Unknown",
+  "en": "We had some developers who found it and swiped a credit card and started building.",
+  "zh": "有一些开发者自己发现了它，刷了张信用卡就开始构建了。"
+ },
+ {
+  "seg": 5,
+  "start": 32.49,
+  "end": 36.612,
+  "speaker": "Unknown",
+  "en": "And over the next few years, I helped grow the organizational several hundred people.",
+  "zh": "在接下来的几年里，我帮助把组织发展到几百人。"
+ },
+ {
+  "seg": 6,
+  "start": 37.192,
+  "end": 41.115,
+  "speaker": "Unknown",
+  "en": "Grow revenue to several billion on the enterprise side and launch multiple products.",
+  "zh": "把企业侧的收入增长到几十亿美元，并发布了多个产品。"
+ },
+ {
+  "seg": 7,
+  "start": 41.135,
+  "end": 50.582,
+  "speaker": "Unknown",
+  "en": "So I really had the opportunity to be at the bleeding edge of bringing this somewhat alien technology to organizations from startups to massive enterprises.",
+  "zh": "所以我真正有机会处在这个有点外星般的科技走向各类组织的最前沿，从初创公司到大型企业。"
+ },
+ {
+  "seg": 8,
+  "start": 50.662,
+  "end": 53.004,
+  "speaker": "Unknown",
+  "en": "And I'm going to share a little bit about what I learned along the way.",
+  "zh": "我将分享一些我在这条路上学到的东西。"
+ },
+ {
+  "seg": 9,
+  "start": 55.481,
+  "end": 74.517,
+  "speaker": "Unknown",
+  "en": "So I think most organizations typically have said, okay, I'm ready to build out my go-to-market organization, I'm going to hire a bunch of sales people, I'm going to hire RevOps, I'm going to hire sales engineers, and I'm going to build out my sales organization and then I'm going to figure out where the bottlenecks are and I'm going to add AI or I'm going to add automation to figure out how to scale this thing.",
+  "zh": "我认为大多数组织通常会说：好，我准备搭建我的 go-to-market 组织了，我要招一堆销售人员，我要招 RevOps,我要招销售工程师，我要搭建我的销售组织，然后我再去弄清楚瓶颈在哪里，然后我会加入 AI 或者加入自动化来搞清楚如何规模化这个东西。"
+ },
+ {
+  "seg": 10,
+  "start": 75.508,
+  "end": 77.949,
+  "speaker": "Unknown",
+  "en": "My current advice to founders is do the opposite.",
+  "zh": "我现在给创始人的建议是反着做。"
+ },
+ {
+  "seg": 11,
+  "start": 78.309,
+  "end": 79.93,
+  "speaker": "Unknown",
+  "en": "So start with what you can automate.",
+  "zh": "从你能自动化的地方开始。"
+ },
+ {
+  "seg": 12,
+  "start": 80.35,
+  "end": 90.294,
+  "speaker": "Unknown",
+  "en": "Start with there's so many tools available now in 2026 for a modern go-to-market or sales organization that have never been available before, which really turns the entire playbook on its head.",
+  "zh": "从这里开始：2026 年现在有这么多以前从来没有过的工具，可用于现代化的 go-to-market 或销售组织，这真的把整个打法彻底颠覆了。"
+ },
+ {
+  "seg": 13,
+  "start": 90.794,
+  "end": 98.097,
+  "speaker": "Unknown",
+  "en": "And you'll find that a lot of traditional sales leaders are very used to coming in and hiring a really big team and augmenting everything with humans.",
+  "zh": "你会发现很多传统销售领导者非常习惯于一进来就招一个很庞大的团队，用人力来增强一切。"
+ },
+ {
+  "seg": 14,
+  "start": 98.54,
+  "end": 103.544,
+  "speaker": "Unknown",
+  "en": "Bringing in sales operations, sales engineers, lots of sales people's BDRs, SDRs.",
+  "zh": "引入销售运营、销售工程师、很多销售人员、BDR、SDR。"
+ },
+ {
+  "seg": 15,
+  "start": 103.905,
+  "end": 106.507,
+  "speaker": "Unknown",
+  "en": "You can do so much of this through an automated approach now.",
+  "zh": "现在你可以通过自动化的方式完成其中很大一部分。"
+ },
+ {
+  "seg": 16,
+  "start": 106.887,
+  "end": 119.198,
+  "speaker": "Unknown",
+  "en": "So my advice to founders is build the machine first before you build the team, figure out what you can automate, figure out where the bottlenecks are and what's broken, and then add humans on top of that to get through those bottlenecks.",
+  "zh": "所以我给创始人的建议是：先构建机器，再构建团队，搞清楚你能自动化什么，搞清楚瓶颈在哪里、什么东西坏了，然后在此基础上加上人力来打通那些瓶颈。"
+ },
+ {
+  "seg": 17,
+  "start": 120.876,
+  "end": 123.618,
+  "speaker": "Unknown",
+  "en": "So just a story about how this played out at OpenAI.",
+  "zh": "讲一个这在 OpenAI 是如何展开的故事。"
+ },
+ {
+  "seg": 18,
+  "start": 123.959,
+  "end": 126.681,
+  "speaker": "Unknown",
+  "en": "So we launched ChatGPT in the end of 2022.",
+  "zh": "我们在 2022 年底发布了 ChatGPT。"
+ },
+ {
+  "seg": 19,
+  "start": 127.162,
+  "end": 129.824,
+  "speaker": "Unknown",
+  "en": "When we launched it, we had no enterprise features whatsoever.",
+  "zh": "发布的时候，我们完全没有任何企业功能。"
+ },
+ {
+  "seg": 20,
+  "start": 129.844,
+  "end": 134.048,
+  "speaker": "Unknown",
+  "en": "And I got bombarded with organizations saying, hey, everyone in my company is using ChatGPT.",
+  "zh": "然后我被各个组织轰炸，他们说：嘿，我们公司每个人都在用 ChatGPT。"
+ },
+ {
+  "seg": 21,
+  "start": 134.408,
+  "end": 135.249,
+  "speaker": "Unknown",
+  "en": "Can I get SSO?",
+  "zh": "我能拿到 SSO 吗？"
+ },
+ {
+  "seg": 22,
+  "start": 135.309,
+  "end": 136.25,
+  "speaker": "Unknown",
+  "en": "Can I get an NDA?",
+  "zh": "我能拿到 NDA 吗？"
+ },
+ {
+  "seg": 23,
+  "start": 136.27,
+  "end": 137.231,
+  "speaker": "Unknown",
+  "en": "Can I get an invoice?",
+  "zh": "我能拿到发票吗？"
+ },
+ {
+  "seg": 24,
+  "start": 137.811,
+  "end": 138.892,
+  "speaker": "Unknown",
+  "en": "I had none of these things.",
+  "zh": "这些东西我一样都没有。"
+ },
+ {
+  "seg": 25,
+  "start": 138.932,
+  "end": 140.833,
+  "speaker": "Unknown",
+  "en": "I had no enterprise features whatsoever.",
+  "zh": "我完全没有任何企业功能。"
+ },
+ {
+  "seg": 26,
+  "start": 141.573,
+  "end": 146.996,
+  "speaker": "Unknown",
+  "en": "So over the next few months, I begged and begged and begged our technical team, can we build an enterprise version of this product?",
+  "zh": "所以在接下来的几个月里，我一再再地恳求我们的技术团队：我们能不能为这个产品做一个企业版？"
+ },
+ {
+  "seg": 27,
+  "start": 147.016,
+  "end": 148.557,
+  "speaker": "Unknown",
+  "en": "Can we build some enterprise features?",
+  "zh": "我们能不能做一些企业功能？"
+ },
+ {
+  "seg": 28,
+  "start": 148.997,
+  "end": 151.499,
+  "speaker": "Unknown",
+  "en": "And finally, nine months later, we got approval.",
+  "zh": "最终，九个月后，我们获得了批准。"
+ },
+ {
+  "seg": 29,
+  "start": 151.839,
+  "end": 158.483,
+  "speaker": "Unknown",
+  "en": "Now over that nine month time, the companies that had been the loudest, the companies that had gotten to me, were the bigger companies, were the large enterprises.",
+  "zh": "在那九个月里，喊得最响的公司、能传到我耳朵里的公司，是那些更大的公司，是那些大型企业。"
+ },
+ {
+  "seg": 30,
+  "start": 159.023,
+  "end": 164.608,
+  "speaker": "Unknown",
+  "en": "So I thought, okay, we should go out and build a really high-end product for all these enterprises that want to use us.",
+  "zh": "所以我想：好，我们应该出去为所有这些想用我们的企业打造一个真正高端的产品。"
+ },
+ {
+  "seg": 31,
+  "start": 165.049,
+  "end": 166.99,
+  "speaker": "Unknown",
+  "en": "So we added every bell and whistle.",
+  "zh": "于是我们加上了所有的花哨功能。"
+ },
+ {
+  "seg": 32,
+  "start": 167.291,
+  "end": 168.612,
+  "speaker": "Unknown",
+  "en": "We made it lightning fast.",
+  "zh": "我们把它做得快如闪电。"
+ },
+ {
+  "seg": 33,
+  "start": 168.652,
+  "end": 170.734,
+  "speaker": "Unknown",
+  "en": "It was a very expensive product that we shipped.",
+  "zh": "那是我们发布的非常昂贵的产品。"
+ },
+ {
+  "seg": 34,
+  "start": 171.194,
+  "end": 172.055,
+  "speaker": "Unknown",
+  "en": "We went upmarket.",
+  "zh": "我们走向了高端市场。"
+ },
+ {
+  "seg": 35,
+  "start": 172.075,
+  "end": 174.157,
+  "speaker": "Unknown",
+  "en": "We went way upmarket, right out the gate.",
+  "zh": "我们一上来就直接走向了非常高端的市场。"
+ },
+ {
+  "seg": 36,
+  "start": 174.897,
+  "end": 176.318,
+  "speaker": "Unknown",
+  "en": "And, you know, we did fine.",
+  "zh": "然后，你知道，我们做得还行。"
+ },
+ {
+  "seg": 37,
+  "start": 176.418,
+  "end": 180.299,
+  "speaker": "Unknown",
+  "en": "We did pretty well, you know, and I think for most companies we did great.",
+  "zh": "我们做得相当不错，你知道，我认为对大多数公司来说我们做得很棒。"
+ },
+ {
+  "seg": 38,
+  "start": 181.099,
+  "end": 185.24,
+  "speaker": "Unknown",
+  "en": "But after about a quarter we said, well, we should probably also offer a self-serve version.",
+  "zh": "但大约一个季度之后，我们说：嗯，我们或许也应该提供一个自助服务的版本。"
+ },
+ {
+  "seg": 39,
+  "start": 185.601,
+  "end": 190.262,
+  "speaker": "Unknown",
+  "en": "Not everyone wants to opt into this heavy sales process and start with these really high price points.",
+  "zh": "并不是每个人都想选择这个繁重的销售流程，并从这么高的价格点开始。"
+ },
+ {
+  "seg": 40,
+  "start": 190.642,
+  "end": 194.663,
+  "speaker": "Unknown",
+  "en": "So then we released our self-serve motion in January of 2024, so about",
+  "zh": "于是我们在 2024 年 1 月发布了我们的自助服务动作，大约是"
+ },
+ {
+  "seg": 41,
+  "start": 196.464,
+  "end": 201.471,
+  "speaker": "Unknown",
+  "en": "four months after our enterprise version, and it just completely cannibalized our enterprise business.",
+  "zh": "在企业版四个月之后，它完全蚕食了我们的企业业务。"
+ },
+ {
+  "seg": 42,
+  "start": 202.032,
+  "end": 203.274,
+  "speaker": "Unknown",
+  "en": "It grew so much faster.",
+  "zh": "它增长得快得多。"
+ },
+ {
+  "seg": 43,
+  "start": 203.674,
+  "end": 212.507,
+  "speaker": "Unknown",
+  "en": "It turns out most people just didn't want to talk to a salesperson, and our mid-market SMB sort of self-serve business was much higher growth than our heavy enterprise business.",
+  "zh": "事实证明，大多数人只是不想和销售员交谈，而我们的中型市场 SMB 这类自助服务业务的增长远远高于我们繁重的企业业务。"
+ },
+ {
+  "seg": 44,
+  "start": 212.847,
+  "end": 215.628,
+  "speaker": "Unknown",
+  "en": "So it frustrated the sales reps because they now had to compete with self-serve.",
+  "zh": "这让销售代表很沮丧，因为他们现在不得不和自助服务竞争。"
+ },
+ {
+  "seg": 45,
+  "start": 215.648,
+  "end": 217.409,
+  "speaker": "Unknown",
+  "en": "It sort of cannibalized the customer base.",
+  "zh": "它某种程度上蚕食了客户群。"
+ },
+ {
+  "seg": 46,
+  "start": 217.449,
+  "end": 222.951,
+  "speaker": "Unknown",
+  "en": "They sometimes preferred to just move into the cheaper self-serve option.",
+  "zh": "客户有时更愿意直接选择更便宜的自助服务选项。"
+ },
+ {
+  "seg": 47,
+  "start": 223.071,
+  "end": 224.692,
+  "speaker": "Unknown",
+  "en": "And so that was a really valuable lesson.",
+  "zh": "所以这是一个非常宝贵的教训。"
+ },
+ {
+  "seg": 48,
+  "start": 225.132,
+  "end": 237.157,
+  "speaker": "Unknown",
+  "en": "We should have launched with self-serve first, listened to feedback from our customers on what they weren't getting from the self-serve product, and then figured out how to build a more expensive enterprise offering and then hire the team to sell it.",
+  "zh": "我们本应该先发布自助服务，倾听客户的反馈了解他们在自助服务产品中没有得到什么，然后再搞清楚如何构建一个更昂贵的企业版产品，然后再招聘团队去销售它。"
+ },
+ {
+  "seg": 49,
+  "start": 237.497,
+  "end": 238.519,
+  "speaker": "Unknown",
+  "en": "So we did it all backwards.",
+  "zh": "所以我们全都做反了。"
+ },
+ {
+  "seg": 50,
+  "start": 238.539,
+  "end": 242.945,
+  "speaker": "Unknown",
+  "en": "It was a really, really valuable learning experience, and from there we decided not to do that again.",
+  "zh": "那是一次非常非常宝贵的学习经历，从那以后我们决定不再那样做了。"
+ },
+ {
+  "seg": 51,
+  "start": 243.325,
+  "end": 249.915,
+  "speaker": "Unknown",
+  "en": "For every other product we launched at OpenAI, we made sure to do it self-serve first, learn where we needed to tack on humans and add them.",
+  "zh": "在 OpenAI 发布的之后每个产品，我们都确保先做自助服务，搞清楚哪里需要配置人手再把人加上。"
+ },
+ {
+  "seg": 52,
+  "start": 252.715,
+  "end": 261.203,
+  "speaker": "Unknown",
+  "en": "The other thing I'll mention, and if Everett's still here, a nice shout-out to him, we used Clay at OpenAI, and it was really, really useful for us.",
+  "zh": "另一件事我想提一下，如果 Everett 还在的话，向他致个意，我们在 OpenAI 用了 Clay，它对我们来说非常非常有用。"
+ },
+ {
+  "seg": 53,
+  "start": 261.283,
+  "end": 271.733,
+  "speaker": "Unknown",
+  "en": "So in the beginning, we were just completely overwhelmed with inbound, which I know sounds like such a champagne problem, but it was me and four sales reps, and we were getting 10,000 inbound a day.",
+  "zh": "所以一开始，我们完全被入站线索淹没了，我知道这听起来像个香槟酒问题，但当时只有我和四个销售代表，而我们每天收到一万个入站线索。"
+ },
+ {
+  "seg": 54,
+  "start": 271.793,
+  "end": 275.857,
+  "speaker": "Unknown",
+  "en": "I mean, it was just the most staggering problem to deal with this tidal wave of inbound.",
+  "zh": "我是说，应对这股入站线索的巨浪简直是 staggering 的难题。"
+ },
+ {
+  "seg": 55,
+  "start": 276.657,
+  "end": 279.938,
+  "speaker": "Unknown",
+  "en": "And, you know, if I could go back in time, there's so much I would have done differently.",
+  "zh": "而且，你知道，如果能回到过去，有很多事我会用不同的方式去做。"
+ },
+ {
+  "seg": 56,
+  "start": 280.398,
+  "end": 291.941,
+  "speaker": "Unknown",
+  "en": "I would have, first of all, added way more fields to our signup form, like phone number, because eventually when we did catch up and we built all the automation and we figured out how to handle these leads, I didn't have a lot of information to go follow up with people.",
+  "zh": "首先，我会在注册表单上加更多字段，比如电话号码，因为等到我们终于赶上了进度、建好了所有自动化流程、搞清楚了怎么处理这些线索的时候，我手头没有足够的信息去跟进这些人。"
+ },
+ {
+  "seg": 57,
+  "start": 292.381,
+  "end": 294.681,
+  "speaker": "Unknown",
+  "en": "So add a very in-depth sales form.",
+  "zh": "所以要加一个非常深入的销售表单。"
+ },
+ {
+  "seg": 58,
+  "start": 294.701,
+  "end": 300.483,
+  "speaker": "Unknown",
+  "en": "It can be optional, but if people are willing to give you their phone number, you should get it, because at some point you might want to call them or have AI call them.",
+  "zh": "字段可以是选填的，但如果人们愿意给你电话号码，你就应该拿到它，因为说不定什么时候你会想给他们打电话，或者让 AI 给他们打。"
+ },
+ {
+  "seg": 59,
+  "start": 301.263,
+  "end": 302.764,
+  "speaker": "Unknown",
+  "en": "So gather as much info as you can.",
+  "zh": "所以尽可能多地收集信息。"
+ },
+ {
+  "seg": 60,
+  "start": 303.384,
+  "end": 305.125,
+  "speaker": "Unknown",
+  "en": "Try to respond to everyone.",
+  "zh": "尽量回复每一个人。"
+ },
+ {
+  "seg": 61,
+  "start": 305.305,
+  "end": 310.048,
+  "speaker": "Unknown",
+  "en": "And I wish I would have done this, at least just sent some email out saying, hey, we hear you.",
+  "zh": "我真希望当时做了这件事，哪怕只是群发一封邮件说：嘿，我们听到了。"
+ },
+ {
+  "seg": 62,
+  "start": 310.088,
+  "end": 311.989,
+  "speaker": "Unknown",
+  "en": "We don't have our enterprise product ready yet.",
+  "zh": "我们的企业版产品还没准备好。"
+ },
+ {
+  "seg": 63,
+  "start": 312.329,
+  "end": 313.289,
+  "speaker": "Unknown",
+  "en": "You're on our wait list.",
+  "zh": "你在我们的等待名单上。"
+ },
+ {
+  "seg": 64,
+  "start": 313.309,
+  "end": 314.15,
+  "speaker": "Unknown",
+  "en": "You're on our list.",
+  "zh": "你在我们的名单上。"
+ },
+ {
+  "seg": 65,
+  "start": 314.29,
+  "end": 316.351,
+  "speaker": "Unknown",
+  "en": "Tell us X, Y, Z about what you're looking for.",
+  "zh": "告诉我们你在寻找的 X、Y、Z。"
+ },
+ {
+  "seg": 66,
+  "start": 316.731,
+  "end": 319.693,
+  "speaker": "Unknown",
+  "en": "Just some sort of automated email campaign to make them feel like we cared.",
+  "zh": "就是某种自动化邮件活动，让他们感觉我们在乎他们。"
+ },
+ {
+  "seg": 67,
+  "start": 320.113,
+  "end": 325.936,
+  "speaker": "Unknown",
+  "en": "Because when we finally did launch our enterprise product nine months later, almost every company I went out and talked to said, well, you never got back to me.",
+  "zh": "因为等到九个月后我们终于发布企业版产品时，几乎每一个我去接触的公司都说：可你们从来没回复过我。"
+ },
+ {
+  "seg": 68,
+  "start": 325.976,
+  "end": 327.637,
+  "speaker": "Unknown",
+  "en": "And I went out and I brought Microsoft Copilot.",
+  "zh": "然后我就出去买了 Microsoft Copilot。"
+ },
+ {
+  "seg": 69,
+  "start": 328.697,
+  "end": 330.618,
+  "speaker": "Unknown",
+  "en": "So that was a really hard lesson.",
+  "zh": "所以那是非常惨痛的教训。"
+ },
+ {
+  "seg": 70,
+  "start": 331.618,
+  "end": 335.859,
+  "speaker": "Unknown",
+  "en": "And then similarly on outbound, there's lots of great tools out there now.",
+  "zh": "类似地，在出站销售方面，现在有很多很棒的工具。"
+ },
+ {
+  "seg": 71,
+  "start": 335.939,
+  "end": 336.679,
+  "speaker": "Unknown",
+  "en": "Clay is one of them.",
+  "zh": "Clay 是其中之一。"
+ },
+ {
+  "seg": 72,
+  "start": 336.699,
+  "end": 338.719,
+  "speaker": "Unknown",
+  "en": "I hear really great things about Nooks.",
+  "zh": "我听说 Nooks 的评价也非常好。"
+ },
+ {
+  "seg": 73,
+  "start": 338.939,
+  "end": 350.342,
+  "speaker": "Unknown",
+  "en": "They're really wonderful tools to start researching, sequencing, dialing, and automate as much as the outbound pipeline gen as you can so your reps can focus on the qualified leads and the high-value conversations.",
+  "zh": "它们是非常棒的工具，可以用来做调研、排序、拨号，并且尽可能把出站销售管道的生成自动化，这样你的销售代表就能专注于合格的线索和高价值的对话。"
+ },
+ {
+  "seg": 74,
+  "start": 352.907,
+  "end": 359.11,
+  "speaker": "Unknown",
+  "en": "So this is my biggest advice to any company starting to build their go-to-market motion is just make it easy on your buyers.",
+  "zh": "所以这是我给任何开始搭建市场进入动作的公司最大的建议：让你的买家轻松一点。"
+ },
+ {
+  "seg": 75,
+  "start": 360.13,
+  "end": 360.851,
+  "speaker": "Unknown",
+  "en": "Don't give them homework.",
+  "zh": "不要给他们布置作业。"
+ },
+ {
+  "seg": 76,
+  "start": 361.411,
+  "end": 367.954,
+  "speaker": "Unknown",
+  "en": "Don't make them go and fill out a form or, if you can avoid it, integrate something without you hand-holding them through that.",
+  "zh": "不要让他们去填表单，或者如果可以避免的话，在他们操作时手把手引导他们集成某些东西。"
+ },
+ {
+  "seg": 77,
+  "start": 368.294,
+  "end": 372.636,
+  "speaker": "Unknown",
+  "en": "Never say, hey, go do these five things and then come back to me or go ask this person about this and come back to me.",
+  "zh": "永远不要说：嘿，去做这五件事然后回来找我，或者去问问这个人这件事然后回来找我。"
+ },
+ {
+  "seg": 78,
+  "start": 373.036,
+  "end": 374.857,
+  "speaker": "Unknown",
+  "en": "You do as much of the work for them.",
+  "zh": "你要替他们做尽可能多的工作。"
+ },
+ {
+  "seg": 79,
+  "start": 374.877,
+  "end": 375.818,
+  "speaker": "Unknown",
+  "en": "You hand-hold them through that.",
+  "zh": "你要手把手地引导他们完成。"
+ },
+ {
+  "seg": 80,
+  "start": 375.858,
+  "end": 380.48,
+  "speaker": "Unknown",
+  "en": "Maybe that means you have to set up hackathons and come in their office and do it with them in person.",
+  "zh": "也许这意味着你得办黑客马拉松，亲自到他们的办公室和他们一起做。"
+ },
+ {
+  "seg": 81,
+  "start": 381.38,
+  "end": 384.761,
+  "speaker": "Unknown",
+  "en": "Maybe that means you have to set up some sort of Zoom session and do it live with them.",
+  "zh": "也许这意味着你得安排某种 Zoom 会议，和他们实时一起做。"
+ },
+ {
+  "seg": 82,
+  "start": 385.142,
+  "end": 392.524,
+  "speaker": "Unknown",
+  "en": "But whatever you do, don't send your buyer away to do something and wait for them to come back because you lose total control of the sales cycle and it makes everything take longer.",
+  "zh": "但无论你做什么，都不要把你的买家打发走去做什么事然后等他们回来，因为这样你会完全失去对销售周期的控制，而且会让一切都变慢。"
+ },
+ {
+  "seg": 83,
+  "start": 393.264,
+  "end": 396.065,
+  "speaker": "Unknown",
+  "en": "Secondly, remove as much friction as you can in the buying process.",
+  "zh": "第二，在购买流程中尽可能消除摩擦。"
+ },
+ {
+  "seg": 84,
+  "start": 396.445,
+  "end": 398.346,
+  "speaker": "Unknown",
+  "en": "Fewer options is better on pricing.",
+  "zh": "定价上，选项越少越好。"
+ },
+ {
+  "seg": 85,
+  "start": 398.686,
+  "end": 400.467,
+  "speaker": "Unknown",
+  "en": "Make the paperwork easy and fast.",
+  "zh": "让文书工作简单快捷。"
+ },
+ {
+  "seg": 86,
+  "start": 400.827,
+  "end": 403.348,
+  "speaker": "Unknown",
+  "en": "Make the approval flow as manageable as possible.",
+  "zh": "让审批流程尽可能易于掌控。"
+ },
+ {
+  "seg": 87,
+  "start": 403.848,
+  "end": 407.649,
+  "speaker": "Unknown",
+  "en": "We've already talked about investing in self-service, doing that up front before you add on humans.",
+  "zh": "我们已经谈过投资自助服务的事，在配置人手之前先把它做在前面。"
+ },
+ {
+  "seg": 88,
+  "start": 408.009,
+  "end": 411.41,
+  "speaker": "Unknown",
+  "en": "And the other thing I'll hammer home is to avoid pilots at all cost.",
+  "zh": "另一件我要反复强调的事是：不惜一切代价避免试点。"
+ },
+ {
+  "seg": 89,
+  "start": 411.99,
+  "end": 416.251,
+  "speaker": "Unknown",
+  "en": "And this is something that comes up when I talk to founders a lot, is they say, we are stuck in pilot hell.",
+  "zh": "这是我和创始人交谈时经常出现的话题，他们会说：我们困在试点地狱里了。"
+ },
+ {
+  "seg": 90,
+  "start": 416.631,
+  "end": 418.571,
+  "speaker": "Unknown",
+  "en": "We've got all of these pilots going on.",
+  "zh": "我们有这么多试点在进行。"
+ },
+ {
+  "seg": 91,
+  "start": 418.972,
+  "end": 420.012,
+  "speaker": "Unknown",
+  "en": "None of them are converting.",
+  "zh": "没有一个在转化。"
+ },
+ {
+  "seg": 92,
+  "start": 420.032,
+  "end": 421.052,
+  "speaker": "Unknown",
+  "en": "There's so much work.",
+  "zh": "工作量太大了。"
+ },
+ {
+  "seg": 93,
+  "start": 421.092,
+  "end": 425.473,
+  "speaker": "Unknown",
+  "en": "Or if they do convert, I have to run an entire sales process all over again.",
+  "zh": "或者就算转化了，我还得把整个销售流程从头再来一遍。"
+ },
+ {
+  "seg": 94,
+  "start": 425.513,
+  "end": 426.333,
+  "speaker": "Unknown",
+  "en": "I sell the pilot.",
+  "zh": "我卖出了试点。"
+ },
+ {
+  "seg": 95,
+  "start": 426.693,
+  "end": 428.854,
+  "speaker": "Unknown",
+  "en": "I invest really heavily in managing the pilot.",
+  "zh": "我投入大量精力去管理试点。"
+ },
+ {
+  "seg": 96,
+  "start": 429.214,
+  "end": 430.914,
+  "speaker": "Unknown",
+  "en": "And then I have to start all over again from scratch.",
+  "zh": "然后我又得从零开始。"
+ },
+ {
+  "seg": 97,
+  "start": 431.034,
+  "end": 433.635,
+  "speaker": "Unknown",
+  "en": "Once the pilot, I get a yes to move forward on the sales cycle.",
+  "zh": "试点结束后，我得到一个推进销售周期的肯定答复。"
+ },
+ {
+  "seg": 98,
+  "start": 434.175,
+  "end": 436.138,
+  "speaker": "Unknown",
+  "en": "So use pilots sparingly.",
+  "zh": "所以要克制地使用试点。"
+ },
+ {
+  "seg": 99,
+  "start": 436.338,
+  "end": 444.527,
+  "speaker": "Unknown",
+  "en": "They should be not the default but the option for your most valuable, highest paying, biggest revenue opportunities.",
+  "zh": "它们不应该是默认选项，而应该是留给你最有价值、付费最高、营收最大的机会的选项。"
+ },
+ {
+  "seg": 100,
+  "start": 444.927,
+  "end": 446.149,
+  "speaker": "Unknown",
+  "en": "Now how do you get out of a pilot?",
+  "zh": "那么,你要如何跳出试点?"
+ },
+ {
+  "seg": 101,
+  "start": 446.409,
+  "end": 447.71,
+  "speaker": "Unknown",
+  "en": "Because every customer will ask you for one.",
+  "zh": "因为每个客户都会要求你做一个。"
+ },
+ {
+  "seg": 102,
+  "start": 447.73,
+  "end": 448.972,
+  "speaker": "Unknown",
+  "en": "They'll say, I need to try this out.",
+  "zh": "他们会说,我需要先试用一下。"
+ },
+ {
+  "seg": 103,
+  "start": 449.352,
+  "end": 450.253,
+  "speaker": "Unknown",
+  "en": "I need a POC.",
+  "zh": "我需要一个 POC。"
+ },
+ {
+  "seg": 104,
+  "start": 450.293,
+  "end": 451.534,
+  "speaker": "Unknown",
+  "en": "It's part of our process.",
+  "zh": "这是我们流程的一部分。"
+ },
+ {
+  "seg": 105,
+  "start": 452.015,
+  "end": 452.836,
+  "speaker": "Unknown",
+  "en": "I need to validate.",
+  "zh": "我需要验证。"
+ },
+ {
+  "seg": 106,
+  "start": 452.856,
+  "end": 454.177,
+  "speaker": "Unknown",
+  "en": "This works in my environment.",
+  "zh": "这在我的环境中是否可行。"
+ },
+ {
+  "seg": 107,
+  "start": 454.557,
+  "end": 455.678,
+  "speaker": "Unknown",
+  "en": "It meets my needs.",
+  "zh": "是否满足我的需求。"
+ },
+ {
+  "seg": 108,
+  "start": 456.039,
+  "end": 458.701,
+  "speaker": "Unknown",
+  "en": "We have all of these things we need to validate and check on.",
+  "zh": "我们有很多东西需要验证和核查。"
+ },
+ {
+  "seg": 109,
+  "start": 459.122,
+  "end": 464.407,
+  "speaker": "Unknown",
+  "en": "Just remember, as soon as you give someone access to your product, you're giving away a lot of power and leverage in the deal cycle.",
+  "zh": "只要记住,一旦你把产品的访问权限交给别人,你在整个交易周期中就交出了大量的权力和筹码。"
+ },
+ {
+  "seg": 110,
+  "start": 464.787,
+  "end": 467.828,
+  "speaker": "Unknown",
+  "en": "So there's lots of ways to get around these objections without a pilot.",
+  "zh": "所以有很多方法可以在不搞试点的情况下化解这些异议。"
+ },
+ {
+  "seg": 111,
+  "start": 468.229,
+  "end": 470.029,
+  "speaker": "Unknown",
+  "en": "You can introduce them to another customer.",
+  "zh": "你可以介绍他们认识另一个客户。"
+ },
+ {
+  "seg": 112,
+  "start": 470.389,
+  "end": 472.69,
+  "speaker": "Unknown",
+  "en": "You can do an eval on part of their data.",
+  "zh": "你可以用他们的一部分数据做一个评测。"
+ },
+ {
+  "seg": 113,
+  "start": 472.81,
+  "end": 477.733,
+  "speaker": "Unknown",
+  "en": "You can do a demo with their custom data, and you do it over Zoom rather than handing them access to it.",
+  "zh": "你可以用他们的定制数据做一个演示,而且通过 Zoom 来做,而不是把访问权限交给他们。"
+ },
+ {
+  "seg": 114,
+  "start": 478.153,
+  "end": 479.513,
+  "speaker": "Unknown",
+  "en": "You can give them an opt-out clause.",
+  "zh": "你可以给他们一个退出条款。"
+ },
+ {
+  "seg": 115,
+  "start": 479.553,
+  "end": 482.935,
+  "speaker": "Unknown",
+  "en": "It's not something you do when you're a giant company, but when you're a startup, you can get away with these things.",
+  "zh": "当你是大公司的时候不会这么做,但作为初创公司,你可以这么干而不会有人说什么。"
+ },
+ {
+  "seg": 116,
+  "start": 482.995,
+  "end": 490.078,
+  "speaker": "Unknown",
+  "en": "So sign a contract, you have 90 days to opt out if it doesn't meet your needs, and that shifts the onus of trying out the product and validating it.",
+  "zh": "也就是签一份合同,如果产品不满足需求,你们有 90 天时间可以选择退出,这就把试用和验证产品的责任转移了。"
+ },
+ {
+  "seg": 117,
+  "start": 490.799,
+  "end": 493.582,
+  "speaker": "Unknown",
+  "en": "Onto them, because the clock is ticking on them now.",
+  "zh": "转移到他们身上,因为现在倒计时对他们生效了。"
+ },
+ {
+  "seg": 118,
+  "start": 494.103,
+  "end": 495.905,
+  "speaker": "Unknown",
+  "en": "So it gives you a lot more control over the deal.",
+  "zh": "所以这让你对整个交易有更多的控制权。"
+ },
+ {
+  "seg": 119,
+  "start": 496.306,
+  "end": 501.233,
+  "speaker": "Unknown",
+  "en": "And then another one I like to do is I say, well, our normal contracts are three years, but we'll do a one-year POC with you.",
+  "zh": "另一个我喜欢用的招数是,我说,嗯,我们的标准合同是三年,但我们可以跟你做一个一年的 POC。"
+ },
+ {
+  "seg": 120,
+  "start": 501.633,
+  "end": 508.082,
+  "speaker": "Unknown",
+  "en": "So there's all kinds of ways to sort of negotiate your way around a POC without putting tons of resources and getting stuck in them.",
+  "zh": "所以有各种各样的方法可以在谈判中绕过 POC,而不用投入大量资源并深陷其中。"
+ },
+ {
+  "seg": 121,
+  "start": 510.199,
+  "end": 511.561,
+  "speaker": "Unknown",
+  "en": "The other thing is security.",
+  "zh": "另一件事是安全。"
+ },
+ {
+  "seg": 122,
+  "start": 511.641,
+  "end": 514.325,
+  "speaker": "Unknown",
+  "en": "Security is where deals tend to stall out and die over time.",
+  "zh": "安全是交易往往会停滞并最终死掉的地方。"
+ },
+ {
+  "seg": 123,
+  "start": 514.945,
+  "end": 516.227,
+  "speaker": "Unknown",
+  "en": "There's a lot you can automate now.",
+  "zh": "现在有很多东西可以自动化。"
+ },
+ {
+  "seg": 124,
+  "start": 516.247,
+  "end": 524.298,
+  "speaker": "Unknown",
+  "en": "There's so many wonderful tools on the market to build these trust portals where companies can come in, they can auto sign an NDA, they can self-serve.",
+  "zh": "市场上有非常多很棒的工具可以搭建这些信任门户,企业可以进来,自动签署 NDA,自助服务。"
+ },
+ {
+  "seg": 125,
+  "start": 524.698,
+  "end": 530.319,
+  "speaker": "Unknown",
+  "en": "For your pen test and security documentation, there's AI products that can auto-fill out your security questionnaires.",
+  "zh": "至于渗透测试和安全文档,有 AI 产品可以自动填写你的安全问卷。"
+ },
+ {
+  "seg": 126,
+  "start": 530.699,
+  "end": 533.38,
+  "speaker": "Unknown",
+  "en": "So automate as much of the security as you can.",
+  "zh": "所以尽可能把安全相关的环节自动化。"
+ },
+ {
+  "seg": 127,
+  "start": 533.4,
+  "end": 537.22,
+  "speaker": "Unknown",
+  "en": "And most companies will tell you, oh, I need to get on a call, I need to talk for two hours.",
+  "zh": "大多数公司会告诉你,哦,我需要约个电话,我需要聊两个小时。"
+ },
+ {
+  "seg": 128,
+  "start": 537.26,
+  "end": 538.02,
+  "speaker": "Unknown",
+  "en": "Push back on that.",
+  "zh": "要顶回去。"
+ },
+ {
+  "seg": 129,
+  "start": 538.32,
+  "end": 546.062,
+  "speaker": "Unknown",
+  "en": "You know, push them towards your trust portal and then make them come to you and say, you know, here's what I couldn't find, here's what wasn't available, here's why I need a call.",
+  "zh": "把他们推向你的信任门户,然后让他们来找你说,你看,这是我找不到的东西,这是没有提供的信息,这就是我为什么需要打电话。"
+ },
+ {
+  "seg": 130,
+  "start": 546.422,
+  "end": 552.683,
+  "speaker": "Unknown",
+  "en": "And try to automate security because a lot of it really can be automated now, which is really, really speeds up the sales cycle.",
+  "zh": "要尽量把安全环节自动化,因为现在确实有很多可以自动化,这真的能大大加速销售周期。"
+ },
+ {
+  "seg": 131,
+  "start": 556.712,
+  "end": 567.755,
+  "speaker": "Unknown",
+  "en": "So another thing we learned, another expensive story, and this goes back to sort of building the Porsche before the Prius, is we built this really high-end product, this enterprise product, and we set the price really high.",
+  "zh": "所以我们学到的另一件事,又是一个昂贵的故事,这又回到先造保时捷再造普锐斯的问题,我们造了一个非常高端的产品,这个企业级产品,然后我们把价格定得非常高。"
+ },
+ {
+  "seg": 132,
+  "start": 567.795,
+  "end": 571.696,
+  "speaker": "Unknown",
+  "en": "We set it initially, ChatGPT Enterprise was $60 per user per month.",
+  "zh": "我们最初定价时,ChatGPT Enterprise 是每用户每月 60 美元。"
+ },
+ {
+  "seg": 133,
+  "start": 572.116,
+  "end": 575.436,
+  "speaker": "Unknown",
+  "en": "Now we were really the first ones on the market, and we didn't know what pricing was going to be.",
+  "zh": "当时我们确实是市场上最早推出的,我们不知道定价应该是多少。"
+ },
+ {
+  "seg": 134,
+  "start": 576.297,
+  "end": 579.757,
+  "speaker": "Unknown",
+  "en": "So we basically priced it according to how expensive it was for us to serve it.",
+  "zh": "所以我们基本上是根据服务成本来定价的。"
+ },
+ {
+  "seg": 135,
+  "start": 580.298,
+  "end": 586.199,
+  "speaker": "Unknown",
+  "en": "And then all the other products came out on the market, Copilot and Gemini and Anthropic at a much lower price point, and we realized",
+  "zh": "然后市场上其他产品陆续推出,Copilot、Gemini 和 Anthropic,价格点低得多,我们意识到"
+ },
+ {
+  "seg": 136,
+  "start": 586.579,
+  "end": 588,
+  "speaker": "Unknown",
+  "en": "We had set the price too high.",
+  "zh": "我们把价格定得太高了。"
+ },
+ {
+  "seg": 137,
+  "start": 589.06,
+  "end": 598.044,
+  "speaker": "Unknown",
+  "en": "So we eventually went and we did lower the price, and what we did, we changed the model to basically a license fee, a bare fee to use the product, and then moved to usage-based.",
+  "zh": "所以我们最终降低了价格,我们做的是,把模式改成基本上是一个许可费,一个使用产品的基础费用,然后再转向基于用量的计费。"
+ },
+ {
+  "seg": 138,
+  "start": 598.444,
+  "end": 604.287,
+  "speaker": "Unknown",
+  "en": "And then we just saw, A, the barrier to entry went down, so we had so many more companies signing licenses and signing contracts with us.",
+  "zh": "然后我们看到,第一,准入门槛降低了,所以有更多的公司和我们签许可、签合同。"
+ },
+ {
+  "seg": 139,
+  "start": 604.627,
+  "end": 609.01,
+  "speaker": "Unknown",
+  "en": "And then usage went up over time as the barrier to entry went down.",
+  "zh": "然后随着准入门槛降低,用量也随时间上涨了。"
+ },
+ {
+  "seg": 140,
+  "start": 609.05,
+  "end": 617.856,
+  "speaker": "Unknown",
+  "en": "Because when it was $60 per month, organizations would come in and say, well, I'm only buying this for a subset of my team or only for my developers or only for my investors.",
+  "zh": "因为当价格是每月 60 美元的时候,组织会来说,嗯,我只给我团队里的一小部分人买,或者只给我的开发者,或者只给我的投资人。"
+ },
+ {
+  "seg": 141,
+  "start": 617.876,
+  "end": 619.597,
+  "speaker": "Unknown",
+  "en": "I'm not going to buy it for my whole company.",
+  "zh": "我不会给全公司买。"
+ },
+ {
+  "seg": 142,
+  "start": 619.617,
+  "end": 620.457,
+  "speaker": "Unknown",
+  "en": "It's too expensive.",
+  "zh": "太贵了。"
+ },
+ {
+  "seg": 143,
+  "start": 620.838,
+  "end": 623.359,
+  "speaker": "Unknown",
+  "en": "But once we lowered the threshold, it spread like wildfire.",
+  "zh": "但一旦我们降低了门槛,它就像野火一样蔓延开来。"
+ },
+ {
+  "seg": 144,
+  "start": 623.76,
+  "end": 624.84,
+  "speaker": "Unknown",
+  "en": "Everyone started using it.",
+  "zh": "所有人都开始用了。"
+ },
+ {
+  "seg": 145,
+  "start": 624.86,
+  "end": 627.362,
+  "speaker": "Unknown",
+  "en": "And it was a much better pricing model that we learned the hard way.",
+  "zh": "这是一个好得多的定价模式,不过是我们用惨痛教训换来的。"
+ },
+ {
+  "seg": 146,
+  "start": 627.742,
+  "end": 629.543,
+  "speaker": "Unknown",
+  "en": "I know over time now seats are out.",
+  "zh": "我知道现在按席位收费已经过时了。"
+ },
+ {
+  "seg": 147,
+  "start": 629.804,
+  "end": 631.345,
+  "speaker": "Unknown",
+  "en": "This has become common knowledge.",
+  "zh": "这已经成为常识。"
+ },
+ {
+  "seg": 148,
+  "start": 631.385,
+  "end": 632.385,
+  "speaker": "Unknown",
+  "en": "We learned it the hard way.",
+  "zh": "而我们是用惨痛教训换来的。"
+ },
+ {
+  "seg": 149,
+  "start": 632.686,
+  "end": 639.37,
+  "speaker": "Unknown",
+  "en": "And I also know that now usage is also getting pushback on as companies are seeing cost of usage skyrocket.",
+  "zh": "我也知道现在按用量计费也开始遭到抵制,因为企业看到用量成本飙升。"
+ },
+ {
+  "seg": 150,
+  "start": 639.451,
+  "end": 640.831,
+  "speaker": "Unknown",
+  "en": "There's easy ways around this.",
+  "zh": "对此有简单的解决办法。"
+ },
+ {
+  "seg": 151,
+  "start": 640.872,
+  "end": 642.212,
+  "speaker": "Unknown",
+  "en": "So you could, for example, cap.",
+  "zh": "比如，你可以设置上限。"
+ },
+ {
+  "seg": 152,
+  "start": 642.293,
+  "end": 643.573,
+  "speaker": "Unknown",
+  "en": "You could say, hey, we have a dashboard.",
+  "zh": "你可以说，嘿，我们有一个仪表盘。"
+ },
+ {
+  "seg": 153,
+  "start": 643.593,
+  "end": 645.095,
+  "speaker": "Unknown",
+  "en": "You can cap your spend per month.",
+  "zh": "你可以给你的每月支出设上限。"
+ },
+ {
+  "seg": 154,
+  "start": 645.435,
+  "end": 648.077,
+  "speaker": "Unknown",
+  "en": "Most companies don't end up using that, but they like to know that it's there.",
+  "zh": "大多数公司最终不会用这个功能，但他们喜欢知道它在那里。"
+ },
+ {
+  "seg": 155,
+  "start": 648.377,
+  "end": 649.858,
+  "speaker": "Unknown",
+  "en": "You can cap certain employees' spend.",
+  "zh": "你可以给某些员工的支出设上限。"
+ },
+ {
+  "seg": 156,
+  "start": 650.194,
+  "end": 652.716,
+  "speaker": "Unknown",
+  "en": "But people like the idea that it's a low barrier to entry.",
+  "zh": "但人们喜欢的是它门槛低这个点。"
+ },
+ {
+  "seg": 157,
+  "start": 652.876,
+  "end": 653.576,
+  "speaker": "Unknown",
+  "en": "People can use it.",
+  "zh": "人们可以使用它。"
+ },
+ {
+  "seg": 158,
+  "start": 653.717,
+  "end": 655.958,
+  "speaker": "Unknown",
+  "en": "If they're using it, ideally they're getting value out of it.",
+  "zh": "如果他们在用，理想情况下他们会从中获得价值。"
+ },
+ {
+  "seg": 159,
+  "start": 656.278,
+  "end": 659.761,
+  "speaker": "Unknown",
+  "en": "And then there's ways to handle the objections of what if the cost spirals out of control.",
+  "zh": "然后对于“万一成本失控怎么办”这种反对意见，也有办法处理。"
+ },
+ {
+  "seg": 160,
+  "start": 662.223,
+  "end": 664.084,
+  "speaker": "Unknown",
+  "en": "All right, so we've talked about building the machine.",
+  "zh": "好的，我们已经聊了打造机器。"
+ },
+ {
+  "seg": 161,
+  "start": 664.424,
+  "end": 665.905,
+  "speaker": "Unknown",
+  "en": "When do you hire the humans?",
+  "zh": "什么时候雇人类？"
+ },
+ {
+  "seg": 162,
+  "start": 666.046,
+  "end": 667.667,
+  "speaker": "Unknown",
+  "en": "When do you start bringing on salespeople?",
+  "zh": "什么时候开始招销售人员？"
+ },
+ {
+  "seg": 163,
+  "start": 667.687,
+  "end": 668.908,
+  "speaker": "Unknown",
+  "en": "Salespeople are expensive.",
+  "zh": "销售人员很贵。"
+ },
+ {
+  "seg": 164,
+  "start": 669.948,
+  "end": 671.489,
+  "speaker": "Unknown",
+  "en": "That's a big hire.",
+  "zh": "这是一项重大招聘。"
+ },
+ {
+  "seg": 165,
+  "start": 672.05,
+  "end": 673.571,
+  "speaker": "Unknown",
+  "en": "How do you know when the time is right?",
+  "zh": "你怎么知道时机是否合适？"
+ },
+ {
+  "seg": 166,
+  "start": 673.911,
+  "end": 678.775,
+  "speaker": "Unknown",
+  "en": "It's basically when you're starting to hit, you've gone as far as you can in your sales process,",
+  "zh": "基本上就是当你开始触及——你在销售流程中已经走到了能走的最远处，"
+ },
+ {
+  "seg": 167,
+  "start": 679.215,
+  "end": 687.177,
+  "speaker": "Unknown",
+  "en": "And you're really having a lot of companies saying, I just need to talk to somebody, whether it's, I need a demo, I just need to look someone in the eye and build the trust here.",
+  "zh": "而且真的有大量公司在说，我就是需要和某个人谈谈，不管是“我需要一个演示”，还是“我只需要看着某个人的眼睛，在这里建立信任”。"
+ },
+ {
+  "seg": 168,
+  "start": 687.557,
+  "end": 690.058,
+  "speaker": "Unknown",
+  "en": "And you're going to have that as you start to move upmarket naturally.",
+  "zh": "而当你自然地开始向上游市场移动时，你就会遇到这种情况。"
+ },
+ {
+  "seg": 169,
+  "start": 690.118,
+  "end": 694.659,
+  "speaker": "Unknown",
+  "en": "Bigger companies are going to want to shake the hands of a human and have a conversation with them.",
+  "zh": "更大的公司会想要和人类握手并与之交谈。"
+ },
+ {
+  "seg": 170,
+  "start": 695.3,
+  "end": 707.163,
+  "speaker": "Unknown",
+  "en": "On that note, I will say, avoid the pull-up market as long as you can resist it, because once you get a big customer, they'll come and they'll say, I can spend a million dollars, 10 million dollars with you, and it's very tempting to want to orient your whole business around that.",
+  "zh": "说到这里，我要说，尽可能 resist(抵制)进入 pull-up market(上游市场)，因为一旦你拿到一个大客户，他们会来说，我可以花一百万美元、一千万美元在你身上，你会很想把整个业务都围绕他们来调整。"
+ },
+ {
+  "seg": 171,
+  "start": 707.483,
+  "end": 709.525,
+  "speaker": "Unknown",
+  "en": "They will take so many of your resources.",
+  "zh": "他们会占用你非常多的资源。"
+ },
+ {
+  "seg": 172,
+  "start": 709.665,
+  "end": 716.09,
+  "speaker": "Unknown",
+  "en": "As soon as you have this enterprise customer, they will take so many of your legal, security, product, engineering, sales resources.",
+  "zh": "一旦你有了这个企业客户，他们会占用你非常多的法务、安全、产品、工程、销售资源。"
+ },
+ {
+  "seg": 173,
+  "start": 716.11,
+  "end": 720.134,
+  "speaker": "Unknown",
+  "en": "So you want to be really, really picky about who those first big enterprise partners are.",
+  "zh": "所以你要对你最初几个大型企业合作伙伴的选择非常、非常挑剔。"
+ },
+ {
+  "seg": 174,
+  "start": 720.554,
+  "end": 727.179,
+  "speaker": "Unknown",
+  "en": "Eventually, you're going to need, most likely, not everyone, but eventually, you're most likely going to need some humans to help have these conversations.",
+  "zh": "最终，你很可能会需要——不是所有人都需要——但最终，你很可能需要一些人类来帮助进行这些对话。"
+ },
+ {
+  "seg": 175,
+  "start": 728.08,
+  "end": 728.86,
+  "speaker": "Unknown",
+  "en": "So who do you hire?",
+  "zh": "那么你雇谁？"
+ },
+ {
+  "seg": 176,
+  "start": 728.941,
+  "end": 735.624,
+  "speaker": "Unknown",
+  "en": "You hire someone who is AI native, who really gets AI, who lives it, who can authentically sell it because they're really bought into it.",
+  "zh": "你雇一个 AI 原生的人，一个真正懂 AI 的人，一个生活在其中的人，一个能够真实地推销它的人，因为他们真正认同它。"
+ },
+ {
+  "seg": 177,
+  "start": 735.904,
+  "end": 740.966,
+  "speaker": "Unknown",
+  "en": "This is not every seller right now, but this is more and more becoming the norm with sellers, with account executives.",
+  "zh": "现在不是每个销售都是这样，但这正越来越多地成为销售、客户经理的常态。"
+ },
+ {
+  "seg": 178,
+  "start": 740.986,
+  "end": 745.709,
+  "speaker": "Unknown",
+  "en": "You want them to practice with their preach, you want them to be efficient, you want them to be bought into the culture of your organization.",
+  "zh": "你要他们言行一致地实践他们所宣扬的东西，你要他们高效，你要他们认同你所在企业的文化。"
+ },
+ {
+  "seg": 179,
+  "start": 746.569,
+  "end": 747.349,
+  "speaker": "Unknown",
+  "en": "Why do you need them?",
+  "zh": "为什么你需要他们？"
+ },
+ {
+  "seg": 180,
+  "start": 747.61,
+  "end": 749.41,
+  "speaker": "Unknown",
+  "en": "I'm calling this the revenge of the steak dinner.",
+  "zh": "我把这称为“牛排晚餐的复仇”。"
+ },
+ {
+  "seg": 181,
+  "start": 749.851,
+  "end": 759.395,
+  "speaker": "Unknown",
+  "en": "As more and more of this becomes automated, as you have the automated outbound, the automated demo, the automated security checklist, more and more companies are craving in-person times with humans.",
+  "zh": "随着越来越多的事情被自动化，当你有了自动化外呼、自动化演示、自动化安全清单，越来越多的公司渴望与人面对面相处的时间。"
+ },
+ {
+  "seg": 182,
+  "start": 759.415,
+  "end": 767.779,
+  "speaker": "Unknown",
+  "en": "So conferences, conference booths work really well, dinners work really well, and they're, by the way, not that expensive to set up a dinner with some buyers, some customers, some prospects.",
+  "zh": "所以会议、会议展位效果很好，晚餐效果很好，顺便说一句，和一些买家、一些客户、一些潜在客户办一场晚餐并不那么贵。"
+ },
+ {
+  "seg": 183,
+  "start": 768.059,
+  "end": 773.882,
+  "speaker": "Unknown",
+  "en": "It's a very effective tool, and you do still, at this moment in time, need humans to run those dinners.",
+  "zh": "这是一个非常有效的工具，而在此时此刻，你确实仍然需要人类来运作那些晚餐。"
+ },
+ {
+  "seg": 184,
+  "start": 775.847,
+  "end": 778.509,
+  "speaker": "Unknown",
+  "en": "So let's talk a little bit about hiring salespeople and how you pay them.",
+  "zh": "那么我们来聊一点关于雇佣销售人员以及如何给他们付酬的问题。"
+ },
+ {
+  "seg": 185,
+  "start": 778.889,
+  "end": 779.829,
+  "speaker": "Unknown",
+  "en": "This comes up a lot.",
+  "zh": "这个问题经常被提起。"
+ },
+ {
+  "seg": 186,
+  "start": 779.869,
+  "end": 784.312,
+  "speaker": "Unknown",
+  "en": "At OpenAI, we were notorious because we still have not given out comp plans.",
+  "zh": "在 OpenAI，我们是出了名的，因为我们至今仍未发放薪酬方案。"
+ },
+ {
+  "seg": 187,
+  "start": 785.112,
+  "end": 787.393,
+  "speaker": "Unknown",
+  "en": "It was not necessarily my intention to wait this long.",
+  "zh": "等这么久并不一定是我的本意。"
+ },
+ {
+  "seg": 188,
+  "start": 787.413,
+  "end": 790.555,
+  "speaker": "Unknown",
+  "en": "I just kind of kept kicking the can down the road and saying eventually I'll pay commission.",
+  "zh": "我只是一直把这件事往后拖，说最终我会付提成。"
+ },
+ {
+  "seg": 189,
+  "start": 790.575,
+  "end": 793.637,
+  "speaker": "Unknown",
+  "en": "And then we just, the team got bigger and it got harder and harder.",
+  "zh": "然后我们——团队变大了，事情变得越来越难。"
+ },
+ {
+  "seg": 190,
+  "start": 793.697,
+  "end": 795.818,
+  "speaker": "Unknown",
+  "en": "I do think OpenAI is finally about to put in commission.",
+  "zh": "我确实认为 OpenAI 终于快要引入提成了。"
+ },
+ {
+  "seg": 191,
+  "start": 796.638,
+  "end": 799.4,
+  "speaker": "Unknown",
+  "en": "But we made it really far without any comp plans.",
+  "zh": "但我们在没有任何薪酬方案的情况下走得非常远。"
+ },
+ {
+  "seg": 192,
+  "start": 799.84,
+  "end": 803.003,
+  "speaker": "Unknown",
+  "en": "I would not necessarily say that is the right path for every company to follow.",
+  "zh": "我不一定认为那是每家公司都应该效仿的正确路径。"
+ },
+ {
+  "seg": 193,
+  "start": 803.043,
+  "end": 807.367,
+  "speaker": "Unknown",
+  "en": "I think OpenAI could get away with that because of the equity packages and the way the company was increasing in value.",
+  "zh": "我认为 OpenAI 能这么做是因为股权包以及公司价值不断增长的方式。"
+ },
+ {
+  "seg": 194,
+  "start": 807.807,
+  "end": 812.752,
+  "speaker": "Unknown",
+  "en": "But in general, it's really hard to hire the best enterprise sellers in the market if you don't pay a variable.",
+  "zh": "但一般来说，如果你不付浮动薪酬，真的很难雇到市场上最好的企业销售。"
+ },
+ {
+  "seg": 195,
+  "start": 813.192,
+  "end": 815.694,
+  "speaker": "Unknown",
+  "en": "That said, you can get away with it for your first few hires.",
+  "zh": "话虽如此，对于你的最初几个招聘，你可以不这么做。"
+ },
+ {
+  "seg": 196,
+  "start": 816.135,
+  "end": 818.637,
+  "speaker": "Unknown",
+  "en": "Those first few sales hires are usually wired a little bit differently.",
+  "zh": "那最初几个销售招聘的人，通常思维方式有点不一样。"
+ },
+ {
+  "seg": 197,
+  "start": 818.957,
+  "end": 820.078,
+  "speaker": "Unknown",
+  "en": "They're there to build the company.",
+  "zh": "他们是为了建设这家公司而来。"
+ },
+ {
+  "seg": 198,
+  "start": 820.198,
+  "end": 821.139,
+  "speaker": "Unknown",
+  "en": "They're there for the equity.",
+  "zh": "他们是为了股权而来。"
+ },
+ {
+  "seg": 199,
+  "start": 821.179,
+  "end": 822.32,
+  "speaker": "Unknown",
+  "en": "They want to roll up their sleeves.",
+  "zh": "他们想挽起袖子大干一场。"
+ },
+ {
+  "seg": 200,
+  "start": 822.34,
+  "end": 823.181,
+  "speaker": "Unknown",
+  "en": "They want to contribute.",
+  "zh": "他们想要做出贡献。"
+ },
+ {
+  "seg": 201,
+  "start": 823.481,
+  "end": 826.562,
+  "speaker": "Unknown",
+  "en": "They're not necessarily as motivated just by commission and by a W-2.",
+  "zh": "他们不一定仅仅被提成和一张 W-2 表所激励。"
+ },
+ {
+  "seg": 202,
+  "start": 826.863,
+  "end": 829.544,
+  "speaker": "Unknown",
+  "en": "So you can get away with it really for the first two or three sales hires.",
+  "zh": "所以最初两三个销售岗位的招聘你真的可以不用那么讲究。"
+ },
+ {
+  "seg": 203,
+  "start": 830.004,
+  "end": 835.006,
+  "speaker": "Unknown",
+  "en": "Eventually, you're going to want to hire kind of more coin-operated enterprise sellers.",
+  "zh": "最终，你会想要雇用那种更“见钱眼开”的企业级销售。"
+ },
+ {
+  "seg": 204,
+  "start": 835.386,
+  "end": 840.008,
+  "speaker": "Unknown",
+  "en": "They're very motivated by the cash compensation, and so eventually you'll need to put in a comp plan.",
+  "zh": "他们对现金报酬的积极性非常高，所以最终你会需要制定一份薪酬计划。"
+ },
+ {
+  "seg": 205,
+  "start": 840.328,
+  "end": 845.57,
+  "speaker": "Unknown",
+  "en": "So I get this question a lot, so I just wanted to put it out there on how to think about building out comp plans.",
+  "zh": "这个问题我被问过很多次，所以我想在这里谈谈如何构建薪酬计划。"
+ },
+ {
+  "seg": 206,
+  "start": 846.071,
+  "end": 848.972,
+  "speaker": "Unknown",
+  "en": "Simpler is better, but have upside for outperformers.",
+  "zh": "越简单越好，但要给超额完成者留下上升空间。"
+ },
+ {
+  "seg": 207,
+  "start": 851.184,
+  "end": 852.385,
+  "speaker": "Unknown",
+  "en": "So I love this slide.",
+  "zh": "我很喜欢这一页幻灯片。"
+ },
+ {
+  "seg": 208,
+  "start": 852.405,
+  "end": 858.87,
+  "speaker": "Unknown",
+  "en": "I saw this early in my career in sales, and I just think it's a really great reminder of what you're actually selling.",
+  "zh": "我在职业生涯早期做销售时看到过它，我觉得它很好地提醒了你真正在卖的是什么。"
+ },
+ {
+  "seg": 209,
+  "start": 859.21,
+  "end": 860.631,
+  "speaker": "Unknown",
+  "en": "You're not selling your tool.",
+  "zh": "你卖的不是你的工具。"
+ },
+ {
+  "seg": 210,
+  "start": 861.132,
+  "end": 862.493,
+  "speaker": "Unknown",
+  "en": "You're not selling your product.",
+  "zh": "你卖的不是你的产品。"
+ },
+ {
+  "seg": 211,
+  "start": 863.013,
+  "end": 867.256,
+  "speaker": "Unknown",
+  "en": "You're selling what that tool or that product does to your champion or your buyer.",
+  "zh": "你卖的是那个工具或产品能对你的支持者或你的买方带来什么。"
+ },
+ {
+  "seg": 212,
+  "start": 867.836,
+  "end": 871.019,
+  "speaker": "Unknown",
+  "en": "And this is where I do think humans are still very helpful.",
+  "zh": "而这正是我确实认为人类仍然非常有帮助的地方。"
+ },
+ {
+  "seg": 213,
+  "start": 871.499,
+  "end": 875.8,
+  "speaker": "Unknown",
+  "en": "They're very good at value selling, and I think AI does still have some ways to go on value selling.",
+  "zh": "他们非常擅长价值销售，而我认为 AI 在价值销售上仍有一些路要走。"
+ },
+ {
+  "seg": 214,
+  "start": 876.161,
+  "end": 880.962,
+  "speaker": "Unknown",
+  "en": "So until we totally crack that, I do think we're going to need those steak dinners, and we're going to need those humans to sell value.",
+  "zh": "所以在我们完全攻克这一点之前，我确实认为我们还需要那些牛排晚餐，还需要那些人来销售价值。"
+ },
+ {
+  "seg": 215,
+  "start": 882.463,
+  "end": 883.283,
+  "speaker": "Unknown",
+  "en": "All right, so that's me.",
+  "zh": "好了，这就是我的分享。"
+ },
+ {
+  "seg": 216,
+  "start": 883.303,
+  "end": 886.444,
+  "speaker": "Unknown",
+  "en": "You can grab a one-pager of this with that QR code.",
+  "zh": "你们可以用那个二维码拿一份这个的一页纸总结。"
+ },
+ {
+  "seg": 217,
+  "start": 886.524,
+  "end": 888.165,
+  "speaker": "Unknown",
+  "en": "Also really easy to find on LinkedIn.",
+  "zh": "在 LinkedIn 上也很容易找到我。"
+ },
+ {
+  "seg": 218,
+  "start": 888.185,
+  "end": 891.766,
+  "speaker": "Unknown",
+  "en": "I'm the only one with my crazy spelling of a name with A-L-I-I-S-A.",
+  "zh": "我是唯一一个名字拼写这么怪的人，A-L-I-I-S-A。"
+ },
+ {
+  "seg": 219,
+  "start": 892.126,
+  "end": 893.586,
+  "speaker": "Unknown",
+  "en": "Feel free to reach out if you have questions.",
+  "zh": "如果有问题，欢迎随时联系我。"
+ },
+ {
+  "seg": 220,
+  "start": 893.626,
+  "end": 895.867,
+  "speaker": "Unknown",
+  "en": "And it looks like I have a couple minutes for Q&A here.",
+  "zh": "看起来我还有几分钟可以做问答。"
+ },
+ {
+  "seg": 221,
+  "start": 896.507,
+  "end": 897.428,
+  "speaker": "Unknown",
+  "en": "First question right here.",
+  "zh": "这边有第一个问题。"
+ },
+ {
+  "seg": 222,
+  "start": 898.808,
+  "end": 900.629,
+  "speaker": "Unknown",
+  "en": "Can you hear me?",
+  "zh": "你们能听到我说话吗？"
+ },
+ {
+  "seg": 223,
+  "start": 900.989,
+  "end": 901.209,
+  "speaker": "Unknown",
+  "en": "I can.",
+  "zh": "可以。"
+ },
+ {
+  "seg": 224,
+  "start": 901.477,
+  "end": 910.367,
+  "speaker": "Unknown",
+  "en": "OK. Yeah, I was just curious about, you talked about the POCs and pilots should be the exception, but then there's also the self-serve first motion.",
+  "zh": "好。对，我只是很好奇，你谈到 POC 和试点应该是例外情况，但同时还有自助服务优先的动作。"
+ },
+ {
+  "seg": 225,
+  "start": 910.427,
+  "end": 911.348,
+  "speaker": "Unknown",
+  "en": "How do you reconcile that?",
+  "zh": "你怎么调和这两者？"
+ },
+ {
+  "seg": 226,
+  "start": 911.388,
+  "end": 916.934,
+  "speaker": "Unknown",
+  "en": "Because, you know, the POC or pilot then becomes just, do they get help when they go off and do self-serve?",
+  "zh": "因为，你知道，POC 或试点然后就变成了——当他们去做自助服务时，他们会得到帮助吗？"
+ },
+ {
+  "seg": 227,
+  "start": 917.715,
+  "end": 919.457,
+  "speaker": "Unknown",
+  "en": "And do they need your help to be successful?",
+  "zh": "他们需要你的帮助才能成功吗？"
+ },
+ {
+  "seg": 228,
+  "start": 919.886,
+  "end": 920.427,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "问得好。"
+ },
+ {
+  "seg": 229,
+  "start": 920.527,
+  "end": 936.49,
+  "speaker": "Unknown",
+  "en": "I am sort of thinking of PLG, so people coming and self-serving and just using your product is very different from a POC, which is usually a contracted period of time where they have access to your product and they have support and resources from your team, and you're giving them sort of services and support along the way.",
+  "zh": "我想到的更多是 PLG，也就是人们来自助使用、直接用你的产品，这与 POC 非常不同，POC 通常是签约的一段固定时间，在此期间他们有权访问你的产品，并从你的团队获得支持和资源，而你在整个过程中给他们提供某种服务和支持。"
+ },
+ {
+  "seg": 230,
+  "start": 936.89,
+  "end": 957.377,
+  "speaker": "Unknown",
+  "en": "So you're right, that is, like self-serve access to your product is totally fine and great, and you can stage gate that or limit that with consumption, time box it, or feature gate it, and those are all really valid ways to have people sort of build a natural PLG funnel into your product.",
+  "zh": "所以你说得对，像自助访问你的产品是完全可以的，而且很好，你可以用消费量设置阶段门槛或限制它、设定时间限制，或者用功能门槛来限制，这些都是非常有效的方式，让人们在你的产品中自然地形成 PLG 漏斗。"
+ },
+ {
+  "seg": 231,
+  "start": 957.738,
+  "end": 964.46,
+  "speaker": "Unknown",
+  "en": "When I talk about POCs, I'm specifically referring to more handheld services-oriented POCs that require a sales engineer.",
+  "zh": "当我谈到 POC 时，我特指那种更多需要人工服务、需要一名销售工程师的"
+ },
+ {
+  "seg": 232,
+  "start": 964.936,
+  "end": 967.038,
+  "speaker": "Unknown",
+  "en": "or salesperson to sort of supervise.",
+  "zh": "或销售员来从旁监督的 POC。"
+ },
+ {
+  "seg": 233,
+  "start": 969.001,
+  "end": 970.262,
+  "speaker": "Unknown",
+  "en": "Hey, Elisa, Roy.",
+  "zh": "嗨，Elisa，我是 Roy。"
+ },
+ {
+  "seg": 234,
+  "start": 970.843,
+  "end": 972.945,
+  "speaker": "Unknown",
+  "en": "Quick question on forward-to-port engineers.",
+  "zh": "一个关于前置部署工程师的快速问题。"
+ },
+ {
+  "seg": 235,
+  "start": 973.045,
+  "end": 975.568,
+  "speaker": "Unknown",
+  "en": "How do you think about them fitting into the sales cycle?",
+  "zh": "你怎么看他们在销售周期中的定位？"
+ },
+ {
+  "seg": 236,
+  "start": 977.16,
+  "end": 977.46,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 237,
+  "start": 977.741,
+  "end": 979.602,
+  "speaker": "Unknown",
+  "en": "I mean, in an ideal world, we wouldn't need them.",
+  "zh": "我是说，在理想世界里，我们不需要他们。"
+ },
+ {
+  "seg": 238,
+  "start": 980.082,
+  "end": 985.927,
+  "speaker": "Unknown",
+  "en": "Eventually, hopefully, we get continual learning, and these models can just figure out the organization and how to just immediately become smart.",
+  "zh": "最终，希望我们能实现持续学习，这些模型可以自己搞清楚组织结构，并立即变得聪明起来。"
+ },
+ {
+  "seg": 239,
+  "start": 986.628,
+  "end": 991.952,
+  "speaker": "Unknown",
+  "en": "I do think, for now, the thing with a forward-deployed engineer is, on the one hand, they're expensive, they're hard to hire.",
+  "zh": "我确实认为，就目前而言，前置部署工程师的问题在于：一方面，他们很贵，而且很难招。"
+ },
+ {
+  "seg": 240,
+  "start": 992.312,
+  "end": 997.817,
+  "speaker": "Unknown",
+  "en": "I think there's something like 55,000 job wrecks or forward-deployed engineers right now and about 5,000 people who know how to do that job.",
+  "zh": "我觉得现在大概有 55,000 个前置部署工程师的职位空缺，而知道怎么做这份工作的人大概只有 5,000 个。"
+ },
+ {
+  "seg": 241,
+  "start": 998.197,
+  "end": 999.178,
+  "speaker": "Unknown",
+  "en": "So they're hard to hire.",
+  "zh": "所以他们很难招。"
+ },
+ {
+  "seg": 242,
+  "start": 999.618,
+  "end": 1001.64,
+  "speaker": "Unknown",
+  "en": "You're getting more and more of them available.",
+  "zh": "你能招到的人会越来越多。"
+ },
+ {
+  "seg": 243,
+  "start": 1002.621,
+  "end": 1005.283,
+  "speaker": "Unknown",
+  "en": "The positive is they make the product really sticky.",
+  "zh": "好处是，他们让产品变得非常粘。"
+ },
+ {
+  "seg": 244,
+  "start": 1005.663,
+  "end": 1017.728,
+  "speaker": "Unknown",
+  "en": "Because once you've invested in that sort of services element of we're going to have someone come and help you integrate the product, your customer's unlikely to go anywhere soon because they feel like they've got a customized tool that works uniquely for them.",
+  "zh": "因为一旦你投入了那种服务层面的东西——我们要派人来帮你集成产品——你的客户短期内就不太可能离开，因为他们感觉自己拥有一个为他们量身定制、独特适配的工具。"
+ },
+ {
+  "seg": 245,
+  "start": 1018.268,
+  "end": 1025.271,
+  "speaker": "Unknown",
+  "en": "So I would say obviously in an ideal world your product works without the forward deployed engineering because they are very hard to get right now.",
+  "zh": "所以我想说，显然在理想世界里，你的产品不需要前置部署工程师就能运作，因为他们现在真的很难招到。"
+ },
+ {
+  "seg": 246,
+  "start": 1025.711,
+  "end": 1029.793,
+  "speaker": "Unknown",
+  "en": "But the positive is then you have a sticky customer who's with you for a long time.",
+  "zh": "但好处是，你会拥有一个长期追随你的粘性客户。"
+ },
+ {
+  "seg": 247,
+  "start": 1029.853,
+  "end": 1034.495,
+  "speaker": "Unknown",
+  "en": "So if you can find good forward deployed engineers, they certainly do pay dividends.",
+  "zh": "所以如果你能找到优秀的前置部署工程师，他们肯定会有回报的。"
+ },
+ {
+  "seg": 248,
+  "start": 1037.473,
+  "end": 1038.554,
+  "speaker": "Unknown",
+  "en": "Hi, Lisa.",
+  "zh": "嗨，Lisa。"
+ },
+ {
+  "seg": 249,
+  "start": 1039.475,
+  "end": 1047.382,
+  "speaker": "Unknown",
+  "en": "For a startup working on like their first 10 customers, would you go like the clay route or would you do something else?",
+  "zh": "对于一家正在开拓前 10 个客户的公司，你会走类似 Clay 的路线，还是会做别的？"
+ },
+ {
+  "seg": 250,
+  "start": 1047.402,
+  "end": 1049.444,
+  "speaker": "Unknown",
+  "en": "I'm sorry, when you say the clay route, what do you mean specifically?",
+  "zh": "抱歉,你说的 clay 路线,具体指什么?"
+ },
+ {
+  "seg": 251,
+  "start": 1049.825,
+  "end": 1052.307,
+  "speaker": "Unknown",
+  "en": "Like using something like clay for automated outbound.",
+  "zh": "比如用类似 clay 这样的东西做自动化外呼拓展。"
+ },
+ {
+  "seg": 252,
+  "start": 1052.578,
+  "end": 1052.878,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 253,
+  "start": 1052.978,
+  "end": 1054.8,
+  "speaker": "Unknown",
+  "en": "No, your first-hand customers are going to be different.",
+  "zh": "不,你的第一手客户会是不一样的。"
+ },
+ {
+  "seg": 254,
+  "start": 1055.021,
+  "end": 1059.045,
+  "speaker": "Unknown",
+  "en": "They're going to be really more design partners, and they're going to need to be much more handheld.",
+  "zh": "他们会更像是设计合作伙伴,需要你手把手地带得更多。"
+ },
+ {
+  "seg": 255,
+  "start": 1059.546,
+  "end": 1066.093,
+  "speaker": "Unknown",
+  "en": "So I'm talking a little bit more when you're beyond the first sort of design partners and you have some product market fit and you're starting to scale the organization.",
+  "zh": "所以我说的更多是当你度过了最初的设计合作伙伴阶段,有了一定的产品市场契合度,开始扩展组织的时候。"
+ },
+ {
+  "seg": 256,
+  "start": 1066.533,
+  "end": 1070.158,
+  "speaker": "Unknown",
+  "en": "For those first partners, you want to be very particular and picky about who you choose.",
+  "zh": "对于那些第一批合作伙伴,你要非常讲究、非常挑剔地选择对象。"
+ },
+ {
+  "seg": 257,
+  "start": 1070.718,
+  "end": 1074.019,
+  "speaker": "Unknown",
+  "en": "On the one hand, it's sort of a gift to a company to let them be your design partner.",
+  "zh": "一方面,让一家公司成为你的设计合作伙伴,某种程度上是一种馈赠。"
+ },
+ {
+  "seg": 258,
+  "start": 1074.059,
+  "end": 1075.159,
+  "speaker": "Unknown",
+  "en": "There's exclusivity to it.",
+  "zh": "其中有排他性。"
+ },
+ {
+  "seg": 259,
+  "start": 1075.179,
+  "end": 1076.119,
+  "speaker": "Unknown",
+  "en": "There's scarcity to it.",
+  "zh": "其中有稀缺性。"
+ },
+ {
+  "seg": 260,
+  "start": 1076.219,
+  "end": 1078.18,
+  "speaker": "Unknown",
+  "en": "They really help give you a lot of feedback on your product.",
+  "zh": "他们确实能给你的产品提供大量反馈。"
+ },
+ {
+  "seg": 261,
+  "start": 1078.5,
+  "end": 1084.802,
+  "speaker": "Unknown",
+  "en": "But you want someone who's going to work well with you, who's going to understand this is realistically where my product is, this is where my enterprise features are.",
+  "zh": "但你要找的是能和你配合好的人,他们会理解:现实地说,这就是我的产品目前所处的阶段,这就是我的企业级功能的水平。"
+ },
+ {
+  "seg": 262,
+  "start": 1085.862,
+  "end": 1088.843,
+  "speaker": "Unknown",
+  "en": "So you want to be thoughtful about who those first three customers are.",
+  "zh": "所以你要慎重对待前三个客户是谁。"
+ },
+ {
+  "seg": 263,
+  "start": 1089.283,
+  "end": 1093.444,
+  "speaker": "Unknown",
+  "en": "One tactic I love to do on the design partner side is go to a company that has a great logo",
+  "zh": "在设计合作伙伴这方面,我很喜欢的一个策略是,去找一家拥有漂亮 logo 的公司"
+ },
+ {
+  "seg": 264,
+  "start": 1093.864,
+  "end": 1102.448,
+  "speaker": "Unknown",
+  "en": "But work on their internal product or some sort of product that's not their main production so that they are willing to take a little bit more risks with you and bypass some security processes.",
+  "zh": "但做的是他们的内部产品或某种不是他们主生产线的非核心产品,这样他们才愿意和你一起承担多一点风险,绕过一些安全流程。"
+ },
+ {
+  "seg": 265,
+  "start": 1102.768,
+  "end": 1106.409,
+  "speaker": "Unknown",
+  "en": "But then you get the logo on your site and you can go to companies and say, hey, I work with this company.",
+  "zh": "然后你就能把 logo 放到你的网站上,你可以去其他公司说,嘿,我和这家公司合作。"
+ },
+ {
+  "seg": 266,
+  "start": 1106.769,
+  "end": 1109.671,
+  "speaker": "Unknown",
+  "en": "And it opens the door to potentially sign a bigger agreement with that company over time.",
+  "zh": "这会为将来随时间推移与那家公司签更大的协议打开大门。"
+ },
+ {
+  "seg": 267,
+  "start": 1111.291,
+  "end": 1112.652,
+  "speaker": "Unknown",
+  "en": "And I think we're at time here.",
+  "zh": "我觉得我们时间到了。"
+ },
+ {
+  "seg": 268,
+  "start": 1112.832,
+  "end": 1113.052,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 269,
+  "start": 1115.99,
+  "end": 1128.558,
+  "speaker": "Unknown",
+  "en": "Ideally, they're relationships you already have, either companies you've worked with or your investors are introducing you or they're friends at companies, because you want these to be very friendly processes and experiments in the beginning.",
+  "zh": "理想情况下,这些关系是你已经拥有的,要么是你合作过的公司,要么是你的投资人引荐的,要么是你在公司里的朋友,因为你希望这些在初期都是非常友好流程下的实验。"
+ },
+ {
+  "seg": 270,
+  "start": 1129.879,
+  "end": 1131.04,
+  "speaker": "Unknown",
+  "en": "Great, all right, thank you.",
+  "zh": "好,好的,谢谢。"
+ }
+]

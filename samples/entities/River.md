@@ -27,7 +27,7 @@ unlisted: true
 
 [[Shopify]] · [[智能体]] · [[Bob Safian]] · [[Tobi Lütke]] · [[Jess Hertz]] · [[Sydney]] · [[sidekick]] · [[沙箱]] · [[Catalog]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Shopify":9,"智能体":325,"Bob Safian":5,"Tobi Lütke":1,"Jess Hertz":1,"Sydney":1,"sidekick":2,"沙箱":58,"Catalog":1,"LLM":42}</script>
+<script type="application/json" class="pd-epn">{"Shopify":9,"智能体":327,"Bob Safian":6,"Tobi Lütke":1,"Jess Hertz":1,"Sydney":1,"sidekick":2,"沙箱":58,"Catalog":1,"LLM":42}</script>
 
 <script>
 (function(){

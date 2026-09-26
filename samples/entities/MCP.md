@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>58</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>59</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,6 +42,7 @@ unlisted: true
 - **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(13:18起):让模型调用外部工具/数据的接口,智能体通过查询 MCP 拉取数据,与技能仓库、AI 网关共同构成智能体工作区的三部分。
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(00:53起):本集说智能体优先必须 API 优先，MCP、CLI 都行，重要的是可编程接口；Exa 的 Salesforce 以 MCP 形式暴露，所有智能体都能访问 Salesforce MCP。
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(14:19起):本集说他们搭了 GTM MCP，把后台智能体用的同一套工具开放给全体员工，员工自建的东西反被产品化分发给所有人，产生复利效应
+- **[[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]]**(03:18起):本集在 AI 成熟度曲线第四到五阶段提到:给智能体配 MCP 和 skills 教它们如何导航和构建上下文。
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(38:49起):本集说 MCP 是让客户接入其平台的连接协议，用 MCP 的客户上线更多智能体，因此上线时定下『90 天 100 个用户』的硬指标作为实验案例
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(55:25起):本集说 2025 年靠工具和 MCP 解决了 LLM 知识截止日期问题；MongoDB 提供 MCP 服务器让智能体更容易访问数据。
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(18:00起):本集说大家都讨论 MCP 和 CLI、称「没有 UI 才是下一个 UI」,但既然 AI 能替你点按钮,SaaS 不必都改造成 CLI/MCP,「UI 回来了」;她的产品智能功能也通过 MCP 暴露出去。
@@ -88,7 +89,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*58 集*
+*59 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -121,6 +122,7 @@ unlisted: true
 - [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为概念
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为概念
+- [[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]] — 作为概念(提及)
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为概念(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
@@ -153,9 +155,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[沙箱]] · [[Cursor]] · [[harness]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[Codex]] · [[沙箱]] · [[Cursor]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":325,"Claude":65,"Anthropic":140,"护栏":58,"OpenAI":131,"Codex":57,"Claude Code":73,"沙箱":58,"Cursor":68,"harness":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":327,"Claude":66,"Anthropic":142,"Claude Code":75,"护栏":58,"OpenAI":132,"Codex":57,"沙箱":58,"Cursor":68,"harness":44}</script>
 
 <script>
 (function(){

@@ -1,0 +1,698 @@
+{
+  "episode_id": "2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa",
+  "podcast": "精选演讲",
+  "date": "2026-08-26",
+  "tags": [
+    "Go-to-Market",
+    "销售自动化",
+    "定价策略",
+    "企业销售",
+    "AI 时代的销售组织"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "aliisa-rosenthal",
+      "type": "person",
+      "role": "guest",
+      "name": "Aliisa Rosenthal",
+      "file": "Aliisa Rosenthal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "go-to-market",
+      "file": "go-to-market",
+      "primary": true,
+      "how_described": "本集主线：Elisa 主张搭建 go-to-market 时反着做——先构建机器(自动化)再构建团队，在瓶颈处才加人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            55.481,
+            74.517
+          ],
+          "quote": "So I think most organizations typically have said, okay, I'm ready to build out my go-to-market organization, I'm going to hire a bunch of sales people, I'm going to hire RevOps, I'm going to hire sales engineers, and I'm going to build out my sales organization and then I'm going to figure out where the bottlenecks are and I'm going to add AI or I'm going to add automation to figure out how to scale this thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            80.35,
+            90.294
+          ],
+          "quote": "Start with there's so many tools available now in 2026 for a modern go-to-market or sales organization that have never been available before, which really turns the entire playbook on its head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            352.907,
+            359.11
+          ],
+          "quote": "So this is my biggest advice to any company starting to build their go-to-market motion is just make it easy on your buyers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Elisa 四年多前加入时收入只有几百万美元，她把企业侧收入做到几十亿美元；本集用 OpenAI 先做企业版后做自助版的教训贯穿全篇。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.304,
+            20.747
+          ],
+          "quote": "My name is Elisa, and I joined a little research lab called OpenAI a little over four years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            120.876,
+            123.618
+          ],
+          "quote": "So just a story about how this played out at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            243.325,
+            249.915
+          ],
+          "quote": "For every other product we launched at OpenAI, we made sure to do it self-serve first, learn where we needed to tack on humans and add them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            252.715,
+            261.203
+          ],
+          "quote": "The other thing I'll mention, and if Everett's still here, a nice shout-out to him, we used Clay at OpenAI, and it was really, really useful for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            779.869,
+            784.312
+          ],
+          "quote": "At OpenAI, we were notorious because we still have not given out comp plans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            793.697,
+            795.818
+          ],
+          "quote": "I do think OpenAI is finally about to put in commission.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            803.043,
+            807.367
+          ],
+          "quote": "I think OpenAI could get away with that because of the equity packages and the way the company was increasing in value.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-enterprise",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT Enterprise",
+      "file": "ChatGPT Enterprise",
+      "primary": true,
+      "how_described": "本集说它最初定价每用户每月 60 美元(按服务成本定价)，后被 Copilot、Gemini、Anthropic 以低价进场倒逼，改为许可费+用量计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            567.795,
+            571.696
+          ],
+          "quote": "We set it initially, ChatGPT Enterprise was $60 per user per month.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft Copilot",
+      "file": "Microsoft Copilot",
+      "primary": false,
+      "how_described": "本集说 OpenAI 九个月不回复企业客户，结果他们转身买了 Microsoft Copilot；也是低价进场的竞品之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            325.976,
+            327.637
+          ],
+          "quote": "And I went out and I brought Microsoft Copilot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它是与 Copilot、Gemini 一道以低得多的价格点进入市场的竞品之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            580.298,
+            586.199
+          ],
+          "quote": "And then all the other products came out on the market, Copilot and Gemini and Anthropic at a much lower price point, and we realized",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": true,
+      "how_described": "本集说 OpenAI 用过 Clay 且非常有用；它是可做调研、排序、拨号、把出站管道生成自动化的工具代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            252.715,
+            261.203
+          ],
+          "quote": "The other thing I'll mention, and if Everett's still here, a nice shout-out to him, we used Clay at OpenAI, and it was really, really useful for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            335.939,
+            336.679
+          ],
+          "quote": "Clay is one of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1039.475,
+            1047.382
+          ],
+          "quote": "For a startup working on like their first 10 customers, would you go like the clay route or would you do something else?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1047.402,
+            1049.444
+          ],
+          "quote": "I'm sorry, when you say the clay route, what do you mean specifically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1049.825,
+            1052.307
+          ],
+          "quote": "Like using something like clay for automated outbound.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nooks",
+      "type": "company",
+      "role": "company",
+      "name": "Nooks",
+      "file": "Nooks",
+      "primary": false,
+      "how_described": "本集说听说 Nooks 评价也非常好，与 Clay 同类，是出站销售自动化工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            336.699,
+            338.719
+          ],
+          "quote": "I hear really great things about Nooks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-serve",
+      "type": "concept",
+      "role": "concept",
+      "name": "自助服务 (self-serve)",
+      "file": "自助服务",
+      "primary": true,
+      "how_described": "本集核心教训：应先发自助版、听客户反馈，再建贵的企业版；OpenAI 顺序做反，自助版完全蚕食了企业业务，此后每个产品都坚持自助先行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.408,
+            27.009
+          ],
+          "quote": "We had a self-serve API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            181.099,
+            185.24
+          ],
+          "quote": "But after about a quarter we said, well, we should probably also offer a self-serve version.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            190.642,
+            194.663
+          ],
+          "quote": "So then we released our self-serve motion in January of 2024, so about",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            203.674,
+            212.507
+          ],
+          "quote": "It turns out most people just didn't want to talk to a salesperson, and our mid-market SMB sort of self-serve business was much higher growth than our heavy enterprise business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            212.847,
+            215.628
+          ],
+          "quote": "So it frustrated the sales reps because they now had to compete with self-serve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            217.449,
+            222.951
+          ],
+          "quote": "They sometimes preferred to just move into the cheaper self-serve option.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            225.132,
+            237.157
+          ],
+          "quote": "We should have launched with self-serve first, listened to feedback from our customers on what they weren't getting from the self-serve product, and then figured out how to build a more expensive enterprise offering and then hire the team to sell it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            243.325,
+            249.915
+          ],
+          "quote": "For every other product we launched at OpenAI, we made sure to do it self-serve first, learn where we needed to tack on humans and add them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            516.247,
+            524.298
+          ],
+          "quote": "There's so many wonderful tools on the market to build these trust portals where companies can come in, they can auto sign an NDA, they can self-serve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            901.477,
+            910.367
+          ],
+          "quote": "OK. Yeah, I was just curious about, you talked about the POCs and pilots should be the exception, but then there's also the self-serve first motion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            911.388,
+            916.934
+          ],
+          "quote": "Because, you know, the POC or pilot then becomes just, do they get help when they go off and do self-serve?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            936.89,
+            957.377
+          ],
+          "quote": "So you're right, that is, like self-serve access to your product is totally fine and great, and you can stage gate that or limit that with consumption, time box it, or feature gate it, and those are all really valid ways to have people sort of build a natural PLG funnel into your product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "试点 (pilot)",
+      "file": "试点",
+      "primary": true,
+      "how_described": "本集说要不惜一切代价避免试点——创始人最常见抱怨是困在试点地狱；一旦交出产品访问权限就交出了交易周期的筹码，应改用客户介绍、定制数据演示、退出条款等替代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            411.99,
+            416.251
+          ],
+          "quote": "And this is something that comes up when I talk to founders a lot, is they say, we are stuck in pilot hell.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            425.513,
+            426.333
+          ],
+          "quote": "I sell the pilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            426.693,
+            428.854
+          ],
+          "quote": "I invest really heavily in managing the pilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            431.034,
+            433.635
+          ],
+          "quote": "Once the pilot, I get a yes to move forward on the sales cycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            444.927,
+            446.149
+          ],
+          "quote": "Now how do you get out of a pilot?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            464.787,
+            467.828
+          ],
+          "quote": "So there's lots of ways to get around these objections without a pilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            911.388,
+            916.934
+          ],
+          "quote": "Because, you know, the POC or pilot then becomes just, do they get help when they go off and do self-serve?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "poc",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC",
+      "file": "POC",
+      "primary": true,
+      "how_described": "本集区分了 PLG 式自助使用(可以)与需销售工程师全程监督的人工服务型 POC(要绕开)；可用一年期 POC 合同等谈判方式替代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            449.352,
+            450.253
+          ],
+          "quote": "I need a POC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            496.306,
+            501.233
+          ],
+          "quote": "And then another one I like to do is I say, well, our normal contracts are three years, but we'll do a one-year POC with you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            501.633,
+            508.082
+          ],
+          "quote": "So there's all kinds of ways to sort of negotiate your way around a POC without putting tons of resources and getting stuck in them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            911.388,
+            916.934
+          ],
+          "quote": "Because, you know, the POC or pilot then becomes just, do they get help when they go off and do self-serve?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            920.527,
+            936.49
+          ],
+          "quote": "I am sort of thinking of PLG, so people coming and self-serving and just using your product is very different from a POC, which is usually a contracted period of time where they have access to your product and they have support and resources from your team, and you're giving them sort of services and support along the way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (pricing)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "本集教训：定价选项越少越好、降低购买摩擦；60 美元一席定得太高把客户挡在门外，改成低门槛许可费后签单暴增、用量随时间上涨。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            396.445,
+            398.346
+          ],
+          "quote": "Fewer options is better on pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            572.116,
+            575.436
+          ],
+          "quote": "Now we were really the first ones on the market, and we didn't know what pricing was going to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            624.86,
+            627.362
+          ],
+          "quote": "And it was a much better pricing model that we learned the hard way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "usage-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于用量的计费 (usage-based)",
+      "file": "基于用量的计费",
+      "primary": true,
+      "how_described": "本集说许可费+用量计费让使用像野火一样蔓延；虽遭用量成本飙升的抵制，但可用支出上限仪表盘化解担忧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            589.06,
+            598.044
+          ],
+          "quote": "So we eventually went and we did lower the price, and what we did, we changed the model to basically a license fee, a bare fee to use the product, and then moved to usage-based.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (forward-deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "本集说理想世界不需要他们，但约 55,000 个职位空缺、仅约 5,000 人会干；贵且难招，但能让客户投入集成后变得极粘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            986.628,
+            991.952
+          ],
+          "quote": "I do think, for now, the thing with a forward-deployed engineer is, on the one hand, they're expensive, they're hard to hire.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "design-partner",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计合作伙伴 (design partner)",
+      "file": "设计合作伙伴",
+      "primary": true,
+      "how_described": "本集说前 10 个客户不是自动化外呼对象而是设计合作伙伴，要手把手带、挑剔挑选；好策略是找 logo 漂亮的公司做其内部/非核心产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1070.718,
+            1074.019
+          ],
+          "quote": "On the one hand, it's sort of a gift to a company to let them be your design partner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1089.283,
+            1093.444
+          ],
+          "quote": "One tactic I love to do on the design partner side is go to a company that has a great logo",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": false,
+      "how_described": "本集问答里区分 PLG 自助使用与人工服务型 POC：自助使用完全可以用消费量、时间、功能门槛设限，形成自然漏斗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            920.527,
+            936.49
+          ],
+          "quote": "I am sort of thinking of PLG, so people coming and self-serving and just using your product is very different from a POC, which is usually a contracted period of time where they have access to your product and they have support and resources from your team, and you're giving them sort of services and support along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            936.89,
+            957.377
+          ],
+          "quote": "So you're right, that is, like self-serve access to your product is totally fine and great, and you can stage gate that or limit that with consumption, time box it, or feature gate it, and those are all really valid ways to have people sort of build a natural PLG funnel into your product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trust-portal",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任门户 (trust portal)",
+      "file": "信任门户",
+      "primary": false,
+      "how_described": "本集说市场有很多工具可搭信任门户，让客户自助签 NDA、自助查文档，把安全环节自动化、加速销售周期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            538.32,
+            546.062
+          ],
+          "quote": "You know, push them towards your trust portal and then make them come to you and say, you know, here's what I couldn't find, here's what wasn't available, here's why I need a call.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tomer London]] · [[Gusto]] · [[payroll（工资发放）]] · [[小企业]] · [[AI]] · [[Claude]] · [[联合创始人]] · [[NPS]] · [[MVP]] · [[口碑]]
 
-<script type="application/json" class="pd-epn">{"Tomer London":1,"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":20,"Claude":65,"联合创始人":4,"NPS":2,"MVP":2,"口碑":2}</script>
+<script type="application/json" class="pd-epn">{"Tomer London":1,"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":21,"Claude":66,"联合创始人":4,"NPS":2,"MVP":2,"口碑":2}</script>
 
 <script>
 (function(){

@@ -175,9 +175,9 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码]]<span class="pd-rz">同公司:anthropic、instagram</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:anthropic、twitter</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding</span>
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:anthropic</span>
 
 </div>
 <div class="pd-ex">

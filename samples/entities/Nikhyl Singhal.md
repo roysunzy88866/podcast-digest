@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]] [[Jessica Fain]] [[Dr. Becky Kennedy]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"产品经理":3,"构建者":3,"信息搬运工":1,"判断力":5,"幕僚长应用":1,"AI":20,"LLM":42,"智能体":325,"Skip":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"产品经理":3,"构建者":3,"信息搬运工":1,"判断力":5,"幕僚长应用":1,"AI":21,"LLM":42,"智能体":327,"Skip":1}</script>
 
 <script>
 (function(){

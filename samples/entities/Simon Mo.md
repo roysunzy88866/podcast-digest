@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Matt Bornstein":2,"vLLM":5,"开源权重":8,"推理":54,"智能体":325,"后训练":1,"护栏":58,"Infrax":1,"K3":1}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Matt Bornstein":2,"vLLM":5,"开源权重":8,"推理":54,"智能体":327,"后训练":1,"护栏":58,"Infrax":1,"K3":1}</script>
 
 <script>
 (function(){
