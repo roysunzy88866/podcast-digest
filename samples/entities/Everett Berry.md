@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":327,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":3,"Salesforce":31}</script>
+<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":330,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":3,"Salesforce":31}</script>
 
 <script>
 (function(){

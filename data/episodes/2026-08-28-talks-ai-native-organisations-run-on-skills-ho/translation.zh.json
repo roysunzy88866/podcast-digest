@@ -1,0 +1,2050 @@
+[
+ {
+  "seg": 0,
+  "start": 13.568,
+  "end": 14.689,
+  "speaker": "Unknown",
+  "en": "Thank you for joining me today.",
+  "zh": "感谢你今天参加我的分享。"
+ },
+ {
+  "seg": 1,
+  "start": 15.849,
+  "end": 16.99,
+  "speaker": "Unknown",
+  "en": "My name is Ima Toil.",
+  "zh": "我叫 Ima Toil。"
+ },
+ {
+  "seg": 2,
+  "start": 17.03,
+  "end": 19.271,
+  "speaker": "Unknown",
+  "en": "I'm a Distinguished Engineer as Quantum Black.",
+  "zh": "我是 Quantum Black 的 Distinguished Engineer(杰出工程师)。"
+ },
+ {
+  "seg": 3,
+  "start": 20.692,
+  "end": 25.875,
+  "speaker": "Unknown",
+  "en": "And today talk, I want to really cover the how AI native organizations runs on skills.",
+  "zh": "在今天的演讲中，我想真正讲的是 AI 原生组织如何运行在技能(skills)之上。"
+ },
+ {
+  "seg": 4,
+  "start": 26.375,
+  "end": 30.657,
+  "speaker": "Unknown",
+  "en": "But before I really get started, I just want to do like a quick exercise of show of hands.",
+  "zh": "但在真正开始之前，我只想做一个快速的举手小练习。"
+ },
+ {
+  "seg": 5,
+  "start": 31.178,
+  "end": 34.559,
+  "speaker": "Unknown",
+  "en": "Can you raise your hand if you have already created and using skills?",
+  "zh": "如果你已经创建并在使用技能(skills),请举手好吗?"
+ },
+ {
+  "seg": 6,
+  "start": 36.22,
+  "end": 36.581,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 7,
+  "start": 37.261,
+  "end": 40.783,
+  "speaker": "Unknown",
+  "en": "Now, can you keep your hand up if you are using it and sharing it within your teams?",
+  "zh": "现在,如果你正在使用它并且在你的团队内共享它，请继续举着手好吗?"
+ },
+ {
+  "seg": 8,
+  "start": 42.76,
+  "end": 43.16,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 9,
+  "start": 43.581,
+  "end": 49.084,
+  "speaker": "Unknown",
+  "en": "Now, keep your hands up if you have governed, maintained skills across your organization.",
+  "zh": "现在,如果你在你的组织中治理和维护过技能(skills),请继续举着手。"
+ },
+ {
+  "seg": 10,
+  "start": 50.504,
+  "end": 50.905,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 11,
+  "start": 51.025,
+  "end": 51.765,
+  "speaker": "Unknown",
+  "en": "I see a few hands.",
+  "zh": "我看到了几只手。"
+ },
+ {
+  "seg": 12,
+  "start": 52.385,
+  "end": 53.846,
+  "speaker": "Unknown",
+  "en": "But that is what this talk is about.",
+  "zh": "但这正是这次演讲要讲的内容。"
+ },
+ {
+  "seg": 13,
+  "start": 53.906,
+  "end": 60.11,
+  "speaker": "Unknown",
+  "en": "Today, I'm really looking to break down why this is really critical, how it's important, and how actually you can adopt it across your organization.",
+  "zh": "今天，我真的想拆解为什么这非常关键、它如何重要，以及实际上你如何在你的组织中采纳它。"
+ },
+ {
+  "seg": 14,
+  "start": 61.17,
+  "end": 65.613,
+  "speaker": "Unknown",
+  "en": "But before I get started, what I really want to cover is actually the agentic software stack.",
+  "zh": "但在开始之前，我真正想讲的是智能体软件栈(agentic software stack)。"
+ },
+ {
+  "seg": 15,
+  "start": 67.075,
+  "end": 68.737,
+  "speaker": "Unknown",
+  "en": "So the agency software stack has two loops.",
+  "zh": "所以主观能动性(agency)软件栈有两个循环。"
+ },
+ {
+  "seg": 16,
+  "start": 68.917,
+  "end": 70.598,
+  "speaker": "Unknown",
+  "en": "So the first loop is all you know, right?",
+  "zh": "第一个循环你们都知道，对吧?"
+ },
+ {
+  "seg": 17,
+  "start": 70.618,
+  "end": 72.86,
+  "speaker": "Unknown",
+  "en": "It's the coding agents or the coding agents harness, right?",
+  "zh": "它是编码智能体(coding agents),或者说编码智能体的 harness,对吧?"
+ },
+ {
+  "seg": 18,
+  "start": 74.622,
+  "end": 76.143,
+  "speaker": "Unknown",
+  "en": "And then you have some core components.",
+  "zh": "然后你有一些核心组件。"
+ },
+ {
+  "seg": 19,
+  "start": 76.163,
+  "end": 81.408,
+  "speaker": "Unknown",
+  "en": "You will have your context manager, the tool and MCPs, memories and states and skills loader, right?",
+  "zh": "你会有你的上下文管理器、工具和 MCP、记忆与状态，以及技能(skills)加载器,对吧?"
+ },
+ {
+  "seg": 20,
+  "start": 82.289,
+  "end": 85.512,
+  "speaker": "Unknown",
+  "en": "But then there's an outer loop, which is your workflows, right?",
+  "zh": "但然后有一个外循环，也就是你的工作流(workflows),对吧?"
+ },
+ {
+  "seg": 21,
+  "start": 86.713,
+  "end": 90.957,
+  "speaker": "Unknown",
+  "en": "Those have skills, sub-agents, MCP servers that you use, and some hooks.",
+  "zh": "那些包含技能(skills)、子智能体(sub-agents)、你使用的 MCP 服务器，还有一些 hooks。"
+ },
+ {
+  "seg": 22,
+  "start": 90.997,
+  "end": 91.718,
+  "speaker": "Unknown",
+  "en": "Sometimes you need them.",
+  "zh": "有时你会需要它们。"
+ },
+ {
+  "seg": 23,
+  "start": 93.164,
+  "end": 96.348,
+  "speaker": "Unknown",
+  "en": "To have this running properly, you will need some enablement components at the bottom.",
+  "zh": "要让这一切正常运转，你在底部需要一些赋能组件。"
+ },
+ {
+  "seg": 24,
+  "start": 96.668,
+  "end": 99.731,
+  "speaker": "Unknown",
+  "en": "So what you would have is an environment sandbox.",
+  "zh": "所以你会有的东西是一个环境沙箱(environment sandbox)。"
+ },
+ {
+  "seg": 25,
+  "start": 99.752,
+  "end": 112.226,
+  "speaker": "Unknown",
+  "en": "You would have your MCP gateway to manage and simplify all of the MCP tools across your organization, a model gateway to, again, manage and optimize for all of your LLMs, either like, you know, open source, like,",
+  "zh": "你会有你的 MCP 网关,用来管理并简化你组织中所有的 MCP 工具;一个模型网关,同样用来管理并优化你所有的 LLM,无论是开源的、"
+ },
+ {
+  "seg": 26,
+  "start": 112.926,
+  "end": 125.173,
+  "speaker": "Unknown",
+  "en": "running locally or front-term models, and also a graph, knowledge graph, that abstracts your IT core systems, your code base, your skills registry, and at the end, the workflow marketplace.",
+  "zh": "本地运行的，还是 front-term 模型；还有一个图,知识图谱,它把你的 IT 核心系统、你的代码库、你的技能(skills)注册表抽象出来,最后是工作流市场(workflow marketplace)。"
+ },
+ {
+  "seg": 27,
+  "start": 126.164,
+  "end": 127.725,
+  "speaker": "Unknown",
+  "en": "And then you have your context layer, right?",
+  "zh": "然后你有你的上下文层,对吧?"
+ },
+ {
+  "seg": 28,
+  "start": 127.925,
+  "end": 130.986,
+  "speaker": "Unknown",
+  "en": "The context layer will bring all of what is needed to get the task done.",
+  "zh": "上下文层会带来完成任务所需的所有东西。"
+ },
+ {
+  "seg": 29,
+  "start": 131.126,
+  "end": 132.547,
+  "speaker": "Unknown",
+  "en": "So this is the project instruction.",
+  "zh": "所以这是项目指令(project instruction)。"
+ },
+ {
+  "seg": 30,
+  "start": 133.007,
+  "end": 135.769,
+  "speaker": "Unknown",
+  "en": "Think about it as the Claude Code MD file, the agency MD file.",
+  "zh": "把它想象成 Claude Code 的 MD 文件、主观能动性(agency)的 MD 文件。"
+ },
+ {
+  "seg": 31,
+  "start": 136.309,
+  "end": 140.071,
+  "speaker": "Unknown",
+  "en": "Your tool in MCP schema is actually to understand which tool to use and when.",
+  "zh": "你的工具和 MCP schema,实际上是用来理解该用哪个工具、什么时候用。"
+ },
+ {
+  "seg": 32,
+  "start": 140.771,
+  "end": 142.432,
+  "speaker": "Unknown",
+  "en": "Your memory, right?",
+  "zh": "你的记忆,对吧?"
+ },
+ {
+  "seg": 33,
+  "start": 142.752,
+  "end": 145.333,
+  "speaker": "Unknown",
+  "en": "Conversation history with the end user, the human is in the loop.",
+  "zh": "与最终用户的对话历史,人类是在环中的。"
+ },
+ {
+  "seg": 34,
+  "start": 145.873,
+  "end": 150.976,
+  "speaker": "Unknown",
+  "en": "And finally, the retrieved contents that you can pull from either like files, your code base, et cetera.",
+  "zh": "最后是你可以拉取的检索内容，比如来自文件、你的代码库等等。"
+ },
+ {
+  "seg": 35,
+  "start": 152.31,
+  "end": 155.573,
+  "speaker": "Unknown",
+  "en": "Now, what I want to really focus on today is the workflow, right?",
+  "zh": "现在,我今天真正想聚焦的是工作流,对吧?"
+ },
+ {
+  "seg": 36,
+  "start": 156.133,
+  "end": 167.583,
+  "speaker": "Unknown",
+  "en": "And I think this is where we kind of like think it's kind of a pretty simple workflow in day-to-day when you're trying to actually create an end-to-end product software delivery lifecycle in your organization.",
+  "zh": "我认为,当你试图在你的组织中实际创建一个端到端的产品软件交付生命周期时,这是我们日常中认为相当简单的一个工作流。"
+ },
+ {
+  "seg": 37,
+  "start": 168.343,
+  "end": 170.945,
+  "speaker": "Unknown",
+  "en": "In reality, we all have seen the four steps.",
+  "zh": "实际上,我们都见过这四个步骤。"
+ },
+ {
+  "seg": 38,
+  "start": 171.025,
+  "end": 178.15,
+  "speaker": "Unknown",
+  "en": "Specify to define what you want to build, the design or plan to plan what you're looking to build.",
+  "zh": "Specify( specify)来定义你想构建什么,设计或规划(planning)来规划你要构建的东西。"
+ },
+ {
+  "seg": 39,
+  "start": 178.711,
+  "end": 179.692,
+  "speaker": "Unknown",
+  "en": "Then you go to the tasks.",
+  "zh": "然后你进入任务(tasks)。"
+ },
+ {
+  "seg": 40,
+  "start": 179.872,
+  "end": 181.093,
+  "speaker": "Unknown",
+  "en": "You break it down into tasks.",
+  "zh": "你把它拆解成任务。"
+ },
+ {
+  "seg": 41,
+  "start": 181.893,
+  "end": 183.815,
+  "speaker": "Unknown",
+  "en": "And then finally, you start implementing, right?",
+  "zh": "最后,你开始实现(implementing),对吧?"
+ },
+ {
+  "seg": 42,
+  "start": 184.315,
+  "end": 185.196,
+  "speaker": "Unknown",
+  "en": "I think this looks familiar.",
+  "zh": "我觉得这看起来很熟悉。"
+ },
+ {
+  "seg": 43,
+  "start": 185.356,
+  "end": 188.658,
+  "speaker": "Unknown",
+  "en": "I think this is how most of our coding agents actually are kind of shaped today.",
+  "zh": "我认为这就是我们大多数编码智能体今天实际上大致的形态。"
+ },
+ {
+  "seg": 44,
+  "start": 189.479,
+  "end": 194.963,
+  "speaker": "Unknown",
+  "en": "In reality, that is not how it is composed at scale when you look at the organization complexity.",
+  "zh": "但现实中,当你从组织复杂性的角度看,大规模下它并不是这样构成的。"
+ },
+ {
+  "seg": 45,
+  "start": 196.482,
+  "end": 198.244,
+  "speaker": "Unknown",
+  "en": "This is just one step in the journey.",
+  "zh": "这只是旅程中的一步。"
+ },
+ {
+  "seg": 46,
+  "start": 198.284,
+  "end": 200.126,
+  "speaker": "Unknown",
+  "en": "This is like building a product increment.",
+  "zh": "这就像构建一个产品增量。"
+ },
+ {
+  "seg": 47,
+  "start": 200.928,
+  "end": 214.291,
+  "speaker": "Unknown",
+  "en": "When you really look at the overall end-to-end lifecycle of something that's a business you want to build to capture the value out of it all the way to shape it to the client, you will start, first of all, by defining your product strategy, what to build and how to build it, right?",
+  "zh": "当你真正去看某个东西的整体端到端生命周期——一个你想构建的业务、从中获取价值、一路做到把它交付给客户——你首先会从定义你的产品战略开始,构建什么以及怎么构建,对吧?"
+ },
+ {
+  "seg": 48,
+  "start": 214.711,
+  "end": 221.613,
+  "speaker": "Unknown",
+  "en": "You define the success metrics, you identify, and you break down your plan, roadmap for your products.",
+  "zh": "你定义成功指标,你去识别，并拆解你的计划、你产品的路线图。"
+ },
+ {
+  "seg": 49,
+  "start": 222.213,
+  "end": 224.193,
+  "speaker": "Unknown",
+  "en": "And to do this, you may need a lot of insights, right?",
+  "zh": "而要做到这一点,你可能需要大量的洞察,对吧?"
+ },
+ {
+  "seg": 50,
+  "start": 224.293,
+  "end": 230.695,
+  "speaker": "Unknown",
+  "en": "So then you do, like, your market research, you do a competitive analysis, you bring this as an input with some customer interviews.",
+  "zh": "然后你做你的市场调研，做竞争分析，把这些连同一些客户访谈作为输入带进来。"
+ },
+ {
+  "seg": 51,
+  "start": 231.676,
+  "end": 233.178,
+  "speaker": "Unknown",
+  "en": "Then you go to the discovery side, right?",
+  "zh": "接着你进入探索这一侧，对吧？"
+ },
+ {
+  "seg": 52,
+  "start": 233.218,
+  "end": 236.021,
+  "speaker": "Unknown",
+  "en": "So then you start discovering, okay, now I understand what to build.",
+  "zh": "于是你开始探索，好，现在我明白要构建什么了。"
+ },
+ {
+  "seg": 53,
+  "start": 236.041,
+  "end": 244.751,
+  "speaker": "Unknown",
+  "en": "I'm going to break this down into like some problem statements, find the solution, validate the solution, and then probably like experiment and then create user stories.",
+  "zh": "我要把它分解成一些问题陈述，找到解决方案，验证解决方案，然后大概做些实验，再创建用户故事。"
+ },
+ {
+  "seg": 54,
+  "start": 245.792,
+  "end": 250.277,
+  "speaker": "Unknown",
+  "en": "And before we start building in reality, actually you need to prepare your data, right?",
+  "zh": "而在我们真正开始构建之前，实际上你需要准备你的数据，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 250.978,
+  "end": 262.162,
+  "speaker": "Unknown",
+  "en": "In some cases, you will need actually to clean up your data catalog that will support the build of your products or maybe adjust some of the endpoints connection and integration to your core systems that will help you actually build your products.",
+  "zh": "在某些情况下，你实际上需要清理你的数据目录，以支撑你产品的构建，或者调整一些到你的核心系统的端点连接和集成，这些会真正帮助你构建产品。"
+ },
+ {
+  "seg": 56,
+  "start": 264.117,
+  "end": 266.679,
+  "speaker": "Unknown",
+  "en": "And this is where the data product delivery comes.",
+  "zh": "而这就是数据产品交付登场的地方。"
+ },
+ {
+  "seg": 57,
+  "start": 266.699,
+  "end": 268.581,
+  "speaker": "Unknown",
+  "en": "So you build your data pipeline.",
+  "zh": "于是你构建你的数据管道。"
+ },
+ {
+  "seg": 58,
+  "start": 268.781,
+  "end": 270.242,
+  "speaker": "Unknown",
+  "en": "You validate your data quality.",
+  "zh": "你验证你的数据质量。"
+ },
+ {
+  "seg": 59,
+  "start": 271.103,
+  "end": 275.566,
+  "speaker": "Unknown",
+  "en": "And you put your catalog data assets ready for development.",
+  "zh": "并且你把目录数据资产准备好供开发使用。"
+ },
+ {
+  "seg": 60,
+  "start": 276.207,
+  "end": 279.109,
+  "speaker": "Unknown",
+  "en": "Then we kind of go back to the product increment.",
+  "zh": "然后我们有点回到产品增量。"
+ },
+ {
+  "seg": 61,
+  "start": 279.149,
+  "end": 280.551,
+  "speaker": "Unknown",
+  "en": "That is where we start.",
+  "zh": "那正是我们开始的地方。"
+ },
+ {
+  "seg": 62,
+  "start": 280.611,
+  "end": 286.535,
+  "speaker": "Unknown",
+  "en": "But then building up products in every organization that I have been serving for the past 18 years in my career.",
+  "zh": "但在我过去 18 年职业生涯中服务过的每一个组织里构建产品，"
+ },
+ {
+  "seg": 63,
+  "start": 287.356,
+  "end": 293.938,
+  "speaker": "Unknown",
+  "en": "I can see that in one organization, you will find, like, different SDLCs, kind of like, you know, scattered across the organization.",
+  "zh": "我可以看到，在同一个组织里，你会发现不同的 SDLC，可以说是散布在整个组织中的。"
+ },
+ {
+  "seg": 64,
+  "start": 294.358,
+  "end": 296.238,
+  "speaker": "Unknown",
+  "en": "Some of it is actually for a mobile application.",
+  "zh": "其中一些实际上是用于移动应用的。"
+ },
+ {
+  "seg": 65,
+  "start": 296.358,
+  "end": 298.919,
+  "speaker": "Unknown",
+  "en": "Other is a different department, so different platform.",
+  "zh": "另一些是不同的部门，所以是不同的平台。"
+ },
+ {
+  "seg": 66,
+  "start": 299.299,
+  "end": 302.559,
+  "speaker": "Unknown",
+  "en": "Some of it is internal platform that is for your employees.",
+  "zh": "有些是面向你的员工的内部平台。"
+ },
+ {
+  "seg": 67,
+  "start": 302.62,
+  "end": 303.88,
+  "speaker": "Unknown",
+  "en": "Other is actually customer-facing.",
+  "zh": "另一些实际上是面向客户的。"
+ },
+ {
+  "seg": 68,
+  "start": 304.28,
+  "end": 308.501,
+  "speaker": "Unknown",
+  "en": "So it is not like a one workflow that can actually build anything you want for your organization.",
+  "zh": "所以并不存在一个能为你组织构建任何东西的统一工作流。"
+ },
+ {
+  "seg": 69,
+  "start": 309.321,
+  "end": 311.982,
+  "speaker": "Unknown",
+  "en": "When you figure out what to build and how to build it, you need to run it.",
+  "zh": "当你搞清楚要构建什么以及怎么构建之后，你需要运行它。"
+ },
+ {
+  "seg": 70,
+  "start": 312.282,
+  "end": 314.123,
+  "speaker": "Unknown",
+  "en": "Then you come to the platform engineering ops, right?",
+  "zh": "然后你就来到平台工程运维，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 314.703,
+  "end": 322.345,
+  "speaker": "Unknown",
+  "en": "That is, again, when you have your provisioned infrastructure, thinking about how you build your infrastructure as code modules, et cetera.",
+  "zh": "也就是说，同样是当你有了已预配的基础设施，去思考如何构建你的基础设施即代码模块等等。"
+ },
+ {
+  "seg": 72,
+  "start": 323.045,
+  "end": 324.006,
+  "speaker": "Unknown",
+  "en": "And then you launch your products.",
+  "zh": "然后你上线你的产品。"
+ },
+ {
+  "seg": 73,
+  "start": 324.846,
+  "end": 332.469,
+  "speaker": "Unknown",
+  "en": "And the moment you launch it, then you start kind of like the journey of optimizing the performance of your products, trying to look forward like any incidents to resolve.",
+  "zh": "而在你上线的瞬间，你就开始了一段优化产品性能的旅程，努力向前看，处理任何需要解决的事故。"
+ },
+ {
+  "seg": 74,
+  "start": 333.449,
+  "end": 335.25,
+  "speaker": "Unknown",
+  "en": "And then you start the loop again, right?",
+  "zh": "然后你又重新开始这个循环，对吧？"
+ },
+ {
+  "seg": 75,
+  "start": 335.97,
+  "end": 346.494,
+  "speaker": "Unknown",
+  "en": "So at scale, when you look at really building a digital platform, not like a very simple products that you can, you know, solo build and deploy, the landscape is way complex than expected.",
+  "zh": "所以在规模化场景下，当你真正去构建一个数字平台，而不是那种你可以单人构建和部署的非常简单的产品时，这个版图比预期的要复杂得多。"
+ },
+ {
+  "seg": 76,
+  "start": 346.514,
+  "end": 350.176,
+  "speaker": "Unknown",
+  "en": "And what you're looking at here is literally like probably 10, 20% of what is it.",
+  "zh": "而你在这里看到的，实际上大概只是它的 10%、20%。"
+ },
+ {
+  "seg": 77,
+  "start": 350.576,
+  "end": 352.537,
+  "speaker": "Unknown",
+  "en": "And it's really different from organization to organization.",
+  "zh": "而且它真的因组织而异。"
+ },
+ {
+  "seg": 78,
+  "start": 353.397,
+  "end": 356.479,
+  "speaker": "Unknown",
+  "en": "Now, going back to the stack, right?",
+  "zh": "现在，回到这个技术栈，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 357.119,
+  "end": 359.5,
+  "speaker": "Unknown",
+  "en": "When you look at the workflows, there's like four core components.",
+  "zh": "当你看这些工作流时，有四个核心组件。"
+ },
+ {
+  "seg": 80,
+  "start": 360.24,
+  "end": 363.702,
+  "speaker": "Unknown",
+  "en": "The first one is hooks, MCP services and sub-agents.",
+  "zh": "第一个是 hooks、MCP 服务和子智能体。"
+ },
+ {
+  "seg": 81,
+  "start": 364.262,
+  "end": 369.865,
+  "speaker": "Unknown",
+  "en": "Those are kind of like given, but it doesn't really bring the right kind of like structured value to your workflows.",
+  "zh": "这些有点像是现成给定的，但它们并没有真正给你的工作流带来正确的那种结构化价值。"
+ },
+ {
+  "seg": 82,
+  "start": 370.365,
+  "end": 370.585,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 371.106,
+  "end": 373.948,
+  "speaker": "Unknown",
+  "en": "That's why Scales is one of the critical components in your workflows.",
+  "zh": "这就是为什么 Skills 是你工作流中的关键组件之一。"
+ },
+ {
+  "seg": 84,
+  "start": 374.028,
+  "end": 380.712,
+  "speaker": "Unknown",
+  "en": "Hooks, basically, what it does is just kind of, like, pre-kind of, like, try-ground events to do something along your workflow.",
+  "zh": "Hooks，基本上，它所做的只是在你的工作流过程中预先触发事件去做某件事。"
+ },
+ {
+  "seg": 85,
+  "start": 381.092,
+  "end": 387.057,
+  "speaker": "Unknown",
+  "en": "The MCP servers, we all know that, you know, you may need an MCP tool, but tell me, like, who actually built a lot of MCPs?",
+  "zh": "MCP 服务器，我们都知道，你可能会需要一个 MCP 工具，但告诉我，谁真的构建过大量的 MCP？"
+ },
+ {
+  "seg": 86,
+  "start": 387.077,
+  "end": 392.861,
+  "speaker": "Unknown",
+  "en": "We just use MCP's tools that is actually provided by the tool that we used to use before, right?",
+  "zh": "我们只是委派给子智能体去执行所需的特定任务。"
+ },
+ {
+  "seg": 87,
+  "start": 393.281,
+  "end": 394.542,
+  "speaker": "Unknown",
+  "en": "So we don't really own those.",
+  "zh": "所以我们并不真正拥有那些东西。"
+ },
+ {
+  "seg": 88,
+  "start": 394.982,
+  "end": 397.483,
+  "speaker": "Unknown",
+  "en": "The sub-agent is just to minimize the context window.",
+  "zh": "子智能体只是为了最小化上下文窗口。"
+ },
+ {
+  "seg": 89,
+  "start": 397.643,
+  "end": 401.003,
+  "speaker": "Unknown",
+  "en": "We just delegate to sub-agent to execute a specific task that is needed.",
+  "zh": "所以归根结底，你会发现你所有的 know-how 实际上都存在于 skills 层面。"
+ },
+ {
+  "seg": 90,
+  "start": 401.623,
+  "end": 405.304,
+  "speaker": "Unknown",
+  "en": "So at the end of the day, we'll find all of your know-how is actually at the skills level.",
+  "zh": "如果你没有正确的 skills 结构，那你就不真正拥有一个确定性的工作流。"
+ },
+ {
+  "seg": 91,
+  "start": 405.584,
+  "end": 411.785,
+  "speaker": "Unknown",
+  "en": "And if you don't have the right structure of your skills, then you're not really having a deterministic workflow.",
+  "zh": "还有一点要提的是，把工作流想象成框架蓝图，它们实际上在运行时中塑造你的编码框架的行为，比如说。"
+ },
+ {
+  "seg": 92,
+  "start": 412.185,
+  "end": 420.907,
+  "speaker": "Unknown",
+  "en": "And one thing to mention is workflows, think about them as harness blueprints that actually shape the behavior of your coding harness, for example, in the runtime.",
+  "zh": "现在，看看 skills 采用的兴起，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 423.724,
+  "end": 426.085,
+  "speaker": "Unknown",
+  "en": "Now, looking at the rise of skills adoption, right?",
+  "zh": "就在八个月前，Anthropic 发布了第一篇关于 skills 的文章，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 426.405,
+  "end": 431.727,
+  "speaker": "Unknown",
+  "en": "So just eight months ago, Anthropic published the first article about skills, right?",
+  "zh": "两个月后，我们有了标准，一个开放标准，被采纳了，很多亚洲框架开始采用这个新标准。"
+ },
+ {
+  "seg": 95,
+  "start": 432.547,
+  "end": 440.75,
+  "speaker": "Unknown",
+  "en": "Two months later, we had the standard, an open standard that is adopted and starts a lot of Asian harnesses starts adopting this new standard.",
+  "zh": "大约在今年二月，我们看到大多数智能体都采用了它。"
+ },
+ {
+  "seg": 96,
+  "start": 441.57,
+  "end": 447.038,
+  "speaker": "Unknown",
+  "en": "Around February this year, we have seen most of the agents adopted this.",
+  "zh": "即使你看不见它们，如果你在智能体思考时留意，你可以看到它在执行任务的过程中在拉取 skills。"
+ },
+ {
+  "seg": 97,
+  "start": 447.539,
+  "end": 455.651,
+  "speaker": "Unknown",
+  "en": "Even though you don't see them, if you pay attention when the agent is thinking, you can see that he's pulling skills as he's going and doing the task.",
+  "zh": "这里另一个你需要留意的指标，实际上是创建的 skills 工作的数量，对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 456.832,
+  "end": 461.017,
+  "speaker": "Unknown",
+  "en": "The other indication here that you need to pay attention to is actually the number of skills works created, right?",
+  "zh": "这只是我在一些公开 GitHub 仓库、一些公开 skills 注册表中做的一个快照，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 461.358,
+  "end": 466.784,
+  "speaker": "Unknown",
+  "en": "This is just like literally a snapshot that I did across some public GitHub repos, some public skills registries, right?",
+  "zh": "这就是我从一些公开的 GitHub 仓库、一些公开的 skills 注册表中截取的一个快照，对吧？"
+ },
+ {
+  "seg": 100,
+  "start": 467.184,
+  "end": 471.569,
+  "speaker": "Unknown",
+  "en": "There's way more than this, publicly and within your organizations, right?",
+  "zh": "远不止这些,无论是在公开渠道还是在你们的组织内部,对吧?"
+ },
+ {
+  "seg": 101,
+  "start": 471.97,
+  "end": 476.956,
+  "speaker": "Unknown",
+  "en": "So the creation of skills and the demand is rising, but we need to understand why.",
+  "zh": "所以技能的创造和需求都在上升,但我们需要理解为什么。"
+ },
+ {
+  "seg": 102,
+  "start": 479.122,
+  "end": 489.869,
+  "speaker": "Unknown",
+  "en": "In the latest SkillsBench, comparing the latest models against running the same tasks against software engineering and cybersecurity without skills, it did well, right?",
+  "zh": "在最新的 SkillsBench 中,把最新模型与在不使用技能的情况下运行同样的软件工程和网络安全任务进行比较,它表现不错,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 490.149,
+  "end": 491.33,
+  "speaker": "Unknown",
+  "en": "Because that's what it expected.",
+  "zh": "因为那是它所预期的。"
+ },
+ {
+  "seg": 104,
+  "start": 491.35,
+  "end": 494.372,
+  "speaker": "Unknown",
+  "en": "And it's going to continue to be improving day after day, right?",
+  "zh": "而且它会继续一天又一天地持续改进,对吧?"
+ },
+ {
+  "seg": 105,
+  "start": 495.333,
+  "end": 502.097,
+  "speaker": "Unknown",
+  "en": "But then when we applied skills that are more deterministic, the outcome was clearly higher than without it.",
+  "zh": "但当我们应用了更具确定性的技能时,结果明显比不使用时更高。"
+ },
+ {
+  "seg": 106,
+  "start": 504.755,
+  "end": 513.52,
+  "speaker": "Unknown",
+  "en": "Now, if you think about now like how like the anatomy of skills and how you actually design and implement skills in your organization, this is not like a new problem that we are trying to solve here, right?",
+  "zh": "现在,如果你思考一下技能的构造,以及你实际上如何在你的组织中设计和实现技能,这并不是我们在这里试图解决的一个新问题,对吧?"
+ },
+ {
+  "seg": 107,
+  "start": 513.6,
+  "end": 516.261,
+  "speaker": "Unknown",
+  "en": "We have solved this with the microservice kind of movements, right?",
+  "zh": "我们已经在微服务那样的运动中解决过这个问题,对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 516.622,
+  "end": 519.883,
+  "speaker": "Unknown",
+  "en": "So your microservices need to have all of these design principles, right?",
+  "zh": "所以你的微服务需要具备所有这些设计原则,对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 519.903,
+  "end": 522.725,
+  "speaker": "Unknown",
+  "en": "This is like a software kind of like, you know, problem that we use to solve.",
+  "zh": "这就像是一个软件类的,你知道的,我们过去解决的问题。"
+ },
+ {
+  "seg": 110,
+  "start": 523.505,
+  "end": 524.066,
+  "speaker": "Unknown",
+  "en": "It's similar.",
+  "zh": "它是相似的。"
+ },
+ {
+  "seg": 111,
+  "start": 524.106,
+  "end": 526.107,
+  "speaker": "Unknown",
+  "en": "So skills need to be reusable, right?",
+  "zh": "所以技能需要是可复用的,对吧?"
+ },
+ {
+  "seg": 112,
+  "start": 526.747,
+  "end": 527.508,
+  "speaker": "Unknown",
+  "en": "Need to be modular.",
+  "zh": "需要是模块化的。"
+ },
+ {
+  "seg": 113,
+  "start": 529.288,
+  "end": 530.349,
+  "speaker": "Unknown",
+  "en": "You can discover your skills.",
+  "zh": "你可以发现你的技能。"
+ },
+ {
+  "seg": 114,
+  "start": 530.569,
+  "end": 535.071,
+  "speaker": "Unknown",
+  "en": "So if you are sitting in one team and you need the skills, you actually can automatically discover and capture the skills.",
+  "zh": "所以如果你身处某个团队,你需要这些技能,你实际上可以自动地发现并获取这些技能。"
+ },
+ {
+  "seg": 115,
+  "start": 535.651,
+  "end": 540.613,
+  "speaker": "Unknown",
+  "en": "It's possible that you can actually use skills across workflows, but also you can use skills across harnesses.",
+  "zh": "你有可能跨工作流使用技能,但也可以跨 harness 使用技能。"
+ },
+ {
+  "seg": 116,
+  "start": 540.893,
+  "end": 542.913,
+  "speaker": "Unknown",
+  "en": "Again, everyone adopts the same standard.",
+  "zh": "再说一次,所有人都采用同一个标准。"
+ },
+ {
+  "seg": 117,
+  "start": 542.933,
+  "end": 546.895,
+  "speaker": "Unknown",
+  "en": "So if I'm having a skill on cloud code and I want to move it to cursor, it's going to just work.",
+  "zh": "所以如果我在 cloud code 上有一个技能,想把它移到 cursor,它就是能直接工作。"
+ },
+ {
+  "seg": 118,
+  "start": 548.08,
+  "end": 555.884,
+  "speaker": "Unknown",
+  "en": "Specialized skills, that is where the value, you should not build like a one skill, like a monolith again, it should be specialized to define one task specifically.",
+  "zh": "专门化的技能,这才是价值所在,你不应该再构建一个单体式的技能,它应该被专门化,专门定义某一个任务。"
+ },
+ {
+  "seg": 119,
+  "start": 556.564,
+  "end": 564.328,
+  "speaker": "Unknown",
+  "en": "Composable skills need to be designed in a way that actually can compose so you don't have duplication across your skills when you're trying to run them, that conflicts each other.",
+  "zh": "可组合的技能需要被设计成真正可以组合的方式,这样当你尝试运行它们时,你的技能之间就不会有重复,不会互相冲突。"
+ },
+ {
+  "seg": 120,
+  "start": 565.468,
+  "end": 570.69,
+  "speaker": "Unknown",
+  "en": "Consistence, that is actually one of the key items of skills is actually consistency and deterministic.",
+  "zh": "一致性,这实际上是技能的关键要点之一,就是一致性和确定性。"
+ },
+ {
+  "seg": 121,
+  "start": 570.75,
+  "end": 572.09,
+  "speaker": "Unknown",
+  "en": "And finally, cost-efficience.",
+  "zh": "最后是成本效率。"
+ },
+ {
+  "seg": 122,
+  "start": 572.11,
+  "end": 579.913,
+  "speaker": "Unknown",
+  "en": "And for cost, I can go for another hour talk, but it's basically the skills comes to solve a key problem around the context window, right?",
+  "zh": "关于成本,我可以再讲一个小时,但它基本上是技能用来解决围绕上下文窗口的一个关键问题,对吧?"
+ },
+ {
+  "seg": 123,
+  "start": 580.353,
+  "end": 589.817,
+  "speaker": "Unknown",
+  "en": "It's actually putting with the progressive disclosure pattern the right skills, the right amount of skills in the right time to solve the right problem, and that's reduce the token usage.",
+  "zh": "它实际上是通过渐进式披露模式,在正确的时机放入正确的技能、正确数量的技能,来解决正确的问题,这就减少了 token 的使用。"
+ },
+ {
+  "seg": 124,
+  "start": 590.537,
+  "end": 592.318,
+  "speaker": "Unknown",
+  "en": "This defines a new unit, right?",
+  "zh": "这定义了一个新的单元,对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 592.398,
+  "end": 596.702,
+  "speaker": "Unknown",
+  "en": "This makes your know-how in your organization executable, portable, and cheap.",
+  "zh": "这让你组织内的 know-how 变得可执行、可移植、而且便宜。"
+ },
+ {
+  "seg": 126,
+  "start": 598.163,
+  "end": 602.106,
+  "speaker": "Unknown",
+  "en": "On the right-hand side is just a very simple example of data retention policy, right?",
+  "zh": "右边只是一个非常简单的数据保留策略的例子,对吧?"
+ },
+ {
+  "seg": 127,
+  "start": 602.506,
+  "end": 610.612,
+  "speaker": "Unknown",
+  "en": "When this came to regulation, you need to understand and make sure to instruct your agents while you're manipulating, for example, your customer data.",
+  "zh": "当这涉及法规时,你需要理解并确保在操作你的数据时,比如你的客户数据,去指导你的智能体。"
+ },
+ {
+  "seg": 128,
+  "start": 611.253,
+  "end": 615.696,
+  "speaker": "Unknown",
+  "en": "You should make sure that this data manipulates according to the regulation, right?",
+  "zh": "你应该确保这些数据按照法规来操作,对吧?"
+ },
+ {
+  "seg": 129,
+  "start": 616.857,
+  "end": 618.178,
+  "speaker": "Unknown",
+  "en": "And that brings me to the next example.",
+  "zh": "这把我带到下一个例子。"
+ },
+ {
+  "seg": 130,
+  "start": 620.129,
+  "end": 625.292,
+  "speaker": "Unknown",
+  "en": "On the left-hand side, you can see that there's like a, think about like a catalog of skills.",
+  "zh": "在左边,你可以看到有一个,可以把它想成一个技能目录。"
+ },
+ {
+  "seg": 131,
+  "start": 626.312,
+  "end": 629.474,
+  "speaker": "Unknown",
+  "en": "And in the right-hand side is your harness, and the output is on the right-hand side, right?",
+  "zh": "右边是你的 harness,输出在右边,对吧?"
+ },
+ {
+  "seg": 132,
+  "start": 629.754,
+  "end": 636.518,
+  "speaker": "Unknown",
+  "en": "So the composable skills at the regulation level, you have the skill that I just showed earlier, which is the retention policy.",
+  "zh": "所以在法规这个层面上的可组合技能,你有我之前刚展示的那个技能,也就是保留策略。"
+ },
+ {
+  "seg": 133,
+  "start": 636.558,
+  "end": 638.639,
+  "speaker": "Unknown",
+  "en": "But you will need disclosure standards.",
+  "zh": "但你还需要披露标准。"
+ },
+ {
+  "seg": 134,
+  "start": 638.659,
+  "end": 641.681,
+  "speaker": "Unknown",
+  "en": "You will need the GDPR rules that need to be respected.",
+  "zh": "你需要必须被遵守的 GDPR 规则。"
+ },
+ {
+  "seg": 135,
+  "start": 641.701,
+  "end": 643.162,
+  "speaker": "Unknown",
+  "en": "You will need the filling templates, right?",
+  "zh": "你需要填写模板,对吧?"
+ },
+ {
+  "seg": 136,
+  "start": 643.602,
+  "end": 655.347,
+  "speaker": "Unknown",
+  "en": "So all of this, kind of think about it, it's like defining how any data, any feature that is built across your web, mobile, like, you know, different applications across your organizations is really respecting these rules.",
+  "zh": "所以把这一切想成,它是在定义任何数据、任何跨你的 web、移动端,你知道的,跨你组织内不同应用所构建的功能,都真正遵守这些规则。"
+ },
+ {
+  "seg": 137,
+  "start": 655.987,
+  "end": 661.93,
+  "speaker": "Unknown",
+  "en": "And this gets pulled automatically on the runtime by the regulatory disclosure review workflow.",
+  "zh": "而这些会在运行时被法规披露审查工作流自动拉取。"
+ },
+ {
+  "seg": 138,
+  "start": 662.59,
+  "end": 664.291,
+  "speaker": "Unknown",
+  "en": "And the outcome is expected.",
+  "zh": "结果是可预期的。"
+ },
+ {
+  "seg": 139,
+  "start": 664.772,
+  "end": 665.532,
+  "speaker": "Unknown",
+  "en": "It's deterministic.",
+  "zh": "它是确定性的。"
+ },
+ {
+  "seg": 140,
+  "start": 665.712,
+  "end": 669.996,
+  "speaker": "Unknown",
+  "en": "You have an audit report that you can actually store.",
+  "zh": "你有一份审计报告,可以实际存储起来。"
+ },
+ {
+  "seg": 141,
+  "start": 670.016,
+  "end": 674.379,
+  "speaker": "Unknown",
+  "en": "You have specific identification of if there's anything to improve.",
+  "zh": "你有明确的识别,知道是否有任何需要改进的地方。"
+ },
+ {
+  "seg": 142,
+  "start": 674.699,
+  "end": 678.062,
+  "speaker": "Unknown",
+  "en": "And there's kind of like loopback to improve your codebase.",
+  "zh": "而且有一种回路,用来改进你的代码库。"
+ },
+ {
+  "seg": 143,
+  "start": 681.164,
+  "end": 686.869,
+  "speaker": "Unknown",
+  "en": "However, if we don't govern skills, we will start creating a new class of technical debts.",
+  "zh": "然而,如果我们不治理技能,我们将开始创造一类新的技术债务。"
+ },
+ {
+  "seg": 144,
+  "start": 687.569,
+  "end": 690.832,
+  "speaker": "Unknown",
+  "en": "First of all, you will find out that you are having a lot of duplication in your organization.",
+  "zh": "首先,你会发现你的组织中存在大量重复。"
+ },
+ {
+  "seg": 145,
+  "start": 691.777,
+  "end": 702.08,
+  "speaker": "Unknown",
+  "en": "So if teams are not collaborating and everyone is, think about it, using the same technology stack, the same infrastructure, you're for sure building the same skills over and over, again, without sharing them.",
+  "zh": "如果团队不协作,而每个人都——想想看——使用同样的技术栈、同样的基础设施,你肯定在一次次构建同样的技能,却不共享它们。"
+ },
+ {
+  "seg": 146,
+  "start": 702.9,
+  "end": 703.361,
+  "speaker": "Unknown",
+  "en": "Quality.",
+  "zh": "质量。"
+ },
+ {
+  "seg": 147,
+  "start": 703.801,
+  "end": 714.424,
+  "speaker": "Unknown",
+  "en": "If you don't test and make sure that you're maintaining and you're validating your skills, not against your task, but also against the latest models that comes, right, then the quality starts degrading over time.",
+  "zh": "如果你不做测试,不确保你在维护和验证你的技能——不仅是针对你的任务,还针对不断推出的最新模型,对吧——那么质量就会随着时间开始退化。"
+ },
+ {
+  "seg": 148,
+  "start": 716.091,
+  "end": 718.593,
+  "speaker": "Unknown",
+  "en": "You should be able to discover your skills.",
+  "zh": "你应该能够发现你的技能。"
+ },
+ {
+  "seg": 149,
+  "start": 718.733,
+  "end": 721.254,
+  "speaker": "Unknown",
+  "en": "In reality, without the governance, you cannot really discover it.",
+  "zh": "而实际上,没有治理,你根本无法真正发现它。"
+ },
+ {
+  "seg": 150,
+  "start": 721.294,
+  "end": 724.517,
+  "speaker": "Unknown",
+  "en": "Think about it as the backstage, the IDP, right?",
+  "zh": "把它想象成后台,也就是 IDP,对吧?"
+ },
+ {
+  "seg": 151,
+  "start": 724.677,
+  "end": 729.38,
+  "speaker": "Unknown",
+  "en": "It's come to solve a problem where, okay, I need to understand who owns this microservice back in the days, right?",
+  "zh": "它是为了解决一个问题而出现的,就是,好,我需要搞清楚谁拥有这个微服务,在以前,对吧?"
+ },
+ {
+  "seg": 152,
+  "start": 729.72,
+  "end": 730.641,
+  "speaker": "Unknown",
+  "en": "I don't need to talk to anyone.",
+  "zh": "我不需要和任何人交谈。"
+ },
+ {
+  "seg": 153,
+  "start": 730.661,
+  "end": 734.403,
+  "speaker": "Unknown",
+  "en": "I just need to tap into the service catalog and immediately find who actually owns it.",
+  "zh": "我只需要进入服务目录,立即找到实际拥有它的人。"
+ },
+ {
+  "seg": 154,
+  "start": 735.023,
+  "end": 736.464,
+  "speaker": "Unknown",
+  "en": "That brings the ownership part.",
+  "zh": "这就带来了所有权这一部分。"
+ },
+ {
+  "seg": 155,
+  "start": 736.925,
+  "end": 741.688,
+  "speaker": "Unknown",
+  "en": "If you don't have an owner, then no one will be able to maintain, scale those skills.",
+  "zh": "如果你没有负责人,那就没有人能够维护、扩展这些技能。"
+ },
+ {
+  "seg": 156,
+  "start": 743.077,
+  "end": 745.279,
+  "speaker": "Unknown",
+  "en": "Composibility is not something that comes by default.",
+  "zh": "可组合性不是默认就有的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 745.299,
+  "end": 749.203,
+  "speaker": "Unknown",
+  "en": "You need to have a governance way to align what to build and how to design it.",
+  "zh": "你需要有一种治理方式,来对齐要构建什么以及如何设计它。"
+ },
+ {
+  "seg": 158,
+  "start": 749.764,
+  "end": 753.387,
+  "speaker": "Unknown",
+  "en": "Think about the domain-driven approach that we have been taking also for many years, right?",
+  "zh": "想想我们多年来一直采用的领域驱动方法,对吧?"
+ },
+ {
+  "seg": 159,
+  "start": 753.808,
+  "end": 756.05,
+  "speaker": "Unknown",
+  "en": "It's similar to how you shape your skills catalog.",
+  "zh": "这和你如何塑造技能目录是类似的。"
+ },
+ {
+  "seg": 160,
+  "start": 757.309,
+  "end": 763.291,
+  "speaker": "Unknown",
+  "en": "Security, again, some of, all of us, like, we experiment with the public skills, right?",
+  "zh": "安全性,再说一次,我们所有人,比如,都试验过公开的技能,对吧?"
+ },
+ {
+  "seg": 161,
+  "start": 763.771,
+  "end": 773.153,
+  "speaker": "Unknown",
+  "en": "But when you think about it, some skills may have some prompt injection, and skills actually does have scripts, because that's the deterministic part of it, because you can run a specific script for a specific task.",
+  "zh": "但当你仔细想想,有些技能可能带有提示词注入,而且技能实际上是有脚本的,因为那是它的确定性部分,因为你可以为特定任务运行特定的脚本。"
+ },
+ {
+  "seg": 162,
+  "start": 773.594,
+  "end": 778.155,
+  "speaker": "Unknown",
+  "en": "So if you don't have, again, a pipeline that checks your security, you may be pulling something that is insecure.",
+  "zh": "所以如果你没有,再说一次,一个检查你安全性的流水线,你可能会拉取到不安全的东西。"
+ },
+ {
+  "seg": 163,
+  "start": 779.315,
+  "end": 779.916,
+  "speaker": "Unknown",
+  "en": "And permissions.",
+  "zh": "还有权限。"
+ },
+ {
+  "seg": 164,
+  "start": 779.976,
+  "end": 784,
+  "speaker": "Unknown",
+  "en": "Not every skill is actually something that anyone in the organization should access.",
+  "zh": "不是每个技能实际上都是组织中任何人都应该访问的东西。"
+ },
+ {
+  "seg": 165,
+  "start": 784.34,
+  "end": 788.084,
+  "speaker": "Unknown",
+  "en": "Some skills may have some business logic that is very sensitive, right?",
+  "zh": "有些技能可能包含非常敏感的业务逻辑,对吧?"
+ },
+ {
+  "seg": 166,
+  "start": 788.504,
+  "end": 791.187,
+  "speaker": "Unknown",
+  "en": "So the access control is also crucial at this stage.",
+  "zh": "所以在这个阶段,访问控制也是至关重要的。"
+ },
+ {
+  "seg": 167,
+  "start": 793.753,
+  "end": 795.194,
+  "speaker": "Unknown",
+  "en": "Now, how to bring this to your organization?",
+  "zh": "那么,如何把它带到你的组织中呢?"
+ },
+ {
+  "seg": 168,
+  "start": 795.694,
+  "end": 801.959,
+  "speaker": "Unknown",
+  "en": "First of all, you need to allow at the individual level to create, test, improve, and use those skills.",
+  "zh": "首先,你需要在个人层面允许创建、测试、改进和使用这些技能。"
+ },
+ {
+  "seg": 169,
+  "start": 802.459,
+  "end": 803.72,
+  "speaker": "Unknown",
+  "en": "Again, it shouldn't be random.",
+  "zh": "再说一次,它不应该是随机的。"
+ },
+ {
+  "seg": 170,
+  "start": 803.74,
+  "end": 804.78,
+  "speaker": "Unknown",
+  "en": "It should be structured way.",
+  "zh": "它应该是有结构的方式。"
+ },
+ {
+  "seg": 171,
+  "start": 805.201,
+  "end": 806.342,
+  "speaker": "Unknown",
+  "en": "These are different tools out there.",
+  "zh": "外面有不同的工具。"
+ },
+ {
+  "seg": 172,
+  "start": 806.362,
+  "end": 810.905,
+  "speaker": "Unknown",
+  "en": "You just need to decide which tool actually you want to agree on, and you use that mechanism at the individual level.",
+  "zh": "你只需要决定你实际上想认可哪个工具,并在个人层面使用那个机制。"
+ },
+ {
+  "seg": 173,
+  "start": 811.565,
+  "end": 814.726,
+  "speaker": "Unknown",
+  "en": "The moment you create a skill, you need to be sharing this with your team, right?",
+  "zh": "当你创建一个技能的那一刻,你就需要与你的团队分享它,对吧?"
+ },
+ {
+  "seg": 174,
+  "start": 815.287,
+  "end": 818.288,
+  "speaker": "Unknown",
+  "en": "Your team starts collaborating to improve the skills.",
+  "zh": "你的团队开始协作来改进这些技能。"
+ },
+ {
+  "seg": 175,
+  "start": 818.328,
+  "end": 818.928,
+  "speaker": "Unknown",
+  "en": "And think about it.",
+  "zh": "想一想。"
+ },
+ {
+  "seg": 176,
+  "start": 818.948,
+  "end": 821.409,
+  "speaker": "Unknown",
+  "en": "You're building the same technology stack, building the same products.",
+  "zh": "你在构建相同的技术栈,构建相同的产品。"
+ },
+ {
+  "seg": 177,
+  "start": 821.809,
+  "end": 823.33,
+  "speaker": "Unknown",
+  "en": "So it's going to evolve really quickly.",
+  "zh": "所以它会演进得非常快。"
+ },
+ {
+  "seg": 178,
+  "start": 824.13,
+  "end": 828.432,
+  "speaker": "Unknown",
+  "en": "But then you move on to a very critical point, which is the centralized platform.",
+  "zh": "但接下来你会进入一个非常关键的点,那就是集中式平台。"
+ },
+ {
+  "seg": 179,
+  "start": 829.212,
+  "end": 832.655,
+  "speaker": "Unknown",
+  "en": "That is where all of what I've been covering so far come to play.",
+  "zh": "那就是我到目前为止讲的所有内容发挥作用的地方。"
+ },
+ {
+  "seg": 180,
+  "start": 832.935,
+  "end": 839.94,
+  "speaker": "Unknown",
+  "en": "You need a centralized platform that has a catalog with metadata in it that actually can discover skills and could be searchable.",
+  "zh": "你需要一个集中式平台,它有一个包含元数据的目录,能够发现技能并且可以搜索。"
+ },
+ {
+  "seg": 181,
+  "start": 839.96,
+  "end": 850.609,
+  "speaker": "Unknown",
+  "en": "You can have an MCP that actually plugs to this catalog, search for the skill and a CLI to pull the skills back to either your IDE if you're locally or to your sandbox in your factory.",
+  "zh": "你可以有一个实际接入这个目录的 MCP,搜索技能,还有一个 CLI 把技能拉回到你的 IDE(如果你在本地)或你工厂里的沙箱。"
+ },
+ {
+  "seg": 182,
+  "start": 851.269,
+  "end": 852.51,
+  "speaker": "Unknown",
+  "en": "Then you have the dependencies.",
+  "zh": "然后你有依赖关系。"
+ },
+ {
+  "seg": 183,
+  "start": 852.55,
+  "end": 854.732,
+  "speaker": "Unknown",
+  "en": "You need to understand the dependencies between the skills as well.",
+  "zh": "你还需要理解技能之间的依赖关系。"
+ },
+ {
+  "seg": 184,
+  "start": 855.012,
+  "end": 855.893,
+  "speaker": "Unknown",
+  "en": "You have the versioning.",
+  "zh": "你有版本控制。"
+ },
+ {
+  "seg": 185,
+  "start": 856.973,
+  "end": 861.655,
+  "speaker": "Unknown",
+  "en": "And lifecycle, so you understand which version of the skills is actually the latest.",
+  "zh": "还有生命周期,这样你才能理解哪个版本的技能实际上是最新版本。"
+ },
+ {
+  "seg": 186,
+  "start": 861.895,
+  "end": 871.379,
+  "speaker": "Unknown",
+  "en": "And a very good example, when I'm using, for example, building a functionality, I can, the agents automatically capture that there is a latest version of the skill and pull it, right?",
+  "zh": "举一个很好的例子,当我在,比如,构建一个功能时,我可以,智能体会自动捕捉到有一个技能的最新版本并拉取它,对吧?"
+ },
+ {
+  "seg": 187,
+  "start": 871.739,
+  "end": 876.861,
+  "speaker": "Unknown",
+  "en": "So this version didn't help also to pull the right latest changes from the skills registry.",
+  "zh": "所以这个版本也能帮助从技能注册表中拉取正确的最新变更。"
+ },
+ {
+  "seg": 188,
+  "start": 877.642,
+  "end": 882.764,
+  "speaker": "Unknown",
+  "en": "Access control, again, as I said, if you don't know who is accessing what, that is a huge gap.",
+  "zh": "访问控制,再说一次,正如我所说,如果你不知道谁在访问什么,那是一个巨大的缺口。"
+ },
+ {
+  "seg": 189,
+  "start": 883.164,
+  "end": 885.545,
+  "speaker": "Unknown",
+  "en": "And finally, evaluation observability.",
+  "zh": "最后是评估可观测性。"
+ },
+ {
+  "seg": 190,
+  "start": 886.405,
+  "end": 889.209,
+  "speaker": "Unknown",
+  "en": "And then all of this is actually played around a governance.",
+  "zh": "而所有这一切实际上都围绕着治理来展开。"
+ },
+ {
+  "seg": 191,
+  "start": 889.249,
+  "end": 891.872,
+  "speaker": "Unknown",
+  "en": "And this is where technology stops solving the problem, right?",
+  "zh": "而这就是技术停止解决问题的地方,对吧?"
+ },
+ {
+  "seg": 192,
+  "start": 892.253,
+  "end": 893.755,
+  "speaker": "Unknown",
+  "en": "So you figure out all of this, all good.",
+  "zh": "所以你把这一切都搞清楚了,都很好。"
+ },
+ {
+  "seg": 193,
+  "start": 894.355,
+  "end": 895.277,
+  "speaker": "Unknown",
+  "en": "Now, who's going to govern this?",
+  "zh": "那么,谁来治理这一切呢?"
+ },
+ {
+  "seg": 194,
+  "start": 896.555,
+  "end": 900.496,
+  "speaker": "Unknown",
+  "en": "And that is where it really depends on how your organization is structured today.",
+  "zh": "而这正是真正取决于你今天的组织是如何构建的地方。"
+ },
+ {
+  "seg": 195,
+  "start": 901.117,
+  "end": 916.022,
+  "speaker": "Unknown",
+  "en": "That is where you should have your architects, your engineering leads, infra leads, et cetera, and cyber leads actually sitting down, owning parts of those domains, and making sure that these skills we need get updated is actually according to the policies you want to adhere within your organization and drive this change.",
+  "zh": "那就是你应该让你的架构师、你的工程负责人、基础设施负责人等等,以及网络安全负责人真正坐下来,拥有这些领域的各个部分,并确保这些我们需要更新的技能实际上是按照你想在组织内遵守的策略来进行的,并推动这种变革。"
+ },
+ {
+  "seg": 196,
+  "start": 917.77,
+  "end": 931.281,
+  "speaker": "Unknown",
+  "en": "And finally, when you get this right, what you will have, you will have at the organization level, all of your teams pulling from one centralized place, high-quality skills, executing them, and pulling them back to the centralized platform if it is improved.",
+  "zh": "最后,当你把这些做对了,你将会拥有的,是在组织层面,你所有的团队都从一个集中式的地方拉取高质量的技能,执行它们,并在有改进时把它们推送回集中式平台。"
+ },
+ {
+  "seg": 197,
+  "start": 932.342,
+  "end": 934.444,
+  "speaker": "Unknown",
+  "en": "Now, what I want to bring this, because this is a little bit of a...",
+  "zh": "那么,我想把这个带进来,因为这有一点……"
+ },
+ {
+  "seg": 198,
+  "start": 935.164,
+  "end": 935.764,
+  "speaker": "Unknown",
+  "en": "In Clearview.",
+  "zh": "在 Clearview 里。"
+ },
+ {
+  "seg": 199,
+  "start": 935.804,
+  "end": 937.965,
+  "speaker": "Unknown",
+  "en": "So what I created, I created a simulation, right?",
+  "zh": "所以我所做的,我创建了一个模拟,对吧?"
+ },
+ {
+  "seg": 200,
+  "start": 938.625,
+  "end": 939.485,
+  "speaker": "Unknown",
+  "en": "So think about this.",
+  "zh": "所以想想看。"
+ },
+ {
+  "seg": 201,
+  "start": 939.565,
+  "end": 941.726,
+  "speaker": "Unknown",
+  "en": "This is your organization today, right?",
+  "zh": "这是你今天的组织，对吧？"
+ },
+ {
+  "seg": 202,
+  "start": 942.306,
+  "end": 945.526,
+  "speaker": "Unknown",
+  "en": "And what I have here, I have just a random team.",
+  "zh": "我这里展示的，只是一个随机的团队。"
+ },
+ {
+  "seg": 203,
+  "start": 945.546,
+  "end": 951.148,
+  "speaker": "Unknown",
+  "en": "So I have 15 teams created, 5 to 12, like, per team.",
+  "zh": "所以我创建了 15 个团队，每个团队大概 5 到 12 个人。"
+ },
+ {
+  "seg": 204,
+  "start": 951.168,
+  "end": 953.768,
+  "speaker": "Unknown",
+  "en": "You have skills per engineer's contribution.",
+  "zh": "你有每位工程师贡献的技能。"
+ },
+ {
+  "seg": 205,
+  "start": 953.808,
+  "end": 964.791,
+  "speaker": "Unknown",
+  "en": "You have the average skills utilization, kind of like on average, like how much time skills are being pulled per day, the duplication across the team, kind of as a ratio, and the skills quality and security ratio.",
+  "zh": "你有平均的技能利用率，大概就是平均来看，每天技能被调用了多少时间，团队内的重复率，作为一个比值，还有技能的质量与安全比值。"
+ },
+ {
+  "seg": 206,
+  "start": 965.471,
+  "end": 975.64,
+  "speaker": "Unknown",
+  "en": "Now, if I run this across six months, what's really happening, and think about it, this is already happening within your organization, is teams are creating and using the skills, right?",
+  "zh": "现在，如果我把这个放到六个月的时间跨度上，真正发生的事情是——想想看，这在你的组织内部已经在发生了——团队们在创建和使用技能，对吧？"
+ },
+ {
+  "seg": 207,
+  "start": 975.92,
+  "end": 977.041,
+  "speaker": "Unknown",
+  "en": "But we don't have visibility.",
+  "zh": "但我们没有可见性。"
+ },
+ {
+  "seg": 208,
+  "start": 977.942,
+  "end": 981.905,
+  "speaker": "Unknown",
+  "en": "And skills, again, they are tightly coupled to your productivity uplift.",
+  "zh": "而技能，再说一次，它们与你的生产力提升紧密耦合。"
+ },
+ {
+  "seg": 209,
+  "start": 982.626,
+  "end": 985.588,
+  "speaker": "Unknown",
+  "en": "If, for example, the example that I shared earlier on the regulation,",
+  "zh": "比如，我前面分享的那个关于法规的例子，"
+ },
+ {
+  "seg": 210,
+  "start": 986.309,
+  "end": 994.501,
+  "speaker": "Unknown",
+  "en": "If we don't have a skill about the regulation, that is someone is vibe coding back and forth and trying to figure out exactly how to steer the agent to implement it properly, right?",
+  "zh": "如果我们没有关于该法规的技能，那就意味着有人在反复 vibe coding，试图弄清楚到底该怎么引导智能体把它正确地实现出来，对吧？"
+ },
+ {
+  "seg": 211,
+  "start": 994.961,
+  "end": 1001.911,
+  "speaker": "Unknown",
+  "en": "That is burning more tokens from one side cost-wise, but also the productivity is spending more time rather than getting in one shot the right answer.",
+  "zh": "这一方面在成本上消耗了更多 token，但另一方面生产力上也花费了更多时间，而不是一次就得到正确的答案。"
+ },
+ {
+  "seg": 212,
+  "start": 1002.752,
+  "end": 1004.274,
+  "speaker": "Unknown",
+  "en": "And the quality and security is similar.",
+  "zh": "质量和安全也是类似的。"
+ },
+ {
+  "seg": 213,
+  "start": 1004.354,
+  "end": 1016.832,
+  "speaker": "Unknown",
+  "en": "If you don't have clear skills defined and maintained, you will have a low quality in your implementation because then it's up to the human to decide this and different in the maturity from team to team, you can see the difference.",
+  "zh": "如果你没有清晰定义和维护的技能，你的实现质量就会很低，因为这就要靠人来决定，而团队与团队之间的成熟度不同，你可以看到其中的差异。"
+ },
+ {
+  "seg": 214,
+  "start": 1017.733,
+  "end": 1024.477,
+  "speaker": "Unknown",
+  "en": "And that is why, for example, if I look just randomly at this, this is, like, you can see the productivity of this team is a kind of a medium, right?",
+  "zh": "这就是为什么，比如，我随便看这个，你可以看到这个团队的生产力属于中等水平，对吧？"
+ },
+ {
+  "seg": 215,
+  "start": 1024.517,
+  "end": 1034.062,
+  "speaker": "Unknown",
+  "en": "If I look at this one, it's a bit of, like, I don't know, it's low, medium, productivity, quality, and security, also a medium, but when it came to the cost, it's really high.",
+  "zh": "如果我看这一个，它大概是，我不知道，生产力低到中等，质量中等，安全也是中等，但到了成本这一项，就真的很高了。"
+ },
+ {
+  "seg": 216,
+  "start": 1035.243,
+  "end": 1035.443,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 217,
+  "start": 1036.203,
+  "end": 1042.987,
+  "speaker": "Unknown",
+  "en": "Now, let's actually say, okay, how this looks like if I governed all of my skills in my organizations.",
+  "zh": "现在，让我们实际说说，如果我对我组织里的所有技能进行治理，这会是什么样子。"
+ },
+ {
+  "seg": 218,
+  "start": 1044.644,
+  "end": 1047.306,
+  "speaker": "Unknown",
+  "en": "What's going to happen is, of course, some of them will split, right?",
+  "zh": "将会发生的是，当然，其中一些会被拆分，对吧？"
+ },
+ {
+  "seg": 219,
+  "start": 1047.326,
+  "end": 1048.046,
+  "speaker": "Unknown",
+  "en": "And this is reality.",
+  "zh": "这就是现实。"
+ },
+ {
+  "seg": 220,
+  "start": 1048.306,
+  "end": 1050.768,
+  "speaker": "Unknown",
+  "en": "It's going to be perfect as we expect.",
+  "zh": "它不会像我们期望的那样完美。"
+ },
+ {
+  "seg": 221,
+  "start": 1051.488,
+  "end": 1056.031,
+  "speaker": "Unknown",
+  "en": "But at least what you will see, you will see actually some common ground across all of your teams.",
+  "zh": "但至少你会看到，实际上在你所有的团队之间会看到一些共同点。"
+ },
+ {
+  "seg": 222,
+  "start": 1056.412,
+  "end": 1058.293,
+  "speaker": "Unknown",
+  "en": "The moment you govern, you publish one skill.",
+  "zh": "从你开始治理的那一刻起，你发布了一个技能。"
+ },
+ {
+  "seg": 223,
+  "start": 1058.873,
+  "end": 1066.078,
+  "speaker": "Unknown",
+  "en": "The next engineer trying to build a new skill, the coding agent's harness will identify the skill that is already available and pull it, right?",
+  "zh": "下一个工程师尝试构建新技能时，编码智能体的 harness 会识别到已有的技能并调用它，对吧？"
+ },
+ {
+  "seg": 224,
+  "start": 1066.138,
+  "end": 1070.421,
+  "speaker": "Unknown",
+  "en": "So you almost solve all of the issues that I covered about the governance.",
+  "zh": "这样你几乎解决了我讲过的所有关于治理的问题。"
+ },
+ {
+  "seg": 225,
+  "start": 1073.634,
+  "end": 1079.837,
+  "speaker": "Unknown",
+  "en": "And one last point is when it came to skills, it's just one component of your workflows, as I said, right?",
+  "zh": "最后一点是，关于技能，正如我所说，它只是你工作流中的一个组件，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1080.477,
+  "end": 1083.678,
+  "speaker": "Unknown",
+  "en": "So that doesn't mean if you figure out skills that says you're good.",
+  "zh": "所以这并不意味着如果你把技能搞明白了，你就万事大吉了。"
+ },
+ {
+  "seg": 227,
+  "start": 1083.878,
+  "end": 1084.078,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不是的。"
+ },
+ {
+  "seg": 228,
+  "start": 1084.198,
+  "end": 1088.86,
+  "speaker": "Unknown",
+  "en": "You need to apply the same kind of, like, approach and solution for your whole workflows.",
+  "zh": "你需要把同样的方法和解决方案应用到你的整个工作流上。"
+ },
+ {
+  "seg": 229,
+  "start": 1089.2,
+  "end": 1090.621,
+  "speaker": "Unknown",
+  "en": "And you may think to apply this again.",
+  "zh": "而你可能会想再次应用这一点。"
+ },
+ {
+  "seg": 230,
+  "start": 1090.901,
+  "end": 1092.362,
+  "speaker": "Unknown",
+  "en": "If you think about it, it's like if you have",
+  "zh": "如果你想想看，这就像是如果你有一个"
+ },
+ {
+  "seg": 231,
+  "start": 1093.642,
+  "end": 1095.964,
+  "speaker": "Unknown",
+  "en": "A centralized platform does have all of your workflows, right?",
+  "zh": "集中化的平台，拥有你所有的工作流，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 1096.344,
+  "end": 1110.151,
+  "speaker": "Unknown",
+  "en": "From one side, you're centralizing the workflows, which is also having the skills, but also if the next engineer came and went, I don't know, like provision infrastructure, they can tap into a workflow and build that workflow with the required skills and run it and test it.",
+  "zh": "一方面，你在把工作流集中化，其中也包含技能，另一方面，如果下一位工程师来了，比如说要配置基础设施，他们可以直接使用一个工作流，用所需的技能构建那个工作流，运行并测试它。"
+ },
+ {
+  "seg": 233,
+  "start": 1110.291,
+  "end": 1116.994,
+  "speaker": "Unknown",
+  "en": "Again, if it's something that needs to be improved in the workflow, you can easily push it back to the centralized platform for your organization to use.",
+  "zh": "再一次，如果工作流中有需要改进的地方，你可以轻松地把它推送回集中化平台，供你的组织使用。"
+ },
+ {
+  "seg": 234,
+  "start": 1121.235,
+  "end": 1126.559,
+  "speaker": "Unknown",
+  "en": "Now, before I wrap up, what I want to leave you with is this is just the start at the beginning.",
+  "zh": "现在，在我收尾之前，我想留给你们的是：这只是一个开端，处于起步阶段。"
+ },
+ {
+  "seg": 235,
+  "start": 1126.579,
+  "end": 1129.04,
+  "speaker": "Unknown",
+  "en": "You see, like, this just we're talking about six to eight months.",
+  "zh": "你看，我们现在谈论的只是六到八个月的时间。"
+ },
+ {
+  "seg": 236,
+  "start": 1129.641,
+  "end": 1134.944,
+  "speaker": "Unknown",
+  "en": "What's coming next and I would invite you to already explore is skills registry, right?",
+  "zh": "接下来要来的、我会邀请你们现在就去探索的，是技能注册表（skills registry），对吧？"
+ },
+ {
+  "seg": 237,
+  "start": 1135.144,
+  "end": 1136.625,
+  "speaker": "Unknown",
+  "en": "You should have one, if not already.",
+  "zh": "如果你还没有的话，你应该有一个。"
+ },
+ {
+  "seg": 238,
+  "start": 1137.045,
+  "end": 1140.528,
+  "speaker": "Unknown",
+  "en": "And the good news is all of the players that's been solving the IDP problem, like,",
+  "zh": "好消息是，所有一直在解决 IDP 问题的厂商，也就是，"
+ },
+ {
+  "seg": 239,
+  "start": 1141.448,
+  "end": 1145.312,
+  "speaker": "Unknown",
+  "en": "Internal Developer Portal, they already start centralizing this capability, right?",
+  "zh": "内部开发者平台（Internal Developer Portal），他们已经开始把这项能力集中化了，对吧？"
+ },
+ {
+  "seg": 240,
+  "start": 1145.392,
+  "end": 1148.395,
+  "speaker": "Unknown",
+  "en": "So if you don't have it today, maybe in a couple of months you will see it coming.",
+  "zh": "所以如果你今天还没有，也许几个月后你就会看到它出现。"
+ },
+ {
+  "seg": 241,
+  "start": 1148.776,
+  "end": 1152.299,
+  "speaker": "Unknown",
+  "en": "But also there's a lot of tools that are actually solving this specific problem.",
+  "zh": "另外还有很多工具实际上正在专门解决这个具体问题。"
+ },
+ {
+  "seg": 242,
+  "start": 1153.348,
+  "end": 1155.05,
+  "speaker": "Unknown",
+  "en": "Signing skills evaluation.",
+  "zh": "签署技能评估。"
+ },
+ {
+  "seg": 243,
+  "start": 1155.09,
+  "end": 1160.614,
+  "speaker": "Unknown",
+  "en": "There's still kind of like a discussion on what is the right approach to evaluate skills.",
+  "zh": "关于评估技能的正确方法，目前还有一定的讨论。"
+ },
+ {
+  "seg": 244,
+  "start": 1161.275,
+  "end": 1169.402,
+  "speaker": "Unknown",
+  "en": "The easy thing that I found so far very valuable is actually test, like, you link static tests or evaluate your skills against the anthropic best practices, right?",
+  "zh": "到目前为止我发现非常有价值的简单做法，实际上就是测试，比如，把静态测试链接起来，或者对照 anthropic 最佳实践来评估你的技能，对吧？"
+ },
+ {
+  "seg": 245,
+  "start": 1170.022,
+  "end": 1176.028,
+  "speaker": "Unknown",
+  "en": "If the skill is not invoked properly, if the skill is not structured properly, there's a high chance there's not going to be high quality.",
+  "zh": "如果技能没有被正确调用，如果技能没有被正确结构化，那很可能质量不会高。"
+ },
+ {
+  "seg": 246,
+  "start": 1177.179,
+  "end": 1178.56,
+  "speaker": "Unknown",
+  "en": "And finally is auto-evolving.",
+  "zh": "最后是自动演化（auto-evolving）。"
+ },
+ {
+  "seg": 247,
+  "start": 1178.8,
+  "end": 1182.041,
+  "speaker": "Unknown",
+  "en": "And again, this is what everyone kind of like is the next hype right now.",
+  "zh": "再说一次，这就是目前每个人眼中的下一个热点。"
+ },
+ {
+  "seg": 248,
+  "start": 1182.081,
+  "end": 1186.823,
+  "speaker": "Unknown",
+  "en": "Like, yeah, I can create like a closed loop that can evolve automatically my skills.",
+  "zh": "就是说，是的，我可以创建一个闭环，可以自动演化我的技能。"
+ },
+ {
+  "seg": 249,
+  "start": 1187.083,
+  "end": 1187.904,
+  "speaker": "Unknown",
+  "en": "So what, right?",
+  "zh": "那又怎样，对吧？"
+ },
+ {
+  "seg": 250,
+  "start": 1188.384,
+  "end": 1202.53,
+  "speaker": "Unknown",
+  "en": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+  "zh": "如果你自动启动这台机器，其影响将远超今天，因为就像我之前分享的，这将只是在没有治理机制的情况下维持自动演进的技能，而治理机制才是真正为你的组织设置护栏的东西。"
+ },
+ {
+  "seg": 251,
+  "start": 1203.869,
+  "end": 1205.45,
+  "speaker": "Unknown",
+  "en": "And at this point, I would leave you here.",
+  "zh": "到这里，我就先讲到这里。"
+ },
+ {
+  "seg": 252,
+  "start": 1205.73,
+  "end": 1208.471,
+  "speaker": "Unknown",
+  "en": "Thank you so much for your listening and looking forward.",
+  "zh": "非常感谢大家的聆听，期待后续交流。"
+ },
+ {
+  "seg": 253,
+  "start": 1208.491,
+  "end": 1210.971,
+  "speaker": "Unknown",
+  "en": "If you have any questions, I will be in the Leadership Lounge.",
+  "zh": "如果你有任何问题，我会在 Leadership Lounge。"
+ },
+ {
+  "seg": 254,
+  "start": 1211.051,
+  "end": 1211.712,
+  "speaker": "Unknown",
+  "en": "Feel free to grab me.",
+  "zh": "随时来找我。"
+ },
+ {
+  "seg": 255,
+  "start": 1211.972,
+  "end": 1212.472,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ }
+]

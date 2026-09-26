@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":142,"Claude Tag":2,"Claude Code":75,"智能体":327,"沙箱":58,"记忆":15,"dreaming":3,"智能体身份":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":143,"Claude Tag":2,"Claude Code":76,"智能体":330,"沙箱":59,"记忆":15,"dreaming":3,"智能体身份":2}</script>
 
 <script>
 (function(){

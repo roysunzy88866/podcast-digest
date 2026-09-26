@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Perplexity</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Perplexity">PE</div><div class="pi"><h1 class="pt">Perplexity</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Perplexity">PE</div><div class="pi"><h1 class="pt">Perplexity</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:26起):本集提到 Perplexity 出现后很多人说 Google 完了，以及 AI Mode 与 Perplexity 的定位对比
 - **[[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]]**(25:17起):本集提到已签约 Plaid 的 AI 公司之一。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(01:08起):本集提到 NVIDIA 正在投资 Perplexity 的 300 亿估值融资轮，作为 NVIDIA 投资布局的一环被提及
+- **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(02:43起):本集说 Perplexity 更像一个垂直整合的产品,与个人智能体类产品竞争,而不直接在 Parallel 的网页搜索业务范围内。
 
 ## ① 提到它的金句
 
@@ -28,7 +29,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -36,14 +37,15 @@ unlisted: true
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
 - [[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|《Plaid COO 谈危机中的公司领导法：文化是压舱石》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
+- [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[OpenAI]] · [[Shopify]] · [[Stripe]] · [[Lenny]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[Sam Motamity]] · [[Sal Motamini]]
+[[ChatGPT]] · [[OpenAI]] · [[Shopify]] · [[智能体]] · [[Amazon]] · [[Stripe]] · [[Lenny]] · [[护栏]] · [[Anthropic]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":77,"OpenAI":132,"Shopify":9,"Stripe":36,"Lenny":67,"智能体":327,"Google":47,"Anthropic":142,"Sam Motamity":1,"Sal Motamini":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":77,"OpenAI":133,"Shopify":10,"智能体":330,"Amazon":15,"Stripe":36,"Lenny":67,"护栏":61,"Anthropic":143,"Google":47}</script>
 
 <script>
 (function(){

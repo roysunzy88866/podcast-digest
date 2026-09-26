@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":142,"Theo Jaffe":7,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":132,"监管俘获":3,"Google":47,"precautionary principle":1,"Microsoft":25,"开源":27}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":143,"Theo Jaffe":7,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":133,"监管俘获":3,"Google":47,"precautionary principle":1,"Microsoft":25,"开源":27}</script>
 
 <script>
 (function(){

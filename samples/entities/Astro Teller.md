@@ -75,7 +75,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 

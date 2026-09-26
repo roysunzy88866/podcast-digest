@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":45,"XAI":6,"软件基础设施":1,"AI 工厂":1,"机密计算":1,"权重":3,"智能体":327,"推理":54}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":45,"XAI":6,"软件基础设施":1,"AI 工厂":1,"机密计算":1,"权重":3,"智能体":330,"推理":55}</script>
 
 <script>
 (function(){

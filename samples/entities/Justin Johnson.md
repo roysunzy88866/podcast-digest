@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":3,"智能体":327,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":3,"智能体":330,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

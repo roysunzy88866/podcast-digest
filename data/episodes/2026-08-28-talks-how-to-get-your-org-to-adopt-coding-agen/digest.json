@@ -1,0 +1,166 @@
+{
+  "title_zh": "Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量",
+  "tldr": "Figma 软件工程师 Eyal Blum 讲 Figma 工程团队如何引入 AI 智能体：用规划代替提示、把验证下移给机器、把最强的怀疑者变成路线图负责人。",
+  "digest_md": "这一集是 Figma 软件工程师 Eyal Blum 的演讲，讲 Figma 内部的工程组织怎么把 AI 智能体(能自主读代码、写代码、跑测试的 AI 程序员)接进工作流，同时保住代码库的质量。他不是来吹产品的，是来讲内部组织怎么消化这场变化的。\n\n钩子先给一个：**适应 AI 最慢的，往往是最优秀的工程师**。因为他们习惯把全部上下文装在脑子里，知道所有的坑在哪里，用「精神胶带」把智能体运转不佳的地方粘合在一起，挡住所有真正糟糕的东西。结果他们负担最重、成为瓶颈、最沮丧，也第一手看到所有问题，所以反而成了适应最慢的人。\n\n## 三幕式：AI 采用的真实曲线\n\nFigma 观察到，无论公司还是个人，AI 采用都走三幕：第一幕，上手某个工具，简单的事快了 10 倍，兴奋；第二幕，把同样做法套到大问题上，AI 败得很惨，一堆 bug,信任崩塌；第三幕，才开始构建真正的技能——正确的护栏、提示词、上下文。麻烦在于组织内部进度不均：有的团队已彻底转型，有的还在实验或已经失去信心，而他们必须一起交付同一个产品。怎么让所有人都走到第三幕，是这一集的主线。\n\n## 最大的杠杆：投资验证\n\n在代码库里能做的价值最高的事，就是投资于验证。每当能把一件原本要人做的事，变成智能体可以自动验证的事，都是大赢。比如 Playwright MCP(让智能体直接操作浏览器界面的工具)出来后，不再需要人去逐步走查，智能体可以自己探索验证，对很多团队是巨大的生产力解锁。\n\n更进一步：发现某个智能体验证方式有效后，花时间把它**固化成确定性流程**——能编码成测试的就变成测试。这样只在需要推理的地方用 LLM,省 token、省时间，回报总是正的。\n\n还有一个具体技巧：让智能体按 TDD(先写测试、再写代码让它通过的「红到绿」开发法)写代码——先定目标，再让它朝目标写，几乎总是比先写代码再补测试效果好，否则它会反过来让测试迁就代码，而不是让代码满足验证标准。\n\n整个质量体系像经典的测试金字塔一样分层：尽可能把检查下移到确定性分析——lint、编译器、单元测试；能按标准覆盖的交给智能体审查；已编码进代码库的架构标准也移给智能体；只有最顶层的功能性判断才留给人。**只让人做人才需要做的事**。\n\n## 规划替代提示：把「写代码的乐趣」换个形式还回来\n\n针对前面提到的满意度问题——很多人过去靠写代码进入心流获得乐趣，现在沦为「等 AI 输出、再跟 AI 对话」的提示词循环——Figma 的解法是：**规划(planning)而非提示(prompting)**。花大量时间写一份非常详细的计划，把所有决策打磨清楚、迭代、发队友评审，然后才交给智能体当作「可自动完成的实现」执行，做完交回来。花一周写计划很常见，但这一周把构建的决策乐趣重新带回了过程，同时还在加速。\n\n一份好计划长这样：\n\n- **开头放「为什么」**：像设计文档的执行摘要，写一段醒目的目标章节，防止智能体随时间漂移(悄悄偏离方向)，并明确禁止它回头改这一节——不许它「自己觉得想改」就改。\n- **拆成可独立验证的小块**：作者自己的尺寸标准是——我愿不愿意一口气审查对应的 PR?如果「得先来杯咖啡才能读」，就是太大，要拆。每一块都要有验证关卡，否则会出现五个阶段里第一个写好了但没验证、后面全部建立在未验证假设之上的局面。\n- 计划定了之后，用什么循环、什么工作流去实现随意。他发现 AI 工作流的好处就是每个人都能搭最适合自己的，强行把所有人统一到一套工具上是收益递减的。\n\n效果：一份花一周写的计划、一周跨团队对齐，交给智能体过夜实现回来，产出的 PR 都在 10 到 100 行之间，一份计划约 20 个 PR,合计约六周的编码工作量，实际只花一周——5 倍提速(还得记得算上最后的审查周期)。\n\n## 把最强的怀疑者变成路线图负责人\n\n回到那些最优秀也最怀疑的工程师：别琢磨怎么「让他们用 AI」,而是**让他们负责「让 AI 在组织里变得安全」的路线图**。他们持怀疑态度，恰恰是因为他们精确知道验证缺失在哪、工具在哪失效——他们的反馈就是改进智能体与代码库交互的路线图。一旦看到自己推动的改进真的让自己的生活变好，他们自然跟上来。而且他们提意见毫不客气：和一群人坐不到一小时的头脑风暴，就能列出一整页要修的东西。\n\n## 注意力是稀缺资源：标注哪些是 AI 写的\n\nAI 时代人类注意力成为稀缺资源，设计文档、Slack 消息、邮件都变长了三四倍、数量翻了两三倍，内容量和以前差不多——沟通质量的可辨识度崩了。Figma 的做法是「注意力感知沟通」：**标注哪些内容是人写的、哪些是 AI 生成的**。他们团队规定，每个 PR 描述必须以一段手写说明开头(可以很短)，AI 生成的描述放在后面——读者就知道该更认真读顶部、以它为准，对后面的部分多一分怀疑。\n\n背后还有个真实教训：他早些时候给几位资深 AI 怀疑者发了一份用 AI 做的 PR 评论分析，没有区分哪些是他写的、哪些是 AI 生成的，对方非常生气——「我没想到我这么尊重的人会给我发这么粗糙敷衍的东西」。道歉之后他学到：清楚标注「这是我写的，这是 AI 写的，我需要你的反馈」，这种文化上的改变和工程挑战同样重要。\n\n## 从人所站的地方开始\n\n推广上最有效的一条朴素经验：让人们**在各自当前的位置直接用上 AI**,把日常任务中的 AI 使用正常化。最有穿透力的一招是在 Slack 里@一个智能体，当着同事的面说「你能替我做一下这个吗」，让它在帖子里闭环。对还没认同的人，可以不带攻击性地@它说「试试看这次智能体能不能搞定」——一次好的现场体验，会让人回去自己尝试。\n\n## 现在与边界\n\n旅程远未结束。尽管 Figma 在对外交付 AI 产品，内部自动化还没有完全到位，构建系统依赖复杂，怎么有效用好编程智能体仍在摸索。他收尾说：在硅谷工作 15 年，这是他在文化和技术上所见过的、按数量级算最大的变化——大家都在一起摸索。\n\n> 【背景】演讲末尾提到的 \"Cloud Agent\" 按上下文应指 Anthropic 的 Claude 编程智能体(Claude Code 类产品)，系语音转写所致的写法差异。\n\n## 本集带走\n\n- **验证下移**：能变成 lint、编译器、单元测试的检查就别留给人和智能体反复推理；智能体验证有效的方式，固化成确定性流程。\n- **让智能体先看目标再写码**：TDD 式「红到绿」——先定验证标准再让它写实现，几乎总比写完码再补测试好。\n- **用一周写计划、一小时审查**:计划开头放「为什么」，拆成每块可独立验证的小 PR(一杯咖啡能读完的尺寸)，每阶段设验证关卡防漂移，然后整包丢给智能体执行。\n- **把最强怀疑者变成路线图主人**：他们知道工具在哪失效；让他们负责让 AI 变安全，他们看到改进生效自然会跟上。\n- **标注人写与 AI 生成**:PR 描述、Slack、邮件里，手写部分放最前、以它为准——注意力稀缺时，告诉读者该认真读哪里。\n- **在日常场景里推广**:Slack 里当场@智能体闭环一次好体验，比任何培训都更能让观望者上手。",
+  "quotes": [
+    {
+      "en": "So they actually end up being slowest to adapt because they see all the problem firsthand.",
+      "zh": "所以他们实际上最终成为适应最慢的人，因为他们第一手看到了所有的问题。",
+      "timestamp": "03:58",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "I think a lot of the speakers here have touched upon this, but investing in verification is probably the highest value thing we can do in our code base.",
+      "zh": "我想这里的很多演讲者都提到过这一点，但投资于验证可能是我们在代码库中能做的价值最高的事情。",
+      "timestamp": "05:00",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "If you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results",
+      "zh": "如果你告诉你的技能或智能体按「红到绿」的 TDD 风格去写你正在写的代码，它几乎总能给你更好的结果。",
+      "timestamp": "06:13",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+      "zh": "因为那样的话，它会让测试去迁就代码，而不是让代码去满足验证标准。",
+      "timestamp": "06:34",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "And then only at the very top you need to have some sort of human review which is usually around the functionality and this is the right thing to build that only leave the human to do what the humans need to actually be involved in.",
+      "zh": "然后只有在最顶层才需要某种人工审查，通常围绕功能性——这才是正确的构建方式：只让人去做人真正需要参与的事。",
+      "timestamp": "07:20",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "Put that in there for the agent. Otherwise, they'll start drifting over time and make sure that the agent don't go back and change that because they feel like it.",
+      "zh": "把执行摘要放进去给智能体。否则它们会随时间开始漂移，而且要确保智能体不会只因为自己想改，就回头去修改那个部分。",
+      "timestamp": "08:51",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "would I want to review the PR that will correspond to that part? If it's going to be too big for me to want to review in one sitting, if kind of like the test is, I'm going to need to get a cup of coffee before I read this. That means it's too big",
+      "zh": "我愿不愿意审查与那一部分对应的 PR?如果它大到我不愿意一口气审完——就像这么个检验标准：读它之前我得先来杯咖啡——那就说明它太大了。",
+      "timestamp": "09:12",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "They're spec haptic because they're seeing where you're lacking validation, where your tools fail, so their feedback is basically the roadmap of how to improve your agent interacting with the code base.",
+      "zh": "他们之所以持怀疑态度，是因为他们看到了你在验证上缺失的地方、工具失效的地方——所以他们的反馈基本上就是如何改进智能体与代码库交互的路线图。",
+      "timestamp": "11:59",
+      "speaker": "Eyal Blum"
+    },
+    {
+      "en": "I've been working in the Valley for the last 15 years, and this is the biggest change by orders of magnitude of everything that I've seen in terms of culture and technology.",
+      "zh": "我在硅谷工作了过去 15 年，这是我在文化和技术方面所见过的、按数量级而言最大的变化。",
+      "timestamp": "17:08",
+      "speaker": "Eyal Blum"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "It's actually our best engineer. They wanted to hold all their contacts in their brain. And they end up getting out of the burden.",
+      "zh": "其实是我们最优秀的工程师。他们想把所有上下文都装在脑子里，结果背上了沉重的负担。"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Unknown",
+      "en": "So they actually end up being slowest to adapt because they see all the problem firsthand.",
+      "zh": "所以他们实际上最终成为适应最慢的人，因为他们第一手看到了所有的问题。"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Unknown",
+      "en": "I think a lot of the speakers here have touched upon this, but investing in verification is probably the highest value thing we can do in our code base.",
+      "zh": "我想这里的很多演讲者都提到过这一点，但投资于验证可能是我们在代码库中能做的价值最高的事情。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "If you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results",
+      "zh": "如果你告诉你的技能或智能体按「红到绿」的 TDD 风格去写你正在写的代码，它几乎总能给你更好的结果。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Unknown",
+      "en": "because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+      "zh": "因为那样的话，它会让测试去迁就代码，而不是让代码去满足验证标准。"
+    },
+    {
+      "timestamp": "07:20",
+      "speaker": "Unknown",
+      "en": "And then only at the very top you need to have some sort of human review which is usually around the functionality and this is the right thing to build that only leave the human to do what the humans need to actually be involved in.",
+      "zh": "然后只有在最顶层才需要某种人工审查，通常围绕功能性——这才是正确的构建方式：只让人去做人真正需要参与的事。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "Put that in there for the agent. Otherwise, they'll start drifting over time and make sure that the agent don't go back and change that because they feel like it.",
+      "zh": "把执行摘要放进去给智能体。否则它们会随时间开始漂移，而且要确保智能体不会只因为自己想改，就回头去修改那个部分。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "Unknown",
+      "en": "would I want to review the PR that will correspond to that part? If it's going to be too big for me to want to review in one sitting, if kind of like the test is, I'm going to need to get a cup of coffee before I read this. That means it's too big",
+      "zh": "我愿不愿意审查与那一部分对应的 PR?如果它大到我不愿意一口气审完——就像这么个检验标准：读它之前我得先来杯咖啡——那就说明它太大了。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Unknown",
+      "en": "It's basically six weeks of coding work. It only took one week, so that's where I get the 5x speed up.",
+      "zh": "这基本上是六周的编码工作量，只花了一周，这就是我得到 5 倍提速的地方。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "They're spec haptic because they're seeing where you're lacking validation, where your tools fail, so their feedback is basically the roadmap of how to improve your agent interacting with the code base.",
+      "zh": "他们之所以持怀疑态度，是因为他们看到了你在验证上缺失的地方、工具失效的地方——所以他们的反馈基本上就是如何改进智能体与代码库交互的路线图。"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Unknown",
+      "en": "So just make sure to bring them in, rather than trying to figure out how to make them use AI, just have them be in charge of the roadmap to make AI safe in your organization",
+      "zh": "所以只要确保把他们拉进来——别再琢磨怎么让他们用 AI,而是让他们负责「让 AI 在你的组织里变得安全」的路线图。"
+    },
+    {
+      "timestamp": "13:01",
+      "speaker": "Unknown",
+      "en": "In the age of AI, human attention is a scarce resource.",
+      "zh": "在 AI 时代，人类的注意力是一种稀缺资源。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Unknown",
+      "en": "And that's kind of building a new culture around that style of communication.",
+      "zh": "这其实是在围绕这种沟通风格建立一种新的文化。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "I did not expect somebody that I respect this much to send me something that's clearly this sloppy.",
+      "zh": "我没想到一个我如此尊重的人，会给我发这么明显粗糙敷衍的东西。"
+    },
+    {
+      "timestamp": "15:16",
+      "speaker": "Unknown",
+      "en": "So lessons like that and changing the culture is just as important as some of the engineering challenges that we've been facing.",
+      "zh": "所以这样的教训，以及改变文化，和我们一直在面对的某些工程挑战同样重要。"
+    },
+    {
+      "timestamp": "16:23",
+      "speaker": "Unknown",
+      "en": "You can tag it and say let's try it and see if the agent can get it this time and they close the loop and if it's a good experience that really helps people try it out on their own in other cases.",
+      "zh": "你可以@它说，我们试试看这次智能体能不能搞定，让它在帖子里闭环——如果是一次好的体验，那真的会帮助人们在其他场景下自己去尝试。"
+    },
+    {
+      "timestamp": "17:02",
+      "speaker": "Unknown",
+      "en": "I've been working in the Valley for the last 15 years, and this is the biggest change by orders of magnitude of everything that I've seen in terms of culture and technology.",
+      "zh": "我在硅谷工作了过去 15 年，这是我在文化和技术方面所见过的、按数量级而言最大的变化。"
+    }
+  ],
+  "voice_script": "今天这一集，咱们听的是 Figma 的一位软件工程师 Eyal Blum 的演讲。他讲的不是什么产品发布，而是很实在的一件事：Figma 内部的工程团队，怎么把 AI 智能体接进日常工作流，同时还能保住代码库的质量。所谓智能体，说白了就是能自己读代码、写代码、跑测试的 AI 程序员。\n\n先给你一个有点反直觉的钩子：在 Figma 的观察里，适应 AI 最慢的，往往不是新手，而是那些最优秀的工程师。为什么会这样？因为顶尖工程师习惯了把全部上下文都装在脑子里，知道代码库所有的坑在哪里。于是他们会用一种\"精神胶带\"，把智能体运转不佳的地方粘合起来，挡住所有真正糟糕的东西。结果呢？这些人负担最重，成了整个团队的瓶颈，最沮丧，而且第一手看到所有问题。用演讲者自己的话说，他们反而成了适应最慢的人。\n\n那怎么让整个团队都跟上？Figma 观察到，不管是一家公司还是一个人，采用 AI 基本都走三幕。第一幕，你上手某个工具，简单的事快了十倍，很兴奋。第二幕，你把同样的做法套到大问题上，AI 败得很惨，一堆 bug,信任直接崩塌。第三幕，才是真正开始构建技能——搭护栏、写提示词、管理上下文。麻烦在于，组织内部进度不均匀：有的团队已经彻底转型，有的还在实验，有的干脆已经失去信心了，可所有人必须一起交付同一个产品。怎么把大家都带到第三幕，就是这一集的主线。\n\n那从哪儿下手呢？演讲里给出的答案，是在代码库里价值最高的一件事：投资于验证。逻辑很简单——每当你能把一件原本要人做的事，变成智能体可以自动验证的事，就是一次大赢。举个例子，有个工具叫 Playwright MCP,能让智能体直接操作浏览器界面。它出来之后，很多团队就不用再让人一步步走查界面了，智能体可以自己探索、自己验证，这是巨大的生产力解锁。\n\n而且这一步还能再往前推。发现某个智能体验证的方式有效之后，就花时间把它固化成确定性流程——能编码成测试的，就变成测试。这样一来，只有真正需要推理的地方才用大语言模型，省时间也省 token,回报总是正的。\n\n顺着这个思路，还有一个很具体的小技巧：让智能体写代码时按 TDD 的方式来，也就是先写测试、再写代码让它通过，俗称\"红到绿\"。先给它定目标，再让它朝目标写，几乎总是比先写代码再补测试效果好。原因也很直白：如果你让它先写代码，它会让测试去迁就代码，而不是让代码去满足验证标准。\n\n把这些拼起来，整个质量体系就像经典的测试金字塔一样分层：尽可能把检查下移到确定性的东西上——lint、编译器、单元测试；能按标准覆盖的，交给智能体审查；已经编码进代码库的架构标准，也移给智能体；只有最顶层的功能性判断，才留给人。一句话，只让人去做人真正需要做的事。\n\n不过这里面还有个不太被人谈的问题：工程师的乐趣去哪了？很多人过去靠写代码进入心流，现在却沦为\"等 AI 输出、再跟 AI 对话\"的提示词循环。Figma 的解法是四个字：规划替代提示。做法是花大量时间写一份非常详细的计划，把所有决策打磨清楚、反复迭代、发队友评审，然后才交给智能体，当作一件可以自动完成的实现去执行。花一周写计划很常见，但这一周把构建的决策乐趣重新带回了过程，同时还在加速。\n\n那一份好计划长什么样？有几个要点。第一，开头放\"为什么\"，像设计文档的执行摘要，写一段醒目的目标章节。这是防止智能体随时间漂移、悄悄偏离方向，而且要明确禁止它回头改这一节——不许它自己觉得想改就改。第二，把计划拆成可以独立验证的小块。作者自己的尺寸标准很实在：我愿不愿意一口气审查对应的 PR?如果\"得先来杯咖啡才能读\"，那就太大了，要拆。而且每一块都得有验证关卡，否则会出现五个阶段里第一个写好了但没验证、后面全部建立在未验证假设之上的局面。第三，计划定下来之后，用什么工具、什么工作流去实现，随意。这恰恰是 AI 工作流的好处，每个人都能搭最适合自己的，强行统一到一套工具上，收益是递减的。\n\n这套打法的效果怎么样？给个数字：一份花一周写好的计划，再花一周做跨团队对齐，然后交给智能体过夜实现。产出的 PR 都在十到一百行之间，一份计划大约二十个 PR,加起来约六周的编码工作量，实际只花了一周——五倍提速。当然，还得算上最后的审查周期。\n\n接着回到开头那批最优秀也最怀疑的工程师。怎么让他们上车？Figma 的答案不是琢磨怎么\"让他们用 AI\",而是反过来：让他们负责\"让 AI 在组织里变得安全\"的路线图。这些人持怀疑态度，恰恰因为他们精确知道验证缺失在哪、工具在哪失效——他们的反馈，本身就是改进智能体与代码库交互的路线图。一旦看到自己推动的改进真的让自己的生活变好，自然就跟上来了。而且他们提意见毫不客气，一群人坐下来不到一小时的头脑风暴，就能列出一整页要修的东西。\n\n不过光改工程还不够，沟通方式也得跟着变。因为 AI 时代，人类注意力成了稀缺资源。设计文档、Slack 消息、邮件，长度涨了三四倍，数量翻了两三倍，可实际内容量和以前差不多——沟通质量的可辨识度崩了。Figma 的做法叫\"注意力感知沟通\"：标注哪些是人写的、哪些是 AI 生成的。比如团队规定，每个 PR 描述必须以一段手写说明开头，可以很短，AI 生成的部分放后面。读者一看就知道，顶部要认真读、以它为准，后面多一分怀疑。\n\n这背后还有个真实的教训。演讲者早些时候给几位资深的 AI 怀疑者发了一份用 AI 做的 PR 评论分析，没区分哪些是自己写的、哪些是 AI 生成的，对方非常生气，说没想到自己这么尊重的人会发这么粗糙敷衍的东西。道歉之后学到的教训是：清楚标注\"这是我写的，这是 AI 写的，我需要你的反馈\"——这种文化上的改变，和工程挑战同样重要。\n\n最后说说推广。最有效的一条经验特别朴素：让人们在各自当前的位置直接用上 AI,把日常任务里的 AI 使用正常化。最有穿透力的一招，是在 Slack 里当着同事的面@一个智能体，说\"你能替我做一下这个吗\"，让它在帖子里把事情闭环。对还没认同的人，可以不带攻击性地@它说，试试看这次智能体能不能搞定。一次好的现场体验，会让人回去自己尝试。\n\n当然，旅程远未结束。Figma 虽然在对外交付 AI 产品，内部自动化还没有完全到位，构建系统的依赖也很复杂，怎么用好编程智能体仍在摸索。演讲的最后是这么收的：在硅谷工作十五年，这是文化和技术上所见过的、按数量级算最大的变化——大家都在一起摸索。如果你只记住一句话，那就记住这个：投资于验证，可能是你在代码库里能做的、价值最高的事。"
+}

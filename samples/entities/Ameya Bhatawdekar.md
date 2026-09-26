@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":327,"RAG":18,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":59}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":330,"RAG":18,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":60}</script>
 
 <script>
 (function(){

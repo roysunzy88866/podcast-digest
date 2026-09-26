@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[工作流]] · [[go-to-market]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[Alex Lieberman]] · [[Jeffrey Wang]] · [[Simon Maple]] · [[Ron Gabrisko]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"工作流":8,"go-to-market":12,"Anthropic":142,"Cursor":68,"OpenAI":132,"Alex Lieberman":1,"Jeffrey Wang":1,"Simon Maple":9,"Ron Gabrisko":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"工作流":9,"go-to-market":12,"Anthropic":143,"Cursor":68,"OpenAI":133,"Alex Lieberman":1,"Jeffrey Wang":1,"Simon Maple":9,"Ron Gabrisko":1}</script>
 
 <script>
 (function(){

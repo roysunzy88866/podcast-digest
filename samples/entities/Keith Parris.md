@@ -67,11 +67,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":327,"记录系统":5}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":330,"记录系统":5}</script>
 
 <script>
 (function(){

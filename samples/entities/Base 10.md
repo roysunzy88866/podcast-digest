@@ -31,7 +31,7 @@ unlisted: true
 
 [[Julian]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[GPU 容量]] · [[分布式推理]] · [[Cursor]] · [[Decagon]]
 
-<script type="application/json" class="pd-epn">{"Julian":1,"推理":54,"专用推理":1,"开源模型":20,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":68,"Decagon":8}</script>
+<script type="application/json" class="pd-epn">{"Julian":1,"推理":55,"专用推理":1,"开源模型":21,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":68,"Decagon":8}</script>
 
 <script>
 (function(){

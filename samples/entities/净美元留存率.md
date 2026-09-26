@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sal Motamini]] · [[Alvaro Morales]] · [[Orb]] · [[Asana]] · [[Stripe]] · [[Shopify]] · [[Snowflake]] · [[Twilio]] · [[Vercel]] · [[Pinecone]]
 
-<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Alvaro Morales":1,"Orb":1,"Asana":2,"Stripe":36,"Shopify":9,"Snowflake":13,"Twilio":2,"Vercel":18,"Pinecone":3}</script>
+<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Alvaro Morales":1,"Orb":1,"Asana":2,"Stripe":36,"Shopify":10,"Snowflake":13,"Twilio":2,"Vercel":18,"Pinecone":3}</script>
 
 <script>
 (function(){

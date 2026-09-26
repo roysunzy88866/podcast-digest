@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":4,"免费增值":2,"推理":54,"模板":2,"SEO":7,"人在回路":15}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":4,"免费增值":2,"推理":55,"模板":2,"SEO":7,"人在回路":15}</script>
 
 <script>
 (function(){

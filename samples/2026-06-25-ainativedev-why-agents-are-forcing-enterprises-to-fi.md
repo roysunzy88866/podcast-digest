@@ -145,8 +145,8 @@ Patrick 总结了一个更底层的模式：对 AI 好的实践，对人也好�
 **顺着「智能体」挖下去**
 
 - [[2026-08-22-talks-give-the-agent-a-budget-not-a-token-sach|给智能体预算，而不是令牌：Anthropic 的智能体安全上生产之道]]<span class="pd-rz">同概念:CI/CD、token、智能体 (agent)</span>
+- [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同概念:token、护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:智能体 (agent)、可观测性 (observability)、护栏 (guardrails)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

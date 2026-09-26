@@ -1,0 +1,435 @@
+{
+  "episode_id": "2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "AI 采用",
+    "工程文化",
+    "代码质量"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "eyal-blum",
+      "type": "person",
+      "role": "guest",
+      "name": "Eyal Blum",
+      "file": "Eyal Blum",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.596,
+            14.977
+          ],
+          "quote": "My name is Eyal Blum.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集 speaker 所在的公司：基于浏览器的设计/工程编辑器，已强烈转型为 AI 优先工具；演讲讲的是其内部工程组织如何采用 AI 智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.538,
+            17.119
+          ],
+          "quote": "I am a software engineer at Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.86,
+            30.193
+          ],
+          "quote": "And in my talk today, we're going to talk about how we've adapted or are adapting agent into our workflow at Figma while maintaining high quality for our code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            32.075,
+            43.103
+          ],
+          "quote": "So as you may know, Figma is the browser-based editor where design and engineering and now AI agent collaborate together to ship code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            45.945,
+            51.349
+          ],
+          "quote": "Figma has pivoted very strongly from being a traditional tool to an AI-first tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：能自主读代码、写代码、跑验证的 AI 程序员，Figma 正把它接入工程工作流，同时讨论其失效处、漂移问题和与人的分工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.86,
+            30.193
+          ],
+          "quote": "And in my talk today, we're going to talk about how we've adapted or are adapting agent into our workflow at Figma while maintaining high quality for our code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            32.075,
+            43.103
+          ],
+          "quote": "So as you may know, Figma is the browser-based editor where design and engineering and now AI agent collaborate together to ship code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            311.602,
+            320.13
+          ],
+          "quote": "Anytime we can lift shift anything in our workflow from a human needing to do it to an agent being able to verify it,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            320.831,
+            329.914
+          ],
+          "quote": "So, for example, when Playwright MCP came out, instead of having humans navigate the code, now the agent can explore the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            341.675,
+            350.581
+          ],
+          "quote": "It's even better if when you find something that the agent has found to be useful, take the time to take it and encode it into a deterministic flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            372.422,
+            400.236
+          ],
+          "quote": "And another tip, if you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results because you set a goal, then you tell the agent to strive toward that goal, it will almost always give you better results in writing the code and then writing the test afterwards because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            425.612,
+            431.817
+          ],
+          "quote": "Whatever that can be covered easily, you can have agent-to-reviews on it based on criteria.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            433.178,
+            439.584
+          ],
+          "quote": "And architectural standards that have been easily encoded into the code base you can move into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            470.324,
+            481.591
+          ],
+          "quote": "Spending a lot of time writing the plan and then sending it off to the agent basically as an implementation that can be done automatically is something that we find to really",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            487.949,
+            502.255
+          ],
+          "quote": "And so it's not uncommon to spend a week writing a very detailed plan, making all the decisions, flushing it out, iterating, sending it out to teammates to review, and then only when it's read and you've flushed out all the decision, you can send it to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            502.275,
+            505.657
+          ],
+          "quote": "The agent will send it back to you when it's implemented.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            524.218,
+            527.819
+          ],
+          "quote": "It really helps prevent an agent drift if you have a bold, big section.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            531.721,
+            533.002
+          ],
+          "quote": "Put that in there for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            533.062,
+            538.385
+          ],
+          "quote": "Otherwise, they'll start drifting over time and make sure that the agent don't go back and change that because they feel like it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            612.601,
+            624.47
+          ],
+          "quote": "The executive summary at the top, the phases, break it down, and then each one of them I will go into lots of details so that I can just fit it into a sub-agent, and the sub-agent can independently work on that and not have to worry about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            719.97,
+            731.978
+          ],
+          "quote": "They're spec haptic because they're seeing where you're lacking validation, where your tools fail, so their feedback is basically the roadmap of how to improve your agent interacting with the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            955.62,
+            962.763
+          ],
+          "quote": "And really one of the most powerful thing is being able to tag an agent in a Slack message with somebody and say, can you just do this for me?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            983.59,
+            993.596
+          ],
+          "quote": "You can tag it and say let's try it and see if the agent can get it this time and they close the loop and if it's a good experience that really helps people try it out on their own in other cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            1011.625,
+            1019.31
+          ],
+          "quote": "We're still trying to figure out when we should use, how we can use Cloud Agent effectively, given all the dependencies we have for some of our build systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集称之为代码库里价值最高的投资：凡是能把人要做的事变成智能体可自动验证的事都是大赢，怀疑派工程师的反馈就是验证缺失在哪的路线图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            300.751,
+            310.941
+          ],
+          "quote": "I think a lot of the speakers here have touched upon this, but investing in verification is probably the highest value thing we can do in our code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            372.422,
+            400.236
+          ],
+          "quote": "And another tip, if you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results because you set a goal, then you tell the agent to strive toward that goal, it will almost always give you better results in writing the code and then writing the test afterwards because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "type": "concept",
+      "role": "concept",
+      "name": "规划（而非提示） (planning)",
+      "file": "规划（而非提示）",
+      "primary": true,
+      "how_described": "本集解法：花一周写详细计划（开头放 why、拆成可独立验证的小块），再交给智能体当自动实现执行——把构建乐趣还回过程，拿到 5 倍提速。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            455.393,
+            459.336
+          ],
+          "quote": "Another really important thing is the planning versus prompting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            706.863,
+            719.17
+          ],
+          "quote": "Moving on from planning, back to the issue that we had with the skeptics and the people who are burdened with the most work, make sure that you bring them in and take their feedbacks really seriously.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "TDD",
+      "file": "TDD",
+      "primary": true,
+      "how_described": "本集技巧：让智能体按「红到绿」的 TDD 方式先定目标再写代码，几乎总比先写码再补测试好，否则它会让测试迁就代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            372.422,
+            400.236
+          ],
+          "quote": "And another tip, if you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results because you set a goal, then you tell the agent to strive toward that goal, it will almost always give you better results in writing the code and then writing the test afterwards because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "testing-pyramid",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试金字塔 (testing pyramid)",
+      "file": "测试金字塔",
+      "primary": true,
+      "how_described": "本集的质量分层模型：尽可能下移到 lint、编译器、单元测试等确定性分析，中间交给智能体按标准审查，只有最顶层功能性判断留给人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            402.751,
+            411.293
+          ],
+          "quote": "And this is the testing pyramid, the classic testing pyramid from the previous, just when you think about the testing themselves, which you had,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集在讲 AI 采用第三幕时提到：开始构建真正的技能——正确的护栏、提示词和上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            106.06,
+            122.055
+          ],
+          "quote": "And then from that point, you start building the real skill, which is learning how to use AI correctly and put the right guardrails and the right prompting and the right contact and all the stuff that we've been talking all day about here and all the talks in order to actually build a real skill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playwright-mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "Playwright MCP",
+      "file": "Playwright MCP",
+      "primary": false,
+      "how_described": "本集举例：它出现后智能体可以自己探索、操作浏览器界面来验证，不再需要人逐步走查，是很多团队的巨大生产力解锁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            320.831,
+            329.914
+          ],
+          "quote": "So, for example, when Playwright MCP came out, instead of having humans navigate the code, now the agent can explore the code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloud Agent",
+      "file": "Cloud Agent",
+      "primary": false,
+      "how_described": "演讲末尾提到团队仍在摸索如何有效地使用 Cloud Agent，受制于构建系统的诸多依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            1011.625,
+            1019.31
+          ],
+          "quote": "We're still trying to figure out when we should use, how we can use Cloud Agent effectively, given all the dependencies we have for some of our build systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

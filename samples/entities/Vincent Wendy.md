@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI Engineer":1,"Devin":3,"Figma":20,"GPT":3,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":42,"MCP":59,"Slack":28}</script>
+<script type="application/json" class="pd-epn">{"AI Engineer":1,"Devin":3,"Figma":21,"GPT":3,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":42,"MCP":60,"Slack":28}</script>
 
 <script>
 (function(){

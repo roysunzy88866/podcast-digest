@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(06:47起):本集说 Figma 更多是企业产品，是大群人构建软件、协调工作的工具，即使自动化了创意，仍然有官僚流程和工作流管理可以赚钱，毛利率因智能体产品受损但承受了打击
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(00:31起):本集说团队选择使用 Figma 及其内的 AI 生成工具 Figma Make 来做原型设计，主要是因为团队对其熟悉度最高，在改变软件构建方式时不想同时逼人换工具以减少阻力。
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(13:07起):本集说整个 OLX 设计系统（Nexus）在 Figma 中从提示词构建，智能体能感知缺少的组件并自动在 Figma 里创建，设计师只做审查
+- **[[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]]**(00:15起):本集 speaker 所在的公司：基于浏览器的设计/工程编辑器，已强烈转型为 AI 优先工具；演讲讲的是其内部工程组织如何采用 AI 智能体。
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(28:58起):本集说 Figma 一直是 computer use 表现糟糕的应用,而 Astra 这次接管电脑用它拼好了播客缩略图。
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(58:44起):本集顺带提到 Figma 曾是科技界的宠儿，但 AI 确实伤害了它，很多人开始 vibe coding 内部设计工具。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(03:17起):本集说以前日程牌都在 Figma 上手动做，现在 Figma 与 Devin、Slack 连成工作流，还配合一个免费的规格表插件把间距、字号、颜色标注成规格文档交给 AI。
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司(提及)
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司(提及)
@@ -57,6 +58,7 @@ unlisted: true
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]] — 作为被讨论公司
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念(提及)
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为概念(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为被讨论公司
@@ -68,9 +70,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[设计系统]] · [[Notion]] · [[ChatGPT]] · [[Claude Code]] · [[GitHub]] · [[Cursor]] · [[Lenny]] · [[提示词]]
+[[智能体]] · [[MCP]] · [[设计系统]] · [[Notion]] · [[ChatGPT]] · [[Claude Code]] · [[GitHub]] · [[Cursor]] · [[Lenny]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"MCP":59,"设计系统":7,"Notion":14,"ChatGPT":77,"Claude Code":75,"GitHub":23,"Cursor":68,"Lenny":67,"提示词":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"MCP":60,"设计系统":7,"Notion":14,"ChatGPT":77,"Claude Code":76,"GitHub":24,"Cursor":68,"Lenny":67,"护栏":61}</script>
 
 <script>
 (function(){

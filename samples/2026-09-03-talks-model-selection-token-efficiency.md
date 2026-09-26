@@ -151,7 +151,7 @@ Santi 称这是全场最有价值的一条：用智能体之前先规划。太�
 
 - [[2026-09-03-talks-refactoring-legacy-codebases|用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流]]<span class="pd-rz">同公司:Cursor · 同概念:harness、智能体 (agent)、规划模式 (Plan Mode)、MCP</span>
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:Cursor · 同概念:harness、上下文窗口 (context window)、智能体 (agent)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)、规划模式 (Plan Mode)</span>
+- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同概念:harness、上下文窗口 (context window)、技能 (skills)、MCP</span>
 
 </div>
 <div class="pd-ex">

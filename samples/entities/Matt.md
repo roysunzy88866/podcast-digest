@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":132,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":9,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":133,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":9,"湿实验室":1}</script>
 
 <script>
 (function(){

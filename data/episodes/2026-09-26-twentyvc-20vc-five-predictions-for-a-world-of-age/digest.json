@@ -1,0 +1,214 @@
+{
+  "title_zh": "智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索",
+  "tldr": "Parallel 创始人 Parag Agrawal 讲解为什么为智能体重建网络搜索，并预判广告模式崩塌、数据交易与搜索推送化等趋势。",
+  "digest_md": "这一集的嘉宾是 Parag Agrawal——前 Twitter CEO、现在创办了 Parallel,一家做「智能体的 Google」的公司。主持人 Harry 专程飞到伦敦和他聊了一期。Parag 的核心判断一句话就能说清：智能体使用网络的次数将是人类的 1000 倍，而为一个规模建的搜索技术撑不住三个数量级的变化，所以搜索的底层技术和商业模式都得重造。\n\n## 为什么智能体搜索和人类搜索完全是两回事\n\n人类用搜索的方式很窄：敲两三个关键词、等半秒到一秒、拿到 10 个蓝色链接再随机点。智能体完全不同——它会把想找的东西写成完整的一句话告诉你；时间约束也走向两个极端:语音智能体只能等 100 毫秒(因为背后的人在等它)，后台智能体却愿意等最好的答案。「最没意思的恰恰是我们为人类构建的那种」。输入不同、输出不同(不是链接，是 token 或文件)、算力预算不同，整个问题被重新定义了。\n\n## 核心技术账：给搜索分配算力，替模型省算力\n\nParag 把网页搜索问题概念化：从网上几万亿份文档，缩小到你的模型上下文窗口该看的一千个 token。做法是分层的漏斗——大多数文档花零算力，用极便宜的算力筛出一万份，再逐层用更大的模型和更复杂的排序器往下收窄。关键在权衡：模型越贵，越要在搜索端把活干好。给便宜的 Luna 级模型，漏一点杂质进上下文没关系；给贵的 Fable 级模型，就必须在浪费它 20 秒思考之前把信噪比做高——花 5 秒在搜索上，让它少做三次搜索，端到端反而省时间和钱。他们的 API 甚至有个参数问你「是什么模型在调用我」，说了就能拿到更优的结果。产品化成几种模式：语音智能体用最快的 Turbo,昂贵的后台智能体用 Advanced。\n\n## 谁在调用搜索？不只是写代码\n\n编码目前只在约 5% 的提示词里调用网页搜索，因为大部分工作依赖内部代码库。真正重度依赖搜索的是法律(要查判例法、查公司和个人事实，还得穷尽排除，「确信别人找不到」)、保险承保、销售和 AI 科学。所以模型越好越便宜、智能体做得越多，对他这门生意越有利。\n\n## 定价全错了：他要主动打价格战\n\nParag 有一套反直觉的算盘：今天市场上网页搜索「1000 次 10 美元」的定价，源头是 Google 时代面向人类的广告 CPM。但他认为当大量 Luna 级便宜模型跑智能体时，会出现搜索花掉 80-90% 成本、模型只占 10% 的荒谬局面，所以搜索价格必须降一个数量级。他的技术能做到同质量下百分之一二十到百分之一五十的算力,现在一千次 1 美元(对手 7-14 美元)，三年内还有 10 倍下降空间——用量会因杰文斯悖论涨回来更多。「我确实想把价格打到最低，我想让最好的技术获胜」。他也顺手否掉了公开基准测试：像 BrowseComp 一半模型都背下来了，没有参考价值。\n\n## 广告模式会死，他自建「智能体的 AdSense」\n\n广告以目前的形式无法与智能体兼容：智能体来了，没人看广告，内容方赚不到钱，结果就是所有人屏蔽智能体。所以 Parallel 在每次智能体从内容中获益时向内容方付一笔可变金额——本质是给智能体建一个 AdSense。定价逻辑很精巧：从索引里拿掉某个内容方，答案质量会从「1 美元水平」掉到「90 美分水平」，那 10 美分的边际贡献，就拿出相当一块付给数据提供者。和流媒体冲击音乐业不同，他认为是蛋糕在变大，商业模式转型是可能的。\n\n## 更远的判断：从「拉取」到「推送」的搜索\n\nHarry 分享了一个用例：他用智能体监控欧洲各国公司注册机构、盯 25 岁以下名校创始人。Parag 说这正是未来——与其让智能体每六小时醒来搜一遍，不如让一直在爬全网的搜索系统持有长存上下文，做成事件触发：世界大部分时间没变，只在有变化时花算力，省 10 到 50 倍算力。这就是他们的 Monitor API(「智能版的 Google Alerts」)。他更大的预判：当持久化智能体越来越多，搜索会从拉取(query → 结果)翻转为推送(网页事件流主动触发智能体干活)。\n\n## 数据交易的缺口与别的担忧\n\n他认为今天我们还不懂怎么为「独特、有价值的数据/洞察」付费——VC 按席位付费 PitchBook,但跑智能体时按席位计费完全不合身，结果就是猫鼠游戏式的爬取或被封。每家大公司都在选「放智能体进来还是挡在外面」：Amazon 关门、Shopify 和 Expedia 开门；Parag 认为最终所有人都得放，问题只是按什么条件。他也担心财富分化(「应该有差距，但不知道多少算太多，我的恐惧是我们正滑向太多」)、担心 AI 的收益过度集中；并直言模型安全：「模型黑进世界不是因为它太强大，而是因为我们没采取相称的防护，有些黑客该被视为耻辱而非荣誉勋章」。\n\n## 本集带走\n\n- **智能体搜索 ≠ 给现有搜索 API 换皮**：输入(整句话)、输出(token/文件)、时间约束(100 毫秒到不限)全变了，得按 1000 倍规模重造漏斗式分层检索。\n- **搜索定价会崩再重建**：「1000 次 10 美元」锚定的是人类广告 CPM;模型越便宜、搜索占比越荒谬，价格须降一个数量级，而更贵的模型反而该花更多钱买更好的搜索。\n- **内容方的新生意**：智能体时代广告失灵，按内容对智能体任务的边际贡献计费(智能体的 AdSense)是可行的替代变现。\n- **搜索会从拉取变推送**：长存上下文 + 事件触发(如 Monitor API),比定时轮询省 10-50 倍算力。\n- **盯住数据交易这个空白市场**：按席位付费撑不住智能体用量，谁先解决「推理时按价值为数据定价」，谁拿到下一个大市场。",
+  "quotes": [
+    {
+      "en": "Yeah, literally the first genesis of the company was the statement that agents will use the web 1000x more than humans.",
+      "zh": "是的，这家公司最初的起点就是一句话：智能体使用网络的次数将是人类的 1000 倍。",
+      "timestamp": "04:04",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "It changes how you think about building the tech underneath because no tech built for a certain scale survives three orders of magnitude.",
+      "zh": "它会改变你对构建底层技术的思考方式，因为为某个规模构建的技术无法在三个数量级的变化中幸存。",
+      "timestamp": "04:18",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "In fact, the one thing that is the least interesting is what we've built for humans.",
+      "zh": "事实上，最没意思的一件事恰恰是我们为人类构建的东西。",
+      "timestamp": "05:57",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "So you're essentially allocating compute to web search in order to save compute on the model.",
+      "zh": "所以你本质上是在给网页搜索分配计算量，以便在模型上节省计算量。",
+      "timestamp": "07:36",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "Because we bet that agents will be the consumers for the web.",
+      "zh": "因为我们押注智能体会成为网络的消费者。",
+      "timestamp": "11:50",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "It appears there is no end to the scaling law that we can perceive so far.",
+      "zh": "目前看来，我们所能感知到的缩放定律似乎没有尽头。",
+      "timestamp": "14:45",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "I think today we don't know how to pay for unique, valuable insight or data.",
+      "zh": "我认为今天我们还不知道如何为独特的、有价值的洞察或数据付费。",
+      "timestamp": "17:51",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "Ads don't work with agents in their current form.",
+      "zh": "广告以目前的形式无法与智能体兼容。",
+      "timestamp": "23:46",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "I do think there should be some disparity in wealth, but I don't know what's too much.",
+      "zh": "我确实认为财富上应该存在某种差距，但我不知道多少算太多。",
+      "timestamp": "47:33",
+      "speaker": "Parag Agrawal"
+    },
+    {
+      "en": "I think having unreasonable expectations of people is mostly a good thing.",
+      "zh": "我认为对人们抱有不合理的期望，大多是件好事。",
+      "timestamp": "50:01",
+      "speaker": "Parag Agrawal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:04",
+      "speaker": "Parag",
+      "en": "Yeah, literally the first genesis of the company was the statement that agents will use the web 1000x more than humans.",
+      "zh": "是的，这家公司最初的起点就是一句话：智能体使用网络的次数将是人类的 1000 倍。"
+    },
+    {
+      "timestamp": "04:18",
+      "speaker": "Parag",
+      "en": "It changes how you think about building the tech underneath because no tech built for a certain scale survives three orders of magnitude.",
+      "zh": "它会改变你对构建底层技术的思考方式，因为为某个规模构建的技术无法在三个数量级的变化中幸存。"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Parag",
+      "en": "In fact, the one thing that is the least interesting is what we've built for humans.",
+      "zh": "事实上，最没意思的一件事恰恰是我们为人类构建的东西。"
+    },
+    {
+      "timestamp": "07:36",
+      "speaker": "Parag",
+      "en": "So you're essentially allocating compute to web search in order to save compute on the model.",
+      "zh": "所以你本质上是在给网页搜索分配计算量，以便在模型上节省计算量。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Parag",
+      "en": "For example, we have a really, really fast API, the fastest in the market.",
+      "zh": "比如我们有一个非常非常快的 API,市场上最快的。"
+    },
+    {
+      "timestamp": "10:32",
+      "speaker": "Parag",
+      "en": "Coding invokes, I would say, web search in 5% of prompts.",
+      "zh": "我想说，编码在 5% 的提示词里会调用网页搜索。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Parag",
+      "en": "So you have to be very comprehensive in law to say, I want to be confident that despite a lot of effort, you can't find this.",
+      "zh": "所以在法律里你必须非常全面，才能说，我想确信即使付出大量努力，你也找不到这个。"
+    },
+    {
+      "timestamp": "11:50",
+      "speaker": "Parag",
+      "en": "Because we bet that agents will be the consumers for the web.",
+      "zh": "因为我们押注智能体会成为网络的消费者。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "Parag",
+      "en": "Because it's lossy compression.",
+      "zh": "因为那是有损压缩。"
+    },
+    {
+      "timestamp": "14:45",
+      "speaker": "Parag",
+      "en": "It appears there is no end to the scaling law that we can perceive so far.",
+      "zh": "目前看来，我们所能感知到的缩放定律似乎没有尽头。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Parag",
+      "en": "I think today we don't know how to pay for unique, valuable insight or data.",
+      "zh": "我认为今天我们还不知道如何为独特的、有价值的洞察或数据付费。"
+    },
+    {
+      "timestamp": "21:08",
+      "speaker": "Parag",
+      "en": "I think eventually everyone has to let them in.",
+      "zh": "我认为最终所有人都得放它们进来。"
+    },
+    {
+      "timestamp": "23:46",
+      "speaker": "Parag",
+      "en": "Ads don't work with agents in their current form.",
+      "zh": "广告以目前的形式无法与智能体兼容。"
+    },
+    {
+      "timestamp": "24:30",
+      "speaker": "Parag",
+      "en": "So you need to find a replacement to the ads business model.",
+      "zh": "所以你需要找到广告商业模式的替代品。"
+    },
+    {
+      "timestamp": "25:58",
+      "speaker": "Parag",
+      "en": "This is not just a change in the share of value that people transact over.",
+      "zh": "这不仅仅是人们在其中进行交易的价值份额的变化。"
+    },
+    {
+      "timestamp": "27:15",
+      "speaker": "Parag",
+      "en": "Quality, cost, latency.",
+      "zh": "质量、成本、延迟。"
+    },
+    {
+      "timestamp": "35:36",
+      "speaker": "Parag",
+      "en": "And so I do want to raise to the bottom.",
+      "zh": "所以我确实想把价格打到最低。"
+    },
+    {
+      "timestamp": "35:38",
+      "speaker": "Parag",
+      "en": "I want the best technology to win.",
+      "zh": "我想让最好的技术获胜。"
+    },
+    {
+      "timestamp": "41:08",
+      "speaker": "Parag",
+      "en": "And I'm super excited about that because as you have more and more persistent agents, you're going to see incentives to move people, to move queries into push on search rather than pull on search.",
+      "zh": "我对此非常兴奋，因为随着你拥有越来越多的持久化智能体，你会看到推动人们把查询从搜索拉取转向搜索推送的动力。"
+    },
+    {
+      "timestamp": "45:08",
+      "speaker": "Parag",
+      "en": "I actually worry about that more.",
+      "zh": "我其实更担心的是那个。"
+    },
+    {
+      "timestamp": "47:33",
+      "speaker": "Parag",
+      "en": "I do think there should be some disparity in wealth, but I don't know what's too much.",
+      "zh": "我确实认为财富上应该存在某种差距，但我不知道多少算太多。"
+    },
+    {
+      "timestamp": "50:01",
+      "speaker": "Parag",
+      "en": "I think having unreasonable expectations of people is mostly a good thing.",
+      "zh": "我认为对人们抱有不合理的期望，大多是件好事。"
+    },
+    {
+      "timestamp": "53:14",
+      "speaker": "Parag",
+      "en": "Chaos.",
+      "zh": "混沌。"
+    },
+    {
+      "timestamp": "53:16",
+      "speaker": "Parag",
+      "en": "By that I mean change.",
+      "zh": "我的意思是变化。"
+    }
+  ],
+  "voice_script": "今天这期节目的嘉宾，来头不小。Parag Agrawal，前 Twitter 的 CEO，现在自己创业，做了一家公司叫 Parallel。这家公司干的事情说起来很玄，其实就是给智能体造一个\"Google\"。主持人 Harry 专门飞到伦敦和他聊了一期。整期节目就围绕一个问题：如果以后在网上搜东西的主力不是人，而是 AI 智能体，那搜索这件事，是不是得从头再建一遍？\n\nParag 的判断，一句话就能说清：智能体使用网络的次数，会是人类的一千倍。而为某个规模构建的技术，撑不住三个数量级的变化。这句话就是这家公司最初的起点，也是理解整期节目的钥匙。\n\n那智能体搜索和人类搜索，到底差在哪？你想想自己怎么用搜索引擎：敲两三个关键词，等上半秒一秒，拿到十个蓝色链接，然后随手点一个。智能体完全不是这么干。它会把自己想找的东西写成一句完整的话告诉你；时间约束也走向两个极端——语音智能体只能等一百毫秒，因为背后的人在等着；后台智能体却愿意等最好的答案。输入不同，输出也不同——不是链接，是 token 或者文件；算力预算也不一样。用 Parag 的原话说，最没意思的，恰恰是我们为人类构建的那种搜索。整个问题被重新定义了。\n\n问题重新定义了，解法也得跟着变。Parag 把网页搜索这个问题拆成了一个很漂亮的概念：从网上几万亿份文档里，缩小到你的模型上下文窗口该看的那一千个 token。怎么做？一个分层的漏斗。大多数文档花零算力，先用极便宜的算力筛出一万份，再逐层用更大的模型、更复杂的排序器往下收窄。这里面有个关键的权衡：说白了，你是在给网页搜索分配计算量，好在模型上节省计算量。如果调用的只是便宜的 Luna 级小模型，漏一点杂质进上下文无所谓；但要是贵的 Fable 级模型，就得在浪费它二十秒思考之前，把信噪比做高——花五秒在搜索上，让它少搜三次，端到端反而更省时间和钱。他们的 API 甚至有个参数，问你是什么模型在调用，答了就能拿到更优的结果。\n\n那现在谁在调用搜索呢？你可能会猜是写代码的。其实恰恰相反，编码只在约百分之五的提示词里调用网页搜索，因为大部分编程活儿靠的是内部代码库。真正重度依赖搜索的行业是法律——要查判例法、查事实，还得穷尽排除、确信别人找不到；再加上保险承保、销售和 AI 科学。所以模型越好越便宜、智能体越多，这门生意反而越红火。\n\n顺着这条线往下走，就撞上了一个定价的荒谬之处。今天市场上网页搜索\"一千次十美元\"的定价，源头是 Google 时代面向人类的广告 CPM。但 Parag 算了一笔账：等大量便宜模型跑起智能体，会出现搜索花掉八到九成成本、模型只占一成的荒谬局面。所以搜索价格必须降一个数量级。他的技术能在同等质量下只用对手百分之一二十到一半的算力，现在一千次一美元，对手要七到十四美元，三年内还有十倍的下降空间。用的人多了，按杰文斯悖论，用量会涨回来更多。有句话说得挺直白：我确实想把价格打到最低，我想让最好的技术获胜。\n\n价格只是商业模式的一半，另一半更麻烦：广告。广告以目前的形式没法和智能体兼容——智能体来了，没人看广告，内容方赚不到钱，结果就是所有人屏蔽智能体。所以 Parallel 在每次智能体从内容中获益时，向内容方付一笔可变金额，本质上是给智能体建一个 AdSense。定价逻辑很精巧：把某个内容方从索引里拿掉，答案质量会从一块钱掉到九毛钱，那十分钱的边际贡献，就拿出一大块付给数据提供者。和流媒体冲击音乐业不同，这回蛋糕在变大，转型是可能的。\n\n再往远看一步，搜索还可能整个翻个面——从\"拉取\"变成\"推送\"。主持人 Harry 举了个自己的用例：用智能体监控欧洲各国公司注册机构，盯着二十五岁以下的名校创始人。Parag 说这正是未来。与其让智能体每六小时醒来搜一遍，不如让一个一直在爬全网的搜索系统持有长存上下文，做成事件触发——世界大部分时间没变，只在有变化时才花算力，能省十到五十倍。这就是他们的 Monitor API，可以理解成智能版的 Google Alerts。更进一步的预判是：等持久化智能体越来越多，搜索会从\"你问它答\"，翻转为网页事件流主动触发智能体干活。\n\n节目里还有一个更隐秘的话题：数据交易的空白。今天我们还不懂怎么为独特、有价值的数据付费——风投按席位给 PitchBook 付费，可跑智能体时按席位计费完全不合适，结果就是爬取和封禁的猫鼠游戏。每家大公司都在选放智能体进来还是挡在外面：Amazon 关门，Shopify 和 Expedia 开门。Parag 认为最终所有人都得放，问题只是按什么条件。这期聊到最后也谈到担忧：财富分化——差距应该有，但不知道多少算太多，恐惧在于我们正滑向太多；还有模型安全，有些黑客该被视为耻辱，而非荣誉勋章。\n\n整期听下来，Parallel 押注的其实就是一件事：智能体会成为网络的下一个大客户。搜索技术、定价、变现方式、拉取推送，全都要按一千倍的规模重造一遍。目前能感知到的缩放定律，似乎没有尽头。"
+}

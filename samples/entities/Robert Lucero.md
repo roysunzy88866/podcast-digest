@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":327,"沙箱":58,"护栏":58,"身份":4,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":330,"沙箱":59,"护栏":61,"身份":4,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

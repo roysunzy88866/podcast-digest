@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":327,"推理":54,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":330,"推理":55,"GPU":18,"KVCache":4}</script>
 
 <script>
 (function(){

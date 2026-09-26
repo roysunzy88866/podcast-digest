@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":327,"人在回路":15,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":36}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":330,"人在回路":15,"现有巨头":1,"Robinhood":4,"Superhuman":4,"Stripe":36}</script>
 
 <script>
 (function(){

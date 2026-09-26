@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Salesforce]] · [[n8n]] · [[Wade Foster]] · [[ChatGPT]] · [[MCP]] · [[OpenAI]] · [[Anthropic]] · [[Jan Oberhauser]] · [[Nathan]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"Salesforce":31,"n8n":2,"Wade Foster":2,"ChatGPT":77,"MCP":59,"OpenAI":132,"Anthropic":142,"Jan Oberhauser":1,"Nathan":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"Salesforce":31,"n8n":2,"Wade Foster":2,"ChatGPT":77,"MCP":60,"OpenAI":133,"Anthropic":143,"Jan Oberhauser":1,"Nathan":4}</script>
 
 <script>
 (function(){

@@ -95,9 +95,9 @@ Ajay 留下两条核心经验：第一，**从第一天起就把质量和可靠�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同概念:MCP、编码智能体 (coding agents)</span>
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|差距不再是智能，而是上下文：给智能体造一个「上下文引擎」]]<span class="pd-rz">同概念:MCP、上下文工程 (context engineering)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:MCP</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP</span>
 
 </div>
 <div class="pd-ex">

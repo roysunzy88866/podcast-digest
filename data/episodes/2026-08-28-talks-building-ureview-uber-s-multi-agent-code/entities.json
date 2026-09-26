@@ -1,0 +1,750 @@
+{
+  "episode_id": "2026-08-28-talks-building-ureview-uber-s-multi-agent-code",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 编程",
+    "代码评审",
+    "智能体",
+    "可观测性",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "will-bond",
+      "type": "person",
+      "role": "guest",
+      "name": "Will Bond",
+      "file": "Will Bond",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ameya-ketkar",
+      "type": "person",
+      "role": "guest",
+      "name": "Ameya Ketkar",
+      "file": "Ameya Ketkar",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集主讲的公司:数千名工程师、数百个团队、六个按语言划分的 monorepo,因 PR 暴涨导致首次评审时间从 3 小时涨到 9 小时,自建了自动化代码评审系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.497,
+            31.364
+          ],
+          "quote": "My teammate, Amaya, and I work at Uber, and we're going to be walking through uReview, a system that Uber has built to help increase the velocity of our software engineering teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            33.908,
+            50.822
+          ],
+          "quote": "For a little bit of context about what software engineering org at Uber looks like, we have thousands of software engineers who work across hundreds of teams located across 12 different sites, and they work in primarily one of six language-specific monorepos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            82.73,
+            94.576
+          ],
+          "quote": "Specifically around automated code review, there are various options available in the industry, but Uber spent the time to invest in building an in-house solution due to some of the constraints that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            522.072,
+            533.519
+          ],
+          "quote": "But all of this was not simple because we had to actually piggyback on our ownership model, which is at Uber, so that we can very logically roll out to all the teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            773.408,
+            787.482
+          ],
+          "quote": "As you can see, quite a bit of what went into getting high-quality code reviews at Uber was bringing the human feedback into the system and using that to figure out how to tune our prompts, how to tune our agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ureview",
+      "type": "concept",
+      "role": "concept",
+      "name": "uReview",
+      "file": "uReview",
+      "primary": true,
+      "how_described": "本集核心:Uber 自建的自动化代码评审系统,三层架构(入口/生成器/后处理),每周约 25,000 条评论,整体处理率约 67%,相比朴素实现成本降 60%、质量升 70%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.497,
+            31.364
+          ],
+          "quote": "My teammate, Amaya, and I work at Uber, and we're going to be walking through uReview, a system that Uber has built to help increase the velocity of our software engineering teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            177.115,
+            182.459
+          ],
+          "quote": "With all that said, I wanted to give you an overview of the architecture of what uReview looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            194.983,
+            198.244
+          ],
+          "quote": "These all feed into UReview service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            273.618,
+            275.38
+          ],
+          "quote": "So Ureview had a very humble beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            315.762,
+            323.144
+          ],
+          "quote": "So we started collecting the sentiments of the replies that were made to the UReview, that the UReview",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            357.165,
+            363.887
+          ],
+          "quote": "So basically, when a UReview comment is made, does the developer go and actually address the comment?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            614.074,
+            628.652
+          ],
+          "quote": "In results, we basically see that UReview does around 25,000 comments a week, and we get 10% of them actually get some feedback, and only 4% of the PRs actually get some negative feedback.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automated-code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化代码评审 (automated code review)",
+      "file": "自动化代码评审",
+      "primary": true,
+      "how_described": "本集主题:用 AI/智能体自动评审代码,Uber 因市面方案不支持 Fabricator 等约束选择自建,并强调安全合规评审必须强制运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.751,
+            20.676
+          ],
+          "quote": "My name is Will, and I'm here to talk to you about automated code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            82.73,
+            94.576
+          ],
+          "quote": "Specifically around automated code review, there are various options available in the industry, but Uber spent the time to invest in building an in-house solution due to some of the constraints that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            874.518,
+            884.203
+          ],
+          "quote": "So we believe that as we adopt this automated code review, this is going to be the result of how our engineers are interacting with the system and guiding it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集说 AI 生成代码让 PR 数量与体积暴涨后,代码评审成了整个研发流程的瓶颈(首次评审时间从 3 小时涨到 9 小时)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.751,
+            20.676
+          ],
+          "quote": "My name is Will, and I'm here to talk to you about automated code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            76.698,
+            81.261
+          ],
+          "quote": "So in short, code review is now the bottleneck that we are running into.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            82.73,
+            94.576
+          ],
+          "quote": "Specifically around automated code review, there are various options available in the industry, but Uber spent the time to invest in building an in-house solution due to some of the constraints that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            112.451,
+            123.262
+          ],
+          "quote": "A big part of what we want to do is bring a consistent code review experience to the inner loop so that our agents are getting the same code review, the same rules, everything applied, as our humans do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            146.028,
+            160.179
+          ],
+          "quote": "Finally, with the volume of code reviews that we perform, we need the ability to take factors like the risk profile and the complexity of a code change and factor that in when deciding how we're going to run a code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            171.69,
+            174.632
+          ],
+          "quote": "Hoping to run the skill, the code review skill that happens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            188.084,
+            194.069
+          ],
+          "quote": "At the top, you'll notice that we have our code review surface areas, GitHub, Fabricator, and the agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            214.09,
+            222.693
+          ],
+          "quote": "We also have the ability to plug into third-party code review systems so that we can compare ourselves to what's available more broadly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            231.92,
+            235.083
+          ],
+          "quote": "If you've ever used AI to run a code review, you've probably seen that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            427.817,
+            432.759
+          ],
+          "quote": "Like code review is something that has to happen in like a specific time span.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            433.079,
+            441.342
+          ],
+          "quote": "And then if it starts spending time doing things that it should not be doing, leads to a bad quality code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            446.407,
+            457.298
+          ],
+          "quote": "We went very deep on team customizations because as Will presented that we have hundreds of teams and everyone has like their own way or their own thing for code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            717.375,
+            729.603
+          ],
+          "quote": "Part of the way along the process was figuring out by having our single code review platform, what did we need to tune for the various audiences that are actually getting these code reviews?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            743.711,
+            754.577
+          ],
+          "quote": "Or else we can result in dealing with cavitation of an agent where it fixes something, goes back, gets another code review, and has to kind of like fix backwards because the quality of the comment was low.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            804.727,
+            808.85
+          ],
+          "quote": "Is the human engineer not going to be involved in the code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            835.139,
+            842.845
+          ],
+          "quote": "Rather than removing humans from the code review process, we are moving their responsibilities up a layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            874.518,
+            884.203
+          ],
+          "quote": "So we believe that as we adopt this automated code review, this is going to be the result of how our engineers are interacting with the system and guiding it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-sdlc",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体化的 SDLC (agentic SDLC)",
+      "file": "智能体化的 SDLC",
+      "primary": true,
+      "how_described": "本集说 Uber 正在推进让 AI 智能体参与软件开发生命周期各环节的模式,工程师越来越少亲自写代码,要求智能体代码与人类代码走完全相同的评审规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            106.204,
+            111.83
+          ],
+          "quote": "In addition, if you were at the previous talk, you saw Uday and Adam talking about the agentic SDLC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            685.79,
+            694.597
+          ],
+          "quote": "With moving to the agentic SDLC, we're moving software into a model where engineers are interacting with the code less.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成评审与写代码的执行者:需要内置团队风格指南与反模式、设护栏避免浪费轮次,内环准确率不够会导致智能体空转",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            188.084,
+            194.069
+          ],
+          "quote": "At the top, you'll notice that we have our code review surface areas, GitHub, Fabricator, and the agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            275.86,
+            281.827
+          ],
+          "quote": "Basically, it was a single prompt that you should do logic checks per file, a simple agent which used to do thorough review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            325.165,
+            328.107
+          ],
+          "quote": "YouReview agent got from the developers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            365.788,
+            372.73
+          ],
+          "quote": "And then we also started doing more like a runtime profile, which is like the agent trajectory, which told us",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            373.63,
+            376.253
+          ],
+          "quote": "Why the agent is doing what it did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            382.239,
+            393.931
+          ],
+          "quote": "And then with that insight, we were able to actually tune our runtime, tune our performance, such that the agent could very quickly give us high quality results at a low cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            417.572,
+            419.874
+          ],
+          "quote": "So that all should be baked into the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            420.655,
+            424.376
+          ],
+          "quote": "And we also realize that we need to have guardrails for the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            424.436,
+            427.737
+          ],
+          "quote": "So we need to tell the agent what not to waste turns doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            474.156,
+            481.785
+          ],
+          "quote": "So all these monorepos have their own anti-pattern style guides and all baked into this agent review, which does a nice multi-file review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            507.021,
+            520.898
+          ],
+          "quote": "And finally, the most powerful thing is the custom agent, where the teams could basically define their own custom agent, link it to a knowledge base, link it to their past PRs, have a skill to do the review, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            562.975,
+            576.791
+          ],
+          "quote": "Like the agent trajectory, address rate, sentiment analysis back to the teams so that the teams could actually understand that, oh, I wrote this rule, but maybe not a lot of developers are liking it in my team, so let me go and update it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            743.711,
+            754.577
+          ],
+          "quote": "Or else we can result in dealing with cavitation of an agent where it fixes something, goes back, gets another code review, and has to kind of like fix backwards because the quality of the comment was low.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            843.685,
+            848.847
+          ],
+          "quote": "Rather than them dealing with the details of the implementation, the agent is great at writing the software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            849.487,
+            853.729
+          ],
+          "quote": "The agent is getting much, much better at reviewing the software as a human would.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说这是 uReview 演进的转折点:从只收成本和 NPS,到系统性收集情绪分析、处理率、智能体轨迹等数据来定位质量问题并调优",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            266.392,
+            271.873
+          ],
+          "quote": "So I will be talking about how we evolve view review with observability and evaluation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            288.214,
+            291.938
+          ],
+          "quote": "Even what we used to collect as observability was very surface level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            556.672,
+            562.535
+          ],
+          "quote": "And finally, the hard thing was like we had to actually surface all of this observability that I talked before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            577.191,
+            582.898
+          ],
+          "quote": "And then we had to give bubble up that kind of observability to all the people who are contributing to the platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            646.82,
+            661.503
+          ],
+          "quote": "And then with all the observability and evals that I went through, we saw that against like a very naive implementation, our costs were down by 60% and our quality and our accuracy was up by around 70%.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说要给评审智能体设护栏,告诉它别把轮次浪费在不该做的事上,否则代码评审质量会很差",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            420.655,
+            424.376
+          ],
+          "quote": "And we also realize that we need to have guardrails for the agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inner-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "内环与外环 (inner loop)",
+      "file": "内环与外环",
+      "primary": true,
+      "how_described": "本集用内环(智能体)与外环(人类)区分评审受众:内环需要更高准确率否则智能体空转;答案不是杀死外环而是扩展外环,把人类职责上移一层到架构、领域专长与产品思维",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            112.451,
+            123.262
+          ],
+          "quote": "A big part of what we want to do is bring a consistent code review experience to the inner loop so that our agents are getting the same code review, the same rules, everything applied, as our humans do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            739.068,
+            742.911
+          ],
+          "quote": "With the inner loop, our accuracy needs actually need to go up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sentiment",
+      "type": "concept",
+      "role": "concept",
+      "name": "情绪分析 (sentiment)",
+      "file": "情绪分析",
+      "primary": false,
+      "how_described": "本集说 uReview 把开发者对评审评论的回复分为正面/负面并归类,从中发现大量可修的 bug 和问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            562.975,
+            576.791
+          ],
+          "quote": "Like the agent trajectory, address rate, sentiment analysis back to the teams so that the teams could actually understand that, oh, I wrote this rule, but maybe not a lot of developers are liking it in my team, so let me go and update it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fabricator",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fabricator",
+      "file": "Fabricator",
+      "primary": false,
+      "how_described": "本集说 Uber 长期使用代码托管工具 Fabricator、正迁移到 GitHub,而市面评审方案基本不支持它,这是自建的原因之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            95.057,
+            101.24
+          ],
+          "quote": "One of those is we currently use Fabricator and have for a long time and are in the process of migrating to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            102.2,
+            105.103
+          ],
+          "quote": "Most of the solutions do not provide support for Fabricator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            188.084,
+            194.069
+          ],
+          "quote": "At the top, you'll notice that we have our code review surface areas, GitHub, Fabricator, and the agent loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 Uber 正在从 Fabricator 向 GitHub 迁移,GitHub 是 uReview 的代码评审入口面之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            95.057,
+            101.24
+          ],
+          "quote": "One of those is we currently use Fabricator and have for a long time and are in the process of migrating to GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            188.084,
+            194.069
+          ],
+          "quote": "At the top, you'll notice that we have our code review surface areas, GitHub, Fabricator, and the agent loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

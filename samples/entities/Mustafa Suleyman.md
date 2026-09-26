@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":132,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":133,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

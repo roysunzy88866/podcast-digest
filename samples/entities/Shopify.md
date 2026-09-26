@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shopify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]]**(00:49起):本集主角：总部位于渥太华的加拿大电商公司，支撑美国超过 14% 的电商市场，自称「统一的商务运营系统」，COO Jess Hertz 谈其应对贸易战与 AI 冲击之道
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(30:26起):本集说它是「SaaS 全完蛋」唱衰中穿针而过的公司，是其他 SaaS 公司要对标的黄金标准
 - **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(00:20起):本集主线：Toby 介绍 Shopify 内部约 50% 的 pull request 已由公共聊天里的对话生成，公司围绕 AI 员工重构工作与决策方式，产品方向是'你描述业务如何运转，产品围绕它塑造自己'
+- **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(21:02起):本集说 Shopify 对智能体的态度是「进来吧,宝贝」,作为开放接纳智能体的大公司例子。
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -48,14 +49,15 @@ unlisted: true
 - [[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]] — 作为被讨论公司
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为被讨论公司
+- [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Stripe]] · [[SaaS]] · [[Anthropic]] · [[Uber]] · [[Twilio]] · [[Cursor]] · [[Google]]
+[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Stripe]] · [[Perplexity]] · [[SaaS]] · [[Anthropic]] · [[Amazon]] · [[Twilio]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"OpenAI":132,"ChatGPT":77,"Stripe":36,"SaaS":17,"Anthropic":142,"Uber":13,"Twilio":2,"Cursor":68,"Google":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"OpenAI":133,"ChatGPT":77,"Stripe":36,"Perplexity":7,"SaaS":17,"Anthropic":143,"Amazon":15,"Twilio":2,"Cursor":68}</script>
 
 <script>
 (function(){

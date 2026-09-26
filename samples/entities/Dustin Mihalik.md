@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":59,"Indeed":1,"CareerScout":1,"Claude":66,"ChatGPT":77,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":60,"Indeed":1,"CareerScout":1,"Claude":66,"ChatGPT":77,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":20,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":15,"验证器":6,"上下文":20}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":21,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":16,"验证器":6,"上下文":20}</script>
 
 <script>
 (function(){

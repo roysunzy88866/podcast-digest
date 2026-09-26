@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":66,"Claude Code":75,"智能体":327,"对抗性智能体":1,"MCP":59,"知识库":1,"技能":20,"vibe coding":37,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":66,"Claude Code":76,"智能体":330,"对抗性智能体":1,"MCP":60,"知识库":1,"技能":21,"vibe coding":38,"红队测试":4}</script>
 
 <script>
 (function(){

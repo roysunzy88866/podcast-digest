@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Sequoia":5,"智能体":327,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Sequoia":5,"智能体":330,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":18}</script>
 
 <script>
 (function(){

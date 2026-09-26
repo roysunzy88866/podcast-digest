@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":132,"Anthropic":142,"AGI":26,"Meta":35,"Google":47,"LLM":42,"NVIDIA":45,"智能体":327,"SpaceX":18,"Oracle":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":133,"Anthropic":143,"AGI":26,"Meta":35,"Google":47,"LLM":42,"NVIDIA":45,"智能体":330,"SpaceX":18,"Oracle":8}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric":1,"Andrew Feldman":1,"Cerebrus":2,"晶圆级":1,"推理":54,"NVIDIA":45,"TSMC":6,"数据中心":15,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Eric":1,"Andrew Feldman":1,"Cerebrus":2,"晶圆级":1,"推理":55,"NVIDIA":45,"TSMC":6,"数据中心":15,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Mercor":2,"智能体":327,"开源":27,"RL 环境":6,"编码智能体":18,"评估":3,"机器人":7,"合成数据":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Mercor":2,"智能体":330,"开源":27,"RL 环境":6,"编码智能体":19,"评估":3,"机器人":7,"合成数据":8}</script>
 
 <script>
 (function(){

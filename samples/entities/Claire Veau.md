@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":2,"员工倡导":1,"FDE":4,"工作流":8,"Claude Code":75,"Anthropic":142,"OpenAI":132}</script>
+<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":2,"员工倡导":1,"FDE":4,"工作流":9,"Claude Code":76,"Anthropic":143,"OpenAI":133}</script>
 
 <script>
 (function(){

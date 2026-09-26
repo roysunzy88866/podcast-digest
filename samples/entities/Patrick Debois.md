@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":3,"智能体":327,"harness":44,"上下文":20,"护栏":58,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":9,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":3,"智能体":330,"harness":45,"上下文":20,"护栏":61,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":9,"铺装路":1}</script>
 
 <script>
 (function(){

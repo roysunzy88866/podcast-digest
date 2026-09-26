@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Parallel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Parallel">PA</div><div class="pi"><h1 class="pt">Parallel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Parallel">PA</div><div class="pi"><h1 class="pt">Parallel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(00:32起):本集主线公司：Parag 创办的为 AI 构建网络基础设施的公司，定位为「与每个模型相邻的基础设施」，四五个人卖出几千万美元收入，产品被市场拉着走。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(00:00起):本集说 Parallel 是为智能体网络构建搜索基础设施的公司，通过搜索智能体产品先获取真实用例并逐步积累索引，后与 Google Cloud 合作成为其企业智能体 API 的搜索和 Grounding 提供商
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(00:00起):本集说 Parallel 是为智能体构建搜索技术的公司，产出不是模型而是'模型的补充'——在模型之上乘数放大的东西，能帮智能体省一半 token 同时结果更准
+- **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(00:35起):本集说它是「智能体的 Google」,为智能体构建高效网页搜索技术,以及让这件事可持续的商业模式(如给内容方付费的『智能体的 AdSense』)。
 
 ## ① 提到它的金句
 
@@ -39,21 +40,22 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
 - [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司
+- [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Claude]] · [[Twitter]] · [[Andrew]] · [[Sonia]] · [[Parag]] · [[搜索智能体]] · [[索引]] · [[爬取]]
+[[智能体]] · [[ChatGPT]] · [[推理]] · [[Claude]] · [[OpenAI]] · [[Twitter]] · [[Andrew]] · [[Sonia]] · [[Parag]] · [[搜索智能体]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"ChatGPT":77,"Claude":66,"Twitter":7,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"ChatGPT":77,"推理":55,"Claude":66,"OpenAI":133,"Twitter":7,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2}</script>
 
 <script>
 (function(){

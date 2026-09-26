@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":9,"智能体":327,"人在回路":15,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":10,"智能体":330,"人在回路":15,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

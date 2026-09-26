@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":142,"Claude 认证架构师考试":1,"智能体":327,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":75}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":143,"Claude 认证架构师考试":1,"智能体":330,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":76}</script>
 
 <script>
 (function(){

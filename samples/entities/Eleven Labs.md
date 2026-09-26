@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[可观测性]] · [[Harry Stebbings]] · [[Salesforce]] · [[Uber]] · [[Lovable]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"OpenAI":132,"Anthropic":142,"Cursor":68,"可观测性":29,"Harry Stebbings":18,"Salesforce":31,"Uber":13,"Lovable":16,"NVIDIA":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"OpenAI":133,"Anthropic":143,"Cursor":68,"可观测性":30,"Harry Stebbings":19,"Salesforce":31,"Uber":14,"Lovable":16,"NVIDIA":45}</script>
 
 <script>
 (function(){

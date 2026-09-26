@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":327}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":330}</script>
 
 <script>
 (function(){

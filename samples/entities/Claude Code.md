@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>75</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>76</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -64,6 +64,7 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:09起):本集说 Claude Code 于 2025 年 5 月强势推出，是 Cursor 面对的竞争轮换角色之一，但 Michael 对此表示'不吓倒我们'
 - **[[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]]**(04:32起):Anthropic 内部用于交互式、高带宽来回迭代的场景；Mike 还靠它发现了用 Bun 的更好部署方案，并借它把整个 Python 项目迁到 TypeScript。
 - **[[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]]**(06:23起):本集用它做现场对比演示:带与不带 Unblocked 上下文生成优化计划,后者更快更便宜且抓住细微差别。
+- **[[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|《AI 原生组织如何运行在 Skills 之上》]]**(02:13起):本集举例：在 Claude Code 上创建的技能因开放标准可移到 Cursor 直接工作；也以 CLAUDE.md 文件类比项目指令
 - **[[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]]**(05:46起):本集将其作为同步智能体的参照例子，说它是运行在桌面上的编码智能体，可以实时协作、获得即时反馈
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(39:14起):本集仅作为对比一笔带过，说 Twitter 上从 Claude Code 到 Codex 发生了氛围转变，未展开讨论
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(33:34起):本集说团队在构建 Workstation 时考虑过用 Claude Code，但 PM 通过终端安装花了三天都没搞定，最终放弃而选择 CoWork
@@ -110,7 +111,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*75 集*
+*76 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -166,6 +167,7 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]] — 作为被讨论公司
 - [[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]] — 作为概念
+- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|《AI 原生组织如何运行在 Skills 之上》]] — 作为被讨论公司(提及)
 - [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]] — 作为被讨论公司(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
@@ -192,9 +194,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[Lenny]] · [[harness]] · [[评估]] · [[MCP]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[harness]] · [[Lenny]] · [[MCP]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"Anthropic":142,"Codex":57,"OpenAI":132,"沙箱":58,"Cursor":68,"Lenny":67,"harness":44,"评估":3,"MCP":59}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"Anthropic":143,"Codex":57,"OpenAI":133,"沙箱":59,"Cursor":68,"harness":45,"Lenny":67,"MCP":60,"评估":3}</script>
 
 <script>
 (function(){

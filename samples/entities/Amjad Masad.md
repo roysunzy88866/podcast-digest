@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"智能体":327,"vibe coding":37,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":36,"真实性":2,"机器学习":4,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"智能体":330,"vibe coding":38,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":36,"真实性":2,"机器学习":4,"Magic School":1}</script>
 
 <script>
 (function(){

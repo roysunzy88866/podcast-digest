@@ -1,0 +1,1154 @@
+[
+ {
+  "seg": 0,
+  "start": 12.755,
+  "end": 13.316,
+  "speaker": "Unknown",
+  "en": "Good afternoon.",
+  "zh": "下午好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.596,
+  "end": 14.977,
+  "speaker": "Unknown",
+  "en": "My name is Eyal Blum.",
+  "zh": "我叫 Eyal Blum。"
+ },
+ {
+  "seg": 2,
+  "start": 15.538,
+  "end": 17.119,
+  "speaker": "Unknown",
+  "en": "I am a software engineer at Figma.",
+  "zh": "我是 Figma 的一名软件工程师。"
+ },
+ {
+  "seg": 3,
+  "start": 17.86,
+  "end": 30.193,
+  "speaker": "Unknown",
+  "en": "And in my talk today, we're going to talk about how we've adapted or are adapting agent into our workflow at Figma while maintaining high quality for our code base.",
+  "zh": "在今天的演讲中，我们将讨论我们如何将智能体适配到 Figma 的工作流中，同时保持我们代码库的高质量。"
+ },
+ {
+  "seg": 4,
+  "start": 32.075,
+  "end": 43.103,
+  "speaker": "Unknown",
+  "en": "So as you may know, Figma is the browser-based editor where design and engineering and now AI agent collaborate together to ship code.",
+  "zh": "大家可能知道，Figma 是一个基于浏览器的编辑器，设计、工程以及现在的 AI 智能体在这里协同工作来交付代码。"
+ },
+ {
+  "seg": 5,
+  "start": 45.945,
+  "end": 51.349,
+  "speaker": "Unknown",
+  "en": "Figma has pivoted very strongly from being a traditional tool to an AI-first tool.",
+  "zh": "Figma 已经非常强烈地从传统工具转型为 AI 优先的工具。"
+ },
+ {
+  "seg": 6,
+  "start": 52.23,
+  "end": 54.411,
+  "speaker": "Unknown",
+  "en": "But in this talk, I'm not going to talk about our product.",
+  "zh": "但在这次演讲中，我不会谈我们的产品。"
+ },
+ {
+  "seg": 7,
+  "start": 54.431,
+  "end": 61.776,
+  "speaker": "Unknown",
+  "en": "I'm going to talk more about our internal organization and how our engineering org has been adopting AI agents.",
+  "zh": "我会更多地谈我们的内部组织，以及我们的工程组织是如何采用 AI 智能体的。"
+ },
+ {
+  "seg": 8,
+  "start": 64.798,
+  "end": 72.683,
+  "speaker": "Unknown",
+  "en": "And what we found internally is both organizations, companies, and individuals, there's kind of a three-act",
+  "zh": "我们在内部发现的是，无论是组织、公司还是个人，AI 的采用大致都有一个三幕式"
+ },
+ {
+  "seg": 9,
+  "start": 73.808,
+  "end": 75.889,
+  "speaker": "Unknown",
+  "en": "process of AI adoption.",
+  "zh": "的过程。"
+ },
+ {
+  "seg": 10,
+  "start": 75.909,
+  "end": 91.513,
+  "speaker": "Unknown",
+  "en": "You start with picking up something, whether it was a lot of the people in this room who have been using, are very AI-pilled and have been using AI for a while and they picked up something and got some simple things to work very well, 10x faster.",
+  "zh": "你从上手某个东西开始，不管是在座很多人已经用上了、已经深度沉浸于 AI 并用了一段时间的人，他们上手了某个东西，让一些简单的事情运转得非常好，快了 10 倍。"
+ },
+ {
+  "seg": 11,
+  "start": 92.493,
+  "end": 100.095,
+  "speaker": "Unknown",
+  "en": "Then you start applying those same practices to bigger problems and AI fails pretty badly at that, gives you bad stuff.",
+  "zh": "然后你开始把同样的做法应用到更大的问题上，AI 在这方面败得很惨，给你糟糕的东西。"
+ },
+ {
+  "seg": 12,
+  "start": 100.835,
+  "end": 101.536,
+  "speaker": "Unknown",
+  "en": "Lots of bugs.",
+  "zh": "一堆 bug。"
+ },
+ {
+  "seg": 13,
+  "start": 102.537,
+  "end": 104.939,
+  "speaker": "Unknown",
+  "en": "And the trust that you build breaks down.",
+  "zh": "而且你建立起来的信任崩塌了。"
+ },
+ {
+  "seg": 14,
+  "start": 106.06,
+  "end": 122.055,
+  "speaker": "Unknown",
+  "en": "And then from that point, you start building the real skill, which is learning how to use AI correctly and put the right guardrails and the right prompting and the right contact and all the stuff that we've been talking all day about here and all the talks in order to actually build a real skill.",
+  "zh": "然后从那一刻起，你开始构建真正的技能，也就是学习如何正确地使用 AI，设置正确的护栏、正确的提示词、正确的上下文，以及我们今天一整天在这里谈论的所有内容和所有演讲，从而真正建立起一门技能。"
+ },
+ {
+  "seg": 15,
+  "start": 124.3,
+  "end": 132.967,
+  "speaker": "Unknown",
+  "en": "And one thing that is happening internally is we adopted, whether teams or individuals, the adoption is uneven.",
+  "zh": "内部正在发生的一件事是，无论是团队还是个人，采用程度是不均匀的。"
+ },
+ {
+  "seg": 16,
+  "start": 133.367,
+  "end": 149.299,
+  "speaker": "Unknown",
+  "en": "We have teams that are very AI-forward and have already transformed their entire workflows, and then we have teams that are still experimenting in the earlier act and or have lost confidence, and they all need to work together in order to ship our product.",
+  "zh": "我们有一些团队非常 AI 前沿，已经彻底转变了他们的整个工作流，同时我们也有一些团队仍处于早期阶段的实验中，或者已经失去了信心，而他们都需要一起工作来交付我们的产品。"
+ },
+ {
+  "seg": 17,
+  "start": 150.78,
+  "end": 162.425,
+  "speaker": "Unknown",
+  "en": "So they need to coexist in the organization and we need to find a way to support them while bringing on everybody along for the journey and getting everybody to the third act of the story.",
+  "zh": "所以他们需要在组织中共存，我们需要找到一种方式来支持他们，同时让每个人都跟上这段旅程，让每个人都到达故事的第三幕。"
+ },
+ {
+  "seg": 18,
+  "start": 165.167,
+  "end": 171.39,
+  "speaker": "Unknown",
+  "en": "Aside from that main friction point, we have also noticed other friction points that happened as we adopt AI.",
+  "zh": "除了这个主要摩擦点之外，我们还注意到了采用 AI 过程中出现的其他摩擦点。"
+ },
+ {
+  "seg": 19,
+  "start": 173.037,
+  "end": 184.101,
+  "speaker": "Unknown",
+  "en": "And one thing that we've heard a lot from developers and managers have been noticing is a reduced developer agency causes engineers to lose some of their job satisfaction.",
+  "zh": "我们从开发者和经理那里听到很多、他们也都注意到的一点是，开发者主观能动性的降低导致工程师失去了一部分工作满意度。"
+ },
+ {
+  "seg": 20,
+  "start": 184.401,
+  "end": 189.903,
+  "speaker": "Unknown",
+  "en": "So a lot of people used to take a lot of pride and enjoyment in writing code and going into the flow.",
+  "zh": "很多人过去以写代码和进入心流状态为巨大的骄傲和乐趣。"
+ },
+ {
+  "seg": 21,
+  "start": 190.763,
+  "end": 203.425,
+  "speaker": "Unknown",
+  "en": "And a lot of people feel like that's been lost or they're losing a lot of that element and getting into more of a prompt cycle where they just wait on output from AI and then speak to the AI that's not as much fun as they used to have and maybe getting burnt out.",
+  "zh": "而很多人感觉那种感觉已经失去了，或者他们正在失去很多那种元素，进入了一种更多的提示词循环，只是等待 AI 的输出，然后跟 AI 对话，这不如他们以前那么有趣了，可能还会变得倦怠。"
+ },
+ {
+  "seg": 22,
+  "start": 205.777,
+  "end": 207.82,
+  "speaker": "Unknown",
+  "en": "And we've noticed another interesting thing.",
+  "zh": "我们还注意到了另一个有趣的现象。"
+ },
+ {
+  "seg": 23,
+  "start": 207.86,
+  "end": 209.201,
+  "speaker": "Unknown",
+  "en": "It's actually our best engineer.",
+  "zh": "其实是我们最优秀的工程师。"
+ },
+ {
+  "seg": 24,
+  "start": 209.221,
+  "end": 211.244,
+  "speaker": "Unknown",
+  "en": "They wanted to hold all their contacts in their brain.",
+  "zh": "他们想把他们所有的上下文都装在脑子里。"
+ },
+ {
+  "seg": 25,
+  "start": 211.684,
+  "end": 214.007,
+  "speaker": "Unknown",
+  "en": "And they end up getting out of the burden.",
+  "zh": "结果他们背上了沉重的负担。"
+ },
+ {
+  "seg": 26,
+  "start": 214.467,
+  "end": 217.631,
+  "speaker": "Unknown",
+  "en": "And what ends up happening is they know where all the pitfalls are.",
+  "zh": "最终的结果是，他们知道所有的坑在哪里。"
+ },
+ {
+  "seg": 27,
+  "start": 217.971,
+  "end": 223.117,
+  "speaker": "Unknown",
+  "en": "They are holding together with their mental duct tape all the places.",
+  "zh": "他们用自己的精神胶带把所有地方粘合在一起。"
+ },
+ {
+  "seg": 28,
+  "start": 223.938,
+  "end": 238.814,
+  "speaker": "Unknown",
+  "en": "That agents are not working well and they're preventing all the really bad stuff from coming in or they have all the institutional contact that haven't ever written down in their head and they get so much burden and become bottlenecks and gets really frustrated.",
+  "zh": "那些智能体运转不佳的地方，他们在阻止所有真正糟糕的东西进来，或者他们脑子里拥有所有从未被写下来的机构性上下文，他们背负了如此多的负担，成为瓶颈，变得非常沮丧。"
+ },
+ {
+  "seg": 29,
+  "start": 238.914,
+  "end": 243.939,
+  "speaker": "Unknown",
+  "en": "So they actually end up being slowest to adapt because they see all the problem firsthand.",
+  "zh": "所以他们实际上最终成为适应最慢的人，因为他们第一手看到了所有的问题。"
+ },
+ {
+  "seg": 30,
+  "start": 244.58,
+  "end": 246.482,
+  "speaker": "Unknown",
+  "en": "That's another big issue that we've seen.",
+  "zh": "这是我们看到的另一个大问题。"
+ },
+ {
+  "seg": 31,
+  "start": 248.353,
+  "end": 265.576,
+  "speaker": "Unknown",
+  "en": "And this one I'm sure everybody here will resonate that all of a sudden all the design docs and all the Slack messages and all the emails have gotten three or four times as long and gotten two or three times as many emails.",
+  "zh": "还有这个，我相信在座的每个人都会有共鸣：突然之间，所有的设计文档、所有的 Slack 消息和所有的邮件都变长了三四倍，邮件数量也变成了两三倍。"
+ },
+ {
+  "seg": 32,
+  "start": 266.457,
+  "end": 269.02,
+  "speaker": "Unknown",
+  "en": "And they say basically as much as they did before.",
+  "zh": "而它们说的内容和以前差不多。"
+ },
+ {
+  "seg": 33,
+  "start": 269.4,
+  "end": 280.41,
+  "speaker": "Unknown",
+  "en": "So the communication has gotten quite inefficient and some of the markers of what is high quality and important things versus not so much high quality has become challenging to navigate.",
+  "zh": "所以沟通变得相当低效，而什么算是高质量和重要的东西、什么不算那么高质量的标记，已经变得难以辨别。"
+ },
+ {
+  "seg": 34,
+  "start": 282.92,
+  "end": 290.904,
+  "speaker": "Unknown",
+  "en": "And so I'm gonna spend the next few minutes talking about some of the lessons that we've learned and how we've been trying to apply this.",
+  "zh": "接下来的几分钟里，我将谈谈我们学到的一些经验教训，以及我们一直在如何尝试应用它们。"
+ },
+ {
+  "seg": 35,
+  "start": 290.924,
+  "end": 297.447,
+  "speaker": "Unknown",
+  "en": "This is a journey we have not come out to the other end, but we've seen some really interesting progress along a lot of these lines.",
+  "zh": "这是一段旅程，我们还没有走到终点，但我们在很多方面已经看到了非常有趣的进展。"
+ },
+ {
+  "seg": 36,
+  "start": 300.751,
+  "end": 310.941,
+  "speaker": "Unknown",
+  "en": "I think a lot of the speakers here have touched upon this, but investing in verification is probably the highest value thing we can do in our code base.",
+  "zh": "我觉得这里的很多演讲者都提到过这一点，但投资于验证可能是我们在代码库中能做的价值最高的事情。"
+ },
+ {
+  "seg": 37,
+  "start": 311.602,
+  "end": 320.13,
+  "speaker": "Unknown",
+  "en": "Anytime we can lift shift anything in our workflow from a human needing to do it to an agent being able to verify it,",
+  "zh": "每当我们能把工作流中任何原本需要人类做的事情，转变为智能体能够验证的事情时，"
+ },
+ {
+  "seg": 38,
+  "start": 320.831,
+  "end": 329.914,
+  "speaker": "Unknown",
+  "en": "So, for example, when Playwright MCP came out, instead of having humans navigate the code, now the agent can explore the code.",
+  "zh": "比如，当 Playwright MCP 出现时，不再需要人类去浏览代码，现在智能体可以探索代码。"
+ },
+ {
+  "seg": 39,
+  "start": 330.194,
+  "end": 333.695,
+  "speaker": "Unknown",
+  "en": "That was a big win unlock for productivity in a lot of our team.",
+  "zh": "这对我们很多团队来说是一个巨大的生产力解锁。"
+ },
+ {
+  "seg": 40,
+  "start": 334.275,
+  "end": 337.636,
+  "speaker": "Unknown",
+  "en": "That's always a big win for us.",
+  "zh": "这对我们来说永远是大赢。"
+ },
+ {
+  "seg": 41,
+  "start": 338.436,
+  "end": 339.657,
+  "speaker": "Unknown",
+  "en": "The other thing is...",
+  "zh": "另一件事是……"
+ },
+ {
+  "seg": 42,
+  "start": 341.675,
+  "end": 350.581,
+  "speaker": "Unknown",
+  "en": "It's even better if when you find something that the agent has found to be useful, take the time to take it and encode it into a deterministic flow.",
+  "zh": "更好的做法是，当你发现智能体找到了某个有用的东西时，花时间把它固化成一个确定性的流程。"
+ },
+ {
+  "seg": 43,
+  "start": 350.601,
+  "end": 370.595,
+  "speaker": "Unknown",
+  "en": "A deterministic flow that can be easily repeated, it's saved on token, saved on time, and then you also know that you're using the LLM when it needs to reason, but when you have something that is already known and basically can be encoded into a test, spending that time always pays dividends.",
+  "zh": "一个可以轻松重复的确定性流程，它节省 token、节省时间，而且你也知道你只在需要推理的时候使用 LLM，而当你有某种已经已知的东西、基本上可以编码成一个测试的东西时，花那个时间总是有回报的。"
+ },
+ {
+  "seg": 44,
+  "start": 372.422,
+  "end": 400.236,
+  "speaker": "Unknown",
+  "en": "And another tip, if you tell your skills or your agent to write the code that you're writing, like at the red to green, at the TDD style, it almost always gives you better results because you set a goal, then you tell the agent to strive toward that goal, it will almost always give you better results in writing the code and then writing the test afterwards because then it will fit the test to the code rather than fit the code to pass the verification criteria.",
+  "zh": "还有一个技巧，如果你告诉你的技能或你的智能体去写你正在写的代码，比如从红到绿，以 TDD 的风格，它几乎总是给你更好的结果，因为你先设定一个目标，然后你告诉智能体朝那个目标努力，它在写代码方面几乎总是给你更好的结果，而不是先写代码再写测试——因为那样的话它会让测试去迁就代码，而不是让代码去满足验证标准。"
+ },
+ {
+  "seg": 45,
+  "start": 402.751,
+  "end": 411.293,
+  "speaker": "Unknown",
+  "en": "And this is the testing pyramid, the classic testing pyramid from the previous, just when you think about the testing themselves, which you had,",
+  "zh": "这就是测试金字塔，来自以前的经典测试金字塔，就在你思考测试本身的时候，也就是你曾有的，"
+ },
+ {
+  "seg": 46,
+  "start": 411.962,
+  "end": 414.724,
+  "speaker": "Unknown",
+  "en": "The end-to-end test, the integration test, and the unit test.",
+  "zh": "端到端测试、集成测试和单元测试。"
+ },
+ {
+  "seg": 47,
+  "start": 415.445,
+  "end": 416.626,
+  "speaker": "Unknown",
+  "en": "This is very similar.",
+  "zh": "这非常相似。"
+ },
+ {
+  "seg": 48,
+  "start": 417.426,
+  "end": 424.912,
+  "speaker": "Unknown",
+  "en": "Move as much as you can down to the deterministic analysis, whether it's linting, the compiler, and the unit test themselves.",
+  "zh": "尽可能多地把东西下移到确定性分析，无论是 lint、编译器，还是单元测试本身。"
+ },
+ {
+  "seg": 49,
+  "start": 425.612,
+  "end": 431.817,
+  "speaker": "Unknown",
+  "en": "Whatever that can be covered easily, you can have agent-to-reviews on it based on criteria.",
+  "zh": "任何能被轻松覆盖的东西，你都可以基于标准让智能体去审查它。"
+ },
+ {
+  "seg": 50,
+  "start": 433.178,
+  "end": 439.584,
+  "speaker": "Unknown",
+  "en": "And architectural standards that have been easily encoded into the code base you can move into the agent.",
+  "zh": "而那些已经被轻松编码进代码库的架构标准，你可以把它们移交给智能体。"
+ },
+ {
+  "seg": 51,
+  "start": 440.265,
+  "end": 452.297,
+  "speaker": "Unknown",
+  "en": "And then only at the very top you need to have some sort of human review which is usually around the functionality and this is the right thing to build that only leave the human to do what the humans need to actually be involved in.",
+  "zh": "然后只有在最顶层，你需要有某种人工审查，通常是围绕功能性的，这是正确的做法，只让人类去做人类真正需要参与的事情。"
+ },
+ {
+  "seg": 52,
+  "start": 455.393,
+  "end": 459.336,
+  "speaker": "Unknown",
+  "en": "Another really important thing is the planning versus prompting.",
+  "zh": "另一件非常重要的事情是规划（planning）与提示（prompting）的区别。"
+ },
+ {
+  "seg": 53,
+  "start": 459.356,
+  "end": 467.822,
+  "speaker": "Unknown",
+  "en": "This is really tied into the giving agency back to developers and finding a replacement to the craft of writing code.",
+  "zh": "这与把主观能动性还给开发者、以及为编写代码这门手艺寻找替代品紧密相关。"
+ },
+ {
+  "seg": 54,
+  "start": 470.324,
+  "end": 481.591,
+  "speaker": "Unknown",
+  "en": "Spending a lot of time writing the plan and then sending it off to the agent basically as an implementation that can be done automatically is something that we find to really",
+  "zh": "花大量时间写好计划，然后把它交给智能体，基本上当作一个可以自动完成的实现来处理，我们发现这真的能"
+ },
+ {
+  "seg": 55,
+  "start": 482.713,
+  "end": 486.852,
+  "speaker": "Unknown",
+  "en": "kind of reintroduce the joy of building back into the process.",
+  "zh": "把构建的乐趣重新带回这个过程。"
+ },
+ {
+  "seg": 56,
+  "start": 487.949,
+  "end": 502.255,
+  "speaker": "Unknown",
+  "en": "And so it's not uncommon to spend a week writing a very detailed plan, making all the decisions, flushing it out, iterating, sending it out to teammates to review, and then only when it's read and you've flushed out all the decision, you can send it to the agent.",
+  "zh": "所以花一周时间写一个非常详细的计划很常见，做出所有决策，把它打磨出来、反复迭代，发给队友审查，然后只有当它被读完、你把所有决策都打磨清楚之后，才能把它交给智能体。"
+ },
+ {
+  "seg": 57,
+  "start": 502.275,
+  "end": 505.657,
+  "speaker": "Unknown",
+  "en": "The agent will send it back to you when it's implemented.",
+  "zh": "智能体会在实现完成后把它交还给你。"
+ },
+ {
+  "seg": 58,
+  "start": 507.478,
+  "end": 516.542,
+  "speaker": "Unknown",
+  "en": "That has been really successful also in accelerating and also really restoring some of the joy into the development process.",
+  "zh": "这在加速开发方面一直非常成功，也真正把一些乐趣恢复到了开发过程中。"
+ },
+ {
+  "seg": 59,
+  "start": 519.155,
+  "end": 520.356,
+  "speaker": "Unknown",
+  "en": "So what makes a good plan?",
+  "zh": "那么什么才算一份好计划？"
+ },
+ {
+  "seg": 60,
+  "start": 520.376,
+  "end": 524.098,
+  "speaker": "Unknown",
+  "en": "It's really important to start with the why at the top.",
+  "zh": "在最开头从“为什么（why）”开始非常重要。"
+ },
+ {
+  "seg": 61,
+  "start": 524.218,
+  "end": 527.819,
+  "speaker": "Unknown",
+  "en": "It really helps prevent an agent drift if you have a bold, big section.",
+  "zh": "如果你有一个醒目的、大的章节，这真的有助于防止智能体漂移。"
+ },
+ {
+  "seg": 62,
+  "start": 527.839,
+  "end": 531.201,
+  "speaker": "Unknown",
+  "en": "Kind of like when you write a design doc, you want to have the executive summary.",
+  "zh": "就像你写设计文档时，你会想要有一个执行摘要。"
+ },
+ {
+  "seg": 63,
+  "start": 531.721,
+  "end": 533.002,
+  "speaker": "Unknown",
+  "en": "Put that in there for the agent.",
+  "zh": "把那个放进去给智能体。"
+ },
+ {
+  "seg": 64,
+  "start": 533.062,
+  "end": 538.385,
+  "speaker": "Unknown",
+  "en": "Otherwise, they'll start drifting over time and make sure that the agent don't go back and change that because they feel like it.",
+  "zh": "否则，它们会随着时间开始漂移，并且要确保智能体不会回头去修改那个部分，只因为他们自己觉得想改。"
+ },
+ {
+  "seg": 65,
+  "start": 539.365,
+  "end": 540.386,
+  "speaker": "Unknown",
+  "en": "So we start with the why.",
+  "zh": "所以我们从“为什么”开始。"
+ },
+ {
+  "seg": 66,
+  "start": 541.525,
+  "end": 548.087,
+  "speaker": "Unknown",
+  "en": "Make sure that your plan can be broken down into small parts that can each be verified independently.",
+  "zh": "确保你的计划可以被拆分成小的部分，每一部分都可以被独立验证。"
+ },
+ {
+  "seg": 67,
+  "start": 549.047,
+  "end": 556.108,
+  "speaker": "Unknown",
+  "en": "And my personal way of knowing what is a good size is, would I want to review the PR that will correspond to that part?",
+  "zh": "而我判断什么是一个合适大小的个人方法就是：我愿不愿意审查与那一部分相对应的 PR？"
+ },
+ {
+  "seg": 68,
+  "start": 556.288,
+  "end": 562.57,
+  "speaker": "Unknown",
+  "en": "If it's going to be too big for me to want to review in one sitting, if kind of like the test is, I'm going to need to get a cup of coffee before I read this.",
+  "zh": "如果它太大，以至于我不愿意一口气审查完，就像这么一个检验标准：我需要先来一杯咖啡才能读这个东西。"
+ },
+ {
+  "seg": 69,
+  "start": 563.25,
+  "end": 566.871,
+  "speaker": "Unknown",
+  "en": "That means it's too big, and I'm going to want to have it broken down into pieces.",
+  "zh": "那就意味着它太大了，我会希望把它拆分成更小的部分。"
+ },
+ {
+  "seg": 70,
+  "start": 567.881,
+  "end": 581.672,
+  "speaker": "Unknown",
+  "en": "And then I make sure that each part can be validated independently, because what I don't want to have is have five stages, and then the first one is written but not validated, and then everything else is built on top of all the assumptions.",
+  "zh": "然后我确保每一部分都可以被独立验证，因为我不想要的情况是：有五个阶段，第一个已经写好但没有被验证，然后其他所有东西都建立在这些假设之上。"
+ },
+ {
+  "seg": 71,
+  "start": 581.872,
+  "end": 591.24,
+  "speaker": "Unknown",
+  "en": "So having kind of a validation gate or an exception criteria for each phase really helps make the plan resilient to drift.",
+  "zh": "所以，为每个阶段设置一种验证关卡或异常标准，真的有助于让计划对漂移有韧性。"
+ },
+ {
+  "seg": 72,
+  "start": 592.08,
+  "end": 595.423,
+  "speaker": "Unknown",
+  "en": "And there's all kinds of techniques on how to manage the context.",
+  "zh": "还有各种各样管理上下文的技巧。"
+ },
+ {
+  "seg": 73,
+  "start": 596.524,
+  "end": 606.127,
+  "speaker": "Unknown",
+  "en": "Doing a software factory on top of that, but once you have the plan, you can use whatever loop you want or whatever workflow you want in order to implement it.",
+  "zh": "在这之上做一个软件工厂，但一旦你有了计划，你就可以用任何你想要的循环或任何你想要的工作流去实现它。"
+ },
+ {
+  "seg": 74,
+  "start": 608.237,
+  "end": 612.581,
+  "speaker": "Unknown",
+  "en": "This is a screenshot that I randomly picked up a plan, but this is what I usually look for.",
+  "zh": "这是一张我随手截取的某个计划的截图，但这就是我通常关注的东西。"
+ },
+ {
+  "seg": 75,
+  "start": 612.601,
+  "end": 624.47,
+  "speaker": "Unknown",
+  "en": "The executive summary at the top, the phases, break it down, and then each one of them I will go into lots of details so that I can just fit it into a sub-agent, and the sub-agent can independently work on that and not have to worry about it.",
+  "zh": "顶部的执行摘要、各个阶段、拆分，然后我会为其中每一个写很多细节，这样我就可以直接把它塞给一个子智能体，子智能体可以独立地处理那部分，而不必为此操心。"
+ },
+ {
+  "seg": 76,
+  "start": 626.752,
+  "end": 629.914,
+  "speaker": "Unknown",
+  "en": "There are other workflows that would work or other structures to the plan.",
+  "zh": "还有其他能奏效的工作流，或者计划的其他结构。"
+ },
+ {
+  "seg": 77,
+  "start": 629.954,
+  "end": 630.695,
+  "speaker": "Unknown",
+  "en": "I find that",
+  "zh": "我发现"
+ },
+ {
+  "seg": 78,
+  "start": 632.205,
+  "end": 638.008,
+  "speaker": "Unknown",
+  "en": "Part of the things that's great about AI workflows is that everybody can set up the thing that works best for them.",
+  "zh": "AI 工作流很棒的一点之一就是，每个人都可以搭建最适合自己的东西。"
+ },
+ {
+  "seg": 79,
+  "start": 638.028,
+  "end": 638.288,
+  "speaker": "Unknown",
+  "en": "Uh-oh.",
+  "zh": "哦不。"
+ },
+ {
+  "seg": 80,
+  "start": 641.35,
+  "end": 641.93,
+  "speaker": "Unknown",
+  "en": "No, thank you.",
+  "zh": "不，谢谢。"
+ },
+ {
+  "seg": 81,
+  "start": 643.911,
+  "end": 657.799,
+  "speaker": "Unknown",
+  "en": "Everybody can very easily set up the workflow that works exactly for them, so there's diminishing return and trying to centralize everybody on one thing, but as long as it works for their flow and other people can iterate with them, I find that it generally works very well.",
+  "zh": "每个人都可以非常轻松地搭建完全适合自己的工作流，所以试图把所有人集中到同一个东西上是收益递减的，但只要它对他们的工作流有效、其他人也能与他们一起迭代，我发现它通常运行得非常好。"
+ },
+ {
+  "seg": 82,
+  "start": 660.131,
+  "end": 664.652,
+  "speaker": "Unknown",
+  "en": "And this is just an example, kind of a brag of like this could be a result from a plan.",
+  "zh": "这只是一个例子，算是有点炫耀，像这样可能是一个计划产生的结果。"
+ },
+ {
+  "seg": 83,
+  "start": 665.772,
+  "end": 667.812,
+  "speaker": "Unknown",
+  "en": "There are probably 20 PRs here.",
+  "zh": "这里有大概 20 个 PR。"
+ },
+ {
+  "seg": 84,
+  "start": 668.032,
+  "end": 670.993,
+  "speaker": "Unknown",
+  "en": "Some of them would be maybe 10 lines and some of them would be 100 lines.",
+  "zh": "其中一些可能是 10 行，一些可能是 100 行。"
+ },
+ {
+  "seg": 85,
+  "start": 671.013,
+  "end": 673.053,
+  "speaker": "Unknown",
+  "en": "They're probably nothing bigger than that.",
+  "zh": "应该没有比这更大的了。"
+ },
+ {
+  "seg": 86,
+  "start": 673.273,
+  "end": 675.874,
+  "speaker": "Unknown",
+  "en": "And that allows us to...",
+  "zh": "而这使我们能够……"
+ },
+ {
+  "seg": 87,
+  "start": 675.914,
+  "end": 677.614,
+  "speaker": "Unknown",
+  "en": "This is in the pre-AI world.",
+  "zh": "这是在 AI 之前的世界。"
+ },
+ {
+  "seg": 88,
+  "start": 677.634,
+  "end": 680.034,
+  "speaker": "Unknown",
+  "en": "This plan probably worked on it for a week.",
+  "zh": "这份计划大概花了一周来做。"
+ },
+ {
+  "seg": 89,
+  "start": 680.374,
+  "end": 683.175,
+  "speaker": "Unknown",
+  "en": "I aligned with three other teams for another week on that.",
+  "zh": "我又花了另外一周与三个其他团队对齐。"
+ },
+ {
+  "seg": 90,
+  "start": 683.235,
+  "end": 686.395,
+  "speaker": "Unknown",
+  "en": "And then I just sent it to Asia to implement overnight.",
+  "zh": "然后我只是把它发到亚洲连夜实现。"
+ },
+ {
+  "seg": 91,
+  "start": 686.736,
+  "end": 687.456,
+  "speaker": "Unknown",
+  "en": "And it came back.",
+  "zh": "然后它回来了。"
+ },
+ {
+  "seg": 92,
+  "start": 687.516,
+  "end": 689.156,
+  "speaker": "Unknown",
+  "en": "This is probably from two plans, not one.",
+  "zh": "这大概来自两份计划，不是一份。"
+ },
+ {
+  "seg": 93,
+  "start": 690.316,
+  "end": 693.078,
+  "speaker": "Unknown",
+  "en": "It's basically six weeks of coding work.",
+  "zh": "这基本上是六周的编码工作量。"
+ },
+ {
+  "seg": 94,
+  "start": 693.158,
+  "end": 700.003,
+  "speaker": "Unknown",
+  "en": "It only took one week, so that's where I get the 5x speed up.",
+  "zh": "只花了一周，所以这就是我得到 5 倍提速的地方。"
+ },
+ {
+  "seg": 95,
+  "start": 700.323,
+  "end": 703.185,
+  "speaker": "Unknown",
+  "en": "If I include the review cycle at the end, that we always have to remember.",
+  "zh": "如果我把最后总要记得的审查周期也算进去的话。"
+ },
+ {
+  "seg": 96,
+  "start": 706.863,
+  "end": 719.17,
+  "speaker": "Unknown",
+  "en": "Moving on from planning, back to the issue that we had with the skeptics and the people who are burdened with the most work, make sure that you bring them in and take their feedbacks really seriously.",
+  "zh": "从规划继续往下讲，回到我们之前提到的怀疑者和那些承担最多工作的人的问题，确保你把他们拉进来，并且非常认真地对待他们的反馈。"
+ },
+ {
+  "seg": 97,
+  "start": 719.97,
+  "end": 731.978,
+  "speaker": "Unknown",
+  "en": "They're spec haptic because they're seeing where you're lacking validation, where your tools fail, so their feedback is basically the roadmap of how to improve your agent interacting with the code base.",
+  "zh": "他们之所以持怀疑态度，是因为他们看到了你在验证上缺失的地方、你的工具失效的地方，所以他们的反馈基本上就是如何改进你的智能体与代码库交互的路线图。"
+ },
+ {
+  "seg": 98,
+  "start": 732.659,
+  "end": 751.273,
+  "speaker": "Unknown",
+  "en": "So just make sure to bring them in, rather than trying to figure out how to make them use AI, just have them be in charge of the roadmap to make AI safe in your organization, and they will come along once they see that the improvement that they're making are actually making their life better.",
+  "zh": "所以只要确保把他们拉进来，而不是试图琢磨怎么让他们使用 AI，就让他们负责让 AI 在你的组织里变得安全的路线图，一旦他们看到他们所做的改进真的在让自己的生活变得更好，他们就会跟上来。"
+ },
+ {
+  "seg": 99,
+  "start": 754.122,
+  "end": 757.364,
+  "speaker": "Unknown",
+  "en": "And as you can see, they'll not be shy about telling you what you need to fix.",
+  "zh": "而且正如你所见，他们在告诉你需要修什么的时候是不会客气的。"
+ },
+ {
+  "seg": 100,
+  "start": 757.424,
+  "end": 765.768,
+  "speaker": "Unknown",
+  "en": "This is less than an hour sitting with a bunch of people, and this is the result of brainstorms.",
+  "zh": "这就是和一群人坐在一起不到一小时，然后这就是头脑风暴的结果。"
+ },
+ {
+  "seg": 101,
+  "start": 765.889,
+  "end": 777.835,
+  "speaker": "Unknown",
+  "en": "Another thing that's been really helpful with my team specifically, and we're working to adopt it in the broader organization as well, is to make sure that you have an attention-aware communication.",
+  "zh": "另一件对我的团队特别有帮助的事——我们也在努力在整个组织范围内推广它——是确保你有一种注意力感知型的沟通方式。"
+ },
+ {
+  "seg": 102,
+  "start": 778.886,
+  "end": 781.328,
+  "speaker": "Unknown",
+  "en": "In the age of AI, human attention is a scarce resource.",
+  "zh": "在 AI 时代，人类的注意力是一种稀缺资源。"
+ },
+ {
+  "seg": 103,
+  "start": 781.368,
+  "end": 786.192,
+  "speaker": "Unknown",
+  "en": "I think I've heard it for multiple talks, and a lot of people have come to the same conclusion.",
+  "zh": "我在多次演讲中都听到过这一点，很多人都得出了相同的结论。"
+ },
+ {
+  "seg": 104,
+  "start": 786.452,
+  "end": 788.253,
+  "speaker": "Unknown",
+  "en": "You can get more human attention.",
+  "zh": "你可以获得更多的人类注意力。"
+ },
+ {
+  "seg": 105,
+  "start": 788.293,
+  "end": 791.556,
+  "speaker": "Unknown",
+  "en": "So where you spend your time and what you're reading becomes really important.",
+  "zh": "所以你把时间花在哪里、你在读什么，就变得非常重要。"
+ },
+ {
+  "seg": 106,
+  "start": 793.8,
+  "end": 808.085,
+  "speaker": "Unknown",
+  "en": "And so since it's such a scarce resource, marking what was generated by AI versus what was written by a human is really helpful to know how much time you need to spend reading this and how much slop can you expect in this part of the communication.",
+  "zh": "因此，既然它是如此稀缺的资源，标注哪些内容是由 AI 生成的、哪些是由人类撰写的，就非常有帮助——它能让你知道需要花多少时间来读这段内容，以及你可以预期这部分沟通里有多少垃圾内容。"
+ },
+ {
+  "seg": 107,
+  "start": 811.54,
+  "end": 815.523,
+  "speaker": "Unknown",
+  "en": "And that's kind of building a new culture around that style of communication.",
+  "zh": "而这其实是在围绕这种沟通风格建立一种新的文化。"
+ },
+ {
+  "seg": 108,
+  "start": 815.583,
+  "end": 817.064,
+  "speaker": "Unknown",
+  "en": "It really helps.",
+  "zh": "这真的很有帮助。"
+ },
+ {
+  "seg": 109,
+  "start": 817.844,
+  "end": 827.63,
+  "speaker": "Unknown",
+  "en": "So, for example, the team that I work with, we've decided we always, every PR description will start with something like that, something that I wrote by hand.",
+  "zh": "举个例子，在我们团队里，我们决定了，每个 PR 描述都会以类似这样的东西开头——某段我亲手写的东西。"
+ },
+ {
+  "seg": 110,
+  "start": 827.951,
+  "end": 828.791,
+  "speaker": "Unknown",
+  "en": "It could be very short.",
+  "zh": "它可以非常短。"
+ },
+ {
+  "seg": 111,
+  "start": 828.851,
+  "end": 830.152,
+  "speaker": "Unknown",
+  "en": "I describe what this is doing.",
+  "zh": "我描述一下这是在做什么。"
+ },
+ {
+  "seg": 112,
+  "start": 831.873,
+  "end": 846.157,
+  "speaker": "Unknown",
+  "en": "And then the AI description is going to come after that, which is, I will probably read it, I will probably edit it to remove some wrong things, but I didn't write every line here, so they should be more suspicious and they should pay more attention to what I wrote in the top and they should override it.",
+  "zh": "然后 AI 的描述会放在那之后，我可能会读一遍，我可能会编辑它以删掉一些错误的东西，但这里的每一行不是我写的，所以大家应该对此更怀疑一些，应该更关注我在顶部写了什么，并且应该以我的为准。"
+ },
+ {
+  "seg": 113,
+  "start": 846.785,
+  "end": 861.708,
+  "speaker": "Unknown",
+  "en": "Things like that in Slack, in email, just like leaning into the fact that everybody knows that you're using AI to craft your communication, but just don't be shy about what you should read and what they should pay less attention to.",
+  "zh": "类似这样的做法，在 Slack 里、在邮件里，就是坦然承认每个人都知道你在用 AI 来撰写你的沟通内容，只是不要羞于说明哪些内容该读、哪些内容他们可以少花点注意力。"
+ },
+ {
+  "seg": 114,
+  "start": 862.733,
+  "end": 885.882,
+  "speaker": "Unknown",
+  "en": "And I remember early on, maybe like earlier in this year, I tried to, I had some senior engineers in our org that had kind of were very much AI skeptics, and I tried to reach out to them to see what was the problem, what was going on, and say I tried to run an analysis on some of the PR comments that you've run, and obviously I used AI to do that.",
+  "zh": "我记得早些时候，大概今年早些时候，我试过——我们组织里有一些非常资深、同时对 AI 非常持怀疑态度的工程师，我试着主动联系他们，看看问题出在哪、是怎么回事，我说我试着对你们的一些 PR 评论做了一次分析，显然我是用 AI 来做这个的。"
+ },
+ {
+  "seg": 115,
+  "start": 886.785,
+  "end": 893.047,
+  "speaker": "Unknown",
+  "en": "And then I didn't distinguish very clearly what I wrote versus what AI generated.",
+  "zh": "然后我没有很清楚地区分我写的内容和 AI 生成的内容。"
+ },
+ {
+  "seg": 116,
+  "start": 893.647,
+  "end": 894.747,
+  "speaker": "Unknown",
+  "en": "And they got very upset.",
+  "zh": "他们非常生气。"
+ },
+ {
+  "seg": 117,
+  "start": 895.107,
+  "end": 896.007,
+  "speaker": "Unknown",
+  "en": "They're like, why are you sending?",
+  "zh": "他们说，你为什么要发这个？"
+ },
+ {
+  "seg": 118,
+  "start": 896.067,
+  "end": 902.869,
+  "speaker": "Unknown",
+  "en": "I did not expect somebody that I respect this much to send me something that's clearly this sloppy.",
+  "zh": "我没想到一个我如此尊重的人会给我发这么明显粗糙敷衍的东西。"
+ },
+ {
+  "seg": 119,
+  "start": 903.049,
+  "end": 904.79,
+  "speaker": "Unknown",
+  "en": "And then I admitted that.",
+  "zh": "然后我承认了。"
+ },
+ {
+  "seg": 120,
+  "start": 905.83,
+  "end": 906.451,
+  "speaker": "Unknown",
+  "en": "I apologize.",
+  "zh": "我道歉了。"
+ },
+ {
+  "seg": 121,
+  "start": 906.491,
+  "end": 908.692,
+  "speaker": "Unknown",
+  "en": "I really should mark it clearly and mark my intention.",
+  "zh": "我真的应该清楚地标注，并标明我的意图。"
+ },
+ {
+  "seg": 122,
+  "start": 908.712,
+  "end": 910.193,
+  "speaker": "Unknown",
+  "en": "Like, this is what I wrote.",
+  "zh": "比如，这是我写的。"
+ },
+ {
+  "seg": 123,
+  "start": 910.733,
+  "end": 916.877,
+  "speaker": "Unknown",
+  "en": "This is what the AI wrote, and I need your feedback on that because I don't have the context to know if it's sloppy or not, and that's what I'm asking you for.",
+  "zh": "这是 AI 写的，我需要你对它给出反馈，因为我没有足够的上下文来判断它是否粗糙敷衍，而这正是我要请你帮忙的地方。"
+ },
+ {
+  "seg": 124,
+  "start": 916.957,
+  "end": 924.802,
+  "speaker": "Unknown",
+  "en": "So lessons like that and changing the culture is just as important as some of the engineering challenges that we've been facing.",
+  "zh": "所以这样的教训，以及改变文化，和我们一直在面对的某些工程挑战同样重要。"
+ },
+ {
+  "seg": 125,
+  "start": 929.205,
+  "end": 932.087,
+  "speaker": "Unknown",
+  "en": "Another thing that's really helpful around the adoption is",
+  "zh": "另一件对推广采用非常有帮助的事是"
+ },
+ {
+  "seg": 126,
+  "start": 934.374,
+  "end": 941.656,
+  "speaker": "Unknown",
+  "en": "And as you progress to adoption, there's a lot of very fancy tools and a lot of very fancy workflow that we've been implementing.",
+  "zh": "随着采用的推进，我们已经实现了很多非常花哨的工具和很多非常花哨的工作流。"
+ },
+ {
+  "seg": 127,
+  "start": 942.136,
+  "end": 947.358,
+  "speaker": "Unknown",
+  "en": "But one of the really effective thing is just letting people use AI where they're at.",
+  "zh": "但其中真正有效的做法之一，就是让人们在他们所在之处直接使用 AI。"
+ },
+ {
+  "seg": 128,
+  "start": 947.478,
+  "end": 954.76,
+  "speaker": "Unknown",
+  "en": "So it really helps normalize the use of AI for everyday tasks and it helps reduce the friction.",
+  "zh": "这真的有助于让 AI 在日常任务中的使用正常化，也有助于减少摩擦。"
+ },
+ {
+  "seg": 129,
+  "start": 955.62,
+  "end": 962.763,
+  "speaker": "Unknown",
+  "en": "And really one of the most powerful thing is being able to tag an agent in a Slack message with somebody and say, can you just do this for me?",
+  "zh": "其中最强大的做法之一，就是能在一条 Slack 消息里@某个智能体并和某人说，你能替我做一下这个吗？"
+ },
+ {
+  "seg": 130,
+  "start": 963.563,
+  "end": 965.684,
+  "speaker": "Unknown",
+  "en": "And have the agents close the loop in the thread.",
+  "zh": "然后让智能体在这个帖子里闭环完成。"
+ },
+ {
+  "seg": 131,
+  "start": 966.744,
+  "end": 969.825,
+  "speaker": "Unknown",
+  "en": "And that kind of thing is really powerful.",
+  "zh": "这种事情真的非常强大。"
+ },
+ {
+  "seg": 132,
+  "start": 970.005,
+  "end": 974.887,
+  "speaker": "Unknown",
+  "en": "And then you can go on top of that and have all this being automated and build kind of fancy things.",
+  "zh": "然后你可以在这之上让这一切自动化，构建一些比较花哨的东西。"
+ },
+ {
+  "seg": 133,
+  "start": 975.027,
+  "end": 982.99,
+  "speaker": "Unknown",
+  "en": "But if you're having a conversation with somebody who is not fully bought in and then you can tag it in a non-passive aggressive way,",
+  "zh": "但如果你正在和一个还没有完全认同的人对话，你就可以以一种不带被动攻击意味的方式@它，"
+ },
+ {
+  "seg": 134,
+  "start": 983.59,
+  "end": 993.596,
+  "speaker": "Unknown",
+  "en": "You can tag it and say let's try it and see if the agent can get it this time and they close the loop and if it's a good experience that really helps people try it out on their own in other cases.",
+  "zh": "你可以@它说，我们试试看，看这次智能体能不能搞定，然后它在帖子里闭环，如果这是一次好的体验，那真的有助于人们在其他场景下自己去尝试。"
+ },
+ {
+  "seg": 135,
+  "start": 996.454,
+  "end": 997.795,
+  "speaker": "Unknown",
+  "en": "And our journey continues.",
+  "zh": "而且我们的旅程还在继续。"
+ },
+ {
+  "seg": 136,
+  "start": 997.815,
+  "end": 999.216,
+  "speaker": "Unknown",
+  "en": "We're still learning.",
+  "zh": "我们仍在学习。"
+ },
+ {
+  "seg": 137,
+  "start": 999.716,
+  "end": 1011.225,
+  "speaker": "Unknown",
+  "en": "Even though we're shipping AI externally, our AI adoption, we're experimenting with so many things all the time, where our automation story is not fully there yet.",
+  "zh": "尽管我们在对外交付 AI 产品，我们的 AI 采用工作——我们一直在试验很多事情——我们的自动化程度还没有完全到位。"
+ },
+ {
+  "seg": 138,
+  "start": 1011.625,
+  "end": 1019.31,
+  "speaker": "Unknown",
+  "en": "We're still trying to figure out when we should use, how we can use Cloud Agent effectively, given all the dependencies we have for some of our build systems.",
+  "zh": "我们仍在试图弄清楚什么时候应该使用、以及如何有效地使用 Cloud Agent，考虑到我们的某些构建系统有那么多依赖。"
+ },
+ {
+  "seg": 139,
+  "start": 1020.473,
+  "end": 1021.874,
+  "speaker": "Unknown",
+  "en": "And so we are continuing to learn.",
+  "zh": "所以我们还在持续学习。"
+ },
+ {
+  "seg": 140,
+  "start": 1022.114,
+  "end": 1036.182,
+  "speaker": "Unknown",
+  "en": "It's a culture shift, it's an engineering shift, and I don't know about you, but I've been working in the Valley for the last 15 years, and this is the biggest change by orders of magnitude of everything that I've seen in terms of culture and technology.",
+  "zh": "这是一场文化转变，也是一场工程转变，我不知道你怎么想，但我在硅谷工作过去 15 年，这是我在文化和技术方面所见过的、按数量级而言最大的变化。"
+ },
+ {
+  "seg": 141,
+  "start": 1037.083,
+  "end": 1042.866,
+  "speaker": "Unknown",
+  "en": "So we're all here together, and we're all figuring it out, and that's what I wanted to talk to you today.",
+  "zh": "所以我们大家都在一起，我们都在摸索，这就是我今天想和你们聊的。"
+ },
+ {
+  "seg": 142,
+  "start": 1043.127,
+  "end": 1043.467,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 143,
+  "start": 1052.233,
+  "end": 1052.734,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

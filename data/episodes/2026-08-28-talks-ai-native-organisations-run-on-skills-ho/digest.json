@@ -1,0 +1,154 @@
+{
+  "title_zh": "AI 原生组织如何运行在 Skills 之上",
+  "tldr": "Quantum Black 杰出工程师 Ima Toil 讲解为什么 Skills 是智能体工作流的核心组件，以及组织该如何治理它们。",
+  "digest_md": "这一集是一场技术演讲，主角是 Ima Toil，Quantum Black（麦肯锡旗下 AI 部门）的杰出工程师。她讲的主题是：当 AI 原生组织大规模用上编码智能体之后，真正决定工作流质量的东西是 Skills（技能）——而大多数组织还没意识到，不治理 Skills 就等于在制造一类全新的技术债务。\n\n她开场先给听众画了一张「智能体软件栈」的全景图：内循环是编码智能体及其 harness（承载智能体运行的框架），包含上下文管理器、工具与 MCP、记忆与状态、技能加载器；外循环是工作流，包含 Skills、子智能体、MCP 服务器和 hooks；底层还需要环境沙箱、MCP 网关、模型网关、知识图谱和工作流市场这些赋能组件。\n\n日常大家熟悉的软件交付工作流只有四步：Specify（定义要构建什么）、Design/Plan（规划）、Tasks（拆解任务）、Implement（实现）。但 Toil 指出，这只是「构建一个产品增量」这一步。真实的端到端生命周期要长得多：先定产品战略、成功指标、路线图，做市场调研和竞争分析，再进入探索阶段拆解问题陈述、验证方案、创建用户故事，构建之前还得准备数据（清理数据目录、对接核心系统的集成），然后是数据管道构建与质量验证，回到产品增量，再经过平台工程运维（基础设施即代码等）、上线、性能优化和事故处理，循环往复。而且一个组织里往往散布着多个不同的 SDLC——移动应用一套、内部平台一套、面向客户的又一套，不存在一个统一工作流能构建所有东西。她估计，她画出来的这整套版图，大概只占组织真实复杂度的 10% 到 20%。\n\n## 为什么 Skills 是关键组件\n\n在工作流的四个组件里——hooks（在工作流过程中预先触发事件）、MCP 服务器、子智能体（用来压缩上下文窗口）、Skills——前三个「有点像现成给定的」，并不真正带来结构化价值。她直言：谁真的构建过大量的 MCP？大家只是用别人提供的工具。「归根结底，你所有的 know-how 实际上都存在于 Skills 层面。」如果没有正确的 Skills 结构，你就不真正拥有一个确定性的工作流。她建议把工作流理解成 harness 蓝图——它们在运行时塑造编码智能体的行为。\n\nSkills 的采纳速度惊人：八个月前 Anthropic 发布第一篇关于 Skills 的文章，两个月后出现了开放标准并被各大智能体框架采纳，到今年二月大多数智能体已经支持——如果你留意智能体思考的过程，可以看到它在执行任务时不断拉取 Skills。她 snapshot 了公开 GitHub 仓库和 Skills 注册表，创建量和需求都在快速上升。\n\n效果也有数据支撑：在最新的 SkillsBench（评估 Skills 效果的基准测试）里，最新模型不使用 Skills 跑软件工程和网络安全任务表现不错，而且会持续进步；但一旦应用了更具确定性的 Skills，结果明显更高。\n\n## Skills 的设计原则：不是新问题\n\nToil 强调，这其实是老问题的新形态——和微服务运动是一样的。Skills 应当：**可复用**、**模块化**、**可发现**（别的团队能自动发现并获取你的 Skills）、**跨 harness 可移植**（因为大家都用同一个开放标准，Claude Code 上的技能移到 Cursor 就能直接工作）、**专门化**（不要造单体式的万能技能，一个技能定义一个任务——价值就在这里）、**可组合**（避免技能之间重复、互相冲突）、**一致且确定性**，最后是**成本效率**——通过渐进式披露（在正确的时机只加载正确数量的技能），减少 token 消耗。\n\n她给出一个核心判断：Skills 定义了一个新的单元——**它让你组织内的 know-how 变得可执行、可移植、而且便宜**。她的例子是数据保留策略：当法规要求你操作客户数据时必须合规，把这条规则写成 Skill，再配合披露标准、GDPR 规则、填写模板等技能，法规披露审查工作流会在运行时自动拉取它们，产出确定性的审计报告，并留下改进代码库的回路。\n\n## 不治理 Skills = 制造新的技术债务\n\n这是全集最警告性的部分。如果放任不管，会出现七类问题：\n\n- **重复**：大家用同样的技术栈、建同样的产品，却不共享，团队在一次次重造同样的 Skills；\n- **质量退化**：不针对任务和不断推出的新模型持续测试验证，质量会随时间衰减；\n- **不可发现**：她类比 IDP（内部开发者平台）/Backstage 当年解决的问题——不用找人问，进服务目录就能查到谁拥有这个微服务。Skills 没有目录就没人找得到；\n- **无所有权**：没有 owner 就没人维护和扩展；\n- **不可组合**：这不会默认发生，需要治理机制来对齐构建什么、怎么设计（类似领域驱动设计塑造服务目录）；\n- **安全隐患**：公开 Skills 可能带有提示词注入（通过文本诱导模型执行恶意指令），而且 Skills 内含可执行脚本——这是它的确定性来源，也是攻击面。没有安全检查流水线，你可能拉到不安全的东西；\n- **权限失控**：不是每个技能都该全员可访问，有些含敏感业务逻辑，访问控制至关重要。\n\n## 怎么落地：三层推进\n\n落地路径分三层。**个人层面**：允许工程师用结构化的方式创建、测试、改进和使用 Skills，选定一套认可的机制即可。**团队层面**：创建技能的那一刻就要与团队共享、协作改进——同样的技术栈做同样的产品，演进会非常快。**组织层面**是关键：建一个集中式平台，包含带元数据、可搜索的技能目录；一个接入目录的 MCP 用于搜索，加一个 CLI 把技能拉回本地 IDE 或工厂沙箱；还有依赖关系管理、版本控制与生命周期（智能体能自动识别并拉取技能的最新版本）、访问控制，以及评估与可观测性。\n\n「所有这一切都围绕着治理展开——而这就是技术停止解决问题的地方。」谁来治理？取决于组织结构：应该让架构师、工程负责人、基础设施负责人和网络安全负责人坐下来，各自认领领域，确保技能更新符合组织策略。\n\n## 一个模拟实验：治理前后的对比\n\nToil 在 Clearview 里做了一个组织模拟：15 个团队、每队 5 到 12 人，跟踪每人的技能贡献、日均技能调用量、团队间重复率、质量与安全比值。跑六个月的结果是——团队都在创建和使用 Skills，但组织没有可见性，而 Skills 与生产力提升紧密耦合：没有法规相关的 Skill，就有人在反复 vibe coding（凭感觉引导智能体）试图把它做对，既烧 token 又浪费时间；没有清晰维护的技能，实现质量就只能靠人拍板，团队间成熟度参差不齐。有的团队生产力中等、成本却很高。\n\n做了治理之后呢？「不会像我们期望的那样完美」，有些团队还是会分叉，但至少出现了组织级的共同基础：你发布一个技能之后，下一个工程师构建新技能时，编码智能体的 harness 会自动识别到已有技能并直接调用——这几乎解决了前面讲的所有治理问题。\n\n## 最后两个提醒\n\n第一，Skills 只是工作流的一个组件，搞定了它不等于万事大吉——要把同样的方法应用到整个工作流上。如果集中式平台管理的是所有工作流，下一位工程师要配置基础设施时，可以直接调用一个工作流、用所需的技能构建、运行、测试，再改进后推回平台。\n\n第二，这只是开始，接下来值得关注的三个方向：**技能注册表**（应该有一个，解决 IDP 问题的厂商已经开始集中化这项能力）；**技能评估**（正确方法尚有争议，但她发现简单有效的做法是静态测试加对照 Anthropic 最佳实践——技能没被正确调用、结构不对，质量大概率不行）；**自动演化**（当下的热点，但她泼了冷水：在没有治理机制设置护栏的情况下启动自动演化的闭环，影响只会远超今天的问题）。\n\n## 本集带走\n\n- **Skills 是组织 know-how 的新载体**：可执行、可移植、便宜。没治理好 Skills，就没有确定性的智能体工作流。\n- **设计原则抄微服务**：可复用、模块化、专门化（一个技能一个任务）、可组合、可发现、跨 harness 标准移植，用渐进式披露控制 token 成本。\n- **不治理的代价是新技术债**：重复造轮子、质量退化、不可发现、无 owner、提示词注入与脚本安全风险、权限失控。\n- **落地三层走**：个人结构化创建 → 团队共享协作 → 组织级集中平台（目录 + 元数据 + 版本 + 访问控制 + 评估），治理交给架构师和各条线负责人。\n- **评估技能的朴素做法很有效**：静态测试 + 对照 Anthropic 最佳实践；自动演化先别急，护栏没建好之前别开闭环。",
+  "quotes": [
+    {
+      "en": "So at the end of the day, we'll find all of your know-how is actually at the skills level.",
+      "zh": "归根结底，你会发现你组织里所有的 know-how 实际上都存在于 Skills 层面。",
+      "timestamp": "06:41",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "And if you don't have the right structure of your skills, then you're not really having a deterministic workflow.",
+      "zh": "如果你的 Skills 没有正确的结构，那你就不真正拥有一个确定性的工作流。",
+      "timestamp": "06:45",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "This makes your know-how in your organization executable, portable, and cheap.",
+      "zh": "这让你组织内的 know-how 变得可执行、可移植、而且便宜。",
+      "timestamp": "09:52",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "However, if we don't govern skills, we will start creating a new class of technical debts.",
+      "zh": "然而，如果我们不治理 Skills，我们将开始创造一类全新的技术债务。",
+      "timestamp": "11:21",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "And then all of this is actually played around a governance. And this is where technology stops solving the problem, right?",
+      "zh": "而这一切实际上都围绕着治理来展开。这就是技术停止解决问题的地方，对吧？",
+      "timestamp": "14:46",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+      "zh": "如果你自动启动这台机器，其影响将远超今天，因为这会变成在没有治理机制的情况下维持自动演进的技能——而治理机制才是真正为你的组织设置护栏的东西。",
+      "timestamp": "19:48",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "If you don't test and make sure that you're maintaining and you're validating your skills, not against your task, but also against the latest models that comes, right, then the quality starts degrading over time.",
+      "zh": "如果你不做测试，不确保针对任务、也针对不断推出的最新模型去维护和验证你的技能，那么质量就会随时间开始退化。",
+      "timestamp": "11:43",
+      "speaker": "Imad Touil"
+    },
+    {
+      "en": "If we don't have a skill about the regulation, that is someone is vibe coding back and forth and trying to figure out exactly how to steer the agent to implement it properly, right?",
+      "zh": "如果我们没有关于该法规的技能，那就意味着有人在反复 vibe coding，试图弄清楚到底该怎么引导智能体把它正确地实现出来，对吧？",
+      "timestamp": "16:26",
+      "speaker": "Imad Touil"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:41",
+      "speaker": "Ima Toil",
+      "en": "So at the end of the day, we'll find all of your know-how is actually at the skills level.",
+      "zh": "归根结底，你会发现你组织里所有的 know-how 实际上都存在于 Skills 层面。"
+    },
+    {
+      "timestamp": "06:45",
+      "speaker": "Ima Toil",
+      "en": "And if you don't have the right structure of your skills, then you're not really having a deterministic workflow.",
+      "zh": "如果你的 Skills 没有正确的结构，那你就不真正拥有一个确定性的工作流。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Ima Toil",
+      "en": "This makes your know-how in your organization executable, portable, and cheap.",
+      "zh": "这让你组织内的 know-how 变得可执行、可移植、而且便宜。"
+    },
+    {
+      "timestamp": "11:21",
+      "speaker": "Ima Toil",
+      "en": "However, if we don't govern skills, we will start creating a new class of technical debts.",
+      "zh": "然而，如果我们不治理 Skills，我们将开始创造一类全新的技术债务。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Ima Toil",
+      "en": "But then when we applied skills that are more deterministic, the outcome was clearly higher than without it.",
+      "zh": "但当我们应用了更具确定性的技能时，结果明显比不使用时更高。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Ima Toil",
+      "en": "But when you think about it, some skills may have some prompt injection, and skills actually does have scripts, because that's the deterministic part of it, because you can run a specific script for a specific task.",
+      "zh": "但你仔细想想，有些技能可能带有提示词注入，而且技能实际上是有脚本的——那正是它的确定性来源，因为你可以为特定任务运行特定的脚本。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Ima Toil",
+      "en": "And then all of this is actually played around a governance. And this is where technology stops solving the problem, right?",
+      "zh": "而这一切实际上都围绕着治理来展开。这就是技术停止解决问题的地方，对吧？"
+    },
+    {
+      "timestamp": "17:27",
+      "speaker": "Ima Toil",
+      "en": "And this is reality. It's going to be perfect as we expect.",
+      "zh": "这就是现实。它不会像我们期望的那样完美。"
+    },
+    {
+      "timestamp": "17:38",
+      "speaker": "Ima Toil",
+      "en": "The moment you govern, you publish one skill. The next engineer trying to build a new skill, the coding agent's harness will identify the skill that is already available and pull it, right?",
+      "zh": "从你开始治理、发布一个技能的那一刻起，下一个工程师尝试构建新技能时，编码智能体的 harness 会识别到已有的技能并直接调用它，对吧？"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Ima Toil",
+      "en": "Now, if you think about now like how like the anatomy of skills and how you actually design and implement skills in your organization, this is not like a new problem that we are trying to solve here, right? We have solved this with the microservice kind of movements, right?",
+      "zh": "如果你思考技能的构造、以及如何在组织中设计和实现技能——这并不是我们要解决的新问题，对吧？我们已经在微服务运动中解决过它了。"
+    },
+    {
+      "timestamp": "16:17",
+      "speaker": "Ima Toil",
+      "en": "And skills, again, they are tightly coupled to your productivity uplift.",
+      "zh": "而技能，再说一次，它们与你的生产力提升紧密耦合。"
+    },
+    {
+      "timestamp": "18:00",
+      "speaker": "Ima Toil",
+      "en": "So that doesn't mean if you figure out skills that says you're good. No. You need to apply the same kind of, like, approach and solution for your whole workflows.",
+      "zh": "所以这并不意味着搞定了 Skills 你就万事大吉了。不是的。你需要把同样的方法和解决方案应用到你的整个工作流上。"
+    },
+    {
+      "timestamp": "19:30",
+      "speaker": "Ima Toil",
+      "en": "If the skill is not invoked properly, if the skill is not structured properly, there's a high chance there's not going to be high quality.",
+      "zh": "如果技能没有被正确调用，如果技能没有被正确结构化，那很可能质量不会高。"
+    },
+    {
+      "timestamp": "19:48",
+      "speaker": "Ima Toil",
+      "en": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+      "zh": "如果你自动启动这台机器，其影响将远超今天，因为这会变成在没有治理机制的情况下维持自动演进的技能——而治理机制才是真正为你的组织设置护栏的东西。"
+    },
+    {
+      "timestamp": "11:43",
+      "speaker": "Ima Toil",
+      "en": "If you don't test and make sure that you're maintaining and you're validating your skills, not against your task, but also against the latest models that comes, right, then the quality starts degrading over time.",
+      "zh": "如果你不做测试，不确保针对任务、也针对不断推出的最新模型去维护和验证你的技能，那么质量就会随时间开始退化。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Ima Toil",
+      "en": "If we don't have a skill about the regulation, that is someone is vibe coding back and forth and trying to figure out exactly how to steer the agent to implement it properly, right?",
+      "zh": "如果我们没有关于该法规的技能，那就意味着有人在反复 vibe coding，试图弄清楚到底该怎么引导智能体把它正确地实现出来，对吧？"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个特别具体、又特别容易被忽视的问题：当一家公司大规模用上编码智能体之后，到底是什么在决定工作质量？\n\n主角是 Ima Toil，麦肯锡旗下 AI 部门 Quantum Black 的杰出工程师。她最近做了一场技术演讲，核心观点一句话就能说完：编码智能体普及之后，真正决定工作流质量的东西，叫做 Skills，也就是技能——而大多数组织还没意识到，不治理 Skills，就等于在制造一类全新的技术债务。\n\n先交代一下背景。Toil 开场画了一张智能体软件栈的全景图。里面那圈，是编码智能体和承载它运行的框架，包括上下文管理、工具、记忆、技能加载器。外面那圈，是工作流，包含 Skills、子智能体、MCP 服务器和 hooks。底层还有沙箱、模型网关、工作流市场这些赋能组件。\n\n那这跟组织的日常工作有什么关系？咱们熟悉的软件交付流程，通常是四步：定需求、做规划、拆任务、写实现。但 Toil 说，这只是\"构建一个产品增量\"这一步。真实的生命周期长得多——前面有产品战略、成功指标、市场调研，中间有数据准备、数据管道、质量验证，后面还有平台运维、上线、性能优化、事故处理，循环往复。而且一个组织里往往散布着好几套不同的开发流程，移动应用一套、内部平台一套、面向客户的又一套。她估计，自己画出来的这整张版图，大概只占组织真实复杂度的 10% 到 20%。你可以想象真实世界有多复杂。\n\n那为什么说 Skills 是这套体系里的关键组件呢？在工作流的四个组件里，hooks、MCP 服务器、子智能体，她认为这三个\"有点像现成给定的\"，并不真正带来结构化价值。MCP 尤其明显——谁真的构建过大量的 MCP？大家只是用别人提供的工具。她的原话是：归根结底，你组织里所有的 know-how，实际上都存在于 Skills 层面。如果你的 Skills 没有正确的结构，那你就不真正拥有一个确定性的工作流。\n\n顺便说一句，Skills 的普及速度快得吓人。八个月前 Anthropic 发了第一篇关于 Skills 的文章，两个月后就出现了开放标准，到今年二月，大多数智能体已经支持了。效果也有数据：在 SkillsBench 这个基准测试里，最新的模型不用 Skills 跑软件工程和网络安全任务，表现已经不错；但一旦用上更有确定性的 Skills，结果明显更高。\n\n说到这儿，你可能会问：Skills 到底该怎么设计？Toil 给了一个特别让人安心的答案——这不是新问题，这就是当年微服务运动的老问题换了身衣服。所以微服务那套原则直接照抄：可复用、模块化、可发现、可组合，还有一条很重要，叫专门化——不要造那种什么都能干的单体式万能技能，一个技能就定义一个任务，价值就在这儿。另外因为大家用的是同一个开放标准，Claude Code 上的技能搬到 Cursor 里直接能用，这就叫跨 harness 可移植。成本上靠渐进式披露来控制，就是在正确的时机只加载正确数量的技能，省 token。\n\n举个例子你就明白这东西的威力了。法规要求你操作客户数据时必须合规，那就把数据保留策略写成一条 Skill，配上披露标准、GDPR 规则、填写模板这些技能。等法规披露审查的工作流跑起来，会自动把这些技能拉过来，产出一份确定性的审计报告，还会留下改进代码库的回路。用 Toil 的话说，Skills 让组织内的 know-how 变得可执行、可移植、而且便宜。\n\n听起来很美好，那问题出在哪儿？问题就出在\"放任不管\"这四个字上。如果组织不管，会出现七类毛病：重复，各团队用同样的技术栈、做同样的产品，却在一次次重造同样的 Skills；质量退化，不针对新任务和新模型持续测试，质量会随时间衰减；不可发现，就像当年内部开发者平台要解决的一样，没有目录就没人找得到；无所有权，没有 owner 就没人维护；不可组合；还有安全隐患——公开的 Skills 可能带有提示词注入，而且 Skills 里面含可执行脚本，这既是它确定性强的来源，也是它的攻击面；最后是权限失控，不是每个技能都该全员可访问。\n\n那怎么落地？Toil 给了三层路径。个人层面，允许工程师结构化地创建、测试、使用 Skills。团队层面，技能一创建就共享、协作改进。最关键的是组织层面：建一个集中式平台，带元数据的技能目录、能搜目录的 MCP、把技能拉回本地的命令行工具，再加上版本控制、访问控制、评估和可观测性。那谁来治理呢？让架构师、工程负责人、基础设施负责人和网络安全负责人坐下来，各自认领领域。这里她有句话特别到位：所有这一切都围绕着治理展开——而这，就是技术停止解决问题的地方。\n\n她还真的做了个实验来验证。在一个叫 Clearview 的组织模拟里，她放了 15 个团队、每队 5 到 12 人，跑了六个月。结果是：团队都在创建和使用 Skills，但组织没有可见性。没有法规相关的技能，就有人在反复凭感觉引导智能体，烧 token 又浪费时间；没有清晰维护的技能，质量就只能靠人拍板。做了治理之后呢？她说不会像期望的那样完美，有些团队还是会分叉，但至少出现了组织级的共同基础——你发布一个技能之后，下一位工程师构建新东西时，智能体会自动识别已有技能并直接调用。这一下几乎解决了前面讲的所有问题。\n\n最后还有两个提醒。第一，Skills 只是工作流的一个组件，搞定它不等于万事大吉，同样的方法要铺到整个工作流上。第二，往前看有三个方向：技能注册表、技能评估——她发现朴素的做法反而有效，静态测试加上对照 Anthropic 的最佳实践就够了——第三个是自动演化，这是当下的热点，但她泼了盆冷水：在没建好治理护栏之前就启动自动演化的闭环，影响只会远超今天的问题。\n\n所以这一集带走一句话就够了：如果你的 Skills 没有正确的结构，你就不真正拥有一个确定性的工作流；而不治理 Skills，你就是在制造一类全新的技术债务。"
+}

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Playwright MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Playwright MCP">PL</div><div class="pi"><h1 class="pt">Playwright MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Playwright MCP">PL</div><div class="pi"><h1 class="pt">Playwright MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|《智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建》]]**(12:29起):本集购买阶段使用的让大模型操控浏览器的工具协议,配合浏览器加大模型;换成 Oxylabs 无头浏览器后即为即插即用替换,解决了访问被验证码拦的问题。
+- **[[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]]**(05:20起):本集举例：它出现后智能体可以自己探索、操作浏览器界面来验证，不再需要人逐步走查，是很多团队的巨大生产力解锁。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|《智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建》]] — 作为概念
+- [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Giedrius Šteimantas]] · [[智能体]] · [[Oxylabs]] · [[网页抓取]] · [[浏览器自动化]] · [[验证码]] · [[大语言模型]] · [[token]] · [[Fast Search API]] · [[Web Scraper API]]
+[[智能体]] · [[Giedrius Šteimantas]] · [[Eyal Blum]] · [[Oxylabs]] · [[Figma]] · [[网页抓取]] · [[验证]] · [[浏览器自动化]] · [[规划（而非提示）]] · [[验证码]]
 
-<script type="application/json" class="pd-epn">{"Giedrius Šteimantas":1,"智能体":327,"Oxylabs":1,"网页抓取":1,"浏览器自动化":1,"验证码":1,"大语言模型":7,"token":26,"Fast Search API":1,"Web Scraper API":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"Giedrius Šteimantas":1,"Eyal Blum":1,"Oxylabs":1,"Figma":21,"网页抓取":1,"验证":7,"浏览器自动化":1,"规划（而非提示）":1,"验证码":1}</script>
 
 <script>
 (function(){

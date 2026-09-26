@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":13,"Waymo driver":1,"智能体":327,"物理 AI":8,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":8,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":13,"Waymo driver":1,"智能体":330,"物理 AI":8,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":8,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

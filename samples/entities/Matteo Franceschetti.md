@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":142,"Claude":66,"智能体":327,"CAC":3,"增量测试":1,"人形机器人":2,"Xiaomi":2,"OpenAI":132}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":143,"Claude":66,"智能体":330,"CAC":3,"增量测试":1,"人形机器人":2,"Xiaomi":2,"OpenAI":133}</script>
 
 <script>
 (function(){

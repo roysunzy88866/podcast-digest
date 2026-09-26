@@ -179,7 +179,7 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:OpenAI · 同概念:推理 (inference)</span>
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|300亿美元的隐形公司：VastData 要做 AI 时代的操作系统]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:xAI · 同概念:推理 (inference)</span>
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:算力 (compute)、智能体 (agents)</span>
+- [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索]]<span class="pd-rz">同概念:对齐 (alignment)、推理 (inference)</span>
 
 </div>
 </div>

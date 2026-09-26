@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Simile":1,"智能体":327,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":15,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":330,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":15,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

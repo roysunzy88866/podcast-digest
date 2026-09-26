@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":14,"Boeing":2,"FAA":2,"Uber":13,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":15,"Boeing":2,"FAA":2,"Uber":14,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
 
 <script>
 (function(){

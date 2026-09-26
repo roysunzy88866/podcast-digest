@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":132,"智能体":327,"Codex":57,"循环":8,"协作界面":1,"harness":44,"压缩":2,"委托":1,"持久化上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":133,"智能体":330,"Codex":57,"循环":8,"协作界面":1,"harness":45,"压缩":2,"委托":1,"持久化上下文":1}</script>
 
 <script>
 (function(){

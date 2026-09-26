@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]] [[Simon Mayfor]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":59,"智能体":327,"Salesforce":31,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":18,"Automation Bench":1,"确定性":3}</script>
+<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":60,"智能体":330,"Salesforce":31,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":19,"Automation Bench":1,"确定性":3}</script>
 
 <script>
 (function(){

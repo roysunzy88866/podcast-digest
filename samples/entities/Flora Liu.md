@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Notion":14,"GTM":1,"智能体":327,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":3,"Salesforce":31,"Gong":3,"Snowflake":13}</script>
+<script type="application/json" class="pd-epn">{"Notion":14,"GTM":1,"智能体":330,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":3,"Salesforce":31,"Gong":3,"Snowflake":13}</script>
 
 <script>
 (function(){

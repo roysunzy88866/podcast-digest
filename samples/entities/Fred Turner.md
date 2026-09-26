@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":142,"Salesforce":31,"YC":16,"智能体":327,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":143,"Salesforce":31,"YC":16,"智能体":330,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

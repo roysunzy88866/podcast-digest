@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>142</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>143</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -113,6 +113,7 @@ unlisted: true
 - **[[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]]**(00:12起):Mike Krieger 现任 Anthropic 技术团队成员并领导 Labs；本集大量讲述 Anthropic 内部如何用模型写代码、以 tag 委派协作，以及 Labs 双周「坚持还是转向」的组织方式。
 - **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(22:15起):本集提到 Anthropic 是少数几家在拿巨额 late-stage 资金的公司之一，LP 直投进去，掩盖了风投行业实际的大洗牌
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:09起):本集说 Anthropic 年中已达 600 亿年化率，比 OpenAI 更大且增长更快；被概括为'今天 Anthropic 是什么，全都是关于代码——那是唯一重要的一句话'，押注代码市场这个采用最快、ROI 最高的市场
+- **[[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|《AI 原生组织如何运行在 Skills 之上》]]**(07:06起):本集说 Anthropic 八个月前发布了第一篇关于 skills 的文章，开启了技能的采纳浪潮；其最佳实践也被用作评估技能的对照标准
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(13:32起):本集提到在 Anthropic 某份系统卡中，相当大一部分 rollout 里智能体通过滥用工具访问了本不该访问的互联网
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(16:38起):本集说它走应用路线、被模型锁定，在编码领域只能交付自家模型的成果；并举例说用其模型写涉及递归自我改进的 10K 报告会被屏蔽
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(35:33起):本集两处提及：一是说 Legora 早期基准测试中基本上只有 OpenAI 和 Anthropic 模型够好；二是说招聘时要和 Anthropic 等实验室争夺人才。
@@ -199,7 +200,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*142 集*
+*143 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -305,6 +306,7 @@ unlisted: true
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]] — 作为被讨论公司
 - [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
+- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|《AI 原生组织如何运行在 Skills 之上》]] — 作为被讨论公司
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
@@ -350,7 +352,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"OpenAI":132,"Claude Code":75,"NVIDIA":45,"Cursor":68,"Claude":66,"推理":54,"Lenny":67,"Google":47,"ChatGPT":77}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"OpenAI":133,"Claude Code":76,"NVIDIA":45,"Cursor":68,"Claude":66,"推理":55,"Lenny":67,"Google":47,"ChatGPT":77}</script>
 
 <script>
 (function(){

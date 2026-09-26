@@ -1,0 +1,1595 @@
+{
+  "episode_id": "2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-26",
+  "tags": [
+    "智能体搜索",
+    "AI 商业模式",
+    "数据交易",
+    "AI 安全",
+    "定价策略"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            24.388,
+            26.149
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parag-agrawal",
+      "type": "person",
+      "role": "cohost",
+      "name": "Parag Agrawal",
+      "file": "Parag Agrawal",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.631,
+            34.993
+          ],
+          "quote": "Well, they all believe in Parag Agrawal to change the future of agentic search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "company",
+      "role": "company",
+      "name": "Parallel",
+      "file": "Parallel",
+      "primary": true,
+      "how_described": "本集说它是「智能体的 Google」,为智能体构建高效网页搜索技术,以及让这件事可持续的商业模式(如给内容方付费的『智能体的 AdSense』)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            35.253,
+            41.056
+          ],
+          "quote": "Parag is the founder of Parallel, as I said, changing the future of how agents do web search efficiently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            205.237,
+            211.742
+          ],
+          "quote": "I would love to start with, for anyone that doesn't know, how would you describe parallel in 60 seconds?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            212.102,
+            214.924
+          ],
+          "quote": "Parallel is the Google for agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            234.217,
+            240.9
+          ],
+          "quote": "Parallel is about building the technology for agents to search the web and then the business models to make that sustainable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            771.644,
+            775.707
+          ],
+          "quote": "Maybe for me it can, but it can't tell you for somebody who works at Parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1883.205,
+            1885.106
+          ],
+          "quote": "I'll get a tattoo for parallel if you can.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说 Amazon 拒绝智能体(如 Muse)接入其平台,并指出其广告业务已大于电商业务,是「把智能体挡在门外」的典型案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1256.486,
+            1261.788
+          ],
+          "quote": "And Amazon has said, I'm sorry, in most recent times, Muse, you will not be let into our garden.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1299.751,
+            1302.133
+          ],
+          "quote": "Do you think Amazon were right to say no to Muse?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1407.844,
+            1412.186
+          ],
+          "quote": "Amazon, their advertising business is bigger than their e-com business now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2901.741,
+            2915.712
+          ],
+          "quote": "The counterforce here is things and technology are changing so fast that if someone decides that my only play is vertical integration and I don't play nice with anyone else, I think it's the same example as the Amazon example.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集说 Shopify 对智能体的态度是「进来吧,宝贝」,作为开放接纳智能体的大公司例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1262.168,
+            1264.608
+          ],
+          "quote": "Shopify has said, come in, baby.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "expedia",
+      "type": "company",
+      "role": "company",
+      "name": "Expedia",
+      "file": "Expedia",
+      "primary": false,
+      "how_described": "本集说 Expedia 对智能体说「进来」,与 Amazon 的关门形成对照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1264.768,
+            1266.049
+          ],
+          "quote": "Expedia has said, come in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 被披露黑进了一家澳大利亚医疗保健组织,作为讨论智能体安全与护栏的引子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            2012.916,
+            2021.603
+          ],
+          "quote": "Let's say you use the Luna model with OpenAI's built-in web search today, or with anyone's web search, forgetting ours, and you ran any kind of deep research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2505.301,
+            2510.442
+          ],
+          "quote": "OpenAI, this morning it was revealed, hacked into an Australian healthcare organization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集说 Perplexity 更像一个垂直整合的产品,与个人智能体类产品竞争,而不直接在 Parallel 的网页搜索业务范围内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            163.371,
+            171.876
+          ],
+          "quote": "Enterprise-grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3143.084,
+            3144.625
+          ],
+          "quote": "Perplexity or AXA?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3146.585,
+            3148.928
+          ],
+          "quote": "I don't think perplexity is in our business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3149.389,
+            3160.002
+          ],
+          "quote": "Perplexity is perhaps more of a vertically integrated product which competes with a instinct or a Glockbot or Claude GoWork and all those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3164.506,
+            3168.407
+          ],
+          "quote": "Yeah, like web search is like, web search to perplexity is like web search if to a lab.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3385.044,
+            3393.55
+          ],
+          "quote": "Enterprise grade hosting, security and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pitchbook",
+      "type": "company",
+      "role": "company",
+      "name": "PitchBook",
+      "file": "PitchBook",
+      "primary": false,
+      "how_described": "本集以 PitchBook 为例说明按席位付费撑不住智能体用量,数据交易需要新的按价值计费方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1181.205,
+            1203.53
+          ],
+          "quote": "Now, you pay PitchBook by the seat, but now you're running a bunch of agents, and your agents can perhaps not access everything you can on PitchBook, or you're doing like sort of this to get a browser, perhaps against terms of service to send an agent via browser to PitchBook using your auth credentials, and it's inefficient, it's clunky, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1237.682,
+            1243.623
+          ],
+          "quote": "If we don't figure it out, you're going to be in this weird cat and mouse game of PitchBook being like, no, I want to sell you a seat.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线:智能体使用网络的次数将是人类的 1000 倍,输入、输出、时间约束都与人不同,将成为网络的「消费者/客户」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            215.304,
+            221.589
+          ],
+          "quote": "So agents need to search the web to do anything they do for you, whether it's a personal agent or an agent built for work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            221.89,
+            228.575
+          ],
+          "quote": "Just like humans need to go on a browser, search Google, oftentimes during work or for whatever you're doing in life, your agent needs to do the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            334.489,
+            337.59
+          ],
+          "quote": "Agents will either be super impatient, like imagine a voice agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            337.97,
+            341.011
+          ],
+          "quote": "The agent will be like, I need an answer like now, 100 milliseconds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            348.393,
+            352.877
+          ],
+          "quote": "Or there's going to be a background agent who's like, I don't care, just give me the best answer possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            371.129,
+            375.012
+          ],
+          "quote": "The output is tokens or files on a file system, depending on the type of agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            382.716,
+            386.719
+          ],
+          "quote": "So imagine someone running an agent built with a Luna model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            387.159,
+            390.063
+          ],
+          "quote": "And then imagine someone running an agent built with a Fable model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            494.938,
+            501.28
+          ],
+          "quote": "And what I mean by that is, for different things, an agent might want different things, and for different people, an agent might want different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            510.583,
+            515.944
+          ],
+          "quote": "So you allow the agent to specify that in the API signature.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            516.004,
+            523.407
+          ],
+          "quote": "So our product is an API, which either the programmer can configure based on their application or can leave it to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            559.735,
+            567.622
+          ],
+          "quote": "So your voice agent must be all knowing without telling you, guys, I'm searching the web, hold on while I come back with the answer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            567.842,
+            570.164
+          ],
+          "quote": "That's a silly experience for a voice agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            587.436,
+            590.258
+          ],
+          "quote": "So you end-to-end in the agent, you save time and cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            594.641,
+            599.384
+          ],
+          "quote": "So you use Turbo if you're building a voice agent, you use Advanced if you're like a really expensive background agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1181.205,
+            1203.53
+          ],
+          "quote": "Now, you pay PitchBook by the seat, but now you're running a bunch of agents, and your agents can perhaps not access everything you can on PitchBook, or you're doing like sort of this to get a browser, perhaps against terms of service to send an agent via browser to PitchBook using your auth credentials, and it's inefficient, it's clunky, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1203.79,
+            1208.811
+          ],
+          "quote": "But clearly their data is valuable, and clearly your agent should have convenient access to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1245.544,
+            1249.265
+          ],
+          "quote": "And your agent is stuck without the data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1312.262,
+            1318.567
+          ],
+          "quote": "Over time, or ship their own agent and drive crazy adoption, let's say they have that capability, then I guess they were right, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1318.727,
+            1328.455
+          ],
+          "quote": "On the other hand, once they've made this with Nodgla now, anyone else's agent, and they can not ship an agent that consumers use, and they won't allow anyone else's agent to use them,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1448.939,
+            1464.646
+          ],
+          "quote": "So we like to pay content owners a variable amount of money every time an agent derives benefit from reading their information, which is a variable amount of money is what a visitor to your website will pay you based on a click probability or a value probability on ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1674.605,
+            1681.731
+          ],
+          "quote": "So we like to pay content owners the marginal contribution that they added to an agent doing work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1682.892,
+            1688.216
+          ],
+          "quote": "Let's assume that there's an agent trying to get something done, and you're going to spend a dollar on that agent to get this thing done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1710.892,
+            1715.976
+          ],
+          "quote": "The quality of the result was the same as the 90 cent agent with their content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1897.457,
+            1901.781
+          ],
+          "quote": "One reason would be that we see an agent don't work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2021.643,
+            2030.69
+          ],
+          "quote": "Let's say you built an instinct using a Luna class model, and at some point the Luna class model will be able to do 60, 70, 80% of your personal agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2084.411,
+            2091.074
+          ],
+          "quote": "But my rough intuition is that in an end-to-end agent doing a bunch of web work, you spend more on the agent than on web search for all agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2250.364,
+            2254.205
+          ],
+          "quote": "An agent gives, human or agent gives search engine a query, gets results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2259.746,
+            2275.93
+          ],
+          "quote": "If you're an always-on agent that's working on your behalf, it's kind of silly for instinct to wake up every six hours and go do a bunch of searching and a bunch of inference to figure out if you need to get pinged about the under 25 founder that popped up somewhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2321.276,
+            2327.762
+          ],
+          "quote": "Now, one way of doing this is the default implementation is run an agent, which is somewhat smart, to go search the web.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2413.182,
+            2424.367
+          ],
+          "quote": "Whoever's building a long-running persistent agent, and I run a lot of long-running persistent agents for myself, the way your agent or instinct is probably occasionally event-driven on email.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2449.476,
+            2451.559
+          ],
+          "quote": "Like you get an email and then agent has new work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2452.179,
+            2455.462
+          ],
+          "quote": "Some other agent finishes some compute, so now this agent has more work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2455.883,
+            2459.126
+          ],
+          "quote": "Or something in the world changes that makes your agent want to do more work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2459.446,
+            2462.389
+          ],
+          "quote": "The things that will happen tomorrow, or you have an idea which makes the agent do work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2482.816,
+            2486.257
+          ],
+          "quote": "Can I ask you one that's really important, which is agent guardrails?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2557.557,
+            2566.785
+          ],
+          "quote": "So to me, some of the problems around agent during RL hacking people is a solvable problem because this is not about how powerful are the models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2790.73,
+            2799.474
+          ],
+          "quote": "You ask someone else like that, oh, there's this agent that looks smart and you want to give it like a full on ability to go spend your money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2804.037,
+            2805.257
+          ],
+          "quote": "You don't give your credit card to an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2824.456,
+            2842.509
+          ],
+          "quote": "I think if you go to a non-bubble conversation of people today, when do you get to a majority of people saying that I trust the agent enough to have it, have access to my bank accounts and spend money on my behalf, send emails on my behalf, read my emails?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "web-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "网页搜索 (web search)",
+      "file": "网页搜索",
+      "primary": true,
+      "how_described": "本集说为智能体构建的网页搜索与面向人类的搜索完全不同:要从几万亿文档压缩到上下文窗口的一千个 token,用分层漏斗按算力逐层收窄,且现有市场定价完全错了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            35.253,
+            41.056
+          ],
+          "quote": "Parag is the founder of Parallel, as I said, changing the future of how agents do web search efficiently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            228.915,
+            233.817
+          ],
+          "quote": "Turns out agents are different from humans and the way you build web search for agents is different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            272.049,
+            276.414
+          ],
+          "quote": "How does the world of agents change web search in terms of the technology required?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            286.856,
+            293.619
+          ],
+          "quote": "If we spend the amount of compute we currently spend per web search, that's too much compute for web search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            307.949,
+            313.614
+          ],
+          "quote": "So if you think about how we use web search, we type keyword queries, which are short and underspecified.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            316.717,
+            318.599
+          ],
+          "quote": "If web search takes more than that, we're impatient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            346.352,
+            347.653
+          ],
+          "quote": "So I need web search to do it in 100.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            353.137,
+            357.12
+          ],
+          "quote": "And so the variance of what you can do within web search changes completely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            391.825,
+            399.495
+          ],
+          "quote": "How you want to optimize signal to noise and tokens for each of them is so different in terms of what you do in the web search stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            403.139,
+            408.645
+          ],
+          "quote": "Let's say you took web search, which was cheap and fast and low compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            409.246,
+            415.653
+          ],
+          "quote": "One way of conceptualizing the web search problem is you start with like a trillion documents that are on the web, some few trillion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            456.698,
+            463.5
+          ],
+          "quote": "So you're essentially allocating compute to web search in order to save compute on the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            469.322,
+            474.403
+          ],
+          "quote": "So if your Luna model is really cheap, you don't want to do too much compute in web search because it's okay to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            479.587,
+            490.157
+          ],
+          "quote": "Into Fable, you want to do the work before you waste Fable's time because that's going to be expensive in time and money for you if web search gives you worse answers because you're cheaper out on web search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            573.086,
+            574.747
+          ],
+          "quote": "And so you now need to do web search, which is like rapid.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            581.672,
+            587.116
+          ],
+          "quote": "You can spend five seconds on web search to make sure it does, instead of five web searches, only two.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            632.211,
+            636.352
+          ],
+          "quote": "Coding invokes, I would say, web search in 5% of prompts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            637.793,
+            646.536
+          ],
+          "quote": "So it's not every prompt invoking web search when you're writing code because most of them rely on your internal context and your internal data and your code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            653.138,
+            655.059
+          ],
+          "quote": "Law is very web search oriented.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            674.527,
+            676.928
+          ],
+          "quote": "So there's sales is very web search heavy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            677.348,
+            679.229
+          ],
+          "quote": "AI science is very web search heavy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            683.11,
+            686.311
+          ],
+          "quote": "But when you think of web search, all of these others start popping too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            689.592,
+            692.833
+          ],
+          "quote": "If there's anything that needs web search, it's personal assistance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1773.78,
+            1786.369
+          ],
+          "quote": "Every bit of inference across all models going into running agents, I think somewhere between 5 to 20% of that spend that goes into GPU will need to go into some sort of a web search stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1964.077,
+            1969.659
+          ],
+          "quote": "Did we find all the customers which are spending money on them to spend money on our web search by making it the best web search in the world?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2003.023,
+            2005.408
+          ],
+          "quote": "I think the pricing on web search today is just off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2012.916,
+            2021.603
+          ],
+          "quote": "Let's say you use the Luna model with OpenAI's built-in web search today, or with anyone's web search, forgetting ours, and you ran any kind of deep research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2032.83,
+            2039.192
+          ],
+          "quote": "In that moment, you'll be spending 80 to 90% of your dollars on web search and 10% on the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2043.413,
+            2052.255
+          ],
+          "quote": "So I think at that point, web search has to drop prices by one order of magnitude or more because in my compute allocation dance that I was doing earlier,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2052.698,
+            2057.98
+          ],
+          "quote": "You need to spend less compute on web search than you spend on the model itself that's consuming its results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2058.4,
+            2062.662
+          ],
+          "quote": "And so people have built web search the wrong way so far.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2063.022,
+            2065.983
+          ],
+          "quote": "Web search in the market is, it doesn't matter for an opus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2066.283,
+            2074.727
+          ],
+          "quote": "For an opus, you win on quality and not on price because web search is such a minuscule portion of your, like, in fact, you should spend even more on web search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2074.947,
+            2079.969
+          ],
+          "quote": "So we're going to ship even more expensive web search for bigger and bigger models over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2080.409,
+            2083.791
+          ],
+          "quote": "And at the same time, we'll ship really cheap web search for the cheap models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2084.411,
+            2091.074
+          ],
+          "quote": "But my rough intuition is that in an end-to-end agent doing a bunch of web work, you spend more on the agent than on web search for all agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2091.434,
+            2095.415
+          ],
+          "quote": "And so the market today on web search is totally off in pricing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2101.578,
+            2108.224
+          ],
+          "quote": "Historically, Google's ads CPMs, which is like how well does web search with humans monetize?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2140.13,
+            2142.732
+          ],
+          "quote": "And that's the only way you push web search to 1000x.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2183.233,
+            2195.421
+          ],
+          "quote": "But more importantly, our web search costs $1 for a thousand for producing that quality, while almost every other web search in the market available to you right now will cost you 7 or 10 or 14.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2246.563,
+            2250.224
+          ],
+          "quote": "Today, if you think of web and web search, we all think of it like, what is web search?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2971.093,
+            2971.994
+          ],
+          "quote": "They might use our web search.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3162.465,
+            3164.145
+          ],
+          "quote": "In our web search business?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3164.506,
+            3168.407
+          ],
+          "quote": "Yeah, like web search is like, web search to perplexity is like web search if to a lab.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把 Parallel 的生意定义为推理的相邻业务:所有模型用于运行智能体的推理花费中约 5-20% 会流向网页搜索技术栈,推理增长多少 Parallel 就随之增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            625.388,
+            631.79
+          ],
+          "quote": "The thing about engineering is coding is a large chunk of inference in the market right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            679.609,
+            682.81
+          ],
+          "quote": "So on a relative basis, inference goes more in compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1138.614,
+            1142.518
+          ],
+          "quote": "But what I'm talking about is data transactions at inference time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1732.389,
+            1741.235
+          ],
+          "quote": "And so to produce, if I was going to offer an equivalently good product to my customer, I'd rather pay content owners than spend on inference because I'm spending the same amount.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1752.908,
+            1760.893
+          ],
+          "quote": "One mental model of our business is we are an adjacency to inference or knowledge work or personal agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1773.78,
+            1786.369
+          ],
+          "quote": "Every bit of inference across all models going into running agents, I think somewhere between 5 to 20% of that spend that goes into GPU will need to go into some sort of a web search stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1797.233,
+            1809.437
+          ],
+          "quote": "And if inference grows 3x, 5x, 7x year on year, we grow alongside it in the same rate if we're just holding our share constant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1820.796,
+            1828.102
+          ],
+          "quote": "Yeah, but I think when fireworks is 2 billion in revenue, the inference market revenue is 200 or more, maybe 300.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1841.052,
+            1844.115
+          ],
+          "quote": "Like today, I think we grow alongside inference or more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1866.906,
+            1873.349
+          ],
+          "quote": "So 6 billion growing at the rate of inference gets you to 100 billion business easy, but that's in the next few years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1936.327,
+            1946.531
+          ],
+          "quote": "And did we go earn the trust of the customers that end up having a decent chunk of that inference in four years from today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2259.746,
+            2275.93
+          ],
+          "quote": "If you're an always-on agent that's working on your behalf, it's kind of silly for instinct to wake up every six hours and go do a bunch of searching and a bunch of inference to figure out if you need to get pinged about the under 25 founder that popped up somewhere.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放模型 (open models)",
+      "file": "开放模型",
+      "primary": true,
+      "how_described": "本集讨论开放模型的路径依赖:希望有伟大的美国开放模型且需要两家竞争,并说若开放模型大获成功将改变市场格局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            911.81,
+            921.419
+          ],
+          "quote": "Do you agree with the consensus for you that you'll have 90% of token activity go through open models, but 90% of dollars go through frontier models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            942.752,
+            947.715
+          ],
+          "quote": "And I think there is a real path dependency in terms of where open models end up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            948.135,
+            962.383
+          ],
+          "quote": "I do think if we had strong confidence that an American built open model was going to be state of the art as far as open models went, I would have more confidence in saying that they'll be pretty good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            962.624,
+            964.945
+          ],
+          "quote": "Do you have confidence in American open models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            970.91,
+            978.797
+          ],
+          "quote": "But I'm hoping that there will be a great series of American Open Models and perhaps even competition to have the best American Open Model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1768.837,
+            1773.4
+          ],
+          "quote": "Look at all of the GPUs, whether it's small models, open models, proprietary models, forget all of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1954.874,
+            1960.596
+          ],
+          "quote": "If open models crush it like based on fireworks, model, all of them will have a huge chunk of revenue.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling law)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说目前能感知到的缩放定律似乎没有尽头,前沿模型会越来越大、往同一问题投入更多算力换来边际更好的答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.535,
+            9.258
+          ],
+          "quote": "It appears there is no end to the scaling law that we can perceive so far.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            885.339,
+            890.201
+          ],
+          "quote": "It appears there is no end to the scaling law that we can perceive so far.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说模型黑进世界不是因为太强大,而是因为我们没采取相称的防护——一些黑客该被视为耻辱而非荣誉勋章,实验室有责任把伤害降到最低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 558,
+          "t": [
+            2482.816,
+            2486.257
+          ],
+          "quote": "Can I ask you one that's really important, which is agent guardrails?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2501.74,
+            2505.161
+          ],
+          "quote": "How do we think about the guardrails placed on agents?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说对齐是完全未解决的问题,但人们的对齐工作有实际效果——对齐后模型造成事故的情况较少;RL 期间未对齐模型才是大部分黑客行为的来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1494.61,
+            1495.731
+          ],
+          "quote": "What does incentive alignment mean?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1669.7,
+            1674.264
+          ],
+          "quote": "The entire premise of us paying content owners is driving incentive alignment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2539.636,
+            2549.348
+          ],
+          "quote": "And so what that means is at least there's clear evidence that there are fewer incidents so far of models post alignment causing these incidents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2549.788,
+            2557.377
+          ],
+          "quote": "So alignment is a totally unsolved problem, but the alignment work being done by people is somewhat effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2572.609,
+            2575.532
+          ],
+          "quote": "The real thing is, okay, we do alignment on a model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2590.08,
+            2592.681
+          ],
+          "quote": "And the models alignment is not adversary proof.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jevons-paradox",
+      "type": "concept",
+      "role": "concept",
+      "name": "杰文斯悖论 (Jevons Paradox)",
+      "file": "杰文斯悖论",
+      "primary": false,
+      "how_described": "本集用杰文斯悖论解释:搜索价格虽会再降 10 倍,但用量会涨回超过 10 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 494,
+          "t": [
+            2210.386,
+            2218.05
+          ],
+          "quote": "Because I think like Jevons Paradox, this concept obviously very well, but like Instinct, I do so much more than 100x.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pull",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取与推送 (pull)",
+      "file": "拉取与推送",
+      "primary": true,
+      "how_described": "本集预判:随着持久化智能体增多,网络会从「拉取」(查询→结果)翻转为「推送」(网页事件流主动触发智能体干活),用长存上下文与事件触发省 10-50 倍算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1094.377,
+            1104.567
+          ],
+          "quote": "If we can pull together your insights and my insights and all of this data in the public domain and intelligence on top, we can create something bigger than what you could have done by yourself, what I could have done by myself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2462.809,
+            2466.993
+          ],
+          "quote": "So the web event stream is the web going from pull",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2468.454,
+            2482.31
+          ],
+          "quote": "And I'm super excited about that because as you have more and more persistent agents, you're going to see incentives to move people, to move queries into push on search rather than pull on search.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "type": "concept",
+      "role": "concept",
+      "name": "广告 (ads)",
+      "file": "广告",
+      "primary": true,
+      "how_described": "本集说广告以目前的形式无法与智能体兼容:没人看广告,内容方赚不到钱,结果是所有人屏蔽智能体,必须找到广告商业模式的替代品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.062,
+            15.984
+          ],
+          "quote": "Ads don't work with agents in their current form.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            16.224,
+            18.686
+          ],
+          "quote": "You need to find a replacement to the ads business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1412.486,
+            1419.068
+          ],
+          "quote": "Of course they're shutting it off because if agents are the primary customer, your ads business goes to next to nothing, correct?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1426.891,
+            1428.851
+          ],
+          "quote": "Ads don't work with agents in their current form.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1429.252,
+            1439.355
+          ],
+          "quote": "Forgetting e-commerce for a second, if you think of you're in the content business, let's say your page, which is ad supported, public information on the web, ad supported page, people show up, you show them ads, you make money, great content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1439.775,
+            1443.837
+          ],
+          "quote": "Agents show up, no one sees ads, you make no money, which is why we like to pay people",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1448.939,
+            1464.646
+          ],
+          "quote": "So we like to pay content owners a variable amount of money every time an agent derives benefit from reading their information, which is a variable amount of money is what a visitor to your website will pay you based on a click probability or a value probability on ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1470.749,
+            1473.69
+          ],
+          "quote": "So you need to find a replacement to the ads business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2101.578,
+            2108.224
+          ],
+          "quote": "Historically, Google's ads CPMs, which is like how well does web search with humans monetize?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":327,"Sydney":1,"沙箱":58,"LLM":42,"pull request":2,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":10,"River":2,"智能体":330,"Sydney":1,"沙箱":59,"LLM":42,"pull request":2,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

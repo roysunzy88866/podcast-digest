@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"Samsara":2,"物理 AI":8,"护栏":58,"生成式 AI":2,"智能体":327,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"Samsara":2,"物理 AI":8,"护栏":61,"生成式 AI":2,"智能体":330,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

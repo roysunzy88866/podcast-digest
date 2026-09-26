@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":58,"智能体":327,"RL 环境":6,"vibe coding":37,"code mode":2,"开源 AI 框架":1,"推理":54,"PLG":12}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":59,"智能体":330,"RL 环境":6,"vibe coding":38,"code mode":2,"开源 AI 框架":1,"推理":55,"PLG":12}</script>
 
 <script>
 (function(){

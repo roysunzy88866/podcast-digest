@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":2,"智能体":327,"子智能体":2,"编排":7,"沙箱":58,"harness":44,"API":4,"护栏":58,"Claude Code":75,"Codex":57}</script>
+<script type="application/json" class="pd-epn">{"Warp":2,"智能体":330,"子智能体":3,"编排":7,"沙箱":59,"harness":45,"API":4,"护栏":61,"Claude Code":76,"Codex":57}</script>
 
 <script>
 (function(){

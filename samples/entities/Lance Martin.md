@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":142,"OpenAI":132,"任务视界":1,"Managed Agents":4,"harness":44,"沙箱":58,"验证器":6,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":143,"OpenAI":133,"任务视界":1,"Managed Agents":4,"harness":45,"沙箱":59,"验证器":6,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

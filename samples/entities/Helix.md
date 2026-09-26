@@ -25,7 +25,7 @@ unlisted: true
 
 [[Max Hodak]] · [[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[迭代]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":1,"Science":1,"Neuralink":1,"SpaceX":18,"Anthropic":142,"迭代":2,"AI 基础设施":3,"归因":3,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":1,"Science":1,"Neuralink":1,"SpaceX":18,"Anthropic":143,"迭代":2,"AI 基础设施":3,"归因":3,"深科技":2,"BCI":1}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":18,"LLVM":1,"Python":5,"vibe coding":37,"CI-CD":12,"Palantir":19}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":18,"LLVM":1,"Python":5,"vibe coding":38,"CI-CD":12,"Palantir":19}</script>
 
 <script>
 (function(){

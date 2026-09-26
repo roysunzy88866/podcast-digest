@@ -150,7 +150,10 @@
     "XsvUhpnHepE": "2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius",
     "wdTRsfw0KG0": "2026-08-26-talks-reverse-engineering-the-ai-buyer-aliisa",
     "qdAkxLoYNI8": "2026-08-27-talks-how-to-generate-mergeable-code-with-a-co",
-    "qqrk7CtkuIw": "2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m"
+    "qqrk7CtkuIw": "2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m",
+    "5Bn0xro2ol8": "2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen",
+    "EL123UNokkI": "2026-08-28-talks-building-ureview-uber-s-multi-agent-code",
+    "M05vON8i0aI": "2026-08-28-talks-ai-native-organisations-run-on-skills-ho"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -176,7 +179,7 @@
   "cutoffs": {
     "lennys": "2026-09-22T23:12:49.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
-    "a16z": "2026-09-25T14:00:00.000Z",
+    "a16z": "2026-09-26T10:00:00.000Z",
     "yc": "2026-09-18T14:59:58.000Z",
     "mad": "2026-09-24T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
@@ -189,8 +192,8 @@
     "dwarkesh": "2026-09-17T15:38:13.000Z",
     "doac": "2026-09-17T05:00:00.000Z",
     "deepmind": "2026-09-09T16:08:26.000Z",
-    "twentyvc": "2026-09-24T07:07:00.000Z",
-    "cogrev": "2026-09-25T18:13:31.000Z",
+    "twentyvc": "2026-09-26T12:27:00.000Z",
+    "cogrev": "2026-09-26T11:34:09.000Z",
     "knowledge": "2026-09-15T10:00:00.000Z",
     "pragmatic": "2026-09-23T17:07:22.000Z",
     "practicalai": "2026-09-24T09:00:00.000Z",
@@ -1653,6 +1656,24 @@
       "reason": "题材不对味:AI 安全/事故思辨类话题(rogue agent 黑入政府系统),落在档案 ❌ 的安全/政策思辨面,不是商业/实操/创始人故事",
       "title": "A rogue OpenAI agent hacked Australia’s government. Does this matter? | E2342",
       "pubDate": "2026-09-25T23:07:00.000Z"
+    },
+    {
+      "id": "2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad",
+      "reason": "题材不对味:AI 安全主题，落在档案明确排除的「AI 安全/政策」思辨面，且非产业实操或创始人故事",
+      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+      "pubDate": "2026-09-26T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-26-cogrev-what-is-utopia-presenting-the-receipt-ho",
+      "reason": "题材不对味:AI 安全/哲学思辨类乌托邦构想,落档案明确不要的思辨面",
+      "title": "What is Utopia?  Presenting The Receipt Horizon, by Joel Borgen – Chapters 1–4",
+      "pubDate": "2026-09-26T11:34:09.000Z"
+    },
+    {
+      "id": "2026-08-03-sourcery-base-power-hits-13b-valuation-on-1b-seri",
+      "reason": "题材不对味:过时:公司融资快讯(估值/轮次新闻体)属时效性内容,距今 55 天早已过时,且非创始人访谈式的公司故事",
+      "title": "Base Power Hits $13B Valuation on $1B Series D",
+      "pubDate": "2026-08-03T12:00:00.000Z"
     }
   ]
 }

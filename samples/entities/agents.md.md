@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Christopher Burns]] · [[Daniel Whitenack]] · [[C15T]] · [[Chris Benson]] · [[lead type]] · [[Nick]] · [[智能体体验]] · [[平台即服务]] · [[llms.txt]]
 
-<script type="application/json" class="pd-epn">{"智能体":327,"Christopher Burns":1,"Daniel Whitenack":8,"C15T":1,"Chris Benson":9,"lead type":1,"Nick":1,"智能体体验":1,"平台即服务":1,"llms.txt":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":330,"Christopher Burns":1,"Daniel Whitenack":8,"C15T":1,"Chris Benson":9,"lead type":1,"Nick":1,"智能体体验":1,"平台即服务":1,"llms.txt":2}</script>
 
 <script>
 (function(){

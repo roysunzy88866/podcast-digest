@@ -1,0 +1,1331 @@
+{
+  "episode_id": "2026-08-28-talks-ai-native-organisations-run-on-skills-ho",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "技能治理",
+    "技术债务",
+    "组织与工程效能"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "imad-touil",
+      "type": "person",
+      "role": "guest",
+      "name": "Imad Touil",
+      "file": "Imad Touil",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "Skills（技能） (skills)",
+      "file": "Skills（技能）",
+      "primary": true,
+      "how_described": "本集核心：组织 know-how 在工作流中真正存在的层面，是让 know-how 变得可执行、可移植、便宜的新单元；用 SkillsBench 证明应用确定性技能后结果明显更高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.692,
+            25.875
+          ],
+          "quote": "And today talk, I want to really cover the how AI native organizations runs on skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            31.178,
+            34.559
+          ],
+          "quote": "Can you raise your hand if you have already created and using skills?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            43.581,
+            49.084
+          ],
+          "quote": "Now, keep your hands up if you have governed, maintained skills across your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            76.163,
+            81.408
+          ],
+          "quote": "You will have your context manager, the tool and MCPs, memories and states and skills loader, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            86.713,
+            90.957
+          ],
+          "quote": "Those have skills, sub-agents, MCP servers that you use, and some hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            112.926,
+            125.173
+          ],
+          "quote": "running locally or front-term models, and also a graph, knowledge graph, that abstracts your IT core systems, your code base, your skills registry, and at the end, the workflow marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            401.623,
+            405.304
+          ],
+          "quote": "So at the end of the day, we'll find all of your know-how is actually at the skills level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            405.584,
+            411.785
+          ],
+          "quote": "And if you don't have the right structure of your skills, then you're not really having a deterministic workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            423.724,
+            426.085
+          ],
+          "quote": "Now, looking at the rise of skills adoption, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            426.405,
+            431.727
+          ],
+          "quote": "So just eight months ago, Anthropic published the first article about skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            447.539,
+            455.651
+          ],
+          "quote": "Even though you don't see them, if you pay attention when the agent is thinking, you can see that he's pulling skills as he's going and doing the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            456.832,
+            461.017
+          ],
+          "quote": "The other indication here that you need to pay attention to is actually the number of skills works created, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            461.358,
+            466.784
+          ],
+          "quote": "This is just like literally a snapshot that I did across some public GitHub repos, some public skills registries, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            471.97,
+            476.956
+          ],
+          "quote": "So the creation of skills and the demand is rising, but we need to understand why.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            479.122,
+            489.869
+          ],
+          "quote": "In the latest SkillsBench, comparing the latest models against running the same tasks against software engineering and cybersecurity without skills, it did well, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            495.333,
+            502.097
+          ],
+          "quote": "But then when we applied skills that are more deterministic, the outcome was clearly higher than without it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            504.755,
+            513.52
+          ],
+          "quote": "Now, if you think about now like how like the anatomy of skills and how you actually design and implement skills in your organization, this is not like a new problem that we are trying to solve here, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            524.106,
+            526.107
+          ],
+          "quote": "So skills need to be reusable, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            529.288,
+            530.349
+          ],
+          "quote": "You can discover your skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            530.569,
+            535.071
+          ],
+          "quote": "So if you are sitting in one team and you need the skills, you actually can automatically discover and capture the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            535.651,
+            540.613
+          ],
+          "quote": "It's possible that you can actually use skills across workflows, but also you can use skills across harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            548.08,
+            555.884
+          ],
+          "quote": "Specialized skills, that is where the value, you should not build like a one skill, like a monolith again, it should be specialized to define one task specifically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            556.564,
+            564.328
+          ],
+          "quote": "Composable skills need to be designed in a way that actually can compose so you don't have duplication across your skills when you're trying to run them, that conflicts each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            565.468,
+            570.69
+          ],
+          "quote": "Consistence, that is actually one of the key items of skills is actually consistency and deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            572.11,
+            579.913
+          ],
+          "quote": "And for cost, I can go for another hour talk, but it's basically the skills comes to solve a key problem around the context window, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            580.353,
+            589.817
+          ],
+          "quote": "It's actually putting with the progressive disclosure pattern the right skills, the right amount of skills in the right time to solve the right problem, and that's reduce the token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            620.129,
+            625.292
+          ],
+          "quote": "On the left-hand side, you can see that there's like a, think about like a catalog of skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            629.754,
+            636.518
+          ],
+          "quote": "So the composable skills at the regulation level, you have the skill that I just showed earlier, which is the retention policy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            681.164,
+            686.869
+          ],
+          "quote": "However, if we don't govern skills, we will start creating a new class of technical debts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            691.777,
+            702.08
+          ],
+          "quote": "So if teams are not collaborating and everyone is, think about it, using the same technology stack, the same infrastructure, you're for sure building the same skills over and over, again, without sharing them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            703.801,
+            714.424
+          ],
+          "quote": "If you don't test and make sure that you're maintaining and you're validating your skills, not against your task, but also against the latest models that comes, right, then the quality starts degrading over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            716.091,
+            718.593
+          ],
+          "quote": "You should be able to discover your skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            736.925,
+            741.688
+          ],
+          "quote": "If you don't have an owner, then no one will be able to maintain, scale those skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            753.808,
+            756.05
+          ],
+          "quote": "It's similar to how you shape your skills catalog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            757.309,
+            763.291
+          ],
+          "quote": "Security, again, some of, all of us, like, we experiment with the public skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            763.771,
+            773.153
+          ],
+          "quote": "But when you think about it, some skills may have some prompt injection, and skills actually does have scripts, because that's the deterministic part of it, because you can run a specific script for a specific task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            784.34,
+            788.084
+          ],
+          "quote": "Some skills may have some business logic that is very sensitive, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            795.694,
+            801.959
+          ],
+          "quote": "First of all, you need to allow at the individual level to create, test, improve, and use those skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            815.287,
+            818.288
+          ],
+          "quote": "Your team starts collaborating to improve the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            832.935,
+            839.94
+          ],
+          "quote": "You need a centralized platform that has a catalog with metadata in it that actually can discover skills and could be searchable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            839.96,
+            850.609
+          ],
+          "quote": "You can have an MCP that actually plugs to this catalog, search for the skill and a CLI to pull the skills back to either your IDE if you're locally or to your sandbox in your factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            852.55,
+            854.732
+          ],
+          "quote": "You need to understand the dependencies between the skills as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            856.973,
+            861.655
+          ],
+          "quote": "And lifecycle, so you understand which version of the skills is actually the latest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            871.739,
+            876.861
+          ],
+          "quote": "So this version didn't help also to pull the right latest changes from the skills registry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            901.117,
+            916.022
+          ],
+          "quote": "That is where you should have your architects, your engineering leads, infra leads, et cetera, and cyber leads actually sitting down, owning parts of those domains, and making sure that these skills we need get updated is actually according to the policies you want to adhere within your organization and drive this change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            917.77,
+            931.281
+          ],
+          "quote": "And finally, when you get this right, what you will have, you will have at the organization level, all of your teams pulling from one centralized place, high-quality skills, executing them, and pulling them back to the centralized platform if it is improved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            951.168,
+            953.768
+          ],
+          "quote": "You have skills per engineer's contribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            953.808,
+            964.791
+          ],
+          "quote": "You have the average skills utilization, kind of like on average, like how much time skills are being pulled per day, the duplication across the team, kind of as a ratio, and the skills quality and security ratio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            965.471,
+            975.64
+          ],
+          "quote": "Now, if I run this across six months, what's really happening, and think about it, this is already happening within your organization, is teams are creating and using the skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            977.942,
+            981.905
+          ],
+          "quote": "And skills, again, they are tightly coupled to your productivity uplift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1004.354,
+            1016.832
+          ],
+          "quote": "If you don't have clear skills defined and maintained, you will have a low quality in your implementation because then it's up to the human to decide this and different in the maturity from team to team, you can see the difference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1036.203,
+            1042.987
+          ],
+          "quote": "Now, let's actually say, okay, how this looks like if I governed all of my skills in my organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1073.634,
+            1079.837
+          ],
+          "quote": "And one last point is when it came to skills, it's just one component of your workflows, as I said, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1080.477,
+            1083.678
+          ],
+          "quote": "So that doesn't mean if you figure out skills that says you're good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1096.344,
+            1110.151
+          ],
+          "quote": "From one side, you're centralizing the workflows, which is also having the skills, but also if the next engineer came and went, I don't know, like provision infrastructure, they can tap into a workflow and build that workflow with the required skills and run it and test it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1129.641,
+            1134.944
+          ],
+          "quote": "What's coming next and I would invite you to already explore is skills registry, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1153.348,
+            1155.05
+          ],
+          "quote": "Signing skills evaluation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1155.09,
+            1160.614
+          ],
+          "quote": "There's still kind of like a discussion on what is the right approach to evaluate skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1161.275,
+            1169.402
+          ],
+          "quote": "The easy thing that I found so far very valuable is actually test, like, you link static tests or evaluate your skills against the anthropic best practices, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1182.081,
+            1186.823
+          ],
+          "quote": "Like, yeah, I can create like a closed loop that can evolve automatically my skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1188.384,
+            1202.53
+          ],
+          "quote": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说编码智能体及其 harness 构成智能体软件栈的内循环，其行为在运行时由工作流（harness 蓝图）塑造",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.618,
+            72.86
+          ],
+          "quote": "It's the coding agents or the coding agents harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            185.356,
+            188.658
+          ],
+          "quote": "I think this is how most of our coding agents actually are kind of shaped today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集把它说成智能体软件栈的外循环，包含 skills、子智能体、MCP 服务器和 hooks 四个核心组件；强调真实的端到端 SDLC 远比 Specify→Plan→Tasks→Implement 四步复杂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            112.926,
+            125.173
+          ],
+          "quote": "running locally or front-term models, and also a graph, knowledge graph, that abstracts your IT core systems, your code base, your skills registry, and at the end, the workflow marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            152.31,
+            155.573
+          ],
+          "quote": "Now, what I want to really focus on today is the workflow, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            156.133,
+            167.583
+          ],
+          "quote": "And I think this is where we kind of like think it's kind of a pretty simple workflow in day-to-day when you're trying to actually create an end-to-end product software delivery lifecycle in your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            304.28,
+            308.501
+          ],
+          "quote": "So it is not like a one workflow that can actually build anything you want for your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            374.028,
+            380.712
+          ],
+          "quote": "Hooks, basically, what it does is just kind of, like, pre-kind of, like, try-ground events to do something along your workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            405.584,
+            411.785
+          ],
+          "quote": "And if you don't have the right structure of your skills, then you're not really having a deterministic workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            655.987,
+            661.93
+          ],
+          "quote": "And this gets pulled automatically on the runtime by the regulatory disclosure review workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1096.344,
+            1110.151
+          ],
+          "quote": "From one side, you're centralizing the workflows, which is also having the skills, but also if the next engineer came and went, I don't know, like provision infrastructure, they can tap into a workflow and build that workflow with the required skills and run it and test it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1110.291,
+            1116.994
+          ],
+          "quote": "Again, if it's something that needs to be improved in the workflow, you can easily push it back to the centralized platform for your organization to use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness（智能体承载框架） (harness)",
+      "file": "harness（智能体承载框架）",
+      "primary": true,
+      "how_described": "承载编码智能体运行的框架；本集建议把工作流理解为 harness 蓝图，在运行时塑造编码 harness 的行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.618,
+            72.86
+          ],
+          "quote": "It's the coding agents or the coding agents harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            412.185,
+            420.907
+          ],
+          "quote": "And one thing to mention is workflows, think about them as harness blueprints that actually shape the behavior of your coding harness, for example, in the runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            626.312,
+            629.474
+          ],
+          "quote": "And in the right-hand side is your harness, and the output is on the right-hand side, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1058.873,
+            1066.078
+          ],
+          "quote": "The next engineer trying to build a new skill, the coding agent's harness will identify the skill that is already available and pull it, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "工作流组件之一（MCP 服务器）与赋能组件（MCP 网关）；本集说「谁真的构建过大量 MCP？」大家只是用现成工具，并不真正拥有它们",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            86.713,
+            90.957
+          ],
+          "quote": "Those have skills, sub-agents, MCP servers that you use, and some hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            99.752,
+            112.226
+          ],
+          "quote": "You would have your MCP gateway to manage and simplify all of the MCP tools across your organization, a model gateway to, again, manage and optimize for all of your LLMs, either like, you know, open source, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            136.309,
+            140.071
+          ],
+          "quote": "Your tool in MCP schema is actually to understand which tool to use and when.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            360.24,
+            363.702
+          ],
+          "quote": "The first one is hooks, MCP services and sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            381.092,
+            387.057
+          ],
+          "quote": "The MCP servers, we all know that, you know, you may need an MCP tool, but tell me, like, who actually built a lot of MCPs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            387.077,
+            392.861
+          ],
+          "quote": "We just use MCP's tools that is actually provided by the tool that we used to use before, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            839.96,
+            850.609
+          ],
+          "quote": "You can have an MCP that actually plugs to this catalog, search for the skill and a CLI to pull the skills back to either your IDE if you're locally or to your sandbox in your factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说子智能体只是用来最小化/压缩上下文窗口、委派执行特定任务，并不真正带来结构化价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            394.982,
+            397.483
+          ],
+          "quote": "The sub-agent is just to minimize the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            397.643,
+            401.003
+          ],
+          "quote": "We just delegate to sub-agent to execute a specific task that is needed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说技能通过渐进式披露在正确时机加载正确数量的技能，解决围绕上下文窗口的关键问题并减少 token 消耗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            394.982,
+            397.483
+          ],
+          "quote": "The sub-agent is just to minimize the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            572.11,
+            579.913
+          ],
+          "quote": "And for cost, I can go for another hour talk, but it's basically the skills comes to solve a key problem around the context window, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microservice",
+      "type": "concept",
+      "role": "concept",
+      "name": "微服务 (microservice)",
+      "file": "微服务",
+      "primary": true,
+      "how_described": "本集把技能设计类比成微服务运动：技能应像微服务一样可复用、模块化、专门化、可组合，这不是新问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            513.6,
+            516.261
+          ],
+          "quote": "We have solved this with the microservice kind of movements, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            724.677,
+            729.38
+          ],
+          "quote": "It's come to solve a problem where, okay, I need to understand who owns this microservice back in the days, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": true,
+      "how_described": "本集说它是技能控制成本的模式：在正确时机放入正确数量、正确的技能，从而减少 token 使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            580.353,
+            589.817
+          ],
+          "quote": "It's actually putting with the progressive disclosure pattern the right skills, the right amount of skills in the right time to solve the right problem, and that's reduce the token usage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集警告公开技能可能带有提示词注入，且技能含可执行脚本，没有安全检查流水线就可能拉到不安全的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            763.771,
+            773.153
+          ],
+          "quote": "But when you think about it, some skills may have some prompt injection, and skills actually does have scripts, because that's the deterministic part of it, because you can run a specific script for a specific task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "technical-debts",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债务 (technical debts)",
+      "file": "技术债务",
+      "primary": true,
+      "how_described": "本集核心警告：不治理技能，组织将创造一类新的技术债务——重复、质量退化、不可发现、无 owner、安全隐患、权限失控",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            681.164,
+            686.869
+          ],
+          "quote": "However, if we don't govern skills, we will start creating a new class of technical debts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "治理 (governance)",
+      "file": "治理",
+      "primary": true,
+      "how_described": "本集说所有落地工作都围绕治理展开，「而这就是技术停止解决问题的地方」；应由架构师、工程/基础设施/网络安全负责人坐下来认领领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            718.733,
+            721.254
+          ],
+          "quote": "In reality, without the governance, you cannot really discover it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            745.299,
+            749.203
+          ],
+          "quote": "You need to have a governance way to align what to build and how to design it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            886.405,
+            889.209
+          ],
+          "quote": "And then all of this is actually played around a governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1066.138,
+            1070.421
+          ],
+          "quote": "So you almost solve all of the issues that I covered about the governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1188.384,
+            1202.53
+          ],
+          "quote": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills-registry",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能注册表 (skills registry)",
+      "file": "技能注册表",
+      "primary": true,
+      "how_described": "本集列为下一步值得关注的三个方向之一：每个组织都应该有一个，解决 IDP 问题的厂商已开始集中化这项能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            112.926,
+            125.173
+          ],
+          "quote": "running locally or front-term models, and also a graph, knowledge graph, that abstracts your IT core systems, your code base, your skills registry, and at the end, the workflow marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            871.739,
+            876.861
+          ],
+          "quote": "So this version didn't help also to pull the right latest changes from the skills registry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1129.641,
+            1134.944
+          ],
+          "quote": "What's coming next and I would invite you to already explore is skills registry, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-evolving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动演化 (auto-evolving)",
+      "file": "自动演化",
+      "primary": true,
+      "how_described": "本集说是当下热点但泼冷水：没有治理机制设置护栏就启动自动演化闭环，影响只会远超今天的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1177.179,
+            1178.56
+          ],
+          "quote": "And finally is auto-evolving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1188.384,
+            1202.53
+          ],
+          "quote": "If you automatically start this machine, the impacts will be way more than it is today because what I shared earlier is gonna be just maintaining auto-evolving skills without that governance in place that actually put the guardrails for your organization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "智能体软件栈底部的赋能组件之一（环境沙箱）；落地时用 CLI 把技能拉回本地 IDE 或工厂沙箱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            96.668,
+            99.731
+          ],
+          "quote": "So what you would have is an environment sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            839.96,
+            850.609
+          ],
+          "quote": "You can have an MCP that actually plugs to this catalog, search for the skill and a CLI to pull the skills back to either your IDE if you're locally or to your sandbox in your factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 八个月前发布了第一篇关于 skills 的文章，开启了技能的采纳浪潮；其最佳实践也被用作评估技能的对照标准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            426.405,
+            431.727
+          ],
+          "quote": "So just eight months ago, Anthropic published the first article about skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1161.275,
+            1169.402
+          ],
+          "quote": "The easy thing that I found so far very valuable is actually test, like, you link static tests or evaluate your skills against the anthropic best practices, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clearview",
+      "type": "company",
+      "role": "company",
+      "name": "Clearview",
+      "file": "Clearview",
+      "primary": true,
+      "how_described": "本集嘉宾在 Clearview 里做了一个 15 个团队、六个月的组织模拟，对比技能治理前后的生产力、成本与质量安全差异",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            935.164,
+            935.764
+          ],
+          "quote": "In Clearview.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "quantum-black",
+      "type": "company",
+      "role": "company",
+      "name": "Quantum Black",
+      "file": "Quantum Black",
+      "primary": false,
+      "how_described": "嘉宾自我介绍时提到的所属公司（麦肯锡旗下 AI 部门），仅开场一句话提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.03,
+            19.271
+          ],
+          "quote": "I'm a Distinguished Engineer as Quantum Black.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集举例：在 Claude Code 上创建的技能因开放标准可移到 Cursor 直接工作；也以 CLAUDE.md 文件类比项目指令",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            133.007,
+            135.769
+          ],
+          "quote": "Think about it as the Claude Code MD file, the agency MD file.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skillsbench",
+      "type": "concept",
+      "role": "concept",
+      "name": "SkillsBench",
+      "file": "SkillsBench",
+      "primary": false,
+      "how_described": "评估技能效果的基准测试；本集引用其最新结果：不使用技能时模型表现不错，应用确定性技能后结果明显更高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            479.122,
+            489.869
+          ],
+          "quote": "In the latest SkillsBench, comparing the latest models against running the same tasks against software engineering and cybersecurity without skills, it did well, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "idp",
+      "type": "concept",
+      "role": "concept",
+      "name": "IDP",
+      "file": "IDP",
+      "primary": false,
+      "how_described": "本集用 IDP/Backstage 类比技能可发现问题：进服务目录就能查到微服务归属，技能也需要同样的目录",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            721.294,
+            724.517
+          ],
+          "quote": "Think about it as the backstage, the IDP, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1137.045,
+            1140.528
+          ],
+          "quote": "And the good news is all of the players that's been solving the IDP problem, like,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "type": "concept",
+      "role": "concept",
+      "name": "GDPR",
+      "file": "GDPR",
+      "primary": false,
+      "how_described": "本集法规披露审查示例中需要遵守的规则之一，与数据保留策略、披露标准等技能组合使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            638.659,
+            641.681
+          ],
+          "quote": "You will need the GDPR rules that need to be respected.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集说没有相关技能时，工程师只能反复 vibe coding 引导智能体实现法规要求，既烧 token 又浪费时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            986.309,
+            994.501
+          ],
+          "quote": "If we don't have a skill about the regulation, that is someone is vibe coding back and forth and trying to figure out exactly how to steer the agent to implement it properly, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

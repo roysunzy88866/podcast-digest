@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":37,"智能体":327,"开放权重":7,"开源":27,"按用量定价":3,"按席位收费":1,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":38,"智能体":330,"开放权重":7,"开源":27,"按用量定价":3,"按席位收费":1,"SaaS":17}</script>
 
 <script>
 (function(){

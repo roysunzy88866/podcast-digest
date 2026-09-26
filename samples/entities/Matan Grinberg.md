@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":327,"harness":44,"模型独立性":1,"路由器":1,"token":26,"开源模型":20,"软件工厂":7,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":330,"harness":45,"模型独立性":1,"路由器":1,"token":26,"开源模型":21,"软件工厂":7,"基于结果的付费":3}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]] [[Tomer London]]
+[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]] [[Renen Hallak]] [[Michael Lee]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Uber":13,"Uber One":1,"自主性":7,"智能体":327,"IGB":1,"可变成本模式":1,"分发":6,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Uber":14,"Uber One":1,"自主性":7,"智能体":330,"IGB":1,"可变成本模式":1,"分发":6,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

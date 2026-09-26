@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":327,"数据基础":2,"ETL":2,"token":26,"后训练":1,"PLG":12,"Google":47,"AWS":13}</script>
+<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":330,"数据基础":2,"ETL":2,"token":26,"后训练":1,"PLG":12,"Google":47,"AWS":13}</script>
 
 <script>
 (function(){

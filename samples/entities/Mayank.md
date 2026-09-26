@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]] [[Gagan Viani]]
+[[Parag Agrawal]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]] [[Michael Lee]] [[Wade Foster]] [[Nick]] [[Hamad Bashir]] [[Gregor Vand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":1,"Splunk":3,"智能体":327,"代码生成":1,"vibe coding":37,"vibe debugging":1,"部落知识":4}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":1,"Splunk":3,"智能体":330,"代码生成":1,"vibe coding":38,"vibe debugging":1,"部落知识":4}</script>
 
 <script>
 (function(){

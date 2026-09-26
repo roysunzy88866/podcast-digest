@@ -188,7 +188,7 @@ Boris 说这每天是数百、有时数千个智能体在跑,**做着几十甚�
 
 - [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]]<span class="pd-rz">同概念:Opus 5、产品悬置 (product overhang)、提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、测试时算力 (test time compute)、消融实验 (ablation)、系统提示词 (system prompt)、验证 (verification)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Bun、Claude Code · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)、评估集 (eval)</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、验证 (verification)</span>
+- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:harness、提示词注入 (prompt injection)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
