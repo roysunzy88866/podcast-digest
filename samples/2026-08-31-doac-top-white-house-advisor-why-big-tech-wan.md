@@ -165,8 +165,8 @@ Freeberg 认为美国开国者设想的是轮换制公共服务，不是职业�
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:主观能动性 (agency)、智能体 (agent)</span>
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:AI、智能体 (agent)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
-- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 </div>

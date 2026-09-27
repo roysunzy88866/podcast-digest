@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":16,"OpenAI":134,"ChatGPT":78,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":26,"推理":55,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":16,"OpenAI":137,"ChatGPT":79,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":26,"推理":56,"图灵测试":2}</script>
 
 <script>
 (function(){

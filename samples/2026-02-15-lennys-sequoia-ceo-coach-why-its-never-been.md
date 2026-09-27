@@ -187,9 +187,9 @@ Brian 还提到一个做 CEO 的反直觉现象：公司小的时候每个人都
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Google · 同概念:智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

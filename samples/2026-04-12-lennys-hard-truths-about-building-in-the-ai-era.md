@@ -151,7 +151,7 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 - [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Airbnb</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同概念:PM</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Square</span>
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Airbnb</span>
 
 </div>
 <div class="pd-ex">

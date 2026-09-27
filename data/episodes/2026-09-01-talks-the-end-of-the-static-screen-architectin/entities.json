@@ -1,0 +1,464 @@
+{
+  "episode_id": "2026-09-01-talks-the-end-of-the-static-screen-architectin",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "tags": [
+    "生成式 UI",
+    "智能体",
+    "UX",
+    "B2B SaaS",
+    "设计系统"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "gus-iwanaga",
+      "type": "person",
+      "role": "guest",
+      "name": "Gus Iwanaga",
+      "file": "Gus Iwanaga",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "commerce-tools",
+      "type": "company",
+      "role": "company",
+      "name": "Commerce Tools",
+      "file": "Commerce Tools",
+      "primary": true,
+      "how_described": "本集说它是 API 优先的电商平台,有 300 多个 API 还在增加;Gus 在此负责 0 到 1 产品的产品 UX 和工程,正在构建生成式 UX/UI 产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            95.321,
+            97.222
+          ],
+          "quote": "I'm a general manager at Commerce Tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            106.687,
+            109.108
+          ],
+          "quote": "So, we cook really interesting stuff at Commerce Tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集把它说成由 AI 决定界面布局与信息架构、但由人引导的界面生成方式——从完全放手的失败第一版,演进到编排器加 UX 智能体分工的当前方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            641.9,
+            644.642
+          ],
+          "quote": "Are you guys familiar with generative UI?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestrator",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排器 (orchestrator)",
+      "file": "编排器",
+      "primary": true,
+      "how_described": "本集说它是底层编排链路:先提取查询意图,再基于意图定位工具(一方、第三方或 MCP 服务器上的智能体),组合输出为 UX 智能体提供弹药与上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            538.535,
+            540.216
+          ],
+          "quote": "Underneath the hood, we have the orchestrator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            540.696,
+            543.798
+          ],
+          "quote": "And the orchestrator can then just extract the intent of the query.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            913.758,
+            940.718
+          ],
+          "quote": "So, at least for my product, the one that I just showed, the orchestrator agent will eventually, if you think of the whole traversal, the user will enter the query, and then there's gonna be the intent classification based off of the intent classification, then the tools will be invoked, the data will be retrieved, and somewhat in between, at least there will be the mapping of the eligible components from your catalog,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            946.001,
+            949.243
+          ],
+          "quote": "And then the orchestrator would just broadcast this UI description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1009.451,
+            1026.819
+          ],
+          "quote": "It is less deterministic, and I think this is a really good segue to some of the challenges, because imagine, I'm gonna use my example once again, the orchestrator would just fetch the eligible components for that query, but then it's up to the LLM how to place in the UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1125.399,
+            1134.763
+          ],
+          "quote": "So, if you remember, part of the orchestrator, the orchestrator will eventually just fetch the eligible components to accomplish the query of the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1160.824,
+            1171.311
+          ],
+          "quote": "And then this will allow us to steer eventually the optimal placement of the components that have been retrieved by the orchestrator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1188.425,
+            1192.329
+          ],
+          "quote": "However, because of the orchestrator, we flip the order.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ux-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "UX 智能体 (UX agent)",
+      "file": "UX 智能体",
+      "primary": true,
+      "how_described": "本集说它是接收编排器弹药与上下文、最终渲染有意义界面的智能体;团队借原子设计把多年 UX 知识编码进它,教会它『什么是好的样子』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            544.175,
+            564.362
+          ],
+          "quote": "Based off of the intent of the query, it can locate the tools, those can be first party, third party tools, and the outputs of this different, it could be agents on MCP servers, combined will give enough what I call ammunition and context for the UX agent to eventually render something that we call meaningful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1097.093,
+            1102.578
+          ],
+          "quote": "And what we've done in my team, so this UX agent, we harnessed this UX agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1103.019,
+            1112.328
+          ],
+          "quote": "So we eventually taught this UX agent what good looks like, what is the optimal layout for a given situation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ui-protocols",
+      "type": "concept",
+      "role": "concept",
+      "name": "UI 协议 (UI protocols)",
+      "file": "UI 协议",
+      "primary": true,
+      "how_described": "本集说渲染生成式界面有三条协议路线——完全控制、完全开放、声明式——选择依据是你想对体验施加多少控制权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            130.194,
+            134.337
+          ],
+          "quote": "Followed by a rapid discussion on the emergence of UI protocols.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            597.651,
+            601.696
+          ],
+          "quote": "And then I'm gonna touch on the UI protocols and then how you can make this happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            639.919,
+            641.6
+          ],
+          "quote": "And there are different UI protocols.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1219.512,
+            1227.638
+          ],
+          "quote": "I cannot stress enough, if you guys see the potential of leveraging these UI protocols for your product, this is going to be a big deal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a2ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "A2UI",
+      "file": "A2UI",
+      "primary": true,
+      "how_described": "本集说它是 Google 推出的声明式 UI 协议,提供完全控制与完全开放之间的中间态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            893.004,
+            911.44
+          ],
+          "quote": "If you guys heard some of the protocols, and I don't want to get into the specifics of each because they have different characteristics, but A2UI from Google, JSON render from Vercel, OpenUI by Thesis, those are some of the protocols that will give you this in-between here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "component-catalog",
+      "type": "concept",
+      "role": "concept",
+      "name": "组件目录 (component catalog)",
+      "file": "组件目录",
+      "primary": true,
+      "how_described": "本集把它说成整个系统的心脏、智能体和 UI 之间的契约——每一个属性都很重要;对目录的『策展』是交付有意义产品而非玩具 demo 的分水岭",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            950.924,
+            958.95
+          ],
+          "quote": "This UI spec will be also, we have this component catalog here, and we use the ZOD schema, and then you've got to be compliant with these protocols.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "atomic-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "原子设计 (atomic design)",
+      "file": "原子设计",
+      "primary": true,
+      "how_described": "本集说它是一种由五个阶段组成的方法论,以更审慎、更有层次的方式创建界面设计系统;他们借它定义布局→槽位→子槽位→组件的层级来解决组件随机摆放问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1061.429,
+            1067.273
+          ],
+          "quote": "So at least in my team, we borrowed this concept of atomic design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1067.813,
+            1069.895
+          ],
+          "quote": "And Atomic Design, it goes like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1072.476,
+            1086.166
+          ],
+          "quote": "Yeah, so as you can see, Atomic Design, and then I have the definition, is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说编排器定位的工具可以是 MCP 服务器上的智能体;开放式路线里 MCP 工具直接发送 HTML 在沙箱 iframe 中渲染到任意宿主",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            544.175,
+            564.362
+          ],
+          "quote": "Based off of the intent of the query, it can locate the tools, those can be first party, third party tools, and the outputs of this different, it could be agents on MCP servers, combined will give enough what I call ammunition and context for the UX agent to eventually render something that we call meaningful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            855.73,
+            870.441
+          ],
+          "quote": "So essentially, there's going to be an MCP tool, and then this will literally ship the HTML, and then in a sandbox iframe environment, this will be rendered in the host of your choice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到开放式 UI 协议路线中,HTML 在沙箱 iframe 环境里渲染到宿主",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            855.73,
+            870.441
+          ],
+          "quote": "So essentially, there's going to be an MCP tool, and then this will literally ship the HTML, and then in a sandbox iframe environment, this will be rendered in the host of your choice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集现场演示让 Claude 一句提示『创建一个三层的组织架构图』即渲染出不错的图表,作为完全开放路线的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            792.866,
+            803.173
+          ],
+          "quote": "But it could happen that you can just delegate fully to the LLM and then right now I'm here on Claude and I ask Claude, so hey, create an org chart with three levels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            804.874,
+            811.018
+          ],
+          "quote": "And then Claude just rendered this diagram and it works really well, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集举 ChatGPT 找餐厅的卡片组件为例,说明完全控制路线的组件『非常固执己见』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            669.551,
+            670.792
+          ],
+          "quote": "This is ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            870.461,
+            877.507
+          ],
+          "quote": "It can be a chat, it can be a cloud, it could be ChatGPT, it could be Perplexity, or it could be any other chat.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            167.211,
+            179.895
+          ],
+          "quote": "And then, although you could argue when GPT came out, this was November 2022, we had a really good glimpse of real personalization, but everything else remained static.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

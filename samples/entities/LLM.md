@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>43</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>44</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,6 +43,7 @@ unlisted: true
 - **[[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]]**(11:33起):多智能体工作流中的每次模型调用都有可观测性,记录输入与输出以便排查每次运行的问题。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(15:32起):本集反复出现，被描述为使用时不管结果对不对都要付费的'文本机器'，提供中位数答案，幻觉在数学上保证会发生，是所有数据中心建设的唯一服务对象。
 - **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(03:13起):本集说 LLM 的获取成本正在大幅下降，使得住在美国经济腹地、拥有领域知识（制造业、医疗、物流等）的创始人可以用 AI 把痛点变成可规模化的公司
+- **[[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]]**(01:59起):本集后端服务的核心引擎:接收用户浏览信号、基于全站 RAG 做推理生成个性化区块;并指出这类任务不需要巨大的 LLM。
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(20:53起):本集把 LLM 视为架构中的一层（模型层不只有大 LLM，还有自己的模型库），讨论其 token 成本、数据主权风险与换进换出。
 - **[[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]]**(05:09起):本集说 LLM 本质是概率性系统、即时做选择，但也是很好的规划者，擅长在工具不多时选对工具。
 - **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(04:04起):本集说一块消费级 GPU 没法训练大的 LLM,但足够做研究和实验;而当前大语言模型回答千篇一律,比如讲笑话总是同一个
@@ -131,7 +132,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*43 集*
+*44 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -165,6 +166,7 @@ unlisted: true
 - [[2026-08-26-talks-how-ai-agents-let-gtm-teams-scale-justin|《Cloudflare 销售运营的 AI 三支柱：让市场进入团队效率翻倍》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 - [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为概念
+- [[2026-08-29-talks-agentic-sites-building-hyper-personalize|《智能体网站：为每一个人实时生成的超个性化网页》]] — 作为概念
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为概念
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为概念
@@ -183,7 +185,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":337,"Anthropic":146,"ChatGPT":78,"MCP":61,"Lenny":67,"Claude":68,"OpenAI":134,"Claude Code":77,"Google":47,"Cursor":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":339,"Anthropic":147,"ChatGPT":79,"MCP":62,"Lenny":68,"Claude":69,"OpenAI":137,"Claude Code":77,"Google":49,"Cursor":69}</script>
 
 <script>
 (function(){

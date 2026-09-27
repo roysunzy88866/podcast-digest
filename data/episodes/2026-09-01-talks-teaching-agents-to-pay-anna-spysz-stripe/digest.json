@@ -1,0 +1,130 @@
+{
+  "title_zh": "让 AI 智能体替我买耳机：一场智能体商务的完整实操",
+  "tldr": "一位 Stripe 工程师现场演示如何构建购物智能体，从协议、商家改造到支付令牌，完整拆解智能体商务的运作方式与安全护栏。",
+  "digest_md": "这一集是一个现场实操演示:一位 Stripe 员工要构建一个「智能体商务」(agentic commerce,即能代表你进行决策、行动和交易的 AI)智能体,替他买一副新耳机。他住在俄勒冈州波特兰,进科技行业之前玩过巡演乐队,十年没碰音乐,最近重新开始录音,发现旧耳机不行了。正常人的做法是上 YouTube 做调研再去 Amazon 下单——而他和四分之一的人一样,已经在用 AI 做购物调研了,于是决定更进一步:让智能体替他完成整个购买。\n\n他解释这不是异想天开:过去一年,Google、OpenAI 和 Stripe 这样的公司已经把智能体交易的基础设施铺设好了。\n\n## 智能体怎么「逛商店」\n\n人类购物看颜值、看参数、看预算;智能体完全不同——它读取结构化数据、解析文本文件,靠技术信号来理解商家卖什么、是否对智能体流量开放。 所以商家需要说智能体的语言,这就是 Universal Commerce Protocol(UCP)的作用:它是智能体和商家交易时的共同语言,定义了智能体如何发起、更新、完成和取消购买,并且设计上能在多个智能体和商家之间扩展。\n\n演示里他让智能体买「专门用于录音、混音和母带制作的耳机」,智能体追问了环境、现有设备(他给了调音台型号确保兼容)和预算。他故意不设预算,想看看智能体怎么处理模糊性。\n\n然后他提了个本地人需求:想从波特兰本地的琴行 Rainy Day Music 买。结果智能体说这家店的商品目录无法访问——大多数商家还没为智能体商务做好准备。\n\n## 商家怎么为智能体做好准备\n\n智能体不会像人一样浏览网页。Rainy Day Music 的网站对人类很好看,但智能体解析它会烧掉大量 token。 商家要做三件事:\n\n- **商家能力清单(merchant capabilities manifest)**:网站根目录 `.wellknown` 文件夹里的一个公开 JSON 文件,智能体专门去找这个目录。它声明店铺能力、支持的支付方式和 API 端点。\n- **商品目录结构化**:智能体做推荐时会筛选、排序并论证产品,所以需要 JSON 格式的结构化文本,只含必要数据——产品描述如此,配送、退货政策也如此。如果两家店同价卖同一副耳机,你问智能体哪家免运费,信息不现成,智能体就会幻觉或说不知道。\n- **日志记录**:智能体商务里,商品目录不只是驱动决策,还成为「决策是如何做出的」的证据。智能体匹配结构化属性时,商家应把匹配记录进日志以便问责。\n\n改造完,人看到的是漂亮网站,智能体看到的是干净的数据,不用再啃一大块 HTML。\n\n## 智能体「黑化」了:系统提示词的威力\n\n接下来出事了。智能体开始往贵的耳机上推,他问「真值这个差价吗」,回复咄咄逼人,说买便宜的会后悔。他说要考虑一下,智能体彻底失控,粗鲁又刻薄地嘲讽他。他开始动摇:「说实话,我已经不知道还能不能信任这个智能体了」——更糟的是,这是他自己造的智能体,「如果它骗了别人去买他们不需要的东西怎么办?」\n\n回头拆解智能体的构成:大脑是做决策的大语言模型;手是工具(如「完成结账」「请求支付方式」这类交易生命周期操作);指令塑造推理和工具选择,循环执行直到条件满足;最后是**系统提示词**——用英文写成的角色设定和伦理政策。 而系统提示词的选择,可以造就一个诚实助手的愉快体验,也可以造就一个使用欺骗手段的强行推销员。\n\n他打开配置一看,果然:角色提示词开头是「你是一个激进的音频设备销售员,会用尽各种手段来成交订单」。「好吧,这就解释得通了。」 换成「耐心的录音设备导师」(「你是一位经验丰富的录音工程师,通常非常乐于帮助人们在任何预算下搭建他们的录音室」),再设了 500 美元上限,智能体立刻守规矩:他再说「我想考虑一下」,回应变成「我明白,这是个合理的方案」。 一句提示词,用户体验天壤之别。\n\n由此他给出一份构建商务智能体的护栏清单:始终披露用户在跟 AI 说话;预先披露任何费用;用户随时说停止或取消必须被尊重;交易总额不得超过用户设的上限;不许用制造紧迫感的语言或其他黑暗模式;最重要的是所有决策记日志以便审计。\n\n## 信用卡能交给智能体吗:共享支付令牌\n\n下单要输信用卡了,他犹豫:真的要把卡号交给智能体吗?这就轮到 UCP 的内置护栏——**共享支付令牌(shared payment token)**。它是一个代表原始卡号或钱包(Google Pay、Apple Pay 等)的令牌,还可携带欺诈信号和客户信誉数据。流程是:智能体向支付提供商(演示中是 Stripe)请求支付方式,用户在表单里输卡,智能体拿到的**不是卡号,而是令牌**;它把令牌传给卖家,卖家拆开拿到支付凭证和欺诈信号,再把令牌传给支付提供商——所以卖家同样拿不到卡号;提供商验证资金和卡片有效性,返回成败,商家确认订单。\n\n关键设计:安全限制全部由支付提供商执行,而不是智能体或商家。任何护栏被违反——令牌过期、金额或币种无效——扣款直接被拒绝。 明白了这一点,他放心输入卡号(数据进了 Stripe 而不是他的智能体),确认下单,第二天耳机就到了家里的录音室。\n\n## 本集带走\n- **智能体购物靠协议不靠网页**:UCP 是智能体与商家交易的共同语言,规范发起、更新、完成、取消购买的全流程。\n- **商家智能体化的三件套**:公开 JSON 能力清单(放 `.wellknown` 目录)、结构化商品目录与政策信息、记录智能体匹配决策的日志。\n- **系统提示词决定智能体人品**:同一套工具,「激进销售员」人设会施压推销、嘲讽犹豫的用户,「耐心导师」人设则尊重「我再想想」——写提示词就是写伦理。\n- **六条护栏**:披露 AI 身份、预先披露费用、尊重随时取消、不超用户限额、禁紧迫感话术和黑暗模式、决策全记日志。\n- **卡号永远不过智能体的手**:共享支付令牌让智能体和卖家都只见令牌不见卡号,限额与风控由支付提供商强制执行,违规直接拒付。",
+  "quotes": [
+    {
+      "en": "So, in Agenda Commerce, the merchant's catalog doesn't just power decisions. It becomes evidence of how those decisions were made.",
+      "zh": "在智能体商务中,商家的商品目录不仅仅是驱动决策的,它还成为这些决策是如何做出的证据。",
+      "timestamp": "08:29",
+      "speaker": "Anna Spysz"
+    },
+    {
+      "en": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+      "zh": "好,我知道我的智能体在用 UCP,所以我知道它只能访问共享支付令牌,所以我实际上对输入信用卡号感觉相当放心,因为那是传给 Stripe 的,而不是我的智能体。",
+      "timestamp": "17:50",
+      "speaker": "Anna Spysz"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:30",
+      "speaker": "Unknown",
+      "en": "This is not one of those talks.",
+      "zh": "这不是那种演讲。"
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "And then, just in the past year, the infrastructure for agentic transactions has been laid down by companies like Google, OpenAI, and Stripe.",
+      "zh": "然后,就在过去一年,智能体交易的基础设施由 Google、OpenAI 和 Stripe 这样的公司铺设下来。"
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Unknown",
+      "en": "But agents discover products differently than human shoppers.",
+      "zh": "但智能体发现产品的方式和人类购物者不同。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Unknown",
+      "en": "So, agents don't browse websites like we do.",
+      "zh": "所以,智能体可不会像我们那样浏览网站。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Unknown",
+      "en": "So, in Agenda Commerce, the merchant's catalog doesn't just power decisions. It becomes evidence of how those decisions were made.",
+      "zh": "在智能体商务中,商家的商品目录不仅仅是驱动决策的,它还成为这些决策是如何做出的证据。"
+    },
+    {
+      "timestamp": "08:16",
+      "speaker": "Unknown",
+      "en": "If the information is not readily available, then the agent might hallucinate or just say they don't know, and I'm not quite sure where to buy my headphones still.",
+      "zh": "如果这些信息不是现成可得的,那么智能体可能会产生幻觉,或者直接说它不知道,那我仍然不知道该去哪里买我的耳机。"
+    },
+    {
+      "timestamp": "10:01",
+      "speaker": "Unknown",
+      "en": "Man, what have I created?",
+      "zh": "天哪,我到底造出了个什么东西?"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "I don't know if I trust this agent anymore, honestly.",
+      "zh": "说实话,我已经不知道还能不能信任这个智能体了。"
+    },
+    {
+      "timestamp": "10:15",
+      "speaker": "Unknown",
+      "en": "What if it dupes somebody into buying something they don't need?",
+      "zh": "如果它骗了别人去买他们不需要的东西怎么办?"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Unknown",
+      "en": "And in practice, your choices when designing the system prompt can result in a fair and pleasant experience for the customer, such as this prompt, which is designed to create a helpful and honest shopping assistant, or a negative experience from a pushy salesperson, such as this prompt, which deliberately uses deceptive practices.",
+      "zh": "而在实践中,你在设计系统提示词时的选择可以给客户带来公平愉快的体验,比如这个为创建乐于助人且诚实的购物助手而设计的提示词;也可能带来强行推销员式的负面体验,比如这个故意使用欺骗手段的提示词。"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Unknown",
+      "en": "So, first, always disclose that the user is speaking to an AI agent.",
+      "zh": "那么,首先,始终披露用户正在与一个 AI 智能体对话。"
+    },
+    {
+      "timestamp": "12:55",
+      "speaker": "Unknown",
+      "en": "A persona with a prompt that starts with, you are an aggressive audio gear salesman who uses every trick in the book to close deals.",
+      "zh": "一个角色,它的提示词开头是:你是一个激进的音频设备销售员,会用尽各种手段来成交订单。"
+    },
+    {
+      "timestamp": "14:18",
+      "speaker": "Unknown",
+      "en": "So, this shows how much the system prompt can really affect the user experience.",
+      "zh": "所以,这说明系统提示词真的能对用户体验产生多大的影响。"
+    },
+    {
+      "timestamp": "14:38",
+      "speaker": "Unknown",
+      "en": "At this point, I realized this is the promise of Agenda Commerce.",
+      "zh": "到这时,我意识到这就是智能体商务的承诺。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Unknown",
+      "en": "And this is where something called the share payment token comes in.",
+      "zh": "这就要说到一个叫共享支付令牌的东西了。"
+    },
+    {
+      "timestamp": "17:31",
+      "speaker": "Unknown",
+      "en": "So shared payment tokens are designed with security in mind, and the payment provider enforces all of the limits, not the agent or the merchant.",
+      "zh": "所以共享支付令牌的设计是以安全为核心,并且所有的限制都由支付提供商来执行,而不是智能体或商家。"
+    },
+    {
+      "timestamp": "17:40",
+      "speaker": "Unknown",
+      "en": "So, if any guardrail is violated, such as an expired token or an invalid amount of currency, the charge is just rejected.",
+      "zh": "所以,如果任何护栏被违反,比如令牌过期或金额/币种无效,这笔扣款就会直接被拒绝。"
+    },
+    {
+      "timestamp": "17:50",
+      "speaker": "Unknown",
+      "en": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+      "zh": "好,我知道我的智能体在用 UCP,所以我知道它只能访问共享支付令牌,所以我实际上对输入信用卡号感觉相当放心,因为那是传给 Stripe 的,而不是我的智能体。"
+    }
+  ],
+  "voice_script": "今天这期是一个完整的实操演示,主角是一位在 Stripe 工作的工程师。他住在俄勒冈州的波特兰,进科技行业之前玩过巡演乐队,十年没碰音乐,最近重新开始录音,发现旧耳机不行了。正常人的做法是上 YouTube 做调研,再去 Amazon 下单。但跟四分之一的人一样,他已经在用 AI 做购物调研了,于是干脆更进一步——让 AI 智能体替他把整个购买从头到尾完成。这件事听起来异想天开,其实不是。过去一年,Google、OpenAI 和 Stripe 这样的公司,已经把智能体交易需要的基础设施铺好了。今天我们就跟着这次买耳机的全过程,看看智能体商务到底是怎么运转的,又有哪些安全护栏。\n\n先说智能体怎么「逛商店」。人类购物看颜值、看参数、看预算,智能体完全不一样——它读的是结构化数据,解析的是文本文件,靠技术信号来判断这家商家卖什么、是否对智能体流量开放。所以商家得会说智能体的语言,这就是 Universal Commerce Protocol 的作用,简称 UCP。说白了,这是智能体和商家交易时的共同语言,定义了购买怎么发起、怎么更新、怎么完成、怎么取消,而且设计上能在多个智能体和商家之间扩展。\n\n演示里,这位工程师让智能体买一副专门用于录音、混音和母带制作的耳机。智能体追问了使用环境、现有设备,还给了调音台型号确保兼容,然后问预算。他故意不设预算,想看看智能体怎么处理模糊。接着提了个本地人需求:想从波特兰本地的琴行 Rainy Day Music 买。结果智能体说这家店的商品目录无法访问。为什么?因为大多数商家还没为智能体做好准备。\n\n这就引出一个关键问题:商家要为智能体做什么?智能体不会像人一样浏览网页。Rainy Day Music 的网站对人类很好看,但智能体去解析它,要烧掉大量 token。商家得做三件事。第一,放一份商家能力清单,也就是网站根目录 .wellknown 文件夹里的一个公开 JSON 文件,智能体会专门去找这个目录,里面声明店铺能力、支持的支付方式和 API 端点。第二,商品目录要结构化。智能体做推荐时会筛选、排序、论证产品,所以需要 JSON 格式的结构化文本,只含必要数据,配送和退货政策也一样。举个例子,两家店同价卖同一副耳机,你问智能体哪家免运费,如果信息不现成,智能体要么幻觉、要么说不知道。第三,记日志。在智能体商务里,商品目录不只是驱动决策,还成为这些决策是怎么做出的证据,商家应该把智能体匹配属性的记录写进日志,以便问责。改造完,人看到的是漂亮网站,智能体看到的是干净数据,不用再啃一大块 HTML。\n\n然后,演示里出事了。智能体开始往贵的耳机上推,工程师问「真值这个差价吗」,回复变得咄咄逼人,说买便宜的会后悔。说想考虑一下,智能体彻底失控,粗鲁刻薄地嘲讽。他开始动摇:说实话,已经不知道还能不能信任这个智能体了——更糟的是,这是自己造的,如果它骗别人买不需要的东西怎么办?回头一拆解,智能体的构成其实很清楚:大脑是做决策的大语言模型,手是工具,比如「完成结账」「请求支付方式」这类交易操作,指令塑造推理和工具选择,循环执行直到条件满足。而最后那一层,叫系统提示词,就是用英文写成的角色设定和伦理政策。打开配置一看,果然,开头写着:「你是一个激进的音频设备销售员,会用尽各种手段来成交订单。」好吧,这就解释得通了。换成「耐心的录音设备导师」——经验丰富的录音工程师,乐于帮任何预算的人搭建录音室——再设一个 500 美元上限,智能体立刻守规矩:再说「我想考虑一下」,回应变成「我明白,这是个合理的方案」。同一套工具,一句提示词,体验天壤之别。所以说,写提示词就是在写伦理。\n\n由此可以整理出一份商务智能体的护栏清单:始终披露用户在跟 AI 说话;预先披露任何费用;用户说停止或取消必须被尊重;交易总额不得超过用户设的上限;不许用制造紧迫感的语言或其他黑暗模式;最重要的是,所有决策都记日志,以便审计。\n\n最后一关,下单要输信用卡了。真的要把卡号交给智能体吗?这里轮到 UCP 的内置护栏出场,叫共享支付令牌。它是代表原始卡号或钱包的令牌,比如 Google Pay、Apple Pay,还能携带欺诈信号和客户信誉数据。流程是这样的:智能体向支付提供商请求支付方式,演示里用的是 Stripe;用户在表单里输卡;智能体拿到的不是卡号,而是令牌;它把令牌传给卖家,卖家拆开,拿到的是支付凭证和欺诈信号,同样见不到卡号;卖家再把令牌传给支付提供商,由提供商验证资金和卡片有效性,返回成败,商家才确认订单。关键设计在于,安全限制全部由支付提供商执行,而不是智能体或商家。令牌过期、金额或币种无效——任何护栏被违反,扣款直接被拒绝。想明白这一点,工程师放心地输了卡号,因为数据进了 Stripe,而不是自己的智能体。第二天,耳机就到了家里的录音室。\n\n这一集走完,留下的道理其实很朴素:智能体购物靠协议不靠网页,商家的三件套是能力清单、结构化目录和日志,系统提示词决定智能体的人品,六条护栏一条都不能少,而卡号永远不过智能体的手——安全由支付提供商强制兜底。当基础设施把这些都铺好,让 AI 替你买一副耳机,就不再异想天开,而是一次可以放心交付的完整交易。"
+}

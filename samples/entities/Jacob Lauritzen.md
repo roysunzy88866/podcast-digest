@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":337,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":3,"智能体":339,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
 
 <script>
 (function(){

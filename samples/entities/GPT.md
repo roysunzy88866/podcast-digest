@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPT">GP</div><div class="pi"><h1 class="pt">GPT</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPT">GP</div><div class="pi"><h1 class="pt">GPT</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -51,19 +51,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
+- [[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]] — 作为概念(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude]] · [[ChatGPT]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Vincent Wendy]] · [[Lenny]] · [[Figure]] · [[AI Engineer]] · [[Whoop]] · [[SoFi]]
+[[Claude]] · [[ChatGPT]] · [[MCP]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Gus Iwanaga]] · [[Vincent Wendy]] · [[Lenny]] · [[Figure]] · [[Commerce Tools]]
 
-<script type="application/json" class="pd-epn">{"Claude":68,"ChatGPT":78,"Hilary Gridley":1,"Michael Tannenbaum":1,"Vincent Wendy":1,"Lenny":67,"Figure":2,"AI Engineer":1,"Whoop":1,"SoFi":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":69,"ChatGPT":79,"MCP":62,"Hilary Gridley":1,"Michael Tannenbaum":1,"Gus Iwanaga":1,"Vincent Wendy":1,"Lenny":68,"Figure":2,"Commerce Tools":1}</script>
 
 <script>
 (function(){

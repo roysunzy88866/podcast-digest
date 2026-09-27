@@ -1,0 +1,856 @@
+{
+  "episode_id": "2026-09-01-talks-teaching-agents-to-pay-anna-spysz-stripe",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "tags": [
+    "智能体商务",
+    "支付",
+    "智能体",
+    "提示词工程",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anna-spysz",
+      "type": "person",
+      "role": "guest",
+      "name": "Anna Spysz",
+      "file": "Anna Spysz",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:作者构建了一个能替他选购耳机的智能体,讲解其构成——大脑(LLM)、手(工具)、指令和系统提示词,并演示了系统提示词如何决定它诚实还是欺骗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            33.411,
+            42.436
+          ],
+          "quote": "Today I'm going to show you how I built an agent to help me reignite a personal creative passion I used to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            104.992,
+            112.255
+          ],
+          "quote": "So, I decided instead that I'm going to build an Agenda commerce agent to buy my headphones for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            137.147,
+            140.189
+          ],
+          "quote": "Can I even get an agent to buy something for me, though?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            179.534,
+            182.697
+          ],
+          "quote": "So I'm going to build an agent to help me buy my new headphones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            183.538,
+            185.72
+          ],
+          "quote": "But how can an agent go shopping?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            208.04,
+            217.927
+          ],
+          "quote": "They read structured data, parse text files, and rely on technical signals to understand what a merchant sells and if it's even open to agent traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            255.615,
+            264.197
+          ],
+          "quote": "And for an agent to be able to interact with that merchant, we need protocols like UCP to provide a shared language for that API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            276.753,
+            278.014
+          ],
+          "quote": "built my commerce agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            281.375,
+            285.277
+          ],
+          "quote": "And in this demo, I'm going to show off this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            331.22,
+            336.864
+          ],
+          "quote": "But second, I kind of want to see how the agent deals with this ambiguity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            379.35,
+            384.051
+          ],
+          "quote": "So the agent tells me their catalog is not accessible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            390.37,
+            401.698
+          ],
+          "quote": "Before I continue my shopping, I'm going to help Rainy Day Music get their catalog agent ready so that my agent can shop locally like a good Portlander.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            407.582,
+            417.708
+          ],
+          "quote": "And while Rainy Day Music's website looks really, really nice for a human shopper, an agent is going to burn through a ton of tokens trying to parse through this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            420.016,
+            422.822
+          ],
+          "quote": "That is not the optimal experience for an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            424.585,
+            427.411
+          ],
+          "quote": "So, how does an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            428.247,
+            429.808
+          ],
+          "quote": "How do we enable an agent to shop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            458.841,
+            466.431
+          ],
+          "quote": "Next, we need to make the store's catalog agent ready because agents filter rank and justify products when making recommendations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            492.34,
+            495.505
+          ],
+          "quote": "I might ask the agent which one of those stores offers free shipping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            496.125,
+            505.398
+          ],
+          "quote": "If the information is not readily available, then the agent might hallucinate or just say they don't know, and I'm not quite sure where to buy my headphones still.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            517.361,
+            524.427
+          ],
+          "quote": "So, when the agent matches structured attributes, the merchant should record those matches in their logs for accountability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            532.413,
+            538.798
+          ],
+          "quote": "So, while you and I will still see this beautiful website, my agent is going to see this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            552.609,
+            554.971
+          ],
+          "quote": "I'm telling my agent to show me more options.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            583.946,
+            586.267
+          ],
+          "quote": "I don't know if I trust this agent anymore, honestly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            591.368,
+            594.929
+          ],
+          "quote": "And now the agent is completely going off the rails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            605.477,
+            610.541
+          ],
+          "quote": "It's bad enough that this is kind of ruining my experience, but I built this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            615.666,
+            620.451
+          ],
+          "quote": "Suddenly, I'm not so sure that I want an agent to go shopping for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            625.796,
+            633.5
+          ],
+          "quote": "Before we make any drastic decisions, though, let's go back and understand what an agent is to try to figure out why it's acting this way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            654.298,
+            657.14
+          ],
+          "quote": "The tools are different actions available to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            679.29,
+            684.816
+          ],
+          "quote": "And following these instructions, the agent reaches for the appropriate tools at the appropriate time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            724.805,
+            728.287
+          ],
+          "quote": "So, first, always disclose that the user is speaking to an AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            729.508,
+            732.351
+          ],
+          "quote": "Be sure the agent discloses any fees upfront.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            733.812,
+            738.276
+          ],
+          "quote": "The user can say stop or cancel at any point, and the agent needs to respect that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            747.89,
+            751.711
+          ],
+          "quote": "Don't let the agent use urgency language or other dark patterns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            752.912,
+            757.633
+          ],
+          "quote": "And above all, make sure all agent decisions are logged for auditability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            760.834,
+            764.776
+          ],
+          "quote": "Now that we understand how an agent is configured, let's go back to our shopping demo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            828.927,
+            834.01
+          ],
+          "quote": "So I tell the agent, show me more options, but this time keep it under $500.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            841.815,
+            846.738
+          ],
+          "quote": "But I want to make sure I've really changed the persona to the agent I trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            865.579,
+            869.682
+          ],
+          "quote": "So, I'm confident I have the right agent now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            884.059,
+            888.5
+          ],
+          "quote": "The agent picked a few options that fit my unique use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            892.001,
+            898.804
+          ],
+          "quote": "Either I or the agent ask clarifying questions, and we really narrow down the exact headphones that will work for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            905.18,
+            910.202
+          ],
+          "quote": "So now the agent asked me for some information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            925.865,
+            931.947
+          ],
+          "quote": "And now I'm thinking, am I really going to give my credit cards an agent iBuild?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            976.265,
+            981.467
+          ],
+          "quote": "So at that point in the demo, the agent had requested a payment method.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            995.491,
+            1001.592
+          ],
+          "quote": "And what the agent receives in return, though, is not the credit card number.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1042.583,
+            1047.547
+          ],
+          "quote": "And finally, the merchant confirms the order, sends it to the agent, that sends it to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1051.289,
+            1059.995
+          ],
+          "quote": "So shared payment tokens are designed with security in mind, and the payment provider enforces all of the limits, not the agent or the merchant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1070.28,
+            1085.207
+          ],
+          "quote": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1086.709,
+            1090.913
+          ],
+          "quote": "So now the agent has everything and needs to complete my purchase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agenda-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (Agenda Commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集定义为「能够代表你进行决策、行动和交易的 AI」,并演示了智能体购物的完整流程(原文转写作 Agenda Commerce)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            50.466,
+            56.83
+          ],
+          "quote": "And you're probably asking yourself, what do really old, kind of crappy headphones have to do with Agenda Commerce?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            104.992,
+            112.255
+          ],
+          "quote": "So, I decided instead that I'm going to build an Agenda commerce agent to buy my headphones for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            163.079,
+            171.627
+          ],
+          "quote": "And this has all led to the emergence of Agenda Commerce, which is AI that can decide, act, and transact on your behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            177.372,
+            178.913
+          ],
+          "quote": "Agenda Commerce is a thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            509.715,
+            513.538
+          ],
+          "quote": "So, in Agenda Commerce, the merchant's catalog doesn't just power decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            878.337,
+            881.378
+          ],
+          "quote": "At this point, I realized this is the promise of Agenda Commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1113.415,
+            1131.253
+          ],
+          "quote": "So, if you want to learn more about Agenda Commerce, we've got lots of videos on the Stripe Developer's YouTube channel and a blog post that go into even more detail on Stripe.dev, and I'll be right outside to answer any questions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "universal-commerce-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "Universal Commerce Protocol",
+      "file": "Universal Commerce Protocol",
+      "primary": true,
+      "how_described": "本集称它是智能体和商家交易时的共同语言,定义智能体如何发起、更新、完成和取消购买,并可跨多个智能体和商家扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            229.587,
+            232.589
+          ],
+          "quote": "One such protocol is the Universal Commerce Protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统提示词 (system prompt)",
+      "file": "系统提示词",
+      "primary": true,
+      "how_described": "本集说它是用英文写成的角色设定和伦理政策;「激进销售员」提示词导致智能体强行推销嘲讽,换成「耐心导师」后行为立刻规矩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            686.497,
+            692.083
+          ],
+          "quote": "And finally, we add the system prompt, which is your persona and ethics policy written in English.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            693.677,
+            714.275
+          ],
+          "quote": "And in practice, your choices when designing the system prompt can result in a fair and pleasant experience for the customer, such as this prompt, which is designed to create a helpful and honest shopping assistant, or a negative experience from a pushy salesperson, such as this prompt, which deliberately uses deceptive practices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            858.633,
+            863.037
+          ],
+          "quote": "So, this shows how much the system prompt can really affect the user experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shared-payment-token",
+      "type": "concept",
+      "role": "concept",
+      "name": "共享支付令牌 (shared payment token)",
+      "file": "共享支付令牌",
+      "primary": true,
+      "how_described": "本集介绍它代表原始卡号或钱包,可携带欺诈信号和信誉数据;智能体和卖家都只见令牌不见卡号,限额与风控由支付提供商强制执行(原稿转写作 share payment token)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            971.742,
+            975.083
+          ],
+          "quote": "And here's how a shared payment token is used in a transaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1001.812,
+            1003.633
+          ],
+          "quote": "It is the shared payment token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1070.28,
+            1085.207
+          ],
+          "quote": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集给出商务智能体的护栏清单:披露 AI 身份、预披露费用、尊重取消、不超用户限额、禁紧迫感话术与黑暗模式、决策全记日志。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            937.849,
+            943.691
+          ],
+          "quote": "I think I need to learn more about UCP's built-in guardrails before I can feel safe entering my credit card number.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "merchant-capabilities-manifest",
+      "type": "concept",
+      "role": "concept",
+      "name": "商家能力清单 (merchant capabilities manifest)",
+      "file": "商家能力清单",
+      "primary": true,
+      "how_described": "本集说它是放在网站根目录 .wellknown 文件夹里的公开 JSON 文件,声明店铺能力、支持的支付方式和 API 端点,智能体专门去找这个目录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            429.948,
+            435.911
+          ],
+          "quote": "Well, first thing a merchant needs is something called a merchant capabilities manifest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language model)",
+      "file": "大语言模型",
+      "primary": false,
+      "how_described": "本集把 LLM 比作智能体的大脑,是负责做决策的部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            642.585,
+            647.027
+          ],
+          "quote": "So we begin with our brain, which is a large language model that makes decisions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集嘉宾所在的支付公司,被列为铺设智能体交易基础设施的公司之一,并在演示中作为支付提供商接收卡号、执行支付限制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            103.012,
+            103.972
+          ],
+          "quote": "I work at Stripe, though.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            151.317,
+            161.084
+          ],
+          "quote": "And then, just in the past year, the infrastructure for agentic transactions has been laid down by companies like Google, OpenAI, and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            982.707,
+            989.449
+          ],
+          "quote": "It's requesting this actually from the payment provider, which in the case of the demo was Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1070.28,
+            1085.207
+          ],
+          "quote": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1113.415,
+            1131.253
+          ],
+          "quote": "So, if you want to learn more about Agenda Commerce, we've got lots of videos on the Stripe Developer's YouTube channel and a blog post that go into even more detail on Stripe.dev, and I'll be right outside to answer any questions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集一笔带过:与 OpenAI、Stripe 一同被列为过去一年铺设智能体交易基础设施的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            151.317,
+            161.084
+          ],
+          "quote": "And then, just in the past year, the infrastructure for agentic transactions has been laid down by companies like Google, OpenAI, and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            950.818,
+            959.52
+          ],
+          "quote": "And a share payment token is a token representing a raw card number or wallet like Google Pay or Apple Pay or any other kind of wallet.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集一笔带过:与 Google、Stripe 一同被列为铺设智能体交易基础设施的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            151.317,
+            161.084
+          ],
+          "quote": "And then, just in the past year, the infrastructure for agentic transactions has been laid down by companies like Google, OpenAI, and Stripe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rainy-day-music",
+      "type": "company",
+      "role": "company",
+      "name": "Rainy Day Music",
+      "file": "Rainy Day Music",
+      "primary": true,
+      "how_described": "本集里作者所在波特兰的本地琴行,起初因未做智能体化而无法访问,随后被作者改造成智能体商务就绪的示例商家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            368.446,
+            378.509
+          ],
+          "quote": "But today, most merchants are not ready for agentic commerce, and it turns out neither is my favorite shop, Rainy Day Music.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            390.37,
+            401.698
+          ],
+          "quote": "Before I continue my shopping, I'm going to help Rainy Day Music get their catalog agent ready so that my agent can shop locally like a good Portlander.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            407.582,
+            417.708
+          ],
+          "quote": "And while Rainy Day Music's website looks really, really nice for a human shopper, an agent is going to burn through a ton of tokens trying to parse through this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

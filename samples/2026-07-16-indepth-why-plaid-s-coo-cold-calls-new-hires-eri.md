@@ -166,9 +166,9 @@ Plaid 的 go-to-market([[go-to-market|进入市场]])组织走了四步。早期
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人]]<span class="pd-rz">同概念:公司文化 (culture)、招人 (hiring)</span>
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:进入市场 (go-to-market)</span>
 - [[2026-08-07-talks-max-hodak-average-is-not-good-enough|Speed 就是护城河：Science CEO 谈深科技公司的基础设施]]<span class="pd-rz">同概念:招人 (hiring)</span>
-- [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施]]<span class="pd-rz">同概念:招人 (hiring)</span>
 
 </div>
 <div class="pd-ex">

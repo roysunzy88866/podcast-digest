@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":8,"具身智能":1,"苦涩的教训":10,"神经网络":1,"机器学习":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":8,"具身智能":1,"苦涩的教训":10,"神经网络":1,"机器学习":4}</script>
 
 <script>
 (function(){

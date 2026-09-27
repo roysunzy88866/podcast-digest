@@ -181,8 +181,8 @@ Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧�
 **顺着「组织与领导力」挖下去**
 
 - [[2026-08-07-talks-max-hodak-average-is-not-good-enough|Speed 就是护城河：Science CEO 谈深科技公司的基础设施]]<span class="pd-rz">同公司:Neuralink、Science · 同概念:BCI、Helix、基础设施 (infrastructure)、归因 (attribution)、招聘 (hiring)、迭代速度 (iteration)</span>
+- [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人]]<span class="pd-rz">同概念:判断力 (judgment)、招聘 (hiring)</span>
 - [[2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri|Plaid COO 谈危机中的公司领导法：文化是压舱石]]<span class="pd-rz">同概念:招聘 (hiring)</span>
-- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:判断力 (judgment)</span>
 
 </div>
 <div class="pd-ex">

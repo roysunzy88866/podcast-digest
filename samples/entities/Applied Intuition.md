@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Qasar Younis]] · [[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[Tesla]] · [[Waymo]] · [[ChatGPT]] · [[Huawei]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Qasar Younis":1,"物理 AI":8,"自动驾驶":3,"工业革命":1,"FSD":1,"Tesla":9,"Waymo":13,"ChatGPT":78,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Qasar Younis":1,"物理 AI":8,"自动驾驶":3,"工业革命":1,"FSD":1,"Tesla":9,"Waymo":14,"ChatGPT":79,"Huawei":1}</script>
 
 <script>
 (function(){

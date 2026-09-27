@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"智能体":337,"vibe coding":40,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":37,"真实性":2,"机器学习":4,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"智能体":339,"vibe coding":40,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":38,"真实性":2,"机器学习":4,"Magic School":1}</script>
 
 <script>
 (function(){

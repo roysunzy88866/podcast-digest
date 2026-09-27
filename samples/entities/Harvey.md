@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Harvey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,16 +24,21 @@ unlisted: true
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(07:10起):本集说 Harvey 就在几天前刚发布了一个法律数据集，因为市面上能用的、像真实世界的高质量数据集太少了
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:40起):本集用 Harvey 做例子：'如果我公司里 30% 的人离职去为 Harvey 工作，那我就完蛋了'，代表 AI 公司对传统企业的人才虹吸效应
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(16:23起):本集以 Harvey（美国律师在用的产品）为例说明垂直 AI 模型已跨太平洋两次
+- **[[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]]**(00:11起):本集主角：用 AI 改造法律行业的 AI 应用层公司，四年间估值从 30 亿涨到 110 亿美元，一年净增超 1000 名员工，却『绝对仍然感觉像一家创业公司』，靠三条价值观（果断、简单、工作尚未完成）和信任驱动的文化支撑高速扩张。
 
 ## ① 提到它的金句
 
-*1 条*
+*3 条*
 
 ![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q14]]
 
+![[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg#^q1]]
+
+![[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg#^q3]]
+
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为被讨论公司
@@ -48,14 +53,15 @@ unlisted: true
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
+- [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[后训练]] · [[Anthropic]] · [[前沿模型]] · [[DeepMind]] · [[NVIDIA]] · [[RL 环境]] · [[合成数据]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[前沿模型]] · [[DeepMind]] · [[NVIDIA]] · [[RL 环境]] · [[合成数据]]
 
-<script type="application/json" class="pd-epn">{"智能体":337,"Cursor":69,"OpenAI":134,"后训练":1,"Anthropic":146,"前沿模型":21,"DeepMind":10,"NVIDIA":45,"RL 环境":6,"合成数据":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":339,"Cursor":69,"OpenAI":137,"Anthropic":147,"后训练":1,"前沿模型":21,"DeepMind":10,"NVIDIA":45,"RL 环境":6,"合成数据":8}</script>
 
 <script>
 (function(){

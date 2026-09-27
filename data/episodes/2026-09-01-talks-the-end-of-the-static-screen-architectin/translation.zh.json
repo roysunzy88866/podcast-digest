@@ -1,0 +1,2490 @@
+[
+ {
+  "seg": 0,
+  "start": 12.637,
+  "end": 13.218,
+  "speaker": "Unknown",
+  "en": "How's it going?",
+  "zh": "最近怎么样？"
+ },
+ {
+  "seg": 1,
+  "start": 14.639,
+  "end": 16.781,
+  "speaker": "Unknown",
+  "en": "The end of the conference.",
+  "zh": "会议的最后一天了。"
+ },
+ {
+  "seg": 2,
+  "start": 17.001,
+  "end": 18.042,
+  "speaker": "Unknown",
+  "en": "How's everybody feeling?",
+  "zh": "大家感觉如何？"
+ },
+ {
+  "seg": 3,
+  "start": 18.242,
+  "end": 18.703,
+  "speaker": "Unknown",
+  "en": "Tired?",
+  "zh": "累了吗？"
+ },
+ {
+  "seg": 4,
+  "start": 18.803,
+  "end": 20.424,
+  "speaker": "Unknown",
+  "en": "Drinking from the fire hose as well?",
+  "zh": "是不是也像在用消防水管喝水一样？"
+ },
+ {
+  "seg": 5,
+  "start": 21.225,
+  "end": 31.035,
+  "speaker": "Unknown",
+  "en": "Are you guys a little bit tired of hearing loop engineering, harness engineering, software factory, evolves, pre-training, post-training data, and whatnot?",
+  "zh": "你们是不是已经有点听腻了循环工程、线束工程、软件工厂、进化、预训练、后训练数据之类的话题？"
+ },
+ {
+  "seg": 6,
+  "start": 31.695,
+  "end": 34.278,
+  "speaker": "Unknown",
+  "en": "But anyways, those topics were more than valid, right?",
+  "zh": "但不管怎样，这些话题都是非常合理的，对吧？"
+ },
+ {
+  "seg": 7,
+  "start": 35.138,
+  "end": 38.18,
+  "speaker": "Unknown",
+  "en": "Hi, some really common faces here.",
+  "zh": "嗨，这里有些很熟悉的面孔。"
+ },
+ {
+  "seg": 8,
+  "start": 38.72,
+  "end": 43.703,
+  "speaker": "Unknown",
+  "en": "By the way, I'm super excited to be here and talk to you guys about this title.",
+  "zh": "顺便说一句，我非常兴奋能在这里和大家聊聊这个标题的话题。"
+ },
+ {
+  "seg": 9,
+  "start": 44.363,
+  "end": 50.347,
+  "speaker": "Unknown",
+  "en": "And I'm sorry, when I submitted the application, I was thinking of potentially a catchy title.",
+  "zh": "很抱歉，我在提交申请的时候，想的是一个可能比较抓眼球的标题。"
+ },
+ {
+  "seg": 10,
+  "start": 51.147,
+  "end": 52.748,
+  "speaker": "Unknown",
+  "en": "But I don't like this at all.",
+  "zh": "但我一点也不喜欢这个标题。"
+ },
+ {
+  "seg": 11,
+  "start": 52.929,
+  "end": 56.031,
+  "speaker": "Unknown",
+  "en": "So, with all the respect to the organizers, I'll have to make a change.",
+  "zh": "所以，恕我尊重主办方，我不得不做一个更改。"
+ },
+ {
+  "seg": 12,
+  "start": 57.172,
+  "end": 67.761,
+  "speaker": "Unknown",
+  "en": "And the actual topic that I wanna focus here today is lessons learned from a team that is building proper generative UX and UI.",
+  "zh": "而我今天真正想聚焦的主题，是来自一个正在构建真正生成式 UX 和 UI 的团队的经验教训。"
+ },
+ {
+  "seg": 13,
+  "start": 68.481,
+  "end": 77.146,
+  "speaker": "Unknown",
+  "en": "And I was gonna touch on agentic orchestration, but come on, over the last three days, this is what we heard all the time.",
+  "zh": "我本来还打算讲智能体编排，但拜托，过去三天里，我们听到的全是这个。"
+ },
+ {
+  "seg": 14,
+  "start": 77.266,
+  "end": 89.532,
+  "speaker": "Unknown",
+  "en": "So I'd rather focus on what I didn't hear enough about here in the conference, and hopefully you walk away, if not with something very tangible, but with a new mental model that can spark meaningful discussions down the road.",
+  "zh": "所以我更愿意聚焦于这次会议上我没听到足够多的内容，希望你们离开时，即便没有带走非常具体的东西，也能带走一个新的心智模型，能够在未来激发有意义的讨论。"
+ },
+ {
+  "seg": 15,
+  "start": 89.812,
+  "end": 90.192,
+  "speaker": "Unknown",
+  "en": "Sounds good?",
+  "zh": "听起来不错吧？"
+ },
+ {
+  "seg": 16,
+  "start": 91.153,
+  "end": 91.413,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 17,
+  "start": 92.219,
+  "end": 92.579,
+  "speaker": "Unknown",
+  "en": "Very good.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 18,
+  "start": 93.4,
+  "end": 94.22,
+  "speaker": "Unknown",
+  "en": "So, hi, everybody.",
+  "zh": "那么，大家好。"
+ },
+ {
+  "seg": 19,
+  "start": 94.66,
+  "end": 95.04,
+  "speaker": "Unknown",
+  "en": "I'm Gus.",
+  "zh": "我是 Gus。"
+ },
+ {
+  "seg": 20,
+  "start": 95.321,
+  "end": 97.222,
+  "speaker": "Unknown",
+  "en": "I'm a general manager at Commerce Tools.",
+  "zh": "我是 Commerce Tools 的总经理。"
+ },
+ {
+  "seg": 21,
+  "start": 97.582,
+  "end": 100.783,
+  "speaker": "Unknown",
+  "en": "I lead product UX and engineering for 0 to 1 products.",
+  "zh": "我负责 0 到 1 产品的产品 UX 和工程。"
+ },
+ {
+  "seg": 22,
+  "start": 101.284,
+  "end": 106.426,
+  "speaker": "Unknown",
+  "en": "I tell people I'm in a very privileged position because we get to build really cool stuff.",
+  "zh": "我告诉大家，我处在一个非常幸运的位置，因为我们能构建非常酷的东西。"
+ },
+ {
+  "seg": 23,
+  "start": 106.687,
+  "end": 109.108,
+  "speaker": "Unknown",
+  "en": "So, we cook really interesting stuff at Commerce Tools.",
+  "zh": "我们在 Commerce Tools 做出了非常有趣的东西。"
+ },
+ {
+  "seg": 24,
+  "start": 110.022,
+  "end": 110.502,
+  "speaker": "Unknown",
+  "en": "Fantastic.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 25,
+  "start": 110.702,
+  "end": 114.264,
+  "speaker": "Unknown",
+  "en": "And this is what you guys can expect, at least during the presentation.",
+  "zh": "这就是你们可以期待的，至少在本次演讲期间。"
+ },
+ {
+  "seg": 26,
+  "start": 114.945,
+  "end": 124.991,
+  "speaker": "Unknown",
+  "en": "I'd like to make sure that we're all on the same page with respect to the problem space, followed by a quick demo of the product, because I'm not sure if you guys agree, an image speaks more than 1,000 words.",
+  "zh": "我想确保大家对问题空间的理解是一致的，然后是产品的快速演示，因为我不确定你们是否同意，一张图胜过一千句话。"
+ },
+ {
+  "seg": 27,
+  "start": 125.911,
+  "end": 129.594,
+  "speaker": "Unknown",
+  "en": "So it would just make it more tangible for everybody here.",
+  "zh": "所以这会让在座的每个人感觉更具体。"
+ },
+ {
+  "seg": 28,
+  "start": 130.194,
+  "end": 134.337,
+  "speaker": "Unknown",
+  "en": "Followed by a rapid discussion on the emergence of UI protocols.",
+  "zh": "接下来是对 UI 协议兴起的快速讨论。"
+ },
+ {
+  "seg": 29,
+  "start": 134.457,
+  "end": 137.179,
+  "speaker": "Unknown",
+  "en": "And I'm not sure if you guys joined maybe some of the talks here.",
+  "zh": "我不确定你们有没有参加这里的一些演讲。"
+ },
+ {
+  "seg": 30,
+  "start": 137.279,
+  "end": 142.063,
+  "speaker": "Unknown",
+  "en": "Even the founder of some of these protocols were here this week and that was really cool.",
+  "zh": "甚至其中一些协议的创始人这周也来了，这真的很酷。"
+ },
+ {
+  "seg": 31,
+  "start": 142.623,
+  "end": 148.007,
+  "speaker": "Unknown",
+  "en": "Followed by, and last but not least, the challenges that my team and I faced and we still face.",
+  "zh": "接下来是，最后同样重要的是，我和我的团队曾经面临、而且现在仍然面临的挑战。"
+ },
+ {
+  "seg": 32,
+  "start": 148.548,
+  "end": 152.711,
+  "speaker": "Unknown",
+  "en": "And some of the mitigation tactics that we put in place to overcome some of these challenges.",
+  "zh": "以及我们为克服其中一些挑战而采取的缓解策略。"
+ },
+ {
+  "seg": 33,
+  "start": 153.331,
+  "end": 154.012,
+  "speaker": "Unknown",
+  "en": "So with that,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 34,
+  "start": 155.368,
+  "end": 155.908,
+  "speaker": "Unknown",
+  "en": "Let's continue.",
+  "zh": "我们继续。"
+ },
+ {
+  "seg": 35,
+  "start": 156.128,
+  "end": 156.808,
+  "speaker": "Unknown",
+  "en": "The problem space.",
+  "zh": "问题空间。"
+ },
+ {
+  "seg": 36,
+  "start": 157.889,
+  "end": 167.011,
+  "speaker": "Unknown",
+  "en": "This is more like a statement, and we're still adept to the software that we ship, not the other way around, right?",
+  "zh": "这更像是一个陈述，而且我们仍然要适应我们发布的软件，而不是软件来适应我们，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 167.211,
+  "end": 179.895,
+  "speaker": "Unknown",
+  "en": "And then, although you could argue when GPT came out, this was November 2022, we had a really good glimpse of real personalization, but everything else remained static.",
+  "zh": "然后，虽然你可以说当 GPT 问世时，那是 2022 年 11 月，我们已经真正窥见了个性化的样子，但其他一切都保持静态。"
+ },
+ {
+  "seg": 38,
+  "start": 180.615,
+  "end": 187.767,
+  "speaker": "Unknown",
+  "en": "And even with AI, we keep shipping a lot of stuff much faster, but to a significant extent, it is still static.",
+  "zh": "即使有了 AI，我们以快得多的速度发布很多东西，但在相当大的程度上，它仍然是静态的。"
+ },
+ {
+  "seg": 39,
+  "start": 188.408,
+  "end": 190.632,
+  "speaker": "Unknown",
+  "en": "And my question is, why?",
+  "zh": "我的问题是，为什么？"
+ },
+ {
+  "seg": 40,
+  "start": 192.095,
+  "end": 198.199,
+  "speaker": "Unknown",
+  "en": "So over the last 40 years, we kept shifting static experiences.",
+  "zh": "过去 40 年里，我们一直在推送静态体验。"
+ },
+ {
+  "seg": 41,
+  "start": 198.479,
+  "end": 214.13,
+  "speaker": "Unknown",
+  "en": "And if I put myself in the shoes of some of my customers, they need several SaaS applications for the day-to-day work and each with its own mental model and its own way to get anything done.",
+  "zh": "如果我设身处地为一些客户着想，他们日常工作需要好几个 SaaS 应用，每个都有自己的心智模型和自己完成任务的方式。"
+ },
+ {
+  "seg": 42,
+  "start": 215.338,
+  "end": 220.16,
+  "speaker": "Unknown",
+  "en": "And over time, it just kept getting worse, just accruing debt.",
+  "zh": "随着时间推移，情况只是不断恶化，不断累积债务。"
+ },
+ {
+  "seg": 43,
+  "start": 220.8,
+  "end": 226.763,
+  "speaker": "Unknown",
+  "en": "The cognitive load that we wanted to remove and that we wanted to transfer to the machine, it's on us.",
+  "zh": "我们原本想消除、想转移给机器的认知负担，却压在我们自己身上。"
+ },
+ {
+  "seg": 44,
+  "start": 227.704,
+  "end": 231.245,
+  "speaker": "Unknown",
+  "en": "And now with AI, things can be different.",
+  "zh": "而现在有了 AI，情况可以不同。"
+ },
+ {
+  "seg": 45,
+  "start": 232.266,
+  "end": 235.307,
+  "speaker": "Unknown",
+  "en": "I don't know if you guys agree, but this is what we think.",
+  "zh": "我不知道你们是否同意，但这是我们的想法。"
+ },
+ {
+  "seg": 46,
+  "start": 236.047,
+  "end": 237.868,
+  "speaker": "Unknown",
+  "en": "And I do have a couple of examples.",
+  "zh": "我有几个例子。"
+ },
+ {
+  "seg": 47,
+  "start": 238.008,
+  "end": 241.57,
+  "speaker": "Unknown",
+  "en": "I'm not gonna say out loud the name of these apps, but let's take a look.",
+  "zh": "我不会大声说出这些应用的名字，但我们来看一看。"
+ },
+ {
+  "seg": 48,
+  "start": 243.11,
+  "end": 244.391,
+  "speaker": "Unknown",
+  "en": "Here, first one.",
+  "zh": "这里，第一个。"
+ },
+ {
+  "seg": 49,
+  "start": 245.278,
+  "end": 247.119,
+  "speaker": "Unknown",
+  "en": "You know, that icon is very well known.",
+  "zh": "你知道，那个图标非常有名。"
+ },
+ {
+  "seg": 50,
+  "start": 247.159,
+  "end": 250.54,
+  "speaker": "Unknown",
+  "en": "This is probably the most famous CRM of all times.",
+  "zh": "这可能是有史以来最著名的 CRM。"
+ },
+ {
+  "seg": 51,
+  "start": 251.28,
+  "end": 254.982,
+  "speaker": "Unknown",
+  "en": "But when I look at this screen, there's a lot going on.",
+  "zh": "但当我看这个界面的时候,信息量太大了。"
+ },
+ {
+  "seg": 52,
+  "start": 255.222,
+  "end": 256.962,
+  "speaker": "Unknown",
+  "en": "I don't even know where to start, right?",
+  "zh": "我甚至不知道从哪里开始看,对吧?"
+ },
+ {
+  "seg": 53,
+  "start": 257.303,
+  "end": 263.825,
+  "speaker": "Unknown",
+  "en": "Not only the information overload, how many features, how many teams do you think are somewhat involved just to ship this?",
+  "zh": "不仅是信息过载,功能这么多,你们觉得要有多少个团队多少参与一些才能把这个做上线?"
+ },
+ {
+  "seg": 54,
+  "start": 264.645,
+  "end": 266.266,
+  "speaker": "Unknown",
+  "en": "Many, probably, right?",
+  "zh": "很多,大概吧,对吧?"
+ },
+ {
+  "seg": 55,
+  "start": 266.406,
+  "end": 267.146,
+  "speaker": "Unknown",
+  "en": "And this is just one.",
+  "zh": "而这只是一个例子。"
+ },
+ {
+  "seg": 56,
+  "start": 267.747,
+  "end": 268.327,
+  "speaker": "Unknown",
+  "en": "Let's have a look.",
+  "zh": "我们来看看。"
+ },
+ {
+  "seg": 57,
+  "start": 268.527,
+  "end": 269.787,
+  "speaker": "Unknown",
+  "en": "I have a couple of other examples.",
+  "zh": "我还有几个其他的例子。"
+ },
+ {
+  "seg": 58,
+  "start": 270.788,
+  "end": 273.689,
+  "speaker": "Unknown",
+  "en": "So this here, look at that.",
+  "zh": "那么这个,看那个。"
+ },
+ {
+  "seg": 59,
+  "start": 274.627,
+  "end": 276.408,
+  "speaker": "Unknown",
+  "en": "Oh my God, this is a fancy table.",
+  "zh": "哦我的天,这是一个花哨的表格。"
+ },
+ {
+  "seg": 60,
+  "start": 276.628,
+  "end": 277.709,
+  "speaker": "Unknown",
+  "en": "I don't even know where to start.",
+  "zh": "我甚至不知道从哪里开始。"
+ },
+ {
+  "seg": 61,
+  "start": 278.089,
+  "end": 279.57,
+  "speaker": "Unknown",
+  "en": "But anyways, one more.",
+  "zh": "但无论如何,再来一个。"
+ },
+ {
+  "seg": 62,
+  "start": 280.831,
+  "end": 282.573,
+  "speaker": "Unknown",
+  "en": "Does everybody know this one here?",
+  "zh": "大家都认识这个吗?"
+ },
+ {
+  "seg": 63,
+  "start": 283.706,
+  "end": 286.568,
+  "speaker": "Unknown",
+  "en": "Beautiful, beautiful UI, right?",
+  "zh": "漂亮、漂亮的 UI,对吧?"
+ },
+ {
+  "seg": 64,
+  "start": 286.628,
+  "end": 289.09,
+  "speaker": "Unknown",
+  "en": "It's a fantastic, super intuitive.",
+  "zh": "非常棒,超级直观。"
+ },
+ {
+  "seg": 65,
+  "start": 289.77,
+  "end": 297.476,
+  "speaker": "Unknown",
+  "en": "And something else just to highlight, do you guys know how much time these companies need to invest in onboarding people?",
+  "zh": "还有另一件事要强调一下,你们知道这些公司需要投入多少时间来做人员入职培训吗?"
+ },
+ {
+  "seg": 66,
+  "start": 298.436,
+  "end": 301.078,
+  "speaker": "Unknown",
+  "en": "So that was the trade-off, right?",
+  "zh": "这就是那个权衡,对吧?"
+ },
+ {
+  "seg": 67,
+  "start": 301.098,
+  "end": 311.465,
+  "speaker": "Unknown",
+  "en": "So you gotta allocate a lot of time from a lot of people just to onboard newcomers as a result of this complexity that has been introduced over time.",
+  "zh": "因为这种随时间累积引入的复杂性,你得从很多人那里分配出大量时间,只为让新人完成入职。"
+ },
+ {
+  "seg": 68,
+  "start": 312.406,
+  "end": 315.869,
+  "speaker": "Unknown",
+  "en": "So, this is just at least the hardcore evidence.",
+  "zh": "所以,这至少是硬核的证据。"
+ },
+ {
+  "seg": 69,
+  "start": 316.209,
+  "end": 319.672,
+  "speaker": "Unknown",
+  "en": "So, different apps, different logic every single time.",
+  "zh": "不同的应用,每一次都有不同的逻辑。"
+ },
+ {
+  "seg": 70,
+  "start": 320.192,
+  "end": 322.214,
+  "speaker": "Unknown",
+  "en": "And then more apps are coming out.",
+  "zh": "然后越来越多的应用不断涌现。"
+ },
+ {
+  "seg": 71,
+  "start": 322.354,
+  "end": 328.438,
+  "speaker": "Unknown",
+  "en": "So, imagine just put yourself in the shoes of an average user and then, oh, now I have five apps.",
+  "zh": "那么,想象一下,把自己放在一个普通用户的位置上,然后,哦,现在我有五个应用了。"
+ },
+ {
+  "seg": 72,
+  "start": 328.959,
+  "end": 333.502,
+  "speaker": "Unknown",
+  "en": "And then every single one I need to learn how to navigate, how to browse and so on and so forth.",
+  "zh": "然后每一个我都需要学习如何导航、如何浏览等等等等。"
+ },
+ {
+  "seg": 73,
+  "start": 333.562,
+  "end": 336.385,
+  "speaker": "Unknown",
+  "en": "And then this has been the history up until now.",
+  "zh": "这就是迄今为止的历史。"
+ },
+ {
+  "seg": 74,
+  "start": 337.125,
+  "end": 344.567,
+  "speaker": "Unknown",
+  "en": "But then, this was August last year, I sat down with my boss, happens to be the founder of the company, so big shout out to my boss.",
+  "zh": "但接着,去年八月,我和我的老板坐下来,他恰好是公司的创始人,所以大力感谢我的老板。"
+ },
+ {
+  "seg": 75,
+  "start": 345.408,
+  "end": 351.529,
+  "speaker": "Unknown",
+  "en": "And then we asked this question, because AdCommerce Tools, we are an API first company, 300 plus is still counting.",
+  "zh": "然后我们提出了这个问题,因为 AdCommerce Tools,我们是一家 API 优先的公司,300 多个 API 还在增加。"
+ },
+ {
+  "seg": 76,
+  "start": 352.11,
+  "end": 362.453,
+  "speaker": "Unknown",
+  "en": "And we asked this posing question, through the lens of artificial intelligence, what are the foundational shifts that could be made if we could change drastically the way that we interact with software?",
+  "zh": "我们提出了这个发人深省的问题:透过人工智能的视角,如果我们能彻底改变我们与软件交互的方式,可以做出哪些根本性的转变?"
+ },
+ {
+  "seg": 77,
+  "start": 363.273,
+  "end": 365.453,
+  "speaker": "Unknown",
+  "en": "Not in a static fashion.",
+  "zh": "不再是静态的方式。"
+ },
+ {
+  "seg": 78,
+  "start": 365.814,
+  "end": 369.534,
+  "speaker": "Unknown",
+  "en": "And the answer to that question led to the product that I'm gonna demo right now.",
+  "zh": "而这个问题的答案就引出了我现在要演示的产品。"
+ },
+ {
+  "seg": 79,
+  "start": 370.614,
+  "end": 370.975,
+  "speaker": "Unknown",
+  "en": "Let's go.",
+  "zh": "开始吧。"
+ },
+ {
+  "seg": 80,
+  "start": 371.755,
+  "end": 372.575,
+  "speaker": "Unknown",
+  "en": "How about a quick demo?",
+  "zh": "来个快速演示怎么样?"
+ },
+ {
+  "seg": 81,
+  "start": 372.955,
+  "end": 373.735,
+  "speaker": "Unknown",
+  "en": "Guys like the idea?",
+  "zh": "大家喜欢这个主意吗?"
+ },
+ {
+  "seg": 82,
+  "start": 374.415,
+  "end": 375.555,
+  "speaker": "Unknown",
+  "en": "Give me a thumbs up.",
+  "zh": "给我点个赞。"
+ },
+ {
+  "seg": 83,
+  "start": 375.635,
+  "end": 376.516,
+  "speaker": "Unknown",
+  "en": "I know everybody's tired.",
+  "zh": "我知道大家都很累了。"
+ },
+ {
+  "seg": 84,
+  "start": 376.736,
+  "end": 377.156,
+  "speaker": "Unknown",
+  "en": "Let's go.",
+  "zh": "开始吧。"
+ },
+ {
+  "seg": 85,
+  "start": 377.456,
+  "end": 377.716,
+  "speaker": "Unknown",
+  "en": "Yay.",
+  "zh": "耶。"
+ },
+ {
+  "seg": 86,
+  "start": 377.736,
+  "end": 378.916,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 87,
+  "start": 379.576,
+  "end": 379.836,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 88,
+  "start": 380.556,
+  "end": 381.056,
+  "speaker": "Unknown",
+  "en": "Look at this.",
+  "zh": "看这个。"
+ },
+ {
+  "seg": 89,
+  "start": 381.437,
+  "end": 381.697,
+  "speaker": "Unknown",
+  "en": "I know.",
+  "zh": "我知道。"
+ },
+ {
+  "seg": 90,
+  "start": 381.817,
+  "end": 382.457,
+  "speaker": "Unknown",
+  "en": "I'm gonna zoom in.",
+  "zh": "我要放大一下。"
+ },
+ {
+  "seg": 91,
+  "start": 382.557,
+  "end": 382.897,
+  "speaker": "Unknown",
+  "en": "No worries.",
+  "zh": "别担心。"
+ },
+ {
+  "seg": 92,
+  "start": 383.357,
+  "end": 385.537,
+  "speaker": "Unknown",
+  "en": "So, I have this query here.",
+  "zh": "那么,我这里有这个查询。"
+ },
+ {
+  "seg": 93,
+  "start": 385.857,
+  "end": 387.578,
+  "speaker": "Unknown",
+  "en": "Create a sales report for Q1.",
+  "zh": "创建一份 Q1 的销售报告。"
+ },
+ {
+  "seg": 94,
+  "start": 389.138,
+  "end": 401.37,
+  "speaker": "Unknown",
+  "en": "And the UX side of me, when I look at what was generated, and by the way, everything here on the right side has been auto-generated, guided by us, but this is AI, right?",
+  "zh": "而我身上 UX 的那一面,当我看到生成出来的东西——顺便说一下,右边这里的所有内容都是自动生成的,由我们引导,但这是 AI,对吧?"
+ },
+ {
+  "seg": 95,
+  "start": 401.73,
+  "end": 404.533,
+  "speaker": "Unknown",
+  "en": "Deciding on the placement, on the information architecture,",
+  "zh": "它在决定布局、决定信息架构,"
+ },
+ {
+  "seg": 96,
+  "start": 404.993,
+  "end": 413.257,
+  "speaker": "Unknown",
+  "en": "Deciding which components had to be actually retrieved from the catalog, but I don't like it at all, right?",
+  "zh": "决定哪些组件实际上要从目录中检索,但我一点也不喜欢它,对吧?"
+ },
+ {
+  "seg": 97,
+  "start": 413.778,
+  "end": 423.643,
+  "speaker": "Unknown",
+  "en": "Even if you don't know a lot about UX, just let's, you know, I have at least four different variations because those were four different terms for the same query.",
+  "zh": "即使你对 UX 了解不多,你看,我这里至少有四个不同的变体,因为那是同一个查询的四个不同措辞。"
+ },
+ {
+  "seg": 98,
+  "start": 423.943,
+  "end": 424.643,
+  "speaker": "Unknown",
+  "en": "Let's check it out.",
+  "zh": "我们来看看。"
+ },
+ {
+  "seg": 99,
+  "start": 425.303,
+  "end": 432.527,
+  "speaker": "Unknown",
+  "en": "First one here, it was Q1, urban thread, whatever that is, Q1, IC, all of these KPI cards.",
+  "zh": "第一个在这里,是 Q1、urban thread,不管那是什么,Q1、IC,所有这些 KPI 卡片。"
+ },
+ {
+  "seg": 100,
+  "start": 432.827,
+  "end": 434.088,
+  "speaker": "Unknown",
+  "en": "There's a lot going on here.",
+  "zh": "这里面有很多东西。"
+ },
+ {
+  "seg": 101,
+  "start": 434.608,
+  "end": 437.71,
+  "speaker": "Unknown",
+  "en": "And then my intuition tells me, man, this doesn't add up.",
+  "zh": "然后我的直觉告诉我，天哪，这说不通。"
+ },
+ {
+  "seg": 102,
+  "start": 439.151,
+  "end": 442.313,
+  "speaker": "Unknown",
+  "en": "Okay, second one, it's not Q1 anymore.",
+  "zh": "好的，第二个，它已经不是 Q1 了。"
+ },
+ {
+  "seg": 103,
+  "start": 442.733,
+  "end": 444.334,
+  "speaker": "Unknown",
+  "en": "Now this is January and March.",
+  "zh": "现在变成了一月和三月。"
+ },
+ {
+  "seg": 104,
+  "start": 444.614,
+  "end": 445.655,
+  "speaker": "Unknown",
+  "en": "There's no consistency.",
+  "zh": "完全没有一致性。"
+ },
+ {
+  "seg": 105,
+  "start": 446.415,
+  "end": 446.975,
+  "speaker": "Unknown",
+  "en": "Does that help?",
+  "zh": "这有帮助吗？"
+ },
+ {
+  "seg": 106,
+  "start": 447.296,
+  "end": 447.796,
+  "speaker": "Unknown",
+  "en": "Yes or no?",
+  "zh": "有还是没有？"
+ },
+ {
+  "seg": 107,
+  "start": 449.317,
+  "end": 450.298,
+  "speaker": "Unknown",
+  "en": "No, right?",
+  "zh": "没有，对吧？"
+ },
+ {
+  "seg": 108,
+  "start": 450.358,
+  "end": 452.28,
+  "speaker": "Unknown",
+  "en": "This will only create confusion.",
+  "zh": "这只会造成混乱。"
+ },
+ {
+  "seg": 109,
+  "start": 452.681,
+  "end": 461.89,
+  "speaker": "Unknown",
+  "en": "If this is a heavy personalized experience for the user, imagine if every single time you need to prompt and then at least the model will output something different.",
+  "zh": "如果这是一个针对用户的高度个性化体验，想象一下，如果每一次你都需要提示，而且至少模型每次都会输出不同的东西。"
+ },
+ {
+  "seg": 110,
+  "start": 462.27,
+  "end": 463.131,
+  "speaker": "Unknown",
+  "en": "This is not good.",
+  "zh": "这可不好。"
+ },
+ {
+  "seg": 111,
+  "start": 463.312,
+  "end": 464.493,
+  "speaker": "Unknown",
+  "en": "And this is just the second turn.",
+  "zh": "而这还只是第二轮对话。"
+ },
+ {
+  "seg": 112,
+  "start": 465.053,
+  "end": 466.455,
+  "speaker": "Unknown",
+  "en": "Let's have a look at the third one.",
+  "zh": "我们来看看第三个。"
+ },
+ {
+  "seg": 113,
+  "start": 467.762,
+  "end": 468.183,
+  "speaker": "Unknown",
+  "en": "Oh my God.",
+  "zh": "我的天哪。"
+ },
+ {
+  "seg": 114,
+  "start": 468.423,
+  "end": 472.087,
+  "speaker": "Unknown",
+  "en": "Now there is even more stuff here on the right side, right?",
+  "zh": "现在右侧有更多的东西了，对吧？"
+ },
+ {
+  "seg": 115,
+  "start": 472.147,
+  "end": 479.115,
+  "speaker": "Unknown",
+  "en": "So this is, I have this component, the KPI cards, a bunch of text, a bunch of charts.",
+  "zh": "所以这里，我有这个组件，KPI 卡片，一堆文字，一堆图表。"
+ },
+ {
+  "seg": 116,
+  "start": 479.715,
+  "end": 482.378,
+  "speaker": "Unknown",
+  "en": "And then this was the beginning of our journey.",
+  "zh": "然后这就是我们旅程的开始。"
+ },
+ {
+  "seg": 117,
+  "start": 483.119,
+  "end": 483.4,
+  "speaker": "Unknown",
+  "en": "One more.",
+  "zh": "再来一个。"
+ },
+ {
+  "seg": 118,
+  "start": 484.353,
+  "end": 490.495,
+  "speaker": "Unknown",
+  "en": "Yes, okay, now it's still Q1, but still, for me, it's still confusing.",
+  "zh": "是的，好的，现在它仍然是 Q1，但是，对我来说，它仍然很令人困惑。"
+ },
+ {
+  "seg": 119,
+  "start": 491.156,
+  "end": 497.658,
+  "speaker": "Unknown",
+  "en": "And because this has been a very experimental journey, at least, okay, let's move on here.",
+  "zh": "而且因为这一直是一段非常实验性的旅程，至少，好吧，我们继续往下走。"
+ },
+ {
+  "seg": 120,
+  "start": 499.023,
+  "end": 503.888,
+  "speaker": "Unknown",
+  "en": "My feedback to the team and to myself was no, no, and no.",
+  "zh": "我给团队和我自己的反馈是：不、不、还有不。"
+ },
+ {
+  "seg": 121,
+  "start": 504.228,
+  "end": 507.832,
+  "speaker": "Unknown",
+  "en": "There's no way that I would ship this to prod whatsoever, right?",
+  "zh": "无论如何我都不可能把这个发布到生产环境，对吧？"
+ },
+ {
+  "seg": 122,
+  "start": 508.312,
+  "end": 512.377,
+  "speaker": "Unknown",
+  "en": "And then I have my colleagues here just to confirm what I just said.",
+  "zh": "然后我有我的同事们在这里，就是为了确认我刚才说的话。"
+ },
+ {
+  "seg": 123,
+  "start": 512.837,
+  "end": 517.382,
+  "speaker": "Unknown",
+  "en": "But then things evolved and I like to demo the current state of the product",
+  "zh": "但后来事情演进了，我想演示一下产品的当前状态。"
+ },
+ {
+  "seg": 124,
+  "start": 517.862,
+  "end": 519.263,
+  "speaker": "Unknown",
+  "en": "It's much more sophisticated.",
+  "zh": "它精致多了。"
+ },
+ {
+  "seg": 125,
+  "start": 519.803,
+  "end": 520.564,
+  "speaker": "Unknown",
+  "en": "And let's have a look.",
+  "zh": "我们来看看。"
+ },
+ {
+  "seg": 126,
+  "start": 521.044,
+  "end": 523.706,
+  "speaker": "Unknown",
+  "en": "I would like to plan a campaign.",
+  "zh": "我想策划一个营销活动。"
+ },
+ {
+  "seg": 127,
+  "start": 523.906,
+  "end": 530.25,
+  "speaker": "Unknown",
+  "en": "And for what it's worth, I'm going to save you from all the nitty-gritty details for everything that is domain-specific.",
+  "zh": "无论如何，我会让你免受所有特定领域细节的琐碎之苦。"
+ },
+ {
+  "seg": 128,
+  "start": 530.79,
+  "end": 532.471,
+  "speaker": "Unknown",
+  "en": "But I'm going to pick this query here.",
+  "zh": "但我要选择这里的这个查询。"
+ },
+ {
+  "seg": 129,
+  "start": 533.292,
+  "end": 534.872,
+  "speaker": "Unknown",
+  "en": "And then let's see what happens.",
+  "zh": "然后我们看看会发生什么。"
+ },
+ {
+  "seg": 130,
+  "start": 535.233,
+  "end": 538.215,
+  "speaker": "Unknown",
+  "en": "And this is the organic orchestration part that I was going to highlight.",
+  "zh": "这就是我要重点强调的有机编排部分。"
+ },
+ {
+  "seg": 131,
+  "start": 538.535,
+  "end": 540.216,
+  "speaker": "Unknown",
+  "en": "Underneath the hood, we have the orchestrator.",
+  "zh": "在底层，我们有一个编排器。"
+ },
+ {
+  "seg": 132,
+  "start": 540.696,
+  "end": 543.798,
+  "speaker": "Unknown",
+  "en": "And the orchestrator can then just extract the intent of the query.",
+  "zh": "编排器可以提取查询的意图。"
+ },
+ {
+  "seg": 133,
+  "start": 544.175,
+  "end": 564.362,
+  "speaker": "Unknown",
+  "en": "Based off of the intent of the query, it can locate the tools, those can be first party, third party tools, and the outputs of this different, it could be agents on MCP servers, combined will give enough what I call ammunition and context for the UX agent to eventually render something that we call meaningful.",
+  "zh": "基于查询的意图，它可以定位工具，这些可以是一方工具、第三方工具，以及这些不同输出的——它可以是 MCP 服务器上的智能体——组合起来将为 UX 智能体提供足够多我称之为「弹药」和上下文的东西，最终渲染出我们称之为有意义的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 564.922,
+  "end": 566.703,
+  "speaker": "Unknown",
+  "en": "So compared to the previous terms,",
+  "zh": "所以，和之前的版本相比，"
+ },
+ {
+  "seg": 135,
+  "start": 567.925,
+  "end": 569.785,
+  "speaker": "Unknown",
+  "en": "This is decent, right?",
+  "zh": "这个还不错，对吧？"
+ },
+ {
+  "seg": 136,
+  "start": 570.125,
+  "end": 578.367,
+  "speaker": "Unknown",
+  "en": "I wanna just remove my bias, but the overall aesthetics, the look and feel of this query, it resonates with me.",
+  "zh": "我想去除我自己的偏见，但整体的视觉美感、这个查询的外观和感觉，是能引起我共鸣的。"
+ },
+ {
+  "seg": 137,
+  "start": 579.007,
+  "end": 579.507,
+  "speaker": "Unknown",
+  "en": "Would you agree?",
+  "zh": "你们同意吗？"
+ },
+ {
+  "seg": 138,
+  "start": 579.707,
+  "end": 581.667,
+  "speaker": "Unknown",
+  "en": "Give me a thumbs up if you agree.",
+  "zh": "如果同意，请给我竖个拇指。"
+ },
+ {
+  "seg": 139,
+  "start": 582.287,
+  "end": 584.708,
+  "speaker": "Unknown",
+  "en": "Okay, at least the vast majority here.",
+  "zh": "好的，至少这里的绝大多数人都同意。"
+ },
+ {
+  "seg": 140,
+  "start": 585.208,
+  "end": 586.788,
+  "speaker": "Unknown",
+  "en": "And then see, it is decent.",
+  "zh": "然后你们看，它是不错的。"
+ },
+ {
+  "seg": 141,
+  "start": 587.448,
+  "end": 588.629,
+  "speaker": "Unknown",
+  "en": "And let me just continue here.",
+  "zh": "让我在这里继续。"
+ },
+ {
+  "seg": 142,
+  "start": 588.989,
+  "end": 594.99,
+  "speaker": "Unknown",
+  "en": "And then once again, this was decided by AI, guided by us.",
+  "zh": "再一次强调，这是由 AI 决定的，由我们引导的。"
+ },
+ {
+  "seg": 143,
+  "start": 595.01,
+  "end": 596.55,
+  "speaker": "Unknown",
+  "en": "I just wanna make that clear.",
+  "zh": "我只是想把这说清楚。"
+ },
+ {
+  "seg": 144,
+  "start": 597.31,
+  "end": 597.47,
+  "speaker": "Unknown",
+  "en": "Here.",
+  "zh": "这里。"
+ },
+ {
+  "seg": 145,
+  "start": 597.651,
+  "end": 601.696,
+  "speaker": "Unknown",
+  "en": "And then I'm gonna touch on the UI protocols and then how you can make this happen.",
+  "zh": "接下来我会讲到 UI 协议，以及如何实现这一点。"
+ },
+ {
+  "seg": 146,
+  "start": 602.377,
+  "end": 603.258,
+  "speaker": "Unknown",
+  "en": "But okay, let's see.",
+  "zh": "不过好了，我们来看看。"
+ },
+ {
+  "seg": 147,
+  "start": 603.478,
+  "end": 605.941,
+  "speaker": "Unknown",
+  "en": "If I approve here, and then this is already live.",
+  "zh": "如果我在这里批准，然后这就已经上线了。"
+ },
+ {
+  "seg": 148,
+  "start": 606.221,
+  "end": 607.503,
+  "speaker": "Unknown",
+  "en": "And this is pre-prod, right?",
+  "zh": "而这是预生产环境，对吧？"
+ },
+ {
+  "seg": 149,
+  "start": 607.543,
+  "end": 608.644,
+  "speaker": "Unknown",
+  "en": "So, this is great.",
+  "zh": "所以，这很棒。"
+ },
+ {
+  "seg": 150,
+  "start": 609.165,
+  "end": 610.507,
+  "speaker": "Unknown",
+  "en": "Let me go back to my presentation.",
+  "zh": "让我回到我的演示文稿。"
+ },
+ {
+  "seg": 151,
+  "start": 612.343,
+  "end": 612.683,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 152,
+  "start": 613.003,
+  "end": 613.844,
+  "speaker": "Unknown",
+  "en": "I have one more question.",
+  "zh": "我还有一个问题。"
+ },
+ {
+  "seg": 153,
+  "start": 614.264,
+  "end": 616.846,
+  "speaker": "Unknown",
+  "en": "Are you guys skeptical that this is possible?",
+  "zh": "你们是否怀疑这是可能的？"
+ },
+ {
+  "seg": 154,
+  "start": 617.166,
+  "end": 619.047,
+  "speaker": "Unknown",
+  "en": "Because I can tell you, it is possible.",
+  "zh": "因为我可以告诉你，这是可能的。"
+ },
+ {
+  "seg": 155,
+  "start": 619.327,
+  "end": 620.628,
+  "speaker": "Unknown",
+  "en": "If you're still skeptical, don't worry.",
+  "zh": "如果你们仍然怀疑，别担心。"
+ },
+ {
+  "seg": 156,
+  "start": 620.948,
+  "end": 629.813,
+  "speaker": "Unknown",
+  "en": "I have all of these guys here also every day just looking at me and then challenging whether this can be made possible at scale, right?",
+  "zh": "我每天也都有所有这些家伙看着我，然后质疑这是否能大规模实现，对吧？"
+ },
+ {
+  "seg": 157,
+  "start": 630.473,
+  "end": 631.454,
+  "speaker": "Unknown",
+  "en": "And then, okay.",
+  "zh": "然后，好的。"
+ },
+ {
+  "seg": 158,
+  "start": 631.794,
+  "end": 639.379,
+  "speaker": "Unknown",
+  "en": "And then, this is the part that I would like just to touch base on the three ways that you can render what you just saw.",
+  "zh": "然后，这正是我想简单谈一谈的部分，也就是你们刚才看到的东西可以通过哪三种方式来渲染。"
+ },
+ {
+  "seg": 159,
+  "start": 639.919,
+  "end": 641.6,
+  "speaker": "Unknown",
+  "en": "And there are different UI protocols.",
+  "zh": "而这里有不同的 UI 协议。"
+ },
+ {
+  "seg": 160,
+  "start": 641.9,
+  "end": 644.642,
+  "speaker": "Unknown",
+  "en": "Are you guys familiar with generative UI?",
+  "zh": "你们熟悉生成式 UI 吗？"
+ },
+ {
+  "seg": 161,
+  "start": 644.902,
+  "end": 645.883,
+  "speaker": "Unknown",
+  "en": "Have you guys played with it?",
+  "zh": "你们玩过它吗？"
+ },
+ {
+  "seg": 162,
+  "start": 646.363,
+  "end": 646.984,
+  "speaker": "Unknown",
+  "en": "Let me see here.",
+  "zh": "你怎么能为我消除认知负担？"
+ },
+ {
+  "seg": 163,
+  "start": 647.884,
+  "end": 648.224,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 164,
+  "start": 648.324,
+  "end": 648.544,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 165,
+  "start": 648.604,
+  "end": 649.204,
+  "speaker": "Unknown",
+  "en": "That's really cool.",
+  "zh": "那真的很酷。"
+ },
+ {
+  "seg": 166,
+  "start": 649.665,
+  "end": 649.885,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 167,
+  "start": 650.365,
+  "end": 658.268,
+  "speaker": "Unknown",
+  "en": "So, what I would like just to share with you guys, it's all about how much control you want to exercise over the experience.",
+  "zh": "那么，我想和大家分享的是，这完全取决于你想对体验施加多少控制。"
+ },
+ {
+  "seg": 168,
+  "start": 658.668,
+  "end": 667.151,
+  "speaker": "Unknown",
+  "en": "And this matters a lot because, you know, as a non-deterministic solution, you can decide if you want something really like this.",
+  "zh": "这一点很重要，因为，你知道，作为一个非确定性的解决方案，你可以决定是否想要真正像这样的东西。"
+ },
+ {
+  "seg": 169,
+  "start": 667.491,
+  "end": 668.191,
+  "speaker": "Unknown",
+  "en": "So, let's have a look.",
+  "zh": "那么，我们来看一下。"
+ },
+ {
+  "seg": 170,
+  "start": 669.051,
+  "end": 669.251,
+  "speaker": "Unknown",
+  "en": "Here.",
+  "zh": "这里。"
+ },
+ {
+  "seg": 171,
+  "start": 669.551,
+  "end": 670.792,
+  "speaker": "Unknown",
+  "en": "This is ChatGPT.",
+  "zh": "这是 ChatGPT。"
+ },
+ {
+  "seg": 172,
+  "start": 671.914,
+  "end": 677.503,
+  "speaker": "Unknown",
+  "en": "And my query was, help me find a Japanese restaurant in SF today.",
+  "zh": "我的查询是，帮我今天在旧金山找一家日本餐厅。"
+ },
+ {
+  "seg": 173,
+  "start": 678.625,
+  "end": 683.312,
+  "speaker": "Unknown",
+  "en": "If you guys see here, this component, this component is very opinionated.",
+  "zh": "如果你们看到这里，这个组件，这个组件是非常固执己见的。"
+ },
+ {
+  "seg": 174,
+  "start": 683.592,
+  "end": 685.055,
+  "speaker": "Unknown",
+  "en": "Would you agree with that here?",
+  "zh": "你们同意这里的说法吗？"
+ },
+ {
+  "seg": 175,
+  "start": 686.212,
+  "end": 690.814,
+  "speaker": "Unknown",
+  "en": "So you can have complete control over this component.",
+  "zh": "所以你可以对这个组件拥有完全的控制。"
+ },
+ {
+  "seg": 176,
+  "start": 691.315,
+  "end": 695.556,
+  "speaker": "Unknown",
+  "en": "So depending upon the nature of your business, this works really well.",
+  "zh": "所以根据你业务性质的不同，这种方式效果非常好。"
+ },
+ {
+  "seg": 177,
+  "start": 696.897,
+  "end": 699.258,
+  "speaker": "Unknown",
+  "en": "And for that, let me just go back here.",
+  "zh": "关于这一点，让我回到这里。"
+ },
+ {
+  "seg": 178,
+  "start": 699.738,
+  "end": 701.699,
+  "speaker": "Unknown",
+  "en": "And then this is what I call control.",
+  "zh": "然后这就是我所说的控制。"
+ },
+ {
+  "seg": 179,
+  "start": 702.1,
+  "end": 709.003,
+  "speaker": "Unknown",
+  "en": "Essentially, you ship the component as it is, the agent will pick and it will display exactly the way that you describe.",
+  "zh": "本质上，你把组件原样交付，智能体会选取它，并且完全按照你描述的方式展示。"
+ },
+ {
+  "seg": 180,
+  "start": 709.603,
+  "end": 725.976,
+  "speaker": "Unknown",
+  "en": "However, depending upon the nature of your business, at least for us, my company, we're a B2B SaaS, there's so much configuration that we don't want to be over prescriptive because the feedback that I keep getting from my customers, oh, the flows are so confusing.",
+  "zh": "然而，根据你业务性质的不同，至少对我们来说，我的公司，我们是 B2B SaaS，有太多的配置，我们不想过于僵化死板，因为我不断从客户那里得到的反馈是，哦，这些流程太让人困惑了。"
+ },
+ {
+  "seg": 181,
+  "start": 726.317,
+  "end": 727.718,
+  "speaker": "Unknown",
+  "en": "There's so much configuration.",
+  "zh": "配置太多了。"
+ },
+ {
+  "seg": 182,
+  "start": 728.058,
+  "end": 730.9,
+  "speaker": "Unknown",
+  "en": "How can you remove the cognitive load for me?",
+  "zh": "你怎么能为我消除认知负担?"
+ },
+ {
+  "seg": 183,
+  "start": 731.521,
+  "end": 736.245,
+  "speaker": "Unknown",
+  "en": "But if you're like booking, for example, this approach works really well.",
+  "zh": "但如果你是像 Booking 这样的公司，例如，这种方式效果非常好。"
+ },
+ {
+  "seg": 184,
+  "start": 736.645,
+  "end": 738.186,
+  "speaker": "Unknown",
+  "en": "And then let's see how it works.",
+  "zh": "然后让我们看看它是如何工作的。"
+ },
+ {
+  "seg": 185,
+  "start": 740.192,
+  "end": 741.774,
+  "speaker": "Unknown",
+  "en": "Essentially, you have the agent.",
+  "zh": "本质上，你有这个智能体。"
+ },
+ {
+  "seg": 186,
+  "start": 742.274,
+  "end": 747.839,
+  "speaker": "Unknown",
+  "en": "The agent would just pick the component from your catalog, and then it will render as it is, right?",
+  "zh": "智能体只需从你的目录中选取组件，然后它就原样渲染，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 748.48,
+  "end": 760.812,
+  "speaker": "Unknown",
+  "en": "And in the interest of time, I'm not gonna touch base on the code snippets that I have for these three different types, but afterwards, if you guys are interested, I can share the presentation, and then you can have a look, all right?",
+  "zh": "为了节省时间，我不会逐一讲解我为这三种不同类型准备的代码片段，但之后，如果你们感兴趣，我可以分享这个演示文稿，然后你们可以看一看，好吗？"
+ },
+ {
+  "seg": 188,
+  "start": 761.793,
+  "end": 762.113,
+  "speaker": "Unknown",
+  "en": "Very good.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 189,
+  "start": 762.618,
+  "end": 765.081,
+  "speaker": "Unknown",
+  "en": "This is at least on the left side.",
+  "zh": "这至少是左边这一侧。"
+ },
+ {
+  "seg": 190,
+  "start": 765.461,
+  "end": 770.546,
+  "speaker": "Unknown",
+  "en": "Let's discuss a little bit on the right side because this is when you give full autonomy to the LLM.",
+  "zh": "让我们稍微讨论一下右边这一侧，因为这是你把完全的自主权交给 LLM 的情况。"
+ },
+ {
+  "seg": 191,
+  "start": 770.947,
+  "end": 775.751,
+  "speaker": "Unknown",
+  "en": "If you guys remember at least the previous attempts from my product, this is exactly what we did.",
+  "zh": "如果你们还记得我产品之前的尝试，这正是我们当时所做的。"
+ },
+ {
+  "seg": 192,
+  "start": 775.952,
+  "end": 783.459,
+  "speaker": "Unknown",
+  "en": "So we just said, so hey, LLM, how would you compose this experience knowing that you have these components, right?",
+  "zh": "所以我们只是说，嘿，LLM，知道你有这些组件，你会如何组合这个体验，对吧？"
+ },
+ {
+  "seg": 193,
+  "start": 784.34,
+  "end": 792.486,
+  "speaker": "Unknown",
+  "en": "That was a little bit of our opinion because it had some of the components available.",
+  "zh": "那里面有一点我们自己的倾向，因为它有一些可用的组件。"
+ },
+ {
+  "seg": 194,
+  "start": 792.866,
+  "end": 803.173,
+  "speaker": "Unknown",
+  "en": "But it could happen that you can just delegate fully to the LLM and then right now I'm here on Claude and I ask Claude, so hey, create an org chart with three levels.",
+  "zh": "但也可能发生的是，你可以完全委托给 LLM，然后现在我在 Claude 这里，我问 Claude，嘿，创建一个三层的组织架构图。"
+ },
+ {
+  "seg": 195,
+  "start": 803.873,
+  "end": 804.373,
+  "speaker": "Unknown",
+  "en": "That was it.",
+  "zh": "就是这些。"
+ },
+ {
+  "seg": 196,
+  "start": 804.874,
+  "end": 811.018,
+  "speaker": "Unknown",
+  "en": "And then Claude just rendered this diagram and it works really well, right?",
+  "zh": "然后 Claude 就渲染出了这个图表，而且效果非常好，对吧？"
+ },
+ {
+  "seg": 197,
+  "start": 811.118,
+  "end": 821.926,
+  "speaker": "Unknown",
+  "en": "But here, if I put myself in the shoes of a company, I'm not sure I would delegate fully to the LLM because I cannot control at least the output and the outcome.",
+  "zh": "但在这里，如果我站在一家公司的立场上，我不确定我会完全委托给 LLM，因为我至少无法控制输出和结果。"
+ },
+ {
+  "seg": 198,
+  "start": 822.446,
+  "end": 829.529,
+  "speaker": "Unknown",
+  "en": "And me personally, me guys as a UX leader, the UX side of me, will always say, no, you gotta be in control.",
+  "zh": "而就我个人而言，作为一个 UX 负责人，我 UX 的一面，总会说，不，你必须掌控。"
+ },
+ {
+  "seg": 199,
+  "start": 829.869,
+  "end": 837.473,
+  "speaker": "Unknown",
+  "en": "There's been a couple of talks here, at least this week, on design, on taste and judgment, and this matters a lot.",
+  "zh": "本周这里至少有几场关于设计的演讲，关于品味和判断力，这非常重要。"
+ },
+ {
+  "seg": 200,
+  "start": 838.033,
+  "end": 845.776,
+  "speaker": "Unknown",
+  "en": "If you guys wanna embark on this journey of leveraging these protocols, you don't wanna delegate too much of the actual experience to the LLM.",
+  "zh": "如果你们想踏上利用这些协议的旅程，你不能把太多实际体验委托给 LLM。"
+ },
+ {
+  "seg": 201,
+  "start": 846.076,
+  "end": 849.418,
+  "speaker": "Unknown",
+  "en": "You gotta find alternatives, and I'm gonna touch on that in just a little bit.",
+  "zh": "你得寻找替代方案，我稍后会讲到这一点。"
+ },
+ {
+  "seg": 202,
+  "start": 850.706,
+  "end": 851.206,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的，很酷。"
+ },
+ {
+  "seg": 203,
+  "start": 851.587,
+  "end": 855.33,
+  "speaker": "Unknown",
+  "en": "And then this is how the open-ended approach works.",
+  "zh": "然后这就是开放式方法的运作方式。"
+ },
+ {
+  "seg": 204,
+  "start": 855.73,
+  "end": 870.441,
+  "speaker": "Unknown",
+  "en": "So essentially, there's going to be an MCP tool, and then this will literally ship the HTML, and then in a sandbox iframe environment, this will be rendered in the host of your choice.",
+  "zh": "所以本质上，会有一个 MCP 工具，然后它会直接发送 HTML，接着在一个沙箱 iframe 环境中，它会在你选择的宿主中被渲染。"
+ },
+ {
+  "seg": 205,
+  "start": 870.461,
+  "end": 877.507,
+  "speaker": "Unknown",
+  "en": "It can be a chat, it can be a cloud, it could be ChatGPT, it could be Perplexity, or it could be any other chat.",
+  "zh": "它可以是一个聊天，可以是一个 Claude，可以是 ChatGPT，可以是 Perplexity，也可以是任何其他聊天工具。"
+ },
+ {
+  "seg": 206,
+  "start": 877.987,
+  "end": 881.53,
+  "speaker": "Unknown",
+  "en": "If you're willing just to give full control to the LLM, good luck.",
+  "zh": "如果你愿意把完全的控制权交给 LLM，那祝你好运。"
+ },
+ {
+  "seg": 207,
+  "start": 882.29,
+  "end": 884.392,
+  "speaker": "Unknown",
+  "en": "But the one that I would like to highlight is",
+  "zh": "但我想着重强调的是"
+ },
+ {
+  "seg": 208,
+  "start": 886.478,
+  "end": 890.021,
+  "speaker": "Unknown",
+  "en": "This here, and this was our choice that we call the declarative.",
+  "zh": "这个，这是我们的选择，我们称之为声明式的。"
+ },
+ {
+  "seg": 209,
+  "start": 890.261,
+  "end": 892.864,
+  "speaker": "Unknown",
+  "en": "The declarative is in the middle.",
+  "zh": "声明式的位于中间。"
+ },
+ {
+  "seg": 210,
+  "start": 893.004,
+  "end": 911.44,
+  "speaker": "Unknown",
+  "en": "If you guys heard some of the protocols, and I don't want to get into the specifics of each because they have different characteristics, but A2UI from Google, JSON render from Vercel, OpenUI by Thesis, those are some of the protocols that will give you this in-between here.",
+  "zh": "如果你们听说过一些协议，我不想深入讲每一个的细节，因为它们有不同的特性，但 Google 的 A2UI、Vercel 的 JSON render、Thesis 的 OpenUI，这些就是能给你这种中间态的协议。"
+ },
+ {
+  "seg": 211,
+  "start": 911.757,
+  "end": 913.198,
+  "speaker": "Unknown",
+  "en": "And let's have a look, right?",
+  "zh": "我们来看一下，对吧？"
+ },
+ {
+  "seg": 212,
+  "start": 913.758,
+  "end": 940.718,
+  "speaker": "Unknown",
+  "en": "So, at least for my product, the one that I just showed, the orchestrator agent will eventually, if you think of the whole traversal, the user will enter the query, and then there's gonna be the intent classification based off of the intent classification, then the tools will be invoked, the data will be retrieved, and somewhat in between, at least there will be the mapping of the eligible components from your catalog,",
+  "zh": "所以，至少对我的产品来说，就是我刚才展示的那个，编排智能体最终会——如果你把整个遍历过程想一遍——用户输入查询，然后会进行意图分类，基于意图分类，接着工具会被调用，数据会被检索，在中间的某个环节，至少会把来自你目录的符合条件的组件进行映射，"
+ },
+ {
+  "seg": 213,
+  "start": 941.918,
+  "end": 945.581,
+  "speaker": "Unknown",
+  "en": "to the entities of the tools, right?",
+  "zh": "映射到工具的实体，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 946.001,
+  "end": 949.243,
+  "speaker": "Unknown",
+  "en": "And then the orchestrator would just broadcast this UI description.",
+  "zh": "然后编排智能体就会广播这个 UI 描述。"
+ },
+ {
+  "seg": 215,
+  "start": 949.383,
+  "end": 950.524,
+  "speaker": "Unknown",
+  "en": "It's like a UI spec.",
+  "zh": "它就像一个 UI 规范。"
+ },
+ {
+  "seg": 216,
+  "start": 950.924,
+  "end": 958.95,
+  "speaker": "Unknown",
+  "en": "This UI spec will be also, we have this component catalog here, and we use the ZOD schema, and then you've got to be compliant with these protocols.",
+  "zh": "这个 UI 规范也会——我们这里有这个组件目录，我们使用 ZOD schema，然后你必须符合这些协议。"
+ },
+ {
+  "seg": 217,
+  "start": 958.97,
+  "end": 960.811,
+  "speaker": "Unknown",
+  "en": "This is just one of the requirements.",
+  "zh": "这只是要求之一。"
+ },
+ {
+  "seg": 218,
+  "start": 961.171,
+  "end": 962.192,
+  "speaker": "Unknown",
+  "en": "And then you just render that.",
+  "zh": "然后你只需渲染它。"
+ },
+ {
+  "seg": 219,
+  "start": 963.432,
+  "end": 966.854,
+  "speaker": "Unknown",
+  "en": "And then the final output will be the native UI.",
+  "zh": "最终输出将是原生 UI。"
+ },
+ {
+  "seg": 220,
+  "start": 967.074,
+  "end": 968.615,
+  "speaker": "Unknown",
+  "en": "In this case, the React components.",
+  "zh": "在这个例子里，就是 React 组件。"
+ },
+ {
+  "seg": 221,
+  "start": 969.256,
+  "end": 969.696,
+  "speaker": "Unknown",
+  "en": "This is it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 222,
+  "start": 970.176,
+  "end": 977.961,
+  "speaker": "Unknown",
+  "en": "The good thing about the declarative approach is it will be compliant with your design system everywhere.",
+  "zh": "声明式方法的好处是它在任何地方都会符合你的设计系统。"
+ },
+ {
+  "seg": 223,
+  "start": 978.381,
+  "end": 979.161,
+  "speaker": "Unknown",
+  "en": "This matters a lot.",
+  "zh": "这一点非常重要。"
+ },
+ {
+  "seg": 224,
+  "start": 979.361,
+  "end": 987.646,
+  "speaker": "Unknown",
+  "en": "So, in our case, we did not want to delegate to the LLM because you guys saw over there, you can change the copy.",
+  "zh": "所以在我们的案例中，我们不想委托给 LLM，因为你们在那边看到了，文案是可以被改变的。"
+ },
+ {
+  "seg": 225,
+  "start": 988.307,
+  "end": 989.388,
+  "speaker": "Unknown",
+  "en": "So, it's not Q1.",
+  "zh": "所以它不是 Q1。"
+ },
+ {
+  "seg": 226,
+  "start": 989.788,
+  "end": 992.892,
+  "speaker": "Unknown",
+  "en": "Sometimes it's gonna be March, January to March.",
+  "zh": "有时候会是三月、一月到三月。"
+ },
+ {
+  "seg": 227,
+  "start": 993.273,
+  "end": 994.094,
+  "speaker": "Unknown",
+  "en": "It matters a lot.",
+  "zh": "这非常重要。"
+ },
+ {
+  "seg": 228,
+  "start": 994.274,
+  "end": 997.118,
+  "speaker": "Unknown",
+  "en": "So, within UX, we have different vectors, right?",
+  "zh": "所以，在 UX 内部，我们有不同的向量，对吧？"
+ },
+ {
+  "seg": 229,
+  "start": 997.498,
+  "end": 1006.049,
+  "speaker": "Unknown",
+  "en": "We have the actual UX, if you think of the overall experience, there is UI, there's also copy, UX writing, and so on and so forth.",
+  "zh": "我们有实际的 UX，如果你把整体体验想一遍，有 UI，还有文案、UX 写作等等。"
+ },
+ {
+  "seg": 230,
+  "start": 1006.409,
+  "end": 1008.93,
+  "speaker": "Unknown",
+  "en": "But this approach gives us this in-between.",
+  "zh": "但这种方法给了我们这个中间态。"
+ },
+ {
+  "seg": 231,
+  "start": 1009.451,
+  "end": 1026.819,
+  "speaker": "Unknown",
+  "en": "It is less deterministic, and I think this is a really good segue to some of the challenges, because imagine, I'm gonna use my example once again, the orchestrator would just fetch the eligible components for that query, but then it's up to the LLM how to place in the UI.",
+  "zh": "它的确定性较低，我认为这是一个很好的引子，可以引出一些挑战，因为想象一下，我要再次用我的例子，编排智能体只会为该查询获取符合条件的组件，但如何在 UI 中摆放它们则取决于 LLM。"
+ },
+ {
+  "seg": 232,
+  "start": 1027.299,
+  "end": 1029.601,
+  "speaker": "Unknown",
+  "en": "And this can get really, really messy, right?",
+  "zh": "而这会变得非常、非常混乱，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 1030.361,
+  "end": 1033.883,
+  "speaker": "Unknown",
+  "en": "And those are the challenges that I would like to share with you guys here.",
+  "zh": "这些就是我想在这里与你们分享的挑战。"
+ },
+ {
+  "seg": 234,
+  "start": 1034.683,
+  "end": 1037.676,
+  "speaker": "Unknown",
+  "en": "I gotta be careful because I've got only 30 minutes, but let's go.",
+  "zh": "我得小心一点，因为我只有 30 分钟，但我们继续吧。"
+ },
+ {
+  "seg": 235,
+  "start": 1038.592,
+  "end": 1046.458,
+  "speaker": "Unknown",
+  "en": "So the first challenge is if the agent picks the components, who's in charge of what entity is in charge of arranging them?",
+  "zh": "所以第一个挑战是，如果智能体挑选组件，那么谁负责、哪个实体负责安排它们？"
+ },
+ {
+  "seg": 236,
+  "start": 1046.918,
+  "end": 1048.92,
+  "speaker": "Unknown",
+  "en": "And this is information architecture, right?",
+  "zh": "这就是信息架构，对吧？"
+ },
+ {
+  "seg": 237,
+  "start": 1049.34,
+  "end": 1051.942,
+  "speaker": "Unknown",
+  "en": "This is a critical aspect of UX.",
+  "zh": "这是 UX 的一个关键方面。"
+ },
+ {
+  "seg": 238,
+  "start": 1052.322,
+  "end": 1057.025,
+  "speaker": "Unknown",
+  "en": "And then once again, if you put yourself in the shoes of the average customer, it matters a lot.",
+  "zh": "再说一次，如果你把自己放在普通客户的位置上，这非常重要。"
+ },
+ {
+  "seg": 239,
+  "start": 1057.506,
+  "end": 1060.988,
+  "speaker": "Unknown",
+  "en": "So if you're just left alone, the placement can be totally random.",
+  "zh": "所以如果放任不管，摆放可能完全是随机的。"
+ },
+ {
+  "seg": 240,
+  "start": 1061.429,
+  "end": 1067.273,
+  "speaker": "Unknown",
+  "en": "So at least in my team, we borrowed this concept of atomic design.",
+  "zh": "所以至少在我的团队，我们借用了原子设计这个概念。"
+ },
+ {
+  "seg": 241,
+  "start": 1067.813,
+  "end": 1069.895,
+  "speaker": "Unknown",
+  "en": "And Atomic Design, it goes like this.",
+  "zh": "原子设计是这样的。"
+ },
+ {
+  "seg": 242,
+  "start": 1070.155,
+  "end": 1071.015,
+  "speaker": "Unknown",
+  "en": "Let me just change here.",
+  "zh": "让我在这里切换一下。"
+ },
+ {
+  "seg": 243,
+  "start": 1072.476,
+  "end": 1086.166,
+  "speaker": "Unknown",
+  "en": "Yeah, so as you can see, Atomic Design, and then I have the definition, is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner.",
+  "zh": "是的，正如你们看到的，原子设计——这里有定义——是一种由五个不同阶段组成的方法论，它们协同工作，以更审慎、更有层次的方式创建界面设计系统。"
+ },
+ {
+  "seg": 244,
+  "start": 1086.526,
+  "end": 1096.453,
+  "speaker": "Unknown",
+  "en": "This helps a lot, right, because those are the individual elements, and if you think of the overall structure of the page, it gives me the ability to steer as I see fit.",
+  "zh": "这很有帮助，对吧，因为那些是个体元素，如果你把页面的整体结构想一遍，它给了我按我的意愿进行引导的能力。"
+ },
+ {
+  "seg": 245,
+  "start": 1097.093,
+  "end": 1102.578,
+  "speaker": "Unknown",
+  "en": "And what we've done in my team, so this UX agent, we harnessed this UX agent.",
+  "zh": "而我们在我的团队所做的，就是这个 UX 智能体，我们利用了这个 UX 智能体。"
+ },
+ {
+  "seg": 246,
+  "start": 1103.019,
+  "end": 1112.328,
+  "speaker": "Unknown",
+  "en": "So we eventually taught this UX agent what good looks like, what is the optimal layout for a given situation.",
+  "zh": "所以我们最终教会了这个 UX 智能体什么是好的样子，什么是给定情况下的最优布局。"
+ },
+ {
+  "seg": 247,
+  "start": 1112.408,
+  "end": 1114.79,
+  "speaker": "Unknown",
+  "en": "And we have a catalog of different templates.",
+  "zh": "而且我们有一个不同模板的目录。"
+ },
+ {
+  "seg": 248,
+  "start": 1115.391,
+  "end": 1120.556,
+  "speaker": "Unknown",
+  "en": "But I would like to show you at least this because this detail is very important.",
+  "zh": "但我至少想给你们展示这个，因为这个细节非常重要。"
+ },
+ {
+  "seg": 249,
+  "start": 1121.698,
+  "end": 1124.859,
+  "speaker": "Unknown",
+  "en": "Here, it is the overall hierarchy.",
+  "zh": "这里，是整体的层次结构。"
+ },
+ {
+  "seg": 250,
+  "start": 1125.399,
+  "end": 1134.763,
+  "speaker": "Unknown",
+  "en": "So, if you remember, part of the orchestrator, the orchestrator will eventually just fetch the eligible components to accomplish the query of the user.",
+  "zh": "所以，如果你还记得的话，编排器的一部分，编排器最终会去获取符合条件的组件来完成用户的查询。"
+ },
+ {
+  "seg": 251,
+  "start": 1135.103,
+  "end": 1138.404,
+  "speaker": "Unknown",
+  "en": "But then, the next big question is, how do we arrange that?",
+  "zh": "但接下来的一个大问题是，我们如何来排布它？"
+ },
+ {
+  "seg": 252,
+  "start": 1138.805,
+  "end": 1141.566,
+  "speaker": "Unknown",
+  "en": "The approach that we used was, think of this hierarchy.",
+  "zh": "我们采用的方法是，想象这样一个层级结构。"
+ },
+ {
+  "seg": 253,
+  "start": 1141.966,
+  "end": 1144.807,
+  "speaker": "Unknown",
+  "en": "So, you have the overall page, the layout.",
+  "zh": "所以，你有整体页面，也就是布局。"
+ },
+ {
+  "seg": 254,
+  "start": 1145.347,
+  "end": 1147.81,
+  "speaker": "Unknown",
+  "en": "The layout will contain different slots.",
+  "zh": "布局会包含不同的槽位。"
+ },
+ {
+  "seg": 255,
+  "start": 1148.21,
+  "end": 1150.032,
+  "speaker": "Unknown",
+  "en": "So think of this one here, the header.",
+  "zh": "就想这里的这一个，头部。"
+ },
+ {
+  "seg": 256,
+  "start": 1150.393,
+  "end": 1153.716,
+  "speaker": "Unknown",
+  "en": "You can have the main, and then you can have sub slots.",
+  "zh": "你可以有主区域，然后可以有子槽位。"
+ },
+ {
+  "seg": 257,
+  "start": 1154.257,
+  "end": 1155.618,
+  "speaker": "Unknown",
+  "en": "Sub slots can have sub slots.",
+  "zh": "子槽位可以再包含子槽位。"
+ },
+ {
+  "seg": 258,
+  "start": 1156.439,
+  "end": 1160.263,
+  "speaker": "Unknown",
+  "en": "And within the sub slots, you can have eligible component categories.",
+  "zh": "而在子槽位里，你可以有符合条件的组件类别。"
+ },
+ {
+  "seg": 259,
+  "start": 1160.824,
+  "end": 1171.311,
+  "speaker": "Unknown",
+  "en": "And then this will allow us to steer eventually the optimal placement of the components that have been retrieved by the orchestrator.",
+  "zh": "然后这就能让我们最终引导编排器取回的组件的最优摆放位置。"
+ },
+ {
+  "seg": 260,
+  "start": 1171.771,
+  "end": 1177.815,
+  "speaker": "Unknown",
+  "en": "So this is literally us codifying our UX knowledge into this agent.",
+  "zh": "所以这实际上就是我们把我们的 UX 知识编码进这个智能体。"
+ },
+ {
+  "seg": 261,
+  "start": 1178.255,
+  "end": 1180.758,
+  "speaker": "Unknown",
+  "en": "So, the next time, you know, it doesn't matter.",
+  "zh": "这样，下一次，你知道，就没有关系了。"
+ },
+ {
+  "seg": 262,
+  "start": 1180.778,
+  "end": 1182.539,
+  "speaker": "Unknown",
+  "en": "We'll just follow the same approach.",
+  "zh": "我们只需遵循同样的方法。"
+ },
+ {
+  "seg": 263,
+  "start": 1183,
+  "end": 1184.841,
+  "speaker": "Unknown",
+  "en": "And then this is the hierarchy that we're using.",
+  "zh": "然后这就是我们使用的层级结构。"
+ },
+ {
+  "seg": 264,
+  "start": 1184.922,
+  "end": 1188.025,
+  "speaker": "Unknown",
+  "en": "So, layout, to slots, to subslots, to components.",
+  "zh": "所以，布局，到槽位，到子槽位，到组件。"
+ },
+ {
+  "seg": 265,
+  "start": 1188.425,
+  "end": 1192.329,
+  "speaker": "Unknown",
+  "en": "However, because of the orchestrator, we flip the order.",
+  "zh": "然而，因为有了编排器，我们把顺序颠倒了。"
+ },
+ {
+  "seg": 266,
+  "start": 1192.849,
+  "end": 1198.434,
+  "speaker": "Unknown",
+  "en": "So, from components, components will map to subslots, subslots to slots, slots to templates.",
+  "zh": "所以，从组件出发，组件会映射到子槽位，子槽位映射到槽位，槽位映射到模板。"
+ },
+ {
+  "seg": 267,
+  "start": 1198.875,
+  "end": 1201.878,
+  "speaker": "Unknown",
+  "en": "And then we can just arrange as needed.",
+  "zh": "然后我们就可以按需排布。"
+ },
+ {
+  "seg": 268,
+  "start": 1202.668,
+  "end": 1204.29,
+  "speaker": "Unknown",
+  "en": "So this was a hell of a challenge.",
+  "zh": "所以这是一个极其艰难的挑战。"
+ },
+ {
+  "seg": 269,
+  "start": 1204.611,
+  "end": 1215.987,
+  "speaker": "Unknown",
+  "en": "It is still a challenge, by the way, and this is a really good segue to the second one, the second challenge, which is the actual design, your design system and your catalog.",
+  "zh": "顺便说一句，它现在仍然是个挑战，而这正好很好地引出第二个挑战，也就是实际的设计，你的设计系统和你的目录。"
+ },
+ {
+  "seg": 270,
+  "start": 1216.408,
+  "end": 1218.792,
+  "speaker": "Unknown",
+  "en": "This becomes the heartbeat of the whole thing.",
+  "zh": "这成为了整个东西的心脏。"
+ },
+ {
+  "seg": 271,
+  "start": 1219.512,
+  "end": 1227.638,
+  "speaker": "Unknown",
+  "en": "I cannot stress enough, if you guys see the potential of leveraging these UI protocols for your product, this is going to be a big deal.",
+  "zh": "我怎么强调都不为过，如果你们看到了在自己的产品中利用这些 UI 协议的潜力，这将是一件大事。"
+ },
+ {
+  "seg": 272,
+  "start": 1228.098,
+  "end": 1241.388,
+  "speaker": "Unknown",
+  "en": "So, we're pushing the boundaries, and then we're testing, and we keep on testing these different protocols that I mentioned, HVUI, JSON render, OpenUI, and so on and so forth, but this has been quite challenging because the catalog",
+  "zh": "所以，我们正在突破边界，然后我们在测试，并且持续测试我提到的这些不同协议，HVUI、JSON render、OpenUI，等等等等，但这一直相当有挑战性，因为目录"
+ },
+ {
+  "seg": 273,
+  "start": 1241.844,
+  "end": 1244.965,
+  "speaker": "Unknown",
+  "en": "is the contract between the agent and the UI.",
+  "zh": "是智能体和 UI 之间的契约。"
+ },
+ {
+  "seg": 274,
+  "start": 1245.625,
+  "end": 1248.026,
+  "speaker": "Unknown",
+  "en": "So every property matters.",
+  "zh": "所以每一个属性都很重要。"
+ },
+ {
+  "seg": 275,
+  "start": 1248.407,
+  "end": 1251.628,
+  "speaker": "Unknown",
+  "en": "And not only for the catalog, but for the layout as well.",
+  "zh": "而且不仅目录如此，布局也一样。"
+ },
+ {
+  "seg": 276,
+  "start": 1251.868,
+  "end": 1256.93,
+  "speaker": "Unknown",
+  "en": "So if you remember, the layout has its own components, the slots and the subslots.",
+  "zh": "所以如果你还记得的话，布局有它自己的组件，槽位和子槽位。"
+ },
+ {
+  "seg": 277,
+  "start": 1257.53,
+  "end": 1260.872,
+  "speaker": "Unknown",
+  "en": "Each of those components will have its own attributes.",
+  "zh": "这些组件中的每一个都会有自己的属性。"
+ },
+ {
+  "seg": 278,
+  "start": 1261.373,
+  "end": 1265.275,
+  "speaker": "Unknown",
+  "en": "And all of that, this curation, let me just encapsulate into curation.",
+  "zh": "而所有这些，让我把它统称为「策展」。"
+ },
+ {
+  "seg": 279,
+  "start": 1265.636,
+  "end": 1270.199,
+  "speaker": "Unknown",
+  "en": "This curation is absolutely needed so that you can deliver something meaningful.",
+  "zh": "这种策展是绝对必需的，这样你才能交付有意义的东西。"
+ },
+ {
+  "seg": 280,
+  "start": 1270.739,
+  "end": 1274.742,
+  "speaker": "Unknown",
+  "en": "Not some demo that you will see out there for the sake of demo, right?",
+  "zh": "而不是你在外面看到的那些为了演示而演示的东西，对吧？"
+ },
+ {
+  "seg": 281,
+  "start": 1274.762,
+  "end": 1279.145,
+  "speaker": "Unknown",
+  "en": "So, this will give you a control, will allow you to steer from a UX perspective.",
+  "zh": "所以，这会给你一种掌控力，让你能够从 UX 角度进行引导。"
+ },
+ {
+  "seg": 282,
+  "start": 1280.526,
+  "end": 1280.906,
+  "speaker": "Unknown",
+  "en": "Very good.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 283,
+  "start": 1281.386,
+  "end": 1289.351,
+  "speaker": "Unknown",
+  "en": "And last but not least, one significant challenge that we had is that my teams do not design the pixel anymore.",
+  "zh": "最后但同样重要的是，我们遇到的一个重大挑战是，我的团队不再设计像素了。"
+ },
+ {
+  "seg": 284,
+  "start": 1289.751,
+  "end": 1290.872,
+  "speaker": "Unknown",
+  "en": "I don't know if you could see that.",
+  "zh": "我不知道你们能不能看出来这一点。"
+ },
+ {
+  "seg": 285,
+  "start": 1291.392,
+  "end": 1293.633,
+  "speaker": "Unknown",
+  "en": "So we're not here designing the entire flow.",
+  "zh": "所以我们不再在这里设计整个流程。"
+ },
+ {
+  "seg": 286,
+  "start": 1294.133,
+  "end": 1297.515,
+  "speaker": "Unknown",
+  "en": "Now AI can dictate that to a significant extent.",
+  "zh": "现在 AI 可以在很大程度上决定这些。"
+ },
+ {
+  "seg": 287,
+  "start": 1298.035,
+  "end": 1300.517,
+  "speaker": "Unknown",
+  "en": "But the nature of the work shifted quite a bit.",
+  "zh": "但工作的性质发生了相当大的转变。"
+ },
+ {
+  "seg": 288,
+  "start": 1301.217,
+  "end": 1303.297,
+  "speaker": "Unknown",
+  "en": "And it's been an interesting journey, to say the least.",
+  "zh": "至少可以这么说，这是一段有趣的旅程。"
+ },
+ {
+  "seg": 289,
+  "start": 1303.478,
+  "end": 1304.138,
+  "speaker": "Unknown",
+  "en": "A really good one.",
+  "zh": "一段非常棒的旅程。"
+ },
+ {
+  "seg": 290,
+  "start": 1304.578,
+  "end": 1310.599,
+  "speaker": "Unknown",
+  "en": "But even for the non-technical PMs and UX designers, it was a big hit.",
+  "zh": "但即使是对非技术背景的 PM 和 UX 设计师来说，这也是一次很大的冲击。"
+ },
+ {
+  "seg": 291,
+  "start": 1311.139,
+  "end": 1314.02,
+  "speaker": "Unknown",
+  "en": "Because right now we talk about the schema.",
+  "zh": "因为现在我们谈论的是 schema。"
+ },
+ {
+  "seg": 292,
+  "start": 1314.46,
+  "end": 1317.321,
+  "speaker": "Unknown",
+  "en": "Let's talk about this curation of the catalog.",
+  "zh": "我们来谈谈目录的这种策展。"
+ },
+ {
+  "seg": 293,
+  "start": 1317.401,
+  "end": 1318.621,
+  "speaker": "Unknown",
+  "en": "Let's talk about the rules.",
+  "zh": "我们来谈谈规则。"
+ },
+ {
+  "seg": 294,
+  "start": 1319.021,
+  "end": 1322.062,
+  "speaker": "Unknown",
+  "en": "Let's talk about the synthetic data that we can generate.",
+  "zh": "我们来谈谈我们可以生成的合成数据。"
+ },
+ {
+  "seg": 295,
+  "start": 1322.442,
+  "end": 1328.403,
+  "speaker": "Unknown",
+  "en": "How can we generate the queries that will map to a given component as part of this mapping logic?",
+  "zh": "作为这个映射逻辑的一部分，我们如何生成能映射到给定组件的查询？"
+ },
+ {
+  "seg": 296,
+  "start": 1328.803,
+  "end": 1330.665,
+  "speaker": "Unknown",
+  "en": "Let's talk about interaction patterns.",
+  "zh": "我们来谈谈交互模式。"
+ },
+ {
+  "seg": 297,
+  "start": 1331.245,
+  "end": 1338.09,
+  "speaker": "Unknown",
+  "en": "So this, once again, if you guys are gonna embark on this journey, be aware that the people element is very important.",
+  "zh": "所以，再一次，如果你们打算踏上这段旅程，要意识到人的因素非常重要。"
+ },
+ {
+  "seg": 298,
+  "start": 1338.51,
+  "end": 1341.893,
+  "speaker": "Unknown",
+  "en": "When I talk to other leaders, I talk about the three P's.",
+  "zh": "当我和其他领导者交谈时，我会谈到三个 P。"
+ },
+ {
+  "seg": 299,
+  "start": 1342.353,
+  "end": 1344.715,
+  "speaker": "Unknown",
+  "en": "People, product, and process, right?",
+  "zh": "人员、产品和流程，对吧？"
+ },
+ {
+  "seg": 300,
+  "start": 1344.855,
+  "end": 1346.396,
+  "speaker": "Unknown",
+  "en": "And then a very lightweight process.",
+  "zh": "然后是一个非常轻量的进程。"
+ },
+ {
+  "seg": 301,
+  "start": 1346.777,
+  "end": 1347.717,
+  "speaker": "Unknown",
+  "en": "But this matters a lot.",
+  "zh": "但这一点非常重要。"
+ },
+ {
+  "seg": 302,
+  "start": 1348.658,
+  "end": 1353.38,
+  "speaker": "Unknown",
+  "en": "And with that, I'm going to leave a couple of resources here.",
+  "zh": "关于这个，我要在这里留几个资源。"
+ },
+ {
+  "seg": 303,
+  "start": 1353.58,
+  "end": 1357.941,
+  "speaker": "Unknown",
+  "en": "So, and by the way, those are talks from AIE, for what it's worth.",
+  "zh": "那么，顺便说一下，这些是 AIE 的演讲，仅供参考。"
+ },
+ {
+  "seg": 304,
+  "start": 1358.421,
+  "end": 1362.723,
+  "speaker": "Unknown",
+  "en": "So, yeah, people that have been talking about these protocols over and over and over.",
+  "zh": "所以，是的，有些人一直在反复、反复、反复地讨论这些协议。"
+ },
+ {
+  "seg": 305,
+  "start": 1363.163,
+  "end": 1366.284,
+  "speaker": "Unknown",
+  "en": "So, please, just take advantage, take a screenshot.",
+  "zh": "所以，请好好利用，截个图。"
+ },
+ {
+  "seg": 306,
+  "start": 1367.064,
+  "end": 1372.546,
+  "speaker": "Unknown",
+  "en": "And if you guys want to connect with me here, yeah, my LinkedIn or just take a screenshot.",
+  "zh": "如果大家想和我建立联系，是的，我的 LinkedIn，或者直接截图。"
+ },
+ {
+  "seg": 307,
+  "start": 1372.766,
+  "end": 1376.007,
+  "speaker": "Unknown",
+  "en": "I'll love to talk more about the topic.",
+  "zh": "我很乐意更多聊聊这个话题。"
+ },
+ {
+  "seg": 308,
+  "start": 1376.347,
+  "end": 1378.129,
+  "speaker": "Unknown",
+  "en": "I can tell you this is just a matter of time, right?",
+  "zh": "我可以告诉你，这只是时间问题，对吧？"
+ },
+ {
+  "seg": 309,
+  "start": 1378.149,
+  "end": 1378.85,
+  "speaker": "Unknown",
+  "en": "So this is coming.",
+  "zh": "所以这是即将到来的。"
+ },
+ {
+  "seg": 310,
+  "start": 1379.09,
+  "end": 1380.011,
+  "speaker": "Unknown",
+  "en": "So thank you so much.",
+  "zh": "非常感谢大家。"
+ }
+]

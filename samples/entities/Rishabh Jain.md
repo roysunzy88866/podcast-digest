@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":15,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":16,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
 
 <script>
 (function(){

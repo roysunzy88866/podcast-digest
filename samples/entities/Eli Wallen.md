@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]]
 
 </div>
 

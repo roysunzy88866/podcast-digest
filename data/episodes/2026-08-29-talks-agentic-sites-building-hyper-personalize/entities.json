@@ -1,0 +1,445 @@
+{
+  "episode_id": "2026-08-29-talks-agentic-sites-building-hyper-personalize",
+  "podcast": "精选演讲",
+  "date": "2026-08-29",
+  "tags": [
+    "智能体网站",
+    "超个性化",
+    "快速推理",
+    "模型评估",
+    "营销技术"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "carlos-sanchez",
+      "type": "person",
+      "role": "guest",
+      "name": "Carlos Sanchez",
+      "file": "Carlos Sanchez",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agentic-sites",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体网站 (agentic sites)",
+      "file": "智能体网站",
+      "primary": true,
+      "how_described": "本集核心概念:能识别浏览用户意图、实时为当前用户单独生成个性化页面的网站,生成一个页面约 1.1 秒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.155,
+            24.397
+          ],
+          "quote": "I'm going to talk to you about agentic sites, how we call it is building hyper-personalized websites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            61.659,
+            65.303
+          ],
+          "quote": "What are agentic sites and how are we building this thing?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hyper-personalized",
+      "type": "concept",
+      "role": "concept",
+      "name": "超个性化 (hyper-personalized)",
+      "file": "超个性化",
+      "primary": true,
+      "how_described": "本集说要解决「一个网站适合所有人」的老问题,追求超个性化体验,即「一个人的受众」:为每个个体实时定制页面,提升参与度和转化率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.155,
+            24.397
+          ],
+          "quote": "I'm going to talk to you about agentic sites, how we call it is building hyper-personalized websites.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            193.558,
+            195.859
+          ],
+          "quote": "We want hyper-personalized experiences.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集反复强调快速推理是关键:页面生成须控制在 1-2 秒内,Cerebras + Gemma 4 实测每秒 2,200-2,300 token,LLM 耗时约一秒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            130.073,
+            136.756
+          ],
+          "quote": "We use Cerebras for fast inference, or we can use also, we tried Bedrock and a bunch of others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            736.63,
+            752.66
+          ],
+          "quote": "And you have, obviously, you have to have the vector database, the inference machinery, and the Adobe Experience Manager is doing the serving the, at the edge is serving the pages and the static content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cerebras",
+      "type": "company",
+      "role": "company",
+      "name": "Cerebras",
+      "file": "Cerebras",
+      "primary": true,
+      "how_described": "本集用它做快速推理:搭配 Gemma 4 生成页面平均延迟 1.1 秒,比第二名 4.6 秒好一个量级,「以前做梦都不敢想的速度」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            130.073,
+            136.756
+          ],
+          "quote": "We use Cerebras for fast inference, or we can use also, we tried Bedrock and a bunch of others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            137.156,
+            141.238
+          ],
+          "quote": "I'll be showing Cerebras today, and you will see the reason why.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            397.767,
+            419.53
+          ],
+          "quote": "This is an... We secured this, some of these queries, so we have 15 prompts for this example site, and we have... At the top, you can see with Cerebras on the Gemma 4 model that was announced last week, we can get an average latency of 1.1 seconds generating a page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            429.163,
+            433.009
+          ],
+          "quote": "And that's why we use Cerebras for this use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            935.934,
+            937.555
+          ],
+          "quote": "This is using Cerebras Gemma 4.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            938.315,
+            944.738
+          ],
+          "quote": "So the Gemma model from Google running on Cerebras on their very fast chips.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemma-4",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemma 4",
+      "file": "Gemma 4",
+      "primary": true,
+      "how_described": "本集说这是 Google 上周发布的模型,跑在 Cerebras 上生成页面平均 1.1 秒;并论证这类任务不需要大模型,小而快的模型反而更合适。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            397.767,
+            419.53
+          ],
+          "quote": "This is an... We secured this, some of these queries, so we have 15 prompts for this example site, and we have... At the top, you can see with Cerebras on the Gemma 4 model that was announced last week, we can get an average latency of 1.1 seconds generating a page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            935.934,
+            937.555
+          ],
+          "quote": "This is using Cerebras Gemma 4.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adobe-experience-manager",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe Experience Manager",
+      "file": "Adobe Experience Manager",
+      "primary": true,
+      "how_described": "嘉宾所在的产品线(Adobe 的内容管理产品),为大型品牌运营网站和数字资产;本集架构中它负责在边缘提供页面和静态内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            42.463,
+            47.708
+          ],
+          "quote": "I'm a principal scientist at a product that not many people know, Adobe Experience Manager, Content Management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            736.63,
+            752.66
+          ],
+          "quote": "And you have, obviously, you have to have the vector database, the inference machinery, and the Adobe Experience Manager is doing the serving the, at the edge is serving the pages and the static content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe",
+      "file": "Adobe",
+      "primary": true,
+      "how_described": "嘉宾任职的公司,本集展示的「智能体网站」项目出自其 Adobe Experience Manager 团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            40.041,
+            41.142
+          ],
+          "quote": "I work at Adobe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            42.463,
+            47.708
+          ],
+          "quote": "I'm a principal scientist at a product that not many people know, Adobe Experience Manager, Content Management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            736.63,
+            752.66
+          ],
+          "quote": "And you have, obviously, you have to have the vector database, the inference machinery, and the Adobe Experience Manager is doing the serving the, at the edge is serving the pages and the static content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "promptfoo",
+      "type": "concept",
+      "role": "concept",
+      "name": "PromptFoo",
+      "file": "PromptFoo",
+      "primary": true,
+      "how_described": "本集介绍的开源评估工具:针对多家模型提供商批量评估提示词和模型的准确性与延迟,他们用同一套 15 个提示词持续跑模型评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            337.775,
+            356.944
+          ],
+          "quote": "So, PromptFoo allows you to evaluate models and prompts against multiple models providers, and you can do local models and a bunch of OpenAI-compatible providers and a lot of them, basically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "onelabs",
+      "type": "concept",
+      "role": "concept",
+      "name": "OneLabs",
+      "file": "OneLabs",
+      "primary": true,
+      "how_described": "本集说他们构建的工具:输入任意 URL,不到一小时就能生成一个对应的智能体演示站点,可规模化复制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            1006.973,
+            1007.754
+          ],
+          "quote": "of OneLabs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集后端服务的核心引擎:接收用户浏览信号、基于全站 RAG 做推理生成个性化区块;并指出这类任务不需要巨大的 LLM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            119.746,
+            129.253
+          ],
+          "quote": "And then we have a backend service that powers this experience with different LLM providers, LLM services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            481.667,
+            491.933
+          ],
+          "quote": "And you don't need a huge LLM to do this sort of work because you are generating text, you are deciding where to put blogs and how to organize the website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            508.496,
+            514.419
+          ],
+          "quote": "The data we gather from the user, and this is filled into the LLM to personalize the site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            580.962,
+            590.605
+          ],
+          "quote": "So that's also something to consider on the cost implications of doing multiple generations, multiple LLM calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            673.963,
+            688.456
+          ],
+          "quote": "And this site, in this example, we have a product site, and then we have guides, experiences, blogs, and the whole response of the LLM is grounded there, and there's comparisons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            726.22,
+            734.785
+          ],
+          "quote": "So, the backend is basically just calling the LLM and doing some reasoning using the rack that is built on the site to do the generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            844.772,
+            848.995
+          ],
+          "quote": "All of this data is now available for the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            933.613,
+            935.874
+          ],
+          "quote": "So this includes a round trip to the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            958.532,
+            963.614
+          ],
+          "quote": "The LLM time is one second, and again, 2,200 tokens per second.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集提到后端部分跑在 Cloudflare 上,一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            723.738,
+            725.779
+          ],
+          "quote": "Some of these are Cloudflare.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "RAG",
+      "reason": "专名「RAG」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

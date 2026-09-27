@@ -1,0 +1,938 @@
+{
+  "episode_id": "2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg",
+  "podcast": "The a16z Show",
+  "date": "2026-09-27",
+  "tags": [
+    "招聘与文化",
+    "公司扩张",
+    "组织与领导力",
+    "价值观",
+    "创业公司"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "katie-kirsch",
+      "type": "person",
+      "role": "host",
+      "name": "Katie Kirsch",
+      "file": "Katie Kirsch",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "maggie-landers",
+      "type": "person",
+      "role": "cohost",
+      "name": "Maggie Landers",
+      "file": "Maggie Landers",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            86.195,
+            90.399
+          ],
+          "quote": "Today, we're joined by Maggie Landers, who's the VP of Talent at Harvey.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集主角：用 AI 改造法律行业的 AI 应用层公司，四年间估值从 30 亿涨到 110 亿美元，一年净增超 1000 名员工，却『绝对仍然感觉像一家创业公司』，靠三条价值观（果断、简单、工作尚未完成）和信任驱动的文化支撑高速扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            11.014,
+            16.295
+          ],
+          "quote": "You're going to do more in a month at Harvey than you would in a quarter somewhere else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            40.807,
+            45.251
+          ],
+          "quote": "The right sort of mentality for Harvey is that passion to be part of creating it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            64.968,
+            72.114
+          ],
+          "quote": "Maggie explains Harvey's focus on progress over perfection, giving employees the autonomy to move quickly, make mistakes, and learn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            72.775,
+            81.094
+          ],
+          "quote": "They also discuss what Harvey looks for in new hires and why succeeding in a fast-moving environment requires comfort with ambiguity and strong judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            86.195,
+            90.399
+          ],
+          "quote": "Today, we're joined by Maggie Landers, who's the VP of Talent at Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            91.901,
+            104.633
+          ],
+          "quote": "Harvey's valuation has been skyrocketing in the past year from $3 billion last February of 2025 to $5 billion in June, $8 billion in October, $11 billion this past March of 2026.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            105.854,
+            108.897
+          ],
+          "quote": "And you've been at Harvey for, you just hit your one year mark, is that right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            138.303,
+            139.304
+          ],
+          "quote": "Happy birthday, Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            139.725,
+            140.706
+          ],
+          "quote": "Happy birthday, Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            200.691,
+            207.694
+          ],
+          "quote": "And I think that's just a very kind of core fundamental part of what Harvey is about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            262.183,
+            286.508
+          ],
+          "quote": "I would say it still feels like Harvey, and I can explain what that means, but I do think that we've done a good job of understanding kind of what makes somebody successful at Harvey and looking for a lot of those sort of characteristics when we go to market and we bring new people on board.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            290.809,
+            302.623
+          ],
+          "quote": "Kind of self-selection in that I think folks know that Harvey is a really ambitious company and that we are looking to be generational in what we build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            335.519,
+            355.341
+          ],
+          "quote": "And kind of actively working together to try to figure out how to run the process effectively, what the right fit for the role is going to be, and in many cases leaving behind what worked at their old company and in real time trying to figure out what is going to work at Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            355.921,
+            371.633
+          ],
+          "quote": "The beauty of working at a company like Harvey, both sort of AI native and frankly, a place that values kind of progress over perfection and wants to move quickly, is that it almost doesn't matter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            410.918,
+            414.799
+          ],
+          "quote": "But you mentioned, I love what you said about Harvey still feels like it's Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            417.922,
+            421.545
+          ],
+          "quote": "I think that Harvey is unique in certain ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            427.13,
+            433.755
+          ],
+          "quote": "If you come from an environment that you thought moved quickly, you join Harvey and you're like, wow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            433.915,
+            434.896
+          ],
+          "quote": "Harvey moves fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            435.397,
+            439.76
+          ],
+          "quote": "You're going to do more in a month at Harvey than you would in a quarter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            456.28,
+            473.206
+          ],
+          "quote": "I think that most folks at Harvey have been successful in whatever it is that they were doing previously, whether they were practicing law in a more sort of traditional environment, if they worked at a tech company previously, if they came from school or an academic program.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            477.014,
+            492.304
+          ],
+          "quote": "Ridding yourself of needing to be an A student when you join Harvey, where most people probably were A students and super successful at whatever it was that they were doing previously, because what we're trying to do is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            568.495,
+            571.017
+          ],
+          "quote": "Sort of how Harvey might impact their lifestyle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            574.259,
+            585.568
+          ],
+          "quote": "And the reality is I have seen more sort of true collaboration and teamwork at Harvey than I would have ever imagined, probably more so anywhere.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            687.123,
+            697.45
+          ],
+          "quote": "There is nobody—I would be hard-pressed to find anybody at Harvey who feels like they're part of a machine that could be running without them in the same way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            722.076,
+            728.579
+          ],
+          "quote": "And obviously, Harvey is so much bigger than just the founders today, but they're still a massive part of what Harvey is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            728.679,
+            733.721
+          ],
+          "quote": "And, you know, Winston and Gabriel only started Harvey in 2022, which was four years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            796.848,
+            802.031
+          ],
+          "quote": "Harvey is not a place where in order to present something to the executive team or to the founders,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1118.35,
+            1126.016
+          ],
+          "quote": "It sounds like Harvey's, you know, Harvey's culture is open and transparent and vulnerable and supportive and low ego.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1131.8,
+            1134.742
+          ],
+          "quote": "You know, it's clear why people would want to join Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1134.762,
+            1141.647
+          ],
+          "quote": "I'm curious, you know, why would people leave or why do you tend to see people not be as great of a fit for Harvey?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1143.75,
+            1147.011
+          ],
+          "quote": "Harvey is entering teenage years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1248.553,
+            1259.357
+          ],
+          "quote": "We want people to basically get as close to life within Harvey during that interview process as possible for them to be able to make the call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1382.845,
+            1392.988
+          ],
+          "quote": "And we have so many lawyers or folks who are no longer practicing law, but once were within Harvey and all sorts of roles.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1427.579,
+            1432.963
+          ],
+          "quote": "And the folks at Harvey are genuinely looking to be part of transforming all of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1467.429,
+            1470.372
+          ],
+          "quote": "Is that what in part inspired you to join Harvey?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1470.392,
+            1476.138
+          ],
+          "quote": "Or actually tell me about the story of you first hearing about Harvey and deciding to join.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1497.521,
+            1500.623
+          ],
+          "quote": "She's now taken on the COO role at Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1515.136,
+            1520.362
+          ],
+          "quote": "And the other piece was what Harvey was doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1621.95,
+            1624.251
+          ],
+          "quote": "That's sort of the story of Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2244.141,
+            2257.973
+          ],
+          "quote": "We do a great job of having sort of a core Harvey brand and vibe, but also each office feels distinct for that market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2316.867,
+            2320.333
+          ],
+          "quote": "You know, implement Harvey, but truly transform their organizations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2661.779,
+            2682.665
+          ],
+          "quote": "And the right sort of mentality I think for Harvey is that passion to like be part of creating it and the ability to work through some of the what might be seen as noise and not get frustrated but frankly get like energized by it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2710.793,
+            2717.378
+          ],
+          "quote": "Sort of managing the ambiguity is so, so kind of key and critical to being successful at Harvey.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "type": "concept",
+      "role": "concept",
+      "name": "公司文化 (culture)",
+      "file": "公司文化",
+      "primary": true,
+      "how_described": "本集反复讨论 Harvey 的文化：开放、透明、低自我、高强度快节奏，『进步高于完美』，创始人坦承错误、『没有神秘感』，全公司围绕价值观运转。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            172.56,
+            184.425
+          ],
+          "quote": "I think we come together as a company for celebrations like this anniversary, product launches, milestones, but we also have a jobs not finished culture.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            551.532,
+            567.359
+          ],
+          "quote": "A lot of people before they join, whether they're working parents like I am, if they're sort of concerned about this, like they've heard that it's an intense culture, I think folks have questions about",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            715.233,
+            721.596
+          ],
+          "quote": "You know, I often think that the culture of a company comes from, I mean, initially, the founders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            745.066,
+            750.89
+          ],
+          "quote": "What kinds of leaders are they and how do they show up in the company to help create that culture for everyone?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1118.35,
+            1126.016
+          ],
+          "quote": "It sounds like Harvey's, you know, Harvey's culture is open and transparent and vulnerable and supportive and low ego.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2017.575,
+            2018.936
+          ],
+          "quote": "Culture of discourse.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "type": "concept",
+      "role": "concept",
+      "name": "招聘 (hiring)",
+      "file": "招聘",
+      "primary": true,
+      "how_described": "本集主线之一：Harvey 一年内招聘团队从 16 人扩到 80 人、全公司净增超 1000 人，靠反复筛选能成功者的特质与候选人『自我筛选』，面试目标是『确保度假村和宣传册一致』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            317.733,
+            334.279
+          ],
+          "quote": "When the majority of folks on board are relatively new, under one-year tenure, I think you have this unique dynamic where, especially on the recruiting side, I see situations where a recruiter and a hiring manager and a leader are all relatively new.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            734.361,
+            737.262
+          ],
+          "quote": "And now we're talking about hiring 600 people by the end of this year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1756.236,
+            1758.657
+          ],
+          "quote": "And you're hiring hundreds of people right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1762.598,
+            1764.278
+          ],
+          "quote": "What teams are you hiring for?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1777.141,
+            1778.662
+          ],
+          "quote": "We are hiring across every team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1779.282,
+            1781.883
+          ],
+          "quote": "We are hiring pretty much across every region.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2397.877,
+            2401.603
+          ],
+          "quote": "And are there certain locations where you're hiring more aggressively than others?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任 (trust)",
+      "file": "信任",
+      "primary": true,
+      "how_described": "Winston 在 AMA 里说，随着公司成长他最想守住的就是信任：给员工放手执行的自主权，不搞监督、不设摩擦——『我们不是出于恐惧而运作的』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            2119.597,
+            2130.68
+          ],
+          "quote": "Winston said recently in one of our co-founder AMAs that the thing that he wants to hold onto most as we grow is trust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2131.72,
+            2144.743
+          ],
+          "quote": "And the trust that we have for our employees and frankly the agency that we give folks to just run and execute without a lot of the policing and without a lot of the friction",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2165.37,
+            2173.713
+          ],
+          "quote": "That trust, we still allow folks to have that level of agency and autonomy and the values enable it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2186.059,
+            2187.459
+          ],
+          "quote": "I love that it all comes down to trust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2802.893,
+            2823.057
+          ],
+          "quote": "Again, hard to assess and hard to put your finger on it, but having that judgment in an environment that does move really quickly where there is a lot of agency and autonomy is kind of a critical part of success and also being able to maintain that trust.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": true,
+      "how_described": "Maggie 认为在自主权大、出手机会多的快节奏环境里，判断力是稀缺硬素质：不是找 20 个人要反馈，而是知道按下发送之前该让哪个对的人先看过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            72.775,
+            81.094
+          ],
+          "quote": "They also discuss what Harvey looks for in new hires and why succeeding in a fast-moving environment requires comfort with ambiguity and strong judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2741.979,
+            2744.061
+          ],
+          "quote": "Judgment's an important one as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2770.891,
+            2771.912
+          ],
+          "quote": "You have to have good judgment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2802.893,
+            2823.057
+          ],
+          "quote": "Again, hard to assess and hard to put your finger on it, but having that judgment in an environment that does move really quickly where there is a lot of agency and autonomy is kind of a critical part of success and also being able to maintain that trust.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-selection",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我筛选 (self-selection)",
+      "file": "自我筛选",
+      "primary": true,
+      "how_described": "本集把自我筛选作为文化不稀释的机制：公司足够有雄心自然吸引有内在动力的人、劝退不合适的人，面试过程尽量还原真实的 Harvey 让人自己判断来不来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            290.809,
+            302.623
+          ],
+          "quote": "Kind of self-selection in that I think folks know that Harvey is a really ambitious company and that we are looking to be generational in what we build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1841.71,
+            1854.341
+          ],
+          "quote": "And frankly, as we talked before about self-selection, think about is this the kind of environment where I want to work and how they might approach scenarios that come up with those values in mind.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主权 (autonomy)",
+      "file": "自主权",
+      "primary": true,
+      "how_described": "本集说 Harvey 给员工大量自主权和主观能动性，让人不被束缚、直接行动和执行，这正是高强度快节奏能换来职业成就感的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            64.968,
+            72.114
+          ],
+          "quote": "Maggie explains Harvey's focus on progress over perfection, giving employees the autonomy to move quickly, make mistakes, and learn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2165.37,
+            2173.713
+          ],
+          "quote": "That trust, we still allow folks to have that level of agency and autonomy and the values enable it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2750.447,
+            2765.62
+          ],
+          "quote": "But I also think that when you're given agency and autonomy and opportunity for impact and you're going to get a lot of at-bats because we do move relatively quickly, you have to have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2802.893,
+            2823.057
+          ],
+          "quote": "Again, hard to assess and hard to put your finger on it, but having that judgment in an environment that does move really quickly where there is a lot of agency and autonomy is kind of a critical part of success and also being able to maintain that trust.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "透明度 (transparency)",
+      "file": "透明度",
+      "primary": true,
+      "how_described": "本集描述 Harvey 刻意设计的透明：董事会材料全员审阅、创始人季度备忘录全员可读、Slack 上随时问答和 AMA——『如果没有这种开放性，人们不可能产生这么大的影响力』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            1072.424,
+            1078.049
+          ],
+          "quote": "There's a lot of, I guess, vulnerability, for lack of a better word, transparency in terms of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集仅作为对比一笔带过：候选人要理解在 Harvey 变革法律行业，与在 Anthropic 或 OpenAI 等做模型的工作是不同的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 454,
+          "t": [
+            2566.157,
+            2576.339
+          ],
+          "quote": "Anthropic or at OpenAI or at Eleven Labs or at Sierra, I think is super important because it will be different.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集仅作为对比一笔带过：在 Harvey 的工作不同于在 OpenAI、Eleven Labs 或 Sierra 做客服 AI 或模型的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 454,
+          "t": [
+            2566.157,
+            2576.339
+          ],
+          "quote": "Anthropic or at OpenAI or at Eleven Labs or at Sierra, I think is super important because it will be different.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": false,
+      "how_described": "本集出品方：主持人 Katie Kirsch 来自 A16Z，团队还有『你直接去做就行了』的说法，片尾为 A16Z 投资披露声明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            56.12,
+            64.288
+          ],
+          "quote": "A16Z's Katie Kirsch sits down with Harvey VP of Talent Maggie Landers to discuss how the company is approaching hiring and culture as it scales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1646.322,
+            1651.344
+          ],
+          "quote": "We have a funny saying on our, the new media team at A16Z, we always say, you can just do things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2851.124,
+            2864.154
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2864.855,
+            2869.539
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2870.059,
+            2876.684
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

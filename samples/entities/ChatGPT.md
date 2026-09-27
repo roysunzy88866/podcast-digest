@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>78</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>79</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -67,6 +67,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(67:42起):本集在列举需要付费的私有 AI 模型时与 Anthropic、Claude、Gemini 并提
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(05:54起):本集在列举工具时一笔带过，说 ChatGPT work 理论上也能实现类似系统
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(06:45起):本集说 ChatGPT 在数学方面比 Claude 更早变强，在给不出提示时会输出十页毫无洞见的暴力计算，并且有时会在某些推理路径上发生模式崩溃
+- **[[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]]**(11:09起):本集举 ChatGPT 找餐厅的卡片组件为例,说明完全控制路线的组件『非常固执己见』
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(03:47起):本集说它 Katie 每月花 20 美元订阅、当作职业教练使用，帮她走出灾难化思维、外化思考，并最终把她推向了在 Every 写专栏
 - **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(13:50起):本集用 ChatGPT 早期版本比喻 AI 的反直觉发展路径：不是从完美苍蝇走向人类，而是一开始就得到『一个完完全全的人类，但满嘴胡扯』，像在论文里硬着头皮胡编的本科生
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(35:40起):本集说蓝海的原因是人们把 ChatGPT 当 Google 增强器用;它不强求连接邮箱,基础体验只是聊天框,建议还很糟糕,Town 靠强制连接邮箱拉开差距。
@@ -133,7 +134,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*78 集*
+*79 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -192,6 +193,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
+- [[2026-09-01-talks-the-end-of-the-static-screen-architectin|《别再让人适应软件:让 AI 现场为你生成界面》]] — 作为被讨论公司(提及)
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
@@ -220,7 +222,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":337,"OpenAI":134,"Claude":68,"Anthropic":146,"Lenny":67,"Google":47,"Codex":58,"Cursor":69,"LLM":43,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":339,"OpenAI":137,"Claude":69,"Anthropic":147,"Lenny":68,"Google":49,"Codex":58,"Cursor":69,"LLM":44,"AGI":26}</script>
 
 <script>
 (function(){

@@ -211,7 +211,7 @@ Autodesk 投入 [[AI|AI]] 很早，「设计与制造融合」这件事已经做
 
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码]]<span class="pd-rz">同概念:初创公司 (startup)</span>
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识]]<span class="pd-rz">同概念:AI</span>
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同公司:Netflix</span>
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

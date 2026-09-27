@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":37,"GMAP":1}</script>
+<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":38,"GMAP":1}</script>
 
 <script>
 (function(){

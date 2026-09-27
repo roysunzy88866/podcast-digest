@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":337,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":339,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1586 @@
+[
+ {
+  "seg": 0,
+  "start": 12.721,
+  "end": 13.061,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.542,
+  "end": 29.289,
+  "speaker": "Unknown",
+  "en": "I'm sure this week you've seen a ton of talks on how to use agents to improve your workflows, whether that's shipping code or improving CI processes or answering the emails you don't want to bother reading.",
+  "zh": "我敢说这一周你已经看了很多关于如何用智能体改进工作流程的演讲，无论是发布代码、改进 CI 流程，还是回复那些你不想费心读的邮件。"
+ },
+ {
+  "seg": 2,
+  "start": 30.47,
+  "end": 31.751,
+  "speaker": "Unknown",
+  "en": "This is not one of those talks.",
+  "zh": "这不是那种演讲。"
+ },
+ {
+  "seg": 3,
+  "start": 33.411,
+  "end": 42.436,
+  "speaker": "Unknown",
+  "en": "Today I'm going to show you how I built an agent to help me reignite a personal creative passion I used to have.",
+  "zh": "今天我要向你展示我如何构建了一个智能体，来帮助我重燃我曾经拥有的一项个人创作热情。"
+ },
+ {
+  "seg": 4,
+  "start": 44.483,
+  "end": 45.384,
+  "speaker": "Unknown",
+  "en": "These are my headphones.",
+  "zh": "这是我的耳机。"
+ },
+ {
+  "seg": 5,
+  "start": 46.464,
+  "end": 49.566,
+  "speaker": "Unknown",
+  "en": "They're not in the best shape, as you can see.",
+  "zh": "如你所见，它们的状况不太好。"
+ },
+ {
+  "seg": 6,
+  "start": 50.466,
+  "end": 56.83,
+  "speaker": "Unknown",
+  "en": "And you're probably asking yourself, what do really old, kind of crappy headphones have to do with Agenda Commerce?",
+  "zh": "你可能会问，一副很旧、有点破的耳机和 Agenda Commerce 有什么关系？"
+ },
+ {
+  "seg": 7,
+  "start": 58.185,
+  "end": 61.127,
+  "speaker": "Unknown",
+  "en": "Well, to explain that, I'll get a little bit personal.",
+  "zh": "好吧，为了解释这一点，我要讲一点个人经历。"
+ },
+ {
+  "seg": 8,
+  "start": 61.628,
+  "end": 65.491,
+  "speaker": "Unknown",
+  "en": "So long before I was in tech, I used to play music.",
+  "zh": "在我进入科技行业很久之前，我以前玩音乐。"
+ },
+ {
+  "seg": 9,
+  "start": 65.911,
+  "end": 76.779,
+  "speaker": "Unknown",
+  "en": "I was in a touring band, we recorded some albums, and then the usual thing happened where career and family got in the way, and I hadn't played music in probably a good decade.",
+  "zh": "我在一个巡演乐队里，我们录制过一些专辑，然后常见的事情发生了，事业和家庭挡了路，我大概有十年没玩音乐了。"
+ },
+ {
+  "seg": 10,
+  "start": 77.94,
+  "end": 86.306,
+  "speaker": "Unknown",
+  "en": "When I recently started playing again with some friends, and we started recording our sessions, and at that point I realized those would not do.",
+  "zh": "最近我开始和一些朋友重新玩音乐，我们开始录制我们的排练，那时我意识到那些耳机不行了。"
+ },
+ {
+  "seg": 11,
+  "start": 87.927,
+  "end": 101.551,
+  "speaker": "Unknown",
+  "en": "So, a normal person would have gone on YouTube or Reddit or whatever, done some research, then gone on Amazon or run over to Best Buy, bought headphones, right?",
+  "zh": "所以，一个正常人会去 YouTube 或 Reddit 或随便什么地方，做些研究，然后去 Amazon 或者跑到 Best Buy，买副耳机，对吧？"
+ },
+ {
+  "seg": 12,
+  "start": 103.012,
+  "end": 103.972,
+  "speaker": "Unknown",
+  "en": "I work at Stripe, though.",
+  "zh": "不过，我在 Stripe 工作。"
+ },
+ {
+  "seg": 13,
+  "start": 104.992,
+  "end": 112.255,
+  "speaker": "Unknown",
+  "en": "So, I decided instead that I'm going to build an Agenda commerce agent to buy my headphones for me.",
+  "zh": "所以，我决定反其道而行之，我要构建一个 Agenda commerce 智能体来替我买耳机。"
+ },
+ {
+  "seg": 14,
+  "start": 114.135,
+  "end": 116.736,
+  "speaker": "Unknown",
+  "en": "And this isn't as crazy as it sounds because",
+  "zh": "这并不像听起来那么疯狂，因为"
+ },
+ {
+  "seg": 15,
+  "start": 117.831,
+  "end": 126.958,
+  "speaker": "Unknown",
+  "en": "Like one in four people, I have already been using AI to do my research when deciding what products to buy.",
+  "zh": "和四分之一的人一样，我在决定买什么产品时，已经在用 AI 做调研了。"
+ },
+ {
+  "seg": 16,
+  "start": 126.978,
+  "end": 133.382,
+  "speaker": "Unknown",
+  "en": "I recently bought a mixer as well and went back and forth with a chatbot to narrow down the model.",
+  "zh": "我最近还买了一台调音台，和一个聊天机器人来回沟通来确定型号。"
+ },
+ {
+  "seg": 17,
+  "start": 134.743,
+  "end": 135.684,
+  "speaker": "Unknown",
+  "en": "But that's research.",
+  "zh": "但那是调研。"
+ },
+ {
+  "seg": 18,
+  "start": 137.147,
+  "end": 140.189,
+  "speaker": "Unknown",
+  "en": "Can I even get an agent to buy something for me, though?",
+  "zh": "不过，我真的能让一个智能体替我买东西吗？"
+ },
+ {
+  "seg": 19,
+  "start": 140.369,
+  "end": 141.99,
+  "speaker": "Unknown",
+  "en": "Does that infrastructure exist?",
+  "zh": "那种基础设施存在吗？"
+ },
+ {
+  "seg": 20,
+  "start": 143.171,
+  "end": 150.637,
+  "speaker": "Unknown",
+  "en": "Well, over the course of just a few years, we've seen the emergence, scaling, and broader adoption of AI.",
+  "zh": "嗯，在短短几年间，我们见证了 AI 的出现、扩展和更广泛的采用。"
+ },
+ {
+  "seg": 21,
+  "start": 151.317,
+  "end": 161.084,
+  "speaker": "Unknown",
+  "en": "And then, just in the past year, the infrastructure for agentic transactions has been laid down by companies like Google, OpenAI, and Stripe.",
+  "zh": "然后，就在过去一年，智能体交易的基础设施由 Google、OpenAI 和 Stripe 这样的公司铺设下来。"
+ },
+ {
+  "seg": 22,
+  "start": 163.079,
+  "end": 171.627,
+  "speaker": "Unknown",
+  "en": "And this has all led to the emergence of Agenda Commerce, which is AI that can decide, act, and transact on your behalf.",
+  "zh": "而这一切催生了 Agenda Commerce 的出现，也就是能够代表你进行决策、行动和交易的 AI。"
+ },
+ {
+  "seg": 23,
+  "start": 174.089,
+  "end": 176.631,
+  "speaker": "Unknown",
+  "en": "Okay, so all of this sounds good.",
+  "zh": "好的，这一切听起来不错。"
+ },
+ {
+  "seg": 24,
+  "start": 177.372,
+  "end": 178.913,
+  "speaker": "Unknown",
+  "en": "Agenda Commerce is a thing.",
+  "zh": "Agenda Commerce 是个真实存在的东西。"
+ },
+ {
+  "seg": 25,
+  "start": 179.534,
+  "end": 182.697,
+  "speaker": "Unknown",
+  "en": "So I'm going to build an agent to help me buy my new headphones.",
+  "zh": "所以我要构建一个智能体来帮我买新耳机。"
+ },
+ {
+  "seg": 26,
+  "start": 183.538,
+  "end": 185.72,
+  "speaker": "Unknown",
+  "en": "But how can an agent go shopping?",
+  "zh": "但智能体怎么去购物呢？"
+ },
+ {
+  "seg": 27,
+  "start": 187.982,
+  "end": 189.323,
+  "speaker": "Unknown",
+  "en": "When you or I are shopping,",
+  "zh": "当你或我购物时，"
+ },
+ {
+  "seg": 28,
+  "start": 190.909,
+  "end": 197.313,
+  "speaker": "Unknown",
+  "en": "We may consider if, say, a pair of headphones looks cool or professional, like vibes, basically.",
+  "zh": "我们可能会考虑，比如说，一副耳机看起来酷不酷、专不专业，基本上就是看感觉。"
+ },
+ {
+  "seg": 29,
+  "start": 198.194,
+  "end": 202.537,
+  "speaker": "Unknown",
+  "en": "I mean, of course, we'll probably consider the specs and if the price is within our budget.",
+  "zh": "当然，我的意思是，我们可能也会考虑规格参数以及价格是否在预算之内。"
+ },
+ {
+  "seg": 30,
+  "start": 203.277,
+  "end": 207.38,
+  "speaker": "Unknown",
+  "en": "But agents discover products differently than human shoppers.",
+  "zh": "但智能体发现产品的方式和人类购物者不同。"
+ },
+ {
+  "seg": 31,
+  "start": 208.04,
+  "end": 217.927,
+  "speaker": "Unknown",
+  "en": "They read structured data, parse text files, and rely on technical signals to understand what a merchant sells and if it's even open to agent traffic.",
+  "zh": "它们读取结构化数据、解析文本文件，并依赖技术信号来理解商家卖什么，以及商家是否对智能体流量开放。"
+ },
+ {
+  "seg": 32,
+  "start": 220.124,
+  "end": 224.466,
+  "speaker": "Unknown",
+  "en": "So, to enable agents to be able to shop, merchants need to speak their language.",
+  "zh": "所以，为了让智能体能够购物，商家需要说它们的语言。"
+ },
+ {
+  "seg": 33,
+  "start": 224.986,
+  "end": 228.067,
+  "speaker": "Unknown",
+  "en": "And for that, we need new protocols that agents understand.",
+  "zh": "为此，我们需要智能体能理解的新协议。"
+ },
+ {
+  "seg": 34,
+  "start": 229.587,
+  "end": 232.589,
+  "speaker": "Unknown",
+  "en": "One such protocol is the Universal Commerce Protocol.",
+  "zh": "其中一个协议是 Universal Commerce Protocol。"
+ },
+ {
+  "seg": 35,
+  "start": 233.409,
+  "end": 244.873,
+  "speaker": "Unknown",
+  "en": "Think of it as the shared language that agents and merchants speak when transacting, which defines how agents initiate, update, complete, and cancel purchases.",
+  "zh": "把它想象成智能体和商家在交易时所说的共同语言，它定义了智能体如何发起、更新、完成和取消购买。"
+ },
+ {
+  "seg": 36,
+  "start": 247.512,
+  "end": 253.454,
+  "speaker": "Unknown",
+  "en": "A typical merchant has an API with schemas, authentication, and checkout flows.",
+  "zh": "一个典型的商家有一个带 schema、身份验证和结账流程的 API。"
+ },
+ {
+  "seg": 37,
+  "start": 255.615,
+  "end": 264.197,
+  "speaker": "Unknown",
+  "en": "And for an agent to be able to interact with that merchant, we need protocols like UCP to provide a shared language for that API.",
+  "zh": "而要让智能体能够与那个商家交互，我们需要像 UCP 这样的协议为该 API 提供共同语言。"
+ },
+ {
+  "seg": 38,
+  "start": 266.578,
+  "end": 272.28,
+  "speaker": "Unknown",
+  "en": "And UCP is designed to scale across multiple agents and merchants all speaking the same language.",
+  "zh": "而且 UCP 的设计是为了能在多个说同一种语言的智能体和商家之间扩展。"
+ },
+ {
+  "seg": 39,
+  "start": 274.881,
+  "end": 275.141,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 40,
+  "start": 276.753,
+  "end": 278.014,
+  "speaker": "Unknown",
+  "en": "built my commerce agent.",
+  "zh": "我构建了我的 commerce 智能体。"
+ },
+ {
+  "seg": 41,
+  "start": 279.494,
+  "end": 280.795,
+  "speaker": "Unknown",
+  "en": "It's using UCP.",
+  "zh": "它使用 UCP。"
+ },
+ {
+  "seg": 42,
+  "start": 281.375,
+  "end": 285.277,
+  "speaker": "Unknown",
+  "en": "And in this demo, I'm going to show off this agent.",
+  "zh": "在这个演示中，我要展示一下这个智能体。"
+ },
+ {
+  "seg": 43,
+  "start": 285.557,
+  "end": 290.559,
+  "speaker": "Unknown",
+  "en": "So, I'm going to task it with buying new headphones for me.",
+  "zh": "所以，我要给它下达帮我买新耳机的任务。"
+ },
+ {
+  "seg": 44,
+  "start": 290.919,
+  "end": 297.582,
+  "speaker": "Unknown",
+  "en": "So, I tell it that I need new headphones specifically for recording, mixing, and mastering music.",
+  "zh": "我告诉它，我需要新耳机，专门用于录音、混音和母带制作音乐。"
+ },
+ {
+  "seg": 45,
+  "start": 300.431,
+  "end": 304.332,
+  "speaker": "Unknown",
+  "en": "And I get some follow-up questions from it, which is great.",
+  "zh": "我从它那里得到了一些后续问题，这很棒。"
+ },
+ {
+  "seg": 46,
+  "start": 304.472,
+  "end": 308.533,
+  "speaker": "Unknown",
+  "en": "So it asks, what's the environment?",
+  "zh": "所以它问，环境是什么样的？"
+ },
+ {
+  "seg": 47,
+  "start": 308.893,
+  "end": 310.233,
+  "speaker": "Unknown",
+  "en": "What's my other equipment?",
+  "zh": "我的其他设备是什么？"
+ },
+ {
+  "seg": 48,
+  "start": 310.773,
+  "end": 311.773,
+  "speaker": "Unknown",
+  "en": "And what's my budget?",
+  "zh": "我的预算是多少？"
+ },
+ {
+  "seg": 49,
+  "start": 312.273,
+  "end": 314.914,
+  "speaker": "Unknown",
+  "en": "And I say, okay, this is for my home studio.",
+  "zh": "然后我说，好的，这是为我的家庭录音室准备的。"
+ },
+ {
+  "seg": 50,
+  "start": 315.354,
+  "end": 319.735,
+  "speaker": "Unknown",
+  "en": "I give it the exact model of mixer that I have to make sure everything's compatible.",
+  "zh": "我给了它我现有调音台的准确型号，以确保一切都兼容。"
+ },
+ {
+  "seg": 51,
+  "start": 320.755,
+  "end": 329.817,
+  "speaker": "Unknown",
+  "en": "And for a budget, I kind of leave it open-ended on purpose because, well, first of all, it's been like 20 years since I bought headphones, so I have no idea.",
+  "zh": "至于预算，我是故意留白的，因为，首先，我已经大概 20 年没买过耳机了，所以我完全没概念。"
+ },
+ {
+  "seg": 52,
+  "start": 331.22,
+  "end": 336.864,
+  "speaker": "Unknown",
+  "en": "But second, I kind of want to see how the agent deals with this ambiguity.",
+  "zh": "但其次，我也挺想看看这个智能体会如何处理这种模糊性。"
+ },
+ {
+  "seg": 53,
+  "start": 339.226,
+  "end": 352.054,
+  "speaker": "Unknown",
+  "en": "Okay, so I get some options, but I remember that I actually forgot to tell you all an important part of the story, and that is that I live in Portland, Oregon.",
+  "zh": "好的，我得到了一些选项，但我记得我其实忘了告诉你们这个故事里很重要的一部分，那就是我住在俄勒冈州的波特兰。"
+ },
+ {
+  "seg": 54,
+  "start": 353.735,
+  "end": 354.095,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 55,
+  "start": 355.176,
+  "end": 359.319,
+  "speaker": "Unknown",
+  "en": "And we really love supporting our local shops.",
+  "zh": "而且我们真的很喜欢支持本地的店铺。"
+ },
+ {
+  "seg": 56,
+  "start": 360.863,
+  "end": 367.465,
+  "speaker": "Unknown",
+  "en": "So I want to buy my headphones, but I want to do it from a local merchant.",
+  "zh": "所以我想买耳机，但我想从本地商家那里买。"
+ },
+ {
+  "seg": 57,
+  "start": 368.446,
+  "end": 378.509,
+  "speaker": "Unknown",
+  "en": "But today, most merchants are not ready for agentic commerce, and it turns out neither is my favorite shop, Rainy Day Music.",
+  "zh": "但如今，大多数商家还没有为智能体商务做好准备，结果发现我最喜欢的店 Rainy Day Music 也没准备好。"
+ },
+ {
+  "seg": 58,
+  "start": 379.35,
+  "end": 384.051,
+  "speaker": "Unknown",
+  "en": "So the agent tells me their catalog is not accessible.",
+  "zh": "于是智能体告诉我，他们的商品目录无法访问。"
+ },
+ {
+  "seg": 59,
+  "start": 384.852,
+  "end": 388.593,
+  "speaker": "Unknown",
+  "en": "So how does a merchant become agentic commerce ready?",
+  "zh": "那么，一个商家要如何做到为智能体商务做好准备呢？"
+ },
+ {
+  "seg": 60,
+  "start": 390.37,
+  "end": 401.698,
+  "speaker": "Unknown",
+  "en": "Before I continue my shopping, I'm going to help Rainy Day Music get their catalog agent ready so that my agent can shop locally like a good Portlander.",
+  "zh": "在继续购物之前，我要先帮 Rainy Day Music 把他们的商品目录准备好，让我的智能体能够像一个合格的波特兰人那样进行本地消费。"
+ },
+ {
+  "seg": 61,
+  "start": 404.119,
+  "end": 406.321,
+  "speaker": "Unknown",
+  "en": "So, agents don't browse websites like we do.",
+  "zh": "智能体可不会像我们那样浏览网站。"
+ },
+ {
+  "seg": 62,
+  "start": 407.582,
+  "end": 417.708,
+  "speaker": "Unknown",
+  "en": "And while Rainy Day Music's website looks really, really nice for a human shopper, an agent is going to burn through a ton of tokens trying to parse through this.",
+  "zh": "虽然 Rainy Day Music 的网站对人类购物者来说看起来真的、真的很好，但智能体要解析这些内容会烧掉大量的 token。"
+ },
+ {
+  "seg": 63,
+  "start": 420.016,
+  "end": 422.822,
+  "speaker": "Unknown",
+  "en": "That is not the optimal experience for an agent.",
+  "zh": "这对智能体来说不是最优的体验。"
+ },
+ {
+  "seg": 64,
+  "start": 424.585,
+  "end": 427.411,
+  "speaker": "Unknown",
+  "en": "So, how does an agent",
+  "zh": "那么，一个智能体要怎样"
+ },
+ {
+  "seg": 65,
+  "start": 428.247,
+  "end": 429.808,
+  "speaker": "Unknown",
+  "en": "How do we enable an agent to shop?",
+  "zh": "我们要如何让智能体能够购物呢？"
+ },
+ {
+  "seg": 66,
+  "start": 429.948,
+  "end": 435.911,
+  "speaker": "Unknown",
+  "en": "Well, first thing a merchant needs is something called a merchant capabilities manifest.",
+  "zh": "首先，商家需要的东西叫做商家能力清单（merchant capabilities manifest）。"
+ },
+ {
+  "seg": 67,
+  "start": 435.971,
+  "end": 439.713,
+  "speaker": "Unknown",
+  "en": "This is basically a publicly accessible JSON file.",
+  "zh": "这基本上是一个公开可访问的 JSON 文件。"
+ },
+ {
+  "seg": 68,
+  "start": 441.013,
+  "end": 446.996,
+  "speaker": "Unknown",
+  "en": "It's located in the root of the website in a folder called .wellknown.",
+  "zh": "它位于网站的根目录下一个叫做 .wellknown 的文件夹里。"
+ },
+ {
+  "seg": 69,
+  "start": 447.396,
+  "end": 450.158,
+  "speaker": "Unknown",
+  "en": "Agents know specifically to look for that directory.",
+  "zh": "智能体专门知道去找那个目录。"
+ },
+ {
+  "seg": 70,
+  "start": 450.818,
+  "end": 456.401,
+  "speaker": "Unknown",
+  "en": "And it declares the store's capabilities, its supported payment methods, and API endpoints.",
+  "zh": "它声明了店铺的能力、支持的支付方式和 API 端点。"
+ },
+ {
+  "seg": 71,
+  "start": 458.841,
+  "end": 466.431,
+  "speaker": "Unknown",
+  "en": "Next, we need to make the store's catalog agent ready because agents filter rank and justify products when making recommendations.",
+  "zh": "接下来，我们需要让店铺的商品目录为智能体做好准备，因为智能体在做推荐时会筛选、排序并论证产品。"
+ },
+ {
+  "seg": 72,
+  "start": 467.032,
+  "end": 472.279,
+  "speaker": "Unknown",
+  "en": "And that means they need structured text in JSON with only the necessary data.",
+  "zh": "这意味着它们需要 JSON 格式的结构化文本，且只包含必要的数据。"
+ },
+ {
+  "seg": 73,
+  "start": 474.282,
+  "end": 476.965,
+  "speaker": "Unknown",
+  "en": "And that goes for policies as well as product descriptions.",
+  "zh": "政策信息也一样，产品描述也一样。"
+ },
+ {
+  "seg": 74,
+  "start": 477.565,
+  "end": 486.154,
+  "speaker": "Unknown",
+  "en": "Basically, all of the relevant information like shipping or return policies need to be reachable by agents in a format they understand.",
+  "zh": "基本上，所有相关信息，比如配送或退货政策，都需要以智能体能理解的格式让它们能够获取到。"
+ },
+ {
+  "seg": 75,
+  "start": 486.815,
+  "end": 491.299,
+  "speaker": "Unknown",
+  "en": "So, for example, if two stores have the headphones I want at the same price,",
+  "zh": "举例来说，如果两家店里都有我想要的耳机，而且价格相同，"
+ },
+ {
+  "seg": 76,
+  "start": 492.34,
+  "end": 495.505,
+  "speaker": "Unknown",
+  "en": "I might ask the agent which one of those stores offers free shipping.",
+  "zh": "我可能会问智能体这两家店哪一家提供免运费。"
+ },
+ {
+  "seg": 77,
+  "start": 496.125,
+  "end": 505.398,
+  "speaker": "Unknown",
+  "en": "If the information is not readily available, then the agent might hallucinate or just say they don't know, and I'm not quite sure where to buy my headphones still.",
+  "zh": "如果这些信息不是现成可得的，那么智能体可能会产生幻觉，或者直接说它不知道，那我仍然不知道该去哪里买我的耳机。"
+ },
+ {
+  "seg": 78,
+  "start": 507.333,
+  "end": 508.654,
+  "speaker": "Unknown",
+  "en": "Logging is also crucial.",
+  "zh": "日志记录也至关重要。"
+ },
+ {
+  "seg": 79,
+  "start": 509.715,
+  "end": 513.538,
+  "speaker": "Unknown",
+  "en": "So, in Agenda Commerce, the merchant's catalog doesn't just power decisions.",
+  "zh": "在智能体商务中，商家的商品目录不仅仅是驱动决策的。"
+ },
+ {
+  "seg": 80,
+  "start": 514.078,
+  "end": 516.721,
+  "speaker": "Unknown",
+  "en": "It becomes evidence of how those decisions were made.",
+  "zh": "它还成为这些决策是如何做出的证据。"
+ },
+ {
+  "seg": 81,
+  "start": 517.361,
+  "end": 524.427,
+  "speaker": "Unknown",
+  "en": "So, when the agent matches structured attributes, the merchant should record those matches in their logs for accountability.",
+  "zh": "所以，当智能体匹配结构化属性时，商家应该把这些匹配记录到他们的日志里，以便问责。"
+ },
+ {
+  "seg": 82,
+  "start": 526.948,
+  "end": 527.228,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 83,
+  "start": 527.308,
+  "end": 531.912,
+  "speaker": "Unknown",
+  "en": "So, I've helped get my local shop and Gentic Commerce ready.",
+  "zh": "所以，我已经帮我本地店铺为智能体商务做好了准备。"
+ },
+ {
+  "seg": 84,
+  "start": 532.413,
+  "end": 538.798,
+  "speaker": "Unknown",
+  "en": "So, while you and I will still see this beautiful website, my agent is going to see this.",
+  "zh": "这样，你和我仍然会看到这个漂亮的网站，而我的智能体将会看到的是这个。"
+ },
+ {
+  "seg": 85,
+  "start": 539.839,
+  "end": 544.562,
+  "speaker": "Unknown",
+  "en": "It can get the information it needs now without parsing a huge HTML block.",
+  "zh": "现在它可以获取所需的信息，而不用去解析一大块 HTML。"
+ },
+ {
+  "seg": 86,
+  "start": 547.044,
+  "end": 547.385,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 87,
+  "start": 547.505,
+  "end": 551.968,
+  "speaker": "Unknown",
+  "en": "So, I've gotten my store's catalog online.",
+  "zh": "所以，我已经把我店铺的商品目录上线了。"
+ },
+ {
+  "seg": 88,
+  "start": 552.609,
+  "end": 554.971,
+  "speaker": "Unknown",
+  "en": "I'm telling my agent to show me more options.",
+  "zh": "我让我的智能体给我展示更多选项。"
+ },
+ {
+  "seg": 89,
+  "start": 556.218,
+  "end": 564.301,
+  "speaker": "Unknown",
+  "en": "And I'm noticing that it's kind of pushing in favor of more expensive headphones.",
+  "zh": "然后我注意到它有点在往更贵的耳机那边推。"
+ },
+ {
+  "seg": 90,
+  "start": 564.341,
+  "end": 566.862,
+  "speaker": "Unknown",
+  "en": "So, I asked, are they really worth the price difference?",
+  "zh": "于是我问，它们真的值这个差价吗？"
+ },
+ {
+  "seg": 91,
+  "start": 569.102,
+  "end": 575.144,
+  "speaker": "Unknown",
+  "en": "And I'm starting to see that it's giving me kind of an aggressive response.",
+  "zh": "然后我开始发现它给我的回复有点咄咄逼人。"
+ },
+ {
+  "seg": 92,
+  "start": 575.645,
+  "end": 582.807,
+  "speaker": "Unknown",
+  "en": "It's really, really pushing the more expensive headphones and saying I'll regret my decision if I buy the cheap ones.",
+  "zh": "它真的、真的在使劲推那些更贵的耳机，还说如果我买便宜的会后悔自己的决定。"
+ },
+ {
+  "seg": 93,
+  "start": 583.946,
+  "end": 586.267,
+  "speaker": "Unknown",
+  "en": "I don't know if I trust this agent anymore, honestly.",
+  "zh": "说实话，我已经不知道还能不能信任这个智能体了。"
+ },
+ {
+  "seg": 94,
+  "start": 586.747,
+  "end": 588.087,
+  "speaker": "Unknown",
+  "en": "So I tell it, you know what?",
+  "zh": "所以我告诉它，你知道吗，"
+ },
+ {
+  "seg": 95,
+  "start": 588.227,
+  "end": 589.388,
+  "speaker": "Unknown",
+  "en": "I need to think about it.",
+  "zh": "我需要考虑一下。"
+ },
+ {
+  "seg": 96,
+  "start": 591.368,
+  "end": 594.929,
+  "speaker": "Unknown",
+  "en": "And now the agent is completely going off the rails.",
+  "zh": "然后现在这个智能体完全失控了。"
+ },
+ {
+  "seg": 97,
+  "start": 596.57,
+  "end": 598.37,
+  "speaker": "Unknown",
+  "en": "It's being kind of rude and snarky.",
+  "zh": "它变得有点粗鲁又刻薄。"
+ },
+ {
+  "seg": 98,
+  "start": 598.43,
+  "end": 600.031,
+  "speaker": "Unknown",
+  "en": "It's like you need to think about it.",
+  "zh": "它说，你还需要考虑一下？"
+ },
+ {
+  "seg": 99,
+  "start": 601.873,
+  "end": 603.134,
+  "speaker": "Unknown",
+  "en": "Man, what have I created?",
+  "zh": "天哪，我到底造出了个什么东西？"
+ },
+ {
+  "seg": 100,
+  "start": 605.477,
+  "end": 610.541,
+  "speaker": "Unknown",
+  "en": "It's bad enough that this is kind of ruining my experience, but I built this agent.",
+  "zh": "这已经糟糕到有点影响我的体验了，但我构建了这个智能体。"
+ },
+ {
+  "seg": 101,
+  "start": 610.601,
+  "end": 611.102,
+  "speaker": "Unknown",
+  "en": "It's out there.",
+  "zh": "它就在外面运行着。"
+ },
+ {
+  "seg": 102,
+  "start": 611.182,
+  "end": 613.945,
+  "speaker": "Unknown",
+  "en": "What if it dupes somebody into buying something they don't need?",
+  "zh": "如果它骗了别人去买他们不需要的东西怎么办？"
+ },
+ {
+  "seg": 103,
+  "start": 615.666,
+  "end": 620.451,
+  "speaker": "Unknown",
+  "en": "Suddenly, I'm not so sure that I want an agent to go shopping for me.",
+  "zh": "突然之间，我不太确定我是否还想要一个智能体替我去购物了。"
+ },
+ {
+  "seg": 104,
+  "start": 621.011,
+  "end": 623.414,
+  "speaker": "Unknown",
+  "en": "Should I just go to the store like a normal person?",
+  "zh": "我是不是该像个正常人一样去商店？"
+ },
+ {
+  "seg": 105,
+  "start": 625.796,
+  "end": 633.5,
+  "speaker": "Unknown",
+  "en": "Before we make any drastic decisions, though, let's go back and understand what an agent is to try to figure out why it's acting this way.",
+  "zh": "不过，在我们做出任何激进决定之前，让我们回过头来理解一下智能体是什么，试图弄清楚它为什么会这样表现。"
+ },
+ {
+  "seg": 106,
+  "start": 635.081,
+  "end": 637.102,
+  "speaker": "Unknown",
+  "en": "So let's start with how agents work today.",
+  "zh": "那么让我们从智能体如今是如何工作的开始。"
+ },
+ {
+  "seg": 107,
+  "start": 637.882,
+  "end": 641.444,
+  "speaker": "Unknown",
+  "en": "And to help you visualize this, we're going to use some creative metaphors.",
+  "zh": "为了帮助你们把这个形象化，我们会使用一些有创意的比喻。"
+ },
+ {
+  "seg": 108,
+  "start": 642.585,
+  "end": 647.027,
+  "speaker": "Unknown",
+  "en": "So we begin with our brain, which is a large language model that makes decisions.",
+  "zh": "我们从我们的大脑开始，它是一个做决策的大语言模型。"
+ },
+ {
+  "seg": 109,
+  "start": 648.287,
+  "end": 653.09,
+  "speaker": "Unknown",
+  "en": "We give our brain some hands or tools, and these act on the brain's decisions.",
+  "zh": "我们给大脑一些手，也就是工具，这些工具执行大脑的决策。"
+ },
+ {
+  "seg": 110,
+  "start": 654.298,
+  "end": 657.14,
+  "speaker": "Unknown",
+  "en": "The tools are different actions available to the agent.",
+  "zh": "工具是智能体可用的不同操作。"
+ },
+ {
+  "seg": 111,
+  "start": 658.041,
+  "end": 663.405,
+  "speaker": "Unknown",
+  "en": "In our case, different commerce tools such as complete checkout or request payment method.",
+  "zh": "在我们的案例里，是不同的商务工具，比如完成结账或请求支付方式。"
+ },
+ {
+  "seg": 112,
+  "start": 663.945,
+  "end": 666.587,
+  "speaker": "Unknown",
+  "en": "Anything required in the life cycle of a transaction.",
+  "zh": "也就是一笔交易生命周期中所需的任何东西。"
+ },
+ {
+  "seg": 113,
+  "start": 668.849,
+  "end": 672.712,
+  "speaker": "Unknown",
+  "en": "Then we add instructions which shape the brain's reasoning and tool selection.",
+  "zh": "然后我们加入指令，这些指令塑造大脑的推理和工具选择。"
+ },
+ {
+  "seg": 114,
+  "start": 673.845,
+  "end": 678.369,
+  "speaker": "Unknown",
+  "en": "And these instructions are programmed to run in a loop while a certain condition is true.",
+  "zh": "而且这些指令被编程为在一个循环中运行，只要某个条件为真。"
+ },
+ {
+  "seg": 115,
+  "start": 679.29,
+  "end": 684.816,
+  "speaker": "Unknown",
+  "en": "And following these instructions, the agent reaches for the appropriate tools at the appropriate time.",
+  "zh": "按照这些指令，智能体会在恰当的时机伸手拿取恰当的工具。"
+ },
+ {
+  "seg": 116,
+  "start": 686.497,
+  "end": 692.083,
+  "speaker": "Unknown",
+  "en": "And finally, we add the system prompt, which is your persona and ethics policy written in English.",
+  "zh": "最后，我们加入系统提示词，也就是用英文写成的你的角色设定和伦理政策。"
+ },
+ {
+  "seg": 117,
+  "start": 693.677,
+  "end": 714.275,
+  "speaker": "Unknown",
+  "en": "And in practice, your choices when designing the system prompt can result in a fair and pleasant experience for the customer, such as this prompt, which is designed to create a helpful and honest shopping assistant, or a negative experience from a pushy salesperson, such as this prompt, which deliberately uses deceptive practices.",
+  "zh": "而在实践中，你在设计系统提示词时的选择可以给客户带来公平愉快的体验，比如这个提示词，它的设计目标是创建一个乐于助人且诚实的购物助手；也可能带来强行推销员式的负面体验，比如这个提示词，它故意使用欺骗性的手段。"
+ },
+ {
+  "seg": 118,
+  "start": 716.738,
+  "end": 723.444,
+  "speaker": "Unknown",
+  "en": "So, for those building agentic commerce agents, here's a non-exhaustive practical guardrail checklist.",
+  "zh": "那么，对于构建商务智能体的人来说，这里有一份并不详尽的实用护栏清单。"
+ },
+ {
+  "seg": 119,
+  "start": 724.805,
+  "end": 728.287,
+  "speaker": "Unknown",
+  "en": "So, first, always disclose that the user is speaking to an AI agent.",
+  "zh": "首先，始终披露用户正在与一个 AI 智能体对话。"
+ },
+ {
+  "seg": 120,
+  "start": 729.508,
+  "end": 732.351,
+  "speaker": "Unknown",
+  "en": "Be sure the agent discloses any fees upfront.",
+  "zh": "确保智能体预先披露任何费用。"
+ },
+ {
+  "seg": 121,
+  "start": 733.812,
+  "end": 738.276,
+  "speaker": "Unknown",
+  "en": "The user can say stop or cancel at any point, and the agent needs to respect that.",
+  "zh": "用户可以在任何时候说停止或取消，智能体必须尊重这一点。"
+ },
+ {
+  "seg": 122,
+  "start": 739.957,
+  "end": 745.962,
+  "speaker": "Unknown",
+  "en": "The total amount of the transaction should always be less than or equal to the max amount set by the user.",
+  "zh": "交易的总金额应始终小于或等于用户设置的最大金额。"
+ },
+ {
+  "seg": 123,
+  "start": 747.89,
+  "end": 751.711,
+  "speaker": "Unknown",
+  "en": "Don't let the agent use urgency language or other dark patterns.",
+  "zh": "不要让智能体使用制造紧迫感的语言或其他黑暗模式。"
+ },
+ {
+  "seg": 124,
+  "start": 752.912,
+  "end": 757.633,
+  "speaker": "Unknown",
+  "en": "And above all, make sure all agent decisions are logged for auditability.",
+  "zh": "最重要的是，确保所有智能体决策都被记录日志以便审计。"
+ },
+ {
+  "seg": 125,
+  "start": 760.154,
+  "end": 760.414,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 126,
+  "start": 760.834,
+  "end": 764.776,
+  "speaker": "Unknown",
+  "en": "Now that we understand how an agent is configured, let's go back to our shopping demo.",
+  "zh": "现在我们了解了智能体是如何配置的，让我们回到我们的购物演示。"
+ },
+ {
+  "seg": 127,
+  "start": 766.476,
+  "end": 769.437,
+  "speaker": "Unknown",
+  "en": "So, maybe I just had the wrong persona picked.",
+  "zh": "那么，也许我只是选错了角色设定。"
+ },
+ {
+  "seg": 128,
+  "start": 770.297,
+  "end": 775.199,
+  "speaker": "Unknown",
+  "en": "I'm going to go into my configuration and, yeah, it turns out I had",
+  "zh": "我要进入我的配置里看看，嗯，事实证明我之前用了"
+ },
+ {
+  "seg": 129,
+  "start": 775.838,
+  "end": 783.04,
+  "speaker": "Unknown",
+  "en": "A persona with a prompt that starts with, you are an aggressive audio gear salesman who uses every trick in the book to close deals.",
+  "zh": "一个角色，它的提示词开头是：你是一个激进的音频设备销售员，会用尽各种手段来成交订单。"
+ },
+ {
+  "seg": 130,
+  "start": 783.72,
+  "end": 785.801,
+  "speaker": "Unknown",
+  "en": "Well, that explains things.",
+  "zh": "好吧，这就解释得通了。"
+ },
+ {
+  "seg": 131,
+  "start": 785.901,
+  "end": 786.521,
+  "speaker": "Unknown",
+  "en": "I don't want that.",
+  "zh": "我不想要那个。"
+ },
+ {
+  "seg": 132,
+  "start": 786.821,
+  "end": 787.602,
+  "speaker": "Unknown",
+  "en": "Nobody wants that.",
+  "zh": "没有人想要那个。"
+ },
+ {
+  "seg": 133,
+  "start": 788.902,
+  "end": 794.104,
+  "speaker": "Unknown",
+  "en": "Maybe if I can change my persona, I can use my agents by my headphones after all.",
+  "zh": "也许如果我能换掉我的角色设定，我还是可以让我的智能体帮我买耳机。"
+ },
+ {
+  "seg": 134,
+  "start": 796.084,
+  "end": 804.907,
+  "speaker": "Unknown",
+  "en": "So, I go into the config again, and this time I'm going to choose the patient recording gear mentor, and that prompt",
+  "zh": "于是，我再次进入配置，这一次我选择耐心的录音设备导师，这个提示词"
+ },
+ {
+  "seg": 135,
+  "start": 806.02,
+  "end": 812.142,
+  "speaker": "Unknown",
+  "en": "Starts with, you are a seasoned recording engineer who generally loves helping people build their studio at any budget.",
+  "zh": "开头是：你是一位经验丰富的录音工程师，通常非常乐于帮助人们在任何预算下搭建他们的录音室。"
+ },
+ {
+  "seg": 136,
+  "start": 812.642,
+  "end": 814.683,
+  "speaker": "Unknown",
+  "en": "Well, yeah, that sounds much better.",
+  "zh": "嗯，是的，这听起来好多了。"
+ },
+ {
+  "seg": 137,
+  "start": 816.083,
+  "end": 817.064,
+  "speaker": "Unknown",
+  "en": "So, okay.",
+  "zh": "那么，好的。"
+ },
+ {
+  "seg": 138,
+  "start": 817.324,
+  "end": 818.444,
+  "speaker": "Unknown",
+  "en": "I've changed my persona.",
+  "zh": "我已经换掉了我的角色设定。"
+ },
+ {
+  "seg": 139,
+  "start": 818.684,
+  "end": 819.564,
+  "speaker": "Unknown",
+  "en": "I'm going to try again.",
+  "zh": "我要再试一次。"
+ },
+ {
+  "seg": 140,
+  "start": 820.825,
+  "end": 823.125,
+  "speaker": "Unknown",
+  "en": "And I've had some time to think now.",
+  "zh": "而且我现在已经有了一些时间思考。"
+ },
+ {
+  "seg": 141,
+  "start": 823.526,
+  "end": 827.407,
+  "speaker": "Unknown",
+  "en": "And I decide, you know what, I do not want to spend more than $500 on headphones.",
+  "zh": "我决定了，你知道吗，我不想在耳机上花超过 500 美元。"
+ },
+ {
+  "seg": 142,
+  "start": 827.427,
+  "end": 828.287,
+  "speaker": "Unknown",
+  "en": "That seems excessive.",
+  "zh": "那样似乎太过了。"
+ },
+ {
+  "seg": 143,
+  "start": 828.927,
+  "end": 834.01,
+  "speaker": "Unknown",
+  "en": "So I tell the agent, show me more options, but this time keep it under $500.",
+  "zh": "所以我告诉智能体，给我看更多选项，但这次要控制在 500 美元以内。"
+ },
+ {
+  "seg": 144,
+  "start": 835.351,
+  "end": 836.552,
+  "speaker": "Unknown",
+  "en": "And it does.",
+  "zh": "它照做了。"
+ },
+ {
+  "seg": 145,
+  "start": 836.852,
+  "end": 838.193,
+  "speaker": "Unknown",
+  "en": "It follows those instructions.",
+  "zh": "它遵循了那些指令。"
+ },
+ {
+  "seg": 146,
+  "start": 838.273,
+  "end": 840.834,
+  "speaker": "Unknown",
+  "en": "I get back a few options.",
+  "zh": "我收到了几个选项。"
+ },
+ {
+  "seg": 147,
+  "start": 841.815,
+  "end": 846.738,
+  "speaker": "Unknown",
+  "en": "But I want to make sure I've really changed the persona to the agent I trust.",
+  "zh": "但我想确保我真的把角色换成了我信任的那个智能体。"
+ },
+ {
+  "seg": 148,
+  "start": 846.878,
+  "end": 849.76,
+  "speaker": "Unknown",
+  "en": "So I asked again if I can think about it.",
+  "zh": "所以我再次问它我能不能考虑一下。"
+ },
+ {
+  "seg": 149,
+  "start": 851.021,
+  "end": 853.462,
+  "speaker": "Unknown",
+  "en": "And this time the response is much different.",
+  "zh": "而这一次的回应完全不同了。"
+ },
+ {
+  "seg": 150,
+  "start": 853.542,
+  "end": 857.985,
+  "speaker": "Unknown",
+  "en": "It's like I understand, and that's a sensible approach, and so on.",
+  "zh": "就像,我明白了,这是个合理的方案,等等。"
+ },
+ {
+  "seg": 151,
+  "start": 858.633,
+  "end": 863.037,
+  "speaker": "Unknown",
+  "en": "So, this shows how much the system prompt can really affect the user experience.",
+  "zh": "所以,这说明系统提示词真的能对用户体验产生多大的影响。"
+ },
+ {
+  "seg": 152,
+  "start": 865.198,
+  "end": 865.519,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 153,
+  "start": 865.579,
+  "end": 869.682,
+  "speaker": "Unknown",
+  "en": "So, I'm confident I have the right agent now.",
+  "zh": "所以,我确信我现在选对了智能体。"
+ },
+ {
+  "seg": 154,
+  "start": 869.702,
+  "end": 870.783,
+  "speaker": "Unknown",
+  "en": "I trust this one.",
+  "zh": "我信任这一个。"
+ },
+ {
+  "seg": 155,
+  "start": 871.484,
+  "end": 875.927,
+  "speaker": "Unknown",
+  "en": "And we go back and forth a few times, really keep narrowing down my options.",
+  "zh": "然后我们来回沟通了几次,不断缩小我的选择范围。"
+ },
+ {
+  "seg": 156,
+  "start": 878.337,
+  "end": 881.378,
+  "speaker": "Unknown",
+  "en": "At this point, I realized this is the promise of Agenda Commerce.",
+  "zh": "到这时,我意识到这就是 Agenda Commerce 的承诺。"
+ },
+ {
+  "seg": 157,
+  "start": 882.238,
+  "end": 883.379,
+  "speaker": "Unknown",
+  "en": "I gave my requirements.",
+  "zh": "我给出了我的需求。"
+ },
+ {
+  "seg": 158,
+  "start": 884.059,
+  "end": 888.5,
+  "speaker": "Unknown",
+  "en": "The agent picked a few options that fit my unique use case.",
+  "zh": "智能体挑出了几个符合我独特使用场景的选项。"
+ },
+ {
+  "seg": 159,
+  "start": 889.301,
+  "end": 891.421,
+  "speaker": "Unknown",
+  "en": "And then we go back and forth.",
+  "zh": "然后我们来回沟通。"
+ },
+ {
+  "seg": 160,
+  "start": 892.001,
+  "end": 898.804,
+  "speaker": "Unknown",
+  "en": "Either I or the agent ask clarifying questions, and we really narrow down the exact headphones that will work for me.",
+  "zh": "我或智能体会问一些澄清性的问题,我们最终精确锁定了对适合我的耳机。"
+ },
+ {
+  "seg": 161,
+  "start": 899.664,
+  "end": 903.145,
+  "speaker": "Unknown",
+  "en": "And this all worked because I'm ready to buy now.",
+  "zh": "这一切之所以顺利,是因为我已准备好现在就购买。"
+ },
+ {
+  "seg": 162,
+  "start": 905.18,
+  "end": 910.202,
+  "speaker": "Unknown",
+  "en": "So now the agent asked me for some information.",
+  "zh": "于是智能体现在向我要一些信息。"
+ },
+ {
+  "seg": 163,
+  "start": 910.802,
+  "end": 915.785,
+  "speaker": "Unknown",
+  "en": "So obviously my email, name, address for shipping, of course.",
+  "zh": "显然是我的邮箱、姓名、收货地址,当然。"
+ },
+ {
+  "seg": 164,
+  "start": 916.525,
+  "end": 920.527,
+  "speaker": "Unknown",
+  "en": "I pick expedited shipping because I definitely want my headphones soon.",
+  "zh": "我选了加急配送,因为我肯定想尽快拿到我的耳机。"
+ },
+ {
+  "seg": 165,
+  "start": 921.187,
+  "end": 923.928,
+  "speaker": "Unknown",
+  "en": "And then the last part is entering my credit card.",
+  "zh": "最后一步是输入我的信用卡。"
+ },
+ {
+  "seg": 166,
+  "start": 925.865,
+  "end": 931.947,
+  "speaker": "Unknown",
+  "en": "And now I'm thinking, am I really going to give my credit cards an agent iBuild?",
+  "zh": "这时我在想,我真的要把信用卡交给一个智能体 iBuild 吗?"
+ },
+ {
+  "seg": 167,
+  "start": 932.607,
+  "end": 934.408,
+  "speaker": "Unknown",
+  "en": "Like, am I trustworthy?",
+  "zh": "比如,它可信吗?"
+ },
+ {
+  "seg": 168,
+  "start": 934.968,
+  "end": 935.868,
+  "speaker": "Unknown",
+  "en": "How do I know it's safe?",
+  "zh": "我怎么知道它是安全的?"
+ },
+ {
+  "seg": 169,
+  "start": 937.849,
+  "end": 943.691,
+  "speaker": "Unknown",
+  "en": "I think I need to learn more about UCP's built-in guardrails before I can feel safe entering my credit card number.",
+  "zh": "我觉得我需要更多地了解 UCP 内置的护栏,才能放心地输入我的信用卡号。"
+ },
+ {
+  "seg": 170,
+  "start": 945.672,
+  "end": 949.893,
+  "speaker": "Unknown",
+  "en": "And this is where something called the share payment token comes in.",
+  "zh": "这就要说到一个叫 share payment token(共享支付令牌)的东西了。"
+ },
+ {
+  "seg": 171,
+  "start": 950.818,
+  "end": 959.52,
+  "speaker": "Unknown",
+  "en": "And a share payment token is a token representing a raw card number or wallet like Google Pay or Apple Pay or any other kind of wallet.",
+  "zh": "share payment token 是一个代表原始卡号或钱包(如 Google Pay、Apple Pay 或任何其他类型钱包)的令牌。"
+ },
+ {
+  "seg": 172,
+  "start": 960.5,
+  "end": 969.022,
+  "speaker": "Unknown",
+  "en": "It can also include fraud signals and customer reputation data and anything else agents and merchants want to share at the point of purchase.",
+  "zh": "它还可以包含欺诈信号和客户信誉数据,以及智能体和商家在购买时想要共享的任何其他信息。"
+ },
+ {
+  "seg": 173,
+  "start": 971.742,
+  "end": 975.083,
+  "speaker": "Unknown",
+  "en": "And here's how a shared payment token is used in a transaction.",
+  "zh": "下面是 shared payment token 在一笔交易中的使用方式。"
+ },
+ {
+  "seg": 174,
+  "start": 976.265,
+  "end": 981.467,
+  "speaker": "Unknown",
+  "en": "So at that point in the demo, the agent had requested a payment method.",
+  "zh": "在演示的那个环节,智能体已经请求了支付方式。"
+ },
+ {
+  "seg": 175,
+  "start": 982.707,
+  "end": 989.449,
+  "speaker": "Unknown",
+  "en": "It's requesting this actually from the payment provider, which in the case of the demo was Stripe.",
+  "zh": "它实际上是在向支付提供商请求,在演示的例子里就是 Stripe。"
+ },
+ {
+  "seg": 176,
+  "start": 990.409,
+  "end": 994.47,
+  "speaker": "Unknown",
+  "en": "That was the form that I was going to enter my information in.",
+  "zh": "那就是我本来要输入我的信息的表单。"
+ },
+ {
+  "seg": 177,
+  "start": 995.491,
+  "end": 1001.592,
+  "speaker": "Unknown",
+  "en": "And what the agent receives in return, though, is not the credit card number.",
+  "zh": "而智能体收到的回报,并不是信用卡号。"
+ },
+ {
+  "seg": 178,
+  "start": 1001.812,
+  "end": 1003.633,
+  "speaker": "Unknown",
+  "en": "It is the shared payment token.",
+  "zh": "而是 shared payment token。"
+ },
+ {
+  "seg": 179,
+  "start": 1004.713,
+  "end": 1008.914,
+  "speaker": "Unknown",
+  "en": "It then passes that token on to the seller and the seller unwraps the token.",
+  "zh": "然后它把这个令牌传给卖家,卖家拆开这个令牌。"
+ },
+ {
+  "seg": 180,
+  "start": 1009.394,
+  "end": 1016.095,
+  "speaker": "Unknown",
+  "en": "So they get the payment credential and any fraud signals and other data the seller might need.",
+  "zh": "这样他们拿到支付凭证,以及欺诈信号和卖家可能需要的其他数据。"
+ },
+ {
+  "seg": 181,
+  "start": 1017.656,
+  "end": 1021.156,
+  "speaker": "Unknown",
+  "en": "Then the seller passes that on to the payment provider.",
+  "zh": "然后卖家把它传给支付提供商。"
+ },
+ {
+  "seg": 182,
+  "start": 1021.576,
+  "end": 1026.437,
+  "speaker": "Unknown",
+  "en": "Again, so the seller also is not getting my card number.",
+  "zh": "再强调一次,卖家同样也拿不到我的卡号。"
+ },
+ {
+  "seg": 183,
+  "start": 1026.697,
+  "end": 1030.058,
+  "speaker": "Unknown",
+  "en": "They're passing the token to the provider and then the",
+  "zh": "他们是把令牌传给提供商,然后"
+ },
+ {
+  "seg": 184,
+  "start": 1030.495,
+  "end": 1041.102,
+  "speaker": "Unknown",
+  "en": "Provider responds with either a success or failure message, of course, depending on if I have the right funds, if the credit card is valid, and so on.",
+  "zh": "提供商回复成功或失败的消息,当然,取决于我是否有足够的资金、信用卡是否有效等等。"
+ },
+ {
+  "seg": 185,
+  "start": 1042.583,
+  "end": 1047.547,
+  "speaker": "Unknown",
+  "en": "And finally, the merchant confirms the order, sends it to the agent, that sends it to me.",
+  "zh": "最后,商家确认订单,发给智能体,智能体再发给我。"
+ },
+ {
+  "seg": 186,
+  "start": 1051.289,
+  "end": 1059.995,
+  "speaker": "Unknown",
+  "en": "So shared payment tokens are designed with security in mind, and the payment provider enforces all of the limits, not the agent or the merchant.",
+  "zh": "所以 shared payment token 的设计是以安全为核心,并且所有的限制都由支付提供商来执行,而不是智能体或商家。"
+ },
+ {
+  "seg": 187,
+  "start": 1060.516,
+  "end": 1068.039,
+  "speaker": "Unknown",
+  "en": "So, if any guardrail is violated, such as an expired token or an invalid amount of currency, the charge is just rejected.",
+  "zh": "所以,如果任何护栏被违反,比如令牌过期或金额/币种无效,这笔扣款就会直接被拒绝。"
+ },
+ {
+  "seg": 188,
+  "start": 1070.28,
+  "end": 1085.207,
+  "speaker": "Unknown",
+  "en": "Okay, well, I know my agent is using UCP, so I know it only has access to the shared payment token, so I actually feel pretty good about entering my credit card number as that's going to Stripe and not my agent.",
+  "zh": "好,我知道我的智能体在用 UCP,所以我知道它只能访问 shared payment token,所以我实际上对接信用卡号感觉相当放心,因为那是传给 Stripe 的,而不是我的智能体。"
+ },
+ {
+  "seg": 189,
+  "start": 1085.327,
+  "end": 1085.807,
+  "speaker": "Unknown",
+  "en": "So, okay.",
+  "zh": "那么,好。"
+ },
+ {
+  "seg": 190,
+  "start": 1086.709,
+  "end": 1090.913,
+  "speaker": "Unknown",
+  "en": "So now the agent has everything and needs to complete my purchase.",
+  "zh": "现在智能体掌握了一切,需要完成我的购买。"
+ },
+ {
+  "seg": 191,
+  "start": 1092.114,
+  "end": 1096.698,
+  "speaker": "Unknown",
+  "en": "And it once again asks me if I'm sure.",
+  "zh": "它再一次问我是不是确定。"
+ },
+ {
+  "seg": 192,
+  "start": 1096.718,
+  "end": 1098.059,
+  "speaker": "Unknown",
+  "en": "It confirms with me.",
+  "zh": "它和我确认。"
+ },
+ {
+  "seg": 193,
+  "start": 1098.299,
+  "end": 1102.903,
+  "speaker": "Unknown",
+  "en": "I say place my order and it comes back with a success message.",
+  "zh": "我说下单,然后它返回了一条成功消息。"
+ },
+ {
+  "seg": 194,
+  "start": 1103.704,
+  "end": 1111.231,
+  "speaker": "Unknown",
+  "en": "And because I chose the express shipping, I get my headphones the next day and they're there in my studio at home.",
+  "zh": "因为我选了加急配送,第二天我就拿到了耳机,它们已经放在我家里的工作室了。"
+ },
+ {
+  "seg": 195,
+  "start": 1113.415,
+  "end": 1131.253,
+  "speaker": "Unknown",
+  "en": "So, if you want to learn more about Agenda Commerce, we've got lots of videos on the Stripe Developer's YouTube channel and a blog post that go into even more detail on Stripe.dev, and I'll be right outside to answer any questions.",
+  "zh": "所以,如果你想了解更多关于 Agenda Commerce 的内容,我们在 Stripe Developer 的 YouTube 频道上有很多视频,还有一篇博客文章在 Stripe.dev 上有更详细的介绍,我就在外面,随时回答任何问题。"
+ },
+ {
+  "seg": 196,
+  "start": 1131.634,
+  "end": 1131.994,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 197,
+  "start": 1140.233,
+  "end": 1141.64,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

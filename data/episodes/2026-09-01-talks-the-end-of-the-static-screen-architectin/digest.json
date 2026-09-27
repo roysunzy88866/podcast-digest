@@ -1,0 +1,130 @@
+{
+  "title_zh": "别再让人适应软件:让 AI 现场为你生成界面",
+  "tldr": "Commerce Tools 总经理 Gus 讲解如何用 AI 按需生成界面:三种 UI 协议路线的取舍、原子设计如何约束 AI 摆放组件，以及团队的踩坑与解法。",
+  "digest_md": "过去 40 年，我们一直在推送静态的软件体验——人去适应软件，而不是软件适应人。一个普通用户的日常要用好几个 SaaS 应用，每个都有自己的心智模型、自己的操作逻辑，认知负担全都压在用户身上。这是 Commerce Tools 总经理 Gus 的开场判断。他负责公司 0 到 1 产品的产品 UX 和工程，这家公司是 API 优先的电商平台，有 300 多个 API 还在增加。GPT 问世时，我们窥见了真正个性化的样子，但其他一切都还是静态的；即使有了 AI，我们发布东西快了很多，界面本身在很大程度上仍然是死的。他的问题是：为什么？\n\n去年八月，他和公司创始人坐下来问了一个问题：透过人工智能的视角，如果能彻底改变我们与软件交互的方式，可以做出哪些根本性转变？答案就是他要演示的产品。\n\n## 最初的尝试：完全放手给 AI,结果是灾难\n\n第一版产品的做法很自然：用户输入一个查询，比如「创建一份 Q1 的销售报告」，让 AI 自主决定布局、信息架构、从组件目录里检索哪些组件。结果呢？同一个查询换四种措辞，生成了四个完全不同的变体：这一个满屏 KPI 卡片，下一个「Q1」变成了「一月到三月」，第三个塞了更多文字和图表——完全没有一致性。 他给团队的反馈是「不、不、还有不」，无论如何不可能把这个发布到生产环境。\n\n这暴露了生成式 UI 的核心矛盾：非确定性的模型，每次输出都不一样。如果这是一个高度个性化的体验，用户每次提问模型都生成不同的界面，只会制造混乱。\n\n## 演示现在的版本：编排器 + UX 智能体的分工\n\n现在的方案精致多了。用户说「我想策划一个营销活动」，底层有一条编排链路：编排器先提取查询的意图；基于意图定位工具——可以是一方工具、第三方工具，甚至 MCP 服务器上的智能体；这些输出组合起来，为 UX 智能体提供足够的「弹药」和上下文，最终渲染出有意义的界面。 关键是：界面由 AI 决定，但由人引导——他要反复强调这一点。\n\n## 三条路线：你对体验要多少控制权\n\n渲染这类界面有三种 UI 协议路线，选择的依据是你想对体验施加多少控制。\n\n**一是完全控制**：组件原样交付，智能体只能从目录里选取并按你描述的方式展示。ChatGPT 里帮你找餐厅的那种卡片组件就是这样，非常「固执己见」。如果业务像订房网站那样场景固定，这条路效果很好。\n\n**二是完全开放**：把全部自主权交给 LLM。一个 MCP 工具直接发送 HTML,在沙箱 iframe 环境里渲染到任意宿主——可以是 Claude、ChatGPT 或任何聊天工具。他现场让 Claude「创建一个三层的组织架构图」，一句提示就渲染得很好。但站在公司立场，他不建议这么做：你无法控制输出和结果。作为 UX 负责人，他的态度很明确：「你必须掌控。」本周会上好几场演讲都在讲设计、品味和判断力——如果你想走这条协议之路，不能把太多实际体验委托给 LLM。\n\n**三是声明式，他们的选择，居于中间**：Google 的 A2UI、Vercel 的 JSON render、Thesis 的 OpenUI 等协议都提供这种中间态。流程是：编排智能体完成意图分类、调用工具、检索数据之后，把目录中符合条件的组件映射到工具的实体上，然后广播一份 UI 描述——像一个 UI 规范。组件目录用 ZOD schema 定义，必须符合协议要求，最终渲染成原生 UI(他们的例子里是 React 组件)。声明式方法最大的好处：**在任何地方都符合你的设计系统**。 对 B2B SaaS 来说这很关键——客户一直在抱怨流程困惑、配置太多，你不想过于僵化死板，但也不能放任 LLM 随意改文案、改时间表述。\n\n## 挑战一：谁负责摆放组件？\n\n即使编排器取对了组件，怎么在 UI 里摆放完全取决于 LLM,而放任不管，摆放可能完全是随机的。这是信息架构问题，是 UX 的关键一环。\n\n他们的解法是借用**原子设计**(一种把界面拆成从最小元素到完整页面、分层级组织的方法论)，并教 UX 智能体「什么是好的样子」——给定情况下的最优布局是什么。具体做法是定义一个层级结构：整体页面即布局，布局包含槽位，槽位里有子槽位，子槽位可以再嵌套子槽位，子槽位里放符合条件的组件类别。因为有了编排器，他们把顺序颠倒：从组件出发，组件映射到子槽位，子槽位映射到槽位，槽位映射到模板，然后按需排布。 用他的话说，这「实际上就是把我们团队积累多年的 UX 知识编码进这个智能体」——之后不管什么查询，都遵循同样的方法。他坦承这是一个极其艰难的挑战，现在仍然是。\n\n## 挑战二：组件目录成了整个系统的心脏\n\n设计系统和组件目录变成了整个东西的「心脏」。他怎么强调都不为过：如果你看到了在自己产品里用这些 UI 协议的潜力，目录这件事会是一件大事。 因为目录是智能体和 UI 之间的契约——每一个属性都很重要，布局组件(槽位、子槽位)也一样，各有各的属性。他把这些统称为「策展」：这种策展是绝对必需的，这样你交付的才是有意义的东西，而不是外面那些「为了演示而演示」的 demo。他们持续在测试 A2UI、JSON render、OpenUI 这些协议，但目录的维护一直相当有挑战性。\n\n## 挑战三：团队不再画像素了\n\n一个容易被忽视的重大挑战：他的团队不再设计像素了，不再手工设计整个流程，AI 在很大程度上决定这些。工作的性质发生了相当大的转变，即使对非技术背景的 PM 和 UX 设计师也是一次很大的冲击。 因为现在大家谈的是 schema、目录策展、规则、可以生成什么合成数据、如何生成能映射到特定组件的查询、交互模式——全是过去设计师不碰的东西。他的提醒是：如果你们要走这条路，人的因素非常重要。他和其他领导者交流时常说「三个 P」——人员、产品和流程，外加一个非常轻量的流程。\n\n他的收尾判断很直接：生成式 UX 和 UI 的普及「这只是时间问题」，它正在到来。\n\n## 本集带走\n\n- **别把体验全权交给 LLM**:完全开放的路线(直接生成 HTML 渲染)demo 好看，但输出不可控、每次不一致；业务场景固定的(如订房卡片)可以用完全控制的预制组件。\n- **中间态最实用**：用声明式 UI 协议(如 Google 的 A2UI、Vercel 的 JSON render)让 AI 组装、但组件必须来自你的目录、符合你的 schema——好处是输出在任何地方都符合设计系统。\n- **用槽位层级约束 AI 的摆放**：布局→槽位→子槽位→组件的层级，再从组件反推映射到模板，等于把团队的 UX 知识编码进智能体，解决「组件随机摆放」的问题。\n- **把组件目录当契约来维护**：目录是智能体和 UI 之间的契约，每个属性都重要；这份「策展」工作是交付可用产品、而非玩具 demo 的分水岭。\n- **提前管理团队转型**：设计师和 PM 的工作从画像素转向 schema、规则和合成数据；用「人员、产品、流程」三个 P 配一个轻量流程来承接这场转变。",
+  "quotes": [
+    {
+      "en": "This is literally us codifying our UX knowledge into this agent.",
+      "zh": "这实际上就是把我们的 UX 知识编码进这个智能体。",
+      "timestamp": "19:32",
+      "speaker": "Gus Iwanaga"
+    },
+    {
+      "en": "The catalog is the contract between the agent and the UI.",
+      "zh": "目录是智能体和 UI 之间的契约。",
+      "timestamp": "20:40",
+      "speaker": "Gus Iwanaga"
+    },
+    {
+      "en": "My teams do not design the pixel anymore.",
+      "zh": "我的团队不再设计像素了。",
+      "timestamp": "21:26",
+      "speaker": "Gus Iwanaga"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:03",
+      "speaker": "Unknown",
+      "en": "Through the lens of artificial intelligence, what are the foundational shifts that could be made if we could change drastically the way that we interact with software?",
+      "zh": "透过人工智能的视角，如果我们能彻底改变与软件交互的方式，可以做出哪些根本性的转变？"
+    },
+    {
+      "timestamp": "07:32",
+      "speaker": "Unknown",
+      "en": "If this is a heavy personalized experience for the user, imagine if every single time you need to prompt and then at least the model will output something different.",
+      "zh": "如果这是针对用户的高度个性化体验，想象一下每一次你都要提示、而模型至少每次都输出不同的东西。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Unknown",
+      "en": "My feedback to the team and to myself was no, no, and no.",
+      "zh": "我给团队和我自己的反馈是：不、不、还有不。"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Unknown",
+      "en": "It's all about how much control you want to exercise over the experience.",
+      "zh": "这完全取决于你想对体验施加多少控制。"
+    },
+    {
+      "timestamp": "11:23",
+      "speaker": "Unknown",
+      "en": "This component is very opinionated.",
+      "zh": "这个组件是非常固执己见的。"
+    },
+    {
+      "timestamp": "13:42",
+      "speaker": "Unknown",
+      "en": "I'm not sure I would delegate fully to the LLM because I cannot control at least the output and the outcome.",
+      "zh": "我不确定我会完全委托给 LLM,因为我至少无法控制输出和结果。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Unknown",
+      "en": "The UX side of me, will always say, no, you gotta be in control.",
+      "zh": "我 UX 的那一面总会说：不，你必须掌控。"
+    },
+    {
+      "timestamp": "13:58",
+      "speaker": "Unknown",
+      "en": "You don't wanna delegate too much of the actual experience to the LLM.",
+      "zh": "你不能把太多实际体验委托给 LLM。"
+    },
+    {
+      "timestamp": "15:49",
+      "speaker": "Unknown",
+      "en": "It's like a UI spec.",
+      "zh": "它就像一个 UI 规范。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Unknown",
+      "en": "The good thing about the declarative approach is it will be compliant with your design system everywhere.",
+      "zh": "声明式方法的好处是它在任何地方都会符合你的设计系统。"
+    },
+    {
+      "timestamp": "17:37",
+      "speaker": "Unknown",
+      "en": "If you're just left alone, the placement can be totally random.",
+      "zh": "如果放任不管，摆放可能完全是随机的。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Unknown",
+      "en": "This is literally us codifying our UX knowledge into this agent.",
+      "zh": "这实际上就是把我们的 UX 知识编码进这个智能体。"
+    },
+    {
+      "timestamp": "20:41",
+      "speaker": "Unknown",
+      "en": "The catalog is the contract between the agent and the UI.",
+      "zh": "目录是智能体和 UI 之间的契约。"
+    },
+    {
+      "timestamp": "21:05",
+      "speaker": "Unknown",
+      "en": "This curation is absolutely needed so that you can deliver something meaningful.",
+      "zh": "这种策展是绝对必需的，这样你才能交付有意义的东西。"
+    },
+    {
+      "timestamp": "21:21",
+      "speaker": "Unknown",
+      "en": "My teams do not design the pixel anymore.",
+      "zh": "我的团队不再设计像素了。"
+    },
+    {
+      "timestamp": "22:18",
+      "speaker": "Unknown",
+      "en": "Be aware that the people element is very important.",
+      "zh": "要意识到人的因素非常重要。"
+    },
+    {
+      "timestamp": "22:56",
+      "speaker": "Unknown",
+      "en": "I can tell you this is just a matter of time, right?",
+      "zh": "我可以告诉你，这只是时间问题。"
+    }
+  ],
+  "voice_script": "今天这一集，咱们聊一个可能正在改变你和软件打交道方式的东西：生成式界面。主角是 Commerce Tools 的总经理 Gus，他在这家公司负责 0 到 1 产品的用户体验和工程。这家公司是做 API 优先的电商平台，手上有 300 多个 API，而且还在不断增加。\n\n先把问题垫清楚。过去 40 年，我们一直在用静态的软件体验，说白了，是人去适应软件，而不是软件适应人。你现在每天要用好几个 SaaS 应用，每一个都有自己的操作逻辑，认知负担全压在你身上。GPT 问世的时候，我们好像窥见了真正个性化的样子，但即便有了 AI，界面本身在很大程度上还是死的。 Gus 的问题就是：为什么？于是去年八月，他和公司创始人坐下来问了一个根本性的问题：透过 AI 的视角，能不能彻底改变我们和软件交互的方式？答案就是他们后来做的产品，也是今天这条主线。\n\n那他们是怎么开始的呢？第一版做法很自然：用户输入一句话，比如「创建一份 Q1 的销售报告」，让 AI 自己决定布局、自己从组件目录里挑组件。结果是一场灾难。同一句话换四种说法，AI 生成了四个完全不同的界面：这个满屏 KPI 卡片，下一个把 Q1 写成了「一月到三月」，第三个又塞了更多文字图表。Gus 给团队的反馈就三个字：不、不、还有不。\n\n这背后其实暴露了生成式 UI 的核心矛盾：AI 模型是非确定性的，每次输出都不一样。如果每次提问都给你生成一个新界面，那不是个性化，是混乱。那怎么解决？他们现在的方案是让界面由 AI 决定，但由人引导。具体来说，底下有一条编排链路：编排器先提取你查询的意图，再根据意图去找对应的工具，可以是一方工具、第三方工具，甚至别的智能体；这些输出组合起来，喂给一个 UX 智能体，最后渲染出有意义的界面。\n\n顺着这个思路，就绕不开一个关键选择：渲染这种界面，有三条协议路线，选哪条，取决于你想对体验施加多少控制。第一条是完全控制：组件原样交付，AI 只能从目录里选、按你规定的样子展示，ChatGPT 里帮你找餐厅那种卡片就是这类，特别适合场景固定的业务。第二条是完全开放：把全部自主权交给大模型，直接生成 HTML，在沙箱里渲染到任何聊天工具。Gus 现场试过让 Claude 一句话画出三层组织架构图，效果不错。但站在公司立场，他明确不建议这么做，因为你无法控制输出，用他的话说：「你必须掌控。」所以他们的选择是第三条，声明式路线，居于中间：Google 的 A2UI、Vercel 的 JSON render 这些协议都属此类。AI 来组装界面，但组件必须来自你的目录、符合你的规范，好处是在任何地方都符合你的设计系统。对 B2B SaaS 来说这点很关键，客户一直在抱怨流程困惑、配置太多，你不能太僵化，也不能放任模型乱改文案。\n\n不过选了中间路线，新问题跟着来了。第一个问题：组件取对了，可摆哪儿？放任 AI 自己摆，结果可能完全随机。他们的解法是借用原子设计，教 AI「什么是好的样子」，定义出布局、槽位、子槽位这样的层级结构，再从组件反推映射到模板。用 Gus 自己的话说，「这实际上就是把我们团队积累多年的 UX 知识编码进这个智能体」。他坦承这是极难的挑战，到现在依然是。\n\n而要让这套体系转起来，就引出了第二个问题：组件目录。设计系统和组件目录成了整个系统的心脏，目录是智能体和 UI 之间的契约，每一个属性都很重要。Gus 把这份工作叫「策展」，没有这份策展，你交付的就是外面那些为了演示而演示的 demo，不是真产品。\n\n第三个挑战最容易被忽视，却冲击最大：他的团队不再设计像素了。设计师和 PM 的工作从画界面，转向了 schema、目录策展、规则和合成数据，全是过去不碰的东西。Gus 和其他领导者交流时常提「三个 P」——人员、产品和流程，外加一个非常轻量的流程，来承接这场转变。\n\n最后说说我的收尾判断，也是 Gus 的判断：生成式 UX 和 UI 的普及，这只是时间问题，它正在到来。"
+}

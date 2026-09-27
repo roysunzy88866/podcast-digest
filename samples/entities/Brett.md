@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jay Parikh":1,"Core AI":1,"Facebook":15,"Akamai":1,"Microsoft":25,"学习循环":1,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
+<script type="application/json" class="pd-epn">{"Jay Parikh":1,"Core AI":1,"Facebook":16,"Akamai":1,"Microsoft":25,"学习循环":1,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
 
 <script>
 (function(){

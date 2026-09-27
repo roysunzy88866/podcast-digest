@@ -1,0 +1,1546 @@
+[
+ {
+  "seg": 0,
+  "start": 13.514,
+  "end": 13.754,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.794,
+  "end": 15.595,
+  "speaker": "Unknown",
+  "en": "Thank you for coming.",
+  "zh": "感谢大家前来。"
+ },
+ {
+  "seg": 2,
+  "start": 16.155,
+  "end": 24.397,
+  "speaker": "Unknown",
+  "en": "I'm going to talk to you about agentic sites, how we call it is building hyper-personalized websites.",
+  "zh": "我要和你们聊聊智能体网站，我们称之为构建超个性化网站。"
+ },
+ {
+  "seg": 3,
+  "start": 24.457,
+  "end": 26.158,
+  "speaker": "Unknown",
+  "en": "I'm not going to just talk about it.",
+  "zh": "我不只是讲一讲。"
+ },
+ {
+  "seg": 4,
+  "start": 26.258,
+  "end": 28.059,
+  "speaker": "Unknown",
+  "en": "I'm going to show you what we're building.",
+  "zh": "我会给你们展示我们正在构建的东西。"
+ },
+ {
+  "seg": 5,
+  "start": 29.579,
+  "end": 38.182,
+  "speaker": "Unknown",
+  "en": "I've been working on this project for a bit now, and we'll try to show you what is possible today with AI.",
+  "zh": "我做这个项目已经有一段时间了，我们会试着向你们展示今天用 AI 能做到什么。"
+ },
+ {
+  "seg": 6,
+  "start": 40.041,
+  "end": 41.142,
+  "speaker": "Unknown",
+  "en": "I work at Adobe.",
+  "zh": "我在 Adobe 工作。"
+ },
+ {
+  "seg": 7,
+  "start": 42.463,
+  "end": 47.708,
+  "speaker": "Unknown",
+  "en": "I'm a principal scientist at a product that not many people know, Adobe Experience Manager, Content Management.",
+  "zh": "我是一个产品线的首席科学家，这个产品没多少人知道，就是 Adobe Experience Manager,内容管理。"
+ },
+ {
+  "seg": 8,
+  "start": 47.768,
+  "end": 59.478,
+  "speaker": "Unknown",
+  "en": "We run a lot of websites, properties for big brands, and my background is in open source, contributing to a lot of foundations and projects.",
+  "zh": "我们为大型品牌运营很多网站和资产，我的背景是开源，为很多基金会和项目做过贡献。"
+ },
+ {
+  "seg": 9,
+  "start": 61.659,
+  "end": 65.303,
+  "speaker": "Unknown",
+  "en": "What are agentic sites and how are we building this thing?",
+  "zh": "什么是智能体网站，我们是怎么构建这个东西的？"
+ },
+ {
+  "seg": 10,
+  "start": 66.697,
+  "end": 81.337,
+  "speaker": "Unknown",
+  "en": "So we are looking for sites that are looking at what intent the user browsing has, what is the user doing, what is the user trying to achieve.",
+  "zh": "我们要做的是那些能识别浏览用户意图的网站：用户在做什么，用户想达成什么。"
+ },
+ {
+  "seg": 11,
+  "start": 81.958,
+  "end": 99.084,
+  "speaker": "Unknown",
+  "en": "And the end goal is to personalize these pages for the current user browsing so that eventually this drives higher engagement or conversions, whatever the marketing teams want to achieve.",
+  "zh": "最终目标是为当前浏览的用户个性化这些页面，这样最终能带来更高的参与度或转化率，或者营销团队想达成的任何目标。"
+ },
+ {
+  "seg": 12,
+  "start": 99.964,
+  "end": 109.127,
+  "speaker": "Unknown",
+  "en": "And these pages are personalized in real time based on the user that is accessing the site and what is the user doing.",
+  "zh": "这些页面是基于正在访问网站的用户以及用户正在做什么，实时进行个性化的。"
+ },
+ {
+  "seg": 13,
+  "start": 110.94,
+  "end": 113.362,
+  "speaker": "Unknown",
+  "en": "The stack we're using is AM Edge Delivery.",
+  "zh": "我们用的技术栈是 AM Edge Delivery。"
+ },
+ {
+  "seg": 14,
+  "start": 113.582,
+  "end": 119.186,
+  "speaker": "Unknown",
+  "en": "So this is the part of the product we have where all the content is on the edge.",
+  "zh": "这是我们产品中所有内容都放在边缘上的部分。"
+ },
+ {
+  "seg": 15,
+  "start": 119.746,
+  "end": 129.253,
+  "speaker": "Unknown",
+  "en": "And then we have a backend service that powers this experience with different LLM providers, LLM services.",
+  "zh": "然后我们有一个后端服务，用不同的 LLM 提供商、LLM 服务来支撑这个体验。"
+ },
+ {
+  "seg": 16,
+  "start": 130.073,
+  "end": 136.756,
+  "speaker": "Unknown",
+  "en": "We use Cerebras for fast inference, or we can use also, we tried Bedrock and a bunch of others.",
+  "zh": "我们用 Cerebras 做快速推理，我们也可以用，我们试过 Bedrock 和其他一堆。"
+ },
+ {
+  "seg": 17,
+  "start": 137.156,
+  "end": 141.238,
+  "speaker": "Unknown",
+  "en": "I'll be showing Cerebras today, and you will see the reason why.",
+  "zh": "今天我会展示 Cerebras,你们会看到原因。"
+ },
+ {
+  "seg": 18,
+  "start": 143.802,
+  "end": 152.646,
+  "speaker": "Unknown",
+  "en": "The engine that is personalizing this is in the rich content and blocks.",
+  "zh": "做个性化的引擎在富内容和区块中。"
+ },
+ {
+  "seg": 19,
+  "start": 153.407,
+  "end": 159.61,
+  "speaker": "Unknown",
+  "en": "So, different blocks on the site are customized depending on what the user personize.",
+  "zh": "所以，网站上的不同区块会根据用户的个性化情况被定制。"
+ },
+ {
+  "seg": 20,
+  "start": 160.45,
+  "end": 163.572,
+  "speaker": "Unknown",
+  "en": "We don't want the whole site to be generated.",
+  "zh": "我们不想让整个网站都被生成。"
+ },
+ {
+  "seg": 21,
+  "start": 163.792,
+  "end": 167.974,
+  "speaker": "Unknown",
+  "en": "I mean, if you talk to marketing people, they have a very strict brand guidelines.",
+  "zh": "我是说，如果你和营销人员聊，他们有非常严格的品牌指南。"
+ },
+ {
+  "seg": 22,
+  "start": 167.994,
+  "end": 172.276,
+  "speaker": "Unknown",
+  "en": "You don't want to just came up with or have some hallucinations there.",
+  "zh": "你不会想只是凭空生成，或者在那里出现一些幻觉。"
+ },
+ {
+  "seg": 23,
+  "start": 172.836,
+  "end": 176.778,
+  "speaker": "Unknown",
+  "en": "So what is personalized is different sections of the site.",
+  "zh": "所以被个性化的是网站的不同部分。"
+ },
+ {
+  "seg": 24,
+  "start": 177.419,
+  "end": 181.341,
+  "speaker": "Unknown",
+  "en": "And we use the whole site as a corpus.",
+  "zh": "我们把整个网站用语料库来用。"
+ },
+ {
+  "seg": 25,
+  "start": 181.741,
+  "end": 183.682,
+  "speaker": "Unknown",
+  "en": "We built a rug from the whole site.",
+  "zh": "我们从整个网站构建了一个 rug。"
+ },
+ {
+  "seg": 26,
+  "start": 184.102,
+  "end": 188.705,
+  "speaker": "Unknown",
+  "en": "So what is generated is grounded on the existing site.",
+  "zh": "所以生成的内容是基于现有网站的。"
+ },
+ {
+  "seg": 27,
+  "start": 189.817,
+  "end": 193.358,
+  "speaker": "Unknown",
+  "en": "We try to solve the problem where one side fits all.",
+  "zh": "我们试图解决“一边适合所有人”的问题。"
+ },
+ {
+  "seg": 28,
+  "start": 193.558,
+  "end": 195.859,
+  "speaker": "Unknown",
+  "en": "We want hyper-personalized experiences.",
+  "zh": "我们想要超个性化的体验。"
+ },
+ {
+  "seg": 29,
+  "start": 196.459,
+  "end": 213.705,
+  "speaker": "Unknown",
+  "en": "Also, we want to help our customers to do more automatic authoring, so not having to create thousands of different variations of the site, but use AI for this, and then do these multiple layers of personalization.",
+  "zh": "另外，我们想帮我们的客户做更多自动化创作，不用创建成千上万个不同的网站变体，而是用 AI 来做这个，然后再做多层的个性化。"
+ },
+ {
+  "seg": 30,
+  "start": 215.524,
+  "end": 242.182,
+  "speaker": "Unknown",
+  "en": "Some examples of what we're doing or showing the demo is an instant persona adaptation, query generation when the user search for something on the site, the page with the results is customized for them, and also something like recommendations where after you browse the site for a period of time, we can create a page that recommends something based on what we think you are looking for.",
+  "zh": "我们正在做或展示的 demo 的一些例子有：即时角色适配、用户在网站上搜索某样东西时的查询生成(带结果的页面会为他们定制)，还有类似推荐的东西——在你浏览网站一段时间后，我们可以创建一个页面，基于我们认为你在寻找的东西来推荐一些内容。"
+ },
+ {
+  "seg": 31,
+  "start": 243.103,
+  "end": 263.037,
+  "speaker": "Unknown",
+  "en": "For marketeers, they can define this strategy on natural language and they can use analytics to drive the loop of personalization and what is the end goal and how this goes back again to change, to adapt the personalization to improve that whole cycle.",
+  "zh": "对于营销人员来说，他们可以用自然语言定义这个策略，并且可以用分析数据来驱动个性化的循环——最终目标是什么，以及这如何再反馈回去改变、调整个性化，从而改进整个循环。"
+ },
+ {
+  "seg": 32,
+  "start": 263.337,
+  "end": 267.6,
+  "speaker": "Unknown",
+  "en": "Everybody's talking about loops in this conference, so that's one of the loops there.",
+  "zh": "这次大会每个人都在谈循环，所以那就是其中一个循环。"
+ },
+ {
+  "seg": 33,
+  "start": 270.257,
+  "end": 272.098,
+  "speaker": "Unknown",
+  "en": "How'd the architecture look like?",
+  "zh": "架构看起来是什么样的？"
+ },
+ {
+  "seg": 34,
+  "start": 272.158,
+  "end": 286.742,
+  "speaker": "Unknown",
+  "en": "So it's a dynamic front end with some blocks, what I mentioned before, and with Edge Delivery Services, it's basically you compose these blocks and they are updated on real time with the AI.",
+  "zh": "它是一个动态前端，带有一些我之前提到的区块，在 Edge Delivery Services 中，基本上就是你组合这些区块，然后它们被 AI 实时更新。"
+ },
+ {
+  "seg": 35,
+  "start": 287.702,
+  "end": 290.043,
+  "speaker": "Unknown",
+  "en": "The backend, we...",
+  "zh": "后端，我们……"
+ },
+ {
+  "seg": 36,
+  "start": 291.231,
+  "end": 300.053,
+  "speaker": "Unknown",
+  "en": "We do the evaluation of the models and the providers, and one thing we realized is that this is very dependent on the site.",
+  "zh": "我们做模型和提供商的评估，我们意识到的一件事是，这非常依赖于网站。"
+ },
+ {
+  "seg": 37,
+  "start": 300.713,
+  "end": 317.537,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of prompts, and we run it across a huge variety of models and providers, and then we look at the accuracy, we look at the speed, but this is going to depend highly on what type of site, like how big is the site, how, I don't know, what different",
+  "zh": "所以我们有一堆提示词，我们在大量不同的模型和提供商上运行，然后我们看准确性，我们看速度，但这会高度依赖于网站类型，比如网站有多大，怎么讲，不同的……"
+ },
+ {
+  "seg": 38,
+  "start": 321.278,
+  "end": 325.903,
+  "speaker": "Unknown",
+  "en": "Area is the site targeting, what type of commerce it is, and so on.",
+  "zh": "网站针对的是什么领域，是什么样的电商类型，等等。"
+ },
+ {
+  "seg": 39,
+  "start": 326.444,
+  "end": 331.208,
+  "speaker": "Unknown",
+  "en": "So, we run this evaluation continuously.",
+  "zh": "所以，我们持续运行这个评估。"
+ },
+ {
+  "seg": 40,
+  "start": 331.729,
+  "end": 333.03,
+  "speaker": "Unknown",
+  "en": "We use Promfoo.",
+  "zh": "我们用 Promfoo。"
+ },
+ {
+  "seg": 41,
+  "start": 333.951,
+  "end": 335.132,
+  "speaker": "Unknown",
+  "en": "Anybody heard about Promfoo?",
+  "zh": "有人听说过 Promfoo 吗？"
+ },
+ {
+  "seg": 42,
+  "start": 335.933,
+  "end": 336.774,
+  "speaker": "Unknown",
+  "en": "Okay, some people.",
+  "zh": "好，有一些人。"
+ },
+ {
+  "seg": 43,
+  "start": 337.775,
+  "end": 356.944,
+  "speaker": "Unknown",
+  "en": "So, PromptFoo allows you to evaluate models and prompts against multiple models providers, and you can do local models and a bunch of OpenAI-compatible providers and a lot of them, basically.",
+  "zh": "所以，PromptFoo 让你可以针对多个模型提供商评估模型和提示词，你可以做本地模型和一大堆 OpenAI 兼容的提供商，基本上很多都可以。"
+ },
+ {
+  "seg": 44,
+  "start": 357.584,
+  "end": 359.025,
+  "speaker": "Unknown",
+  "en": "We look for two things.",
+  "zh": "我们看两样东西。"
+ },
+ {
+  "seg": 45,
+  "start": 359.565,
+  "end": 359.805,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 46,
+  "start": 360.065,
+  "end": 360.786,
+  "speaker": "Unknown",
+  "en": "Accuracy.",
+  "zh": "准确性。"
+ },
+ {
+  "seg": 47,
+  "start": 361.972,
+  "end": 363.613,
+  "speaker": "Unknown",
+  "en": "That's typically what people look for.",
+  "zh": "这通常是大家看的。"
+ },
+ {
+  "seg": 48,
+  "start": 364.153,
+  "end": 371.677,
+  "speaker": "Unknown",
+  "en": "But also, we want the speed, because we don't want the site generation to take more than one or two seconds.",
+  "zh": "但我们也要速度，因为我们不想让网站生成花超过一两秒的时间。"
+ },
+ {
+  "seg": 49,
+  "start": 372.698,
+  "end": 385.125,
+  "speaker": "Unknown",
+  "en": "Because people, this is already proven that people want, the faster the site, the more conversions it generates, or the better the experience it is for the user.",
+  "zh": "因为人们，这已经被证明了：网站越快，产生的转化就越多，或者对用户的体验就越好。"
+ },
+ {
+  "seg": 50,
+  "start": 386.692,
+  "end": 395.735,
+  "speaker": "Unknown",
+  "en": "What I mentioned is different sites may have different requirements, so you may have to run this evaluation of models depending on the site.",
+  "zh": "我提到的是,不同的站点可能有不同的要求,所以你可能需要根据站点来运行这个模型评估。"
+ },
+ {
+  "seg": 51,
+  "start": 397.767,
+  "end": 419.53,
+  "speaker": "Unknown",
+  "en": "This is an... We secured this, some of these queries, so we have 15 prompts for this example site, and we have... At the top, you can see with Cerebras on the Gemma 4 model that was announced last week, we can get an average latency of 1.1 seconds generating a page.",
+  "zh": "这是一个……我们固定了这些查询中的一部分,所以对于这个示例站点我们有 15 个提示词,而且我们有……在顶部,你可以看到用 Cerebras 搭配上上周发布的 Gemma 4 模型,我们生成一个页面的平均延迟可以达到 1.1 秒。"
+ },
+ {
+  "seg": 52,
+  "start": 421.352,
+  "end": 425.298,
+  "speaker": "Unknown",
+  "en": "You can compare that to the second one, which is 4.6 seconds.",
+  "zh": "你可以把它和第二个对比,那是 4.6 秒。"
+ },
+ {
+  "seg": 53,
+  "start": 426.219,
+  "end": 428.002,
+  "speaker": "Unknown",
+  "en": "So the difference is huge.",
+  "zh": "所以差距非常大。"
+ },
+ {
+  "seg": 54,
+  "start": 429.163,
+  "end": 433.009,
+  "speaker": "Unknown",
+  "en": "And that's why we use Cerebras for this use case.",
+  "zh": "这就是我们在这个用例中使用 Cerebras 的原因。"
+ },
+ {
+  "seg": 55,
+  "start": 436.225,
+  "end": 443.29,
+  "speaker": "Unknown",
+  "en": "You can see that different providers, different models have different speeds.",
+  "zh": "你可以看到,不同的提供商、不同的模型有不同的速度。"
+ },
+ {
+  "seg": 56,
+  "start": 443.41,
+  "end": 451.216,
+  "speaker": "Unknown",
+  "en": "And here is a, let me, I can show you the whole thing here, not this one, this one, right?",
+  "zh": "这里有一个,让我……我可以给你看完整的东西,不是这个,是这个,对吧?"
+ },
+ {
+  "seg": 57,
+  "start": 451.256,
+  "end": 458.702,
+  "speaker": "Unknown",
+  "en": "So at the bottom, we have other that sometimes, maybe some of them may be good.",
+  "zh": "所以在底部,我们还有其他的,有时候,也许其中一些可能不错。"
+ },
+ {
+  "seg": 58,
+  "start": 459.723,
+  "end": 471.942,
+  "speaker": "Unknown",
+  "en": "They don't need to be perfect, but they're good enough if they're fast enough, so that's gonna be the kind of decisions that you need to make on whether the model is good enough for your use case or not.",
+  "zh": "它们不需要完美,但如果它们足够快,就足够好了,所以这就是你需要做的那种决策,判断这个模型对你的用例来说是否足够好。"
+ },
+ {
+  "seg": 59,
+  "start": 473.502,
+  "end": 481.027,
+  "speaker": "Unknown",
+  "en": "Yeah, we're looking, yeah, average 1.1 seconds, and then the next ones are going from four seconds higher.",
+  "zh": "是的,我们在看,是的,平均 1.1 秒,然后接下来的那些从四秒往上走。"
+ },
+ {
+  "seg": 60,
+  "start": 481.667,
+  "end": 491.933,
+  "speaker": "Unknown",
+  "en": "And you don't need a huge LLM to do this sort of work because you are generating text, you are deciding where to put blogs and how to organize the website.",
+  "zh": "而且你不需要一个巨大的 LLM 来做这类工作,因为你在生成文本,你在决定把博客放在哪里、如何组织网站。"
+ },
+ {
+  "seg": 61,
+  "start": 492.273,
+  "end": 494.715,
+  "speaker": "Unknown",
+  "en": "You don't need lots of information for that.",
+  "zh": "你不需要大量信息来做这些。"
+ },
+ {
+  "seg": 62,
+  "start": 496.84,
+  "end": 505.246,
+  "speaker": "Unknown",
+  "en": "So, this browsing and the queries are being recorded, so these are the metrics or the...",
+  "zh": "所以,这些浏览和查询正在被记录,这些就是指标或者……"
+ },
+ {
+  "seg": 63,
+  "start": 508.496,
+  "end": 514.419,
+  "speaker": "Unknown",
+  "en": "The data we gather from the user, and this is filled into the LLM to personalize the site.",
+  "zh": "我们从用户那里收集的数据,这些数据被填入 LLM 来个性化这个站点。"
+ },
+ {
+  "seg": 64,
+  "start": 515.22,
+  "end": 523.604,
+  "speaker": "Unknown",
+  "en": "And then in this example, we personalize the hero card, the products, the blog feeds, and the navigation based on the persona.",
+  "zh": "然后在这个例子中,我们根据画像个性化了 hero 卡片、产品、博客信息流和导航。"
+ },
+ {
+  "seg": 65,
+  "start": 524.305,
+  "end": 530.508,
+  "speaker": "Unknown",
+  "en": "Also, what are some of the buttons like our call-to-action navigation, we can also personalize those.",
+  "zh": "另外,还有一些按钮,比如行动号召导航,我们也可以个性化它们。"
+ },
+ {
+  "seg": 66,
+  "start": 532.241,
+  "end": 537.343,
+  "speaker": "Unknown",
+  "en": "We create, and I'll show you the For You page, which is a recommendation.",
+  "zh": "我们创建了,我会给你看 For You 页面,这是一个推荐。"
+ },
+ {
+  "seg": 67,
+  "start": 538.084,
+  "end": 544.086,
+  "speaker": "Unknown",
+  "en": "And this is an interesting one because this you could pre-generate, right?",
+  "zh": "这是一个有意思的东西,因为这个你可以预先生成,对吧?"
+ },
+ {
+  "seg": 68,
+  "start": 544.186,
+  "end": 550.389,
+  "speaker": "Unknown",
+  "en": "As the user browses your site, you gather the signals and you could keep generating this.",
+  "zh": "当用户浏览你的站点时,你收集这些信号,你可以持续生成这个。"
+ },
+ {
+  "seg": 69,
+  "start": 550.429,
+  "end": 553.61,
+  "speaker": "Unknown",
+  "en": "So in this case, you wouldn't need such a big speed.",
+  "zh": "所以在这种情况下,你就不需要那么高的速度。"
+ },
+ {
+  "seg": 70,
+  "start": 554.39,
+  "end": 559.473,
+  "speaker": "Unknown",
+  "en": "But that's interesting because it will be if a user wants to",
+  "zh": "但这很有意思,因为如果用户想要"
+ },
+ {
+  "seg": 71,
+  "start": 560.573,
+  "end": 566.413,
+  "speaker": "Unknown",
+  "en": "Buy something, you could just say, okay, for you, I will recommend these three products or something like that.",
+  "zh": "买点什么东西,你可以直接说,好的,为你推荐,我会推荐这三个产品之类的。"
+ },
+ {
+  "seg": 72,
+  "start": 569.538,
+  "end": 572.019,
+  "speaker": "Unknown",
+  "en": "Yeah, and then they can see this recommendation.",
+  "zh": "是的,然后他们就能看到这个推荐。"
+ },
+ {
+  "seg": 73,
+  "start": 572.339,
+  "end": 575.18,
+  "speaker": "Unknown",
+  "en": "And if they go there, that could be prefetched for them.",
+  "zh": "而且如果他们去那里,那可以为他们预取。"
+ },
+ {
+  "seg": 74,
+  "start": 575.9,
+  "end": 580.682,
+  "speaker": "Unknown",
+  "en": "And obviously, you have to keep updating it as the user navigates around the site and so on.",
+  "zh": "显然,当用户在站点里导航等等的时候,你必须持续更新它。"
+ },
+ {
+  "seg": 75,
+  "start": 580.962,
+  "end": 590.605,
+  "speaker": "Unknown",
+  "en": "So that's also something to consider on the cost implications of doing multiple generations, multiple LLM calls.",
+  "zh": "所以这也是在成本上要考虑的事情,即进行多次生成、多次 LLM 调用的影响。"
+ },
+ {
+  "seg": 76,
+  "start": 594.148,
+  "end": 600.051,
+  "speaker": "Unknown",
+  "en": "When the user runs a query, a dynamic personalized page is shown to them.",
+  "zh": "当用户运行一个查询时,会向他们展示一个动态的个性化页面。"
+ },
+ {
+  "seg": 77,
+  "start": 601.171,
+  "end": 608.914,
+  "speaker": "Unknown",
+  "en": "These queries are also grouped into personas or intent types.",
+  "zh": "这些查询也被归组为画像或者意图类型。"
+ },
+ {
+  "seg": 78,
+  "start": 609.254,
+  "end": 611.916,
+  "speaker": "Unknown",
+  "en": "So what is this guy trying to do in the site?",
+  "zh": "那么这个家伙在站点里想做什么?"
+ },
+ {
+  "seg": 79,
+  "start": 611.956,
+  "end": 613.456,
+  "speaker": "Unknown",
+  "en": "He's trying to buy something.",
+  "zh": "他想买东西。"
+ },
+ {
+  "seg": 80,
+  "start": 613.476,
+  "end": 615.977,
+  "speaker": "Unknown",
+  "en": "He's trying to just get information.",
+  "zh": "他只是想获取信息。"
+ },
+ {
+  "seg": 81,
+  "start": 616.077,
+  "end": 619.139,
+  "speaker": "Unknown",
+  "en": "So you can get marketers to decide",
+  "zh": "所以你可以让市场人员来决定"
+ },
+ {
+  "seg": 82,
+  "start": 619.979,
+  "end": 624.564,
+  "speaker": "Unknown",
+  "en": "What type of groups, how many groups you want to have, how you want to deal with customers.",
+  "zh": "什么类型的分组,你想要多少个分组,你想怎么对待客户。"
+ },
+ {
+  "seg": 83,
+  "start": 625.145,
+  "end": 629.949,
+  "speaker": "Unknown",
+  "en": "And the AI will choose the blogs and the suggestions for those groups of people.",
+  "zh": "然后 AI 会为这些人群选择博客和建议。"
+ },
+ {
+  "seg": 84,
+  "start": 633.996,
+  "end": 642.461,
+  "speaker": "Unknown",
+  "en": "And we can adapt, yes, the different blocks, the sequence of the blocks, and media.",
+  "zh": "而且我们可以调整,是的,不同的区块、区块的顺序,以及媒体。"
+ },
+ {
+  "seg": 85,
+  "start": 642.621,
+  "end": 643.801,
+  "speaker": "Unknown",
+  "en": "You could also do media.",
+  "zh": "你也可以做媒体。"
+ },
+ {
+  "seg": 86,
+  "start": 643.961,
+  "end": 655.188,
+  "speaker": "Unknown",
+  "en": "One of the things we consider is there was a model announced today or yesterday, the Nano Banana Lite, so you could even generate images",
+  "zh": "我们考虑的事情之一是,今天或者昨天发布了一个模型,Nano Banana Lite,所以你甚至可以非常快地即时生成图像,"
+ },
+ {
+  "seg": 87,
+  "start": 656.048,
+  "end": 669.019,
+  "speaker": "Unknown",
+  "en": "very fast on the fly, obviously not as fast as test, but that's also something that would be, I don't know if that's something like marketing people would want to have generated images.",
+  "zh": "显然没有文本那么快,但那也是一件……我不知道那是不是市场人员会想要生成图像的东西。"
+ },
+ {
+  "seg": 88,
+  "start": 669.059,
+  "end": 672.242,
+  "speaker": "Unknown",
+  "en": "That depends on the quality a lot if it's on brand.",
+  "zh": "这在很大程度上取决于质量,以及它是否符合品牌。"
+ },
+ {
+  "seg": 89,
+  "start": 673.963,
+  "end": 688.456,
+  "speaker": "Unknown",
+  "en": "And this site, in this example, we have a product site, and then we have guides, experiences, blogs, and the whole response of the LLM is grounded there, and there's comparisons.",
+  "zh": "而这个站点,在这个例子中,我们有一个产品站点,然后我们有指南、体验、博客,LLM 的整个响应都以此为依据,而且还有对比。"
+ },
+ {
+  "seg": 90,
+  "start": 688.496,
+  "end": 694.141,
+  "speaker": "Unknown",
+  "en": "We can do comparisons between products that are tailored, and the product pages can be tailored for the user.",
+  "zh": "我们可以做出量身定制的产品之间对比,产品页面也可以为用户量身定制。"
+ },
+ {
+  "seg": 91,
+  "start": 696.967,
+  "end": 697.267,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 92,
+  "start": 697.287,
+  "end": 698.848,
+  "speaker": "Unknown",
+  "en": "This is a bit of the stack.",
+  "zh": "这是技术栈的一部分。"
+ },
+ {
+  "seg": 93,
+  "start": 699.928,
+  "end": 705.87,
+  "speaker": "Unknown",
+  "en": "I'm not going to spend too much time here, but the browser, you have some layers.",
+  "zh": "我不打算在这里花太多时间,但是浏览器,你有几个层。"
+ },
+ {
+  "seg": 94,
+  "start": 706.01,
+  "end": 708.751,
+  "speaker": "Unknown",
+  "en": "You have the browser where the signals get...",
+  "zh": "你有浏览器,信号在那里被……"
+ },
+ {
+  "seg": 95,
+  "start": 715.933,
+  "end": 717.274,
+  "speaker": "Unknown",
+  "en": "I got from the user.",
+  "zh": "从用户那里获取。"
+ },
+ {
+  "seg": 96,
+  "start": 717.734,
+  "end": 719.415,
+  "speaker": "Unknown",
+  "en": "And then we have the backend.",
+  "zh": "然后我们有后端。"
+ },
+ {
+  "seg": 97,
+  "start": 720.216,
+  "end": 721.196,
+  "speaker": "Unknown",
+  "en": "We can have the backend.",
+  "zh": "我们可以有后端。"
+ },
+ {
+  "seg": 98,
+  "start": 721.216,
+  "end": 723.678,
+  "speaker": "Unknown",
+  "en": "We run some of these in Google.",
+  "zh": "我们把其中一些跑在 Google 上。"
+ },
+ {
+  "seg": 99,
+  "start": 723.738,
+  "end": 725.779,
+  "speaker": "Unknown",
+  "en": "Some of these are Cloudflare.",
+  "zh": "其中一些是 Cloudflare。"
+ },
+ {
+  "seg": 100,
+  "start": 726.22,
+  "end": 734.785,
+  "speaker": "Unknown",
+  "en": "So, the backend is basically just calling the LLM and doing some reasoning using the rack that is built on the site to do the generation.",
+  "zh": "所以,后端基本上就是调用 LLM,并使用站点上构建的机架做一些推理来生成内容。"
+ },
+ {
+  "seg": 101,
+  "start": 736.63,
+  "end": 752.66,
+  "speaker": "Unknown",
+  "en": "And you have, obviously, you have to have the vector database, the inference machinery, and the Adobe Experience Manager is doing the serving the, at the edge is serving the pages and the static content.",
+  "zh": "而你显然需要有向量数据库、推理机器,然后 Adobe Experience Manager 负责在边缘提供页面和静态内容的服务。"
+ },
+ {
+  "seg": 102,
+  "start": 753.901,
+  "end": 758.944,
+  "speaker": "Unknown",
+  "en": "So let me show you, because I think this is, so we call this audience of one.",
+  "zh": "那么让我给你展示一下,因为我觉得这个——我们把它叫做「一个人的受众」(audience of one)。"
+ },
+ {
+  "seg": 103,
+  "start": 759.952,
+  "end": 768.759,
+  "speaker": "Unknown",
+  "en": "Because the idea of in marketing, they always dream on being able to personalize things for each individual.",
+  "zh": "因为在营销领域,人们一直梦想着能够为每个个体做个性化定制。"
+ },
+ {
+  "seg": 104,
+  "start": 769.239,
+  "end": 771.281,
+  "speaker": "Unknown",
+  "en": "So we call it, yeah, an audience of one.",
+  "zh": "所以我们称之为,对,一个人的受众。"
+ },
+ {
+  "seg": 105,
+  "start": 771.301,
+  "end": 773.122,
+  "speaker": "Unknown",
+  "en": "So I have this site.",
+  "zh": "我有这个站点。"
+ },
+ {
+  "seg": 106,
+  "start": 773.783,
+  "end": 776.025,
+  "speaker": "Unknown",
+  "en": "This is a site that is absolutely generated.",
+  "zh": "这是一个完全生成式的站点。"
+ },
+ {
+  "seg": 107,
+  "start": 777.005,
+  "end": 780.548,
+  "speaker": "Unknown",
+  "en": "Example site is a coffee machinery.",
+  "zh": "示例站点是一家咖啡机公司。"
+ },
+ {
+  "seg": 108,
+  "start": 781.129,
+  "end": 783.951,
+  "speaker": "Unknown",
+  "en": "So I can go and read some stories.",
+  "zh": "我可以去看一些故事。"
+ },
+ {
+  "seg": 109,
+  "start": 785.072,
+  "end": 787.334,
+  "speaker": "Unknown",
+  "en": "And I can go and look at some products.",
+  "zh": "我也可以去看看一些产品。"
+ },
+ {
+  "seg": 110,
+  "start": 788.755,
+  "end": 790.476,
+  "speaker": "Unknown",
+  "en": "Let's go and look at this product.",
+  "zh": "我们来看看这个产品。"
+ },
+ {
+  "seg": 111,
+  "start": 791.936,
+  "end": 794.297,
+  "speaker": "Unknown",
+  "en": "I can spend some time here.",
+  "zh": "我可以在这里花点时间。"
+ },
+ {
+  "seg": 112,
+  "start": 797.419,
+  "end": 800.04,
+  "speaker": "Unknown",
+  "en": "Let's go and click here.",
+  "zh": "我们点一下这里。"
+ },
+ {
+  "seg": 113,
+  "start": 800.82,
+  "end": 801.14,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 114,
+  "start": 801.2,
+  "end": 811.725,
+  "speaker": "Unknown",
+  "en": "So I'm browsing around the site, and I have this debugging tool thing, which let me go here, I think.",
+  "zh": "所以我在浏览这个站点,我有这个调试工具之类的东西,让我去这里,我想。"
+ },
+ {
+  "seg": 115,
+  "start": 817.888,
+  "end": 818.368,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "看一下。"
+ },
+ {
+  "seg": 116,
+  "start": 820.219,
+  "end": 826.683,
+  "speaker": "Unknown",
+  "en": "So, down there is the signals that the browsing is giving us.",
+  "zh": "那么,下面这些就是浏览行为给我们的信号。"
+ },
+ {
+  "seg": 117,
+  "start": 827.383,
+  "end": 831.885,
+  "speaker": "Unknown",
+  "en": "So, I don't know if you can see it much, because I cannot see it much.",
+  "zh": "我不确定你能不能看清,因为我自己也看不太清。"
+ },
+ {
+  "seg": 118,
+  "start": 832.005,
+  "end": 836.548,
+  "speaker": "Unknown",
+  "en": "So, the user is bucketed into the exploring category.",
+  "zh": "用户被归到了「探索型」类别。"
+ },
+ {
+  "seg": 119,
+  "start": 836.928,
+  "end": 844.252,
+  "speaker": "Unknown",
+  "en": "We have the pages that they have visited, and then we have how much time is spending on each page.",
+  "zh": "我们有他们访问过的页面,还有他们在每个页面上花费了多少时间。"
+ },
+ {
+  "seg": 120,
+  "start": 844.772,
+  "end": 848.995,
+  "speaker": "Unknown",
+  "en": "All of this data is now available for the LLM.",
+  "zh": "所有这些数据现在都对 LLM 可用。"
+ },
+ {
+  "seg": 121,
+  "start": 849.875,
+  "end": 859.642,
+  "speaker": "Unknown",
+  "en": "So, if I go here, I already have a For You page that was generated for me and based on my browser.",
+  "zh": "所以,如果我到这里,我已经有一个为我生成、基于我浏览行为的「为你推荐」(For You)页面了。"
+ },
+ {
+  "seg": 122,
+  "start": 861.971,
+  "end": 881.296,
+  "speaker": "Unknown",
+  "en": "And you will not notice that it's slightly different than everything else, but if I go here and I run a query, like I want, I'm looking for a coffee machine to prepare coffee while camping.",
+  "zh": "你不会注意到它和其他内容稍微有点不同,但如果我到这里运行一个查询,比如我想要——我在找一台露营时能用来煮咖啡的咖啡机。"
+ },
+ {
+  "seg": 123,
+  "start": 884.477,
+  "end": 887.458,
+  "speaker": "Unknown",
+  "en": "The site is, this was just generated for me.",
+  "zh": "这个站点——这是刚刚为我生成的。"
+ },
+ {
+  "seg": 124,
+  "start": 888.615,
+  "end": 913.248,
+  "speaker": "Unknown",
+  "en": "And then you're going to see some things, like the text is customized, camping shouldn't mean compromising on your whatever routine, the coffee tips for camping, machinery that are being recommended, the Arco Viaggio, and all the nano, which are good for a camping trip, right?",
+  "zh": "然后你会看到一些东西,比如文字是定制的,「露营不应意味着在你的日常上妥协」之类,露营咖啡技巧,被推荐的机器,Arco Viaggio,还有所有适合露营旅行的 nano,对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 914.529,
+  "end": 916.51,
+  "speaker": "Unknown",
+  "en": "So, you saw how fast this was.",
+  "zh": "所以,你看到了这有多快。"
+ },
+ {
+  "seg": 126,
+  "start": 917.531,
+  "end": 921.374,
+  "speaker": "Unknown",
+  "en": "I'm going to run it here, something similar that I have here.",
+  "zh": "我要在这里运行一下,类似我在这里准备的东西。"
+ },
+ {
+  "seg": 127,
+  "start": 922.075,
+  "end": 924.297,
+  "speaker": "Unknown",
+  "en": "And I can run it on the debug mode here.",
+  "zh": "我可以在这里用调试模式运行它。"
+ },
+ {
+  "seg": 128,
+  "start": 925.277,
+  "end": 928.1,
+  "speaker": "Unknown",
+  "en": "And you will see, let's make this bigger.",
+  "zh": "你会看到,让我们把它放大。"
+ },
+ {
+  "seg": 129,
+  "start": 930.232,
+  "end": 933.433,
+  "speaker": "Unknown",
+  "en": "Total time, 164 seconds to generate the page.",
+  "zh": "总耗时,164 秒生成页面。"
+ },
+ {
+  "seg": 130,
+  "start": 933.613,
+  "end": 935.874,
+  "speaker": "Unknown",
+  "en": "So this includes a round trip to the LLM.",
+  "zh": "这其中包含一次到 LLM 的往返。"
+ },
+ {
+  "seg": 131,
+  "start": 935.934,
+  "end": 937.555,
+  "speaker": "Unknown",
+  "en": "This is using Cerebras Gemma 4.",
+  "zh": "这是用 Cerebras Gemma 4。"
+ },
+ {
+  "seg": 132,
+  "start": 938.315,
+  "end": 944.738,
+  "speaker": "Unknown",
+  "en": "So the Gemma model from Google running on Cerebras on their very fast chips.",
+  "zh": "就是 Google 的 Gemma 模型,跑在 Cerebras 非常快的芯片上。"
+ },
+ {
+  "seg": 133,
+  "start": 945.939,
+  "end": 953.082,
+  "speaker": "Unknown",
+  "en": "We get 2,300 tokens per second, which is not bad, I would say.",
+  "zh": "我们得到每秒 2,300 个 token,我觉得这已经很不错了。"
+ },
+ {
+  "seg": 134,
+  "start": 954.55,
+  "end": 957.451,
+  "speaker": "Unknown",
+  "en": "And if I run it again, probably something like that.",
+  "zh": "如果我再运行一次,大概也是类似这样的。"
+ },
+ {
+  "seg": 135,
+  "start": 958.532,
+  "end": 963.614,
+  "speaker": "Unknown",
+  "en": "The LLM time is one second, and again, 2,200 tokens per second.",
+  "zh": "LLM 耗时是一秒,同样,每秒 2,200 个 token。"
+ },
+ {
+  "seg": 136,
+  "start": 964.514,
+  "end": 967.916,
+  "speaker": "Unknown",
+  "en": "This is something that we only dreamed about before.",
+  "zh": "这是我们以前做梦都不敢想的东西。"
+ },
+ {
+  "seg": 137,
+  "start": 970.551,
+  "end": 977.06,
+  "speaker": "Unknown",
+  "en": "On this example side, we have some other options.",
+  "zh": "在这个示例站点上,我们还有一些其他选项。"
+ },
+ {
+  "seg": 138,
+  "start": 977.24,
+  "end": 986.632,
+  "speaker": "Unknown",
+  "en": "Because we've been showing this to customers, so we have the ability to change the different models, temperature tokens, and so on, and we can...",
+  "zh": "因为我们一直在给客户展示这个,所以我们有能力切换不同的模型、温度、token 等等,我们可以……"
+ },
+ {
+  "seg": 139,
+  "start": 988.414,
+  "end": 992.9,
+  "speaker": "Unknown",
+  "en": "We can show and try the different models and see how they behave.",
+  "zh": "我们可以展示并尝试不同的模型,看看它们的表现如何。"
+ },
+ {
+  "seg": 140,
+  "start": 993.4,
+  "end": 1001.129,
+  "speaker": "Unknown",
+  "en": "Besides automatic tests with PromFu, then we can manually come and tweak things and see how that works.",
+  "zh": "除了用 PromFu 做自动测试之外,我们还可以手动来调整一些东西,看看效果如何。"
+ },
+ {
+  "seg": 141,
+  "start": 1002.251,
+  "end": 1005.194,
+  "speaker": "Unknown",
+  "en": "And we also have...",
+  "zh": "我们还有……"
+ },
+ {
+  "seg": 142,
+  "start": 1006.973,
+  "end": 1007.754,
+  "speaker": "Unknown",
+  "en": "of OneLabs.",
+  "zh": "of OneLabs。"
+ },
+ {
+  "seg": 143,
+  "start": 1008.494,
+  "end": 1014.417,
+  "speaker": "Unknown",
+  "en": "So, we built this tool that generates an agentic site for any site we want.",
+  "zh": "所以,我们构建了这个工具,可以为任何我们想要的站点生成一个智能体站点。"
+ },
+ {
+  "seg": 144,
+  "start": 1015.057,
+  "end": 1021.4,
+  "speaker": "Unknown",
+  "en": "So, if somebody wants to have a demo for a customer, come here and enter the URL.",
+  "zh": "所以,如果有人想给客户做一个演示,来这里输入 URL。"
+ },
+ {
+  "seg": 145,
+  "start": 1021.54,
+  "end": 1023.321,
+  "speaker": "Unknown",
+  "en": "In less than an hour, you have an agentic site.",
+  "zh": "不到一小时,你就有一个智能体站点了。"
+ },
+ {
+  "seg": 146,
+  "start": 1023.661,
+  "end": 1026.603,
+  "speaker": "Unknown",
+  "en": "I did this last week with the AI engineering site.",
+  "zh": "我上周用 AI engineering 的站点做了这个。"
+ },
+ {
+  "seg": 147,
+  "start": 1027.49,
+  "end": 1032.834,
+  "speaker": "Unknown",
+  "en": "And I got this site that is just a search box and a few things.",
+  "zh": "我得到了这个站点,它就是一个搜索框和几个东西。"
+ },
+ {
+  "seg": 148,
+  "start": 1033.994,
+  "end": 1037.677,
+  "speaker": "Unknown",
+  "en": "And let me open it here, the full page.",
+  "zh": "让我在这里打开它,完整页面。"
+ },
+ {
+  "seg": 149,
+  "start": 1038.217,
+  "end": 1038.757,
+  "speaker": "Unknown",
+  "en": "Not this one.",
+  "zh": "不是这个。"
+ },
+ {
+  "seg": 150,
+  "start": 1038.837,
+  "end": 1038.998,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 151,
+  "start": 1039.178,
+  "end": 1039.438,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 152,
+  "start": 1040.118,
+  "end": 1045.262,
+  "speaker": "Unknown",
+  "en": "So, I could say Europe AI conferences.",
+  "zh": "那么，我可以说欧洲 AI 会议。"
+ },
+ {
+  "seg": 153,
+  "start": 1045.902,
+  "end": 1059.335,
+  "speaker": "Unknown",
+  "en": "So, these suggestions are also I generated, and I get a page that is more focused on, it should be more focused on these European conferences.",
+  "zh": "这些建议也是我生成的，然后我得到一个更加聚焦的页面，它应该更聚焦于这些欧洲会议。"
+ },
+ {
+  "seg": 154,
+  "start": 1060.176,
+  "end": 1062.118,
+  "speaker": "Unknown",
+  "en": "If I go back, did I go?",
+  "zh": "如果我返回，我回去了吗？"
+ },
+ {
+  "seg": 155,
+  "start": 1064.993,
+  "end": 1069.316,
+  "speaker": "Unknown",
+  "en": "I can search for anything the same way I did with ARCO.",
+  "zh": "我可以用和我刚才处理 ARCO 时一样的方式搜索任何东西。"
+ },
+ {
+  "seg": 156,
+  "start": 1069.496,
+  "end": 1075.14,
+  "speaker": "Unknown",
+  "en": "As a specific, there was someone that was generating a good comparison side to side.",
+  "zh": "举个具体例子，有人生成了一个很好的并排对比。"
+ },
+ {
+  "seg": 157,
+  "start": 1075.921,
+  "end": 1076.721,
+  "speaker": "Unknown",
+  "en": "Let me see if this one.",
+  "zh": "让我看看这个。"
+ },
+ {
+  "seg": 158,
+  "start": 1076.821,
+  "end": 1078.082,
+  "speaker": "Unknown",
+  "en": "Okay, here, this one.",
+  "zh": "好，这里，这个。"
+ },
+ {
+  "seg": 159,
+  "start": 1078.923,
+  "end": 1083.706,
+  "speaker": "Unknown",
+  "en": "I went and this generated a page with a very good comparison.",
+  "zh": "我打开后，它生成了一个有很好对比的页面。"
+ },
+ {
+  "seg": 160,
+  "start": 1083.746,
+  "end": 1093.013,
+  "speaker": "Unknown",
+  "en": "If I'm looking at two conferences and I need to decide, if I figure out that the user wants to do that, this is great because that gives them a side by side comparison on the fly.",
+  "zh": "如果我在比较两个会议，需要做决定，如果我判断出用户想要这么做，这就很棒，因为它能即时给他们一个并排的对比。"
+ },
+ {
+  "seg": 161,
+  "start": 1094.843,
+  "end": 1103.715,
+  "speaker": "Unknown",
+  "en": "Now, I think this is cool already, but then I have this idea that",
+  "zh": "现在，我觉得这已经很酷了，但我又有一个想法"
+ },
+ {
+  "seg": 162,
+  "start": 1104.938,
+  "end": 1109.862,
+  "speaker": "Unknown",
+  "en": "Probably a bunch of people we are talking about, is the web dead?",
+  "zh": "我们讨论的很多人都在问，网页死了吗？"
+ },
+ {
+  "seg": 163,
+  "start": 1110.542,
+  "end": 1112.684,
+  "speaker": "Unknown",
+  "en": "Is the web the future still and so on?",
+  "zh": "网页还是不是未来，诸如此类？"
+ },
+ {
+  "seg": 164,
+  "start": 1113.044,
+  "end": 1113.645,
+  "speaker": "Unknown",
+  "en": "Nobody knows.",
+  "zh": "没人知道。"
+ },
+ {
+  "seg": 165,
+  "start": 1114.285,
+  "end": 1121.611,
+  "speaker": "Unknown",
+  "en": "But we can also do something with this audience of one, these generative sites.",
+  "zh": "但我们也可以对这种「单一受众」的生成式网站做点什么。"
+ },
+ {
+  "seg": 166,
+  "start": 1122.091,
+  "end": 1133.24,
+  "speaker": "Unknown",
+  "en": "So imagine you have your personal assistant, and you ask a query through, in this case, through Google, and you say, I want to buy, I don't remember what the query said,",
+  "zh": "所以想象一下你有一个私人助手，你提交一个查询，在这个例子里，通过 Google，你说，我想买，我不记得那个查询是怎么说的了，"
+ },
+ {
+  "seg": 167,
+  "start": 1133.48,
+  "end": 1138.943,
+  "speaker": "Unknown",
+  "en": "It was something like I want to buy a machine, and I get this on my Google TV.",
+  "zh": "大概是类似我想买一台机器，然后我在我的 Google TV 上得到了这个。"
+ },
+ {
+  "seg": 168,
+  "start": 1140.264,
+  "end": 1143.326,
+  "speaker": "Unknown",
+  "en": "So this is absolutely personalized to my query.",
+  "zh": "所以这是完全针对我的查询个性化的。"
+ },
+ {
+  "seg": 169,
+  "start": 1148.344,
+  "end": 1150.326,
+  "speaker": "Unknown",
+  "en": "This is absolutely personalized to my query.",
+  "zh": "这是完全针对我的查询个性化的。"
+ },
+ {
+  "seg": 170,
+  "start": 1150.366,
+  "end": 1151.767,
+  "speaker": "Unknown",
+  "en": "So, I'm there in my living room.",
+  "zh": "那么，我就在我的客厅里。"
+ },
+ {
+  "seg": 171,
+  "start": 1151.847,
+  "end": 1152.768,
+  "speaker": "Unknown",
+  "en": "I don't need a phone.",
+  "zh": "我不需要手机。"
+ },
+ {
+  "seg": 172,
+  "start": 1152.868,
+  "end": 1154.37,
+  "speaker": "Unknown",
+  "en": "I don't need a computer.",
+  "zh": "我不需要电脑。"
+ },
+ {
+  "seg": 173,
+  "start": 1154.47,
+  "end": 1155.451,
+  "speaker": "Unknown",
+  "en": "I don't need anything.",
+  "zh": "我什么都不需要。"
+ },
+ {
+  "seg": 174,
+  "start": 1155.811,
+  "end": 1164.82,
+  "speaker": "Unknown",
+  "en": "Just my voice and something that will kind of show me something that is absolutely personalized to me.",
+  "zh": "只需要我的声音，和一个能给我展示完全为我个性化的内容的东西。"
+ },
+ {
+  "seg": 175,
+  "start": 1169.965,
+  "end": 1170.385,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 176,
+  "start": 1170.465,
+  "end": 1171.046,
+  "speaker": "Unknown",
+  "en": "So, that one.",
+  "zh": "就是那个。"
+ },
+ {
+  "seg": 177,
+  "start": 1173.663,
+  "end": 1179.534,
+  "speaker": "Unknown",
+  "en": "What I was trying to show, and hopefully you remember from this session, is that this is now possible.",
+  "zh": "我想要展示的，希望你们在这次演讲中记住了，就是这在现在已经是可能的了。"
+ },
+ {
+  "seg": 178,
+  "start": 1180.554,
+  "end": 1182.635,
+  "speaker": "Unknown",
+  "en": "It's only going to get better from here on.",
+  "zh": "从这里开始只会越来越好。"
+ },
+ {
+  "seg": 179,
+  "start": 1182.795,
+  "end": 1183.956,
+  "speaker": "Unknown",
+  "en": "It's only going to get cheaper.",
+  "zh": "只会越来越便宜。"
+ },
+ {
+  "seg": 180,
+  "start": 1184.036,
+  "end": 1185.096,
+  "speaker": "Unknown",
+  "en": "It's only going to get faster.",
+  "zh": "只会越来越快。"
+ },
+ {
+  "seg": 181,
+  "start": 1185.997,
+  "end": 1193.921,
+  "speaker": "Unknown",
+  "en": "And you will be able to have huge personalization options for sites and for other things.",
+  "zh": "你将能够为网站和其他东西提供巨大的个性化选项。"
+ },
+ {
+  "seg": 182,
+  "start": 1194.782,
+  "end": 1198.344,
+  "speaker": "Unknown",
+  "en": "And you can do this with intent driven.",
+  "zh": "而且你可以用意图驱动的方式来做这件事。"
+ },
+ {
+  "seg": 183,
+  "start": 1198.364,
+  "end": 1200.164,
+  "speaker": "Unknown",
+  "en": "So what is my user trying to do?",
+  "zh": "那么我的用户想做什么？"
+ },
+ {
+  "seg": 184,
+  "start": 1200.225,
+  "end": 1202.546,
+  "speaker": "Unknown",
+  "en": "What does my user want to buy?",
+  "zh": "我的用户想买什么？"
+ },
+ {
+  "seg": 185,
+  "start": 1202.926,
+  "end": 1204.007,
+  "speaker": "Unknown",
+  "en": "These sort of questions.",
+  "zh": "这类问题。"
+ },
+ {
+  "seg": 186,
+  "start": 1204.707,
+  "end": 1207.969,
+  "speaker": "Unknown",
+  "en": "And you can assemble a page just for them.",
+  "zh": "然后你就可以专门为他们组装一个页面。"
+ },
+ {
+  "seg": 187,
+  "start": 1208.995,
+  "end": 1212.677,
+  "speaker": "Unknown",
+  "en": "And you can also do this with multiple models.",
+  "zh": "你也可以用多个模型来做这件事。"
+ },
+ {
+  "seg": 188,
+  "start": 1213.077,
+  "end": 1217.479,
+  "speaker": "Unknown",
+  "en": "And eventually, it's just going to be faster and faster, right?",
+  "zh": "最终，它只会越来越快，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 1219.02,
+  "end": 1220.801,
+  "speaker": "Unknown",
+  "en": "So that's it.",
+  "zh": "就是这些。"
+ },
+ {
+  "seg": 190,
+  "start": 1221.121,
+  "end": 1221.902,
+  "speaker": "Unknown",
+  "en": "Thank you for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 191,
+  "start": 1222.002,
+  "end": 1223.642,
+  "speaker": "Unknown",
+  "en": "And I hope you got the idea.",
+  "zh": "希望你们领会了这个思路。"
+ },
+ {
+  "seg": 192,
+  "start": 1224.203,
+  "end": 1224.443,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ }
+]

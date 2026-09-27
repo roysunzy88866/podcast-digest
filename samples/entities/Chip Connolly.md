@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Airbnb":10,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Airbnb":11,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
 
 <script>
 (function(){

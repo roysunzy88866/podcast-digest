@@ -67,7 +67,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Eddy Lazzarin]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]]
 
 </div>
 

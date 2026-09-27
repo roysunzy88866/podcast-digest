@@ -94,11 +94,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":2,"Anthropic":146,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":3,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":2,"Anthropic":147,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
 
 <script>
 (function(){

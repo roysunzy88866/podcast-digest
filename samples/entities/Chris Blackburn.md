@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":16,"DevOps":3,"变革管理":3,"数字分身":3,"持续交付":2,"ChatGPT":78}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":16,"DevOps":3,"变革管理":3,"数字分身":3,"持续交付":2,"ChatGPT":79}</script>
 
 <script>
 (function(){

@@ -162,7 +162,7 @@ Alex 说他和客户做这种流程映射时发现，很多效率提升根本不
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:OpenAI · 同概念:工作流映射 (workflow)</span>
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:OpenAI · 同概念:工作流映射 (workflow)</span>
-- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:工作流映射 (workflow)</span>
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:OpenAI · 同概念:AI 垃圾内容 (AI slop)</span>
 
 </div>
 </div>

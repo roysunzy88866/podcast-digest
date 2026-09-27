@@ -177,7 +177,7 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码]]<span class="pd-rz">同公司:anthropic、instagram</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:anthropic、twitter</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding</span>
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:facebook · 同概念:品味 (taste)</span>
 
 </div>
 <div class="pd-ex">

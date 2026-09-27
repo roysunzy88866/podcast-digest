@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]]
+[[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Bruno Scott Sperka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"职业倦怠":3,"认知衰退":1,"同薪挤压":1,"NPS":2,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":19}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"职业倦怠":4,"认知衰退":1,"同薪挤压":1,"NPS":2,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":19}</script>
 
 <script>
 (function(){

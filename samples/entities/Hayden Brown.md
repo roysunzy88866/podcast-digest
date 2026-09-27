@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Upwork":1,"智能体":337,"MCP 服务器":4,"开源模型":21,"自由职业":1,"AI 编排师":1,"ChatGPT":78,"Claude":68,"Anthropic":146}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Upwork":1,"智能体":339,"MCP 服务器":4,"开源模型":21,"自由职业":1,"AI 编排师":1,"ChatGPT":79,"Claude":69,"Anthropic":147}</script>
 
 <script>
 (function(){

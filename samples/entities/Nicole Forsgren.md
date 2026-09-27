@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"代码行数":2,"DORA":2,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"代码行数":2,"DORA":2,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":10}</script>
 
 <script>
 (function(){

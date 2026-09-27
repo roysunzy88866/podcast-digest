@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":337,"Stripe":37,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"RAIN":1,"稳定币":5,"代币化货币":1,"智能体":339,"Stripe":38,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

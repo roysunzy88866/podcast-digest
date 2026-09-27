@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Square":5,"Block":3,"业务单元模式":1,"职能制":1,"DRI":4,"智能体":337,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":3}</script>
+<script type="application/json" class="pd-epn">{"Square":5,"Block":3,"业务单元模式":1,"职能制":1,"DRI":4,"智能体":339,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":3}</script>
 
 <script>
 (function(){

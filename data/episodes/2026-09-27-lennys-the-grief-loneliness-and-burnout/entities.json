@@ -1,0 +1,2021 @@
+{
+  "episode_id": "2026-09-27-lennys-the-grief-loneliness-and-burnout",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-27",
+  "tags": [
+    "职业成长",
+    "AI 与工作",
+    "管理与领导力",
+    "组织变化",
+    "职业倦怠"
+  ],
+  "categories": [
+    "职业与个人成长",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            177.154,
+            188.84
+          ],
+          "quote": "So, to help you, we've just created a new Lenny's Most Replayed Moments YouTube channel that has exactly this, the most re-watched and shared segments from our long form episodes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 39,
+          "t": [
+            218.463,
+            219.51
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1756.562,
+            1760.036
+          ],
+          "quote": "Your data said that and I was like, \"Thank you for publishing this data, Lenny.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2513.857,
+            2519.119
+          ],
+          "quote": "Visit getdx.com/lenny to get a demo of DX.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2520.279,
+            2520.78
+          ],
+          "quote": "com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3812.408,
+            3812.939
+          ],
+          "quote": "Sandwich, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4385,
+            4389.183
+          ],
+          "quote": "Well, I hope you do many episodes on that someday, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4672.752,
+            4680.436
+          ],
+          "quote": "One of my questions, this is really frontier, Lenny, is what is the AI slop version of startups?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            5317,
+            5334.568
+          ],
+          "quote": "I think one of the other things that feels like it really came out, Lenny, is there is opportunity here and we got to start ignoring or muting or whatever some of this fear narrative because right now the data isn't saying there are no jobs for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            5553.48,
+            5556.502
+          ],
+          "quote": "But the second thing I wanted to say, Lenny, is thank you for making space for this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            5591.719,
+            5593.14
+          ],
+          "quote": "So thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            5627.646,
+            5628.717
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "molly-graham",
+      "type": "person",
+      "role": "cohost",
+      "name": "Molly Graham",
+      "file": "Molly Graham",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            89.72,
+            91.301
+          ],
+          "quote": "Today my guest is Molly Graham.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.273,
+            210.675
+          ],
+          "quote": "With that, I bring you Molly Graham.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "give-away-your-legos",
+      "type": "concept",
+      "role": "concept",
+      "name": "送出你的乐高 (give away your Legos)",
+      "file": "送出你的乐高",
+      "primary": true,
+      "how_described": "本集主线框架：Molly Graham 13 年前提出的职业建议——随着公司成长主动把项目、团队、职责交给别人；本集做了 13 年来最大修正：交给 AI 时这条建议不再完全成立，有些乐高不该送出去",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            98.183,
+            102.465
+          ],
+          "quote": "The frame for this conversation is her classic, \"Give away your legos\" career advice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            120.591,
+            122.352
+          ],
+          "quote": "Essentially to give away your Legos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            228.543,
+            250.271
+          ],
+          "quote": "So, we've been chatting over the past couple months about your famous, infamous give away your Legos career advice, and this question came up, and I know you're hearing this a lot from other people, this idea of how this advice applies in today's very strange AI world, where AI is taking a lot of our Legos, whether we like it or not.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 86,
+          "t": [
+            507.877,
+            514.48
+          ],
+          "quote": "And the give away your Legos part is that feeling when somebody else shows up, and they try to take the tower out of your hands.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            608.295,
+            619.079
+          ],
+          "quote": "And I got an email, again, I remember it very vividly from a founder in Nigeria, who was like, \"My team went from two people to four people this year, and give away your Legos is so valuable to me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 140,
+          "t": [
+            920.214,
+            935.94
+          ],
+          "quote": "And I think that's such a big part of the give away your Legos today is just helping people understand that these emotions are just part of your body and your identity reacting to change.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2568.894,
+            2572.375
+          ],
+          "quote": "If I'm going to get up on stage and be like, \"Give away your Legos,\" a lot of times people are like, \"Wait a minute.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            5437.508,
+            5444.113
+          ],
+          "quote": "Give away your Legos, but be discerning about what you should keep and what should be human and what humans are here for.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把 AI 说成：正在拿走我们的乐高、被鼓励托付工作对象；它像初级员工/实习生，需要背景、入职引导和不断纠正，而恐惧叙事大多被夸大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            8.98
+          ],
+          "quote": "So, we've been chatting about your famous giveaway, your Legos career advice, this idea of how this advice applies in today's very strange AI world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.04,
+            32.367
+          ],
+          "quote": "In AI land, I think we got to caveat this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            48.06,
+            52.859
+          ],
+          "quote": "AI is taking a lot of our Legos, whether we like it or not, and we're being encouraged to give away our Legos to AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 16,
+          "t": [
+            73.361,
+            76.351
+          ],
+          "quote": "This is almost a discussion around what should AI do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 17,
+          "t": [
+            76.472,
+            79
+          ],
+          "quote": "Where do you want AI to be involved and where do you not want it involved?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            103.085,
+            120.111
+          ],
+          "quote": "But in an AI world, Molly's advice for the last 13 years has been that your career will be better off if you give away your projects and your teams and your responsibilities to other people as your company grows, versus trying to hold onto it, which is what we naturally want to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            122.952,
+            134.756
+          ],
+          "quote": "After 13 years of giving this advice and it unlocking so much win for so many people over the past decade, Molly's realized that it is no longer true when you are giving away your Legos to AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 35,
+          "t": [
+            198.086,
+            206.052
+          ],
+          "quote": "Finally, don't forget to check out lennysproductpass.com for a free year of the hottest and most beautifully crafted AI and non-AI products in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            228.543,
+            250.271
+          ],
+          "quote": "So, we've been chatting over the past couple months about your famous, infamous give away your Legos career advice, and this question came up, and I know you're hearing this a lot from other people, this idea of how this advice applies in today's very strange AI world, where AI is taking a lot of our Legos, whether we like it or not.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            251.171,
+            255.533
+          ],
+          "quote": "And we're being encouraged to give our Legos to AI, people are afraid about AI taking their Legos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            256.213,
+            262.255
+          ],
+          "quote": "And so, the question is just how this advice now applies in a world of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 111,
+          "t": [
+            688.18,
+            695.733
+          ],
+          "quote": "So, let's talk about what still holds true in this advice in this today's very strange AI world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            897.066,
+            906.429
+          ],
+          "quote": "There's obviously excitement and joy in this moment of chaos and change with AI, but there is a lot of sadness.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            961.632,
+            964.974
+          ],
+          "quote": "And never has a truer sentence been said than about the age of AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1046.54,
+            1072.376
+          ],
+          "quote": "And I think this is happening with AI as well, which is that we do have these instincts to hold on to what we know, and to defend what we know, and to fight for what we know for a bunch of different reasons, many of them good, but the future is going to be defined by the people that are willing to just take the stance of learning and to throw themselves into this change, scary and unknown as it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1131.234,
+            1133.434
+          ],
+          "quote": "Now it's talking to your AI to write the code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1494.404,
+            1498.846
+          ],
+          "quote": "His kind of insight here is what we want is AI that we control.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1504.168,
+            1511.191
+          ],
+          "quote": "What we need to avoid in fear is the reverse centaur where the AI is using us to do things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1521.134,
+            1533.339
+          ],
+          "quote": "And I think that's a lot of people's fear is you're just this thing that's just controlling agents and just this closing gap of, \"Here's where humans still are valuable,\" and then AI is telling you where to build and what to do and then it's doing the thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1623.175,
+            1630.816
+          ],
+          "quote": "As of right now, there is not a lot of data, although you may have more than I do, that says that AI is genuinely taking jobs away.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1630.836,
+            1635.077
+          ],
+          "quote": "And I have a lot of beef to pick with all the AI-branded layoffs out there because they're bullshit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1635.097,
+            1636.397
+          ],
+          "quote": "They're not about AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1636.457,
+            1645.899
+          ],
+          "quote": "They are about badly run companies slapping an AI label and getting some share points from that versus saying, \"Whoops, we hired too many people.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1718.99,
+            1733.917
+          ],
+          "quote": "And I just kind of wish that was the conversation we were having about all the jobs in tech and honestly all the jobs that are theoretically going to get taken by AI, which is the form is definitely going to change.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1778.167,
+            1785.029
+          ],
+          "quote": "So we did the survey for two years now in a row of how tech people are feeling and how they're feeling about AI and all these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1819.59,
+            1820.291
+          ],
+          "quote": "Well, you got all these AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1881.14,
+            1899.468
+          ],
+          "quote": "I was emailing with a friend at OpenAI and she was like, \"It's taken us literally six months to go from this token- maxing, everybody aggressive productivity, use AI everywhere,\" to a conversation that's like, \"Wait, wait, wait, wait, wait.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1905.611,
+            1914.715
+          ],
+          "quote": "And so if you are sitting inside that, it means six months ago they were like, \"Use AI all the time, every day, everywhere,\" and now they're like, \"Are you doing it well enough?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1914.795,
+            1920.718
+          ],
+          "quote": "And Hilary Gridley said the same thing where she was like six months ago everyone was like, \"How do I get people to use AI?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1920.778,
+            1925.08
+          ],
+          "quote": "And now they're like, \"How do I get people to stop using AI so badly.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2020.941,
+            2027.225
+          ],
+          "quote": "And even more interestingly, the strongest correlation is people who said that AI has amplified them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2028.125,
+            2033.649
+          ],
+          "quote": "They feel like they figured out how to use AI to do more stuff that they're excited about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2113.551,
+            2118
+          ],
+          "quote": "\"A growing part of everyone's job is cleaning up the AI slop from other people trying to do your job.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2127.302,
+            2135.504
+          ],
+          "quote": "AI is the smartest employee you've ever hired in the entire world and it's better than you at everything.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2135.604,
+            2148.267
+          ],
+          "quote": "And I think it causes people to approach it that way when actually most of our experience with AI, I think a lot of people have had the experience with AI where it's like, \"That's wrong.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2151.448,
+            2156.649
+          ],
+          "quote": "I always think AI needs the same coaching and training that a human does, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2168.192,
+            2180.054
+          ],
+          "quote": "And what happens, to your point about AI slop, is that folks are approaching it as if it's great, the best employee they've ever hired, so they just copy, paste, send.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2203.86,
+            2204.68
+          ],
+          "quote": "AI is the same.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2212.023,
+            2219.486
+          ],
+          "quote": "AI said this was good enough so I'm just going to copy, paste, send,\" and that is never been how good work happens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2252.2,
+            2262.744
+          ],
+          "quote": "And I literally see CEOs, we talk about this all the time in Glue Club, shipping a strategy memo that was clearly written by AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2475.581,
+            2483.325
+          ],
+          "quote": "Now that everybody at your company is finally using AI, the question that engineering leaders face is no longer, \"Are we using AI?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2485.385,
+            2491.628
+          ],
+          "quote": "With DX, you can measure and benchmark the impact of AI adoption across your full product life cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2492.028,
+            2496.19
+          ],
+          "quote": "DX shows you where AI is helping developers and where it's creating new bottlenecks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2496.63,
+            2503.633
+          ],
+          "quote": "You can also use it to evaluate AI vendors, monitor costs and licenses, and see exactly what's limiting your agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2504.313,
+            2513.477
+          ],
+          "quote": "That's why hundreds of enterprises, including Snowflake, Sony, and BNY use the DX platform to measure AI's impact on developer productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2543.505,
+            2548.186
+          ],
+          "quote": "When AI first really took off, it took me a while to really understand what was going on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2768.971,
+            2774.82
+          ],
+          "quote": "And it's the opposite now where somebody else is doing this, the AI, but you're still responsible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2922.2,
+            2924.142
+          ],
+          "quote": "AI right now, pretty junior employees.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2937.092,
+            2940.195
+          ],
+          "quote": "And I do think that is what it feels like managing AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3000.191,
+            3012.735
+          ],
+          "quote": "And we talk about it a lot in Glue Club is just this dominant narrative that all these jobs are going away because of AI and all these layoffs that are branded as AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3130.867,
+            3136.29
+          ],
+          "quote": "And this last one is around just what happens with humans when AI does more and more of our job.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3136.85,
+            3148.676
+          ],
+          "quote": "And it started with him talking to some, I think it was a lawyer who's just like, \"Okay, I'm hoarding this very specific knowledge I have about doing this job so that AI cannot do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3640.383,
+            3643.504
+          ],
+          "quote": "In AI land, I think we got to caveat this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3656.19,
+            3665.174
+          ],
+          "quote": "And I think that is one of the things that's starting to show up in this conversation around AI slop is there's just some work that shouldn't be outsourced.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3665.234,
+            3674.919
+          ],
+          "quote": "My fervent hope for AI is that it lets us do less of the things we shouldn't have been doing in the first place and more of the things that humans are best in the world at, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3700.988,
+            3722.355
+          ],
+          "quote": "And some of that is inside this slop conversation, which is things that require judgment, things that require... Then, to the CEOs that are asking AI for a strategy and then copying and pasting it and sending it to their company, no, that is fundamentally something that a human brain that you as a CEO of your company need to own, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3785.003,
+            3788.165
+          ],
+          "quote": "This is almost a discussion around what should AI do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3788.625,
+            3792.188
+          ],
+          "quote": "Where do you want AI to be involved and where you not want it involved?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3793.109,
+            3798.492
+          ],
+          "quote": "One framework I've loved is this idea of you want AI in the middle of stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3805.558,
+            3809
+          ],
+          "quote": "And then AI does a bunch of stuff, and then you review it, iterate until it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3811,
+            3811.388
+          ],
+          "quote": "AI sandwich.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3822.562,
+            3840.33
+          ],
+          "quote": "So Tara shared this really good perspective that humans are going to be necessary to help guide us towards a world we want to have, a product we want to build versus the most optimal AI version.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3984.378,
+            3985.78
+          ],
+          "quote": "I'm not going to let AI take this on.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4001.226,
+            4006.728
+          ],
+          "quote": "Actually, you see in a lot of different parts of tech where the trend is all AI, everything AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 786,
+          "t": [
+            4009.75,
+            4016.192
+          ],
+          "quote": "Somebody was talking to me about AI is going to make all this art, but doesn't that increase the value of true human-made art, you know?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 822,
+          "t": [
+            4154.834,
+            4163.94
+          ],
+          "quote": "Another thought I had as I'm thinking about this, something I've been noticing, so you know this whole hacking, this open AI model trying to hack into Hugging Face and the swarm of thousand agents just coordinating-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 830,
+          "t": [
+            4175,
+            4178.321
+          ],
+          "quote": "I love how motivated this AI is to solve the problem.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4187.705,
+            4195.488
+          ],
+          "quote": "Are we going to get to an AI that just accelerates to the extremely super intelligent and then we are in big trouble because we can't control it?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4485.011,
+            4492.474
+          ],
+          "quote": "I feel like the biggest skill to build right now is when you're about to do something to ask yourself, \"Can AI help me with this thing?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 886,
+          "t": [
+            4506,
+            4507.862
+          ],
+          "quote": "I feel like you need to insert, \"Can AI help me with this?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4510.225,
+            4510.986
+          ],
+          "quote": "Why would you want AI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4511.587,
+            4522.7
+          ],
+          "quote": "But I feel like that's a really new skill because then you can start... As these AI tools get better, you can start to leverage them in all these different ways that I think is what separates a lot of people right now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4611.064,
+            4618.367
+          ],
+          "quote": "In addition to asking ourselves, can AI help me with this thing is how do we be more ambitious with this idea?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 914,
+          "t": [
+            4639.377,
+            4644.66
+          ],
+          "quote": "What's the hardest thing we can ask this AI to do because it may actually just achieve it out of one ask.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4672.752,
+            4680.436
+          ],
+          "quote": "One of my questions, this is really frontier, Lenny, is what is the AI slop version of startups?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4808.928,
+            4815.871
+          ],
+          "quote": "And that means that how you use AI trickles down, but also how you sit in this moment, how you show up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 956,
+          "t": [
+            4899.951,
+            4907.395
+          ],
+          "quote": "What is right to give away to AI and what do we still as humans and people and workers need to own?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4917.46,
+            4933.748
+          ],
+          "quote": "Clay put out this beautiful AI writing policy a couple weeks ago, I think it was, and it's so badass because it's literally just talking about being accountable for what you ship out in the world and being accountable for what good is regardless of how you made it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4934.388,
+            4958.2
+          ],
+          "quote": "And for today, to me, that feeling of treating AI as a junior intern and realizing that it's fundamentally just a tool to get work done, but what matters is the work is still done mostly by the humans and the human brains, and we got to take care of the humans and we got to help them figure out how to navigate this wild, wild west that we are in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 965,
+          "t": [
+            4976.393,
+            4979.715
+          ],
+          "quote": "All this other AI stuff you can't do a ton about, that's one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            5390.125,
+            5393.688
+          ],
+          "quote": "Another kind of takeaway is just be deliberate about what you give to AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            5396.33,
+            5398.531
+          ],
+          "quote": "One is just like what is AI going to do a terrible job at?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            5402.674,
+            5406.016
+          ],
+          "quote": "How do you avoid brain rot and just overrelying in AI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            5406.217,
+            5409.659
+          ],
+          "quote": "There's a few things there, just AI is not going to... Don't give everything to AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            5411,
+            5411
+          ],
+          "quote": "Yeah. And I think also for a lot of us acknowledging that AI is not this super intelligent being, it is much more like an intern, and that means literally think about it as an intern. What would you give to an intern and what would you never give them?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            5452.36,
+            5468.479
+          ],
+          "quote": "And what I think about there, just very concretely in my mind is be the person that guides what you're doing to a place, to the vision you have of the world you want, not just the simplest thing, not the thing that AI is kind of pointing to, just what do you actually want, and that's kind of our job for a while.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1108,
+          "t": [
+            5599.186,
+            5609.059
+          ],
+          "quote": "I call them Trojan horse episodes where people come for all this tactical concrete, how do I use AI in this way, how do I become better PM, and then there's these like-",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现在的工作变成等一堆智能体跑完再检查，管理智能体和管理初级员工技能相同，一个人脑里装不下这么多被监督的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 899,
+          "t": [
+            4571.783,
+            4574.665
+          ],
+          "quote": "And then what could an agent or a robot do for me?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "delegating",
+      "type": "concept",
+      "role": "concept",
+      "name": "委托给 AI (delegating)",
+      "file": "委托给 AI",
+      "primary": true,
+      "how_described": "Molly 最大的领悟：把事情委托给机器人不等于真正送出去，因为你无法摆脱监督——精神税仍留在你身上，你腾不出空间做新事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 498,
+          "t": [
+            2673.18,
+            2686.663
+          ],
+          "quote": "Interestingly, one of my biggest realizations was that delegating something to a robot is not the same as giving it to a human because you cannot get rid of the oversight.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2687.723,
+            2690.144
+          ],
+          "quote": "It's more like delegating something to someone on your team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2755.318,
+            2762
+          ],
+          "quote": "It's the difference between transferring a Lego to someone where you genuinely get rid of it versus delegating a Lego to someone.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2835.18,
+            2848.286
+          ],
+          "quote": "And so there is exhaustion that comes with if you don't enjoy delegating, if you haven't worked on all these skills for many, many years, then suddenly you are in that stance of management.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2848.746,
+            2857.61
+          ],
+          "quote": "But it just means literally everyone in the world is a manager now and all you're doing when you're delegating to robots is delegating just like you would to another human on your team.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾 (AI slop)",
+      "file": "AI 垃圾",
+      "primary": true,
+      "how_described": "本集说 AI slop 泛滥的根源是人们把问责甩掉了——把实习生交的演示文稿直接转发给老板从来不是好工作产生的方式，每个人工作中越来越大一部分是在清理别人的 AI 垃圾",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            2113.551,
+            2118
+          ],
+          "quote": "\"A growing part of everyone's job is cleaning up the AI slop from other people trying to do your job.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2168.192,
+            2180.054
+          ],
+          "quote": "And what happens, to your point about AI slop, is that folks are approaching it as if it's great, the best employee they've ever hired, so they just copy, paste, send.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3656.19,
+            3665.174
+          ],
+          "quote": "And I think that is one of the things that's starting to show up in this conversation around AI slop is there's just some work that shouldn't be outsourced.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4672.752,
+            4680.436
+          ],
+          "quote": "One of my questions, this is really frontier, Lenny, is what is the AI slop version of startups?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产力 vs 效率 (productivity)",
+      "file": "生产力 vs 效率",
+      "primary": true,
+      "how_described": "本集区分：生产力是能不能生成更多（已证明能生成一堆垃圾），效率是有没有真往某处去；有工程报告称 AI 让人更有生产力但须重写的代码涨了 8 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1393.388,
+            1402.712
+          ],
+          "quote": "Because yeah, maybe you can strip out all the humans and you get all this productivity and maybe you get efficiency, but you also get sad humans.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1417,
+            1437.017
+          ],
+          "quote": "Just because, A, that very much resonates with what I see in all my conversations with leaders, but it also to me is a reflection of I think we're seeing more at these bigger companies, where people are stripping out management layers, and there's a lot more pressure on productivity and things like that, and there's less room for the human.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1881.14,
+            1899.468
+          ],
+          "quote": "I was emailing with a friend at OpenAI and she was like, \"It's taken us literally six months to go from this token- maxing, everybody aggressive productivity, use AI everywhere,\" to a conversation that's like, \"Wait, wait, wait, wait, wait.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2275.788,
+            2288.852
+          ],
+          "quote": "And I feel like it goes down to this thing of this last six months, we've really been overvaluing productivity, which is just you hear all these stories about companies counting tokens and having token leaderboards.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2309.719,
+            2312.34
+          ],
+          "quote": "which is to me the difference between productivity and efficiency.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2313.04,
+            2322.131
+          ],
+          "quote": "Productivity is can you generate more, which at this point I think we've proven we can all generate a bunch of shit that other people then have to wade through, to the point of your tweet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2362.207,
+            2365.008
+          ],
+          "quote": "So it's like this very clear symbol of productivity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2368.31,
+            2379.634
+          ],
+          "quote": "So it's like there's just this difference between productivity and efficiency and I think part of your burnout data is people are just getting swamped.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2504.313,
+            2513.477
+          ],
+          "quote": "That's why hundreds of enterprises, including Snowflake, Sony, and BNY use the DX platform to measure AI's impact on developer productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 926,
+          "t": [
+            4704.812,
+            4710.957
+          ],
+          "quote": "And again, it goes to the difference between just productivity, like I built a thing, and what is good?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "burnout",
+      "type": "concept",
+      "role": "concept",
+      "name": "职业倦怠 (burnout)",
+      "file": "职业倦怠",
+      "primary": true,
+      "how_described": "Lenny 调查数据：2025 年 44% 科技从业者感到倦怠，今年升到 55%；Molly 认为来源包括叙事变化太快、监督所有机器人的精神税",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            906.469,
+            910.171
+          ],
+          "quote": "There's a lot of overwhelm that all manifests, some of it manifests in burnout.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1785.51,
+            1791.672
+          ],
+          "quote": "And so we have a trend now of over time how things are changing and we look at burnout and optimism.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1844.647,
+            1859.432
+          ],
+          "quote": "And I think burnout comes from a lot of different places and can mean a lot of different things to people, but to me, what I read inside that data was number one, emotions are tiring and there is a lot of exhaustion trying to understand what's going on in a ...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2368.31,
+            2379.634
+          ],
+          "quote": "So it's like there's just this difference between productivity and efficiency and I think part of your burnout data is people are just getting swamped.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2734.934,
+            2747.977
+          ],
+          "quote": "Again, I wonder if this is part of what's going on with some of your burnout data is just, \"All of a sudden I'm overseeing all these robots and maybe all these humans and it's more.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "grief",
+      "type": "concept",
+      "role": "concept",
+      "name": "悲伤 (grief)",
+      "file": "悲伤",
+      "primary": true,
+      "how_described": "本集反复强调变化带来的悲伤是真实且正常的——怀念旧的工作方式、有时甚至要为它「办一场葬礼」，领导者谈论悲伤就能让人们好受一些",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            887.203,
+            897.046
+          ],
+          "quote": "When I travel around and I'm talking to leaders, and I know you and I are going to talk about this, but a lot of what I'm hearing is grief and all these different emotions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1106.442,
+            1121.47
+          ],
+          "quote": "This grief piece, just to spend a little more time here, I've been seeing this a lot in a lot of different professions, I've done these surveys that we might get into a little bit, but just engineering as a role has completely transformed in two years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1170.522,
+            1174.464
+          ],
+          "quote": "It's such a perfect example of the grief.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1207.062,
+            1219.227
+          ],
+          "quote": "Where actually, I think what he was talking about was the grief that is very present for him now in the fact that he's not sure what is his current job, what is this...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1234.913,
+            1246.697
+          ],
+          "quote": "But I think that that grief is happening for a lot of people, I think engineering is probably one of the most visceral areas where people's jobs have genuinely transformed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1289.031,
+            1293.372
+          ],
+          "quote": "And so, that grief, first and foremost, that grief is really real.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1933.783,
+            1944.628
+          ],
+          "quote": "The grief is tiring, let alone I think that feeling which you mentioned in your survey of, \"I'm going to be expected to do more for the same amount of pay.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2394.562,
+            2396.368
+          ],
+          "quote": "It comes back to the grief of, \"Oh, man.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 812,
+          "t": [
+            4110.777,
+            4116.54
+          ],
+          "quote": "And I think sometimes we're not allowing the grief because we're just like, \"Just get excited about the future people.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 947,
+          "t": [
+            4826.335,
+            4835.299
+          ],
+          "quote": "I hope there's more managers out there because of this conversation talking about grief and talking about the emotions that come with change and talking about how hard this is for people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            5294.613,
+            5303.676
+          ],
+          "quote": "I think as part of that, I would just say grief is part of this and sometimes grief needs a funeral or do what you got to do to be sad.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "centaur",
+      "type": "concept",
+      "role": "concept",
+      "name": "半人马与反向半人马 (centaur)",
+      "file": "半人马与反向半人马",
+      "primary": true,
+      "how_described": "Corey Doctorow 的心智模型：半人马是人头控制马身（AI 听我们指挥，很好），反向半人马是马头控制人身（AI 在利用我们），DoorDash 和 Uber 的人已活在后者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1449.444,
+            1458.518
+          ],
+          "quote": "There's this really cool framework on a mental model that Corey Doctorow wrote about a while ago where he talks about the centaur and the reverse centaur.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1463,
+            1463
+          ],
+          "quote": "Okay. I don't know if I know how to pronounce it. centaur? Does that sound right? Centaur?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1466.542,
+            1470.154
+          ],
+          "quote": "So centaur is a human body on top of an animal, like a horse.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1485.021,
+            1489.122
+          ],
+          "quote": "So the idea is a centaur is human head controlling an animal body.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1489.522,
+            1494.384
+          ],
+          "quote": "Reverse centaur is an animal head controlling a human body.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1501.487,
+            1503.388
+          ],
+          "quote": "Centaur, it's a cool way to live.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1504.168,
+            1511.191
+          ],
+          "quote": "What we need to avoid in fear is the reverse centaur where the AI is using us to do things.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "fear-narrative",
+      "type": "concept",
+      "role": "concept",
+      "name": "恐惧叙事 (fear narrative)",
+      "file": "恐惧叙事",
+      "primary": true,
+      "how_described": "Molly 认为现在「AI 六个月后抢走你工作」的主导叙事不符合现实：没有太多数据表明 AI 真在夺走工作，AI 旗号的裁员多是经营不善贴标签捞股价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1536.9,
+            1559.684
+          ],
+          "quote": "I mean, I want to get to the fear side of this and the fear narrative as well because I think that's one of the things that is really different in this stage and this sort of phase because it's really hard to tell people lean into change when they're like, \"But wait, what's on the other side?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1568.366,
+            1590.529
+          ],
+          "quote": "And I think that fear narrative, I am sure some of it is real, but some of it is really overblown and it's creating a pretty toxic environment for people where it's so hard to lean into this change with joy or excitement or any sense of opportunity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1646.179,
+            1651.14
+          ],
+          "quote": "And they're propagating this fear narrative that is like, \" Your job is going away.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2992.148,
+            3000.171
+          ],
+          "quote": "And I think this, what I talked about with the fear narrative is one of the things that's driving me nuts in the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4303.205,
+            4311.252
+          ],
+          "quote": "And I think that goes again to the fear narrative where I'm just like, \"We need to be encouraging people to be part of shaping the future, not just making them terrified of it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            5317,
+            5334.568
+          ],
+          "quote": "I think one of the other things that feels like it really came out, Lenny, is there is opportunity here and we got to start ignoring or muting or whatever some of this fear narrative because right now the data isn't saying there are no jobs for you.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "manager",
+      "type": "concept",
+      "role": "concept",
+      "name": "管理者 (manager)",
+      "file": "管理者",
+      "primary": true,
+      "how_described": "本集说管理者的世界最难也最重要：调查数据显示管理者是工作幸福感最强杠杆；大公司取消管理层级是巨大错误；一生只遇到几个好管理者，找到就拼命抓住",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            437.129,
+            447.793
+          ],
+          "quote": "And so somebody shows up and your manager shows up and says, \"Hey, you need to hand that thing that you built your whole identity around to someone else and go on to doing something else.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2790.02,
+            2792.321
+          ],
+          "quote": "If you're a manager, it's a familiar feeling, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2802.926,
+            2813.31
+          ],
+          "quote": "But if you're not a manager, if you've never been a manager ... And I do think it's important to name that, like I said, managing robots, those skills are very similar to managing humans.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2830.718,
+            2834.3
+          ],
+          "quote": "So many people actively chose not to become a manager.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2848.746,
+            2857.61
+          ],
+          "quote": "But it just means literally everyone in the world is a manager now and all you're doing when you're delegating to robots is delegating just like you would to another human on your team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 850,
+          "t": [
+            4268.726,
+            4279.611
+          ],
+          "quote": "And every single conversation I have with every leader, every manager at all of the big labs, every company is like, \"We are early.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4753.202,
+            4760.646
+          ],
+          "quote": "I was thinking yesterday because of the conversation I was having is like, what do I want every manager or leader out there to know?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 962,
+          "t": [
+            4960.641,
+            4970.368
+          ],
+          "quote": "It connects to another really interesting insight from the survey, which is that the one thing that you can actually change to increase people's happiness right now at work is their manager.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            5026.097,
+            5031.939
+          ],
+          "quote": "That's what a great manager does is make people feel seen and supported and help them figure out whatever mess they're in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 976,
+          "t": [
+            5036.045,
+            5041.112
+          ],
+          "quote": "People have had great managers, they're rarely going to be like, \"I wish I had no manager.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味与愿景 (taste)",
+      "file": "品味与愿景",
+      "primary": true,
+      "how_described": "本集说人的角色是引导产品走向我们想要的世界，而不只是最优化的 AI 版本——把世界的未来外包给一群暑期实习生我们就有麻烦了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 754,
+          "t": [
+            3901.341,
+            3910.88
+          ],
+          "quote": "And to some extent what you're talking about is taste, that there is a big difference between something that's okay and something that's phenomenal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3911.1,
+            3912.482
+          ],
+          "quote": "I think it's even beyond taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3915.967,
+            3919.572
+          ],
+          "quote": "Because you could say, people at booking.com, they have taste for a specific type.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3919.632,
+            3922.416
+          ],
+          "quote": "It's like a different kind of taste.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "Molly 见证乐高建议起源的地方：她 2007 年加入时约一万名员工，她的部门九个月内从 25 人涨到 125 人，第一次经历真正的快速规模化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            155.164,
+            159.366
+          ],
+          "quote": "She's held leadership roles at Google, and Facebook, and Quip, and the Chan Zuckerberg Initiative.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            357,
+            364.042
+          ],
+          "quote": "It actually started when I was at Google and Facebook, and it started as a little talk that I would give people that worked for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            364.843,
+            375.906
+          ],
+          "quote": "And for context, Google was pretty big when I joined, it was like 10,000 employees in 2007, but my department grew from 25 people to 125 people in nine months.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            398.634,
+            414.66
+          ],
+          "quote": "So, that experience was nuts from a scaling perspective, and what I witnessed at Google and then really witnessed at Facebook was how hard and scary that experience was for people.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "Molly 加入时只有 500 人、8000 万用户（比 MySpace 还小），五年后离开时 5500 人、十亿多用户；她在头两年 HR 亲眼看到不成长的高绩效者一年内落水",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            155.164,
+            159.366
+          ],
+          "quote": "She's held leadership roles at Google, and Facebook, and Quip, and the Chan Zuckerberg Initiative.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            357,
+            364.042
+          ],
+          "quote": "It actually started when I was at Google and Facebook, and it started as a little talk that I would give people that worked for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            380.148,
+            385.79
+          ],
+          "quote": "And then I went to Facebook, and Facebook was relatively small when I joined, it was 500 employees, and 80 million users...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            398.634,
+            414.66
+          ],
+          "quote": "So, that experience was nuts from a scaling perspective, and what I witnessed at Google and then really witnessed at Facebook was how hard and scary that experience was for people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            556.556,
+            560.257
+          ],
+          "quote": "The talk when I was at Facebook, it was over 20 years ago.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            567.24,
+            589.828
+          ],
+          "quote": "And I would've said I was speaking to folks going through a Facebook-like experience, I would've said, hey, this is an article that is for the Stripes or the Slacks or whoever was blowing up in 2013, to normalize, hey, this is what it feels like and this is what you have to do to grow as fast as your company is growing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 132,
+          "t": [
+            862.573,
+            870.437
+          ],
+          "quote": "And I think that was a lot of why I first started talking about Legos at Facebook and on my teams was I just wanted to normalize for people what it felt like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            978.7,
+            983.282
+          ],
+          "quote": "You go look at that curve... And at Facebook it felt like we were falling off of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1027.575,
+            1045.94
+          ],
+          "quote": "And I saw this viscerally at Facebook because the first two years I was in HR, and you could literally see the highest performer one year, if they didn't grow and change and if they didn't involve their team fast enough, they were underwater less than a year later because it was a different company.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集引述 OpenAI 内部六个月内从「token 榨到极致、到处用 AI」变成「这真的有差别吗？太贵了」的叙事翻转；其模型入侵 Hugging Face 的千智能体蜂群事件被引为慢起飞证据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            280.142,
+            286.925
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1255.141,
+            1256.737
+          ],
+          "quote": "Oh, Tara, yeah, from OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1881.14,
+            1899.468
+          ],
+          "quote": "I was emailing with a friend at OpenAI and she was like, \"It's taken us literally six months to go from this token- maxing, everybody aggressive productivity, use AI everywhere,\" to a conversation that's like, \"Wait, wait, wait, wait, wait.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4418.224,
+            4424.466
+          ],
+          "quote": "What really helped me see this is Ian Silber, head of design at OpenAI was on the podcast recently and he made this really good point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "booking-com",
+      "type": "company",
+      "role": "company",
+      "name": "Booking.com",
+      "file": "Booking.com",
+      "primary": true,
+      "how_described": "本集用它作「最优化 AI 版本」的例子：把每一次互动的每一秒优化到极致——各种追加销售、紧迫感，压力很大但极其有效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 734,
+          "t": [
+            3840.73,
+            3848.894
+          ],
+          "quote": "I think I was a longtime Airbnb person, nothing personal, but Booking.com, if you've seen it, a very different experience than Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3849.234,
+            3854.697
+          ],
+          "quote": "Booking.com, their whole philosophy, let's optimize the shit out of every second of interaction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3878.005,
+            3879.646
+          ],
+          "quote": "Booking.com appropriate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3915.967,
+            3919.572
+          ],
+          "quote": "Because you could say, people at booking.com, they have taste for a specific type.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": true,
+      "how_described": "与 Booking.com 对照的本集例子：Airbnb 的选择是不变成那样，希望体验感真的很好、感觉良好——体现人类引导世界走向的品味与愿景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 734,
+          "t": [
+            3840.73,
+            3848.894
+          ],
+          "quote": "I think I was a longtime Airbnb person, nothing personal, but Booking.com, if you've seen it, a very different experience than Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3884.93,
+            3887.691
+          ],
+          "quote": "Airbnb has always been, we don't want to become that.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "Molly 判断「哪些工作该交出去」的参照系：任何坐过 Waymo 的人都会意识到开车从根本上就是代码和系统，人类真不擅长被自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 692,
+          "t": [
+            3677.02,
+            3682.622
+          ],
+          "quote": "Anybody that's ridden in a Waymo has this experience of like, \"Whoa, this is crazy.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>47</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>49</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -47,6 +47,7 @@ unlisted: true
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集提到 Google 给 Anthropic 投了 100 亿美元，上一季度靠 Anthropic 持股增值把账面利润抬高了 990 亿美元，且 Google 搜索因 AI 变得更糟。
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(01:10起):本集说 Google 花 1000 万美元从破产的 Spirit Airlines 买下了数据，没买飞机，买的是数据，用来训练和变现
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(04:12起):本集提及 Freeberg 在 Google 员工不到千人时加入，IPO 后获得了资产，完成了从劳动到资本的跨越
+- **[[2026-09-01-talks-teaching-agents-to-pay-anna-spysz-stripe|《让 AI 智能体替我买耳机：一场智能体商务的完整实操》]]**(02:31起):本集一笔带过:与 OpenAI、Stripe 一同被列为过去一年铺设智能体交易基础设施的公司。
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(23:54起):本集称它是「外面那个大魔王」:用一个爬虫干两件事(搜索+喂 AI),抓取的网络内容超过 OpenAI 两倍、Anthropic 四倍、Microsoft 五倍,正把昨天的搜索垄断变现成明天的 AI 垄断;Prince 预计 9 月中旬后数百万网站将从它的雷达上消失,这会动摇 PageRank 的根基。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(00:00起):本集开场:JD 知道自己在做的东西是 Google 接下来 12 个月排名前三的优先事项;Google 也被列为起跑门上的巨头竞争者。
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(04:04起):嘉宾 2015 年入职 Google,做过让网页更快的产品(两年后被砍),学到「永远质疑你项目的影响力」。
@@ -58,6 +59,7 @@ unlisted: true
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(03:03起):本集说 Google 并不是想成为精确给出你想要结果的世界信息数据库，「它更像是一个推荐引擎」——搜「没有条纹的衬衫」会得到带条纹的衬衫，也答不了「列出全部匹配者」的查询。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(03:07起):传统 SEO 的主场与对照物：核心更新、PageRank 权威评估、与 OpenAI/Reddit 的商业协议；嘉宾认为其在智能体可访问性标准上会「很慢然后一夜之间爆发」。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:13起):本集说『我们网上搜索的根本方式已经永远地彻底改变了』——Josh 已经很久没用 Google 搜索，改用 Claude/GPT/Gemini
+- **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(02:35起):Molly 见证乐高建议起源的地方：她 2007 年加入时约一万名员工，她的部门九个月内从 25 人涨到 125 人，第一次经历真正的快速规模化
 
 ## ① 提到它的金句
 
@@ -125,7 +127,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*47 集*
+*49 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -163,6 +165,7 @@ unlisted: true
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
+- [[2026-09-01-talks-teaching-agents-to-pay-anna-spysz-stripe|《让 AI 智能体替我买耳机：一场智能体商务的完整实操》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为被讨论公司(提及)
@@ -174,14 +177,15 @@ unlisted: true
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为被讨论公司
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[Amazon]] · [[NVIDIA]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Lenny]] · [[Apple]] · [[Meta]] · [[Amazon]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":337,"OpenAI":134,"Anthropic":146,"ChatGPT":78,"Claude":68,"Lenny":67,"Meta":35,"Apple":18,"Amazon":16,"NVIDIA":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":339,"OpenAI":137,"Anthropic":147,"ChatGPT":79,"Claude":69,"Lenny":68,"Apple":18,"Meta":35,"Amazon":16,"NVIDIA":45}</script>
 
 <script>
 (function(){

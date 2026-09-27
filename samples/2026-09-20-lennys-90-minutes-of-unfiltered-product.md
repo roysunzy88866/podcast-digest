@@ -181,9 +181,9 @@ Peter 给出的优秀 PM 画像，是三组必须共存的矛盾：**自信近�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:OpenAI · 同概念:品味 (taste)</span>
+- [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人]]<span class="pd-rz">同公司:OpenAI · 同概念:信任 (trust)</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:OpenAI</span>
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同概念:品味 (taste)</span>
-- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:品味 (taste)</span>
 
 </div>
 <div class="pd-ex">

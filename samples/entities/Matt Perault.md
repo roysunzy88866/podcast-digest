@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":15,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":4,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":16,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":4,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

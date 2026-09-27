@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":5,"Path Robotics":1,"LLM":43,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":22,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":5,"Path Robotics":1,"LLM":44,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":22,"第一性原理":5}</script>
 
 <script>
 (function(){
