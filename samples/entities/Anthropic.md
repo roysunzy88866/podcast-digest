@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>145</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>146</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -76,6 +76,7 @@ unlisted: true
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(07:25起):本集把它说成:一家吸引了一大堆其他大公司(如 OpenAI, Cursor, Vercel)的 CTO 放下身段、甘愿跑来当普通工程师的明星 AI 公司。Tom 称这种最强的人回归一线干活的配置正是他梦寐以求的团队。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(09:39起):本集把它说成:战略是网罗全世界最顶尖的 AI 人才以追逐 AGI,是历史上增长最快的公司
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:21起):本集将 Anthropic 作为垂直集成栈的厂商代表之一，提供从模型到智能体功能到界面的有主见的全套方案
+- **[[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]]**(04:39起):本集举其抗 AI 招聘作业为例:GPU kernel 优化任务,一段时间以超过 Sonnet 的性能作为拿面试的门槛。
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(10:32起):本集说 Anthropic 是 2021 年成立的模型公司，正接近万亿美元市值，是有史以来增长最快的公司之一，筹集了数百亿美元且大部分进入 CapEx
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(04:22起):本集将其与 OpenAI 并列为必须靠押注大型语言模型(LLM)盈利的初创公司代表；同样拿着融来的巨资回投到云上，是云收入循环资金的主要来源之一。
@@ -203,7 +204,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*145 集*
+*146 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -272,6 +273,7 @@ unlisted: true
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
+- [[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
@@ -357,7 +359,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[NVIDIA]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"OpenAI":134,"Claude Code":76,"Cursor":69,"NVIDIA":45,"Claude":68,"推理":55,"Lenny":67,"Google":47,"ChatGPT":77}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"OpenAI":134,"Claude Code":77,"Cursor":69,"NVIDIA":45,"Claude":68,"推理":55,"Lenny":67,"Google":47,"ChatGPT":78}</script>
 
 <script>
 (function(){

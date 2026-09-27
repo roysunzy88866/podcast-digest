@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Incorruptible":1,"Cloudflare":11,"Novo Nordisk":2,"Anthropic":145,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Incorruptible":1,"Cloudflare":11,"Novo Nordisk":2,"Anthropic":146,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

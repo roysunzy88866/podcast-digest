@@ -167,8 +167,8 @@ Plaid 的 go-to-market([[go-to-market|进入市场]])组织走了四步。早期
 **顺着「组织与领导力」挖下去**
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:进入市场 (go-to-market)</span>
+- [[2026-08-07-talks-max-hodak-average-is-not-good-enough|Speed 就是护城河：Science CEO 谈深科技公司的基础设施]]<span class="pd-rz">同概念:招人 (hiring)</span>
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施]]<span class="pd-rz">同概念:招人 (hiring)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:OpenAI</span>
 
 </div>
 <div class="pd-ex">

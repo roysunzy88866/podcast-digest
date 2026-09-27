@@ -1,0 +1,349 @@
+{
+  "episode_id": "2026-08-29-talks-which-ai-startups-actually-land-enterpri",
+  "podcast": "精选演讲",
+  "date": "2026-08-29",
+  "tags": [
+    "企业级 AI",
+    "AI 创业公司销售",
+    "安全合规",
+    "AI 原生化",
+    "智能体"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "brian-lewis",
+      "type": "person",
+      "role": "guest",
+      "name": "Brian Lewis",
+      "file": "Brian Lewis",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "millennium",
+      "type": "company",
+      "role": "company",
+      "name": "Millennium",
+      "file": "Millennium",
+      "primary": true,
+      "how_described": "本集嘉宾所在的约 8000 人对冲基金，安全、合规、监管要求极严，被视为企业客户的最高门槛之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            54.118,
+            56.841
+          ],
+          "quote": "I work on product stuff at Millennium, which is a hedge fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            359.948,
+            361.669
+          ],
+          "quote": "I've been at Millennium for a little over two years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1028.858,
+            1042.53
+          ],
+          "quote": "So to kind of recap as I wrap up here, the recipe, if you are one of the people in the first half who are raising your hand on like, what do I need to do if I'm a startup and I want to work with a really difficult large customer, Millennium's got like 8,000 people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "ZDR",
+      "file": "ZDR",
+      "primary": true,
+      "how_described": "本集把 ZDR 列为安全首选要求：供应商不保留客户任何数据，做不到则退而求客户管理的加密密钥；并强调「如果你说 ZDR，就要真正做到 ZDR」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            391.719,
+            392.159
+          ],
+          "quote": "ZDR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            402.825,
+            405.126
+          ],
+          "quote": "So ZDR is always best, of course.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            697.97,
+            700.971
+          ],
+          "quote": "So we have seen in pilots that people claim they have ZDR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            716.054,
+            717.915
+          ],
+          "quote": "If you say ZDR, do ZDR.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ready",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业就绪 (Enterprise Ready)",
+      "file": "企业就绪",
+      "primary": true,
+      "how_described": "本集的核心主线：创业公司和买方对企业就绪的理解相差太远，40% 死于有效性，其余大量死在安全、可靠性、法务上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            223.364,
+            235.231
+          ],
+          "quote": "So I want to talk about what Enterprise Ready actually means from the inside because we have a lot of startups that tell me what Enterprise Ready means and then we go through all of our requirements and then we have a very different idea of what Enterprise Ready actually means.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rbac",
+      "type": "concept",
+      "role": "concept",
+      "name": "RBAC",
+      "file": "RBAC",
+      "primary": true,
+      "how_described": "本集要求产品的权限组能绑定到 RBAC，避免一刀切为所有人开启功能，且可通过 API 配置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            437.538,
+            438.698
+          ],
+          "quote": "Skim tied RBAC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "entitlements",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限 (entitlements)",
+      "file": "权限",
+      "primary": true,
+      "how_described": "本集指出大企业里大量员工权限过多或不足，entitlements 需要一个新范式，且要在智能体到来之前修好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            917.031,
+            918.131
+          ],
+          "quote": "Number one, entitlements.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            918.451,
+            920.032
+          ],
+          "quote": "Entitlements need a new paradigm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            925.513,
+            935.395
+          ],
+          "quote": "The entitlements model and how it works and how it's managed, all of that breaks down when you think about agents and how quickly you want agents to work and what you want them to work on and their ability to exercise judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1008.547,
+            1023.311
+          ],
+          "quote": "So I strongly recommend that everybody fix their entitlements if they are not working really well now because this is something that if you think about the problems that you run into when things go rogue, processes go rogue, people go rogue, agents are gonna like 100x that problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1082.094,
+            1084.816
+          ],
+          "quote": "Auth, entitlements, governance, audit logging, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "legacy-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "遗留架构 (legacy architecture)",
+      "file": "遗留架构",
+      "primary": true,
+      "how_described": "本集论点：AI 模型和产品修不好你的遗留架构，实现 AI 原生的 60% 是数据卫生、干净架构、集成、变更管理这些枯燥工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            809.334,
+            815.419
+          ],
+          "quote": "Maybe it's your legacy architecture, probably a lot of security and privacy issues, and a lot of change management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            838.116,
+            840.878
+          ],
+          "quote": "AI models and products today can't fix your legacy architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            987.16,
+            999.01
+          ],
+          "quote": "That gap between your legacy architecture and where you want to go might be so vast that you actually just decide, hey, maybe we need a separate ecosystem to do a lot of this work, figure out what does work and what doesn't, and then kind of go from there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "试点 (pilot)",
+      "file": "试点",
+      "primary": true,
+      "how_described": "本集说试点窗口期正在坍缩：从两年前的六个月缩到三个月、现在可能只给两周，且他们的试点都跑在生产数据上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            354.407,
+            358.388
+          ],
+          "quote": "So the other thing I want to point out at the very bottom of this slide is the pilot window collapsing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            362.089,
+            367.05
+          ],
+          "quote": "And when I started, a lot of these pilot timelines that people were used to were like, oh, maybe we'll run a pilot for six months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            372.531,
+            378.253
+          ],
+          "quote": "And anymore, it's like, maybe we can do this pilot for two weeks because it's just accelerated so rapidly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            549.057,
+            552.1
+          ],
+          "quote": "We do weekly check-in calls during a pilot, and then we hear this over and over.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sla",
+      "type": "concept",
+      "role": "concept",
+      "name": "SLA",
+      "file": "SLA",
+      "primary": false,
+      "how_described": "本集把真正的 SLA 和联系得上的支持工程师列为可靠性要求，没有 SLA、路线图或状态页是反面案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            667.144,
+            670.026
+          ],
+          "quote": "And then lastly, no SLA roadmap or status page.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集用来说明时间线不对称：ChatGPT 才发布 43 个月，而很多公司仍在做五年前开始的 ERP 迁移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            815.9,
+            817.741
+          ],
+          "quote": "ChatGPT has only been out for 43 months.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

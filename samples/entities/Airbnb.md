@@ -49,7 +49,7 @@ unlisted: true
 
 [[Lenny]] · [[Revolut]] · [[Ramp]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Uber]] · [[Stripe]] · [[Cursor]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Revolut":5,"Ramp":8,"智能体":336,"Anthropic":145,"OpenAI":134,"Uber":14,"Stripe":37,"Cursor":69,"Cognition":19}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Revolut":5,"Ramp":8,"智能体":337,"Anthropic":146,"OpenAI":134,"Uber":14,"Stripe":37,"Cursor":69,"Cognition":19}</script>
 
 <script>
 (function(){

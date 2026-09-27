@@ -36,7 +36,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[推理]] · [[Cognition]] · [[Swyx]] · [[Hugging Face]] · [[PLG]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"Anthropic":145,"沙箱":60,"OpenAI":134,"推理":55,"Cognition":19,"Swyx":2,"Hugging Face":23,"PLG":12,"Cursor":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"Anthropic":146,"沙箱":60,"OpenAI":134,"推理":55,"Cognition":19,"Swyx":2,"Hugging Face":23,"PLG":12,"Cursor":69}</script>
 
 <script>
 (function(){

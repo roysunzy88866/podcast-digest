@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Speechify":1,"Eleven Labs":7,"Sierra":6,"NVIDIA":45,"Dell":1,"Anthropic":145,"OpenAI":134,"Claude Code":76,"Cursor":69}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Speechify":1,"Eleven Labs":7,"Sierra":6,"NVIDIA":45,"Dell":1,"Anthropic":146,"OpenAI":134,"Claude Code":77,"Cursor":69}</script>
 
 <script>
 (function(){

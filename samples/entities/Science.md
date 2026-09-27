@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Science</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Science">SC</div><div class="pi"><h1 class="pt">Science</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Science">SC</div><div class="pi"><h1 class="pt">Science</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]]**(00:09起):本集嘉宾 Max Hodak 是其 CEO,主打产品为视网膜假体;演讲以 Science 为例讲采购、招聘、内部软件等基础设施实践。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(00:09起):本集说它是 Max Hodak 创办的脑机接口深科技公司,主要产品是视网膜假体,内部构建了名为 Helix 的软件系统
 
 ## ① 提到它的金句
@@ -39,17 +40,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]] — 作为被讨论公司
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Max Hodak]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[迭代]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
+[[Max Hodak]] · [[Neuralink]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":1,"Neuralink":1,"SpaceX":18,"Anthropic":145,"Helix":1,"迭代":2,"AI 基础设施":3,"归因":3,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":2,"Neuralink":2,"Anthropic":146,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":3,"eigenreviews":1}</script>
 
 <script>
 (function(){

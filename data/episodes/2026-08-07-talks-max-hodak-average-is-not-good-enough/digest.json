@@ -1,0 +1,478 @@
+{
+  "title_zh": "Speed 就是护城河：Science CEO 谈深科技公司的基础设施",
+  "tldr": "Science CEO Max Hodak(前 Neuralink 联合创始人)讲采购、招聘、绩效等基础设施如何决定公司速度与成败。",
+  "digest_md": "这一集是 Max Hodak 在 Startup School 的演讲加问答。他是 Science 公司的 CEO，Science 的主要产品是一种视网膜假体——植入视网膜下方的芯片，患者戴的眼镜上有摄像头和激光投影仪，红外线投影到芯片上产生电场刺激视网膜，绕过坏死的视杆和视锥细胞，为失明患者恢复视力。一位患者用这个设备读完了一本 300 页的小说，还把书寄给了公司；产品已完成三次临床试验，去年有患者登上《时代》封面。\n\n但这场演讲不讲这个产品，讲的是一套听起来无聊、却决定成败的东西：基础设施。他引用毕加索的名言开场——艺术评论家聚在一起谈形式和意义，艺术家聚在一起谈去哪买便宜的松节油；也就是「业余者谈战略，专业人士谈后勤」。他的核心主张是：**迭代速度决定成败，而速度由基础设施决定**。深科技公司很少死于技术行不通，更多死于组织大到几百人、几万平米设施后，没有系统把它管起来，战略接不上执行。\n\n## 买东西：第 17 个员工怎么下单\n\n第一个反复出现的普遍问题是采购。创始人自己刷卡买东西当然容易，问题是「你的第 17 名员工怎么买东西？」给所有人发信用卡、逐笔审批，你会卡在「3000 美元的电源要不要等拍卖会半价买」这种取舍上——但每周工资烧 10 万美元，为半价等一周早把省的钱亏光了。逐笔审批是错误的审查场合，支出审查必须更早、以预算的形式进行。\n\n于是你建采购系统，高薪员工开始整天折腾 B2B 企业级 SaaS:跟供应商开户、处理保险认证文书、生成报价单再生成采购订单再生成发票，一个电源两周才到。他的结论是：采购就是一个需要主动管理、盯指标的「活的有机体」。从学术界转来的人常问「为什么有人专职买东西」——确实需要。Science 以快速著称，他说这主要不是因为他们更聪明，而是这类基础设施就是速度的来源。\n\n控制了总支出后，真正的问题是**归因**：批量买进的气体、树脂、培养基分摊到无数实验里，没人知道一次实验、一轮晶圆迭代到底花多少钱。结果「实验是免费的，它花的是培养基，培养基来自冰箱」——你既没法给自制产品定价，也算不清 runway。Science 为此自建了叫 Helix 的内部软件，把公司里几乎每件事都变成软件里的一个按钮，实验室每一步都进数据库，才能算出这轮晶圆协议一次迭代花 4 万美元。他算了笔账：A 轮融 2000 万美元，20 人团队人力一年约 300 万，2 万平方英尺场地一年约 100 万，真正的自由研究预算是每年 300 万、撑三四年——「花得比你想象的快得多，而你的团队刚见到此生最大的一笔钱，会以为 3000 美元的电源是免费的。」\n\n## 招聘：全公司投票，迅速出结果\n\n第二个普遍问题是招聘。最好的公司来自「圈子」(scene),最好的招聘来自你自己的关系网、以及孕育出这家公司的那个圈子——那些已经说你的语言的人。但这样的人永远不够填满整个公司，所以你需要一个**定义清晰、被虔诚执行的流程**——没有唯一正确答案，但错误答案是公司没有固定的招聘仪式。\n\nScience 的流程是四步：初步投票、电话初筛、作业、完整面试。申请进来后，系统自动挑出七八位背景相似的在职员工投票，把初始筛选分散到全公司——如果你做的事情够酷，几年后漏斗顶端会泛滥成灾，任何一小群人当瓶颈都会卡死整个组织，投票机制同时也是对全团队判断力做平均的方式。实际数据：17% 的申请进入电话初筛，初筛按全公司统一标准找三样东西——判断力、能力强度、主观能动性；一半进入作业；到面试环节转化率必须保持在至少 25% 到 offer,否则 onsite 会浪费太多时间。他认为这四步是做出完整决定的最少信息集，没有更少的步骤。\n\n作业环节的关键是「抗 AI」:他们最喜欢的作业不会饱和、天花板极高、天然可打分成两三个能画在图上的数字——有人真正打败了帕累托前沿一眼可见，用什么 AI 模型都无所谓。他举了 Anthropic 的例子:GPU kernel 优化任务，一段时间里门槛是 Sonnet 的性能，超过它就拿面试。\n\n## Eigenreviews:把绩效评估变成 PageRank\n\n怎么知道你招得好不好？公司成败是反馈，但那是极长、极糟糕的损失函数。管理者要设计「合成梯度」提前拿到信号。常规的年度 360 评估在他看来是有破坏性的流程，只会强化你已知但没行动的问题。\n\n他开发并用了一套六七年的替代方案：每四到六周，随机 ping 一位员工，问唯一一个问题——「知道这个人的表现之后，你今天还会为他的录用再投一次票吗？」然后基于所有反馈在公司内构建一个图，基本直觉是：如果其他人都给你打了高分，你的投票权重就该更高。这本质上是 Google PageRank 的「特征向量中心性」，他们叫它 **eigenreviews**。它把判断分布到全公司、以约一个月的延迟连续更新，还附带了反作弊技巧——跑一千次迭代、每次随机删掉一些边(类似机器学习里的 Dropout),如果分数分布出现额外的峰，就是存在投票小圈子的线索。他确信这基本就是做绩效评估的正确方式，欢迎写信找他要具体技巧文档。\n\n## 行动产生信息\n\n收束到哲学层面：创业没有通用算法，是一长连串的判断取舍，而 CEO 无法把判断委托给别人——像考试抄邻座，成绩只会被拉向班级平均，而成功的公司是例外，你的判断必须差异化地好，哪怕在认知上完全孤身一人。到公司四五年、数亿美元押在一个只有你能做的决定上时，你会四处找建议却发现「没有人可以问」——那一刻你必须清楚自己判断的边界，然后坚定地押下去。\n\n好消息是行动空间总是比看起来大，很难真正陷入僵局。「行动产生信息」这句话比听起来深刻——每当陷入僵局，就必须开始投射行动、产生熵。他见过公司卡在很深的局部极小值，移走一个个人能力很强但与公司当下不匹配的人，反而解开了阻塞。\n\n## 问答精华\n\n**读博还是创业？** 如果你的领域只存在于基础研究，读博合理；但一个领域真正开始运转时，工业界能调动的资源和速度远超学界——最好的计算机科学家已经从 CMU 和哈佛移到了 Google 和 OpenAI,最好的火箭科学家在 SpaceX。他更推荐先去一家高绩效、文化值得敬重的公司，和判断力被验证出色的人共事——这是口传心授的强化学习，很多人低估了它对创业者教育的价值。他自己的 Neuralink 经历就是如此：遇到两个方案拿不准，那位 CEO 看一眼说「肯定是 B」,问题就再也没复发。\n\n**什么算卓越能力的证据？** 任何你能具体指出来、把这个人跟他高中同学区分开的东西；最好的证据是在清晰可见的竞技比赛中获胜——象棋特级大师、Design Build Fly、Formula SAE。一批硅谷深科技公司就是大学 Formula SAE 优胜者建起来的。\n\n**AI 取代了什么？** 他们发现 AI 是团队的乘数而非替代品。影响最大的三块：写代码(他自己最近六个月几乎没看过源码了)；法规——质量体系是典型的重型官僚主义，要识别所有适用标准、建合规证据表，过去要几个月，AI 让查标准和生成证据表都变快了，他认为「AI 与监管的结合比人们想象的更匹配，法规是用血写成的，大体是好主意，只是人类做起来太难」。\n\n**为什么自建平台而不是买？** 没有哪家公司爱自己的 ERP 系统；YC、Facebook、SpaceX/Tesla 的 Warp Speed 都是围绕为自己量身定制的软件运转的。以前软件太贵只能买，现在 vibe coding 让自建变得合理——这是智能体带来的改变。他们把 Greenhouse 换成自建工具后，才能做商用软件做不到的精细投票机制。\n\n**长周期技术要融多少钱？** 找出下一个关键价值拐点需要哪些实验、算出价格，然后**融两倍的钱**——有些想法值得用 5000 万或 0 美元去验证，但不值得 500 万，因为根本跑不完实验，只会得到模棱两可的结果。同时要比你以为的更早追求收入：公司像在缓慢死于一种「金钱癌症」，每隔几年靠融资打到缓解期又复发——有了收入，你会按长期路线图被估值，而不是按死亡概率被估值。\n\n**BCI 的未来？** 他说近期 BCI 与其说是 AI 故事，不如说是「长寿故事」：大脑是让你成为你的东西，是原则上唯一无法移植的器官，而它通常不是最先坏掉的。神经工程的效应量是医学里见不到的——打开脑深部刺激器，帕金森患者 10 秒内从端不起水杯到能写连笔字。剩下的最大工程难题是低功耗电子和「封装」(欧洲同行叫 tropicalization):身体里没有真正惰性的表面，连骨骼都在被重塑，你需要一种能长期抵抗身体攻击的材料。\n\n## 本集带走\n\n- **速度决定成败，基础设施决定速度**：采购、招聘、支出、绩效这些「后勤」与你对技术本身的理解同等重要；每周学一件事的公司，对每月学一件事的竞争对手构成永久压制。\n- **支出审查前置成预算，不逐笔审批**：高薪员工为半价电源等一周，亏的比省的多；给他们预算，让他们在真实资源内自己做取舍。\n- **成本归因到实验级**：没人知道一次实验多少钱，实验就会被当成免费的；把每一步进数据库，才算得出成本、定价和 runway。\n- **招聘流程要固定要快**：全公司分摊投票避免漏斗瓶颈，统一标准筛判断力/能力/能动性，作业设计成抗 AI、天然可打分，面试到 offer 转化至少 25%。\n- **用「还会再投一次票吗」替代年度评估**：每 4-6 周随机互评 + PageRank 式加权，连续、无偏、自带小圈子检测。\n- **融资按实验定价再翻倍**：跑到下一个价值拐点所需的实验成本 × 2,宁可融大也不留模棱两可；并尽早追求收入，摆脱「按死亡概率被估值」。",
+  "quotes": [
+    {
+      "en": "if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter.",
+      "zh": "如果你每周都能学到一件事，而有一个竞争对手每个月才学到一件事，那他们永远不会有影响力。",
+      "timestamp": "18:59",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "So speed determines success and failure and speed is determined by infrastructure.",
+      "zh": "速度决定成败，而速度由基础设施决定。",
+      "timestamp": "19:29",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "I see companies founded by just like stellar pedigree scientists and engineers all the time that die on the vine because this execution is tough to follow through when your job is to organize.",
+      "zh": "我经常看到由顶级背景的科学家和工程师创立的公司，却半途夭折，因为当你的工作是组织管理时，这种执行很难贯彻下去。",
+      "timestamp": "19:43",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "It's uncommon that these deep tech companies fail because the technology doesn't work.",
+      "zh": "这些深科技公司失败的原因很少是因为技术行不通。",
+      "timestamp": "19:54",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "It is mostly not that we are smarter, it is infrastructure like this, that is the, like how speed is built.",
+      "zh": "这主要不是因为我们更聪明，而是这样的基础设施——速度就是这样建立起来的。",
+      "timestamp": "06:10",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "Therefore, experiments are free.",
+      "zh": "因此，实验是免费的。",
+      "timestamp": "07:07",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "The best companies, in my experience, come from what might be characterized as scenes.",
+      "zh": "按我的经验，最好的公司来自可以被描述为「圈子」的东西。",
+      "timestamp": "09:12",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "There is no right answer, but a wrong answer for sure is not having something that you do very religiously as a company.",
+      "zh": "没有正确答案，但错误的答案肯定是：公司里没有一个你非常虔诚地坚持去做的事情。",
+      "timestamp": "10:16",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "And if you place any small group of employees or any one person in the way as a bottleneck on this, they will absolutely bottleneck the whole rest of the organization.",
+      "zh": "而如果你把任何一小群员工或任何一个人放在中间作为瓶颈，他们绝对会成为整个组织其余部分的瓶颈。",
+      "timestamp": "11:59",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "And are you effective at causing the world to look like you wish it were?",
+      "zh": "你是否擅长让世界变成你希望它成为的样子？",
+      "timestamp": "13:20",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "Based on my experiences, this is a very disruptive process that doesn't tend to surface issues that you don't already know about but haven't acted on because you knew that thing was there, but firing people is hard, and so people drag their feet on it, and this is kind of reinforcing things you already knew.",
+      "zh": "根据我的经验，这是一个非常具有破坏性的流程，它往往不会浮现出那些你还不知道的问题，它只会强化你已经知道但尚未采取行动的事情，因为你知道那个问题存在，但是开除人很难，所以人们会拖延，这基本上就是在强化你已经知道的事情。",
+      "timestamp": "16:03",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "And one of the harder lessons as a startup founder, one of the harder things I think to really deal with is the fact that you cannot delegate your judgment.",
+      "zh": "作为创业公司创始人，更难的教训之一，我认为真正难以应对的事情之一，就是你无法把你的判断委托给别人。",
+      "timestamp": "20:32",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "You can get yourself into trouble, and the action space is always larger than it appears.",
+      "zh": "你可能让自己陷入麻烦，而行动空间总是比看起来要大。",
+      "timestamp": "22:09",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "How the company does purchasing and accounting and recruiting and performance reviews and budgeting and safety and quality is the operating system of the company.",
+      "zh": "公司如何做采购、会计、招聘、绩效评估、预算、安全和质量，就是这家公司的操作系统。",
+      "timestamp": "24:00",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "It is tough to know if you're exceptional without having some legible competitive game.",
+      "zh": "如果没有一个清晰可见的竞技比赛，很难知道自己是否卓越。",
+      "timestamp": "27:26",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines.",
+      "zh": "如果人工智能探索的终点是超级智能机器，我认为脑机接口探索的终点是有意识的机器。",
+      "timestamp": "31:28",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "And so we found them to be a multiplier for the team, not a replacement.",
+      "zh": "所以我们发现它们是团队的乘数，而不是替代品。",
+      "timestamp": "35:48",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "I mean, we definitely need to deregulate some things, but I think that the combination of AI and regulation is a better fit than people think.",
+      "zh": "我的意思是，我们确实需要对一些东西放松监管，但我认为 AI 和监管的结合比人们想象的更匹配。",
+      "timestamp": "37:26",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "There are ERP systems out there, but there's no company that loves their ERP system.",
+      "zh": "市面上有 ERP 系统，但没有哪家公司爱他们的 ERP 系统。",
+      "timestamp": "37:49",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "And one of the things, like there are definitely some ideas that are worth funding with $50 million or $0, but not $5 million.",
+      "zh": "其中一件事是，确实有一些想法值得用 5000 万美元或 0 美元来资助，但不值得用 500 万美元。",
+      "timestamp": "43:49",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "It feels like, I mean, the company is kind of constantly dying slowly of this money cancer that we can beat into remission every couple of years with the fundraising, but then it eventually comes back and I want that feeling to be over.",
+      "zh": "感觉上，公司就像在不断地缓慢死于一种金钱癌症，我们每隔几年靠融资把它打到缓解期，但它最终会回来，我想让这种感觉结束。",
+      "timestamp": "45:17",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "I mean, I think if other than speed being the basis of success and infrastructure determines your speed, it is important to appreciate that there are no general principles.",
+      "zh": "我是说，我认为，除了「速度是成功的基础，而基础设施决定你的速度」之外，很重要的一点是要认识到：不存在通用原则。",
+      "timestamp": "46:15",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "Like for the vast majority of human history, if you were a smart 20 year old that like had an idea to like make your society better and you raise this to the people with capital, the reaction was like, you should pay attention to the harvest.",
+      "zh": "就像在人类历史的绝大部分时间里，如果你是一个聪明的 20 岁年轻人，有了一个让自己的社会变得更好的想法，你把它讲给有钱人听，反应会是：你应该去关心收成。",
+      "timestamp": "46:47",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "You turn on a deep brain stimulator and a patient goes from not being able to hold a cup of water to being able to write cursive in like 10 seconds.",
+      "zh": "你打开脑深部刺激器，患者在大约 10 秒内从无法端起一杯水变成能够写连笔字。",
+      "timestamp": "41:20",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "You cannot even in principle get a new brain.",
+      "zh": "但即使原则上你也无法换一个新大脑。",
+      "timestamp": "42:06",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "I mean, business is just like a fancy word for talking to people and doing things.",
+      "zh": "我是说，生意其实就是一个用来形容「和人交谈并做事」的花哨词。",
+      "timestamp": "50:23",
+      "speaker": "Max Hodak"
+    },
+    {
+      "en": "You can't share military power or economic power, but you can share the power of restoring sight to the blind or of giving life to the cancer patient.",
+      "zh": "你无法分享军事力量或经济力量，但你可以分享让盲人重见光明或让癌症病人重获生命的力量。",
+      "timestamp": "55:40",
+      "speaker": "Max Hodak"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "18:47",
+      "speaker": "Unknown",
+      "en": "Is that rate of iteration separates success from failure.",
+      "zh": "迭代速度决定了成功与失败。"
+    },
+    {
+      "timestamp": "18:58",
+      "speaker": "Unknown",
+      "en": "if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter.",
+      "zh": "如果你每周都能学到一件事，而有一个竞争对手每个月才学到一件事，那他们永远不会有影响力。"
+    },
+    {
+      "timestamp": "19:29",
+      "speaker": "Unknown",
+      "en": "So speed determines success and failure and speed is determined by infrastructure.",
+      "zh": "速度决定成败，而速度由基础设施决定。"
+    },
+    {
+      "timestamp": "19:43",
+      "speaker": "Unknown",
+      "en": "I see companies founded by just like stellar pedigree scientists and engineers all the time that die on the vine because this execution is tough to follow through when your job is to organize.",
+      "zh": "我经常看到由顶级背景的科学家和工程师创立的公司，却半途夭折，因为当你的工作是组织管理时，这种执行很难贯彻下去。"
+    },
+    {
+      "timestamp": "19:58",
+      "speaker": "Unknown",
+      "en": "It's uncommon that these deep tech companies fail because the technology doesn't work.",
+      "zh": "这些深科技公司失败的原因很少是因为技术行不通。"
+    },
+    {
+      "timestamp": "04:53",
+      "speaker": "Unknown",
+      "en": "Spending review has to come earlier.",
+      "zh": "支出审查必须更早进行。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Unknown",
+      "en": "It is mostly not that we are smarter, it is infrastructure like this, that is the, like how speed is built.",
+      "zh": "这主要不是因为我们更聪明，而是这样的基础设施——速度就是这样建立起来的。"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Unknown",
+      "en": "Therefore, experiments are free.",
+      "zh": "因此，实验是免费的。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "Unknown",
+      "en": "The best companies, in my experience, come from what might be characterized as scenes.",
+      "zh": "按我的经验，最好的公司来自可以被描述为「圈子」的东西。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Unknown",
+      "en": "There is no right answer, but a wrong answer for sure is not having something that you do very religiously as a company.",
+      "zh": "没有正确答案，但错误的答案肯定是：公司里没有一个你非常虔诚地坚持去做的事情。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "And if you place any small group of employees or any one person in the way as a bottleneck on this, they will absolutely bottleneck the whole rest of the organization.",
+      "zh": "而如果你把任何一小群员工或任何一个人放在中间作为瓶颈，他们绝对会成为整个组织其余部分的瓶颈。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "And are you effective at causing the world to look like you wish it were?",
+      "zh": "你是否擅长让世界变成你希望它成为的样子？"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Unknown",
+      "en": "And then it's very obvious when someone has really beaten the Pareto frontier and we otherwise don't care whatever AI models they use, like that can make you better.",
+      "zh": "然后当有人真正打败了帕累托前沿时就会非常明显，而且我们不在意他们用了什么 AI 模型，比如那可以让你变得更强。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Unknown",
+      "en": "But this is a very, very long feedback and it's a very poorly behaved loss function.",
+      "zh": "但这是一个非常、非常长的反馈，而且是一个表现非常糟糕的损失函数。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Unknown",
+      "en": "Based on my experiences, this is a very disruptive process that doesn't tend to surface issues that you don't already know about but haven't acted on because you knew that thing was there, but firing people is hard, and so people drag their feet on it, and this is kind of reinforcing things you already knew.",
+      "zh": "根据我的经验，这是一个非常具有破坏性的流程，它往往不会浮现出那些你还不知道的问题，它只会强化你已经知道但尚未采取行动的事情，因为你知道那个问题存在，但是开除人很难，所以人们会拖延，这基本上就是在强化你已经知道的事情。"
+    },
+    {
+      "timestamp": "20:32",
+      "speaker": "Unknown",
+      "en": "And one of the harder lessons as a startup founder, one of the harder things I think to really deal with is the fact that you cannot delegate your judgment.",
+      "zh": "作为创业公司创始人，更难的教训之一，我认为真正难以应对的事情之一，就是你无法把你的判断委托给别人。"
+    },
+    {
+      "timestamp": "20:58",
+      "speaker": "Unknown",
+      "en": "That is not good enough to succeed in startups.",
+      "zh": "这对在创业公司里取得成功来说是不够好的。"
+    },
+    {
+      "timestamp": "21:46",
+      "speaker": "Unknown",
+      "en": "And then you will look around for advice.",
+      "zh": "然后你会四处寻求建议。"
+    },
+    {
+      "timestamp": "22:09",
+      "speaker": "Unknown",
+      "en": "You can get yourself into trouble, and the action space is always larger than it appears.",
+      "zh": "你可能让自己陷入麻烦，而行动空间总是比看起来要大。"
+    },
+    {
+      "timestamp": "24:00",
+      "speaker": "Unknown",
+      "en": "How the company does purchasing and accounting and recruiting and performance reviews and budgeting and safety and quality is the operating system of the company.",
+      "zh": "公司如何做采购、会计、招聘、绩效评估、预算、安全和质量，就是这家公司的操作系统。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Unknown",
+      "en": "And learning, that is also a skill set, the only way to learn it.",
+      "zh": "而学习——那也是一种技能——是学习它的唯一途径。"
+    },
+    {
+      "timestamp": "26:47",
+      "speaker": "Unknown",
+      "en": "If you have your average high school student, we just want some concrete fact that",
+      "zh": "如果你有一个普通的高中生，我们只想要某个具体的事实"
+    },
+    {
+      "timestamp": "27:26",
+      "speaker": "Unknown",
+      "en": "It is tough to know if you're exceptional without having some legible competitive game.",
+      "zh": "如果没有一个清晰可见的竞技比赛，很难知道自己是否卓越。"
+    },
+    {
+      "timestamp": "28:59",
+      "speaker": "Unknown",
+      "en": "We try to evaluate thinking.",
+      "zh": "我们尝试评估的是思考能力。"
+    },
+    {
+      "timestamp": "29:45",
+      "speaker": "Unknown",
+      "en": "It is a long series of judgment calls.",
+      "zh": "这是一长连串的判断取舍。"
+    },
+    {
+      "timestamp": "30:33",
+      "speaker": "Unknown",
+      "en": "That is an essential part of the education of an entrepreneur that I think many people underrate.",
+      "zh": "这是创业者教育中不可或缺的一部分，我认为很多人低估了它。"
+    },
+    {
+      "timestamp": "31:28",
+      "speaker": "Unknown",
+      "en": "If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines.",
+      "zh": "如果人工智能探索的终点是超级智能机器，我认为脑机接口探索的终点是有意识的机器。"
+    },
+    {
+      "timestamp": "32:06",
+      "speaker": "Unknown",
+      "en": "I think this is a practical problem, not a philosophical problem.",
+      "zh": "我认为这是一个实践问题，而不是哲学问题。"
+    },
+    {
+      "timestamp": "35:48",
+      "speaker": "Unknown",
+      "en": "And so we found them to be a multiplier for the team, not a replacement.",
+      "zh": "所以我们发现它们是团队的乘数，而不是替代品。"
+    },
+    {
+      "timestamp": "36:05",
+      "speaker": "Unknown",
+      "en": "I don't think I've looked at the source very much the last six months.",
+      "zh": "我觉得最近六个月我没怎么看过源代码了。"
+    },
+    {
+      "timestamp": "37:26",
+      "speaker": "Unknown",
+      "en": "I mean, we definitely need to deregulate some things, but I think that the combination of AI and regulation is a better fit than people think.",
+      "zh": "我的意思是，我们确实需要对一些东西放松监管，但我认为 AI 和监管的结合比人们想象的更匹配。"
+    },
+    {
+      "timestamp": "37:33",
+      "speaker": "Unknown",
+      "en": "And you can use it to smooth a lot of stuff where the regulations are written in blood and largely good ideas.",
+      "zh": "你可以用它来理顺很多事情，在这些事情上，法规是用血写成的，而且大体上是好主意。"
+    },
+    {
+      "timestamp": "37:49",
+      "speaker": "Unknown",
+      "en": "There are ERP systems out there, but there's no company that loves their ERP system.",
+      "zh": "市面上有 ERP 系统，但没有哪家公司爱他们的 ERP 系统。"
+    },
+    {
+      "timestamp": "38:43",
+      "speaker": "Unknown",
+      "en": "And this is a thing that has changed with agents.",
+      "zh": "而这是一件随着智能体出现而改变的事。"
+    },
+    {
+      "timestamp": "44:20",
+      "speaker": "Unknown",
+      "en": "Price that out and then raise twice the money.",
+      "zh": "把它算出价格，然后融两倍的钱。"
+    },
+    {
+      "timestamp": "43:49",
+      "speaker": "Unknown",
+      "en": "And one of the things, like there are definitely some ideas that are worth funding with $50 million or $0, but not $5 million.",
+      "zh": "其中一件事是，确实有一些想法值得用 5000 万美元或 0 美元来资助，但不值得用 500 万美元。"
+    },
+    {
+      "timestamp": "45:17",
+      "speaker": "Unknown",
+      "en": "It feels like, I mean, the company is kind of constantly dying slowly of this money cancer that we can beat into remission every couple of years with the fundraising, but then it eventually comes back and I want that feeling to be over.",
+      "zh": "感觉上，公司就像在不断地缓慢死于一种金钱癌症，我们每隔几年靠融资把它打到缓解期，但它最终会回来，我想让这种感觉结束。"
+    },
+    {
+      "timestamp": "46:15",
+      "speaker": "Unknown",
+      "en": "I mean, I think if other than speed being the basis of success and infrastructure determines your speed, it is important to appreciate that there are no general principles.",
+      "zh": "我是说，我认为，除了「速度是成功的基础，而基础设施决定你的速度」之外，很重要的一点是要认识到：不存在通用原则。"
+    },
+    {
+      "timestamp": "46:47",
+      "speaker": "Unknown",
+      "en": "Like for the vast majority of human history, if you were a smart 20 year old that like had an idea to like make your society better and you raise this to the people with capital, the reaction was like, you should pay attention to the harvest.",
+      "zh": "就像在人类历史的绝大部分时间里，如果你是一个聪明的 20 岁年轻人，有了一个让自己的社会变得更好的想法，你把它讲给有钱人听，反应会是：你应该去关心收成。"
+    },
+    {
+      "timestamp": "47:17",
+      "speaker": "Unknown",
+      "en": "But that shouldn't feel normal.",
+      "zh": "但这不应该让人觉得是常态。"
+    },
+    {
+      "timestamp": "47:31",
+      "speaker": "Unknown",
+      "en": "That is the job.",
+      "zh": "这就是这份工作。"
+    },
+    {
+      "timestamp": "41:20",
+      "speaker": "Unknown",
+      "en": "You turn on a deep brain stimulator and a patient goes from not being able to hold a cup of water to being able to write cursive in like 10 seconds.",
+      "zh": "你打开脑深部刺激器，患者在大约 10 秒内从无法端起一杯水变成能够写连笔字。"
+    },
+    {
+      "timestamp": "42:00",
+      "speaker": "Unknown",
+      "en": "The brain is the thing that makes you you.",
+      "zh": "大脑是让你成为你的东西。"
+    },
+    {
+      "timestamp": "42:06",
+      "speaker": "Unknown",
+      "en": "You cannot even in principle get a new brain.",
+      "zh": "但即使原则上你也无法换一个新大脑。"
+    },
+    {
+      "timestamp": "41:09",
+      "speaker": "Unknown",
+      "en": "It gives you these effect sizes that you just don't really see in medicine.",
+      "zh": "它给你带来这些你在医学中真正看不到的效应量。"
+    },
+    {
+      "timestamp": "50:23",
+      "speaker": "Unknown",
+      "en": "I mean, business is just like a fancy word for talking to people and doing things.",
+      "zh": "我是说，生意其实就是一个用来形容「和人交谈并做事」的花哨词。"
+    },
+    {
+      "timestamp": "55:10",
+      "speaker": "Unknown",
+      "en": "It's about changing.",
+      "zh": "而是关于改变。"
+    },
+    {
+      "timestamp": "55:22",
+      "speaker": "Unknown",
+      "en": "And this is not about money.",
+      "zh": "这不是关于钱。"
+    },
+    {
+      "timestamp": "55:24",
+      "speaker": "Unknown",
+      "en": "This is about power.",
+      "zh": "这是关于力量。"
+    },
+    {
+      "timestamp": "55:29",
+      "speaker": "Unknown",
+      "en": "But the power to heal the sick is a very dramatic one.",
+      "zh": "但治愈病人的力量是一种非常了不起的力量。"
+    },
+    {
+      "timestamp": "55:40",
+      "speaker": "Unknown",
+      "en": "You can't share military power or economic power, but you can share the power of restoring sight to the blind or of giving life to the cancer patient.",
+      "zh": "你无法分享军事力量或经济力量，但你可以分享让盲人重见光明或让癌症病人重获生命的力量。"
+    }
+  ],
+  "voice_script": "今天这一集，主角是 Max Hodak——你可能听过这个名字，他是 Neuralink 的联合创始人，现在是一家叫 Science 的公司的 CEO。Science 的产品挺硬核：一种视网膜假体，在视网膜下方植入芯片，患者眼镜上装摄像头，用红外投影刺激芯片、产生电场，绕过坏死的感光细胞，为失明的人恢复视力。有位患者用这个设备读完了一本三百页的小说，还把书寄给了公司，去年还有患者登上了《时代》封面。\n\n但这场在 Startup School 的演讲，讲的根本不是这个产品，讲的是一套听起来很无聊的东西：基础设施。为什么聊这个？因为 Max 有一个核心判断：深科技公司很少死于技术行不通，更多是死于公司长到几百人之后，没有一套系统把采购、招聘、支出这些事管起来，战略接不上执行。他开场引用了毕加索的名言——艺术评论家聚在一起谈形式和意义，艺术家聚在一起谈去哪买便宜的松节油。说白了就是：业余者谈战略，专业人士谈后勤。\n\n那后勤里第一个躲不开的问题是什么？是买东西。创始人自己刷卡买东西当然容易，难的是你的第 17 名员工怎么买东西。给所有人发卡、逐笔审批，你会卡在\"3000 美元的电源要不要等拍卖会半价买\"这种取舍上——但团队每周工资就烧 10 万美元，为了省半价等一周，亏的早超过省的了。所以结论是：支出审查必须前置，以预算的形式进行。可一旦建了采购流程，高薪员工又开始整天折腾开户、保险认证、报价单、采购订单、发票，一个电源两周才到。Max 的结论是，采购就是一个需要主动管理、盯指标的活的有机体。Science 以速度著称，按他自己的说法，这主要不是因为更聪明，而是这类基础设施本身就是速度的来源。\n\n而采购管住之后，马上引出一个更深的问题：归因。批量买进的气体、树脂、培养基分摊到无数实验里，没人知道一次实验到底花了多少钱。结果就是\"实验是免费的\"——实验花的是培养基，培养基来自冰箱，账全算不清。Science 为此自建了一套叫 Helix 的内部软件，把公司里几乎每件事都变成软件里的一个按钮，实验室每一步都进数据库，这才算出一轮晶圆协议的迭代要花 4 万美元。顺便说一笔账：A 轮融 2000 万美元，20 人团队人力一年约 300 万，场地一年约 100 万，真正的自由研究预算是每年 300 万——花得比你想象的快得多，而团队刚见到此生最大的一笔钱，会真的以为 3000 美元的电源是免费的。\n\n管好了钱，第二个普遍问题是招聘。最好的招聘来自关系网和圈子，但这样的人永远填不满整个公司，所以你需要一个定义清晰、被虔诚执行的流程——没有唯一正确答案，但最大的错误答案是压根没有固定流程。Science 的流程是四步：初步投票、电话初筛、作业、完整面试。申请进来后，系统自动挑七八位背景相似的在职员工投票，把初筛分散到全公司——不然漏斗顶端一旦泛滥，任何一小群人当瓶颈都会卡死组织。实际数据是：17% 的申请进入电话初筛，一半进入作业，面试到 offer 的转化率必须保持在 25% 以上。作业环节还有个关键：抗 AI。他们最喜欢的作业不会饱和、天花板极高、天然能打分成几个数字——真有本事的人能一眼打败帕累托前沿，用什么 AI 模型都无所谓。举个例子，Anthropic 有一段时间就用 GPU kernel 优化任务当门槛，性能超过 Sonnet 就拿面试。\n\n那怎么知道你招得好不好？公司成败当然是反馈，但那是极长、极糟糕的损失函数。常规的年度 360 评估在 Max 看来是有破坏性的，只会强化你已知却没行动的问题。于是他用了一套六七年的替代方案：每四到六周，随机问一位员工唯一一个问题——知道这个人的表现之后，你今天还会为他的录用再投一次票吗？然后基于所有反馈在公司里构建一个图，别人都给你打高分，你的投票权重就该更高。这本质上是 Google PageRank 的特征向量中心性，他们叫它 eigenreviews。这东西把判断分布到全公司、约一个月延迟连续更新，还自带反作弊——随机删掉一些边反复算，分数分布出现额外的峰，就是存在投票小圈子的线索。Max 确信这基本就是做绩效评估的正确方式。\n\n最后，这些做法背后有一个哲学层面的收束：创业没有通用算法，是一长连串的判断取舍，而 CEO 没法把判断委托给别人。到公司四五年、几亿美元押在一个只有你能做的决定上时，你会发现没有人可以问——那一刻你必须清楚自己判断的边界，然后坚定地押下去。好消息是，行动空间总比看起来大，\"行动产生信息\"这句话比听起来深刻：每当陷入僵局，就必须开始投射行动、产生信息。Max 见过公司卡在很深的局部极小值，最后是移走一个个人能力很强但与公司不匹配的人，反而解开了阻塞。\n\n把整条线拎起来其实就是一句话：速度决定成败，而速度由基础设施决定。采购、招聘、支出、绩效这些后勤，和你对技术本身的理解同等重要——如果你每周都能学到一件事，而竞争对手每个月才学到一件事，那你对对方就构成永久压制。"
+}

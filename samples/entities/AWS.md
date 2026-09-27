@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Databricks]] · [[McKinsey]] · [[NVIDIA]] · [[Vercel]] · [[Google]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"Anthropic":145,"OpenAI":134,"Microsoft":25,"Databricks":15,"McKinsey":5,"NVIDIA":45,"Vercel":18,"Google":47,"技能":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"Anthropic":146,"OpenAI":134,"Microsoft":25,"Databricks":15,"McKinsey":5,"NVIDIA":45,"Vercel":18,"Google":47,"技能":22}</script>
 
 <script>
 (function(){

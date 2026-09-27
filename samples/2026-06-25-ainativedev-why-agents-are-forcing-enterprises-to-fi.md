@@ -154,8 +154,8 @@ Patrick 总结了一个更底层的模式：对 AI 好的实践，对人也好�
 **换个口味**
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:可观测性 (observability)、智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-08-29-talks-from-tokenmaxxing-to-trusted-throughput|token 不是越省越好:用「可信吞吐量」优化 AI 开发的真 ROI]]<span class="pd-rz">同概念:CI/CD、PR、token</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
 
 </div>
 </div>

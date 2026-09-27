@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Microsoft]] · [[Brian Halligan]] · [[Lindsey Scrase]] · [[Willem Avé]] · [[Jay Parikh]] · [[Lenny]] · [[Checkr]] · [[Square]] · [[Brett]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"Microsoft":25,"Brian Halligan":1,"Lindsey Scrase":1,"Willem Avé":1,"Jay Parikh":1,"Lenny":67,"Checkr":1,"Square":5,"Brett":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"Microsoft":25,"Brian Halligan":1,"Lindsey Scrase":1,"Willem Avé":1,"Jay Parikh":1,"Lenny":67,"Checkr":1,"Square":5,"Brett":1}</script>
 
 <script>
 (function(){

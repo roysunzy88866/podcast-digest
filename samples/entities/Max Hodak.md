@@ -7,11 +7,65 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Max Hodak</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Max Hodak">MA</div><div class="pi"><h1 class="pt">Max Hodak</h1><div class="byl">Y Combinator Startup Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Max Hodak">MA</div><div class="pi"><h1 class="pt">Max Hodak</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条*
+*32 条*
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q1]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q2]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q3]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q4]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q5]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q6]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q7]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q8]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q9]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q10]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q11]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q12]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q13]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q14]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q15]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q16]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q17]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q18]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q19]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q20]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q21]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q22]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q23]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q24]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q25]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q26]]
+
+![[2026-08-07-talks-max-hodak-average-is-not-good-enough#^q27]]
 
 ![[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81#^q1]]
 
@@ -25,15 +79,16 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]] — 作为主持
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[迭代]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
+[[Science]] · [[Neuralink]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -43,7 +98,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":18,"Anthropic":145,"Helix":1,"迭代":2,"AI 基础设施":3,"归因":3,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":2,"Anthropic":146,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":3,"eigenreviews":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1586 @@
+[
+ {
+  "seg": 0,
+  "start": 12.815,
+  "end": 13.235,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.515,
+  "end": 14.516,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 2,
+  "start": 14.836,
+  "end": 17.917,
+  "speaker": "Unknown",
+  "en": "Apologies for the delay, but I'm really excited to be here.",
+  "zh": "为延迟道歉,但我真的很高兴能来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 18.597,
+  "end": 23.078,
+  "speaker": "Unknown",
+  "en": "I'm Mingxin, VP of Engineering focused on AI at Ironclad.",
+  "zh": "我是 Mingxin,Ironclad 负责人工智能的工程副总裁。"
+ },
+ {
+  "seg": 4,
+  "start": 23.799,
+  "end": 33.842,
+  "speaker": "Unknown",
+  "en": "And today, I'll be telling you about something that's probably on top of many of your mind, how to control and optimize for your AI token spend.",
+  "zh": "今天,我要讲的内容可能在座很多人都在关注,那就是如何控制和优化你的 AI token 支出。"
+ },
+ {
+  "seg": 5,
+  "start": 34.582,
+  "end": 38.824,
+  "speaker": "Unknown",
+  "en": "Can I get a quick show of hands that this is a relevant topic?",
+  "zh": "能否快速举一下手,看看这个话题是否与大家相关?"
+ },
+ {
+  "seg": 6,
+  "start": 40.184,
+  "end": 40.504,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 7,
+  "start": 41.285,
+  "end": 41.565,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 8,
+  "start": 41.585,
+  "end": 42.485,
+  "speaker": "Unknown",
+  "en": "I appreciate that.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 9,
+  "start": 45.923,
+  "end": 50.147,
+  "speaker": "Unknown",
+  "en": "So we have all heard a few sensational stories from the media.",
+  "zh": "我们都听说过一些来自媒体的耸人听闻的故事。"
+ },
+ {
+  "seg": 10,
+  "start": 50.867,
+  "end": 60.315,
+  "speaker": "Unknown",
+  "en": "There's an interesting Amazon story where an employee just created kind of a voluntary dashboard, and everyone starts tracking their own AI token usage.",
+  "zh": "有一个有趣的亚马逊的故事,一位员工创建了一个自愿性质的面板,然后大家开始追踪自己的 AI token 使用量。"
+ },
+ {
+  "seg": 11,
+  "start": 60.916,
+  "end": 73.967,
+  "speaker": "Unknown",
+  "en": "I'm not sure there's explicit encouragement from the leadership, but the effect is some of the engineers started competing with each other in maximizing their token usage and get to the top of the so-called leaderboard.",
+  "zh": "我不确定领导层是否有明确的鼓励,但效果是一些工程师开始互相竞争,最大化自己的 token 使用量,以登上所谓的排行榜榜首。"
+ },
+ {
+  "seg": 12,
+  "start": 74.567,
+  "end": 84.754,
+  "speaker": "Unknown",
+  "en": "There's a similar story from Meta, and then another even more sensational story about some companies spending $500 million on Claude within a month.",
+  "zh": "Meta 也有类似的故事,然后还有一个更加耸人听闻的故事,关于某些公司在一个月内在 Claude 上花了 5 亿美元。"
+ },
+ {
+  "seg": 13,
+  "start": 85.715,
+  "end": 91.939,
+  "speaker": "Unknown",
+  "en": "So while this may not be happening in your companies today, the threats, the risks are real.",
+  "zh": "所以虽然这今天可能没有发生在你的公司,但威胁、风险是真实存在的。"
+ },
+ {
+  "seg": 14,
+  "start": 92.479,
+  "end": 98.804,
+  "speaker": "Unknown",
+  "en": "How do we think about the policies, how do we measure the cost, and how do we control and optimize for it?",
+  "zh": "我们该如何思考政策,如何衡量成本,以及如何控制和优化它?"
+ },
+ {
+  "seg": 15,
+  "start": 100.038,
+  "end": 110.263,
+  "speaker": "Unknown",
+  "en": "So one initial learning I want to share is it is really important to have dashboards that track every team, every individual's token usage and cost.",
+  "zh": "我想分享的第一个初步经验是,拥有追踪每个团队、每个个人的 token 使用量和成本的面板是非常重要的。"
+ },
+ {
+  "seg": 16,
+  "start": 110.843,
+  "end": 114.085,
+  "speaker": "Unknown",
+  "en": "But that should not be positioned as a leaderboard.",
+  "zh": "但它不应该被定位成一个排行榜。"
+ },
+ {
+  "seg": 17,
+  "start": 114.805,
+  "end": 119.407,
+  "speaker": "Unknown",
+  "en": "We think of the usage dashboard more as a smoke detector.",
+  "zh": "我们更多地把使用量面板看作一个烟雾报警器。"
+ },
+ {
+  "seg": 18,
+  "start": 120.167,
+  "end": 127.471,
+  "speaker": "Unknown",
+  "en": "If there are local pockets of teams or individuals that don't use much AI token, that might be a signal worth investigating.",
+  "zh": "如果有局部的一些团队或个人不怎么使用 AI token,那可能是一个值得调查的信号。"
+ },
+ {
+  "seg": 19,
+  "start": 128.131,
+  "end": 135.553,
+  "speaker": "Unknown",
+  "en": "But beyond that, certainly, we don't want to create an indirect incentive to maximize the token usage itself.",
+  "zh": "但除此之外,我们当然不想制造一种间接的激励去最大化 token 使用量本身。"
+ },
+ {
+  "seg": 20,
+  "start": 138.614,
+  "end": 140.474,
+  "speaker": "Unknown",
+  "en": "So, how do we think about it, then?",
+  "zh": "那么,我们该怎么思考呢?"
+ },
+ {
+  "seg": 21,
+  "start": 141.134,
+  "end": 150.677,
+  "speaker": "Unknown",
+  "en": "First, I want to make sure that we position this talk for those of you whose teams have already gone through the hump of getting AI adopted.",
+  "zh": "首先,我想明确本次演讲针对的是那些团队已经度过 AI 采纳难关的听众。"
+ },
+ {
+  "seg": 22,
+  "start": 151.77,
+  "end": 168.423,
+  "speaker": "Unknown",
+  "en": "If you're still in the initial process of provisioning easy access to your engineers or encouraging the teams and individuals to adopt, then you may not be ready to implement some of the ideas for controlling and optimizing for cost.",
+  "zh": "如果你仍处于为工程师配置便捷访问、或鼓励团队和个人采纳的初始阶段,那么你可能还没准备好实施一些控制和优化成本的想法。"
+ },
+ {
+  "seg": 23,
+  "start": 169.189,
+  "end": 169.769,
+  "speaker": "Unknown",
+  "en": "But that's OK.",
+  "zh": "但没关系。"
+ },
+ {
+  "seg": 24,
+  "start": 169.989,
+  "end": 171.61,
+  "speaker": "Unknown",
+  "en": "This could still be a good discussion.",
+  "zh": "这仍然可以是一次很好的讨论。"
+ },
+ {
+  "seg": 25,
+  "start": 171.951,
+  "end": 175.693,
+  "speaker": "Unknown",
+  "en": "And frankly, we just got over that hump over the last couple of quarters.",
+  "zh": "而且坦率地说,我们自己也只是在过去几个季度才刚跨过那道坎。"
+ },
+ {
+  "seg": 26,
+  "start": 176.233,
+  "end": 181.796,
+  "speaker": "Unknown",
+  "en": "So this is a very topical subject that every engineering leader, I believe, is navigating.",
+  "zh": "所以我相信,这是每一位工程领导者现在都在应对的非常应景的话题。"
+ },
+ {
+  "seg": 27,
+  "start": 181.816,
+  "end": 186.439,
+  "speaker": "Unknown",
+  "en": "So I would love to start that dialogue with you all today to explore the best practices.",
+  "zh": "所以我今天很希望能与大家开启这个对话,一起探索最佳实践。"
+ },
+ {
+  "seg": 28,
+  "start": 187.175,
+  "end": 192.82,
+  "speaker": "Unknown",
+  "en": "Can I get a quick show of hands for those of you whose teams have gone over the initial adoption phase?",
+  "zh": "能否快速举一下手,看看哪些人的团队已经度过了初始采纳阶段?"
+ },
+ {
+  "seg": 29,
+  "start": 193.04,
+  "end": 195.722,
+  "speaker": "Unknown",
+  "en": "Now you are starting to seriously worry about the cost.",
+  "zh": "现在你们开始认真地担心成本了。"
+ },
+ {
+  "seg": 30,
+  "start": 196.263,
+  "end": 196.483,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 31,
+  "start": 196.984,
+  "end": 198.505,
+  "speaker": "Unknown",
+  "en": "I see roughly half of the hands raised.",
+  "zh": "我看到大约一半的人举了手。"
+ },
+ {
+  "seg": 32,
+  "start": 198.865,
+  "end": 199.205,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 33,
+  "start": 199.626,
+  "end": 211.736,
+  "speaker": "Unknown",
+  "en": "So let's talk about then how we can control and how we can optimize what we call the trusted throughput as a kind of a proxy metric as a way to measure your ROI.",
+  "zh": "那么接下来我们来谈谈如何控制和优化我们所说的可信吞吐量,作为一种代理指标,用来衡量你的 ROI。"
+ },
+ {
+  "seg": 34,
+  "start": 212.597,
+  "end": 232.189,
+  "speaker": "Unknown",
+  "en": "But before that, just for those of you who are in the process of still increasing adoption, one lesson we learned is to, after the kind of the top-down leadership push, is to sit down with the individual teams and the individuals who may be resistant or struggling with adoption, understand where they came from.",
+  "zh": "但在那之前,对于那些仍在提升采纳率的听众,我们学到的一个经验是,在自上而下的领导层推动之后,要与那些可能抵触或挣扎于采纳的团队和个人坐下来,理解他们的出发点。"
+ },
+ {
+  "seg": 35,
+  "start": 232.489,
+  "end": 240.254,
+  "speaker": "Unknown",
+  "en": "For example, there are some legitimate concerns that I heard people say, hey, I used to really take pride and joy in handcrafting a code.",
+  "zh": "例如,我听到有人说过一些合理的顾虑,嘿,我过去非常以手工打磨代码为荣、为乐。"
+ },
+ {
+  "seg": 36,
+  "start": 241.014,
+  "end": 247.737,
+  "speaker": "Unknown",
+  "en": "And now a lot of the joy and the pride got taken away and replaced with me reviewing AI slot code.",
+  "zh": "而现在很多乐趣和自豪感被剥夺了,取而代之的是我审查 AI 生成的代码。"
+ },
+ {
+  "seg": 37,
+  "start": 248.897,
+  "end": 264.964,
+  "speaker": "Unknown",
+  "en": "So that doesn't sound like a very satisfying professional activity, and that's where we need to kind of dig down and understand what are still the kind of the high impact and engineering tasks, technical work that we can help our engineers continue to grow themselves in the era of the AI.",
+  "zh": "所以这听起来不是一份很有满足感的职业工作,而这正是我们需要深入挖掘的地方,去理解在 AI 时代,还有哪些高影响力的工程任务、技术工作,能帮助我们的工程师继续自我成长。"
+ },
+ {
+  "seg": 38,
+  "start": 268.535,
+  "end": 273.04,
+  "speaker": "Unknown",
+  "en": "So I wanted to share with you a bit more about what we at Ironclad does.",
+  "zh": "所以我想多分享一点我们 Ironclad 所做的事情。"
+ },
+ {
+  "seg": 39,
+  "start": 273.3,
+  "end": 279.547,
+  "speaker": "Unknown",
+  "en": "And there's an interesting connection, actually, with how we think about optimizing for engineering AI token usage.",
+  "zh": "实际上,这和我们如何思考优化工程 AI token 使用有一个有趣的关联。"
+ },
+ {
+  "seg": 40,
+  "start": 280.569,
+  "end": 283.852,
+  "speaker": "Unknown",
+  "en": "So Ironclad is a legal contracting AI companies.",
+  "zh": "Ironclad 是一家法律合同 AI 公司。"
+ },
+ {
+  "seg": 41,
+  "start": 285.594,
+  "end": 298.649,
+  "speaker": "Unknown",
+  "en": "We build AI features and native AI products to help lawyers, procurement, and other business users move forward new contracts, move them forward faster with controlled risk.",
+  "zh": "我们构建 AI 功能和原生 AI 产品,帮助律师、采购和其他业务用户推进新合同,以可控的风险更快地推进它们。"
+ },
+ {
+  "seg": 42,
+  "start": 299.909,
+  "end": 305.677,
+  "speaker": "Unknown",
+  "en": "What that means is building trust is the number one priority with our AI product features and products.",
+  "zh": "这意味着,建立信任是我们 AI 产品功能与产品的第一要务。"
+ },
+ {
+  "seg": 43,
+  "start": 306.117,
+  "end": 313.687,
+  "speaker": "Unknown",
+  "en": "And for the prior speaker, she did a wonderful job telling you about the importance of trust and how to build it in their domain.",
+  "zh": "刚才的前一位演讲者做得很出色,讲述了信任在他们领域的重要性以及如何建立信任。"
+ },
+ {
+  "seg": 44,
+  "start": 314.508,
+  "end": 316.951,
+  "speaker": "Unknown",
+  "en": "In our ironclad product domain, it often means",
+  "zh": "在我们 Ironclad 的产品领域,这通常意味着"
+ },
+ {
+  "seg": 45,
+  "start": 317.752,
+  "end": 325.18,
+  "speaker": "Unknown",
+  "en": "Lawyers especially, but other personas as well, taking the time to kind of test the water and see if they can trust the AI output.",
+  "zh": "尤其是律师,但也有其他角色,会花时间试探一下,看他们能否信任 AI 的输出。"
+ },
+ {
+  "seg": 46,
+  "start": 325.54,
+  "end": 335.77,
+  "speaker": "Unknown",
+  "en": "For example, they may feed our conversational search a set of contracts they are fairly familiar with, and they run the search and see if the output is towards the expectation.",
+  "zh": "例如,他们可能会给我们会话式搜索输入一组他们相当熟悉的合同,然后运行搜索,看输出是否符合预期。"
+ },
+ {
+  "seg": 47,
+  "start": 336.611,
+  "end": 348.904,
+  "speaker": "Unknown",
+  "en": "If so, they may expand on searching for things they don't know about or apply other workflows using AI to solve other things like redlining the contract and finding anomalies and so on.",
+  "zh": "如果符合,他们可能会扩展到搜索他们不了解的内容,或者使用 AI 应用其他工作流去解决其他事情,比如给合同做红线标注、发现异常等等。"
+ },
+ {
+  "seg": 48,
+  "start": 350.038,
+  "end": 365.383,
+  "speaker": "Unknown",
+  "en": "And so, similarly, using AI and making sure AI is delivering high engineering value also involves a sequence of steps in gaining trust from the internal engineers, the leadership, as well as with our customers.",
+  "zh": "同样,使用 AI 并确保 AI 带来高工程价值,也涉及一系列步骤,去赢得内部工程师、领导层以及我们客户的信任。"
+ },
+ {
+  "seg": 49,
+  "start": 365.783,
+  "end": 367.743,
+  "speaker": "Unknown",
+  "en": "So this is the focus of our talk today.",
+  "zh": "所以这就是我们今天演讲的重点。"
+ },
+ {
+  "seg": 50,
+  "start": 371.424,
+  "end": 373.865,
+  "speaker": "Unknown",
+  "en": "And this probably will not come as a surprise.",
+  "zh": "这可能不会让人感到意外。"
+ },
+ {
+  "seg": 51,
+  "start": 374.645,
+  "end": 375.866,
+  "speaker": "Unknown",
+  "en": "Here, the goal is not to",
+  "zh": "在这里，目标不是"
+ },
+ {
+  "seg": 52,
+  "start": 377.312,
+  "end": 380.933,
+  "speaker": "Unknown",
+  "en": "Minimizing or not even actually to reduce token spend.",
+  "zh": "最小化，甚至实际上都不是减少 token 支出。"
+ },
+ {
+  "seg": 53,
+  "start": 381.333,
+  "end": 383.914,
+  "speaker": "Unknown",
+  "en": "So here we kind of use the word it's not about austerity.",
+  "zh": "所以在这里我们可以说，这不是关于紧缩。"
+ },
+ {
+  "seg": 54,
+  "start": 384.554,
+  "end": 387.775,
+  "speaker": "Unknown",
+  "en": "It's about further improving the ROI of the token spend.",
+  "zh": "而是关于进一步提高 token 支出的 ROI。"
+ },
+ {
+  "seg": 55,
+  "start": 389.335,
+  "end": 390.336,
+  "speaker": "Unknown",
+  "en": "So how do we do that?",
+  "zh": "那么我们怎么做呢？"
+ },
+ {
+  "seg": 56,
+  "start": 390.916,
+  "end": 395.077,
+  "speaker": "Unknown",
+  "en": "Here we propose a concept we call trusted throughput.",
+  "zh": "这里我们提出一个概念，我们称之为可信吞吐量。"
+ },
+ {
+  "seg": 57,
+  "start": 396.023,
+  "end": 406.681,
+  "speaker": "Unknown",
+  "en": "So the trusted throughput comes from having the code reviewed and validated internally and ultimately validated in customer deployments.",
+  "zh": "可信吞吐量来自于代码经过内部审查和验证，并最终在客户部署中得到验证。"
+ },
+ {
+  "seg": 58,
+  "start": 410.64,
+  "end": 420.448,
+  "speaker": "Unknown",
+  "en": "So how do we go and how do we think about controlling the cost and measuring and, in turn, optimizing the ROI?",
+  "zh": "那么我们如何去、如何思考控制成本、度量成本，进而优化 ROI 呢？"
+ },
+ {
+  "seg": 59,
+  "start": 421.109,
+  "end": 427.774,
+  "speaker": "Unknown",
+  "en": "The first step is I'm pretty confident that all of you, your teams who have been adopting AI, have been measuring the cost.",
+  "zh": "第一步，我很确信在座各位中，你们所有采用 AI 的团队都已经在度量成本了。"
+ },
+ {
+  "seg": 60,
+  "start": 428.515,
+  "end": 436.202,
+  "speaker": "Unknown",
+  "en": "If you're using a single tool like Claude Code or Codex, then you tend to get very rich analytics from the vendor's dashboard already.",
+  "zh": "如果你使用的是单一工具，比如 Claude Code 或 Codex，那么你通常已经能从厂商的仪表板获得非常丰富的分析数据。"
+ },
+ {
+  "seg": 61,
+  "start": 436.862,
+  "end": 449.511,
+  "speaker": "Unknown",
+  "en": "If you're like us, who use a combination of these different coding tools, then we basically use AI to build simple dashboards and pipelines to extract such vendor data so we can kind of cross-correlate them.",
+  "zh": "如果你像我们一样，组合使用这些不同的编码工具，那么我们基本上是用 AI 搭建简单的仪表板和管道来提取这些厂商数据，以便我们能对它们进行交叉关联。"
+ },
+ {
+  "seg": 62,
+  "start": 449.812,
+  "end": 458.438,
+  "speaker": "Unknown",
+  "en": "Then we can break it down, aggregate, and then break down by per team, per individual, what is their cost usage across all of these tools.",
+  "zh": "然后我们就可以分解、汇总，再按团队、按个人细分，他们在所有这些工具中的成本使用情况。"
+ },
+ {
+  "seg": 63,
+  "start": 459.479,
+  "end": 461.18,
+  "speaker": "Unknown",
+  "en": "So that's the first step for measuring cost.",
+  "zh": "这就是度量成本的第一步。"
+ },
+ {
+  "seg": 64,
+  "start": 462.395,
+  "end": 472.778,
+  "speaker": "Unknown",
+  "en": "Now, one pitfall I have seen, and we wanted to caution everybody, is to then jump from measuring cost to start reducing or minimizing the cost, like cutting costs.",
+  "zh": "我见过的一个陷阱，我们想提醒大家注意的，就是从度量成本直接跳到开始削减或最小化成本，也就是砍成本。"
+ },
+ {
+  "seg": 65,
+  "start": 473.298,
+  "end": 474.538,
+  "speaker": "Unknown",
+  "en": "We think that is premature.",
+  "zh": "我们认为那样做为时过早。"
+ },
+ {
+  "seg": 66,
+  "start": 475.239,
+  "end": 479.72,
+  "speaker": "Unknown",
+  "en": "Instead, the other important side of the equation for ROI is to measure value.",
+  "zh": "相反，ROI 等式的另一个重要方面是度量价值。"
+ },
+ {
+  "seg": 67,
+  "start": 480.34,
+  "end": 482.961,
+  "speaker": "Unknown",
+  "en": "How much value are we getting from burning the tokens?",
+  "zh": "我们从燃烧这些 token 中获得了多少价值？"
+ },
+ {
+  "seg": 68,
+  "start": 483.881,
+  "end": 492.27,
+  "speaker": "Unknown",
+  "en": "Once we can measure the cost and value side, we understand ROI, and then to improve ROI, we want to find and then fix the bottlenecks.",
+  "zh": "一旦我们能度量成本和价值两方面，我们就理解了 ROI，然后为了提升 ROI，我们要找出瓶颈然后修复它们。"
+ },
+ {
+  "seg": 69,
+  "start": 492.85,
+  "end": 507.085,
+  "speaker": "Unknown",
+  "en": "In the next couple slides, I'm going to introduce two new bottlenecks we identified in this whole new software development lifecycle where code generation now becomes abundant thanks to AI, but the pressure is now getting pushed down to code review.",
+  "zh": "在接下来的几页幻灯片中，我将介绍我们在这整个全新软件开发生命周期中识别出的两个新瓶颈：在 AI 的帮助下，代码生成如今变得充裕，但压力现在被下推到了代码审查。"
+ },
+ {
+  "seg": 70,
+  "start": 507.625,
+  "end": 510.848,
+  "speaker": "Unknown",
+  "en": "And Continuous Integration, CI, CD, merging the code.",
+  "zh": "以及持续集成、CI、CD、合并代码。"
+ },
+ {
+  "seg": 71,
+  "start": 511.108,
+  "end": 511.989,
+  "speaker": "Unknown",
+  "en": "So we'll talk about that.",
+  "zh": "所以我们会谈到这些。"
+ },
+ {
+  "seg": 72,
+  "start": 512.43,
+  "end": 521.178,
+  "speaker": "Unknown",
+  "en": "And finally, we'll put together these ideas into a pragmatic framework of how we think about optimizing the ROI and thus the leverage in using AI.",
+  "zh": "最后，我们会把这些想法整合成一个务实的框架，来说明我们如何思考优化 ROI，从而优化使用 AI 的杠杆效应。"
+ },
+ {
+  "seg": 73,
+  "start": 525.315,
+  "end": 531.697,
+  "speaker": "Unknown",
+  "en": "Okay, so this is kind of just a slide in building or using the vendor dashboard to measure the cost.",
+  "zh": "好，这基本上就是一页关于搭建或使用厂商仪表板来度量成本的幻灯片。"
+ },
+ {
+  "seg": 74,
+  "start": 532.017,
+  "end": 554.342,
+  "speaker": "Unknown",
+  "en": "And again, we want to caution that here, the main goal for regularly reviewing the dashboard is to see, A, if there's still adoption gap within individual pockets of teams or the individual engineers, and B, if there are any sudden surprises in kind of the usage burst, and if so, understand what's been happening, if they're legitimate, and then also compare teams",
+  "zh": "再强调一次，我们想提醒的是，在这里，定期查看仪表板的主要目的是看：A，在个别团队或个别工程师中是否仍存在采用差距；B，在使用突发中是否有任何突然的意外，如果有，就去了解发生了什么、是否合理，然后还要在"
+ },
+ {
+  "seg": 75,
+  "start": 555.478,
+  "end": 556.179,
+  "speaker": "Unknown",
+  "en": "Contextually.",
+  "zh": "相应的情境下比较各团队。"
+ },
+ {
+  "seg": 76,
+  "start": 556.619,
+  "end": 557.58,
+  "speaker": "Unknown",
+  "en": "So this is important.",
+  "zh": "这一点很重要。"
+ },
+ {
+  "seg": 77,
+  "start": 557.6,
+  "end": 566.786,
+  "speaker": "Unknown",
+  "en": "We don't control just the AI usage per se because, for example, a platform infrastructure team, the way they use AI and the way they get value may be different from the UI team.",
+  "zh": "我们不直接控制 AI 使用本身，因为举例来说，平台基础设施团队使用 AI 的方式和他们获得价值的方式可能与 UI 团队不同。"
+ },
+ {
+  "seg": 78,
+  "start": 567.046,
+  "end": 569.548,
+  "speaker": "Unknown",
+  "en": "So we need to take the context into consideration.",
+  "zh": "所以我们需要把情境纳入考量。"
+ },
+ {
+  "seg": 79,
+  "start": 570.369,
+  "end": 573.831,
+  "speaker": "Unknown",
+  "en": "All of such review analysis is to help us extract learnings.",
+  "zh": "所有这些审查分析都是为了帮助我们提炼经验。"
+ },
+ {
+  "seg": 80,
+  "start": 574.211,
+  "end": 578.895,
+  "speaker": "Unknown",
+  "en": "So there's a self-learning loop that we can then feed back into institutional best practices.",
+  "zh": "这样就有一个自学习循环，我们可以将其反馈到组织级最佳实践中。"
+ },
+ {
+  "seg": 81,
+  "start": 579.812,
+  "end": 588.258,
+  "speaker": "Unknown",
+  "en": "What we don't want to use the dashboards are to stack rank people, making it a leaderboard, and somehow reward maximization.",
+  "zh": "我们不想用这些仪表板做的事是对人进行排名，把它变成排行榜，然后以某种方式奖励最大化。"
+ },
+ {
+  "seg": 82,
+  "start": 589.238,
+  "end": 595.503,
+  "speaker": "Unknown",
+  "en": "There's an interesting analogy I want to draw with a traditional edge productivity metric called lines of code.",
+  "zh": "我想画一个有趣类比，是关于一个传统的工程生产力指标：代码行数。"
+ },
+ {
+  "seg": 83,
+  "start": 596.083,
+  "end": 605.889,
+  "speaker": "Unknown",
+  "en": "So I believe all of you will be tracking that metric, but it wouldn't be wise to use that metric as the key goal to measure edge velocity, because if we want",
+  "zh": "我相信你们所有人都会追踪这个指标，但把这个指标作为衡量工程速度的关键目标并不明智，因为如果我们想要"
+ },
+ {
+  "seg": 84,
+  "start": 606.81,
+  "end": 611.657,
+  "speaker": "Unknown",
+  "en": "Productive and high-quality edge work, one can argue that removing code is even better.",
+  "zh": "有生产力的、高质量的工程工作，可以说删除代码甚至更好。"
+ },
+ {
+  "seg": 85,
+  "start": 612.117,
+  "end": 617.385,
+  "speaker": "Unknown",
+  "en": "So, LOC, line of code, is an important metric but not something we want to directly optimize for.",
+  "zh": "所以，LOC、代码行数，是一个重要的指标，但不是我们想直接为之优化的东西。"
+ },
+ {
+  "seg": 86,
+  "start": 617.825,
+  "end": 619.748,
+  "speaker": "Unknown",
+  "en": "Same thing for the token usage and spend.",
+  "zh": "token 使用量和支出也是同样的道理。"
+ },
+ {
+  "seg": 87,
+  "start": 622.398,
+  "end": 626.281,
+  "speaker": "Unknown",
+  "en": "So that gets us to the notion of trusted throughput.",
+  "zh": "这就引出了可信吞吐量的概念。"
+ },
+ {
+  "seg": 88,
+  "start": 626.742,
+  "end": 627.842,
+  "speaker": "Unknown",
+  "en": "How do we think about that?",
+  "zh": "我们怎么思考它？"
+ },
+ {
+  "seg": 89,
+  "start": 628.043,
+  "end": 628.983,
+  "speaker": "Unknown",
+  "en": "How do we define that?",
+  "zh": "我们怎么定义它？"
+ },
+ {
+  "seg": 90,
+  "start": 629.764,
+  "end": 632.967,
+  "speaker": "Unknown",
+  "en": "First, I want to share the quantified side of the things.",
+  "zh": "首先，我想分享这件事的量化一面。"
+ },
+ {
+  "seg": 91,
+  "start": 633.067,
+  "end": 636.63,
+  "speaker": "Unknown",
+  "en": "What are the metrics that we have been involving in defining and tracking?",
+  "zh": "我们在定义和追踪的过程中涉及了哪些指标？"
+ },
+ {
+  "seg": 92,
+  "start": 637.51,
+  "end": 643.915,
+  "speaker": "Unknown",
+  "en": "So we talked about line of code is clearly not a good way to measure if AI is generating a lot of value.",
+  "zh": "我们说过，代码行数显然不是衡量 AI 是否产生大量价值的好方法。"
+ },
+ {
+  "seg": 93,
+  "start": 644.796,
+  "end": 650.361,
+  "speaker": "Unknown",
+  "en": "So the next evolution can be, let's count the number of open PRs, pull requests.",
+  "zh": "所以下一步演进可以是：我们来统计开放的 PR、pull request 的数量。"
+ },
+ {
+  "seg": 94,
+  "start": 650.982,
+  "end": 655.265,
+  "speaker": "Unknown",
+  "en": "The intuition being, engineers are using AI to generate a lot more code.",
+  "zh": "直觉是，工程师正在用 AI 生成多得多的代码。"
+ },
+ {
+  "seg": 95,
+  "start": 655.426,
+  "end": 657.367,
+  "speaker": "Unknown",
+  "en": "So let's measure the open PR.",
+  "zh": "所以我们来度量开放的 PR。"
+ },
+ {
+  "seg": 96,
+  "start": 657.567,
+  "end": 662.332,
+  "speaker": "Unknown",
+  "en": "So clearly, we see a big inflection in the open PR count.",
+  "zh": "很明显，我们看到开放的 PR 数量出现了一个巨大的拐点。"
+ },
+ {
+  "seg": 97,
+  "start": 663.191,
+  "end": 675.497,
+  "speaker": "Unknown",
+  "en": "But eventually, as I assume everyone would agree, over the time, even though people may do one-off RND work to try out things without landing them, but eventually we are all measured by the code we ship.",
+  "zh": "但最终，我想每个人都会同意，随着时间推移，即使人们可能做一些一次性的研发工作来尝试一些东西而不落地它们，但最终我们都是用我们发布的代码来衡量的。"
+ },
+ {
+  "seg": 98,
+  "start": 676.657,
+  "end": 682.3,
+  "speaker": "Unknown",
+  "en": "So therefore, we evolved from tracking the open PR count to tracking the merged PR count.",
+  "zh": "因此，我们从追踪开放的 PR 数量演进为追踪已合并的 PR 数量。"
+ },
+ {
+  "seg": 99,
+  "start": 682.82,
+  "end": 683.841,
+  "speaker": "Unknown",
+  "en": "So that's an improvement.",
+  "zh": "这是一种改进。"
+ },
+ {
+  "seg": 100,
+  "start": 685.081,
+  "end": 688.483,
+  "speaker": "Unknown",
+  "en": "But the next question is, not every merged PR is equal.",
+  "zh": "但下一个问题是，并非每一个被合并的 PR 都是等价的。"
+ },
+ {
+  "seg": 101,
+  "start": 689.297,
+  "end": 694.901,
+  "speaker": "Unknown",
+  "en": "There can be a PR with only 10 lines of code that takes forever that finds and fix a concurrency bug.",
+  "zh": "有可能存在一个只有 10 行代码的 PR，却花了很长时间，找出并修复了一个并发 bug。"
+ },
+ {
+  "seg": 102,
+  "start": 695.702,
+  "end": 704.989,
+  "speaker": "Unknown",
+  "en": "Or there can be a thousand line kind of boilerplate code that just takes a lot of time to then kind of generate and review, but otherwise it's not necessarily adding as much business value.",
+  "zh": "也可能有一个上千行的样板代码，生成和审查都需要花很多时间，但除此之外，它并不一定增加那么多业务价值。"
+ },
+ {
+  "seg": 103,
+  "start": 706.39,
+  "end": 712.475,
+  "speaker": "Unknown",
+  "en": "So as such, we then started kind of tagging each merged PR with some sort of complexity score.",
+  "zh": "因此，我们开始给每个被合并的 PR 打上某种复杂度分数的标签。"
+ },
+ {
+  "seg": 104,
+  "start": 713.405,
+  "end": 715.806,
+  "speaker": "Unknown",
+  "en": "There's no traditional definition of what that means.",
+  "zh": "对于这意味着什么，并没有一个传统的定义。"
+ },
+ {
+  "seg": 105,
+  "start": 715.886,
+  "end": 717.247,
+  "speaker": "Unknown",
+  "en": "We looked at the literature a bit.",
+  "zh": "我们查阅了一些文献。"
+ },
+ {
+  "seg": 106,
+  "start": 717.547,
+  "end": 721.929,
+  "speaker": "Unknown",
+  "en": "So we just took a pragmatic approach of giving AI a well-crafted prompt.",
+  "zh": "所以我们采取了一种务实的做法，给 AI 一个精心设计的提示词。"
+ },
+ {
+  "seg": 107,
+  "start": 722.47,
+  "end": 728.853,
+  "speaker": "Unknown",
+  "en": "And then we feed the PR into basically one or two LLM and say, score the complexity based on T-shirt size.",
+  "zh": "然后我们把这个 PR 输入给基本上一个或两个 LLM，让它按 T 恤尺码来给复杂度打分。"
+ },
+ {
+  "seg": 108,
+  "start": 729.573,
+  "end": 735.358,
+  "speaker": "Unknown",
+  "en": "So the idea being, if you use AI to generate a more complex PR, we consider that as being more valuable.",
+  "zh": "这样做的思路是，如果你用 AI 生成了一个更复杂的 PR，我们认为它更有价值。"
+ },
+ {
+  "seg": 109,
+  "start": 735.778,
+  "end": 739.201,
+  "speaker": "Unknown",
+  "en": "So basically, that's how we kind of add a weightage to each merged PR.",
+  "zh": "基本上，这就是我们给每个被合并的 PR 加权重的方式。"
+ },
+ {
+  "seg": 110,
+  "start": 739.721,
+  "end": 741.122,
+  "speaker": "Unknown",
+  "en": "But that's not the end of the journey.",
+  "zh": "但这并不是旅程的终点。"
+ },
+ {
+  "seg": 111,
+  "start": 741.362,
+  "end": 752.771,
+  "speaker": "Unknown",
+  "en": "That's still something we're going to evolve, keep evolving, and I would love to discuss with everyone on kind of how we end up creating, defining a set of metrics that kind of approximate the value AI is generating.",
+  "zh": "这仍然是我们会持续演进、不断迭代的东西，我也很乐意和大家讨论，我们最终如何创建、定义一套指标，来近似衡量 AI 所创造的价值。"
+ },
+ {
+  "seg": 112,
+  "start": 754.072,
+  "end": 755.774,
+  "speaker": "Unknown",
+  "en": "Now, let's look at the qualitative view.",
+  "zh": "现在，让我们来看看定性视角。"
+ },
+ {
+  "seg": 113,
+  "start": 756.698,
+  "end": 767.141,
+  "speaker": "Unknown",
+  "en": "What we think about the way we would define trusted throughput is a high-quality output that's entrusted by both internal engineering and leadership and external customers.",
+  "zh": "我们对「可信吞吐量」的定义方式，是一种同时被内部工程团队和领导层以及外部客户所信任的高质量产出。"
+ },
+ {
+  "seg": 114,
+  "start": 767.661,
+  "end": 769.381,
+  "speaker": "Unknown",
+  "en": "We think they come from three buckets.",
+  "zh": "我们认为它们来自三个桶。"
+ },
+ {
+  "seg": 115,
+  "start": 770.701,
+  "end": 785.325,
+  "speaker": "Unknown",
+  "en": "The first bucket is all of the objective metrics that we run with checking the test coverage, whether all of the predefined security checks are passing, do we go through the regular canary in practice as we roll our features safely, and so on.",
+  "zh": "第一个桶是我们运行的所有客观指标，包括检查测试覆盖率、所有预定义的安全检查是否通过、在安全地发布功能时我们是否按惯例走常规的金丝雀发布流程，等等。"
+ },
+ {
+  "seg": 116,
+  "start": 786.652,
+  "end": 793.198,
+  "speaker": "Unknown",
+  "en": "In addition, we complement the objective metrics with our subjective human judgment.",
+  "zh": "此外，我们用主观的人类判断来补充客观指标。"
+ },
+ {
+  "seg": 117,
+  "start": 793.458,
+  "end": 801.205,
+  "speaker": "Unknown",
+  "en": "So that's where the code review, the design review come in to look at the code quality, clarity, maintenance, architecture fit, and so on.",
+  "zh": "这就是代码审查、设计审查发挥作用的地方，用来审视代码质量、清晰度、可维护性、架构契合度，等等。"
+ },
+ {
+  "seg": 118,
+  "start": 801.974,
+  "end": 811.678,
+  "speaker": "Unknown",
+  "en": "And then finally, we want to make sure through all of these internal objective and subjective check, when the rubber meets the road, how customers perceive the changes.",
+  "zh": "最后，我们想通过所有这些内部客观和主观的检查，确保在真正落地时，客户是如何感知这些变更的。"
+ },
+ {
+  "seg": 119,
+  "start": 812.298,
+  "end": 814.98,
+  "speaker": "Unknown",
+  "en": "Are there production fires that lead to rollbacks?",
+  "zh": "是否有导致回滚的生产事故？"
+ },
+ {
+  "seg": 120,
+  "start": 815.46,
+  "end": 821.182,
+  "speaker": "Unknown",
+  "en": "Do customers complain, have tickets that talk about usability, friction, bugs, and so on?",
+  "zh": "客户是否有投诉，是否有关于易用性、摩擦、bug 等方面的工单？"
+ },
+ {
+  "seg": 121,
+  "start": 821.703,
+  "end": 827.145,
+  "speaker": "Unknown",
+  "en": "So these are the three buckets that together form what we think is trusted throughput from engineering.",
+  "zh": "所以这三个桶共同构成了我们所认为的来自工程团队的可信吞吐量。"
+ },
+ {
+  "seg": 122,
+  "start": 832.183,
+  "end": 840.029,
+  "speaker": "Unknown",
+  "en": "OK, so now let's talk about from a software deployment lifecycle perspective where we observe the new bottlenecks are.",
+  "zh": "好，现在让我们从软件部署生命周期的角度，谈谈我们观察到的新的瓶颈在哪里。"
+ },
+ {
+  "seg": 123,
+  "start": 840.929,
+  "end": 847.274,
+  "speaker": "Unknown",
+  "en": "As I mentioned earlier, AI cogeneration is making PR creation abundant.",
+  "zh": "正如我之前提到的，AI 协同生成正在让 PR 的创建变得泛滥。"
+ },
+ {
+  "seg": 124,
+  "start": 848.255,
+  "end": 856.841,
+  "speaker": "Unknown",
+  "en": "So now the bottleneck from kind of the whole lifecycle perspective gets shifted onto the review, and they are subsequently merging the PR.",
+  "zh": "所以现在从整个生命周期的角度看，瓶颈转移到了审查上，以及随后合并 PR 的环节。"
+ },
+ {
+  "seg": 125,
+  "start": 857.561,
+  "end": 858.262,
+  "speaker": "Unknown",
+  "en": "Does that resonate?",
+  "zh": "这会引起大家的共鸣吗？"
+ },
+ {
+  "seg": 126,
+  "start": 860.429,
+  "end": 862.192,
+  "speaker": "Unknown",
+  "en": "I see some heads nodding.",
+  "zh": "我看到一些人在点头。"
+ },
+ {
+  "seg": 127,
+  "start": 862.893,
+  "end": 871.345,
+  "speaker": "Unknown",
+  "en": "So this is where we spend time on figuring out how we can further improve the review process as well as the continuous integration, the CI process.",
+  "zh": "所以这就是我们花时间研究如何进一步改进审查流程以及持续集成、也就是 CI 流程的地方。"
+ },
+ {
+  "seg": 128,
+  "start": 871.766,
+  "end": 874.53,
+  "speaker": "Unknown",
+  "en": "So we will dive into these two topics in the next couple of slides.",
+  "zh": "我们将在接下来的几页幻灯片中深入探讨这两个话题。"
+ },
+ {
+  "seg": 129,
+  "start": 875.451,
+  "end": 891.295,
+  "speaker": "Unknown",
+  "en": "Here, I just want to say a potential anti-pattern, anti-solution is that, hey, if the CI infrastructure gets overloaded, then a workaround by engineers to stop splitting PR, to stop submitting large PR for review and submission.",
+  "zh": "这里，我只想指出一个潜在的反模式、反解决方案，那就是：嘿，如果 CI 基础设施过载了，那么工程师的一种变通办法就是不再拆分 PR，不再提交大的 PR 供审查和提交。"
+ },
+ {
+  "seg": 130,
+  "start": 891.815,
+  "end": 899.077,
+  "speaker": "Unknown",
+  "en": "Because if it takes an hour to run all of your regression tests and submit it, I don't want to break my PR into 10, which might take 10 hours.",
+  "zh": "因为如果运行你所有的回归测试并提交需要一个小时，我不想把我的 PR 拆成 10 个，那样可能要花 10 个小时。"
+ },
+ {
+  "seg": 131,
+  "start": 899.757,
+  "end": 911.948,
+  "speaker": "Unknown",
+  "en": "However, this, in our view, can be pretty risky because it makes the human review overhead higher and also reduce the quality of the review because the human attention can be spread thin.",
+  "zh": "然而，在我们看来，这可能相当有风险，因为它会让人工审查的开销更高，同时也会降低审查的质量，因为人的注意力可能被摊得太薄。"
+ },
+ {
+  "seg": 132,
+  "start": 912.348,
+  "end": 914.891,
+  "speaker": "Unknown",
+  "en": "So that is an anti-pattern I wanted to caution.",
+  "zh": "所以这是我想提醒的一个反模式。"
+ },
+ {
+  "seg": 133,
+  "start": 917.773,
+  "end": 919.435,
+  "speaker": "Unknown",
+  "en": "So for code review,",
+  "zh": "至于代码审查，"
+ },
+ {
+  "seg": 134,
+  "start": 920.45,
+  "end": 925.795,
+  "speaker": "Unknown",
+  "en": "The key principle we use is to make sure we onboard AI tooling as the first level of defense.",
+  "zh": "我们使用的关键原则是确保我们把 AI 工具作为第一道防线引入。"
+ },
+ {
+  "seg": 135,
+  "start": 926.275,
+  "end": 931.24,
+  "speaker": "Unknown",
+  "en": "They don't replace human reviewers, but we want to offload human reviewers as much as possible.",
+  "zh": "它们不取代人类审查者，但我们想尽可能地减轻人类审查者的负担。"
+ },
+ {
+  "seg": 136,
+  "start": 931.74,
+  "end": 938.606,
+  "speaker": "Unknown",
+  "en": "Let the AI review take care of simpler things like coding style issues or if there's missing test coverage.",
+  "zh": "让 AI 审查处理更简单的事情，比如代码风格问题，或者是否缺少测试覆盖。"
+ },
+ {
+  "seg": 137,
+  "start": 939.407,
+  "end": 945.533,
+  "speaker": "Unknown",
+  "en": "So make sure the author gets through all of them before then the review gets routed to a human reviewer.",
+  "zh": "确保作者先通过所有这些检查，然后审查才被转给人类审查者。"
+ },
+ {
+  "seg": 138,
+  "start": 946.357,
+  "end": 968.335,
+  "speaker": "Unknown",
+  "en": "And this way, our human engineers can focus on applying their deep judgment on aspects that are somewhat subjective, like if the code is good, if the architecture is sound, if the code passes kind of the security design, and so on, so that in the end, our engineering team can take the final accountability.",
+  "zh": "这样，我们的人类工程师就可以专注于在那些带有一定主观性的方面运用他们的深度判断，比如代码是否优秀、架构是否合理、代码是否通过了安全设计等等，从而最终，我们的工程团队能够承担最终的责任。"
+ },
+ {
+  "seg": 139,
+  "start": 971.582,
+  "end": 972.884,
+  "speaker": "Unknown",
+  "en": "Now, let's look at CI.",
+  "zh": "现在，让我们来看看 CI。"
+ },
+ {
+  "seg": 140,
+  "start": 973.444,
+  "end": 977.809,
+  "speaker": "Unknown",
+  "en": "So I assume all of you deployed some form of CI, CI CD.",
+  "zh": "我假设你们所有人都部署了某种形式的 CI、CI/CD。"
+ },
+ {
+  "seg": 141,
+  "start": 978.39,
+  "end": 990.124,
+  "speaker": "Unknown",
+  "en": "And what we're seeing is, thanks to AI, now making it much easier to generate code and splitting code into smaller but more PRs, it puts a lot more pressure on the CI.",
+  "zh": "而我们看到的是，多亏了 AI，现在生成代码以及把代码拆分成更小但更多的 PR 变得容易多了，这给 CI 带来了大得多的压力。"
+ },
+ {
+  "seg": 142,
+  "start": 991.145,
+  "end": 1003.115,
+  "speaker": "Unknown",
+  "en": "And this is something that if we don't address at a company level, individual engineers can be struggling because that means they have to waste their human time babysitting the PR to get merged.",
+  "zh": "如果我们不在公司层面解决这个问题，个别工程师可能会陷入困境，因为那意味着他们不得不浪费自己的人类时间去照看 PR 直到它被合并。"
+ },
+ {
+  "seg": 143,
+  "start": 1003.455,
+  "end": 1007.458,
+  "speaker": "Unknown",
+  "en": "If they run into flaky tests, then they have to manually hit rerun.",
+  "zh": "如果他们遇到不稳定的测试，他们就必须手动点击重跑。"
+ },
+ {
+  "seg": 144,
+  "start": 1007.538,
+  "end": 1008.499,
+  "speaker": "Unknown",
+  "en": "It's very frustrating.",
+  "zh": "这非常令人沮丧。"
+ },
+ {
+  "seg": 145,
+  "start": 1009.06,
+  "end": 1015.185,
+  "speaker": "Unknown",
+  "en": "Or they can recruit an AI agent to babysit and kind of do a loop, but that in turn with AI token as well.",
+  "zh": "或者他们可以招募一个 AI 智能体来照看并做一些循环操作，但这反过来也要消耗 AI token。"
+ },
+ {
+  "seg": 146,
+  "start": 1015.645,
+  "end": 1023.949,
+  "speaker": "Unknown",
+  "en": "So these are just workarounds, not perfect solution, and also tend to make engineers feel a little bit lower morale, a little bit more frustrated.",
+  "zh": "所以这些只是变通办法，不是完美的解决方案，而且往往会让工程师的士气低落一些、沮丧多一些。"
+ },
+ {
+  "seg": 147,
+  "start": 1024.75,
+  "end": 1030.413,
+  "speaker": "Unknown",
+  "en": "So what we are doing is kind of we put more developer experience",
+  "zh": "所以我们在做的，是投入更多的开发者体验"
+ },
+ {
+  "seg": 148,
+  "start": 1031.393,
+  "end": 1039.439,
+  "speaker": "Unknown",
+  "en": "platform engineering to investing, to reducing, removing the flaky test, improving the CI infrastructure.",
+  "zh": "平台工程投资，来减少、消除不稳定的测试，改进 CI 基础设施。"
+ },
+ {
+  "seg": 149,
+  "start": 1039.759,
+  "end": 1044.683,
+  "speaker": "Unknown",
+  "en": "And the key thing here is to also define and measure the right metrics.",
+  "zh": "这里的关键还在于定义并衡量正确的指标。"
+ },
+ {
+  "seg": 150,
+  "start": 1044.723,
+  "end": 1051.368,
+  "speaker": "Unknown",
+  "en": "For example, the work clock time between when the peer is ready to submit to when it's submitted.",
+  "zh": "例如,从同行准备好提交到实际提交之间的工作时间。"
+ },
+ {
+  "seg": 151,
+  "start": 1052.472,
+  "end": 1058.316,
+  "speaker": "Unknown",
+  "en": "If a typical CR run takes an hour, does the typical PR submission take two or three hours?",
+  "zh": "如果一次典型的 CR 运行需要一小时,那么典型的 PR 提交是否需要两三个小时?"
+ },
+ {
+  "seg": 152,
+  "start": 1058.676,
+  "end": 1059.857,
+  "speaker": "Unknown",
+  "en": "In which case, that's a red flag.",
+  "zh": "如果是这样,那就是一个危险信号。"
+ },
+ {
+  "seg": 153,
+  "start": 1060.338,
+  "end": 1065.061,
+  "speaker": "Unknown",
+  "en": "And also the number of times a PR needs to get retried for passing through the test.",
+  "zh": "还有 PR 需要重试多少次才能通过测试。"
+ },
+ {
+  "seg": 154,
+  "start": 1065.501,
+  "end": 1075.468,
+  "speaker": "Unknown",
+  "en": "So these are the key metrics that we are using to measure our developer experiences and the relevant team who is focused on improving the developer experience.",
+  "zh": "这些就是我们用来衡量开发者体验的关键指标,以及专注于改善开发者体验的相关团队。"
+ },
+ {
+  "seg": 155,
+  "start": 1078.603,
+  "end": 1089.631,
+  "speaker": "Unknown",
+  "en": "So with all of the analysis and ideas, here we want to share kind of a pragmatic framework of how we can then measure and optimize token usage.",
+  "zh": "基于所有这些分析和想法,这里我们想分享一个如何衡量和优化 token 用量的务实框架。"
+ },
+ {
+  "seg": 156,
+  "start": 1090.091,
+  "end": 1091.212,
+  "speaker": "Unknown",
+  "en": "It has three aspects.",
+  "zh": "它包含三个方面。"
+ },
+ {
+  "seg": 157,
+  "start": 1091.812,
+  "end": 1104.722,
+  "speaker": "Unknown",
+  "en": "The first one is to set the right set of guardrails across setting the budget and quota, tracking usage, defining anomalies so that users, leaders can get notified if something feels wrong.",
+  "zh": "第一个是设置正确的护栏体系,包括设定预算和配额、跟踪用量、定义异常,以便当某些事情看起来不对劲时,用户和领导者能收到通知。"
+ },
+ {
+  "seg": 158,
+  "start": 1105.342,
+  "end": 1114.244,
+  "speaker": "Unknown",
+  "en": "This is complementary to still regular human review, which can catch other interesting patterns or learnings and feedback into the institutional knowledge base.",
+  "zh": "这是对常规人工审查的补充,人工审查可以发现其他有趣的模式或经验,并反馈到机构知识库中。"
+ },
+ {
+  "seg": 159,
+  "start": 1115.884,
+  "end": 1120.465,
+  "speaker": "Unknown",
+  "en": "Let me just couple that with the third item here, which is the learning loop we talk about.",
+  "zh": "让我把这一点和这里的第三项结合起来,也就是我们谈到的学习循环。"
+ },
+ {
+  "seg": 160,
+  "start": 1120.945,
+  "end": 1129.447,
+  "speaker": "Unknown",
+  "en": "As our leadership work with individuals to define these guardrails, review the metrics, and then refine, that's how we kind of close the learning loop.",
+  "zh": "当我们的领导层与个人一起定义这些护栏、审查指标、然后进行改进,这就是我们闭合学习循环的方式。"
+ },
+ {
+  "seg": 161,
+  "start": 1130.685,
+  "end": 1144.539,
+  "speaker": "Unknown",
+  "en": "In addition to that, we want to work with our Eng teams, individual engineers to continue to search for and, if needed, innovate on the best practices of how to use AI, how to use AI to build products and also use it internally.",
+  "zh": "除此之外,我们还想与我们的工程团队、各位工程师一起继续寻找,并在需要时创新关于如何使用 AI、如何用 AI 构建产品以及在内部使用 AI 的最佳实践。"
+ },
+ {
+  "seg": 162,
+  "start": 1145.239,
+  "end": 1145.72,
+  "speaker": "Unknown",
+  "en": "For example,",
+  "zh": "例如,"
+ },
+ {
+  "seg": 163,
+  "start": 1147.078,
+  "end": 1152.581,
+  "speaker": "Unknown",
+  "en": "And some engineers may be writing an agentic loop as part of the harness when they use Claude code.",
+  "zh": "一些工程师在使用 Claude code 时,可能会在 harness 中编写一个智能体循环。"
+ },
+ {
+  "seg": 164,
+  "start": 1153.201,
+  "end": 1158.604,
+  "speaker": "Unknown",
+  "en": "After they generated initial PR, they go and loop around and say, try and pass the set of tests.",
+  "zh": "在他们生成初始 PR 之后,他们就去循环执行,说,尝试通过这组测试。"
+ },
+ {
+  "seg": 165,
+  "start": 1159.364,
+  "end": 1164.227,
+  "speaker": "Unknown",
+  "en": "And then if some tests don't pass, just auto-fix the test or the code and retry.",
+  "zh": "如果某些测试没通过,就自动修复测试或代码,然后重试。"
+ },
+ {
+  "seg": 166,
+  "start": 1165.347,
+  "end": 1174.392,
+  "speaker": "Unknown",
+  "en": "One thing to watch out for is to put a limit on the number of loop steps to make sure if things go out of control, we don't waste too many tokens on that.",
+  "zh": "需要注意的一点是要对循环步数设置上限,以确保如果事情失控,我们不会在上面浪费太多 token。"
+ },
+ {
+  "seg": 167,
+  "start": 1175.62,
+  "end": 1177.401,
+  "speaker": "Unknown",
+  "en": "Another example is prompt caching.",
+  "zh": "另一个例子是提示词缓存。"
+ },
+ {
+  "seg": 168,
+  "start": 1177.661,
+  "end": 1193.585,
+  "speaker": "Unknown",
+  "en": "This is becoming increasingly more prevalent by the commercial model vendors, where what they advise is if you send a prompt with the same prefix, they could optimize how they process the prefix of the prompt.",
+  "zh": "这在商业模型厂商中正变得越来越普遍,他们的建议是,如果你发送带有相同前缀的提示词,他们可以优化如何处理提示词的前缀。"
+ },
+ {
+  "seg": 169,
+  "start": 1194.618,
+  "end": 1201.607,
+  "speaker": "Unknown",
+  "en": "What that means then as a user to those LLM is that we want to encourage our users to structure their prompt that way.",
+  "zh": "那么,作为这些 LLM 的用户,这意味着我们要鼓励用户以那种方式组织他们的提示词。"
+ },
+ {
+  "seg": 170,
+  "start": 1201.687,
+  "end": 1211.259,
+  "speaker": "Unknown",
+  "en": "For example, if your prompt consists of a system prompt followed by a user prompt, you want to put a system prompt that's fixed at the top and a varying content at the bottom.",
+  "zh": "例如,如果你的提示词由一个系统提示词加上一个用户提示词组成,你应该把固定的系统提示词放在顶部,把变化的内容放在底部。"
+ },
+ {
+  "seg": 171,
+  "start": 1212.327,
+  "end": 1213.807,
+  "speaker": "Unknown",
+  "en": "Context pruning is also important.",
+  "zh": "上下文修剪也很重要。"
+ },
+ {
+  "seg": 172,
+  "start": 1213.887,
+  "end": 1229.09,
+  "speaker": "Unknown",
+  "en": "We want to kind of drill it into each individual user's kind of new kind of muscle memory so they are aware that as they build out the context through a longer chat session, they would be mindful of summarizing the context and make sure that the token usage is efficient that way.",
+  "zh": "我们想把它刻进每个用户的肌肉记忆里,让他们意识到,当他们在较长的聊天会话中构建上下文时,他们要记得对上下文做摘要,以确保 token 用量在这方面是高效的。"
+ },
+ {
+  "seg": 173,
+  "start": 1229.47,
+  "end": 1234.611,
+  "speaker": "Unknown",
+  "en": "There are increasingly more tools like Claude Code that will automatically manage and then compact the context for you.",
+  "zh": "现在有越来越多的工具,比如 Claude Code,会自动为你管理并压缩上下文。"
+ },
+ {
+  "seg": 174,
+  "start": 1235.012,
+  "end": 1239.773,
+  "speaker": "Unknown",
+  "en": "And so this increases the token usage efficiency but also increases the quality of AI output.",
+  "zh": "这样既提高了 token 使用效率,也提高了 AI 输出的质量。"
+ },
+ {
+  "seg": 175,
+  "start": 1240.373,
+  "end": 1242.173,
+  "speaker": "Unknown",
+  "en": "There are other ideas we're exploring as well.",
+  "zh": "我们还在探索其他一些想法。"
+ },
+ {
+  "seg": 176,
+  "start": 1248.66,
+  "end": 1249.741,
+  "speaker": "Unknown",
+  "en": "So I know we're at time.",
+  "zh": "我知道我们时间到了。"
+ },
+ {
+  "seg": 177,
+  "start": 1249.902,
+  "end": 1251.423,
+  "speaker": "Unknown",
+  "en": "So this is towards the end of the talk.",
+  "zh": "所以这是演讲的尾声了。"
+ },
+ {
+  "seg": 178,
+  "start": 1252.297,
+  "end": 1254.999,
+  "speaker": "Unknown",
+  "en": "There is sometimes we also face build versus buy decision.",
+  "zh": "有时我们也会面临自建还是购买的决策。"
+ },
+ {
+  "seg": 179,
+  "start": 1255.439,
+  "end": 1256.62,
+  "speaker": "Unknown",
+  "en": "The principle is simple.",
+  "zh": "原则很简单。"
+ },
+ {
+  "seg": 180,
+  "start": 1257.04,
+  "end": 1262.343,
+  "speaker": "Unknown",
+  "en": "For things that are non-differentiating, like IDE, CI infrastructure, we want to buy.",
+  "zh": "对于非差异化的东西,比如 IDE、CI 基础设施,我们想购买。"
+ },
+ {
+  "seg": 181,
+  "start": 1262.823,
+  "end": 1277.913,
+  "speaker": "Unknown",
+  "en": "But then for things that are specific to our context, like how we would generate high-quality PR for small bug fixes versus building a new UI feature for refactoring and so on, we have our internal playbook, which is a set of well-crafted AI prompts.",
+  "zh": "但对于与我们自身情境相关的东西,比如如何针对小型 bug 修复生成高质量 PR,与新 UI 功能开发、重构等等相比,我们有我们的内部 playbook,也就是一套精心打磨的 AI 提示词。"
+ },
+ {
+  "seg": 182,
+  "start": 1278.493,
+  "end": 1282.737,
+  "speaker": "Unknown",
+  "en": "So we save that and share across our team so that gets reused and enhanced.",
+  "zh": "我们把它保存下来并在团队内共享,以便被复用和改进。"
+ },
+ {
+  "seg": 183,
+  "start": 1282.957,
+  "end": 1284.678,
+  "speaker": "Unknown",
+  "en": "So that's something we must build internally.",
+  "zh": "所以这是我们必须在内部构建的东西。"
+ },
+ {
+  "seg": 184,
+  "start": 1285.479,
+  "end": 1299.651,
+  "speaker": "Unknown",
+  "en": "When it comes to case-to-case, though, sometimes it's still a bit ambiguous, like we're trying to build what we call a Builder Agent that's like a cloud-based code generation that wraps the Claude Code, Codex, and so on, while we know there are also other vendors out there that we're still exploring.",
+  "zh": "不过,具体到一个个案例,有时还是有点模糊,比如我们正在尝试构建我们所谓的 Builder Agent,它类似于一个基于云的代码生成,封装了 Claude Code、Codex 等,同时我们知道外面还有其他厂商,我们仍在探索。"
+ },
+ {
+  "seg": 185,
+  "start": 1299.851,
+  "end": 1301.393,
+  "speaker": "Unknown",
+  "en": "So we'd love to exchange thoughts on that.",
+  "zh": "所以我们很乐意就此交流想法。"
+ },
+ {
+  "seg": 186,
+  "start": 1303.645,
+  "end": 1308.628,
+  "speaker": "Unknown",
+  "en": "So then to summarize, here are a couple of key lessons as we went through the last couple of quarters of the journey.",
+  "zh": "那么总结一下,以下是我们过去几个季度历程中的几个关键教训。"
+ },
+ {
+  "seg": 187,
+  "start": 1308.908,
+  "end": 1312.47,
+  "speaker": "Unknown",
+  "en": "I wanted to share so that hopefully you could kind of accelerate your process there.",
+  "zh": "我想分享出来,希望能加速你们的进程。"
+ },
+ {
+  "seg": 188,
+  "start": 1312.97,
+  "end": 1319.894,
+  "speaker": "Unknown",
+  "en": "If I were to summarize these three things, I would say it's about learning, planning ahead, and learn from other people's stories slash mistakes.",
+  "zh": "如果让我总结这三点,我会说,这就是学习、提前规划,以及从别人的故事或错误中学习。"
+ },
+ {
+  "seg": 189,
+  "start": 1320.554,
+  "end": 1323.896,
+  "speaker": "Unknown",
+  "en": "So what that means is think about build resources by early on.",
+  "zh": "这意味着,要提前考虑构建资源。"
+ },
+ {
+  "seg": 190,
+  "start": 1324.776,
+  "end": 1332.539,
+  "speaker": "Unknown",
+  "en": "As you are encouraging more code gen, think about how that impacts your code review and CI and how you can address these new bottlenecks.",
+  "zh": "当你在鼓励更多代码生成时,要思考这对你的代码审查和 CI 的影响,以及你如何应对这些新的瓶颈。"
+ },
+ {
+  "seg": 191,
+  "start": 1332.959,
+  "end": 1342.322,
+  "speaker": "Unknown",
+  "en": "And finally, continue to define and instrument your system to get the right metrics to measure the health of your CI system and the whole developer experience in general.",
+  "zh": "最后,继续定义并为你的系统埋点,以获得正确的指标,来衡量你的 CI 系统以及整个开发者体验的健康状况。"
+ },
+ {
+  "seg": 192,
+  "start": 1344.212,
+  "end": 1345.172,
+  "speaker": "Unknown",
+  "en": "So that's it for the talk.",
+  "zh": "演讲到此结束。"
+ },
+ {
+  "seg": 193,
+  "start": 1345.613,
+  "end": 1353.356,
+  "speaker": "Unknown",
+  "en": "We believe that this is the golden era of AI, where maximizing token ROI is the key for every team's success.",
+  "zh": "我们相信这是 AI 的黄金时代,最大化 token 投资回报率是每个团队成功的关键。"
+ },
+ {
+  "seg": 194,
+  "start": 1354.076,
+  "end": 1356.577,
+  "speaker": "Unknown",
+  "en": "And with that, I just want to end with saying we are hiring.",
+  "zh": "借此,我只想以一句话结束:我们正在招聘。"
+ },
+ {
+  "seg": 195,
+  "start": 1356.697,
+  "end": 1364.52,
+  "speaker": "Unknown",
+  "en": "I know this is an engineering leadership crowd, but if you know of someone who is interested in building cutting-edge legal contracting AI, we would love to talk.",
+  "zh": "我知道在座的是工程领导者的群体,但如果你认识对构建前沿法律合同 AI 感兴趣的人,我们很乐意聊聊。"
+ },
+ {
+  "seg": 196,
+  "start": 1365.12,
+  "end": 1365.42,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 197,
+  "start": 1373.829,
+  "end": 1375.277,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

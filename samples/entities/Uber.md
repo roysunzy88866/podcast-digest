@@ -63,7 +63,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[Revolut]] · [[Facebook]] · [[Lenny]] · [[Airbnb]] · [[DoorDash]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"ChatGPT":77,"OpenAI":134,"Anthropic":145,"Amazon":16,"Revolut":5,"Facebook":15,"Lenny":67,"Airbnb":10,"DoorDash":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"ChatGPT":78,"OpenAI":134,"Anthropic":146,"Amazon":16,"Revolut":5,"Facebook":15,"Lenny":67,"Airbnb":10,"DoorDash":8}</script>
 
 <script>
 (function(){

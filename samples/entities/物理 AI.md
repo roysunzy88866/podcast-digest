@@ -45,7 +45,7 @@ unlisted: true
 
 [[Waymo]] · [[ChatGPT]] · [[智能体]] · [[Tesla]] · [[工业 AI]] · [[苦涩的教训]] · [[强化学习]] · [[护栏]] · [[推理]] · [[Reddit]]
 
-<script type="application/json" class="pd-epn">{"Waymo":13,"ChatGPT":77,"智能体":336,"Tesla":9,"工业 AI":3,"苦涩的教训":10,"强化学习":1,"护栏":62,"推理":55,"Reddit":7}</script>
+<script type="application/json" class="pd-epn">{"Waymo":13,"ChatGPT":78,"智能体":337,"Tesla":9,"工业 AI":3,"苦涩的教训":10,"强化学习":1,"护栏":62,"推理":55,"Reddit":7}</script>
 
 <script>
 (function(){

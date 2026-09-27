@@ -25,7 +25,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[CoreWeave]] · [[Amazon]] · [[Google]] · [[Microsoft]] · [[SoftBank]] · [[生成式 AI]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":134,"Anthropic":145,"NVIDIA":45,"CoreWeave":2,"Amazon":16,"Google":47,"Microsoft":25,"SoftBank":4,"生成式 AI":2,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":134,"Anthropic":146,"NVIDIA":45,"CoreWeave":2,"Amazon":16,"Google":47,"Microsoft":25,"SoftBank":4,"生成式 AI":2,"GPU":18}</script>
 
 <script>
 (function(){

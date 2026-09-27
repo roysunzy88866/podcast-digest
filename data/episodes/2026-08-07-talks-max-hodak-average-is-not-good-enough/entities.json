@@ -1,0 +1,629 @@
+{
+  "episode_id": "2026-08-07-talks-max-hodak-average-is-not-good-enough",
+  "podcast": "精选演讲",
+  "date": "2026-08-07",
+  "tags": [
+    "创业基础设施",
+    "招聘流程",
+    "绩效评估",
+    "深科技",
+    "脑机接口"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "max-hodak",
+      "type": "person",
+      "role": "host",
+      "name": "Max Hodak",
+      "file": "Max Hodak",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.347,
+            8.789
+          ],
+          "quote": "My name is Max Hodak.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "type": "company",
+      "role": "company",
+      "name": "Science",
+      "file": "Science",
+      "primary": true,
+      "how_described": "本集嘉宾 Max Hodak 是其 CEO,主打产品为视网膜假体;演讲以 Science 为例讲采购、招聘、内部软件等基础设施实践。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.75,
+            11.713
+          ],
+          "quote": "I'm the CEO of a company called Science.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            47.599,
+            51.343
+          ],
+          "quote": "At our company, Science, our main product is a retinal prosthesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2990.797,
+            3008.889
+          ],
+          "quote": "Having this next-generation packaging, some type of conformal coating that we can use to protect the implant that is not degraded by the body, is also not harmful to the body, and is resistant to all of the ways that the body will try and kill it, that material science is a very open-ended field.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3008.909,
+            3013.072
+          ],
+          "quote": "And if you're interested in material science, that is a thing that we need progress in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3200.998,
+            3205.24
+          ],
+          "quote": "Science, the company, very special is that it has both of those cultures and is able to integrate them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neuralink",
+      "type": "company",
+      "role": "company",
+      "name": "Neuralink",
+      "file": "Neuralink",
+      "primary": true,
+      "how_described": "本集说 Max Hodak 曾在此工作约五年,称与判断力极出色的 CEO 共事是最有价值的创业者教育。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 357,
+          "t": [
+            1754.844,
+            1756.946
+          ],
+          "quote": "What did you take away from your experience at Neuralink?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1764.622,
+            1768.944
+          ],
+          "quote": "My CEO at Neuralink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1791.602,
+            1799.129
+          ],
+          "quote": "And so I think one of the most valuable things for me at Neuralink was I was working with someone who has empirically excellent judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3050.278,
+            3055.904
+          ],
+          "quote": "So when we started the company, I came from Neuralink, four of my five co-founders came from Neuralink.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集举其抗 AI 招聘作业为例:GPU kernel 优化任务,一段时间以超过 Sonnet 的性能作为拿面试的门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            279.702,
+            283.325
+          ],
+          "quote": "And then, you know, and if they were Anthropic, they're not gonna be hassled over a $3,000 purchase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            853.663,
+            871.272
+          ],
+          "quote": "Anthropic had a really interesting take on the AI-resistant homework where they've had a couple tasks where there's like, it's like the GPU kernel optimization, like what is the minimum number of cycles you can get it down to, and this is naturally adjusting, like the hurdle for a while was, I think it was Sonnet's performance, and if you could beat that, then you could get an interview.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "helix",
+      "type": "concept",
+      "role": "concept",
+      "name": "Helix",
+      "file": "Helix",
+      "primary": true,
+      "how_described": "本集说这是 Science 自建的内部软件,公司里几乎每件事都是它的一个按钮,实验室每一步进数据库,从而算出成本与 runway,并把上下文交给智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            469.667,
+            472.349
+          ],
+          "quote": "We call it Helix, including stuff like purchasing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1015.056,
+            1018.257
+          ],
+          "quote": "People around the company get pinged with a question through the software, through Helix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2130.522,
+            2133.202
+          ],
+          "quote": "So for us in Helix, really everything goes in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础设施 (infrastructure)",
+      "file": "基础设施",
+      "primary": true,
+      "how_described": "本集核心主张:速度决定成败,速度由基础设施(采购、招聘、支出、绩效流程)决定,这是公司的操作系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            12.634,
+            16.158
+          ],
+          "quote": "We're going to talk a little bit about infrastructure at startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            112.677,
+            115.119
+          ],
+          "quote": "We're going to talk about infrastructure and lessons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            370.056,
+            374.857
+          ],
+          "quote": "It is mostly not that we are smarter, it is infrastructure like this, that is the, like how speed is built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            534.935,
+            538.538
+          ],
+          "quote": "This is a thing that actually, this infrastructure actually determines success or failure in many companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1169.09,
+            1172.592
+          ],
+          "quote": "So speed determines success and failure and speed is determined by infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1198.223,
+            1210.39
+          ],
+          "quote": "They fail because once you end up with this organization of hundreds of people and hundreds of thousands of square feet of physical infrastructure, you haven't built the systems to manage that and it becomes unwieldy, and then you can't make, like, you can't connect strategy to execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1452.462,
+            1456.045
+          ],
+          "quote": "So speed is determined by infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2262.84,
+            2265.782
+          ],
+          "quote": "Why build your own infrastructure platforms rather than just buying them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2775.823,
+            2788.658
+          ],
+          "quote": "I mean, I think if other than speed being the basis of success and infrastructure determines your speed, it is important to appreciate that there are no general principles.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "iteration",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代速度 (iteration)",
+      "file": "迭代速度",
+      "primary": true,
+      "how_described": "本集说迭代速度区分成功与失败:每周学一件事的公司对每月学一件的竞争对手构成永久压制,复利效应惊人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            482.709,
+            490.536
+          ],
+          "quote": "And these like, again, so it turns out that for every iteration of a wafer that we make, in this case, for this protocol, it costs $40,000.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1073.872,
+            1081.656
+          ],
+          "quote": "For example, we apply Dropout where we'll run a thousand iterations where we'll randomly remove some percentage of the edges each iteration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1127.813,
+            1131.197
+          ],
+          "quote": "Is that rate of iteration separates success from failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1131.978,
+            1137.064
+          ],
+          "quote": "And if you can get a fast iteration loop, that really overcomes many other things you're going to run into.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1147.917,
+            1167.046
+          ],
+          "quote": "Overwhelmingly, if you're looking at two different approaches to solve a problem, if there's one that allows you to compound in a much shorter amount of time than the other, even if the other approach has significant redeeming characteristics, you should really consider going with the shorter iteration cycle because the compounding effect is just so dramatic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1212.751,
+            1220.256
+          ],
+          "quote": "So we heavily lean towards things that have shorter iteration cycles, kind of, et cetera, like all else equal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eigenreviews",
+      "type": "concept",
+      "role": "concept",
+      "name": "eigenreviews",
+      "file": "eigenreviews",
+      "primary": true,
+      "how_described": "本集说这是嘉宾用了六七年的绩效评估法:每 4-6 周问『还会为他的录用再投票吗』,用 PageRank 式特征向量中心性加权,并以 Dropout 检测投票小圈子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1063.858,
+            1065.44
+          ],
+          "quote": "And so we call this technique eigenreviews.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bci",
+      "type": "concept",
+      "role": "concept",
+      "name": "BCI",
+      "file": "BCI",
+      "primary": true,
+      "how_described": "本集说嘉宾一生大部分时间在做 BCI;近期它更像『长寿故事』而非 AI 故事,剩余最大难题是低功耗电子与封装。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1888.15,
+            1898.612
+          ],
+          "quote": "If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1915.782,
+            1925.949
+          ],
+          "quote": "Now, if we had a magical BCI that allowed me to see the instant state of every neuron in the brain and drive them, I think we'd figure out consciousness pretty fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1937.787,
+            1941.59
+          ],
+          "quote": "I think that it is possible that you could use a BCI to prove it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2406.081,
+            2411.505
+          ],
+          "quote": "So there's this meme that BCI is an artificial intelligence adjacent story, and there's some of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2411.525,
+            2421.493
+          ],
+          "quote": "Like eventually, like if AI is building super intelligent machines and BCI labs are building conscious machines and we're building brain-to-brain connections so that the boundaries between those things become less meaningful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2428.014,
+            2431.235
+          ],
+          "quote": "I think in the near term, BCI is really a longevity story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2446.457,
+            2451.238
+          ],
+          "quote": "And in neural engineering, the people here, BCI, I think they think of",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是团队的乘数而非替代品,是未来很大的一部分;智能体的出现让 vibe coding 自建内部软件变得合理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 429,
+          "t": [
+            2116.999,
+            2130.182
+          ],
+          "quote": "I do think that you need to think about how to have your company be AI native in the sense that every, like you want to gather all of the context, all of the stuff happening in your company and be able to make that available efficiently to agents because those are clearly a big part of the future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2136.043,
+            2147.368
+          ],
+          "quote": "Not just is it powerful to have everything in one database to link together, purchasing to quality to batch records and manufacturing so that we can trace stuff more efficiently, but also so that we could give it all to agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2323.733,
+            2325.094
+          ],
+          "quote": "And this is a thing that has changed with agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "attribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "成本归因 (attribution)",
+      "file": "成本归因",
+      "primary": true,
+      "how_described": "本集说批量采购物资分摊不清,没人知道一次实验多少钱,『实验就是免费的』;必须归因到实验级才能定价和算 runway。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            385.561,
+            386.622
+          ],
+          "quote": "The problem is attribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            412.063,
+            415.965
+          ],
+          "quote": "Now, when you do this, attribution is pretty difficult.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "action-produces-information",
+      "type": "concept",
+      "role": "concept",
+      "name": "行动产生信息 (action produces information)",
+      "file": "行动产生信息",
+      "primary": true,
+      "how_described": "本集说这句话比听起来深刻:陷入僵局时必须投射行动、产生熵,行动空间总比看起来大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1352.02,
+            1355.582
+          ],
+          "quote": "This is sometimes phrased as action produces information.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "type": "concept",
+      "role": "concept",
+      "name": "招聘 (hiring)",
+      "file": "招聘",
+      "primary": true,
+      "how_described": "本集讲 Science 四步招聘流程:全公司投票、电话初筛(判断力/能力/能动性)、抗 AI 作业、面试到 offer 转化至少 25%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            540.955,
+            542.721
+          ],
+          "quote": "Another universal experience is hiring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            546.352,
+            549.374
+          ],
+          "quote": "Hiring also, I think, really separates the successes from the failures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            572.129,
+            573.869
+          ],
+          "quote": "So the best hiring comes from within your network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            732.373,
+            737.794
+          ],
+          "quote": "I think there's different people that are better or worse at hiring and have different perspectives on what you're looking for at that stage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            915.52,
+            922.025
+          ],
+          "quote": "So you're hiring people, they're coming into work, they're starting, they're incurring payroll, but how do you know that you're good at this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            922.045,
+            927.349
+          ],
+          "quote": "Like eventually you'll get feedback from the market on how good you are at hiring because the company will work or it won't.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

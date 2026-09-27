@@ -1,0 +1,118 @@
+{
+  "title_zh": "token 不是越省越好:用「可信吞吐量」优化 AI 开发的真 ROI",
+  "tldr": "Ironclad 工程 VP Mingxin 分享团队度过 AI 采纳期后如何度量与优化 token 支出：提出「可信吞吐量」框架，并拆解代码审查与 CI 的新瓶颈。",
+  "digest_md": "一提到控制 AI token 开销,大多数人的直觉是砍预算。但 Ironclad 负责人工智能的工程副总裁 Mingxin 在这场演讲里给出的答案正相反:目标不是省钱,而是提高花出去的每一分钱换来的回报——公司刚跨过全员采纳 AI 那道坎,她在过去几个季度里摸索出了一套度量与优化的做法。\n\n一个反直觉的提醒:用量面板别做成排行榜。媒体上流传着各种耸人听闻的故事——亚马逊有员工自发做了个 token 用量面板,结果工程师们开始互相攀比谁用得多,争着登上排行榜榜首;还有公司一个月内在 Claude 上花了 5 亿美元。Mingxin 从中吸取的教训是,追踪每个团队、每个人的 token 用量确实重要,但它的定位应该是「烟雾报警器」——如果某个团队或个人几乎不怎么用 AI,那才是值得调查的异常信号;反过来,绝不能制造出「多用 token = 更好」的间接激励。她类比了代码行数(LOC)这个传统生产力指标:它值得追踪,但如果拿它当优化目标,就没法激励高质量的工程工作——毕竟删代码有时比写代码更有价值。token 用量同理。\n\n先说采纳还没到位的团队。在谈省钱之前,如果团队还处在推动大家用 AI 的阶段,功夫应该花在别处:自上而下的推动之后,要坐下来跟抵触或挣扎的个人聊,理解他们的出发点。比如有工程师说,自己过去以手工打磨代码为荣为乐,现在乐趣被「审查 AI 生成的代码」取代了——这不是矫情,而是要帮他们找到 AI 时代里仍然高影响力、能继续成长的技术工作。\n\n核心概念是「可信吞吐量」(trusted throughput):不是花了多少 token,而是产出了多少**被信任的高质量成果**——代码经过内部审查验证、最终在客户部署中得到检验的产出。怎么度量?Mingxin 团队的指标演进了一路:代码行数不行;于是数开放的 PR 数量——AI 让 PR 暴涨,拐点明显;但 PR 不落地没意义,改成数已合并的 PR;可合并的 PR 也不等价——10 行代码修掉一个并发 bug,和 1000 行样板代码,价值天差地别;于是他们又给每个合并的 PR 打复杂度标签,做法很务实:把 PR 喂给一两个 LLM,用精心设计的提示词让它按「T 恤尺码」(S/M/L 这类粗粒度档位)打分,用 AI 生成更复杂的 PR 就算更高价值。她坦承这套指标仍在迭代,乐见同行一起探讨如何更好地近似 AI 创造的价值。定性的一面,可信吞吐量来自三个桶:客观指标(测试覆盖率、安全检查、金丝雀发布)、主观人类判断(代码审查、设计审查看质量和架构契合度),以及最终客户的真实感知——有没有导致回滚的生产事故、有没有关于易用性和 bug 的投诉。\n\nAI 带来的新瓶颈在哪?代码生成变得充裕后,压力整体下移到了两处:代码审查,和 CI/CD(持续集成/持续部署,即代码合并前自动跑测试和构建的环节)。先说一个要警惕的反模式:CI 过载时,工程师的变通办法是干脆不拆 PR、提交超大 PR——因为跑一轮回归测试要一小时,拆成 10 个 PR 就要十小时。但这风险很大:大 PR 让人工审查开销更高、注意力摊薄、审查质量下降。代码审查的正确原则,是把 AI 工具引入为第一道防线:代码风格问题、测试覆盖缺失这类简单事项全让 AI 先把一遍,作者通过了这些检查,审查才流转到人类——人只把深度判断花在主观性的问题上(架构是否合理、安全设计是否过关),最终责任仍由工程团队承担。\n\nCI 侧的压力更隐蔽:代码生成变容易、PR 拆得又小又多之后,CI 负载大增。不解决的话,工程师就得浪费时间「照看」PR 等合并——碰到不稳定的测试(flaky test,同一代码时而过时而不飘忽不定的测试)还得手动点重跑,士气很低;用智能体代劳循环重试,又反过来烧 token。Ironclad 的做法是把这当成平台工程/开发者体验的正经投资:消除 flaky 测试、改进 CI 基础设施,并且度量对的指标——比如 PR 从准备好提交到实际提交之间隔了多久(典型 CI 跑一小时、提交却要两三小时就是危险信号),以及一个 PR 要重试几次才能过测试。\n\n把上面的分析收拢成一个务实框架,优化 token ROI 有三块:第一,护栏——设定预算和配额、跟踪用量、定义异常以便及时告警,并配合定期人工审查;第二,持续寻找并创新用 AI 的最佳实践,比如让工程师写智能体循环:生成初始 PR 后自动跑测试、失败就自动修代码或测试再重试——但**一定要给循环步数设上限**,失控时不会烧掉太多 token;又如提示词缓存(厂商对相同前缀的提示词做优化处理),所以要引导用户把固定不变的系统提示词放顶部、变化内容放底部;再如上下文修剪——长会话里要养成对上下文做摘要的「肌肉记忆」,好在 Claude Code 这类工具已能自动压缩上下文,既省 token 又提升输出质量;第三,学习循环——领导层和个人一起定护栏、看指标、再改进,把经验沉淀进组织知识库。至于自建还是购买,原则简单:非差异化的东西(IDE、CI 基础设施)买;与自身情境强相关的自建——他们维护一套内部 playbook,即针对不同任务(小 bug 修复、新 UI 功能、重构)打磨好的提示词集,团队内共享复用。边界案例仍在摸索,比如他们正在做一个叫 Builder Agent 的东西——基于云的代码生成服务,封装 Claude Code、Codex 等工具,同时外部厂商也在考察中。\n\n## 本集带走\n- **用量面板是烟雾报警器,不是排行榜**:盯「谁几乎不用 AI」这个异常信号,绝不奖励 token 用量最大化。\n- **度量价值要演进指标**:从开放的 PR 数,到已合并 PR 数,再到给每个合并 PR 按 LLM 打的复杂度加权——近似衡量 AI 产出的真实价值。\n- **可信吞吐量 = 三桶之和**:客观指标(测试覆盖/安全检查/金丝雀)+ 主观审查(质量/架构)+ 客户真实反馈(事故回滚/投诉工单)。\n- **AI 审查当前置防线**:风格、测试覆盖这类简单项让 AI 先过,人只做架构、安全等深度判断,最终责任留在人身上。\n- **别用超大 PR 绕过 CI 过载**:它会摊薄审查注意力、拉低质量;正解是投资平台工程,消除 flaky 测试,并度量「提交等待时长」和「重试次数」。\n- **给智能体循环设步数上限**:自动修测试重试很省人力,但失控时不封顶就是烧钱。\n- **提示词固定部分放顶部、长会话勤做摘要**:配合提示词缓存与上下文自动压缩,省 token 的同时也提升输出质量。\n- **买非差异化的,自建差异化的**:内部把好提示词沉淀成 playbook 共享复用,这是必须自建的部分。",
+  "quotes": [
+    {
+      "en": "We think of the usage dashboard more as a smoke detector.",
+      "zh": "我们更多地把使用量面板看作一个烟雾报警器。",
+      "timestamp": "01:54",
+      "speaker": "Mingsheng Hong"
+    },
+    {
+      "en": "Productive and high-quality edge work, one can argue that removing code is even better.",
+      "zh": "有生产力的、高质量的工程工作,可以说删除代码甚至更好。",
+      "timestamp": "10:06",
+      "speaker": "Mingsheng Hong"
+    },
+    {
+      "en": "There can be a PR with only 10 lines of code that takes forever that finds and fix a concurrency bug.",
+      "zh": "有可能存在一个只有 10 行代码的 PR,却花了很长时间,找出并修复了一个并发 bug。",
+      "timestamp": "11:29",
+      "speaker": "Mingsheng Hong"
+    },
+    {
+      "en": "We believe that this is the golden era of AI, where maximizing token ROI is the key for every team's success.",
+      "zh": "我们相信这是 AI 的黄金时代,最大化 token 投资回报率是每个团队成功的关键。",
+      "timestamp": "22:25",
+      "speaker": "Mingsheng Hong"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:50",
+      "speaker": "Unknown",
+      "en": "But that should not be positioned as a leaderboard.",
+      "zh": "但它不应该被定位成一个排行榜。"
+    },
+    {
+      "timestamp": "01:54",
+      "speaker": "Unknown",
+      "en": "We think of the usage dashboard more as a smoke detector.",
+      "zh": "我们更多地把使用量面板看作一个烟雾报警器。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Unknown",
+      "en": "So here we kind of use the word it's not about austerity.",
+      "zh": "所以在这里我们可以说,这不是关于紧缩。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Unknown",
+      "en": "It's about further improving the ROI of the token spend.",
+      "zh": "而是关于进一步提高 token 支出的 ROI。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Unknown",
+      "en": "We think that is premature.",
+      "zh": "我们认为那样做为时过早。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Unknown",
+      "en": "How much value are we getting from burning the tokens?",
+      "zh": "我们从燃烧这些 token 中获得了多少价值?"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Unknown",
+      "en": "Productive and high-quality edge work, one can argue that removing code is even better.",
+      "zh": "有生产力的、高质量的工程工作,可以说删除代码甚至更好。"
+    },
+    {
+      "timestamp": "11:29",
+      "speaker": "Unknown",
+      "en": "There can be a PR with only 10 lines of code that takes forever that finds and fix a concurrency bug.",
+      "zh": "有可能存在一个只有 10 行代码的 PR,却花了很长时间,找出并修复了一个并发 bug。"
+    },
+    {
+      "timestamp": "14:51",
+      "speaker": "Unknown",
+      "en": "Because if it takes an hour to run all of your regression tests and submit it, I don't want to break my PR into 10, which might take 10 hours.",
+      "zh": "因为如果运行你所有的回归测试并提交需要一个小时,我不想把我的 PR 拆成 10 个,那样可能要花 10 个小时。"
+    },
+    {
+      "timestamp": "15:20",
+      "speaker": "Unknown",
+      "en": "The key principle we use is to make sure we onboard AI tooling as the first level of defense.",
+      "zh": "我们使用的关键原则是确保我们把 AI 工具作为第一道防线引入。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Unknown",
+      "en": "They don't replace human reviewers, but we want to offload human reviewers as much as possible.",
+      "zh": "它们不取代人类审查者,但我们想尽可能地减轻人类审查者的负担。"
+    },
+    {
+      "timestamp": "19:25",
+      "speaker": "Unknown",
+      "en": "One thing to watch out for is to put a limit on the number of loop steps to make sure if things go out of control, we don't waste too many tokens on that.",
+      "zh": "需要注意的一点是要对循环步数设置上限,以确保如果事情失控,我们不会在上面浪费太多 token。"
+    },
+    {
+      "timestamp": "20:13",
+      "speaker": "Unknown",
+      "en": "We want to kind of drill it into each individual user's kind of new kind of muscle memory so they are aware that as they build out the context through a longer chat session, they would be mindful of summarizing the context and make sure that the token usage is efficient that way.",
+      "zh": "我们想把它刻进每个用户的肌肉记忆里,让他们意识到,当他们在较长的聊天会话中构建上下文时,他们要记得对上下文做摘要,以确保 token 用量在这方面是高效的。"
+    },
+    {
+      "timestamp": "22:25",
+      "speaker": "Unknown",
+      "en": "We believe that this is the golden era of AI, where maximizing token ROI is the key for every team's success.",
+      "zh": "我们相信这是 AI 的黄金时代,最大化 token 投资回报率是每个团队成功的关键。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的,是一个很多团队都在头疼的问题:公司全员都用上 AI 写代码之后,token 账单蹭蹭往上涨,这钱到底该怎么管?讲这件事的人,是 Ironclad 负责人工智能的工程副总裁 Mingxin。她的团队刚跨过全员采纳 AI 那道坎,过去几个季度里,她在一线摸索出了一套度量和优化 token 支出的做法。而她给出的核心答案,可能跟你的直觉正好相反:目标不是省钱,而是提高花出去的每一分钱换来的回报。\n\n这个反直觉在哪呢?一提控制 AI 开销,大多数人的第一反应是砍预算、设上限。但 Mingxin 说,你得先想清楚,你到底在优化什么。为此她提出了一个核心概念,叫「可信吞吐量」。注意,不是看你花了多少 token,而是看产出了多少被信任的高质量成果——代码经过内部审查验证、最终在客户部署中得到检验的产出。说白了,钱花得值不值,不看花多少,看换回来多少真东西。\n\n不过在展开这套框架之前,有个特别实际、也特别容易踩坑的提醒:用量面板别做成排行榜。媒体上流传过一些耸人听闻的故事——亚马逊有员工自发做了个 token 用量面板,结果工程师们开始互相攀比谁用得多,争着登上排行榜榜首;还有公司一个月内在 Claude 上花了 5 亿美元。从这些事里吸取的教训是:追踪每个团队、每个人的 token 用量确实重要,但它的定位应该是烟雾报警器。这话怎么理解?就是盯住异常信号——如果某个团队或个人几乎不怎么用 AI,那才值得去调查。反过来,绝不能制造出「多用 token 就更好」这种间接激励。这里可以类比一个老指标:代码行数。代码行数值得追踪,但你要是拿它当优化目标,就没法激励高质量的工程工作——毕竟删除代码有时候比写代码更有价值。token 用量,是一模一样的道理。\n\n那说到用量,还有一个前置问题:如果团队连采纳都还没到位呢?在谈省钱之前,如果大家还处在被推着用 AI 的阶段,功夫应该花在别处。自上而下推动之后,要坐下来跟那些抵触或者挣扎的个人聊,理解他们的出发点。比如有工程师说,自己过去以手工打磨代码为荣为乐,现在这份乐趣被「审查 AI 生成的代码」取代了。这不是矫情,要做的是帮他们找到 AI 时代里仍然高影响力、能继续成长的技术工作。\n\n好,回到主线。既然要看「可信吞吐量」,那怎么度量呢?这里的答案很有意思:指标是演进出来的,不是一步到位的。一开始数代码行数,不行;于是改成数开放的 PR 数量——AI 让 PR 暴涨,拐点非常明显;但 PR 不落地没意义,又改成数已合并的 PR;可合并的 PR 也不等价——你想,一个 10 行代码修掉并发 bug 的 PR,和 1000 行样板代码,价值天差地别。于是他们又给每个合并的 PR 打复杂度标签。做法很务实:把 PR 喂给一两个大模型,用精心设计的提示词,让它按「T 恤尺码」——就是 S、M、L 这类粗粒度档位——来打分,用 AI 生成更复杂的 PR,就算更高价值。这套指标自己也承认仍在迭代,乐见同行一起探讨怎么更好地近似 AI 创造的价值。除了这些定量指标,可信吞吐量还有定性的一面,来自三个桶:一是客观指标,比如测试覆盖率、安全检查、金丝雀发布;二是主观的人类判断,代码审查、设计审查看质量和架构契合度;三是最终客户的真实感知——有没有导致回滚的生产事故,有没有关于易用性和 bug 的投诉。\n\n那把度量建立起来之后,下一步就是找瓶颈了。AI 带来的新瓶颈在哪?代码生成变得充裕之后,压力整体下移到了两处:代码审查,和 CI/CD——也就是代码合并前自动跑测试和构建的那个环节。\n\n先说代码审查。这里有个要警惕的反模式:CI 过载的时候,工程师的变通办法是干脆不拆 PR,提交超大 PR。为什么?因为跑一轮回归测试要一小时,拆成 10 个 PR 就要十个小时,谁受得了。但这么做风险很大:大 PR 让人工审查开销更高、注意力摊薄、审查质量下降。正确的原则,是把 AI 工具引入为第一道防线——代码风格问题、测试覆盖缺失这类简单事项,全让 AI 先过一遍;作者通过了这些检查,审查才流转到人类。人只把深度判断花在主观性的问题上,比如架构是否合理、安全设计是否过关。但要注意,最终责任仍然由工程团队承担,AI 替不了这个。\n\nCI 那边的压力更隐蔽。代码生成变容易、PR 拆得又小又多之后,CI 负载大增。不解决的话,工程师就得浪费时间「照看」PR 等合并——碰到 flaky 测试,也就是那种同一份代码时而过时而不、飘忽不定的测试,还得手动点重跑,士气很低。让智能体代劳循环重试?那又反过来烧 token。Ironclad 的做法,是把这当成平台工程和开发者体验的正经投资:消除 flaky 测试、改进 CI 基础设施,并且度量对的指标——比如 PR 从准备好提交到实际提交之间隔了多久,典型 CI 跑一小时、提交却要两三小时,这就是危险信号;还有,一个 PR 要重试几次才能过测试。\n\n最后,把上面的分析收拢成一个务实的框架,优化 token 回报率有三块。第一块,护栏:设定预算和配额、跟踪用量、定义异常以便及时告警,再配合定期的人工审查。第二块,持续寻找并创新用 AI 的最佳实践。比如让工程师写智能体循环:生成初始 PR 之后自动跑测试,失败就自动修代码或修测试再重试——但一定要给循环步数设上限,不然失控的时候就是烧钱。又如提示词缓存,厂商会对相同前缀的提示词做优化处理,所以要引导用户把固定不变的系统提示词放顶部、变化的内容放底部。再比如上下文修剪:长会话里要养成对上下文做摘要的肌肉记忆。好在 Claude Code 这类工具已经能自动压缩上下文,既省 token,又提升输出质量。第三块,学习循环:领导层和个人一起定护栏、看指标、再改进,把经验沉淀进组织知识库。\n\n至于这些工具是自建还是购买,原则倒很简单:非差异化的东西,像 IDE、CI 基础设施,买;跟自身情境强相关的,自建。Ironclad 就维护了一套内部 playbook,针对不同任务——小 bug 修复、新 UI 功能、重构——打磨好的提示词集,团队内共享复用。当然边界案例还在摸索,比如正在做一个叫 Builder Agent 的东西,基于云的代码生成服务,封装 Claude Code、Codex 这些工具,同时外部厂商也在考察中。\n\n这一集听下来,最有价值的一句话其实就藏在开头:我们的目标是可信吞吐量,不是账单数字。用量面板是烟雾报警器,不是排行榜;度量价值要从开放的 PR,一路演进到按复杂度加权。正如 Mingxin 所说,这是 AI 的黄金时代,最大化 token 投资回报率,是每个团队成功的关键。"
+}

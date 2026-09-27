@@ -1,0 +1,827 @@
+{
+  "episode_id": "2026-08-29-talks-from-tokenmaxxing-to-trusted-throughput",
+  "podcast": "精选演讲",
+  "date": "2026-08-29",
+  "tags": [
+    "AI 编程",
+    "token ROI",
+    "工程管理",
+    "开发者体验",
+    "平台工程"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "mingsheng-hong",
+      "type": "person",
+      "role": "guest",
+      "name": "Mingsheng Hong",
+      "file": "Mingsheng Hong",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ironclad",
+      "type": "company",
+      "role": "company",
+      "name": "Ironclad",
+      "file": "Ironclad",
+      "primary": true,
+      "how_described": "嘉宾所在公司:一家法律合同 AI 公司,为律师、采购等业务用户构建 AI 功能与原生 AI 产品,建立信任是其 AI 产品第一要务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.597,
+            23.078
+          ],
+          "quote": "I'm Mingxin, VP of Engineering focused on AI at Ironclad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            268.535,
+            273.04
+          ],
+          "quote": "So I wanted to share with you a bit more about what we at Ironclad does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            280.569,
+            283.852
+          ],
+          "quote": "So Ironclad is a legal contracting AI companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            314.508,
+            316.951
+          ],
+          "quote": "In our ironclad product domain, it often means",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trusted-throughput",
+      "type": "concept",
+      "role": "concept",
+      "name": "可信吞吐量 (trusted throughput)",
+      "file": "可信吞吐量",
+      "primary": true,
+      "how_described": "本集核心概念:衡量 AI 支出回报的代理指标——不是花了多少 token,而是产出多少经内部审查验证、并最终在客户部署中得到检验的高质量成果;由客观指标、主观人类判断、客户真实感知三个桶构成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            199.626,
+            211.736
+          ],
+          "quote": "So let's talk about then how we can control and how we can optimize what we call the trusted throughput as a kind of a proxy metric as a way to measure your ROI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            390.916,
+            395.077
+          ],
+          "quote": "Here we propose a concept we call trusted throughput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            396.023,
+            406.681
+          ],
+          "quote": "So the trusted throughput comes from having the code reviewed and validated internally and ultimately validated in customer deployments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            622.398,
+            626.281
+          ],
+          "quote": "So that gets us to the notion of trusted throughput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            756.698,
+            767.141
+          ],
+          "quote": "What we think about the way we would define trusted throughput is a high-quality output that's entrusted by both internal engineering and leadership and external customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            821.703,
+            827.145
+          ],
+          "quote": "So these are the three buckets that together form what we think is trusted throughput from engineering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 用量 (token)",
+      "file": "token 用量",
+      "primary": true,
+      "how_described": "本集主线:目标不是省 token,而是提高 token 支出的 ROI;用量面板应做烟雾报警器而非排行榜,不要制造「多用 = 更好」的间接激励。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.799,
+            33.842
+          ],
+          "quote": "And today, I'll be telling you about something that's probably on top of many of your mind, how to control and optimize for your AI token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            50.867,
+            60.315
+          ],
+          "quote": "There's an interesting Amazon story where an employee just created kind of a voluntary dashboard, and everyone starts tracking their own AI token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            60.916,
+            73.967
+          ],
+          "quote": "I'm not sure there's explicit encouragement from the leadership, but the effect is some of the engineers started competing with each other in maximizing their token usage and get to the top of the so-called leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            100.038,
+            110.263
+          ],
+          "quote": "So one initial learning I want to share is it is really important to have dashboards that track every team, every individual's token usage and cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            120.167,
+            127.471
+          ],
+          "quote": "If there are local pockets of teams or individuals that don't use much AI token, that might be a signal worth investigating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            128.131,
+            135.553
+          ],
+          "quote": "But beyond that, certainly, we don't want to create an indirect incentive to maximize the token usage itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            273.3,
+            279.547
+          ],
+          "quote": "And there's an interesting connection, actually, with how we think about optimizing for engineering AI token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            377.312,
+            380.933
+          ],
+          "quote": "Minimizing or not even actually to reduce token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            384.554,
+            387.775
+          ],
+          "quote": "It's about further improving the ROI of the token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            617.825,
+            619.748
+          ],
+          "quote": "Same thing for the token usage and spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            1009.06,
+            1015.185
+          ],
+          "quote": "Or they can recruit an AI agent to babysit and kind of do a loop, but that in turn with AI token as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1078.603,
+            1089.631
+          ],
+          "quote": "So with all of the analysis and ideas, here we want to share kind of a pragmatic framework of how we can then measure and optimize token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1213.887,
+            1229.09
+          ],
+          "quote": "We want to kind of drill it into each individual user's kind of new kind of muscle memory so they are aware that as they build out the context through a longer chat session, they would be mindful of summarizing the context and make sure that the token usage is efficient that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1235.012,
+            1239.773
+          ],
+          "quote": "And so this increases the token usage efficiency but also increases the quality of AI output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1345.613,
+            1353.356
+          ],
+          "quote": "We believe that this is the golden era of AI, where maximizing token ROI is the key for every team's success.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集指出 AI 让代码生成充裕后,压力下移到审查环节;正确做法是把 AI 工具作为第一道防线处理风格、测试覆盖等简单项,人只做架构、安全等深度判断并承担最终责任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            492.85,
+            507.085
+          ],
+          "quote": "In the next couple slides, I'm going to introduce two new bottlenecks we identified in this whole new software development lifecycle where code generation now becomes abundant thanks to AI, but the pressure is now getting pushed down to code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            793.458,
+            801.205
+          ],
+          "quote": "So that's where the code review, the design review come in to look at the code quality, clarity, maintenance, architecture fit, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            917.773,
+            919.435
+          ],
+          "quote": "So for code review,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1324.776,
+            1332.539
+          ],
+          "quote": "As you are encouraging more code gen, think about how that impacts your code review and CI and how you can address these new bottlenecks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集说 PR 变得又小又多后 CI 负载大增,是新的隐蔽瓶颈;要把它当成平台工程/开发者体验投资来消除 flaky 测试、改进 CI 基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            507.625,
+            510.848
+          ],
+          "quote": "And Continuous Integration, CI, CD, merging the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            862.893,
+            871.345
+          ],
+          "quote": "So this is where we spend time on figuring out how we can further improve the review process as well as the continuous integration, the CI process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            875.451,
+            891.295
+          ],
+          "quote": "Here, I just want to say a potential anti-pattern, anti-solution is that, hey, if the CI infrastructure gets overloaded, then a workaround by engineers to stop splitting PR, to stop submitting large PR for review and submission.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            971.582,
+            972.884
+          ],
+          "quote": "Now, let's look at CI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            973.444,
+            977.809
+          ],
+          "quote": "So I assume all of you deployed some form of CI, CI CD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            978.39,
+            990.124
+          ],
+          "quote": "And what we're seeing is, thanks to AI, now making it much easier to generate code and splitting code into smaller but more PRs, it puts a lot more pressure on the CI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1031.393,
+            1039.439
+          ],
+          "quote": "platform engineering to investing, to reducing, removing the flaky test, improving the CI infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1257.04,
+            1262.343
+          ],
+          "quote": "For things that are non-differentiating, like IDE, CI infrastructure, we want to buy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1324.776,
+            1332.539
+          ],
+          "quote": "As you are encouraging more code gen, think about how that impacts your code review and CI and how you can address these new bottlenecks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1332.959,
+            1342.322
+          ],
+          "quote": "And finally, continue to define and instrument your system to get the right metrics to measure the health of your CI system and the whole developer experience in general.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flaky-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "不稳定的测试 (flaky test)",
+      "file": "不稳定的测试",
+      "primary": true,
+      "how_described": "本集说 flaky 测试让工程师手动点重跑、士气低落;Ironclad 通过平台工程投资来减少和消除它,并以 PR 重试次数作为度量指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            1031.393,
+            1039.439
+          ],
+          "quote": "platform engineering to investing, to reducing, removing the flaky test, improving the CI infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体循环 (agentic loop)",
+      "file": "智能体循环",
+      "primary": true,
+      "how_described": "本集介绍的最佳实践:生成初始 PR 后自动跑测试、失败自动修复再重试——但一定要给循环步数设上限,失控时才不会烧掉太多 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            1147.078,
+            1152.581
+          ],
+          "quote": "And some engineers may be writing an agentic loop as part of the harness when they use Claude code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集说厂商会对相同前缀的提示词做优化,所以应引导用户把固定的系统提示词放顶部、变化内容放底部以节省成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            1175.62,
+            1177.401
+          ],
+          "quote": "Another example is prompt caching.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-pruning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文修剪 (context pruning)",
+      "file": "上下文修剪",
+      "primary": true,
+      "how_described": "本集说长会话中要养成对上下文做摘要的肌肉记忆,Claude Code 等工具已能自动压缩上下文,既省 token 又提升输出质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            1212.327,
+            1213.807
+          ],
+          "quote": "Context pruning is also important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lines-of-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码行数 (lines of code)",
+      "file": "代码行数",
+      "primary": true,
+      "how_described": "本集用 LOC 作类比:它值得追踪,但不应作为直接优化目标——删代码有时比写代码更有价值;token 用量同理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            589.238,
+            595.503
+          ],
+          "quote": "There's an interesting analogy I want to draw with a traditional edge productivity metric called lines of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            689.297,
+            694.901
+          ],
+          "quote": "There can be a PR with only 10 lines of code that takes forever that finds and fix a concurrency bug.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集说指标从开放的 PR 数演进到已合并 PR 数,再按 LLM 打的 T 恤尺码复杂度加权;同时警告 CI 过载时不要用超大 PR 反模式绕过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            655.426,
+            657.367
+          ],
+          "quote": "So let's measure the open PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            657.567,
+            662.332
+          ],
+          "quote": "So clearly, we see a big inflection in the open PR count.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            676.657,
+            682.3
+          ],
+          "quote": "So therefore, we evolved from tracking the open PR count to tracking the merged PR count.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            685.081,
+            688.483
+          ],
+          "quote": "But the next question is, not every merged PR is equal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            689.297,
+            694.901
+          ],
+          "quote": "There can be a PR with only 10 lines of code that takes forever that finds and fix a concurrency bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            706.39,
+            712.475
+          ],
+          "quote": "So as such, we then started kind of tagging each merged PR with some sort of complexity score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            722.47,
+            728.853
+          ],
+          "quote": "And then we feed the PR into basically one or two LLM and say, score the complexity based on T-shirt size.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            729.573,
+            735.358
+          ],
+          "quote": "So the idea being, if you use AI to generate a more complex PR, we consider that as being more valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            735.778,
+            739.201
+          ],
+          "quote": "So basically, that's how we kind of add a weightage to each merged PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            840.929,
+            847.274
+          ],
+          "quote": "As I mentioned earlier, AI cogeneration is making PR creation abundant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            848.255,
+            856.841
+          ],
+          "quote": "So now the bottleneck from kind of the whole lifecycle perspective gets shifted onto the review, and they are subsequently merging the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            875.451,
+            891.295
+          ],
+          "quote": "Here, I just want to say a potential anti-pattern, anti-solution is that, hey, if the CI infrastructure gets overloaded, then a workaround by engineers to stop splitting PR, to stop submitting large PR for review and submission.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            891.815,
+            899.077
+          ],
+          "quote": "Because if it takes an hour to run all of your regression tests and submit it, I don't want to break my PR into 10, which might take 10 hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            991.145,
+            1003.115
+          ],
+          "quote": "And this is something that if we don't address at a company level, individual engineers can be struggling because that means they have to waste their human time babysitting the PR to get merged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1052.472,
+            1058.316
+          ],
+          "quote": "If a typical CR run takes an hour, does the typical PR submission take two or three hours?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1060.338,
+            1065.061
+          ],
+          "quote": "And also the number of times a PR needs to get retried for passing through the test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1153.201,
+            1158.604
+          ],
+          "quote": "After they generated initial PR, they go and loop around and say, try and pass the set of tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1262.823,
+            1277.913
+          ],
+          "quote": "But then for things that are specific to our context, like how we would generate high-quality PR for small bug fixes versus building a new UI feature for refactoring and so on, we have our internal playbook, which is a set of well-crafted AI prompts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到它是 Ironclad 工程师使用的编码工具之一,可自动管理和压缩上下文,也是 Builder Agent 封装的对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            428.515,
+            436.202
+          ],
+          "quote": "If you're using a single tool like Claude Code or Codex, then you tend to get very rich analytics from the vendor's dashboard already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1147.078,
+            1152.581
+          ],
+          "quote": "And some engineers may be writing an agentic loop as part of the harness when they use Claude code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1229.47,
+            1234.611
+          ],
+          "quote": "There are increasingly more tools like Claude Code that will automatically manage and then compact the context for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1285.479,
+            1299.651
+          ],
+          "quote": "When it comes to case-to-case, though, sometimes it's still a bit ambiguous, like we're trying to build what we call a Builder Agent that's like a cloud-based code generation that wraps the Claude Code, Codex, and so on, while we know there are also other vendors out there that we're still exploring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到它与 Claude Code 一样是厂商仪表板可提供用量分析的工具,也是 Builder Agent 封装的对象之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            428.515,
+            436.202
+          ],
+          "quote": "If you're using a single tool like Claude Code or Codex, then you tend to get very rich analytics from the vendor's dashboard already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1285.479,
+            1299.651
+          ],
+          "quote": "When it comes to case-to-case, though, sometimes it's still a bit ambiguous, like we're trying to build what we call a Builder Agent that's like a cloud-based code generation that wraps the Claude Code, Codex, and so on, while we know there are also other vendors out there that we're still exploring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "builder-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "Builder Agent",
+      "file": "Builder Agent",
+      "primary": false,
+      "how_described": "本集说 Ironclad 正在构建的基于云的代码生成服务,封装 Claude Code、Codex 等工具,属于自建还是购买的边界案例,仍在摸索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            1285.479,
+            1299.651
+          ],
+          "quote": "When it comes to case-to-case, though, sometimes it's still a bit ambiguous, like we're trying to build what we call a Builder Agent that's like a cloud-based code generation that wraps the Claude Code, Codex, and so on, while we know there are also other vendors out there that we're still exploring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

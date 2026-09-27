@@ -45,7 +45,7 @@ unlisted: true
 
 [[ChatGPT]] · [[OpenAI]] · [[Shopify]] · [[智能体]] · [[Amazon]] · [[Stripe]] · [[Lenny]] · [[护栏]] · [[Anthropic]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":77,"OpenAI":134,"Shopify":10,"智能体":336,"Amazon":16,"Stripe":37,"Lenny":67,"护栏":62,"Anthropic":145,"Google":47}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":78,"OpenAI":134,"Shopify":10,"智能体":337,"Amazon":16,"Stripe":37,"Lenny":67,"护栏":62,"Anthropic":146,"Google":47}</script>
 
 <script>
 (function(){

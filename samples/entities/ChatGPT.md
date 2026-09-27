@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>77</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>78</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -61,6 +61,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(03:21起):本集提到 ChatGPT 被用于测试疫苗是否导致自闭症的问题，且有人下飞机后第一时间打开 ChatGPT 报平安，说明用户对其有情感依赖
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(10:56起):本集说甚至老板都在玩 ChatGPT，所有人都经历了 ChatGPT 时刻从而理解了 AI 能做什么
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(01:36起):本集说如果 PM 回答还停留在'我用 ChatGPT 网页版聊天'，那就是 AI 工具理解的低成熟度；工程师在最高复杂度任务分解时会使用 ChatGPT 5.6
+- **[[2026-08-29-talks-which-ai-startups-actually-land-enterpri|《企业为什么只签下 5% 的 AI 演示：对冲基金买方的大实话》]]**(13:35起):本集用来说明时间线不对称：ChatGPT 才发布 43 个月，而很多公司仍在做五年前开始的 ERP 迁移。
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(30:39起):本集提到第一代 ChatGPT 在法律中不可用（模型不够好、不支持欧洲数据托管），他们早期的话术是'我们就像 ChatGPT 但在欧洲合规'。
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:19起):本集说 ChatGPT 拥有约十亿月活用户，界面提供 Chat、Work、Codex 等模式切换，北极星目标是最终合并成一个入口，用户不需要选模式
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(67:42起):本集在列举需要付费的私有 AI 模型时与 Anthropic、Claude、Gemini 并提
@@ -132,7 +133,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*77 集*
+*78 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -185,6 +186,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
+- [[2026-08-29-talks-which-ai-startups-actually-land-enterpri|《企业为什么只签下 5% 的 AI 演示：对冲基金买方的大实话》]] — 作为被讨论公司(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为概念(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
@@ -218,7 +220,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":336,"OpenAI":134,"Claude":68,"Anthropic":145,"Lenny":67,"Google":47,"Codex":57,"Cursor":69,"LLM":43,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":337,"OpenAI":134,"Claude":68,"Anthropic":146,"Lenny":67,"Google":47,"Codex":58,"Cursor":69,"LLM":43,"AGI":26}</script>
 
 <script>
 (function(){
