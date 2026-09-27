@@ -8,20 +8,25 @@ aliases: ["bot"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI Bot (bot)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI Bot">AI</div><div class="pi"><h1 class="pt">AI Bot (bot)</h1><div class="byl">概念 · 又名 bot</div><div class="nums">本站收录 <b>4</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI Bot">AI</div><div class="pi"><h1 class="pt">AI Bot (bot)</h1><div class="byl">概念 · 又名 bot</div><div class="nums">本站收录 <b>5</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t|《网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落》]]**(13:05起):本集指出 Cloudflare 数据显示约 50% 的互联网流量已是机器人，预测未来可能只有机器人在制造和消费内容，重塑了网络互动结构。
+- **[[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|《机器人流量已超人类：当 AI 智能体开始自己付钱》]]**(01:18起):本集说发往内容网站的流量中机器人已超过人类、其中 95% 来自 AI 智能体；AWS 的 WAF 能检测 650 多种机器人，识别其意图（训练抓取还是 RAG 搜索）并通过签名验证身份。
 - **[[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]]**(28:44起):游戏开发的小秘密:新玩家匹配到的对手很多是机器人,AI 之后聪明到难以分辨,还给只玩单人的玩家配机器人队友,引导他们进入社区
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(00:00起):本集反复使用 bot 一词并说「我们都在从 agents 转向 bots 了」：每个任务一个具名 bot，像有自己电脑的持久同事，可被提拔为幕僚长管理其他 bot。
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(11:08起):本集提到 Bot 在构建用三值表示的定制硬件架构,顺应 NVIDIA 各代浮点精度一路走低的趋势。
 
 ## ① 提到它的金句
 
-*3 条*
+*5 条*
 
 ![[2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t#^q4]]
+
+![[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize#^q1]]
+
+![[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize#^q2]]
 
 ![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q5]]
 
@@ -29,9 +34,10 @@ aliases: ["bot"]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t|《网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落》]] — 作为概念
+- [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|《机器人流量已超人类：当 AI 智能体开始自己付钱》]] — 作为概念
 - [[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]] — 作为概念
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为概念
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
@@ -40,9 +46,9 @@ aliases: ["bot"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Stripe]] · [[Salesforce]] · [[Ruby Thelot]] · [[Tyler Bryson]] · [[Roman Ugarte]] · [[Diana]] · [[Sophia Puccini]] · [[Forrest Li]] · [[Grok Bot]]
+[[智能体]] · [[Stripe]] · [[Anthropic]] · [[Salesforce]] · [[Ruby Thelot]] · [[Anil Nadiminti]] · [[Tyler Bryson]] · [[Roman Ugarte]] · [[Diana]] · [[Sophia Puccini]]
 
-<script type="application/json" class="pd-epn">{"智能体":339,"Stripe":38,"Salesforce":31,"Ruby Thelot":1,"Tyler Bryson":1,"Roman Ugarte":1,"Diana":1,"Sophia Puccini":1,"Forrest Li":1,"Grok Bot":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":342,"Stripe":39,"Anthropic":148,"Salesforce":31,"Ruby Thelot":1,"Anil Nadiminti":1,"Tyler Bryson":1,"Roman Ugarte":1,"Diana":1,"Sophia Puccini":1}</script>
 
 <script>
 (function(){

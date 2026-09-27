@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bloomberg]] · [[Salomon Brothers]] · [[Merrill Lynch]] · [[Bloomberg 终端]] · [[销售]] · [[小赌注]] · [[露面]] · [[付费墙]]
 
-<script type="application/json" class="pd-epn">{"Bloomberg":3,"Salomon Brothers":1,"Merrill Lynch":1,"Bloomberg 终端":1,"销售":1,"小赌注":1,"露面":1,"付费墙":2}</script>
+<script type="application/json" class="pd-epn">{"Bloomberg":3,"Salomon Brothers":1,"Merrill Lynch":1,"Bloomberg 终端":1,"销售":1,"小赌注":1,"露面":1,"付费墙":3}</script>
 
 <script>
 (function(){

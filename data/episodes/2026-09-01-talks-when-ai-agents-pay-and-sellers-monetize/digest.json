@@ -1,0 +1,160 @@
+{
+  "title_zh": "机器人流量已超人类：当 AI 智能体开始自己付钱",
+  "tldr": "AWS 高级解决方案架构师 Anil 讲解智能体电商：机器人流量已超人类，AWS 借 X402 协议让 AI 智能体自主付费买内容，卖家也能对 AI 流量收费。",
+  "digest_md": "这一集是 AWS 的一场技术演讲，主角是 AWS 的高级解决方案架构师 Anil,他讲的是「智能体电商」——让 AI 智能体（能自主完成多步骤任务的程序）在互联网上自己发现内容、自己付钱、自己拿到内容，全程不需要人插手。\n\n先看一个大背景：互联网上发往新闻门户这类网站的流量，机器人已经超过了人类，而且其中 95% 的机器人流量来自 AI 智能体 [01:08 Unknown]。AWS 预测，到 2027 年大约会有十亿个智能体在执行任务，60% 的企业已经在用智能体工作流 [02:06 Unknown]。\n\n## 问题：智能体撞上付费墙就卡死\n\n设想你在读一篇新闻，碰到付费墙，掏信用卡订阅就能解决。但智能体碰到付费墙就直接停滞，只能报错「我无法访问内容」，然后人类被迫介入，手动填信用卡或 API 密钥——这些手动摩擦正是自主智能体中断的地方 [02:21 Unknown]。\n\n内容的卖方也不爽：封掉所有机器人流量，就失去了 AI 驱动的发现、合作授权机会和 AI 回复中的引用曝光；放任机器人进来，数百万机器人会冲垮基础设施，还失去归因和 IP 本身。两条路都不理想 [02:54 Unknown]。\n\n买方和卖方的诉求汇成了一个共同点：需要一种标准化的协议，在边缘解决机器对机器的支付。买方想要智能体能自己付钱、不用人批准，还要护栏——没有企业敢让智能体拿着信用卡无节制地花钱；卖方想要从 AI 流量里赚到钱，且不想改动自己的源站基础设施 [05:05 Unknown]。归根结底，订阅模式将从「人在环中」变成「人在环上」甚至「人不在环中」，传统一刀切的订阅不再适用，未来是按次付费、按次执行 [05:52 Unknown]。\n\n## X402：一个被闲置了三十年的状态码派上用场\n\n这里有个关键障碍：传统支付根本撑不住这种场景。主流支付渠道有 0.25 美元的最低交易费，外加 2.5% 的抽成，而智能体的交易是一美分、甚至低于一美分的「微美分」级别——手续费相当于实际支付金额的 250 倍，这条路完全走不通 [06:23 Unknown]。\n\n解法藏在 HTTP 协议里。你熟悉的 200、404、301 都是状态码，而 402 这个码从协议诞生起就被预留给「需要付款」，却从未被使用。Coinbase 把它启用，做成了 X402 协议，专门处理机器对机器的交易 [07:02 Unknown]。流程是：客户端请求服务器，服务器返回 402「需要付款」，客户端选定支付方式、发送支付授权，服务器通过一个 facilitator（撮合验证与结算的中介服务）完成验证和交易，链上结算完成后，内容随响应返回 [07:29 Unknown]。\n\nX402 吸引人的地方在于：消费者侧零协议费，商家只付极微量的 gas 费（区块链上的手续费），等待时间为零，以互联网的速度进行。没有 API 密钥要设置、没有订阅——**支付本身就是获取内容的凭证** [08:01 Unknown]。协议于 2025 年 5 月推出，现已纳入 Linux 基金会旗下 OpenGovernance，背后有 Coinbase、AWS、Google、Stripe、Anthropic、Cloudflare、Circle 等一众公司支持 [08:35 Unknown]。\n\n## 买方：AWS AgentCore Payments，让智能体带着「限额钱包」出门\n\nAWS 在 Bedrock 套件下发布了 AgentCore Payments，与 Coinbase 和 Stripe 合作推出，让 AI 智能体用几行代码就能自主发现、授权、执行支付 [09:31 Unknown]。核心能力：\n\n- **钱包支持**：引入 Coinbase 和 Stripe 的钱包，用支付连接器编排；今天支持 X402，服务被设计为协议无关的，新协议出现就加支持。\n- **预算与护栏**：可创建支付会话，以编程方式设最大消费额和过期时间——比如设智能体 30 天内最多花 5 美元 [10:59 Unknown]。\n- **实时结算**与内置的可观测性（整个调用链路的完整追踪）。\n\n安全设计上最关键的一点：导入钱包的私钥存在由 KMS（AWS 的密钥管理服务）保护的安全令牌钱包里，**智能体本身拿不到私钥** [12:10 Unknown]。架构上把智能体基础设施和支付基础设施解耦——这很重要，因为智能体的技能可能被投毒、输入可能被恶意注入；支付走的是确定性路径，不碰智能体那个非确定性的推理循环 [12:44 Unknown]。带来的好处是：智能体的代码不用改，你可以自带模型和框架，支付在独立的支付层自行流转。通过 AgentCore Gateway（把内部 API「MCP 化」即包装成智能体可调用工具的服务），还能接入 Coinbase 的发现服务，那里有超过一万个可交易的端点 [12:27 Unknown]。\n\n## 卖方：WAF AI Traffic Monetization，在边缘把机器人变成收入\n\n卖方这边，AWS 在 Web 应用防火墙（WAF）下已有机器人检测，能识别 650 多种机器人，比如 Perplexity bot、GPD bot、Claude bot，还有 Google bots [14:44 Unknown]。不只是认出是谁，还能**识别意图**——这个机器人抓内容是为了训练模型，还是在为 RAG 搜索（检索增强生成，让 AI 查资料再回答）做响应，并通过签名验证机器人身份 [14:58 Unknown]。\n\n新发布的 WAF AI Traffic Monetization 让卖家基于这些信息直接变现。如果你用 CloudFront（AWS 的内容分发网络），加一层 WAF、点几下就能开始收费，源站零改动、SDK 零改动，发布者保留 100% 的收入，没有交易费或订阅费 [16:49 Unknown]。定价维度可以很细：\n\n- **按路径**：/blog、/research、API 端点可以定不同费率；\n- **按身份**：与 Anthropic 这类组织建立了关系的验证机器人，可以对它们采用与未验证机器人不同的定价 [17:24 Unknown]；\n- **按意图**：训练用的抓取收一个价，搜索引用收另一个价 [17:39 Unknown]。\n\n甚至人类可以免费、机器人收费，或各自不同——整个定价逻辑被重新构想了一遍。\n\n## 这套东西现在跑得怎么样\n\n目前智能体电商的真实用途：跑 LLM 推理、获取算力、网页抓取、研究智能体、智能体对智能体交易，MCP 服务也在被变现 [18:38 Unknown]。来自 Coinbase 智能体市场过去 12 个月的数据：超过 1.7 亿笔交易、共 5000 万美元交易量，在 Base 上的平均结算时间 200 毫秒，每笔交易成本约十分之一美分 [19:08 Unknown]。最后 Anil 把这些放进更大的图景：Bedrock AgentCore 生态——自带模型和框架、加记忆、接知识库、网页搜索、MCP 化内部 API，Runtime 里每个请求跑在隔离的微型虚拟机里 [19:56 Unknown]。\n\n## 本集带走\n\n- **机器人流量已过拐点**：发往内容网站的流量机器人已超人类，其中 95% 来自 AI 智能体；智能体撞付费墙会卡死，人类被迫手动付款，这是自主智能体的最大摩擦点。\n- **微交易的正确协议是 X402**：启用 HTTP 预留至今的 402「需要付款」状态码，消费者零协议费、结算约 200 毫秒、每笔成本约十分之一美分——传统支付 0.25 美元最低费在这类交易上是 250 倍溢价，根本不可行。\n- **买方的安全关键是解耦 + 藏私钥**：智能体运行在非确定性循环里，支付走独立的确定性路径；私钥托管在 KMS 保护的令牌钱包，智能体自己碰不到；用支付会话设限额和过期时间，防智能体失控花钱。\n- **卖方可以在边缘把 AI 流量变成收入**：WAF 能识别 650 多种机器人、验证身份、区分「训练抓取」还是「搜索引用」，按路径/身份/意图分别定价，源站零改动、收入 100% 归发布者。",
+  "quotes": [
+    {
+      "en": "We see that we're at an infliction point where the bot traffic is more than the human traffic, right?",
+      "zh": "我们正处于一个拐点：机器人流量已经超过了人类流量。",
+      "timestamp": "01:18",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "And 95% of that bot traffic is coming from AI agents.",
+      "zh": "而其中 95% 的机器人流量来自 AI 智能体。",
+      "timestamp": "01:27",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "So autonomous agents actually break at that point where the friction is now building up.",
+      "zh": "自主智能体实际上正是在摩擦不断累积的那个点上中断了。",
+      "timestamp": "02:42",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "So bottom line, the subscription model is going to change with humans in the loop to becoming humans on the loop or out of the loop.",
+      "zh": "归根结底，订阅模式将会发生改变，从人在环中变成人在环上，或人不在环中。",
+      "timestamp": "05:52",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "There is no API keys to set up, no subscriptions, and the payment is essentially the credential to be able to get the content.",
+      "zh": "没有需要设置的 API 密钥，没有订阅，支付本身就是获取内容的凭证。",
+      "timestamp": "08:20",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "This is happening at the speed of internet, and there is no friction.",
+      "zh": "这一切正在以互联网的速度发生，没有任何摩擦。",
+      "timestamp": "08:15",
+      "speaker": "Anil Nadiminti"
+    },
+    {
+      "en": "The average settlement time is 200 milliseconds on base with about a tenth of a cent as cost per transaction.",
+      "zh": "在 Base 上的平均结算时间是 200 毫秒，每笔交易的成本约为十分之一美分。",
+      "timestamp": "19:13",
+      "speaker": "Anil Nadiminti"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:18",
+      "speaker": "Unknown",
+      "en": "We see that we're at an infliction point where the bot traffic is more than the human traffic, right?",
+      "zh": "我们正处于一个拐点：机器人流量已经超过了人类流量。"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Unknown",
+      "en": "And 95% of that bot traffic is coming from AI agents.",
+      "zh": "而其中 95% 的机器人流量来自 AI 智能体。"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Unknown",
+      "en": "So autonomous agents actually break at that point where the friction is now building up.",
+      "zh": "自主智能体实际上正是在摩擦不断累积的那个点上中断了。"
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Unknown",
+      "en": "Would you allow your AI agents to get handle on your wallets or credit cards to be able to do that, transactions, and where they could go rogue as well, right?",
+      "zh": "你会允许你的 AI 智能体拿到你的钱包或信用卡去交易，而且它们还可能失控吗？"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Unknown",
+      "en": "So bottom line, the subscription model is going to change with humans in the loop to becoming humans on the loop or out of the loop.",
+      "zh": "归根结底，订阅模式将会发生改变，从人在环中变成人在环上，或人不在环中。"
+    },
+    {
+      "timestamp": "06:38",
+      "speaker": "Unknown",
+      "en": "So if you add like a 25 cents on top of that, it's essentially like 250 times what you're essentially paying for.",
+      "zh": "所以如果你在上面加 25 美分，这基本上就相当于你实际支付金额的 250 倍。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Unknown",
+      "en": "It was reserved for payment required.",
+      "zh": "它被预留给「需要付款」，却从未被使用。"
+    },
+    {
+      "timestamp": "08:20",
+      "speaker": "Unknown",
+      "en": "There is no API keys to set up, no subscriptions, and the payment is essentially the credential to be able to get the content.",
+      "zh": "没有需要设置的 API 密钥，没有订阅，支付本身就是获取内容的凭证。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Unknown",
+      "en": "This is happening at the speed of internet, and there is no friction.",
+      "zh": "这一切正在以互联网的速度发生，没有任何摩擦。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "Think where you are able to set that the agent can actually spend maybe $5 in 30 days or 60 days.",
+      "zh": "想象一下，你可以设置智能体在 30 天或 60 天内实际只能花费 5 美元。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Unknown",
+      "en": "So, essentially, the agent does not have access to the private keys.",
+      "zh": "所以，本质上，智能体是无法访问私钥的。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Unknown",
+      "en": "So it's important to decouple them because, again, skills can be poisoned.",
+      "zh": "所以把它们解耦很重要，因为，毕竟，技能可能被投毒。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "And payments do not touch the undeterministic path, but this is more on a deterministic layer as well.",
+      "zh": "而且支付不会触及非确定性路径，这更多是在一个确定性层上运作。"
+    },
+    {
+      "timestamp": "13:34",
+      "speaker": "Unknown",
+      "en": "You can bring your own model frameworks, and then the payment itself can flow through in the payment layer itself.",
+      "zh": "你可以自带模型框架，然后支付本身可以在支付层内自行流转。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Unknown",
+      "en": "So important to note is, again, there is no SDK change, no changes at the origin.",
+      "zh": "同样需要强调的是，没有 SDK 更改，源站也没有任何更改。"
+    },
+    {
+      "timestamp": "16:54",
+      "speaker": "Unknown",
+      "en": "Publishers keep 100% of the revenue as well, and again, there is no transaction fees or subscription fees.",
+      "zh": "发布者保留 100% 的收入，同样，没有交易费用或订阅费用。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Unknown",
+      "en": "If somebody is coming here, if a bot is asking the content for, again, training, you can charge a different rate than what it's doing for a search as well.",
+      "zh": "如果某个机器人请求内容是为了训练，你可以收取与搜索不同的费率。"
+    },
+    {
+      "timestamp": "19:13",
+      "speaker": "Unknown",
+      "en": "The average settlement time is 200 milliseconds on base with about a tenth of a cent as cost per transaction.",
+      "zh": "在 Base 上的平均结算时间是 200 毫秒，每笔交易的成本约为十分之一美分。"
+    }
+  ],
+  "voice_script": "今天这一集来自 AWS 的一场技术演讲，主讲人是 AWS 的高级解决方案架构师 Anil。讲的主题听起来有点科幻，叫「智能体电商」——说的是让 AI 智能体，就是那些能自主完成多步骤任务的程序，在互联网上自己发现内容、自己付钱、自己拿到内容，全程不需要人插手。你可能会觉得这离自己很远，但先看一个大背景：现在发往新闻门户这类网站的流量，机器人已经超过了人类，而且其中百分之九十五的机器人流量，都来自 AI 智能体。AWS 还预测，到二〇二七年，大约会有十亿个智能体在执行任务。也就是说，这件事不是会不会发生的问题，是正在发生的问题。\n\n那问题出在哪儿呢？你自己碰到付费墙的时候，掏出信用卡订阅一下就解决了。但智能体碰到付费墙，就直接卡死了，只能报一句「我无法访问内容」，然后人被迫介入，手动填信用卡或者 API 密钥。这些手动摩擦，恰恰就是自主智能体中断的地方。\n\n反过来，内容的卖方也不爽。封掉所有机器人流量，就失去了 AI 带来的发现机会、合作授权，还有 AI 回复里的引用曝光；可要是放任机器人进来，几百万机器人会冲垮基础设施，还失去了归因和 IP 本身。你看，两条路都不理想。买方和卖方的诉求，最后汇成了一个共同点：需要一个标准化的协议，能在边缘解决机器对机器的支付。买方希望智能体能自己付钱、不用人批准，但还得有护栏——没有企业敢让智能体拿着信用卡无节制地花钱；卖方想从 AI 流量里赚到钱，又不想改动自己的源站基础设施。归根结底，就像 Anil 说的，订阅模式会从「人在环中」变成「人在环上」，甚至「人不在环中」，一刀切的订阅不再适用，未来是按次付费、按次执行。\n\n那要真这么干，有个很现实的障碍：传统支付根本撑不住。主流支付渠道有零点二五美元的最低交易费，外加百分之二点五的抽成。可智能体的交易是一美分、甚至低于一美分的微美分级别的——手续费相当于实际支付金额的二百五十倍，这条路完全走不通。\n\n解法其实藏在 HTTP 协议里。你熟悉的 200、404、301,这些都是状态码，而 402 这个码，从协议诞生起就被预留给「需要付款」，却一直没被用过，闲置了三十年。Coinbase 把它启用了，做成了 X402 协议，专门处理机器对机器的交易。流程很简单：客户端请求服务器，服务器返回 402,意思是需要付款；客户端选定支付方式、发送支付授权，服务器通过一个叫 facilitator 的中介服务完成验证和交易——说白了就是撮合验证和结算的——链上结算完成之后，内容就随响应返回了。这个协议吸引人的地方在于：消费者侧零协议费，商家只付极微量的区块链手续费，等待时间为零。没有 API 密钥要设置，没有订阅，支付本身就是获取内容的凭证。协议在二〇二五年五月推出，现在已经纳入 Linux 基金会旗下的 OpenGovernance,背后有 Coinbase、AWS、Google、Stripe、Anthropic、Cloudflare 这些公司支持。\n\n那 AWS 在这里做了什么呢？它站在买方和卖方两边，各出了一套东西。\n\n先说买方。AWS 在 Bedrock 套件下发布了 AgentCore Payments,和 Coinbase、Stripe 合作，让智能体用几行代码就能自主发现、授权、执行支付。你可以创建支付会话，以编程方式设最大消费额和过期时间，比如让智能体三十天内最多花五美元。但安全设计上最关键的一点，是私钥的处理：导入钱包的私钥存在由 KMS——就是 AWS 的密钥管理服务——保护的令牌钱包里，智能体本身拿不到私钥。为什么要这么较真？因为智能体的技能可能被投毒，输入可能被恶意注入，它跑在一个非确定性的推理循环里，什么意外都可能发生。所以架构上把智能体基础设施和支付基础设施解耦了——支付走的是独立的确定性路径，不碰智能体那个不可控的循环。好处就是智能体的代码不用改，你可以自带模型和框架。再通过 AgentCore Gateway 把内部 API 包装成智能体可调用的工具，还能接入 Coinbase 的发现服务，那里有一万多个可交易的端点。\n\n那卖方这边呢？AWS 在它的 Web 应用防火墙 WAF 下，本来就有机器人检测，能识别六百五十多种机器人，比如 Perplexity bot、Claude bot、Google bots。而且不只是认出是谁，还能识别意图——这个机器人抓内容，是为了训练模型，还是在为 RAG 搜索，就是让 AI 查资料再回答的那种，做响应，并通过签名验证机器人身份。新发布的 WAF AI Traffic Monetization,就建立在这些能力之上。如果你用的是 CloudFront,也就是 AWS 的内容分发网络，加一层 WAF、点几下就能开始收费，源站零改动、SDK 零改动，发布者保留百分之百的收入。定价维度可以很细：按路径定，博客和研究页面、API 端点可以有不同费率；按身份定，像 Anthropic 这种建立了关系的验证机器人，可以用和未验证机器人不同的价格；按意图定，训练用的抓取收一个价，搜索引用收另一个价。甚至可以人类免费、机器人收费。整个定价逻辑被重新构想了一遍。\n\n这套东西现在跑得怎么样？有真实数据：来自 Coinbase 智能体市场过去十二个月的数据，超过一亿七千万笔交易，共五千万美元交易量，在 Base 链上的平均结算时间两百毫秒，每笔交易成本约十分之一美分。目前智能体电商的真实用途，包括跑大模型推理、获取算力、网页抓取、研究智能体，还有智能体对智能体的交易。\n\n所以你看，机器人流量过了拐点、支付协议补上了、买方有了带护栏的钱包、卖方能在边缘收费，这一整套拼起来，就是一个机器开始自己花钱买内容的互联网。就像那句点题的话：没有 API 密钥要设置，没有订阅，支付本身就是获取内容的凭证——而这一切，正在以互联网的速度发生。"
+}

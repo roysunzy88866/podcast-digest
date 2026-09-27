@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/xKzU_3riL6s.m4a",
+  "duration_sec": 1232.133,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 170,
+  "asr": true,
+  "title_en": "Why Your AI Agent Needs a Wallet: USDC and Nanopayments — Harshal Bhangale, Circle",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "added": "2026-09-28",
+  "added_at": "2026-09-27T21:27:05.635Z",
+  "speaker_map": {
+    "SPEAKER_01": "Harshal Bhangale",
+    "SPEAKER_02": "Harshal Bhangale"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Harshal Bhangale"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "给 AI 智能体发一个钱包：Circle 的纳米支付方案",
+  "guest_name": "Harshal Bhangale",
+  "guest_title": "Circle 智能体技术团队工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

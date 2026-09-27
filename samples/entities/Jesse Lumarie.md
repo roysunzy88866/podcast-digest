@@ -37,7 +37,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Figma]] · [[MCP 服务器]] · [[智能体]] · [[评估]] · [[CodeConnect]] · [[上下文窗口]] · [[React Tailwind]] · [[Anthropic]] · [[Cursor]] · [[Claude]]
+[[Figma]] · [[MCP 服务器]] · [[智能体]] · [[评估]] · [[CodeConnect]] · [[上下文窗口]] · [[React Tailwind]] · [[Anthropic]] · [[OAuth]] · [[Cursor]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":4,"智能体":339,"评估":3,"CodeConnect":1,"上下文窗口":10,"React Tailwind":1,"Anthropic":147,"Cursor":69,"Claude":69}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":4,"智能体":342,"评估":3,"CodeConnect":1,"上下文窗口":10,"React Tailwind":1,"Anthropic":148,"OAuth":2,"Cursor":69}</script>
 
 <script>
 (function(){

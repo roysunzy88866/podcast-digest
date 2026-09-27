@@ -180,7 +180,7 @@ PG 发推说它正以「软件级别的增速」增长，原因是它的客户�
 
 - [[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|Mercor CPO:开源模型蚕食不了数据生意]]<span class="pd-rz">同概念:RL 环境 (RL environments)、智能体 (agent)、机器人技术 (robotics)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:SaaS、智能体 (agent)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)、SaaS</span>
+- [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|机器人流量已超人类：当 AI 智能体开始自己付钱]]<span class="pd-rz">同公司:Bot、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -180,6 +180,7 @@ jsonLd: |
 
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]]<span class="pd-rz">同概念:付费墙 (paywall)</span>
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同公司:Bloomberg</span>
+- [[2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an|给 AI 智能体发一个钱包：Circle 的纳米支付方案]]<span class="pd-rz">同概念:付费墙 (paywall)</span>
 
 </div>
 </div>

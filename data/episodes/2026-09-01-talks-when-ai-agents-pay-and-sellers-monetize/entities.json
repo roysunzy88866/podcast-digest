@@ -1,0 +1,786 @@
+{
+  "episode_id": "2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "机器对机器支付",
+    "微交易",
+    "机器人流量"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anil-nadiminti",
+      "type": "person",
+      "role": "guest",
+      "name": "Anil Nadiminti",
+      "file": "Anil Nadiminti",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线概念：能自主完成多步骤任务的程序，到 2027 年将有约十亿个在执行任务；但碰到付费墙会停滞，需要人手动介入，这是自主智能体的最大摩擦点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.204,
+            15.485
+          ],
+          "quote": "Welcome to the agent e-commerce track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.748,
+            30.694
+          ],
+          "quote": "I'm here to talk to you today about how AWS is innovating and how you can build apps on AWS to support the agent e-commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            97.955,
+            110.746
+          ],
+          "quote": "So where we all started using LLMs, asking questions, asking for summarization, being able to get help with using them as copilots, getting them to do agent work, to do multi-step tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            247.146,
+            251.23
+          ],
+          "quote": "So this is the definition of agent e-commerce where AI agents can essentially discover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            260.018,
+            265.684
+          ],
+          "quote": "So let's look at the agent e-commerce, the two sides of agent e-commerce, the buy side and the sell side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            537.452,
+            547.975
+          ],
+          "quote": "So from Amazon, we have also released agent code payments under the Bedrock suite, so where agents will be able to make payments, and we'll go into some of the details here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            659.703,
+            668.348
+          ],
+          "quote": "Think where you are able to set that the agent can actually spend maybe $5 in 30 days or 60 days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            680.081,
+            691.584
+          ],
+          "quote": "When the user is asking an agent to make a particular requesting for resources, so agent completes the request by accessing tools, MPP servers, other resources as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            693.865,
+            701.731
+          ],
+          "quote": "The agent is looking at, you know, it finds that there is a response from one of the tool calls or requests with a 402.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            702.311,
+            714.62
+          ],
+          "quote": "Agent Code Payments is going to handle the request to complete the transaction and then let the AI agent know that essentially the settlement happened and the AI agent will be able to respond back with the users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            730.873,
+            733.856
+          ],
+          "quote": "So, essentially, the agent does not have access to the private keys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            736.338,
+            739.741
+          ],
+          "quote": "And the next thing is that agent code payments is also integrated",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            764.775,
+            779.781
+          ],
+          "quote": "There is a decoupling of agent infrastructure and the payment infrastructure by design where the agent can operate in its own loop, and whenever it sees the payment, the payment connectors, orchestration, payment limits, and integration with third-party wallets can happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            850.412,
+            856.618
+          ],
+          "quote": "Now, in this case, the AI agent is essentially discovering that there is a secure resource.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            857.218,
+            868.048
+          ],
+          "quote": "The agent code payments is kicking in, and then it's completing the transaction by utilizing the wallet that is already integrated, and the transaction completes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            985.002,
+            989.326
+          ],
+          "quote": "The AI agent, AI bot essentially requests for some content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1118.747,
+            1121.409
+          ],
+          "quote": "What is currently everyone using agent e-commerce for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1121.469,
+            1136.141
+          ],
+          "quote": "They are using agent e-commerce to run, again, LLM inference, getting compute, web scraping, they're creating research agents to be able to, you know, serve the requests, and agent to agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1162.598,
+            1171.624
+          ],
+          "quote": "So I spoke to you about agent core payments, which is one of the parts of the bigger ecosystem, Bedrock agent core.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1196.912,
+            1214.981
+          ],
+          "quote": "So again, you can use Runtime, which is a Bedrock Agent Code Runtime where you can bring your own agent application and serve at scale, and every request will have its own isolated micro virtual machine that is running to serve the requests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-e-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体电商 (agent e-commerce)",
+      "file": "智能体电商",
+      "primary": true,
+      "how_described": "本集演讲的主题：AI 智能体在互联网上自主发现内容、完成结算并访问内容的电商形式，分买方（智能体付款）和卖方（内容变现）两侧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.204,
+            15.485
+          ],
+          "quote": "Welcome to the agent e-commerce track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.748,
+            30.694
+          ],
+          "quote": "I'm here to talk to you today about how AWS is innovating and how you can build apps on AWS to support the agent e-commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            247.146,
+            251.23
+          ],
+          "quote": "So this is the definition of agent e-commerce where AI agents can essentially discover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            260.018,
+            265.684
+          ],
+          "quote": "So let's look at the agent e-commerce, the two sides of agent e-commerce, the buy side and the sell side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1118.747,
+            1121.409
+          ],
+          "quote": "What is currently everyone using agent e-commerce for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1121.469,
+            1136.141
+          ],
+          "quote": "They are using agent e-commerce to run, again, LLM inference, getting compute, web scraping, they're creating research agents to be able to, you know, serve the requests, and agent to agent as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "x402",
+      "type": "concept",
+      "role": "concept",
+      "name": "X402",
+      "file": "X402",
+      "primary": true,
+      "how_described": "本集说它是 Coinbase 启用 HTTP 预留至今的 402「需要付款」状态码做成的机器对机器支付协议：消费者零协议费、结算约 200 毫秒、每笔成本约十分之一美分，支付本身就是获取内容的凭证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            428.976,
+            442.503
+          ],
+          "quote": "And now, finally, Coinbase has introduced this as transactions over 402, which is also called as X402, where the protocol talks about how you can do machine-to-machine transactions using this protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            476.126,
+            478.226
+          ],
+          "quote": "So this is what's happening under the X402 protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            509.58,
+            514.603
+          ],
+          "quote": "It's X402 can be extended as well, and you can implement it, and there are no restrictions as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            520.186,
+            521.367
+          ],
+          "quote": "X402 is not part of the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            604.452,
+            609.593
+          ],
+          "quote": "And today, we support X402 with many more protocols that are in the pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1003.738,
+            1009.221
+          ],
+          "quote": "So then we are able to monetize using the X402, and the publishers get paid as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1021.429,
+            1026.472
+          ],
+          "quote": "So this supports X402, and we are adding support for more protocols as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentcore-payments",
+      "type": "company",
+      "role": "company",
+      "name": "AgentCore Payments",
+      "file": "AgentCore Payments",
+      "primary": true,
+      "how_described": "本集说它是 AWS 在 Bedrock 套件下与 Coinbase 和 Stripe 合作推出的服务，让 AI 智能体用几行代码自主发现、授权和执行支付，支持钱包、按会话预算和实时结算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            747.745,
+            758.131
+          ],
+          "quote": "Through AgentCore Gateway, the AgentCore payments can get access to Discovery Service in Coinbase, where there are 10,000-plus endpoints that are available to transact.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "waf-ai-traffic-monetization",
+      "type": "company",
+      "role": "company",
+      "name": "WAF AI Traffic Monetization",
+      "file": "WAF AI Traffic Monetization",
+      "primary": true,
+      "how_described": "本集说它是 AWS 新发布的卖方变现服务：在 CloudFront 上加 WAF 即可按路径、身份、意图对 AI 流量定价收费，源站零改动、发布者保留 100% 收入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            936.41,
+            941.713
+          ],
+          "quote": "And I'm also happy to share with you today that we announced WAF AI Traffic Monetization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集演讲者的公司，发布了 AgentCore Payments 和 WAF AI Traffic Monetization，是 X402 协议的支持方之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.707,
+            19.488
+          ],
+          "quote": "I'm a senior solutions architect here at AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.748,
+            30.694
+          ],
+          "quote": "I'm here to talk to you today about how AWS is innovating and how you can build apps on AWS to support the agent e-commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            523.568,
+            533.351
+          ],
+          "quote": "Linux Foundation under OpenGovernance, and it's backed by Coinbase, AWS, Google, Stripe, Anthropic, Cloudflare, and Circle, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            878.048,
+            884.313
+          ],
+          "quote": "We have released under the AWS Web Application Firewall a feature where we have bot detection in place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "type": "company",
+      "role": "company",
+      "name": "Coinbase",
+      "file": "Coinbase",
+      "primary": true,
+      "how_described": "本集说它启用了 402 状态码做成 X402 协议，与 AWS 合作提供钱包和发现服务（一万余个可交易端点），其智能体市场过去 12 个月完成超 1.7 亿笔、5000 万美元交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            428.976,
+            442.503
+          ],
+          "quote": "And now, finally, Coinbase has introduced this as transactions over 402, which is also called as X402, where the protocol talks about how you can do machine-to-machine transactions using this protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            523.568,
+            533.351
+          ],
+          "quote": "Linux Foundation under OpenGovernance, and it's backed by Coinbase, AWS, Google, Stripe, Anthropic, Cloudflare, and Circle, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            583.101,
+            586.483
+          ],
+          "quote": "Now we've launched this in partnership with Coinbase and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            587.003,
+            593.726
+          ],
+          "quote": "where you can bring wallets from Coinbase and Stripe to be able to do these operations, and we'll go into some of the details.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            594.147,
+            600.73
+          ],
+          "quote": "But the core capabilities to start with are wallet support where you can bring the wallets from Coinbase and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            747.745,
+            758.131
+          ],
+          "quote": "Through AgentCore Gateway, the AgentCore payments can get access to Discovery Service in Coinbase, where there are 10,000-plus endpoints that are available to transact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            831.978,
+            844.427
+          ],
+          "quote": "So, this is one of the console screens where it shows how you can import the payment connector, and it shows that, you know, you can select the Coinbase wallet and the Stripe Preview wallet from the console.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1139.163,
+            1146.889
+          ],
+          "quote": "Again, this is the last 12 months of traffic from, again, what we're seeing on Coinbase agentic market.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说它是 AgentCore Payments 的合作方之一，其钱包可被导入给智能体使用，也是 X402 的支持方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            523.568,
+            533.351
+          ],
+          "quote": "Linux Foundation under OpenGovernance, and it's backed by Coinbase, AWS, Google, Stripe, Anthropic, Cloudflare, and Circle, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            583.101,
+            586.483
+          ],
+          "quote": "Now we've launched this in partnership with Coinbase and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            587.003,
+            593.726
+          ],
+          "quote": "where you can bring wallets from Coinbase and Stripe to be able to do these operations, and we'll go into some of the details.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            594.147,
+            600.73
+          ],
+          "quote": "But the core capabilities to start with are wallet support where you can bring the wallets from Coinbase and Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            831.978,
+            844.427
+          ],
+          "quote": "So, this is one of the console screens where it shows how you can import the payment connector, and it shows that, you know, you can select the Coinbase wallet and the Stripe Preview wallet from the console.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集举例说，若与 Anthropic 这类组织建立关系，可对其验证机器人采用与未验证机器人不同的定价；它也是 X402 的支持方之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            523.568,
+            533.351
+          ],
+          "quote": "Linux Foundation under OpenGovernance, and it's backed by Coinbase, AWS, Google, Stripe, Anthropic, Cloudflare, and Circle, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1049.324,
+            1057.869
+          ],
+          "quote": "companies, organizations, maybe you make a relation with Anthropic, then you can essentially have a different pricing for those bots versus different unverified bots.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说企业不敢让智能体拿信用卡无节制花钱，需要通过支付会话以编程方式设置最大消费额和过期时间作为护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            288.926,
+            294.77
+          ],
+          "quote": "But enterprises, when they come to this point, they want more guardrails, and they do not want agents to go on spending spree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            557.968,
+            567.654
+          ],
+          "quote": "They want to be able to have real-time settlement, have the budget and guardrails, which enterprises really want, and observability throughout the stack, where they would want to have",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (bot)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说发往内容网站的流量中机器人已超过人类、其中 95% 来自 AI 智能体；AWS 的 WAF 能检测 650 多种机器人，识别其意图（训练抓取还是 RAG 搜索）并通过签名验证身份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            78.507,
+            84.588
+          ],
+          "quote": "We see that we're at an infliction point where the bot traffic is more than the human traffic, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            87.789,
+            91.25
+          ],
+          "quote": "And 95% of that bot traffic is coming from AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            174.541,
+            176.162
+          ],
+          "quote": "So block all their bot traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            874.466,
+            877.708
+          ],
+          "quote": "So again, there is a lot of bot activity that's happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            878.048,
+            884.313
+          ],
+          "quote": "We have released under the AWS Web Application Firewall a feature where we have bot detection in place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            884.913,
+            893.119
+          ],
+          "quote": "Today, we detect over 650 different types of bots, things like Perplexity bot, GPD bot, Claude bot, again, Google bots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            915.738,
+            918.44
+          ],
+          "quote": "So we are able to say, hey, this is a verified bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            985.002,
+            989.326
+          ],
+          "quote": "The AI agent, AI bot essentially requests for some content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            989.866,
+            993.91
+          ],
+          "quote": "The bot context understands what kinds of bots is detecting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            993.97,
+            995.151
+          ],
+          "quote": "It's able to detect the bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            995.511,
+            1001.136
+          ],
+          "quote": "It's able to categorize and understand the intent of the bot, as we discussed earlier, and verify",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1002.157,
+            1003.678
+          ],
+          "quote": "and check what kind of bot is available.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1062.372,
+            1070.857
+          ],
+          "quote": "If somebody is coming here, if a bot is asking the content for, again, training, you can charge a different rate than what it's doing for a search as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Bedrock AgentCore",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

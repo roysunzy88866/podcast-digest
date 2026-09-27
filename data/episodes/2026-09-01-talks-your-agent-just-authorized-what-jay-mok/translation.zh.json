@@ -1,0 +1,1210 @@
+[
+ {
+  "seg": 0,
+  "start": 12.721,
+  "end": 13.382,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.402,
+  "end": 14.182,
+  "speaker": "Unknown",
+  "en": "How are you doing?",
+  "zh": "你们好吗？"
+ },
+ {
+  "seg": 2,
+  "start": 16.904,
+  "end": 19.266,
+  "speaker": "Unknown",
+  "en": "Does anybody remember the movie Terminator?",
+  "zh": "有人记得电影《终结者》吗？"
+ },
+ {
+  "seg": 3,
+  "start": 20.507,
+  "end": 24.03,
+  "speaker": "Unknown",
+  "en": "Anyway, it's one of my favorite movies when I was growing up as a kid.",
+  "zh": "总之，那是我小时候最喜欢的电影之一。"
+ },
+ {
+  "seg": 4,
+  "start": 24.57,
+  "end": 28.693,
+  "speaker": "Unknown",
+  "en": "It imagines a world where the machines have taken over, right?",
+  "zh": "它想象了一个机器已经接管的世界，对吧？"
+ },
+ {
+  "seg": 5,
+  "start": 29.454,
+  "end": 32.917,
+  "speaker": "Unknown",
+  "en": "And the nightmare scenario here, though,",
+  "zh": "不过这里的噩梦场景是——"
+ },
+ {
+  "seg": 6,
+  "start": 33.657,
+  "end": 49.586,
+  "speaker": "Unknown",
+  "en": "And in 2026, it's not that the machines are or the agents are launching nukes, but rather they've taken your wallet and they've gone on a shopping spree and they buy like a bunch of crypto and new bunch of Spanx for you.",
+  "zh": "到了 2026 年，并不是机器或智能体发射核弹，而是它们拿走了你的钱包，然后开始疯狂购物，买了一大堆加密货币，还给你买了一堆 Spanx 塑身衣。"
+ },
+ {
+  "seg": 7,
+  "start": 51.307,
+  "end": 63.073,
+  "speaker": "Unknown",
+  "en": "But basically today we're talking about how we safeguard against that and hopefully we can kind of share a mental model that you can use when you're thinking about agent authorization.",
+  "zh": "但基本上，我们今天要讨论的是如何防范这种情况，希望能分享一个心智模型，供大家在思考智能体授权时使用。"
+ },
+ {
+  "seg": 8,
+  "start": 64.456,
+  "end": 65.777,
+  "speaker": "Unknown",
+  "en": "My name is Jay Mock.",
+  "zh": "我叫 Jay Mock。"
+ },
+ {
+  "seg": 9,
+  "start": 65.957,
+  "end": 70.179,
+  "speaker": "Unknown",
+  "en": "I'm a product manager over at PayPal in Agentic Payments.",
+  "zh": "我是 PayPal 智能体支付领域的产品经理。"
+ },
+ {
+  "seg": 10,
+  "start": 70.679,
+  "end": 70.799,
+  "speaker": "Unknown",
+  "en": "And?",
+  "zh": "还有？"
+ },
+ {
+  "seg": 11,
+  "start": 70.819,
+  "end": 71.979,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 12,
+  "start": 71.999,
+  "end": 72.78,
+  "speaker": "Unknown",
+  "en": "I'm Ben Coombs.",
+  "zh": "我是 Ben Coombs。"
+ },
+ {
+  "seg": 13,
+  "start": 72.9,
+  "end": 77.862,
+  "speaker": "Unknown",
+  "en": "I am a staff software engineer on the PayPal Enterprise Payments team.",
+  "zh": "我是 PayPal 企业支付团队的资深软件工程师。"
+ },
+ {
+  "seg": 14,
+  "start": 78.902,
+  "end": 81.583,
+  "speaker": "Unknown",
+  "en": "And together, we're going to share kind of like some knowledge with you.",
+  "zh": "我们俩将一起与大家分享一些知识。"
+ },
+ {
+  "seg": 15,
+  "start": 82.344,
+  "end": 84.645,
+  "speaker": "Unknown",
+  "en": "So, hopefully, you find it helpful.",
+  "zh": "希望对大家有帮助。"
+ },
+ {
+  "seg": 16,
+  "start": 85.165,
+  "end": 85.365,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 17,
+  "start": 86.872,
+  "end": 96.14,
+  "speaker": "Unknown",
+  "en": "So the key questions that we kind of like start off with is in terms of like agent authorization is did the human authorize this?",
+  "zh": "那么，我们一开始提出的关键问题，就智能体授权而言是：人类是否授权了这次操作？"
+ },
+ {
+  "seg": 18,
+  "start": 97.642,
+  "end": 101.205,
+  "speaker": "Unknown",
+  "en": "Is this allowed right now in this scope and can we prove it later?",
+  "zh": "现在在这个范围内是否被允许，以及我们之后能否证明？"
+ },
+ {
+  "seg": 19,
+  "start": 102.762,
+  "end": 108.423,
+  "speaker": "Unknown",
+  "en": "We try to make it general, but in our world of payments, did the human authorize this?",
+  "zh": "我们试图把它说得通用一些，但在我们的支付世界里：人类是否授权了这次操作？"
+ },
+ {
+  "seg": 20,
+  "start": 109.003,
+  "end": 111.744,
+  "speaker": "Unknown",
+  "en": "That could be like a passkey or of that nature.",
+  "zh": "那可以是通行密钥或类似的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 112.384,
+  "end": 114.424,
+  "speaker": "Unknown",
+  "en": "Is this allowed right now in this scope?",
+  "zh": "现在在这个范围内是否被允许？"
+ },
+ {
+  "seg": 22,
+  "start": 114.684,
+  "end": 128.227,
+  "speaker": "Unknown",
+  "en": "It's generally going to be a time-bound token and an amount and possibly could be identifying like a merchant or the actual product intent.",
+  "zh": "这通常是一个有时限的令牌，带有一个金额，并可能标识商家或实际的产品意图。"
+ },
+ {
+  "seg": 23,
+  "start": 128.867,
+  "end": 131.13,
+  "speaker": "Unknown",
+  "en": "Then, lastly, can we prove it later?",
+  "zh": "然后，最后，我们之后能否证明？"
+ },
+ {
+  "seg": 24,
+  "start": 131.59,
+  "end": 133.913,
+  "speaker": "Unknown",
+  "en": "This is like if something goes wrong, right?",
+  "zh": "这就像是，如果出了问题，对吧？"
+ },
+ {
+  "seg": 25,
+  "start": 134.233,
+  "end": 145.506,
+  "speaker": "Unknown",
+  "en": "And in our world of payments, this generally has to do with, like, the disputes in that case and how you can prove that, you know, the human generally authorized that transaction, right?",
+  "zh": "在我们的支付世界里，这通常与争议处理有关，以及你如何证明人类确实授权了那笔交易，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 147.511,
+  "end": 154.499,
+  "speaker": "Unknown",
+  "en": "But we think the way that you actually answer these three questions is really dependent on the context.",
+  "zh": "但我们认为，你实际回答这三个问题的方式，非常依赖于上下文。"
+ },
+ {
+  "seg": 27,
+  "start": 154.539,
+  "end": 166.472,
+  "speaker": "Unknown",
+  "en": "I know context is an overused term, but in this case, what we mean is, is it a low stakes or high stakes kind of scenario?",
+  "zh": "我知道「上下文」是个被过度使用的词，但在这里，我们的意思是：这是低风险还是高风险的场景？"
+ },
+ {
+  "seg": 28,
+  "start": 168.273,
+  "end": 174.256,
+  "speaker": "Unknown",
+  "en": "And is this a kind of like open ecosystem or closed ecosystem?",
+  "zh": "这是一个开放的生态系统还是封闭的生态系统？"
+ },
+ {
+  "seg": 29,
+  "start": 174.276,
+  "end": 175.756,
+  "speaker": "Unknown",
+  "en": "Do the parties like know each other?",
+  "zh": "各方之间是否互相认识？"
+ },
+ {
+  "seg": 30,
+  "start": 175.996,
+  "end": 179.578,
+  "speaker": "Unknown",
+  "en": "You know, people use the term KYA a lot, know your agent.",
+  "zh": "大家经常用 KYA 这个词，know your agent，认识你的智能体。"
+ },
+ {
+  "seg": 31,
+  "start": 179.718,
+  "end": 186.721,
+  "speaker": "Unknown",
+  "en": "But, you know, what we think about in this scenario is really about is it like an open or closed ecosystem, right?",
+  "zh": "但在这种情况下，我们真正考虑的是它是开放还是封闭的生态系统，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 186.981,
+  "end": 191.483,
+  "speaker": "Unknown",
+  "en": "And in a payments context, it could be like, hey, you know, ChatGPT or Gemini, right?",
+  "zh": "在支付场景下，可以是这样的：嘿，比如 ChatGPT 或 Gemini，对吧？"
+ },
+ {
+  "seg": 33,
+  "start": 191.523,
+  "end": 197.185,
+  "speaker": "Unknown",
+  "en": "That's like kind of like a more of like a closed ecosystem because, you know, those agents know the merchant.",
+  "zh": "那更像是一个封闭的生态系统，因为这些智能体认识商家。"
+ },
+ {
+  "seg": 34,
+  "start": 197.885,
+  "end": 198.285,
+  "speaker": "Unknown",
+  "en": "Generally.",
+  "zh": "通常来说。"
+ },
+ {
+  "seg": 35,
+  "start": 199.746,
+  "end": 202.187,
+  "speaker": "Unknown",
+  "en": "I like to use an analogy.",
+  "zh": "我喜欢打比方。"
+ },
+ {
+  "seg": 36,
+  "start": 203.648,
+  "end": 204.489,
+  "speaker": "Unknown",
+  "en": "I like analogies.",
+  "zh": "我喜欢类比。"
+ },
+ {
+  "seg": 37,
+  "start": 205.129,
+  "end": 209.251,
+  "speaker": "Unknown",
+  "en": "And the analogy I like to use is kind of like the, you know, badging into work.",
+  "zh": "我喜欢用的类比是，你知道的，刷卡进入公司。"
+ },
+ {
+  "seg": 38,
+  "start": 209.431,
+  "end": 211.052,
+  "speaker": "Unknown",
+  "en": "You badge into work in the front desk.",
+  "zh": "你在前台刷卡进入公司。"
+ },
+ {
+  "seg": 39,
+  "start": 211.552,
+  "end": 217.295,
+  "speaker": "Unknown",
+  "en": "You basically are then led into the building or, you know, let's say it's a set of buildings.",
+  "zh": "然后基本上你会被带进大楼，或者说是一组楼群。"
+ },
+ {
+  "seg": 40,
+  "start": 217.615,
+  "end": 220.097,
+  "speaker": "Unknown",
+  "en": "You don't need to like badge in every single time to every other",
+  "zh": "你不需要每进一个别的地方都刷一次卡，"
+ },
+ {
+  "seg": 41,
+  "start": 220.677,
+  "end": 224.861,
+  "speaker": "Unknown",
+  "en": "Or for every single room because you're already within that trusted boundary, right?",
+  "zh": "也不需要每进一个房间都刷一次卡，因为你已经处于那个可信边界之内了，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 225.321,
+  "end": 238.413,
+  "speaker": "Unknown",
+  "en": "So then when you meet someone within your office building, you kind of have some element of trust or hopefully you have some element of trust because you're both employees of the same company that's badged in, right?",
+  "zh": "所以当你在办公楼里遇到某个人时，你会有一点信任感，或者希望你有一点信任感，因为你们都是同一家公司刷卡进入的员工，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 238.893,
+  "end": 244.218,
+  "speaker": "Unknown",
+  "en": "So that's kind of like the analogy I may use later in the presentation.",
+  "zh": "这就是我在后面的演讲中可能会用到的类比。"
+ },
+ {
+  "seg": 44,
+  "start": 245.639,
+  "end": 251.022,
+  "speaker": "Unknown",
+  "en": "Okay, so, based on those key questions, we kind of think about, like, hey, what's the mental model that we can build off of this, right?",
+  "zh": "好，那么，基于这些关键问题，我们来想一想，我们能在此基础上建立什么样的心智模型，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 251.102,
+  "end": 257.506,
+  "speaker": "Unknown",
+  "en": "And we have this, like, stakes and evidence matrix, and we're going to talk about these three different scenarios.",
+  "zh": "我们有一个风险与证据矩阵，我们要讨论三种不同的场景。"
+ },
+ {
+  "seg": 46,
+  "start": 258.307,
+  "end": 265.811,
+  "speaker": "Unknown",
+  "en": "And so, we're going to first, and you'll see at the top is kind of like the stakes and counterparty part that I was just talking about, the context, right?",
+  "zh": "首先，你会看到顶部是我们刚才谈到的风险与交易对手部分，也就是上下文，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 265.831,
+  "end": 268.473,
+  "speaker": "Unknown",
+  "en": "Counterparty is like the open or closed ecosystem.",
+  "zh": "交易对手就是指开放还是封闭的生态系统。"
+ },
+ {
+  "seg": 48,
+  "start": 268.92,
+  "end": 275.597,
+  "speaker": "Unknown",
+  "en": "And then authority and evidence is really about how you answer those three questions I had shared in the prior slide.",
+  "zh": "而授权与证据，则真正关乎如何回答我在上一张幻灯片里分享的那三个问题。"
+ },
+ {
+  "seg": 49,
+  "start": 277.121,
+  "end": 281.624,
+  "speaker": "Unknown",
+  "en": "So, we'll talk a little bit first about, like, Claude Codes, since that's what most people are very familiar with.",
+  "zh": "那么，我们先稍微谈一下 Claude Codes，因为那是大多数人最熟悉的。"
+ },
+ {
+  "seg": 50,
+  "start": 282.364,
+  "end": 296.513,
+  "speaker": "Unknown",
+  "en": "And, basically, you know, when you, as a human, you're, you know, using your Claude Code, you know, you might be then setting up your connectors with your GitHub or, you know, Jira or whatever, linear or whatever tool you're using.",
+  "zh": "基本上，你知道，当你作为一个人类，你知道，使用你的 Claude Code 时，你可能会去设置你的连接器，连接你的 GitHub 或者，你知道，Jira 或什么、linear 或你使用的任何工具。"
+ },
+ {
+  "seg": 51,
+  "start": 297.213,
+  "end": 303.997,
+  "speaker": "Unknown",
+  "en": "And, you know, as part of that process, you're kind of like authenticated, so that's how you kind of like get that human authorization and consent.",
+  "zh": "而且，你知道，作为那个过程的一部分，你会经过某种身份验证，所以这就是你获得人类授权和同意的方式。"
+ },
+ {
+  "seg": 52,
+  "start": 304.874,
+  "end": 309.1,
+  "speaker": "Unknown",
+  "en": "with those applications for Claude to interact with them.",
+  "zh": "让 Claude 与这些应用程序进行交互。"
+ },
+ {
+  "seg": 53,
+  "start": 310.221,
+  "end": 319.474,
+  "speaker": "Unknown",
+  "en": "In terms of the actual scopes, the example here would be then about Claude's tool permissions.",
+  "zh": "在实际的权限范围方面，这里的例子就是关于 Claude 的工具权限。"
+ },
+ {
+  "seg": 54,
+  "start": 319.574,
+  "end": 321.116,
+  "speaker": "Unknown",
+  "en": "People are very familiar probably with",
+  "zh": "人们可能非常熟悉"
+ },
+ {
+  "seg": 55,
+  "start": 321.697,
+  "end": 331.708,
+  "speaker": "Unknown",
+  "en": "The fact that you can allow Claude to use certain tools, deny or ask Claude to ask you before doing something, right?",
+  "zh": "这样一个事实：你可以允许 Claude 使用某些工具、拒绝，或者让 Claude 在做某事之前先问你，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 332.189,
+  "end": 340.618,
+  "speaker": "Unknown",
+  "en": "And then in terms of the action of Claude, we generally think, because it's a Claude ecosystem and it's like you're coding,",
+  "zh": "然后在 Claude 的行动方面，我们通常认为，因为这是 Claude 生态系统，而且你是 在写代码，"
+ },
+ {
+  "seg": 57,
+  "start": 341.258,
+  "end": 342.839,
+  "speaker": "Unknown",
+  "en": "The stakes are relatively low here.",
+  "zh": "这里的风险相对较低。"
+ },
+ {
+  "seg": 58,
+  "start": 343.459,
+  "end": 349.662,
+  "speaker": "Unknown",
+  "en": "And so in terms of evidence or proof, you don't really need to have like that cryptographic proof at that point in time.",
+  "zh": "所以在证据或证明方面，你在那个时间点并不需要那种密码学证明。"
+ },
+ {
+  "seg": 59,
+  "start": 349.682,
+  "end": 355.925,
+  "speaker": "Unknown",
+  "en": "You can kind of just look at like system logs in order to, or you have the ability to just revert your changes, right?",
+  "zh": "你基本上可以只看系统日志，或者你也有能力直接回滚你的更改，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 357.105,
+  "end": 366.049,
+  "speaker": "Unknown",
+  "en": "So that's kind of like an example of applying like this mental model using Claude Code in terms of that scenario.",
+  "zh": "所以这基本上就是一个用 Claude Code 应用这种思维模型的例子，就那个场景而言。"
+ },
+ {
+  "seg": 61,
+  "start": 367.362,
+  "end": 382.612,
+  "speaker": "Unknown",
+  "en": "Okay, so the next example we're going to talk about is a more medium stakes scenario and why we're calling this medium stakes even though it's within a known or kind of closed ecosystem is because it has to do with money and payments.",
+  "zh": "好，那我们要讲的下一个例子是一个中等风险的场景，我们之所以称之为中等风险，尽管它是在一个已知或某种封闭的生态系统之内，是因为它涉及金钱和支付。"
+ },
+ {
+  "seg": 62,
+  "start": 383.313,
+  "end": 386.795,
+  "speaker": "Unknown",
+  "en": "And so that's like the shared vault and OAuth scope example.",
+  "zh": "所以那就是共享保险库和 OAuth 权限范围的例子。"
+ },
+ {
+  "seg": 63,
+  "start": 390.028,
+  "end": 405.265,
+  "speaker": "Unknown",
+  "en": "So, in this example, where the use case is like, hey, you're like a, let's say, a merchant or a TripAdvisor, right, and you have a travel company, and you have a lot of great content that you want to monetize.",
+  "zh": "所以，在这个例子里，用例是这样的：嘿，假设你是一个商家或者一个 TripAdvisor，对吧，你有一家旅游公司，你有很多很棒的内容想要变现。"
+ },
+ {
+  "seg": 64,
+  "start": 405.345,
+  "end": 407.047,
+  "speaker": "Unknown",
+  "en": "It could be occupancy data, it could be like,",
+  "zh": "可能是入住率数据，可能是"
+ },
+ {
+  "seg": 65,
+  "start": 407.307,
+  "end": 408.387,
+  "speaker": "Unknown",
+  "en": "Reviews, what have you.",
+  "zh": "评论，等等。"
+ },
+ {
+  "seg": 66,
+  "start": 408.807,
+  "end": 410.168,
+  "speaker": "Unknown",
+  "en": "And you have a new customer now.",
+  "zh": "而你現在有了新客户。"
+ },
+ {
+  "seg": 67,
+  "start": 410.288,
+  "end": 423.391,
+  "speaker": "Unknown",
+  "en": "You have, like, travel agents or, like, you know, agents that are buyer agents that are coming to you and you want to be able to monetize your data, right, through machine payments.",
+  "zh": "你有，比如，旅行代理，或者你知道，作为买方智能体的智能体来找你，你想通过机器支付来变现你的数据，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 424.691,
+  "end": 432.573,
+  "speaker": "Unknown",
+  "en": "So, we work with a partner, Nevermind, to be able to enable that use case and leveraging our infrastructure.",
+  "zh": "所以，我们与一个合作伙伴 Nevermind 合作，以实现那个用例，并利用我们的基础设施。"
+ },
+ {
+  "seg": 69,
+  "start": 435.818,
+  "end": 447.203,
+  "speaker": "Unknown",
+  "en": "So, there's two pieces of infrastructure that I like to call out or primitives that they use as part of the BrainTree or PayPal Enterprise infrastructure.",
+  "zh": "有两块基础设施，或者叫原语，我想指出，它们作为 BrainTree 或 PayPal 企业基础设施的一部分使用。"
+ },
+ {
+  "seg": 70,
+  "start": 447.283,
+  "end": 448.563,
+  "speaker": "Unknown",
+  "en": "One is like the vault, right?",
+  "zh": "一个是保险库，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 449.063,
+  "end": 456.266,
+  "speaker": "Unknown",
+  "en": "And the vault by itself, which is storing all these like payment credentials on behalf of the buyer agents,",
+  "zh": "而保险库本身，也就是代表这些买方智能体存储所有这些支付凭证，"
+ },
+ {
+  "seg": 72,
+  "start": 458.567,
+  "end": 470.641,
+  "speaker": "Unknown",
+  "en": "On itself doesn't really do much, but in order to create, what Nevermind creates is a more closed ecosystem, they then offer, you're able to",
+  "zh": "它本身其实做不了什么，但为了创建——Nevermind 创建的是一个更封闭的生态系统——他们随后提供，你能够"
+ },
+ {
+  "seg": 73,
+  "start": 472.226,
+  "end": 479.808,
+  "speaker": "Unknown",
+  "en": "offer access to those payment credentials through OAuth to all those merchants.",
+  "zh": "通过 OAuth 向所有那些商家提供那些支付凭证的访问。"
+ },
+ {
+  "seg": 74,
+  "start": 480.028,
+  "end": 486.009,
+  "speaker": "Unknown",
+  "en": "So in our example before we talk about that travel company.",
+  "zh": "所以在我们之前的例子里，我们谈的就是那家旅游公司。"
+ },
+ {
+  "seg": 75,
+  "start": 486.369,
+  "end": 496.951,
+  "speaker": "Unknown",
+  "en": "So by doing so, they're able to then create an ecosystem of buyer agents and seller agents and have a more trusted environment.",
+  "zh": "通过这样做，他们便能够创建一个由买方智能体和卖方智能体组成的生态系统，并拥有一个更可信的环境。"
+ },
+ {
+  "seg": 76,
+  "start": 500.313,
+  "end": 508.722,
+  "speaker": "Unknown",
+  "en": "In just kind of talking more about the use case, like the human then is then going to be authorizing their payment.",
+  "zh": "再多谈一点这个用例，人类随后会去授权他们的支付。"
+ },
+ {
+  "seg": 77,
+  "start": 508.802,
+  "end": 511.425,
+  "speaker": "Unknown",
+  "en": "Usually, this is a commercial use case.",
+  "zh": "通常，这是一个商业用例。"
+ },
+ {
+  "seg": 78,
+  "start": 512.026,
+  "end": 516.01,
+  "speaker": "Unknown",
+  "en": "So, using a commercial card, they share it with the buyer agent, travel agent.",
+  "zh": "所以，使用一张商用卡，他们与买方智能体、旅行代理共享它。"
+ },
+ {
+  "seg": 79,
+  "start": 517.761,
+  "end": 526.465,
+  "speaker": "Unknown",
+  "en": "Then it also has scopes associated with that mandate, so that's how you're able to control the authority.",
+  "zh": "然后它还有与该授权指令相关联的权限范围，这就是你控制权限的方式。"
+ },
+ {
+  "seg": 80,
+  "start": 526.506,
+  "end": 537.651,
+  "speaker": "Unknown",
+  "en": "But in terms of the actual dispute handling, we really don't have a, we're not using cryptographic proof that's being sent as part of that request.",
+  "zh": "但在实际的争议处理方面，我们真的没有——我们没有使用作为该请求的一部分发送的密码学证明。"
+ },
+ {
+  "seg": 81,
+  "start": 538.011,
+  "end": 543.154,
+  "speaker": "Unknown",
+  "en": "At the end of the day, since it's more of a closed ecosystem,",
+  "zh": "说到底，由于它更偏向一个封闭的生态系统，"
+ },
+ {
+  "seg": 82,
+  "start": 543.894,
+  "end": 549.278,
+  "speaker": "Unknown",
+  "en": "They're able to leverage just the existing transaction logs, right?",
+  "zh": "他们能够只利用现有的交易日志，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 549.758,
+  "end": 572.733,
+  "speaker": "Unknown",
+  "en": "So that's kind of an example of a medium stakes use case or scenario, and we believe it's medium stakes because of the fact that it is a more closed ecosystem and doesn't require all the evidence in terms of proof, right?",
+  "zh": "所以这基本上就是一个中等风险用例或场景的例子，而我们相信它是中等风险，是因为它是一个更封闭的生态系统，不需要所有证明方面的证据，对吧？"
+ },
+ {
+  "seg": 84,
+  "start": 573.333,
+  "end": 575.638,
+  "speaker": "Unknown",
+  "en": "So, that's kind of like my part.",
+  "zh": "所以，这基本上就是我负责的部分。"
+ },
+ {
+  "seg": 85,
+  "start": 575.658,
+  "end": 579.226,
+  "speaker": "Unknown",
+  "en": "I'm going to turn it over now to Ben and take it from here.",
+  "zh": "我现在要把话交给 Ben,由他从这里接下去。"
+ },
+ {
+  "seg": 86,
+  "start": 580.97,
+  "end": 581.411,
+  "speaker": "Unknown",
+  "en": "Thanks, Jay.",
+  "zh": "谢谢，Jay。"
+ },
+ {
+  "seg": 87,
+  "start": 583.845,
+  "end": 590.108,
+  "speaker": "Unknown",
+  "en": "Yeah, so the last slide that Jay talked about, you know, we're kind of going over the medium stakes example.",
+  "zh": "是的，Jay 刚才讲的最后一张幻灯片，你知道，我们正在过的是中等风险的例子。"
+ },
+ {
+  "seg": 88,
+  "start": 591.989,
+  "end": 596.111,
+  "speaker": "Unknown",
+  "en": "In that scenario, you know, both parties know each other.",
+  "zh": "在那个场景里，你知道，双方彼此认识。"
+ },
+ {
+  "seg": 89,
+  "start": 596.671,
+  "end": 600.032,
+  "speaker": "Unknown",
+  "en": "They're acting within, you know, the same system.",
+  "zh": "他们在，你知道，同一个系统内行动。"
+ },
+ {
+  "seg": 90,
+  "start": 601.233,
+  "end": 604.815,
+  "speaker": "Unknown",
+  "en": "You know, they're borrowing trust from, you know, never mind to",
+  "zh": "你知道，他们从，你知道，Nevermind 那里借用信任，以"
+ },
+ {
+  "seg": 91,
+  "start": 606.015,
+  "end": 611.418,
+  "speaker": "Unknown",
+  "en": "Make sure that the buying agent is falling within the instructions that a human has given it.",
+  "zh": "确保买方智能体的行动符合人类给它的指令。"
+ },
+ {
+  "seg": 92,
+  "start": 611.958,
+  "end": 619.403,
+  "speaker": "Unknown",
+  "en": "And then the selling agent that's also on Nevermind can feel comfortable taking a payment from another user of Nevermind.",
+  "zh": "然后同样在 Nevermind 上的卖方智能体可以放心地从 Nevermind 的另一个用户那里收款。"
+ },
+ {
+  "seg": 93,
+  "start": 619.983,
+  "end": 625.986,
+  "speaker": "Unknown",
+  "en": "And so what we want to talk about next is what happens when the parties are not known to each other and they're not vetted.",
+  "zh": "那么我们接下来要讲的是，当双方互不相识、且没有经过审核时会发生什么。"
+ },
+ {
+  "seg": 94,
+  "start": 627.947,
+  "end": 640.516,
+  "speaker": "Unknown",
+  "en": "And so, like, we think, you know, we believe that the best option for that, you know, to actually do these autonomous payments where, you know, not everyone's known, like, you know, the stakes are high.",
+  "zh": "所以，就像，我们认为，你知道，我们相信针对这种情况最好的选择——也就是要真正做这些自主支付、而并不是每个人都互相认识、你知道、风险很高的情况——"
+ },
+ {
+  "seg": 95,
+  "start": 640.536,
+  "end": 646.66,
+  "speaker": "Unknown",
+  "en": "You know, we think that the industry should converge on the FIDO verifiable intents and AP2 mandate.",
+  "zh": "你知道，我们认为行业应该向 FIDO 可验证意图和 AP2 授权指令收敛。"
+ },
+ {
+  "seg": 96,
+  "start": 646.96,
+  "end": 652.884,
+  "speaker": "Unknown",
+  "en": "You know, the TLDR of that is, you know, it's a multi-layered selected disclosure jot.",
+  "zh": "你知道，它的 TLDR 是，你知道，它是一个多层的选择性披露 jot。"
+ },
+ {
+  "seg": 97,
+  "start": 654.665,
+  "end": 658.987,
+  "speaker": "Unknown",
+  "en": "The first layer is created by a trustworthy credential provider.",
+  "zh": "第一层由一个可信的凭证提供方创建。"
+ },
+ {
+  "seg": 98,
+  "start": 659.247,
+  "end": 661.527,
+  "speaker": "Unknown",
+  "en": "In this case, hopefully, it would be PayPal.",
+  "zh": "在这个例子里，希望是 PayPal。"
+ },
+ {
+  "seg": 99,
+  "start": 661.908,
+  "end": 666.029,
+  "speaker": "Unknown",
+  "en": "The second layer encapsulates the user's instructions to the agent.",
+  "zh": "第二层封装了用户给智能体的指令。"
+ },
+ {
+  "seg": 100,
+  "start": 667.209,
+  "end": 668.89,
+  "speaker": "Unknown",
+  "en": "The user signs that with their private key.",
+  "zh": "用户用自己的私钥对其进行签名。"
+ },
+ {
+  "seg": 101,
+  "start": 669.29,
+  "end": 675.772,
+  "speaker": "Unknown",
+  "en": "And then the third layer, if there's gonna be a third layer, is when we're doing autonomous payments.",
+  "zh": "然后是第三层,如果会有第三层的话,就是当我们做自主支付的时候。"
+ },
+ {
+  "seg": 102,
+  "start": 675.792,
+  "end": 678.873,
+  "speaker": "Unknown",
+  "en": "So that case, the agent would sign that third layer.",
+  "zh": "那种情况下,智能体会签署第三层。"
+ },
+ {
+  "seg": 103,
+  "start": 680.094,
+  "end": 682.735,
+  "speaker": "Unknown",
+  "en": "So where that's powerful is that",
+  "zh": "所以它的强大之处在于"
+ },
+ {
+  "seg": 104,
+  "start": 685.412,
+  "end": 690.256,
+  "speaker": "Unknown",
+  "en": "Party involved in a transaction can verify the part that's important to them.",
+  "zh": "交易中涉及的各方可以验证对他们重要的那部分。"
+ },
+ {
+  "seg": 105,
+  "start": 690.396,
+  "end": 693.979,
+  "speaker": "Unknown",
+  "en": "So merchants can verify that the checkout is correct.",
+  "zh": "商家可以验证结账是正确的。"
+ },
+ {
+  "seg": 106,
+  "start": 694.779,
+  "end": 698.342,
+  "speaker": "Unknown",
+  "en": "Payment processors can verify that the payment mandate's correct.",
+  "zh": "你觉得这样做没问题,因为风险很低。"
+ },
+ {
+  "seg": 107,
+  "start": 699.123,
+  "end": 701.485,
+  "speaker": "Unknown",
+  "en": "And no one has to have any relationship to each other.",
+  "zh": "而且各方之间不需要有任何关系。"
+ },
+ {
+  "seg": 108,
+  "start": 703.987,
+  "end": 711.613,
+  "speaker": "Unknown",
+  "en": "And so I think if there's gonna be autonomous payments at scale, we think that that's going to be the best way to accomplish it.",
+  "zh": "所以我认为,如果要实现大规模的自主支付,我们相信这会是实现它的最佳方式。"
+ },
+ {
+  "seg": 109,
+  "start": 713.968,
+  "end": 717.352,
+  "speaker": "Unknown",
+  "en": "Pictures on the screen are depicting our PayPal approval token.",
+  "zh": "屏幕上的图片展示的是我们的 PayPal 审批令牌。"
+ },
+ {
+  "seg": 110,
+  "start": 718.714,
+  "end": 730.088,
+  "speaker": "Unknown",
+  "en": "This is a new primitive that allows users of PayPal to basically start the order process with an agent before that agent's actually found an item and a merchant to transact with.",
+  "zh": "这是一个新的原语,让 PayPal 的用户基本上可以在智能体真正找到商品和交易商家之前,就通过智能体启动下单流程。"
+ },
+ {
+  "seg": 111,
+  "start": 730.742,
+  "end": 735.266,
+  "speaker": "Unknown",
+  "en": "Historically, PayPal orders have been synchronous.",
+  "zh": "历史上,PayPal 订单一直是同步的。"
+ },
+ {
+  "seg": 112,
+  "start": 735.346,
+  "end": 742.013,
+  "speaker": "Unknown",
+  "en": "Users on checkout, they find their item, they go to their PayPal app, they approve it, and it's done.",
+  "zh": "用户在结账时,找到商品,打开 PayPal 应用,批准,然后就完成了。"
+ },
+ {
+  "seg": 113,
+  "start": 742.693,
+  "end": 744.375,
+  "speaker": "Unknown",
+  "en": "Here, it's a little bit different.",
+  "zh": "这里有点不一样。"
+ },
+ {
+  "seg": 114,
+  "start": 745.116,
+  "end": 746.057,
+  "speaker": "Unknown",
+  "en": "Users on their agent,",
+  "zh": "用户在他们的智能体上,"
+ },
+ {
+  "seg": 115,
+  "start": 747.509,
+  "end": 755.014,
+  "speaker": "Unknown",
+  "en": "You get redirected to PayPal to confirm the instructions that are given to the agent, and then PayPal hands back this JSON payload.",
+  "zh": "你会被重定向到 PayPal 以确认给智能体的指令,然后 PayPal 会返回这个 JSON 载荷。"
+ },
+ {
+  "seg": 116,
+  "start": 755.694,
+  "end": 763.459,
+  "speaker": "Unknown",
+  "en": "Similar to the verifiable intent, includes the amount, the expiry, the merchant that it's supposed to be transacted with.",
+  "zh": "与可验证意图类似,包含金额、有效期、应该与之交易的商家。"
+ },
+ {
+  "seg": 117,
+  "start": 765.22,
+  "end": 767.021,
+  "speaker": "Unknown",
+  "en": "Similar concept, but not quite the same.",
+  "zh": "概念类似,但不完全一样。"
+ },
+ {
+  "seg": 118,
+  "start": 768.662,
+  "end": 771.324,
+  "speaker": "Unknown",
+  "en": "It's an opaque string that only PayPal can approve right now.",
+  "zh": "它是一个不透明的字符串,目前只有 PayPal 能批准。"
+ },
+ {
+  "seg": 119,
+  "start": 773.085,
+  "end": 779.53,
+  "speaker": "Unknown",
+  "en": "We're about to ship this in production, and users of Gemini that pick PayPal as their payment method will use this.",
+  "zh": "我们即将在生产环境中上线这个功能,选择 PayPal 作为支付方式的 Gemini 用户将会用到它。"
+ },
+ {
+  "seg": 120,
+  "start": 782.332,
+  "end": 783.412,
+  "speaker": "Unknown",
+  "en": "So going to our last slide,",
+  "zh": "那么看我们最后一张幻灯片,"
+ },
+ {
+  "seg": 121,
+  "start": 785.772,
+  "end": 786.893,
+  "speaker": "Unknown",
+  "en": "We showed this slide earlier.",
+  "zh": "我们之前展示过这张幻灯片。"
+ },
+ {
+  "seg": 122,
+  "start": 786.913,
+  "end": 789.856,
+  "speaker": "Unknown",
+  "en": "We didn't have the two columns filled out on the right-hand side.",
+  "zh": "我们当时右边两列还没填上。"
+ },
+ {
+  "seg": 123,
+  "start": 791.338,
+  "end": 797.464,
+  "speaker": "Unknown",
+  "en": "We want to reinforce this mental model where starting at the top, we have the low stakes scenario.",
+  "zh": "我们想强化这个心智模型:从顶部开始,我们有低风险场景。"
+ },
+ {
+  "seg": 124,
+  "start": 798.244,
+  "end": 799.205,
+  "speaker": "Unknown",
+  "en": "You're using Claude.",
+  "zh": "你在使用 Claude。"
+ },
+ {
+  "seg": 125,
+  "start": 799.225,
+  "end": 803.55,
+  "speaker": "Unknown",
+  "en": "You've given it access to connectors and granular permissions to do things on your behalf.",
+  "zh": "你已经给了它访问连接器和细粒度权限,让它代表你做事。"
+ },
+ {
+  "seg": 126,
+  "start": 804.49,
+  "end": 807.251,
+  "speaker": "Unknown",
+  "en": "You feel comfortable doing that because the stakes are low.",
+  "zh": "你之所以敢这么做，是因为风险很低。"
+ },
+ {
+  "seg": 127,
+  "start": 807.732,
+  "end": 809.512,
+  "speaker": "Unknown",
+  "en": "You can reverse those actions or redo them.",
+  "zh": "你可以撤销或重做那些操作。"
+ },
+ {
+  "seg": 128,
+  "start": 809.532,
+  "end": 812.354,
+  "speaker": "Unknown",
+  "en": "It's not a big deal if Claude produces the wrong output.",
+  "zh": "Claude 产出错误的输出也没什么大不了。"
+ },
+ {
+  "seg": 129,
+  "start": 814.194,
+  "end": 816.575,
+  "speaker": "Unknown",
+  "en": "Going down a level, we have the medium stakes scenario.",
+  "zh": "再往下一级,我们有中风险场景。"
+ },
+ {
+  "seg": 130,
+  "start": 816.776,
+  "end": 821.438,
+  "speaker": "Unknown",
+  "en": "You have two parties that know each other that are acting within the same system's boundary.",
+  "zh": "你有两个彼此认识的参与方,在同一个系统边界内行动。"
+ },
+ {
+  "seg": 131,
+  "start": 823.44,
+  "end": 824.922,
+  "speaker": "Unknown",
+  "en": "The actions are a little bit higher stakes.",
+  "zh": "操作的风险稍高一些。"
+ },
+ {
+  "seg": 132,
+  "start": 825.123,
+  "end": 835.461,
+  "speaker": "Unknown",
+  "en": "There is money movement here, but both parties can feel comfortable transacting with each other because they're relying on this third party to enforce the payment mandate.",
+  "zh": "这里涉及资金流动,但双方都可以放心地彼此交易,因为他们依赖这个第三方来执行支付指令。"
+ },
+ {
+  "seg": 133,
+  "start": 836.818,
+  "end": 851.481,
+  "speaker": "Unknown",
+  "en": "And then the third level, you know, the highest stakes one that we haven't actually seen in production yet is, you know, the user's given an agent some instructions to do something on their behalf autonomously, and you don't know who they're gonna interact with, who they're gonna transact with.",
+  "zh": "然后是第三级,你知道,风险最高的那一级,我们还没在生产中真正见过的,就是,用户给智能体一些指令,让它自主代表自己去做某事,而你不知道它会跟谁交互、跟谁交易。"
+ },
+ {
+  "seg": 134,
+  "start": 851.861,
+  "end": 857.102,
+  "speaker": "Unknown",
+  "en": "And those parties need some verifiable proof that the agent has permission to do the transaction.",
+  "zh": "这些参与方需要某种可验证的证明,证明智能体有权执行这笔交易。"
+ },
+ {
+  "seg": 135,
+  "start": 857.462,
+  "end": 863.703,
+  "speaker": "Unknown",
+  "en": "And so we believe that that will be, I know, verifiable events and AP2 mandates.",
+  "zh": "所以我们相信那将会是,我知道,可验证事件和 AP2 指令。"
+ },
+ {
+  "seg": 136,
+  "start": 865.728,
+  "end": 876.56,
+  "speaker": "Unknown",
+  "en": "I think the interesting thing is like, it's also our belief that, you know, this is a model that won't just be used for payments, but we think it could be for any sort of high stakes action that's hard to reverse.",
+  "zh": "我认为有意思的是,这也是我们的信念:这个模型不会只用于支付,我们认为它可以用于任何难以逆转的高风险操作。"
+ },
+ {
+  "seg": 137,
+  "start": 876.6,
+  "end": 883.187,
+  "speaker": "Unknown",
+  "en": "So medical orders, e-signatures, securities trading, you know, basically any hard to reverse agent action.",
+  "zh": "比如医疗医嘱、电子签名、证券交易,基本上任何难以逆转的智能体操作。"
+ },
+ {
+  "seg": 138,
+  "start": 885.129,
+  "end": 885.59,
+  "speaker": "Unknown",
+  "en": "That's all I have.",
+  "zh": "我要讲的就这些。"
+ },
+ {
+  "seg": 139,
+  "start": 886.329,
+  "end": 902.275,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think if we could just go back to analogies, you know, like in the low stakes, it's kind of like, hey, you're within the building, you've put badges in, you're within the building, whereas in the high stakes, it's kind of like you are on the street and you meet somebody.",
+  "zh": "是的,我的意思是,我想如果我们回到类比,你知道,在低风险场景下,有点像,嘿,你在楼里,你刷了门禁卡,你在楼里;而在高风险场景下,有点像你在街上遇到一个人。"
+ },
+ {
+  "seg": 140,
+  "start": 902.795,
+  "end": 908.898,
+  "speaker": "Unknown",
+  "en": "And, you know, you need a way to be able to get comfort that that's someone you can trust, right?",
+  "zh": "而且,你知道,你需要一种方式能够确信那是你可以信任的人,对吧?"
+ },
+ {
+  "seg": 141,
+  "start": 910.038,
+  "end": 913.8,
+  "speaker": "Unknown",
+  "en": "Is a badge, is them showing you their badge good enough?",
+  "zh": "一个徽章,他们向你出示徽章就够了吗?"
+ },
+ {
+  "seg": 142,
+  "start": 913.82,
+  "end": 914.4,
+  "speaker": "Unknown",
+  "en": "Probably not.",
+  "zh": "可能不够。"
+ },
+ {
+  "seg": 143,
+  "start": 914.5,
+  "end": 921.123,
+  "speaker": "Unknown",
+  "en": "You need to have something that's a little bit more, you know, verifiable, I guess, at a verifiable standard.",
+  "zh": "你需要某种更加,你知道,可验证的东西,我猜,达到可验证的标准。"
+ },
+ {
+  "seg": 144,
+  "start": 921.163,
+  "end": 928.687,
+  "speaker": "Unknown",
+  "en": "So, you know, just kind of like using that analogy and like how to think about like the, you know, what you need to do in order to",
+  "zh": "所以,你知道,就是用那个类比,来思考如何,你知道,你需要做什么才能"
+ },
+ {
+  "seg": 145,
+  "start": 930.928,
+  "end": 934.333,
+  "speaker": "Unknown",
+  "en": "Prove that the human authorized the agent.",
+  "zh": "证明是人类授权了智能体。"
+ },
+ {
+  "seg": 146,
+  "start": 934.373,
+  "end": 935.595,
+  "speaker": "Unknown",
+  "en": "Hopefully that helps.",
+  "zh": "希望这有帮助。"
+ },
+ {
+  "seg": 147,
+  "start": 936.076,
+  "end": 942.766,
+  "speaker": "Unknown",
+  "en": "And now you have kind of like a tool set to use so you can kind of prevent Skynet from taking over your wallet.",
+  "zh": "现在你有了一套可以使用的工具,这样你就能防止天网接管你的钱包。"
+ },
+ {
+  "seg": 148,
+  "start": 943.147,
+  "end": 945.51,
+  "speaker": "Unknown",
+  "en": "So thank you very much for listening.",
+  "zh": "非常感谢大家的聆听。"
+ },
+ {
+  "seg": 149,
+  "start": 945.791,
+  "end": 946.552,
+  "speaker": "Unknown",
+  "en": "I hope that helps.",
+  "zh": "希望这有帮助。"
+ },
+ {
+  "seg": 150,
+  "start": 956.354,
+  "end": 957.115,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

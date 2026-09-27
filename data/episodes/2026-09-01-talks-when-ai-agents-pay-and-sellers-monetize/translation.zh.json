@@ -1,0 +1,1698 @@
+[
+ {
+  "seg": 0,
+  "start": 12.724,
+  "end": 13.024,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.204,
+  "end": 15.485,
+  "speaker": "Unknown",
+  "en": "Welcome to the agent e-commerce track.",
+  "zh": "欢迎来到智能体电商专场。"
+ },
+ {
+  "seg": 2,
+  "start": 15.646,
+  "end": 17.687,
+  "speaker": "Unknown",
+  "en": "And I'm Anil Lermity.",
+  "zh": "我是 Anil Lermity。"
+ },
+ {
+  "seg": 3,
+  "start": 17.707,
+  "end": 19.488,
+  "speaker": "Unknown",
+  "en": "I'm a senior solutions architect here at AWS.",
+  "zh": "我是 AWS 的高级解决方案架构师。"
+ },
+ {
+  "seg": 4,
+  "start": 20.748,
+  "end": 30.694,
+  "speaker": "Unknown",
+  "en": "I'm here to talk to you today about how AWS is innovating and how you can build apps on AWS to support the agent e-commerce.",
+  "zh": "我今天在这里要和大家谈的是 AWS 如何创新，以及你们如何在 AWS 上构建应用来支持智能体电商。"
+ },
+ {
+  "seg": 5,
+  "start": 31.534,
+  "end": 32.856,
+  "speaker": "Unknown",
+  "en": "So welcome to the session.",
+  "zh": "欢迎参加本次会议。"
+ },
+ {
+  "seg": 6,
+  "start": 34.218,
+  "end": 37.923,
+  "speaker": "Unknown",
+  "en": "Just to get you started, let me set the stage with something that you're very familiar with.",
+  "zh": "先从大家非常熟悉的东西说起，让我来铺陈一下背景。"
+ },
+ {
+  "seg": 7,
+  "start": 38.985,
+  "end": 41.929,
+  "speaker": "Unknown",
+  "en": "Imagine that you or your organization is building",
+  "zh": "想象一下，你或者你的组织正在构建"
+ },
+ {
+  "seg": 8,
+  "start": 43.51,
+  "end": 44.611,
+  "speaker": "Unknown",
+  "en": "A news portal like this.",
+  "zh": "一个像这样的新闻门户网站。"
+ },
+ {
+  "seg": 9,
+  "start": 44.631,
+  "end": 50.434,
+  "speaker": "Unknown",
+  "en": "So you're all familiar with something where you're accessing the news content, and then suddenly you hit a paywall.",
+  "zh": "大家都很熟悉这种场景：你正在访问新闻内容，然后突然碰到了付费墙。"
+ },
+ {
+  "seg": 10,
+  "start": 50.474,
+  "end": 66.563,
+  "speaker": "Unknown",
+  "en": "So this is where you pull out your wallet or you try to figure out how to make the payments, set up your credentials, access keys, in the sense that you make a credit card transaction weekly, monthly, or annual subscription, and then get started to access the content.",
+  "zh": "这时你掏出钱包，或者想办法完成支付、设置凭证、访问密钥，也就是说，你按周、按月或按年订阅进行一笔信用卡交易，然后开始访问内容。"
+ },
+ {
+  "seg": 11,
+  "start": 66.583,
+  "end": 68.364,
+  "speaker": "Unknown",
+  "en": "So this is all the content that is behind a paywall.",
+  "zh": "这些都是付费墙之后的内容。"
+ },
+ {
+  "seg": 12,
+  "start": 68.904,
+  "end": 78.087,
+  "speaker": "Unknown",
+  "en": "But what we see now is that much of the traffic that is actually being sent to these portals now on the internet is all coming from bots.",
+  "zh": "但我们现在看到，互联网上发送到这些门户网站的实际流量中，有很大一部分来自机器人。"
+ },
+ {
+  "seg": 13,
+  "start": 78.507,
+  "end": 84.588,
+  "speaker": "Unknown",
+  "en": "We see that we're at an infliction point where the bot traffic is more than the human traffic, right?",
+  "zh": "我们看到我们正处于一个拐点：机器人流量已经超过了人类流量，对吧？"
+ },
+ {
+  "seg": 14,
+  "start": 84.608,
+  "end": 87.589,
+  "speaker": "Unknown",
+  "en": "So it's just actually, in fact, surpassed that.",
+  "zh": "事实上，它已经超越了那个点。"
+ },
+ {
+  "seg": 15,
+  "start": 87.789,
+  "end": 91.25,
+  "speaker": "Unknown",
+  "en": "And 95% of that bot traffic is coming from AI agents.",
+  "zh": "而其中 95% 的机器人流量来自 AI 智能体。"
+ },
+ {
+  "seg": 16,
+  "start": 93.651,
+  "end": 97.935,
+  "speaker": "Unknown",
+  "en": "Essentially, we are also looking at the rise of autonomous agents, right?",
+  "zh": "从本质上讲，我们也看到了自主智能体的崛起，对吧？"
+ },
+ {
+  "seg": 17,
+  "start": 97.955,
+  "end": 110.746,
+  "speaker": "Unknown",
+  "en": "So where we all started using LLMs, asking questions, asking for summarization, being able to get help with using them as copilots, getting them to do agent work, to do multi-step tasks.",
+  "zh": "最初我们都在使用 LLM，提问、请求摘要、把它们当作副驾驶来获得帮助、让它们做智能体工作、执行多步骤任务。"
+ },
+ {
+  "seg": 18,
+  "start": 111.126,
+  "end": 117.992,
+  "speaker": "Unknown",
+  "en": "And now we are in the phase of autonomous agents where agents are using the reasoning powers of large language models to complete a task.",
+  "zh": "而现在我们进入了自主智能体的阶段，智能体在利用大语言模型的推理能力来完成任务。"
+ },
+ {
+  "seg": 19,
+  "start": 118.452,
+  "end": 123.554,
+  "speaker": "Unknown",
+  "en": "And completing a task means that it has to go do whatever you're asking it to do.",
+  "zh": "完成任务意味着它必须去执行你所要求它做的事情。"
+ },
+ {
+  "seg": 20,
+  "start": 123.574,
+  "end": 125.995,
+  "speaker": "Unknown",
+  "en": "That's kind of where we are in the journey.",
+  "zh": "这大致就是我们现在所处的旅程阶段。"
+ },
+ {
+  "seg": 21,
+  "start": 126.376,
+  "end": 136.08,
+  "speaker": "Unknown",
+  "en": "And we see that by 2027, about a billion agents will be performing tasks, and 60% of the enterprises will already be using agentic workflows.",
+  "zh": "我们看到，到 2027 年，大约将有十亿个智能体在执行任务，60% 的企业将已经在使用智能体工作流。"
+ },
+ {
+  "seg": 22,
+  "start": 136.76,
+  "end": 141.122,
+  "speaker": "Unknown",
+  "en": "So what happens when agents hit these paywalls that we just saw?",
+  "zh": "那么当智能体碰到我们刚才看到的那些付费墙时会发生什么？"
+ },
+ {
+  "seg": 23,
+  "start": 141.643,
+  "end": 148.526,
+  "speaker": "Unknown",
+  "en": "When agents hit the paywalls, they stall, they can't operate, and you see those messages that, hey, I cannot access content, right?",
+  "zh": "当智能体碰到付费墙时，它们会停滞、无法运作，你会看到那些消息：嘿，我无法访问内容，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 148.546,
+  "end": 150.427,
+  "speaker": "Unknown",
+  "en": "So at that point, humans get in the loop.",
+  "zh": "到了那个时刻，人类就得介入其中。"
+ },
+ {
+  "seg": 25,
+  "start": 150.888,
+  "end": 158.252,
+  "speaker": "Unknown",
+  "en": "They try to enter and put the credit card details or API keys to those transactions for the AI agents.",
+  "zh": "他们试图为这些 AI 智能体的交易输入并填入信用卡信息或 API 密钥。"
+ },
+ {
+  "seg": 26,
+  "start": 158.592,
+  "end": 160.433,
+  "speaker": "Unknown",
+  "en": "But all of that is manual friction, right?",
+  "zh": "但所有这些都是手动摩擦，对吧？"
+ },
+ {
+  "seg": 27,
+  "start": 160.453,
+  "end": 162.274,
+  "speaker": "Unknown",
+  "en": "So essentially bringing in a human in the loop.",
+  "zh": "这本质上是把人类引入了流程之中。"
+ },
+ {
+  "seg": 28,
+  "start": 162.674,
+  "end": 168.778,
+  "speaker": "Unknown",
+  "en": "So autonomous agents actually break at that point where the friction is now building up.",
+  "zh": "所以自主智能体实际上正是在摩擦不断累积的那个点上中断了。"
+ },
+ {
+  "seg": 29,
+  "start": 169.458,
+  "end": 174.281,
+  "speaker": "Unknown",
+  "en": "So now sellers of the content have a couple of options.",
+  "zh": "那么，现在内容的卖方有几个选择。"
+ },
+ {
+  "seg": 30,
+  "start": 174.541,
+  "end": 176.162,
+  "speaker": "Unknown",
+  "en": "So block all their bot traffic.",
+  "zh": "一是封锁所有机器人流量。"
+ },
+ {
+  "seg": 31,
+  "start": 176.683,
+  "end": 180.225,
+  "speaker": "Unknown",
+  "en": "But by blocking all the traffic, they lose this AI-powered discovery.",
+  "zh": "但通过封锁所有流量，他们失去了这种 AI 驱动的发现能力。"
+ },
+ {
+  "seg": 32,
+  "start": 180.625,
+  "end": 183.587,
+  "speaker": "Unknown",
+  "en": "They miss this partnership, licensing options.",
+  "zh": "他们错过了合作、授权的机会。"
+ },
+ {
+  "seg": 33,
+  "start": 183.867,
+  "end": 187.849,
+  "speaker": "Unknown",
+  "en": "And AI also now supports citations, so the responses.",
+  "zh": "而且 AI 现在还支持在回复中附上引用。"
+ },
+ {
+  "seg": 34,
+  "start": 187.869,
+  "end": 191.592,
+  "speaker": "Unknown",
+  "en": "So they lose all of that powered citations as well if they can't sell the content.",
+  "zh": "所以如果他们不能出售内容，也就失去了所有这些带引用的曝光。"
+ },
+ {
+  "seg": 35,
+  "start": 192.192,
+  "end": 194.694,
+  "speaker": "Unknown",
+  "en": "Essentially, they lose revenue-generating options.",
+  "zh": "从本质上讲，他们失去了产生收入的选择。"
+ },
+ {
+  "seg": 36,
+  "start": 195.314,
+  "end": 210.764,
+  "speaker": "Unknown",
+  "en": "And if you allow the bots to access the content, what it means is that hundreds of thousands of bots or millions of bots could be hitting your infrastructure, which means that the infrastructure costs will also raise, and you need to be able to support all of that.",
+  "zh": "而如果你允许机器人访问内容，那就意味着成千上万甚至数百万的机器人可能会冲击你的基础设施，这意味着基础设施成本也会上升，而你需要能够支撑这一切。"
+ },
+ {
+  "seg": 37,
+  "start": 210.924,
+  "end": 217.388,
+  "speaker": "Unknown",
+  "en": "So when you allow bots to access content, you lose attribution, the IP itself, because content is now freely available.",
+  "zh": "所以当你允许机器人访问内容时，你失去了归因、失去了 IP 本身，因为内容现在可以自由获取了。"
+ },
+ {
+  "seg": 38,
+  "start": 219.449,
+  "end": 222.851,
+  "speaker": "Unknown",
+  "en": "Both these decisions are probably not a good option.",
+  "zh": "这两个决定可能都不是好选择。"
+ },
+ {
+  "seg": 39,
+  "start": 222.871,
+  "end": 223.452,
+  "speaker": "Unknown",
+  "en": "They're not ideal.",
+  "zh": "它们都不理想。"
+ },
+ {
+  "seg": 40,
+  "start": 223.852,
+  "end": 233.798,
+  "speaker": "Unknown",
+  "en": "So there should be another ideal option where you would want to have your AI agents being able to get and pay for the content that they are looking for and monetize on that.",
+  "zh": "所以应该还有另一个理想的选择：让你的 AI 智能体能够获取并为他们所寻找的内容付费，并以此实现变现。"
+ },
+ {
+  "seg": 41,
+  "start": 234.378,
+  "end": 246.586,
+  "speaker": "Unknown",
+  "en": "So now we look at the next phase of rising autonomous agents where agents should be able to transact and discover other agents' resources and essentially make payments.",
+  "zh": "现在我们来看自主智能体崛起的下一个阶段：智能体应该能够进行交易、发现其他智能体的资源，并本质上完成支付。"
+ },
+ {
+  "seg": 42,
+  "start": 247.146,
+  "end": 251.23,
+  "speaker": "Unknown",
+  "en": "So this is the definition of agent e-commerce where AI agents can essentially discover.",
+  "zh": "这就是智能体电商的定义：AI 智能体本质上能够进行发现。"
+ },
+ {
+  "seg": 43,
+  "start": 252.451,
+  "end": 259.438,
+  "speaker": "Unknown",
+  "en": "It's a form of e-commerce where autonomous agents can discover independently and make those settlements and then access content.",
+  "zh": "它是一种电商形式，自主智能体可以独立地进行发现、完成结算，然后访问内容。"
+ },
+ {
+  "seg": 44,
+  "start": 260.018,
+  "end": 265.684,
+  "speaker": "Unknown",
+  "en": "So let's look at the agent e-commerce, the two sides of agent e-commerce, the buy side and the sell side.",
+  "zh": "我们来看看智能体电商的两个侧面：买方和卖方。"
+ },
+ {
+  "seg": 45,
+  "start": 266.124,
+  "end": 274.694,
+  "speaker": "Unknown",
+  "en": "So when we talk about the buy side, the agents are making these transactions, and on the sell side, the sellers of the content are trying to monetize on the content.",
+  "zh": "当我们谈论买方时，是智能体在进行这些交易；而在卖方，内容的卖方则试图对内容进行变现。"
+ },
+ {
+  "seg": 46,
+  "start": 275.154,
+  "end": 280.14,
+  "speaker": "Unknown",
+  "en": "So on the buy side, when you look at things, AI agents want to access this premium paywall content, licensed content.",
+  "zh": "在买方方面，AI 智能体想要访问这些付费墙后的高级内容、获得授权的内容。"
+ },
+ {
+  "seg": 47,
+  "start": 280.641,
+  "end": 281.461,
+  "speaker": "Unknown",
+  "en": "They want to be able to",
+  "zh": "它们想要能够"
+ },
+ {
+  "seg": 48,
+  "start": 282.022,
+  "end": 284.424,
+  "speaker": "Unknown",
+  "en": "Hold wallets, which they do not have the option today.",
+  "zh": "持有钱包，而这在今天它们是没有这个选项的。"
+ },
+ {
+  "seg": 49,
+  "start": 284.884,
+  "end": 288.406,
+  "speaker": "Unknown",
+  "en": "And they want to be able to make these microtransactions you just heard in the prior talk as well.",
+  "zh": "它们还想要能够进行这些微交易——你们在上一场演讲中也刚听到过。"
+ },
+ {
+  "seg": 50,
+  "start": 288.926,
+  "end": 294.77,
+  "speaker": "Unknown",
+  "en": "But enterprises, when they come to this point, they want more guardrails, and they do not want agents to go on spending spree.",
+  "zh": "但是企业,当它们走到这一步时,它们想要更多护栏,而且它们不希望智能体无节制地花钱。"
+ },
+ {
+  "seg": 51,
+  "start": 295.21,
+  "end": 295.911,
+  "speaker": "Unknown",
+  "en": "Think about it, right?",
+  "zh": "想想看,对吧?"
+ },
+ {
+  "seg": 52,
+  "start": 295.931,
+  "end": 303.115,
+  "speaker": "Unknown",
+  "en": "Would you allow your AI agents to get handle on your wallets or credit cards to be able to do that, transactions, and where they could go rogue as well, right?",
+  "zh": "你会允许你的 AI 智能体拿到你的钱包或信用卡、能够进行交易,而且它们还有可能失控吗,对吧?"
+ },
+ {
+  "seg": 53,
+  "start": 303.136,
+  "end": 305.297,
+  "speaker": "Unknown",
+  "en": "So that's what the buyer side is looking at.",
+  "zh": "所以这就是买方在关注的东西。"
+ },
+ {
+  "seg": 54,
+  "start": 305.777,
+  "end": 306.698,
+  "speaker": "Unknown",
+  "en": "And on the seller side,",
+  "zh": "而在卖方这边,"
+ },
+ {
+  "seg": 55,
+  "start": 307.418,
+  "end": 320.669,
+  "speaker": "Unknown",
+  "en": "There are, again, billions of transactions that will be happening with these AI bots, so sellers really want to be able to understand what kinds of bots are operating, what kinds of transactions they're making, and really do this at the edge.",
+  "zh": "同样,会有数十亿笔交易通过这些 AI 机器人发生,所以卖家真的很想能够了解什么样的机器人在运行、它们在进行什么样的交易,并且真正在边缘完成这一点。"
+ },
+ {
+  "seg": 56,
+  "start": 320.949,
+  "end": 325.393,
+  "speaker": "Unknown",
+  "en": "The sellers don't want to change their entire infrastructure and origins where the content is",
+  "zh": "卖家不想改变它们整个的基础设施以及内容所在的源站"
+ },
+ {
+  "seg": 57,
+  "start": 325.933,
+  "end": 329.815,
+  "speaker": "Unknown",
+  "en": "They want to be able to do this at the edge without changing much of this.",
+  "zh": "它们想要能够在边缘做到这一点,而不需要改动太多这些东西。"
+ },
+ {
+  "seg": 58,
+  "start": 329.835,
+  "end": 339.561,
+  "speaker": "Unknown",
+  "en": "So there is, again, one common thing here on the buyer side and the seller side, which is a standardized approach or a protocol to be able to solve for this machine-to-machine payments at the edge.",
+  "zh": "所以,这里买方和卖方又有了一个共同点,那就是需要一种标准化的方法或协议,能够在边缘解决这种机器对机器的支付问题。"
+ },
+ {
+  "seg": 59,
+  "start": 339.981,
+  "end": 347.505,
+  "speaker": "Unknown",
+  "en": "So bottom line, buyers are saying that they want their agents to be able to pay for content and not have humans approving this.",
+  "zh": "所以归根结底,买方说的是,他们希望自己的智能体能够为内容付费,而不需要人类来批准。"
+ },
+ {
+  "seg": 60,
+  "start": 348.206,
+  "end": 351.888,
+  "speaker": "Unknown",
+  "en": "And then the sellers are saying that they want to be able to earn from the AI traffic.",
+  "zh": "然后卖方说的是,他们希望能够从 AI 流量中赚钱。"
+ },
+ {
+  "seg": 61,
+  "start": 352.588,
+  "end": 360.415,
+  "speaker": "Unknown",
+  "en": "So bottom line, the subscription model is going to change with humans in the loop to becoming humans on the loop or out of the loop.",
+  "zh": "所以归根结底,订阅模式将会发生改变,从人在环中(humans in the loop)变成人在环上(humans on the loop)或人不在环中(out of the loop)。"
+ },
+ {
+  "seg": 62,
+  "start": 360.756,
+  "end": 362.657,
+  "speaker": "Unknown",
+  "en": "And that's kind of what we are building towards.",
+  "zh": "而这就是我们正在构建的方向。"
+ },
+ {
+  "seg": 63,
+  "start": 363.778,
+  "end": 372.687,
+  "speaker": "Unknown",
+  "en": "The traditional one-size-fits model does not work anymore because of the fact that, again, we look at that in the next slide, where the transactions cost will not really work.",
+  "zh": "传统的“一刀切”模式已经行不通了,原因在于——我们接下来会在下一页幻灯片中看到——交易成本这条路确实行不通。"
+ },
+ {
+  "seg": 64,
+  "start": 373.347,
+  "end": 380.792,
+  "speaker": "Unknown",
+  "en": "All of this needs to be happening at real-time speed, and the paper use and paper execution is what the future is going to look like.",
+  "zh": "所有这些都需要以实时速度进行,而按次付费(pay per use)和按次执行(pay per execution)就是未来的样子。"
+ },
+ {
+  "seg": 65,
+  "start": 381.172,
+  "end": 383.914,
+  "speaker": "Unknown",
+  "en": "So, if you're a seller, you would have come across this, right?",
+  "zh": "那么,如果你是一个卖家,你应该遇到过这种情况,对吧?"
+ },
+ {
+  "seg": 66,
+  "start": 383.934,
+  "end": 397.983,
+  "speaker": "Unknown",
+  "en": "So, there is a $0.25 minimum transaction fees as well as 2.5% on top of that, and all of these microtransactions are, you know, like a cent, sub-cent, or, you know, micro-cents is what we're calling them,",
+  "zh": "也就是有 0.25 美元的最低交易费用,外加 2.5% 的费用,而所有这些微交易,你知道,就像一美分、低于一美分,或者我们所说的“微美分”(micro-cents),"
+ },
+ {
+  "seg": 67,
+  "start": 398.363,
+  "end": 404.905,
+  "speaker": "Unknown",
+  "en": "So if you add like a 25 cents on top of that, it's essentially like 250 times what you're essentially paying for.",
+  "zh": "所以如果你在上面加 25 美分,这基本上就相当于你实际支付金额的 250 倍。"
+ },
+ {
+  "seg": 68,
+  "start": 404.925,
+  "end": 406.806,
+  "speaker": "Unknown",
+  "en": "So all of this model does not work.",
+  "zh": "所以所有这些模式都行不通。"
+ },
+ {
+  "seg": 69,
+  "start": 407.446,
+  "end": 414.168,
+  "speaker": "Unknown",
+  "en": "And while we are trying to solve for that, a very brief history of this is every HTTP call essentially responds back.",
+  "zh": "而在我们试图解决这个问题时,简单回顾一下历史:每一次 HTTP 调用基本上都会有响应。"
+ },
+ {
+  "seg": 70,
+  "start": 414.649,
+  "end": 415.509,
+  "speaker": "Unknown",
+  "en": "There's a response for that.",
+  "zh": "都会有一个对应的响应。"
+ },
+ {
+  "seg": 71,
+  "start": 415.849,
+  "end": 417.93,
+  "speaker": "Unknown",
+  "en": "You've seen 200 status codes, 404,",
+  "zh": "你见过 200 状态码、404,"
+ },
+ {
+  "seg": 72,
+  "start": 419.09,
+  "end": 422.452,
+  "speaker": "Unknown",
+  "en": "And the 301, these are all status codes that you're familiar with.",
+  "zh": "还有 301,这些都是你熟悉的状态码。"
+ },
+ {
+  "seg": 73,
+  "start": 422.812,
+  "end": 426.775,
+  "speaker": "Unknown",
+  "en": "And then there is one status code, which is 402, which has not been used.",
+  "zh": "然后有一个状态码是 402,它一直没被使用。"
+ },
+ {
+  "seg": 74,
+  "start": 426.835,
+  "end": 428.616,
+  "speaker": "Unknown",
+  "en": "It was reserved for payment required.",
+  "zh": "它被预留给“需要付款”(payment required)。"
+ },
+ {
+  "seg": 75,
+  "start": 428.976,
+  "end": 442.503,
+  "speaker": "Unknown",
+  "en": "And now, finally, Coinbase has introduced this as transactions over 402, which is also called as X402, where the protocol talks about how you can do machine-to-machine transactions using this protocol.",
+  "zh": "现在,终于,Coinbase 把它引入作为基于 402 的交易,也叫作 X402,这个协议讲的是你如何使用这个协议进行机器对机器的交易。"
+ },
+ {
+  "seg": 76,
+  "start": 442.684,
+  "end": 444.004,
+  "speaker": "Unknown",
+  "en": "So we'll take a closer look at that.",
+  "zh": "我们会更仔细地看一下这个。"
+ },
+ {
+  "seg": 77,
+  "start": 444.064,
+  "end": 447.807,
+  "speaker": "Unknown",
+  "en": "But what happens within the protocol is if you look at this,",
+  "zh": "但在这个协议内部发生的事情是,如果你看这个"
+ },
+ {
+  "seg": 78,
+  "start": 448.727,
+  "end": 449.248,
+  "speaker": "Unknown",
+  "en": "Flowchart here.",
+  "zh": "流程图。"
+ },
+ {
+  "seg": 79,
+  "start": 449.308,
+  "end": 454.092,
+  "speaker": "Unknown",
+  "en": "A client makes a request to the server, and then the server responds back with the payment required.",
+  "zh": "客户端向服务器发出请求,然后服务器以“需要付款”作为响应。"
+ },
+ {
+  "seg": 80,
+  "start": 454.993,
+  "end": 462.139,
+  "speaker": "Unknown",
+  "en": "The client then thinks out what is the payment method that it wants to operate, and then it sends the payment authorization to the server.",
+  "zh": "客户端然后考虑清楚它想要使用什么支付方式,然后它把支付授权发送给服务器。"
+ },
+ {
+  "seg": 81,
+  "start": 462.159,
+  "end": 464.902,
+  "speaker": "Unknown",
+  "en": "The server then utilizes a facilitator to complete the",
+  "zh": "服务器随后利用一个 facilitator 来完成"
+ },
+ {
+  "seg": 82,
+  "start": 465.422,
+  "end": 470.324,
+  "speaker": "Unknown",
+  "en": "Verification, and then also utilizes the same facilitator to complete the transaction.",
+  "zh": "验证,然后也利用同一个 facilitator 来完成交易。"
+ },
+ {
+  "seg": 83,
+  "start": 470.904,
+  "end": 476.106,
+  "speaker": "Unknown",
+  "en": "And once the settlement is completed on-chain, essentially the server will then respond back with the content.",
+  "zh": "一旦结算在链上完成,基本上服务器就会随后把内容作为响应返回。"
+ },
+ {
+  "seg": 84,
+  "start": 476.126,
+  "end": 478.226,
+  "speaker": "Unknown",
+  "en": "So this is what's happening under the X402 protocol.",
+  "zh": "所以这就是 X402 协议底层发生的事情。"
+ },
+ {
+  "seg": 85,
+  "start": 478.246,
+  "end": 481.247,
+  "speaker": "Unknown",
+  "en": "I thought I'll pick one of the protocols and just explain this to you.",
+  "zh": "我想挑其中一个协议来给大家解释一下。"
+ },
+ {
+  "seg": 86,
+  "start": 481.267,
+  "end": 491.191,
+  "speaker": "Unknown",
+  "en": "But why this is compelling is essentially there is no protocol fees or the fees that a consumer is paying for, these microcent transactions.",
+  "zh": "但它之所以有吸引力,基本上是因为消费者为这些“微美分”交易支付的费用中没有协议费,或者说费用为零。"
+ },
+ {
+  "seg": 87,
+  "start": 491.351,
+  "end": 493.992,
+  "speaker": "Unknown",
+  "en": "And the merchant is paying very nominal gas fees.",
+  "zh": "而商家只需支付非常微量的 gas 费。"
+ },
+ {
+  "seg": 88,
+  "start": 494.832,
+  "end": 495.933,
+  "speaker": "Unknown",
+  "en": "Again, there is zero wait time.",
+  "zh": "再者,等待时间为零。 [[ 这是以互联网的速度进行的,没有摩擦。"
+ },
+ {
+  "seg": 89,
+  "start": 495.953,
+  "end": 500.255,
+  "speaker": "Unknown",
+  "en": "This is happening at the speed of internet, and there is no friction.",
+  "zh": "这一切正在以互联网的速度发生,没有任何摩擦。"
+ },
+ {
+  "seg": 90,
+  "start": 500.635,
+  "end": 507.439,
+  "speaker": "Unknown",
+  "en": "There is no API keys to set up, no subscriptions, and the payment is essentially the credential to be able to get the content.",
+  "zh": "没有需要设置的 API 密钥,没有订阅,支付本身就是获取内容的凭证。"
+ },
+ {
+  "seg": 91,
+  "start": 507.98,
+  "end": 509.42,
+  "speaker": "Unknown",
+  "en": "So there is no centralization.",
+  "zh": "所以没有中心化。"
+ },
+ {
+  "seg": 92,
+  "start": 509.58,
+  "end": 514.603,
+  "speaker": "Unknown",
+  "en": "It's X402 can be extended as well, and you can implement it, and there are no restrictions as well.",
+  "zh": "X402 也可以被扩展,你可以实现它,而且也没有限制。"
+ },
+ {
+  "seg": 93,
+  "start": 515.084,
+  "end": 520.086,
+  "speaker": "Unknown",
+  "en": "So some key milestones here are, you know, it was introduced last year, May 2025.",
+  "zh": "所以这里有一些关键的里程碑,你知道,它是去年、2025 年 5 月被推出的。"
+ },
+ {
+  "seg": 94,
+  "start": 520.186,
+  "end": 521.367,
+  "speaker": "Unknown",
+  "en": "X402 is not part of the",
+  "zh": "X402 目前已纳入"
+ },
+ {
+  "seg": 95,
+  "start": 523.568,
+  "end": 533.351,
+  "speaker": "Unknown",
+  "en": "Linux Foundation under OpenGovernance, and it's backed by Coinbase, AWS, Google, Stripe, Anthropic, Cloudflare, and Circle, right?",
+  "zh": "Linux 基金会旗下 OpenGovernance 的一部分,它得到了 Coinbase、AWS、Google、Stripe、Anthropic、Cloudflare 和 Circle 的支持,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 533.371,
+  "end": 536.892,
+  "speaker": "Unknown",
+  "en": "So many more folks in there that are supporting the organizations in there.",
+  "zh": "还有更多参与者在那里支持这些组织。"
+ },
+ {
+  "seg": 97,
+  "start": 537.452,
+  "end": 547.975,
+  "speaker": "Unknown",
+  "en": "So from Amazon, we have also released agent code payments under the Bedrock suite, so where agents will be able to make payments, and we'll go into some of the details here.",
+  "zh": "从亚马逊这边,我们也在 Bedrock 套件下发布了 agent code payments,让智能体能够进行支付,我们会在后面讲一些细节。"
+ },
+ {
+  "seg": 98,
+  "start": 549.102,
+  "end": 551.984,
+  "speaker": "Unknown",
+  "en": "So let's talk about the buyer side here and what is involved.",
+  "zh": "那么我们来谈谈买方这边以及它涉及哪些东西。"
+ },
+ {
+  "seg": 99,
+  "start": 552.004,
+  "end": 557.507,
+  "speaker": "Unknown",
+  "en": "So we understood from the developers that they really want to be able to get these agents to have wallet support.",
+  "zh": "我们从开发者那里了解到,他们真的很想让这些智能体拥有钱包支持。"
+ },
+ {
+  "seg": 100,
+  "start": 557.968,
+  "end": 567.654,
+  "speaker": "Unknown",
+  "en": "They want to be able to have real-time settlement, have the budget and guardrails, which enterprises really want, and observability throughout the stack, where they would want to have",
+  "zh": "他们希望能够实现实时结算，拥有预算和护栏——这是企业真正想要的——以及贯穿整个技术栈的可观测性，他们会希望拥有"
+ },
+ {
+  "seg": 101,
+  "start": 568.434,
+  "end": 571.456,
+  "speaker": "Unknown",
+  "en": "The full stack trace of everything that's happening under the hood.",
+  "zh": "底层发生的一切的完整技术栈追踪。"
+ },
+ {
+  "seg": 102,
+  "start": 571.916,
+  "end": 582.981,
+  "speaker": "Unknown",
+  "en": "So I'm excited to share with you that we've launched AgentCode Payments, and this is a service that allows AI agents to autonomously discover, authorize, and execute payments with a few lines of code.",
+  "zh": "所以我很高兴地向大家宣布，我们推出了 AgentCode Payments，这是一项服务，允许 AI 智能体用几行代码自主地发现、授权和执行支付。"
+ },
+ {
+  "seg": 103,
+  "start": 583.101,
+  "end": 586.483,
+  "speaker": "Unknown",
+  "en": "Now we've launched this in partnership with Coinbase and Stripe.",
+  "zh": "现在我们是与 Coinbase 和 Stripe 合作推出这项服务的。"
+ },
+ {
+  "seg": 104,
+  "start": 587.003,
+  "end": 593.726,
+  "speaker": "Unknown",
+  "en": "where you can bring wallets from Coinbase and Stripe to be able to do these operations, and we'll go into some of the details.",
+  "zh": "你可以引入来自 Coinbase 和 Stripe 的钱包来执行这些操作，我们会深入介绍一些细节。"
+ },
+ {
+  "seg": 105,
+  "start": 594.147,
+  "end": 600.73,
+  "speaker": "Unknown",
+  "en": "But the core capabilities to start with are wallet support where you can bring the wallets from Coinbase and Stripe.",
+  "zh": "但首先要说的核心能力是钱包支持，你可以引入来自 Coinbase 和 Stripe 的钱包。"
+ },
+ {
+  "seg": 106,
+  "start": 601.15,
+  "end": 604.192,
+  "speaker": "Unknown",
+  "en": "You're able to orchestrate the payments using payment connectors",
+  "zh": "你能够使用支付连接器来编排支付"
+ },
+ {
+  "seg": 107,
+  "start": 604.452,
+  "end": 609.593,
+  "speaker": "Unknown",
+  "en": "And today, we support X402 with many more protocols that are in the pipeline.",
+  "zh": "而且今天我们支持 X402,还有更多协议正在筹备中。"
+ },
+ {
+  "seg": 108,
+  "start": 610.033,
+  "end": 612.153,
+  "speaker": "Unknown",
+  "en": "The service is designed to be protocol agnostic.",
+  "zh": "这项服务被设计为协议无关的。"
+ },
+ {
+  "seg": 109,
+  "start": 612.393,
+  "end": 617.274,
+  "speaker": "Unknown",
+  "en": "So as new protocols emerge, we are going to be adding the support for those protocols as well.",
+  "zh": "所以随着新协议的出现，我们也将为这些协议添加支持。"
+ },
+ {
+  "seg": 110,
+  "start": 617.934,
+  "end": 622.515,
+  "speaker": "Unknown",
+  "en": "And the settlement is going to be instantaneous, instant, essentially.",
+  "zh": "而且结算将是即时的、瞬时的，基本上是实时的。"
+ },
+ {
+  "seg": 111,
+  "start": 622.975,
+  "end": 632.137,
+  "speaker": "Unknown",
+  "en": "And the payment limits can be set, which is the most important thing that we spoke about, where enterprises are looking to put some payment limits and guard deals on how these transactions can operate.",
+  "zh": "还可以设置支付限额，这是我们谈到的最重要的一点，企业希望对这类交易的运作方式设置一些支付限额和护栏。"
+ },
+ {
+  "seg": 112,
+  "start": 632.697,
+  "end": 642.288,
+  "speaker": "Unknown",
+  "en": "So observability is built-in, and essentially all of this operates with security as the layer that is operating the whole model.",
+  "zh": "所以可观测性是内置的，而且本质上，所有这些都是以安全作为驱动整个模型的层来运作的。"
+ },
+ {
+  "seg": 113,
+  "start": 642.308,
+  "end": 647.553,
+  "speaker": "Unknown",
+  "en": "So with that, let's look at some of these details on how the payments limit can be set up.",
+  "zh": "那么，让我们来看看这些细节中的一些，看看支付限额是如何设置的。"
+ },
+ {
+  "seg": 114,
+  "start": 647.573,
+  "end": 650.436,
+  "speaker": "Unknown",
+  "en": "So you can create payment sessions where you can set the",
+  "zh": "你可以创建支付会话，在其中你可以设置"
+ },
+ {
+  "seg": 115,
+  "start": 651.137,
+  "end": 656.721,
+  "speaker": "Unknown",
+  "en": "Programmatically set the maximum amount of value that can be used for transactions.",
+  "zh": "以编程方式设置可用于交易的最大金额。"
+ },
+ {
+  "seg": 116,
+  "start": 657.241,
+  "end": 659.663,
+  "speaker": "Unknown",
+  "en": "Or you can also set expiry time in minutes.",
+  "zh": "或者你也可以以分钟为单位设置过期时间。"
+ },
+ {
+  "seg": 117,
+  "start": 659.703,
+  "end": 668.348,
+  "speaker": "Unknown",
+  "en": "Think where you are able to set that the agent can actually spend maybe $5 in 30 days or 60 days.",
+  "zh": "想象一下，你可以设置智能体在 30 天或 60 天内实际只能花费 5 美元。"
+ },
+ {
+  "seg": 118,
+  "start": 668.548,
+  "end": 674.172,
+  "speaker": "Unknown",
+  "en": "So that's kind of the operation model that you can set with many more details that are available.",
+  "zh": "这基本上就是你可以设置的操作模式，还有更多可用的细节。"
+ },
+ {
+  "seg": 119,
+  "start": 674.332,
+  "end": 675.993,
+  "speaker": "Unknown",
+  "en": "I'm only going on a few features.",
+  "zh": "我只讲了几个功能。"
+ },
+ {
+  "seg": 120,
+  "start": 677.96,
+  "end": 679.701,
+  "speaker": "Unknown",
+  "en": "Let's look at what happens on the buyer side.",
+  "zh": "让我们看看买方这一边发生了什么。"
+ },
+ {
+  "seg": 121,
+  "start": 680.081,
+  "end": 691.584,
+  "speaker": "Unknown",
+  "en": "When the user is asking an agent to make a particular requesting for resources, so agent completes the request by accessing tools, MPP servers, other resources as well.",
+  "zh": "当用户要求智能体针对资源发起某个特定请求时，智能体通过访问工具、MPP 服务器以及其他资源来完成请求。"
+ },
+ {
+  "seg": 122,
+  "start": 691.924,
+  "end": 693.105,
+  "speaker": "Unknown",
+  "en": "So at that point of time, if",
+  "zh": "所以在那个时候，如果"
+ },
+ {
+  "seg": 123,
+  "start": 693.865,
+  "end": 701.731,
+  "speaker": "Unknown",
+  "en": "The agent is looking at, you know, it finds that there is a response from one of the tool calls or requests with a 402.",
+  "zh": "智能体在查看时，你懂的，发现某个工具调用或请求的响应带有 402。"
+ },
+ {
+  "seg": 124,
+  "start": 702.311,
+  "end": 714.62,
+  "speaker": "Unknown",
+  "en": "Agent Code Payments is going to handle the request to complete the transaction and then let the AI agent know that essentially the settlement happened and the AI agent will be able to respond back with the users.",
+  "zh": "Agent Code Payments 将会处理完成该交易的请求，然后让 AI 智能体知道结算已经完成，AI 智能体就能够向用户回复了。"
+ },
+ {
+  "seg": 125,
+  "start": 715.14,
+  "end": 730.533,
+  "speaker": "Unknown",
+  "en": "So, in this process, when the wallet support is imported, the secret keys that you use to import the wallets actually are stored in a secure token wallet that is secured by KMS, where, you know, that's there.",
+  "zh": "所以，在这个流程中，当钱包支持被导入时，你用来导入钱包的密钥实际上被存储在一个由 KMS 保护的安全令牌钱包中，你懂的，就在那里。"
+ },
+ {
+  "seg": 126,
+  "start": 730.873,
+  "end": 733.856,
+  "speaker": "Unknown",
+  "en": "So, essentially, the agent does not have access to the private keys.",
+  "zh": "所以，本质上，智能体是无法访问私钥的。"
+ },
+ {
+  "seg": 127,
+  "start": 734.156,
+  "end": 736.138,
+  "speaker": "Unknown",
+  "en": "This is most important to note.",
+  "zh": "这是最需要注意的一点。"
+ },
+ {
+  "seg": 128,
+  "start": 736.338,
+  "end": 739.741,
+  "speaker": "Unknown",
+  "en": "And the next thing is that agent code payments is also integrated",
+  "zh": "下一件事是，Agent Code Payments 还集成了"
+ },
+ {
+  "seg": 129,
+  "start": 740.461,
+  "end": 746.985,
+  "speaker": "Unknown",
+  "en": "Through Gateway, which is another service that we have to MCP5 your internal APIs.",
+  "zh": "通过 Gateway,这是我们用来把内部 API MCP5 化的另一项服务。"
+ },
+ {
+  "seg": 130,
+  "start": 747.745,
+  "end": 758.131,
+  "speaker": "Unknown",
+  "en": "Through AgentCore Gateway, the AgentCore payments can get access to Discovery Service in Coinbase, where there are 10,000-plus endpoints that are available to transact.",
+  "zh": "通过 AgentCore Gateway,AgentCore Payments 可以访问 Coinbase 的发现服务，那里有超过一万个可用于交易的端点。"
+ },
+ {
+  "seg": 131,
+  "start": 758.752,
+  "end": 762.674,
+  "speaker": "Unknown",
+  "en": "And then, again, there is a per-session budget that we just discussed as well.",
+  "zh": "然后，同样，还有我们刚刚讨论过的按会话预算。"
+ },
+ {
+  "seg": 132,
+  "start": 764.775,
+  "end": 779.781,
+  "speaker": "Unknown",
+  "en": "There is a decoupling of agent infrastructure and the payment infrastructure by design where the agent can operate in its own loop, and whenever it sees the payment, the payment connectors, orchestration, payment limits, and integration with third-party wallets can happen.",
+  "zh": "这个设计在架构上把智能体基础设施和支付基础设施解耦了，智能体可以在自己的循环中运行，而每当它遇到支付时，支付连接器、编排、支付限额以及与第三方钱包的集成都可以发生。"
+ },
+ {
+  "seg": 133,
+  "start": 779.801,
+  "end": 783.862,
+  "speaker": "Unknown",
+  "en": "So it's important to decouple them because, again, skills can be poisoned.",
+  "zh": "所以把它们解耦很重要，因为，毕竟，技能可能被投毒。"
+ },
+ {
+  "seg": 134,
+  "start": 784.322,
+  "end": 791.765,
+  "speaker": "Unknown",
+  "en": "Inputs for the agents can also be poisoned by inputs as well, so where malicious actors could try to do that.",
+  "zh": "智能体的输入也可能被输入内容投毒，恶意行为者可能会试图这样做。"
+ },
+ {
+  "seg": 135,
+  "start": 792.165,
+  "end": 799.947,
+  "speaker": "Unknown",
+  "en": "So by decoupling and making this by design, AI agents can essentially have a secure path for these transactions.",
+  "zh": "所以通过解耦并把这一点作为设计原则，AI 智能体基本上可以为这些交易拥有一条安全路径。"
+ },
+ {
+  "seg": 136,
+  "start": 800.007,
+  "end": 807.689,
+  "speaker": "Unknown",
+  "en": "And payments do not touch the undeterministic path, but this is more on a deterministic layer as well.",
+  "zh": "而且支付不会触及非确定性路径，这更多是在一个确定性层上运作。"
+ },
+ {
+  "seg": 137,
+  "start": 808.269,
+  "end": 813.99,
+  "speaker": "Unknown",
+  "en": "So why this is important is that, again, AI agents, the code of the agents does not have to change.",
+  "zh": "所以这为什么重要呢，毕竟，AI 智能体——智能体的代码不需要改变。"
+ },
+ {
+  "seg": 138,
+  "start": 814.49,
+  "end": 821.452,
+  "speaker": "Unknown",
+  "en": "You can bring your own model frameworks, and then the payment itself can flow through in the payment layer itself.",
+  "zh": "你可以自带模型框架，然后支付本身可以在支付层内自行流转。"
+ },
+ {
+  "seg": 139,
+  "start": 822.192,
+  "end": 831.338,
+  "speaker": "Unknown",
+  "en": "So, again, the controls, the policy spending controls can be outside of the payment stack itself, and again, this is built to be protocol agnostic.",
+  "zh": "所以，同样，这些控制、策略性支出控制可以放在支付技术栈之外，而且，这个系统被构建为协议无关的。"
+ },
+ {
+  "seg": 140,
+  "start": 831.978,
+  "end": 844.427,
+  "speaker": "Unknown",
+  "en": "So, this is one of the console screens where it shows how you can import the payment connector, and it shows that, you know, you can select the Coinbase wallet and the Stripe Preview wallet from the console.",
+  "zh": "这是一个控制台界面的截图，展示了如何导入支付连接器，它显示，你懂的，你可以在控制台中选择 Coinbase 钱包和 Stripe Preview 钱包。"
+ },
+ {
+  "seg": 141,
+  "start": 845.267,
+  "end": 850.372,
+  "speaker": "Unknown",
+  "en": "And this is a demo in action where we are showing how a secure resource can be accessed.",
+  "zh": "这是一个实际运行的演示，我们展示的是如何访问一个受保护的资源。"
+ },
+ {
+  "seg": 142,
+  "start": 850.412,
+  "end": 856.618,
+  "speaker": "Unknown",
+  "en": "Now, in this case, the AI agent is essentially discovering that there is a secure resource.",
+  "zh": "现在，在这个例子中，AI 智能体基本上是发现存在一个受保护的资源。"
+ },
+ {
+  "seg": 143,
+  "start": 857.218,
+  "end": 868.048,
+  "speaker": "Unknown",
+  "en": "The agent code payments is kicking in, and then it's completing the transaction by utilizing the wallet that is already integrated, and the transaction completes.",
+  "zh": "Agent Code Payments 介入了，然后它通过使用已经集成的钱包完成交易，交易完成。"
+ },
+ {
+  "seg": 144,
+  "start": 868.569,
+  "end": 870.771,
+  "speaker": "Unknown",
+  "en": "Now, this is on the buyer side.",
+  "zh": "现在，这是买方这一边。"
+ },
+ {
+  "seg": 145,
+  "start": 871.904,
+  "end": 874.306,
+  "speaker": "Unknown",
+  "en": "Now, let's look at the seller side to understand what's happening.",
+  "zh": "现在，让我们看看卖方这一边，了解一下发生了什么。"
+ },
+ {
+  "seg": 146,
+  "start": 874.466,
+  "end": 877.708,
+  "speaker": "Unknown",
+  "en": "So again, there is a lot of bot activity that's happening.",
+  "zh": "同样，现在有大量的机器人活动在发生。"
+ },
+ {
+  "seg": 147,
+  "start": 878.048,
+  "end": 884.313,
+  "speaker": "Unknown",
+  "en": "We have released under the AWS Web Application Firewall a feature where we have bot detection in place.",
+  "zh": "我们在 AWS Web Application Firewall 下发布了一个功能，其中内置了机器人检测。"
+ },
+ {
+  "seg": 148,
+  "start": 884.913,
+  "end": 893.119,
+  "speaker": "Unknown",
+  "en": "Today, we detect over 650 different types of bots, things like Perplexity bot, GPD bot, Claude bot, again, Google bots.",
+  "zh": "今天，我们检测超过 650 种不同类型的机器人，比如 Perplexity bot、GPD bot、Claude bot,还有 Google bots。"
+ },
+ {
+  "seg": 149,
+  "start": 893.139,
+  "end": 894.7,
+  "speaker": "Unknown",
+  "en": "So there are so many bots that are out there.",
+  "zh": "所以外面有非常非常多的机器人。"
+ },
+ {
+  "seg": 150,
+  "start": 895.16,
+  "end": 896.161,
+  "speaker": "Unknown",
+  "en": "So we're able to detect",
+  "zh": "所以我们能够检测"
+ },
+ {
+  "seg": 151,
+  "start": 896.781,
+  "end": 898.443,
+  "speaker": "Unknown",
+  "en": "Also understand the intent of these bots.",
+  "zh": "同时理解这些机器人(bot)的意图。"
+ },
+ {
+  "seg": 152,
+  "start": 898.843,
+  "end": 900.665,
+  "speaker": "Unknown",
+  "en": "So why are these bots axing the content?",
+  "zh": "那么这些机器人为什么要抓取内容呢？"
+ },
+ {
+  "seg": 153,
+  "start": 900.745,
+  "end": 903.027,
+  "speaker": "Unknown",
+  "en": "Are they axing the content to train their models?",
+  "zh": "它们抓取内容是为了训练它们的模型吗？"
+ },
+ {
+  "seg": 154,
+  "start": 903.567,
+  "end": 908.752,
+  "speaker": "Unknown",
+  "en": "Are they doing it because they have to respond back to an intent where they're responding for a RAG search?",
+  "zh": "还是因为它们必须响应某个意图，比如为 RAG 搜索做响应？"
+ },
+ {
+  "seg": 155,
+  "start": 909.112,
+  "end": 910.634,
+  "speaker": "Unknown",
+  "en": "So we're able to identify the intent.",
+  "zh": "所以我们能够识别这个意图。"
+ },
+ {
+  "seg": 156,
+  "start": 910.654,
+  "end": 915.218,
+  "speaker": "Unknown",
+  "en": "We're also able to verify the bots and identify them by a signature.",
+  "zh": "我们还能够通过签名来验证机器人并识别它们。"
+ },
+ {
+  "seg": 157,
+  "start": 915.738,
+  "end": 918.44,
+  "speaker": "Unknown",
+  "en": "So we are able to say, hey, this is a verified bot.",
+  "zh": "所以我们可以说，嘿，这是一个经过验证的机器人。"
+ },
+ {
+  "seg": 158,
+  "start": 918.76,
+  "end": 922.762,
+  "speaker": "Unknown",
+  "en": "So maybe you have built a relation with one of these organizations.",
+  "zh": "也许你与其中某个组织建立了关系。"
+ },
+ {
+  "seg": 159,
+  "start": 922.962,
+  "end": 929.366,
+  "speaker": "Unknown",
+  "en": "And these verification will allow you to have a different pricing for the organizations that are already verified.",
+  "zh": "而这些验证将允许你对已经过验证的组织采用不同的定价。"
+ },
+ {
+  "seg": 160,
+  "start": 929.746,
+  "end": 930.947,
+  "speaker": "Unknown",
+  "en": "So we'll look at that in a second.",
+  "zh": "我们稍后会看这个。"
+ },
+ {
+  "seg": 161,
+  "start": 930.967,
+  "end": 933.889,
+  "speaker": "Unknown",
+  "en": "So there's also a real-time traffic analysis that allows",
+  "zh": "此外还有实时流量分析，可以允许"
+ },
+ {
+  "seg": 162,
+  "start": 934.669,
+  "end": 935.99,
+  "speaker": "Unknown",
+  "en": "more to be customized.",
+  "zh": "更多定制。"
+ },
+ {
+  "seg": 163,
+  "start": 936.41,
+  "end": 941.713,
+  "speaker": "Unknown",
+  "en": "And I'm also happy to share with you today that we announced WAF AI Traffic Monetization.",
+  "zh": "今天我也很高兴与大家分享，我们发布了 WAF AI Traffic Monetization。"
+ },
+ {
+  "seg": 164,
+  "start": 941.794,
+  "end": 952.24,
+  "speaker": "Unknown",
+  "en": "This is a service that allows you to monetize based on the content that, you know, based on how you can measure, verify, and monetize based on the AI traffic that is hitting your endpoints.",
+  "zh": "这是一项服务，让你能够基于内容进行变现，你知道，基于你如何衡量、验证针对你的端点的 AI 流量并据此变现。"
+ },
+ {
+  "seg": 165,
+  "start": 952.7,
+  "end": 967.277,
+  "speaker": "Unknown",
+  "en": "Now, if you might be familiar with CloudFront, which is our content distribution network, you can add a web application firewall at that point, and essentially, you can start monetizing right away, and based on a few clicks, you can do that, again, using infrastructure as code as well.",
+  "zh": "现在，你可能熟悉 CloudFront，它是我们的内容分发网络，你可以在那个层面添加一个 Web 应用防火墙，基本上，你只需几次点击就可以立即开始变现，同样，也可以通过基础设施即代码来实现。"
+ },
+ {
+  "seg": 166,
+  "start": 967.838,
+  "end": 975.77,
+  "speaker": "Unknown",
+  "en": "Now, I also spoke about a gateway service that allows you to expose your AI endpoints that are internal and MCP-fy them.",
+  "zh": "现在，我还提到了一个网关服务，它允许你暴露内部的 AI 端点并将它们 MCP 化。"
+ },
+ {
+  "seg": 167,
+  "start": 976.15,
+  "end": 978.534,
+  "speaker": "Unknown",
+  "en": "So the same web application firewalls can be used there.",
+  "zh": "同样的 Web 应用防火墙也可以在那里使用。"
+ },
+ {
+  "seg": 168,
+  "start": 978.894,
+  "end": 982.379,
+  "speaker": "Unknown",
+  "en": "So your internal APIs can be MCP-fied, and then you can start monetizing as well.",
+  "zh": "所以你的内部 API 可以被 MCP 化，然后你也可以开始变现。"
+ },
+ {
+  "seg": 169,
+  "start": 982.92,
+  "end": 984.782,
+  "speaker": "Unknown",
+  "en": "So what happens during monetization?",
+  "zh": "那么变现过程中发生了什么？"
+ },
+ {
+  "seg": 170,
+  "start": 985.002,
+  "end": 989.326,
+  "speaker": "Unknown",
+  "en": "The AI agent, AI bot essentially requests for some content.",
+  "zh": "AI 智能体，也就是 AI 机器人，本质上请求一些内容。"
+ },
+ {
+  "seg": 171,
+  "start": 989.866,
+  "end": 993.91,
+  "speaker": "Unknown",
+  "en": "The bot context understands what kinds of bots is detecting.",
+  "zh": "机器人上下文会理解检测到的是哪种机器人。"
+ },
+ {
+  "seg": 172,
+  "start": 993.97,
+  "end": 995.151,
+  "speaker": "Unknown",
+  "en": "It's able to detect the bot.",
+  "zh": "它能够检测到该机器人。"
+ },
+ {
+  "seg": 173,
+  "start": 995.511,
+  "end": 1001.136,
+  "speaker": "Unknown",
+  "en": "It's able to categorize and understand the intent of the bot, as we discussed earlier, and verify",
+  "zh": "如我们之前讨论的，它能够分类并理解机器人的意图，并进行验证"
+ },
+ {
+  "seg": 174,
+  "start": 1002.157,
+  "end": 1003.678,
+  "speaker": "Unknown",
+  "en": "and check what kind of bot is available.",
+  "zh": "然后检查是哪种机器人。"
+ },
+ {
+  "seg": 175,
+  "start": 1003.738,
+  "end": 1009.221,
+  "speaker": "Unknown",
+  "en": "So then we are able to monetize using the X402, and the publishers get paid as well.",
+  "zh": "这样我们就能够使用 X402 进行变现，发布者也能获得报酬。"
+ },
+ {
+  "seg": 176,
+  "start": 1009.642,
+  "end": 1014.605,
+  "speaker": "Unknown",
+  "en": "So important to note is, again, there is no SDK change, no changes at the origin.",
+  "zh": "同样需要强调的是，没有 SDK 更改，源站也没有任何更改。"
+ },
+ {
+  "seg": 177,
+  "start": 1014.945,
+  "end": 1020.908,
+  "speaker": "Unknown",
+  "en": "Publishers keep 100% of the revenue as well, and again, there is no transaction fees or subscription fees.",
+  "zh": "发布者保留 100% 的收入，同样，没有交易费用或订阅费用。"
+ },
+ {
+  "seg": 178,
+  "start": 1021.429,
+  "end": 1026.472,
+  "speaker": "Unknown",
+  "en": "So this supports X402, and we are adding support for more protocols as well.",
+  "zh": "所以这支持 X402，我们也在增加对更多协议的支持。"
+ },
+ {
+  "seg": 179,
+  "start": 1028.133,
+  "end": 1030.094,
+  "speaker": "Unknown",
+  "en": "A few dimensions on how you can start monetizing.",
+  "zh": "以下是你可以开始变现的几个维度。"
+ },
+ {
+  "seg": 180,
+  "start": 1030.174,
+  "end": 1032.435,
+  "speaker": "Unknown",
+  "en": "Think you have separate paths.",
+  "zh": "设想你有不同的路径。"
+ },
+ {
+  "seg": 181,
+  "start": 1032.815,
+  "end": 1040.7,
+  "speaker": "Unknown",
+  "en": "So a slash blog, in this case, can be charging for a different rate than a slash research or maybe an API endpoint itself.",
+  "zh": "所以在这种情况下，一个 /blog 路径可以收取与 /research 或某个 API 端点本身不同的费率。"
+ },
+ {
+  "seg": 182,
+  "start": 1041.3,
+  "end": 1043.901,
+  "speaker": "Unknown",
+  "en": "And you know the identity of these bots.",
+  "zh": "而且你知道这些机器人的身份。"
+ },
+ {
+  "seg": 183,
+  "start": 1044.021,
+  "end": 1048.544,
+  "speaker": "Unknown",
+  "en": "Again, if you make some kind of relationship with the bots,",
+  "zh": "同样，如果你与这些机器人建立某种关系，"
+ },
+ {
+  "seg": 184,
+  "start": 1049.324,
+  "end": 1057.869,
+  "speaker": "Unknown",
+  "en": "companies, organizations, maybe you make a relation with Anthropic, then you can essentially have a different pricing for those bots versus different unverified bots.",
+  "zh": "公司、组织，比如你与 Anthropic 建立关系，那么你基本上可以对那些机器人采用与不同的未验证机器人不同的定价。"
+ },
+ {
+  "seg": 185,
+  "start": 1057.889,
+  "end": 1059.55,
+  "speaker": "Unknown",
+  "en": "So think of that option.",
+  "zh": "可以考虑这个选项。"
+ },
+ {
+  "seg": 186,
+  "start": 1059.59,
+  "end": 1062.192,
+  "speaker": "Unknown",
+  "en": "And then you can also set different pricing for intent as well.",
+  "zh": "你还可以针对意图设置不同的定价。"
+ },
+ {
+  "seg": 187,
+  "start": 1062.372,
+  "end": 1070.857,
+  "speaker": "Unknown",
+  "en": "If somebody is coming here, if a bot is asking the content for, again, training, you can charge a different rate than what it's doing for a search as well.",
+  "zh": "如果某个机器人来这里请求内容是为了，比如，训练，你可以收取与搜索不同的费率。"
+ },
+ {
+  "seg": 188,
+  "start": 1071.277,
+  "end": 1073.098,
+  "speaker": "Unknown",
+  "en": "So again, these are different WAF rules.",
+  "zh": "同样，这些是不同的 WAF 规则。"
+ },
+ {
+  "seg": 189,
+  "start": 1073.178,
+  "end": 1077.639,
+  "speaker": "Unknown",
+  "en": "They can be in a combination of and, or, or, and then you can access that.",
+  "zh": "它们可以是 and、or 的组合，然后你就可以访问那些配置。"
+ },
+ {
+  "seg": 190,
+  "start": 1077.719,
+  "end": 1089.722,
+  "speaker": "Unknown",
+  "en": "So this is how the reimagined flow would look like, where you're allowing the AI agents or essentially verified bots and unverified bots to have different pricing and humans to have different pricing.",
+  "zh": "这就是重新设计的流程的样子，你可以让 AI 智能体，也就是经过验证的机器人和未验证的机器人，采用不同的定价，而人类采用不同的定价。"
+ },
+ {
+  "seg": 191,
+  "start": 1090.142,
+  "end": 1092.523,
+  "speaker": "Unknown",
+  "en": "Some cases, you want to have humans to access the content freely.",
+  "zh": "在某些情况下，你可能希望人类自由访问内容。"
+ },
+ {
+  "seg": 192,
+  "start": 1092.943,
+  "end": 1097.424,
+  "speaker": "Unknown",
+  "en": "Some cases, again, the humans could be charged, where the bots could be charged differently as well.",
+  "zh": "在某些情况下，同样，人类可能被收费，而机器人也可能被收取不同的费用。"
+ },
+ {
+  "seg": 193,
+  "start": 1097.804,
+  "end": 1100.245,
+  "speaker": "Unknown",
+  "en": "So this is how you can reimagine the price.",
+  "zh": "这就是你可以重新构想定价的方式。"
+ },
+ {
+  "seg": 194,
+  "start": 1100.745,
+  "end": 1112.079,
+  "speaker": "Unknown",
+  "en": "So again, there are some dashboards that show the revenue numbers and how you're able to aggregate by different bots and figure out what kind of revenue model you want to operate.",
+  "zh": "同样，有一些仪表盘可以显示收入数字，以及你如何按不同机器人进行汇总，从而确定你想运营什么样的收入模式。"
+ },
+ {
+  "seg": 195,
+  "start": 1112.139,
+  "end": 1116.625,
+  "speaker": "Unknown",
+  "en": "And it also shows what is the path that's being accessed by these bots.",
+  "zh": "它还显示这些机器人正在访问的路径。"
+ },
+ {
+  "seg": 196,
+  "start": 1116.825,
+  "end": 1118.166,
+  "speaker": "Unknown",
+  "en": "So again,",
+  "zh": "所以，"
+ },
+ {
+  "seg": 197,
+  "start": 1118.747,
+  "end": 1121.409,
+  "speaker": "Unknown",
+  "en": "What is currently everyone using agent e-commerce for?",
+  "zh": "目前大家都在用智能体电商做什么？"
+ },
+ {
+  "seg": 198,
+  "start": 1121.469,
+  "end": 1136.141,
+  "speaker": "Unknown",
+  "en": "They are using agent e-commerce to run, again, LLM inference, getting compute, web scraping, they're creating research agents to be able to, you know, serve the requests, and agent to agent as well.",
+  "zh": "他们正在用智能体电商来运行,又是 LLM 推理,获取算力、网页抓取,他们正在创建研究智能体以便,你知道的,服务这些请求,还有智能体对智能体。"
+ },
+ {
+  "seg": 199,
+  "start": 1136.161,
+  "end": 1138.282,
+  "speaker": "Unknown",
+  "en": "We see MCPs also being monetized now.",
+  "zh": "我们也看到 MCP 现在被用于变现。"
+ },
+ {
+  "seg": 200,
+  "start": 1139.163,
+  "end": 1146.889,
+  "speaker": "Unknown",
+  "en": "Again, this is the last 12 months of traffic from, again, what we're seeing on Coinbase agentic market.",
+  "zh": "再说一次，这是过去 12 个月的流量，同样来自我们在 Coinbase 智能体市场上看到的情况。"
+ },
+ {
+  "seg": 201,
+  "start": 1148.01,
+  "end": 1153.393,
+  "speaker": "Unknown",
+  "en": "Where you're seeing that a $50 million volume transaction happened over 170 million transactions.",
+  "zh": "你可以看到一笔 5000 万美元的交易量发生在超过 1.7 亿笔交易中。"
+ },
+ {
+  "seg": 202,
+  "start": 1153.993,
+  "end": 1162.018,
+  "speaker": "Unknown",
+  "en": "The average settlement time is 200 milliseconds on base with about a tenth of a cent as cost per transaction.",
+  "zh": "在 Base 上的平均结算时间是 200 毫秒，每笔交易的成本约为十分之一美分。"
+ },
+ {
+  "seg": 203,
+  "start": 1162.598,
+  "end": 1171.624,
+  "speaker": "Unknown",
+  "en": "So I spoke to you about agent core payments, which is one of the parts of the bigger ecosystem, Bedrock agent core.",
+  "zh": "所以我向你们讲过 agent core 支付，它是更大的生态系统的一部分，即 Bedrock agent core。"
+ },
+ {
+  "seg": 204,
+  "start": 1172.364,
+  "end": 1180.236,
+  "speaker": "Unknown",
+  "en": "where you can essentially bring your own model, you can bring your own framework, and you can start building AI agents.",
+  "zh": "在那里你基本上可以自带模型，可以自带框架，然后开始构建 AI 智能体。"
+ },
+ {
+  "seg": 205,
+  "start": 1180.637,
+  "end": 1182.7,
+  "speaker": "Unknown",
+  "en": "You can add context by adding memory.",
+  "zh": "你可以通过添加记忆来添加上下文。"
+ },
+ {
+  "seg": 206,
+  "start": 1183.081,
+  "end": 1185.745,
+  "speaker": "Unknown",
+  "en": "You can bring, again, your own managed knowledge bases.",
+  "zh": "你可以，再强调一下，自带你自己的托管知识库。"
+ },
+ {
+  "seg": 207,
+  "start": 1185.765,
+  "end": 1187.748,
+  "speaker": "Unknown",
+  "en": "You can add web search capabilities to the agents.",
+  "zh": "你可以为智能体添加网页搜索能力。"
+ },
+ {
+  "seg": 208,
+  "start": 1188.188,
+  "end": 1196.472,
+  "speaker": "Unknown",
+  "en": "You can MCPfy your internal APIs, and then you can have many more features like being able to run evaluation on how your agents are performing.",
+  "zh": "你可以把你的内部 API MCP 化，然后你还可以有很多更多功能，比如能够对你的智能体的表现进行评估。"
+ },
+ {
+  "seg": 209,
+  "start": 1196.912,
+  "end": 1214.981,
+  "speaker": "Unknown",
+  "en": "So again, you can use Runtime, which is a Bedrock Agent Code Runtime where you can bring your own agent application and serve at scale, and every request will have its own isolated micro virtual machine that is running to serve the requests.",
+  "zh": "所以，再强调一下，你可以使用 Runtime，它是一个 Bedrock Agent Code Runtime,你可以在那里自带你的智能体应用并大规模提供服务，每个请求都会有自己隔离的微型虚拟机在运行来服务该请求。"
+ },
+ {
+  "seg": 210,
+  "start": 1215.441,
+  "end": 1217.543,
+  "speaker": "Unknown",
+  "en": "So, that's it from my side here today.",
+  "zh": "那么，今天我要讲的就是这些。"
+ },
+ {
+  "seg": 211,
+  "start": 1218.184,
+  "end": 1220.627,
+  "speaker": "Unknown",
+  "en": "Thank you, and I hope you have a nice day.",
+  "zh": "谢谢大家，祝你们有美好的一天。"
+ }
+]

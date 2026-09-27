@@ -143,7 +143,7 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 - [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
-- [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
+- [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|机器人流量已超人类：当 AI 智能体开始自己付钱]]<span class="pd-rz">同概念:智能体 (agent)、机器人 (bot)</span>
 
 </div>
 </div>

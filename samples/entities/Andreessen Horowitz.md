@@ -27,7 +27,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Josh Elman]] · [[Ben Horowitz]] · [[Oli Forsyth]] · [[Sofia Puccini]] · [[ChatGPT]] · [[NVIDIA]] · [[智能体]] · [[Anthropic]] · [[信任建立]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Josh Elman":1,"Ben Horowitz":5,"Oli Forsyth":1,"Sofia Puccini":4,"ChatGPT":79,"NVIDIA":45,"智能体":339,"Anthropic":147,"信任建立":5}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Josh Elman":1,"Ben Horowitz":5,"Oli Forsyth":1,"Sofia Puccini":4,"ChatGPT":79,"NVIDIA":45,"智能体":342,"Anthropic":148,"信任建立":5}</script>
 
 <script>
 (function(){

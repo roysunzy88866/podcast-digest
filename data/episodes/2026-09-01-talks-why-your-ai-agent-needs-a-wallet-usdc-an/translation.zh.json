@@ -1,0 +1,1362 @@
+[
+ {
+  "seg": 0,
+  "start": 12.876,
+  "end": 13.817,
+  "speaker": "Unknown",
+  "en": "Good morning, everyone.",
+  "zh": "大家早上好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.538,
+  "end": 22.683,
+  "speaker": "Unknown",
+  "en": "So I've had the pleasure of meeting a lot of folks at the booth over the last couple of days.",
+  "zh": "过去几天里,我在展位上很高兴见到了很多人。"
+ },
+ {
+  "seg": 2,
+  "start": 23.444,
+  "end": 26.266,
+  "speaker": "Unknown",
+  "en": "And the interactions have been great.",
+  "zh": "这些交流都很棒。"
+ },
+ {
+  "seg": 3,
+  "start": 26.306,
+  "end": 32.49,
+  "speaker": "Unknown",
+  "en": "But one question kept coming up, which was Circle is a stablecoin company.",
+  "zh": "但有一个问题不断被提起,那就是 Circle 是一家稳定币公司。"
+ },
+ {
+  "seg": 4,
+  "start": 32.991,
+  "end": 37.154,
+  "speaker": "Unknown",
+  "en": "So why is a stablecoin company at an AI engineering conference?",
+  "zh": "那么为什么一家稳定币公司会出现在一个 AI 工程大会上?"
+ },
+ {
+  "seg": 5,
+  "start": 38.066,
+  "end": 48.494,
+  "speaker": "Unknown",
+  "en": "And well, the answer to that is fairly simple because Circle issues USDC, which is the world's largest regulated stablecoin.",
+  "zh": "嗯,答案其实很简单,因为 Circle 发行 USDC,这是全球最大的受监管稳定币。"
+ },
+ {
+  "seg": 6,
+  "start": 49.555,
+  "end": 55.119,
+  "speaker": "Unknown",
+  "en": "And we've built over the years expertise in making payments simpler and cheaper.",
+  "zh": "而且多年来我们积累了让支付更简单、更便宜的专业能力。"
+ },
+ {
+  "seg": 7,
+  "start": 56.22,
+  "end": 60.123,
+  "speaker": "Unknown",
+  "en": "And turns out that's one of the bottlenecks for your AI agents.",
+  "zh": "结果发现,这恰恰是你的 AI 智能体的瓶颈之一。"
+ },
+ {
+  "seg": 8,
+  "start": 61.083,
+  "end": 71.766,
+  "speaker": "Unknown",
+  "en": "So when you often think about making AI agents smarter, we think about better models, more tool calls, complex orchestration.",
+  "zh": "当你通常考虑让 AI 智能体更聪明时,我们会想到更好的模型、更多的工具调用、复杂的编排。"
+ },
+ {
+  "seg": 9,
+  "start": 72.786,
+  "end": 81.509,
+  "speaker": "Unknown",
+  "en": "But where your agent actually in practice actually holds is when it hits a paywall or when it has to pay for something.",
+  "zh": "但你的智能体在实践中真正卡住的地方,是当它遇到付费墙,或者当它必须为某样东西付费的时候。"
+ },
+ {
+  "seg": 10,
+  "start": 82.369,
+  "end": 89.051,
+  "speaker": "Unknown",
+  "en": "Then you have to step in, either create an account, sign up, or manage API keys.",
+  "zh": "这时你就得介入,要么创建账户、注册,要么管理 API 密钥。"
+ },
+ {
+  "seg": 11,
+  "start": 90.159,
+  "end": 93.261,
+  "speaker": "Unknown",
+  "en": "So that's where the limitation is.",
+  "zh": "所以限制就在这里。"
+ },
+ {
+  "seg": 12,
+  "start": 94.041,
+  "end": 96.302,
+  "speaker": "Unknown",
+  "en": "And that's the gap that I want to talk about today.",
+  "zh": "而这就是我今天想要谈论的缺口。"
+ },
+ {
+  "seg": 13,
+  "start": 97.443,
+  "end": 103.686,
+  "speaker": "Unknown",
+  "en": "So yeah, I'm Harshal and I'm an engineer on the Agent Tech product team at Circle.",
+  "zh": "是的,我是 Harshal,Circle 智能体技术产品团队的一名工程师。"
+ },
+ {
+  "seg": 14,
+  "start": 105.267,
+  "end": 109.089,
+  "speaker": "Unknown",
+  "en": "So let's sort of take a step back and see how we got here.",
+  "zh": "那么让我们稍微退后一步,看看我们是如何走到今天的。"
+ },
+ {
+  "seg": 15,
+  "start": 109.85,
+  "end": 112.251,
+  "speaker": "Unknown",
+  "en": "We believe that the Agent Tech economy is already here.",
+  "zh": "我们相信,智能体技术经济已经到来了。"
+ },
+ {
+  "seg": 16,
+  "start": 114.213,
+  "end": 123.456,
+  "speaker": "Unknown",
+  "en": "However, in 2023, we interacted with agents via prompts, your ChatGPT, and stuff like that.",
+  "zh": "然而在 2023 年,我们通过提示词与智能体交互,比如你的 ChatGPT 之类的。"
+ },
+ {
+  "seg": 17,
+  "start": 123.896,
+  "end": 126.237,
+  "speaker": "Unknown",
+  "en": "We got a little bit better in 2024.",
+  "zh": "2024 年我们变得稍微好了一些。"
+ },
+ {
+  "seg": 18,
+  "start": 126.277,
+  "end": 127.197,
+  "speaker": "Unknown",
+  "en": "We built workflows.",
+  "zh": "我们构建了工作流。"
+ },
+ {
+  "seg": 19,
+  "start": 127.937,
+  "end": 131.298,
+  "speaker": "Unknown",
+  "en": "2025 was all about MCPs, skills, and orchestration.",
+  "zh": "2025 年全是关于 MCP、技能和编排的。"
+ },
+ {
+  "seg": 20,
+  "start": 132.479,
+  "end": 138.761,
+  "speaker": "Unknown",
+  "en": "And we believe this year, 2026, is when agents actually start paying for services that they want.",
+  "zh": "而我们相信今年,2026 年,是智能体真正开始为它们想要的服务付费的一年。"
+ },
+ {
+  "seg": 21,
+  "start": 139.761,
+  "end": 142.002,
+  "speaker": "Unknown",
+  "en": "And the signals are promising.",
+  "zh": "而且信号是令人鼓舞的。"
+ },
+ {
+  "seg": 22,
+  "start": 142.938,
+  "end": 156.208,
+  "speaker": "Unknown",
+  "en": "Just in the last 30 days, agents have transacted with paid API endpoints, and the volume is about like $24 million over X402.",
+  "zh": "仅仅在过去的 30 天里,智能体已经与付费 API 端点进行了交易,通过 X402 的交易量大约是 2400 万美元。"
+ },
+ {
+  "seg": 23,
+  "start": 156.588,
+  "end": 159.691,
+  "speaker": "Unknown",
+  "en": "And 99% of it has been settled in USDC.",
+  "zh": "其中 99% 是用 USDC 结算的。"
+ },
+ {
+  "seg": 24,
+  "start": 160.651,
+  "end": 167.737,
+  "speaker": "Unknown",
+  "en": "While this number may look small in terms of volume in the broader landscape, it's only about to get larger.",
+  "zh": "虽然从更宏观的格局来看,这个数字在交易量上可能看起来很小,但它只会变得更大。"
+ },
+ {
+  "seg": 25,
+  "start": 169.145,
+  "end": 170.248,
+  "speaker": "Unknown",
+  "en": "So what is X402?",
+  "zh": "那么 X402 是什么?"
+ },
+ {
+  "seg": 26,
+  "start": 171.191,
+  "end": 172.756,
+  "speaker": "Unknown",
+  "en": "Essentially, X402 is",
+  "zh": "从本质上讲,X402 是"
+ },
+ {
+  "seg": 27,
+  "start": 173.839,
+  "end": 187.826,
+  "speaker": "Unknown",
+  "en": "A way where agents can pay for the resources that they want because the server essentially returns a 402 header and with the details of how they want the payment to proceed.",
+  "zh": "一种智能体可以为其想要的资源付费的方式,因为服务器本质上会返回一个 402 头部,并附带他们希望支付如何进行的详细信息。"
+ },
+ {
+  "seg": 28,
+  "start": 188.066,
+  "end": 195.769,
+  "speaker": "Unknown",
+  "en": "And then the agent just signs an authorization from the crypto wallet and then pays for the resource and retires the request again.",
+  "zh": "然后智能体只需从加密钱包签署一个授权,然后为该资源付费并重新发起请求。"
+ },
+ {
+  "seg": 29,
+  "start": 196.07,
+  "end": 200.932,
+  "speaker": "Unknown",
+  "en": "So that's X402 in a nutshell and we'll see that in action in a live demo.",
+  "zh": "这就是 X402 的简要介绍,我们将在一个实时演示中看到它的实际运作。"
+ },
+ {
+  "seg": 30,
+  "start": 201.952,
+  "end": 203.193,
+  "speaker": "Unknown",
+  "en": "But then the question is,",
+  "zh": "但接下来的问题是,"
+ },
+ {
+  "seg": 31,
+  "start": 204.593,
+  "end": 207.446,
+  "speaker": "Unknown",
+  "en": "Why do traditional payment rails not work?",
+  "zh": "为什么传统支付轨道行不通?"
+ },
+ {
+  "seg": 32,
+  "start": 207.768,
+  "end": 209.315,
+  "speaker": "Unknown",
+  "en": "And why do the agents get stuck?",
+  "zh": "为什么智能体会卡住?"
+ },
+ {
+  "seg": 33,
+  "start": 210.472,
+  "end": 220.196,
+  "speaker": "Unknown",
+  "en": "So the answer is simple, because for the last 30 years, we've built the internet around one customer, and that was humans.",
+  "zh": "答案很简单,因为在过去 30 年里,我们围绕一个客户构建了互联网,那就是人类。"
+ },
+ {
+  "seg": 34,
+  "start": 220.616,
+  "end": 227.419,
+  "speaker": "Unknown",
+  "en": "So we built payment schemes, monetization strategies, all catered towards how humans interacted.",
+  "zh": "所以我们构建的支付方案、变现策略,全都是迎合人类的交互方式。"
+ },
+ {
+  "seg": 35,
+  "start": 228.02,
+  "end": 235.223,
+  "speaker": "Unknown",
+  "en": "So you had your sign-up flows, add your credit card, put in your information, and manage your API keys.",
+  "zh": "于是你有了注册流程、添加信用卡、填入你的信息、管理你的 API 密钥。"
+ },
+ {
+  "seg": 36,
+  "start": 235.723,
+  "end": 237.864,
+  "speaker": "Unknown",
+  "en": "But agents just don't function that way.",
+  "zh": "但智能体根本不是那样运作的。"
+ },
+ {
+  "seg": 37,
+  "start": 238.604,
+  "end": 252.109,
+  "speaker": "Unknown",
+  "en": "Agents want to come in and grab that piece of data, resource, compute, inference, whatever, and they have the ability to even consume knowledge at a scale that humans just cannot.",
+  "zh": "智能体想要进来,抓取那份数据、资源、算力、推理,随便什么,而且它们甚至拥有以人类根本无法企及的规模来消费知识的能力。"
+ },
+ {
+  "seg": 38,
+  "start": 252.849,
+  "end": 264.954,
+  "speaker": "Unknown",
+  "en": "I'm sure you have seen sessions where it's able to just scrape through hundreds of web pages and then it just stalls because it can't reach a particular endpoint and it skips over it.",
+  "zh": "我相信你见过这样的会话:它能够快速抓取数百个网页,然后它就停住了,因为它无法访问某个特定的端点,于是跳过了它。"
+ },
+ {
+  "seg": 39,
+  "start": 267.917,
+  "end": 271.399,
+  "speaker": "Unknown",
+  "en": "Then you could think, oh, yeah, just give it a credit card or something like that.",
+  "zh": "然后你可能会想,哦,是的,给它一张信用卡之类的就行了。"
+ },
+ {
+  "seg": 40,
+  "start": 271.52,
+  "end": 280.105,
+  "speaker": "Unknown",
+  "en": "So while that is possible, these agents, because they consume so much data as they go, it's",
+  "zh": "虽然那是可行的,但这些智能体,因为它们在运行过程中消费如此多的数据,所以"
+ },
+ {
+  "seg": 41,
+  "start": 281.747,
+  "end": 286.991,
+  "speaker": "Unknown",
+  "en": "They pay in fractional amounts, so tiny amounts, but at a very high frequency.",
+  "zh": "它们以零星金额支付,也就是极小的金额,但频率非常高。"
+ },
+ {
+  "seg": 42,
+  "start": 287.932,
+  "end": 292.655,
+  "speaker": "Unknown",
+  "en": "And credit cards and their fees are just not sustainable for this kind of economic model.",
+  "zh": "而信用卡及其手续费对于这种经济模型来说是完全不可持续的。"
+ },
+ {
+  "seg": 43,
+  "start": 293.376,
+  "end": 298.9,
+  "speaker": "Unknown",
+  "en": "You cannot pay 3% each time an agent tries to make a one-cent transaction.",
+  "zh": "每当智能体尝试进行一笔一美分的交易时,你不可能支付 3% 的手续费。"
+ },
+ {
+  "seg": 44,
+  "start": 299.46,
+  "end": 308.562,
+  "speaker": "Unknown",
+  "en": "And the reason these transaction amounts are so small is because on the sell side or on the merchant side, they've realized that these paywalls were actually catered for humans.",
+  "zh": "而这些交易金额之所以这么小,是因为在卖方或商户那边,他们意识到这些付费墙实际上是为人类设计的。"
+ },
+ {
+  "seg": 45,
+  "start": 309.163,
+  "end": 316.725,
+  "speaker": "Unknown",
+  "en": "And now there's an entirely different customer base which is trying to access their data, and they just want a subset of the data.",
+  "zh": "而现在有一个完全不同的客户群正在尝试访问他们的数据,而他们只想要数据的一个子集。"
+ },
+ {
+  "seg": 46,
+  "start": 316.885,
+  "end": 328.608,
+  "speaker": "Unknown",
+  "en": "So you could monetize that as a seller by just offering that, by wrapping that in a paywall and saying, hey, pay me 10 cents and grab this data.",
+  "zh": "所以作为卖方,你可以通过提供这一点来变现,把它包在一个付费墙里,说:嘿,付我 10 美分,拿走这份数据。"
+ },
+ {
+  "seg": 47,
+  "start": 329.368,
+  "end": 335.772,
+  "speaker": "Unknown",
+  "en": "And that's why these are tiny microtransactions, but highly frequent.",
+  "zh": "这就是为什么这些是极小的微交易,但频率极高。"
+ },
+ {
+  "seg": 48,
+  "start": 335.792,
+  "end": 338.974,
+  "speaker": "Unknown",
+  "en": "So, because the agents are just making these API calls constantly.",
+  "zh": "因为智能体就是在这个不断地进行这些 API 调用。"
+ },
+ {
+  "seg": 49,
+  "start": 341.656,
+  "end": 343.918,
+  "speaker": "Unknown",
+  "en": "So, what do these agents need?",
+  "zh": "那么,这些智能体需要什么?"
+ },
+ {
+  "seg": 50,
+  "start": 344.338,
+  "end": 348.04,
+  "speaker": "Unknown",
+  "en": "The agents need payments to work like the internet.",
+  "zh": "智能体需要像互联网一样运作的支付。"
+ },
+ {
+  "seg": 51,
+  "start": 348.901,
+  "end": 354.925,
+  "speaker": "Unknown",
+  "en": "So, they have to be real-time, low-cost, programmable, and always on.",
+  "zh": "所以，它们必须是实时、低成本、可编程且始终在线的。"
+ },
+ {
+  "seg": 52,
+  "start": 357.126,
+  "end": 359.387,
+  "speaker": "Unknown",
+  "en": "And that's why we've built the Circle Agent Stack.",
+  "zh": "这就是我们构建 Circle Agent Stack 的原因。"
+ },
+ {
+  "seg": 53,
+  "start": 359.507,
+  "end": 362.628,
+  "speaker": "Unknown",
+  "en": "So it's the full stack platform for the agent tech economy.",
+  "zh": "它是智能体技术经济的全栈平台。"
+ },
+ {
+  "seg": 54,
+  "start": 363.108,
+  "end": 367.629,
+  "speaker": "Unknown",
+  "en": "And what we mean by that, let's look at it with a live demo.",
+  "zh": "我们的意思是什么，让我们通过一个现场演示来看一下。"
+ },
+ {
+  "seg": 55,
+  "start": 368.109,
+  "end": 370.49,
+  "speaker": "Unknown",
+  "en": "Yeah, wish me luck.",
+  "zh": "好的，祝我好运。"
+ },
+ {
+  "seg": 56,
+  "start": 372.29,
+  "end": 372.871,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 57,
+  "start": 374.551,
+  "end": 380.753,
+  "speaker": "Unknown",
+  "en": "So I'll just explain what I'm trying to, if I can get the.",
+  "zh": "我来解释一下我想做什么，如果我能拿到那个。"
+ },
+ {
+  "seg": 58,
+  "start": 383.94,
+  "end": 385.14,
+  "speaker": "Unknown",
+  "en": "Terminal, okay.",
+  "zh": "终端，好了。"
+ },
+ {
+  "seg": 59,
+  "start": 386.601,
+  "end": 387.241,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 60,
+  "start": 389.222,
+  "end": 394.984,
+  "speaker": "Unknown",
+  "en": "Let's pull it.",
+  "zh": "让我们把它拉出来。"
+ },
+ {
+  "seg": 61,
+  "start": 396.765,
+  "end": 400.667,
+  "speaker": "Unknown",
+  "en": "Yeah, I don't know.",
+  "zh": "嗯，我不知道。"
+ },
+ {
+  "seg": 62,
+  "start": 400.927,
+  "end": 401.847,
+  "speaker": "Unknown",
+  "en": "Excuse me, can I?",
+  "zh": "不好意思，我可以吗?"
+ },
+ {
+  "seg": 63,
+  "start": 402.767,
+  "end": 406.869,
+  "speaker": "Unknown",
+  "en": "Yeah, I tried, but it's just not.",
+  "zh": "是的，我试过了，但就是不行。"
+ },
+ {
+  "seg": 64,
+  "start": 407.689,
+  "end": 409.45,
+  "speaker": "Unknown",
+  "en": "I don't know where the placement of the desktop is.",
+  "zh": "我不知道桌面放在哪里了。"
+ },
+ {
+  "seg": 65,
+  "start": 420.562,
+  "end": 420.742,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 66,
+  "start": 426.824,
+  "end": 427.444,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 67,
+  "start": 427.825,
+  "end": 430.886,
+  "speaker": "Unknown",
+  "en": "So what we have over here are two sessions.",
+  "zh": "我们这里有两个会话。"
+ },
+ {
+  "seg": 68,
+  "start": 431.266,
+  "end": 438.508,
+  "speaker": "Unknown",
+  "en": "One is your regular Claude Code, and on the right-hand side is a Claude Code that comes equipped with Circle Agent Wallet.",
+  "zh": "一个是你普通的 Claude Code,右边是一个配备了 Circle Agent Wallet 的 Claude Code。"
+ },
+ {
+  "seg": 69,
+  "start": 438.528,
+  "end": 445.471,
+  "speaker": "Unknown",
+  "en": "So it has a wallet which is funded and has the ability to pay for premium content.",
+  "zh": "所以它有一个已充值的钱包，并且有能力为付费内容付款。"
+ },
+ {
+  "seg": 70,
+  "start": 446.091,
+  "end": 448.912,
+  "speaker": "Unknown",
+  "en": "And now let me actually just",
+  "zh": "现在让我实际"
+ },
+ {
+  "seg": 71,
+  "start": 450.914,
+  "end": 459.208,
+  "speaker": "Unknown",
+  "en": "Quickly add a task to this and run it.",
+  "zh": "快速添加一个任务并运行它。"
+ },
+ {
+  "seg": 72,
+  "start": 460.711,
+  "end": 463.556,
+  "speaker": "Unknown",
+  "en": "So I'll explain what I'm trying to do over here which is",
+  "zh": "我来解释一下我在这里想做什么，也就是"
+ },
+ {
+  "seg": 73,
+  "start": 465.031,
+  "end": 475.037,
+  "speaker": "Unknown",
+  "en": "Yeah, so the task I'm giving Claude, and it's the same task on both the terminals, is plan my trip for the FIFA World Cup final.",
+  "zh": "对，我给 Claude 的任务——两个终端上是相同的任务——是为 FIFA 世界杯决赛规划我的行程。"
+ },
+ {
+  "seg": 74,
+  "start": 475.638,
+  "end": 482.062,
+  "speaker": "Unknown",
+  "en": "So just give me a summary of flights, hotels, logistics.",
+  "zh": "只要给我一个航班、酒店、后勤安排的摘要。"
+ },
+ {
+  "seg": 75,
+  "start": 482.722,
+  "end": 486.386,
+  "speaker": "Unknown",
+  "en": "Also, what are the odds of my favorite team Argentina being in the final?",
+  "zh": "还有，我最喜欢的球队阿根廷进入决赛的赔率是多少?"
+ },
+ {
+  "seg": 76,
+  "start": 486.826,
+  "end": 487.747,
+  "speaker": "Unknown",
+  "en": "Who is it going to play?",
+  "zh": "它将对阵谁?"
+ },
+ {
+  "seg": 77,
+  "start": 487.988,
+  "end": 488.688,
+  "speaker": "Unknown",
+  "en": "And stuff like that.",
+  "zh": "诸如此类的内容。"
+ },
+ {
+  "seg": 78,
+  "start": 489.729,
+  "end": 493.814,
+  "speaker": "Unknown",
+  "en": "And also, what's the ticket prices in the secondary market?",
+  "zh": "还有，二级市场的票价是多少?"
+ },
+ {
+  "seg": 79,
+  "start": 494.014,
+  "end": 497.938,
+  "speaker": "Unknown",
+  "en": "How is the experience of other people who've actually been to the stadiums?",
+  "zh": "真正去过球场的其他人的体验如何?"
+ },
+ {
+  "seg": 80,
+  "start": 498.719,
+  "end": 500.701,
+  "speaker": "Unknown",
+  "en": "And are there any FYIs?",
+  "zh": "有没有什么注意事项(FYI)?"
+ },
+ {
+  "seg": 81,
+  "start": 500.841,
+  "end": 501.421,
+  "speaker": "Unknown",
+  "en": "And stuff like that.",
+  "zh": "诸如此类的东西。"
+ },
+ {
+  "seg": 82,
+  "start": 502.102,
+  "end": 514.072,
+  "speaker": "Unknown",
+  "en": "Grab all of that, send me an email, and if possible, make a phone call and confirm that all of this has been researched and brief me on the summary.",
+  "zh": "把所有这些收集起来，给我发一封邮件，如果可能的话，打一个电话，确认所有这些都已研究完毕，并向我简要汇报摘要。"
+ },
+ {
+  "seg": 83,
+  "start": 514.753,
+  "end": 517.936,
+  "speaker": "Unknown",
+  "en": "So we'll see what's happening on both the terminals here.",
+  "zh": "我们来看看这两个终端上正在发生什么。"
+ },
+ {
+  "seg": 84,
+  "start": 520.924,
+  "end": 522.785,
+  "speaker": "Unknown",
+  "en": "Sorry, it's a bit hard to navigate.",
+  "zh": "抱歉，操作起来有点困难。"
+ },
+ {
+  "seg": 85,
+  "start": 522.805,
+  "end": 532.912,
+  "speaker": "Unknown",
+  "en": "So as you can see, the vanilla Claude Code has spun up a bunch of sub-agents, and it's going about doing its research.",
+  "zh": "如你所见，原版 Claude Code 已经启动了一批子智能体，正在进行研究。"
+ },
+ {
+  "seg": 86,
+  "start": 533.492,
+  "end": 548.302,
+  "speaker": "Unknown",
+  "en": "Similarly, on the right-hand side, it's actually going through the wallets and paying for all of these premium content, and we'll see what the results of it are.",
+  "zh": "同样地，在右边，它实际上正在通过钱包为所有这些付费内容付款，我们稍后会看到结果如何。"
+ },
+ {
+  "seg": 87,
+  "start": 553.051,
+  "end": 562.296,
+  "speaker": "Unknown",
+  "en": "So, as you can see, it's trying to make a phone call, sorry, an API call to stable and rich, and it's paying from its wallet.",
+  "zh": "那么，如你所见，它正在尝试打一个电话，抱歉，是对 stable and rich 发起一个 API 调用，并且它在用它的钱包付款。"
+ },
+ {
+  "seg": 88,
+  "start": 563.076,
+  "end": 566.678,
+  "speaker": "Unknown",
+  "en": "It's set up a guardrail of like, hey, max amount is 15 cents.",
+  "zh": "它设置了一个护栏，比如，嘿，最大金额是 15 美分。"
+ },
+ {
+  "seg": 89,
+  "start": 567.318,
+  "end": 571.621,
+  "speaker": "Unknown",
+  "en": "The beauty of having an agent with a wallet is...",
+  "zh": "给智能体配备一个钱包的美妙之处在于……"
+ },
+ {
+  "seg": 90,
+  "start": 572.281,
+  "end": 586.451,
+  "speaker": "Unknown",
+  "en": "You sort of build these guardrails into the wallet, and you don't have to, as a human, approve every single transaction, because that would just not scale, because these agents are just making these $0.05, $0.10 transactions.",
+  "zh": "你可以把这些护栏直接内置到钱包里，而你作为人类不必逐笔批准每一笔交易，因为那样根本无法扩展，因为这些智能体只是在做这些 0.05 美元、0.10 美元的交易。"
+ },
+ {
+  "seg": 91,
+  "start": 586.952,
+  "end": 595.398,
+  "speaker": "Unknown",
+  "en": "You want to enforce those guardrails, which is, hey, this is the max amount you can spend per session, or this is the max cap you can do per day and stuff like that.",
+  "zh": "你要执行的是这些护栏，比如，嘿，这是你每个会话能花费的最大金额，或者这是你每天能花的上限之类的东西。"
+ },
+ {
+  "seg": 92,
+  "start": 596.078,
+  "end": 603.801,
+  "speaker": "Unknown",
+  "en": "So the agent is still spending within the guardrails that you set, but it is autonomous enough to make these individual API calls.",
+  "zh": "这样智能体仍然在你设定的护栏内支出，但它又有足够的自主性来发起这些单独的 API 调用。"
+ },
+ {
+  "seg": 93,
+  "start": 607.443,
+  "end": 618.948,
+  "speaker": "Unknown",
+  "en": "So let me just look at what the vanilla one is looking up and doing some research for hotels.",
+  "zh": "让我看看原版那个正在查询什么，正在为酒店做一些研究。"
+ },
+ {
+  "seg": 94,
+  "start": 623.07,
+  "end": 623.83,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 95,
+  "start": 625.27,
+  "end": 626.491,
+  "speaker": "Unknown",
+  "en": "Lights are coming in.",
+  "zh": "航班信息正在进来。"
+ },
+ {
+  "seg": 96,
+  "start": 628.232,
+  "end": 635.916,
+  "speaker": "Unknown",
+  "en": "Also, in the prompt, try to tell the agent to wrap this whole thing up within six to eight minutes in the interest of time.",
+  "zh": "另外，我在提示词里，为了节省时间，尽量让智能体在六到八分钟内把整个事情收尾。"
+ },
+ {
+  "seg": 97,
+  "start": 635.936,
+  "end": 641.279,
+  "speaker": "Unknown",
+  "en": "So let's see if we're able to get an email and a phone call done in the same time.",
+  "zh": "我们看看能不能在同一时间内完成一封邮件和一个电话。"
+ },
+ {
+  "seg": 98,
+  "start": 652.63,
+  "end": 658.213,
+  "speaker": "Unknown",
+  "en": "Let me also walk you through what the agent's doing, if I can grab.",
+  "zh": "我再带你看一下这个智能体正在做什么，如果我能拿到。"
+ },
+ {
+  "seg": 99,
+  "start": 665.938,
+  "end": 675.623,
+  "speaker": "Unknown",
+  "en": "As you can see, over here, the agent was able to make an API call to the Polymarket data via a provider called BlockRun.",
+  "zh": "如你所见，在这里，这个智能体通过一个叫 BlockRun 的提供商成功对 Polymarket 数据发起了 API 调用。"
+ },
+ {
+  "seg": 100,
+  "start": 676.5,
+  "end": 687.575,
+  "speaker": "Unknown",
+  "en": "And it provided a query, and again, set the max amount guardrails, and is now passing all the results.",
+  "zh": "它提供了一个查询，再次设置了最大额度的护栏，现在正在传递所有结果。"
+ },
+ {
+  "seg": 101,
+  "start": 713.272,
+  "end": 720.696,
+  "speaker": "Unknown",
+  "en": "All right, so let's go back to the main agent here.",
+  "zh": "好的，让我们回到这里的主智能体。"
+ },
+ {
+  "seg": 102,
+  "start": 743.28,
+  "end": 743.36,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 103,
+  "start": 744.06,
+  "end": 754.884,
+  "speaker": "Unknown",
+  "en": "And this is where I think you'll see on the left-hand side that the agent gets stuck because the agent just does not have the ability, it cannot send out an email natively.",
+  "zh": "这里我认为你会在左侧看到智能体卡住了，因为智能体就是没有这个能力，它无法原生发送电子邮件。"
+ },
+ {
+  "seg": 104,
+  "start": 754.904,
+  "end": 764.267,
+  "speaker": "Unknown",
+  "en": "So what it's doing is it's using my, it's just like adding a draft into my Gmail account that is logged in, but it just cannot send it to someone.",
+  "zh": "所以它做的是用我的，它只是往我已登录的 Gmail 账户里添加了一封草稿，但它就是无法发给某人。"
+ },
+ {
+  "seg": 105,
+  "start": 764.947,
+  "end": 772.79,
+  "speaker": "Unknown",
+  "en": "Whereas the other agent on the right-hand side will just be able to use a provider, pay it, and send an email.",
+  "zh": "而右侧的另一个智能体将能够直接使用一个提供商，付钱，然后发送电子邮件。"
+ },
+ {
+  "seg": 106,
+  "start": 780.748,
+  "end": 790.69,
+  "speaker": "Unknown",
+  "en": "Now, let's see, this one's, the other agent is also like, is about to like send an email and place the call, so let's see.",
+  "zh": "现在，让我们看看，这一个，另一个智能体也差不多要发送电子邮件并拨打电话了，让我们看看。"
+ },
+ {
+  "seg": 107,
+  "start": 813.05,
+  "end": 825.919,
+  "speaker": "Unknown",
+  "en": "So, as the, I think the left agent, the vanilla Claude Code's finished, and as you can see, it's sort of like made a confession that, yeah, it cannot have, it does not have the ability to make a phone call.",
+  "zh": "那么，我想左侧的智能体，原版 Claude Code 已经完成了，如你所见，它某种程度上像是做了个坦白，是的，它无法，它没有能力打电话。"
+ },
+ {
+  "seg": 108,
+  "start": 826.339,
+  "end": 830.322,
+  "speaker": "Unknown",
+  "en": "So, it's just like providing me the highlights over here in the terminal itself.",
+  "zh": "所以，它只是在终端本身这里给我提供了要点。"
+ },
+ {
+  "seg": 109,
+  "start": 831.843,
+  "end": 837.407,
+  "speaker": "Unknown",
+  "en": "And now, whereas on the right hand side, the email's been sent.",
+  "zh": "而现在，在右侧，电子邮件已经发送了。"
+ },
+ {
+  "seg": 110,
+  "start": 838.028,
+  "end": 839.549,
+  "speaker": "Unknown",
+  "en": "Now, let me try to",
+  "zh": "现在，让我试着"
+ },
+ {
+  "seg": 111,
+  "start": 842.45,
+  "end": 846.452,
+  "speaker": "Unknown",
+  "en": "Actually show you the email that we got, I wish.",
+  "zh": "实际给你们看看我们收到的电子邮件，我希望。"
+ },
+ {
+  "seg": 112,
+  "start": 851.034,
+  "end": 853.155,
+  "speaker": "Unknown",
+  "en": "Grab this somehow.",
+  "zh": "以某种方式把这个抓过来。"
+ },
+ {
+  "seg": 113,
+  "start": 853.475,
+  "end": 853.755,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 114,
+  "start": 859.877,
+  "end": 863.699,
+  "speaker": "Unknown",
+  "en": "Okay, I'm gonna make the phone call.",
+  "zh": "好的，我要打电话了。"
+ },
+ {
+  "seg": 115,
+  "start": 881.943,
+  "end": 884.845,
+  "speaker": "Unknown",
+  "en": "And then let's look at the email.",
+  "zh": "然后我们看看电子邮件。"
+ },
+ {
+  "seg": 116,
+  "start": 886.707,
+  "end": 892.272,
+  "speaker": "Unknown",
+  "en": "So, yep, there we go.",
+  "zh": "那么，是的，找到了。"
+ },
+ {
+  "seg": 117,
+  "start": 892.952,
+  "end": 894.333,
+  "speaker": "Unknown",
+  "en": "So I got this email.",
+  "zh": "我收到了这封电子邮件。"
+ },
+ {
+  "seg": 118,
+  "start": 894.694,
+  "end": 895.814,
+  "speaker": "Unknown",
+  "en": "Oh, this is the old one.",
+  "zh": "哦，这是旧的。"
+ },
+ {
+  "seg": 119,
+  "start": 895.914,
+  "end": 897.256,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "我们看看。"
+ },
+ {
+  "seg": 120,
+  "start": 900.038,
+  "end": 900.178,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 121,
+  "start": 901.279,
+  "end": 904.481,
+  "speaker": "Unknown",
+  "en": "This is the one that we just received like two minutes ago.",
+  "zh": "这就是我们大约两分钟前刚收到的那封。"
+ },
+ {
+  "seg": 122,
+  "start": 905.473,
+  "end": 915.917,
+  "speaker": "Unknown",
+  "en": "And it has all the details that it was able to find, including getting to the stadium, OpenStadium and Maps.",
+  "zh": "它包含了它能够找到的所有细节，包括怎么去体育场，OpenStadium 和 Maps。"
+ },
+ {
+  "seg": 123,
+  "start": 915.998,
+  "end": 919.219,
+  "speaker": "Unknown",
+  "en": "It was able to find all of these.",
+  "zh": "它能够找到所有这些。"
+ },
+ {
+  "seg": 124,
+  "start": 920.7,
+  "end": 928.843,
+  "speaker": "Unknown",
+  "en": "And then what to expect by looking at Reddit, tickets, et cetera.",
+  "zh": "然后通过看 Reddit 找到了预期注意事项、门票等等。"
+ },
+ {
+  "seg": 125,
+  "start": 930.491,
+  "end": 941.024,
+  "speaker": "Unknown",
+  "en": "So, I'll wait for the call, but in the interest of time, it takes sometimes a few minutes for the call to come in, but let's see, and I'll move on.",
+  "zh": "那么，我会等电话，但为了节省时间，电话有时需要几分钟才能打进来，让我们看看，我继续往下讲。"
+ },
+ {
+  "seg": 126,
+  "start": 941.064,
+  "end": 950.435,
+  "speaker": "Unknown",
+  "en": "So, how does this work in the background is, yeah, let's get back to the slides.",
+  "zh": "那么，这在后台是如何工作的，是的，让我们回到幻灯片。"
+ },
+ {
+  "seg": 127,
+  "start": 957.342,
+  "end": 966.827,
+  "speaker": "Unknown",
+  "en": "Yeah, so as you can see, like, the agent on the right-hand side with the wallet was able to just make a bunch of these API calls and pay for it.",
+  "zh": "是的，如你所见，右侧有钱包的智能体能够直接进行一堆这样的 API 调用并为此付费。"
+ },
+ {
+  "seg": 128,
+  "start": 967.388,
+  "end": 984.978,
+  "speaker": "Unknown",
+  "en": "While blockchains make all of these things theoretically possible, there are also some bottlenecks because even the most efficient blockchains have a gas fee, and these small transactions just don't scale because the gas fee will, again, be a significant sort of",
+  "zh": "虽然区块链让所有这些事情在理论上成为可能，但也存在一些瓶颈，因为即使是最有效率的区块链也有 gas 费，而这些小额交易就是无法规模化，因为 gas 费又会是实际交易的相当大一部分——"
+ },
+ {
+  "seg": 129,
+  "start": 985.958,
+  "end": 987.599,
+  "speaker": "Unknown",
+  "en": "fraction of the actual transaction.",
+  "zh": "占实际交易的一个比例。"
+ },
+ {
+  "seg": 130,
+  "start": 988.14,
+  "end": 992.643,
+  "speaker": "Unknown",
+  "en": "But it is important to have gas fees because they prevent the network from spam and abuse.",
+  "zh": "但有 gas 费很重要，因为它们防止网络被垃圾信息和滥用。"
+ },
+ {
+  "seg": 131,
+  "start": 993.704,
+  "end": 1002.351,
+  "speaker": "Unknown",
+  "en": "And blockchains also have some throughput limitations because there are other use cases that run on blockchains and block spaces shared infrastructure.",
+  "zh": "而且区块链也有一些吞吐量限制，因为有其他用例运行在区块链上，区块空间是共享的基础设施。"
+ },
+ {
+  "seg": 132,
+  "start": 1002.831,
+  "end": 1007.175,
+  "speaker": "Unknown",
+  "en": "So the problem for agents is unpredictable latency and degraded performance under load.",
+  "zh": "所以智能体面临的问题是负载下不可预测的延迟和性能下降。"
+ },
+ {
+  "seg": 133,
+  "start": 1008.032,
+  "end": 1019.443,
+  "speaker": "Unknown",
+  "en": "So what we did for that is essentially we built a new infrastructure layer on top of our interop product called Gateway.",
+  "zh": "所以我们为此做的基本上是在我们的 interop 产品之上构建了一个新的基础设施层，叫做 Gateway。"
+ },
+ {
+  "seg": 134,
+  "start": 1019.923,
+  "end": 1021.045,
+  "speaker": "Unknown",
+  "en": "So it's called Nanopayments.",
+  "zh": "所以它叫 Nanopayments（纳米支付）。"
+ },
+ {
+  "seg": 135,
+  "start": 1021.145,
+  "end": 1024.648,
+  "speaker": "Unknown",
+  "en": "It's built for a subsequent transaction sizes for as low as one microcent.",
+  "zh": "它是为后续小至一微分的交易规模而构建的。"
+ },
+ {
+  "seg": 136,
+  "start": 1025.529,
+  "end": 1030.694,
+  "speaker": "Unknown",
+  "en": "It supports, it is gas-free for the seller and it's instantly cross-chain.",
+  "zh": "它支持，它对卖方是免 gas 费的，而且是即时的跨链。"
+ },
+ {
+  "seg": 137,
+  "start": 1032.662,
+  "end": 1040.247,
+  "speaker": "Unknown",
+  "en": "And the way it works is you just fund your wallet and then... Oh, sorry.",
+  "zh": "它的工作方式是你只需为你的钱包充值，然后……哦，抱歉。"
+ },
+ {
+  "seg": 138,
+  "start": 1040.567,
+  "end": 1043.369,
+  "speaker": "Unknown",
+  "en": "While I explain this, let's listen to the actual call that came in.",
+  "zh": "在我讲解这个的时候，让我们听听实际打进来的电话。"
+ },
+ {
+  "seg": 139,
+  "start": 1043.389,
+  "end": 1044.95,
+  "speaker": "Unknown",
+  "en": "Hi, Harshal.",
+  "zh": "嗨，Harshal。"
+ },
+ {
+  "seg": 140,
+  "start": 1044.99,
+  "end": 1049.933,
+  "speaker": "Unknown",
+  "en": "Here is your World Cup final trip for July 19 at MetLife Stadium.",
+  "zh": "这是你的 7 月 19 日在 MetLife 体育场的世界杯决赛之旅。"
+ },
+ {
+  "seg": 141,
+  "start": 1050.434,
+  "end": 1053.516,
+  "speaker": "Unknown",
+  "en": "Fly SFO to either EWR or JFK nonstop.",
+  "zh": "从 SFO 直飞 EWR 或 JFK。"
+ },
+ {
+  "seg": 142,
+  "start": 1054.336,
+  "end": 1055.457,
+  "speaker": "Unknown",
+  "en": "SFO is showing live arrival delivery.",
+  "zh": "SFO 显示实时到达送达。"
+ },
+ {
+  "seg": 143,
+  "start": 1057.586,
+  "end": 1058.427,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 144,
+  "start": 1059.048,
+  "end": 1063.932,
+  "speaker": "Unknown",
+  "en": "Can you tell me how do I get to the stadium from my hotel?",
+  "zh": "你能告诉我怎么从我的酒店去体育场吗？"
+ },
+ {
+  "seg": 145,
+  "start": 1072.601,
+  "end": 1072.981,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 146,
+  "start": 1073.702,
+  "end": 1074.082,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 147,
+  "start": 1074.403,
+  "end": 1076.224,
+  "speaker": "Unknown",
+  "en": "I'll read the rest of it in my email.",
+  "zh": "我会在我的电子邮件里读剩下的部分。"
+ },
+ {
+  "seg": 148,
+  "start": 1076.445,
+  "end": 1076.745,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 149,
+  "start": 1083.173,
+  "end": 1088.639,
+  "speaker": "Unknown",
+  "en": "All right, so that was just a quick demo of how you can have AI agents.",
+  "zh": "好的，那只是一个快速演示，展示你如何让 AI 智能体……"
+ },
+ {
+  "seg": 150,
+  "start": 1089.96,
+  "end": 1096.066,
+  "speaker": "Unknown",
+  "en": "If they're equipped with a wallet, they can do a lot of things as opposed to an agent that does not have a wallet.",
+  "zh": "如果它们配备了钱包，它们就能做很多事情，而没有钱包的智能体则不行。"
+ },
+ {
+  "seg": 151,
+  "start": 1096.507,
+  "end": 1102.533,
+  "speaker": "Unknown",
+  "en": "So I have a couple of more minutes, so I'll just walk you through how this technology works underneath.",
+  "zh": "我还有几分钟时间，所以我就在这里给大家讲一下这项技术底层是如何运作的。"
+ },
+ {
+  "seg": 152,
+  "start": 1104.575,
+  "end": 1118.119,
+  "speaker": "Unknown",
+  "en": "If you have a wallet and you funded it with USDC, it's very easy because Circle works with a bunch of providers to on-ramp your actual US dollars into USDC, and from there, you can deposit the funds into a smart contract.",
+  "zh": "如果你有一个钱包，并且用 USDC 为它充值，这非常简单，因为 Circle 与一堆服务商合作，把你的真实美元兑换成 USDC,从那里，你可以把资金存入一个智能合约。"
+ },
+ {
+  "seg": 153,
+  "start": 1118.599,
+  "end": 1120.6,
+  "speaker": "Unknown",
+  "en": "The next thing it does is...",
+  "zh": "接下来它会做的是……"
+ },
+ {
+  "seg": 154,
+  "start": 1121.853,
+  "end": 1132.823,
+  "speaker": "Unknown",
+  "en": "The agent just has to sign these off-chain authorizations, which are essentially cryptographic signatures saying, I am paying this address this particular amount of money.",
+  "zh": "智能体只需要签署这些链下授权，它们本质上是加密签名，意思是，我要向这个地址支付这笔特定金额的钱。"
+ },
+ {
+  "seg": 155,
+  "start": 1133.543,
+  "end": 1140.71,
+  "speaker": "Unknown",
+  "en": "And then the server just has to relay this to Circle, and within a few hundred milliseconds, this...",
+  "zh": "然后服务器只需把这个转发给 Circle,在几百毫秒之内，这个……"
+ },
+ {
+  "seg": 156,
+  "start": 1141.37,
+  "end": 1149.913,
+  "speaker": "Unknown",
+  "en": "The server knows, the merchant knows that, you know, the user has the funds and is able to release the actual resource that the agent requested.",
+  "zh": "服务器知道、商家知道，用户有资金，就可以释放智能体所请求的实际资源。"
+ },
+ {
+  "seg": 157,
+  "start": 1150.493,
+  "end": 1159.616,
+  "speaker": "Unknown",
+  "en": "And with this, you avoid the issue of, like, you know, latencies and stuff that are associated with actually settling every single transaction on chain.",
+  "zh": "这样一来，你就避免了在链上结算每一笔交易所带来的延迟之类的问题。"
+ },
+ {
+  "seg": 158,
+  "start": 1160.116,
+  "end": 1166.678,
+  "speaker": "Unknown",
+  "en": "And the agents are able to, like, pay for things at the speed at which they operate.",
+  "zh": "而且智能体能够以它们运行的速度来为各种东西付费。"
+ },
+ {
+  "seg": 159,
+  "start": 1166.738,
+  "end": 1170.66,
+  "speaker": "Unknown",
+  "en": "So in conclusion, the way the stack would work is",
+  "zh": "所以总结一下，这个技术栈的运作方式是"
+ },
+ {
+  "seg": 160,
+  "start": 1171.32,
+  "end": 1177.523,
+  "speaker": "Unknown",
+  "en": "You have Circle Agent Wallets, which give you the ability to equip your agents with wallets.",
+  "zh": "你有 Circle Agent Wallets,它让你能够为你的智能体配备钱包。"
+ },
+ {
+  "seg": 161,
+  "start": 1178.264,
+  "end": 1185.368,
+  "speaker": "Unknown",
+  "en": "The agents can now hold their money, spend that money autonomously, but within the guardrails that you set.",
+  "zh": "智能体现在可以持有自己的钱，自主地花这些钱，但要在你设定的护栏之内。"
+ },
+ {
+  "seg": 162,
+  "start": 1185.748,
+  "end": 1187.489,
+  "speaker": "Unknown",
+  "en": "The wallets enforce those guardrails.",
+  "zh": "钱包会强制执行这些护栏。"
+ },
+ {
+  "seg": 163,
+  "start": 1188.029,
+  "end": 1198.255,
+  "speaker": "Unknown",
+  "en": "And then on the sell side, the merchants are able to just wrap their endpoints and resources and monetize it with a few lines of code using our SDKs.",
+  "zh": "然后在卖方一侧，商家只需把他们的端点和资源包装起来，用我们的 SDK 写几行代码就能将其变现。"
+ },
+ {
+  "seg": 164,
+  "start": 1199.235,
+  "end": 1210.742,
+  "speaker": "Unknown",
+  "en": "Then, USDC and NanoPayments is the layer underneath it, which sort of helps settle these transactions at the speed at which agents operate, which is sub-second.",
+  "zh": "然后，USDC 和 NanoPayments 是它下面的那一层，大致上帮助以智能体运行的速度结算这些交易，也就是亚秒级。"
+ },
+ {
+  "seg": 165,
+  "start": 1211.523,
+  "end": 1212.883,
+  "speaker": "Unknown",
+  "en": "And this is how it scales.",
+  "zh": "这就是它扩展的方式。"
+ },
+ {
+  "seg": 166,
+  "start": 1213.704,
+  "end": 1219.207,
+  "speaker": "Unknown",
+  "en": "And you can give it a try yourself by going to agents.circle.com.",
+  "zh": "你可以自己去 agents.circle.com 试一下。"
+ },
+ {
+  "seg": 167,
+  "start": 1220.628,
+  "end": 1231.193,
+  "speaker": "Unknown",
+  "en": "It's just a couple of clicks, and you will have your agent equipped with a wallet and ready to make these phone calls and things like that.",
+  "zh": "只需要点击几下，你的智能体就会配备好钱包，随时可以打这些电话之类的。"
+ },
+ {
+  "seg": 168,
+  "start": 1231.333,
+  "end": 1231.633,
+  "speaker": "Unknown",
+  "en": "So, yeah.",
+  "zh": "那么，好的。"
+ },
+ {
+  "seg": 169,
+  "start": 1231.833,
+  "end": 1232.133,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -1,0 +1,661 @@
+{
+  "episode_id": "2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "tags": [
+    "智能体经济",
+    "支付与稳定币",
+    "AI 基础设施",
+    "智能体",
+    "微交易"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harshal-bhangale",
+      "type": "person",
+      "role": "guest",
+      "name": "Harshal Bhangale",
+      "file": "Harshal Bhangale",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "circle",
+      "type": "company",
+      "role": "company",
+      "name": "Circle",
+      "file": "Circle",
+      "primary": true,
+      "how_described": "本集说 Circle 是发行 USDC（全球最大受监管稳定币）的稳定币公司，多年积累让支付更简单、更便宜的能力，并据此构建了面向智能体经济的全栈平台 Circle Agent Stack",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.306,
+            32.49
+          ],
+          "quote": "But one question kept coming up, which was Circle is a stablecoin company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            38.066,
+            48.494
+          ],
+          "quote": "And well, the answer to that is fairly simple because Circle issues USDC, which is the world's largest regulated stablecoin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            97.443,
+            103.686
+          ],
+          "quote": "So yeah, I'm Harshal and I'm an engineer on the Agent Tech product team at Circle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            357.126,
+            359.387
+          ],
+          "quote": "And that's why we've built the Circle Agent Stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            431.266,
+            438.508
+          ],
+          "quote": "One is your regular Claude Code, and on the right-hand side is a Claude Code that comes equipped with Circle Agent Wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1104.575,
+            1118.119
+          ],
+          "quote": "If you have a wallet and you funded it with USDC, it's very easy because Circle works with a bunch of providers to on-ramp your actual US dollars into USDC, and from there, you can deposit the funds into a smart contract.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1133.543,
+            1140.71
+          ],
+          "quote": "And then the server just has to relay this to Circle, and within a few hundred milliseconds, this...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1171.32,
+            1177.523
+          ],
+          "quote": "You have Circle Agent Wallets, which give you the ability to equip your agents with wallets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1213.704,
+            1219.207
+          ],
+          "quote": "And you can give it a try yourself by going to agents.circle.com.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "usdc",
+      "type": "concept",
+      "role": "concept",
+      "name": "USDC",
+      "file": "USDC",
+      "primary": true,
+      "how_described": "本集说 USDC 是全球最大的受监管稳定币，X402 上智能体交易的 99% 用它结算，也是 Agent Stack 底层亚秒级结算的结算层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            38.066,
+            48.494
+          ],
+          "quote": "And well, the answer to that is fairly simple because Circle issues USDC, which is the world's largest regulated stablecoin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            156.588,
+            159.691
+          ],
+          "quote": "And 99% of it has been settled in USDC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1104.575,
+            1118.119
+          ],
+          "quote": "If you have a wallet and you funded it with USDC, it's very easy because Circle works with a bunch of providers to on-ramp your actual US dollars into USDC, and from there, you can deposit the funds into a smart contract.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1199.235,
+            1210.742
+          ],
+          "quote": "Then, USDC and NanoPayments is the layer underneath it, which sort of helps settle these transactions at the speed at which agents operate, which is sub-second.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线：智能体不缺聪明但会卡在付费墙、注册流程和 API 密钥管理上；给它配钱包并内置护栏后，就能自主为资源付费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            72.786,
+            81.509
+          ],
+          "quote": "But where your agent actually in practice actually holds is when it hits a paywall or when it has to pay for something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            97.443,
+            103.686
+          ],
+          "quote": "So yeah, I'm Harshal and I'm an engineer on the Agent Tech product team at Circle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            109.85,
+            112.251
+          ],
+          "quote": "We believe that the Agent Tech economy is already here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            188.066,
+            195.769
+          ],
+          "quote": "And then the agent just signs an authorization from the crypto wallet and then pays for the resource and retires the request again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            293.376,
+            298.9
+          ],
+          "quote": "You cannot pay 3% each time an agent tries to make a one-cent transaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            357.126,
+            359.387
+          ],
+          "quote": "And that's why we've built the Circle Agent Stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            359.507,
+            362.628
+          ],
+          "quote": "So it's the full stack platform for the agent tech economy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            431.266,
+            438.508
+          ],
+          "quote": "One is your regular Claude Code, and on the right-hand side is a Claude Code that comes equipped with Circle Agent Wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            567.318,
+            571.621
+          ],
+          "quote": "The beauty of having an agent with a wallet is...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            596.078,
+            603.801
+          ],
+          "quote": "So the agent is still spending within the guardrails that you set, but it is autonomous enough to make these individual API calls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            628.232,
+            635.916
+          ],
+          "quote": "Also, in the prompt, try to tell the agent to wrap this whole thing up within six to eight minutes in the interest of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            652.63,
+            658.213
+          ],
+          "quote": "Let me also walk you through what the agent's doing, if I can grab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            665.938,
+            675.623
+          ],
+          "quote": "As you can see, over here, the agent was able to make an API call to the Polymarket data via a provider called BlockRun.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            713.272,
+            720.696
+          ],
+          "quote": "All right, so let's go back to the main agent here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            744.06,
+            754.884
+          ],
+          "quote": "And this is where I think you'll see on the left-hand side that the agent gets stuck because the agent just does not have the ability, it cannot send out an email natively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            764.947,
+            772.79
+          ],
+          "quote": "Whereas the other agent on the right-hand side will just be able to use a provider, pay it, and send an email.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            780.748,
+            790.69
+          ],
+          "quote": "Now, let's see, this one's, the other agent is also like, is about to like send an email and place the call, so let's see.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            813.05,
+            825.919
+          ],
+          "quote": "So, as the, I think the left agent, the vanilla Claude Code's finished, and as you can see, it's sort of like made a confession that, yeah, it cannot have, it does not have the ability to make a phone call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            957.342,
+            966.827
+          ],
+          "quote": "Yeah, so as you can see, like, the agent on the right-hand side with the wallet was able to just make a bunch of these API calls and pay for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1089.96,
+            1096.066
+          ],
+          "quote": "If they're equipped with a wallet, they can do a lot of things as opposed to an agent that does not have a wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1121.853,
+            1132.823
+          ],
+          "quote": "The agent just has to sign these off-chain authorizations, which are essentially cryptographic signatures saying, I am paying this address this particular amount of money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1141.37,
+            1149.913
+          ],
+          "quote": "The server knows, the merchant knows that, you know, the user has the funds and is able to release the actual resource that the agent requested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1171.32,
+            1177.523
+          ],
+          "quote": "You have Circle Agent Wallets, which give you the ability to equip your agents with wallets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1220.628,
+            1231.193
+          ],
+          "quote": "It's just a couple of clicks, and you will have your agent equipped with a wallet and ready to make these phone calls and things like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "x402",
+      "type": "concept",
+      "role": "concept",
+      "name": "X402",
+      "file": "X402",
+      "primary": true,
+      "how_described": "本集说 X402 是智能体为资源付费的协议方式：服务器返回 HTTP 402 头部附上支付要求，智能体用加密钱包签授权、付款、再重发请求拿资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            142.938,
+            156.208
+          ],
+          "quote": "Just in the last 30 days, agents have transacted with paid API endpoints, and the volume is about like $24 million over X402.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            169.145,
+            170.248
+          ],
+          "quote": "So what is X402?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            171.191,
+            172.756
+          ],
+          "quote": "Essentially, X402 is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            196.07,
+            200.932
+          ],
+          "quote": "So that's X402 in a nutshell and we'll see that in action in a live demo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microtransactions",
+      "type": "concept",
+      "role": "concept",
+      "name": "微交易 (microtransactions)",
+      "file": "微交易",
+      "primary": true,
+      "how_described": "本集说智能体支付是零星小额（一美分、十美分量级）但频率极高；卖方顺势把数据子集包进付费墙（「付 10 美分拿走这份数据」），信用卡 3% 手续费模型完全不可持续",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            329.368,
+            335.772
+          ],
+          "quote": "And that's why these are tiny microtransactions, but highly frequent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说把护栏直接内置进钱包——设单笔/每会话/每日最大支出额——人不必逐笔审批（那无法扩展），智能体在预算框内自主消费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            572.281,
+            586.451
+          ],
+          "quote": "You sort of build these guardrails into the wallet, and you don't have to, as a human, approve every single transaction, because that would just not scale, because these agents are just making these $0.05, $0.10 transactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            586.952,
+            595.398
+          ],
+          "quote": "You want to enforce those guardrails, which is, hey, this is the max amount you can spend per session, or this is the max cap you can do per day and stuff like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            596.078,
+            603.801
+          ],
+          "quote": "So the agent is still spending within the guardrails that you set, but it is autonomous enough to make these individual API calls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            676.5,
+            687.575
+          ],
+          "quote": "And it provided a query, and again, set the max amount guardrails, and is now passing all the results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1178.264,
+            1185.368
+          ],
+          "quote": "The agents can now hold their money, spend that money autonomously, but within the guardrails that you set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1185.748,
+            1187.489
+          ],
+          "quote": "The wallets enforce those guardrails.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nanopayments",
+      "type": "concept",
+      "role": "concept",
+      "name": "Nanopayments",
+      "file": "Nanopayments",
+      "primary": true,
+      "how_described": "本集说 Nanopayments 是 Circle 在其 interop 产品 Gateway 之上建的基础设施层：支持低至一微分（一 microcent）的交易，对卖方免 gas 费，靠链下授权实现几百毫秒的即时跨链结算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            1019.923,
+            1021.045
+          ],
+          "quote": "So it's called Nanopayments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1199.235,
+            1210.742
+          ],
+          "quote": "Then, USDC and NanoPayments is the layer underneath it, which sort of helps settle these transactions at the speed at which agents operate, which is sub-second.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集的现场演示用两个终端对比同一个世界杯行程任务：原版 Claude Code 发不了邮件、打不了电话只能坦白；配备 Circle Agent Wallet 的 Claude Code 则逐笔付款完成了全部任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            431.266,
+            438.508
+          ],
+          "quote": "One is your regular Claude Code, and on the right-hand side is a Claude Code that comes equipped with Circle Agent Wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            522.805,
+            532.912
+          ],
+          "quote": "So as you can see, the vanilla Claude Code has spun up a bunch of sub-agents, and it's going about doing its research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            813.05,
+            825.919
+          ],
+          "quote": "So, as the, I think the left agent, the vanilla Claude Code's finished, and as you can see, it's sort of like made a confession that, yeah, it cannot have, it does not have the ability to make a phone call.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "circle-agent-wallet",
+      "type": "concept",
+      "role": "concept",
+      "name": "Circle Agent Wallet",
+      "file": "Circle Agent Wallet",
+      "primary": true,
+      "how_described": "本集说 Circle Agent Wallet 让智能体持有钱、自主花钱，护栏由钱包强制执行；卖方用 SDK 几行代码就能把端点包装成可变现的付费资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            431.266,
+            438.508
+          ],
+          "quote": "One is your regular Claude Code, and on the right-hand side is a Claude Code that comes equipped with Circle Agent Wallet.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "paywall",
+      "type": "concept",
+      "role": "concept",
+      "name": "付费墙 (paywall)",
+      "file": "付费墙",
+      "primary": true,
+      "how_described": "本集说智能体在实践中真正卡住的地方就是遇到付费墙——过去的付费墙全是为人类设计，而现在卖方开始把数据切片装进付费墙来变现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            72.786,
+            81.509
+          ],
+          "quote": "But where your agent actually in practice actually holds is when it hits a paywall or when it has to pay for something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            316.885,
+            328.608
+          ],
+          "quote": "So you could monetize that as a seller by just offering that, by wrapping that in a paywall and saying, hey, pay me 10 cents and grab this data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "blockchain",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "MCP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

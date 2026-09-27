@@ -1,0 +1,560 @@
+{
+  "episode_id": "2026-09-01-talks-your-agent-just-authorized-what-jay-mok",
+  "podcast": "精选演讲",
+  "date": "2026-09-01",
+  "tags": [
+    "智能体支付",
+    "智能体授权",
+    "支付基础设施",
+    "安全与信任"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "jay-mok",
+      "type": "person",
+      "role": "guest",
+      "name": "Jay Mok",
+      "file": "Jay Mok",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ben-coumes",
+      "type": "person",
+      "role": "guest",
+      "name": "Ben Coumes",
+      "file": "Ben Coumes",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": true,
+      "how_described": "本集两位嘉宾所在的公司,做智能体支付,推出审批令牌等企业支付基础设施,并希望充当可信凭证提供方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            65.957,
+            70.179
+          ],
+          "quote": "I'm a product manager over at PayPal in Agentic Payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            72.9,
+            77.862
+          ],
+          "quote": "I am a staff software engineer on the PayPal Enterprise Payments team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            435.818,
+            447.203
+          ],
+          "quote": "So, there's two pieces of infrastructure that I like to call out or primitives that they use as part of the BrainTree or PayPal Enterprise infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            659.247,
+            661.527
+          ],
+          "quote": "In this case, hopefully, it would be PayPal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            713.968,
+            717.352
+          ],
+          "quote": "Pictures on the screen are depicting our PayPal approval token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            718.714,
+            730.088
+          ],
+          "quote": "This is a new primitive that allows users of PayPal to basically start the order process with an agent before that agent's actually found an item and a merchant to transact with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            730.742,
+            735.266
+          ],
+          "quote": "Historically, PayPal orders have been synchronous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            735.346,
+            742.013
+          ],
+          "quote": "Users on checkout, they find their item, they go to their PayPal app, they approve it, and it's done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            747.509,
+            755.014
+          ],
+          "quote": "You get redirected to PayPal to confirm the instructions that are given to the agent, and then PayPal hands back this JSON payload.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            768.662,
+            771.324
+          ],
+          "quote": "It's an opaque string that only PayPal can approve right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            773.085,
+            779.53
+          ],
+          "quote": "We're about to ship this in production, and users of Gemini that pick PayPal as their payment method will use this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:能自主替用户执行任务(尤其花钱)的 AI 程序,需要一套授权心智模型来防范它滥用钱包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            51.307,
+            63.073
+          ],
+          "quote": "But basically today we're talking about how we safeguard against that and hopefully we can kind of share a mental model that you can use when you're thinking about agent authorization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            86.872,
+            96.14
+          ],
+          "quote": "So the key questions that we kind of like start off with is in terms of like agent authorization is did the human authorize this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            175.996,
+            179.578
+          ],
+          "quote": "You know, people use the term KYA a lot, know your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            512.026,
+            516.01
+          ],
+          "quote": "So, using a commercial card, they share it with the buyer agent, travel agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            606.015,
+            611.418
+          ],
+          "quote": "Make sure that the buying agent is falling within the instructions that a human has given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            611.958,
+            619.403
+          ],
+          "quote": "And then the selling agent that's also on Nevermind can feel comfortable taking a payment from another user of Nevermind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            661.908,
+            666.029
+          ],
+          "quote": "The second layer encapsulates the user's instructions to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            675.792,
+            678.873
+          ],
+          "quote": "So that case, the agent would sign that third layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            718.714,
+            730.088
+          ],
+          "quote": "This is a new primitive that allows users of PayPal to basically start the order process with an agent before that agent's actually found an item and a merchant to transact with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            745.116,
+            746.057
+          ],
+          "quote": "Users on their agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            747.509,
+            755.014
+          ],
+          "quote": "You get redirected to PayPal to confirm the instructions that are given to the agent, and then PayPal hands back this JSON payload.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            836.818,
+            851.481
+          ],
+          "quote": "And then the third level, you know, the highest stakes one that we haven't actually seen in production yet is, you know, the user's given an agent some instructions to do something on their behalf autonomously, and you don't know who they're gonna interact with, who they're gonna transact with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            851.861,
+            857.102
+          ],
+          "quote": "And those parties need some verifiable proof that the agent has permission to do the transaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            876.6,
+            883.187
+          ],
+          "quote": "So medical orders, e-signatures, securities trading, you know, basically any hard to reverse agent action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            930.928,
+            934.333
+          ],
+          "quote": "Prove that the human authorized the agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-authorization",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体授权 (agent authorization)",
+      "file": "智能体授权",
+      "primary": true,
+      "how_described": "本集核心框架,归结为三问:人类是否授权、当前范围内是否被允许、之后能否证明,答案取决于风险高低与生态开放度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            51.307,
+            63.073
+          ],
+          "quote": "But basically today we're talking about how we safeguard against that and hopefully we can kind of share a mental model that you can use when you're thinking about agent authorization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            86.872,
+            96.14
+          ],
+          "quote": "So the key questions that we kind of like start off with is in terms of like agent authorization is did the human authorize this?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集用作低风险场景的例子:连接 GitHub/Jira 等连接器即完成身份验证,靠工具权限与日志/回滚兜底,无需密码学证明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            282.364,
+            296.513
+          ],
+          "quote": "And, basically, you know, when you, as a human, you're, you know, using your Claude Code, you know, you might be then setting up your connectors with your GitHub or, you know, Jira or whatever, linear or whatever tool you're using.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            357.105,
+            366.049
+          ],
+          "quote": "So that's kind of like an example of applying like this mental model using Claude Code in terms of that scenario.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "passkey",
+      "type": "concept",
+      "role": "concept",
+      "name": "通行密钥 (passkey)",
+      "file": "通行密钥",
+      "primary": false,
+      "how_described": "本集提到它是回答「人类是否授权」的常见手段,用设备本地加密验证身份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            109.003,
+            111.744
+          ],
+          "quote": "That could be like a passkey or of that nature.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "令牌 (token)",
+      "file": "令牌",
+      "primary": false,
+      "how_described": "本集说「范围内是否被允许」通常靠一个有时限、限金额、可能限定商家或购买意图的令牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            114.684,
+            128.227
+          ],
+          "quote": "It's generally going to be a time-bound token and an amount and possibly could be identifying like a merchant or the actual product intent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            713.968,
+            717.352
+          ],
+          "quote": "Pictures on the screen are depicting our PayPal approval token.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "know-your-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "认识你的智能体 (know your agent)",
+      "file": "认识你的智能体",
+      "primary": false,
+      "how_described": "本集提到的业内常用说法(KYA),指交易各方是否互相认识,对应开放或封闭生态的判断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            175.996,
+            179.578
+          ],
+          "quote": "You know, people use the term KYA a lot, know your agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vault",
+      "type": "concept",
+      "role": "concept",
+      "name": "保险库 (vault)",
+      "file": "保险库",
+      "primary": true,
+      "how_described": "本集介绍的企业支付原语之一:代表买方智能体保管支付凭证,配合 OAuth 向商家分发访问权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            383.313,
+            386.795
+          ],
+          "quote": "And so that's like the shared vault and OAuth scope example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            447.283,
+            448.563
+          ],
+          "quote": "One is like the vault, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            449.063,
+            456.266
+          ],
+          "quote": "And the vault by itself, which is storing all these like payment credentials on behalf of the buyer agents,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oauth",
+      "type": "concept",
+      "role": "concept",
+      "name": "OAuth",
+      "file": "OAuth",
+      "primary": true,
+      "how_described": "本集中风险场景的关键:通过 OAuth 按权限范围把保险库里的支付凭证访问权开放给各商家,构建互信的封闭生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            383.313,
+            386.795
+          ],
+          "quote": "And so that's like the shared vault and OAuth scope example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            472.226,
+            479.808
+          ],
+          "quote": "offer access to those payment credentials through OAuth to all those merchants.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verifiable-intents",
+      "type": "concept",
+      "role": "concept",
+      "name": "可验证意图 (verifiable intents)",
+      "file": "可验证意图",
+      "primary": true,
+      "how_described": "本集认为高风险自主支付应收敛到的标准之一(FIDO 可验证意图),多层选择性披露 JWT,各方各自验证对自己重要的那一层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            640.536,
+            646.66
+          ],
+          "quote": "You know, we think that the industry should converge on the FIDO verifiable intents and AP2 mandate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ap2-mandate",
+      "type": "concept",
+      "role": "concept",
+      "name": "AP2 授权指令 (AP2 mandate)",
+      "file": "AP2 授权指令",
+      "primary": true,
+      "how_described": "本集认为与可验证意图配套的授权指令标准:用户签指令、智能体签执行,双方无需互识即可交易,是大规模自主支付的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            640.536,
+            646.66
+          ],
+          "quote": "You know, we think that the industry should converge on the FIDO verifiable intents and AP2 mandate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "approval-token",
+      "type": "concept",
+      "role": "concept",
+      "name": "审批令牌 (approval token)",
+      "file": "审批令牌",
+      "primary": true,
+      "how_described": "本集介绍的 PayPal 新原语:用户在智能体上发起流程后重定向到 PayPal 确认指令,返回含金额、有效期、指定商家的不透明字符串,即将用于 Gemini 用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            713.968,
+            717.352
+          ],
+          "quote": "Pictures on the screen are depicting our PayPal approval token.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

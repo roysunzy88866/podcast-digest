@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Claude Code]] · [[Anthropic]] · [[DeepMind]] · [[Windsurf]] · [[ChatGPT]] · [[Microsoft]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":339,"OpenAI":137,"Cursor":69,"Claude Code":77,"Anthropic":147,"DeepMind":10,"Windsurf":5,"ChatGPT":79,"Microsoft":25,"护栏":63}</script>
+<script type="application/json" class="pd-epn">{"智能体":342,"OpenAI":137,"Cursor":69,"Claude Code":79,"Anthropic":148,"DeepMind":10,"Windsurf":5,"ChatGPT":79,"Microsoft":25,"护栏":65}</script>
 
 <script>
 (function(){
