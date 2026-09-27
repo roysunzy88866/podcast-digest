@@ -1,0 +1,154 @@
+{
+  "title_zh": "Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层",
+  "tldr": "Navan 首席架构师 Roberto Milev 与架构团队成员 Uday 分享在生产环境可靠运行 AI 智能体的分层参考架构与踩坑经验。",
+  "digest_md": "如果你在 AI 智能体(能自己规划步骤、调用工具完成任务的 AI 系统)上踩过坑，这一集会很有共鸣。说话的是 Navan 的首席架构师 Roberto Milev 和架构团队的 Uday——Navan 是一家差旅和费用管理公司，他们已经在生产环境跑着大量智能体、每天消耗大量 token。开场 Roberto 先给了一个类比：当年大家一窝蜂上微服务，才慢慢学会了容器编排、服务网格；今天也一样——**如果你连一个结构良好的单体都建不好，就别去建微服务；如果你连一个单一的智能体循环都建不好，就别去搭多智能体编排系统**。围绕「怎么在生产环境可靠跑智能体」，一套参考架构正在浮现。\n\n## 运行时：智能体天生带状态\n\n传统微服务的整套方法论建立在「无状态扩展」上，而智能体恰恰相反：它们需要持久会话、需要隔离、生命周期也和传统 API 服务完全不同。云厂商纷纷进场填补这个空白——AWS、GCP、Azure 都有自己的智能体运行时产品。Navan 全部跑在 AWS 上，重度使用 AWS 的 agent core 运行时，但会话持久化和状态恢复(进程重启后把会话状态还原回来)是官方没覆盖的空白，他们自己构建了。\n\n## 记忆与上下文：把「技能」当作上下文单元\n\n记忆层从 RAG(检索增强生成，即把相关资料检索出来塞给模型)起步，行业已经形成一条「摄取 → 提取 → 整合 → 检索」的自动化流水线，记忆从短期对话记忆逐步积累为长期记忆，还有关于哪些实例成功、哪些失败的情景记忆。Navan 用 AWS 的 agent core 记忆，但按自己的用例做了定制。\n\n上下文管理是更难的题目：上下文窗口越来越大，但上下文永远不够——而太多上下文智能体又会失去焦点。他们找到的有效做法是：**把技能(skill)当作上下文的单元**。一个技能既包含某个领域或任务的指令和设置，也包含工具执行那部分智能体逻辑；技能是可插拔的工作单元，能独立测试、能复用，上下文从技能动态组合出来。再借助「渐进式披露」——先加载有限范围的上下文，后续再按元数据逐步展开。\n\n## 可观测性：别再翻日志，用 hooks 拦截\n\nUday 接棒后先问了全场一个问题：谁构建过跑 30 步、中途失败、还能快速搞清楚为什么失败的智能体？传统微服务靠查日志，但智能体输出大量思考内容，多到没法消化。正确姿势是用 Claude 的 hooks(在工具调用前后、会话前后等时点拦截智能体行为的机制)——在每次工具调用前后拦截，看它调了什么工具、做了什么决策，然后决定是阻止、放行，还是记录指标。Navan 用供应商 Braintrust 发出 OTL 追踪，通过 span 定位智能体卡在哪一步。\n\n追踪里他们重点捕获几个信号：智能体当前的目标、操作背后的原因、信念状态、工具调用，以及每个决策的置信度分数——这个选择是由多条路径支撑，还是单纯推断出来的。如果是推断出来的答案，就安排人类在环来引导和调整。\n\n## 测试非确定性系统：轨迹评估\n\n智能体是非确定性的——同样一个目标，它每次自行制定的步骤都不一样，「改一处、坏一处」是常态。无法画出确定性的执行图，Navan 转而依赖**轨迹(trajectory)评估**：不看它每步做对了什么，而是算它从起点到目标走了多远、偏离了多少，以此评估效率与完整性;再结合前面的推断信号，把疑似回归的情况循环回来、分类、修复。\n\n## 护栏与授权：智能体代表我下单，算谁下的单？\n\n大量信息被输进模型，敏感信息可能在我们不知情的情况下进入其中，治理层必须挡在前面。更微妙的是授权：「只要机票比 200 美元便宜就帮我订」——智能体代表你完成了购买，这次购买到底是你做的，还是「智能体版的你」做的？ 传统上授权对象是用户或服务账号，现在智能体既可以代表用户行事、也可以自己作为账号，界线正在模糊，需要细粒度的授权决策和策略层。Navan 的做法是在每次工具调用前后都挂护栏，做检查、拦截和决策。\n\n## 单智能体还是多智能体？\n\n回到开场的类比：单智能体都没做好，别急着上多智能体。Navan 的架构是**单一主智能体 + 子技能**：一个主智能体渐进式加载技能，自己判断什么该进上下文，在用例中导航，内部再分出子智能体。多智能体的合理场景主要是组织边界：大规模组织里各团队互不沟通，两边各挂一个智能体，用 A2A 协议(智能体对智能体通信的协议)在技能层面建立契约，协议本身就是团队之间的边界。\n\n## 成熟度盘点：什么解决了，什么还在挣扎\n\nRoberto 最后盘点整个栈：**运行时基本解决了**；编排和扩展靠暴力堆 LLM 也不是问题；记忆会随着前沿模型和实践进步逐步覆盖大多数用例；MCP 已成事实协议，工具调用人人都支持，行业在趋同，MCP 本身也在演进(正在变得无状态)。\n\n还在挣扎的地方：**可观测性**——业界在向 OTL 推进，但 OTL 真的适合智能体调用吗？能跑，但未知还很多；**测试**依然很难，不过他们已经能在系统不可靠的情况下给客户高质量体验；**成本**是最大的痛点之一——很难预测、很难管理、很难设护栏，部分原因是大 AI 厂商的利益就是让大家多花 token;**重放与调试**也很难，但他认为这会被解决——因为可以用智能体来克服调试智能体的认知过载。标准由社区形成中，A2A 还年轻、由某些厂商推动，但随着时间推移会到位。他的结论：「我们知道自己需要什么，接下来就看我们自己去把它构建出来了。」\n\n## 本集带走\n\n- **先做好单智能体循环，再谈多智能体编排**——Navan 的架构就是单一主智能体 + 子技能，靠渐进式加载技能来导航，不过度工程化。\n- **把「技能」当上下文单元**：指令 + 工具执行打包成可插拔、可独立测试、可复用的工作单元，上下文从技能动态组合，避免「上下文太多反而失焦」。\n- **别靠翻日志调试智能体**：用 hooks 在工具调用前后拦截，发出含目标、推理原因、置信度的 OTL 追踪，定位卡点。\n- **非确定性系统的测试用轨迹评估**：不算每步对错，算从起点到目标的完成度与偏移，推断型答案配人类在环。\n- **护栏挂在每次工具调用前后**：智能体代表用户行事让授权界线模糊，需要细粒度策略层，也防敏感信息悄悄进模型。\n- **成本是当前最未解的一层**：难预测、难管理、难回退，要用更便宜的模型分担任务也得靠自己搭机制。",
+  "quotes": [
+    {
+      "en": "if you can't build a single agentic loop, why go in and try to build a multi-agent orchestrated system?",
+      "zh": "如果你连一个单一的智能体循环都建不好，为什么还要去构建一个多智能体编排系统呢？",
+      "timestamp": "01:28",
+      "speaker": "Roberto Milev"
+    },
+    {
+      "en": "Context windows are growing bigger, but there's never enough context.",
+      "zh": "上下文窗口越来越大，但上下文永远不够。",
+      "timestamp": "05:20",
+      "speaker": "Roberto Milev"
+    },
+    {
+      "en": "So is it me making this purchase or is it agent me making on behalf of me?",
+      "zh": "所以是我做的这次购买，还是「智能体版的我」代表我做的？",
+      "timestamp": "13:12",
+      "speaker": "Uday Kanagala"
+    },
+    {
+      "en": "This is all driven by kind of the big AI vendors who I think their interest is for us all to spend more tokens.",
+      "zh": "这一切在很大程度上是由那些大型 AI 厂商驱动的，我认为他们的利益就在于让我们所有人都花更多的 token。",
+      "timestamp": "18:12",
+      "speaker": "Roberto Milev"
+    },
+    {
+      "en": "This is also something that is gonna be solved because we can now use agents to get over the cognitive overload of trying to debug what they do.",
+      "zh": "这也是会被解决的问题，因为我们现在可以用智能体来克服「试图调试智能体行为」所带来的认知过载。",
+      "timestamp": "18:30",
+      "speaker": "Roberto Milev"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:25",
+      "speaker": "Roberto",
+      "en": "if you can't build a single agentic loop, why go in and try to build a multi-agent orchestrated system?",
+      "zh": "如果你连一个单一的智能体循环都建不好，为什么还要去构建一个多智能体编排系统呢？"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Roberto",
+      "en": "Context windows are growing bigger, but there's never enough context.",
+      "zh": "上下文窗口越来越大，但上下文永远不够。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Roberto",
+      "en": "Or if there is too much context, again, agents struggle with that because you lose focus and so on.",
+      "zh": "而如果上下文太多，智能体同样会挣扎，因为你会失去焦点。"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Roberto",
+      "en": "And we compose context dynamically out of skills that we use as units of works that are pluggable, that we can test independently, and that we can reuse.",
+      "zh": "我们把上下文从技能中动态组合出来，这些技能作为可插拔的工作单元，可以独立测试，也可以复用。"
+    },
+    {
+      "timestamp": "07:20",
+      "speaker": "Uday",
+      "en": "Agents output a lot of thinking. There's too much to consume.",
+      "zh": "智能体输出大量的思考内容，多到没法消化。"
+    },
+    {
+      "timestamp": "07:17",
+      "speaker": "Uday",
+      "en": "But this changes everything the moment we switch to agents.",
+      "zh": "但一旦切换到智能体，这一切都改变了。"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Uday",
+      "en": "Because agents are non-deterministic.",
+      "zh": "因为智能体是非确定性的。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Uday",
+      "en": "The moment we change something, something else breaks, right?",
+      "zh": "我们一改某个东西，另一个东西就坏了，对吧？"
+    },
+    {
+      "timestamp": "10:58",
+      "speaker": "Uday",
+      "en": "So how can we chart a deterministic graph here?",
+      "zh": "那么我们如何在这里绘制出一个确定性的执行图呢？"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Uday",
+      "en": "So is it me making this purchase or is it agent me making on behalf of me?",
+      "zh": "所以是我做的这次购买，还是「智能体版的我」代表我做的？"
+    },
+    {
+      "timestamp": "13:24",
+      "speaker": "Uday",
+      "en": "So the line is being blurred here and we need to make fine-grained authorization decisions here and the policy layer, that's where the guardrails and authentication authorization plays a critical role.",
+      "zh": "所以这里的界线正在变得模糊，我们需要做出细粒度的授权决策，还有策略层——这就是护栏与认证授权发挥关键作用的地方。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Uday",
+      "en": "So learn from our failures, experiences, and build towards that.",
+      "zh": "所以从我们的失败和经验中学习，并朝那个方向构建。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Roberto",
+      "en": "We are so advanced in orchestration, and we are running LLMs in kind of a very brute force way, so scaling is not a problem.",
+      "zh": "我们在编排方面非常先进，而且我们是以一种相当暴力的方式在运行 LLM,所以扩展不是问题。"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Roberto",
+      "en": "There is a push towards OTL, but does OTL really work for agentic calls?",
+      "zh": "业界在向 OTL 推进，但 OTL 真的适用于智能体调用吗？"
+    },
+    {
+      "timestamp": "16:59",
+      "speaker": "Roberto",
+      "en": "It's very hard to test, but we have found a way to give customers quality experiences, even with the unreliability of a genetic system, and I think that's kind of getting in a state that is more or better defined.",
+      "zh": "测试非常难，但我们已经找到了一种方法，即使智能体系统不可靠，也能给客户高质量的体验，我认为这正在进入一个定义更清晰的状态。"
+    },
+    {
+      "timestamp": "17:34",
+      "speaker": "Roberto",
+      "en": "As we said previously, probably the right answer is to not over-engineer.",
+      "zh": "正如我们之前所说的，正确的答案可能是不要过度工程化。"
+    },
+    {
+      "timestamp": "18:12",
+      "speaker": "Roberto",
+      "en": "This is all driven by kind of the big AI vendors who I think their interest is for us all to spend more tokens.",
+      "zh": "这一切在很大程度上是由那些大型 AI 厂商驱动的，我认为他们的利益就在于让我们所有人都花更多的 token。"
+    },
+    {
+      "timestamp": "18:30",
+      "speaker": "Roberto",
+      "en": "This is also something that is gonna be solved because we can now use agents to get over the cognitive overload of trying to debug what they do.",
+      "zh": "这也是会被解决的问题，因为我们现在可以用智能体来克服「试图调试智能体行为」所带来的认知过载。"
+    },
+    {
+      "timestamp": "19:00",
+      "speaker": "Roberto",
+      "en": "With all of this said, you know, we know what we need and it's up to us to go ahead and build it.",
+      "zh": "说了这么多，我们知道自己需要什么，接下来就看我们自己去把它构建出来了。"
+    }
+  ],
+  "voice_script": "今天我们聊聊一件特别实际的事：怎么让 AI 智能体在生产环境里可靠地跑起来。\n\n先交代一下说话的是谁。Navan 是一家做差旅和费用管理的公司，他们的首席架构师 Roberto Milev 和架构团队的 Uday，这一期就是在讲他们自己的实战经验。这家公司不是在实验室里玩概念，是已经在生产环境跑着大量智能体、每天消耗大量 token 的。所以这套经验里带着很多真实的坑，挺值得听。\n\nRoberto 开场打了个类比，我觉得特别提纲挈领。当年大家一窝蜂上微服务，才慢慢学会了容器编排、服务网格这些配套的东西。他有个类似的说法放在今天也一样：如果你连一个结构良好的单体都建不好，就别去建微服务；放到智能体上，就是如果你连一个单一的智能体循环都建不好，就别去搭多智能体编排系统。这个先记在心里，等会儿还会绕回来。围绕怎么可靠跑智能体，一套参考架构正在浮现，我们就沿着这套架构，从底层往上走一遍。\n\n先说运行时，也就是智能体跑在什么样的基础设施上。这里有个根本性的冲突：传统微服务那套方法论，全建立在无状态扩展上，服务随便重启、随便横向扩，无所谓。但智能体恰恰相反，它天生带状态——需要持久会话、需要隔离，生命周期跟传统 API 服务完全不同。云厂商都看到了这个空白，AWS、GCP、Azure 都有自己的智能体运行时产品。Navan 全部跑在 AWS 上，重度使用官方的 agent core 运行时。但会话持久化和状态恢复，也就是进程重启之后把会话状态还原回来这件事，官方没覆盖，这部分是他们自己构建的。你看，即便是用大厂的产品，关键的坑还是得自己填。\n\n运行时解决之后，往上就是记忆和上下文，这块要更难一些。先说记忆，大家一般从 RAG 起步，就是把相关资料检索出来塞给模型。行业现在已经形成了一条流水线：摄取、提取、整合、检索，记忆从短期对话记忆逐步积累成长期记忆，还有一类情景记忆，记录哪些实例成功了、哪些失败了。Navan 用 AWS 的 agent core 记忆，但按自己的用例做了定制。\n\n那上下文管理呢？这里有个看起来矛盾的现象：上下文窗口越来越大，但上下文永远不够——因为塞太多，智能体又会失去焦点。所以不是越多越好。Navan 找到的有效做法，是把技能当作上下文的单元。什么意思呢？一个技能，既包含某个领域或任务的指令和设置，也包含工具执行那部分智能体逻辑。它是可插拔的工作单元，能独立测试、能复用，上下文从技能动态组合出来。再配合渐进式披露——先加载有限范围的上下文，后续按元数据逐步展开。说白了，就是别一次把所有东西都塞给智能体，要什么、什么时候给什么。\n\n好，系统跑起来了，上下文也管住了，那出了问题怎么办？这就轮到 Uday 接棒讲可观测性。他先问了全场一个问题：谁构建过跑 30 步、中途失败、还能快速搞清楚为什么失败的智能体？这个问题很难，因为传统微服务靠查日志，但智能体会输出大量思考内容，多到根本没法消化。正确姿势是用 hooks，也就是在工具调用前后、会话前后这些时点拦截智能体行为的机制。在每次工具调用前后拦截，看它调了什么工具、做了什么决策，然后决定是阻止、放行，还是记录指标。Navan 用供应商 Braintrust 发出 OTL 追踪，通过 span 定位智能体卡在哪一步。追踪里他们重点捕获几个信号：智能体当前的目标、操作背后的原因、信念状态、工具调用，还有每个决策的置信度分数——这个选择是有多条路径支撑，还是单纯推断出来的。如果是推断出来的答案，就安排人类在环来引导和调整。\n\n可观测性引出了下一个更硬的问题：怎么测试？因为智能体是非确定性的——同样一个目标，它每次自己制定的步骤都不一样，改一处、坏一处是常态。你没法画出确定性的执行图，那传统测试就没法用了。Navan 转而依赖轨迹评估：不看它每一步做对了什么，而是算它从起点到目标走了多远、偏离了多少，以此评估效率和完整性；再结合前面的推断信号，把疑似回归的情况循环回来、分类、修复。\n\n系统跑得起来、看得见、测得动了，还剩一层必须挡在最前面的——治理和护栏。一个直接的担忧是：大量信息被输进模型，敏感信息可能在我们不知情的情况下就进去了。更微妙的是授权问题。你跟智能体说，只要机票比 200 美元便宜就帮我订——它代表你完成了购买。那这次购买到底是你做的，还是\"智能体版的你\"做的？传统上，授权对象是用户或服务账号，现在智能体既可以代表用户行事，也可以自己作为账号，界线正在模糊。这就需要细粒度的授权决策和策略层。Navan 的做法还是在每次工具调用前后挂护栏，做检查、拦截和决策。\n\n这些都讲完，就可以回到开场那个类比了：单智能体都没做好，别急着上多智能体。Navan 自己的架构就是单一主智能体加子技能——一个主智能体渐进式加载技能，自己判断什么该进上下文，在用例中导航，内部再分出子智能体。多智能体的合理场景，主要是在组织边界：大规模组织里各团队互不沟通，那就在两边各挂一个智能体，用 A2A 协议——就是智能体对智能体通信的协议——在技能层面建立契约，协议本身就是团队之间的边界。\n\n最后 Roberto 把整个栈盘了一遍，哪些解决了、哪些还在挣扎。运行时基本解决了；编排和扩展靠暴力堆大模型也不是问题；记忆会随着前沿模型和实践进步逐步覆盖大多数用例；MCP 已经成了事实协议，工具调用人人都支持，行业在趋同。还在挣扎的：可观测性，业界在向 OTL 推进，但 OTL 真的适合智能体调用吗？能跑，但未知还很多。测试依然很难，不过他们已经能在系统本身不可靠的情况下，给客户高质量的体验。成本是最大的痛点之一——难预测、难管理、难设护栏，原因有一部分很扎心：用 Roberto 的话说，这一切在很大程度上是由那些大型 AI 厂商驱动的，他们的利益就在于让我们所有人都花更多的 token。重放与调试也很难，但被认为会被解决——因为我们现在可以用智能体，来克服调试智能体行为所带来的认知过载。\n\n最后带走一句话，也是这期从头到尾的骨架：如果你连一个单一的智能体循环都建不好，就别去搭多智能体编排系统。先把手边这一个循环做扎实，再谈更大的编排。这套东西目前没有现成标准，用 Roberto 的结论说就是：我们知道自己需要什么，接下来就看我们自己去把它构建出来了。"
+}

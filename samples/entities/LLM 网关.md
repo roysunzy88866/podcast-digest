@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM 网关 (LLM gateway)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM 网关">LL</div><div class="pi"><h1 class="pt">LLM 网关 (LLM gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM 网关">LL</div><div class="pi"><h1 class="pt">LLM 网关 (LLM gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]]**(01:23起):本集介绍的平台四大支柱之一:可以在不同模型之间轻松切换、尝试最新最好的模型。
+- **[[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]]**(00:50起):本集主题：架在应用与模型供应商之间的入口点/中间件，负责路由、认证、回退、速率限制和治理；其核心是可用性、延迟、护栏、成本四者的取舍。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-28-talks-ai-evals-for-cross-functional-teams-nach|《DoorDash 的评估平台实践：让非工程师也能给 AI 打分》]] — 作为概念
+- [[2026-08-28-talks-productionizing-llm-gateways-architectur|《LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Swaroop Chitlur Haridas]] · [[Nachiket Paranjape]] · [[DoorDash]] · [[评估]] · [[智能体]] · [[智能体网关]] · [[开源权重模型托管]] · [[LLM 当裁判]] · [[黄金数据集]] · [[数据标注]]
+[[Swaroop Chitlur Haridas]] · [[Kanish Manuja]] · [[Nachiket Paranjape]] · [[Twilio]] · [[DoorDash]] · [[回退]] · [[评估]] · [[断路器]] · [[智能体]] · [[延迟]]
 
-<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"Nachiket Paranjape":1,"DoorDash":8,"评估":3,"智能体":334,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":9,"黄金数据集":1,"数据标注":2}</script>
+<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"Kanish Manuja":1,"Nachiket Paranjape":1,"Twilio":3,"DoorDash":8,"回退":1,"评估":3,"断路器":1,"智能体":336,"延迟":6}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1546 @@
+[
+ {
+  "seg": 0,
+  "start": 12.551,
+  "end": 18.075,
+  "speaker": "Unknown",
+  "en": "My name is Claire Liguori, and I'm a Senior Principal Engineer at AWS.",
+  "zh": "我叫 Claire Liguori,是 AWS 的高级首席工程师。"
+ },
+ {
+  "seg": 1,
+  "start": 18.095,
+  "end": 21.497,
+  "speaker": "Unknown",
+  "en": "I mostly work on Kiro, our Agent Decoding Assistant.",
+  "zh": "我主要负责 Kiro,我们的智能体编程助手。"
+ },
+ {
+  "seg": 2,
+  "start": 21.978,
+  "end": 36.928,
+  "speaker": "Unknown",
+  "en": "But today I want to talk about some of the practices we've been seeing inside of Amazon and Amazon Teams, where we've been seeing really exciting results of productivity increases that are step function improvements since what we've been seeing with AI so far.",
+  "zh": "但今天我想谈谈我们在 Amazon 内部和 Amazon 各团队中看到的一些实践,我们在那里看到了非常令人振奋的生产力提升成果,是阶跃式的改进,远超我们迄今为止在 AI 上所看到的。"
+ },
+ {
+  "seg": 3,
+  "start": 38.633,
+  "end": 49.824,
+  "speaker": "Unknown",
+  "en": "So I've been working on agentic AI for over three years now, and I've kind of seen the evolution that's happened in our industry when it comes to coding assistance with AI.",
+  "zh": "我从事智能体 AI 工作已经三年多了,我大致见证了行业在 AI 编程辅助方面的演变。"
+ },
+ {
+  "seg": 4,
+  "start": 50.444,
+  "end": 56.93,
+  "speaker": "Unknown",
+  "en": "First, we had this inline code completion helping us to write the next line, maybe the next function.",
+  "zh": "首先,我们有这种行内代码补全,帮助我们写下下一行代码,或者下一个函数。"
+ },
+ {
+  "seg": 5,
+  "start": 57.411,
+  "end": 60.574,
+  "speaker": "Unknown",
+  "en": "We moved on to chat, asking questions about our code.",
+  "zh": "后来我们进入了聊天模式,就代码提出问题。"
+ },
+ {
+  "seg": 6,
+  "start": 61.234,
+  "end": 64.156,
+  "speaker": "Unknown",
+  "en": "Everybody started doing vibe coding sometime last year.",
+  "zh": "大概去年开始,大家都开始搞 vibe coding 了。"
+ },
+ {
+  "seg": 7,
+  "start": 64.716,
+  "end": 70.219,
+  "speaker": "Unknown",
+  "en": "But now we're starting to see kind of an early adopter phase of what we've been calling frontier development.",
+  "zh": "但现在,我们开始看到被我们称为前沿开发的早期采用者阶段。"
+ },
+ {
+  "seg": 8,
+  "start": 71.259,
+  "end": 81.705,
+  "speaker": "Unknown",
+  "en": "And completely anecdotally, based on my own experience, I've really only felt maybe 10% to 20% more productive with all of these phases that have come before.",
+  "zh": "完全基于我自己的经验的轶事来说,在此之前的所有这些阶段,我只觉得自己生产力提升了大约 10% 到 20%。"
+ },
+ {
+  "seg": 9,
+  "start": 82.565,
+  "end": 94.169,
+  "speaker": "Unknown",
+  "en": "But now inside of Amazon, we've been running pilots with different teams across the company, and we've been seeing a median of 4.5x productivity improvement and sometimes more than 10x.",
+  "zh": "但现在在 Amazon 内部,我们和公司里不同的团队开展了试点,我们看到了中位数 4.5 倍的生产力提升,有时甚至超过 10 倍。"
+ },
+ {
+  "seg": 10,
+  "start": 94.81,
+  "end": 99.972,
+  "speaker": "Unknown",
+  "en": "So something has really changed here now that we're seeing these step function improvements in productivity.",
+  "zh": "所以说,现在真的发生了一些变化,因为我们看到了生产力的阶跃式提升。"
+ },
+ {
+  "seg": 11,
+  "start": 101.112,
+  "end": 109.977,
+  "speaker": "Unknown",
+  "en": "And I like to define what we've been calling frontier developers inside of Amazon by three behaviors that I've been seeing.",
+  "zh": "我喜欢用三种行为来定义我们在 Amazon 内部所称的前沿开发者,这些行为是我观察到的。"
+ },
+ {
+  "seg": 12,
+  "start": 110.837,
+  "end": 112.278,
+  "speaker": "Unknown",
+  "en": "One is hands-off coding.",
+  "zh": "一是放手式编程。"
+ },
+ {
+  "seg": 13,
+  "start": 112.418,
+  "end": 117.641,
+  "speaker": "Unknown",
+  "en": "Frontier developers write maybe 1% to 2% of the code that they produce.",
+  "zh": "前沿开发者自己写的代码可能只占他们产出代码的 1% 到 2%。"
+ },
+ {
+  "seg": 14,
+  "start": 117.761,
+  "end": 119.282,
+  "speaker": "Unknown",
+  "en": "The rest is agents.",
+  "zh": "其余的都是智能体写的。"
+ },
+ {
+  "seg": 15,
+  "start": 120.062,
+  "end": 123.445,
+  "speaker": "Unknown",
+  "en": "The second is that they interact with their agents infrequently.",
+  "zh": "第二是,他们与智能体的交互频率很低。"
+ },
+ {
+  "seg": 16,
+  "start": 123.905,
+  "end": 129.91,
+  "speaker": "Unknown",
+  "en": "They'll aim to get their coding assistant to run for up to hours at a time without their intervention.",
+  "zh": "他们的目标是让编程助手在他们不干预的情况下连续运行数小时。"
+ },
+ {
+  "seg": 17,
+  "start": 130.71,
+  "end": 132.972,
+  "speaker": "Unknown",
+  "en": "And third is that they minimize idle time.",
+  "zh": "第三是,他们尽量减少空闲时间。"
+ },
+ {
+  "seg": 18,
+  "start": 133.572,
+  "end": 140.498,
+  "speaker": "Unknown",
+  "en": "These frontier developers tend to run multiple agents in parallel, churning through a backlog of tasks.",
+  "zh": "这些前沿开发者倾向于并行运行多个智能体,不断消化积压的任务。"
+ },
+ {
+  "seg": 19,
+  "start": 142.344,
+  "end": 147.665,
+  "speaker": "Unknown",
+  "en": "The first time that I saw a Frontier developer team was the Bedrock Mantle team.",
+  "zh": "我第一次见到前沿开发者团队是 Bedrock Mantle 团队。"
+ },
+ {
+  "seg": 20,
+  "start": 148.246,
+  "end": 150.826,
+  "speaker": "Unknown",
+  "en": "Bedrock is our model hosting service.",
+  "zh": "Bedrock 是我们的模型托管服务。"
+ },
+ {
+  "seg": 21,
+  "start": 150.846,
+  "end": 155.267,
+  "speaker": "Unknown",
+  "en": "It hosts LLMs like Claude and GPT.",
+  "zh": "它托管像 Claude 和 GPT 这样的 LLM。"
+ },
+ {
+  "seg": 22,
+  "start": 156.067,
+  "end": 165.75,
+  "speaker": "Unknown",
+  "en": "And sometime last year, we knew, or I say we, but the Bedrock team knew that they were going to need to build a new inference data plane.",
+  "zh": "大概去年,我们知道——我说“我们”,其实是 Bedrock 团队知道——他们将需要构建一个新的推理数据平面。"
+ },
+ {
+  "seg": 23,
+  "start": 166.27,
+  "end": 170.935,
+  "speaker": "Unknown",
+  "en": "But they had estimated it at 30 people over 18 months.",
+  "zh": "但他们估计这需要 30 个人做 18 个月。"
+ },
+ {
+  "seg": 24,
+  "start": 171.236,
+  "end": 179.164,
+  "speaker": "Unknown",
+  "en": "This is a big, big service, and it was going to take time to build the new one, migrate customers over, migrate models over.",
+  "zh": "这是一个非常非常大的服务,构建新的服务、迁移客户、迁移模型都需要时间。"
+ },
+ {
+  "seg": 25,
+  "start": 179.184,
+  "end": 181.367,
+  "speaker": "Unknown",
+  "en": "And they decided to take a step back.",
+  "zh": "于是他们决定退一步思考。"
+ },
+ {
+  "seg": 26,
+  "start": 181.447,
+  "end": 185.491,
+  "speaker": "Unknown",
+  "en": "They took six people, and they built it in 76 days with Curo.",
+  "zh": "他们用 6 个人,用 Curo 在 76 天内把它构建了出来。"
+ },
+ {
+  "seg": 27,
+  "start": 186.232,
+  "end": 188.334,
+  "speaker": "Unknown",
+  "en": "So this was a huge achievement.",
+  "zh": "这是一项巨大的成就。"
+ },
+ {
+  "seg": 28,
+  "start": 188.394,
+  "end": 192.598,
+  "speaker": "Unknown",
+  "en": "This was the first time we'd seen anything of the kind inside of Amazon.",
+  "zh": "这是我们在 Amazon 内部第一次见到这种事情。"
+ },
+ {
+  "seg": 29,
+  "start": 192.878,
+  "end": 200.225,
+  "speaker": "Unknown",
+  "en": "So this was truly the Pathfinder team that proved that it was possible to get up to 20x improvement.",
+  "zh": "所以这确实是那支探路者团队,证明了提升到 20 倍是可能的。"
+ },
+ {
+  "seg": 30,
+  "start": 200.385,
+  "end": 207.031,
+  "speaker": "Unknown",
+  "en": "Now they looked at commits, and I'll talk about a couple of other ways that we are measuring productivity improvements.",
+  "zh": "当时他们看的是 commit,我稍后会讲到我们衡量生产力提升的其他几种方式。"
+ },
+ {
+  "seg": 31,
+  "start": 207.892,
+  "end": 213.234,
+  "speaker": "Unknown",
+  "en": "But there was one problem with this story, which was that, yes, it was built with six people.",
+  "zh": "但这个故事有一个问题,那就是,是的,它是由 6 个人构建的。"
+ },
+ {
+  "seg": 32,
+  "start": 213.594,
+  "end": 220.417,
+  "speaker": "Unknown",
+  "en": "It was built with some of the top engineers literally in the company, including two distinguished engineers.",
+  "zh": "但他们确实是公司里最顶尖的工程师,其中包括两位 distinguished engineer。"
+ },
+ {
+  "seg": 33,
+  "start": 220.797,
+  "end": 223.598,
+  "speaker": "Unknown",
+  "en": "So this was not just any team of six people.",
+  "zh": "所以这并不是随便一支 6 人的团队。"
+ },
+ {
+  "seg": 34,
+  "start": 224.018,
+  "end": 229.84,
+  "speaker": "Unknown",
+  "en": "These were experts in distributed systems, experts at LLMs and their architecture.",
+  "zh": "这些人是分布式系统专家、LLM 及其架构专家。"
+ },
+ {
+  "seg": 35,
+  "start": 231.113,
+  "end": 239.378,
+  "speaker": "Unknown",
+  "en": "So this story was amazing, and it kind of spread like wildfire across Amazon, but it was also very unachievable for a lot of teams.",
+  "zh": "所以这个故事非常惊人,它在 Amazon 内部像野火一样传播开来,但对很多团队来说也是遥不可及的。"
+ },
+ {
+  "seg": 36,
+  "start": 239.418,
+  "end": 244.241,
+  "speaker": "Unknown",
+  "en": "There were a lot of questions about, can this actually be reproduced on another team?",
+  "zh": "有很多疑问是:这真的能在另一个团队上复现吗?"
+ },
+ {
+  "seg": 37,
+  "start": 245.662,
+  "end": 252.728,
+  "speaker": "Unknown",
+  "en": "So another experiment that I want to talk about is an experimental sprint that was done in the Prime Video Organization.",
+  "zh": "所以我想谈的另一个实验是在 Prime Video 组织进行的一次试验性冲刺。"
+ },
+ {
+  "seg": 38,
+  "start": 253.448,
+  "end": 263.136,
+  "speaker": "Unknown",
+  "en": "They took a 10-day sprint and they did an experiment where they put, again, six engineers in a room and they let them go wild with Kiro.",
+  "zh": "他们用一个 10 天的冲刺做了一个实验,又是把 6 名工程师放进一个房间,让他们用 Kiro 放飞自我。"
+ },
+ {
+  "seg": 39,
+  "start": 263.877,
+  "end": 271.022,
+  "speaker": "Unknown",
+  "en": "They brought down the project delivery time estimate from what was going to be 90 weeks down to 24.",
+  "zh": "他们把项目交付时间的估计从原本的 90 周降到了 24 周。"
+ },
+ {
+  "seg": 40,
+  "start": 272.023,
+  "end": 275.704,
+  "speaker": "Unknown",
+  "en": "based on all of the progress they had made in this 10-day sprint.",
+  "zh": "这是基于他们在这次 10 天冲刺中取得的全部进展。"
+ },
+ {
+  "seg": 41,
+  "start": 276.525,
+  "end": 287.509,
+  "speaker": "Unknown",
+  "en": "And they looked at their commit history and they looked at what did they used to do prior to this 10-day sprint and how many commits did they produce just in this 10 days.",
+  "zh": "他们查看了自己的 commit 历史,查看了这次 10 天冲刺之前他们通常做什么,以及仅在这 10 天里他们产出了多少 commit。"
+ },
+ {
+  "seg": 42,
+  "start": 288.229,
+  "end": 299.974,
+  "speaker": "Unknown",
+  "en": "And so this sprint really proved that we can achieve, again, at least something close to what the Bedrock Mantle team had achieved with a different set of engineers.",
+  "zh": "所以这次冲刺真正证明了,用另一批工程师,我们至少可以取得接近 Bedrock Mantle 团队所取得的成就。"
+ },
+ {
+  "seg": 43,
+  "start": 300.894,
+  "end": 316.119,
+  "speaker": "Unknown",
+  "en": "But again, there was a challenge with this story, which was it was six engineers in a room, but they had no on-call duties, limited meetings, very few distractions, which we all know are regular in the lives of an engineer.",
+  "zh": "但同样,这个故事有一个挑战:那是 6 名工程师在一个房间里,但他们没有 on-call 职责,会议很少,干扰极少,而我们都知道,这些东西在工程师的日常中是常态。"
+ },
+ {
+  "seg": 44,
+  "start": 317.179,
+  "end": 331.355,
+  "speaker": "Unknown",
+  "en": "And the senior engineer on the team had spent the previous three weeks creating very detailed, small, well-scoped tasks with detailed requirements for these six engineers to just go turn on for those two weeks.",
+  "zh": "而且团队里的资深工程师在之前的三周里花了大量时间创建了非常详细、细小、范围清晰、附带详细需求的任务,好让这 6 名工程师在那两周里直接开工就行。"
+ },
+ {
+  "seg": 45,
+  "start": 332.156,
+  "end": 334.938,
+  "speaker": "Unknown",
+  "en": "So this was, again, not necessarily real life.",
+  "zh": "所以这同样不一定是真实的生活。"
+ },
+ {
+  "seg": 46,
+  "start": 335.178,
+  "end": 340.282,
+  "speaker": "Unknown",
+  "en": "This was a structured sprint, a point in time that they were able to achieve this.",
+  "zh": "这是一次结构化的冲刺,是他们在特定时间点上取得的成就。"
+ },
+ {
+  "seg": 47,
+  "start": 340.702,
+  "end": 347.427,
+  "speaker": "Unknown",
+  "en": "But again, the question is, is this achievable on real teams for day-to-day work?",
+  "zh": "但问题又来了:这对真实团队、对日常工作来说是可行的吗?"
+ },
+ {
+  "seg": 48,
+  "start": 348.548,
+  "end": 358.856,
+  "speaker": "Unknown",
+  "en": "So Amazon Stores, which encompasses Amazon.com, all of our retail websites, as well as our physical stores, did a more structured pilot.",
+  "zh": "于是 Amazon Stores——它涵盖 Amazon.com、我们所有的零售网站,以及我们的线下实体店——做了一个更结构化的试点。"
+ },
+ {
+  "seg": 49,
+  "start": 359.277,
+  "end": 371.787,
+  "speaker": "Unknown",
+  "en": "They watched 50 teams that were totally normal, normal distribution of early career folks, mid-career senior engineers, and that worked on existing systems.",
+  "zh": "他们观察了 50 个完全普通的团队,早期职业员工、中期职业资深工程师呈正态分布,而且这些团队维护的是现有系统。"
+ },
+ {
+  "seg": 50,
+  "start": 371.967,
+  "end": 375.61,
+  "speaker": "Unknown",
+  "en": "Nothing Greenfield like the Mantle team got to build from the ground up.",
+  "zh": "不像 Mantle 团队那样可以从零开始构建的 Greenfield 项目。"
+ },
+ {
+  "seg": 51,
+  "start": 375.93,
+  "end": 378.394,
+  "speaker": "Unknown",
+  "en": "But existing systems with existing code bases.",
+  "zh": "而是带有既有代码库的现有系统。"
+ },
+ {
+  "seg": 52,
+  "start": 379.195,
+  "end": 385.904,
+  "speaker": "Unknown",
+  "en": "And they watched them for the better part of last year, and they found something super interesting.",
+  "zh": "他们观察了去年大半年的时间,发现了一些非常有趣的东西。"
+ },
+ {
+  "seg": 53,
+  "start": 386.957,
+  "end": 393.681,
+  "speaker": "Unknown",
+  "en": "They found that there was a big difference in the productivity gains that they saw between half of the teams and the other half.",
+  "zh": "他们发现,一半团队和另一半团队在生产率提升上存在很大差异。"
+ },
+ {
+  "seg": 54,
+  "start": 394.602,
+  "end": 399.845,
+  "speaker": "Unknown",
+  "en": "And in this case, they used a productivity metric of deployment velocity to production.",
+  "zh": "在这个案例中,他们使用的生产率指标是部署到生产的速度。"
+ },
+ {
+  "seg": 55,
+  "start": 400.346,
+  "end": 407.45,
+  "speaker": "Unknown",
+  "en": "So not just commits, how many commits are they producing, but how quickly are we getting changes out to customers?",
+  "zh": "所以不只是提交,不只是看他们产出了多少次提交,而是我们多快能把变更交付给客户?"
+ },
+ {
+  "seg": 56,
+  "start": 407.95,
+  "end": 409.791,
+  "speaker": "Unknown",
+  "en": "How quickly are we able to ship things?",
+  "zh": "我们多快能够发布东西?"
+ },
+ {
+  "seg": 57,
+  "start": 410.632,
+  "end": 414.815,
+  "speaker": "Unknown",
+  "en": "And they saw that for half of the teams, they achieved less than 3x increase.",
+  "zh": "他们看到,有一半团队实现的提升不到 3 倍。"
+ },
+ {
+  "seg": 58,
+  "start": 415.815,
+  "end": 429.467,
+  "speaker": "Unknown",
+  "en": "And what they found that was the difference between seeing less than 3x productivity increase, these teams that saw a median of 4.5x, and in some cases more than 10, was how they use the tools.",
+  "zh": "而他们发现,不到 3 倍的生产率提升、这些中位数达到 4.5 倍、有些情况甚至超过 10 倍的团队之间的差别,在于他们使用工具的方式。"
+ },
+ {
+  "seg": 59,
+  "start": 429.527,
+  "end": 438.936,
+  "speaker": "Unknown",
+  "en": "90% of these teams use Kiro, among other internal tools that we have, and what they found was it wasn't about the tools, it was about the way that they worked.",
+  "zh": "这些团队中 90% 使用 Kiro,以及我们拥有的其他内部工具,他们发现关键不在于工具本身,而在于他们的工作方式。"
+ },
+ {
+  "seg": 60,
+  "start": 439.896,
+  "end": 453.266,
+  "speaker": "Unknown",
+  "en": "The teams that achieve step function improvements intentionally changed the way that they worked, and the others simply kind of sprinkled Kiro and some of the other tools that we have on top of their existing way of working.",
+  "zh": "实现了阶跃式改进的团队,是有意地改变了他们的工作方式,而其他团队只是把 Kiro 和我们的一些其他工具零星地撒在现有的工作方式之上。"
+ },
+ {
+  "seg": 61,
+  "start": 453.926,
+  "end": 465.794,
+  "speaker": "Unknown",
+  "en": "And for me, at least, this was the big aha moment, that why I hadn't been feeling potentially the massive gains in productivity that AI has promised.",
+  "zh": "对我来说,至少,这是一个巨大的顿悟时刻,解释了为什么我一直没有感受到 AI 所承诺的那种巨大生产率提升。"
+ },
+ {
+  "seg": 62,
+  "start": 466.095,
+  "end": 467.856,
+  "speaker": "Unknown",
+  "en": "It's about changing the way that we work.",
+  "zh": "关键在于改变我们的工作方式。"
+ },
+ {
+  "seg": 63,
+  "start": 469.59,
+  "end": 481.813,
+  "speaker": "Unknown",
+  "en": "So across this pilot, they went and interviewed the teams that were involved in the pilot as well as some of these other teams on the Bedrock Mantle team, on Prime Video, and they found five habits.",
+  "zh": "所以在整个试点过程中,他们走访了参与试点的团队,以及 Bedrock Mantle 团队、Prime Video 上的一些其他团队,他们发现了五个习惯。"
+ },
+ {
+  "seg": 64,
+  "start": 482.733,
+  "end": 488.034,
+  "speaker": "Unknown",
+  "en": "And I use the word habits very specifically because, again, it's not about that one sprint.",
+  "zh": "我非常特意地使用“习惯”这个词,因为,再强调一次,关键不在于那一个冲刺。"
+ },
+ {
+  "seg": 65,
+  "start": 488.354,
+  "end": 490.015,
+  "speaker": "Unknown",
+  "en": "It's about doing this day to day.",
+  "zh": "关键在于日复一日地坚持这样做。"
+ },
+ {
+  "seg": 66,
+  "start": 490.835,
+  "end": 497.196,
+  "speaker": "Unknown",
+  "en": "And what they found when they interviewed with these teams was that it really was habits that they had to build day to day.",
+  "zh": "他们走访这些团队时发现,这确实是他们必须日复一日建立的习惯。"
+ },
+ {
+  "seg": 67,
+  "start": 497.717,
+  "end": 499.337,
+  "speaker": "Unknown",
+  "en": "When we change our way of working,",
+  "zh": "当我们改变自己的工作方式时,"
+ },
+ {
+  "seg": 68,
+  "start": 499.997,
+  "end": 501.737,
+  "speaker": "Unknown",
+  "en": "It's hard to build these habits.",
+  "zh": "建立这些习惯很难。"
+ },
+ {
+  "seg": 69,
+  "start": 501.817,
+  "end": 503.438,
+  "speaker": "Unknown",
+  "en": "It takes time to build these habits.",
+  "zh": "建立这些习惯需要时间。"
+ },
+ {
+  "seg": 70,
+  "start": 504.078,
+  "end": 506.018,
+  "speaker": "Unknown",
+  "en": "So let's go through each of these one by one.",
+  "zh": "那么让我们逐一看一下这些习惯。"
+ },
+ {
+  "seg": 71,
+  "start": 507.098,
+  "end": 509.519,
+  "speaker": "Unknown",
+  "en": "Habit number one is investing in agent context.",
+  "zh": "习惯一:投资于智能体上下文。"
+ },
+ {
+  "seg": 72,
+  "start": 510.159,
+  "end": 512.519,
+  "speaker": "Unknown",
+  "en": "We have a lot of stuff in our head.",
+  "zh": "我们脑子里装着很多东西。"
+ },
+ {
+  "seg": 73,
+  "start": 512.859,
+  "end": 527.502,
+  "speaker": "Unknown",
+  "en": "We tend to transfer all of that stuff in our head to other people through Slack conversations, through onboarding mentors, things like that, through code reviews, through stand-ups and sprint planning, and they had to write all of that down.",
+  "zh": "我们习惯于通过 Slack 对话、通过入职导师之类的方式、通过代码审查、通过站会和冲刺规划,把脑子里那些东西传递给其他人,而他们必须把所有这些写下来。"
+ },
+ {
+  "seg": 74,
+  "start": 528.062,
+  "end": 537.646,
+  "speaker": "Unknown",
+  "en": "And the habit that they built was every time the agent makes a mistake or does something not the way that you would have done it, what am I missing in my skills files?",
+  "zh": "他们建立的习惯是:每当智能体犯了一个错误,或者做了某件与你原本会做的方式不一样的事情时,问一句:我的 skills 文件里缺了什么?"
+ },
+ {
+  "seg": 75,
+  "start": 537.706,
+  "end": 541.288,
+  "speaker": "Unknown",
+  "en": "What am I missing in my steering files that the agent needed?",
+  "zh": "我的 steering 文件里缺了什么智能体需要的东西?"
+ },
+ {
+  "seg": 76,
+  "start": 542.068,
+  "end": 549.031,
+  "speaker": "Unknown",
+  "en": "But then, as we know, across last year, we saw leaps and bounds in models' abilities and their behaviors.",
+  "zh": "但然后,正如我们所知,去年模型的能力和行为有了突飞猛进的发展。"
+ },
+ {
+  "seg": 77,
+  "start": 549.912,
+  "end": 552.513,
+  "speaker": "Unknown",
+  "en": "The Sonnet 3.7 in the middle of last year",
+  "zh": "去年年中的 Sonnet 3.7"
+ },
+ {
+  "seg": 78,
+  "start": 553.233,
+  "end": 558.435,
+  "speaker": "Unknown",
+  "en": "We've had a lot of quirks that we had to put a lot of do nots in our steering files.",
+  "zh": "有很多怪癖,我们不得不在 steering 文件里写大量的“不要做”。"
+ },
+ {
+  "seg": 79,
+  "start": 558.816,
+  "end": 563.638,
+  "speaker": "Unknown",
+  "en": "And now we don't have to do that as much with Opus 4.5 as of last November.",
+  "zh": "而现在,自去年 11 月的 Opus 4.5 以来,我们就不那么需要这样做了。"
+ },
+ {
+  "seg": 80,
+  "start": 563.678,
+  "end": 571.201,
+  "speaker": "Unknown",
+  "en": "And then we've had six months, more than six months of improvements since then with all of the new versions of models that have come out since then.",
+  "zh": "而且自那之后,随着之后发布的所有新版本模型,我们已经有六个月、超过六个月的改进了。"
+ },
+ {
+  "seg": 81,
+  "start": 571.782,
+  "end": 578.525,
+  "speaker": "Unknown",
+  "en": "And so the question, the new habit again is, do I still need this in my steering files or is this just bloating context?",
+  "zh": "所以问题,也就是这个新习惯,再一次是:我的 steering 文件里还需要这条吗,还是它只是在让上下文变得臃肿?"
+ },
+ {
+  "seg": 82,
+  "start": 579.365,
+  "end": 582.03,
+  "speaker": "Unknown",
+  "en": "The second one is slowing down to speed up.",
+  "zh": "第二个习惯:放慢速度以求提速。"
+ },
+ {
+  "seg": 83,
+  "start": 582.671,
+  "end": 591.766,
+  "speaker": "Unknown",
+  "en": "In almost every team that was interviewed, they reported that their productivity actually went down as they intentionally adopted a new way of working.",
+  "zh": "在几乎所有被访谈的团队中,他们都报告说,当他们有意采用新的工作方式时,生产率实际上是下降的。"
+ },
+ {
+  "seg": 84,
+  "start": 592.842,
+  "end": 594.344,
+  "speaker": "Unknown",
+  "en": "That's counterintuitive, right?",
+  "zh": "这很反直觉,对吧?"
+ },
+ {
+  "seg": 85,
+  "start": 594.704,
+  "end": 610.204,
+  "speaker": "Unknown",
+  "en": "You have to do intentional engineering work before you're going to see that hockey stick curve in productivity improvement because we have to do real work in our code bases first for agents to be successful there, especially in Brownfield existing code bases.",
+  "zh": "你必须先做有意的工程工作,才能看到生产率提升的那条曲棍球杆曲线,因为我们必须先在代码库里做真正的工作,智能体才能在那里取得成功,尤其是在 Brownfield 既有代码库中。"
+ },
+ {
+  "seg": 86,
+  "start": 610.865,
+  "end": 612.806,
+  "speaker": "Unknown",
+  "en": "So they had to build that agent context up.",
+  "zh": "所以他们必须把智能体上下文建立起来。"
+ },
+ {
+  "seg": 87,
+  "start": 613.146,
+  "end": 619.049,
+  "speaker": "Unknown",
+  "en": "They had to improve existing tools error messages so that the model knew what was going on when it failed.",
+  "zh": "他们必须改进现有工具的错误信息,让模型在失败时知道发生了什么。"
+ },
+ {
+  "seg": 88,
+  "start": 619.509,
+  "end": 625.973,
+  "speaker": "Unknown",
+  "en": "They built new tools, new MCP servers for helping that model to actually get done what it needed to get done.",
+  "zh": "他们构建了新工具、新的 MCP 服务器,来帮助模型真正完成它需要完成的事情。"
+ },
+ {
+  "seg": 89,
+  "start": 626.733,
+  "end": 632.116,
+  "speaker": "Unknown",
+  "en": "A lot of teams ended up restructuring their code base so that agents could actually navigate it more easily.",
+  "zh": "很多团队最终重构了他们的代码库,让智能体能够更容易地导航它。"
+ },
+ {
+  "seg": 90,
+  "start": 632.857,
+  "end": 637.56,
+  "speaker": "Unknown",
+  "en": "And I've even seen drastic changes like changing the programming language of the code base.",
+  "zh": "我甚至见过剧烈的改动,比如更换代码库的编程语言。"
+ },
+ {
+  "seg": 91,
+  "start": 638.601,
+  "end": 644.384,
+  "speaker": "Unknown",
+  "en": "Often I've seen teams struggle with Python, with JavaScript because they're untyped languages.",
+  "zh": "我经常见到团队在 Python、JavaScript 上挣扎,因为它们是无类型语言。"
+ },
+ {
+  "seg": 92,
+  "start": 644.905,
+  "end": 645.945,
+  "speaker": "Unknown",
+  "en": "It's hard to test.",
+  "zh": "很难测试。"
+ },
+ {
+  "seg": 93,
+  "start": 646.185,
+  "end": 647.646,
+  "speaker": "Unknown",
+  "en": "There's no compiler errors.",
+  "zh": "没有编译器错误。"
+ },
+ {
+  "seg": 94,
+  "start": 648.107,
+  "end": 651.549,
+  "speaker": "Unknown",
+  "en": "So the model kind of guesses and gives it back to you.",
+  "zh": "所以模型有点靠猜,然后把结果交还给你。"
+ },
+ {
+  "seg": 95,
+  "start": 651.969,
+  "end": 654.691,
+  "speaker": "Unknown",
+  "en": "And so I've seen teams moving to TypeScript",
+  "zh": "所以我见过团队迁移到 TypeScript"
+ },
+ {
+  "seg": 96,
+  "start": 655.432,
+  "end": 657.936,
+  "speaker": "Unknown",
+  "en": "Rust has become very popular inside of Amazon.",
+  "zh": "Rust 在 Amazon 内部变得非常流行。"
+ },
+ {
+  "seg": 97,
+  "start": 657.956,
+  "end": 660.2,
+  "speaker": "Unknown",
+  "en": "The compiler gives great error messages.",
+  "zh": "编译器会给出很好的错误信息。"
+ },
+ {
+  "seg": 98,
+  "start": 661.122,
+  "end": 668.135,
+  "speaker": "Unknown",
+  "en": "You don't have to do that, but I've seen a lot of teams making those intentional changes for the productivity gains that they're able to see.",
+  "zh": "你不一定非得这么做,但我见过很多团队为了能够获得的生产率提升而做出这些有意的改动。"
+ },
+ {
+  "seg": 99,
+  "start": 669.651,
+  "end": 673.352,
+  "speaker": "Unknown",
+  "en": "The third one is feeding agents, not babysitting agents.",
+  "zh": "第三个习惯:喂养智能体,而不是看管智能体。"
+ },
+ {
+  "seg": 100,
+  "start": 673.952,
+  "end": 680.375,
+  "speaker": "Unknown",
+  "en": "And for me, this was one of those aha moments of why we're seeing this step function improvement in productivity.",
+  "zh": "对我来说，这就是我们为什么看到生产力出现这种阶跃式提升的顿悟时刻之一。"
+ },
+ {
+  "seg": 101,
+  "start": 681.475,
+  "end": 689.518,
+  "speaker": "Unknown",
+  "en": "If you are vibe coding, if you are having a back and forth conversation with your agent all day long, of course, you're not going to see",
+  "zh": "如果你在 vibe coding,如果你整天和你的智能体来回对话，你当然不会看到"
+ },
+ {
+  "seg": 102,
+  "start": 690.378,
+  "end": 695.361,
+  "speaker": "Unknown",
+  "en": "4 to 5x productivity improvements because you are in the loop the entire time.",
+  "zh": "4 到 5 倍的生产力提升，因为你全程都在循环之中。"
+ },
+ {
+  "seg": 103,
+  "start": 695.641,
+  "end": 703.545,
+  "speaker": "Unknown",
+  "en": "You're probably sitting there for 30 seconds to a minute waiting for it to generate code and come back to you with the code to review.",
+  "zh": "你可能坐在那里 30 秒到一分钟，等它生成代码，然后把代码返回给你审阅。"
+ },
+ {
+  "seg": 104,
+  "start": 704.866,
+  "end": 708.448,
+  "speaker": "Unknown",
+  "en": "If you're sitting there waiting for it, then you can't go off and do other stuff.",
+  "zh": "如果你坐在那里等它，那你就没法去做别的事情。"
+ },
+ {
+  "seg": 105,
+  "start": 708.748,
+  "end": 711.13,
+  "speaker": "Unknown",
+  "en": "It's really difficult to run agents in parallel.",
+  "zh": "并行运行智能体真的很难。"
+ },
+ {
+  "seg": 106,
+  "start": 711.79,
+  "end": 716.797,
+  "speaker": "Unknown",
+  "en": "It's very difficult to clone yourself into multiple agents.",
+  "zh": "把自己克隆成多个智能体也是非常困难的。"
+ },
+ {
+  "seg": 107,
+  "start": 717.537,
+  "end": 729.413,
+  "speaker": "Unknown",
+  "en": "And so if your conversations look a bit like this on the left, then you're babysitting that agent, as opposed to the right side where you're feeding it what it needs to do and how it can self-validate.",
+  "zh": "所以如果你的对话看起来像左边这样，那你就是在保姆式地看着那个智能体，而不是像右边那样，你给它喂入它需要做的事情以及它如何自我验证。"
+ },
+ {
+  "seg": 108,
+  "start": 729.893,
+  "end": 743.727,
+  "speaker": "Unknown",
+  "en": "And that's really the key so that agents can self-correct and only come back to you when it meets a certain quality bar, when it actually runs and compiles and passes tests, when it's testable, when it actually has high coverage.",
+  "zh": "这才是真正的关键，让智能体能够自我纠错，只有在达到某个质量门槛、真正能跑起来、编译通过、测试通过、可测试、覆盖率真的够高时，才回来找你。"
+ },
+ {
+  "seg": 109,
+  "start": 744.468,
+  "end": 751.075,
+  "speaker": "Unknown",
+  "en": "And of course, the next level is put all of this content into your steering file so it does it every time without you having to prompt it.",
+  "zh": "当然，下一个层次是把所有这些内容放进你的 steering 文件里，这样它每次都会照做，而不用你去提示它。"
+ },
+ {
+  "seg": 110,
+  "start": 753.825,
+  "end": 757.368,
+  "speaker": "Unknown",
+  "en": "The fourth habit is to make intent explicit.",
+  "zh": "第四个习惯是把意图明确化。"
+ },
+ {
+  "seg": 111,
+  "start": 758.128,
+  "end": 761.11,
+  "speaker": "Unknown",
+  "en": "At Amazon, we practice a lot of spectrum and development.",
+  "zh": "在 Amazon,我们大量实践规范驱动开发。"
+ },
+ {
+  "seg": 112,
+  "start": 761.13,
+  "end": 763.332,
+  "speaker": "Unknown",
+  "en": "We've built that into the Kiro product.",
+  "zh": "我们把这一点内建到了 Kiro 产品里。"
+ },
+ {
+  "seg": 113,
+  "start": 763.752,
+  "end": 767.615,
+  "speaker": "Unknown",
+  "en": "And so it's very natural for Amazon engineers to adopt it in Kiro.",
+  "zh": "所以 Amazon 工程师在 Kiro 里采用它是非常自然的事。"
+ },
+ {
+  "seg": 114,
+  "start": 768.996,
+  "end": 779.984,
+  "speaker": "Unknown",
+  "en": "What I've typically seen with vibe coding as opposed to frontier engineering is giving a very high level prompt, letting the agent generate a ton of code,",
+  "zh": "我通常看到的 vibe coding 与前沿工程相比的做法是：给出一个非常高层的 prompt,让智能体生成一大堆代码，"
+ },
+ {
+  "seg": 115,
+  "start": 780.764,
+  "end": 786.045,
+  "speaker": "Unknown",
+  "en": "And then having a back and forth conversation saying, oh, that's not really what I meant.",
+  "zh": "然后来回对话说，哦，这其实不是我想要的意思。"
+ },
+ {
+  "seg": 116,
+  "start": 787.325,
+  "end": 790.286,
+  "speaker": "Unknown",
+  "en": "You haven't exactly gotten the requirements right.",
+  "zh": "你没有完全把需求搞对。"
+ },
+ {
+  "seg": 117,
+  "start": 790.626,
+  "end": 792.427,
+  "speaker": "Unknown",
+  "en": "No, I didn't actually want to build it that way.",
+  "zh": "不，我其实并不想那样构建。"
+ },
+ {
+  "seg": 118,
+  "start": 792.507,
+  "end": 793.827,
+  "speaker": "Unknown",
+  "en": "Here's a technical design.",
+  "zh": "这里是一份技术设计。"
+ },
+ {
+  "seg": 119,
+  "start": 794.587,
+  "end": 802.989,
+  "speaker": "Unknown",
+  "en": "And it is less, I find, less productive to iterate with the agent on code when the intent itself was incorrect.",
+  "zh": "而我发现，当意图本身就不正确时，与智能体在代码上迭代的效率会低一些。"
+ },
+ {
+  "seg": 120,
+  "start": 803.849,
+  "end": 814.252,
+  "speaker": "Unknown",
+  "en": "So often we'll see Amazon engineers go through this process for ambiguous, complex features of writing the specification.",
+  "zh": "所以我们经常看到 Amazon 工程师对那些模糊、复杂的功能走这样一套流程：先写规格说明。"
+ },
+ {
+  "seg": 121,
+  "start": 814.552,
+  "end": 817.372,
+  "speaker": "Unknown",
+  "en": "And in Curo, of course, you don't have to write this whole specification.",
+  "zh": "当然在 Curo 里，你不必自己写完这整份规格说明。"
+ },
+ {
+  "seg": 122,
+  "start": 817.752,
+  "end": 819.713,
+  "speaker": "Unknown",
+  "en": "You can have the model generate it.",
+  "zh": "你可以让模型来生成它。"
+ },
+ {
+  "seg": 123,
+  "start": 820.013,
+  "end": 831.836,
+  "speaker": "Unknown",
+  "en": "But it's a lot easier to iterate with the model in kind of a back and forth conversation about a document than it is about code changes that are spread across a code base.",
+  "zh": "但是以这种来回对话的方式与模型就一份文档迭代，比就散落在代码库各处的代码改动迭代要容易得多。"
+ },
+ {
+  "seg": 124,
+  "start": 833.728,
+  "end": 837.312,
+  "speaker": "Unknown",
+  "en": "The fifth one is shift testing left.",
+  "zh": "第五个是把测试左移。"
+ },
+ {
+  "seg": 125,
+  "start": 838.073,
+  "end": 846.402,
+  "speaker": "Unknown",
+  "en": "One of the keys here is to give the agent that fast feedback loop because that's what lets it go off for hours at a time and self-correct.",
+  "zh": "这里的一个关键，是给智能体那个快速反馈回路，因为这才是让它能一次离开运行几个小时并自我纠错的原因。"
+ },
+ {
+  "seg": 126,
+  "start": 846.782,
+  "end": 855.531,
+  "speaker": "Unknown",
+  "en": "The agent is going to make mistakes and that's fine, but if you give it the right signals, it can self-correct and it can spend a while doing that.",
+  "zh": "智能体会犯错，这没关系，但如果你给它正确的信号，它就能自我纠错，而且它可以花相当一段时间来做这件事。"
+ },
+ {
+  "seg": 127,
+  "start": 856.598,
+  "end": 862.603,
+  "speaker": "Unknown",
+  "en": "So I've seen teams adding linters, adding unit tests, integration tests, performance tests, security tests.",
+  "zh": "所以我见过很多团队添加 linter、添加单元测试、集成测试、性能测试、安全测试。"
+ },
+ {
+  "seg": 128,
+  "start": 862.923,
+  "end": 865.945,
+  "speaker": "Unknown",
+  "en": "These are all things we all know we should have been doing all along.",
+  "zh": "这些都是我们一直都知道自己早就该做的事情。"
+ },
+ {
+  "seg": 129,
+  "start": 866.265,
+  "end": 869.328,
+  "speaker": "Unknown",
+  "en": "This is good engineering hygiene and practices.",
+  "zh": "这是良好的工程习惯和实践。"
+ },
+ {
+  "seg": 130,
+  "start": 869.828,
+  "end": 875.753,
+  "speaker": "Unknown",
+  "en": "But now the ROI is, I think, finally high enough for us to actually invest in it.",
+  "zh": "但现在，我认为投资回报率终于高到值得我们真正去投入了。"
+ },
+ {
+  "seg": 131,
+  "start": 876.814,
+  "end": 880.698,
+  "speaker": "Unknown",
+  "en": "One thing that I've been seeing a lot of teams do is mock-out services.",
+  "zh": "我看到很多团队在做的一件事是 mock 掉服务。"
+ },
+ {
+  "seg": 132,
+  "start": 881.339,
+  "end": 887.627,
+  "speaker": "Unknown",
+  "en": "Often with integration tests, we would test kind of end-to-end an entire system, including live services.",
+  "zh": "以前做集成测试时，我们会对整个系统做某种端到端的测试，包括真实运行的服务。"
+ },
+ {
+  "seg": 133,
+  "start": 888.088,
+  "end": 893.675,
+  "speaker": "Unknown",
+  "en": "But we've been investing a lot in mock services that run entirely locally with deterministic responses.",
+  "zh": "但我们在 mock 服务上投入了很多，它们完全在本地运行，响应是确定性的。"
+ },
+ {
+  "seg": 134,
+  "start": 894.227,
+  "end": 897.869,
+  "speaker": "Unknown",
+  "en": "Because it lets the agent do everything locally.",
+  "zh": "因为这让智能体的一切都能在本地完成。"
+ },
+ {
+  "seg": 135,
+  "start": 899.13,
+  "end": 907.736,
+  "speaker": "Unknown",
+  "en": "Doing everything on your laptop without having to spin up a bunch of other services and connect to cloud services makes everything a lot faster.",
+  "zh": "在你的笔记本电脑上完成所有事情，而不必启动一堆其他服务并连接云服务，会让一切快很多。"
+ },
+ {
+  "seg": 136,
+  "start": 908.296,
+  "end": 917.862,
+  "speaker": "Unknown",
+  "en": "Because the more that your agent can get fast feedback means the more loops that it can do and the more productive your own agent can be.",
+  "zh": "因为你的智能体能获得快速反馈的次数越多，意味着它能跑的循环越多，你自己的智能体的生产力就越高。"
+ },
+ {
+  "seg": 137,
+  "start": 919.748,
+  "end": 922.89,
+  "speaker": "Unknown",
+  "en": "So across all of these, these are some of the habits we've seen.",
+  "zh": "综合以上，这些就是我们观察到的一些习惯。"
+ },
+ {
+  "seg": 138,
+  "start": 922.97,
+  "end": 931.255,
+  "speaker": "Unknown",
+  "en": "But of course, I would be remiss if I would tell you if you adopt all of these habits, you will achieve nirvana.",
+  "zh": "当然，如果我告诉你，只要你采用所有这些习惯，你就会达到极乐境界，"
+ },
+ {
+  "seg": 139,
+  "start": 931.295,
+  "end": 935.697,
+  "speaker": "Unknown",
+  "en": "You will be the most productive engineering organization the world has ever seen.",
+  "zh": "你就会成为世界上最有效率的工程组织，"
+ },
+ {
+  "seg": 140,
+  "start": 936.038,
+  "end": 936.978,
+  "speaker": "Unknown",
+  "en": "Things are still hard.",
+  "zh": "那我就太失职了。"
+ },
+ {
+  "seg": 141,
+  "start": 937.098,
+  "end": 943.102,
+  "speaker": "Unknown",
+  "en": "We are still very much in an early adopter phase, and teams are still figuring it out.",
+  "zh": "事情依然很难。"
+ },
+ {
+  "seg": 142,
+  "start": 943.962,
+  "end": 949.265,
+  "speaker": "Unknown",
+  "en": "So one thing that we've been seeing across our teams just organizationally is the risk of burnout.",
+  "zh": "我们仍然非常处于早期采用者阶段，团队们还在摸索之中。"
+ },
+ {
+  "seg": 143,
+  "start": 950.346,
+  "end": 951.606,
+  "speaker": "Unknown",
+  "en": "I did not coin this term.",
+  "zh": "所以从组织层面来看，我们在各个团队都看到的一个现象是倦怠的风险。"
+ },
+ {
+  "seg": 144,
+  "start": 951.646,
+  "end": 955.588,
+  "speaker": "Unknown",
+  "en": "I forget who did at what conference, but FOMAT is real.",
+  "zh": "这个词不是我发明的。"
+ },
+ {
+  "seg": 145,
+  "start": 956.049,
+  "end": 967.555,
+  "speaker": "Unknown",
+  "en": "We've been seeing engineers staying up late, late at night, trying to get that perfect prompt that's going to make their agent run for hours overnight so that they wake up in the morning with a code change ready.",
+  "zh": "我忘了是谁在哪个大会上提出的，但 FOMAT 是真实存在的。"
+ },
+ {
+  "seg": 146,
+  "start": 968.435,
+  "end": 973.538,
+  "speaker": "Unknown",
+  "en": "The cognitive load increases as you run these multiple agents in parallel.",
+  "zh": "我们看到工程师们熬夜到深夜，试图调出那个完美的 prompt,好让他们的智能体在夜里跑上几个小时，这样他们早上醒来时代码改动就已经就绪。"
+ },
+ {
+  "seg": 147,
+  "start": 973.878,
+  "end": 976.579,
+  "speaker": "Unknown",
+  "en": "You're constantly shifting between terminal tabs.",
+  "zh": "当你并行运行多个智能体时，认知负担会增加。"
+ },
+ {
+  "seg": 148,
+  "start": 977.379,
+  "end": 985.661,
+  "speaker": "Unknown",
+  "en": "And then we do see that reviewing AI output is often harder for some than actually writing it, especially early in career.",
+  "zh": "你在不断地切换终端标签页。"
+ },
+ {
+  "seg": 149,
+  "start": 986.421,
+  "end": 996.263,
+  "speaker": "Unknown",
+  "en": "Senior engineers have already spent a large portion of their career reviewing others' code, but early career engineers don't have that muscle yet.",
+  "zh": "然后我们也确实看到，对某些人来说，审阅 AI 输出往往比亲自写代码更难，尤其是职业生涯早期的人。"
+ },
+ {
+  "seg": 150,
+  "start": 996.463,
+  "end": 1003.505,
+  "speaker": "Unknown",
+  "en": "And so reviewing it can feel like a lot more cognitive load than they're used to in actually writing it.",
+  "zh": "所以审查这些代码带来的认知负担，可能比他们过去实际编写代码时要大得多。"
+ },
+ {
+  "seg": 151,
+  "start": 1004.626,
+  "end": 1007.147,
+  "speaker": "Unknown",
+  "en": "The other one is organizational change.",
+  "zh": "另一个是组织变革。"
+ },
+ {
+  "seg": 152,
+  "start": 1007.928,
+  "end": 1011.31,
+  "speaker": "Unknown",
+  "en": "So it's already hard to change the way we work as engineers.",
+  "zh": "作为工程师，改变我们的工作方式本来就已经很难了。"
+ },
+ {
+  "seg": 153,
+  "start": 1011.39,
+  "end": 1016.454,
+  "speaker": "Unknown",
+  "en": "The way that we spend our entire day completely changes when we're Frontier engineers.",
+  "zh": "当我们成为前沿工程师时，我们度过一整天的方式会完全改变。"
+ },
+ {
+  "seg": 154,
+  "start": 1016.994,
+  "end": 1021.917,
+  "speaker": "Unknown",
+  "en": "But also organizations have to change to enable Frontier engineering teams.",
+  "zh": "但组织也必须做出改变，来支持前沿工程团队。"
+ },
+ {
+  "seg": 155,
+  "start": 1023.658,
+  "end": 1028.4,
+  "speaker": "Unknown",
+  "en": "One that I've seen very commonly is accepting slowing down to speed up.",
+  "zh": "我很常见到的一个问题是接受「先慢下来才能更快」。"
+ },
+ {
+  "seg": 156,
+  "start": 1029.281,
+  "end": 1031.081,
+  "speaker": "Unknown",
+  "en": "And I've been guilty of this myself.",
+  "zh": "我自己也有过这种毛病。"
+ },
+ {
+  "seg": 157,
+  "start": 1031.182,
+  "end": 1038.865,
+  "speaker": "Unknown",
+  "en": "My fellow leaders have been guilty of this, of saying, well, you have the AI tools now and the models are so amazing now.",
+  "zh": "我的领导者同行们也有过这种毛病，就是会说：你们现在有 AI 工具了，模型现在这么厉害。"
+ },
+ {
+  "seg": 158,
+  "start": 1039.365,
+  "end": 1041.186,
+  "speaker": "Unknown",
+  "en": "Why are you not going faster?",
+  "zh": "你们为什么不更快一点？"
+ },
+ {
+  "seg": 159,
+  "start": 1042.707,
+  "end": 1054.454,
+  "speaker": "Unknown",
+  "en": "And that's because you have to take those two months to invest in your code base, to figure out the best practices for your team, to make hard habit changes on your team.",
+  "zh": "而原因是，你必须花那两个月来投资你的代码库，为你团队摸索出最佳实践，在你团队里做出艰难的习惯改变。"
+ },
+ {
+  "seg": 160,
+  "start": 1055.295,
+  "end": 1058.217,
+  "speaker": "Unknown",
+  "en": "And if you're constantly expecting...",
+  "zh": "而如果你一直期待着……"
+ },
+ {
+  "seg": 161,
+  "start": 1059.077,
+  "end": 1070.107,
+  "speaker": "Unknown",
+  "en": "Shipping features every month because now we have these amazing models and we're seeing all of these companies on X saying how they're shipping 20 PRs a day.",
+  "zh": "每个月都交付功能，因为现在我们有了这些了不起的模型，而且我们在 X 上看到所有这些公司在说他们每天交付 20 个 PR。"
+ },
+ {
+  "seg": 162,
+  "start": 1071.088,
+  "end": 1073.37,
+  "speaker": "Unknown",
+  "en": "We have to slow down to speed up.",
+  "zh": "我们必须慢下来才能快起来。"
+ },
+ {
+  "seg": 163,
+  "start": 1074.432,
+  "end": 1077.715,
+  "speaker": "Unknown",
+  "en": "The second one is actually going too broad in the organization too fast.",
+  "zh": "第二个问题是在组织里铺得太广、铺得太快。"
+ },
+ {
+  "seg": 164,
+  "start": 1078.276,
+  "end": 1095.454,
+  "speaker": "Unknown",
+  "en": "I think that if we had expected all teams in massive organizations to be frontier teams immediately, we would not have had the learnings that we had from the Pathfinder, from the Sprint experiment, from the pilot,",
+  "zh": "我认为，如果我们一开始就期望大型组织里的所有团队都立刻成为前沿团队，我们就不会从探路者团队、从 Sprint 实验、从试点团队，"
+ },
+ {
+  "seg": 165,
+  "start": 1096.335,
+  "end": 1097.997,
+  "speaker": "Unknown",
+  "en": "teams within Amazon.",
+  "zh": "也就是 Amazon 内部的那些团队身上，获得我们曾经获得的那些经验。"
+ },
+ {
+  "seg": 166,
+  "start": 1098.418,
+  "end": 1101.021,
+  "speaker": "Unknown",
+  "en": "And now the challenge for us is how do we scale it out?",
+  "zh": "现在对我们来说，挑战是如何把它规模化推广出去。"
+ },
+ {
+  "seg": 167,
+  "start": 1101.141,
+  "end": 1106.849,
+  "speaker": "Unknown",
+  "en": "And that's what 2026 is about for Amazon is how do we scale this out to more and more teams to the next",
+  "zh": "这就是 Amazon 2026 年要做的事：如何把它推广到越来越多的团队，推广到下一个"
+ },
+ {
+  "seg": 168,
+  "start": 1108.043,
+  "end": 1110.405,
+  "speaker": "Unknown",
+  "en": "2,000 teams instead of 50 teams.",
+  "zh": "2000 个团队，而不是 50 个团队。"
+ },
+ {
+  "seg": 169,
+  "start": 1111.466,
+  "end": 1117.872,
+  "speaker": "Unknown",
+  "en": "And so I think that when you roll it out too quickly, you have a lot of teams who don't know what they're doing.",
+  "zh": "所以我认为，如果你推广得太快，就会有很多团队不知道自己在做什么。"
+ },
+ {
+  "seg": 170,
+  "start": 1118.152,
+  "end": 1125.259,
+  "speaker": "Unknown",
+  "en": "You haven't had time to find the best practices for your own organizations, the context that your organization needs.",
+  "zh": "你没有时间为自己的组织找到最佳实践，找到你的组织所需要的上下文。"
+ },
+ {
+  "seg": 171,
+  "start": 1126.14,
+  "end": 1128.562,
+  "speaker": "Unknown",
+  "en": "And the last one is that you're going to find new bottlenecks.",
+  "zh": "最后一个是，你会发现新的瓶颈。"
+ },
+ {
+  "seg": 172,
+  "start": 1129.478,
+  "end": 1134.522,
+  "speaker": "Unknown",
+  "en": "Previously, writing code manually was the bottleneck.",
+  "zh": "在以前，手动写代码是瓶颈。"
+ },
+ {
+  "seg": 173,
+  "start": 1134.943,
+  "end": 1141.168,
+  "speaker": "Unknown",
+  "en": "I find that within Amazon, we've found the speed of decision-making becomes a new bottleneck.",
+  "zh": "我发现在 Amazon 内部，我们发现决策速度成为了新的瓶颈。"
+ },
+ {
+  "seg": 174,
+  "start": 1142.049,
+  "end": 1152.718,
+  "speaker": "Unknown",
+  "en": "The more that you spend reviewing the decision to actually build a new product, the slower it is to build the product now because the code only takes one to two months to write.",
+  "zh": "你花越多时间去审查是否要真正构建一个新产品的决策，现在构建这个产品就越慢，因为代码只需要一两个月就能写完。"
+ },
+ {
+  "seg": 175,
+  "start": 1154.259,
+  "end": 1160.364,
+  "speaker": "Unknown",
+  "en": "All of the review processes associated with the launch of a product become the bottleneck.",
+  "zh": "所有与产品发布相关的审查流程都成了瓶颈。"
+ },
+ {
+  "seg": 176,
+  "start": 1161.004,
+  "end": 1168.831,
+  "speaker": "Unknown",
+  "en": "When it used to take 9 to 12 months to build a new product, it didn't matter so much in the overall wash of things.",
+  "zh": "当构建一个新产品以前需要 9 到 12 个月时，这些在整个大局中还算不上什么。"
+ },
+ {
+  "seg": 177,
+  "start": 1169.251,
+  "end": 1174.173,
+  "speaker": "Unknown",
+  "en": "If it took two months to make the decision to build the product and then two months to approve the launch.",
+  "zh": "即便花两个月做构建产品的决策，再花两个月批准发布。"
+ },
+ {
+  "seg": 178,
+  "start": 1174.794,
+  "end": 1177.075,
+  "speaker": "Unknown",
+  "en": "But now those are the bottlenecks.",
+  "zh": "但现在这些才是瓶颈。"
+ },
+ {
+  "seg": 179,
+  "start": 1177.195,
+  "end": 1178.375,
+  "speaker": "Unknown",
+  "en": "Those are the long pole.",
+  "zh": "这些才是最耗时的环节。"
+ },
+ {
+  "seg": 180,
+  "start": 1178.915,
+  "end": 1183.077,
+  "speaker": "Unknown",
+  "en": "And so you find all of these things that slow you down.",
+  "zh": "所以你会发现所有这些拖慢你的事情。"
+ },
+ {
+  "seg": 181,
+  "start": 1184.238,
+  "end": 1190.46,
+  "speaker": "Unknown",
+  "en": "Often I find that frontier engineering teams spend more time making decisions than they do writing code.",
+  "zh": "我经常发现，前沿工程团队花在做决策上的时间比写代码还多。"
+ },
+ {
+  "seg": 182,
+  "start": 1191.141,
+  "end": 1196.083,
+  "speaker": "Unknown",
+  "en": "And so the more that you can make fast decisions, especially ones that are easy to be reversed, the better.",
+  "zh": "所以你能做出的快速决策越多，尤其是那些容易逆转的决策，就越好。"
+ },
+ {
+  "seg": 183,
+  "start": 1197.977,
+  "end": 1206.7,
+  "speaker": "Unknown",
+  "en": "So my one big takeaway for everyone here is that frontier engineering is about intentionally changing the way that you work.",
+  "zh": "所以我在这里给所有人的一个大要点是：前沿工程的核心是有意识地改变你的工作方式。"
+ },
+ {
+  "seg": 184,
+  "start": 1207.26,
+  "end": 1208.861,
+  "speaker": "Unknown",
+  "en": "And that is difficult.",
+  "zh": "而这是困难的。"
+ },
+ {
+  "seg": 185,
+  "start": 1209.001,
+  "end": 1210.101,
+  "speaker": "Unknown",
+  "en": "That takes time.",
+  "zh": "这需要时间。"
+ },
+ {
+  "seg": 186,
+  "start": 1210.281,
+  "end": 1213.803,
+  "speaker": "Unknown",
+  "en": "It is forming new habits and a new way of working.",
+  "zh": "这是在形成新的习惯和一种新的工作方式。"
+ },
+ {
+  "seg": 187,
+  "start": 1214.723,
+  "end": 1219.668,
+  "speaker": "Unknown",
+  "en": "And that goes across any engineering team as well as your organization.",
+  "zh": "这适用于任何工程团队，也适用于你的组织。"
+ },
+ {
+  "seg": 188,
+  "start": 1220.568,
+  "end": 1231.778,
+  "speaker": "Unknown",
+  "en": "So I encourage you to think about how you're interacting with AI tools and how that can change to free yourself up from being in the loop.",
+  "zh": "所以我鼓励大家思考你与 AI 工具的交互方式，以及如何改变它，让你自己从流程环节中被解放出来。"
+ },
+ {
+  "seg": 189,
+  "start": 1231.818,
+  "end": 1232.359,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 190,
+  "start": 1232.419,
+  "end": 1236.242,
+  "speaker": "Unknown",
+  "en": "I'll hang out a little bit if anyone has questions in the back.",
+  "zh": "如果后排有人有问题，我可以再待一会儿。"
+ },
+ {
+  "seg": 191,
+  "start": 1237.043,
+  "end": 1238.324,
+  "speaker": "Unknown",
+  "en": "But thanks for the time today.",
+  "zh": "但感谢大家今天的时间。"
+ },
+ {
+  "seg": 192,
+  "start": 1246.628,
+  "end": 1248.492,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

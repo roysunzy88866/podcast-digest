@@ -133,7 +133,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Cursor]] · [[Microsoft]] · [[开源]] · [[数据中心]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":145,"智能体":334,"OpenAI":134,"推理":55,"GPU":18,"Cursor":69,"Microsoft":25,"开源":27,"数据中心":15,"Google":47}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":145,"智能体":336,"OpenAI":134,"推理":55,"GPU":18,"Cursor":69,"Microsoft":25,"开源":27,"数据中心":15,"Google":47}</script>
 
 <script>
 (function(){

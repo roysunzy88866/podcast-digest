@@ -1,0 +1,28 @@
+{
+  "id": "2026-08-29-talks-agents-are-where-microservices-were-in-2",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/32nrHU6zHU8.m4a",
+  "duration_sec": 1148.47,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 181,
+  "asr": true,
+  "title_en": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
+  "podcast": "精选演讲",
+  "date": "2026-08-29",
+  "added": "2026-09-27",
+  "added_at": "2026-09-27T01:58:01.291Z",
+  "speaker_map": {
+    "SPEAKER_00": "Roberto Milev",
+    "SPEAKER_01": "Uday Kanagala"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Roberto Milev",
+    "Uday Kanagala"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层",
+  "guest_name": "Roberto Milev",
+  "guest_title": "Navan 首席架构师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Greg Brockman]] · [[Nathan]] · [[Han Mei]] · [[Ben Horowitz]] · [[Wade Foster]] · [[Francois]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":134,"智能体":334,"ChatGPT":77,"Greg Brockman":1,"Nathan":4,"Han Mei":1,"Ben Horowitz":5,"Wade Foster":2,"Francois":1,"Stripe":37}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":134,"智能体":336,"ChatGPT":77,"Greg Brockman":1,"Nathan":4,"Han Mei":1,"Ben Horowitz":5,"Wade Foster":2,"Francois":1,"Stripe":37}</script>
 
 <script>
 (function(){

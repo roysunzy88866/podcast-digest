@@ -100,9 +100,9 @@ Chambers 对此充满热情的原因是:他不想再看到 slop ops(垃圾运维
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-29-talks-agents-are-where-microservices-were-in-2|Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)、记忆 (memory)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:MCP、智能体 (agent)、记忆 (memory)</span>
 
 </div>
 <div class="pd-ex">

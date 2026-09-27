@@ -1,0 +1,523 @@
+{
+  "episode_id": "2026-08-28-talks-productionizing-llm-gateways-architectur",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "LLM 网关",
+    "可用性与回退",
+    "延迟监控",
+    "护栏",
+    "生产基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kanish-manuja",
+      "type": "person",
+      "role": "guest",
+      "name": "Kanish Manuja",
+      "file": "Kanish Manuja",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "company",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": true,
+      "how_described": "本集主讲人 Kanesh Manuja 的任职公司——他是 Twilio 的首席工程师，分享团队在生产环境运营 LLM 网关的实战教训。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.969,
+            16.89
+          ],
+          "quote": "I'm a principal engineer at Twilio.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 网关 (LLM gateway)",
+      "file": "LLM 网关",
+      "primary": true,
+      "how_described": "本集主题：架在应用与模型供应商之间的入口点/中间件，负责路由、认证、回退、速率限制和治理；其核心是可用性、延迟、护栏、成本四者的取舍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            50.551,
+            51.772
+          ],
+          "quote": "So what is an LLM gateway?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            52.752,
+            58.777
+          ],
+          "quote": "An LLM gateway is an entry point or a middleware between your apps and the model providers behind them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            88.198,
+            94.92
+          ],
+          "quote": "If you use an LLM gateway, I want to help you to make that trade-off for your use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            787.966,
+            795.649
+          ],
+          "quote": "We haven't discussed that we are actually adding another dependency in the request path itself, which is the central or which is the LLM gateway itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            796.369,
+            805.391
+          ],
+          "quote": "There are a few things where we have been bitten by and we've learned some lessons that I want to share with you if you're working on an LLM gateway or using one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fallback",
+      "type": "concept",
+      "role": "concept",
+      "name": "回退 (fallback)",
+      "file": "回退",
+      "primary": true,
+      "how_described": "本集主张对 LLM 用按请求回退替代盲目重试：先试供应商 A 失败再试 B；回退不透明、流式输出锁死选择、备用供应商容量反而要更高是反复踩的坑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            59.778,
+            66.103
+          ],
+          "quote": "It does a bunch of things, routing, authentication, fallback, rate limits, all kinds of governance that you can think of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            182.668,
+            185.05
+          ],
+          "quote": "It is actually a per-request fallback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            366.179,
+            371.544
+          ],
+          "quote": "But the second provider, the fallback provider, doesn't necessarily get the same level of love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            372.605,
+            384.016
+          ],
+          "quote": "And I would argue that your throughputs or your capacity or your headroom should be even higher for the second provider or the fallback provider because that's your last line of defense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            698.933,
+            700.554
+          ],
+          "quote": "Another important thing is fallback.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "circuit-breaker",
+      "type": "concept",
+      "role": "concept",
+      "name": "断路器 (circuit breaker)",
+      "file": "断路器",
+      "primary": true,
+      "how_described": "本集说传统断路器（失败够多就跳闸停止调用）对 LLM 不够用，但可借用其模式：主供应商持续失败就移出请求路径、放进冷却期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            136.061,
+            142.263
+          ],
+          "quote": "And when all of that fails, you have a circuit breaker that trips after you've seen sufficient failures, and you stop calling the damn thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            158.884,
+            167.089
+          ],
+          "quote": "And also, tripping over a circuit breaker when you have another perfectly fine model provider to route to doesn't make sense.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集称高延迟是悄无声息的杀手：别测网关级聚合延迟（『是个谎言』），要按模型按路由追踪 P99，并按路由设超时——没有超时是静默故障的头号根因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            73.699,
+            77.804
+          ],
+          "quote": "It's availability, latency, your guardrails, and costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            152.941,
+            157.904
+          ],
+          "quote": "Retrying an LLM API eats into your latency budget really fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            435.175,
+            440.94
+          ],
+          "quote": "Quick show of hands if you measure your aggregate latency for your entire service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            490.612,
+            494.255
+          ],
+          "quote": "So you definitely need to track latency per route.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            505.511,
+            509.435
+          ],
+          "quote": "So this is where truly the latency is unpredictable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            567.83,
+            578.101
+          ],
+          "quote": "You can fire another request if your primary request actually consumed, let's say, P90 of your latency budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            736.093,
+            746.896
+          ],
+          "quote": "You can have a prehook where the guardrail actually runs on the input, and that's probably the safest, but it does add serial latency to your requests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说护栏负责防提示词注入、PII 过滤、毒性过滤，但它像另一个会宕机的服务，必须选 fail open 还是 fail close，并给它时间预算和二级回退。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            73.699,
+            77.804
+          ],
+          "quote": "It's availability, latency, your guardrails, and costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            590.004,
+            593.406
+          ],
+          "quote": "To keep your model secure, you need to have guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            594.626,
+            608.914
+          ],
+          "quote": "And with that, guardrails are necessary for preventing your services from prompt injection attacks, keeping PII filters in place, having toxicity filters, keeping the LLMs to stop swearing at your customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            615.97,
+            618.751
+          ],
+          "quote": "Guardrails are just like another service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            627.917,
+            632.56
+          ],
+          "quote": "When I say fail open, you can still serve the request even if your guardrails are down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            663.667,
+            677.052
+          ],
+          "quote": "There are a few things that you can actually do to improve the behavior of your systems in face of guardrails being down and managing just unreliability of the guardrails themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            691.048,
+            697.372
+          ],
+          "quote": "So make sure that you have timeouts in place, and those guardrails run with a specific time budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            701.195,
+            720.187
+          ],
+          "quote": "You've heard, you probably know, and I've talked about it, we always discuss fallbacks with regards to model providers, but guardrails are critical services too, where you can consider fallbacks, have secondary providers, secondary checks, cash decisions to keep your service available when",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            724.269,
+            729.991
+          ],
+          "quote": "Another interesting choice that pops up with regards to guardrails is the placement of the guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            761.15,
+            766.214
+          ],
+          "quote": "Try to save your latencies and run these guardrails concurrently for your structured outputs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把防提示词注入攻击列为部署护栏的必要理由之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            594.626,
+            608.914
+          ],
+          "quote": "And with that, guardrails are necessary for preventing your services from prompt injection attacks, keeping PII filters in place, having toxicity filters, keeping the LLMs to stop swearing at your customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "本集说推理模型高度非确定，同一提示词耗时可能 2 秒到 60 秒不等——『推理模型的正常相当于聊天模型的故障』，建议按路由固定推理级别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            486.608,
+            490.391
+          ],
+          "quote": "Reasoning models normal is actually a chat models outage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            510.496,
+            514.82
+          ],
+          "quote": "And reasoning models, they do not give you",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fail-open",
+      "type": "concept",
+      "role": "concept",
+      "name": "fail open",
+      "file": "fail open",
+      "primary": true,
+      "how_described": "本集说护栏宕机时要选 fail open（仍放行请求）还是 fail close（拦截请求），本质是可用性与安全的权衡，默认应选你所能忍受的最坏情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            624.755,
+            627.397
+          ],
+          "quote": "Do you fail open or do you fail close?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            627.917,
+            632.56
+          ],
+          "quote": "When I say fail open, you can still serve the request even if your guardrails are down.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "load-shedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "负载卸载 (load shedding)",
+      "file": "负载卸载",
+      "primary": true,
+      "how_described": "本集强调网关必须支持负载卸载并纳入操作手册和演练日：重试风暴下没法简单横向扩容，web 服务器内部队列必须有界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            829.953,
+            831.934
+          ],
+          "quote": "Another thing is load shedding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            831.954,
+            839.758
+          ],
+          "quote": "This is a feature that you should, as part of your run books, game days, make sure that the gateway that you're using supports load shedding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hedging-the-tail",
+      "type": "concept",
+      "role": "concept",
+      "name": "对冲长尾 (hedging the tail)",
+      "file": "对冲长尾",
+      "primary": false,
+      "how_described": "本集提出当主请求消耗到延迟预算的 P90 时再发起另一个请求，以压住 P99 长尾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            564.394,
+            566.616
+          ],
+          "quote": "Another idea is hedging the tail.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "centralized-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "集中式治理 (centralized governance)",
+      "file": "集中式治理",
+      "primary": true,
+      "how_described": "本集结论：大多数公司想要的不是中央网关而是集中式治理——把网关去中心化、流量别集中，用插件和自定义代码集中成本追踪与速率限制管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            898.054,
+            899.615
+          ],
+          "quote": "They want centralized governance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

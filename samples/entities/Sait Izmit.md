@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":13,"Cowork":6,"智能体":334,"MCP":60,"变革管理":3,"语义视图":1,"技能":21,"反馈回路":2,"护栏":61}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":13,"Cowork":6,"智能体":336,"MCP":61,"变革管理":3,"语义视图":1,"技能":22,"反馈回路":2,"护栏":62}</script>
 
 <script>
 (function(){

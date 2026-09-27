@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michael Giannangelli]] · [[Nova]] · [[模型路由]] · [[评估]] · [[基准测试]] · [[智能体]] · [[迁移]] · [[Claude Code]] · [[Codex]] · [[Anthropic]]
+[[Michael Giannangelli]] · [[Nova]] · [[模型路由]] · [[评估]] · [[基准测试]] · [[智能体]] · [[迁移]] · [[Bedrock]] · [[Claude Code]] · [[Kiro]]
 
-<script type="application/json" class="pd-epn">{"Michael Giannangelli":1,"Nova":1,"模型路由":7,"评估":3,"基准测试":13,"智能体":334,"迁移":1,"Claude Code":76,"Codex":57,"Anthropic":145}</script>
+<script type="application/json" class="pd-epn">{"Michael Giannangelli":1,"Nova":1,"模型路由":7,"评估":3,"基准测试":13,"智能体":336,"迁移":1,"Bedrock":2,"Claude Code":76,"Kiro":4}</script>
 
 <script>
 (function(){

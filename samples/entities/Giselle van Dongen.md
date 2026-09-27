@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Restate":1,"智能体":334,"持久化执行":3,"事件日志":1,"虚拟对象":1,"Meta":35,"MCP":60,"无服务器":2,"深度研究":2}</script>
+<script type="application/json" class="pd-epn">{"Restate":1,"智能体":336,"持久化执行":3,"事件日志":1,"虚拟对象":1,"Meta":35,"MCP":61,"无服务器":2,"深度研究":2}</script>
 
 <script>
 (function(){

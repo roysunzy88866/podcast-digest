@@ -43,7 +43,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[JobNimbus]] · [[Claude]] · [[Herder]] · [[循环]] · [[智能体]] · [[技能]] · [[闸门]] · [[原型]] · [[钩子]] · [[构建者]]
+[[JobNimbus]] · [[Claude]] · [[Herder]] · [[循环]] · [[智能体]] · [[技能]] · [[闸门]] · [[原型]] · [[hooks]] · [[构建者]]
 
 ## ④ 也在聊「产品方法」的人
 
@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":67,"Herder":1,"循环":8,"智能体":334,"技能":21,"闸门":1,"原型":7,"钩子":1,"构建者":3}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":68,"Herder":1,"循环":8,"智能体":336,"技能":22,"闸门":1,"原型":7,"hooks":2,"构建者":3}</script>
 
 <script>
 (function(){

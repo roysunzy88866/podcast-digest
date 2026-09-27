@@ -145,7 +145,7 @@ jsonLd: |
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:LLM 当裁判 (LLM as a judge)、智能体 (agent)、错误分析 (error analysis)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:human in the loop、LLM 当裁判 (LLM as a judge)、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:护城河 (moat)、智能体 (agent)</span>
+- [[2026-08-29-talks-agents-are-where-microservices-were-in-2|Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层]]<span class="pd-rz">同概念:human in the loop、可观测性 (observability)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

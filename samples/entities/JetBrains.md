@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Zed]] · [[Boris]] · [[Alex Hancock]] · [[Anthropic]] · [[Block]] · [[Claude Code]] · [[Goose]] · [[ClaudeMD]]
 
-<script type="application/json" class="pd-epn">{"智能体":334,"MCP":60,"Zed":3,"Boris":1,"Alex Hancock":1,"Anthropic":145,"Block":3,"Claude Code":76,"Goose":2,"ClaudeMD":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":336,"MCP":61,"Zed":3,"Boris":1,"Alex Hancock":1,"Anthropic":145,"Block":3,"Claude Code":76,"Goose":2,"ClaudeMD":2}</script>
 
 <script>
 (function(){

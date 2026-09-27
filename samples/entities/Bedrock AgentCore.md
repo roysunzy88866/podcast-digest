@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Mike Chambers]] · [[智能体]] · [[harness 工程]] · [[MCP]] · [[记忆]] · [[多租户隔离]] · [[可观测性]] · [[基础设施即代码]] · [[系统提示词]] · [[Claude Code]]
+[[Mike Chambers]] · [[智能体]] · [[harness 工程]] · [[MCP]] · [[记忆]] · [[多租户隔离]] · [[可观测性]] · [[基础设施即代码]] · [[系统提示词]] · [[Kiro]]
 
-<script type="application/json" class="pd-epn">{"Mike Chambers":1,"智能体":334,"harness 工程":2,"MCP":60,"记忆":15,"多租户隔离":1,"可观测性":30,"基础设施即代码":1,"系统提示词":6,"Claude Code":76}</script>
+<script type="application/json" class="pd-epn">{"Mike Chambers":1,"智能体":336,"harness 工程":2,"MCP":61,"记忆":16,"多租户隔离":1,"可观测性":31,"基础设施即代码":1,"系统提示词":6,"Kiro":4}</script>
 
 <script>
 (function(){

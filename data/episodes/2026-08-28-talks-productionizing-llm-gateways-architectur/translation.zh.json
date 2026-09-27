@@ -1,0 +1,1346 @@
+[
+ {
+  "seg": 0,
+  "start": 13.408,
+  "end": 14.229,
+  "speaker": "Unknown",
+  "en": "I'm Kanesh Manuja.",
+  "zh": "我是 Kanesh Manuja。"
+ },
+ {
+  "seg": 1,
+  "start": 14.969,
+  "end": 16.89,
+  "speaker": "Unknown",
+  "en": "I'm a principal engineer at Twilio.",
+  "zh": "我是 Twilio 的首席工程师。"
+ },
+ {
+  "seg": 2,
+  "start": 18.351,
+  "end": 19.832,
+  "speaker": "Unknown",
+  "en": "Let's start with a quick show of hands.",
+  "zh": "让我们先快速举手示意一下。"
+ },
+ {
+  "seg": 3,
+  "start": 20.893,
+  "end": 25.356,
+  "speaker": "Unknown",
+  "en": "Who here has seen the message, something went wrong, please try again?",
+  "zh": "在座有谁见过“出了点问题，请重试”这样的消息？"
+ },
+ {
+  "seg": 4,
+  "start": 27.477,
+  "end": 33.041,
+  "speaker": "Unknown",
+  "en": "Well, we have a few lucky ones and a few that have had a good lunch.",
+  "zh": "好吧，我们有几位幸运儿，也有几位吃了一顿好午餐的。"
+ },
+ {
+  "seg": 5,
+  "start": 34.061,
+  "end": 39.385,
+  "speaker": "Unknown",
+  "en": "So behind that simple message is actually a system that is very complex.",
+  "zh": "在那条简单的消息背后，其实是一个非常复杂的系统。"
+ },
+ {
+  "seg": 6,
+  "start": 40.503,
+  "end": 43.786,
+  "speaker": "Unknown",
+  "en": "That serves you that message despite the model providers being down.",
+  "zh": "即使模型供应商宕机了，它也能向你提供那条消息。"
+ },
+ {
+  "seg": 7,
+  "start": 45.347,
+  "end": 49.05,
+  "speaker": "Unknown",
+  "en": "And that's what we're going to productionize today or discuss productionizing today.",
+  "zh": "而这正是我们今天要产品化、或者说要讨论如何产品化的东西。"
+ },
+ {
+  "seg": 8,
+  "start": 50.551,
+  "end": 51.772,
+  "speaker": "Unknown",
+  "en": "So what is an LLM gateway?",
+  "zh": "那么，什么是 LLM 网关？"
+ },
+ {
+  "seg": 9,
+  "start": 52.752,
+  "end": 58.777,
+  "speaker": "Unknown",
+  "en": "An LLM gateway is an entry point or a middleware between your apps and the model providers behind them.",
+  "zh": "LLM 网关是一个入口点，或者说是你的应用与其背后的模型供应商之间的中间件。"
+ },
+ {
+  "seg": 10,
+  "start": 59.778,
+  "end": 66.103,
+  "speaker": "Unknown",
+  "en": "It does a bunch of things, routing, authentication, fallback, rate limits, all kinds of governance that you can think of.",
+  "zh": "它做很多事情：路由、认证、回退、速率限制，以及你能想到的各种治理。"
+ },
+ {
+  "seg": 11,
+  "start": 68.693,
+  "end": 72.818,
+  "speaker": "Unknown",
+  "en": "And right at the heart of the gateway is a fight between four things.",
+  "zh": "而在网关的核心处，是四样东西之间的博弈。"
+ },
+ {
+  "seg": 12,
+  "start": 73.699,
+  "end": 77.804,
+  "speaker": "Unknown",
+  "en": "It's availability, latency, your guardrails, and costs.",
+  "zh": "那就是可用性、延迟、你的护栏，以及成本。"
+ },
+ {
+  "seg": 13,
+  "start": 79.046,
+  "end": 82.63,
+  "speaker": "Unknown",
+  "en": "In case of a degradation, you cannot maximize all four.",
+  "zh": "一旦发生降级，你无法把四样都最大化。"
+ },
+ {
+  "seg": 14,
+  "start": 83.051,
+  "end": 84.993,
+  "speaker": "Unknown",
+  "en": "You need to pick what you want.",
+  "zh": "你需要选择你要什么。"
+ },
+ {
+  "seg": 15,
+  "start": 86.215,
+  "end": 87.056,
+  "speaker": "Unknown",
+  "en": "So with this talk,",
+  "zh": "所以通过这次演讲，"
+ },
+ {
+  "seg": 16,
+  "start": 88.198,
+  "end": 94.92,
+  "speaker": "Unknown",
+  "en": "If you use an LLM gateway, I want to help you to make that trade-off for your use case.",
+  "zh": "如果你在使用 LLM 网关，我想帮你针对你的用例做出那种取舍。"
+ },
+ {
+  "seg": 17,
+  "start": 95.541,
+  "end": 105.024,
+  "speaker": "Unknown",
+  "en": "And if you design a gateway, I want you to design or provide those levers to your callers and customers so that your customers are happy.",
+  "zh": "而如果你在设计网关，我希望你把那些控制杠杆设计出来并提供给你的调用方和客户，好让你的客户满意。"
+ },
+ {
+  "seg": 18,
+  "start": 106.784,
+  "end": 107.925,
+  "speaker": "Unknown",
+  "en": "Let's start with availability.",
+  "zh": "我们从可用性开始。"
+ },
+ {
+  "seg": 19,
+  "start": 110.666,
+  "end": 116.388,
+  "speaker": "Unknown",
+  "en": "If you have a single model provider, their ceiling is your ceiling.",
+  "zh": "如果你只有一个模型供应商，他们的上限就是你的上限。"
+ },
+ {
+  "seg": 20,
+  "start": 117.254,
+  "end": 119.615,
+  "speaker": "Unknown",
+  "en": "Their outage is your outage.",
+  "zh": "他们的宕机就是你的宕机。"
+ },
+ {
+  "seg": 21,
+  "start": 123.616,
+  "end": 135,
+  "speaker": "Unknown",
+  "en": "So in typical software engineering, the way you tackle unreliable dependency is by retrying, retrying with exponential backups, with jitters.",
+  "zh": "在典型的软件工程中，应对不可靠依赖的方法是重试，用指数退避重试，加上抖动。"
+ },
+ {
+  "seg": 22,
+  "start": 136.061,
+  "end": 142.263,
+  "speaker": "Unknown",
+  "en": "And when all of that fails, you have a circuit breaker that trips after you've seen sufficient failures, and you stop calling the damn thing.",
+  "zh": "而当这些全都失败时，你有一个断路器，在你看到足够多的失败之后它就会跳闸，然后你就别再去调用那个该死的东西了。"
+ },
+ {
+  "seg": 23,
+  "start": 144.417,
+  "end": 146.258,
+  "speaker": "Unknown",
+  "en": "This is not enough for LLMs.",
+  "zh": "但这对 LLM 来说是不够的。"
+ },
+ {
+  "seg": 24,
+  "start": 146.678,
+  "end": 151.961,
+  "speaker": "Unknown",
+  "en": "LLMs are very different compared to your fast, cheap APIs that you retry on.",
+  "zh": "与你惯于重试的快速、廉价的 API 相比，LLM 非常不同。"
+ },
+ {
+  "seg": 25,
+  "start": 152.941,
+  "end": 157.904,
+  "speaker": "Unknown",
+  "en": "Retrying an LLM API eats into your latency budget really fast.",
+  "zh": "重试一次 LLM API 会非常快地吃掉你的延迟预算。"
+ },
+ {
+  "seg": 26,
+  "start": 158.884,
+  "end": 167.089,
+  "speaker": "Unknown",
+  "en": "And also, tripping over a circuit breaker when you have another perfectly fine model provider to route to doesn't make sense.",
+  "zh": "而且，当你明明有另一个完全正常的模型供应商可以路由过去时，却触发断路器，这并不合理。"
+ },
+ {
+  "seg": 27,
+  "start": 167.329,
+  "end": 169.49,
+  "speaker": "Unknown",
+  "en": "You should use the second model provider.",
+  "zh": "你应该使用第二个模型供应商。"
+ },
+ {
+  "seg": 28,
+  "start": 170.579,
+  "end": 174.222,
+  "speaker": "Unknown",
+  "en": "And third, as I said, the calls are slow and expensive.",
+  "zh": "第三，正如我所说，这些调用又慢又贵。"
+ },
+ {
+  "seg": 29,
+  "start": 174.422,
+  "end": 178.185,
+  "speaker": "Unknown",
+  "en": "So blind retries just multiply your cost and your tail latencies.",
+  "zh": "所以盲目重试只会成倍增加你的成本和你的尾延迟。"
+ },
+ {
+  "seg": 30,
+  "start": 180.987,
+  "end": 182.168,
+  "speaker": "Unknown",
+  "en": "So what is a better idea here?",
+  "zh": "那么这里更好的做法是什么？"
+ },
+ {
+  "seg": 31,
+  "start": 182.668,
+  "end": 185.05,
+  "speaker": "Unknown",
+  "en": "It is actually a per-request fallback.",
+  "zh": "其实是按请求回退。"
+ },
+ {
+  "seg": 32,
+  "start": 185.851,
+  "end": 194.498,
+  "speaker": "Unknown",
+  "en": "What that means is you can actually try model provider A and then in sequence try model provider B if your request model provider A fails.",
+  "zh": "它的意思是，你可以先尝试模型供应商 A，如果请求模型供应商 A 失败了，再按顺序尝试模型供应商 B。"
+ },
+ {
+  "seg": 33,
+  "start": 195.662,
+  "end": 206.686,
+  "speaker": "Unknown",
+  "en": "Another option to consider here is you can fire requests to both the providers in parallel, but that's only if you're highly, highly obsessed with latencies, because that's just going to double your cost.",
+  "zh": "这里还可以考虑另一个选项：你可以并行向两家供应商发起请求，但那只有在你对延迟有极高的执念时才值得，因为那只会让你的成本翻倍。"
+ },
+ {
+  "seg": 34,
+  "start": 208.646,
+  "end": 212.828,
+  "speaker": "Unknown",
+  "en": "Some of the similar circuit-breaking patterns apply here to LLMs as well.",
+  "zh": "一些类似的断路器模式在这里同样适用于 LLM。"
+ },
+ {
+  "seg": 35,
+  "start": 213.848,
+  "end": 221.131,
+  "speaker": "Unknown",
+  "en": "If you know that your primary has been failing for some time, it doesn't make sense to try it again.",
+  "zh": "如果你知道你的主供应商已经失败了一段时间，再试它就没有意义了。"
+ },
+ {
+  "seg": 36,
+  "start": 222.149,
+  "end": 231.992,
+  "speaker": "Unknown",
+  "en": "You take it out of the load balancer or your request path and put it in a cool down, and then after a few minutes have passed, try putting that back again.",
+  "zh": "你把它从负载均衡器或请求路径中移出，放进一个冷却期，然后过了几分钟之后，再试着把它放回去。"
+ },
+ {
+  "seg": 37,
+  "start": 233.993,
+  "end": 239.054,
+  "speaker": "Unknown",
+  "en": "One interesting choice that you have to make here is where your failure counts live.",
+  "zh": "这里你必须做出的一个有趣的选择是，你的失败计数存放在哪里。"
+ },
+ {
+  "seg": 38,
+  "start": 240.515,
+  "end": 249.518,
+  "speaker": "Unknown",
+  "en": "You can decide to have the failure counts live in memory on the instances that are serving your traffic, or you can have shared infra where your",
+  "zh": "你可以决定让失败计数存放在为你的流量提供服务的实例的内存中，或者你可以用共享基础设施，让你的"
+ },
+ {
+  "seg": 39,
+  "start": 250.665,
+  "end": 252.927,
+  "speaker": "Unknown",
+  "en": "Failure counts are shared across the fleet.",
+  "zh": "失败计数在整个集群范围内共享。"
+ },
+ {
+  "seg": 40,
+  "start": 253.768,
+  "end": 254.448,
+  "speaker": "Unknown",
+  "en": "There are trade-offs.",
+  "zh": "这里是有取舍的。"
+ },
+ {
+  "seg": 41,
+  "start": 255.93,
+  "end": 259.833,
+  "speaker": "Unknown",
+  "en": "If you want quick failovers, then fleet-wide helps.",
+  "zh": "如果你想要快速故障转移，那么集群级共享会有帮助。"
+ },
+ {
+  "seg": 42,
+  "start": 260.573,
+  "end": 270.742,
+  "speaker": "Unknown",
+  "en": "And with instance, with local state counters, the issue that you run into is whenever you change your deployment size, your configuration and your expectations change.",
+  "zh": "而使用实例级、本地状态的计数器，你遇到的问题是：每当你改变部署规模时，你的配置和你的预期都会随之改变。"
+ },
+ {
+  "seg": 43,
+  "start": 271.783,
+  "end": 272.764,
+  "speaker": "Unknown",
+  "en": "So something to consider.",
+  "zh": "这一点值得考虑。"
+ },
+ {
+  "seg": 44,
+  "start": 275.436,
+  "end": 280.04,
+  "speaker": "Unknown",
+  "en": "What that clean diagram did not really show you are some of the other gotchas that I'm going to discuss.",
+  "zh": "那张干净的架构图并没有真正展示给你的，是我接下来要讨论的一些坑。"
+ },
+ {
+  "seg": 45,
+  "start": 280.801,
+  "end": 282.302,
+  "speaker": "Unknown",
+  "en": "So fallbacks are not transparent.",
+  "zh": "所以回退并不是透明的。"
+ },
+ {
+  "seg": 46,
+  "start": 283.323,
+  "end": 290.269,
+  "speaker": "Unknown",
+  "en": "While the industry is converging on an OpenAI, API-compatible format, I would say there are still nuances.",
+  "zh": "虽然整个行业正在向 OpenAI API 兼容格式收敛，但我想说其中仍有细微差异。"
+ },
+ {
+  "seg": 47,
+  "start": 290.469,
+  "end": 292.551,
+  "speaker": "Unknown",
+  "en": "So you need to really test your fallbacks well.",
+  "zh": "所以你需要把你的回退真正测试好。"
+ },
+ {
+  "seg": 48,
+  "start": 293.561,
+  "end": 298.565,
+  "speaker": "Unknown",
+  "en": "They can have differences in your tool calling schemas, token limits, stop reasons, and what have you.",
+  "zh": "它们可能在你的工具调用 schema、token 上限、停止原因等方面存在差异，诸如此类。"
+ },
+ {
+  "seg": 49,
+  "start": 298.585,
+  "end": 307.934,
+  "speaker": "Unknown",
+  "en": "So with LLM gateways, you can have a normalization layer that can ensure that you can do cross-provider fallbacks as well.",
+  "zh": "所以借助 LLM 网关，你可以有一个归一化层，确保你也能做跨供应商的回退。"
+ },
+ {
+  "seg": 50,
+  "start": 309.975,
+  "end": 311.937,
+  "speaker": "Unknown",
+  "en": "Another thing is streaming.",
+  "zh": "另一件事是流式输出。"
+ },
+ {
+  "seg": 51,
+  "start": 314.88,
+  "end": 316.961,
+  "speaker": "Unknown",
+  "en": "It's essentially",
+  "zh": "它本质上是——"
+ },
+ {
+  "seg": 52,
+  "start": 317.972,
+  "end": 322.757,
+  "speaker": "Unknown",
+  "en": "Nobody wants to wait for 30 seconds to have a wall of text appear in front of them.",
+  "zh": "没有人愿意等 30 秒才看到一大段文字突然出现在面前。"
+ },
+ {
+  "seg": 53,
+  "start": 322.877,
+  "end": 326.521,
+  "speaker": "Unknown",
+  "en": "So there are use cases where streaming is absolutely required.",
+  "zh": "所以有些用例是绝对需要流式输出的。"
+ },
+ {
+  "seg": 54,
+  "start": 327.342,
+  "end": 328.584,
+  "speaker": "Unknown",
+  "en": "But it comes at a cost.",
+  "zh": "但这是有代价的。"
+ },
+ {
+  "seg": 55,
+  "start": 328.664,
+  "end": 329.785,
+  "speaker": "Unknown",
+  "en": "You trade away your levers.",
+  "zh": "你会失去你的调节杠杆。"
+ },
+ {
+  "seg": 56,
+  "start": 330.666,
+  "end": 336.352,
+  "speaker": "Unknown",
+  "en": "You cannot, once you've decided to go with Provider A, you have to continue going with Provider A.",
+  "zh": "一旦你决定使用 Provider A,你就必须继续使用 Provider A。"
+ },
+ {
+  "seg": 57,
+  "start": 337.51,
+  "end": 340.071,
+  "speaker": "Unknown",
+  "en": "You cannot midstream change the providers.",
+  "zh": "你不能在中途更换提供商。"
+ },
+ {
+  "seg": 58,
+  "start": 340.812,
+  "end": 343.253,
+  "speaker": "Unknown",
+  "en": "Whatever has been sent to the client, it's done.",
+  "zh": "已经发送给客户端的内容,就已经定死了。"
+ },
+ {
+  "seg": 59,
+  "start": 343.953,
+  "end": 347.215,
+  "speaker": "Unknown",
+  "en": "And that's where the something went wrong message.",
+  "zh": "这就是「出了点问题」(something went wrong) 提示的由来。"
+ },
+ {
+  "seg": 60,
+  "start": 347.535,
+  "end": 348.476,
+  "speaker": "Unknown",
+  "en": "That's the one that you see.",
+  "zh": "你看到的那个就是它。"
+ },
+ {
+  "seg": 61,
+  "start": 349.516,
+  "end": 350.677,
+  "speaker": "Unknown",
+  "en": "It's not because of laziness.",
+  "zh": "这不是因为偷懒。"
+ },
+ {
+  "seg": 62,
+  "start": 350.757,
+  "end": 353.138,
+  "speaker": "Unknown",
+  "en": "It's by design that you see that.",
+  "zh": "你看到它是设计使然。"
+ },
+ {
+  "seg": 63,
+  "start": 353.478,
+  "end": 354.379,
+  "speaker": "Unknown",
+  "en": "And it's one of the tradeoffs.",
+  "zh": "这也是其中一个权衡。"
+ },
+ {
+  "seg": 64,
+  "start": 355.879,
+  "end": 360.462,
+  "speaker": "Unknown",
+  "en": "I would like to call out one other thing where I've seen teams trip over and over again.",
+  "zh": "我想再指出一件事,我看到团队在这个问题上一遍又一遍地栽跟头。"
+ },
+ {
+  "seg": 65,
+  "start": 361.595,
+  "end": 365.459,
+  "speaker": "Unknown",
+  "en": "They really provision and test their primary providers really well.",
+  "zh": "他们对主提供商的容量配置和测试确实做得很到位。"
+ },
+ {
+  "seg": 66,
+  "start": 366.179,
+  "end": 371.544,
+  "speaker": "Unknown",
+  "en": "But the second provider, the fallback provider, doesn't necessarily get the same level of love.",
+  "zh": "但第二提供商、备用提供商,却不一定能得到同等程度的重视。"
+ },
+ {
+  "seg": 67,
+  "start": 372.605,
+  "end": 384.016,
+  "speaker": "Unknown",
+  "en": "And I would argue that your throughputs or your capacity or your headroom should be even higher for the second provider or the fallback provider because that's your last line of defense.",
+  "zh": "我认为,你的第二提供商或备用提供商的吞吐量、容量或余量应该设得更高,因为那是你的最后一道防线。"
+ },
+ {
+  "seg": 68,
+  "start": 384.657,
+  "end": 386.779,
+  "speaker": "Unknown",
+  "en": "If that goes down, your application goes down.",
+  "zh": "如果它挂了,你的应用就挂了。"
+ },
+ {
+  "seg": 69,
+  "start": 390.558,
+  "end": 391.718,
+  "speaker": "Unknown",
+  "en": "Let's discuss latencies.",
+  "zh": "我们来聊聊延迟。"
+ },
+ {
+  "seg": 70,
+  "start": 392.659,
+  "end": 394.739,
+  "speaker": "Unknown",
+  "en": "Availability failures are right in your face.",
+  "zh": "可用性故障是明晃晃地摆在你面前的。"
+ },
+ {
+  "seg": 71,
+  "start": 395.819,
+  "end": 396.32,
+  "speaker": "Unknown",
+  "en": "They fail.",
+  "zh": "它们会失败。"
+ },
+ {
+  "seg": 72,
+  "start": 397.14,
+  "end": 397.84,
+  "speaker": "Unknown",
+  "en": "You get alarmed.",
+  "zh": "你会收到告警。"
+ },
+ {
+  "seg": 73,
+  "start": 398.14,
+  "end": 398.84,
+  "speaker": "Unknown",
+  "en": "You get paged.",
+  "zh": "你会被呼叫。"
+ },
+ {
+  "seg": 74,
+  "start": 399.681,
+  "end": 409.863,
+  "speaker": "Unknown",
+  "en": "But high latencies can be the quiet ones, and they need to receive more love than, I would say, tuning your services for just availability.",
+  "zh": "但高延迟可能是悄无声息的,而它们需要得到比单纯为可用性调优你的服务更多的关注。"
+ },
+ {
+  "seg": 75,
+  "start": 414.485,
+  "end": 415.185,
+  "speaker": "Unknown",
+  "en": "One thing to call out.",
+  "zh": "有一点要指出。"
+ },
+ {
+  "seg": 76,
+  "start": 416.498,
+  "end": 424.906,
+  "speaker": "Unknown",
+  "en": "A gateway may run mixed workloads, and you can have embedding requests that take just less than a second.",
+  "zh": "一个网关可能运行混合工作负载,你可以有耗时不到一秒的嵌入请求。"
+ },
+ {
+  "seg": 77,
+  "start": 424.966,
+  "end": 428.048,
+  "speaker": "Unknown",
+  "en": "You can have classification requests that take less than a second.",
+  "zh": "你可以有耗时不到一秒的分类请求。"
+ },
+ {
+  "seg": 78,
+  "start": 428.909,
+  "end": 433.733,
+  "speaker": "Unknown",
+  "en": "You have chat requests taking three seconds, and reasoning requests taking a long time.",
+  "zh": "你有耗时三秒的聊天请求,还有耗时很长的推理请求。"
+ },
+ {
+  "seg": 79,
+  "start": 435.175,
+  "end": 440.94,
+  "speaker": "Unknown",
+  "en": "Quick show of hands if you measure your aggregate latency for your entire service.",
+  "zh": "快举手——如果你测量的是你整个服务的聚合延迟。"
+ },
+ {
+  "seg": 80,
+  "start": 442.848,
+  "end": 444.309,
+  "speaker": "Unknown",
+  "en": "Well, that was a trick question, sorry.",
+  "zh": "好吧,那是个陷阱问题,抱歉。"
+ },
+ {
+  "seg": 81,
+  "start": 444.449,
+  "end": 444.909,
+  "speaker": "Unknown",
+  "en": "You shouldn't.",
+  "zh": "你不应该那么做。"
+ },
+ {
+  "seg": 82,
+  "start": 445.049,
+  "end": 445.829,
+  "speaker": "Unknown",
+  "en": "It doesn't make sense.",
+  "zh": "那没有意义。"
+ },
+ {
+  "seg": 83,
+  "start": 445.969,
+  "end": 446.649,
+  "speaker": "Unknown",
+  "en": "It's a lie.",
+  "zh": "那是个谎言。"
+ },
+ {
+  "seg": 84,
+  "start": 447.87,
+  "end": 452.512,
+  "speaker": "Unknown",
+  "en": "You should be tracking your P99 per model per route, not a gateway-wide number.",
+  "zh": "你应该按模型、按路由追踪你的 P99,而不是一个网关级别的数字。"
+ },
+ {
+  "seg": 85,
+  "start": 453.012,
+  "end": 456.773,
+  "speaker": "Unknown",
+  "en": "Gateway-wide number doesn't make sense, especially if you're running mixed workloads.",
+  "zh": "网关级别的数字没有意义,尤其是在你运行混合工作负载的情况下。"
+ },
+ {
+  "seg": 86,
+  "start": 457.093,
+  "end": 459.954,
+  "speaker": "Unknown",
+  "en": "And I hope you're not, for those who've raised your hand.",
+  "zh": "希望你们没有在那么做,举了手的各位。"
+ },
+ {
+  "seg": 87,
+  "start": 461.375,
+  "end": 469.158,
+  "speaker": "Unknown",
+  "en": "Another thing that can really, I cannot emphasize this enough, is for you to set timeouts on per model class per route.",
+  "zh": "另一件事,我再怎么强调都不为过,就是按模型类别、按路由设置超时。"
+ },
+ {
+  "seg": 88,
+  "start": 470.934,
+  "end": 474.457,
+  "speaker": "Unknown",
+  "en": "That's the number one root cause of your silent outage.",
+  "zh": "那是你静默故障的头号根因。"
+ },
+ {
+  "seg": 89,
+  "start": 474.697,
+  "end": 480.362,
+  "speaker": "Unknown",
+  "en": "If you don't have a timeout, your gateway things, your request is being happily served, while it is not.",
+  "zh": "如果你没有设置超时,你的网关会以为你的请求正被愉快地服务着,而实际上并没有。"
+ },
+ {
+  "seg": 90,
+  "start": 481.804,
+  "end": 486.007,
+  "speaker": "Unknown",
+  "en": "And I'll leave you with this message for latencies specifically.",
+  "zh": "关于延迟,我留给你们这句话。"
+ },
+ {
+  "seg": 91,
+  "start": 486.608,
+  "end": 490.391,
+  "speaker": "Unknown",
+  "en": "Reasoning models normal is actually a chat models outage.",
+  "zh": "推理模型的「正常」,实际上相当于聊天模型的「故障」。"
+ },
+ {
+  "seg": 92,
+  "start": 490.612,
+  "end": 494.255,
+  "speaker": "Unknown",
+  "en": "So you definitely need to track latency per route.",
+  "zh": "所以你绝对需要按路由追踪延迟。"
+ },
+ {
+  "seg": 93,
+  "start": 497.282,
+  "end": 504.47,
+  "speaker": "Unknown",
+  "en": "OK, this is the most painful or the slide that has given me the most scarce, which is reasoning and router models.",
+  "zh": "好的,这是最痛苦的一页,或者说给我造成最多伤疤的一页,那就是推理模型和路由模型。"
+ },
+ {
+  "seg": 94,
+  "start": 505.511,
+  "end": 509.435,
+  "speaker": "Unknown",
+  "en": "So this is where truly the latency is unpredictable.",
+  "zh": "在这里,延迟才是真正不可预测的。"
+ },
+ {
+  "seg": 95,
+  "start": 510.496,
+  "end": 514.82,
+  "speaker": "Unknown",
+  "en": "And reasoning models, they do not give you",
+  "zh": "而推理模型,它们不会给你——"
+ },
+ {
+  "seg": 96,
+  "start": 516.289,
+  "end": 520.551,
+  "speaker": "Unknown",
+  "en": "They're highly undeterministic, more undeterministic than your normal models.",
+  "zh": "它们高度非确定性,比你普通的模型更非确定。"
+ },
+ {
+  "seg": 97,
+  "start": 521.211,
+  "end": 533.975,
+  "speaker": "Unknown",
+  "en": "You cannot set their temperature to zero in many cases, and the same prompt can take somewhere from two seconds to 60 seconds, and we've seen that in production where P99 suddenly popped to 60 seconds for no good reason.",
+  "zh": "很多情况下你无法把它们的温度设为零,同一个提示词可能耗时从 2 秒到 60 秒不等,我们在生产环境中就见过 P99 突然飙到 60 秒,而且没有任何充分理由。"
+ },
+ {
+  "seg": 98,
+  "start": 534.736,
+  "end": 538.097,
+  "speaker": "Unknown",
+  "en": "So that's, while there's no magical solution to it,",
+  "zh": "所以,虽然对此没有魔法般的解决方案,"
+ },
+ {
+  "seg": 99,
+  "start": 539.338,
+  "end": 544.221,
+  "speaker": "Unknown",
+  "en": "I would recommend that you at least start with fixing the reasoning level per route.",
+  "zh": "我建议你至少从按路由固定推理级别开始做起。"
+ },
+ {
+  "seg": 100,
+  "start": 544.882,
+  "end": 549.405,
+  "speaker": "Unknown",
+  "en": "So with router models, they hide that abstraction behind you.",
+  "zh": "所以对于路由器模型，它们把那个抽象隐藏在你身后。"
+ },
+ {
+  "seg": 101,
+  "start": 550.005,
+  "end": 551.366,
+  "speaker": "Unknown",
+  "en": "They pick which models to run.",
+  "zh": "它们替你选择运行哪些模型。"
+ },
+ {
+  "seg": 102,
+  "start": 552.066,
+  "end": 562.853,
+  "speaker": "Unknown",
+  "en": "And I would highly recommend that you at least make requests as deterministic as possible with an undeterministic system.",
+  "zh": "而且我强烈建议，在一个不确定性的系统里，你至少要让请求尽可能具有确定性。"
+ },
+ {
+  "seg": 103,
+  "start": 564.394,
+  "end": 566.616,
+  "speaker": "Unknown",
+  "en": "Another idea is hedging the tail.",
+  "zh": "另一个想法是对冲长尾。"
+ },
+ {
+  "seg": 104,
+  "start": 567.83,
+  "end": 578.101,
+  "speaker": "Unknown",
+  "en": "You can fire another request if your primary request actually consumed, let's say, P90 of your latency budget.",
+  "zh": "如果你的主请求实际消耗了——比如说——你延迟预算的 P90，你可以再发起另一个请求。"
+ },
+ {
+  "seg": 105,
+  "start": 579.142,
+  "end": 583.587,
+  "speaker": "Unknown",
+  "en": "This can really hedge the P99 tail for your services.",
+  "zh": "这可以真正对你的服务的 P99 长尾进行对冲。"
+ },
+ {
+  "seg": 106,
+  "start": 583.607,
+  "end": 585.949,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 107,
+  "start": 586.189,
+  "end": 587.811,
+  "speaker": "Unknown",
+  "en": "This is one of my favorite ones.",
+  "zh": "这是我最喜欢的之一。"
+ },
+ {
+  "seg": 108,
+  "start": 590.004,
+  "end": 593.406,
+  "speaker": "Unknown",
+  "en": "To keep your model secure, you need to have guardrails.",
+  "zh": "要保证你的模型安全，你需要有护栏。"
+ },
+ {
+  "seg": 109,
+  "start": 594.626,
+  "end": 608.914,
+  "speaker": "Unknown",
+  "en": "And with that, guardrails are necessary for preventing your services from prompt injection attacks, keeping PII filters in place, having toxicity filters, keeping the LLMs to stop swearing at your customers.",
+  "zh": "说到这个，护栏对于防止你的服务遭受提示词注入攻击、保持 PII 过滤器到位、拥有毒性过滤器、让 LLM 不再对你的客户爆粗口，都是必要的。"
+ },
+ {
+  "seg": 110,
+  "start": 609.894,
+  "end": 610.575,
+  "speaker": "Unknown",
+  "en": "All those good things.",
+  "zh": "所有这些好事。"
+ },
+ {
+  "seg": 111,
+  "start": 611.787,
+  "end": 615.309,
+  "speaker": "Unknown",
+  "en": "But just like a model provider, there are trade-offs, too.",
+  "zh": "但就像模型提供商一样，这里也有权衡。"
+ },
+ {
+  "seg": 112,
+  "start": 615.97,
+  "end": 618.751,
+  "speaker": "Unknown",
+  "en": "Guardrails are just like another service.",
+  "zh": "护栏就像另一个服务。"
+ },
+ {
+  "seg": 113,
+  "start": 619.412,
+  "end": 620.312,
+  "speaker": "Unknown",
+  "en": "That can go down.",
+  "zh": "它可能会宕机。"
+ },
+ {
+  "seg": 114,
+  "start": 620.592,
+  "end": 621.753,
+  "speaker": "Unknown",
+  "en": "That can be unreliable.",
+  "zh": "它可能不可靠。"
+ },
+ {
+  "seg": 115,
+  "start": 622.574,
+  "end": 623.874,
+  "speaker": "Unknown",
+  "en": "And that's where you need to choose.",
+  "zh": "这就是你需要做选择的地方。"
+ },
+ {
+  "seg": 116,
+  "start": 624.755,
+  "end": 627.397,
+  "speaker": "Unknown",
+  "en": "Do you fail open or do you fail close?",
+  "zh": "你是 fail open(故障开放)还是 fail close(故障关闭)？"
+ },
+ {
+  "seg": 117,
+  "start": 627.917,
+  "end": 632.56,
+  "speaker": "Unknown",
+  "en": "When I say fail open, you can still serve the request even if your guardrails are down.",
+  "zh": "我说的 fail open，是指即使你的护栏宕机了，你仍然可以服务这个请求。"
+ },
+ {
+  "seg": 118,
+  "start": 633.46,
+  "end": 636.582,
+  "speaker": "Unknown",
+  "en": "Fail close, you block the request and say, hey, I'm not available.",
+  "zh": "fail close，就是你拦截这个请求并说，嘿，我不可用。"
+ },
+ {
+  "seg": 119,
+  "start": 637.102,
+  "end": 640.965,
+  "speaker": "Unknown",
+  "en": "That's the trade-off between availability and security to a certain extent.",
+  "zh": "这在某种程度上就是可用性与安全性之间的权衡。"
+ },
+ {
+  "seg": 120,
+  "start": 641.777,
+  "end": 645.222,
+  "speaker": "Unknown",
+  "en": "While there's a no universal answer, it really depends on your use case.",
+  "zh": "虽然没有通用答案，但这真的取决于你的使用场景。"
+ },
+ {
+  "seg": 121,
+  "start": 646.403,
+  "end": 652.711,
+  "speaker": "Unknown",
+  "en": "You can decide, like, for example, a toxicity filter, if it's not up and running, you can still serve that request.",
+  "zh": "你可以决定，比如，一个毒性过滤器，如果它没有正常运行，你仍然可以服务那个请求。"
+ },
+ {
+  "seg": 122,
+  "start": 654.414,
+  "end": 659.02,
+  "speaker": "Unknown",
+  "en": "So the default choice should be the worst case that you can live with.",
+  "zh": "所以默认的选择应该是你所能忍受的最坏情况。"
+ },
+ {
+  "seg": 123,
+  "start": 663.667,
+  "end": 677.052,
+  "speaker": "Unknown",
+  "en": "There are a few things that you can actually do to improve the behavior of your systems in face of guardrails being down and managing just unreliability of the guardrails themselves.",
+  "zh": "有一些事情你实际上可以做，来改善在护栏宕机的情况下你系统的行为，以及管理护栏自身的不可靠性。"
+ },
+ {
+  "seg": 124,
+  "start": 678.112,
+  "end": 679.233,
+  "speaker": "Unknown",
+  "en": "So the first is time budget.",
+  "zh": "第一个是时间预算。"
+ },
+ {
+  "seg": 125,
+  "start": 681.354,
+  "end": 685.755,
+  "speaker": "Unknown",
+  "en": "Your request should never be bound by your guardrail timing.",
+  "zh": "你的请求永远不应该被你的护栏耗时所束缚。"
+ },
+ {
+  "seg": 126,
+  "start": 686.476,
+  "end": 689.957,
+  "speaker": "Unknown",
+  "en": "It should always be the LLM that is the rate determining step.",
+  "zh": "决定速率的步骤应该始终是 LLM。"
+ },
+ {
+  "seg": 127,
+  "start": 691.048,
+  "end": 697.372,
+  "speaker": "Unknown",
+  "en": "So make sure that you have timeouts in place, and those guardrails run with a specific time budget.",
+  "zh": "所以确保你设置了超时，并且那些护栏在特定的时间预算内运行。"
+ },
+ {
+  "seg": 128,
+  "start": 698.933,
+  "end": 700.554,
+  "speaker": "Unknown",
+  "en": "Another important thing is fallback.",
+  "zh": "另一个重要的事情是回退。"
+ },
+ {
+  "seg": 129,
+  "start": 701.195,
+  "end": 720.187,
+  "speaker": "Unknown",
+  "en": "You've heard, you probably know, and I've talked about it, we always discuss fallbacks with regards to model providers, but guardrails are critical services too, where you can consider fallbacks, have secondary providers, secondary checks, cash decisions to keep your service available when",
+  "zh": "你听说过，你可能知道，我也谈过，我们总是围绕模型提供商讨论回退，但护栏也是关键服务，你也可以考虑回退、设置二级提供商、二级检查、缓存决策，以便在"
+ },
+ {
+  "seg": 130,
+  "start": 721.548,
+  "end": 722.708,
+  "speaker": "Unknown",
+  "en": "A guardrail provider is down.",
+  "zh": "某个护栏提供商宕机时保持你的服务可用。"
+ },
+ {
+  "seg": 131,
+  "start": 724.269,
+  "end": 729.991,
+  "speaker": "Unknown",
+  "en": "Another interesting choice that pops up with regards to guardrails is the placement of the guardrails.",
+  "zh": "围绕护栏出现的另一个有趣的选择是护栏的放置位置。"
+ },
+ {
+  "seg": 132,
+  "start": 731.891,
+  "end": 735.612,
+  "speaker": "Unknown",
+  "en": "Typically, you can place the guardrail in three ways.",
+  "zh": "通常，你可以用三种方式放置护栏。"
+ },
+ {
+  "seg": 133,
+  "start": 736.093,
+  "end": 746.896,
+  "speaker": "Unknown",
+  "en": "You can have a prehook where the guardrail actually runs on the input, and that's probably the safest, but it does add serial latency to your requests.",
+  "zh": "你可以有一个 prehook，即护栏实际上在输入上运行，这可能是最安全的，但它确实会给你的请求增加串行延迟。"
+ },
+ {
+  "seg": 134,
+  "start": 748.058,
+  "end": 749.539,
+  "speaker": "Unknown",
+  "en": "Another one is in parallel.",
+  "zh": "另一种是并行。"
+ },
+ {
+  "seg": 135,
+  "start": 749.84,
+  "end": 756.265,
+  "speaker": "Unknown",
+  "en": "This is one of my favorites, but just to call out, streaming wouldn't work well here with parallel.",
+  "zh": "这是我最喜欢的之一，但要指出，在并行模式下，流式传输在这里效果不好。"
+ },
+ {
+  "seg": 136,
+  "start": 756.926,
+  "end": 760.529,
+  "speaker": "Unknown",
+  "en": "So if you're specially producing structured output, please don't stream them.",
+  "zh": "所以如果你特别要产出结构化输出，请不要对流式传输它们。"
+ },
+ {
+  "seg": 137,
+  "start": 761.15,
+  "end": 766.214,
+  "speaker": "Unknown",
+  "en": "Try to save your latencies and run these guardrails concurrently for your structured outputs.",
+  "zh": "尽量节省你的延迟，并为你的结构化输出并发运行这些护栏。"
+ },
+ {
+  "seg": 138,
+  "start": 767.095,
+  "end": 768.236,
+  "speaker": "Unknown",
+  "en": "Another one is post hooks.",
+  "zh": "另一个是 post hooks(后置钩子)。"
+ },
+ {
+  "seg": 139,
+  "start": 768.616,
+  "end": 774.782,
+  "speaker": "Unknown",
+  "en": "These are best for output monitoring, auditing your outputs, and so forth.",
+  "zh": "这些最适合用于输出监控、审计你的输出等等。"
+ },
+ {
+  "seg": 140,
+  "start": 779.044,
+  "end": 786.586,
+  "speaker": "Unknown",
+  "en": "So, so far, I've discussed all the things that can go wrong with regards to our dependencies.",
+  "zh": "那么，到目前为止，我已经讨论了我们的依赖项可能出问题的所有方面。"
+ },
+ {
+  "seg": 141,
+  "start": 787.966,
+  "end": 795.649,
+  "speaker": "Unknown",
+  "en": "We haven't discussed that we are actually adding another dependency in the request path itself, which is the central or which is the LLM gateway itself.",
+  "zh": "我们还没有讨论到，我们实际上是在请求路径本身中添加了另一个依赖项，也就是中心，也就是 LLM 网关本身。"
+ },
+ {
+  "seg": 142,
+  "start": 796.369,
+  "end": 805.391,
+  "speaker": "Unknown",
+  "en": "There are a few things where we have been bitten by and we've learned some lessons that I want to share with you if you're working on an LLM gateway or using one.",
+  "zh": "有一些我们曾经踩过坑并学到一些教训的事情，如果你正在开发一个 LLM 网关或使用一个，我想与你分享。"
+ },
+ {
+  "seg": 143,
+  "start": 806.792,
+  "end": 807.632,
+  "speaker": "Unknown",
+  "en": "One is shared limits.",
+  "zh": "一个是共享限额。"
+ },
+ {
+  "seg": 144,
+  "start": 809.108,
+  "end": 820.96,
+  "speaker": "Unknown",
+  "en": "Make sure that your API keys are segregated per route, per use case, to the most granular thing that you can imagine.",
+  "zh": "确保你的 API 密钥按路由、按使用场景隔离，隔离到你能想象的最细粒度。"
+ },
+ {
+  "seg": 145,
+  "start": 824.484,
+  "end": 828.488,
+  "speaker": "Unknown",
+  "en": "Having a noisy tenant can be one of the biggest problems here.",
+  "zh": "一个嘈杂的租户可能是这里最大的问题之一。"
+ },
+ {
+  "seg": 146,
+  "start": 829.953,
+  "end": 831.934,
+  "speaker": "Unknown",
+  "en": "Another thing is load shedding.",
+  "zh": "另一件事是负载卸载。"
+ },
+ {
+  "seg": 147,
+  "start": 831.954,
+  "end": 839.758,
+  "speaker": "Unknown",
+  "en": "This is a feature that you should, as part of your run books, game days, make sure that the gateway that you're using supports load shedding.",
+  "zh": "这是一个你应当在你的操作手册、演练日中作为一部分的功能，确保你正在使用的网关支持负载卸载。"
+ },
+ {
+  "seg": 148,
+  "start": 840.708,
+  "end": 844.29,
+  "speaker": "Unknown",
+  "en": "Because when you have a retry storm, it becomes really hard to just scale out.",
+  "zh": "因为当你遇到重试风暴时，单纯横向扩容会变得非常困难。"
+ },
+ {
+  "seg": 149,
+  "start": 844.49,
+  "end": 849.353,
+  "speaker": "Unknown",
+  "en": "You cannot simply scale out services that is under a retry storm.",
+  "zh": "你不能简单地对处于重试风暴之下的服务进行横向扩容。"
+ },
+ {
+  "seg": 150,
+  "start": 849.373,
+  "end": 860.439,
+  "speaker": "Unknown",
+  "en": "And all these web servers, they have an internal queue, and they're configurable, make sure that they're bounded, and they cannot accept requests that are unbounded.",
+  "zh": "所有这些 web 服务器，它们都有一个内部队列，而且是可以配置的，要确保队列是有界的，它们不能接受无界的请求。"
+ },
+ {
+  "seg": 151,
+  "start": 861.019,
+  "end": 870.024,
+  "speaker": "Unknown",
+  "en": "And if you want to have some custom logic, you can even have traffic prioritization here as well to make sure under load your most important use cases get served well.",
+  "zh": "如果你想有一些自定义逻辑，你甚至可以在这里做流量优先级排序，以确保在负载之下你最重要的用例能得到良好的服务。"
+ },
+ {
+  "seg": 152,
+  "start": 874.242,
+  "end": 879.105,
+  "speaker": "Unknown",
+  "en": "Last thing that I wanted to discuss is the whole idea of a central gateway itself.",
+  "zh": "我最后想讨论的是中央网关本身的整个理念。"
+ },
+ {
+  "seg": 153,
+  "start": 879.645,
+  "end": 880.865,
+  "speaker": "Unknown",
+  "en": "It is a single point of failure.",
+  "zh": "它是一个单点故障。"
+ },
+ {
+  "seg": 154,
+  "start": 881.466,
+  "end": 891.611,
+  "speaker": "Unknown",
+  "en": "So if you're thinking of having a central gateway for your entire company for two LLMs, I would recommend re-think that and see what are the reasons that you want it.",
+  "zh": "所以如果你在考虑为你的整个公司、为两个 LLM 设置一个中央网关，我会建议你重新思考一下，看看你想要它的原因是什么。"
+ },
+ {
+  "seg": 155,
+  "start": 892.891,
+  "end": 897.774,
+  "speaker": "Unknown",
+  "en": "What I've noticed is that in most scenarios, it's not the central gateway that they want.",
+  "zh": "我所注意到的是，在大多数场景中，他们想要的并不是中央网关。"
+ },
+ {
+  "seg": 156,
+  "start": 898.054,
+  "end": 899.615,
+  "speaker": "Unknown",
+  "en": "They want centralized governance.",
+  "zh": "他们想要的是集中式治理。"
+ },
+ {
+  "seg": 157,
+  "start": 900.909,
+  "end": 907.691,
+  "speaker": "Unknown",
+  "en": "And there is a path forward where you can actually decentralize the gateway and still centralize governance.",
+  "zh": "而这里有一条前进的路径，你实际上可以把网关去中心化，同时仍然把治理集中化。"
+ },
+ {
+  "seg": 158,
+  "start": 908.311,
+  "end": 917.833,
+  "speaker": "Unknown",
+  "en": "So do not try to centralize your traffic, but you can have plugins, you can have custom code that can centralize your governance.",
+  "zh": "所以不要试图把你的流量集中化，但你可以有插件，你可以有自定义代码来把你的治理集中化。"
+ },
+ {
+  "seg": 159,
+  "start": 918.573,
+  "end": 925.194,
+  "speaker": "Unknown",
+  "en": "Governance can be in the form of cost tracking, rate limit management, and there are other solutions possible.",
+  "zh": "治理可以采取成本追踪、速率限制管理的形式，还有其他可行的解决方案。"
+ },
+ {
+  "seg": 160,
+  "start": 925.394,
+  "end": 927.495,
+  "speaker": "Unknown",
+  "en": "So explore those before you chart on",
+  "zh": "所以在你着手规划"
+ },
+ {
+  "seg": 161,
+  "start": 928.155,
+  "end": 931.497,
+  "speaker": "Unknown",
+  "en": "having one central gateway for your entire company.",
+  "zh": "为你的整个公司设置一个中央网关之前，先去探索这些方案。"
+ },
+ {
+  "seg": 162,
+  "start": 932.277,
+  "end": 941.603,
+  "speaker": "Unknown",
+  "en": "It can be managed by a single team, but I wouldn't recommend deploying it as a single deployment for the entire company, even though it's distributed.",
+  "zh": "它可以由单个团队管理，但我不建议把它作为面向整个公司的单一部署来部署，即使它是分布式的。"
+ },
+ {
+  "seg": 163,
+  "start": 943.724,
+  "end": 947.786,
+  "speaker": "Unknown",
+  "en": "With that said, I want to end this talk on a personal note.",
+  "zh": "话虽如此，我想以一点个人化的内容来结束这次演讲。"
+ },
+ {
+  "seg": 164,
+  "start": 947.886,
+  "end": 954.25,
+  "speaker": "Unknown",
+  "en": "So it is my son's birthday today, and I'm here talking to strangers about circuit breaking.",
+  "zh": "今天是我儿子的生日，而我在这里和陌生人们谈论熔断。"
+ },
+ {
+  "seg": 165,
+  "start": 955.32,
+  "end": 962.084,
+  "speaker": "Unknown",
+  "en": "So the least you can do for me is please go and prevent one incident for me and for your customers.",
+  "zh": "所以你们至少能为我做的一件事是，请去为我、也为你们的客户预防一次事故。"
+ },
+ {
+  "seg": 166,
+  "start": 962.905,
+  "end": 963.205,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 167,
+  "start": 963.565,
+  "end": 964.345,
+  "speaker": "Unknown",
+  "en": "If you have any questions.",
+  "zh": "如果你们有任何问题。"
+ }
+]

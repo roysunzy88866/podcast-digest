@@ -1,0 +1,607 @@
+{
+  "episode_id": "2026-08-28-talks-from-ai-assisted-to-ai-native-building-a",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "工程效能",
+    "组织变革",
+    "前沿开发"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "clare-liguori",
+      "type": "person",
+      "role": "guest",
+      "name": "Clare Liguori",
+      "file": "Clare Liguori",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "kiro",
+      "type": "company",
+      "role": "concept",
+      "name": "Kiro",
+      "file": "Kiro",
+      "primary": true,
+      "how_described": "本集说它是 AWS 的智能体编程助手(Agent Coding Assistant),内建了规范驱动开发,Amazon 内部多个试点团队用它实现了阶跃式生产力提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            18.095,
+            21.497
+          ],
+          "quote": "I mostly work on Kiro, our Agent Decoding Assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            253.448,
+            263.136
+          ],
+          "quote": "They took a 10-day sprint and they did an experiment where they put, again, six engineers in a room and they let them go wild with Kiro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            429.527,
+            438.936
+          ],
+          "quote": "90% of these teams use Kiro, among other internal tools that we have, and what they found was it wasn't about the tools, it was about the way that they worked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            439.896,
+            453.266
+          ],
+          "quote": "The teams that achieve step function improvements intentionally changed the way that they worked, and the others simply kind of sprinkled Kiro and some of the other tools that we have on top of their existing way of working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            761.13,
+            763.332
+          ],
+          "quote": "We've built that into the Kiro product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            763.752,
+            767.615
+          ],
+          "quote": "And so it's very natural for Amazon engineers to adopt it in Kiro.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "concept",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集把 Amazon 描述为大规模试点 AI 编程工作方式的公司:从 Bedrock Mantle、Prime Video 到 Amazon Stores 的 50 个普通团队,观察到中位数 4.5 倍的生产力提升,2026 年要推广到 2000 个团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.978,
+            36.928
+          ],
+          "quote": "But today I want to talk about some of the practices we've been seeing inside of Amazon and Amazon Teams, where we've been seeing really exciting results of productivity increases that are step function improvements since what we've been seeing with AI so far.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            82.565,
+            94.169
+          ],
+          "quote": "But now inside of Amazon, we've been running pilots with different teams across the company, and we've been seeing a median of 4.5x productivity improvement and sometimes more than 10x.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            101.112,
+            109.977
+          ],
+          "quote": "And I like to define what we've been calling frontier developers inside of Amazon by three behaviors that I've been seeing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            188.394,
+            192.598
+          ],
+          "quote": "This was the first time we'd seen anything of the kind inside of Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            231.113,
+            239.378
+          ],
+          "quote": "So this story was amazing, and it kind of spread like wildfire across Amazon, but it was also very unachievable for a lot of teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            348.548,
+            358.856
+          ],
+          "quote": "So Amazon Stores, which encompasses Amazon.com, all of our retail websites, as well as our physical stores, did a more structured pilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            655.432,
+            657.936
+          ],
+          "quote": "Rust has become very popular inside of Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            758.128,
+            761.11
+          ],
+          "quote": "At Amazon, we practice a lot of spectrum and development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            763.752,
+            767.615
+          ],
+          "quote": "And so it's very natural for Amazon engineers to adopt it in Kiro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            803.849,
+            814.252
+          ],
+          "quote": "So often we'll see Amazon engineers go through this process for ambiguous, complex features of writing the specification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1096.335,
+            1097.997
+          ],
+          "quote": "teams within Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1101.141,
+            1106.849
+          ],
+          "quote": "And that's what 2026 is about for Amazon is how do we scale this out to more and more teams to the next",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1134.943,
+            1141.168
+          ],
+          "quote": "I find that within Amazon, we've found the speed of decision-making becomes a new bottleneck.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "concept",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集说它是 Amazon 的云业务,嘉宾 Claire Liguori 在其中任高级首席工程师,负责 Kiro。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.551,
+            18.075
+          ],
+          "quote": "My name is Claire Liguori, and I'm a Senior Principal Engineer at AWS.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bedrock",
+      "type": "company",
+      "role": "concept",
+      "name": "Bedrock",
+      "file": "Bedrock",
+      "primary": true,
+      "how_described": "本集说它是 AWS 的模型托管服务,托管 Claude、GPT 这类 LLM;其 Mantle 团队用 6 个人 76 天重建了新的推理数据平面,是 Amazon 内第一支「前沿开发者」探路者团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            142.344,
+            147.665
+          ],
+          "quote": "The first time that I saw a Frontier developer team was the Bedrock Mantle team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            148.246,
+            150.826
+          ],
+          "quote": "Bedrock is our model hosting service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            156.067,
+            165.75
+          ],
+          "quote": "And sometime last year, we knew, or I say we, but the Bedrock team knew that they were going to need to build a new inference data plane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            288.229,
+            299.974
+          ],
+          "quote": "And so this sprint really proved that we can achieve, again, at least something close to what the Bedrock Mantle team had achieved with a different set of engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            469.59,
+            481.813
+          ],
+          "quote": "So across this pilot, they went and interviewed the teams that were involved in the pilot as well as some of these other teams on the Bedrock Mantle team, on Prime Video, and they found five habits.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成能连续运行数小时、自我纠错、只需在达到质量门槛时才回来找人的编程执行者;核心主张是「喂养智能体而不是看管智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            18.095,
+            21.497
+          ],
+          "quote": "I mostly work on Kiro, our Agent Decoding Assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            507.098,
+            509.519
+          ],
+          "quote": "Habit number one is investing in agent context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            528.062,
+            537.646
+          ],
+          "quote": "And the habit that they built was every time the agent makes a mistake or does something not the way that you would have done it, what am I missing in my skills files?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            537.706,
+            541.288
+          ],
+          "quote": "What am I missing in my steering files that the agent needed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            610.865,
+            612.806
+          ],
+          "quote": "So they had to build that agent context up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            681.475,
+            689.518
+          ],
+          "quote": "If you are vibe coding, if you are having a back and forth conversation with your agent all day long, of course, you're not going to see",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            717.537,
+            729.413
+          ],
+          "quote": "And so if your conversations look a bit like this on the left, then you're babysitting that agent, as opposed to the right side where you're feeding it what it needs to do and how it can self-validate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            768.996,
+            779.984
+          ],
+          "quote": "What I've typically seen with vibe coding as opposed to frontier engineering is giving a very high level prompt, letting the agent generate a ton of code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            794.587,
+            802.989
+          ],
+          "quote": "And it is less, I find, less productive to iterate with the agent on code when the intent itself was incorrect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            838.073,
+            846.402
+          ],
+          "quote": "One of the keys here is to give the agent that fast feedback loop because that's what lets it go off for hours at a time and self-correct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            846.782,
+            855.531
+          ],
+          "quote": "The agent is going to make mistakes and that's fine, but if you give it the right signals, it can self-correct and it can spend a while doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            894.227,
+            897.869
+          ],
+          "quote": "Because it lets the agent do everything locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            908.296,
+            917.862
+          ],
+          "quote": "Because the more that your agent can get fast feedback means the more loops that it can do and the more productive your own agent can be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            956.049,
+            967.555
+          ],
+          "quote": "We've been seeing engineers staying up late, late at night, trying to get that perfect prompt that's going to make their agent run for hours overnight so that they wake up in the morning with a code change ready.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿开发 (frontier development)",
+      "file": "前沿开发",
+      "primary": true,
+      "how_described": "本集把它定义为 AI 编程辅助演进的最新阶段(vibe coding 之后),以三种行为为标志:放手式编程、低频交互、最小化空闲时间;核心是有意改变工作方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            64.716,
+            70.219
+          ],
+          "quote": "But now we're starting to see kind of an early adopter phase of what we've been calling frontier development.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说它是给出高层 prompt、让智能体生成大量代码再来回扯皮的做法,全程在循环中、无法并行多智能体,是被前沿开发取代的上一阶段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            61.234,
+            64.156
+          ],
+          "quote": "Everybody started doing vibe coding sometime last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            681.475,
+            689.518
+          ],
+          "quote": "If you are vibe coding, if you are having a back and forth conversation with your agent all day long, of course, you're not going to see",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            768.996,
+            779.984
+          ],
+          "quote": "What I've typically seen with vibe coding as opposed to frontier engineering is giving a very high level prompt, letting the agent generate a ton of code,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "steering-files",
+      "type": "concept",
+      "role": "concept",
+      "name": "steering 文件 (steering files)",
+      "file": "steering 文件",
+      "primary": true,
+      "how_described": "本集说它是写给智能体的长期指导文件,用来沉淀脑子里的知识;要定期清理,自问每条规则「还必要吗,还是只是在让上下文臃肿」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            537.706,
+            541.288
+          ],
+          "quote": "What am I missing in my steering files that the agent needed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            553.233,
+            558.435
+          ],
+          "quote": "We've had a lot of quirks that we had to put a lot of do nots in our steering files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            571.782,
+            578.525
+          ],
+          "quote": "And so the question, the new habit again is, do I still need this in my steering files or is this just bloating context?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-servers",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP servers)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集提到团队构建新的 MCP 服务器来帮模型完成它需要完成的事,作为「放慢速度以求提速」阶段工程投资的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            619.509,
+            625.973
+          ],
+          "quote": "They built new tools, new MCP servers for helping that model to actually get done what it needed to get done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shift-testing-left",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试左移 (shift testing left)",
+      "file": "测试左移",
+      "primary": true,
+      "how_described": "本集说它是第五个习惯:加 linter、单元/集成/性能/安全测试和本地 mock 服务,给智能体快速反馈回路,让它能独自运行数小时自我纠错,现在 ROI 终于高到值得投入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            833.728,
+            837.312
+          ],
+          "quote": "The fifth one is shift testing left.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Bedrock 托管 Claude 这类 LLM;并谈到 Sonnet 3.7 怪癖多、Opus 4.5 之后 steering 文件里很多「不要做」不再需要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            150.846,
+            155.267
+          ],
+          "quote": "It hosts LLMs like Claude and GPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "spec-driven development",
+      "reason": "专名「spec-driven development」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

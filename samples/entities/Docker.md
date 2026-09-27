@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[开源模型]] · [[MCP]] · [[推理]] · [[GPU]] · [[OpenRouter]] · [[Boris]] · [[Tushar Jain]]
 
-<script type="application/json" class="pd-epn">{"智能体":334,"Anthropic":145,"沙箱":60,"开源模型":21,"MCP":60,"推理":55,"GPU":18,"OpenRouter":11,"Boris":1,"Tushar Jain":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":336,"Anthropic":145,"沙箱":60,"开源模型":21,"MCP":61,"推理":55,"GPU":18,"OpenRouter":11,"Boris":1,"Tushar Jain":1}</script>
 
 <script>
 (function(){

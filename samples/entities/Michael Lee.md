@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":334,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":145,"OpenAI":134}</script>
+<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":336,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":145,"OpenAI":134}</script>
 
 <script>
 (function(){

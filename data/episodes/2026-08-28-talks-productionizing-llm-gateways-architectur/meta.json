@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-talks-productionizing-llm-gateways-architectur",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/zrZ1amZBSPw.m4a",
+  "duration_sec": 964.345,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 168,
+  "asr": true,
+  "title_en": "Productionizing LLM Gateways: Architecture, Tradeoffs and Hard Lessons — Kanish Manuja, Twilio",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "added": "2026-09-27",
+  "added_at": "2026-09-27T01:24:36.990Z",
+  "speaker_map": {
+    "SPEAKER_00": "Kanish Manuja"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Kanish Manuja"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "LLM 网关生产化实战：Twilio 首席工程师的取舍与踩坑",
+  "guest_name": "Kanish Manuja",
+  "guest_title": "Twilio 首席工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

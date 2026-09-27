@@ -1,0 +1,852 @@
+{
+  "episode_id": "2026-08-29-talks-agents-are-where-microservices-were-in-2",
+  "podcast": "精选演讲",
+  "date": "2026-08-29",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "生产环境架构",
+    "可观测性",
+    "护栏与授权"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "roberto-milev",
+      "type": "person",
+      "role": "guest",
+      "name": "Roberto Milev",
+      "file": "Roberto Milev",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.245,
+            18.605
+          ],
+          "quote": "My name is Roberto Milev.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uday-kanagala",
+      "type": "person",
+      "role": "guest",
+      "name": "Uday Kanagala",
+      "file": "Uday Kanagala",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "navan",
+      "type": "company",
+      "role": "company",
+      "name": "Navan",
+      "file": "Navan",
+      "primary": true,
+      "how_described": "本集主讲方:一家差旅和费用管理公司,首席架构师 Roberto 带团队在生产环境跑大量智能体、每天消耗大量 token,并分享参考架构经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18.826,
+            24.548
+          ],
+          "quote": "I am the Chief Architect at Navan, and I have Uday here, who's also part of the architecture team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.649,
+            36.574
+          ],
+          "quote": "Navan is a travel and expense management company, and we'll share with you some of our learnings around how we run an AI and what have we discovered.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            205.33,
+            208.891
+          ],
+          "quote": "At Navan, we run everything on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            298.971,
+            312.005
+          ],
+          "quote": "We at Navan, again, being AWS shop, utilize their agent core memory, but we are also kind of doing it in a way that matches our use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            816.23,
+            828.039
+          ],
+          "quote": "And in Navan, what we employ here is before every tool call, pre-tool and post-tool, we have these guardrails to check and block and make informed decisions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            858.343,
+            866.945
+          ],
+          "quote": "At Navan, yeah, the approach that we have taken is single master, and then we adopted sub-skills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集说 Navan 全部跑在 AWS 上,重度使用其 agent core 运行时和 agent core 记忆,但会话持久化与状态恢复等空白靠自己构建补齐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            184.633,
+            192.78
+          ],
+          "quote": "You know, AWS, GCP, Azure, they all have some incarnation of an agentic runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            205.33,
+            208.891
+          ],
+          "quote": "At Navan, we run everything on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            208.971,
+            210.832
+          ],
+          "quote": "AWS has an agent core runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            298.971,
+            312.005
+          ],
+          "quote": "We at Navan, again, being AWS shop, utilize their agent core memory, but we are also kind of doing it in a way that matches our use case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:能自己规划步骤、调用工具完成任务的 AI 系统,天生带状态、非确定性,代表用户行事时让授权界线模糊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            85.677,
+            96.184
+          ],
+          "quote": "It kind of translates today because if you can't build a single agentic loop, why go in and try to build a multi-agent orchestrated system?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            208.971,
+            210.832
+          ],
+          "quote": "AWS has an agent core runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            248.112,
+            257.318
+          ],
+          "quote": "We were kind of driven to that out of necessity because you cannot fit an unlimited amount of context into an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            298.971,
+            312.005
+          ],
+          "quote": "We at Navan, again, being AWS shop, utilize their agent core memory, but we are also kind of doing it in a way that matches our use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            371.595,
+            378.597
+          ],
+          "quote": "So, for example, when we have an agent, we have skills that are specific to a domain,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            410.613,
+            422.2
+          ],
+          "quote": "Who had built an agent which failed halfway through a multi-step or 30-step process and be able to figure out quickly or reason about why the agent failed?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            450.785,
+            459.947
+          ],
+          "quote": "Claude, as an example, when we take Claude as an example for an agent, there's hooks, and we can intercept everything that Claude as an agent that does at that level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            495.882,
+            506.166
+          ],
+          "quote": "The spans, the traces, and at what point in time where the agent is stuck, which gives much more confidence into how we operate and build the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            509.648,
+            517.751
+          ],
+          "quote": "Building agent these days, there's so many frameworks, but how do you navigate building and operating an agent later is a primary concern now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            530.736,
+            532.897
+          ],
+          "quote": "What is the current goal the agent is going through?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            543.34,
+            552.043
+          ],
+          "quote": "And when the agent makes a decision, there is a confidence score, how confident it is when it makes this judgment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            563.107,
+            569.189
+          ],
+          "quote": "If this is an inferred answer, there could be a human in the loop to guide through and tweak the agent to perform a little better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            637.862,
+            645.569
+          ],
+          "quote": "In a multi-step orchestration, when an agent makes 30 steps or decisions to make to reach to a goal,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            673.112,
+            685.502
+          ],
+          "quote": "in the trajectory and how far it went from the source to the destination is what we can compute to evaluate the efficiency or the completeness of the agent evaluation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            699.353,
+            713.585
+          ],
+          "quote": "If the answer is from an inferred answer, how can we loop that into and make signals around how can we classify that this is a regression and make fixes towards the agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            769.149,
+            776.893
+          ],
+          "quote": "Taking up a different approach here, traditionally we've seen a user or a service account, but now what is an agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            777.554,
+            780.455
+          ],
+          "quote": "Agent can be acting as on behalf of users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            787.559,
+            792.461
+          ],
+          "quote": "So we just tell this assertion and then agent go figures out and does this action on behalf of me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            792.882,
+            797.624
+          ],
+          "quote": "So is it me making this purchase or is it agent me making on behalf of me?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            800.138,
+            804.241
+          ],
+          "quote": "Agent acts on behalf of a user or agent user service account as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            832.136,
+            843.101
+          ],
+          "quote": "And this single agent versus multi-agent, again, this is kind of orchestration wars you can think of, whether to build a single agent or a multi-agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            843.501,
+            852.205
+          ],
+          "quote": "Again, as Roboto briefly hinted, if you can't perfect and build a single agent, why go towards multi-agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            869.625,
+            882.848
+          ],
+          "quote": "So it's a single agent that can progressively load the skills and understand decisively what needs to be loaded into the context and then make this navigation through the use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            890.367,
+            893.289
+          ],
+          "quote": "One is agent-to-agent communication.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1130.655,
+            1133.736
+          ],
+          "quote": "Hotel, as I mentioned, agent-to-agent is young.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-runtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体运行时 (agentic runtime)",
+      "file": "智能体运行时",
+      "primary": true,
+      "how_described": "本集说运行时是栈中基本已解决的一层:智能体需要持久会话、隔离,生命周期与传统 API 服务不同,AWS/GCP/Azure 都推出了自己的智能体运行时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            184.633,
+            192.78
+          ],
+          "quote": "You know, AWS, GCP, Azure, they all have some incarnation of an agentic runtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆层从 RAG 起步,行业形成摄取→提取→整合→检索的自动化流水线,从短期对话记忆积累为长期记忆和情景记忆;Navan 用 AWS 的 agent core 记忆并按用例定制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            128.093,
+            135.599
+          ],
+          "quote": "Runtime, memory, context management, all around operational crosscutting concerns and around orchestration as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            238.329,
+            241.612
+          ],
+          "quote": "The next layer in the stack is around memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            258.278,
+            274.148
+          ],
+          "quote": "And over time, all of these cloud providers and the industry has implemented a pipeline where memory is kind of automatically generated by following a workflow of ingestion, extraction, and then consolidation and retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            275.249,
+            297.109
+          ],
+          "quote": "And there are parts of RAG that are built in things like a long-term memory that inherently has some semantic characteristics, but memories build up over time from short-term conversational memory to long-term memory that you kind of manage yourself, then episodic memories about kind of instances that worked well and didn't work well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            298.971,
+            312.005
+          ],
+          "quote": "We at Navan, again, being AWS shop, utilize their agent core memory, but we are also kind of doing it in a way that matches our use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            953.757,
+            969.642
+          ],
+          "quote": "Also memory, I think as the frontier LLMs get better and as our practices get better, we will find a way to cover the majority of the use cases and there is good maturity around the cloud providers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文管理 (context management)",
+      "file": "上下文管理",
+      "primary": true,
+      "how_described": "本集说是热门难题:上下文窗口越来越大但永远不够,太多又会失去焦点;解法是把技能当上下文单元,靠渐进式披露动态组合上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            128.093,
+            135.599
+          ],
+          "quote": "Runtime, memory, context management, all around operational crosscutting concerns and around orchestration as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            314.155,
+            317.178
+          ],
+          "quote": "And then the next thing is context management.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是上下文的单元:既含某领域/任务的指令和设置,也含工具执行的智能体逻辑,是可插拔、可独立测试、可复用的工作单元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            332.619,
+            338.805
+          ],
+          "quote": "What we found working is that focusing on skills as a unit of context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            341.127,
+            349.174
+          ],
+          "quote": "We look at skills as both having context, meaning instructions and setup about a certain domain or a task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            356.95,
+            370.914
+          ],
+          "quote": "And we compose context dynamically out of skills that we use as units of works that are pluggable, that we can test independently, and that we can reuse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            371.595,
+            378.597
+          ],
+          "quote": "So, for example, when we have an agent, we have skills that are specific to a domain,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            381.739,
+            397.591
+          ],
+          "quote": "And we rely on the progressive disclosure, which is a feature of the skills itself, to start with the limited scope of context and then expand by included metadata further down the line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            858.343,
+            866.945
+          ],
+          "quote": "At Navan, yeah, the approach that we have taken is single master, and then we adopted sub-skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            869.625,
+            882.848
+          ],
+          "quote": "So it's a single agent that can progressively load the skills and understand decisively what needs to be loaded into the context and then make this navigation through the use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            909.67,
+            920.583
+          ],
+          "quote": "which can help us establish the contracts in terms of skills, and we can use A2A as a protocol there, which kind of is a boundary between the teams.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": true,
+      "how_described": "本集说这是技能本身的特性:先加载有限范围的上下文,后续再按包含的元数据逐步展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            381.739,
+            397.591
+          ],
+          "quote": "And we rely on the progressive disclosure, which is a feature of the skills itself, to start with the limited scope of context and then expand by included metadata further down the line.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说这是仍在挣扎的一层:业界向 OTL 推进,但 OTL 是否真适合智能体调用还有大量未知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            995.875,
+            1003.319
+          ],
+          "quote": "In some areas, things are happening, but, you know, there's still a lot of unknown around observability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "hooks",
+      "file": "hooks",
+      "primary": true,
+      "how_described": "本集说别再翻日志——以 Claude 为例,用 hooks 在工具调用前后、会话前后拦截智能体行为,决定阻止、放行或记录指标,并发出 OTL 追踪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            450.785,
+            459.947
+          ],
+          "quote": "Claude, as an example, when we take Claude as an example for an agent, there's hooks, and we can intercept everything that Claude as an agent that does at that level.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trajectory",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨迹评估 (trajectory)",
+      "file": "轨迹评估",
+      "primary": true,
+      "how_described": "本集说智能体非确定、无法画出确定性执行图,Navan 依赖轨迹评估:不算每步对错,而算从起点到目标走了多远、偏离多少,评估效率与完整性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            631.135,
+            637.641
+          ],
+          "quote": "One approach that we took, this is from research papers around the concept of trajectory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            665.341,
+            672.425
+          ],
+          "quote": "Can we have a trajectory of its starting from an end to a goal and then see how much, how far it went",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            673.112,
+            685.502
+          ],
+          "quote": "in the trajectory and how far it went from the source to the destination is what we can compute to evaluate the efficiency or the completeness of the agent evaluation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            686.762,
+            698.752
+          ],
+          "quote": "So we heavily rely on trajectory valves and there are a few other signals as I briefly spoke around in the previous slide around the inferred signals.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails-and-authorization",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏与授权 (guardrails and authorization)",
+      "file": "护栏与授权",
+      "primary": true,
+      "how_described": "本集说大量信息进模型需治理层挡在前;智能体代表用户行事让授权界线模糊,需要细粒度授权决策和策略层,Navan 在每次工具调用前后挂护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            735.262,
+            737.724
+          ],
+          "quote": "So, guardrails and authorization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类在环 (human in the loop)",
+      "file": "人类在环",
+      "primary": true,
+      "how_described": "本集说当智能体的答案是推断出来的(置信度低、无多路径支撑),就安排人类在环来引导并调整智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            563.107,
+            569.189
+          ],
+          "quote": "If this is an inferred answer, there could be a human in the loop to guide through and tweak the agent to perform a little better.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 已成为事实上的协议,工具调用人人都支持、行业趋同,MCP 本身也在演进,正变得无状态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            971.362,
+            978.246
+          ],
+          "quote": "MCP has emerged as a de facto protocol, and tool calling is now a feature that everybody supports.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            983.449,
+            985.69
+          ],
+          "quote": "And MCP as a standard is also evolving.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a2a",
+      "type": "concept",
+      "role": "concept",
+      "name": "A2A 协议 (A2A)",
+      "file": "A2A 协议",
+      "primary": true,
+      "how_described": "本集说智能体对智能体通信的协议,用于大规模组织中跨团队边界在技能层面建立契约;还很年轻、由某些厂商推动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            909.67,
+            920.583
+          ],
+          "quote": "which can help us establish the contracts in terms of skills, and we can use A2A as a protocol there, which kind of is a boundary between the teams.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说记忆层从 RAG 起步——把相关资料检索出来塞给智能体,因为无法塞进无限量的上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            244.91,
+            245.931
+          ],
+          "quote": "We started with RAG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            246.051,
+            248.092
+          ],
+          "quote": "RAG was kind of a big thing for a while.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            275.249,
+            297.109
+          ],
+          "quote": "And there are parts of RAG that are built in things like a long-term memory that inherently has some semantic characteristics, but memories build up over time from short-term conversational memory to long-term memory that you kind of manage yourself, then episodic memories about kind of instances that worked well and didn't work well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Braintrust",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "single agent vs multi-agent",
+      "reason": "专名「single agent vs multi-agent」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

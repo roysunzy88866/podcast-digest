@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire Vaux]] · [[Sharadh Krishnamurthy]] · [[Stripe]] · [[智能体]] · [[治理]] · [[项目]] · [[工具策略]] · [[人在回路]] · [[技能]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Sharadh Krishnamurthy":1,"Stripe":37,"智能体":334,"治理":3,"项目":1,"工具策略":1,"人在回路":15,"技能":21,"沙箱":60}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Sharadh Krishnamurthy":1,"Stripe":37,"智能体":336,"治理":3,"项目":1,"工具策略":1,"人在回路":16,"技能":22,"沙箱":60}</script>
 
 <script>
 (function(){
