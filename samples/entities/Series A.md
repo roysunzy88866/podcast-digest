@@ -33,7 +33,7 @@ unlisted: true
 
 [[Astro Teller]] · [[Harry Stebbings]] · [[X]] · [[Matt Murphy]] · [[Alphabet]] · [[Anthropic]] · [[Waymo]] · [[Menlo]] · [[Google Brain]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"Harry Stebbings":19,"X":2,"Matt Murphy":1,"Alphabet":1,"Anthropic":149,"Waymo":14,"Menlo":1,"Google Brain":1,"OpenAI":137}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"Harry Stebbings":19,"X":2,"Matt Murphy":1,"Alphabet":1,"Anthropic":150,"Waymo":14,"Menlo":1,"Google Brain":1,"OpenAI":139}</script>
 
 <script>
 (function(){

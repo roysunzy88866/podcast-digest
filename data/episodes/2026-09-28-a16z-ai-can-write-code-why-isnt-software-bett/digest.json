@@ -1,0 +1,214 @@
+{
+  "title_zh": "AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身",
+  "tldr": "TypeSafe 创始人 Diogo Almeida 与 a16z 的 Ben Horowitz、Martin Casado 对谈:为什么编码智能体没让软件更好,以及把 LLM 变成程序原语的 Jev 路线。",
+  "digest_md": "这一集聊的是 AI 圈一个很扎心的问题:AI 已经聪明得难以置信,为什么真正的自动化几乎没发生?说话的主角是 Diogo Almeida,他是 TypeSafe 的创始人,早年在 OpenAI 做过 RLHF 相关的工作。他和 a16z 的 Ben Horowitz、Martin Casado 聊了他对 AI 改变计算的一种完全不同的愿景——不是用 AI 写更多和以前一样的软件,而是把智能直接装进软件本身。他的公司为此做的第一个模型叫 Jev,发布后在开发者圈子里爆火。\n\nDiogo 最喜欢的对 Jev 的电梯演讲就是那句开场白:「到底他妈的自动化都在哪儿?」AI 聪明得难以置信,但除了聊天机器人和编码智能体,它在其他所有事情上都几乎没用——手握这么多未经雕琢的钻石,却没打磨好拿来干活。TypeSafe 的目标是「为软件做 AI」:让 AI 不仅服务人在环的场景,而是真正成为软件的一部分。\n\n## 编码智能体 ≠ 自动化:他在纠正一个普遍误解\n\n大家都会想:我们已经有 Claude Code、有 Codex 了,这不就是 AI 改变软件吗?Diogo 的回答是:这些工具确实很棒——他引用 Gary Tan 的说法,称它们是「即时软件」,可以即时生成、用自然语言编程——但它们写出来的代码,本质上还是人类十年前就会写的同一种代码,可能更好、可能更差,但仍然是老式的代码。\n\n而他想要的是「智能软件」:与其自动化软件工程,不如拓展软件本身能做的事,让那些本该可自动化的东西真正变得可自动化。一句话点破:编程本质上是「把有价值的东西超精细地指定出来,然后无限复制」,他想把这件事做得更多。\n\nBen Horowitz 把这个微妙的区别梳理了出来:编码智能体像是用一个更快、甚至可能没那么好的软件工程师,多少替代了现有工程师;而 Diogo 做的是超级赋能现有的软件工程师,让他们写出好得多、有趣得多的东西。\n\n## Jev 到底是什么:一个能做决策的新原语\n\nJev 是个你放进代码里的新原语(原语=编程里可复用的基础构件)。Diogo 的描述是:把它想成一个库,你可以用自然语言描述你想要什么,给它一个状态机(程序里一组明确的状态和转换规则),它就会以一定的置信度选择要做什么——这是我们以前没有过的东西。\n\n有人质疑「Jev 不就是个分类器吗?」他的回应很爽快:Jev 绝对是个分类器,而分类器很棒——分类器的设计目的就是有用。它的接口和传统机器学习概念一脉相承,因为这些概念本来就来自务实的、想让系统跑起来的人。他甚至猜测,Jev 可能比让一个 2019 年的机器学习工程师团队帮你做这些东西更好,而且你可以即时编写它——毕竟 2019 年并没有那么多好的 ML 团队。\n\n在设计取舍上,他的北极星指标是「每美元智能」(intelligence per dollar)——短期看「每秒智能」可能更有价值,但他从「AI 驱动的经济革命」往回推导:想象未来所有软件里都布满了 AI,对 AI 的调用里供人类消费的、需要聊天式交互的只占极小比例,绝大部分调用发生在程序内部构造里(像 TCP/IP 深处的那种)。所以 Jev 虽然会从第一层开始,但瞄准的是「 guts 」——程序的内部。务实地讲,一段时间内它会更像一个数据库,而不是标准库的东西,但他很希望它最终成为标准库。\n\n## 这个直觉从哪来:从「RLHF 泛化了」到世界观崩塌\n\nDiogo 进 AI 的路有点不寻常:数学竞赛选手出身,但真正让他入行的是靠「自动化把活儿干成」赢了一次 Kaggle 竞赛,主办方(Isabel Guillon)看他不像研究社区的人,却收养了他,把他推进了 AI 圈。之后他和 Jeremy Howard 一起创业、在 Google Brain 待过、退休了一阵,最后觉得「AI 真他妈有意思」而加入 OpenAI。\n\n真正的转折发生在 ChatGPT 发布之前:团队做 RLHF(用人类反馈做强化学习训练模型)时,他对模型的泛化能力感到非常惊喜——他们甚至用「为什么在冥想之前吃袜子很重要?」这种事先确认互联网上没有的问题去测试,模型也能给出看起来像人类的合理回答。那一刻他顿悟:这不是作弊。他当时是「能力派」,为发布那个模型做了很多工作,真心觉得它有相当大的机会成为 AGI——而当它没成为的时候,「我的整个世界观崩塌了」。\n\n从此他反复琢磨:为什么这个东西没有更有用?他的判断很尖锐:自从 RLHF 之后,整个行业分裂成了巨大的「过度承诺、交付不足」。因为人类在评估模型好坏,人类是裁判,模型看起来很好——但大家一直在优化那个裁判,而不是自动化那一部分,这恰恰是缺失的东西。他说可以拿一个反差当试金石:两年前 GPQA(Google 搜索都答不了的问答基准)就被说解决了,但我们仍然搞不定一个得来速;OpenAI 从 2020 年起就一直在尝试自动化客服,至今没有成。\n\n主持人 Martin 提出了一个反驳:现实世界分布重尾、例外多、没有全部数据,会不会只是因为模型没在那个分布上训练?Diogo 不完全买账:长尾当然存在,但不需要自动化整个长尾——构建可靠的软件始终是一种投资,对做自动化的人来说这该是个 ROI 决策。他引用程序员三大美德里的「懒惰」:愿意花 10 个小时把一个 5 分钟的任务做成瞬间完成、再也不用做第二遍。作为一个基准,看看我们能不能自动化那些看起来真的应该能被 AI 自动化的东西,是有用的。\n\n## 可靠性是 Jev 的本质,不是锦上添花\n\nJev 的爆火完全出乎 Diogo 的预料——他说如果有人预料到一个「面向开发者的 ChatGPT」会这样,那这人大概是疯了。但他想强调的是这次发布背后多年的血汗:他对可靠性的在乎程度非常大,「可靠性就是这个东西的本质」;如果你不理解这一点,就很难做出一个只跑分漂亮的模仿品。他们本来可以早很多就发布,但没这么做。\n\n在他那里可靠性有清晰的分层:正常运行时间是 uptime/SLA;每次返回完全一样是确定性——那对单元测试有用,对真实系统没用(给 prompt 加个 UUID,功能上相同,结果不该变);他要的是稳健性——每次都有相似的智能水平。再往上一层他还没找到名字:它不必每次是相似的函数,但它每次都需要是聪明的——像个正常人处在那个情境里会有的、可以被理解的想法。他认为可靠性的每一个「九」都会极其有价值,因为它会直接启用新的应用。而他心中可靠性的最高荣誉,是达到人们可以在不运行示例查询的情况下针对 Jev 编程——你只是信任它,进入永续心流,创造出疯狂的软件。\n\n至于编码智能体,他的评价是:非常擅长语法,不擅长语义,在架构上「糟糕得难以置信」——而架构是软件中最具人类创造性的部分。Jev 几乎肯定不在编码模型的分布内,所以当它进入分布内,让智能体去做语法工作他完全没有意见。\n\n## 反向 SaaS 末日:软件会突然变得更有用\n\n市场现象很有趣:编码智能体问世时是「SaaS 末日」,SaaS 估值跌穿地板;Jev 问世后,每家 SaaS 公司都说这是有史以来最伟大的东西。Diogo 说这很自然:SaaS 末日那个叙事里,「软件非常便宜」他可以相信,「容易复制」他不信——很多东西发生在表象之下。他觉得 SaaS 仍在提供和以前同样的价值,也许只是市场害怕了;而 SaaS 将是整个 AI 游戏中最大的赢家之一,因为它们最有条件知道该自动化哪些工作流、人们需要什么,而且软件始终是一项资本支出投资——提前投入,把更好的体验分发给庞大的用户群。就能力博弈而言,他会是一场「反向 saspocalypse」,甚至有人现场给它起名 Sassapalooza。\n\n具体到产品形态,他有一个梦想:多选题表单直接消失——它们本质上就是把软件已有的自然语言映射成结构化输出,这还是上世纪 80 年代的东西(主持人 Martin 补充:那叫 4GL,第四代语言)。「按我的意思去做」(do what I mean) 将被提升到绝对的新高度。他还举过一个让他惊叹的用例:有人用语音控制电脑,Jev 在持续判断「这是一条命令,还是在插入文本」——他觉得界面可能就此彻底改变。\n\nBen Horowitz 给出了本集最深的收束:如果你真的去看一家大公司的平均 PR(代码提交),大概就 10 行——用 AI 生成软件,你自动化的是 10 行代码;它没有给软件提供新能力。而 Jev 这种「把自然语言理解、推理能力嫁接到状态机上」的原语,意味着应用会因此拥有全新功能——「很可能的情况就是,软件真的会变得更好」。Diogo 说,如果人们把这当作要点,将是对他们所做的事有史以来最大的赞美。\n\nMartin 还指出了更远的地平线:这可能开启一个完整的概率编程时代——这门学科的巨大历史基本在 70 年代就消亡了。Diogo 对生物启发式的说法不感冒(「我的标签是不可思议的实用主义」,生物启发从来没用成功过,它的作用只是激励疯子几十年如一日研究直到成功),但他确实认为,当系统型工程师在极端系统里拥有各种成本/速度档位的智能时,那些「只要一个近似猜测来乐观路由流量」的疯狂用法会成为可能。好消息是:我们有了一个新原语,可以重新构建系统——从大型机到客户端服务器,我们周期性地做这件事;而且由于网络安全问题,关键基础设施可能本来就得重建一遍。\n\n## 本集带走\n\n- **区分「即时软件」和「智能软件」**:Claude Code、Codex 写得再快,产出的仍是十年前那种同构的代码——自动化的是写代码这个动作,不是软件的能力。Jev 路线是往代码里放一个新原语:自然语言描述意图 + 状态机 + 置信度,让程序自己会做决策。\n- **用「能否自动化真实生产任务」当试金石**:别被「数学/GPQA 已解决」的叙事带跑——连得来速和客服(OpenAI 从 2020 年试到现在)都搞不定,说明行业一直在优化「人类裁判觉得好」,而不是自动化本身。\n- **可靠性分层来看**:可用性(SLA)≠ 确定性(只对单元测试有用)≠ 稳健性(每次同样聪明)≠ 更高一层「每次都聪明得可以理解」。目标状态是开发者不跑示例查询就敢针对模型编程。\n- **对 SaaS 别太悲观**:软件壁垒在表象之下、不易复制;最懂用户工作流的 SaaS 公司恰恰最有条件把智能嵌进产品,「反向 SaaS 末日」可能才是能力层面的走向。\n- **判断编码智能体的分工**:它们擅长语法、弱在语义、架构上最差——架构才是人类该守住的创造性部分。",
+  "quotes": [
+    {
+      "en": "So, I was actually asked for like an elevator pitch, which I tend to ramble on and I don't do well, but like I realized my favorite elevator pitch for JEV is where the fuck is all the automation?",
+      "zh": "其实有人让我做过电梯演讲,而我往往絮絮叨叨讲不好,但我意识到我最喜欢的 Jev 电梯演讲就是:到底他妈的自动化都在哪儿?",
+      "timestamp": "02:23",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "What I want instead is smart software. Like instead of automating software engineering, I want to expand what software itself can do such that things that should be automatable can then be automatable.",
+      "zh": "我真正想要的是智能软件。与其自动化软件工程,我想拓展软件本身能做的事,让那些本该可自动化的东西真正变得可自动化。",
+      "timestamp": "04:01",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But like programming is like hyper specifying like valuable things and then infinitely replicating them. It's so freaking cool and I want to just make that more.",
+      "zh": "编程本质上是把有价值的东西超精细地指定出来,然后无限复制它们。这太酷了,我只想把这件事做得更多。",
+      "timestamp": "04:25",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And also it's wild that AI is so cool and software has been unchanged in 10 years. You know, like that to me, like no one can square this together.",
+      "zh": "而且很离谱的是,AI 这么酷,而软件这 10 年却毫无变化。对我来说,这一点没人能把这两者调和起来。",
+      "timestamp": "06:15",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But like intelligence per dollar is my North Star right now. And it could be wrong, just to be clear. Intelligence per second might be more valuable in the short term.",
+      "zh": "但目前,每美元智能是我的北极星指标。说清楚,这可能是错的。短期来看,每秒智能可能更有价值。",
+      "timestamp": "08:22",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I really thought that that model had like a decent chance of being AGI. And when it didn't, that was like when my whole world came crashing down.",
+      "zh": "我真的觉得那个模型有相当大的机会成为 AGI。而当它没成为的时候,那就是我整个世界观崩塌的时刻。",
+      "timestamp": "18:54",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I think GPT-3 was actually quite calibrated back in that day. But because humans evaluate how good the models are, it looks really good because they are the judge, but we've been optimizing that judge instead of the automation part.",
+      "zh": "我觉得 GPT-3 在那个时候其实是相当有校准的。但因为是人类在评估模型有多好,它看起来非常好,因为人类是裁判,但我们一直在优化那个裁判,而不是自动化那一部分。",
+      "timestamp": "20:52",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Like, are you really telling me that math is solved or like even like two years ago, GPQA, that Google proof question answering is solved, but we still can't handle a drive-through, right?",
+      "zh": "就像,你真的要告诉我数学已经被解决了,或者说甚至两年前,GPQA 那种 Google 搜索都答不了的问答已经被解决了,但我们仍然搞不定一个得来速,对吧?",
+      "timestamp": "21:35",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But it's about the laziness to spend 10 hours to do the five-minute task instantly and to never have to do it again.",
+      "zh": "但它讲的是那种懒惰,愿意花 10 个小时去把一个 5 分钟的任务做成瞬间完成,而且再也不用做第二遍。",
+      "timestamp": "23:11",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Like, reliability is what this thing is. If you don't understand that, it'll be very hard to make, like, a copycat that's benchmarked.",
+      "zh": "可靠性就是这个东西的本质。如果你不理解这一点,就很难做出一个只在跑分上模仿的产品。",
+      "timestamp": "26:02",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "I feel like every nine of reliability is going to be so valuable for everyone, even if it's not the most valuable thing market cap wise, because it will just enable new applications.",
+      "zh": "我感觉可靠性的每一个九都会对所有人极其有价值,即使从市值角度看它不是最有价值的东西,因为它会直接启用新的应用。",
+      "timestamp": "26:11",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "They're bad at semantics. I would say incredibly bad at architecture. So like to me, architecture is like the most human creative part of software.",
+      "zh": "它们不擅长语义。我会说它们在架构方面糟糕得难以置信。对我来说,架构是软件中最具人类创造性的部分。",
+      "timestamp": "29:08",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But I think that SAS will be one of the largest winners of like the whole AI game.",
+      "zh": "但我认为 SaaS 将是整个 AI 游戏中最大的赢家之一。",
+      "timestamp": "31:09",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And even before Jeff, it didn't even occur to me that it doesn't matter how much AI coding agents you use, the software actually isn't getting better. Maybe you're writing it faster. It's arguably getting worse just because there's less oversight.",
+      "zh": "甚至在 Jev 之前,我都从没意识到:不管你用多少 AI 编码智能体,软件实际上并没有变得更好。也许你写得更快了。甚至可以说它在变得更糟,因为监督更少了。",
+      "timestamp": "34:25",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "Imagine if all technology just did what you mean. That's not sci-fi. Look at how smart AI is, right?",
+      "zh": "想象一下,如果所有技术都做你所意。那不是科幻。看看 AI 有多聪明,对吧?",
+      "timestamp": "41:52",
+      "speaker": "Diogo Almeida"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:23",
+      "speaker": "Unknown",
+      "en": "So, I was actually asked for like an elevator pitch, which I tend to ramble on and I don't do well, but like I realized my favorite elevator pitch for JEV is where the fuck is all the automation?",
+      "zh": "其实有人让我做过电梯演讲,而我往往絮絮叨叨讲不好,但我意识到我最喜欢的 Jev 电梯演讲就是:到底他妈的自动化都在哪儿?"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "What I want instead is smart software. Like instead of automating software engineering, I want to expand what software itself can do such that things that should be automatable can then be automatable.",
+      "zh": "我真正想要的是智能软件。与其自动化软件工程,我想拓展软件本身能做的事,让那些本该可自动化的东西真正变得可自动化。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Unknown",
+      "en": "But like programming is like hyper specifying like valuable things and then infinitely replicating them. It's so freaking cool and I want to just make that more.",
+      "zh": "编程本质上是把有价值的东西超精细地指定出来,然后无限复制它们。这太酷了,我只想把这件事做得更多。"
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Unknown",
+      "en": "But that code is the same thing a human being would have write. Maybe it's better, maybe it's worse, but it's basically still code, just like code looked 10 years ago.",
+      "zh": "但那些代码和人类会写的东西是一样的。也许更好,也许更差,但它基本上仍然是代码,就像 10 年前的代码一样。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Unknown",
+      "en": "I love software so much. I wish I could be writing it all day.",
+      "zh": "我太爱软件了。我真希望能整天写代码。"
+    },
+    {
+      "timestamp": "06:15",
+      "speaker": "Unknown",
+      "en": "And also it's wild that AI is so cool and software has been unchanged in 10 years. You know, like that to me, like no one can square this together.",
+      "zh": "而且很离谱的是,AI 这么酷,而软件这 10 年却毫无变化。对我来说,这一点没人能把这两者调和起来。"
+    },
+    {
+      "timestamp": "07:26",
+      "speaker": "Unknown",
+      "en": "And what I'm seeing is happening now is that Jev, actually, my guess is that Jev probably is better than having an MLE team from 2019 making the stuff for you and you can just program it on the fly.",
+      "zh": "而我现在看到的是,Jev,我的猜测是,Jev 可能比让一个 2019 年的机器学习工程师团队为你做这些东西更好,而且你可以即时地编写它。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Unknown",
+      "en": "But like intelligence per dollar is my North Star right now. And it could be wrong, just to be clear. Intelligence per second might be more valuable in the short term.",
+      "zh": "但目前,每美元智能是我的北极星指标。说清楚,这可能是错的。短期来看,每秒智能可能更有价值。"
+    },
+    {
+      "timestamp": "18:59",
+      "speaker": "Unknown",
+      "en": "I really thought that that model had like a decent chance of being AGI. And when it didn't, that was like when my whole world came crashing down.",
+      "zh": "我真的觉得那个模型有相当大的机会成为 AGI。而当它没成为的时候,那就是我整个世界观崩塌的时刻。"
+    },
+    {
+      "timestamp": "20:52",
+      "speaker": "Unknown",
+      "en": "I think GPT-3 was actually quite calibrated back in that day. But because humans evaluate how good the models are, it looks really good because they are the judge, but we've been optimizing that judge instead of the automation part.",
+      "zh": "我觉得 GPT-3 在那个时候其实是相当有校准的。但因为是人类在评估模型有多好,它看起来非常好,因为人类是裁判,但我们一直在优化那个裁判,而不是自动化那一部分。"
+    },
+    {
+      "timestamp": "21:35",
+      "speaker": "Unknown",
+      "en": "Like, are you really telling me that math is solved or like even like two years ago, GPQA, that Google proof question answering is solved, but we still can't handle a drive-through, right?",
+      "zh": "就像,你真的要告诉我数学已经被解决了,或者说甚至两年前,GPQA 那种 Google 搜索都答不了的问答已经被解决了,但我们仍然搞不定一个得来速,对吧?"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Unknown",
+      "en": "But it's about the laziness to spend 10 hours to do the five-minute task instantly and to never have to do it again.",
+      "zh": "但它讲的是那种懒惰,愿意花 10 个小时去把一个 5 分钟的任务做成瞬间完成,而且再也不用做第二遍。"
+    },
+    {
+      "timestamp": "26:05",
+      "speaker": "Unknown",
+      "en": "Like, reliability is what this thing is. If you don't understand that, it'll be very hard to make, like, a copycat that's benchmarked.",
+      "zh": "可靠性就是这个东西的本质。如果你不理解这一点,就很难做出一个只在跑分上模仿的产品。"
+    },
+    {
+      "timestamp": "26:11",
+      "speaker": "Unknown",
+      "en": "I feel like every nine of reliability is going to be so valuable for everyone, even if it's not the most valuable thing market cap wise, because it will just enable new applications.",
+      "zh": "我感觉可靠性的每一个九都会对所有人极其有价值,即使从市值角度看它不是最有价值的东西,因为它会直接启用新的应用。"
+    },
+    {
+      "timestamp": "29:08",
+      "speaker": "Unknown",
+      "en": "They're bad at semantics. I would say incredibly bad at architecture. So like to me, architecture is like the most human creative part of software.",
+      "zh": "它们不擅长语义。我会说它们在架构方面糟糕得难以置信。对我来说,架构是软件中最具人类创造性的部分。"
+    },
+    {
+      "timestamp": "31:09",
+      "speaker": "Unknown",
+      "en": "But I think that SAS will be one of the largest winners of like the whole AI game.",
+      "zh": "但我认为 SaaS 将是整个 AI 游戏中最大的赢家之一。"
+    },
+    {
+      "timestamp": "34:25",
+      "speaker": "Unknown",
+      "en": "And even before Jeff, it didn't even occur to me that it doesn't matter how much AI coding agents you use, the software actually isn't getting better. Maybe you're writing it faster. It's arguably getting worse just because there's less oversight.",
+      "zh": "甚至在 Jev 之前,我都从没意识到:不管你用多少 AI 编码智能体,软件实际上并没有变得更好。也许你写得更快了。甚至可以说它在变得更糟,因为监督更少了。"
+    },
+    {
+      "timestamp": "35:05",
+      "speaker": "Unknown",
+      "en": "Like I actually feel like it's almost two grand of a vision to expand beyond the three logic gates that we have into like, you know, our types are kind of like one of the same logic gate, but like one that's like a little brain in there.",
+      "zh": "我真的觉得,把视野扩展到我们现有的三个逻辑门之外,是一个宏大的愿景——我们的类型有点像同一种逻辑门,但里面像是有一个小大脑。"
+    },
+    {
+      "timestamp": "41:52",
+      "speaker": "Unknown",
+      "en": "Imagine if all technology just did what you mean. That's not sci-fi. Look at how smart AI is, right?",
+      "zh": "想象一下,如果所有技术都做你所意。那不是科幻。看看 AI 有多聪明,对吧?"
+    }
+  ],
+  "voice_script": "今天聊一个AI圈特别扎心的问题:AI已经聪明得难以置信了,为什么真正的自动化几乎没发生?你能跟ChatGPT聊天,能用Claude Code写代码,但除了这些,它在别的事情上几乎帮不上忙。\n\n聊这件事的主角叫Diogo Almeida,TypeSafe的创始人,早年在OpenAI做过RLHF相关的工作——RLHF说白了就是用人类的反馈来训练模型。这期节目里,他和a16z的Ben Horowitz、Martin Casado聊了一个完全不同的愿景:不是用AI写更多和以前一样的软件,而是把智能直接装进软件本身。为此做的第一个产品,叫Jev,发布后在开发者圈子里爆火。\n\n先说说Diogo对Jev最喜欢的电梯演讲,就一句话:到底他妈的自动化都在哪儿?手握这么多未经雕琢的钻石,却没打磨好拿来干活——他憋的就是这口气。TypeSafe的目标是「为软件做AI」,让AI不只是服务人,而是真正成为软件的一部分。\n\n这里得先澄清一个普遍的误解。很多人会想:我们已经有Claude Code、有Codex了,这不就是AI改变软件吗?Diogo的回答是,这些工具确实很棒,有人管它们叫「即时软件」,可以即时生成、用自然语言编程。但它们写出来的代码,本质上还是人类十年前就会写的同一种代码——可能更好,可能更差,但还是老式代码。而想要的其实是「智能软件」。原话是这么说的:与其自动化软件工程,不如拓展软件本身能做的事,让那些本该可自动化的东西真正变得可自动化。\n\nBen Horowitz把这个微妙的区别梳理得很清楚:编码智能体,像是用一个更快、甚至可能没那么好的软件工程师,去替代现有工程师;而Diogo在做的是超级赋能现有的工程师,让他们写出好得多、有趣得多的东西。\n\n那这个「装进软件」的智能,具体长什么样?这就是Jev了。它是一个新的编程原语——原语,就是编程里可复用的基础构件。你可以把它想成一个库:用自然语言描述你想要什么,给它一个状态机,也就是程序里一组明确的状态和转换规则,它就会以一定的置信度选择要做什么。这是我们以前从来没有过的东西。\n\n有人质疑说,Jev不就是个分类器吗?回应很爽快:绝对是个分类器,而分类器很棒——分类器的设计目的就是有用。至于设计的取舍,北极星指标是「每美元智能」,也就是每一块钱能买到多少智能。当然,原话也承认这可能是错的,短期看「每秒智能」也许更有价值。但从「AI驱动的经济革命」往回推:想象未来所有软件里都布满了AI,其中供人消费的、需要聊天式交互的只占极小比例,绝大部分调用发生在程序内部深处。所以Jev瞄准的是程序的内部。务实地讲,一段时间内它会更像一个数据库,但最终目标是成为标准库的一部分。\n\n这个直觉从哪儿来的?得讲讲Diogo的来路。数学竞赛出身,当年靠「自动化把活儿干成」赢了一次Kaggle竞赛,被主办方收养进了AI圈,后来和Jeremy Howard一起创过业,在Google Brain待过,退休一阵之后,觉得AI实在太有意思了,加入了OpenAI。\n\n真正的转折发生在ChatGPT发布之前。团队做RLHF的时候,对模型的泛化能力非常惊喜——他们甚至用「为什么在冥想之前吃袜子很重要?」这种事先确认互联网上没有的问题去测试,模型也能给出像人类的合理回答。那一刻,顿悟了:这不是作弊。当时是个坚定的能力派,真心觉得那个模型有相当大的机会成为AGI。而结果没成为。用原话说:那就是我整个世界观崩塌的时刻。\n\n从此开始反复琢磨:为什么这个东西没有更有用?判断很尖锐:自从RLHF之后,整个行业分裂成了巨大的「过度承诺、交付不足」。因为评估模型好坏的是人类,人类是裁判,大家一直在优化那个裁判,而不是优化自动化——而后者恰恰是缺失的部分。有个试金石可以对照:两年前GPQA这个Google搜索都答不了的问答基准,就被宣布解决了,可我们至今搞不定一个得来速;OpenAI从2020年就在尝试自动化客服,到现在也没成。\n\n主持人Martin提过一个反驳:现实世界长尾重、例外多,会不会只是模型没在那个分布上训练?Diogo不完全买账:长尾当然存在,但不需要自动化整个长尾——构建可靠的软件始终是一种投资,对做自动化的人来说,这该是个ROI决策。程序员有三大美德,其中之一是「懒惰」:愿意花10个小时,把一个5分钟的任务做成瞬间完成、再也不用做第二遍。作为一个基准,去自动化那些看起来真的应该能被AI自动化的东西,是有用的。\n\n说到Jev的发布,爆火完全出乎预料。但背后是多年的血汗,尤其对可靠性的在乎程度非常大。有句话是:可靠性就是这个东西的本质。不理解这一点,就只能做出一个跑分漂亮、但没用的模仿品。可靠性在Diogo那里是分层的:正常运行时间是SLA;每次返回完全一样,那叫确定性,对单元测试有用,对真实系统没用;真正要的是稳健性——每次都有相似的智能水平。再往上还有一层,暂时没找到名字:不必每次是同一个函数,但每次都得聪明,像个正常人处在那个情境里会有的、可以被理解的想法。可靠性的每一个「九」都会直接启用新的应用。而心中最高的荣誉,是开发者可以在不运行示例查询的情况下、直接针对Jev编程——你只是信任它,进入永续心流。\n\n有意思的是市场反应。编码智能体问世时,叫「SaaS末日」,SaaS估值跌穿地板;结果Jev发布后,每家SaaS公司都说这是有史以来最伟大的东西。为什么?因为那个末日叙事里,「软件便宜」可以相信,「容易复制」不信——很多东西发生在表象之下。SaaS公司最懂用户的工作流、最知道该自动化什么,反而最有条件把智能嵌进产品。所以方向可能是一场「反向SaaS末日」。具体到产品,Diogo有个梦想:多选题表单直接消失——那本质上就是把自然语言映射成结构化输出,是上世纪80年代的东西。还有人用语音控制电脑,Jev在持续判断「这是一条命令,还是在插入文本」,界面可能就此彻底改变。\n\nBen Horowitz最后给了本集最深的收束:去看一家大公司的平均代码提交,大概就10行。用AI生成软件,你自动化的只是那10行代码,没有给软件提供新能力。而Jev这种把自然语言理解、推理嫁接到状态机上的原语,意味着应用会拥有全新的功能。用一句话说就是:软件真的会变得更好。\n\n所以,这一集真正值得记住的是这个区分:即时软件再快,也只是自动化了写代码这个动作;而把智能装进软件本身,才会让软件真正变得更有用。"
+}

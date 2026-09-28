@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":1,"token":28,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":2,"token":28,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

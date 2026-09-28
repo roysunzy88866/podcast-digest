@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"技能":22,"编码智能体":21,"工作流":9,"harness":46,"MCP":62,"子智能体":3,"上下文窗口":11,"微服务":1,"渐进式披露":3,"提示词注入":17}</script>
+<script type="application/json" class="pd-epn">{"技能":22,"编码智能体":22,"工作流":9,"harness":46,"MCP":62,"子智能体":3,"上下文窗口":11,"微服务":1,"渐进式披露":3,"提示词注入":17}</script>
 
 <script>
 (function(){

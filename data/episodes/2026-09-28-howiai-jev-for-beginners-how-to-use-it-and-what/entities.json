@@ -1,0 +1,927 @@
+{
+  "episode_id": "2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what",
+  "podcast": "How I AI",
+  "date": "2026-09-28",
+  "tags": [
+    "AI 模型",
+    "数据分析",
+    "AI 编程",
+    "成本优化",
+    "实时应用"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集主线:TypeSafe 推出的快速、便宜、不做系统一决策的「决策模型」,文本进、类型安全的值出,只返回 choice/score/null 三种东西,每百万输入 tokens 只要 4 美分,擅长分类、打分、路由等「聪明的 if 语句」场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.371,
+            1.971
+          ],
+          "quote": "Jev, Jev, Jev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            2.312,
+            6.452
+          ],
+          "quote": "Welcome to Jev Week on How I AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            48.456,
+            62.108
+          ],
+          "quote": "Now, what I will say is more than any other model I've experienced lately, JEV has been the one that has exploded use cases, personal productivity use cases, code use cases, product use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            62.509,
+            66.433
+          ],
+          "quote": "Today, I'm going to give you a very quick whirlwind tour of what JEV is,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            79.343,
+            84.066
+          ],
+          "quote": "And I have probably spent sub $10 on JEV tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            84.567,
+            92.113
+          ],
+          "quote": "A lot of it has been subsidized because JEV is currently free on the AI gateway by Rercel, but even at LispRise,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.689,
+            179.698
+          ],
+          "quote": "So if I were to explain JEV to you, I would go to this table on the TypeSafe blog post announcing JEV, and it basically compares normal LLMs on the left, JEV style LLMs on the right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            184.064,
+            189.951
+          ],
+          "quote": "Jev does not take in images, but it takes in text, and it takes in text descriptions of images if you really need to get there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            200.063,
+            203.604
+          ],
+          "quote": "With Jev, you're getting text in, type safe values out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            203.624,
+            210.928
+          ],
+          "quote": "And what I mean by type safe values is these are values that are predefined that then Jev picks from and selects and returns to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            244.765,
+            248.767
+          ],
+          "quote": "JEV only charges you on input tokens because it barely outputs anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            271.298,
+            275.921
+          ],
+          "quote": "And then I'll go into use cases, which is how you would use like a standard LLM versus why you would use JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            289.588,
+            293.171
+          ],
+          "quote": "But JEV is really great for making decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            328.793,
+            332.354
+          ],
+          "quote": "I do want to explain exactly what Jev outputs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            332.494,
+            335.455
+          ],
+          "quote": "And so I would highly recommend if you're going to use Jev, go to their docs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            342.577,
+            344.057
+          ],
+          "quote": "So what will Jev return to you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            386.645,
+            397.512
+          ],
+          "quote": "So say the example here is a great one, which is like, if you get a bug, you want to rank it like cosmetic, broken or blocking, Jev will triage that bug and give it a score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            453.984,
+            459.267
+          ],
+          "quote": "So I'm going to show you those use cases and hopefully this will inspire you about how you can use JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            479.263,
+            484.528
+          ],
+          "quote": "So what I had Jev do is look at thousands of PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            499.762,
+            504.047
+          ],
+          "quote": "And so use Jev to do pairwise relations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            504.147,
+            510.334
+          ],
+          "quote": "And so this is something that I found Jev is really good at is compare like PRA to PRB and say, are you the same?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            513.057,
+            517.021
+          ],
+          "quote": "Again, Jev's not going to tell you what the thematic area is unless you give it choices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            530.768,
+            536.17
+          ],
+          "quote": "So I create these clusters of data sets and that's what Jev did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            664.756,
+            672.3
+          ],
+          "quote": "And so this is just an example of how powerful, cheap and good JEV can be on large data sets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            802.817,
+            805.618
+          ],
+          "quote": "And so this is where I would say, like, Jev alone",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            807.299,
+            810.422
+          ],
+          "quote": "Jev with an LLM buddy is super powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            811.002,
+            824.835
+          ],
+          "quote": "So what I like to do with Jev is I like to take a big corpus of information, tag it, categorize it, cluster it, filter it, and then apply really precise AI actions to the right clusters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            848.619,
+            852.941
+          ],
+          "quote": "I hope it unlocks your minds on what Jev can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            861.287,
+            869.192
+          ],
+          "quote": "And then I'll show a couple like fun little apps that you can build with Jev that I think would have been hard to build before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            909.629,
+            913.011
+          ],
+          "quote": "And I think I cracked this baby with Jev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            916.714,
+            920.999
+          ],
+          "quote": "Which is, it's not that I, like, Jev has done it all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            930.169,
+            931.311
+          ],
+          "quote": "And I put Jev there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            959.502,
+            962.483
+          ],
+          "quote": "I then quickly assign everything to those labels with Jev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1038.941,
+            1046.827
+          ],
+          "quote": "And now I can like combine these like very cheap decision models like Jev with a really brainy model and get this like interesting",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1067.782,
+            1070.683
+          ],
+          "quote": "And it probably cost me four bucks on the JEV side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1073.123,
+            1092.107
+          ],
+          "quote": "But I just think like thinking through where classification, like super smart classification clustering decisions could unlock really complex products and how you might use, as I'm showing here, JEV alongside some smarter models, it's like really blowing my mind right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1098.088,
+            1108.076
+          ],
+          "quote": "So, so far I've told you like what Jev is, how you can use it on PR review or data analysis, how you can use it on your local sessions, how you could even use it on your email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1199.448,
+            1210.11
+          ],
+          "quote": "And then I said, also use JEV to identify whether or not includes a idea for a future episode and then analyze all the data and give me a dashboard to look at the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1269.529,
+            1275.051
+          ],
+          "quote": "And I, using Jev, built live search against these comments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1312.301,
+            1317.742
+          ],
+          "quote": "I don't want to pretend like Jev, you just like slap Jev in the middle and evaluate all 4,400 that quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1337.455,
+            1339.416
+          ],
+          "quote": "And then I said this was JEV week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1339.456,
+            1346.842
+          ],
+          "quote": "So like and subscribe for a second follow up JEV episode with one of our How I AI guests that's going to come later this week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1347.322,
+            1352.445
+          ],
+          "quote": "But I wanted to show like kind of a fun real-time use case for JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1352.505,
+            1371.394
+          ],
+          "quote": "So if you have been seeing any of these like real-time app applications of JEV like playing a video game or, you know, playing Tetris, doing live search, all these things, you can do a lot of real-time stuff where making a very quick decision or returning a set of choices can be very powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1371.814,
+            1386.177
+          ],
+          "quote": "Okay, so I built a real-time app that takes in voice and then uses JEV to determine what color is like my emotion and then returns a quote in reflection of my emotion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1390.438,
+            1393.999
+          ],
+          "quote": "It uses JEV and then it uses like API Ninja quote API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1517.424,
+            1529.939
+          ],
+          "quote": "So that is my JEV 101, how to use it on your own data, how to use it with other models, and how to build some fun, real-time experiences in your app intro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1530.139,
+            1534.985
+          ],
+          "quote": "Again, as I said, this is JEV episode number one this week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "typesafe",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe",
+      "file": "TypeSafe",
+      "primary": true,
+      "how_described": "本集说它是推出 Jev 模型的公司,其发布博客上的对照表被用来解释 Jev 与普通 LLM 的区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.478,
+            39.867
+          ],
+          "quote": "This fast, cheap, doesn't speak system one decision model from TypeSafe AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.689,
+            179.698
+          ],
+          "quote": "So if I were to explain JEV to you, I would go to this table on the TypeSafe blog post announcing JEV, and it basically compares normal LLMs on the left, JEV style LLMs on the right.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复把它与 Jev 对照:标准 LLM 是文本进、文本出,擅长生成内容(聊天、写代码),但输出 token 贵;而 Jev 只做决策。Jev 搭配一个 LLM 搭档被说成是超级强大的用法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            271.298,
+            275.921
+          ],
+          "quote": "And then I'll go into use cases, which is how you would use like a standard LLM versus why you would use JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            321.069,
+            328.213
+          ],
+          "quote": "So you can put an LLM in a real time loop in a way that was not performant enough with these other models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            807.299,
+            810.422
+          ],
+          "quote": "Jev with an LLM buddy is super powerful.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "company",
+      "role": "company",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": true,
+      "how_described": "本集说它是主播开发的 AI 产品经理助手应用,被用作 PR 分类分析(1,700 个 PR 花 9 美分)和「产品洞察图谱」的实战对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            564.403,
+            573.387
+          ],
+          "quote": "Again, it ran very, very, very fast and very cheap, but then I ran it on my ChatPRD app, which has about 2,000 PRs on it to date in this calendar year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            627.45,
+            633.756
+          ],
+          "quote": "Almost 30% of the effort, the PRs that we do at ChatPRD, around platform security and infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            947.356,
+            954.059
+          ],
+          "quote": "And so if you look at this map and it's like probably not that interesting to you all because it's very internal to ChatPRD, but...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "本集把它说成「大脑大的」前沿模型,在 Jev 完成分类、聚类、映射之后负责分析、战略、洞察提取;做仪表盘和前端,但比 Jev 贵得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            931.931,
+            941.314
+          ],
+          "quote": "And then I figure out where like the big brains, like analysis, strategy, insights extraction, and I put like Astra there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            963.184,
+            966.545
+          ],
+          "quote": "Then I pair those clusters and those groups with Astra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1070.723,
+            1072.223
+          ],
+          "quote": "It's cost me a lot more on the Astra side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1326.807,
+            1329.129
+          ],
+          "quote": "And then finally, I have to give Astra props.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说它的本地会话数据可以被 Jev 做分类元分析,主播还用它跑分析线程、做视频,九月时工程任务占比已不到 40%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            459.627,
+            467.975
+          ],
+          "quote": "Okay, so I'm going to pull up Codex and show you like two or three examples that are super simple to run, incredibly cheap and incredibly powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            672.96,
+            686.063
+          ],
+          "quote": "And then I want to give you all one that even if you don't have like a big repo with PRs everywhere that you can run, which is you can run this on your local Claude Code and Codex sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            686.423,
+            690.124
+          ],
+          "quote": "So all of your Claude Code and Codex sessions are stored locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            697.446,
+            700.627
+          ],
+          "quote": "So I did that while Codex kicked off a thread to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            710.989,
+            719.891
+          ],
+          "quote": "And so for grouping by user turns, in January, I was almost exclusively doing engineering tasks in Claude Code and Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            736.781,
+            739.122
+          ],
+          "quote": "I'm doing a lot of our videos through Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说它的本地会话存储在本地,可对之跑 Jev 分类分析,看自己的时间花在哪了;还提到有一期 80% 正面评论的「面向产品经理的 Claude Code」节目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            672.96,
+            686.063
+          ],
+          "quote": "And then I want to give you all one that even if you don't have like a big repo with PRs everywhere that you can run, which is you can run this on your local Claude Code and Codex sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            686.423,
+            690.124
+          ],
+          "quote": "So all of your Claude Code and Codex sessions are stored locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            710.989,
+            719.891
+          ],
+          "quote": "And so for grouping by user turns, in January, I was almost exclusively doing engineering tasks in Claude Code and Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1259.544,
+            1265.287
+          ],
+          "quote": "We had an awesome Claude Code for product managers, episode 80% positive comments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "classification",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类 (classification)",
+      "file": "分类",
+      "primary": true,
+      "how_described": "本集把它说成 Jev 最擅长的核心能力:对海量高价值非结构化数据做分类,「产品洞察图谱」做了超过 20 万次分类和成对分组只花约 4 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            441.657,
+            453.944
+          ],
+          "quote": "And the number one thing I have been using it for is classification of vast sets of unstructured data that would have been annoying to classify but is very high value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            922.861,
+            929.749
+          ],
+          "quote": "It is actually, I have figured out where classification, clustering, and mapping are important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1057.435,
+            1067.142
+          ],
+          "quote": "And it has taken about 1100 raw sources of data and done over like 200,000 classification and pairwise groupings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1073.123,
+            1092.107
+          ],
+          "quote": "But I just think like thinking through where classification, like super smart classification clustering decisions could unlock really complex products and how you might use, as I'm showing here, JEV alongside some smarter models, it's like really blowing my mind right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clustering",
+      "type": "concept",
+      "role": "concept",
+      "name": "聚类 (clustering)",
+      "file": "聚类",
+      "primary": true,
+      "how_described": "本集说 Jev 不告诉你主题是什么,只做海量「相关/不相关」的两两判断,靠这种判断做聚类,再用便宜模型标注主题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            527.307,
+            530.728
+          ],
+          "quote": "And it's doing clustering, which I find very, very useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            922.861,
+            929.749
+          ],
+          "quote": "It is actually, I have figured out where classification, clustering, and mapping are important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1073.123,
+            1092.107
+          ],
+          "quote": "But I just think like thinking through where classification, like super smart classification clustering decisions could unlock really complex products and how you might use, as I'm showing here, JEV alongside some smarter models, it's like really blowing my mind right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "real-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "实时 (real-time)",
+      "file": "实时",
+      "primary": true,
+      "how_described": "本集说 Jev 快到可以把 LLM 放进实时循环,并用实时搜索和语音情绪变色引言机两个应用演示实时玩法,但强调背后要先做分批、打分、推高分的架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            316.746,
+            319.368
+          ],
+          "quote": "It's really good at real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            321.069,
+            328.213
+          ],
+          "quote": "So you can put an LLM in a real time loop in a way that was not performant enough with these other models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1127.61,
+            1130.532
+          ],
+          "quote": "How you have to build it and how it works to get that real time effect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1347.322,
+            1352.445
+          ],
+          "quote": "But I wanted to show like kind of a fun real-time use case for JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1352.505,
+            1371.394
+          ],
+          "quote": "So if you have been seeing any of these like real-time app applications of JEV like playing a video game or, you know, playing Tetris, doing live search, all these things, you can do a lot of real-time stuff where making a very quick decision or returning a set of choices can be very powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1371.814,
+            1386.177
+          ],
+          "quote": "Okay, so I built a real-time app that takes in voice and then uses JEV to determine what color is like my emotion and then returns a quote in reflection of my emotion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1386.838,
+            1390.418
+          ],
+          "quote": "It uses OpenAI's real-time voice API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1460.103,
+            1466.748
+          ],
+          "quote": "But you can imagine how fun it would be to be able to build these real-time experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1471.951,
+            1498.4
+          ],
+          "quote": "Just for you all to know kind of how it works, I gave it a list of hex values, so a list of colors, every sentence or like phrase it ingests from the real-time API, it asks what color or it scores the colors, it gives the top-ranking score color, and then it also picks from a set list of filters for the quote API, so it filters the quotes and then it scores them against my sentiment and then it shows it on the screen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1517.424,
+            1529.939
+          ],
+          "quote": "So that is my JEV 101, how to use it on your own data, how to use it with other models, and how to build some fun, real-time experiences in your app intro.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Gemini Flash",
+      "reason": "专名「Gemini Flash」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

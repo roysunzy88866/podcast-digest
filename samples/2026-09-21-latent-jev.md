@@ -134,9 +134,9 @@ Jev 的三个原语是有意的新概念,不对应已有类型:「choice 映射�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、OpenAI · 同概念:RLHF、编码智能体 (coding agent)</span>
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:编码智能体 (coding agent)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:编码智能体 (coding agent)</span>
-- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:合成数据 (synthetic data)、基准测试 (benchmark)</span>
 
 </div>
 <div class="pd-ex">
@@ -144,8 +144,8 @@ Jev 的三个原语是有意的新概念,不对应已有类型:「choice 映射�
 **换个口味**
 
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:编码智能体 (coding agent)</span>
+- [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI、Anthropic</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI、Anthropic</span>
 
 </div>
 </div>

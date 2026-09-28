@@ -136,9 +136,9 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
 
 **换个口味**
 
+- [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事]]<span class="pd-rz">同公司:Snap · 同概念:分发 (distribution)、网络效应 (network effects)</span>
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|Uber COO 谈会员制反转、自动驾驶终局与AI预算失控]]<span class="pd-rz">同概念:分发 (distribution)、智能体 (agents)</span>
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同概念:护城河 (moat)、网络效应 (network effects)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:护城河 (moat)、网络效应 (network effects)</span>
 
 </div>
 </div>

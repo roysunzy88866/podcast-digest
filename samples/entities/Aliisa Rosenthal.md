@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]]
+[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"go-to-market":12,"OpenAI":137,"ChatGPT Enterprise":1,"Anthropic":149,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
+<script type="application/json" class="pd-epn">{"go-to-market":12,"OpenAI":139,"ChatGPT Enterprise":1,"Anthropic":150,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
 
 <script>
 (function(){

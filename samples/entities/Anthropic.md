@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>149</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>150</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -156,6 +156,7 @@ unlisted: true
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(06:09起):Anjney 是其最早投资人之一;本集说它起步落后 OpenAI 100 亿美元,从第一天的种子备忘录起就专注「负责任地商业化 AI 结对编程」,五年内成了万亿美元公司。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 Anthropic 和 OpenAI 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源
 - **[[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]]**(42:46起):本集仅作为对比一笔带过：候选人要理解在 Harvey 变革法律行业，与在 Anthropic 或 OpenAI 等做模型的工作是不同的。
+- **[[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]]**(14:41起):被列为收入规模排在其前的两家公司之一，也采用同样的年化收入计算方法
 
 ## ① 提到它的金句
 
@@ -207,7 +208,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*149 集*
+*150 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -358,6 +359,7 @@ unlisted: true
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为被讨论公司(提及)
 - [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]] — 作为被讨论公司(提及)
+- [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -365,7 +367,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[NVIDIA]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"OpenAI":137,"Claude Code":79,"Cursor":69,"NVIDIA":45,"Claude":70,"推理":56,"Lenny":68,"Google":49,"ChatGPT":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":345,"OpenAI":139,"Claude Code":81,"Cursor":70,"NVIDIA":45,"Claude":70,"推理":56,"Lenny":68,"Google":49,"ChatGPT":80}</script>
 
 <script>
 (function(){

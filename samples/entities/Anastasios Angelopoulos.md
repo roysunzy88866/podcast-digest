@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":3,"基准测试":13,"开源":27,"智能体":345,"Kimi":1,"排行榜":1,"OpenAI":137}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":3,"基准测试":15,"开源":27,"智能体":345,"Kimi":1,"排行榜":1,"OpenAI":139}</script>
 
 <script>
 (function(){

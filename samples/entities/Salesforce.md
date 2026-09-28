@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>31</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>32</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,6 +41,7 @@ unlisted: true
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(15:11起):本集说 Salesforce 是 SaaS 股票复苏的最好例子,经典的记录系统论证正在它身上上演,护城河目前完好,智能体使用软件更多反而驱动其增长。
 - **[[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]]**(37:26起):本集把 Salesforce 和 Google 并列为客服领域的大平台默认选项,并提到其前 CEO Brett Taylor 是 Sierra 的对手;Decagon 靠产品赢下大单。
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(57:35起):本集以 Salesforce 为例说 SaaS 在位者的价值在于 API 和 MCP 服务器等底层能力，已走向无头化
+- **[[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]]**(71:52起):本集只借其创始人 Benioff 之口出现:他曾劝 Neumann 拒绝 Masa、以 50 亿打折上市,并预言估值很快会更大
 
 ## ① 提到它的金句
 
@@ -58,7 +59,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -91,6 +92,7 @@ unlisted: true
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]] — 作为被讨论公司(提及)
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
+- [[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -98,7 +100,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[MCP]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[go-to-market]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"OpenAI":137,"Anthropic":149,"Cursor":69,"MCP":62,"Harry Stebbings":19,"ChatGPT":79,"Lenny":68,"go-to-market":12,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":345,"OpenAI":139,"Anthropic":150,"Cursor":70,"MCP":62,"Harry Stebbings":19,"ChatGPT":80,"Lenny":68,"go-to-market":12,"评估":3}</script>
 
 <script>
 (function(){

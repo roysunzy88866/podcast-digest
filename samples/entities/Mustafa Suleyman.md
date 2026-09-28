@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":137,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":139,"AGI":26,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,214 @@
+{
+  "title_zh": "从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事",
+  "tldr": "Higgsfield 创始人 Alex 讲述这家哈萨克斯坦起家的视频 AI 公司如何在 18 个月里从 100 万做到 10 亿美元年化收入，以及他对模型、基准测试和分发策略的真实判断。",
+  "digest_md": "把 100 万美元年化收入做到 10 亿，Cursor 用了 24 个月，而这家叫 Higgsfield 的视频 AI 公司只用了 18 个月——它不在硅谷，核心团队 300 多人在哈萨克斯坦。说这话的人是创始人 Alex，一个从哈萨克斯坦走出来的竞技编程选手，19 岁打进竞技编程世界前三，之前创办的 AI 公司以 1.66 亿美元卖给了 Snap。这一集是他第一次完整讲出这段几乎无人报道的故事。\n\n## 起点：被逼出来的世界观\n\nAlex 的父母都是机械工程教授，从他八岁起就告诉他「必须去美国，因为那是技术真正重要的地方」。母亲打三份工供他参加编程竞赛。他的判断很直接：来自后苏联国家、印度、中国的人，拿到国际比赛顶尖排名是唯一突围途径。19 岁世界前三之后，他没走学术路，选择创业——先在 transformer 出现之前做神经网络优化、做出当时最先进的英俄翻译系统，2018 年创办 AI Factory，押注「未来人人都在手机上看 AI 生成的视频」，公司以 1.66 亿美元卖给 Snap，他也终于搬到了硅谷。\n\n到了硅谷，他的观察是一半惊喜一半失望：没有人以种族国籍评判人，能见到任何人；但整个硅谷的投资圈极其由共识驱动——「我以为最后那部分会有所不同」。\n\n## 差点死掉：烧掉 1000 万后才找对产品\n\nHiggsfield 不是第一天就成功的。种子轮融了 1600 万美元，烧掉超过 1000 万，花了一年多寻找能成立的产品。Alex 坦白这是他的责任：「我当时过度优化的是今天什么火、什么叙事是对的、怎么劫持注意力——一切的一切，就是不去做一个好产品。」等到账上所剩无几，他们只做了一件事：和 8 位创意总监深聊。所有人都指出同一个缺口——AI 里不存在「摄像机控制」，而这恰恰是讲故事的瓶颈。围绕这个点做产品，去年 3 月 31 日上线，立刻产品市场契合。「产品市场契合是不是像爱情？当你知道的时候，你就知道了。」\n\n## 增长数字与它背后的算盘\n\n- 18 个月从 100 万做到 10 亿美元年化收入，Alex 自称「大概排在 OpenAI 和 Anthropic 之后的第三」。计算方法他主动摊开：过去四周收入乘以 13，年订阅按 12 个月分摊，只算已生效收入，不拿三年企业合同倒推。\n- 扩张最惊人的例子：一位客户六个月前每月只付 99 美元订阅费，如今签了每年超过 600 万美元的合同。第 12 个月的 NRR（净收入留存，即老客户第二年付的钱是第一年的多少倍）超过 300%——这在 B2B SaaS 里从未出现过。\n- 代价是前期流失：第一个月流失约 30%，之后曲线就平了，远不如 B2B SaaS 时代第一个月 80%+ 的留存标准，所以用户教育仍是核心任务。\n- 企业收入略高于 50%；移动端收入不到 10%；西方市场占收入 70% 以上，但最大的使用城市是首尔。\n- 一个反共识决定：不做任何付费投放，增长全靠自有内容（团队里有 150 名创意专业人士，占员工近半）和分发。他们曾把创作者营销外包给代理机构，结果翻车——他的教训是「掌握分发，现在比以往任何时候都更重要」。\n\n## 基准测试是「公司心理战」\n\n早期 Higgsfield 自研模型，后来收回了，Alex 直言这是他的错。他不信基准测试：「我不相信这个，这某种程度上是公司的心理战。」他在大组织待过，知道发生什么：研究员把测试数据塞进训练、用 LLM 当裁判刷分，为了季度奖金。旁证是他给的：看 OpenRouter 数据，美国老牌公司里唯一相关的是 Google；中国对基准痴迷较少，腾讯、小米、阿里三家都占住位置。而且视频基准根本测不到真实工作流——他们的开源电影项目平均提示词超过 3000 词、每个场景至少 10 张图像参考，「基准测试就是不能代表这些」。\n\n自研与否的真实标准是利润率和可控性：自有模型和开源权重模型的利润率超过 80%，闭源模型只有 20% 到 30%。开源模型的份额今年从低于 30% 涨到超过 60%，因为「做出爆款社交媒体视频并不一定需要博士级别的智能」。随着智能体工作流铺开，超过 40% 的情况是 Higgsfield 替客户选模型——模型路由本身成了业务核心，他们称之为 tokenomics：客户要做的工作量固定，你优化 token 数量、挑最高效的模型。\n\n## 内部消耗：人均每月 1 万美元买模型\n\nHiggsfield 内部每月模型开销超过 400 万美元，近 400 人平摊，人均每月超过 1 万美元。最离谱的例子：一位创意人员因为受够了素材整理工作流不好用，自己连续五个通宵泡在某个模型上做自动剪辑，一周烧掉超过 3 万美元——没达到生产可用，但「我们学到了很多」。从 3 月到 6 月全公司（包括创意团队）都在用 Claude 做 vibe coding（用自然语言指挥 AI 写代码），6 月中旬又集体迁到 Codex；Alex 认为这种迁移是周期性的。他预计顶级 10X 工程师和创意人员的月度模型开销会到 5 万到 10 万美元，「不幸的是，我也预期这些人会要求相应幅度的加薪」。\n\n关于「AI 会淘汰哪些岗位」，他的答案反直觉：他原以为法务和客户支持会被大面积替代，甚至为此犯了「没快速扩充这些团队」的运营错误——如今法务团队 10 多人、客户成功 40 多人，全都在大量用 AI，但没有一个岗位被砍。60% 的第一线客服请求 AI 能接，但 B2B 场景「AI 就是不行」；而且产品每周更新，智能体依赖的上下文和规则一周变两次，人反而更重要。\n\n## 护城河只剩两种，20 美元订阅市场会消失\n\n「我基本上认为护城河是胡扯。」Alex 说价值创造如今只有两种方式：交付结果（帮企业通过 AI 广告卖出更多东西）和网络效应——「AI 并不能取代网络效应」，人们谈的智能体互相通信「我不确定这在未来五年内会发生」。他们的网络效应打法是开源：8 周内从 10 个种子开源项目滚到超过 1 万个，「人们能利用彼此的产出」。\n\n另一个反共识判断：Google 和 OpenAI 追逐广告生意，会「彻底摧毁自己 20 美元档的 prosumer 订阅市场」——免费好用的横向产品会蚕食所有垂直订阅工具，Canva 已经在被 OpenAI 蚕食。所以 Higgsfield 的策略是：20 美元进来的用户，要推着他们走到每年 1000 美元以上。长期终局是「AI 原生的记录系统」：企业内容资产散落在 Dropbox、Google Drive、Frame.io 各处，谁能让人用自然语言搜索、管理、控制品牌语义，谁就赢——这也是他们重投 harness（随时间学习客户视觉风格的生成管线）的原因。\n\n## 团队、融资与个人代价\n\n招聘上他反对硅谷两年一跳的文化，认为欧洲的忠诚感反而有竞争力。哈萨克斯坦不是廉 价劳动力套利——物理学奥赛世界前五，团队核心全是数学物理国际竞赛获奖者；当地教育是苏联数学学派叠加新加坡体系，政府资助 4000 名高中生留学且很多人回国，个人所得税只有 15%。他的管理哲学简单到粗暴：「雇最好的人去做最好的工作，想清楚怎么留住他们。其他一切坦率地说都是次要的」，他推崇 Jensen、Elon 那种被美国企业界称为「微管理」的直击细节风格。融资记忆最深的会议是与 Yuri Milner 面对面——对方深刻理解内容转型，且握手后没有像别家投资人那样压价 30% 反悔。\n\n从 Snap 学到的核心一课贯穿他现在的心态：「势头不会永远持续。」当年 Snapchat 800 亿市值时觉得只管探索，「现在市值低于 150 亿」。所以尽管财务模型预测明年年底收入将达数十亿美元（已假设大幅减速），他仍在争取每月 30% 环比增长，私下认为会超过 100 亿，并相信 Higgsfield 能比 Shopify 更大。\n\n个人代价是真实的：每周 80-90 小时投入，三个半月里只完整陪过儿子一天；卖公司赚的第一笔 100 多万美元全给父母亲戚买了房，自己开 Tesla Model 3、不置任何房产。支撑他的是八岁起父母的信念——世界上有一个地方，好的技术产品是重要的。\n\n## 本集带走\n\n- **烧光钱之前，唯一该押的是产品**：Alex 在种子轮烧掉 1000 万后才醒悟，之前全在追热点和叙事；最后靠 8 场用户深聊找到「摄像机控制」这个真缺口，一次做对。\n- **收入口径要透明**：过去四周收入 × 13、年合同按月分摊、只算已生效收入——这套口径与 OpenAI、Anthropic 一致，18 个月从 100 万到 10 亿才站得住。\n- **别信基准测试，信利润率**：自有/开源权重模型毛利 80%+，闭源只有 20-30%；下游应用方选模型的权利（他们的场景里超过 40%）正在变成核心商业能力。\n- **分发必须自己握**：外包创作者营销翻车的教训是，付费投放可以不做，但分发渠道绝不能外包。\n- **AI 不淘汰岗位，淘汰的是岗位里重复的部分**：法务、客服全用 AI 后一个没裁，B2B 场景尤其离不开人；被低估的瓶颈是用户教育和价值展示（第一个月流失 30%）。",
+  "quotes": [
+    {
+      "en": "It's not just a concept from science that scaling loss work. Video just takes maybe two, three years longer than LLMs and coding, but it was clear that finally scaling loss should work in video as well, and I just decided just to take a bet.",
+      "zh": "Scaling loss 起作用不只是科学概念。视频只是比 LLM 和编程晚了两三年，但很显然它最终在视频领域也会起作用，我就决定赌一把。",
+      "timestamp": "10:50",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "I was so much optimizing for what's hype today, what's the right narrative, how we can hijack the attention, all these things, really. Everything instead of building a good product.",
+      "zh": "我当时过度优化的是今天什么火、什么叙事是对的、我们怎么去劫持注意力，诸如此类，真的。一切的一切，就是不去做一个好产品。",
+      "timestamp": "11:54",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "Actually, it took us 18 months from 1 million to 1 billion. For Cursor, it took 24 months.",
+      "zh": "实际上，我们从 100 万到 10 亿花了 18 个月。Cursor 花了 24 个月。",
+      "timestamp": "14:33",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "Because I think today, Google and OpenAI, they pursue ads so much, but fundamentally, I think they are going to completely demolish all their prosumer subscription markets, which is $20 a month subscriptions.",
+      "zh": "因为我认为今天 Google 和 OpenAI 非常追求广告，但从根本上说，我认为它们将彻底摧毁它们所有的 prosumer 订阅市场，也就是每月 20 美元的订阅。",
+      "timestamp": "18:53",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "But still, when I look at the numbers which I have today, NRR at month 12 is over 300%. It just never happens in B2B SaaS, right?",
+      "zh": "但即便如此，当我今天看这些数字时，第 12 个月的 NRR 超过 300%。这在 B2B SaaS 里是从来没有过的，对吧？",
+      "timestamp": "21:07",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "What I need to admit, at some point of time, I really was thinking that chasing benchmarks is valuable, but I don't believe this is just sort of corporate psyops, frankly.",
+      "zh": "我需要承认的是，在某个时期，我真的认为追基准测试是有价值的，但坦白说，我不相信这个，这某种程度上是公司的心理战。",
+      "timestamp": "23:23",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "They start to kind of use leverage test data to use LLM as a judge for training of the models, use all the various tricks to basically gain benchmarks, get like quarterly bonuses and so on.",
+      "zh": "他们开始以某种方式利用测试数据，用 LLM 作为裁判来训练模型，用各种花招来刷基准，拿季度奖金之类的。",
+      "timestamp": "23:52",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "The way to think about video models today, it's just modern rendering engine. Think about this as like Unreal Engine or Unity, but just different types of inputs.",
+      "zh": "今天思考视频模型的方式，就是把它当作现代渲染引擎。把它想成类似 Unreal Engine 或 Unity，只是输入类型不同。",
+      "timestamp": "25:16",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "What's actually happening in social media marketing as companies start to print hundreds of ad creatives a week, they want to have maybe cheapest, more steerable models, because like PhD level intelligence is not necessarily needed to make viral social media video.",
+      "zh": "社交媒体营销中实际发生的情况是，当公司开始每周产出数百个广告创意时，他们想要也许更便宜、更可控的模型，因为做出爆款社交媒体视频并不一定需要博士级别的智能。",
+      "timestamp": "28:54",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "Like this month, I was, I just caught a guy who spent over 30k in a week on Astra model.",
+      "zh": "就像这个月，我刚刚抓到一个家伙，一周内在 Astra 模型上花了超过 3 万美元。",
+      "timestamp": "31:28",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "It's true that probably over 60% of customer support requests, especially the first line of defense, can be handled with AI. But when it especially comes to B2B, like AI just doesn't work.",
+      "zh": "确实，可能超过 60% 的客户支持请求，尤其是第一道防线，可以用 AI 处理。但尤其是在 B2B 方面，AI 就是不行。",
+      "timestamp": "33:52",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "So whoever can create AI-native system of records is gonna win.",
+      "zh": "所以谁能创建 AI 原生的记录系统，谁就会赢。",
+      "timestamp": "37:23",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "I largely think they're bullshit.",
+      "zh": "我基本上认为它们（护城河）是胡扯。",
+      "timestamp": "39:01",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Unfortunately, AI does not replace network effects. And when people talk about swarm of AI agents talking to each other, I'm not sure this is happening in the next five years.",
+      "zh": "遗憾的是，AI 并不能取代网络效应。当人们谈论成群的智能体互相交流时，我不确定这在未来五年内会发生。",
+      "timestamp": "39:59",
+      "speaker": "Alex Mashrabov"
+    },
+    {
+      "en": "I do believe that it's as simple as hire the best people to do the best work and figure out how to retain them. Everything else is frankly secondary.",
+      "zh": "我确实相信，答案就这么简单：雇最好的人去做最好的工作，并想清楚如何留住他们。其他一切坦率地说都是次要的。",
+      "timestamp": "50:16",
+      "speaker": "Alex Mashrabov"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "10:50",
+      "speaker": "Alex",
+      "en": "It's not just a concept from science that scaling loss work. Video just takes maybe two, three years longer than LLMs and coding, but it was clear that finally scaling loss should work in video as well, and I just decided just to take a bet.",
+      "zh": "Scaling loss 起作用不只是科学概念。视频只是比 LLM 和编程晚了两三年，但很显然它最终在视频领域也会起作用，我就决定赌一把。"
+    },
+    {
+      "timestamp": "11:54",
+      "speaker": "Alex",
+      "en": "I was so much optimizing for what's hype today, what's the right narrative, how we can hijack the attention, all these things, really. Everything instead of building a good product.",
+      "zh": "我当时过度优化的是今天什么火、什么叙事是对的、我们怎么去劫持注意力，诸如此类，真的。一切的一切，就是不去做一个好产品。"
+    },
+    {
+      "timestamp": "12:57",
+      "speaker": "Alex",
+      "en": "Like for example, we don't do any paid.",
+      "zh": "比如说，我们不做任何付费投放。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Alex",
+      "en": "Actually, it took us 18 months from 1 million to 1 billion. For Cursor, it took 24 months.",
+      "zh": "实际上，我们从 100 万到 10 亿花了 18 个月。Cursor 花了 24 个月。"
+    },
+    {
+      "timestamp": "15:18",
+      "speaker": "Alex",
+      "en": "What's very important is that we take revenue, not sales.",
+      "zh": "非常重要的一点是，我们取的是收入，不是销售额。"
+    },
+    {
+      "timestamp": "15:39",
+      "speaker": "Alex",
+      "en": "We are not taking like three-year enterprise deals and backing into like one billion figure. No, we don't do that.",
+      "zh": "我们不会拿三年的企业合同倒推出一个十亿的数字。不，我们不那样做。"
+    },
+    {
+      "timestamp": "18:53",
+      "speaker": "Alex",
+      "en": "Because I think today, Google and OpenAI, they pursue ads so much, but fundamentally, I think they are going to completely demolish all their prosumer subscription markets, which is $20 a month subscriptions.",
+      "zh": "因为我认为今天 Google 和 OpenAI 非常追求广告，但从根本上说，我认为它们将彻底摧毁它们所有的 prosumer 订阅市场，也就是每月 20 美元的订阅。"
+    },
+    {
+      "timestamp": "21:07",
+      "speaker": "Alex",
+      "en": "But still, when I look at the numbers which I have today, NRR at month 12 is over 300%. It just never happens in B2B SaaS, right?",
+      "zh": "但即便如此，当我今天看这些数字时，第 12 个月的 NRR 超过 300%。这在 B2B SaaS 里是从来没有过的，对吧？"
+    },
+    {
+      "timestamp": "23:23",
+      "speaker": "Alex",
+      "en": "What I need to admit, at some point of time, I really was thinking that chasing benchmarks is valuable, but I don't believe this is just sort of corporate psyops, frankly.",
+      "zh": "我需要承认的是，在某个时期，我真的认为追基准测试是有价值的，但坦白说，我不相信这个，这某种程度上是公司的心理战。"
+    },
+    {
+      "timestamp": "23:52",
+      "speaker": "Alex",
+      "en": "They start to kind of use leverage test data to use LLM as a judge for training of the models, use all the various tricks to basically gain benchmarks, get like quarterly bonuses and so on.",
+      "zh": "他们开始以某种方式利用测试数据，用 LLM 作为裁判来训练模型，用各种花招来刷基准，拿季度奖金之类的。"
+    },
+    {
+      "timestamp": "25:21",
+      "speaker": "Alex",
+      "en": "The way to think about video models today, it's just modern rendering engine. Think about this as like Unreal Engine or Unity, but just different types of inputs.",
+      "zh": "今天思考视频模型的方式，就是把它当作现代渲染引擎。把它想成类似 Unreal Engine 或 Unity，只是输入类型不同。"
+    },
+    {
+      "timestamp": "28:54",
+      "speaker": "Alex",
+      "en": "What's actually happening in social media marketing as companies start to print hundreds of ad creatives a week, they want to have maybe cheapest, more steerable models, because like PhD level intelligence is not necessarily needed to make viral social media video.",
+      "zh": "社交媒体营销中实际发生的情况是，当公司开始每周产出数百个广告创意时，他们想要也许更便宜、更可控的模型，因为做出爆款社交媒体视频并不一定需要博士级别的智能。"
+    },
+    {
+      "timestamp": "31:28",
+      "speaker": "Alex",
+      "en": "Like this month, I was, I just caught a guy who spent over 30k in a week on Astra model.",
+      "zh": "就像这个月，我刚刚抓到一个家伙，一周内在 Astra 模型上花了超过 3 万美元。"
+    },
+    {
+      "timestamp": "33:59",
+      "speaker": "Alex",
+      "en": "It's true that probably over 60% of customer support requests, especially the first line of defense, can be handled with AI. But when it especially comes to B2B, like AI just doesn't work.",
+      "zh": "确实，可能超过 60% 的客户支持请求，尤其是第一道防线，可以用 AI 处理。但尤其是在 B2B 方面，AI 就是不行。"
+    },
+    {
+      "timestamp": "37:23",
+      "speaker": "Alex",
+      "en": "So whoever can create AI-native system of records is gonna win.",
+      "zh": "所以谁能创建 AI 原生的记录系统，谁就会赢。"
+    },
+    {
+      "timestamp": "39:01",
+      "speaker": "Alex",
+      "en": "I largely think they're bullshit.",
+      "zh": "我基本上认为它们（护城河）是胡扯。"
+    },
+    {
+      "timestamp": "39:59",
+      "speaker": "Alex",
+      "en": "Unfortunately, AI does not replace network effects. And when people talk about swarm of AI agents talking to each other, I'm not sure this is happening in the next five years.",
+      "zh": "遗憾的是，AI 并不能取代网络效应。当人们谈论成群的智能体互相交流时，我不确定这在未来五年内会发生。"
+    },
+    {
+      "timestamp": "50:16",
+      "speaker": "Alex",
+      "en": "I do believe that it's as simple as hire the best people to do the best work and figure out how to retain them. Everything else is frankly secondary.",
+      "zh": "我确实相信，答案就这么简单：雇最好的人去做最好的工作，并想清楚如何留住他们。其他一切坦率地说都是次要的。"
+    },
+    {
+      "timestamp": "61:35",
+      "speaker": "Alex",
+      "en": "So that's why I say that momentum doesn't last forever.",
+      "zh": "所以这就是为什么我说势头不会永远持续。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Alex，是视频 AI 公司 Higgsfield 的创始人。这家公司起家不在硅谷，核心团队三百多人，大部分在哈萨克斯坦。而成绩单是这么写的：年化收入从 100 万美元做到 10 亿，Cursor 用了 24 个月，Higgsfield 只用了 18 个月。Alex 自己说，这个数字大概排在 OpenAI 和 Anthropic 之后的第三。先交代一下这个人凭什么值得听：19 岁打进竞技编程世界前三，之前创办的 AI 公司以 1.66 亿美元卖给了 Snap。这一集，是他第一次完整讲出这段几乎无人报道的故事。\n\n先说来龙去脉。Alex 的父母都是机械工程教授，从八岁起就告诉他，必须去美国，因为那是技术真正重要的地方。母亲打三份工供他参加编程竞赛。在一个来自后苏联国家的年轻人眼里，拿到国际比赛顶尖排名是唯一的突围途径。所以 19 岁拿到世界前三之后，没走学术路，直接创业——先做了当时最先进的英俄翻译系统，2018 年创办 AI Factory，押注未来人人都在手机上看 AI 生成的视频。公司卖给 Snap，人也终于搬到了硅谷。到了硅谷，观察是一半惊喜一半失望：没有人以种族国籍评判人，能见到任何人；但整个投资圈极其由共识驱动——「我以为最后那部分会有所不同」。\n\n记住这句对共识的失望，因为 Higgsfield 的故事，恰恰从差点死掉开始。种子轮融了 1600 万美元，烧掉超过 1000 万，花了一年多都没找到能成立的产品。Alex 坦白这是自己的责任，原话是：「我当时过度优化的是今天什么火、什么叙事是对的、怎么劫持注意力——一切的一切，就是不去做一个好产品。」等到账上所剩无几，团队只做了一件事：和 8 位创意总监深聊。所有人都指出同一个缺口——AI 里不存在「摄像机控制」，而这恰恰是讲故事的瓶颈。围绕这个点做产品，去年 3 月 31 日上线，立刻产品市场契合。用原话说：「产品市场契合是不是像爱情？当你知道的时候，你就知道了。」\n\n那做对了产品之后，增长是怎么跑出来的？先看几个数字。18 个月从 100 万到 10 亿美元年化收入，算法主动摊开：过去四周收入乘以 13，年订阅按 12 个月分摊，只算已生效收入，不拿三年企业合同倒推。更惊人的是客户扩张——有一位客户，六个月前每月只付 99 美元订阅费，如今签了每年超过 600 万美元的合同；第 12 个月的 NRR，也就是净收入留存，超过 300%，这在 B2B SaaS 里从未出现过。当然代价也真实：第一个月流失约 30%，之后曲线才平下来，所以用户教育仍是核心任务。还有一个反共识决定：不做任何付费投放，增长全靠自有内容和分发。团队里有 150 名创意专业人士，占员工近半。他们曾经把创作者营销外包给代理机构，结果翻车——教训就一句话：掌握分发，现在比以往任何时候都更重要。\n\n分发之外，还有一条更根本的判断，关于模型本身。Higgsfield 早期自研模型，后来收回了，Alex 直言这是自己的错。而对行业里人人追捧的基准测试，态度是直接的：「我不相信这个，这某种程度上是公司的心理战。」在大组织待过就知道会发生什么：研究员把测试数据塞进训练、用大模型当裁判刷分，为了季度奖金。旁证是 OpenRouter 的数据——美国老牌公司里唯一相关的是 Google；中国对基准痴迷较少，腾讯、小米、阿里三家都占住了位置。而且视频基准根本测不到真实工作流：他们的开源电影项目，平均提示词超过 3000 词，每个场景至少 10 张图像参考，基准测试就是不能代表这些。那不信基准，信什么？信利润率和可控性。自有模型和开源权重模型的利润率超过 80%，闭源模型只有 20% 到 30%。开源模型的份额今年从低于 30% 涨到超过 60%，因为做出爆款社交媒体视频并不一定需要博士级别的智能。更关键的是，随着智能体工作流铺开，超过 40% 的情况是 Higgsfield 替客户选模型——模型路由本身成了业务核心。\n\n这套打法落到内部，账单也吓人。全公司每月模型开销超过 400 万美元，近 400 人平摊，人均每月超过 1 万美元。最离谱的例子：一位创意人员因为受够了素材整理工具不好用，自己连着五个通宵泡在某个模型上做自动剪辑，一周烧掉超过 3 万美元——没达到生产可用，但学到了很多。至于大家最关心的「AI 会淘汰哪些岗位」，答案反直觉：原以为法务和客户支持会被大面积替代，甚至为此犯了没快速扩充团队的运营错误；如今法务 10 多人、客户成功 40 多人，全都在大量用 AI，但没有一个岗位被砍。60% 的一线客服请求 AI 能接，但 B2B 场景「AI 就是不行」；而且产品每周更新，智能体依赖的规则一周变两次，人反而更重要。\n\n把这些串起来，就是 Alex 的终局判断。第一句：「我基本上认为护城河是胡扯。」价值创造如今只有两种方式：交付结果，和网络效应——AI 并不能取代网络效应。他们的网络效应打法是开源，8 周内从 10 个种子开源项目滚到超过 1 万个。第二句更反共识：Google 和 OpenAI 追逐广告生意，会「彻底摧毁自己 20 美元档的订阅市场」——免费好用的横向产品会蚕食所有垂直订阅工具，Canva 已经在被 OpenAI 蚕食。所以 Higgsfield 的策略是：20 美元进来的用户，要推着他们走到每年 1000 美元以上，长期押注 AI 原生的记录系统——谁能让人用自然语言管理散落各处的企业内容资产，谁就赢。\n\n而这个势头背后的心态，来自 Snap 的一课：「势头不会永远持续。」当年 Snapchat 800 亿市值时觉得只管探索，现在市值低于 150 亿。所以尽管财务模型已经假设大幅减速，团队仍在争取每月 30% 的环比增长。个人代价也是真实的：每周 80 到 90 小时，三个半月里只完整陪过儿子一天；卖公司赚的第一笔 100 多万美元，全给父母亲戚买了房，自己开一辆 Tesla Model 3。支撑这一切的，还是八岁起父母给的那个信念——世界上有一个地方，好的技术产品是重要的。\n\n回头看这一集，最值得带走的一句话，还是那个烧掉 1000 万之后的醒悟：追热点、追叙事、劫持注意力，一切的一切，就是不做一个好产品——而真正的转折，是从老老实实做产品开始的。"
+}

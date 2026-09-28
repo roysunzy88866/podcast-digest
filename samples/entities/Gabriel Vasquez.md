@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":16,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":18,"Brex":5,"MidJourney":3,"OpenAI":137}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":17,"Adi":1,"Eleven Labs":7,"Cognition":19,"Vercel":18,"Brex":5,"MidJourney":3,"OpenAI":139}</script>
 
 <script>
 (function(){

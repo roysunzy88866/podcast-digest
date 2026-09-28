@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":7,"gpt 5.6":1,"Fable":10,"Anthropic":149,"open ai":2,"Codex":58,"智能体":345,"提示词":17,"原型":7,"浏览器使用":8}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":7,"gpt 5.6":1,"Fable":10,"Anthropic":150,"open ai":2,"Codex":60,"智能体":345,"提示词":17,"原型":7,"浏览器使用":8}</script>
 
 <script>
 (function(){

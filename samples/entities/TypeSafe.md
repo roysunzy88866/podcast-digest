@@ -7,25 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TypeSafe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TypeSafe">TY</div><div class="pi"><h1 class="pt">TypeSafe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TypeSafe">TY</div><div class="pi"><h1 class="pt">TypeSafe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(04:25起):嘉宾创立的公司,自称数据实验室而非模型实验室:全用合成数据、拒绝公开跑分、承诺模型部署后不改,想成为「智能界的 AWS」
+- **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(00:57起):本集介绍 TypeSafe 是 Diogo Almeida 创办的公司，定位是「为软件做 AI」——让 AI 不仅服务人在环场景，而是真正成为软件的一部分；Jev 是它的第一个模型。
+- **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(00:30起):本集说它是推出 Jev 模型的公司,其发布博客上的对照表被用来解释 Jev 与普通 LLM 的区别。
 
 ## ② 出现在这些集
 
-*1 集*
+*3 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
+- [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司
+- [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Diogo Almeida]] · [[Jev]] · [[System 1 模型]] · [[RLCD]] · [[RLHF]] · [[RLVR]] · [[模式坍缩]] · [[校准]] · [[鲁棒性]] · [[基准测试]]
+[[Jev]] · [[Diogo Almeida]] · [[Claude Code]] · [[RLHF]] · [[Codex]] · [[编码智能体]] · [[OpenAI]] · [[System 1 模型]] · [[Ben Horowitz]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":1,"Jev":1,"System 1 模型":1,"RLCD":1,"RLHF":2,"RLVR":1,"模式坍缩":1,"校准":2,"鲁棒性":1,"基准测试":13}</script>
+<script type="application/json" class="pd-epn">{"Jev":3,"Diogo Almeida":2,"Claude Code":81,"RLHF":3,"Codex":60,"编码智能体":22,"OpenAI":139,"System 1 模型":1,"Ben Horowitz":6,"LLM":45}</script>
 
 <script>
 (function(){

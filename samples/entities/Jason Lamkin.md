@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":4,"智能体":345,"无代码":1,"Figma":22,"Notion":14,"Airtable":5,"Palantir":19,"Replit":17,"ChatGPT":79}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":5,"智能体":345,"无代码":1,"Figma":22,"Notion":14,"Airtable":5,"Palantir":19,"Replit":17,"ChatGPT":80}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":79}</script>
+<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":80}</script>
 
 <script>
 (function(){

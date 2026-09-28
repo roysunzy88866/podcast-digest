@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Bruno Scott Sperka]]
+[[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]]
 
 </div>
 

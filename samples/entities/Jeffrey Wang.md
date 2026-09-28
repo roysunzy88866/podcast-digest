@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]]
+[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":3,"go-to-market":12,"智能体":345,"MCP":62,"API 优先":2,"嵌入":2,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":31}</script>
+<script type="application/json" class="pd-epn">{"Exa":3,"go-to-market":12,"智能体":345,"MCP":62,"API 优先":2,"嵌入":2,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":32}</script>
 
 <script>
 (function(){

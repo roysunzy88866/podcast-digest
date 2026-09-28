@@ -1,0 +1,130 @@
+{
+  "title_zh": "Jev 决策模型:9 美分分析 2000 个 PR 的用法全解",
+  "tldr": "How I AI 主播 Claire 演示 TypeSafe 新模型 Jev:这个只做决策、便宜到离谱的小模型怎么分类海量数据、搭配大模型解锁产品。",
+  "digest_md": "这一集是 How I AI 的「Jev 周」第一期,主角就是主播本人 Claire——她也是 ChatPRD(一个 AI 产品经理助手应用)的开发者。最近新模型扎堆发布,但她最想聊的是 TypeSafe 刚推出的 Jev:一个快速、便宜、不做「系统一决策」的模型。她说这是她最近体验过的模型里用例爆发最多的一个,过去一周用它完成了她认为价值几十万甚至上百万美元的工作,而 Jev 的 token 花费不到 10 美元(很多还被补贴,比如 Vercel 的 AI gateway 上目前免费)。\n\n## Jev 是什么:文本进,类型安全的值出\n\nClaire 用 TypeSafe 博客里的一张表来解释:左边是普通 LLM,右边是 Jev 这样的模型。两者都接收文本输入(Jev 不收图像,但收图像的文字描述),区别在输出——标准 LLM 是文本进、文本出,返回字符串;Jev 是文本进、返回「类型安全的值」,也就是从你预先定义好的选项里挑一个返回,比如「是这个或那个」「是或否」「一到十分」,非常简单 [03:00 Claire]。\n\n但它便宜和快到什么程度?其他模型每百万输出 tokens 可能收几美分到几百美元;Jev 只按输入 tokens 收费——因为它几乎什么都不输出——每百万输入 tokens 只要 4 美分 [04:09 Claire]。\n\n它擅长的是做决策,所以被称为「决策模型」:你给它一个决策,它做出一个决策。需要「聪明的 if 语句」的场景它都行——该往左还是往右?好的交给这个人、坏的转客服?它还很擅长给数据分类、跑实时场景——快到你可以把一个 LLM 放进实时循环里,用其他模型性能根本不够 [05:21 Claire]。\n\n## 它只返回三种东西\n\nJev 的返回值只有三种(文档里的 primitives 和 cookbooks 里的模式最值得看):**choice**——给它文本和一个选项列表,它挑一个,比如「约会该穿什么」的选项里有连衣裙、牛仔裤、运动服,它可能选连衣裙;**score**——打分,比如把 bug 分为外观问题、功能损坏还是阻塞,自动做严重度分诊;**null**——一种布尔变体,告诉你一个问题的答案是「是」的可能性,比如「Claire 是播客主持人吗」会返回约 99% 的「是」[06:59 Claire]。\n\n听起来简单,但 Claire 点破:如果你当过软件工程师,软件工程 90% 的工作就是这些事——返回一个选择、给东西打分、路由、说是或否 [07:06 Claire]。她自己用它做的头一件事,就是对海量、难分类但高价值的非结构化数据做分类 [07:21 Claire]。\n\n## 三个任何人都能跑的分析用例\n\n**给 PR 分类，回答「我们的工程精力花在哪了」。** 这就是她说的「三年前我真愿意花 10 万美元买的东西」[07:54 Claire]。她连接 GitHub 拉下所有 PR，用 Jev 做两两配对判断：PR A 和 PR B 是不是在处理同一个主题？注意 Jev 不会告诉你主题是什么，只会说「相关/不相关」——她靠这种海量判断做聚类。先在营销站上跑，112 个 PR 只花 1.1 美分；再在 ChatPRD 上跑：约两分钟分析了 1,700 个 PR、找出 17,000 对可匹配项，主题由 Gemini Flashlight(一个便宜的大模型)标注，总共花了整整 9 美分 [09:33 Claire]。结果直接回答了董事会总在问的问题：将近 30% 的 PR 精力投入在平台安全和基础设施上，其余分布在对话式 AI 可靠性、数据与集成、文档编辑和原型设计等方向，还能看到各方向的投入随月份上升。\n\n**分析你本地的 Claude Code / Codex 会话。** 这些会话都存在本地,可以直接对它们跑同样的分类分析。Claire 发现一月她几乎全在做工程任务,到九月工程任务已不到 40%,更多时间花在智能体协作、用 Codex 做视频、客户交付上。她说,对你桌面上这些 LLM 完全能解析的数据做元分析,基本不花钱,却能拿到以前很难获得的洞察 [12:42 Claire]。\n\n**清理 Gmail。** 第三例她没展示(涉及隐私),但做法很简单:给定邮件主题行和摘要片段,让 Jev 分类、打分「这封能不能删」,速度很快,产出干净的标签后再让另一个模型处理。\n\n## 用法核心:Jev 加一个 LLM 搭档\n\n单用 Jev 还行,Jev 配上一个 LLM 搭档就超级强大 [13:27 Claire]。她的套路是:拿一大堆信息语料,用 Jev 打标签、分类、聚类、过滤,再对正确的聚类应用精确的 AI 操作——比如只把高严重性 bug 交给大模型深度分诊,或者把「确定可删」的邮件过滤掉、用智能体处理剩下的 [13:31 Claire]。\n\n最大的一次实战是 ChatPRD 的「产品洞察图谱」:她想吸进全公司的信号数据、给出有趣洞察,用尽各种前沿模型都没做成——数据里细微差别太多,原型花了几千甚至上万美元。她说这次是用 Jev 攻克了,但关键不是 Jev 全包,而是她分清了两类活:分类、聚类、映射这些交给 Jev;分析、战略、洞察提取交给「大脑大的」Astra;内容生成交给 Sol 或 Luna 这类模型。现在系统拉进约 1,100 个原始数据源——PR、支持工单、Granola 对话、Linear 工单——做了超过 20 万次分类和成对分组,Jev 那边只花了约 4 美元(Astra 那边贵得多),产出「客户说的想要」和「实际在做的事」之间的差距及趋势,把这个产品功能变成了更赚钱的业务 [17:53 Claire]。\n\n## 两个一个下午做出来的实时应用\n\n**观众信号仪表盘。** 她接上 YouTube V3 API,拉下播客全部约 4,500 条评论,用 Jev 分类正面/负面/中性、识别哪些包含未来剧集点子(找到 58 条),再用 Astra 生成仪表盘:按集看情感(有一期 61% 正面、一期 80% 正面)、观众请求看板,还用 Jev 做了针对评论的实时搜索——输入「slop」能瞬间扫完全部 4,400 条找出相关评论。但她特别提醒别被疯传 demo 骗了:背后要把结果分批、打分、再把高分推上去,不是随手把 Jev 插中间就能秒评 4,400 条 [21:52 Claire]。\n\n**语音情绪变色引言机。** 一个接收语音的实时应用:OpenAI 实时语音 API 进来一句话,Jev 给一组预设的十六进制颜色值打分选最高分,再从引言 API 的预设过滤器里选、按情感打分,屏幕上立刻显示匹配情绪的颜色和引言。演示里「我今天恋爱了」「等不及周末了」都立刻选对了颜色和引言。本地跑还有延迟,可以靠缓存优化,但足以说明这类实时体验能怎么做。\n\n## 本集带走\n\n- **判断该不该用 Jev**:需要生成内容(写代码、聊天)用标准 LLM;需要「聪明的 if 语句」——分类、打分、路由、是或否——用 Jev,它每百万输入 tokens 只要 4 美分、几乎不输出。\n- **记住三种返回值**:choice(从选项里挑)、score(严重度/评分)、null(「是」的概率),软件工程里大部分判断逻辑都能拆成这三样。\n- **先聚类、再让大模型精修**:用 Jev 做海量「相关/不相关」判断形成聚类,用便宜大模型标注主题,只把高价值的聚类交给贵的模型深挖——9 美分就能搞清 2,000 个 PR 的精力分布。\n- **今天就能跑的两个分析**:对你本地的 Claude Code/Codex 会话做分类,看自己的时间都花哪了;对 YouTube 评论或 Gmail 做同款分类过滤。\n- **实时玩法要先做架构**:分批、打分、推高分组,别指望把 Jev 随手插中间就能秒级评估全部数据。",
+  "quotes": [
+    {
+      "en": "But if you've been a software engineer, this is like 90% of software engineering is like doing these things, returning a choice, scoring something, routing, saying yes or no.",
+      "zh": "但如果你当过软件工程师,软件工程 90% 的工作就是做这些事情,返回一个选择、给某样东西打分、路由、说是或否。",
+      "timestamp": "07:06",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "This is the one that three years ago I would have paid truly $100,000 for.",
+      "zh": "这就是三年前我真的愿意花 10 万美元买的东西。",
+      "timestamp": "07:54",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Because it has a lot more PRs, it cost me a lot more money, and by a lot more money, I mean nine whole cents.",
+      "zh": "因为它的 PR 多得多,所以花的钱也多得多,所谓多得多,我是指整整 9 美分。",
+      "timestamp": "09:33",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:20",
+      "speaker": "Claire",
+      "en": "With Jev, you're getting text in, type safe values out.",
+      "zh": "用 Jev,你是文本进,类型安全的值出。"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Claire",
+      "en": "And it is four cents per million input tokens.",
+      "zh": "而且它是每百万输入 tokens 四美分。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Claire",
+      "en": "It's like a decision model.",
+      "zh": "它就像一个决策模型。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Claire",
+      "en": "So you can put an LLM in a real time loop in a way that was not performant enough with these other models.",
+      "zh": "所以你可以把一个 LLM 放进实时循环里,用其他模型的话性能是不够的。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Claire",
+      "en": "But if you've been a software engineer, this is like 90% of software engineering is like doing these things, returning a choice, scoring something, routing, saying yes or no.",
+      "zh": "但如果你当过软件工程师,软件工程 90% 的工作就是做这些事情,返回一个选择、给某样东西打分、路由、说是或否。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Claire",
+      "en": "And the number one thing I have been using it for is classification of vast sets of unstructured data that would have been annoying to classify but is very high value.",
+      "zh": "而我一直用它做的头一件事,就是对海量非结构化数据做分类,这些数据以前分类起来很烦人,但价值非常高。"
+    },
+    {
+      "timestamp": "07:54",
+      "speaker": "Claire",
+      "en": "This is the one that three years ago I would have paid truly $100,000 for.",
+      "zh": "这就是三年前我真的愿意花 10 万美元买的东西。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Claire",
+      "en": "Because it has a lot more PRs, it cost me a lot more money, and by a lot more money, I mean nine whole cents.",
+      "zh": "因为它的 PR 多得多,所以花的钱也多得多,所谓多得多,我是指整整 9 美分。"
+    },
+    {
+      "timestamp": "12:42",
+      "speaker": "Claire",
+      "en": "All this data that's sitting on your desktop that LLMs can totally parse, it will cost you basically no money and give you a lot of insight that I think previously would have been hard to get.",
+      "zh": "所有这些放在你桌面上的数据,LLM 完全可以解析,基本上不花什么钱,而且能给你很多洞察,我觉得以前这些洞察是很难获得的。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Claire",
+      "en": "Jev with an LLM buddy is super powerful.",
+      "zh": "Jev 加上一个 LLM 搭档就超级强大。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Claire",
+      "en": "So what I like to do with Jev is I like to take a big corpus of information, tag it, categorize it, cluster it, filter it, and then apply really precise AI actions to the right clusters.",
+      "zh": "所以我喜欢用 Jev 做的事情是,拿一大堆信息语料,打标签、分类、聚类、过滤,然后对正确的聚类应用非常精确的 AI 操作。"
+    },
+    {
+      "timestamp": "15:09",
+      "speaker": "Claire",
+      "en": "And I think I cracked this baby with Jev.",
+      "zh": "而我觉得我用 Jev 攻克了这个小宝贝。"
+    },
+    {
+      "timestamp": "17:37",
+      "speaker": "Claire",
+      "en": "And it has taken about 1100 raw sources of data and done over like 200,000 classification and pairwise groupings.",
+      "zh": "它拿走了大约 1100 个原始数据源,做了超过 20 万次分类和成对分组。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Claire",
+      "en": "And it probably cost me four bucks on the JEV side.",
+      "zh": "而且 Jev 那边大概只花了我四块钱。"
+    },
+    {
+      "timestamp": "18:47",
+      "speaker": "Claire",
+      "en": "How you have to build it and how it works to get that real time effect.",
+      "zh": "你必须怎么构建它,以及它是怎么运作才能达到那种实时效果的。"
+    },
+    {
+      "timestamp": "21:52",
+      "speaker": "Claire",
+      "en": "I don't want to pretend like Jev, you just like slap Jev in the middle and evaluate all 4,400 that quickly.",
+      "zh": "我不想假装说 Jev,你只是把 Jev 随手插在中间就能那么快地评估全部 4400 条。"
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Claire",
+      "en": "And I have probably spent sub $10 on JEV tokens.",
+      "zh": "而我大概只花了不到 10 美元的 JEV tokens。"
+    }
+  ],
+  "voice_script": "今天这一期有点特别，主角就是主播本人 Claire。她不光做这档 How I AI 节目，还是一个叫 ChatPRD 的 AI 产品经理助手的开发者，所以她聊模型，不是纸面测评，是真的拿它干活的人。最近新模型扎堆发布，但她最想聊的是 TypeSafe 刚推出的一个叫 Jev 的模型——一个快速、便宜、专门做决策的小模型。她说这是她最近用过的模型里，用例爆发最多的一个：过去一周用它完成了她认为价值几十万甚至上百万美元的工作，而 token 花费不到 10 美元，很多还被补贴，比如在 Vercel 的 AI gateway 上目前免费。\n\n那 Jev 到底是个什么东西？说白了，普通的大语言模型是文本进、文本出，你问它一句，它回你一段话。Jev 不一样，它是文本进，返回一个\"类型安全的值\"——意思是从你预先定义好的选项里挑一个还给你，比如\"是这个还是那个\"、\"是或否\"、\"一到十分打分\"。它不接受图像，但接受图像的文字描述。就这一点区别，带来了离谱的便宜：其他模型每百万输出 tokens 可能收几美分到几百美元，而 Jev 几乎什么都不输出，只按输入收费，每百万输入 tokens 只要 4 美分。它擅长做决策，所以被称为决策模型——凡是需要\"聪明的 if 语句\"的场景，该往左还是往右、好的交给这个人、坏的转客服、给数据分类、跑实时场景，它都行，快到你可以把它放进实时循环里，这是其他大模型性能根本做不到的。\n\n它的返回值其实只有三种。第一种叫 choice，给它文本加一个选项列表，它挑一个，比如问\"约会该穿什么\"，选项有连衣裙、牛仔裤、运动服，它可能选连衣裙。第二种叫 score，打分，比如把 bug 分成外观问题、功能损坏还是阻塞，自动做严重度分诊。第三种是 null，一种布尔变体，告诉你一个问题的答案是\"是\"的可能性有多大，比如\"Claire 是播客主持人吗\"，会返回约 99% 的\"是\"。听起来简单得不像话，但 Claire 点破了：如果你当过软件工程师，你就会知道，软件工程 90% 的工作就是这些事——返回一个选择、给东西打分、路由、说是或否。她自己拿它做的头一件事，就是对海量、难分类但高价值的非结构化数据做分类。\n\n具体怎么干？她给了三个任何人都能跑的分析例子。第一个是给 GitHub 上的 PR 分类，回答\"我们的工程精力到底花在哪了\"。她说，这就是三年前她真愿意花 10 万美元买的东西。做法是拉下所有 PR，用 Jev 做两两配对判断：这两个 PR 是不是在处理同一个主题？注意，Jev 不会告诉你主题是什么，只会说相关或不相关，她靠海量这种判断来做聚类。先在营销站上跑，112 个 PR 只花 1.1 美分；再在 ChatPRD 上跑，大约两分钟分析了 1700 个 PR、找出 17000 对可匹配项，主题由一个便宜的大模型 Gemini Flashlight 来标注，总共花了整整 9 美分。结果直接回答了董事会总在问的问题：将近 30% 的 PR 精力投在平台安全和基础设施上，其余分布在对话式 AI 可靠性、数据与集成、文档编辑和原型设计这些方向，还能看到各方向投入随月份的变化。\n\n那这个思路还能用在哪儿？凡是本地有现成数据的地方都行。第二个例子，就是分析本地的 Claude Code 和 Codex 会话。这些会话都存在本地，直接对它们跑同样的分类。Claire 发现自己一月几乎全在做工程任务，到九月工程任务已不到 40%，更多时间花在智能体协作、做视频、客户交付上。对桌面上的这些数据做元分析，基本不花钱，却能拿到以前很难获得的洞察。第三个例子是清理 Gmail——涉及隐私没现场展示，但做法很简单：给邮件主题行和摘要片段，让 Jev 分类、打分\"这封能不能删\"，产出干净的标签后再交给另一个模型处理。\n\n这三个例子背后，其实是同一套用法，也是这一集最核心的方法：单用 Jev 还行，Jev 配上一个 LLM 搭档就超级强大。套路是，拿一大堆信息语料，先用 Jev 打标签、分类、聚类、过滤，再对正确的聚类应用精确的 AI 操作——比如只把高严重性 bug 交给大模型深度分诊，把确定可删的邮件过滤掉、用智能体处理剩下的。最大的一次实战是 ChatPRD 的产品洞察图谱：她想吸进全公司的信号数据、产出洞察，用尽各种前沿模型都没做成，原型花了几千甚至上万美元。这次她分清了两类活：分类、聚类、映射交给 Jev；分析、战略、洞察提取交给\"大脑大的\"Astra；内容生成交给 Sol 或 Luna 这类模型。系统现在拉进约 1100 个原始数据源，包括 PR、支持工单、Granola 对话、Linear 工单，做了超过 20 万次分类和成对分组，Jev 那边只花了约 4 美元，产出的是\"客户说的想要\"和\"实际在做的事\"之间的差距及趋势，把这个产品功能变成了更赚钱的业务。\n\n速度快和便宜，还解锁了一类新东西——实时应用。她一个下午做了两个。一个是观众信号仪表盘：接上 YouTube API，拉下播客全部约 4500 条评论，用 Jev 分类正面负面中性、识别包含未来剧集点子的评论，找到 58 条，再用 Astra 生成按集看情感的仪表盘，还做了针对评论的实时搜索，输入一个词，瞬间扫完全部 4400 条找出相关的。但她特别提醒，别被疯传的 demo 骗了：背后要把结果分批、打分、再把高分推上去，不是随手把 Jev 插中间就能秒评 4400 条。另一个是语音情绪变色引言机：语音进来一句话，Jev 给一组预设的十六进制颜色值打分选最高分，再按情感从引言过滤器里选，屏幕上立刻显示匹配情绪的颜色和引言——\"我今天恋爱了\"、\"等不及周末了\"，都立刻选对了。\n\n最后帮你把判断标准收一下：需要生成内容，比如写代码、聊天，用标准 LLM；需要分类、打分、路由、是或否这种\"聪明的 if 语句\"，就用 Jev，每百万输入 tokens 只要 4 美分。先聚类、再让大模型精修，只把高价值的部分交给贵的模型深挖——9 美分就能搞清 2000 个 PR 的精力分布。今天就能上手试的，是你本地的编码会话、YouTube 评论或者 Gmail。说到底，软件工程九成的工作就是做选择、打分、路由、说是或否——而现在这件事，只要 4 美分一百万次。"
+}

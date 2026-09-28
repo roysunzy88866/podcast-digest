@@ -1,0 +1,1018 @@
+{
+  "episode_id": "2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett",
+  "podcast": "The a16z Show",
+  "date": "2026-09-28",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "软件工程",
+    "创业与行业",
+    "AI 行业趋势"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.792,
+            67.2
+          ],
+          "quote": "In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "cohost",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.792,
+            67.2
+          ],
+          "quote": "In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diogo-almeida",
+      "type": "person",
+      "role": "cohost",
+      "name": "Diogo Almeida",
+      "file": "Diogo Almeida",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.792,
+            67.2
+          ],
+          "quote": "In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "typesafe",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe",
+      "file": "TypeSafe",
+      "primary": true,
+      "how_described": "本集介绍 TypeSafe 是 Diogo Almeida 创办的公司，定位是「为软件做 AI」——让 AI 不仅服务人在环场景，而是真正成为软件的一部分；Jev 是它的第一个模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.792,
+            67.2
+          ],
+          "quote": "In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            95.981,
+            100.49
+          ],
+          "quote": "And beneath all of this is the question that drove Diogo to build TypeSafe in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            107.551,
+            118.118
+          ],
+          "quote": "Today, we have the founder and leader of TypeSafe, Diogo, with us, who is a bit of a hero to both Martine and me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            130.266,
+            136.307
+          ],
+          "quote": "Maybe you can give us a brief on what is JEV, what is TypeSafe, why is it important?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            175.368,
+            178.47
+          ],
+          "quote": "But TypeSafe is making AI for software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 204,
+          "t": [
+            792.576,
+            799.18
+          ],
+          "quote": "So tell us about that and like what this, because for us, you know, TypeSafe, Jev, it's more than a company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "type": "company",
+      "role": "company",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集把 Jev 描述为放进代码里的一个新原语：像一个库，用自然语言描述你想要什么、给它一个状态机，它就会以一定置信度选择要做什么；发布后在开发者圈爆火，Diogo 强调「可靠性就是这个东西的本质」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.792,
+            67.2
+          ],
+          "quote": "In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            73.417,
+            82.383
+          ],
+          "quote": "JEV is aimed at expanding what software itself can do, giving developers a new primitive for turning natural language intent into decisions that programs can actually use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            130.266,
+            136.307
+          ],
+          "quote": "Maybe you can give us a brief on what is JEV, what is TypeSafe, why is it important?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            143.329,
+            153.992
+          ],
+          "quote": "So, I was actually asked for like an elevator pitch, which I tend to ramble on and I don't do well, but like I realized my favorite elevator pitch for JEV is where the fuck is all the automation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            315.717,
+            321.102
+          ],
+          "quote": "And the thing with JEV is, whether or not you're a Cloud Coder or a human, you have this new primitive",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            426.398,
+            429.461
+          ],
+          "quote": "And it's similar to the, is Jev just a classifier argument?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            430.001,
+            432.143
+          ],
+          "quote": "Jev is absolutely a classifier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            446.095,
+            459.026
+          ],
+          "quote": "And what I'm seeing is happening now is that Jev, actually, my guess is that Jev probably is better than having an MLE team from 2019 making the stuff for you and you can just program it on the fly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 204,
+          "t": [
+            792.576,
+            799.18
+          ],
+          "quote": "So tell us about that and like what this, because for us, you know, TypeSafe, Jev, it's more than a company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            813.685,
+            817.968
+          ],
+          "quote": "It's like an ML-level concern while everyone else is having a JEV party.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            909.117,
+            918.459
+          ],
+          "quote": "And all JEV users are like, there's the happy AI, the people on JEV, and then there's the morose AI, the people who are not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1407.023,
+            1414.766
+          ],
+          "quote": "And I think that people will just make new kinds of work, hence the Jev in Jevons, new kinds of work once that stuff is doable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1668.424,
+            1675.311
+          ],
+          "quote": "honor of reliability will be to get to the point when people can program against JEV without making example queries.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1705.653,
+            1708.638
+          ],
+          "quote": "Codex builds all the software for me, but it doesn't actually use JEV.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1720.595,
+            1728.4
+          ],
+          "quote": "Do you see a future where it's like the coding agents using JEV and then you're telling the coding agents and then do you have like redundancy or do you feel it's like human symbolism?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1728.42,
+            1731.282
+          ],
+          "quote": "This is more of like a coding agent question than it is a JEV question.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1961.326,
+            1970.949
+          ],
+          "quote": "You know, like, I feel like they are always, like, something mapping natural language that usually the software already has into, like, a JEV-like output.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2182.612,
+            2188.673
+          ],
+          "quote": "I actually think it's going to be, like, with the same, like, you could also call Jev, like, neuropsychology AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2317.073,
+            2319.635
+          ],
+          "quote": "When you think about like you're working on Jev and like...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集主线的追问「到底他妈的自动化都在哪儿？」——AI 聪明得难以置信，却连得来速和客服（OpenAI 从 2020 年试到现在）都搞不定；Diogo 认为行业一直在优化「人类裁判觉得好」而不是自动化本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.695,
+            1.896
+          ],
+          "quote": "Where the fuck is all the automation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            101.191,
+            104.898
+          ],
+          "quote": "If AI is already this smart, where is all the automation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            143.329,
+            153.992
+          ],
+          "quote": "So, I was actually asked for like an elevator pitch, which I tend to ramble on and I don't do well, but like I realized my favorite elevator pitch for JEV is where the fuck is all the automation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 36,
+          "t": [
+            184.374,
+            191.258
+          ],
+          "quote": "And Jiv to us is our first model in this whole space to make it way, way better to like make automation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            216.614,
+            218.556
+          ],
+          "quote": "And then how does that lead to real automation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            360.939,
+            366.941
+          ],
+          "quote": "I will jump into one thing first, which is I love the first thing you said in the direction of where the fuck is all the automation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            876.385,
+            879.846
+          ],
+          "quote": "And like, part of the pain is, you know, on the where the fuck is all the automation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            926.069,
+            934.294
+          ],
+          "quote": "And to your automation point, I had a funny conversation this morning with David George, who runs our growth fund, because we're talking about the new tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            958.044,
+            971.348
+          ],
+          "quote": "I think that if we were going to be really intellectually honest and we are really aiming for the North Star of automation, we cannot fall into the same anti-patterns that AI has fallen into, which is really focusing on outliers and demos, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1255.785,
+            1263.951
+          ],
+          "quote": "But because humans evaluate how good the models are, it looks really good because they are the judge, but we've been optimizing that judge instead of the automation part.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说 Claude Code、Codex 这类编码智能体很棒，写的是「即时软件」，但产出仍是十年前同构的代码；它们擅长语法、不擅长语义、架构上糟糕得难以置信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 419,
+          "t": [
+            1711.101,
+            1718.392
+          ],
+          "quote": "Or you can be like, okay, I, as a human being, I will write the software without using a coding agent, but I've got this very generalized primitive that makes running software easier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1728.42,
+            1731.282
+          ],
+          "quote": "This is more of like a coding agent question than it is a JEV question.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1853.133,
+            1855.153
+          ],
+          "quote": "I didn't know where you might be the coding agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "smart-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能软件 (smart software)",
+      "file": "智能软件",
+      "primary": true,
+      "how_described": "本集说 Diogo 想要的不是自动化软件工程，而是「智能软件」：拓展软件本身能做的事，让本该可自动化的东西真正变得可自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            17.422,
+            20.164
+          ],
+          "quote": "What I want instead is smart software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            241.864,
+            244.607
+          ],
+          "quote": "What I want instead is smart software.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可靠性 (reliability)",
+      "file": "可靠性",
+      "primary": true,
+      "how_described": "本集强调「可靠性就是这个东西的本质」，并给出分层：uptime/SLA、确定性（只对单元测试有用）、稳健性（每次同样聪明），再到「每次都聪明得可以被理解」；最高目标是开发者不跑示例查询就敢针对 Jev 编程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.124,
+            94.993
+          ],
+          "quote": "They get into why reliability matters more than impressive demos, what a new era of probabilistic programming could look like, and why AI might make existing software dramatically more useful rather than simply replacing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1556.853,
+            1562.096
+          ],
+          "quote": "Like, the amount I care about reliability is, um, it's, it's a lot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1562.216,
+            1564.798
+          ],
+          "quote": "Like, reliability is what this thing is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1571.643,
+            1581.19
+          ],
+          "quote": "I feel like every nine of reliability is going to be so valuable for everyone, even if it's not the most valuable thing market cap wise, because it will just enable new applications.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1581.33,
+            1597.622
+          ],
+          "quote": "And like we are fighting for like all sorts of like weird nines of reliability that like we don't even fully understand because we are just like, you know, like really getting this like electric motor of AI, of intelligence, like into people's like workstations and they can figure out what to do with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1597.882,
+            1599.623
+          ],
+          "quote": "What does reliability mean in this context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1599.704,
+            1608.13
+          ],
+          "quote": "Is this just like availability of the model or is it like I call the model and it returns the same thing or like how do I think about reliability?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1668.424,
+            1675.311
+          ],
+          "quote": "honor of reliability will be to get to the point when people can program against JEV without making example queries.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2470.758,
+            2472.659
+          ],
+          "quote": "Really, really care about reliability.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": true,
+      "how_described": "本集讲 Diogo 在 OpenAI 做 RLHF 时对模型泛化能力非常惊喜（用「冥想前吃袜子」这类问题测试），后来模型没成为 AGI、他的「整个世界观崩塌」，由此催生了本集的自动化之问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1076.08,
+            1083.361
+          ],
+          "quote": "And honestly, I was not even, I was very, very pleasantly surprised by the generalization capabilities of RLHF.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1154.904,
+            1156.208
+          ],
+          "quote": "RLHF generalizes pretty well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1245.078,
+            1252.263
+          ],
+          "quote": "And then since RLHF, the industry just like kind of bifurcated into gigantic over-promise under-deliver.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "classifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类器 (classifier)",
+      "file": "分类器",
+      "primary": true,
+      "how_described": "面对「Jev 不就是个分类器吗」的质疑，本集里 Diogo 回应「Jev 绝对是个分类器，而分类器很棒——分类器的设计目的就是有用」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            426.398,
+            429.461
+          ],
+          "quote": "And it's similar to the, is Jev just a classifier argument?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            430.001,
+            432.143
+          ],
+          "quote": "Jev is absolutely a classifier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1035.006,
+            1049.852
+          ],
+          "quote": "You're talking about like, you want to focus on the task and like, but like, so I just like, you know, was this like, did you know that this is going to end up being a classifier or was this just an intuition that like, there's just kind of another way to view this entire kind of AI movement, you know?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "state-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "状态机 (state machine)",
+      "file": "状态机",
+      "primary": true,
+      "how_described": "本集描述 Jev 的用法：用自然语言描述意图、给它一个状态机，它以置信度选择要做什么；Ben 总结为「把自然语言理解嫁接到状态机上」，意味着应用会因此拥有全新功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            345.576,
+            357.999
+          ],
+          "quote": "Yeah, think of like a library that you can use natural language to describe what you want and you give it kind of a state machine and then it will choose what to do with some confidence levels, which we kind of haven't really had before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            479.998,
+            487.482
+          ],
+          "quote": "Or do you think like this is like the point in the design space, which is language in, kind of state machine out, which is going to solidify as the general purpose thing for programmers?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2087.12,
+            2097.648
+          ],
+          "quote": "Like apps will have new functionalities as a result of this because there is this new primitive that you're providing that, I mean, like in a way, like it speaks natural languages and it can reason, but it marries that to a state machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2444.654,
+            2454.062
+          ],
+          "quote": "I think this is the first time I have seen when someone was like, actually, you can take an LLM, you can take AI, and you can actually map it to like a state machine, and you can do that productively.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-per-dollar",
+      "type": "concept",
+      "role": "concept",
+      "name": "每美元智能 (intelligence per dollar)",
+      "file": "每美元智能",
+      "primary": true,
+      "how_described": "本集说这是 Diogo 设计 Jev 的北极星指标——从「AI 驱动的经济革命」往回推导：未来绝大部分 AI 调用发生在程序内部构造里，而非供人类消费的聊天。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            502.147,
+            504.267
+          ],
+          "quote": "But like intelligence per dollar is my North Star right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2341.329,
+            2353.337
+          ],
+          "quote": "And like when I think of AI, I mean, like when I think of AI, and this is why I care about intelligence per dollar, to be clear, when I think and how I got to this conclusion, I work backwards from AI-based economic revolution.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "saspocalypse",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS 末日 (Saspocalypse)",
+      "file": "SaaS 末日",
+      "primary": true,
+      "how_described": "本集讲编码智能体问世时 SaaS 估值跌穿地板，而 Jev 问世后每家 SaaS 公司都说这是最伟大的东西；Diogo 预言能力层面会是一场「反向 Saspocalypse」，SaaS 将是 AI 游戏最大赢家之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            48.185,
+            56.952
+          ],
+          "quote": "In the Saspocalypse story… AI can write software, but what if the bigger opportunity is putting intelligence inside the software itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1828.256,
+            1842.706
+          ],
+          "quote": "Like in the Saspocalypse story, the story that I feel like has panned out really poorly is that software is very cheap and perhaps easy to replicate, which I think I could believe the former.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1905.449,
+            1916.193
+          ],
+          "quote": "I'm not going to forecast anything about the financial markets, but I think as far as, like, capabilities games goes, it's going to be like an inverse saspocalypse, and I am so jazzed about it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "probabilistic-programming",
+      "type": "concept",
+      "role": "concept",
+      "name": "概率编程 (probabilistic programming)",
+      "file": "概率编程",
+      "primary": true,
+      "how_described": "本集里 Martin 提出这门学科的巨大历史基本在 70 年代就消亡了，而 Jev 这类原语可能开启一个完整的概率编程新时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.124,
+            94.993
+          ],
+          "quote": "They get into why reliability matters more than impressive demos, what a new era of probabilistic programming could look like, and why AI might make existing software dramatically more useful rather than simply replacing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2165.304,
+            2174.93
+          ],
+          "quote": "I think automate the easy work before the hardware is always my philosophy, but I also think there's going to be an entire era of probabilistic programming that's opened up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2176.791,
+            2180.292
+          ],
+          "quote": "By the way, you know there's a huge history of probabilistic programming that basically died in, like, the 70s.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Diogo 曾在 OpenAI 做 RLHF；并举例 OpenAI 从 2020 年起就一直尝试自动化客服至今没成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            14.381,
+            16.622
+          ],
+          "quote": "OpenAI has been trying to automate customer service since 2020.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            706.44,
+            707.761
+          ],
+          "quote": "And from there, OpenAI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            733.318,
+            735.26
+          ],
+          "quote": "And I joined OpenAI because of that reason.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1175.795,
+            1185.718
+          ],
+          "quote": "So I'm just wondering, like... Oh, well, actually, early, early, like, 2020 OpenAI, when we talked about AGI, people used to describe it as Ilya in every if statement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1186.539,
+            1195.591
+          ],
+          "quote": "So it's not, it's kind of like, but like, part, we were talking about OpenAI culture, part of it is that it's like intentionally vague.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1208.429,
+            1212.392
+          ],
+          "quote": "I do think that what OpenAI defined as AGI is extremely doable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1424.87,
+            1427.651
+          ],
+          "quote": "OpenAI has been trying to automate customer service since 2020.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集把 Jev 类比为「面向开发者的 ChatGPT」，其爆火完全出乎预料。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1068.778,
+            1071.538
+          ],
+          "quote": "I think that this really started right before ChatGPT.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1162.39,
+            1170.093
+          ],
+          "quote": "AGI in... Well, I was just saying more, I mean, like, you know, you were behind ChatGPT, you were behind these early GPTs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1515.778,
+            1526.568
+          ],
+          "quote": "Like, it is, I don't think someone could expect a ChatGPT for developers, because ChatGPT was for, you know, like, you know, the normal users.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集作为编码智能体的代表被提及：写代码很快，但产出的仍是和人类一样的老式代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            208.309,
+            214.673
+          ],
+          "quote": "Then how does that, because everybody thinks of, well, we've got Claude Code, we've got Codex, don't we already have that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            226.133,
+            228.855
+          ],
+          "quote": "So I like Claude Code and Codex.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集与 Claude Code 并列提及，引用 Gary Tan 的说法称之为「即时软件」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            208.309,
+            214.673
+          ],
+          "quote": "Then how does that, because everybody thinks of, well, we've got Claude Code, we've got Codex, don't we already have that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            226.133,
+            228.855
+          ],
+          "quote": "So I like Claude Code and Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            296.382,
+            308.792
+          ],
+          "quote": "Yeah, yeah, so this is, by the way, I just think so many people miss this point, and it's such a subtle point, and it's so important to actually tease it out, which is, if you use something like Cloud Coder Codex, which is great, or Cursor, which is great, they write code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1705.653,
+            1708.638
+          ],
+          "quote": "Codex builds all the software for me, but it doesn't actually use JEV.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SoftBank</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SoftBank">SO</div><div class="pi"><h1 class="pt">SoftBank</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SoftBank">SO</div><div class="pi"><h1 class="pt">SoftBank</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(32:20起):本集提到 SoftBank 在 2015 年通过 Masa 向 SoFi 投资十亿美元，Masa 在 IMAX 屏幕上说'如果不拿，我就给你的竞争对手'，这种造王（kingmaking）策略在 Brex 也发生过。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(109:31起):本集说 SoftBank 账面持有约 1000 亿美元 OpenAI 股票，如果 OpenAI 上不了市，SoftBank 将被迫缩水，成为连锁反应的一环。
 - **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(00:50起):Arm 的最大股东,Rene 直接向孙正义汇报,主导 Ampere、Graphcore、StackAV 方向,参与机器人、OpenAI、基础设施、Arm 四大战略,并宣布要做 neocloud,可为芯片创业公司提供设计归宿。
+- **[[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]]**(55:29起):本集说它是 Masa 领导的最大投资人:出租车里 12 分钟谈出 42 亿投资,后提出 200 亿现金收购又因股价下跌告吹,最终注资救场并接管公司
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为被讨论公司
+- [[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[OpenAI]] · [[Harry Stebbings]] · [[Michael Tannenbaum]] · [[Anthropic]] · [[Elad]] · [[Andrew MacDonald]]
+[[推理]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[OpenAI]] · [[Harry Stebbings]] · [[Michael Tannenbaum]] · [[Anthropic]] · [[Elad]] · [[Adam Neumann]]
 
-<script type="application/json" class="pd-epn">{"推理":56,"智能体":345,"Meta":35,"NVIDIA":45,"OpenAI":137,"Harry Stebbings":19,"Michael Tannenbaum":1,"Anthropic":149,"Elad":1,"Andrew MacDonald":1}</script>
+<script type="application/json" class="pd-epn">{"推理":56,"智能体":345,"Meta":35,"NVIDIA":45,"OpenAI":139,"Harry Stebbings":19,"Michael Tannenbaum":1,"Anthropic":150,"Elad":1,"Adam Neumann":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":39,"Stripe Projects":2,"OpenAI":137,"Anthropic":149,"Lovable":17,"HubSpot":9,"智能体":345,"编码智能体":21,"vibe coding":40}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":39,"Stripe Projects":2,"OpenAI":139,"Anthropic":150,"Lovable":17,"HubSpot":9,"智能体":345,"编码智能体":22,"vibe coding":41}</script>
 
 <script>
 (function(){

@@ -1,0 +1,662 @@
+{
+  "episode_id": "2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-28",
+  "tags": [
+    "视频 AI",
+    "增长与商业化",
+    "开源模型",
+    "分发与创作者营销",
+    "创业心法"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "alex-mashrabov",
+      "type": "person",
+      "role": "host",
+      "name": "Alex Mashrabov",
+      "file": "Alex Mashrabov",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "higgsfield",
+      "type": "company",
+      "role": "company",
+      "name": "Higgsfield",
+      "file": "Higgsfield",
+      "primary": true,
+      "how_described": "本集主角：哈萨克斯坦 300 人团队的视频 AI 公司，18 个月从 100 万做到 10 亿美元年化收入，靠摄像机控制切入并押注自有内容与分发增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            37.839,
+            41.785
+          ],
+          "quote": "Higgsfield, this is the story that no one has told in startups yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            76.57,
+            83.371
+          ],
+          "quote": "Now, Higgsfield, rumored to be raising at an $8 billion price, has just crossed a billion in revenue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            443.498,
+            459.145
+          ],
+          "quote": "So yeah, so the company was called AI Factory, was fortunate to meet Mahi 2018, he's co-founder of Higgsfield, and he's like a veteran of Silicon Valley, went through ups and downs, and sold it to Snap for 166 million.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1184.746,
+            1194.973
+          ],
+          "quote": "And I do believe that that's why for at Higgsfield, what really matters for us is how we, even if we get someone on like $20 month subscription, how can we show them value?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2319.962,
+            2325.405
+          ],
+          "quote": "That's why at Higgsfield, we invested so much in harness so that it improves over the time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snap",
+      "type": "company",
+      "role": "company",
+      "name": "Snap",
+      "file": "Snap",
+      "primary": true,
+      "how_described": "Alex 上一家公司 AI Factory 的买家（1.66 亿美元）；他由此学到核心一课——势头不会永远持续，Snap 市值已从 800 亿跌到 150 亿以下",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            64.927,
+            76.31
+          ],
+          "quote": "One of, like, the most talented computer programmers competing in competitions from a, like, super, super early age, and then building a company that he sold to Snap for over $160 million.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            440.032,
+            443.137
+          ],
+          "quote": "And so that was the company that we built before that you sold to Snap?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            443.498,
+            459.145
+          ],
+          "quote": "So yeah, so the company was called AI Factory, was fortunate to meet Mahi 2018, he's co-founder of Higgsfield, and he's like a veteran of Silicon Valley, went through ups and downs, and sold it to Snap for 166 million.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            544.035,
+            546.196
+          ],
+          "quote": "So then we have sold to Snap.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3695.254,
+            3697.396
+          ],
+          "quote": "So what's the biggest lesson from Snap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3700.158,
+            3703.56
+          ],
+          "quote": "Today's Snap market cap is below 15 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3752.923,
+            3761.39
+          ],
+          "quote": "What is the reason why the divergence between Meta's market cap and Snap's market cap has increased so significantly, if there was one reason?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3768.953,
+            3771.075
+          ],
+          "quote": "Snap, unfortunately, is part of that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "作为增速对比被提及：Cursor 用 24 个月从 100 万到 10 亿，Higgsfield 只用了 18 个月",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.018,
+            18.739
+          ],
+          "quote": "For Cursor, it took 24 months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            49.735,
+            51.017
+          ],
+          "quote": "It even surpassed Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            879.514,
+            881.235
+          ],
+          "quote": "For Cursor, it took 24 months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1650.448,
+            1659.261
+          ],
+          "quote": "So, first of all, whenever, to be honest, whenever someone says, we build our own models, very likely what they mean is something what's happened with Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2090.833,
+            2091.874
+          ],
+          "quote": "Are they on Cursor?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "收入口径对标对象，也被认为会因追广告生意摧毁 20 美元档 prosumer 订阅市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            881.775,
+            886.518
+          ],
+          "quote": "So we are probably, probably like the thirds after OpenAI and Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            914.23,
+            918.293
+          ],
+          "quote": "From what I know, OpenAI, Anthropic, Lavable, all of them use the same methodology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1133.845,
+            1149.129
+          ],
+          "quote": "Because I think today, Google and OpenAI, they pursue ads so much, but fundamentally, I think they are going to completely demolish all their prosumer subscription markets, which is $20 a month subscriptions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1170.185,
+            1177.309
+          ],
+          "quote": "A lot of the low-hanging fruit on the consumer design side that Canva used to serve can now be done in OpenAI in particular.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1712.455,
+            1719.321
+          ],
+          "quote": "Look, I do believe that just because the capitalism works, I mean, OpenAI, Anthropic, Steel are going to have more than 50% of the markets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2134.526,
+            2145.556
+          ],
+          "quote": "In three years' time, will it be like, oh, Gemini this week, oh, Anthropic this week, oh, OpenAI this week, or will we see a reduction in model release rate",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2148.859,
+            2154.702
+          ],
+          "quote": "I believe, like, for example, recently OpenAI announced that they basically build OpenAI for law, but that's only V0.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2196.938,
+            2203.76
+          ],
+          "quote": "You can't just say I'm OpenAI, yep, we've just hacked into the Australian government, by the way, but we're here to serve your law firm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2325.785,
+            2335.028
+          ],
+          "quote": "And this harness also allows, it basically learns visual style over the time, which, let's say, Claude and OpenAI cannot necessarily do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "被列为收入规模排在其前的两家公司之一，也采用同样的年化收入计算方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            881.775,
+            886.518
+          ],
+          "quote": "So we are probably, probably like the thirds after OpenAI and Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            914.23,
+            918.293
+          ],
+          "quote": "From what I know, OpenAI, Anthropic, Lavable, all of them use the same methodology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1712.455,
+            1719.321
+          ],
+          "quote": "Look, I do believe that just because the capitalism works, I mean, OpenAI, Anthropic, Steel are going to have more than 50% of the markets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2134.526,
+            2145.556
+          ],
+          "quote": "In three years' time, will it be like, oh, Gemini this week, oh, Anthropic this week, oh, OpenAI this week, or will we see a reduction in model release rate",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "type": "company",
+      "role": "company",
+      "name": "Canva",
+      "file": "Canva",
+      "primary": false,
+      "how_described": "被引为水平化 AI 产品蚕食垂直订阅工具的例子：其消费端设计的低垂果实正被 OpenAI 蚕食",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1167.024,
+            1170.105
+          ],
+          "quote": "You're seeing it cannibalize Canva's growth, if you're honest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1170.185,
+            1177.309
+          ],
+          "quote": "A lot of the low-hanging fruit on the consumer design side that Canva used to serve can now be done in OpenAI in particular.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2287.084,
+            2297.109
+          ],
+          "quote": "So in our space, there are definitely other companies like Adobe and Canva, who builds the best software for the pixel first era, where everything was defined with pixels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3775.899,
+            3776.94
+          ],
+          "quote": "You mentioned Canva.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "Alex 称基准测试某种程度上是公司的心理战：研究员把测试数据塞进训练、用 LLM 当裁判刷分换季度奖金；视频基准（文本到视频）完全测不到真实工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1420.632,
+            1422.133
+          ],
+          "quote": "So we need to have some benchmark.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型份额今年从低于 30% 涨到超 60%，因为爆款社交媒体视频不需要博士级智能；Higgsfield 跑后训练的开源模型利润率超 80%，闭源只有 20-30%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 356,
+          "t": [
+            1700.912,
+            1708.297
+          ],
+          "quote": "That's why OpenRouter reports that share of open source models went from below 30 to over 60 within this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1751.902,
+            1766.252
+          ],
+          "quote": "And that's where we actually have seen that we get 80% plus margin whenever we run open source models, like post-trained open source models, but it can be way more cost efficient for our end customer compared to the proprietary models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说 3 月到 6 月全公司（含创意团队）都在用 Claude 做 vibe coding，6 月中又集体迁到 Codex，且认为这种迁移是周期性的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            1883.492,
+            1888.419
+          ],
+          "quote": "What actually started to happen is the creative team started to do vibe coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2102.832,
+            2109.058
+          ],
+          "quote": "And that's where we actually started to see creative team vibe coding functionality, which we don't have in production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tokenomics",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokenomics",
+      "file": "tokenomics",
+      "primary": true,
+      "how_described": "Higgsfield 对模型路由业务的叫法：客户要完成的工作量固定，你优化所需 token 数量、为其挑选最高效的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 375,
+          "t": [
+            1811.245,
+            1814.186
+          ],
+          "quote": "Yeah, we call it tokenomics essentially, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "本集说 AI 并不能取代网络效应，智能体互相通信未来五年内未必发生；他们靠开源项目（8 周从 10 个滚到 1 万个）构建人们互相利用产出的雪球",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            2396.599,
+            2398.88
+          ],
+          "quote": "And the second thing is network effects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2399.38,
+            2402.081
+          ],
+          "quote": "Unfortunately, AI does not replace network effects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2436.511,
+            2441.012
+          ],
+          "quote": "Like seeing these type of network effects, I believe can become a mode over the time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发 (distribution)",
+      "file": "分发",
+      "primary": true,
+      "how_described": "外包创作者营销翻车后的教训：「掌握分发，现在比以往任何时候都更重要」——付费投放可以不做，分发渠道绝不能外包",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            832.393,
+            838.935
+          ],
+          "quote": "Look, I think the main takeaway from like our experience is that it's very important to own distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            839.175,
+            840.775
+          ],
+          "quote": "Distribution now more important than ever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1376.868,
+            1382.231
+          ],
+          "quote": "So you're saying the growth in consumer subscription is through own content and distribution?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2580.338,
+            2585.282
+          ],
+          "quote": "And we become infrastructure to essentially build distribution for direct-to-consumer businesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2680.06,
+            2688.942
+          ],
+          "quote": "There is so much IP, so many products coming from Asia, and they all try to figure out distribution direct to consumer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 880,
+          "t": [
+            4009.511,
+            4011.911
+          ],
+          "quote": "But what matters is distribution over the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4012.051,
+            4012.872
+          ],
+          "quote": "Distribution matters.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native-system-of-records",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生记录系统 (AI-native system of records)",
+      "file": "AI 原生记录系统",
+      "primary": true,
+      "how_described": "本集说谁能让人用自然语言搜索、管理散落在 Dropbox/Google Drive/Frame.io 的内容资产并控制品牌语义，谁就赢——这也是他们重投 harness 的原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 469,
+          "t": [
+            2243.103,
+            2247.106
+          ],
+          "quote": "So whoever can create AI-native system of records is gonna win.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "moat",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":149,"Claude Code":79,"ClaudeTag":1,"Fable":10,"Slack":29,"Bun":3,"Rust":4,"Gemini":10}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":150,"Claude Code":81,"ClaudeTag":1,"Fable":10,"Slack":29,"Bun":3,"Rust":4,"Gemini":10}</script>
 
 <script>
 (function(){

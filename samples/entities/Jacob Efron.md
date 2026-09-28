@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":137,"Anthropic":149,"TSMC":6,"LLM":44,"基础模型":6,"AI 编程":4,"算力扩展":1,"网络效应":12,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":139,"Anthropic":150,"TSMC":6,"LLM":45,"基础模型":6,"AI 编程":4,"算力扩展":1,"网络效应":13,"AGI":26}</script>
 
 <script>
 (function(){

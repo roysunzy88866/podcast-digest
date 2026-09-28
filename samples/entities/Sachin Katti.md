@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"OpenAI":137,"数据中心":15,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":56,"GPU":18,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"OpenAI":139,"数据中心":15,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":56,"GPU":18,"核能":1}</script>
 
 <script>
 (function(){

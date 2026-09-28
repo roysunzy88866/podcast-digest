@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Martin Casado</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Martin Casado">MA</div><div class="pi"><h1 class="pt">Martin Casado</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Martin Casado">MA</div><div class="pi"><h1 class="pt">Martin Casado</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*18 条*
+*19 条*
 
 ![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q1]]
 
@@ -49,22 +49,25 @@ unlisted: true
 
 ![[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio#^q3]]
 
+![[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett#^q14]]
+
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为主持
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为主持
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为联合主持
 - [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|《Atlas:让 AI 预测世界的下一个视角》]] — 作为联合主持
+- [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[SpaceX]] · [[缩放定律]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]] · [[Justin Johnson]]
+[[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[Claude Code]] · [[SpaceX]] · [[缩放定律]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":137,"Anthropic":149,"Cursor":69,"Microsoft":25,"SpaceX":18,"缩放定律":9,"Sophia Du":4,"Steven Sinofsky":2,"Sarah Wang":3,"Justin Johnson":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":139,"Anthropic":150,"Cursor":70,"Microsoft":25,"Claude Code":81,"SpaceX":18,"缩放定律":9,"Sophia Du":4,"Steven Sinofsky":2,"Sarah Wang":3}</script>
 
 <script>
 (function(){

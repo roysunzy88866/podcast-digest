@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":18,"LLVM":1,"Python":5,"vibe coding":40,"CI-CD":13,"Palantir":19}</script>
+<script type="application/json" class="pd-epn">{"Mario":2,"Revel":1,"SpaceX":18,"LLVM":1,"Python":5,"vibe coding":41,"CI-CD":13,"Palantir":19}</script>
 
 <script>
 (function(){

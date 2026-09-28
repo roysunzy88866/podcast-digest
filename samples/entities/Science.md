@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Science</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Science">SC</div><div class="pi"><h1 class="pt">Science</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Science">SC</div><div class="pi"><h1 class="pt">Science</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,7 +16,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*10 条*
+*11 条*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
 
@@ -38,6 +38,8 @@ unlisted: true
 
 ![[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#^q8]]
 
+![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q1]]
+
 ## ② 出现在这些集
 
 *2 集*
@@ -51,7 +53,7 @@ unlisted: true
 
 [[Max Hodak]] · [[Neuralink]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":2,"Neuralink":2,"Anthropic":149,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":2,"Neuralink":2,"Anthropic":150,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
 
 <script>
 (function(){

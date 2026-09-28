@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":149,"智能体":345,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":17,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":150,"智能体":345,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":17,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

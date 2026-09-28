@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":21,"开源模型":21,"沙箱":62,"智能体":345,"推理":56,"Docker":4,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":21,"开源模型":22,"沙箱":62,"智能体":345,"推理":56,"Docker":4,"GPU":18}</script>
 
 <script>
 (function(){

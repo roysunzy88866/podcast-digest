@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":345,"vibe coding":40,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":8,"一人独角兽":1,"提示词":17}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":345,"vibe coding":41,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":8,"一人独角兽":1,"提示词":17}</script>
 
 <script>
 (function(){

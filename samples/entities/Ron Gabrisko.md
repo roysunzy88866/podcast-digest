@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Max Levchin]] [[Andrew Antos]]
+[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Max Levchin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":15,"数据科学智能体":4,"Spark":2,"a16z":16,"Cursor":69,"Palantir":19,"托管服务":1,"开源":27,"按用量定价":4,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"Databricks":15,"数据科学智能体":4,"Spark":2,"a16z":17,"Cursor":70,"Palantir":19,"托管服务":1,"开源":27,"按用量定价":4,"企业销售":3}</script>
 
 <script>
 (function(){

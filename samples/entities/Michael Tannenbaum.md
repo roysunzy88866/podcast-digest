@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":5,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":4,"Meta":35}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":5,"Kiavi":1,"高管心态":1,"市场":3,"区块链":2,"分词":4,"SoftBank":5,"Meta":35}</script>
 
 <script>
 (function(){

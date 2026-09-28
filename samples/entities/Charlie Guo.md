@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":137,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":58,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":139,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":60,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
 
 <script>
 (function(){

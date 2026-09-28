@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":5,"Horowitz and Andreessen Academy":1,"a16z":16,"AI 革命":1,"通过构建来学习":1,"教育捆绑包":1,"人际技能":1,"潜移默化":1,"Z 世代":1,"营利性":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":6,"Horowitz and Andreessen Academy":1,"a16z":17,"AI 革命":1,"通过构建来学习":1,"教育捆绑包":1,"人际技能":1,"潜移默化":1,"Z 世代":1,"营利性":1}</script>
 
 <script>
 (function(){
