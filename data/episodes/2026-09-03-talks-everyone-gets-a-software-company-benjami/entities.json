@@ -1,0 +1,439 @@
+{
+  "episode_id": "2026-09-03-talks-everyone-gets-a-software-company-benjami",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "个人云",
+    "智能体",
+    "自托管",
+    "技术封建主义",
+    "SaaS 替代"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "benjamin-guo",
+      "type": "person",
+      "role": "guest",
+      "name": "Benjamin Guo",
+      "file": "Benjamin Guo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "zocomputer",
+      "type": "company",
+      "role": "company",
+      "name": "ZoComputer",
+      "file": "ZoComputer",
+      "primary": true,
+      "how_described": "本集说 ZoComputer 是位于布鲁克林 Bushwick 的公司，使命是「给人们在互联网上一个真正的家」，产品 Zo 已上线约一年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.587,
+            15.148
+          ],
+          "quote": "I'm Ben from ZoComputer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            177.807,
+            179.387
+          ],
+          "quote": "ZoComputer is based in Brooklyn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            885.419,
+            886.679
+          ],
+          "quote": "I'm Ben from ZoComputer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zo",
+      "type": "company",
+      "role": "company",
+      "name": "Zo",
+      "file": "Zo",
+      "primary": true,
+      "how_described": "本集说 Zo 是「一台内置 AI 的个人服务器 / 个人云」：你在云上有自己的家，放自己的文件和 AI，可托管网站、API 等任意服务，有 root 权限，简单到不懂技术的人（潜水教练、父母）也能用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.388,
+            17.109
+          ],
+          "quote": "I just posted on X from my Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.129,
+            22.012
+          ],
+          "quote": "I'll be giving away $100 in the AI credits, and I do all sorts of stuff with my Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            24.833,
+            26.294
+          ],
+          "quote": "My Zo is my computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            52.429,
+            54.67
+          ],
+          "quote": "This is my computer that you see right here, my Zo computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            55.65,
+            59.031
+          ],
+          "quote": "And this talk is about kind of Zo and a lot of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            59.071,
+            68.394
+          ],
+          "quote": "It's also about kind of personal agents, personal cloud agents in particular, which Zo is one instance of and kind of the future and where I see all of this going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            73.936,
+            75.117
+          ],
+          "quote": "I'm the co-founder of Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            338.838,
+            345.343
+          ],
+          "quote": "And for me, I have this Zo computer, this cloud computer as well, which has my Zo agent on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            411.336,
+            413.297
+          ],
+          "quote": "Zo is meant to be a simpler way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            430.881,
+            434.243
+          ],
+          "quote": "And she's already on track to make $100,000 on Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            443.647,
+            445.868
+          ],
+          "quote": "And now she's replaced all of that with Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            462.429,
+            468.451
+          ],
+          "quote": "To this, so Anthia not only hosts her retreat website on Zo on a custom domain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            558.792,
+            560.775
+          ],
+          "quote": "Our recruiter uses Zo as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            562.437,
+            566.582
+          ],
+          "quote": "He's rebuilding a whole stack for his recruiting agency on Zo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            830.249,
+            842.917
+          ],
+          "quote": "And at Zo, we believe really strongly in changing the way that things work and giving people and companies more ownership over their cloud and over their intelligence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "personal-cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人云 (personal cloud)",
+      "file": "个人云",
+      "primary": true,
+      "how_described": "本集说「我们以前从没真正有过个人云」：你在云上拥有自己的地方，把自己的东西和 AI 放进去，还能在里面托管服务，全部归你所有——与被 SaaS 锁死的模式相对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            59.071,
+            68.394
+          ],
+          "quote": "It's also about kind of personal agents, personal cloud agents in particular, which Zo is one instance of and kind of the future and where I see all of this going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            303.932,
+            305.733
+          ],
+          "quote": "Zoe is a personal cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            306.193,
+            308.334
+          ],
+          "quote": "We've never really had a personal cloud before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            329.47,
+            335.735
+          ],
+          "quote": "And I think for people in this room, if you're interested in Claude and personal agents, your personal cloud might look something more like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            359.214,
+            362.216
+          ],
+          "quote": "And that, collectively, is my personal cloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "techno-feudalism",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术封建主义 (techno-feudalism)",
+      "file": "技术封建主义",
+      "primary": true,
+      "how_described": "本集用它诊断互联网的结构性问题：我们向 SaaS 提供商交租，SaaS 向云提供商交租，云向「国王」（大概是 NVIDIA）交租；用户不拥有任何东西、被锁定、数据被变现，所以仍是「农奴」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            203.234,
+            205.415
+          ],
+          "quote": "It's what we call techno-feudalism.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主张未来我们主要与智能体互动，且多数智能体会跑在云端；Zo 可作为 OpenClaw、Hermes 等个人智能体的家，并可让 Zo 智能体替你购物、管账、发短信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            338.838,
+            345.343
+          ],
+          "quote": "And for me, I have this Zo computer, this cloud computer as well, which has my Zo agent on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            577.454,
+            583.316
+          ],
+          "quote": "You can have a really nicely set up server to host your personal agent in if you use one of those tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            772.218,
+            779.784
+          ],
+          "quote": "So Claude Tag is newly out, and Claude Tag is actually, if you think about it, a cloud agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            847.742,
+            862.428
+          ],
+          "quote": "Anybody, a company or an individual should be able to publish agents and own them and have end users and like have the end usage of their agent improve, like self-improve their own kind of published agent and that is the future that we're building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            863.088,
+            884.178
+          ],
+          "quote": "We have a kind of beta version of this, so I'm going to go back to this ZoSpace and scan this QR code, finally, if you want to talk to me, get AI credits, sign up for the beta of this kind of new agent publishing platform, and yeah, also you can check out all the speakers that are presenting on this ZoSpace page.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-feudalism",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能封建主义 (intelligence feudalism)",
+      "file": "智能封建主义",
+      "primary": true,
+      "how_described": "本集用公司级 Claude 举例：你不断改进自己的智能体配置，真正变好的却是 Anthropic——「箭头指错了方向」，智能以错误方向向上冒，你的公司仍是农奴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            815.592,
+            817.815
+          ],
+          "quote": "And this is intelligence feudalism.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-hosting",
+      "type": "concept",
+      "role": "concept",
+      "name": "自托管 (self-hosting)",
+      "file": "自托管",
+      "primary": false,
+      "how_described": "本集说 Anthea 的一切都是自托管的：网站、文件直接从她的个人服务器托管，像早年间用 FTP 直接把文件传上服务器那样「永远实时操作」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            534.77,
+            536.592
+          ],
+          "quote": "And she is self-hosting everything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集把 SaaS 提供商描绘成技术封建主义的收租层：服务锁定用户、越变越糟、把数据锁死再卖回给你；Anthea 取消了 Squarespace、Calendly 等订阅全部换成 Zo。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            218.684,
+            225.529
+          ],
+          "quote": "We pay rent to the SaaS providers, who pay rent to the cloud providers, who pay rent to the kings, who are probably NVIDIA these days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            402.551,
+            409.655
+          ],
+          "quote": "You're kind of just navigating between these different AIs and devices and SaaS services, and it's very confusing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            434.903,
+            443.107
+          ],
+          "quote": "She used to use all of these different SaaS services to run her business and her life, like Squarespace, like Calendly, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            445.908,
+            448.129
+          ],
+          "quote": "She's canceled all of those SaaS subscriptions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

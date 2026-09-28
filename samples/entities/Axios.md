@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jim VandeHei]] · [[Bob Safian]] · [[OpenAI]] · [[ChatGPT]] · [[Claude]] · [[Google]] · [[Anthropic]] · [[智能体]] · [[认知疲劳]]
 
-<script type="application/json" class="pd-epn">{"Jim VandeHei":1,"Bob Safian":6,"OpenAI":137,"ChatGPT":79,"Claude":69,"Google":49,"Anthropic":148,"智能体":342,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Jim VandeHei":1,"Bob Safian":6,"OpenAI":137,"ChatGPT":79,"Claude":70,"Google":49,"Anthropic":149,"智能体":345,"认知疲劳":1}</script>
 
 <script>
 (function(){

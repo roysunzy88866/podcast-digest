@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-03-talks-your-company-brain-will-leak-secrets-how",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/0uC6u0lJJl4.m4a",
+  "duration_sec": 1574.904,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 376,
+  "asr": true,
+  "title_en": "Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "added": "2026-09-28",
+  "added_at": "2026-09-28T01:08:43.887Z",
+  "speaker_map": {
+    "SPEAKER_00": "Tanmai Gopal"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Tanmai Gopal"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "公司大脑会泄密：如何培育一个不漏底的公司知识库",
+  "guest_name": "Tanmai Gopal",
+  "guest_title": "PromptQL CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

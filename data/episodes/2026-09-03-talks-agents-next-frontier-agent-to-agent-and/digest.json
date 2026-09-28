@@ -1,0 +1,166 @@
+{
+  "title_zh": "智能体对智能体？其实是个搜索问题",
+  "tldr": "Town 联合创始人兼 CTO Jean Denis（前 Plaid CTO）主张多智能体协作本质是上下文搜索问题，并拆解五种跨信息孤岛共享数据的策略及其隐私权衡。",
+  "digest_md": "这一集是 Jean Denis 的演讲。他是 Town 的 CTO，之前在 Plaid 做了七年 CTO，再往前在 Dropbox，现在在做面向普通人的助理智能体。他本来要讲「智能体对智能体」（agent to agent）协作，但开场就推翻了自己的题目：他认为这个概念意义不大，真正值得讨论的是——大多数 LLM 系统本质上就是一个**搜索问题**。\n\n所谓搜索问题是指：在你向用户返回结果、或发起一次工具调用之前，你要确保上下文窗口（即 LLM 单次调用能看到的信息范围）里装着正确的信息。信息对了，以模型现有的智能水平，你就会得到最好的结果。这个方向的演进是：四年前靠人类手动填充上下文 → 几年前流行 RAG（用检索工具跨系统拉数据进来）→ 现在是智能体式搜索：给智能体一堆工具，让它在全部内容空间里自己搜，直到它恰好拥有做对下一次工具调用所需的内容。注意，这整个过程里**没有任何人**，只有那一次真正重要的 LLM 调用。你要工程化的就是这个系统。\n\n## 理想状态：一个能看到一切的智能体\n\n那这跟多智能体有什么关系？他让你想象这样一个世界：世界上只有一个智能体，它只有一个上下文窗口，却能访问宇宙中的所有信息——任何人的邮件、任何公司、任何政府的数据，全都摆在窗口里，前面放上你的系统提示词。它就会给你最优的结果。而这「实际上就是一个多智能体世界」——只是恰好由一个能看到一切的智能体实现。这是事物的理想状态。\n\n问题在于它不可能存在。这里他引了经济学里的科斯定理（大意：只要信息完全、没有交易成本，谈判就能达成经济上最优的结果）。现实中我们没法把全世界的上下文都开放给 LLM——即使有无限长的上下文窗口也不行，因为隐私和安全：你是人，我不会让你看我的邮箱，所以我也不可能接受一个智能体永远看着我的邮箱。但如果那样的智能体存在，它会非常非常强大。\n\n于是他给出**多智能体系统的测试标准**：它对那个「全能智能体」逼近得有多好？如果你能在上下文窗口里获得与一个能访问全世界数据的完美系统相同的数据，你就能得到最优结果。接下来他讲了五种逼近这个理想的策略。\n\n## 策略一：信任边界内近似访问一切\n\n最直接的做法：在一条信任边界内，让智能体访问边界内的一切。他自己的例子：他和太太共用一个智能体，能看两个人的全部邮箱，包括结婚前的邮件——她不会问那些，但会问「你有没有给孩子安排那件事」「有没有跟进第三方的事」，这很棒。工作场景的版本是一个 HR 团队智能体，权限相当于 HR 团队里级别最低的员工，HR 团队所有人都能问它，效果相当好。这种做法现在非常流行，尤其受 IT 和安全团队欢迎，因为它和安全领域的 SaaS 是同一个模式。\n\n但他认为它有一个根本性问题：它**不会随时间变好**。系统不会自然地需要更少的人，数据也不会随着模型变好而自动打破孤岛——因为孤岛的边界是有人思考过才划出来的，你只是创建了新孤岛。他的原话很冲：「如果这是你打造更好 AI 的方法，接下来几年你会完蛋的。」随即道歉，但补了一句：「不过没关系，你完蛋就是我的机会。」这不是终局思路。\n\n## 策略二：在能力与隐私之间做不同权衡的工具\n\n更聪明一点的做法：造一些工具，让人不用交出全部数据、也能获得跨孤岛的价值。用例：我想知道「我公司里谁和 Acme Corp 财务团队的人有联系」。打破孤岛的粗暴做法是让我看全公司的 Gmail——显然不行。替代方案是造一个工具：它可以看所有人的 Gmail，但**只返回一个关系强度分数**。你给它一个域名和目标角色（比如 CFO），它扫一遍全公司发给那家公司的邮件、排名打分、把分数返回。智能体拿到分数后，用 Slack 找上 Bob：「我看到你和 Acme 的 CFO Jane 有联系，能帮我起草一封引荐邮件吗？」然后就办成了。\n\nTown 自己也对一些高频用户场景采用这个思路，他们问自己的问题是：什么样的隐私保护工具是所有用户都能接受存在的（可以退出，但有天然网络效应，因为以一种有趣的方式打破孤岛）？另一个例子：让销售同事直接在你的收件箱里以你的名义起草邮件——反正他们也要请你帮忙做引荐，不如省掉几次点击。\n\n问题依然是：它是**手动的、不是动态的**——人类要思考造什么工具，还要向每个人解释这个隐私/权力权衡正在发生，人们可能不买账。而且它同样不会随 AI 变好而变好。\n\n## 策略三：共享孤岛（与清扫 AI）\n\n第三类超级流行但主要在单用户场景，跨团队的版本是一个**共享孤岛**：在公司内部、或公司的子群体内部，创建一个新的数据积累之地（比如 wiki、Airtable），随着时间往里放越来越多的东西，所有智能体都能访问。于是那些本来可以共享、却被困在私人孤岛里的信息，会自动过滤流入这个公共空间。具体形态如共享技能：代码仓库里大家共享的技能文件，某人写了更好的数据库性能分析技能，下次谁遇到查询慢就用上，每个人都成了更好的工程师。\n\n他认为下一个版本是**清扫 AI（sweeper AI）**——他说如果这个演讲里有一个好想法，就是这个：在每个私人孤岛里放一个 AI，它有一套「什么必须留在孤岛内」的策略，还有一份对所有共享空间的描述；在一天结束时，它查看孤岛里的新信息，把可以共享的放进公司级公共空间。这和你们每个人让 AI 在一天结束时为你构建的个人 wiki 是一回事，只是到了公司层面。\n\n难点在于怎么决定哪些私人信息可以共享。他认为有两条路：一是询问人类——LLM 列出要贡献的内容清单，问你「把这个放进共享空间你介意吗」，你扫一眼说行，反正你自己本来也不会去做这件事；二是让 LLM 来执行一项政策。他认为事情很快会朝后者发展：「在未来六个月内，我们会看到一堆这样的系统：公司把一项政策托付给 LLM，让它自动把越来越多的、原本私密的信息披露到公开空间里。」财富 500 强短期内不会，但 10 到 50 人的高信任小公司——滥用风险低、哪些数据不能共享也一目了然（基本就是财务和 HR 数据）——会大量出现这种做法。这里很酷的一点是，它真的能改善系统在常见工作上的表现轨迹。\n\n## 策略四：人作为信息管道\n\n第四种很显而易见：这就是传统意义的智能体对智能体。我的智能体问你的智能体「谁和 Acme 财务团队有联系」，你作为人看到请求、批准它去查你的邮件、再批准把结果发回去。大问题在于：对那种只有少数人才掌握信息的请求，你等于把请求群发给了所有人——在一家 100 人的公司里，为了一个问题，100 个人都在 Slack 上被 ping，被请求批准去开发自己的个人人脉。效率很低。\n\n## 策略五：黑箱方法（最强大，实践中还很少见）\n\n更好的版本是他认为非常强大但实践中还没怎么见到的**黑箱方法**：当一个问题只能靠查看别人孤岛里的数据才能回答时，让一个**执行轨迹无人能访问**的 LLM 拿到所有数据并找到答案——关键在后半步——它回看「做出那个工具调用需要哪些信息」，然后**只向拥有那些信息的人**请求批准。还是那个例子：请求自动发到全公司每个人的智能体，各自在 Gmail 和私有孤岛里查是否与 CFO 有联系，这一步全自动、无人工批准；黑箱里的智能体拿到 20 个有联系的人的名单，从邮件上下文判断 Bob 联系最强，然后只问 Bob 一句：「Jean Denis 想让你把他介绍给 Acme 的 CFO Jane，我可以把这一点信息分享给他吗？」Bob 点个同意，没多大点事。\n\n前提是你必须信任这个黑箱：相信可以打通所有孤岛给一个完全访问的 LLM，它直到「分享时刻」之前都不请求许可。在公司内部这并非做不到，安全和合规团队可以接受——只要人工介入的环节正确，且不让其他信息随最后一个答案泄漏出去。但噩梦场景依然存在：有人故意问「你是不是和另一家公司的招聘人员有联系」，来套出你在别处面试。所以即使有黑箱，也可能不经意泄露本不该泄露的信息，必须认真设计。\n\n## 风险与终局：越来越 auto\n\n风险方面：恶意内容可能藏在一个较开放的孤岛里，被智能体检索出来就会出事；共享 wiki 很容易脱轨——一条因模型犯错而产生的错误信息会永远污染整个库。他自己就有一个个人 wiki 至今坚信他的智能体叫 Apex，尽管一个月前就改名 Ivy 了，某个记忆库深处的旧名字就是删不掉；名字错了好笑，换成一条关于你业务的严重错误信息就难办了。如果任何步骤都没有人工参与，就会出现误报和错误披露——有时有人因此被解雇，有时客户会起诉你。还有：黑箱不能真正是黑箱，公司里总有人（比如 CISO 团队）要在某个时候审计它，所以必须有人能访问全部数据。\n\n他判断的终局：隐私这块会重演编程领域走过的路——过去每一步都要人批准，然后大家说 YOLO 活得冒险一点，现在 Anthropic 的 auto 模式会判断你什么时候犯傻。跨孤岛的信息共享会一样：先适应低敏感度信息被提取进公共空间，另设一个永远需要人工批准的高敏感区；随着 LLM 变强、安全策略编码得更好，会越来越 auto。妙处在于：**如果你这样设计系统，它会随模型能力一起扩展**。他的建议很具体：一定要定义一个低敏感度区域，让 LLM 在里面做判断；随着时间推移这个区域会变大，你的系统自然越来越强——「这正是你想要的，因为你想要在海滩上。」\n\n## 网络效应与跨公司的可能性\n\n收尾他回到最初命题：这五种策略（信任边界、自定义工具、共享孤岛、人在回路、黑箱版人在回路）都非常强大。公司内部很快会跑通，最大的问题是我们对「隐私方面的 auto 模式」有多放心。而真正有意思、他也没有答案的问题是：**能不能让多家公司同意让一个共同的智能体在其信息孤岛之间工作**。他透露世界上有一家不点名公司在做金融方向，拉了不少投资银行——对贷款等用途而言，共享关于私营公司的私密数据对它们有好处，它们已开始信任彼此的智能体在以前属于私密的信息之间工作，由智能体决定什么可以访问。一旦找到跨公司的用例，那就是向这个方向推进的滩头阵地。最后他留下一句坦白：作为一个人类，他不知道自己是否信任一个由智能体做所有隐私决定的未来——「我只是觉得，无论好坏，事情正朝这个方向发展。」\n\n## 本集带走\n\n- **把多智能体问题当搜索问题想**：评判标准只有一个——你的上下文窗口能否逼近「一个能访问全世界数据的智能体」所能获得的信息；逼近得越好，结果越优。\n- **警惕「信任边界内全量访问」这类方案**：它现在好用、安全团队爱它，但它需要人维护、不会随模型变强而变好——按他的说法，几年内会过时。\n- **优先造「隐私保护型工具」**：让工具看到全部数据、只返回脱敏的结果（如关系强度分数），能力与隐私的权衡就完全不同了。\n- **最值得立刻抄的是清扫 AI**：在每个私人孤岛里放一个执行共享策略的 AI，每天把可共享的信息自动搬进公司级共享空间；小公司可以直接让 LLM 执行政策，而不是事事问人。\n- **用黑箱方法解决「群发请求」的低效**：先让无人审计轨迹的 LLM 跨所有孤岛找答案，只在最后的「分享时刻」向真正拥有信息的那一个人要批准。\n- **设计成「随模型能力扩展」的系统**：现在就划定一个低敏感度区域交给 LLM 判断，区域会随模型变强自动长大——不要把系统建在需要越来越多人的路径上。",
+  "quotes": [
+    {
+      "en": "Most LLM systems are just a search problem.",
+      "zh": "大多数 LLM 系统本质上就是一个搜索问题。",
+      "timestamp": "01:22",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "You still need humans to think about all the data, and you don't get magical de-siloification of your data.",
+      "zh": "你仍然需要人来思考所有的数据，而且你的数据不会神奇地被打破孤岛。",
+      "timestamp": "05:39",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "So the problem with this is I do think if this is your approach to building better AI, you're gonna be fucked in the next couple years.",
+      "zh": "所以问题在于，我真的认为如果这是你打造更好 AI 的方法，接下来几年你会完蛋的。",
+      "timestamp": "05:49",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "But that's okay, you're fucked is my opportunity.",
+      "zh": "不过没关系，你完蛋就是我的机会。",
+      "timestamp": "05:57",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "And I think in the next six months we'll have a bunch of systems where companies have trusted an LLM with a policy to automatically surface more and more information that otherwise would have been private into a public space.",
+      "zh": "我认为在未来六个月内，我们会看到一堆这样的系统：公司把一项政策托付给 LLM，让它自动把越来越多的、原本属于私密的信息披露到公开空间里。",
+      "timestamp": "11:12",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "So you can still sometimes with the black box inadvertently get information out that you shouldn't be able to.",
+      "zh": "所以即使是在黑箱里，你有时仍然会不经意地泄露本不该能泄露出去的信息。",
+      "timestamp": "15:19",
+      "speaker": "Jean-Denis Greze"
+    },
+    {
+      "en": "I think if I were to bet on one that has immediate ROI that we're going to all see in both open source claw-ish worlds and in small companies, it's going to be the wiki that's automatically created by AI, the information base that's kept up to date.",
+      "zh": "我想，如果要我押注一个能带来即时 ROI、并且我们在开源的 Claude 类世界和小公司里都会看到的方向，那就是由 AI 自动创建的 wiki，也就是保持更新的信息库。",
+      "timestamp": "15:32",
+      "speaker": "Jean-Denis Greze"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:22",
+      "speaker": "Jean Denis",
+      "en": "Most LLM systems are just a search problem.",
+      "zh": "大多数 LLM 系统本质上就是一个搜索问题。"
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Jean Denis",
+      "en": "It's just one LLM call, like the one that matters, having the right context.",
+      "zh": "只是一次 LLM 调用，就是那一次真正重要的调用，要拥有正确的上下文。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Jean Denis",
+      "en": "And that actually is a multi-Asian world.",
+      "zh": "而这实际上就是一个多智能体世界。"
+    },
+    {
+      "timestamp": "03:17",
+      "speaker": "Jean Denis",
+      "en": "And the problem comes from cellular economics, something called the Coase theorem, and it says that basically even humans, if they all have access to all the right information and there's no transaction costs, we get the economically ideal outcome out of a contract or a negotiation.",
+      "zh": "这个问题来自经济学里的一个东西，叫科斯定理，它说的基本上是：即便是人类，如果他们都拥有所有正确的信息、并且不存在交易成本，我们从一份合同或一场谈判中就能得到经济上理想的结果。"
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Jean Denis",
+      "en": "So I think this is like, this is the test for a multi-agent system, which is how well does it approximate this?",
+      "zh": "所以我觉得这就是对一个多智能体系统的测试：它对这个理想状态的逼近程度有多好？"
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Jean Denis",
+      "en": "You still need humans to think about all the data, and you don't get magical de-siloification of your data.",
+      "zh": "你仍然需要人来思考所有的数据，而且你的数据不会神奇地被打破孤岛。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Jean Denis",
+      "en": "So the problem with this is I do think if this is your approach to building better AI, you're gonna be fucked in the next couple years.",
+      "zh": "所以问题在于，我真的认为如果这是你打造更好 AI 的方法，接下来几年你会完蛋的。"
+    },
+    {
+      "timestamp": "05:57",
+      "speaker": "Jean Denis",
+      "en": "But that's okay, you're fucked is my opportunity.",
+      "zh": "不过没关系，你完蛋就是我的机会。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Jean Denis",
+      "en": "It's not the good endgame way to think about it.",
+      "zh": "但它不是终局的好的思考方式。"
+    },
+    {
+      "timestamp": "08:21",
+      "speaker": "Jean Denis",
+      "en": "It's manual because humans need to think about the tools.",
+      "zh": "说它手动，是因为人类需要去思考这些工具。"
+    },
+    {
+      "timestamp": "10:08",
+      "speaker": "Jean Denis",
+      "en": "It's a sweeper AI.",
+      "zh": "它是一个清扫 AI。"
+    },
+    {
+      "timestamp": "11:12",
+      "speaker": "Jean Denis",
+      "en": "And I think in the next six months we'll have a bunch of systems where companies have trusted an LLM with a policy to automatically surface more and more information that otherwise would have been private into a public space.",
+      "zh": "我认为在未来六个月内，我们会看到一堆这样的系统：公司把一项政策托付给 LLM，让它自动把越来越多的、原本属于私密的信息披露到公开空间里。"
+    },
+    {
+      "timestamp": "12:40",
+      "speaker": "Jean Denis",
+      "en": "So that's why there's a better version of it, which this is very powerful, but I haven't seen it in practice much.",
+      "zh": "所以才有一个更好的版本，这个方法非常强大，但我在实践中还没怎么见到。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Jean Denis",
+      "en": "The important thing is you have to trust the black box.",
+      "zh": "关键在于你必须信任这个黑箱。"
+    },
+    {
+      "timestamp": "15:19",
+      "speaker": "Jean Denis",
+      "en": "So you can still sometimes with the black box inadvertently get information out that you shouldn't be able to.",
+      "zh": "所以即使是在黑箱里，你有时仍然会不经意地泄露本不该能泄露出去的信息。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Jean Denis",
+      "en": "I think if I were to bet on one that has immediate ROI that we're going to all see in both open source claw-ish worlds and in small companies, it's going to be the wiki that's automatically created by AI, the information base that's kept up to date.",
+      "zh": "我想，如果要我押注一个能带来即时 ROI、并且我们在开源的 Claude 类世界和小公司里都会看到的方向，那就是由 AI 自动创建的 wiki，也就是保持更新的信息库。"
+    },
+    {
+      "timestamp": "18:44",
+      "speaker": "Jean Denis",
+      "en": "And the cool thing about auto, by the way, is if you design your systems that way, it'll scale with model capacity.",
+      "zh": "顺便说一句，auto 的妙处在于，如果你按这种方式设计你的系统，它会随模型能力一起扩展。"
+    },
+    {
+      "timestamp": "19:02",
+      "speaker": "Jean Denis",
+      "en": "And get okay with that, and then magically, as time goes on, it'll get bigger, and your system will naturally get more powerful, which is what you want, because you want to be on a beach.",
+      "zh": "接受这一点，然后神奇的是，随着时间推移，这个区域会变大，你的系统自然会更强大，这正是你想要的，因为你想要在海滩上。"
+    },
+    {
+      "timestamp": "20:45",
+      "speaker": "Jean Denis",
+      "en": "I don't know about that. I just think it is, for better or worse, the direction things are going.",
+      "zh": "这个我说不好。我只是觉得，无论好坏，事情正朝这个方向发展。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Jean Denis，是 Town 的联合创始人兼 CTO。再往前，在 Plaid 做了七年 CTO，更早还在 Dropbox 待过。现在做的事，是面向普通人的助理智能体。\n\n这一期的内容来自一场演讲。本来题目定的是「智能体对智能体」协作，结果开场就把自己推翻了，说这个概念意义不大，真正值得聊的是另一件事：大多数 LLM 系统，本质上就是一个搜索问题。\n\n什么叫搜索问题？就是在你把结果返回给用户、或者发起一次工具调用之前，你得先确保上下文窗口里装着正确的信息。上下文窗口，说白了就是模型单次调用能看到的全部内容。信息对了，以模型现在的智能水平，你就能得到最好的结果。这个方向的演进很有意思：四年前靠人手动往上下文里填东西，几年前流行 RAG，用检索工具跨系统拉数据进来，现在是智能体式搜索——给智能体一堆工具，让它在全部内容空间里自己搜，直到恰好拥有做对下一步所需的信息。注意，整个过程里没有人参与，只有最后那一次真正重要的调用才是 LLM 在干活。你要工程化的就是这套系统。\n\n那这跟多智能体有什么关系？这里得先讲一个思想实验。想象世界上只有一个智能体，一个上下文窗口，却能访问宇宙中所有信息——任何人的邮件、任何公司、任何政府的数据，全都摆在窗口里。这样它就能给你最优结果。而按这个说法，一个理想的多智能体世界，其实就是由一个能看到一切的智能体实现的。\n\n问题在于这东西不可能存在。这里引了经济学里的科斯定理，大意是只要信息完全、没有交易成本，就能达成最优结果。但现实是，哪怕有无限长的上下文，隐私和安全也不允许。你是人，我不会让你看我的邮箱，自然也不可能接受一个智能体永远盯着我的邮箱。于是就有了衡量多智能体系统的唯一标准：它对那个全能智能体逼近得有多好。接下来讲的，就是五种逼近这个理想的策略。\n\n最直接的一种：在一条信任边界内，让智能体访问边界内的一切。举个例子，两口子共用一个智能体，能看双方全部邮箱，一个问「给孩子安排那件事了吗」，一个直接查，很方便。工作场景的版本是给 HR 团队建一个智能体，权限相当于团队里级别最低的员工。这种做法现在非常流行，IT 和安全团队特别买账。但这里有个根本问题：它不会随时间变好。数据孤岛的边界是人划出来的，你只是造了新孤岛，模型再强也帮不上忙。原话很冲：「如果这是你打造更好 AI 的方法，接下来几年你会完蛋的。」说完还道歉了，但补了一句：「不过没关系，你完蛋就是我的机会。」\n\n那更聪明的做法是什么？造一些工具，让人不用交出全部数据，也能跨孤岛拿到价值。举个例子，想知道公司里谁跟 Acme 这家公司的财务团队有联系。粗暴办法是让你看全公司的邮件，显然不行。替代方案是造一个工具，它能看到所有人的邮箱，但只返回一个关系强度分数。智能体拿到分数，去 Slack 找上 Bob：「你和对方的 CFO 有联系，能帮忙起草一封引荐邮件吗？」事情就办成了。能力没打折，隐私少暴露很多。问题是，造什么工具得靠人来想，这个权衡还得挨个向人解释，而且它同样不会随 AI 变强而自动变好。\n\n第三种策略更流行，叫共享孤岛。在公司内部或某个子群体里，建一个新的数据积累之地，比如 wiki 或者 Airtable，所有智能体都能访问。比如代码仓库里共享的技能文件，有人写了个更好的数据库性能分析技能，下次谁遇到查询慢就直接用上，每个人都成了更好的工程师。而这里最值得记住的想法，是清扫 AI——演讲里明确说，如果整场只有一个好想法，就是这个。具体是：在每个私人孤岛里放一个 AI，它有一套「什么必须留在孤岛内」的策略，还有一份对所有共享空间的描述；每天结束时，它翻一遍孤岛里的新信息，把可以共享的自动搬进公司级公共空间。难点在于怎么决定什么能共享。两条路：要么列个清单问人「把这个放共享空间你介意吗」，要么干脆让 LLM 执行政策。判断是，事情很快会走向后者——未来六个月内，会看到一堆这样的系统，公司把一项政策托付给 LLM，让它自动把越来越多原本私密的信息披露到公开空间。财富 500 强短期内不会，但 10 到 50 人的高信任小公司，会大量出现。\n\n第四种就很传统了：我的智能体问你的智能体，你作为人看到请求、批准、再放行。问题是效率太低——有些信息只有极少数人掌握，结果一个请求群发下去，一家 100 人的公司，100 个人都被 ping 了一遍。\n\n于是就有了第五种，黑箱方法，最强但实践中还很少见。做法是：让一个执行轨迹无人能访问的 LLM 拿到所有数据，自己去找答案；关键在后半步——它回看「做出那次调用需要哪些信息」，然后只向真正拥有那些信息的那一个人请求批准。刚才的例子放到这里，就是全公司各自自动查、无人打扰，黑箱判定 Bob 联系最强，只问 Bob 一句「我可以把这一点信息分享出去吗」，Bob 点个同意就完了。前提是你得信任这个黑箱，而且即使有黑箱，也可能不经意泄露不该泄露的信息——比如有人故意问「你是不是跟别家公司的招聘人员有联系」，就能套出你在偷偷面试。所以必须认真设计。\n\n风险当然不止这些。共享 wiki 很容易脱轨，一条模型犯错的错误信息会永远污染整个库——演讲者自己的个人 wiki 至今坚信智能体叫 Apex，其实一个月前就改名 Ivy 了，旧名字删都删不掉。名字错了好笑，换成业务上的严重错误就难办了。\n\n最后落到终局判断。隐私这块会重演编程领域走过的路：过去每一步都要人批准，现在 auto 模式会判断你什么时候犯傻。跨孤岛的信息共享也一样，先让低敏感度信息自动流入公共空间，另设一个永远需要人工批准的高敏感区；随着模型变强、安全策略编码得更好，会越来越 auto。妙处在于，这样设计的系统会随模型能力一起扩展。所以建议很具体：现在就划定一个低敏感度区域交给 LLM 判断，这个区域会随时间变大，你的系统自然越来越强。\n\n至于能不能让多家公司同意让一个共同的智能体在彼此的信息孤岛之间工作，这还是个开放问题。已经有不点名的公司在金融方向尝试，拉了一批投资银行，让彼此的智能体在以前属于私密的信息之间工作。最后留下一句坦白，也送给正在听的你：作为一个人类，还不知道自己是否信任一个由智能体做所有隐私决定的未来——只是觉得，无论好坏，事情正朝这个方向发展。"
+}

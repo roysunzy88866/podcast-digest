@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>44</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>44</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -58,7 +58,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*35 条*
+*37 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -113,6 +113,10 @@ unlisted: true
 ![[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet#^q8]]
 
 ![[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet#^q11]]
+
+![[2026-09-03-talks-agents-next-frontier-agent-to-agent-and#^q1]]
+
+![[2026-09-03-talks-agents-next-frontier-agent-to-agent-and#^q5]]
 
 ![[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug#^q6]]
 
@@ -185,7 +189,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":342,"Anthropic":148,"ChatGPT":79,"MCP":62,"Lenny":68,"Claude":69,"OpenAI":137,"Claude Code":79,"Google":49,"Cursor":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":345,"Anthropic":149,"ChatGPT":79,"MCP":62,"Lenny":68,"Claude":70,"OpenAI":137,"Claude Code":79,"Google":49,"Cursor":69}</script>
 
 <script>
 (function(){

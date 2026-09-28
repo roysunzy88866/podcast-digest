@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>29</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,6 +36,7 @@ unlisted: true
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(06:38起):本集提到 Slack 非常适合时刻的沟通，是堆栈中宣称'工作发生在这里'的工具之一
 - **[[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]]**(08:03起):本集说公司里发生的事有惊人比例都在 Slack 上，读大量 Slack 历史就能找到数百个过去的决策；Exa 的 Slack 里有约十几个智能体供人人使用。
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(03:25起):本集说 Slack 是系统的重要数据源，晨报会扫 Slack 消息找不理解的术语，也用 Slack 频道做离线时的变通触发机制
+- **[[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]]**(04:56起):多人协作场景的代表场所：把智能体放进 Slack 当共享 AI，Slack 线程里两人共同解决问题「创造最高质量的上下文」。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(10:49起):本集说 Devin 住在 Slack 里，设计流程变成 Slack 发需求 → Figma → 发回 Slack。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(10:59起):本集说 Slack 是 Eve 最重要的渠道之一，Vercel 自称「一家 Slack 公司」，对话式智能体主要走 Slack。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(01:32起):本集说工厂工作在公开的 Slack 频道里启动和围观，多次重新提示等人工交互也计入度量
@@ -56,7 +57,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*28 集*
+*29 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -83,6 +84,7 @@ unlisted: true
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
 - [[2026-08-26-talks-knowledge-systems-the-new-gtm-stack-jeff|《把市场推广当成 AI 工程问题：Exa 联合创始人的智能体优先打法》]] — 作为概念(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
+- [[2026-09-03-talks-your-company-brain-will-leak-secrets-how|《公司大脑会泄密：如何培育一个不漏底的公司知识库》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为被讨论公司(提及)
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
@@ -93,7 +95,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[沙箱]] · [[Claude]] · [[评估]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":342,"Claude Code":79,"Lenny":68,"GitHub":24,"Anthropic":148,"沙箱":61,"Claude":69,"评估":3,"Cursor":69,"护栏":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":345,"Claude Code":79,"Lenny":68,"GitHub":24,"Anthropic":149,"沙箱":62,"Claude":70,"评估":3,"Cursor":69,"护栏":65}</script>
 
 <script>
 (function(){

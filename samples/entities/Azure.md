@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[微调]] · [[Saragawa]] · [[Ofir Ehrlich]] · [[Max Junestrand]] · [[Satya Nadella]] · [[Gonen Stein]] · [[Legora]]
 
-<script type="application/json" class="pd-epn">{"智能体":342,"Microsoft":25,"ChatGPT":79,"微调":22,"Saragawa":1,"Ofir Ehrlich":1,"Max Junestrand":1,"Satya Nadella":2,"Gonen Stein":1,"Legora":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":345,"Microsoft":25,"ChatGPT":79,"微调":22,"Saragawa":1,"Ofir Ehrlich":1,"Max Junestrand":1,"Satya Nadella":2,"Gonen Stein":1,"Legora":2}</script>
 
 <script>
 (function(){

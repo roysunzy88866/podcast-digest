@@ -1,0 +1,955 @@
+{
+  "episode_id": "2026-09-03-talks-your-company-brain-will-leak-secrets-how",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "公司大脑",
+    "AI 安全",
+    "智能体",
+    "企业知识管理",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "tanmai-gopal",
+      "type": "person",
+      "role": "guest",
+      "name": "Tanmai Gopal",
+      "file": "Tanmai Gopal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "promptql",
+      "type": "company",
+      "role": "company",
+      "name": "PromptQL",
+      "file": "PromptQL",
+      "primary": true,
+      "how_described": "嘉宾 Tanmay 是其 CEO 联合创始人，本集介绍其过去一年给 15-20 家企业落地「公司大脑」的经验，并预告了产品 PromptQL tag——对标 Claude tag 但不锁死在 Claude 上，GLM、GPT 都能用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            70.672,
+            72.953
+          ],
+          "quote": "I'm Tanmay, I'm the CEO co-founder of PromptQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            73.253,
+            88.877
+          ],
+          "quote": "You can check PromptQL out later, but our background as a team building this is we come from the Hussara GraphQL, the creators of the Hussara GraphQL engine, which is a very popular open source project in the GraphQL space, where we solve a lot of data access problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1517.423,
+            1518.563
+          ],
+          "quote": "We're called PromptQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1549.137,
+            1558.061
+          ],
+          "quote": "It's our approach to Claude tag, which is PromptQL tag, which is very similar to the ideas that we chatted about here, except that you're not stuck to Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "company-brain",
+      "type": "concept",
+      "role": "concept",
+      "name": "公司大脑 (company brain)",
+      "file": "公司大脑",
+      "primary": true,
+      "how_described": "本集主线概念：定义为「一组互相链接的 markdown 文件里的共享上下文，加上交给编码智能体的数据与工具访问控制规则」；健康标志是每日更新数持续上升；应「培育」而非「构建」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.278,
+            37.704
+          ],
+          "quote": "The fact that if you go ahead and build a company brain, it will likely leak company secrets, which is kind of the big fear that we have about building a company brain anyway, which is this case of intern joins the company and then suddenly gets comp details on everybody kind of situation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.228,
+            61.03
+          ],
+          "quote": "It's also kind of the reason, it's like this big opportunity that Claude Tag had with its recent launch a few days ago, where it was going to be the company brain, but then everybody's like, well, it doesn't look like it's going to be the company brain, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            63.771,
+            69.092
+          ],
+          "quote": "So before we get into that, let's kind of understand and dissect this company brain business a little bit, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            187.528,
+            190.589
+          ],
+          "quote": "of kind of building out our company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            213.709,
+            216.09
+          ],
+          "quote": "So suppose you had a company brain that was working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            220.131,
+            224.372
+          ],
+          "quote": "There would be a kind of daily number of updates that would happen to this company brain, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            232.035,
+            239.637
+          ],
+          "quote": "So if you were to plot the daily number of updates happening to the company brain, what would it sort of look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            261.438,
+            267.803
+          ],
+          "quote": "How many updates are happening to a healthy company brain, right, every single day?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            281.807,
+            292.294
+          ],
+          "quote": "And so when I kind of plotted our thing, right, to see what a healthy company brain looks like, if you look at number one, it's basically saying we had a lot of enthusiasm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            293.094,
+            296.656
+          ],
+          "quote": "We built the company brain on day one, day two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            404.848,
+            407.971
+          ],
+          "quote": "The first use case is there is a company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            416.678,
+            425.426
+          ],
+          "quote": "It's like I got an email with a security questionnaire I need to answer from a customer, and I talk to my AI, and I'm like, look up the company brain and help me answer this security questionnaire, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            425.666,
+            427.648
+          ],
+          "quote": "That's a totally valid use case of a company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            434.385,
+            441.229
+          ],
+          "quote": "Second use case of a company brain is kind of similar to what Claude Tag is, is this idea of multiplayer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            468.508,
+            471.85
+          ],
+          "quote": "You want, like, multiple people are doing things with the company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            495.814,
+            498.195
+          ],
+          "quote": "So what exactly is a company brain?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            579.312,
+            588.387
+          ],
+          "quote": "So, in terms of how we want to approach designing the company brain, right, should we build a company brain?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            590.555,
+            602.698
+          ],
+          "quote": "So if you're an enterprise and you're paid to twiddle your thumbs, then you like this idea of building a company brain because you're like, yes, let me take on a two-year project and I will build the company brain for JP Morgan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            603.719,
+            607.1
+          ],
+          "quote": "You can't build a company brain for an organization that's like 100 years old, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            613.681,
+            619.163
+          ],
+          "quote": "So the idea and the way that we wanna build a company brain is we want each person who does a little bit of the work in the company",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            619.743,
+            623.084
+          ],
+          "quote": "to own and build their part of the company brain, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            628.085,
+            635.687
+          ],
+          "quote": "One was the definition of the company brain, and second is how the approach that we want to take for how a company brain is built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            635.707,
+            638.948
+          ],
+          "quote": "I like kind of this way of phrasing it, which is that we're going to grow a company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            651.512,
+            654.494
+          ],
+          "quote": "Broadly, we want to let each person self-serve their bit of the company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            704.713,
+            705.794
+          ],
+          "quote": "The company brain, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            831.404,
+            833.471
+          ],
+          "quote": "Instead of having a company brain, why don't you do a team brain?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            867.029,
+            871.734
+          ],
+          "quote": "This is nice, but the problem is it's still not a company brain because it's still isolated, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1232.406,
+            1239.709
+          ],
+          "quote": "And these are the interactions with AI where the most amount of company brain knowledge is created.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集主张用 Claude Code 式的编码智能体解决一切通用问题，公司大脑正是为这种智能体而建；「Codex 应用也是同样的架构」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            506.536,
+            513.338
+          ],
+          "quote": "And it's access control rules for the different data and tools that you want to access as given to a coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            531.865,
+            534.208
+          ],
+          "quote": "It is an AI that is a coding agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            536.932,
+            543.862
+          ],
+          "quote": "Kind of similar to a little bit of the previous talk that you folks might have heard, which is this idea of like, can we just use a coding agent to solve general problems?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "贯穿全场的通用概念：共享 AI 智能体在多人协作中产生最高质量知识，但带来权限提升风险；铁律是智能体只建议写入、由人接受或拒绝，凭证永不进沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            363.286,
+            368.991
+          ],
+          "quote": "But because everything is an agent where no amount of learning is perfect, everything has its own kind of steady rate as well, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            408.952,
+            414.276
+          ],
+          "quote": "I want to use it in my AI, agent, whatever, to get work done, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            506.536,
+            513.338
+          ],
+          "quote": "And it's access control rules for the different data and tools that you want to access as given to a coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            531.865,
+            534.208
+          ],
+          "quote": "It is an AI that is a coding agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            536.932,
+            543.862
+          ],
+          "quote": "Kind of similar to a little bit of the previous talk that you folks might have heard, which is this idea of like, can we just use a coding agent to solve general problems?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            742.555,
+            744.177
+          ],
+          "quote": "So they had, let's say, a Hermes agent or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            749.082,
+            752.645
+          ],
+          "quote": "Somehow that piece has to come to my AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            841.734,
+            844.695
+          ],
+          "quote": "So build an agent and have it kind of save to memory itself, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            939.03,
+            945.557
+          ],
+          "quote": "The third thing that you do, which is the most important, you don't let the agent auto-add the memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            958.117,
+            964.639
+          ],
+          "quote": "We're back to kind of the same world where some stuff is getting added, and as long as you are in that agent's memory, you're lucky, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            965.06,
+            974.763
+          ],
+          "quote": "So the third thing that you do is instead of letting the agent auto-add, do something that allows your agent to suggest what is added with what scopes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            991.167,
+            996.672
+          ],
+          "quote": "But it's also not as YOLO as the memory just kind of being auto-written by the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1069.189,
+            1074.692
+          ],
+          "quote": "I don't care if it gets added into this markdown file, that markdown file, what links that the agent takes care of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1108.173,
+            1113.155
+          ],
+          "quote": "But the core idea is that you want to get the agent to suggest a change instead of doing the change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1127.514,
+            1135.056
+          ],
+          "quote": "Nothing should be allowed inside the wiki that is Claude added this or your AI agent added this or Hermes added this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1172.367,
+            1173.427
+          ],
+          "quote": "Users talk to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1174.347,
+            1176.168
+          ],
+          "quote": "Agent, when it's reading context,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1193.089,
+            1198.291
+          ],
+          "quote": "So the agent is always using the user's credential to read the right part of the wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1393.53,
+            1399.233
+          ],
+          "quote": "If you're building an agent that can do everything surrounded by multiple people, that's scary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1399.593,
+            1404.335
+          ],
+          "quote": "Because the engineer was allowed to do the PR work, but now I can use the same agent to deploy to prod?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集强调「永远不要把凭证存在沙箱里」，而是在 HTTP 层、SQL 层实时注入当前用户凭证，让 AI 以那个人身份行事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1442.697,
+            1444.682
+          ],
+          "quote": "So never store credentials in the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1472.28,
+            1474.161
+          ],
+          "quote": "Do not store credentials in the cloud sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shared-skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "共享技能 (shared skills)",
+      "file": "共享技能",
+      "primary": false,
+      "how_described": "被否掉的方案一：让员工在 GitHub 上互相写共享技能仓库——「没有人会为另一个人写技能」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            256.695,
+            261.118
+          ],
+          "quote": "So to kind of think about, like, what would a commit history to your shared skills repo look like, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            296.676,
+            304.542
+          ],
+          "quote": "We gave somebody the task and said, build all the shared skills repo, scrape all the slack, scrape all the emails, build it, and we'll all use it, and then nobody cares.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            755.727,
+            762.611
+          ],
+          "quote": "Now, let's try obvious thing number one, which is that everybody writes shared skills for each other on GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            786.244,
+            796.613
+          ],
+          "quote": "Many of you are fortunate to work with people who are modeled after our Lord and Savior Christ, who are so nice, who will go and update shared skills in a GitHub repo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": false,
+      "how_described": "本集明确不走「构建巨型知识图谱再保护它」的路线：「没成功过，也不会成功」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            570.079,
+            574.401
+          ],
+          "quote": "We're not building gigantic knowledge graph, knowledge base for the company and then trying to secure it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wiki",
+      "type": "concept",
+      "role": "concept",
+      "name": "wiki",
+      "file": "wiki",
+      "primary": true,
+      "how_described": "公司大脑的正确载体：一组可互相链接的 markdown 文件（他们自己约 5000 页），所有上下文进一个全公司 wiki，每个文件带作用域，每条变更挂真人名字。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            191.429,
+            194.249
+          ],
+          "quote": "It kind of is about 5,000 pages, so we model it as a wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            903.646,
+            905.707
+          ],
+          "quote": "goes into a single shared wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            906.207,
+            908.867
+          ],
+          "quote": "A wiki is a set of markdown files, and markdown files can link to each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1009.222,
+            1017.185
+          ],
+          "quote": "You are able to let people add to a gigantic wiki, but you let that person take on responsibility for what they can see or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1017.505,
+            1022.186
+          ],
+          "quote": "So if I'm adding something to the finance wiki, I want to make sure I'm adding something that's sensitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1064.005,
+            1067.788
+          ],
+          "quote": "And when I hit Add to Wiki, and so now it's much easier for me to review what is getting added.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1078.758,
+            1082.9
+          ],
+          "quote": "If these facts are correct, I'm going to hit Add to Wiki, and I'm going to be done, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.48,
+            1088.883
+          ],
+          "quote": "And during the time of Add to Wiki, I can choose what scopes need to be added per Wiki page or not, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1088.923,
+            1094.746
+          ],
+          "quote": "So each Wiki page itself can get a certain set of scopes that you want to decide who gets access to what, for example, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1097.147,
+            1100.349
+          ],
+          "quote": "This is the wiki page that I have for my emails and how my emails are prioritized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1116.377,
+            1119.318
+          ],
+          "quote": "One, make sure that everything goes into one company-wide wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1127.514,
+            1135.056
+          ],
+          "quote": "Nothing should be allowed inside the wiki that is Claude added this or your AI agent added this or Hermes added this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1152.26,
+            1153.641
+          ],
+          "quote": "You didn't know how to edit a wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1179.244,
+            1193.069
+          ],
+          "quote": "So if I am reading something for solving a finance problem, it's using the finance claim to read as me, because I had access to the finance wiki, so I can read it, and that is done every single time, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1193.089,
+            1198.291
+          ],
+          "quote": "So the agent is always using the user's credential to read the right part of the wiki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1303.767,
+            1309.11
+          ],
+          "quote": "I learned that if you have a custom prefix added to wiki page names, it can cause issues, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "反复作为参照：Claude tag 有按频道记忆、知识锁死在频道里成孤岛；Claude Code 是「编码智能体干一切」架构的代表；PromptQL tag 是其不锁死 Claude 的替代方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            49.228,
+            61.03
+          ],
+          "quote": "It's also kind of the reason, it's like this big opportunity that Claude Tag had with its recent launch a few days ago, where it was going to be the company brain, but then everybody's like, well, it doesn't look like it's going to be the company brain, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            434.385,
+            441.229
+          ],
+          "quote": "Second use case of a company brain is kind of similar to what Claude Tag is, is this idea of multiplayer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            557.954,
+            560.395
+          ],
+          "quote": "But, like, essentially, Claude Code being used for everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            560.435,
+            562.096
+          ],
+          "quote": "Claude Cowork is the same architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            873.917,
+            877.16
+          ],
+          "quote": "Like, for example, if this gets, like, with Claude tag,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1127.514,
+            1135.056
+          ],
+          "quote": "Nothing should be allowed inside the wiki that is Claude added this or your AI agent added this or Hermes added this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1549.137,
+            1558.061
+          ],
+          "quote": "It's our approach to Claude tag, which is PromptQL tag, which is very similar to the ideas that we chatted about here, except that you're not stuck to Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "多人协作场景的代表场所：把智能体放进 Slack 当共享 AI，Slack 线程里两人共同解决问题「创造最高质量的上下文」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            296.676,
+            304.542
+          ],
+          "quote": "We gave somebody the task and said, build all the shared skills repo, scrape all the slack, scrape all the emails, build it, and we'll all use it, and then nobody cares.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            441.549,
+            449.975
+          ],
+          "quote": "And if you've been putting agents inside Slack in places where multiple people can interact with it, it's kind of been using it as a shared AI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            845.335,
+            850.037
+          ],
+          "quote": "And that's kind of the architecture that I'm guessing a lot of you folks have with maybe something like a Hermes added to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1377.275,
+            1380.798
+          ],
+          "quote": "This is what happens in a Slack thread when two people talk to each other and solve a problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Hasura GraphQL engine",
+      "reason": "专名「Hasura GraphQL engine」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

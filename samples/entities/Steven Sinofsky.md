@@ -50,7 +50,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":148,"Theo Jaffe":7,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":137,"监管俘获":3,"Google":49,"precautionary principle":1,"Microsoft":25,"开源":27}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":149,"Theo Jaffe":7,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":137,"监管俘获":3,"Google":49,"precautionary principle":1,"Microsoft":25,"开源":27}</script>
 
 <script>
 (function(){

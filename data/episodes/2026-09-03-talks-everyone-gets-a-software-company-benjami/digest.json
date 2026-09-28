@@ -1,0 +1,136 @@
+{
+  "title_zh": "Zo 的 Ben：把互联网的家从「技术封建主义」手里夺回来",
+  "tldr": "Zo 联合创始人 Ben 讲述个人云电脑理念：为什么普通人应该拥有自己的云端服务器和 AI，而不是继续给 SaaS「交租」。",
+  "digest_md": "这一集是 ZoComputer 联合创始人 Ben 的演讲，主角是一台叫 Zo 的「个人云电脑」——你在云上的自己的家：自己的文件、自己的 AI、自己托管的服务，全在一台你拥有 root 权限的服务器上。他开场时甚至把自己打扮成了一台电脑，理由是他「真的很爱电脑」。\n\n钩子是他对着 Mac Finder 图标讲的一个故事：这个图标由 Apple 早期设计师 Susan Kerr 设计，白色的人脸和蓝色的机器脸并排微笑——代表人与机器快乐的和谐。Ben 认为这就是做 AI 工具该追求的境界。而他演讲的主线，是回答一个反差问题：为什么今天的电脑让人怀念从前的感觉，以及一台个人云服务器怎么把它找回来。\n\n## 问题：你在互联网上是个「农奴」\n\nBen 的核心判断是，今天互联网的结构性毛病是**技术封建主义**（techno-feudalism）——封建制虽已消亡，但在数字生活里活得好好的：我们向 SaaS 提供商交租，他们向云提供商交租，云提供商向「国王」交租，而这些国王如今大概是 NVIDIA。\n\n身为「农奴」的代价很具体：人被割裂在各种工具之间，服务把你锁死、随时间越变越糟——你用的产品里的产品经理并没有动力让你的生活更好，他们的动力是变现你的注意力、拿走你的数据、锁死它、再卖回给你。而且「因为你不拥有任何东西，你就是个农奴」。再加上涨价、强塞没人要的 AI 功能，普通人合理地对 AI 感到愤怒、困惑或害怕——他在纽约街头看到不少被涂鸦破坏的 AI 广告。\n\n## 解法：一台内置 AI 的个人服务器\n\nZo 的使命是「给人们在互联网上一个真正的家」。它本质上很简单：**Zo 是一台内置 AI 的个人服务器**。你把你的东西放进去、把你的 AI 放进去，因为它是云上的一个地方，你还能在里面托管网站、API 等任何服务——而且它们全是你的。\n\nBen 特意把它和「专业开发流程」划清界限：早年间人们建网站就是用 FTP 把文件传上服务器，直接上线、永远实时操作——「我认为这其实就是大多数人构建东西的方式」，像 Charlotte 那样的普通人没必要去考虑「部署」这回事。目标用户不是工程师，而是完全不懂技术的人。\n\n两个真实用户案例讲得很具体：\n\n- **Charlotte**，洛杉矶的私人厨师兼人生教练，在 Zo 上托管多个网站，Zo 替她管理发票、账户、记账、日程和笔记，「让她感到清晰、平静、一切尽在掌握」。\n- **Anthea**，自由潜水教练，完全不懂技术。她以前靠 Squarespace、Calendly 等一堆 SaaS 经营生意，数据散落在各个「竖井」里连不起来；现在她取消了所有那些订阅，全部换成了 Zo——「她不再是农奴了」。更实际的是：有人对静修营感兴趣时，Zo 会把对方号码发短信给她，她能在购买意图最强的时刻立刻打电话；要支付链接，Zo 秒给，当场成交。她现在静修营「难订到需求太多」，收入远超从前。底层她还有一个存所有静修营资料的数据库——「她其实并不知道数据库是什么，但她有一个」。\n\n对在场的技术受众，Zo 也够用：它可以作为 OpenClaw 或 Hermes 这类个人智能体的家，你可以带上自己的 Codex、Gemini 订阅，对配置好的 Linux 虚拟机有 root 权限，能 SSH 进去、通过 API 或 MCP 控制。日常功能上，工作区里可以和几乎所有模型聊天（包括 Claude Code）、有云存储文件系统、定时自动化、大量内置集成和技能库、内置浏览器（Ben 说他现在总发短信让 Zo 替他在 Amazon 买东西——「对冲动消费来说真的很危险」）、还能托管任意 HTTP 或 TCP 服务。他自己就在里面搭了个 Calendly 替代品，而且让 Zo 先审查想约他的人。\n\n## 更进一层：智能封建主义\n\n结尾把论点推到了行业层面。Ben 预判：未来我们主要和智能体互动，而大部分智能体会跑在云端——那么问题又来了：**这是谁的云？**\n\n他以新推出的 Claude 举例：它像一个公司级别的 Claude，拥有公司的全部上下文，但「它是谁的 Claude？它其实不是你公司的 Claude」。你在不断改进你的 Claude 配置，真正变好的是 Anthropic——「箭头指错了方向」。他把这叫做**智能封建主义**：智能以错误的方向向上冒，你的公司某种程度上还是个农奴。\n\nZo 想要的未来正好相反：任何人、公司或个人，都应该能**发布并拥有**自己的智能体，拥有自己的终端用户，并让自己发布的智能体随使用不断自我改进。这个智能体发布平台的 beta 版本已经在路上。\n\n## 本集带走\n\n- **「技术封建主义」诊断**：普通用户向 SaaS 交租、SaaS 向云交租、云向 NVIDIA 交租；不拥有任何东西、被锁定、数据被变现，是结构性问题，不只是体验问题。\n- **个人云的最小定义**：一台有 root 权限的个人服务器 + 你的文件 + 你的 AI + 你托管的服务，全在一处。Zo 的差异化是把它做得让不懂技术的人（潜水教练、餐饮承办商、用户父母）也能用。\n- **SaaS 替代的真实账**：一个用户靠 Zo 替换掉 Squarespace、Calendly 等一整套订阅，还因为「意向时刻即响应」把静修营收入做到需求溢出——个人云不只是省钱，还能改进做生意的方式。\n- **对 AI 行业的警示**：云端智能体越强，越要问「这是谁的智能体」——如果你投入优化的是别人的平台，你就是智能封建主义里的农奴。\n- **趋势判断**：未来多数智能体会跑在云端，个人和企业应当拥有并发布自己的智能体，让其随使用自我改进，而不是把上下文喂给别人的智能体。",
+  "quotes": [
+    {
+      "en": "We pay rent to the SaaS providers, who pay rent to the cloud providers, who pay rent to the kings, who are probably NVIDIA these days.",
+      "zh": "我们向 SaaS 提供商交租，他们向云提供商交租，云提供商向国王交租，而这些国王如今大概就是 NVIDIA。",
+      "timestamp": "03:38",
+      "speaker": "Benjamin Guo"
+    },
+    {
+      "en": "They are incentivized to improve their bottom line, to monetize your attention, to take your data, lock it in, and sell it back to you.",
+      "zh": "他们的动力是改善自己的利润底线，变现你的注意力，拿走你的数据，锁死它，再卖回给你。",
+      "timestamp": "04:02",
+      "speaker": "Benjamin Guo"
+    },
+    {
+      "en": "And because you don't own anything, you are a peasant.",
+      "zh": "而且因为你不拥有任何东西，你就是个农奴。",
+      "timestamp": "04:10",
+      "speaker": "Benjamin Guo"
+    },
+    {
+      "en": "She doesn't really know what a database is, but she has one.",
+      "zh": "她其实并不知道数据库是什么，但她有一个。",
+      "timestamp": "08:38",
+      "speaker": "Benjamin Guo"
+    },
+    {
+      "en": "And this is intelligence feudalism.",
+      "zh": "而这就是智能封建主义。",
+      "timestamp": "13:35",
+      "speaker": "Benjamin Guo"
+    },
+    {
+      "en": "Anybody, a company or an individual should be able to publish agents and own them and have end users and like have the end usage of their agent improve, like self-improve their own kind of published agent and that is the future that we're building.",
+      "zh": "任何人，无论公司还是个人，都应该能够发布智能体并拥有它们，拥有最终用户，并让自己智能体的最终使用效果不断提升，就像让自己发布的智能体自我改进一样，这就是我们正在构建的未来。",
+      "timestamp": "14:07",
+      "speaker": "Benjamin Guo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:38",
+      "speaker": "Unknown",
+      "en": "We pay rent to the SaaS providers, who pay rent to the cloud providers, who pay rent to the kings, who are probably NVIDIA these days.",
+      "zh": "我们向 SaaS 提供商交租，他们向云提供商交租，云提供商向国王交租，而这些国王如今大概就是 NVIDIA。"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Unknown",
+      "en": "They are incentivized to improve their bottom line, to monetize your attention, to take your data, lock it in, and sell it back to you.",
+      "zh": "他们的动力是改善自己的利润底线，变现你的注意力，拿走你的数据，锁死它，再卖回给你。"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Unknown",
+      "en": "And because you don't own anything, you are a peasant.",
+      "zh": "而且因为你不拥有任何东西，你就是个农奴。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Unknown",
+      "en": "You were just shipping to prod. You were always doing it live.",
+      "zh": "你就是直接发布上线，你永远是在实时操作。"
+    },
+    {
+      "timestamp": "06:26",
+      "speaker": "Unknown",
+      "en": "And that's actually, I think, how most people should build.",
+      "zh": "而我觉得，这其实就是大多数人构建东西的方式。"
+    },
+    {
+      "timestamp": "08:38",
+      "speaker": "Unknown",
+      "en": "She doesn't really know what a database is, but she has one.",
+      "zh": "她其实并不知道数据库是什么，但她有一个。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "It's really dangerous for impulse purchasing.",
+      "zh": "这对冲动消费来说真的很危险。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Unknown",
+      "en": "Whose Claude is it?",
+      "zh": "这是谁的 Claude？"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Unknown",
+      "en": "It's not really your company's Claude.",
+      "zh": "它其实不是你公司的 Claude。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Unknown",
+      "en": "And as you kind of improve your Claude Tag setup, like what really improves is Anthropic, right?",
+      "zh": "当你改进你的 Claude 设置时，真正得到提升的是 Anthropic，对吧？"
+    },
+    {
+      "timestamp": "13:30",
+      "speaker": "Unknown",
+      "en": "Like the arrow is pointing the wrong way.",
+      "zh": "就像箭头指错了方向。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Unknown",
+      "en": "And this is intelligence feudalism.",
+      "zh": "而这就是智能封建主义。"
+    },
+    {
+      "timestamp": "13:50",
+      "speaker": "Unknown",
+      "en": "And at Zo, we believe really strongly in changing the way that things work and giving people and companies more ownership over their cloud and over their intelligence.",
+      "zh": "在 Zo，我们坚信要改变事物运作的方式，让人们和公司对自己的云、对自己的智能拥有更多的所有权。"
+    },
+    {
+      "timestamp": "14:07",
+      "speaker": "Unknown",
+      "en": "Anybody, a company or an individual should be able to publish agents and own them and have end users and like have the end usage of their agent improve, like self-improve their own kind of published agent and that is the future that we're building.",
+      "zh": "任何人，无论公司还是个人，都应该能够发布智能体并拥有它们，拥有最终用户，并让自己智能体的最终使用效果不断提升，就像让自己发布的智能体自我改进一样，这就是我们正在构建的未来。"
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Unknown",
+      "en": "And I think that is what we should aspire to as we build AI tools for people.",
+      "zh": "我认为这就是我们在为人们构建 AI 工具时应该追求的境界。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个既熟悉又扎心的问题：你在互联网上，到底拥有什么？\n\n主角叫 Ben，是 ZoComputer 的联合创始人。这一集讲的就是一款叫 Zo 的产品，一台「个人云电脑」。说白了，就是你在云上的一个自己的家：你的文件、你的 AI、你自己托管的服务，全放在一台你拥有 root 权限的服务器上。开场的时候，Ben 甚至把自己打扮成了一台电脑，理由是「真的很爱电脑」。\n\n先交代个背景。Ben 开场讲了个小故事，对着 Mac 上那个 Finder 图标说的。这个图标是 Apple 早期设计师 Susan Kerr 画的，一张白色的人脸和一张蓝色的机器脸并排微笑，代表人和机器快乐的和谐。Ben 觉得，这才是做 AI 工具该追求的境界。可现实是，今天的电脑总让人怀念从前的感觉。为什么？这一集的主线，就是回答这个问题，再看看一台个人云服务器怎么把那种感觉找回来。\n\n先说诊断。Ben 的核心判断是，今天互联网的结构性毛病，叫「技术封建主义」。什么意思？封建制虽然早就消亡了，但在咱们的数字生活里活得好好儿的。你自己品品这个链条：我们向 SaaS 提供商交租，SaaS 向云提供商交租，云提供商再向国王交租——而这些国王，如今大概就是 NVIDIA。\n\n当农奴的代价很具体。你被割裂在各种工具之间，服务把你锁死，而且随时间越变越糟。你用的产品里，那些产品经理并没有动力让你的生活更好——他们的动力是变现你的注意力，拿走你的数据，锁死它，再卖回给你。用 Ben 的原话说：因为你不拥有任何东西，你就是个农奴。再加上涨价、强塞没人要的 AI 功能，普通人当然对 AI 又愤怒、又困惑、又害怕。Ben 在纽约街头，就看到不少被涂鸦破坏的 AI 广告。\n\n那怎么办？这就引出了 Zo 的解法。Zo 的使命是「给人们在互联网上一个真正的家」，本质上特别简单：一台内置 AI 的个人服务器。你把你的东西放进去，把你的 AI 放进去，因为它是云上的一个地方，你还能在里面托管网站、API 等任何服务，而且它们全是你的。\n\n有意思的是，Ben 特意把它和「专业开发流程」划清界限。早年人们建网站，就是用 FTP 把文件传上服务器，直接上线、永远实时操作。Ben 认为这其实就是大多数人构建东西的方式，像后面要说的 Charlotte 这样的普通人，根本没必要去考虑什么「部署」。所以 Zo 的目标用户不是工程师，是完全不懂技术的人。\n\n这话不是空口说的，来看两个真实用户。\n\n第一个是 Charlotte，洛杉矶的私人厨师兼人生教练。在 Zo 上托管了多个网站，Zo 替她管理发票、账户、记账、日程和笔记。用她自己的感受说，就是清晰、平静、一切尽在掌握。\n\n第二个更典型，叫 Anthea，自由潜水教练，完全不懂技术。她以前靠 Squarespace、Calendly 这么一堆 SaaS 经营生意，数据散落在各个「竖井」里，连都连不起来。现在呢？她取消了所有那些订阅，全部换成了 Zo——用节目里的话说，她不再是农奴了。更实际的是，有人对静修营感兴趣时，Zo 会把对方号码发短信给她，她能在购买意图最强的那一刻立刻打电话过去；人家要支付链接，Zo 秒给，当场成交。结果就是，她的静修营现在难订到需求太多，收入远超从前。底层上，她其实还有一个存着所有静修营资料的数据库——而她并不知道数据库是什么，但她有一个。\n\n听到这儿你可能会说，我是个技术人员，这跟我没关系吧？还真有关系。Zo 可以作为 OpenClaw 或者 Hermes 这类个人智能体的家，你能带上自己的 Codex、Gemini 订阅，对配置好的 Linux 虚拟机有 root 权限，能 SSH 进去，也能通过 API 或 MCP 来控制。日常功能上，工作区里可以和几乎所有模型聊天，包括 Claude Code；有云存储文件系统、定时自动化、大量内置集成和技能库，还有内置浏览器。Ben 说自己现在总发短信让 Zo 替他在 Amazon 买东西，还提醒一句：对冲动消费来说真的很危险。甚至能托管任意 HTTP 或 TCP 服务——Ben 自己就在里面搭了个 Calendly 替代品，还让 Zo 先审查一下想约他的人。\n\n好，讲到这儿，个人云的故事基本说完了。但这一集真正扎人的，是结尾把整个论点推到了行业层面，叫「智能封建主义」。\n\nBen 是这么推理的：未来我们主要和智能体互动，而大部分智能体会跑在云端。那问题就来了——这是谁的云？举了个新推出的 Claude 做例子：它像一个公司级别的 Claude，拥有公司的全部上下文。可是，它是谁的 Claude？其实并不是你公司的 Claude。你每天都在不断改进你的 Claude 配置，但真正变好的是谁？是 Anthropic。箭头指错了方向。你的智能在以错误的方向向上冒，你的公司某种程度上还是个农奴。而这就是智能封建主义。\n\nZo 想要的未来正好相反：任何人，无论公司还是个人，都应该能够发布智能体并拥有它们，拥有自己的最终用户，并且让自己发布的智能体随使用不断自我改进。这个智能体发布平台的 beta 版本，已经在路上了。\n\n所以回头看，为什么今天的电脑让人怀念从前？因为从前你多少还拥有点东西。把「技术封建主义」这个诊断、加上「个人云电脑」这条出路合在一起，这一集真正想说的其实就是一句话：你值得在互联网上拥有一个自己的家——你的文件、你的 AI、你的智能体，都该属于你，而不是替别人交租。"
+}

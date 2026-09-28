@@ -1,0 +1,788 @@
+{
+  "episode_id": "2026-09-03-talks-agents-next-frontier-agent-to-agent-and",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "多智能体",
+    "隐私",
+    "上下文工程",
+    "企业 AI",
+    "信息孤岛"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "jean-denis-greze",
+      "type": "person",
+      "role": "guest",
+      "name": "Jean-Denis Greze",
+      "file": "Jean-Denis Greze",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：核心角色是执行搜索的 LLM 系统——在工具调用前确保上下文窗口里装着正确信息；演讲者正做面向普通人的助理智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            50.239,
+            56.042
+          ],
+          "quote": "And one of the things we've been working on are systems where agents work with other agents, so agent to agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            71.57,
+            80.194
+          ],
+          "quote": "But actually, I don't think agent-to-agent makes much sense as a concept, so I want to reframe the entire talk in terms of search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            124.088,
+            138.4
+          ],
+          "quote": "And now we're all about agentic search, which is the idea that you give the agent a lot of tools, and it will search through the space of all content, and then hopefully before it makes a tool call, it has exactly the right content to make the right tool call to return the right information to the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            150.558,
+            152.26
+          ],
+          "quote": "So what does that have to do with agent to agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            159.426,
+            161.387
+          ],
+          "quote": "There's just one agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            189.712,
+            191.733
+          ],
+          "quote": "It's just an agent that has access to all the world's information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            224.473,
+            231.738
+          ],
+          "quote": "We're humans, I don't let you look at my email, so there cannot be an agent that I'm willing to just let it look at my email all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            235.88,
+            241.224
+          ],
+          "quote": "So I think this is like, this is the test for a multi-agent system, which is how well does it approximate this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            268.484,
+            270.865
+          ],
+          "quote": "So my wife and I, we have an agent together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            271.95,
+            278.172
+          ],
+          "quote": "And that agent has access to my email and her email, including emails before we were married.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            279.392,
+            288.494
+          ],
+          "quote": "And it's okay, she doesn't ask my agent questions about that, but she does ask about whether I scheduled something for our kids or if I followed up on some third-party thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            288.514,
+            291.315
+          ],
+          "quote": "And so the fact that our agent has access to both of our systems is wonderful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            292.732,
+            303.301
+          ],
+          "quote": "And the work context, this might be there's an HR team agent that has access to all the HR systems, just like an employee of the HR team would, or maybe as much access as the lowest employee in the HR team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            303.902,
+            309.808
+          ],
+          "quote": "All the employees in the HR team have the ability to ask this agent questions, and boom, it gets pretty good results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            381.302,
+            388.285
+          ],
+          "quote": "The use case is I want to ask my agent, is anyone in my company connected to someone on the finance team at Acme Corp?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            431.141,
+            433.223
+          ],
+          "quote": "And then the agent would get the score, and it would be cool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            712.516,
+            714.537
+          ],
+          "quote": "So this is like traditional agent to agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            715.422,
+            722.33
+          ],
+          "quote": "My agent asks your agent, hey, who is connected to someone of the finance team at Acme Corp?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            832.027,
+            838.528
+          ],
+          "quote": "Then the agent in the black box gets the list of the 20 people who are connected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            984.969,
+            998.233
+          ],
+          "quote": "I have a personal wiki that thinks my agent's name is Apex right now but I renamed my agent a month ago to Ivy and like somewhere in memory bank of my like setup Apex lives and so I can't get rid of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1129.454,
+            1141.264
+          ],
+          "quote": "So my encouragement would be, like, you need to start, if you have agent-to-agent or work across silos, which I think is a better way to think about it, definitely define a low-sensitivity zone where you're okay with the LLM making a call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1192.431,
+            1200.982
+          ],
+          "quote": "Scenarios where you can get multiple companies to agree to their information silos, having a common agent working across them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集把它重新定义为搜索问题：衡量标准只有一个——它对『一个能访问全世界数据的全能智能体』逼近得有多好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            235.88,
+            241.224
+          ],
+          "quote": "So I think this is like, this is the test for a multi-agent system, which is how well does it approximate this?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说它是 LLM 单次调用能看到的信息范围，工程目标就是在返回结果或工具调用前把正确的信息装进窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            85.948,
+            97.219
+          ],
+          "quote": "And what you're trying to do is you're trying to make sure the context window, right before you either return results to the user or before a tool call, you're trying to make sure the context window has the right information for the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            97.679,
+            99.821
+          ],
+          "quote": "If you put the right information in the context window,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            106.745,
+            112.288
+          ],
+          "quote": "So, you know, four years ago, the way we did that is humans would populate the context window manually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            161.888,
+            163.249
+          ],
+          "quote": "And it has one context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            174.607,
+            176.268
+          ],
+          "quote": "And it has it right there in the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            219.03,
+            223.173
+          ],
+          "quote": "Like theoretically even with infinite context window because of privacy and security.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体式搜索 (agentic search)",
+      "file": "智能体式搜索",
+      "primary": true,
+      "how_described": "本集说它是现在的主流：给智能体一大堆工具，让它在全部内容空间里自己搜，直到拥有做出正确工具调用所需的内容——全程没有人参与。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            124.088,
+            138.4
+          ],
+          "quote": "And now we're all about agentic search, which is the idea that you give the agent a lot of tools, and it will search through the space of all content, and then hopefully before it makes a tool call, it has exactly the right content to make the right tool call to return the right information to the user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trust-boundary",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任边界 (trust boundary)",
+      "file": "信任边界",
+      "primary": true,
+      "how_described": "本集把『边界内近似访问一切』列为第一种策略，如共用智能体或 HR 团队智能体；批评它不会随时间变好，『接下来几年你会完蛋的』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            262.102,
+            267.704
+          ],
+          "quote": "So the first one is approximate access to everything within a trust boundary.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "silo",
+      "type": "concept",
+      "role": "concept",
+      "name": "信息孤岛 (silo)",
+      "file": "信息孤岛",
+      "primary": true,
+      "how_described": "本集的核心隐喻：隐私导致数据困在个人/公司孤岛里，五种策略本质上都是在不同权衡下打破孤岛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            345.92,
+            348.482
+          ],
+          "quote": "You've just created a new silo because a human thought about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            391.683,
+            395.445
+          ],
+          "quote": "The no-silo way to do that is just give me access to everyone's Gmail in my company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            533.003,
+            533.763
+          ],
+          "quote": "It's a shared silo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            547.17,
+            551.212
+          ],
+          "quote": "You no longer have information that would be okay to be shared that's stuck in a silo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            609.269,
+            611.71
+          ],
+          "quote": "So you have an AI inside each private silo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            612.35,
+            616.713
+          ],
+          "quote": "An AI has a policy about what has to stay in the silo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            622.065,
+            626.829
+          ],
+          "quote": "And at the end of the day, it looks at new information in a silo, and it puts it in the public spaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            962.195,
+            971.903
+          ],
+          "quote": "So if you have a silo that has like, that's more open and someone can put something bad in there and then that, as part of the energetic search, you pull it out, you know, bad things can happen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sweeper-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "清扫 AI (sweeper AI)",
+      "file": "清扫 AI",
+      "primary": true,
+      "how_described": "本集说『如果演讲里有一个好想法，就是这个』：在每个私人孤岛里放一个执行共享策略的 AI，一天结束时把可共享的信息搬进公司级公共空间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            597.658,
+            602.563
+          ],
+          "quote": "I think the next version of this that a few people are working on is you have a sweeper AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            608.428,
+            609.229
+          ],
+          "quote": "It's a sweeper AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "black-box",
+      "type": "concept",
+      "role": "concept",
+      "name": "黑箱方法 (black box)",
+      "file": "黑箱方法",
+      "primary": true,
+      "how_described": "本集说它非常强大但实践中少见：让执行轨迹无人可访问的 LLM 跨所有孤岛找答案，只在『分享时刻』向真正拥有信息的一个人请求批准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            769.038,
+            770.198
+          ],
+          "quote": "It's a black box approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            776.161,
+            787.847
+          ],
+          "quote": "The black box approach is where when you ask a question that can only be answered by looking at information in other people's silos, you have an LLM, the trace of which no one has access to,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            832.027,
+            838.528
+          ],
+          "quote": "Then the agent in the black box gets the list of the 20 people who are connected.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            861.928,
+            863.671
+          ],
+          "quote": "The important thing is you have to trust the black box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            919.856,
+            926.56
+          ],
+          "quote": "So you can still sometimes with the black box inadvertently get information out that you shouldn't be able to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1032.265,
+            1035.888
+          ],
+          "quote": "The black box idea is really great, but it can't truly be a black box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1160.991,
+            1169.936
+          ],
+          "quote": "So we talked about five approaches, blah, blah, blah, trust boundaries, custom tools, shared silos, humans in the loop, and this human in the loop black box version.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集把它列为第四种策略（人作为信息管道），指出其大问题是群发请求低效；但关键审批环节又必须有正确的人工介入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            886.314,
+            895.7
+          ],
+          "quote": "You just have to have, you have to be sure that the human in the loop step is correct, and you have to be sure that you're not letting other information go through with the last answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1006.674,
+            1012.601
+          ],
+          "quote": "If you don't have human in the loop for any of the steps, obviously, there'll be false positives and wrong disclosures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1160.991,
+            1169.936
+          ],
+          "quote": "So we talked about five approaches, blah, blah, blah, trust boundaries, custom tools, shared silos, humans in the loop, and this human in the loop black box version.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐私 (privacy)",
+      "file": "隐私",
+      "primary": true,
+      "how_described": "本集说它是全能智能体不可能存在的根本原因，并主张设计『随模型能力扩展』的低敏感度区域，让隐私决策越来越 auto。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            219.03,
+            223.173
+          ],
+          "quote": "Like theoretically even with infinite context window because of privacy and security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            369.157,
+            377.88
+          ],
+          "quote": "The other approach, which I think is a little more clever, and I'm going to try to explain it, is basically you try to have tools that make a different tradeoff between power and privacy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            458.33,
+            462.651
+          ],
+          "quote": "We ask ourselves, what is a privacy-preserving tool that all of our users would be okay existing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            482.105,
+            487.331
+          ],
+          "quote": "So the question here is, are people going to be okay with a privacy tradeoff that you make within a corporation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            509.946,
+            516.127
+          ],
+          "quote": "Humans may not like it if this is happening, if they're not okay with the privacy security, the privacy kind of power trade-off that you've made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1087.473,
+            1093.015
+          ],
+          "quote": "We will be better at designing for the really hard areas, tools that get the privacy tradeoff correct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1178.122,
+            1183.006
+          ],
+          "quote": "The big question is, how comfortable are we with something like an auto mode around privacy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1238.877,
+            1244.599
+          ],
+          "quote": "You know, as a human, though, I ask myself, do I trust a future where agents make all the decisions around privacy?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "auto 模式 (auto mode)",
+      "file": "auto 模式",
+      "primary": true,
+      "how_described": "本集以 Anthropic 编程工具的 auto 模式类比：过去事事批准、后来 YOLO、现在模型判断你什么时候犯傻；跨孤岛信息共享将走同样的路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1059.125,
+            1061.886
+          ],
+          "quote": "And now the gods at Anthropic have granted us auto mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1062.346,
+            1069.727
+          ],
+          "quote": "And auto mode tries to figure out when we're maybe being a little silly, and it tells us, well, I think A to A across information silos will be the same way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1178.122,
+            1183.006
+          ],
+          "quote": "The big question is, how comfortable are we with something like an auto mode around privacy?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "type": "company",
+      "role": "company",
+      "name": "Town",
+      "file": "Town",
+      "primary": false,
+      "how_described": "演讲者现任 CTO 的公司，做面向普通人的助理智能体，本集明确说不展开聊它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            23.265,
+            25.026
+          ],
+          "quote": "I'm CTO at a company called Town.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            25.186,
+            30.948
+          ],
+          "quote": "We're not going to really talk about Town, so you can go to town.com and check that out if you want, but that's not the point of the talk today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            455.27,
+            458.29
+          ],
+          "quote": "We do this at town for a few things that we see a lot of our users do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集顺带提及其编程工具的 auto 模式，作为隐私决策走向自动化的类比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1059.125,
+            1061.886
+          ],
+          "quote": "And now the gods at Anthropic have granted us auto mode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "RAG",
+      "reason": "专名「RAG」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    }
+  ]
+}

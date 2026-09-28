@@ -47,7 +47,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[AGI]] · [[IPO]] · [[Alex]] · [[Ranjan]] · [[Hugging Face]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":137,"Anthropic":148,"Google":49,"智能体":342,"AGI":26,"IPO":3,"Alex":5,"Ranjan":1,"Hugging Face":23,"SpaceX":18}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":137,"Anthropic":149,"Google":49,"智能体":345,"AGI":26,"IPO":3,"Alex":5,"Ranjan":1,"Hugging Face":23,"SpaceX":18}</script>
 
 <script>
 (function(){

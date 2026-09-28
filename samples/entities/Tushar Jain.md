@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]]
+[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":4,"智能体":342,"沙箱":61,"运行时":1,"harness":46,"MCP":62,"MicroVM":1,"基于意图的访问":1,"SPX":1,"Codex":58}</script>
+<script type="application/json" class="pd-epn">{"Docker":4,"智能体":345,"沙箱":62,"运行时":1,"harness":46,"MCP":62,"MicroVM":1,"基于意图的访问":1,"SPX":1,"Codex":58}</script>
 
 <script>
 (function(){

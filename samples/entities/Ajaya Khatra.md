@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jay Mok]]
+[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":137,"Hugging Face":23,"Meter":3,"Redwood Research":3,"Modal":6,"智能体":342,"沙箱":61,"RL":8,"Exploit Gym":1,"Artifactory":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":137,"Hugging Face":23,"Meter":3,"Redwood Research":3,"Modal":6,"智能体":345,"沙箱":62,"RL":8,"Exploit Gym":1,"Artifactory":1}</script>
 
 <script>
 (function(){

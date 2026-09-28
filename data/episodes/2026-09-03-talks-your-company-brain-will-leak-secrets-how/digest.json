@@ -1,0 +1,166 @@
+{
+  "title_zh": "公司大脑会泄密：如何培育一个不漏底的公司知识库",
+  "tldr": "PromptQL CEO 联合创始人 Tanmay 讲解如何构建不泄露机密的「公司大脑」：共享 wiki、权限作用域与人工背书。",
+  "digest_md": "「公司大脑」——把全公司的知识喂给 AI 智能体——最大的拦路虎恰恰是它最诱人的地方：一旦建成，实习生入职第一天可能就拿到所有人的薪酬明细。PromptQL 的 CEO 联合创始人 Tanmay 在这场演讲里，拿出过去一年给 15-20 家企业落地公司大脑的经验（客户从 AI 原生公司、Instacart 这类技术先锋公司到财富 100 强银行都有），讲清楚了怎么建一个既共享又不泄密的大脑。\n\n他们的团队背景是做 GraphQL 引擎的——一个在数据访问领域很流行的开源项目，客户遍布 Apple、Meta、JPMorgan，用他的话说，这让他们「和数据与数据安全形成了一种爱恨交织的关系」。\n\n## 先看健康大脑长什么样：一条持续上升的曲线\n\nTanmay 先抛了一个现场互动问题：如果给一个运转良好的公司大脑画「每日更新数」曲线，长什么样？多数人猜平稳波动或下降，但他们自己团队近两个月的数据出乎意料——**持续上升**。\n\n原因他一开始也震惊，后来想通了：一旦系统开始运转，人们就会不断教它更多东西。教会它查数据，明天就教它解读数据，后天教它据此行动，再后来教它做 A/B 测试。而且因为每个智能体的学习都不完美，各自都有一个稳定的「补课速率」，这些速率还会累加。所以每日更新数持续温和上升，是大脑健康的标志；反过来，那些第一天热情爆棚、让某个人去「抓取所有 Slack 和邮件建个共享技能库」的做法，结果都是没人在乎、曲线一路向下。\n\n## 为什么「 obvious 方案」全都不行\n\n公司大脑有两个核心用例：一是**个人用**——比如收到客户的安全问卷，让 AI 查公司大脑帮忙作答并回复；二是**多人协作用**——一群人围着同一个 AI 处理事故：拉日志、查代码库、提 PR、部署 staging、设告警。两者都撞上同一个安全问题：怎么让一个人贡献的知识，安全地流到另一个人手里？\n\n试过的三条路，条条是坑：\n\n1. **让员工在 GitHub 上互相写共享技能。** 听着美好，实际上「没有人会为另一个人写技能」——他自己连整理自己的记忆都勉强，何况为不认识的将来的人写文档。\n2. **团队大脑。** 每个团队一个共享 AI、自动存记忆。好用，但这只是多了一个孤岛——比如 Claude 的 tag 有按频道记忆，知识锁死在一个频道里，别的团队用不上。\n3. **全员写进一个共享 wiki——这才是对的路，但要加三个关键设计。**\n\n## 三条设计原则：共享 wiki + 作用域 + 人来背书\n\nTanmay 给出了他的公司大脑定义：**放在一组互相链接的 markdown 文件里的共享上下文，加上交给编码智能体的数据与工具访问控制规则**。注意这不是「拉进 LLM 的知识库」——他们明确不走「构建巨型知识图谱再保护它」的路线，那条路「没成功过，也不会成功」。底层逻辑是把 Claude Code 式的编码智能体用于一切通用问题，大脑是为这种智能体建的。\n\n具体做法三条：\n\n- **所有上下文进一个全公司 wiki**（一大堆可以互相链接的 markdown 文件），不许再分孤岛，「不要在这条规则上让步」。\n- **每个文件有作用域（scope）**：规定谁能读写这个文件。往财务 wiki 加东西，就必须带财务作用域；个人内容带个人作用域。\n- **最关键的一条：不许智能体自动写记忆。** 自动添加意味着没人知道发生了什么。正确姿势是让智能体**建议**要添加什么内容、带什么作用域，然后由人点「接受」或「拒绝」。这比 GitHub 的写技能+PR 审查+合并轻得多，又不像自动写记忆那么 YOLO——是工作的甜点位。\n\n他们自己的 UX 是这样：AI 帮你回完邮件，弹出一个框，列出它建议写入的几条事实要点；你只管核对「这些事实对不对」，对就点 Add to Wiki，选好每页的作用域，链接由智能体处理。\n\n由此推出两条铁律：**第一，一切进一个公司级 wiki；第二，每一条变更都必须挂在一个真人的名字上**——wiki 里不许出现「Claude 添加了这个」「Hermes 添加了这个」，必须是「Tanmay 添加了这个」。这样出了泄密事故，你知道该找谁补救。\n\n## 第二个用例：多人共用一个 AI 时，凭证也要跟着人走\n\n多人协作才是产生最多公司大脑知识的场景。他给了一个真实的 SRE 案例：团队的 WikiLearning（自动学习功能）挂了，智能体一开始没技能、调查失败；有人现场教它——别用 like 查询，用 equals 查询——它挖出了根因：wiki 页面名带自定义前缀导致生产环境查询出问题。更精彩的是随后另一个同事加入争论「这个技术决定就是错的」，而**争论本身创造了最高质量的知识**：真正该记录的不是「页面有前缀」，而是「页面不该有前缀，否则会在生产环境造成查询问题」。两个人一起解决问题的过程，才是知识密度最高的时刻。\n\n但这带来严重的权限提升问题：工程师本来只被允许提 PR，现在你却能用同一个智能体部署到生产环境？在银行里，调试的人、部署到 staging 的人、设告警的人、部署上线的人根本不是同一批人。\n\n解法是把「读取用用户凭证」延伸到「执行工具也用用户凭证」：**永远不要把凭证存在沙箱里**，而是在 HTTP 层、SQL 层实时注入当前用户的凭证，让 AI 在每次交互中以那个人的身份行事。再加上一条：把与真实数据的所有交互虚拟化/代理化，**谁添加了某个工具，谁就控制谁能访问它**。\n\nTanmay 总结：这个架构不复杂，只要守住这几条原则反推，合理的架构只有一种。演讲最后他预告了 PromptQL tag——对标 Claude tag 的产品，思路相同但不锁死在 Claude 上，GLM、GPT 都能用。\n\n## 本集带走\n\n- **别「构建」公司大脑，要「培育」它**：让每个做工作的人拥有并构建自己那部分，指望一个大项目给百年老组织建大脑是不可能的。\n- **健康度有个可量化信号**：每日更新数持续温和上升 = 好大脑；一次性狂建后无人维护 = 失败。\n- **三条设计铁律**：① 所有知识进一个全公司 wiki，不分孤岛；② 每个文件按作用域控制读写；③ 智能体只**建议**写入内容和作用域，人点接受/拒绝——不自动写记忆。\n- **每条变更挂真人名字**：杜绝「AI 添加」，出了泄密能追溯到人。\n- **凭证永不进沙箱**：读上下文和执行工具都用当前用户的凭证，在 HTTP/SQL 层注入，让共享 AI 在每次交互中「以人行事」。\n- **争论产生最高质量的知识**：多人协作解决问题（包括互相抬杠）的过程，比个人总结更值得写进大脑。",
+  "quotes": [
+    {
+      "en": "I'm going to talk about the fact that if you go ahead and build a company brain, it will likely leak company secrets, which is kind of the big fear that we have about building a company brain anyway, which is this case of intern joins the company and then suddenly gets comp details on everybody kind of situation.",
+      "zh": "我要讲的是：如果你去构建一个公司大脑，它很可能会泄露公司机密——这本来就是我们构建公司大脑时最大的担忧，也就是实习生入职后突然拿到所有人薪酬明细的那种情况。",
+      "timestamp": "00:18",
+      "speaker": "Tanmai Gopal"
+    },
+    {
+      "en": "you can't build a company brain for an organization that's like 100 years old, right? You can barely build it for your own family, right?",
+      "zh": "你没法为一个有 100 年历史的组织构建公司大脑，对吧？你连为自己的家庭构建一个都很难，对吧？",
+      "timestamp": "10:03",
+      "speaker": "Tanmai Gopal"
+    },
+    {
+      "en": "we're going to grow a company brain. We're not going to build one, right?",
+      "zh": "我们要去培育一个公司大脑，而不是构建一个。",
+      "timestamp": "10:37",
+      "speaker": "Tanmai Gopal"
+    },
+    {
+      "en": "This is nice, but the problem is it's still not a company brain because it's still isolated, right?",
+      "zh": "这很好，但问题是它仍然不是公司大脑，因为它仍然是隔离的。",
+      "timestamp": "14:27",
+      "speaker": "Tanmai Gopal"
+    },
+    {
+      "en": "That argument creates knowledge because the actual problem was that somebody made a technical decision that was not documented.",
+      "zh": "那场争论创造了知识，因为真正的问题是有人做了一个没有记录下来的技术决定。",
+      "timestamp": "22:13",
+      "speaker": "Tanmai Gopal"
+    },
+    {
+      "en": "Because the engineer was allowed to do the PR work, but now I can use the same agent to deploy to prod? That's too scary.",
+      "zh": "因为那位工程师本来只被允许做 PR 的工作，但现在我可以用同一个智能体部署到生产环境？那太可怕了。",
+      "timestamp": "23:19",
+      "speaker": "Tanmai Gopal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:18",
+      "speaker": "Unknown",
+      "en": "I'm going to talk about the fact that if you go ahead and build a company brain, it will likely leak company secrets, which is kind of the big fear that we have about building a company brain anyway, which is this case of intern joins the company and then suddenly gets comp details on everybody kind of situation.",
+      "zh": "我要讲的是：如果你去构建一个公司大脑，它很可能会泄露公司机密——这本来就是我们构建公司大脑时最大的担忧，也就是实习生入职后突然拿到所有人薪酬明细的那种情况。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Unknown",
+      "en": "if you have a system that starts to work, what happens is people start to teach it a lot more.",
+      "zh": "一旦一个系统开始运转，人们就会开始更多地教它。"
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Unknown",
+      "en": "But a healthy brain, of course, the overall size keeps increasing, but even your daily updates per day kind of keep increasing as well.",
+      "zh": "对于健康的大脑来说，当然整体规模在持续增长，而且连每天的更新数量也在持续增长。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Unknown",
+      "en": "you can't build a company brain for an organization that's like 100 years old, right? You can barely build it for your own family, right?",
+      "zh": "你没法为一个有 100 年历史的组织构建公司大脑，对吧？你连为自己的家庭构建一个都很难，对吧？"
+    },
+    {
+      "timestamp": "10:35",
+      "speaker": "Unknown",
+      "en": "we're going to grow a company brain. We're not going to build one, right?",
+      "zh": "我们要去培育一个公司大脑，而不是构建一个。"
+    },
+    {
+      "timestamp": "13:19",
+      "speaker": "Unknown",
+      "en": "Most people will not. Nobody is going to write skills for another person.",
+      "zh": "大多数人不会这么做。没有人会为另一个人去写技能。"
+    },
+    {
+      "timestamp": "13:44",
+      "speaker": "Unknown",
+      "en": "I do not have the time to write it down for somebody else.",
+      "zh": "我没有时间为别人把它写下来。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "This is nice, but the problem is it's still not a company brain because it's still isolated, right?",
+      "zh": "这很好，但问题是它仍然不是公司大脑，因为它仍然是隔离的。"
+    },
+    {
+      "timestamp": "15:49",
+      "speaker": "Unknown",
+      "en": "You don't let it auto-add, because if it auto-ads, you have no idea what happened, right?",
+      "zh": "不要让它自动添加，因为如果它自动添加，你就完全不知道发生了什么。"
+    },
+    {
+      "timestamp": "16:31",
+      "speaker": "Unknown",
+      "en": "But it's also not as YOLO as the memory just kind of being auto-written by the agent, right?",
+      "zh": "但它也不像记忆被智能体自动写入那么 YOLO，对吧？"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Unknown",
+      "en": "You are able to let people add to a gigantic wiki, but you let that person take on responsibility for what they can see or not.",
+      "zh": "你就能让人们往一个巨大的 wiki 里添加内容，同时让那个人对他们能看到或看不到的内容承担责任。"
+    },
+    {
+      "timestamp": "18:39",
+      "speaker": "Unknown",
+      "en": "Don't back down from this rule.",
+      "zh": "不要在这条规则上让步。"
+    },
+    {
+      "timestamp": "18:55",
+      "speaker": "Unknown",
+      "en": "No, Tanmay added this. That name needs to be there so that you can tie it back to this is the person who screwed up and allowed everybody to see everybody's comp and whatever.",
+      "zh": "不行，必须是「Tanmay 添加了这个」。那个名字必须在场，这样你才能追溯到就是这个人搞砸了，让所有人看到了所有人的薪酬之类的东西。"
+    },
+    {
+      "timestamp": "20:32",
+      "speaker": "Unknown",
+      "en": "these are the interactions with AI where the most amount of company brain knowledge is created.",
+      "zh": "这些与 AI 的交互，正是产生最多公司大脑知识的地方。"
+    },
+    {
+      "timestamp": "22:13",
+      "speaker": "Unknown",
+      "en": "That argument creates knowledge because the actual problem was that somebody made a technical decision that was not documented.",
+      "zh": "那场争论创造了知识，因为真正的问题是有人做了一个没有记录下来的技术决定。"
+    },
+    {
+      "timestamp": "22:52",
+      "speaker": "Unknown",
+      "en": "This happens when multiple people talk to each other, right, and solve problems together.",
+      "zh": "这发生在多个人互相交流、共同解决问题的时候。"
+    },
+    {
+      "timestamp": "23:19",
+      "speaker": "Unknown",
+      "en": "Because the engineer was allowed to do the PR work, but now I can use the same agent to deploy to prod? That's too scary.",
+      "zh": "因为那位工程师本来只被允许做 PR 的工作，但现在我可以用同一个智能体部署到生产环境？那太可怕了。"
+    },
+    {
+      "timestamp": "24:02",
+      "speaker": "Unknown",
+      "en": "So never store credentials in the sandbox.",
+      "zh": "所以永远不要把凭证存在沙箱里。"
+    },
+    {
+      "timestamp": "24:44",
+      "speaker": "Unknown",
+      "en": "the user who adds a particular tool should control who gets access to that particular tool.",
+      "zh": "添加某个特定工具的用户，应该有权控制谁能访问那个特定工具。"
+    },
+    {
+      "timestamp": "24:54",
+      "speaker": "Unknown",
+      "en": "There's only one architecture that is possible that makes sense in how you manage context and what constraints you set up and how you manage tools and what security rules you set up.",
+      "zh": "只有一种架构是合理可行的——无论是你如何管理上下文、设置什么约束、如何管理工具、设置什么安全规则。"
+    }
+  ],
+  "voice_script": "今天聊一个听起来很美好、但藏着大麻烦的事：公司大脑。就是把全公司的知识都喂给 AI 智能体，让任何一个员工随口一问，就能得到答案。这东西最大的拦路虎，恰恰是它最诱人的地方——一旦建成，实习生入职第一天，可能就拿到所有人的薪酬明细。\n\n讲这个的是 PromptQL 的 CEO 联合创始人 Tanmay。为什么值得听他讲?因为过去一年,他们给十五到二十家企业落地过公司大脑,客户从 AI 原生公司、Instacart 这样的技术先锋,到财富一百强银行都有。团队背景是做 GraphQL 引擎的——那是数据访问领域很流行的开源项目,客户遍布 Apple、Meta、JPMorgan。用 Tanmay 自己的话说,这让他们和数据、和数据安全形成了一种爱恨交织的关系。\n\n先来看一个有意思的信号:健康的大脑长什么样。Tanmay 现场问过听众一个问题,如果给一个运转良好的公司大脑画每日更新数曲线,长什么样?多数人猜平稳波动,或者往下掉。但看他们自己团队近两个月的数据,居然是持续上升的。一开始也震惊,后来想通了:系统一旦开始运转,人们就会不断教它更多东西。教会它查数据,明天就教它解读数据,后天教它据此行动,再后来教它做 A/B 测试。而且每个智能体的学习都不完美,各自都有一个稳定的补课速率,这些速率还会累加。所以每日更新数温和上升,是大脑健康的标志。反过来看,那些第一天热情爆棚、让某个人去抓取所有 Slack 和邮件、建个共享技能库的做法,结果都是没人在乎,曲线一路向下。\n\n那要真想把知识共享起来,该怎么干?公司大脑有两个核心用例。一个是个人用,比如收到客户的安全问卷,让 AI 查公司大脑帮忙作答。另一个是多人协作用,一群人围着同一个 AI 处理事故:拉日志、查代码库、提 PR、部署测试环境、设告警。两个场景都撞上同一个问题:怎么让一个人贡献的知识,安全地流到另一个人手里?\n\n试过的三条路,条条是坑。第一条,让员工在 GitHub 上互相写共享技能。听着美好,实际上没有人会为另一个人写技能——自己连整理自己的记忆都勉强,何况为不认识的将来的人写文档。第二条,团队大脑,每个团队一个共享 AI,自动存记忆。好用,但这只是多了一个孤岛,知识锁死在一个频道里,别的团队用不上。这就把人逼到了第三条路:全员写进一个共享 wiki。这条是对的,但要加三个关键设计。\n\nTanmay 给公司大脑下的定义是:放在一组互相链接的 markdown 文件里的共享上下文,加上交给编码智能体的数据与工具访问控制规则。注意,这不是把东西拉进大模型的知识库。他们明确不走先构建巨型知识图谱再保护它的路线,那条路没成功过,也不会成功。底层逻辑是把 Claude Code 式的编码智能体用于一切通用问题,大脑就是为这种智能体建的。\n\n具体三条原则。第一,所有上下文进一个全公司 wiki,一大堆可以互相链接的 markdown 文件,不许再分孤岛——不要在这条规则上让步。第二,每个文件有作用域,规定谁能读、谁能写。往财务 wiki 加东西,就必须带财务作用域;个人内容就带个人作用域。第三条最关键:不许智能体自动写记忆。自动添加意味着没人知道发生了什么。正确姿势是让智能体建议要添加什么内容、带什么作用域,然后由人来点接受还是拒绝。这比 GitHub 上写技能、发审查请求、再合并要轻得多,又不像自动写记忆那么莽撞,是个甜点位。他们自己的界面是这样:AI 帮你回完邮件,弹出一个框,列出建议写入的几条事实要点,你只管核对这些事实对不对,对就点加入 wiki,选好每页的作用域,链接由智能体处理。\n\n由此推出两条铁律:一切进一个公司级 wiki;每一条变更,都必须挂在一个真人的名字上。wiki 里不许出现 AI 添加了这个,必须是张三添加了这个。这样真出了泄密事故,你知道该找谁补救。\n\n说到这儿,多人协作这个用例就引出一个更严重的问题。Tanmay 给了个真实的 SRE 案例:团队的自动学习功能挂了,智能体一开始没技能,调查失败。有人现场教它——别用模糊匹配查询,用精确匹配查询——它就挖出了根因:wiki 页面名带自定义前缀,导致生产环境查询出问题。更精彩的是,随后另一个同事加入,争论说这个技术决定本身就是错的。而那场争论创造了知识,因为真正的问题是有人做了一个没有记录下来的技术决定。真正该记录的,不是页面有前缀,而是页面不该有前缀,否则会在生产环境造成查询问题。两个人一起解决问题的过程,才是知识密度最高的时刻。\n\n但这带来权限提升的风险:工程师本来只被允许提 PR,现在你却能用同一个智能体部署到生产环境?那太可怕了。尤其是在银行,调试的人、部署到测试环境的人、设告警的人、部署上线的人,根本不是同一批人。\n\n解法是把读取用用户凭证这条规则,延伸到执行工具也用用户凭证。永远不要把凭证存在沙箱里,而是在 HTTP 层、SQL 层实时注入当前用户的凭证,让 AI 在每次交互中以那个人的身份行事。再加一条:把与真实数据的所有交互代理化,谁添加了某个工具,谁就控制谁能访问它。\n\n所以你看,这套东西的思路其实不复杂:别急着搞大项目,守住这几条原则反推,合理的架构只有一种。Tanmay 最后还预告了 PromptQL 自己的产品,对标 Claude 的记忆功能,思路相同但不锁死在 Claude 上,GLM、GPT 都能用。\n\n最后留一句给你带走的:公司大脑不是建出来的,是养出来的。你没法为一个有一百年历史的组织构建公司大脑——你连为自己的家庭构建一个都很难。要做的是培育:让每个干活的人拥有并构建自己那部分,每日更新数持续上升,就是它健康生长的标志。"
+}

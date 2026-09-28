@@ -1,0 +1,3010 @@
+[
+ {
+  "seg": 0,
+  "start": 12.943,
+  "end": 13.966,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.166,
+  "end": 14.888,
+  "speaker": "Unknown",
+  "en": "Everybody can see.",
+  "zh": "大家都能看到。"
+ },
+ {
+  "seg": 2,
+  "start": 15.39,
+  "end": 16.132,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "嘿，各位。"
+ },
+ {
+  "seg": 3,
+  "start": 17.756,
+  "end": 18.498,
+  "speaker": "Unknown",
+  "en": "Thank you for being here.",
+  "zh": "感谢大家来到这里。"
+ },
+ {
+  "seg": 4,
+  "start": 18.779,
+  "end": 19.601,
+  "speaker": "Unknown",
+  "en": "I'm going to talk about",
+  "zh": "我要讲的是"
+ },
+ {
+  "seg": 5,
+  "start": 22.278,
+  "end": 37.704,
+  "speaker": "Unknown",
+  "en": "The fact that if you go ahead and build a company brain, it will likely leak company secrets, which is kind of the big fear that we have about building a company brain anyway, which is this case of intern joins the company and then suddenly gets comp details on everybody kind of situation.",
+  "zh": "如果你去构建一个公司大脑，它很可能会泄露公司机密，这本来就是我们构建公司大脑时最大的担忧，也就是实习生入职公司后突然拿到所有人的薪酬明细这类情况。"
+ },
+ {
+  "seg": 6,
+  "start": 37.784,
+  "end": 39.665,
+  "speaker": "Unknown",
+  "en": "You want to guard against that.",
+  "zh": "你要防范这一点。"
+ },
+ {
+  "seg": 7,
+  "start": 40.765,
+  "end": 44.707,
+  "speaker": "Unknown",
+  "en": "This has kind of been, I guess, pretty much the biggest thing that's been holding us back from",
+  "zh": "这大概一直是"
+ },
+ {
+  "seg": 8,
+  "start": 45.447,
+  "end": 49.148,
+  "speaker": "Unknown",
+  "en": "Just deploying OpenClaw and Hermes all over the place, right?",
+  "zh": "阻止我们到处部署 OpenClaw 和 Hermes 的最大原因，对吧？"
+ },
+ {
+  "seg": 9,
+  "start": 49.228,
+  "end": 61.03,
+  "speaker": "Unknown",
+  "en": "It's also kind of the reason, it's like this big opportunity that Claude Tag had with its recent launch a few days ago, where it was going to be the company brain, but then everybody's like, well, it doesn't look like it's going to be the company brain, right?",
+  "zh": "这也是某种原因所在，就像几天前 Claude Tag 近期发布时所面临的大好机会一样，它本来要成为公司大脑，但大家都觉得，嗯，看起来它不会成为公司大脑，对吧？"
+ },
+ {
+  "seg": 10,
+  "start": 61.05,
+  "end": 63.631,
+  "speaker": "Unknown",
+  "en": "So I'm going to talk about kind of what makes it challenging.",
+  "zh": "所以我要讲讲是什么让它充满挑战。"
+ },
+ {
+  "seg": 11,
+  "start": 63.771,
+  "end": 69.092,
+  "speaker": "Unknown",
+  "en": "So before we get into that, let's kind of understand and dissect this company brain business a little bit, right?",
+  "zh": "在深入之前，让我们先来理解并剖析一下这个公司大脑的生意，好吗？"
+ },
+ {
+  "seg": 12,
+  "start": 70.672,
+  "end": 72.953,
+  "speaker": "Unknown",
+  "en": "I'm Tanmay, I'm the CEO co-founder of PromptQL.",
+  "zh": "我是 Tanmay，PromptQL 的 CEO 联合创始人。"
+ },
+ {
+  "seg": 13,
+  "start": 73.253,
+  "end": 88.877,
+  "speaker": "Unknown",
+  "en": "You can check PromptQL out later, but our background as a team building this is we come from the Hussara GraphQL, the creators of the Hussara GraphQL engine, which is a very popular open source project in the GraphQL space, where we solve a lot of data access problems.",
+  "zh": "你们稍后可以去看看 PromptQL，但我们团队构建这个东西的背景是，我们来自 Hussara GraphQL，是 Hussara GraphQL 引擎的创造者，它是 GraphQL 领域一个非常流行的开源项目，我们在那里解决了大量数据访问问题。"
+ },
+ {
+  "seg": 14,
+  "start": 90.338,
+  "end": 93.198,
+  "speaker": "Unknown",
+  "en": "We're deployed everywhere from, like, Apple to Meta to JPMorgan, et cetera.",
+  "zh": "我们部署在很多地方，从 Apple 到 Meta 到 JPMorgan 等等。"
+ },
+ {
+  "seg": 15,
+  "start": 94.239,
+  "end": 97.2,
+  "speaker": "Unknown",
+  "en": "And that kind of gave us a lot of this grounding",
+  "zh": "这给了我们很多这方面的积累"
+ },
+ {
+  "seg": 16,
+  "start": 99.18,
+  "end": 104.482,
+  "speaker": "Unknown",
+  "en": "And kind of like a love-hate relationship with data and data security.",
+  "zh": "也让我们与数据及数据安全形成了一种爱恨交织的关系。"
+ },
+ {
+  "seg": 17,
+  "start": 106.983,
+  "end": 107.243,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 18,
+  "start": 107.523,
+  "end": 118.428,
+  "speaker": "Unknown",
+  "en": "So I'm going to show you stuff that we've been working on over the last year and kind of what we've learned from that so that you can kind of take that and exercise that and try it out for yourself.",
+  "zh": "我要展示我们过去一年一直在做的东西，以及我们从中学到的东西，这样你们可以拿来实践一下，亲自试一试。"
+ },
+ {
+  "seg": 19,
+  "start": 118.948,
+  "end": 124.65,
+  "speaker": "Unknown",
+  "en": "And of course, at the end of the talk, happy to kind of exchange notes and see what works or what might not work for you.",
+  "zh": "当然，在演讲结束时，我很乐意交流心得，看看什么对你有用，什么可能没用。"
+ },
+ {
+  "seg": 20,
+  "start": 126.571,
+  "end": 131.833,
+  "speaker": "Unknown",
+  "en": "Over the last year, we've only partnered with a small set of people who've exhibited some kind of spike on scale.",
+  "zh": "过去一年，我们只与一小部分在规模上展现出某种突增的人合作。"
+ },
+ {
+  "seg": 21,
+  "start": 132.653,
+  "end": 137.314,
+  "speaker": "Unknown",
+  "en": "It's about 15 to 20 folks so far, and now we're just starting to open it up to other people.",
+  "zh": "目前大约有 15 到 20 个人，现在我们才刚刚开始向其他人开放。"
+ },
+ {
+  "seg": 22,
+  "start": 137.874,
+  "end": 142.976,
+  "speaker": "Unknown",
+  "en": "But over that course of time, we've kind of looked at three different types of set of people who have very different needs, right?",
+  "zh": "但在那段时间里，我们大致看到了三种不同类型的人群，他们有着非常不同的需求，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 142.996,
+  "end": 146.857,
+  "speaker": "Unknown",
+  "en": "You have AI-native companies that are willing to just do whatever as long as it works.",
+  "zh": "你有 AI 原生公司，只要能用，他们愿意做任何事。"
+ },
+ {
+  "seg": 24,
+  "start": 147.237,
+  "end": 153.278,
+  "speaker": "Unknown",
+  "en": "You have kind of tech-forward companies, right, folks like Instacart, who like best-of-breed technology, right?",
+  "zh": "你有偏技术先锋的公司，对吧，像 Instacart 这样的家伙，他们喜欢同类最佳的技术，对吧？"
+ },
+ {
+  "seg": 25,
+  "start": 153.619,
+  "end": 154.399,
+  "speaker": "Unknown",
+  "en": "So they'll move fast.",
+  "zh": "所以他们会快速行动。"
+ },
+ {
+  "seg": 26,
+  "start": 155.539,
+  "end": 158.722,
+  "speaker": "Unknown",
+  "en": "Tolerable to breaking things, but it just needs to be really, really good, right?",
+  "zh": "能容忍把东西搞坏，但它必须得非常、非常好，对吧？"
+ },
+ {
+  "seg": 27,
+  "start": 159.043,
+  "end": 162.606,
+  "speaker": "Unknown",
+  "en": "And then you have Fortune 100 banks who have, like, a fuck-me level of security.",
+  "zh": "然后你有财富 100 强的银行，他们拥有，呃，要命级别的安全。"
+ },
+ {
+  "seg": 28,
+  "start": 163.447,
+  "end": 165.128,
+  "speaker": "Unknown",
+  "en": "Thank God that they do because they're my bank.",
+  "zh": "感谢上帝他们这样做，因为他们是我的银行。"
+ },
+ {
+  "seg": 29,
+  "start": 165.449,
+  "end": 171.114,
+  "speaker": "Unknown",
+  "en": "I definitely don't want Vibe-coded AI agents running inside a bank because that's where my money is.",
+  "zh": "我绝对不想要靠 vibe coding 出来的智能体在银行里跑，因为那可是我放钱的地方。"
+ },
+ {
+  "seg": 30,
+  "start": 171.935,
+  "end": 174.057,
+  "speaker": "Unknown",
+  "en": "So they have a lot of security rules.",
+  "zh": "所以他们有很多安全规则。"
+ },
+ {
+  "seg": 31,
+  "start": 174.578,
+  "end": 175.138,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 32,
+  "start": 175.699,
+  "end": 177.881,
+  "speaker": "Unknown",
+  "en": "But we're deployed in places like those as well.",
+  "zh": "但我们也部署在这些地方。"
+ },
+ {
+  "seg": 33,
+  "start": 179.475,
+  "end": 182.698,
+  "speaker": "Unknown",
+  "en": "with kind of the beginnings or like the frontal lobe of a company brand, right?",
+  "zh": "拥有某种公司品牌的雏形，或者说额叶，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 182.718,
+  "end": 184.42,
+  "speaker": "Unknown",
+  "en": "So we can talk about those kind of learnings.",
+  "zh": "所以我们可以谈谈那些方面的经验。"
+ },
+ {
+  "seg": 35,
+  "start": 185.241,
+  "end": 186.462,
+  "speaker": "Unknown",
+  "en": "Our own personal usage,",
+  "zh": "我们自己的使用情况，"
+ },
+ {
+  "seg": 36,
+  "start": 187.528,
+  "end": 190.589,
+  "speaker": "Unknown",
+  "en": "of kind of building out our company brain.",
+  "zh": "也就是构建我们公司大脑的过程。"
+ },
+ {
+  "seg": 37,
+  "start": 191.429,
+  "end": 194.249,
+  "speaker": "Unknown",
+  "en": "It kind of is about 5,000 pages, so we model it as a wiki.",
+  "zh": "它大约有 5,000 页，所以我们把它建模为一个 wiki。"
+ },
+ {
+  "seg": 38,
+  "start": 194.91,
+  "end": 196.09,
+  "speaker": "Unknown",
+  "en": "You can model it however you want.",
+  "zh": "你想怎么建模都行。"
+ },
+ {
+  "seg": 39,
+  "start": 196.11,
+  "end": 197.95,
+  "speaker": "Unknown",
+  "en": "You can model it as a set of markdown files on GitHub.",
+  "zh": "你可以把它建模为 GitHub 上的一组 markdown 文件。"
+ },
+ {
+  "seg": 40,
+  "start": 197.97,
+  "end": 200.711,
+  "speaker": "Unknown",
+  "en": "You can put it into a, remember, graph frag?",
+  "zh": "你可以把它放进一个，还记得 graph frag 吗？"
+ },
+ {
+  "seg": 41,
+  "start": 201.131,
+  "end": 203.511,
+  "speaker": "Unknown",
+  "en": "You can model it in knowledge graphs.",
+  "zh": "你可以用知识图谱来建模。"
+ },
+ {
+  "seg": 42,
+  "start": 203.531,
+  "end": 204.392,
+  "speaker": "Unknown",
+  "en": "You can do whatever you want.",
+  "zh": "你想怎么做都可以。"
+ },
+ {
+  "seg": 43,
+  "start": 205.692,
+  "end": 209.893,
+  "speaker": "Unknown",
+  "en": "So you can place it wherever you want, but it's about 5,000 interconnected pages for us.",
+  "zh": "所以你可以把它放在任何你想放的地方，但对我们来说它大约有 5,000 个相互连接的页面。"
+ },
+ {
+  "seg": 44,
+  "start": 212.389,
+  "end": 213.229,
+  "speaker": "Unknown",
+  "en": "Question for you folks.",
+  "zh": "问你们一个问题。"
+ },
+ {
+  "seg": 45,
+  "start": 213.709,
+  "end": 216.09,
+  "speaker": "Unknown",
+  "en": "So suppose you had a company brain that was working.",
+  "zh": "假设你有一个正在运行的公司大脑。"
+ },
+ {
+  "seg": 46,
+  "start": 216.67,
+  "end": 218.971,
+  "speaker": "Unknown",
+  "en": "It was working well, it was all set up, right?",
+  "zh": "它运行良好，一切都设置好了，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 220.131,
+  "end": 224.372,
+  "speaker": "Unknown",
+  "en": "There would be a kind of daily number of updates that would happen to this company brain, right?",
+  "zh": "那么每天都会有一定数量的更新发生在这个公司大脑上，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 224.412,
+  "end": 227.253,
+  "speaker": "Unknown",
+  "en": "Because it was learning stuff from everybody in the company, right?",
+  "zh": "因为它在从公司每个人那里学习东西，对吧？"
+ },
+ {
+  "seg": 49,
+  "start": 227.413,
+  "end": 231.615,
+  "speaker": "Unknown",
+  "en": "From finance, to HR, to your engineers, to everybody.",
+  "zh": "从财务，到 HR，到你的工程师，到每个人。"
+ },
+ {
+  "seg": 50,
+  "start": 232.035,
+  "end": 239.637,
+  "speaker": "Unknown",
+  "en": "So if you were to plot the daily number of updates happening to the company brain, what would it sort of look like?",
+  "zh": "那么，如果你把公司大脑每天发生的更新数量画成图，它大概会是什么样子？"
+ },
+ {
+  "seg": 51,
+  "start": 240.759,
+  "end": 249.327,
+  "speaker": "Unknown",
+  "en": "Would it sort of look like roughly downwards, like all of these are like random graphs, but would it sort of like start and then go down?",
+  "zh": "它会大概看起来向下走吗？这些都是随机的图，但它会不会是先开始，然后往下走？"
+ },
+ {
+  "seg": 52,
+  "start": 249.708,
+  "end": 252.471,
+  "speaker": "Unknown",
+  "en": "Would it kind of be steady going up and down as updates spike?",
+  "zh": "还是会随着更新激增而上下波动，比较平稳？"
+ },
+ {
+  "seg": 53,
+  "start": 252.891,
+  "end": 254.853,
+  "speaker": "Unknown",
+  "en": "Or would it kind of steadily increase upwards?",
+  "zh": "还是会稳步向上增长？"
+ },
+ {
+  "seg": 54,
+  "start": 256.695,
+  "end": 261.118,
+  "speaker": "Unknown",
+  "en": "So to kind of think about, like, what would a commit history to your shared skills repo look like, right?",
+  "zh": "这样来思考一下，你共享技能仓库的提交历史会是什么样子，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 261.438,
+  "end": 267.803,
+  "speaker": "Unknown",
+  "en": "How many updates are happening to a healthy company brain, right, every single day?",
+  "zh": "一个健康的公司大脑，每天到底会发生多少次更新，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 267.823,
+  "end": 268.644,
+  "speaker": "Unknown",
+  "en": "What does that trend look like?",
+  "zh": "那个趋势会是什么样子？"
+ },
+ {
+  "seg": 57,
+  "start": 269.464,
+  "end": 270.585,
+  "speaker": "Unknown",
+  "en": "Anybody for option A?",
+  "zh": "有人选 A 选项吗？"
+ },
+ {
+  "seg": 58,
+  "start": 271.926,
+  "end": 272.807,
+  "speaker": "Unknown",
+  "en": "Anybody think it's option A?",
+  "zh": "有人觉得是 A 选项吗？"
+ },
+ {
+  "seg": 59,
+  "start": 273.067,
+  "end": 273.507,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的，不错。"
+ },
+ {
+  "seg": 60,
+  "start": 274.608,
+  "end": 275.208,
+  "speaker": "Unknown",
+  "en": "Option B?",
+  "zh": "B 选项呢？"
+ },
+ {
+  "seg": 61,
+  "start": 277.17,
+  "end": 277.33,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 62,
+  "start": 277.63,
+  "end": 278.171,
+  "speaker": "Unknown",
+  "en": "Option C?",
+  "zh": "C 选项呢？"
+ },
+ {
+  "seg": 63,
+  "start": 279.385,
+  "end": 281.326,
+  "speaker": "Unknown",
+  "en": "Oh, that's nice.",
+  "zh": "哦，很好。"
+ },
+ {
+  "seg": 64,
+  "start": 281.807,
+  "end": 292.294,
+  "speaker": "Unknown",
+  "en": "And so when I kind of plotted our thing, right, to see what a healthy company brain looks like, if you look at number one, it's basically saying we had a lot of enthusiasm.",
+  "zh": "所以当我把我们自己的东西画出来，看看健康的公司大脑是什么样子时——如果你看第一种情况，它基本上是说我们有很多热情。"
+ },
+ {
+  "seg": 65,
+  "start": 293.094,
+  "end": 296.656,
+  "speaker": "Unknown",
+  "en": "We built the company brain on day one, day two.",
+  "zh": "我们在第一天、第二天就建了公司大脑。"
+ },
+ {
+  "seg": 66,
+  "start": 296.676,
+  "end": 304.542,
+  "speaker": "Unknown",
+  "en": "We gave somebody the task and said, build all the shared skills repo, scrape all the slack, scrape all the emails, build it, and we'll all use it, and then nobody cares.",
+  "zh": "我们给某个人布置任务，说，把整个共享技能仓库建起来，把所有的 Slack 抓取下来，把所有的邮件抓取下来，把它建好，我们都会用它，结果没人在乎。"
+ },
+ {
+  "seg": 67,
+  "start": 305.926,
+  "end": 314.91,
+  "speaker": "Unknown",
+  "en": "Or you have a system which is auto-learning, maybe you have a Hermes that's deployed internally, something like that, where it's kind of steadily adding more and more comments, so it kind of goes up and down depending on who has enthusiasm.",
+  "zh": "或者你有一个自动学习的系统，也许你在内部部署了一个 Hermes 之类的东西，它会持续稳定地添加越来越多的注释，所以它会随着谁有热情而上下波动。"
+ },
+ {
+  "seg": 68,
+  "start": 316.051,
+  "end": 323.634,
+  "speaker": "Unknown",
+  "en": "And then when I plotted our history over just the last two months, and this is a little bit outdated now, this is what we got.",
+  "zh": "然后当我把我们最近两个月的图景画出来时——虽然现在这已经有点过时了——我们得到的就是这个。"
+ },
+ {
+  "seg": 69,
+  "start": 325.155,
+  "end": 325.915,
+  "speaker": "Unknown",
+  "en": "And I was kind of shocked.",
+  "zh": "我当时有点震惊。"
+ },
+ {
+  "seg": 70,
+  "start": 326.515,
+  "end": 329.637,
+  "speaker": "Unknown",
+  "en": "I was like, why is it continuously increasing?",
+  "zh": "我心想，为什么它在持续增长？"
+ },
+ {
+  "seg": 71,
+  "start": 330.503,
+  "end": 332.304,
+  "speaker": "Unknown",
+  "en": "Like, it's a gentle curve, right?",
+  "zh": "这是一条平缓的曲线，对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 332.324,
+  "end": 334.205,
+  "speaker": "Unknown",
+  "en": "But why is it gently just going up?",
+  "zh": "但为什么它在缓缓地上升？"
+ },
+ {
+  "seg": 73,
+  "start": 334.265,
+  "end": 338.127,
+  "speaker": "Unknown",
+  "en": "Why is the number of updates per day increasing?",
+  "zh": "为什么每天的更新数量在增加？"
+ },
+ {
+  "seg": 74,
+  "start": 338.467,
+  "end": 346.131,
+  "speaker": "Unknown",
+  "en": "And that was fascinating for me to see because what I realized was that if you have a system that starts to work, what happens is people start to teach it a lot more.",
+  "zh": "这对我来说非常 fascinate，因为我意识到，如果你有一个开始运转的系统，人们就会开始更多地教它。"
+ },
+ {
+  "seg": 75,
+  "start": 346.271,
+  "end": 348.413,
+  "speaker": "Unknown",
+  "en": "It's like saying, if I taught you the skill,",
+  "zh": "这就好比说，如果我教会了你查询数据的技能，"
+ },
+ {
+  "seg": 76,
+  "start": 349.173,
+  "end": 353.697,
+  "speaker": "Unknown",
+  "en": "For querying data, then tomorrow I'm going to teach you the skill for interpreting that data.",
+  "zh": "那么明天我就会教你解读那些数据的技能。"
+ },
+ {
+  "seg": 77,
+  "start": 354.138,
+  "end": 357.821,
+  "speaker": "Unknown",
+  "en": "And then day after tomorrow, I'm going to teach you the skill of how to take an action based on that.",
+  "zh": "然后天后天，我会教你如何基于此采取行动。"
+ },
+ {
+  "seg": 78,
+  "start": 358.121,
+  "end": 360.564,
+  "speaker": "Unknown",
+  "en": "And then after that, I'm going to figure out how to do A-B testing based on it.",
+  "zh": "再之后，我会琢磨如何基于它做 A-B 测试。"
+ },
+ {
+  "seg": 79,
+  "start": 360.584,
+  "end": 362.586,
+  "speaker": "Unknown",
+  "en": "So people like to continuously add more.",
+  "zh": "所以人们喜欢持续不断地添加更多东西。"
+ },
+ {
+  "seg": 80,
+  "start": 363.286,
+  "end": 368.991,
+  "speaker": "Unknown",
+  "en": "But because everything is an agent where no amount of learning is perfect, everything has its own kind of steady rate as well, right?",
+  "zh": "但因为一切都是智能体，任何学习都不可能是完美的，每个智能体也都有它自己相对稳定的速率，对吧？"
+ },
+ {
+  "seg": 81,
+  "start": 369.011,
+  "end": 372.295,
+  "speaker": "Unknown",
+  "en": "So the rates kind of, even your steady rates kind of keep adding up.",
+  "zh": "所以这些速率——即使是你那些稳定的速率——也在不断累加。"
+ },
+ {
+  "seg": 82,
+  "start": 372.675,
+  "end": 374.897,
+  "speaker": "Unknown",
+  "en": "And that's what I started to notice in our thing as well.",
+  "zh": "这也是我在我们自己的东西里开始注意到的现象。"
+ },
+ {
+  "seg": 83,
+  "start": 375.077,
+  "end": 378.059,
+  "speaker": "Unknown",
+  "en": "This is early, so who knows if it'll kind of peter out eventually.",
+  "zh": "这还很早期，所以谁知道最终它会不会逐渐消退。"
+ },
+ {
+  "seg": 84,
+  "start": 378.099,
+  "end": 379.62,
+  "speaker": "Unknown",
+  "en": "Maybe it'll start to look more like option B.",
+  "zh": "也许它之后会开始更像 B 选项。"
+ },
+ {
+  "seg": 85,
+  "start": 380.2,
+  "end": 388.144,
+  "speaker": "Unknown",
+  "en": "But a healthy brain, of course, the overall size keeps increasing, but even your daily updates per day kind of keep increasing as well.",
+  "zh": "但对于健康的大脑来说，当然，整体规模在持续增长，而且即使是每天每天的更新数量也在持续增长。"
+ },
+ {
+  "seg": 86,
+  "start": 388.164,
+  "end": 392.827,
+  "speaker": "Unknown",
+  "en": "So that's a sign of a good brain that you built, right?",
+  "zh": "所以这是你建出了一个好大脑的标志，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 392.847,
+  "end": 394.788,
+  "speaker": "Unknown",
+  "en": "A healthy brain that you built for your company.",
+  "zh": "一个你为你的公司建出的健康大脑。"
+ },
+ {
+  "seg": 88,
+  "start": 395.328,
+  "end": 395.569,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 89,
+  "start": 396.609,
+  "end": 402.392,
+  "speaker": "Unknown",
+  "en": "The use cases for company brains, how we start to analyze how we build a system that won't leak secrets, right?",
+  "zh": "公司大脑的使用场景，我们如何开始分析如何构建一个不会泄露秘密的系统，对吧？"
+ },
+ {
+  "seg": 90,
+  "start": 402.652,
+  "end": 403.353,
+  "speaker": "Unknown",
+  "en": "So two use cases.",
+  "zh": "所以有两个使用场景。"
+ },
+ {
+  "seg": 91,
+  "start": 404.848,
+  "end": 407.971,
+  "speaker": "Unknown",
+  "en": "The first use case is there is a company brain.",
+  "zh": "第一个使用场景是，存在一个公司大脑。"
+ },
+ {
+  "seg": 92,
+  "start": 408.952,
+  "end": 414.276,
+  "speaker": "Unknown",
+  "en": "I want to use it in my AI, agent, whatever, to get work done, right?",
+  "zh": "我想在我的 AI、智能体或随便什么里使用它来完成工作，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 415.057,
+  "end": 416.658,
+  "speaker": "Unknown",
+  "en": "I'll show you an example of that, right?",
+  "zh": "我会给你看一个例子，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 416.678,
+  "end": 425.426,
+  "speaker": "Unknown",
+  "en": "It's like I got an email with a security questionnaire I need to answer from a customer, and I talk to my AI, and I'm like, look up the company brain and help me answer this security questionnaire, right?",
+  "zh": "比如我收到一封邮件，里面有一份客户发来的、需要我回答的安全问卷，然后我和我的 AI 说，去查一下公司大脑，帮我回答这份安全问卷，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 425.666,
+  "end": 427.648,
+  "speaker": "Unknown",
+  "en": "That's a totally valid use case of a company brain.",
+  "zh": "这是一个完全合理的公司大脑使用场景。"
+ },
+ {
+  "seg": 96,
+  "start": 428.608,
+  "end": 430.23,
+  "speaker": "Unknown",
+  "en": "Second, very useful use case, right?",
+  "zh": "第二个，非常有用的使用场景，对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 430.25,
+  "end": 432.051,
+  "speaker": "Unknown",
+  "en": "Because it's other people's knowledge that are",
+  "zh": "因为这是别人的知识，"
+ },
+ {
+  "seg": 98,
+  "start": 432.884,
+  "end": 433.604,
+  "speaker": "Unknown",
+  "en": "That is coming to me.",
+  "zh": "它正在传到我这里。"
+ },
+ {
+  "seg": 99,
+  "start": 434.385,
+  "end": 441.229,
+  "speaker": "Unknown",
+  "en": "Second use case of a company brain is kind of similar to what Claude Tag is, is this idea of multiplayer.",
+  "zh": "公司大脑的第二个使用场景有点类似于 Claude Tag，就是这个多人协作的想法。"
+ },
+ {
+  "seg": 100,
+  "start": 441.549,
+  "end": 449.975,
+  "speaker": "Unknown",
+  "en": "And if you've been putting agents inside Slack in places where multiple people can interact with it, it's kind of been using it as a shared AI, right?",
+  "zh": "如果你把智能体放进 Slack 里多人可以与之交互的地方，它其实有点像是被当作一个共享 AI 在用，对吧？"
+ },
+ {
+  "seg": 101,
+  "start": 450.135,
+  "end": 452.176,
+  "speaker": "Unknown",
+  "en": "Like get stuff done.",
+  "zh": "比如把事情办成。"
+ },
+ {
+  "seg": 102,
+  "start": 452.917,
+  "end": 454.297,
+  "speaker": "Unknown",
+  "en": "And an example of that could be",
+  "zh": "这方面的一个例子可以是"
+ },
+ {
+  "seg": 103,
+  "start": 455.418,
+  "end": 456.959,
+  "speaker": "Unknown",
+  "en": "Collaborative incident management, right?",
+  "zh": "协作式事故管理，对吧？"
+ },
+ {
+  "seg": 104,
+  "start": 456.979,
+  "end": 468.488,
+  "speaker": "Unknown",
+  "en": "So, for example, you want to say, like, hey, I want to fetch logs, I want to investigate the, there's an incident, go fetch some logs, investigate the code base, raise the PR, deploy to staging, deploy to prod, set up an alert, right?",
+  "zh": "比如，你想说，嘿，我想拉取日志，我想调查一下，出了个事故，去拉一些日志，调查一下代码库，提一个 PR,部署到 staging,部署到 prod,设置一个告警，对吧？"
+ },
+ {
+  "seg": 105,
+  "start": 468.508,
+  "end": 471.85,
+  "speaker": "Unknown",
+  "en": "You want, like, multiple people are doing things with the company brain.",
+  "zh": "你想要的是，比如说，多个人都在用这个公司大脑做事。"
+ },
+ {
+  "seg": 106,
+  "start": 471.89,
+  "end": 473.791,
+  "speaker": "Unknown",
+  "en": "So those are kind of two use cases of the company brand.",
+  "zh": "所以这是公司大脑的两类用例。"
+ },
+ {
+  "seg": 107,
+  "start": 473.831,
+  "end": 480.055,
+  "speaker": "Unknown",
+  "en": "One is kind of this like shared collaborative knowledge use case and one is like shared AI use case itself, right?",
+  "zh": "一类是这种共享协作知识用例，另一类是共享 AI 用例本身，对吧？"
+ },
+ {
+  "seg": 108,
+  "start": 480.615,
+  "end": 486.078,
+  "speaker": "Unknown",
+  "en": "Both of those have a huge security kind of problem, right?",
+  "zh": "这两类都有一个巨大的安全问题，对吧？"
+ },
+ {
+  "seg": 109,
+  "start": 491.093,
+  "end": 495.514,
+  "speaker": "Unknown",
+  "en": "To start to secure it, let's kind of define that a little bit more strongly, right?",
+  "zh": "要开始保护它，我们先把它更严格地定义一下，对吧？"
+ },
+ {
+  "seg": 110,
+  "start": 495.814,
+  "end": 498.195,
+  "speaker": "Unknown",
+  "en": "So what exactly is a company brain?",
+  "zh": "那么公司大脑到底是什么？"
+ },
+ {
+  "seg": 111,
+  "start": 498.335,
+  "end": 499.735,
+  "speaker": "Unknown",
+  "en": "And this is my definition of it, right?",
+  "zh": "这是我的定义，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 500.295,
+  "end": 505.816,
+  "speaker": "Unknown",
+  "en": "It's shared context that you'd put in a markdown, that you'd put in a set of markdown files, right?",
+  "zh": "它是你放在一份 markdown 里、放在一组 markdown 文件里的共享上下文，对吧？"
+ },
+ {
+  "seg": 113,
+  "start": 506.536,
+  "end": 513.338,
+  "speaker": "Unknown",
+  "en": "And it's access control rules for the different data and tools that you want to access as given to a coding agent.",
+  "zh": "以及针对你希望访问的不同数据和工具的访问控制规则，这些是交给一个编码智能体的。"
+ },
+ {
+  "seg": 114,
+  "start": 514.907,
+  "end": 520.673,
+  "speaker": "Unknown",
+  "en": "So that's what I'm calling it for because I'm speaking so I can define whatever I want.",
+  "zh": "我这么称呼它，因为是我在演讲，所以我可以想怎么定义就怎么定义。"
+ },
+ {
+  "seg": 115,
+  "start": 521.854,
+  "end": 522.655,
+  "speaker": "Unknown",
+  "en": "That's my definition.",
+  "zh": "那是我的定义。"
+ },
+ {
+  "seg": 116,
+  "start": 522.735,
+  "end": 528.221,
+  "speaker": "Unknown",
+  "en": "So I'm not saying this is knowledge that is pulled into an LLM that will do tool calls, right?",
+  "zh": "所以我并不是说这是被拉进一个会执行工具调用的 LLM 的知识，对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 528.622,
+  "end": 531.485,
+  "speaker": "Unknown",
+  "en": "It is not a AI that is doing general purpose stuff.",
+  "zh": "它不是一个在做通用事情的 AI。"
+ },
+ {
+  "seg": 118,
+  "start": 531.865,
+  "end": 534.208,
+  "speaker": "Unknown",
+  "en": "It is an AI that is a coding agent",
+  "zh": "它是一个作为编码智能体的 AI"
+ },
+ {
+  "seg": 119,
+  "start": 534.468,
+  "end": 536.912,
+  "speaker": "Unknown",
+  "en": "that is solving whatever problem you throw at it, right?",
+  "zh": "去解决你扔给它的任何问题，对吧？"
+ },
+ {
+  "seg": 120,
+  "start": 536.932,
+  "end": 543.862,
+  "speaker": "Unknown",
+  "en": "Kind of similar to a little bit of the previous talk that you folks might have heard, which is this idea of like, can we just use a coding agent to solve general problems?",
+  "zh": "有点类似于你们可能听过的之前那个演讲，就是那个想法：我们能不能就用一个编码智能体来解决通用问题？"
+ },
+ {
+  "seg": 121,
+  "start": 544.302,
+  "end": 544.943,
+  "speaker": "Unknown",
+  "en": "It's that, right?",
+  "zh": "就是那个，对吧？"
+ },
+ {
+  "seg": 122,
+  "start": 545.004,
+  "end": 548.609,
+  "speaker": "Unknown",
+  "en": "So in the most trivial case, if you say, hey, write me a tweet,",
+  "zh": "所以在最琐碎的情况下，如果你说，嘿，帮我写一条推文，"
+ },
+ {
+  "seg": 123,
+  "start": 549.43,
+  "end": 553.892,
+  "speaker": "Unknown",
+  "en": "You're writing a small script that's making an AI call to write a small tweet, right?",
+  "zh": "你在写一个小脚本，让它发起一次 AI 调用来写一条小推文，对吧？"
+ },
+ {
+  "seg": 124,
+  "start": 553.912,
+  "end": 554.872,
+  "speaker": "Unknown",
+  "en": "You probably don't need to do that.",
+  "zh": "你可能不需要那么做。"
+ },
+ {
+  "seg": 125,
+  "start": 554.912,
+  "end": 557.654,
+  "speaker": "Unknown",
+  "en": "The AI itself can just, like, return the tweet back to you.",
+  "zh": "AI 本身就可以直接把推文返回给你。"
+ },
+ {
+  "seg": 126,
+  "start": 557.954,
+  "end": 560.395,
+  "speaker": "Unknown",
+  "en": "But, like, essentially, Claude Code being used for everything.",
+  "zh": "但基本上，就是把 Claude Code 用于一切事情。"
+ },
+ {
+  "seg": 127,
+  "start": 560.435,
+  "end": 562.096,
+  "speaker": "Unknown",
+  "en": "Claude Cowork is the same architecture.",
+  "zh": "Claude Cowork 是同样的架构。"
+ },
+ {
+  "seg": 128,
+  "start": 562.396,
+  "end": 567.978,
+  "speaker": "Unknown",
+  "en": "The Codex app is the same architecture, which is this realization that you can use coding agents to solve general-purpose problems.",
+  "zh": "Codex 应用也是同样的架构，也就是这个认知：你可以用编码智能体来解决通用问题。"
+ },
+ {
+  "seg": 129,
+  "start": 568.399,
+  "end": 569.679,
+  "speaker": "Unknown",
+  "en": "So we're building the brain for that.",
+  "zh": "所以我们在为那个构建大脑。"
+ },
+ {
+  "seg": 130,
+  "start": 570.079,
+  "end": 574.401,
+  "speaker": "Unknown",
+  "en": "We're not building gigantic knowledge graph, knowledge base for the company and then trying to secure it.",
+  "zh": "我们不是在为公司构建一个巨大的知识图谱、知识库，然后再试图保护它。"
+ },
+ {
+  "seg": 131,
+  "start": 574.721,
+  "end": 577.283,
+  "speaker": "Unknown",
+  "en": "That, anyway, doesn't, hasn't worked, won't work.",
+  "zh": "那条路，反正，没有成功过，也不会成功。"
+ },
+ {
+  "seg": 132,
+  "start": 579.312,
+  "end": 588.387,
+  "speaker": "Unknown",
+  "en": "So, in terms of how we want to approach designing the company brain, right, should we build a company brain?",
+  "zh": "那么，关于我们想如何设计公司大脑，对吧，我们该不该构建一个公司大脑？"
+ },
+ {
+  "seg": 133,
+  "start": 590.555,
+  "end": 602.698,
+  "speaker": "Unknown",
+  "en": "So if you're an enterprise and you're paid to twiddle your thumbs, then you like this idea of building a company brain because you're like, yes, let me take on a two-year project and I will build the company brain for JP Morgan.",
+  "zh": "如果你是一个领着工资摸鱼的企业员工，那你会喜欢构建公司大脑这个主意，因为你会说，好，让我接一个两年的项目，我来为 JP Morgan 构建公司大脑。"
+ },
+ {
+  "seg": 134,
+  "start": 603.018,
+  "end": 603.679,
+  "speaker": "Unknown",
+  "en": "That's not gonna happen.",
+  "zh": "那是不会发生的。"
+ },
+ {
+  "seg": 135,
+  "start": 603.719,
+  "end": 607.1,
+  "speaker": "Unknown",
+  "en": "You can't build a company brain for an organization that's like 100 years old, right?",
+  "zh": "你没法为一个有 100 年历史的组织构建一个公司大脑，对吧？"
+ },
+ {
+  "seg": 136,
+  "start": 607.32,
+  "end": 609.94,
+  "speaker": "Unknown",
+  "en": "You can barely build it for your own family, right?",
+  "zh": "你连为自己的家庭构建一个都很难，对吧？"
+ },
+ {
+  "seg": 137,
+  "start": 610.38,
+  "end": 613.421,
+  "speaker": "Unknown",
+  "en": "Which might just be months or years old, right?",
+  "zh": "而家庭可能才存在了几个月或几年，对吧？"
+ },
+ {
+  "seg": 138,
+  "start": 613.681,
+  "end": 619.163,
+  "speaker": "Unknown",
+  "en": "So the idea and the way that we wanna build a company brain is we want each person who does a little bit of the work in the company",
+  "zh": "所以我们的想法，以及我们想构建公司大脑的方式是，我们希望公司里每一个做了一部分工作的人"
+ },
+ {
+  "seg": 139,
+  "start": 619.743,
+  "end": 623.084,
+  "speaker": "Unknown",
+  "en": "to own and build their part of the company brain, right?",
+  "zh": "去拥有并构建他那部分的公司大脑，对吧？"
+ },
+ {
+  "seg": 140,
+  "start": 623.364,
+  "end": 625.344,
+  "speaker": "Unknown",
+  "en": "That's the way we should build it.",
+  "zh": "这才是我们应该构建它的方式。"
+ },
+ {
+  "seg": 141,
+  "start": 625.624,
+  "end": 627.905,
+  "speaker": "Unknown",
+  "en": "So that's kind of constraint number two that I'm putting.",
+  "zh": "所以这是我提出的第二个约束。"
+ },
+ {
+  "seg": 142,
+  "start": 628.085,
+  "end": 635.687,
+  "speaker": "Unknown",
+  "en": "One was the definition of the company brain, and second is how the approach that we want to take for how a company brain is built.",
+  "zh": "第一个是公司大脑的定义，第二个是我们想采取的构建公司大脑的方式。"
+ },
+ {
+  "seg": 143,
+  "start": 635.707,
+  "end": 638.948,
+  "speaker": "Unknown",
+  "en": "I like kind of this way of phrasing it, which is that we're going to grow a company brain.",
+  "zh": "我挺喜欢这种表述方式，就是说，我们要去培育一个公司大脑。"
+ },
+ {
+  "seg": 144,
+  "start": 639.828,
+  "end": 641.588,
+  "speaker": "Unknown",
+  "en": "We're not going to build one, right?",
+  "zh": "我们不是去构建一个，对吧？"
+ },
+ {
+  "seg": 145,
+  "start": 641.608,
+  "end": 644.089,
+  "speaker": "Unknown",
+  "en": "We're going to, like, let it come together.",
+  "zh": "我们要让它自己汇聚起来。"
+ },
+ {
+  "seg": 146,
+  "start": 644.109,
+  "end": 647.27,
+  "speaker": "Unknown",
+  "en": "The system needs to come together, otherwise it's not possible to build.",
+  "zh": "这个系统需要自己汇聚成型，否则是不可能构建出来的。"
+ },
+ {
+  "seg": 147,
+  "start": 647.85,
+  "end": 648.09,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 148,
+  "start": 651.512,
+  "end": 654.494,
+  "speaker": "Unknown",
+  "en": "Broadly, we want to let each person self-serve their bit of the company brain.",
+  "zh": "大体上，我们想让每个人自助式地打理他那部分的公司大脑。"
+ },
+ {
+  "seg": 149,
+  "start": 655.655,
+  "end": 657.977,
+  "speaker": "Unknown",
+  "en": "And so these are kind of like the various steps that you want to follow.",
+  "zh": "而这些就是你想遵循的各个步骤。"
+ },
+ {
+  "seg": 150,
+  "start": 658.377,
+  "end": 660.299,
+  "speaker": "Unknown",
+  "en": "I'll come back to this in more detail if you have time.",
+  "zh": "如果你有时间，我稍后会更详细地回到这个话题。"
+ },
+ {
+  "seg": 151,
+  "start": 660.619,
+  "end": 663.221,
+  "speaker": "Unknown",
+  "en": "But let's start with a particular use case, right?",
+  "zh": "但让我们先从一个特定的用例开始，对吧？"
+ },
+ {
+  "seg": 152,
+  "start": 663.661,
+  "end": 668.285,
+  "speaker": "Unknown",
+  "en": "So in this particular use case, what I have is this kind of situation where",
+  "zh": "在这个特定的用例中，我所面临的是这样一种情况："
+ },
+ {
+  "seg": 153,
+  "start": 669.587,
+  "end": 671.729,
+  "speaker": "Unknown",
+  "en": "This is kind of the tangible example I want to take for you folks.",
+  "zh": "这是我想给大家举的一个具体例子。"
+ },
+ {
+  "seg": 154,
+  "start": 672.49,
+  "end": 675.053,
+  "speaker": "Unknown",
+  "en": "I got an email, just a security questionnaire example, right?",
+  "zh": "我收到了一封邮件，就是一个安全问卷的例子，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 675.613,
+  "end": 681.119,
+  "speaker": "Unknown",
+  "en": "Hey, I got an email from Dave at Stitch Fix, and that is a bunch of questions I want to answer, right?",
+  "zh": "比如说，他们有一个 Hermes 智能体之类的。"
+ },
+ {
+  "seg": 156,
+  "start": 681.5,
+  "end": 682.461,
+  "speaker": "Unknown",
+  "en": "So it pulls up my email.",
+  "zh": "于是它打开了我的邮箱。"
+ },
+ {
+  "seg": 157,
+  "start": 683.161,
+  "end": 686.144,
+  "speaker": "Unknown",
+  "en": "It says the email has a screenshot of their security onboarding.",
+  "zh": "它说这封邮件里有一张他们安全入驻流程的截图。"
+ },
+ {
+  "seg": 158,
+  "start": 686.825,
+  "end": 689.926,
+  "speaker": "Unknown",
+  "en": "And then it starts to kind of answer those questions, right?",
+  "zh": "然后它开始回答那些问题，对吧？"
+ },
+ {
+  "seg": 159,
+  "start": 690.907,
+  "end": 692.268,
+  "speaker": "Unknown",
+  "en": "I have no idea how it knew.",
+  "zh": "我完全不知道它是怎么知道的。"
+ },
+ {
+  "seg": 160,
+  "start": 692.508,
+  "end": 697.09,
+  "speaker": "Unknown",
+  "en": "I was kind of very surprised to see that it answered all of the questions on, like, hey, this is our trust center.",
+  "zh": "我当时相当惊讶地看到它回答了所有这些问题，比如，嘿，这是我们的信任中心。"
+ },
+ {
+  "seg": 161,
+  "start": 697.45,
+  "end": 698.951,
+  "speaker": "Unknown",
+  "en": "This is how our security stuff looks.",
+  "zh": "这就是我们的安全相关内容的样子。"
+ },
+ {
+  "seg": 162,
+  "start": 699.531,
+  "end": 700.872,
+  "speaker": "Unknown",
+  "en": "They have a gateway, right?",
+  "zh": "他们有一个网关，对吧？"
+ },
+ {
+  "seg": 163,
+  "start": 700.932,
+  "end": 701.592,
+  "speaker": "Unknown",
+  "en": "It does something.",
+  "zh": "它做一些事情。"
+ },
+ {
+  "seg": 164,
+  "start": 702.032,
+  "end": 703.553,
+  "speaker": "Unknown",
+  "en": "All of this is kind of coming from",
+  "zh": "这一切基本上都来自于"
+ },
+ {
+  "seg": 165,
+  "start": 704.713,
+  "end": 705.794,
+  "speaker": "Unknown",
+  "en": "The company brain, right?",
+  "zh": "公司大脑，对吧？"
+ },
+ {
+  "seg": 166,
+  "start": 705.814,
+  "end": 706.595,
+  "speaker": "Unknown",
+  "en": "Which is the answer to that.",
+  "zh": "这就是那个问题的答案。"
+ },
+ {
+  "seg": 167,
+  "start": 706.935,
+  "end": 710.538,
+  "speaker": "Unknown",
+  "en": "And then kind of go ahead and I'm like, hey, just go ahead and send this.",
+  "zh": "然后我就说，嘿，直接把这个发出去吧。"
+ },
+ {
+  "seg": 168,
+  "start": 710.998,
+  "end": 711.759,
+  "speaker": "Unknown",
+  "en": "I like this draft.",
+  "zh": "我喜欢这个草稿。"
+ },
+ {
+  "seg": 169,
+  "start": 712.079,
+  "end": 713.601,
+  "speaker": "Unknown",
+  "en": "Go ahead and send this draft to Dave, right?",
+  "zh": "直接把这个草稿发给 Dave 吧，对吧？"
+ },
+ {
+  "seg": 170,
+  "start": 713.901,
+  "end": 715.322,
+  "speaker": "Unknown",
+  "en": "And then goes and sends that email.",
+  "zh": "然后它就去把那封邮件发出去了。"
+ },
+ {
+  "seg": 171,
+  "start": 715.442,
+  "end": 716.803,
+  "speaker": "Unknown",
+  "en": "Really simple example of what I want to do.",
+  "zh": "一个非常简单的、我想做的事情的例子。"
+ },
+ {
+  "seg": 172,
+  "start": 717.224,
+  "end": 732.457,
+  "speaker": "Unknown",
+  "en": "Now, the challenge here, right, and the issue is that how do we build a system, right, which somebody else can contribute to that a third person kind of uses?",
+  "zh": "那么，这里的挑战，对吧，问题在于，我们要如何构建一个系统，对吧，让别人可以为之做贡献，然后第三个人又可以使用它？"
+ },
+ {
+  "seg": 173,
+  "start": 733.707,
+  "end": 737.971,
+  "speaker": "Unknown",
+  "en": "How did this knowledge about what our security thing is come in?",
+  "zh": "关于我们安全情况是什么的这些知识是怎么进来的？"
+ },
+ {
+  "seg": 174,
+  "start": 738.512,
+  "end": 742.535,
+  "speaker": "Unknown",
+  "en": "Presumably somebody else had been working on the same security questionnaire, right?",
+  "zh": "想必之前有其他人也在处理同样的安全问卷，对吧？"
+ },
+ {
+  "seg": 175,
+  "start": 742.555,
+  "end": 744.177,
+  "speaker": "Unknown",
+  "en": "So they had, let's say, a Hermes agent or whatever.",
+  "zh": "所以他们有,比如说,一个 Hermes 智能体之类的。"
+ },
+ {
+  "seg": 176,
+  "start": 744.858,
+  "end": 745.578,
+  "speaker": "Unknown",
+  "en": "They were working on it.",
+  "zh": "他们在处理这件事。"
+ },
+ {
+  "seg": 177,
+  "start": 745.959,
+  "end": 747.18,
+  "speaker": "Unknown",
+  "en": "You auto-saved some memory.",
+  "zh": "系统自动保存了一些记忆。"
+ },
+ {
+  "seg": 178,
+  "start": 747.4,
+  "end": 748.581,
+  "speaker": "Unknown",
+  "en": "Maybe somebody wrote down a skill.",
+  "zh": "也许有人写下了一个技能。"
+ },
+ {
+  "seg": 179,
+  "start": 749.082,
+  "end": 752.645,
+  "speaker": "Unknown",
+  "en": "Somehow that piece has to come to my AI agent.",
+  "zh": "不知怎的，那一部分内容必须传到我的 AI 智能体那里。"
+ },
+ {
+  "seg": 180,
+  "start": 753.005,
+  "end": 754.427,
+  "speaker": "Unknown",
+  "en": "How are we going to make that possible?",
+  "zh": "我们要如何做到这一点？"
+ },
+ {
+  "seg": 181,
+  "start": 755.727,
+  "end": 762.611,
+  "speaker": "Unknown",
+  "en": "Now, let's try obvious thing number one, which is that everybody writes shared skills for each other on GitHub.",
+  "zh": "现在，让我们试试显而易见的方案一，就是大家在 GitHub 上互相为对方写共享技能。"
+ },
+ {
+  "seg": 182,
+  "start": 762.891,
+  "end": 770.296,
+  "speaker": "Unknown",
+  "en": "So the first time the security questionnaire was answered by your security person, everybody visualized your security and compliance person in your head.",
+  "zh": "所以第一次安全问卷是由你们的安全人员回答的——大家在脑子里想象一下你们的安全和合规人员。"
+ },
+ {
+  "seg": 183,
+  "start": 770.596,
+  "end": 783.503,
+  "speaker": "Unknown",
+  "en": "Now, imagine that they, after answering the questionnaire, it sucks to answer questionnaires, after answering this gigantic Excel sheet of a questionnaire, they then went to GitHub and updated a shared skill.",
+  "zh": "现在，想象一下，他们在回答完问卷之后——回答问卷很烦人——在回答完这份巨大的 Excel 表格式的问卷之后，他们接着去 GitHub 上更新了一个共享技能。"
+ },
+ {
+  "seg": 184,
+  "start": 784.843,
+  "end": 785.083,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 786.244,
+  "end": 796.613,
+  "speaker": "Unknown",
+  "en": "Many of you are fortunate to work with people who are modeled after our Lord and Savior Christ, who are so nice, who will go and update shared skills in a GitHub repo.",
+  "zh": "你们很多人有幸和那些以我们的主和救世主基督为榜样的人共事，他们人特别好，会真的去 GitHub 仓库里更新共享技能。"
+ },
+ {
+  "seg": 186,
+  "start": 797.233,
+  "end": 797.453,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 797.674,
+  "end": 798.754,
+  "speaker": "Unknown",
+  "en": "Most people will not.",
+  "zh": "大多数人不会这么做。"
+ },
+ {
+  "seg": 188,
+  "start": 799.435,
+  "end": 802.698,
+  "speaker": "Unknown",
+  "en": "Nobody is going to write skills for another person.",
+  "zh": "没有人会为另一个人去写技能。"
+ },
+ {
+  "seg": 189,
+  "start": 803.752,
+  "end": 804.212,
+  "speaker": "Unknown",
+  "en": "In GitHub.",
+  "zh": "在 GitHub 上。"
+ },
+ {
+  "seg": 190,
+  "start": 804.312,
+  "end": 807.834,
+  "speaker": "Unknown",
+  "en": "Like, that is not something that is natural to us, right?",
+  "zh": "就是说，这对我来说不是自然而然的事，对吧？"
+ },
+ {
+  "seg": 191,
+  "start": 807.934,
+  "end": 819.561,
+  "speaker": "Unknown",
+  "en": "In the day-to-day of doing work, we don't suddenly decide that, ooh, this might be really useful for somebody else I don't even know, I'm not connected to in this situation in the future.",
+  "zh": "在日常工作中，我们不会突然决定，哦，这个可能对某个我根本不认识、在这种情况下将来也不会有联系的人很有用。"
+ },
+ {
+  "seg": 192,
+  "start": 820.241,
+  "end": 820.762,
+  "speaker": "Unknown",
+  "en": "Not happening.",
+  "zh": "不会发生的。"
+ },
+ {
+  "seg": 193,
+  "start": 820.942,
+  "end": 824.264,
+  "speaker": "Unknown",
+  "en": "I can barely get it to, like, curate my own memory and my context.",
+  "zh": "我连让它整理好我自己的记忆和上下文都勉勉强强。"
+ },
+ {
+  "seg": 194,
+  "start": 824.564,
+  "end": 826.585,
+  "speaker": "Unknown",
+  "en": "I do not have the time to write it down for somebody else.",
+  "zh": "我没有时间为别人把它写下来。"
+ },
+ {
+  "seg": 195,
+  "start": 827.085,
+  "end": 827.485,
+  "speaker": "Unknown",
+  "en": "Second,",
+  "zh": "第二，"
+ },
+ {
+  "seg": 196,
+  "start": 831.404,
+  "end": 833.471,
+  "speaker": "Unknown",
+  "en": "Instead of having a company brain, why don't you do a team brain?",
+  "zh": "与其用一个公司大脑，为什么不做一个团队大脑呢？"
+ },
+ {
+  "seg": 197,
+  "start": 833.752,
+  "end": 835.878,
+  "speaker": "Unknown",
+  "en": "Why don't you all just use one shared?",
+  "zh": "为什么你们不都用一个共享的呢？"
+ },
+ {
+  "seg": 198,
+  "start": 835.898,
+  "end": 838.707,
+  "speaker": "Unknown",
+  "en": "Why doesn't the security team kind of use one more?",
+  "zh": "为什么安全团队不更多地用"
+ },
+ {
+  "seg": 199,
+  "start": 840.233,
+  "end": 841.714,
+  "speaker": "Unknown",
+  "en": "Shared silo where you can do this, right?",
+  "zh": "一个可以做这件事的共享筒仓呢，对吧？"
+ },
+ {
+  "seg": 200,
+  "start": 841.734,
+  "end": 844.695,
+  "speaker": "Unknown",
+  "en": "So build an agent and have it kind of save to memory itself, right?",
+  "zh": "所以做一个智能体，让它自己把内容存到记忆里，对吧？"
+ },
+ {
+  "seg": 201,
+  "start": 845.335,
+  "end": 850.037,
+  "speaker": "Unknown",
+  "en": "And that's kind of the architecture that I'm guessing a lot of you folks have with maybe something like a Hermes added to Slack.",
+  "zh": "我猜你们很多人都有类似这样的架构，可能是在 Slack 上加了类似 Hermes 的东西。"
+ },
+ {
+  "seg": 202,
+  "start": 850.057,
+  "end": 858.2,
+  "speaker": "Unknown",
+  "en": "Does anybody have kind of a team brain situation going where you have an AI that multiple people use that auto saves memory and auto adds context?",
+  "zh": "有没有人搞了那种「团队大脑」的情况，也就是有一个多个人共用的 AI，会自动保存记忆、自动添加上下文？"
+ },
+ {
+  "seg": 203,
+  "start": 858.22,
+  "end": 862.302,
+  "speaker": "Unknown",
+  "en": "Does anybody have kind of like a skill that does that already just for a small team?",
+  "zh": "有没有人已经有那种技能，哪怕只是针对小团队的？"
+ },
+ {
+  "seg": 204,
+  "start": 863.344,
+  "end": 863.484,
+  "speaker": "Unknown",
+  "en": "One.",
+  "zh": "有一位。"
+ },
+ {
+  "seg": 205,
+  "start": 863.624,
+  "end": 864.085,
+  "speaker": "Unknown",
+  "en": "Anybody else?",
+  "zh": "还有其他人吗？"
+ },
+ {
+  "seg": 206,
+  "start": 864.205,
+  "end": 864.425,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 207,
+  "start": 864.746,
+  "end": 865.507,
+  "speaker": "Unknown",
+  "en": "Okay, a few of you have that.",
+  "zh": "好，你们几个人有。"
+ },
+ {
+  "seg": 208,
+  "start": 865.527,
+  "end": 866.408,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "挺不错的。"
+ },
+ {
+  "seg": 209,
+  "start": 867.029,
+  "end": 871.734,
+  "speaker": "Unknown",
+  "en": "This is nice, but the problem is it's still not a company brain because it's still isolated, right?",
+  "zh": "这很好，但问题是它仍然不是公司大脑，因为它仍然是隔离的，对吧？"
+ },
+ {
+  "seg": 210,
+  "start": 871.854,
+  "end": 873.897,
+  "speaker": "Unknown",
+  "en": "So it's like one more silo, right?",
+  "zh": "所以这只是又一个孤岛，对吧？"
+ },
+ {
+  "seg": 211,
+  "start": 873.917,
+  "end": 877.16,
+  "speaker": "Unknown",
+  "en": "Like, for example, if this gets, like, with Claude tag,",
+  "zh": "比如，如果这个被加上了，比如带着 Claude 标签,"
+ },
+ {
+  "seg": 212,
+  "start": 879.052,
+  "end": 880.994,
+  "speaker": "Unknown",
+  "en": "It has a per-channel memory, right?",
+  "zh": "它有按频道的记忆，对吧？"
+ },
+ {
+  "seg": 213,
+  "start": 881.014,
+  "end": 886.68,
+  "speaker": "Unknown",
+  "en": "So in every channel, it gets saved, but now it's another silo in that one channel, right?",
+  "zh": "所以在每个频道里它都会保存，但现在它又在那一个频道里成了另一个孤岛，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 886.72,
+  "end": 890.684,
+  "speaker": "Unknown",
+  "en": "So now it's again locked into one place that can't be used anywhere else.",
+  "zh": "所以它又被锁死在一个地方，不能在别处使用。"
+ },
+ {
+  "seg": 215,
+  "start": 890.704,
+  "end": 894.207,
+  "speaker": "Unknown",
+  "en": "So if somebody got added to the channel, it would work, but otherwise it wouldn't work, right?",
+  "zh": "所以如果有人被加进频道，它能工作，但除此之外就不能用，对吧？"
+ },
+ {
+  "seg": 216,
+  "start": 895.369,
+  "end": 898.191,
+  "speaker": "Unknown",
+  "en": "And so this is the third option.",
+  "zh": "所以这是第三种选择。"
+ },
+ {
+  "seg": 217,
+  "start": 899.833,
+  "end": 902.476,
+  "speaker": "Unknown",
+  "en": "The third option is saying all context",
+  "zh": "第三种选择是说，所有上下文"
+ },
+ {
+  "seg": 218,
+  "start": 903.646,
+  "end": 905.707,
+  "speaker": "Unknown",
+  "en": "goes into a single shared wiki.",
+  "zh": "都进入一个单一的共享 wiki。"
+ },
+ {
+  "seg": 219,
+  "start": 906.207,
+  "end": 908.867,
+  "speaker": "Unknown",
+  "en": "A wiki is a set of markdown files, and markdown files can link to each other.",
+  "zh": "Wiki 就是一组 markdown 文件，而 markdown 文件可以互相链接。"
+ },
+ {
+  "seg": 220,
+  "start": 908.907,
+  "end": 910.308,
+  "speaker": "Unknown",
+  "en": "So imagine a gigantic folder.",
+  "zh": "所以想象一个巨大的文件夹。"
+ },
+ {
+  "seg": 221,
+  "start": 911.128,
+  "end": 913.808,
+  "speaker": "Unknown",
+  "en": "The folder has lots of markdown files, right?",
+  "zh": "文件夹里有很多 markdown 文件，对吧？"
+ },
+ {
+  "seg": 222,
+  "start": 914.068,
+  "end": 915.649,
+  "speaker": "Unknown",
+  "en": "And markdown files can link to each other.",
+  "zh": "而 markdown 文件可以互相链接。"
+ },
+ {
+  "seg": 223,
+  "start": 916.189,
+  "end": 927.232,
+  "speaker": "Unknown",
+  "en": "So all context, instead of saving it inside a folder or siloing it, you put it in a markdown file, the equivalent of a markdown file, and you let it link with each other.",
+  "zh": "所以所有上下文，不是存在某个文件夹里或者隔离起来，而是放进一个 markdown 文件，或者相当于 markdown 文件的东西里，并让它们互相链接。"
+ },
+ {
+  "seg": 224,
+  "start": 928.632,
+  "end": 932.393,
+  "speaker": "Unknown",
+  "en": "The second thing that you do is you allow each file to have scopes.",
+  "zh": "你要做的第二件事，是允许每个文件有作用域。"
+ },
+ {
+  "seg": 225,
+  "start": 933.504,
+  "end": 936.527,
+  "speaker": "Unknown",
+  "en": "on who can have read-write access to that file.",
+  "zh": "规定谁能对该文件拥有读写权限。"
+ },
+ {
+  "seg": 226,
+  "start": 939.03,
+  "end": 945.557,
+  "speaker": "Unknown",
+  "en": "The third thing that you do, which is the most important, you don't let the agent auto-add the memory.",
+  "zh": "你要做的第三件事，也是最重要的一件，是不要让智能体自动添加记忆。"
+ },
+ {
+  "seg": 227,
+  "start": 949.561,
+  "end": 955.767,
+  "speaker": "Unknown",
+  "en": "You don't let it auto-add, because if it auto-ads, you have no idea what happened, right?",
+  "zh": "不要让它自动添加，因为如果它自动添加，你就完全不知道发生了什么，对吧？"
+ },
+ {
+  "seg": 228,
+  "start": 958.117,
+  "end": 964.639,
+  "speaker": "Unknown",
+  "en": "We're back to kind of the same world where some stuff is getting added, and as long as you are in that agent's memory, you're lucky, right?",
+  "zh": "我们就回到了之前那种世界：有些东西被加了进来，而只要你恰好在那个智能体的记忆里，就算你运气好，对吧？"
+ },
+ {
+  "seg": 229,
+  "start": 965.06,
+  "end": 974.763,
+  "speaker": "Unknown",
+  "en": "So the third thing that you do is instead of letting the agent auto-add, do something that allows your agent to suggest what is added with what scopes.",
+  "zh": "所以你做的第三件事是，不是让智能体自动添加，而是让你的智能体去建议添加什么内容、带什么作用域。"
+ },
+ {
+  "seg": 230,
+  "start": 976.483,
+  "end": 980.545,
+  "speaker": "Unknown",
+  "en": "And then have the human accept or reject.",
+  "zh": "然后由人来接受或拒绝。"
+ },
+ {
+  "seg": 231,
+  "start": 981.985,
+  "end": 983.906,
+  "speaker": "Unknown",
+  "en": "So it's not as heavy as GitHub.",
+  "zh": "所以它不像 GitHub 那么重。"
+ },
+ {
+  "seg": 232,
+  "start": 984.761,
+  "end": 990.226,
+  "speaker": "Unknown",
+  "en": "Where I have to go and write this, update a shared skill, do a PR review, and then get it merged.",
+  "zh": "不用走到那一步：写好这个，更新一个共享技能，做一个 PR 审查，然后合并。"
+ },
+ {
+  "seg": 233,
+  "start": 991.167,
+  "end": 996.672,
+  "speaker": "Unknown",
+  "en": "But it's also not as YOLO as the memory just kind of being auto-written by the agent, right?",
+  "zh": "但它也不像记忆被智能体自动写入那么 YOLO，对吧？"
+ },
+ {
+  "seg": 234,
+  "start": 996.973,
+  "end": 1004.62,
+  "speaker": "Unknown",
+  "en": "It's kind of the sweet spot where while you are working, you pop it up, suggest the right scopes, and let somebody add it.",
+  "zh": "它是一个最佳平衡点：你在工作时，把它弹出来，建议合适的作用域，然后让某个人添加它。"
+ },
+ {
+  "seg": 235,
+  "start": 1005.26,
+  "end": 1007.703,
+  "speaker": "Unknown",
+  "en": "So now what happens is with this very simple addition,",
+  "zh": "所以现在发生的是，有了这个非常简单的改动,"
+ },
+ {
+  "seg": 236,
+  "start": 1008.622,
+  "end": 1008.822,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 237,
+  "start": 1009.222,
+  "end": 1017.185,
+  "speaker": "Unknown",
+  "en": "You are able to let people add to a gigantic wiki, but you let that person take on responsibility for what they can see or not.",
+  "zh": "你就能让人们往一个巨大的 wiki 里添加内容，同时让那个人对他们能看到或看不到的内容承担责任。"
+ },
+ {
+  "seg": 238,
+  "start": 1017.505,
+  "end": 1022.186,
+  "speaker": "Unknown",
+  "en": "So if I'm adding something to the finance wiki, I want to make sure I'm adding something that's sensitive.",
+  "zh": "所以如果我在往财务 wiki 里添加东西，我要确保我添加的是敏感内容。"
+ },
+ {
+  "seg": 239,
+  "start": 1022.347,
+  "end": 1023.647,
+  "speaker": "Unknown",
+  "en": "I want to make sure it has a finance scope.",
+  "zh": "我要确保它带有财务作用域。"
+ },
+ {
+  "seg": 240,
+  "start": 1024.087,
+  "end": 1026.668,
+  "speaker": "Unknown",
+  "en": "If I'm adding something that's personal, I want to make sure that that's personal scope.",
+  "zh": "如果我添加的是个人内容，我要确保那是个人作用域。"
+ },
+ {
+  "seg": 241,
+  "start": 1027.048,
+  "end": 1029.069,
+  "speaker": "Unknown",
+  "en": "Let me show you an example UX of what that might look like.",
+  "zh": "让我给你们看一个示例 UX，看看它可能是什么样子。"
+ },
+ {
+  "seg": 242,
+  "start": 1029.089,
+  "end": 1029.749,
+  "speaker": "Unknown",
+  "en": "This is what we do.",
+  "zh": "这就是我们做的。"
+ },
+ {
+  "seg": 243,
+  "start": 1045.562,
+  "end": 1052.712,
+  "speaker": "Unknown",
+  "en": "This was a recent email that I got from one of our sales reps adding me onto a call.",
+  "zh": "这是我最近收到的一封邮件，是我们一位销售代表把我加进一个通话。"
+ },
+ {
+  "seg": 244,
+  "start": 1053.453,
+  "end": 1062.046,
+  "speaker": "Unknown",
+  "en": "I looked at that email, helped answer it, and then I got a little box that suggested a bunch of bullets that told me what it's going to add.",
+  "zh": "我看了那封邮件，帮忙回复了，然后我收到一个小框，里面建议了一堆要点，告诉我它将要添加什么。"
+ },
+ {
+  "seg": 245,
+  "start": 1063.385,
+  "end": 1063.585,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 246,
+  "start": 1064.005,
+  "end": 1067.788,
+  "speaker": "Unknown",
+  "en": "And when I hit Add to Wiki, and so now it's much easier for me to review what is getting added.",
+  "zh": "而当我点「添加到 Wiki」时，现在我审查要添加的内容就容易多了。"
+ },
+ {
+  "seg": 247,
+  "start": 1067.868,
+  "end": 1068.528,
+  "speaker": "Unknown",
+  "en": "I don't care.",
+  "zh": "我不在乎。"
+ },
+ {
+  "seg": 248,
+  "start": 1069.189,
+  "end": 1074.692,
+  "speaker": "Unknown",
+  "en": "I don't care if it gets added into this markdown file, that markdown file, what links that the agent takes care of.",
+  "zh": "我不在乎它是被添加到这个 markdown 文件还是那个 markdown 文件，链接什么的智能体会处理。"
+ },
+ {
+  "seg": 249,
+  "start": 1075.013,
+  "end": 1077.094,
+  "speaker": "Unknown",
+  "en": "What I care about is, are these facts correct?",
+  "zh": "我在乎的是，这些事实对不对？"
+ },
+ {
+  "seg": 250,
+  "start": 1078.758,
+  "end": 1082.9,
+  "speaker": "Unknown",
+  "en": "If these facts are correct, I'm going to hit Add to Wiki, and I'm going to be done, right?",
+  "zh": "如果这些事实是正确的,我就点击 Add to Wiki,然后就完成了,对吧?"
+ },
+ {
+  "seg": 251,
+  "start": 1083.48,
+  "end": 1088.883,
+  "speaker": "Unknown",
+  "en": "And during the time of Add to Wiki, I can choose what scopes need to be added per Wiki page or not, right?",
+  "zh": "在 Add to Wiki 的过程中,我可以选择每个 Wiki 页面需要添加哪些权限范围,或者不添加,对吧?"
+ },
+ {
+  "seg": 252,
+  "start": 1088.923,
+  "end": 1094.746,
+  "speaker": "Unknown",
+  "en": "So each Wiki page itself can get a certain set of scopes that you want to decide who gets access to what, for example, right?",
+  "zh": "所以每个 Wiki 页面本身可以得到一组特定的权限范围,由你来决定谁访问什么,比如,对吧?"
+ },
+ {
+  "seg": 253,
+  "start": 1094.766,
+  "end": 1096.347,
+  "speaker": "Unknown",
+  "en": "So for example, my email,",
+  "zh": "举例来说,我的邮箱,"
+ },
+ {
+  "seg": 254,
+  "start": 1097.147,
+  "end": 1100.349,
+  "speaker": "Unknown",
+  "en": "This is the wiki page that I have for my emails and how my emails are prioritized.",
+  "zh": "这是我为我的邮件创建的 Wiki 页面,以及我的邮件是如何被划分优先级的。"
+ },
+ {
+  "seg": 255,
+  "start": 1100.669,
+  "end": 1105.091,
+  "speaker": "Unknown",
+  "en": "And I can now decide who gets access to this, who are the owners for this and what they are back for this.",
+  "zh": "现在我可以决定谁有权访问它,谁是它的所有者,以及他们为此负责什么。"
+ },
+ {
+  "seg": 256,
+  "start": 1105.171,
+  "end": 1107.852,
+  "speaker": "Unknown",
+  "en": "So whatever the system looks like is up to you folks.",
+  "zh": "系统具体长什么样由你们自己决定。"
+ },
+ {
+  "seg": 257,
+  "start": 1108.173,
+  "end": 1113.155,
+  "speaker": "Unknown",
+  "en": "But the core idea is that you want to get the agent to suggest a change instead of doing the change.",
+  "zh": "补充:这就是它的架构图,有用户,"
+ },
+ {
+  "seg": 258,
+  "start": 1114.176,
+  "end": 1114.436,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 259,
+  "start": 1115.356,
+  "end": 1115.856,
+  "speaker": "Unknown",
+  "en": "So two rules.",
+  "zh": "那么有两条规则。"
+ },
+ {
+  "seg": 260,
+  "start": 1116.377,
+  "end": 1119.318,
+  "speaker": "Unknown",
+  "en": "One, make sure that everything goes into one company-wide wiki.",
+  "zh": "第一,确保所有内容都进入一个全公司范围的 Wiki。"
+ },
+ {
+  "seg": 261,
+  "start": 1119.358,
+  "end": 1120.459,
+  "speaker": "Unknown",
+  "en": "Don't back down from this rule.",
+  "zh": "不要在这条规则上让步。"
+ },
+ {
+  "seg": 262,
+  "start": 1121.373,
+  "end": 1126.734,
+  "speaker": "Unknown",
+  "en": "Second, make sure that, as a part of that, every change is backed by a human's name.",
+  "zh": "第二,确保作为其中一部分,每个变更都有一个人的名字背书。"
+ },
+ {
+  "seg": 263,
+  "start": 1127.514,
+  "end": 1135.056,
+  "speaker": "Unknown",
+  "en": "Nothing should be allowed inside the wiki that is Claude added this or your AI agent added this or Hermes added this.",
+  "zh": "Wiki 里不应该出现任何「Claude 添加了这个」或「你的 AI 智能体添加了这个」或「Hermes 添加了这个」的内容。"
+ },
+ {
+  "seg": 264,
+  "start": 1135.136,
+  "end": 1136.417,
+  "speaker": "Unknown",
+  "en": "No, Tanmay added this.",
+  "zh": "不行,必须是「Tanmay 添加了这个」。"
+ },
+ {
+  "seg": 265,
+  "start": 1136.457,
+  "end": 1147.519,
+  "speaker": "Unknown",
+  "en": "That name needs to be there so that you can tie it back to this is the person who screwed up and allowed everybody to see everybody's comp and whatever.",
+  "zh": "那个名字必须在场,这样你才能追溯到就是这个人搞砸了,让所有人看到了所有人的薪酬之类的东西。"
+ },
+ {
+  "seg": 266,
+  "start": 1147.579,
+  "end": 1150.4,
+  "speaker": "Unknown",
+  "en": "Now you can take remedial action, whatever that is.",
+  "zh": "现在你可以采取补救措施,不管那是什么。"
+ },
+ {
+  "seg": 267,
+  "start": 1152.26,
+  "end": 1153.641,
+  "speaker": "Unknown",
+  "en": "You didn't know how to edit a wiki.",
+  "zh": "你不知道怎么编辑 Wiki。"
+ },
+ {
+  "seg": 268,
+  "start": 1154.041,
+  "end": 1155.241,
+  "speaker": "Unknown",
+  "en": "So that is very, very important.",
+  "zh": "所以这一点非常、非常重要。"
+ },
+ {
+  "seg": 269,
+  "start": 1155.301,
+  "end": 1165.985,
+  "speaker": "Unknown",
+  "en": "And rule number two, once you decide that, you can then go to the second scope of like, okay, you've got to make it easy for them to do that, which is where this business of scopes come in, where you want to scope each file according to who gets access.",
+  "zh": "然后是规则二,一旦你决定了这一点,你就可以进入第二个层面,比如,好的,你得让他们更容易做到这一点,这就是权限范围这回事发挥作用的地方,你要根据谁有权访问来为每个文件划定权限范围。"
+ },
+ {
+  "seg": 270,
+  "start": 1166.005,
+  "end": 1167.405,
+  "speaker": "Unknown",
+  "en": "You're going to build kind of a system around it.",
+  "zh": "你会围绕它构建一个系统。"
+ },
+ {
+  "seg": 271,
+  "start": 1167.425,
+  "end": 1171.246,
+  "speaker": "Unknown",
+  "en": "This is what an architecture diagram of that looks like, where you have users.",
+  "zh": "这就是它的架构图的样子,你有用户。"
+ },
+ {
+  "seg": 272,
+  "start": 1172.367,
+  "end": 1173.427,
+  "speaker": "Unknown",
+  "en": "Users talk to the agent.",
+  "zh": "用户和智能体对话。"
+ },
+ {
+  "seg": 273,
+  "start": 1174.347,
+  "end": 1176.168,
+  "speaker": "Unknown",
+  "en": "Agent, when it's reading context,",
+  "zh": "智能体在读取上下文时,"
+ },
+ {
+  "seg": 274,
+  "start": 1177.323,
+  "end": 1179.204,
+  "speaker": "Unknown",
+  "en": "uses that particular user's claims, right?",
+  "zh": "使用该特定用户的凭证声明,对吧?"
+ },
+ {
+  "seg": 275,
+  "start": 1179.244,
+  "end": 1193.069,
+  "speaker": "Unknown",
+  "en": "So if I am reading something for solving a finance problem, it's using the finance claim to read as me, because I had access to the finance wiki, so I can read it, and that is done every single time, right?",
+  "zh": "所以如果我在读某些内容来解决一个财务问题,它就是用财务凭证以我的身份去读,因为我有权访问财务 Wiki,所以我就能读到它,而且每一次都是这样做的,对吧?"
+ },
+ {
+  "seg": 276,
+  "start": 1193.089,
+  "end": 1198.291,
+  "speaker": "Unknown",
+  "en": "So the agent is always using the user's credential to read the right part of the wiki.",
+  "zh": "所以智能体始终使用用户的凭证去读取 Wiki 中正确的部分。"
+ },
+ {
+  "seg": 277,
+  "start": 1200.572,
+  "end": 1200.872,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 278,
+  "start": 1201.673,
+  "end": 1202.213,
+  "speaker": "Unknown",
+  "en": "I am...",
+  "zh": "我……"
+ },
+ {
+  "seg": 279,
+  "start": 1203.312,
+  "end": 1208.994,
+  "speaker": "Unknown",
+  "en": "I'm fairly out of time for the second use case, so what I'm going to do is give you a quick flavor of the second use case, but extend this idea.",
+  "zh": "第二个用例的时间我相当不够了,所以我打算快速给你们展示一下第二个用例的风味,并延伸这个想法。"
+ },
+ {
+  "seg": 280,
+  "start": 1209.354,
+  "end": 1212.696,
+  "speaker": "Unknown",
+  "en": "This is the daddy use case.",
+  "zh": "这是老大哥级别的用例。"
+ },
+ {
+  "seg": 281,
+  "start": 1212.876,
+  "end": 1214.376,
+  "speaker": "Unknown",
+  "en": "This is the big daddy use case.",
+  "zh": "这是最大最重要的用例。"
+ },
+ {
+  "seg": 282,
+  "start": 1214.877,
+  "end": 1220.339,
+  "speaker": "Unknown",
+  "en": "This is a really complicated use case because now it's not just one person answering an email.",
+  "zh": "这是一个非常复杂的用例,因为现在不再是一个人在回邮件了。"
+ },
+ {
+  "seg": 283,
+  "start": 1220.979,
+  "end": 1230.583,
+  "speaker": "Unknown",
+  "en": "It's a bunch of us using the shared context to solve a problem with various different escalation-like privilege levels at the same time.",
+  "zh": "而是我们一群人同时使用共享上下文来解决一个问题,带有各种不同的类似权限级别的东西。"
+ },
+ {
+  "seg": 284,
+  "start": 1232.406,
+  "end": 1239.709,
+  "speaker": "Unknown",
+  "en": "And these are the interactions with AI where the most amount of company brain knowledge is created.",
+  "zh": "而这些与 AI 的交互,正是产生最多公司大脑知识的地方。"
+ },
+ {
+  "seg": 285,
+  "start": 1240.029,
+  "end": 1246.352,
+  "speaker": "Unknown",
+  "en": "For example, I'm going to show you a quick real-life example of what it looks like for us.",
+  "zh": "比如,我要给你们快速展示一个我们实际生活中的例子,看看它对我们来说是什么样子。"
+ },
+ {
+  "seg": 286,
+  "start": 1247.292,
+  "end": 1253.035,
+  "speaker": "Unknown",
+  "en": "So this was a case from an SRE situation where somebody was like, hey, our auto-learning",
+  "zh": "所以这是一个 SRE 场景的案例,有人发消息说,嘿,我们的 auto-learning"
+ },
+ {
+  "seg": 287,
+  "start": 1253.89,
+  "end": 1256.991,
+  "speaker": "Unknown",
+  "en": "Our WikiLearning, fairly meta, was failing.",
+  "zh": "我们的 WikiLearning——挺套娃的——挂了。"
+ },
+ {
+  "seg": 288,
+  "start": 1257.011,
+  "end": 1257.572,
+  "speaker": "Unknown",
+  "en": "It wasn't working.",
+  "zh": "它不工作了。"
+ },
+ {
+  "seg": 289,
+  "start": 1258.052,
+  "end": 1258.592,
+  "speaker": "Unknown",
+  "en": "What's going on?",
+  "zh": "怎么回事?"
+ },
+ {
+  "seg": 290,
+  "start": 1259.232,
+  "end": 1259.433,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 291,
+  "start": 1259.753,
+  "end": 1263.614,
+  "speaker": "Unknown",
+  "en": "And then it starts doing the investigation, and it sucks because it didn't have a skill.",
+  "zh": "然后它开始做调查,但很糟糕,因为它没有技能。"
+ },
+ {
+  "seg": 292,
+  "start": 1263.714,
+  "end": 1264.115,
+  "speaker": "Unknown",
+  "en": "It failed.",
+  "zh": "它失败了。"
+ },
+ {
+  "seg": 293,
+  "start": 1264.715,
+  "end": 1266.096,
+  "speaker": "Unknown",
+  "en": "So it's like, bro, don't do this.",
+  "zh": "所以就像,兄弟,别这么干。"
+ },
+ {
+  "seg": 294,
+  "start": 1266.316,
+  "end": 1268.036,
+  "speaker": "Unknown",
+  "en": "Please use this OpenTelemetrySpan name.",
+  "zh": "请用这个 OpenTelemetrySpan 名称。"
+ },
+ {
+  "seg": 295,
+  "start": 1268.337,
+  "end": 1269.737,
+  "speaker": "Unknown",
+  "en": "It used an OpenTelemetrySpan name.",
+  "zh": "它用了一个 OpenTelemetrySpan 名称。"
+ },
+ {
+  "seg": 296,
+  "start": 1270.057,
+  "end": 1272.318,
+  "speaker": "Unknown",
+  "en": "It did a slightly better job, but it was still really slow.",
+  "zh": "它做得稍微好了一点,但还是非常慢。"
+ },
+ {
+  "seg": 297,
+  "start": 1274.015,
+  "end": 1276.756,
+  "speaker": "Unknown",
+  "en": "He looked at the code, and he's like, oh, you're using a like query.",
+  "zh": "它看了代码,然后说,哦,你在用一个 like 查询。"
+ },
+ {
+  "seg": 298,
+  "start": 1276.896,
+  "end": 1278.417,
+  "speaker": "Unknown",
+  "en": "You're a dumbass.",
+  "zh": "你这个蠢货。"
+ },
+ {
+  "seg": 299,
+  "start": 1278.437,
+  "end": 1279.677,
+  "speaker": "Unknown",
+  "en": "This is Opus 4.5.",
+  "zh": "这是 Opus 4.5。"
+ },
+ {
+  "seg": 300,
+  "start": 1281.398,
+  "end": 1282.579,
+  "speaker": "Unknown",
+  "en": "Like, don't do this, right?",
+  "zh": "就像,别这么做,对吧?"
+ },
+ {
+  "seg": 301,
+  "start": 1282.919,
+  "end": 1284.539,
+  "speaker": "Unknown",
+  "en": "So then he's like, don't use a like query.",
+  "zh": "然后他说,不要用 like 查询。"
+ },
+ {
+  "seg": 302,
+  "start": 1284.86,
+  "end": 1286.3,
+  "speaker": "Unknown",
+  "en": "Use an equals to query, right?",
+  "zh": "用 equals to 查询,对吧?"
+ },
+ {
+  "seg": 303,
+  "start": 1286.7,
+  "end": 1289.121,
+  "speaker": "Unknown",
+  "en": "And then it does equals to query, and it surfaces some details.",
+  "zh": "然后它就执行了 equals to 查询,并浮现出一些细节。"
+ },
+ {
+  "seg": 304,
+  "start": 1289.521,
+  "end": 1291.542,
+  "speaker": "Unknown",
+  "en": "And then he says, oh, dig deeper into this.",
+  "zh": "然后他说,哦,再深挖一下这个。"
+ },
+ {
+  "seg": 305,
+  "start": 1291.582,
+  "end": 1292.343,
+  "speaker": "Unknown",
+  "en": "And it says, whatever.",
+  "zh": "然后它说,随便什么。"
+ },
+ {
+  "seg": 306,
+  "start": 1292.363,
+  "end": 1294.423,
+  "speaker": "Unknown",
+  "en": "This is a line of code where the error is coming from.",
+  "zh": "这是错误来源的那一行代码。"
+ },
+ {
+  "seg": 307,
+  "start": 1295.264,
+  "end": 1295.884,
+  "speaker": "Unknown",
+  "en": "Simple stuff, right?",
+  "zh": "很简单的东西,对吧?"
+ },
+ {
+  "seg": 308,
+  "start": 1296.284,
+  "end": 1299.766,
+  "speaker": "Unknown",
+  "en": "This is now where it surfaces some knowledge and says, aha.",
+  "zh": "这时候它浮现出一些知识并说,啊哈。"
+ },
+ {
+  "seg": 309,
+  "start": 1300.706,
+  "end": 1303.667,
+  "speaker": "Unknown",
+  "en": "I learned that I should use equals to and not like, right?",
+  "zh": "我学到了应该用 equals to 而不是 like,对吧?"
+ },
+ {
+  "seg": 310,
+  "start": 1303.767,
+  "end": 1309.11,
+  "speaker": "Unknown",
+  "en": "I learned that if you have a custom prefix added to wiki page names, it can cause issues, right?",
+  "zh": "我学到了如果 wiki 页面名称带有一个自定义前缀,可能会导致问题,对吧?"
+ },
+ {
+  "seg": 311,
+  "start": 1309.85,
+  "end": 1311.811,
+  "speaker": "Unknown",
+  "en": "So, it offers these learnings that you can choose to accept.",
+  "zh": "所以,它会提供这些学习成果,你可以选择接受。"
+ },
+ {
+  "seg": 312,
+  "start": 1313.272,
+  "end": 1316.673,
+  "speaker": "Unknown",
+  "en": "So, he kind of dug in deeper into what the problem was.",
+  "zh": "所以,他又把问题深挖了一些。"
+ },
+ {
+  "seg": 313,
+  "start": 1316.933,
+  "end": 1320.235,
+  "speaker": "Unknown",
+  "en": "Somebody else joined the conversation, right, and said,",
+  "zh": "另一个人加入了对话,对吧,说,"
+ },
+ {
+  "seg": 314,
+  "start": 1321.292,
+  "end": 1323.053,
+  "speaker": "Unknown",
+  "en": "The technical decision that we've made here is wrong.",
+  "zh": "我们在这里做的技术决定是错的。"
+ },
+ {
+  "seg": 315,
+  "start": 1323.333,
+  "end": 1324.213,
+  "speaker": "Unknown",
+  "en": "Why is this happening?",
+  "zh": "为什么会这样?"
+ },
+ {
+  "seg": 316,
+  "start": 1324.753,
+  "end": 1327.934,
+  "speaker": "Unknown",
+  "en": "And now two people start to have an argument, right?",
+  "zh": "然后两个人开始争论,对吧?"
+ },
+ {
+  "seg": 317,
+  "start": 1328.294,
+  "end": 1330.735,
+  "speaker": "Unknown",
+  "en": "They have an argument saying, hey, it should not be like this.",
+  "zh": "他们争论说,嘿,不应该是这样。"
+ },
+ {
+  "seg": 318,
+  "start": 1330.755,
+  "end": 1331.315,
+  "speaker": "Unknown",
+  "en": "It should be like this.",
+  "zh": "应该是这样。"
+ },
+ {
+  "seg": 319,
+  "start": 1331.335,
+  "end": 1332.036,
+  "speaker": "Unknown",
+  "en": "But why is it like this?",
+  "zh": "但为什么是这样?"
+ },
+ {
+  "seg": 320,
+  "start": 1332.056,
+  "end": 1333.016,
+  "speaker": "Unknown",
+  "en": "But it should be like this, right?",
+  "zh": "但应该是这样,对吧?"
+ },
+ {
+  "seg": 321,
+  "start": 1333.456,
+  "end": 1339.018,
+  "speaker": "Unknown",
+  "en": "That argument creates knowledge because the actual problem was that somebody made a technical decision that was not documented.",
+  "zh": "那场争论创造了知识,因为真正的问题是有人做了一个没有记录下来的技术决定。"
+ },
+ {
+  "seg": 322,
+  "start": 1340.218,
+  "end": 1354.946,
+  "speaker": "Unknown",
+  "en": "When they decide to fix that issue and they observe that that is indeed the root cause and they decide that this is the way it's going to be fixed, hey, we should remove this prefix that's causing a problem, whatever the thing is, that creates the highest quality context to be added to your brain.",
+  "zh": "当他们决定修复那个问题,并观察到那确实是根本原因,并决定就这么修复时,嘿,我们应该移除这个造成问题的前缀,不管是什么,这就创造了能加到你大脑里的最高质量的上下文。"
+ },
+ {
+  "seg": 323,
+  "start": 1355.926,
+  "end": 1363.37,
+  "speaker": "Unknown",
+  "en": "Because the previous suggestion was to say pages have a prefix, but the fact that pages have a prefix is a problem.",
+  "zh": "因为之前的建议是记录页面有前缀,但页面有前缀这件事本身就是个问题。"
+ },
+ {
+  "seg": 324,
+  "start": 1364.246,
+  "end": 1364.446,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 325,
+  "start": 1365.087,
+  "end": 1368.849,
+  "speaker": "Unknown",
+  "en": "So now the thing that you're documenting in the brain is pages should not have a prefix.",
+  "zh": "所以现在你在大脑里记录的东西是页面不应该有前缀。"
+ },
+ {
+  "seg": 326,
+  "start": 1369.25,
+  "end": 1371.671,
+  "speaker": "Unknown",
+  "en": "If they have a prefix, it can cause lookup issues in prod.",
+  "zh": "如果有前缀,可能会在生产环境造成查询问题。"
+ },
+ {
+  "seg": 327,
+  "start": 1372.592,
+  "end": 1377.255,
+  "speaker": "Unknown",
+  "en": "This happens when multiple people talk to each other, right, and solve problems together.",
+  "zh": "这发生在多个人互相交流、共同解决问题的时候,对吧。"
+ },
+ {
+  "seg": 328,
+  "start": 1377.275,
+  "end": 1380.798,
+  "speaker": "Unknown",
+  "en": "This is what happens in a Slack thread when two people talk to each other and solve a problem.",
+  "zh": "这就是 Slack 线程里两个人交流并解决一个问题时所发生的。"
+ },
+ {
+  "seg": 329,
+  "start": 1380.818,
+  "end": 1383.399,
+  "speaker": "Unknown",
+  "en": "It creates the highest quality context.",
+  "zh": "它创造了最高质量的上下文。"
+ },
+ {
+  "seg": 330,
+  "start": 1384.28,
+  "end": 1386.061,
+  "speaker": "Unknown",
+  "en": "And so that's kind of what you want here.",
+  "zh": "而这就是你在这里想要的。"
+ },
+ {
+  "seg": 331,
+  "start": 1386.141,
+  "end": 1391.305,
+  "speaker": "Unknown",
+  "en": "But the challenge is that the privilege escalation around this becomes very, very serious.",
+  "zh": "但挑战在于,围绕这件事的权限提升问题会变得非常非常严重。"
+ },
+ {
+  "seg": 332,
+  "start": 1391.925,
+  "end": 1392.206,
+  "speaker": "Unknown",
+  "en": "If you",
+  "zh": "如果你"
+ },
+ {
+  "seg": 333,
+  "start": 1393.53,
+  "end": 1399.233,
+  "speaker": "Unknown",
+  "en": "If you're building an agent that can do everything surrounded by multiple people, that's scary.",
+  "zh": "如果你在构建一个被多个人围绕使用、什么都能做的智能体,那是很可怕的。"
+ },
+ {
+  "seg": 334,
+  "start": 1399.593,
+  "end": 1404.335,
+  "speaker": "Unknown",
+  "en": "Because the engineer was allowed to do the PR work, but now I can use the same agent to deploy to prod?",
+  "zh": "因为那位工程师本来只被允许做 PR 的工作,但现在我可以用同一个智能体部署到生产环境?"
+ },
+ {
+  "seg": 335,
+  "start": 1404.595,
+  "end": 1405.315,
+  "speaker": "Unknown",
+  "en": "That's too scary.",
+  "zh": "那太可怕了。"
+ },
+ {
+  "seg": 336,
+  "start": 1405.475,
+  "end": 1408.417,
+  "speaker": "Unknown",
+  "en": "I can't have a conversation where I debug and",
+  "zh": "我没办法进行一个既调试又"
+ },
+ {
+  "seg": 337,
+  "start": 1409.868,
+  "end": 1412.55,
+  "speaker": "Unknown",
+  "en": "Deploy securely, right?",
+  "zh": "安全部署的对话,对吧?"
+ },
+ {
+  "seg": 338,
+  "start": 1412.61,
+  "end": 1414.051,
+  "speaker": "Unknown",
+  "en": "Especially if you're in a bank, right?",
+  "zh": "尤其如果你在银行里,对吧?"
+ },
+ {
+  "seg": 339,
+  "start": 1414.071,
+  "end": 1419.454,
+  "speaker": "Unknown",
+  "en": "Like the people who are debugging, deploying to staging, setting up an alert, and deploying are not the same.",
+  "zh": "比如调试的人、部署到 staging 的人、设置告警的人和部署的人不是同一批人。"
+ },
+ {
+  "seg": 340,
+  "start": 1419.715,
+  "end": 1423.177,
+  "speaker": "Unknown",
+  "en": "But being the same has a lot of value because that's where all the knowledge is, right?",
+  "zh": "但身份相同有很多价值,因为所有知识都在那里,对吧?"
+ },
+ {
+  "seg": 341,
+  "start": 1423.577,
+  "end": 1427.64,
+  "speaker": "Unknown",
+  "en": "And so that kind of brings us to the second architecture, which I'm not gonna get into too much detail with.",
+  "zh": "于是这就引出了第二种架构,我不会讲太多细节。"
+ },
+ {
+  "seg": 342,
+  "start": 1428.1,
+  "end": 1433.824,
+  "speaker": "Unknown",
+  "en": "But think of it as the same idea where user credentials and claims were used to read context.",
+  "zh": "但可以把它理解为同样的思路,之前是用用户凭证和 claims 来读取上下文。"
+ },
+ {
+  "seg": 343,
+  "start": 1434.885,
+  "end": 1437.627,
+  "speaker": "Unknown",
+  "en": "Instead of that, also use user credentials",
+  "zh": "除此之外,还用用户凭证"
+ },
+ {
+  "seg": 344,
+  "start": 1438.448,
+  "end": 1438.669,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 345,
+  "start": 1439.31,
+  "end": 1441.896,
+  "speaker": "Unknown",
+  "en": "When the code is executing tools.",
+  "zh": "在代码执行工具的时候。"
+ },
+ {
+  "seg": 346,
+  "start": 1442.697,
+  "end": 1444.682,
+  "speaker": "Unknown",
+  "en": "So never store credentials in the sandbox.",
+  "zh": "所以永远不要把凭证存在沙箱里。"
+ },
+ {
+  "seg": 347,
+  "start": 1445.823,
+  "end": 1455.749,
+  "speaker": "Unknown",
+  "en": "Instead of that, at the HTTP layer, at the SQL layer, inject the user's credentials, allowing the AI to behave as the human in a particular interaction, right?",
+  "zh": "而是在 HTTP 层、SQL 层,注入用户的凭证,让 AI 在某次特定交互中表现得像那个人,对吧?"
+ },
+ {
+  "seg": 348,
+  "start": 1456.75,
+  "end": 1463.534,
+  "speaker": "Unknown",
+  "en": "So there's interesting details here, but that is what allows a shared AI to work with shared context, right?",
+  "zh": "所以这里有一些有意思的细节,但这正是让共享 AI 能使用共享上下文运作的关键,对吧?"
+ },
+ {
+  "seg": 349,
+  "start": 1463.554,
+  "end": 1466.336,
+  "speaker": "Unknown",
+  "en": "And those are kind of the two key pieces to work with.",
+  "zh": "而这些大致就是关键的两块。"
+ },
+ {
+  "seg": 350,
+  "start": 1466.696,
+  "end": 1471.9,
+  "speaker": "Unknown",
+  "en": "So I would summarize, and this architecture is not particularly complicated, but it's very simple to work back from these two rules.",
+  "zh": "所以我来总结一下，这个架构并不是特别复杂，但只要遵循这两条规则，就能很轻松地把它推导回来。"
+ },
+ {
+  "seg": 351,
+  "start": 1472.28,
+  "end": 1474.161,
+  "speaker": "Unknown",
+  "en": "Do not store credentials in the cloud sandbox.",
+  "zh": "不要在云端沙箱中存储凭证。"
+ },
+ {
+  "seg": 352,
+  "start": 1474.501,
+  "end": 1475.062,
+  "speaker": "Unknown",
+  "en": "And second,",
+  "zh": "其次，"
+ },
+ {
+  "seg": 353,
+  "start": 1476.683,
+  "end": 1483.707,
+  "speaker": "Unknown",
+  "en": "Virtualize all interactions with the real data, proxy it, virtualize it, whatever word you want to use, and let users control them.",
+  "zh": "把与真实数据的所有交互都虚拟化，代理它、虚拟化它，随便你用什么词，并让用户来控制它们。"
+ },
+ {
+  "seg": 354,
+  "start": 1484.147,
+  "end": 1489.631,
+  "speaker": "Unknown",
+  "en": "So the user who adds a particular tool should control who gets access to that particular tool.",
+  "zh": "所以添加某个特定工具的用户，应该有权控制谁能访问那个特定工具。"
+ },
+ {
+  "seg": 355,
+  "start": 1489.971,
+  "end": 1494.834,
+  "speaker": "Unknown",
+  "en": "So you can derive this entire thing if you just kind of follow these four principles and work backwards from that.",
+  "zh": "只要你遵循这四条原则并从那里反推，就能推导出这整套东西。"
+ },
+ {
+  "seg": 356,
+  "start": 1494.854,
+  "end": 1503.038,
+  "speaker": "Unknown",
+  "en": "There's only one architecture that is possible that makes sense in how you manage context and what constraints you set up and how you manage tools and what security rules you set up.",
+  "zh": "只有一种架构是合理可行的，无论是你如何管理上下文、设置什么约束、如何管理工具、设置什么安全规则。"
+ },
+ {
+  "seg": 357,
+  "start": 1504.419,
+  "end": 1506.3,
+  "speaker": "Unknown",
+  "en": "That is my time.",
+  "zh": "我的时间到了。"
+ },
+ {
+  "seg": 358,
+  "start": 1506.52,
+  "end": 1509.761,
+  "speaker": "Unknown",
+  "en": "And so I'm happy to chat more after the talk.",
+  "zh": "演讲结束后我很乐意继续交流。"
+ },
+ {
+  "seg": 359,
+  "start": 1509.961,
+  "end": 1515.242,
+  "speaker": "Unknown",
+  "en": "We have a booth as well, so happy to chat more through that on what the nuances inside this architecture are.",
+  "zh": "我们还有一个展位，欢迎通过它聊更多关于这个架构内部细节的内容。"
+ },
+ {
+  "seg": 360,
+  "start": 1515.602,
+  "end": 1517.243,
+  "speaker": "Unknown",
+  "en": "I'm Tanmigo on Twitter.",
+  "zh": "我在 Twitter 上叫 Tanmigo。"
+ },
+ {
+  "seg": 361,
+  "start": 1517.423,
+  "end": 1518.563,
+  "speaker": "Unknown",
+  "en": "We're called PromptQL.",
+  "zh": "我们的公司叫 PromptQL。"
+ },
+ {
+  "seg": 362,
+  "start": 1518.583,
+  "end": 1519.243,
+  "speaker": "Unknown",
+  "en": "Do check us out.",
+  "zh": "请务必去看看。"
+ },
+ {
+  "seg": 363,
+  "start": 1521.104,
+  "end": 1526.469,
+  "speaker": "Unknown",
+  "en": "End of the day, with the AI engineering community, we're going to do a product launch.",
+  "zh": "说到底，随着 AI 工程社区的发展，我们即将进行一次产品发布。"
+ },
+ {
+  "seg": 364,
+  "start": 1527.29,
+  "end": 1530.513,
+  "speaker": "Unknown",
+  "en": "And so I would love to share that, folks, share that with everybody.",
+  "zh": "我很乐意把这件事分享给大家。"
+ },
+ {
+  "seg": 365,
+  "start": 1530.833,
+  "end": 1535.698,
+  "speaker": "Unknown",
+  "en": "I'm going to take a picture with everybody on stage so that I can share that.",
+  "zh": "我要和台上所有人拍一张照片，这样我就能把它分享出去。"
+ },
+ {
+  "seg": 366,
+  "start": 1535.918,
+  "end": 1538.08,
+  "speaker": "Unknown",
+  "en": "And so let me do that while I'm here.",
+  "zh": "所以趁我还在这里就来做这件事吧。"
+ },
+ {
+  "seg": 367,
+  "start": 1540.562,
+  "end": 1541.063,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 368,
+  "start": 1541.163,
+  "end": 1542.224,
+  "speaker": "Unknown",
+  "en": "Do folks want to say cheese?",
+  "zh": "大家想说“茄子”吗？"
+ },
+ {
+  "seg": 369,
+  "start": 1546.055,
+  "end": 1546.716,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 370,
+  "start": 1547.596,
+  "end": 1548.356,
+  "speaker": "Unknown",
+  "en": "So watch out for that.",
+  "zh": "所以请留意那个。"
+ },
+ {
+  "seg": 371,
+  "start": 1549.137,
+  "end": 1558.061,
+  "speaker": "Unknown",
+  "en": "It's our approach to Claude tag, which is PromptQL tag, which is very similar to the ideas that we chatted about here, except that you're not stuck to Claude.",
+  "zh": "这是我们的 Claude tag 方案，也就是 PromptQL tag，与我们今天聊到的想法非常相似，只不过你不会被束缚在 Claude 上。"
+ },
+ {
+  "seg": 372,
+  "start": 1558.081,
+  "end": 1563.363,
+  "speaker": "Unknown",
+  "en": "You can use GLM, and you can use GPT, and then Sol comes out, and we can use that and have a lot of fun.",
+  "zh": "你可以用 GLM，可以用 GPT，等 Sol 出来之后，我们也可以用它，会非常好玩。"
+ },
+ {
+  "seg": 373,
+  "start": 1563.484,
+  "end": 1564.124,
+  "speaker": "Unknown",
+  "en": "So do check that out.",
+  "zh": "所以请务必去看看。"
+ },
+ {
+  "seg": 374,
+  "start": 1564.604,
+  "end": 1566.345,
+  "speaker": "Unknown",
+  "en": "And otherwise, I'll see you folks soon.",
+  "zh": "否则的话，我们回头见。"
+ },
+ {
+  "seg": 375,
+  "start": 1574.683,
+  "end": 1574.904,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ }
+]
