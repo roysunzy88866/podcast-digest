@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":4,"Meta":35,"MuseSpark":1,"开源模型":22,"智能体":345,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":4,"Meta":35,"MuseSpark":1,"开源模型":22,"智能体":347,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

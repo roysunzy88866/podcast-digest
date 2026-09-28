@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]]
+[[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"企业销售":3,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":5,"PLG":12,"ACV":3,"前向部署工程师":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"企业销售":3,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":6,"PLG":12,"ACV":4,"前向部署工程师":1}</script>
 
 <script>
 (function(){

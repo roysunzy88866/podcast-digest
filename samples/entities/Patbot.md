@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jared Joselowitz]] · [[Euphonia]] · [[DORA]] · [[智能体]] · [[Matrix]] · [[BevJudge]] · [[模拟]] · [[judge]] · [[提示词优化器]] · [[成本矩阵]]
+[[Jared Joselowitz]] · [[Euphonia]] · [[DORA]] · [[智能体]] · [[Matrix]] · [[BevJudge]] · [[模拟]] · [[评审器]] · [[提示词优化器]] · [[成本矩阵]]
 
-<script type="application/json" class="pd-epn">{"Jared Joselowitz":1,"Euphonia":1,"DORA":2,"智能体":345,"Matrix":1,"BevJudge":1,"模拟":5,"judge":2,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Jared Joselowitz":1,"Euphonia":1,"DORA":2,"智能体":347,"Matrix":1,"BevJudge":1,"模拟":5,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

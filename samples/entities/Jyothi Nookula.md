@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":70,"Claude Code":81,"智能体":345,"对抗性智能体":1,"MCP":62,"知识库":1,"技能":22,"vibe coding":41,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":70,"Claude Code":82,"智能体":347,"对抗性智能体":1,"MCP":63,"知识库":1,"技能":22,"vibe coding":41,"红队测试":4}</script>
 
 <script>
 (function(){

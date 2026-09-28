@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>81</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>82</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -71,6 +71,7 @@ unlisted: true
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(33:34起):本集说团队在构建 Workstation 时考虑过用 Claude Code，但 PM 通过终端安装花了三天都没搞定，最终放弃而选择 CoWork
 - **[[2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an|《给 AI 智能体发一个钱包：Circle 的纳米支付方案》]]**(07:11起):本集的现场演示用两个终端对比同一个世界杯行程任务：原版 Claude Code 发不了邮件、打不了电话只能坦白；配备 Circle Agent Wallet 的 Claude Code 则逐笔付款完成了全部任务
 - **[[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]]**(04:42起):本集用作低风险场景的例子:连接 GitHub/Jira 等连接器即完成身份验证,靠工具权限与日志/回滚兜底,无需密码学证明。
+- **[[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]]**(02:10起):2025 年 6 月 GA 后推动智能体普及的工具,但受限于 CLI 且只能本地运行;本集还讲了如何 deny 它原生的 WebSearch/WebFetch 工具来强制网络访问走内部索引。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(38:30起):Speechify 工程团队内部使用排第一的 AI 编程工具（其次 Cursor、Codex）；发明者 Boris 的「一切在于循环」心法被嘉宾引用为与 AI 协作的核心方法。
 - **[[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]]**(03:21起):本集提了一句 2026 年初 Claude Code 席卷世界，是大量 AI 工具涌现的背景。
 - **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(19:57起):本集作为对比参照：YC 曾把它塞进 VM 接 Slack；Seth 拿它跑 ArcAGI 结果不佳，且提到早期用它时要仔细审查工具调用。
@@ -116,7 +117,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*81 集*
+*82 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -179,6 +180,7 @@ unlisted: true
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an|《给 AI 智能体发一个钱包：Circle 的纳米支付方案》]] — 作为概念
 - [[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|《智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型》]] — 作为概念
+- [[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]] — 作为概念
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]] — 作为概念(提及)
 - [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]] — 作为被讨论公司(提及)
@@ -206,7 +208,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[harness]] · [[Lenny]] · [[MCP]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"Anthropic":150,"Codex":60,"OpenAI":139,"沙箱":62,"Cursor":70,"harness":46,"Lenny":68,"MCP":62,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"Anthropic":150,"Codex":60,"OpenAI":139,"沙箱":62,"Cursor":70,"harness":46,"Lenny":68,"MCP":63,"评估":3}</script>
 
 <script>
 (function(){

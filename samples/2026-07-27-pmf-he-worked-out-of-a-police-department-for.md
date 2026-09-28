@@ -108,9 +108,9 @@ Ben 对"半年冲到五亿收入"的模式持怀疑态度："如果你能在六�
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-09-28-pmf-he-runs-3-dinners-a-week-instead-of-cold|Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售]]<span class="pd-rz">同概念:ACV、产品市场契合 (Product Market Fit)</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:ACV</span>
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路]]<span class="pd-rz">同概念:产品市场契合 (Product Market Fit)</span>
 
 </div>
 <div class="pd-ex">

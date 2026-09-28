@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":45,"Nemotron":5,"表格提取":1,"智能体":345,"OCR":2,"量化":3,"VLM":1,"vLLM":5}</script>
+<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":45,"Nemotron":5,"表格提取":1,"智能体":347,"OCR":2,"量化":3,"VLM":1,"vLLM":5}</script>
 
 <script>
 (function(){

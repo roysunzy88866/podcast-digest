@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":22,"Claude":70,"联合创始人":4,"NPS":2,"MVP":2,"口碑":2,"SVB":2}</script>
+<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":22,"Claude":70,"联合创始人":4,"NPS":2,"MVP":2,"口碑":3,"SVB":2}</script>
 
 <script>
 (function(){

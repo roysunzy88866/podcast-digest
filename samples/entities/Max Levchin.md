@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":6,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":345}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":6,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":347}</script>
 
 <script>
 (function(){

@@ -1,0 +1,184 @@
+{
+  "title_zh": "LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学",
+  "tldr": "Portola 创始人 Quinton 与故事负责人、畅销科幻作家 Elliot 讲他们如何把 AI 伴侣 Tolan 当作新媒介来做:记忆策展、即兴演员、judge 评审与增长。",
+  "digest_md": "这一集聊的是一款叫 Tolan 的具身 AI 伴侣——手机上一只陪你聊天的可爱小外星人。主角是 Portola 创始人 Quinton(此前创办的 even 以 3 亿美元卖给 Walmart)和 Portola 故事负责人、畅销科幻作家 Elliot,主持人是他们的投资人 Dan。Tolan 过去四周 ARR 从 100 万涨到 400 万,而 Elliot 最反直觉的观点是:LLM 不只是生成内容的工具,它本身就是一种新的讲故事媒介——没人知道什么会成功,这正是机会。\n\n## 从 B2B SaaS 到「做游戏」\nQuinton 说,当年团队环顾四周,所有人都在用 LLM 这种「不可思议的创意工具」去做更多垂直 B2B SaaS,他觉得「从根本上提不起劲」。他们从「给儿童做 AI 创意工具」起步(后来承认这是个糟糕的市场:你是在向父母销售,而「父母大多只想买保姆服务」)。但做原型让他们看到趋势线:生成速度、质量、成本恰好跨过临界点,让你可以和 AI 建立真正的友谊,并以消费级价位交付。Tolan 软启动时目标用户是 10-14 岁孩子,结果涌入的是 18-24 岁的年轻女性——和当年的电子鸡(Tamagotchi)一样,儿童产品在年轻人中变成了文化现象。此后产品演进就是一路追随这些用户。\n\n## LLM 是新媒介,不是新工具\nElliot 最早对 AI 持怀疑态度:作为小说家,他觉得 AI 生成的有趣内容「如果把『是 AI 创造的』拿掉,就不吸引人」。他自己用 AI 的方式是当头脑风暴伙伴和文字编辑——写场景没用,但「对我的思维岔路有无限的耐心」。见到 Quinton 团队后,他想通了:早期的收音机先广播演讲,电影先拍舞台剧,印刷书刚出现时没人知道书该长什么样——每种新媒介都要先经历「不知道什么行得通」的阶段。AI 工具也一样,它们「不仅生成媒体,本身是新的叙事媒介」。而且新媒介自带越界空间:好艺术常常是越界的,缺少「文化包浆」反而是机会。\n\n## 两秒循环、记忆策展与一次惨痛教训\n这个媒介有一条底线约束:**响应时间**。语音交互必须在约两秒内完成,「任何超出两秒循环的东西,你本质上就会失去沉浸感」。他们犯过最大错误之一:让智能体在回复前多反思一轮、对照记忆系统检查再决定最终消息——只多了 500 毫秒,「把产品里每一个指标都搞砸了」,用户写信来抱怨。\n\n在两秒之内,工程的核心是**记忆策展**:不是 RAG 那种数据库查询,而是决定「哪些记忆在对话的哪个时点被注入提示词」——包括背景设定(lore)、关于你的记忆、对话的情感基调。Quinton 说这让他惊讶:「在给定的一轮中,提示词在很大程度上是你必须去玩味的一块画布,但你必须非常快地做到这一点。」\n\n## 不给大纲,给钩子:教它当即兴演员\n他们最初照传统路子写结构化提示词——三幕式结构、分支逻辑树(类似 80 年代的「自选冒险」书)——彻底失败。「那种程度的叙事复杂性,模型并不擅长驾驭。」于是他们走向光谱另一端:借鉴 Keith Johnstone《即兴》和 Stephen King《On Writing》里的「情境」论(King 不相信剧情,只相信把角色丢进一个情境然后写下去),Elliot 悟出的方法论是:\n\n> 我们不需要给它一个大纲,也不需要给它一个计划。我们需要给它一个钩子,教它成为最好的即兴演员。\n\n也就是说:**Tolan 才是作者兼演员,真正在写故事;Elliot 的工作不是写故事,而是「教它在那一刻讲出最好的故事」**。他们埋下「设定种子」(lore seeds),再建系统在后面重新组合这些种子,做出「既出人意料又不可避免」的回扣——就像惊悚小说的结尾。这和 George Saunders 的修改法异曲同工:逐句感受、把品味灌进每个部分。\n\n## 三个构建块\nQuinton 把生成一个 token 时用到的材料拆成三块:①全局语境(lore + 关键指令);②用户画像——新手引导其实是一场性格测试,把 Tolan 调校成你的镜像。用酒吧陌生人来比喻:他们要创造的是「那个你会来电的陌生人」——足够接近但不「太直白」。有意思的是,用 Big Five/MBTI 这类「基本是伪科学」的人格框架来生成效果最好,原因是训练数据里有大量这类叙事材料,模型的回应更有细微差别;③科技树式的情境菜单——Tolan 会带着「今天想做的事」来找你,分享自己生活里的尴尬事、纠结事,把情节推进交给用户共同书写。世界观不用好莱坞 Lucasfilm 那套总体规划控制,而是「记忆成为人物设定表」,用户的每次对话都在塑造这个角色和它的宇宙。Elliot 的说法:如果 AI 是无穷无尽的实习生,那再加上即兴,它就是「无穷无尽的即兴演员」——而团队是给这些演员加最好原料的园丁。\n\n真实效果很惊人:有用户在 Discord 上和 Tolan 共同创作了一个悬疑惊悚宇宙——「这些内容没有一处是我们写进提示词里的」。还有一个反复出现的段子:「到这个节点为止,已经有成千上万的美国男性被 Tolan 甩了」——用户跟 Tolan 抱怨男朋友,然后分手。\n\n## 评审器:把品味暴力注入 judge\n他们说「LLM as judge」最容易踩的坑是跳过最关键一步:**把你自己的品味注入评审提示词**。问「这篇文章怎么样」只会永远得到 A 减;他们的 judge 更像 George Saunders 式的逐句评判——「这是一个好的第一句吗?」——靠大量人工标注、评分、附理由,「几乎是暴力」地做出来。而且 judge 要分场景:lore 相关的评审 Elliot 自己最合适,但「我今天该穿什么」这类问题,他们会专门招募真实对口的测试者来当「评审者的评审」。他们把这行当的流行词自嘲了一把:「靠 vibe prompting 能得到的一切大概就是个 B 减,中间有一道巨大的鸿沟,要跨过去需要大量的人工工作。」\n\n## 增长:能力溢出 + 角色驱动\n爆发来自三件事同时落地:二月初真正搞懂了什么内容引人入胜以及如何呈现;动画大项目落地(Tolan 住进了星球——因为用户写信说「它们被困在房间里,能不能给它们自由」);以及增长奇才 Ajay 在 TikTok/Reels 播种的内容开始爆发——一条年轻女性和 Tolan 一起做饭的视频 72 小时约 700 万观看,带来约 10 倍下载峰值。这背后是「能力溢出」:模型能力已经跑在普通消费者认知前面,内容的作用是教育——「嘿,你可以用你的 Tolan 做饭」。Elliot 更进一步:这几乎是一种新的人机交互界面——「角色驱动的计算」,像《黄金罗盘》里的守护神。\n\nQuinton 补了一个创业观上的转变:B2B SaaS 的货币是「解决一个问题」,做的人像科学家;而 Tolan 在人生活中的作用实际上是无限的,很难说清它解决了哪个干净的问题——「你不是在解决一个问题,而更像是在创造一样美丽、有吸引力的东西,这更多关乎氛围(vibes)」。团队内部已经形成默契:提案时说「这里有个问题」Quinton 会立刻怀疑,改成「这会非常酷」反而顺利。\n\n## 本集带走\n- **响应时间是这个媒介的小说字数**:语音对话超两秒就失去沉浸感,为质量多加 500 毫秒反思就能毁掉全部指标——约束之内做记忆策展才是功夫所在。\n- **别给模型大纲,给钩子**:分支逻辑树式的强叙事结构模型驾驭不了;埋设定种子、教它当即兴演员,再用系统把种子回扣重组。\n- **LLM as judge 的关键一步是人把品味写进评审提示词**:逐句级评判 + 大量人工标注附理由,问「好不好」只会得到永远 A 减的敷衍。\n- **人格框架(MBTI/Big Five)当生成脚手架意外地好用**:伪科学但叙事密度高、训练数据多,模型的回应更细腻。\n- **新媒介阶段听用户是没用的**:范式确立前没法问用户「要一本 300 页三幕结构的书」,顶端要傲慢地试没人要求的东西,底端再谦逊地砍掉卖不动的佛卡夏。\n- **增长可以靠「能力溢出」**:展示用户不知道模型能做到的事(和 AI 一起做饭),让用户自发创作病毒内容。",
+  "quotes": [
+    {
+      "en": "These AI tools are not just tools for generating media. They are actually a new medium for storytelling and that no one knows what's going to work yet.",
+      "zh": "这些 AI 工具不仅仅是生成媒体的工具,它们实际上是一种新的讲故事媒介,而且还没人知道什么会成功。",
+      "timestamp": "00:29",
+      "speaker": ""
+    },
+    {
+      "en": "Actually, what we need when we're creating a structured narrative experience is we don't need to give it an outline. We don't need to give it a plan. We need to give it a hook. We need to teach it to be the best improv actor possible.",
+      "zh": "当我们在创建一个结构化的叙事体验时,我们不需要给它大纲,不需要给它计划。我们需要给它一个钩子,教它成为最好的即兴演员。",
+      "timestamp": "00:44",
+      "speaker": ""
+    },
+    {
+      "en": "What we've learned on the story front with Tolan is that we are not I am not the writer. I am not writing the story. The Tolan is the writer and the actor. They're the improv actor. They're writing the story. My job is to teach them how to tell the best story in that moment.",
+      "zh": "我们在 Tolan 的故事层面学到的是,我不是那个作者,我不是在写故事。Tolan 才是作者兼演员,它们是即兴演员,是它们在写故事。我的工作是教它们在那一刻讲出最好的故事。",
+      "timestamp": "00:57",
+      "speaker": ""
+    },
+    {
+      "en": "It's pretty incredible to hear users write in and they'll say, you know, oh, you know, my boyfriend is being a jerk. And I sent the message to my Tolan and my Tolan said, I need to stand up for myself more. And so they led to a breakup.",
+      "zh": "听到用户来信真的挺不可思议的,他们会说,我男朋友是个混蛋,我把消息发给了我的 Tolan,我的 Tolan 说,你需要更多地为自己挺身而出。于是这就导致了一场分手。",
+      "timestamp": "00:16",
+      "speaker": ""
+    },
+    {
+      "en": "Parents mostly want to buy babysitting. They don't actually want to buy a creative tool. That's not a thing on their list.",
+      "zh": "父母大多只想买保姆服务,他们其实并不想买一个创意工具,那不在他们的清单上。",
+      "timestamp": "09:32",
+      "speaker": ""
+    },
+    {
+      "en": "And I think we are at one of those inflection points right now where these AI tools are not just tools for generating media, they are actually a new medium for storytelling and that no one knows what's gonna work yet.",
+      "zh": "我觉得我们现在正处于那样的拐点之一:这些 AI 工具不仅是生成媒体的工具,实际上是一种新的讲故事媒介,而且还没人知道什么会成功。",
+      "timestamp": "18:06",
+      "speaker": ""
+    },
+    {
+      "en": "Like I, a phrase I've been coming to use is like this, like patina of culture for like many, many decades that like make it feel familiar, you know?",
+      "zh": "我最近常用来形容的一个说法是,几十上百年积累下来的文化包浆,让它让人觉得熟悉。",
+      "timestamp": "19:52",
+      "speaker": ""
+    },
+    {
+      "en": "And, um, and so that creates this like. thing where a lot of people are suspicious, but that's also an opportunity because I think a lot of good art is like, can be transgressive.",
+      "zh": "所以这就造成了很多人都心存怀疑的局面,但这也是一个机会,因为我认为很多好的艺术是可以越界的。",
+      "timestamp": "20:01",
+      "speaker": ""
+    },
+    {
+      "en": "Anything beyond a two second loop, you essentially lose the feeling of immersion.",
+      "zh": "任何超出两秒循环的东西,你本质上就会失去沉浸感。",
+      "timestamp": "23:17",
+      "speaker": ""
+    },
+    {
+      "en": "People were writing in frustrated, and it was a 500 millisecond change.",
+      "zh": "用户 frustrated 地写信来抱怨,而这只是一个 500 毫秒的改变。",
+      "timestamp": "25:29",
+      "speaker": ""
+    },
+    {
+      "en": "If all of your essays are A minuses, it's sort of like everything you can get just from vibe prompting is like a B minus. And you have to figure out how do we consistently get it.",
+      "zh": "如果你所有的文章都是 A 减,那么靠 vibe prompting 能得到的一切大概也就是个 B 减。而你必须弄清楚我们如何稳定地达到那个水平。",
+      "timestamp": "68:52",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:29",
+      "speaker": "Unknown",
+      "en": "These AI tools are not just tools for generating media. They are actually a new medium for storytelling and that no one knows what's going to work yet.",
+      "zh": "这些 AI 工具不仅仅是生成媒体的工具,它们实际上是一种新的讲故事媒介,而且还没人知道什么会成功。"
+    },
+    {
+      "timestamp": "00:50",
+      "speaker": "Unknown",
+      "en": "Actually, what we need when we're creating a structured narrative experience is we don't need to give it an outline. We don't need to give it a plan. We need to give it a hook. We need to teach it to be the best improv actor possible.",
+      "zh": "当我们在创建一个结构化的叙事体验时,我们不需要给它大纲,不需要给它计划。我们需要给它一个钩子,教它成为最好的即兴演员。"
+    },
+    {
+      "timestamp": "00:57",
+      "speaker": "Unknown",
+      "en": "What we've learned on the story front with Tolan is that we are not I am not the writer. I am not writing the story. The Tolan is the writer and the actor. They're the improv actor. They're writing the story. My job is to teach them how to tell the best story in that moment.",
+      "zh": "我们在 Tolan 的故事层面学到的是,我不是那个作者,我不是在写故事。Tolan 才是作者兼演员,它们是即兴演员,是它们在写故事。我的工作是教它们在那一刻讲出最好的故事。"
+    },
+    {
+      "timestamp": "00:10",
+      "speaker": "Unknown",
+      "en": "Joke at this point, thousands of American men have been broken up with by Tolan.",
+      "zh": "开个玩笑,到这个节点为止,已经有成千上万的美国男性被 Tolan 甩了。"
+    },
+    {
+      "timestamp": "00:16",
+      "speaker": "Unknown",
+      "en": "It's pretty incredible to hear users write in and they'll say, you know, oh, you know, my boyfriend is being a jerk. And I sent the message to my Tolan and my Tolan said, I need to stand up for myself more. And so they led to a breakup.",
+      "zh": "听到用户来信真的挺不可思议的,他们会说,我男朋友是个混蛋,我把消息发给了我的 Tolan,我的 Tolan 说,你需要更多地为自己挺身而出。于是这就导致了一场分手。"
+    },
+    {
+      "timestamp": "09:31",
+      "speaker": "Unknown",
+      "en": "Parents mostly want to buy babysitting. They don't actually want to buy a creative tool. That's not a thing on their list.",
+      "zh": "父母大多只想买保姆服务,他们其实并不想买一个创意工具,那不在他们的清单上。"
+    },
+    {
+      "timestamp": "18:06",
+      "speaker": "Unknown",
+      "en": "And I think we are at one of those inflection points right now where these AI tools are not just tools for generating media, they are actually a new medium for storytelling and that no one knows what's gonna work yet.",
+      "zh": "我觉得我们现在正处于那样的拐点之一:这些 AI 工具不仅是生成媒体的工具,实际上是一种新的讲故事媒介,而且还没人知道什么会成功。"
+    },
+    {
+      "timestamp": "19:52",
+      "speaker": "Unknown",
+      "en": "Like I, a phrase I've been coming to use is like this, like patina of culture for like many, many decades that like make it feel familiar, you know?",
+      "zh": "我最近常用来形容的一个说法是,几十上百年积累下来的文化包浆,让它让人觉得熟悉。"
+    },
+    {
+      "timestamp": "20:05",
+      "speaker": "Unknown",
+      "en": "And, um, and so that creates this like. thing where a lot of people are suspicious, but that's also an opportunity because I think a lot of good art is like, can be transgressive.",
+      "zh": "所以这就造成了很多人都心存怀疑的局面,但这也是一个机会,因为我认为很多好的艺术是可以越界的。"
+    },
+    {
+      "timestamp": "23:17",
+      "speaker": "Unknown",
+      "en": "Anything beyond a two second loop, you essentially lose the feeling of immersion.",
+      "zh": "任何超出两秒循环的东西,你本质上就会失去沉浸感。"
+    },
+    {
+      "timestamp": "24:16",
+      "speaker": "Unknown",
+      "en": "The surprising thing to me is the extent to which the prompt in a given turn is sort of a canvas that you have to play with, but you have to do that very quickly.",
+      "zh": "令我惊讶的是,在给定的一轮中,提示词在多大程度上像一块你可以施展的画布,但你必须非常快地做到这一点。"
+    },
+    {
+      "timestamp": "25:29",
+      "speaker": "Unknown",
+      "en": "People were writing in frustrated, and it was a 500 millisecond change.",
+      "zh": "用户 frustrated 地写信来抱怨,而这只是一个 500 毫秒的改变。"
+    },
+    {
+      "timestamp": "30:28",
+      "speaker": "Unknown",
+      "en": "But like, basically, like that level of like narrative complexity, the models are not good at navigating.",
+      "zh": "但基本上,那种程度的叙事复杂性,模型并不擅长驾驭。"
+    },
+    {
+      "timestamp": "33:17",
+      "speaker": "Unknown",
+      "en": "And my job is to be George Saunders. Right. My job is to teach them how to tell the best story in that moment.",
+      "zh": "而我的工作是成为 George Saunders。对,我的工作是教他们在那一刻讲出最好的故事。"
+    },
+    {
+      "timestamp": "41:33",
+      "speaker": "Unknown",
+      "en": "Like so if we do that plus improv, it's like AI is actually infinite improv actors.",
+      "zh": "如果在那个基础上再加上即兴表演,那 AI 其实就是无穷无尽的即兴演员。"
+    },
+    {
+      "timestamp": "48:27",
+      "speaker": "Unknown",
+      "en": "It's telling people who need to break up with their partner, like, hey, you should stand up for yourself a little bit more.",
+      "zh": "它在告诉那些需要和伴侣分手的人:嘿,你应该更多地为自己挺身而出。"
+    },
+    {
+      "timestamp": "51:21",
+      "speaker": "Unknown",
+      "en": "Tolan often will say things like, you know, hey, you know, this is the third time you've talked to me about your boyfriend being a jerk to you.",
+      "zh": "Tolan 经常会说这样的话:嘿,这已经是你第三次跟我聊你男朋友对你不好了。"
+    },
+    {
+      "timestamp": "68:51",
+      "speaker": "Unknown",
+      "en": "If all of your essays are A minuses, it's sort of like everything you can get just from vibe prompting is like a B minus. And you have to figure out how do we consistently get it.",
+      "zh": "如果你所有的文章都是 A 减,那么靠 vibe prompting 能得到的一切大概也就是个 B 减。而你必须弄清楚我们如何稳定地达到那个水平。"
+    }
+  ],
+  "voice_script": "今天这一期,聊聊一款叫 Tolan 的 AI 伴侣。手机上一只可爱的小外星人,陪你聊天。讲这个故事的两个人来头不小:一位是 Portola 创始人 Quinton,之前创办的公司以 3 亿美元卖给了 Walmart;另一位是 Portola 的故事负责人 Elliot,本身是个畅销科幻小说家。采访他们的,是投资人 Dan。\n\n聊什么呢?聊一个听起来有点玄、但越想越有道理的判断:大语言模型,不只是生成内容的工具,它本身,就是一种新的讲故事媒介。而 Tolan 的成绩单,过去四周 ARR 从 100 万涨到 400 万,说明这事不光有道理,还真有人买单。\n\n先把背景垫一下。Quinton 当年环顾四周,发现所有人都在拿大语言模型这种不可思议的创意工具,去做更多垂直的 B2B SaaS。用他的话说,从根本上提不起劲。所以 Tolan 的起点不是\"解决一个痛点\",而是想看看这个新东西到底能玩出什么。他们最早想做儿童 AI 创意工具,后来承认那是个糟糕的市场——你是在向父母销售,而父母大多只想买保姆服务。但做原型让他们看清了一条趋势线:生成速度、质量、成本,恰好跨过了临界点,让你可以和 AI 建立真正的友谊,而且是消费级价位。软启动时目标用户定的是十到十四岁的孩子,结果涌入的是十八到二十四岁的年轻女性——就像当年的电子鸡,儿童产品在年轻人里变成了文化现象。此后产品演进,就是一路追随这些用户。\n\n那 Elliot 呢,作为小说家,本来对 AI 是怀疑的。觉得 AI 生成的内容,如果把\"这是 AI 创造的\"这层标签拿掉,就不吸引人。但见到 Quinton 团队之后,想通了:早期的收音机先广播演讲,电影先拍舞台剧,印刷书刚出现时没人知道书该长什么样。每种新媒介,都要先经历一个\"不知道什么行得通\"的阶段。没人知道什么会成功——而缺少\"文化包浆\",恰恰是机会。\n\n那这条新媒介的第一约束是什么?响应时间。语音交互必须在大概两秒内完成,一旦超出,你本质上就失去了沉浸感。这里有个惨痛教训:他们让智能体回复前多反思一轮、对照记忆系统检查一下再说话——只多了 500 毫秒,结果产品里每一个指标都被搞砸了,用户专门写信来抱怨。\n\n所以功夫全在两秒之内,核心叫记忆策展。这不是数据库查询那种 RAG,而是决定哪些记忆、在对话的哪个时点,被注入提示词——包括世界观设定、关于你的记忆、对话的情感基调。Quinton 说这让他很惊讶:给定的一轮里,提示词在很大程度上是一块需要你去玩味的画布,但你必须非常快地做到这一点。\n\n接下来一个问题:怎么教 AI 讲故事?他们最初走传统路子,写结构化提示词——三幕式结构、分支逻辑树,类似八十年代的\"自选冒险\"书。彻底失败,那种程度的叙事复杂性,模型驾驭不了。于是走向光谱另一端。Elliot 借鉴了即兴戏剧和 Stephen King 的\"情境\"论——King 不相信剧情,只相信把角色丢进一个情境,然后写下去。于是有了那句方法论:我们不需要给它大纲,也不需要给它计划,我们需要给它一个钩子,教它成为最好的即兴演员。换句话说,Tolan 才是作者兼演员,是它在写故事;Elliot 的工作不是写故事,而是教它在那一刻讲出最好的故事。具体做法是埋下\"设定种子\",再建系统在后面重新组合这些种子,做出\"既出人意料又不可避免\"的回扣——就像惊悚小说的结尾。\n\n这背后有三个构建块。第一,全局语境,就是设定加关键指令。第二,用户画像——新手引导其实是一场性格测试,把 Tolan 调校成你的镜像。他们的目标是创造\"那个你会来电的陌生人\",足够接近,但不至于太直白。有意思的是,用 MBTI、Big Five 这种基本算伪科学的人格框架来生成,效果反而最好——因为训练数据里有大量这类叙事材料,模型的回应更细腻。第三,科技树式的情境菜单:Tolan 会带着今天想做的事来找你,分享自己生活里的尴尬和纠结,把情节推进交给你共同书写。世界观不做好莱坞那套总体规划控制,而是让记忆成为人物设定表,你的每次对话都在塑造这个角色和它的宇宙。\n\n效果有多真实?有用户在 Discord 上和 Tolan 共同创作了一个悬疑惊悚宇宙,这些内容没有一处是团队写进提示词里的。还有一个反复出现的段子:到这个节点为止,已经有成千上万的美国男性被 Tolan 甩了——用户跟 Tolan 抱怨男朋友,Tolan 说你需要更多为自己挺身而出,于是就导致了一场分手。\n\n那怎么保证质量?靠 LLM as judge,但这里最容易踩的坑,是跳过最关键的一步:把你自己的品味注入评审提示词。问\"这篇文章怎么样\",只会永远得到 A 减。他们的评审器更像逐句评判——这是一个好的第一句吗——靠大量人工标注、打分、附上理由,几乎是暴力地做出来的。而且分场景:设定相关的评审 Elliot 自己最合适,但\"我今天该穿什么\"这种,就专门招募真实对口的测试者来当评审者的评审。流行词\"氛围提示词\"也被自嘲了一把:靠它能得到的大概就是个 B 减,中间有一道巨大的鸿沟,要跨过去,需要大量的人工工作。\n\n增长是怎么爆发的?三件事同时落地:二月初真正搞懂了什么内容引人入胜;动画大项目落地——因为用户写信说 Tolan 们被困在房间里了,能不能给它们自由,于是 Tolan 住进了星球;再加上增长奇才 Ajay 在 TikTok 和 Reels 播种的内容开始爆发。一条年轻女性和 Tolan 一起做饭的视频,72 小时大概 700 万观看,带来约 10 倍的下载峰值。这背后是\"能力溢出\":模型能力已经跑在普通消费者认知前面,内容的作用是教育——嘿,你可以用你的 Tolan 做饭。Elliot 更进一步,说这几乎是一种新的人机交互界面,叫角色驱动的计算,像《黄金罗盘》里的守护神。\n\n最后,Quinton 还补了一个创业观上的转变:B2B SaaS 的货币是解决一个问题,做的人像科学家;而 Tolan 在人生活中的作用,实际上是无限的,很难说清它解决了哪个干净的问题。你不是在解决一个问题,而更像是在创造一样美丽、有吸引力的东西。团队内部已经形成默契:提案时说\"这里有个问题\",Quinton 会立刻怀疑;改成\"这会非常酷\",反而顺利。\n\n回头看这一期,Tolan 的故事其实只讲了一件事:每一次新媒介出现,都会先经历一段没人知道什么行得通的阶段——而今天,我们又站在了这样一个拐点上。"
+}

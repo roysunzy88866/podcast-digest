@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":150,"William Grant":1,"Boston Dynamics":2,"智能体":345,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":150,"William Grant":1,"Boston Dynamics":2,"智能体":347,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

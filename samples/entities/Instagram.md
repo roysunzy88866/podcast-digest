@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[ChatGPT]] · [[Google]] · [[TikTok]] · [[智能体]] · [[Facebook]] · [[Stories]] · [[Anthropic]] · [[Claude]] · [[Reels]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"ChatGPT":80,"Google":49,"TikTok":5,"智能体":345,"Facebook":16,"Stories":2,"Anthropic":150,"Claude":70,"Reels":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"ChatGPT":81,"Google":49,"TikTok":6,"智能体":347,"Facebook":16,"Stories":2,"Anthropic":150,"Claude":70,"Reels":2}</script>
 
 <script>
 (function(){

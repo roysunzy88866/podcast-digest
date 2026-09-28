@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Sal Motamini]] · [[Gabe]] · [[Eric Landau]] · [[Alvaro Morales]] · [[Harvey]] · [[Anchored]] · [[Orb]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"OpenAI":139,"ChatGPT":80,"Sal Motamini":1,"Gabe":2,"Eric Landau":1,"Alvaro Morales":1,"Harvey":14,"Anchored":1,"Orb":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"OpenAI":139,"ChatGPT":81,"Sal Motamini":1,"Gabe":2,"Eric Landau":1,"Alvaro Morales":1,"Harvey":14,"Anchored":1,"Orb":1}</script>
 
 <script>
 (function(){

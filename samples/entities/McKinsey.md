@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>McKinsey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(01:44起):本集提到创始人 Philip 曾在此咨询公司工作了几年，负责对接各国太空机构，从而察觉到了发射成本暴跌的趋势。
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(42:55起):本集用麦肯锡作类比：它有非常成熟的做事方法，但没有企业会说让麦肯锡来配满全公司的人——成本太高，且你自己的业务 IP 和控制力才是长期价值，以此说明不应把数字劳动力绑在单一垂直栈上
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(26:49起):本集提到 Max 原本计划毕业后去 McKinsey，认为它是了解世界的好起点，但 GPT-3.5 出现后他改变了计划。
+- **[[2026-09-28-pmf-he-runs-3-dinners-a-week-instead-of-cold|《Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售》]]**(00:00起):Nick 的前雇主，他的法律科技经历和「申请 statement of work 要好几周」的亲身痛点都来自这里；离职带薪休假政策让他有时间全职做产品。
 
 ## ① 提到它的金句
 
@@ -24,21 +25,22 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司(提及)
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
+- [[2026-09-28-pmf-he-runs-3-dinners-a-week-instead-of-cold|《Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Microsoft]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[AWS]] · [[Lenny]] · [[基准测试]] · [[Google]] · [[Brian Halligan]] · [[Benedict Evans]]
+[[Microsoft]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[AWS]] · [[Lenny]] · [[基准测试]] · [[Sequoia]] · [[Google]] · [[Brian Halligan]]
 
-<script type="application/json" class="pd-epn">{"Microsoft":25,"OpenAI":139,"智能体":345,"Anthropic":150,"AWS":16,"Lenny":68,"基准测试":15,"Google":49,"Brian Halligan":1,"Benedict Evans":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":25,"OpenAI":139,"智能体":347,"Anthropic":150,"AWS":16,"Lenny":68,"基准测试":15,"Sequoia":6,"Google":49,"Brian Halligan":1}</script>
 
 <script>
 (function(){

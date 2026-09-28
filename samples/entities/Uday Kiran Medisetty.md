@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uber":14,"智能体":345,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":22,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":13}</script>
+<script type="application/json" class="pd-epn">{"Uber":14,"智能体":347,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":22,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":13}</script>
 
 <script>
 (function(){

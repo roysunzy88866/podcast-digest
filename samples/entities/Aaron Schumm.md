@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Vestwell":1,"Morgan Stanley":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":22}</script>
+<script type="application/json" class="pd-epn">{"Vestwell":1,"Morgan Stanley":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":23}</script>
 
 <script>
 (function(){

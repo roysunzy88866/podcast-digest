@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":7,"智能体":345,"上下文压缩":1,"RL":8,"蒸馏":12,"KV 缓存":3,"Cognition":19,"OpenRouter":11}</script>
+<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":7,"智能体":347,"上下文压缩":1,"RL":8,"蒸馏":12,"KV 缓存":3,"Cognition":19,"OpenRouter":11}</script>
 
 <script>
 (function(){

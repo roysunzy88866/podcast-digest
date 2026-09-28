@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":15,"Neon":3,"智能体":345,"本体":4,"网络安全":2,"RSI":3,"开源":27,"后训练":1,"harness":46}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":15,"Neon":3,"智能体":347,"本体":4,"网络安全":2,"RSI":3,"开源":27,"后训练":1,"harness":46}</script>
 
 <script>
 (function(){

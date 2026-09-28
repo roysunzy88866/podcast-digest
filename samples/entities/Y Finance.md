@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Maple]] · [[Ran Arusi]] · [[智能体]] · [[可教授的知识与习得的知识]] · [[工作流]] · [[软件工厂]] · [[律所模式]] · [[Automaze]] · [[MUXI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Ran Arusi":1,"智能体":345,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"MUXI":1,"Anthropic":150}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Ran Arusi":1,"智能体":347,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"MUXI":1,"Anthropic":150}</script>
 
 <script>
 (function(){

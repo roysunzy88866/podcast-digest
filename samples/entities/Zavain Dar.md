@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":45,"Hugging Face":23,"开源":27,"蒸馏":12,"推理":56,"新云":3,"前沿模型":21,"垂直 AI":2,"智能体":345}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":45,"Hugging Face":23,"开源":27,"蒸馏":12,"推理":58,"新云":3,"前沿模型":21,"垂直 AI":2,"智能体":347}</script>
 
 <script>
 (function(){

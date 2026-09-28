@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":32,"HubSpot":9,"CRM":6,"记录系统":5,"产品市场契合":22,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":32,"HubSpot":9,"CRM":6,"记录系统":5,"产品市场契合":23,"NDR":1,"发布视频":1,"ICP":3}</script>
 
 <script>
 (function(){

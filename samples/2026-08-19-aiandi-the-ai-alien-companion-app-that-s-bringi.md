@@ -10,13 +10,13 @@ description: Portola Elliot 主张不应把 LLM 当助手，而应视为即兴�
 host: "[[Quintin]]"
 cohosts: ["[[Elliot]]"]
 companies: ["[[Portola]]"]
-concepts: ["[[Tolan]]", "[[LLM]]", "[[提示词]]", "[[记忆]]", "[[响应时间]]", "[[hook]]", "[[即兴演员]]", "[[lore seeds]]", "[[judge]]", "[[多重宇宙]]"]
+concepts: ["[[Tolan]]", "[[LLM]]", "[[提示词]]", "[[记忆]]", "[[响应时间]]", "[[hook]]", "[[即兴演员]]", "[[lore seeds]]", "[[评审器]]", "[[多重宇宙]]"]
 category: 产品方法
 tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi#post","headline":"Portola：当AI变成即兴演员，不是助手","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","description":"Portola Elliot 主张不应把 LLM 当助手，而应视为即兴演员，用钩子代剧本，与用户共写平行宇宙。","datePublished":"2026-08-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Quintin"},{"@type":"Person","name":"Elliot"},{"@type":"Organization","name":"Portola"},{"@type":"Thing","name":"Tolan"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"响应时间 (response time)"},{"@type":"Thing","name":"hook"},{"@type":"Thing","name":"即兴演员 (improv actor)"},{"@type":"Thing","name":"lore seeds"},{"@type":"Thing","name":"judge"},{"@type":"Thing","name":"多重宇宙 (multiverse)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Portola：当AI变成即兴演员，不是助手","item":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi#post","headline":"Portola：当AI变成即兴演员，不是助手","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","description":"Portola Elliot 主张不应把 LLM 当助手，而应视为即兴演员，用钩子代剧本，与用户共写平行宇宙。","datePublished":"2026-08-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Quintin"},{"@type":"Person","name":"Elliot"},{"@type":"Organization","name":"Portola"},{"@type":"Thing","name":"Tolan"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"响应时间 (response time)"},{"@type":"Thing","name":"hook"},{"@type":"Thing","name":"即兴演员 (improv actor)"},{"@type":"Thing","name":"lore seeds"},{"@type":"Thing","name":"评审器 (judge)"},{"@type":"Thing","name":"多重宇宙 (multiverse)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Portola：当AI变成即兴演员，不是助手","item":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Portola：当AI变成即兴演员，不是助手</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Portola]]
 >
-> **概念** [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]] · [[lore seeds]] · [[judge]] · [[多重宇宙]]
+> **概念** [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]] · [[lore seeds]] · [[评审器]] · [[多重宇宙]]
 
 成千上万的美国男性已经被一个叫 [[Tolan|Tolan]] 的 AI 伴侣"甩"了——不是因为它出了 bug，而是因为用户把感情困惑发给 Tolan，Tolan 回答"你该为自己多挺身而出"，然后用户真的去分手了。这是 [[Portola|Portola]] 的产品，一个具身化的 AI 伴侣，过去四周 ARR 从 100 万涨到 400 万。
 
@@ -68,7 +68,7 @@ Tolan 的角色不是一开始就写死的。用户注册时经历一个"性格�
 
 ## 评判者也要注入品味：不能只靠"氛围提示词"
 
-他们用 LLM 做 [[judge|judge]] 来评估 Tolan 的输出质量，但关键发现是：**你不能只丢一句"你觉得这段对话怎么样"给 judge**，那样所有输出都会得 A 减 <button class="pd-ts" data-t="66:24" data-who="Dan" data-en="Because like my experience of LLMs as judges is... Like, it's a very compelling thing theoretically, but I find that, like, for example, if you ask Claude, how is this essay, it'll always give you an A minus." aria-label="回原文"></button>。
+他们用 LLM 做 [[评审器|judge]] 来评估 Tolan 的输出质量，但关键发现是：**你不能只丢一句"你觉得这段对话怎么样"给 judge**，那样所有输出都会得 A 减 <button class="pd-ts" data-t="66:24" data-who="Dan" data-en="Because like my experience of LLMs as judges is... Like, it's a very compelling thing theoretically, but I find that, like, for example, if you ask Claude, how is this essay, it'll always give you an A minus." aria-label="回原文"></button>。
 
 正确做法是把人类的品味暴力注入 judge 的提示词里——细到"这是一个好的第一句吗？这是一个好的第二句吗？
 
@@ -136,9 +136,9 @@ Elliot 特别强调：从"氛围提示词"到真正让人持久觉得引人入�
 
 **换个口味**
 
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学]]<span class="pd-rz">同公司:Portola · 同概念:judge、LLM、Tolan、响应时间 (response time)、提示词 (prompt)、记忆 (memory)</span>
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:Tolan、记忆 (memory)、LLM</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM、记忆 (memory)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 
 </div>
 </div>

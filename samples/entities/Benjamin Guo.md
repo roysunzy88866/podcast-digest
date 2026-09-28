@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":345,"智能封建主义":1,"SaaS":18}</script>
+<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":347,"智能封建主义":1,"SaaS":18}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>62</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>63</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -53,6 +53,7 @@ unlisted: true
 - **[[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]]**(31:12起):本集提到连接器、MCP 和集成是整个行业智能体故事中重要的一部分，GrokBot 通过 marketplace 让智能体接入 Slack、Notion、Figma 等工具。
 - **[[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]]**(30:03起):本集把它说成:harness 协调的工具调用之一;不用的 MCP 服务器应审计删掉,避免白白占据每轮上下文
 - **[[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]]**(18:18起):本集把它说成：把 Atlassian、Datadog、Figma、Google 等外部工具接进 Cursor（本地和云端通用）的插件/集成体系
+- **[[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]]**(12:00起):本集把它当作强制填充 header、重定向网络访问的现有控制手段之一(与 HTTP 客户端、skills 并列)。
 - **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(06:30起):Anthropic 发布的为智能体构建工具的行业标准协议;LinkedIn 构建了内部 MCP,把 CodeSearch、Docs、Jira、Slack 等工具开放给智能体,并面临超过三四十个工具会拖垮性能的通病
 - **[[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]]**(00:19起):智能体走出去调用工具的开放标准，全球有数以万计的 server；本集强调它最强大之处在于所有人都在用，并把它作为智能体技术栈中「工具」一层的标准，与 ACP 互补
 - **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:48起):本集反复强调纯文本 MCP（不返回 UI）能让模型自由多次搜索、深挖数据，是构建 MCP Apps 的数据基础层
@@ -98,7 +99,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*62 集*
+*63 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -142,6 +143,7 @@ unlisted: true
 - [[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]] — 作为概念(提及)
 - [[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]] — 作为概念(提及)
 - [[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]] — 作为概念
+- [[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|《给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行》]] — 作为概念(提及)
 - [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为概念
 - [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为概念
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
@@ -167,9 +169,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[Codex]] · [[沙箱]] · [[harness]] · [[Cursor]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[护栏]] · [[OpenAI]] · [[Codex]] · [[沙箱]] · [[可观测性]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"Claude":70,"Anthropic":150,"Claude Code":81,"护栏":65,"OpenAI":139,"Codex":60,"沙箱":62,"harness":46,"Cursor":70}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"Claude":70,"Anthropic":150,"Claude Code":82,"护栏":65,"OpenAI":139,"Codex":60,"沙箱":62,"可观测性":32,"harness":46}</script>
 
 <script>
 (function(){

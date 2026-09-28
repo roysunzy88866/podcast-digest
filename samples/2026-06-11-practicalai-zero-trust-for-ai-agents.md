@@ -135,8 +135,8 @@ Daniel 提到 Anthropic 文档里的一个哲学级转变——**AI 供应商化
 **顺着「AI 安全」挖下去**
 
 - [[2026-08-19-talks-why-your-enterprise-tech-stack-isn-t-rea|企业还没为 AI 智能体做好准备：四条架构原则补上缺口]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、零信任 (zero trust)、可观测性 (observability)</span>
+- [[2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two|给智能体系上绳索:Two Sigma 让云端 AI 以你的身份安全运行]]<span class="pd-rz">同概念:可观测性 (observability)、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:MCP、智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

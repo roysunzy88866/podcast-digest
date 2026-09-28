@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]] [[Renen Hallak]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Parallel":6,"Amazon":16,"Shopify":10,"OpenAI":139,"Perplexity":7,"智能体":345,"网页搜索":1,"推理":56,"开源模型":22}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Parallel":6,"Amazon":16,"Shopify":10,"OpenAI":139,"Perplexity":7,"智能体":347,"网页搜索":1,"推理":58,"开源模型":22}</script>
 
 <script>
 (function(){

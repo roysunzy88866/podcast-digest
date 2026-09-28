@@ -158,7 +158,7 @@ Josh 看产品的整个漏斗:①价值能否一句话讲清、让人扬眉;②�
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Apple、ChatGPT、Google · 同概念:智能体 (agent)、网络效应 (network effect)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Gemini · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT · 同概念:智能体 (agent)、网络效应 (network effect)</span>
+- [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|个人助理 Instinct:零界面、十亿美元交易与每天10%的增长]]<span class="pd-rz">同公司:ChatGPT · 同概念:信任 (trust)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

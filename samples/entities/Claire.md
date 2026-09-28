@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":60,"智能体":345,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":6,"Devon":3,"Meta":35,"Vercel":18,"Cognition":19}</script>
+<script type="application/json" class="pd-epn">{"Codex":60,"智能体":347,"Intercom":6,"Ryan Carson":1,"Muse":2,"ChatPRD":6,"Devon":3,"Meta":35,"Vercel":18,"Cognition":19}</script>
 
 <script>
 (function(){

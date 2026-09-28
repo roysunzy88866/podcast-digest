@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Muse</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(00:07起):本集主角：Meta 新推出的个人 AI 智能体，定位「能帮你把事情办成的个人智能体」，Claire 总评它不一定是最高智能的，但可能是她很久以来用过的设计最好的智能体，「每一刻都感到愉悦，从来不觉得烦」。
+- **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(37:52起):本集提了一句:被问及对 Muse 的看法,Noah 说它是『很棒的产品,但思路根本上不同』。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司
+- [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire]] · [[Meta]] · [[智能体]] · [[OpenClaw]] · [[浏览器使用]] · [[权限授予]] · [[活动流]] · [[目标]] · [[信息流]] · [[资料库]]
+[[智能体]] · [[ChatGPT]] · [[Claire]] · [[Noah Shinn]] · [[Meta]] · [[Instinct]] · [[OpenClaw]] · [[主动性]] · [[浏览器使用]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Meta":35,"智能体":345,"OpenClaw":18,"浏览器使用":8,"权限授予":1,"活动流":1,"目标":1,"信息流":1,"资料库":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"ChatGPT":81,"Claire":3,"Noah Shinn":1,"Meta":35,"Instinct":2,"OpenClaw":18,"主动性":1,"浏览器使用":8,"算力":6}</script>
 
 <script>
 (function(){

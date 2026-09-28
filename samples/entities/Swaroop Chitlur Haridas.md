@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nachiket Paranjape":1,"DoorDash":8,"评估":3,"智能体":345,"LLM 网关":2,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":9,"黄金数据集":1,"数据标注":2}</script>
+<script type="application/json" class="pd-epn">{"Nachiket Paranjape":1,"DoorDash":8,"评估":3,"智能体":347,"LLM 网关":2,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":9,"黄金数据集":1,"数据标注":2}</script>
 
 <script>
 (function(){

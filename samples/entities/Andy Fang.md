@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":8,"Dot":1,"Waymo":14,"智能体商务":1,"智能体":345,"自主性":8,"分发":7,"无人机":2,"harness":46,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":8,"Dot":1,"Waymo":14,"智能体商务":1,"智能体":347,"自主性":8,"分发":7,"无人机":2,"harness":46,"开放权重模型":1}</script>
 
 <script>
 (function(){

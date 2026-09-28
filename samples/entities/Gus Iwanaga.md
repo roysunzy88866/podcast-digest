@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":3,"编排器":3,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":62,"沙箱":62}</script>
+<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":3,"编排器":3,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":63,"沙箱":62}</script>
 
 <script>
 (function(){

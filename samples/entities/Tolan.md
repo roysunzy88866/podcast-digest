@@ -1,23 +1,33 @@
 ---
 title: Tolan
-entity_type: 概念
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Tolan</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Tolan">TO</div><div class="pi"><h1 class="pt">Tolan</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Tolan">TO</div><div class="pi"><h1 class="pt">Tolan</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]]**(00:10起):手机上一只陪你聊天的可爱小外星人,本集主线产品:语音两秒循环、记忆策展、埋设定种子教它当即兴演员
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(00:11起):本集说 Tolan 是 Portola 的具身化 AI 伴侣产品，角色定位类似哥哥姐姐，能通过与用户对话共同写作情节、构建角色背景，成千上万用户会因为 Tolan 的建议而分手。
 - **[[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]]**(01:29起):本集主角:一个语音优先的 AI 陪伴产品,一个有个性、记得你的小外星人,用户像跟朋友一样大声跟它说话,累计语音对话超 400 万小时
 
+## ① 提到它的金句
+
+*2 条*
+
+![[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri#^q3]]
+
+![[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri#^q4]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]] — 作为被讨论公司
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]] — 作为被讨论公司
 
@@ -25,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[LLM]] · [[记忆]] · [[Quintin]] · [[Paula Dozsa]] · [[Elliot]] · [[智能体]] · [[Portola]] · [[延迟]] · [[提示词]] · [[上下文]]
+[[LLM]] · [[记忆]] · [[Portola]] · [[提示词]] · [[评审器]] · [[响应时间]] · [[即兴演员]] · [[Quintin]] · [[Paula Dozsa]] · [[设定种子]]
 
-<script type="application/json" class="pd-epn">{"LLM":45,"记忆":16,"Quintin":1,"Paula Dozsa":1,"Elliot":1,"智能体":345,"Portola":1,"延迟":6,"提示词":17,"上下文":20}</script>
+<script type="application/json" class="pd-epn">{"LLM":46,"记忆":17,"Portola":2,"提示词":18,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"Paula Dozsa":1,"设定种子":1}</script>
 
 <script>
 (function(){

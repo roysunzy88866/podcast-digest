@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]]
+[[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Superhuman":4,"Whisper":2,"Victor":2,"Meta":35,"Google":49,"PLG":12,"智能体":345,"ugc":2,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Superhuman":4,"Whisper":2,"Victor":2,"Meta":35,"Google":49,"PLG":12,"智能体":347,"ugc":2,"AEO":5}</script>
 
 <script>
 (function(){

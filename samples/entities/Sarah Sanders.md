@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]] [[Tanmai Gopal]]
+[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]] [[Shu Fang, Two Sigma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":345,"提示词注入":17,"沙箱":62,"护栏":65,"子智能体":3,"Yara":1,"上下文引擎":4}</script>
+<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":347,"提示词注入":18,"沙箱":62,"护栏":65,"子智能体":3,"Yara":1,"上下文引擎":4}</script>
 
 <script>
 (function(){

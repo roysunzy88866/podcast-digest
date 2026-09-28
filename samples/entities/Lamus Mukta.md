@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":150,"Claude Tag":2,"Claude Code":81,"智能体":345,"沙箱":62,"记忆":16,"dreaming":3,"智能体身份":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":150,"Claude Tag":2,"Claude Code":82,"智能体":347,"沙箱":62,"记忆":17,"dreaming":3,"智能体身份":2}</script>
 
 <script>
 (function(){

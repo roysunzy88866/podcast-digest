@@ -1,0 +1,1477 @@
+{
+  "episode_id": "2026-09-28-iltb-noah-shinn-building-instinct-the-persona",
+  "podcast": "Invest Like the Best",
+  "date": "2026-09-28",
+  "tags": [
+    "个人智能体",
+    "消费级产品",
+    "商业模式",
+    "信任与安全",
+    "算力"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "noah-shinn",
+      "type": "person",
+      "role": "host",
+      "name": "Noah Shinn",
+      "file": "Noah Shinn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": true,
+      "how_described": "本集主线:Noah 一年前创办的公司,做一个没有 App 的个人助理——只有一部手机和一台电脑,可以给它发短信、邮件、打电话,它也会主动打给你;年交易量已接近超 10 亿美元,最新一轮融资约 10 亿美元、估值约 100 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            174.312,
+            174.973
+          ],
+          "quote": "I run Instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            339.935,
+            346.239
+          ],
+          "quote": "Tell us the couple craziest stories that come to mind for what people, just things that have happened because of instinct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            364.891,
+            368.834
+          ],
+          "quote": "What are your favorite couple examples of just wild things that have happened because of instinct?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            472.048,
+            484.285
+          ],
+          "quote": "Users connect their bank accounts to Instinct, and then it can scan over all the transactions and subscriptions that they've had and then surface that to the user and say, like, do you really actually use this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            525.509,
+            527.873
+          ],
+          "quote": "Can you tell us about the instinct to instinct network?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            571.186,
+            579.972
+          ],
+          "quote": "However, if it was possible for, you know, the two users who were using Instinct, probably, you know, also like brainstorming these times that they're available with Instinct anyways on the other, on two ends.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            603.139,
+            609.841
+          ],
+          "quote": "It will then coordinate with the other person's instinct to be able to find when time is available or not, and then eventually put something on the calendar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            725.481,
+            729.922
+          ],
+          "quote": "And then my instinct texts me like, hey, by the way, Patrick's like looking for this type of information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            774.19,
+            780.035
+          ],
+          "quote": "Even little things like, you know, you were trying to find this house earlier, like, if I could just say to my instinct, hey, is no one nearby?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            911.08,
+            916.562
+          ],
+          "quote": "Everyone in the world having one of these, having an instinct, having an agent, and how that will reorder things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1160.368,
+            1171.478
+          ],
+          "quote": "Travel agencies that we might all use today, or we meaning the people who are not on instinct yet, use today to book hotels or flights or other things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1190.052,
+            1201.24
+          ],
+          "quote": "But I think there's an even better experience through Instinct or other similar interfaces where you can just say, hey, I need to be, you know, I'm using a voice recording again because I'm trying to describe how easy it is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1213.752,
+            1216.995
+          ],
+          "quote": "Instinct can, you know, if you'd want, it can see your location.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1508.578,
+            1513.582
+          ],
+          "quote": "They should share data with instinct at the rate at which they feel comfortable with, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1516.09,
+            1526.393
+          ],
+          "quote": "And what we find is over several weeks, I believe, I was looking at the numbers the other day, three weeks in, there's a 40% chance that the user has shared a personal credit card with Instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1568.063,
+            1580.572
+          ],
+          "quote": "We actually find that when users connect at least one piece of sensitive information to instinct and really trust instinct, there's like an 80% retention rate, 80% if you share one piece of information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1587.917,
+            1598.503
+          ],
+          "quote": "To trust, not instinct in particular, but just anything, any AI agent with all of its information, like how should they think about the actual risk of doing this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1653.328,
+            1665.05
+          ],
+          "quote": "You know, this is the first time that an agent has been able to have, you know, I said within three weeks, 40% of the user base is giving instinct access to a credit card autonomously, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1678.133,
+            1691.736
+          ],
+          "quote": "There are systems that we've put in place that are detached from instinct, the agent architecture itself, that are put in place to be proactive about these things and to sort of like decouple the risk, if I were to say.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1692.136,
+            1699.698
+          ],
+          "quote": "So, for example, any piece of content, any piece of text, anything, any form of media that comes in that might be consumed by instinct",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1700.078,
+            1716.321
+          ],
+          "quote": "goes through what we call these firewalls, which can intercept, that can reject, that can block malicious pieces of content coming in and hitting instinct and trying to convince instinct to do something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1716.548,
+            1734.557
+          ],
+          "quote": "There is also, for every action that instinct might take or for every thought that it might have, that is being actively monitored by a system that is decoupled from instinct itself, which is able to pause it, intercept it, to approve or disapprove of what might happen next before it takes the action.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1794.117,
+            1801.102
+          ],
+          "quote": "We don't want instinct to influence the user's behavior in a way that is not aligned with what the user wants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1801.382,
+            1812.451
+          ],
+          "quote": "That sounds very good on the surface level, but I want to call out how important that is because imagine a world in which instinct is generally smarter than the user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1820.376,
+            1831.404
+          ],
+          "quote": "I think it would be a very dangerous world if instinct were influencing the user's behavior to purchase something that they don't want to purchase or to subscribe to something that they don't want, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1888.11,
+            1894.116
+          ],
+          "quote": "And so we instinct should act on behalf of what the user wants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1894.622,
+            1908.47
+          ],
+          "quote": "We take this very seriously when we're building product, when we're through the various research projects that we have, which are, Instinct is not, unlike any other AI product, Instinct is not a task accomplisher.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1930.057,
+            1934.258
+          ],
+          "quote": "Instinct follows higher level objectives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1934.498,
+            1942.34
+          ],
+          "quote": "So instinct will follow, learn to build trust with the user, learn to make the user genuinely feel safer with you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2074.341,
+            2082.847
+          ],
+          "quote": "How does that vision of a small take rate on the transaction volume on Instinct, because it's a free product, how does that slot into the existing world, do you think?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2280.406,
+            2291.552
+          ],
+          "quote": "You've got all these established players with tremendous vested interests in relationship with customers that this could, both instinct and other agents, could really disrupt in a major way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2302.378,
+            2309.021
+          ],
+          "quote": "I can imagine a lot better experience on a snappy WhatsApp connection with instinct or something saying, hey, I want my usual from this restaurant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2445.749,
+            2451.912
+          ],
+          "quote": "And, you know, we're taking something like Instinct and making that friction to do anything almost zero.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2458.174,
+            2469.579
+          ],
+          "quote": "If Instinct has access to your calendar and is, you know, owns your calendar and is booking, you know, all of these events and knows where you need to be in person here and in person there, you know, what if Instinct just always had a car lined up for you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2605.225,
+            2608.65
+          ],
+          "quote": "This is how users on Instinct are interacting with your business now already.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2678.096,
+            2689.702
+          ],
+          "quote": "And it's just very clear if your business benefits from more transaction volume, not at the cost, or even at the cost of less time on the application, then you're going to be in a really great spot because Instinct is going to make it",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2733.915,
+            2751
+          ],
+          "quote": "It's almost like liberating for the user to be able to, you know, again, this is why it's so important for Instinct to act on behalf of what's best for the user because it's able to deliver experiences like this where you can actually liberate the user from, you know, being sucked into these, you know, these scroll, infinite scrolling moments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2889.015,
+            2895.378
+          ],
+          "quote": "Talk us through what it's been like to build instinct itself and the key and hard things to do so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2912.784,
+            2918.205
+          ],
+          "quote": "So maybe first just say a quick word on that, like what you want instinct to feel like as a product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3109.178,
+            3111.678
+          ],
+          "quote": "Two or three weeks in, does the user trust instinct, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3154.13,
+            3159.612
+          ],
+          "quote": "So I think this is very important because I think that Instinct is quite capable and is one of the most capable product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3602.009,
+            3609.634
+          ],
+          "quote": "Do you have a set or per week, I don't know what the right metric is, like how much me using my instinct costs in inference per day or something like this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3794.4,
+            3799.021
+          ],
+          "quote": "Instinct has the ability to wake up and to sleep at any moment in time during the day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3861.539,
+            3872.367
+          ],
+          "quote": "You know, maybe instinct wakes up at 6 a.m. because it knows that you wake up at, you know, 7 a.m. And then it goes and scans everything, make sure that, you know, everything's ready for the day for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3885.537,
+            3888.32
+          ],
+          "quote": "Maybe the user doesn't even know how to interact with Instinct in that way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3889.02,
+            3894.385
+          ],
+          "quote": "But Instinct thinks that it's well-meaning and it's something valuable to your user.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3943.183,
+            3948.887
+          ],
+          "quote": "I think that instinct is meant to be a simple and very easily accessible.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 812,
+          "t": [
+            4350.813,
+            4356.337
+          ],
+          "quote": "We have a certain, there's a certain subset of users that interact with Instinct only through voice, actually.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 813,
+          "t": [
+            4356.697,
+            4374.289
+          ],
+          "quote": "Like, more than 90% of the interaction of the messages that they send to Instinct are primarily through voice, where I even have this, like, action button, you know, the action button on your phone, and it's paired to, like, I can click on the action button, and I can say, like, you know, hey, say hi to, you know, Patrick in two hours from now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4456.3,
+            4471.389
+          ],
+          "quote": "You know, we have like a files feature that enables Instinct to be able to send, you know, effectively entire sites, like full web applications to, you know, show just much more, whether it's like a trip itinerary or, I don't know, like a wedding plan or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4589.125,
+            4603.252
+          ],
+          "quote": "I see small businesses being run now that are native to Instinct itself, meaning the entire business is now run on Instinct, where the entire back office is now completely functioning on top of Instinct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 874,
+          "t": [
+            4668.198,
+            4677.993
+          ],
+          "quote": "I think of instinct as this very like seamless, almost quiet, extremely capable, reliable thing, but not as having a cheeky personality or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4684.769,
+            4697.96
+          ],
+          "quote": "It's certainly relationship building or anything in that area is not something that we want instinct to do or to pursue or to develop with users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4765.238,
+            4766.079
+          ],
+          "quote": "Why is it called Instinct?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4766.76,
+            4767.381
+          ],
+          "quote": "Instinct I like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4767.601,
+            4782.686
+          ],
+          "quote": "As a name for so many different reasons, I think the main thing is that instinct should not be this playful thing that you might bully once in a while and that you think downwards on and that it's this thing that only takes the dirty work off your plate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4799.48,
+            4806.987
+          ],
+          "quote": "But I like that instinct is not, you know, named like, I don't know, someone's name or something like that to try to personify into like a human.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 897,
+          "t": [
+            4808.665,
+            4809.966
+          ],
+          "quote": "I don't even know what an instinct is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4849.813,
+            4856.098
+          ],
+          "quote": "I would focus less on like Instinct is an iMessage app or Instinct is a WhatsApp app or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 912,
+          "t": [
+            4865.404,
+            4871.669
+          ],
+          "quote": "And how can we deliver the experience of Instinct through the channels that they already interact with every day?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:带着手机、电脑、邮箱的『超人』,能与用户协同行动的日常智能;两个用户的智能体可直接协调日程(instinct 对 instinct 网络),并把重塑预订、旅行等行业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            241.418,
+            244.68
+          ],
+          "quote": "You know, that agent that is able to help you with...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            911.08,
+            916.562
+          ],
+          "quote": "Everyone in the world having one of these, having an instinct, having an agent, and how that will reorder things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            991.986,
+            994.487
+          ],
+          "quote": "But then now when you have an agent, you can...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            995.367,
+            1002.494
+          ],
+          "quote": "Theoretically, just have the agent check every five seconds, you know, not just across that one restaurant that you really care about, that's your favorite restaurant you can't get in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1009.882,
+            1015.968
+          ],
+          "quote": "And now you can see how the agent is able to exploit just something simple like restaurant reservations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1070.737,
+            1076.959
+          ],
+          "quote": "But what if you had the ability for the agent to be able to communicate on both sides, communicate, hey, this is important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1438.256,
+            1443.88
+          ],
+          "quote": "What has it been like getting people and learning what it takes to get people to trust their agent, their thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1587.917,
+            1598.503
+          ],
+          "quote": "To trust, not instinct in particular, but just anything, any AI agent with all of its information, like how should they think about the actual risk of doing this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1653.328,
+            1665.05
+          ],
+          "quote": "You know, this is the first time that an agent has been able to have, you know, I said within three weeks, 40% of the user base is giving instinct access to a credit card autonomously, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1678.133,
+            1691.736
+          ],
+          "quote": "There are systems that we've put in place that are detached from instinct, the agent architecture itself, that are put in place to be proactive about these things and to sort of like decouple the risk, if I were to say.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1734.757,
+            1745.849
+          ],
+          "quote": "I mean, those are just two pieces put in place, but there's just so much more under the hood that is put in place to enable the agent to be as capable as possible, but also safe and trustworthy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1755.625,
+            1758.146
+          ],
+          "quote": "I mean an agent aligned with me personally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1786.04,
+            1793.524
+          ],
+          "quote": "Can you walk us through this like decision tree of what the business model is or will be and how you arrived at that as the ideal conclusion for the agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2272.902,
+            2279.926
+          ],
+          "quote": "There's going to be a serious corporate agent war that you've already seen this with Amazon and Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2623.986,
+            2639.59
+          ],
+          "quote": "If you think about the things that traditional companies can be doing now to prepare themselves for an agent-rich world, let's just pretend, you know, half of Americans or something have an agent that's doing all the stuff you just described, which sounds incredible and magical and very democratizing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            4064.224,
+            4077.853
+          ],
+          "quote": "It didn't have these active monitors in place and so many other pieces of infrastructure that were meant to get ahead and be proactive about being able to provide that much control to the agent and existing system to be able to secure",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4224.755,
+            4243.987
+          ],
+          "quote": "So we put in place a more systematic solution that will detect before an action is taken, before a thinking trace is executed as a tool call, before any action might be taken, it is validated and scrutinized by something that is decoupled from the same incentive system as the underlying agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4657.717,
+            4665.76
+          ],
+          "quote": "Like I'm thinking now of the movie Her, where there's this relationship that forms between this omniscient, omni-capable agent and the user.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "proactivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "主动性 (proactivity)",
+      "file": "主动性",
+      "primary": true,
+      "how_described": "本集说 Instinct 几乎是原生主动的:它能在一天中任意时刻唤醒和休眠,早上 6 点醒来扫描一切、下午 4 点再醒来做用户不知道该怎么发起的事;真正交互式的只是较小子集,因此所需算力将高出几个数量级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 707,
+          "t": [
+            3697.599,
+            3705.603
+          ],
+          "quote": "But there's a lot of different work that's happening through proactivity that is happening throughout the day that doesn't actually need to finish in hundreds of milliseconds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3814.186,
+            3818.687
+          ],
+          "quote": "So proactivity, I think, is going to continue to expand over time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集说 Noah 花 40% 的时间在担心算力:需求每周翻倍,算力有数月交付周期、现货要贵 3-4 倍;哪怕增速降到每天 5-8%,复利三四个月就是 1 亿用户的量级——『如果你错了,你会错得很离谱』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            107.893,
+            112.035
+          ],
+          "quote": "The compute required to it is over dollars just this year alone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2875.93,
+            2876.79
+          ],
+          "quote": "I want to hear about compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2877.01,
+            2882.273
+          ],
+          "quote": "I think you said to me at some point that you spend, I don't know, a big chunk of your time just thinking about compute right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3216.276,
+            3217.436
+          ],
+          "quote": "You need a lot of compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3258.726,
+            3275.011
+          ],
+          "quote": "The goal here is to be able to, you know, I'm ambitious, I want to scale this thing as fast as possible, but I also want to do it in a responsible way that enables us to, you know, not wake up one morning and have 10 times the number of users and then 80% of them actually can't talk to it because there's not enough compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3489.061,
+            3497.108
+          ],
+          "quote": "We also have that, to be fair, but what do you do when the underlying compute also needs to, you know, 10% day every day, we've been doing this for several, several weeks now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3497.929,
+            3505.154
+          ],
+          "quote": "What does it mean when the amount of compute that you need access to is now doubling effectively every week?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3505.395,
+            3509.358
+          ],
+          "quote": "Do we buy compute, you know, 2x of what we have right now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3554.742,
+            3561.286
+          ],
+          "quote": "So you can't just go out tomorrow and start, you know, buy a compute because honestly, you get taxed like 3 or 4x what it is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3577.147,
+            3583.695
+          ],
+          "quote": "But five to 8% compounding day over day for three, four months, which is the lead time to get, you know, bring compute online.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3586.737,
+            3589.159
+          ],
+          "quote": "So then do you buy compute for 100 million users?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3709.025,
+            3722.112
+          ],
+          "quote": "There is batch work that is consuming a lot of content that can be served with deployment shapes that are 3x, 5x, 8x, more efficient with the same underlying compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3746.634,
+            3755.218
+          ],
+          "quote": "And if I think about this at true scale, like you get to scale of a billion users or something like this, like how much new compute demand do you think this will represent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3755.238,
+            3766.383
+          ],
+          "quote": "I mean, it seems CodeGen's obviously been an enormous amount, but ground us in some sense of scale of like, you know, whether it's per user or some way of understanding just like how much new compute this will require.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3766.823,
+            3774.811
+          ],
+          "quote": "I'm just saying it's going to be a lot because if you just think about, let's just ignore compute and just think about how many tokens are flowing through the platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3819.068,
+            3831.261
+          ],
+          "quote": "There's this big build-out, this big compute build-out with the earlier breakout products in the AI space that are just scratching the surface of productivity or of background work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3840.05,
+            3851.615
+          ],
+          "quote": "So I think that the amount of compute that is going to be needed is going to be, honestly, orders of magnitude more than what we thought that we needed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 928,
+          "t": [
+            4958.372,
+            4964.095
+          ],
+          "quote": "You know, compute costs are high and we're trying to deliver it in a very affordable way to our users.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说他们为自有工作负载定制推理部署:大量主动式、批处理工作不需要几百毫秒内完成,可用效率高 3-8 倍的部署形态服务,以极低成本做到与前沿模型相同的参与度和评估表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 693,
+          "t": [
+            3602.009,
+            3609.634
+          ],
+          "quote": "Do you have a set or per week, I don't know what the right metric is, like how much me using my instinct costs in inference per day or something like this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3722.953,
+            3735.203
+          ],
+          "quote": "So I think that when you customize these inference deployments to be able to perfectly shape the data and the workloads that you're serving, you're able to find these, you know, 30% here, 5x there, 6x there, 10% here.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任 (trust)",
+      "file": "信任",
+      "primary": true,
+      "how_described": "本集把信任当成可量化的数据飞轮:到第一张信用卡、第一个账户密码、第一条敏感信息的时间是信任的代理指标;第三周 40% 用户共享信用卡,共享一条敏感信息后留存率高达 80%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            208.377,
+            226.826
+          ],
+          "quote": "So I would say one interesting thing is that this is not like any other, you know, transformational consumer app experience where it's the founder coming on and saying, you know, I have this new vision for the world where this is going to, you know, trust me on this and in a few years, you know, from now, you guys will all get it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            683.168,
+            683.789
+          ],
+          "quote": "I trust you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            696.481,
+            706.75
+          ],
+          "quote": "There are some interesting cases I've learned about where if somebody violates your, whatever, your trust within a network, there's an implication on that relationship itself, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            708.932,
+            711.534
+          ],
+          "quote": "And then I said, like, hey, Patrick, you know, I trust you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            730.102,
+            733.942
+          ],
+          "quote": "Now there's kind of like almost like a trust broken, you know, between the two of us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1356.237,
+            1365.38
+          ],
+          "quote": "Vanta cuts audit prep by 82% and gives you instant up-to-date proof of trust without all the manual work so you can close deals faster and with less friction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1438.256,
+            1443.88
+          ],
+          "quote": "What has it been like getting people and learning what it takes to get people to trust their agent, their thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1450.668,
+            1457.511
+          ],
+          "quote": "moments where people are showing trust and data you started to gather and lessons you're starting to learn about the importance of trusting this thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1474.805,
+            1476.648
+          ],
+          "quote": "Talk about trust, what you've learned so far.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1493.43,
+            1498.457
+          ],
+          "quote": "What we find in the data is actually that it takes actually several weeks to build trust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1534.455,
+            1548.183
+          ],
+          "quote": "So 40% of the user base, the reason why I'm sharing this is because time to like first credit card or time to first account password or time to first a sensitive piece of information, these are proxies for trust and we actually highly value this and we take it very seriously.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1560.56,
+            1565.622
+          ],
+          "quote": "And so through that process over the first, I guess, three weeks, the user learns to build trust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1568.063,
+            1580.572
+          ],
+          "quote": "We actually find that when users connect at least one piece of sensitive information to instinct and really trust instinct, there's like an 80% retention rate, 80% if you share one piece of information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1587.917,
+            1598.503
+          ],
+          "quote": "To trust, not instinct in particular, but just anything, any AI agent with all of its information, like how should they think about the actual risk of doing this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1599.344,
+            1609.87
+          ],
+          "quote": "And how would you reassure them that you've built your technology in such a way that the odds of something bad happening, if they do trust you with very sensitive stuff, are really low or close to zero?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1758.706,
+            1765.429
+          ],
+          "quote": "If I think about other agents I've hired, like employees, I pay the money and therefore I trust them to have my interests at heart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1934.498,
+            1942.34
+          ],
+          "quote": "So instinct will follow, learn to build trust with the user, learn to make the user genuinely feel safer with you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1949.081,
+            1957.363
+          ],
+          "quote": "And when the user asks it to do something, if it is well-intentioned and well-meaning, one way to communicate safety and trust is just to do the tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3109.178,
+            3111.678
+          ],
+          "quote": "Two or three weeks in, does the user trust instinct, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3113.019,
+            3119.72
+          ],
+          "quote": "How do you run, you know, simulated evaluations to test if the user is going to feel trust in two or three weeks from now, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 892,
+          "t": [
+            4783.646,
+            4797.338
+          ],
+          "quote": "I think it's this this new, creative, exciting, you know, competent actor that there's like mutual respect and trust and they feel safe and they trust that it has their back, that it's intelligent, that it's competent, that it's socially aware to know how to act in certain situations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            4860.501,
+            4865.044
+          ],
+          "quote": "What are the interfaces that users trust today that they're familiar with interacting with today?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说早期版本出过幻觉案例,他们的回应不是打补丁,而是部署系统化方案:在行动或思维链执行前,由与智能体激励机制解耦的『看门狗』过滤器验证和审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 792,
+          "t": [
+            4211.947,
+            4224.084
+          ],
+          "quote": "If I call out one example, like a hallucination case that existed, that like, you know, first language models hallucinate all the time, but with a product like this, you don't want a language model to be hallucinating.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "take-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "抽成率 (take rate)",
+      "file": "抽成率",
+      "primary": true,
+      "how_described": "本集的商业模型核心:用户免费,平台对交易统一抽成——对标 Shopify 约 2.5-3%、Amazon 高达 10%、Apple 应用内购买 30%;精品酒店愿意为带客支付高达 30%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            2033.25,
+            2037.814
+          ],
+          "quote": "So I see a blanket transaction take rate being enforced across the platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2074.341,
+            2082.847
+          ],
+          "quote": "How does that vision of a small take rate on the transaction volume on Instinct, because it's a free product, how does that slot into the existing world, do you think?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2139.747,
+            2148.01
+          ],
+          "quote": "You have Shopify that I believe is like between two, two and a half and 3% that are providing their services and taking, you know, some take rate from those businesses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2168.127,
+            2175.874
+          ],
+          "quote": "But what I'm saying is that we still don't know where along this curve of distribution power versus take rate that we're going to be.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "word-of-mouth",
+      "type": "concept",
+      "role": "concept",
+      "name": "口碑增长 (word of mouth)",
+      "file": "口碑增长",
+      "primary": true,
+      "how_described": "本集说他们营销花了 0 美元,自然增长从每天 1-2% 加速到 10-11%,每个用户有 5 个邀请名额,甚至有人在 eBay 上以约 300 美元买卖邀请码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 564,
+          "t": [
+            2971.826,
+            2984.671
+          ],
+          "quote": "Honestly, I think that that is one of the major angles or factors that has led to engagement numbers that are completely off the charts or the viral word of mouth growth that is happening at 10% a day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3365.246,
+            3370.89
+          ],
+          "quote": "When I talk about strength of word of mouth, I think this is, it's honestly a little bit surprising.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3370.91,
+            3377.876
+          ],
+          "quote": "It's one of the strongest cases of word of mouth growth of, you know, I find all these stories of people saying,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": false,
+      "how_described": "本集提了一句:被问及对 Muse 的看法,Noah 说它是『很棒的产品,但思路根本上不同』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2272.902,
+            2279.926
+          ],
+          "quote": "There's going to be a serious corporate agent war that you've already seen this with Amazon and Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3928.091,
+            3928.831
+          ],
+          "quote": "What do you think of Muse?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说自 2023 年第一次用 ChatGPT 起,大家心里就已经有了 AI 助理应该是什么样子的期待。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            235.935,
+            241.398
+          ],
+          "quote": "We've already had that idea since 2023 when we all started the brainstorm, when we started to use ChatGPT for the first time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "imessage",
+      "type": "company",
+      "role": "company",
+      "name": "iMessage",
+      "file": "iMessage",
+      "primary": false,
+      "how_described": "本集说他们并不绑定 iMessage:超过 50% 的流量并不跑在 iMessage 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            4303.435,
+            4308.619
+          ],
+          "quote": "It's an interaction through existing communication channels, WhatsApp and iMessage, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4325.215,
+            4349.852
+          ],
+          "quote": "But I actually think that it becomes even more simple over time, which is we may roll out an application in the near future, but I actually think that we're going to trend more towards a simpler interface, which is do you even need to open the iMessage application and type in a certain piece of content and send the message out and then look at what the response is after when it's done?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            4379.322,
+            4386.564
+          ],
+          "quote": "And I don't even now need to unlock my phone and then open the iMessage application and type the message in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4841.264,
+            4842.907
+          ],
+          "quote": "iMessage is an Apple controlled product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4849.813,
+            4856.098
+          ],
+          "quote": "I would focus less on like Instinct is an iMessage app or Instinct is a WhatsApp app or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 913,
+          "t": [
+            4872.209,
+            4875.911
+          ],
+          "quote": "And just primarily thinking, like, we're not pinned to iMessage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 914,
+          "t": [
+            4875.971,
+            4880.513
+          ],
+          "quote": "Actually, more than 50% of our traffic doesn't actually run on iMessage itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            4880.773,
+            4884.254
+          ],
+          "quote": "But certainly users that are comfortable with iMessage are very familiar with it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple-pay",
+      "type": "company",
+      "role": "company",
+      "name": "Apple Pay",
+      "file": "Apple Pay",
+      "primary": false,
+      "how_described": "本集把它当作商业模式参照:用户免费获得好体验,从中获利的商户付费进入平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 393,
+          "t": [
+            2000.886,
+            2011.653
+          ],
+          "quote": "It's still very early, but when I see transaction volume that is so high that flows through the platform, what I see is very basic case, you know, it's similar to like an Apple Pay or it's similar to like an Amex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2019.099,
+            2020.46
+          ],
+          "quote": "Apple Pay is a great experience, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "firewall",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

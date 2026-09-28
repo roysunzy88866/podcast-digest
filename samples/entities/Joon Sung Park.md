@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":345,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":16,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":347,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":17,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

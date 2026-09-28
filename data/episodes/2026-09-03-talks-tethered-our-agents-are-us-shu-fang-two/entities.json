@@ -1,0 +1,367 @@
+{
+  "episode_id": "2026-09-03-talks-tethered-our-agents-are-us-shu-fang-two",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "企业 AI",
+    "智能体安全",
+    "身份与归属",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "shu-fang-two-sigma",
+      "type": "person",
+      "role": "guest",
+      "name": "Shu Fang, Two Sigma",
+      "file": "Shu Fang, Two Sigma",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "two-sigma",
+      "type": "company",
+      "role": "company",
+      "name": "Two Sigma",
+      "file": "Two Sigma",
+      "primary": true,
+      "how_described": "一家 25 年历史的小型量化基金,身处严格监管行业,却让公司每个人都有以本人身份运行的云端智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.102,
+            21.93
+          ],
+          "quote": "I'm Xu Fang from Two Sigma, and let's get started.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            25.46,
+            27.401
+          ],
+          "quote": "Explanation, two sigma is a little quant fund.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:让每个员工的云端智能体以用户本人身份远程运行,通过 header 打标、封锁原生网络工具、VPC 内索引等护栏「系上绳索」,在不损失期望价值的前提下大幅降低风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            87.748,
+            93.872
+          ],
+          "quote": "But we've managed to run an ecosystem where everyone at the company has a cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            182.094,
+            184.016
+          ],
+          "quote": "You have a shoe and you have a shoe agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            319.51,
+            322.753
+          ],
+          "quote": "You have you and your you agent are now the exact same identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            339.702,
+            349.654
+          ],
+          "quote": "You want to have the attribution to determine, hey, was it someone operating as the human, operating purely human actions, or was it the agent identity doing these things?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            462.459,
+            466.72
+          ],
+          "quote": "One, differentiating access attributed to the human versus the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            482.817,
+            486.298
+          ],
+          "quote": "And we make sure that every single agent continues to append to that header.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            500.584,
+            510.648
+          ],
+          "quote": "How we did it is very similar to how you would do it for a trace ID, except we are dealing with a certain difference in the control vector, which is the agent itself, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            693.491,
+            708.02
+          ],
+          "quote": "And you certainly block the access itself, but just for user experience and stuff like that, you need to make sure those tools themselves that are already existing and primitive and native to these agent harnesses and frameworks and such are actually blocked, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            806.756,
+            812.3
+          ],
+          "quote": "I wouldn't run an OpenClaude agent on my local machine with full permissions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            864.941,
+            888.769
+          ],
+          "quote": "You know, whatever agents for every single user in this remote fashion that they can already interact with so that we can continue to deploy and improve what is actually available to individual users, but also the core capability itself of being able for anyone at the company to deploy an agent that runs in the cloud remotely with their full identity is there and is something we are comfortable with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1002.819,
+            1010.863
+          ],
+          "quote": "So someone could, I guess, write in that they're using some agent, but the core previous identity itself is not",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1026.843,
+            1034.17
+          ],
+          "quote": "The header is just the XDSLM agent, and then you still have some way, you need some way to actually determine the identity of who's coming.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1194.804,
+            1200.166
+          ],
+          "quote": "Yeah, for building our own agents, you know, we use some of the existing frameworks for agent building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1217.067,
+            1221.15
+          ],
+          "quote": "They can build an agent, deploy it as necessary into their namespace, running as their identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1221.931,
+            1234.181
+          ],
+          "quote": "The aspect of how do agents then become like a universal company-wide or larger beyond individual users agent, you know, goes through your standard kind of mechanisms, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "2025 年 6 月 GA 后推动智能体普及的工具,但受限于 CLI 且只能本地运行;本集还讲了如何 deny 它原生的 WebSearch/WebFetch 工具来强制网络访问走内部索引。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            130.413,
+            145.197
+          ],
+          "quote": "So back in June 2025, you know, Claude Code GA and all that stuff, people started using agents through the local computer, your local machine, and it's very powerful, but one, it was CLI-constrained, and two, it was localized, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            606.34,
+            610.661
+          ],
+          "quote": "I think Claude Code's native one is Brave web browser, and it uses the Brave index.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            708.56,
+            709.921
+          ],
+          "quote": "Again, here's a Claude Code example.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集说它是现成的地基:Kubernetes 集群里每个区域、每个用户都有专属命名空间,其中所有东西都以该用户身份运行,智能体直接部署进去即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            243.546,
+            250.292
+          ],
+          "quote": "If you don't, I would encourage investing in it, which is that, you know, you can have a Kubernetes cluster.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "开放网络访问带来的不可信内容回流风险之一;本集说因为一切网络访问保持在 VPC 内部,提示词注入风险被大大降低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            396.483,
+            401.526
+          ],
+          "quote": "And prompt injection, just malware and vulnerabilities are all big risks there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1095.898,
+            1100.982
+          ],
+          "quote": "But the prompt injection risk is far reduced because everything still remains internal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集用 trace ID 式传播做类比:让每个智能体持续向 header 附加标记,不仅区分人做还是智能体做,还能重放导致最终结果的整条行动链,获得远超纯身份验证的可观测性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            492.581,
+            499.943
+          ],
+          "quote": "You've all done this in deterministic code, making sure that your observability stack propagates through a trace ID through disparate systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            769.962,
+            780.61
+          ],
+          "quote": "So the index certainly lags, but we get a ton more observability by just using that tagging primitive versus the actual just pure identity verification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集把它当作强制填充 header、重定向网络访问的现有控制手段之一(与 HTTP 客户端、skills 并列)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            720.043,
+            735.72
+          ],
+          "quote": "Instead, we use the redirection going through MCP CLI and actual client code using the supported paths, skills, whatever, to make sure that whenever someone does need the capabilities of web access, it goes through that web grounding cached index.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "问答中提到:对于企业的大量 token 使用和推理,自己管理的本地模型可能是最终方向,因为成本、模型弃用与前沿实验室发新模型带来的性能波动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            944.308,
+            952.75
+          ],
+          "quote": "And I think local in the sense that we manage ourselves is probably where we eventually want to go for a lot of our token use and inference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

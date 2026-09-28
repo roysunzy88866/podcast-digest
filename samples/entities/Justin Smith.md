@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":24,"Slack":29,"智能体":345,"后台智能体":4,"生产上下文":1,"可观测性":31,"沙箱":62,"部署监控":1}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":24,"Slack":29,"智能体":347,"后台智能体":4,"生产上下文":1,"可观测性":32,"沙箱":62,"部署监控":1}</script>
 
 <script>
 (function(){

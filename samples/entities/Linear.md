@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Slack]] · [[Anthropic]] · [[原型]] · [[Codex]] · [[GitHub]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"Lenny":68,"Cursor":70,"OpenAI":139,"Slack":29,"Anthropic":150,"原型":7,"Codex":60,"GitHub":24,"Claude Code":81}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"Lenny":68,"Cursor":70,"OpenAI":139,"Slack":29,"Anthropic":150,"原型":7,"Codex":60,"GitHub":24,"Claude Code":82}</script>
 
 <script>
 (function(){

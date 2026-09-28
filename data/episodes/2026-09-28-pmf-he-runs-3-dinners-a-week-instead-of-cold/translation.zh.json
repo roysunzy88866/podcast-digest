@@ -1,0 +1,746 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 11,
+  "speaker": "Nick Fleisher",
+  "en": "McKinsey has this amazing policy where you can get a certain amount of time, essentially paid time off when you're leaving, to go find a new job. We quit and basically the same day raised our pre-seed from Sequoia.",
+  "zh": "McKinsey 有一项很棒的政策，当你离职时，你可以获得一段时间，基本上是带薪休假，去找一份新工作。我们辞职了，基本上同一天就从 Sequoia 融了 pre-seed。"
+ },
+ {
+  "seg": 1,
+  "start": 11,
+  "end": 12,
+  "speaker": "Pablo Srugo",
+  "en": "How much was the pre-seed?",
+  "zh": "Pre-seed 融了多少？"
+ },
+ {
+  "seg": 2,
+  "start": 12,
+  "end": 64,
+  "speaker": "Nick Fleisher",
+  "en": "We didn't publicly announce our pre-seed, but our combined pre-seed and seed was $10 million. The worst mistake you can make there is just saying yes and doing everything that someone asks of you, right? And that's how you get led astray into doing things that aren't high value, especially in legal. Some company has some random workflow that no other company does. And so we made a point in every piece of feedback to say, can we find five or six other clients that we think of that actually have this problem? We had some early design partners that we fired, if you will, where we were like, your problems just aren't aligned enough to the market. We're not going to work with you. Most were like, why the hell are you hiring a salesperson when you arguably don't have PMF yet? And my justification is he was a product market fit finder. That was his job. It was not to go hit some crazy quota. It was to literally go, take what we're learning from the five design partners, and go demo with 100 clients a week. And just see if what we're doing actually resonates with them. Like, would they all go adopt this?",
+  "zh": "我们没有公开宣布我们的 pre-seed，但我们 pre-seed 和 seed 合计是 1000 万美元。在那里你能犯的最糟糕的错误就是只会说好，然后照单全收别人要求你做的一切，对吧？这就是你会被带偏去做那些不高价值的事情的原因，尤其是在法务领域。有些公司有一些其他公司都没有的随机工作流程。所以我们在每一条反馈里都强调要说，我们能不能找出五六个我们想得起来的、真正有这个问题的其他客户？我们有一些早期设计伙伴，可以说是被我们「开掉」的，我们的想法是，你们的问题跟市场的对齐程度就是不够。我们不打算跟你们合作了。大多数人的反应是，你们明明还没到 PMF，为什么非要雇一个销售？而我的理由是，他是个「寻找产品市场契合」的人。那是他的工作。不是去完成什么疯狂的配额。而是字面意义上地，拿走我们从五个设计伙伴那里学到的东西，去每周给 100 个客户做演示。就是看看我们做的东西是不是真的能引起他们共鸣。比如，他们会不会全都愿意采用这个东西？"
+ },
+ {
+  "seg": 3,
+  "start": 64,
+  "end": 66,
+  "speaker": "Pablo Srugo",
+  "en": "What are your ACVs?",
+  "zh": "你们的 ACV 是多少？"
+ },
+ {
+  "seg": 4,
+  "start": 66,
+  "end": 74,
+  "speaker": "Nick Fleisher",
+  "en": "It depends on the client, right? For the biggest Fortune 500s, it could be 500k to a million. For the 10 to 30 person legal team, it could be anywhere from call it 50 to 100k.",
+  "zh": "这取决于客户，对吧？对于最大的财富 500 强，可能是 50 万到 100 万。对于 10 到 30 人的法务团队，可能在大约 5 万到 10 万之间。"
+ },
+ {
+  "seg": 5,
+  "start": 74,
+  "end": 89,
+  "speaker": "Previous Guests",
+  "en": "That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit.",
+  "zh": "这就是产品市场契合。产品市场契合。产品市场契合。我把它叫做「产品市场契合问题」。产品市场契合。产品市场契合。产品市场契合。产品市场契合。我是说，这个节目的名字就叫产品市场契合。"
+ },
+ {
+  "seg": 6,
+  "start": 89,
+  "end": 106,
+  "speaker": "Pablo Srugo",
+  "en": "Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders, and it lets us get better guests. Thank you. Nick, welcome to the show, dude.",
+  "zh": "你觉得《产品市场契合》这个节目有产品市场契合吗？因为如果你觉得有，那有件事你就必须得做。你得拿出你的手机。你得给节目打五星。这能让我们触达更多创始人，也能让我们请到更好的嘉宾。谢谢。Nick，欢迎来到节目，老兄。"
+ },
+ {
+  "seg": 7,
+  "start": 106,
+  "end": 108,
+  "speaker": "Nick Fleisher",
+  "en": "Thanks for having me. Excited to be here.",
+  "zh": "谢谢邀请我。很高兴来到这里。"
+ },
+ {
+  "seg": 8,
+  "start": 108,
+  "end": 134,
+  "speaker": "Pablo Srugo",
+  "en": "So your founder of Sandstone just raised a $30 million Series A. It's this legal play that sounds a little bit, we're going to touch on this, but, you know, probably in the area of a spell book, of a wordsmith, which are companies that have been on the show before. Kind of this inbox plus AI for legal. So we're going to go deep into what the product is and what the company does. But before we do that, let's start where we always start, which is the product market fit moment. When did you feel like you found true product market fit?",
+  "zh": "你是 Sandstone 的创始人，刚刚融了 3000 万美元的 A 轮。这是一个法律领域的项目，听起来有点——我们会聊到这个——大概在 a spell book、a wordsmith 的领域，那些公司之前上过这个节目。差不多是「收件箱 + AI 用于法务」这类。所以我们会深入聊聊这个产品是什么、这家公司做什么。但在那之前，让我们从一贯的起点开始，也就是产品市场契合时刻。你是什么时候感觉自己找到了真正的产品市场契合的？"
+ },
+ {
+  "seg": 9,
+  "start": 134,
+  "end": 235,
+  "speaker": "Nick Fleisher",
+  "en": "The first moment for us was really one of our early big clients. And it's rare for startups, at that stage we were pre-seed, to be able to work with Fortune 500s. And we had deployed with them for a couple weeks. This is kind of before we had like product telemetry and like understood usage at a reasonable amount. And we actually went on site and spent time with the GC and the legal team. And we're watching them open Sandstone. And you may be familiar with like a JIRA or Linear. Sandstone has a very similar interface for managing all your legal work. And we saw they had not just the one team we had initially set up for them, but a dozen. And a couple hundred tickets or items on each one. And so it was clear that they were using it a lot. And I think that was the first spark. But where it got a little bit more, you know, what I would say like, hey, this is real PMF is when we left that meeting in Boston, the GC or the person running the team had fired off six, maybe seven or eight intros to other GCs in Boston, suggesting that we get time with them and saying, this is a product that you need to be using. And to me, that's like, you know, when you're not even going to them asking for the intros, it's just happening. Right. That's like real PMF to some extent. And it's how you drive much higher growth. And today, like a significant portion of our business is just people using it and suggesting it to their friends. And in legal, you know, you've had other folks in legal tech on the show. It's all about word of mouth and community. Right. Like it's just a very close knit group. And so like that's our biggest lever for us. And so I think that for us was the first one where it was like, OK, this thing makes sense. Like people really want this. They see the value. If they're willing to like put their reputation on the line and email someone and say, hey, you need to be using this.",
+  "zh": "对我们来说，第一个时刻其实是我们早期的大客户之一。对初创公司来说，在那个阶段——我们当时还是 pre-seed——能和财富 500 强合作是很罕见的。我们跟他们部署了几周。那大概是在我们还没有产品遥测数据、还没有以合理的程度理解使用情况之前。我们真的去了现场，跟 GC 和法务团队待在一起。我们看着他们打开 Sandstone。你可能对 JIRA 或 Linear 比较熟悉。Sandstone 有一个非常类似的界面，用来管理你所有的法务工作。我们看到他们不只拥有我们最初为他们搭建的那一个团队，而是一打。每一个上面还有几百个工单或事项。很明显他们在大量使用它。我觉得那是第一颗火花。但什么时候变得更像是，嘿，这是真的 PMF 了，是我们离开在波士顿的那次会议时，那位 GC 或者说团队负责人已经主动发出了六封、大概七八封给波士顿其他 GC 的引荐，建议他们抽时间跟我们聊聊，还说，这是一个你们必须用的产品。对我来说，这就是，当你都不用去找他们要引荐，它就是自然而然发生的。对吧。这在某种程度上就是真的 PMF。而且这就是你如何驱动更高的增长。今天，我们业务的很大一部分就是人们在用，然后推荐给他们的朋友。而在法律行业，你节目里也请过其他法律科技的人。这全靠口碑和社区。对吧。就是非常紧密的一个圈子。所以这就是我们最大的杠杆。所以我觉得对我们来说那是第一个让我们觉得，OK，这个东西说得通了。人们真的想要它。他们看到了价值。如果他们愿意把自己的声誉押上去，给某人发邮件说，嘿，你必须用这个。"
+ },
+ {
+  "seg": 10,
+  "start": 235,
+  "end": 272,
+  "speaker": "Pablo Srugo",
+  "en": "Referrals, I think, are one of the best signals of true product market fit. And everybody gets like some referrals. But if you're getting a lot of referrals and that becomes like a big channel for you and in the early days you see sparks of it, you just think about yourself. Like which kind of products do you organically tell other people about? Like it's a lot of social risk to tell someone, hey, you need to try this product. So you really only do it with the products you genuinely love. And you feel like this is such like whether it's a productivity so useful or it's just like an amazing experience type of product. But it's got to be in one of those categories. And so I think that's one of the clearest signs, early signs, I should say, of product market fit.",
+  "zh": "推荐，我认为，是真正产品市场契合的最好信号之一。每个人都会得到一些推荐。但如果你得到大量推荐，而且它成了你的一大渠道，而在早期你看到了火花——你只要想想自己。你会自发地告诉别人哪些产品？告诉别人，嘿，你得试试这个产品，是有很大社交风险的。所以你真的只会为你真心热爱的产品这么做。而且你觉得它要么是生产力上这么有用，要么就是那种惊艳体验型的产品。但它必须属于其中一类。所以我认为这是最清晰的早期信号之一，我应该说，是产品市场契合最清晰的早期信号之一。"
+ },
+ {
+  "seg": 11,
+  "start": 272,
+  "end": 321,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. It has to be like a completely net new category and product of something that like you've really never experienced. Right. Like the first moment you had Claude or ChatGBT and you told your like your family and friends about it. Or it has to be like something that takes an existing market. Like we play kind of in this contract lifecycle management market and like throws everything that you know about it out the window. And it's like, here's what good could actually look like. Plus really good service and support. Right. Like to us, one of the most important parts of building in the AI era, and I'm sure others have talked about this in the show. Like if you want to roll out a successful AI implementation or tool at a Fortune 500, a huge component of it is like, are we helping you understand the tool and roll it out properly? Otherwise, there's no value in vertical enterprise SaaS or AI. And that's a rabbit hole we could go down for sure.",
+  "zh": "是的。它必须是一个完全全新的品类和产品，是你真的从未体验过的东西。对吧。比如你第一次用 Claude 或 ChatGBT 时，你告诉了你的家人和朋友。或者它必须是那种拿下现有市场的东西。比如我们某种程度上就玩在这个合同生命周期管理市场里，然后把你对它所知的一切都扔出窗外，然后说，好的样子其实可以是这样的。再加上非常好的服务和支持。对吧。对我们来说，在 AI 时代构建产品最重要的部分之一——我相信其他人在节目里也谈过这个——如果你想在一家财富 500 强成功推出一个 AI 实施方案或工具，很大一部分在于，我们是不是在帮你理解这个工具并正确地推广它？否则垂直企业 SaaS 或 AI 就没有价值。这绝对是一个我们可以深挖的话题。"
+ },
+ {
+  "seg": 12,
+  "start": 321,
+  "end": 336,
+  "speaker": "Pablo Srugo",
+  "en": "One of the questions that I get a lot of founders like asking or at least thinking about is, how do you drive more referrals? How do you drive more word of mouth? Is there anything you can meaningfully do on that sense? Because you mentioned a lot of your business comes through there. Or is it just about, well, you got to have a great product that people love and you just organically get that?",
+  "zh": "有一个很多创始人问我、或者至少在想的问题是，你怎么驱动更多推荐？你怎么驱动更多口碑？在这方面有没有你能有意义地做的事？因为你提到你们很多业务来自那里。还是说就是，嗯，你得有一个人们热爱的伟大产品，然后你自然就会得到它？"
+ },
+ {
+  "seg": 13,
+  "start": 336,
+  "end": 410,
+  "speaker": "Nick Fleisher",
+  "en": "I think great product that people love is like the lowest bar. But like then there's things that you kind of have to do on top of that. One is like, do you service your customers so well that like they build close relationships with your team? Like I was traveling this week in, you know, in the middle of the country. Five people on our team went and they all like had separate dinners and drinks and like social events with the client that they've just like built relationships with over time. Like not even about work and what we're doing. And so to me, that's like one way. And then the second is like we've hired and brought on people to our team really early who were stewards of the community. Like one of our first tactics when we launched was like we want to be like a place that the legal community feels comfortable going and like talking and spending time even if they're not users of Sandstone. Right. I think this is like one of the most critical ways to get word of mouth and referral is like you can't just be comfortable with the product and the service that it provides. But also like is this a community that's like actually net positive for legal or legal tech? And you can do that same thing in any vertical. So we've hired people who like have spent 20, 30 years building in this community and know the different areas of legal tech and GCs and legal ops. And I think that's like been a huge source for referrals and just building our network on the sales side.",
+  "zh": "我觉得人们热爱的伟大产品是最低的门槛。但在此之上还有一些你必须做的事。一个是，你有没有把客户服务好到，他们和你的团队建立了密切的关系？比如我这周在，你知道，在中部地区出差。我们团队五个人去了，他们每个人都和客户有了单独的晚餐、喝酒，以及社交活动，这些关系是他们随着时间慢慢建立的。甚至都不是关于工作和我们在做什么的事。所以对我来说，这是一种方式。然后第二个是，我们很早就雇用和引入了一些人加入团队，他们是社区的「管家」。比如我们推出时的第一批策略之一就是，我们想成为一个法律社区觉得可以放心前往、放心交流、放心花时间的地方，即便他们不是 Sandstone 的用户。对吧。我认为这是获得口碑和推荐最关键的方式之一：你不能只对产品及其提供的服务感到满意。还有，这是不是一个真正对法律或法律科技有净正贡献的社区？你可以在任何垂直领域做同样的事。所以我们雇的人是在这个社区里干了 20、30 年的，了解法律科技、GC 和法务运营的各个领域。我认为这一直是推荐的一个巨大来源，也是我们在销售侧建立网络的巨大来源。"
+ },
+ {
+  "seg": 14,
+  "start": 410,
+  "end": 435,
+  "speaker": "Pablo Srugo",
+  "en": "Well, we're going to talk at the end about kind of two tactical deep dives. And one of them is related to this because you're hosting like two to three dinners every single week with people that could be your customers. And you've got a whole kind of playbook for that. So we're going to talk about that. We're also going to talk about why you're hiring an AE so early. Most people do it well after a millionaire. You did much earlier. So we'll talk about that as well. But let's go through now the story. Right. So what was the first idea for Sandstone? When did that happen?",
+  "zh": "好的，我们在最后会聊到两个战术深挖。其中一个与此相关，因为你每周都在办两到三次晚宴，和可能成为你客户的人。而且你有一整套这方面的 playbook。所以我们会聊那个。我们还会聊为什么你这么早就雇 AE。大多数人都是在百万美元之后很久才做。你早得多。所以我们也会聊那个。但现在让我们过一遍这个故事。对吧。那 Sandstone 的第一个想法是什么？那是什么时候发生的？"
+ },
+ {
+  "seg": 15,
+  "start": 435,
+  "end": 449,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. So I was at originally engineer, built mobile apps, ended up at McKinsey. At McKinsey, all of my work happened to be legal tech. It was just very random. My first client was the biggest legal tech and research company.",
+  "zh": "是的。我最初是工程师，做过移动应用，后来去了 McKinsey。在 McKinsey，我所有的工作恰好都是法律科技。这非常随机。我的第一个客户是最大的法律科技与研究公司。"
+ },
+ {
+  "seg": 16,
+  "start": 449,
+  "end": 450,
+  "speaker": "Pablo Srugo",
+  "en": "When was this, by the way? What year?",
+  "zh": "顺便问一下，这是什么时候？哪一年？"
+ },
+ {
+  "seg": 17,
+  "start": 450,
+  "end": 594,
+  "speaker": "Nick Fleisher",
+  "en": "This was five years ago. Okay. This is pre-Gen AI. But legal started to have this moment where there was a lot more automation. And people were starting to say, we need to get our data in order. So we took this work with legal tech companies. And we started going to law firms and in-house legal teams and saying, your data is a mess. It's all over the place. You don't have any tech people within the org. Let's just go figure that out. And it was very nicely timed because then Gen AI became a thing. And all these law firms and big, massive legal departments were like, hey, we want our AI to work better. But our data is a mess. And so we pivoted into becoming sort of like a Gen AI consultancy for big law firms and legal departments. That was most of my work. But another chunk of it was actually helping McKinsey's legal team. And so McKinsey's legal team is a couple hundred lawyers. We would work with them and think about what they were doing and how it could relate to what our clients are doing. At McKinsey, if I needed a statement of work for a new client, I would message my favorite lawyer that I knew very well on Slack. She would take a couple of days to respond because she's a busy person. She would then forward it to the right person, usually through Slack or through email. And then 10 days later, that person would come back to me with a bunch of questions. After I answered those questions, a couple of days later, they would draft the statement of work and send it over to me. And so it was like this multi-week process to create something that was like, to one, connect to the right person, to two, gather the right context, and three, like create a pretty simple work product. But what I realized in that was like, most of the work was not in creating the work product, right? Which is where you think of like all the J&I applications. It was just like all the stuff before it. And so that's where the first idea was born, which was my co-founder, Jared, who's also at McKinsey. He's a lawyer. And we sort of said, why can't we just build a tool on top of Slack and Teams and email that can do that first back and forth, connect you to the right person, gather the context, and then just put it on their plate with ready to go work on the work product. And so that was, you know, V1. It was centralizing intake across all these different sources, finding the right lawyer in the legal department to work on it, and asking questions using AI with the business user to gather all the context before it hits the lawyer's plate. And like, we realized that was quite an unmet need. Like there were some intake point solutions, but none that were using Gen AI like that. And so we started rolling that out, you know, on the side with some of our friends.",
+  "zh": "这是五年前。好的。这是生成式 AI 之前。但法律开始有了这样一个时刻，自动化多了很多。人们开始说，我们需要把数据理顺。所以我们接了这些和法律科技公司合作的工作。我们开始去找律所和内部法务团队，说，你们的数据一团糟。到处都是。你们组织里没有任何技术人。我们就去把这件事搞清楚吧。时机非常好，因为然后生成式 AI 就成了热门。所有这些律所和大型的、庞大的法务部门都说，嘿，我们想让我们的 AI 工作得更好。但我们的数据一团糟。所以我们转型成了某种面向大型律所和法务部门的生成式 AI 咨询公司。那是我大部分的工作。但另一部分工作其实是帮 McKinsey 自己的法务团队。McKinsey 的法务团队有两百来个律师。我们会跟他们合作，思考他们在做什么，以及这怎么和客户在做的事关联起来。在 McKinsey，如果我需要给新客户一份工作说明书（statement of work），我会在 Slack 上给我非常熟悉的我最喜欢的律师发消息。她会花几天回复，因为她是个大忙人。然后她会转发给合适的人，通常通过 Slack 或邮件。然后 10 天后，那个人会带着一堆问题回来找我。在我回答完这些问题之后，过几天，他们会起草工作说明书并发给我。所以这是一个好几周的流程，就为了完成一件，第一，连上对的人，第二，收集对的上下文，第三，创建一个相当简单的工作产物的事。而我在其中意识到的是，大部分工作其实不在创建工作产物上，对吧？而你以为所有 J&I 应用做的都是那个。其实就是它之前的所有杂事。所以第一个想法就在那里诞生了，也就是我的联合创始人 Jared，他也在 McKinsey。他是律师。我们大概就是说，为什么我们不能直接在 Slack、Teams 和邮件之上建一个工具，来做那第一轮来回，帮你连上对的人，收集上下文，然后就直接把准备好动工的工作产物放到他们的盘子里。所以那就是，你知道，V1。它是把所有这些不同来源的 intake 集中化，找到法务部门里合适的律师来处理，并在它落到律师盘子上之前，用 AI 和业务用户问答来收集所有上下文。而且，我们意识到这是一个相当未被满足的需求。有一些 intake 的单点解决方案，但没有一个像那样使用生成式 AI 的。于是我们开始在业余用一些朋友的关系把它推出去。"
+ },
+ {
+  "seg": 18,
+  "start": 594,
+  "end": 599,
+  "speaker": "Pablo Srugo",
+  "en": "This is what year at this point, like when you actually decide that you want to build a solution for this?",
+  "zh": "这是什么年份，就是你真正决定要为这个做一个解决方案的时候？"
+ },
+ {
+  "seg": 19,
+  "start": 599,
+  "end": 637,
+  "speaker": "Nick Fleisher",
+  "en": "This is early last year. So 2025, early 2025. And over the summer, we're still at McKinsey. So call this May, June into July of last year. We were testing it on the side with our friends. And McKinsey Legal can come at me and be mad about that. But we had a lot of friends who were lawyers. And so we would ask them, hey, could you like implement this on your smaller legal team within a broader legal department and just see how it goes? There were two really interesting things that happened. One, like people started using it to just track and manage work. And we realized like legal teams never really had their version of Jira or Linear.",
+  "zh": "这是去年年初。所以 2025 年，2025 年初。然后整个夏天，我们还在 McKinsey。所以大概是去年的五月、六月到七月。我们在业余和朋友们测试它。McKinsey 法务要是找上门生我的气也无妨。但我们有很多朋友是律师。所以我们会问他们，嘿，你们能不能在一个更大的法务部门里较小的法务团队上实施这个，就看看效果如何？有两件非常有趣的事情发生了。第一，人们开始用它来单纯地跟踪和管理工作。而我们意识到，法务团队从来没有过属于他们自己的 Jira 或 Linear。"
+ },
+ {
+  "seg": 20,
+  "start": 637,
+  "end": 639,
+  "speaker": "Pablo Srugo",
+  "en": "Crazy. Like they don't have a CRM?",
+  "zh": "太疯狂了。他们连个 CRM 都没有？"
+ },
+ {
+  "seg": 21,
+  "start": 639,
+  "end": 698,
+  "speaker": "Nick Fleisher",
+  "en": "No. So the first part was, okay, this is becoming from intake to like managing work. What we then realized is, to the point you just raised, they don't have a CRM and they don't have a single place to just manage all the context behind what's been going on. And so it expanded from just doing intake to actually the data that we have in Slack and Teams, Drive, SharePoint, all these places were integrated, is super rich for the legal team to be able to get the context on anything they're working on. So we went from just saying, let's do intake and work management to actually we're just a context engine or a CRM for the legal department. So when that request hits my desk and it's a sales agreement I need to review, we know everything about the counterparty, we can tell you who worked on the last negotiation, how it went, and we can then use that to help you answer the questions or review the new contract. And that's where the tool started to evolve from like intake front door to a real legal context engine, which is where clients are starting to get, you know, are getting more value today.",
+  "zh": "没有。所以第一部分是，好的，这正在从 intake 变成管理工作。然后我们意识到，就像你刚才提出来的，他们没有 CRM，他们没有一个单一的地方来管理事情进展背后的所有上下文。所以它从只做 intake 扩展到了实际上，我们在 Slack 和 Teams、Drive、SharePoint、所有这些我们集成了的地方拥有的数据，对法务团队来说是超级丰富的，可以让他们了解他们在处理的任何事情上的上下文。所以我们从只说，我们做 intake 和工作管理，变成了实际上我们就是一个上下文引擎，或者说法务部门的 CRM。所以当那个请求落到我桌上、是份我需要审阅的销售协议时，我们知道关于对手方的一切，我们可以告诉你上一轮谈判是谁做的、进行得怎么样，然后我们可以用这些帮你回答问题或审阅新合同。这就是这个工具开始从一个类似 intake 前门的东西演变成一个真正的法务上下文引擎的地方，这也是客户今天开始获得更多价值的地方。"
+ },
+ {
+  "seg": 22,
+  "start": 698,
+  "end": 715,
+  "speaker": "Pablo Srugo",
+  "en": "You might not have an answer, but do you have a sense of why? Like there's plumbing businesses that have CRMs, right? Like how come a legal massive, massive business worldwide wouldn't have like a tailor-made CRM or even like a Jira-like, you know, internal kind of collaboration platform?",
+  "zh": "你可能没有答案，但你对为什么有感觉吗？比如连管道维修行业的公司都有 CRM，对吧？为什么法律这个全球庞大的庞大生意，却没有一个量身定制的 CRM，甚至没有一个像 Jira 那样的内部协作平台？"
+ },
+ {
+  "seg": 23,
+  "start": 715,
+  "end": 812,
+  "speaker": "Nick Fleisher",
+  "en": "Some law firms use like Salesforce and CRMs, not very successfully. And I think part of that on the law firm side is because you also have, and it was similar to McKinsey, you have partners who kind of run their own businesses. And so to get them all bought in on like this one shared unified instance is like really hard. On the corporate legal side, like where we work, which is like we only work with in-house legal departments, right? The Fortune 500s all the way down to legal teams that are two or three people. The problem there is they're just takers of the software of the rest of the business. Like historically, like a legal department is like this back office function. It's already a big cost. Why would we give them their own hub for managing work? In the early 2000s into like 2010s, like a market did get created or grew pretty significantly, which is contract lifecycle management. And I would think of this as like V1 of the legal CRM, which was, here's a place that the legal department has that is not part of the rest of the company. And it's where they store and manage their contracts. The problem with that is twofold. One is it's only looking at contracts, right? Legal teams do a lot more than contracts. Like they answer complicated questions. They work on HR matters. They work on many different things. And two, it's very point in time. So it's just looking at contracts that are like executed and signed versus like what are all the communications and processes that we're doing that lead up to that, right? So it's not actually the most helpful resource for AI because we're only looking at a snapshot of the data of the legal department. And so we kind of think of like what we're building now, this legal relationship management tool as like the second wave of contract lifecycle management.",
+  "zh": "有些律所用类似 Salesforce 和 CRM 的东西，但不太成功。我觉得律所侧的部分原因在于，和 McKinsey 类似，你有那些各自经营自己生意的合伙人。所以让他们全都买账于一个共享的统一实例是非常难的。在企业法务侧——也就是我们工作的地方，我们只和内部法务部门合作，对吧？从财富 500 强一直到两三个人的法务团队——问题在于他们只是公司其他部门软件的被动接受者。历史上，法务部门就是个后台职能。它已经是一大笔成本了。我们为什么要给他们自己专属的工作管理中心？在 2000 年代早期到 2010 年代左右，一个市场确实被创造出来了，或者说增长得非常显著，那就是合同生命周期管理。我会把它看作法务 CRM 的 V1，它是这样的：这是法务部门拥有的一个、不属于公司其他部门的地方。是他们存储和管理合同的地方。它的问题有两方面。第一，它只看合同，对吧？法务团队做的远不止合同。比如他们回答复杂的问题。他们处理 HR 事务。他们处理很多不同的事。第二，它非常时点化。所以它只看那些已执行和已签署的合同，而不是看所有我们为了达成合同而做的沟通和流程，对吧？所以对 AI 来说它其实不是最有用的资源，因为我们只看到了法务部门数据的一个快照。所以我们某种程度上把我们现在正在构建的这个法务关系管理工具，看作合同生命周期管理的第二波浪潮。"
+ },
+ {
+  "seg": 24,
+  "start": 812,
+  "end": 813,
+  "speaker": "Pablo Srugo",
+  "en": "Why do you focus only on in-house?",
+  "zh": "为什么你只专注于内部法务（in-house）？"
+ },
+ {
+  "seg": 25,
+  "start": 813,
+  "end": 919,
+  "speaker": "Nick Fleisher",
+  "en": "Twofold. One, when I was at McKinsey, a lot of my work was with law firms. And I just think they're a really tough market to not to sell into, but to expand into. And what I mean by that is it's easy to get into a law firm through the head of innovation. But to actually get usage at scale in a law firm is really hard because you're going to every partner in every practice area as if it's its own business. And I was just like, I don't want to do that. I think second, like on the in-house side, it's a massive market, right? Like it's just objectively a bigger market in terms of count of lawyers and amount of work to be done. And two, legal is our starting point. We plan to expand on the in-house side. If you imagine like everything in a company that's important goes through legal at some point, right? Whether it's a sales deal, procurement, hiring someone, firing someone. We are now this like context layer that tracks all of those decisions as they go through legal, which is very valuable for other departments and other parts of the org. And so like it's a great in or wedge into broader corporate and enterprise work. And so for us, it was just a more attractive space in market. I think the one other thing I'll add there is like a lot of our team comes from this role, which has been born over the last call it five or 10 years called legal ops, which is in corporate legal teams when you reach a certain size, you usually hire someone that's like your head of legal operations. Think of it as like rev ops, but for legal. These are the people who historically implemented those contract management tools and like did all that work setting that up. It's a very strong community and market and they are like unbelievable stewards and champions of new technology, but they are really fed up generally with contract management systems. That just felt like a great opportunity to like really get close with that community and build something that actually works for the legal ops role.",
+  "zh": "两方面。第一，我在 McKinsey 时，我的很多工作是和律所合作的。我只是觉得他们是一个非常难的市场——不是说难卖进去，而是难扩展。我的意思是，通过创新负责人进入一家律所是容易的。但要真正在一家律所里获得规模化使用真的很难，因为你要去找每一个合伙人、每一个业务领域，把每个都当作独立的生意。我只是觉得，我不想那么做。我认为第二，在内部法务侧，它是一个巨大的市场，对吧？单纯从律师数量和待完成工作量来说，它客观上就是一个更大的市场。第二，法律是我们的起点。我们计划在内部法务这条线上扩展。你可以想象，公司里所有重要的东西都会在某个时刻经过法律，对吧？无论是销售交易、采购、雇人还是裁人。我们现在就是这个上下文层，跟踪所有这些决策经过法律的过程，这对其他部门和组织其他部分非常有价值。所以这是一个切入更广泛的企业和大型客户工作的很好的入口或楔子。所以对我们来说，这是一个更有吸引力的空间和市场。我觉得我要补充的另一件事是，我们团队的很多人来自这个角色，这个在过去大概五到十年间诞生的、叫做法务运营（legal ops）的角色，就是在公司法务团队达到一定规模时，你通常会雇一个类似法务运营负责人的人。可以把它想象成 rev ops，不过是法务版的。历史上实现那些合同管理工具、做完那些搭建工作的人就是他们。这是一个非常强大的社区和市场，他们是新技术的、不可思议的管家和拥护者，但他们普遍对合同管理系统真的受够了。所以那感觉是一个绝佳的机会，去真正贴近那个社区，构建一个真正为法务运营角色服务的东西。"
+ },
+ {
+  "seg": 26,
+  "start": 919,
+  "end": 935,
+  "speaker": "Pablo Srugo",
+  "en": "So the bigger play is almost thinking of legal as the ultimate source of truth in a company, because anything that's above a certain bar of importance is going to make its way there. And only if it makes its way through there, does it become reality. Everything else is just kind of an idea that hasn't been really executed yet.",
+  "zh": "所以更大的布局几乎是把法律看作公司里最终的真相来源，因为任何超过一定重要性门槛的东西都会流向那里。而且只有它通过了那里，才会变成现实。其他的一切都只是还没真正被执行的想法。"
+ },
+ {
+  "seg": 27,
+  "start": 935,
+  "end": 946,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah, I think long term, like the biggest value we have is, you know, whether it's through our UX or through API or MCP, like accessing this context layer that we build on top of your legal department.",
+  "zh": "是的，我觉得长期来看，我们拥有的最大价值是，你知道，无论是通过我们的 UX，还是通过 API 或 MCP，去访问我们建立在你的法务部门之上的这个上下文层。"
+ },
+ {
+  "seg": 28,
+  "start": 946,
+  "end": 958,
+  "speaker": "Pablo Srugo",
+  "en": "You know, I mentioned before, like we had a wordsmith here on the show. A lot of what you're talking about, you know, they sell it in-house as well. They're trying to be like that front door. Is that a direct competitor to you or are you thinking about things in a pretty different way?",
+  "zh": "你知道，我之前提过，我们节目来过 a wordsmith。你谈到的很多东西，你知道，他们也卖内部法务。他们也试图成为那个前门。那是你的直接竞争对手吗，还是你们思考问题的方式相当不同？"
+ },
+ {
+  "seg": 29,
+  "start": 958,
+  "end": 1018,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah, it's a great question. I think there's parts of our product and you could say the same about many other tools in the market that overlap, right? Like some of the work in answering questions on Slack and taking in work from there are definitely overlapping. But there's a couple areas where we look a lot more like your traditional contract lifecycle management tool with real AI on top, right? Like building out a robust repository of contracts and documents for the legal team, managing complex approval workflows within the legal department. This idea of collecting context from different systems, right? Like we don't think of ourselves as like just a Slack bot or a team spot to take in work. Like for us, it's about gathering context from ServiceNow, from Salesforce, from SAP, from all these different business systems to help you answer the legal questions. And so I would say like we've come at it from slightly different angles and we see people using them on like, you know, more basic quick Slack Q&A and us as like this, the whole work management and context management layer for your legal department.",
+  "zh": "是的，这是个好问题。我认为我们产品有部分，你也可以说市场上很多其他工具有部分，是重叠的，对吧？比如在 Slack 上回答问题、从那里接收工作的一些工作肯定是重叠的。但有几个地方，我们看起来更像你传统的合同生命周期管理工具加上真正的 AI，对吧？比如为法务团队建设一个健壮的合同和文档存储库，管理法务部门内复杂的审批工作流。还有从不同系统收集上下文这个想法，对吧？我们不认为自己只是一个接收工作的 Slack 机器人或 Teams 机器人。对我们来说，关键是从 ServiceNow、从 Salesforce、从 SAP、从所有这些不同的业务系统收集上下文，来帮你回答法律问题。所以我想说，我们是从稍微不同的角度切入的，我们看到人们在用它做更基础的快速 Slack 问答，而我们是这个，你法务部门的整个工作管理和上下文管理层。"
+ },
+ {
+  "seg": 30,
+  "start": 1018,
+  "end": 1027,
+  "speaker": "Pablo Srugo",
+  "en": "So tell me, like you're talking about that summer where you're doing this kind of in parallel. When do you take the leap and what leads you to take that leap to kind of drop McKinsey and go full time on this?",
+  "zh": "那跟我说说，你说的那个夏天，你们在业余并行做这件事。你什么时候跨出那一步、是什么让你跨出那一步，放下 McKinsey 全职投入这个？"
+ },
+ {
+  "seg": 31,
+  "start": 1027,
+  "end": 1099,
+  "speaker": "Nick Fleisher",
+  "en": "I think it's at the point where you have enough customers or design partners using the thing or starting to show interest that like you're too busy. And that's kind of how I thought about it, which was like, I don't have the time anymore. We have five or six people that are companies that are starting to use it and I don't have the time to service them and be building this on the side anymore. Like it's time to quit. McKinsey has this amazing policy where you can get like a certain amount of time, essentially paid time off when you're leaving to go find a new job. And so I use that as my time to be able to build with Jared and like it's an amazing policy and setup, especially if you want to be a founder. We quit and basically the same day raised our pre-seat from Sequoia. The reason we were able to do that so fast is we kind of took these videos like we didn't have a deck. We just went in, we demoed. We took these videos that we had from all these conversations with our clients because we had been recording all of them. And we were like, here's why we need to raise money. Like we are too busy. Here's the product. Here's our why we're busy because of these customers we need to raise. And so once we had that pre-seed check, how much was the pre-seed? We didn't publicly announce our pre-seed, but our combined pre-seed and seed was 10 million. The pre-seed was a portion of that.",
+  "zh": "我觉得是到了你有足够多的客户或设计伙伴在用这个东西、或者开始表现出兴趣，以至于你忙不过来了。我大概就是这么想的，就是，我没有时间了。我们有五六家公司开始用它了，我没有时间既服务他们又业余地构建这个了。是时候辞职了。McKinsey 有一项很棒的政策，当你离开时，你可以获得一段时间，基本上是带薪休假，去找一份新工作。所以我把那段时间用来和 Jared 一起构建，这是一项了不起的政策和安排，尤其是如果你想成为创始人。我们辞职了，基本上同一天就从 Sequoia 融了 pre-seed（原文作 pre-seat）。我们之所以能这么快做到，是因为我们大概就是拿了这些视频，我们没有 deck。我们就直接进去，做了演示。我们拿了我们从所有这些客户对话里录下来的视频，因为我们一直都在录音。然后说，这就是我们需要融资的原因。我们太忙了。这是产品。这就是我们为什么忙，因为有了这些客户，所以我们需要融资。所以一旦我们拿到了那张 pre-seed 支票——pre-seed 融了多少？我们没有公开宣布我们的 pre-seed，但我们 pre-seed 和 seed 合计是 1000 万。pre-seed 是其中的一部分。"
+ },
+ {
+  "seg": 32,
+  "start": 1099,
+  "end": 1101,
+  "speaker": "Pablo Srugo",
+  "en": "Did you know someone at Sequoia before? Yeah.",
+  "zh": "你之前认识 Sequoia 的人吗？认识。"
+ },
+ {
+  "seg": 33,
+  "start": 1101,
+  "end": 1156,
+  "speaker": "Nick Fleisher",
+  "en": "So I had been, while I was at McKinsey, I knew I wanted to get back into startups. I didn't know how, what that would form that would take, right? Like I was building stuff on the side, but I wasn't sure if I would be a founder or I would join something super early. And so I had been networking through someone at Sequoia to introduce to a bunch of their portfolio companies. And I had interviewed and talked to many different Sequoia portfolio companies. One of them was a cyber startup very early in Israel that I had become quite close with and was very close to joining. And their kind of final move was like, go meet our partner at Sequoia, this guy Bogomil, for a drink. He'll convince you to work with us. And it ended up being that like we spent two hours like talking about legal and all of the issues in the market. And then I was like, oh, I want to show you what I've been working on on the side. And that then spiraled into a bigger meeting where we actually raised the pre-seed. So it was initially a job application for another company turned into meeting a partner there.",
+  "zh": "所以我在 McKinsey 期间，我知道我想回到初创圈。我不知道那会以什么形式呈现，对吧？比如我在业余做东西，但我不确定我会成为创始人还是加入一个很早期的东西。所以我一直在通过 Sequoia 的某个人做社交，让他们把我介绍给他们的一批portfolio 公司。我面试并聊过很多不同的 Sequoia portfolio 公司。其中一家是在以色列非常早期的网络安全初创公司，我和他们变得相当亲近，差一点就加入了。他们的最后一招大概是，去和我们在 Sequoia 的合伙人，这个叫 Bogomil 的人，喝一杯。他会说服你和我们一起干。结果变成了我们花了两个小时聊法律和市场上的所有问题。然后我说，哦，我想给你看看我业余在做什么。然后那又升级成了一场更大的会议，我们就在那场会上融了 pre-seed。所以它最初是一份给另一家公司的求职申请，变成了和那边一位合伙人的会面。"
+ },
+ {
+  "seg": 34,
+  "start": 1156,
+  "end": 1194,
+  "speaker": "Pablo Srugo",
+  "en": "Let's be honest, Sequoia is probably like the number one brand in VC. Probably if you pulled 100 founders, like they'd be on the top is just about all their lists. Like if you're thinking about early stage founder who would love to raise from Sequoia, there's the relationship building. You want to get in the door somehow like you did. But, you know, many people just like, you know, they're just not close enough for that to like happen. What do you find is some of the things that matter most to Sequoia? Like, you know, take this with a grain of salt because at the end of the day, you can't just like will yourself to raise from a particular firm. You've got to talk to a lot of them and you've got to find somebody that believes and all these sort of things. But having worked with Sequoia and having a sense of what they care about and don't care about, what would be like your number one advice to someone who's like, I just want to raise from Sequoia. What should I do?",
+  "zh": "说实话，Sequoia 大概是 VC 里排名第一的品牌。如果你问 100 个创始人，他们几乎所有人的名单上都会把 Sequoia 排在前面。如果你是一个早期创始人，想从 Sequoia 融资，有人脉关系的建立。你想像你那样 somehow 进门。但是，你知道，很多人就是不够近，没法那样发生。你觉得对 Sequoia 来说什么东西最重要？你要对下面这些话持保留态度，因为说到底，你不能光靠意志让自己从某家特定的机构融到资。你得跟很多家谈，你得找到一个相信你的人，诸如此类。但既然和 Sequoia 合作过、对他们在乎什么不在乎什么有感觉，对一个说「我就想从 Sequoia 融资，我该做什么」的人，你的第一条建议会是什么？"
+ },
+ {
+  "seg": 35,
+  "start": 1194,
+  "end": 1307,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. Well, I think my first push would be you shouldn't just want to raise from Sequoia. Like, you know, there's a lot of amazing firms out there and I love Sequoia and they've been great. But like, there's a lot of places to access capital that is going to be as helpful and for some founders more helpful than that. And so that's my starting point. In terms of like kind of breaking in or how to do it, I think the biggest thing is, you know, you started to touch on it, but like you have to find a partner that you are going to build a relationship with, right? Like as much as Sequoia invested in us, like it was really Bogomil investing in us, right? And frankly, he's also the reason that I took a check from Sequoia. Like he's someone who I would want on my board. I think the things that someone like that looks at are like one, it's so early in seed and pre-seed investing. Like it genuinely is all about the founder, right? Like the idea might completely change, right? And so it's like, you know, he always said to me, like, the reason I wanted you to work at my portfolio company is because in my interview with you, like the thing that I looked for was, is this someone that I would want to work for? Like if I had to work for this person, right, would I be happy doing it? Would I jump ship and go do that? And I think that's like one thing that you can show, whether it's through past experience or just how you carry yourself and talk about the vision, which is something to be, to be conscious of. I think the second one is like, we never went out and said we were raising. Like we raised because we had a problem where like we were too busy. Like I called him and I was like, I am too busy. I think I need to hire people. Like, should I raise? What do you think? To me, like going to the VCs without a deck and going to them with a demo and like customer problems is like way more compelling and way more natural than like, you know, spending all this time putting together a formal round at seed and pre-seed. And I know that that's so easy to say in practice because those things are like on the plate. But, you know, even with our series A, like I tried to not do a deck. It was like, I want you to like come meet the team, talk to customers and look at the demo because like that's what you should be investing in. Not like how well do I put together a fancy page?",
+  "zh": "是的。嗯，我想我的第一个反驳会是，你不应该只是想从 Sequoia 融资。你知道，外面有很多了不起的机构，我爱 Sequoia，他们也一直很棒。但是，有很多获取资本的渠道，它们的帮助程度一样，对某些创始人来说甚至更有帮助。所以那是我的出发点。至于怎么打进去、怎么做，我认为最重要的事情是，你开始触及到了，就是你必须找到一个你将会和他建立关系的合伙人，对吧？Sequoia 投资我们，其实很大程度上是 Bogomil 在投资我们，对吧？坦白说，他也是我接受 Sequoia 支票的原因。他是那种我会希望在我的董事会里的人。我认为这样的人看的东西是：第一，在 seed 和 pre-seed 投资里这是这么早的阶段。说真的，这完全取决于创始人，对吧？比如想法可能会彻底改变，对吧？所以他总是对我说，比如，我当初想让你去我 portfolio 公司工作的原因是，在我对你的面试里，我寻找的东西是，这是不是一个我想为之工作的人？比如如果我必须为这个人工作，我会做得开心吗？我会跳槽去做吗？我认为这是你可以展示的东西，无论是通过过往经历，还是仅仅通过你的举止谈吐和对愿景的讲述，这是需要有意识的。我认为第二点是，我们从来没有出去说我们在融资。我们融资是因为我们遇到了一个问题：我们太忙了。比如我打电话给他说，我太忙了。我觉得我需要雇人。比如，我应该融资吗？你怎么想？对我来说，不带 deck 去见 VC、带着演示和客户问题去见他们，比花所有这些时间为 seed 和 pre-seed 准备一个正式的轮次，有说服力得多，也自然得多。我知道这说起来容易，实践中那些事都堆在盘子上。但是，你知道，即便是我们的 A 轮，我也尽量不做 deck。我的态度是，我希望你来见团队、和客户聊、看演示，因为那是你应该投资的东西。而不是我有多会做一张漂亮的花哨页面？"
+ },
+ {
+  "seg": 36,
+  "start": 1307,
+  "end": 1336,
+  "speaker": "Pablo Srugo",
+  "en": "Well, I think the meta thing there is like be different. I mean, every VC is looking for the thing that's going to be a huge outlier. So if you can find ways to shine and be unique and then you do, you have to do it many times because you've got to find a believer and like somebody might be like, I don't like legal. And then it doesn't matter what you say. You know, they don't care or they don't believe or whatever. But you see, you got to do it enough times, but to get that serendipity factor. But I think if you can find a way to just shine and be different, that's going to do a lot for you, especially in the early rounds, pre-seed seed and series A.",
+  "zh": "嗯，我觉得这里的元道理是，要与众不同。我是说，每个 VC 都在寻找那个会成为巨大离群值的东西。所以如果你能找到方式发光、变得独特，而且你做到了，你必须做很多次，因为你得找到一个相信你的人，可能有人会说，我不喜欢法律。然后你说什么都没用。他们不在乎，或者他们不相信，随便什么。但你得做足够多次，才能撞上那个运气因素。但我认为如果你能找到方式发光、与众不同，那会对你帮助很大，尤其是在早期轮次，pre-seed、seed 和 A 轮。"
+ },
+ {
+  "seg": 37,
+  "start": 1336,
+  "end": 1360,
+  "speaker": "Nick Fleisher",
+  "en": "As much as it's important that you show that to the firms, like there's again, there's so many VCs out there, like you need to find a partner that is the right fit for you. Like it's so critical. Like Sequoia was so critical in our early hiring. They were so key in early customers. And a lot of that's because I found a partner there that like I wanted to get on the phone with every day. And like at seed and pre-seed to me, that's far and away the most important thing. It's series A, B, C, whatever. It doesn't really matter as much.",
+  "zh": "尽管向机构展示这一点很重要，但再说一次，外面的 VC 太多了，你需要找到一个适合你的合伙人。这太关键了。比如 Sequoia 在我们早期招聘上太关键了。他们在早期客户上也非常关键。其中很大原因是我找到了那里的一个合伙人，一个我每天都想和他打电话的人。在 seed 和 pre-seed 阶段，对我来说，这远远是最重要的事。到 B 轮、C 轮、D 轮，就没那么重要了。"
+ },
+ {
+  "seg": 38,
+  "start": 1360,
+  "end": 1373,
+  "speaker": "Pablo Srugo",
+  "en": "So let's talk a bit about go to market, really early go to market. Like at this point, you've got some money. You're going in full time. How do you get your first few customers? Let's go deep on that. That's that's that every founder wants to figure that out.",
+  "zh": "那我们聊聊 go to market，非常早期的 go to market。到了这个节点，你有一些钱了。你要全职投入了。你怎么拿到你的前几个客户？让我们深入聊聊这个。这是每个创始人都想搞明白的。"
+ },
+ {
+  "seg": 39,
+  "start": 1373,
+  "end": 1402,
+  "speaker": "Nick Fleisher",
+  "en": "A couple of ways. One, we were very lucky to have been at McKinsey and I was lucky to have worked with massive clients there that we were close with. I think the second one is Jared was a lawyer. His sister's a lawyer in house. And you just kind of network through your family and friends and you get people to try shit and take a risk. Right. And so there's no perfect answer. Those were very scrappy. And then I think the other one is like taking that initial set of design partners and going to them and saying, hey, like who are five or 10 people in your network that we should show this thing to?",
+  "zh": "有几种方式。第一，我们非常幸运曾在 McKinsey，而且我很幸运在那里服务过那些我们关系很好的大型客户。我认为第二个是 Jared 是律师。他姐姐是内部法务律师。你就是通过家人朋友做社交，让人们试用一下、冒个险。对吧。所以没有完美的答案。这些都是非常打游击式的。然后我觉得另一个是，拿上最初那批设计伙伴，去找他们说，嘿，你人脉里有哪些五到十个人是我们应该把这个东西展示给他们的？"
+ },
+ {
+  "seg": 40,
+  "start": 1402,
+  "end": 1412,
+  "speaker": "Pablo Srugo",
+  "en": "What was your pitch to just on the design partners before you move forward? Like what was your pitch to them? Were they paying, not paying? Did they have like you need to show up for an hour a week? What was kind of the deal with them?",
+  "zh": "在你往前推进之前，你对设计伙伴的说辞（pitch）是什么？你对他们说什么？他们付钱吗，还是不付？他们是不是得每周露面一小时？和他们之间的安排大概是什么样的？"
+ },
+ {
+  "seg": 41,
+  "start": 1412,
+  "end": 1429,
+  "speaker": "Nick Fleisher",
+  "en": "Most of our early design partners were not paying, but we had aligned like, hey, we want you to use this thing for the next two months or three months. We're going to build around your use cases and really nail them. And then this is what we're going to charge you. And it was a dart on the wall, like random number that we came up with at the time.",
+  "zh": "我们大多数早期设计伙伴是不付钱的，但我们达成了共识，比如，我们希望你在接下来的两三个月里用这个东西。我们会围绕你的用例来构建并真正把它们打磨好。然后这就是我们要向你收的价。当时那就是个往墙上扎的飞镖，我们随口编的一个数字。"
+ },
+ {
+  "seg": 42,
+  "start": 1429,
+  "end": 1432,
+  "speaker": "Pablo Srugo",
+  "en": "And did they have to meet with you like weekly or something like that to give feedback?",
+  "zh": "那他们需要每周见你之类的方式来给反馈吗？"
+ },
+ {
+  "seg": 43,
+  "start": 1432,
+  "end": 1496,
+  "speaker": "Nick Fleisher",
+  "en": "For all of them, we set up a weekly meeting. We had a shared Slack channel. We still do this with most of our accounts, honestly, just because it's the best way to get feedback and buy in. They would commit usually to an hour a week. Shared Slack. They would review new parts of the product or when we would release them. Some of them would meet more than others because that's just what they wanted to do. They were super invested. And so some of them was multiple hours a week. I think the most important thing, though, from our side was going in person. We wouldn't have gotten any of these design partners early on if we hadn't met them in person. It's just impossible to do this stuff over Zoom. They're buying into us, right? We have a fancy demo. Great. The product's still maturing at that stage. They're buying into working with us and believing that we can improve with them over the next couple of months. The goal was, hey, how many of these design partners can we convert to full paying customers? Right? That kind of has to be the goal. But as we went through and added more and more design partners, we started to get to the point where we felt comfortable asking some of them to pay us for that time that we were giving in to improve the product around them because the baseline of it was good enough that they were going to get value from day one.",
+  "zh": "对所有人，我们都建立了每周例会。我们有一个共享的 Slack 频道。说实话，我们现在对我们大部分客户账户还是这么做的，就因为这是获得反馈和认同的最好方式。他们通常会承诺每周一小时。共享 Slack。他们会在我们发布新产品部分时进行评审。有些人比其他人见得更多，因为那就是他们想做的。他们非常投入。所以有些人是一周好几个小时。不过我认为对我们这边来说最重要的是当面去。如果没有当面见他们，我们早期根本拿不到任何这些设计伙伴。隔着 Zoom 做这种事就是不可能的。他们买的是我们，对吧？我们有一个花哨的演示。很好。那个阶段产品还在成熟中。他们买的是和我们合作、并相信我们能在接下来几个月里和他们一起进步。目标是，嘿，这些设计伙伴里我们能转化多少成全额付费客户？对吧？那基本必须是目标。但当我们一路增加越来越多的设计伙伴后，我们开始到了一个点，觉得可以请他们中的一些人为我们投入的、围绕他们改进产品的时间付钱，因为它的底线已经足够好，他们从第一天起就能获得价值。"
+ },
+ {
+  "seg": 44,
+  "start": 1496,
+  "end": 1553,
+  "speaker": "Pablo Srugo",
+  "en": "I'm really worried because, listen, like you've been listening for like, what, 10, 20, 30 minutes now. Clearly, you like it. And the thing is, the next episode is way better and you're going to miss it. You're going to miss it because you're not following the show. So take your phone out and hit that follow button. Design partners is an interesting thing. Like it's the playbook now. Beta customers and beta side partners, whatever. It's been played for a long time. The big danger is it's usually I find most founders can get at least some beta design partners because ultimately it's free and you're like, I'm going to build stuff for you. It's like, okay, why not? Right? But the problem becomes you build something, you respond to feedback, you do all these things and you never really solve such a fundamental problem that all the other stuff that's supposed to come after, like the market pull, the payments, the referrals just don't come. As you're going through this, what are the tells for you? What are you looking for to make sure that you're solving like a true top priority problem and the stuff you're building is going to lead to true demand?",
+  "zh": "我真的很担心，因为，听着，你已经听了大概 10、20、30 分钟了。很明显你喜欢。问题是，下一期节目好得多，而你会错过它。你会错过它，因为你没有关注这个节目。所以拿出你的手机，按下关注按钮。设计伙伴是个有意思的事。它现在是标准 playbook。Beta 客户、beta 伙伴，随便什么。这招已经被用了很多年了。最大的危险是，我发现大多数创始人至少能拿到一些 beta 设计伙伴，因为归根结底是免费的，你是说，我会为你做东西。就像是，行啊，为什么不呢？对吧？但问题变成你做了东西，你响应反馈，你做了所有这些事，却从来没有真正解决一个如此根本的问题，以至于本应随之而来的其他东西——市场拉力、付费、推荐——就是不出现。当你在经历这些的时候，对你来说信号（tells）是什么？你在寻找什么来确保你解决的是一个真正的最高优先级问题，而且你构建的东西会带来真正的需求？"
+ },
+ {
+  "seg": 45,
+  "start": 1553,
+  "end": 1595,
+  "speaker": "Nick Fleisher",
+  "en": "The worst mistake you can make there is just saying yes and doing everything that someone asks of you, right? Like when you're working with early design partners, it's so easy to just say yes to everything. And that's how you get led astray into doing things that like aren't high value because it's like, especially in legal, some company has some random workflow that no other company does that they really want you to nail. And so we made a point in like every piece of feedback to say like, can we find five or six other clients that we think of that like actually have this problem in order to justify the value of doing, even from like our first clients. And we had some early design partners that we like, you know, fired, if you will, where we were like, your problems just aren't aligned enough to the market. And so we're not going to work with you, but we'll circle back when we feel ready.",
+  "zh": "在那里你能犯的最糟糕的错误就是只会说好，然后照单全收别人要求你做的一切，对吧？当你和早期设计伙伴合作时，对一切都说是太容易了。而这就是你会被带偏去做那些不高价值的事情的原因，因为尤其在法律领域，有些公司有一些其他公司都没有的随机工作流程，而他们特别想让你把它打磨好。所以我们在每一条反馈里都强调要说，我们能不能找出五六个我们想得起来的、真正有这个问题的其他客户，以此来论证做这件事的价值，甚至从我们的第一批客户开始就是这样。我们有一些早期设计伙伴，可以说是被我们「开掉」的，我们的想法是，你们的问题跟市场的对齐程度就是不够。所以我们不打算跟你们合作了，但我们准备好后会再回头找你们。"
+ },
+ {
+  "seg": 46,
+  "start": 1595,
+  "end": 1603,
+  "speaker": "Pablo Srugo",
+  "en": "And in person, was this just a sales tactic or were you using this as a design partnership was happening just to get more understanding of the problems and more of the subtleties?",
+  "zh": "而当面这件事，这只是个销售战术吗，还是你们把这种设计伙伴关系当作获取对问题和各种细微之处的更多理解的方式？"
+ },
+ {
+  "seg": 47,
+  "start": 1603,
+  "end": 1661,
+  "speaker": "Nick Fleisher",
+  "en": "I would say both. Like we very consciously know that it's a sales tactic. Like if you look at our win rates and our close rates, they are significantly higher in person by a long shot. Like it's not even close, but it's also the best way to learn of what's going on in a company. Like at McKinsey, we used to talk about like walking the halls. Like you were supposed to go to your client and just sit there and like be annoying. And we do that here too. Like I literally, you know, even still, I go to the clients and I'm just like being annoying, finding people for coffee. Some of these clients have security rules where they have to like walk around with you and it's really frustrating. But like it's the best way to one, learn their problems and two, build a relationship. And now like clients will text us things like, hey, this other part of the org is doing this. Like how do we solve that? Like it's not just like finding better ways to build product, but also like in the large enterprises, they're very complicated orgs to sell into. And like the only way you can really nail it is like if you understand the complexity there and you have to build the relationship to do that.",
+  "zh": "我会说两者都是。我们非常清楚它是一个销售战术。如果你看我们的赢单率和成交率，当面显著高得多，遥遥领先。根本不是一个量级，但它也是了解一家公司内部正在发生什么的最好方式。比如在 McKinsey，我们常说「在走廊里走动」。你应该去到你的客户那里，就坐在那儿，做个「烦人精」。我们在这里也这么做。我字面意义上地，到现在也是，去到客户那里，就是当个烦人精，约人喝咖啡。有些客户有安全规定，必须有人陪着你走动，这真的很让人沮丧。但这是最好的方式，第一，了解他们的问题，第二，建立关系。而现在，客户会给我们发短信说，嘿，组织的另一个部门在这样那样。比如，我们怎么解决那个？所以这不只是找到构建产品的更好方法，还有，在大型企业里，它们是非常复杂的组织，很难卖进去。而你唯一能真正搞定的方式就是理解那里的复杂性，而你必须建立关系才能做到这一点。"
+ },
+ {
+  "seg": 48,
+  "start": 1661,
+  "end": 1682,
+  "speaker": "Pablo Srugo",
+  "en": "I'm going to put you on the spot. Do you remember in those early days when you're going through these design partnerships and you're spending time in person, something important that you learned through that about the problem or about the workflows or whatever that matter, that made an impact like to product development or the way you sell or whatever it is. Some story you can share about why it's so important to be in person.",
+  "zh": "我要让你现场回忆一下。你还记得那些早期日子吗，当你在经历这些设计伙伴关系、当面花时间的时候，有什么你通过这些学到的关于问题或工作流程的重要东西，对产品开发或销售方式产生了影响。有没有什么故事可以分享，说明为什么当面这么重要。"
+ },
+ {
+  "seg": 49,
+  "start": 1682,
+  "end": 1789,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. One of the biggest ones for us was we built these teams and Slack bots early on where you could drop the bot into a channel and it would triage and help manage and answer legal questions. And then it would pass it on to the right lawyer person to work on. And we were like, these legal teams told us they were working on this much stuff, but we're only seeing like this much come through Slack. And so we're sitting there watching these folks do their workflows on their computers. And we're realizing like their Slack DMs and their team's DMs, like their one-on-one messages are actually like so many unreads, like way more intense than any of the channels. And we realized like it was just a common behavior in some of these companies where like people would go to the lawyer that they knew best. And so that's when we like really invested in like building out the intake and triage capability from private DMs rather than just group channels, just because we saw people doing that. I think the second one is like most of our integrations have been through like us watching how people jump around different systems. So like it's obvious to say we need a Salesforce integration because everyone does the CRM integration. But like our biggest integrations today are actually procurement tools like Coupa and Zip. And we discovered that because we're sitting there watching someone drag an agreement out of Coupa, download it, drop it into Sandstone, then use Sandstone to work on it, and then drop it back into Coupa, right? And then we said, okay, like that's something we're going to automate. We sat there, we worked with them to figure out how to automate it through Coupa. And now that integration is powering like tens of thousands of contracts or agreements a month. A lot of times the clients or customers just don't, they don't know the art of the possible yet. I mean, so you have to kind of watch their current state workflow actually happen. Like even when we're doing remote sales and post sales, we make clients screen share, right? Like it's the most powerful thing just because you learn so much more than doing it on your own or like, you know, running it through a mock instance.",
+  "zh": "是的。对我们来说最大的一个是我们早期做了这些 Teams 和 Slack 机器人，你可以把机器人拉进一个频道，它会做分诊、帮助管理并回答法律问题。然后它会转给合适的律师去处理。然后我们想，这些法务团队告诉我们他们在处理这么多工作量，但我们只看到这么多通过 Slack 进来。所以我们坐在那里看这些人在电脑上做他们的工作流程。然后我们意识到，他们的 Slack 私信和 Teams 私信，他们的一对一消息，实际上有那么多未读，比任何频道都密集得多。然后我们意识到，这只是这些一些公司里的常见行为：人们会去找他们最熟的那个律师。所以那个时候我们才真正投入去构建从私信做 intake 和分诊的能力，而不只是群频道，就因为我们亲眼看到人们是这么做的。我认为第二个是，我们大多数集成都是通过观察人们如何在不同系统之间跳来跳去而得来的。比如说「我们需要一个 Salesforce 集成」是显而易见的，因为人人都做 CRM 集成。但我们今天最大的集成其实是采购工具，比如 Coupa 和 Zip。我们发现这个是因为我们坐在那里看某人把一份协议从 Coupa 里拖出来，下载，放进 Sandstone，然后用 Sandstone 处理它，然后再放回 Coupa，对吧？然后我们说，OK，这是我们要自动化的东西。我们坐在那里，和他们一起搞清楚如何通过 Coupa 把它自动化。现在那个集成每月支撑着数以万计的合同或协议。很多时候客户就是，他们还不知道「可能性艺术」（art of the possible）。所以你必须看着他们当前状态的工作流程实际发生。甚至当我们做远程销售和售后时，我们让客户共享屏幕，对吧？这是最有力的东西，因为你比自己做或者跑一个模拟实例能学到多得多的东西。"
+ },
+ {
+  "seg": 50,
+  "start": 1789,
+  "end": 1794,
+  "speaker": "Pablo Srugo",
+  "en": "When do you actually start, like you do these design partnerships, when do you start selling and go to market?",
+  "zh": "你们实际上是什么时候开始的，比如你们做了这些设计合作伙伴，什么时候开始销售、进入市场的？"
+ },
+ {
+  "seg": 51,
+  "start": 1794,
+  "end": 1818,
+  "speaker": "Nick Fleisher",
+  "en": "We raised and we quit in July, August. We had all these design partners. We started to like really do real sales towards the end of the year. Like we wanted to see the design partners convert to feel like we had real product market fit. That's the same time where we saw that design partner go introduce us to a bunch of different accounts and say, hey, you need to work with this. That's like the end of 25. And then into 26, like we started to build a real pipeline and sell.",
+  "zh": "我们在七、八月份融资并辞职。我们有这些设计合作伙伴。到年底的时候我们才开始真正做销售。比如我们想看到设计合作伙伴转化，来感觉我们有了真正的产品市场契合。就在那个时候，我们看到那个设计合作伙伴把我们介绍给一堆不同的客户，说，嘿，你们需要和这家合作。那大概是25年底。然后进入26年，我们开始建立真正的销售管线并开始销售。"
+ },
+ {
+  "seg": 52,
+  "start": 1818,
+  "end": 1820,
+  "speaker": "Pablo Srugo",
+  "en": "Is that when you hired an AE?",
+  "zh": "你是在那个时候雇了 AE 吗？"
+ },
+ {
+  "seg": 53,
+  "start": 1820,
+  "end": 1867,
+  "speaker": "Nick Fleisher",
+  "en": "I hired an AE before that. We hired our AE like end of the summer, like September, August. Basically, as soon as we raised our pre-seed, I hired an engineer and a completely counterintuitive to what investors told us. And I think most were like, why the hell are you hiring a salesperson when you arguably don't have PMF yet, right? Like you have signs of it, but like you arguably don't. And my justification is like he was a product market fit finder. Like that was his job. It was not to go hit some crazy quota. It was to literally go take what we're learning from the five design partners and go demo with a hundred clients a week, like go crazy and just see if what we're doing actually resonates with them. Like, would they all go adopt this? Right. That was like us prepping for the storm of like, are we doing something that's actually scalable or like that five companies happen to have a problem or like have as their own pain points?",
+  "zh": "我在那之前就雇了 AE。我们雇 AE 大概是夏末，九、八月份。基本上，我们一拿到 pre-seed 融资，我就雇了一个工程师和一个 AE，这和投资人告诉我们的完全背道而驰。我想大多数人都会说，你们在还没有 PMF 的情况下到底为什么要雇销售，对吧？比如你们有一些迹象，但严格来说你们还没有。而我的理由是，他是一个产品市场契合寻找者。那是他的工作。不是去完成什么疯狂的配额。而是字面意义上地，去把我们从五个设计合作伙伴那里学到的东西拿去，每周和一百个客户做演示，放开手脚去做，看看我们做的事情是否真的能引起他们共鸣。比如，他们都会采用这个吗，对吧？那是我们在为暴风雨做准备，就像，我们做的事情是真正可扩展的，还是那五家公司碰巧有这个问题，或者说有这个痛点？"
+ },
+ {
+  "seg": 54,
+  "start": 1867,
+  "end": 1881,
+  "speaker": "Pablo Srugo",
+  "en": "This is like the first kind of we want to go deep on this tackle because this is like you said, it's very unconventional. Even me, like the number one thing I'll tell founders is go sell your first million yourself. Like is that product market fit finder job not supposed to be yours? Like why would you outsource that?",
+  "zh": "这就像是我们第一次想深入探讨这个话题，因为就像你说的，这非常非常规。连我都是这样，我会告诉创始人的头号建议就是自己去卖出第一个一百万。比如那个产品市场契合寻找者的工作难道不应该是你的吗？比如你为什么要把它外包出去？"
+ },
+ {
+  "seg": 55,
+  "start": 1881,
+  "end": 1923,
+  "speaker": "Nick Fleisher",
+  "en": "I would say we were doing it as well. This was a situation where there was someone who was so exceptional in the market. He was the top sales rep the last two years in legal tech. Like he sold $10 million each year at a legacy contract management tool with a terrible product. He knew everyone in the market. I knew him through going to conferences and I saw him sell into McKinsey and get a meeting with the chief legal officer when even I couldn't get a meeting with the chief legal officer. And so it was just like one of those moments where I wouldn't have hired any other AE. It was someone that made so much sense for the market and for where we were that like I couldn't afford not hiring him. Right. Like sure. Maybe you could have argued I should have waited six or four months, but like the risk that he would not be on the market just wasn't worth it for me.",
+  "zh": "我会说我们自己也在做。那是一个市场上有个人如此出色的情形。他是过去两年法律科技行业里排名第一的销售代表。比如他在一个产品很糟糕的老旧合同管理工具上每年卖出1000万美元。他认识市场上的所有人。我通过参加行业会议认识了他，我看到他向麦肯锡销售，并和首席法务官约上了会，而连我自己都无法和首席法务官约上会。所以就是那种时刻之一，我不会雇任何其他 AE。他对这个市场和我们当时所处的阶段来说太合适了，以至于我雇不起不雇他的代价。对吧。比如，当然，你也许可以争辩说我应该再等六个月或四个月，但失去他离开市场的风险对我来说不值得。"
+ },
+ {
+  "seg": 56,
+  "start": 1923,
+  "end": 1925,
+  "speaker": "Pablo Srugo",
+  "en": "Okay. So it was more of a person driven thing.",
+  "zh": "好的。所以这更多是一个由人驱动的决定。"
+ },
+ {
+  "seg": 57,
+  "start": 1925,
+  "end": 1938,
+  "speaker": "Nick Fleisher",
+  "en": "It was definitely person driven, but I think what it ended up becoming was like actually very helpful. And like I still did all the sales calls. I still closed all of our deals. Right. But he was just more firepower to be able to do that at more scale.",
+  "zh": "这绝对是由人驱动的，但我想它最终变得实际上非常有帮助。比如我仍然做了所有的销售电话。我仍然拿下了我们所有的交易。对。但他只是更多的火力，让我们能够在更大的规模上做到这一点。"
+ },
+ {
+  "seg": 58,
+  "start": 1938,
+  "end": 1941,
+  "speaker": "Pablo Srugo",
+  "en": "Did you guys do the deals together then? How did you how did you split things? Like where did he come in? Where did you come in?",
+  "zh": "那你们是一起做交易的吗？你们怎么分活的？比如他从哪里介入？你从哪里介入？"
+ },
+ {
+  "seg": 59,
+  "start": 1941,
+  "end": 1961,
+  "speaker": "Nick Fleisher",
+  "en": "Most of our deals we did together. He did a lot of top of funnel and discovery and getting the initial calls. He he has a big following in the market. He would host these like wine dinners and coffee events with general councils. And so he was very good at like drumming up interest and building community. And then he would then bring myself and Jared in as we started to go further into the deals.",
+  "zh": "我们大部分交易是一起做的。他做了很多漏斗顶端的工作和需求挖掘，以及约到初始电话。他在市场上有很多粉丝。他会和总法律顾问们举办这种红酒晚宴和咖啡活动。所以他非常擅长于激发兴趣和建设社区。然后当我们开始深入交易的更后阶段时，他会把我和 Jared 拉进来。"
+ },
+ {
+  "seg": 60,
+  "start": 1961,
+  "end": 1968,
+  "speaker": "Pablo Srugo",
+  "en": "And was that like his ability to bring top of funnel was because he was already in the space selling like I assume he brought in a lot of previous customers at top of funnel.",
+  "zh": "那他带来漏斗顶端流量的能力是因为他已经在那个领域卖东西了，我猜他带来了很多以前的客户作为漏斗顶端来源。"
+ },
+ {
+  "seg": 61,
+  "start": 1968,
+  "end": 1990,
+  "speaker": "Nick Fleisher",
+  "en": "I think that's one piece of it. The other is just he's an unbelievably personable person. Like he is so good at building relationships. One of our first clients that he signed was it was ridiculous. The first week he joined, he signed a five year deal with a client like paid five year deal off the bat over lunch. And we were like the whole office was like, what what just happened?",
+  "zh": "我觉得这是一部分。另一部分就是他是一个极其有亲和力的人。比如他非常擅长建立关系。他签下的我们最早的客户之一就很离谱。他加入的第一周，就在午餐时和一个客户签了一份五年合同，一开始就是付了款的五年合同。我们整个办公室都在说，刚才发生了什么？"
+ },
+ {
+  "seg": 62,
+  "start": 1990,
+  "end": 1993,
+  "speaker": "Pablo Srugo",
+  "en": "I need to interview him. And how do you how do you do that? That's crazy.",
+  "zh": "我得去采访他。你是怎么做到的？这也太疯狂了。"
+ },
+ {
+  "seg": 63,
+  "start": 1993,
+  "end": 2020,
+  "speaker": "Nick Fleisher",
+  "en": "You should. But this GC at this company said to him like, hey, I, you know, I just want to make sure like I'm getting the best service here. Like, how should I trust you guys? And Oliver said to him, like, you can call me whenever you want. Like, I will pick up the phone at any moment. Like, that's how you know that you're getting the best tool and the best team here. And the guy did end up calling him in the middle of the night, like literally at like two, three. And Oliver like doesn't sleep. Like he it's not because he he works so much like he actually just like can't sleep a lot.",
+  "zh": "你应该去。但那个公司的这位 GC 对他说，嘿，你知道的，我只是想确认我得到的是最好的服务。比如，我该怎么信任你们？Oliver 对他说，你随时可以给我打电话。我任何时刻都会接电话。比如，这就是你怎么知道你在这里得到的是最好的工具和最好的团队。结果那个人真的在半夜给他打了电话，就像字面意义上的两、三点。而 Oliver 就不怎么睡觉。比如这不是因为他工作太多，而是他实际上就是睡不了太多觉。"
+ },
+ {
+  "seg": 64,
+  "start": 2020,
+  "end": 2024,
+  "speaker": "Pablo Srugo",
+  "en": "What could be happening at 2 a.m. that he needs like this like a test or something?",
+  "zh": "凌晨两点能发生什么事让他需要接这个电话，比如像一个测试之类的？"
+ },
+ {
+  "seg": 65,
+  "start": 2024,
+  "end": 2128,
+  "speaker": "Nick Fleisher",
+  "en": "No, it was a test. It was a test. And Oliver picks up the phone. He's like, hey, what can I help you with? It's stuff like that where it's like building those relationships. And some of the like our fortune 500 deals take months and months to close. Like we have deals closing now. And like we've had deals closing over the last four or five months that like Oliver and I started incubating at the end of last year. And that's like people are saying tell us like how do you get how are you able to get such big deals? And part of it is just because we've been working on it for a while. Like we've been building relationships there. Like some of the fortune 500 clients we have. We've like multi-threaded with 50 stakeholders over the last nine months, the two of us. And he's flown to these places like over and over. And so like founders need to be selling, right? Most of my day is demoing and selling. But I think it's just allowed us to move a lot faster. Like when we launched and came out of stealth, we had a ridiculous, we had like 10 to $15 million of pipeline like already ready to go. Like that we had been warming and demoing. We had done hundreds of demos already. That's because Oliver was just an extension of us and he also knew the market and had all the right traits. It then sets you up for a very good sales culture going forward, right? Like we know the things that work and the things that don't. We've tested all the tactics. So like when you start to get into like the real growth curve, like you're not testing the waters and trying things out all over again. The other thing I'll say is like his role early on was very tied to product and engineering. Like he would do these demos. Liam, Jared, and I, the co-founders, we were all coding. And so us plus the early engineers we hired would just like listen to Oliver do these calls. We'd hear someone say something that was wrong or didn't look right. And we would just go start working on it. We had one little room in the office that was like had a door that was not really closeable so it wasn't silent. And so we would just hear him do these demos and we would just start working on it right away.",
+  "zh": "不，那就是一个测试。就是一个测试。Oliver 接起电话，他说，嘿，我能帮你什么忙？就是这种事情，就是在建立那些关系。而且我们的一些财富500强的交易要花好几个月才能成交。比如我们现在有正在成交的交易，过去四、五个月里一直在成交的交易，是 Oliver 和我去年年底就开始孵化的。人们会说告诉我们，比如你们是怎么拿到这么大的交易的？部分原因就是我们已经在这上面花了一段时间。比如我们一直在那里建立关系。比如我们的一些财富500强客户，我们两个人在过去九个月里和50个利益相关方做了多线接触。而且他一次又一次地飞到那些地方。所以比如创始人需要自己去销售，对吧？我一天的大部分时间都在做演示和销售。但我觉得这只是让我们能快很多。比如当我们发布并出隐身模式时，我们已经有一个离谱的，比如有1000万到1500万美元的管线已经准备就绪。我们已经预热和演示过的。我们已经做了几百场演示。这是因为 Oliver 就是我们团队的延伸，而且他也了解这个市场，具备所有合适的特质。这也为你之后建立非常好的销售文化打下了基础，对吧？比如我们知道哪些事情有效、哪些无效。我们已经测试过所有的战术。所以比如当你开始进入真正的增长曲线时，你不是在试水、重新把所有事情再试一遍。我要说的另一件事是，比如他早期的角色和产品及工程紧密相关。比如他会做这些演示。Liam、Jared 和我，这些联合创始人，我们都在写代码。所以我们加上我们雇的早期工程师就会听 Oliver 打这些电话。我们会听到有人说哪里不对或看起来不正确的东西，然后我们就直接开始做。我们在办公室里有一个小房间，那个门基本关不严，所以并不安静。所以我们就会听他做这些演示，然后立刻开始动手做。"
+ },
+ {
+  "seg": 66,
+  "start": 2128,
+  "end": 2147,
+  "speaker": "Pablo Srugo",
+  "en": "One of the maybe classic pieces of advice tied to this is one of the reasons you don't hire an AE so early is because an excellent AE wants a product that's already got that traction that they can come in and be like, yeah, I'm going to hit quota. I'm going to destroy quota. Like if you're already selling this much, I can sell that much more. How do you get somebody like Oliver to join this early on?",
+  "zh": "和这个相关的、也许最经典的一条建议是，你这么早不雇 AE 的原因之一是，一个优秀的 AE 想要一个已经有那种增长势头的、他们可以进来说，对，我要完成配额。我要超额完成配额。比如如果你们已经卖到这个量了，我能卖得更多。你是怎么让 Oliver 这样的人这么早加入的？"
+ },
+ {
+  "seg": 67,
+  "start": 2147,
+  "end": 2222,
+  "speaker": "Nick Fleisher",
+  "en": "It has to be the right person that's willing to take the risk, right? Like you're as if you are a really good AE, right, who can sell five, ten plus million dollars of a enterprise product a year. You're making millions of dollars, right? So it doesn't actually make any financial sense to go to a startup pre-product. So you have to incentivize with equity and ownership, right? Like obviously a huge chunk is equity, but I think another chunk is the ability to like do more than just selling, right? Like you're going to get to work with existing accounts. You're going to help us strategize about where we go. Like it's just so different from a traditional AE role. And if you're into tech in the startup world, it's very interesting. And as a result, like, you know, not to over harp on one person, but like that first hire, like Oliver has done a lot of venture investing and helped a lot of other startups with their early sales process. He, after, you know, despite having a great comp set up here, like he personally invested in the business as well. And so that to me is also an interesting profile that we're starting to see more of. Like you see it at 11 Labs and some of these other companies where like either the early sales lead or like VP of sales is an investor as well and like very plugged into tech. It's another interesting persona and it's attractive to a subset of like really high performing AEs to that.",
+  "zh": "必须是那个愿意承担风险的合适的人选，对吧？比如，如果你是一个真正优秀的 AE，一年能卖出五百万、一千万美元以上的企业级产品。你赚的是几百万美元，对吧？所以去一个产品还没做出来的创业公司其实在经济上完全说不通。所以你必须用股权和所有权来激励，对吧？比如显然很大一部分是股权，但我觉得另一部分是能够做的不只是销售这件事，对吧？比如你会去服务现有客户。你会帮我们一起规划我们的方向。比如这和一个传统的 AE 角色太不一样了。而如果你喜欢科技和创业圈，这就非常有意思。因此，比如，我不想在一个身上说太多，但那个第一个员工，比如 Oliver 做了很多风险投资，也帮了很多其他创业公司搭建早期销售流程。他，比如，尽管在这里有很好的薪酬待遇，他自己也投资了这个生意。所以对我来说，这也是一个我们开始越来越多看到的有趣画像。比如你在 11 Labs 和其他一些公司能看到，早期销售负责人或者销售 VP 同时也是投资人，而且深度融入科技圈。这是另一种有趣的人物类型，而且对一部分真正高绩效的 AE 来说很有吸引力。"
+ },
+ {
+  "seg": 68,
+  "start": 2222,
+  "end": 2287,
+  "speaker": "Pablo Srugo",
+  "en": "Well, it's a very different setup, right? The classic setup is you as a founder go out, generate your leads, close your first million of ARR. And then once you've got something that's kind of working, find a way to make that somewhat scalable. And the way that I see that playing out usually is you hire these maybe top of final BDRs, SDRs that are like truly junior. And even on the AE side, you hire someone with a little bit more kind of experience, but you're not going out and hiring like the top AE in your industry. It's just not the normal thinking. And so you're kind of putting these pieces in the puzzle and saying like, if I can make it work with this team, I can make it work with anyone. And that's the way you kind of scale it. You went the exact opposite, which is part of it was serendipity in the sense that you knew Oliver and Oliver was there, right place, right time. Where you're like, let's hire the absolute best AE to just lead this for us. Let's make a package that's interesting and compelling enough to him and have him kind of drive all of that. It's kind of like intrinsically not scalable because there's only like one Oliver, but you then bet on Oliver to be able to create that, I assume the scalable piece of it, you know, later on.",
+  "zh": "嗯，这是一个非常不同的安排，对吧？经典的安排是你作为创始人出去，生成线索，拿下你的第一个一百万 ARR。然后一旦你有了一个大致跑得通的东西，想办法让它多少可扩展。而我通常看到这个过程的方式是，你雇这些可能处于漏斗顶端的 BDR、SDR，他们是非常初级的。即使在 AE 这边，你雇一个稍微有点经验的人，但你不会出去雇你行业里最顶尖的 AE。这不是常规思路。所以你是在把这些拼图放在一起，然后说，如果我能和这个团队做成，我就能和任何人做成。然后这就是你扩展的方式。而你走了完全相反的路，其中一部分是机缘巧合，就是说你认识 Oliver 而 Oliver 恰好在，合适的地方、合适的时间。然后你说，我们雇绝对最好的 AE 来为我们主导这件事。我们做一个对他足够有趣、足够有吸引力的包，然后让他来推动这一切。这在本质上有点不可扩展，因为 Oliver 只有一个，但接着你押注 Oliver 能创造出那个，我猜是之后可扩展的部分。"
+ },
+ {
+  "seg": 69,
+  "start": 2287,
+  "end": 2309,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. And I think the best in class AE or seller is getting so much more scalable. Like I struggle to believe that we're going to go hire a bunch of SDRs, especially in our market. Like I was literally with a buyer yesterday at a fortune 50 who was like, I get flooded with LinkedIn's and calls and emails. Like it doesn't work for me. Like I need someone who's going to like come here and like build the relationship and like sell me like a real person, the thing that you're selling.",
+  "zh": "是的。而且我觉得顶级的 AE 或销售正在变得可扩展性更强得多。比如我很难相信我们会去雇一堆 SDR，尤其是在我们的市场。比如我昨天就和一个财富50强公司的买家在一起，他说，我被 LinkedIn 消息、电话和邮件淹没了。比如这对我没用。我需要那种会来到这里、建立关系，像卖给一个真正的人那样把东西卖给我的人。"
+ },
+ {
+  "seg": 70,
+  "start": 2309,
+  "end": 2310,
+  "speaker": "Pablo Srugo",
+  "en": "What are your ACVs, by the way?",
+  "zh": "顺便问一下，你们的 ACV 是多少？"
+ },
+ {
+  "seg": 71,
+  "start": 2310,
+  "end": 2320,
+  "speaker": "Nick Fleisher",
+  "en": "It depends on the client, right? For the biggest fortune 500s, it could be 500K to a million. For the 10 to 30 person legal team, it could be anywhere from call it 50 to 100K.",
+  "zh": "取决于客户，对吧？对最大的财富500强，可能是50万到100万美元。对10到30人的法律团队，可能是50万到100K 之间的任何数字。"
+ },
+ {
+  "seg": 72,
+  "start": 2320,
+  "end": 2325,
+  "speaker": "Pablo Srugo",
+  "en": "Okay. You're not selling 10Ks or 20Ks. I realistically, you're selling 100Ks and half a million.",
+  "zh": "好的。你们不是在卖10K、20K 的单子。实际上，你们是在卖100K 和50万的单子。"
+ },
+ {
+  "seg": 73,
+  "start": 2325,
+  "end": 2351,
+  "speaker": "Nick Fleisher",
+  "en": "You can't afford to fly in person for a deal less than 30K. That's kind of like our rule of thumb is like if the deal is less than 30K, like it doesn't make a ton of sense unless it is a very sexy logo. Like that has to be also another, and we debate this a lot, right? Like, hey, it's a solo GC at like the hottest company in the world. Like go and do it. Who cares? Right? Because that everyone wants to be like that company. And so that 20K deal is going to generate you like millions in pipeline.",
+  "zh": "低于30K 的交易你不值得飞过去当面谈。这大概就是我们的经验法则，如果交易低于30K，那通常不太划算，除非是一个非常亮眼的 logo。那必须是另一个考量，我们经常为此争论，对吧？比如，嘿，这是全世界最热门公司的一个独立 GC。比如去吧，去做这个单子。管它呢，对吧？因为每个人都想成为那样的公司。所以那笔20K 的交易会给你带来几百万的管线。"
+ },
+ {
+  "seg": 74,
+  "start": 2351,
+  "end": 2369,
+  "speaker": "Pablo Srugo",
+  "en": "But I say that mainly just to kind of contextualize because obviously the playbooks have to do with the ACV. So if you're closing five to 10Ks, this may or may not work for you because you can run volume, right? If you're closing 50K, 100K plus, you can't just run these volume. Like there's just not an infinite number of these people. So you got to be a little more thoughtful about how you go.",
+  "zh": "但我说这个主要是为了做一个背景说明，因为显然这些打法都和 ACV 有关。所以如果你成交的是5到10K 的单子，这对你可能适用也可能不适用，因为你可以跑量，对吧？如果你成交的是50K、100K 以上，你就不能只跑量了。这种人就那么多。所以你得对怎么推进更花心思一点。"
+ },
+ {
+  "seg": 75,
+  "start": 2369,
+  "end": 2400,
+  "speaker": "Nick Fleisher",
+  "en": "Totally. I think the alternative would be like, you can also say, hey, we have 10 clients, 10 potential prospects that I can try to get a meeting with over a one or two day span in, call it wherever, the middle of nowhere in Florida, right? Even if those are all 20K accounts, like that's still worth my travel, right? Because cumulatively, like if I spend enough time with them, like it's worth it. And so you do kind of have to do some like backup napkin math. I think early on though, like you just want users, right? You want usage. I don't care if it's a 10K deal. I don't care if it's a million dollar deal.",
+  "zh": "完全同意。我觉得另一种做法是，你也可以说，嘿，我们有10个客户、10个潜在客户，我可以在一两天的时间里在，比如随便哪里，佛罗里达的穷乡僻壤，试着约到会，对吧？即使那些都是20K 的客户，那也仍然值得我跑这一趟，对吧？因为累计起来，比如如果我在他们身上花足够的时间，那就是值得的。所以你确实得做一些粗略的餐巾纸数学。不过我觉得早期，你就是想要用户，对吧？你想要使用量。我不在乎那是10K 的单子。我不在乎那是一百万的单子。"
+ },
+ {
+  "seg": 76,
+  "start": 2400,
+  "end": 2432,
+  "speaker": "Pablo Srugo",
+  "en": "It's a good segue actually for the second kind of deep dive because we're talking about kind of how to sell effectively into enterprise small or large, right? Million being large and 50K being small. But you're doing this dinner cycle, like you're doing two to three dinners a week. So this is very much like a playbook that you're running. I mean, a lot of people do events, but it's here, there. They'll go to conferences and maybe do an event after the conference. Like that's pretty common. But to be running two or three of these a week is not something I hear every day. Tell me more about why you're doing it and how you're doing that and kind of what the outcome is.",
+  "zh": "这其实是很好的过渡，正好进入第二个深入探讨的话题，因为我们在谈的是如何有效地向企业销售，无论大小，对吧？一百万算大，50K 算小。但你们在做这个晚宴循环，比如你们每周做两到三场晚宴。所以这是一个你们在系统执行的打法。我的意思是，很多人做活动，但零零散散。他们会去参加会议，也许在会议后做个活动。这很常见。但每周跑两三场这种活动不是每天都听得到的事。多跟我讲讲你们为什么要做这个、你们是怎么做的、结果怎么样。"
+ },
+ {
+  "seg": 77,
+  "start": 2432,
+  "end": 2561,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah. We discovered early on, and this was honestly through this early tactic of trying to build community and brand before we had the perfectly scalable product. Like we said early on, like we want to be a place that like lawyers feel safe and comfortable like procuring from because it's a very small community. What happened as AI has become more easier to use and it's everywhere in sales tech is like outbound is just not as effective. And like people are flooded, right? You get crazy LinkedIn's emails. Like even I get calls from our competitors, AEs and SDRs because I signed up to trial their tools, which is just, it's hilarious. And so what we realized is like the best high ROI channels for us are things that are inherently not salesy and things that are low, low ratio of salesperson or person at Sandstone to clients. So like if we can do a 10 person dinner with two Sandstone people there, it's very effective. The reason is like we're talking about things that are not necessarily Sandstone. Like sure there's topics that might hit on Sandstone, but generally we're just talking about like what's going on in legal, how their jobs are like general topics and we're building relationship. And the second is like, we're not the only ones at the table. Like we usually mix in a customer or two customers, two or three high priority prospects, and then like four or five other people just from our network. That makes the conversation a lot more natural and it feels like a community. And ultimately it is right. Like we're trying to build a community of people that are either buyers or in our market. If you do a 10 person dinner like that and you have seven prospects there, it is very hard to imagine that they don't all do a first demo with you. Like if you're talking about just getting that demo, it's almost a hundred percent convert to demo rate. After that, like you have a much higher like buy-in with whoever was at the dinner, whether it's the head of legal ops or the general counsel, because they understand like you, your story, and they like kind of trust the business versus being just like yet another software vendor. And frankly, it's the same for me when I'm buying like sales tech or developer tools. Like I feel a lot more empowered to like stick with the tool. If like, I feel like I have a relationship with the founder, they slack me. Sometimes we go for coffee.",
+  "zh": "是的。我们很早就发现了这一点，说实话这是通过这种在还没有完美可扩展产品之前就建立社区和品牌的早期战术。比如我们早早就说过，我们想成为一个律师们觉得采购起来安全和放心的地方，因为这是一个非常小的社区。随着 AI 变得越来越容易使用、在销售科技里无处不在，发生的事情就是外呼式销售就是没那么有效了。比如人们被淹没了，对吧？你会收到疯狂的 LinkedIn 消息和邮件。比如连我都会接到我们竞争对手的 AE 和 SDR 打来的电话，因为我注册试用过他们的工具，这实在太好笑了。所以我们意识到的是，对我们来说最好的高 ROI 渠道是那些本质上不带销售味的东西，是那些销售员或 Sandstone 的人与客户比例很低的东西。比如如果我们能做一场10人的晚宴，其中只有两个 Sandstone 的人，那就非常有效。原因是，我们聊的东西不一定和 Sandstone 有关。比如当然有些话题可能会碰到 Sandstone，但总的来说我们只是在聊法律行业在发生什么、他们的工作怎么样、一些通用话题，然后我们在建立关系。第二点是，我们不是桌上唯一的人。比如我们通常会混进一个或两个客户、两三个高优先级潜在客户，然后还有四五个只是来自我们人脉圈的其他人。这让对话自然得多，而且感觉像一个社区。而归根结底它确实就是，对吧。我们想建立一个由买家或者我们市场里的人组成的社区。如果你做一场那样的10人晚宴，有七个潜在客户在场，很难想象他们不会全都和你做一次首次演示。比如如果只看拿到那次演示的话，那几乎是一百 percent 转化为演示率。在那之后，参加了晚宴的人，无论是法务运营负责人还是总法律顾问，对你的认同度会高得多，因为他们理解你、你的故事，他们有点信任这个生意，而不是把你当作又一个软件供应商。坦白说，当我自己在买销售科技或开发者工具时也是一样的。如果我觉得我和创始人有关系，他们会给我发 Slack 消息，有时我们一起喝咖啡，我会更有动力坚持用那个工具。"
+ },
+ {
+  "seg": 78,
+  "start": 2561,
+  "end": 2571,
+  "speaker": "Pablo Srugo",
+  "en": "It's a tension. Like it's the difference in cold and warm. I mean, it's an, it's a massive, massive difference. And the reason aside, like if you become warm versus cold, like it changes everything.",
+  "zh": "这是一种张力。比如就是冷和暖的差别。我是说，这是一个巨大的、巨大的差别。先不论原因，一旦你从冷变成暖，一切都会改变。"
+ },
+ {
+  "seg": 79,
+  "start": 2571,
+  "end": 2627,
+  "speaker": "Nick Fleisher",
+  "en": "So we've even found that it also just changes how we build because we, we get a lot more real insights from, from customers and what's going on in the market. Like we hear their stories of what they're doing. Like we've brought engineers to these dinners and I didn't bring this up. Like our first engineers were also selling, like we just, you'd have them go do sales calls just to see, you know, what they learn. I've had some of these dinners. We did one where like I was so scared. It was like a standing dinner or event, still pretty small. And I remember like being so nervous for 30 minutes of the event, I see like a GC at a big company is like cornered in the room with two of our most junior engineers. And I'm like, what the hell could they be talking about? Like, I might need to go over there and check it out. The engineers like ran out of the event. They're like, we've got something new we need to build. Like this is going to be game changer and we're going to email him a demo of it tomorrow. And I'm like, you can only do that through in person, right? That just would never happen on Zoom. It would only happen if we set up events like that. And those are the kinds of things that like that customer will be a customer for life if we deliver that thing for them.",
+  "zh": "我们甚至发现，这还会改变我们构建产品的方式，因为我们从客户和市场动态中获得多得多的真实洞察。比如我们听到他们在做什么的故事。比如我们带工程师去过这些晚宴，这一点我没提过。比如我们最早的工程师也在卖东西，我们就是会让他们去参加销售电话，只是看看他们学到了什么。我经历过一些这样的晚宴。我们做过一场，比如我当时非常害怕。那是一个固定的晚宴或活动，规模仍然不大。我记得我紧张得要命，活动进行了30分钟时，我看到一个大公司的 GC 被我们两个最资浅的工程师堵在房间角落里。我心想，他们到底在聊什么？比如我可能得过去看看。结果那两个工程师跑出了活动现场。他们说，我们有个新东西要做。比如这会改变游戏规则，我们明天就给他发一个演示。我心想，你只能通过线下做到这一点，对吧？这永远不会在 Zoom 上发生。只有当我们设置这样的活动时它才会发生。而如果我们把那个东西交付给他们，那种客户会成为终身客户。"
+ },
+ {
+  "seg": 80,
+  "start": 2627,
+  "end": 2636,
+  "speaker": "Pablo Srugo",
+  "en": "And so tell me a little bit more about the like, let's say I'm like, okay, you know what? This I'm sold. I want to do this. How do you do it? What's the process for not just running one event, but also then many events?",
+  "zh": "那多跟我讲讲，比如，假如我说，好，你知道，我被说服了。我想做这个。你是怎么做的？不只是办一场活动、而是办很多场活动，流程是什么？"
+ },
+ {
+  "seg": 81,
+  "start": 2636,
+  "end": 2737,
+  "speaker": "Nick Fleisher",
+  "en": "The first one is like, you have to have the right people on your team who know the network loosely well, right? Like our team is maybe 35 people. Now we have 10 lawyers and we have a lot of people who come from the community, like they're ex-legal ops or they, you know, they've been in and around. They know like a baseline of contacts that you can start doing a dinner with. If you're a founder and you've never been in the space before and you just want to start doing a dinner, I would say you have to revert to LinkedIn and like going cold direct outreach. And we've done, I've done a lot of that myself. Like even on this call, I will have agents that have been running and doing outreach to a subset of GCs that like, I don't know yet. You would be surprised at the hit rate on those if you said, hey, I don't want to sell you my product, but I do want to like take your brain on what's going on in the market and run things by you and like just have a nice night. And by the way, there's going to be GCs, whatever your persona is from XYZ types of companies there. You'll get a pretty good response rate on that. And so some of it can be cold outreach. Some of it's just hiring the right people to build the right network. Once you do one or two, you can start to recycle and bring people back into events, right? You ask them to bring a friend, like almost all of these events we ask, hey, bring someone from your legal team or, you know, a friend from another legal team that you think we should need. And that's been super successful for us. So that's kind of how you think about like building the audience and the network of it. One other kind of hack that we found in terms of location is like either partnering with venues where like we build some sort of a long term relationship and deal just because dinners actually can be very expensive over time, especially if you're early stage. The other one is like there's actually like lawyers and GCs that own restaurants and bars and are like super keen to partner on community events. And like that's been a huge lever for us because they don't want to charge you because it's their community as well.",
+  "zh": "第一点是，你的团队里必须有对自己人脉圈大致了解的合适的人，对吧？比如我们的团队现在大概35人。我们有10个律师，而且我们有很多来自这个圈子的人，比如他们是前法务运营，或者他们一直身处这个圈子或周边。他们有一个可以开始办晚宴的联系人基线。如果你是一个创始人、以前从没进过这个圈子、就是想开始办一场晚宴，我会说你得回到 LinkedIn，做冷启动的直接外联。我们自己做过很多，我自己就做过很多。比如即使在这次通话中，我也会有一些智能体在运行，对一部分 GC 做外联，这些 GC 我还不认识。你会惊讶于这种外联的命中率，如果你说，嘿，我不想向你推销我的产品，但我确实想听听你对市场动态的看法，想和你碰碰想法，一起度过一个愉快的夜晚。顺便说一句，会有来自 XYZ 类型公司的 GC，不管你目标画像是什么，都会到场。你会得到相当不错的回复率。所以其中一部分可以是冷外联。另一部分就是雇合适的人来建立合适的网络。一旦你办了一两场，你就可以开始循环利用，把人们带回后续活动，对吧？你请他们带一个朋友，几乎我们所有这些活动都会说，嘿，从你的法务团队带个人来，或者从另一个你觉得我们应该认识的法律团队带个朋友来。这对我们来说非常成功。所以这就是你考虑如何建立受众和网络的思路。另一个我们发现的关于场地的窍门是，要么和场地方合作，比如我们和他们建立某种长期关系和协议，因为晚宴随着时间推移其实可能非常贵，尤其如果你处于早期。另一个是，实际上有些律师和 GC 自己拥有餐厅和酒吧，而且非常热衷于在社区活动上合作。这对我们来说是一个巨大的杠杆，因为他们不想收你钱，因为这也是他们的社区。"
+ },
+ {
+  "seg": 82,
+  "start": 2737,
+  "end": 2743,
+  "speaker": "Pablo Srugo",
+  "en": "And how do you translate from that to a demo like without being, you know, kind of like cringe where it's like, okay, cool. Now check my product out. You know what I mean?",
+  "zh": "那你们怎么从那个场景过渡到演示，而不会显得，你知道，有点尴尬，像是，好吧，不错。现在来看看我的产品吧。你懂我的意思吧？"
+ },
+ {
+  "seg": 83,
+  "start": 2743,
+  "end": 2769,
+  "speaker": "Nick Fleisher",
+  "en": "Honestly, most of the time, like after a natural conversation, these people will say, I would love to see Sandstone and I would love to do a demo. A lot of times it's not even us prompting it. That said, like I will still do a one-on-one message to everyone who came to one of these dinners and say, hey, thanks for coming. If you and your team have time, like I would love to spend 15 minutes walking you through Sandstone. It's very rare that they say no. They usually loop in the head of legal ops or the right person and like we do a demo.",
+  "zh": "说实话，大多数时候，经过一段自然的对话，这些人会说，我很想看看 Sandstone，我很想做一次演示。很多时候甚至不用我们来提。话虽如此，我仍然会给参加了这些晚宴的每个人发一对一的消息，说，嘿，感谢你来。如果你和你的团队有时间，我很乐意花15分钟带你们看看 Sandstone。他们很少说不行。他们通常会拉进法务运营负责人或合适的人，然后我们就做一次演示。"
+ },
+ {
+  "seg": 84,
+  "start": 2769,
+  "end": 2774,
+  "speaker": "Pablo Srugo",
+  "en": "And do you have a full-time person now dedicated to this? Just doing these events because at two or three weeks, it's a decent amount.",
+  "zh": "你们现在有全职的人专门做这件事吗？专门做这些活动，因为每周两三场已经是不少量了。"
+ },
+ {
+  "seg": 85,
+  "start": 2774,
+  "end": 2813,
+  "speaker": "Nick Fleisher",
+  "en": "We do. We have full-time person kind of helping organize and manage them. But I would say it's like kind of on the whole team to be going. Part of the vision is like if we're building a community here, like everyone has to be partaking and like everyone should feel comfortable doing them. And so in terms of like who actually leads and goes to these dinners, we definitely rotate. The other thing is like we also work with some partners. So like in legal, there are a couple of communities that already exist where we can like pay to co-sponsor a dinner with them. And it's a very similar motion, but they just bring more attendees, right? And so we've started to do more and more of those, which means that we manage a little bit less of it. It's just it's lower ROI, right? Because we're spending more up front for potentially less targeted returns on the back end. But it's still very helpful.",
+  "zh": "我们有。我们有全职的人在帮忙组织和管理。但我会说这基本上是全团队的事，大家都要去。我们的愿景有一部分是，如果我们在建立这个社区，每个人都得参与，每个人都应该感到能自如地去做这些事。所以在谁来主导和参加这些晚宴这件事上，我们肯定是轮流的。另一件事是，我们也和一些合作伙伴合作。比如在法律行业，有一些已经存在的社区，我们可以付费和他们共同赞助一场晚宴。动作非常相似，只是他们带来更多出席者，对吧？所以我们开始越来越多地做这种，这意味着我们自己管理的部分少了一些。只是它的 ROI 低一点，对吧？因为我们前期花更多钱，换来的可能是后端不那么精准的回报。但它仍然非常有帮助。"
+ },
+ {
+  "seg": 86,
+  "start": 2813,
+  "end": 2815,
+  "speaker": "Pablo Srugo",
+  "en": "How many customers do you have today?",
+  "zh": "你们现在有多少客户？"
+ },
+ {
+  "seg": 87,
+  "start": 2815,
+  "end": 2823,
+  "speaker": "Nick Fleisher",
+  "en": "Today we work with somewhere in the sort of 50 to 100 range of customers and it's growing every day. And so that's why I give it a range.",
+  "zh": "目前我们合作的客户大概在50到100这个区间，每天都在增长。所以我才给一个区间。"
+ },
+ {
+  "seg": 88,
+  "start": 2823,
+  "end": 2839,
+  "speaker": "Pablo Srugo",
+  "en": "And these are obviously like relatively large companies. You can kind of get a sense of the scale of it all. I'll end with this question that we typically end on. Like what would be your top advice, your most common advice for an early stage founder that's still in that early phase of seeing if they really have product market fit?",
+  "zh": "这些显然都是相对较大的公司。你能大致感受到整个规模的量级。我会用我们通常的收尾问题来结束。比如，对一个还处于早期阶段、还在确认自己是否真的有产品市场契合的早期创始人，你最重要的建议、你最常给的建议是什么？"
+ },
+ {
+  "seg": 89,
+  "start": 2839,
+  "end": 2923,
+  "speaker": "Nick Fleisher",
+  "en": "Yeah, I think the biggest thing to me is spend time with your customers. Like today you can build so fast, right? You can build anything. Like you can completely pivot your entire tech stack, your entire vision overnight. Like go spend time in person with the customers that you want to serve and you will learn so much more about what you should be building. And like that paid us so many dividends and so much return early on. Before we knew what we wanted to do, we just spent time with our customers in person and like learn about their problems. I think most people race to like, hey, I can build the most like interesting, cool, compelling thing. But in a lot of markets, especially vertical, like it doesn't really matter if it's not something that they like really concretely need and want. And so like my push would be just go in person and spend time on the ground. The other piece of advice I would have is like don't hire someone because it's like you're supposed to or it's for the sake of hiring, right? Like after you raise that first seed or pre-seed, like you're expected to go hire a bunch of engineers and like some FDEs and like do that whole motion. Like you should hire people that are like truly, truly the best profile in whatever it is that they're doing. And like you should feel comfortable waiting for that talent to come around. There was an early point after our seed and pre-seed where we waited a while to start building out the engineering team. And part of it was just because we didn't find the best people that we're really excited about. And like it meant a lot more work on us early on and like it was stressful and intense. But like don't hire just because things are stressful and intense. Early on, you want to wait for the best people.",
+  "zh": "是的，对我来说最重要的事情是花时间和你的客户在一起。比如今天你构建东西可以非常快，对吧？你能构建任何东西。比如你可以在一夜之间彻底转向你的整个技术栈、你的整个愿景。比如去和那些你想服务的客户线下花时间，你会学到多得多的关于你应该构建什么的东西。这在早期给我们带来了巨大的红利和回报。在我们还不知道要做什么的时候，我们就是和客户线下花时间，了解他们的问题。我觉得大多数人都在赶着去做，嘿，我能做出最有趣、最酷、最有吸引力的东西。但在很多市场里，尤其是垂直领域，如果那不是他们非常具体地需要和想要的东西，其实并不重要。所以我的推动就是，去线下，去一线花时间。我的另一条建议是，不要因为觉得你「应该」雇人、或者为了招聘而招聘，对吧？比如在你融了那一轮 seed 或 pre-seed 之后，你被期望去雇一堆工程师和一些 FDE，做那一整套动作。你应该雇的人是真正、真正属于他们所做领域中最好画像的人。而且你应该能安心等待那样的人才出现。在我们的 seed 和 pre-seed 之后，有一段时间我们等了很久才开始搭建工程团队。部分原因就是我们没有找到让我们真正兴奋的最佳人选。这意味着早期我们自己的工作量大了非常多，而且很紧张、很煎熬。但不要因为事情紧张煎熬就随便招人。早期，你要等待最好的人。"
+ },
+ {
+  "seg": 90,
+  "start": 2923,
+  "end": 2926,
+  "speaker": "Pablo Srugo",
+  "en": "Nick, it's been an absolute pleasure, man. Appreciate you jumping on the show.",
+  "zh": "Nick，今天真是非常愉快，哥们。感谢你来节目。"
+ },
+ {
+  "seg": 91,
+  "start": 2926,
+  "end": 2928,
+  "speaker": "Nick Fleisher",
+  "en": "This has been fun. I appreciate you having me.",
+  "zh": "这很有意思。感谢你们邀请我。"
+ },
+ {
+  "seg": 92,
+  "start": 2928,
+  "end": 2954.4,
+  "speaker": "Pablo Srugo",
+  "en": "Wow. What an episode. You're probably in awe. You're in absolute shock. You're like that helped me so much. So guess what? Now it's your turn to help someone else. Share the episode in the WhatsApp group you have with founders. Share it on that Slack channel. Send it to your founder friends and help them out. Trust me, they will love you for it. Bye.",
+  "zh": "哇。多么精彩的一期。你可能在惊叹。你可能完全被震撼了。你想着，这对我帮助太大了。那么你猜怎么着？现在轮到你帮别人了。把这一期分享到你和创始人们一起的 WhatsApp 群里。分享到那个 Slack 频道。发给你那些创始人朋友，帮帮他们。相信我，他们会因此爱你的。再见。"
+ }
+]

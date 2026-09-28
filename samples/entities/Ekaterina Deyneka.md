@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":345,"智能体视频剪辑":1,"沙箱":62,"Remotion":1,"技能":22}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":347,"智能体视频剪辑":1,"沙箱":62,"Remotion":1,"技能":22}</script>
 
 <script>
 (function(){

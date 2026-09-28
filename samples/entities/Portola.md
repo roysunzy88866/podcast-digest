@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Portola</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Portola">PO</div><div class="pi"><h1 class="pt">Portola</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Portola">PO</div><div class="pi"><h1 class="pt">Portola</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]]**(01:44起):Quinton 创办的公司,做具身 AI 伴侣 Tolan,过去四周 ARR 从 100 万涨到 400 万
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(01:44起):本集说 Portola 是一家做具身化 AI 伴侣（embodied AI companion）的公司，旗下产品 Tolan 在过去四周 ARR 从 100 万涨到 400 万。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]] — 作为被讨论公司
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Quintin]] · [[Elliot]] · [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]] · [[lore seeds]]
+[[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[评审器]] · [[响应时间]] · [[即兴演员]] · [[Quintin]] · [[设定种子]] · [[Elliot]]
 
-<script type="application/json" class="pd-epn">{"Quintin":1,"Elliot":1,"Tolan":2,"LLM":45,"提示词":17,"记忆":16,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Tolan":3,"LLM":46,"提示词":18,"记忆":17,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"设定种子":1,"Elliot":1}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":3,"智能体":345,"推理模型":3,"护城河":12,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":3,"智能体":347,"推理模型":3,"护城河":12,"标准操作程序":1}</script>
 
 <script>
 (function(){

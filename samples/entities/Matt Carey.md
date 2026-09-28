@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Thomas Ankcorn":1,"Cloudflare":12,"code mode":2,"MCP":62,"智能体":345,"沙箱":62,"可观测性":31,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Thomas Ankcorn":1,"Cloudflare":12,"code mode":2,"MCP":63,"智能体":347,"沙箱":62,"可观测性":32,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chapter One":1,"Tinder":2,"Zarly":1,"Sequoia":5,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":3,"命中率":1,"投资组合构建":2}</script>
+<script type="application/json" class="pd-epn">{"Chapter One":1,"Tinder":2,"Zarly":1,"Sequoia":6,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":3,"命中率":1,"投资组合构建":2}</script>
 
 <script>
 (function(){

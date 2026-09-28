@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":345,"智能体授权":1,"Claude Code":81,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":347,"智能体授权":1,"Claude Code":82,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

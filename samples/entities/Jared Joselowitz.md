@@ -53,7 +53,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Euphonia]] · [[DORA]] · [[智能体]] · [[Matrix]] · [[Patbot]] · [[BevJudge]] · [[模拟]] · [[judge]] · [[提示词优化器]] · [[成本矩阵]]
+[[Euphonia]] · [[DORA]] · [[智能体]] · [[Matrix]] · [[Patbot]] · [[BevJudge]] · [[模拟]] · [[评审器]] · [[提示词优化器]] · [[成本矩阵]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":345,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"judge":2,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":347,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

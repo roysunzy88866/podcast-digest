@@ -1,0 +1,160 @@
+{
+  "title_zh": "Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售",
+  "tldr": "Sandstone 创始人 Nick Fleisher 讲述法务 AI 公司如何在 pre-seed 阶段拿下财富 500 强：设计伙伴筛选法、极早雇 AE、每周两三场晚宴的增长打法。",
+  "digest_md": "这一集聊的是一家法律 AI 公司怎么从零做到几十上百家企业客户——而最反直觉的一点是：还没找到 PMF（产品市场契合），创始人就雇了行业里最顶尖的销售，投人不看融资材料的 Sequoia 也同一天给了支票。说这话的人是 Nick Fleisher，Sandstone 的创始人，刚拿了 3000 万美元 A 轮。Sandstone 做的是给企业法务部门用的 AI 工作管理平台——大概理解成「法务版的 Jira 加 CRM」。\n\n## 第一个 PMF 时刻：客户主动帮你拉引荐\n\nSandstone 还是 pre-seed 时就拿下了一家财富 500 强——对那个阶段的初创公司来说很罕见。部署几周后，团队去现场跟 GC（总法律顾问）和法务团队待在一起，发现对方不只用了最初搭建的那一个团队空间，而是自己建了一打，每个上面挂着几百个工单 [02:14 Nick Fleisher]。真正的信号发生在离开波士顿那场会时：那位 GC 已经主动发出了六七八封给波士顿其他 GC 的引荐，说「这是你们必须用的产品」——引荐不是你要来的，是自己发生的 [02:14 Nick Fleisher]。今天公司业务的很大一部分就是这么来的，因为法律是个非常紧密的圈子，全靠口碑和社区，这是他们最大的增长杠杆 [02:14 Nick Fleisher]。\n\n主持人补了一句很实在的判断：推荐别人是有社交风险的，你只会真心热爱、要么极度好用要么体验惊艳的产品才敢推荐——所以大量推荐是最清晰的早期 PMF 信号之一 [03:55]。\n\n## 产品是怎么长出来的：法务从没有过自己的 Jira\n\nNick 原是工程师，后去 McKinsey，工作恰好全落在法律科技上。转折来自他在 McKinsey 内部的亲身经历：申请一份工作说明书（statement of work），要在 Slack 上找到对的律师、等几天回复、再被转发、10 天后收到一堆问题、回答完再等几天才拿到草稿——好几周的流程，而大部分工作量根本不在最终产出物本身，全在前面的找人、收集上下文 [07:30 Nick Fleisher]。于是 V1 的想法诞生了：在 Slack、Teams 和邮件之上做一个工具，集中接收法务请求（intake）、找到对的律师、用 AI 向业务用户问答收集上下文，然后把准备就绪的工作放到律师桌上 [07:30 Nick Fleisher]。\n\n业余测试时发生了两件出乎意料的事：第一，人们开始拿它单纯地跟踪和管理工作——法务团队从来没有过属于自己的 Jira 或 Linear；第二，他们也没有 CRM，没有统一管理上下文的地方。产品因此从「intake 前门」扩展成「法务上下文引擎」：集成 Slack、Teams、Drive、SharePoint 的数据，当一份销售协议落到你桌上，它知道对手方的一切、上一轮谈判是谁做的、结果如何 [10:39 Nick Fleisher]。\n\n为什么法务一直没有这套东西？Nick 的解释：律所侧是合伙人各自经营生意，很难统一到一套系统；企业法务侧则历来是后台职能、只是其他部门软件的被动接受者。2000 年代长出来的合同生命周期管理（CLM）算「法务 CRM 的 V1」，但它只看已签署的合同、只是数据的一个时点快照——法务做的远不止合同，而 AI 需要的是完整的上下文。Sandstone 自我定位是 CLM 的第二波浪潮 [11:55 Nick Fleisher]。\n\n只做内部法务（in-house）、不做律所，也是刻意选择：律所通过创新负责人容易进门，但要规模化使用得对着每个合伙人挨个攻，太难扩展；而 in-house 市场更大，且公司里所有重要的事——销售、采购、雇人裁人——都会经过法律，这个上下文层是切入更广企业业务的楔子 [13:33 Nick Fleisher]。\n\n## 融资：不带 deck，带着「我们太忙了」去见 Sequoia\n\n辞职的时点判断很简单：有五六家公司在用，服务不过来了。McKinsey 离职时有带薪休假找工作的政策，Nick 用这段时间全职做产品——辞职当天就从 Sequoia 拿到了 pre-seed（pre-seed 与 seed 合计 1000 万美元）[17:07 Nick Fleisher]。\n\n能这么快，是因为他根本没做 deck。他带着录下来的客户视频直接进会议室演示：「这就是我们需要融资的原因——我们太忙了。」[17:07 Nick Fleisher]\n\n而认识 Sequoia 的路径也很绕：他在 McKinsey 期间想回初创圈，通过 Sequoia 某人 networking、面试了一堆 portfolio 公司，其中一家以色列网络安全公司差点让他入职。对方的「最后一招」是让他去跟 Sequoia 合伙人 Bogomil 喝一杯，想说服他加入——结果两人聊了两小时法律，他顺手展示了业余项目，最终升级成融资会议。一份求职申请变成了融资 [18:21 Nick Fleisher]。\n\n对「我就想从 Sequoia 融资」的人，Nick 的建议：第一，别只盯着 Sequoia，很多机构同样有帮助；第二，找到那个你会跟他建立关系的合伙人——「Sequoia 投资我们，其实是 Bogomil 在投资我们」；第三，seed/pre-seed 阶段完全看创始人，因为想法可能彻底变掉，合伙人真正问的是「这是不是一个我想为之工作的人」[19:54 Nick Fleisher]。\n\n## 设计伙伴：敢「开除」不合市场的客户\n\n早期设计伙伴大多免费，但约定用两三个月、围绕用例共建、每周例会加共享 Slack 频道、承诺每周一小时——这套做法现在对大部分付费客户仍在沿用 [23:32 Nick Fleisher]。最关键的一条：必须当面。没有当面拜访，这些设计伙伴一个都拿不到——「隔着 Zoom 做这种事就是不可能的，他们买的是我们，不是演示」[23:52 Nick Fleisher]。\n\n最大的坑是对一切说 yes。尤其在法律行业，总有公司拿一个别的公司都没有的随机工作流程要你打磨。Nick 的对策：每条反馈都追问「能不能找出五六个真正有这个问题的其他客户」，论证不出就砍——他们真的「开除」过早期设计伙伴，理由是「你们的问题跟市场对齐度不够」[25:53 Nick Fleisher]。\n\n当面还直接塑造了产品：看到法务团队的 Slack 私信未读比任何群频道都密集——人们习惯找最熟的律师——才投入做了私信 intake；看到有人把协议从采购工具 Coupa 拖出来、放进 Sandstone 处理、再拖回去，才做了 Coupa 集成，现在每月支撑数万份合同。Nick 的总结：客户自己还不知道「可能性」在哪，你必须看他们的工作流真实发生——远程销售也让客户共享屏幕 [28:02 Nick Fleisher]。\n\n## 没 PMF 就雇顶配 AE：他要的是「PMF 寻找者」\n\npre-seed 一到账，Nick 就雇了工程师和一个 AE——投资人几乎都反对：还没有 PMF 为什么雇销售？他的理由：这个 AE 不是来冲配额的，他的工作是当「产品市场契合寻找者」——拿着从五个设计伙伴学到的东西，每周给 100 个客户做演示，验证产品到底能不能引起市场共鸣 [30:20 Nick Fleisher]。\n\n这也是个人驱动的决定：此人是过去两年法律科技排名第一的销售，在一个产品很糟的老旧合同管理工具上每年卖出 1000 万美元，认识市场里所有人——连 Nick 约不到的首席法务官，他都能约上会。「我雇不起不雇他的代价。」[31:21 Nick Fleisher] Nick 自己仍然做所有销售电话、拿下所有交易，AE 是放大火力的延伸：他做漏斗顶端、需求挖掘、办红酒晚宴攒社区，深度阶段再拉 Nick 和 Jared 进来 [32:21 Nick Fleisher]。加入第一周，他就在午餐桌上签下一份预付五年的合同——秘诀之一是「你随时打我电话，我任何时刻都接」；那位 GC 半夜两三点真打了，是个测试，他接了 [33:13 Nick Fleisher]。\n\n怎么吸引顶配 AE 放弃百万年薪来一家产品还没做成的公司？股权之外，是角色的不同：不只卖东西，还参与客户经营和方向规划。Oliver 本人还自掏腰包投了这家公司——Nick 观察到这是新画像：早期销售负责人同时是投资人（他提到 11 Labs 也有类似情况）[35:47 Nick Fleisher]。回报是明确的：出隐身模式时已有 1000 万到 1500 万美元的预热管线、几百场演示做完；而且战术全部验证过，进入增长曲线时不用重新试水 [33:44 Nick Fleisher]。\n\n配套的经验法则是 ACV（单客户年收入）：财富 500 强 50 万到 100 万美元，10 到 30 人的法务团队 5 万到 10 万。低于 3 万美元的单子不值得飞过去当面谈——除非是极亮眼的 logo，那笔 2 万的单子能带来几百万的管线 [38:45 Nick Fleisher]。他还认为顶级销售正变得更可扩展，反而很难相信会去雇一堆 SDR（外呼开发代表）：一位财富 50 强买家原话是被 LinkedIn 消息和电话淹没了，「我需要真正来这儿、跟我这个真人建立关系的人」[38:07 Nick Fleisher]。\n\n## 每周两三场晚宴：几乎 100% 转化为演示\n\nAI 让外呼式销售全面失效，人们被 LinkedIn 消息和邮件淹没——连 Nick 自己都接竞争对手的推销电话，因为他注册试用过对方的工具。所以 Sandstone 押注的是本质不带销售味的渠道：10 人晚宴里只放两个 Sandstone 的人，桌上混一两个客户、两三个高优先级潜在客户、四五个人脉圈的朋友。聊的是行业动态而不是产品，但一场七个潜在客户在场的晚宴，几乎 100% 都会做首次演示——因为参加会议的人理解你、你的故事，信任这门生意，而不是把你当又一个软件供应商 [40:32 Nick Fleisher]。\n\n晚宴还会反哺产品：Nick 带最资浅的工程师去，亲眼看到一位大公司 GC 被两个工程师堵在角落聊了半小时，工程师跑出来说「我们有个新东西要做，明天就给他发演示」——这种事永远不会发生在 Zoom 上，而交付了它，那个客户就是终身客户 [42:51 Nick Fleisher]。\n\n打法本身：需要团队里有懂这个人脉的人（他们 35 人团队里有 10 个律师、很多前法务运营出身）；没有的话就冷外联，话术是「我不推销产品，只想听听你对市场的看法，顺便过个愉快的夜晚」——命中率出奇地好；办过一两场后请每位带个朋友来滚动扩大；场地则靠长期协议，尤其一个窍门——很多律师和 GC 自己开餐厅酒吧，热衷于赞助社区活动、不收你钱 [43:56 Nick Fleisher]。转演示不需要硬推销：大多数人聊完自己会说想看 Sandstone；Nick 仍会一对一补一条消息约 15 分钟演示，很少有人拒绝 [45:43 Nick Fleisher]。现在有全职人员组织，但全员轮流参加；也与现有法律社区付费共办晚宴——ROI 低一点但仍有帮助。目前客户在 50 到 100 家之间，每天都在增长 [46:14 Nick Fleisher]。\n\n## 本集带走\n\n- **PMF 的最硬信号是「没开口的引荐」**：客户愿意押上自己的声誉给同行发邮件说「你必须用这个」，比任何使用数据都可靠。\n- **设计伙伴每条反馈都问「还有谁有这个问题」**：找不出五六个有同样问题的客户就不做；问题与市场不对齐的客户直接「开除」。\n- **融资可以不带 deck**：带着客户视频、演示和「我们太忙了」进会议室，比精心准备的花哨页面有说服力得多。\n- **极早雇 AE 是一场人驱动赌注**：标准只有一个——此人是不是市场上最顶尖的；他的工作不是冲配额，而是每周 100 场演示验证 PMF。\n- **当面是一切的前提**：赢单率显著更高；私信 intake、Coupa 集成这些关键产品决策全部来自坐在客户旁边看工作流真实发生。\n- **晚宴公式：10 人里只放 2 个自己人**：混入客户和潜在客户，聊行业不聊产品；几乎 100% 转化为演示，场地可以找律师老板免费赞助。\n- **不要为了招聘而招聘**：融完资别急着雇一堆工程师，宁肯自己多扛、压力再大，也等真正最顶尖的人出现。",
+  "quotes": [
+    {
+      "en": "We quit and basically the same day raised our pre-seed from Sequoia.",
+      "zh": "我们辞职了，基本上同一天就从 Sequoia 融了 pre-seed。",
+      "timestamp": "00:07",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "when you're not even going to them asking for the intros, it's just happening. Right. That's like real PMF to some extent.",
+      "zh": "当你都不用去找他们要引荐，它就是自然而然发生的。对吧。这在某种程度上就是真的 PMF。",
+      "timestamp": "03:15",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "we're just a context engine or a CRM for the legal department.",
+      "zh": "我们实际上就是一个上下文引擎，或者说法务部门的 CRM。",
+      "timestamp": "11:10",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "going to the VCs without a deck and going to them with a demo and like customer problems is like way more compelling and way more natural",
+      "zh": "不带 deck 去见 VC、带着演示和客户问题去见他们，有说服力得多，也自然得多",
+      "timestamp": "21:18",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "The worst mistake you can make there is just saying yes and doing everything that someone asks of you, right?",
+      "zh": "在那里你能犯的最糟糕的错误就是只会说好，然后照单全收别人要求你做的一切，对吧？",
+      "timestamp": "25:53",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "Most were like, why the hell are you hiring a salesperson when you arguably don't have PMF yet? And my justification is he was a product market fit finder.",
+      "zh": "大多数人的反应是，你们明明还没到 PMF，为什么非要雇一个销售？而我的理由是，他是一个「产品市场契合寻找者」。",
+      "timestamp": "00:43",
+      "speaker": "Nick Fleisher"
+    },
+    {
+      "en": "I struggle to believe that we're going to go hire a bunch of SDRs, especially in our market.",
+      "zh": "我很难相信我们会去雇一堆 SDR，尤其是在我们的市场。",
+      "timestamp": "38:11",
+      "speaker": "Nick Fleisher"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Nick Fleisher",
+      "en": "We quit and basically the same day raised our pre-seed from Sequoia.",
+      "zh": "我们辞职了，基本上同一天就从 Sequoia 融了 pre-seed。"
+    },
+    {
+      "timestamp": "02:14",
+      "speaker": "Nick Fleisher",
+      "en": "when you're not even going to them asking for the intros, it's just happening. Right. That's like real PMF to some extent.",
+      "zh": "当你都不用去找他们要引荐，它就是自然而然发生的。对吧。这在某种程度上就是真的 PMF。"
+    },
+    {
+      "timestamp": "02:14",
+      "speaker": "Nick Fleisher",
+      "en": "If they're willing to like put their reputation on the line and email someone and say, hey, you need to be using this.",
+      "zh": "如果他们愿意把自己的声誉押上去，给某人发邮件说，嘿，你必须用这个。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Nick Fleisher",
+      "en": "we're just a context engine or a CRM for the legal department.",
+      "zh": "我们实际上就是一个上下文引擎，或者说法务部门的 CRM。"
+    },
+    {
+      "timestamp": "11:55",
+      "speaker": "Nick Fleisher",
+      "en": "we kind of think of like what we're building now, this legal relationship management tool as like the second wave of contract lifecycle management.",
+      "zh": "我们某种程度上把我们现在正在构建的这个法务关系管理工具，看作合同生命周期管理的第二波浪潮。"
+    },
+    {
+      "timestamp": "17:07",
+      "speaker": "Nick Fleisher",
+      "en": "we kind of took these videos like we didn't have a deck. We just went in, we demoed.",
+      "zh": "我们大概就是拿了这些视频，我们没有 deck。我们就直接进去，做了演示。"
+    },
+    {
+      "timestamp": "19:54",
+      "speaker": "Nick Fleisher",
+      "en": "as much as Sequoia invested in us, like it was really Bogomil investing in us, right?",
+      "zh": "Sequoia 投资我们，其实很大程度上是 Bogomil 在投资我们，对吧？"
+    },
+    {
+      "timestamp": "19:54",
+      "speaker": "Nick Fleisher",
+      "en": "going to the VCs without a deck and going to them with a demo and like customer problems is like way more compelling and way more natural",
+      "zh": "不带 deck 去见 VC、带着演示和客户问题去见他们，有说服力得多，也自然得多"
+    },
+    {
+      "timestamp": "25:53",
+      "speaker": "Nick Fleisher",
+      "en": "The worst mistake you can make there is just saying yes and doing everything that someone asks of you, right?",
+      "zh": "在那里你能犯的最糟糕的错误就是只会说好，然后照单全收别人要求你做的一切，对吧？"
+    },
+    {
+      "timestamp": "26:43",
+      "speaker": "Nick Fleisher",
+      "en": "if you look at our win rates and our close rates, they are significantly higher in person by a long shot.",
+      "zh": "如果你看我们的赢单率和成交率，当面显著高得多，遥遥领先。"
+    },
+    {
+      "timestamp": "30:20",
+      "speaker": "Nick Fleisher",
+      "en": "Most were like, why the hell are you hiring a salesperson when you arguably don't have PMF yet? And my justification is he was a product market fit finder.",
+      "zh": "大多数人的反应是，你们明明还没到 PMF，为什么非要雇一个销售？而我的理由是，他是一个「产品市场契合寻找者」。"
+    },
+    {
+      "timestamp": "31:21",
+      "speaker": "Nick Fleisher",
+      "en": "he sold $10 million each year at a legacy contract management tool with a terrible product.",
+      "zh": "他在一个产品很糟糕的老旧合同管理工具上每年卖出 1000 万美元。"
+    },
+    {
+      "timestamp": "33:13",
+      "speaker": "Nick Fleisher",
+      "en": "you can call me whenever you want. Like, I will pick up the phone at any moment.",
+      "zh": "你随时可以给我打电话。我任何时刻都会接电话。"
+    },
+    {
+      "timestamp": "35:47",
+      "speaker": "Nick Fleisher",
+      "en": "like you see it at 11 Labs and some of these other companies where like either the early sales lead or like VP of sales is an investor as well",
+      "zh": "比如你在 11 Labs 和其他一些公司能看到，早期销售负责人或者销售 VP 同时也是投资人"
+    },
+    {
+      "timestamp": "38:07",
+      "speaker": "Nick Fleisher",
+      "en": "I struggle to believe that we're going to go hire a bunch of SDRs, especially in our market.",
+      "zh": "我很难相信我们会去雇一堆 SDR，尤其是在我们的市场。"
+    },
+    {
+      "timestamp": "40:32",
+      "speaker": "Nick Fleisher",
+      "en": "Like if we can do a 10 person dinner with two Sandstone people there, it's very effective.",
+      "zh": "比如如果我们能做一场 10 人的晚宴，其中只有两个 Sandstone 的人，那就非常有效。"
+    },
+    {
+      "timestamp": "40:32",
+      "speaker": "Nick Fleisher",
+      "en": "it is very hard to imagine that they don't all do a first demo with you.",
+      "zh": "很难想象他们不会全都和你做一次首次演示。"
+    },
+    {
+      "timestamp": "47:19",
+      "speaker": "Nick Fleisher",
+      "en": "don't hire someone because it's like you're supposed to or it's for the sake of hiring, right?",
+      "zh": "不要因为觉得你「应该」雇人、或者为了招聘而招聘，对吧？"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Nick Fleisher，Sandstone 的创始人。Sandstone 是一家法律 AI 公司，做的是给企业法务部门用的工作管理平台，你可以理解成法务版的 Jira 加 CRM。这家公司刚拿了 3000 万美元的 A 轮，但真正让人好奇的是更早的事：还在 pre-seed 阶段，它就拿下了财富 500 强客户，连不太看融资材料的 Sequoia 也同一天给了支票。更反直觉的是，产品还没找到 PMF——也就是还没验证市场真的吃这一套——创始人就雇了行业里最顶尖的销售。这一期，就是把这几件不合常理的事，一件一件讲明白。\n\n先说这个产品是怎么长出来的。Nick 原来是工程师，后来去了 McKinsey，工作正好全落在法律科技上。转折来自一段亲身经历：在 McKinsey 申请一份工作说明书，得在 Slack 上找到对的律师，等几天回复，再被转发，十天后收到一堆问题，回答完还得再等几天才拿到草稿——好几周的流程，而大部分工作量根本不在最终产出上，全耗在前面的找人、收集上下文。于是第一版产品的想法就出来了：在 Slack、Teams 和邮件之上做一个工具，集中接收法务请求，找到对的律师，用 AI 向业务方问答、把上下文收集齐，再把准备就绪的活儿放到律师桌上。\n\n业余测试的时候发生了两件出乎意料的事。第一，人们开始拿它单纯地跟踪和管理工作——法务团队从来没有过属于自己的 Jira。第二，他们也没有 CRM，没有一个统一管理上下文的地方。产品因此从「前门」扩展成一个法务上下文引擎：集成 Slack、Drive、SharePoint 这些数据，当一份销售协议落到你桌上，它知道对手方的一切，上一轮谈判是谁做的、结果如何。为什么法务一直没有这套东西？解释是：律所侧合伙人各自经营生意，很难统一到一套系统；企业法务侧又历来是后台职能，只是别人软件的被动接受者。早年长出来的合同生命周期管理，算这个方向的 V1，但它只看已签署的合同，只是一个数据快照——而 AI 需要的是完整的上下文。Sandstone 自我定位，就是这件事的第二波浪潮。\n\n好，产品有了，客户怎么来的？这里藏着这一集最硬的一个观点。Sandstone 还在 pre-seed 时拿下了一家财富 500 强，部署几周后，团队去现场跟法务团队待在一起，发现对方不只用了最初搭的那一个空间，而是自己建了一打，每个上面挂着几百个工单。但真正的信号发生在离开波士顿那场会时：那位总法律顾问，已经主动发出了六七八封引荐，给波士顿其他公司的法务负责人，说这是你们必须用的产品。引荐不是要来的，是自己发生的。主持人补了一句很实在的判断：推荐别人是有社交风险的，你只会真心热爱、好用到敢押上自己声誉的产品才敢推荐——所以大量主动引荐，是最清晰的早期 PMF 信号。今天公司业务的很大一部分，就是这么来的，因为法律是个非常紧密的圈子，全靠口碑。\n\n那融资是怎么回事？辞职那天，Sandstone 就从 Sequoia 拿到了 pre-seed，加上后来 seed 一共一千万美元。能这么快，是因为 Nick 根本没做 deck，带着录下来的客户视频直接进会议室演示，理由就一句话：我们太忙了，忙到需要融资。而认识 Sequoia 的路径更绕：在 McKinsey 期间想回初创圈，通过 networking 面了一堆被投公司，其中一家差点入职，对方最后一招是安排跟 Sequoia 合伙人 Bogomil 喝一杯，想劝他加入——结果两人聊了两小时法律，顺手展示了业余项目，最后升级成融资会议。一份求职申请，变成了一笔融资。给想从 Sequoia 融资的人，建议有三条：别只盯着一家机构；找到那个你会建立关系的合伙人——说到底，是 Bogomil 在投资这家公司；还有，seed 阶段完全看创始人，因为想法可能彻底变掉，投资人真正问的是，这是不是一个我愿意为之工作的人。\n\n接下来是最反直觉的一件事：pre-seed 一到账，Nick 就雇了一个 AE，也就是企业销售。投资人几乎都反对：还没 PMF，为什么雇销售？理由是，这个 AE 不是来冲配额的，工作是当「产品市场契合寻找者」——拿着从五个设计伙伴学到的东西，每周给一百个客户做演示，验证产品到底能不能引起市场共鸣。而且这是个人驱动的决定：此人是过去两年法律科技排名第一的销售，在一个产品很糟的老旧工具上每年卖出一千万美元，认识市场里所有人，连创始人约不到的首席法务官，都能约上会。用 Nick 的原话说，我雇不起不雇的代价。效果也立竿见影：加入第一周，就在午餐桌上签下一份预付五年的合同。秘诀之一是「你随时打我电话，我任何时刻都接」——那位总法律顾问半夜两三点真打了，是个测试，接了。\n\n当然，敢这么早投人，背后还有一套扎实的打法，核心两个字：当面。早期设计伙伴大多免费，但约定用两三个月、每周例会加共享频道、承诺每周一小时——而最关键的一条是必须当面拜访，隔着 Zoom 这种事就是不可能的，客户买的是人，不是演示。当面还直接塑造了产品：看到法务团队的 Slack 私信比任何群频道都密集，才做了私信接收；看到有人把协议从采购工具里拖出来、处理完再拖回去，才做了那个集成，现在每月支撑数万份合同。最大的坑，是对一切说 yes——尤其在法律行业，总有公司拿一个别人都没有的随机流程要你打磨。对策是每条反馈都追问：能不能找出五六个真正有这个问题的其他客户？论证不出就砍，甚至真的「开除」过设计伙伴，理由是问题跟市场对齐度不够。\n\n最后是增长渠道。AI 让外呼式销售全面失效，人们被 LinkedIn 消息淹没。Sandstone 押注的是几乎不带销售味的打法：晚宴。十个人的桌上，只放两个自己人，混一两个客户、两三个高优先级潜在客户、四五个人脉圈的朋友，聊行业不聊产品。但一场七个潜在客户在场的晚宴，几乎百分之百都会转化为首次演示——因为到场的人理解你的故事，信任这门生意，而不是把你当又一个软件供应商。场地还有个窍门：很多律师和总法律顾问自己开餐厅开酒吧，热衷赞助社区活动，不收钱。目前客户在五十到一百家之间，每天都在增长。\n\n回头看，这一集讲的所有事，其实都指向同一个信号：真正的市场验证，不是你说了什么，而是客户愿不愿意押上自己的声誉替你说话——当你都不用开口去要，引荐就自然而然发生了。这才是真的 PMF。"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-09-28-iltb-noah-shinn-building-instinct-the-persona",
+  "audio_mp3": "https://traffic.megaphone.fm/CLS4620503535.mp3",
+  "duration_sec": 5190.047,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 972,
+  "asr": true,
+  "title_en": "Noah Shinn - Building Instinct: The Personal Agent - [Invest Like the Best, EP.493]",
+  "podcast": "Invest Like the Best",
+  "date": "2026-09-28",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/72db537c-bb24-11f1-805d-739c8a3d8d83/image/30616f876dbb8b52f0b0d4eb64b4806c.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-09-29",
+  "added_at": "2026-09-28T20:33:51.078Z",
+  "speaker_map": {
+    "SPEAKER_02": "Noah Shinn"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Noah Shinn",
+  "cohosts": [],
+  "title_zh": "个人助理 Instinct:零界面、十亿美元交易与每天10%的增长",
+  "guest_name": "Noah Shinn",
+  "guest_title": "Instinct 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/72db537c-bb24-11f1-805d-739c8a3d8d83/image/30616f876dbb8b52f0b0d4eb64b4806c.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-09-28T21:57:18.857Z"
+  }
+}

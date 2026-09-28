@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]]
+[[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":5,"POC 流程":1,"产品市场契合":22,"执行发起人":1,"solo founder":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"POC 流程":1,"产品市场契合":23,"执行发起人":1,"solo founder":1,"ICP":3}</script>
 
 <script>
 (function(){

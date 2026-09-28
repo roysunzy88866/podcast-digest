@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":345,"子智能体":3,"harness":46,"提示词缓存":3,"记忆":16,"评估":3,"LLM 当裁判":9,"沙箱":62,"人在回路":17}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":347,"子智能体":3,"harness":46,"提示词缓存":3,"记忆":17,"评估":3,"LLM 当裁判":9,"沙箱":62,"人在回路":17}</script>
 
 <script>
 (function(){

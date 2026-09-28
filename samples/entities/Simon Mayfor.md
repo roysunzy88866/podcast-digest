@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":345,"上下文工程":15,"规范":2,"计划":1,"代码审查":17,"垃圾话":5,"Human Layer":1,"技能":22}</script>
+<script type="application/json" class="pd-epn">{"Dex Horthy":1,"软件工厂":7,"智能体":347,"上下文工程":15,"规范":2,"计划":1,"代码审查":17,"垃圾话":5,"Human Layer":1,"技能":22}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":7,"评估":3,"基准测试":15,"智能体":345,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":81,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":7,"评估":3,"基准测试":15,"智能体":347,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":82,"Kiro":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1594 @@
+[
+ {
+  "seg": 0,
+  "start": 13.312,
+  "end": 15.356,
+  "speaker": "Unknown",
+  "en": "Great, thanks everyone for coming.",
+  "zh": "好的,感谢大家前来。"
+ },
+ {
+  "seg": 1,
+  "start": 15.436,
+  "end": 17.661,
+  "speaker": "Unknown",
+  "en": "This talk is called Tethered, Our Agents Are Us.",
+  "zh": "这次演讲的题目是《Tethered,Our Agents Are Us》。"
+ },
+ {
+  "seg": 2,
+  "start": 18.102,
+  "end": 21.93,
+  "speaker": "Unknown",
+  "en": "I'm Xu Fang from Two Sigma, and let's get started.",
+  "zh": "我是 Two Sigma 的 Xu Fang,我们开始吧。"
+ },
+ {
+  "seg": 3,
+  "start": 23.172,
+  "end": 24.274,
+  "speaker": "Unknown",
+  "en": "So just a quick.",
+  "zh": "那么先简单"
+ },
+ {
+  "seg": 4,
+  "start": 25.46,
+  "end": 27.401,
+  "speaker": "Unknown",
+  "en": "Explanation, two sigma is a little quant fund.",
+  "zh": "解释一下,Two Sigma 是一个小型量化基金。"
+ },
+ {
+  "seg": 5,
+  "start": 28.022,
+  "end": 43.17,
+  "speaker": "Unknown",
+  "en": "I will also take the opportunity to explain that the name ostensibly is not because we have two co-founders who are very online, but because the two sigmas are about the volatility sigma, the small sigma, and the large sigma sum.",
+  "zh": "我也借这个机会说明一下,这个名字表面上并不是因为我们有两位非常线上的联合创始人,而是因为两个 sigma 指的是波动率 sigma,即小 sigma 与大 sigma 之和。"
+ },
+ {
+  "seg": 6,
+  "start": 43.731,
+  "end": 50.635,
+  "speaker": "Unknown",
+  "en": "So by summing together these individual volatilities, we can hedge the risk, achieve differentiated alpha.",
+  "zh": "通过把这些单个波动率加总起来,我们可以对冲风险,实现差异化的 alpha。"
+ },
+ {
+  "seg": 7,
+  "start": 52.667,
+  "end": 56.851,
+  "speaker": "Unknown",
+  "en": "Now, because we are a hedge fund, I have to give you all this important legal disclaimer.",
+  "zh": "现在,因为我们是一家对冲基金,我必须给大家念这段重要的法律免责声明。"
+ },
+ {
+  "seg": 8,
+  "start": 56.891,
+  "end": 57.652,
+  "speaker": "Unknown",
+  "en": "You don't have to read it.",
+  "zh": "大家不用读。"
+ },
+ {
+  "seg": 9,
+  "start": 57.772,
+  "end": 58.673,
+  "speaker": "Unknown",
+  "en": "It just has to be in this.",
+  "zh": "它只是必须出现在这里。"
+ },
+ {
+  "seg": 10,
+  "start": 59.353,
+  "end": 62.876,
+  "speaker": "Unknown",
+  "en": "And the TLDR is that I'm not trying to sell you on anything.",
+  "zh": "TLDR 就是,我不是在向你们推销任何东西。"
+ },
+ {
+  "seg": 11,
+  "start": 63.237,
+  "end": 65.999,
+  "speaker": "Unknown",
+  "en": "The views are mine and not necessarily the company's.",
+  "zh": "这些观点是我个人的,不一定是公司的。"
+ },
+ {
+  "seg": 12,
+  "start": 66.48,
+  "end": 73.326,
+  "speaker": "Unknown",
+  "en": "Any logos, any other companies I mentioned here are not me endorsing them or telling you to buy their stocks or anything.",
+  "zh": "这里提到的任何 logo、任何其他公司,都不是我在为它们背书或让你们买它们的股票之类的。"
+ },
+ {
+  "seg": 13,
+  "start": 73.346,
+  "end": 75.448,
+  "speaker": "Unknown",
+  "en": "It is purely maybe coincidental.",
+  "zh": "这纯属——也许是巧合。"
+ },
+ {
+  "seg": 14,
+  "start": 77.76,
+  "end": 82.804,
+  "speaker": "Unknown",
+  "en": "But that also is meant to segue into the fact that we are an old company.",
+  "zh": "但这也是为了引出一个事实,那就是我们是一家老公司。"
+ },
+ {
+  "seg": 15,
+  "start": 82.824,
+  "end": 83.644,
+  "speaker": "Unknown",
+  "en": "We're 25 years old.",
+  "zh": "我们有 25 年历史了。"
+ },
+ {
+  "seg": 16,
+  "start": 84.405,
+  "end": 87.027,
+  "speaker": "Unknown",
+  "en": "And clearly, we're a very regulated industry.",
+  "zh": "而且,我们显然是一个受严格监管的行业。"
+ },
+ {
+  "seg": 17,
+  "start": 87.748,
+  "end": 93.872,
+  "speaker": "Unknown",
+  "en": "But we've managed to run an ecosystem where everyone at the company has a cloud agent.",
+  "zh": "但我们成功运营了一个生态系统,公司里的每个人都拥有一个云端智能体。"
+ },
+ {
+  "seg": 18,
+  "start": 94.713,
+  "end": 97.255,
+  "speaker": "Unknown",
+  "en": "And not only that, but these agents run as their own identity.",
+  "zh": "不仅如此,这些智能体还以它们自己的身份运行。"
+ },
+ {
+  "seg": 19,
+  "start": 98.035,
+  "end": 101.238,
+  "speaker": "Unknown",
+  "en": "So we're going to explain how we got here and why we're actually OK with this.",
+  "zh": "我们要解释我们是如何走到这一步的,以及为什么我们实际上对此感到没问题。"
+ },
+ {
+  "seg": 20,
+  "start": 104.122,
+  "end": 106.463,
+  "speaker": "Unknown",
+  "en": "So we're first going to do a little horror movie review.",
+  "zh": "那么我们先做一点恐怖电影回顾。"
+ },
+ {
+  "seg": 21,
+  "start": 106.603,
+  "end": 109.364,
+  "speaker": "Unknown",
+  "en": "If any of you have seen us, you don't have to pay attention to this.",
+  "zh": "如果你们有人看过这部电影,可以不用听这部分。"
+ },
+ {
+  "seg": 22,
+  "start": 109.424,
+  "end": 117.647,
+  "speaker": "Unknown",
+  "en": "If any of you haven't, the TLDR of the movie is that everyone has these doubles, and these doubles are called tethered.",
+  "zh": "如果你们有人没看过,这部电影的 TLDR 是,每个人都有这些分身,这些分身被称为 tethered。"
+ },
+ {
+  "seg": 23,
+  "start": 118.187,
+  "end": 125.39,
+  "speaker": "Unknown",
+  "en": "When the doubles decide to run loose and cause chaos and run around with these golden scissors, they're called untethered.",
+  "zh": "当这些分身决定挣脱束缚、四处作乱、拿着那把金色剪刀到处跑时,它们就被称为 untethered。"
+ },
+ {
+  "seg": 24,
+  "start": 125.85,
+  "end": 127.851,
+  "speaker": "Unknown",
+  "en": "And this is going to somehow relate into my talk.",
+  "zh": "而这会以某种方式与我的演讲关联起来。"
+ },
+ {
+  "seg": 25,
+  "start": 130.413,
+  "end": 145.197,
+  "speaker": "Unknown",
+  "en": "So back in June 2025, you know, Claude Code GA and all that stuff, people started using agents through the local computer, your local machine, and it's very powerful, but one, it was CLI-constrained, and two, it was localized, right?",
+  "zh": "回到 2025 年 6 月,你知道的,Claude Code GA 之类的,人们开始通过本地计算机、本地机器使用智能体,这非常强大,但第一,它受限于 CLI,第二,它是本地化的,对吧?"
+ },
+ {
+  "seg": 26,
+  "start": 145.777,
+  "end": 155.34,
+  "speaker": "Unknown",
+  "en": "We wanted to achieve a world where people could use these agents from wherever they were, whether it be mobile, through Slack, through browsers, but still have",
+  "zh": "我们想实现这样一个世界:人们无论在哪里都能使用这些智能体,无论是通过移动端、通过 Slack、通过浏览器,但仍然能够"
+ },
+ {
+  "seg": 27,
+  "start": 156.215,
+  "end": 157.676,
+  "speaker": "Unknown",
+  "en": "The ability to run them remote.",
+  "zh": "远程运行它们。"
+ },
+ {
+  "seg": 28,
+  "start": 158.357,
+  "end": 167.163,
+  "speaker": "Unknown",
+  "en": "And this is important not just because of the capability, but many, many people, technical or not, are not comfortable fully operating within a CLI.",
+  "zh": "这一点很重要,不仅是因为能力问题,还因为很多很多人,无论是否懂技术,都不习惯完全在 CLI 中操作。"
+ },
+ {
+  "seg": 29,
+  "start": 168.144,
+  "end": 173.047,
+  "speaker": "Unknown",
+  "en": "So the question became, how do we actually run these in terms of what identity they run as?",
+  "zh": "于是问题变成了:我们究竟该如何运行它们,即它们以什么身份运行?"
+ },
+ {
+  "seg": 30,
+  "start": 175.589,
+  "end": 181.994,
+  "speaker": "Unknown",
+  "en": "The conventional wisdom is that you run these as some machine identity that is attached to your user in some way.",
+  "zh": "常规做法是,你以某种机器身份来运行它们,这个身份以某种方式关联到你的用户。"
+ },
+ {
+  "seg": 31,
+  "start": 182.094,
+  "end": 184.016,
+  "speaker": "Unknown",
+  "en": "You have a shoe and you have a shoe agent.",
+  "zh": "你有一个用户,你有一个该用户的智能体。"
+ },
+ {
+  "seg": 32,
+  "start": 184.97,
+  "end": 190.674,
+  "speaker": "Unknown",
+  "en": "But this quickly collapses, and we found this collapsed because of all the reasons that you can imagine, right?",
+  "zh": "但这很快就会崩溃,我们发现它崩溃的原因大家可以想见,对吧?"
+ },
+ {
+  "seg": 33,
+  "start": 190.714,
+  "end": 192.455,
+  "speaker": "Unknown",
+  "en": "It's very hard to keep permissions in sync.",
+  "zh": "保持权限同步非常困难。"
+ },
+ {
+  "seg": 34,
+  "start": 192.995,
+  "end": 197.478,
+  "speaker": "Unknown",
+  "en": "Any time you're dealing with software licensing, now you have to deal with two licenses.",
+  "zh": "任何时候你处理软件许可,现在你就得处理两份许可。"
+ },
+ {
+  "seg": 35,
+  "start": 197.538,
+  "end": 206.504,
+  "speaker": "Unknown",
+  "en": "There's certain systems that do not support multiple identities interacting with the same underlying data, you know, stuff like Google Workspace, your emails, et cetera.",
+  "zh": "有某些系统不支持多个身份与同一底层数据交互,你知道的,像 Google Workspace、你的电子邮件等等。"
+ },
+ {
+  "seg": 36,
+  "start": 207.569,
+  "end": 211.03,
+  "speaker": "Unknown",
+  "en": "And then some systems are going to block as a first step.",
+  "zh": "然后有些系统的第一步就是拦截。"
+ },
+ {
+  "seg": 37,
+  "start": 211.37,
+  "end": 213.951,
+  "speaker": "Unknown",
+  "en": "So you're just going over the barrier of entry.",
+  "zh": "所以你只是在跨越准入门槛。"
+ },
+ {
+  "seg": 38,
+  "start": 214.651,
+  "end": 219.252,
+  "speaker": "Unknown",
+  "en": "And then you also have to figure out how you actually manage the public and private boundaries.",
+  "zh": "然后你还必须弄清楚你实际上该如何管理公开与私密的边界。"
+ },
+ {
+  "seg": 39,
+  "start": 221.713,
+  "end": 225.274,
+  "speaker": "Unknown",
+  "en": "So obviously, it's like, why don't we just run these as the user, right?",
+  "zh": "所以显然,有人会说,为什么不直接以用户身份来运行它们,对吧?"
+ },
+ {
+  "seg": 40,
+  "start": 225.654,
+  "end": 229.655,
+  "speaker": "Unknown",
+  "en": "How do we run these remotely as the exact same user identity?",
+  "zh": "我们如何以完全相同的用户身份远程运行它们?"
+ },
+ {
+  "seg": 41,
+  "start": 229.815,
+  "end": 236.577,
+  "speaker": "Unknown",
+  "en": "And as a result, all the capabilities, all the access, all those previous constraints are no longer valid.",
+  "zh": "这样一来,所有那些能力、所有那些访问权限、之前那些约束就都不成立了。"
+ },
+ {
+  "seg": 42,
+  "start": 239.883,
+  "end": 243.226,
+  "speaker": "Unknown",
+  "en": "And we already had info for this, and I imagine a lot of you do too.",
+  "zh": "而我们已经有现成的基础设施来做这件事,我猜你们很多人也有。"
+ },
+ {
+  "seg": 43,
+  "start": 243.546,
+  "end": 250.292,
+  "speaker": "Unknown",
+  "en": "If you don't, I would encourage investing in it, which is that, you know, you can have a Kubernetes cluster.",
+  "zh": "如果你们没有,我会建议投入建设,那就是,你可以有一个 Kubernetes 集群。"
+ },
+ {
+  "seg": 44,
+  "start": 250.913,
+  "end": 256.117,
+  "speaker": "Unknown",
+  "en": "You have all of your clusters, your regions, et cetera, and you have namespaces for individuals, right?",
+  "zh": "你有你的所有集群、你的各个区域等等,并且你有面向个人的命名空间,对吧?"
+ },
+ {
+  "seg": 45,
+  "start": 256.978,
+  "end": 269.888,
+  "speaker": "Unknown",
+  "en": "And the reason we had this is because we often already needed this capability, not for the agentic purposes, but for all the automated operations that we needed to do that did not suit confinement to someone's local machine.",
+  "zh": "我们之所以有这个,是因为我们经常已经需要这种能力,不是为了智能体用途,而是为了我们需要的所有自动化运维,它们不适合被限制在某个人的本地机器上。"
+ },
+ {
+  "seg": 46,
+  "start": 270.308,
+  "end": 276.112,
+  "speaker": "Unknown",
+  "en": "So we run automated jobs, you know, code containers usually operate on this principle, research notebooks, et cetera.",
+  "zh": "所以我们运行自动化任务,你知道的,代码容器通常基于这个原则运行,还有研究 notebook 等等。"
+ },
+ {
+  "seg": 47,
+  "start": 276.292,
+  "end": 282.357,
+  "speaker": "Unknown",
+  "en": "And every single user already had these namespaces existing in every single region, and everything in it runs as the user.",
+  "zh": "每一个用户都已经在每一个区域拥有这些命名空间,其中所有东西都以该用户的身份运行。"
+ },
+ {
+  "seg": 48,
+  "start": 284.033,
+  "end": 292.677,
+  "speaker": "Unknown",
+  "en": "A very simplistic way of how this works, some trigger is going into your controller, and it's saying, hey, I need to spin up some compute resources.",
+  "zh": "关于它如何运作的一个非常简化的描述:某个触发器进入你的控制器,它在说,嘿,我需要启动一些计算资源。"
+ },
+ {
+  "seg": 49,
+  "start": 293.398,
+  "end": 304.343,
+  "speaker": "Unknown",
+  "en": "You have a separate identity service that a sidecar in the pod pulls down from to allow your actual containers to run and mount that identity, and it runs as you.",
+  "zh": "你有一个独立的身份服务,pod 中的 sidecar 从它那里拉取凭据,使你的实际容器得以运行并挂载该身份,然后它就以你的身份运行。"
+ },
+ {
+  "seg": 50,
+  "start": 307.382,
+  "end": 310.344,
+  "speaker": "Unknown",
+  "en": "So, of course, there are big dangers with this, right?",
+  "zh": "所以，当然，这样做有很大的危险，对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 310.604,
+  "end": 313.626,
+  "speaker": "Unknown",
+  "en": "And, you know, the first danger, you may imagine, is an internal danger.",
+  "zh": "你知道的，第一个危险，你可以想象，是内部危险。"
+ },
+ {
+  "seg": 52,
+  "start": 314.207,
+  "end": 319.45,
+  "speaker": "Unknown",
+  "en": "How do you actually differentiate who or what took action, right?",
+  "zh": "你要如何真正区分是谁或什么东西采取了行动，对吧？"
+ },
+ {
+  "seg": 53,
+  "start": 319.51,
+  "end": 322.753,
+  "speaker": "Unknown",
+  "en": "You have you and your you agent are now the exact same identity.",
+  "zh": "你和你的智能体现在是完全相同的身份。"
+ },
+ {
+  "seg": 54,
+  "start": 323.233,
+  "end": 325.995,
+  "speaker": "Unknown",
+  "en": "That's why I grew this mustache so you could tell the difference between us for now.",
+  "zh": "这就是为什么我留了这个胡子，这样你们暂时可以分辨出我们俩的区别。"
+ },
+ {
+  "seg": 55,
+  "start": 326.675,
+  "end": 336.182,
+  "speaker": "Unknown",
+  "en": "But you really want to know that differentiation because certain actions that can be taken, you want to audit, you possibly want to block,",
+  "zh": "但你确实想要知道这种区分，因为某些可以被采取的行动，你可能想要审计，可能想要拦截，"
+ },
+ {
+  "seg": 56,
+  "start": 337.439,
+  "end": 339.582,
+  "speaker": "Unknown",
+  "en": "And you want to just have the trace, right?",
+  "zh": "而且你只是想要有追踪记录，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 339.702,
+  "end": 349.654,
+  "speaker": "Unknown",
+  "en": "You want to have the attribution to determine, hey, was it someone operating as the human, operating purely human actions, or was it the agent identity doing these things?",
+  "zh": "你想要有归属，以确定：嘿，是有人以人类身份操作、纯人类操作，还是智能体身份在做这些事情？"
+ },
+ {
+  "seg": 58,
+  "start": 353.822,
+  "end": 363.426,
+  "speaker": "Unknown",
+  "en": "Another danger, and perhaps a bigger one, is we all know that for all of these capabilities and LLMs in general, it's essential you have access to the external web.",
+  "zh": "另一个危险，也许是更大的一个，我们都知道，对于所有这些能力和 LLM 整体来说，能够访问外部网络是必不可少的。"
+ },
+ {
+  "seg": 59,
+  "start": 363.846,
+  "end": 369.248,
+  "speaker": "Unknown",
+  "en": "These are point-in-time mathematical functions that cannot actually update based on current data.",
+  "zh": "这些是时间点上的数学函数，无法真正基于当前数据进行更新。"
+ },
+ {
+  "seg": 60,
+  "start": 369.809,
+  "end": 371.369,
+  "speaker": "Unknown",
+  "en": "So it's like open Internet access.",
+  "zh": "所以就比如开放的网络访问。"
+ },
+ {
+  "seg": 61,
+  "start": 371.389,
+  "end": 374.611,
+  "speaker": "Unknown",
+  "en": "That's why it's a core capability, web search, web fetch tools, right?",
+  "zh": "这就是为什么网页搜索、网页抓取工具是核心能力，对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 375.624,
+  "end": 384.05,
+  "speaker": "Unknown",
+  "en": "The problem is once you have that capability, you leave yourself open to huge vulnerability vectors, one of which is exfiltration risk.",
+  "zh": "问题是，一旦你有了那种能力，你就让自己暴露在巨大的漏洞风险向量之下，其中之一就是数据外泄风险。"
+ },
+ {
+  "seg": 63,
+  "start": 384.49,
+  "end": 395.478,
+  "speaker": "Unknown",
+  "en": "This is one we are deeply concerned with in terms of possibly losing IP, you know, just exposing our sensitive information, but also certainly the possibility of untrusted content flowing back in.",
+  "zh": "这是我们非常担心的一件事，涉及可能丢失 IP、暴露我们的敏感信息，当然还有不可信内容回流入侵的可能性。"
+ },
+ {
+  "seg": 64,
+  "start": 396.483,
+  "end": 401.526,
+  "speaker": "Unknown",
+  "en": "And prompt injection, just malware and vulnerabilities are all big risks there.",
+  "zh": "还有提示词注入，恶意软件和漏洞都是那里的重大风险。"
+ },
+ {
+  "seg": 65,
+  "start": 402.086,
+  "end": 412.571,
+  "speaker": "Unknown",
+  "en": "And then something we separately deal with is just the ability to make sure we don't use licensed content without the right copyrights or actual licensing, right?",
+  "zh": "然后我们另外处理的一件事是，确保我们不会在没有正确版权或实际授权的情况下使用受许可保护的内容，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 413.472,
+  "end": 416.893,
+  "speaker": "Unknown",
+  "en": "You can map this to the golden scissors that they use in us.",
+  "zh": "你可以把它对应到他们在 us 使用的 golden scissors（金剪刀）。"
+ },
+ {
+  "seg": 67,
+  "start": 417.254,
+  "end": 419.675,
+  "speaker": "Unknown",
+  "en": "So this is kind of our biggest fear, to be honest.",
+  "zh": "所以说实话，这是我们最大的恐惧。"
+ },
+ {
+  "seg": 68,
+  "start": 421.605,
+  "end": 428.217,
+  "speaker": "Unknown",
+  "en": "So we are a finance firm, and in finance there's a concept of obviously risk and return.",
+  "zh": "我们是一家金融公司，在金融领域显然有风险和回报的概念。"
+ },
+ {
+  "seg": 69,
+  "start": 428.978,
+  "end": 430.861,
+  "speaker": "Unknown",
+  "en": "So when we think about what is",
+  "zh": "所以当我们思考什么是"
+ },
+ {
+  "seg": 70,
+  "start": 432.034,
+  "end": 439.517,
+  "speaker": "Unknown",
+  "en": "The positioning on the risk and return graph, there's huge value in allowing agents to run as you, but also there's very high risk.",
+  "zh": "在风险和回报图上的定位时，允许智能体以你的身份运行有巨大的价值，但风险也非常高。"
+ },
+ {
+  "seg": 71,
+  "start": 440.277,
+  "end": 445.979,
+  "speaker": "Unknown",
+  "en": "What we generally want to do is make sure we capture as much of the value as possible, but reduce the risk.",
+  "zh": "我们通常想做的是确保尽可能多地获取价值，同时降低风险。"
+ },
+ {
+  "seg": 72,
+  "start": 446.099,
+  "end": 448.82,
+  "speaker": "Unknown",
+  "en": "We're optimizing that ratio of return over risk.",
+  "zh": "我们在优化回报与风险的比率。"
+ },
+ {
+  "seg": 73,
+  "start": 449.121,
+  "end": 450.961,
+  "speaker": "Unknown",
+  "en": "Some of you may know the Sharpe ratio.",
+  "zh": "你们有些人可能知道夏普比率。"
+ },
+ {
+  "seg": 74,
+  "start": 451.501,
+  "end": 457.644,
+  "speaker": "Unknown",
+  "en": "We're looking at that from the perspective of how do we let agents run as users and optimize that return.",
+  "zh": "我们是从如何让智能体以用户身份运行并优化该回报的角度来看待这个的。"
+ },
+ {
+  "seg": 75,
+  "start": 458.598,
+  "end": 462.119,
+  "speaker": "Unknown",
+  "en": "And the ways we need to do this are to solve those two critical problems.",
+  "zh": "而我们需要做到这一点的方法，就是解决那两个关键问题。"
+ },
+ {
+  "seg": 76,
+  "start": 462.459,
+  "end": 466.72,
+  "speaker": "Unknown",
+  "en": "One, differentiating access attributed to the human versus the agent.",
+  "zh": "其一，区分归属于人类还是智能体的访问。"
+ },
+ {
+  "seg": 77,
+  "start": 467.74,
+  "end": 471.021,
+  "speaker": "Unknown",
+  "en": "And two, somehow getting safe web access in place.",
+  "zh": "其二，以某种方式实现安全的网络访问。"
+ },
+ {
+  "seg": 78,
+  "start": 474.441,
+  "end": 477.702,
+  "speaker": "Unknown",
+  "en": "So the first thing we did is this attribution step.",
+  "zh": "所以我们做的第一件事就是这个归属步骤。"
+ },
+ {
+  "seg": 79,
+  "start": 478.942,
+  "end": 481.743,
+  "speaker": "Unknown",
+  "en": "And how we did this is we used a header.",
+  "zh": "我们的做法是使用一个 header。"
+ },
+ {
+  "seg": 80,
+  "start": 482.817,
+  "end": 486.298,
+  "speaker": "Unknown",
+  "en": "And we make sure that every single agent continues to append to that header.",
+  "zh": "我们确保每一个智能体都持续向该 header 附加内容。"
+ },
+ {
+  "seg": 81,
+  "start": 486.899,
+  "end": 491.64,
+  "speaker": "Unknown",
+  "en": "And this is something we've all hopefully done in some way, right?",
+  "zh": "这是我们大家都希望以某种方式做过的事情，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 491.8,
+  "end": 492.441,
+  "speaker": "Unknown",
+  "en": "Trace IDs.",
+  "zh": "Trace ID。"
+ },
+ {
+  "seg": 83,
+  "start": 492.581,
+  "end": 499.943,
+  "speaker": "Unknown",
+  "en": "You've all done this in deterministic code, making sure that your observability stack propagates through a trace ID through disparate systems.",
+  "zh": "你们都在确定性代码中做过这种事，确保你的可观测性栈让一个 trace ID 贯穿不同的系统传播下去。"
+ },
+ {
+  "seg": 84,
+  "start": 500.584,
+  "end": 510.648,
+  "speaker": "Unknown",
+  "en": "How we did it is very similar to how you would do it for a trace ID, except we are dealing with a certain difference in the control vector, which is the agent itself, right?",
+  "zh": "我们的做法与为 trace ID 做的非常相似，只是我们面对的是控制向量上的某种差异，也就是智能体本身，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 512.379,
+  "end": 524.583,
+  "speaker": "Unknown",
+  "en": "You can force, you know, using certain HP clients, using MCPs, using skills to make sure that that header initially gets populated and everywhere else along the way continues to be populated, right?",
+  "zh": "你可以强制，你知道，使用某些 HP 客户端、使用 MCP、使用 skills，来确保那个 header 最初被填充，并且沿途的每一处都持续被填充，对吧？"
+ },
+ {
+  "seg": 86,
+  "start": 524.623,
+  "end": 534.166,
+  "speaker": "Unknown",
+  "en": "You have a lot more determinants to control over agents and the harnesses and the frameworks than you may think, and you can enforce it with some of the already existing primitives.",
+  "zh": "你对智能体、harness 和框架的控制手段比你想象的要多得多，你可以用一些已有的原语来强制执行它。"
+ },
+ {
+  "seg": 87,
+  "start": 536.867,
+  "end": 540.068,
+  "speaker": "Unknown",
+  "en": "Now, this gets very interesting because this is not only",
+  "zh": "现在，这就变得非常有趣了，因为这不仅是"
+ },
+ {
+  "seg": 88,
+  "start": 541.32,
+  "end": 546.041,
+  "speaker": "Unknown",
+  "en": "Giving us the proper identification of who did something, right?",
+  "zh": "让我们正确识别是谁做了某件事，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 546.602,
+  "end": 547.582,
+  "speaker": "Unknown",
+  "en": "It actually goes beyond that.",
+  "zh": "它实际上超越了这一点。"
+ },
+ {
+  "seg": 90,
+  "start": 547.762,
+  "end": 556.585,
+  "speaker": "Unknown",
+  "en": "And no longer are we confined by just knowing the act identity, but we also actually get the full prevalence through the system, right?",
+  "zh": "我们不再局限于只知道行动者的身份，我们实际上还能获得贯穿整个系统的完整传播，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 556.825,
+  "end": 564.347,
+  "speaker": "Unknown",
+  "en": "And as we deal with multiple steps in the system, we are able to replay the entire chain of actions that actually led to some end result.",
+  "zh": "当我们处理系统中的多个步骤时，我们能够重放导致某个最终结果的整条行动链。"
+ },
+ {
+  "seg": 92,
+  "start": 565.067,
+  "end": 566.108,
+  "speaker": "Unknown",
+  "en": "So the comparison here is",
+  "zh": "所以这里的对比是"
+ },
+ {
+  "seg": 93,
+  "start": 567.215,
+  "end": 583.439,
+  "speaker": "Unknown",
+  "en": "If we had used that shootAgent identity, we wouldn't have this, and we would just know that at some point, shootAgent triggered this initial flow into the span, but we don't actually know, hey, those subsequent actions, how do we properly trace back to that origination point?",
+  "zh": "如果我们用的是那个 shootAgent 身份，我们就不会有这些，我们只会知道在某个时间点 shootAgent 触发了进入 span 的初始流程，但我们实际上并不知道：嘿，那些后续行动，我们要如何正确回溯到那个起源点？"
+ },
+ {
+  "seg": 94,
+  "start": 584.28,
+  "end": 591.942,
+  "speaker": "Unknown",
+  "en": "With this header, this traceID, we get that full propagation, and the actor is still me, right?",
+  "zh": "有了这个 header、这个 traceID，我们就能获得完整的传播，而行动者仍然是我，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 592.022,
+  "end": 593.062,
+  "speaker": "Unknown",
+  "en": "It's still my identity.",
+  "zh": "仍然是我的身份。"
+ },
+ {
+  "seg": 96,
+  "start": 596.498,
+  "end": 599.439,
+  "speaker": "Unknown",
+  "en": "And the second step that we needed to fix is this web access.",
+  "zh": "而我们需要修复的第二步是网络访问。"
+ },
+ {
+  "seg": 97,
+  "start": 600.579,
+  "end": 606.32,
+  "speaker": "Unknown",
+  "en": "A lot of web access these days uses indexes for search.",
+  "zh": "如今很多网络访问使用索引来进行搜索。"
+ },
+ {
+  "seg": 98,
+  "start": 606.34,
+  "end": 610.661,
+  "speaker": "Unknown",
+  "en": "I think Claude Code's native one is Brave web browser, and it uses the Brave index.",
+  "zh": "我认为 Claude Code 原生用的是 Brave 网络浏览器，它使用 Brave 索引。"
+ },
+ {
+  "seg": 99,
+  "start": 611.522,
+  "end": 614.382,
+  "speaker": "Unknown",
+  "en": "Well, we were like, hey, why don't we see what Google has?",
+  "zh": "我们当时就说：嘿，我们为什么不看看 Google 有什么？"
+ },
+ {
+  "seg": 100,
+  "start": 614.922,
+  "end": 621.344,
+  "speaker": "Unknown",
+  "en": "Google is at its core, hopefully, still a search company, and they do this index generation already.",
+  "zh": "Google 从本质上讲,希望它仍然是一家搜索公司,而他们已经在做这种索引生成了。"
+ },
+ {
+  "seg": 101,
+  "start": 621.684,
+  "end": 625.685,
+  "speaker": "Unknown",
+  "en": "And it turns out they actually do offer something specifically for",
+  "zh": "事实证明,他们确实专门为"
+ },
+ {
+  "seg": 102,
+  "start": 626.585,
+  "end": 634.212,
+  "speaker": "Unknown",
+  "en": "Regulated industries like ours that allows you to use their web index but within your existing VPC, your network controls, right?",
+  "zh": "像我们这样受监管的行业提供了一些东西,允许你在你现有的 VPC、你的网络控制之内使用他们的网页索引,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 634.473,
+  "end": 636.815,
+  "speaker": "Unknown",
+  "en": "And it's called Web Grounding for Enterprise.",
+  "zh": "它叫做 Web Grounding for Enterprise。"
+ },
+ {
+  "seg": 104,
+  "start": 637.355,
+  "end": 645.003,
+  "speaker": "Unknown",
+  "en": "It basically works like this where it's still within the exact same network boundary where you're probably running your cloud agents and stuff like that.",
+  "zh": "它的工作方式基本上是这样的:它仍然在完全相同的网络边界之内,你可能正在那里运行你的云端智能体之类的东西。"
+ },
+ {
+  "seg": 105,
+  "start": 646.235,
+  "end": 650.18,
+  "speaker": "Unknown",
+  "en": "It offers two core capabilities, search and fetch.",
+  "zh": "它提供两个核心能力:搜索(search)和抓取(fetch)。"
+ },
+ {
+  "seg": 106,
+  "start": 650.28,
+  "end": 655.045,
+  "speaker": "Unknown",
+  "en": "So those exact capabilities we want to mirror, we leverage that, we have all these guarantees.",
+  "zh": "所以我们想要镜像的正是这些能力,我们利用它,我们拥有了所有这些保证。"
+ },
+ {
+  "seg": 107,
+  "start": 655.305,
+  "end": 661.993,
+  "speaker": "Unknown",
+  "en": "There's one tiny downside, which is the data is obviously not going to be completely fresh.",
+  "zh": "只有一个小小的缺点,那就是数据显然不会是完全实时的。"
+ },
+ {
+  "seg": 108,
+  "start": 662.233,
+  "end": 664.876,
+  "speaker": "Unknown",
+  "en": "And the constraints around this, last I checked,",
+  "zh": "而关于这方面的限制,据我上次了解,"
+ },
+ {
+  "seg": 109,
+  "start": 665.681,
+  "end": 670.123,
+  "speaker": "Unknown",
+  "en": "It's fresh within 24 hours, and for more regularly updated websites, it's fresh within six hours.",
+  "zh": "它在 24 小时内是新鲜的,对于更新更频繁的网站,则在 6 小时内是新鲜的。"
+ },
+ {
+  "seg": 110,
+  "start": 670.563,
+  "end": 678.747,
+  "speaker": "Unknown",
+  "en": "But for most use cases that you may have for agents, that's probably more than sufficient and completely removes this external egress vulnerability vector.",
+  "zh": "但对于智能体可能适用的大多数用例来说,这可能已经绰绰有余,并且完全消除了这个外部出站(egress)的漏洞攻击面。"
+ },
+ {
+  "seg": 111,
+  "start": 681.568,
+  "end": 685.27,
+  "speaker": "Unknown",
+  "en": "Now, the second question is, how do we actually ensure the agents use web grounding?",
+  "zh": "那么,第二个问题是,我们如何真正确保智能体使用 web grounding?"
+ },
+ {
+  "seg": 112,
+  "start": 685.59,
+  "end": 689.711,
+  "speaker": "Unknown",
+  "en": "And again, this is very simple with the existing primitives, right?",
+  "zh": "再说一次,用现有的原语这非常简单,对吧?"
+ },
+ {
+  "seg": 113,
+  "start": 690.192,
+  "end": 692.613,
+  "speaker": "Unknown",
+  "en": "You just need to make sure that they don't get confused.",
+  "zh": "你只需要确保它们不会感到困惑。"
+ },
+ {
+  "seg": 114,
+  "start": 693.491,
+  "end": 708.02,
+  "speaker": "Unknown",
+  "en": "And you certainly block the access itself, but just for user experience and stuff like that, you need to make sure those tools themselves that are already existing and primitive and native to these agent harnesses and frameworks and such are actually blocked, right?",
+  "zh": "你当然要封锁访问本身,但只是为了用户体验之类的缘故,你需要确保那些已经存在的、作为这些智能体 harness 和框架等的原生的工具本身被真正封锁,对吧?"
+ },
+ {
+  "seg": 115,
+  "start": 708.56,
+  "end": 709.921,
+  "speaker": "Unknown",
+  "en": "Again, here's a Claude Code example.",
+  "zh": "再看,这里有一个 Claude Code 的例子。"
+ },
+ {
+  "seg": 116,
+  "start": 710.001,
+  "end": 711.963,
+  "speaker": "Unknown",
+  "en": "I think every other harness has the same thing.",
+  "zh": "我认为其他所有 harness 都有同样的东西。"
+ },
+ {
+  "seg": 117,
+  "start": 712.043,
+  "end": 712.963,
+  "speaker": "Unknown",
+  "en": "WebSearch, WebFetch.",
+  "zh": "WebSearch、WebFetch。"
+ },
+ {
+  "seg": 118,
+  "start": 713.504,
+  "end": 714.464,
+  "speaker": "Unknown",
+  "en": "We just deny those tools.",
+  "zh": "我们只是拒绝(deny)这些工具。"
+ },
+ {
+  "seg": 119,
+  "start": 714.704,
+  "end": 715.845,
+  "speaker": "Unknown",
+  "en": "It's like, hey, you can't even use these.",
+  "zh": "就是说,嘿,你甚至不能使用这些。"
+ },
+ {
+  "seg": 120,
+  "start": 715.865,
+  "end": 718.767,
+  "speaker": "Unknown",
+  "en": "These are not even in your suite of tools available to you.",
+  "zh": "这些甚至根本不在你可用的工具套件之中。"
+ },
+ {
+  "seg": 121,
+  "start": 720.043,
+  "end": 735.72,
+  "speaker": "Unknown",
+  "en": "Instead, we use the redirection going through MCP CLI and actual client code using the supported paths, skills, whatever, to make sure that whenever someone does need the capabilities of web access, it goes through that web grounding cached index.",
+  "zh": "相反,我们使用重定向,通过 MCP CLI 和使用受支持路径、技能之类的实际客户端代码,以确保每当有人确实需要 web 访问的能力时,它会经过那个 web grounding 缓存索引。"
+ },
+ {
+  "seg": 122,
+  "start": 741.308,
+  "end": 742.929,
+  "speaker": "Unknown",
+  "en": "So takeaways from this talk.",
+  "zh": "那么这次演讲的要点。"
+ },
+ {
+  "seg": 123,
+  "start": 743.589,
+  "end": 746.591,
+  "speaker": "Unknown",
+  "en": "Basically, make sure you tether your agents.",
+  "zh": "基本上,确保你给你的智能体系上绳索(tether)。"
+ },
+ {
+  "seg": 124,
+  "start": 746.631,
+  "end": 749.853,
+  "speaker": "Unknown",
+  "en": "Letting them run around untethered is very dangerous.",
+  "zh": "让它们不受束缚地到处乱跑是非常危险的。"
+ },
+ {
+  "seg": 125,
+  "start": 750.074,
+  "end": 752.235,
+  "speaker": "Unknown",
+  "en": "We want to tether them, and it's much safer to do so.",
+  "zh": "我们要给它们系上绳索,这样做要安全得多。"
+ },
+ {
+  "seg": 126,
+  "start": 752.715,
+  "end": 768.365,
+  "speaker": "Unknown",
+  "en": "And in fact, if we go back to that initial slide of how we consider this relative to the risk and expected return, because of some of the things we found while doing this, we actually believe we didn't lose expected value while hugely reducing the risk.",
+  "zh": "事实上,如果我们回到最初那张幻灯片,关于我们如何相对于风险和预期回报来考虑这个问题,因为我们在做这件事的过程中发现的一些情况,我们实际上相信我们没有损失期望价值,同时极大地降低了风险。"
+ },
+ {
+  "seg": 127,
+  "start": 769.962,
+  "end": 780.61,
+  "speaker": "Unknown",
+  "en": "So the index certainly lags, but we get a ton more observability by just using that tagging primitive versus the actual just pure identity verification.",
+  "zh": "所以索引固然有滞后,但仅仅使用那个打标原语,相比单纯的纯身份验证,我们获得了多得多的可观测性。"
+ },
+ {
+  "seg": 128,
+  "start": 784.018,
+  "end": 801.373,
+  "speaker": "Unknown",
+  "en": "And I think this is one thing people should really consider, especially people working at companies, enterprises, which is that there are a ton of things happening in the Gen.AI landscape that are probably scary to us, that make your security teams really afraid, that",
+  "zh": "而且我认为这是人们应该真正考虑的事情,尤其是在公司、企业工作的人,那就是:在生成式 AI 领域正在发生大量可能令我们感到害怕的事情,让你的安全团队非常恐惧的事情,"
+ },
+ {
+  "seg": 129,
+  "start": 801.813,
+  "end": 804.695,
+  "speaker": "Unknown",
+  "en": "You feel like, hey, they are too far on the frontier.",
+  "zh": "你会觉得,嘿,它们太前沿了。"
+ },
+ {
+  "seg": 130,
+  "start": 804.895,
+  "end": 806.656,
+  "speaker": "Unknown",
+  "en": "You're like, I wouldn't run this locally.",
+  "zh": "你会说,我不会在本地运行这个。"
+ },
+ {
+  "seg": 131,
+  "start": 806.756,
+  "end": 812.3,
+  "speaker": "Unknown",
+  "en": "I wouldn't run an OpenClaude agent on my local machine with full permissions.",
+  "zh": "我不会在本地机器上以完全权限运行一个 OpenClaude 智能体。"
+ },
+ {
+  "seg": 132,
+  "start": 812.38,
+  "end": 817.723,
+  "speaker": "Unknown",
+  "en": "There's all these horror stories and various anecdotes about why this is bad.",
+  "zh": "有各种恐怖故事和种种轶事说明为什么这是糟糕的。"
+ },
+ {
+  "seg": 133,
+  "start": 818.444,
+  "end": 829.511,
+  "speaker": "Unknown",
+  "en": "But in an enterprise, again, you can figure out how to leverage your enterprise resources to actually reduce those risk factors and get the real value out of the capabilities.",
+  "zh": "但在企业里,再强调一次,你可以弄清楚如何利用你的企业资源来真正降低那些风险因素,并从这些能力中获得真正的价值。"
+ },
+ {
+  "seg": 134,
+  "start": 829.831,
+  "end": 831.552,
+  "speaker": "Unknown",
+  "en": "And this is where you should be investing that time.",
+  "zh": "这才是你应该投入时间的地方。"
+ },
+ {
+  "seg": 135,
+  "start": 834.85,
+  "end": 838.778,
+  "speaker": "Unknown",
+  "en": "So what we ultimately shipped is this entire framework, right?",
+  "zh": "那么我们最终交付的是这一整套框架,对吧?"
+ },
+ {
+  "seg": 136,
+  "start": 839.118,
+  "end": 843.066,
+  "speaker": "Unknown",
+  "en": "We have the ability to run cloud agents",
+  "zh": "我们有能力运行云端智能体"
+ },
+ {
+  "seg": 137,
+  "start": 844.329,
+  "end": 859.418,
+  "speaker": "Unknown",
+  "en": "as user identities because of all those guardrails and vectors we put in place and using different kind of interface vectors to actually operate with them so that people who are not comfortable CLIs can leverage them, but certainly for other cases as well.",
+  "zh": "以用户身份运行,因为我们部署了所有那些护栏和攻击面防护,并使用不同类型的界面入口与它们实际交互,这样不习惯 CLI 的人也能利用它们,当然也适用于其他场景。"
+ },
+ {
+  "seg": 138,
+  "start": 860.098,
+  "end": 864.261,
+  "speaker": "Unknown",
+  "en": "And as part of that, we made sure to ship out just a managed fleet of Claude.",
+  "zh": "作为其中的一部分,我们确保交付了一套托管机队,为每个用户提供 Claude——"
+ },
+ {
+  "seg": 139,
+  "start": 864.941,
+  "end": 888.769,
+  "speaker": "Unknown",
+  "en": "You know, whatever agents for every single user in this remote fashion that they can already interact with so that we can continue to deploy and improve what is actually available to individual users, but also the core capability itself of being able for anyone at the company to deploy an agent that runs in the cloud remotely with their full identity is there and is something we are comfortable with.",
+  "zh": "你知道的,以这种远程方式,让他们已经可以与之交互的智能体,这样我们可以持续部署和改进实际对个人用户可用的东西,同时,任何公司的人都能部署一个以其完整身份在云端远程运行的智能体这一核心能力本身也已经就位,并且是我们感到放心的。"
+ },
+ {
+  "seg": 140,
+  "start": 892.1,
+  "end": 895.582,
+  "speaker": "Unknown",
+  "en": "So to finish up, everything I talked about actually happened last year.",
+  "zh": "那么收个尾,我讲的所有这些其实都是去年发生的。"
+ },
+ {
+  "seg": 141,
+  "start": 895.882,
+  "end": 908.409,
+  "speaker": "Unknown",
+  "en": "So if you are interested at all in wanting to build and see what we're working on now, or even better, if you're like, that was horrible, we could do so much better, we are hiring.",
+  "zh": "所以如果你有兴趣想构建并看看我们现在在做什么,或者更好的是,如果你想说“那太糟糕了,我们可以做得好得多”——我们在招人。"
+ },
+ {
+  "seg": 142,
+  "start": 908.75,
+  "end": 909.85,
+  "speaker": "Unknown",
+  "en": "And we encourage you to apply.",
+  "zh": "我们鼓励你申请。"
+ },
+ {
+  "seg": 143,
+  "start": 910.41,
+  "end": 916.514,
+  "speaker": "Unknown",
+  "en": "If you have any experience in any of these domains, you can check that QR code, check that link.",
+  "zh": "如果你在这些领域中的任何一个有经验,你可以扫那个二维码,看那个链接。"
+ },
+ {
+  "seg": 144,
+  "start": 917.274,
+  "end": 918.795,
+  "speaker": "Unknown",
+  "en": "Yeah, that's it.",
+  "zh": "好的,就到这里。"
+ },
+ {
+  "seg": 145,
+  "start": 919.356,
+  "end": 919.816,
+  "speaker": "Unknown",
+  "en": "Any questions?",
+  "zh": "有什么问题吗?"
+ },
+ {
+  "seg": 146,
+  "start": 926.323,
+  "end": 932.725,
+  "speaker": "Unknown",
+  "en": "What do you think about local LLMs connected to new agents or enterprises?",
+  "zh": "你怎么看连接到新智能体或企业的本地 LLM?"
+ },
+ {
+  "seg": 147,
+  "start": 933.585,
+  "end": 943.488,
+  "speaker": "Unknown",
+  "en": "Not the views of my company, but personally, I think that is... Yeah, sorry, his question was, how do I view local LLMs for enterprise usage?",
+  "zh": "不代表我公司的观点,但就个人而言,我认为那是……对,抱歉,他的问题是,我如何看待本地 LLM 用于企业用途?"
+ },
+ {
+  "seg": 148,
+  "start": 944.308,
+  "end": 952.75,
+  "speaker": "Unknown",
+  "en": "And I think local in the sense that we manage ourselves is probably where we eventually want to go for a lot of our token use and inference.",
+  "zh": "而我认为,就我们自己管理的“本地”这个意义上来说,对于我们的很多 token 使用和推理,这可能是我们最终想走的方向。"
+ },
+ {
+  "seg": 149,
+  "start": 953.758,
+  "end": 961.222,
+  "speaker": "Unknown",
+  "en": "Because of cost, because of deprecations, because of, you know, every time Frontier Lab drops a new model, you see some degradation.",
+  "zh": "因为成本,因为弃用(deprecation),因为,你知道的,每当前沿实验室发布一个新模型,你都会看到一些性能退化。"
+ },
+ {
+  "seg": 150,
+  "start": 961.242,
+  "end": 970.487,
+  "speaker": "Unknown",
+  "en": "There's too much volatility in that that we don't need to risk as the open-weight models kind of become more advanced and sophisticated.",
+  "zh": "这里面的波动性太大了,随着开放权重模型变得更加先进和精密,我们不需要去冒这个险。"
+ },
+ {
+  "seg": 151,
+  "start": 991.994,
+  "end": 996.916,
+  "speaker": "Unknown",
+  "en": "Yeah, so as you can see, the header is not purely differentiating in itself.",
+  "zh": "是的,如你所见,header 本身并不能纯粹地起到区分作用。"
+ },
+ {
+  "seg": 152,
+  "start": 996.976,
+  "end": 1002.799,
+  "speaker": "Unknown",
+  "en": "Someone could certainly populate that, but the actor, the identity itself, will not be me, right?",
+  "zh": "某人当然可以填充那个字段,但行为者,身份本身,不会是我,对吧?"
+ },
+ {
+  "seg": 153,
+  "start": 1002.819,
+  "end": 1010.863,
+  "speaker": "Unknown",
+  "en": "So someone could, I guess, write in that they're using some agent, but the core previous identity itself is not",
+  "zh": "所以我猜某人可以写上他们在使用某个智能体,但核心的先前身份本身是"
+ },
+ {
+  "seg": 154,
+  "start": 1012.068,
+  "end": 1014.911,
+  "speaker": "Unknown",
+  "en": "mimicable, not actually interceptable.",
+  "zh": "无法被模仿的,实际上也无法被截获的。"
+ },
+ {
+  "seg": 155,
+  "start": 1015.051,
+  "end": 1023.319,
+  "speaker": "Unknown",
+  "en": "So we have both the originating identity, and all of your identity ecosystems and chains to ensure that, but also the header.",
+  "zh": "所以我们既有来源身份,以及你所有的身份生态系统和链来确保这一点,同时还有 header。"
+ },
+ {
+  "seg": 156,
+  "start": 1025.541,
+  "end": 1026.823,
+  "speaker": "Unknown",
+  "en": "Yeah, that is separate.",
+  "zh": "是的,那是分开的。"
+ },
+ {
+  "seg": 157,
+  "start": 1026.843,
+  "end": 1034.17,
+  "speaker": "Unknown",
+  "en": "The header is just the XDSLM agent, and then you still have some way, you need some way to actually determine the identity of who's coming.",
+  "zh": "header 只是 XDSLM 智能体,然后你仍然需要某种方式,你需要某种方式来真正确定来访者的身份。"
+ },
+ {
+  "seg": 158,
+  "start": 1046.523,
+  "end": 1048.345,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 159,
+  "start": 1048.365,
+  "end": 1055.473,
+  "speaker": "Unknown",
+  "en": "Generally, all of our RPC in some way has an initial entry point that is populateable with that header.",
+  "zh": "一般来说,我们所有的 RPC 在某种程度上都有一个初始入口点,可以填充那个 header。"
+ },
+ {
+  "seg": 160,
+  "start": 1055.574,
+  "end": 1062.582,
+  "speaker": "Unknown",
+  "en": "And then once it actually goes downstream, you make sure that same with trace IDs is part of the span internally within the system.",
+  "zh": "然后当它真正往下游走时,你确保——就像 trace ID 一样——它成为系统内部 span 的一部分。"
+ },
+ {
+  "seg": 161,
+  "start": 1072.022,
+  "end": 1081.569,
+  "speaker": "Unknown",
+  "en": "Yeah, so the core things about this index is not only is it a cached index, it has a lot of other controls and safety guarantees around it.",
+  "zh": "是的,所以这个索引的核心之处在于,它不仅是一个缓存索引,它周围还有很多其他的控制和安全保证。"
+ },
+ {
+  "seg": 162,
+  "start": 1081.589,
+  "end": 1086.932,
+  "speaker": "Unknown",
+  "en": "It is specifically made for these highly regulated industries.",
+  "zh": "它是专门为这些高度受监管的行业而打造的。"
+ },
+ {
+  "seg": 163,
+  "start": 1087.132,
+  "end": 1090.295,
+  "speaker": "Unknown",
+  "en": "So they themselves are doing some of their own curation on top of it.",
+  "zh": "所以他们自己会在其之上做一些自己的策展。"
+ },
+ {
+  "seg": 164,
+  "start": 1091.015,
+  "end": 1093.437,
+  "speaker": "Unknown",
+  "en": "Now, certainly, I think that curation could fail.",
+  "zh": "当然,我认为那种策展可能会失败。"
+ },
+ {
+  "seg": 165,
+  "start": 1093.717,
+  "end": 1095.138,
+  "speaker": "Unknown",
+  "en": "It's probably done using Gen.AI.",
+  "zh": "它很可能是用 Gen.AI 来做的。"
+ },
+ {
+  "seg": 166,
+  "start": 1095.898,
+  "end": 1100.982,
+  "speaker": "Unknown",
+  "en": "But the prompt injection risk is far reduced because everything still remains internal.",
+  "zh": "但提示词注入的风险被大大降低了,因为一切都保持在内部。"
+ },
+ {
+  "seg": 167,
+  "start": 1104.992,
+  "end": 1105.172,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 168,
+  "start": 1106.012,
+  "end": 1107.173,
+  "speaker": "Unknown",
+  "en": "How important is behavioral data for these pages?",
+  "zh": "行为数据对这些页面来说有多重要?"
+ },
+ {
+  "seg": 169,
+  "start": 1107.193,
+  "end": 1111.834,
+  "speaker": "Unknown",
+  "en": "So what are the sources you're looking to acquire from?",
+  "zh": "那么你们希望从哪些来源获取这些数据?"
+ },
+ {
+  "seg": 170,
+  "start": 1113.695,
+  "end": 1115.296,
+  "speaker": "Unknown",
+  "en": "Do you mean how they're being used?",
+  "zh": "你的意思是它们是如何被使用的?"
+ },
+ {
+  "seg": 171,
+  "start": 1115.556,
+  "end": 1118.537,
+  "speaker": "Unknown",
+  "en": "Behavioral data for people that are using it?",
+  "zh": "是指使用它的人的行为数据吗?"
+ },
+ {
+  "seg": 172,
+  "start": 1118.737,
+  "end": 1118.857,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 173,
+  "start": 1118.977,
+  "end": 1125.739,
+  "speaker": "Unknown",
+  "en": "I think it's critical in the sense that that behavioral data is something we can further configure based on.",
+  "zh": "我认为这很关键,从某种意义上说,行为数据是我们可以进一步据此进行配置的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 1126.84,
+  "end": 1132.242,
+  "speaker": "Unknown",
+  "en": "We do try to ensure that not everyone at the firm can see what your agents are doing.",
+  "zh": "我们确实试图确保并非公司里的每个人都能看到你的智能体在做什么。"
+ },
+ {
+  "seg": 175,
+  "start": 1133.602,
+  "end": 1137.864,
+  "speaker": "Unknown",
+  "en": "Stuff certainly work-wise, but also more sensitive information that might be privileged to you.",
+  "zh": "当然包括工作方面的内容,但也包括可能是你专属的更敏感的信息。"
+ },
+ {
+  "seg": 176,
+  "start": 1138.304,
+  "end": 1140.245,
+  "speaker": "Unknown",
+  "en": "So your session data is kind of localized.",
+  "zh": "所以你的会话数据在某种程度上是本地化的。"
+ },
+ {
+  "seg": 177,
+  "start": 1140.465,
+  "end": 1149.549,
+  "speaker": "Unknown",
+  "en": "Now that behavioral data in the session data is very powerful because it can define additional configuration that can be applied to these agents for the purposes of making the user experience better.",
+  "zh": "而会话数据中的行为数据非常强大,因为它可以定义额外的配置,这些配置可以应用到这些智能体上,以改善用户体验。"
+ },
+ {
+  "seg": 178,
+  "start": 1149.889,
+  "end": 1162.795,
+  "speaker": "Unknown",
+  "en": "So we try to leverage that to figure out what to configure further, not just based on someone's hierarchical persona, but actually based on their usage to make sure that their experience continues to improve actually based on what they're doing.",
+  "zh": "所以我们尝试利用这些数据来弄清楚进一步配置什么,不仅仅基于某人的层级角色,而是实际上基于他们的使用情况,以确保他们的体验能够真正根据他们正在做的事情持续改善。"
+ },
+ {
+  "seg": 179,
+  "start": 1166.823,
+  "end": 1168.584,
+  "speaker": "Unknown",
+  "en": "We're almost out of time.",
+  "zh": "我们时间差不多了。"
+ },
+ {
+  "seg": 180,
+  "start": 1168.984,
+  "end": 1171.306,
+  "speaker": "Unknown",
+  "en": "Me and my, sorry, I'll take the last question.",
+  "zh": "我和我的,抱歉,我来提最后一个问题。"
+ },
+ {
+  "seg": 181,
+  "start": 1171.326,
+  "end": 1179.05,
+  "speaker": "Unknown",
+  "en": "I was just going to ask, you were saying you have a process for letting individuals create their own agents.",
+  "zh": "我只是想问,你刚才说你们有一个让个人创建自己智能体的流程。"
+ },
+ {
+  "seg": 182,
+  "start": 1180.471,
+  "end": 1180.671,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 183,
+  "start": 1180.691,
+  "end": 1184.213,
+  "speaker": "Unknown",
+  "en": "I mean, how do you go about, like, can anybody create their own agents?",
+  "zh": "我的意思是,你们是如何进行的,比如说,任何人都可以创建自己的智能体吗?"
+ },
+ {
+  "seg": 184,
+  "start": 1184.233,
+  "end": 1187.174,
+  "speaker": "Unknown",
+  "en": "Is there a process for provisioning certain individuals?",
+  "zh": "是否有一个为特定个人进行配置的流程?"
+ },
+ {
+  "seg": 185,
+  "start": 1187.935,
+  "end": 1191.957,
+  "speaker": "Unknown",
+  "en": "Is there a process for, like, promoting agents to be used across the company",
+  "zh": "是否有一个流程,比如,推动智能体在全公司范围内被使用"
+ },
+ {
+  "seg": 186,
+  "start": 1194.804,
+  "end": 1200.166,
+  "speaker": "Unknown",
+  "en": "Yeah, for building our own agents, you know, we use some of the existing frameworks for agent building.",
+  "zh": "是的,关于构建我们自己的智能体,你知道,我们使用一些现有的智能体构建框架。"
+ },
+ {
+  "seg": 187,
+  "start": 1200.427,
+  "end": 1206.869,
+  "speaker": "Unknown",
+  "en": "Obviously, all the Gen.AI harnesses are very good at using those frameworks to build agents, so you have a lot of agents proliferating based on that.",
+  "zh": "显然,所有 Gen.AI 的工具链都非常擅长使用这些框架来构建智能体,所以你会看到大量智能体据此大量涌现。"
+ },
+ {
+  "seg": 188,
+  "start": 1207.33,
+  "end": 1209.571,
+  "speaker": "Unknown",
+  "en": "In terms of provision, everything is already provisioned.",
+  "zh": "在配置方面,一切都已经配置好了。"
+ },
+ {
+  "seg": 189,
+  "start": 1209.611,
+  "end": 1211.932,
+  "speaker": "Unknown",
+  "en": "All this is every single user at the firm has",
+  "zh": "所有这些是公司里每一个用户都"
+ },
+ {
+  "seg": 190,
+  "start": 1212.903,
+  "end": 1215.125,
+  "speaker": "Unknown",
+  "en": "All the necessary infrastructure in place.",
+  "zh": "具备所有必要的基础设施。"
+ },
+ {
+  "seg": 191,
+  "start": 1215.645,
+  "end": 1217.047,
+  "speaker": "Unknown",
+  "en": "So that's not really a worry.",
+  "zh": "所以那真的不是一个需要担心的问题。"
+ },
+ {
+  "seg": 192,
+  "start": 1217.067,
+  "end": 1221.15,
+  "speaker": "Unknown",
+  "en": "They can build an agent, deploy it as necessary into their namespace, running as their identity.",
+  "zh": "他们可以构建一个智能体,根据需要部署到他们的命名空间中,以他们的身份运行。"
+ },
+ {
+  "seg": 193,
+  "start": 1221.931,
+  "end": 1234.181,
+  "speaker": "Unknown",
+  "en": "The aspect of how do agents then become like a universal company-wide or larger beyond individual users agent, you know, goes through your standard kind of mechanisms, right?",
+  "zh": "至于智能体如何变成全公司通用的、或者超越个人用户的智能体,你知道,这要走你标准的那类机制,对吧?"
+ },
+ {
+  "seg": 194,
+  "start": 1234.201,
+  "end": 1236.783,
+  "speaker": "Unknown",
+  "en": "Like, hey, is there gonna be proper production support?",
+  "zh": "比如,嘿,是否会有适当的生产支持?"
+ },
+ {
+  "seg": 195,
+  "start": 1236.823,
+  "end": 1237.804,
+  "speaker": "Unknown",
+  "en": "Is there the right security?",
+  "zh": "是否有正确的安全措施?"
+ },
+ {
+  "seg": 196,
+  "start": 1237.824,
+  "end": 1239.886,
+  "speaker": "Unknown",
+  "en": "It's like any application you might develop.",
+  "zh": "这就像你可能开发的任何应用程序一样。"
+ },
+ {
+  "seg": 197,
+  "start": 1241.726,
+  "end": 1243.548,
+  "speaker": "Unknown",
+  "en": "Yeah, so me and my colleagues will stick around here.",
+  "zh": "是的,我和我的同事们会留在这里。"
+ },
+ {
+  "seg": 198,
+  "start": 1243.568,
+  "end": 1250.133,
+  "speaker": "Unknown",
+  "en": "If anyone wants to talk further, you know, I guess if you're sticking around, I can also take more questions, but thanks for coming to this talk.",
+  "zh": "如果有人想进一步交流,你知道,我想如果你留下来,我也可以回答更多问题,但感谢大家来参加这次演讲。"
+ }
+]

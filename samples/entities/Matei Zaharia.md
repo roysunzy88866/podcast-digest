@@ -36,11 +36,11 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":15,"Snowflake":13,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":345}</script>
+<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":15,"Snowflake":13,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":347}</script>
 
 <script>
 (function(){

@@ -9,14 +9,14 @@ cover: "#64748b"
 description: "Euphonia 研究工程师 Jared 讲解临床语音 AI「Dora」如何用仿真患者、LLM 裁判和提示词自动优化,在患者接到电话前证明产品安全。"
 guests: ["[[Jared Joselowitz]]"]
 companies: ["[[Euphonia]]", "[[DORA]]"]
-concepts: ["[[智能体]]", "[[Matrix]]", "[[Patbot]]", "[[BevJudge]]", "[[模拟]]", "[[judge]]", "[[提示词优化器]]", "[[成本矩阵]]", "[[医疗器械监管]]"]
+concepts: ["[[智能体]]", "[[Matrix]]", "[[Patbot]]", "[[BevJudge]]", "[[模拟]]", "[[评审器]]", "[[提示词优化器]]", "[[成本矩阵]]", "[[医疗器械监管]]"]
 category: AI 安全
 tags:
   - AI 安全
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou#post","headline":"给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou","description":"Euphonia 研究工程师 Jared 讲解临床语音 AI「Dora」如何用仿真患者、LLM 裁判和提示词自动优化,在患者接到电话前证明产品安全。","datePublished":"2026-09-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jared Joselowitz"},{"@type":"Organization","name":"Euphonia"},{"@type":"Organization","name":"DORA"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Matrix"},{"@type":"Thing","name":"Patbot"},{"@type":"Thing","name":"BevJudge"},{"@type":"Thing","name":"模拟 (simulation)"},{"@type":"Thing","name":"judge"},{"@type":"Thing","name":"提示词优化器 (prompt optimizer)"},{"@type":"Thing","name":"成本矩阵 (cost matrix)"},{"@type":"Thing","name":"医疗器械监管 (medical device)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈","item":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou#post","headline":"给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou","description":"Euphonia 研究工程师 Jared 讲解临床语音 AI「Dora」如何用仿真患者、LLM 裁判和提示词自动优化,在患者接到电话前证明产品安全。","datePublished":"2026-09-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jared Joselowitz"},{"@type":"Organization","name":"Euphonia"},{"@type":"Organization","name":"DORA"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Matrix"},{"@type":"Thing","name":"Patbot"},{"@type":"Thing","name":"BevJudge"},{"@type":"Thing","name":"模拟 (simulation)"},{"@type":"Thing","name":"评审器 (judge)"},{"@type":"Thing","name":"提示词优化器 (prompt optimizer)"},{"@type":"Thing","name":"成本矩阵 (cost matrix)"},{"@type":"Thing","name":"医疗器械监管 (medical device)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈","item":"https://talk.solomind.cc/2026-08-19-talks-shipping-ai-to-a-million-patients-withou"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给患者打电话之前,先让 AI 在仿真里跑几万遍:Euphonia 的医疗 AI 安全栈</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Euphonia]] · [[DORA]]
 >
-> **概念** [[智能体]] · [[Matrix]] · [[Patbot]] · [[BevJudge]] · [[模拟]] · [[judge]] · [[提示词优化器]] · [[成本矩阵]] · [[医疗器械监管]]
+> **概念** [[智能体]] · [[Matrix]] · [[Patbot]] · [[BevJudge]] · [[模拟]] · [[评审器]] · [[提示词优化器]] · [[成本矩阵]] · [[医疗器械监管]]
 
 一通 AI 打给白内障术后患者的随访电话里,患者问「我能不能去游泳」,AI 得回答「术后一个月内别游」。这种电话已经在英国 20 家医院打了约 20 万通,接下来两年还要扩展到一百万名患者。
 
@@ -110,7 +110,7 @@ Jared 明确承认仿真的边界:模拟患者再逼真也不是真患者,在模
 
 - **安全网失效时要换打法,不是换强度**:当用户是患者,A/B 测试不道德、回滚不可能、仪表盘变红等于有人已受伤害——反应式发布的前提(能承受错一瞬间)整个崩塌,必须前置到仿真。
 - **从危害清单开始,并主动制造罕见危险案例**:列出产品可能伤害用户的所有方式(他们有几十种),别等罕见但危险的情况自然发生,合成出来测。
-- **每一个自动化环节都要独立验证**:假患者用「真人辨真假」测试验证逼真度,[[judge|LLM 裁判]]对照 10 位专科医生的标注验证(此集达到专家水平、敏感度近满分)——裁判和被测系统一样需要被审。
+- **每一个自动化环节都要独立验证**:假患者用「真人辨真假」测试验证逼真度,[[评审器|LLM 裁判]]对照 10 位专科医生的标注验证(此集达到专家水平、敏感度近满分)——裁判和被测系统一样需要被审。
 - **评估指标就是你的成本函数**:不是扁平准确率,而是给「漏报危险」和「误报危险」赋不同代价的成本矩阵,想优化什么就重新编译提示词。
 - **模拟赢得资格,真实才是证明**:模拟是内循环,真实用户是外循环;分阶段跨越(仿真→用户测试→有监督临床评估→受监控部署),自主权随证据增长。
 - **交付给监管的不是模型,是证据**:每次通话、每个提示词版本、每条评判结论都追溯到具体危害。

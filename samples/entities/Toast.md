@@ -7,13 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Toast</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Toast">TO</div><div class="pi"><h1 class="pt">Toast</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Toast">TO</div><div class="pi"><h1 class="pt">Toast</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]]**(58:44起):本集说 Toast 是制造餐厅手持点餐设备的公司，Bob 用它举例：今晚你的设备会递到俄亥俄州一位祖母手中，你有机会让她看起来像超级英雄，也有机会让她看起来像傻瓜。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(10:32起):本集将其作为金融科技放大软件市场规模的经典案例，指出它通过将支付处理捆绑进餐厅软件按流水抽成，极大提升了软件的商业价值。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:19起):本集说 Toast 是零售和餐饮销售点(POS)系统:顾客刷卡结账碰到的终端,背后还有帮运营者管菜单、库存、排班、备餐的软件,客户是利润微薄、对「为了 AI 而 AI」零容忍的餐厅经营者
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-28-iltb-noah-shinn-building-instinct-the-persona#^q3]]
 
 ## ② 出现在这些集
 
@@ -29,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Olivia Moore]] · [[Maggie Crowley]] · [[Bob Baxley]] · [[Frederick Rankin]] · [[Toast IQ]] · [[Apple]] · [[Alex Rampell]] · [[Toast IQ Grow]]
 
-<script type="application/json" class="pd-epn">{"智能体":345,"Lenny":68,"Olivia Moore":1,"Maggie Crowley":1,"Bob Baxley":1,"Frederick Rankin":1,"Toast IQ":1,"Apple":18,"Alex Rampell":3,"Toast IQ Grow":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":347,"Lenny":68,"Olivia Moore":1,"Maggie Crowley":1,"Bob Baxley":1,"Frederick Rankin":1,"Toast IQ":1,"Apple":18,"Alex Rampell":3,"Toast IQ Grow":1}</script>
 
 <script>
 (function(){
