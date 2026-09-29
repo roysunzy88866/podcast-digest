@@ -1,0 +1,1706 @@
+[
+ {
+  "seg": 0,
+  "start": 13.149,
+  "end": 14.31,
+  "speaker": "Unknown",
+  "en": "Hi, can everyone hear me?",
+  "zh": "嗨,大家都能听到吗?"
+ },
+ {
+  "seg": 1,
+  "start": 15.631,
+  "end": 15.951,
+  "speaker": "Unknown",
+  "en": "Sweet.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 2,
+  "start": 16.431,
+  "end": 20.934,
+  "speaker": "Unknown",
+  "en": "We have a short 20 minutes here, and so I wanted to jump in and get right to it.",
+  "zh": "我们这里只有短短 20 分钟,所以我想直接切入正题。"
+ },
+ {
+  "seg": 3,
+  "start": 21.515,
+  "end": 33.683,
+  "speaker": "Unknown",
+  "en": "My name's Deet, I'm the co-founder and CEO of Reducto, and today we wanted to talk about one of the, I think, really practical, but maybe less sexy parts of building agents that actually work in the real world.",
+  "zh": "我叫 Deet,是 Reducto 的联合创始人兼 CEO,今天我们想聊聊我认为构建真正能在现实世界中运作的智能体的一个非常实用、但可能不那么性感的部分。"
+ },
+ {
+  "seg": 4,
+  "start": 34.363,
+  "end": 34.863,
+  "speaker": "Unknown",
+  "en": "Which is data.",
+  "zh": "也就是数据。"
+ },
+ {
+  "seg": 5,
+  "start": 35.523,
+  "end": 37.864,
+  "speaker": "Unknown",
+  "en": "I'm sure you've seen plenty of talks about data today.",
+  "zh": "我相信你们今天已经看过很多关于数据的演讲了。"
+ },
+ {
+  "seg": 6,
+  "start": 38.424,
+  "end": 49.186,
+  "speaker": "Unknown",
+  "en": "We primarily have focused on building infrastructure for anybody working with some of the hardest sources of data, which is unstructured images, PDFs, spreadsheets, everything that humans are used to using day to day.",
+  "zh": "我们主要专注于为任何处理某些最复杂数据来源的人构建基础设施,也就是非结构化的图像、PDF、电子表格,以及人类日常习惯使用的一切东西。"
+ },
+ {
+  "seg": 7,
+  "start": 50.307,
+  "end": 52.467,
+  "speaker": "Unknown",
+  "en": "Have any of you used Reducto already?",
+  "zh": "你们当中有谁已经用过 Reducto 了吗?"
+ },
+ {
+  "seg": 8,
+  "start": 52.487,
+  "end": 53.787,
+  "speaker": "Unknown",
+  "en": "Or trialed it?",
+  "zh": "或者试用过?"
+ },
+ {
+  "seg": 9,
+  "start": 54.828,
+  "end": 55.028,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 10,
+  "start": 56.7,
+  "end": 61.223,
+  "speaker": "Unknown",
+  "en": "I guess helpful context maybe to start is we're an agentic document processing platform.",
+  "zh": "我想,作为一个有用的背景介绍,我们是一个智能体文档处理平台。"
+ },
+ {
+  "seg": 11,
+  "start": 61.263,
+  "end": 68.527,
+  "speaker": "Unknown",
+  "en": "So we help a lot of the world's leading AI teams build both AI applications and also workflows depending on what they're trying to do.",
+  "zh": "所以我们帮助世界上许多领先的 AI 团队构建 AI 应用,也根据他们想做的事情构建工作流。"
+ },
+ {
+  "seg": 12,
+  "start": 69.408,
+  "end": 72.07,
+  "speaker": "Unknown",
+  "en": "That includes a lot of the AI natives that you've probably seen today.",
+  "zh": "这包括你们今天可能已经见过的很多 AI 原生公司。"
+ },
+ {
+  "seg": 13,
+  "start": 72.11,
+  "end": 77.533,
+  "speaker": "Unknown",
+  "en": "It includes the Harveys, the Lagoras, the Rogos, the worlds, but also some of the largest enterprises in the world.",
+  "zh": "包括 Harvey、Lagora、Rogo 这些公司,但也包括一些世界上最大的企业。"
+ },
+ {
+  "seg": 14,
+  "start": 77.573,
+  "end": 80.055,
+  "speaker": "Unknown",
+  "en": "And I think that's important context for what we're gonna talk about.",
+  "zh": "我认为这是我们接下来要谈内容的重要背景。"
+ },
+ {
+  "seg": 15,
+  "start": 81,
+  "end": 93.823,
+  "speaker": "Unknown",
+  "en": "We work with the largest tech companies, global financial institutions, insurance orgs, people that have decades worth of historical data that historically has been really, really hard to actually use outside of a demo context.",
+  "zh": "我们与最大的科技公司、全球金融机构、保险组织合作,这些组织拥有数十年的历史数据,而这些数据在演示场景之外历来一直非常非常难以真正使用。"
+ },
+ {
+  "seg": 16,
+  "start": 94.623,
+  "end": 99.524,
+  "speaker": "Unknown",
+  "en": "And across all these companies, at this point, we've processed many billions of documents for our customers.",
+  "zh": "在所有这些公司中,到目前为止,我们已经为客户处理了数十亿的文档。"
+ },
+ {
+  "seg": 17,
+  "start": 100.044,
+  "end": 105.486,
+  "speaker": "Unknown",
+  "en": "I've gotten kind of lazy with that plus symbol at the end, but the number keeps changing, and so we'll let it sit there.",
+  "zh": "我在那个加号上已经变得有点懒了,但这个数字一直在变,所以我们先让它留在那儿。"
+ },
+ {
+  "seg": 18,
+  "start": 107.157,
+  "end": 112.118,
+  "speaker": "Unknown",
+  "en": "But the main thing that we've learned across those and what I wanted to focus on today is not actually Reductose product itself.",
+  "zh": "但我们从这些经历中学到的最主要的东西,也是我今天想重点关注的,其实并不是 Reducto 的产品本身。"
+ },
+ {
+  "seg": 19,
+  "start": 112.698,
+  "end": 119.46,
+  "speaker": "Unknown",
+  "en": "It's the intricacies of what we've learned that hopefully you can actually take home and implement in the work that you're doing as well.",
+  "zh": "而是我们所学到的那些细微之处,希望你们也能带回去并应用到自己正在做的工作中。"
+ },
+ {
+  "seg": 20,
+  "start": 119.98,
+  "end": 133.663,
+  "speaker": "Unknown",
+  "en": "And I think a lot of the work that we've done and a lot of the learnings we've had are in this sort of broader thematic context of the scope of AI applications has changed a lot recently from just like information synthesis products to actual agents doing work.",
+  "zh": "我认为我们所做的很多工作和获得的很多经验,都处于这样一个更宏观的主题背景之下:AI 应用的范畴最近发生了很大变化,从单纯的信息综合产品变成了真正在干活的智能体。"
+ },
+ {
+  "seg": 21,
+  "start": 134.396,
+  "end": 137.421,
+  "speaker": "Unknown",
+  "en": "And with that, we found that there are a few things that are worth talking through.",
+  "zh": "伴随着这一点,我们发现有几件事值得探讨。"
+ },
+ {
+  "seg": 22,
+  "start": 137.661,
+  "end": 139.263,
+  "speaker": "Unknown",
+  "en": "One is framing the problem itself.",
+  "zh": "一是问题本身的界定。"
+ },
+ {
+  "seg": 23,
+  "start": 139.323,
+  "end": 147.956,
+  "speaker": "Unknown",
+  "en": "The bottleneck that people face, why PDFs in particular are hard even though you've probably seen two dozen different PDF processing launches on Twitter.",
+  "zh": "人们面临的瓶颈,为什么 PDF 尤其难处理,尽管你们可能已经在 Twitter 上看到过二十几个不同的 PDF 处理产品发布了。"
+ },
+ {
+  "seg": 24,
+  "start": 149.202,
+  "end": 155.226,
+  "speaker": "Unknown",
+  "en": "Where we find strengths and weaknesses with different tools, we think there's a right place and time for traditional CV versus VLMs.",
+  "zh": "我们在不同工具上发现的优势和劣势——我们认为传统 CV 与 VLM 各有合适的时间和场合。"
+ },
+ {
+  "seg": 25,
+  "start": 156.247,
+  "end": 160.869,
+  "speaker": "Unknown",
+  "en": "And then more interestingly, I think the latter half of this talk will actually be focused on the next frontier.",
+  "zh": "然后更有意思的是,我认为这场演讲的后半部分将真正聚焦于下一个前沿。"
+ },
+ {
+  "seg": 26,
+  "start": 161.41,
+  "end": 174.117,
+  "speaker": "Unknown",
+  "en": "What we've seen be possible as a result of having agents in a loop, things that we found as a result of being able to use harnesses for different types of tasks, and our learnings around things like evaluations as you go from RAG to building agent products.",
+  "zh": "我们所看到的把智能体放进循环中所带来的可能性,我们因为能够为不同类型的任务使用 harness 而发现的东西,以及我们在从 RAG 走向构建智能体产品的过程中,围绕评估等方面的心得。"
+ },
+ {
+  "seg": 27,
+  "start": 175.77,
+  "end": 179.572,
+  "speaker": "Unknown",
+  "en": "I'll start with the first thing, which is something that I assume has been harped on a lot.",
+  "zh": "我从第一件事讲起,我猜这件事已经被反复强调过很多次了。"
+ },
+ {
+  "seg": 28,
+  "start": 179.632,
+  "end": 188.336,
+  "speaker": "Unknown",
+  "en": "If you went to AI Engineer a few years ago, the word that you would have heard in every single talk would have been RAG, and everybody was building some form of RAG application.",
+  "zh": "如果你几年前参加过 AI Engineer 大会,你在每一场演讲中听到的词都会是 RAG,而且所有人都在构建某种形式的 RAG 应用。"
+ },
+ {
+  "seg": 29,
+  "start": 188.936,
+  "end": 193.498,
+  "speaker": "Unknown",
+  "en": "For a while, all applications were really some form of information synthesis, right?",
+  "zh": "有很长一段时间,所有应用其实都是某种形式的信息综合,对吧?"
+ },
+ {
+  "seg": 30,
+  "start": 194.038,
+  "end": 202.942,
+  "speaker": "Unknown",
+  "en": "You would pull in information from some context, whether that's a perfect prompt or a file that a user uploaded, and you would have something like a search product.",
+  "zh": "你会从某个上下文中拉取信息,无论是一个完美的 prompt 还是用户上传的文件,然后你会有一个类似搜索的产品。"
+ },
+ {
+  "seg": 31,
+  "start": 202.962,
+  "end": 203.963,
+  "speaker": "Unknown",
+  "en": "You'd have enterprise search,",
+  "zh": "你会有企业搜索,"
+ },
+ {
+  "seg": 32,
+  "start": 204.39,
+  "end": 208.891,
+  "speaker": "Unknown",
+  "en": "You'd have a chatbot that would do simple question and answer on top of the content, and that was it.",
+  "zh": "你会有一个在内容之上做简单问答的聊天机器人,仅此而已。"
+ },
+ {
+  "seg": 33,
+  "start": 209.812,
+  "end": 214.473,
+  "speaker": "Unknown",
+  "en": "But today, the buzzword that you've probably heard a million times is agents.",
+  "zh": "但今天,你可能已经听过一百万次的流行词是智能体。"
+ },
+ {
+  "seg": 34,
+  "start": 215.233,
+  "end": 222.416,
+  "speaker": "Unknown",
+  "en": "And for those of you that are engineers, you've probably had Claude Code or a similar tool do a lot of your end-to-end work for many, many tasks.",
+  "zh": "而对于在座的工程师们,你们可能已经让 Claude Code 或类似的工具为很多很多任务做了大量端到端的工作。"
+ },
+ {
+  "seg": 35,
+  "start": 223.036,
+  "end": 226.477,
+  "speaker": "Unknown",
+  "en": "And that same sort of shift is starting to happen for all sorts of white-collar work.",
+  "zh": "而同样的这种转变正开始发生在各种各样的白领工作中。"
+ },
+ {
+  "seg": 36,
+  "start": 227.247,
+  "end": 232.209,
+  "speaker": "Unknown",
+  "en": "Whether you're in finance or insurance or healthcare, people are starting to make autonomous decisions.",
+  "zh": "无论你在金融、保险还是医疗行业,人们开始做出自主决策。"
+ },
+ {
+  "seg": 37,
+  "start": 232.229,
+  "end": 238.492,
+  "speaker": "Unknown",
+  "en": "They're trying to create end-to-end work products, not just answer questions from a PDF, but generate and modify PDFs as well.",
+  "zh": "他们试图创造端到端的工作成果,不只是从 PDF 中回答问题,还要生成和修改 PDF。"
+ },
+ {
+  "seg": 38,
+  "start": 239.192,
+  "end": 240.492,
+  "speaker": "Unknown",
+  "en": "And that's a very different framing.",
+  "zh": "而这是一个非常不同的问题界定。"
+ },
+ {
+  "seg": 39,
+  "start": 240.652,
+  "end": 247.075,
+  "speaker": "Unknown",
+  "en": "The tools that you need, the problems that you face change a lot versus just trying to build a retrieval platform.",
+  "zh": "与仅仅试图构建一个检索平台相比,你所需要的工具、你所面临的问题都会发生很大变化。"
+ },
+ {
+  "seg": 40,
+  "start": 248.356,
+  "end": 258.922,
+  "speaker": "Unknown",
+  "en": "And the common core for all of this is it actually ends up being an even more importance problem to solve for when you start having these multi-step pipelines.",
+  "zh": "而这一切的共同核心是,当你开始拥有这些多步骤的流水线时,它实际上成了一个更加重要、必须解决的问题。"
+ },
+ {
+  "seg": 41,
+  "start": 259.162,
+  "end": 264.645,
+  "speaker": "Unknown",
+  "en": "If you're just doing question and answer, there is obviously a risk that comes with just answering the question.",
+  "zh": "如果你只是在做问答,显然回答问题本身就带有风险。"
+ },
+ {
+  "seg": 42,
+  "start": 265.265,
+  "end": 276.471,
+  "speaker": "Unknown",
+  "en": "But when agents are making multiple decisions that compound over the course of a source of files, when they're pulling in multiple sources of data, the risk of bad inputs becomes really, really pervasive in your pipeline.",
+  "zh": "但当智能体在一批文件的处理过程中做出多个会累积复合的决策,当它们在拉取多个数据来源时,坏输入的风险就会在你的流水线中变得非常非常普遍。"
+ },
+ {
+  "seg": 43,
+  "start": 277.427,
+  "end": 288.036,
+  "speaker": "Unknown",
+  "en": "And that's what we focus on because at the end of the day, a lot of the value of language model tools in the real world only applies in the context to which you apply that intelligence.",
+  "zh": "这就是我们所关注的,因为归根结底,语言模型工具在现实世界中的很多价值,只有在应用这种智能的特定上下文中才会体现。"
+ },
+ {
+  "seg": 44,
+  "start": 288.536,
+  "end": 293.84,
+  "speaker": "Unknown",
+  "en": "And for a lot of enterprises, data is unstructured, it is scattered, and it is multimodal.",
+  "zh": "而对很多企业来说,数据是非结构化的、分散的、多模态的。"
+ },
+ {
+  "seg": 45,
+  "start": 294.421,
+  "end": 297.123,
+  "speaker": "Unknown",
+  "en": "It's not this like cleanly organized repository.",
+  "zh": "它不是那种整洁有序的存储库。"
+ },
+ {
+  "seg": 46,
+  "start": 297.608,
+  "end": 304.19,
+  "speaker": "Unknown",
+  "en": "You have random teams and different organizations that go through and put things in Google Drive and Box and wherever else you might have things.",
+  "zh": "你会有各种随机的团队和不同的组织,把东西放进 Google Drive、Box 以及其他任何你可能存放东西的地方。"
+ },
+ {
+  "seg": 47,
+  "start": 305.37,
+  "end": 308.271,
+  "speaker": "Unknown",
+  "en": "You're going to have data formats that are unstructured by default.",
+  "zh": "你会遇到默认就是非结构化的数据格式。"
+ },
+ {
+  "seg": 48,
+  "start": 308.491,
+  "end": 311.392,
+  "speaker": "Unknown",
+  "en": "You don't necessarily know what is in your corpus of information.",
+  "zh": "你不一定知道你的信息语料库里到底有什么。"
+ },
+ {
+  "seg": 49,
+  "start": 312.272,
+  "end": 315.373,
+  "speaker": "Unknown",
+  "en": "And you're going to have all sorts of downstream problems that come with that.",
+  "zh": "而你将会遇到随之而来各种各样的下游问题。"
+ },
+ {
+  "seg": 50,
+  "start": 315.954,
+  "end": 319.235,
+  "speaker": "Unknown",
+  "en": "Some of the problems are going to be parsing extraction accuracy and that definitely matters.",
+  "zh": "其中一些问题将是解析提取的准确性，这确实很重要。"
+ },
+ {
+  "seg": 51,
+  "start": 319.635,
+  "end": 322.636,
+  "speaker": "Unknown",
+  "en": "But it's also going to be about problems like are you retrieving the right context.",
+  "zh": "但还会有像你是否检索到了正确上下文这样的问题。"
+ },
+ {
+  "seg": 52,
+  "start": 322.696,
+  "end": 327.337,
+  "speaker": "Unknown",
+  "en": "It's going to be about how do you actually interact with that context and apply modifications to it.",
+  "zh": "还会有关于你如何实际与该上下文交互并对它应用修改的问题。"
+ },
+ {
+  "seg": 53,
+  "start": 328.827,
+  "end": 336.908,
+  "speaker": "Unknown",
+  "en": "And the thing that you've probably heard Reducto harp on and others in the space is PDFs are surprisingly still a very hard problem.",
+  "zh": "而你可能听过 Reducto 以及这个领域的其他人反复强调的一点是，PDF 令人惊讶地仍然是一个非常困难的问题。"
+ },
+ {
+  "seg": 54,
+  "start": 337.449,
+  "end": 342.409,
+  "speaker": "Unknown",
+  "en": "I don't know if any of you follow Surge which is a data lab that works with a lot of the foundation model companies.",
+  "zh": "我不知道你们中是否有人关注 Surge，它是一家与许多基础模型公司合作的数据实验室。"
+ },
+ {
+  "seg": 55,
+  "start": 343.17,
+  "end": 352.331,
+  "speaker": "Unknown",
+  "en": "They have this really great benchmark called GDPPDF where even Fable, like current frontier of model intelligence, is at about 30% on their benchmark.",
+  "zh": "他们有一个非常棒的基准测试，叫做 GDPPDF，即使是 Fable，也就是当前模型智能的前沿水平，在这个基准测试上也只有大约 30%。"
+ },
+ {
+  "seg": 56,
+  "start": 352.711,
+  "end": 356.072,
+  "speaker": "Unknown",
+  "en": "And it's entirely predicated on this idea of can we have models go through",
+  "zh": "它完全基于这样一个前提：我们能不能让模型去通读"
+ },
+ {
+  "seg": 57,
+  "start": 356.753,
+  "end": 360.937,
+  "speaker": "Unknown",
+  "en": "And actually make determinations off of contents that would be in documents like PDFs.",
+  "zh": "并真正基于像 PDF 这样的文档中的内容做出判断。"
+ },
+ {
+  "seg": 58,
+  "start": 361.938,
+  "end": 371.786,
+  "speaker": "Unknown",
+  "en": "And the reason why they're hard, I'll come back to that benchmark in a second, is fundamentally PDFs as a file format are both very old but were designed in a very different context.",
+  "zh": "而它们之所以难，我稍后会回到那个基准测试，根本原因在于 PDF 作为一种文件格式既非常古老，又是在一个截然不同的背景下设计的。"
+ },
+ {
+  "seg": 59,
+  "start": 372.066,
+  "end": 376.65,
+  "speaker": "Unknown",
+  "en": "I've genuinely met people that have worked on PDF processing longer than I've been alive.",
+  "zh": "我真的见过一些在 PDF 处理上工作的时间比我年龄还长的人。"
+ },
+ {
+  "seg": 60,
+  "start": 377.071,
+  "end": 381.394,
+  "speaker": "Unknown",
+  "en": "I've met the people that worked on printer drivers for printers to print PDFs in the early 1990s.",
+  "zh": "我见过在 1990 年代初期为打印机开发打印 PDF 的打印机驱动的人。"
+ },
+ {
+  "seg": 61,
+  "start": 382.485,
+  "end": 383.286,
+  "speaker": "Unknown",
+  "en": "And that's what it was.",
+  "zh": "那就是它当初的用途。"
+ },
+ {
+  "seg": 62,
+  "start": 383.306,
+  "end": 390.251,
+  "speaker": "Unknown",
+  "en": "You wanted to be able to represent what was faithfully on the documents when you originally created it and have it be printable at the end of it.",
+  "zh": "你想要能够忠实呈现你最初创建文档时的内容，并让它最终可以被打印出来。"
+ },
+ {
+  "seg": 63,
+  "start": 391.112,
+  "end": 393.794,
+  "speaker": "Unknown",
+  "en": "A lot of the considerations today are not around that.",
+  "zh": "而如今很多考量已经不是围绕这些了。"
+ },
+ {
+  "seg": 64,
+  "start": 394.094,
+  "end": 399.598,
+  "speaker": "Unknown",
+  "en": "Ultimately, what we want is something like a markdown representation, something that agents will effectively reason on.",
+  "zh": "归根结底，我们想要的是类似 markdown 的表示，某种智能体能够有效推理的东西。"
+ },
+ {
+  "seg": 65,
+  "start": 400.439,
+  "end": 404.582,
+  "speaker": "Unknown",
+  "en": "And in the real world, humans encode so much context visually.",
+  "zh": "而在现实世界中，人类通过视觉编码了大量的上下文。"
+ },
+ {
+  "seg": 66,
+  "start": 405.777,
+  "end": 415.164,
+  "speaker": "Unknown",
+  "en": "The average financial analyst that is a new grad in their IB role is not going through and thinking in terms of will agents consume this deck.",
+  "zh": "一个刚毕业、在投行岗位上的普通金融分析师，不会去考虑智能体是否会使用这份演示文稿。"
+ },
+ {
+  "seg": 67,
+  "start": 415.244,
+  "end": 417.785,
+  "speaker": "Unknown",
+  "en": "They're creating these really creative slides.",
+  "zh": "他们是在制作这些极具创意的幻灯片。"
+ },
+ {
+  "seg": 68,
+  "start": 417.825,
+  "end": 421.348,
+  "speaker": "Unknown",
+  "en": "I'm sure you've seen the SoftBank slides with goose laying eggs.",
+  "zh": "我相信你们见过软银那些下蛋的鹅的幻灯片。"
+ },
+ {
+  "seg": 69,
+  "start": 422.088,
+  "end": 423.409,
+  "speaker": "Unknown",
+  "en": "Those details matter, right?",
+  "zh": "这些细节很重要，对吧?"
+ },
+ {
+  "seg": 70,
+  "start": 423.449,
+  "end": 430.674,
+  "speaker": "Unknown",
+  "en": "Like a lot of the data that you're going to reason on is going to be tabular structures that maybe don't have clean grid lines and separate out the merge cells.",
+  "zh": "比如你要推理的很多数据会是表格结构，可能没有干净的网格线，还把合并单元格分隔开。"
+ },
+ {
+  "seg": 71,
+  "start": 430.694,
+  "end": 432.856,
+  "speaker": "Unknown",
+  "en": "You're going to have things like line charts and graphs",
+  "zh": "你还会遇到折线图和图表之类的东西"
+ },
+ {
+  "seg": 72,
+  "start": 433.297,
+  "end": 437.421,
+  "speaker": "Unknown",
+  "en": "You're going to have messy handwriting that even I as a human would often struggle to read.",
+  "zh": "你会遇到凌乱的手写体，连我这个人类都常常难以辨认。"
+ },
+ {
+  "seg": 73,
+  "start": 438.081,
+  "end": 441.745,
+  "speaker": "Unknown",
+  "en": "And that's the sort of problem that you need to solve for if you're dealing with that long tail.",
+  "zh": "如果你 dealing 的是那个长尾，这就是你需要解决的问题类型。"
+ },
+ {
+  "seg": 74,
+  "start": 443.727,
+  "end": 449.952,
+  "speaker": "Unknown",
+  "en": "And we started the company in 2023 because we felt that there was a sort of step change in what was possible here.",
+  "zh": "我们在 2023 年创办这家公司，因为我们感觉到这里面的可能性出现了一种阶梯式的变化。"
+ },
+ {
+  "seg": 75,
+  "start": 451.033,
+  "end": 454.937,
+  "speaker": "Unknown",
+  "en": "For a while, as people would think about any sort of PDF processing problem,",
+  "zh": "在很长一段时间里，当人们思考任何类型的 PDF 处理问题时，"
+ },
+ {
+  "seg": 76,
+  "start": 455.477,
+  "end": 458.679,
+  "speaker": "Unknown",
+  "en": "It used to be some modified version of an NLP pipeline.",
+  "zh": "它过去都是某种 NLP 流水线的改进版本。"
+ },
+ {
+  "seg": 77,
+  "start": 458.779,
+  "end": 462.2,
+  "speaker": "Unknown",
+  "en": "You'd do a simple OCR pass and then you'd try to post-process that text.",
+  "zh": "(修正编号漏行)…(见下)【注:此行原稿即为 87 起,依编号顺延】"
+ },
+ {
+  "seg": 78,
+  "start": 462.78,
+  "end": 466.162,
+  "speaker": "Unknown",
+  "en": "And that worked when you would have really consistent layouts, right?",
+  "zh": "而当你的版式非常一致时，那是有效的，对吧?"
+ },
+ {
+  "seg": 79,
+  "start": 466.182,
+  "end": 472.265,
+  "speaker": "Unknown",
+  "en": "Like if you knew that a W2 is always going to look like a W2, that's a constrained problem space that you can template your way around.",
+  "zh": "比如如果你知道一张 W2 表单永远长得像 W2，那是一个受约束的问题空间，你可以用模板的方式绕过去。"
+ },
+ {
+  "seg": 80,
+  "start": 473.065,
+  "end": 476.947,
+  "speaker": "Unknown",
+  "en": "But VLMs are interesting because they are fundamentally horizontal in nature.",
+  "zh": "但 VLM 有趣之处在于它们本质上是横向通用的。"
+ },
+ {
+  "seg": 81,
+  "start": 477.567,
+  "end": 482.49,
+  "speaker": "Unknown",
+  "en": "For the first time, you can have this premise of read the document the way that a human would have.",
+  "zh": "第一次，你可以拥有这样一个前提：像人类那样去阅读文档。"
+ },
+ {
+  "seg": 82,
+  "start": 482.61,
+  "end": 484.851,
+  "speaker": "Unknown",
+  "en": "You can have this premise of we want to address the long tail.",
+  "zh": "你可以拥有这样的前提：我们想要覆盖长尾。"
+ },
+ {
+  "seg": 83,
+  "start": 485.953,
+  "end": 492.439,
+  "speaker": "Unknown",
+  "en": "And so we found that they were incredible for all sorts of things like handwritten text in a way that traditional OCR just never was.",
+  "zh": "于是我们发现，它们在各种事情上都非常出色，比如手写文本，这是传统 OCR 从来做不到的。"
+ },
+ {
+  "seg": 84,
+  "start": 493.52,
+  "end": 497.203,
+  "speaker": "Unknown",
+  "en": "But the flip side is that we don't think that they're a one size fits all solution.",
+  "zh": "但反过来说，我们不认为它们是万能的一揽子解决方案。"
+ },
+ {
+  "seg": 85,
+  "start": 497.383,
+  "end": 501.487,
+  "speaker": "Unknown",
+  "en": "And if you're solving this problem at scale, if you're a company dealing with hundreds of millions of documents,",
+  "zh": "而如果你是在规模化地解决这个问题，如果你是一家处理数亿份文档的公司，"
+ },
+ {
+  "seg": 86,
+  "start": 502.13,
+  "end": 505.694,
+  "speaker": "Unknown",
+  "en": "There are all sorts of secondary considerations like determinism.",
+  "zh": "那么会有各种各样的次要考量，比如确定性。"
+ },
+ {
+  "seg": 87,
+  "start": 505.734,
+  "end": 508.056,
+  "speaker": "Unknown",
+  "en": "You care a lot about the efficiency of your processing.",
+  "zh": "你非常在意你的处理效率。"
+ },
+ {
+  "seg": 88,
+  "start": 509.037,
+  "end": 514.163,
+  "speaker": "Unknown",
+  "en": "And so we find that there are some things where traditional CV is actually still really, really strong.",
+  "zh": "于是我们发现，在某些事情上，传统 CV 实际上仍然非常非常强大。"
+ },
+ {
+  "seg": 89,
+  "start": 514.303,
+  "end": 516.065,
+  "speaker": "Unknown",
+  "en": "And this has been really underappreciated.",
+  "zh": "而这一点一直被严重低估。"
+ },
+ {
+  "seg": 90,
+  "start": 516.265,
+  "end": 522.792,
+  "speaker": "Unknown",
+  "en": "As autonomous vehicle research has gotten better, techniques like object detection are more sophisticated than they were a decade ago.",
+  "zh": "随着自动驾驶研究越来越好，像目标检测这样的技术比十年前更加成熟。"
+ },
+ {
+  "seg": 91,
+  "start": 523.463,
+  "end": 529.445,
+  "speaker": "Unknown",
+  "en": "And so we find that sub 100 million parameter models are really effective for things like detecting the layout of a document.",
+  "zh": "于是我们发现，低于一亿参数的模型在检测文档版面这类事情上非常有效。"
+ },
+ {
+  "seg": 92,
+  "start": 529.865,
+  "end": 533.066,
+  "speaker": "Unknown",
+  "en": "You can go really, really far without even needing a large foundation model.",
+  "zh": "你甚至不需要一个大型基础模型就能走得非常非常远。"
+ },
+ {
+  "seg": 93,
+  "start": 533.527,
+  "end": 535.567,
+  "speaker": "Unknown",
+  "en": "And these are models that can actually run on CPU.",
+  "zh": "而且这些模型实际上可以在 CPU 上运行。"
+ },
+ {
+  "seg": 94,
+  "start": 535.607,
+  "end": 536.608,
+  "speaker": "Unknown",
+  "en": "You can run them at scale.",
+  "zh": "你可以大规模地运行它们。"
+ },
+ {
+  "seg": 95,
+  "start": 536.648,
+  "end": 540.989,
+  "speaker": "Unknown",
+  "en": "You can make sure that you understand on a region level what are the hard things for you to process.",
+  "zh": "你可以确保在区域层面理解哪些是对你来说难以处理的部分。"
+ },
+ {
+  "seg": 96,
+  "start": 541.85,
+  "end": 543.57,
+  "speaker": "Unknown",
+  "en": "And VLMs introduced this notion of semantics.",
+  "zh": "而 VLM 引入了语义这个概念。"
+ },
+ {
+  "seg": 97,
+  "start": 543.83,
+  "end": 548.892,
+  "speaker": "Unknown",
+  "en": "You can go through and actually identify and correct the sorts of mistakes that you were likely to have in your pipeline.",
+  "zh": "你可以通读并真正识别和纠正你的流水线中容易出现的那些错误。"
+ },
+ {
+  "seg": 98,
+  "start": 551.947,
+  "end": 569.72,
+  "speaker": "Unknown",
+  "en": "Off of that idea of semantics, when you're deconstructing this problem and you have a clear sense of where the more nuanced things are, if you've segmented the text on your page and you understand where the handwriting is, you can introduce this notion of a sort of agent in the loop, whereas historically you would have had a human review team go through and annotate and correct mistakes.",
+  "zh": "基于语义这个想法，当你解构这个问题并且清楚哪里有更细微的东西时，如果你已经对页面上的文本做了分割，并且知道手写体在哪里，你就可以引入这种“智能体在环”的概念，而过去你需要一个人工审核团队去通读、标注并纠正错误。"
+ },
+ {
+  "seg": 99,
+  "start": 570.881,
+  "end": 574.063,
+  "speaker": "Unknown",
+  "en": "VLMs can now present this sort of idea of what we call agentic OCR.",
+  "zh": "VLM 现在可以呈现出这种我们称之为 agentic OCR 的概念。"
+ },
+ {
+  "seg": 100,
+  "start": 575.167,
+  "end": 585.553,
+  "speaker": "Unknown",
+  "en": "Really for us what that looks like is if you've ever used a tool like Cursor that's applying fast edits in your IDE, there's this notion of speculative decoding where you're applying token level edits to your output.",
+  "zh": "对我们来说，这实际上就是，如果你用过像 Cursor 这样的工具，它在你的 IDE 里应用快速编辑，有一种投机解码的概念，即你对输出应用 token 级别的编辑。"
+ },
+ {
+  "seg": 101,
+  "start": 586.285,
+  "end": 606.431,
+  "speaker": "Unknown",
+  "en": "You can apply similar sort of principle here that is not just sending OCR to Gemini, writing a really pretty prompt, asking it nicely to not deviate too much from the original because we find that when you're doing that sort of next token prediction, you introduce net new loss cases where models that are really intelligent will start actually correcting things not faithfully to what was in the document.",
+  "zh": "你可以在这里应用类似的原则，而不只是把 OCR 发给 Gemini、写一个很漂亮的提示词、客气地请求它不要偏离原文太多，因为我们发现当你做那种下一 token 预测时，会引入全新的失败案例，那些非常聪明的模型会开始实际修正内容，而不忠实于文档中原有的东西。"
+ },
+ {
+  "seg": 102,
+  "start": 606.451,
+  "end": 613.753,
+  "speaker": "Unknown",
+  "en": "They'll see the word total and if the human made a mistake in that table, models will actually sometimes go through and add up the values in the table themselves.",
+  "zh": "它们会看到 total 这个词，如果人类在那个表格里犯了错，模型有时真的会把表格里的数值自己加起来。"
+ },
+ {
+  "seg": 103,
+  "start": 614.5,
+  "end": 617.061,
+  "speaker": "Unknown",
+  "en": "What you want is to correct the token level edits that you want.",
+  "zh": "你想要的是修正那些你想要的 token 级别的编辑。"
+ },
+ {
+  "seg": 104,
+  "start": 617.241,
+  "end": 622.363,
+  "speaker": "Unknown",
+  "en": "Maybe you messed up a period versus a comma, a zero versus an O, those sorts of details really, really matter.",
+  "zh": "比如你把句号错成了逗号，把零错成了字母 O，这类细节真的、真的很重要。"
+ },
+ {
+  "seg": 105,
+  "start": 622.843,
+  "end": 627.245,
+  "speaker": "Unknown",
+  "en": "And that's a question of how do we actually represent what a human would have seen if they had read that document.",
+  "zh": "而这就是一个问题：我们如何真正表示一个人如果读过那份文档会看到的东西。"
+ },
+ {
+  "seg": 106,
+  "start": 629.226,
+  "end": 644.252,
+  "speaker": "Unknown",
+  "en": "So the way that we see this is agentic OCR is almost like that human in the loop analogy where you have the first inputs go through with a CV plus VLM parse, but then you have a verification and correction layer that ends up leading to a high confidence output.",
+  "zh": "所以我们对这件事的看法是，智能体 OCR 几乎就像人在回路中的类比，你让第一批输入通过 CV 加 VLM 的解析，然后有一个验证和修正层，最终产生高置信度的输出。"
+ },
+ {
+  "seg": 107,
+  "start": 645.753,
+  "end": 650.977,
+  "speaker": "Unknown",
+  "en": "But I mentioned earlier that we don't see the range of problems as purely just parsing and extraction.",
+  "zh": "但我之前提到，我们不认为这类问题只是纯粹的解析和提取。"
+ },
+ {
+  "seg": 108,
+  "start": 651.877,
+  "end": 660.343,
+  "speaker": "Unknown",
+  "en": "And a lot of what this looks like is I think it's important to think through the details of your pipeline even if you have a great documents to mark down pipeline.",
+  "zh": "这其中很多的样子是，我认为即使你已经有一个很棒的文档转 markdown 流水线，把流水线的细节想清楚也很重要。"
+ },
+ {
+  "seg": 109,
+  "start": 661.384,
+  "end": 668.429,
+  "speaker": "Unknown",
+  "en": "And a great example of this is if you've built any sort of RAG platform, you've probably had some consideration around things like tables.",
+  "zh": "一个很好的例子是，如果你构建过任何类型的 RAG 平台，你可能已经对表格之类的东西有过一些考虑。"
+ },
+ {
+  "seg": 110,
+  "start": 669.75,
+  "end": 672.132,
+  "speaker": "Unknown",
+  "en": "There are a lot of things that you can encode well in",
+  "zh": "有很多东西你可以很好地编码在"
+ },
+ {
+  "seg": 111,
+  "start": 672.738,
+  "end": 673.518,
+  "speaker": "Unknown",
+  "en": "Something like markdown.",
+  "zh": "类似 markdown 的东西里。"
+ },
+ {
+  "seg": 112,
+  "start": 674.139,
+  "end": 681.161,
+  "speaker": "Unknown",
+  "en": "But things like this table where the merge cells actually encode a lot of meaning, it matters that you're preserving that sort of structure.",
+  "zh": "但像这种合并单元格实际上编码了很多含义的表格，保留那种结构是很重要的。"
+ },
+ {
+  "seg": 113,
+  "start": 681.421,
+  "end": 682.742,
+  "speaker": "Unknown",
+  "en": "And it's not a model limitation.",
+  "zh": "而这不是模型的局限。"
+ },
+ {
+  "seg": 114,
+  "start": 682.902,
+  "end": 688.444,
+  "speaker": "Unknown",
+  "en": "LLMs are incredible at reasoning through an HTML structure of the same table, but you're also wasting a lot of tokens.",
+  "zh": "LLM 在推理同一个表格的 HTML 结构方面非常出色，但你也在浪费大量 token。"
+ },
+ {
+  "seg": 115,
+  "start": 688.604,
+  "end": 689.805,
+  "speaker": "Unknown",
+  "en": "And that gets expensive quickly.",
+  "zh": "而那很快就会变得昂贵。"
+ },
+ {
+  "seg": 116,
+  "start": 690.625,
+  "end": 698.927,
+  "speaker": "Unknown",
+  "en": "And obviously on the other end of the spectrum, you probably don't want to go through and encode simple tables in HTML, because then you have a lot of HTML tags that are erroneous.",
+  "zh": "显然，在光谱的另一端，你可能也不想把简单的表格编码成 HTML，因为那样你会有很多多余的 HTML 标签。"
+ },
+ {
+  "seg": 117,
+  "start": 699.628,
+  "end": 707.61,
+  "speaker": "Unknown",
+  "en": "And so what we ended up doing was looking at this as sort of like a dynamic problem of when you have a simple table, great, we can approximate that data in markdown.",
+  "zh": "所以我们最终做的是把它看作一个动态问题：当你有一个简单的表格，很好，我们可以在 markdown 里近似那些数据。"
+ },
+ {
+  "seg": 118,
+  "start": 708.31,
+  "end": 716.032,
+  "speaker": "Unknown",
+  "en": "When you have a more complex table, you may want to use something like HTML, but it's not only language models that should be a consideration in your pipeline.",
+  "zh": "当你有一个更复杂的表格，你可能想用类似 HTML 的东西，但在你的流水线中需要考虑的不应该只有语言模型。"
+ },
+ {
+  "seg": 119,
+  "start": 716.232,
+  "end": 717.993,
+  "speaker": "Unknown",
+  "en": "If you're doing anything related to embedding,",
+  "zh": "如果你在做任何与 embedding 相关的事情，"
+ },
+ {
+  "seg": 120,
+  "start": 718.568,
+  "end": 722.49,
+  "speaker": "Unknown",
+  "en": "You're also going to have the secondary problem of retrieval of that context, right?",
+  "zh": "你还会遇到这些上下文检索的次要问题，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 722.83,
+  "end": 729.134,
+  "speaker": "Unknown",
+  "en": "That same table that I showed you earlier, if you look at the HTML representation is really, really messy.",
+  "zh": "我之前给你看的那个表格，如果你看它的 HTML 表示，真的、真的很乱。"
+ },
+ {
+  "seg": 122,
+  "start": 729.334,
+  "end": 732.616,
+  "speaker": "Unknown",
+  "en": "The vast majority of that snippet is just HTML tags.",
+  "zh": "那个片段的绝大部分只是 HTML 标签。"
+ },
+ {
+  "seg": 123,
+  "start": 732.716,
+  "end": 734.657,
+  "speaker": "Unknown",
+  "en": "It's just classifying the structure of the document.",
+  "zh": "它只是在标记文档的结构。"
+ },
+ {
+  "seg": 124,
+  "start": 735.457,
+  "end": 745.203,
+  "speaker": "Unknown",
+  "en": "And the unfortunate thing is whereas in some blanket evals you might have contents that is really trying to do the work for the model and say exactly what you're looking for,",
+  "zh": "不幸的是，在某些一刀切的评测里，你可能有的上下文是在真正替模型做事，明确说出你在找什么，"
+ },
+ {
+  "seg": 125,
+  "start": 746.205,
+  "end": 749.127,
+  "speaker": "Unknown",
+  "en": "A real world person does not enumerate the values in the table.",
+  "zh": "而真实世界的人不会把表格里的数值一一列举出来。"
+ },
+ {
+  "seg": 126,
+  "start": 749.388,
+  "end": 751.349,
+  "speaker": "Unknown",
+  "en": "They just say, how did revenue change over time?",
+  "zh": "他们只会说，收入随时间如何变化？"
+ },
+ {
+  "seg": 127,
+  "start": 751.81,
+  "end": 754.632,
+  "speaker": "Unknown",
+  "en": "And they assume that you're going to retrieve the right table when it's relevant.",
+  "zh": "然后假定你在相关的时候会检索到正确的表格。"
+ },
+ {
+  "seg": 128,
+  "start": 755.413,
+  "end": 767.943,
+  "speaker": "Unknown",
+  "en": "And whereas language models can reason through that text effectively, if you're pulling from a large corpus, we find that embedding models really struggle to correlate that natural language human prompt with this messy blob of HTML tags and numbers.",
+  "zh": "语言模型可以有效地对那种文本进行推理，但如果你是从一个大型语料库里拉取，我们发现 embedding 模型很难把那种自然语言的人类提问与这堆乱七八糟的 HTML 标签和数字关联起来。"
+ },
+ {
+  "seg": 129,
+  "start": 768.592,
+  "end": 775.775,
+  "speaker": "Unknown",
+  "en": "And so a big thing that you can do that actually takes very little effort is creating a representation that's more so designed for the embedding model itself.",
+  "zh": "所以一件实际上几乎不费力气的大事，就是创建一个更多是为 embedding 模型本身设计的表示。"
+ },
+ {
+  "seg": 130,
+  "start": 775.975,
+  "end": 780.978,
+  "speaker": "Unknown",
+  "en": "Taking the same table for creating a natural language representation of that table so that you have the best of both worlds.",
+  "zh": "拿同一个表格，为它创建一个自然语言表示，这样你就两全其美了。"
+ },
+ {
+  "seg": 131,
+  "start": 781.158,
+  "end": 785.76,
+  "speaker": "Unknown",
+  "en": "When you're actually passing this into the model for reasoning, you're using the HTML table representation.",
+  "zh": "当你实际把它传给模型做推理时，你用的是 HTML 表格表示。"
+ },
+ {
+  "seg": 132,
+  "start": 786.2,
+  "end": 790.262,
+  "speaker": "Unknown",
+  "en": "And when you're trying to make sure that you retrieve the right snippets, you're using that natural language block.",
+  "zh": "而当你想确保检索到正确的片段时，你用的是那个自然语言块。"
+ },
+ {
+  "seg": 133,
+  "start": 792.831,
+  "end": 798.694,
+  "speaker": "Unknown",
+  "en": "Off of that, there's also this idea of there's a lot to do that is not just parsing and extraction.",
+  "zh": "除此之外，还有一个想法是，有很多事要做，不只是解析和提取。"
+ },
+ {
+  "seg": 134,
+  "start": 799.155,
+  "end": 805.958,
+  "speaker": "Unknown",
+  "en": "And I think a lot of the industry's focus has been on parsing and extraction historically because we do think that there is a massive uplift there.",
+  "zh": "我认为行业的历史关注点一直都在解析和提取上，因为我们确实认为那里有巨大的提升空间。"
+ },
+ {
+  "seg": 135,
+  "start": 806.358,
+  "end": 817.885,
+  "speaker": "Unknown",
+  "en": "And I talked earlier about the GDP PDF benchmark, which I think is a great illustrative example of what you can see as a result of improving your data pipeline.",
+  "zh": "我之前谈过 GDP PDF 基准，我认为它是一个很好的说明性例子，展示了改进你的数据流水线能带来什么结果。"
+ },
+ {
+  "seg": 136,
+  "start": 818.579,
+  "end": 844.792,
+  "speaker": "Unknown",
+  "en": "So what we found is that if you take the same exact benchmark that I mentioned earlier, unfortunately we couldn't test it on Fable because our access was cut, but if you test on other models and you give it both the original PDF but also a structured representation of the PDF, like the parse results here, across models, whether it's Gemini, whether it's Anthropic, or OpenAI, you find that you actually improve end LLM performance just from better inputs.",
+  "zh": "所以我们发现，如果用我之前提到的完全相同的基准，不幸的是我们没法在 Fable 上测试，因为我们的访问权限被切断了，但如果你在其他模型上测试，同时给它原始 PDF 以及 PDF 的结构化表示，比如这里的解析结果，跨模型来看，无论是 Gemini、Anthropic 还是 OpenAI，你会发现仅仅靠更好的输入就能实际提升最终的 LLM 性能。"
+ },
+ {
+  "seg": 137,
+  "start": 845.682,
+  "end": 861.292,
+  "speaker": "Unknown",
+  "en": "And it's to an extreme where models like GPT 5.5 and Opus actually outperform something like Fable out of the box, not just on an accuracy basis, but as a result of giving better inputs, the models end up needing to use fewer reasoning tokens as well.",
+  "zh": "而且到了一种极端，像 GPT 5.5 和 Opus 这样的模型开箱即用实际上能胜过 Fable 这样的东西，不仅在准确率上，而且由于给了更好的输入，模型最终需要使用的推理 token 也更少。"
+ },
+ {
+  "seg": 138,
+  "start": 861.732,
+  "end": 865.394,
+  "speaker": "Unknown",
+  "en": "They're focused less on representing the data and more on the actual outputs.",
+  "zh": "它们更少花在表示数据上，更多花在实际输出上。"
+ },
+ {
+  "seg": 139,
+  "start": 865.714,
+  "end": 870.677,
+  "speaker": "Unknown",
+  "en": "And as a result, they end up driving down latency and also getting to the correct answer more quickly.",
+  "zh": "结果，它们最终降低了延迟，也更快得到正确答案。"
+ },
+ {
+  "seg": 140,
+  "start": 872.568,
+  "end": 892.281,
+  "speaker": "Unknown",
+  "en": "Even once you have that sort of pipeline and you've gone through and you've actually inspected everything in your parsing layer, a lot of human work is going to require actually understanding the range of what you have in your corpus, routing it to the appropriate pipeline and sort of decomposing that problem or even at the end editing and modifying your documents.",
+  "zh": "即使你有了那样的流水线，并且已经把解析层里的一切都实际检查过，很多人类的工作仍将需要真正理解你语料库里的内容范围，把它路由到合适的流水线，对问题进行某种分解，甚至在最后编辑和修改你的文档。"
+ },
+ {
+  "seg": 141,
+  "start": 892.942,
+  "end": 901.167,
+  "speaker": "Unknown",
+  "en": "And so what we try to do is look at this as this problem of how do you make sure that every interaction that a language model has with the document is as effective as if a human would have done it.",
+  "zh": "所以我们尝试做的是把它看作这样一个问题：如何确保语言模型与文档的每一次交互，都像人类做的那样有效。"
+ },
+ {
+  "seg": 142,
+  "start": 901.643,
+  "end": 905.366,
+  "speaker": "Unknown",
+  "en": "If you're filling out a form, how do you make sure that you have precision in where you fill out fields?",
+  "zh": "如果你在填一张表单，如何确保你填字段的位置有精确性？"
+ },
+ {
+  "seg": 143,
+  "start": 906.447,
+  "end": 915.375,
+  "speaker": "Unknown",
+  "en": "And a really good example of this on the orchestration side is I think classification splitting are a very underappreciated way to have an LLM do its best work.",
+  "zh": "在编排方面一个非常好的例子是，我认为分类和切分是让 LLM 发挥最佳水平的一种被严重低估的方式。"
+ },
+ {
+  "seg": 144,
+  "start": 915.775,
+  "end": 918.478,
+  "speaker": "Unknown",
+  "en": "Obviously, you can just go through and dump as much context as you want.",
+  "zh": "显然，你可以直接塞进尽可能多的上下文。"
+ },
+ {
+  "seg": 145,
+  "start": 918.938,
+  "end": 921.66,
+  "speaker": "Unknown",
+  "en": "And if you're doing a sort of needle in the haystack test, that might be fine.",
+  "zh": "如果你做的是那种大海捞针测试，那可能没问题。"
+ },
+ {
+  "seg": 146,
+  "start": 922.121,
+  "end": 926.865,
+  "speaker": "Unknown",
+  "en": "But in practice, there is erosion that you find in quality outside of just the token economics.",
+  "zh": "但在实践中，除了 token 经济学之外，你还会发现质量上有侵蚀。"
+ },
+ {
+  "seg": 147,
+  "start": 927.412,
+  "end": 929.173,
+  "speaker": "Unknown",
+  "en": "As a result of passing in too much.",
+  "zh": "这是传入太多内容的结果。"
+ },
+ {
+  "seg": 148,
+  "start": 930.094,
+  "end": 938.601,
+  "speaker": "Unknown",
+  "en": "And instead what we find is you can get a lot of headroom by thinking through things like how do you classify the right documents to the right sort of pipeline?",
+  "zh": "相反，我们发现通过想清楚诸如如何把正确的文档分类到合适的流水线这类问题，可以获得很大的提升空间。"
+ },
+ {
+  "seg": 149,
+  "start": 939.361,
+  "end": 944.245,
+  "speaker": "Unknown",
+  "en": "And even for large documents, how do you make sure that you're passing in the snippets that are actually relevant?",
+  "zh": "甚至对于大型文档，如何确保你传入的片段是真正相关的？"
+ },
+ {
+  "seg": 150,
+  "start": 944.866,
+  "end": 947.668,
+  "speaker": "Unknown",
+  "en": "We see use cases where people will have things like paper mail.",
+  "zh": "我们看到一些用例,比如人们会有纸质邮件之类的东西。"
+ },
+ {
+  "seg": 151,
+  "start": 948.529,
+  "end": 951.231,
+  "speaker": "Unknown",
+  "en": "And these paper mail packets can be hundreds of pages long.",
+  "zh": "这些纸质邮件包可能有几百页长。"
+ },
+ {
+  "seg": 152,
+  "start": 951.751,
+  "end": 954.073,
+  "speaker": "Unknown",
+  "en": "You don't necessarily know what is going to be contained within it.",
+  "zh": "你不一定知道里面会包含什么内容。"
+ },
+ {
+  "seg": 153,
+  "start": 954.693,
+  "end": 967.936,
+  "speaker": "Unknown",
+  "en": "You might have issues like a person interleave the content and having the model do that sort of work is almost like a distraction from the work that you're actually trying to achieve which might be extracting the data from the paper, mail, reasoning on it or making a decision.",
+  "zh": "你可能会遇到诸如有人把内容交错在一起的问题,而让模型去做那种工作,几乎是对你真正想完成的工作的一种干扰,那个工作可能是从纸质邮件中提取数据、对数据进行推理或者做决策。"
+ },
+ {
+  "seg": 154,
+  "start": 970.817,
+  "end": 982.5,
+  "speaker": "Unknown",
+  "en": "Again, I mentioned earlier that the second half I think is a more interesting piece which is once you have this sort of initial classification and splitting layer and you've figured out sorting,",
+  "zh": "再次说明,我之前提到过,后半部分我认为是更有意思的部分,也就是一旦你有了这种初始的分类和拆分层,并且你已经搞清楚了排序,"
+ },
+ {
+  "seg": 155,
+  "start": 984.032,
+  "end": 995.014,
+  "speaker": "Unknown",
+  "en": "I think the thing that we are really excited about as a team is agent harnesses have been this really, really interesting frontier to push past what canonically used to be hard unsolved problems.",
+  "zh": "我认为我们团队真正感到兴奋的是,智能体工具框架(harness)一直是把过去经典的难题推过难关的非常非常有趣的前沿。"
+ },
+ {
+  "seg": 156,
+  "start": 996.375,
+  "end": 999.675,
+  "speaker": "Unknown",
+  "en": "One good example of this that I'll talk about in a second is things like line charts.",
+  "zh": "我稍后会谈到的一个好例子就是折线图之类的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 1000.535,
+  "end": 1012.718,
+  "speaker": "Unknown",
+  "en": "We work with many of the largest hedge funds in the world and things like line charts historically have been really, really difficult because one, they're in imaged format, but two, there's a lot of pixel level granularity that if you're doing anything with a traditional vision encoder,",
+  "zh": "我们与世界上许多最大的对冲基金合作,像折线图这类东西在历史上一直非常非常困难,原因之一是它们是图像格式,其次是有很多像素级的细节,如果你用传统的视觉编码器做任何事情,"
+ },
+ {
+  "seg": 158,
+  "start": 1013.257,
+  "end": 1014.338,
+  "speaker": "Unknown",
+  "en": "You're probably going to lose.",
+  "zh": "你很可能会丢失这些细节。"
+ },
+ {
+  "seg": 159,
+  "start": 1014.378,
+  "end": 1018.482,
+  "speaker": "Unknown",
+  "en": "You're going to get a rough plot of how revenue trended, but you're not going to get the individual data points.",
+  "zh": "你会得到一个关于收入趋势的粗略图,但你不会得到单个的数据点。"
+ },
+ {
+  "seg": 160,
+  "start": 1019.223,
+  "end": 1025.83,
+  "speaker": "Unknown",
+  "en": "And so we've been thinking through how do we give agents the ability to have the right tools to solve for the specific type of problem that you're looking at.",
+  "zh": "所以我们一直在思考如何给智能体提供合适的工具,来解决你所面对的特定类型的问题。"
+ },
+ {
+  "seg": 161,
+  "start": 1026.631,
+  "end": 1027.812,
+  "speaker": "Unknown",
+  "en": "In the case of chart extraction,",
+  "zh": "以图表提取为例,"
+ },
+ {
+  "seg": 162,
+  "start": 1028.464,
+  "end": 1031.767,
+  "speaker": "Unknown",
+  "en": "The chart on the left encodes a massive table of data.",
+  "zh": "左边的图表编码了一张巨大的数据表。"
+ },
+ {
+  "seg": 163,
+  "start": 1031.967,
+  "end": 1036.172,
+  "speaker": "Unknown",
+  "en": "If you actually went through and tried to plot every single pixel, it would be really, really difficult.",
+  "zh": "如果你真的去逐个绘制每一个像素,那会非常非常困难。"
+ },
+ {
+  "seg": 164,
+  "start": 1036.832,
+  "end": 1042.177,
+  "speaker": "Unknown",
+  "en": "But it would also be hard for a model to even approximate the intricacies of the lines in between.",
+  "zh": "而且对于模型来说,要近似线条之间的错综复杂之处也很困难。"
+ },
+ {
+  "seg": 165,
+  "start": 1042.758,
+  "end": 1046.081,
+  "speaker": "Unknown",
+  "en": "And there's no model that out of the box can do this as a single shot problem.",
+  "zh": "没有任何模型能够开箱即用地把这个问题作为单次问题来解决。"
+ },
+ {
+  "seg": 166,
+  "start": 1046.141,
+  "end": 1050.946,
+  "speaker": "Unknown",
+  "en": "What you're seeing on the right is a reconstruction of the markdown table that we're able to generate.",
+  "zh": "你在右边看到的是我们能够生成的 markdown 表格的重建。"
+ },
+ {
+  "seg": 167,
+  "start": 1051.497,
+  "end": 1052.597,
+  "speaker": "Unknown",
+  "en": "Off of the initial line chart.",
+  "zh": "基于初始的折线图。"
+ },
+ {
+  "seg": 168,
+  "start": 1053.058,
+  "end": 1057.139,
+  "speaker": "Unknown",
+  "en": "And the only way that we were able to get there was to have an agent with all sorts of tools.",
+  "zh": "而我们能够做到这一点的唯一方法,就是拥有一个带有一整套工具的智能体。"
+ },
+ {
+  "seg": 169,
+  "start": 1057.239,
+  "end": 1067.862,
+  "speaker": "Unknown",
+  "en": "It has its own code interpreter, it has the ability to visualize the chart that it's generating, and it's iteratively going through, it's finding mistakes in the line chart again and again and again until it's able to get to the final output.",
+  "zh": "它有自己的代码解释器,它能够把它正在生成的图表可视化,然后它迭代地进行,一次又一次又一次地在折线图中发现错误,直到它能够得到最终输出。"
+ },
+ {
+  "seg": 170,
+  "start": 1068.798,
+  "end": 1081.062,
+  "speaker": "Unknown",
+  "en": "That applies for problems like structured extraction as well, where for a while we've had this documents to structured output feature, but you can really take it a step further by having an agent harness around that same sort of task.",
+  "zh": "这同样适用于结构化提取之类的问题,我们已经有这个文档转结构化输出的功能一段时间了,但你真的可以更进一步,在同样这类任务周围加上一个智能体工具框架。"
+ },
+ {
+  "seg": 171,
+  "start": 1081.082,
+  "end": 1085.683,
+  "speaker": "Unknown",
+  "en": "You can have a parent agent go through set validation criteria for sub-agents to follow.",
+  "zh": "你可以让一个父智能体为子智能体设定要遵循的验证标准。"
+ },
+ {
+  "seg": 172,
+  "start": 1086.843,
+  "end": 1091.825,
+  "speaker": "Unknown",
+  "en": "And this means that if you have something like a CBP form with tens of thousands of fields,",
+  "zh": "这意味着,如果你有像 CBP 表单这种有数万个字段的东西,"
+ },
+ {
+  "seg": 173,
+  "start": 1092.471,
+  "end": 1096.293,
+  "speaker": "Unknown",
+  "en": "That's the sort of problem where you end up finding a lot of issues that are silent in nature.",
+  "zh": "那正是那种你会发现很多隐蔽性质问题的场景。"
+ },
+ {
+  "seg": 174,
+  "start": 1096.433,
+  "end": 1098.113,
+  "speaker": "Unknown",
+  "en": "Like you drop contents, you drop rows.",
+  "zh": "比如你丢掉了内容,丢掉了行。"
+ },
+ {
+  "seg": 175,
+  "start": 1098.594,
+  "end": 1105.797,
+  "speaker": "Unknown",
+  "en": "And MicroOne actually released a really good benchmark in the space this morning where there's this like bifurcation in the markets.",
+  "zh": "而且 MicroOne 实际上今天早上在这个领域发布了一个非常好的基准测试,市场上存在这样的分化。"
+ },
+ {
+  "seg": 176,
+  "start": 1105.857,
+  "end": 1109.118,
+  "speaker": "Unknown",
+  "en": "Frontier models with max reasoning are really, really precise.",
+  "zh": "带最大推理的前沿模型非常非常精确。"
+ },
+ {
+  "seg": 177,
+  "start": 1109.178,
+  "end": 1113.52,
+  "speaker": "Unknown",
+  "en": "Like provided that they extracted a row, odds are it's not a hallucinated row, like they actually got it correct.",
+  "zh": "比如说,只要它们提取了一行,那么这一行大概率不是幻觉出来的行,它们真的把它做对了。"
+ },
+ {
+  "seg": 178,
+  "start": 1114.324,
+  "end": 1117.825,
+  "speaker": "Unknown",
+  "en": "But they silently drop a lot of the contents across the benchmark.",
+  "zh": "但它们在整个基准测试中悄悄丢掉了很多内容。"
+ },
+ {
+  "seg": 179,
+  "start": 1117.945,
+  "end": 1119.385,
+  "speaker": "Unknown",
+  "en": "Recall really, really struggles.",
+  "zh": "召回率非常非常挣扎。"
+ },
+ {
+  "seg": 180,
+  "start": 1119.965,
+  "end": 1129.307,
+  "speaker": "Unknown",
+  "en": "On the flip side, a lot of dedicated document processing services are actually behind Frontier models from a precision perspective but close that gap on a recall perspective.",
+  "zh": "另一方面,很多专门的文档处理服务在精确度方面实际上落后于前沿模型,但在召回率方面弥补了这个差距。"
+ },
+ {
+  "seg": 181,
+  "start": 1129.687,
+  "end": 1139.429,
+  "speaker": "Unknown",
+  "en": "And so there's always been this sort of trade-off and it was only with an agent harness that we were able to find that sort of local maximum of both precision and also recall for this sort of task.",
+  "zh": "所以一直存在这种权衡,而只有通过智能体工具框架,我们才能够为这类任务找到精确率和召回率都兼顾的那种局部最优。"
+ },
+ {
+  "seg": 182,
+  "start": 1141.425,
+  "end": 1153.868,
+  "speaker": "Unknown",
+  "en": "The last thing and maybe the most important thing from this talk is that I think at the end of the day evals should underpin all of your decisions and it's been a big part of how we think about our product.",
+  "zh": "最后一点,也许是本次演讲中最重要的一点,我认为归根结底,评估(evals)应该成为你所有决策的基础,这一直是我们思考产品的一个重要部分。"
+ },
+ {
+  "seg": 183,
+  "start": 1153.888,
+  "end": 1165.451,
+  "speaker": "Unknown",
+  "en": "That applies both to off the shelf data sets that you eval against but also to things like real time production monitoring because your production data is going to differ from whatever else you have in your contrived sets.",
+  "zh": "这既适用于你用来评估的现成数据集,也适用于实时生产监控之类的东西,因为你的生产数据会与你人为构造的数据集有所不同。"
+ },
+ {
+  "seg": 184,
+  "start": 1166.411,
+  "end": 1171.212,
+  "speaker": "Unknown",
+  "en": "And I really think it's important to think of evals not as just this like macro level view",
+  "zh": "而且我真的认为,重要的是不要把评估仅仅看作这种宏观层面的视角"
+ },
+ {
+  "seg": 185,
+  "start": 1171.747,
+  "end": 1177.489,
+  "speaker": "Unknown",
+  "en": "But also the best teams that we work with look at evals on a granular level for each step of their pipeline.",
+  "zh": "我们合作的最好的团队,还会在细粒度层面对其流水线的每一步进行评估。"
+ },
+ {
+  "seg": 186,
+  "start": 1177.529,
+  "end": 1184.272,
+  "speaker": "Unknown",
+  "en": "The first thing might be that you want to make sure that the inputs to your pipeline are great, and of course you should eval things like your parsing pipeline.",
+  "zh": "第一件事可能是,你要确保你的流水线的输入是好的,当然你应该评估你的解析流水线之类的东西。"
+ },
+ {
+  "seg": 187,
+  "start": 1184.832,
+  "end": 1198.657,
+  "speaker": "Unknown",
+  "en": "But even perfect parsing with a horrible retrieval pipeline is not going to help if you're not passing the right context, and so it's important that you're thinking through details like your retrieval pipeline, your formatting at the end of the pipeline, and also ultimately the most important thing",
+  "zh": "但即使解析完美,如果检索流水线很糟糕,而且你没有传入正确的上下文,那也无济于事,所以重要的是你要想清楚像你的检索流水线、流水线末端的格式化这些细节,还有最终最重要的事情"
+ },
+ {
+  "seg": 188,
+  "start": 1199.292,
+  "end": 1201.933,
+  "speaker": "Unknown",
+  "en": "is are you able to improve end agent performance?",
+  "zh": "是你能否提升端到端智能体的性能?"
+ },
+ {
+  "seg": 189,
+  "start": 1204.013,
+  "end": 1208.455,
+  "speaker": "Unknown",
+  "en": "I'll close off just with a sense of where we are headed and where we've seen the industry head.",
+  "zh": "最后我想简单讲一下我们的方向,以及我们看到行业的发展方向。"
+ },
+ {
+  "seg": 190,
+  "start": 1209.855,
+  "end": 1217.737,
+  "speaker": "Unknown",
+  "en": "The most important thing, I think, is as agents get better and better, you can deviate from the sort of deterministic pipeline that you would have had a few years ago.",
+  "zh": "我认为最重要的事情是,随着智能体越来越好,你可以偏离你几年前会有的那种确定性流水线。"
+ },
+ {
+  "seg": 191,
+  "start": 1218.338,
+  "end": 1223.339,
+  "speaker": "Unknown",
+  "en": "A lot of our customers will actually create effectively a file system for their agent to go through and navigate.",
+  "zh": "我们的很多客户实际上会为他们的智能体有效地创建一个文件系统,让智能体去遍历和导航。"
+ },
+ {
+  "seg": 192,
+  "start": 1223.826,
+  "end": 1226.507,
+  "speaker": "Unknown",
+  "en": "And let the agent decide what sorts of tools it wants to use.",
+  "zh": "然后让智能体决定它想使用什么样的工具。"
+ },
+ {
+  "seg": 193,
+  "start": 1226.667,
+  "end": 1236.609,
+  "speaker": "Unknown",
+  "en": "So we created a CLI where instead of people creating an end-to-end pipeline where documents always follow one specific flow, the agent will decide if it needs to read a certain type of document.",
+  "zh": "所以我们创建了一个 CLI,与其让人们创建一个文档总是遵循单一特定流程的端到端流水线,不如让智能体决定它是否需要读取某种类型的文档。"
+ },
+ {
+  "seg": 194,
+  "start": 1237.149,
+  "end": 1238.829,
+  "speaker": "Unknown",
+  "en": "And they'll split that into two sets.",
+  "zh": "他们会把它拆分成两部分。"
+ },
+ {
+  "seg": 195,
+  "start": 1239.39,
+  "end": 1242.45,
+  "speaker": "Unknown",
+  "en": "One is a content field which the agent can read as it needs to.",
+  "zh": "一部分是内容字段,智能体可以按需读取。"
+ },
+ {
+  "seg": 196,
+  "start": 1243.21,
+  "end": 1245.631,
+  "speaker": "Unknown",
+  "en": "But the other is all the metadata that you would have wanted.",
+  "zh": "但另一部分是你本来会想要的全部元数据。"
+ },
+ {
+  "seg": 197,
+  "start": 1245.791,
+  "end": 1249.712,
+  "speaker": "Unknown",
+  "en": "If you're doing things like citations, you may want bounding boxes, so on and so forth.",
+  "zh": "如果你在做引用之类的事情,你可能需要边界框,诸如此类。"
+ },
+ {
+  "seg": 198,
+  "start": 1251.92,
+  "end": 1253.32,
+  "speaker": "Unknown",
+  "en": "I'll skip this part on editing.",
+  "zh": "我会跳过关于编辑的这一部分。"
+ },
+ {
+  "seg": 199,
+  "start": 1253.42,
+  "end": 1255.441,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of interesting work being done here.",
+  "zh": "我认为这里有很多有趣的工作正在进行。"
+ },
+ {
+  "seg": 200,
+  "start": 1255.521,
+  "end": 1261.742,
+  "speaker": "Unknown",
+  "en": "We've already released some of it, but in the next few months, you will see us look more and more towards things like document generation.",
+  "zh": "我们已经发布了其中一部分，但在接下来的几个月里，你会看到我们越来越多地朝向诸如文档生成之类的方向。"
+ },
+ {
+  "seg": 201,
+  "start": 1262.562,
+  "end": 1269.464,
+  "speaker": "Unknown",
+  "en": "But the recap for today, and I really appreciate your time, is one, I highly recommend that you decompose the parsing problem.",
+  "zh": "但今天的总结，非常感谢你抽出时间，第一，我强烈建议你把解析问题分解开来。"
+ },
+ {
+  "seg": 202,
+  "start": 1269.964,
+  "end": 1276.285,
+  "speaker": "Unknown",
+  "en": "To the extent possible, you should think of it as the right tool for the right task so that you can hit that period of frontier of accuracy, cost, and latency.",
+  "zh": "在尽可能的范围内，你应该把它看作是为合适的任务使用合适的工具，这样你才能达到准确性、成本和延迟这一前沿的平衡点。"
+ },
+ {
+  "seg": 203,
+  "start": 1277.191,
+  "end": 1286.844,
+  "speaker": "Unknown",
+  "en": "Two, I think agentic verification is the biggest step change that the industry has had for a while and it's a really good opportunity for you to make sure that you're building pipelines that work in production.",
+  "zh": "第二，我认为智能体验证是这个行业一段时间以来最大的一次跨步式变革，对你来说这是一个非常好的机会，可以确保你构建的管道能在生产环境中正常运作。"
+ },
+ {
+  "seg": 204,
+  "start": 1287.646,
+  "end": 1294.435,
+  "speaker": "Unknown",
+  "en": "Three, I think it takes very little effort but there's a lot of headroom from details like formatting the data for its consumer.",
+  "zh": "第三，我认为这几乎不费什么力气，但在诸如为数据消费者格式化数据这类细节上还有很大的提升空间。"
+ },
+ {
+  "seg": 205,
+  "start": 1295.425,
+  "end": 1302.006,
+  "speaker": "Unknown",
+  "en": "Or similar vein, I think it's really, really important to think about not just the data processing but the data orchestration.",
+  "zh": "或者说在类似的脉络上，我认为非常重要的一点是，不仅要思考数据处理，还要思考数据编排。"
+ },
+ {
+  "seg": 206,
+  "start": 1302.146,
+  "end": 1306.907,
+  "speaker": "Unknown",
+  "en": "And so you should always think about tools like classify and splits as a way to augment your pipeline.",
+  "zh": "所以你应该始终把像 classify 和 splits 这样的工具视为增强你管道的一种方式。"
+ },
+ {
+  "seg": 207,
+  "start": 1307.667,
+  "end": 1310.388,
+  "speaker": "Unknown",
+  "en": "Five, make sure that you eval at every stage.",
+  "zh": "第五，确保你在每一个阶段都做评估。"
+ },
+ {
+  "seg": 208,
+  "start": 1310.628,
+  "end": 1319.79,
+  "speaker": "Unknown",
+  "en": "And six, think through what that next frontier looks like for you because I think most successful companies in today's era have deviated a lot from what we used to do two, three years ago.",
+  "zh": "第六，想清楚对你的而言下一个前沿是什么样子的，因为我认为当今时代大多数成功的公司都已经与我们两三年前习惯的做法有了很大偏离。"
+ },
+ {
+  "seg": 209,
+  "start": 1321.181,
+  "end": 1324.024,
+  "speaker": "Unknown",
+  "en": "If you have any questions, please feel free to reach out at any point.",
+  "zh": "如果你有任何问题，请随时在任何时候联系我们。"
+ },
+ {
+  "seg": 210,
+  "start": 1324.084,
+  "end": 1326.806,
+  "speaker": "Unknown",
+  "en": "My email is just firstname at reducto.ai.",
+  "zh": "我的邮箱就是名@reducto.ai。"
+ },
+ {
+  "seg": 211,
+  "start": 1327.707,
+  "end": 1330.529,
+  "speaker": "Unknown",
+  "en": "And you can also reach out on our website if we can be helpful for your use case.",
+  "zh": "如果我们能在你的用例上帮上忙，你也可以通过我们的网站联系我们。"
+ },
+ {
+  "seg": 212,
+  "start": 1330.87,
+  "end": 1331.15,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

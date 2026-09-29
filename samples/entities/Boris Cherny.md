@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":347,"沙箱":62,"Claude Code":82,"Opus 5":4,"Anthropic":150,"系统提示词":7,"评估":3,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"沙箱":63,"Claude Code":83,"Opus 5":4,"Anthropic":151,"系统提示词":7,"评估":3,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

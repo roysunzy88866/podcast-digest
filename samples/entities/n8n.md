@@ -26,7 +26,7 @@ unlisted: true
 
 [[智能体]] · [[Zapier]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[工作流]] · [[AI 熟练度]] · [[开源]] · [[编码智能体]] · [[fair-code]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"Zapier":3,"Salesforce":32,"Jan Oberhauser":1,"Wade Foster":2,"工作流":9,"AI 熟练度":2,"开源":27,"编码智能体":22,"fair-code":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"Zapier":3,"Salesforce":32,"Jan Oberhauser":1,"Wade Foster":2,"工作流":9,"AI 熟练度":2,"开源":27,"编码智能体":22,"fair-code":1}</script>
 
 <script>
 (function(){

@@ -107,9 +107,9 @@ jsonLd: |
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同嘉宾:Paul Bakaus · 同公司:Impeccable · 同概念:品味 (taste)、编程 harness (harness)</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|从看护智能体到认知投降：工程师该守住什么]]<span class="pd-rz">同概念:智能体 (agent)、编程 harness (harness)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

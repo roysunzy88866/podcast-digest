@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":60,"OpenAI":139,"ChatGPT":81,"ChatGPT work":1,"harness":46,"智能体":347,"Rust":4,"开源":27,"沙箱":62,"代码审查":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":61,"OpenAI":139,"ChatGPT":81,"ChatGPT work":1,"harness":48,"智能体":350,"Rust":4,"开源":27,"沙箱":63,"代码审查":17}</script>
 
 <script>
 (function(){

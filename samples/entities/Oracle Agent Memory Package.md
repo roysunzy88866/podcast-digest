@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kay Malcolm]] · [[Oracle]] · [[智能体]] · [[harness]] · [[记忆]] · [[上下文窗口]] · [[护栏]] · [[检索]] · [[Codex]] · [[Git]]
 
-<script type="application/json" class="pd-epn">{"Kay Malcolm":1,"Oracle":8,"智能体":347,"harness":46,"记忆":17,"上下文窗口":11,"护栏":65,"检索":3,"Codex":60,"Git":4}</script>
+<script type="application/json" class="pd-epn">{"Kay Malcolm":1,"Oracle":8,"智能体":350,"harness":48,"记忆":17,"上下文窗口":11,"护栏":65,"检索":3,"Codex":61,"Git":4}</script>
 
 <script>
 (function(){

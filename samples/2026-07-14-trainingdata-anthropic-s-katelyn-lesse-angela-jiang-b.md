@@ -139,8 +139,8 @@ Angela 补充了底层逻辑：两年前 harness 是脚手架，要砌两面墙�
 **换个口味**
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:技能 (skills)、评测 (evals)、MCP</span>
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、工具套件 (harness)、提示词缓存 (prompt caching)、评测 (evals)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:MCP、智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

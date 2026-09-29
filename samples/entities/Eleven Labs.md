@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eleven Labs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,10 +18,17 @@ unlisted: true
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(65:55起):本集说它是记忆实现得漂亮的范例：每个客户多个小型智能体的「微智能体」架构，配合各自的上下文记忆。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(19:07起):文本转语音竞争对手，早期也自购 GPU 建集群；先做出色 API、再做创作者产品、再做 Agents 一路滚动，被嘉宾称为超越了 Speechify 的 B2B 业务，且与西方各国政府合作。
 - **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(40:14起):本集引用的真实案例：当时用某家初创 CRM，等仪表盘等了四个月，厌倦后搬去 Salesforce——这让 Keith 最偏执。
+- **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(22:33起):Lon 的首轮选择（估值约五十到一百亿美元）：在 Siri 管理生活的时代，AI 语音是修好语音交互的送分题；观众 Michael Lee Jr. 也独立提名它，称试遍所有 AI 语音工具只有它能用。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-28-twist-the-5-companies-apple-must-buy#^q6]]
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
@@ -30,14 +37,15 @@ unlisted: true
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为被讨论公司(提及)
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 - [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
+- [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[可观测性]] · [[Harry Stebbings]] · [[Salesforce]] · [[Uber]] · [[Lovable]] · [[NVIDIA]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[可观测性]] · [[Harry Stebbings]] · [[Salesforce]] · [[Uber]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"OpenAI":139,"Anthropic":150,"Cursor":70,"可观测性":32,"Harry Stebbings":19,"Salesforce":32,"Uber":14,"Lovable":17,"NVIDIA":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"OpenAI":139,"Anthropic":151,"Cursor":71,"推理":59,"可观测性":32,"Harry Stebbings":19,"Salesforce":32,"Uber":14,"Lovable":17}</script>
 
 <script>
 (function(){

@@ -1,0 +1,136 @@
+{
+  "title_zh": "智能体时代，你的 PDF 数据管道拖后腿了吗",
+  "tldr": "Reducto 联合创始人兼 CEO Deet 讲解为什么 PDF 仍是智能体落地的瓶颈，以及怎么用智能体验证和评估把数据管道做对。",
+  "digest_md": "这一集是 Reducto 联合创始人兼 CEO Deet 的一场 20 分钟演讲。Reducto 是一家做「智能体文档处理平台」的公司，客户包括 Harvey、Lagora、Rogo 等 AI 原生公司，也有全球最大的金融机构和保险公司——这些机构手里有几十年的历史数据，全都锁在 PDF、扫描件、电子表格这些非结构化格式里。到目前为止，Reducto 已经为客户处理了数十亿份文档。他的核心观点：智能体应用正从「信息综合」走向「真正干活」，这让数据质量从一个次要问题变成了整个流水线的命门 [02:59 Deet]。\n\n## 从 RAG 到智能体：坏输入的风险被放大了\n\n几年前大家都在做 RAG(从资料库里检索出相关内容再让模型回答)，应用本质上就是信息综合：企业搜索、问答机器人。今天的关键词换成了智能体——让模型端到端地完成白领工作，不只是从 PDF 里回答问题，还要生成和修改 PDF [03:47 Deet]。\n\n这个转变把数据问题的代价放大了。问答答错了就错了；而当智能体在一批文件上做出多个**会累积复合的决策**、还要拉取多个数据源时，一个坏输入会沿着流水线扩散成系统性风险 [04:19 Deet]。而对很多企业来说，数据天生就是非结构化、分散、多模态的：团队随手把文件丢进 Google Drive、Box,你甚至不知道自己的语料库里到底有什么。\n\n## PDF 为什么至今仍然难\n\nPDF 难，是因为这个格式非常老，而且是为一个完全不同的场景设计的——忠实呈现并打印文档。Deet 见过 1990 年代初给打印机写 PDF 驱动的人。而今天我们想要的是 markdown 式的表示，让智能体能拿来推理。更麻烦的是，人类用视觉编码了大量信息：没有干净网格线的表格、合并单元格、折线图、连人都不好认的手写体——这才是真实语料的长尾 [06:45 Deet]。\n\n有个 benchmark 很能说明问题：数据实验室 Surge 的 GDPPDF 基准，专门测模型能否通读 PDF 并基于内容做判断，连当前最前沿的模型 Fable 也只有约 30% 的成绩 [05:43 Deet]。\n\n## 传统 CV 与 VLM 各有其位\n\nVLM(视觉语言模型，能同时「看懂」图像和文字的模型)本质上是横向通用的，第一次让「像人一样读文档」成为可能，尤其擅长手写体这类传统 OCR 从来搞不定的东西。但它不是万能方案：规模化处理数亿份文档时，你还要确定性、效率这些次要考量 [08:13 Deet]。\n\n他的关键做法是**分解问题**：得益于自动驾驶研究的进步，目标检测这类传统 CV 技术已经比十年前成熟很多，**低于一亿参数的小模型就能很好地检测文档版面**，还能跑在 CPU 上、大规模运行，让你在区域层面就知道哪些部分难处理 [08:43 Deet]。VLM 则用来补语义——识别并纠正流水线中容易犯的错误。\n\n## 智能体 OCR:验证与修正层\n\n由此他提出「agentic OCR」的概念，类比人在回路：先走一遍 CV + VLM 的解析，再加一层**验证与修正**，产出高置信度的结果 [10:29 Deet]。\n\n为什么不能直接「把 OCR 扔给 Gemini、写个漂亮提示词」？因为他们发现，做下一 token 预测式的改写会引入全新的失败案例：太聪明的模型会开始「好心修正」，反而不忠实于原文——比如看到 total 这个词，如果人类在那个表格里算错了，模型有时会自己把数值重新加一遍 [10:06 Deet]。你真正想要的是 token 级别的精准修正：句号错成逗号、零错成字母 O,这些细节在财务场景里极其要命。\n\n## 表格、embedding 与检索：为消费者格式化数据\n\n解析之外还有编排问题。简单表格用 markdown 表示就够了；但合并单元格承载大量语义的复杂表格，markdown 会丢信息——用 HTML 表示，LLM 推理得很好，却浪费大量 token、成本很快上去。所以这是一个动态选择：简单表格走 markdown,复杂表格走 HTML [11:39 Deet]。\n\n但别只考虑语言模型。如果你还要做 embedding(把文本转成向量以便检索)，麻烦来了：真实用户不会把表格数值一一念出来，只会问「收入随时间怎么变化」并假定你检索得到正确的表。而 embedding 模型很难把这种自然语言提问和一大坨 HTML 标签加数字关联起来 [12:35 Deet]。解法几乎不费力气：**为同一张表额外生成一份自然语言表示**——推理时喂 HTML,检索时用自然语言块，两全其美。\n\n更好的输入直接提升最终输出。用同一个 GDPPDF 基准测试，同时给模型原始 PDF 和结构化解析结果，无论 Gemini、Anthropic 还是 OpenAI 的模型，端到端性能都提升；而且不止准确率——模型花在「理解数据」上的推理 token 变少、延迟降低，GPT 5.5 和 Opus 加上好的输入后，开箱即用就能胜过 Fable [14:05 Deet]。\n\n## 分类与切分：被低估的编排手段\n\n另一个被严重低估的手段是分类和切分。无脑塞满上下文，除了 token 成本，质量本身也会被侵蚀。把正确的文档路由到合适的流水线、只传入真正相关的片段，能带来很大提升空间 [15:30 Deet]。他们的真实用例：几百页的纸质邮件包，内容还被人交错在一起——让模型自己理顺这些，是对你真正想做的任务(提取、推理、决策)的干扰。\n\n## 智能体工具框架：攻克折线图与召回率\n\nDeet 认为最令人兴奋的前沿是 agent harness(给智能体配上一整套工具让它自主迭代)。例子一：折线图。他和全球最大的对冲基金合作，折线图编码了巨大的数据表，像素级细节靠传统视觉编码器必丢——没有任何模型能单次搞定。唯一可行的方法是给智能体配代码解释器、让它能把自己生成的图表可视化，然后一次又一次发现折线图中的错误并迭代，最终重建出完整的 markdown 数据表 [17:37 Deet]。\n\n例子二：结构化提取。像有几万个字段的 CBP 表单，问题往往是**隐蔽的**——悄悄丢行、丢内容。今早 MicroOne 发布的基准揭示了市场的分化：带最大推理的前沿模型精确度极高(提取出的行大概率不是幻觉)，但**召回率非常挣扎**，悄悄丢掉很多内容；反过来，专门的文档处理服务精确度落后但召回更好。只有用智能体工具框架——父智能体为子智能体设定验证标准——才能同时拿到精确率和召回率的局部最优 [18:49 Deet]。\n\n## 评估要贯穿每一步\n\n他认为全场最重要的一点：**评估(evals)应该支撑你所有的决策**。既要有现成数据集的评测，也要有实时生产监控——因为生产数据和人为构造的数据集一定不同 [19:13 Deet]。而且别把评估只当宏观视角，最好的团队对流水线**每一步**都做细粒度评估：解析层的输入好不好、检索管道对不对、末端格式化有没有问题，最终落点是——你能否提升端到端智能体的性能？解析完美但检索糟糕，一样白搭。\n\n## 下一站：给智能体一个文件系统\n\n随着智能体变强，你可以放弃几年前那种确定性流水线。Reducto 做了一个 CLI:不再让文档遵循固定流程，而是给智能体建一个可遍历的文件系统，让它自己决定读什么、用什么工具 [20:18 Deet]。文档被拆成两部分：按需读取的内容字段，加上做引用等场景需要的元数据(如边界框)。接下来几个月，他们会往文档生成方向走得更远。\n\n## 本集带走\n\n- **把解析问题分解开**：为合适的任务用合适的工具——小参数 CV 模型管版面检测(还能跑 CPU),VLM 管语义与手写体，才能同时逼近准确率、成本、延迟的前沿。\n- **警惕模型的「好心修正」**：别指望一个提示词让大模型忠实转写，它会把表格算错的地方自己加回去；用 token 级验证修正层，句号/逗号、零/O 这种细节才保得住。\n- **为数据的消费者格式化**：复杂表格给 LLM 用 HTML、给 embedding 用同一张表的自然语言表示——几乎零成本，却直接提升检索命中和最终答案质量。\n- **别忽视编排**：分类与切分(把对的文档送进对的管道、只传相关片段)是被低估的质量杠杆，别让模型浪费时间理几百页交错的纸质邮件。\n- **隐蔽丢行要靠智能体工具框架解**：前沿模型精确但召回差，专门服务相反；父智能体设验证标准、子智能体执行，才能两头兼顾。\n- **每个阶段都做评估**：解析、检索、格式化、端到端，一层层测；并且要监控真实生产数据，别只信构造数据集。",
+  "quotes": [
+    {
+      "en": "And I think a lot of the work that we've done and a lot of the learnings we've had are in this sort of broader thematic context of the scope of AI applications has changed a lot recently from just like information synthesis products to actual agents doing work.",
+      "zh": "我们做的很多工作和获得的经验，都处在一个更大的主题背景下：AI 应用的范畴最近发生了很大变化，从单纯的信息综合产品变成了真正在干活的智能体。",
+      "timestamp": "01:59",
+      "speaker": "Adit Abraham"
+    },
+    {
+      "en": "And so we find that sub 100 million parameter models are really effective for things like detecting the layout of a document.",
+      "zh": "于是我们发现，低于一亿参数的模型在检测文档版面这类事情上非常有效。",
+      "timestamp": "08:43",
+      "speaker": "Adit Abraham"
+    },
+    {
+      "en": "The last thing and maybe the most important thing from this talk is that I think at the end of the day evals should underpin all of your decisions and it's been a big part of how we think about our product.",
+      "zh": "最后一点，也许是本次演讲中最重要的一点：归根结底，评估应该成为你所有决策的基础，这一直是我们思考产品的重要部分。",
+      "timestamp": "19:01",
+      "speaker": "Adit Abraham"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:59",
+      "speaker": "Deet",
+      "en": "And I think a lot of the work that we've done and a lot of the learnings we've had are in this sort of broader thematic context of the scope of AI applications has changed a lot recently from just like information synthesis products to actual agents doing work.",
+      "zh": "我们做的很多工作和获得的经验，都处在一个更大的主题背景下：AI 应用的范畴最近发生了很大变化，从单纯的信息综合产品变成了真正在干活的智能体。"
+    },
+    {
+      "timestamp": "04:25",
+      "speaker": "Deet",
+      "en": "But when agents are making multiple decisions that compound over the course of a source of files, when they're pulling in multiple sources of data, the risk of bad inputs becomes really, really pervasive in your pipeline.",
+      "zh": "但当智能体在一批文件的处理过程中做出多个会累积复合的决策、拉取多个数据来源时，坏输入的风险就会在你的流水线中变得非常非常普遍。"
+    },
+    {
+      "timestamp": "05:43",
+      "speaker": "Deet",
+      "en": "They have this really great benchmark called GDPPDF where even Fable, like current frontier of model intelligence, is at about 30% on their benchmark.",
+      "zh": "他们有一个非常棒的基准测试叫 GDPPDF,即使是 Fable——当前模型智能的前沿——在这个基准上也只有大约 30%。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Deet",
+      "en": "I've met the people that worked on printer drivers for printers to print PDFs in the early 1990s.",
+      "zh": "我见过在 1990 年代初为打印机开发 PDF 打印驱动的人。"
+    },
+    {
+      "timestamp": "06:57",
+      "speaker": "Deet",
+      "en": "I'm sure you've seen the SoftBank slides with goose laying eggs.",
+      "zh": "我相信你们见过软银那些下蛋的鹅的幻灯片。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Deet",
+      "en": "But VLMs are interesting because they are fundamentally horizontal in nature.",
+      "zh": "但 VLM 有趣之处在于它们本质上是横向通用的。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Deet",
+      "en": "And this has been really underappreciated.",
+      "zh": "而这一点一直被严重低估。"
+    },
+    {
+      "timestamp": "08:43",
+      "speaker": "Deet",
+      "en": "And so we find that sub 100 million parameter models are really effective for things like detecting the layout of a document.",
+      "zh": "于是我们发现，低于一亿参数的模型在检测文档版面这类事情上非常有效。"
+    },
+    {
+      "timestamp": "09:30",
+      "speaker": "Deet",
+      "en": "VLMs can now present this sort of idea of what we call agentic OCR.",
+      "zh": "VLM 现在可以呈现出这种我们称之为 agentic OCR 的概念。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Deet",
+      "en": "They'll see the word total and if the human made a mistake in that table, models will actually sometimes go through and add up the values in the table themselves.",
+      "zh": "它们会看到 total 这个词，如果人类在那个表格里犯了错，模型有时真的会把表格里的数值自己加起来。"
+    },
+    {
+      "timestamp": "11:21",
+      "speaker": "Deet",
+      "en": "And it's not a model limitation.",
+      "zh": "而这不是模型的局限。"
+    },
+    {
+      "timestamp": "12:31",
+      "speaker": "Deet",
+      "en": "And they assume that you're going to retrieve the right table when it's relevant.",
+      "zh": "然后假定你在相关的时候会检索到正确的表格。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Deet",
+      "en": "They're focused less on representing the data and more on the actual outputs.",
+      "zh": "它们更少花在表示数据上，更多花在实际输出上。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Deet",
+      "en": "Obviously, you can just go through and dump as much context as you want.",
+      "zh": "显然，你可以直接塞进尽可能多的上下文。"
+    },
+    {
+      "timestamp": "16:53",
+      "speaker": "Deet",
+      "en": "You're probably going to lose.",
+      "zh": "你很可能会丢失这些细节。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Deet",
+      "en": "And there's no model that out of the box can do this as a single shot problem.",
+      "zh": "没有任何模型能够开箱即用地把这个问题作为单次问题来解决。"
+    },
+    {
+      "timestamp": "18:37",
+      "speaker": "Deet",
+      "en": "Recall really, really struggles.",
+      "zh": "召回率非常非常挣扎。"
+    },
+    {
+      "timestamp": "19:01",
+      "speaker": "Deet",
+      "en": "The last thing and maybe the most important thing from this talk is that I think at the end of the day evals should underpin all of your decisions and it's been a big part of how we think about our product.",
+      "zh": "最后一点，也许是本次演讲中最重要的一点：归根结底，评估应该成为你所有决策的基础，这一直是我们思考产品的重要部分。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个听起来很技术、但实际上卡住了很多公司智能体落地的问题：PDF 的数据管道。主讲人是 Reducto 的联合创始人兼 CEO Deet。Reducto 是做智能体文档处理平台的，客户包括 Harvey、Lagora、Rogo 这些 AI 原生公司，也有全球最大的金融机构和保险公司——这些机构手里几十年的数据，全锁在 PDF、扫描件、电子表格里。Reducto 到现在为止，已经处理了数十亿份文档。\n\n先交代背景，这个问题是怎么来的。几年前大家都在做 RAG,就是从资料库里检索内容再让模型回答，应用本质上还是信息综合。但现在关键词换成了智能体——让模型端到端地完成白领工作，不只是回答问题，还要生成和修改文档。这个转变把数据问题的代价放大了：问答答错了就错了，可智能体在一批文件上做的是会累积复合的决策，还会拉多个数据源，一个坏输入会沿着流水线扩散成系统性风险。\n\n那为什么 PDF 这么难？因为这个格式非常老，而且是为一个完全不同的场景设计的——忠实呈现并打印文档，不是给机器推理用的。人类还用视觉编码了大量信息：没有网格线的表格、合并单元格、折线图、连人都不好认的手写体。有多难？有个叫 GDPPDF 的基准，专门测模型能否通读 PDF 并基于内容做判断，连最前沿的模型也只有约 30% 的成绩。\n\n那怎么解？这里有个关键的思路：分解问题。VLM,就是能同时看懂图像和文字的视觉语言模型，第一次让机器像人一样读文档成为可能，手写体尤其擅长。但规模化处理数亿份文档时，你还得考虑确定性和效率。好消息是，得益于自动驾驶研究的积累，传统 CV 技术已经成熟很多——低于一亿参数的小模型就能很好地检测文档版面，还能跑在 CPU 上大规模运行。所以这套流水线是分工的：小模型管版面，VLM 补语义。\n\n在这个基础上，Reducto 提出了智能体 OCR 的概念，类比人在回路：先做一遍解析，再加一层验证与修正。为什么不能直接把 OCR 扔给大模型、写个漂亮提示词完事？因为他们发现，做下一 token 预测式的改写会引入全新的失败案例——太聪明的模型会好心修正，反而不忠实于原文。比如表格里人类把 total 算错了，模型有时会自己重新加一遍数值。但你真正想要的是 token 级别的精准修正，句号错成逗号、零错成字母 O,这种细节在财务场景里要命。\n\n解析之外还有编排。简单表格用 markdown 就够了，复杂表格用 HTML 表示 LLM 推理得好，但浪费 token。所以这是个动态选择。但如果你还要做 embedding 检索，麻烦就来了：真实用户不会念表格数值，只会问收入随时间怎么变化，而 embedding 模型很难把这种提问和一大坨 HTML 标签关联起来。解法几乎不费力气：为同一张表额外生成一份自然语言表示，推理时喂 HTML,检索时用自然语言，两全其美。而且更好的输入确实直接提升输出——用同一个基准测试，给模型好的结构化输入，各家模型端到端性能都提升，延迟还更低。\n\n还有两个容易被低估的手段。一个是分类和切分：把对的文档送进对的管道、只传相关片段，别无脑塞满上下文。另一个是给智能体配一整套工具。折线图就是典型例子：Reducto 和全球最大的对冲基金合作，折线图编码了巨大的数据表，没有任何模型能单次搞定，唯一可行的方法是给智能体配代码解释器，让它反复发现自己画出来的图表里的错误并迭代，最终重建出完整的数据表。结构化提取也一样：像有几万个字段的表单，前沿模型精确度高但召回率挣扎，会悄悄丢内容；只有让父智能体为子智能体设定验证标准，才能同时拿到精确率和召回率。\n\n最后是最重要的一点：评估应该成为你所有决策的基础。既要有现成数据集的评测，也要有实时生产监控，因为生产数据和构造的数据集一定不同。而且别只做宏观评估，最好的团队对流水线每一步都做细粒度评估——解析好不好、检索对不对、格式化有没有问题，最终落点是能不能提升端到端性能。解析完美但检索糟糕，一样白搭。\n\nDeet 有一句话可以作为这一集的注脚：AI 应用的范畴最近发生了很大变化，从单纯的信息综合产品，变成了真正在干活的智能体。而当智能体真正开始干活，你的数据质量，就是整条流水线的命门。"
+}

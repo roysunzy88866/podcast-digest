@@ -146,9 +146,9 @@ Chris 的愿景是[[智能体蜂群|智能体蜂群]](swarm,多智能体分工�
 
 **换个口味**
 
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同概念:Claude Code、harness、MCP</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude Code、智能体 (agents)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、MCP</span>
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agents)</span>
 
 </div>
 </div>

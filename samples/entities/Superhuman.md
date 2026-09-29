@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Superhuman</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Superhuman">SU</div><div class="pi"><h1 class="pt">Superhuman</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Superhuman">SU</div><div class="pi"><h1 class="pt">Superhuman</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(04:33起):本集提到创始人 Frederick 曾在此负责产品，他们借鉴了其极为严格地专注于正确的 ICP（理想客户画像）和快速达到核心产品价值的经验。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:42起):本集说 Superhuman 是高端邮箱产品，早期靠创始人推荐增长，后来触达渐近线，核心 ICP 是创始人，采用「送一个月得一个月」的推荐计划
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(22:32起):本集提到用 browser use 让 Codex 进入 SuperHuman 邮箱设置好所有要发给工厂的邮件
+- **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(16:03起):Lon 第五选：高端邮件/生产力套件，买下它苹果可以一夜之间升级自己积弱多年的邮件和文字类应用。
 
 ## ① 提到它的金句
 
@@ -32,20 +33,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司(提及)
+- [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[GitHub]] · [[Stripe]] · [[ChatGPT]] · [[Madhavan Ramanujam]] · [[Olivia Moore]] · [[Matt Swulinski]] · [[Claire Veva]] · [[Lenny]] · [[Frederick Rankin]]
+[[智能体]] · [[GitHub]] · [[Stripe]] · [[ChatGPT]] · [[Madhavan Ramanujam]] · [[Olivia Moore]] · [[Matt Swulinski]] · [[Claire Veva]] · [[Jacob]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"GitHub":24,"Stripe":39,"ChatGPT":81,"Madhavan Ramanujam":1,"Olivia Moore":1,"Matt Swulinski":1,"Claire Veva":1,"Lenny":68,"Frederick Rankin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"GitHub":24,"Stripe":39,"ChatGPT":81,"Madhavan Ramanujam":1,"Olivia Moore":1,"Matt Swulinski":1,"Claire Veva":1,"Jacob":1,"Lenny":68}</script>
 
 <script>
 (function(){

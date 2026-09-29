@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":22,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":17,"验证器":6,"上下文":20}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy Fajani":3,"TESL":4,"技能":23,"循环":8,"Factory":4,"Tesla 智能体":1,"代码审查":17,"验证器":6,"上下文":22}</script>
 
 <script>
 (function(){

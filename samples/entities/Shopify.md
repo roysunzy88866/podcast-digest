@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Stripe]] · [[Perplexity]] · [[SaaS]] · [[Anthropic]] · [[Amazon]] · [[Twilio]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"OpenAI":139,"ChatGPT":81,"Stripe":39,"Perplexity":7,"SaaS":18,"Anthropic":150,"Amazon":16,"Twilio":3,"Cursor":70}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"OpenAI":139,"ChatGPT":81,"Stripe":39,"Perplexity":8,"SaaS":18,"Anthropic":151,"Amazon":16,"Twilio":3,"Cursor":71}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":8,"智能体控制框架":2,"智能体":347,"智能体记忆":1,"上下文窗口":11,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":63}</script>
+<script type="application/json" class="pd-epn">{"Oracle":8,"智能体控制框架":2,"智能体":350,"智能体记忆":1,"上下文窗口":11,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":64}</script>
 
 <script>
 (function(){

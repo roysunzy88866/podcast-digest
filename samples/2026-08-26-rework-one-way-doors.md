@@ -118,6 +118,13 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「创业与行业」挖下去**
+
+- [[2026-09-28-twist-the-5-companies-apple-must-buy|苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠]]<span class="pd-rz">同嘉宾:Jason</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-07-15-rework-don-39-t-write-it-down|别记客户反馈：37signals 的产品决策逻辑]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>

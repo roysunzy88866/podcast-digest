@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-21-talks-the-dark-arts-of-skill-engineering-paul",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/SQMCtZX3trg.m4a",
+  "duration_sec": 3884.529,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 764,
+  "asr": true,
+  "title_en": "The Dark Arts of Skill Engineering — Paul Bakaus, Renaissance Geek (Impeccable)",
+  "podcast": "精选演讲",
+  "date": "2026-09-21",
+  "added": "2026-09-29",
+  "added_at": "2026-09-29T01:29:48.711Z",
+  "speaker_map": {
+    "SPEAKER_00": "Paul Bakaus"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Paul Bakaus"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展",
+  "guest_name": "Paul Bakaus",
+  "guest_title": "Impeccable 作者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

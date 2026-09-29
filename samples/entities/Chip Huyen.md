@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"后训练":1,"强化学习":1,"评估":3,"RAG":19,"数据准备":1,"测试时计算":4,"系统思维":4,"采样策略":1,"监督微调":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"后训练":1,"强化学习":1,"评估":3,"RAG":20,"数据准备":1,"测试时计算":4,"系统思维":4,"采样策略":1,"监督微调":2}</script>
 
 <script>
 (function(){

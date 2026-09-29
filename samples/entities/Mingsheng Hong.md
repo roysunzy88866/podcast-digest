@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":28,"代码审查":17,"CI-CD":13,"不稳定的测试":1,"智能体循环":5,"提示词缓存":3,"上下文修剪":1,"代码行数":2}</script>
+<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":28,"代码审查":17,"CI-CD":13,"不稳定的测试":1,"智能体循环":5,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
 
 <script>
 (function(){

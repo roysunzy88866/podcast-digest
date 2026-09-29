@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Sofia Puccini]] · [[开源]] · [[Hugging Face]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]] · [[NVIDIA]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":150,"OpenAI":139,"Sofia Puccini":4,"开源":27,"Hugging Face":23,"蒸馏":12,"智能体":347,"Kimi K3":3,"NVIDIA":45,"推理":58}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":151,"OpenAI":139,"Sofia Puccini":4,"开源":27,"Hugging Face":23,"蒸馏":12,"智能体":350,"Kimi K3":3,"NVIDIA":45,"推理":59}</script>
 
 <script>
 (function(){

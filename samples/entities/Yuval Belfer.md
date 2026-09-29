@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":19,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"Anthropic":150}</script>
+<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":20,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"Anthropic":151}</script>
 
 <script>
 (function(){

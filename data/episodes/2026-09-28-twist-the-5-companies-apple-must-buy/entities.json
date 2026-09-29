@@ -1,0 +1,1837 @@
+{
+  "episode_id": "2026-09-28-twist-the-5-companies-apple-must-buy",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-28",
+  "tags": [
+    "并购选秀",
+    "苹果收购哲学",
+    "AI 语音",
+    "本地 AI",
+    "可穿戴设备"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jacob",
+      "type": "person",
+      "role": "host",
+      "name": "Jacob",
+      "file": "Jacob",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            121.129,
+            127.552
+          ],
+          "quote": "I think, Jacob, correct me if I'm wrong, we did actually ask fans and viewers for their own submissions, I think.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1132.562,
+            1135.584
+          ],
+          "quote": "We did get a few submissions, I believe, Jacob.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "lon",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lon",
+      "file": "Lon",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            178.941,
+            180.002
+          ],
+          "quote": "Call it Lon.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 149,
+          "t": [
+            547.191,
+            550.974
+          ],
+          "quote": "So you see Lon's, you know, Apple PlayStation, you see Siri working.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1097.458,
+            1098.079
+          ],
+          "quote": "Me or Lon?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1098.119,
+            1099.379
+          ],
+          "quote": "Who's going to win this, Lon?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1741.139,
+            1746.681
+          ],
+          "quote": "Like if I could have a thick bangle as a man, like, what would that be, Lon, in pop culture?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1879.586,
+            1883.289
+          ],
+          "quote": "So my skin type is different than Lon's, different than yours, Jason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2100.639,
+            2110.067
+          ],
+          "quote": "And Lon, I'm really fascinated by this opportunity here because a lot of this data doesn't exist for research.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2336.271,
+            2337.891
+          ],
+          "quote": "And this is a very critical thing, Lon.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 730,
+          "t": [
+            2806.455,
+            2809.398
+          ],
+          "quote": "Stacey, any interest in making a cloak for Lon and I?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2942.649,
+            2945.271
+          ],
+          "quote": "Benzene and oxybenzone, Lon.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "jason",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason",
+      "file": "Jason",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            796.598,
+            800.642
+          ],
+          "quote": "They're running inference constantly, especially now that they own Perplexity, Jason.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1326.068,
+            1332.91
+          ],
+          "quote": "If you'll recall, when we did ask Jason, we were talking to our next guest about Grok being able to earn its own cash and what that means.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1336.591,
+            1337.091
+          ],
+          "quote": "Hey, Jason.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1367.095,
+            1370.997
+          ],
+          "quote": "Jason, and also, don't forget, I've already told you this, but Grok has money.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1371.097,
+            1372.518
+          ],
+          "quote": "This is a big story, Jason.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1537.475,
+            1544.657
+          ],
+          "quote": "They're a startup that has launched a wearable, Jason, that is built to track your skin's real UV exposure.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1879.586,
+            1883.289
+          ],
+          "quote": "So my skin type is different than Lon's, different than yours, Jason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2266.776,
+            2278.765
+          ],
+          "quote": "So Jason, you pointed out, I think, a really incredible feature that was recently built by our team, which is kind of what kind of protection do we have going right now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2315.426,
+            2316.306
+          ],
+          "quote": "Oh, you're right, Jason.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2444.058,
+            2449.4
+          ],
+          "quote": "But Jason, as you were saying, we also really need to get sun exposure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2715.212,
+            2720.053
+          ],
+          "quote": "I mean, there's all sorts of customization that we can do for you, Jason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2791.768,
+            2795.69
+          ],
+          "quote": "I asked Claude Jason and he says brooches have no gender restriction.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "concept",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集以它为选秀对象：主持人认为苹果的收购哲学向来是回购股票加补强式小技术团队收购（Siri、Touch ID 团队），主张新 CEO John Ternus 停止回购、做几次大豪赌，筛选标准是任何能整合进 iPhone、笔记本、手表、AirPods 和门店的东西，并寻求能取代 iPhone 依赖的千亿美元级收入线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            5.713
+          ],
+          "quote": "I was talking about things Apple could buy under John Ternus, who is the new CEO.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 1,
+          "t": [
+            5.833,
+            24.98
+          ],
+          "quote": "Obviously, Apple's philosophy of buying things is they like to buy back their own stock, and technical teams, the team that built Siri, the team that built Touch ID, they buy these little tiny tuck-in acquisitions of technical teams that can be added to their existing product line, but not robust, full-on products.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 19,
+          "t": [
+            104.962,
+            118.608
+          ],
+          "quote": "We picked out the pool, which are all these potential companies that Apple maybe could buy, and then we'll go- I see this, you got Perplexity, you got Disney, you got Peloton, you got Whoop, you got Sonos, Joe AI, one of our investments, XOLED, Robinhood, tons of great choices.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 24,
+          "t": [
+            137.336,
+            143.439
+          ],
+          "quote": "And then, yeah, the idea would be we'll each pick a roster of what are the five companies that we think Apple should.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 72,
+          "t": [
+            253.159,
+            254.14
+          ],
+          "quote": "It's table stakes for Apple.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 80,
+          "t": [
+            282.563,
+            286.828
+          ],
+          "quote": "And Apple has started to dip their toe in this.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 81,
+          "t": [
+            286.888,
+            295.336
+          ],
+          "quote": "And in fact, they have gotten good at it the last two or three years specifically with Apple TV and a lot of great shows emerging there.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 83,
+          "t": [
+            301.199,
+            317.068
+          ],
+          "quote": "Disney is a large company that if you were to have on your devices every Disney show as part of your Apple one, you take your iPhone to the parks, you know, everything there, why not go big here?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 87,
+          "t": [
+            326.293,
+            340.601
+          ],
+          "quote": "Imagine all those great Disney stores have some Apple products like AirPods for kids that are Mickey Mouse, Minnie Mouse, or a Star Wars laptop, you know, or a Disney Apple watch, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 91,
+          "t": [
+            363.218,
+            370.405
+          ],
+          "quote": "Imagine what you could do if you had, like everything is on, you're already, everything in the park is on your phone, but if Apple and Disney were the same company.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 98,
+          "t": [
+            386.694,
+            390.376
+          ],
+          "quote": "Again, a relative steal if you are Apple.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 101,
+          "t": [
+            395.399,
+            396.239
+          ],
+          "quote": "I think Apple",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 102,
+          "t": [
+            396.259,
+            403.286
+          ],
+          "quote": "Apple immediately gets another device that's in millions and millions of homes that people are obsessed with that they can take and make.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 103,
+          "t": [
+            403.306,
+            405.428
+          ],
+          "quote": "I mean, they could keep it as the Apple PlayStation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 104,
+          "t": [
+            405.628,
+            411.653
+          ],
+          "quote": "They could make it Apple gaming or the center of their new gaming sort of company.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 107,
+          "t": [
+            416.718,
+            417.699
+          ],
+          "quote": "So Apple TV.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 114,
+          "t": [
+            438.255,
+            440.637
+          ],
+          "quote": "So, I mean, imagine the power of Apple-",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 120,
+          "t": [
+            461.945,
+            466.107
+          ],
+          "quote": "You know, is Apple at 5 trillion?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 121,
+          "t": [
+            466.127,
+            466.807
+          ],
+          "quote": "What is Apple at?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 124,
+          "t": [
+            468.708,
+            470.109
+          ],
+          "quote": "Apple's at $4.96 trillion, so $5 trillion.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 140,
+          "t": [
+            509.874,
+            513.497
+          ],
+          "quote": "But eventually Apple will have no choice but to have a robot.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 142,
+          "t": [
+            517.7,
+            521.343
+          ],
+          "quote": "But then they could start working on the Apple A1 robot.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 143,
+          "t": [
+            521.963,
+            524.705
+          ],
+          "quote": "And oh my lord, people would trust an Apple robot.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 144,
+          "t": [
+            525.406,
+            529.349
+          ],
+          "quote": "And it could be extraordinary for Apple.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 146,
+          "t": [
+            534.248,
+            539.595
+          ],
+          "quote": "And Apple is the brand that could convince people like, all right, I'll let the Apple in my home.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 148,
+          "t": [
+            545.109,
+            547.171
+          ],
+          "quote": "Walking through the Apple Store and seeing all this.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 149,
+          "t": [
+            547.191,
+            550.974
+          ],
+          "quote": "So you see Lon's, you know, Apple PlayStation, you see Siri working.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 162,
+          "t": [
+            571.411,
+            577.996
+          ],
+          "quote": "Because Apple, they're in this amazing position of not being invested in just one model or one family models.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 163,
+          "t": [
+            578.277,
+            593.429
+          ],
+          "quote": "They can afford to be totally model agnostic, and Perplexity would be the perfect router and system that you could plug into your Apple device, and now you can use any model that you want and all of these great Perplexity harnesses and products and agents right there.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 183,
+          "t": [
+            671.514,
+            674.296
+          ],
+          "quote": "You know, looking at something like Spotify, they already have Apple Music.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 200,
+          "t": [
+            723.204,
+            729.246
+          ],
+          "quote": "There's nothing at Apple for hosting their apps, hosting software.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 204,
+          "t": [
+            735.228,
+            736.688
+          ],
+          "quote": "And imagine you trust Apple.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 208,
+          "t": [
+            745.836,
+            747.518
+          ],
+          "quote": "You're in the data centers with Apple.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 222,
+          "t": [
+            782.565,
+            788.47
+          ],
+          "quote": "Well, if you think about it, I mean, Apple right now, they're entirely dependent on NVIDIA chips like everybody else.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 223,
+          "t": [
+            788.53,
+            795.056
+          ],
+          "quote": "Imagine owning their own chip company and Etched is exactly the kind of AI chip that Apple desperately needs.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 226,
+          "t": [
+            800.942,
+            807.844
+          ],
+          "quote": "So I feel like, you know, Siri and Apple Intelligence are answering all of these requests, billions and billions of devices.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 228,
+          "t": [
+            812.605,
+            817.566
+          ],
+          "quote": "And, you know, their server-side AI is currently running Apple Silicon, not really designed for this.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 269,
+          "t": [
+            948.902,
+            957.905
+          ],
+          "quote": "One thing that I think is interesting is there's a company on here that has been making sort of preferred niche versions of a lot of the things that Apple already does.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 270,
+          "t": [
+            958.225,
+            963.306
+          ],
+          "quote": "And by just buying the company out, Apple could like upgrade all of its products overnight.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 272,
+          "t": [
+            965.307,
+            981.987
+          ],
+          "quote": "So I think if you imagine your document writing, your emails, everything you're doing on the phone with words, with text, with writing, with productivity, all of these different apps that Apple sort of has been struggling to update or upgrade properly,",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1030.646,
+            1039.477
+          ],
+          "quote": "Whoop and Aura are great, but they kind of already have that sensor stuff handled inside of the Apple Watch, so it would create",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1048.175,
+            1058.259
+          ],
+          "quote": "Yeah, Formula One was the one I was hedging on, actually, because it would be, I mean, if you think about it, like Apple having a huge presence, that's such an elite kind of event now that people are into.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1092.877,
+            1097.418
+          ],
+          "quote": "Who would you rather see as the corporate development person at Apple?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1110.265,
+            1115.59
+          ],
+          "quote": "I feel like Apple TV already is like they're better quality and consistency than Netflix.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1141.468,
+            1145.411
+          ],
+          "quote": "I think the next thing that Apple should maybe be looking into is Boston Dynamics.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1147.012,
+            1150.375
+          ],
+          "quote": "But Apple has spent decades mastering personal computing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1167.384,
+            1175.529
+          ],
+          "quote": "So by acquiring Boston Dynamics, Apple kind of merges the world's most advanced artificial brain with the world's most advanced physical body, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1246.58,
+            1248.442
+          ],
+          "quote": "Apple has a pretty clear pattern with acquisitions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1249.257,
+            1252.598
+          ],
+          "quote": "When a technology becomes important enough to experience, Apple eventually wants to own it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1280.093,
+            1286.839
+          ],
+          "quote": "So for my three acquisitions, I would have Perplexita, number one, because it gives Apple an agent that can actually reach outside of Apple's own ecosystem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1343.152,
+            1350.479
+          ],
+          "quote": "that you raised was which suite of companies would make the most sense for Apple in terms of acquisitions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1397.761,
+            1400.702
+          ],
+          "quote": "I wanted to chime in on the topic of Apple acquisitions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1400.782,
+            1409.006
+          ],
+          "quote": "And so my line of thinking was how can we make Apple products more useful to customers throughout their day?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1429.94,
+            1439.551
+          ],
+          "quote": "And so I think if you combine that with Apple's engineering expertise and their OS expertise, you'd have a very compelling technical product fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1442.044,
+            1452.559
+          ],
+          "quote": "I could see this as being offered in conjunction to the Apple Watch for folks that don't necessarily want to invest in the Apple Watch or walk around with a screen on their wrist.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1458.307,
+            1464.354
+          ],
+          "quote": "And so I could see, so historically, Apple's not done a great job of getting into people's homes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1464.995,
+            1474.907
+          ],
+          "quote": "And so I could see a Sonos acquisition is providing a good jumping off point for tying together things like Apple Music, Siri, Apple TV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1491.136,
+            1495.239
+          ],
+          "quote": "Apple constantly talks about how they are privacy first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1495.379,
+            1508.549
+          ],
+          "quote": "So I could see them kind of offering this premium search functionality within their ecosystem, especially since I can almost guarantee like 99% of Apple users are still using Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1928.933,
+            1935.217
+          ],
+          "quote": "So this is a unique device, but can I get that data, I guess, into Apple HealthKit and then sync it with my...",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "disney",
+      "type": "company",
+      "role": "concept",
+      "name": "Disney",
+      "file": "Disney",
+      "primary": true,
+      "how_described": "Jason 的首轮出其不意之选（市值 1820 亿）：每部苹果设备自带迪士尼内容、iPhone 进乐园全流程打通、迪士尼门店卖米老鼠儿童 AirPods 和星球大战笔记本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            104.962,
+            118.608
+          ],
+          "quote": "We picked out the pool, which are all these potential companies that Apple maybe could buy, and then we'll go- I see this, you got Perplexity, you got Disney, you got Peloton, you got Whoop, you got Sonos, Joe AI, one of our investments, XOLED, Robinhood, tons of great choices.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 82,
+          "t": [
+            295.916,
+            300.719
+          ],
+          "quote": "So I'm not going with Netflix, but I am going with Disney.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 83,
+          "t": [
+            301.199,
+            317.068
+          ],
+          "quote": "Disney is a large company that if you were to have on your devices every Disney show as part of your Apple one, you take your iPhone to the parks, you know, everything there, why not go big here?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 87,
+          "t": [
+            326.293,
+            340.601
+          ],
+          "quote": "Imagine all those great Disney stores have some Apple products like AirPods for kids that are Mickey Mouse, Minnie Mouse, or a Star Wars laptop, you know, or a Disney Apple watch, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 88,
+          "t": [
+            340.681,
+            348.045
+          ],
+          "quote": "So I think they have done things with Disney for the watch faces already with Mickey, but you could start really doing interesting things with that IP.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 89,
+          "t": [
+            348.465,
+            352.569
+          ],
+          "quote": "So I'm gonna go big, I'm gonna go with a curveball, I'm going with Disney as my first.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 90,
+          "t": [
+            353.089,
+            362.878
+          ],
+          "quote": "I mean, you think about all the stuff Disney tries to do at the parks with the interactivity, you know, you put your, they give you the band and then you use that on the ride and then that's how you're interacting.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 91,
+          "t": [
+            363.218,
+            370.405
+          ],
+          "quote": "Imagine what you could do if you had, like everything is on, you're already, everything in the park is on your phone, but if Apple and Disney were the same company.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 117,
+          "t": [
+            455.983,
+            459.424
+          ],
+          "quote": "Disney's at 182 billion market cap right now.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 190,
+          "t": [
+            700.952,
+            704.715
+          ],
+          "quote": "So Disney, you got that entertainment, parks, merchandise, IP.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "boston-dynamics",
+      "type": "company",
+      "role": "concept",
+      "name": "Boston Dynamics",
+      "file": "Boston Dynamics",
+      "primary": true,
+      "how_described": "Jason 第二选：机器人迟早是苹果绕不开的品类，让机器人进家庭是巨大信任问题而「人们会信任一台苹果机器人」；可先让工业业务自主运营再研发苹果 A1 机器人。观众 Lance Seidman 也独立选了它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            496.547,
+            502.269
+          ],
+          "quote": "But I have one that is a, might as well skate to where the puck is going, which is Boston Dynamics.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 136,
+          "t": [
+            502.329,
+            503.89
+          ],
+          "quote": "Boston Dynamics has an interim CEO.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 192,
+          "t": [
+            706.076,
+            707.777
+          ],
+          "quote": "Boston Dynamics, totally new category.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1141.468,
+            1145.411
+          ],
+          "quote": "I think the next thing that Apple should maybe be looking into is Boston Dynamics.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1167.384,
+            1175.529
+          ],
+          "quote": "So by acquiring Boston Dynamics, Apple kind of merges the world's most advanced artificial brain with the world's most advanced physical body, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1185.495,
+            1187.096
+          ],
+          "quote": "He picked Boston Dynamics.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "digitalocean",
+      "type": "company",
+      "role": "concept",
+      "name": "DigitalOcean",
+      "file": "DigitalOcean",
+      "primary": true,
+      "how_described": "Jason 第三选（约 100-200 亿美元、溢价后 250 亿）：面向开发者的云托管公司，苹果没有任何自己的托管/云业务，买下它对标 AWS/Azure，有望长出 500 亿到 1000 亿美元收入线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            715.923,
+            717.623
+          ],
+          "quote": "I'm going to go with DigitalOcean.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 197,
+          "t": [
+            718.143,
+            719.664
+          ],
+          "quote": "DigitalOcean, cloud provider.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 209,
+          "t": [
+            747.618,
+            751.762
+          ],
+          "quote": "And DigitalOcean is like $10, $15 billion, $20 billion, depending on when you would buy it.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "lucid",
+      "type": "company",
+      "role": "concept",
+      "name": "Lucid",
+      "file": "Lucid",
+      "primary": true,
+      "how_described": "Jason 第四选：电动车公司，是他押注「交通出行」品类的入场券，据报道正在开发专属 CyberCab，与 Rivian 五五开中胜出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            898.158,
+            900.719
+          ],
+          "quote": "Two companies that could be available, Rivian and Lucid.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 257,
+          "t": [
+            908.804,
+            912.886
+          ],
+          "quote": "And then you have Lucid, which makes, I believe, a better product line.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 260,
+          "t": [
+            919.21,
+            927.433
+          ],
+          "quote": "Lucid, because Lucid is reportedly working on a dedicated CyberCab, but it's a coin toss there.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 261,
+          "t": [
+            927.493,
+            930.855
+          ],
+          "quote": "So we don't have Lucid, but we'll have them make a little image there again.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 262,
+          "t": [
+            930.895,
+            932.315
+          ],
+          "quote": "We'll throw Lucid in there, yeah.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 264,
+          "t": [
+            933.536,
+            934.776
+          ],
+          "quote": "So Lucid is my number four.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "goai",
+      "type": "company",
+      "role": "concept",
+      "name": "GoAI",
+      "file": "GoAI",
+      "primary": true,
+      "how_described": "Jason 第五选、来自其自家投资组合：押注「本地 AI 是大赢家」的深科技选择，原文稿亦作 Joe AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            487.224,
+            492.166
+          ],
+          "quote": "Now, it'd be very easy for me to pick GoAI, which is one of our, or ExoLabs for local AI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1075.093,
+            1082.175
+          ],
+          "quote": "I'm going to take my chance and pick GoAI, one of our portfolio companies here, because I think local AI is the big winner.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "concept",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "Lon 的首轮选择（估值约五十到一百亿美元）：在 Siri 管理生活的时代，AI 语音是修好语音交互的送分题；观众 Michael Lee Jr. 也独立提名它，称试遍所有 AI 语音工具只有它能用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1353.442,
+            1359.708
+          ],
+          "quote": "So I've tried almost every AI voice tool out there and none of them work except for Eleven Labs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1359.748,
+            1363.752
+          ],
+          "quote": "And Eleven Labs seems like so far ahead of everyone else when it comes to voice.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1364.252,
+            1366.214
+          ],
+          "quote": "So I'll say Eleven Labs.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sony",
+      "type": "company",
+      "role": "concept",
+      "name": "Sony",
+      "file": "Sony",
+      "primary": true,
+      "how_described": "Lon 第二选：被他称为「相对的捡漏」——一次拿下 PlayStation、索尼影业、索尼音乐和西方第一大动漫流媒体 Crunchyroll。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            384.072,
+            384.593
+          ],
+          "quote": "Sony.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 97,
+          "t": [
+            384.753,
+            386.354
+          ],
+          "quote": "I'm picking Sony for number two.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 109,
+          "t": [
+            418.76,
+            420.441
+          ],
+          "quote": "Could suddenly be- Sony Music Group.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 110,
+          "t": [
+            420.521,
+            422.443
+          ],
+          "quote": "Sony Pictures, Sony Music.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 113,
+          "t": [
+            427.707,
+            437.854
+          ],
+          "quote": "And the last one, a lot of people might not realize Sony owns Crunchyroll, the number one anime owner and streaming system in the West, really not even just America.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 118,
+          "t": [
+            459.704,
+            460.325
+          ],
+          "quote": "Sony's 135.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 119,
+          "t": [
+            460.365,
+            461.905
+          ],
+          "quote": "Sony's 134, yeah.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 235,
+          "t": [
+            837.614,
+            841.156
+          ],
+          "quote": "So it's a chunk, but I mean, still less than a Sony-level player.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1107.323,
+            1110.145
+          ],
+          "quote": "Well, I, you know, Sony, I feel like gets them.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1120.235,
+            1125.519
+          ],
+          "quote": "But with Sony, I think they, they, they could essentially, they could become a Netflix rival.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "concept",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": true,
+      "how_described": "Lon 第三选、全场「正确答案」：AI 搜索与智能体公司，苹果没有押注任何单一模型，「完全可以做到模型无关，而 Perplexity 会是完美的路由器」；观众 David Rosenberg 也把它排第一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            104.962,
+            118.608
+          ],
+          "quote": "We picked out the pool, which are all these potential companies that Apple maybe could buy, and then we'll go- I see this, you got Perplexity, you got Disney, you got Peloton, you got Whoop, you got Sonos, Joe AI, one of our investments, XOLED, Robinhood, tons of great choices.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 39,
+          "t": [
+            175.399,
+            176.76
+          ],
+          "quote": "Do it on Perplexity, whatever you got there.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 158,
+          "t": [
+            561.703,
+            563.024
+          ],
+          "quote": "I'm going with perplexity.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 163,
+          "t": [
+            578.277,
+            593.429
+          ],
+          "quote": "They can afford to be totally model agnostic, and Perplexity would be the perfect router and system that you could plug into your Apple device, and now you can use any model that you want and all of these great Perplexity harnesses and products and agents right there.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 164,
+          "t": [
+            593.469,
+            596.712
+          ],
+          "quote": "Perplexity computer just coming on your MacBook Air.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 175,
+          "t": [
+            644.975,
+            647.117
+          ],
+          "quote": "I was going with Perplexity next, so you stole it off the board.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 178,
+          "t": [
+            651.901,
+            657.006
+          ],
+          "quote": "But having their own search as a default, maybe you can switch off Google and pick Perplexity eventually when that deal runs out.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 179,
+          "t": [
+            657.627,
+            660.169
+          ],
+          "quote": "They have their own search engine now driven by Perplexity.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 225,
+          "t": [
+            796.598,
+            800.642
+          ],
+          "quote": "They're running inference constantly, especially now that they own Perplexity, Jason.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1022.975,
+            1025.036
+          ],
+          "quote": "And I would have put perplexity in this slot.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "etched",
+      "type": "company",
+      "role": "concept",
+      "name": "Etched",
+      "file": "Etched",
+      "primary": true,
+      "how_described": "Lon 第四选（估值约 210 亿）：AI 推理专用芯片公司，苹果服务端 AI 目前跑在并非为此设计的 Apple Silicon 上，而 Siri 和 Apple Intelligence 要响应数十亿设备的推理请求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            774.377,
+            779.782
+          ],
+          "quote": "There's a few on here I'd still like, but you know what I think would be an interesting one is etched.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 221,
+          "t": [
+            779.942,
+            781.964
+          ],
+          "quote": "I think I'm going to go Etched for number four.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 223,
+          "t": [
+            788.53,
+            795.056
+          ],
+          "quote": "Imagine owning their own chip company and Etched is exactly the kind of AI chip that Apple desperately needs.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 227,
+          "t": [
+            808.204,
+            812.085
+          ],
+          "quote": "That's the kind of job that Etched is building all of these chips for.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 229,
+          "t": [
+            817.906,
+            821.147
+          ],
+          "quote": "Etched gives them a totally new sort of option in terms of how to run this.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 232,
+          "t": [
+            830.391,
+            832.192
+          ],
+          "quote": "I'll look up Etched's valuation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 234,
+          "t": [
+            833.152,
+            837.594
+          ],
+          "quote": "But let's say $21 billion is what they're saying for Etched.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "type": "company",
+      "role": "concept",
+      "name": "Superhuman",
+      "file": "Superhuman",
+      "primary": true,
+      "how_described": "Lon 第五选：高端邮件/生产力套件，买下它苹果可以一夜之间升级自己积弱多年的邮件和文字类应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            963.887,
+            964.927
+          ],
+          "quote": "And that's superhuman.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 273,
+          "t": [
+            982.447,
+            990.714
+          ],
+          "quote": "Overnight, you get the superior, superhuman, grammarly versions of all of that productivity suite on everybody's phone, on everybody's laptop.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 274,
+          "t": [
+            990.794,
+            997.499
+          ],
+          "quote": "It makes total sense to me that you would load up your MacBook Air and it would just have, you know, superhuman Go as your mail client.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1001.702,
+            1003.444
+          ],
+          "quote": "So yeah, I'm going superhuman number five.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "the90",
+      "type": "company",
+      "role": "concept",
+      "name": "The90",
+      "file": "The90",
+      "primary": true,
+      "how_described": "下半场访谈对象：Stacy Salvey 创办的 299 美元紫外线吊坠，用两个独立三向光电二极管传感器分别实时测量 UVA 与 UVB，App 提供 SunScore（UVB 晒伤、UV 老化、sun debt 阳光欠账），硬件一次性收费、不含订阅。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            1534.115,
+            1537.215
+          ],
+          "quote": "She's the co-founder and CEO of The90.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2654.262,
+            2655.763
+          ],
+          "quote": "The90.com.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fitbit",
+      "type": "company",
+      "role": "concept",
+      "name": "Fitbit",
+      "file": "Fitbit",
+      "primary": false,
+      "how_described": "嘉宾 Stacy 的职业背景：她在 Fitbit 工作了约八年、经历了被 Google 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            1580.094,
+            1585.958
+          ],
+          "quote": "So I've worked at Fitbit for quite a long time, about eight years through the Google acquisition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1919.367,
+            1924.69
+          ],
+          "quote": "And I find, man, I wake up, but my Fitbit, not my Fitbit, my Whoop doesn't record this.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1940.438,
+            1946.399
+          ],
+          "quote": "Because people are Team Aura, Whoop, Fitbit, which is now called Google something.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 535,
+          "t": [
+            1949.34,
+            1954.061
+          ],
+          "quote": "I think I lost all my data because I put my Fitbit scale on and it's like, oh, by the way, there's no more Fitbit.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1955.561,
+            1956.782
+          ],
+          "quote": "Fitbit is now Google Health.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "Lon 称 Perplexity 有出色的智能体产品，可作为插进苹果设备的路由器；观众 David Rosenberg 说「有了智能体，我只需说出我想完成什么，让计算机自己想清楚怎么做」，并说 Perplexity 给了苹果一个能触及自身生态之外的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            59.511,
+            60.672
+          ],
+          "quote": "Northwest Registered Agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            61.833,
+            63.734
+          ],
+          "quote": "Northwest Registered Agent helps you bring it to life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1187.256,
+            1195.701
+          ],
+          "quote": "Regular listeners already know that if you've got a great idea for a new business, our friends at Northwest Registered Agent wanna help you bring it to life.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1203.026,
+            1205.928
+          ],
+          "quote": "So Northwest Registered Agent is now offering",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1228.243,
+            1235.77
+          ],
+          "quote": "Or even if you're already building something amazing, you already got started, Northwest Registered Agent is the best way to establish your new company.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1275.71,
+            1279.973
+          ],
+          "quote": "With an agent, I can just say what I want done and let the computer figure out how to do it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1280.093,
+            1286.839
+          ],
+          "quote": "So for my three acquisitions, I would have Perplexita, number one, because it gives Apple an agent that can actually reach outside of Apple's own ecosystem.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "Lon 在论证收购 Etched 时说：苹果不做模型训练，「一直在不停地跑推理」，Siri 和 Apple Intelligence 响应数十亿台设备的请求正是推理专用芯片的用武之地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            796.598,
+            800.642
+          ],
+          "quote": "They're running inference constantly, especially now that they own Perplexity, Jason.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "local-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地 AI (local AI)",
+      "file": "本地 AI",
+      "primary": true,
+      "how_described": "贯穿全场的主线之一：Jason 以「本地 AI 是大赢家」为由选 GoAI，观众 David Rosenberg 选 Prism ML 理由是把大模型缩小到本地运行、不依赖别人的云，Kristen Dahl 选 LiquidAI 也是看中设备端本地模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            487.224,
+            492.166
+          ],
+          "quote": "Now, it'd be very easy for me to pick GoAI, which is one of our, or ExoLabs for local AI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1011.508,
+            1021.114
+          ],
+          "quote": "It's like a $5 billion private company and thinking ExoLabs for putting Macs together and creating local AI, runway, interesting mid-journey.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1070.385,
+            1073.99
+          ],
+          "quote": "So I think local AI is the big winner.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1075.093,
+            1082.175
+          ],
+          "quote": "I'm going to take my chance and pick GoAI, one of our portfolio companies here, because I think local AI is the big winner.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "sonos",
+      "type": "company",
+      "role": "concept",
+      "name": "Sonos",
+      "file": "Sonos",
+      "primary": false,
+      "how_described": "出现在候选池中，Jason 认为收购它只是小补丁不会改变公司命运；Kristen Dahl 把它列为第三选，视作连接 Apple Music、Siri、Apple TV 与家庭自动化的跳板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            104.962,
+            118.608
+          ],
+          "quote": "We picked out the pool, which are all these potential companies that Apple maybe could buy, and then we'll go- I see this, you got Perplexity, you got Disney, you got Peloton, you got Whoop, you got Sonos, Joe AI, one of our investments, XOLED, Robinhood, tons of great choices.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 185,
+          "t": [
+            676.757,
+            679.538
+          ],
+          "quote": "You look at something like Sonos, I think they could rebuild it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1409.086,
+            1414.668
+          ],
+          "quote": "And so the four that I landed on are LiquidAI, Aura, Sonos, and Kagi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1455.583,
+            1457.846
+          ],
+          "quote": "The third is Sonos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1464.995,
+            1474.907
+          ],
+          "quote": "And so I could see a Sonos acquisition is providing a good jumping off point for tying together things like Apple Music, Siri, Apple TV.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "liquidai",
+      "type": "company",
+      "role": "concept",
+      "name": "LiquidAI",
+      "file": "LiquidAI",
+      "primary": false,
+      "how_described": "Kristen Dahl 的第一选：构建设备端本地模型，专为延迟敏感、功耗算力受限或无网络环境设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 401,
+          "t": [
+            1409.086,
+            1414.668
+          ],
+          "quote": "And so the four that I landed on are LiquidAI, Aura, Sonos, and Kagi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1415.349,
+            1417.17
+          ],
+          "quote": "LiquidAI I'm most interested in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kagi",
+      "type": "company",
+      "role": "concept",
+      "name": "Kagi",
+      "file": "Kagi",
+      "primary": false,
+      "how_described": "Kristen Dahl 的第四选：基于订阅、以隐私为核心卖点的高端搜索服务，契合苹果「隐私优先」的定位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 401,
+          "t": [
+            1409.086,
+            1414.668
+          ],
+          "quote": "And so the four that I landed on are LiquidAI, Aura, Sonos, and Kagi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1477.703,
+            1490.556
+          ],
+          "quote": "And then my fourth is Kagi and they offer a premium subscription-based search service where privacy is kind of their number one selling point and so",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

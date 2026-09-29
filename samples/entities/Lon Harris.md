@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GrokBot":7,"智能体":347,"系统胜过目标":1,"OpenAI":139,"Harvey":14,"Kimi K3":3,"开源":27,"前沿模型":21,"后训练":1,"蒸馏":12}</script>
+<script type="application/json" class="pd-epn">{"GrokBot":7,"智能体":350,"系统胜过目标":1,"OpenAI":139,"Harvey":14,"Kimi K3":3,"开源":27,"前沿模型":21,"后训练":1,"蒸馏":12}</script>
 
 <script>
 (function(){

@@ -9,14 +9,14 @@ cover: "#64748b"
 image: "/covers/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what.jpg"
 description: "How I AI 主播 Claire 演示 TypeSafe 新模型 Jev:这个只做决策、便宜到离谱的小模型怎么分类海量数据、搭配大模型解锁产品。"
 companies: ["[[TypeSafe]]", "[[ChatPRD]]"]
-concepts: ["[[Jev]]", "[[LLM]]", "[[Astra]]", "[[Codex]]", "[[Claude Code]]", "[[分类]]", "[[聚类]]", "[[实时]]"]
+concepts: ["[[Jev]]", "[[LLM]]", "[[Astra]]", "[[Codex]]", "[[Claude Code]]", "[[分类与切分]]", "[[聚类]]", "[[实时]]"]
 category: AI 编程
 tags:
   - AI 编程
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what#post","headline":"Jev 决策模型:9 美分分析 2000 个 PR 的用法全解","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what","mainEntityOfPage":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what","description":"How I AI 主播 Claire 演示 TypeSafe 新模型 Jev:这个只做决策、便宜到离谱的小模型怎么分类海量数据、搭配大模型解锁产品。","datePublished":"2026-09-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what.jpg","about":[{"@type":"Organization","name":"TypeSafe"},{"@type":"Organization","name":"ChatPRD"},{"@type":"Thing","name":"Jev"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"Astra"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"分类 (classification)"},{"@type":"Thing","name":"聚类 (clustering)"},{"@type":"Thing","name":"实时 (real-time)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Jev 决策模型:9 美分分析 2000 个 PR 的用法全解","item":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what#post","headline":"Jev 决策模型:9 美分分析 2000 个 PR 的用法全解","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what","mainEntityOfPage":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what","description":"How I AI 主播 Claire 演示 TypeSafe 新模型 Jev:这个只做决策、便宜到离谱的小模型怎么分类海量数据、搭配大模型解锁产品。","datePublished":"2026-09-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what.jpg","about":[{"@type":"Organization","name":"TypeSafe"},{"@type":"Organization","name":"ChatPRD"},{"@type":"Thing","name":"Jev"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"Astra"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"分类与切分 (classification)"},{"@type":"Thing","name":"聚类 (clustering)"},{"@type":"Thing","name":"实时 (real-time)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Jev 决策模型:9 美分分析 2000 个 PR 的用法全解","item":"https://talk.solomind.cc/2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jev 决策模型:9 美分分析 2000 个 PR 的用法全解</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -32,7 +32,7 @@ jsonLd: |
 > [!info] 关联
 > **公司** [[TypeSafe]] · [[ChatPRD]]
 >
-> **概念** [[Jev]] · [[LLM]] · [[Astra]] · [[Codex]] · [[Claude Code]] · [[分类]] · [[聚类]] · [[实时]]
+> **概念** [[Jev]] · [[LLM]] · [[Astra]] · [[Codex]] · [[Claude Code]] · [[分类与切分]] · [[聚类]] · [[实时]]
 
 这一集是 How I AI 的「[[Jev|Jev]] 周」第一期,主角就是主播本人 Claire——她也是 [[ChatPRD|ChatPRD]](一个 AI 产品经理助手应用)的开发者。最近新模型扎堆发布,但她最想聊的是 [[TypeSafe|TypeSafe]] 刚推出的 Jev:一个快速、便宜、不做「系统一决策」的模型。她说这是她最近体验过的模型里用例爆发最多的一个,过去一周用它完成了她认为价值几十万甚至上百万美元的工作,而 Jev 的 token 花费不到 10 美元(很多还被补贴,比如 Vercel 的 AI gateway 上目前免费)。
 
@@ -44,7 +44,7 @@ Claire 用 TypeSafe 博客里的一张表来解释:左边是普通 [[LLM|LLM]],�
 
 它擅长的是做决策,所以被称为「决策模型」:你给它一个决策,它做出一个决策。需要「聪明的 if 语句」的场景它都行——该往左还是往右?
 
-好的交给这个人、坏的转客服?它还很擅长给数据[[分类|分类]]、跑[[实时|实时]]场景——快到你可以把一个 LLM 放进实时循环里,用其他模型性能根本不够 <button class="pd-ts" data-t="05:21" data-who="Claire" data-en="So it is fast, fast, fast. So you can put an LLM in a real time loop in a way that was not performant enough with these other models. I do want to explain exactly what Jev outputs." aria-label="回原文"></button>。
+好的交给这个人、坏的转客服?它还很擅长给数据[[分类与切分|分类]]、跑[[实时|实时]]场景——快到你可以把一个 LLM 放进实时循环里,用其他模型性能根本不够 <button class="pd-ts" data-t="05:21" data-who="Claire" data-en="So it is fast, fast, fast. So you can put an LLM in a real time loop in a way that was not performant enough with these other models. I do want to explain exactly what Jev outputs." aria-label="回原文"></button>。
 
 ## 它只返回三种东西
 

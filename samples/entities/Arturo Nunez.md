@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":347,"LLM":46,"细节层级":1,"视觉模型":1,"世界模型":8}</script>
+<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":350,"LLM":46,"细节层级":1,"视觉模型":1,"世界模型":8}</script>
 
 <script>
 (function(){

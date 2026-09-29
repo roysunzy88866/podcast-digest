@@ -1,31 +1,31 @@
 ---
-title: 分类 (classification)
-entity_type: 概念
+title: Reducto
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>分类 (classification)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Reducto</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="分类">分类</div><div class="pi"><h1 class="pt">分类 (classification)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Reducto">RE</div><div class="pi"><h1 class="pt">Reducto</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(07:21起):本集把它说成 Jev 最擅长的核心能力:对海量高价值非结构化数据做分类,「产品洞察图谱」做了超过 20 万次分类和成对分组只花约 4 美元。
+- **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(00:21起):本集把它说成:一个智能体文档处理平台(agentic document processing platform),帮助领先 AI 团队与大型金融机构处理 PDF、扫描件、电子表格等非结构化数据,已处理数十亿份文档。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
+- [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jev]] · [[TypeSafe]] · [[LLM]] · [[ChatPRD]] · [[Astra]] · [[Codex]] · [[Claude Code]] · [[聚类]] · [[实时]]
+[[Adit Abraham]] · [[智能体]] · [[RAG]] · [[PDF]] · [[VLM]] · [[OCR]] · [[harness]] · [[评估]] · [[嵌入模型]] · [[非结构化数据]]
 
-<script type="application/json" class="pd-epn">{"Jev":3,"TypeSafe":3,"LLM":46,"ChatPRD":6,"Astra":4,"Codex":60,"Claude Code":82,"聚类":1,"实时":1}</script>
+<script type="application/json" class="pd-epn">{"Adit Abraham":1,"智能体":350,"RAG":20,"PDF":1,"VLM":2,"OCR":3,"harness":48,"评估":3,"嵌入模型":4,"非结构化数据":1}</script>
 
 <script>
 (function(){

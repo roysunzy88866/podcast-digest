@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":35,"推理":58,"智能体":347,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":32}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":35,"推理":59,"智能体":350,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":32}</script>
 
 <script>
 (function(){

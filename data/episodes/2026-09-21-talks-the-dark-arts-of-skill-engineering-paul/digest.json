@@ -1,0 +1,184 @@
+{
+  "title_zh": "技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展",
+  "tldr": "Impeccable 作者 Paul 讲解如何把设计 Skill 做成真正的 harness 扩展：让子智能体互评、强制发散、编写会反击的 hooks 等九种实战技法。",
+  "digest_md": "「提示词是咒语，harness 工程才是魔法。」说这话的是 Paul,Impeccable(一个给 Claude Code、Codex 等编程智能体用的开源前端设计技能，impeccable.style)的作者，更早以前他还创造了 jQuery UI。过去一年他构建大型企业应用时，发现智能体能很快生成能看的界面，但要拉回设计系统非常难，于是从第一个 normalize 技能起步，一路把 Impeccable 打造成了一套「设计 harness」。这场工作坊讲的就是他踩坑踩出来的九种「技能工程的黑暗艺术」——核心论点：**提示词只是入门，构建 skill 时应该把它当成对编程 harness 的扩展来设计**，就像 MCP 一样，而不是「打包起来的一段 prompt」。\n\n先说他起步的地方：Anthropic 的前端设计 skill——约 55 行「命名禁令」，没有脚本、没有路由，纯文字描述。问题是 Slop(AI 生成的千篇一律的垃圾审美)是个移动靶子：早期是紫色渐变，现在变成了「Claude 米色」背景加斜体衬线。禁令有两个致命问题，**第一，禁令只是把问题挪了个地方**——你告诉它别用 Inter,它就去潜空间里抓下一个最近的替代品(比如 Space Grotesque),并没有变得更有创造力。Paul 在这里吃了历史级的苦头：当年他做 jQuery UI,默认主题是橙色，以为大家会改主题，结果一夜之间把整个互联网变成了橙色——中位数就是模型的引力，连 250 行精心打磨的技能散文都拗不过它。\n\n## 第一招：让它争论\n让 Claude Code 或 Codex 评审自己写的代码，等于让学生给自己批作业——它会锚定在自己已创建的东西上，通常打出高分。解法是对抗性提示：**启动两个互不知晓对方存在的子智能体**。Impeccable 的 critique 命令就是这么做的：一个子智能体扮演设计总监，用浏览器工具像人类一样看层级、找 slop;另一个子智能体运行确定性检测器(一个能查出对比度差、字体过多、元素贴边等问题的设计 linter),并收集浏览器证据。主线程最后把两份意见综合成一份平衡的批评。这解决了一个真实陷阱：如果检测器和评估在同一线程里跑，模型看到「500 个问题」就会断定好设计很糟，或者看到「零问题」就把空页面夸成好设计。一句话：**两个盲评胜过一个自信的猜测**。代码审查、安全审计、RFC 批判、输出排序都适用。\n\n但这里有坑：Codex 的权限模型不同，用户不显式授权它就不生成子智能体——分发技能时你没辙。唯一的办法是在技能里明说：「如果有子智能体能力但没权限，立即停下询问用户」。另一个心机：Codex 发现能蒙混过关就蒙混，所以还得写上「如果不能使用子智能体，必须声明你正在给用户降级体验」——**Codex 讨厌承认降级，利用这一点逼它就范**。\n\n## 第二招：用反吸引子强制发散\n禁令只在模型自己的偏好簇里挪动它，想真正发散要主动制造「随机种子」。三种从易到难的做法：① **削掉安全候选**——让模型说出前三个推荐字体然后全部扔掉，重复三次，等于手动切到潜空间更远的地方(但迟早还是会收敛)；② **大量生成 + 盲评子智能体排序**——Paul 做着色器库 Radiant Shaders 时，每次要新创意都得到重复结果，他用「Rihanna 作为一个着色器会是什么样」这种意外种子生成一百个创意，再让一个对会话上下文一无所知的子智能体来排序(必须子智能体，否则它会沿用先前上下文的排序)；③ **用脚本生成随机种子**——Impeccable 启动项目时调用 color.js,里面有 100 多个手工挑选的主色，模型以它为创意火花搭建调色板。同一个简报因此能产出截然不同的结果——「我不想让整个互联网看起来千篇一律」。\n\n## 第三招：像模型一样路由(专家混合)\n把所有东西塞进一个技能，指令遵循会变糊。反例：Anthropic 旧版前端设计 skill 写着「避免系统字体」——这对落地页成立，对产品 UI 恰恰相反(产品要尽量原生)。用巨大的 if-else 块又复杂、费 token、效果差。Impeccable 的做法是**专家混合(Mixture of Experts,多数现代模型的架构思路：按任务激活不同专家)式的技能**：调用 impeccable critique 或 polish 时后台加载不同的 MD 文件；更少人知道的是，它还会根据你的简介判断你是在做品牌向设计(落地页)还是产品设计，然后为两种「语域」加载完全不同的规则。\n\n## 第四招：让运行产生复利\n技能默认没有长期记忆，但技能文件夹就是存储：Claude 里甚至有解析到技能目录的环境变量(其他 harness 暂不支持，可以变通)。Impeccable 在仓库根目录用 .impeccable 文件夹保存每次 critique 的结果，之后哪怕在另一个会话里让它 polish 页面，它也会读取历史 critique 理解「这个页面我们已经发现了什么」；你在 critique 里说过「我不同意这条，我更喜欢我的参考」，它会记住这是用户偏好并在今后尊重它。Paul 自己的高频用法：**让技能跨会话自我派生重构代码，每次只处理一个文件**，上下文随时间累积直到整个代码库完成。\n\n## 第五招：会顶嘴的脚本\n埋在长文里的规则，弱模型会略读。解法是把关键指令从脚本的**标准输出**里给出去：每次调用 Impeccable 都会先跑 context.mjs——它把 ProductMD/DesignMD 注入会话；文件不存在时输出结构化 JSON 明确告诉模型该怎么做；有新版本时提示询问用户是否更新。神奇之处：**同样一句话，从脚本标准输出里出来的，模型遵循度远高于散文里的规则**。短板要清楚：动态输出会破坏提示词缓存，频繁运行、希望整段缓存的场景不适合，交互式场景才划算。\n\n## 第六招：会反击的 hooks\n被动护栏胜过一条没人记得运行的命令。Impeccable 附带设计 hooks,安装时装进 Claude Code、Cursor、Codex 和 GitHub Copilot,每次编辑都触发检查。有个重要的工程细节：**弱模型要用 pre-tool use hook**(直接阻止写文件)而不是 post-tool use hook(写完再提醒去修)，因为后者有些模型不会照做。体验上通常你什么都不用做，模型自己就修正了。别忘了给用户留忽略规则——hooks 有误报，不能配置的话很快会惹人烦。\n\n## 第七招：给浏览器接上活线\n「你没法对着聊天框调像素。」既然把 skill 当 harness 工程，就该问：这个 harness 有哪些能力可以利用？Claude Code 桌面版内置了应用内浏览器，Paul 把它劫持了：Impeccable 启动一个 live poller 小服务器，向开发服务器注入一段脚本；用户在页面上选中元素、选变体数量、点 go,poller 通过服务器端事件收到操作后**自我结束**，并在标准输出里留下一条消息——模型读到消息意识到「发生事了，我该干活」，按技能里写好的指令生成该区块的设计变体再送回页面。用户在浏览器里直接点击接受或按 escape 拒绝，还能画图批注、语音操纵整个页面。这是聊天线程和应用内浏览器两种 harness 能力之间的直连，完全没用 MCP。\n\n## 第八招：为最弱的目标编译\n「在我机器上能跑」在分发技能时是重灾区。「symlink 一下 .claude」只适用于自用，跨 harness 有大量差异：子智能体谁能启动(Claude 可编程调用、Codex 需用户批准、Cursor 多由智能体自决)；Ask User 工具(Codex 有类似工具但仅 plan 模式可用，所以 Impeccable 里写满了「如果你是 Codex,必须停下来提问，你没聪明到能推断上下文」)；后台任务(Claude Code 任务完成会唤醒模型，Codex 不会，所以 live mode 在 Codex 里只能用阻塞聊天线程的前台任务)。模型层面也各有癖好：Gemini 疯狂给图片加悬停动画，Codex 爱糟糕的字距、超圆边框和发丝细边框，而且**告诉 Claude 别字距太宽，它会朝反方向调**——所以规则不能放进同一个作用域。解法：Impeccable **为每个 harness × 每个模型生成专门的构建版本**，含替换变量(按 harness 选对提问工具)和针对各模型的「防过拟合」XML 块。对 GPT 系还有一个绝招：它超爱「gate(关卡)」，所以 Codex 专属的 MD 里就给它八个关卡、要求逐个记录通过结果、不许压缩——因为**如果一个关卡可以被跳过，它就会被跳过**。顺带一提，常见安装工具不认多目录，所以 Paul 自建了 CLI 安装器。\n\n## 怎么验证：evals 与品味的极限\nImpeccable 的每一行都做消融测试(每条规则带唯一标识，移除该行跑全部模型的 eval,再用确定性检测引擎验证确实产生了变化)。他还有一个未开源的 evals 框架，复刻各 harness 的条件与工具，甚至用一个 LLM 扮演用户与另一个 LLM 交互，跨 20 个细分领域(如意大利餐厅)在 GPT-5.5、Opus、Sonnet 等模型上跑。但问到「品味」他给了个犀利的回答：**品味在模型层面解决不了，它从根本上属于人类**——品味稀缺才成立，人人都用就不再有品味；而且模型评估品味特别糟，往往是「极繁主义者」：Gemini 对第一屏内容塞得越多评分越高，所以他有时干脆构建**反转模型响应**的评审员——模型评得越高，大概率越不是好设计。他的评审工具「勉强好于随机」，够当第一轮筛选，最终还得靠人眼。\n\n## 本集带走\n- **先换心智模型**：skill 不是打包的 prompt,而是对用户 harness 的扩展——先问「这个 harness 有哪些能力可以利用」，再动手写。\n- **评审类技能用盲评双智能体**：让两个互不可见的子智能体(人感评估 + 确定性检测)各自出具意见，主线程综合，避免模型给自己打高分。\n- **别用禁令，用发散机制**：扔掉前三推荐、大量生成后让无上下文的子智能体排序、用脚本喂随机种子(color.js 式)，都比「别用 Inter」有效。\n- **关键指令走脚本标准输出**，遵循度远高于散文规则；但注意会破坏提示词缓存，只用于交互式场景。\n- **能被跳过的检查一定会被跳过**：给弱模型上 pre-tool use hooks 阻止写文件、给 GPT 系上必须逐个记录结果的「关卡」，把流程做成不可跳过。\n- **跨 harness 分发要分别编译**：子智能体权限、提问工具、后台任务行为、每个模型的过拟合癖好都不同——按 harness × 模型出专门构建，并永远为指令遵循最弱的模型设计。\n- **发布前过 evals**:哪怕不用消融测试，也该在目标模型上验证； 分发的技能在作者没用过的模型上跑不好，是这个生态最大的烂账。",
+  "quotes": [
+    {
+      "en": "Prompting is a spell, harnessing is a magic.",
+      "zh": "提示词是咒语，harness 工程才是魔法。",
+      "timestamp": "07:10",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "The median is the model's gravity. Even 250 lines of like artisanal, crafted, beautiful skill pros cannot change this.",
+      "zh": "中位数就是模型的引力。即使是 250 行精心手工打造、优美的技能散文也改变不了这一点。",
+      "timestamp": "06:12",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "So overnight I call it the web orange. I thought people would modify the theme, but no they didn't.",
+      "zh": "于是一夜之间，我把整个网络变成了橙色。我以为人们会去修改主题，但不，他们没有。",
+      "timestamp": "06:04",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "So, two blind opinions beat one confident guess.",
+      "zh": "所以，两个盲评胜过一个自信的猜测。",
+      "timestamp": "12:24",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "When you put something out from the exit value, from the standard out of a script, somehow the model will follow it a lot more than before.",
+      "zh": "当你把某个东西从脚本的退出值、从标准输出里输出出来时，不知为何模型对它的遵循度会高得多。",
+      "timestamp": "28:45",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "Beat a command no one remembers to run.",
+      "zh": "(被动护栏)胜过一条没人记得去运行的命令。",
+      "timestamp": "32:34",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "And the most important lesson from this is if the gate can be skipped, it will be.",
+      "zh": "而这里最重要的教训是：如果一个关卡可以被跳过，它就会被跳过。",
+      "timestamp": "48:29",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "Our weaker model has opinions just fine, but what it loses is the discipline to follow yours.",
+      "zh": "较弱的模型有自己的想法没问题，但它失去的是遵循你的想法的纪律。",
+      "timestamp": "47:24",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "Now you can't really tune pixels to a chat box.",
+      "zh": "你没法真正对着一个聊天框调像素。",
+      "timestamp": "34:41",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "I don't think taste can be solved at a model level. I actually think it's a fundamentally human thing.",
+      "zh": "我不认为品味可以在模型层面被解决。我实际上认为它从根本上是一件属于人类的事情。",
+      "timestamp": "56:41",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "Because taste is scarce and unique and once everybody uses the same taste it becomes ubiquitous and then we don't think it's tasteful anymore.",
+      "zh": "因为品味是稀缺且独特的，一旦所有人都使用同样的品味，它就变得无处不在，然后我们就不再觉得它有品味了。",
+      "timestamp": "56:48",
+      "speaker": "Paul Bakaus"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:32",
+      "speaker": "Paul",
+      "en": "Prompting is a spell, harnessing is a magic.",
+      "zh": "提示词是咒语，harness 工程才是魔法。"
+    },
+    {
+      "timestamp": "06:15",
+      "speaker": "Paul",
+      "en": "The median is the model's gravity. Even 250 lines of like artisanal, crafted, beautiful skill pros cannot change this.",
+      "zh": "中位数就是模型的引力。即使是 250 行精心手工打造、优美的技能散文也改变不了这一点。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Paul",
+      "en": "It over applies and then a ban just relocates the model to the next cluster.",
+      "zh": "它会过度泛化，然后一条禁令只是把模型重定位到下一个聚类。"
+    },
+    {
+      "timestamp": "06:06",
+      "speaker": "Paul",
+      "en": "So overnight I call it the web orange. I thought people would modify the theme, but no they didn't.",
+      "zh": "于是一夜之间，我把整个网络变成了橙色。我以为人们会去修改主题，但不，他们没有。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "Paul",
+      "en": "So, two blind opinions beat one confident guess.",
+      "zh": "所以，两个盲评胜过一个自信的猜测。"
+    },
+    {
+      "timestamp": "14:36",
+      "speaker": "Paul",
+      "en": "And Codex hates that. So use that to your advantage.",
+      "zh": "而 Codex 讨厌那样。所以要利用这一点。"
+    },
+    {
+      "timestamp": "20:36",
+      "speaker": "Paul",
+      "en": "Because I didn't want to have the whole internet look like everything else.",
+      "zh": "因为我不想让整个互联网看起来都千篇一律。"
+    },
+    {
+      "timestamp": "28:45",
+      "speaker": "Paul",
+      "en": "When you put something out from the exit value, from the standard out of a script, somehow the model will follow it a lot more than before.",
+      "zh": "当你把某个东西从脚本的退出值、从标准输出里输出出来时，不知为何模型对它的遵循度会高得多。"
+    },
+    {
+      "timestamp": "29:28",
+      "speaker": "Paul",
+      "en": "If you need prompt caching, if you run this skill many, many times, and you want the whole thing to be cached, this is not a good technique to use.",
+      "zh": "如果你需要提示词缓存，如果你会非常频繁地运行这个技能、希望整个过程被缓存，那就不是该用的好技术。"
+    },
+    {
+      "timestamp": "32:34",
+      "speaker": "Paul",
+      "en": "Beat a command no one remembers to run.",
+      "zh": "(被动护栏)胜过一条没人记得去运行的命令。"
+    },
+    {
+      "timestamp": "48:29",
+      "speaker": "Paul",
+      "en": "And the most important lesson from this is if the gate can be skipped, it will be.",
+      "zh": "而这里最重要的教训是：如果一个关卡可以被跳过，它就会被跳过。"
+    },
+    {
+      "timestamp": "47:24",
+      "speaker": "Paul",
+      "en": "Our weaker model has opinions just fine, but what it loses is the discipline to follow yours.",
+      "zh": "较弱的模型有自己的想法没问题，但它失去的是遵循你的想法的纪律。"
+    },
+    {
+      "timestamp": "46:09",
+      "speaker": "Paul",
+      "en": "Because it turns out if you tell Claude not to letter space too much, it will letter space in the exact opposite direction.",
+      "zh": "因为事实证明，如果你告诉 Claude 不要过度使用字距，它就会朝完全相反的方向去调整字距。"
+    },
+    {
+      "timestamp": "34:41",
+      "speaker": "Paul",
+      "en": "Now you can't really tune pixels to a chat box.",
+      "zh": "你没法真正对着一个聊天框调像素。"
+    },
+    {
+      "timestamp": "56:45",
+      "speaker": "Paul",
+      "en": "I don't think taste can be solved at a model level. I actually think it's a fundamentally human thing.",
+      "zh": "我不认为品味可以在模型层面被解决。我实际上认为它从根本上是一件属于人类的事情。"
+    },
+    {
+      "timestamp": "56:48",
+      "speaker": "Paul",
+      "en": "Because taste is scarce and unique and once everybody uses the same taste it becomes ubiquitous and then we don't think it's tasteful anymore.",
+      "zh": "因为品味是稀缺且独特的，一旦所有人都使用同样的品味，它就变得无处不在，然后我们就不再觉得它有品味了。"
+    },
+    {
+      "timestamp": "57:47",
+      "speaker": "Paul",
+      "en": "And so there's an interesting example of the models are often maximalists. They're like, well, more is more, I guess.",
+      "zh": "所以这是一个有趣的例子，说明模型往往是极繁主义者。它们就像，好吧，多多益善，我猜。"
+    },
+    {
+      "timestamp": "59:52",
+      "speaker": "Paul",
+      "en": "I think right now I've seen plenty of skills that are distributed that do not work well in a model that the author didn't use, for example.",
+      "zh": "我认为现在我已经见过很多分发出去的技能，在作者没有用过的模型上运行得并不好。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个挺新、但越来越重要的话题：怎么把一个编程智能体的技能，从一段提示词，做成真正的基础设施扩展。说话的人叫 Paul,你可能听过他的作品——更早以前，他创造了 jQuery UI,这两年做了个开源项目叫 Impeccable,是给 Claude Code、Codex 这类编程智能体用的前端设计技能。过去一年，Paul 在构建大型企业应用时发现，智能体能很快生成能看的界面，但想把它拉回到设计系统里，非常难。于是他从第一个技能起步，把 Impeccable 打造成了一套设计 harness——所谓 harness,就是智能体运行时所依赖的那套环境，包括工具、权限、钩子这些基础设施。这场工作坊讲的，就是他踩坑踩出来的九种技法。核心论点一句话：提示词是咒语，harness 工程才是魔法。写技能时，别把它当成打包起来的一段 prompt,要当成对 harness 的扩展来设计，就像 MCP 那样。\n\n先说 Paul 起步的地方。Anthropic 官方的前端设计技能，大约五十五行命名禁令，没有脚本，没有路由，纯文字描述，告诉模型别用什么字体、别用什么配色。问题在于，AI 生成的那些千篇一律的垃圾审美，是个移动靶子：早期是紫色渐变，现在变成了米色背景加斜体衬线。而禁令有两个致命问题。第一，禁令只是把问题挪了个地方——你告诉模型别用某款字体，它就去潜空间里抓下一个最接近的替代品，并没有变得更有创造力。第二，中位数就是模型的引力。Paul 在这儿吃过历史级的苦头：当年做 jQuery UI,默认主题是橙色，本以为大家会去改主题，结果一夜之间，整个互联网都变成了橙色。哪怕是两百五十行精心打磨的技能散文，也拗不过这个引力。\n\n那怎么办？先从让模型学会争论说起。让 Claude Code 或 Codex 评审自己写的代码，等于让学生给自己批作业——它会锚定在自己已创建的东西上，通常打出高分。Paul 的解法是对抗性提示：启动两个互不知晓对方存在的子智能体。一个扮演设计总监，用浏览器工具像人类一样看页面层级、找问题；另一个运行确定性检测器，就是能查出对比度差、字体过多这类问题的设计 linter,并收集浏览器证据。主线程最后把两份意见综合成一份平衡的批评。这解决了一个真实陷阱：如果检测和评估跑在同一线程里，模型看到五百个问题，就会断定好设计很糟；看到零问题，又可能把空页面夸上天。一句话：两个盲评，胜过一个自信的猜测。\n\n不过禁令的问题还没解决。想真正发散，得主动制造随机种子。最简单的做法是削掉安全候选：让模型说出前三个推荐字体，然后全部扔掉，重复三次，等于手动切到潜空间更远的地方。更彻底的是大量生成加盲评排序——Paul 做着色器库时，每次要新创意都得到重复结果，就用类似“Rihanna 作为一个着色器会是什么样”这种意外种子，生成一百个创意，再让一个对会话上下文一无所知的子智能体来排序。必须是子智能体，否则它会沿用先前上下文的排序。还有更硬核的：用脚本生成随机种子。Impeccable 启动项目时会调用一个内含一百多个手工挑选主色的库，让模型以它为创意火花去搭调色板。同一个简报，因此能产出截然不同的结果——Paul 说，我不想让整个互联网看起来千篇一律。\n\n技能越写越多，又一个问题冒出来了：全塞进一个技能，指令遵循会变糊。一个典型反例是“避免系统字体”这条规则——对落地页成立，对产品界面恰恰相反，产品界面要尽量原生。所以 Paul 做的是专家混合式的技能，调用不同命令时，后台加载不同的规则文件；更少人知道的是，它还会根据你的项目简介判断你在做品牌向设计还是产品设计，然后为这两种语域加载完全不同的规则。\n\n接下来几招，就真正进入 harness 工程的腹地了。第一，让运行产生复利。技能默认没有长期记忆，但技能文件夹本身就是存储——每次评审的结果都存下来，之后哪怕换个会话，模型也能读到历史记录，知道这个页面之前发现过什么，甚至记住你的偏好。第二，关键指令要从脚本的标准输出里给出去。同样一句话，埋在长文里，弱模型会略读；但从脚本输出里出来的，模型遵循度会高得多。当然有代价：动态输出会破坏提示词缓存，所以只适合交互式场景。第三，hooks——会反击的钩子，每次编辑都触发检查，弱模型要用那种直接阻止写文件的前置钩子，而不是写完再提醒，因为有些模型不会照做。被动护栏，胜过一条没人记得去运行的命令。\n\n最惊艳的一招，是给浏览器接上活线。Paul 有句话：你没法对着聊天框调像素。Claude Code 桌面版内置了应用内浏览器，他直接把它劫持了：启动一个小服务器，往开发页面注入脚本，用户在页面上选中元素、点确认，服务器通知模型，模型按技能指令生成设计变体再送回页面，用户在浏览器里点击接受或拒绝，还能画图批注。这是聊天线程和应用内浏览器两种 harness 能力之间的直连，完全没用 MCP。\n\n最后说说分发和验证。跨 harness 分发是重灾区：子智能体的权限不同，提问工具不同，后台任务行为不同，每个模型还各有癖好——告诉 Claude 别字距太宽，它会朝反方向调。所以 Impeccable 为每个 harness、每个模型生成专门的构建版本，并永远为指令遵循最弱的模型设计。发布前还要做消融测试，移除某条规则跑一遍评估，验证确实产生了变化。至于品味，Paul 给了个犀利的回答：品味在模型层面解决不了，它从根本上属于人类。模型评估品味特别糟，有时他干脆构建反转模型响应的评审员——模型评得越高，大概率越不是好设计。\n\n带走一句话就够了：技能不是打包的 prompt,而是对用户 harness 的扩展——先问这个 harness 有哪些能力可以利用，再动手去写。"
+}

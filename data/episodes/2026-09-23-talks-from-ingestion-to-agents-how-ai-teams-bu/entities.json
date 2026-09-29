@@ -1,0 +1,810 @@
+{
+  "episode_id": "2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu",
+  "podcast": "精选演讲",
+  "date": "2026-09-23",
+  "tags": [
+    "智能体",
+    "文档处理",
+    "OCR",
+    "RAG",
+    "评估"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "adit-abraham",
+      "type": "person",
+      "role": "guest",
+      "name": "Adit Abraham",
+      "file": "Adit Abraham",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "reducto",
+      "type": "company",
+      "role": "company",
+      "name": "Reducto",
+      "file": "Reducto",
+      "primary": true,
+      "how_described": "本集把它说成:一个智能体文档处理平台(agentic document processing platform),帮助领先 AI 团队与大型金融机构处理 PDF、扫描件、电子表格等非结构化数据,已处理数十亿份文档。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.515,
+            33.683
+          ],
+          "quote": "My name's Deet, I'm the co-founder and CEO of Reducto, and today we wanted to talk about one of the, I think, really practical, but maybe less sexy parts of building agents that actually work in the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            50.307,
+            52.467
+          ],
+          "quote": "Have any of you used Reducto already?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            328.827,
+            336.908
+          ],
+          "quote": "And the thing that you've probably heard Reducto harp on and others in the space is PDFs are surprisingly still a very hard problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1324.084,
+            1326.806
+          ],
+          "quote": "My email is just firstname at reducto.ai.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "surge",
+      "type": "company",
+      "role": "company",
+      "name": "Surge",
+      "file": "Surge",
+      "primary": false,
+      "how_described": "本集把它说成:一家与许多基础模型公司合作的数据实验室,发布了 GDPPDF 基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            337.449,
+            342.409
+          ],
+          "quote": "I don't know if any of you follow Surge which is a data lab that works with a lot of the foundation model companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microone",
+      "type": "company",
+      "role": "company",
+      "name": "MicroOne",
+      "file": "MicroOne",
+      "primary": false,
+      "how_described": "本集提到它当天早上发布了一个揭示市场精确率/召回率分化的基准测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            1098.594,
+            1105.797
+          ],
+          "quote": "And MicroOne actually released a really good benchmark in the space this morning where there's this like bifurcation in the markets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:正从信息综合走向端到端完成白领工作、会做出累积复合决策的自主系统;数据质量因此成为流水线命门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            161.41,
+            174.117
+          ],
+          "quote": "What we've seen be possible as a result of having agents in a loop, things that we found as a result of being able to use harnesses for different types of tasks, and our learnings around things like evaluations as you go from RAG to building agent products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            551.947,
+            569.72
+          ],
+          "quote": "Off of that idea of semantics, when you're deconstructing this problem and you have a clear sense of where the more nuanced things are, if you've segmented the text on your page and you understand where the handwriting is, you can introduce this notion of a sort of agent in the loop, whereas historically you would have had a human review team go through and annotate and correct mistakes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            984.032,
+            995.014
+          ],
+          "quote": "I think the thing that we are really excited about as a team is agent harnesses have been this really, really interesting frontier to push past what canonically used to be hard unsolved problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1053.058,
+            1057.139
+          ],
+          "quote": "And the only way that we were able to get there was to have an agent with all sorts of tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1068.798,
+            1081.062
+          ],
+          "quote": "That applies for problems like structured extraction as well, where for a while we've had this documents to structured output feature, but you can really take it a step further by having an agent harness around that same sort of task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1081.082,
+            1085.683
+          ],
+          "quote": "You can have a parent agent go through set validation criteria for sub-agents to follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1129.687,
+            1139.429
+          ],
+          "quote": "And so there's always been this sort of trade-off and it was only with an agent harness that we were able to find that sort of local maximum of both precision and also recall for this sort of task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1199.292,
+            1201.933
+          ],
+          "quote": "is are you able to improve end agent performance?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1218.338,
+            1223.339
+          ],
+          "quote": "A lot of our customers will actually create effectively a file system for their agent to go through and navigate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1223.826,
+            1226.507
+          ],
+          "quote": "And let the agent decide what sorts of tools it wants to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1226.667,
+            1236.609
+          ],
+          "quote": "So we created a CLI where instead of people creating an end-to-end pipeline where documents always follow one specific flow, the agent will decide if it needs to read a certain type of document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1239.39,
+            1242.45
+          ],
+          "quote": "One is a content field which the agent can read as it needs to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把它说成:几年前所有应用的主流形态——从语料库检索相关内容再做信息综合(企业搜索、问答机器人),如今正被智能体应用取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            161.41,
+            174.117
+          ],
+          "quote": "What we've seen be possible as a result of having agents in a loop, things that we found as a result of being able to use harnesses for different types of tasks, and our learnings around things like evaluations as you go from RAG to building agent products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            179.632,
+            188.336
+          ],
+          "quote": "If you went to AI Engineer a few years ago, the word that you would have heard in every single talk would have been RAG, and everybody was building some form of RAG application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            661.384,
+            668.429
+          ],
+          "quote": "And a great example of this is if you've built any sort of RAG platform, you've probably had some consideration around things like tables.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pdf",
+      "type": "concept",
+      "role": "concept",
+      "name": "PDF",
+      "file": "PDF",
+      "primary": true,
+      "how_described": "本集把它说成:一个为忠实呈现和打印而设计的古老文件格式,至今仍是很难解析的问题,连前沿模型在 GDPPDF 上也只有约 30%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            139.323,
+            147.956
+          ],
+          "quote": "The bottleneck that people face, why PDFs in particular are hard even though you've probably seen two dozen different PDF processing launches on Twitter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            232.229,
+            238.492
+          ],
+          "quote": "They're trying to create end-to-end work products, not just answer questions from a PDF, but generate and modify PDFs as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            372.066,
+            376.65
+          ],
+          "quote": "I've genuinely met people that have worked on PDF processing longer than I've been alive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            451.033,
+            454.937
+          ],
+          "quote": "For a while, as people would think about any sort of PDF processing problem,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            806.358,
+            817.885
+          ],
+          "quote": "And I talked earlier about the GDP PDF benchmark, which I think is a great illustrative example of what you can see as a result of improving your data pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            818.579,
+            844.792
+          ],
+          "quote": "So what we found is that if you take the same exact benchmark that I mentioned earlier, unfortunately we couldn't test it on Fable because our access was cut, but if you test on other models and you give it both the original PDF but also a structured representation of the PDF, like the parse results here, across models, whether it's Gemini, whether it's Anthropic, or OpenAI, you find that you actually improve end LLM performance just from better inputs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vlm",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLM",
+      "file": "VLM",
+      "primary": true,
+      "how_described": "本集把它说成:本质横向通用、第一次让「像人一样读文档」成为可能的模型,尤其擅长手写体,但规模化时不是万能方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            629.226,
+            644.252
+          ],
+          "quote": "So the way that we see this is agentic OCR is almost like that human in the loop analogy where you have the first inputs go through with a CV plus VLM parse, but then you have a verification and correction layer that ends up leading to a high confidence output.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ocr",
+      "type": "concept",
+      "role": "concept",
+      "name": "OCR",
+      "file": "OCR",
+      "primary": true,
+      "how_described": "本集把它说成:传统 NLP 流水线里的第一遍文本识别;演讲者由此提出「agentic OCR」——在 CV+VLM 解析之上加一层验证与修正。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            458.779,
+            462.2
+          ],
+          "quote": "You'd do a simple OCR pass and then you'd try to post-process that text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            485.953,
+            492.439
+          ],
+          "quote": "And so we found that they were incredible for all sorts of things like handwritten text in a way that traditional OCR just never was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            570.881,
+            574.063
+          ],
+          "quote": "VLMs can now present this sort of idea of what we call agentic OCR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            586.285,
+            606.431
+          ],
+          "quote": "You can apply similar sort of principle here that is not just sending OCR to Gemini, writing a really pretty prompt, asking it nicely to not deviate too much from the original because we find that when you're doing that sort of next token prediction, you introduce net new loss cases where models that are really intelligent will start actually correcting things not faithfully to what was in the document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            629.226,
+            644.252
+          ],
+          "quote": "So the way that we see this is agentic OCR is almost like that human in the loop analogy where you have the first inputs go through with a CV plus VLM parse, but then you have a verification and correction layer that ends up leading to a high confidence output.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工具框架 (harness)",
+      "file": "智能体工具框架",
+      "primary": true,
+      "how_described": "本集把它说成:给智能体配上一整套工具(如代码解释器、可视化)让它自主迭代,是攻克折线图提取和结构化提取中精确率/召回率权衡的前沿手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            1068.798,
+            1081.062
+          ],
+          "quote": "That applies for problems like structured extraction as well, where for a while we've had this documents to structured output feature, but you can really take it a step further by having an agent harness around that same sort of task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1129.687,
+            1139.429
+          ],
+          "quote": "And so there's always been this sort of trade-off and it was only with an agent harness that we were able to find that sort of local maximum of both precision and also recall for this sort of task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成:「应该支撑你所有决策」的东西——既评现成数据集也做实时生产监控,且要对流水线每一步做细粒度评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            735.457,
+            745.203
+          ],
+          "quote": "And the unfortunate thing is whereas in some blanket evals you might have contents that is really trying to do the work for the model and say exactly what you're looking for,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1141.425,
+            1153.868
+          ],
+          "quote": "The last thing and maybe the most important thing from this talk is that I think at the end of the day evals should underpin all of your decisions and it's been a big part of how we think about our product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1166.411,
+            1171.212
+          ],
+          "quote": "And I really think it's important to think of evals not as just this like macro level view",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1171.747,
+            1177.489
+          ],
+          "quote": "But also the best teams that we work with look at evals on a granular level for each step of their pipeline.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embedding)",
+      "file": "嵌入",
+      "primary": true,
+      "how_described": "本集把它说成:把文本转成向量以便检索,但 embedding 模型很难把自然语言提问与一大坨 HTML 标签关联,所以应为同一张表额外生成自然语言表示。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            716.232,
+            717.993
+          ],
+          "quote": "If you're doing anything related to embedding,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            755.413,
+            767.943
+          ],
+          "quote": "And whereas language models can reason through that text effectively, if you're pulling from a large corpus, we find that embedding models really struggle to correlate that natural language human prompt with this messy blob of HTML tags and numbers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            768.592,
+            775.775
+          ],
+          "quote": "And so a big thing that you can do that actually takes very little effort is creating a representation that's more so designed for the embedding model itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "object-detection",
+      "type": "concept",
+      "role": "concept",
+      "name": "目标检测 (object detection)",
+      "file": "目标检测",
+      "primary": false,
+      "how_described": "本集把它说成:受益于自动驾驶研究、比十年前更成熟的传统 CV 技术,低于一亿参数的小模型就能很好检测文档版面并跑在 CPU 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            516.265,
+            522.792
+          ],
+          "quote": "As autonomous vehicle research has gotten better, techniques like object detection are more sophisticated than they were a decade ago.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unstructured",
+      "type": "concept",
+      "role": "concept",
+      "name": "非结构化数据 (unstructured)",
+      "file": "非结构化数据",
+      "primary": true,
+      "how_described": "本集把它说成:企业数据的默认状态——分散在 Google Drive、Box 里、非结构化、多模态,你甚至不知道自己语料库里有什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            38.424,
+            49.186
+          ],
+          "quote": "We primarily have focused on building infrastructure for anybody working with some of the hardest sources of data, which is unstructured images, PDFs, spreadsheets, everything that humans are used to using day to day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            288.536,
+            293.84
+          ],
+          "quote": "And for a lot of enterprises, data is unstructured, it is scattered, and it is multimodal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            305.37,
+            308.271
+          ],
+          "quote": "You're going to have data formats that are unstructured by default.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "classification",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类与切分 (classification)",
+      "file": "分类与切分",
+      "primary": true,
+      "how_described": "本集把它说成:被严重低估的编排手段——把正确的文档路由到合适的流水线、只传真正相关的片段,能带来很大质量提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            906.447,
+            915.375
+          ],
+          "quote": "And a really good example of this on the orchestration side is I think classification splitting are a very underappreciated way to have an LLM do its best work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            970.817,
+            982.5
+          ],
+          "quote": "Again, I mentioned earlier that the second half I think is a more interesting piece which is once you have this sort of initial classification and splitting layer and you've figured out sorting,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recall",
+      "type": "concept",
+      "role": "concept",
+      "name": "召回率 (recall)",
+      "file": "召回率",
+      "primary": true,
+      "how_described": "本集把它说成:结构化提取里隐蔽丢行的核心问题——前沿模型精确但召回差,专门文档服务相反,只有智能体工具框架能两头兼顾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            1117.945,
+            1119.385
+          ],
+          "quote": "Recall really, really struggles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1119.965,
+            1129.307
+          ],
+          "quote": "On the flip side, a lot of dedicated document processing services are actually behind Frontier models from a precision perspective but close that gap on a recall perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1129.687,
+            1139.429
+          ],
+          "quote": "And so there's always been this sort of trade-off and it was only with an agent harness that we were able to find that sort of local maximum of both precision and also recall for this sort of task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": false,
+      "how_described": "本集把它说成:多步骤流水线中需要正确检索、交互与应用修改的对象,传入太多会侵蚀质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            56.7,
+            61.223
+          ],
+          "quote": "I guess helpful context maybe to start is we're an agentic document processing platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            77.573,
+            80.055
+          ],
+          "quote": "And I think that's important context for what we're gonna talk about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            81,
+            93.823
+          ],
+          "quote": "We work with the largest tech companies, global financial institutions, insurance orgs, people that have decades worth of historical data that historically has been really, really hard to actually use outside of a demo context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            119.98,
+            133.663
+          ],
+          "quote": "And I think a lot of the work that we've done and a lot of the learnings we've had are in this sort of broader thematic context of the scope of AI applications has changed a lot recently from just like information synthesis products to actual agents doing work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            194.038,
+            202.942
+          ],
+          "quote": "You would pull in information from some context, whether that's a perfect prompt or a file that a user uploaded, and you would have something like a search product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            277.427,
+            288.036
+          ],
+          "quote": "And that's what we focus on because at the end of the day, a lot of the value of language model tools in the real world only applies in the context to which you apply that intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            319.635,
+            322.636
+          ],
+          "quote": "But it's also going to be about problems like are you retrieving the right context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            322.696,
+            327.337
+          ],
+          "quote": "It's going to be about how do you actually interact with that context and apply modifications to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            361.938,
+            371.786
+          ],
+          "quote": "And the reason why they're hard, I'll come back to that benchmark in a second, is fundamentally PDFs as a file format are both very old but were designed in a very different context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            400.439,
+            404.582
+          ],
+          "quote": "And in the real world, humans encode so much context visually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            718.568,
+            722.49
+          ],
+          "quote": "You're also going to have the secondary problem of retrieval of that context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            915.775,
+            918.478
+          ],
+          "quote": "Obviously, you can just go through and dump as much context as you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1184.832,
+            1198.657
+          ],
+          "quote": "But even perfect parsing with a horrible retrieval pipeline is not going to help if you're not passing the right context, and so it's important that you're thinking through details like your retrieval pipeline, your formatting at the end of the pipeline, and also ultimately the most important thing",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Harvey",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Lagora",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Rogo",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ unlisted: true
 
 [[Base44]] · [[Lenny]] · [[Claude Code]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Cursor]] · [[vibe coding]] · [[LLM]] · [[Maor Shlomo]]
 
-<script type="application/json" class="pd-epn">{"Base44":3,"Lenny":68,"Claude Code":82,"Lovable":17,"Bolt":3,"Replit":17,"Cursor":70,"vibe coding":41,"LLM":46,"Maor Shlomo":1}</script>
+<script type="application/json" class="pd-epn">{"Base44":3,"Lenny":68,"Claude Code":83,"Lovable":17,"Bolt":3,"Replit":17,"Cursor":71,"vibe coding":41,"LLM":46,"Maor Shlomo":1}</script>
 
 <script>
 (function(){

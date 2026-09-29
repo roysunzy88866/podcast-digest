@@ -45,7 +45,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Facebook]] · [[Google]] · [[Apple]] · [[智能体]] · [[网络效应]] · [[Lenny]] · [[Ajay Prakash]] · [[One Schema]] · [[Josh Elman]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":81,"Facebook":16,"Google":49,"Apple":18,"智能体":347,"网络效应":13,"Lenny":68,"Ajay Prakash":1,"One Schema":1,"Josh Elman":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":81,"Facebook":16,"Google":49,"Apple":19,"智能体":350,"网络效应":13,"Lenny":68,"Ajay Prakash":1,"One Schema":1,"Josh Elman":1}</script>
 
 <script>
 (function(){

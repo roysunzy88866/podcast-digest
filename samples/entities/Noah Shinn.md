@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]] [[Maggie Crowley]]
+[[Diogo Almeida]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":2,"智能体":347,"主动性":1,"算力":6,"推理":58,"信任建立":6,"幻觉":11,"抽成率":1,"口碑":3,"Muse":2}</script>
+<script type="application/json" class="pd-epn">{"Instinct":2,"智能体":350,"主动性":1,"算力":6,"推理":59,"信任建立":6,"幻觉":11,"抽成率":1,"口碑":3,"Muse":2}</script>
 
 <script>
 (function(){

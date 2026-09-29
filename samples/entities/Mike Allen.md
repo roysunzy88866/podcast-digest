@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":45,"OpenAI":139,"Anthropic":150,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":22,"封闭模型":2,"沙箱":62}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":45,"OpenAI":139,"Anthropic":151,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":22,"封闭模型":2,"沙箱":63}</script>
 
 <script>
 (function(){

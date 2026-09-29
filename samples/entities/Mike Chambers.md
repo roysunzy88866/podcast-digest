@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":347,"harness 工程":2,"Bedrock AgentCore":1,"MCP":63,"记忆":17,"多租户隔离":1,"可观测性":32,"基础设施即代码":1,"系统提示词":7,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"harness 工程":2,"Bedrock AgentCore":1,"MCP":64,"记忆":17,"多租户隔离":1,"可观测性":32,"基础设施即代码":1,"系统提示词":7,"Kiro":4}</script>
 
 <script>
 (function(){

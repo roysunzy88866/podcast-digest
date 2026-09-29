@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>46</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>48</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -55,6 +55,8 @@ unlisted: true
 - **[[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]]**(25:03起):本集把它说成:Box 自建的智能体工具框架,内置搜索系统、文件系统访问、文本抽取、分块、即时嵌入等工具,比直接把 API 交给 Claude/OpenAI 在准确率和延迟上都明显更好。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(56:06起):本集的反直觉成本发现：同一个模型、同一个版本，换不同的 harness 实际成本差近 2 倍——换 harness 本身就是很大的成本杠杆；配套的治理三件套是预算上限、成本分析、智能路由。
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(16:04起):本集说记录系统公司要么被猎食、要么必须变成智能体接入并展开工作的 harness,模型加 harness 才产生输出,下一场 AI harness 战争正在开始。
+- **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(02:06起):本集反复强调的心智模型:'提示词是咒语,harness 工程才是魔法'——要问'harness 有哪些能力可以利用',利用子智能体、hooks、应用内浏览器等能力
+- **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(17:48起):本集把它说成:给智能体配上一整套工具(如代码解释器、可视化)让它自主迭代,是攻克折线图提取和结构化提取中精确率/召回率权衡的前沿手段。
 - **[[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]]**(00:46起):Waddle 把 harness 当作一种「领域特定性」：包裹 LLM 执行任务的框架，把学到的技能打包成程序、从过去经验向未来智能体蒸馏。
 
 ## ① 提到它的金句
@@ -109,7 +111,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*46 集*
+*48 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -156,15 +158,17 @@ unlisted: true
 - [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]] — 作为概念
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为概念
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为概念(提及)
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为概念
+- [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为概念
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[评估]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[Codex]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"沙箱":62,"Anthropic":150,"Claude Code":82,"Codex":60,"评估":3,"护栏":65,"OpenAI":139,"MCP":63,"推理":58}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"Anthropic":151,"沙箱":63,"Claude Code":83,"评估":3,"Codex":61,"护栏":65,"OpenAI":139,"MCP":64,"上下文":22}</script>
 
 <script>
 (function(){

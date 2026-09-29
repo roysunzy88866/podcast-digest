@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LinkedIn":4,"编码智能体":22,"MCP":63,"剧本":4,"上下文工程":15,"AI 基础设施":4}</script>
+<script type="application/json" class="pd-epn">{"LinkedIn":4,"编码智能体":22,"MCP":64,"剧本":4,"上下文工程":15,"AI 基础设施":4}</script>
 
 <script>
 (function(){

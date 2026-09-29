@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Cursor]] · [[Slack]] · [[Lenny]] · [[Jeffrey Wang]] · [[Will Bryk]] · [[Claire Vo]] · [[go-to-market]] · [[HubSpot]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"ChatGPT":81,"Cursor":70,"Slack":29,"Lenny":68,"Jeffrey Wang":1,"Will Bryk":1,"Claire Vo":5,"go-to-market":12,"HubSpot":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"ChatGPT":81,"Cursor":71,"Slack":29,"Lenny":68,"Jeffrey Wang":1,"Will Bryk":1,"Claire Vo":5,"go-to-market":12,"HubSpot":9}</script>
 
 <script>
 (function(){

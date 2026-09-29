@@ -1,0 +1,172 @@
+{
+  "title_zh": "苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠",
+  "tldr": "主持人 Jason 与 Lon 玩了一场「苹果收购选秀」，各自选出五家最值得苹果收购的公司；随后采访可穿戴初创 The90 的 CEO Stacy Salvey,讲一款实时测量紫外线暴露的智能吊坠。",
+  "digest_md": "这一集是 This Week in Startups 的一期轻松节目：主持人 Jason 和 Lon 借鉴体育选秀和播客里常见的「draft 游戏」，从一个候选池(包括 Perplexity、迪士尼、Peloton、Sonos、Robinhood 等)里各自为苹果选出五家收购标的。规则照搬幻想体育选秀：首轮选择就是你队伍的核心，掷硬币决定谁先选。开场 Jason 先定了调：苹果的收购哲学向来是回购股票加「补强式」小收购——买下造 Siri 的团队、造 Touch ID 的团队那种，而他认为新 CEO John Ternus 应该停止回购，来几次真正的大豪赌，判断标准就是：**任何 iPhone、笔记本、手表、AirPods 和苹果门店能在某种层面上整合进去的东西** [00:25 Jason]。\n\n**Jason 的五家：迪士尼、波士顿动力、DigitalOcean、Lucid、GoAI。** 迪士尼是他首轮的出其不意之选：如果每部苹果设备都自带迪士尼内容、带 iPhone 进乐园全流程打通、迪士尼门店里卖米老鼠儿童 AirPods 和星球大战笔记本，「为什么不大胆一点？」[05:48 Jason]。第二选波士顿动力，理由是机器人迟早是苹果绕不开的品类，而让人把一台机器人放进家里是巨大的信任问题——「人们会信任一台苹果机器人」[08:41 Jason],可以先让工业机器人业务自主运营，再研发「苹果 A1 机器人」。第三选 DigitalOcean(一家面向开发者的云托管公司)，逻辑是苹果没有任何自己的托管/云业务，买下它就能让 MacBook 直接做应用托管、开发者还可能在 App Store 审核上享受优待，对标 AWS,有望长出 500 亿到 1000 亿美元的收入线——他选公司的总原则就是「真正弄清楚如何取代对 iPhone 的依赖」[11:33 Jason]。第四选电动车公司 Lucid(交通出行的入场券)，第五选他自家投资组合里的 GoAI,押注本地 AI。\n\n**Lon 的五家：Eleven Labs、索尼、Perplexity、Etched、Superhuman。** 首轮 Eleven Labs(AI 语音公司)：Siri 管理生活的时代，修好语音交互是送分题，而它估值大约五十到一百亿美元，对苹果只是零头。第二选索尼——他认为是「捡漏」：一次拿下 PlayStation(苹果立刻多了一台进千万家庭的游戏设备)、索尼影业、索尼音乐，还有很多人没注意到的 Crunchyroll(西方第一大动漫流媒体)，从此独家发行从《进击的巨人》到《电锯人》的几乎所有热门动漫 [07:21 Lon]。第三选 Perplexity(AI 搜索与智能体公司)，他觉得这是全场「正确答案」：苹果没有押注任何单一模型，「完全可以做到模型无关，而 Perplexity 会是完美的路由器，插进苹果设备后你想用哪个模型就用哪个」[09:38 Lon]。第四选 AI 芯片公司 Etched:苹果服务端 AI 现在跑在并非为此设计的 Apple Silicon 上，而 Siri 和 Apple Intelligence 要响应数十亿台设备的请求，正是推理专用芯片的用武之地 [13:08 Lon]。第五选 Superhuman(高端邮件/生产力套件)，买下它苹果可以一夜之间升级自己积弱多年的邮件和文字类应用。\n\n节目中还放了几位观众和朋友的连线提名，撞车不少：观众 Lance Seidman 同样选了波士顿动力，理由很漂亮——收购它等于「把世界上最先进的人工大脑和世界上最先进的物理身体合并」[19:27 Lance Seidman];David Rosenberg 给出了一个贯穿全场的框架：**「当某项技术变得足够重要、值得去体验时，苹果最终会想要拥有它」**——Next 带来了 macOS 和 iOS 的地基，PA Semi 让苹果摆脱 Intel,Primesense 带来了 Face ID 的 3D 感应；而 AI 就是这样一个时刻，所以他选 Perplexity、World Labs(空间智能)和 Prism ML(把大模型缩小到本地运行)[20:46 David Rosenberg]。Michael Lee Jr. 同样独立选了 Eleven Labs:「我几乎试遍了市面上所有 AI 语音工具，除了 Eleven Labs 没有一个能用」[22:33 Michael Lee Jr.]。Databricks 的网络安全专家 Kristen Dahl 则选了 LiquidAI(设备端本地小模型)、Aura、Sonos 和主打隐私的付费搜索 Kagi。\n\n**下半场进入创始人访谈：The90 的紫外线吊坠。** 创始人 Stacy Salvey 在 Fitbit 做了约八年、经历了被 Google 收购，之后在上市公司 Movano 做过专为女性设计的智能戒指，拿过 16 个 CES 最佳奖项。两年半前她创立 The90,公司名字就来自出发点：皮肤 90% 的光老化由紫外线照射引起 [26:56 Stacy]。产品是一枚 299 美元、主打优雅设计的模块化吊坠，内置两组独立的三向光电二极管传感器，分别实时测量 UVA 和 UVB——关键在于 UVA 是「让人衰老的紫外线」，UVB 是「让人晒伤的紫外线」，而且每个人肤色、家族史不同，算法会因人而异 [36:33 Stacy]。她的更大判断是：这个数据维度几乎没人做过，全球超过十亿人缺维生素 D,约 60 种健康状况与阳光相关(从湿疹、银屑病到红斑狼疮——狼疮患者晒太多会发作)，而此前没有人在身体上大规模测量过，所以才没人推进 [33:36 Stacy]。App 里的 SunScore 会拆成 UVB 晒伤、UV 老化和「阳光欠账」(sun debt):某天暴晒后，皮肤其实在未来五天里仍在处理那次的损伤 [40:23 Stacy];同时也会提示你要补足昼夜节律光照、维生素 D 和一氧化氮的「进账」。她已经请来爱丁堡大学皮肤科教授 Richard Weller 出任首席医疗官——他是发现紫外线指数较高地区 COVID 死亡率更低的研究者之一，也认同穿戴式测量能大幅提升数据保真度 [43:28 Stacy]。Jason 在访谈里点出真正的想象空间：等有一千到十万个用户的种族、位置、健康数据汇总起来，药企和大学会抢着为这些数据买单，可能大大加速湿疹、皮肤癌等方向的研究。商业模式目前是硬件一次性收费、不含订阅；Jason 给的建议照例直接：永远不要为不完美的 1.0 道歉——「如果你不对自己的 1.0 感到尴尬，那就是你等得太久了」[34:56 Jason]。\n\n## 本集带走\n- **苹果收购的筛选框架**：只看一件事——能不能整合进 iPhone、Mac、手表、AirPods 和零售门店；并追求能长出千亿美元级收入线、替代 iPhone 依赖的品类，而不是小补丁。\n- **两位主持人的完整名单**：Jason 选迪士尼、波士顿动力、DigitalOcean、Lucid、GoAI;Lon 选 Eleven Labs、索尼、Perplexity、Etched、Superhuman——观众提名与之高度重合的是 Eleven Labs 和波士顿动力。\n- **历史规律可参照**：苹果每逢关键技术拐点都会出手——Next(macOS/iOS 地基)、PA Semi(自研芯片、摆脱 Intel)、Primesense(Face ID 的 3D 感应)。\n- **UVA 衰老、UVB 晒伤，要分开测**：晒太阳不是单一的「紫外线指数」，一天里要攒够 UVA 释放一氧化氮、够强的 UVB 合成维生素 D,又不能晒伤——这正是 The90 用两个独立传感器分别测量的原因。\n- **晒伤有五天滞后**：某天暴晒后皮肤要处理近五天，严重晒伤脱皮与黑色素瘤发病率升高相关，所以防护要持续，别只看当天。\n- **创始人启示**：别为早期产品道歉，尽快发布；以及找到「没人规模化测过的数据维度」，可能既是产品护城河，也是药企和科研机构愿意付费的数据资产。",
+  "quotes": [
+    {
+      "en": "I believe John Turner should stop buying back the shares and should take massively big swings.",
+      "zh": "我认为约翰·特努斯应该停止回购股票，应该进行大规模的豪赌。",
+      "timestamp": "00:25",
+      "speaker": "Jason"
+    },
+    {
+      "en": "They can afford to be totally model agnostic, and Perplexity would be the perfect router and system that you could plug into your Apple device, and now you can use any model that you want and all of these great Perplexity harnesses and products and agents right there.",
+      "zh": "他们完全可以做到完全模型无关，而 Perplexity 会是完美的路由器和系统，可以插进你的苹果设备，然后你想用哪个模型就用哪个，所有这些出色的 Perplexity 工具、产品和智能体就在那里。",
+      "timestamp": "09:38",
+      "speaker": "Lon"
+    },
+    {
+      "en": "So by acquiring Boston Dynamics, Apple kind of merges the world's most advanced artificial brain with the world's most advanced physical body, right?",
+      "zh": "所以通过收购波士顿动力，Apple 某种程度上把世界上最先进的人工大脑与世界上最先进的物理身体合并了，对吧？",
+      "timestamp": "19:27",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "When a technology becomes important enough to experience, Apple eventually wants to own it.",
+      "zh": "当某项技术变得足够重要、值得去体验时，Apple 最终会想要拥有它。",
+      "timestamp": "20:49",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "With an agent, I can just say what I want done and let the computer figure out how to do it.",
+      "zh": "有了智能体，我只需说出我想完成什么，让计算机自己想清楚怎么做。",
+      "timestamp": "21:15",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "So I've tried almost every AI voice tool out there and none of them work except for Eleven Labs.",
+      "zh": "我几乎试遍了市面上所有的 AI 语音工具，除了 Eleven Labs 之外没有一个能用。",
+      "timestamp": "22:33",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Siri still can't understand half the things I say.",
+      "zh": "Siri 至今还是听不懂我说的一半内容。",
+      "timestamp": "22:58",
+      "speaker": "Lon"
+    },
+    {
+      "en": "If you're not embarrassed by your 1.0, you waited too long.",
+      "zh": "如果你不对你的 1.0 版本感到尴尬，那就是你等得太久了。",
+      "timestamp": "34:56",
+      "speaker": "Jason"
+    },
+    {
+      "en": "I think one thing that sun debt is really interesting and perhaps your audience would also find this interesting is that when we're exposed to a lot of sunlight on a particular day, our skin is actually still processing that up to five days later.",
+      "zh": "我认为「阳光欠账」有一件非常有趣、也许你的听众也会觉得有趣的事情是：当我们在某一天暴露在大量阳光下时，我们的皮肤实际上在长达五天之后仍在处理它。",
+      "timestamp": "40:23",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "So he's one of the researchers who discovered that mortality related to COVID was lower in areas that had higher UVI.",
+      "zh": "他是发现 COVID 相关死亡率在紫外线指数较高地区较低的研究人员之一。",
+      "timestamp": "43:28",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:25",
+      "speaker": "Jason",
+      "en": "I believe John Turner should stop buying back the shares and should take massively big swings.",
+      "zh": "我认为约翰·特努斯应该停止回购股票，应该进行大规模的豪赌。"
+    },
+    {
+      "timestamp": "08:41",
+      "speaker": "Jason",
+      "en": "And oh my lord, people would trust an Apple robot.",
+      "zh": "而且哦我的天，人们会信任一台苹果机器人。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Lon",
+      "en": "They can afford to be totally model agnostic, and Perplexity would be the perfect router and system that you could plug into your Apple device, and now you can use any model that you want and all of these great Perplexity harnesses and products and agents right there.",
+      "zh": "他们完全可以做到完全模型无关，而 Perplexity 会是完美的路由器和系统，可以插进你的苹果设备，然后你想用哪个模型就用哪个，所有这些出色的 Perplexity 工具、产品和智能体就在那里。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Jason",
+      "en": "In other words, really figure out how to replace the iPhone dependency.",
+      "zh": "换句话说，真正弄清楚如何取代对 iPhone 的依赖。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Lon",
+      "en": "Imagine owning their own chip company and Etched is exactly the kind of AI chip that Apple desperately needs.",
+      "zh": "想象一下拥有他们自己的芯片公司，而 Etched 恰好正是 Apple 迫切需要的那种 AI 芯片。"
+    },
+    {
+      "timestamp": "19:27",
+      "speaker": "Lance Seidman",
+      "en": "So by acquiring Boston Dynamics, Apple kind of merges the world's most advanced artificial brain with the world's most advanced physical body, right?",
+      "zh": "所以通过收购波士顿动力，Apple 某种程度上把世界上最先进的人工大脑与世界上最先进的物理身体合并了，对吧？"
+    },
+    {
+      "timestamp": "20:46",
+      "speaker": "David Rosenberg",
+      "en": "When a technology becomes important enough to experience, Apple eventually wants to own it.",
+      "zh": "当某项技术变得足够重要、值得去体验时，Apple 最终会想要拥有它。"
+    },
+    {
+      "timestamp": "21:15",
+      "speaker": "David Rosenberg",
+      "en": "With an agent, I can just say what I want done and let the computer figure out how to do it.",
+      "zh": "有了智能体，我只需说出我想完成什么，让计算机自己想清楚怎么做。"
+    },
+    {
+      "timestamp": "22:33",
+      "speaker": "Michael Lee Jr.",
+      "en": "So I've tried almost every AI voice tool out there and none of them work except for Eleven Labs.",
+      "zh": "我几乎试遍了市面上所有的 AI 语音工具，除了 Eleven Labs 之外没有一个能用。"
+    },
+    {
+      "timestamp": "22:58",
+      "speaker": "Jason",
+      "en": "Siri still can't understand half the things I say.",
+      "zh": "Siri 至今还是听不懂我说的一半内容。"
+    },
+    {
+      "timestamp": "26:56",
+      "speaker": "Stacy Salvey",
+      "en": "But then I got back together with my co-founder and we started talking about what it might mean to measure UV, knowing at the time that 90% of photo aging that happens to the skin is due to UV exposure, hence the name, the 90.",
+      "zh": "但后来我和我的联合创始人重新聚到一起，开始讨论测量紫外线可能意味着什么，当时我们就知道，皮肤 90% 的光老化是由紫外线照射引起的，因此得名 the 90。"
+    },
+    {
+      "timestamp": "31:06",
+      "speaker": "Stacy Salvey",
+      "en": "So UVA, for example, you need to accrue a certain amount of UVA throughout the day in order to release nitric oxide in your blood.",
+      "zh": "比如 UVA,你需要在一天中累积一定量的 UVA,才能在血液中释放一氧化氮。"
+    },
+    {
+      "timestamp": "34:56",
+      "speaker": "Jason",
+      "en": "If you're not embarrassed by your 1.0, you waited too long.",
+      "zh": "如果你不对你的 1.0 版本感到尴尬，那就是你等得太久了。"
+    },
+    {
+      "timestamp": "36:33",
+      "speaker": "Stacy Salvey",
+      "en": "And for those of us who are skin health enthusiasts, why that's important is that UVA is the aging UV and UVB is the burning UV.",
+      "zh": "而对于我们这些皮肤健康爱好者来说，为什么这很重要，是因为 UVA 是导致衰老的紫外线，UVB 是导致晒伤的紫外线。"
+    },
+    {
+      "timestamp": "40:23",
+      "speaker": "Stacy Salvey",
+      "en": "I think one thing that sun debt is really interesting and perhaps your audience would also find this interesting is that when we're exposed to a lot of sunlight on a particular day, our skin is actually still processing that up to five days later.",
+      "zh": "我认为「阳光欠账」有一件非常有趣、也许你的听众也会觉得有趣的事情是：当我们在某一天暴露在大量阳光下时，我们的皮肤实际上在长达五天之后仍在处理它。"
+    },
+    {
+      "timestamp": "43:28",
+      "speaker": "Stacy Salvey",
+      "en": "So he's one of the researchers who discovered that mortality related to COVID was lower in areas that had higher UVI.",
+      "zh": "他是发现 COVID 相关死亡率在紫外线指数较高地区较低的研究人员之一。"
+    },
+    {
+      "timestamp": "48:48",
+      "speaker": "Stacy Salvey",
+      "en": "We're here to measure, inform, and provide insights into people's habits.",
+      "zh": "我们是来测量、告知并提供对人们习惯的洞察的。"
+    }
+  ],
+  "voice_script": "今天这期节目特别轻松，是 This Week in Startups 的一期游戏局。主持人 Jason 和 Lon 玩了一场「苹果收购选秀」——就像体育选秀那样，从一堆候选公司里，各自为苹果挑出五家最值得买的公司。为什么聊这个？因为苹果这几年的收购路子大家都知道：一边回购股票，一边做些「补强式」的小收购，比如当年买下造 Siri 的团队、造 Touch ID 的团队。Jason 觉得，新上任的硬件掌门人 John Ternus 应该换个打法：别回购股票了，来几次真正的大豪赌。那判断标准是什么？很简单——任何能整合进 iPhone、笔记本、手表、AirPods 和苹果门店的东西，都值得考虑。掷硬币定顺序之后，选秀就开始了。\n\nJason 的第一个选择，是全场最出人意料的一个：迪士尼。听起来离科技很远，但你想想——如果每部苹果设备都自带迪士尼内容，拿着 iPhone 进乐园，从门票到排队全流程打通，迪士尼门店里再卖米老鼠造型的儿童 AirPods、星球大战主题的笔记本，为什么不大胆一点？\n\n那迪士尼之外，机器人呢？Jason 的第二选是波士顿动力。他的逻辑是，机器人迟早是苹果绕不开的品类，但这里有个大坎：让人把一台机器人放进家里，本质上是巨大的信任问题——而人们会信任一台苹果机器人。具体路径他也想好了：先让工业机器人业务独立运营，再去研发所谓的「苹果 A1 机器人」。\n\n第三选是一家你可能没听过的公司：DigitalOcean,一家面向开发者的云托管公司。为什么选它？因为苹果目前压根没有自己的云托管业务。买下它之后，MacBook 可以直接做应用托管，开发者说不定还能在 App Store 审核上享受优待。对标 AWS,这条线有望长出五百亿到一千亿美元的收入。这也正是 Jason 选公司的总原则：真正弄清楚如何取代对 iPhone 的依赖。顺着这个思路，第四选电动车公司 Lucid,算是交通出行的入场券；第五选了自己投资组合里的 GoAI,押注本地 AI。\n\n好，Jason 的名单讲完了，那 Lon 这边又是什么思路？他从语音下手，首轮选了 AI 语音公司 Eleven Labs。理由听着像送分题：在 Siri 管理生活的时代，语音交互必须先修好，而 Eleven Labs 估值大概五十到一百亿美元，对苹果来说只是零头。\n\n第二选是个「捡漏」——索尼。一次拿下 PlayStation,苹果立刻多了一台进千万家庭的游戏设备；还有索尼影业、索尼音乐，再加上很多人没注意到的 Crunchyroll,这是西方第一大动漫流媒体，买下来之后，从《进击的巨人》到《电锯人》的热门动漫，苹果独家发行。\n\n第三选，Perplexity,一家 AI 搜索与智能体公司，Lon 觉得这是全场的正确答案。关键在于：苹果没有押注任何单一模型，所以完全可以做到模型无关，而 Perplexity 会是完美的路由器——插进苹果设备，你想用哪个模型就用哪个。第四选 AI 芯片公司 Etched,因为苹果服务端的 AI 现在跑在并非为此设计的 Apple Silicon 上，而 Siri 和 Apple Intelligence 要响应数十亿台设备的请求，正是推理专用芯片的用武之地。第五选 Superhuman,那个高端邮件套件，买下它，苹果积弱多年的邮件应用一夜之间就能升级。\n\n节目里还接进了几位观众的连线提名，撞车撞得厉害。有人同样选了波士顿动力，理由说得特别漂亮：收购它，等于把世界上最先进的人工大脑和世界上最先进的物理身体合并了。还有一位观众 David Rosenberg 给出了一个贯穿全场的框架——当某项技术变得足够重要、值得去体验时，苹果最终会想要拥有它。回头看历史也确实如此：Next 带来了 macOS 和 iOS 的地基，PA Semi 让苹果摆脱 Intel,Primesense 带来了 Face ID 的 3D 感应。而 AI，就是这样一个时刻。\n\n选秀玩完，下半场换成创始人访谈，主角是一家叫 The90 的公司，创始人 Stacy Salvey。先交代下背景：Stacy 在 Fitbit 做了约八年，经历了被 Google 收购，后来又在上市公司 Movano 做过专为女性设计的智能戒指，拿过十六个 CES 最佳奖项。两年半前创立了 The90,公司名字就来自出发点：皮肤 90% 的光老化，是紫外线照射引起的。\n\n产品是一枚二百九十九美元的吊坠，设计主打优雅，而且是模块化的。里面装了两组独立的三向光电二极管传感器，分别实时测量 UVA 和 UVB。为什么要分开测？这里有个关键：UVA 是「让人衰老的紫外线」，UVB 是「让人晒伤的紫外线」，是两回事。而且每个人的肤色、家族史都不一样，算法会因人而异。\n\nStacy 还有一个更大的判断：阳光这个数据维度，几乎没人做过。全球超过十亿人缺维生素 D,大约六十种健康状况和阳光相关，从湿疹、银屑病到红斑狼疮——狼疮患者晒太多甚至会发作。可从来没有人真正在人的身体上大规模测量过阳光暴露，也正因为如此，这个方向一直没人推进。App 里有个叫 SunScore 的分数，会拆成 UVB 晒伤、UV 老化和「阳光欠账」三块——对，晒太阳是会「欠账」的，某天暴晒之后，皮肤在未来五天里还在处理那一次的损伤。同时它也会提醒你去补足昼夜节律光照、维生素 D 和一氧化氮这些「进账」。为了把科学做扎实，Stacy 还请来了爱丁堡大学皮肤科教授 Richard Weller 担任首席医疗官——就是发现紫外线指数较高地区 COVID 死亡率更低的研究者之一。\n\n那这门生意的想象空间在哪？Jason 在访谈里点了出来：等有一千到十万个用户的种族、位置、健康数据汇总起来，药企和大学会抢着为这些数据买单，可能大大加速湿疹、皮肤癌这些方向的研究。商业模式目前很干净：硬件一次性收费，不含订阅。至于做产品的节奏，Jason 的建议照例直接——如果你不对自己的 1.0 感到尴尬，那就是你等得太久了。\n\n这期节目听下来，其实讲的是同一件事的两个面：对苹果来说，每当一项技术重要到值得去体验，苹果最终都会想要拥有它；而对创业者来说，找到那个没人规模化测量过的数据维度，可能既是产品的护城河，也是别人愿意付费的资产。"
+}

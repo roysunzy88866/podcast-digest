@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":45,"深度学习":3,"智能体":347,"沙箱":62,"Condi Rice":1,"harness":46,"Jerry":1,"AMD":4,"前沿模型":21,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":45,"深度学习":3,"智能体":350,"沙箱":63,"Condi Rice":1,"harness":48,"Jerry":1,"AMD":4,"前沿模型":21,"Sega":1}</script>
 
 <script>
 (function(){

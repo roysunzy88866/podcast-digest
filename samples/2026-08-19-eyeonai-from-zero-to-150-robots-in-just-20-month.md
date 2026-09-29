@@ -124,7 +124,7 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同公司:Foundation</span>
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同概念:人形机器人 (humanoid)</span>
-- [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|Kriti Sharma：戴安全帽的AI，三周落地]]<span class="pd-rz">同公司:Boston Dynamics</span>
+- [[2026-09-28-twist-the-5-companies-apple-must-buy|苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠]]<span class="pd-rz">同公司:Boston Dynamics</span>
 
 </div>
 <div class="pd-ex">

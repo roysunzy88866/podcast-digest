@@ -1,0 +1,2452 @@
+{
+  "episode_id": "2026-09-21-talks-the-dark-arts-of-skill-engineering-paul",
+  "podcast": "精选演讲",
+  "date": "2026-09-21",
+  "tags": [
+    "AI 编程",
+    "技能工程",
+    "harness 工程",
+    "子智能体",
+    "前端设计"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "paul-bakaus",
+      "type": "person",
+      "role": "guest",
+      "name": "Paul Bakaus",
+      "file": "Paul Bakaus",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "impeccable",
+      "type": "company",
+      "role": "company",
+      "name": "Impeccable",
+      "file": "Impeccable",
+      "primary": true,
+      "how_described": "本集主角:Paul 开源的一套给 Claude Code、Codex 等编程智能体用的前端设计技能(impeccable.style),被他打造成一个'设计 harness',内含 critique/polish 命令、设计 linter、hooks、live mode 和按 harness × 模型编译的构建体系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            72.345,
+            74.268
+          ],
+          "quote": "I'm the author of Impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            74.969,
+            77.071
+          ],
+          "quote": "Who here has used Impeccable by any chance?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            82.358,
+            88.964
+          ],
+          "quote": "So for those of you who have not used Impeccable, Impeccable is a skill that I've built for myself mainly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            154.552,
+            155.993
+          ],
+          "quote": "It's on impeccable.style.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            156.893,
+            160.154
+          ],
+          "quote": "But today won't be a talk about impeccable per se.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            170.277,
+            177.079
+          ],
+          "quote": "A lot of people have looked at the code of impeccable and they see a whole bunch of scripts in the script folder and they're like, what is all this stuff?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            432.897,
+            440.327
+          ],
+          "quote": "And we'll talk about nine different dark arts today that I learned in the process of building impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            449.984,
+            462.614
+          ],
+          "quote": "Routing like a model and basic, you've seen this probably, most modern models are mixed of expert architectures and Impeccable is built like a mixture of expert skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            532.324,
+            536.389
+          ],
+          "quote": "So in impeccable, there's a critique command that actually critiques your design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            557.954,
+            573.467
+          ],
+          "quote": "And Impeccable actually has a deterministic engine, like a design linter that can detect things like bad contrast, can detect things like too many fonts, maybe things that are too close to the edge of an element.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            613.624,
+            617.385
+          ],
+          "quote": "What you want is, and this is what Impeccable's critique skill does,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            684.13,
+            689.695
+          ],
+          "quote": "So this is PBAKAUS slash impeccable minus talks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            708.71,
+            716.753
+          ],
+          "quote": "In the starter kit, you have enough to build sort of a mini impeccable if you want to, if you want to follow along or try it out yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            821.865,
+            828.327
+          ],
+          "quote": "So in impeccable, if you see something that makes you go, huh, it's probably because of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1031.718,
+            1042.203
+          ],
+          "quote": "Well, a ban only moves the model around inside its own cluster and what I've built for Impeccable and for a bunch of other skills that I've released is what I call an anti-attractor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1187.507,
+            1192.689
+          ],
+          "quote": "So in Impeccable, for example, when you first start a project, it calls a script called color.js.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1225.158,
+            1236.705
+          ],
+          "quote": "And when you design something with Impeccable, the same brief, depending on the user's input and color script that runs, et cetera, can produce vastly different results because of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1304.538,
+            1326.2
+          ],
+          "quote": "So impeccable started as a lot of different subskills and now has this mixture of experts model that routes internally both in terms of capabilities so you can call impeccable critique or impeccable polish and you get a different MD file loaded behind the scenes for a particular job so it's not just one giant skill MD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1327.842,
+            1346.417
+          ],
+          "quote": "But also, and this is something not a lot of people know, behind the scenes, Impeccable decides based on your brief and what you input, whether you're trying to design something brandy, so like a landing page or something that wants to attract attention, or whether it's the actual product that you're designing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1400.63,
+            1411.624
+          ],
+          "quote": "Impeccable uses a .impeccable folder in the current repository route, but you can also save things directly in the skill folder and maybe ask the user to ignore them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1413.831,
+            1423.057
+          ],
+          "quote": "So for example, if you're running a critique in impeccable, that critique is saved as a file in that folder and by default it's getting ignored.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1597.332,
+            1600.013
+          ],
+          "quote": "There are things, even in Impeccable, that don't work with GPT-5 mini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1620.287,
+            1624.028
+          ],
+          "quote": "Well, in impeccable, impeccable really is kind of bionic of sorts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1633.912,
+            1639.733
+          ],
+          "quote": "For example, every time you call impeccable, it runs a file called context.mjs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1645.015,
+            1663.809
+          ],
+          "quote": "If there is a product MD, which is impeccable, it's almost like design MD, but it is for product strategy, so for us to understand who is the target audience, or what do you want to achieve with this thing, which is oftentimes more important in a design interview than, you know, how round do you want your borders to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1692.958,
+            1696.64
+          ],
+          "quote": "It actually makes Impeccable self-update if there's a new version of Impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1696.86,
+            1708.165
+          ],
+          "quote": "Now, with your permission, so it will ask you, but it will say, hey, by the way, there's an update available for the Impeccable skill, and here's what you should do now to ask the user whether they want to update Impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1795.692,
+            1798.149
+          ],
+          "quote": "So a lot of people have impeccable systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1811.104,
+            1820.591
+          ],
+          "quote": "But because it now bundles as one skill, oftentimes the harnesses forget to simply call Impeccable when you don't explicitly mention it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1839.449,
+            1843.251
+          ],
+          "quote": "This skill that I've built here, Impeccable, ships design hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1849.454,
+            1857.658
+          ],
+          "quote": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2024.084,
+            2025.626
+          ],
+          "quote": "And that's something that impeccable flags.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2064.463,
+            2075.777
+          ],
+          "quote": "Impeccable ships with these design hooks that allow you to create ignore rules at a file basis within a CSS rule, so like many granular levels to exclude certain files, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2156.816,
+            2161.939
+          ],
+          "quote": "And so in Impeccable what this looks like is it's not using MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2551.425,
+            2559.031
+          ],
+          "quote": "So there's a lot of sentences in the impeccable scale that specifically say, if you're Codex, you have to stop and ask questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2713.476,
+            2719.401
+          ],
+          "quote": "In fact, every line of Impeccable is ablation tested, so I test every single line and see what it does across all models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2732.816,
+            2742.642
+          ],
+          "quote": "And so, what Impeccable does, it creates harness-specific and model-specific builds for every single model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2819.1,
+            2824.302
+          ],
+          "quote": "That's why if you go to the impeccable website, I've built my own CLI to solve this problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2980.432,
+            2982.794
+          ],
+          "quote": "You can clone impeccable minus talks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2994.724,
+            3001.449
+          ],
+          "quote": "You can install impeccable MPX, impeccable skills install and check out the source code on GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3190.246,
+            3193.747
+          ],
+          "quote": "So, first of all, impeccable has a ton of end-to-end tests in the repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3235.213,
+            3240.556
+          ],
+          "quote": "And then it also recreates the, because some parts of Impeccable are interactive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3241.176,
+            3248.26
+          ],
+          "quote": "In the initialization of Impeccable, oftentimes the user gets asked, so what would you like your page not to feel like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3307.675,
+            3321.749
+          ],
+          "quote": "Harder and more expensive, I would say, so I don't recommend it for everyone, but this, the ablation testing, so every, you'll see this in the source card of Impeccable, every rule has sort of an XML tag that says like, you know, a unique identifier of that particular line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3331.112,
+            3341.397
+          ],
+          "quote": "Runs the evals against all models and then adds the line back in and then uses the detection engine of Impeccable, the deterministic one to see did it actually change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3530.965,
+            3535.567
+          ],
+          "quote": "Yeah, so I'll first answer for impeccable and for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3536.307,
+            3543.931
+          ],
+          "quote": "So in the case of impeccable, I think we're definitely outgrowing the skill platform, kind of what's possible with skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3652.511,
+            3657.175
+          ],
+          "quote": "But yeah, the same is true for, for instance, like the impeccable installer and compiler.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集核心论点:skill 不该当成'打包起来的一段 prompt',而应像 MCP 一样被当成对编程 harness 的扩展来设计,并讲了九种'技能工程的黑暗艺术'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            82.358,
+            88.964
+          ],
+          "quote": "So for those of you who have not used Impeccable, Impeccable is a skill that I've built for myself mainly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            110.716,
+            115.039
+          ],
+          "quote": "So the first skill that I've built for myself was called normalize.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            120.102,
+            126.187
+          ],
+          "quote": "And I also used Anthropic's front-end design skill, like maybe many of you, when I first got going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            184.782,
+            191.809
+          ],
+          "quote": "Let's talk about the dark arts of skill engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            207.034,
+            213.96
+          ],
+          "quote": "This is actually a real design built with the front end design skill and Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            269.014,
+            276.281
+          ],
+          "quote": "So I started using the frontend design skill like many of you and it's like 55 lines of named bands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            375.991,
+            382.533
+          ],
+          "quote": "Even 250 lines of like artisanal, crafted, beautiful skill pros cannot change this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            449.984,
+            462.614
+          ],
+          "quote": "Routing like a model and basic, you've seen this probably, most modern models are mixed of expert architectures and Impeccable is built like a mixture of expert skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            482.395,
+            486.299
+          ],
+          "quote": "So, if you're building something like a critique skill or code review skill,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            578.435,
+            595.002
+          ],
+          "quote": "But you could have this really beautiful website and then the detector runs and it's doing that as part of the same skill and the same model thread and then the model just sees the detector output and says, well I guess there's 500 issues, therefore this design must be bad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            613.624,
+            617.385
+          ],
+          "quote": "What you want is, and this is what Impeccable's critique skill does,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            732.719,
+            739.503
+          ],
+          "quote": "You can do a code review thing, you can do, it doesn't have to be the design skill, but I wanted to have something for you to play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            799.833,
+            802.455
+          ],
+          "quote": "So if you're distributing a skill, you're out of luck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1245.411,
+            1250.057
+          ],
+          "quote": "If you cram everything into one skill, it kind of blurs them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1253.281,
+            1261.751
+          ],
+          "quote": "So if you're building some general purpose skill and you expand it and expand it and expand it, at some point it becomes really, really blurry to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1266.101,
+            1272.364
+          ],
+          "quote": "The Anthropic front-end design skill, the former version of it, they just shipped a new version three weeks ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1289.749,
+            1293.131
+          ],
+          "quote": "You can say, I mean, you can have this giant if-else block in a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1304.538,
+            1326.2
+          ],
+          "quote": "So impeccable started as a lot of different subskills and now has this mixture of experts model that routes internally both in terms of capabilities so you can call impeccable critique or impeccable polish and you get a different MD file loaded behind the scenes for a particular job so it's not just one giant skill MD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1355.644,
+            1360.228
+          ],
+          "quote": "So that's also something that I would recommend you doing if you're building a larger skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1382.193,
+            1385.416
+          ],
+          "quote": "So you have a skill folder and you can save things in that skill folder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1400.63,
+            1411.624
+          ],
+          "quote": "Impeccable uses a .impeccable folder in the current repository route, but you can also save things directly in the skill folder and maybe ask the user to ignore them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1456.834,
+            1466.836
+          ],
+          "quote": "And the skill is now smart enough, the skill has built context to realize, okay, well, that's the user preference, so I'm gonna respect it going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1495.095,
+            1504.082
+          ],
+          "quote": "By having sort of like a skill that spawns itself across multiple sessions and tackles one file at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1534.94,
+            1544.927
+          ],
+          "quote": "Now, especially with weaker models, and now if you're building a skill for yourself and you're only running Opus or you're only running Codex, this isn't that big of an issue, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1554.173,
+            1555.834
+          ],
+          "quote": "Now, if you want to distribute your skill,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1625.829,
+            1633.091
+          ],
+          "quote": "It is a combination of scripts that run inline within the skill at certain times and then prose around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1677.076,
+            1688.542
+          ],
+          "quote": "But when those files are not available, it will actually give the skill structured JSON and say like, by the way, there is no ProductMD and here's exactly what you should do about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1696.86,
+            1708.165
+          ],
+          "quote": "Now, with your permission, so it will ask you, but it will say, hey, by the way, there's an update available for the Impeccable skill, and here's what you should do now to ask the user whether they want to update Impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1755.306,
+            1767.331
+          ],
+          "quote": "So this works super, super well to keep a skill sort of like, you know, flowing in the right direction, instruction following, but it does so at the expense of prompt caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1768.371,
+            1779.717
+          ],
+          "quote": "If you need prompt caching, if you run this skill many, many times, and you want the whole thing to be cached, this is not a good technique to use, but I found it to be very useful in really interactive scenarios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1805.859,
+            1809.923
+          ],
+          "quote": "Some of the harnesses are pretty good, consistently looping in the right skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1811.104,
+            1820.591
+          ],
+          "quote": "But because it now bundles as one skill, oftentimes the harnesses forget to simply call Impeccable when you don't explicitly mention it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1839.449,
+            1843.251
+          ],
+          "quote": "This skill that I've built here, Impeccable, ships design hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1843.911,
+            1849.054
+          ],
+          "quote": "So I've basically built a design linter that runs under the hood and ships with the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1977.135,
+            1985.121
+          ],
+          "quote": "But I would really encourage you to try out hooks in combination with a skill and think about, okay, well, my skill does this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2084.899,
+            2089.547
+          ],
+          "quote": "Now this might not be relevant if you're not building a design skill, but I think the general point is relevant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2089.687,
+            2094.214
+          ],
+          "quote": "So if you think about a skill as harness engineering versus prompting,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2207.321,
+            2211.825
+          ],
+          "quote": "So in this case, in the skill itself, I give it instructions on how to handle this event.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2274.618,
+            2278.44
+          ],
+          "quote": "And I can select all sorts of subcommands within the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2279.02,
+            2283.262
+          ],
+          "quote": "So these are basically translating to MD files that live within the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2435.721,
+            2439.843
+          ],
+          "quote": "Well, that's great if you're building a simple skill and if you're doing it for yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2448.222,
+            2451.323
+          ],
+          "quote": "But it's not great if you're trying to ship a skill to lots of users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2536.594,
+            2543.979
+          ],
+          "quote": "That means that if you're not running Codex in plan mode, but your skill wants to ask questions, most of the time it simply doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2782.034,
+            2791.722
+          ],
+          "quote": "And that's why, you know, you can, you know, if you instrument this way enough, you can actually get to this write once, ship to all of them skill that actually works everywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2858.667,
+            2862.47
+          ],
+          "quote": "If you've built a skill in Codex before, it loves gates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2983.735,
+            2989.519
+          ],
+          "quote": "But, of course, it also is useful to just take a look at the actual skill and see how it's built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3063.184,
+            3075.749
+          ],
+          "quote": "Yeah, the question is, I mentioned that it breaks prompt caching, the actual sort of trick, the technique to actually get something back from a script within a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3089.239,
+            3092.7
+          ],
+          "quote": "Now to be fair, the skill will still be cached.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3093.18,
+            3105.844
+          ],
+          "quote": "So the skill will still be cached, but I guess I'm differentiating between the skill with inline static content versus the skill with a dynamic instruction to call out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3119.264,
+            3122.627
+          ],
+          "quote": "Yeah, what is the process on how I evaluate and iterate on this skill?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3278.431,
+            3291.198
+          ],
+          "quote": "I run across all models that I care about, GPT-5.5, Opus, Sonnet, and do like 5 to 10 tests for each of those, for each skill release to see how it changed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3293.96,
+            3298.022
+          ],
+          "quote": "For instance, I run against the front-end design skill to see, does it make a difference?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3536.307,
+            3543.931
+          ],
+          "quote": "So in the case of impeccable, I think we're definitely outgrowing the skill platform, kind of what's possible with skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3582.1,
+            3586.524
+          ],
+          "quote": "I think those that actually go through the effort of packaging a skill and sharing it with others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3776.297,
+            3784.344
+          ],
+          "quote": "I mean the update mechanism often doesn't work and people are like well my skill doesn't update and oftentimes there's a caching issue so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3796.323,
+            3806.193
+          ],
+          "quote": "But again, the problem with MPX skills right now, it doesn't allow for more advanced skill use cases like compiled for every different harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness 工程 (harness)",
+      "file": "harness 工程",
+      "primary": true,
+      "how_described": "本集反复强调的心智模型:'提示词是咒语,harness 工程才是魔法'——要问'harness 有哪些能力可以利用',利用子智能体、hooks、应用内浏览器等能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            126.987,
+            136.413
+          ],
+          "quote": "And from there on it kind of expanded into more and more design skills that allowed me to turn Claude Code and then Codex and other harnesses more into a design harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            392.002,
+            402.065
+          ],
+          "quote": "My overall thesis for this talk is that prompting is sort of like the starter level, but harness engineering is where you should end up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            402.705,
+            410.227
+          ],
+          "quote": "Like you should reframe when you're building skills, you should think about, okay, skills the same way as MCP is an extension to the coding harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            411.102,
+            411.943
+          ],
+          "quote": "Or whatever harness you're in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            419.712,
+            422.775
+          ],
+          "quote": "It is extending the harness of whoever is using that thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            464.095,
+            477.089
+          ],
+          "quote": "We give the memory, we'll create scripts that talk back, and I promise this will make sense, hooks that fight back, live wire the browser and use more of the harness, compile to every harness and design for the weakest model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            796.79,
+            799.232
+          ],
+          "quote": "for anything in the harness to use sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1395.284,
+            1400.21
+          ],
+          "quote": "No other harness supports this right now, I believe, but you can hack around that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2089.687,
+            2094.214
+          ],
+          "quote": "So if you think about a skill as harness engineering versus prompting,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2095.358,
+            2098.06
+          ],
+          "quote": "Then you think about the harness as a whole, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2103.903,
+            2111.527
+          ],
+          "quote": "Now, what are the capabilities of that harness that you can exploit to make the best user experience for your use case?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2225.696,
+            2233.523
+          ],
+          "quote": "And so this is a direct connection between one harness capability and another harness capability, so the chat thread and the in-app browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2335.753,
+            2344.918
+          ],
+          "quote": "So this shows us how to exploit a harness capability in an effective way for one problem space, in this case design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2507.351,
+            2513.214
+          ],
+          "quote": "So one of the coolest tools in the Claude Code Harness is the Ask User Question Tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2709.453,
+            2713.316
+          ],
+          "quote": "In my case, I have a pretty extensive evals harness that I run behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2720.081,
+            2730.23
+          ],
+          "quote": "I don't expect you to do that, but it is very good to know that the models are different and are following instructions differently and the behavior, the harness behavior is different as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2732.816,
+            2742.642
+          ],
+          "quote": "And so, what Impeccable does, it creates harness-specific and model-specific builds for every single model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2750.068,
+            2757.473
+          ],
+          "quote": "For example, it actually has a substitute variable that picks the right user question tool depending on the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2933.598,
+            2936.161
+          ],
+          "quote": "So, we just built a harness extension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3152.965,
+            3157.39
+          ],
+          "quote": "So yeah, I mentioned I built an evals harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3158.731,
+            3164.216
+          ],
+          "quote": "And so I've created myself a harness that closely recreates",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3165.129,
+            3169.451
+          ],
+          "quote": "the conditions and the tools of every harness that I care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3209.673,
+            3211.174
+          ],
+          "quote": "Well, I've built an evals harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3213.376,
+            3223.644
+          ],
+          "quote": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3260.887,
+            3266.635
+          ],
+          "quote": "So I've built that harness and then I've built a mixture of expert design judge that runs on top of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3323.11,
+            3329.316
+          ],
+          "quote": "And that will be used by the harness to then do a test where it removes that line",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3563.149,
+            3568.074
+          ],
+          "quote": "I mean, it would be way better to do this in a first-party harness integration or like a first-party tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3657.415,
+            3664.522
+          ],
+          "quote": "I don't think most people know that it exists, that it can compile to every harness, and that it has these substitution techniques and stuff like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3796.323,
+            3806.193
+          ],
+          "quote": "But again, the problem with MPX skills right now, it doesn't allow for more advanced skill use cases like compiled for every different harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集的关键机制:让两个互不知晓对方存在的子智能体盲评(人感评估 + 确定性检测)以获得平衡批评;还讲各 harness 谁能启动子智能体的权限差异",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            628.102,
+            631.346
+          ],
+          "quote": "So the first sub-agent does",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            648.343,
+            653.825
+          ],
+          "quote": "The second sub-agent runs the deterministic detector and also collects browser evidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1124.397,
+            1125.778
+          ],
+          "quote": "And then have a sub-agent rank.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1164.953,
+            1171.636
+          ],
+          "quote": "And then I said, well, generate a hundred of these ideas and then spawn a sub-agent that ranks all of those ideas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1173.603,
+            1182.834
+          ],
+          "quote": "It has to be a sub-agent because the sub-agent doesn't know anything from the prior context of the session and can then completely change the order.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它作为编程 harness 反复讨论:子智能体可编程调用、任务完成会唤醒模型、内置应用内浏览器被 live mode 劫持、有 Ask User 工具和技能市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            28.664,
+            35.771
+          ],
+          "quote": "Okay, first off, let me reload these slides because my Claude Code was still building something on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            126.987,
+            136.413
+          ],
+          "quote": "And from there on it kind of expanded into more and more design skills that allowed me to turn Claude Code and then Codex and other harnesses more into a design harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            207.034,
+            213.96
+          ],
+          "quote": "This is actually a real design built with the front end design skill and Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            489.971,
+            501.854
+          ],
+          "quote": "If you are, I mean, you probably noticed this, when you're working with Claude Code or Codex, that doesn't matter, but if you ask Codex or Claude Code to review its own work, it will usually rate it as very high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            785.189,
+            789.231
+          ],
+          "quote": "It turns out Codex has a different permission model than Claude Code and other harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1002.088,
+            1011.711
+          ],
+          "quote": "If you run this in Claude Code or Codex on the most recent version, you should very clearly see, I mean, Claude Code is very easy to see the sub-agents running and doing its work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1011.791,
+            1017.712
+          ],
+          "quote": "So it will spin up two sub-agents and you see it at the bottom of the Claude Code thread doing its thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1830.554,
+            1833.956
+          ],
+          "quote": "Who has used hooks before in Claude Code or Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1849.454,
+            1857.658
+          ],
+          "quote": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1875.626,
+            1878.828
+          ],
+          "quote": "So the hook syntax for Codex and Claude Code is not the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1966.489,
+            1976.435
+          ],
+          "quote": "Of course, if you're using Claude Code or Codex, it already uses some of the linters for things like syntax formatting, but design linting is a whole different game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2098.32,
+            2103.323
+          ],
+          "quote": "You're living in Claude Code, for example, or you're living in Codex, or you're living in GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2507.351,
+            2513.214
+          ],
+          "quote": "So one of the coolest tools in the Claude Code Harness is the Ask User Question Tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3169.511,
+            3172.372
+          ],
+          "quote": "So for instance, it uses the Claude Code SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3213.376,
+            3223.644
+          ],
+          "quote": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3765.127,
+            3766.488
+          ],
+          "quote": "Claude Code has a marketplace as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3771.291,
+            3773.893
+          ],
+          "quote": "I mean, the Claude Code one for sure doesn't work particularly well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集作为另一个 harness 反复对比:子智能体需用户批准、Ask User 工具仅 plan 模式可用、后台任务完成不唤醒模型、爱糟糕字距和'gate(关卡)'所以给它八个关卡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            96.872,
+            101.116
+          ],
+          "quote": "And I wanted to design really quickly with my agents, with Codex, with Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            126.987,
+            136.413
+          ],
+          "quote": "And from there on it kind of expanded into more and more design skills that allowed me to turn Claude Code and then Codex and other harnesses more into a design harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            489.971,
+            501.854
+          ],
+          "quote": "If you are, I mean, you probably noticed this, when you're working with Claude Code or Codex, that doesn't matter, but if you ask Codex or Claude Code to review its own work, it will usually rate it as very high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            770.479,
+            772.2
+          ],
+          "quote": "Codex, why?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            776.243,
+            781.706
+          ],
+          "quote": "It turns out Codex never created these sub-agents when I first tried this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            785.189,
+            789.231
+          ],
+          "quote": "It turns out Codex has a different permission model than Claude Code and other harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            789.932,
+            795.796
+          ],
+          "quote": "In Codex, you have to explicitly, as a user, request the use of sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            818.404,
+            821.805
+          ],
+          "quote": "And so that's pretty much the only way you can get Codex to comply.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            849.934,
+            856.636
+          ],
+          "quote": "Very often, if Codex realizes it can get away with something, it will do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            876.244,
+            877.165
+          ],
+          "quote": "And Codex hates that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1002.088,
+            1011.711
+          ],
+          "quote": "If you run this in Claude Code or Codex on the most recent version, you should very clearly see, I mean, Claude Code is very easy to see the sub-agents running and doing its work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1534.94,
+            1544.927
+          ],
+          "quote": "Now, especially with weaker models, and now if you're building a skill for yourself and you're only running Opus or you're only running Codex, this isn't that big of an issue, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1802.997,
+            1805.799
+          ],
+          "quote": "I mean, I wish, Codex is actually pretty good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1830.554,
+            1833.956
+          ],
+          "quote": "Who has used hooks before in Claude Code or Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1849.454,
+            1857.658
+          ],
+          "quote": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1875.626,
+            1878.828
+          ],
+          "quote": "So the hook syntax for Codex and Claude Code is not the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1966.489,
+            1976.435
+          ],
+          "quote": "Of course, if you're using Claude Code or Codex, it already uses some of the linters for things like syntax formatting, but design linting is a whole different game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2098.32,
+            2103.323
+          ],
+          "quote": "You're living in Claude Code, for example, or you're living in Codex, or you're living in GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2117.05,
+            2124.754
+          ],
+          "quote": "Claude Codex on desktop now has an in-app browser built into the actual app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2486.461,
+            2487.942
+          ],
+          "quote": "Codex needs the user okay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2494.289,
+            2504.18
+          ],
+          "quote": "Also, if you want to pre-define these agents, Codex has a different syntax for that than Claude and Cursor, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2521.902,
+            2525.305
+          ],
+          "quote": "Well, turns out Codex has a tool like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2536.594,
+            2543.979
+          ],
+          "quote": "That means that if you're not running Codex in plan mode, but your skill wants to ask questions, most of the time it simply doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2551.425,
+            2559.031
+          ],
+          "quote": "So there's a lot of sentences in the impeccable scale that specifically say, if you're Codex, you have to stop and ask questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2594.012,
+            2594.873
+          ],
+          "quote": "Where Codex cannot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2595.813,
+            2599.034
+          ],
+          "quote": "Codex and other harnesses do not react when a background task finishes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2613.001,
+            2622.687
+          ],
+          "quote": "So that's why if you're using the live mode in cursor or in Codex, it creates a foreground task and it keeps the actual chat thread blocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2672.435,
+            2674.896
+          ],
+          "quote": "Codex loves bad letter spacing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2677.638,
+            2678.639
+          ],
+          "quote": "Codex also loves",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2758.233,
+            2768.78
+          ],
+          "quote": "Or it has these XML blocks for Gemini, for Codex, et cetera, that will actually insert specific overfitting avoidance rules for the given models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2852.621,
+            2857.826
+          ],
+          "quote": "Codex, for example, and GPT specifically loves the word gate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2858.667,
+            2862.47
+          ],
+          "quote": "If you've built a skill in Codex before, it loves gates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2872.419,
+            2873.721
+          ],
+          "quote": "But I only do that for Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2874.401,
+            2877.964
+          ],
+          "quote": "So there's a CodexMD that gets loaded on the fly for Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3213.376,
+            3223.644
+          ],
+          "quote": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3757.721,
+            3763.265
+          ],
+          "quote": "I mean, Codex has a marketplace that you can use for distribution plugin marketplace.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "hooks",
+      "file": "hooks",
+      "primary": true,
+      "how_described": "本集说它是'会反击的 hooks':每次编辑触发的被动护栏,弱模型要用 pre-tool use hook 直接阻止写文件而非 post-tool use,且要允许用户配置忽略规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            464.095,
+            477.089
+          ],
+          "quote": "We give the memory, we'll create scripts that talk back, and I promise this will make sense, hooks that fight back, live wire the browser and use more of the harness, compile to every harness and design for the weakest model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1785.12,
+            1786.201
+          ],
+          "quote": "Hooks that fight back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1828.373,
+            1829.774
+          ],
+          "quote": "Now that can be solved with hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1830.554,
+            1833.956
+          ],
+          "quote": "Who has used hooks before in Claude Code or Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1839.449,
+            1843.251
+          ],
+          "quote": "This skill that I've built here, Impeccable, ships design hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1849.454,
+            1857.658
+          ],
+          "quote": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1864.381,
+            1865.421
+          ],
+          "quote": "So the hooks come to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1977.135,
+            1985.121
+          ],
+          "quote": "But I would really encourage you to try out hooks in combination with a skill and think about, okay, well, my skill does this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1985.782,
+            1992.947
+          ],
+          "quote": "How can I create a feedback loop, a validation loop that uses hooks to actually keep me on the right lane?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1996.505,
+            2005.932
+          ],
+          "quote": "Okay, so here's, it's hard to show hooks in action, but you know, if you can see this, this is roughly how it would happen in an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2045.209,
+            2062.678
+          ],
+          "quote": "Now, one important thing, if you do this and you ship it to users, very important to add a way to create ignore rules or something like that because oftentimes these hooks have false positives as well and you want a way to configure those hooks, otherwise it gets really annoying very quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2064.463,
+            2075.777
+          ],
+          "quote": "Impeccable ships with these design hooks that allow you to create ignore rules at a file basis within a CSS rule, so like many granular levels to exclude certain files, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2642.378,
+            2643.758
+          ],
+          "quote": "Edit hooks, we talked about this already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3849.004,
+            3857.106
+          ],
+          "quote": "It's annoying, but it does make it so it plays safe with all harnesses installed, the hooks in the right part of the system, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集指出从脚本标准输出注入动态指令会破坏提示词缓存,因此该技术只适合交互式场景,不适合频繁运行希望整段缓存的场景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1746.382,
+            1754.525
+          ],
+          "quote": "Actually, before I end this session, one of the shortcomings of this technique, and this is something to be aware of, is prompt caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1755.306,
+            1767.331
+          ],
+          "quote": "So this works super, super well to keep a skill sort of like, you know, flowing in the right direction, instruction following, but it does so at the expense of prompt caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1768.371,
+            1779.717
+          ],
+          "quote": "If you need prompt caching, if you run this skill many, many times, and you want the whole thing to be cached, this is not a good technique to use, but I found it to be very useful in really interactive scenarios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3063.184,
+            3075.749
+          ],
+          "quote": "Yeah, the question is, I mentioned that it breaks prompt caching, the actual sort of trick, the technique to actually get something back from a script within a skill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "本集说 Impeccable 每一行都做消融测试,作者还有一个未开源的 evals 框架复刻各 harness 条件与工具,用 LLM 扮演用户,跨 20 个细分领域在多个模型上跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 532,
+          "t": [
+            2709.453,
+            2713.316
+          ],
+          "quote": "In my case, I have a pretty extensive evals harness that I run behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3152.965,
+            3157.39
+          ],
+          "quote": "So yeah, I mentioned I built an evals harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3209.673,
+            3211.174
+          ],
+          "quote": "Well, I've built an evals harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3213.376,
+            3223.644
+          ],
+          "quote": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3331.112,
+            3341.397
+          ],
+          "quote": "Runs the evals against all models and then adds the line back in and then uses the detection engine of Impeccable, the deterministic one to see did it actually change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3384.83,
+            3390.973
+          ],
+          "quote": "I do have evals for evaluating taste, but I don't think they work particularly well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集给出的犀利观点:品味在模型层面解决不了,从根本上属于人类;模型评估品味特别糟、往往是极繁主义者,所以要构建反转模型响应的评审员",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 664,
+          "t": [
+            3384.83,
+            3390.973
+          ],
+          "quote": "I do have evals for evaluating taste, but I don't think they work particularly well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3394.834,
+            3404.499
+          ],
+          "quote": "I don't think, I mean, I know some of my colleagues might disagree, but I don't think taste can be solved at a model level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3408.54,
+            3417.202
+          ],
+          "quote": "Because taste is scarce and unique and once everybody uses the same taste it becomes ubiquitous and then we don't think it's tasteful anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3422.744,
+            3426.144
+          ],
+          "quote": "And I also think the models are particularly bad at evaluating taste.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "slop",
+      "file": "slop",
+      "primary": true,
+      "how_described": "本集说 AI 生成的千篇一律审美是移动靶子:从紫色渐变进化到'Claude 米色'加斜体衬线,禁令只是把模型挪到下一个聚类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            248.007,
+            249.308
+          ],
+          "quote": "It's clearly Slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            250.348,
+            251.829
+          ],
+          "quote": "And it turns out Slop is a moving target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            252.65,
+            260.635
+          ],
+          "quote": "You've all seen, you might have thinking, might have been thinking of Slop as purple gradients, but we've kind of moved on since that into Claude Baych.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            333.163,
+            335.685
+          ],
+          "quote": "It just, again, this is why I said slop is a moving target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            637.339,
+            641.64
+          ],
+          "quote": "And so it looks for hierarchy, it looks for slop, it looks for heuristics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集用它类比技能:'skill 和 MCP 一样,是对 coding harness 的扩展';live mode 完全没用 MCP,作者还提到担心 MCP 造成上下文污染所以用得少",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            402.705,
+            410.227
+          ],
+          "quote": "Like you should reframe when you're building skills, you should think about, okay, skills the same way as MCP is an extension to the coding harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2156.816,
+            2161.939
+          ],
+          "quote": "And so in Impeccable what this looks like is it's not using MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3677.979,
+            3679.5
+          ],
+          "quote": "MCP having skills on the server?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3694.752,
+            3711.277
+          ],
+          "quote": "I think MCP in general, you know, I worry greatly about context pollution and I do that with skills too and I think I'm not using MCP a lot for that reason because it polluted my context many times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3714.318,
+            3715.618
+          ],
+          "quote": "How do skills work in MCP?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3725.666,
+            3727.447
+          ],
+          "quote": "Oh, you can download a script from MCP server.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它当作另一 harness:子智能体多由智能体自决、hook 语法与行为不同、弱模型需 pre-tool use hook,现场演示也在 Cursor 里做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            895.119,
+            905.427
+          ],
+          "quote": "So we're going to go into cursor and I'm going to do like critique.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1849.454,
+            1857.658
+          ],
+          "quote": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1882.15,
+            1887.433
+          ],
+          "quote": "So for instance, we found out that with weaker models, slightly weaker models like Composer and Cursor,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2255.185,
+            2256.025
+          ],
+          "quote": "Okay, cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2489.723,
+            2491.926
+          ],
+          "quote": "In Cursor, it's agent chosen most of the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2494.289,
+            2504.18
+          ],
+          "quote": "Also, if you want to pre-define these agents, Codex has a different syntax for that than Claude and Cursor, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2613.001,
+            2622.687
+          ],
+          "quote": "So that's why if you're using the live mode in cursor or in Codex, it creates a foreground task and it keeps the actual chat thread blocked.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集多次提到它的前端设计 skill(55 行命名禁令、'避免系统字体'的反例、旧版问题)作为 Paul 的起步参照,并抱怨其至今未采纳 Agents.md",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            120.102,
+            126.187
+          ],
+          "quote": "And I also used Anthropic's front-end design skill, like maybe many of you, when I first got going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1266.101,
+            1272.364
+          ],
+          "quote": "The Anthropic front-end design skill, the former version of it, they just shipped a new version three weeks ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2463.929,
+            2467.27
+          ],
+          "quote": "And unfortunately, Anthropic has still not adopted Agents.md.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jquery-ui",
+      "type": "company",
+      "role": "company",
+      "name": "jQuery UI",
+      "file": "jQuery UI",
+      "primary": false,
+      "how_described": "本集提到 Paul 早年的作品,默认橙色主题一夜之间'把整个网络变成橙色',用来说明'中位数就是模型的引力'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            357.547,
+            363.334
+          ],
+          "quote": "I created a framework called jQuery UI and the first default theme of jQuery UI was orange.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集作为模型差异的例子:疯狂给图片加悬停动画、评估品味时视口塞得越多评分越高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1569.196,
+            1571.037
+          ],
+          "quote": "Some of them might be running Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2006.692,
+            2011.736
+          ],
+          "quote": "So for instance, in this case, I would use, let's say, Gemini does this all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2011.816,
+            2016.599
+          ],
+          "quote": "Gemini creates animations on images like crazy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2658.527,
+            2663.17
+          ],
+          "quote": "For example, Gemini, again, I mentioned this, loves to animate pictures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2758.233,
+            2768.78
+          ],
+          "quote": "Or it has these XML blocks for Gemini, for Codex, et cetera, that will actually insert specific overfitting avoidance rules for the given models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3213.376,
+            3223.644
+          ],
+          "quote": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3454.207,
+            3459.881
+          ],
+          "quote": "Gemini for example, the more stuff there is in the first viewport, the higher it rates it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

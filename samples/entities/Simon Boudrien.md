@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy for Germany":1,"Datadog":7,"智能体":347,"评估":3,"上下文":20,"Cursor":70,"开源权重模型":2,"代码审查":17,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy for Germany":1,"Datadog":7,"智能体":350,"评估":3,"上下文":22,"Cursor":71,"开源权重模型":2,"代码审查":17,"上下文腐烂":4}</script>
 
 <script>
 (function(){

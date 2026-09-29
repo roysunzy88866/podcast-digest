@@ -1,0 +1,2114 @@
+[
+ {
+  "seg": 0,
+  "start": 13.52,
+  "end": 13.94,
+  "speaker": "Unknown",
+  "en": "Hey, folks.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.601,
+  "end": 17.522,
+  "speaker": "Unknown",
+  "en": "I'm Karan Vedya, co-founder and CTO of Composio.",
+  "zh": "我是 Karan Vedya，Composio 的联合创始人兼 CTO。"
+ },
+ {
+  "seg": 2,
+  "start": 19.823,
+  "end": 23.085,
+  "speaker": "Unknown",
+  "en": "Most agentic tool calls today are still happening in one feed.",
+  "zh": "如今大多数智能体的工具调用仍然发生在一个领域。"
+ },
+ {
+  "seg": 3,
+  "start": 23.625,
+  "end": 24.125,
+  "speaker": "Unknown",
+  "en": "No guesses.",
+  "zh": "不用猜。"
+ },
+ {
+  "seg": 4,
+  "start": 24.545,
+  "end": 25.466,
+  "speaker": "Unknown",
+  "en": "It's software engineering.",
+  "zh": "那就是软件工程。"
+ },
+ {
+  "seg": 5,
+  "start": 26.326,
+  "end": 28.567,
+  "speaker": "Unknown",
+  "en": "Every other kind of work is trailing far behind.",
+  "zh": "其他所有类型的工作都远远落后。"
+ },
+ {
+  "seg": 6,
+  "start": 29.828,
+  "end": 35.03,
+  "speaker": "Unknown",
+  "en": "If models keep getting better, then why are we still limited to just agentic coding?",
+  "zh": "如果模型在不断变好，那为什么我们仍然局限于智能体编程？"
+ },
+ {
+  "seg": 7,
+  "start": 35.911,
+  "end": 38.392,
+  "speaker": "Unknown",
+  "en": "That's the trillion-dollar question I'm here to answer.",
+  "zh": "这就是我要来回答的万亿美元级问题。"
+ },
+ {
+  "seg": 8,
+  "start": 43.737,
+  "end": 46.559,
+  "speaker": "Unknown",
+  "en": "Three years ago, coding agents were just autocomplete.",
+  "zh": "三年前，编程智能体只是自动补全。"
+ },
+ {
+  "seg": 9,
+  "start": 47.2,
+  "end": 50.323,
+  "speaker": "Unknown",
+  "en": "Today, software engineering is fully autonomous.",
+  "zh": "今天，软件工程已经完全自主。"
+ },
+ {
+  "seg": 10,
+  "start": 50.943,
+  "end": 56.388,
+  "speaker": "Unknown",
+  "en": "We went from pressing tab, tab, tab to let's just Claude Cook.",
+  "zh": "我们从按 tab、tab、tab，走到了「让 Claude 大展身手」。"
+ },
+ {
+  "seg": 11,
+  "start": 56.928,
+  "end": 57.829,
+  "speaker": "Unknown",
+  "en": "That's just magic.",
+  "zh": "这简直像魔法。"
+ },
+ {
+  "seg": 12,
+  "start": 60.791,
+  "end": 63.374,
+  "speaker": "Unknown",
+  "en": "And why did it happen so fast in coding?",
+  "zh": "那为什么在编程领域它发生得这么快？"
+ },
+ {
+  "seg": 13,
+  "start": 64.56,
+  "end": 66.701,
+  "speaker": "Unknown",
+  "en": "Most people would think it's models.",
+  "zh": "大多数人会认为是因为模型。"
+ },
+ {
+  "seg": 14,
+  "start": 67.161,
+  "end": 70.902,
+  "speaker": "Unknown",
+  "en": "Yeah, models got really better over time over the last two to three years.",
+  "zh": "是的，在过去两三年里模型确实变得非常好。"
+ },
+ {
+  "seg": 15,
+  "start": 71.762,
+  "end": 76.283,
+  "speaker": "Unknown",
+  "en": "And so did the harnesses, Claude Code, Codex, Cursor.",
+  "zh": "脚手架也是，Claude Code、Codex、Cursor。"
+ },
+ {
+  "seg": 16,
+  "start": 77.143,
+  "end": 79.604,
+  "speaker": "Unknown",
+  "en": "But on their own, it wouldn't have been enough.",
+  "zh": "但仅靠它们本身是不够的。"
+ },
+ {
+  "seg": 17,
+  "start": 80.704,
+  "end": 86.766,
+  "speaker": "Unknown",
+  "en": "It only worked because all the infrastructure and systems around coding were literally meant for agents.",
+  "zh": "它之所以奏效，是因为围绕编程的所有基础设施和系统本来就是为智能体而生的。"
+ },
+ {
+  "seg": 18,
+  "start": 88.666,
+  "end": 91.247,
+  "speaker": "Unknown",
+  "en": "Code came with the support that agents needed.",
+  "zh": "代码自带智能体所需的支持。"
+ },
+ {
+  "seg": 19,
+  "start": 92.225,
+  "end": 99.931,
+  "speaker": "Unknown",
+  "en": "You have got the repo, the commit history, test, CI, CD, review, linters, revert if anything goes wrong.",
+  "zh": "你有代码仓库、提交历史、测试、CI、CD、评审、代码检查器，出问题还能回滚。"
+ },
+ {
+  "seg": 20,
+  "start": 100.412,
+  "end": 104.935,
+  "speaker": "Unknown",
+  "en": "The kind of stuff that makes you trust the agents, the systems around code.",
+  "zh": "正是这类东西让你信任智能体，也就是围绕代码的系统。"
+ },
+ {
+  "seg": 21,
+  "start": 106.977,
+  "end": 110.86,
+  "speaker": "Unknown",
+  "en": "Now, we are pointing these same amazing agents at everything else.",
+  "zh": "现在，我们把这些同样出色的智能体指向其他一切领域。"
+ },
+ {
+  "seg": 22,
+  "start": 111.801,
+  "end": 113.482,
+  "speaker": "Unknown",
+  "en": "Support, finance, sales.",
+  "zh": "客服、财务、销售。"
+ },
+ {
+  "seg": 23,
+  "start": 114.263,
+  "end": 118.687,
+  "speaker": "Unknown",
+  "en": "But the agents that were doing phenomenally well in coding are just working blind.",
+  "zh": "但那些在编程领域表现极为出色的智能体，在其他领域只是在盲干。"
+ },
+ {
+  "seg": 24,
+  "start": 119.552,
+  "end": 123.633,
+  "speaker": "Unknown",
+  "en": "Because the infrastructure around coding doesn't even exist in other fields.",
+  "zh": "因为围绕编程的基础设施在其他领域根本不存在。"
+ },
+ {
+  "seg": 25,
+  "start": 125.834,
+  "end": 130.475,
+  "speaker": "Unknown",
+  "en": "So how do we close the bridge between coding agents and knowledge work agents?",
+  "zh": "那么我们如何弥合编程智能体与知识工作智能体之间的鸿沟？"
+ },
+ {
+  "seg": 26,
+  "start": 131.896,
+  "end": 142.299,
+  "speaker": "Unknown",
+  "en": "We think it's core six primitives, and coding had all six of them, while knowledge work doesn't have any, and that's what we need to build.",
+  "zh": "我们认为核心是六个原语，编程领域六者兼备，而知识工作领域一个都没有，这就是我们需要构建的东西。"
+ },
+ {
+  "seg": 27,
+  "start": 144.119,
+  "end": 145.54,
+  "speaker": "Unknown",
+  "en": "First is centralization.",
+  "zh": "第一个是中心化。"
+ },
+ {
+  "seg": 28,
+  "start": 146.931,
+  "end": 153.432,
+  "speaker": "Unknown",
+  "en": "Coding agents worked so pretty well, partly because they were very near the source of truth.",
+  "zh": "编程智能体之所以运转得很好，部分原因是它们非常接近事实来源。"
+ },
+ {
+  "seg": 29,
+  "start": 154.273,
+  "end": 156.713,
+  "speaker": "Unknown",
+  "en": "They knew the what, the why, and how.",
+  "zh": "它们知道做什么、为什么做以及怎么做。"
+ },
+ {
+  "seg": 30,
+  "start": 157.493,
+  "end": 163.475,
+  "speaker": "Unknown",
+  "en": "You give them the repo, the infrastructure as code, and you close the loop and let the model cook.",
+  "zh": "你给它们代码仓库、基础设施即代码，然后闭环，让模型大展身手。"
+ },
+ {
+  "seg": 31,
+  "start": 164.195,
+  "end": 170.196,
+  "speaker": "Unknown",
+  "en": "The agent starts with everything they need all in a single place, that is the code base.",
+  "zh": "智能体起步时就拥有所需的一切，全部集中在一个地方，也就是代码库。"
+ },
+ {
+  "seg": 32,
+  "start": 171.756,
+  "end": 174.297,
+  "speaker": "Unknown",
+  "en": "This is exactly what knowledge work missed today.",
+  "zh": "这正是今天的知识工作所缺失的。"
+ },
+ {
+  "seg": 33,
+  "start": 175.568,
+  "end": 179.192,
+  "speaker": "Unknown",
+  "en": "For example, a single deal is scattered across five different platforms.",
+  "zh": "举例来说，一笔交易的信息散落在五个不同的平台上。"
+ },
+ {
+  "seg": 34,
+  "start": 180.213,
+  "end": 188.222,
+  "speaker": "Unknown",
+  "en": "The records are in Salesforce, the docs in Notion, the emails in Gmail, conversations in Slack, and the support history is in Zendesk.",
+  "zh": "记录在 Salesforce，文档在 Notion，邮件在 Gmail，对话在 Slack，客服历史在 Zendesk。"
+ },
+ {
+  "seg": 35,
+  "start": 189.243,
+  "end": 192.346,
+  "speaker": "Unknown",
+  "en": "There's no single source of truth, single place to get all the information.",
+  "zh": "没有单一的事实来源，没有一个能获取所有信息的地方。"
+ },
+ {
+  "seg": 36,
+  "start": 193.868,
+  "end": 197.132,
+  "speaker": "Unknown",
+  "en": "Everything is separate and every app has its own login.",
+  "zh": "一切都是分离的，每个应用都有自己独立的登录。"
+ },
+ {
+  "seg": 37,
+  "start": 198.139,
+  "end": 206.548,
+  "speaker": "Unknown",
+  "en": "Before a knowledge work agent can even start to do things, it has to go and pull all the threads and kind of tie them together itself.",
+  "zh": "在知识工作智能体甚至还没开始做事之前，它就得先去把所有线索拉出来，自己把它们串起来。"
+ },
+ {
+  "seg": 38,
+  "start": 207.369,
+  "end": 210.513,
+  "speaker": "Unknown",
+  "en": "And that's still the base point where coding agent had started.",
+  "zh": "而这还只是编程智能体的起点。"
+ },
+ {
+  "seg": 39,
+  "start": 210.713,
+  "end": 211.754,
+  "speaker": "Unknown",
+  "en": "It already had it all.",
+  "zh": "它从一开始就拥有一切。"
+ },
+ {
+  "seg": 40,
+  "start": 212.415,
+  "end": 216.94,
+  "speaker": "Unknown",
+  "en": "So how can you expect knowledge work agent to do the same level of work as coding agent?",
+  "zh": "所以你怎么能指望知识工作智能体做到和编程智能体同等水平的工作呢？"
+ },
+ {
+  "seg": 41,
+  "start": 219.297,
+  "end": 226.74,
+  "speaker": "Unknown",
+  "en": "So the first thing we build is the missing center, one place where all your apps, all your connections, all your logins exist.",
+  "zh": "所以我们构建的第一件事就是这个缺失的中心，一个你的所有应用、所有连接、所有登录都存在的地方。"
+ },
+ {
+  "seg": 42,
+  "start": 227.301,
+  "end": 231.243,
+  "speaker": "Unknown",
+  "en": "So the agent doesn't need to do the hard work of stitching them all together.",
+  "zh": "这样智能体就不需要费力把它们全部拼接起来。"
+ },
+ {
+  "seg": 43,
+  "start": 231.503,
+  "end": 232.983,
+  "speaker": "Unknown",
+  "en": "They find it all in a single place.",
+  "zh": "它们在一个地方就能找到一切。"
+ },
+ {
+  "seg": 44,
+  "start": 234.004,
+  "end": 242.168,
+  "speaker": "Unknown",
+  "en": "And they get the baseline with the coding agent started with, which is the repo, the information across all the stacks in one single place.",
+  "zh": "它们获得了编程智能体起步时的基线，也就是代码仓库，所有技术栈上的信息集中在一处。"
+ },
+ {
+  "seg": 45,
+  "start": 242.768,
+  "end": 247.39,
+  "speaker": "Unknown",
+  "en": "That's the foundation you start with, and you can give right access to your agent.",
+  "zh": "这就是你起步的基础，然后你就可以给智能体合适的访问权限。"
+ },
+ {
+  "seg": 46,
+  "start": 249.419,
+  "end": 254.5,
+  "speaker": "Unknown",
+  "en": "The next thing agent needs is a sense of history, the ability to look back in the past.",
+  "zh": "智能体需要的下一件事是历史感，回顾过去的能力。"
+ },
+ {
+  "seg": 47,
+  "start": 256.921,
+  "end": 258.561,
+  "speaker": "Unknown",
+  "en": "In code, you get it for free.",
+  "zh": "在代码领域，这是免费得到的。"
+ },
+ {
+  "seg": 48,
+  "start": 259.181,
+  "end": 270.944,
+  "speaker": "Unknown",
+  "en": "Git keeps a record of every single thing that went in, every single change that was made, so the agent can always look back and see how a certain change was made, why something worked, why something didn't work.",
+  "zh": "Git 记录了每一个被提交的东西、每一处改动，所以智能体随时可以回看某次改动是怎么做的、为什么某个东西有效、为什么某个东西无效。"
+ },
+ {
+  "seg": 49,
+  "start": 271.704,
+  "end": 274.365,
+  "speaker": "Unknown",
+  "en": "Think about the kind of thing you actually ask your agent to do.",
+  "zh": "想想实际上你会让智能体去做的事情。"
+ },
+ {
+  "seg": 50,
+  "start": 275.105,
+  "end": 280.789,
+  "speaker": "Unknown",
+  "en": "We had to revert a change in the past because of some failure, but that was pretty hard to pull off.",
+  "zh": "我们过去曾因为某次故障而回滚过一个变更,但要做到这一点相当困难。"
+ },
+ {
+  "seg": 51,
+  "start": 281.229,
+  "end": 282.83,
+  "speaker": "Unknown",
+  "en": "Can you look at it and get it back again?",
+  "zh": "你能查看它并把它恢复回来吗?"
+ },
+ {
+  "seg": 52,
+  "start": 283.491,
+  "end": 286.633,
+  "speaker": "Unknown",
+  "en": "It just reads through the history and get it back and cook it.",
+  "zh": "它只需读一遍历史记录,把它找回来并处理妥当。"
+ },
+ {
+  "seg": 53,
+  "start": 287.633,
+  "end": 289.174,
+  "speaker": "Unknown",
+  "en": "The history isn't just for agent.",
+  "zh": "历史记录不只是给智能体用的。"
+ },
+ {
+  "seg": 54,
+  "start": 289.955,
+  "end": 292.877,
+  "speaker": "Unknown",
+  "en": "It's also for you to keep a record what the agent is doing.",
+  "zh": "它也是让你记录智能体在做什么的。"
+ },
+ {
+  "seg": 55,
+  "start": 293.497,
+  "end": 305.304,
+  "speaker": "Unknown",
+  "en": "You can see what the agent is doing, where it is fucking up, where it is doing successful things, and instead of trusting what the agent is saying to you, you can just go to those particular apps and look at what it has done.",
+  "zh": "你可以看到智能体在做什么、它在哪儿搞砸了、它在哪儿做得很成功,与其相信智能体对你说的内容,你可以直接去那些具体的应用里看它做了什么。"
+ },
+ {
+  "seg": 56,
+  "start": 309.507,
+  "end": 311.669,
+  "speaker": "Unknown",
+  "en": "Now ask those same questions about knowledge work.",
+  "zh": "现在把同样的问题放到知识型工作上。"
+ },
+ {
+  "seg": 57,
+  "start": 312.149,
+  "end": 317.012,
+  "speaker": "Unknown",
+  "en": "What led to the CRM being in a state where it is today?",
+  "zh": "是什么导致 CRM 变成今天这个状态的?"
+ },
+ {
+  "seg": 58,
+  "start": 317.492,
+  "end": 321.795,
+  "speaker": "Unknown",
+  "en": "How did my colleague craft that amazing mail that led to the closing of the deal?",
+  "zh": "而这正是缺失的东西:一份工作记录。"
+ },
+ {
+  "seg": 59,
+  "start": 323.002,
+  "end": 326.505,
+  "speaker": "Unknown",
+  "en": "What's the actual process to escalate a support issue or even close one?",
+  "zh": "升级一个支持问题、甚至关掉一个支持问题,实际流程是什么?"
+ },
+ {
+  "seg": 60,
+  "start": 327.166,
+  "end": 331.27,
+  "speaker": "Unknown",
+  "en": "The answers are smeared across hundreds of apps, and none of them keep the history.",
+  "zh": "答案散落在数百个应用中,而它们没有一个保留了历史。"
+ },
+ {
+  "seg": 61,
+  "start": 331.971,
+  "end": 333.653,
+  "speaker": "Unknown",
+  "en": "So the agent has no memory.",
+  "zh": "所以智能体没有任何记忆。"
+ },
+ {
+  "seg": 62,
+  "start": 333.953,
+  "end": 336.035,
+  "speaker": "Unknown",
+  "en": "It starts from blank state almost every time.",
+  "zh": "它几乎每次都从空白状态开始。"
+ },
+ {
+  "seg": 63,
+  "start": 336.656,
+  "end": 339.799,
+  "speaker": "Unknown",
+  "en": "No idea what was tried before, what worked, what didn't work.",
+  "zh": "完全不知道之前试过什么、什么有效、什么无效。"
+ },
+ {
+  "seg": 64,
+  "start": 340.885,
+  "end": 343.908,
+  "speaker": "Unknown",
+  "en": "And you have nothing to look at all as well.",
+  "zh": "而你也同样没有任何东西可以查看。"
+ },
+ {
+  "seg": 65,
+  "start": 344.428,
+  "end": 347.21,
+  "speaker": "Unknown",
+  "en": "Once the agent runs, it tells you it has done successfully.",
+  "zh": "一旦智能体运行完,它告诉你它已成功完成。"
+ },
+ {
+  "seg": 66,
+  "start": 347.35,
+  "end": 349.472,
+  "speaker": "Unknown",
+  "en": "You don't know if it has actually done successfully.",
+  "zh": "你并不知道它是否真的成功完成了。"
+ },
+ {
+  "seg": 67,
+  "start": 349.552,
+  "end": 352.114,
+  "speaker": "Unknown",
+  "en": "There's no way to know if it is right or not.",
+  "zh": "没有办法知道它是对的还是错的。"
+ },
+ {
+  "seg": 68,
+  "start": 352.955,
+  "end": 355.017,
+  "speaker": "Unknown",
+  "en": "And that's what's missing, a record of work.",
+  "zh": "而这正是缺失的东西：一份工作的记录。"
+ },
+ {
+  "seg": 69,
+  "start": 357.178,
+  "end": 365.245,
+  "speaker": "Unknown",
+  "en": "Now, because everything finally runs through one single place, that centralization, we can build a layer on top of it, the record.",
+  "zh": "现在,因为一切都终于经由同一个地方运行,凭借这种中心化,我们可以在它之上构建一个层,即记录。"
+ },
+ {
+  "seg": 70,
+  "start": 366.733,
+  "end": 372.154,
+  "speaker": "Unknown",
+  "en": "Every single action that agent takes can be logged across every other app.",
+  "zh": "智能体采取的每一个动作都可以被记录,横跨所有其他应用。"
+ },
+ {
+  "seg": 71,
+  "start": 372.914,
+  "end": 375.795,
+  "speaker": "Unknown",
+  "en": "Whatever it touched, whatever it skipped, what worked, what didn't.",
+  "zh": "它碰了什么、跳过了什么、什么有效、什么无效。"
+ },
+ {
+  "seg": 72,
+  "start": 377.435,
+  "end": 379.956,
+  "speaker": "Unknown",
+  "en": "Via this, firstly, the agent gets memory.",
+  "zh": "由此,首先,智能体获得了记忆。"
+ },
+ {
+  "seg": 73,
+  "start": 380.816,
+  "end": 387.077,
+  "speaker": "Unknown",
+  "en": "It can look back at how similar tasks were done before, what was successful, and replicate it again.",
+  "zh": "它可以回看以前类似的任务是怎么做的、什么是成功的,然后再次复现它。"
+ },
+ {
+  "seg": 74,
+  "start": 388.558,
+  "end": 390.498,
+  "speaker": "Unknown",
+  "en": "It doesn't start with a blank state all the time.",
+  "zh": "它不再总是从空白状态开始。"
+ },
+ {
+  "seg": 75,
+  "start": 391.735,
+  "end": 392.956,
+  "speaker": "Unknown",
+  "en": "Second, you get trust.",
+  "zh": "其次,你获得了信任。"
+ },
+ {
+  "seg": 76,
+  "start": 393.416,
+  "end": 395.898,
+  "speaker": "Unknown",
+  "en": "You can finally see exactly what the agent is doing.",
+  "zh": "你终于可以确切地看到智能体在做什么。"
+ },
+ {
+  "seg": 77,
+  "start": 396.378,
+  "end": 402.782,
+  "speaker": "Unknown",
+  "en": "So instead of hoping it will do the right thing, you can just go back and check and catch it if it does something bad.",
+  "zh": "所以与其指望它会做对的事,你可以直接回头查看,如果它做了坏事就能抓住它。"
+ },
+ {
+  "seg": 78,
+  "start": 404.323,
+  "end": 409.286,
+  "speaker": "Unknown",
+  "en": "And as you kind of see it more and more doing the right things, you'll develop the trust and offload more tasks to it.",
+  "zh": "而随着你越来越多地看到它做对的事,你会建立起信任,并把更多任务交给它。"
+ },
+ {
+  "seg": 79,
+  "start": 411.112,
+  "end": 413.314,
+  "speaker": "Unknown",
+  "en": "The next thing an agent needs is context.",
+  "zh": "智能体需要的下一个东西是上下文。"
+ },
+ {
+  "seg": 80,
+  "start": 414.155,
+  "end": 417.198,
+  "speaker": "Unknown",
+  "en": "And there are really two kinds of context if you think about it.",
+  "zh": "而如果你仔细想想,上下文其实有两种。"
+ },
+ {
+  "seg": 81,
+  "start": 417.758,
+  "end": 420.641,
+  "speaker": "Unknown",
+  "en": "The first is shape of the platform, the architecture.",
+  "zh": "第一种是平台的形态,即架构。"
+ },
+ {
+  "seg": 82,
+  "start": 421.261,
+  "end": 425.305,
+  "speaker": "Unknown",
+  "en": "How things flow into each other, how things are tied, the data flows.",
+  "zh": "事物之间如何相互流动、事物如何关联、数据流。"
+ },
+ {
+  "seg": 83,
+  "start": 425.465,
+  "end": 431.491,
+  "speaker": "Unknown",
+  "en": "Kind of like a map which a senior engineer carries in their head and a junior engineer takes probably three months to develop.",
+  "zh": "有点像一张地图,资深工程师把它装在脑子里,而初级工程师可能要花三个月才能建立起来。"
+ },
+ {
+  "seg": 84,
+  "start": 432.547,
+  "end": 433.388,
+  "speaker": "Unknown",
+  "en": "The second is style.",
+  "zh": "第二种是风格。"
+ },
+ {
+  "seg": 85,
+  "start": 433.748,
+  "end": 438.594,
+  "speaker": "Unknown",
+  "en": "This isn't what's objectively correct, but more like what good looks like in your company.",
+  "zh": "这不是客观上正确的做法,而更像是「好」在你的公司里是什么样子。"
+ },
+ {
+  "seg": 86,
+  "start": 439.134,
+  "end": 444.08,
+  "speaker": "Unknown",
+  "en": "So how you do things, things like linter, type checks, et cetera.",
+  "zh": "也就是你们做事的方式,比如 linter、类型检查等等。"
+ },
+ {
+  "seg": 87,
+  "start": 444.6,
+  "end": 448.745,
+  "speaker": "Unknown",
+  "en": "And maybe you use a TypeScript decorator, which nobody else would.",
+  "zh": "又或者你用了一个别人都不会用的 TypeScript 装饰器。"
+ },
+ {
+  "seg": 88,
+  "start": 449.843,
+  "end": 452.767,
+  "speaker": "Unknown",
+  "en": "This is not exactly somewhere in a playbook.",
+  "zh": "这并不恰好写在某个操作手册里。"
+ },
+ {
+  "seg": 89,
+  "start": 452.927,
+  "end": 454.048,
+  "speaker": "Unknown",
+  "en": "It's more in your code base.",
+  "zh": "它更多是在你的代码库中。"
+ },
+ {
+  "seg": 90,
+  "start": 454.189,
+  "end": 462.74,
+  "speaker": "Unknown",
+  "en": "It's all available in your code base, so the agent can just go and look and figure out the specs, what you like, the linters, the formatters, et cetera.",
+  "zh": "这些都在你的代码库中可以获得,所以智能体可以直接去查看并弄清楚这些规范、你喜欢什么、linter、格式化工具等等。"
+ },
+ {
+  "seg": 91,
+  "start": 466.077,
+  "end": 468.518,
+  "speaker": "Unknown",
+  "en": "Now, coming to knowledge work, the same thing.",
+  "zh": "现在,回到知识型工作,道理是一样的。"
+ },
+ {
+  "seg": 92,
+  "start": 468.718,
+  "end": 470.238,
+  "speaker": "Unknown",
+  "en": "Say you're writing a doc to a customer.",
+  "zh": "比如你在给客户写一份文档。"
+ },
+ {
+  "seg": 93,
+  "start": 470.878,
+  "end": 481.061,
+  "speaker": "Unknown",
+  "en": "To even start, I would have to open the database to pull their usage, check post hoc of how they have been actually using things, and Salesforce to look at their deal details.",
+  "zh": "仅仅是开始之前,我就得打开数据库拉取他们的使用情况,事后查证他们实际是怎么使用产品的,还要打开 Salesforce 查看他们的交易详情。"
+ },
+ {
+  "seg": 94,
+  "start": 481.661,
+  "end": 484.962,
+  "speaker": "Unknown",
+  "en": "Only then I can even start writing the first line of the doc.",
+  "zh": "只有到那时我才能开始写文档的第一行。"
+ },
+ {
+  "seg": 95,
+  "start": 485.722,
+  "end": 488.703,
+  "speaker": "Unknown",
+  "en": "The answer wasn't isolated in just one of those tools.",
+  "zh": "答案并不是孤立地存在于这些工具中的某一个里。"
+ },
+ {
+  "seg": 96,
+  "start": 489.403,
+  "end": 494.965,
+  "speaker": "Unknown",
+  "en": "I'm able to write this doc because I'm pulling the threads across all these tools into one single context in my head.",
+  "zh": "我之所以能写出这份文档,是因为我把所有这些工具里的线索拉进了我脑子里的同一个上下文中。"
+ },
+ {
+  "seg": 97,
+  "start": 495.725,
+  "end": 500.567,
+  "speaker": "Unknown",
+  "en": "So putting history and context together, that's how you map how the organization works.",
+  "zh": "所以把历史和上下文放在一起,那就是你描绘组织如何运转的方式。"
+ },
+ {
+  "seg": 98,
+  "start": 501.067,
+  "end": 503.648,
+  "speaker": "Unknown",
+  "en": "And that part is not available to agent handily.",
+  "zh": "而这一部分是智能体无法轻易获取的。"
+ },
+ {
+  "seg": 99,
+  "start": 506.528,
+  "end": 517.612,
+  "speaker": "Unknown",
+  "en": "So as we did centralization and logging, the record we just built, the one that gives the agent memory and lets you check what it did, also does one more interesting thing.",
+  "zh": "所以,当我们做了中心化和日志记录之后,我们刚刚构建的记录层——它既给智能体记忆,又让你能查看它做了什么——还会做另一件有趣的事。"
+ },
+ {
+  "seg": 100,
+  "start": 518.955,
+  "end": 522.66,
+  "speaker": "Unknown",
+  "en": "If you log enough of what every agent is doing, you start to see patterns.",
+  "zh": "如果你记录下足够多每个智能体在做什么，你就开始看到模式。"
+ },
+ {
+  "seg": 101,
+  "start": 522.82,
+  "end": 536.776,
+  "speaker": "Unknown",
+  "en": "You start to see how the organization works, and you start to form skills, which is some sort of distillation of how the organization has been working, which approaches work, which don't, what led to failures in the past, et cetera.",
+  "zh": "你开始看到这个组织是如何运转的，你开始形成技能，也就是某种对组织过去如何运转的蒸馏：哪些方法有效、哪些无效、过去是什么导致了失败，等等。"
+ },
+ {
+  "seg": 102,
+  "start": 538.23,
+  "end": 541.012,
+  "speaker": "Unknown",
+  "en": "The record isn't just history of what happened anymore.",
+  "zh": "这份记录不再仅仅是发生过什么的历史。"
+ },
+ {
+  "seg": 103,
+  "start": 541.112,
+  "end": 543.032,
+  "speaker": "Unknown",
+  "en": "It's a picture of how your company operates.",
+  "zh": "它是一幅描绘你的公司如何运作的图景。"
+ },
+ {
+  "seg": 104,
+  "start": 544.093,
+  "end": 554.698,
+  "speaker": "Unknown",
+  "en": "And it actually works at three different levels, how a tool works in general, which is applicable to every person, how a company does things, and how you prefer to do things, what good looks like to you.",
+  "zh": "而且它实际上在三个不同的层面起作用：一个工具通常是如何工作的，这适用于每一个人；一家公司如何做事；以及你偏好如何做事，在你看来什么是好的。"
+ },
+ {
+  "seg": 105,
+  "start": 556.072,
+  "end": 567.002,
+  "speaker": "Unknown",
+  "en": "And that's the context that was missing for a knowledge work agent, how the work actually gets done, the real playbook of sorts, and the preference of a company, of a personal user.",
+  "zh": "而这正是知识工作智能体此前缺失的上下文：工作实际上是如何完成的，某种意义上的真实操作手册，以及一家公司的偏好、一个个人用户的偏好。"
+ },
+ {
+  "seg": 106,
+  "start": 567.803,
+  "end": 571.326,
+  "speaker": "Unknown",
+  "en": "And now the agent can query it and stop guessing how the company operates.",
+  "zh": "现在智能体可以查询它，而不用再猜测公司是如何运作的。"
+ },
+ {
+  "seg": 107,
+  "start": 574.469,
+  "end": 579.413,
+  "speaker": "Unknown",
+  "en": "The other reason coding agents work so well, they test themselves, the work checks itself.",
+  "zh": "编程智能体之所以运转良好的另一个原因是：它们自己测试自己，工作会自我检验。"
+ },
+ {
+  "seg": 108,
+  "start": 580.237,
+  "end": 580.778,
+  "speaker": "Unknown",
+  "en": "Verification.",
+  "zh": "验证。"
+ },
+ {
+  "seg": 109,
+  "start": 581.619,
+  "end": 584.582,
+  "speaker": "Unknown",
+  "en": "The moment the agent writes a code, a stack of checks follow.",
+  "zh": "智能体一写完代码，一连串的检查就随之而来。"
+ },
+ {
+  "seg": 110,
+  "start": 585.042,
+  "end": 587.245,
+  "speaker": "Unknown",
+  "en": "The unit tests can catch small mistakes.",
+  "zh": "单元测试可以抓住小的错误。"
+ },
+ {
+  "seg": 111,
+  "start": 587.765,
+  "end": 591.97,
+  "speaker": "Unknown",
+  "en": "The integration tests catch the ones that only affect components three blocks away.",
+  "zh": "集成测试能抓住那些只影响到三个街区之外组件的错误。"
+ },
+ {
+  "seg": 112,
+  "start": 592.591,
+  "end": 597.476,
+  "speaker": "Unknown",
+  "en": "The type system would not even work and run if anything was going wrong.",
+  "zh": "只要有任何地方出了问题，类型系统甚至无法运行。"
+ },
+ {
+  "seg": 113,
+  "start": 597.976,
+  "end": 599.758,
+  "speaker": "Unknown",
+  "en": "The compiler will not even build.",
+  "zh": "编译器甚至无法完成构建。"
+ },
+ {
+  "seg": 114,
+  "start": 600.499,
+  "end": 605.983,
+  "speaker": "Unknown",
+  "en": "On top of it sits the software checks, linters, formatters, bugbot.md, review skills, et cetera.",
+  "zh": "在这之上还有软件检查：linters、格式化工具、bugbot.md、review 技能，等等。"
+ },
+ {
+  "seg": 115,
+  "start": 606.803,
+  "end": 612.407,
+  "speaker": "Unknown",
+  "en": "And these ensure that the code matches the way your team likes to follow the standards of your team.",
+  "zh": "而这些确保代码符合你的团队喜欢的方式，遵循你团队的标准。"
+ },
+ {
+  "seg": 116,
+  "start": 613.107,
+  "end": 613.968,
+  "speaker": "Unknown",
+  "en": "None of it meets you.",
+  "zh": "这些都不需要你参与。"
+ },
+ {
+  "seg": 117,
+  "start": 614.228,
+  "end": 620.072,
+  "speaker": "Unknown",
+  "en": "The agent completes the loop on its own and makes sure that it follows the standard and is able to make the code run.",
+  "zh": "智能体自己完成这个闭环，并确保它遵循标准、能够把代码跑起来。"
+ },
+ {
+  "seg": 118,
+  "start": 621.611,
+  "end": 630.056,
+  "speaker": "Unknown",
+  "en": "Now, think about, like, so a while back, I pointed my open claw at a hiring outreach, mass emails to candidates.",
+  "zh": "现在，想想看，就像，前一阵子，我把我的 open claw 指向了一个招聘触达任务，给候选人群发邮件。"
+ },
+ {
+  "seg": 119,
+  "start": 630.457,
+  "end": 630.857,
+  "speaker": "Unknown",
+  "en": "It ran.",
+  "zh": "它运行了。"
+ },
+ {
+  "seg": 120,
+  "start": 631.597,
+  "end": 634.179,
+  "speaker": "Unknown",
+  "en": "It sent tons of emails.",
+  "zh": "它发了大量邮件。"
+ },
+ {
+  "seg": 121,
+  "start": 635.039,
+  "end": 637.341,
+  "speaker": "Unknown",
+  "en": "Some of you might have also gotten it from my open claw.",
+  "zh": "你们有些人可能也从我的 open claw 收到过。"
+ },
+ {
+  "seg": 122,
+  "start": 637.721,
+  "end": 639.302,
+  "speaker": "Unknown",
+  "en": "It did exactly what I told it to do.",
+  "zh": "它完全按我告诉它的去做了。"
+ },
+ {
+  "seg": 123,
+  "start": 640.283,
+  "end": 645.206,
+  "speaker": "Unknown",
+  "en": "It was also a disaster, the kind that ends up on Twitter with my name on top of it.",
+  "zh": "但它同时也是一场灾难，那种最终会挂上 Twitter、顶着我的名字的灾难。"
+ },
+ {
+  "seg": 124,
+  "start": 646.73,
+  "end": 650.513,
+  "speaker": "Unknown",
+  "en": "Yeah, I think you can see a fuck you current web there.",
+  "zh": "是的，我想你能在那里看到一个 \"fuck you current web\"。"
+ },
+ {
+  "seg": 125,
+  "start": 651.514,
+  "end": 653.956,
+  "speaker": "Unknown",
+  "en": "I was not the happiest when it happened.",
+  "zh": "事情发生的时候我并不是最开心的。"
+ },
+ {
+  "seg": 126,
+  "start": 654.696,
+  "end": 655.377,
+  "speaker": "Unknown",
+  "en": "And here's the thing.",
+  "zh": "而关键在于："
+ },
+ {
+  "seg": 127,
+  "start": 655.777,
+  "end": 658.119,
+  "speaker": "Unknown",
+  "en": "Every check from the past slide would have passed.",
+  "zh": "上一张幻灯片里的每一项检查都会通过。"
+ },
+ {
+  "seg": 128,
+  "start": 658.679,
+  "end": 659.68,
+  "speaker": "Unknown",
+  "en": "The emails were valid.",
+  "zh": "那些邮件是有效的。"
+ },
+ {
+  "seg": 129,
+  "start": 660.06,
+  "end": 660.941,
+  "speaker": "Unknown",
+  "en": "The addresses were real.",
+  "zh": "那些地址是真实的。"
+ },
+ {
+  "seg": 130,
+  "start": 661.061,
+  "end": 663.743,
+  "speaker": "Unknown",
+  "en": "It actually got to real people who posted.",
+  "zh": "它确实送到了真实的人手上，他们还发了帖。"
+ },
+ {
+  "seg": 131,
+  "start": 664.664,
+  "end": 670.228,
+  "speaker": "Unknown",
+  "en": "There was no test in the world to actually question what really mattered.",
+  "zh": "世界上没有任何一个测试能真正质疑真正重要的问题："
+ },
+ {
+  "seg": 132,
+  "start": 670.909,
+  "end": 672.43,
+  "speaker": "Unknown",
+  "en": "Should this have gone at all?",
+  "zh": "这件事根本就不该发出去吗？"
+ },
+ {
+  "seg": 133,
+  "start": 673.555,
+  "end": 674.136,
+  "speaker": "Unknown",
+  "en": "That's the gap.",
+  "zh": "这就是缺口。"
+ },
+ {
+  "seg": 134,
+  "start": 674.336,
+  "end": 677.1,
+  "speaker": "Unknown",
+  "en": "In code, these tests tell you what's wrong and right.",
+  "zh": "在代码里，这些测试告诉你什么是对的、什么是错的。"
+ },
+ {
+  "seg": 135,
+  "start": 677.481,
+  "end": 679.404,
+  "speaker": "Unknown",
+  "en": "Here, the internet told me that I was wrong.",
+  "zh": "在这里，是互联网告诉我我错了。"
+ },
+ {
+  "seg": 136,
+  "start": 682.134,
+  "end": 684.014,
+  "speaker": "Unknown",
+  "en": "So we build the checks that are missing.",
+  "zh": "所以我们来构建那些缺失的检查。"
+ },
+ {
+  "seg": 137,
+  "start": 684.755,
+  "end": 687.835,
+  "speaker": "Unknown",
+  "en": "The problem in the above thread wasn't the outreach was wrong.",
+  "zh": "上面那个事件里的问题不在于触达本身是错的。"
+ },
+ {
+  "seg": 138,
+  "start": 688.215,
+  "end": 691.036,
+  "speaker": "Unknown",
+  "en": "It was that it went out before even I getting to know.",
+  "zh": "而在于它在我知情之前就已经发出去了。"
+ },
+ {
+  "seg": 139,
+  "start": 691.716,
+  "end": 692.897,
+  "speaker": "Unknown",
+  "en": "So the fix is simple.",
+  "zh": "所以修复方法很简单。"
+ },
+ {
+  "seg": 140,
+  "start": 693.417,
+  "end": 694.677,
+  "speaker": "Unknown",
+  "en": "Catch before it's even real.",
+  "zh": "在它成为现实之前就拦截。"
+ },
+ {
+  "seg": 141,
+  "start": 695.537,
+  "end": 697.038,
+  "speaker": "Unknown",
+  "en": "So we have two ways in which we do that.",
+  "zh": "我们有两种做法。"
+ },
+ {
+  "seg": 142,
+  "start": 697.458,
+  "end": 706.78,
+  "speaker": "Unknown",
+  "en": "One, before the agent sends anything, it checks the draft emails that I've sent before, if it matches my style, if it matches the goodness that I like.",
+  "zh": "第一，在智能体发送任何东西之前，它会检查我以前发过的邮件草稿，看是否符合我的风格，是否符合我喜欢的标准。"
+ },
+ {
+  "seg": 143,
+  "start": 707.52,
+  "end": 718.99,
+  "speaker": "Unknown",
+  "en": "The second, before doing anything destructive in the real world scenario, we provide the agent sandboxes which mock the real tools and they can send, they can do action on top of these sandboxes.",
+  "zh": "第二，在真实场景中做任何破坏性操作之前，我们给智能体提供沙箱，这些沙箱模拟真实工具，它们可以在这些沙箱之上发送、执行操作。"
+ },
+ {
+  "seg": 144,
+  "start": 719.53,
+  "end": 726.957,
+  "speaker": "Unknown",
+  "en": "So instead of the blast radius hitting the real world, it will hit a sandbox and then I can review it before the agent does the real thing.",
+  "zh": "这样一来，爆炸半径就不会波及真实世界，而是落在一个沙箱里，然后我可以在智能体做真事之前审查它。"
+ },
+ {
+  "seg": 145,
+  "start": 728.005,
+  "end": 735.829,
+  "speaker": "Unknown",
+  "en": "Put those two together and you've got something KnowledgeWork never had, a way for agent to check its own work before it's even real.",
+  "zh": "把这两点放在一起，你就得到了知识工作从未有过的东西：一种让智能体在事情成为现实之前检查自己工作的方法。"
+ },
+ {
+  "seg": 146,
+  "start": 736.369,
+  "end": 739.531,
+  "speaker": "Unknown",
+  "en": "It can finally close its own loop instead of stopping to wait for you.",
+  "zh": "它终于可以自己闭合自己的循环，而不是停下来等你。"
+ },
+ {
+  "seg": 147,
+  "start": 740.371,
+  "end": 747.354,
+  "speaker": "Unknown",
+  "en": "And with all that, you can trust the action it is taking without you getting bombarded with the tweets that I showed.",
+  "zh": "有了这一切，你就可以信任它正在采取的行动，而不用像我展示的那样被推文轰炸。"
+ },
+ {
+  "seg": 148,
+  "start": 749.455,
+  "end": 751.636,
+  "speaker": "Unknown",
+  "en": "Next thing, the agent needs is governance.",
+  "zh": "接下来，智能体需要的是治理。"
+ },
+ {
+  "seg": 149,
+  "start": 752.237,
+  "end": 756.679,
+  "speaker": "Unknown",
+  "en": "Building trust is controlling what the agent can do, putting up the right walls around the agents.",
+  "zh": "建立信任就是控制智能体能做什么，在智能体周围建起正确的围墙。"
+ },
+ {
+  "seg": 150,
+  "start": 759.871,
+  "end": 763.655,
+  "speaker": "Unknown",
+  "en": "In code, this is mostly solved and has multiple layers.",
+  "zh": "在代码领域，这基本已经解决了，而且有多层防护。"
+ },
+ {
+  "seg": 151,
+  "start": 764.295,
+  "end": 768.76,
+  "speaker": "Unknown",
+  "en": "The agent can do whatever it wants on its own branch, but it can't merge to main.",
+  "zh": "智能体可以在它自己的分支上为所欲为，但它不能合并到 main。"
+ },
+ {
+  "seg": 152,
+  "start": 769.3,
+  "end": 771.783,
+  "speaker": "Unknown",
+  "en": "A human reviewer sits in between it merging to main.",
+  "zh": "在它合并到 main 之间有一位人类审查者。"
+ },
+ {
+  "seg": 153,
+  "start": 772.383,
+  "end": 777.048,
+  "speaker": "Unknown",
+  "en": "The critical files have code owners, so whenever it touches one of them, the right people are getting involved.",
+  "zh": "关键文件设置了 code owners,所以只要它碰到其中任何一个，相关的人就会被拉进来。"
+ },
+ {
+  "seg": 154,
+  "start": 778.369,
+  "end": 783.174,
+  "speaker": "Unknown",
+  "en": "We use agents to ship to preview deployments, never let it touch the production deployments, so we control it there.",
+  "zh": "我们用智能体发布到预览部署，绝不让它碰生产部署，所以我们在那里控制住了它。"
+ },
+ {
+  "seg": 155,
+  "start": 784.43,
+  "end": 791.716,
+  "speaker": "Unknown",
+  "en": "The governance is not a single gate, but multiple of them, and each varying its sizes depending on the blast radius it exposes.",
+  "zh": "治理不是单一闸门，而是多道闸门，每一道的大小根据它暴露的爆炸半径而不同。"
+ },
+ {
+  "seg": 156,
+  "start": 792.857,
+  "end": 798.562,
+  "speaker": "Unknown",
+  "en": "None of it slows the agent down in safe parts, just prevents it from fucking up production.",
+  "zh": "这些都不会拖慢智能体在安全区域的速度，只是防止它搞砸生产环境。"
+ },
+ {
+  "seg": 157,
+  "start": 799.783,
+  "end": 804.347,
+  "speaker": "Unknown",
+  "en": "And the tighter those lines are, the more you can trust the agent and let it go berserk.",
+  "zh": "而且这些边界划得越紧，你就越能信任智能体，让它放开手脚大干。"
+ },
+ {
+  "seg": 158,
+  "start": 806.325,
+  "end": 807.366,
+  "speaker": "Unknown",
+  "en": "You probably saw this one.",
+  "zh": "你可能看过这一条。"
+ },
+ {
+  "seg": 159,
+  "start": 807.706,
+  "end": 815.853,
+  "speaker": "Unknown",
+  "en": "The Director of Alignment at MetaSuperintelligence Lab hooked up an agent to its email, and it started destroying its email, deleting a lot of them.",
+  "zh": "Meta 超级智能实验室的对齐负责人把一个智能体接到了她的邮箱上，然后它开始破坏她的邮箱，删掉了大量邮件。"
+ },
+ {
+  "seg": 160,
+  "start": 816.253,
+  "end": 817.194,
+  "speaker": "Unknown",
+  "en": "She told it to stop.",
+  "zh": "她叫它停下。"
+ },
+ {
+  "seg": 161,
+  "start": 817.654,
+  "end": 818.255,
+  "speaker": "Unknown",
+  "en": "It kept going.",
+  "zh": "它继续删。"
+ },
+ {
+  "seg": 162,
+  "start": 818.655,
+  "end": 821.157,
+  "speaker": "Unknown",
+  "en": "Finally, she had to run to a physical machine to stop it.",
+  "zh": "最后，她不得不跑到一台物理机器前才把它停住。"
+ },
+ {
+  "seg": 163,
+  "start": 822.098,
+  "end": 824.5,
+  "speaker": "Unknown",
+  "en": "But by then, 200 emails had actually vanished.",
+  "zh": "但到那时，已经有 200 封邮件真的消失了。"
+ },
+ {
+  "seg": 164,
+  "start": 826.088,
+  "end": 830.45,
+  "speaker": "Unknown",
+  "en": "She had told it beforehand in prompt to confirm before acting on such cases.",
+  "zh": "她事先在提示词里告诉过它，在这类情况下行动前要先确认。"
+ },
+ {
+  "seg": 165,
+  "start": 830.95,
+  "end": 833.652,
+  "speaker": "Unknown",
+  "en": "But that was just a prompt, which probably would have compacted away.",
+  "zh": "但那只是一条提示词，很可能早就在上下文压缩中被压掉了。"
+ },
+ {
+  "seg": 166,
+  "start": 834.572,
+  "end": 842.696,
+  "speaker": "Unknown",
+  "en": "And if someone whose sole job is AI alignment can't prompt the agent correctly, then probably none of us can.",
+  "zh": "如果连一个专职做 AI 对齐的人都无法正确地提示智能体，那大概我们谁都不行。"
+ },
+ {
+  "seg": 167,
+  "start": 843.596,
+  "end": 844.577,
+  "speaker": "Unknown",
+  "en": "And that's the real reason.",
+  "zh": "这才是真正的原因。"
+ },
+ {
+  "seg": 168,
+  "start": 845.67,
+  "end": 852.176,
+  "speaker": "Unknown",
+  "en": "These agents are so hard to trust, not because they're worse than the coding agents, but because there's no wall around them.",
+  "zh": "这些智能体之所以这么难以信任，不是因为它们比编程智能体更差，而是因为它们周围没有墙。"
+ },
+ {
+  "seg": 169,
+  "start": 852.877,
+  "end": 856.36,
+  "speaker": "Unknown",
+  "en": "In code, the wall was already built into the system while we were developing earlier.",
+  "zh": "在代码领域，这堵墙在我们早先开发的时候就已经内置到系统里了。"
+ },
+ {
+  "seg": 170,
+  "start": 857.441,
+  "end": 859.924,
+  "speaker": "Unknown",
+  "en": "Knowledge work also has some bits and pieces here and there.",
+  "zh": "知识工作领域也有一些零散的部件散落各处。"
+ },
+ {
+  "seg": 171,
+  "start": 860.084,
+  "end": 861.325,
+  "speaker": "Unknown",
+  "en": "For example, Gmail has scopes.",
+  "zh": "比如,Gmail 有权限范围。"
+ },
+ {
+  "seg": 172,
+  "start": 861.785,
+  "end": 862.966,
+  "speaker": "Unknown",
+  "en": "Salesforce has permission levels.",
+  "zh": "Salesforce 有权限等级。"
+ },
+ {
+  "seg": 173,
+  "start": 863.467,
+  "end": 870.794,
+  "speaker": "Unknown",
+  "en": "But it's so scattered all over the place that it's very hard to have real control, and mostly people end up doing it via prompting.",
+  "zh": "但这些东西散落得到处都是，很难实现真正的控制，大多数人最后只能靠提示词来做。"
+ },
+ {
+  "seg": 174,
+  "start": 872.308,
+  "end": 874.029,
+  "speaker": "Unknown",
+  "en": "And prompting is fragile.",
+  "zh": "而提示词是脆弱的。"
+ },
+ {
+  "seg": 175,
+  "start": 874.81,
+  "end": 876.511,
+  "speaker": "Unknown",
+  "en": "The agent will find those loopholes.",
+  "zh": "智能体会找到那些漏洞。"
+ },
+ {
+  "seg": 176,
+  "start": 876.991,
+  "end": 878.292,
+  "speaker": "Unknown",
+  "en": "Things will get compacted away.",
+  "zh": "东西会在上下文压缩中被压掉。"
+ },
+ {
+  "seg": 177,
+  "start": 878.612,
+  "end": 886.437,
+  "speaker": "Unknown",
+  "en": "And at scale, one of these fence will break, and you'll also be in the same condition where 200 of your important emails are vanishing.",
+  "zh": "而且在规模化场景下，这些栅栏总有一天会有一道被冲破，你也会陷入同样的境地——你的 200 封重要邮件正在消失。"
+ },
+ {
+  "seg": 178,
+  "start": 887.458,
+  "end": 889.079,
+  "speaker": "Unknown",
+  "en": "So what would actually stop it?",
+  "zh": "那么，什么才能真正拦住它？"
+ },
+ {
+  "seg": 179,
+  "start": 889.619,
+  "end": 896.424,
+  "speaker": "Unknown",
+  "en": "Not like a better instruction, but wall that the agent can't cross, even if it forgot that wall existed.",
+  "zh": "不是更好的指令，而是一堵智能体无法逾越的墙，即使它忘了这堵墙的存在。"
+ },
+ {
+  "seg": 180,
+  "start": 901.098,
+  "end": 903.518,
+  "speaker": "Unknown",
+  "en": "So we build these walls in two layers.",
+  "zh": "所以我们用两层来构建这些墙。"
+ },
+ {
+  "seg": 181,
+  "start": 903.838,
+  "end": 909.439,
+  "speaker": "Unknown",
+  "en": "The first layer is deterministic, control over what the agent can reach, what it has access to.",
+  "zh": "第一层是确定性的，控制智能体能触达什么、能访问什么。"
+ },
+ {
+  "seg": 182,
+  "start": 910.04,
+  "end": 912.72,
+  "speaker": "Unknown",
+  "en": "A hiring agent can probably just read the emails.",
+  "zh": "一个招聘智能体大概只能读邮件。"
+ },
+ {
+  "seg": 183,
+  "start": 913.2,
+  "end": 917.261,
+  "speaker": "Unknown",
+  "en": "A support agent can create a draft email but not actually send it.",
+  "zh": "一个客服智能体可以创建邮件草稿，但不能真正发送。"
+ },
+ {
+  "seg": 184,
+  "start": 917.761,
+  "end": 919.661,
+  "speaker": "Unknown",
+  "en": "The boundary lives outside these agents.",
+  "zh": "边界存在于这些智能体之外。"
+ },
+ {
+  "seg": 185,
+  "start": 920.101,
+  "end": 923.722,
+  "speaker": "Unknown",
+  "en": "It can't be argued with by the agent or forgotten or compacted.",
+  "zh": "智能体无法和它争辩，也不会遗忘它或在上下文压缩中把它压掉。"
+ },
+ {
+  "seg": 186,
+  "start": 924.522,
+  "end": 928.583,
+  "speaker": "Unknown",
+  "en": "Use instruction failed because it lived in agent's memory in the prompt.",
+  "zh": "之前的指令之所以失败，是因为它存在于智能体的记忆里、在提示词里。"
+ },
+ {
+  "seg": 187,
+  "start": 928.923,
+  "end": 929.403,
+  "speaker": "Unknown",
+  "en": "This doesn't.",
+  "zh": "这个不是。"
+ },
+ {
+  "seg": 188,
+  "start": 930.982,
+  "end": 940.169,
+  "speaker": "Unknown",
+  "en": "But access alone wouldn't have saved her because she was actually building an email agent, so it definitely needed access to that email.",
+  "zh": "但光靠访问权限也救不了她，因为她当时实际上就是在构建一个邮件智能体，所以它肯定需要访问那个邮箱。"
+ },
+ {
+  "seg": 189,
+  "start": 940.369,
+  "end": 948.714,
+  "speaker": "Unknown",
+  "en": "The other thing that we do is provide policies, which is you can define national language policies of what the agent can do even with those accesses.",
+  "zh": "我们做的另一件事是提供策略，也就是你可以用自然语言定义策略，规定智能体即使拥有那些访问权限也能做什么。"
+ },
+ {
+  "seg": 190,
+  "start": 949.115,
+  "end": 953.197,
+  "speaker": "Unknown",
+  "en": "So things like never delete more than 10 emails without my permission.",
+  "zh": "比如说，未经我的许可，永远不要删除超过 10 封邮件。"
+ },
+ {
+  "seg": 191,
+  "start": 953.938,
+  "end": 956.22,
+  "speaker": "Unknown",
+  "en": "Never email outside a particular domain.",
+  "zh": "永远不要给特定域名之外的地址发邮件。"
+ },
+ {
+  "seg": 192,
+  "start": 957.02,
+  "end": 960.064,
+  "speaker": "Unknown",
+  "en": "Rules that with even those axes control the behavior.",
+  "zh": "这些规则即便在拥有那些访问权限的情况下也能约束行为。"
+ },
+ {
+  "seg": 193,
+  "start": 960.845,
+  "end": 969.075,
+  "speaker": "Unknown",
+  "en": "So between those two things, one layer controls what the agent can reach, and the other layer can control the behavior with what it can do with that reach.",
+  "zh": "所以在这两者之间，一层控制智能体能触达什么，另一层控制它能用这些触达能力做什么。"
+ },
+ {
+  "seg": 194,
+  "start": 969.475,
+  "end": 975.162,
+  "speaker": "Unknown",
+  "en": "Together, it's real governance for the agent, not asking the agent to behave, but enforcing it what it can do.",
+  "zh": "合在一起，这才是对智能体的真正治理，不是要求智能体守规矩，而是强制约束它能做什么。"
+ },
+ {
+  "seg": 195,
+  "start": 978.462,
+  "end": 980.083,
+  "speaker": "Unknown",
+  "en": "The last pillar, reversibility.",
+  "zh": "最后一根支柱，可逆性。"
+ },
+ {
+  "seg": 196,
+  "start": 980.563,
+  "end": 985.585,
+  "speaker": "Unknown",
+  "en": "And this is where we reach when things go wrong.",
+  "zh": "也就是当事情出问题时我们抵达的那一步。"
+ },
+ {
+  "seg": 197,
+  "start": 985.966,
+  "end": 986.626,
+  "speaker": "Unknown",
+  "en": "Can I undo it?",
+  "zh": "我能撤销它吗？"
+ },
+ {
+  "seg": 198,
+  "start": 988.066,
+  "end": 990.207,
+  "speaker": "Unknown",
+  "en": "In code, you almost always can.",
+  "zh": "在代码领域，几乎总是可以。"
+ },
+ {
+  "seg": 199,
+  "start": 991.048,
+  "end": 992.168,
+  "speaker": "Unknown",
+  "en": "Every change is recorded.",
+  "zh": "每一次变更都有记录。"
+ },
+ {
+  "seg": 200,
+  "start": 992.408,
+  "end": 993.449,
+  "speaker": "Unknown",
+  "en": "Things can be walked back.",
+  "zh": "事情是可以回退的。"
+ },
+ {
+  "seg": 201,
+  "start": 994.009,
+  "end": 999.552,
+  "speaker": "Unknown",
+  "en": "You can get revert the last commit, or you can get bisect to the commit that broke your production and revert it.",
+  "zh": "你可以 revert 上一次提交，或者用 bisect 找到破坏了生产的那个提交并 revert 它。"
+ },
+ {
+  "seg": 202,
+  "start": 1002.607,
+  "end": 1004.249,
+  "speaker": "Unknown",
+  "en": "Like, I'm not saying it's good.",
+  "zh": "比如，我不是说这样就好。"
+ },
+ {
+  "seg": 203,
+  "start": 1004.85,
+  "end": 1005.771,
+  "speaker": "Unknown",
+  "en": "I won't pretend like that.",
+  "zh": "我不会假装那样。"
+ },
+ {
+  "seg": 204,
+  "start": 1006.171,
+  "end": 1008.474,
+  "speaker": "Unknown",
+  "en": "If things go in production and break, it's always bad.",
+  "zh": "如果事情进了生产环境然后坏掉，那总是糟糕的。"
+ },
+ {
+  "seg": 205,
+  "start": 1008.975,
+  "end": 1010.096,
+  "speaker": "Unknown",
+  "en": "But it's still not permanent.",
+  "zh": "但它仍然不是永久性的。"
+ },
+ {
+  "seg": 206,
+  "start": 1010.296,
+  "end": 1011.538,
+  "speaker": "Unknown",
+  "en": "You can still walk back from it.",
+  "zh": "你仍然可以从中回退。"
+ },
+ {
+  "seg": 207,
+  "start": 1012.058,
+  "end": 1017.605,
+  "speaker": "Unknown",
+  "en": "And that's what gives you confidence to let your agents cook and let them do some magic.",
+  "zh": "而这正是让你有信心让智能体大干一场、让它们施展一些魔法的原因。"
+ },
+ {
+  "seg": 208,
+  "start": 1017.765,
+  "end": 1021.31,
+  "speaker": "Unknown",
+  "en": "Because even if they break the things, you have a pathway back.",
+  "zh": "真正的撤销，就像代码中存在的那种，在知识工作的所有场景中可能都不存在。"
+ },
+ {
+  "seg": 209,
+  "start": 1023.348,
+  "end": 1026.571,
+  "speaker": "Unknown",
+  "en": "For knowledge work, there is no undo button.",
+  "zh": "而对于知识工作，没有撤销按钮。"
+ },
+ {
+  "seg": 210,
+  "start": 1026.611,
+  "end": 1027.792,
+  "speaker": "Unknown",
+  "en": "Think about use inbox.",
+  "zh": "想想收件箱的用例。"
+ },
+ {
+  "seg": 211,
+  "start": 1027.893,
+  "end": 1029.574,
+  "speaker": "Unknown",
+  "en": "Those 200 emails are gone.",
+  "zh": "那 200 封邮件没了。"
+ },
+ {
+  "seg": 212,
+  "start": 1029.694,
+  "end": 1030.235,
+  "speaker": "Unknown",
+  "en": "They have vanished.",
+  "zh": "它们消失了。"
+ },
+ {
+  "seg": 213,
+  "start": 1030.635,
+  "end": 1031.736,
+  "speaker": "Unknown",
+  "en": "That's the normal case, by the way.",
+  "zh": "顺便说一句，这只是正常情况。"
+ },
+ {
+  "seg": 214,
+  "start": 1032.177,
+  "end": 1040.505,
+  "speaker": "Unknown",
+  "en": "The disaster case is a sent email, which you can't revert back, a wire that has already been made, so you can't get that money back, a deleted record gone forever.",
+  "zh": "灾难情况是一封已发出的邮件，你无法撤回；一笔已经完成的转账，所以你拿不回那笔钱；一条被删除的记录，永远消失。"
+ },
+ {
+  "seg": 215,
+  "start": 1041.066,
+  "end": 1044.289,
+  "speaker": "Unknown",
+  "en": "Most actions actually in knowledge work don't have an undo button.",
+  "zh": "实际上知识工作中的大多数操作都没有撤销按钮。"
+ },
+ {
+  "seg": 216,
+  "start": 1045.15,
+  "end": 1046.531,
+  "speaker": "Unknown",
+  "en": "And that changes the whole equation.",
+  "zh": "而这改变了整个等式。"
+ },
+ {
+  "seg": 217,
+  "start": 1047.704,
+  "end": 1048.885,
+  "speaker": "Unknown",
+  "en": "That changes the blast radius.",
+  "zh": "这改变了爆炸半径。"
+ },
+ {
+  "seg": 218,
+  "start": 1049.805,
+  "end": 1051.906,
+  "speaker": "Unknown",
+  "en": "With code, you can trust the agent after the fact.",
+  "zh": "对于代码，你可以在事后信任智能体。"
+ },
+ {
+  "seg": 219,
+  "start": 1051.986,
+  "end": 1054.406,
+  "speaker": "Unknown",
+  "en": "Let it run, check the result, undo if it's wrong.",
+  "zh": "让它运行，检查结果，错了就撤销。"
+ },
+ {
+  "seg": 220,
+  "start": 1054.987,
+  "end": 1056.147,
+  "speaker": "Unknown",
+  "en": "Out here, there's no coming back.",
+  "zh": "而在这里，没有回头路。"
+ },
+ {
+  "seg": 221,
+  "start": 1056.367,
+  "end": 1060.528,
+  "speaker": "Unknown",
+  "en": "The only place left for you is to trust before the agent acts.",
+  "zh": "你唯一剩下的位置就是在智能体行动之前信任它。"
+ },
+ {
+  "seg": 222,
+  "start": 1060.969,
+  "end": 1064.37,
+  "speaker": "Unknown",
+  "en": "That's what makes these agents feel dangerous in a way coding agents never did.",
+  "zh": "这就是让这些智能体感觉危险、而编码智能体从未给人的那种感觉的原因。"
+ },
+ {
+  "seg": 223,
+  "start": 1065.01,
+  "end": 1066.25,
+  "speaker": "Unknown",
+  "en": "It's not that they fail often.",
+  "zh": "不是因为它们经常失败。"
+ },
+ {
+  "seg": 224,
+  "start": 1066.711,
+  "end": 1069.031,
+  "speaker": "Unknown",
+  "en": "It's that out there failure is forever.",
+  "zh": "而是因为在外面，失败是永远的。"
+ },
+ {
+  "seg": 225,
+  "start": 1070.152,
+  "end": 1073.493,
+  "speaker": "Unknown",
+  "en": "So either you completely go up front or never let it act.",
+  "zh": "所以要么你完全前置把关，要么永远别让它行动。"
+ },
+ {
+  "seg": 226,
+  "start": 1075.518,
+  "end": 1076.199,
+  "speaker": "Unknown",
+  "en": "Let me be honest.",
+  "zh": "让我坦白说。"
+ },
+ {
+  "seg": 227,
+  "start": 1076.279,
+  "end": 1078.802,
+  "speaker": "Unknown",
+  "en": "Reversibility is the hardest to replicate in knowledge work.",
+  "zh": "可逆性是知识工作中最难复刻的东西。"
+ },
+ {
+  "seg": 228,
+  "start": 1079.423,
+  "end": 1084.189,
+  "speaker": "Unknown",
+  "en": "Real undo, the way it exists for code, probably doesn't exist in all the scenarios in knowledge work.",
+  "zh": "真正的撤销功能,就像代码中存在的那种,在知识工作的所有场景中可能并不存在。"
+ },
+ {
+  "seg": 229,
+  "start": 1084.91,
+  "end": 1089.436,
+  "speaker": "Unknown",
+  "en": "But we have some scenarios where undo exists, and we call them.",
+  "zh": "但我们有一些撤销存在的场景，我们把它们叫出来。"
+ },
+ {
+  "seg": 230,
+  "start": 1089.816,
+  "end": 1091.579,
+  "speaker": "Unknown",
+  "en": "So let's say you add a label.",
+  "zh": "比如说你添加了一个标签。"
+ },
+ {
+  "seg": 231,
+  "start": 1091.919,
+  "end": 1093.481,
+  "speaker": "Unknown",
+  "en": "You can remove the label afterwards.",
+  "zh": "你之后可以把标签移除。"
+ },
+ {
+  "seg": 232,
+  "start": 1094.222,
+  "end": 1109.518,
+  "speaker": "Unknown",
+  "en": "But for actions that you can't undo at all, like hard deletes that disappear the emails from your inbox, we again provide a sandbox where the agent can do the thing first in the sandbox and you can review it and then actually goes into the production environment.",
+  "zh": "但对于你完全无法撤销的操作，比如把邮件从你的收件箱里硬删除掉，我们再次提供一个沙箱，智能体可以先在沙箱里做这件事，你可以审查它，然后才真正进入生产环境。"
+ },
+ {
+  "seg": 233,
+  "start": 1110.239,
+  "end": 1111.4,
+  "speaker": "Unknown",
+  "en": "None of it touches the real world.",
+  "zh": "这些都不会触碰真实世界。"
+ },
+ {
+  "seg": 234,
+  "start": 1111.701,
+  "end": 1112.501,
+  "speaker": "Unknown",
+  "en": "That's the whole flip.",
+  "zh": "这就是整个反转。"
+ },
+ {
+  "seg": 235,
+  "start": 1113.335,
+  "end": 1115.516,
+  "speaker": "Unknown",
+  "en": "In code, you can undo the mistake after it happens.",
+  "zh": "在代码里，你可以在错误发生之后撤销它。"
+ },
+ {
+  "seg": 236,
+  "start": 1115.836,
+  "end": 1117.337,
+  "speaker": "Unknown",
+  "en": "Here, you catch it before it does.",
+  "zh": "在这里，你在它发生之前就抓住它。"
+ },
+ {
+  "seg": 237,
+  "start": 1117.757,
+  "end": 1120.458,
+  "speaker": "Unknown",
+  "en": "Different timing, same result, a mistake that won't stick.",
+  "zh": "不同的时机，同样的结果——一个不会留下来的错误。"
+ },
+ {
+  "seg": 238,
+  "start": 1121.139,
+  "end": 1121.939,
+  "speaker": "Unknown",
+  "en": "Think about you again.",
+  "zh": "再想想你。"
+ },
+ {
+  "seg": 239,
+  "start": 1122.279,
+  "end": 1125.141,
+  "speaker": "Unknown",
+  "en": "The actions we could reverse, we would give it a reverse button.",
+  "zh": "我们能逆转的操作，我们会给它一个逆转按钮。"
+ },
+ {
+  "seg": 240,
+  "start": 1125.521,
+  "end": 1132.744,
+  "speaker": "Unknown",
+  "en": "The ones we couldn't, the agent would hit the sandbox first, and she would be notified, your 1,200 emails are going to get deleted.",
+  "zh": "我们不能逆转的那些，智能体会先经过沙箱，而她会收到通知，你的 1,200 封邮件将被删除。"
+ },
+ {
+  "seg": 241,
+  "start": 1132.964,
+  "end": 1133.464,
+  "speaker": "Unknown",
+  "en": "Do you want it?",
+  "zh": "你想要这样吗？"
+ },
+ {
+  "seg": 242,
+  "start": 1135.265,
+  "end": 1136.326,
+  "speaker": "Unknown",
+  "en": "It's not done yet.",
+  "zh": "这还没有执行。"
+ },
+ {
+  "seg": 243,
+  "start": 1137.915,
+  "end": 1145.697,
+  "speaker": "Unknown",
+  "en": "But across billions of actions that we are going through, we are learning on the way which ones can be walked back, which ones can't, and preparing the sandbox accordingly.",
+  "zh": "但在我们正在经历的数十亿操作中，我们一路上在学习哪些可以回退、哪些不能，并相应地准备沙箱。"
+ },
+ {
+  "seg": 244,
+  "start": 1149.377,
+  "end": 1151.378,
+  "speaker": "Unknown",
+  "en": "If you take one thing away today, take this.",
+  "zh": "如果你今天带走一件事，就带走这个。"
+ },
+ {
+  "seg": 245,
+  "start": 1151.718,
+  "end": 1153.758,
+  "speaker": "Unknown",
+  "en": "For two years, the model was the bottleneck.",
+  "zh": "两年来，模型是瓶颈。"
+ },
+ {
+  "seg": 246,
+  "start": 1154.138,
+  "end": 1156.779,
+  "speaker": "Unknown",
+  "en": "So everybody was racing towards better and better model.",
+  "zh": "所以所有人都在竞相追逐越来越好用的模型。"
+ },
+ {
+  "seg": 247,
+  "start": 1157.319,
+  "end": 1162.26,
+  "speaker": "Unknown",
+  "en": "Now the models have gotten good enough where software engineering is 100% autonomous.",
+  "zh": "现在模型已经足够好，好到软件工程可以 100% 自主。"
+ },
+ {
+  "seg": 248,
+  "start": 1163.32,
+  "end": 1165.341,
+  "speaker": "Unknown",
+  "en": "But now everything else is the bottleneck.",
+  "zh": "但现在其他一切成了瓶颈。"
+ },
+ {
+  "seg": 249,
+  "start": 1168.465,
+  "end": 1176.528,
+  "speaker": "Unknown",
+  "en": "The same model that writes your code can also do your hiring, sales, and other knowledge work.",
+  "zh": "同一个写你代码的模型，也能做你的招聘、销售和其他知识工作。"
+ },
+ {
+  "seg": 250,
+  "start": 1176.668,
+  "end": 1179.129,
+  "speaker": "Unknown",
+  "en": "But right now it's working blind.",
+  "zh": "但现在它是盲目的。"
+ },
+ {
+  "seg": 251,
+  "start": 1179.589,
+  "end": 1183.651,
+  "speaker": "Unknown",
+  "en": "No history, no context, no ways to verify, no guardrails, no undo.",
+  "zh": "没有历史、没有上下文、没有办法验证、没有护栏、没有撤销。"
+ },
+ {
+  "seg": 252,
+  "start": 1184.751,
+  "end": 1186.532,
+  "speaker": "Unknown",
+  "en": "So the bottleneck has moved.",
+  "zh": "所以瓶颈已经转移了。"
+ },
+ {
+  "seg": 253,
+  "start": 1188.432,
+  "end": 1192.594,
+  "speaker": "Unknown",
+  "en": "Now it's infrastructure that nobody has yet built, and that's what we are building at Composio.",
+  "zh": "现在瓶颈是还没有人构建的基础设施，而这正是我们在 Composio 所构建的。"
+ },
+ {
+  "seg": 254,
+  "start": 1195.275,
+  "end": 1195.415,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 255,
+  "start": 1196.478,
+  "end": 1201.822,
+  "speaker": "Unknown",
+  "en": "We are powering billion-plus tool calls in total, 300 million tool calls happening every month.",
+  "zh": "我们总共为超过十亿次的工具调用提供支持，每个月有三亿次工具调用发生。"
+ },
+ {
+  "seg": 256,
+  "start": 1202.743,
+  "end": 1207.746,
+  "speaker": "Unknown",
+  "en": "And if you are building an agent, just point it to Composio and see the magic happen for knowledge work.",
+  "zh": "如果你在构建一个智能体，只需把它指向 Composio，看看知识工作中的魔法发生。"
+ },
+ {
+  "seg": 257,
+  "start": 1208.127,
+  "end": 1213.691,
+  "speaker": "Unknown",
+  "en": "And if you want to build the future of substrate of AI agents, then please come to me.",
+  "zh": "而如果你想构建 AI 智能体的未来底座，那么请来找我。"
+ },
+ {
+  "seg": 258,
+  "start": 1213.831,
+  "end": 1216.873,
+  "speaker": "Unknown",
+  "en": "We are definitely hiring, and there's a lot, lot left to do.",
+  "zh": "我们绝对在招人，还有很多很多要做的事。"
+ },
+ {
+  "seg": 259,
+  "start": 1217.514,
+  "end": 1218.955,
+  "speaker": "Unknown",
+  "en": "The models will keep getting better.",
+  "zh": "模型会不断变好。"
+ },
+ {
+  "seg": 260,
+  "start": 1219.535,
+  "end": 1220.796,
+  "speaker": "Unknown",
+  "en": "The bottleneck won't be models.",
+  "zh": "瓶颈不会是模型。"
+ },
+ {
+  "seg": 261,
+  "start": 1221.437,
+  "end": 1222.878,
+  "speaker": "Unknown",
+  "en": "It will be the things around it.",
+  "zh": "而会是围绕它的那些东西。"
+ },
+ {
+  "seg": 262,
+  "start": 1222.898,
+  "end": 1223.198,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 263,
+  "start": 1231.749,
+  "end": 1232.892,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

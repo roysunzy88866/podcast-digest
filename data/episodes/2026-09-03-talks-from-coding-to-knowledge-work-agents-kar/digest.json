@@ -1,0 +1,178 @@
+{
+  "title_zh": "模型已经够好了，为什么智能体还只能写代码？",
+  "tldr": "Composio 联合创始人兼 CTO Karan Vedya 拆解编程智能体成功的六个基础设施原语，主张瓶颈已从模型转移到没人建的知识工作基础设施。",
+  "digest_md": "如今绝大多数智能体的工具调用都发生在同一个领域——软件工程。其他所有工作都远远落后。说这话的人是 Composio 联合创始人兼 CTO Karan Vedya，他要回答的是一个万亿美元级的问题：如果模型在不断变好，为什么我们仍然只有智能体编程？\n\n三年前编程智能体只是自动补全，今天软件工程已经完全自主，从按 tab 走到了「让 Claude 大展身手」。大多数人说这是因为模型变好了，加上 Claude Code、Codex、Cursor 这些脚手架。但他指出，光靠这些不够——编程智能体之所以成功，是因为围绕代码的基础设施本来就是为智能体而生的：仓库、提交历史、测试、CI/CD、代码评审、linter，出问题还能回滚。正是这些系统让你敢于信任智能体。而现在我们把同样出色的智能体指向客服、财务、销售，它们却「只是在盲干」，因为那些领域根本没有这套基础设施。\n\n他认为核心是六个原语，编程领域六者兼备，知识工作领域一个都没有：\n\n**一、中心化。** 编程智能体起点就拥有一切——代码库就是单一事实来源。而知识工作里，一笔交易散落在五个平台：记录在 Salesforce，文档在 Notion，邮件在 Gmail，对话在 Slack，客服历史在 Zendesk。智能体还没开始干活，就得先自己把所有线索串起来——而这只是编程智能体的起点。所以要构建一个「缺失的中心」，所有应用、连接、登录集中一处，让智能体获得与编程智能体相同的起跑线。\n\n**二、历史记录。** 代码领域历史是免费的：Git 记录了每一次改动，智能体随时能回看某个变更怎么做的、为什么有效。而知识工作的答案散落在数百个应用里，没有一个保留历史——智能体没有记忆，几乎每次都从空白开始，不知道之前试过什么；你也一样，智能体说它成功了，你却无法核实。一旦一切经由中心化层运行，就能记录智能体的每一个动作：碰了什么、跳过了什么。这首先给智能体记忆（回看并复现成功做法），其次给你信任——随它做得越多越敢交更多任务。\n\n**三、上下文。** 有两种：一是架构，事物如何流动关联，像资深工程师脑中的地图、初级工程师要三个月才能建立的认知；二是风格——不是客观正确，而是「好」在你公司长什么样，比如你们特有的 TypeScript 装饰器用法，这不在操作手册里，而在代码库中，智能体直接看代码就能学到。知识工作同理：给客户写文档前，要查数据库里的使用数据、Salesforce 里的交易详情，答案不孤立在任何一个工具里。记录下足够多智能体动作后，还能蒸馏出组织如何运转的「技能」——哪些方法有效、什么导致了失败。记录不再只是历史，而是一幅公司运作图景，智能体可以查询它，不用再猜。\n\n**四、验证。** 编程智能体自己测试自己：单元测试抓小错，集成测试抓远处的错，类型系统、编译器、linter 层层把关，智能体自己闭合循环。他举了自己的翻车案例：把智能体指向招聘群发邮件，它完全按指令执行，发了大量邮件——其中还带着不体面的内容，最终差点挂上 Twitter。关键在于：过去那一整套检查全都会通过——邮件有效、地址真实、确实送达了真人。世界上没有任何测试能质疑真正重要的问题：这事根本就不该发吗？在代码里是测试告诉你错了，在这里是互联网告诉他错了。修复方法是在它成为现实之前拦截：一是发送前对照你以前的邮件草稿检查风格；二是给智能体沙箱——模拟真实工具的环境，破坏性操作先在沙箱里做，你审查后才执行真事。\n\n**五、治理。** 代码领域这是多道闸门：智能体只能在自己的分支上为所欲为，合并到 main 前有人类审查，关键文件有 code owners，只发预览部署不碰生产。他讲了那个著名的案例：Meta 超级智能实验室的对齐负责人把智能体接到邮箱上，它开始大量删邮件，叫停也不停，最后她跑到物理机器前才停住——200 封邮件已消失。她事先在提示词里写了要确认，但那只是提示词，很可能在上下文压缩中被压掉了。「如果连专职做 AI 对齐的人都无法正确提示智能体，那大概我们谁都不行。」知识工作不是没有控制部件——Gmail 有权限范围、Salesforce 有权限等级——但散落各处，大家最后只能靠提示词，而提示词是脆弱的。所以墙要建两层：第一层是确定性的访问控制（招聘智能体只能读邮件，客服智能体能建草稿但不能发送），边界存在于智能体之外，它无法争辩、不会遗忘；第二层是自然语言策略，约束已有权限内的行为，比如「未经许可永远别删超过 10 封邮件」。前者管能触达什么，后者管能用触达做什么——是强制约束，不是要求它守规矩。\n\n**六、可逆性。** 这是知识工作里最难复刻的。代码几乎总能撤销：revert 提交、bisect 找到破坏生产的那个提交。而这正是你敢让智能体大干一场的原因。但那 200 封邮件永远消失了；已发出的邮件撤不回，已完成的转账拿不回钱。知识工作的大多数操作没有撤销按钮——这改变了爆炸半径：代码你可以在事后信任智能体，让它跑、查结果、错了撤销；这里没有回头路，你只剩「事前信任」一个选项。「不是它们失败得更频繁，而是在外面，失败是永远的。」他们的做法：能撤销的操作给撤销按钮；不能撤销的硬删除等，先过沙箱、审查后才进真实环境——在代码里你在错误发生后撤销，在这里你在发生前抓住，不同时机、同样结果。\n\n最后是全场最核心的判断：两年来模型是瓶颈，所有人竞相造更好的模型；现在模型已经好到软件工程可以 100% 自主，其他一切成了瓶颈。同一个写代码的模型也能做招聘和销售，但它现在是在盲干——没有历史、没有上下文、没法验证、没有护栏、没有撤销。瓶颈转移到了没人构建的基础设施上，而这正是 Composio 在做的：他们已支撑超过十亿次工具调用，每月三亿次。\n\n## 本集带走\n- **编程智能体成功靠的不是模型，是地基**：仓库、Git 历史、测试、CI、评审、回滚——这套为智能体而生的基础设施，知识工作领域一项都没有。\n- **六个原语当检查清单**：中心化（单一事实来源）、历史记录（记忆+可核查）、上下文（架构+公司风格）、验证（沙箱+风格比对，事前拦截）、治理（确定性权限+策略，别靠提示词）、可逆性（能撤销给按钮，不能撤销先过沙箱）。\n- **提示词不是护栏**：写在提示词里的规则会在上下文压缩中丢掉；真正的墙必须建在智能体之外，它忘了墙存在也跨不过去。\n- **知识工作智能体的风险本质不同**：不是失败率更高，而是失败不可逆——代码可以事后信任，这里只能事前把关。\n- **瓶颈已经转移**：模型够好之后，缺的是没人建的知识工作基础设施——这也是机会所在。",
+  "quotes": [
+    {
+      "en": "It only worked because all the infrastructure and systems around coding were literally meant for agents.",
+      "zh": "它之所以奏效，是因为围绕编程的所有基础设施和系统本来就是为智能体而生的。",
+      "timestamp": "01:20",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "It was also a disaster, the kind that ends up on Twitter with my name on top of it.",
+      "zh": "但它同时也是一场灾难，那种最终会挂上 Twitter、顶着我的名字的灾难。",
+      "timestamp": "10:40",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "And if someone whose sole job is AI alignment can't prompt the agent correctly, then probably none of us can.",
+      "zh": "如果连一个专职做 AI 对齐的人都无法正确地提示智能体，那大概我们谁都不行。",
+      "timestamp": "13:54",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "And prompting is fragile.",
+      "zh": "而提示词是脆弱的。",
+      "timestamp": "14:32",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "Not like a better instruction, but wall that the agent can't cross, even if it forgot that wall existed.",
+      "zh": "不是更好的指令，而是一堵智能体无法逾越的墙，即使它忘了这堵墙的存在。",
+      "timestamp": "14:49",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "Together, it's real governance for the agent, not asking the agent to behave, but enforcing it what it can do.",
+      "zh": "合在一起，这才是对智能体的真正治理，不是要求智能体守规矩，而是强制约束它能做什么。",
+      "timestamp": "16:09",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "It's that out there failure is forever.",
+      "zh": "而是因为在外面，失败是永远的。",
+      "timestamp": "17:46",
+      "speaker": "Karan Vaidya"
+    },
+    {
+      "en": "Now it's infrastructure that nobody has yet built, and that's what we are building at Composio.",
+      "zh": "现在瓶颈是还没有人构建的基础设施，而这正是我们在 Composio 所构建的。",
+      "timestamp": "19:48",
+      "speaker": "Karan Vaidya"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:29",
+      "speaker": "Karan Vedya",
+      "en": "If models keep getting better, then why are we still limited to just agentic coding?",
+      "zh": "如果模型在不断变好，那为什么我们仍然局限于智能体编程？"
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Karan Vedya",
+      "en": "It only worked because all the infrastructure and systems around coding were literally meant for agents.",
+      "zh": "它之所以奏效，是因为围绕编程的所有基础设施和系统本来就是为智能体而生的。"
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Karan Vedya",
+      "en": "So how do we close the bridge between coding agents and knowledge work agents?",
+      "zh": "那么我们如何弥合编程智能体与知识工作智能体之间的鸿沟？"
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Karan Vedya",
+      "en": "So how can you expect knowledge work agent to do the same level of work as coding agent?",
+      "zh": "所以你怎么能指望知识工作智能体做到和编程智能体同等水平的工作呢？"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Karan Vedya",
+      "en": "So the agent has no memory.",
+      "zh": "所以智能体没有任何记忆。"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Karan Vedya",
+      "en": "It starts from blank state almost every time.",
+      "zh": "它几乎每次都从空白状态开始。"
+    },
+    {
+      "timestamp": "08:58",
+      "speaker": "Karan Vedya",
+      "en": "The record isn't just history of what happened anymore.",
+      "zh": "这份记录不再仅仅是发生过什么的历史。"
+    },
+    {
+      "timestamp": "09:01",
+      "speaker": "Karan Vedya",
+      "en": "It's a picture of how your company operates.",
+      "zh": "它是一幅描绘你的公司如何运作的图景。"
+    },
+    {
+      "timestamp": "10:40",
+      "speaker": "Karan Vedya",
+      "en": "It was also a disaster, the kind that ends up on Twitter with my name on top of it.",
+      "zh": "但它同时也是一场灾难，那种最终会挂上 Twitter、顶着我的名字的灾难。"
+    },
+    {
+      "timestamp": "11:13",
+      "speaker": "Karan Vedya",
+      "en": "That's the gap.",
+      "zh": "这就是缺口。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Karan Vedya",
+      "en": "Here, the internet told me that I was wrong.",
+      "zh": "在这里，是互联网告诉我我错了。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Karan Vedya",
+      "en": "Catch before it's even real.",
+      "zh": "在它成为现实之前就拦截。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Karan Vedya",
+      "en": "And if someone whose sole job is AI alignment can't prompt the agent correctly, then probably none of us can.",
+      "zh": "如果连一个专职做 AI 对齐的人都无法正确地提示智能体，那大概我们谁都不行。"
+    },
+    {
+      "timestamp": "14:32",
+      "speaker": "Karan Vedya",
+      "en": "And prompting is fragile.",
+      "zh": "而提示词是脆弱的。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Karan Vedya",
+      "en": "Not like a better instruction, but wall that the agent can't cross, even if it forgot that wall existed.",
+      "zh": "不是更好的指令，而是一堵智能体无法逾越的墙，即使它忘了这堵墙的存在。"
+    },
+    {
+      "timestamp": "16:09",
+      "speaker": "Karan Vedya",
+      "en": "Together, it's real governance for the agent, not asking the agent to behave, but enforcing it what it can do.",
+      "zh": "合在一起，这才是对智能体的真正治理，不是要求智能体守规矩，而是强制约束它能做什么。"
+    },
+    {
+      "timestamp": "17:46",
+      "speaker": "Karan Vedya",
+      "en": "It's that out there failure is forever.",
+      "zh": "而是因为在外面，失败是永远的。"
+    },
+    {
+      "timestamp": "18:35",
+      "speaker": "Karan Vedya",
+      "en": "Here, you catch it before it does.",
+      "zh": "在这里，你在它发生之前就抓住它。"
+    },
+    {
+      "timestamp": "19:23",
+      "speaker": "Karan Vedya",
+      "en": "But now everything else is the bottleneck.",
+      "zh": "但现在其他一切成了瓶颈。"
+    },
+    {
+      "timestamp": "19:48",
+      "speaker": "Karan Vedya",
+      "en": "Now it's infrastructure that nobody has yet built, and that's what we are building at Composio.",
+      "zh": "现在瓶颈是还没有人构建的基础设施，而这正是我们在 Composio 所构建的。"
+    }
+  ],
+  "voice_script": "今天要聊的问题，听起来有点反直觉：模型已经这么好了，为什么智能体好像只能写代码？你让 AI 做客服、做财务、做销售，它就不太行——这到底是为什么？\n\n讲这个的是 Composio 的联合创始人兼 CTO,Karan Vedya。Composio 是做智能体工具调用基础设施的，已经支撑了超过十亿次工具调用。今天要回答的，就是一个万亿美元级的问题：如果模型在不断变好，为什么我们只有智能体编程？\n\n先看变化有多快。三年前，编程智能体还只是自动补全；今天，软件工程已经可以完全自主，从「按一下 tab」走到了「让 Claude 大展身手」。大多数人的解释是：模型变好了，再加上 Claude Code、Codex、Cursor 这些脚手架。但 Karan 说，光靠这些解释不通。编程智能体真正成功的原因，是围绕代码的那套基础设施——仓库、提交历史、测试、CI/CD、代码评审、linter,出了问题还能回滚——这一整套东西，本来就是为智能体而生的。正是这些系统让你敢信任智能体。而当我们把同样聪明的智能体指向客服、财务、销售的时候，那些领域根本没有这套地基，智能体只能盲干。\n\n那这套地基到底是什么？Karan 把它拆成六个原语。编程领域六者兼备，知识工作领域，一个都没有。\n\n第一个是中心化。编程智能体一开工，就拥有一切——代码库就是单一事实来源。而知识工作呢？一笔交易散落在五个平台：记录在 Salesforce,文档在 Notion,邮件在 Gmail,对话在 Slack,客服历史在 Zendesk。智能体还没开始干活，就得先把所有线索自己串起来——而这只是编程智能体的起点。所以第一步，是要构建一个「缺失的中心」，把所有应用、连接、登录集中到一处，让智能体和编程智能体站上同一条起跑线。\n\n有了中心化，才谈得上第二个原语：历史记录。在代码领域，历史是免费的——Git 记录每一次改动，智能体随时能回看某个变更是怎么做的、为什么有效。但知识工作的答案散落在几百个应用里，没人保留历史。结果就是智能体没有记忆，几乎每次都从空白开始，不知道之前试过什么。你也没法核实——智能体说它成功了，你怎么验证？一旦一切经由中心化层运行，就能记下智能体的每一个动作：碰了什么、跳过了什么。这首先给了智能体记忆，能回看并复现成功的做法；其次给了你信任——随它做得越多，你敢交的任务也越多。\n\n历史攒够了，就变成第三样东西：上下文。这有两种。一种是架构，就是事物如何流动、如何关联——资深工程师脑子里那张地图，初级工程师要三个月才能建立的认知。另一种是风格，说白了就是「好」在你公司长什么样，比如你们特有的 TypeScript 装饰器用法——这不在操作手册里，而在代码库中，智能体看代码就能学到。知识工作同理：给客户写文档前，得查数据库里的使用数据、Salesforce 里的交易详情，答案不孤立在任何工具里。而且动作记录得足够多之后，还能蒸馏出组织如何运转的「技能」——哪些方法有效、什么导致了失败。记录不再只是历史，而是一幅公司运作的图景，智能体可以查询它，不用再猜。\n\n接下来这条线，就引出一个更尖锐的问题：智能体自己怎么知道干错了？这就是第四个原语——验证。编程智能体是自己测试自己的：单元测试抓小错，集成测试抓远处的错，类型系统、编译器、linter 层层把关，循环自己就闭合了。那知识工作呢？Karan 讲了自己的翻车案例：把智能体指向招聘群发邮件，它完全按指令执行，发了大量邮件——其中还带着不体面的内容，最后差点变成一场挂上 Twitter、顶着他名字的灾难。关键在哪？过去那一整套检查全都会通过：邮件有效、地址真实、确实送达了真人。世界上没有任何测试能质疑那个真正重要的问题——这事根本就不该发吗？在代码里，是测试告诉你错了；在这里，是互联网告诉你错了。修复的办法，是在它成为现实之前就拦截：一是发送前对照你以前的邮件草稿检查风格；二是给智能体一个沙箱——一个模拟真实工具的环境，破坏性操作先在沙箱里做，你审查过了，才去执行真事。\n\n但光靠验证还不够，得有硬性约束，这是第五个原语：治理。代码领域这是多道闸门：智能体只能在自己的分支上为所欲为，合并到 main 前有人类审查，关键文件有 code owners,只发预览部署、不碰生产。这里有个著名的案例：Meta 超级智能实验室的对齐负责人，把智能体接到邮箱上，它开始大量删邮件，叫停也不停，最后她跑到物理机器前才停住——200 封邮件已经消失了。她事先在提示词里写了要确认，但那只是提示词，很可能在上下文压缩中被压掉了。有句话值得记住：如果连一个专职做 AI 对齐的人都无法正确地提示智能体，那大概我们谁都不行。其实知识工作不是没有控制部件——Gmail 有权限范围，Salesforce 有权限等级——但散落各处，大家最后只能靠提示词，而提示词是脆弱的。所以墙要建两层：第一层是确定性的访问控制，比如招聘智能体只能读邮件，客服智能体能建草稿但不能发送——边界存在于智能体之外，它无法争辩，也不会遗忘。第二层是自然语言策略，约束已有权限内的行为，比如「未经许可永远别删超过 10 封邮件」。前者管它能触达什么，后者管触达了能做什么。合在一起，这才是对智能体的真正治理——不是要求它守规矩，而是强制约束它能做什么。\n\n这就引出最后一个、也是知识工作里最难复刻的原语：可逆性。代码几乎总能撤销——revert 提交，bisect 找到破坏生产的那个提交。而这正是你敢让智能体大干一场的原因。但那 200 封邮件永远消失了；已发出的邮件撤不回，已完成的转账拿不回钱。这改变的是爆炸半径：在代码里，你可以事后信任智能体，让它跑、查结果、错了就撤销；而在知识工作里没有回头路，你只剩「事前信任」一个选项。所以核心区别不是智能体失败得更频繁，而是离开了代码，失败是永远的。Composio 的做法是：能撤销的操作，给撤销按钮；不能撤销的硬删除这类，先过沙箱，审查后才进真实环境。在代码里，你在错误发生后撤销；在这里，你在发生前抓住——时机不同，结果一样。\n\n最后是这个判断，也是整期最核心的一句话：过去两年，模型是瓶颈，所有人竞相造更好的模型；现在，模型已经好到软件工程可以百分之百自主，其他一切成了瓶颈。同一个写代码的模型，也能做招聘和销售，但它现在是在盲干——没有历史，没有上下文，没法验证，没有护栏，没有撤销。瓶颈已经转移到了没人构建的基础设施上，而这正是机会所在。"
+}

@@ -26,7 +26,7 @@ aliases: ["renders"]
 
 [[Yash]] · [[Builder Pack]] · [[All Access]] · [[智能体]] · [[compound engineering]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":347,"compound engineering":2,"MCP":63,"Codex":60,"Claude":70,"Anthropic":150,"OpenAI":139}</script>
+<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":350,"compound engineering":2,"MCP":64,"Codex":61,"Claude":70,"Anthropic":151,"OpenAI":139}</script>
 
 <script>
 (function(){

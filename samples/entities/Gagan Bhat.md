@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":150,"智能体":347,"harness":46,"沙箱":62,"智能体循环":5,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":32}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":151,"智能体":350,"harness":48,"沙箱":63,"智能体循环":5,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":32}</script>
 
 <script>
 (function(){

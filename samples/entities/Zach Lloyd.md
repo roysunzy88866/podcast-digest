@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":347,"编码智能体":22,"代码审查":17,"计算机使用":14,"LLM 当裁判":9,"自我改进":1,"MCP":63}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":350,"编码智能体":22,"代码审查":17,"计算机使用":14,"LLM 当裁判":9,"自我改进":1,"MCP":64}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]]**(03:02起):本集说 RAG 和搜索等工具早就基本解决了公司特定知识的检索问题，但它拿不到部落知识——换 CEO 后 RAG 搜索仍会告诉你旧答案。
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(00:45起):本集反复讨论的框架:流行的说法是「RAG 已死」,但 Yuval 认为检索没死、只是沦为 2022 年水平的基础设施;RAG 分为无聊的索引阶段和每次查询时发生的检索阶段
 - **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(09:26起):本集把 RAG 列为四种 AI 应用形态之一(半被动):先检索相关内容再让模型作答,并用 bi encoder/cross encoder 流程讲解其原理。
+- **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(02:41起):本集把它说成:几年前所有应用的主流形态——从语料库检索相关内容再做信息综合(企业搜索、问答机器人),如今正被智能体应用取代。
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(36:07起):本集说短期记忆（最近几周）和长期记忆（两年前）要通过 RAG 之类的机制接入推理环境，让模型按需访问外部资料
 - **[[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]]**(05:37起):本集把它描述为「做一次搜索、把结果直接放进上下文窗口」的传统做法,作为智能体搜索的对照被一笔带过。
 
@@ -39,7 +40,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -58,6 +59,7 @@ unlisted: true
 - [[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]] — 作为概念
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为概念
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为概念
+- [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为概念
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为概念
 - [[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]] — 作为概念(提及)
 
@@ -65,9 +67,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[上下文工程]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[上下文]] · [[可观测性]] · [[向量搜索]] · [[Lenny]]
+[[智能体]] · [[MCP]] · [[上下文工程]] · [[上下文]] · [[Anthropic]] · [[评估]] · [[Codex]] · [[Claude Code]] · [[可观测性]] · [[向量搜索]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"MCP":63,"上下文工程":15,"Anthropic":150,"Codex":60,"Claude Code":82,"上下文":20,"可观测性":32,"向量搜索":3,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"MCP":64,"上下文工程":15,"上下文":22,"Anthropic":151,"评估":3,"Codex":61,"Claude Code":83,"可观测性":32,"向量搜索":3}</script>
 
 <script>
 (function(){

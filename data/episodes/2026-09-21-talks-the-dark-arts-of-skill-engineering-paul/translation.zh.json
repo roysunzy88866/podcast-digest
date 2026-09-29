@@ -1,0 +1,6114 @@
+[
+ {
+  "seg": 0,
+  "start": 13.028,
+  "end": 13.829,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.891,
+  "end": 16.431,
+  "speaker": "Unknown",
+  "en": "How's it going?",
+  "zh": "近况如何?"
+ },
+ {
+  "seg": 2,
+  "start": 16.451,
+  "end": 24.079,
+  "speaker": "Unknown",
+  "en": "Okay, I think we still have some people trickling in, but I'm super excited to be here.",
+  "zh": "好,我想还有人正在陆续进来,但我非常兴奋能来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 28.664,
+  "end": 35.771,
+  "speaker": "Unknown",
+  "en": "Okay, first off, let me reload these slides because my Claude Code was still building something on it.",
+  "zh": "好,首先,让我重新加载一下这些幻灯片,因为我的 Claude Code 还在上面构建一些东西。"
+ },
+ {
+  "seg": 4,
+  "start": 40.105,
+  "end": 42.226,
+  "speaker": "Unknown",
+  "en": "Okay, so the contrast is a little bit low.",
+  "zh": "好,所以对比度有点低。"
+ },
+ {
+  "seg": 5,
+  "start": 43.166,
+  "end": 43.987,
+  "speaker": "Unknown",
+  "en": "So please bear with me.",
+  "zh": "所以请大家多多包涵。"
+ },
+ {
+  "seg": 6,
+  "start": 44.027,
+  "end": 48.909,
+  "speaker": "Unknown",
+  "en": "I'm going to try to cover what you cannot read as much as possible.",
+  "zh": "我会尽量把你们看不清的内容都讲一遍。"
+ },
+ {
+  "seg": 7,
+  "start": 49.409,
+  "end": 51.49,
+  "speaker": "Unknown",
+  "en": "I also have heard that the Wi-Fi is not the strongest.",
+  "zh": "我还听说这里的 Wi-Fi 信号不太强。"
+ },
+ {
+  "seg": 8,
+  "start": 51.55,
+  "end": 61.353,
+  "speaker": "Unknown",
+  "en": "So while it is a workshop, hopefully you just take away a lot of the lessons and then can apply it whenever you want to.",
+  "zh": "所以虽然这是一个工作坊,希望你们能把今天学到的东西带走,想用的时候随时应用。"
+ },
+ {
+  "seg": 9,
+  "start": 61.814,
+  "end": 63.754,
+  "speaker": "Unknown",
+  "en": "But I do have a sample repo if you want to follow along.",
+  "zh": "不过我确实有一个示例仓库,如果你想跟着做的话。"
+ },
+ {
+  "seg": 10,
+  "start": 66.097,
+  "end": 66.998,
+  "speaker": "Unknown",
+  "en": "Okay, first of all, hi.",
+  "zh": "好,首先,嗨。"
+ },
+ {
+  "seg": 11,
+  "start": 67.499,
+  "end": 68.881,
+  "speaker": "Unknown",
+  "en": "My name is Paul.",
+  "zh": "我叫 Paul。"
+ },
+ {
+  "seg": 12,
+  "start": 69.141,
+  "end": 70.603,
+  "speaker": "Unknown",
+  "en": "I'm really glad you found your way into this room.",
+  "zh": "我很高兴你找到了这个房间。"
+ },
+ {
+  "seg": 13,
+  "start": 72.345,
+  "end": 74.268,
+  "speaker": "Unknown",
+  "en": "I'm the author of Impeccable.",
+  "zh": "我是 Impeccable 的作者。"
+ },
+ {
+  "seg": 14,
+  "start": 74.969,
+  "end": 77.071,
+  "speaker": "Unknown",
+  "en": "Who here has used Impeccable by any chance?",
+  "zh": "在座有谁用过 Impeccable 吗?"
+ },
+ {
+  "seg": 15,
+  "start": 77.131,
+  "end": 77.892,
+  "speaker": "Unknown",
+  "en": "Can I see some hands?",
+  "zh": "能让我看看手吗?"
+ },
+ {
+  "seg": 16,
+  "start": 78.794,
+  "end": 80.596,
+  "speaker": "Unknown",
+  "en": "Okay, a few people, nice.",
+  "zh": "好,有几个人,不错。"
+ },
+ {
+  "seg": 17,
+  "start": 82.358,
+  "end": 88.964,
+  "speaker": "Unknown",
+  "en": "So for those of you who have not used Impeccable, Impeccable is a skill that I've built for myself mainly.",
+  "zh": "那么对于那些没用过 Impeccable 的人,Impeccable 主要是为我自己构建的一个技能。"
+ },
+ {
+  "seg": 18,
+  "start": 89.585,
+  "end": 95.751,
+  "speaker": "Unknown",
+  "en": "I've built this large enterprise app over the last year and it has like lots of different views, states, whatever.",
+  "zh": "过去一年我构建了一个大型企业应用,它有很多不同的视图、状态等等。"
+ },
+ {
+  "seg": 19,
+  "start": 96.872,
+  "end": 101.116,
+  "speaker": "Unknown",
+  "en": "And I wanted to design really quickly with my agents, with Codex, with Claude.",
+  "zh": "我想用我的智能体,用 Codex,用 Claude 快速地进行设计。"
+ },
+ {
+  "seg": 20,
+  "start": 102.53,
+  "end": 110.656,
+  "speaker": "Unknown",
+  "en": "But I noticed that even though it gets me quickly to something that I can look at, normalizing it back to the design system was really, really challenging.",
+  "zh": "但我注意到,虽然它能让我很快得到一个可以看的东西,把它规范化回设计系统真的非常非常具有挑战性。"
+ },
+ {
+  "seg": 21,
+  "start": 110.716,
+  "end": 115.039,
+  "speaker": "Unknown",
+  "en": "So the first skill that I've built for myself was called normalize.",
+  "zh": "所以我为自己构建的第一个技能叫做 normalize。"
+ },
+ {
+  "seg": 22,
+  "start": 115.359,
+  "end": 119.242,
+  "speaker": "Unknown",
+  "en": "And it kind of like brought it, brought whatever Claude design back to the design system.",
+  "zh": "它大致上把……把 Claude 设计的任何东西带回到设计系统。"
+ },
+ {
+  "seg": 23,
+  "start": 119.302,
+  "end": 120.022,
+  "speaker": "Unknown",
+  "en": "That's how I started.",
+  "zh": "我就是这样开始的。"
+ },
+ {
+  "seg": 24,
+  "start": 120.102,
+  "end": 126.187,
+  "speaker": "Unknown",
+  "en": "And I also used Anthropic's front-end design skill, like maybe many of you, when I first got going.",
+  "zh": "我还用了 Anthropic 的前端设计技能,可能你们很多人都这样,在我刚开始的时候。"
+ },
+ {
+  "seg": 25,
+  "start": 126.987,
+  "end": 136.413,
+  "speaker": "Unknown",
+  "en": "And from there on it kind of expanded into more and more design skills that allowed me to turn Claude Code and then Codex and other harnesses more into a design harness.",
+  "zh": "从那以后,它逐渐扩展成越来越多的设计技能,让我能把 Claude Code,然后是 Codex 和其他 harness 更转变为设计 harness。"
+ },
+ {
+  "seg": 26,
+  "start": 138.414,
+  "end": 149.52,
+  "speaker": "Unknown",
+  "en": "At some point I decided maybe other people might find this useful as well, so I open sourced it as OpenSourceSkill, released it, and it turns out a lot of you liked it.",
+  "zh": "在某个时刻,我觉得也许其他人也会觉得这有用,所以我把它开源为 OpenSourceSkill 并发布了,结果你们很多人都喜欢它。"
+ },
+ {
+  "seg": 27,
+  "start": 150.321,
+  "end": 151.462,
+  "speaker": "Unknown",
+  "en": "So if you haven't checked it out yet,",
+  "zh": "所以如果你还没看过的话,"
+ },
+ {
+  "seg": 28,
+  "start": 153.792,
+  "end": 154.292,
+  "speaker": "Unknown",
+  "en": "Give it a go.",
+  "zh": "去试试吧。"
+ },
+ {
+  "seg": 29,
+  "start": 154.552,
+  "end": 155.993,
+  "speaker": "Unknown",
+  "en": "It's on impeccable.style.",
+  "zh": "它在 impeccable.style 上。"
+ },
+ {
+  "seg": 30,
+  "start": 156.893,
+  "end": 160.154,
+  "speaker": "Unknown",
+  "en": "But today won't be a talk about impeccable per se.",
+  "zh": "但今天不会是一场关于 Impeccable 本身的演讲。"
+ },
+ {
+  "seg": 31,
+  "start": 160.174,
+  "end": 165.135,
+  "speaker": "Unknown",
+  "en": "It will be about what I learned from making these skills because it kind of escalated.",
+  "zh": "而是关于我制作这些技能时学到的东西,因为它有点一发不可收拾。"
+ },
+ {
+  "seg": 32,
+  "start": 165.155,
+  "end": 168.996,
+  "speaker": "Unknown",
+  "en": "It started with a simple prompt and then went all the way to what it is today.",
+  "zh": "它始于一个简单的提示词,然后一路发展成今天的样子。"
+ },
+ {
+  "seg": 33,
+  "start": 170.277,
+  "end": 177.079,
+  "speaker": "Unknown",
+  "en": "A lot of people have looked at the code of impeccable and they see a whole bunch of scripts in the script folder and they're like, what is all this stuff?",
+  "zh": "很多人看过 Impeccable 的代码,他们看到 script 文件夹里有一大堆脚本,他们会问,这些都是什么东西?"
+ },
+ {
+  "seg": 34,
+  "start": 177.659,
+  "end": 181.62,
+  "speaker": "Unknown",
+  "en": "And so I wanted to share some of my knowledge that I've gained with you.",
+  "zh": "所以我想把我获得的一些知识分享给你们。"
+ },
+ {
+  "seg": 35,
+  "start": 182.32,
+  "end": 183.701,
+  "speaker": "Unknown",
+  "en": "So let's get into it.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 36,
+  "start": 184.782,
+  "end": 191.809,
+  "speaker": "Unknown",
+  "en": "Let's talk about the dark arts of skill engineering.",
+  "zh": "我们来聊聊技能工程的黑暗艺术。"
+ },
+ {
+  "seg": 37,
+  "start": 196.393,
+  "end": 196.673,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 38,
+  "start": 200.087,
+  "end": 202.669,
+  "speaker": "Unknown",
+  "en": "Yeah, the production value of this talk is out of this roof.",
+  "zh": "是的,这场演讲的制作水准高得不得了。"
+ },
+ {
+  "seg": 39,
+  "start": 203.41,
+  "end": 206.153,
+  "speaker": "Unknown",
+  "en": "Okay, so first of all, you've all seen this kind of design.",
+  "zh": "好,首先,你们都见过这种设计。"
+ },
+ {
+  "seg": 40,
+  "start": 207.034,
+  "end": 213.96,
+  "speaker": "Unknown",
+  "en": "This is actually a real design built with the front end design skill and Claude Code.",
+  "zh": "这实际上是用前端设计技能和 Claude Code 构建的一个真实设计。"
+ },
+ {
+  "seg": 41,
+  "start": 214.881,
+  "end": 216.602,
+  "speaker": "Unknown",
+  "en": "And you probably all have seen a design like this.",
+  "zh": "你们可能都见过类似这样的设计。"
+ },
+ {
+  "seg": 42,
+  "start": 216.622,
+  "end": 220.306,
+  "speaker": "Unknown",
+  "en": "This is for like a fake kids reader, iPad reader app.",
+  "zh": "这是一个假的儿童阅读器,iPad 阅读应用。"
+ },
+ {
+  "seg": 43,
+  "start": 220.506,
+  "end": 225.13,
+  "speaker": "Unknown",
+  "en": "You have italic serif, you have like some capitalized",
+  "zh": "你有斜体衬线字体,你有一些大写的"
+ },
+ {
+  "seg": 44,
+  "start": 226.199,
+  "end": 232.922,
+  "speaker": "Unknown",
+  "en": "You have a hero, and you have like a eyebrow text, like a kicker, whatever you want to call it, the top of it, like a weird label.",
+  "zh": "你有一个 hero,你有一个 eyebrow 文本,比如 kicker,随你怎么叫它,在顶部的,像一个奇怪的标签。"
+ },
+ {
+  "seg": 45,
+  "start": 234.022,
+  "end": 238.164,
+  "speaker": "Unknown",
+  "en": "You have beige, I call it Claude beige, Claude beige backgrounds.",
+  "zh": "你有米色,我称之为 Claude 米色,Claude 米色背景。"
+ },
+ {
+  "seg": 46,
+  "start": 240.302,
+  "end": 244.024,
+  "speaker": "Unknown",
+  "en": "And now it's not necessarily a bad design, right?",
+  "zh": "现在这不一定是一个糟糕的设计,对吧?"
+ },
+ {
+  "seg": 47,
+  "start": 244.185,
+  "end": 247.767,
+  "speaker": "Unknown",
+  "en": "But I think you all can point this out and say, well, this is clearly AI generated.",
+  "zh": "但我想你们都能指出来并说,嗯,这明显是 AI 生成的。"
+ },
+ {
+  "seg": 48,
+  "start": 248.007,
+  "end": 249.308,
+  "speaker": "Unknown",
+  "en": "It's clearly Slop.",
+  "zh": "明显是 Slop(垃圾内容)。"
+ },
+ {
+  "seg": 49,
+  "start": 250.348,
+  "end": 251.829,
+  "speaker": "Unknown",
+  "en": "And it turns out Slop is a moving target.",
+  "zh": "而事实证明,Slop 是一个移动的靶子。"
+ },
+ {
+  "seg": 50,
+  "start": 252.65,
+  "end": 260.635,
+  "speaker": "Unknown",
+  "en": "You've all seen, you might have thinking, might have been thinking of Slop as purple gradients, but we've kind of moved on since that into Claude Baych.",
+  "zh": "你们都见过，你们可能一直认为 Slop 就是紫色渐变，但我们从那之后已经进化到 Claude Baych 了。"
+ },
+ {
+  "seg": 51,
+  "start": 263.068,
+  "end": 265.471,
+  "speaker": "Unknown",
+  "en": "Okay, so this is where I started.",
+  "zh": "好的，这就是我起步的地方。"
+ },
+ {
+  "seg": 52,
+  "start": 265.511,
+  "end": 268.193,
+  "speaker": "Unknown",
+  "en": "I started with a system prompt and a prayer basically.",
+  "zh": "我基本上是靠一个 system prompt 和祈祷开始的。"
+ },
+ {
+  "seg": 53,
+  "start": 269.014,
+  "end": 276.281,
+  "speaker": "Unknown",
+  "en": "So I started using the frontend design skill like many of you and it's like 55 lines of named bands.",
+  "zh": "我和你们很多人一样开始使用前端设计 skill，它大概有 55 行命名禁令。"
+ },
+ {
+  "seg": 54,
+  "start": 277.363,
+  "end": 279.365,
+  "speaker": "Unknown",
+  "en": "No scripts, no routing, pure prose, right?",
+  "zh": "没有脚本，没有路由，纯散文，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 280.185,
+  "end": 280.986,
+  "speaker": "Unknown",
+  "en": "And you just hope for the best.",
+  "zh": "然后你只能祈祷最好的结果。"
+ },
+ {
+  "seg": 56,
+  "start": 283.638,
+  "end": 286.079,
+  "speaker": "Unknown",
+  "en": "That sometimes worked, and most of the time it didn't.",
+  "zh": "这有时有效，但大多数时候无效。"
+ },
+ {
+  "seg": 57,
+  "start": 286.639,
+  "end": 294.042,
+  "speaker": "Unknown",
+  "en": "So, for example, I'm just going to read some of this, so if, I mean, maybe it's really readable, I don't know.",
+  "zh": "比如，我就读一下其中的一些，我的意思是，也许它可读性很高，我不知道。"
+ },
+ {
+  "seg": 58,
+  "start": 294.162,
+  "end": 302.445,
+  "speaker": "Unknown",
+  "en": "But for example, in the front-end design scale, you have sentences like, never use generic AI aesthetics overused fonts like Inter, Roboto, RL, System fonts.",
+  "zh": "但比如，在前端设计 skill 里，你会看到这样的句子：绝不使用平庸的 AI 审美、被过度使用的字体，比如 Inter、Roboto、RL、系统字体。"
+ },
+ {
+  "seg": 59,
+  "start": 304.178,
+  "end": 307.661,
+  "speaker": "Unknown",
+  "en": "Or cliched color schemes, particularly purple gradients and white backgrounds.",
+  "zh": "或者陈词滥调的配色方案，尤其是紫色渐变加白色背景。"
+ },
+ {
+  "seg": 60,
+  "start": 308.522,
+  "end": 312.545,
+  "speaker": "Unknown",
+  "en": "Never converge on common choices like space grotesque, for example.",
+  "zh": "绝不收敛到常见选择，比如 space grotesque。"
+ },
+ {
+  "seg": 61,
+  "start": 312.725,
+  "end": 314.627,
+  "speaker": "Unknown",
+  "en": "Now there are two problems with this approach.",
+  "zh": "这种方法有两个问题。"
+ },
+ {
+  "seg": 62,
+  "start": 315.347,
+  "end": 320.912,
+  "speaker": "Unknown",
+  "en": "The first one, it over applies and then a band just relocates the model to the next cluster.",
+  "zh": "第一个问题，它会过度泛化，然后一条禁令只是把模型重定位到下一个聚类。"
+ },
+ {
+  "seg": 63,
+  "start": 321.332,
+  "end": 324.395,
+  "speaker": "Unknown",
+  "en": "And I'll show you why this is a problem a little bit further down the road.",
+  "zh": "我稍后会向你们展示为什么这是个问题。"
+ },
+ {
+  "seg": 64,
+  "start": 324.755,
+  "end": 329.92,
+  "speaker": "Unknown",
+  "en": "But really you tell it not to use inter, it just uses the next best funded finds in its latent space.",
+  "zh": "但实际上你告诉它不要用 Inter，它只是用了它潜空间里下一个最接近的替代品。"
+ },
+ {
+  "seg": 65,
+  "start": 330.52,
+  "end": 332.662,
+  "speaker": "Unknown",
+  "en": "And so it doesn't actually make it more creative.",
+  "zh": "所以这其实并没有让它更有创造力。"
+ },
+ {
+  "seg": 66,
+  "start": 333.163,
+  "end": 335.685,
+  "speaker": "Unknown",
+  "en": "It just, again, this is why I said slop is a moving target.",
+  "zh": "它只是，再说一遍，这就是我说 Slop 是一个移动目标的原因。"
+ },
+ {
+  "seg": 67,
+  "start": 335.705,
+  "end": 336.986,
+  "speaker": "Unknown",
+  "en": "It kind of picks the next best thing.",
+  "zh": "它会挑选下一个最好的东西。"
+ },
+ {
+  "seg": 68,
+  "start": 338.748,
+  "end": 349.218,
+  "speaker": "Unknown",
+  "en": "I have learned my lesson here the hard way because I don't know if you noticed, but the reason why we got purple gradients in the first place is because of Tailwind.",
+  "zh": "我在这里吃了苦头才学到教训，因为我不知道你们有没有注意到，但我们一开始会得到紫色渐变，原因是 Tailwind。"
+ },
+ {
+  "seg": 69,
+  "start": 349.679,
+  "end": 352.641,
+  "speaker": "Unknown",
+  "en": "Tailwind's default, sample pages, theme, whatever, it was purple.",
+  "zh": "Tailwind 的默认示例页面、主题之类的东西，就是紫色的。"
+ },
+ {
+  "seg": 70,
+  "start": 353.883,
+  "end": 357.106,
+  "speaker": "Unknown",
+  "en": "Well, it turns out I've turned the web orange before, many years before that.",
+  "zh": "结果发现，多年前我就曾把整个网络变成过橙色的。"
+ },
+ {
+  "seg": 71,
+  "start": 357.547,
+  "end": 363.334,
+  "speaker": "Unknown",
+  "en": "I created a framework called jQuery UI and the first default theme of jQuery UI was orange.",
+  "zh": "我创建了一个叫 jQuery UI 的框架，而 jQuery UI 的第一个默认主题是橙色的。"
+ },
+ {
+  "seg": 72,
+  "start": 364.094,
+  "end": 365.937,
+  "speaker": "Unknown",
+  "en": "So overnight I call it the web orange.",
+  "zh": "于是一夜之间，我把整个网络变成了橙色。"
+ },
+ {
+  "seg": 73,
+  "start": 366.017,
+  "end": 367.999,
+  "speaker": "Unknown",
+  "en": "I thought people would modify the theme, but no they didn't.",
+  "zh": "我以为人们会去修改主题，但不，他们没有。"
+ },
+ {
+  "seg": 74,
+  "start": 369.14,
+  "end": 370.902,
+  "speaker": "Unknown",
+  "en": "So I learned my lesson.",
+  "zh": "所以我学到了教训。"
+ },
+ {
+  "seg": 75,
+  "start": 372.67,
+  "end": 375.071,
+  "speaker": "Unknown",
+  "en": "Okay, the median is the model's gravity.",
+  "zh": "好的，中位数就是模型的引力。"
+ },
+ {
+  "seg": 76,
+  "start": 375.991,
+  "end": 382.533,
+  "speaker": "Unknown",
+  "en": "Even 250 lines of like artisanal, crafted, beautiful skill pros cannot change this.",
+  "zh": "即使是 250 行精心手工打造、漂亮的 skill 散文也无法改变这一点。"
+ },
+ {
+  "seg": 77,
+  "start": 382.954,
+  "end": 383.774,
+  "speaker": "Unknown",
+  "en": "It's just not enough.",
+  "zh": "这就是不够。"
+ },
+ {
+  "seg": 78,
+  "start": 384.234,
+  "end": 385.494,
+  "speaker": "Unknown",
+  "en": "It doesn't help enough, right?",
+  "zh": "它帮助得不够，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 385.734,
+  "end": 386.555,
+  "speaker": "Unknown",
+  "en": "It's nowhere near enough.",
+  "zh": "这远远不够。"
+ },
+ {
+  "seg": 80,
+  "start": 387.695,
+  "end": 389.816,
+  "speaker": "Unknown",
+  "en": "And I learned this the hard way and hopefully you don't have to.",
+  "zh": "我为此付出了惨痛的代价，希望你们不必如此。"
+ },
+ {
+  "seg": 81,
+  "start": 392.002,
+  "end": 402.065,
+  "speaker": "Unknown",
+  "en": "My overall thesis for this talk is that prompting is sort of like the starter level, but harness engineering is where you should end up.",
+  "zh": "我这次演讲的总体论点是：提示词大概算是入门级别，但 harness 工程才是你最终应该到达的地方。"
+ },
+ {
+  "seg": 82,
+  "start": 402.705,
+  "end": 410.227,
+  "speaker": "Unknown",
+  "en": "Like you should reframe when you're building skills, you should think about, okay, skills the same way as MCP is an extension to the coding harness.",
+  "zh": "比如你在构建 skill 时应该重新思考，你应该这样想：好的，skill 和 MCP 一样，是对 coding harness 的扩展。"
+ },
+ {
+  "seg": 83,
+  "start": 411.102,
+  "end": 411.943,
+  "speaker": "Unknown",
+  "en": "Or whatever harness you're in.",
+  "zh": "或者你所在的任何 harness。"
+ },
+ {
+  "seg": 84,
+  "start": 412.944,
+  "end": 415.447,
+  "speaker": "Unknown",
+  "en": "It's not just a prompt that you package.",
+  "zh": "它不只是你打包起来的一段 prompt。"
+ },
+ {
+  "seg": 85,
+  "start": 416.028,
+  "end": 419.632,
+  "speaker": "Unknown",
+  "en": "It's something more than that, or you should at least conceptually think about it more than that.",
+  "zh": "它是比那更多的东西，或者你至少在概念上应该把它想得比那更多。"
+ },
+ {
+  "seg": 86,
+  "start": 419.712,
+  "end": 422.775,
+  "speaker": "Unknown",
+  "en": "It is extending the harness of whoever is using that thing.",
+  "zh": "它是在扩展使用那个东西的人的 harness。"
+ },
+ {
+  "seg": 87,
+  "start": 423.616,
+  "end": 425.698,
+  "speaker": "Unknown",
+  "en": "And it also has more capabilities as just prompting.",
+  "zh": "而且它也比单纯的提示词有更多能力。"
+ },
+ {
+  "seg": 88,
+  "start": 426.699,
+  "end": 429.322,
+  "speaker": "Unknown",
+  "en": "And when I thought about it that way, it sort of clicked for me.",
+  "zh": "当我这样想的时候，这件事就豁然开朗了。"
+ },
+ {
+  "seg": 89,
+  "start": 430.464,
+  "end": 432.045,
+  "speaker": "Unknown",
+  "en": "Prompting is a spell harnessing is a magic.",
+  "zh": "提示词是咒语，harnessing 是魔法。"
+ },
+ {
+  "seg": 90,
+  "start": 432.897,
+  "end": 440.327,
+  "speaker": "Unknown",
+  "en": "And we'll talk about nine different dark arts today that I learned in the process of building impeccable.",
+  "zh": "今天我们会聊聊我在构建 Impeccable 过程中学会的九种不同的黑暗技艺。"
+ },
+ {
+  "seg": 91,
+  "start": 441.997,
+  "end": 445,
+  "speaker": "Unknown",
+  "en": "We'll make sub-agents argue with each other.",
+  "zh": "我们会让子智能体互相争论。"
+ },
+ {
+  "seg": 92,
+  "start": 446.281,
+  "end": 449.123,
+  "speaker": "Unknown",
+  "en": "We'll talk about how to force divergence as opposed to convergence.",
+  "zh": "我们会聊聊如何强迫发散而不是收敛。"
+ },
+ {
+  "seg": 93,
+  "start": 449.984,
+  "end": 462.614,
+  "speaker": "Unknown",
+  "en": "Routing like a model and basic, you've seen this probably, most modern models are mixed of expert architectures and Impeccable is built like a mixture of expert skill.",
+  "zh": "像模型一样的路由，基本的，你们可能见过这个，大多数现代模型是 mixture of experts 架构，而 Impeccable 就像一个 mixture of experts skill 那样构建。"
+ },
+ {
+  "seg": 94,
+  "start": 464.095,
+  "end": 477.089,
+  "speaker": "Unknown",
+  "en": "We give the memory, we'll create scripts that talk back, and I promise this will make sense, hooks that fight back, live wire the browser and use more of the harness, compile to every harness and design for the weakest model.",
+  "zh": "我们给它记忆，我们会创建会顶嘴的脚本，我保证这会讲得通，会反击的 hooks，给浏览器接上活线并更多地利用 harness，编译到每一个 harness 并为最弱的模型设计。"
+ },
+ {
+  "seg": 95,
+  "start": 477.99,
+  "end": 478.471,
+  "speaker": "Unknown",
+  "en": "Let's get into it.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 96,
+  "start": 479.091,
+  "end": 482.154,
+  "speaker": "Unknown",
+  "en": "Number one, make it argue.",
+  "zh": "第一条，让它争论。"
+ },
+ {
+  "seg": 97,
+  "start": 482.395,
+  "end": 486.299,
+  "speaker": "Unknown",
+  "en": "So, if you're building something like a critique skill or code review skill,",
+  "zh": "那么，如果你在构建类似批判 skill 或代码评审 skill 的东西，"
+ },
+ {
+  "seg": 98,
+  "start": 487.97,
+  "end": 489.07,
+  "speaker": "Unknown",
+  "en": "Here's one huge issue.",
+  "zh": "这有一个巨大的问题。"
+ },
+ {
+  "seg": 99,
+  "start": 489.971,
+  "end": 501.854,
+  "speaker": "Unknown",
+  "en": "If you are, I mean, you probably noticed this, when you're working with Claude Code or Codex, that doesn't matter, but if you ask Codex or Claude Code to review its own work, it will usually rate it as very high.",
+  "zh": "如果你，我是说，你可能注意到了，当你在用 Claude Code 或 Codex 时，这不重要，但如果你让 Codex 或 Claude Code 评审它自己的作品，它通常会给它打很高的分。"
+ },
+ {
+  "seg": 100,
+  "start": 501.874,
+  "end": 506.315,
+  "speaker": "Unknown",
+  "en": "It's like, I mean, like, I built this, I've done a great job, right?",
+  "zh": "就是说,我是说,我构建了这个,我做得很好,对吧?"
+ },
+ {
+  "seg": 101,
+  "start": 506.335,
+  "end": 507.895,
+  "speaker": "Unknown",
+  "en": "Like, it's like rating your own homework.",
+  "zh": "这就像给自己批改作业。"
+ },
+ {
+  "seg": 102,
+  "start": 508.475,
+  "end": 509.655,
+  "speaker": "Unknown",
+  "en": "It doesn't make any sense, right?",
+  "zh": "这根本说不通,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 510.476,
+  "end": 512.956,
+  "speaker": "Unknown",
+  "en": "It anchors on what it already created.",
+  "zh": "它会锚定在自己已经创建的东西上。"
+ },
+ {
+  "seg": 104,
+  "start": 514.077,
+  "end": 515.417,
+  "speaker": "Unknown",
+  "en": "Now, that's not great.",
+  "zh": "现在,这并不好。"
+ },
+ {
+  "seg": 105,
+  "start": 517.409,
+  "end": 519.492,
+  "speaker": "Unknown",
+  "en": "What can you do in order to solve this?",
+  "zh": "那你能做什么来解决这个问题呢?"
+ },
+ {
+  "seg": 106,
+  "start": 519.712,
+  "end": 523.418,
+  "speaker": "Unknown",
+  "en": "Well, you can make a model argue with another model.",
+  "zh": "嗯,你可以让一个模型和另一个模型争论。"
+ },
+ {
+  "seg": 107,
+  "start": 523.518,
+  "end": 525.3,
+  "speaker": "Unknown",
+  "en": "Adversarial prompting is also called.",
+  "zh": "这也被称为对抗性提示。"
+ },
+ {
+  "seg": 108,
+  "start": 525.701,
+  "end": 528.485,
+  "speaker": "Unknown",
+  "en": "So you have two sub-agents and they never see each other's work.",
+  "zh": "所以你有两个子智能体,它们永远看不到彼此的工作。"
+ },
+ {
+  "seg": 109,
+  "start": 531.063,
+  "end": 532.184,
+  "speaker": "Unknown",
+  "en": "And here's why this matters.",
+  "zh": "这就是为什么这件事很重要。"
+ },
+ {
+  "seg": 110,
+  "start": 532.324,
+  "end": 536.389,
+  "speaker": "Unknown",
+  "en": "So in impeccable, there's a critique command that actually critiques your design.",
+  "zh": "在 impeccable 里,有一个 critique 命令,它实际上会批评你的设计。"
+ },
+ {
+  "seg": 111,
+  "start": 536.97,
+  "end": 539.893,
+  "speaker": "Unknown",
+  "en": "And you can point it to your landing page, you can point it to anything.",
+  "zh": "你可以把它指向你的落地页,你可以把它指向任何东西。"
+ },
+ {
+  "seg": 112,
+  "start": 540.854,
+  "end": 543.757,
+  "speaker": "Unknown",
+  "en": "And there are two particular failure scenarios.",
+  "zh": "这里有两种特别典型的失败场景。"
+ },
+ {
+  "seg": 113,
+  "start": 543.777,
+  "end": 547.261,
+  "speaker": "Unknown",
+  "en": "The first one, and this is almost impossible to read, so I'll explain it.",
+  "zh": "第一种,这几乎没法看清,所以我来解释一下。"
+ },
+ {
+  "seg": 114,
+  "start": 547.281,
+  "end": 548.222,
+  "speaker": "Unknown",
+  "en": "The first one is,",
+  "zh": "第一种是,"
+ },
+ {
+  "seg": 115,
+  "start": 550.348,
+  "end": 557.854,
+  "speaker": "Unknown",
+  "en": "A strong page, so it's a really good looking page, but there's a whole bunch of maybe like deterministic errors.",
+  "zh": "一个很强的页面,也就是说它是一个非常好看的页面,但上面有一大堆可能是确定性的错误。"
+ },
+ {
+  "seg": 116,
+  "start": 557.954,
+  "end": 573.467,
+  "speaker": "Unknown",
+  "en": "And Impeccable actually has a deterministic engine, like a design linter that can detect things like bad contrast, can detect things like too many fonts, maybe things that are too close to the edge of an element.",
+  "zh": "而 Impeccable 实际上有一个确定性引擎,比如一个设计 linter,可以检测诸如对比度差、字体太多、或者元素离边缘太近之类的东西。"
+ },
+ {
+  "seg": 117,
+  "start": 573.928,
+  "end": 577.07,
+  "speaker": "Unknown",
+  "en": "So it detects some of, I would say, polish issues.",
+  "zh": "所以它能检测出一些,我姑且说是打磨方面的问题。"
+ },
+ {
+  "seg": 118,
+  "start": 578.435,
+  "end": 595.002,
+  "speaker": "Unknown",
+  "en": "But you could have this really beautiful website and then the detector runs and it's doing that as part of the same skill and the same model thread and then the model just sees the detector output and says, well I guess there's 500 issues, therefore this design must be bad.",
+  "zh": "但你可能有一个非常漂亮的网站,然后检测器运行了,而它是作为同一个 skill 和同一个模型线程的一部分在运行的,于是模型只看到检测器的输出就说:好吧,我想这里有 500 个问题,所以这个设计一定很糟糕。"
+ },
+ {
+  "seg": 119,
+  "start": 596.14,
+  "end": 596.68,
+  "speaker": "Unknown",
+  "en": "Now that's one.",
+  "zh": "这是一种情况。"
+ },
+ {
+  "seg": 120,
+  "start": 597.04,
+  "end": 598.14,
+  "speaker": "Unknown",
+  "en": "The other one is the opposite.",
+  "zh": "另一种则正好相反。"
+ },
+ {
+  "seg": 121,
+  "start": 598.2,
+  "end": 605.702,
+  "speaker": "Unknown",
+  "en": "The other one is, it's actually a really terrible page, or maybe an empty page, but there are no detected issues by the deterministic detector.",
+  "zh": "另一种情况是,它实际上是一个非常糟糕的页面,或者可能是一个空页面,但确定性检测器没有检测到任何问题。"
+ },
+ {
+  "seg": 122,
+  "start": 606.082,
+  "end": 609.983,
+  "speaker": "Unknown",
+  "en": "So the model is like, hmm, we didn't find any issues, so this must be great design.",
+  "zh": "所以模型就会想:嗯,我们没发现任何问题,所以这一定是很棒的设计。"
+ },
+ {
+  "seg": 123,
+  "start": 610.943,
+  "end": 612.904,
+  "speaker": "Unknown",
+  "en": "So both of those are not amazing.",
+  "zh": "所以这两种情况都不理想。"
+ },
+ {
+  "seg": 124,
+  "start": 613.624,
+  "end": 617.385,
+  "speaker": "Unknown",
+  "en": "What you want is, and this is what Impeccable's critique skill does,",
+  "zh": "你想要的是——而这正是 Impeccable 的 critique skill 所做的——"
+ },
+ {
+  "seg": 125,
+  "start": 618.549,
+  "end": 621.012,
+  "speaker": "Unknown",
+  "en": "It kind of combines two things.",
+  "zh": "它把两样东西结合在一起。"
+ },
+ {
+  "seg": 126,
+  "start": 621.113,
+  "end": 625.038,
+  "speaker": "Unknown",
+  "en": "It spawns two sub-agents and they are blind to each other.",
+  "zh": "它会启动两个子智能体,而且它们对彼此是不可见的。"
+ },
+ {
+  "seg": 127,
+  "start": 626.34,
+  "end": 628.062,
+  "speaker": "Unknown",
+  "en": "And that's how you get to a balanced critique.",
+  "zh": "这就是你能得到平衡批评的方式。"
+ },
+ {
+  "seg": 128,
+  "start": 628.102,
+  "end": 631.346,
+  "speaker": "Unknown",
+  "en": "So the first sub-agent does",
+  "zh": "所以第一个子智能体做的是"
+ },
+ {
+  "seg": 129,
+  "start": 633.937,
+  "end": 634.978,
+  "speaker": "Unknown",
+  "en": "Act like a design director.",
+  "zh": "扮演一个设计总监。"
+ },
+ {
+  "seg": 130,
+  "start": 635.018,
+  "end": 637.299,
+  "speaker": "Unknown",
+  "en": "So it's an LLM that acts like a design director.",
+  "zh": "所以它是一个扮演设计总监的 LLM。"
+ },
+ {
+  "seg": 131,
+  "start": 637.339,
+  "end": 641.64,
+  "speaker": "Unknown",
+  "en": "And so it looks for hierarchy, it looks for slop, it looks for heuristics.",
+  "zh": "于是它会寻找层级结构,寻找 slop,寻找启发式方面的问题。"
+ },
+ {
+  "seg": 132,
+  "start": 642.201,
+  "end": 647.803,
+  "speaker": "Unknown",
+  "en": "And so it does a critique the way a human would with the browser tools that are available to it.",
+  "zh": "所以它以一种人类会做的方式,利用它可用的浏览器工具来进行批评。"
+ },
+ {
+  "seg": 133,
+  "start": 648.343,
+  "end": 653.825,
+  "speaker": "Unknown",
+  "en": "The second sub-agent runs the deterministic detector and also collects browser evidence.",
+  "zh": "第二个子智能体运行确定性检测器,同时也会收集浏览器证据。"
+ },
+ {
+  "seg": 134,
+  "start": 654.546,
+  "end": 657.567,
+  "speaker": "Unknown",
+  "en": "And then once both of those results come in,",
+  "zh": "然后当这两部分结果都进来之后,"
+ },
+ {
+  "seg": 135,
+  "start": 659.026,
+  "end": 665.81,
+  "speaker": "Unknown",
+  "en": "The main thread synthesizes both into one critique and that produces a much more balanced result.",
+  "zh": "主线程把两者综合成一份批评,这样产出的结果就平衡得多。"
+ },
+ {
+  "seg": 136,
+  "start": 666.51,
+  "end": 674.195,
+  "speaker": "Unknown",
+  "en": "And before I go on, I realized I actually have not shown you where the sample repo of this lives.",
+  "zh": "在我继续之前,我意识到我其实还没有给你看这个示例 repo 在哪里。"
+ },
+ {
+  "seg": 137,
+  "start": 674.555,
+  "end": 676.936,
+  "speaker": "Unknown",
+  "en": "So let me bring this up real quick.",
+  "zh": "所以让我把它调出来,很快。"
+ },
+ {
+  "seg": 138,
+  "start": 678.037,
+  "end": 682.94,
+  "speaker": "Unknown",
+  "en": "If you want to clone this and you have a decent enough internet connection, go ahead if you like.",
+  "zh": "如果你想 clone 这个,而且你的网络连接还算不错,愿意的话就动手吧。"
+ },
+ {
+  "seg": 139,
+  "start": 684.13,
+  "end": 689.695,
+  "speaker": "Unknown",
+  "en": "So this is PBAKAUS slash impeccable minus talks.",
+  "zh": "这是 PBAKAUS slash impeccable minus talks。"
+ },
+ {
+  "seg": 140,
+  "start": 691.897,
+  "end": 699.883,
+  "speaker": "Unknown",
+  "en": "The talk lives here but also in the dark arts folder there is a starter folder and a demos folder.",
+  "zh": "这个 talk 就在这里,另外在 dark arts 文件夹里还有一个 starter 文件夹和一个 demos 文件夹。"
+ },
+ {
+  "seg": 141,
+  "start": 700.564,
+  "end": 707.509,
+  "speaker": "Unknown",
+  "en": "Demos has a pretty average median page that you can manipulate and then",
+  "zh": "Demos 里有一个相当普通的中等水平页面,你可以对它进行操作,然后"
+ },
+ {
+  "seg": 142,
+  "start": 708.71,
+  "end": 716.753,
+  "speaker": "Unknown",
+  "en": "In the starter kit, you have enough to build sort of a mini impeccable if you want to, if you want to follow along or try it out yourself.",
+  "zh": "在 starter kit 里,你有足够的材料去构建一个类似迷你 impeccable 的东西,如果你想的话,如果你想跟着做或者自己试一试。"
+ },
+ {
+  "seg": 143,
+  "start": 717.293,
+  "end": 726.016,
+  "speaker": "Unknown",
+  "en": "And so as part of this, this tutorial here too, you follow along sort of the checkpoints, the dark arts and build something yourself.",
+  "zh": "而作为其中的一部分,这个教程也一样,你可以跟着那些 checkpoint、dark arts,然后自己构建点东西。"
+ },
+ {
+  "seg": 144,
+  "start": 726.876,
+  "end": 730.078,
+  "speaker": "Unknown",
+  "en": "I would suggest, you know, if you like to multitask, great.",
+  "zh": "我的建议是,你知道,如果你喜欢一心多用,那也挺好。"
+ },
+ {
+  "seg": 145,
+  "start": 731.139,
+  "end": 732.699,
+  "speaker": "Unknown",
+  "en": "You can apply this, by the way, to anything.",
+  "zh": "顺便说一句,你可以把这套方法应用到任何东西上。"
+ },
+ {
+  "seg": 146,
+  "start": 732.719,
+  "end": 739.503,
+  "speaker": "Unknown",
+  "en": "You can do a code review thing, you can do, it doesn't have to be the design skill, but I wanted to have something for you to play.",
+  "zh": "你可以做代码审查之类的东西,你可以做,不必非得是设计 skill,但我想给你们一些可以上手玩的东西。"
+ },
+ {
+  "seg": 147,
+  "start": 741.505,
+  "end": 742.045,
+  "speaker": "Unknown",
+  "en": "Back to the deck.",
+  "zh": "回到幻灯片。"
+ },
+ {
+  "seg": 148,
+  "start": 744.568,
+  "end": 747.89,
+  "speaker": "Unknown",
+  "en": "So, two blind opinions beat one confident guess.",
+  "zh": "所以,两个盲评胜过一个自信的猜测。"
+ },
+ {
+  "seg": 149,
+  "start": 749.071,
+  "end": 754.535,
+  "speaker": "Unknown",
+  "en": "You can use this, again, I already said code review, design review, but also security audits ones is a good example.",
+  "zh": "你可以用这个,再说一次,我已经说过代码审查、设计审查,另外安全审计也是一个很好的例子。"
+ },
+ {
+  "seg": 150,
+  "start": 755.336,
+  "end": 763.102,
+  "speaker": "Unknown",
+  "en": "Or a plan, creating a really good plan, RFC critique, where you have multiple LLM judges argue with each other before it gets good.",
+  "zh": "或者说一个计划，创建一个非常好的计划、RFC 批判，让多个 LLM 评审者互相争论，直到它变得够好。"
+ },
+ {
+  "seg": 151,
+  "start": 763.762,
+  "end": 766.084,
+  "speaker": "Unknown",
+  "en": "Or ranking outputs is a good example.",
+  "zh": "或者对输出做排名也是一个很好的例子。"
+ },
+ {
+  "seg": 152,
+  "start": 768.025,
+  "end": 768.786,
+  "speaker": "Unknown",
+  "en": "Now here's a problem though.",
+  "zh": "不过现在有个问题。"
+ },
+ {
+  "seg": 153,
+  "start": 770.479,
+  "end": 772.2,
+  "speaker": "Unknown",
+  "en": "Codex, why?",
+  "zh": "Codex，为什么？"
+ },
+ {
+  "seg": 154,
+  "start": 773.301,
+  "end": 774.261,
+  "speaker": "Unknown",
+  "en": "Why you don't let me do this?",
+  "zh": "为什么你不让我这么做？"
+ },
+ {
+  "seg": 155,
+  "start": 774.682,
+  "end": 775.182,
+  "speaker": "Unknown",
+  "en": "It's bad.",
+  "zh": "这很糟糕。"
+ },
+ {
+  "seg": 156,
+  "start": 776.243,
+  "end": 781.706,
+  "speaker": "Unknown",
+  "en": "It turns out Codex never created these sub-agents when I first tried this.",
+  "zh": "结果是，当我第一次尝试这个时，Codex 根本没有创建这些子智能体。"
+ },
+ {
+  "seg": 157,
+  "start": 782.347,
+  "end": 783.468,
+  "speaker": "Unknown",
+  "en": "And I banged my head against the wall.",
+  "zh": "我气得用头撞墙。"
+ },
+ {
+  "seg": 158,
+  "start": 783.488,
+  "end": 784.428,
+  "speaker": "Unknown",
+  "en": "I'm like, why is this?",
+  "zh": "我说，为什么会这样？"
+ },
+ {
+  "seg": 159,
+  "start": 785.189,
+  "end": 789.231,
+  "speaker": "Unknown",
+  "en": "It turns out Codex has a different permission model than Claude Code and other harnesses.",
+  "zh": "结果发现 Codex 的权限模型和 Claude Code 以及其他 harness 不同。"
+ },
+ {
+  "seg": 160,
+  "start": 789.932,
+  "end": 795.796,
+  "speaker": "Unknown",
+  "en": "In Codex, you have to explicitly, as a user, request the use of sub-agents.",
+  "zh": "在 Codex 里，你作为用户必须显式请求使用子智能体。"
+ },
+ {
+  "seg": 161,
+  "start": 796.79,
+  "end": 799.232,
+  "speaker": "Unknown",
+  "en": "for anything in the harness to use sub-agents.",
+  "zh": "harness 里的任何东西才能使用子智能体。"
+ },
+ {
+  "seg": 162,
+  "start": 799.833,
+  "end": 802.455,
+  "speaker": "Unknown",
+  "en": "So if you're distributing a skill, you're out of luck.",
+  "zh": "所以如果你在分发一个 skill，你就没辙了。"
+ },
+ {
+  "seg": 163,
+  "start": 803.215,
+  "end": 817.187,
+  "speaker": "Unknown",
+  "en": "The only way to make this work, as far as I know today, is to actually tell the model, okay, if you have sub-agents capabilities, but you do not have permission, please stop right here and ask the user.",
+  "zh": "据我今天所知，唯一能让它工作的办法，就是直接告诉模型：好，如果你有子智能体能力，但你没有权限，请立刻停下来并询问用户。"
+ },
+ {
+  "seg": 164,
+  "start": 818.404,
+  "end": 821.805,
+  "speaker": "Unknown",
+  "en": "And so that's pretty much the only way you can get Codex to comply.",
+  "zh": "所以这基本上是你能让 Codex 遵从的唯一办法。"
+ },
+ {
+  "seg": 165,
+  "start": 821.865,
+  "end": 828.327,
+  "speaker": "Unknown",
+  "en": "So in impeccable, if you see something that makes you go, huh, it's probably because of that.",
+  "zh": "所以在 impeccable 里，如果你看到什么让你觉得「咦」的东西，很可能就是因为这个。"
+ },
+ {
+  "seg": 166,
+  "start": 829.007,
+  "end": 841.831,
+  "speaker": "Unknown",
+  "en": "Through lots and lots of issues that people filed and a lot of testing on my end also, a lot of this obscure knowledge got into the skills so that it works truly across harnesses.",
+  "zh": "通过大家提交的大量 issue，加上我自己大量的测试，很多这种冷门知识都被写进了 skill 里，这样它才能真正跨 harness 工作。"
+ },
+ {
+  "seg": 167,
+  "start": 841.952,
+  "end": 844.612,
+  "speaker": "Unknown",
+  "en": "For instance, here you see kind of pseudocode of how this would work.",
+  "zh": "比如说，这里你看到的是大致的伪代码，展示这是如何工作的。"
+ },
+ {
+  "seg": 168,
+  "start": 845.113,
+  "end": 845.693,
+  "speaker": "Unknown",
+  "en": "And then also,",
+  "zh": "然后还有，"
+ },
+ {
+  "seg": 169,
+  "start": 847.773,
+  "end": 848.854,
+  "speaker": "Unknown",
+  "en": "This is another really important thing.",
+  "zh": "这是另一件非常重要的事。"
+ },
+ {
+  "seg": 170,
+  "start": 849.934,
+  "end": 856.636,
+  "speaker": "Unknown",
+  "en": "Very often, if Codex realizes it can get away with something, it will do it.",
+  "zh": "很多时候，如果 Codex 意识到它可以蒙混过关，它就会那么做。"
+ },
+ {
+  "seg": 171,
+  "start": 857.777,
+  "end": 863.979,
+  "speaker": "Unknown",
+  "en": "So, if there is no punishment for not spawning sub-agents, it will simply not spawn them.",
+  "zh": "所以，如果不生成子智能体没有任何惩罚，它就干脆不生成。"
+ },
+ {
+  "seg": 172,
+  "start": 863.999,
+  "end": 866.98,
+  "speaker": "Unknown",
+  "en": "It's like, well, this is the easier route, I will take this easier route.",
+  "zh": "它会想：好吧，这条是更省事的路，我就走这条更省事的路。"
+ },
+ {
+  "seg": 173,
+  "start": 867.86,
+  "end": 875.383,
+  "speaker": "Unknown",
+  "en": "So what you have to say is, actually, if you cannot use sub-agents, you must say that you are giving the user a degraded experience.",
+  "zh": "所以你必须说的是：实际上，如果你不能使用子智能体，你必须声明你正在给用户一个降级的体验。"
+ },
+ {
+  "seg": 174,
+  "start": 876.244,
+  "end": 877.165,
+  "speaker": "Unknown",
+  "en": "And Codex hates that.",
+  "zh": "而 Codex 讨厌那样。"
+ },
+ {
+  "seg": 175,
+  "start": 879.687,
+  "end": 881.388,
+  "speaker": "Unknown",
+  "en": "So use that to your advantage.",
+  "zh": "所以要利用这一点。"
+ },
+ {
+  "seg": 176,
+  "start": 883.61,
+  "end": 886.852,
+  "speaker": "Unknown",
+  "en": "So you can watch them argue.",
+  "zh": "这样你就能看着它们争论。"
+ },
+ {
+  "seg": 177,
+  "start": 887.393,
+  "end": 894.298,
+  "speaker": "Unknown",
+  "en": "Now, I did not prerecord an actual example here because I'm like, let's do it.",
+  "zh": "我没有预先录制一个实际的例子，因为我想着：我们就现场来吧。"
+ },
+ {
+  "seg": 178,
+  "start": 895.119,
+  "end": 905.427,
+  "speaker": "Unknown",
+  "en": "So we're going to go into cursor and I'm going to do like critique.",
+  "zh": "所以我们要进入 cursor，我要做一个类似 critique 的操作。"
+ },
+ {
+  "seg": 179,
+  "start": 907.307,
+  "end": 908.668,
+  "speaker": "Unknown",
+  "en": "And hopefully it'll work.",
+  "zh": "希望它能跑起来。"
+ },
+ {
+  "seg": 180,
+  "start": 910.11,
+  "end": 914.033,
+  "speaker": "Unknown",
+  "en": "I don't know if Composer spawns the sub-agents well enough, but let's see.",
+  "zh": "我不确定 Composer 能不能把子智能体生成得够好，但让我们看看。"
+ },
+ {
+  "seg": 181,
+  "start": 922.88,
+  "end": 933.149,
+  "speaker": "Unknown",
+  "en": "Composer, by the way, if you haven't used it, is a really fast, well-balanced model, so it's kind of neat for work that you want to show on stage in particular.",
+  "zh": "顺便说一下，Composer，如果你没用过，是一个速度非常快、平衡得很好的模型，所以它特别适合你想在舞台上展示的工作。"
+ },
+ {
+  "seg": 182,
+  "start": 936.207,
+  "end": 939.61,
+  "speaker": "Unknown",
+  "en": "Okay, so now it's doing something here.",
+  "zh": "好，现在它在这里做事情了。"
+ },
+ {
+  "seg": 183,
+  "start": 939.63,
+  "end": 947.016,
+  "speaker": "Unknown",
+  "en": "Okay, this repository, I think, has an old version of it, but it doesn't sponsor agents.",
+  "zh": "好，这个仓库，我想，装的是一个旧版本，但它不生成智能体。"
+ },
+ {
+  "seg": 184,
+  "start": 947.597,
+  "end": 950.399,
+  "speaker": "Unknown",
+  "en": "Let's see, this is the unfortunate, well, maybe it does.",
+  "zh": "看看，这有点遗憾——嗯，也许它生成了。"
+ },
+ {
+  "seg": 185,
+  "start": 961.251,
+  "end": 965.333,
+  "speaker": "Unknown",
+  "en": "I'm not sure if it did or not, but I at least want to show you what the type of critique looks like.",
+  "zh": "我不确定它有没有，但我至少想给你展示一下这种 critique 长什么样。"
+ },
+ {
+  "seg": 186,
+  "start": 965.353,
+  "end": 983.46,
+  "speaker": "Unknown",
+  "en": "Alright, now it's asking me a bunch of questions of what I actually want to create.",
+  "zh": "好，现在它问我一堆问题，关于我到底想创建什么。"
+ },
+ {
+  "seg": 187,
+  "start": 983.48,
+  "end": 984.741,
+  "speaker": "Unknown",
+  "en": "I'm gonna skip this.",
+  "zh": "我要跳过这些。"
+ },
+ {
+  "seg": 188,
+  "start": 986.602,
+  "end": 988.803,
+  "speaker": "Unknown",
+  "en": "And now I get a design critique.",
+  "zh": "现在我得到了一份设计批判。"
+ },
+ {
+  "seg": 189,
+  "start": 991.126,
+  "end": 994.287,
+  "speaker": "Unknown",
+  "en": "On what's working, what the priorities issues are, persona red flags.",
+  "zh": "包括哪些地方有效、优先级问题是什么、人设方面的红旗。"
+ },
+ {
+  "seg": 190,
+  "start": 995.087,
+  "end": 1000.728,
+  "speaker": "Unknown",
+  "en": "Now, the actual thing that I wanted to show you, unfortunately, couldn't be seen in this particular set, but we can come back to it.",
+  "zh": "我真正想给你看的东西，很遗憾，在这个环境里看不出来，但我们可以回头再看。"
+ },
+ {
+  "seg": 191,
+  "start": 1002.088,
+  "end": 1011.711,
+  "speaker": "Unknown",
+  "en": "If you run this in Claude Code or Codex on the most recent version, you should very clearly see, I mean, Claude Code is very easy to see the sub-agents running and doing its work.",
+  "zh": "如果你在最新版本的 Claude Code 或 Codex 里运行这个，你应该能非常清楚地看到——我是说，Claude Code 里子智能体运行并干活是非常容易看到的。"
+ },
+ {
+  "seg": 192,
+  "start": 1011.791,
+  "end": 1017.712,
+  "speaker": "Unknown",
+  "en": "So it will spin up two sub-agents and you see it at the bottom of the Claude Code thread doing its thing.",
+  "zh": "它会启动两个子智能体，你能在 Claude Code 线程的底部看到它们在干活。"
+ },
+ {
+  "seg": 193,
+  "start": 1019.912,
+  "end": 1021.153,
+  "speaker": "Unknown",
+  "en": "Okay, level number two.",
+  "zh": "好，第 2 级。"
+ },
+ {
+  "seg": 194,
+  "start": 1022.673,
+  "end": 1023.814,
+  "speaker": "Unknown",
+  "en": "A ban just moves the problem.",
+  "zh": "一纸禁令只是把问题挪了个地方。"
+ },
+ {
+  "seg": 195,
+  "start": 1023.834,
+  "end": 1024.714,
+  "speaker": "Unknown",
+  "en": "We talked about this already.",
+  "zh": "这个我们已经谈过了。"
+ },
+ {
+  "seg": 196,
+  "start": 1025.375,
+  "end": 1027.936,
+  "speaker": "Unknown",
+  "en": "You ban into the model graphs, it grabs space grotesque.",
+  "zh": "你禁用了 Inter，它就抓 Space Grotesque。"
+ },
+ {
+  "seg": 197,
+  "start": 1028.716,
+  "end": 1029.337,
+  "speaker": "Unknown",
+  "en": "How do you solve that?",
+  "zh": "你怎么解决这个问题？"
+ },
+ {
+  "seg": 198,
+  "start": 1029.837,
+  "end": 1030.857,
+  "speaker": "Unknown",
+  "en": "How do you force divergence?",
+  "zh": "你怎么强制发散？"
+ },
+ {
+  "seg": 199,
+  "start": 1031.718,
+  "end": 1042.203,
+  "speaker": "Unknown",
+  "en": "Well, a ban only moves the model around inside its own cluster and what I've built for Impeccable and for a bunch of other skills that I've released is what I call an anti-attractor.",
+  "zh": "嗯，一道禁令只是把模型在自己所属的簇里挪来挪去，而我为 Impeccable 以及我发布的其他一堆 skill 所构建的东西，我称之为反吸引子。"
+ },
+ {
+  "seg": 200,
+  "start": 1043.54,
+  "end": 1058.851,
+  "speaker": "Unknown",
+  "en": "And the anti-attractor works by creating a random seed of sorts and that can come from user input or it can come from a script that it can run that produces something that is completely unexpected to the model because that's what you want.",
+  "zh": "反吸引子的工作原理是创建某种随机种子,它可以来自用户输入,也可以来自一个它能够运行的脚本,产生对模型来说完全出乎意料的东西,因为这正是你想要的。"
+ },
+ {
+  "seg": 201,
+  "start": 1059.491,
+  "end": 1070.079,
+  "speaker": "Unknown",
+  "en": "And so in this case, for instance, it would be font selection and instead of selecting this save next step prediction font, it went into a completely different space to a different seed.",
+  "zh": "举个例子,在这个案例中是字体选择,它没有选择这个「安全」的下一步预测字体,而是进入了一个完全不同的空间,到了一个不同的种子。"
+ },
+ {
+  "seg": 202,
+  "start": 1071.186,
+  "end": 1077.069,
+  "speaker": "Unknown",
+  "en": "There are three techniques that are easy to hard and work differently.",
+  "zh": "有三种技术,从易到难,工作方式各不相同。"
+ },
+ {
+  "seg": 203,
+  "start": 1077.809,
+  "end": 1085.713,
+  "speaker": "Unknown",
+  "en": "The first one is something you can do right now, it's the most simple one, and it's to shave the save picks.",
+  "zh": "第一种是你现在就可以做的,最简单的一种,就是把「安全」的候选削掉。"
+ },
+ {
+  "seg": 204,
+  "start": 1086.433,
+  "end": 1092.996,
+  "speaker": "Unknown",
+  "en": "So basically tell the model, okay, name your top three fonts, and then the model is like, okay, I got the top three fonts.",
+  "zh": "基本上就是告诉模型,好,说出你最推荐的前三个字体,然后模型就说,好,我有了前三个字体。"
+ },
+ {
+  "seg": 205,
+  "start": 1093.676,
+  "end": 1094.857,
+  "speaker": "Unknown",
+  "en": "And then you're like, now throw them away.",
+  "zh": "然后你说,现在把它们扔掉。"
+ },
+ {
+  "seg": 206,
+  "start": 1096.771,
+  "end": 1097.591,
+  "speaker": "Unknown",
+  "en": "And you're like, but why?",
+  "zh": "你说,但是为什么?"
+ },
+ {
+  "seg": 207,
+  "start": 1099.092,
+  "end": 1104.593,
+  "speaker": "Unknown",
+  "en": "But then you basically shaved off the next token that is predicted.",
+  "zh": "但这样你基本上就把模型预测的下一个 token 削掉了。"
+ },
+ {
+  "seg": 208,
+  "start": 1105.933,
+  "end": 1112.935,
+  "speaker": "Unknown",
+  "en": "And you do that three times, and then now you get to a different space, further away in the latent space, right?",
+  "zh": "你这样做三次,然后现在你就到了一个不同的空间,在潜空间里更远的地方,对吧?"
+ },
+ {
+  "seg": 209,
+  "start": 1112.975,
+  "end": 1117.035,
+  "speaker": "Unknown",
+  "en": "Now that's doable, but now at some point you still get convergence.",
+  "zh": "现在这个是可行的,但到某个时候你仍然会收敛。"
+ },
+ {
+  "seg": 210,
+  "start": 1117.175,
+  "end": 1119.216,
+  "speaker": "Unknown",
+  "en": "So this is just a limited technique.",
+  "zh": "所以这只是一种有限的技术。"
+ },
+ {
+  "seg": 211,
+  "start": 1119.576,
+  "end": 1123.597,
+  "speaker": "Unknown",
+  "en": "The second technique is to generate a lot of different things.",
+  "zh": "第二种技术是生成很多不同的东西。"
+ },
+ {
+  "seg": 212,
+  "start": 1124.397,
+  "end": 1125.778,
+  "speaker": "Unknown",
+  "en": "And then have a sub-agent rank.",
+  "zh": "然后让一个子智能体来排序。"
+ },
+ {
+  "seg": 213,
+  "start": 1126.518,
+  "end": 1129.98,
+  "speaker": "Unknown",
+  "en": "I've done this for a shader library that I've created called Radiant Shaders.",
+  "zh": "我为一个我创建的名为 Radiant Shaders 的着色器库这样做过。"
+ },
+ {
+  "seg": 214,
+  "start": 1130.621,
+  "end": 1134.803,
+  "speaker": "Unknown",
+  "en": "And the goal here was to create around 100 different shaders.",
+  "zh": "那里的目标是创建大约 100 个不同的着色器。"
+ },
+ {
+  "seg": 215,
+  "start": 1135.384,
+  "end": 1142.648,
+  "speaker": "Unknown",
+  "en": "And the problem is every time I would say, you know, create a new shader or create ideas for 10 new shaders, I would get the same repeating ideas.",
+  "zh": "问题是每次我说,你知道的,创建一个新着色器,或者为 10 个新着色器创建创意,我都会得到同样的重复创意。"
+ },
+ {
+  "seg": 216,
+  "start": 1144.083,
+  "end": 1146.104,
+  "speaker": "Unknown",
+  "en": "I solved this in two different ways.",
+  "zh": "我用两种不同的方式解决了这个问题。"
+ },
+ {
+  "seg": 217,
+  "start": 1146.144,
+  "end": 1150.266,
+  "speaker": "Unknown",
+  "en": "The first one is I created something unexpected, a random seed, a creative seed.",
+  "zh": "第一种是我创建了意想不到的东西,一个随机种子,一个创意种子。"
+ },
+ {
+  "seg": 218,
+  "start": 1150.526,
+  "end": 1152.027,
+  "speaker": "Unknown",
+  "en": "In this case, I used celebrities.",
+  "zh": "在这个案例中,我用了名人。"
+ },
+ {
+  "seg": 219,
+  "start": 1152.607,
+  "end": 1156.909,
+  "speaker": "Unknown",
+  "en": "I said like, well, what would Rihanna look like as a shader?",
+  "zh": "我说,比如,Rihanna 作为一个着色器会是什么样子?"
+ },
+ {
+  "seg": 220,
+  "start": 1157.449,
+  "end": 1159.49,
+  "speaker": "Unknown",
+  "en": "Or what would Beyonce look like as a shader?",
+  "zh": "或者 Beyonce 作为一个着色器会是什么样子?"
+ },
+ {
+  "seg": 221,
+  "start": 1160.05,
+  "end": 1163.572,
+  "speaker": "Unknown",
+  "en": "And then the model was like, hmm, let me think about that.",
+  "zh": "然后模型就说,嗯,让我想想。"
+ },
+ {
+  "seg": 222,
+  "start": 1164.152,
+  "end": 1164.933,
+  "speaker": "Unknown",
+  "en": "So that's the first thing.",
+  "zh": "这是第一件事。"
+ },
+ {
+  "seg": 223,
+  "start": 1164.953,
+  "end": 1171.636,
+  "speaker": "Unknown",
+  "en": "And then I said, well, generate a hundred of these ideas and then spawn a sub-agent that ranks all of those ideas.",
+  "zh": "然后我说,好,生成一百个这样的创意,然后生成一个子智能体来对所有这些创意进行排序。"
+ },
+ {
+  "seg": 224,
+  "start": 1172.722,
+  "end": 1173.543,
+  "speaker": "Unknown",
+  "en": "And that's important.",
+  "zh": "这一点很重要。"
+ },
+ {
+  "seg": 225,
+  "start": 1173.603,
+  "end": 1182.834,
+  "speaker": "Unknown",
+  "en": "It has to be a sub-agent because the sub-agent doesn't know anything from the prior context of the session and can then completely change the order.",
+  "zh": "必须是一个子智能体,因为子智能体对本次会话之前的任何上下文一无所知,然后就可以完全改变排序。"
+ },
+ {
+  "seg": 226,
+  "start": 1183.785,
+  "end": 1186.746,
+  "speaker": "Unknown",
+  "en": "The third one is to create a random seed from a script.",
+  "zh": "第三种是用脚本创建随机种子。"
+ },
+ {
+  "seg": 227,
+  "start": 1187.507,
+  "end": 1192.689,
+  "speaker": "Unknown",
+  "en": "So in Impeccable, for example, when you first start a project, it calls a script called color.js.",
+  "zh": "比如在 Impeccable 中,当你第一次启动一个项目时,它会调用一个叫 color.js 的脚本。"
+ },
+ {
+  "seg": 228,
+  "start": 1193.469,
+  "end": 1205.815,
+  "speaker": "Unknown",
+  "en": "And color.js has over 100 hand-selected, they're not complete color palettes, but they are primary colors in the color of a starting point of a palette.",
+  "zh": "color.js 有超过 100 个手工挑选的,它们不是完整的调色板,而是作为调色板起点的主色调颜色。"
+ },
+ {
+  "seg": 229,
+  "start": 1206.767,
+  "end": 1213.454,
+  "speaker": "Unknown",
+  "en": "And it reads that and then the model uses that as a creative spark to build a palette around it for you.",
+  "zh": "它读取那个,然后模型用它作为创意火花,为你围绕它构建一个调色板。"
+ },
+ {
+  "seg": 230,
+  "start": 1213.954,
+  "end": 1215.636,
+  "speaker": "Unknown",
+  "en": "You can still say, I don't like this.",
+  "zh": "你仍然可以说,我不喜欢这个。"
+ },
+ {
+  "seg": 231,
+  "start": 1215.856,
+  "end": 1220.44,
+  "speaker": "Unknown",
+  "en": "I mean, I don't like what it proposed, but it turns it into a different direction.",
+  "zh": "我是说,我不喜欢它提出的东西,但它会把它转向一个不同的方向。"
+ },
+ {
+  "seg": 232,
+  "start": 1220.7,
+  "end": 1223.944,
+  "speaker": "Unknown",
+  "en": "So those are all ways to create divergence.",
+  "zh": "所以这些都是创造发散性的方法。"
+ },
+ {
+  "seg": 233,
+  "start": 1225.158,
+  "end": 1236.705,
+  "speaker": "Unknown",
+  "en": "And when you design something with Impeccable, the same brief, depending on the user's input and color script that runs, et cetera, can produce vastly different results because of that.",
+  "zh": "当你用 Impeccable 设计东西时,同样的简报,取决于用户的输入和运行的色彩脚本等等,可以因此产生截然不同的结果。"
+ },
+ {
+  "seg": 234,
+  "start": 1236.845,
+  "end": 1240.307,
+  "speaker": "Unknown",
+  "en": "Because I didn't want to have the whole internet look like everything else.",
+  "zh": "因为我不想让整个互联网看起来都千篇一律。"
+ },
+ {
+  "seg": 235,
+  "start": 1241.947,
+  "end": 1242.408,
+  "speaker": "Unknown",
+  "en": "Number three.",
+  "zh": "第三点。"
+ },
+ {
+  "seg": 236,
+  "start": 1244.43,
+  "end": 1245.071,
+  "speaker": "Unknown",
+  "en": "Here's the problem.",
+  "zh": "问题在这里。"
+ },
+ {
+  "seg": 237,
+  "start": 1245.411,
+  "end": 1250.057,
+  "speaker": "Unknown",
+  "en": "If you cram everything into one skill, it kind of blurs them.",
+  "zh": "如果你把所有东西都塞进一个技能里,它们会变得有些模糊。"
+ },
+ {
+  "seg": 238,
+  "start": 1250.077,
+  "end": 1252.92,
+  "speaker": "Unknown",
+  "en": "The instruction following becomes not very good enough anymore.",
+  "zh": "指令遵循就变得不再足够好了。"
+ },
+ {
+  "seg": 239,
+  "start": 1253.281,
+  "end": 1261.751,
+  "speaker": "Unknown",
+  "en": "So if you're building some general purpose skill and you expand it and expand it and expand it, at some point it becomes really, really blurry to the model.",
+  "zh": "所以如果你在构建某个通用技能,然后不断地扩展它、扩展它、扩展它,到某个时候它对模型来说就会变得非常非常模糊。"
+ },
+ {
+  "seg": 240,
+  "start": 1263.8,
+  "end": 1265.621,
+  "speaker": "Unknown",
+  "en": "Here's a concrete example of this.",
+  "zh": "这里有一个具体的例子。"
+ },
+ {
+  "seg": 241,
+  "start": 1266.101,
+  "end": 1272.364,
+  "speaker": "Unknown",
+  "en": "The Anthropic front-end design skill, the former version of it, they just shipped a new version three weeks ago.",
+  "zh": "Anthropic 的前端设计技能,它的旧版本,他们三周前刚发布了新版本。"
+ },
+ {
+  "seg": 242,
+  "start": 1272.704,
+  "end": 1278.147,
+  "speaker": "Unknown",
+  "en": "But the former version had a line that I read earlier that says avoid system fonts.",
+  "zh": "但旧版本里有一行我之前读到过的话,写着避免使用系统字体。"
+ },
+ {
+  "seg": 243,
+  "start": 1279.367,
+  "end": 1281.008,
+  "speaker": "Unknown",
+  "en": "That's okay for landing page design.",
+  "zh": "这对落地页设计来说没问题。"
+ },
+ {
+  "seg": 244,
+  "start": 1281.908,
+  "end": 1285.49,
+  "speaker": "Unknown",
+  "en": "But for product UI, oftentimes you want it to feel as native as possible.",
+  "zh": "但对于产品 UI,通常你希望它感觉尽可能原生。"
+ },
+ {
+  "seg": 245,
+  "start": 1285.53,
+  "end": 1287.291,
+  "speaker": "Unknown",
+  "en": "So system fonts are actually the thing that you want.",
+  "zh": "所以系统字体实际上正是你想要的东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1288.308,
+  "end": 1289.089,
+  "speaker": "Unknown",
+  "en": "So how do you solve this?",
+  "zh": "那么怎么解决这个问题?"
+ },
+ {
+  "seg": 247,
+  "start": 1289.749,
+  "end": 1293.131,
+  "speaker": "Unknown",
+  "en": "You can say, I mean, you can have this giant if-else block in a skill.",
+  "zh": "你可以说,我是说,你可以在技能里放一个巨大的 if-else 块。"
+ },
+ {
+  "seg": 248,
+  "start": 1293.651,
+  "end": 1296.173,
+  "speaker": "Unknown",
+  "en": "Say like, well, if the user wants a landing page, do this.",
+  "zh": "说,好吧,如果用户想要落地页,就这样做。"
+ },
+ {
+  "seg": 249,
+  "start": 1296.293,
+  "end": 1297.894,
+  "speaker": "Unknown",
+  "en": "If the user wants a product, do this.",
+  "zh": "如果用户想要产品,就这样做。"
+ },
+ {
+  "seg": 250,
+  "start": 1298.574,
+  "end": 1303.618,
+  "speaker": "Unknown",
+  "en": "But that becomes really convoluted, wastes a lot of tokens, and honestly, it doesn't work very well.",
+  "zh": "但那会变得非常复杂,浪费很多 token,而且说实话,效果也不太好。"
+ },
+ {
+  "seg": 251,
+  "start": 1304.538,
+  "end": 1326.2,
+  "speaker": "Unknown",
+  "en": "So impeccable started as a lot of different subskills and now has this mixture of experts model that routes internally both in terms of capabilities so you can call impeccable critique or impeccable polish and you get a different MD file loaded behind the scenes for a particular job so it's not just one giant skill MD.",
+  "zh": "所以 Impeccable 一开始是很多不同的子技能,现在有了这种专家混合模型,在能力层面内部路由,所以你可以调用 impeccable critique 或 impeccable polish,后台会为特定工作加载不同的 MD 文件,这样就不仅仅是一个巨大的技能 MD。"
+ },
+ {
+  "seg": 252,
+  "start": 1327.842,
+  "end": 1346.417,
+  "speaker": "Unknown",
+  "en": "But also, and this is something not a lot of people know, behind the scenes, Impeccable decides based on your brief and what you input, whether you're trying to design something brandy, so like a landing page or something that wants to attract attention, or whether it's the actual product that you're designing.",
+  "zh": "而且还有一点,这不是很多人知道的,在后台,Impeccable 会根据你的简介和你输入的内容来决定,你是想设计一个品牌向的东西,比如落地页或想吸引注意力的东西,还是你在设计实际的产品。"
+ },
+ {
+  "seg": 253,
+  "start": 1346.877,
+  "end": 1354.443,
+  "speaker": "Unknown",
+  "en": "So it switches, registers, and then loads completely different rules for those two registers, because product design and brand design are very, very different.",
+  "zh": "所以它会切换语域、注册语域,然后为这两种语域加载完全不同的规则,因为产品设计和品牌设计是非常非常不同的。"
+ },
+ {
+  "seg": 254,
+  "start": 1355.644,
+  "end": 1360.228,
+  "speaker": "Unknown",
+  "en": "So that's also something that I would recommend you doing if you're building a larger skill.",
+  "zh": "所以这也是我建议你在构建较大技能时去做的事情。"
+ },
+ {
+  "seg": 255,
+  "start": 1361.049,
+  "end": 1369.856,
+  "speaker": "Unknown",
+  "en": "This works for big multi-tool skills, works for context on demand type of skills, per audience behavior, agent toolkits, that kind of thing.",
+  "zh": "这适用于大型多工具技能,适用于按需上下文类型的技能,按受众的行为、智能体工具包之类的东西。"
+ },
+ {
+  "seg": 256,
+  "start": 1371.817,
+  "end": 1372.438,
+  "speaker": "Unknown",
+  "en": "Number four.",
+  "zh": "第四点。"
+ },
+ {
+  "seg": 257,
+  "start": 1373.787,
+  "end": 1375.088,
+  "speaker": "Unknown",
+  "en": "Everyone starts from zero.",
+  "zh": "所以,复利式工程对技能来说也是一个有趣的主题。"
+ },
+ {
+  "seg": 258,
+  "start": 1375.668,
+  "end": 1378.35,
+  "speaker": "Unknown",
+  "en": "Skills, by default, don't have long-term memory.",
+  "zh": "技能默认没有长期记忆。"
+ },
+ {
+  "seg": 259,
+  "start": 1378.37,
+  "end": 1381.473,
+  "speaker": "Unknown",
+  "en": "They don't really compound over time, but you can make it so.",
+  "zh": "它们不会随时间真正复利累积,但你可以让它做到。"
+ },
+ {
+  "seg": 260,
+  "start": 1382.193,
+  "end": 1385.416,
+  "speaker": "Unknown",
+  "en": "So you have a skill folder and you can save things in that skill folder.",
+  "zh": "你有一个技能文件夹,你可以在那个技能文件夹里保存东西。"
+ },
+ {
+  "seg": 261,
+  "start": 1385.796,
+  "end": 1392.361,
+  "speaker": "Unknown",
+  "en": "In fact, in Claude, you even have an environment variable that resolves to the actual directory.",
+  "zh": "事实上,在 Claude 里,你甚至有一个解析到实际目录的环境变量,"
+ },
+ {
+  "seg": 262,
+  "start": 1393.281,
+  "end": 1394.963,
+  "speaker": "Unknown",
+  "en": "that you can save things in, which is nice.",
+  "zh": "你可以在里面保存东西,这很好。"
+ },
+ {
+  "seg": 263,
+  "start": 1395.284,
+  "end": 1400.21,
+  "speaker": "Unknown",
+  "en": "No other harness supports this right now, I believe, but you can hack around that.",
+  "zh": "我相信目前没有其他 harness 支持这个,但你可以变通解决。"
+ },
+ {
+  "seg": 264,
+  "start": 1400.63,
+  "end": 1411.624,
+  "speaker": "Unknown",
+  "en": "Impeccable uses a .impeccable folder in the current repository route, but you can also save things directly in the skill folder and maybe ask the user to ignore them.",
+  "zh": "Impeccable 在当前仓库根目录使用一个 .impeccable 文件夹,但你也可以直接把东西保存在技能文件夹里,或许让用户忽略它们。"
+ },
+ {
+  "seg": 265,
+  "start": 1413.09,
+  "end": 1413.771,
+  "speaker": "Unknown",
+  "en": "How could this work?",
+  "zh": "这怎么能实现呢?"
+ },
+ {
+  "seg": 266,
+  "start": 1413.831,
+  "end": 1423.057,
+  "speaker": "Unknown",
+  "en": "So for example, if you're running a critique in impeccable, that critique is saved as a file in that folder and by default it's getting ignored.",
+  "zh": "比如说,如果你在 Impeccable 里运行一次 critique,那次 critique 会作为文件保存在那个文件夹里,默认它是被忽略的。"
+ },
+ {
+  "seg": 267,
+  "start": 1423.757,
+  "end": 1431.523,
+  "speaker": "Unknown",
+  "en": "But then, if you then later on say, well, okay, I just ran a critique, I'd like to polish my page, even if you do it in another session,",
+  "zh": "但是,如果你之后说,好吧,我刚运行了一次 critique,我想打磨我的页面,即使你是在另一个会话里做的,"
+ },
+ {
+  "seg": 268,
+  "start": 1432.123,
+  "end": 1437.749,
+  "speaker": "Unknown",
+  "en": "It actually uses that prior critique as a signal to understand what have we found out about this page.",
+  "zh": "它实际上会用之前那次 critique 作为信号,来理解我们对这个页面发现了什么。"
+ },
+ {
+  "seg": 269,
+  "start": 1438.31,
+  "end": 1441.794,
+  "speaker": "Unknown",
+  "en": "And it can look at all prior critiques and see sort of the progression of the page.",
+  "zh": "它可以查看所有之前的 critique,看到这个页面的某种演进过程。"
+ },
+ {
+  "seg": 270,
+  "start": 1442.614,
+  "end": 1446.839,
+  "speaker": "Unknown",
+  "en": "For example, you could have said in one of the critiques, you know, I don't agree with this critique.",
+  "zh": "比如,你可能在其中一次 critique 里说过,你知道,我不同意这条 critique。"
+ },
+ {
+  "seg": 271,
+  "start": 1447.339,
+  "end": 1448.401,
+  "speaker": "Unknown",
+  "en": "I don't think you're right.",
+  "zh": "我不认为你是对的。"
+ },
+ {
+  "seg": 272,
+  "start": 1448.801,
+  "end": 1451.624,
+  "speaker": "Unknown",
+  "en": "And I think I really like my instrument to reference.",
+  "zh": "而且我真的很喜欢我的 instrument 来做参考。"
+ },
+ {
+  "seg": 273,
+  "start": 1452.673,
+  "end": 1456.114,
+  "speaker": "Unknown",
+  "en": "And then the model would be like, okay, no problem, I'm gonna mark this for later.",
+  "zh": "然后模型就会说,好的,没问题,我把这个标记下来以后处理。"
+ },
+ {
+  "seg": 274,
+  "start": 1456.834,
+  "end": 1466.836,
+  "speaker": "Unknown",
+  "en": "And the skill is now smart enough, the skill has built context to realize, okay, well, that's the user preference, so I'm gonna respect it going forward.",
+  "zh": "而这个技能现在足够聪明了,这个技能已经建立了上下文,能意识到,好吧,那是用户偏好,所以我今后会尊重它。"
+ },
+ {
+  "seg": 275,
+  "start": 1466.936,
+  "end": 1473.057,
+  "speaker": "Unknown",
+  "en": "So, compound engineering really is an interesting theme for skills as well.",
+  "zh": "所以,复合工程对技能来说也确实是一个有趣的主题。"
+ },
+ {
+  "seg": 276,
+  "start": 1473.237,
+  "end": 1476.338,
+  "speaker": "Unknown",
+  "en": "You can make skills aware of prior sessions with that technique.",
+  "zh": "你可以用那个技巧让技能感知到之前的会话。"
+ },
+ {
+  "seg": 277,
+  "start": 1478.003,
+  "end": 1479.524,
+  "speaker": "Unknown",
+  "en": "So, make the runs compound.",
+  "zh": "所以,让运行产生复利。"
+ },
+ {
+  "seg": 278,
+  "start": 1480.105,
+  "end": 1489.511,
+  "speaker": "Unknown",
+  "en": "This works really well for resumable gradients, resumable agents, progress tracking, multi-session refactors, migrations, that kind of thing.",
+  "zh": "这对可恢复的渐进攻略、可恢复的智能体、进度跟踪、多会话重构、迁移之类的东西非常有效。"
+ },
+ {
+  "seg": 279,
+  "start": 1489.912,
+  "end": 1492.453,
+  "speaker": "Unknown",
+  "en": "For instance, one of the things that I do all the time is refactor my code.",
+  "zh": "比如,我一直做的事情之一就是重构我的代码。"
+ },
+ {
+  "seg": 280,
+  "start": 1493.194,
+  "end": 1494.915,
+  "speaker": "Unknown",
+  "en": "And how do I do that?",
+  "zh": "我是怎么做的呢?"
+ },
+ {
+  "seg": 281,
+  "start": 1495.095,
+  "end": 1504.082,
+  "speaker": "Unknown",
+  "en": "By having sort of like a skill that spawns itself across multiple sessions and tackles one file at a time.",
+  "zh": "通过一种让技能跨多个会话自我派生、每次处理一个文件的方式。"
+ },
+ {
+  "seg": 282,
+  "start": 1505.223,
+  "end": 1520.329,
+  "speaker": "Unknown",
+  "en": "So I basically tell it, okay, here's your TSX file or whatever for today's session and now refactor everything around this file and linking into that file and then it sort of builds up context over time until it's completely finished with the whole code base.",
+  "zh": "所以我基本上告诉它,好的,这是你今天会话的 TSX 文件或别的什么,现在重构围绕这个文件的一切以及链接到这个文件的东西,然后它随着时间慢慢积累上下文,直到它把整个代码库完全处理完。"
+ },
+ {
+  "seg": 283,
+  "start": 1522.33,
+  "end": 1523.191,
+  "speaker": "Unknown",
+  "en": "Okay, number five.",
+  "zh": "好,第五点。"
+ },
+ {
+  "seg": 284,
+  "start": 1525.051,
+  "end": 1526.992,
+  "speaker": "Unknown",
+  "en": "Buried rules get skimmed.",
+  "zh": "埋在深处的规则会被略读。"
+ },
+ {
+  "seg": 285,
+  "start": 1527.813,
+  "end": 1532.334,
+  "speaker": "Unknown",
+  "en": "We talked a bit about this before but this is a little bit of a different point I'm trying to make.",
+  "zh": "我们之前谈过一点这个,但我想说的是一个稍微不同的点。"
+ },
+ {
+  "seg": 286,
+  "start": 1534.94,
+  "end": 1544.927,
+  "speaker": "Unknown",
+  "en": "Now, especially with weaker models, and now if you're building a skill for yourself and you're only running Opus or you're only running Codex, this isn't that big of an issue, right?",
+  "zh": "现在,尤其是对较弱的模型而言,现在如果你是为自己构建一个技能,而你只运行 Opus,或者你只运行 Codex,这就不是什么大问题,对吧?"
+ },
+ {
+  "seg": 287,
+  "start": 1545.247,
+  "end": 1553.233,
+  "speaker": "Unknown",
+  "en": "You know which model you run, you know if it works with GPT-5.5, for example, I'm good because that's the only model I use.",
+  "zh": "你知道你运行哪个模型,你知道它和 GPT-5.5 配合得很好,比如说,我很好,因为那是我唯一用的模型。"
+ },
+ {
+  "seg": 288,
+  "start": 1554.173,
+  "end": 1555.834,
+  "speaker": "Unknown",
+  "en": "Now, if you want to distribute your skill,",
+  "zh": "现在,如果你想分发你的技能,"
+ },
+ {
+  "seg": 289,
+  "start": 1556.807,
+  "end": 1557.728,
+  "speaker": "Unknown",
+  "en": "to lots of users.",
+  "zh": "给很多用户。"
+ },
+ {
+  "seg": 290,
+  "start": 1558.548,
+  "end": 1563.111,
+  "speaker": "Unknown",
+  "en": "This is where things get kind of hairy because some of those users might be running Sonnet.",
+  "zh": "这就是事情开始变得棘手的地方,因为其中一些用户可能在运行 Sonnet。"
+ },
+ {
+  "seg": 291,
+  "start": 1563.652,
+  "end": 1565.113,
+  "speaker": "Unknown",
+  "en": "Some of them might be running Haiku.",
+  "zh": "其中一些可能在运行 Haiku。"
+ },
+ {
+  "seg": 292,
+  "start": 1565.193,
+  "end": 1566.714,
+  "speaker": "Unknown",
+  "en": "Some of them might be running Grok.",
+  "zh": "其中一些可能在运行 Grok。"
+ },
+ {
+  "seg": 293,
+  "start": 1566.854,
+  "end": 1567.975,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 294,
+  "start": 1569.196,
+  "end": 1571.037,
+  "speaker": "Unknown",
+  "en": "Some of them might be running Gemini.",
+  "zh": "其中一些可能在运行 Gemini。"
+ },
+ {
+  "seg": 295,
+  "start": 1571.477,
+  "end": 1571.897,
+  "speaker": "Unknown",
+  "en": "You never know.",
+  "zh": "你永远猜不到。"
+ },
+ {
+  "seg": 296,
+  "start": 1572.838,
+  "end": 1573.959,
+  "speaker": "Unknown",
+  "en": "Sometimes I meet somebody who does.",
+  "zh": "有时候我确实遇到这样的人。"
+ },
+ {
+  "seg": 297,
+  "start": 1578.982,
+  "end": 1580.823,
+  "speaker": "Unknown",
+  "en": "Really, that's where it gets complicated, right?",
+  "zh": "真的,那就是事情变复杂的地方,对吧?"
+ },
+ {
+  "seg": 298,
+  "start": 1581.564,
+  "end": 1591.309,
+  "speaker": "Unknown",
+  "en": "Because you need to build for the lowest common denominator and ideally for the one model that is the weakest at instruction following.",
+  "zh": "因为你需要为最低公分母构建,理想情况下为指令遵循能力最弱的那个模型构建。"
+ },
+ {
+  "seg": 299,
+  "start": 1592.149,
+  "end": 1595.891,
+  "speaker": "Unknown",
+  "en": "For example, GPT-5 mini is not a very good rule follower.",
+  "zh": "比如,GPT-5 mini 就不是一个很好的规则遵循者。"
+ },
+ {
+  "seg": 300,
+  "start": 1597.332,
+  "end": 1600.013,
+  "speaker": "Unknown",
+  "en": "There are things, even in Impeccable, that don't work with GPT-5 mini.",
+  "zh": "即使在 Impeccable 里，也有一些东西在 GPT-5 mini 上无法正常工作。"
+ },
+ {
+  "seg": 301,
+  "start": 1601.894,
+  "end": 1604.855,
+  "speaker": "Unknown",
+  "en": "It consistently doesn't load certain MD files that are sorted.",
+  "zh": "它始终无法加载某些已排序的 MD 文件。"
+ },
+ {
+  "seg": 302,
+  "start": 1605.715,
+  "end": 1607.936,
+  "speaker": "Unknown",
+  "en": "It consistently doesn't spin up the live mode.",
+  "zh": "它始终无法启动 live mode。"
+ },
+ {
+  "seg": 303,
+  "start": 1607.996,
+  "end": 1613.038,
+  "speaker": "Unknown",
+  "en": "So there are boundaries to instruction following across these models.",
+  "zh": "所以这些模型在指令遵循上是存在边界的。"
+ },
+ {
+  "seg": 304,
+  "start": 1613.518,
+  "end": 1616.739,
+  "speaker": "Unknown",
+  "en": "And it gets especially bad with longer skills that have lots of rules.",
+  "zh": "而当技能很长、包含大量规则时，情况会变得尤其糟糕。"
+ },
+ {
+  "seg": 305,
+  "start": 1617.8,
+  "end": 1618.76,
+  "speaker": "Unknown",
+  "en": "So how do you work around this?",
+  "zh": "那么如何绕过这个问题呢？"
+ },
+ {
+  "seg": 306,
+  "start": 1620.287,
+  "end": 1624.028,
+  "speaker": "Unknown",
+  "en": "Well, in impeccable, impeccable really is kind of bionic of sorts.",
+  "zh": "嗯，在 impeccable 里，impeccable 其实某种意义上是仿生的。"
+ },
+ {
+  "seg": 307,
+  "start": 1624.188,
+  "end": 1625.349,
+  "speaker": "Unknown",
+  "en": "It's really not just prose.",
+  "zh": "它真的不只是文字描述。"
+ },
+ {
+  "seg": 308,
+  "start": 1625.829,
+  "end": 1633.091,
+  "speaker": "Unknown",
+  "en": "It is a combination of scripts that run inline within the skill at certain times and then prose around it.",
+  "zh": "它是脚本与文字的结合：脚本在技能内的特定时机内联运行，周围再配上文字说明。"
+ },
+ {
+  "seg": 309,
+  "start": 1633.912,
+  "end": 1639.733,
+  "speaker": "Unknown",
+  "en": "For example, every time you call impeccable, it runs a file called context.mjs.",
+  "zh": "举例来说，每次你调用 impeccable 时，它会运行一个叫 context.mjs 的文件。"
+ },
+ {
+  "seg": 310,
+  "start": 1640.374,
+  "end": 1642.654,
+  "speaker": "Unknown",
+  "en": "And the context.mjs does a couple of things.",
+  "zh": "而这个 context.mjs 会做几件事。"
+ },
+ {
+  "seg": 311,
+  "start": 1642.894,
+  "end": 1643.495,
+  "speaker": "Unknown",
+  "en": "The first thing is",
+  "zh": "第一件事是"
+ },
+ {
+  "seg": 312,
+  "start": 1645.015,
+  "end": 1663.809,
+  "speaker": "Unknown",
+  "en": "If there is a product MD, which is impeccable, it's almost like design MD, but it is for product strategy, so for us to understand who is the target audience, or what do you want to achieve with this thing, which is oftentimes more important in a design interview than, you know, how round do you want your borders to be.",
+  "zh": "如果存在一个 product MD——在 impeccable 里它几乎就像 design MD，但它是用于产品策略的，也就是让我们理解目标受众是谁，或者你想用这个东西达成什么目标——这在一个设计面试中往往比你想要把边框做得多圆更重要。"
+ },
+ {
+  "seg": 313,
+  "start": 1665.37,
+  "end": 1666.331,
+  "speaker": "Unknown",
+  "en": "But it supports both.",
+  "zh": "但它两者都支持。"
+ },
+ {
+  "seg": 314,
+  "start": 1666.371,
+  "end": 1668.172,
+  "speaker": "Unknown",
+  "en": "It supports ProductMD and DesignMD.",
+  "zh": "它支持 ProductMD 和 DesignMD。"
+ },
+ {
+  "seg": 315,
+  "start": 1668.592,
+  "end": 1674.735,
+  "speaker": "Unknown",
+  "en": "And by default context, MJS brings these files together and then spits them into the session.",
+  "zh": "默认情况下，context MJS 会把这些文件整合起来，然后注入到会话中。"
+ },
+ {
+  "seg": 316,
+  "start": 1675.195,
+  "end": 1676.056,
+  "speaker": "Unknown",
+  "en": "Now that's not exciting.",
+  "zh": "现在，这并不令人兴奋。"
+ },
+ {
+  "seg": 317,
+  "start": 1677.076,
+  "end": 1688.542,
+  "speaker": "Unknown",
+  "en": "But when those files are not available, it will actually give the skill structured JSON and say like, by the way, there is no ProductMD and here's exactly what you should do about it.",
+  "zh": "但当这些文件不存在时，它实际上会给技能结构化的 JSON 并说，比如，顺便说一下，没有 ProductMD，而且这里明确告诉你应该怎么处理。"
+ },
+ {
+  "seg": 318,
+  "start": 1689.263,
+  "end": 1689.303,
+  "speaker": "Unknown",
+  "en": "Or",
+  "zh": "或者"
+ },
+ {
+  "seg": 319,
+  "start": 1690.437,
+  "end": 1692.138,
+  "speaker": "Unknown",
+  "en": "Here's another thing that ContextMJS does.",
+  "zh": "这里是 ContextMJS 做的另一件事。"
+ },
+ {
+  "seg": 320,
+  "start": 1692.958,
+  "end": 1696.64,
+  "speaker": "Unknown",
+  "en": "It actually makes Impeccable self-update if there's a new version of Impeccable.",
+  "zh": "如果 Impeccable 有新版本，它实际上会让 Impeccable 自我更新。"
+ },
+ {
+  "seg": 321,
+  "start": 1696.86,
+  "end": 1708.165,
+  "speaker": "Unknown",
+  "en": "Now, with your permission, so it will ask you, but it will say, hey, by the way, there's an update available for the Impeccable skill, and here's what you should do now to ask the user whether they want to update Impeccable.",
+  "zh": "当然，需要你的许可，所以它会询问你，但它会说，嘿，顺便说一下，Impeccable 技能有可用更新，这里是你现在该做的：询问用户是否想更新 Impeccable。"
+ },
+ {
+  "seg": 322,
+  "start": 1708.805,
+  "end": 1715.748,
+  "speaker": "Unknown",
+  "en": "So it's overloaded in many ways, and it will always tell the model the exact instructions on what to do next.",
+  "zh": "所以它以多种方式被复用了，而且它总是会告诉模型接下来该做什么的确切指令。"
+ },
+ {
+  "seg": 323,
+  "start": 1716.795,
+  "end": 1724.6,
+  "speaker": "Unknown",
+  "en": "And the really interesting thing about this is that I found that that works significantly better than some random rule in the pros of the main scale.",
+  "zh": "而关于这一点非常有趣的是，我发现这比在主 skill 的文字描述里放某条随机规则要有效得多。"
+ },
+ {
+  "seg": 324,
+  "start": 1725.54,
+  "end": 1737.587,
+  "speaker": "Unknown",
+  "en": "When you put something out from the exit value, from the standard out of a script, somehow the model will follow it a lot more than before.",
+  "zh": "当你把某个东西从脚本的退出值、从标准输出里输出出来时，不知为何模型对它的遵循度会高得多。"
+ },
+ {
+  "seg": 325,
+  "start": 1738.508,
+  "end": 1745.312,
+  "speaker": "Unknown",
+  "en": "So that could be environment-aware setup, dynamic onboarding, repo state gating, adaptive flows, anything really.",
+  "zh": "所以这可以是环境感知的设置、动态的引导流程、repo 状态门控、自适应流程，任何东西都可以。"
+ },
+ {
+  "seg": 326,
+  "start": 1746.382,
+  "end": 1754.525,
+  "speaker": "Unknown",
+  "en": "Actually, before I end this session, one of the shortcomings of this technique, and this is something to be aware of, is prompt caching.",
+  "zh": "实际上，在我结束这个环节之前，这项技术的一个短板，也是你需要意识到的一点，就是提示词缓存。"
+ },
+ {
+  "seg": 327,
+  "start": 1755.306,
+  "end": 1767.331,
+  "speaker": "Unknown",
+  "en": "So this works super, super well to keep a skill sort of like, you know, flowing in the right direction, instruction following, but it does so at the expense of prompt caching.",
+  "zh": "所以这项工作在让技能保持在正确方向上流转、保持指令遵循方面超级超级有效，但它的代价是提示词缓存。"
+ },
+ {
+  "seg": 328,
+  "start": 1768.371,
+  "end": 1779.717,
+  "speaker": "Unknown",
+  "en": "If you need prompt caching, if you run this skill many, many times, and you want the whole thing to be cached, this is not a good technique to use, but I found it to be very useful in really interactive scenarios.",
+  "zh": "如果你需要提示词缓存，如果你会非常非常频繁地运行这个技能，并且希望整个过程被缓存，那这就不是该用的好技术，但我发现在真正交互式的场景中它非常有用。"
+ },
+ {
+  "seg": 329,
+  "start": 1781.898,
+  "end": 1782.279,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 330,
+  "start": 1783.579,
+  "end": 1784.28,
+  "speaker": "Unknown",
+  "en": "Number six.",
+  "zh": "第六点。"
+ },
+ {
+  "seg": 331,
+  "start": 1785.12,
+  "end": 1786.201,
+  "speaker": "Unknown",
+  "en": "Hooks that fight back.",
+  "zh": "会反击的 hooks。"
+ },
+ {
+  "seg": 332,
+  "start": 1786.681,
+  "end": 1791.023,
+  "speaker": "Unknown",
+  "en": "It's something I shipped quite recently, and I really like it.",
+  "zh": "这是我最近才发布的东西，我真的很喜欢它。"
+ },
+ {
+  "seg": 333,
+  "start": 1791.103,
+  "end": 1793.164,
+  "speaker": "Unknown",
+  "en": "I want to show you what I mean by that.",
+  "zh": "我想给你们展示一下我的意思。"
+ },
+ {
+  "seg": 334,
+  "start": 1795.692,
+  "end": 1798.149,
+  "speaker": "Unknown",
+  "en": "So a lot of people have impeccable systems.",
+  "zh": "很多人都有 impeccable 系统。"
+ },
+ {
+  "seg": 335,
+  "start": 1799.294,
+  "end": 1800.455,
+  "speaker": "Unknown",
+  "en": "But sometimes they forget to run it.",
+  "zh": "但有时他们会忘记运行它。"
+ },
+ {
+  "seg": 336,
+  "start": 1801.236,
+  "end": 1802.917,
+  "speaker": "Unknown",
+  "en": "Sometimes they're like, you know, I don't know.",
+  "zh": "有时他们会说，呃，我也不知道。"
+ },
+ {
+  "seg": 337,
+  "start": 1802.997,
+  "end": 1805.799,
+  "speaker": "Unknown",
+  "en": "I mean, I wish, Codex is actually pretty good.",
+  "zh": "我是说，我希望……Codex 其实相当不错。"
+ },
+ {
+  "seg": 338,
+  "start": 1805.859,
+  "end": 1809.923,
+  "speaker": "Unknown",
+  "en": "Some of the harnesses are pretty good, consistently looping in the right skill.",
+  "zh": "有些 harness 相当不错，能持续循环到正确的技能。"
+ },
+ {
+  "seg": 339,
+  "start": 1811.104,
+  "end": 1820.591,
+  "speaker": "Unknown",
+  "en": "But because it now bundles as one skill, oftentimes the harnesses forget to simply call Impeccable when you don't explicitly mention it.",
+  "zh": "但因为它现在被打包成一个技能，当你没有明确提到它时，harness 常常忘记直接调用 Impeccable。"
+ },
+ {
+  "seg": 340,
+  "start": 1821.152,
+  "end": 1825.796,
+  "speaker": "Unknown",
+  "en": "So now you're building some front-end code and maybe it doesn't follow your design system or whatever.",
+  "zh": "于是现在你在写一些前端代码，结果它可能没有遵循你的设计系统或别的什么。"
+ },
+ {
+  "seg": 341,
+  "start": 1828.373,
+  "end": 1829.774,
+  "speaker": "Unknown",
+  "en": "Now that can be solved with hooks.",
+  "zh": "现在这可以用 hooks 来解决。"
+ },
+ {
+  "seg": 342,
+  "start": 1830.554,
+  "end": 1833.956,
+  "speaker": "Unknown",
+  "en": "Who has used hooks before in Claude Code or Codex?",
+  "zh": "有谁以前在 Claude Code 或 Codex 里用过 hooks 吗？"
+ },
+ {
+  "seg": 343,
+  "start": 1835.357,
+  "end": 1836.498,
+  "speaker": "Unknown",
+  "en": "A few people, okay, nice.",
+  "zh": "有几个人，好的，不错。"
+ },
+ {
+  "seg": 344,
+  "start": 1839.449,
+  "end": 1843.251,
+  "speaker": "Unknown",
+  "en": "This skill that I've built here, Impeccable, ships design hooks.",
+  "zh": "我在这里构建的这个技能，Impeccable，附带了设计 hooks。"
+ },
+ {
+  "seg": 345,
+  "start": 1843.911,
+  "end": 1849.054,
+  "speaker": "Unknown",
+  "en": "So I've basically built a design linter that runs under the hood and ships with the skill.",
+  "zh": "所以我基本上构建了一个在底层运行的设计 linter，并随技能一起发布。"
+ },
+ {
+  "seg": 346,
+  "start": 1849.454,
+  "end": 1857.658,
+  "speaker": "Unknown",
+  "en": "When you install Impeccable, these hooks install into Claude Code, Cursor, Codex, and GitHub Copilot.",
+  "zh": "当你安装 Impeccable 时，这些 hooks 会安装到 Claude Code、Cursor、Codex 和 GitHub Copilot 里。"
+ },
+ {
+  "seg": 347,
+  "start": 1858.918,
+  "end": 1863.921,
+  "speaker": "Unknown",
+  "en": "And they will keep the model exactly where it needs to be.",
+  "zh": "而且它们会让模型恰好保持在它需要在的位置。"
+ },
+ {
+  "seg": 348,
+  "start": 1864.381,
+  "end": 1865.421,
+  "speaker": "Unknown",
+  "en": "So the hooks come to you.",
+  "zh": "所以是 hooks 主动来找你。"
+ },
+ {
+  "seg": 349,
+  "start": 1866.022,
+  "end": 1867.923,
+  "speaker": "Unknown",
+  "en": "It's a guardrail that fires on every edit.",
+  "zh": "它是一个在每次编辑时触发的护栏。"
+ },
+ {
+  "seg": 350,
+  "start": 1870.303,
+  "end": 1875.566,
+  "speaker": "Unknown",
+  "en": "And there are some differences between the different providers here.",
+  "zh": "这里不同的提供商之间存在一些差异。"
+ },
+ {
+  "seg": 351,
+  "start": 1875.626,
+  "end": 1878.828,
+  "speaker": "Unknown",
+  "en": "So the hook syntax for Codex and Claude Code is not the same.",
+  "zh": "所以 Codex 和 Claude Code 的 hook 语法是不一样的。"
+ },
+ {
+  "seg": 352,
+  "start": 1880.629,
+  "end": 1882.07,
+  "speaker": "Unknown",
+  "en": "And also the behavior is not the same.",
+  "zh": "而且行为也不一样。"
+ },
+ {
+  "seg": 353,
+  "start": 1882.15,
+  "end": 1887.433,
+  "speaker": "Unknown",
+  "en": "So for instance, we found out that with weaker models, slightly weaker models like Composer and Cursor,",
+  "zh": "比如说，我们发现对于较弱的模型，稍微弱一点的模型比如 Composer 和 Cursor，"
+ },
+ {
+  "seg": 354,
+  "start": 1888.493,
+  "end": 1896.08,
+  "speaker": "Unknown",
+  "en": "You kind of want to use a pre-tool use hook that prevents writing of code as opposed to a post-tool use hook.",
+  "zh": "你可能想用一个 pre-tool use hook 来阻止代码写入，而不是用 post-tool use hook。"
+ },
+ {
+  "seg": 355,
+  "start": 1896.541,
+  "end": 1909.772,
+  "speaker": "Unknown",
+  "en": "Post-tool use basically happens right after the agent has written a file, for example, and then it tells you, hey, by the way, like, the contrast of these colors is bad or, you know, you have a purple gradient in here.",
+  "zh": "Post-tool use 基本上发生在智能体刚写完一个文件之后，然后它会告诉你，嘿，顺便说一下，这些颜色的对比度不好，或者，你知道的，你这里有个紫色渐变。"
+ },
+ {
+  "seg": 356,
+  "start": 1910.593,
+  "end": 1913.296,
+  "speaker": "Unknown",
+  "en": "And then ideally the model is smart enough to actually fix it.",
+  "zh": "然后理想情况下，模型足够聪明，能够真正把它修好。"
+ },
+ {
+  "seg": 357,
+  "start": 1914.497,
+  "end": 1916.799,
+  "speaker": "Unknown",
+  "en": "Some models don't follow those instructions very well.",
+  "zh": "有些模型不太会遵循那些指令。"
+ },
+ {
+  "seg": 358,
+  "start": 1917.079,
+  "end": 1924.967,
+  "speaker": "Unknown",
+  "en": "And so if you do a pre-tool use hook, you are actively preventing the writing of this file in the first place.",
+  "zh": "所以如果你用 pre-tool use hook，你是在主动阻止这个文件被写入。"
+ },
+ {
+  "seg": 359,
+  "start": 1924.987,
+  "end": 1927.329,
+  "speaker": "Unknown",
+  "en": "So it's a much more heavy handed approach.",
+  "zh": "所以这是一种更加强硬的方式。"
+ },
+ {
+  "seg": 360,
+  "start": 1928.01,
+  "end": 1930.652,
+  "speaker": "Unknown",
+  "en": "But we needed to do that for certain models and certain hardnesses.",
+  "zh": "但对于某些模型和某些难度，我们需要这么做。"
+ },
+ {
+  "seg": 361,
+  "start": 1932.034,
+  "end": 1949.99,
+  "speaker": "Unknown",
+  "en": "But this is nice, and what's even nicer about it is that you can personalize it to your design system and your use case, or whether, let's say you use it for code reviews, you can personalize it with your own ESLint rules, with your own syntax guidelines, et cetera, and then expand it from there.",
+  "zh": "但这很好，更棒的是你可以把它个性化到你的设计系统和你的用例，或者说，假如你把它用于代码审查，你可以用你自己的 ESLint 规则、你自己的语法指南等来个性化它，然后再从这里扩展。"
+ },
+ {
+  "seg": 362,
+  "start": 1951.751,
+  "end": 1952.993,
+  "speaker": "Unknown",
+  "en": "So passive guardrails,",
+  "zh": "所以被动护栏，"
+ },
+ {
+  "seg": 363,
+  "start": 1954.142,
+  "end": 1956.383,
+  "speaker": "Unknown",
+  "en": "Beat a command no one remembers to run.",
+  "zh": "胜过一条没人记得去运行的命令。"
+ },
+ {
+  "seg": 364,
+  "start": 1957.684,
+  "end": 1962.387,
+  "speaker": "Unknown",
+  "en": "So these are passive guardrails that always keep you in the right lane on track.",
+  "zh": "这些是被动护栏，始终让你保持在正确的车道上、在轨道上。"
+ },
+ {
+  "seg": 365,
+  "start": 1963.547,
+  "end": 1965.248,
+  "speaker": "Unknown",
+  "en": "Again, that works for linting, for formatting.",
+  "zh": "再说一次，这适用于 linting、格式化。"
+ },
+ {
+  "seg": 366,
+  "start": 1966.489,
+  "end": 1976.435,
+  "speaker": "Unknown",
+  "en": "Of course, if you're using Claude Code or Codex, it already uses some of the linters for things like syntax formatting, but design linting is a whole different game.",
+  "zh": "当然，如果你在用 Claude Code 或 Codex，它已经针对语法格式化之类的事情使用了一些 linter，但设计 linting 是完全不同的游戏。"
+ },
+ {
+  "seg": 367,
+  "start": 1977.135,
+  "end": 1985.121,
+  "speaker": "Unknown",
+  "en": "But I would really encourage you to try out hooks in combination with a skill and think about, okay, well, my skill does this.",
+  "zh": "但我真的鼓励你把 hooks 和一个 skill 结合起来试试，并思考：好吧，我的 skill 做的是这个。"
+ },
+ {
+  "seg": 368,
+  "start": 1985.782,
+  "end": 1992.947,
+  "speaker": "Unknown",
+  "en": "How can I create a feedback loop, a validation loop that uses hooks to actually keep me on the right lane?",
+  "zh": "我怎样才能创建一个反馈循环、一个验证循环，用 hooks 来真正让我保持在正确的车道上？"
+ },
+ {
+  "seg": 369,
+  "start": 1996.505,
+  "end": 2005.932,
+  "speaker": "Unknown",
+  "en": "Okay, so here's, it's hard to show hooks in action, but you know, if you can see this, this is roughly how it would happen in an agent.",
+  "zh": "好的，这里是……很难展示 hooks 的实际运行，但你知道的，如果你能看到这个，这大致就是它在一个智能体中发生的方式。"
+ },
+ {
+  "seg": 370,
+  "start": 2006.692,
+  "end": 2011.736,
+  "speaker": "Unknown",
+  "en": "So for instance, in this case, I would use, let's say, Gemini does this all the time.",
+  "zh": "比如说，在这个例子中，我会用，比方说，Gemini 一直都在做这种事。"
+ },
+ {
+  "seg": 371,
+  "start": 2011.816,
+  "end": 2016.599,
+  "speaker": "Unknown",
+  "en": "Gemini creates animations on images like crazy.",
+  "zh": "Gemini 疯狂地给图片创建动画。"
+ },
+ {
+  "seg": 372,
+  "start": 2017.66,
+  "end": 2021.563,
+  "speaker": "Unknown",
+  "en": "It will animate any image and it will usually do a hover zoom in effect.",
+  "zh": "它会给任何图片加动画，而且通常会做一个悬停放大效果。"
+ },
+ {
+  "seg": 373,
+  "start": 2022.623,
+  "end": 2023.924,
+  "speaker": "Unknown",
+  "en": "It loves that.",
+  "zh": "它很爱这个。"
+ },
+ {
+  "seg": 374,
+  "start": 2024.084,
+  "end": 2025.626,
+  "speaker": "Unknown",
+  "en": "And that's something that impeccable flags.",
+  "zh": "而这正是 impeccable 会标记的东西。"
+ },
+ {
+  "seg": 375,
+  "start": 2026.006,
+  "end": 2029.929,
+  "speaker": "Unknown",
+  "en": "And in this case, the hook would fire silently usually.",
+  "zh": "在这种情况下，hook 通常会静默触发。"
+ },
+ {
+  "seg": 376,
+  "start": 2029.969,
+  "end": 2033.672,
+  "speaker": "Unknown",
+  "en": "That's why I built this fake demo because you can't usually see it.",
+  "zh": "这就是为什么我做了这个假演示，因为通常你是看不到它的。"
+ },
+ {
+  "seg": 377,
+  "start": 2034.813,
+  "end": 2037.695,
+  "speaker": "Unknown",
+  "en": "And then it will tell the model, hey, by the way, here was a violation.",
+  "zh": "然后它会告诉模型，嘿，顺便说一下，这里有一个违规。"
+ },
+ {
+  "seg": 378,
+  "start": 2038.736,
+  "end": 2041.058,
+  "speaker": "Unknown",
+  "en": "The experience of this is that oftentimes you don't have to do anything.",
+  "zh": "这种体验是，很多时候你什么都不用做。"
+ },
+ {
+  "seg": 379,
+  "start": 2041.178,
+  "end": 2043.28,
+  "speaker": "Unknown",
+  "en": "The model just course corrects and fixes itself.",
+  "zh": "模型自己就纠正方向并修复自己。"
+ },
+ {
+  "seg": 380,
+  "start": 2045.209,
+  "end": 2062.678,
+  "speaker": "Unknown",
+  "en": "Now, one important thing, if you do this and you ship it to users, very important to add a way to create ignore rules or something like that because oftentimes these hooks have false positives as well and you want a way to configure those hooks, otherwise it gets really annoying very quickly.",
+  "zh": "现在，有一点很重要：如果你做了这个并把它交付给用户，非常重要的是要添加一种创建忽略规则之类的东西的方式，因为这些 hooks 很多时候也会有误报，而你会想要一种配置这些 hooks 的方式，否则它会很快变得非常烦人。"
+ },
+ {
+  "seg": 381,
+  "start": 2064.463,
+  "end": 2075.777,
+  "speaker": "Unknown",
+  "en": "Impeccable ships with these design hooks that allow you to create ignore rules at a file basis within a CSS rule, so like many granular levels to exclude certain files, for example.",
+  "zh": "Impeccable 自带这些设计 hooks，允许你在文件级别创建忽略规则、在 CSS 规则内部创建，也就是说有很多细粒度的层级，可以排除某些文件之类的。"
+ },
+ {
+  "seg": 382,
+  "start": 2078.02,
+  "end": 2078.981,
+  "speaker": "Unknown",
+  "en": "Okay, level seven.",
+  "zh": "好的，第七级。"
+ },
+ {
+  "seg": 383,
+  "start": 2081.093,
+  "end": 2083.257,
+  "speaker": "Unknown",
+  "en": "Now you can't really tune pixels to a chat box.",
+  "zh": "现在你没法真正对着一个聊天框调像素。"
+ },
+ {
+  "seg": 384,
+  "start": 2084.899,
+  "end": 2089.547,
+  "speaker": "Unknown",
+  "en": "Now this might not be relevant if you're not building a design skill, but I think the general point is relevant.",
+  "zh": "现在这如果你不是在构建设计 skill，可能不相关，但我认为总体观点是相关的。"
+ },
+ {
+  "seg": 385,
+  "start": 2089.687,
+  "end": 2094.214,
+  "speaker": "Unknown",
+  "en": "So if you think about a skill as harness engineering versus prompting,",
+  "zh": "所以如果你把一个 skill 想作是 harness 工程，而不是提示词工程，"
+ },
+ {
+  "seg": 386,
+  "start": 2095.358,
+  "end": 2098.06,
+  "speaker": "Unknown",
+  "en": "Then you think about the harness as a whole, right?",
+  "zh": "那么你要把 harness 作为一个整体来思考，对吧？"
+ },
+ {
+  "seg": 387,
+  "start": 2098.32,
+  "end": 2103.323,
+  "speaker": "Unknown",
+  "en": "You're living in Claude Code, for example, or you're living in Codex, or you're living in GitHub Copilot.",
+  "zh": "比如你生活在 Claude Code 里，或者你生活在 Codex 里，或者你生活在 GitHub Copilot 里。"
+ },
+ {
+  "seg": 388,
+  "start": 2103.903,
+  "end": 2111.527,
+  "speaker": "Unknown",
+  "en": "Now, what are the capabilities of that harness that you can exploit to make the best user experience for your use case?",
+  "zh": "那么，这个 harness 有哪些能力，你可以利用它们来为你的用例做出最好的用户体验？"
+ },
+ {
+  "seg": 389,
+  "start": 2112.328,
+  "end": 2113.828,
+  "speaker": "Unknown",
+  "en": "That's the question you should ask yourself.",
+  "zh": "这是你应该问自己的问题。"
+ },
+ {
+  "seg": 390,
+  "start": 2115.009,
+  "end": 2115.65,
+  "speaker": "Unknown",
+  "en": "For example,",
+  "zh": "举个例子，"
+ },
+ {
+  "seg": 391,
+  "start": 2117.05,
+  "end": 2124.754,
+  "speaker": "Unknown",
+  "en": "Claude Codex on desktop now has an in-app browser built into the actual app.",
+  "zh": "桌面上的 Claude Codex 现在在实际应用中内置了一个应用内浏览器。"
+ },
+ {
+  "seg": 392,
+  "start": 2125.454,
+  "end": 2127.795,
+  "speaker": "Unknown",
+  "en": "Can you use this in-app browser in some interesting ways?",
+  "zh": "你能不能以某种有趣的方式使用这个应用内浏览器？"
+ },
+ {
+  "seg": 393,
+  "start": 2127.996,
+  "end": 2131.357,
+  "speaker": "Unknown",
+  "en": "Can you use the browser screenshot tool in some interesting ways?",
+  "zh": "你能不能以某种有趣的方式使用浏览器截图工具？"
+ },
+ {
+  "seg": 394,
+  "start": 2132.638,
+  "end": 2133.678,
+  "speaker": "Unknown",
+  "en": "And in my case, I could.",
+  "zh": "而在我的情况下，我可以。"
+ },
+ {
+  "seg": 395,
+  "start": 2133.958,
+  "end": 2138.641,
+  "speaker": "Unknown",
+  "en": "I realized, hey, there's probably a way to connect the in-app browser",
+  "zh": "我意识到，嘿，可能有办法连接应用内浏览器，"
+ },
+ {
+  "seg": 396,
+  "start": 2140.084,
+  "end": 2154.154,
+  "speaker": "Unknown",
+  "en": "And spin up the development server and just load the page there and then kind of connect it to the main thread in some ways so I can allow the user to visually iterate on that page instead of in the chat.",
+  "zh": "然后启动开发服务器，直接在那里加载页面，然后以某种方式把它连接到主线程，这样我就能让用户在那个页面上进行可视化迭代，而不是在聊天里。"
+ },
+ {
+  "seg": 397,
+  "start": 2156.816,
+  "end": 2161.939,
+  "speaker": "Unknown",
+  "en": "And so in Impeccable what this looks like is it's not using MCP.",
+  "zh": "所以在 Impeccable 中，这看起来是什么样呢：它没有使用 MCP。"
+ },
+ {
+  "seg": 398,
+  "start": 2163.376,
+  "end": 2171.423,
+  "speaker": "Unknown",
+  "en": "It's simply spinning up a live poller, a little server that looks for input and inserts a snippet into your development server.",
+  "zh": "它只是启动了一个 live poller，一个小的服务器，用来查找输入并向你的开发服务器插入一个片段。"
+ },
+ {
+  "seg": 399,
+  "start": 2172.785,
+  "end": 2181.674,
+  "speaker": "Unknown",
+  "en": "It then, on the page, when you do something on the page, it sends an event back to that actual poller using server-side events.",
+  "zh": "然后，在页面上，当你在页面上做某个操作时，它使用服务器端事件把一个事件发回给那个实际的 poller。"
+ },
+ {
+  "seg": 400,
+  "start": 2182.855,
+  "end": 2188.119,
+  "speaker": "Unknown",
+  "en": "And then, and this is I think the clever bit maybe, or the bit that makes it all work.",
+  "zh": "然后，这我觉得可能是聪明的地方，或者是让这一切能运作起来的地方。"
+ },
+ {
+  "seg": 401,
+  "start": 2189.761,
+  "end": 2190.882,
+  "speaker": "Unknown",
+  "en": "The polar then stops.",
+  "zh": "然后这个 poller 就停止了。"
+ },
+ {
+  "seg": 402,
+  "start": 2191.522,
+  "end": 2194.004,
+  "speaker": "Unknown",
+  "en": "So the polar ends itself.",
+  "zh": "所以这个 poller 自己结束。"
+ },
+ {
+  "seg": 403,
+  "start": 2194.205,
+  "end": 2195.586,
+  "speaker": "Unknown",
+  "en": "There's a standard out message.",
+  "zh": "有一条标准输出消息。"
+ },
+ {
+  "seg": 404,
+  "start": 2195.826,
+  "end": 2198.428,
+  "speaker": "Unknown",
+  "en": "We talked about standard out before, right, the exit value of this thing.",
+  "zh": "我们之前聊过标准输出，对吧，就是这个东西的退出值。"
+ },
+ {
+  "seg": 405,
+  "start": 2199.049,
+  "end": 2205.014,
+  "speaker": "Unknown",
+  "en": "And the model reads that message and realizes, oh, something happened.",
+  "zh": "然后模型读到那条消息，意识到，哦，发生什么事了。"
+ },
+ {
+  "seg": 406,
+  "start": 2205.514,
+  "end": 2206.255,
+  "speaker": "Unknown",
+  "en": "I better do something.",
+  "zh": "我最好做点什么。"
+ },
+ {
+  "seg": 407,
+  "start": 2207.321,
+  "end": 2211.825,
+  "speaker": "Unknown",
+  "en": "So in this case, in the skill itself, I give it instructions on how to handle this event.",
+  "zh": "所以在这个例子里，我在 skill 本身中给了它处理这个事件的指令。"
+ },
+ {
+  "seg": 408,
+  "start": 2212.365,
+  "end": 2224.835,
+  "speaker": "Unknown",
+  "en": "I say, like, well, if this event comes in, you should probably build some design for this particular section of the page, and then you should send it back to this poller so that it arrives on the user side.",
+  "zh": "我说，比如，如果这个事件进来了，你应该为页面的这个特定部分构建一些设计，然后你应该把它发回给这个 poller，让它到达用户那一侧。"
+ },
+ {
+  "seg": 409,
+  "start": 2225.696,
+  "end": 2233.523,
+  "speaker": "Unknown",
+  "en": "And so this is a direct connection between one harness capability and another harness capability, so the chat thread and the in-app browser.",
+  "zh": "所以这是 harness 的一种能力和另一种 harness 能力之间的直接连接，也就是聊天线程和应用内浏览器。"
+ },
+ {
+  "seg": 410,
+  "start": 2236.196,
+  "end": 2239.778,
+  "speaker": "Unknown",
+  "en": "And yeah, this is kind of how it looks like on a diagram.",
+  "zh": "是的，这就是它在示意图上的样子。"
+ },
+ {
+  "seg": 411,
+  "start": 2240.198,
+  "end": 2243.66,
+  "speaker": "Unknown",
+  "en": "But I think the best way to experience it is to see it.",
+  "zh": "但我觉得体验它最好的方式是亲眼看看。"
+ },
+ {
+  "seg": 412,
+  "start": 2244.36,
+  "end": 2246.481,
+  "speaker": "Unknown",
+  "en": "So let me bring this up.",
+  "zh": "所以让我把它调出来。"
+ },
+ {
+  "seg": 413,
+  "start": 2255.185,
+  "end": 2256.025,
+  "speaker": "Unknown",
+  "en": "Okay, cursor.",
+  "zh": "好，cursor。"
+ },
+ {
+  "seg": 414,
+  "start": 2257.226,
+  "end": 2259.007,
+  "speaker": "Unknown",
+  "en": "I think I'm already in live mode here.",
+  "zh": "我想我已经在 live 模式里了。"
+ },
+ {
+  "seg": 415,
+  "start": 2260.508,
+  "end": 2260.988,
+  "speaker": "Unknown",
+  "en": "Okay, so.",
+  "zh": "好，那么。"
+ },
+ {
+  "seg": 416,
+  "start": 2262.693,
+  "end": 2263.874,
+  "speaker": "Unknown",
+  "en": "I booted up live mode already.",
+  "zh": "我已经启动了 live 模式。"
+ },
+ {
+  "seg": 417,
+  "start": 2263.894,
+  "end": 2265.154,
+  "speaker": "Unknown",
+  "en": "I'm now in picker mode.",
+  "zh": "我现在在 picker 模式。"
+ },
+ {
+  "seg": 418,
+  "start": 2265.174,
+  "end": 2266.795,
+  "speaker": "Unknown",
+  "en": "I get this little bar here at the bottom.",
+  "zh": "我在底部得到这个小条。"
+ },
+ {
+  "seg": 419,
+  "start": 2267.795,
+  "end": 2270.617,
+  "speaker": "Unknown",
+  "en": "And as you can see, I can pick anything on this page.",
+  "zh": "如你所见，我可以选这个页面上的任何东西。"
+ },
+ {
+  "seg": 420,
+  "start": 2272.037,
+  "end": 2273.758,
+  "speaker": "Unknown",
+  "en": "Now I get this little overlay bar.",
+  "zh": "现在我得到这个小覆盖条。"
+ },
+ {
+  "seg": 421,
+  "start": 2274.618,
+  "end": 2278.44,
+  "speaker": "Unknown",
+  "en": "And I can select all sorts of subcommands within the skill.",
+  "zh": "而且我可以在 skill 里选择各种子命令。"
+ },
+ {
+  "seg": 422,
+  "start": 2279.02,
+  "end": 2283.262,
+  "speaker": "Unknown",
+  "en": "So these are basically translating to MD files that live within the skill.",
+  "zh": "这些基本上是翻译成 skill 内的 MD 文件。"
+ },
+ {
+  "seg": 423,
+  "start": 2284.483,
+  "end": 2286.263,
+  "speaker": "Unknown",
+  "en": "I can select the amount of variance I want.",
+  "zh": "我可以选择我想要的变体数量。"
+ },
+ {
+  "seg": 424,
+  "start": 2287.104,
+  "end": 2288.625,
+  "speaker": "Unknown",
+  "en": "And then I can hit go.",
+  "zh": "然后我可以点 go。"
+ },
+ {
+  "seg": 425,
+  "start": 2290.147,
+  "end": 2299.695,
+  "speaker": "Unknown",
+  "en": "And now here in the thread you can see that it picked up the actual signal in the main thread because the polar stopped.",
+  "zh": "现在在线程里你可以看到，它捕捉到了主线程里的实际信号，因为 poller 停止了。"
+ },
+ {
+  "seg": 426,
+  "start": 2301.102,
+  "end": 2307.563,
+  "speaker": "Unknown",
+  "en": "And it now knows hopefully exactly what it needs to do to first wrap this element in some special tag.",
+  "zh": "而且现在它希望确切地知道它需要做什么，首先把这个元素包在某个特殊标签里。"
+ },
+ {
+  "seg": 427,
+  "start": 2308.164,
+  "end": 2315.165,
+  "speaker": "Unknown",
+  "en": "Then it knows how to create variants that are marked up in a special way with CSS.",
+  "zh": "然后它知道如何创建以特殊方式用 CSS 标记的变体。"
+ },
+ {
+  "seg": 428,
+  "start": 2316.085,
+  "end": 2316.785,
+  "speaker": "Unknown",
+  "en": "And now it did that.",
+  "zh": "现在它做到了。"
+ },
+ {
+  "seg": 429,
+  "start": 2317.445,
+  "end": 2321.686,
+  "speaker": "Unknown",
+  "en": "So now, as you can see, the thing updated immediately.",
+  "zh": "所以现在，如你所见，这个东西立刻更新了。"
+ },
+ {
+  "seg": 430,
+  "start": 2322.366,
+  "end": 2324.907,
+  "speaker": "Unknown",
+  "en": "I now get these three variants and I can click through.",
+  "zh": "我现在得到这三个变体，我可以逐个点击查看。"
+ },
+ {
+  "seg": 431,
+  "start": 2326.509,
+  "end": 2334.433,
+  "speaker": "Unknown",
+  "en": "And then if I like one of them, I can click accept and accept it, but don't like one of them, I hit escape and I'm back in this normal mode.",
+  "zh": "然后如果我喜欢其中一个，我可以点 accept 接受它，如果不喜欢某个，我按 escape，就回到这个普通模式。"
+ },
+ {
+  "seg": 432,
+  "start": 2335.753,
+  "end": 2344.918,
+  "speaker": "Unknown",
+  "en": "So this shows us how to exploit a harness capability in an effective way for one problem space, in this case design.",
+  "zh": "所以这向我们展示了如何以有效的方式利用一个 harness 能力来解决一个问题域，在这个例子里是设计。"
+ },
+ {
+  "seg": 433,
+  "start": 2346.265,
+  "end": 2351.53,
+  "speaker": "Unknown",
+  "en": "You can also insert elements with this thing and sort of click into anything here.",
+  "zh": "你也可以用这个东西插入元素，某种程度上点击这里的任何东西。"
+ },
+ {
+  "seg": 434,
+  "start": 2352.05,
+  "end": 2355.153,
+  "speaker": "Unknown",
+  "en": "You can draw on top of this and leave comments.",
+  "zh": "你可以在这个上面画图并留下评论。"
+ },
+ {
+  "seg": 435,
+  "start": 2355.173,
+  "end": 2356.975,
+  "speaker": "Unknown",
+  "en": "You can leave annotations if you want.",
+  "zh": "如果你愿意，你可以留下标注。"
+ },
+ {
+  "seg": 436,
+  "start": 2358.556,
+  "end": 2359.717,
+  "speaker": "Unknown",
+  "en": "You can dictate.",
+  "zh": "你可以语音输入。"
+ },
+ {
+  "seg": 437,
+  "start": 2360.718,
+  "end": 2364.762,
+  "speaker": "Unknown",
+  "en": "You can steer the whole page by simply writing into this and then",
+  "zh": "你只需往这里写内容就可以操纵整个页面，然后"
+ },
+ {
+  "seg": 438,
+  "start": 2365.602,
+  "end": 2370.405,
+  "speaker": "Unknown",
+  "en": "Again, this goes back to the main agent and it becomes a steering signal for the whole page.",
+  "zh": "同样，这会回到主智能体，成为整个页面的一个引导信号。"
+ },
+ {
+  "seg": 439,
+  "start": 2371.686,
+  "end": 2373.747,
+  "speaker": "Unknown",
+  "en": "And you can also visualize lots of things this way.",
+  "zh": "而且你还可以用这种方式可视化很多东西。"
+ },
+ {
+  "seg": 440,
+  "start": 2373.787,
+  "end": 2382.852,
+  "speaker": "Unknown",
+  "en": "I mean, you might have read Tharik's blog post about this, about how HTML is a really cool way to communicate as opposed to Markdown.",
+  "zh": "我是说，你可能读过 Tharik 关于这个的博客文章，讲的是 HTML 作为一种交流方式比 Markdown 酷得多。"
+ },
+ {
+  "seg": 441,
+  "start": 2383.752,
+  "end": 2384.273,
+  "speaker": "Unknown",
+  "en": "I agree.",
+  "zh": "我同意。"
+ },
+ {
+  "seg": 442,
+  "start": 2385.073,
+  "end": 2389.316,
+  "speaker": "Unknown",
+  "en": "And I think also, like, DesignMD is much better visualized as HTML.",
+  "zh": "而且我也觉得，DesignMD 用 HTML 来可视化要好得多。"
+ },
+ {
+  "seg": 443,
+  "start": 2389.936,
+  "end": 2395.119,
+  "speaker": "Unknown",
+  "en": "In this case, you see the DesignMD of this, you know, not great website for demonstration purposes.",
+  "zh": "在这个例子里，你看到的是这个的 DesignMD，你知道的，这个为了演示目的不太好的网站。"
+ },
+ {
+  "seg": 444,
+  "start": 2395.66,
+  "end": 2402.344,
+  "speaker": "Unknown",
+  "en": "But you can use this to your advantage as well if you hijack the in-app browser and use it to your advantage.",
+  "zh": "但你也可以把这个利用起来，如果你劫持应用内浏览器并让它为你所用。"
+ },
+ {
+  "seg": 445,
+  "start": 2403.305,
+  "end": 2404.946,
+  "speaker": "Unknown",
+  "en": "So this is how I make use of it.",
+  "zh": "所以这就是我使用它的方式。"
+ },
+ {
+  "seg": 446,
+  "start": 2407.187,
+  "end": 2407.487,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 447,
+  "start": 2409.028,
+  "end": 2409.609,
+  "speaker": "Unknown",
+  "en": "Number eight.",
+  "zh": "第八点。"
+ },
+ {
+  "seg": 448,
+  "start": 2411.03,
+  "end": 2412.01,
+  "speaker": "Unknown",
+  "en": "It worked on my machine.",
+  "zh": "在我机器上是能跑的。"
+ },
+ {
+  "seg": 449,
+  "start": 2415.022,
+  "end": 2418.805,
+  "speaker": "Unknown",
+  "en": "Well, I mean, everybody who is a developer here knows this problem.",
+  "zh": "嗯，我是说，这里每个做开发的人都知道这个问题。"
+ },
+ {
+  "seg": 450,
+  "start": 2419.466,
+  "end": 2421.708,
+  "speaker": "Unknown",
+  "en": "This hits really hard when you ship a scale.",
+  "zh": "当你在规模化交付时,这一点带来的冲击非常大。"
+ },
+ {
+  "seg": 451,
+  "start": 2422.849,
+  "end": 2427.533,
+  "speaker": "Unknown",
+  "en": "There are so many times I kind of saw this argument on X.",
+  "zh": "有很多次我在 X 上看到过这种争论。"
+ },
+ {
+  "seg": 452,
+  "start": 2428.174,
+  "end": 2429.976,
+  "speaker": "Unknown",
+  "en": "It was like, hey, bro, just symlink.",
+  "zh": "就像,嘿,兄弟,直接用 symlink 就行了。"
+ },
+ {
+  "seg": 453,
+  "start": 2430.576,
+  "end": 2434.239,
+  "speaker": "Unknown",
+  "en": "Just, you know, symlink.claude and all your problems will be gone.",
+  "zh": "只要,你知道,symlink 一下 .claude,你所有的问题都会消失。"
+ },
+ {
+  "seg": 454,
+  "start": 2435.721,
+  "end": 2439.843,
+  "speaker": "Unknown",
+  "en": "Well, that's great if you're building a simple skill and if you're doing it for yourself.",
+  "zh": "好吧,如果你在构建一个简单的技能,而且是为你自己做的,那当然很棒。"
+ },
+ {
+  "seg": 455,
+  "start": 2440.383,
+  "end": 2441.844,
+  "speaker": "Unknown",
+  "en": "By all means, go for it, right?",
+  "zh": "那尽管去做吧,对吧?"
+ },
+ {
+  "seg": 456,
+  "start": 2441.904,
+  "end": 2444.465,
+  "speaker": "Unknown",
+  "en": "Simlink your ClaudeMD to Agents.MD, amazing.",
+  "zh": "把你的 ClaudeMD symlink 到 Agents.MD,太棒了。"
+ },
+ {
+  "seg": 457,
+  "start": 2445.065,
+  "end": 2446.546,
+  "speaker": "Unknown",
+  "en": "Simlink the shit out of everything.",
+  "zh": "把所有东西都拼命 symlink 起来。"
+ },
+ {
+  "seg": 458,
+  "start": 2448.222,
+  "end": 2451.323,
+  "speaker": "Unknown",
+  "en": "But it's not great if you're trying to ship a skill to lots of users.",
+  "zh": "但如果你想向大量用户交付一个技能,这就不好使了。"
+ },
+ {
+  "seg": 459,
+  "start": 2451.784,
+  "end": 2456.085,
+  "speaker": "Unknown",
+  "en": "Because, again, we just talked about a whole lot of differences these harnesses have.",
+  "zh": "因为,再说一遍,我们刚刚谈到了这些 harness 之间有大量差异。"
+ },
+ {
+  "seg": 460,
+  "start": 2456.486,
+  "end": 2457.966,
+  "speaker": "Unknown",
+  "en": "And I'm going to talk about more differences.",
+  "zh": "我还会谈到更多差异。"
+ },
+ {
+  "seg": 461,
+  "start": 2458.046,
+  "end": 2460.747,
+  "speaker": "Unknown",
+  "en": "And I know it's annoying because it would be great to simulate those things.",
+  "zh": "我知道这很烦人,因为如果这些东西能统一就太好了。"
+ },
+ {
+  "seg": 462,
+  "start": 2461.588,
+  "end": 2463.108,
+  "speaker": "Unknown",
+  "en": "But unfortunately, we don't live in that world.",
+  "zh": "但不幸的是,我们并不生活在那样的世界里。"
+ },
+ {
+  "seg": 463,
+  "start": 2463.929,
+  "end": 2467.27,
+  "speaker": "Unknown",
+  "en": "And unfortunately, Anthropic has still not adopted Agents.md.",
+  "zh": "而且不幸的是,Anthropic 至今仍未采纳 Agents.md。"
+ },
+ {
+  "seg": 464,
+  "start": 2470.773,
+  "end": 2471.994,
+  "speaker": "Unknown",
+  "en": "What are the actual differences?",
+  "zh": "我们谈过,嗯,好的一面是它们现在得到了广泛支持,但谁能生成一个是非常、非常不同的。"
+ },
+ {
+  "seg": 465,
+  "start": 2472.174,
+  "end": 2474.155,
+  "speaker": "Unknown",
+  "en": "For example, we talked about sub-agents already.",
+  "zh": "比如,我们已经谈过 sub-agents 了。"
+ },
+ {
+  "seg": 466,
+  "start": 2474.635,
+  "end": 2482.439,
+  "speaker": "Unknown",
+  "en": "We talked about how, well, on the bright side, they're widely supported now, but who can spawn one is very, very different.",
+  "zh": "我们聊过，嗯，好的一面是，它们现在被广泛支持了，但谁能启动一个就非常、非常不同了。"
+ },
+ {
+  "seg": 467,
+  "start": 2482.98,
+  "end": 2486.061,
+  "speaker": "Unknown",
+  "en": "So with Claude, you can programmatically do it very easily.",
+  "zh": "在 Claude 里,你可以很容易地以编程方式做到。"
+ },
+ {
+  "seg": 468,
+  "start": 2486.461,
+  "end": 2487.942,
+  "speaker": "Unknown",
+  "en": "Codex needs the user okay.",
+  "zh": "Codex 需要用户批准。"
+ },
+ {
+  "seg": 469,
+  "start": 2489.723,
+  "end": 2491.926,
+  "speaker": "Unknown",
+  "en": "In Cursor, it's agent chosen most of the time.",
+  "zh": "在 Cursor 里,大多数时候是由智能体自己决定。"
+ },
+ {
+  "seg": 470,
+  "start": 2493.247,
+  "end": 2494.249,
+  "speaker": "Unknown",
+  "en": "So there are clear differences.",
+  "zh": "所以这里有明显的差异。"
+ },
+ {
+  "seg": 471,
+  "start": 2494.289,
+  "end": 2504.18,
+  "speaker": "Unknown",
+  "en": "Also, if you want to pre-define these agents, Codex has a different syntax for that than Claude and Cursor, et cetera.",
+  "zh": "另外,如果你想预先定义这些智能体,Codex 的语法和 Claude、Cursor 等等不一样。"
+ },
+ {
+  "seg": 472,
+  "start": 2505.05,
+  "end": 2506.931,
+  "speaker": "Unknown",
+  "en": "Another one is the Ask User Tool.",
+  "zh": "另一个是 Ask User 工具。"
+ },
+ {
+  "seg": 473,
+  "start": 2507.351,
+  "end": 2513.214,
+  "speaker": "Unknown",
+  "en": "So one of the coolest tools in the Claude Code Harness is the Ask User Question Tool.",
+  "zh": "Claude Code harness 里最酷的工具之一是 Ask User Question 工具。"
+ },
+ {
+  "seg": 474,
+  "start": 2514.114,
+  "end": 2517.556,
+  "speaker": "Unknown",
+  "en": "It's a really nice tool that you can use to ask the user a question, right?",
+  "zh": "它是一个非常好用的工具,你可以用它向用户提问,对吧?"
+ },
+ {
+  "seg": 475,
+  "start": 2517.576,
+  "end": 2519.656,
+  "speaker": "Unknown",
+  "en": "It brings up this menu, so like, hey, what would you like to do?",
+  "zh": "它会弹出这样一个菜单,比如,嘿,你想做什么?"
+ },
+ {
+  "seg": 476,
+  "start": 2519.776,
+  "end": 2520.757,
+  "speaker": "Unknown",
+  "en": "And then you pick some option.",
+  "zh": "然后你选择某个选项。"
+ },
+ {
+  "seg": 477,
+  "start": 2521.902,
+  "end": 2525.305,
+  "speaker": "Unknown",
+  "en": "Well, turns out Codex has a tool like this.",
+  "zh": "结果发现 Codex 也有一个类似的工具。"
+ },
+ {
+  "seg": 478,
+  "start": 2525.345,
+  "end": 2526.165,
+  "speaker": "Unknown",
+  "en": "That's the good news.",
+  "zh": "这是好消息。"
+ },
+ {
+  "seg": 479,
+  "start": 2526.646,
+  "end": 2529.168,
+  "speaker": "Unknown",
+  "en": "The bad news is that tool is only available in plan mode.",
+  "zh": "坏消息是这个工具只在 plan 模式下可用。"
+ },
+ {
+  "seg": 480,
+  "start": 2530.249,
+  "end": 2536.554,
+  "speaker": "Unknown",
+  "en": "So, again, big differences between how these things work and what does that mean?",
+  "zh": "所以,再说一遍,这些东西的工作方式差异很大,那这意味着什么?"
+ },
+ {
+  "seg": 481,
+  "start": 2536.594,
+  "end": 2543.979,
+  "speaker": "Unknown",
+  "en": "That means that if you're not running Codex in plan mode, but your skill wants to ask questions, most of the time it simply doesn't.",
+  "zh": "意味着如果你不是在 plan 模式下运行 Codex,而你的技能想提问,大多数时候它根本不会提问。"
+ },
+ {
+  "seg": 482,
+  "start": 2544.84,
+  "end": 2550.905,
+  "speaker": "Unknown",
+  "en": "It will simply infer from the current context and not ask any questions to the user, which is not great.",
+  "zh": "它只会从当前上下文进行推断,而不向用户提任何问题,这并不好。"
+ },
+ {
+  "seg": 483,
+  "start": 2551.425,
+  "end": 2559.031,
+  "speaker": "Unknown",
+  "en": "So there's a lot of sentences in the impeccable scale that specifically say, if you're Codex, you have to stop and ask questions.",
+  "zh": "所以在 impeccable skill 里有大量句子明确写着,如果你是 Codex,你必须停下来提问。"
+ },
+ {
+  "seg": 484,
+  "start": 2559.451,
+  "end": 2561.493,
+  "speaker": "Unknown",
+  "en": "No, you're not smart enough to infer the context.",
+  "zh": "不,你还没聪明到能推断上下文的地步。"
+ },
+ {
+  "seg": 485,
+  "start": 2562.914,
+  "end": 2564.896,
+  "speaker": "Unknown",
+  "en": "So if you see lines like this, that's why.",
+  "zh": "所以如果你看到这样的行,原因就在这里。"
+ },
+ {
+  "seg": 486,
+  "start": 2565.536,
+  "end": 2567.117,
+  "speaker": "Unknown",
+  "en": "Another one is background jobs.",
+  "zh": "另一个是后台任务。"
+ },
+ {
+  "seg": 487,
+  "start": 2568.499,
+  "end": 2569.519,
+  "speaker": "Unknown",
+  "en": "And it's also something you learn.",
+  "zh": "这也是你会在实践中学到的东西。"
+ },
+ {
+  "seg": 488,
+  "start": 2570.617,
+  "end": 2571.698,
+  "speaker": "Unknown",
+  "en": "through the hard way by doing this.",
+  "zh": "通过踩坑学到的。"
+ },
+ {
+  "seg": 489,
+  "start": 2572.198,
+  "end": 2577.043,
+  "speaker": "Unknown",
+  "en": "For example, this live mode that I just showed you, it's spawning a background task.",
+  "zh": "比如,我刚才给你展示的 live 模式,它会生成一个后台任务。"
+ },
+ {
+  "seg": 490,
+  "start": 2577.463,
+  "end": 2580.726,
+  "speaker": "Unknown",
+  "en": "So it's running a shell in a background task.",
+  "zh": "所以它是在一个后台任务里运行一个 shell。"
+ },
+ {
+  "seg": 491,
+  "start": 2580.847,
+  "end": 2583.069,
+  "speaker": "Unknown",
+  "en": "And that's cool because you can keep using the session.",
+  "zh": "这很酷,因为你可以继续使用这个会话。"
+ },
+ {
+  "seg": 492,
+  "start": 2585.228,
+  "end": 2593.012,
+  "speaker": "Unknown",
+  "en": "And then when the background task finishes, the model is automatically waken up, gets the message back, and then can do something and react to it.",
+  "zh": "然后当后台任务完成时,模型会被自动唤醒,收到返回的消息,然后可以做一些事情并对其作出反应。"
+ },
+ {
+  "seg": 493,
+  "start": 2594.012,
+  "end": 2594.873,
+  "speaker": "Unknown",
+  "en": "Where Codex cannot.",
+  "zh": "而 Codex 做不到。"
+ },
+ {
+  "seg": 494,
+  "start": 2595.813,
+  "end": 2599.034,
+  "speaker": "Unknown",
+  "en": "Codex and other harnesses do not react when a background task finishes.",
+  "zh": "Codex 和其他 harness 在后台任务完成时不会作出反应。"
+ },
+ {
+  "seg": 495,
+  "start": 2599.395,
+  "end": 2604.097,
+  "speaker": "Unknown",
+  "en": "You actually have to manually say, hey, by the way, this background task, can you take a look at what it did?",
+  "zh": "你实际上必须手动说,嘿,顺便说一句,这个后台任务,你能看看它做了什么吗?"
+ },
+ {
+  "seg": 496,
+  "start": 2605.097,
+  "end": 2606.218,
+  "speaker": "Unknown",
+  "en": "And that's not great, right?",
+  "zh": "而这并不好,对吧?"
+ },
+ {
+  "seg": 497,
+  "start": 2606.278,
+  "end": 2607.678,
+  "speaker": "Unknown",
+  "en": "If you were doing an automation like this.",
+  "zh": "如果你在做这样一个自动化流程的话。"
+ },
+ {
+  "seg": 498,
+  "start": 2608.019,
+  "end": 2612.661,
+  "speaker": "Unknown",
+  "en": "So there are differences in how these tasks are spawned and how they work.",
+  "zh": "所以这些任务的生成方式和工作方式存在差异。"
+ },
+ {
+  "seg": 499,
+  "start": 2613.001,
+  "end": 2622.687,
+  "speaker": "Unknown",
+  "en": "So that's why if you're using the live mode in cursor or in Codex, it creates a foreground task and it keeps the actual chat thread blocked.",
+  "zh": "所以这就是为什么如果你在 cursor 或 Codex 里使用 live 模式,它会创建一个前台任务,并把实际的聊天线程阻塞住。"
+ },
+ {
+  "seg": 500,
+  "start": 2623.747,
+  "end": 2625.548,
+  "speaker": "Unknown",
+  "en": "Not ideal, but it makes it actually work.",
+  "zh": "不理想，但这样确实能跑起来。"
+ },
+ {
+  "seg": 501,
+  "start": 2626.049,
+  "end": 2629.29,
+  "speaker": "Unknown",
+  "en": "So there are subtle differences on how these tasks are spawned.",
+  "zh": "所以这些任务是如何被派生的，存在一些细微差异。"
+ },
+ {
+  "seg": 502,
+  "start": 2629.691,
+  "end": 2630.911,
+  "speaker": "Unknown",
+  "en": "Watchers is another example.",
+  "zh": "Watchers 是另一个例子。"
+ },
+ {
+  "seg": 503,
+  "start": 2630.991,
+  "end": 2632.132,
+  "speaker": "Unknown",
+  "en": "Tail and watch exists now.",
+  "zh": "Tail 和 watch 现在已经存在了。"
+ },
+ {
+  "seg": 504,
+  "start": 2632.312,
+  "end": 2632.972,
+  "speaker": "Unknown",
+  "en": "That's really cool.",
+  "zh": "这真的很酷。"
+ },
+ {
+  "seg": 505,
+  "start": 2632.992,
+  "end": 2636.915,
+  "speaker": "Unknown",
+  "en": "I mean, most of the harnesses have a way to watch, for instance, a log file.",
+  "zh": "我的意思是，大多数 harness 都有办法去监视，比如说，一个日志文件。"
+ },
+ {
+  "seg": 506,
+  "start": 2637.795,
+  "end": 2641.697,
+  "speaker": "Unknown",
+  "en": "But those are throttled way harder than simply spawning a background task.",
+  "zh": "但这些方式受到的节流比简单地派生一个后台任务要严格得多。"
+ },
+ {
+  "seg": 507,
+  "start": 2642.378,
+  "end": 2643.758,
+  "speaker": "Unknown",
+  "en": "Edit hooks, we talked about this already.",
+  "zh": "Edit hooks,我们已经谈过这个了。"
+ },
+ {
+  "seg": 508,
+  "start": 2644.379,
+  "end": 2645.019,
+  "speaker": "Unknown",
+  "en": "They are different.",
+  "zh": "它们是不同的。"
+ },
+ {
+  "seg": 509,
+  "start": 2645.479,
+  "end": 2647.52,
+  "speaker": "Unknown",
+  "en": "And so lots and lots of behavioral differences.",
+  "zh": "所以有非常非常多的行为差异。"
+ },
+ {
+  "seg": 510,
+  "start": 2648.341,
+  "end": 2650.102,
+  "speaker": "Unknown",
+  "en": "But there's also model differences.",
+  "zh": "但也存在模型差异。"
+ },
+ {
+  "seg": 511,
+  "start": 2651.383,
+  "end": 2657.346,
+  "speaker": "Unknown",
+  "en": "So, for example, in my case, they all have different tails in the ways they're overfitted.",
+  "zh": "比如，就我而言，它们有不同的尾巴，过拟合的方式也不同。"
+ },
+ {
+  "seg": 512,
+  "start": 2658.527,
+  "end": 2663.17,
+  "speaker": "Unknown",
+  "en": "For example, Gemini, again, I mentioned this, loves to animate pictures.",
+  "zh": "例如,Gemini,我再次提到这个，喜欢给图片加动画。"
+ },
+ {
+  "seg": 513,
+  "start": 2663.33,
+  "end": 2663.87,
+  "speaker": "Unknown",
+  "en": "It just loves it.",
+  "zh": "它就是喜欢这样。"
+ },
+ {
+  "seg": 514,
+  "start": 2665.051,
+  "end": 2669.213,
+  "speaker": "Unknown",
+  "en": "You have to tell it not to animate pictures if you don't want a hover effect on every picture.",
+  "zh": "如果你不想让每张图片都有悬停效果，你就得告诉它不要给图片加动画。"
+ },
+ {
+  "seg": 515,
+  "start": 2669.593,
+  "end": 2670.394,
+  "speaker": "Unknown",
+  "en": "It doesn't matter where it is.",
+  "zh": "不管图片在哪里。"
+ },
+ {
+  "seg": 516,
+  "start": 2670.834,
+  "end": 2671.214,
+  "speaker": "Unknown",
+  "en": "It loves it.",
+  "zh": "它就是喜欢。"
+ },
+ {
+  "seg": 517,
+  "start": 2672.435,
+  "end": 2674.896,
+  "speaker": "Unknown",
+  "en": "Codex loves bad letter spacing.",
+  "zh": "Codex 喜欢糟糕的字距。"
+ },
+ {
+  "seg": 518,
+  "start": 2675.117,
+  "end": 2676.717,
+  "speaker": "Unknown",
+  "en": "I don't know why, but it does.",
+  "zh": "我不知道为什么，但它就是这样。"
+ },
+ {
+  "seg": 519,
+  "start": 2677.638,
+  "end": 2678.639,
+  "speaker": "Unknown",
+  "en": "Codex also loves",
+  "zh": "Codex 还喜欢"
+ },
+ {
+  "seg": 520,
+  "start": 2679.519,
+  "end": 2680.799,
+  "speaker": "Unknown",
+  "en": "Extremely rounded borders.",
+  "zh": "极其圆润的边框。"
+ },
+ {
+  "seg": 521,
+  "start": 2681.96,
+  "end": 2683.721,
+  "speaker": "Unknown",
+  "en": "It will round anything you thought it.",
+  "zh": "它会把任何你想到的东西都弄圆。"
+ },
+ {
+  "seg": 522,
+  "start": 2684.441,
+  "end": 2684.861,
+  "speaker": "Unknown",
+  "en": "It loves it.",
+  "zh": "它就是喜欢。"
+ },
+ {
+  "seg": 523,
+  "start": 2685.221,
+  "end": 2687.822,
+  "speaker": "Unknown",
+  "en": "It doesn't matter if it's a hospital website or a kid's website.",
+  "zh": "不管是医院网站还是儿童网站。"
+ },
+ {
+  "seg": 524,
+  "start": 2688.682,
+  "end": 2690.083,
+  "speaker": "Unknown",
+  "en": "It also loves hairline borders.",
+  "zh": "它还喜欢发丝级细边框。"
+ },
+ {
+  "seg": 525,
+  "start": 2690.583,
+  "end": 2694.284,
+  "speaker": "Unknown",
+  "en": "And so there are specific telts that are unique to every model.",
+  "zh": "所以每个模型都有其独特的特有癖好。"
+ },
+ {
+  "seg": 526,
+  "start": 2694.624,
+  "end": 2695.765,
+  "speaker": "Unknown",
+  "en": "And that's not just for design.",
+  "zh": "而且这不仅仅体现在设计上。"
+ },
+ {
+  "seg": 527,
+  "start": 2696.285,
+  "end": 2697.585,
+  "speaker": "Unknown",
+  "en": "It's for architecture.",
+  "zh": "还体现在架构上。"
+ },
+ {
+  "seg": 528,
+  "start": 2697.765,
+  "end": 2698.986,
+  "speaker": "Unknown",
+  "en": "It's for code architecture.",
+  "zh": "体现在代码架构上。"
+ },
+ {
+  "seg": 529,
+  "start": 2699.286,
+  "end": 2701.907,
+  "speaker": "Unknown",
+  "en": "It's for preferred NPM packages.",
+  "zh": "体现在偏好的 NPM 包上。"
+ },
+ {
+  "seg": 530,
+  "start": 2702.487,
+  "end": 2705.289,
+  "speaker": "Unknown",
+  "en": "Now, every model is overfitted in different ways.",
+  "zh": "如今，每个模型都以不同的方式过拟合。"
+ },
+ {
+  "seg": 531,
+  "start": 2706.31,
+  "end": 2708.912,
+  "speaker": "Unknown",
+  "en": "Finding out how they're overfitted usually happens by accident.",
+  "zh": "弄清楚它们是如何过拟合的，通常是意外发现的。"
+ },
+ {
+  "seg": 532,
+  "start": 2709.453,
+  "end": 2713.316,
+  "speaker": "Unknown",
+  "en": "In my case, I have a pretty extensive evals harness that I run behind the scenes.",
+  "zh": "就我而言，我有一套相当庞大的 evals harness,在幕后运行。"
+ },
+ {
+  "seg": 533,
+  "start": 2713.476,
+  "end": 2719.401,
+  "speaker": "Unknown",
+  "en": "In fact, every line of Impeccable is ablation tested, so I test every single line and see what it does across all models.",
+  "zh": "事实上，Impeccable 的每一行都做了消融测试，所以我测试每一行，看它在所有模型上会产生什么效果。"
+ },
+ {
+  "seg": 534,
+  "start": 2720.081,
+  "end": 2730.23,
+  "speaker": "Unknown",
+  "en": "I don't expect you to do that, but it is very good to know that the models are different and are following instructions differently and the behavior, the harness behavior is different as well.",
+  "zh": "我不指望你也这么做，但知道这些模型是不同的、它们遵循指令的方式不同、以及 harness 行为也不同，是非常有好处的。"
+ },
+ {
+  "seg": 535,
+  "start": 2732.816,
+  "end": 2742.642,
+  "speaker": "Unknown",
+  "en": "And so, what Impeccable does, it creates harness-specific and model-specific builds for every single model.",
+  "zh": "所以，Impeccable 做的事情是，为每一个模型创建特定于 harness 和特定于模型的构建版本。"
+ },
+ {
+  "seg": 536,
+  "start": 2742.903,
+  "end": 2749.247,
+  "speaker": "Unknown",
+  "en": "You might not have to go all this way for your own purposes, but I just wanted to show you how far you can go with this.",
+  "zh": "对于你自己的用途，你可能不需要走这么远，但我只是想向你展示这件事可以做到什么程度。"
+ },
+ {
+  "seg": 537,
+  "start": 2750.068,
+  "end": 2757.473,
+  "speaker": "Unknown",
+  "en": "For example, it actually has a substitute variable that picks the right user question tool depending on the harness.",
+  "zh": "例如，它实际上有一个替代变量，会根据 harness 选取正确的用户提问工具。"
+ },
+ {
+  "seg": 538,
+  "start": 2758.233,
+  "end": 2768.78,
+  "speaker": "Unknown",
+  "en": "Or it has these XML blocks for Gemini, for Codex, et cetera, that will actually insert specific overfitting avoidance rules for the given models.",
+  "zh": "或者它有这些针对 Gemini、Codex 等的 XML 块，会为给定模型插入特定的避免过拟合规则。"
+ },
+ {
+  "seg": 539,
+  "start": 2769.2,
+  "end": 2777.025,
+  "speaker": "Unknown",
+  "en": "Because it turns out if you tell Claude not to letter space too much, it will letter space in the exact opposite direction.",
+  "zh": "因为事实证明，如果你告诉 Claude 不要过度使用字距，它就会朝完全相反的方向去调整字距。"
+ },
+ {
+  "seg": 540,
+  "start": 2777.085,
+  "end": 2779.907,
+  "speaker": "Unknown",
+  "en": "So you can't just include it all in the same scope.",
+  "zh": "所以你不能把所有东西都放在同一个作用域里。"
+ },
+ {
+  "seg": 541,
+  "start": 2782.034,
+  "end": 2791.722,
+  "speaker": "Unknown",
+  "en": "And that's why, you know, you can, you know, if you instrument this way enough, you can actually get to this write once, ship to all of them skill that actually works everywhere.",
+  "zh": "这就是为什么，你知道的，如果你把这种方式调校得足够充分，你实际上可以做到“写一次、发布到所有模型”的技能，而且真的在所有地方都能用。"
+ },
+ {
+  "seg": 542,
+  "start": 2792.022,
+  "end": 2796.265,
+  "speaker": "Unknown",
+  "en": "It's a lot of work, but it does pay off and allows you to create beautiful pictures like this.",
+  "zh": "这需要大量工作，但确实有回报，能让你创造出像这样的漂亮图片。"
+ },
+ {
+  "seg": 543,
+  "start": 2799.471,
+  "end": 2812.777,
+  "speaker": "Unknown",
+  "en": "Now the only other problem is that typical install methods like for MPX skills for instance, if you've been using MPX skills, do not honor different directories for different harnesses.",
+  "zh": "现在唯一剩下的另一个问题是，典型的安装方式，比如 MPX skills 的安装方式，如果你一直在用 MPX skills 的话，并不支持为不同 harness 使用不同目录。"
+ },
+ {
+  "seg": 544,
+  "start": 2813.277,
+  "end": 2818.299,
+  "speaker": "Unknown",
+  "en": "So they actually just take the first directory and then copy it or simlink it into all sorts of folders.",
+  "zh": "所以它们实际上只是取第一个目录，然后把它复制或者 simlink 到各种文件夹里。"
+ },
+ {
+  "seg": 545,
+  "start": 2819.1,
+  "end": 2824.302,
+  "speaker": "Unknown",
+  "en": "That's why if you go to the impeccable website, I've built my own CLI to solve this problem.",
+  "zh": "这就是为什么如果你去 Impeccable 的网站，我自己构建了一个 CLI 来解决这个问题。"
+ },
+ {
+  "seg": 546,
+  "start": 2824.982,
+  "end": 2826.343,
+  "speaker": "Unknown",
+  "en": "That's why it doesn't use MPEG skills.",
+  "zh": "这就是为什么它不使用 MPEG skills。"
+ },
+ {
+  "seg": 547,
+  "start": 2826.463,
+  "end": 2832.629,
+  "speaker": "Unknown",
+  "en": "So, I think the community hasn't quite yet gotten to the point where this is an accepted idea.",
+  "zh": "所以，我觉得社区还没有完全走到把这种做法当成共识的阶段。"
+ },
+ {
+  "seg": 548,
+  "start": 2832.729,
+  "end": 2833.669,
+  "speaker": "Unknown",
+  "en": "And it's annoying, I get it.",
+  "zh": "这很烦人，我理解。"
+ },
+ {
+  "seg": 549,
+  "start": 2833.85,
+  "end": 2837.773,
+  "speaker": "Unknown",
+  "en": "It's annoying to compile for different harnesses, but I found it worthwhile.",
+  "zh": "为不同的 harness 分别编译确实很烦，但我发现这是值得的。"
+ },
+ {
+  "seg": 550,
+  "start": 2838.834,
+  "end": 2842.897,
+  "speaker": "Unknown",
+  "en": "Finally, again, built for the lowest common denominator.",
+  "zh": "最后,再说一次,它是为最低公分母而构建的。"
+ },
+ {
+  "seg": 551,
+  "start": 2844.098,
+  "end": 2849.583,
+  "speaker": "Unknown",
+  "en": "Our weaker model has opinions just fine, but what it loses is the discipline to follow yours.",
+  "zh": "我们较弱的模型有自己的想法没问题,但它失去的是遵循你的想法的纪律。"
+ },
+ {
+  "seg": 552,
+  "start": 2850.063,
+  "end": 2850.243,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "所以,"
+ },
+ {
+  "seg": 553,
+  "start": 2852.621,
+  "end": 2857.826,
+  "speaker": "Unknown",
+  "en": "Codex, for example, and GPT specifically loves the word gate.",
+  "zh": "比如 Codex,具体来说是 GPT,特别喜欢「gate(关卡)」这个词。"
+ },
+ {
+  "seg": 554,
+  "start": 2858.667,
+  "end": 2862.47,
+  "speaker": "Unknown",
+  "en": "If you've built a skill in Codex before, it loves gates.",
+  "zh": "如果你以前在 Codex 里构建过技能,它超爱关卡。"
+ },
+ {
+  "seg": 555,
+  "start": 2863.271,
+  "end": 2865.353,
+  "speaker": "Unknown",
+  "en": "Whenever you say, hey, why didn't you follow these instructions?",
+  "zh": "每当你说,嘿,你为什么不遵循这些指令?"
+ },
+ {
+  "seg": 556,
+  "start": 2865.373,
+  "end": 2866.654,
+  "speaker": "Unknown",
+  "en": "You're like, well, I think we need a gate.",
+  "zh": "它会说,嗯,我觉得我们需要一个关卡。"
+ },
+ {
+  "seg": 557,
+  "start": 2868.296,
+  "end": 2870.578,
+  "speaker": "Unknown",
+  "en": "So I gave it what it loves the most, gates.",
+  "zh": "所以我给了它它最爱东西,关卡。"
+ },
+ {
+  "seg": 558,
+  "start": 2872.419,
+  "end": 2873.721,
+  "speaker": "Unknown",
+  "en": "But I only do that for Codex.",
+  "zh": "但我只对 Codex 这么做。"
+ },
+ {
+  "seg": 559,
+  "start": 2874.401,
+  "end": 2877.964,
+  "speaker": "Unknown",
+  "en": "So there's a CodexMD that gets loaded on the fly for Codex.",
+  "zh": "所以有一个 CodexMD 会在 Codex 运行时动态加载。"
+ },
+ {
+  "seg": 560,
+  "start": 2879.768,
+  "end": 2880.449,
+  "speaker": "Unknown",
+  "en": "And GPT.",
+  "zh": "还有 GPT。"
+ },
+ {
+  "seg": 561,
+  "start": 2881.409,
+  "end": 2885.753,
+  "speaker": "Unknown",
+  "en": "And then it actually follows like, you know, okay, here are your eight gates.",
+  "zh": "然后它就真的会遵循,你知道的,好,这里是你的八个关卡。"
+ },
+ {
+  "seg": 562,
+  "start": 2885.933,
+  "end": 2892.298,
+  "speaker": "Unknown",
+  "en": "You have to pass every single gate and you are not allowed to compress those gates.",
+  "zh": "你必须通过每一个关卡,并且不允许压缩这些关卡。"
+ },
+ {
+  "seg": 563,
+  "start": 2892.679,
+  "end": 2895.621,
+  "speaker": "Unknown",
+  "en": "That's really important because it loves compressing these instructions as well.",
+  "zh": "这非常重要,因为它也喜欢压缩这些指令。"
+ },
+ {
+  "seg": 564,
+  "start": 2895.641,
+  "end": 2898.824,
+  "speaker": "Unknown",
+  "en": "Just skim over it and say like, well, I guess I do one and two and five and good.",
+  "zh": "随便扫一眼,然后说,嗯,我想我做一下一、二和五就好了。"
+ },
+ {
+  "seg": 565,
+  "start": 2900.637,
+  "end": 2908.786,
+  "speaker": "Unknown",
+  "en": "And so the way you solve this is by actually having it log every single result of every gate and say like, well, I just passed gate one, great, success.",
+  "zh": "所以你解决这个问题的方法是让它把每个关卡的结果都记录下来,比如说,我刚通过了关卡一,很好,成功。"
+ },
+ {
+  "seg": 566,
+  "start": 2909.967,
+  "end": 2915.653,
+  "speaker": "Unknown",
+  "en": "And the most important lesson from this is if the gate can be skipped, it will be.",
+  "zh": "而这里最重要的教训是:如果一个关卡可以被跳过,它就会被跳过。"
+ },
+ {
+  "seg": 567,
+  "start": 2916.153,
+  "end": 2917.294,
+  "speaker": "Unknown",
+  "en": "I mentioned this before, right?",
+  "zh": "我之前提到过这个,对吧?"
+ },
+ {
+  "seg": 568,
+  "start": 2917.655,
+  "end": 2922.22,
+  "speaker": "Unknown",
+  "en": "If the model can wiggle itself out of a difficult situation, it will absolutely do that.",
+  "zh": "如果模型能让自己从一个困难处境里脱身,它绝对会那么做。"
+ },
+ {
+  "seg": 569,
+  "start": 2923.449,
+  "end": 2930.035,
+  "speaker": "Unknown",
+  "en": "It will not do all the things it needs to do to complete the end result.",
+  "zh": "它不会去做完成最终结果所需要做的所有事情。"
+ },
+ {
+  "seg": 570,
+  "start": 2930.175,
+  "end": 2931.076,
+  "speaker": "Unknown",
+  "en": "So, be careful.",
+  "zh": "所以,要小心。"
+ },
+ {
+  "seg": 571,
+  "start": 2931.396,
+  "end": 2933.378,
+  "speaker": "Unknown",
+  "en": "Make it unskippable.",
+  "zh": "让它无法被跳过。"
+ },
+ {
+  "seg": 572,
+  "start": 2933.598,
+  "end": 2936.161,
+  "speaker": "Unknown",
+  "en": "So, we just built a harness extension.",
+  "zh": "所以,我们刚刚构建了一个 harness 扩展。"
+ },
+ {
+  "seg": 573,
+  "start": 2936.261,
+  "end": 2940.024,
+  "speaker": "Unknown",
+  "en": "We went from prompting all the way to building a monster.",
+  "zh": "我们从提示词一路走到了构建一个怪物。"
+ },
+ {
+  "seg": 574,
+  "start": 2942.312,
+  "end": 2945.714,
+  "speaker": "Unknown",
+  "en": "But I think it turned out to be pretty powerful in my case.",
+  "zh": "但我认为在我的场景里它最终相当强大。"
+ },
+ {
+  "seg": 575,
+  "start": 2946.375,
+  "end": 2948.696,
+  "speaker": "Unknown",
+  "en": "And I wanted to share what I've learned on the way.",
+  "zh": "我想分享我一路上学到的东西。"
+ },
+ {
+  "seg": 576,
+  "start": 2949.457,
+  "end": 2951.819,
+  "speaker": "Unknown",
+  "en": "I don't expect you to use all of those techniques.",
+  "zh": "我不指望你们用上所有这些技巧。"
+ },
+ {
+  "seg": 577,
+  "start": 2952.299,
+  "end": 2955.841,
+  "speaker": "Unknown",
+  "en": "I think some of them are pretty exotic and maybe not applicable to every use case.",
+  "zh": "我觉得其中一些相当冷门,可能不适用于每个使用场景。"
+ },
+ {
+  "seg": 578,
+  "start": 2956.962,
+  "end": 2961.225,
+  "speaker": "Unknown",
+  "en": "But I hope that you find value in some of the advice that I've given today.",
+  "zh": "但我希望你们能在我今天给出的一些建议中找到价值。"
+ },
+ {
+  "seg": 579,
+  "start": 2962.106,
+  "end": 2965.408,
+  "speaker": "Unknown",
+  "en": "So we've done a whole bunch of things today, nine things a prompt can't do.",
+  "zh": "所以我们今天做了很多事,九件提示词做不到的事。"
+ },
+ {
+  "seg": 580,
+  "start": 2965.928,
+  "end": 2967.429,
+  "speaker": "Unknown",
+  "en": "We made it much more deterministic.",
+  "zh": "我们让它变得更加确定性。"
+ },
+ {
+  "seg": 581,
+  "start": 2968.83,
+  "end": 2971.975,
+  "speaker": "Unknown",
+  "en": "and made Impecable better for that reason.",
+  "zh": "并因此让 Impecable 变得更好。"
+ },
+ {
+  "seg": 582,
+  "start": 2974.107,
+  "end": 2980.352,
+  "speaker": "Unknown",
+  "en": "If you'd like to try it out yourself, again, you can clone the repository for this talk.",
+  "zh": "如果你想自己试一试,再说一次,你可以克隆这场演讲的仓库。"
+ },
+ {
+  "seg": 583,
+  "start": 2980.432,
+  "end": 2982.794,
+  "speaker": "Unknown",
+  "en": "You can clone impeccable minus talks.",
+  "zh": "你可以克隆 impeccable minus talks。"
+ },
+ {
+  "seg": 584,
+  "start": 2983.735,
+  "end": 2989.519,
+  "speaker": "Unknown",
+  "en": "But, of course, it also is useful to just take a look at the actual skill and see how it's built.",
+  "zh": "当然,直接看看那个实际的技能、看它是怎么构建的,也很有用。"
+ },
+ {
+  "seg": 585,
+  "start": 2990.46,
+  "end": 2993.823,
+  "speaker": "Unknown",
+  "en": "The project is completely open source, licensed under Apache 2.",
+  "zh": "这个项目是完全开源的,采用 Apache 2 许可证。"
+ },
+ {
+  "seg": 586,
+  "start": 2994.724,
+  "end": 3001.449,
+  "speaker": "Unknown",
+  "en": "You can install impeccable MPX, impeccable skills install and check out the source code on GitHub.",
+  "zh": "你可以安装 impeccable MPX、impeccable skills install,并在 GitHub 上查看源代码。"
+ },
+ {
+  "seg": 587,
+  "start": 3002.791,
+  "end": 3006.033,
+  "speaker": "Unknown",
+  "en": "With that, I'm at the end of it.",
+  "zh": "就这样,我讲完了。"
+ },
+ {
+  "seg": 588,
+  "start": 3006.353,
+  "end": 3006.653,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 589,
+  "start": 3012.898,
+  "end": 3016.801,
+  "speaker": "Unknown",
+  "en": "And now I think we have about 10 minutes for any questions that you have.",
+  "zh": "现在我想我们还有大约 10 分钟时间,可以回答你们的任何问题。"
+ },
+ {
+  "seg": 590,
+  "start": 3019.163,
+  "end": 3020.344,
+  "speaker": "Unknown",
+  "en": "Does anybody have questions?",
+  "zh": "有人有问题吗?"
+ },
+ {
+  "seg": 591,
+  "start": 3021.745,
+  "end": 3021.945,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "有?"
+ },
+ {
+  "seg": 592,
+  "start": 3026.068,
+  "end": 3026.668,
+  "speaker": "Unknown",
+  "en": "Oh, sorry, what was that?",
+  "zh": "哦,抱歉,你说什么?"
+ },
+ {
+  "seg": 593,
+  "start": 3027.969,
+  "end": 3028.329,
+  "speaker": "Unknown",
+  "en": "A link?",
+  "zh": "一个链接?"
+ },
+ {
+  "seg": 594,
+  "start": 3029.39,
+  "end": 3030.171,
+  "speaker": "Unknown",
+  "en": "To the repository?",
+  "zh": "仓库的链接?"
+ },
+ {
+  "seg": 595,
+  "start": 3030.271,
+  "end": 3030.511,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 596,
+  "start": 3032.282,
+  "end": 3034.663,
+  "speaker": "Unknown",
+  "en": "So this is hard to see, but let me put it up here.",
+  "zh": "这个可能不太看得清,但让我把它放到这里来。"
+ },
+ {
+  "seg": 597,
+  "start": 3034.683,
+  "end": 3036.344,
+  "speaker": "Unknown",
+  "en": "This is the repository for the talks.",
+  "zh": "这是这些演讲的仓库。"
+ },
+ {
+  "seg": 598,
+  "start": 3036.364,
+  "end": 3036.524,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 599,
+  "start": 3036.544,
+  "end": 3038.045,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 600,
+  "start": 3038.065,
+  "end": 3047.73,
+  "speaker": "Unknown",
+  "en": "My question was, you mentioned that having the agent get comps of scripts steers it up, which I noticed that's awesome.",
+  "zh": "我的问题是，你提到让智能体获取脚本的 comps 会把它搅乱，我注意到这一点，这很棒。"
+ },
+ {
+  "seg": 601,
+  "start": 3063.184,
+  "end": 3075.749,
+  "speaker": "Unknown",
+  "en": "Yeah, the question is, I mentioned that it breaks prompt caching, the actual sort of trick, the technique to actually get something back from a script within a skill.",
+  "zh": "是的，问题是，我提到它会破坏提示词缓存，那个实际的技巧，真正从 skill 内的脚本拿回结果的技术。"
+ },
+ {
+  "seg": 602,
+  "start": 3076.409,
+  "end": 3079.731,
+  "speaker": "Unknown",
+  "en": "And the reason is because the result is dynamic, right?",
+  "zh": "原因是因为结果是动态的，对吧？"
+ },
+ {
+  "seg": 603,
+  "start": 3079.751,
+  "end": 3081.291,
+  "speaker": "Unknown",
+  "en": "It could be anything.",
+  "zh": "它可能是任何东西。"
+ },
+ {
+  "seg": 604,
+  "start": 3081.331,
+  "end": 3084.993,
+  "speaker": "Unknown",
+  "en": "So unless the result is always the same, it's a dynamic shell execution.",
+  "zh": "所以除非结果总是一样的，否则它就是一次动态的 shell 执行。"
+ },
+ {
+  "seg": 605,
+  "start": 3086.558,
+  "end": 3089.199,
+  "speaker": "Unknown",
+  "en": "So it gets inserted into the thread.",
+  "zh": "所以它会被插入到线程里。"
+ },
+ {
+  "seg": 606,
+  "start": 3089.239,
+  "end": 3092.7,
+  "speaker": "Unknown",
+  "en": "Now to be fair, the skill will still be cached.",
+  "zh": "不过公平地说，skill 本身仍然会被缓存。"
+ },
+ {
+  "seg": 607,
+  "start": 3093.18,
+  "end": 3105.844,
+  "speaker": "Unknown",
+  "en": "So the skill will still be cached, but I guess I'm differentiating between the skill with inline static content versus the skill with a dynamic instruction to call out.",
+  "zh": "所以 skill 仍然会被缓存，但我想我是在区分内联静态内容的 skill 与带有动态调用指令的 skill。"
+ },
+ {
+  "seg": 608,
+  "start": 3106.304,
+  "end": 3107.705,
+  "speaker": "Unknown",
+  "en": "So this part will not get cached.",
+  "zh": "所以这一部分不会被缓存。"
+ },
+ {
+  "seg": 609,
+  "start": 3109.085,
+  "end": 3110.586,
+  "speaker": "Unknown",
+  "en": "Yeah, that was my main point.",
+  "zh": "是的，这就是我的主要观点。"
+ },
+ {
+  "seg": 610,
+  "start": 3111.346,
+  "end": 3111.506,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 611,
+  "start": 3112.586,
+  "end": 3112.786,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 612,
+  "start": 3119.264,
+  "end": 3122.627,
+  "speaker": "Unknown",
+  "en": "Yeah, what is the process on how I evaluate and iterate on this skill?",
+  "zh": "是的，我评估和迭代这个 skill 的流程是怎样的？"
+ },
+ {
+  "seg": 613,
+  "start": 3124.569,
+  "end": 3129.595,
+  "speaker": "Unknown",
+  "en": "So the process is pretty involved.",
+  "zh": "这个流程相当复杂。"
+ },
+ {
+  "seg": 614,
+  "start": 3130.556,
+  "end": 3130.996,
+  "speaker": "Unknown",
+  "en": "Let me see.",
+  "zh": "让我看看。"
+ },
+ {
+  "seg": 615,
+  "start": 3131.016,
+  "end": 3134.841,
+  "speaker": "Unknown",
+  "en": "Let me see if I can bring this up on screen.",
+  "zh": "让我看看能不能把它调到屏幕上。"
+ },
+ {
+  "seg": 616,
+  "start": 3142.696,
+  "end": 3143.957,
+  "speaker": "Unknown",
+  "en": "OK, here we go.",
+  "zh": "好，来了。"
+ },
+ {
+  "seg": 617,
+  "start": 3144.417,
+  "end": 3145.779,
+  "speaker": "Unknown",
+  "en": "So here's a glimpse.",
+  "zh": "这里先看一眼。"
+ },
+ {
+  "seg": 618,
+  "start": 3146.599,
+  "end": 3148.801,
+  "speaker": "Unknown",
+  "en": "OK, I just shut down the server.",
+  "zh": "好，我刚把服务器关掉了。"
+ },
+ {
+  "seg": 619,
+  "start": 3148.942,
+  "end": 3149.923,
+  "speaker": "Unknown",
+  "en": "That's fine.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 620,
+  "start": 3151.784,
+  "end": 3152.765,
+  "speaker": "Unknown",
+  "en": "OK, I'll just voice over.",
+  "zh": "好，我就口头讲解吧。"
+ },
+ {
+  "seg": 621,
+  "start": 3152.965,
+  "end": 3157.39,
+  "speaker": "Unknown",
+  "en": "So yeah, I mentioned I built an evals harness.",
+  "zh": "是的，我提到过我搭了一个 evals 测试框架。"
+ },
+ {
+  "seg": 622,
+  "start": 3158.731,
+  "end": 3164.216,
+  "speaker": "Unknown",
+  "en": "And so I've created myself a harness that closely recreates",
+  "zh": "我给自己做了一个测试框架，它 closely 复现"
+ },
+ {
+  "seg": 623,
+  "start": 3165.129,
+  "end": 3169.451,
+  "speaker": "Unknown",
+  "en": "the conditions and the tools of every harness that I care about.",
+  "zh": "我关心的每一个 harness 的条件和工具。"
+ },
+ {
+  "seg": 624,
+  "start": 3169.511,
+  "end": 3172.372,
+  "speaker": "Unknown",
+  "en": "So for instance, it uses the Claude Code SDK.",
+  "zh": "比如说，它用的是 Claude Code SDK。"
+ },
+ {
+  "seg": 625,
+  "start": 3176.134,
+  "end": 3179.655,
+  "speaker": "Unknown",
+  "en": "Yes, sorry guys, can you lower your volume a little bit?",
+  "zh": "对了，抱歉各位，能不能稍微降低一下音量？"
+ },
+ {
+  "seg": 626,
+  "start": 3180.196,
+  "end": 3182.837,
+  "speaker": "Unknown",
+  "en": "Because people are still trying to hear the questions.",
+  "zh": "因为还有人想要听清问题。"
+ },
+ {
+  "seg": 627,
+  "start": 3185.284,
+  "end": 3185.604,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 628,
+  "start": 3186.825,
+  "end": 3188.625,
+  "speaker": "Unknown",
+  "en": "So, how do I test this?",
+  "zh": "那么，我怎么测试它？"
+ },
+ {
+  "seg": 629,
+  "start": 3188.645,
+  "end": 3189.206,
+  "speaker": "Unknown",
+  "en": "How do I build it?",
+  "zh": "我怎么构建它？"
+ },
+ {
+  "seg": 630,
+  "start": 3189.246,
+  "end": 3190.186,
+  "speaker": "Unknown",
+  "en": "So, it's a combination.",
+  "zh": "这是几种方式的结合。"
+ },
+ {
+  "seg": 631,
+  "start": 3190.246,
+  "end": 3193.747,
+  "speaker": "Unknown",
+  "en": "So, first of all, impeccable has a ton of end-to-end tests in the repository.",
+  "zh": "首先，impeccable 在仓库里有大量的端到端测试。"
+ },
+ {
+  "seg": 632,
+  "start": 3195.348,
+  "end": 3199.69,
+  "speaker": "Unknown",
+  "en": "That's both LLM-driven tests as well as end-to-end playwright tests.",
+  "zh": "既有 LLM 驱动的测试，也有端到端的 playwright 测试。"
+ },
+ {
+  "seg": 633,
+  "start": 3200.35,
+  "end": 3200.91,
+  "speaker": "Unknown",
+  "en": "So, that's one.",
+  "zh": "这是第一点。"
+ },
+ {
+  "seg": 634,
+  "start": 3201.59,
+  "end": 3204.911,
+  "speaker": "Unknown",
+  "en": "And that's useful for things like testing the live mode scripts, for example.",
+  "zh": "这对测试诸如 live mode 脚本之类的东西很有用。"
+ },
+ {
+  "seg": 635,
+  "start": 3206.49,
+  "end": 3208.672,
+  "speaker": "Unknown",
+  "en": "But then beyond that, how do I test that it actually works?",
+  "zh": "但除此之外，我怎么测试它真的有效呢？"
+ },
+ {
+  "seg": 636,
+  "start": 3209.673,
+  "end": 3211.174,
+  "speaker": "Unknown",
+  "en": "Well, I've built an evals harness.",
+  "zh": "嗯，我搭了一个 evals 测试框架。"
+ },
+ {
+  "seg": 637,
+  "start": 3211.214,
+  "end": 3212.695,
+  "speaker": "Unknown",
+  "en": "That one is not open source yet.",
+  "zh": "那个还没有开源。"
+ },
+ {
+  "seg": 638,
+  "start": 3213.376,
+  "end": 3223.644,
+  "speaker": "Unknown",
+  "en": "But I built an evals harness that closely replicates every model harness that I care about right now, specifically right now Claude Code, Codex, and Gemini.",
+  "zh": "但我搭了一个 evals 测试框架，它 closely 复刻我现在关心的每一个 model harness，具体来说现在就是 Claude Code、Codex 和 Gemini。"
+ },
+ {
+  "seg": 639,
+  "start": 3224.505,
+  "end": 3226.486,
+  "speaker": "Unknown",
+  "en": "And I'm trying to expand it to more.",
+  "zh": "而且我正试图把它扩展到更多。"
+ },
+ {
+  "seg": 640,
+  "start": 3226.966,
+  "end": 3232.851,
+  "speaker": "Unknown",
+  "en": "And it also recreates the tools, like for instance, a browser screenshot tools or something along those lines.",
+  "zh": "它还复现了那些工具，比如浏览器截图工具或类似的东西。"
+ },
+ {
+  "seg": 641,
+  "start": 3235.213,
+  "end": 3240.556,
+  "speaker": "Unknown",
+  "en": "And then it also recreates the, because some parts of Impeccable are interactive.",
+  "zh": "它还复现了，因为 Impeccable 的某些部分是交互式的。"
+ },
+ {
+  "seg": 642,
+  "start": 3241.176,
+  "end": 3248.26,
+  "speaker": "Unknown",
+  "en": "In the initialization of Impeccable, oftentimes the user gets asked, so what would you like your page not to feel like?",
+  "zh": "在 Impeccable 的初始化过程中，经常会问用户，所以你希望你的页面不要有什么样的感觉？"
+ },
+ {
+  "seg": 643,
+  "start": 3248.961,
+  "end": 3251.082,
+  "speaker": "Unknown",
+  "en": "And so you get these interactive back and forth.",
+  "zh": "所以会有这些交互式的来回。"
+ },
+ {
+  "seg": 644,
+  "start": 3251.482,
+  "end": 3255.444,
+  "speaker": "Unknown",
+  "en": "And so I've built this LLM that acts as the user against the other LLM.",
+  "zh": "所以我搭了一个 LLM 来扮演用户，对抗另一个 LLM。"
+ },
+ {
+  "seg": 645,
+  "start": 3256.225,
+  "end": 3259.386,
+  "speaker": "Unknown",
+  "en": "And so it does like an interactive back and forth turn.",
+  "zh": "所以它会做交互式的来回轮次。"
+ },
+ {
+  "seg": 646,
+  "start": 3260.887,
+  "end": 3266.635,
+  "speaker": "Unknown",
+  "en": "So I've built that harness and then I've built a mixture of expert design judge that runs on top of it.",
+  "zh": "所以我搭了那个测试框架，然后在它之上又搭了一个混合专家的设计评审员。"
+ },
+ {
+  "seg": 647,
+  "start": 3266.655,
+  "end": 3270.32,
+  "speaker": "Unknown",
+  "en": "So basically give it eyes to evaluate each result.",
+  "zh": "基本上就是给它一双眼睛来评估每个结果。"
+ },
+ {
+  "seg": 648,
+  "start": 3271.302,
+  "end": 3277.25,
+  "speaker": "Unknown",
+  "en": "And then I can run across 20 different niches, like for instance, Italian restaurant.",
+  "zh": "然后我可以跨 20 个不同的细分领域运行，比如意大利餐厅。"
+ },
+ {
+  "seg": 649,
+  "start": 3278.431,
+  "end": 3291.198,
+  "speaker": "Unknown",
+  "en": "I run across all models that I care about, GPT-5.5, Opus, Sonnet, and do like 5 to 10 tests for each of those, for each skill release to see how it changed.",
+  "zh": "我会在我关心的所有模型上运行，GPT-5.5、Opus、Sonnet，并对其中每一个做大约 5 到 10 个测试，每次 skill 发布都这样做，看看它有什么变化。"
+ },
+ {
+  "seg": 650,
+  "start": 3291.238,
+  "end": 3293.54,
+  "speaker": "Unknown",
+  "en": "I also run against competitors.",
+  "zh": "我也会拿竞争对手来跑对比。"
+ },
+ {
+  "seg": 651,
+  "start": 3293.96,
+  "end": 3298.022,
+  "speaker": "Unknown",
+  "en": "For instance, I run against the front-end design skill to see, does it make a difference?",
+  "zh": "比如，我会拿前端设计 skill 来跑，看看它是否带来差别，"
+ },
+ {
+  "seg": 652,
+  "start": 3298.923,
+  "end": 3301.824,
+  "speaker": "Unknown",
+  "en": "And how does it make it worse or better?",
+  "zh": "以及它会让结果变差还是变好。"
+ },
+ {
+  "seg": 653,
+  "start": 3302.925,
+  "end": 3306.027,
+  "speaker": "Unknown",
+  "en": "And then beyond that, I'm doing ablation testing.",
+  "zh": "在这之外，我还在做消融测试。"
+ },
+ {
+  "seg": 654,
+  "start": 3307.675,
+  "end": 3321.749,
+  "speaker": "Unknown",
+  "en": "Harder and more expensive, I would say, so I don't recommend it for everyone, but this, the ablation testing, so every, you'll see this in the source card of Impeccable, every rule has sort of an XML tag that says like, you know, a unique identifier of that particular line.",
+  "zh": "我想说，这更难也更昂贵，所以我不推荐每个人都这么做，不过这个，消融测试是这样的，每一次，你会在 Impeccable 的源卡里看到，每条规则都有一个类似 XML 标签的东西，写着，你知道的，那一行的唯一标识符。"
+ },
+ {
+  "seg": 655,
+  "start": 3323.11,
+  "end": 3329.316,
+  "speaker": "Unknown",
+  "en": "And that will be used by the harness to then do a test where it removes that line",
+  "zh": "然后 harness 会用它来做一个测试，把那一行移除，"
+ },
+ {
+  "seg": 656,
+  "start": 3331.112,
+  "end": 3341.397,
+  "speaker": "Unknown",
+  "en": "Runs the evals against all models and then adds the line back in and then uses the detection engine of Impeccable, the deterministic one to see did it actually change.",
+  "zh": "对所有模型跑 eval,然后把那一行加回去，再用 Impeccable 的检测引擎，也就是那个确定性的引擎，来看它是否真的产生了变化。"
+ },
+ {
+  "seg": 657,
+  "start": 3342.158,
+  "end": 3350.161,
+  "speaker": "Unknown",
+  "en": "So if there's a line that says, hey, don't do like gray on colorful backgrounds for contrast purposes.",
+  "zh": "所以如果有一条规则说，嘿，出于对比度的考虑，不要在彩色背景上用灰色。"
+ },
+ {
+  "seg": 658,
+  "start": 3352.225,
+  "end": 3357.627,
+  "speaker": "Unknown",
+  "en": "There's an ablation test and then a deterministic check or feedback loop that tests against it.",
+  "zh": "那就有一个消融测试，以及一个确定性的检查或反馈回路来针对它进行测试。"
+ },
+ {
+  "seg": 659,
+  "start": 3357.667,
+  "end": 3368.371,
+  "speaker": "Unknown",
+  "en": "So, in short, quite involved, but I really started, you know, vibes-based and now it's really truly well tested.",
+  "zh": "总之简单来说，相当复杂，但我一开始，你知道的，是基于 vibe 的，而现在它是真正经过充分测试的。"
+ },
+ {
+  "seg": 660,
+  "start": 3370.712,
+  "end": 3371.272,
+  "speaker": "Unknown",
+  "en": "Yeah, go ahead.",
+  "zh": "是的，请讲。"
+ },
+ {
+  "seg": 661,
+  "start": 3375.774,
+  "end": 3375.994,
+  "speaker": "Unknown",
+  "en": "Sorry?",
+  "zh": "抱歉？"
+ },
+ {
+  "seg": 662,
+  "start": 3378.615,
+  "end": 3378.795,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 663,
+  "start": 3382.209,
+  "end": 3384.21,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 664,
+  "start": 3384.83,
+  "end": 3390.973,
+  "speaker": "Unknown",
+  "en": "I do have evals for evaluating taste, but I don't think they work particularly well.",
+  "zh": "我确实有用来评估品味的 eval,但我觉得它们效果不是特别好。"
+ },
+ {
+  "seg": 665,
+  "start": 3391.073,
+  "end": 3393.554,
+  "speaker": "Unknown",
+  "en": "I just talked to Ben from Contra about this.",
+  "zh": "我刚和 Contra 的 Ben 聊过这个。"
+ },
+ {
+  "seg": 666,
+  "start": 3394.834,
+  "end": 3404.499,
+  "speaker": "Unknown",
+  "en": "I don't think, I mean, I know some of my colleagues might disagree, but I don't think taste can be solved at a model level.",
+  "zh": "我不认为，我是说，我知道我的一些同事可能会有不同意见，但我不认为品味可以在模型层面被解决。"
+ },
+ {
+  "seg": 667,
+  "start": 3405.159,
+  "end": 3407.28,
+  "speaker": "Unknown",
+  "en": "I actually think it's a fundamentally human thing.",
+  "zh": "我实际上认为它从根本上是一件属于人类的事情。"
+ },
+ {
+  "seg": 668,
+  "start": 3408.54,
+  "end": 3417.202,
+  "speaker": "Unknown",
+  "en": "Because taste is scarce and unique and once everybody uses the same taste it becomes ubiquitous and then we don't think it's tasteful anymore.",
+  "zh": "因为品味是稀缺且独特的，一旦所有人都使用同样的品味，它就变得无处不在，然后我们就不再觉得它有品味了。"
+ },
+ {
+  "seg": 669,
+  "start": 3417.262,
+  "end": 3422.123,
+  "speaker": "Unknown",
+  "en": "So I think it's hard.",
+  "zh": "所以我觉得这很难。"
+ },
+ {
+  "seg": 670,
+  "start": 3422.744,
+  "end": 3426.144,
+  "speaker": "Unknown",
+  "en": "And I also think the models are particularly bad at evaluating taste.",
+  "zh": "而且我也认为模型在评估品味方面特别糟糕。"
+ },
+ {
+  "seg": 671,
+  "start": 3426.485,
+  "end": 3427.225,
+  "speaker": "Unknown",
+  "en": "So for example,",
+  "zh": "比如说，"
+ },
+ {
+  "seg": 672,
+  "start": 3428.585,
+  "end": 3434.869,
+  "speaker": "Unknown",
+  "en": "There are certain things that the models can evaluate well, like, hey, is this the correct thing in the first viewport, right?",
+  "zh": "有些东西模型是可以评估得很好的，比如，嘿，这是不是第一个视口里的正确内容，对吧？"
+ },
+ {
+  "seg": 673,
+  "start": 3435.189,
+  "end": 3436.83,
+  "speaker": "Unknown",
+  "en": "So functional stuff, that works.",
+  "zh": "功能性的东西，那是可行的。"
+ },
+ {
+  "seg": 674,
+  "start": 3437.39,
+  "end": 3448.457,
+  "speaker": "Unknown",
+  "en": "But what doesn't work, and here's one example, I've built, again, this mixture of judges, and one judge rates whether the first viewport looks great, right, and is effective.",
+  "zh": "但不可行的，举个例子，我又建了这个评审团的混合体，其中一个评审员评价第一个视口看起来是否出色，对吧，是否有效。"
+ },
+ {
+  "seg": 675,
+  "start": 3449.177,
+  "end": 3452.019,
+  "speaker": "Unknown",
+  "en": "And one of the tells is that",
+  "zh": "而其中一个破绽是，"
+ },
+ {
+  "seg": 676,
+  "start": 3454.207,
+  "end": 3459.881,
+  "speaker": "Unknown",
+  "en": "Gemini for example, the more stuff there is in the first viewport, the higher it rates it.",
+  "zh": "比如说 Gemini，第一个视口里的东西越多，它给的评分就越高。"
+ },
+ {
+  "seg": 677,
+  "start": 3461.436,
+  "end": 3462.717,
+  "speaker": "Unknown",
+  "en": "This is just a general rule.",
+  "zh": "这是一条普遍规律。"
+ },
+ {
+  "seg": 678,
+  "start": 3463.017,
+  "end": 3466.298,
+  "speaker": "Unknown",
+  "en": "If you just cram the viewport full, it gives it a higher ranking.",
+  "zh": "如果你只是把视口塞满，它就会给出更高的排名。"
+ },
+ {
+  "seg": 679,
+  "start": 3467.479,
+  "end": 3471.101,
+  "speaker": "Unknown",
+  "en": "And so there's an interesting example of the models are often maximalists.",
+  "zh": "所以这是一个有趣的例子，说明模型往往是极繁主义者。"
+ },
+ {
+  "seg": 680,
+  "start": 3471.441,
+  "end": 3474.162,
+  "speaker": "Unknown",
+  "en": "They're like, well, more is more, I guess.",
+  "zh": "它们就像，好吧，多多益善，我猜。"
+ },
+ {
+  "seg": 681,
+  "start": 3474.883,
+  "end": 3485.388,
+  "speaker": "Unknown",
+  "en": "And so oftentimes I build judges that actually invert the response of the model, which is really strange, but it works, where it sort of judges something very high.",
+  "zh": "所以我经常构建的评审员实际上是反转模型的响应，这真的很奇怪，但它有效，就是它把某个东西评得很高，"
+ },
+ {
+  "seg": 682,
+  "start": 3485.408,
+  "end": 3486.968,
+  "speaker": "Unknown",
+  "en": "I'm like, okay, that's definitely not a good design.",
+  "zh": "我就想，好吧，那肯定不是一个好的设计。"
+ },
+ {
+  "seg": 683,
+  "start": 3488.81,
+  "end": 3507.108,
+  "speaker": "Unknown",
+  "en": "So anyway, I don't think it's solved, and I don't think it's solvable, but I do have, I would say, a tool that gives you the design director eyes that works marginally better than random, and that's good enough for me for like a first pass, and then I use my own human eyes to evaluate results and annotate them.",
+  "zh": "总之，我不认为它已经被解决了，也不认为它是可解决的，但我确实有，我想说，一个能给你设计总监眼光的工具，它的效果勉强好于随机，对我来说作为第一轮筛选已经够用了，然后我会用自己的肉眼来评估结果并做标注。"
+ },
+ {
+  "seg": 684,
+  "start": 3510.551,
+  "end": 3511.111,
+  "speaker": "Unknown",
+  "en": "Any other questions?",
+  "zh": "还有其他问题吗？"
+ },
+ {
+  "seg": 685,
+  "start": 3511.151,
+  "end": 3511.552,
+  "speaker": "Unknown",
+  "en": "Yeah, over here.",
+  "zh": "是的，这边这位。"
+ },
+ {
+  "seg": 686,
+  "start": 3516.197,
+  "end": 3517.338,
+  "speaker": "Unknown",
+  "en": "The future for skills.",
+  "zh": "skill 的未来。"
+ },
+ {
+  "seg": 687,
+  "start": 3517.578,
+  "end": 3521.9,
+  "speaker": "Unknown",
+  "en": "So I would say, hmm, that's a broad question.",
+  "zh": "那我想说，嗯，这是个很宽泛的问题。"
+ },
+ {
+  "seg": 688,
+  "start": 3522.38,
+  "end": 3526.783,
+  "speaker": "Unknown",
+  "en": "It seems right now you're doing a lot of steps to try and wrangle them.",
+  "zh": "看起来你现在做了很多步骤来试图驯服它们。"
+ },
+ {
+  "seg": 689,
+  "start": 3530.965,
+  "end": 3535.567,
+  "speaker": "Unknown",
+  "en": "Yeah, so I'll first answer for impeccable and for me.",
+  "zh": "是的，我会先回答关于 Impeccable 和我自己的部分。"
+ },
+ {
+  "seg": 690,
+  "start": 3536.307,
+  "end": 3543.931,
+  "speaker": "Unknown",
+  "en": "So in the case of impeccable, I think we're definitely outgrowing the skill platform, kind of what's possible with skills.",
+  "zh": "在 Impeccable 这个案例里，我觉得我们肯定已经在超越 skill 平台了，超越了 skill 所能实现的范围。"
+ },
+ {
+  "seg": 691,
+  "start": 3544.551,
+  "end": 3547.572,
+  "speaker": "Unknown",
+  "en": "I think the live mode is a good example of that.",
+  "zh": "我觉得 live mode 就是一个很好的例子。"
+ },
+ {
+  "seg": 692,
+  "start": 3547.652,
+  "end": 3553.695,
+  "speaker": "Unknown",
+  "en": "The live mode was sort of like a Jurassic Park experiment to see like, can I do this?",
+  "zh": "live mode 有点像一个侏罗纪公园式的实验，看看，我能做到这个吗？"
+ },
+ {
+  "seg": 693,
+  "start": 3554.88,
+  "end": 3557.883,
+  "speaker": "Unknown",
+  "en": "And the answer is yes-ish.",
+  "zh": "答案是勉强可以。"
+ },
+ {
+  "seg": 694,
+  "start": 3558.083,
+  "end": 3563.008,
+  "speaker": "Unknown",
+  "en": "I think it's working better than I expected, but it still has a lot of problems.",
+  "zh": "我觉得它运行得比我预期的好，但它仍然有很多问题。"
+ },
+ {
+  "seg": 695,
+  "start": 3563.149,
+  "end": 3568.074,
+  "speaker": "Unknown",
+  "en": "I mean, it would be way better to do this in a first-party harness integration or like a first-party tool.",
+  "zh": "我是说，如果在一个第一方 harness 集成或者类似第一方工具里做这个，会好得多。"
+ },
+ {
+  "seg": 696,
+  "start": 3569.875,
+  "end": 3574.76,
+  "speaker": "Unknown",
+  "en": "So I think there are limits that I'm hitting where skills might not be effective anymore.",
+  "zh": "所以我觉得我正在撞上一些极限，skill 可能不再有效了。"
+ },
+ {
+  "seg": 697,
+  "start": 3575.161,
+  "end": 3575.902,
+  "speaker": "Unknown",
+  "en": "I think in general,",
+  "zh": "我觉得总体上，"
+ },
+ {
+  "seg": 698,
+  "start": 3577.817,
+  "end": 3581.36,
+  "speaker": "Unknown",
+  "en": "I would say most skills should probably be written by the individual users.",
+  "zh": "我想说大多数 skill 也许应该由个人用户来编写。"
+ },
+ {
+  "seg": 699,
+  "start": 3582.1,
+  "end": 3586.524,
+  "speaker": "Unknown",
+  "en": "I think those that actually go through the effort of packaging a skill and sharing it with others.",
+  "zh": "我认为那些真正付出了打包一个 skill 并与他人分享这份努力的人。"
+ },
+ {
+  "seg": 700,
+  "start": 3587.768,
+  "end": 3590.469,
+  "speaker": "Unknown",
+  "en": "need to invest more time than they currently do.",
+  "zh": "需要比现在投入更多时间。"
+ },
+ {
+  "seg": 701,
+  "start": 3590.889,
+  "end": 3592.089,
+  "speaker": "Unknown",
+  "en": "So I guess that's my hot take.",
+  "zh": "所以我想这就是我的犀利观点。"
+ },
+ {
+  "seg": 702,
+  "start": 3592.489,
+  "end": 3602.632,
+  "speaker": "Unknown",
+  "en": "I think right now I've seen plenty of skills that are distributed that do not work well in a model that the author didn't use, for example.",
+  "zh": "我认为现在我已经见过很多分发出去的 skill,在作者没有用过的模型上运行得并不好，比如。"
+ },
+ {
+  "seg": 703,
+  "start": 3603.112,
+  "end": 3608.893,
+  "speaker": "Unknown",
+  "en": "And so I think we just have to raise the bar of what's acceptable to ship to people.",
+  "zh": "所以我认为我们必须提高向人们发布的可接受门槛。"
+ },
+ {
+  "seg": 704,
+  "start": 3609.373,
+  "end": 3611.254,
+  "speaker": "Unknown",
+  "en": "I mean, again, this is like the works on my machine thing.",
+  "zh": "我的意思是，这又有点像“在我机器上能跑”那个问题。"
+ },
+ {
+  "seg": 705,
+  "start": 3612.194,
+  "end": 3616.615,
+  "speaker": "Unknown",
+  "en": "I would rather see less skills in the ecosystem that are really battle-tested and proven",
+  "zh": "我宁愿看到生态里更少的 skill,但它们是真正经过实战检验和验证过的"
+ },
+ {
+  "seg": 706,
+  "start": 3617.575,
+  "end": 3621.376,
+  "speaker": "Unknown",
+  "en": "And I hope we're shifting towards that because right now it's sort of like a White West.",
+  "zh": "而且我希望我们正在朝那个方向转变，因为现在这有点像一个白色狂西部(White West)。"
+ },
+ {
+  "seg": 707,
+  "start": 3621.396,
+  "end": 3622.476,
+  "speaker": "Unknown",
+  "en": "Yeah, go ahead.",
+  "zh": "是的，请讲。"
+ },
+ {
+  "seg": 708,
+  "start": 3622.936,
+  "end": 3635.139,
+  "speaker": "Unknown",
+  "en": "In that regard, there's no like common way to test the skills to make sure that it works across all harnesses, all models, so potentially there could be an opportunity there to build something?",
+  "zh": "在这方面，没有一种通用的方法来测试 skill,以确保它在所有 harness、所有模型上都能工作，所以这可能是一个机会，可以去做点什么东西？"
+ },
+ {
+  "seg": 709,
+  "start": 3637.279,
+  "end": 3641.34,
+  "speaker": "Unknown",
+  "en": "There's no common way to test the skills, yeah, and that could be an opportunity.",
+  "zh": "目前没有通用的测试 skill 的方法，是的，这可能是一个机会。"
+ },
+ {
+  "seg": 710,
+  "start": 3641.36,
+  "end": 3642.301,
+  "speaker": "Unknown",
+  "en": "That's a good point, yeah.",
+  "zh": "这是个好观点，是的。"
+ },
+ {
+  "seg": 711,
+  "start": 3642.801,
+  "end": 3643.381,
+  "speaker": "Unknown",
+  "en": "I guess I could",
+  "zh": "我想我可以"
+ },
+ {
+  "seg": 712,
+  "start": 3644.503,
+  "end": 3645.524,
+  "speaker": "Unknown",
+  "en": "I do have the tool for that.",
+  "zh": "我确实有做那个的工具。"
+ },
+ {
+  "seg": 713,
+  "start": 3645.564,
+  "end": 3646.004,
+  "speaker": "Unknown",
+  "en": "That's true.",
+  "zh": "那是真的。"
+ },
+ {
+  "seg": 714,
+  "start": 3646.425,
+  "end": 3647.466,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 715,
+  "start": 3647.566,
+  "end": 3648.427,
+  "speaker": "Unknown",
+  "en": "I could do something with it.",
+  "zh": "我可以用它做点什么。"
+ },
+ {
+  "seg": 716,
+  "start": 3648.567,
+  "end": 3648.767,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 717,
+  "start": 3649.408,
+  "end": 3651.71,
+  "speaker": "Unknown",
+  "en": "Right now, it's purely built for my own purposes.",
+  "zh": "目前它纯粹是为我自己的目的而构建的。"
+ },
+ {
+  "seg": 718,
+  "start": 3652.511,
+  "end": 3657.175,
+  "speaker": "Unknown",
+  "en": "But yeah, the same is true for, for instance, like the impeccable installer and compiler.",
+  "zh": "但是的，比如说，那个 impeccable 安装器和编译器也是同样的情况。"
+ },
+ {
+  "seg": 719,
+  "start": 3657.415,
+  "end": 3664.522,
+  "speaker": "Unknown",
+  "en": "I don't think most people know that it exists, that it can compile to every harness, and that it has these substitution techniques and stuff like this.",
+  "zh": "我不认为大多数人知道它的存在，知道它可以编译到每一个 harness,知道它有这些替换技巧之类的东西。"
+ },
+ {
+  "seg": 720,
+  "start": 3664.542,
+  "end": 3666.744,
+  "speaker": "Unknown",
+  "en": "Like, I could probably release that standalone as well.",
+  "zh": "比如，我大概也可以把它作为独立项目发布。"
+ },
+ {
+  "seg": 721,
+  "start": 3667.204,
+  "end": 3667.865,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a good point.",
+  "zh": "是的，这是个好观点。"
+ },
+ {
+  "seg": 722,
+  "start": 3669.546,
+  "end": 3670.067,
+  "speaker": "Unknown",
+  "en": "Yeah, go ahead.",
+  "zh": "是的，请讲。"
+ },
+ {
+  "seg": 723,
+  "start": 3677.979,
+  "end": 3679.5,
+  "speaker": "Unknown",
+  "en": "MCP having skills on the server?",
+  "zh": "MCP 在服务端放 skill?"
+ },
+ {
+  "seg": 724,
+  "start": 3680.501,
+  "end": 3681.142,
+  "speaker": "Unknown",
+  "en": "How would that work?",
+  "zh": "那会是怎么运作的？"
+ },
+ {
+  "seg": 725,
+  "start": 3685.506,
+  "end": 3685.946,
+  "speaker": "Unknown",
+  "en": "Oh, I see.",
+  "zh": "哦，我明白了。"
+ },
+ {
+  "seg": 726,
+  "start": 3686.106,
+  "end": 3686.326,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 727,
+  "start": 3689.351,
+  "end": 3694.272,
+  "speaker": "Unknown",
+  "en": "To be honest, I haven't tried it out yet or I haven't really read too much into it.",
+  "zh": "老实说，我还没试过，或者我还没有真正深入读过相关内容。"
+ },
+ {
+  "seg": 728,
+  "start": 3694.752,
+  "end": 3711.277,
+  "speaker": "Unknown",
+  "en": "I think MCP in general, you know, I worry greatly about context pollution and I do that with skills too and I think I'm not using MCP a lot for that reason because it polluted my context many times.",
+  "zh": "我认为 MCP 总的来说，你知道的，我非常担心上下文污染，我对 skill 也是这么做的，我认为出于这个原因我没有大量使用 MCP,因为它很多次污染了我的上下文。"
+ },
+ {
+  "seg": 729,
+  "start": 3714.318,
+  "end": 3715.618,
+  "speaker": "Unknown",
+  "en": "How do skills work in MCP?",
+  "zh": "skill 在 MCP 里是怎么工作的？"
+ },
+ {
+  "seg": 730,
+  "start": 3725.666,
+  "end": 3727.447,
+  "speaker": "Unknown",
+  "en": "Oh, you can download a script from MCP server.",
+  "zh": "哦，你可以从 MCP 服务器下载一个脚本。"
+ },
+ {
+  "seg": 731,
+  "start": 3727.487,
+  "end": 3727.927,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "是的，好的。"
+ },
+ {
+  "seg": 732,
+  "start": 3740.755,
+  "end": 3741.036,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 733,
+  "start": 3744.138,
+  "end": 3744.578,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是啊，是啊，是啊。"
+ },
+ {
+  "seg": 734,
+  "start": 3747.353,
+  "end": 3750.095,
+  "speaker": "Unknown",
+  "en": "So what's the recommended way of packaging them and distributing them?",
+  "zh": "那么推荐的打包和分发它们的方式是什么？"
+ },
+ {
+  "seg": 735,
+  "start": 3750.115,
+  "end": 3751.897,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a good topic.",
+  "zh": "是的，这是个好话题。"
+ },
+ {
+  "seg": 736,
+  "start": 3752.737,
+  "end": 3757.521,
+  "speaker": "Unknown",
+  "en": "So, of course, like the harnesses and the frontier labs have their own ways.",
+  "zh": "当然，各个 harness 和前沿实验室都有它们自己的方式。"
+ },
+ {
+  "seg": 737,
+  "start": 3757.721,
+  "end": 3763.265,
+  "speaker": "Unknown",
+  "en": "I mean, Codex has a marketplace that you can use for distribution plugin marketplace.",
+  "zh": "我的意思是，Codex 有一个市场，你可以用它来分发插件市场。"
+ },
+ {
+  "seg": 738,
+  "start": 3765.127,
+  "end": 3766.488,
+  "speaker": "Unknown",
+  "en": "Claude Code has a marketplace as well.",
+  "zh": "Claude Code 也有一个市场。"
+ },
+ {
+  "seg": 739,
+  "start": 3766.508,
+  "end": 3768.449,
+  "speaker": "Unknown",
+  "en": "I think they started with the marketplace technique.",
+  "zh": "我想它们是从市场这个方式开始的。"
+ },
+ {
+  "seg": 740,
+  "start": 3769.21,
+  "end": 3771.271,
+  "speaker": "Unknown",
+  "en": "Those marketplaces don't work particularly well.",
+  "zh": "这些市场运行得并不特别好。"
+ },
+ {
+  "seg": 741,
+  "start": 3771.291,
+  "end": 3773.893,
+  "speaker": "Unknown",
+  "en": "I mean, the Claude Code one for sure doesn't work particularly well.",
+  "zh": "我的意思是，Claude Code 那个肯定运行得不太行。"
+ },
+ {
+  "seg": 742,
+  "start": 3774.114,
+  "end": 3775.314,
+  "speaker": "Unknown",
+  "en": "I know this for a fact because",
+  "zh": "我知道这一点，因为"
+ },
+ {
+  "seg": 743,
+  "start": 3776.297,
+  "end": 3784.344,
+  "speaker": "Unknown",
+  "en": "I mean the update mechanism often doesn't work and people are like well my skill doesn't update and oftentimes there's a caching issue so",
+  "zh": "我的意思是，更新机制经常不工作，人们会说“我的 skill 不更新”，而很多时候这是一个缓存问题，所以"
+ },
+ {
+  "seg": 744,
+  "start": 3785.852,
+  "end": 3791.858,
+  "speaker": "Unknown",
+  "en": "My experience has been hit or miss with the native methods of distributing and then of course it's only for that particular provider.",
+  "zh": "我的经验是，这些原生的分发方法时好时坏，而且当然，它只适用于那一个特定的提供商。"
+ },
+ {
+  "seg": 745,
+  "start": 3792.439,
+  "end": 3795.782,
+  "speaker": "Unknown",
+  "en": "That's why projects like skills.sh exist.",
+  "zh": "这就是为什么像 skills.sh 这样的项目存在。"
+ },
+ {
+  "seg": 746,
+  "start": 3796.323,
+  "end": 3806.193,
+  "speaker": "Unknown",
+  "en": "But again, the problem with MPX skills right now, it doesn't allow for more advanced skill use cases like compiled for every different harness.",
+  "zh": "但话说回来，MPX skills 目前的问题在于，它不允许更高级的 skill 用例，比如为每一个不同的 harness 编译。"
+ },
+ {
+  "seg": 747,
+  "start": 3806.653,
+  "end": 3807.474,
+  "speaker": "Unknown",
+  "en": "I have a pull request",
+  "zh": "我有一个 pull request"
+ },
+ {
+  "seg": 748,
+  "start": 3809.64,
+  "end": 3820.93,
+  "speaker": "Unknown",
+  "en": "in the repository, and I've bugged Andrew a couple times about it, but he still has to get it merged, or agree with me on that, I guess.",
+  "zh": "在仓库里，我为这个催过 Andrew 好几次，但他还得把它合并，或者我想，同意我的观点吧。"
+ },
+ {
+  "seg": 749,
+  "start": 3821.651,
+  "end": 3822.772,
+  "speaker": "Unknown",
+  "en": "I think we're still discussing.",
+  "zh": "我想我们还在讨论中。"
+ },
+ {
+  "seg": 750,
+  "start": 3824.015,
+  "end": 3827.439,
+  "speaker": "Unknown",
+  "en": "But yeah, MPX Skills I think is a great project in general.",
+  "zh": "不过是的,总体来说 MPX Skills 是一个很棒的项目。"
+ },
+ {
+  "seg": 751,
+  "start": 3828.059,
+  "end": 3831.102,
+  "speaker": "Unknown",
+  "en": "I think it'd be great if we could sort of like standardize around it.",
+  "zh": "我觉得如果我们能围绕它进行某种标准化就好了。"
+ },
+ {
+  "seg": 752,
+  "start": 3832.724,
+  "end": 3834.806,
+  "speaker": "Unknown",
+  "en": "There's also one from Microsoft that's trying to do that.",
+  "zh": "微软也有一个在尝试做这件事的项目。"
+ },
+ {
+  "seg": 753,
+  "start": 3835.947,
+  "end": 3837.489,
+  "speaker": "Unknown",
+  "en": "A project from Microsoft, I forgot the name of it.",
+  "zh": "微软的一个项目,我忘记叫什么名字了。"
+ },
+ {
+  "seg": 754,
+  "start": 3838.65,
+  "end": 3841.432,
+  "speaker": "Unknown",
+  "en": "But there's definitely no industry standard for distribution yet.",
+  "zh": "但目前确实还没有发行方面的行业标准。"
+ },
+ {
+  "seg": 755,
+  "start": 3842.843,
+  "end": 3846.844,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm not, I don't love having to maintain my own CLI installer.",
+  "zh": "是啊,我并不是,我不喜欢要自己维护自己的 CLI 安装器。"
+ },
+ {
+  "seg": 756,
+  "start": 3847.504,
+  "end": 3848.084,
+  "speaker": "Unknown",
+  "en": "I would rather not.",
+  "zh": "我宁愿不用。"
+ },
+ {
+  "seg": 757,
+  "start": 3849.004,
+  "end": 3857.106,
+  "speaker": "Unknown",
+  "en": "It's annoying, but it does make it so it plays safe with all harnesses installed, the hooks in the right part of the system, et cetera.",
+  "zh": "这挺烦人的,但它确实让所有 harness 安装后都能安全兼容,hooks 装到系统的正确位置,等等。"
+ },
+ {
+  "seg": 758,
+  "start": 3857.226,
+  "end": 3860.247,
+  "speaker": "Unknown",
+  "en": "So it's, yeah, yeah.",
+  "zh": "所以就是,是,是的。"
+ },
+ {
+  "seg": 759,
+  "start": 3862.188,
+  "end": 3866.549,
+  "speaker": "Unknown",
+  "en": "Okay, I think I'm way out of time, but come up and speak with me if you like.",
+  "zh": "好了,我想我已经严重超时了,但如果你愿意的话可以过来和我聊聊。"
+ },
+ {
+  "seg": 760,
+  "start": 3867.509,
+  "end": 3870.409,
+  "speaker": "Unknown",
+  "en": "Yeah, I would say I'll end it here, but come up if you like.",
+  "zh": "对,我就到此结束吧,但愿意的话可以过来。"
+ },
+ {
+  "seg": 761,
+  "start": 3871.09,
+  "end": 3872.43,
+  "speaker": "Unknown",
+  "en": "Let me just, thank you.",
+  "zh": "让我,谢谢你。"
+ },
+ {
+  "seg": 762,
+  "start": 3882.583,
+  "end": 3883.767,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 763,
+  "start": 3883.807,
+  "end": 3884.529,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

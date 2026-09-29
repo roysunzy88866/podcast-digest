@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":15,"token":28,"GPU":18,"推理":58,"商业地产":1,"前沿模型":21,"harness":46,"预训练":6,"后训练":1,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"数据中心":15,"token":28,"GPU":18,"推理":59,"商业地产":1,"前沿模型":21,"harness":48,"预训练":6,"后训练":1,"AGI":26}</script>
 
 <script>
 (function(){

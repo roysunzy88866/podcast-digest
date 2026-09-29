@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":24,"Terraform":1,"Hashicorp":1,"Kubernetes":12,"开源":27,"智能体":347,"PR":6,"AI":22,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":24,"Terraform":1,"Hashicorp":1,"Kubernetes":12,"开源":27,"智能体":350,"PR":6,"AI":22,"工匠精神":1}</script>
 
 <script>
 (function(){

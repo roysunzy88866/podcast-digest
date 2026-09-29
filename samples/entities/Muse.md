@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Claire]] · [[Noah Shinn]] · [[Meta]] · [[Instinct]] · [[OpenClaw]] · [[主动性]] · [[浏览器使用]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"智能体":347,"ChatGPT":81,"Claire":3,"Noah Shinn":1,"Meta":35,"Instinct":2,"OpenClaw":18,"主动性":1,"浏览器使用":8,"算力":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"ChatGPT":81,"Claire":3,"Noah Shinn":1,"Meta":35,"Instinct":2,"OpenClaw":18,"主动性":1,"浏览器使用":8,"算力":6}</script>
 
 <script>
 (function(){

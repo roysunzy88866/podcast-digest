@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Peng Zheng]] [[John Bai]]
+[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":5,"智能体":347,"代码审查":17,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":3,"TypeScript":2,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":6,"智能体":350,"代码审查":17,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":3,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

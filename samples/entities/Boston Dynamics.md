@@ -7,27 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Boston Dynamics</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Boston Dynamics">BO</div><div class="pi"><h1 class="pt">Boston Dynamics</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Boston Dynamics">BO</div><div class="pi"><h1 class="pt">Boston Dynamics</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]]**(02:37起):本集仅在开头顺带提及 IFS 与 Boston Dynamics 在机器狗 Spot 上有合作，未展开讨论
 - **[[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]]**(47:06起):本集说Boston Dynamics与DeepMind合作后在《60分钟》展示了与Foundation佐治亚工厂类似的零件拾取任务，但主持人指出他们是在复刻场地而非真实产线演示，且未接近24小时运行
+- **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(08:16起):Jason 第二选：机器人迟早是苹果绕不开的品类，让机器人进家庭是巨大信任问题而「人们会信任一台苹果机器人」；可先让工业业务自主运营再研发苹果 A1 机器人。观众 Lance Seidman 也独立选了它。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-28-twist-the-5-companies-apple-must-buy#^q3]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]] — 作为被讨论公司(提及)
 - [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]] — 作为被讨论公司
+- [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Kriti Sharma]] · [[Mike LeBlanc]] · [[Craig Smith]] · [[Foundation]] · [[Nexus Black]] · [[人形机器人]] · [[IFS]] · [[执行器]] · [[Anthropic]] · [[视觉-语言-行动模型]]
+[[智能体]] · [[Kriti Sharma]] · [[Mike LeBlanc]] · [[Jacob]] · [[Craig Smith]] · [[Foundation]] · [[Lon]] · [[Nexus Black]] · [[人形机器人]] · [[Jason]]
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Mike LeBlanc":1,"Craig Smith":1,"Foundation":2,"Nexus Black":1,"人形机器人":2,"IFS":1,"执行器":2,"Anthropic":150,"视觉-语言-行动模型":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":350,"Kriti Sharma":1,"Mike LeBlanc":1,"Jacob":1,"Craig Smith":1,"Foundation":2,"Lon":1,"Nexus Black":1,"人形机器人":2,"Jason":4}</script>
 
 <script>
 (function(){

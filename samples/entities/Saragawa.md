@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Katie Kirsch]] [[Maggie Landers]] [[Codie Sanchez]] [[Eli Wallen]] [[Parag Agrawal]]
+[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":24,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":46,"轨迹":3,"智能体":347}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":24,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":48,"轨迹":3,"智能体":350}</script>
 
 <script>
 (function(){

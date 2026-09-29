@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":347,"构建者":3,"可观测性":32,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":81,"Cursor":70,"OpenAI":139}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":350,"构建者":3,"可观测性":32,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":81,"Cursor":71,"OpenAI":139}</script>
 
 <script>
 (function(){

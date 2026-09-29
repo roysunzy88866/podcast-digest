@@ -92,8 +92,8 @@ CI 侧的压力更隐蔽:代码生成变容易、PR 拆得又小又多之后,CI 
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同概念:代码审查 (code review)、CI/CD、token 用量 (token)</span>
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同概念:提示词缓存 (prompt caching)、Claude Code、Codex</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:代码审查 (code review)、Claude Code</span>
-- [[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体]]<span class="pd-rz">同概念:代码审查 (code review)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,809 @@
+{
+  "episode_id": "2026-09-03-talks-from-coding-to-knowledge-work-agents-kar",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "知识工作",
+    "智能体安全",
+    "编程智能体"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "karan-vaidya",
+      "type": "person",
+      "role": "guest",
+      "name": "Karan Vaidya",
+      "file": "Karan Vaidya",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "composio",
+      "type": "company",
+      "role": "company",
+      "name": "Composio",
+      "file": "Composio",
+      "primary": true,
+      "how_described": "嘉宾 Karan Vaidya 联合创办的公司,本集主张它构建知识工作智能体缺失的基础设施(缺失的中心、记录层、沙箱、治理),已支撑超过十亿次工具调用、每月三亿次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.601,
+            17.522
+          ],
+          "quote": "I'm Karan Vedya, co-founder and CTO of Composio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1188.432,
+            1192.594
+          ],
+          "quote": "Now it's infrastructure that nobody has yet built, and that's what we are building at Composio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1202.743,
+            1207.746
+          ],
+          "quote": "And if you are building an agent, just point it to Composio and see the magic happen for knowledge work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线:编程智能体因围绕代码的基础设施(仓库、Git、测试、CI、回滚)而成功,知识工作智能体因缺这套地基而『盲干』,并提出六个原语补齐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            164.195,
+            170.196
+          ],
+          "quote": "The agent starts with everything they need all in a single place, that is the code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            198.139,
+            206.548
+          ],
+          "quote": "Before a knowledge work agent can even start to do things, it has to go and pull all the threads and kind of tie them together itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            207.369,
+            210.513
+          ],
+          "quote": "And that's still the base point where coding agent had started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            212.415,
+            216.94
+          ],
+          "quote": "So how can you expect knowledge work agent to do the same level of work as coding agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            227.301,
+            231.243
+          ],
+          "quote": "So the agent doesn't need to do the hard work of stitching them all together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            234.004,
+            242.168
+          ],
+          "quote": "And they get the baseline with the coding agent started with, which is the repo, the information across all the stacks in one single place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            242.768,
+            247.39
+          ],
+          "quote": "That's the foundation you start with, and you can give right access to your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            249.419,
+            254.5
+          ],
+          "quote": "The next thing agent needs is a sense of history, the ability to look back in the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            259.181,
+            270.944
+          ],
+          "quote": "Git keeps a record of every single thing that went in, every single change that was made, so the agent can always look back and see how a certain change was made, why something worked, why something didn't work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            271.704,
+            274.365
+          ],
+          "quote": "Think about the kind of thing you actually ask your agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            287.633,
+            289.174
+          ],
+          "quote": "The history isn't just for agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            289.955,
+            292.877
+          ],
+          "quote": "It's also for you to keep a record what the agent is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            293.497,
+            305.304
+          ],
+          "quote": "You can see what the agent is doing, where it is fucking up, where it is doing successful things, and instead of trusting what the agent is saying to you, you can just go to those particular apps and look at what it has done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            331.971,
+            333.653
+          ],
+          "quote": "So the agent has no memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            344.428,
+            347.21
+          ],
+          "quote": "Once the agent runs, it tells you it has done successfully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            366.733,
+            372.154
+          ],
+          "quote": "Every single action that agent takes can be logged across every other app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            377.435,
+            379.956
+          ],
+          "quote": "Via this, firstly, the agent gets memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            393.416,
+            395.898
+          ],
+          "quote": "You can finally see exactly what the agent is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            411.112,
+            413.314
+          ],
+          "quote": "The next thing an agent needs is context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            454.189,
+            462.74
+          ],
+          "quote": "It's all available in your code base, so the agent can just go and look and figure out the specs, what you like, the linters, the formatters, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            501.067,
+            503.648
+          ],
+          "quote": "And that part is not available to agent handily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            506.528,
+            517.612
+          ],
+          "quote": "So as we did centralization and logging, the record we just built, the one that gives the agent memory and lets you check what it did, also does one more interesting thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            518.955,
+            522.66
+          ],
+          "quote": "If you log enough of what every agent is doing, you start to see patterns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            556.072,
+            567.002
+          ],
+          "quote": "And that's the context that was missing for a knowledge work agent, how the work actually gets done, the real playbook of sorts, and the preference of a company, of a personal user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            567.803,
+            571.326
+          ],
+          "quote": "And now the agent can query it and stop guessing how the company operates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            581.619,
+            584.582
+          ],
+          "quote": "The moment the agent writes a code, a stack of checks follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            614.228,
+            620.072
+          ],
+          "quote": "The agent completes the loop on its own and makes sure that it follows the standard and is able to make the code run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            697.458,
+            706.78
+          ],
+          "quote": "One, before the agent sends anything, it checks the draft emails that I've sent before, if it matches my style, if it matches the goodness that I like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            707.52,
+            718.99
+          ],
+          "quote": "The second, before doing anything destructive in the real world scenario, we provide the agent sandboxes which mock the real tools and they can send, they can do action on top of these sandboxes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            719.53,
+            726.957
+          ],
+          "quote": "So instead of the blast radius hitting the real world, it will hit a sandbox and then I can review it before the agent does the real thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            728.005,
+            735.829
+          ],
+          "quote": "Put those two together and you've got something KnowledgeWork never had, a way for agent to check its own work before it's even real.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            749.455,
+            751.636
+          ],
+          "quote": "Next thing, the agent needs is governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            752.237,
+            756.679
+          ],
+          "quote": "Building trust is controlling what the agent can do, putting up the right walls around the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            764.295,
+            768.76
+          ],
+          "quote": "The agent can do whatever it wants on its own branch, but it can't merge to main.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            792.857,
+            798.562
+          ],
+          "quote": "None of it slows the agent down in safe parts, just prevents it from fucking up production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            799.783,
+            804.347
+          ],
+          "quote": "And the tighter those lines are, the more you can trust the agent and let it go berserk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            807.706,
+            815.853
+          ],
+          "quote": "The Director of Alignment at MetaSuperintelligence Lab hooked up an agent to its email, and it started destroying its email, deleting a lot of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            834.572,
+            842.696
+          ],
+          "quote": "And if someone whose sole job is AI alignment can't prompt the agent correctly, then probably none of us can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            874.81,
+            876.511
+          ],
+          "quote": "The agent will find those loopholes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            889.619,
+            896.424
+          ],
+          "quote": "Not like a better instruction, but wall that the agent can't cross, even if it forgot that wall existed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            903.838,
+            909.439
+          ],
+          "quote": "The first layer is deterministic, control over what the agent can reach, what it has access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            910.04,
+            912.72
+          ],
+          "quote": "A hiring agent can probably just read the emails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            913.2,
+            917.261
+          ],
+          "quote": "A support agent can create a draft email but not actually send it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            920.101,
+            923.722
+          ],
+          "quote": "It can't be argued with by the agent or forgotten or compacted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            924.522,
+            928.583
+          ],
+          "quote": "Use instruction failed because it lived in agent's memory in the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            930.982,
+            940.169
+          ],
+          "quote": "But access alone wouldn't have saved her because she was actually building an email agent, so it definitely needed access to that email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            940.369,
+            948.714
+          ],
+          "quote": "The other thing that we do is provide policies, which is you can define national language policies of what the agent can do even with those accesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            960.845,
+            969.075
+          ],
+          "quote": "So between those two things, one layer controls what the agent can reach, and the other layer can control the behavior with what it can do with that reach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            969.475,
+            975.162
+          ],
+          "quote": "Together, it's real governance for the agent, not asking the agent to behave, but enforcing it what it can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1049.805,
+            1051.906
+          ],
+          "quote": "With code, you can trust the agent after the fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1056.367,
+            1060.528
+          ],
+          "quote": "The only place left for you is to trust before the agent acts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1094.222,
+            1109.518
+          ],
+          "quote": "But for actions that you can't undo at all, like hard deletes that disappear the emails from your inbox, we again provide a sandbox where the agent can do the thing first in the sandbox and you can review it and then actually goes into the production environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1125.521,
+            1132.744
+          ],
+          "quote": "The ones we couldn't, the agent would hit the sandbox first, and she would be notified, your 1,200 emails are going to get deleted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1202.743,
+            1207.746
+          ],
+          "quote": "And if you are building an agent, just point it to Composio and see the magic happen for knowledge work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成模拟真实工具的环境:破坏性或不可逆操作先在沙箱里执行、人工审查后才进真实环境,是事前拦截错误的关键机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            719.53,
+            726.957
+          ],
+          "quote": "So instead of the blast radius hitting the real world, it will hit a sandbox and then I can review it before the agent does the real thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1094.222,
+            1109.518
+          ],
+          "quote": "But for actions that you can't undo at all, like hard deletes that disappear the emails from your inbox, we again provide a sandbox where the agent can do the thing first in the sandbox and you can review it and then actually goes into the production environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1125.521,
+            1132.744
+          ],
+          "quote": "The ones we couldn't, the agent would hit the sandbox first, and she would be notified, your 1,200 emails are going to get deleted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1137.915,
+            1145.697
+          ],
+          "quote": "But across billions of actions that we are going through, we are learning on the way which ones can be walked back, which ones can't, and preparing the sandbox accordingly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "六个原语之一,分两种:架构(事物如何流动关联的地图)与风格(『好』在你公司长什么样);知识工作智能体缺这种上下文,只能靠猜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            411.112,
+            413.314
+          ],
+          "quote": "The next thing an agent needs is context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            414.155,
+            417.198
+          ],
+          "quote": "And there are really two kinds of context if you think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            489.403,
+            494.965
+          ],
+          "quote": "I'm able to write this doc because I'm pulling the threads across all these tools into one single context in my head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            495.725,
+            500.567
+          ],
+          "quote": "So putting history and context together, that's how you map how the organization works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            556.072,
+            567.002
+          ],
+          "quote": "And that's the context that was missing for a knowledge work agent, how the work actually gets done, the real playbook of sorts, and the preference of a company, of a personal user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1179.589,
+            1183.651
+          ],
+          "quote": "No history, no context, no ways to verify, no guardrails, no undo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "六个原语之一:编程智能体靠单元测试、集成测试、类型系统等自己闭合验证循环;知识工作没有这种测试,本集主张用风格比对和沙箱在事前构建缺失的检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            580.237,
+            580.778
+          ],
+          "quote": "Verification.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "治理 (governance)",
+      "file": "治理",
+      "primary": true,
+      "how_described": "六个原语之一:本集主张提示词不是护栏(会在上下文压缩中丢掉),真正的墙须建两层——智能体之外的确定性访问控制,加自然语言策略约束权限内行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            749.455,
+            751.636
+          ],
+          "quote": "Next thing, the agent needs is governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            784.43,
+            791.716
+          ],
+          "quote": "The governance is not a single gate, but multiple of them, and each varying its sizes depending on the blast radius it exposes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            969.475,
+            975.162
+          ],
+          "quote": "Together, it's real governance for the agent, not asking the agent to behave, but enforcing it what it can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reversibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "可逆性 (reversibility)",
+      "file": "可逆性",
+      "primary": true,
+      "how_described": "六个原语中最难复刻的:代码可 revert、bisect,事后信任智能体;知识工作多数操作没有撤销按钮、失败是永远的,只能事前把关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            978.462,
+            980.083
+          ],
+          "quote": "The last pillar, reversibility.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1076.279,
+            1078.802
+          ],
+          "quote": "Reversibility is the hardest to replicate in knowledge work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "centralization",
+      "type": "concept",
+      "role": "concept",
+      "name": "中心化 (centralization)",
+      "file": "中心化",
+      "primary": true,
+      "how_described": "六个原语之首:编程智能体起点就拥有代码库这一单一事实来源,而知识工作的信息散落在 Salesforce、Notion、Gmail、Slack、Zendesk 等平台,需构建『缺失的中心』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            144.119,
+            145.54
+          ],
+          "quote": "First is centralization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            357.178,
+            365.245
+          ],
+          "quote": "Now, because everything finally runs through one single place, that centralization, we can build a layer on top of it, the record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            506.528,
+            517.612
+          ],
+          "quote": "So as we did centralization and logging, the record we just built, the one that gives the agent memory and lets you check what it did, also does one more interesting thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

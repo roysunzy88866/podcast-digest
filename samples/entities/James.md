@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]] [[Anjney Midha]] [[Alex Atallah]]
+[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":347,"沙箱":62,"会话日志追踪":2,"多智能体系统":6,"Managed Agents":4,"Anthropic":150,"Cloudflare":12,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":350,"沙箱":63,"会话日志追踪":2,"多智能体系统":6,"Managed Agents":4,"Anthropic":151,"Cloudflare":12,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

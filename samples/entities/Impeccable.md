@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Impeccable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Impeccable">IM</div><div class="pi"><h1 class="pt">Impeccable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>7</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Impeccable">IM</div><div class="pi"><h1 class="pt">Impeccable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]]**(00:27起):本集主角:一个能把编程 harness 变成更好设计师的设计技能,适用于 Claude Code、GitHub Copilot、Cursor、Codex 等各种 harness,核心是把设计师的语言压缩成形容词与动词构成的技能系统
+- **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(01:12起):本集主角:Paul 开源的一套给 Claude Code、Codex 等编程智能体用的前端设计技能(impeccable.style),被他打造成一个'设计 harness',内含 critique/polish 命令、设计 linter、hooks、live mode 和按 harness × 模型编译的构建体系
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]] — 作为被讨论公司
+- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Paul Bakaus]] · [[harness]] · [[智能体]] · [[一次性设计]] · [[AI 垃圾内容]] · [[品味]] · [[形容词引导设计]]
+[[Paul Bakaus]] · [[harness]] · [[品味]] · [[智能体]] · [[技能]] · [[一次性设计]] · [[子智能体]] · [[AI 垃圾内容]] · [[Claude Code]] · [[形容词引导设计]]
 
-<script type="application/json" class="pd-epn">{"Paul Bakaus":1,"harness":46,"智能体":347,"一次性设计":1,"AI 垃圾内容":3,"品味":12,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Paul Bakaus":2,"harness":48,"品味":13,"智能体":350,"技能":23,"一次性设计":1,"子智能体":4,"AI 垃圾内容":3,"Claude Code":83,"形容词引导设计":1}</script>
 
 <script>
 (function(){
