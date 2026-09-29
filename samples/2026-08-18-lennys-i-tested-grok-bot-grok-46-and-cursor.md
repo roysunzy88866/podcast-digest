@@ -112,7 +112,7 @@ Claude 没做到，Codex 也没做到 <button class="pd-ts" data-t="05:04" data-
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor、Claude、Codex · 同概念:MCP、智能体 (agent)</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor、Codex · 同概念:智能体 (agent)、MCP</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同公司:Cursor、GitHub · 同概念:智能体 (agent)</span>
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Claude、GitHub · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

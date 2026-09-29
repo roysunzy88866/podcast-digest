@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
+[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Instagram":5,"TikTok":6,"Anthropic":152,"Facebook":16,"open ai":2,"Twitter":7,"Reels":2,"Stories":2,"pods":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Instagram":5,"TikTok":6,"Anthropic":153,"Facebook":16,"open ai":2,"Twitter":7,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

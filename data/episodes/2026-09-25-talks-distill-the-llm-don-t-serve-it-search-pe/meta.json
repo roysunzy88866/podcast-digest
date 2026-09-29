@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/ACPEpji5NV4.m4a",
+  "duration_sec": 1321.77,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 180,
+  "asr": true,
+  "title_en": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+  "podcast": "精选演讲",
+  "date": "2026-09-25",
+  "added": "2026-09-30",
+  "added_at": "2026-09-29T18:43:43.843Z",
+  "speaker_map": {
+    "SPEAKER_00": "Raghav Saboo"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Raghav Saboo"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "LLM 重造 DoorDash 搜索与推荐:四个基础组件",
+  "guest_name": "Raghav Saboo",
+  "guest_title": "DoorDash 资深机器学习工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

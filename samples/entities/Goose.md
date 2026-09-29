@@ -35,7 +35,7 @@ unlisted: true
 
 [[Block]] · [[智能体]] · [[MCP]] · [[Lenny]] · [[Alex Hancock]] · [[Dhanji Prasanna]] · [[Zed]] · [[康威定律]] · [[JetBrains]] · [[职能型架构]]
 
-<script type="application/json" class="pd-epn">{"Block":3,"智能体":354,"MCP":64,"Lenny":68,"Alex Hancock":1,"Dhanji Prasanna":1,"Zed":3,"康威定律":2,"JetBrains":2,"职能型架构":1}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"智能体":356,"MCP":65,"Lenny":68,"Alex Hancock":1,"Dhanji Prasanna":1,"Zed":3,"康威定律":2,"JetBrains":2,"职能型架构":1}</script>
 
 <script>
 (function(){

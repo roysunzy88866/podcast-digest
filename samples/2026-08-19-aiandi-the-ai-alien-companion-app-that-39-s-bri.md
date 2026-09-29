@@ -130,7 +130,7 @@ Quinton 补了一个创业观上的转变:B2B SaaS 的货币是「解决一个�
 
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同公司:Tolan · 同概念:记忆策展 (memory)、LLM</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM、记忆策展 (memory)</span>
-- [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|下一代游戏引擎不会有使用手册]]<span class="pd-rz">同概念:LLM、提示词 (prompt)</span>
+- [[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|LLM 重造 DoorDash 搜索与推荐:四个基础组件]]<span class="pd-rz">同概念:LLM、记忆策展 (memory)</span>
 
 </div>
 <div class="pd-ex">

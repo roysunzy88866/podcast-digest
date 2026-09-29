@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":8,"具身智能":1,"苦涩的教训":10,"神经网络":1,"机器学习":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":10,"具身智能":1,"苦涩的教训":10,"神经网络":1,"机器学习":4}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":354,"Claude Code":84,"Kubernetes":12,"提示词注入":18,"可观测性":32,"MCP":64,"推理":60}</script>
+<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":356,"Claude Code":84,"Kubernetes":13,"提示词注入":18,"可观测性":33,"MCP":65,"推理":60}</script>
 
 <script>
 (function(){

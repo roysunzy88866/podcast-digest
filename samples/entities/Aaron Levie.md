@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":60,"Sofia Puccini":4,"智能体":354,"Theo Jaffe":7,"应用层":3,"Anthropic":152,"LLM 套壳":1,"OpenAI":140}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":7,"推理":60,"Sofia Puccini":4,"智能体":356,"Theo Jaffe":7,"应用层":4,"Anthropic":153,"LLM 套壳":1,"OpenAI":140}</script>
 
 <script>
 (function(){

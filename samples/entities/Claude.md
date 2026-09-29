@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>70</b> 集 · <b>38</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>71</b> 集 · <b>38</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -80,6 +80,7 @@ unlisted: true
 - **[[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]]**(10:05起):本集说从去年年底开始,Claude 在 Tolan iOS 应用里共同编写的代码超过了团队任何一位工程师,且无崩溃率、运行时错误反而变好
 - **[[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]]**(03:38起):本集提到:Opus 4 与 Claude Agent SDK 开启了把 Claude 当小型智能体循环嵌入更大软件的时代;全栈押注 Claude 一家是诱人但围墙花园式的选择
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(22:36起):本集说 Gusto 每个PM、工程师、设计师都能去问 Claude 匿名化的客户数据问题，原本几周几个月的用户研究现在几分钟起步
+- **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(18:08起):本集把 Claude 作为 AI 编码助手的代表：Autobot 起初是「盒装 Claude Code」；Liz 的翻车案例中被助手凭空断言缺字段后签字担责——「Claude 干的不是借口」；她也借 Claude 修出 ARM64 启动 bug 的六行补丁合入上游。
 
 ## ① 提到它的金句
 
@@ -163,7 +164,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*70 集*
+*71 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -235,14 +236,15 @@ unlisted: true
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]] — 作为概念
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|《软件工厂的教训：不读代码的四五个月后，我们重写了整个产品》]] — 作为被讨论公司(提及)
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[MCP]] · [[Google]] · [[沙箱]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[MCP]] · [[Lenny]] · [[Google]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":354,"Anthropic":152,"ChatGPT":82,"OpenAI":140,"Codex":62,"Lenny":68,"MCP":64,"Google":49,"沙箱":64,"Claude Code":84}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"Anthropic":153,"ChatGPT":82,"OpenAI":140,"Codex":62,"MCP":65,"Lenny":68,"Google":50,"沙箱":64,"Claude Code":84}</script>
 
 <script>
 (function(){

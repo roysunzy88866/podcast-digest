@@ -159,9 +159,9 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Claude · 同概念:CI/CD、劣质代码 (slop)、智能体 (agent)</span>
 - [[2026-08-21-talks-building-blocks-for-uber-s-software-fact|Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写]]<span class="pd-rz">同概念:CI/CD、智能体 (agent)</span>
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|软件工厂的教训：不读代码的四五个月后，我们重写了整个产品]]<span class="pd-rz">同概念:劣质代码 (slop)、智能体 (agent)</span>
-- [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺]]<span class="pd-rz">同概念:劣质代码 (slop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

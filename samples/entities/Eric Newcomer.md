@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":45,"Hugging Face":25,"开源":27,"蒸馏":12,"推理":60,"新云":3,"前沿模型":21,"垂直 AI":2,"智能体":354}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":46,"Hugging Face":25,"开源":27,"蒸馏":1,"推理":60,"新云":3,"前沿模型":21,"垂直 AI":2,"智能体":356}</script>
 
 <script>
 (function(){

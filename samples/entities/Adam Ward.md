@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
+[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Cursor":71,"Growth by Design":1,"Anthropic":152,"Facebook":16,"厄运漏斗":1,"前向部署工程师":1,"人才密度":4,"工作样本":1,"人才工程师":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Cursor":71,"Growth by Design":1,"Anthropic":153,"Facebook":16,"厄运漏斗":1,"前向部署工程师":1,"人才密度":4,"工作样本":1,"人才工程师":1}</script>
 
 <script>
 (function(){

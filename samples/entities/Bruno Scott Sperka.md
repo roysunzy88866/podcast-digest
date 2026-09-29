@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":24,"Terraform":1,"Hashicorp":1,"Kubernetes":12,"开源":27,"智能体":354,"PR":6,"AI":23,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":25,"Terraform":1,"Hashicorp":1,"Kubernetes":13,"开源":27,"智能体":356,"PR":6,"AI":23,"工匠精神":1}</script>
 
 <script>
 (function(){

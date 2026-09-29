@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":70,"Claude Code":84,"智能体":354,"对抗性智能体":1,"MCP":64,"知识库":2,"技能":23,"vibe coding":41,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":71,"Claude Code":84,"智能体":356,"对抗性智能体":1,"MCP":65,"知识库":2,"技能":23,"vibe coding":41,"红队测试":4}</script>
 
 <script>
 (function(){

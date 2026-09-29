@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":6,"NewLimit":2,"智能体":354,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
+<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":6,"NewLimit":2,"智能体":356,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
 
 <script>
 (function(){

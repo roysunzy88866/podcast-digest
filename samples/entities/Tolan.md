@@ -37,7 +37,7 @@ unlisted: true
 
 [[LLM]] · [[记忆]] · [[Portola]] · [[提示词]] · [[评审器]] · [[响应时间]] · [[即兴演员]] · [[Quintin]] · [[Paula Dozsa]] · [[设定种子]]
 
-<script type="application/json" class="pd-epn">{"LLM":47,"记忆":17,"Portola":2,"提示词":19,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"Paula Dozsa":1,"设定种子":1}</script>
+<script type="application/json" class="pd-epn">{"LLM":48,"记忆":18,"Portola":2,"提示词":19,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"Paula Dozsa":1,"设定种子":1}</script>
 
 <script>
 (function(){

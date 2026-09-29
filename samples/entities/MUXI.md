@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Maple]] · [[Ran Arusi]] · [[智能体]] · [[可教授的知识与习得的知识]] · [[工作流]] · [[软件工厂]] · [[律所模式]] · [[Automaze]] · [[Y Finance]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Ran Arusi":1,"智能体":354,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"Y Finance":1,"Anthropic":152}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Ran Arusi":1,"智能体":356,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"Y Finance":1,"Anthropic":153}</script>
 
 <script>
 (function(){

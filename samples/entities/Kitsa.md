@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":354,"编排器":3,"护栏":65,"循环":8,"规则":2,"police 文件":1,"vibe coding":41,"vibe engineering":1,"技能文件":4,"Codex":62}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"编排器":3,"护栏":65,"循环":8,"规则":2,"police 文件":1,"vibe coding":41,"vibe engineering":1,"技能文件":4,"Codex":62}</script>
 
 <script>
 (function(){

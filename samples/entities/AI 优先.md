@@ -35,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeetu Patel]] · [[Ken]] · [[Lenny]] · [[Dave Fletcher]] · [[Cisco]] · [[Lead Dev]] · [[NVIDIA]] · [[AI 编程工具]] · [[Box]] · [[可观测性]]
+[[Jeetu Patel]] · [[Ken]] · [[Lenny]] · [[Dave Fletcher]] · [[Cisco]] · [[Lead Dev]] · [[NVIDIA]] · [[Honeycomb]] · [[Box]] · [[AI 编程工具]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":68,"Dave Fletcher":1,"Cisco":3,"Lead Dev":1,"NVIDIA":45,"AI 编程工具":2,"Box":4,"可观测性":32}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":68,"Dave Fletcher":1,"Cisco":3,"Lead Dev":1,"NVIDIA":46,"Honeycomb":2,"Box":4,"AI 编程工具":2}</script>
 
 <script>
 (function(){

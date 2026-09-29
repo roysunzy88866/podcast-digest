@@ -140,8 +140,8 @@ Wade 展示了他最常用的几个个人智能体(全部用 Cursor 构建、部
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:原型 (prototype)、智能体 (agent)、PRD</span>
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:AI 垃圾内容 (slop)、智能体 (agent)、MCP</span>
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|用 AI 对抗 AI：一种不用读代码的编程语言 BAML]]<span class="pd-rz">同概念:AI 垃圾内容 (slop)、智能体 (agent)</span>
-- [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同概念:智能体 (agent)、编码智能体 (coding agent)</span>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>47</b> 集 · <b>39</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>48</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -56,12 +56,13 @@ unlisted: true
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(06:56起):买家行为变化的第一性原因：人们在 LLM 里消化信息，「LLM 就是新的网站访客」；它有非确定性/随机因素，需要统计建模来测量可见性。
 - **[[2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin|《用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧》]]**(09:56起):本集说要把一个 LLM 放进轮牧决策循环的中心,做自主放牧:基于牛群 GPS、草高、干旱等多变量给出「下一个最佳位置」的建议、由人确认,并主张很多问题本无确定性算法可解。
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(12:14起):本集说对多数企业，拿到一个安全、被批准的 LLM 访问仍是最大障碍；且 LLM 应与调用它的应用和数据尽量同地部署，离 30 跳远的延迟在大规模下就是问题。
+- **[[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|《LLM 重造 DoorDash 搜索与推荐:四个基础组件》]]**(05:02起):本集的核心杠杆:LLM 提供可规模化的推理信号、生成分级相关性标签、支撑语义 ID 与记忆,但主张『在线的 LLM 调用往往不是你所需要的产品架构』。
 - **[[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]]**(06:28起):本集主张不训练专用机器人模型，而是构建非常好的基础 LLM 直接控制机器人——强语言模型即强机器人模型。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(04:31起):本集反复把它与 Jev 对照:标准 LLM 是文本进、文本出,擅长生成内容(聊天、写代码),但输出 token 贵;而 Jev 只做决策。Jev 搭配一个 LLM 搭档被说成是超级强大的用法。
 
 ## ① 提到它的金句
 
-*39 条*
+*41 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -137,13 +138,17 @@ unlisted: true
 
 ![[2026-09-23-talks-skill-issue-stop-deploying-vision-langua#^q2]]
 
+![[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe#^q4]]
+
+![[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe#^q7]]
+
 ![[2026-09-26-yc-robot-use-agents-why-general-purpose-mod#^q3]]
 
 ![[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto#^q7]]
 
 ## ② 出现在这些集
 
-*47 集*
+*48 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -190,6 +195,7 @@ unlisted: true
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 - [[2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin|《用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧》]] — 作为概念
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
+- [[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|《LLM 重造 DoorDash 搜索与推荐:四个基础组件》]] — 作为概念
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]] — 作为概念
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
 
@@ -199,7 +205,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Claude Code]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":354,"Anthropic":152,"ChatGPT":82,"Claude Code":84,"Lenny":68,"Claude":70,"OpenAI":140,"MCP":64,"Google":49,"Cursor":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"Anthropic":153,"ChatGPT":82,"Claude Code":84,"Lenny":68,"Claude":71,"OpenAI":140,"MCP":65,"Google":50,"Cursor":71}</script>
 
 <script>
 (function(){

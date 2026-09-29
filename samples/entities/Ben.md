@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
+[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":354,"ChatGPT":82,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":47,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":356,"ChatGPT":82,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":48,"量化投资":1}</script>
 
 <script>
 (function(){

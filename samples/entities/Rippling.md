@@ -35,7 +35,7 @@ unlisted: true
 
 [[单点解决方案]] · [[Salesforce]] · [[智能体]] · [[记录系统]] · [[Matt MacInnis]] · [[Sam Blond]] · [[Rory O'Driscoll]] · [[Lenny]] · [[Monaco]] · [[Jason Lemkin]]
 
-<script type="application/json" class="pd-epn">{"单点解决方案":2,"Salesforce":32,"智能体":354,"记录系统":5,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1,"Lenny":68,"Monaco":1,"Jason Lemkin":2}</script>
+<script type="application/json" class="pd-epn">{"单点解决方案":2,"Salesforce":32,"智能体":356,"记录系统":5,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1,"Lenny":68,"Monaco":1,"Jason Lemkin":2}</script>
 
 <script>
 (function(){

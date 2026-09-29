@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":17,"上下文":24,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":354,"代码治理":1,"语义规则":1,"Claude Code":84}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":18,"上下文":24,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":356,"代码治理":1,"语义规则":1,"Claude Code":84}</script>
 
 <script>
 (function(){

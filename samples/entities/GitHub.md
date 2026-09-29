@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]]**(01:12起):本集提到装个 GitHub app、点几下按钮就能让智能体审查 PR，以及通过 GitHub 应用来设置代码审查透镜
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(04:36起):本集开源工具用全确定性编程遍历你的 GitHub,搞清团队里谁在提交、在哪提交、谁在审查,产出专家图谱
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(06:35起):本集说工厂与 GitHub 集成、自动创建 PR，上个月超过 2000 个 PR
+- **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):仅在片头广告里作为 AI DevCon 演讲方被列名，本集未讨论。
 
 ## ① 提到它的金句
 
@@ -44,7 +45,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
@@ -70,14 +71,15 @@ unlisted: true
 - [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]] — 作为被讨论公司(提及)
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为概念(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[MCP]] · [[Figma]] · [[沙箱]] · [[Codex]] · [[OpenAI]]
+[[智能体]] · [[Slack]] · [[Anthropic]] · [[Claude Code]] · [[MCP]] · [[Cursor]] · [[Figma]] · [[代码审查]] · [[Codex]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"智能体":354,"Slack":29,"Claude Code":84,"Anthropic":152,"Cursor":71,"MCP":64,"Figma":22,"沙箱":64,"Codex":62,"OpenAI":140}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"Slack":29,"Anthropic":153,"Claude Code":84,"MCP":65,"Cursor":71,"Figma":22,"代码审查":18,"Codex":62,"可观测性":33}</script>
 
 <script>
 (function(){

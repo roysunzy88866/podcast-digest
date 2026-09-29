@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-talks-one-operator-many-drones-inside-skydio-s",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/2wgPHvW0mG8.m4a",
+  "duration_sec": 1238.412,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 200,
+  "asr": true,
+  "title_en": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+  "podcast": "精选演讲",
+  "date": "2026-09-24",
+  "added": "2026-09-30",
+  "added_at": "2026-09-29T17:36:42.854Z",
+  "speaker_map": {
+    "SPEAKER_00": "Suchet Bargoti"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Suchet Bargoti"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "当无人机变成基础设施：给机队下指令的人",
+  "guest_name": "Suchet Bargoti",
+  "guest_title": "Skydio",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

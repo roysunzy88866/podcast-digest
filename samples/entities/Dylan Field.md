@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP":64,"Lenny":68,"Nico":1,"Figma Make":2,"GitHub":24,"FigJam":1,"Notion":14,"Dev Mode":1,"Slack":29}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP":65,"Lenny":68,"Nico":1,"Figma Make":2,"GitHub":25,"FigJam":1,"Notion":14,"Dev Mode":1,"Slack":29}</script>
 
 <script>
 (function(){

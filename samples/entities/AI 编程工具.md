@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Dan Feng]] · [[Ken]] · [[Maven Clinic]] · [[Dave Fletcher]] · [[AI 原生公司]] · [[Lead Dev]] · [[Cursor]] · [[可观测性]] · [[代码审查]] · [[CI-CD]]
+[[Dan Feng]] · [[Ken]] · [[Maven Clinic]] · [[Dave Fletcher]] · [[AI 原生公司]] · [[Lead Dev]] · [[Cursor]] · [[Honeycomb]] · [[代码审查]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Dan Feng":1,"Ken":1,"Maven Clinic":1,"Dave Fletcher":1,"AI 原生公司":1,"Lead Dev":1,"Cursor":71,"可观测性":32,"代码审查":17,"CI-CD":13}</script>
+<script type="application/json" class="pd-epn">{"Dan Feng":1,"Ken":1,"Maven Clinic":1,"Dave Fletcher":1,"AI 原生公司":1,"Lead Dev":1,"Cursor":71,"Honeycomb":2,"代码审查":18,"可观测性":33}</script>
 
 <script>
 (function(){

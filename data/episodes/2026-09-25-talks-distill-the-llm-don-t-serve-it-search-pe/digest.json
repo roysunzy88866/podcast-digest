@@ -1,0 +1,154 @@
+{
+  "title_zh": "LLM 重造 DoorDash 搜索与推荐:四个基础组件",
+  "tldr": "DoorDash 资深机器学习工程师 Raghav 讲解团队如何用监督信号、语义 ID、记忆、内容生成四个组件,把 LLM 的推理蒸馏进搜索与推荐系统。",
+  "digest_md": "这一集是 DoorDash 资深机器学习工程师 Raghav 的技术演讲,他负责搜索和个性化方向。DoorDash 早已不只是送餐——生鲜杂货、零售、宠物、礼品都在做,目标是「抓住每一个可购物的时刻」。他的核心论断是:**要构建有效的发现(discovery)体验,真正的瓶颈是语义理解**——即在给定上下文下,弄清楚一件商品对用户意味着什么、购物者到底想干什么。而历史上大家一直把这些当「参与度优化」问题来处理,LLM 提供了一个全新的杠杆 [00:50 Raghav]。\n\n一个典型场景:用户刚领养了一只小狗,问「这周我需要准备些什么」。她可能先搜幼犬粮,然后这个查询会展开成一系列改写、进入其他需求的合集页、再到笼子、牵引绳、训练垫这些互补商品,一路到结账,而且可能横跨多个会话、好几天。要捕捉这整条弧线很难,因为它横跨多个模型。Raghav 给出的答案是四个基础组件(原语):**监督信号、目录语义、语义个性化、可控内容生成**——一套共享表示的系统,用 LLM 把顾客旅程映射起来 [02:55 Raghav]。\n\n## 第一个组件:用 LLM 造「可规模化的推理监督信号」\n\n检索和排序系统需要被教会「对某个任务来说,什么才叫好」。经典例子:用户搜「无麸质意面」,如果只按参与度排序,卖得火的普通意面、甚至只是沾了「无麸质」关键词的无麸质白面包都会冒出来——但都不是正确答案。真正想要的是**分级相关性**:真正的无麸质意面是高相关,鹰嘴豆意面是合理替代品,普通意面虽然畅销但违背了用户的约束 [03:50 Raghav]。\n\n问题在于信号来源:人工标注昂贵、慢、还容易过时(目录变化很快);行为信号量足但被曝光、位置、价格、促销和旧模型的选择带偏。缺的是一个**可规模化的推理信号**,这正是 LLM 能补的 [04:33 Raghav]。\n\n他们的流水线是:先人工构建一个高质量的查询-商品对种子集,用 0/1/2 三级相关性量表打标;对可疑案例做审计——比如人工标了「不相关」但加购/转化表现很好的商品,就发给更强的 LLM 用更细粒度的提示词重新评估;再和查询-类目模型调和,如果查询映射到的有效类目里确实包含这个商品,就相应调整标签。最终得到精度很高的黄金数据集,再用它**微调一个轻量级 LLM 做打标器**,离线跑全量目录,生成全量分级标注。这些标签成为检索和排序系统**共享的训练目标**。Raghav 点出这个模式的核心:**离线用一次昂贵的推理,然后蒸馏进可以廉价、快速服务的模型** [06:10 Raghav]。\n\n## 检索与排序怎么吃下这些标签\n\n标准嵌入(把文本压缩成语义向量)在电商规模下会迅速模糊相关性区分:仅仅「相关」的商品和真正「匹配」的商品在向量空间里挤在一起,分不清精确匹配、替代品和互补品。他们的解法是**两阶段对比学习**,用同一套分级标签训练:第一阶段用双塔编码器加多级监督对比损失做全局几何形态塑造;第二阶段用基础模型去挖「困难负样本」——模型排得过高的负例和排得过低的正例,重新打标后做课程式训练。第一阶段后相关与中度相关还有重叠,第二阶段后就区分开了。这是他们最大的杠杆之一:相关性 NDCG 提升 2.3%,下游业务指标同步改善 [08:00 Raghav]。\n\n排序模型同样把 LLM 标签蒸馏进去:在点击、加购、转化的参与度塔旁边**新加一个「序数相关性塔」**,因为共享底层,语义相关性在同一次反向传播中被蒸馏进去;再用一个价值函数在不同界面上微调参与度与相关性的权衡 [08:31 Raghav]。注意他们**不是用 LLM 替换检索排序系统,而是把推理蒸馏进生产级架构**——这样既保留业务和系统目标,又能快速试验、可扩展地改进 [09:06 Raghav]。\n\n## 第二个组件:语义 ID——几十亿商品的通用「语言」\n\n在商店-商品粒度上,DoorDash 的目录有几十亿个商品。SKU ID 在语义上什么也不说明;人工整理的类目体系又太粗太僵——辣酱在类目里可能只有「酱/辣酱」一层,完全说不出是是拉差、Franks 还是 Tabasco。于是他们引入**语义 ID**:一段短的层级化编码,前缀捕捉粗粒度邻域、后面的 token 捕捉更细的区分,而且细粒度可控。效果是零标签就能从数据中涌现出结构:各种辣酱共享相同的前缀,然后按特色自动分成墨西哥、加勒比、韩国辣酱 [11:24 Raghav]。\n\n这套编码可以被所有下游模型使用,解锁了四件事:①跨类目关系——薯片、莎莎酱、牛油果酱在类目树上各在一支,但语义邻域相近,说明它们在某个购物任务里属于一起;②冷启动——新商品用 ngram 和字节对编码转成稀疏 ID 特征,可扩展地加进模型;③长尾覆盖——稀疏商品直接从语义近邻继承信号,不必等销量和曝光;④反向审计——用学习出的语义标注反过来检查人工标注的质量 [12:47 Raghav]。\n\n实际收益:它把 MRR 提升 4% 到 5%,并转化为可观的转化率收益。另一个 Raghav 特别喜欢的应用是**查询改写**——是拉差可以关联到蒜蓉辣椒酱或 sambal oelek;因为这些改写映射到以目录为依据的语义邻域,推荐给用户的查询相关性大大提高。他强调:如果改写出的查询在 DoorDash 上没有库存,那就毫无意义——语义 ID 让查询图始终「落地」在真实目录上 [13:51 Raghav]。\n\n## 第三个组件:把「记忆」搬进推荐系统\n\n下一个问题是消费者上下文:系统知道购物者什么,这些知识能否跨模型复用?用户嵌入有用,但解释不了用户**为什么**有某些意图和偏好;而且 LLM 没法直接用嵌入向量——你可以分词训练模型去学,但他们发现,有一个**显式的、LLM 原生的对应形式**非常有用 [14:54 Raghav]。\n\n他们把推荐系统套用智能体语境里已经很成熟的「记忆」概念,分三种时间尺度:**长期记忆**从订单、搜索、浏览、客服互动中捕捉持久偏好;**实时上下文**捕捉会话内信息,如购物车状态、进行中的搜索;**明示偏好**来自智能体互动——比如 AskDoordash 这种产品里用户显式说出的约束和偏好 [15:44 Raghav]。\n\n长期记忆用「记忆块」表示,结构化设计允许随了解加深不断加新维度:饮食偏好、用餐偏好、替代品偏好等,并且与下游系统解耦、下游无需重新解释。记忆以三种形式实体化:人类可读的紧凑文本;记忆块的嵌入向量(喂给检索排序);以及图/树/层级结构——比如把消费者和提取出的记忆概念连成**上下文图**。图特别适合购物旅程,因为消费者-商品交互稀疏且需要多跳,上下文图能把此前没有关系的记忆概念连起来,在细粒度类目层级上尤其有效——基于图的嵌入检索已经胜过他们原有的基于类目体系的嵌入 [17:40 Raghav]。目前这个记忆框架用在三处:个性化合集、AskDoordash 的智能体个性化会话、以及作为特征喂进检索排序模型 [18:10 Raghav]。\n\n## 第四个组件:可控内容生成,把三者拼起来\n\n四个组件最终拼成一张图:语义 ID、记忆块、LLM 分级相关性共同输入多个模型(LLM、小语言模型、传统模型),生成不同输出形态——排序后的语义 ID 列表、轮播标题、副文案,落在 DoorDash 的各个界面上 [18:37 Raghav]。\n\n最直接的例子是门店页面的**个性化合集**。过去 DoorDash 的合集是固定库或按属性生成;现在是一个离线 LLM 流程,输入消费者记忆和语义 ID,合成从标题、副标题到实际商品的完整合集。关键在**可控性**:能针对场合和时刻按需为不同消费者构建——有植物基偏好的用户看到「植物基食品货架」,只养猫的家庭看到猫粮货架,会话显示在补货就偏向食品杂货常备品 [20:23 Raghav]。服务时因为全是离线批量生成的,仍复用现有检索排序栈做商品填充和合集排序。早期测试显示宠物品类下单率提升接近 1%、活跃用户提升 0.6% [20:37 Raghav]。\n\n## 三个总结要点\n\nRaghav 最后给出三条:**第一,发现是语义理解问题**,不只是参与度,LLM 让我们能推理商品含义和购物者意图;**第二,把 LLM 推理蒸馏成基础组件**——离线捕获为标签、语义 ID、记忆,让更小更快的模型去服务,「在线的 LLM 调用往往不是你所需要的产品架构」;**第三,共享表示创造大量用例**——一旦有了这些组件,检索、排序、内容生成都能被它们支撑 [21:35 Raghav]。\n\n## 本集带走\n\n- **缺的信号是「可规模化的推理信号」**:人工标注贵且过时,行为信号带偏;用 LLM 离线生成分级相关性标签,是补这块的杠杆。\n- **先贵后便宜**:用强 LLM + 人工种子集造黄金数据,微调轻量打标器跑全量目录——昂贵推理只用一次,蒸馏进能廉价在线服务的模型。\n- **蒸馏而非替换**:不拿 LLM 直接换掉检索排序系统,而是把推理灌进生产架构(如新增相关性塔),保住业务指标和系统性能。\n- **语义 ID 是跨模型的共享货币**:层级编码前缀管粗、后缀管细,冷启动、长尾、查询改写、跨类目关系全都吃它,还能反向审计人工标注。\n- **记忆要「LLM 可用」**:嵌入 LLM 用不了,显式文本化的记忆块(长期/会话/明示偏好三时间尺度)才能同时喂给传统模型和 LLM。\n- **内容生成放在离线**:个性化合集全部批量离线生成,在线仍走原有检索排序栈——可控、可复用、不拖慢服务。",
+  "quotes": [
+    {
+      "en": "In this case, for a marketplace like DoorDash, the real bottleneck is semantic understanding.",
+      "zh": "对于像 DoorDash 这样的市场平台来说,真正的瓶颈是语义理解。",
+      "timestamp": "00:53",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "Use expensive reasoning once offline, then distill it into models that can be served cheaply and quickly.",
+      "zh": "离线使用一次昂贵的推理,然后把它蒸馏进可以廉价、快速地提供服务的模型中。",
+      "timestamp": "06:10",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "The challenge is standard embeddings at e-commerce scale quickly collapse the relevance distinction.",
+      "zh": "挑战在于,在电商规模下,标准嵌入很快会模糊掉相关性的区分。",
+      "timestamp": "06:23",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "Where it seems right, we're not replacing the retrieval and ranking system with an LLM, but rather distilling the reasoning and understanding into some production ranking architecture.",
+      "zh": "在合适的地方,我们不是用 LLM 替换检索和排序系统,而是把推理和理解蒸馏进某种生产级排序架构。",
+      "timestamp": "09:06",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "Ultimately, if these are queries that we don't have inventory for on DoorDash, they're meaningless.",
+      "zh": "归根结底,如果这些查询在 DoorDash 上没有库存,它们就毫无意义。",
+      "timestamp": "13:45",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "Capture reasoning offline as labels, semantic IDs, memory, and then let smaller and faster models serve it.",
+      "zh": "把推理离线捕获为标签、语义 ID、记忆,然后让更小更快的模型来服务它。",
+      "timestamp": "21:16",
+      "speaker": "Raghav Saboo"
+    },
+    {
+      "en": "The online LLM call is often not the product architecture you need.",
+      "zh": "在线的 LLM 调用往往不是你所需要的产品架构。",
+      "timestamp": "21:26",
+      "speaker": "Raghav Saboo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:53",
+      "speaker": "Raghav",
+      "en": "In this case, for a marketplace like DoorDash, the real bottleneck is semantic understanding.",
+      "zh": "对于像 DoorDash 这样的市场平台来说,真正的瓶颈是语义理解。"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Raghav",
+      "en": "And historically, we have treated these as engagement optimization problems.",
+      "zh": "而历史上,我们一直把这些当作参与度优化问题来处理。"
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Raghav",
+      "en": "However, LLMs give us a genuinely new lever to extend this.",
+      "zh": "然而,LLM 给了我们一个真正全新的杠杆来拓展这一点。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Raghav",
+      "en": "What we actually want is graded relevance.",
+      "zh": "我们真正想要的是分级相关性。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Raghav",
+      "en": "Use expensive reasoning once offline, then distill it into models that can be served cheaply and quickly.",
+      "zh": "离线使用一次昂贵的推理,然后把它蒸馏进可以廉价、快速地提供服务的模型中。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Raghav",
+      "en": "The challenge is standard embeddings at e-commerce scale quickly collapse the relevance distinction.",
+      "zh": "挑战在于,在电商规模下,标准嵌入很快会模糊掉相关性的区分。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Raghav",
+      "en": "Where it seems right, we're not replacing the retrieval and ranking system with an LLM, but rather distilling the reasoning and understanding into some production ranking architecture.",
+      "zh": "在合适的地方,我们不是用 LLM 替换检索和排序系统,而是把推理和理解蒸馏进某种生产级排序架构。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Raghav",
+      "en": "And for these items, you obviously have unique SKU IDs, but it says nothing semantically.",
+      "zh": "对于这些商品,你显然有唯一的 SKU ID,但它在语义上什么也说明不了。"
+    },
+    {
+      "timestamp": "11:00",
+      "speaker": "Raghav",
+      "en": "And the result of this learned taxonomy is that each item gets this hierarchical code and the prefix captures broad neighborhoods and the later tokens capture finer distinctions.",
+      "zh": "这个学习出来的类目体系的结果是,每个商品都得到一个层级化编码,前缀捕捉粗粒度的邻域,后面的 token 捕捉更细的区分。"
+    },
+    {
+      "timestamp": "13:45",
+      "speaker": "Raghav",
+      "en": "Ultimately, if these are queries that we don't have inventory for on DoorDash, they're meaningless.",
+      "zh": "归根结底,如果这些查询在 DoorDash 上没有库存,它们就毫无意义。"
+    },
+    {
+      "timestamp": "14:54",
+      "speaker": "Raghav",
+      "en": "You could tokenize and train these models to learn it, but oftentimes, having some explicit LLM-native counterpart is very useful, and that's what we have found.",
+      "zh": "你可以对它分词并训练模型去学,但很多时候,拥有某种显式的 LLM 原生对应形式非常有用,这正是我们的发现。"
+    },
+    {
+      "timestamp": "19:45",
+      "speaker": "Raghav",
+      "en": "We're able to react to occasions and moments and build those collections as needed for different consumers.",
+      "zh": "我们能够针对各种场合和时刻做出响应,并按需为不同的消费者构建这些合集。"
+    },
+    {
+      "timestamp": "20:30",
+      "speaker": "Raghav",
+      "en": "And our early tests show that consumers are feeling the benefits of these tailored experiences.",
+      "zh": "我们的早期测试表明,消费者正在感受到这些量身定制体验的好处。"
+    },
+    {
+      "timestamp": "20:58",
+      "speaker": "Raghav",
+      "en": "First, discovery is a semantic understanding problem.",
+      "zh": "第一,发现是一个语义理解问题。"
+    },
+    {
+      "timestamp": "21:12",
+      "speaker": "Raghav",
+      "en": "Capture reasoning offline as labels, semantic IDs, memory, and then let smaller and faster models serve it.",
+      "zh": "把推理离线捕获为标签、语义 ID、记忆,然后让更小更快的模型来服务它。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Raghav",
+      "en": "The online LLM call is often not the product architecture you need.",
+      "zh": "在线的 LLM 调用往往不是你所需要的产品架构。"
+    },
+    {
+      "timestamp": "21:31",
+      "speaker": "Raghav",
+      "en": "Third, shared representations create many use cases.",
+      "zh": "第三,共享表示创造许多用例。"
+    }
+  ],
+  "voice_script": "今天要讲的,是 DoorDash 的一位资深机器学习工程师 Raghav,他们团队负责搜索和个性化方向。DoorDash 早就不是单纯送餐了,生鲜杂货、零售、宠物、礼品都在做,目标是抓住每一个可购物的时刻。这一期要聊的问题就一句话:怎么把大语言模型的能力,真正装进搜索和推荐系统里。为什么现在值得聊?因为按 Raghav 的说法,要构建好的发现体验,真正的瓶颈是语义理解——也就是在具体场景下,弄清楚一件商品对用户意味着什么、购物者到底想干什么。而历史上大家一直把这当成参与度优化的问题,大语言模型提供了一个全新的杠杆。\n\n先听一个典型场景。用户刚领养了一只小狗,问这周我需要准备些什么。她可能先搜幼犬粮,然后这个查询会一路展开:进到各种需求合集页,再到笼子、牵引绳、训练垫这些互补商品,一路到结账。而且这整条弧线可能横跨好几天、好几次会话。要捕捉住它,靠单个模型是不行的。Raghav 给出的答案是四个基础组件:监督信号、目录语义、语义个性化、可控内容生成。一套共享表示的系统,用大语言模型把顾客的旅程整个映射起来。咱们一个一个说。\n\n先说第一个,也是最根本的:教系统知道什么才叫\"好\"。举个例子,用户搜无麸质意面,如果只按参与度排序,卖得火的普通意面、甚至只是沾了无麸质关键词的无麸质白面包都会冒出来——但都不是正确答案。真正想要的是分级相关性:真正的无麸质意面是高相关,鹰嘴豆意面是合理替代品,普通意面虽然畅销,但违背了用户的约束。那这个信号从哪来?人工标注又贵又慢还容易过时,因为目录变化很快;行为信号量倒是足,但被曝光位置、价格促销和旧模型的选择带偏。缺的是一个可规模化的推理信号,这正是大语言模型能补的。\n\n具体做法是:先人工建一个高质量的查询-商品对种子集,用零、一、二三级相关性打标;可疑案例拿去审计——比如人工标了不相关、但加购转化表现却很好的,就发给更强的模型用更细的提示词重新评估,再和查询-类目模型调和。最终得到精度很高的黄金数据集,再用它微调一个轻量的模型当打标器,离线跑全量目录,生成全量分级标注。有句话值得记住:离线用一次昂贵的推理,然后把它蒸馏进可以廉价、快速服务的模型。\n\n那这些标签,检索和排序系统怎么吃下去?这就引出一个技术难点:标准的嵌入——也就是把文本压缩成语义向量——在电商规模下,很快会模糊掉相关性的区分。仅仅相关的商品和真正匹配的商品,在向量空间里挤在一起。他们的解法是两阶段对比学习,用同一套分级标签训练:第一阶段塑造全局几何形态,第二阶段专门挖困难负样本重新打标。效果是相关性 NDCG 提升 2.3%,下游业务指标同步改善。排序模型这边,则在点击、加购、转化这些参与度塔旁边,新加一个序数相关性塔,语义相关性就在同一次反向传播中被蒸馏进去。注意,他们不是拿大模型替换检索排序系统,而是把推理蒸馏进生产级架构——业务指标和系统性能都保得住。\n\n第二个组件,是给几十亿个商品造一门通用语言,叫语义 ID。原来的商品 ID 在语义上什么也不说明,人工整理的类目又太粗太僵——辣酱在类目里可能就一层,完全说不出是是拉差还是 Tabasco。语义 ID 是一段短的层级化编码,前缀管粗粒度邻域,后面的部分管细的区分。效果是零标签就能从数据里涌现出结构:各种辣酱共享相同前缀,然后自动分成墨西哥、加勒比、韩国辣酱。这套编码能解锁跨类目关系、冷启动、长尾覆盖,还能反过来审计人工标注的质量。实际收益是 MRR 提升 4 到 5 个百分点。Raghav 特别喜欢的一个应用是查询改写:是拉差可以关联到蒜蓉辣椒酱,而且这些改写始终落地在真实目录上——用他的话说,如果改写出的查询在 DoorDash 上没有库存,那就毫无意义。\n\n第三个组件,把记忆搬进推荐系统。用户嵌入有用,但解释不了用户为什么有某些偏好,而且大语言模型没法直接用嵌入向量。所以他们借用了智能体领域已经很成熟的记忆概念,分三种时间尺度:长期记忆,从订单、搜索、客服互动里捕捉持久偏好;实时上下文,捕捉购物车状态这些会话内信息;还有明示偏好,来自用户在 AskDoorDash 这类产品里显式说出的约束。记忆以三种形式实体化,其中一种是图结构——把消费者和提取出的记忆概念连成上下文图,能把此前没有关系的概念连起来,基于图的检索已经胜过了原来基于类目体系的方案。\n\n第四个组件,可控内容生成,把前面三个拼起来。最直接的例子是门店页面的个性化合集:离线的大模型流程,输入消费者记忆和语义 ID,从标题到实际商品整套合成。关键在可控——有植物基偏好的用户看到植物基货架,只养猫的家庭看到猫粮货架。因为全是离线批量生成,在线仍然复用现有的检索排序栈。早期测试里,宠物品类下单率提升了接近 1%。\n\n最后收三条。第一,发现是语义理解问题,不只是参与度。第二,把大模型的推理离线捕获成标签、语义 ID、记忆,让更小更快的模型来服务它——在线的大模型调用,往往不是你真正需要的产品架构。第三,共享表示会创造出大量的用例,检索、排序、内容生成都被它们支撑。对一个市场平台来说,真正的瓶颈是语义理解,而这一次,我们终于有了能规模化推理的工具。"
+}

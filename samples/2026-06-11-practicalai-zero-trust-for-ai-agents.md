@@ -143,9 +143,9 @@ Daniel 提到 Anthropic 文档里的一个哲学级转变——**AI 供应商化
 
 **换个口味**
 
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同嘉宾:Chris Benson · 同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、可观测性 (observability)、智能体 (agent)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

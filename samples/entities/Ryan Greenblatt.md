@@ -66,7 +66,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":140,"Anthropic":152,"Hugging Face":25,"对齐":11,"奖励黑客":4,"智能体":354,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":4}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":140,"Anthropic":153,"Hugging Face":25,"对齐":11,"奖励黑客":4,"智能体":356,"Matt Turk":4,"Theo Jaffe":7,"Google DeepMind":4}</script>
 
 <script>
 (function(){

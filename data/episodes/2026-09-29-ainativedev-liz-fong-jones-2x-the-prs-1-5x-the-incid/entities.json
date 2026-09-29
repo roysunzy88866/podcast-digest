@@ -1,0 +1,1280 @@
+{
+  "episode_id": "2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-09-29",
+  "tags": [
+    "AI 编程",
+    "可观测性",
+    "工程组织",
+    "代码审查",
+    "开源"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.2,
+            59.44
+          ],
+          "quote": "Join your hosts, Guy Fajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            125.92,
+            127.12
+          ],
+          "quote": "My name is Simon Maple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2960.56,
+            2963.6
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "liz-fong-jones",
+      "type": "person",
+      "role": "cohost",
+      "name": "Liz Fong-Jones",
+      "file": "Liz Fong-Jones",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            127.2,
+            133.04
+          ],
+          "quote": "I'm the host for this episode, and joining me is uh Liz Fong Jones, Technical Fellow at Honeycomb.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "honeycomb",
+      "type": "company",
+      "role": "company",
+      "name": "Honeycomb",
+      "file": "Honeycomb",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司：面向前瞻思维工程团队的可观测性厂商；其内部数据(PR 三个月从 30 涨到 70/天)和 AI 价值观「名字在上面，你就拥有它」构成本集主线案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            127.2,
+            133.04
+          ],
+          "quote": "I'm the host for this episode, and joining me is uh Liz Fong Jones, Technical Fellow at Honeycomb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            140.88,
+            150.96
+          ],
+          "quote": "Um now, Liz, you're a technical fellow at Honeycomb, but you actually started more on the SRE side and then moved into Devra, a little bit into field CTO, and now uh a technical fellow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            274.88,
+            288.8
+          ],
+          "quote": "Really honestly, the kind of writing and appearing on podcasts and kind of being able to be that public face of Honeycomb engineering, so that our engineers can, you know, primarily focus on being heads down, except for right, like I of course nurture the ones who want to speak publicly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            288.96,
+            298.48
+          ],
+          "quote": "But right, like kind of being that ambassador for what are we doing, what are we seeing is really, really helpful, especially given Honeycomb's brand is that we are for forward-thinking engineering teams, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            306.96,
+            323.12
+          ],
+          "quote": "And Honeycomb very openly kind of talked about how this kind of a role it really it really helps uh technical engineers and technical folks uh progress their careers without needing to drop into that slippery, that slippery slope, Darek or a horrible slope, of this management thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            844.32,
+            845.92
+          ],
+          "quote": "Let's talk about Honeycomb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            846.4,
+            853.6
+          ],
+          "quote": "Let's talk about the honeycomb bot autobot, sorry, uh that um merges pull requests and you know, creates pull requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2012.64,
+            2017.92
+          ],
+          "quote": "Now, Honeycomb's AI values uh state if your name's on it, you own it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2908.48,
+            2917.28
+          ],
+          "quote": "Um Liz, where can we talked about it a lot, but where can people uh follow up on some of the things that uh that you and Honeycomb have been uh have been doing and talking about?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2920.16,
+            2930.4
+          ],
+          "quote": "So if you go to honeycomb.io slash blog, you'll find writing by not just me, um, but also by my colleagues uh uh Charity Majors, uh Christine Yen, and all of Honeycomb Engineering.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集提到 Liz 从 Google 的 SRE 起步、管理过 Bigtable SRE 团队；并说 Linux 内核的自动审查机器人 Sashiko 完全由 Google 付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            168.24,
+            177.04
+          ],
+          "quote": "Um, and then I moved to kind of advising Google SRE teams and uh Suite teams on what the best way was to implement reliability practices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            177.2,
+            185.92
+          ],
+          "quote": "And then I took a swing at the engineer manager pendulum and managed the uh big table S-RE team at Google, about 12 people under me uh for a couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2498.4,
+            2511.92
+          ],
+          "quote": "Um, so my wife works on Google Chrome Security, and one of the things that they're starting to do is they're starting to require that in order to get fast-tracked for your uh security exploit bug, you must provide a working reproducer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2688.24,
+            2698
+          ],
+          "quote": "And for critical projects like Linux kernel or Kubernetes, right, like the Linux kernel has a uh automatic review bot called Sashiko, and Sashiko is fully paid for by Google, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集引其 CEO Toby 的话：12 个月前宣布「AI 优先组织」，一周前开始哀叹工程师往生产环境乱扔 AI 生成的低质量代码(slop 炸弹)——Liz 以此例证无主人翁意识的加速是有害的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            520.64,
+            528.96
+          ],
+          "quote": "Um, two Toby Lit Litke, the uh CEO of Shopify, said, you know, 12 months ago, we are now an AI first org, everyone should be using AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autobot",
+      "type": "company",
+      "role": "company",
+      "name": "Autobot",
+      "file": "Autobot",
+      "primary": true,
+      "how_described": "本集重点介绍的 Honeycomb 内部机器人：最初是「盒装 Claude Code」处理线性小工单，后转向代码审查，是每天约 70 个 PR 的 100% 初审者，使约 20% 的 PR 可自动合入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            846.4,
+            853.6
+          ],
+          "quote": "Let's talk about the honeycomb bot autobot, sorry, uh that um merges pull requests and you know, creates pull requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            868.48,
+            872.96
+          ],
+          "quote": "Um so yes, we do have an internal coding bot called Autobot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            873.2,
+            879.6
+          ],
+          "quote": "Um however, the Autobot is producing maybe five of those pull requests per day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            910.24,
+            921.04
+          ],
+          "quote": "And I think it really helps there to have a helpful assistant like Autobot, you know, pointing out problems so that the developer doesn't have to be a human linter or a human bug checker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            978.32,
+            984
+          ],
+          "quote": "So can you tell us a little bit how uh the Autobot and I love the t I love the name Autobot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1042.56,
+            1046.88
+          ],
+          "quote": "Like, you know, let's assign that ticket to Autobot and see what pull request it produces, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1047.12,
+            1049.6
+          ],
+          "quote": "Um, so that's that's kind of how Autobot started.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1062.24,
+            1086.8
+          ],
+          "quote": "The theory was if you decomposed everything into a linear ticket well enough so that it would be able to, you know, complete the linear ticket on its own, that then your Autobot could take that and turn it into a pull request, and then you could, as a human who requested the Autobot to run, you could go ahead and and review that self-review first, and then after that hand that to your peer reviewer to to review as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 发布的 Claude Code Reviews 每次运行要 20-30 美元、耗时 10-20 分钟，Honeycomb 因此自建审查能力；还提到其 Project Glasswing 资助 curl、openSSL 等安全关键开源项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            78.96,
+            89.28
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netflix, and GitHub to cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1088.88,
+            1110.32
+          ],
+          "quote": "And then we realized that there were a relatively small percentage of these smaller tickets, and also that same functionality could also be used to reproduce kind of in a box the functionality that I think in April or March this year, uh Claude uh Anthropic released this Claude Code Reviews functionality.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把 Claude 作为 AI 编码助手的代表：Autobot 起初是「盒装 Claude Code」；Liz 的翻车案例中被助手凭空断言缺字段后签字担责——「Claude 干的不是借口」；她也借 Claude 修出 ARM64 启动 bug 的六行补丁合入上游。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            1088.88,
+            1110.32
+          ],
+          "quote": "And then we realized that there were a relatively small percentage of these smaller tickets, and also that same functionality could also be used to reproduce kind of in a box the functionality that I think in April or March this year, uh Claude uh Anthropic released this Claude Code Reviews functionality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1146.72,
+            1159.52
+          ],
+          "quote": "And and how does um so obviously, you know, Claude as a as a as an LLM or a general LLM, um, these types of things will always be kind of like very expensive uh and and long to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1893.76,
+            1905.2
+          ],
+          "quote": "Actually, I discovered that on on its own, actually, um Claude has started when working with Amazon profiles to default to using read-only profiles, uh, if it's provided the option to have both a read-only and read-write profile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2057.12,
+            2059.6
+          ],
+          "quote": "Like, you know, Claude did it is not a really great excuse, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2192.96,
+            2198.64
+          ],
+          "quote": "Like, how are we encapsulating the learning so that Claude doesn't make the mistake over and over and over again, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2234.4,
+            2241.04
+          ],
+          "quote": "Would it would it not be fair to say if that at that point Claude's name's on it, let's say, or Codec's names on that, it should own it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2562.72,
+            2570.4
+          ],
+          "quote": "And I was able to, with help, with Claude Fable's help, uh, actually figure out what the bug was, figure out what a pet what a working patch for for it was.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集核心论点：瓶颈从来不是产出代码，而是人类的审查注意力；让机器人做 100% 初审、把人类注意力留给设计模式和复杂变更。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            29.68,
+            33.28
+          ],
+          "quote": "Like your human code review attention is limited.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            892.48,
+            902.48
+          ],
+          "quote": "So I think you know, when we're talking about increasing your number of pull requests by a factor of two or more, right, like your human code review attention is limited.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1171.12,
+            1186.96
+          ],
+          "quote": "Um with with an LLM which is very specific to kind of being able to provide you know yes-no answers or multiple choice, does that how how will that now impact uh places or or you know specific tasks like code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1249.44,
+            1253.52
+          ],
+          "quote": "So there still is the language model layer doing the code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1324.08,
+            1327.2
+          ],
+          "quote": "Like an eye as a human can of course opt out of automatic code review, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1462.96,
+            1466.32
+          ],
+          "quote": "Is it the code review the right place to be having that discussion?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1962.16,
+            1971.92
+          ],
+          "quote": "And you have to have a certain number of repetitions of you know, seeing automatic code review catch issues that you wouldn't personally have caught before you start caught trusting automatic code review, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "主人翁意识 (ownership)",
+      "file": "主人翁意识",
+      "primary": true,
+      "how_described": "本集称其为决定组织高效或低效的首要力量：开发者视贡献为引以为豪、愿端到端负责、乐于署名的东西；没有它加 AI 只会产出更多 slop 炸弹。「名字在上面，你就拥有它」即其问责体现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            413.44,
+            426.16
+          ],
+          "quote": "Now, one of the things that I actually completely agree with here, actually, so uh it it's you you your line was AI amplifies your existing practices, it makes a dysfunctional org more dysfunctional and a high ownership org faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            455.2,
+            458.8
+          ],
+          "quote": "Um, but I I think, you know, let's anchor on what you said about ownership, though.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            458.88,
+            464.96
+          ],
+          "quote": "I think ownership is really that primary force that dictates whether an org is uh high or low functioning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            482.24,
+            497.44
+          ],
+          "quote": "And I think everything else kind of flows out of that because when we talk about reliability practices, an organization that has poor reliability practices likely does not have a strong sense of ownership because otherwise, why would you let broken code ship to production and leave it broken in prod?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            535.52,
+            548.56
+          ],
+          "quote": "I am like, man, that was kind of a foreseeable consequence if you were telling people to move without ownership and just, you know, use AI and move faster, and you know, who cares about the consequences, and now suddenly they're weeping the consequences, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            548.88,
+            556
+          ],
+          "quote": "So I think you know, ownership of not lobbing slop bombs because you are responsible and accountable for what you ship, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            633.28,
+            637.2
+          ],
+          "quote": "So I I really like the example that you gave about ownership there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            645.28,
+            665.28
+          ],
+          "quote": "Um beyond ownership, are there other uh other traits of a repo where you would look at something and say, Oh actually, yeah, these people are using these folks, developers are using autonomy well or or uh you know strong patterns and it's actually very easy to add AI in, maybe it's DevOps practices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2154,
+            2158.72
+          ],
+          "quote": "So I I think that's that's what we mean when we take about take talk about taking ownership.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2301.52,
+            2310.32
+          ],
+          "quote": "And I think that that is where the ownership lies is to go and spot check some of those pull requests every now and then, to do evals, to tune the system prompt, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集划的硬线：遥测是数据，可观测性是理解——「数据 vs 理解，百分之百每一天」；且可观测性与可控制性在控制理论中是对偶的，两者齐备 AI 才能自动定位修复、人才不必凌晨两点起床。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            700.16,
+            717.04
+          ],
+          "quote": "Like it is important as well to have strong CICD patterns so that you can actually validate things with five minutes of effort and not 60 minutes or three hours of effort, making sure that you have good observability, making sure you have good testability, and not just, you know, empty calorie tests, but actual like real meaningful tests.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            751.04,
+            761.2
+          ],
+          "quote": "How are you actually propagating good patterns around testing, good patterns around observability, kind of making sure that we are engineering things in a way that it's going to be easier to roll them out to production?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1513.76,
+            1519.36
+          ],
+          "quote": "We obviously need to um have a look at we well, we need telemetry data and we need observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1519.52,
+            1524.72
+          ],
+          "quote": "Uh now you draw quite a hard distinction here between what telemetry is and what observability is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1701.28,
+            1704.4
+          ],
+          "quote": "Like remember, observability and controllability and control theory are duals, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1704.48,
+            1710.4
+          ],
+          "quote": "Like if you have both observability and controllability, you do have the ability to not have to wake up at 2 a.m.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1722.96,
+            1735.04
+          ],
+          "quote": "So I think we're pretty close if and only if you have working automatic rollbacks, working uh feature flags, working observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2745.12,
+            2749.84
+          ],
+          "quote": "Like it's previously, you know, telling people yes, you should implement observability, and they're like, budget, what budget?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2750.08,
+            2753.6
+          ],
+          "quote": "Now it's like you need to implement observability or else your AI effort will fail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2774.32,
+            2785.04
+          ],
+          "quote": "So so maybe maybe we talk about just two or three years, and let's talk about a role change, or maybe even uh a change that needs to happen in the org around an observability engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2797.04,
+            2826.72
+          ],
+          "quote": "We've already seen that site reliability engineering, security engineering, observability engineering, these all broadly fall under the platform of platform engineering, as it were, um, right, because they are all cross-functional disciplines that require buy-in of individual development teams, and they do have their own specialized skill set, but broadly speaking, our job is to produce the kind of common standards and tooling that developers need to do their jobs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2850.32,
+            2859.44
+          ],
+          "quote": "So I think that's basically the the crux of it is observability engineering is not necessarily going to be about building out your own observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2859.52,
+            2866
+          ],
+          "quote": "There are vendors out there, or if you're sufficiently large scale, sure, there might be an observability tooling team or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2895.68,
+            2898.48
+          ],
+          "quote": "Like security, observability, um, testing, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "telemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测 (telemetry)",
+      "file": "遥测",
+      "primary": true,
+      "how_described": "本集说机器永远不会无聊，让 AI 给代码库添加遥测、丰富事件和属性是 AI 时代该做的「吃蔬菜」基本功；语言模型还应在开发周期自查其产出的遥测是否真的可查询。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            804.56,
+            810.64
+          ],
+          "quote": "And because the machines never get bored, it's a great thing to do to have them add telemetry to your code base, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1513.76,
+            1519.36
+          ],
+          "quote": "We obviously need to um have a look at we well, we need telemetry data and we need observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1519.52,
+            1524.72
+          ],
+          "quote": "Uh now you draw quite a hard distinction here between what telemetry is and what observability is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1562.56,
+            1572.8
+          ],
+          "quote": "Like so I think having the telemetry data, having it queryable and legible both to the humans and AI, is helpful for then kind of establishing that feedback loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1576.08,
+            1585.2
+          ],
+          "quote": "I think also in your development cycle, right, you should be having your language models test the telemetry that they're producing by you know querying a dev environment, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1597.76,
+            1610.64
+          ],
+          "quote": "Like I think yes, we have to have telemetry, yes, we have to have the ability to analyze that telemetry, and also it's not just the human's job and it's not just the robot's job, it's a joint responsibility to turn the telemetry data into understanding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1676.24,
+            1694.96
+          ],
+          "quote": "If you were implementing feature flags well, then yes, a robot with access to MCP can identify which feature flag uh will solve your problem and can fix it, it can flip the feature flag, and the telemetry will be recorded both for the robot who's diagnosing in real time and for you with a cup of coffee or a diet coke in your hand the the next morning, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1695.04,
+            1701.2
+          ],
+          "quote": "Like if you have that telemetry data recorded and if you have the controllability, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2085.44,
+            2090.96
+          ],
+          "quote": "And for some reason, uh my AI assistant did not find the telemetry field for partition ID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2091.12,
+            2098.96
+          ],
+          "quote": "And then it's confabulated this you know thing about how we need to uh construct uh can construct a new telemetry field for partition ID.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 AI 智能体定位为在有安全护栏的系统里干活的机器人：只有配上自动回滚、特性开关、可观测性，智能体才接近自动修复；否则只是往飞镖盘上乱扔飞镖；且不给它「杀生产 Pod」的权力，给安全的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            2409.76,
+            2420.16
+          ],
+          "quote": "Whether maintainers accept pull requests is up to their discretion because it turns out with a well-ecrypt bug report, you can have your agent write a fix for it in your preferred style, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2420.4,
+            2427.12
+          ],
+          "quote": "So why should you trust someone else's agent where it might be just as much work to check the work over as if you had done it yourself?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2478.24,
+            2487.12
+          ],
+          "quote": "Like you can have an agent take the pull request and create a quiz about it that you must pass before you can have it submitted, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "特性开关 (feature flag)",
+      "file": "特性开关",
+      "primary": true,
+      "how_described": "本集说特性开关已有 15 年历史；把它实施得好的团队，能访问 MCP 的机器人就能识别并翻转正确特性开关来修复问题——它是 AI 自动修复的前提条件之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1676.24,
+            1694.96
+          ],
+          "quote": "If you were implementing feature flags well, then yes, a robot with access to MCP can identify which feature flag uh will solve your problem and can fix it, it can flip the feature flag, and the telemetry will be recorded both for the robot who's diagnosing in real time and for you with a cup of coffee or a diet coke in your hand the the next morning, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sre",
+      "type": "concept",
+      "role": "concept",
+      "name": "SRE",
+      "file": "SRE",
+      "primary": true,
+      "how_described": "本集嘉宾的职业起点：从 Google SRE 做起、管过 Bigtable 的 SRE 团队；本集结尾还谈站点可靠性工程、安全工程、可观测性工程正合并进平台工程的大趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            140.88,
+            150.96
+          ],
+          "quote": "Um now, Liz, you're a technical fellow at Honeycomb, but you actually started more on the SRE side and then moved into Devra, a little bit into field CTO, and now uh a technical fellow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            168.24,
+            177.04
+          ],
+          "quote": "Um, and then I moved to kind of advising Google SRE teams and uh Suite teams on what the best way was to implement reliability practices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            186.08,
+            200.4
+          ],
+          "quote": "And then I realized that, you know, I could have all of the impact in the world working on one specific team, working with one specific set of people, but I really wanted to have a broader impact on the industry because I could see so many people that were struggling to implement SRE practices across their organizations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1611.92,
+            1625.84
+          ],
+          "quote": "And and I guess as someone who has a a lot of history in the world of SRE, you talked a little bit about um how you know your opinion on w how people should be using uh Dart factories in production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集称快速(五分钟级而非三小时级)且可复现的密闭式 CI/CD 是一切的基础，是让 AI 加速前必须先打好的地基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            700.16,
+            717.04
+          ],
+          "quote": "Like it is important as well to have strong CICD patterns so that you can actually validate things with five minutes of effort and not 60 minutes or three hours of effort, making sure that you have good observability, making sure you have good testability, and not just, you know, empty calorie tests, but actual like real meaningful tests.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1882,
+            1888.24
+          ],
+          "quote": "I I think the starting point is really hermetic CI and CD, like to have fast and reproducible CI and C D.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "incident",
+      "type": "concept",
+      "role": "concept",
+      "name": "事故 (incident)",
+      "file": "事故",
+      "primary": true,
+      "how_described": "本集给出关键数据：PR 翻倍，事故约 1.5 倍——人类能处理的事故数量有上限，去风险化必须跟上代码产出的加速。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1626.08,
+            1630.88
+          ],
+          "quote": "How much should we be trusting AI to do uh with data in an incident?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "root-cause-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "事故响应中的 AI (root cause analysis)",
+      "file": "事故响应中的 AI",
+      "primary": true,
+      "how_described": "本集讨论 AI 智能体在事故中自动根因分析、提出并审查修复方案能走多远：当且仅当有可用的自动回滚、特性开关、可观测性；且人类必须亲自检查查询输出、内化故障怎么发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1631.04,
+            1647.92
+          ],
+          "quote": "Would it be lovely to think that we can wake up in the morning and and kind of you know click a button to say, yes, I can see the AI uh agents have identified the problem, they've done all the the background root cause analysis, they've suggested the issue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "slop",
+      "file": "slop",
+      "primary": true,
+      "how_described": "本集高频词：AI 生成的低质量内容——slop 炸弹扔向生产环境、AI 往代码库里拉低注释质量、AI slop PR 淹没开源维护者；对策包括先 issue 后 PR、用 AI 出测验「以 slop 对抗 slop」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            529.04,
+            535.36
+          ],
+          "quote": "And then literally a week ago, he lamented slop bombs being uh lobbed by engineers at at production and out of their teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            548.88,
+            556
+          ],
+          "quote": "So I think you know, ownership of not lobbing slop bombs because you are responsible and accountable for what you ship, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            787.44,
+            799.12
+          ],
+          "quote": "Like except for the thing is, AI has made it a lot easier to do the eat your vegetables part as long as you tell AI to do it and not just have AI, you know, slop coding a bunch of new features into your code base, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2163.68,
+            2170.32
+          ],
+          "quote": "Like, for instance, don't send someone a slop bomb of, you know, this is you know a 10-page 10-page clawed artifact, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2361.28,
+            2375.52
+          ],
+          "quote": "Now, today's problem, and of course, you know, that that was largely fixed by having an opt-in style of Hacktoberfest, but today, even if you opt in, probably a bigger worry is someone's just gonna come up and provide some AI slop pull request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2375.76,
+            2391.2
+          ],
+          "quote": "Um now, one of the things that was kind of partly mentioned previously is that you were considering eliminating external contributions to open source projects because of the kind of floods of pull requests that were very slop-oriented.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2476.48,
+            2478.16
+          ],
+          "quote": "You're using slop to fight slop, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2619.6,
+            2621.68
+          ],
+          "quote": "Like that is the source of the slop bombs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (system prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说即使未来机器自己开工单、解决、上线、调试，仍总有一个人拥有那个系统提示词、为配额付费、期望结果——流程负责人要对结果负责、抽查 PR、做评估、调提示词。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            2282.48,
+            2294.72
+          ],
+          "quote": "So even if robots are coming up with tickets and solving the tickets and pushing them to production and debugging them in production, there is still a person that owns the system prompt for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2301.52,
+            2310.32
+          ],
+          "quote": "And I think that that is where the ownership lies is to go and spot check some of those pull requests every now and then, to do evals, to tune the system prompt, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "platform-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台工程 (platform engineering)",
+      "file": "平台工程",
+      "primary": true,
+      "how_described": "本集结尾判断：SRE、安全工程、可观测性工程这些跨职能学科正向平台工程「大合并」，由平台工程统一产出开发者需要的通用标准和工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            2797.04,
+            2826.72
+          ],
+          "quote": "We've already seen that site reliability engineering, security engineering, observability engineering, these all broadly fall under the platform of platform engineering, as it were, um, right, because they are all cross-functional disciplines that require buy-in of individual development teams, and they do have their own specialized skill set, but broadly speaking, our job is to produce the kind of common standards and tooling that developers need to do their jobs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2827.44,
+            2831.76
+          ],
+          "quote": "So I think the great merger into platform engineering is already well underway, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2866.24,
+            2878.48
+          ],
+          "quote": "But I think the outreach to developers piece, I think that that is something that broadly gets owned by all of platform engineering, and that platform engineering employs people from a variety of different specialties who all collaborate to bring the expertise to the teams that need them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说一个能访问 MCP 的机器人可以识别并翻转正确的特性开关来修复生产问题；并提到 MCP 中介访问、最小权限是 AI 安全保障的实践。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1676.24,
+            1694.96
+          ],
+          "quote": "If you were implementing feature flags well, then yes, a robot with access to MCP can identify which feature flag uh will solve your problem and can fix it, it can flip the feature flag, and the telemetry will be recorded both for the robot who's diagnosing in real time and for you with a cup of coffee or a diet coke in your hand the the next morning, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1844.88,
+            1857.76
+          ],
+          "quote": "Um you described needing things like clawed MD rules, um, MCM MCP mediated access, least privileged systems, all all these things which help uh this safeguarding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linux-kernel",
+      "type": "concept",
+      "role": "concept",
+      "name": "Linux 内核 (Linux kernel)",
+      "file": "Linux 内核",
+      "primary": true,
+      "how_described": "本集正面案例：Liz 借 Claude 搞清楚 ARM64 开发机无法启动新版 Linux 内核的 bug，六行补丁走正常审查流程两个多月后合入上游；其审查机器人 Sashiko 由 Google 全额付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2688.24,
+            2698
+          ],
+          "quote": "And for critical projects like Linux kernel or Kubernetes, right, like the Linux kernel has a uh automatic review bot called Sashiko, and Sashiko is fully paid for by Google, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集一笔带过：与 Linux 内核并列的「关键项目」例子，讨论谁为自动审查 token 买单时提到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2688.24,
+            2698
+          ],
+          "quote": "And for critical projects like Linux kernel or Kubernetes, right, like the Linux kernel has a uh automatic review bot called Sashiko, and Sashiko is fully paid for by Google, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "仅在片头广告里作为 AI DevCon 演讲方被列名，本集未讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            78.96,
+            89.28
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netflix, and GitHub to cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

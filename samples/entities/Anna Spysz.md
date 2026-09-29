@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":354,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":7,"共享支付令牌":1,"护栏":65,"商家能力清单":1,"大语言模型":8,"Stripe":39,"Google":49}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":65,"商家能力清单":1,"大语言模型":8,"Stripe":39,"Google":50}</script>
 
 <script>
 (function(){

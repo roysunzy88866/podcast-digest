@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeffrey Wang]] · [[Exa]] · [[go-to-market]] · [[智能体]] · [[MCP]] · [[API 优先]] · [[嵌入]] · [[ICP 仪表盘]] · [[JeffBot]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"Jeffrey Wang":1,"Exa":3,"go-to-market":12,"智能体":354,"MCP":64,"API 优先":2,"嵌入":2,"ICP 仪表盘":1,"JeffBot":1,"Salesforce":32}</script>
+<script type="application/json" class="pd-epn">{"Jeffrey Wang":1,"Exa":3,"go-to-market":12,"智能体":356,"MCP":65,"API 优先":2,"嵌入":3,"ICP 仪表盘":1,"JeffBot":1,"Salesforce":32}</script>
 
 <script>
 (function(){

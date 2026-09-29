@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":14,"ChatGPT":82,"物理 AI":8,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":17}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":14,"ChatGPT":82,"物理 AI":8,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":18}</script>
 
 <script>
 (function(){

@@ -1,0 +1,148 @@
+{
+  "title_zh": "训练机器人缺数据？答案藏在数十亿网络视频里",
+  "tldr": "Bright Data 的 Rafael 介绍面向机器人与世界模型训练的视频动作索引：不按关键词、而按动作搜索网络视频，先搜索后采集。",
+  "digest_md": "训练 AI 机器人，最难的部分已经不是模型，而是数据。Bright Data 的 Rafael(在这家做数据采集的公司干了八年多)在一次演讲里给出了一个数据来源的新思路：别再雇人录动作了，去网上搜视频——但要按「动作」搜，不是按标题搜。\n\n先把问题的量级摆出来。聊天 LLM 有数万亿词的文本可以吃，图像生成有数十亿张带标注的图片，但机器人领域呢？只有大约一百万个「机器人在做事情」的视频，数据集非常小 [02:39 Rafael]。\n\n现在业界的补法主要有几条路，Rafael 逐个拆了：\n\n- **雇人录动作**：付钱让人录「怎么开门」「怎么坐下」。问题是被要求做动作时，人做得不自然——动作跟你平常随手开门完全不同，这是有偏差的数据，训练效果打折扣。而且人在镜头前本来就会变行为。\n- **仿真**：便宜，但电子游戏里的物理引擎「几乎可以了，但还不足以用来训练机器人」。\n- **手动遥控机器人采数据**：可行但不可扩展——一天顶多录八小时，一年能攒多少？\n\n替代方案就是网络。YouTube 上有大约五十亿个视频，第一人称开门的视频可能有数百万小时；每天都有网络视频在展示重力、运动、因果(事故就是最大的因果关系)，是机器人很好的训练素材 [05:50 Rafael]。\n\n这不只是直觉，有实证：Meta 训练的一个 AI 模型，先喂了大约一百万小时的真实世界视频，之后只需要 62 小时的真实机器人数据，就能实际控制一个真机器人——全程不需要仿真 [06:12 Rafael]。\n\n「视频里没人告诉你机器臂该怎么动」也不是障碍。已有方法可以让 AI 逐帧对比两幅画面、测量运动差异，持续做下去就能推算出角度、距离等训练所需的全部信息——所以不一定需要传感器数据，只需要对视频做加工 [07:09 Rafael]。\n\n真正的问题是噪音和浪费。NVIDIA 训练 Cosmos 机器人时下载一百万小时视频、丢掉大约 96%;Stable Video Diffusion 也丢弃 74%。这些是白白浪费的算力、带宽、存储和钱 [08:00 Rafael]。\n\n于是 Bright Data 的产品思路是「先搜索，后采集」：预先给数十亿视频建索引(目前已索引 11 亿个)，让你**按动作搜索**——输入「人在洗碗」「人在叠 T 恤」这样带细节的查询(描述越细，返回越准)，直接拿到这些动作的视频片段，而不是先下载百万小时再扔掉九成。片段附带时间戳、匹配得分和帧数，通过 API 返回，再稍做运动/距离处理就能喂给机器人训练。噪音少了，训练时的幻觉问题也跟着减少 [13:21 Rafael]。\n\n用途也不止机器人。机器人训练之外，物理世界模型、甚至品牌监测都用得上——视频标题完全没提你的品牌，但画面里桌上摆着你的化妆品，按标题搜索永远找不到，按画面索引就能找到 [12:05 Rafael]。\n\n> 【背景】Waymo 等自动驾驶公司确实依赖大量行车视频数据训练模型，但这是讲者未提及的背景补充。\n\nRafael 的核心质问是：所有东西都能在网上找到时，为什么要雇一百万人去录开门视频？\n\n## 本集带走\n\n- **机器人训练的数据瓶颈是真实的**：文本有数万亿词、图片有数十亿张，机器人视频只有约一百万个，量级差了三四个数量级。\n- **网络视频可以当机器人的训练数据**：Meta 用约一百万小时通用视频 + 仅 62 小时机器人数据就让 AI 控制了真机器人；AI 可以靠逐帧测运动差异从普通视频里提取角度、距离，不需要传感器数据。\n- **雇人录动作的数据是带偏差的**：被指令做的动作不自然，不等于直觉行为，训练效果不同。\n- **「先搜索、后采集」避免绝大部分浪费**：直接按动作检索预索引的视频(他们已索引 11 亿个)，拿到片段而非下载百万小时再丢掉 96%。\n- **按画面索引解锁按标题搜不到的信息**：品牌露出、特定动作、事故片段——标题里没写的，画面里有。",
+  "quotes": [
+    {
+      "en": "So as I said, the AI is no longer the hard part. The data is.",
+      "zh": "正如我所说,AI 已经不再是难的部分了,数据才是。",
+      "timestamp": "02:31",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "The physics in video games are almost there, but they're not good enough to train a robot on it.",
+      "zh": "电子游戏里的物理效果几乎可以了,但还不足以用来训练机器人。",
+      "timestamp": "04:44",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "They gave it about a million hours of real-world videos, and then all it took is 62 hours of real robotics data to actually control a real robot.",
+      "zh": "他们给它大约一百万小时的真实世界视频,然后只需要 62 小时的真实机器人数据,就能实际控制一个真实的机器人。",
+      "timestamp": "06:17",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "So for example, NVIDIA, when they train in the Cosmos robot, they're throwing out about 96% of the video.",
+      "zh": "比如说,NVIDIA 在训练 Cosmos 机器人时,他们丢弃了大约 96% 的视频。",
+      "timestamp": "08:00",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "We search through billions and billions of pre-indexed videos, not by keywords but by actions, and we provide you with ready-to-use clips.",
+      "zh": "我们在数十亿个预先建好索引的视频中进行搜索,不是按关键词而是按动作搜索,并为你提供可以直接使用的片段。",
+      "timestamp": "09:32",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "The more description you give, the more you actually get back.",
+      "zh": "你给的描述越多,你实际得到的内容就越多。",
+      "timestamp": "11:01",
+      "speaker": "Rafael Levi"
+    },
+    {
+      "en": "Why do you need a million people doing that when everything is available online?",
+      "zh": "当所有东西都能在网上找到时,为什么需要一百万人去做这件事？",
+      "timestamp": "14:34",
+      "speaker": "Rafael Levi"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:31",
+      "speaker": "Rafael",
+      "en": "So as I said, the AI is no longer the hard part. The data is.",
+      "zh": "正如我所说,AI 已经不再是难的部分了,数据才是。"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Rafael",
+      "en": "But for robotics, there's only about a million videos.",
+      "zh": "但对于机器人领域,只有大约一百万个视频。"
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Rafael",
+      "en": "But then the problem becomes is that when somebody is told to do something, they do not do it naturally.",
+      "zh": "但问题就变成了,当有人被要求做某事时,他们不会自然地去做。"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Rafael",
+      "en": "The physics in video games are almost there, but they're not good enough to train a robot on it.",
+      "zh": "电子游戏里的物理效果几乎可以了,但还不足以用来训练机器人。"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Rafael",
+      "en": "Millions of hours. You'll be surprised.",
+      "zh": "数百万小时。你会惊讶的。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Rafael",
+      "en": "They gave it about a million hours of real-world videos, and then all it took is 62 hours of real robotics data to actually control a real robot.",
+      "zh": "他们给它大约一百万小时的真实世界视频,然后只需要 62 小时的真实机器人数据,就能实际控制一个真实的机器人。"
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Rafael",
+      "en": "So no simulations needed.",
+      "zh": "所以不需要仿真。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Rafael",
+      "en": "So for example, NVIDIA, when they train in the Cosmos robot, they're throwing out about 96% of the video.",
+      "zh": "比如说,NVIDIA 在训练 Cosmos 机器人时,他们丢弃了大约 96% 的视频。"
+    },
+    {
+      "timestamp": "08:16",
+      "speaker": "Rafael",
+      "en": "That's wasted compute. That's wasted bandwidth. That's wasted storage.",
+      "zh": "那是浪费的算力,浪费的带宽,浪费的存储。"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "Rafael",
+      "en": "So what we propose is search first, collect second.",
+      "zh": "所以我们提出的是:先搜索,后采集。"
+    },
+    {
+      "timestamp": "09:32",
+      "speaker": "Rafael",
+      "en": "We search through billions and billions of pre-indexed videos, not by keywords but by actions, and we provide you with ready-to-use clips.",
+      "zh": "我们在数十亿个预先建好索引的视频中进行搜索,不是按关键词而是按动作搜索,并为你提供可以直接使用的片段。"
+    },
+    {
+      "timestamp": "11:01",
+      "speaker": "Rafael",
+      "en": "The more description you give, the more you actually get back.",
+      "zh": "你给的描述越多,你实际得到的内容就越多。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Rafael",
+      "en": "Again, it's very crucial for robotic training because noise creates problems, hallucinations, right?",
+      "zh": "再说一次,这对机器人训练非常关键,因为噪音会带来问题、幻觉,对吧？"
+    },
+    {
+      "timestamp": "14:34",
+      "speaker": "Rafael",
+      "en": "Why do you need a million people doing that when everything is available online?",
+      "zh": "当所有东西都能在网上找到时,为什么需要一百万人去做这件事？"
+    },
+    {
+      "timestamp": "14:40",
+      "speaker": "Rafael",
+      "en": "Online is one of the hugest databases out there.",
+      "zh": "互联网是现存最大的数据库之一。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Rafael",
+      "en": "By searching the name of the video, you won't find it.",
+      "zh": "通过搜索视频的名字,你是找不到的。"
+    }
+  ],
+  "voice_script": "今天要讲的这件事,跟训练 AI 机器人有关。讲的人叫 Rafael,来自一家叫 Bright Data 的公司,专门做数据采集,在那儿干了八年多。他提出的问题很简单:训练机器人最难的部分,已经不是模型了,而是数据。模型大家都会做,可去哪儿找足够多的、能让机器人学会\"怎么动手做事\"的数据呢?他给出的答案有点出乎意料——去网上搜视频。但怎么搜,这里面门道很大。\n\n先把问题的量级摆出来,你才知道这事儿有多缺。训练聊天大模型,有数万亿词的文本可以吃;训练图像生成,有数十亿张带标注的图片。那机器人呢?全世界只有大约一百万个\"机器人在做事情\"的视频。差了三四个数量级,数据集小得可怜。\n\n那现在业界是怎么补的?主要有几条路,一条条看,都有毛病。\n\n第一条,雇人录动作。付钱让人对着镜头演示\"怎么开门\"\"怎么坐下\"。问题是,人被要求做动作的时候,做得不自然。你想想,你平时随手开门,跟有人喊\"来,开个门我拍一下\",那动作是完全不同的。所以录出来的是带偏差的数据,训练效果打折扣。而且人在镜头前本来就会变得不自然,这是人性,躲不开。\n\n第二条路,仿真,就是用软件模拟物理世界。便宜是便宜,但就像 Rafael 说的,电子游戏里的物理效果几乎可以了,但还不足以用来训练机器人。差那么一口气。\n\n第三条,手动遥控机器人采数据。可行,但不可扩展——一天顶多录八个小时,一年能攒下多少?杯水车薪。\n\n那现成的路都走不通,自然就会有人把目光投向网络。YouTube 上有大约五十亿个视频,光第一人称开门的视频,可能就有数百万小时。而且每天都有网络视频在展示重力、运动、因果——事故就是最大的因果关系,一个人滑倒了,那就是一段绝佳的物理教学素材。\n\n这不只是直觉,有实证。Meta 训练过一个模型,先喂了大约一百万小时的真实世界视频,然后只需要 62 小时的真实机器人数据,就能实际控制一个真实的机器人,全程不需要仿真。一百万比六十二,你品一下这个比例,网络视频的潜力是实打实验证过的。\n\n你可能会问:视频里又没人告诉你机器臂该怎么动,角度多少、距离多少,这些信息从哪来?这也不是障碍。已经有方法可以让 AI 逐帧对比两幅画面、测量运动的差异,持续做下去,就能推算出角度、距离这些训练所需的全部信息。所以不一定需要传感器数据,只需要对视频做加工,就够了。\n\n那既然网络视频这么好,为什么问题还没解决?真正的坑在浪费。NVIDIA 训练 Cosmos 机器人的时候,下载了一百万小时视频,丢掉大约百分之九十六;Stable Video Diffusion 也丢弃了百分之七十四。先花大钱下载,再扔掉九成多,这里头全是白白浪费的算力、带宽、存储和钱。\n\n于是 Bright Data 的产品思路就顺着这个问题来了,叫\"先搜索,后采集\"。具体做法是,预先给数十亿个视频建好索引,目前已经索引了十亿个,然后让你按动作去搜索——注意,不是按关键词,是按动作。你输入\"人在洗碗\"\"人在叠 T 恤\"这样带细节的查询,直接拿到的就是这些动作的视频片段,而不是先下载一百万小时再扔掉九成。你给的描述越多,得到的就越准。片段还附带时间戳、匹配得分和帧数,通过接口返回,再稍做运动和距离上的处理,就能直接喂给机器人训练。噪音少了,训练时的幻觉问题也跟着减少。\n\n这个按画面索引的思路,用途还不止机器人。比如品牌监测——一个视频的标题完全没提你的品牌,但画面里桌上摆着你的化妆品,按标题搜索你永远找不到,按画面索引一搜就有。那些标题里没写、画面里有的信息,全都因此解锁了。\n\n说到这儿,Rafael 有个质问,我觉得可以作为今天最好的收尾:当所有东西都能在网上找到的时候,为什么要雇一百万人去录开门视频呢?就像他自己说的,AI 已经不再是难的部分了,数据才是。"
+}

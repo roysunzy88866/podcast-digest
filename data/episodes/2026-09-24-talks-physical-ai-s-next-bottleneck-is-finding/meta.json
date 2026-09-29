@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/I_VEh7XSwyc.m4a",
+  "duration_sec": 984.112,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 228,
+  "asr": true,
+  "title_en": "Physical AI's Next Bottleneck Is Finding the Right Video — Rafael Levi, Bright Data",
+  "podcast": "精选演讲",
+  "date": "2026-09-24",
+  "added": "2026-09-30",
+  "added_at": "2026-09-29T18:07:06.750Z",
+  "speaker_map": {
+    "SPEAKER_00": "Rafael Levi"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Rafael Levi"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "训练机器人缺数据？答案藏在数十亿网络视频里",
+  "guest_name": "Rafael Levi",
+  "guest_title": "Bright Data",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

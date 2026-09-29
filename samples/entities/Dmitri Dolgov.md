@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":14,"Waymo driver":1,"智能体":354,"物理 AI":8,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":8,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":14,"Waymo driver":1,"智能体":356,"物理 AI":8,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":10,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

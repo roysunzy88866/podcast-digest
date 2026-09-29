@@ -1,0 +1,627 @@
+{
+  "episode_id": "2026-09-29-sourcery-the-3b-company-trying-to-beat-amazon-pri",
+  "podcast": "Sourcery",
+  "date": "2026-09-29",
+  "tags": [
+    "电商与物流",
+    "机器人",
+    "垂直整合",
+    "创业公司故事",
+    "AI 投资判断"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sean",
+      "type": "person",
+      "role": "host",
+      "name": "Sean",
+      "file": "Sean",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            40.955,
+            44.598
+          ],
+          "quote": "Sean, welcome to Sorcery and Strike.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            841.452,
+            843.072
+          ],
+          "quote": "Well, Sean, thank you so much.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stored",
+      "type": "company",
+      "role": "company",
+      "name": "Stored",
+      "file": "Stored",
+      "primary": true,
+      "how_described": "本集主角:Sean 创立的「物理智能层」公司,垂直整合履约、配送、商务软件与应用机器人和 AI,为互联网另外三分之二的电商拉平与 Amazon Prime 的差距;今年年收入将破 10 亿美元,每包裹 7、8 美元以下、两天送达。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            56.628,
+            57.909
+          ],
+          "quote": "So you're the founder of Stored.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            57.929,
+            61.072
+          ],
+          "quote": "For people who don't know what Stored is, could you give us a little background?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            61.516,
+            68.64
+          ],
+          "quote": "Yeah, so Stored really exists to level the playing field with Amazon Prime for the other two thirds of commerce on the internet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            138.433,
+            149.581
+          ],
+          "quote": "We also announced stored labs along with it, which is very much an application of all of the latest robotics, AI, drones, but also a data foundry actually training the robotics in reverse.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            310.305,
+            314.587
+          ],
+          "quote": "And so there's really a ton of data that goes into a business like Stored.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            331.674,
+            350.708
+          ],
+          "quote": "Not only head start in the e-commerce and logistics industry that we sit in, but also have such an advancement in the robotics in the early phase with these partnerships with leading companies and labs deploying across the stored network because of that data rich environment where let's say you deploy a camera to do the post deployment training on a robot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            440.108,
+            446.855
+          ],
+          "quote": "So stored has grown by also acquisition and roll ups are kind of a hot thing as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            536.283,
+            543.914
+          ],
+          "quote": "And so really, if you think about Stored, our secret sauce is this vertically integrated software, but how it's applied to real world operations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            747.444,
+            759.168
+          ],
+          "quote": "Again, if the industry's at $15 in five or six days and Amazon's at $5 in a day and now stored as sub $7, $8 and delivering in two days and we can deliver in one day depending on placement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            822.123,
+            826.625
+          ],
+          "quote": "I believe physical businesses like Stored are going to win and get faster and cheaper.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集核心对标:Sean 判断 Amazon 真正的产品是配送而非零售——每包裹 5 美元、1 到 2 天(甚至半天),而美国普通企业要 15 美元以上、5 到 6 个工作日,这个差距解释了消费者为何流向 Amazon。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            61.516,
+            68.64
+          ],
+          "quote": "Yeah, so Stored really exists to level the playing field with Amazon Prime for the other two thirds of commerce on the internet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            69.18,
+            73.382
+          ],
+          "quote": "When we look out there, we think that Amazon's product really is delivery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 24,
+          "t": [
+            82.507,
+            96.473
+          ],
+          "quote": "So we really see ourselves as the physical intelligence layer combining all the fulfillment and delivery, all of the commerce software, and all of the applied robotics and AI to achieve Amazon level delivery costs, speeds, and consumer experiences.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            130.828,
+            135.331
+          ],
+          "quote": "And that's really what builds the moat in delivery, enabling Amazon level speeds and costs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            551.265,
+            565.29
+          ],
+          "quote": "And if the average business out in the US is delivering for $15 plus a package in five to six business days, while Amazon's delivering for $5 a package in one to two days, if not even half a day, that's the fundamental gap that exists.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            649.73,
+            655.372
+          ],
+          "quote": "And kind of trace that to the rise of Amazon and Prime and consumers now believing, well, I can get anything online.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            707.013,
+            708.034
+          ],
+          "quote": "The answer is Amazon.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            747.444,
+            759.168
+          ],
+          "quote": "Again, if the industry's at $15 in five or six days and Amazon's at $5 in a day and now stored as sub $7, $8 and delivering in two days and we can deliver in one day depending on placement.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集主线之一:机器人技术正进入新阶段——过去是「笨机器人」,变量一变就停摆等 IT 改代码;先进的硬件要先在打磨好的物理流程上反复迭代才能落地,否则会以硬编码的方式落后。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            82.507,
+            96.473
+          ],
+          "quote": "So we really see ourselves as the physical intelligence layer combining all the fulfillment and delivery, all of the commerce software, and all of the applied robotics and AI to achieve Amazon level delivery costs, speeds, and consumer experiences.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            138.433,
+            149.581
+          ],
+          "quote": "We also announced stored labs along with it, which is very much an application of all of the latest robotics, AI, drones, but also a data foundry actually training the robotics in reverse.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            161.934,
+            165.278
+          ],
+          "quote": "Let's get into that because robotics is super hot right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            165.758,
+            167.941
+          ],
+          "quote": "It's like become the age of robotics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            171.105,
+            182.291
+          ],
+          "quote": "Yeah, if you really look back over history, a lot of the problem with robotics is kind of the dumb robots where if anything goes wrong, if any variable is changed, they can't succeed in that environment anymore.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            195.618,
+            206.783
+          ],
+          "quote": "And so now you're getting to this point of agentic robotics where you're having robotics that are building real-world models that can see videos for very brief times and learn how to self-heal and get back on track.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            224.008,
+            228.249
+          ],
+          "quote": "And so that's really where robotics is going and why now is such a moment for it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            257.003,
+            265.011
+          ],
+          "quote": "That's really the issue with robotics in today's world is a lot of the physical world out there that needs these robots doesn't have the basis of that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            269.717,
+            276.605
+          ],
+          "quote": "And so that's kind of the chasm that robotics is going to have to cross in the period ahead now that they are getting more agentic and self-healing as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            277.266,
+            283.254
+          ],
+          "quote": "So what are the typical data points are you collecting through robotics that inform the software and back and forth?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            314.667,
+            330.133
+          ],
+          "quote": "And when we're processing about 100 million packages a year to about a third of US households now, almost $20 billion of GMV, that's really one of the most data rich environments that all of these labs and robotics companies are trying to either simulate and learn.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            331.674,
+            350.708
+          ],
+          "quote": "Not only head start in the e-commerce and logistics industry that we sit in, but also have such an advancement in the robotics in the early phase with these partnerships with leading companies and labs deploying across the stored network because of that data rich environment where let's say you deploy a camera to do the post deployment training on a robot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            374.261,
+            377.043
+          ],
+          "quote": "But do humanoid robotics belong in the factory?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            430.085,
+            433.748
+          ],
+          "quote": "And you're seeing a lot of advancement in different levels of robotics as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            483.437,
+            491.519
+          ],
+          "quote": "So how can you really expect prime level delivery, drones, and all the advancement in robotics if the industry they're going into is so far behind?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 147,
+          "t": [
+            796.683,
+            806.172
+          ],
+          "quote": "I think there's all this obsession with kind of AI and robotics, whether you're an investor or you're a consumer and you're afraid of how that's going to displace you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 149,
+          "t": [
+            810.035,
+            814.9
+          ],
+          "quote": "I don't think the value is going to keep accruing to the AI and to the robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            827.065,
+            840.451
+          ],
+          "quote": "And long term, it's actually these super fast growth AI companies and robotics that end up commoditized by how low the cost becomes to replicate them internally across companies and for individuals even.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agentic-robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体机器人 (agentic robotics)",
+      "file": "智能体机器人",
+      "primary": true,
+      "how_described": "本集说这是机器人正在进入的阶段:机器人构建真实世界模型、看很短的视频就学会自我修复——如工人拿货品示范三秒,机器人现场就学会怎么放进箱子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            195.618,
+            206.783
+          ],
+          "quote": "And so now you're getting to this point of agentic robotics where you're having robotics that are building real-world models that can see videos for very brief times and learn how to self-heal and get back on track.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "本集给了全场最抓人的判断:人形机器人最抓眼球,但很大程度上还卡在试点阶段;机器人在地面移动不需要腿,想最大化灵巧性就不该长得像人——「人类是非常低效的形态」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            374.261,
+            377.043
+          ],
+          "quote": "But do humanoid robotics belong in the factory?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrated)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集反复强调的核心打法:很多仓库还在做基于纸张的拣选,不可能在其上长出 Prime 级配送,所以 Stored 从第一天就同时做软件和实体;垂直整合还带来数据富化,让机器人训练快得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            150.041,
+            161.233
+          ],
+          "quote": "And so we're really excited about how really all the new technology is enabling a vertically integrated industrial business like us to just keep separating our moat from the existing industry we live in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            265.211,
+            269.356
+          ],
+          "quote": "Best in class process or vertically integrated software to go apply the robot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            361.434,
+            368.798
+          ],
+          "quote": "And when you can enrich these videos with not only labeling of the hands, but that level of vertically integrated data, the learning is just so much faster.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            536.283,
+            543.914
+          ],
+          "quote": "And so really, if you think about Stored, our secret sauce is this vertically integrated software, but how it's applied to real world operations.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "operational-data-points",
+      "type": "concept",
+      "role": "concept",
+      "name": "运营数据点 (operational data points)",
+      "file": "运营数据点",
+      "primary": true,
+      "how_described": "本集称 Stored 每年处理约 80 亿个运营数据点——从库存放置、需求规划到手部动作标注——每年 1 亿个包裹、覆盖美国约三分之一家庭、GMV 近 200 亿美元,是机器人实验室最想获取的数据富矿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.73,
+            18.833
+          ],
+          "quote": "8 billion operational data points.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            283.672,
+            301.841
+          ],
+          "quote": "Yeah, for us, we process about 8 billion operational data points a year, and that could be anything from how to place a piece of inventory in the network to how to plan for certain consumer demand to how a unit is picked in the facility with labeling on the hands so that they can learn all of these different picking and packing patterns.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": true,
+      "how_described": "本集把 Stored 的业务飞轮描述为:服务的量越大,成本越低、速度越快、信任越高;规模同时驱动经济性和网络密度,是配送护城河的来源,并让销售赢单率从不到 10% 升到 50% 以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            544.515,
+            550.824
+          ],
+          "quote": "And the flywheel of this business is that the more volume you serve, the lower cost, the faster speed, and the greater trust.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 96,
+          "t": [
+            565.33,
+            570.911
+          ],
+          "quote": "And so the race to scale and spin that flywheel to level the playing field is really on and we're in the lead.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            740.521,
+            743.123
+          ],
+          "quote": "And for us, a lot of it comes back to that flywheel where",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            762.049,
+            771.351
+          ],
+          "quote": "And as we've spun that flywheel, we can trace our win rate in sales from sub 10% to over 50% because these brands can't find that level of capability elsewhere.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "roll-up",
+      "type": "concept",
+      "role": "concept",
+      "name": "滚动式收购 (roll-up)",
+      "file": "滚动式收购",
+      "primary": true,
+      "how_described": "本集说 Stored 的收购不同于此标签:每笔既买网络里的密度和单量,又把自己的单位经济和软件贯穿进去,多数交易在极短时间内让被收购业务的效率、进而盈利能力提升 5 到 7 倍甚至更高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            446.955,
+            449.017
+          ],
+          "quote": "So are you a roll up?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            513.744,
+            535.683
+          ],
+          "quote": "And now you're seeing these new applied kind of roll-up companies, holdings companies, and more saying, wait a second, I can build the best accounting software or whatever it may be, but if the accounting industry is slow to adopt, what if I go accrue all that advantage into my own company and my own accounting service where I own the data, the customer, and the software and AI powering this?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "application-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用层 (application layer)",
+      "file": "应用层",
+      "primary": true,
+      "how_described": "本集最大胆的观点:价值不会持续累积到 AI 和机器人技术,而会积累到应用层和现实世界;长远看真正被商品化的反而是高速增长的 AI 公司和机器人技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            815.12,
+            819.122
+          ],
+          "quote": "I think it actually accrues to the application layer and to the real world.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

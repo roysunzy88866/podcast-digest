@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":6,"Path Robotics":1,"LLM":47,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":23,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":6,"Path Robotics":1,"LLM":48,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":23,"第一性原理":5}</script>
 
 <script>
 (function(){

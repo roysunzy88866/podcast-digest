@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":16,"Neon":3,"智能体":354,"本体":4,"网络安全":2,"RSI":3,"开源":27,"后训练":1,"harness":49}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":16,"Neon":3,"智能体":356,"本体":4,"网络安全":2,"RSI":3,"开源":27,"后训练":1,"harness":49}</script>
 
 <script>
 (function(){

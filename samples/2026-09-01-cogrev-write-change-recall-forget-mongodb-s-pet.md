@@ -175,7 +175,7 @@ Pete 把 LLM 应用架构的演进讲成补短板的历史：ChatGPT 刚出来�
 
 - [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生]]<span class="pd-rz">同概念:向量搜索 (vector search)、智能体 (agent)、RAG</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、MCP</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、MCP</span>
 
 </div>
 </div>

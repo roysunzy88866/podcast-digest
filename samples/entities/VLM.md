@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>VLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="VLM">VL</div><div class="pi"><h1 class="pt">VLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="VLM">VL</div><div class="pi"><h1 class="pt">VLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(11:29起):本集说用 VLM 把文档一次性转成文本的视觉方法读视觉结构不错,但在纯文本页面会幻觉、成本极高、缺语义和定位能力;LlamaIndex 用参数高效的微调文档 VLM 作为混合方案一部分。
 - **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(10:29起):本集把它说成:本质横向通用、第一次让「像人一样读文档」成为可能的模型,尤其擅长手写体,但规模化时不是万能方案。
+- **[[2026-09-24-talks-one-operator-many-drones-inside-skydio-s|《当无人机变成基础设施：给机队下指令的人》]]**(17:16起):本集说 VLM 在云端跑更重的跟踪与语义推理,响应速率约 7 到 10 赫兹、延迟 1 到 2 秒,足以做「往哪边移动」的大方向决策,并在「找白色吉普车」案例中找到目标并调用工具
 
 ## ① 提到它的金句
 
@@ -22,19 +23,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]] — 作为概念
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念
 - [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为概念
+- [[2026-09-24-talks-one-operator-many-drones-inside-skydio-s|《当无人机变成基础设施：给机队下指令的人》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OCR]] · [[RAG]] · [[上下文]] · [[Hiral Shah]] · [[Jerry Liu]] · [[Adit Abraham]] · [[Sean Sodha]] · [[LlamaIndex]] · [[Reducto]]
+[[智能体]] · [[OCR]] · [[RAG]] · [[上下文]] · [[Hiral Shah]] · [[Jerry Liu]] · [[Adit Abraham]] · [[Suchet Bargoti]] · [[Sean Sodha]] · [[LlamaIndex]]
 
-<script type="application/json" class="pd-epn">{"智能体":354,"OCR":3,"RAG":21,"上下文":24,"Hiral Shah":1,"Jerry Liu":1,"Adit Abraham":1,"Sean Sodha":1,"LlamaIndex":2,"Reducto":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"OCR":3,"RAG":21,"上下文":24,"Hiral Shah":1,"Jerry Liu":1,"Adit Abraham":1,"Suchet Bargoti":1,"Sean Sodha":1,"LlamaIndex":2}</script>
 
 <script>
 (function(){

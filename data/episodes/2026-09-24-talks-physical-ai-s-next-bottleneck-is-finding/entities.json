@@ -1,0 +1,322 @@
+{
+  "episode_id": "2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding",
+  "podcast": "精选演讲",
+  "date": "2026-09-24",
+  "tags": [
+    "机器人训练",
+    "视频数据",
+    "训练数据瓶颈",
+    "视频索引",
+    "世界模型"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "rafael-levi",
+      "type": "person",
+      "role": "guest",
+      "name": "Rafael Levi",
+      "file": "Rafael Levi",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bright-data",
+      "type": "company",
+      "role": "concept",
+      "name": "Bright Data",
+      "file": "Bright Data",
+      "primary": true,
+      "how_described": "嘉宾工作了八年多的数据采集公司，本集发布其新产品：预先给数十亿视频建索引（已达 11 亿个），让用户按动作而非标题搜索视频片段，主张「先搜索、后采集」以省掉九成浪费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            30.685,
+            31.686
+          ],
+          "quote": "I work at Bright Data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            31.726,
+            34.007
+          ],
+          "quote": "I've been with Bright Data for over eight years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            34.307,
+            38.268
+          ],
+          "quote": "And in Bright Data, we are collecting data and we're trying to innovate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            267.188,
+            270.449
+          ],
+          "quote": "So this is what we are trying to solve in bright data, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            510.347,
+            514.549
+          ],
+          "quote": "So in Bright Data, we are trying to solve that problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            915.098,
+            918.159
+          ],
+          "quote": "So basically, this is a new product that we're doing at Bright Data, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            966.919,
+            970.122
+          ],
+          "quote": "And I'm at a bright data booth if you want to talk more about it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world models)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集主题为「面向 Argentic World Models 训练的视频发现」（讲者原文如此）；网络视频展示重力、运动与因果（事故是最大的因果关系），是训练世界模型与机器人的有用素材。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            38.828,
+            43.691
+          ],
+          "quote": "So today I want to talk about video discovery for Argentic World Models training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            847.122,
+            853.646
+          ],
+          "quote": "All of that can be a very useful data for training and any other world models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "video-indexing",
+      "type": "concept",
+      "role": "concept",
+      "name": "视频索引 (video indexing)",
+      "file": "视频索引",
+      "primary": true,
+      "how_described": "本集提出的解法：按画面而非视频标题建索引，就能找到标题搜不到的内容——品牌露出、特定动作、事故片段；描述越细、返回越准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            760.25,
+            765.154
+          ],
+          "quote": "In video indexing, you can actually find specific things that you are interested in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练数据 (training data)",
+      "file": "训练数据",
+      "primary": true,
+      "how_described": "本集核心论点：「AI 已经不是难的部分，数据才是」；互联网是现存最大的数据库之一，数十亿小时训练数据等着被抓取、收集和处理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            909.555,
+            914.638
+          ],
+          "quote": "of training data just there waiting for you to grab it, collect it, and process it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            929.265,
+            930.805
+          ],
+          "quote": "It's not only for training data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "concept",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": false,
+      "how_described": "本集举例的主要视频来源：约五十亿个视频，第一人称开门视频可能有数百万小时，行车记录仪素材有数亿小时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            320.592,
+            321.853
+          ],
+          "quote": "Let's just think about YouTube.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            322.273,
+            324.453
+          ],
+          "quote": "How many videos are there on YouTube?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            454.924,
+            468.174
+          ],
+          "quote": "So we don't necessarily need the sensor's data, but of course, the video itself that you download from YouTube or the video that you extract the data from doesn't necessarily get you 100% there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            820.502,
+            827.844
+          ],
+          "quote": "Trained on dash cam video cameras, and there's millions, hundreds of millions of hours on YouTube of dash cams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            899.59,
+            908.212
+          ],
+          "quote": "I mean, we got YouTube, we got Vimeo, we got so many different video providers out there, billions and billions of hours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "concept",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集举的实证例子：Meta 训练的 AI 模型吃了约一百万小时真实世界视频后，只需 62 小时真实机器人数据就能控制真机器人，全程无需仿真。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            372.945,
+            388.652
+          ],
+          "quote": "Oh, and for example, right, so one of the AI models that Meta trained, they gave it about a million hours of real-world videos, and then all it took is 62 hours of real robotics data to actually control a real robot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "concept",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集举的浪费例子：NVIDIA 训练 Cosmos 机器人时下载一百万小时视频、丢弃约 96%，浪费算力、带宽、存储和钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            480.061,
+            487.327
+          ],
+          "quote": "So for example, NVIDIA, when they train in the Cosmos robot, they're throwing out about 96% of the video.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wimeo",
+      "type": "company",
+      "role": "concept",
+      "name": "Wimeo",
+      "file": "Wimeo",
+      "primary": false,
+      "how_described": "本集举例的自动驾驶公司（原稿误作 Wimeo）：在旧金山无司机行驶，靠行车记录仪视频自我学习驾驶。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            120.939,
+            125.44
+          ],
+          "quote": "But, I mean, in San Francisco, you got Wimeo driving without any drivers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            818.381,
+            820.162
+          ],
+          "quote": "For example, Wimeo, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "robot training",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "simulation",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

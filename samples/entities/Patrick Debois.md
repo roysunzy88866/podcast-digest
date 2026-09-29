@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":3,"智能体":354,"harness":49,"上下文":24,"护栏":65,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":9,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":3,"智能体":356,"harness":49,"上下文":24,"护栏":65,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
 
 <script>
 (function(){

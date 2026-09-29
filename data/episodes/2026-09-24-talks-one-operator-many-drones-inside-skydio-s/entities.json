@@ -1,0 +1,395 @@
+{
+  "episode_id": "2026-09-24-talks-one-operator-many-drones-inside-skydio-s",
+  "podcast": "精选演讲",
+  "date": "2026-09-24",
+  "tags": [
+    "无人机",
+    "智能体",
+    "自主系统",
+    "世界模型",
+    "强化学习"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "suchet-bargoti",
+      "type": "person",
+      "role": "guest",
+      "name": "Suchet Bargoti",
+      "file": "Suchet Bargoti",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "skydea",
+      "type": "company",
+      "role": "company",
+      "name": "Skydea",
+      "file": "Skydea",
+      "primary": true,
+      "how_described": "本集说它是美国最大的无人机制造商,同时掌控硬件、软件、云和用户界面,正在把无人机变成全国部署的基础设施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            581.927,
+            602.297
+          ],
+          "quote": "And that's where we get an edge in the industry because at Skydea we're sort of controlling the hardware, the software, the cloud, the user interface to be able to manage all that and specifically the autonomy allowing us to think about how our underlying vision system should work to see the environment, to behave in the environment correctly whether it's at high altitudes, whether it's cloudy,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "drones-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "无人机基础设施 (drones infrastructure)",
+      "file": "无人机基础设施",
+      "primary": true,
+      "how_described": "本集说它是无人机的下一个时代:数千架无人机停放在机坞站里,部署在电力公司、公共安全部门和建筑公司,日夜运转、可靠性达 99.9999%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            56.184,
+            68.755
+          ],
+          "quote": "And these are drones that are in docked stations, so we're calling this Drones' Infrastructure, where we actually have thousands of these drones now planted around the country with power utilities, with public safety,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            247.548,
+            250.771
+          ],
+          "quote": "And the next era that we're working towards is drones' infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把无人机称为物理具身的智能体,并展示云端智能体拿到所有工具(无人机 API、跟踪跟随)后自己决策完成任务,无需专门编码规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            506.094,
+            521.726
+          ],
+          "quote": "So we're kind of rethinking as to what this means in terms of this initial first-person viewing engagement with these systems to how do we convert this to a most strategic multi-agent view that you can kind of command the entire fleet with an objective in mind without having to worry about the flight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            994.406,
+            1012.012
+          ],
+          "quote": "The drone needs to go there, it needs to understand the scene, then it needs to take actions within that scene, and we're constantly looking at how to build these primitives, these tools ultimately that we today code, but at any time an agent can access these tools to better understand what the drone is seeing and what it could do about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1150.984,
+            1162.296
+          ],
+          "quote": "We're trying to get away from having to have all these if statements in the code and these branching strategies and kind of let the agent have some high-level tools to be able to instruct these very high-level commands for the drone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
+      "primary": true,
+      "how_described": "本集说自主飞行需要「很多个九」的可靠性,分两层:即时自主动作在无人机边缘端完成,云端 GPU 和推理引擎承担重计算与长期规划",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            100.79,
+            105.512
+          ],
+          "quote": "What we have been building is the full autonomy stack behind, like, how does a vehicle operate autonomously?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            218.461,
+            230.312
+          ],
+          "quote": "So what we're building towards is how do we enable autonomy at scale where traditionally how it started off historically 15 years ago that you might have a drone at home.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            257.755,
+            271.847
+          ],
+          "quote": "Available at all times at anywhere for the different sort of use cases that we are interested in that can automatically launch, execute, and do their tasks, and what is the minimum amount of autonomy that needs to be baked in, and what does the future interface look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            581.927,
+            602.297
+          ],
+          "quote": "And that's where we get an edge in the industry because at Skydea we're sort of controlling the hardware, the software, the cloud, the user interface to be able to manage all that and specifically the autonomy allowing us to think about how our underlying vision system should work to see the environment, to behave in the environment correctly whether it's at high altitudes, whether it's cloudy,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            685.688,
+            689.95
+          ],
+          "quote": "And the other added advantage that we have is it's not just about having autonomy on the drone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            689.97,
+            697.113
+          ],
+          "quote": "As I mentioned earlier, we have the luxury now to have autonomy on the edge device, but also have autonomy on the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1208.134,
+            1220.636
+          ],
+          "quote": "As I said, we have full-stack sort of, we do the end-to-end thing, hardware, software, autonomy, full-stack, front-end, back-end, wireless networking, everything, all the technologies on our mobile phones, we're now making them fly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说「指令 vs 实际行为」的偏差会回灌到强化学习系统,重新训练、评估、再部署,形成学习飞轮;跟踪和端到端方向也大量使用强化学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            921.857,
+            930.262
+          ],
+          "quote": "You have to manually think about how to move, but now you can think about more reinforcement learning style techniques or more learned end-to-end approaches that can really help out here",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1087.082,
+            1091.223
+          ],
+          "quote": "And we're definitely sort of doing a lot of testing and trialing with reinforcement learning on what that looks like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集以地图为载体讲世界模型,类似 Waymo 的局部感知加全局规划;机队发现新工地后回传数据,下一次迭代全机队用上更新后的地图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            1121.869,
+            1133.893
+          ],
+          "quote": "So while it's a direction that we're continuously taking and exploring, it's kind of figuring out which segments of your end-to-end chunk need to move to a more sort of world model representation of it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vlm",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLM",
+      "file": "VLM",
+      "primary": true,
+      "how_described": "本集说 VLM 在云端跑更重的跟踪与语义推理,响应速率约 7 到 10 赫兹、延迟 1 到 2 秒,足以做「往哪边移动」的大方向决策,并在「找白色吉普车」案例中找到目标并调用工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            1036.273,
+            1040.997
+          ],
+          "quote": "The VLM is kind of running here to say, hey, what in the scene am I looking for?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "end-to-end",
+      "type": "concept",
+      "role": "concept",
+      "name": "端到端 (end-to-end)",
+      "file": "端到端",
+      "primary": true,
+      "how_described": "本集说端到端是长期愿景但物理系统上可观测性和可靠性保证很难,应判断流程中哪些环节该换成世界模型表示,凡是想写 if 分支的地方就该交给智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            921.857,
+            930.262
+          ],
+          "quote": "You have to manually think about how to move, but now you can think about more reinforcement learning style techniques or more learned end-to-end approaches that can really help out here",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1113.666,
+            1121.489
+          ],
+          "quote": "Doing a completely end-to-end system does have its challenges in the sense that the observability of what's going wrong and the guarantees on reliability is very difficult today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1121.869,
+            1133.893
+          ],
+          "quote": "So while it's a direction that we're continuously taking and exploring, it's kind of figuring out which segments of your end-to-end chunk need to move to a more sort of world model representation of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1208.134,
+            1220.636
+          ],
+          "quote": "As I said, we have full-stack sort of, we do the end-to-end thing, hardware, software, autonomy, full-stack, front-end, back-end, wireless networking, everything, all the technologies on our mobile phones, we're now making them fly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dock",
+      "type": "concept",
+      "role": "concept",
+      "name": "机坞 (dock)",
+      "file": "机坞",
+      "primary": true,
+      "how_described": "本集说无人机停放在机坞站里,可自动启动安全检查并起飞,机坞部署在阿拉斯加严寒和德州酷热中,是无人机基础设施的载体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            143.03,
+            147.671
+          ],
+          "quote": "So a dock is now opening up in Colorado while the first drone is still flying safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            295.334,
+            299.798
+          ],
+          "quote": "So while this is happening, I'm gonna tell all the drones to pause and return to dock.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            305.564,
+            306.786
+          ],
+          "quote": "They're all gonna start returning to dock.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "learning-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "学习飞轮 (learning flywheel)",
+      "file": "学习飞轮",
+      "primary": true,
+      "how_described": "本集说像 Google 街景那样每次飞行记录数据、脱敏后回馈学习系统再训练,是让系统稳健、构成行业护城河的机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            641.85,
+            661.2
+          ],
+          "quote": "This is a learning flywheel that we're getting out there, we're collecting data, we're operating, and we're coming back and doing that so that each flight we can log the data, kind of like Google Street View where we need to think about sanitizing that data, make sure there's no private information left there, and make sure we don't sort of like, the customers know exactly what they're sharing with us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fpv",
+      "type": "concept",
+      "role": "concept",
+      "name": "FPV",
+      "file": "FPV",
+      "primary": false,
+      "how_described": "本集提演讲者戴上 FPV 设备飞行更棘手,用来论证「一人一机」飞手模式难扩展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            477.537,
+            478.597
+          ],
+          "quote": "Then I put on the FPV.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

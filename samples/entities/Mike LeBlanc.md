@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Foundation":2,"人形机器人":2,"执行器":2,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":3,"Optimus":1,"Physical Intelligence":3}</script>
+<script type="application/json" class="pd-epn">{"Foundation":2,"人形机器人":3,"执行器":2,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":3,"Optimus":1,"Physical Intelligence":3}</script>
 
 <script>
 (function(){

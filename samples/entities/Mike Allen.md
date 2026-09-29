@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":45,"OpenAI":140,"Anthropic":152,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":22,"封闭模型":2,"沙箱":64}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":46,"OpenAI":140,"Anthropic":153,"TSMC":6,"Microsoft":25,"Palantir":19,"开源模型":22,"封闭模型":2,"沙箱":64}</script>
 
 <script>
 (function(){

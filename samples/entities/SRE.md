@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SRE</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SRE">SR</div><div class="pi"><h1 class="pt">SRE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SRE">SR</div><div class="pi"><h1 class="pt">SRE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(01:48起):站点可靠性工程,专门负责系统平稳运行的岗位;本集核心探讨如何用智能体来做 AI SRE,自动化处理生产事故排查。
+- **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(02:20起):本集嘉宾的职业起点：从 Google SRE 做起、管过 Bigtable 的 SRE 团队；本集结尾还谈站点可靠性工程、安全工程、可观测性工程正合并进平台工程的大趋势。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为概念
+- [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anish]] · [[Raj]] · [[Harrison]] · [[Traversal]] · [[智能体]] · [[生产世界模型]] · [[可观测性]] · [[遥测数据]] · [[上下文]] · [[文件系统]]
+[[智能体]] · [[可观测性]] · [[Anish]] · [[Simon Maple]] · [[Raj]] · [[Liz Fong-Jones]] · [[Harrison]] · [[Honeycomb]] · [[Traversal]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anish":1,"Raj":1,"Harrison":1,"Traversal":1,"智能体":354,"生产世界模型":1,"可观测性":32,"遥测数据":1,"上下文":24,"文件系统":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":356,"可观测性":33,"Anish":1,"Simon Maple":10,"Raj":1,"Liz Fong-Jones":1,"Harrison":1,"Honeycomb":2,"Traversal":1,"Google":50}</script>
 
 <script>
 (function(){

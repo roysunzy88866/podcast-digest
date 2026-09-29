@@ -1,0 +1,1826 @@
+[
+ {
+  "seg": 0,
+  "start": 13.26,
+  "end": 13.84,
+  "speaker": "Unknown",
+  "en": "Hi, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.181,
+  "end": 15.561,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎各位。"
+ },
+ {
+  "seg": 2,
+  "start": 17.081,
+  "end": 20.202,
+  "speaker": "Unknown",
+  "en": "For those that came to actually see me, thank you.",
+  "zh": "对于那些专门来看我的人，谢谢你们。"
+ },
+ {
+  "seg": 3,
+  "start": 20.782,
+  "end": 23.383,
+  "speaker": "Unknown",
+  "en": "For those that are just hanging out here, also thank you.",
+  "zh": "对于那些只是在这里闲逛的人，也谢谢你们。"
+ },
+ {
+  "seg": 4,
+  "start": 23.543,
+  "end": 26.484,
+  "speaker": "Unknown",
+  "en": "I'm going to try to entertain you guys, teach you something new.",
+  "zh": "我会试着让你们开心，教你们一些新东西。"
+ },
+ {
+  "seg": 5,
+  "start": 28.285,
+  "end": 30.285,
+  "speaker": "Unknown",
+  "en": "Again, my name is Rafael.",
+  "zh": "再说一下，我叫 Rafael。"
+ },
+ {
+  "seg": 6,
+  "start": 30.685,
+  "end": 31.686,
+  "speaker": "Unknown",
+  "en": "I work at Bright Data.",
+  "zh": "我在 Bright Data 工作。"
+ },
+ {
+  "seg": 7,
+  "start": 31.726,
+  "end": 34.007,
+  "speaker": "Unknown",
+  "en": "I've been with Bright Data for over eight years.",
+  "zh": "我在 Bright Data 已经工作八年多了。"
+ },
+ {
+  "seg": 8,
+  "start": 34.307,
+  "end": 38.268,
+  "speaker": "Unknown",
+  "en": "And in Bright Data, we are collecting data and we're trying to innovate.",
+  "zh": "在 Bright Data，我们收集数据并努力创新。"
+ },
+ {
+  "seg": 9,
+  "start": 38.828,
+  "end": 43.691,
+  "speaker": "Unknown",
+  "en": "So today I want to talk about video discovery for Argentic World Models training.",
+  "zh": "所以今天我想谈谈面向 Argentic 世界模型训练的视频发现。"
+ },
+ {
+  "seg": 10,
+  "start": 44.532,
+  "end": 46.693,
+  "speaker": "Unknown",
+  "en": "And we're going to explain what that is in a little bit.",
+  "zh": "我们稍后会解释这是什么。"
+ },
+ {
+  "seg": 11,
+  "start": 48.134,
+  "end": 54.778,
+  "speaker": "Unknown",
+  "en": "So what does it take to build a system that can see, understand, and act?",
+  "zh": "那么，构建一个能够看、理解并行动的系统需要什么？"
+ },
+ {
+  "seg": 12,
+  "start": 56.527,
+  "end": 56.767,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 13,
+  "start": 57.467,
+  "end": 60.568,
+  "speaker": "Unknown",
+  "en": "I mean, we figured out what an AI is.",
+  "zh": "我的意思是，我们已经弄清楚了什么是 AI。"
+ },
+ {
+  "seg": 14,
+  "start": 60.888,
+  "end": 62.088,
+  "speaker": "Unknown",
+  "en": "We're constantly improving it.",
+  "zh": "我们在不断改进它。"
+ },
+ {
+  "seg": 15,
+  "start": 62.168,
+  "end": 63.809,
+  "speaker": "Unknown",
+  "en": "Like, you know, that's kind of handled.",
+  "zh": "你知道的，这个基本上已经搞定了。"
+ },
+ {
+  "seg": 16,
+  "start": 64.309,
+  "end": 68.17,
+  "speaker": "Unknown",
+  "en": "But now the hard part is what data do you provide to it?",
+  "zh": "但现在难的部分是你给它提供什么数据？"
+ },
+ {
+  "seg": 17,
+  "start": 68.21,
+  "end": 72.731,
+  "speaker": "Unknown",
+  "en": "Because everybody knows AI without data is just a box.",
+  "zh": "因为大家都知道，没有数据的 AI 只是一个盒子。"
+ },
+ {
+  "seg": 18,
+  "start": 73.771,
+  "end": 74.031,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 19,
+  "start": 75.751,
+  "end": 78.192,
+  "speaker": "Unknown",
+  "en": "So let me take you a little bit back in history.",
+  "zh": "那么让我带大家稍微回顾一下历史。"
+ },
+ {
+  "seg": 20,
+  "start": 78.452,
+  "end": 79.072,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 21,
+  "start": 79.232,
+  "end": 82.573,
+  "speaker": "Unknown",
+  "en": "In 2022, Google taught a robot",
+  "zh": "2022 年，Google 教会了一个机器人"
+ },
+ {
+  "seg": 22,
+  "start": 83.585,
+  "end": 87.151,
+  "speaker": "Unknown",
+  "en": "By images, real-world actions, right?",
+  "zh": "通过图像学习真实世界的动作，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 87.672,
+  "end": 91.338,
+  "speaker": "Unknown",
+  "en": "Then, going forward, there was a leap in 2023.",
+  "zh": "然后，再往后，2023 年有了一个飞跃。"
+ },
+ {
+  "seg": 24,
+  "start": 92.38,
+  "end": 96.266,
+  "speaker": "Unknown",
+  "en": "We had an AI actually control multiple robots.",
+  "zh": "我们有了真正控制多个机器人的 AI。"
+ },
+ {
+  "seg": 25,
+  "start": 97.589,
+  "end": 99.97,
+  "speaker": "Unknown",
+  "en": "In 2024, the open source came out.",
+  "zh": "2024 年，开源出现了。"
+ },
+ {
+  "seg": 26,
+  "start": 99.99,
+  "end": 101.911,
+  "speaker": "Unknown",
+  "en": "Now, this is where the game changed.",
+  "zh": "现在，这就是游戏规则改变的地方。"
+ },
+ {
+  "seg": 27,
+  "start": 102.051,
+  "end": 110.915,
+  "speaker": "Unknown",
+  "en": "Once we had an open source, all the labs had access to AI, and they started already putting AI into robots, right?",
+  "zh": "一旦我们有了开源，所有的实验室都能使用 AI，他们已经开始把 AI 放进机器人里了，对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 111.755,
+  "end": 116.897,
+  "speaker": "Unknown",
+  "en": "And so now these models are already driving humanoid robots.",
+  "zh": "所以现在这些模型已经在驱动人形机器人了。"
+ },
+ {
+  "seg": 29,
+  "start": 117.217,
+  "end": 118.098,
+  "speaker": "Unknown",
+  "en": "You're seeing some.",
+  "zh": "你们看到了一些。"
+ },
+ {
+  "seg": 30,
+  "start": 118.298,
+  "end": 120.279,
+  "speaker": "Unknown",
+  "en": "Of course, most here are remote controlled.",
+  "zh": "当然，这里大多数是遥控的。"
+ },
+ {
+  "seg": 31,
+  "start": 120.939,
+  "end": 125.44,
+  "speaker": "Unknown",
+  "en": "But, I mean, in San Francisco, you got Wimeo driving without any drivers.",
+  "zh": "但是，我是说，在旧金山，你有 Wimeo 在没有任何司机的情况下行驶。"
+ },
+ {
+  "seg": 32,
+  "start": 125.941,
+  "end": 126.701,
+  "speaker": "Unknown",
+  "en": "How cool is that?",
+  "zh": "多酷啊？"
+ },
+ {
+  "seg": 33,
+  "start": 127.221,
+  "end": 132.963,
+  "speaker": "Unknown",
+  "en": "First time I got in the car, I thought I was going to die, but it was actually very nice, right?",
+  "zh": "我第一次上那辆车的时候，以为自己要死了，但实际上体验非常好，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 133.583,
+  "end": 136.224,
+  "speaker": "Unknown",
+  "en": "Now, how do you think it learned how to drive?",
+  "zh": "那么，你们觉得它是怎么学会开车的？"
+ },
+ {
+  "seg": 35,
+  "start": 137.304,
+  "end": 142.426,
+  "speaker": "Unknown",
+  "en": "By actually teaching itself, by learning on dashboard cameras, right?",
+  "zh": "通过真正地自我教学，通过学习行车记录仪的录像，对吧？"
+ },
+ {
+  "seg": 36,
+  "start": 142.526,
+  "end": 150.348,
+  "speaker": "Unknown",
+  "en": "Every car has a dashboard, so if you provide that to an AI, it can figure out how to actually operate a machine.",
+  "zh": "每辆车都有行车记录仪，所以如果你把这些提供给 AI，它就能弄清楚如何实际操作一台机器。"
+ },
+ {
+  "seg": 37,
+  "start": 151.963,
+  "end": 154.045,
+  "speaker": "Unknown",
+  "en": "So as I said, the AI is no longer the hard part.",
+  "zh": "所以正如我所说，AI 已经不再是难的部分了。"
+ },
+ {
+  "seg": 38,
+  "start": 154.065,
+  "end": 154.885,
+  "speaker": "Unknown",
+  "en": "The data is.",
+  "zh": "数据才是。"
+ },
+ {
+  "seg": 39,
+  "start": 155.946,
+  "end": 158.908,
+  "speaker": "Unknown",
+  "en": "And this is what I want to talk about, right?",
+  "zh": "而这就是我想谈的，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 159.809,
+  "end": 165.974,
+  "speaker": "Unknown",
+  "en": "So for chat LLMs, there's trillions of words and texts, right?",
+  "zh": "对于聊天 LLM 来说，有数万亿的单词和文本，对吧？"
+ },
+ {
+  "seg": 41,
+  "start": 165.994,
+  "end": 168.876,
+  "speaker": "Unknown",
+  "en": "So we have so much text data to train the LLMs.",
+  "zh": "所以我们有海量的文本数据来训练 LLM。"
+ },
+ {
+  "seg": 42,
+  "start": 169.917,
+  "end": 173.88,
+  "speaker": "Unknown",
+  "en": "For image generation, we got billions of images, labeled images.",
+  "zh": "对于图像生成，我们有数十亿张图片，带标注的图片。"
+ },
+ {
+  "seg": 43,
+  "start": 174.04,
+  "end": 176.101,
+  "speaker": "Unknown",
+  "en": "So that's also a huge database.",
+  "zh": "所以那也是一个巨大的数据库。"
+ },
+ {
+  "seg": 44,
+  "start": 177.182,
+  "end": 180.145,
+  "speaker": "Unknown",
+  "en": "But for robotics, there's only about a million videos.",
+  "zh": "但对于机器人领域，只有大约一百万个视频。"
+ },
+ {
+  "seg": 45,
+  "start": 181.193,
+  "end": 187.504,
+  "speaker": "Unknown",
+  "en": "It's a very small, limited data set of robots doing things, right?",
+  "zh": "这是一个非常小、非常有限的数据集，内容是机器人在做事情，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 189.828,
+  "end": 193.735,
+  "speaker": "Unknown",
+  "en": "And so the idea here is that, of course,",
+  "zh": "所以这里的想法是，当然，"
+ },
+ {
+  "seg": 47,
+  "start": 195.23,
+  "end": 200.575,
+  "speaker": "Unknown",
+  "en": "A lot of companies out there, what they do is they pay people to record actions, right?",
+  "zh": "很多公司所做的是付钱让人去录制动作，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 200.615,
+  "end": 207.842,
+  "speaker": "Unknown",
+  "en": "So for example, hey, record me how you open a door or record to me how you're sitting on the chair.",
+  "zh": "比如，嘿，录一下你是怎么开门的，或者录一下你是怎么坐到椅子上的。"
+ },
+ {
+  "seg": 49,
+  "start": 208.443,
+  "end": 214.949,
+  "speaker": "Unknown",
+  "en": "But then the problem becomes is that when somebody is told to do something, they do not do it naturally.",
+  "zh": "但问题就变成了，当有人被要求做某事时，他们不会自然地去做。"
+ },
+ {
+  "seg": 50,
+  "start": 215.009,
+  "end": 216.45,
+  "speaker": "Unknown",
+  "en": "So I called instructed, right?",
+  "zh": "所以我打电话是 instructed,对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 217.311,
+  "end": 223.595,
+  "speaker": "Unknown",
+  "en": "If you're told to record how you open the door and you're doing it for somebody, it's not going to be the same as if you just walk into the house.",
+  "zh": "如果有人叫你记录你如何开门，而且你是在为某人做这件事，那和你自己走进房子是不一样的。"
+ },
+ {
+  "seg": 52,
+  "start": 223.915,
+  "end": 225.376,
+  "speaker": "Unknown",
+  "en": "The movement is totally different.",
+  "zh": "动作是完全不同的。"
+ },
+ {
+  "seg": 53,
+  "start": 225.396,
+  "end": 228.898,
+  "speaker": "Unknown",
+  "en": "So is that data good for robotic training?",
+  "zh": "那么这些数据对机器人训练有用吗？"
+ },
+ {
+  "seg": 54,
+  "start": 229.899,
+  "end": 230.74,
+  "speaker": "Unknown",
+  "en": "In my assumption, no.",
+  "zh": "在我的假设里，没有。"
+ },
+ {
+  "seg": 55,
+  "start": 230.78,
+  "end": 233.721,
+  "speaker": "Unknown",
+  "en": "It's biased data and it doesn't deliver the same results.",
+  "zh": "它是有偏差的数据，而且不能带来同样的结果。"
+ },
+ {
+  "seg": 56,
+  "start": 233.761,
+  "end": 239.265,
+  "speaker": "Unknown",
+  "en": "So obviously the robot is not going to be as effective as if it's intuitive, right?",
+  "zh": "所以显然机器人不会像凭直觉做那样有效，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 240.025,
+  "end": 242.527,
+  "speaker": "Unknown",
+  "en": "So I just threw in some examples on the slide, right?",
+  "zh": "所以我只是在幻灯片里放了一些例子，对吧？"
+ },
+ {
+  "seg": 58,
+  "start": 246.642,
+  "end": 252.464,
+  "speaker": "Unknown",
+  "en": "The built-by-hand data is not the same as the data that is kind of on the side, right?",
+  "zh": "手工制作的数据和那种在旁边的数据是不一样的，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 252.624,
+  "end": 256.725,
+  "speaker": "Unknown",
+  "en": "And also, the fact is that people behave very differently when they're on the camera.",
+  "zh": "而且事实是，人们在镜头前的表现非常不同。"
+ },
+ {
+  "seg": 60,
+  "start": 256.925,
+  "end": 258.986,
+  "speaker": "Unknown",
+  "en": "Some of you know, some people are camera shy.",
+  "zh": "你们有些人知道，有些人面对镜头会害羞。"
+ },
+ {
+  "seg": 61,
+  "start": 259.686,
+  "end": 262.747,
+  "speaker": "Unknown",
+  "en": "So, you know, as soon as you put a camera on them, they change.",
+  "zh": "所以，你知道，你一给他们放上摄像头，他们就变了。"
+ },
+ {
+  "seg": 62,
+  "start": 263.727,
+  "end": 266.928,
+  "speaker": "Unknown",
+  "en": "But in the natural world, it's a totally different thing.",
+  "zh": "但在自然世界里，那是完全不同的事。"
+ },
+ {
+  "seg": 63,
+  "start": 267.188,
+  "end": 270.449,
+  "speaker": "Unknown",
+  "en": "So this is what we are trying to solve in bright data, right?",
+  "zh": "所以这就是我们在 bright data 试图解决的问题，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 275.342,
+  "end": 277.843,
+  "speaker": "Unknown",
+  "en": "Again, so why is the usual data sources are not enough, right?",
+  "zh": "再说一下，为什么常用的数据源不够用，对吧？"
+ },
+ {
+  "seg": 65,
+  "start": 277.863,
+  "end": 284.625,
+  "speaker": "Unknown",
+  "en": "Simulations, virtual, it's cheap, but it's, you know, everybody's playing video games.",
+  "zh": "仿真、虚拟，很便宜，但是，你知道，那是所有人都在玩电子游戏。"
+ },
+ {
+  "seg": 66,
+  "start": 284.685,
+  "end": 290.747,
+  "speaker": "Unknown",
+  "en": "The physics in video games are almost there, but they're not good enough to train a robot on it, right?",
+  "zh": "电子游戏里的物理效果几乎可以了，但还不足以用来训练机器人，对吧？"
+ },
+ {
+  "seg": 67,
+  "start": 290.807,
+  "end": 294.188,
+  "speaker": "Unknown",
+  "en": "A hand control, the person controlling a robot, it's doable.",
+  "zh": "手动控制，由人控制机器人，这是可行的。"
+ },
+ {
+  "seg": 68,
+  "start": 295.008,
+  "end": 297.308,
+  "speaker": "Unknown",
+  "en": "But how many hours a day can you record a robot?",
+  "zh": "但是你一天能录多少小时的机器人？"
+ },
+ {
+  "seg": 69,
+  "start": 297.768,
+  "end": 301.369,
+  "speaker": "Unknown",
+  "en": "How many people you need to actually get huge scale data, right?",
+  "zh": "要获得大规模数据，你到底需要多少人，对吧？"
+ },
+ {
+  "seg": 70,
+  "start": 301.649,
+  "end": 304.25,
+  "speaker": "Unknown",
+  "en": "I mean, you can record maybe eight hours a day every day.",
+  "zh": "我是说，你也许每天每天能录八个小时。"
+ },
+ {
+  "seg": 71,
+  "start": 304.87,
+  "end": 306.43,
+  "speaker": "Unknown",
+  "en": "How many hours are you going to get in a year?",
+  "zh": "那一年你能得到多少小时？"
+ },
+ {
+  "seg": 72,
+  "start": 307.17,
+  "end": 308.43,
+  "speaker": "Unknown",
+  "en": "It's not really scalable.",
+  "zh": "这其实不可扩展。"
+ },
+ {
+  "seg": 73,
+  "start": 309.911,
+  "end": 311.891,
+  "speaker": "Unknown",
+  "en": "And of course, there's already pre-built data sets.",
+  "zh": "当然，还有已经预建好的数据集。"
+ },
+ {
+  "seg": 74,
+  "start": 312.151,
+  "end": 313.651,
+  "speaker": "Unknown",
+  "en": "But as I said before, they're small.",
+  "zh": "但正如我之前说的，它们很小。"
+ },
+ {
+  "seg": 75,
+  "start": 313.871,
+  "end": 315.812,
+  "speaker": "Unknown",
+  "en": "There's only about a million videos at this point.",
+  "zh": "目前只有大约一百万个视频。"
+ },
+ {
+  "seg": 76,
+  "start": 315.972,
+  "end": 317.272,
+  "speaker": "Unknown",
+  "en": "So what is the alternative?",
+  "zh": "那替代方案是什么？"
+ },
+ {
+  "seg": 77,
+  "start": 317.632,
+  "end": 319.072,
+  "speaker": "Unknown",
+  "en": "The alternative is the web.",
+  "zh": "替代方案就是网络。"
+ },
+ {
+  "seg": 78,
+  "start": 320.592,
+  "end": 321.853,
+  "speaker": "Unknown",
+  "en": "Let's just think about YouTube.",
+  "zh": "我们就想想 YouTube 吧。"
+ },
+ {
+  "seg": 79,
+  "start": 322.273,
+  "end": 324.453,
+  "speaker": "Unknown",
+  "en": "How many videos are there on YouTube?",
+  "zh": "YouTube 上有多少视频？"
+ },
+ {
+  "seg": 80,
+  "start": 325.478,
+  "end": 327.54,
+  "speaker": "Unknown",
+  "en": "I don't know, five billion videos?",
+  "zh": "我不知道，五十亿个视频？"
+ },
+ {
+  "seg": 81,
+  "start": 328.321,
+  "end": 333.788,
+  "speaker": "Unknown",
+  "en": "How many actions are in those videos that a robot can replicate?",
+  "zh": "那些视频里有多少动作是机器人可以复现的？"
+ },
+ {
+  "seg": 82,
+  "start": 334.909,
+  "end": 335.73,
+  "speaker": "Unknown",
+  "en": "I mean, let's think about it.",
+  "zh": "我是说，我们想想看。"
+ },
+ {
+  "seg": 83,
+  "start": 335.77,
+  "end": 340.155,
+  "speaker": "Unknown",
+  "en": "How many do you think videos are there of a person opening the door, first-person view?",
+  "zh": "你们觉得有多少视频是第一人称视角下一个人开门的？"
+ },
+ {
+  "seg": 84,
+  "start": 342.598,
+  "end": 343.438,
+  "speaker": "Unknown",
+  "en": "Millions of hours.",
+  "zh": "数百万小时。"
+ },
+ {
+  "seg": 85,
+  "start": 343.939,
+  "end": 344.76,
+  "speaker": "Unknown",
+  "en": "You'll be surprised.",
+  "zh": "你会惊讶的。"
+ },
+ {
+  "seg": 86,
+  "start": 350.155,
+  "end": 353.941,
+  "speaker": "Unknown",
+  "en": "Every day, the web video shows gravity, motions, right?",
+  "zh": "每天，网络视频展示重力、运动，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 354.001,
+  "end": 361.072,
+  "speaker": "Unknown",
+  "en": "So cause and effect, obviously accidents, the biggest cause and effect, right?",
+  "zh": "所以是因果，显然还有事故，最大的因果关系，对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 361.112,
+  "end": 364.056,
+  "speaker": "Unknown",
+  "en": "How people handle objects in billions of hours.",
+  "zh": "人们如何在数十亿小时里操作物体。"
+ },
+ {
+  "seg": 89,
+  "start": 364.962,
+  "end": 368.504,
+  "speaker": "Unknown",
+  "en": "Great training material for robots, but what is the problem?",
+  "zh": "对机器人来说是很棒的训练素材，但问题是什么？"
+ },
+ {
+  "seg": 90,
+  "start": 368.544,
+  "end": 372.125,
+  "speaker": "Unknown",
+  "en": "The problem is that there's a lot of noise, right?",
+  "zh": "问题是有很多噪音，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 372.945,
+  "end": 388.652,
+  "speaker": "Unknown",
+  "en": "Oh, and for example, right, so one of the AI models that Meta trained, they gave it about a million hours of real-world videos, and then all it took is 62 hours of real robotics data to actually control a real robot.",
+  "zh": "哦，举个例子，对吧，Meta 训练的其中一个 AI 模型，他们给它大约一百万小时的真实世界视频，然后只需要 62 小时的真实机器人数据就能实际控制一个真实的机器人。"
+ },
+ {
+  "seg": 92,
+  "start": 389.452,
+  "end": 390.373,
+  "speaker": "Unknown",
+  "en": "So if you think about it,",
+  "zh": "所以如果你想想看，"
+ },
+ {
+  "seg": 93,
+  "start": 391.858,
+  "end": 393.739,
+  "speaker": "Unknown",
+  "en": "The data was collected publicly, right?",
+  "zh": "这些数据是公开收集的，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 393.779,
+  "end": 397.742,
+  "speaker": "Unknown",
+  "en": "So it trained the robot on just random things.",
+  "zh": "所以它只用随机的东西训练机器人。"
+ },
+ {
+  "seg": 95,
+  "start": 398.322,
+  "end": 401.884,
+  "speaker": "Unknown",
+  "en": "And then in 62 robotic hours, it was already moving.",
+  "zh": "然后在 62 个机器人小时里，它就已经会动了。"
+ },
+ {
+  "seg": 96,
+  "start": 401.944,
+  "end": 404.226,
+  "speaker": "Unknown",
+  "en": "So no simulations needed.",
+  "zh": "所以不需要仿真。"
+ },
+ {
+  "seg": 97,
+  "start": 404.986,
+  "end": 407.448,
+  "speaker": "Unknown",
+  "en": "Autonomous robotics delivered fast.",
+  "zh": "自主机器人快速交付。"
+ },
+ {
+  "seg": 98,
+  "start": 412.898,
+  "end": 415.141,
+  "speaker": "Unknown",
+  "en": "But the videos don't show how the robots move, right?",
+  "zh": "但视频并不展示机器人如何移动，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 415.161,
+  "end": 421.227,
+  "speaker": "Unknown",
+  "en": "So you might think, well, listen, how useful is it a person pouring water into a cup for a robot?",
+  "zh": "所以你可能会想，嗯，听着，一个人往杯子里倒水对机器人来说有多大用处？"
+ },
+ {
+  "seg": 100,
+  "start": 421.928,
+  "end": 429.216,
+  "speaker": "Unknown",
+  "en": "So there is methods actually out there how an AI can distinguish and actually learn from the actions that are in the video.",
+  "zh": "所以实际上已经有方法可以让 AI 从视频中的动作里进行区分并真正学习。"
+ },
+ {
+  "seg": 101,
+  "start": 429.777,
+  "end": 431.999,
+  "speaker": "Unknown",
+  "en": "If you take two frames, frame by frame,",
+  "zh": "如果你取两帧画面,一帧一帧地看,"
+ },
+ {
+  "seg": 102,
+  "start": 432.9,
+  "end": 435.644,
+  "speaker": "Unknown",
+  "en": "And the AI measures the movement difference, right?",
+  "zh": "AI 会测量运动的差异,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 435.664,
+  "end": 441.171,
+  "speaker": "Unknown",
+  "en": "So you have an image A and image 2, and there's a small movement that is changing between the two images.",
+  "zh": "比如你有一个图像 A 和图像 2,两幅图像之间有一个微小的运动变化。"
+ },
+ {
+  "seg": 104,
+  "start": 441.931,
+  "end": 443.994,
+  "speaker": "Unknown",
+  "en": "And AI can actually measure that change.",
+  "zh": "AI 实际上可以测量那个变化。"
+ },
+ {
+  "seg": 105,
+  "start": 444.916,
+  "end": 454.203,
+  "speaker": "Unknown",
+  "en": "So if you keep doing that through the whole video, in AI can actually figure out angles, distance, and everything that it needs to train and robot, right?",
+  "zh": "所以如果你在整个视频中持续这样做,AI 实际上可以推算出角度、距离,以及训练机器人所需的一切,对吧?"
+ },
+ {
+  "seg": 106,
+  "start": 454.924,
+  "end": 468.174,
+  "speaker": "Unknown",
+  "en": "So we don't necessarily need the sensor's data, but of course, the video itself that you download from YouTube or the video that you extract the data from doesn't necessarily get you 100% there.",
+  "zh": "所以我们不一定需要传感器数据,但当然,你从 YouTube 下载的视频或者你从中提取数据的视频,也不一定能让你百分之百达成目标。"
+ },
+ {
+  "seg": 107,
+  "start": 468.214,
+  "end": 470.516,
+  "speaker": "Unknown",
+  "en": "You do need to have some processing on top of that, but",
+  "zh": "你确实需要在此基础上做一些处理,但是"
+ },
+ {
+  "seg": 108,
+  "start": 472.253,
+  "end": 472.834,
+  "speaker": "Unknown",
+  "en": "It's available.",
+  "zh": "它是可用的。"
+ },
+ {
+  "seg": 109,
+  "start": 473.214,
+  "end": 473.815,
+  "speaker": "Unknown",
+  "en": "It's out there.",
+  "zh": "它就在那里。"
+ },
+ {
+  "seg": 110,
+  "start": 474.495,
+  "end": 476.597,
+  "speaker": "Unknown",
+  "en": "And all you need to do is process it.",
+  "zh": "你要做的只是处理它。"
+ },
+ {
+  "seg": 111,
+  "start": 478.639,
+  "end": 480.041,
+  "speaker": "Unknown",
+  "en": "So a few more examples, right?",
+  "zh": "那么再多举几个例子,对吧?"
+ },
+ {
+  "seg": 112,
+  "start": 480.061,
+  "end": 487.327,
+  "speaker": "Unknown",
+  "en": "So for example, NVIDIA, when they train in the Cosmos robot, they're throwing out about 96% of the video.",
+  "zh": "比如说,NVIDIA 在训练 Cosmos 机器人时,他们丢弃了大约 96% 的视频。"
+ },
+ {
+  "seg": 113,
+  "start": 487.968,
+  "end": 488.849,
+  "speaker": "Unknown",
+  "en": "So what does that mean?",
+  "zh": "这意味着什么呢?"
+ },
+ {
+  "seg": 114,
+  "start": 489.53,
+  "end": 491.511,
+  "speaker": "Unknown",
+  "en": "They download a million hours of video.",
+  "zh": "他们下载了一百万小时的视频。"
+ },
+ {
+  "seg": 115,
+  "start": 492.321,
+  "end": 495.242,
+  "speaker": "Unknown",
+  "en": "And the only part is that 4% is actually useful.",
+  "zh": "我们所做的是给视频建立索引,并允许你搜索特定的动作。"
+ },
+ {
+  "seg": 116,
+  "start": 495.502,
+  "end": 496.863,
+  "speaker": "Unknown",
+  "en": "Everything else gets thrown out.",
+  "zh": "其他的全都被丢弃。"
+ },
+ {
+  "seg": 117,
+  "start": 496.903,
+  "end": 498.303,
+  "speaker": "Unknown",
+  "en": "That's wasted compute.",
+  "zh": "那是浪费的算力。"
+ },
+ {
+  "seg": 118,
+  "start": 498.323,
+  "end": 499.423,
+  "speaker": "Unknown",
+  "en": "That's wasted bandwidth.",
+  "zh": "那是浪费的带宽。"
+ },
+ {
+  "seg": 119,
+  "start": 499.443,
+  "end": 500.884,
+  "speaker": "Unknown",
+  "en": "That's wasted storage.",
+  "zh": "那是浪费的存储。"
+ },
+ {
+  "seg": 120,
+  "start": 501.344,
+  "end": 502.685,
+  "speaker": "Unknown",
+  "en": "That's just a lot of wasted money.",
+  "zh": "那就是浪费了很多钱。"
+ },
+ {
+  "seg": 121,
+  "start": 503.405,
+  "end": 508.867,
+  "speaker": "Unknown",
+  "en": "OK, Stable Video Diffusion is throwing out 74% of the videos that they're downloading.",
+  "zh": "好的,Stable Video Diffusion 丢弃了他们下载视频的 74%。"
+ },
+ {
+  "seg": 122,
+  "start": 510.347,
+  "end": 514.549,
+  "speaker": "Unknown",
+  "en": "So in Bright Data, we are trying to solve that problem.",
+  "zh": "所以在 Bright Data,我们正试图解决这个问题。"
+ },
+ {
+  "seg": 123,
+  "start": 515.329,
+  "end": 517.05,
+  "speaker": "Unknown",
+  "en": "And we're trying to take it a step forward.",
+  "zh": "而且我们试图更进一步。"
+ },
+ {
+  "seg": 124,
+  "start": 517.85,
+  "end": 520.691,
+  "speaker": "Unknown",
+  "en": "So what we propose is search first, collect second.",
+  "zh": "所以我们提出的是:先搜索,后采集。"
+ },
+ {
+  "seg": 125,
+  "start": 521.593,
+  "end": 529.421,
+  "speaker": "Unknown",
+  "en": "What we do is we are actually indexing videos and we are allowing you to search for specific actions.",
+  "zh": "我们做的事情实际上是给视频建立索引,并且让你能够搜索特定的动作。"
+ },
+ {
+  "seg": 126,
+  "start": 530.402,
+  "end": 535.086,
+  "speaker": "Unknown",
+  "en": "Since we're talking about a person opening a door, let's keep using that example.",
+  "zh": "既然我们在谈一个人开门,那就继续用那个例子。"
+ },
+ {
+  "seg": 127,
+  "start": 535.727,
+  "end": 538.89,
+  "speaker": "Unknown",
+  "en": "What you can do on our platform is actually input",
+  "zh": "你在我们的平台上可以实际输入"
+ },
+ {
+  "seg": 128,
+  "start": 539.953,
+  "end": 541.454,
+  "speaker": "Unknown",
+  "en": "Detailed information, right?",
+  "zh": "详细的信息,对吧?"
+ },
+ {
+  "seg": 129,
+  "start": 541.514,
+  "end": 546.277,
+  "speaker": "Unknown",
+  "en": "A query, person washing dishes, person folding a t-shirt, and so on.",
+  "zh": "一个查询:人在洗碗、人在叠 T 恤,等等。"
+ },
+ {
+  "seg": 130,
+  "start": 546.997,
+  "end": 552.401,
+  "speaker": "Unknown",
+  "en": "And we will provide the snippets from the videos of these actions.",
+  "zh": "然后我们会提供这些动作对应视频的片段。"
+ },
+ {
+  "seg": 131,
+  "start": 554.122,
+  "end": 554.982,
+  "speaker": "Unknown",
+  "en": "So what does that mean?",
+  "zh": "那这意味着什么呢?"
+ },
+ {
+  "seg": 132,
+  "start": 556.683,
+  "end": 562.146,
+  "speaker": "Unknown",
+  "en": "That means that there's less waste of data collection.",
+  "zh": "这意味着数据采集的浪费更少了。"
+ },
+ {
+  "seg": 133,
+  "start": 562.647,
+  "end": 565.488,
+  "speaker": "Unknown",
+  "en": "There's less waste of storage and bandwidth, right?",
+  "zh": "存储和带宽的浪费也更少了,对吧?"
+ },
+ {
+  "seg": 134,
+  "start": 565.528,
+  "end": 566.969,
+  "speaker": "Unknown",
+  "en": "So a little more on how it works.",
+  "zh": "再稍微讲一下它的工作原理。"
+ },
+ {
+  "seg": 135,
+  "start": 567.71,
+  "end": 569.431,
+  "speaker": "Unknown",
+  "en": "Obviously, you define what you're looking for.",
+  "zh": "显然,你定义你要找什么。"
+ },
+ {
+  "seg": 136,
+  "start": 572.356,
+  "end": 582.798,
+  "speaker": "Unknown",
+  "en": "We search through billions and billions of pre-indexed videos, not by keywords but by actions, and we provide you with ready-to-use clips.",
+  "zh": "我们在数十亿个预先建好索引的视频中进行搜索,不是按关键词而是按动作搜索,并为你提供可以直接使用的片段。"
+ },
+ {
+  "seg": 137,
+  "start": 584.119,
+  "end": 595.641,
+  "speaker": "Unknown",
+  "en": "And obviously they're already prepared for your training, so all you gotta do is process them a little bit for maybe motion, distance sensors, and so on, and it's ready to be ingested into a robot.",
+  "zh": "而且显然它们已经为你的训练准备好了,所以你要做的只是稍微处理一下,比如运动、距离传感器等等,然后就可以直接输入给机器人了。"
+ },
+ {
+  "seg": 138,
+  "start": 597.972,
+  "end": 601.856,
+  "speaker": "Unknown",
+  "en": "I have a small example of a video of how it actually works on our platform.",
+  "zh": "我有一个关于它在我们平台上实际如何运作的小视频示例。"
+ },
+ {
+  "seg": 139,
+  "start": 602.737,
+  "end": 605.219,
+  "speaker": "Unknown",
+  "en": "So let me just hit play here if I can find it.",
+  "zh": "让我在这里按一下播放,如果我能找到它的话。"
+ },
+ {
+  "seg": 140,
+  "start": 607.461,
+  "end": 617.751,
+  "speaker": "Unknown",
+  "en": "So here we see person washing dishes by hand in sink, removing grease from the plate, using sponge and soap, including rinse and placing dishes into drying rack, close up hand interactions.",
+  "zh": "这里我们看到:人在水槽中用手洗碗,用海绵和清洁剂去除盘子上的油污,包括冲洗并把碗盘放进沥水架,手部交互特写。"
+ },
+ {
+  "seg": 141,
+  "start": 619.593,
+  "end": 621.815,
+  "speaker": "Unknown",
+  "en": "So right now what is happening is it's searching through",
+  "zh": "所以现在正在发生的是它正在搜索"
+ },
+ {
+  "seg": 142,
+  "start": 623.38,
+  "end": 624.38,
+  "speaker": "Unknown",
+  "en": "Billions of videos.",
+  "zh": "数十亿个视频。"
+ },
+ {
+  "seg": 143,
+  "start": 624.7,
+  "end": 626.481,
+  "speaker": "Unknown",
+  "en": "Now, on this video, it's a bit old.",
+  "zh": "现在,这个视频有点旧了。"
+ },
+ {
+  "seg": 144,
+  "start": 626.501,
+  "end": 630.683,
+  "speaker": "Unknown",
+  "en": "We only got about 100 million index there, but now we're up to 1.1 billion videos.",
+  "zh": "我们当时只有大约 1 亿个索引,但现在我们已经达到 11 亿个视频。"
+ },
+ {
+  "seg": 145,
+  "start": 631.323,
+  "end": 640.666,
+  "speaker": "Unknown",
+  "en": "And it will literally, like, this is a little sped up, so I didn't want to waste you guys' time, but it will provide to you clips from videos of people washing dishes.",
+  "zh": "它真的会——这个是稍微加速了的,我不想浪费大家的时间——它会为你提供人们洗碗的视频片段。"
+ },
+ {
+  "seg": 146,
+  "start": 641.487,
+  "end": 644.288,
+  "speaker": "Unknown",
+  "en": "And you can see right here all the videos.",
+  "zh": "而且你可以在这里看到所有的视频。"
+ },
+ {
+  "seg": 147,
+  "start": 645.488,
+  "end": 646.889,
+  "speaker": "Unknown",
+  "en": "That will be fine.",
+  "zh": "那就没问题了。"
+ },
+ {
+  "seg": 148,
+  "start": 647.33,
+  "end": 650.472,
+  "speaker": "Unknown",
+  "en": "Now some of these videos might not have to do anything with washing dishes.",
+  "zh": "现在有些视频可能和洗碗完全没有任何关系。"
+ },
+ {
+  "seg": 149,
+  "start": 650.492,
+  "end": 652.053,
+  "speaker": "Unknown",
+  "en": "They might have cleaning kitchen.",
+  "zh": "它们可能是清洁厨房。"
+ },
+ {
+  "seg": 150,
+  "start": 652.453,
+  "end": 653.874,
+  "speaker": "Unknown",
+  "en": "They might have to do something else.",
+  "zh": "他们可能得去做别的事情。"
+ },
+ {
+  "seg": 151,
+  "start": 654.615,
+  "end": 655.775,
+  "speaker": "Unknown",
+  "en": "And here's another example.",
+  "zh": "再举一个例子。"
+ },
+ {
+  "seg": 152,
+  "start": 655.795,
+  "end": 658.337,
+  "speaker": "Unknown",
+  "en": "For example, human folding different types of clothes.",
+  "zh": "比如，人类折叠不同类型的衣服。"
+ },
+ {
+  "seg": 153,
+  "start": 659.638,
+  "end": 659.878,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 154,
+  "start": 659.918,
+  "end": 661.84,
+  "speaker": "Unknown",
+  "en": "So a little more description.",
+  "zh": "所以再加一点描述。"
+ },
+ {
+  "seg": 155,
+  "start": 661.86,
+  "end": 664.922,
+  "speaker": "Unknown",
+  "en": "The more description you give, the more you actually get back.",
+  "zh": "你给的描述越多，你实际得到的内容就越多。"
+ },
+ {
+  "seg": 156,
+  "start": 667.023,
+  "end": 668.364,
+  "speaker": "Unknown",
+  "en": "So again, a little speed up.",
+  "zh": "再稍微快进一下。"
+ },
+ {
+  "seg": 157,
+  "start": 668.985,
+  "end": 669.345,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "我们看看。"
+ },
+ {
+  "seg": 158,
+  "start": 674.686,
+  "end": 676.047,
+  "speaker": "Unknown",
+  "en": "I want you to understand it could be anything.",
+  "zh": "我想让你明白，它可以是任何东西。"
+ },
+ {
+  "seg": 159,
+  "start": 676.367,
+  "end": 677.547,
+  "speaker": "Unknown",
+  "en": "A person putting on makeup.",
+  "zh": "一个人在化妆。"
+ },
+ {
+  "seg": 160,
+  "start": 677.627,
+  "end": 681.109,
+  "speaker": "Unknown",
+  "en": "Let's say you have a brand and you want to find videos where your brand is being found.",
+  "zh": "假设你有一个品牌，你想找到你的品牌出现在哪些视频里。"
+ },
+ {
+  "seg": 161,
+  "start": 681.669,
+  "end": 683.01,
+  "speaker": "Unknown",
+  "en": "All that can be also provided.",
+  "zh": "这些都可以被提供出来。"
+ },
+ {
+  "seg": 162,
+  "start": 684.07,
+  "end": 686.171,
+  "speaker": "Unknown",
+  "en": "So you see people folding clothes.",
+  "zh": "你看到人们在叠衣服。"
+ },
+ {
+  "seg": 163,
+  "start": 686.931,
+  "end": 689.533,
+  "speaker": "Unknown",
+  "en": "So now you can train a robot on how to fold clothes.",
+  "zh": "现在你就可以训练一个机器人如何叠衣服。"
+ },
+ {
+  "seg": 164,
+  "start": 694.615,
+  "end": 696.556,
+  "speaker": "Unknown",
+  "en": "Of course, everything is available via API.",
+  "zh": "当然，一切都通过 API 提供。"
+ },
+ {
+  "seg": 165,
+  "start": 696.576,
+  "end": 699.477,
+  "speaker": "Unknown",
+  "en": "We don't expect people to actually do anything manually, right?",
+  "zh": "我们并不指望人们真的手动去做什么，对吧？"
+ },
+ {
+  "seg": 166,
+  "start": 699.537,
+  "end": 701.158,
+  "speaker": "Unknown",
+  "en": "So you can trigger it by API.",
+  "zh": "所以你可以通过 API 触发它。"
+ },
+ {
+  "seg": 167,
+  "start": 701.178,
+  "end": 703.639,
+  "speaker": "Unknown",
+  "en": "You get a return snippet of",
+  "zh": "你会得到一个返回片段，包含"
+ },
+ {
+  "seg": 168,
+  "start": 704.599,
+  "end": 716.607,
+  "speaker": "Unknown",
+  "en": "The video, the URL, we give you the link to the original video if you want to watch it, but the main thing here is that we can give you the snippets of the video to train your robotics.",
+  "zh": "视频、URL，如果你想看原视频，我们会给你原视频的链接，但这里最主要的是，我们可以把这些视频片段提供给你，用来训练你的机器人技术。"
+ },
+ {
+  "seg": 169,
+  "start": 717.428,
+  "end": 724.172,
+  "speaker": "Unknown",
+  "en": "Now, I'm not sure if any of you are training any robots, so I'm going to give you another example of how useful it could be.",
+  "zh": "现在，我不确定你们当中有没有人在训练机器人，所以我再给你举一个例子，说明它能有多大用处。"
+ },
+ {
+  "seg": 170,
+  "start": 725.113,
+  "end": 732.078,
+  "speaker": "Unknown",
+  "en": "Let's say you have a brand, and you want to know where your brand is being demoed on videos.",
+  "zh": "假设你有一个品牌，你想知道你的品牌在哪些视频里被演示。"
+ },
+ {
+  "seg": 171,
+  "start": 733.975,
+  "end": 738.877,
+  "speaker": "Unknown",
+  "en": "The video titles doesn't matter because it doesn't actually, it's not about your product.",
+  "zh": "视频标题并不重要，因为它实际上，它不是关于你的产品。"
+ },
+ {
+  "seg": 172,
+  "start": 739.197,
+  "end": 749.642,
+  "speaker": "Unknown",
+  "en": "It's just a person doing some podcast, recording something, but you see a woman putting on makeup, and you see on the table that this is your brand of a makeup.",
+  "zh": "只是一个人在做播客，录一些东西，但你能看到一个女士在化妆，而且你看到桌子上那正是你的品牌的化妆品。"
+ },
+ {
+  "seg": 173,
+  "start": 750.202,
+  "end": 755.944,
+  "speaker": "Unknown",
+  "en": "So now all of a sudden you can find all videos for your brand where it's being used, whatever it is, right?",
+  "zh": "所以现在突然之间，你可以找到你的品牌被使用的所有视频，不管它是什么，对吧？"
+ },
+ {
+  "seg": 174,
+  "start": 756.685,
+  "end": 758.826,
+  "speaker": "Unknown",
+  "en": "By searching the name of the video, you won't find it.",
+  "zh": "通过搜索视频的名字，你是找不到的。"
+ },
+ {
+  "seg": 175,
+  "start": 760.25,
+  "end": 765.154,
+  "speaker": "Unknown",
+  "en": "In video indexing, you can actually find specific things that you are interested in.",
+  "zh": "而在视频索引中，你实际上可以找到你感兴趣的特定事物。"
+ },
+ {
+  "seg": 176,
+  "start": 765.834,
+  "end": 768.337,
+  "speaker": "Unknown",
+  "en": "Apple falling from the tree, and so on.",
+  "zh": "苹果从树上掉下来，等等。"
+ },
+ {
+  "seg": 177,
+  "start": 769.077,
+  "end": 769.958,
+  "speaker": "Unknown",
+  "en": "So what comes back?",
+  "zh": "那么返回的是什么？"
+ },
+ {
+  "seg": 178,
+  "start": 770.738,
+  "end": 781.667,
+  "speaker": "Unknown",
+  "en": "We provide to you this timestamp, we provide to you the score matching, how close it is to your query, and of course, the frame count, how many frames are about what you're looking for.",
+  "zh": "我们提供给你这个时间戳，我们提供给你匹配得分，即它与你的查询有多接近，当然还有帧数，即有多少帧是关于你要找的内容的。"
+ },
+ {
+  "seg": 179,
+  "start": 784.169,
+  "end": 785.13,
+  "speaker": "Unknown",
+  "en": "So what does this change?",
+  "zh": "那么这改变了什么？"
+ },
+ {
+  "seg": 180,
+  "start": 786.431,
+  "end": 787.912,
+  "speaker": "Unknown",
+  "en": "This changes a lot, okay?",
+  "zh": "这改变了很多，好吗？"
+ },
+ {
+  "seg": 181,
+  "start": 787.952,
+  "end": 788.553,
+  "speaker": "Unknown",
+  "en": "Less waste.",
+  "zh": "更少的浪费。"
+ },
+ {
+  "seg": 182,
+  "start": 789.753,
+  "end": 792.795,
+  "speaker": "Unknown",
+  "en": "You don't need to download millions of hours of videos.",
+  "zh": "你不需要下载数百万小时的视频。"
+ },
+ {
+  "seg": 183,
+  "start": 792.815,
+  "end": 798.92,
+  "speaker": "Unknown",
+  "en": "You can actually get exactly the specific actions that you are interested in.",
+  "zh": "你实际上可以精确获得你感兴趣的特定动作。"
+ },
+ {
+  "seg": 184,
+  "start": 801.062,
+  "end": 808.868,
+  "speaker": "Unknown",
+  "en": "Again, it's very crucial for robotic training because noise creates problems, hallucinations, right?",
+  "zh": "再说一次，这对机器人训练非常关键，因为噪音会带来问题、幻觉，对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 809.709,
+  "end": 811.09,
+  "speaker": "Unknown",
+  "en": "This removes the noise.",
+  "zh": "这就消除了噪音。"
+ },
+ {
+  "seg": 186,
+  "start": 814.22,
+  "end": 818.181,
+  "speaker": "Unknown",
+  "en": "What is it useful for not only robots, but obviously self-driving?",
+  "zh": "它不仅对机器人有用，显然对自动驾驶也有用？"
+ },
+ {
+  "seg": 187,
+  "start": 818.381,
+  "end": 820.162,
+  "speaker": "Unknown",
+  "en": "For example, Wimeo, right?",
+  "zh": "比如，Wimeo，对吧？"
+ },
+ {
+  "seg": 188,
+  "start": 820.502,
+  "end": 827.844,
+  "speaker": "Unknown",
+  "en": "Trained on dash cam video cameras, and there's millions, hundreds of millions of hours on YouTube of dash cams.",
+  "zh": "用行车记录仪视频训练，YouTube 上有数百万、数亿小时的行车记录仪视频。"
+ },
+ {
+  "seg": 189,
+  "start": 827.864,
+  "end": 830.004,
+  "speaker": "Unknown",
+  "en": "How many of you like to watch accidents?",
+  "zh": "你们有多少人喜欢看事故？"
+ },
+ {
+  "seg": 190,
+  "start": 830.504,
+  "end": 831.885,
+  "speaker": "Unknown",
+  "en": "Dash cam cam accidents?",
+  "zh": "行车记录仪拍的事故？"
+ },
+ {
+  "seg": 191,
+  "start": 832.225,
+  "end": 833.405,
+  "speaker": "Unknown",
+  "en": "I'm sure everybody watched some.",
+  "zh": "我相信每个人都看过一些。"
+ },
+ {
+  "seg": 192,
+  "start": 834.065,
+  "end": 836.266,
+  "speaker": "Unknown",
+  "en": "Crazy driving in Russia, right?",
+  "zh": "俄罗斯的疯狂驾驶，对吧？"
+ },
+ {
+  "seg": 193,
+  "start": 837.086,
+  "end": 838.806,
+  "speaker": "Unknown",
+  "en": "So this is what we're talking about, right?",
+  "zh": "这就是我们所说的，对吧？"
+ },
+ {
+  "seg": 194,
+  "start": 838.887,
+  "end": 840.227,
+  "speaker": "Unknown",
+  "en": "The videos are out there.",
+  "zh": "视频就在那里。"
+ },
+ {
+  "seg": 195,
+  "start": 841.498,
+  "end": 846.882,
+  "speaker": "Unknown",
+  "en": "A person running a red light, a person stopping on a red light, making a left turn, making a right turn, and so on.",
+  "zh": "一个人闯红灯，一个人在红灯前停下，左转，右转，等等。"
+ },
+ {
+  "seg": 196,
+  "start": 847.122,
+  "end": 853.646,
+  "speaker": "Unknown",
+  "en": "All of that can be a very useful data for training and any other world models.",
+  "zh": "所有这些都可以成为训练以及任何其他世界模型的非常有用的数据。"
+ },
+ {
+  "seg": 197,
+  "start": 853.726,
+  "end": 854.806,
+  "speaker": "Unknown",
+  "en": "Physics, right?",
+  "zh": "物理，对吧？"
+ },
+ {
+  "seg": 198,
+  "start": 854.866,
+  "end": 856.507,
+  "speaker": "Unknown",
+  "en": "Robots need to understand physics.",
+  "zh": "机器人需要理解物理。"
+ },
+ {
+  "seg": 199,
+  "start": 857.128,
+  "end": 858.008,
+  "speaker": "Unknown",
+  "en": "What is the gravity?",
+  "zh": "什么是重力？"
+ },
+ {
+  "seg": 200,
+  "start": 858.509,
+  "end": 860.43,
+  "speaker": "Unknown",
+  "en": "How to sit, how to walk, how to move.",
+  "zh": "怎么坐、怎么走、怎么动。"
+ },
+ {
+  "seg": 201,
+  "start": 861.951,
+  "end": 864.414,
+  "speaker": "Unknown",
+  "en": "Again, of course, you can pre-record it.",
+  "zh": "当然，再说一次，你可以提前录制。"
+ },
+ {
+  "seg": 202,
+  "start": 865.275,
+  "end": 870.54,
+  "speaker": "Unknown",
+  "en": "A lot of times right now I speak to some of the people and they have millions of people recording videos for them.",
+  "zh": "现在很多时候我和一些人交流，他们有数百万人为他们录制视频。"
+ },
+ {
+  "seg": 203,
+  "start": 870.56,
+  "end": 872.923,
+  "speaker": "Unknown",
+  "en": "Hey, can you guys record me how you open doors?",
+  "zh": "嘿，你们能不能录一下你们是怎么开门的？"
+ },
+ {
+  "seg": 204,
+  "start": 873.343,
+  "end": 874.004,
+  "speaker": "Unknown",
+  "en": "That's crazy.",
+  "zh": "这太疯狂了。"
+ },
+ {
+  "seg": 205,
+  "start": 874.805,
+  "end": 879.83,
+  "speaker": "Unknown",
+  "en": "Why do you need a million people doing that when everything is available online?",
+  "zh": "当所有东西都能在网上找到时，为什么需要一百万人去做这件事？"
+ },
+ {
+  "seg": 206,
+  "start": 880.09,
+  "end": 882.313,
+  "speaker": "Unknown",
+  "en": "Online is one of the hugest databases out there.",
+  "zh": "互联网是现存最大的数据库之一。"
+ },
+ {
+  "seg": 207,
+  "start": 883.467,
+  "end": 886.668,
+  "speaker": "Unknown",
+  "en": "It's just people don't really, like, it's not that easy to use it, right?",
+  "zh": "只是人们没有真正……它没那么容易使用，对吧？"
+ },
+ {
+  "seg": 208,
+  "start": 886.708,
+  "end": 892.469,
+  "speaker": "Unknown",
+  "en": "I mean, right now the only search available to us is by the keyword of the name of the video.",
+  "zh": "我的意思是，现在我们唯一可用的搜索方式就是按视频名称的关键词。"
+ },
+ {
+  "seg": 209,
+  "start": 893.949,
+  "end": 898.39,
+  "speaker": "Unknown",
+  "en": "And of course, one source, the whole public video web in one place.",
+  "zh": "当然，还有一个来源，把整个公开视频网络放在一个地方。"
+ },
+ {
+  "seg": 210,
+  "start": 899.59,
+  "end": 908.212,
+  "speaker": "Unknown",
+  "en": "I mean, we got YouTube, we got Vimeo, we got so many different video providers out there, billions and billions of hours.",
+  "zh": "我的意思是，我们有 YouTube,我们有 Vimeo,外面有这么多不同的视频提供商，数十亿数十亿小时的"
+ },
+ {
+  "seg": 211,
+  "start": 909.555,
+  "end": 914.638,
+  "speaker": "Unknown",
+  "en": "of training data just there waiting for you to grab it, collect it, and process it.",
+  "zh": "训练数据就在那里，等着你去抓取、收集和处理。"
+ },
+ {
+  "seg": 212,
+  "start": 915.098,
+  "end": 918.159,
+  "speaker": "Unknown",
+  "en": "So basically, this is a new product that we're doing at Bright Data, right?",
+  "zh": "所以基本上，这是我们在 Bright Data 正在做的一个新产品，对吧？"
+ },
+ {
+  "seg": 213,
+  "start": 918.419,
+  "end": 925.123,
+  "speaker": "Unknown",
+  "en": "Indexing videos so that you guys can find specific actions, anything you can think about.",
+  "zh": "给视频建索引，这样你们就能找到特定的动作，任何你能想到的东西。"
+ },
+ {
+  "seg": 214,
+  "start": 925.903,
+  "end": 929.205,
+  "speaker": "Unknown",
+  "en": "Again, it could be useful for brands as well.",
+  "zh": "再说一次，它对品牌方也可能有用。"
+ },
+ {
+  "seg": 215,
+  "start": 929.265,
+  "end": 930.805,
+  "speaker": "Unknown",
+  "en": "It's not only for training data.",
+  "zh": "它不只是用于训练数据。"
+ },
+ {
+  "seg": 216,
+  "start": 931.286,
+  "end": 933.807,
+  "speaker": "Unknown",
+  "en": "Anything you can think of could be useful.",
+  "zh": "任何你能想到的东西都可能有用。"
+ },
+ {
+  "seg": 217,
+  "start": 935.867,
+  "end": 940.914,
+  "speaker": "Unknown",
+  "en": "Maybe you are a gamer and you want to know, how do you beat this level?",
+  "zh": "也许你是一个玩家，你想知道，怎么打过这个关卡？"
+ },
+ {
+  "seg": 218,
+  "start": 941.054,
+  "end": 942.896,
+  "speaker": "Unknown",
+  "en": "But there's no exactly video like that.",
+  "zh": "但是没有完全符合那样的视频。"
+ },
+ {
+  "seg": 219,
+  "start": 942.916,
+  "end": 946.901,
+  "speaker": "Unknown",
+  "en": "So you can search, okay, people beating the level on the video game, right?",
+  "zh": "所以你可以搜索，好，人们在视频游戏里打通这个关卡，对吧？"
+ },
+ {
+  "seg": 220,
+  "start": 947.783,
+  "end": 948.183,
+  "speaker": "Unknown",
+  "en": "Anything.",
+  "zh": "任何东西。"
+ },
+ {
+  "seg": 221,
+  "start": 949.385,
+  "end": 950.166,
+  "speaker": "Unknown",
+  "en": "The world is yours.",
+  "zh": "世界属于你。"
+ },
+ {
+  "seg": 222,
+  "start": 953.846,
+  "end": 954.667,
+  "speaker": "Unknown",
+  "en": "I'm going to wrap it up.",
+  "zh": "我要收尾了。"
+ },
+ {
+  "seg": 223,
+  "start": 954.707,
+  "end": 961.193,
+  "speaker": "Unknown",
+  "en": "I don't know if you have any questions, but if you want to connect with me, talk about it more, feel free to add me on LinkedIn.",
+  "zh": "我不知道你们有没有什么问题，但如果你想和我联系，多聊聊这个话题，欢迎在 LinkedIn 上加我。"
+ },
+ {
+  "seg": 224,
+  "start": 962.234,
+  "end": 965.878,
+  "speaker": "Unknown",
+  "en": "And yeah, I'm going to thank you guys for your attention.",
+  "zh": "是的，我要感谢各位的聆听。"
+ },
+ {
+  "seg": 225,
+  "start": 966.919,
+  "end": 970.122,
+  "speaker": "Unknown",
+  "en": "And I'm at a bright data booth if you want to talk more about it.",
+  "zh": "我在 Bright Data 的展位，如果你想多聊聊的话。"
+ },
+ {
+  "seg": 226,
+  "start": 972.484,
+  "end": 973.085,
+  "speaker": "Unknown",
+  "en": "Thanks for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 227,
+  "start": 981.527,
+  "end": 984.112,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

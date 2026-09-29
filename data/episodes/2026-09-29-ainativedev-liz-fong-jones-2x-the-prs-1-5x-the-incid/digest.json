@@ -1,0 +1,208 @@
+{
+  "title_zh": "AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识",
+  "tldr": "Honeycomb 技术院士 Liz Fong-Jones 谈 AI 放大组织既有实践：PR 量翻倍后如何用自动审查、分类器与可观测性兜住质量与事故。",
+  "digest_md": "这一集聊的是：当 AI 让代码产出速度翻倍，工程组织拿什么接得住？主角是 Liz Fong-Jones——Honeycomb 的技术院士，职业生涯从 Google 的 SRE(Site Reliability Engineer,负责系统可靠性的工程师)起步，管过 Bigtable 的 SRE 团队，后来做 DevRel 和 field CTO,是可靠性领域的老将 [02:35 Liz Fong-Jones]。她抛出的核心判断一句话就能说清：\n\n**AI 会放大你现有的实践——让功能失调的组织更失调，让高主人翁意识的组织更快。** [07:06 上下文见主持人引述]\n\n## 方向比速度重要\n\nLiz 解释，决定一个组织高效还是低效的首要力量是**主人翁意识(ownership)**:开发者把自己的贡献视为引以为豪、愿意端到端负责、乐于署名的东西。可靠性实践糟糕的组织，根源往往就是缺这个——否则谁会放着生产环境里的坏代码不管？\n\n她拿 Shopify CEO Toby 举例子：12 个月前喊「我们是 AI 优先组织，人人都要用 AI」,一周前就开始哀叹工程师往生产环境乱扔 slop 炸弹(AI 生成的低质量代码)。「如果你告诉人们没有主人翁意识也要跑得更快、谁在乎后果，这是完全可以预见的后果。」她打了个比方：给一枚没有转向和制导的火箭加燃料，只会转圈直到爆炸。所以别指望 AI 修复你已有的问题——它只会放大，你得先修好，再让 AI 加速。\n\n## AI 复制你代码库里的模式\n\nAI 就绪的仓库长什么样？Liz 给出的判断很直接：**AI 会复制你代码库中已有的模式。如果有五种做事方式，AI 会困惑，然后创造出第六、第七种**。所以要先在组织内对齐「怎么做事」，把常见模式为 AI 和新员工一起编码下来，再配上快速(五分钟级而非三小时级)的 CI/CD、好的可观测性和真正有意义的测试(不是「空热量测试」)。\n\n有意思的是，这些全是 AI 出现之前就该做的「吃蔬菜」式基本功。但 AI 改变了两件事：一是必要性空前提高，因为代码量在涨；二是容易度也空前提高——**机器永远不会无聊，让它们给代码库添加遥测(telemetry,系统运行时上报的数据)、丰富事件和属性，只要你指示，它们就乐意干**。连 Honeycomb 这样注释质量本来就高的代码库，也被 AI 往平均线拉回——大量低价值注释冒出来，所以「如何防范 AI 把代码库变糟」成了新课题。\n\n## Autobot:从写 PR 转向审 PR\n\nHoneycomb 的数据：三个月内，每天合并的 pull request 从 30 个涨到 70 个。但 Liz 纠正了归因：内部机器人 Autobot 每天只产出约 5 个 PR,它真正的角色是**这些 PR 的 100% 审查者**。它做得好到开发者不再需要在变更里找琐碎 bug。\n\nAutobot 最初是「盒装 Claude Code」,自动处理分解好的线性小工单；后来团队看到 Anthropic 的 Claude Code Reviews 一次要 20-30 美元、跑 10-20 分钟，于是把项目转向审查——**瓶颈从来不是产出代码，而是人类的审查注意力**。他们的实验：约 20% 的 PR 经自动审查直接落地、不经人工。现在他们在考虑用专门做是/否判断的小模型做分类器，把 PR 分成「自动审查后可安全合并」和「需人工审查」两类——关键不是省钱省时，而是那个置信度分数。\n\n但代价是真实的：PR 翻倍后，初期变更失败率看似在降，长期一平均——**PR 翻倍，事故 1.5 倍**。「你能要求人类处理的事故数量是有限度的。」\n\n## 理解系统：数据 vs 理解\n\nLiz 对遥测和可观测性划了条硬线：数据 vs 理解，「百分之百，每一天」。人类不必亲自写代码、甚至不必亲自写查询，但**检查查询的输出、内化故障怎么发生、如何防止再发生，是人类必须做的**。她还要求在开发周期里就让语言模型自己测试它产出的遥测：查一遍开发环境，确认属性真的在、真的能检测到积压和排队。\n\n事故场景能走多远？她的答案很条件化：**当且仅当你有可用的自动回滚、可用的特性开关、可用的可观测性**，AI 智能体才能接近「自动定位并修复」。可观测性和可控制性在控制理论里是对偶的——两者都有，你才有能力不必凌晨两点起床。没有这些，智能体只是在往飞镖盘上乱扔飞镖，制造的混乱可能比解决的还多。所以关键不是信任 AI,是信任 AI 所运行其中的系统。而且别给智能体「杀死生产环境随机 Pod」的权力——给它中止发布、回滚发布的安全工具。\n\n## 「Claude 干的」不是借口\n\n出了事算谁的？Honeycomb 的 AI 价值观是「名字在上面，你就拥有它」。Liz 举了个自己翻车的例子：她让 AI 助手分析数据，助手轻率断言没有 partition ID 遥测字段，还凭空编出一套「需要新建字段」的说法，她签了字——结果字段一直都在，白白浪费 token 和一位 principal engineer 五分钟审查时间。「你可以说怪 Claude,但我应该对输出更怀疑，是我签字确认的，那是我的责任。」问责不是追究过错，而是谁负责清理、谁负责加固系统让这事不再发生；爆炸半径要小，而不是幻想故障永不发生。\n\n那如果未来 AI 全流程构建、测试、审查、部署呢？Liz 的回答：不管新闻怎么说，**不存在完全自动化的递归自我改进，总有某种程度的人类引导**——即使机器自己开工单、解决、上线、调试，仍然有一个人拥有那个系统提示词、为配额付费、期望结果。流程负责人要对结果负责，时不时抽查 PR、做评估、调提示词。「只要人类还在为它付费，人类就有权检查结果。想完全放手？把支票簿交给我。」\n\n## 开源：先提 issue,再谈代码\n\n面对 AI slop 淹没维护者，Liz 的立场：bug 报告永远有价值(格式良好、说清预期与实际)，但**外部 PR 应由维护者自行决定**——有了写好的 bug 报告，维护者可以让自己的智能体按自己偏好的风格写修复，何必信任别人的智能体？检查别人的工作可能和自己动手一样费劲。她甚至提到用 AI 打 AI:让智能体针对提交的 PR 出测验，答不上基本问题就不许提交——「你在用 slop 对抗 slop」。她自己的正面案例：借助 Claude 搞清楚 ARM64 开发机无法启动新版 Linux 内核的 bug,六行补丁走正常审查流程，两个多月后合入上游。\n\n她还点出一个结构性问题：谁来为自动审查和分诊的 token 买单？Linux 内核的审查机器人 Sashiko 由 Google 全额付费，但更小的项目真的在苦苦挣扎。不过形势变了——以前推广可观测性是「预算？什么预算？」，现在是「不实现可观测性你的 AI 工作就会失败」「好，给你钱」。\n\n## 本集带走\n\n- **先修组织再上 AI**:AI 不修复问题只放大问题；没有主人翁意识的团队跑得越快，slop 炸弹越多。\n- **对齐代码库模式**：AI 复制现有模式，五种做法会变成七种；把好模式编码下来，配上快速 CI/CD 和真实测试。\n- **瓶颈在审查不在产出**：让机器人 100% 初审 PR,把人类注意力留给设计模式和复杂变更；分类器决定哪些可自动合并。\n- **盯紧事故倍数**：PR 翻倍，事故约 1.5 倍；人类能处理的事故量有上限，去风险化必须跟上。\n- **给机器人安全的工具，而非危险的判断权**：自动回滚、特性开关、可观测性齐备，AI 修复才靠谱；回滚按钮安全到「最资浅开发者都不会用出事故」的程度，才能交给机器人。\n- **签字即担责**：「Claude 干的」不是借口，流程负责人要对结果负责、抽查、调优；标准对 AI PR 不放松。\n- **开源贡献先 issue 后 PR**:bug 报告永远欢迎，大方向变更先与维护者讨论，别发一万行的 PR。",
+  "quotes": [
+    {
+      "en": "you add rocket you know, rocket fuel to a rocket that has no steering or guidance and just go in circles until it blows up",
+      "zh": "你给一枚没有转向或制导的火箭加火箭燃料，它就只会转圈直到爆炸",
+      "timestamp": "09:34",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "AI copies existing patterns that exist in your code base. If you have five different ways of doing something, AI will become very confused and it will create six ways or seven ways in ways of doing it.",
+      "zh": "AI 会复制你代码库中已有的模式。如果你有五种不同的做事方式，AI 会变得非常困惑，然后创造出第六种、第七种做事方式。",
+      "timestamp": "11:13",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "because the machines never get bored, it's a great thing to do to have them add telemetry to your code base",
+      "zh": "因为机器永远不会感到无聊，让它们给你的代码库添加遥测是一件很棒的事情",
+      "timestamp": "13:24",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "the Autobot is producing maybe five of those pull requests per day. So it's not the majority creator of the pull requests, it is the 100% reviewer of those pull requests",
+      "zh": "Autobot 每天大概只产出这些拉取请求中的五个。所以它并不是拉取请求的主要创作者，它是这些拉取请求 100% 的审查者",
+      "timestamp": "14:34",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "any real production system should probably not be a dark factory, at least at this time",
+      "zh": "任何真正的生产系统恐怕都不应该是一个黑暗工厂，至少在目前这个阶段是如此",
+      "timestamp": "15:46",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "just because you have adaptive cruise control in your car doesn't mean that you can fully let go of the wheel",
+      "zh": "你的车里有了自适应巡航控制，并不意味着你可以完全放开方向盘",
+      "timestamp": "16:11",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "we were shipping twice as many pull requests and we are seeing you know 1.5 times as many incidents",
+      "zh": "我们发布的 pull request 翻了一倍，而我们看到的事故是原来的 1.5 倍",
+      "timestamp": "23:24",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "that's the thing that we should be aligning on is is the direction correct and not, you know, is this implementation exactly correct",
+      "zh": "我们应该对齐的是方向是否正确，而不是这个实现是否完全正确",
+      "timestamp": "24:46",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "If you don't have those things, your agents are just guessing and throwing darts at the dartboard, and they might cause more chaos than they actually solve.",
+      "zh": "如果你没有这些东西，你的智能体就只是在猜测、往飞镖盘上乱扔飞镖，它们造成的混乱可能比它们实际解决的还多",
+      "timestamp": "28:55",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "the main thing that we are realizing does not scale is having humans click yes",
+      "zh": "我们正在意识到无法规模化扩展的主要事情，就是让人类去点「是」",
+      "timestamp": "32:21",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "I think the mistake is overtrusting your ability to make decisions under time pressure and stress",
+      "zh": "我认为错误在于过度信任自己在时间压力和压力下做决策的能力",
+      "timestamp": "33:14",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "why should you trust someone else's agent where it might be just as much work to check the work over as if you had done it yourself?",
+      "zh": "那你为什么要信任别人的智能体呢？检查别人的工作，可能和自己动手做一样费工夫",
+      "timestamp": "40:20",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "You're using slop to fight slop, right?",
+      "zh": "你是在用 slop 对抗 slop,对吧？",
+      "timestamp": "41:16",
+      "speaker": "Liz Fong-Jones"
+    },
+    {
+      "en": "Just because you can do something and send someone a 10,000 line pull request does not mean you should.",
+      "zh": "仅仅因为你能做某件事、能给别人发一个一万行的 pull request,并不意味着你应该这么做",
+      "timestamp": "43:42",
+      "speaker": "Liz Fong-Jones"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:34",
+      "speaker": "Liz Fong-Jones",
+      "en": "you add rocket you know, rocket fuel to a rocket that has no steering or guidance and just go in circles until it blows up",
+      "zh": "你给一枚没有转向或制导的火箭加火箭燃料，它就只会转圈直到爆炸"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "Liz Fong-Jones",
+      "en": "AI copies existing patterns that exist in your code base. If you have five different ways of doing something, AI will become very confused and it will create six ways or seven ways in ways of doing it.",
+      "zh": "AI 会复制你代码库中已有的模式。如果你有五种不同的做事方式，AI 会变得非常困惑，然后创造出第六种、第七种做事方式。"
+    },
+    {
+      "timestamp": "13:24",
+      "speaker": "Liz Fong-Jones",
+      "en": "because the machines never get bored, it's a great thing to do to have them add telemetry to your code base",
+      "zh": "因为机器永远不会感到无聊，让它们给你的代码库添加遥测是一件很棒的事情"
+    },
+    {
+      "timestamp": "14:39",
+      "speaker": "Liz Fong-Jones",
+      "en": "the Autobot is producing maybe five of those pull requests per day. So it's not the majority creator of the pull requests, it is the 100% reviewer of those pull requests",
+      "zh": "Autobot 每天大概只产出这些拉取请求中的五个。所以它并不是拉取请求的主要创作者，它是这些拉取请求 100% 的审查者"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Liz Fong-Jones",
+      "en": "any real production system should probably not be a dark factory, at least at this time",
+      "zh": "任何真正的生产系统恐怕都不应该是一个黑暗工厂，至少在目前这个阶段是如此"
+    },
+    {
+      "timestamp": "16:11",
+      "speaker": "Liz Fong-Jones",
+      "en": "just because you have adaptive cruise control in your car doesn't mean that you can fully let go of the wheel",
+      "zh": "你的车里有了自适应巡航控制，并不意味着你可以完全放开方向盘"
+    },
+    {
+      "timestamp": "23:18",
+      "speaker": "Liz Fong-Jones",
+      "en": "we were shipping twice as many pull requests and we are seeing you know 1.5 times as many incidents",
+      "zh": "我们发布的 pull request 翻了一倍，而我们看到的事故是原来的 1.5 倍"
+    },
+    {
+      "timestamp": "24:45",
+      "speaker": "Liz Fong-Jones",
+      "en": "that's the thing that we should be aligning on is is the direction correct and not, you know, is this implementation exactly correct",
+      "zh": "我们应该对齐的是方向是否正确，而不是这个实现是否完全正确"
+    },
+    {
+      "timestamp": "28:55",
+      "speaker": "Liz Fong-Jones",
+      "en": "If you don't have those things, your agents are just guessing and throwing darts at the dartboard, and they might cause more chaos than they actually solve.",
+      "zh": "如果你没有这些东西，你的智能体就只是在猜测、往飞镖盘上乱扔飞镖，它们造成的混乱可能比它们实际解决的还多"
+    },
+    {
+      "timestamp": "29:31",
+      "speaker": "Liz Fong-Jones",
+      "en": "I think that that is a very dangerous thing to give your AI uh agents the ability to kill random pods in production",
+      "zh": "我认为让你的 AI 智能体拥有杀死生产环境中随机 Pod 的能力是一件非常危险的事情"
+    },
+    {
+      "timestamp": "32:20",
+      "speaker": "Liz Fong-Jones",
+      "en": "the main thing that we are realizing does not scale is having humans click yes",
+      "zh": "我们正在意识到无法规模化扩展的主要事情，就是让人类去点「是」"
+    },
+    {
+      "timestamp": "33:13",
+      "speaker": "Liz Fong-Jones",
+      "en": "I think the mistake is overtrusting your ability to make decisions under time pressure and stress",
+      "zh": "我认为错误在于过度信任自己在时间压力和压力下做决策的能力"
+    },
+    {
+      "timestamp": "34:19",
+      "speaker": "Liz Fong-Jones",
+      "en": "you know, Claude did it is not a really great excuse",
+      "zh": "「Claude 干的」不是一个很好的借口"
+    },
+    {
+      "timestamp": "37:59",
+      "speaker": "Liz Fong-Jones",
+      "en": "there is always some degree of human guidance involved",
+      "zh": "总是有某种程度的人类引导参与其中"
+    },
+    {
+      "timestamp": "38:36",
+      "speaker": "Liz Fong-Jones",
+      "en": "Sure, if you're down to go fully hands-off, hand me your checkbook, please.",
+      "zh": "当然，如果你想完全放手不管，请把你的支票簿交给我。"
+    },
+    {
+      "timestamp": "40:20",
+      "speaker": "Liz Fong-Jones",
+      "en": "why should you trust someone else's agent where it might be just as much work to check the work over as if you had done it yourself?",
+      "zh": "那你为什么要信任别人的智能体呢？检查别人的工作，可能和自己动手做一样费工夫"
+    },
+    {
+      "timestamp": "41:16",
+      "speaker": "Liz Fong-Jones",
+      "en": "You're using slop to fight slop, right?",
+      "zh": "你是在用 slop 对抗 slop,对吧？"
+    },
+    {
+      "timestamp": "43:41",
+      "speaker": "Liz Fong-Jones",
+      "en": "Just because you can do something and send someone a 10,000 line pull request does not mean you should.",
+      "zh": "仅仅因为你能做某件事、能给别人发一个一万行的 pull request,并不意味着你应该这么做"
+    },
+    {
+      "timestamp": "45:50",
+      "speaker": "Liz Fong-Jones",
+      "en": "Now it's like you need to implement observability or else your AI effort will fail.",
+      "zh": "现在是，你需要实现可观测性，否则你的 AI 工作会失败"
+    }
+  ],
+  "voice_script": "今天咱们聊一个特别实在的问题:AI 让工程师写代码的速度翻倍了,那一个工程组织,拿什么接得住这多出来的代码?\n\n聊这事儿的人叫 Liz Fong-Jones,是 Honeycomb 这家公司的技术院士。她的职业生涯从 Google 的 SRE 起步——SRE 就是专门负责系统可靠性的工程师——后来管过 Bigtable 的 SRE 团队,也做过开发者关系和 field CTO,可以说是可靠性领域的一位老将。让这样一个人来讲\"代码暴增之后怎么办\",再合适不过。\n\n先把她的核心判断放在这儿:AI 会放大你现有的实践。让功能失调的组织更失调,让高主人翁意识的组织更快。这句话是整集的纲,后面所有内容都是围绕它展开的。\n\n那什么叫主人翁意识?说白了,就是开发者把自己写的东西当成引以为豪、愿意端到端负责、乐于署名的作品。Liz 认为,决定一个组织高效还是低效,首要因素就是这个。可靠性实践糟糕的团队,根源往往就缺这个——不然你想,谁会放着生产环境里的坏代码不管?\n\n她举了个例子。Shopify 的 CEO,十二个月前喊\"我们是 AI 优先组织,人人都要用 AI\",结果一周前开始哀叹,工程师往生产环境乱扔 slop 炸弹——就是 AI 生成的低质量代码。Liz 对此的评价很直接:如果你告诉人们不用管后果、没有主人翁意识也要跑得更快,这是完全可以预见的结局。打了个比方,你给一枚没有转向、没有制导的火箭加燃料,它只会转圈,直到爆炸。所以别指望 AI 修复你已有的问题,它只会放大。你得先修好,再让 AI 加速。\n\n顺着这个逻辑,下一个问题自然来了:那什么样的代码库才配得上 AI 加速?\n\nLiz 的判断也很直接:AI 会复制你代码库里已有的模式。如果代码里有五种做事方式,AI 会困惑,然后创造出第六种、第七种。所以你得先在组织内对齐\"怎么做事\",把常见的好模式固化下来——不光为 AI,也为新员工。再配上快速的 CI/CD、好的可观测性,还有真正有意义的测试,而不是那种走过场的\"空热量测试\"。\n\n有意思的是,这些全是 AI 出现之前就该做的基本功。但 AI 确实改变了两件事。一是必要性空前提高,因为代码量在涨;二是容易度也空前提高——机器永远不会无聊,只要你指示,它们就乐意给你的代码库添加遥测、丰富事件和属性。遥测就是系统运行时上报的数据。不过这也带来新麻烦:连 Honeycomb 这种注释质量本来很高的代码库,都被 AI 往平均线拉回,大量低价值注释冒了出来。所以\"怎么防止 AI 把代码库变糟\",成了一个全新的课题。\n\n那 Honeycomb 自己是怎么接住翻倍的代码量的?他们有个内部机器人叫 Autobot。过去三个月,每天合并的 pull request 从三十个涨到七十个。但 Liz 特意纠正了一个归因:Autobot 每天其实只产出大概五个 PR,它真正的角色,是所有 PR 的百分之百的审查者。它做得好到什么程度?开发者已经不需要在变更里找琐碎的 bug 了。\n\nAutobot 一开始就是个\"盒装的 Claude Code\",自动处理分解好的线性小工单。后来团队发现 Anthropic 的 Claude Code Reviews 一次要二三十美元、跑一二十分钟,就把项目方向转向了审查。为什么?因为他们想明白了一件事:瓶颈从来不是产出代码,而是人类的审查注意力。他们的实验是,大约百分之二十的 PR 经自动审查后直接落地,不经人工。现在还在考虑用专门做是与否判断的小模型当分类器,把 PR 分成\"可以自动合并\"和\"必须人工看\"两类——关键不是省钱,而是那个置信度分数。\n\n不过代价是真实的。PR 翻倍之后,初期看起来变更失败率在降,但长期一平均,PR 翻倍,事故是 1.5 倍。而人类能处理的事故数量,是有上限的。\n\n这就引出一个更根本的问题:代码多了、机器审了,人还剩什么责任?Liz 对此划了一条硬线:数据和理解,是两回事,百分之百、每一天都是两回事。人类不必亲自写代码,甚至不必亲自写查询语句,但检查查询的输出、内化故障怎么发生、怎么防止再发生,这些必须是人来做。她甚至要求在开发周期里就让语言模型自己测试它产出的遥测,去开发环境查一遍,确认属性真的在、真的能检测到积压和排队。\n\n那 AI 能不能自动定位并修复事故?Liz 的答案很条件化:当且仅当你有可用的自动回滚、可用的特性开关、可用的可观测性,才行。可观测性和可控制性在控制理论里是一对对偶,两个都有,你才有能力不必凌晨两点起床。没有这些,智能体只是在往飞镖盘上乱扔飞镖,制造的混乱可能比解决的还多。所以关键不是信任 AI,是信任 AI 所运行其中的那个系统。还有一条:别给智能体\"杀死生产环境随机 Pod\"的权力,给它的是中止发布、回滚发布这样的安全工具。\n\n那万一出了事,算谁的?Honeycomb 的 AI 价值观是:名字在上面,你就拥有它。Liz 自己也翻过车:她让 AI 助手分析数据,助手轻率断言某个遥测字段不存在,还编出一套\"需要新建字段\"的说法,她签了字——结果那字段一直都在,白白浪费了 token,还搭进去一位 principal engineer 五分钟的审查时间。事后她说,你可以说怪 Claude,但我应该对输出更怀疑,是我签字确认的,那是我的责任。在她看来,问责不是追究过错,而是谁负责清理、谁负责加固系统让这事不再发生。\n\n有人可能会问,那未来 AI 全流程构建、测试、审查、部署呢?Liz 的回答是,不管新闻怎么说,不存在完全自动化的递归自我改进,总有某种程度的人类引导。就算机器自己开工单、解决、上线、调试,仍然有一个人拥有那个系统提示词、为配额付费、期望那个结果。这个人要对结果负责,时不时抽查 PR、做评估、调提示词。原话是:只要人类还在为它付费,人类就有权检查结果。想完全放手?把支票簿交给我。\n\n最后还有一个场景是开源社区。AI slop 正在淹没开源维护者,Liz 的立场是:bug 报告永远有价值,但外部发的 PR,应该由维护者自己决定收不收。有了写好的 bug 报告,维护者可以让自己的智能体按自己偏好的风格写修复,何必信任别人的智能体呢?她甚至提到用 AI 打 AI——让智能体针对提交的 PR 出测验,答不上基本问题就不许提交,用她的话说,你在用 slop 对抗 slop。她自己也有正面案例:借助 Claude 搞清楚了 ARM64 开发机无法启动新版 Linux 内核的 bug,六行补丁走正常审查流程,两个多月后合入了上游。\n\n把这一集串起来看,其实就一句话:AI 不修复问题,它只放大问题。方向没修好之前,跑得越快,摔得越狠。所以别急着问你的 AI 能写多快,先问一句——你的组织接得住吗。"
+}
