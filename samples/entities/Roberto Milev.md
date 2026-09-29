@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uday Kanagala":1,"Navan":1,"AWS":16,"智能体":356,"智能体运行时":1,"记忆":18,"上下文管理":1,"技能":23,"渐进式披露":3,"可观测性":33}</script>
+<script type="application/json" class="pd-epn">{"Uday Kanagala":1,"Navan":1,"AWS":16,"智能体":358,"智能体运行时":1,"记忆":18,"上下文管理":1,"技能":23,"渐进式披露":3,"可观测性":34}</script>
 
 <script>
 (function(){

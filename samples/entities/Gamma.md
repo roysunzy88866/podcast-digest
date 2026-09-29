@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[ChatGPT]] · [[Cursor]] · [[Replit]] · [[Julie Zhuo]] · [[Jon Noronha]] · [[Eric Simons]] · [[Sundial]] · [[PowerPoint]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"评估":3,"ChatGPT":82,"Cursor":71,"Replit":17,"Julie Zhuo":1,"Jon Noronha":1,"Eric Simons":1,"Sundial":1,"PowerPoint":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"评估":3,"ChatGPT":83,"Cursor":72,"Replit":17,"Julie Zhuo":1,"Jon Noronha":1,"Eric Simons":1,"Sundial":1,"PowerPoint":1}</script>
 
 <script>
 (function(){

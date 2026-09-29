@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Salesforce]] · [[开源]] · [[Fireworks]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"Anthropic":153,"OpenAI":140,"推理":60,"Cursor":71,"NVIDIA":46,"Salesforce":32,"开源":27,"Fireworks":5,"OpenRouter":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"Anthropic":153,"OpenAI":140,"推理":61,"Cursor":72,"NVIDIA":46,"Salesforce":32,"开源":27,"Fireworks":5,"OpenRouter":11}</script>
 
 <script>
 (function(){

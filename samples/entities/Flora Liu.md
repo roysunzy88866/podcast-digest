@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Notion":14,"GTM":1,"智能体":356,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":3,"Salesforce":32,"Gong":3,"Snowflake":14}</script>
+<script type="application/json" class="pd-epn">{"Notion":14,"GTM":1,"智能体":358,"多智能体工作流":2,"上下文层":1,"Signal":2,"Temporal":3,"Salesforce":32,"Gong":3,"Snowflake":14}</script>
 
 <script>
 (function(){

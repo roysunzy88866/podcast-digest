@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":46,"XAI":6,"软件基础设施":1,"AI 工厂":1,"机密计算":1,"权重":3,"智能体":356,"推理":60}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":4,"VastData":1,"NVIDIA":46,"XAI":7,"软件基础设施":1,"AI 工厂":1,"机密计算":1,"权重":3,"智能体":358,"推理":61}</script>
 
 <script>
 (function(){

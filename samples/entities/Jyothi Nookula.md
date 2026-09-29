@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":71,"Claude Code":84,"智能体":356,"对抗性智能体":1,"MCP":65,"知识库":2,"技能":23,"vibe coding":41,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":72,"Claude Code":86,"智能体":358,"对抗性智能体":1,"MCP":65,"知识库":2,"技能":23,"vibe coding":41,"红队测试":4}</script>
 
 <script>
 (function(){

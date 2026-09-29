@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":7,"智能体":356,"评估":3,"上下文":24,"Cursor":71,"开源权重模型":2,"代码审查":18,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":7,"智能体":358,"评估":3,"上下文":24,"Cursor":72,"开源权重模型":2,"代码审查":18,"上下文腐烂":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,160 @@
+{
+  "title_zh": "Tokens 进、互动出：推荐系统正在像 LLM 一样扩展",
+  "tldr": "Meta 推荐研究团队负责人讲为什么推荐系统的扩展方式和 LLM 一样、如何构建 LLM 推荐器，以及它为何比 AI 聊天更省 token。",
+  "digest_md": "这一集是一场技术演讲,主题是「Tokens In, Engagement Out:训练 LLM 推荐系统」。主角是 Meta 的 Meta Recommendations Research 团队负责人——他的团队负责训练驱动 Instagram、Facebook 广告等 Meta 全家桶应用的前沿模型和推荐系统;来 Meta 之前他在 Google 待了很久,参与过 DeepMind 和 YouTube 的核心机器学习团队。去年他在 AI Engineer 讲过 semantic ID 和生成式检索,这两个想法过去一年已经在 YouTube、Meta、Spotify、DoorDash 等公司从研究走向了规模化生产系统 [00:50 Unknown]。\n\n他今天要论证两件事:推荐系统的扩展方式和 LLM 一样,而且这个行业在这条扩展曲线上还非常早期;以及 LLM 推荐系统将成为 AI 最大的消费级应用之一 [00:27 Unknown]。\n\n## 推荐系统也有自己的「扩展定律」\n\nLLM 这波浪潮的起点是 2020 年那篇里程碑式的扩展曲线论文(当时 Dario 还在 OpenAI,Anthropic 还不存在):模型规模、数据、训练算力越大,损失就在对数线性尺度上可预测地下降——正是这条干净的曲线引发了 AI 前沿竞赛,支撑了今天的巨额资本开支 [02:17 Unknown]。\n\n事实证明,推荐系统遵循非常相似的幂律扩展曲线。实际上,在这一波 LLM 之前,推荐系统就是大科技公司里最大的生产级 ML 模型,至今仍服务于十亿以上日活的规模。x 轴同样是数据、算力、模型规模,y 轴是推荐质量的提升——离线评估里是净熵或 AUC 增益,上线后就是互动和收入影响 [02:59 Unknown]。\n\n这不只是学术研究。来自 Meta 近期财报的真实例子:Instagram Reels 一个季度观看时长同比增长 30%,靠的优化包括简化排序架构以支持高效模型扩展、把用于训练 Instagram 的用户互动序列长度翻一番、并增加每次互动的丰富度 [04:24 Unknown]——这就是 LLM 幂律扩展曲线的直接对应。\n\n驱动这一切的是一个「tokens 进、互动出」的飞轮:训练模型 → 推理生成更好的推荐 → 驱动用户互动和停留时长 → 转化为广告或订阅收入 → 为下一轮训练买单。扩展曲线上的每一步,就是绕这个飞轮的一圈 [04:59 Unknown]。\n\n## 行业正在爬的四条 S 曲线\n\n他把推荐系统的演进分成四个范式 [05:41 Unknown]:\n\n1. **传统推荐系统**:聚焦特征工程和用户/内容嵌入,双塔、稀疏网络、排序器。大多数生产系统还停在这条曲线上。它不会消失,但特征工程这类工作会被智能体(而不是真正的 ML 工程师)通过自动研究来加速。\n2. **LLM-inspired(受 LLM 启发)**:端到端扩展模型,代表是 HSTU 和 one-rec 论文。业界领先的推荐系统大都运营在这一层。\n3. **LLM-native(LLM 原生)**:拿一个能理解、能推理的基础模型,适配到推荐任务上,代表是 Tiger 和 Plum 论文。\n4. **Agentic(智能体编排)**:LLM 在一个循环中编排推荐系统——智能体规划、检索、排序、批评推荐结果,再调用模型细化后交付。他拿编码智能体做类比:LLM 原生是在提升模型核心能力(从 Opus 4.5 到 4.8),agentic 是在改进 Claude Code 或 Codex 背后的编码 harness [06:58 Unknown]。\n\n公司们是在这四条曲线上并行扩展的:大多数推荐今天处于 LLM-inspired、正试图毕业到 LLM-native,同时还有很多公司仍在爬传统那条曲线 [07:37 Unknown]。\n\n## 构建 LLM 推荐器的配方:三步、五层\n\n配方很简单,三步:先把内容 token 化、为你的领域创建一门语言;再把 LLM 适配成既懂英语又懂这门领域语言的「双语模型」;最后用用户信息 prompt 这个模型,它会直接从内容语料库中解码出推荐 [08:10 Unknown]。\n\n展开成一个「五层蛋糕」,从底往上 [08:38 Unknown]:\n\n- **Semantic ID(语义 ID)**:把内容语料库转换成 LLM 能理解、能推理的 token。为什么要 token 化?两个原因:一是给模型一个**稳定的表示**去学习,而不是只能死记硬背的不断变化的 hash;二是**压缩**——一个三分钟的 Instagram Reel 视频如果不压缩会是 10,000 个 token,会很快撑爆上下文窗口,必须压到大约 10 个 token [09:51 Unknown]。做法上,相似内容共享 token 前缀:比如关于网球的几条 Reels,第一个 token 代表体育、后两个代表网球、最后一个 token 区分具体视频 [10:24 Unknown]。这个方向已被业界大量采纳,很多团队只是把传统模型里的 hash ID 换成 SID 就看到了不错的效果。\n- **基础 LLM**:开放权重模型或内部第一方模型都行。\n- **预训练**:在英语和推荐 token 之间架桥。比如让模型看着「semantic ID 为 ABC 的视频」,输出它的文字描述(「温布尔登一记瞬间成为标志性画面的一击」);或者在用户交互历史里遮住部分 semantic ID,让模型学会预测——理解哪些视频是被一起观看的 [10:42 Unknown]。\n- **后训练**:把模型引向推荐任务,比如重排序——输入一堆用户信息和 30 个候选视频,LLM 排序器排出前五条。\n- **表面微调**:针对具体产品表面做轻量微调即可。这个范式最令人兴奋的一点是:**大部分算力在所有产品表面之间共享**,不必为每个表面从头训练单独模型 [09:24 Unknown]。\n\n## 双语模型的可解释性:算法第一次能「说清楚自己为什么推荐这个」\n\n后训练出的模型是双语的——既懂英文又懂推荐——所以你可以直接查看它的思维链(模型一步步推理的过程),理解它为什么做出那样的决策:它知道用户的主题兴趣(喜剧、美食、DIY、健康),知道用户的互动风格和偏好的创作者,然后基于这条推理链重新排序 [11:27 Unknown]。\n\n这打开了一种全新的产品面:用户可以用自然语言引导自己的信息流。Instagram 上的「你的算法」功能就是例子——刷 Reels 时点进去,能看到算法怎么理解你和你的兴趣,然后添加或删除兴趣、用自然语言跟它对话。比如你添加「关注 FIFA 世界杯」这个兴趣,模型结合你的用户历史,就会解码出为你个性化的推荐(比如梅西最近踢进的那个任意球)[12:36 Unknown]。类似的还有 Spotify 的提示词歌单、YouTube 的自定义信息流、Ask DoorDash。他判断:我们会看到从黑盒推荐算法,转向让用户对算法有更多控制权、算法变得更可交互、更可引导——用户用语言表达目标来引导算法,而不仅仅是点赞或评论 [12:54 Unknown]。\n\n## 最反直觉的一点:LLM 推荐器比 AI 聊天便宜 100 倍\n\n那个「token 进、互动出」的飞轮,内容信息流和 AI 聊天应用共享的是同一个:训练 → 推理 → 互动 → 变现。这是评估任何消费应用的透镜——训练端看它把算力转化为前沿模型的能力,推理端看推理 token 能多好地转化为互动和变现 [14:10 Unknown]。\n\n但对比之下,LLM 推荐器在结构上**更省 token** [14:46 Unknown]:\n\n- 内容信息流(Instagram、Facebook、TikTok、YouTube)用的模型约 10 亿到 100 亿活跃参数;AI 聊天应用(Gemini、ChatGPT、Claude)服务的是 100 亿到 1000 亿活跃参数的大模型。\n- 信息流的输出是一个语义 ID token——指向已有内容的指针,因为内容是创作者上传的,供应实际上免费;而 AI 聊天必须自己解码每一个内容 token,每一轮交互输出几千个 token,每个 token 都要在推理时由应用自己「制造」出来。\n\n结果:生成一小时消费者互动所需的推理算力成本,内容信息流比 AI 聊天应用便宜高达 100 倍或更多——因为它们解码的是指向内容的指针,而不是内容本身 [16:01 Unknown]。\n\n## 为什么这是最大的消费级 AI 应用之一\n\n按日活看排名前十的应用,十分之四是内容信息流;而信息流在互动和变现两端的增长,几乎全部由推荐器和广告模型驱动——这些都将被 LLM 推荐器彻底改变 [16:33 Unknown]。这是一个非常大、且非常省 token 的 AI 消费级应用。接下来一年左右,他预计会看到可引导、可交互的推荐,推荐结果的解释,以及更多让用户掌控自己体验的新产品面,还有关于消费级智能体和推荐智能体的 exciting 研究 [17:02 Unknown]。\n\n## 本集带走\n\n- **推荐系统遵循和 LLM 一样的幂律扩展曲线**:加大模型、数据、算力,质量可预测地提升——Meta 用「互动序列翻倍」这类做法在真实产品上兑现了(Reels 观看时长同比 +30%)。\n- **构建 LLM 推荐器三步走**:token 化内容造一门领域语言 → 把 LLM 训成双语模型 → 用用户信息 prompt 它直接解码推荐;大部分算力在所有产品表面间共享,不必每个表面从头训模型。\n- **Semantic ID 的两大价值**:给模型稳定的可学习表示(替代只能死记的 hash ID),以及把内容压缩到约 10 个 token(否则一条三分钟视频就是上万个 token)。\n- **双语模型带来可解释和可引导**:能直接读模型的思维链看懂推荐理由;用户可以用自然语言增删兴趣、引导信息流,而不只是点赞。\n- **推荐器比 AI 聊天结构性省 token**:它解码的是指向创作者内容的指针,聊天应用则要自己制造每个 token——生成一小时互动的推理成本可相差 100 倍以上。\n- **四个范式并行爬坡**:传统 → LLM-inspired → LLM-native → agentic;领先者在第二三层,智能体循环编排推荐(规划、检索、排序、批评)是下一个研究方向。",
+  "quotes": [
+    {
+      "en": "The first is that recommendation systems scale just like LLMs do, and that the field is very early in that scaling curve.",
+      "zh": "第一个是,推荐系统的扩展方式和 LLM 一样,而且这个领域在扩展曲线上还处于非常早期的阶段。",
+      "timestamp": "00:30",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "And this clean and predictable curve is what really set off the race for the AI frontier, because you can forecast what model quality and capability improvements will look like, and this is what's underwriting the massive CapEx investments and the AI build-out today.",
+      "zh": "这条干净且可预测的曲线真正引发了 AI 前沿竞赛,因为你可以预测模型质量和能力的提升会是什么样子,这正是当今支撑巨额资本开支和 AI 建设浪潮的基础。",
+      "timestamp": "02:42",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "I don't think this curve is going to go away, but model development here will be accelerated with auto-research, and things like feature engineering will be handled by agents rather than real ML engineers.",
+      "zh": "我不认为这条曲线会消失,但这里的模型开发会因为自动研究而加速,像特征工程这类事情将由智能体而不是真正的 ML 工程师来处理。",
+      "timestamp": "06:04",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "The exciting thing about this paradigm is most of the compute is shared across all of the product surfaces, so you don't have to train individual models from scratch for every product surface.",
+      "zh": "这个范式令人兴奋的地方在于,大部分算力是在所有产品表面之间共享的,所以你不必为每个产品表面从头训练单独的模型。",
+      "timestamp": "09:24",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "And so we're gonna see this shift, I think, from black box recommendations algorithms to giving users more control over their algorithm and algorithms becoming more interactive and steerable.",
+      "zh": "所以我们会看到这个转变,我认为,是从黑盒推荐算法转向给用户更多对算法的控制权,让算法变得更可交互、更可引导。",
+      "timestamp": "12:54",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "I'm really excited that users can direct it towards their own goals that's expressed in language rather than just likes or comments.",
+      "zh": "我非常兴奋的是,用户可以用语言表达自己的目标来引导算法,而不仅仅是点赞或评论。",
+      "timestamp": "13:07",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "And so if you try to compare content feeds and AI chat apps, I think that LLM recommenders are actually structurally more token efficient than the AI chat.",
+      "zh": "所以如果你尝试比较内容信息流和 AI 聊天应用,我认为 LLM 推荐器在结构上其实比 AI 聊天更省 token。",
+      "timestamp": "14:46",
+      "speaker": "Devansh Tandon"
+    },
+    {
+      "en": "there's a huge structural gap where content feeds are significantly cheaper, up to 100 times or more cheaper than AI chat apps because they're decoding pointers to content rather than content itself.",
+      "zh": "存在一个巨大的结构性差距:内容信息流要便宜得多,比 AI 聊天应用便宜高达 100 倍或更多,因为它们解码的是指向内容的指针,而不是内容本身。",
+      "timestamp": "16:10",
+      "speaker": "Devansh Tandon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:30",
+      "speaker": "Unknown",
+      "en": "The first is that recommendation systems scale just like LLMs do, and that the field is very early in that scaling curve.",
+      "zh": "第一个是,推荐系统的扩展方式和 LLM 一样,而且这个领域在扩展曲线上还处于非常早期的阶段。"
+    },
+    {
+      "timestamp": "01:07",
+      "speaker": "Unknown",
+      "en": "The ideas behind semantic ID and generative retrieval have really taken off in the industry over the last year, and they've moved from more research to now scaled production systems",
+      "zh": "semantic ID 和生成式检索背后的想法在过去一年里真正在业界起飞,它们已经从研究走向如今规模化的生产系统"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Unknown",
+      "en": "And this clean and predictable curve is what really set off the race for the AI frontier, because you can forecast what model quality and capability improvements will look like, and this is what's underwriting the massive CapEx investments and the AI build-out today.",
+      "zh": "这条干净且可预测的曲线真正引发了 AI 前沿竞赛,因为你可以预测模型质量和能力的提升会是什么样子,这正是当今支撑巨额资本开支和 AI 建设浪潮的基础。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Unknown",
+      "en": "And so every step on the scaling curve is one loop around this flywheel, and a lot of consumer apps are spinning this core flywheel at the heart of their business.",
+      "zh": "所以扩展曲线上的每一步,都是绕这个飞轮的一圈,很多消费级应用都在围绕其业务核心转动这个核心飞轮。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Unknown",
+      "en": "I don't think this curve is going to go away, but model development here will be accelerated with auto-research, and things like feature engineering will be handled by agents rather than real ML engineers.",
+      "zh": "我不认为这条曲线会消失,但这里的模型开发会因为自动研究而加速,像特征工程这类事情将由智能体而不是真正的 ML 工程师来处理。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Unknown",
+      "en": "The exciting thing about this paradigm is most of the compute is shared across all of the product surfaces, so you don't have to train individual models from scratch for every product surface.",
+      "zh": "这个范式令人兴奋的地方在于,大部分算力是在所有产品表面之间共享的,所以你不必为每个产品表面从头训练单独的模型。"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Unknown",
+      "en": "The first is it gives you the stable representation for models to learn over rather than a constantly shifting hash that the model can only memorize.",
+      "zh": "第一,它给你一个稳定的表示供模型去学习,而不是一个不断变化的、模型只能死记硬背的 hash。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Unknown",
+      "en": "You want to be reasoning over these long sequences of user interactions, and if you don't compress the content, for example, a three-minute Instagram Reel video would be 10,000 tokens, and it will just fill up the context window too quickly.",
+      "zh": "你要对这些很长的用户交互序列进行推理,如果你不压缩内容,比如,一个三分钟的 Instagram Reel 视频会是 10,000 个 token,它会太快地把上下文窗口填满。"
+    },
+    {
+      "timestamp": "11:45",
+      "speaker": "Unknown",
+      "en": "You can see the chain of thought reasoning of this model, and because this model knows both English and recommendations, you can simply just inspect the model and understand why it made the decisions that it did.",
+      "zh": "你可以看到这个模型的思维链推理,因为这个模型既懂英文又懂推荐,你只需直接检查模型,就能理解它为什么做出那样的决策。"
+    },
+    {
+      "timestamp": "12:54",
+      "speaker": "Unknown",
+      "en": "And so we're gonna see this shift, I think, from black box recommendations algorithms to giving users more control over their algorithm and algorithms becoming more interactive and steerable.",
+      "zh": "所以我们会看到这个转变,我认为,是从黑盒推荐算法转向给用户更多对算法的控制权,让算法变得更可交互、更可引导。"
+    },
+    {
+      "timestamp": "13:07",
+      "speaker": "Unknown",
+      "en": "I'm really excited that users can direct it towards their own goals that's expressed in language rather than just likes or comments.",
+      "zh": "我非常兴奋的是,用户可以用语言表达自己的目标来引导算法,而不仅仅是点赞或评论。"
+    },
+    {
+      "timestamp": "14:46",
+      "speaker": "Unknown",
+      "en": "And so if you try to compare content feeds and AI chat apps, I think that LLM recommenders are actually structurally more token efficient than the AI chat.",
+      "zh": "所以如果你尝试比较内容信息流和 AI 聊天应用,我认为 LLM 推荐器在结构上其实比 AI 聊天更省 token。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Unknown",
+      "en": "For the AI chat apps, they have to decode every token of content themselves and the amount of",
+      "zh": "而 AI 聊天应用,它们必须自己解码每一个内容 token"
+    },
+    {
+      "timestamp": "16:01",
+      "speaker": "Unknown",
+      "en": "there's a huge structural gap where content feeds are significantly cheaper, up to 100 times or more cheaper than AI chat apps because they're decoding pointers to content rather than content itself.",
+      "zh": "存在一个巨大的结构性差距:内容信息流要便宜得多,比 AI 聊天应用便宜高达 100 倍或更多,因为它们解码的是指向内容的指针,而不是内容本身。"
+    },
+    {
+      "timestamp": "16:58",
+      "speaker": "Unknown",
+      "en": "And these are going to be entirely transformed by LLM recommenders.",
+      "zh": "而这些都将被 LLM 推荐器彻底改变。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Unknown",
+      "en": "We're going to see a lot of new product experiences come through with steerable and interactive recommendations, explanation of recommendations, and just putting more users in control of their experience on these apps.",
+      "zh": "我们会看到很多新的产品体验涌现:可引导、可交互的推荐,推荐结果的解释,以及让更多用户掌控自己在这类应用上的体验。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Unknown",
+      "en": "I think we're going to see some really exciting research on consumer agents and recommendation agents that come out over the next year or so.",
+      "zh": "我认为在未来一年左右,我们会看到一些非常令人兴奋的关于消费级智能体和推荐智能体的研究成果。"
+    }
+  ],
+  "voice_script": "今天这一期,是一场技术演讲,主讲人是 Meta 推荐研究团队的负责人。这个团队是干什么的?就是训练驱动 Instagram、Facebook 广告这些 Meta 全家桶应用背后的前沿推荐模型。来 Meta 之前,他在 Google 待了很久,参与过 DeepMind 和 YouTube 的核心机器学习团队。去年他还在 AI Engineer 大会上讲过 semantic ID 和生成式检索——这两个想法,过去一年已经在 YouTube、Meta、Spotify、DoorDash 这些公司从研究走向了规模化生产系统。所以这个人是真正在一线做推荐系统的人,讲的东西不是纸上谈兵。\n\n这一期他要论证两件事:第一,推荐系统的扩展方式和 LLM 一样,而且这个行业在这条扩展曲线上还非常早期;第二,LLM 推荐系统会成为 AI 最大的消费级应用之一。听着是不是有点悬?咱们一条一条来。\n\n先说第一条。要理解它,得先回到 2020 年那篇里程碑式的扩展曲线论文——那会儿 Anthropic 还不存在呢。那篇论文说的意思是:模型规模、数据、训练算力越大,损失就在可预测的尺度上不断下降。正是这条干净的曲线,引发了后来的 AI 前沿竞赛,也支撑了今天的巨额资本开支。\n\n那推荐系统呢?事实证明,推荐系统遵循非常相似的幂律扩展曲线。而且很多人可能不知道,在这一波 LLM 之前,推荐系统就已经是大科技公司里最大的生产级机器学习模型了,服务着十亿以上的日活用户。x 轴同样是数据、算力、模型规模,y 轴是推荐质量的提升——离线看是评估指标的增益,上了线就是互动和收入。\n\n这不只是研究层面的说法,有实打实的财报数字:Instagram Reels 一个季度,观看时长同比增长了 30%。靠的是什么优化?简化排序架构来支持高效扩展、把用于训练 Instagram 的用户互动序列长度翻一番、再增加每次互动的丰富度。这些做法,就是 LLM 扩展曲线在推荐系统上的直接对应。\n\n而驱动这一切的,是一个「tokens 进、互动出」的飞轮:训练模型,推理生成更好的推荐,驱动用户互动和停留时长,转化成广告或订阅收入,再为下一轮训练买单。扩展曲线上的每一步,就是绕这个飞轮的一圈。\n\n好,那具体怎么做?他把推荐系统的演进分成了四个范式,像四条曲线,行业正在上面并行爬坡。\n\n第一条是传统推荐系统:聚焦特征工程、双塔、排序器,大多数生产系统还停在这条曲线上。第二条是受 LLM 启发的端到端扩展模型,业界领先的推荐系统大都在这一层。第三条是 LLM 原生:拿一个能理解、能推理的基础模型,适配到推荐任务上。第四条是智能体编排——LLM 在一个循环里规划、检索、排序、批评推荐结果,再调用模型细化后交付。他还拿编码智能体打了个比方:LLM 原生是在提升模型核心能力,比如从 Opus 4.5 到 4.8;而智能体编排,是在改进 Claude Code 背后那套 harness。这两者的区别,一听就明白了。\n\n那真正要构建一个 LLM 推荐器,配方是什么?其实就三步。第一步,把内容 token 化,为你的领域创建一门语言。第二步,把 LLM 训成既懂英语又懂这门领域语言的双语模型。第三步,用用户信息去 prompt 这个模型,它会直接从内容语料库里解码出推荐。\n\n展开来,这是一个五层蛋糕,从底下往上讲。\n\n最底下一层叫 semantic ID,语义 ID——把内容语料库转换成 LLM 能理解的 token。为什么非得 token 化?两个原因。一是给模型一个稳定的表示去学习,而不是只能死记硬背的不断变化的 hash。二是压缩——一条三分钟的 Instagram Reels,不压缩的话是 10000 个 token,会撑爆上下文窗口,必须压到大约 10 个 token。做法也很巧妙:相似内容共享 token 前缀。比如关于网球的几条视频,第一个 token 代表体育,后两个代表网球,最后一个 token 区分具体是哪条视频。这个方向已经被业界大量采纳,很多团队只是把传统模型里的 hash ID 换成 semantic ID,就看到了不错的效果。\n\n再往上是基础 LLM,然后是预训练——在英语和推荐 token 之间架桥。比如让模型看着一条视频的语义 ID,输出它的文字描述;或者在用户观看历史里遮住部分语义 ID,让模型学会预测哪些视频是被一起看的。然后是后训练,把模型引向推荐任务,比如输入一堆用户信息和 30 个候选视频,让 LLM 排出前五条。最后一层是针对具体产品表面的轻量微调。这个范式最让人兴奋的一点是:大部分算力在所有产品表面之间共享,不必为每个产品从头训练单独的模型。\n\n接下来这一步,就引出一个很有意思的新东西了。因为后训练出来的模型是双语的——既懂英文又懂推荐——所以你可以直接查看它的思维链,理解它为什么做出这样的推荐。它知道你的主题兴趣是喜剧、美食还是健康,知道你偏好的创作者,然后基于这条推理链重新排序。算法第一次能说清楚自己为什么推荐这个。\n\n这就打开了一种全新的产品面:用户可以用自然语言引导自己的信息流。Instagram 上的「你的算法」功能就是例子——刷 Reels 的时候点进去,能看到算法怎么理解你和你的兴趣,然后添加或删除兴趣、用自然语言跟它对话。比如你添加「关注 FIFA 世界杯」这个兴趣,模型结合你的历史,就会解码出个性化的推荐,比如梅西最近踢进的那个任意球。Spotify 的提示词歌单、YouTube 的自定义信息流,都是同类的东西。背后的判断是:我们会从黑盒推荐算法,转向让用户对算法有更多控制权——用语言表达目标来引导算法,而不仅仅是点赞或评论。\n\n最后说一个最反直觉的点:LLM 推荐器比 AI 聊天便宜 100 倍。这听起来很奇怪,大模型不是最贵的吗?但结构上,推荐器天然省 token。信息流用的模型大约是 10 亿到 100 亿活跃参数,AI 聊天应用服务的是 100 亿到 1000 亿。更关键的是输出的差别:信息流的输出是一个语义 ID——指向已有内容的指针,而内容是创作者上传的,供应实际上免费;AI 聊天却必须自己解码每一个内容 token,每一轮交互输出几千个 token,每个都要应用自己「制造」出来。结果就是,生成一小时消费者互动所需的推理算力成本,内容信息流比 AI 聊天便宜高达 100 倍以上。\n\n为什么说它是最大的消费级 AI 应用之一?按日活排名前十的应用,十分之四是内容信息流,而信息流的互动和变现几乎全部由推荐器和广告模型驱动——这些都将被 LLM 推荐器彻底改变。一个大、而且非常省 token 的 AI 消费级应用,这就是它的位置。\n\n用主讲人自己的话收个尾:推荐系统的扩展方式和 LLM 一样,而且这个领域在扩展曲线上,还处于非常早期的阶段。"
+}

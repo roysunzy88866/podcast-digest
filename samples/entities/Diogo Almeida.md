@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]] [[Han Mei]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jev":3,"TypeSafe":3,"RLHF":3,"编码智能体":22,"OpenAI":140,"System 1 模型":1,"Ben Horowitz":6,"RLCD":1,"Martin Casado":5,"RLVR":1}</script>
+<script type="application/json" class="pd-epn">{"Jev":3,"TypeSafe":3,"RLHF":4,"编码智能体":22,"OpenAI":140,"System 1 模型":1,"Ben Horowitz":6,"RLCD":1,"Martin Casado":5,"RLVR":1}</script>
 
 <script>
 (function(){

@@ -139,9 +139,9 @@ Raghav 最后给出三条:**第一,发现是语义理解问题**,不只是参与
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:DoorDash · 同概念:LLM、语义 ID (semantic ID)</span>
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:检索 (retrieval)、记忆 (memory)、LLM</span>
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学]]<span class="pd-rz">同概念:LLM、记忆 (memory)</span>
-- [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈]]<span class="pd-rz">同概念:检索 (retrieval)、记忆 (memory)</span>
 
 </div>
 <div class="pd-ex">

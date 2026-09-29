@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":10,"视频索引":1,"训练数据":1,"YouTube":5,"Meta":36,"NVIDIA":46}</script>
+<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":10,"视频索引":1,"训练数据":1,"YouTube":6,"Meta":37,"NVIDIA":46}</script>
 
 <script>
 (function(){

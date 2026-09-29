@@ -70,7 +70,7 @@ unlisted: true
 
 [[OpenAI]] · [[Google]] · [[智能体]] · [[Anthropic]] · [[Microsoft]] · [[ChatGPT]] · [[NVIDIA]] · [[Apple]] · [[Facebook]] · [[缩放定律]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":140,"Google":50,"智能体":356,"Anthropic":153,"Microsoft":25,"ChatGPT":82,"NVIDIA":46,"Apple":19,"Facebook":16,"缩放定律":9}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":140,"Google":50,"智能体":358,"Anthropic":153,"Microsoft":25,"ChatGPT":83,"NVIDIA":46,"Apple":19,"Facebook":16,"缩放定律":9}</script>
 
 <script>
 (function(){

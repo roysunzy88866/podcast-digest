@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Jeffrey Wang]] · [[Swaroop Chitlur Haridas]] · [[Exa]] · [[Nachiket Paranjape]] · [[go-to-market]] · [[DoorDash]] · [[MCP]] · [[LLM 网关]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"评估":3,"Jeffrey Wang":1,"Swaroop Chitlur Haridas":1,"Exa":3,"Nachiket Paranjape":1,"go-to-market":12,"DoorDash":9,"MCP":65,"LLM 网关":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"评估":3,"Jeffrey Wang":1,"Swaroop Chitlur Haridas":1,"Exa":3,"Nachiket Paranjape":1,"go-to-market":12,"DoorDash":10,"MCP":65,"LLM 网关":2}</script>
 
 <script>
 (function(){

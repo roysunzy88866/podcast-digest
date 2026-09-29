@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":7,"智能体":356,"代码审查":18,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":3,"TypeScript":2,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":7,"智能体":358,"代码审查":18,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":3,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

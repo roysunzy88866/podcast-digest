@@ -25,7 +25,7 @@ unlisted: true
 
 [[Will Bond]] · [[Ameya Ketkar]] · [[Uber]] · [[自动化代码评审]] · [[代码审查]] · [[智能体化的 SDLC]] · [[智能体]] · [[可观测性]] · [[护栏]] · [[内环与外环]]
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Ameya Ketkar":1,"Uber":14,"自动化代码评审":1,"代码审查":18,"智能体化的 SDLC":1,"智能体":356,"可观测性":33,"护栏":65,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Ameya Ketkar":1,"Uber":14,"自动化代码评审":1,"代码审查":18,"智能体化的 SDLC":1,"智能体":358,"可观测性":34,"护栏":65,"内环与外环":1}</script>
 
 <script>
 (function(){

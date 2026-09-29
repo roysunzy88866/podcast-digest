@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Marc Brooker]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":49,"品味":13,"智能体":356,"技能":23,"一次性设计":1,"子智能体":4,"AI 垃圾内容":3,"Claude Code":84,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":50,"品味":14,"智能体":358,"技能":23,"一次性设计":1,"子智能体":4,"AI 垃圾内容":3,"Claude Code":86,"形容词引导设计":1}</script>
 
 <script>
 (function(){

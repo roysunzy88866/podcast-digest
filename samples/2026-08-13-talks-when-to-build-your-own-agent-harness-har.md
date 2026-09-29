@@ -132,9 +132,9 @@ OpenAI 和 Anthropic 在编程上都很强，却落在相当不同的文件编�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮]]<span class="pd-rz">同公司:Claude Code · 同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)、追踪记录 (traces)、沙箱 (sandbox)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:LangChain · 同概念:harness、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
-- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:harness、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

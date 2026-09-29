@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":356,"MCP":65,"沙箱":64,"连接器":3,"智能 LLM 路由器":1,"可观测性":33,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":358,"MCP":65,"沙箱":65,"连接器":3,"智能 LLM 路由器":1,"可观测性":34,"后训练":1}</script>
 
 <script>
 (function(){

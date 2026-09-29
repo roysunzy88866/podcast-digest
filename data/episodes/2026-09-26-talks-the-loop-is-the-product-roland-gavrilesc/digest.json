@@ -1,0 +1,202 @@
+{
+  "title_zh": "循环就是产品：智能体配方与每瓦特价值",
+  "tldr": "前 XAI 智能体基础设施工程师 Roland 提出「循环就是产品、系统蒸馏是模式」的智能体构建蓝图。",
+  "digest_md": "这一集是一个创业演讲。说话的人叫 Roland，他和联合创始人几个月前从 XAI（马斯克创办的 AI 公司）离开，自己做智能体基础设施方向的创业。他带来一个面向 2026 年的判断：大家都在谈 auto research（自动化研究），而把它产品化的蓝图归结为三个想法。\n\n## 第一个想法：循环就是产品\n\n行业的叙事一直在迁移：先是一切归结为 RLHF（用人类反馈训练模型），然后模型成了商品、一切都看 harness（围绕模型的执行框架），现在轮到「循环（loop）」——你只需要构建循环，不再碰代码。\n\n最生动的例子是一个叫 AJ 的人围绕 ClaudeBot（后来叫 OpenClaw）搭的第一个循环：上 Reddit 找价格和库存、跟汽车经销商谈、让经销商互相竞价压价，再用一个可验证的标准判断价格何时合适，然后锁定成交、拿下那辆车。这是「循环就是产品」的第一个真实案例——本来该直接变成一家创业公司 [02:14 Roland]。\n\n为什么循环这么重要？Roland 认为模型本来就是按循环训练出来的——模型调用工具、做出观察，这正是「我们作为人类一直被训练的东西，现在也是作为智能体被训练的东西」[3:24 Roland]。关键在于：**信号的质量决定循环的成功率，验证器的质量决定你能否校准这个成功是不是真的** [4:04 Roland]。而在此之上还有第二个循环——把第一个循环末端生成的工件（artifacts）拿回来喂给信号，在上面跑第二个循环，实现持续改进。\n\n> 【背景】OODA 循环（观察—判断—决策—行动）由上世纪 70 年代美国空军提出，描述喷气式战斗机飞行员如何在快节奏环境中反应；播客原文并未提及此概念，此为补充背景。\n\n## 第二个想法：系统蒸馏是模式\n\n所谓系统蒸馏，就是搞清楚第一个循环里什么做对了、什么做错了，并知道怎么在第二个循环里处理这些信息。每个循环都会产生关于 harness、配置、评测（evals）、模型、资源、工具和环境的有用信息——你要的是让这些信息可移植、可版本化、能随时间演进。\n\nRoland 用研究领域的「数据配方」做类比：RL 之所以运作良好，正是因为人们理解了配方，并持续调整配方去对抗幻觉、奖励作弊（reward hacking，模型钻奖励函数空子的行为）这类问题。但对 harness、对广义的 AI 系统，还没有对应的东西。所以他提出「智能体配方（agent recipe）」：让你能创建**可复现的前沿 AI 系统**的东西——一条随时间不断变强的护城河，不绑定任何平台或模型提供商，由你拥有、放在你公司里 [05:51 Roland]。\n\n具体来说，循环的价值就是持续把系统蒸馏成配方：失败模式应该变成 judges 和 evals；重复出现的行为应该变成技能和提示词；用户的挫败感应该变成 harness 的扩展和记忆。最后所有东西装进一个 Git 仓库，作为你构建自我改进系统的持续策略。\n\n他们据此做了早期产品 Py.Recipes，构建在 pie harness 和 Harbor（评测框架）之上，烘焙进 Git 仓库——**由你拥有，但由你的智能体来管理** [07:28 Roland]。一个核心理念是「品味（taste）」：配方不只是 harness 和模型，而是「你是如何得出这个配方的、为什么」——配方本质上是把制作者的品味编码进智能体的构建方式里。而用别人的配方时，你也应该能把那份品味一并带走。\n\n## 第三个想法：每瓦特有价值工作\n\n衡量进步的分数是 valued work per watt——每消耗一瓦特算力，产出多少有价值的工作。Roland 引证 Cursor 和 Cognition 的路径：从构建最好的产品，到为产品构建最好的 evals，最后基于前两个产物构建最好的模型。他认为这是今后一切事情的配方，代码只是第一个成功的领域；客户支持、法律、研究都将归结到这个问题：我每瓦特能获得多少价值？第一步是会衡量价值，第二步是知道这个价值拿得划不划算。\n\n从基础 harness 走到前沿只有一条路——上生产环境跑，没开始之前你根本不知道前沿在哪。而最后一步、也是最需要研究的一步是：到了前沿之后如何让它在经济上可行。微调 API 和抽象好的基础设施都已经在了，缺的只是 know-how：知道怎么把品味固化进 evals、怎么在实验中验证它。evals 不只是测试，它是「创作者的品味」，智能体应该能围绕它复现和自我改进——怎么把一个人作为艺术家或开发者的品味做成任何人都能下载、一对一复刻的东西，没人认真想过。\n\n## 实战演示：人才搜寻智能体\n\n用人才搜寻智能体做例子——招聘这件事高度个人化，重要的不是「什么是好招聘」，而是「谁在主导、他认为什么是好」。起点很简单：一堆工具（web 搜索、LinkedIn）、一堆已被 Codex 和 Claude Code 普及的子智能体、一条系统指令。\n\n第一步是用 Patterns（模式提取）看轨迹（traces）、把共性行为或用户不满聚成类。比如智能体会倾向大量联系大厂员工——而招聘者想要的是隐藏的宝石，不是去挖 John Carmack。这种行为你从不会想到要事先固化，只有跑了才发现。第二步是校准：构建一个 judge 智能体审视轨迹，精确识别「这单是不是联系了 Google 员工而不是去 GitHub 找隐藏宝石」。关键分工是：**你不需要人来构建 evals，只需要人来校准 evals** [15:01 Roland]——智能体才是把制造者的品味写进代码的那个角色。\n\n有了这些就能生成配方候选——那正是你真正想去「品味」的 diff。离线评估集可以建得很好，但真正的检验在上生产：终端用户认不认同你的品味？用 A/B 测试（比如多臂老虎机场景）验证「我有好品味、用户也认同我有好品味」，验证通过就晋升到下一版配方。秘诀就是一遍又一遍地重复这个循环。\n\n## 本集带走\n\n- **把你自己自动化成更高层级的裁判**：让第二层循环的智能体，把你的判断力应用到你要推向生产的那些智能体上。\n- **系统蒸馏速度决定护城河**：持续把品味注入工作智能体、让它们自我验证并协同——做得越快，越快建立起通往垂直 AI 公司的可防御路径。\n- **失败模式和重复行为都要「回收」**：失败模式变成 judges 和 evals，重复行为变成技能和提示词，用户挫败感变成记忆和扩展——全部进一个 Git 仓库做版本管理。\n- **evals 不是测试，是品味**：人只负责校准 evals（判断对不对），构建 evals 的工作交给智能体。\n- **用「每瓦特有价值工作」记账**：先确认产出的工作有价值，再确认经济账划算——价格差距就是用户会从 Claude Code 切换到你产品的理由。",
+  "quotes": [
+    {
+      "en": "Go on Reddit, find prices, find inventory, talk to the dealers, put dealers head to head, and try to figure out how to make them outbid each other.",
+      "zh": "上 Reddit，找价格，找库存，和经销商谈，让经销商正面竞争，并设法让他们互相竞价。",
+      "timestamp": "02:17",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "It's something that allows you to have a moat that keeps getting better over time, which is not tied to any platform or any provider.",
+      "zh": "它是一种让你拥有一个随时间不断变强的护城河的东西，而且它不绑定任何平台或任何提供商。",
+      "timestamp": "05:58",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "Failure patterns should become judges and evals.",
+      "zh": "失败模式应该变成 judges 和 evals。",
+      "timestamp": "06:21",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "So we think recipes should be basically encoding the taste of the makers into how you build these agents.",
+      "zh": "所以我们认为配方基本上就是把制作者的品味编码进你构建这些智能体的方式里。",
+      "timestamp": "07:49",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+      "zh": "想想 Cursor 和 Cognition 是如何从构建最好的产品，到接着为产品构建最好的 evals，最后基于前两个产物构建最好的模型的。",
+      "timestamp": "09:23",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "There's no way you know what frontier is before you start.",
+      "zh": "在你开始之前，你不可能知道前沿是什么。",
+      "timestamp": "10:17",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "It's really what is the taste of the creator that agents should be able to reproduce and self-improve around.",
+      "zh": "它们真正代表的是：创作者的品味是什么，而智能体应该能够围绕它进行复现和自我改进。",
+      "timestamp": "11:16",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "How do I make my taste as an artist or as a software developer something that anyone can download in their brain and be able to be a one-to-one replica to me?",
+      "zh": "我怎么把我作为艺术家或软件开发者的品味，变成任何人都能下载进大脑、并且成为与我一对一复制品的东西？",
+      "timestamp": "11:28",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "But how you look at the artifacts and know what to change is the taste.",
+      "zh": "但你如何审视这些产物并知道该改什么，这就是品味。",
+      "timestamp": "12:00",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "You don't need the human to actually build the evals.",
+      "zh": "你不需要人来真正构建这些 evals。",
+      "timestamp": "14:58",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "And agents should be the ones that really take the taste of the maker and put them into code.",
+      "zh": "而智能体应该是真正把制造者的品味注入到代码中的那一个。",
+      "timestamp": "15:04",
+      "speaker": "Roland Gavrilescu"
+    },
+    {
+      "en": "So, how do you continuously inject that taste into these workers, and how they continuously self-verify and work together is the biggest thing that you should focus on, and the faster you do it, the faster you build a defensible approach to becoming a vertical AI company.",
+      "zh": "那么，你如何持续地把这种品味注入到这些工作智能体中，以及它们如何持续地自我验证并协同工作，是你应该关注的最重要的事情；你做得越快，你就能越快地建立起一条通往垂直 AI 公司的可防御路径。",
+      "timestamp": "17:08",
+      "speaker": "Roland Gavrilescu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:14",
+      "speaker": "Roland",
+      "en": "Go on Reddit, find prices, find inventory, talk to the dealers, put dealers head to head, and try to figure out how to make them outbid each other.",
+      "zh": "上 Reddit，找价格，找库存，和经销商谈，让经销商正面竞争，并设法让他们互相竞价。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Roland",
+      "en": "And what matters here is the quality of the signal determines the success rate of the loop, and the quality of the verifier is able to calibrate if that success is actually correct or not.",
+      "zh": "这里重要的是，信号的质量决定了循环的成功率，而验证器的质量能够校准这个成功是否真的正确。"
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Roland",
+      "en": "So an agent recipe is really something that enables you to create reproducible Frontier AI systems.",
+      "zh": "所以智能体配方本质上是让你能够创建可复现的前沿 AI 系统的东西。"
+    },
+    {
+      "timestamp": "05:58",
+      "speaker": "Roland",
+      "en": "It's something that allows you to have a moat that keeps getting better over time, which is not tied to any platform or any provider.",
+      "zh": "它是一种让你拥有一个随时间不断变强的护城河的东西，而且它不绑定任何平台或任何提供商。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Roland",
+      "en": "Failure patterns should become judges and evals.",
+      "zh": "失败模式应该变成 judges 和 evals。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Roland",
+      "en": "And it's meant to be owned by you, but managed by your agents.",
+      "zh": "它 meant 被你所拥有，但由你的智能体来管理。"
+    },
+    {
+      "timestamp": "07:49",
+      "speaker": "Roland",
+      "en": "So we think recipes should be basically encoding the taste of the makers into how you build these agents.",
+      "zh": "所以我们认为配方基本上就是把制作者的品味编码进你构建这些智能体的方式里。"
+    },
+    {
+      "timestamp": "08:03",
+      "speaker": "Roland",
+      "en": "It's how did you arrive at this particular recipe and why.",
+      "zh": "而是你如何得出这个特定的配方，以及为什么。"
+    },
+    {
+      "timestamp": "09:23",
+      "speaker": "Roland",
+      "en": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+      "zh": "想想 Cursor 和 Cognition 是如何从构建最好的产品，到接着为产品构建最好的 evals，最后基于前两个产物构建最好的模型的。"
+    },
+    {
+      "timestamp": "10:17",
+      "speaker": "Roland",
+      "en": "There's no way you know what frontier is before you start.",
+      "zh": "在你开始之前，你不可能知道前沿是什么。"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "Roland",
+      "en": "It's really what is the taste of the creator that agents should be able to reproduce and self-improve around.",
+      "zh": "它们真正代表的是：创作者的品味是什么，而智能体应该能够围绕它进行复现和自我改进。"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Roland",
+      "en": "How do I make my taste as an artist or as a software developer something that anyone can download in their brain and be able to be a one-to-one replica to me?",
+      "zh": "我怎么把我作为艺术家或软件开发者的品味，变成任何人都能下载进大脑、并且成为与我一对一复制品的东西？"
+    },
+    {
+      "timestamp": "12:00",
+      "speaker": "Roland",
+      "en": "But how you look at the artifacts and know what to change is the taste.",
+      "zh": "但你如何审视这些产物并知道该改什么，这就是品味。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Roland",
+      "en": "You want to find hidden gems.",
+      "zh": "你想找到隐藏的宝石。"
+    },
+    {
+      "timestamp": "14:58",
+      "speaker": "Roland",
+      "en": "You don't need the human to actually build the evals.",
+      "zh": "你不需要人来真正构建这些 evals。"
+    },
+    {
+      "timestamp": "15:01",
+      "speaker": "Roland",
+      "en": "You need them to calibrate the evals.",
+      "zh": "你需要他们来校准这些 evals。"
+    },
+    {
+      "timestamp": "15:04",
+      "speaker": "Roland",
+      "en": "And agents should be the ones that really take the taste of the maker and put them into code.",
+      "zh": "而智能体应该是真正把制造者的品味注入到代码中的那一个。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Roland",
+      "en": "So, how do you continuously inject that taste into these workers, and how they continuously self-verify and work together is the biggest thing that you should focus on, and the faster you do it, the faster you build a defensible approach to becoming a vertical AI company.",
+      "zh": "那么，你如何持续地把这种品味注入到这些工作智能体中，以及它们如何持续地自我验证并协同工作，是你应该关注的最重要的事情；你做得越快，你就能越快地建立起一条通往垂直 AI 公司的可防御路径。"
+    },
+    {
+      "timestamp": "17:43",
+      "speaker": "Roland",
+      "en": "And the difference in price is basically what people would switch away from Claude code to something you provide.",
+      "zh": "而价格上的差距，基本上就是人们会从 Claude code 切换到你提供的产品的那个差距。"
+    },
+    {
+      "timestamp": "16:06",
+      "speaker": "Roland",
+      "en": "The secret is you keep doing this over and over again.",
+      "zh": "秘诀就是你一遍又一遍地持续这样做。"
+    }
+  ],
+  "voice_script": "今天要给你讲的这个人叫 Roland,几个月前他和联合创始人从 XAI 离职,那家是马斯克创办的 AI 公司。他们之前做的是智能体基础设施,现在出来自己创业,还是干这个方向。这一集就是一场创业演讲,他给出一个面向 2026 年的判断:现在大家都在谈自动化研究,而把它真正做成产品,蓝图可以归结为三个想法。这三个想法环环相扣,我一个一个讲给你听。\n\n第一个想法,叫「循环就是产品」。要理解这句话,得先看看行业的叙事是怎么一路迁移过来的。最早的时候,一切归结为 RLHF,就是用人类反馈去训练模型。后来模型本身成了商品,大家的注意力转向 harness——围绕模型的那个执行框架。而现在,轮到「循环」了:你只需要构建循环,不再碰代码。\n\n这听着有点抽象,但有个特别生动的例子。有个人叫 AJ,围绕一个叫 ClaudeBot、后来改名叫 OpenClaw 的东西,搭了第一个循环。这个循环干什么呢?上 Reddit 找价格和库存,和汽车经销商谈,让经销商互相竞价压价,再用一个可验证的标准去判断价格什么时候合适,然后锁定成交,拿下那辆车。就这么一套流程,这是「循环就是产品」的第一个真实案例——本来应该直接变成一家创业公司的。\n\n那为什么循环这么重要?Roland 的看法是,模型本来就是按循环训练出来的——模型调用工具、做出观察,这正是我们作为人类一直被训练的东西,现在也是作为智能体被训练的东西。但光有循环还不够,关键在于信号的质量决定循环的成功率,而验证器的质量,决定你能不能校准这个成功是不是真的。而且在这之上还有第二层循环:把第一个循环末端产出的东西拿回来,喂给信号,在上面跑第二个循环,实现持续改进。\n\n好,第二个循环跑起来了,产生了各种信息,那这些信息怎么处理?这就引出第二个想法:系统蒸馏是模式。所谓系统蒸馏,说白了就是搞清楚第一个循环里什么做对了、什么做错了,并且知道怎么在第二个循环里处理这些信息。每个循环都会产生关于执行框架、配置、评测、模型、资源、工具和环境的有用信息——你要做的,是让这些信息可移植、可版本化、能随着时间演进。\n\nRoland 用研究领域的「数据配方」来类比。RL 之所以运作良好,正是因为人们理解了配方,并且持续调整配方,去对抗幻觉、去对抗 reward hacking——就是模型钻奖励函数空子的行为。但对 harness、对广义的 AI 系统,还没有对应的东西。所以提出「智能体配方」这个概念:它能让你创建可复现的前沿 AI 系统。有句话值得记住:它是一种让你拥有随时间不断变强的护城河的东西,而且不绑定任何平台或任何提供商,由你拥有,放在你公司里。\n\n具体怎么做呢?循环的价值,就是持续把系统蒸馏成配方:失败模式应该变成 judges 和 evals——judges 就是替你打分的裁判模型,evals 就是评测集;重复出现的行为,应该变成技能和提示词;用户的挫败感,应该变成框架的扩展和记忆。最后所有东西装进一个 Git 仓库,作为你构建自我改进系统的持续策略。他们据此做了早期产品,叫 Py.Recipes,构建在 pie harness 和一个叫 Harbor 的评测框架之上,烘焙进 Git 仓库——由你拥有,但由你的智能体来管理。\n\n这里还有个核心理念,叫「品味」。配方不只是框架和模型,而是你是如何得出这个配方的、为什么。用 Roland 原话说,配方基本上就是把制作者的品味编码进你构建这些智能体的方式里。而且用别人的配方时,你也应该能把那份品味一并带走。\n\n那问题来了:这一切做得值不值,该怎么衡量?这就到了第三个想法:每瓦特有价值工作。也就是每消耗一瓦特算力,能产出多少有价值的工作。可以想想 Cursor 和 Cognition 是怎么走的:从构建最好的产品,到接着为产品构建最好的 evals,最后基于前两个产物构建最好的模型。Roland 认为这是今后一切事情的配方,代码只是第一个成功的领域,客户支持、法律、研究都会归结到同一个问题:我每瓦特能获得多少价值?第一步是会衡量价值,第二步是知道这个价值拿得划不划算。而从基础框架走到前沿只有一条路——上生产环境跑,因为在你开始之前,你不可能知道前沿是什么。到了前沿之后,最需要研究的一步是怎么让它在经济上可行。微调 API 和抽象好的基础设施都已经在了,缺的只是 know-how。\n\n道理讲完了,他们真的拿一个实战例子演示了这套方法:人才搜寻智能体。招聘这件事高度个人化,重要的不是「什么是好招聘」,而是谁在主导、这个人认为什么是好。起点很简单:一堆工具,像网页搜索、LinkedIn,加上一堆已经被 Codex 和 Claude Code 普及的子智能体,再加一条系统指令。\n\n第一步是用模式提取去看轨迹,把共性行为或用户不满聚成类。比如智能体会倾向大量联系大厂员工——但招聘者想要的是隐藏的宝石,不是去挖 John Carmack 这种名人。这种行为你事先根本想不到要固化,只有跑了才发现。第二步是校准:构建一个 judge 智能体去审视轨迹,精确识别比如「这单是不是联系了 Google 员工,而不是去 GitHub 找隐藏宝石」。这里的分工特别关键:你不需要人来构建 evals,只需要人来校准 evals——智能体才是把制造者的品味写进代码的那个角色。\n\n有了这些,就能生成配方候选,那正是你真正想去「品味」的 diff。离线评估集可以建得很好,但真正的检验在上生产:终端用户认不认同你的品味?用 A/B 测试去验证「我有好品味,用户也认同我有好品味」,验证通过,就晋升到下一版配方。秘诀就是一遍又一遍地重复这个循环。\n\n所以这一集能带走的东西,其实就一句话:把你自己自动化成更高层级的裁判,让第二层循环的智能体把你的判断力,应用到你要推向生产的那些智能体上;失败模式变成 judges 和 evals,重复行为变成技能和提示词,全部装进一个 Git 仓库做版本管理——系统蒸馏的速度,决定你护城河的深浅。配方,就是把制作者的品味编码进智能体的构建方式里。"
+}

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]] [[Han Mei]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":356,"主动性":2,"Muse":3,"Instinct":3,"OpenClaw":19,"ChatGPT":82,"Shopify":12,"Amazon":18}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":358,"主动性":2,"Muse":3,"Instinct":3,"OpenClaw":20,"ChatGPT":83,"Shopify":12,"Amazon":18}</script>
 
 <script>
 (function(){

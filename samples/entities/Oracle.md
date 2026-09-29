@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Codex]] · [[Google]] · [[护栏]] · [[Microsoft]] · [[Alex]] · [[Claude]] · [[上下文窗口]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"OpenAI":140,"Codex":62,"Google":50,"护栏":65,"Microsoft":25,"Alex":5,"Claude":71,"上下文窗口":11,"RAG":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"OpenAI":140,"Codex":63,"Google":50,"护栏":65,"Microsoft":25,"Alex":5,"Claude":72,"上下文窗口":12,"RAG":21}</script>
 
 <script>
 (function(){

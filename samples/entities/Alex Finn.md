@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":8,"gpt 5.6":1,"Fable":10,"Anthropic":153,"open ai":2,"Codex":62,"智能体":356,"提示词":19,"原型":7,"浏览器使用":8}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":8,"gpt 5.6":1,"Fable":10,"Anthropic":153,"open ai":2,"Codex":63,"智能体":358,"提示词":19,"原型":7,"浏览器使用":8}</script>
 
 <script>
 (function(){

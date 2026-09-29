@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":356,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":18,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Simile":1,"智能体":358,"模拟":5,"人类行为基础模型":1,"反思":1,"记忆":18,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

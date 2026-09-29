@@ -1,0 +1,1210 @@
+{
+  "episode_id": "2026-09-26-talks-how-we-built-an-agent-that-improves-itse",
+  "podcast": "精选演讲",
+  "date": "2026-09-26",
+  "tags": [
+    "智能体",
+    "评估",
+    "AI 基础设施",
+    "可观测性",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "zubin-aysola",
+      "type": "person",
+      "role": "guest",
+      "name": "Zubin Aysola",
+      "file": "Zubin Aysola",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "weights-and-biases",
+      "type": "company",
+      "role": "company",
+      "name": "Weights and Biases",
+      "file": "Weights and Biases",
+      "primary": true,
+      "how_described": "本集说这是嘉宾所在的公司，机器学习开发者工具公司，嘉宾在为其构建 ARIA 智能体，并用 Weights and Biases 平台追踪智能体和模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.818,
+            23
+          ],
+          "quote": "I work at Weights and Biases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            28.646,
+            34.473
+          ],
+          "quote": "You might have seen Tim's talk, one of my peers at Weights and Biases, who I work with, on the main stage yesterday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            35.294,
+            49.044
+          ],
+          "quote": "I'm going to give you a little bit of a deep dive into how we evaluate and build the ARIA agent, and in particular, the evaluation framework that we use and how we use ARIA to sort of self-reinforce itself in the loop of doing research for itself and talk about some weights and biases things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            72.277,
+            78.38
+          ],
+          "quote": "And so inspired by that, we're doing some work at Weights and Biases to build our own agent harness to do research for you in the Weights and Biases platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            126.319,
+            138.266
+          ],
+          "quote": "And so there's sort of two things that I'll talk about and then give a live demo of, which is weights and biases weave for agents, which is basically, in my opinion at least, the best observability platform for both production and offline tracing of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            162.488,
+            172.914
+          ],
+          "quote": "And then obviously the other thing that I'm here to talk about is ARIA, the weights and biases agent itself, which is basically the thing that we use to now build itself because it's sophisticated enough that it can actually do that offline hill climbing by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            180.018,
+            185.424
+          ],
+          "quote": "So if you hop into the Weights and Biases platform, this is a demo project that I called ARIA Researches ARIA here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            194.713,
+            201.06
+          ],
+          "quote": "But if we look at it, what it's going to do is it's going to take my code base that is logged as a Weights and Biases artifact, which we can see over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            274.482,
+            288.647
+          ],
+          "quote": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            312.922,
+            336.857
+          ],
+          "quote": "And so now I'm just going to jump into a material version of the presentation to go a little bit deeper into the theory behind building a simulation environment for offline hill climbing, for basically building a software agent, where traditionally you might expect that you are really robust if you're doing reinforcement learning, but I mostly prompt engineer these days because the sophisticated models are relatively good at performing tasks at weights and biases, and so we're really working on building skills for the software agent more than doing reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            535.584,
+            551.072
+          ],
+          "quote": "And so we have a relatively agnostic DAG that you might think about in a traditional machine learning context, which is like, we take a configuration, which are these YAML files, we hydrate them, so we load the live data that we need to, we set up an environment, and the environments and weights and biases are relatively expensive because we have lots of production",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            613.322,
+            630.431
+          ],
+          "quote": "In our case, weights and biases ARIA scores itself in two patterns, which is normatively, which gives us basically did we pass a task or not, and then relativistically where we can set styles based on one variant where it asks questions to the user and one variant where it doesn't ask questions to the user, and we can sort of see which one behaves better with a relative scoring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            789.09,
+            791.471
+          ],
+          "quote": "I asked it to write a report using weights and biases reports.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            813.288,
+            817.191
+          ],
+          "quote": "WBAF is the factory that I build, which is the weights and biases agent factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            907.937,
+            912.518
+          ],
+          "quote": "And so if you're building an agent, I implore you to use Weights and Biases to both track that agent, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            993.055,
+            994.356
+          ],
+          "quote": "Welcome to Weights and Biases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aria",
+      "type": "concept",
+      "role": "concept",
+      "name": "ARIA",
+      "file": "ARIA",
+      "primary": true,
+      "how_described": "本集说这是 Weights and Biases 的智能体产品（周一正式发布 GA），已强大到可以给自己做研究——写新变体、跑评估、打分，自己把自己改得更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            23.2,
+            28.326
+          ],
+          "quote": "I'm building the ARIA agent, which is something that we released to general availability on Monday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            35.294,
+            49.044
+          ],
+          "quote": "I'm going to give you a little bit of a deep dive into how we evaluate and build the ARIA agent, and in particular, the evaluation framework that we use and how we use ARIA to sort of self-reinforce itself in the loop of doing research for itself and talk about some weights and biases things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            139.207,
+            149.556
+          ],
+          "quote": "I use it predominantly from the offline side where I build simulation environments, run the ARIA agent over them, and then track them in Weave, and my entire team does that as well so I can see all of our performance in offline metrics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            162.488,
+            172.914
+          ],
+          "quote": "And then obviously the other thing that I'm here to talk about is ARIA, the weights and biases agent itself, which is basically the thing that we use to now build itself because it's sophisticated enough that it can actually do that offline hill climbing by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            180.018,
+            185.424
+          ],
+          "quote": "So if you hop into the Weights and Biases platform, this is a demo project that I called ARIA Researches ARIA here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            186.004,
+            189.708
+          ],
+          "quote": "And I'm just going to chat to ARIA and ask it to basically do auto research for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            216.727,
+            220.29
+          ],
+          "quote": "And so we'll see ARIA basically try to write a new variant for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            224.229,
+            229.571
+          ],
+          "quote": "And so this is a sanitized view of internal customer traces or internal traces on ARIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            229.631,
+            235.653
+          ],
+          "quote": "So we'll actually see very quickly that ARIA will actually pop up here, the exact conversation that we're running right here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            253.055,
+            260.178
+          ],
+          "quote": "But I'll go here, I'll pop open a new ARIA tab, and I'll just ask it, hey, take this trace, log it into our offline",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            417.694,
+            432.252
+          ],
+          "quote": "And so the two ways that that happens is I look manually at the tasks or, like we would do in that first example, I would ask Aria to review the rollout that it generated for itself or review some other rollout and decide what went wrong or what went well and try to reinforce that behavior through prompting or anything else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            498.899,
+            506.261
+          ],
+          "quote": "So for example, prior to yesterday, I wasn't entirely certain that ARIA was going to be able to do a bunch of parallel executions of itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            613.322,
+            630.431
+          ],
+          "quote": "In our case, weights and biases ARIA scores itself in two patterns, which is normatively, which gives us basically did we pass a task or not, and then relativistically where we can set styles based on one variant where it asks questions to the user and one variant where it doesn't ask questions to the user, and we can sort of see which one behaves better with a relative scoring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            644.561,
+            645.742
+          ],
+          "quote": "And so we'll see how ARIA performs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            664.347,
+            667.748
+          ],
+          "quote": "We do just simple text, which is like, hey, here's an instruction to ARIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            674.891,
+            682.342
+          ],
+          "quote": "into our local framework actually looks like just a simple question that I asked it basically, which was that question of ARIA doing auto-research itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            770.702,
+            772.063
+          ],
+          "quote": "And so I'll hop back to ARIA now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            780.726,
+            787.049
+          ],
+          "quote": "If I hop into this live demo that I just triggered with that nice long prompt, ARIA is going to tell me the research runs that it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            849.611,
+            872.383
+          ],
+          "quote": "And so I think the flywheel here is exceptionally compelling for me, where instead of going back to my Claude code and writing offline benchmarks and trying to think about what I want the agent to do, I'm just going to live in this platform instead and hop between my production tracing project, where I'm looking at traces roll in as they come through over time, where ARIA's building itself, and then hop back into my offline evaluation project to sort of see what my team is doing, what I'm doing, and what changes I want to make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            915.059,
+            925.202
+          ],
+          "quote": "So some of the other demos that we've shown here are ARIA training machine learning models on H200s, running on core infrastructure, and doing auto research for Karpathy's NanoChat, et cetera, or full-scale production projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            935.227,
+            940.431
+          ],
+          "quote": "And if we look at the things that Aria is saying, it's running lots of evaluations on my behalf to improve itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            957.389,
+            959.971
+          ],
+          "quote": "We can look at the production call trace that we have here from ARIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            961.773,
+            965.957
+          ],
+          "quote": "So if we look into the actual trace, we'll see that ARIA did a bunch of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            990.954,
+            992.255
+          ],
+          "quote": "So that's CoreWeave Aria.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "weave",
+      "type": "concept",
+      "role": "concept",
+      "name": "Weave",
+      "file": "Weave",
+      "primary": true,
+      "how_described": "本集说 Weave 是 Weights and Biases 面向智能体的可观测性平台，嘉宾称其为智能体生产端和离线追踪的最佳工具，生产与离线两侧用它以完全相同的格式记录轨迹。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            126.319,
+            138.266
+          ],
+          "quote": "And so there's sort of two things that I'll talk about and then give a live demo of, which is weights and biases weave for agents, which is basically, in my opinion at least, the best observability platform for both production and offline tracing of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            139.207,
+            149.556
+          ],
+          "quote": "I use it predominantly from the offline side where I build simulation environments, run the ARIA agent over them, and then track them in Weave, and my entire team does that as well so I can see all of our performance in offline metrics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            236.928,
+            245.492
+          ],
+          "quote": "But in this trace, I'm going to use this as an opportunity to take one of these production traces that are logged in Weave and put them into my offline evaluation framework so that I can hill climb on them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            271.201,
+            273.622
+          ],
+          "quote": "And we'll see those evaluations get logged into Weave as they're running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            274.482,
+            288.647
+          ],
+          "quote": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            355.837,
+            363.78
+          ],
+          "quote": "So I think the exciting part here is that both using the logging framework from Weave as well as just in the way that we've designed the system, our research and production code are exactly the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            437.878,
+            445.221
+          ],
+          "quote": "We want to test on a variety of the different models, both models offered through core weave inference, models offered through the foundation model players, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            753.88,
+            756.021
+          ],
+          "quote": "And these are our real scores straight from Weave.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            819.713,
+            824.557
+          ],
+          "quote": "It identified that the problem was that we weren't calling weave.log, one of our SDK calls, properly in the sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线是软件智能体：如何打包、评估和构建 ARIA 这样的 agent harness，用生产轨迹做爬山优化让它自我强化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            23.2,
+            28.326
+          ],
+          "quote": "I'm building the ARIA agent, which is something that we released to general availability on Monday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            35.294,
+            49.044
+          ],
+          "quote": "I'm going to give you a little bit of a deep dive into how we evaluate and build the ARIA agent, and in particular, the evaluation framework that we use and how we use ARIA to sort of self-reinforce itself in the loop of doing research for itself and talk about some weights and biases things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            57.869,
+            65.013
+          ],
+          "quote": "I imagine most people in the audience or at this conference are all excited to build agent harnesses or maybe use Claude Code with skills in a variety of different packages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            72.277,
+            78.38
+          ],
+          "quote": "And so inspired by that, we're doing some work at Weights and Biases to build our own agent harness to do research for you in the Weights and Biases platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            139.207,
+            149.556
+          ],
+          "quote": "I use it predominantly from the offline side where I build simulation environments, run the ARIA agent over them, and then track them in Weave, and my entire team does that as well so I can see all of our performance in offline metrics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            149.817,
+            160.747
+          ],
+          "quote": "And then the other half of my team works on the production side of things, deploying the agent, logging the same things in the exact same format so that I can rip those production traces into our environments and then hill climb on them or resolve our errors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            162.488,
+            172.914
+          ],
+          "quote": "And then obviously the other thing that I'm here to talk about is ARIA, the weights and biases agent itself, which is basically the thing that we use to now build itself because it's sophisticated enough that it can actually do that offline hill climbing by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            263.939,
+            268.04
+          ],
+          "quote": "And then run the candidate and production agent on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            274.482,
+            288.647
+          ],
+          "quote": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            289.367,
+            299.093
+          ],
+          "quote": "And if we look at our production project, this is a bunch of traces that we have over the last seven weeks of our nightly CI jobs that run, where we evaluate the agent in its production format and other candidate variants that we cut.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            311.341,
+            312.462
+          ],
+          "quote": "That we train the agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            312.922,
+            336.857
+          ],
+          "quote": "And so now I'm just going to jump into a material version of the presentation to go a little bit deeper into the theory behind building a simulation environment for offline hill climbing, for basically building a software agent, where traditionally you might expect that you are really robust if you're doing reinforcement learning, but I mostly prompt engineer these days because the sophisticated models are relatively good at performing tasks at weights and biases, and so we're really working on building skills for the software agent more than doing reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            337.157,
+            344.345
+          ],
+          "quote": "But I think applying the same methodology to how you build the agent, so the same robustness of how you simulate environments, is really helpful for our work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            344.886,
+            350.372
+          ],
+          "quote": "So we benchmark a bite-wise identical version of the agent in our production environment and our simulated environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            363.86,
+            373.543
+          ],
+          "quote": "And in fact, there's like a four-hour sync job that happens between production to our research environment so that we don't get any drift when researchers are cutting new variants of the agent, new skills, et cetera, and doing their hill climbing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            398.192,
+            402.557
+          ],
+          "quote": "But essentially what we get is these super robust traces of the agent rolling out over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            404.419,
+            412.728
+          ],
+          "quote": "And I think the thesis behind this is generate a fuckton of traces and then decide what you're going to do with said fuckton of traces as you try to figure out how the agent performs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            413.148,
+            417.353
+          ],
+          "quote": "We're measuring emergent properties and then trying to align the agent in particular directions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            433.776,
+            437.818
+          ],
+          "quote": "And then the actual method behind the agent is relatively simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            461.25,
+            468.654
+          ],
+          "quote": "You want to basically YAML to find different configurations of the agent to sort of get multiple parallel variants and then test them all and see what happens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            479.621,
+            481.802
+          ],
+          "quote": "And so that's the thesis behind the agent harness itself too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            483.05,
+            486.912
+          ],
+          "quote": "And so then we talk about the sandbox stack behind the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            517.264,
+            522.305
+          ],
+          "quote": "And so having that unconstrained environment is really useful for getting the agent to do emergent things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            571.605,
+            572.506
+          ],
+          "quote": "And then you run the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            572.546,
+            573.627
+          ],
+          "quote": "And running the agent is trivial.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            690.91,
+            703.712
+          ],
+          "quote": "There's other variants of the tasks that exist as well where we simulate a language model that has a persona from a user and we ask it, hey, pretend to be this user, ask certain questions in a particular order so that we can simulate multi-turn environments and interactions with our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            741.308,
+            749.312
+          ],
+          "quote": "So fundamentally, every production miss or every production goodness as well, because I think it's useful to hill climb in a positive direction, becomes a task for our agent framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            749.332,
+            751.913
+          ],
+          "quote": "And so we use that to sort of define the agent and make it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            759.203,
+            761.484
+          ],
+          "quote": "I think the agent is really good at conceptually guiding you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            764.465,
+            769.248
+          ],
+          "quote": "We try to make these as difficult as possible for the agent to really test the metal of how this thing performs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            807.664,
+            812.988
+          ],
+          "quote": "So it ran a real WANB agent trace, turned it into a WBAF regression task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            813.288,
+            817.191
+          ],
+          "quote": "WBAF is the factory that I build, which is the weights and biases agent factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            824.998,
+            830.663
+          ],
+          "quote": "It replicates the source trace, which we can click into here, and then runs a bunch of variants of the agent to see how it makes itself better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            849.611,
+            872.383
+          ],
+          "quote": "And so I think the flywheel here is exceptionally compelling for me, where instead of going back to my Claude code and writing offline benchmarks and trying to think about what I want the agent to do, I'm just going to live in this platform instead and hop between my production tracing project, where I'm looking at traces roll in as they come through over time, where ARIA's building itself, and then hop back into my offline evaluation project to sort of see what my team is doing, what I'm doing, and what changes I want to make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            876.363,
+            877.514
+          ],
+          "quote": "Or to the agent variant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            879.884,
+            889.529
+          ],
+          "quote": "And to sort of watch this thing roll out, I think a big challenge that we have is it's really easy to go auto mode for some of these tasks where you want to just see the agent do everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            907.937,
+            912.518
+          ],
+          "quote": "And so if you're building an agent, I implore you to use Weights and Biases to both track that agent, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            981.346,
+            988.628
+          ],
+          "quote": "And that kind of replication from production to simulation to agent then defining the improvement pattern is the thing that I really would like to leave everybody with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说评估是嘉宾每天思考的核心：基准测试、评估、智能体与配置全协变，需要一个离线评估框架（DAG：配置→水合→运行→评分），886 个任务反复运行，并监控评估与生产之间的漂移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            261.138,
+            261.598
+          ],
+          "quote": "Evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            640.858,
+            644.181
+          ],
+          "quote": "And so we'll see what happens in this project because a bunch of my teammates are running evals right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨迹 (traces)",
+      "file": "轨迹",
+      "primary": true,
+      "how_described": "本集说轨迹是最核心的资产——论点是「先生成海量 traces，再决定怎么用」，生产环境的每次失误或亮眼表现都会变成评估框架里的一个新任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            149.817,
+            160.747
+          ],
+          "quote": "And then the other half of my team works on the production side of things, deploying the agent, logging the same things in the exact same format so that I can rip those production traces into our environments and then hill climb on them or resolve our errors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            207.02,
+            212.264
+          ],
+          "quote": "It's going to review production traces that we have, add new tasks to hill climb against, and do stuff like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            224.229,
+            229.571
+          ],
+          "quote": "And so this is a sanitized view of internal customer traces or internal traces on ARIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            236.928,
+            245.492
+          ],
+          "quote": "But in this trace, I'm going to use this as an opportunity to take one of these production traces that are logged in Weave and put them into my offline evaluation framework so that I can hill climb on them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            274.482,
+            288.647
+          ],
+          "quote": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            289.367,
+            299.093
+          ],
+          "quote": "And if we look at our production project, this is a bunch of traces that we have over the last seven weeks of our nightly CI jobs that run, where we evaluate the agent in its production format and other candidate variants that we cut.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            398.192,
+            402.557
+          ],
+          "quote": "But essentially what we get is these super robust traces of the agent rolling out over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            404.419,
+            412.728
+          ],
+          "quote": "And I think the thesis behind this is generate a fuckton of traces and then decide what you're going to do with said fuckton of traces as you try to figure out how the agent performs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            722.603,
+            730.111
+          ],
+          "quote": "And so I look at our production traces that exist in our traffic and our offline traces that exist, and I really try to exploit the behavior patterns from both of those.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            730.412,
+            733.475
+          ],
+          "quote": "And so we build tooling ourselves to understand our traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            849.611,
+            872.383
+          ],
+          "quote": "And so I think the flywheel here is exceptionally compelling for me, where instead of going back to my Claude code and writing offline benchmarks and trying to think about what I want the agent to do, I'm just going to live in this platform instead and hop between my production tracing project, where I'm looking at traces roll in as they come through over time, where ARIA's building itself, and then hop back into my offline evaluation project to sort of see what my team is doing, what I'm doing, and what changes I want to make.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是给客户想干什么就干什么的不受限环境，ARIA 曾自己创建沙箱环境并行运行自己的研究循环——这种不受约束的环境对智能体做出涌现性的事情非常有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            274.482,
+            288.647
+          ],
+          "quote": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            483.05,
+            486.912
+          ],
+          "quote": "And so then we talk about the sandbox stack behind the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            491.615,
+            498.699
+          ],
+          "quote": "And one thing that we really want to see happen, because we want to build the best product for our customers, is to just have a sandbox environment that they can do anything they want in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            506.581,
+            516.684
+          ],
+          "quote": "And so I asked it, both while I was writing this presentation and preparing for this, to just create the sandbox environment for itself to run a bunch of parallel executions of its own research loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            819.713,
+            824.557
+          ],
+          "quote": "It identified that the problem was that we weren't calling weave.log, one of our SDK calls, properly in the sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说 Weave 是可观测性平台，嘉宾从生产与离线两个角度都拥有完整的可观测性，这是整个评估飞轮的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            126.319,
+            138.266
+          ],
+          "quote": "And so there's sort of two things that I'll talk about and then give a live demo of, which is weights and biases weave for agents, which is basically, in my opinion at least, the best observability platform for both production and offline tracing of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            930.703,
+            933.025
+          ],
+          "quote": "I have full observability from a production standpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            933.125,
+            935.007
+          ],
+          "quote": "I have full observability from an offline standpoint.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hill-climbing",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬山优化 (hill climbing)",
+      "file": "爬山优化",
+      "primary": false,
+      "how_described": "本集说他们把生产轨迹抽进离线评估框架里做爬山优化，正向爬坡也很有用——不只修错误，好行为也要固化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            162.488,
+            172.914
+          ],
+          "quote": "And then obviously the other thing that I'm here to talk about is ARIA, the weights and biases agent itself, which is basically the thing that we use to now build itself because it's sophisticated enough that it can actually do that offline hill climbing by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            312.922,
+            336.857
+          ],
+          "quote": "And so now I'm just going to jump into a material version of the presentation to go a little bit deeper into the theory behind building a simulation environment for offline hill climbing, for basically building a software agent, where traditionally you might expect that you are really robust if you're doing reinforcement learning, but I mostly prompt engineer these days because the sophisticated models are relatively good at performing tasks at weights and biases, and so we're really working on building skills for the software agent more than doing reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            363.86,
+            373.543
+          ],
+          "quote": "And in fact, there's like a four-hour sync job that happens between production to our research environment so that we don't get any drift when researchers are cutting new variants of the agent, new skills, et cetera, and doing their hill climbing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集借用 RL 的 sim-to-real 差距概念和「跑更多实验比跑更少实验好」的格言，说明离线仿真环境的设计方法论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            312.922,
+            336.857
+          ],
+          "quote": "And so now I'm just going to jump into a material version of the presentation to go a little bit deeper into the theory behind building a simulation environment for offline hill climbing, for basically building a software agent, where traditionally you might expect that you are really robust if you're doing reinforcement learning, but I mostly prompt engineer these days because the sophisticated models are relatively good at performing tasks at weights and biases, and so we're really working on building skills for the software agent more than doing reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            468.914,
+            479.541
+          ],
+          "quote": "Because ultimately, you can have insight into how to make the problem better, but if we take an adage from old reinforcement learning training or just simple model training, it's just better to run more experiments than fewer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            630.531,
+            633.713
+          ],
+          "quote": "So a pretty traditional formulation from a reinforcement learning standpoint.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说嘉宾现在不再回 Claude Code 手写基准，八个月没写过一行代码，全让 Claude 替他写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            57.869,
+            65.013
+          ],
+          "quote": "I imagine most people in the audience or at this conference are all excited to build agent harnesses or maybe use Claude Code with skills in a variety of different packages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            849.611,
+            872.383
+          ],
+          "quote": "And so I think the flywheel here is exceptionally compelling for me, where instead of going back to my Claude code and writing offline benchmarks and trying to think about what I want the agent to do, I'm just going to live in this platform instead and hop between my production tracing project, where I'm looking at traces roll in as they come through over time, where ARIA's building itself, and then hop back into my offline evaluation project to sort of see what my team is doing, what I'm doing, and what changes I want to make.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt engineering",
+      "reason": "专名「prompt engineering」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

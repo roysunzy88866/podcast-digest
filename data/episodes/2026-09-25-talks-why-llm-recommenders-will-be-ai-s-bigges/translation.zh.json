@@ -1,0 +1,1162 @@
+[
+ {
+  "seg": 0,
+  "start": 12.727,
+  "end": 13.45,
+  "speaker": "Unknown",
+  "en": "Welcome, everyone.",
+  "zh": "欢迎大家。"
+ },
+ {
+  "seg": 1,
+  "start": 13.972,
+  "end": 16.925,
+  "speaker": "Unknown",
+  "en": "Thank you for coming out to the LLM Rexis track.",
+  "zh": "感谢大家来到 LLM Rexis 分会场。"
+ },
+ {
+  "seg": 2,
+  "start": 19.109,
+  "end": 20.89,
+  "speaker": "Unknown",
+  "en": "I'll be sharing the first talk.",
+  "zh": "我将分享第一场演讲。"
+ },
+ {
+  "seg": 3,
+  "start": 22.09,
+  "end": 26.813,
+  "speaker": "Unknown",
+  "en": "My talk's titled, Tokens and Engagement Out, Training LLM Recommenders.",
+  "zh": "我的演讲题目是「Tokens In, Engagement Out:训练 LLM 推荐系统」。"
+ },
+ {
+  "seg": 4,
+  "start": 27.873,
+  "end": 29.634,
+  "speaker": "Unknown",
+  "en": "And I wanna make two big arguments today.",
+  "zh": "今天我想提出两个主要论点。"
+ },
+ {
+  "seg": 5,
+  "start": 30.154,
+  "end": 37.978,
+  "speaker": "Unknown",
+  "en": "The first is that recommendation systems scale just like LLMs do, and that the field is very early in that scaling curve.",
+  "zh": "第一个是,推荐系统的扩展方式和 LLM 一样,而且这个领域在扩展曲线上还处于非常早期的阶段。"
+ },
+ {
+  "seg": 6,
+  "start": 39.118,
+  "end": 45.221,
+  "speaker": "Unknown",
+  "en": "And the second is that the LLM recommender's gonna be one of the biggest consumer applications of AI.",
+  "zh": "第二个是,LLM 推荐系统将成为 AI 最大的消费级应用之一。"
+ },
+ {
+  "seg": 7,
+  "start": 48.293,
+  "end": 49.454,
+  "speaker": "Unknown",
+  "en": "Okay, so quickly about me.",
+  "zh": "好,快速介绍一下我自己。"
+ },
+ {
+  "seg": 8,
+  "start": 50.074,
+  "end": 52.575,
+  "speaker": "Unknown",
+  "en": "I currently work at Meta on research and product.",
+  "zh": "我目前在 Meta 从事研究和产品工作。"
+ },
+ {
+  "seg": 9,
+  "start": 53.335,
+  "end": 66.219,
+  "speaker": "Unknown",
+  "en": "I lead a team called Meta Recommendations Research, which is this group that's training frontier models, LLMs, and recommenders that power Instagram, Facebook ads, the Meta family of apps.",
+  "zh": "我领导一个叫 Meta Recommendations Research 的团队,这个小组负责训练驱动 Instagram、Facebook 广告以及 Meta 全家桶应用的前沿模型、LLM 和推荐系统。"
+ },
+ {
+  "seg": 10,
+  "start": 67.44,
+  "end": 73.847,
+  "speaker": "Unknown",
+  "en": "Before this I was at Google for a long time working on a lot of the key ML teams including DeepMind and YouTube.",
+  "zh": "在此之前,我在 Google 待了很长时间,参与了许多核心机器学习团队,包括 DeepMind 和 YouTube。"
+ },
+ {
+  "seg": 11,
+  "start": 74.628,
+  "end": 83.599,
+  "speaker": "Unknown",
+  "en": "Last year I gave a talk at AI Engineer called Teaching Gemini to Speak YouTube about two ideas, semantic IDs and generative retrieval.",
+  "zh": "去年我在 AI Engineer 做了一个题为「教 Gemini 说 YouTube」的演讲,讲了两个想法:semantic ID 和生成式检索。"
+ },
+ {
+  "seg": 12,
+  "start": 84.34,
+  "end": 86.742,
+  "speaker": "Unknown",
+  "en": "Which we also wrote two papers about, which I've linked here.",
+  "zh": "我们还为此写了两篇论文,链接在这里。"
+ },
+ {
+  "seg": 13,
+  "start": 87.722,
+  "end": 90.845,
+  "speaker": "Unknown",
+  "en": "It was really fun, and it led to a lot of discussions and collaborations.",
+  "zh": "那次演讲非常有意思,并带来了很多讨论与合作。"
+ },
+ {
+  "seg": 14,
+  "start": 91.765,
+  "end": 106.676,
+  "speaker": "Unknown",
+  "en": "The ideas behind semantic ID and generative retrieval have really taken off in the industry over the last year, and they've moved from more research to now scaled production systems, and I've seen exciting launches and papers from",
+  "zh": "semantic ID 和生成式检索背后的想法在过去一年里真正在业界起飞,它们已经从更多研究走向如今规模化的生产系统,我看到了令人兴奋的发布和论文,来自"
+ },
+ {
+  "seg": 15,
+  "start": 107.476,
+  "end": 114.178,
+  "speaker": "Unknown",
+  "en": "YouTube, Meta, Spotify, DoorDash, across the industry, and we have a couple of examples of that later today.",
+  "zh": "YouTube、Meta、Spotify、DoorDash,遍布整个行业,今天晚些时候我们会有几个例子。"
+ },
+ {
+  "seg": 16,
+  "start": 115.879,
+  "end": 133.984,
+  "speaker": "Unknown",
+  "en": "This year I want to talk about four sections, recommendation scaling curves, a framework of four recommendation paradigm S-curves that we are climbing as an industry, sharing the recommender recipe, and finally this consumer AI app framework.",
+  "zh": "今年我想讲四个部分:推荐扩展曲线、一个由四条推荐范式 S 曲线组成的框架(我们整个行业正在攀登这些曲线)、分享推荐系统配方,最后是这个消费级 AI 应用框架。"
+ },
+ {
+  "seg": 17,
+  "start": 135.762,
+  "end": 136.963,
+  "speaker": "Unknown",
+  "en": "Let's start with scaling curves.",
+  "zh": "我们从扩展曲线开始。"
+ },
+ {
+  "seg": 18,
+  "start": 137.323,
+  "end": 143.267,
+  "speaker": "Unknown",
+  "en": "So I wanted to start with this landmark scaling curve paper from 2020, which feels like a lifetime ago.",
+  "zh": "我想从 2020 年这篇里程碑式的扩展曲线论文开始,那时感觉像一辈子以前。"
+ },
+ {
+  "seg": 19,
+  "start": 143.688,
+  "end": 146.93,
+  "speaker": "Unknown",
+  "en": "This is when Dario was still at OpenAI and Anthropic didn't exist yet.",
+  "zh": "那时候 Dario 还在 OpenAI,Anthropic 还不存在。"
+ },
+ {
+  "seg": 20,
+  "start": 147.67,
+  "end": 151.353,
+  "speaker": "Unknown",
+  "en": "But the core idea that this paper shared is the power law of scaling.",
+  "zh": "但这篇论文分享的核心思想是扩展的幂律。"
+ },
+ {
+  "seg": 21,
+  "start": 151.753,
+  "end": 154.014,
+  "speaker": "Unknown",
+  "en": "As you increase model size,",
+  "zh": "随着你增大模型规模,"
+ },
+ {
+  "seg": 22,
+  "start": 154.875,
+  "end": 162.137,
+  "speaker": "Unknown",
+  "en": "Data, the amount of compute flops trained for model training, the loss falls on this log linear scale.",
+  "zh": "数据、用于模型训练的算力 flops 数量,损失在这个对数线性尺度上下降。"
+ },
+ {
+  "seg": 23,
+  "start": 162.737,
+  "end": 177.781,
+  "speaker": "Unknown",
+  "en": "And this clean and predictable curve is what really set off the race for the AI frontier, because you can forecast what model quality and capability improvements will look like, and this is what's underwriting the massive CapEx investments and the AI build-out today.",
+  "zh": "这条干净且可预测的曲线真正引发了 AI 前沿竞赛,因为你可以预测模型质量和能力的提升会是什么样子,这正是当今支撑巨额 CapEx 投资和 AI 建设浪潮的基础。"
+ },
+ {
+  "seg": 24,
+  "start": 179.402,
+  "end": 183.503,
+  "speaker": "Unknown",
+  "en": "It turns out that recommendation systems follow a very similar scaling law.",
+  "zh": "事实证明,推荐系统遵循一条非常相似的扩展定律。"
+ },
+ {
+  "seg": 25,
+  "start": 184.305,
+  "end": 190.308,
+  "speaker": "Unknown",
+  "en": "In fact, before this wave of LLMs, RECs were the largest production ML models in big tech companies.",
+  "zh": "事实上,在这一波 LLM 浪潮之前,推荐系统是大科技公司里最大的生产级 ML 模型。"
+ },
+ {
+  "seg": 26,
+  "start": 190.869,
+  "end": 196.011,
+  "speaker": "Unknown",
+  "en": "And they're still some of the largest models that are served at a scale of a billion-plus daily active users.",
+  "zh": "它们至今仍是服务于十亿以上日活用户规模的最大模型之列。"
+ },
+ {
+  "seg": 27,
+  "start": 197.532,
+  "end": 200.154,
+  "speaker": "Unknown",
+  "en": "And they follow this similar power loss scaling curve.",
+  "zh": "而且它们遵循类似的幂律扩展曲线。"
+ },
+ {
+  "seg": 28,
+  "start": 200.214,
+  "end": 203.456,
+  "speaker": "Unknown",
+  "en": "On the x-axis, you have data, compute, and model size.",
+  "zh": "在 x 轴上,你有数据、算力和模型规模。"
+ },
+ {
+  "seg": 29,
+  "start": 203.916,
+  "end": 211.06,
+  "speaker": "Unknown",
+  "en": "And on the y-axis, you would see falling loss, or in this chart, an improvement in recommendation quality.",
+  "zh": "在 y 轴上,你会看到下降的损失,或者在这张图中,推荐质量的提升。"
+ },
+ {
+  "seg": 30,
+  "start": 212.101,
+  "end": 224.917,
+  "speaker": "Unknown",
+  "en": "In offline evals, it's net entropy or AUC gains, and then when it's translated to a real production launch, it's engagement impact, revenue impact at some of the biggest consumer app scale.",
+  "zh": "在离线评估中,它是净熵或 AUC 增益,而当它转化为真实的生产上线时,它就是互动影响、收入影响,在一些最大的消费级应用规模上。"
+ },
+ {
+  "seg": 31,
+  "start": 226.345,
+  "end": 233.611,
+  "speaker": "Unknown",
+  "en": "Here's a real example from Meta that demonstrates these power law scaling curves.",
+  "zh": "这里有一个来自 Meta 的真实例子,展示了这些幂律扩展曲线。"
+ },
+ {
+  "seg": 32,
+  "start": 234.332,
+  "end": 240.657,
+  "speaker": "Unknown",
+  "en": "The first is a paper, HSTU from 2024, and the second is a follow-up from this year.",
+  "zh": "第一个是 2024 年的论文 HSTU,第二个是今年的一篇后续工作。"
+ },
+ {
+  "seg": 33,
+  "start": 241.297,
+  "end": 249.064,
+  "speaker": "Unknown",
+  "en": "Both demonstrate that as we scale model size compute and data, we see this clear improvement in offline evals of recommendation quality.",
+  "zh": "两者都表明,随着我们扩展模型规模、算力和数据,我们在推荐质量的离线评估中看到了明显的提升。"
+ },
+ {
+  "seg": 34,
+  "start": 251.458,
+  "end": 253.639,
+  "speaker": "Unknown",
+  "en": "These scaling curves aren't just academic research.",
+  "zh": "这些扩展曲线不仅仅是学术研究。"
+ },
+ {
+  "seg": 35,
+  "start": 253.959,
+  "end": 259.002,
+  "speaker": "Unknown",
+  "en": "They're driving real product impact at scale for some of the biggest consumer businesses in the world.",
+  "zh": "它们正在为世界上一些最大的消费业务带来规模化的真实产品影响。"
+ },
+ {
+  "seg": 36,
+  "start": 259.863,
+  "end": 263.785,
+  "speaker": "Unknown",
+  "en": "Here's a couple of examples I have from Meta's recent earnings reports.",
+  "zh": "这里有几个来自 Meta 近期财报的例子。"
+ },
+ {
+  "seg": 37,
+  "start": 264.565,
+  "end": 268.687,
+  "speaker": "Unknown",
+  "en": "Instagram Reels had a strong quarter, 30% year-on-year watch time.",
+  "zh": "Instagram Reels 经历了一个强劲的季度,观看时长同比增长 30%。"
+ },
+ {
+  "seg": 38,
+  "start": 271.283,
+  "end": 283.253,
+  "speaker": "Unknown",
+  "en": "The optimizations we made to improve the quality of recommendations included simplifying our ranking architecture to enable efficient model scaling and longer interaction histories to identify a person's interests.",
+  "zh": "我们为提升推荐质量所做的优化,包括简化我们的排序架构以实现高效的模型扩展,以及使用更长的互动历史来识别用户的兴趣。"
+ },
+ {
+  "seg": 39,
+  "start": 285.635,
+  "end": 292.42,
+  "speaker": "Unknown",
+  "en": "We doubled the length of user interaction sequences used for training Instagram and increased the richness of each user interaction.",
+  "zh": "我们把用于训练 Instagram 的用户互动序列长度翻了一番,并增加了每次用户互动的丰富度。"
+ },
+ {
+  "seg": 40,
+  "start": 293.741,
+  "end": 298.045,
+  "speaker": "Unknown",
+  "en": "So these are direct parallels to the power loss scaling curves for LLMs.",
+  "zh": "所以这些与 LLM 的幂律扩展曲线是直接的对应。"
+ },
+ {
+  "seg": 41,
+  "start": 299.378,
+  "end": 307.625,
+  "speaker": "Unknown",
+  "en": "And I want to introduce this idea of a flywheel of tokens in engagement out, which is what's powering all of these RECS models scaling.",
+  "zh": "我想引入这个「tokens 进、engagement 出」的飞轮概念,这正是驱动所有这些推荐模型扩展的动力。"
+ },
+ {
+  "seg": 42,
+  "start": 308.086,
+  "end": 315.112,
+  "speaker": "Unknown",
+  "en": "You train a model, you then run inference on it, which is the tokens in, that recommendation model results in better",
+  "zh": "你训练一个模型,然后对它进行推理,这就是 tokens in,那个推荐模型带来更好的"
+ },
+ {
+  "seg": 43,
+  "start": 316.333,
+  "end": 327.659,
+  "speaker": "Unknown",
+  "en": "Content recommendations, it drives consumer engagement, daily active users' time spent, it translates to monetization and ads or subscription, which pays for the next model training run.",
+  "zh": "内容推荐,它驱动消费者互动、日活用户的停留时长,它转化为变现和广告或订阅,这为下一轮模型训练买单。"
+ },
+ {
+  "seg": 44,
+  "start": 328.2,
+  "end": 337.305,
+  "speaker": "Unknown",
+  "en": "And so every step on the scaling curve is one loop around this flywheel, and a lot of consumer apps are spinning this core flywheel at the heart of their business.",
+  "zh": "所以扩展曲线上的每一步,都是绕这个飞轮的一圈,很多消费级应用都在围绕其业务核心转动这个核心飞轮。"
+ },
+ {
+  "seg": 45,
+  "start": 339.188,
+  "end": 341.37,
+  "speaker": "Unknown",
+  "en": "So we have a long way to scale these recommender systems.",
+  "zh": "所以我们扩展这些推荐系统还有很长的路要走。"
+ },
+ {
+  "seg": 46,
+  "start": 341.47,
+  "end": 345.612,
+  "speaker": "Unknown",
+  "en": "I want to talk about the four paradigms that I see the industry progressing through.",
+  "zh": "我想谈谈我所看到的这个行业正在经历的四个范式。"
+ },
+ {
+  "seg": 47,
+  "start": 346.313,
+  "end": 354.519,
+  "speaker": "Unknown",
+  "en": "The first S-curve was more traditional Rexys, where this S-curve focused more on feature engineering and user and content embeddings.",
+  "zh": "第一条 S 曲线是更传统的 Rexys,这条 S 曲线更多聚焦于特征工程以及用户和内容嵌入。"
+ },
+ {
+  "seg": 48,
+  "start": 355.319,
+  "end": 357.741,
+  "speaker": "Unknown",
+  "en": "Most production systems are still sitting on this curve.",
+  "zh": "大多数生产系统仍然停留在这条曲线上。"
+ },
+ {
+  "seg": 49,
+  "start": 357.781,
+  "end": 363.165,
+  "speaker": "Unknown",
+  "en": "They're running some type of two-tower, sparse network, rankers, scaling the embedding models.",
+  "zh": "它们运行某种类型的双塔、稀疏网络、排序器,扩展嵌入模型。"
+ },
+ {
+  "seg": 50,
+  "start": 364.287,
+  "end": 375.792,
+  "speaker": "Unknown",
+  "en": "I don't think this curve is going to go away, but model development here will be accelerated with auto-research, and things like feature engineering will be handled by agents rather than real ML engineers.",
+  "zh": "我不认为这条曲线会消失,但这里的模型开发会因为自动研究而加速,像特征工程这类事情将由智能体而不是真正的 ML 工程师来处理。"
+ },
+ {
+  "seg": 51,
+  "start": 376.833,
+  "end": 382.876,
+  "speaker": "Unknown",
+  "en": "The next curve is kind of LLM-inspired models, where you are scaling models ideally end-to-end.",
+  "zh": "下一条曲线是受 LLM 启发的模型,理想情况下你是端到端地扩展模型。"
+ },
+ {
+  "seg": 52,
+  "start": 384.016,
+  "end": 386.858,
+  "speaker": "Unknown",
+  "en": "HSTU and one-rec papers are examples in this paradigm.",
+  "zh": "HSTU 和 one-rec 论文是这一范式的例子。"
+ },
+ {
+  "seg": 53,
+  "start": 387.398,
+  "end": 393.681,
+  "speaker": "Unknown",
+  "en": "I think this is where the leading recommender systems in the industry are largely operating today.",
+  "zh": "我认为这是当今业界领先的推荐系统大都在运作的地方。"
+ },
+ {
+  "seg": 54,
+  "start": 394.878,
+  "end": 405.873,
+  "speaker": "Unknown",
+  "en": "I think the next S-curve will be this paradigm of LLM native where you adapt a base model that understands and can reason and adapt it for recommendation tasks.",
+  "zh": "我认为下一条 S 曲线将是这种 LLM 原生的范式,即你适配一个能理解、能推理的基础模型,把它适配到推荐任务上。"
+ },
+ {
+  "seg": 55,
+  "start": 406.274,
+  "end": 408.997,
+  "speaker": "Unknown",
+  "en": "The Tiger and Plum papers are some examples of this paradigm.",
+  "zh": "Tiger 和 Plum 论文是这一范式的一些例子。"
+ },
+ {
+  "seg": 56,
+  "start": 410.224,
+  "end": 417.566,
+  "speaker": "Unknown",
+  "en": "And I think the final paradigm that I start to see emerging is agentic, where LLMs will start to orchestrate REC systems in a loop.",
+  "zh": "而我开始看到 emerging 的最后一个范式是 agentic,LLM 将开始在一个循环中编排 REC 系统。"
+ },
+ {
+  "seg": 57,
+  "start": 418.387,
+  "end": 420.527,
+  "speaker": "Unknown",
+  "en": "I think there's a parallel here with coding agents.",
+  "zh": "我认为这里与编码智能体有相似之处。"
+ },
+ {
+  "seg": 58,
+  "start": 420.948,
+  "end": 433.612,
+  "speaker": "Unknown",
+  "en": "So the LLM-native models are improving the core capabilities of the model, going from Opus 4.5 to 4.8, versus the agentic curve will be improving the coding harness behind Claude Code or Codex.",
+  "zh": "LLM 原生模型是在提升模型的核心能力,从 Opus 4.5 到 4.8,而 agentic 曲线是在改进 Claude Code 或 Codex 背后的编码 harness。"
+ },
+ {
+  "seg": 59,
+  "start": 434.89,
+  "end": 446.002,
+  "speaker": "Unknown",
+  "en": "And so instead of just having a single forward pass through the recommender, you can imagine a loop where agents plan, retrieve, rank, and then critique the recommendations.",
+  "zh": "所以不是只对推荐器做单次前向传递,你可以想象一个循环,智能体在其中规划、检索、排序,然后批评这些推荐。"
+ },
+ {
+  "seg": 60,
+  "start": 446.342,
+  "end": 450.747,
+  "speaker": "Unknown",
+  "en": "They can refine them by calling models again and finally deliver the recommendations.",
+  "zh": "它们可以通过再次调用模型来细化这些推荐,最终交付推荐结果。"
+ },
+ {
+  "seg": 61,
+  "start": 451.127,
+  "end": 453.389,
+  "speaker": "Unknown",
+  "en": "This, I think, is an interesting area of research now.",
+  "zh": "我认为这是现在一个有趣的研究领域。"
+ },
+ {
+  "seg": 62,
+  "start": 454.931,
+  "end": 456.252,
+  "speaker": "Unknown",
+  "en": "Let me jump into...",
+  "zh": "让我跳入……"
+ },
+ {
+  "seg": 63,
+  "start": 457.654,
+  "end": 461.457,
+  "speaker": "Unknown",
+  "en": "So here's kind of the framework of all the four RECS paradigms.",
+  "zh": "这是所有四个 RECS 范式的框架。"
+ },
+ {
+  "seg": 64,
+  "start": 461.878,
+  "end": 467.162,
+  "speaker": "Unknown",
+  "en": "I think companies are scaling across each of these curves in parallel.",
+  "zh": "我认为公司们是在每一条曲线上并行扩展的。"
+ },
+ {
+  "seg": 65,
+  "start": 468.162,
+  "end": 480.192,
+  "speaker": "Unknown",
+  "en": "Most of recommendations, I think, lives in LLM-inspired today and is trying to graduate into LLM-native, but then a lot of companies are still using traditional models and climbing that S-curve.",
+  "zh": "我认为大多数推荐今天处于 LLM-inspired 阶段,正试图毕业到 LLM-native,但同时还有很多公司仍在使用传统模型并攀登那条 S 曲线。"
+ },
+ {
+  "seg": 66,
+  "start": 482.46,
+  "end": 487.987,
+  "speaker": "Unknown",
+  "en": "Let me shift gears a bit to share the recipe of how to actually build an LLM recommender.",
+  "zh": "让我换个话题,分享一下如何真正构建一个 LLM 推荐器的配方。"
+ },
+ {
+  "seg": 67,
+  "start": 490.651,
+  "end": 491.652,
+  "speaker": "Unknown",
+  "en": "I think it's pretty simple.",
+  "zh": "我认为这相当简单。"
+ },
+ {
+  "seg": 68,
+  "start": 491.913,
+  "end": 493.034,
+  "speaker": "Unknown",
+  "en": "It's three steps.",
+  "zh": "它是三个步骤。"
+ },
+ {
+  "seg": 69,
+  "start": 494.035,
+  "end": 497.62,
+  "speaker": "Unknown",
+  "en": "You start with tokenizing your content and creating a language for your domain.",
+  "zh": "你从把你的内容 token 化、为你的领域创建一门语言开始。"
+ },
+ {
+  "seg": 70,
+  "start": 498.905,
+  "end": 506.611,
+  "speaker": "Unknown",
+  "en": "Then you want to adapt the LLM so that it understands both English and your domain language and becomes this bilingual model.",
+  "zh": "然后你要适配这个 LLM,让它既懂英语又懂你的领域语言,成为一个双语模型。"
+ },
+ {
+  "seg": 71,
+  "start": 507.611,
+  "end": 515.417,
+  "speaker": "Unknown",
+  "en": "Finally, you can prompt this model with user information, and it will directly decode recommendations from your content corpus.",
+  "zh": "最后,你可以用用户信息 prompt 这个模型,它会直接从你的内容语料库中解码出推荐。"
+ },
+ {
+  "seg": 72,
+  "start": 516.797,
+  "end": 517.658,
+  "speaker": "Unknown",
+  "en": "Let's go a bit deeper.",
+  "zh": "让我们再深入一点。"
+ },
+ {
+  "seg": 73,
+  "start": 518.098,
+  "end": 521.582,
+  "speaker": "Unknown",
+  "en": "This is the LLM recommender as a five-layer cake.",
+  "zh": "这就是作为一个五层蛋糕的 LLM 推荐器。"
+ },
+ {
+  "seg": 74,
+  "start": 521.602,
+  "end": 522.583,
+  "speaker": "Unknown",
+  "en": "We'll start at the bottom.",
+  "zh": "我们从最底层开始。"
+ },
+ {
+  "seg": 75,
+  "start": 523.824,
+  "end": 530.731,
+  "speaker": "Unknown",
+  "en": "That's semantic ID where you're converting your content corpus into tokens that the LLM can understand and reason over.",
+  "zh": "那是 semantic ID,你把你的内容语料库转换成 LLM 能够理解并推理的 token。"
+ },
+ {
+  "seg": 76,
+  "start": 531.391,
+  "end": 534.835,
+  "speaker": "Unknown",
+  "en": "Then you have kind of the base LLM foundation model.",
+  "zh": "然后你有基础 LLM 基础模型。"
+ },
+ {
+  "seg": 77,
+  "start": 534.895,
+  "end": 539.6,
+  "speaker": "Unknown",
+  "en": "This can be an open weights model or an internal first-party model.",
+  "zh": "这可以是一个开放权重的模型或一个内部第一方模型。"
+ },
+ {
+  "seg": 78,
+  "start": 540.327,
+  "end": 541.848,
+  "speaker": "Unknown",
+  "en": "Then the core training stages.",
+  "zh": "然后是核心训练阶段。"
+ },
+ {
+  "seg": 79,
+  "start": 541.988,
+  "end": 545.911,
+  "speaker": "Unknown",
+  "en": "Pre-training is around bridging English and these recommender tokens.",
+  "zh": "预训练是关于在英语和这些推荐器 token 之间架起桥梁。"
+ },
+ {
+  "seg": 80,
+  "start": 546.472,
+  "end": 556.26,
+  "speaker": "Unknown",
+  "en": "Post-training is about steering the model towards recommendation tasks, like predicting engagement or reasoning over recommendations.",
+  "zh": "后训练是关于把模型引导向推荐任务,比如预测互动或在推荐上进行推理。"
+ },
+ {
+  "seg": 81,
+  "start": 557.452,
+  "end": 563.24,
+  "speaker": "Unknown",
+  "en": "And then finally, you can just do some light surface-specific fine-tuning to deploy it on a product surface.",
+  "zh": "最后,你可以做一些轻量的面向具体表面的微调,把它部署到一个产品表面上。"
+ },
+ {
+  "seg": 82,
+  "start": 564.081,
+  "end": 574.635,
+  "speaker": "Unknown",
+  "en": "The exciting thing about this paradigm is most of the compute is shared across all of the product surfaces, so you don't have to train individual models from scratch for every product surface.",
+  "zh": "这个范式令人兴奋的地方在于,大部分计算是在所有产品表面之间共享的,所以你不必为每个产品表面从头训练单独的模型。"
+ },
+ {
+  "seg": 83,
+  "start": 576.18,
+  "end": 577.78,
+  "speaker": "Unknown",
+  "en": "I'll go a bit deeper into each stage.",
+  "zh": "我会对每个阶段再深入一些。"
+ },
+ {
+  "seg": 84,
+  "start": 578.5,
+  "end": 581.641,
+  "speaker": "Unknown",
+  "en": "For semantic IDs, I think this has seen incredible adoption.",
+  "zh": "对于 semantic ID,我认为它已经获得了令人难以置信的采纳。"
+ },
+ {
+  "seg": 85,
+  "start": 581.721,
+  "end": 588.302,
+  "speaker": "Unknown",
+  "en": "A lot of teams are just replacing their hash ID with the SID in traditional models and seeing good impact.",
+  "zh": "很多团队只是把传统模型里的 hash ID 替换成 SID,就看到了不错的效果。"
+ },
+ {
+  "seg": 86,
+  "start": 588.923,
+  "end": 591.423,
+  "speaker": "Unknown",
+  "en": "I think there's two big reasons to tokenize content.",
+  "zh": "我认为把内容 token 化有两大原因。"
+ },
+ {
+  "seg": 87,
+  "start": 591.923,
+  "end": 600.405,
+  "speaker": "Unknown",
+  "en": "The first is it gives you the stable representation for models to learn over rather than a constantly shifting hash that the model can only memorize.",
+  "zh": "第一,它给你一个稳定的表示供模型去学习,而不是一个不断变化的、模型只能死记硬背的 hash。"
+ },
+ {
+  "seg": 88,
+  "start": 601.225,
+  "end": 602.446,
+  "speaker": "Unknown",
+  "en": "And the second is compression.",
+  "zh": "第二是压缩。"
+ },
+ {
+  "seg": 89,
+  "start": 603.027,
+  "end": 616.922,
+  "speaker": "Unknown",
+  "en": "You want to be reasoning over these long sequences of user interactions, and if you don't compress the content, for example, a three-minute Instagram Reel video would be 10,000 tokens, and it will just fill up the context window too quickly.",
+  "zh": "你要对这些很长的用户交互序列进行推理,如果你不压缩内容,比如,一个三分钟的 Instagram Reel 视频会是 10,000 个 token,它会太快地把上下文窗口填满。"
+ },
+ {
+  "seg": 90,
+  "start": 617.402,
+  "end": 620.505,
+  "speaker": "Unknown",
+  "en": "So you have to compress it into about 10 tokens.",
+  "zh": "所以你必须把它压缩到大约 10 个 token。"
+ },
+ {
+  "seg": 91,
+  "start": 621.326,
+  "end": 623.947,
+  "speaker": "Unknown",
+  "en": "And so here I have some examples of Instagram reels about tennis.",
+  "zh": "这里我有一些关于网球的 Instagram reels 的例子。"
+ },
+ {
+  "seg": 92,
+  "start": 624.347,
+  "end": 630.929,
+  "speaker": "Unknown",
+  "en": "You can see that the semantic token shares the prefix of the first three tokens because they're very similar reels.",
+  "zh": "你可以看到,语义 token 共享前三个 token 的前缀,因为它们是非常相似的 reels。"
+ },
+ {
+  "seg": 93,
+  "start": 630.949,
+  "end": 640.452,
+  "speaker": "Unknown",
+  "en": "You can imagine the first token representing sports and the second two tokens representing tennis and then the final token making these videos individual.",
+  "zh": "你可以想象第一个 token 代表体育,后两个 token 代表网球,然后最后一个 token 让这些视频各不相同。"
+ },
+ {
+  "seg": 94,
+  "start": 642.579,
+  "end": 649.224,
+  "speaker": "Unknown",
+  "en": "Once you have a semantic ID, you can train it to understand both English and semantic ID.",
+  "zh": "一旦你有了 semantic ID,你就可以训练它同时理解英语和 semantic ID。"
+ },
+ {
+  "seg": 95,
+  "start": 649.825,
+  "end": 662.575,
+  "speaker": "Unknown",
+  "en": "And so the task I have on the left for pre-training here is an example of where you prompt with a video with semantic ID ABC has the description blank, and the output is a shot that was instantly iconic from Wimbledon.",
+  "zh": "我在左边放的预训练任务是一个例子,你 prompt 一个视频,semantic ID 为 ABC 的视频的描述是空白的,而输出是「一个在温布尔登瞬间成为标志性画面的一击」。"
+ },
+ {
+  "seg": 96,
+  "start": 663.176,
+  "end": 669.421,
+  "speaker": "Unknown",
+  "en": "Here you're teaching the model to connect these semantic tokens with synthetic English natural language text.",
+  "zh": "这里你是在教模型把这些语义 token 与合成的英语自然语言文本联系起来。"
+ },
+ {
+  "seg": 97,
+  "start": 669.961,
+  "end": 674.685,
+  "speaker": "Unknown",
+  "en": "The example on the right is about reasoning over sequences of semantic IDs.",
+  "zh": "右边的例子是关于对 semantic ID 序列进行推理的。"
+ },
+ {
+  "seg": 98,
+  "start": 675.206,
+  "end": 686.536,
+  "speaker": "Unknown",
+  "en": "And so in a user's interaction history, you can mask some parts of the sequence, and the model learns to predict them and understand what videos are watched together in sequence.",
+  "zh": "在用户的交互历史中,你可以把序列的某些部分遮住,模型学会预测它们,并理解哪些视频是在序列中被一起观看的。"
+ },
+ {
+  "seg": 99,
+  "start": 687.859,
+  "end": 692.04,
+  "speaker": "Unknown",
+  "en": "Here I have an example of post-training where we're teaching the model how to re-rank content.",
+  "zh": "这里我有一个后训练的例子,我们在教模型如何对内容进行重排序。"
+ },
+ {
+  "seg": 100,
+  "start": 692.461,
+  "end": 702.564,
+  "speaker": "Unknown",
+  "en": "So the input is a bunch of user information and 30 candidate videos that are then ranked to be the top five recommendations from this LLM ranker.",
+  "zh": "输入是一堆用户信息和 30 个候选视频，然后由这个 LLM 排序器从中排出前五条推荐。"
+ },
+ {
+  "seg": 101,
+  "start": 703.304,
+  "end": 704.885,
+  "speaker": "Unknown",
+  "en": "What's really interesting here is that",
+  "zh": "这里真正有意思的是"
+ },
+ {
+  "seg": 102,
+  "start": 705.845,
+  "end": 717.696,
+  "speaker": "Unknown",
+  "en": "You can see the chain of thought reasoning of this model, and because this model knows both English and recommendations, you can simply just inspect the model and understand why it made the decisions that it did.",
+  "zh": "你可以看到这个模型的思维链推理，因为这个模型既懂英文又懂推荐，你只需直接检查模型，就能理解它为什么做出那样的决策。"
+ },
+ {
+  "seg": 103,
+  "start": 718.297,
+  "end": 725.183,
+  "speaker": "Unknown",
+  "en": "In this example, the model understands the user's topic interests like comedy, food, DIY, wellness.",
+  "zh": "在这个例子里，模型理解用户的主题兴趣，比如喜剧、美食、DIY、健康。"
+ },
+ {
+  "seg": 104,
+  "start": 725.844,
+  "end": 731.129,
+  "speaker": "Unknown",
+  "en": "It understands the engagement style and what creators this user has an affinity towards.",
+  "zh": "它理解互动风格，以及这个用户偏好哪些创作者。"
+ },
+ {
+  "seg": 105,
+  "start": 732.652,
+  "end": 736.516,
+  "speaker": "Unknown",
+  "en": "And then it re-ranks the content based on this chain of thought reasoning.",
+  "zh": "然后它基于这条思维链推理对内容进行重新排序。"
+ },
+ {
+  "seg": 106,
+  "start": 738.878,
+  "end": 751.429,
+  "speaker": "Unknown",
+  "en": "I think this is super exciting because once you have a model that can understand both English and recommendations, it opens up new product surfaces and new experiences where users can steer their feed.",
+  "zh": "我觉得这非常令人兴奋，因为一旦你拥有一个既懂英文又懂推荐的模型，它就会开启新的产品面和新的体验，让用户可以引导自己的信息流。"
+ },
+ {
+  "seg": 107,
+  "start": 752.09,
+  "end": 755.453,
+  "speaker": "Unknown",
+  "en": "Here's an example from your algorithm on Instagram.",
+  "zh": "这里有一个来自 Instagram 上「你的算法」功能的例子。"
+ },
+ {
+  "seg": 108,
+  "start": 756.033,
+  "end": 760.296,
+  "speaker": "Unknown",
+  "en": "where users can talk to the algorithm while they're consuming content.",
+  "zh": "用户可以在消费内容的同时与算法对话。"
+ },
+ {
+  "seg": 109,
+  "start": 760.756,
+  "end": 773.565,
+  "speaker": "Unknown",
+  "en": "It's a screenshot from scrolling through Reels, or when you click in, you can understand what the Instagram algorithm thinks about you and your interests, and then you can add or remove interests and talk to it in natural language.",
+  "zh": "这是一张刷 Reels 时的截图，或者你点进去，就能了解 Instagram 算法如何看待你和你的兴趣，然后你可以添加或删除兴趣，并用自然语言与它对话。"
+ },
+ {
+  "seg": 110,
+  "start": 774.325,
+  "end": 785.929,
+  "speaker": "Unknown",
+  "en": "And so we're gonna see this shift, I think, from black box recommendations algorithms to giving users more control over their algorithm and algorithms becoming more interactive and steerable.",
+  "zh": "所以我们会看到这个转变，我认为，是从黑盒推荐算法转向给用户更多对算法的控制权，让算法变得更可交互、更可引导。"
+ },
+ {
+  "seg": 111,
+  "start": 787.09,
+  "end": 796.754,
+  "speaker": "Unknown",
+  "en": "I'm really excited that users can direct it towards their own goals that's expressed in language rather than just likes or comments.",
+  "zh": "我非常兴奋的是，用户可以用语言表达自己的目标来引导算法，而不仅仅是点赞或评论。"
+ },
+ {
+  "seg": 112,
+  "start": 797.054,
+  "end": 802.636,
+  "speaker": "Unknown",
+  "en": "And I think this foundation model can also start to explain its recommendations.",
+  "zh": "而且我认为这个基础模型还能开始解释它的推荐。"
+ },
+ {
+  "seg": 113,
+  "start": 804.013,
+  "end": 820.778,
+  "speaker": "Unknown",
+  "en": "And so for this example, I've added an interest that I want to follow the FIFA World Cup at this time, and the model would get both my user history and this new input, and then be able to decode recommendations that are personalized to me, like this free kick that Messi scored recently.",
+  "zh": "在这个例子里，我添加了一个兴趣，表示我想在那个时段关注 FIFA 世界杯，模型会同时拿到我的用户历史和这个新输入，然后能够解码出为我个性化的推荐，比如梅西最近踢进的那个任意球。"
+ },
+ {
+  "seg": 114,
+  "start": 824.33,
+  "end": 831.555,
+  "speaker": "Unknown",
+  "en": "I think these interactive recommenders are gonna be a really interesting new product surface, and we're seeing this across the industry.",
+  "zh": "我认为这些可交互的推荐系统会成为一个非常有趣的新产品面，而且我们在整个行业都能看到这一趋势。"
+ },
+ {
+  "seg": 115,
+  "start": 832.116,
+  "end": 840.862,
+  "speaker": "Unknown",
+  "en": "We have some examples of prompted playlists from Spotify, custom feeds from YouTube, Ask DoorDash, and we'll be hearing more from speakers about these.",
+  "zh": "我们有一些例子，比如 Spotify 的提示词歌单、YouTube 的自定义信息流、Ask DoorDash，后面还会有更多演讲者谈到这些。"
+ },
+ {
+  "seg": 116,
+  "start": 844.568,
+  "end": 849.633,
+  "speaker": "Unknown",
+  "en": "Finally, I want to talk about kind of the framework of tokens in engagement out.",
+  "zh": "最后，我想谈谈「token 进、互动出」的框架。"
+ },
+ {
+  "seg": 117,
+  "start": 850.234,
+  "end": 865.449,
+  "speaker": "Unknown",
+  "en": "This flywheel that I started with of model training, inference, consumer engagement, and then monetization, this is actually the same flywheel that's shared by content feeds and the AI chat apps.",
+  "zh": "我一开始讲的那个飞轮——模型训练、推理、消费者互动、然后变现——实际上和内容信息流以及 AI 聊天应用共享的是同一个飞轮。"
+ },
+ {
+  "seg": 118,
+  "start": 866.555,
+  "end": 869.738,
+  "speaker": "Unknown",
+  "en": "And this is a lens that you can use to evaluate any consumer app.",
+  "zh": "这是一个你可以用来评估任何消费者应用的透镜。"
+ },
+ {
+  "seg": 119,
+  "start": 870.338,
+  "end": 877.904,
+  "speaker": "Unknown",
+  "en": "What will make an app successful on the training ROI side is how well can it translate compute into a frontier model.",
+  "zh": "一个应用在训练 ROI 一侧能否成功，取决于它能把算力转化为前沿模型的能力有多好。"
+ },
+ {
+  "seg": 120,
+  "start": 878.625,
+  "end": 884.97,
+  "speaker": "Unknown",
+  "en": "On the inference side, how well can the inference tokens translate into engagement and then monetization.",
+  "zh": "在推理一侧，则是推理 token 能多好地转化为互动，进而转化为变现。"
+ },
+ {
+  "seg": 121,
+  "start": 886.177,
+  "end": 896.721,
+  "speaker": "Unknown",
+  "en": "And so if you try to compare content feeds and AI chat apps, I think that LLM recommenders are actually structurally more token efficient than the AI chat.",
+  "zh": "所以如果你尝试比较内容信息流和 AI 聊天应用，我认为 LLM 推荐器在结构上其实比 AI 聊天更省 token。"
+ },
+ {
+  "seg": 122,
+  "start": 897.522,
+  "end": 901.583,
+  "speaker": "Unknown",
+  "en": "So on the left you have content feeds like Instagram, Facebook, TikTok, and YouTube.",
+  "zh": "左边是内容信息流，比如 Instagram、Facebook、TikTok 和 YouTube。"
+ },
+ {
+  "seg": 123,
+  "start": 901.983,
+  "end": 905.965,
+  "speaker": "Unknown",
+  "en": "On the right you have the big AI chat apps like Gemini, ChatGPT, and Claude.",
+  "zh": "右边是大型 AI 聊天应用，比如 Gemini、ChatGPT 和 Claude。"
+ },
+ {
+  "seg": 124,
+  "start": 907.49,
+  "end": 912.633,
+  "speaker": "Unknown",
+  "en": "Content feeds are currently using models that are around one to 10 billion active parameters.",
+  "zh": "内容信息流目前使用的模型大约是 10 亿到 100 亿活跃参数。"
+ },
+ {
+  "seg": 125,
+  "start": 913.113,
+  "end": 917.175,
+  "speaker": "Unknown",
+  "en": "The chat apps are serving much larger models, 10 to 100 billion active parameters.",
+  "zh": "聊天应用则服务于大得多的模型，100 亿到 1000 亿活跃参数。"
+ },
+ {
+  "seg": 126,
+  "start": 918.536,
+  "end": 922.198,
+  "speaker": "Unknown",
+  "en": "The output for the content feed is a semantic ID token.",
+  "zh": "内容信息流的输出是一个语义 ID token。"
+ },
+ {
+  "seg": 127,
+  "start": 922.758,
+  "end": 930.144,
+  "speaker": "Unknown",
+  "en": "Which is a pointer or an address to existing content because the content supplied on these content feeds is uploaded by creators.",
+  "zh": "这是一个指向已有内容的指针或地址，因为这些内容信息流上供应的内容是由创作者上传的。"
+ },
+ {
+  "seg": 128,
+  "start": 930.484,
+  "end": 937.869,
+  "speaker": "Unknown",
+  "en": "There's a very healthy creator economy and so the supply of content is effectively free or it's uploaded by creators.",
+  "zh": "那里有一个非常健康的创作者经济，所以内容供应实际上是免费的，或者说是由创作者上传的。"
+ },
+ {
+  "seg": 129,
+  "start": 938.69,
+  "end": 946.315,
+  "speaker": "Unknown",
+  "en": "For the AI chat apps, they have to decode every token of content themselves and the amount of",
+  "zh": "而 AI 聊天应用，它们必须自己解码每一个内容 token，而且"
+ },
+ {
+  "seg": 130,
+  "start": 947.156,
+  "end": 953.292,
+  "speaker": "Unknown",
+  "en": "tokens output in every turn of an LLM chat interaction is a few thousand tokens.",
+  "zh": "LLM 聊天交互每一轮输出的 token 量是几千个 token。"
+ },
+ {
+  "seg": 131,
+  "start": 955.705,
+  "end": 960.567,
+  "speaker": "Unknown",
+  "en": "And the big difference here is that every token has to be manufactured by the app at inference time.",
+  "zh": "最大的区别在于，每个 token 都必须在推理时由应用自己「制造」出来。"
+ },
+ {
+  "seg": 132,
+  "start": 961.328,
+  "end": 982.838,
+  "speaker": "Unknown",
+  "en": "And so what that means is if you compare these two apps on how much inference cost in compute is spent to generate an hour of consumer engagement, there's a huge structural gap where content feeds are significantly cheaper, up to 100 times or more cheaper than AI chat apps because they're decoding pointers to content rather than content itself.",
+  "zh": "这意味着，如果你比较这两种应用生成一小时消费者互动所花费的推理算力成本，存在一个巨大的结构性差距：内容信息流要便宜得多，比 AI 聊天应用便宜高达 100 倍或更多，因为它们解码的是指向内容的指针，而不是内容本身。"
+ },
+ {
+  "seg": 133,
+  "start": 985.803,
+  "end": 992.949,
+  "speaker": "Unknown",
+  "en": "Finally, I want to kind of end with why I think LMREXIS is one of the most significant consumer AI applications.",
+  "zh": "最后，我想以「为什么我认为 LMREXIS 是最重要的消费级 AI 应用之一」来收尾。"
+ },
+ {
+  "seg": 134,
+  "start": 993.73,
+  "end": 1000.877,
+  "speaker": "Unknown",
+  "en": "If you look at the top apps by daily active users, these are the top 10 apps, 4 out of 10 of them are content feeds.",
+  "zh": "如果你按日活跃用户看排在最前面的应用，这是前十名应用，其中十分之四是内容信息流。"
+ },
+ {
+  "seg": 135,
+  "start": 1001.943,
+  "end": 1007.166,
+  "speaker": "Unknown",
+  "en": "And so this is a really significant consumer application.",
+  "zh": "所以这是一个非常重要的消费级应用。"
+ },
+ {
+  "seg": 136,
+  "start": 1008.066,
+  "end": 1017.411,
+  "speaker": "Unknown",
+  "en": "If you look at the content feeds, almost all of the consumer app growth on both the engagement and monetization side is driven by the recommender and ads models.",
+  "zh": "如果你看内容信息流，消费级应用在互动和变现两端的增长几乎全部由推荐器和广告模型驱动。"
+ },
+ {
+  "seg": 137,
+  "start": 1018.031,
+  "end": 1021.613,
+  "speaker": "Unknown",
+  "en": "And these are going to be entirely transformed by LLM recommenders.",
+  "zh": "而这些都将被 LLM 推荐器彻底改变。"
+ },
+ {
+  "seg": 138,
+  "start": 1022.969,
+  "end": 1027.831,
+  "speaker": "Unknown",
+  "en": "It's a very large and very token efficient application of AI for consumer apps.",
+  "zh": "这是 AI 在消费级应用上非常大、且非常省 token 的一种应用。"
+ },
+ {
+  "seg": 139,
+  "start": 1028.491,
+  "end": 1041.095,
+  "speaker": "Unknown",
+  "en": "We're going to see a lot of new product experiences come through with steerable and interactive recommendations, explanation of recommendations, and just putting more users in control of their experience on these apps.",
+  "zh": "我们会看到很多新的产品体验涌现：可引导、可交互的推荐，推荐结果的解释，以及让更多用户掌控自己在这类应用上的体验。"
+ },
+ {
+  "seg": 140,
+  "start": 1042.338,
+  "end": 1048.986,
+  "speaker": "Unknown",
+  "en": "I think we're going to see some really exciting research on consumer agents and recommendation agents that come out over the next year or so.",
+  "zh": "我认为在未来一年左右，我们会看到一些非常令人兴奋的关于消费级智能体和推荐智能体的研究成果。"
+ },
+ {
+  "seg": 141,
+  "start": 1049.947,
+  "end": 1058.777,
+  "speaker": "Unknown",
+  "en": "And so this is why I think this is super exciting area of both research and product at this intersection of LLM and recommendations.",
+  "zh": "这就是为什么我认为，在 LLM 与推荐的这个交叉点上，是一个在研究和产品两方面都极其令人兴奋的领域。"
+ },
+ {
+  "seg": 142,
+  "start": 1061.16,
+  "end": 1061.541,
+  "speaker": "Unknown",
+  "en": "That's all.",
+  "zh": "就这些。"
+ },
+ {
+  "seg": 143,
+  "start": 1061.941,
+  "end": 1062.522,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 144,
+  "start": 1070.127,
+  "end": 1070.789,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

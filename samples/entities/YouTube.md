@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>YouTube</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="YouTube">YO</div><div class="pi"><h1 class="pt">YouTube</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="YouTube">YO</div><div class="pi"><h1 class="pt">YouTube</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,24 +16,26 @@ unlisted: true
 - **[[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]]**(04:10起):本集提到 Grant 在 YouTube 工作了很长时间，做了视频方面的经历
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(41:17起):Liam 给出的聚焦建议：枪口抵头就押 YouTube——它是原生搜索渠道、由 Google 拥有、会长期存在。
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(05:20起):本集举例的主要视频来源：约五十亿个视频，第一人称开门视频可能有数百万小时，行车记录仪素材有数亿小时。
+- **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(01:07起):嘉宾此前在 Google 参与的核心 ML 团队之一;本集把 YouTube 列为 semantic ID / 生成式检索已规模化的公司,并举其「自定义信息流」为可引导推荐的行业例子。
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为被讨论公司(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念(提及)
+- [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[LLM]] · [[Lenny]] · [[智能体]] · [[AEO]] · [[SEO]] · [[citation]] · [[ChatGPT]] · [[Google]] · [[Reddit]] · [[Ethan Smith]]
+[[LLM]] · [[ChatGPT]] · [[Lenny]] · [[智能体]] · [[Meta]] · [[AEO]] · [[SEO]] · [[citation]] · [[Google]] · [[Reddit]]
 
-<script type="application/json" class="pd-epn">{"LLM":48,"Lenny":68,"智能体":356,"AEO":5,"SEO":7,"citation":2,"ChatGPT":82,"Google":50,"Reddit":7,"Ethan Smith":1}</script>
+<script type="application/json" class="pd-epn">{"LLM":49,"ChatGPT":83,"Lenny":68,"智能体":358,"Meta":37,"AEO":5,"SEO":7,"citation":2,"Google":50,"Reddit":7}</script>
 
 <script>
 (function(){

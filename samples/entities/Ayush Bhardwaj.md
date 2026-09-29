@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":356,"应用垂直 AI":1,"专有数据":2,"可观测性":33,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":9,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"应用垂直 AI":1,"专有数据":2,"可观测性":34,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":9,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":17}</script>
 
 <script>
 (function(){

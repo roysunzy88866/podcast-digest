@@ -172,8 +172,8 @@ Rene 认同机器人领域还早——任务泛化、上下文学习的演示很
 **换个口味**
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同概念:推理 (inference)、出口管制 (export controls)</span>
+- [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:Meta · 同概念:推理 (inference)</span>
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|从看护智能体到认知投降：工程师该守住什么]]<span class="pd-rz">同概念:验证 (verification)</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同概念:验证 (verification)</span>
 
 </div>
 </div>

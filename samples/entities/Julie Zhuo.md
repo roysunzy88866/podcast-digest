@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":356,"构建者":3,"可观测性":33,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":82,"Cursor":71,"OpenAI":140}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":358,"构建者":3,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":83,"Cursor":72,"OpenAI":140}</script>
 
 <script>
 (function(){

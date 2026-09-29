@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[模拟器]] · [[世界模型]] · [[Dmitri Dolgov]] · [[Sam Charrington]] · [[Merve Noyan]] · [[Waymo]] · [[Justin Johnson]] · [[视觉语言模型]] · [[Waymo driver]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"模拟器":3,"世界模型":10,"Dmitri Dolgov":1,"Sam Charrington":4,"Merve Noyan":1,"Waymo":14,"Justin Johnson":2,"视觉语言模型":1,"Waymo driver":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"模拟器":3,"世界模型":10,"Dmitri Dolgov":1,"Sam Charrington":4,"Merve Noyan":1,"Waymo":14,"Justin Johnson":2,"视觉语言模型":1,"Waymo driver":1}</script>
 
 <script>
 (function(){

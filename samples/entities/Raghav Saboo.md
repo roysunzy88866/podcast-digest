@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":9,"LLM":48,"语义理解":1,"分级相关性":1,"语义 ID":1,"记忆":18,"嵌入":3,"检索":4,"排名":2,"蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":10,"LLM":49,"语义理解":1,"分级相关性":1,"语义 ID":2,"记忆":18,"嵌入":3,"检索":4,"排名":2,"蒸馏":1}</script>
 
 <script>
 (function(){

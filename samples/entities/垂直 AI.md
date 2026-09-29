@@ -7,12 +7,18 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>垂直 AI (vertical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="垂直 AI">垂直</div><div class="pi"><h1 class="pt">垂直 AI (vertical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="垂直 AI">垂直</div><div class="pi"><h1 class="pt">垂直 AI (vertical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(24:53起):Jamie 说想做基础模型或开发者工具去旧金山,想做垂直 AI 公司就该待在客户所在的地方(纽约);她认为纽约最优秀的 AI 公司都是垂直 AI 企业,且它们都在扩展部署工程团队。
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(15:10起):本集说 Harvey、Cursor、Cognition 等垂直 AI 公司在中国开源模型上微调/后训练，切断跨太平洋纽带会砍掉美国垂直 AI 创新能力的大腿
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc#^q12]]
 
 ## ② 出现在这些集
 
@@ -27,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[John Willett]] · [[Zavain Dar]] · [[Rogo]] · [[Eric Newcomer]] · [[Foundation]] · [[NVIDIA]] · [[Basis]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"Cursor":71,"John Willett":1,"Zavain Dar":1,"Rogo":1,"Eric Newcomer":1,"Foundation":2,"NVIDIA":46,"Basis":1,"Hugging Face":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"Cursor":72,"John Willett":1,"Zavain Dar":1,"Rogo":1,"Eric Newcomer":1,"Foundation":2,"NVIDIA":46,"Basis":1,"Hugging Face":25}</script>
 
 <script>
 (function(){

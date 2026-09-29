@@ -41,7 +41,7 @@ unlisted: true
 
 [[Ranjan Roy]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Ranjan]] · [[Vali]] · [[Hugging Face]] · [[Adam Neumann]] · [[Meta]] · [[Luca Ferrari]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Anthropic":153,"OpenAI":140,"智能体":356,"Ranjan":1,"Vali":1,"Hugging Face":25,"Adam Neumann":1,"Meta":36,"Luca Ferrari":2}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Anthropic":153,"OpenAI":140,"智能体":358,"Ranjan":1,"Vali":1,"Hugging Face":25,"Adam Neumann":1,"Meta":37,"Luca Ferrari":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-26-talks-how-we-built-an-agent-that-improves-itse",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/XyV6bSMyq-I.m4a",
+  "duration_sec": 1007.782,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 180,
+  "asr": true,
+  "title_en": "How We Built an Agent That Improves Itself — Zubin Aysola, Weights & Biases",
+  "podcast": "精选演讲",
+  "date": "2026-09-26",
+  "added": "2026-09-30",
+  "added_at": "2026-09-29T22:02:26.596Z",
+  "speaker_map": {
+    "SPEAKER_00": "Zubin Aysola"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Zubin Aysola"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮",
+  "guest_name": "Zubin Aysola",
+  "guest_title": "Weights & Biases",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

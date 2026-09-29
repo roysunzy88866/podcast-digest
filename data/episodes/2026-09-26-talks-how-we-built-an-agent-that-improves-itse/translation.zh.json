@@ -1,0 +1,1442 @@
+[
+ {
+  "seg": 0,
+  "start": 16.632,
+  "end": 16.993,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 17.934,
+  "end": 18.234,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 18.494,
+  "end": 20.136,
+  "speaker": "Unknown",
+  "en": "Thank you for showing up.",
+  "zh": "感谢各位到场。"
+ },
+ {
+  "seg": 3,
+  "start": 20.216,
+  "end": 21.398,
+  "speaker": "Unknown",
+  "en": "My name is Zuban Isola.",
+  "zh": "我叫 Zuban Isola。"
+ },
+ {
+  "seg": 4,
+  "start": 21.818,
+  "end": 23,
+  "speaker": "Unknown",
+  "en": "I work at Weights and Biases.",
+  "zh": "我在 Weights and Biases 工作。"
+ },
+ {
+  "seg": 5,
+  "start": 23.2,
+  "end": 28.326,
+  "speaker": "Unknown",
+  "en": "I'm building the ARIA agent, which is something that we released to general availability on Monday.",
+  "zh": "我在构建 ARIA 智能体，这是我们周一正式发布（GA）的产品。"
+ },
+ {
+  "seg": 6,
+  "start": 28.646,
+  "end": 34.473,
+  "speaker": "Unknown",
+  "en": "You might have seen Tim's talk, one of my peers at Weights and Biases, who I work with, on the main stage yesterday.",
+  "zh": "你们可能看过 Tim 的演讲，他是我在 Weights and Biases 的同事，昨天他在主会场讲的。"
+ },
+ {
+  "seg": 7,
+  "start": 35.294,
+  "end": 49.044,
+  "speaker": "Unknown",
+  "en": "I'm going to give you a little bit of a deep dive into how we evaluate and build the ARIA agent, and in particular, the evaluation framework that we use and how we use ARIA to sort of self-reinforce itself in the loop of doing research for itself and talk about some weights and biases things.",
+  "zh": "我将带大家深入了解我们如何评估和构建 ARIA 智能体，特别是我们使用的评估框架，以及我们如何让 ARIA 在为自己的研究做循环中自我强化，还会讲一些 Weights and Biases 相关的东西。"
+ },
+ {
+  "seg": 8,
+  "start": 49.384,
+  "end": 49.844,
+  "speaker": "Unknown",
+  "en": "So, yeah.",
+  "zh": "那么，好。"
+ },
+ {
+  "seg": 9,
+  "start": 50.745,
+  "end": 57.429,
+  "speaker": "Unknown",
+  "en": "This is a rip from some of the slides that I presented at NeurIps, but I think there's some interesting things about using agentic harnesses.",
+  "zh": "这是从我在 NeurIps 上展示的一部分幻灯片中截取的，但我觉得关于使用智能体 harness 有一些有意思的点。"
+ },
+ {
+  "seg": 10,
+  "start": 57.869,
+  "end": 65.013,
+  "speaker": "Unknown",
+  "en": "I imagine most people in the audience or at this conference are all excited to build agent harnesses or maybe use Claude Code with skills in a variety of different packages.",
+  "zh": "我猜在座的各位或者参加这个大会的大多数人，都很想构建智能体 harness，或者在各种不同的包中使用带 skills 的 Claude Code。"
+ },
+ {
+  "seg": 11,
+  "start": 65.293,
+  "end": 71.996,
+  "speaker": "Unknown",
+  "en": "But there's pretty strong differences in the way that you package these AI agents if you use them with different tool calls, et cetera, on a variety of different benchmarks.",
+  "zh": "但如果你在不同的基准测试上使用不同的工具调用等方式，这些 AI 智能体的打包方式存在相当大的差异。"
+ },
+ {
+  "seg": 12,
+  "start": 72.277,
+  "end": 78.38,
+  "speaker": "Unknown",
+  "en": "And so inspired by that, we're doing some work at Weights and Biases to build our own agent harness to do research for you in the Weights and Biases platform.",
+  "zh": "受此启发，我们在 Weights and Biases 做了一些工作，构建自己的智能体 harness，在 Weights and Biases 平台上为你做研究。"
+ },
+ {
+  "seg": 13,
+  "start": 78.98,
+  "end": 90.305,
+  "speaker": "Unknown",
+  "en": "And then there's probably some other things that I don't need to convince people of as to like why we want software agents and why a software harness as opposed to like just letting the LLM run free and call tools or whatever else, but that's not for here.",
+  "zh": "至于为什么我们想要软件智能体、为什么要软件 harness 而不是让 LLM 自由运行去调用工具之类的，可能还有一些其他理由我不需要说服大家，但那不是今天这里要讲的。"
+ },
+ {
+  "seg": 14,
+  "start": 92.181,
+  "end": 101.926,
+  "speaker": "Unknown",
+  "en": "But one big problem presents itself, which is basically the thing that I go to bed thinking about every day, which is benchmarks, evaluations, the agents, and how you configure them are all covariant.",
+  "zh": "但有一个大问题摆在这里，基本上就是我每天睡觉前都在想的事情，那就是基准测试、评估、智能体以及你如何配置它们，全都是协变的。"
+ },
+ {
+  "seg": 15,
+  "start": 102.026,
+  "end": 110.91,
+  "speaker": "Unknown",
+  "en": "And so if you're trying to apply principled evaluations to any sort of system that dynamically changes, you need to have good measurement to see how the system actually performs.",
+  "zh": "所以如果你想对任何动态变化的系统应用有原则的评估，你需要有良好的测量来看系统实际表现如何。"
+ },
+ {
+  "seg": 16,
+  "start": 111.25,
+  "end": 115.752,
+  "speaker": "Unknown",
+  "en": "And you really want to see how the system performs in both your production environment and your offline environment.",
+  "zh": "而且你真的很想看到系统在生产环境和离线环境中的表现。"
+ },
+ {
+  "seg": 17,
+  "start": 116.672,
+  "end": 125.418,
+  "speaker": "Unknown",
+  "en": "If you were RL-pilled from a long time ago, you might think about the sim-to-real gap, which is basically how do we translate simulation environments into the real-world environments, et cetera.",
+  "zh": "如果你很久以前就深度接受 RL 那一套，你可能会想到 sim-to-real 差距，基本上就是我们如何把仿真环境转换到真实环境等等。"
+ },
+ {
+  "seg": 18,
+  "start": 126.319,
+  "end": 138.266,
+  "speaker": "Unknown",
+  "en": "And so there's sort of two things that I'll talk about and then give a live demo of, which is weights and biases weave for agents, which is basically, in my opinion at least, the best observability platform for both production and offline tracing of agents.",
+  "zh": "所以我会讲两件事，然后做一个现场演示，第一是用于智能体的 Weights and Biases Weave，至少在我看来，它基本上是智能体生产端和离线追踪的最佳可观测性平台。"
+ },
+ {
+  "seg": 19,
+  "start": 139.207,
+  "end": 149.556,
+  "speaker": "Unknown",
+  "en": "I use it predominantly from the offline side where I build simulation environments, run the ARIA agent over them, and then track them in Weave, and my entire team does that as well so I can see all of our performance in offline metrics.",
+  "zh": "我主要从离线一侧使用它，我构建仿真环境，在其上运行 ARIA 智能体，然后在 Weave 中追踪它们，我的整个团队也都这么做，这样我就能在离线指标中看到我们所有的性能表现。"
+ },
+ {
+  "seg": 20,
+  "start": 149.817,
+  "end": 160.747,
+  "speaker": "Unknown",
+  "en": "And then the other half of my team works on the production side of things, deploying the agent, logging the same things in the exact same format so that I can rip those production traces into our environments and then hill climb on them or resolve our errors.",
+  "zh": "然后我团队的另一半负责生产端的事情，部署智能体，以完全相同的格式记录同样的东西，这样我就可以把那些生产轨迹提取到我们的环境中，然后对其进行爬山优化或解决我们的错误。"
+ },
+ {
+  "seg": 21,
+  "start": 161.147,
+  "end": 162.168,
+  "speaker": "Unknown",
+  "en": "And it's a pretty nice flywheel.",
+  "zh": "这是一个相当不错的飞轮。"
+ },
+ {
+  "seg": 22,
+  "start": 162.488,
+  "end": 172.914,
+  "speaker": "Unknown",
+  "en": "And then obviously the other thing that I'm here to talk about is ARIA, the weights and biases agent itself, which is basically the thing that we use to now build itself because it's sophisticated enough that it can actually do that offline hill climbing by itself.",
+  "zh": "然后显然我今天要讲的另一件事是 ARIA，也就是 Weights and Biases 的智能体本身，它基本上就是我们现在用来构建自身的东西，因为它已经足够复杂，可以真正自己完成那种离线爬山优化。"
+ },
+ {
+  "seg": 23,
+  "start": 173.334,
+  "end": 179.578,
+  "speaker": "Unknown",
+  "en": "So I'm going to just jump into a super quick live demo and then we'll talk through some other slides about how we built the offline evaluation framework.",
+  "zh": "所以我要直接跳进一个非常快速的现场演示，然后我们再过一些幻灯片，讲讲我们如何构建离线评估框架。"
+ },
+ {
+  "seg": 24,
+  "start": 180.018,
+  "end": 185.424,
+  "speaker": "Unknown",
+  "en": "So if you hop into the Weights and Biases platform, this is a demo project that I called ARIA Researches ARIA here.",
+  "zh": "如果你进入 Weights and Biases 平台，这是一个我命名为 ARIA Researches ARIA 的演示项目。"
+ },
+ {
+  "seg": 25,
+  "start": 186.004,
+  "end": 189.708,
+  "speaker": "Unknown",
+  "en": "And I'm just going to chat to ARIA and ask it to basically do auto research for itself.",
+  "zh": "我只是要和 ARIA 聊天，让它基本上为自己做自动研究。"
+ },
+ {
+  "seg": 26,
+  "start": 190.108,
+  "end": 193.752,
+  "speaker": "Unknown",
+  "en": "And so this is a relatively long prompt that I had to generate in actually one of these other sessions.",
+  "zh": "这是一个比较长的提示词，我实际上是在其中一个其他环节里生成的。"
+ },
+ {
+  "seg": 27,
+  "start": 194.713,
+  "end": 201.06,
+  "speaker": "Unknown",
+  "en": "But if we look at it, what it's going to do is it's going to take my code base that is logged as a Weights and Biases artifact, which we can see over here.",
+  "zh": "但如果我们看它，它要做的是获取我以 Weights and Biases artifact 形式记录的代码库，我们可以在这里看到。"
+ },
+ {
+  "seg": 28,
+  "start": 202.237,
+  "end": 206.74,
+  "speaker": "Unknown",
+  "en": "It's going to launch training jobs against this code base, which is our offline evaluation framework.",
+  "zh": "它将针对这个代码库启动训练任务，这就是我们的离线评估框架。"
+ },
+ {
+  "seg": 29,
+  "start": 207.02,
+  "end": 212.264,
+  "speaker": "Unknown",
+  "en": "It's going to review production traces that we have, add new tasks to hill climb against, and do stuff like that.",
+  "zh": "它会审查我们有的生产轨迹，添加新的任务来进行爬山优化，以及做类似的事情。"
+ },
+ {
+  "seg": 30,
+  "start": 212.564,
+  "end": 214.786,
+  "speaker": "Unknown",
+  "en": "And so this thing is going to cook for a little bit.",
+  "zh": "所以这个东西要跑一会儿。"
+ },
+ {
+  "seg": 31,
+  "start": 214.826,
+  "end": 216.447,
+  "speaker": "Unknown",
+  "en": "The evaluations take a little bit of time to run.",
+  "zh": "评估需要一点时间来运行。"
+ },
+ {
+  "seg": 32,
+  "start": 216.727,
+  "end": 220.29,
+  "speaker": "Unknown",
+  "en": "And so we'll see ARIA basically try to write a new variant for itself.",
+  "zh": "然后我们会看到 ARIA 基本上尝试为自己写一个新变体。"
+ },
+ {
+  "seg": 33,
+  "start": 221.308,
+  "end": 224.149,
+  "speaker": "Unknown",
+  "en": "The other side of this equation is the production side of things.",
+  "zh": "这个等式的另一边是生产端的事情。"
+ },
+ {
+  "seg": 34,
+  "start": 224.229,
+  "end": 229.571,
+  "speaker": "Unknown",
+  "en": "And so this is a sanitized view of internal customer traces or internal traces on ARIA.",
+  "zh": "这是一个经过脱敏的内部客户轨迹视图，或者说 ARIA 上内部轨迹的视图。"
+ },
+ {
+  "seg": 35,
+  "start": 229.631,
+  "end": 235.653,
+  "speaker": "Unknown",
+  "en": "So we'll actually see very quickly that ARIA will actually pop up here, the exact conversation that we're running right here.",
+  "zh": "所以我们会很快看到 ARIA 实际上会在这里弹出，也就是我们现在正在运行的这段确切对话。"
+ },
+ {
+  "seg": 36,
+  "start": 236.928,
+  "end": 245.492,
+  "speaker": "Unknown",
+  "en": "But in this trace, I'm going to use this as an opportunity to take one of these production traces that are logged in Weave and put them into my offline evaluation framework so that I can hill climb on them.",
+  "zh": "但在这个轨迹中，我要借此机会把一条记录在 Weave 中的生产轨迹拿出来，放进我的离线评估框架里，这样我就可以对它进行爬山优化。"
+ },
+ {
+  "seg": 37,
+  "start": 245.732,
+  "end": 246.852,
+  "speaker": "Unknown",
+  "en": "And so I'm just going to do that live.",
+  "zh": "所以我要现场就这么做。"
+ },
+ {
+  "seg": 38,
+  "start": 246.872,
+  "end": 249.293,
+  "speaker": "Unknown",
+  "en": "We'll ask for a relatively simple task.",
+  "zh": "我们会给一个相对简单的任务。"
+ },
+ {
+  "seg": 39,
+  "start": 249.373,
+  "end": 252.655,
+  "speaker": "Unknown",
+  "en": "This is going to be a little interesting because it's going to be slightly self-referential.",
+  "zh": "这会有点有趣，因为它会有点自我指涉。"
+ },
+ {
+  "seg": 40,
+  "start": 253.055,
+  "end": 260.178,
+  "speaker": "Unknown",
+  "en": "But I'll go here, I'll pop open a new ARIA tab, and I'll just ask it, hey, take this trace, log it into our offline",
+  "zh": "但我会在这里打开一个新的 ARIA 标签页，然后直接让它，嘿，拿这条轨迹，把它记录到我们的离线"
+ },
+ {
+  "seg": 41,
+  "start": 261.138,
+  "end": 261.598,
+  "speaker": "Unknown",
+  "en": "Evals.",
+  "zh": "评估里。"
+ },
+ {
+  "seg": 42,
+  "start": 262.258,
+  "end": 263.419,
+  "speaker": "Unknown",
+  "en": "I don't think spelling matters too much.",
+  "zh": "我觉得拼写不太重要。"
+ },
+ {
+  "seg": 43,
+  "start": 263.939,
+  "end": 268.04,
+  "speaker": "Unknown",
+  "en": "And then run the candidate and production agent on it.",
+  "zh": "然后在它上面运行候选智能体和生产智能体。"
+ },
+ {
+  "seg": 44,
+  "start": 269.781,
+  "end": 271.161,
+  "speaker": "Unknown",
+  "en": "And we'll have it cook for that as well.",
+  "zh": "我们也让它跑一会儿。"
+ },
+ {
+  "seg": 45,
+  "start": 271.201,
+  "end": 273.622,
+  "speaker": "Unknown",
+  "en": "And we'll see those evaluations get logged into Weave as they're running.",
+  "zh": "我们会看到那些评估在运行时被记录到 Weave 里。"
+ },
+ {
+  "seg": 46,
+  "start": 274.482,
+  "end": 288.647,
+  "speaker": "Unknown",
+  "en": "So that's basically the tight version of what I do basically every day, which is look at production traces in our weights and biases Weave platform, run evaluations in our code base, which is our offline evaluation sandbox, and then deploy new versions of the agent and work with my team to do that.",
+  "zh": "所以这基本上就是我基本每天做的事情的精简版，即在 Weights and Biases 的 Weave 平台上查看生产轨迹，在我们的代码库（也就是我们的离线评估沙箱）中运行评估，然后部署新版本的智能体，并和我的团队一起做这些。"
+ },
+ {
+  "seg": 47,
+  "start": 289.367,
+  "end": 299.093,
+  "speaker": "Unknown",
+  "en": "And if we look at our production project, this is a bunch of traces that we have over the last seven weeks of our nightly CI jobs that run, where we evaluate the agent in its production format and other candidate variants that we cut.",
+  "zh": "如果我们看我们的生产项目，这是过去七周里我们运行的每夜 CI 任务的一大批轨迹，我们在其中以生产格式评估智能体以及我们切出的其他候选变体。"
+ },
+ {
+  "seg": 48,
+  "start": 299.454,
+  "end": 301.275,
+  "speaker": "Unknown",
+  "en": "And so we can see our relative performance over time.",
+  "zh": "这样我们就能看到我们随时间变化的相对性能。"
+ },
+ {
+  "seg": 49,
+  "start": 302.556,
+  "end": 303.816,
+  "speaker": "Unknown",
+  "en": "For a while, the CI broke.",
+  "zh": "有一段时间，CI 坏了。"
+ },
+ {
+  "seg": 50,
+  "start": 303.836,
+  "end": 305.438,
+  "speaker": "Unknown",
+  "en": "We had already had to fix itself last night.",
+  "zh": "我们昨晚已经不得不自我修复了。"
+ },
+ {
+  "seg": 51,
+  "start": 305.518,
+  "end": 308.98,
+  "speaker": "Unknown",
+  "en": "But we're getting about 66% performance on some of the tasks, et cetera.",
+  "zh": "但我们在一些任务上达到了大约 66% 的性能，等等。"
+ },
+ {
+  "seg": 52,
+  "start": 309.02,
+  "end": 310.341,
+  "speaker": "Unknown",
+  "en": "And so we have a variety of tasks.",
+  "zh": "所以我们有各种各样的任务。"
+ },
+ {
+  "seg": 53,
+  "start": 311.341,
+  "end": 312.462,
+  "speaker": "Unknown",
+  "en": "That we train the agent to do.",
+  "zh": "我们训练智能体去完成这些任务。"
+ },
+ {
+  "seg": 54,
+  "start": 312.922,
+  "end": 336.857,
+  "speaker": "Unknown",
+  "en": "And so now I'm just going to jump into a material version of the presentation to go a little bit deeper into the theory behind building a simulation environment for offline hill climbing, for basically building a software agent, where traditionally you might expect that you are really robust if you're doing reinforcement learning, but I mostly prompt engineer these days because the sophisticated models are relatively good at performing tasks at weights and biases, and so we're really working on building skills for the software agent more than doing reinforcement learning.",
+  "zh": "所以现在我要直接跳到一个更实质的演示版本，稍微深入一点讲构建用于离线爬坡的模拟环境背后的理论，基本上就是构建一个软件智能体，传统上你可能会预期如果你在做强化学习就会非常稳健，但我这些天主要在做提示词工程，因为复杂的模型在 Weights and Biases 上执行任务已经相对不错了，所以我们更多是在为软件智能体构建技能，而不是做强化学习。"
+ },
+ {
+  "seg": 55,
+  "start": 337.157,
+  "end": 344.345,
+  "speaker": "Unknown",
+  "en": "But I think applying the same methodology to how you build the agent, so the same robustness of how you simulate environments, is really helpful for our work.",
+  "zh": "但我认为把同样的方法论应用到如何构建智能体上，也就是在模拟环境方式上的同样的稳健性，对我们的工作非常有帮助。"
+ },
+ {
+  "seg": 56,
+  "start": 344.886,
+  "end": 350.372,
+  "speaker": "Unknown",
+  "en": "So we benchmark a bite-wise identical version of the agent in our production environment and our simulated environment.",
+  "zh": "所以我们在生产环境和模拟环境中对一个逐字节相同的智能体版本进行基准测试。"
+ },
+ {
+  "seg": 57,
+  "start": 350.612,
+  "end": 354.776,
+  "speaker": "Unknown",
+  "en": "There's a lot of text on these slides that I and Claude sort of slop out, but we'll just go for the graphics.",
+  "zh": "这些幻灯片上有很多文字是我和 Claude 随便弄出来的糟粕，我们就直接看图吧。"
+ },
+ {
+  "seg": 58,
+  "start": 355.837,
+  "end": 363.78,
+  "speaker": "Unknown",
+  "en": "So I think the exciting part here is that both using the logging framework from Weave as well as just in the way that we've designed the system, our research and production code are exactly the same.",
+  "zh": "所以我认为这里令人兴奋的部分是，无论是使用 Weave 的日志框架，还是就我们设计系统的方式而言，我们的研究代码和生产代码完全相同。"
+ },
+ {
+  "seg": 59,
+  "start": 363.86,
+  "end": 373.543,
+  "speaker": "Unknown",
+  "en": "And in fact, there's like a four-hour sync job that happens between production to our research environment so that we don't get any drift when researchers are cutting new variants of the agent, new skills, et cetera, and doing their hill climbing.",
+  "zh": "而且实际上，有一个大约四小时的同步作业在生产环境和我们的研究环境之间运行，这样当研究人员切出智能体的新变体、新技能等等并进行爬坡时，我们就不会产生任何漂移。"
+ },
+ {
+  "seg": 60,
+  "start": 373.743,
+  "end": 379.785,
+  "speaker": "Unknown",
+  "en": "And so we have this nice little tight loop that basically mirrors each other on two sides of the stack from our deployment layer and our offline benchmarking layer.",
+  "zh": "所以我们有了这个很好的小闭环，它在技术栈的两端——我们的部署层和我们的离线基准测试层——基本上互为镜像。"
+ },
+ {
+  "seg": 61,
+  "start": 381.382,
+  "end": 387.526,
+  "speaker": "Unknown",
+  "en": "And then, you know, we expose internally as a team a bunch of run eval commands to generate scored trajectories.",
+  "zh": "然后，你知道的，我们作为团队在内部暴露了一堆 run eval 命令来生成带评分的轨迹。"
+ },
+ {
+  "seg": 62,
+  "start": 387.566,
+  "end": 396.851,
+  "speaker": "Unknown",
+  "en": "And so that's what we were talking about with this like large project where we have a bunch of trajectory examples where if I click into one of these, you know, we can see like our relative scores of a variety of different metrics when it loads.",
+  "zh": "所以这就是我们刚才谈到的那种大型项目，我们有一堆轨迹示例，如果我点进其中一个，你知道的，加载时我们可以看到各种不同指标的相对得分。"
+ },
+ {
+  "seg": 63,
+  "start": 398.192,
+  "end": 402.557,
+  "speaker": "Unknown",
+  "en": "But essentially what we get is these super robust traces of the agent rolling out over time.",
+  "zh": "但本质上我们得到的是智能体随时间推移运行的超级稳健的追踪记录。"
+ },
+ {
+  "seg": 64,
+  "start": 402.797,
+  "end": 404.339,
+  "speaker": "Unknown",
+  "en": "And there's a lot of signal to reap from this.",
+  "zh": "而且这里面有很多可以挖掘的信号。"
+ },
+ {
+  "seg": 65,
+  "start": 404.419,
+  "end": 412.728,
+  "speaker": "Unknown",
+  "en": "And I think the thesis behind this is generate a fuckton of traces and then decide what you're going to do with said fuckton of traces as you try to figure out how the agent performs.",
+  "zh": "我认为这背后的论点是：生成海量的追踪记录，然后在试图弄清楚智能体表现如何时，再决定要拿这些海量追踪记录做什么。"
+ },
+ {
+  "seg": 66,
+  "start": 413.148,
+  "end": 417.353,
+  "speaker": "Unknown",
+  "en": "We're measuring emergent properties and then trying to align the agent in particular directions.",
+  "zh": "我们测量涌现特性，然后尝试把智能体对齐到特定的方向。"
+ },
+ {
+  "seg": 67,
+  "start": 417.694,
+  "end": 432.252,
+  "speaker": "Unknown",
+  "en": "And so the two ways that that happens is I look manually at the tasks or, like we would do in that first example, I would ask Aria to review the rollout that it generated for itself or review some other rollout and decide what went wrong or what went well and try to reinforce that behavior through prompting or anything else.",
+  "zh": "这通过两种方式实现：一是我手动查看任务，或者像我们在第一个例子里那样，我会让 Aria 审查它自己生成的 rollout 或审查其他的 rollout，判断哪里出了问题或哪里做得好，然后尝试通过提示词或其他方式强化那种行为。"
+ },
+ {
+  "seg": 68,
+  "start": 433.776,
+  "end": 437.818,
+  "speaker": "Unknown",
+  "en": "And then the actual method behind the agent is relatively simple.",
+  "zh": "而智能体背后的实际方法相对简单。"
+ },
+ {
+  "seg": 69,
+  "start": 437.878,
+  "end": 445.221,
+  "speaker": "Unknown",
+  "en": "We want to test on a variety of the different models, both models offered through core weave inference, models offered through the foundation model players, et cetera.",
+  "zh": "我们想在各种不同的模型上进行测试，既包括通过 core weave inference 提供的模型，也包括基础模型厂商提供的模型，等等。"
+ },
+ {
+  "seg": 70,
+  "start": 445.421,
+  "end": 452.985,
+  "speaker": "Unknown",
+  "en": "And so we define a relatively agnostic software stack for how we treat compaction and how we prepare context and how we assemble UI payloads, et cetera.",
+  "zh": "所以我们定义了一个相对不可知论的软件栈，用于我们如何处理压缩、如何准备上下文、如何组装 UI 载荷，等等。"
+ },
+ {
+  "seg": 71,
+  "start": 453.385,
+  "end": 461.19,
+  "speaker": "Unknown",
+  "en": "And the, again, mental pattern behind this is to really try to make it very, very simple to have lots of mutations of the exact same configuration.",
+  "zh": "而这背后，再说一次，心智模式就是真正尝试让拥有完全相同配置的大量变异变得非常非常简单。"
+ },
+ {
+  "seg": 72,
+  "start": 461.25,
+  "end": 468.654,
+  "speaker": "Unknown",
+  "en": "You want to basically YAML to find different configurations of the agent to sort of get multiple parallel variants and then test them all and see what happens.",
+  "zh": "你基本上想用 YAML 来定义智能体的不同配置，从而得到多个并行变体，然后把它们全部测试一遍，看看会发生什么。"
+ },
+ {
+  "seg": 73,
+  "start": 468.914,
+  "end": 479.541,
+  "speaker": "Unknown",
+  "en": "Because ultimately, you can have insight into how to make the problem better, but if we take an adage from old reinforcement learning training or just simple model training, it's just better to run more experiments than fewer.",
+  "zh": "因为归根结底，你可以对如何改进问题有洞察，但如果我们借用老的强化学习训练或简单模型训练中的一句格言：跑更多实验总是比跑更少实验要好。"
+ },
+ {
+  "seg": 74,
+  "start": 479.621,
+  "end": 481.802,
+  "speaker": "Unknown",
+  "en": "And so that's the thesis behind the agent harness itself too.",
+  "zh": "所以这也是智能体 harness 本身背后的论点。"
+ },
+ {
+  "seg": 75,
+  "start": 483.05,
+  "end": 486.912,
+  "speaker": "Unknown",
+  "en": "And so then we talk about the sandbox stack behind the agent.",
+  "zh": "接着我们谈谈智能体背后的沙箱技术栈。"
+ },
+ {
+  "seg": 76,
+  "start": 487.052,
+  "end": 491.375,
+  "speaker": "Unknown",
+  "en": "And I think that there's a lot of mentions of code mode here at this conference and other things like that.",
+  "zh": "我记得这次大会上有很多人提到 code mode 之类的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 491.615,
+  "end": 498.699,
+  "speaker": "Unknown",
+  "en": "And one thing that we really want to see happen, because we want to build the best product for our customers, is to just have a sandbox environment that they can do anything they want in.",
+  "zh": "而我们真正希望看到的一件事，因为我们想为客户构建最好的产品，就是拥有一个他们可以在里面做任何想做的事情的沙箱环境。"
+ },
+ {
+  "seg": 78,
+  "start": 498.899,
+  "end": 506.261,
+  "speaker": "Unknown",
+  "en": "So for example, prior to yesterday, I wasn't entirely certain that ARIA was going to be able to do a bunch of parallel executions of itself.",
+  "zh": "比如说，在昨天之前，我不完全确定 ARIA 能否并行执行自身的一堆并行执行。"
+ },
+ {
+  "seg": 79,
+  "start": 506.581,
+  "end": 516.684,
+  "speaker": "Unknown",
+  "en": "And so I asked it, both while I was writing this presentation and preparing for this, to just create the sandbox environment for itself to run a bunch of parallel executions of its own research loop.",
+  "zh": "所以我在写这个演示文稿和做准备的时候，我让它自己创建沙箱环境，来运行它自己研究循环的一堆并行执行。"
+ },
+ {
+  "seg": 80,
+  "start": 517.264,
+  "end": 522.305,
+  "speaker": "Unknown",
+  "en": "And so having that unconstrained environment is really useful for getting the agent to do emergent things.",
+  "zh": "拥有这种不受约束的环境对于让智能体做出涌现性的事情非常有用。"
+ },
+ {
+  "seg": 81,
+  "start": 524.478,
+  "end": 535.244,
+  "speaker": "Unknown",
+  "en": "And so I'm not really sure what the six phrases per record means, but I think from a theory standpoint, we want to build then a good pattern for generating these simulation environments.",
+  "zh": "所以我不太确定每条记录六个短语是什么意思，但从理论角度，我认为我们想为生成这些模拟环境构建一个好的模式。"
+ },
+ {
+  "seg": 82,
+  "start": 535.584,
+  "end": 551.072,
+  "speaker": "Unknown",
+  "en": "And so we have a relatively agnostic DAG that you might think about in a traditional machine learning context, which is like, we take a configuration, which are these YAML files, we hydrate them, so we load the live data that we need to, we set up an environment, and the environments and weights and biases are relatively expensive because we have lots of production",
+  "zh": "所以我们有一个相对不可知论的 DAG，你可以在传统机器学习的语境中思考它，即：我们取一个配置，也就是这些 YAML 文件，我们对它们进行水合，也就是加载我们需要的实时数据，我们搭建一个环境，而环境和 Weights and Biases 相对昂贵，因为我们有大量的生产"
+ },
+ {
+  "seg": 83,
+  "start": 551.152,
+  "end": 553.353,
+  "speaker": "Unknown",
+  "en": "Data that we might want to test against or other things like that.",
+  "zh": "数据，我们可能想拿它们做测试，或者其他类似的东西。"
+ },
+ {
+  "seg": 84,
+  "start": 553.534,
+  "end": 555.115,
+  "speaker": "Unknown",
+  "en": "These are full machine learning training logs.",
+  "zh": "这些是完整的机器学习训练日志。"
+ },
+ {
+  "seg": 85,
+  "start": 555.135,
+  "end": 558.957,
+  "speaker": "Unknown",
+  "en": "We might have to simulate GPU executions if you're doing auto research, et cetera.",
+  "zh": "如果你在做 auto research,我们可能还得模拟 GPU 执行，等等。"
+ },
+ {
+  "seg": 86,
+  "start": 559.177,
+  "end": 561.979,
+  "speaker": "Unknown",
+  "en": "That's a relatively intensive process, since you might want to parallelize that.",
+  "zh": "这是一个相对密集的过程，因为你可能想把它并行化。"
+ },
+ {
+  "seg": 87,
+  "start": 562.399,
+  "end": 567.683,
+  "speaker": "Unknown",
+  "en": "Then you would rehydrate, because oftentimes there's runtime configurations that you can't encode in a YAML specification.",
+  "zh": "然后你要重新水合，因为很多时候有一些运行时配置是你无法在 YAML 规范中编码的。"
+ },
+ {
+  "seg": 88,
+  "start": 567.903,
+  "end": 570.845,
+  "speaker": "Unknown",
+  "en": "And so you hot patch that data back into the config config.",
+  "zh": "所以你把这些数据热补丁回 config config 里。"
+ },
+ {
+  "seg": 89,
+  "start": 571.605,
+  "end": 572.506,
+  "speaker": "Unknown",
+  "en": "And then you run the agent.",
+  "zh": "然后你运行智能体。"
+ },
+ {
+  "seg": 90,
+  "start": 572.546,
+  "end": 573.627,
+  "speaker": "Unknown",
+  "en": "And running the agent is trivial.",
+  "zh": "而运行智能体是小事一桩。"
+ },
+ {
+  "seg": 91,
+  "start": 573.767,
+  "end": 577.811,
+  "speaker": "Unknown",
+  "en": "You run it, as I mentioned in the beginning, in the byte-wise identical version that you have in production.",
+  "zh": "正如我在开头提到的，你用与生产环境中逐字节相同的版本来运行它。"
+ },
+ {
+  "seg": 92,
+  "start": 578.231,
+  "end": 578.992,
+  "speaker": "Unknown",
+  "en": "And then you score it.",
+  "zh": "然后你给它评分。"
+ },
+ {
+  "seg": 93,
+  "start": 579.172,
+  "end": 584.496,
+  "speaker": "Unknown",
+  "en": "And scoring is where I spend a lot of my time, which is basically trying to think about the robustness of how you measure results.",
+  "zh": "而评分是我花大量时间的地方，基本上就是思考你如何稳健地衡量结果。"
+ },
+ {
+  "seg": 94,
+  "start": 585.217,
+  "end": 588.019,
+  "speaker": "Unknown",
+  "en": "And I imagine most people here are pretty good at thinking about things like that.",
+  "zh": "我想这里的大多数人都很擅长思考这类问题。"
+ },
+ {
+  "seg": 95,
+  "start": 588.24,
+  "end": 594.225,
+  "speaker": "Unknown",
+  "en": "And I think it's really worth spending the time, once you have a configuration of how to run evaluations, thinking about the robustness of our emails.",
+  "zh": "而且我认为一旦你有了一套如何运行评估的配置，花时间思考我们的邮件的稳健性是非常值得的。"
+ },
+ {
+  "seg": 96,
+  "start": 594.965,
+  "end": 604.975,
+  "speaker": "Unknown",
+  "en": "A Slack message that I probably can't show live on the screen that I got from one of my teammates today made me very happy, where he basically just spent all of yesterday thinking about the health of our evaluations and the drift between our evaluations and production.",
+  "zh": "今天我收到队友发来的一条我可能没法在屏幕上直播展示的 Slack 消息，让我非常高兴，他基本上花了一整天的时间思考我们评估的健康状况以及评估与生产环境之间的漂移。"
+ },
+ {
+  "seg": 97,
+  "start": 605.535,
+  "end": 612.462,
+  "speaker": "Unknown",
+  "en": "And I think that kind of mental model of, you know, why are things working well, why are things not working well, what are the gaps that we see in these two patterns, is really useful.",
+  "zh": "我认为这种心智模式——你知道的，为什么有些东西运行得好，为什么有些东西运行得不好，我们在这两种模式之间看到的差距是什么——真的非常有用。"
+ },
+ {
+  "seg": 98,
+  "start": 613.322,
+  "end": 630.431,
+  "speaker": "Unknown",
+  "en": "In our case, weights and biases ARIA scores itself in two patterns, which is normatively, which gives us basically did we pass a task or not, and then relativistically where we can set styles based on one variant where it asks questions to the user and one variant where it doesn't ask questions to the user, and we can sort of see which one behaves better with a relative scoring.",
+  "zh": "在我们的案例中，Weights and Biases 让 ARIA 以两种模式给自己评分，一种是规范性评分，基本上告诉我们是否通过了某个任务；另一种是相对性评分，我们可以设定风格，一个变体会向用户提问，另一个变体不向用户提问，然后我们通过相对评分可以看出哪一个表现得更好。"
+ },
+ {
+  "seg": 99,
+  "start": 630.531,
+  "end": 633.713,
+  "speaker": "Unknown",
+  "en": "So a pretty traditional formulation from a reinforcement learning standpoint.",
+  "zh": "所以从强化学习的角度看，这是一个相当传统的表述。"
+ },
+ {
+  "seg": 100,
+  "start": 634.133,
+  "end": 638.256,
+  "speaker": "Unknown",
+  "en": "And then, of course, if you're running this in parallel, you've got to tear it down because you want to start it again.",
+  "zh": "然后，当然，如果你在并行运行这个，你必须把它拆掉，因为你想要重新启动它。"
+ },
+ {
+  "seg": 101,
+  "start": 638.496,
+  "end": 640.398,
+  "speaker": "Unknown",
+  "en": "And you don't want to clobber your teammates' work, et cetera.",
+  "zh": "而且你不想破坏队友的工作，等等。"
+ },
+ {
+  "seg": 102,
+  "start": 640.858,
+  "end": 644.181,
+  "speaker": "Unknown",
+  "en": "And so we'll see what happens in this project because a bunch of my teammates are running evals right now.",
+  "zh": "所以我们会在这次项目中看看会发生什么，因为我的一批队友正在运行评估。"
+ },
+ {
+  "seg": 103,
+  "start": 644.561,
+  "end": 645.742,
+  "speaker": "Unknown",
+  "en": "And so we'll see how ARIA performs.",
+  "zh": "所以我们会看看 ARIA 表现如何。"
+ },
+ {
+  "seg": 104,
+  "start": 647.683,
+  "end": 659.386,
+  "speaker": "Unknown",
+  "en": "And then, more traditionally, on tasks, I think the eval tasks are just YAML specifications that we define as a starting condition of an environment with a bunch of user configurations, as well as then an ending condition that we sort of want to get to.",
+  "zh": "然后，更传统的，在任务方面，我认为评估任务就是 YAML 规范，我们把它定义为一个环境的起始条件，带有一堆用户配置，以及一个我们想要达到的结束条件。"
+ },
+ {
+  "seg": 105,
+  "start": 660.406,
+  "end": 663.787,
+  "speaker": "Unknown",
+  "en": "In our case, tasks are flows from users, so we simulate them in three ways.",
+  "zh": "在我们的案例中，任务是来自用户的流程，所以我们用三种方式模拟它们。"
+ },
+ {
+  "seg": 106,
+  "start": 664.347,
+  "end": 667.748,
+  "speaker": "Unknown",
+  "en": "We do just simple text, which is like, hey, here's an instruction to ARIA.",
+  "zh": "我们做简单的文本，就像，嘿，这是一条给 ARIA 的指令。"
+ },
+ {
+  "seg": 107,
+  "start": 667.788,
+  "end": 673.97,
+  "speaker": "Unknown",
+  "en": "You might imagine that the task that it generates in this chat over here, where it's logging a specific trace from production,",
+  "zh": "你可以想象它在这边的聊天中生成的任务，它在那里记录一条来自生产环境的特定 trace,"
+ },
+ {
+  "seg": 108,
+  "start": 674.891,
+  "end": 682.342,
+  "speaker": "Unknown",
+  "en": "into our local framework actually looks like just a simple question that I asked it basically, which was that question of ARIA doing auto-research itself.",
+  "zh": "到我们的本地框架里，实际上看起来就像我问它的一个简单问题，基本上就是那个让 ARIA 做自动研究自身的问题。"
+ },
+ {
+  "seg": 109,
+  "start": 683.524,
+  "end": 684.526,
+  "speaker": "Unknown",
+  "en": "We can just ask it to continue.",
+  "zh": "我们可以直接让它继续。"
+ },
+ {
+  "seg": 110,
+  "start": 687.669,
+  "end": 688.189,
+  "speaker": "Unknown",
+  "en": "As it does that.",
+  "zh": "在它这样做的时候。"
+ },
+ {
+  "seg": 111,
+  "start": 688.809,
+  "end": 690.83,
+  "speaker": "Unknown",
+  "en": "And that task is just a single question to it.",
+  "zh": "而那个任务就是给它的一个单独的问题。"
+ },
+ {
+  "seg": 112,
+  "start": 690.91,
+  "end": 703.712,
+  "speaker": "Unknown",
+  "en": "There's other variants of the tasks that exist as well where we simulate a language model that has a persona from a user and we ask it, hey, pretend to be this user, ask certain questions in a particular order so that we can simulate multi-turn environments and interactions with our agent.",
+  "zh": "任务还有其他变体，我们模拟一个具有某用户人设的语言模型，我们让它，嘿，假装是这个用户，按特定顺序问某些问题，这样我们就能模拟多轮环境和与我们的智能体的交互。"
+ },
+ {
+  "seg": 113,
+  "start": 704.232,
+  "end": 705.253,
+  "speaker": "Unknown",
+  "en": "And then you just run a bunch of these.",
+  "zh": "然后你只需要运行一堆这样的任务。"
+ },
+ {
+  "seg": 114,
+  "start": 705.273,
+  "end": 706.673,
+  "speaker": "Unknown",
+  "en": "So we have 886 tasks.",
+  "zh": "所以我们有 886 个任务。"
+ },
+ {
+  "seg": 115,
+  "start": 706.913,
+  "end": 708.153,
+  "speaker": "Unknown",
+  "en": "We categorize them by levels.",
+  "zh": "我们按级别对它们分类。"
+ },
+ {
+  "seg": 116,
+  "start": 708.173,
+  "end": 714.355,
+  "speaker": "Unknown",
+  "en": "We expose them to our product teams so that they can decide whether or not the tasks are good enough or they reflect things that we care about from our benchmarks, et cetera.",
+  "zh": "我们把它们暴露给我们的产品团队，让他们决定这些任务是否足够好，或者是否反映了我们在基准测试中关心的东西，等等。"
+ },
+ {
+  "seg": 117,
+  "start": 714.715,
+  "end": 715.935,
+  "speaker": "Unknown",
+  "en": "And then we just run them a bunch of times.",
+  "zh": "然后我们就把它们运行很多次。"
+ },
+ {
+  "seg": 118,
+  "start": 717.357,
+  "end": 717.557,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 119,
+  "start": 717.757,
+  "end": 722.283,
+  "speaker": "Unknown",
+  "en": "And then the ultimate thing here is that the trajectory is the meat and the data that I live behind.",
+  "zh": "然后这里最关键的是，trajectory(轨迹)是核心，也是我所依赖的数据。"
+ },
+ {
+  "seg": 120,
+  "start": 722.603,
+  "end": 730.111,
+  "speaker": "Unknown",
+  "en": "And so I look at our production traces that exist in our traffic and our offline traces that exist, and I really try to exploit the behavior patterns from both of those.",
+  "zh": "所以我查看存在于我们流量中的生产 trace，以及存在的离线 trace，我真正努力去利用这两者的行为模式。"
+ },
+ {
+  "seg": 121,
+  "start": 730.412,
+  "end": 733.475,
+  "speaker": "Unknown",
+  "en": "And so we build tooling ourselves to understand our traces.",
+  "zh": "所以我们自己构建工具来理解我们的 trace。"
+ },
+ {
+  "seg": 122,
+  "start": 733.856,
+  "end": 737.6,
+  "speaker": "Unknown",
+  "en": "We have this behavior trace project, et cetera, that we run in both prod and offline.",
+  "zh": "我们有这个行为 trace 项目，等等，我们在生产环境和离线环境都运行它。"
+ },
+ {
+  "seg": 123,
+  "start": 739.607,
+  "end": 741.228,
+  "speaker": "Unknown",
+  "en": "And yeah, that's the eval flywheel.",
+  "zh": "是的，这就是评估飞轮。"
+ },
+ {
+  "seg": 124,
+  "start": 741.308,
+  "end": 749.312,
+  "speaker": "Unknown",
+  "en": "So fundamentally, every production miss or every production goodness as well, because I think it's useful to hill climb in a positive direction, becomes a task for our agent framework.",
+  "zh": "所以从根本上说，每一次生产环境的失误或生产环境中的良好表现——因为我认为朝正向爬坡也很有用——都会变成我们智能体框架的一个任务。"
+ },
+ {
+  "seg": 125,
+  "start": 749.332,
+  "end": 751.913,
+  "speaker": "Unknown",
+  "en": "And so we use that to sort of define the agent and make it better.",
+  "zh": "所以我们用它来定义智能体并让它变得更好。"
+ },
+ {
+  "seg": 126,
+  "start": 753.88,
+  "end": 756.021,
+  "speaker": "Unknown",
+  "en": "And these are our real scores straight from Weave.",
+  "zh": "而这些是直接来自 Weave 的我们的真实分数。"
+ },
+ {
+  "seg": 127,
+  "start": 756.181,
+  "end": 759.083,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of different categories that we measure ourselves on.",
+  "zh": "所以我们有很多不同的类别来衡量自己。"
+ },
+ {
+  "seg": 128,
+  "start": 759.203,
+  "end": 761.484,
+  "speaker": "Unknown",
+  "en": "I think the agent is really good at conceptually guiding you.",
+  "zh": "我认为这个智能体在概念性地引导你方面真的很出色。"
+ },
+ {
+  "seg": 129,
+  "start": 761.724,
+  "end": 764.445,
+  "speaker": "Unknown",
+  "en": "We want to make it better at doing some error analysis for projects.",
+  "zh": "我们想让它更擅长为项目做一些错误分析。"
+ },
+ {
+  "seg": 130,
+  "start": 764.465,
+  "end": 769.248,
+  "speaker": "Unknown",
+  "en": "We try to make these as difficult as possible for the agent to really test the metal of how this thing performs.",
+  "zh": "我们尽量把这些任务做得尽可能难，来真正测试这个东西的成色(性能)。"
+ },
+ {
+  "seg": 131,
+  "start": 770.702,
+  "end": 772.063,
+  "speaker": "Unknown",
+  "en": "And so I'll hop back to ARIA now.",
+  "zh": "所以我现在跳回 ARIA。"
+ },
+ {
+  "seg": 132,
+  "start": 772.083,
+  "end": 776.124,
+  "speaker": "Unknown",
+  "en": "There's sort of five minutes left with sort of a demo of what it's actually doing.",
+  "zh": "大概还剩五分钟，来展示它实际在做什么。"
+ },
+ {
+  "seg": 133,
+  "start": 776.184,
+  "end": 780.386,
+  "speaker": "Unknown",
+  "en": "So right now it's going to run a bunch of code as it's trying to rip this production trace and log it into the framework.",
+  "zh": "所以现在它会运行一堆代码，因为它正试图抓取这条生产 trace 并把它记录进框架。"
+ },
+ {
+  "seg": 134,
+  "start": 780.726,
+  "end": 787.049,
+  "speaker": "Unknown",
+  "en": "If I hop into this live demo that I just triggered with that nice long prompt, ARIA is going to tell me the research runs that it did.",
+  "zh": "如果我跳进这个我刚用那段很长的 prompt 触发的实时演示，ARIA 会告诉我它做的研究运行。"
+ },
+ {
+  "seg": 135,
+  "start": 787.149,
+  "end": 789.07,
+  "speaker": "Unknown",
+  "en": "So we can click through some of these links.",
+  "zh": "所以我们可以点进这些链接中的一些。"
+ },
+ {
+  "seg": 136,
+  "start": 789.09,
+  "end": 791.471,
+  "speaker": "Unknown",
+  "en": "I asked it to write a report using weights and biases reports.",
+  "zh": "我让它用 weights and biases reports 写一份报告。"
+ },
+ {
+  "seg": 137,
+  "start": 791.771,
+  "end": 797.416,
+  "speaker": "Unknown",
+  "en": "From the run that it just had, if we scrub this, we can see that this is the most recent production trace that it just logged.",
+  "zh": "从它刚完成的那次运行，如果我们拖动进度条，可以看到这是它刚记录的最新的生产 trace。"
+ },
+ {
+  "seg": 138,
+  "start": 797.716,
+  "end": 800.458,
+  "speaker": "Unknown",
+  "en": "It wrote itself a new task, ran it, and then scored it.",
+  "zh": "它给自己写了一个新任务，运行了它，然后给它打分。"
+ },
+ {
+  "seg": 139,
+  "start": 800.778,
+  "end": 803.58,
+  "speaker": "Unknown",
+  "en": "And so this is like the production variant getting benchmarked on our specific task.",
+  "zh": "所以这就像生产变体在我们的特定任务上被基准测试。"
+ },
+ {
+  "seg": 140,
+  "start": 803.901,
+  "end": 807.003,
+  "speaker": "Unknown",
+  "en": "If we look at the report that it generated, this is the demo that I asked it to do.",
+  "zh": "如果我们看它生成的报告，这就是我让它做的演示。"
+ },
+ {
+  "seg": 141,
+  "start": 807.664,
+  "end": 812.988,
+  "speaker": "Unknown",
+  "en": "So it ran a real WANB agent trace, turned it into a WBAF regression task.",
+  "zh": "所以它运行了一条真实的 WANB 智能体 trace，把它变成了一个 WBAF 回归任务。"
+ },
+ {
+  "seg": 142,
+  "start": 813.288,
+  "end": 817.191,
+  "speaker": "Unknown",
+  "en": "WBAF is the factory that I build, which is the weights and biases agent factory.",
+  "zh": "WBAF 是我构建的工厂，也就是 weights and biases 智能体工厂。"
+ },
+ {
+  "seg": 143,
+  "start": 817.231,
+  "end": 819.153,
+  "speaker": "Unknown",
+  "en": "That's the principle behind our offline benchmarking.",
+  "zh": "那就是我们离线基准测试背后的原则。"
+ },
+ {
+  "seg": 144,
+  "start": 819.713,
+  "end": 824.557,
+  "speaker": "Unknown",
+  "en": "It identified that the problem was that we weren't calling weave.log, one of our SDK calls, properly in the sandbox.",
+  "zh": "它发现问题在于我们没有在沙箱中正确调用 weave.log，我们的一个 SDK 调用。"
+ },
+ {
+  "seg": 145,
+  "start": 824.998,
+  "end": 830.663,
+  "speaker": "Unknown",
+  "en": "It replicates the source trace, which we can click into here, and then runs a bunch of variants of the agent to see how it makes itself better.",
+  "zh": "它复现了源 trace，我们可以点进这里，然后运行智能体的很多变体，看它如何让自己变得更好。"
+ },
+ {
+  "seg": 146,
+  "start": 830.763,
+  "end": 840.291,
+  "speaker": "Unknown",
+  "en": "And so, you know, it added a hill climb target, which was basically like, here's what to do to fix it, ran the trace, and then we can see if it gives us a little explanation of exactly what happened at the end.",
+  "zh": "所以，你看，它添加了一个爬坡目标，基本上就是，这是修复它的方法，运行了 trace，然后我们可以看到它最后是否给我们一点对究竟发生了什么的解释。"
+ },
+ {
+  "seg": 147,
+  "start": 841.952,
+  "end": 845.896,
+  "speaker": "Unknown",
+  "en": "How did the prod versus candidate variant perform?",
+  "zh": "生产变体对候选变体的表现如何?"
+ },
+ {
+  "seg": 148,
+  "start": 847.61,
+  "end": 849.071,
+  "speaker": "Unknown",
+  "en": "And this is now what I live in.",
+  "zh": "而这就是我现在生活的地方。"
+ },
+ {
+  "seg": 149,
+  "start": 849.611,
+  "end": 872.383,
+  "speaker": "Unknown",
+  "en": "And so I think the flywheel here is exceptionally compelling for me, where instead of going back to my Claude code and writing offline benchmarks and trying to think about what I want the agent to do, I'm just going to live in this platform instead and hop between my production tracing project, where I'm looking at traces roll in as they come through over time, where ARIA's building itself, and then hop back into my offline evaluation project to sort of see what my team is doing, what I'm doing, and what changes I want to make.",
+  "zh": "所以我觉得这里的飞轮对我来说极具吸引力，与其回到我的 Claude code 去写离线基准并思考我想让智能体做什么，我只是要生活在这个平台里，在我的生产 tracing 项目之间跳转，在那里我看着 trace 随时间不断涌入，而 ARIA 在构建自己，然后再跳回我的离线评估项目，看看我的团队在做什么、我在做什么，以及我想做出什么改变。"
+ },
+ {
+  "seg": 150,
+  "start": 872.883,
+  "end": 875.665,
+  "speaker": "Unknown",
+  "en": "What change did we make to the prod skill?",
+  "zh": "我们对 prod 技能做了什么改动?"
+ },
+ {
+  "seg": 151,
+  "start": 876.363,
+  "end": 877.514,
+  "speaker": "Unknown",
+  "en": "Or to the agent variant.",
+  "zh": "或者说对智能体变体做了什么改动。"
+ },
+ {
+  "seg": 152,
+  "start": 878.964,
+  "end": 879.364,
+  "speaker": "Unknown",
+  "en": "Et cetera.",
+  "zh": "等等。"
+ },
+ {
+  "seg": 153,
+  "start": 879.884,
+  "end": 889.529,
+  "speaker": "Unknown",
+  "en": "And to sort of watch this thing roll out, I think a big challenge that we have is it's really easy to go auto mode for some of these tasks where you want to just see the agent do everything.",
+  "zh": "然后是观察这个东西的发布过程,我觉得我们面临的一个很大的挑战是,对于某些任务很容易进入自动模式,你只想看到智能体把所有事情都做完。"
+ },
+ {
+  "seg": 154,
+  "start": 889.849,
+  "end": 894.011,
+  "speaker": "Unknown",
+  "en": "And I haven't written a line of code in maybe eight months because I just tell Claude to write all my code for me.",
+  "zh": "而我大概八个月没写过一行代码了,因为我只是让 Claude 替我写所有代码。"
+ },
+ {
+  "seg": 155,
+  "start": 894.231,
+  "end": 895.372,
+  "speaker": "Unknown",
+  "en": "And that's a really nice pattern.",
+  "zh": "这是一个非常好的模式。"
+ },
+ {
+  "seg": 156,
+  "start": 895.612,
+  "end": 899.013,
+  "speaker": "Unknown",
+  "en": "But it doesn't absolve yourself of the thought behind how we want to make improvements.",
+  "zh": "但它并不能让你免除思考我们想要如何做出改进这件事。"
+ },
+ {
+  "seg": 157,
+  "start": 899.293,
+  "end": 907.237,
+  "speaker": "Unknown",
+  "en": "And I think using these tools to improve themselves is very valuable because you get to spend more of your time in the gray of actually trying to think how we make this system better.",
+  "zh": "我认为用这些工具来改进它们自身是非常有价值的,因为你可以把更多时间花在真正的灰色地带里,去思考我们如何让这个系统变得更好。"
+ },
+ {
+  "seg": 158,
+  "start": 907.937,
+  "end": 912.518,
+  "speaker": "Unknown",
+  "en": "And so if you're building an agent, I implore you to use Weights and Biases to both track that agent, et cetera.",
+  "zh": "所以如果你在构建一个智能体,我恳请你使用 Weights and Biases 来追踪那个智能体,等等。"
+ },
+ {
+  "seg": 159,
+  "start": 912.538,
+  "end": 914.799,
+  "speaker": "Unknown",
+  "en": "We have a really excellent model tracking platform as well.",
+  "zh": "我们还有一个非常出色的模型追踪平台。"
+ },
+ {
+  "seg": 160,
+  "start": 915.059,
+  "end": 925.202,
+  "speaker": "Unknown",
+  "en": "So some of the other demos that we've shown here are ARIA training machine learning models on H200s, running on core infrastructure, and doing auto research for Karpathy's NanoChat, et cetera, or full-scale production projects.",
+  "zh": "我们在这里展示的其他一些演示包括 ARIA 在 H200 上训练机器学习模型,运行在 core 基础设施上,并为 Karpathy 的 NanoChat 做自动化研究,等等,或者是完整规模的生产项目。"
+ },
+ {
+  "seg": 161,
+  "start": 925.562,
+  "end": 930.223,
+  "speaker": "Unknown",
+  "en": "But I think the exciting thing in this case for me is that I don't need to leave this platform in order to do my job now.",
+  "zh": "但我认为这个案例里让我兴奋的地方在于,我现在不需要离开这个平台就能完成我的工作。"
+ },
+ {
+  "seg": 162,
+  "start": 930.703,
+  "end": 933.025,
+  "speaker": "Unknown",
+  "en": "I have full observability from a production standpoint.",
+  "zh": "我从生产角度拥有完整的可观测性。"
+ },
+ {
+  "seg": 163,
+  "start": 933.125,
+  "end": 935.007,
+  "speaker": "Unknown",
+  "en": "I have full observability from an offline standpoint.",
+  "zh": "我从离线角度也拥有完整的可观测性。"
+ },
+ {
+  "seg": 164,
+  "start": 935.227,
+  "end": 940.431,
+  "speaker": "Unknown",
+  "en": "And if we look at the things that Aria is saying, it's running lots of evaluations on my behalf to improve itself.",
+  "zh": "如果我们看 Aria 所说的内容,它在代表我运行大量的评估来改进它自己。"
+ },
+ {
+  "seg": 165,
+  "start": 940.952,
+  "end": 953.903,
+  "speaker": "Unknown",
+  "en": "And that auto mode that I just mentioned is really exciting because now I get to spend all of my time thinking about how I can make this system reinforce itself better, the tight little guardrails that I can put around it to make it a more useful tool for all of you and then inherently for me.",
+  "zh": "而我刚才提到的那个自动模式真的非常令人兴奋,因为现在我可以把所有时间都花在思考如何让这个系统更好地强化自身,我可以在它周围设置哪些严密的护栏,使它成为一个对你们所有人、也因此对我自己更有用的工具。"
+ },
+ {
+  "seg": 166,
+  "start": 955.527,
+  "end": 957.309,
+  "speaker": "Unknown",
+  "en": "But yeah, that's a quick demo.",
+  "zh": "好的,这就是一个快速演示。"
+ },
+ {
+  "seg": 167,
+  "start": 957.389,
+  "end": 959.971,
+  "speaker": "Unknown",
+  "en": "We can look at the production call trace that we have here from ARIA.",
+  "zh": "我们可以看看这里来自 ARIA 的生产调用追踪。"
+ },
+ {
+  "seg": 168,
+  "start": 960.332,
+  "end": 961.693,
+  "speaker": "Unknown",
+  "en": "This is the evaluation that it just ran.",
+  "zh": "这是它刚刚运行的那个评估。"
+ },
+ {
+  "seg": 169,
+  "start": 961.773,
+  "end": 965.957,
+  "speaker": "Unknown",
+  "en": "So if we look into the actual trace, we'll see that ARIA did a bunch of work.",
+  "zh": "如果我们深入看实际的追踪,我们会看到 ARIA 做了大量工作。"
+ },
+ {
+  "seg": 170,
+  "start": 965.977,
+  "end": 967.238,
+  "speaker": "Unknown",
+  "en": "It ran this predict and score column.",
+  "zh": "它运行了这个 predict 和 score 列。"
+ },
+ {
+  "seg": 171,
+  "start": 967.258,
+  "end": 968.88,
+  "speaker": "Unknown",
+  "en": "We have a bunch of tool calls that ran.",
+  "zh": "我们有一堆运行过的工具调用。"
+ },
+ {
+  "seg": 172,
+  "start": 969.561,
+  "end": 972.023,
+  "speaker": "Unknown",
+  "en": "And if we hop back into the chat, we'll see the actual variant that it ran.",
+  "zh": "而如果我们跳回聊天界面,我们会看到它实际运行的变体。"
+ },
+ {
+  "seg": 173,
+  "start": 972.943,
+  "end": 981.326,
+  "speaker": "Unknown",
+  "en": "It looks like the candidate variant just had a tight little prompt that we injected into the system prompt or in one of the skills to sort of solve that exact SDK error and mitigate it.",
+  "zh": "看起来候选变体只是有一个很简短的提示词,我们把它注入到了 system prompt 或者某个技能里,以解决那个具体的 SDK 错误并缓解它。"
+ },
+ {
+  "seg": 174,
+  "start": 981.346,
+  "end": 988.628,
+  "speaker": "Unknown",
+  "en": "And that kind of replication from production to simulation to agent then defining the improvement pattern is the thing that I really would like to leave everybody with.",
+  "zh": "这种从生产到仿真再到智能体、然后定义改进模式的复现流程,就是我真正想留给大家的东西。"
+ },
+ {
+  "seg": 175,
+  "start": 990.954,
+  "end": 992.255,
+  "speaker": "Unknown",
+  "en": "So that's CoreWeave Aria.",
+  "zh": "这就是 CoreWeave Aria。"
+ },
+ {
+  "seg": 176,
+  "start": 993.055,
+  "end": 994.356,
+  "speaker": "Unknown",
+  "en": "Welcome to Weights and Biases.",
+  "zh": "欢迎来到 Weights and Biases。"
+ },
+ {
+  "seg": 177,
+  "start": 994.396,
+  "end": 1004.621,
+  "speaker": "Unknown",
+  "en": "I hope that was an interesting talk in sort of how we decide to build our offline evaluation metrics, how we reap data from production, and the flywheel of trying to build these agents, and the things that I think about on a day-to-day basis.",
+  "zh": "我希望这个演讲是有趣的,关于我们如何决定构建离线评估指标,如何从生产中回收数据,以及构建这些智能体的飞轮,还有我日常思考的那些事情。"
+ },
+ {
+  "seg": 178,
+  "start": 1005.441,
+  "end": 1006.662,
+  "speaker": "Unknown",
+  "en": "And yeah, let's get started.",
+  "zh": "好,让我们开始吧。"
+ },
+ {
+  "seg": 179,
+  "start": 1007.102,
+  "end": 1007.782,
+  "speaker": "Unknown",
+  "en": "Thank you all so much.",
+  "zh": "非常感谢大家。"
+ }
+]

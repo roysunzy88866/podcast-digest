@@ -1,0 +1,939 @@
+{
+  "episode_id": "2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges",
+  "podcast": "精选演讲",
+  "date": "2026-09-25",
+  "tags": [
+    "推荐系统",
+    "LLM",
+    "Semantic ID",
+    "扩展定律",
+    "消费级 AI"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "devansh-tandon",
+      "type": "person",
+      "role": "guest",
+      "name": "Devansh Tandon",
+      "file": "Devansh Tandon",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "嘉宾所在的团队 Meta Recommendations Research 负责训练驱动 Instagram、Facebook 广告及全家桶应用的前沿模型、LLM 和推荐系统;并以 Reels 观看时长同比 +30% 等财报数据作为幂律扩展曲线的真实例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            50.074,
+            52.575
+          ],
+          "quote": "I currently work at Meta on research and product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            53.335,
+            66.219
+          ],
+          "quote": "I lead a team called Meta Recommendations Research, which is this group that's training frontier models, LLMs, and recommenders that power Instagram, Facebook ads, the Meta family of apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            107.476,
+            114.178
+          ],
+          "quote": "YouTube, Meta, Spotify, DoorDash, across the industry, and we have a couple of examples of that later today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            226.345,
+            233.611
+          ],
+          "quote": "Here's a real example from Meta that demonstrates these power law scaling curves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            259.863,
+            263.785
+          ],
+          "quote": "Here's a couple of examples I have from Meta's recent earnings reports.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "Meta 的核心产品面,本集用它的 Reels 观看时长增长、「你的算法」可交互推荐功能、以及把 Reel 视频压缩到约 10 个 token 的例子贯穿全篇。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            53.335,
+            66.219
+          ],
+          "quote": "I lead a team called Meta Recommendations Research, which is this group that's training frontier models, LLMs, and recommenders that power Instagram, Facebook ads, the Meta family of apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            264.565,
+            268.687
+          ],
+          "quote": "Instagram Reels had a strong quarter, 30% year-on-year watch time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            285.635,
+            292.42
+          ],
+          "quote": "We doubled the length of user interaction sequences used for training Instagram and increased the richness of each user interaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            603.027,
+            616.922
+          ],
+          "quote": "You want to be reasoning over these long sequences of user interactions, and if you don't compress the content, for example, a three-minute Instagram Reel video would be 10,000 tokens, and it will just fill up the context window too quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            621.326,
+            623.947
+          ],
+          "quote": "And so here I have some examples of Instagram reels about tennis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            752.09,
+            755.453
+          ],
+          "quote": "Here's an example from your algorithm on Instagram.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            760.756,
+            773.565
+          ],
+          "quote": "It's a screenshot from scrolling through Reels, or when you click in, you can understand what the Instagram algorithm thinks about you and your interests, and then you can add or remove interests and talk to it in natural language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            897.522,
+            901.583
+          ],
+          "quote": "So on the left you have content feeds like Instagram, Facebook, TikTok, and YouTube.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": true,
+      "how_described": "嘉宾此前在 Google 参与的核心 ML 团队之一;本集把 YouTube 列为 semantic ID / 生成式检索已规模化的公司,并举其「自定义信息流」为可引导推荐的行业例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.44,
+            73.847
+          ],
+          "quote": "Before this I was at Google for a long time working on a lot of the key ML teams including DeepMind and YouTube.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            74.628,
+            83.599
+          ],
+          "quote": "Last year I gave a talk at AI Engineer called Teaching Gemini to Speak YouTube about two ideas, semantic IDs and generative retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            107.476,
+            114.178
+          ],
+          "quote": "YouTube, Meta, Spotify, DoorDash, across the industry, and we have a couple of examples of that later today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            832.116,
+            840.862
+          ],
+          "quote": "We have some examples of prompted playlists from Spotify, custom feeds from YouTube, Ask DoorDash, and we'll be hearing more from speakers about these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            897.522,
+            901.583
+          ],
+          "quote": "So on the left you have content feeds like Instagram, Facebook, TikTok, and YouTube.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": true,
+      "how_described": "本集说 semantic ID 与生成式检索的想法已在 Spotify 等公司走向规模化生产;并举其「提示词歌单」作为可交互推荐的行业案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            107.476,
+            114.178
+          ],
+          "quote": "YouTube, Meta, Spotify, DoorDash, across the industry, and we have a couple of examples of that later today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            832.116,
+            840.862
+          ],
+          "quote": "We have some examples of prompted playlists from Spotify, custom feeds from YouTube, Ask DoorDash, and we'll be hearing more from speakers about these.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": true,
+      "how_described": "与 YouTube、Meta、Spotify 并列被举为已把 semantic ID/生成式检索推向生产的公司;其 Ask DoorDash 被举为可交互推荐的产品面例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            107.476,
+            114.178
+          ],
+          "quote": "YouTube, Meta, Spotify, DoorDash, across the industry, and we have a couple of examples of that later today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            832.116,
+            840.862
+          ],
+          "quote": "We have some examples of prompted playlists from Spotify, custom feeds from YouTube, Ask DoorDash, and we'll be hearing more from speakers about these.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recommendation-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "推荐系统 (recommendation systems)",
+      "file": "推荐系统",
+      "primary": true,
+      "how_described": "本集主线:推荐系统遵循与 LLM 相同的幂律扩展曲线,是 LLM 浪潮前大科技公司最大的生产级 ML 模型,并将被 LLM 推荐器彻底改变,成为最大的消费级 AI 应用之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.154,
+            37.978
+          ],
+          "quote": "The first is that recommendation systems scale just like LLMs do, and that the field is very early in that scaling curve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            179.402,
+            183.503
+          ],
+          "quote": "It turns out that recommendation systems follow a very similar scaling law.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 作为推荐的基底:适配成既懂英语又懂领域语言的「双语模型」,直接从内容语料库解码推荐;LLM 推荐器被称为 AI 最大的消费级应用之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.972,
+            16.925
+          ],
+          "quote": "Thank you for coming out to the LLM Rexis track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            22.09,
+            26.813
+          ],
+          "quote": "My talk's titled, Tokens and Engagement Out, Training LLM Recommenders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            39.118,
+            45.221
+          ],
+          "quote": "And the second is that the LLM recommender's gonna be one of the biggest consumer applications of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            376.833,
+            382.876
+          ],
+          "quote": "The next curve is kind of LLM-inspired models, where you are scaling models ideally end-to-end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            394.878,
+            405.873
+          ],
+          "quote": "I think the next S-curve will be this paradigm of LLM native where you adapt a base model that understands and can reason and adapt it for recommendation tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            420.948,
+            433.612
+          ],
+          "quote": "So the LLM-native models are improving the core capabilities of the model, going from Opus 4.5 to 4.8, versus the agentic curve will be improving the coding harness behind Claude Code or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            468.162,
+            480.192
+          ],
+          "quote": "Most of recommendations, I think, lives in LLM-inspired today and is trying to graduate into LLM-native, but then a lot of companies are still using traditional models and climbing that S-curve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            482.46,
+            487.987
+          ],
+          "quote": "Let me shift gears a bit to share the recipe of how to actually build an LLM recommender.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            498.905,
+            506.611
+          ],
+          "quote": "Then you want to adapt the LLM so that it understands both English and your domain language and becomes this bilingual model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            518.098,
+            521.582
+          ],
+          "quote": "This is the LLM recommender as a five-layer cake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            523.824,
+            530.731
+          ],
+          "quote": "That's semantic ID where you're converting your content corpus into tokens that the LLM can understand and reason over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            531.391,
+            534.835
+          ],
+          "quote": "Then you have kind of the base LLM foundation model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            692.461,
+            702.564
+          ],
+          "quote": "So the input is a bunch of user information and 30 candidate videos that are then ranked to be the top five recommendations from this LLM ranker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            886.177,
+            896.721
+          ],
+          "quote": "And so if you try to compare content feeds and AI chat apps, I think that LLM recommenders are actually structurally more token efficient than the AI chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            947.156,
+            953.292
+          ],
+          "quote": "tokens output in every turn of an LLM chat interaction is a few thousand tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            1018.031,
+            1021.613
+          ],
+          "quote": "And these are going to be entirely transformed by LLM recommenders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            1049.947,
+            1058.777
+          ],
+          "quote": "And so this is why I think this is super exciting area of both research and product at this intersection of LLM and recommendations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-id",
+      "type": "concept",
+      "role": "concept",
+      "name": "Semantic ID(语义 ID) (semantic ID)",
+      "file": "Semantic ID(语义 ID)",
+      "primary": true,
+      "how_described": "把内容语料转换成 LLM 能理解和推理的 token,提供稳定的可学习表示(替代只能死记的 hash ID)并把内容压缩到约 10 个 token;已被业界大量采纳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            91.765,
+            106.676
+          ],
+          "quote": "The ideas behind semantic ID and generative retrieval have really taken off in the industry over the last year, and they've moved from more research to now scaled production systems, and I've seen exciting launches and papers from",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            523.824,
+            530.731
+          ],
+          "quote": "That's semantic ID where you're converting your content corpus into tokens that the LLM can understand and reason over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            642.579,
+            649.224
+          ],
+          "quote": "Once you have a semantic ID, you can train it to understand both English and semantic ID.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            649.825,
+            662.575
+          ],
+          "quote": "And so the task I have on the left for pre-training here is an example of where you prompt with a video with semantic ID ABC has the description blank, and the output is a shot that was instantly iconic from Wimbledon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            918.536,
+            922.198
+          ],
+          "quote": "The output for the content feed is a semantic ID token.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scaling",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩展定律 (scaling)",
+      "file": "扩展定律",
+      "primary": true,
+      "how_described": "本集论证推荐系统遵循与 LLM 一样的幂律扩展曲线:加大模型、数据、算力,推荐质量可预测地提升,且行业在这条曲线上仍非常早期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.154,
+            37.978
+          ],
+          "quote": "The first is that recommendation systems scale just like LLMs do, and that the field is very early in that scaling curve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            115.879,
+            133.984
+          ],
+          "quote": "This year I want to talk about four sections, recommendation scaling curves, a framework of four recommendation paradigm S-curves that we are climbing as an industry, sharing the recommender recipe, and finally this consumer AI app framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            135.762,
+            136.963
+          ],
+          "quote": "Let's start with scaling curves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            137.323,
+            143.267
+          ],
+          "quote": "So I wanted to start with this landmark scaling curve paper from 2020, which feels like a lifetime ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            147.67,
+            151.353
+          ],
+          "quote": "But the core idea that this paper shared is the power law of scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            179.402,
+            183.503
+          ],
+          "quote": "It turns out that recommendation systems follow a very similar scaling law.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            197.532,
+            200.154
+          ],
+          "quote": "And they follow this similar power loss scaling curve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            226.345,
+            233.611
+          ],
+          "quote": "Here's a real example from Meta that demonstrates these power law scaling curves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            251.458,
+            253.639
+          ],
+          "quote": "These scaling curves aren't just academic research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            271.283,
+            283.253
+          ],
+          "quote": "The optimizations we made to improve the quality of recommendations included simplifying our ranking architecture to enable efficient model scaling and longer interaction histories to identify a person's interests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            293.741,
+            298.045
+          ],
+          "quote": "So these are direct parallels to the power loss scaling curves for LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            299.378,
+            307.625
+          ],
+          "quote": "And I want to introduce this idea of a flywheel of tokens in engagement out, which is what's powering all of these RECS models scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            328.2,
+            337.305
+          ],
+          "quote": "And so every step on the scaling curve is one loop around this flywheel, and a lot of consumer apps are spinning this core flywheel at the heart of their business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            357.781,
+            363.165
+          ],
+          "quote": "They're running some type of two-tower, sparse network, rankers, scaling the embedding models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            376.833,
+            382.876
+          ],
+          "quote": "The next curve is kind of LLM-inspired models, where you are scaling models ideally end-to-end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            461.878,
+            467.162
+          ],
+          "quote": "I think companies are scaling across each of these curves in parallel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "「tokens 进、互动出」飞轮的一环:训练模型后运行推理生成推荐;本集并论证推荐器解码的是指向内容的指针,生成一小时互动的推理成本比 AI 聊天便宜 100 倍以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            308.086,
+            315.112
+          ],
+          "quote": "You train a model, you then run inference on it, which is the tokens in, that recommendation model results in better",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            850.234,
+            865.449
+          ],
+          "quote": "This flywheel that I started with of model training, inference, consumer engagement, and then monetization, this is actually the same flywheel that's shared by content feeds and the AI chat apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            878.625,
+            884.97
+          ],
+          "quote": "On the inference side, how well can the inference tokens translate into engagement and then monetization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            955.705,
+            960.567
+          ],
+          "quote": "And the big difference here is that every token has to be manufactured by the app at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            961.328,
+            982.838
+          ],
+          "quote": "And so what that means is if you compare these two apps on how much inference cost in compute is spent to generate an hour of consumer engagement, there's a huge structural gap where content feeds are significantly cheaper, up to 100 times or more cheaper than AI chat apps because they're decoding pointers to content rather than content itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "LLM 推荐器五层蛋糕中的一层:在英语和推荐 token 之间架桥,如由 semantic ID 生成视频文字描述、或在交互历史中遮住部分 semantic ID 让模型预测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            541.988,
+            545.911
+          ],
+          "quote": "Pre-training is around bridging English and these recommender tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            649.825,
+            662.575
+          ],
+          "quote": "And so the task I have on the left for pre-training here is an example of where you prompt with a video with semantic ID ABC has the description blank, and the output is a shot that was instantly iconic from Wimbledon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "五层蛋糕中的一层:把模型引向推荐任务,本集以 LLM 排序器对 30 个候选视频重排出前五条推荐为例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            546.472,
+            556.26
+          ],
+          "quote": "Post-training is about steering the model towards recommendation tasks, like predicting engagement or reasoning over recommendations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            687.859,
+            692.04
+          ],
+          "quote": "Here I have an example of post-training where we're teaching the model how to re-rank content.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "五层蛋糕的顶层:针对具体产品表面做轻量微调即可部署,因为大部分算力在所有产品表面之间共享。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            557.452,
+            563.24
+          ],
+          "quote": "And then finally, you can just do some light surface-specific fine-tuning to deploy it on a product surface.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "因为双语模型既懂英文又懂推荐,可直接查看它的思维链推理,理解它为何做出那样的推荐决策——算法第一次能解释自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            705.845,
+            717.696
+          ],
+          "quote": "You can see the chain of thought reasoning of this model, and because this model knows both English and recommendations, you can simply just inspect the model and understand why it made the decisions that it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            732.652,
+            736.516
+          ],
+          "quote": "And then it re-ranks the content based on this chain of thought reasoning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": false,
+      "how_described": "本集在论证内容必须压缩时提到:三分钟 Reel 不压缩是 10,000 个 token,会很快撑爆上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            603.027,
+            616.922
+          ],
+          "quote": "You want to be reasoning over these long sequences of user interactions, and if you don't compress the content, for example, a three-minute Instagram Reel video would be 10,000 tokens, and it will just fill up the context window too quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "被列为 AI 聊天应用代表之一,作为内容信息流的对照(服务 100 亿到 1000 亿活跃参数的大模型、须自己制造每个 token)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            901.983,
+            905.965
+          ],
+          "quote": "On the right you have the big AI chat apps like Gemini, ChatGPT, and Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "与 ChatGPT、Gemini 并列的 AI 聊天应用代表;agentic 曲线的类比也用了 Claude Code/Codex。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            420.948,
+            433.612
+          ],
+          "quote": "So the LLM-native models are improving the core capabilities of the model, going from Opus 4.5 to 4.8, versus the agentic curve will be improving the coding harness behind Claude Code or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            901.983,
+            905.965
+          ],
+          "quote": "On the right you have the big AI chat apps like Gemini, ChatGPT, and Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

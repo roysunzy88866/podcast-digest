@@ -1,0 +1,1466 @@
+[
+ {
+  "seg": 0,
+  "start": 13.042,
+  "end": 13.723,
+  "speaker": "Unknown",
+  "en": "Hello everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.364,
+  "end": 15.106,
+  "speaker": "Unknown",
+  "en": "How's everyone doing?",
+  "zh": "大家过得怎么样？"
+ },
+ {
+  "seg": 2,
+  "start": 16.869,
+  "end": 17.27,
+  "speaker": "Unknown",
+  "en": "Woo!",
+  "zh": "哦！"
+ },
+ {
+  "seg": 3,
+  "start": 17.931,
+  "end": 19.914,
+  "speaker": "Unknown",
+  "en": "Are you guys ready for some more loops?",
+  "zh": "你们准备好再听一些关于循环的内容了吗？"
+ },
+ {
+  "seg": 4,
+  "start": 21.056,
+  "end": 21.617,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 5,
+  "start": 22.579,
+  "end": 23.359,
+  "speaker": "Unknown",
+  "en": "My name is Roland.",
+  "zh": "我叫 Roland。"
+ },
+ {
+  "seg": 6,
+  "start": 23.86,
+  "end": 29.922,
+  "speaker": "Unknown",
+  "en": "My co-founder and I were in this mythical place called XAI working hard on agent infra.",
+  "zh": "我和我的联合创始人曾在这个神话般的地方，叫做 XAI，努力做智能体基础设施。"
+ },
+ {
+  "seg": 7,
+  "start": 30.463,
+  "end": 34.765,
+  "speaker": "Unknown",
+  "en": "And we realized there's something new that has to be done in a standalone way.",
+  "zh": "然后我们意识到，有一些新的事情必须以独立的方式去做。"
+ },
+ {
+  "seg": 8,
+  "start": 35.285,
+  "end": 44.549,
+  "speaker": "Unknown",
+  "en": "So we left a few months ago to really figure out, OK, what's the next stage of how we should deploy these always-on, long-running Horizon tasks?",
+  "zh": "所以几个月前我们离开了，真正去搞清楚，OK，我们该如何部署这些常驻的、长时间运行的 Horizon 任务的下一个阶段是什么？"
+ },
+ {
+  "seg": 9,
+  "start": 47.01,
+  "end": 50.793,
+  "speaker": "Unknown",
+  "en": "I'm happy to announce we have a few findings that we would like to present you.",
+  "zh": "我很高兴地宣布，我们有一些发现想要展示给你们。"
+ },
+ {
+  "seg": 10,
+  "start": 52.014,
+  "end": 59.82,
+  "speaker": "Unknown",
+  "en": "And this talk, it's all about how you should productize these ideas in ways that can scale with your customers.",
+  "zh": "而这场演讲，完全是关于你应该如何以能随客户规模扩展的方式，把这些想法产品化。"
+ },
+ {
+  "seg": 11,
+  "start": 61.261,
+  "end": 63.963,
+  "speaker": "Unknown",
+  "en": "You've heard a lot about auto research.",
+  "zh": "你们已经听了很多关于 auto research 的内容。"
+ },
+ {
+  "seg": 12,
+  "start": 65.004,
+  "end": 69.447,
+  "speaker": "Unknown",
+  "en": "We think there's a blueprint for 2026 and beyond on how you should think about auto research.",
+  "zh": "我们认为，关于你应该如何思考 auto research，有一个面向 2026 及以后的蓝图。"
+ },
+ {
+  "seg": 13,
+  "start": 70.608,
+  "end": 72.89,
+  "speaker": "Unknown",
+  "en": "And it really comes down to three ideas.",
+  "zh": "而它归结为三个想法。"
+ },
+ {
+  "seg": 14,
+  "start": 74.611,
+  "end": 75.552,
+  "speaker": "Unknown",
+  "en": "Let's go to the first one.",
+  "zh": "让我们进入第一个。"
+ },
+ {
+  "seg": 15,
+  "start": 76.818,
+  "end": 78.058,
+  "speaker": "Unknown",
+  "en": "The loop is the product.",
+  "zh": "循环就是产品。"
+ },
+ {
+  "seg": 16,
+  "start": 81.4,
+  "end": 82.44,
+  "speaker": "Unknown",
+  "en": "We're all familiar with this.",
+  "zh": "我们都对此很熟悉。"
+ },
+ {
+  "seg": 17,
+  "start": 83.12,
+  "end": 91.143,
+  "speaker": "Unknown",
+  "en": "We've started with everything goes down to RLHF for models and how you should train the model to become better and better reasoning.",
+  "zh": "我们从一切都归结为模型的 RLHF、以及你应该如何训练模型使推理变得越来越好开始。"
+ },
+ {
+  "seg": 18,
+  "start": 91.664,
+  "end": 96.945,
+  "speaker": "Unknown",
+  "en": "We then quickly moved to harnesses and how the model is a commodity and it's all about the harness.",
+  "zh": "然后我们很快转向 harness，模型成了商品，一切都取决于 harness。"
+ },
+ {
+  "seg": 19,
+  "start": 97.706,
+  "end": 102.868,
+  "speaker": "Unknown",
+  "en": "And now we're talking about loops and how you should build these loops and not touch code anymore.",
+  "zh": "现在我们在谈论循环，谈论你应该如何构建这些循环，不再去碰代码。"
+ },
+ {
+  "seg": 20,
+  "start": 103.228,
+  "end": 106.209,
+  "speaker": "Unknown",
+  "en": "But what does it really mean and why is everyone saying that?",
+  "zh": "但这到底意味着什么，为什么所有人都在这么说？"
+ },
+ {
+  "seg": 21,
+  "start": 107.98,
+  "end": 109.482,
+  "speaker": "Unknown",
+  "en": "Do you guys remember ClaudeBot?",
+  "zh": "你们还记得 ClaudeBot 吗？"
+ },
+ {
+  "seg": 22,
+  "start": 110.603,
+  "end": 116.049,
+  "speaker": "Unknown",
+  "en": "That was the original name of what is now known as OpenClaw.",
+  "zh": "那就是现在被称为 OpenClaw 的东西最初的名字。"
+ },
+ {
+  "seg": 23,
+  "start": 116.749,
+  "end": 121.955,
+  "speaker": "Unknown",
+  "en": "And this guy, AJ, built the first loop around ClaudeBot.",
+  "zh": "而这个人，AJ，围绕 ClaudeBot 构建了第一个循环。"
+ },
+ {
+  "seg": 24,
+  "start": 123.36,
+  "end": 131.321,
+  "speaker": "Unknown",
+  "en": "What he did was to find a way to talk to dealers and talk to Reddit users to get bigger discounts on a car.",
+  "zh": "他所做的是找到一种方法，去和经销商谈、和 Reddit 用户谈，为一辆车拿到更大的折扣。"
+ },
+ {
+  "seg": 25,
+  "start": 132.202,
+  "end": 133.382,
+  "speaker": "Unknown",
+  "en": "He followed these four steps.",
+  "zh": "他遵循了这四个步骤。"
+ },
+ {
+  "seg": 26,
+  "start": 134.462,
+  "end": 136.642,
+  "speaker": "Unknown",
+  "en": "And he's really OpenClaw, the one that did it.",
+  "zh": "而真正做到这件事的，正是 OpenClaw。"
+ },
+ {
+  "seg": 27,
+  "start": 137.543,
+  "end": 149.825,
+  "speaker": "Unknown",
+  "en": "Go on Reddit, find prices, find inventory, talk to the dealers, put dealers head to head, and try to figure out how to make them outbid each other.",
+  "zh": "上 Reddit，找价格，找库存，和经销商谈，让经销商正面竞争，并设法让他们互相竞价。"
+ },
+ {
+  "seg": 28,
+  "start": 151.291,
+  "end": 158.433,
+  "speaker": "Unknown",
+  "en": "Have a verifiable way to know when the price is right and then lock in, get the car.",
+  "zh": "有一种可验证的方式知道价格何时合适，然后锁定，拿下那辆车。"
+ },
+ {
+  "seg": 29,
+  "start": 158.913,
+  "end": 159.413,
+  "speaker": "Unknown",
+  "en": "And it worked.",
+  "zh": "而且它成功了。"
+ },
+ {
+  "seg": 30,
+  "start": 160.773,
+  "end": 178.477,
+  "speaker": "Unknown",
+  "en": "Probably this was when all the Mac minis were selling off the shelves, but this was the first real example of loop is the product and something that probably should be a startup at this point, but we've seen how this became a recipe for everyone to build loops.",
+  "zh": "那段时间可能所有 Mac mini 都被抢购一空，但这是「循环就是产品」的第一个真实例子，而且在此时它大概应该已经是一家创业公司了，但我们已经看到这如何变成了所有人构建循环的配方。"
+ },
+ {
+  "seg": 31,
+  "start": 179.632,
+  "end": 180.652,
+  "speaker": "Unknown",
+  "en": "But let's take a step back.",
+  "zh": "但让我们退一步。"
+ },
+ {
+  "seg": 32,
+  "start": 181.173,
+  "end": 181.993,
+  "speaker": "Unknown",
+  "en": "Why are we here?",
+  "zh": "我们为什么在这里？"
+ },
+ {
+  "seg": 33,
+  "start": 183.513,
+  "end": 189.435,
+  "speaker": "Unknown",
+  "en": "We really think models have been trained with this loop in mind, and it comes from this idea of OODA loops.",
+  "zh": "我们真的认为，模型在训练时就是以这个循环为前提的，它源自 OODA 循环这个概念。"
+ },
+ {
+  "seg": 34,
+  "start": 190.516,
+  "end": 203.32,
+  "speaker": "Unknown",
+  "en": "It's a terminology coined back in 1970s by the US Air Force, and it's the idea of these jet fighters, how to react in fast-paced environments.",
+  "zh": "这是上世纪 70 年代美国空军创造的术语，讲的是这些喷气式战斗机如何在快节奏环境中做出反应。"
+ },
+ {
+  "seg": 35,
+  "start": 204.782,
+  "end": 213.591,
+  "speaker": "Unknown",
+  "en": "If you think of models calling tools and taking observations, it's what we've been trained on as humans but also as agents now.",
+  "zh": "如果你想想模型调用工具并进行观察，这是我们作为人类一直在训练的东西，现在也是作为智能体所训练的东西。"
+ },
+ {
+  "seg": 36,
+  "start": 214.232,
+  "end": 221.039,
+  "speaker": "Unknown",
+  "en": "Now, what happens when you put strong signals and verifiable work at the other ends?",
+  "zh": "那么，当你在另一端加上强信号和可验证的工作时，会发生什么？"
+ },
+ {
+  "seg": 37,
+  "start": 221.62,
+  "end": 224.862,
+  "speaker": "Unknown",
+  "en": "You get to these workers or Claude Code agents.",
+  "zh": "你就得到了这些 worker 或 Claude Code 智能体。"
+ },
+ {
+  "seg": 38,
+  "start": 225.482,
+  "end": 243.394,
+  "speaker": "Unknown",
+  "en": "And what matters here is the quality of the signal determines the success rate of the loop, and the quality of the verifier is able to calibrate if that success is actually correct or not.",
+  "zh": "这里重要的是，信号的质量决定了循环的成功率，而验证器的质量能够校准这个成功是否真的正确。"
+ },
+ {
+  "seg": 39,
+  "start": 244.671,
+  "end": 245.772,
+  "speaker": "Unknown",
+  "en": "But there's another loop here.",
+  "zh": "但这里还有另一个循环。"
+ },
+ {
+  "seg": 40,
+  "start": 246.914,
+  "end": 249.957,
+  "speaker": "Unknown",
+  "en": "What happens when you take that and feed it back into the signal?",
+  "zh": "当你把那个结果反馈回信号时，会发生什么？"
+ },
+ {
+  "seg": 41,
+  "start": 250.558,
+  "end": 262.952,
+  "speaker": "Unknown",
+  "en": "And this is what looping around is all about, is how do you generate these artifacts at the end of the first loop to then run a second loop on and have a way to continuously improve?",
+  "zh": "而这就是「循环环绕」的全部意义所在：你如何在第一个循环的末端生成这些工件，然后在上面运行第二个循环，从而拥有持续改进的方式？"
+ },
+ {
+  "seg": 42,
+  "start": 264.232,
+  "end": 266.133,
+  "speaker": "Unknown",
+  "en": "And this goes to my second point.",
+  "zh": "这就引出了我的第二个观点。"
+ },
+ {
+  "seg": 43,
+  "start": 266.713,
+  "end": 268.033,
+  "speaker": "Unknown",
+  "en": "System distillation is the mode.",
+  "zh": "系统蒸馏是模式。"
+ },
+ {
+  "seg": 44,
+  "start": 268.954,
+  "end": 278.937,
+  "speaker": "Unknown",
+  "en": "And it's really the ability to understand what went well and wrong in the first loop and know how to process that in the second one.",
+  "zh": "它正是理解第一个循环中什么做得好、什么做错了，并知道如何在第二个循环中处理这些信息的能力。"
+ },
+ {
+  "seg": 45,
+  "start": 280.137,
+  "end": 281.758,
+  "speaker": "Unknown",
+  "en": "So how do we tune these AI systems?",
+  "zh": "那么我们该如何调优这些 AI 系统？"
+ },
+ {
+  "seg": 46,
+  "start": 282.958,
+  "end": 291.561,
+  "speaker": "Unknown",
+  "en": "Each loop generates useful information around harnesses, profiles, evals, models, resources, tools, and the environment.",
+  "zh": "每个循环都会生成关于 harness、配置、评测、模型、资源、工具和环境的有用信息。"
+ },
+ {
+  "seg": 47,
+  "start": 292.361,
+  "end": 293.822,
+  "speaker": "Unknown",
+  "en": "What you really want is",
+  "zh": "你真正想要的是"
+ },
+ {
+  "seg": 48,
+  "start": 295.347,
+  "end": 300.517,
+  "speaker": "Unknown",
+  "en": "To have a way to keep this portable, to have a way to version this, and to evolve it over time.",
+  "zh": "有一种方式保持它的可移植性，有一种方式对它做版本管理，并随时间演进它。"
+ },
+ {
+  "seg": 49,
+  "start": 301.779,
+  "end": 308.582,
+  "speaker": "Unknown",
+  "en": "If you think about data recipes in research, this is how RL started to work really well.",
+  "zh": "如果你想想研究中的数据配方，这就是 RL 开始真正运作良好的方式。"
+ },
+ {
+  "seg": 50,
+  "start": 308.822,
+  "end": 322.087,
+  "speaker": "Unknown",
+  "en": "You understood the recipes and how to continuously change the recipe to combat some of the behaviors that may happen around hallucinations, around reward hacking, and then you get to your stack, which is your final data recipe.",
+  "zh": "你理解了那些配方，以及如何持续调整配方来对抗一些可能发生的行为，比如围绕幻觉的、围绕奖励作弊的，然后你得到你的技术栈，也就是你最终的数据配方。"
+ },
+ {
+  "seg": 51,
+  "start": 322.667,
+  "end": 323.987,
+  "speaker": "Unknown",
+  "en": "We don't have that for harnesses.",
+  "zh": "我们对 harness 还没有这样的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 324.008,
+  "end": 327.129,
+  "speaker": "Unknown",
+  "en": "We don't have that for, like, AI systems in the general term.",
+  "zh": "我们对广义上的 AI 系统也还没有这样的东西。"
+ },
+ {
+  "seg": 53,
+  "start": 328.049,
+  "end": 344.959,
+  "speaker": "Unknown",
+  "en": "So we thought there's space for something like that, something that contains the evals and contains the tweaks and the human judgment and all these things that are not predetermined at the beginning, but they're defined as you learn more about your agent acting in the environment.",
+  "zh": "所以我们觉得有空间做这样的东西，一个包含 evals、包含调整和人类判断的东西，以及所有这些在一开始并非预先确定、而是在你不断了解你的智能体在环境中如何行动的过程中被定义出来的东西。"
+ },
+ {
+  "seg": 54,
+  "start": 347.16,
+  "end": 350.602,
+  "speaker": "Unknown",
+  "en": "We think recipes can be applied to this, and we should use the same name.",
+  "zh": "我们认为配方可以应用到这件事上，而且我们应该使用同一个名字。"
+ },
+ {
+  "seg": 55,
+  "start": 351.342,
+  "end": 357.306,
+  "speaker": "Unknown",
+  "en": "So an agent recipe is really something that enables you to create reproducible Frontier AI systems.",
+  "zh": "所以智能体配方本质上是让你能够创建可复现的前沿 AI 系统的东西。"
+ },
+ {
+  "seg": 56,
+  "start": 358.378,
+  "end": 367.285,
+  "speaker": "Unknown",
+  "en": "It's something that allows you to have a moat that keeps getting better over time, which is not tied to any platform or any provider.",
+  "zh": "它是一种让你拥有一个随时间不断变强的护城河的东西，而且它不绑定任何平台或任何提供商。"
+ },
+ {
+  "seg": 57,
+  "start": 367.545,
+  "end": 375.071,
+  "speaker": "Unknown",
+  "en": "It's something that you control, lives in your company, and is agnostic to the models and providers you use.",
+  "zh": "它是你所控制的东西，存在于你的公司里，并且对你使用的模型和提供商保持中立。"
+ },
+ {
+  "seg": 58,
+  "start": 376.131,
+  "end": 377.412,
+  "speaker": "Unknown",
+  "en": "And loops should focus on this.",
+  "zh": "而 loops 应该聚焦于此。"
+ },
+ {
+  "seg": 59,
+  "start": 377.653,
+  "end": 380.575,
+  "speaker": "Unknown",
+  "en": "Loops should be the way you distill these systems into recipes.",
+  "zh": "Loops 应该是你把这些系统蒸馏成配方的方式。"
+ },
+ {
+  "seg": 60,
+  "start": 381.862,
+  "end": 384.505,
+  "speaker": "Unknown",
+  "en": "Failure patterns should become judges and evals.",
+  "zh": "失败模式应该变成 judges 和 evals。"
+ },
+ {
+  "seg": 61,
+  "start": 385.145,
+  "end": 391.172,
+  "speaker": "Unknown",
+  "en": "Repeated behavior should become skills and prompts, user frustration, extensions and memories to your harness, and so on.",
+  "zh": "重复出现的行为应该变成技能和提示词，用户的挫败感应该变成你 harness 的扩展和记忆，诸如此类。"
+ },
+ {
+  "seg": 62,
+  "start": 392.347,
+  "end": 399.029,
+  "speaker": "Unknown",
+  "en": "We're all familiar with this, but we do not have the right terminology of how we should think about it and how we should define it.",
+  "zh": "我们都对此很熟悉，但我们没有正确的术语来描述我们应该如何思考它以及如何定义它。"
+ },
+ {
+  "seg": 63,
+  "start": 399.569,
+  "end": 414.455,
+  "speaker": "Unknown",
+  "en": "And we think recipes is a way to put everything together into a Git repo and treat it as your ongoing strategy for building these self-improving systems.",
+  "zh": "而我们认为配方是一种把所有东西放到一个 Git 仓库里、并把它当作你构建这些自我改进系统的持续策略的方式。"
+ },
+ {
+  "seg": 64,
+  "start": 416.035,
+  "end": 420.46,
+  "speaker": "Unknown",
+  "en": "We are introspection, but you can think of introspection as the way you generate these recipes.",
+  "zh": "我们是 introspection，但你可以把 introspection 理解为你生成这些配方的方式。"
+ },
+ {
+  "seg": 65,
+  "start": 420.5,
+  "end": 424.123,
+  "speaker": "Unknown",
+  "en": "So they're recipes for introspecting on your system.",
+  "zh": "所以它们是对你的系统进行 introspection 的配方。"
+ },
+ {
+  "seg": 66,
+  "start": 425.184,
+  "end": 428.848,
+  "speaker": "Unknown",
+  "en": "We wanted to build something that is portable and provider-agnostic.",
+  "zh": "我们想要构建一个可移植的、对提供商中立的东西。"
+ },
+ {
+  "seg": 67,
+  "start": 429.248,
+  "end": 435.635,
+  "speaker": "Unknown",
+  "en": "So we built our approach to recipes on the pie harness and on Harbor for evals.",
+  "zh": "所以我们把我们对配方的实现构建在 pie harness 之上，evals 则构建在 Harbor 之上。"
+ },
+ {
+  "seg": 68,
+  "start": 437.063,
+  "end": 447.625,
+  "speaker": "Unknown",
+  "en": "We baked it into Git repos, so everything could be versioned, and agents would have a way to continuously track how these change and why.",
+  "zh": "我们把它烘焙进 Git 仓库，这样一切都可以被版本化，智能体也就有办法持续追踪这些东西如何变化以及为什么变化。"
+ },
+ {
+  "seg": 69,
+  "start": 448.185,
+  "end": 451.106,
+  "speaker": "Unknown",
+  "en": "And it's meant to be owned by you, but managed by your agents.",
+  "zh": "它 meant 被你所拥有，但由你的智能体来管理。"
+ },
+ {
+  "seg": 70,
+  "start": 451.506,
+  "end": 454.306,
+  "speaker": "Unknown",
+  "en": "And this is how products should really be built going forward.",
+  "zh": "这就是今后产品真正应该被构建的方式。"
+ },
+ {
+  "seg": 71,
+  "start": 454.667,
+  "end": 461.548,
+  "speaker": "Unknown",
+  "en": "It's something that treats the owner as almost like the higher taste",
+  "zh": "它把拥有者当作房间里几乎是最高品味的那个人，"
+ },
+ {
+  "seg": 72,
+  "start": 462.77,
+  "end": 468.683,
+  "speaker": "Unknown",
+  "en": "personality in the room, but agents should try to calibrate themselves to the taste of the maker.",
+  "zh": "而智能体应该努力校准自己去匹配制作者的品味。"
+ },
+ {
+  "seg": 73,
+  "start": 469.955,
+  "end": 475.9,
+  "speaker": "Unknown",
+  "en": "So we think recipes should be basically encoding the taste of the makers into how you build these agents.",
+  "zh": "所以我们认为配方基本上就是把制作者的品味编码进你构建这些智能体的方式里。"
+ },
+ {
+  "seg": 74,
+  "start": 476.561,
+  "end": 481.305,
+  "speaker": "Unknown",
+  "en": "And if I want to use someone else's recipe, I should be able to also bring that taste.",
+  "zh": "而如果我想使用别人的配方，我也应该能够把那份品味一并带过来。"
+ },
+ {
+  "seg": 75,
+  "start": 481.545,
+  "end": 482.546,
+  "speaker": "Unknown",
+  "en": "It's not just the hardness.",
+  "zh": "不仅仅是 harness。(原文误作 hardness——照转写稿译出)"
+ },
+ {
+  "seg": 76,
+  "start": 482.626,
+  "end": 483.507,
+  "speaker": "Unknown",
+  "en": "It's not just the model.",
+  "zh": "不仅仅是模型。"
+ },
+ {
+  "seg": 77,
+  "start": 483.907,
+  "end": 487.291,
+  "speaker": "Unknown",
+  "en": "It's how did you arrive at this particular recipe and why.",
+  "zh": "而是你如何得出这个特定的配方，以及为什么。"
+ },
+ {
+  "seg": 78,
+  "start": 487.811,
+  "end": 492.775,
+  "speaker": "Unknown",
+  "en": "And that's kind of like what is behind reproducible",
+  "zh": "而这差不多就是可复现的产品"
+ },
+ {
+  "seg": 79,
+  "start": 494.92,
+  "end": 497.203,
+  "speaker": "Unknown",
+  "en": "products and services around agents.",
+  "zh": "和围绕智能体的服务背后的东西。"
+ },
+ {
+  "seg": 80,
+  "start": 497.523,
+  "end": 499.966,
+  "speaker": "Unknown",
+  "en": "We have an early release of recipes.",
+  "zh": "我们有一个配方的早期发布版本。"
+ },
+ {
+  "seg": 81,
+  "start": 500.427,
+  "end": 501.829,
+  "speaker": "Unknown",
+  "en": "It's called Py.Recipes.",
+  "zh": "它叫 Py.Recipes。"
+ },
+ {
+  "seg": 82,
+  "start": 502.39,
+  "end": 507.797,
+  "speaker": "Unknown",
+  "en": "It's very similar to what skills used to be in 2025, but is going a step forward.",
+  "zh": "它非常类似于 2025 年 skills 曾经的样子，但向前迈进了一步。"
+ },
+ {
+  "seg": 83,
+  "start": 508.237,
+  "end": 511.341,
+  "speaker": "Unknown",
+  "en": "And this is, what do I need to have a frontier agent?",
+  "zh": "那就是，要拥有一个前沿智能体，我需要什么？"
+ },
+ {
+  "seg": 84,
+  "start": 511.882,
+  "end": 515.145,
+  "speaker": "Unknown",
+  "en": "It's everything about how do I codify, paste into evals?",
+  "zh": "它包含了关于我如何把品味固化、沉淀进 evals 的一切？"
+ },
+ {
+  "seg": 85,
+  "start": 515.565,
+  "end": 516.526,
+  "speaker": "Unknown",
+  "en": "How do I run evals?",
+  "zh": "我如何运行 evals？"
+ },
+ {
+  "seg": 86,
+  "start": 516.786,
+  "end": 520.309,
+  "speaker": "Unknown",
+  "en": "How do we have the loops to continuously improve those evals over time?",
+  "zh": "我们如何拥有 loops 来随时间持续改进那些 evals？"
+ },
+ {
+  "seg": 87,
+  "start": 520.749,
+  "end": 525.333,
+  "speaker": "Unknown",
+  "en": "How do we process signals and know what are the right signals to use?",
+  "zh": "我们如何处理信号，并且知道哪些是应该使用的正确信号？"
+ },
+ {
+  "seg": 88,
+  "start": 525.613,
+  "end": 527.755,
+  "speaker": "Unknown",
+  "en": "What are the right tools to work with certain models?",
+  "zh": "哪些是与特定模型配合工作的正确工具？"
+ },
+ {
+  "seg": 89,
+  "start": 528.175,
+  "end": 531.578,
+  "speaker": "Unknown",
+  "en": "How do I have different profiles of the harness to work with different models?",
+  "zh": "我如何让 harness 有不同的配置档案来配合不同的模型？"
+ },
+ {
+  "seg": 90,
+  "start": 532.779,
+  "end": 533.859,
+  "speaker": "Unknown",
+  "en": "And everything in between.",
+  "zh": "以及介于其间的一切。"
+ },
+ {
+  "seg": 91,
+  "start": 534.74,
+  "end": 537.302,
+  "speaker": "Unknown",
+  "en": "So, have a look at what we've been building here.",
+  "zh": "所以，来看看我们在这里一直在构建的东西吧。"
+ },
+ {
+  "seg": 92,
+  "start": 537.322,
+  "end": 555.872,
+  "speaker": "Unknown",
+  "en": "It's still early, but hopefully it's useful enough for you guys to get going, and we feel this is going to grow into something that really allows you to use different, almost like different, to be able to use the taste of different makers as recipes for your agent.",
+  "zh": "它还很早期，但希望它对你们足够有用，能让你们上手，而且我们感觉它会成长为一个真正让你能够使用不同的——差不多是不同的——能够把不同制作者的品味当作你智能体的配方来使用的东西。"
+ },
+ {
+  "seg": 93,
+  "start": 558.262,
+  "end": 563.287,
+  "speaker": "Unknown",
+  "en": "And finally, the last point is valued work per watt, and why is this a score to really optimize for?",
+  "zh": "最后，最后一点是每瓦特有价值的工作(valued work per watt)，为什么这是一个真正值得优化的分数？"
+ },
+ {
+  "seg": 94,
+  "start": 563.868,
+  "end": 577.342,
+  "speaker": "Unknown",
+  "en": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+  "zh": "想想 Cursor 和 Cognition 是如何从构建最好的产品，到接着为产品构建最好的 evals，最后基于前两个产物构建最好的模型的。"
+ },
+ {
+  "seg": 95,
+  "start": 578.313,
+  "end": 581.796,
+  "speaker": "Unknown",
+  "en": "We think this is like the recipe for everything going forward.",
+  "zh": "我们认为这就是今后一切事情的配方。"
+ },
+ {
+  "seg": 96,
+  "start": 582.016,
+  "end": 585.099,
+  "speaker": "Unknown",
+  "en": "Code was the first domain where this was successful.",
+  "zh": "代码是第一个在这方面取得成功的领域。"
+ },
+ {
+  "seg": 97,
+  "start": 586.099,
+  "end": 595.147,
+  "speaker": "Unknown",
+  "en": "Everything beyond customer support, legal, research, everything is gonna come down to this idea, how much value am I getting per watt?",
+  "zh": "除此之外的一切——客户支持、法律、研究，一切——都将归结为这个想法：我每瓦特能获得多少价值？"
+ },
+ {
+  "seg": 98,
+  "start": 595.527,
+  "end": 602.833,
+  "speaker": "Unknown",
+  "en": "How do I measure the value is the first step, and how do I know I'm getting a good deal on that value is the second.",
+  "zh": "我如何衡量价值是第一步，我如何知道我在这个价值上拿到了一个好价是第二步。"
+ },
+ {
+  "seg": 99,
+  "start": 604.108,
+  "end": 605.789,
+  "speaker": "Unknown",
+  "en": "And maybe this makes it a bit more clear.",
+  "zh": "也许这能让它更清楚一点。"
+ },
+ {
+  "seg": 100,
+  "start": 606.389,
+  "end": 613.711,
+  "speaker": "Unknown",
+  "en": "We've all started from a base harness and a base set of evals, and we went to go to the frontier.",
+  "zh": "我们都是从一套基础 harness 和一组基础 evals 出发的，然后我们走向了前沿(frontier)。"
+ },
+ {
+  "seg": 101,
+  "start": 614.632,
+  "end": 617.433,
+  "speaker": "Unknown",
+  "en": "And you only go through that by running the systems in prod.",
+  "zh": "而你只有通过在生产环境中运行这些系统才能走到那一步。"
+ },
+ {
+  "seg": 102,
+  "start": 617.693,
+  "end": 622.514,
+  "speaker": "Unknown",
+  "en": "There's no way you know what frontier is before you start.",
+  "zh": "在你开始之前，你不可能知道前沿是什么。"
+ },
+ {
+  "seg": 103,
+  "start": 622.674,
+  "end": 631.797,
+  "speaker": "Unknown",
+  "en": "But the last step here, which is what is requiring a lot of research, is, okay, once you've reached frontier, how do we make this",
+  "zh": "但这里的最后一步，也就是需要大量研究的一步是：好，一旦你达到了前沿，我们如何让它"
+ },
+ {
+  "seg": 104,
+  "start": 633.998,
+  "end": 640.424,
+  "speaker": "Unknown",
+  "en": "economically viable, which is how do we not spend more than we need for generating this amount of value.",
+  "zh": "在经济上可行，也就是说我们如何不为产生这部分价值而花费超出必要的成本。"
+ },
+ {
+  "seg": 105,
+  "start": 641.305,
+  "end": 655.277,
+  "speaker": "Unknown",
+  "en": "And we think we have the building blocks now to make this accessible and pretty efficient in the sense of you've seen all these fine-tuning APIs, all the infrastructure that has been abstracted away for you to do this process.",
+  "zh": "而我们认为，我们现在已经有了构建模块，可以让这一切变得易于使用且相当高效，从这个意义上说，你已经见过所有这些微调 API,所有那些为了让你完成这一流程而替你抽象掉的基础设施。"
+ },
+ {
+  "seg": 106,
+  "start": 655.677,
+  "end": 658.22,
+  "speaker": "Unknown",
+  "en": "It's just a know-how that is not there yet.",
+  "zh": "只是目前还没有这种 know-how(实操知识)。"
+ },
+ {
+  "seg": 107,
+  "start": 659.104,
+  "end": 661.625,
+  "speaker": "Unknown",
+  "en": "And this is what we hope we can push for.",
+  "zh": "而这就是我们希望推动的方向。"
+ },
+ {
+  "seg": 108,
+  "start": 662.025,
+  "end": 667.387,
+  "speaker": "Unknown",
+  "en": "The know-how for knowing how to codify taste into evals and how to validate that in experiments.",
+  "zh": "这种 know-how 就是：知道如何把品味(taste)固化进 evals,以及如何在实验中验证它。"
+ },
+ {
+  "seg": 109,
+  "start": 668.507,
+  "end": 674.449,
+  "speaker": "Unknown",
+  "en": "And you've heard a lot about evals and experiments before, but you didn't really think of them of, like, what are they?",
+  "zh": "你之前已经听过很多关于 evals 和实验的内容，但你可能没有真正思考过：它们到底是什么？"
+ },
+ {
+  "seg": 110,
+  "start": 674.509,
+  "end": 675.849,
+  "speaker": "Unknown",
+  "en": "It's not just tests.",
+  "zh": "它们不只是测试。"
+ },
+ {
+  "seg": 111,
+  "start": 676.089,
+  "end": 683.532,
+  "speaker": "Unknown",
+  "en": "It's really what is the taste of the creator that agents should be able to reproduce and self-improve around.",
+  "zh": "它们真正代表的是：创作者的品味是什么，而智能体应该能够围绕它进行复现和自我改进。"
+ },
+ {
+  "seg": 112,
+  "start": 684.707,
+  "end": 688.849,
+  "speaker": "Unknown",
+  "en": "And no one has thought of, how do I make this as portable enough?",
+  "zh": "而且没有人思考过：我怎么把它做得足够可移植？"
+ },
+ {
+  "seg": 113,
+  "start": 688.909,
+  "end": 698.814,
+  "speaker": "Unknown",
+  "en": "How do I make my taste as an artist or as a software developer something that anyone can download in their brain and be able to be a one-to-one replica to me?",
+  "zh": "我怎么把我作为艺术家或软件开发者的品味，变成任何人都能下载进大脑、并且成为与我一对一复制品的东西？"
+ },
+ {
+  "seg": 114,
+  "start": 699.274,
+  "end": 705.277,
+  "speaker": "Unknown",
+  "en": "And this is kind of like what RL is about now, is how do we turn these",
+  "zh": "这大概就是现在 RL(强化学习)要做的事：我们如何把这些"
+ },
+ {
+  "seg": 115,
+  "start": 706.928,
+  "end": 712.831,
+  "speaker": "Unknown",
+  "en": "Tastemakers into environments and evals around them, so then we can move them into the weights.",
+  "zh": "品味塑造者(tastemakers)变成环境和围绕它们构建的 evals,这样我们就能把它们迁移进权重(weights)里。"
+ },
+ {
+  "seg": 116,
+  "start": 713.311,
+  "end": 715.212,
+  "speaker": "Unknown",
+  "en": "But there's more than that.",
+  "zh": "但不止如此。"
+ },
+ {
+  "seg": 117,
+  "start": 716.273,
+  "end": 720.134,
+  "speaker": "Unknown",
+  "en": "You can think of the worker as the inner loop, and it generates all these artifacts.",
+  "zh": "你可以把 worker 看作内循环(inner loop),它生成所有这些产物(artifacts)。"
+ },
+ {
+  "seg": 118,
+  "start": 720.475,
+  "end": 724.917,
+  "speaker": "Unknown",
+  "en": "But how you look at the artifacts and know what to change is the taste.",
+  "zh": "但你如何审视这些产物并知道该改什么，这就是品味。"
+ },
+ {
+  "seg": 119,
+  "start": 725.797,
+  "end": 731.499,
+  "speaker": "Unknown",
+  "en": "And this is what creates candidates of what you should change and how you should adapt based on that.",
+  "zh": "而这就是基于这些产物创建候选改动、以及你该如何据此调整的东西。"
+ },
+ {
+  "seg": 120,
+  "start": 731.959,
+  "end": 738.902,
+  "speaker": "Unknown",
+  "en": "And experiments is how you self calibrate that, okay, my taste is actually validated in production with users.",
+  "zh": "而实验(experiments)就是你自我校准的方式：好，我的品味实际上已在生产环境中经用户验证。"
+ },
+ {
+  "seg": 121,
+  "start": 739.282,
+  "end": 748.225,
+  "speaker": "Unknown",
+  "en": "And we make sure that not only the maker is happy through the offline evals, but the end users are happy as well and they agree with what we consider good.",
+  "zh": "我们要确保不仅创作者通过离线 evals 感到满意，终端用户也要满意，并且他们认同我们所认为的好。"
+ },
+ {
+  "seg": 122,
+  "start": 750.626,
+  "end": 752.827,
+  "speaker": "Unknown",
+  "en": "Let's go through a practical example of how this works.",
+  "zh": "我们来通过一个实际例子看看这是如何运作的。"
+ },
+ {
+  "seg": 123,
+  "start": 756.105,
+  "end": 760.529,
+  "speaker": "Unknown",
+  "en": "Let's take a baseline agent, which could be a talent sourcing agent.",
+  "zh": "我们以一个基线智能体为例，它可以是一个人才搜寻(talent sourcing)智能体。"
+ },
+ {
+  "seg": 124,
+  "start": 761.55,
+  "end": 766.975,
+  "speaker": "Unknown",
+  "en": "And this is a very classical case of everyone is doing recruiting differently.",
+  "zh": "这是一个非常经典的案例：每个人做招聘的方式都不一样。"
+ },
+ {
+  "seg": 125,
+  "start": 767.376,
+  "end": 768.217,
+  "speaker": "Unknown",
+  "en": "And it's very much",
+  "zh": "而这在很大程度上"
+ },
+ {
+  "seg": 126,
+  "start": 769.695,
+  "end": 776.779,
+  "speaker": "Unknown",
+  "en": "about not what is good recruiting, but who is leading that recruiting that considers recruiting is good.",
+  "zh": "不是关于什么是好的招聘，而是关于是谁在主导那次招聘、并认为这样的招聘是好的。"
+ },
+ {
+  "seg": 127,
+  "start": 777.099,
+  "end": 793.008,
+  "speaker": "Unknown",
+  "en": "So in this case, we're starting with something pretty simple, a bunch of tools, web search, LinkedIn, a bunch of sub-agents that have been pre-popularized by harnesses like Codex and Claude Code, and system instruction, which is about your recruiter.",
+  "zh": "所以在这个案例中，我们从一个相当简单的起点开始：一堆工具、web 搜索、LinkedIn、一堆已被 Codex 和 Claude Code 这类 harness 普及的子智能体(sub-agents),以及一条系统指令，内容是关于你的招聘人员。"
+ },
+ {
+  "seg": 128,
+  "start": 795.03,
+  "end": 797.071,
+  "speaker": "Unknown",
+  "en": "First step is really understand the signals.",
+  "zh": "第一步是真正理解信号(signals)。"
+ },
+ {
+  "seg": 129,
+  "start": 798.005,
+  "end": 808.921,
+  "speaker": "Unknown",
+  "en": "So you can think of patterns as being a way to look at the traces, extract some common behaviors or common user frustrations, and turn them into like a cluster.",
+  "zh": "你可以把 Patterns 看作一种审视轨迹(traces)、提取某些共性行为或常见用户不满、并把它们归成一个聚类(cluster)的方式。"
+ },
+ {
+  "seg": 130,
+  "start": 809.868,
+  "end": 815.593,
+  "speaker": "Unknown",
+  "en": "So let's say this idea of the agent is going and reaching out to a lot of big tech employees.",
+  "zh": "比如说，假设这个智能体正在大量联系大厂员工。"
+ },
+ {
+  "seg": 131,
+  "start": 816.353,
+  "end": 818.055,
+  "speaker": "Unknown",
+  "en": "As a recruiter, you don't really want that.",
+  "zh": "作为招聘人员，你其实不想要那样。"
+ },
+ {
+  "seg": 132,
+  "start": 818.155,
+  "end": 819.436,
+  "speaker": "Unknown",
+  "en": "You want to find hidden gems.",
+  "zh": "你想找到隐藏的宝石(hidden gems)。"
+ },
+ {
+  "seg": 133,
+  "start": 819.476,
+  "end": 822.078,
+  "speaker": "Unknown",
+  "en": "You don't want to try to hire John Carmack.",
+  "zh": "你不会想去挖 John Carmack。"
+ },
+ {
+  "seg": 134,
+  "start": 822.638,
+  "end": 826.001,
+  "speaker": "Unknown",
+  "en": "But an agent would think that, oh, John Carmack is great.",
+  "zh": "你只需要一个人在环(human in the loop)来说：嘿，这就是我们采取的思路。"
+ },
+ {
+  "seg": 135,
+  "start": 826.201,
+  "end": 828.503,
+  "speaker": "Unknown",
+  "en": "Why would I not reach out to him?",
+  "zh": "我为什么不联系他呢？"
+ },
+ {
+  "seg": 136,
+  "start": 828.623,
+  "end": 835.068,
+  "speaker": "Unknown",
+  "en": "So this is a behavior that you'd never think of codifying, but you discover the agent tends to do that.",
+  "zh": "所以这是一种你从不会想到要去固化的行为，但你发现智能体倾向于这么做。"
+ },
+ {
+  "seg": 137,
+  "start": 837.09,
+  "end": 841.594,
+  "speaker": "Unknown",
+  "en": "Patterns is how you discover the signals and inform you what you should do next.",
+  "zh": "Patterns 就是你发现这些信号、并告诉你下一步该做什么的方式。"
+ },
+ {
+  "seg": 138,
+  "start": 844.756,
+  "end": 857.987,
+  "speaker": "Unknown",
+  "en": "Calibration, judges and evals, is how we used to think about how do we codify these behaviors into something that can try to apply the same judgment across traces and across execution.",
+  "zh": "校准(calibration)、judges 和 evals,是我们过去思考如何把这些行为固化成某种东西的方式，它能在不同轨迹、不同执行之间尝试应用同样的判断。"
+ },
+ {
+  "seg": 139,
+  "start": 858.768,
+  "end": 865.751,
+  "speaker": "Unknown",
+  "en": "So, let's say we build an agent that looks at the trajectory and identifies exactly that pattern.",
+  "zh": "所以，假设我们构建一个智能体，它审视轨迹并精确识别出那个模式。"
+ },
+ {
+  "seg": 140,
+  "start": 865.991,
+  "end": 873.153,
+  "speaker": "Unknown",
+  "en": "Hey, did this agent reach out to Google employees instead of trying to find hidden gems on GitHub?",
+  "zh": "嘿，这个智能体是不是去联系了 Google 员工，而不是尝试在 GitHub 上寻找隐藏的宝石？"
+ },
+ {
+  "seg": 141,
+  "start": 873.553,
+  "end": 878.975,
+  "speaker": "Unknown",
+  "en": "And the calibration bit and the eval generation bit is not that hard.",
+  "zh": "而校准部分和 eval 生成部分并不那么难。"
+ },
+ {
+  "seg": 142,
+  "start": 879.115,
+  "end": 880.836,
+  "speaker": "Unknown",
+  "en": "It should be doable by agents to build.",
+  "zh": "它应该可以由智能体来构建完成。"
+ },
+ {
+  "seg": 143,
+  "start": 881.196,
+  "end": 885.017,
+  "speaker": "Unknown",
+  "en": "You just need a human in the loop to say, hey, this is the approach we're taking.",
+  "zh": "你只需要一个人类在环里说，嘿，这就是我们采取的方法。"
+ },
+ {
+  "seg": 144,
+  "start": 885.498,
+  "end": 886.478,
+  "speaker": "Unknown",
+  "en": "Do you agree with this",
+  "zh": "你同意这个"
+ },
+ {
+  "seg": 145,
+  "start": 888.222,
+  "end": 888.542,
+  "speaker": "Unknown",
+  "en": "Judgment.",
+  "zh": "判断吗。"
+ },
+ {
+  "seg": 146,
+  "start": 888.862,
+  "end": 897.364,
+  "speaker": "Unknown",
+  "en": "Do you really agree that we should look more towards hidden gems rather than reach out to big tech employees?",
+  "zh": "你真的同意我们应该更多寻找隐藏的宝石，而不是去联系大厂员工吗？"
+ },
+ {
+  "seg": 147,
+  "start": 897.704,
+  "end": 898.444,
+  "speaker": "Unknown",
+  "en": "And that's about it.",
+  "zh": "差不多就是这样。"
+ },
+ {
+  "seg": 148,
+  "start": 898.744,
+  "end": 901.085,
+  "speaker": "Unknown",
+  "en": "You don't need the human to actually build the evals.",
+  "zh": "你不需要人来真正构建这些 evals。"
+ },
+ {
+  "seg": 149,
+  "start": 901.445,
+  "end": 903.326,
+  "speaker": "Unknown",
+  "en": "You need them to calibrate the evals.",
+  "zh": "你需要他们来校准这些 evals。"
+ },
+ {
+  "seg": 150,
+  "start": 904.026,
+  "end": 909.507,
+  "speaker": "Unknown",
+  "en": "And agents should be the ones that really take the taste of the maker and put them into code.",
+  "zh": "而智能体应该是真正把制造者的品味注入到代码中的那一个。"
+ },
+ {
+  "seg": 151,
+  "start": 910.067,
+  "end": 913.388,
+  "speaker": "Unknown",
+  "en": "Once you have this, it's pretty easy to create recipe candidates.",
+  "zh": "一旦你有了这个，创建配方候选就相当容易了。"
+ },
+ {
+  "seg": 152,
+  "start": 913.608,
+  "end": 916.449,
+  "speaker": "Unknown",
+  "en": "And this should be the diffs that you really want to taste.",
+  "zh": "而这些应该正是你真正想去品味的 diff。"
+ },
+ {
+  "seg": 153,
+  "start": 919.49,
+  "end": 925.316,
+  "speaker": "Unknown",
+  "en": "You can have a pretty good offline eval set around this, but the test here is when you go to prod.",
+  "zh": "你可以围绕这个建立一套相当不错的离线评估集，但真正的检验是在你上生产环境的时候。"
+ },
+ {
+  "seg": 154,
+  "start": 925.636,
+  "end": 931.181,
+  "speaker": "Unknown",
+  "en": "So, do the end user agree with your taste of not hitting up",
+  "zh": "那么，终端用户是否认同你的品味，即不去骚扰"
+ },
+ {
+  "seg": 155,
+  "start": 933.133,
+  "end": 934.535,
+  "speaker": "Unknown",
+  "en": "Big Tech employees.",
+  "zh": "大公司的员工。"
+ },
+ {
+  "seg": 156,
+  "start": 935.016,
+  "end": 944.188,
+  "speaker": "Unknown",
+  "en": "And this is kind of like what you want is you build a product that really emphasizes your taste and then you make sure that your users appreciate and value that taste.",
+  "zh": "这有点像你想要的东西：你打造一个真正强调你品味的产品，然后确保你的用户欣赏并重视这种品味。"
+ },
+ {
+  "seg": 157,
+  "start": 944.649,
+  "end": 948.534,
+  "speaker": "Unknown",
+  "en": "And A-B tests have been a way to make sure that that's the case.",
+  "zh": "而 A/B 测试一直是确保这一点成立的一种方式。"
+ },
+ {
+  "seg": 158,
+  "start": 949.275,
+  "end": 954.401,
+  "speaker": "Unknown",
+  "en": "So, with a multi-armed banded scenario, for example, you'd be able to do that pretty well.",
+  "zh": "比如，在多臂老虎机的场景下，你就能把这个做得相当好。"
+ },
+ {
+  "seg": 159,
+  "start": 954.741,
+  "end": 960.707,
+  "speaker": "Unknown",
+  "en": "So, once you validate, okay, I have great taste and my users believe I have great taste as well, that's when you promote.",
+  "zh": "所以，一旦你验证了——好，我有很好的品味，我的用户也认为我有很好的品味——那就是你晋升的时候。"
+ },
+ {
+  "seg": 160,
+  "start": 960.787,
+  "end": 965.372,
+  "speaker": "Unknown",
+  "en": "And that's kind of when you go to the next version of an agent recipe.",
+  "zh": "而这差不多就是你进入下一个版本的智能体配方的时刻。"
+ },
+ {
+  "seg": 161,
+  "start": 966.415,
+  "end": 968.416,
+  "speaker": "Unknown",
+  "en": "The secret is you keep doing this over and over again.",
+  "zh": "秘诀就是你一遍又一遍地持续这样做。"
+ },
+ {
+  "seg": 162,
+  "start": 968.736,
+  "end": 980.139,
+  "speaker": "Unknown",
+  "en": "And you know how to continuously codify your taste and what good is to you into an agent that can reproduce the same service or product for other people.",
+  "zh": "而你知道如何持续地把你的品味、把对你来说什么是好的，固化成一个智能体，让它能为其他人复现同样的服务或产品。"
+ },
+ {
+  "seg": 163,
+  "start": 980.519,
+  "end": 983.98,
+  "speaker": "Unknown",
+  "en": "And they also agree you have great taste and you have great execution.",
+  "zh": "而且他们也认同你有很好的品味和很好的执行力。"
+ },
+ {
+  "seg": 164,
+  "start": 984.28,
+  "end": 992.203,
+  "speaker": "Unknown",
+  "en": "And this is really the secret of building good loops is, OK, can someone iterate on my system in a way as",
+  "zh": "而这确实是构建好闭环的秘诀：就是，有人能否以某种方式在我的系统上进行迭代，就像"
+ },
+ {
+  "seg": 165,
+  "start": 993.643,
+  "end": 998.268,
+  "speaker": "Unknown",
+  "en": "You know, a good example here is like Miranda from the Dell Worst product, right?",
+  "zh": "你知道，这里一个好的例子是 Dell Worst 产品里的 Miranda，对吧？"
+ },
+ {
+  "seg": 166,
+  "start": 998.328,
+  "end": 1000.671,
+  "speaker": "Unknown",
+  "en": "What would Miranda do in certain cases?",
+  "zh": "在某些情况下 Miranda 会怎么做？"
+ },
+ {
+  "seg": 167,
+  "start": 1000.911,
+  "end": 1006.357,
+  "speaker": "Unknown",
+  "en": "And you kind of want to codify that thinking into like agents that can do the same stuff at the higher level.",
+  "zh": "而你有点想把那种思考方式固化到智能体里，让它们能在更高层级做同样的事情。"
+ },
+ {
+  "seg": 168,
+  "start": 1008.417,
+  "end": 1009.478,
+  "speaker": "Unknown",
+  "en": "So the takeaways are this.",
+  "zh": "所以，要点如下。"
+ },
+ {
+  "seg": 169,
+  "start": 1009.979,
+  "end": 1010.78,
+  "speaker": "Unknown",
+  "en": "The loop is the product.",
+  "zh": "闭环就是产品。"
+ },
+ {
+  "seg": 170,
+  "start": 1010.98,
+  "end": 1016.587,
+  "speaker": "Unknown",
+  "en": "You try to automate yourself as the higher level judge.",
+  "zh": "你要试着把你自己自动化成更高层级的裁判。"
+ },
+ {
+  "seg": 171,
+  "start": 1017.147,
+  "end": 1025.617,
+  "speaker": "Unknown",
+  "en": "And you want to make sure your second loop agents are able to apply the same judgment to the agents you're trying to push the prod.",
+  "zh": "而你要确保你的第二层闭环智能体能够把同样的判断力应用到你要推向生产的那些智能体上。"
+ },
+ {
+  "seg": 172,
+  "start": 1026.496,
+  "end": 1028.438,
+  "speaker": "Unknown",
+  "en": "Second bit, system distillation is the mode.",
+  "zh": "第二点，系统蒸馏是模式。"
+ },
+ {
+  "seg": 173,
+  "start": 1028.778,
+  "end": 1048.012,
+  "speaker": "Unknown",
+  "en": "So, how do you continuously inject that taste into these workers, and how they continuously self-verify and work together is the biggest thing that you should focus on, and the faster you do it, the faster you build a defensible approach to becoming a vertical AI company.",
+  "zh": "那么，你如何持续地把这种品味注入到这些工作智能体中，以及它们如何持续地自我验证并协同工作，是你应该关注的最重要的事情；你做得越快，你就能越快地建立起一条通往垂直 AI 公司的可防御路径。"
+ },
+ {
+  "seg": 174,
+  "start": 1049.053,
+  "end": 1054.518,
+  "speaker": "Unknown",
+  "en": "And finally, valued work per watt is how you should measure, am I making progress or not?",
+  "zh": "最后，每瓦特有价值工作量是你衡量自己是否在取得进展的方式。"
+ },
+ {
+  "seg": 175,
+  "start": 1054.838,
+  "end": 1059.683,
+  "speaker": "Unknown",
+  "en": "So first, make sure that the work you're generating is valuable.",
+  "zh": "所以第一，确保你产生的工作是有价值的。"
+ },
+ {
+  "seg": 176,
+  "start": 1060.123,
+  "end": 1062.865,
+  "speaker": "Unknown",
+  "en": "Second, make sure that the economics makes sense.",
+  "zh": "第二，确保经济账是划算的。"
+ },
+ {
+  "seg": 177,
+  "start": 1063.246,
+  "end": 1071.033,
+  "speaker": "Unknown",
+  "en": "And the difference in price is basically what people would switch away from Claude code to something you provide.",
+  "zh": "而价格上的差距，基本上就是人们会从 Claude code 切换到你提供的产品的那个差距。"
+ },
+ {
+  "seg": 178,
+  "start": 1073.112,
+  "end": 1078.874,
+  "speaker": "Unknown",
+  "en": "We've been thinking a lot about these ideas, and we're building some very interesting products around how to deploy this in production.",
+  "zh": "我们一直在深入思考这些想法，我们正在围绕如何把它部署到生产环境构建一些非常有趣的产品。"
+ },
+ {
+  "seg": 179,
+  "start": 1079.254,
+  "end": 1080.195,
+  "speaker": "Unknown",
+  "en": "We'd love to hear from you.",
+  "zh": "我们很乐意听到你的声音。"
+ },
+ {
+  "seg": 180,
+  "start": 1080.535,
+  "end": 1099.422,
+  "speaker": "Unknown",
+  "en": "We'd love to understand more about how certain vertical SaaS companies are looking to go to prod with, or how Agent Labs have been thinking about this idea of creating these auto-research labs around their own products.",
+  "zh": "我们很乐意进一步了解某些垂直 SaaS 公司打算如何上生产环境，或者 Agent Labs 一直在如何思考围绕自己的产品创建这些自动研究实验室的想法。"
+ },
+ {
+  "seg": 181,
+  "start": 1100.262,
+  "end": 1101.304,
+  "speaker": "Unknown",
+  "en": "Get in touch.",
+  "zh": "联系我们。"
+ },
+ {
+  "seg": 182,
+  "start": 1101.364,
+  "end": 1106.149,
+  "speaker": "Unknown",
+  "en": "We're going to be around the block for chatting more about this, and thank you very much.",
+  "zh": "我们会在附近继续聊更多这个话题，非常感谢。"
+ }
+]

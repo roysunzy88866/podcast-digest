@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Lenny]] · [[Alex Finn]] · [[Adam Mosseri]] · [[系统提示词]] · [[Instagram]] · [[gpt 5.6]] · [[TikTok]] · [[Fable]] · [[Facebook]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":153,"Lenny":68,"Alex Finn":1,"Adam Mosseri":1,"系统提示词":8,"Instagram":5,"gpt 5.6":1,"TikTok":6,"Fable":10,"Facebook":16}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":153,"Lenny":68,"Alex Finn":1,"Adam Mosseri":1,"系统提示词":8,"Instagram":6,"gpt 5.6":1,"TikTok":6,"Fable":10,"Facebook":16}</script>
 
 <script>
 (function(){

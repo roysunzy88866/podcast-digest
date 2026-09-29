@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Databricks]] · [[McKinsey]] · [[NVIDIA]] · [[护栏]] · [[Stripe]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"Anthropic":153,"OpenAI":140,"Microsoft":25,"Databricks":16,"McKinsey":6,"NVIDIA":46,"护栏":65,"Stripe":39,"Google":50}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"Anthropic":153,"OpenAI":140,"Microsoft":25,"Databricks":16,"McKinsey":6,"NVIDIA":46,"护栏":65,"Stripe":39,"Google":50}</script>
 
 <script>
 (function(){

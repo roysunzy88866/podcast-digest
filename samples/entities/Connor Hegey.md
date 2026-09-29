@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":356,"子智能体":4,"harness":49,"提示词缓存":4,"记忆":18,"评估":3,"LLM 当裁判":9,"沙箱":64,"人在回路":17}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":358,"子智能体":4,"harness":50,"提示词缓存":4,"记忆":18,"评估":3,"LLM 当裁判":9,"沙箱":65,"人在回路":17}</script>
 
 <script>
 (function(){

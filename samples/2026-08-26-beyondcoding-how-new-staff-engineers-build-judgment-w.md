@@ -127,9 +127,9 @@ Malika 的定义：**在多个层次上思考的能力**——从一层、三层
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|循环就是产品：智能体配方与每瓦特价值]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:智能体 (agent)、可观测性 (observability)、护栏 (guardrails)</span>
 - [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的]]<span class="pd-rz">同概念:智能体 (agent)、可观测性 (observability)、护栏 (guardrails)</span>
-- [[2026-08-29-talks-agents-are-where-microservices-were-in-2|Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层]]<span class="pd-rz">同公司:AWS · 同概念:智能体 (agent)、可观测性 (observability)</span>
 
 </div>
 <div class="pd-ex">

@@ -146,9 +146,9 @@ Hirsh 补了一条红线：**不要接任何关键路径的工作**。你会被�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、评估 (evals)、Claude Code、爬坡 (hill climbing)</span>
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、评估 (evals)、沙箱 (sandbox)</span>
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈]]<span class="pd-rz">同概念:computer use、智能体 (agent)、编程智能体 (coding agent)、Claude Code</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

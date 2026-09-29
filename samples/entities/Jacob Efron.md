@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":140,"Anthropic":153,"TSMC":6,"LLM":48,"基础模型":6,"AI 编程":4,"算力扩展":1,"网络效应":13,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":140,"Anthropic":153,"TSMC":6,"LLM":49,"基础模型":6,"AI 编程":4,"算力扩展":2,"网络效应":13,"AGI":26}</script>
 
 <script>
 (function(){

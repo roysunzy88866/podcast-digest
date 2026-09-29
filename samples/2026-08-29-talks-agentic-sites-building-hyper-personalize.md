@@ -90,9 +90,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、推理 (inference)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:LLM</span>
-- [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」]]<span class="pd-rz">同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1040 @@
+{
+  "episode_id": "2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc",
+  "podcast": "精选演讲",
+  "date": "2026-09-26",
+  "tags": [
+    "智能体",
+    "智能体配方",
+    "evals",
+    "系统蒸馏",
+    "创业演讲"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "roland-gavrilescu",
+      "type": "person",
+      "role": "guest",
+      "name": "Roland Gavrilescu",
+      "file": "Roland Gavrilescu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集核心论点「循环就是产品」：模型按循环训练（源自 OODA 循环），循环末端生成工件、再跑第二个循环实现持续改进；第一个真实案例是 AJ 围绕 ClaudeBot 做的买车砍价循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            76.818,
+            78.058
+          ],
+          "quote": "The loop is the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            116.749,
+            121.955
+          ],
+          "quote": "And this guy, AJ, built the first loop around ClaudeBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            160.773,
+            178.477
+          ],
+          "quote": "Probably this was when all the Mac minis were selling off the shelves, but this was the first real example of loop is the product and something that probably should be a startup at this point, but we've seen how this became a recipe for everyone to build loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            183.513,
+            189.435
+          ],
+          "quote": "We really think models have been trained with this loop in mind, and it comes from this idea of OODA loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            225.482,
+            243.394
+          ],
+          "quote": "And what matters here is the quality of the signal determines the success rate of the loop, and the quality of the verifier is able to calibrate if that success is actually correct or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            244.671,
+            245.772
+          ],
+          "quote": "But there's another loop here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            250.558,
+            262.952
+          ],
+          "quote": "And this is what looping around is all about, is how do you generate these artifacts at the end of the first loop to then run a second loop on and have a way to continuously improve?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            268.954,
+            278.937
+          ],
+          "quote": "And it's really the ability to understand what went well and wrong in the first loop and know how to process that in the second one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            282.958,
+            291.561
+          ],
+          "quote": "Each loop generates useful information around harnesses, profiles, evals, models, resources, tools, and the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            716.273,
+            720.134
+          ],
+          "quote": "You can think of the worker as the inner loop, and it generates all these artifacts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            881.196,
+            885.017
+          ],
+          "quote": "You just need a human in the loop to say, hey, this is the approach we're taking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1009.979,
+            1010.78
+          ],
+          "quote": "The loop is the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1017.147,
+            1025.617
+          ],
+          "quote": "And you want to make sure your second loop agents are able to apply the same judgment to the agents you're trying to push the prod.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-recipe",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体配方 (agent recipe)",
+      "file": "智能体配方",
+      "primary": true,
+      "how_described": "本集提出：让你能创建可复现前沿 AI 系统的东西——把 harness、evals、品味等蒸馏进一个 Git 仓库，不绑定平台或模型提供商，由你拥有、由你的智能体管理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            351.342,
+            357.306
+          ],
+          "quote": "So an agent recipe is really something that enables you to create reproducible Frontier AI systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            960.787,
+            965.372
+          ],
+          "quote": "And that's kind of when you go to the next version of an agent recipe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统蒸馏 (system distillation)",
+      "file": "系统蒸馏",
+      "primary": true,
+      "how_described": "本集称之为模式：搞清楚第一个循环里什么做对做错、并知道如何在第二个循环中处理——失败模式变成 judges 和 evals，重复行为变成技能和提示词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            266.713,
+            268.033
+          ],
+          "quote": "System distillation is the mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1026.496,
+            1028.438
+          ],
+          "quote": "Second bit, system distillation is the mode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集说 evals 不只是测试、而是创作者的品味；配方本质上是把制作者的品味编码进智能体的构建方式，而智能体应把制造者的品味写进代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            454.667,
+            461.548
+          ],
+          "quote": "It's something that treats the owner as almost like the higher taste",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            462.77,
+            468.683
+          ],
+          "quote": "personality in the room, but agents should try to calibrate themselves to the taste of the maker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            469.955,
+            475.9
+          ],
+          "quote": "So we think recipes should be basically encoding the taste of the makers into how you build these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            476.561,
+            481.305
+          ],
+          "quote": "And if I want to use someone else's recipe, I should be able to also bring that taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            537.322,
+            555.872
+          ],
+          "quote": "It's still early, but hopefully it's useful enough for you guys to get going, and we feel this is going to grow into something that really allows you to use different, almost like different, to be able to use the taste of different makers as recipes for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            662.025,
+            667.387
+          ],
+          "quote": "The know-how for knowing how to codify taste into evals and how to validate that in experiments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            676.089,
+            683.532
+          ],
+          "quote": "It's really what is the taste of the creator that agents should be able to reproduce and self-improve around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            688.909,
+            698.814
+          ],
+          "quote": "How do I make my taste as an artist or as a software developer something that anyone can download in their brain and be able to be a one-to-one replica to me?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            720.475,
+            724.917
+          ],
+          "quote": "But how you look at the artifacts and know what to change is the taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            731.959,
+            738.902
+          ],
+          "quote": "And experiments is how you self calibrate that, okay, my taste is actually validated in production with users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            904.026,
+            909.507
+          ],
+          "quote": "And agents should be the ones that really take the taste of the maker and put them into code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            913.608,
+            916.449
+          ],
+          "quote": "And this should be the diffs that you really want to taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            925.636,
+            931.181
+          ],
+          "quote": "So, do the end user agree with your taste of not hitting up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            935.016,
+            944.188
+          ],
+          "quote": "And this is kind of like what you want is you build a product that really emphasizes your taste and then you make sure that your users appreciate and value that taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            954.741,
+            960.707
+          ],
+          "quote": "So, once you validate, okay, I have great taste and my users believe I have great taste as well, that's when you promote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            968.736,
+            980.139
+          ],
+          "quote": "And you know how to continuously codify your taste and what good is to you into an agent that can reproduce the same service or product for other people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            980.519,
+            983.98
+          ],
+          "quote": "And they also agree you have great taste and you have great execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1028.778,
+            1048.012
+          ],
+          "quote": "So, how do you continuously inject that taste into these workers, and how they continuously self-verify and work together is the biggest thing that you should focus on, and the faster you do it, the faster you build a defensible approach to becoming a vertical AI company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集反复强调：不需要人来构建 evals、只需要人来校准 evals；evals 是智能体应能围绕其复现和自我改进的「创作者品味」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            282.958,
+            291.561
+          ],
+          "quote": "Each loop generates useful information around harnesses, profiles, evals, models, resources, tools, and the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            328.049,
+            344.959
+          ],
+          "quote": "So we thought there's space for something like that, something that contains the evals and contains the tweaks and the human judgment and all these things that are not predetermined at the beginning, but they're defined as you learn more about your agent acting in the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            381.862,
+            384.505
+          ],
+          "quote": "Failure patterns should become judges and evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            429.248,
+            435.635
+          ],
+          "quote": "So we built our approach to recipes on the pie harness and on Harbor for evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            511.882,
+            515.145
+          ],
+          "quote": "It's everything about how do I codify, paste into evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            515.565,
+            516.526
+          ],
+          "quote": "How do I run evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            516.786,
+            520.309
+          ],
+          "quote": "How do we have the loops to continuously improve those evals over time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            563.868,
+            577.342
+          ],
+          "quote": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            606.389,
+            613.711
+          ],
+          "quote": "We've all started from a base harness and a base set of evals, and we went to go to the frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            662.025,
+            667.387
+          ],
+          "quote": "The know-how for knowing how to codify taste into evals and how to validate that in experiments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            668.507,
+            674.449
+          ],
+          "quote": "And you've heard a lot about evals and experiments before, but you didn't really think of them of, like, what are they?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            706.928,
+            712.831
+          ],
+          "quote": "Tastemakers into environments and evals around them, so then we can move them into the weights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            739.282,
+            748.225
+          ],
+          "quote": "And we make sure that not only the maker is happy through the offline evals, but the end users are happy as well and they agree with what we consider good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            844.756,
+            857.987
+          ],
+          "quote": "Calibration, judges and evals, is how we used to think about how do we codify these behaviors into something that can try to apply the same judgment across traces and across execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            898.744,
+            901.085
+          ],
+          "quote": "You don't need the human to actually build the evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            901.445,
+            903.326
+          ],
+          "quote": "You need them to calibrate the evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "valued-work-per-watt",
+      "type": "concept",
+      "role": "concept",
+      "name": "每瓦特有价值工作 (valued work per watt)",
+      "file": "每瓦特有价值工作",
+      "primary": true,
+      "how_described": "本集提出的衡量进步的分数：每消耗一瓦特算力产出多少有价值的工作；先确认工作有价值，再确认经济账划算——价格差距就是用户切换产品的理由",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            558.262,
+            563.287
+          ],
+          "quote": "And finally, the last point is valued work per watt, and why is this a score to really optimize for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1049.053,
+            1054.518
+          ],
+          "quote": "And finally, valued work per watt is how you should measure, am I making progress or not?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：嘉宾做智能体基础设施创业，讲 worker/子智能体、judge 智能体，智能体应负责构建 evals、把制造者的品味注入代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            23.86,
+            29.922
+          ],
+          "quote": "My co-founder and I were in this mythical place called XAI working hard on agent infra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            328.049,
+            344.959
+          ],
+          "quote": "So we thought there's space for something like that, something that contains the evals and contains the tweaks and the human judgment and all these things that are not predetermined at the beginning, but they're defined as you learn more about your agent acting in the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            351.342,
+            357.306
+          ],
+          "quote": "So an agent recipe is really something that enables you to create reproducible Frontier AI systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            508.237,
+            511.341
+          ],
+          "quote": "And this is, what do I need to have a frontier agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            537.322,
+            555.872
+          ],
+          "quote": "It's still early, but hopefully it's useful enough for you guys to get going, and we feel this is going to grow into something that really allows you to use different, almost like different, to be able to use the taste of different makers as recipes for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            756.105,
+            760.529
+          ],
+          "quote": "Let's take a baseline agent, which could be a talent sourcing agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            809.868,
+            815.593
+          ],
+          "quote": "So let's say this idea of the agent is going and reaching out to a lot of big tech employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            822.638,
+            826.001
+          ],
+          "quote": "But an agent would think that, oh, John Carmack is great.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            828.623,
+            835.068
+          ],
+          "quote": "So this is a behavior that you'd never think of codifying, but you discover the agent tends to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            858.768,
+            865.751
+          ],
+          "quote": "So, let's say we build an agent that looks at the trajectory and identifies exactly that pattern.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            865.991,
+            873.153
+          ],
+          "quote": "Hey, did this agent reach out to Google employees instead of trying to find hidden gems on GitHub?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            960.787,
+            965.372
+          ],
+          "quote": "And that's kind of when you go to the next version of an agent recipe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            968.736,
+            980.139
+          ],
+          "quote": "And you know how to continuously codify your taste and what good is to you into an agent that can reproduce the same service or product for other people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1080.535,
+            1099.422
+          ],
+          "quote": "We'd love to understand more about how certain vertical SaaS companies are looking to go to prod with, or how Agent Labs have been thinking about this idea of creating these auto-research labs around their own products.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行框架 (harness)",
+      "file": "执行框架",
+      "primary": true,
+      "how_described": "本集叙事三段迁移之一：模型成了商品、一切都看 harness；他们把配方构建在 pie harness 之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            91.664,
+            96.945
+          ],
+          "quote": "We then quickly moved to harnesses and how the model is a commodity and it's all about the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            385.145,
+            391.172
+          ],
+          "quote": "Repeated behavior should become skills and prompts, user frustration, extensions and memories to your harness, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            429.248,
+            435.635
+          ],
+          "quote": "So we built our approach to recipes on the pie harness and on Harbor for evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            528.175,
+            531.578
+          ],
+          "quote": "How do I have different profiles of the harness to work with different models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            606.389,
+            613.711
+          ],
+          "quote": "We've all started from a base harness and a base set of evals, and we went to go to the frontier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": false,
+      "how_described": "本集作为行业叙事起点提及：一切曾归结为 RLHF（用人类反馈训练模型）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.12,
+            91.143
+          ],
+          "quote": "We've started with everything goes down to RLHF for models and how you should train the model to become better and better reasoning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": false,
+      "how_described": "本集说 RL 之所以运作良好，是因为人们理解了数据配方并持续调整以对抗幻觉和奖励作弊；现在的 RL 是把品味塑造者变成环境和 evals",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            301.779,
+            308.582
+          ],
+          "quote": "If you think about data recipes in research, this is how RL started to work really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            699.274,
+            705.277
+          ],
+          "quote": "And this is kind of like what RL is about now, is how do we turn these",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": false,
+      "how_described": "本集举例：模型钻奖励函数空子的行为，靠调整数据配方来对抗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            308.822,
+            322.087
+          ],
+          "quote": "You understood the recipes and how to continuously change the recipe to combat some of the behaviors that may happen around hallucinations, around reward hacking, and then you get to your stack, which is your final data recipe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ooda-loops",
+      "type": "concept",
+      "role": "concept",
+      "name": "OODA 循环 (OODA loops)",
+      "file": "OODA 循环",
+      "primary": false,
+      "how_described": "本集溯源：1970 年代美国空军提出的概念，讲喷气式战斗机如何在快节奏环境中反应，认为模型训练正是以这个循环为前提",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            183.513,
+            189.435
+          ],
+          "quote": "We really think models have been trained with this loop in mind, and it comes from this idea of OODA loops.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "py-recipes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Py.Recipes",
+      "file": "Py.Recipes",
+      "primary": true,
+      "how_described": "本集演示的嘉宾自家早期产品：配方工具，构建在 pie harness 和 Harbor 之上，烘焙进 Git 仓库，由你拥有、由你的智能体管理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            500.427,
+            501.829
+          ],
+          "quote": "It's called Py.Recipes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "concept",
+      "role": "concept",
+      "name": "XAI",
+      "file": "XAI",
+      "primary": false,
+      "how_described": "本集嘉宾背景：他和联合创始人几个月前从这个「神话般的地方」离开去创业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            23.86,
+            29.922
+          ],
+          "quote": "My co-founder and I were in this mythical place called XAI working hard on agent infra.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集举例：原名 ClaudeBot，AJ 围绕它构建了第一个「循环就是产品」的真实案例（Reddit 找价、经销商互相竞价买车）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            110.603,
+            116.049
+          ],
+          "quote": "That was the original name of what is now known as OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            134.462,
+            136.642
+          ],
+          "quote": "And he's really OpenClaw, the one that did it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集引证：从构建最好的产品，到为产品构建最好的 evals，最后构建最好的模型的路径典范",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            563.868,
+            577.342
+          ],
+          "quote": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集引证：与 Cursor 并列，走产品→evals→模型的演进路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            563.868,
+            577.342
+          ],
+          "quote": "Think of how cursor and cognition went from building the best product to then building the best evals for the product, and finally building the best models based on the previous two artifacts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提及：worker/Claude Code 智能体是强信号加可验证工作的产物；其普及了子智能体模式，价格差距是用户从中切换的理由",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            221.62,
+            224.862
+          ],
+          "quote": "You get to these workers or Claude Code agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            777.099,
+            793.008
+          ],
+          "quote": "So in this case, we're starting with something pretty simple, a bunch of tools, web search, LinkedIn, a bunch of sub-agents that have been pre-popularized by harnesses like Codex and Claude Code, and system instruction, which is about your recruiter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1063.246,
+            1071.033
+          ],
+          "quote": "And the difference in price is basically what people would switch away from Claude code to something you provide.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提及：与 Claude Code 一同普及了子智能体模式的 harness",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            777.099,
+            793.008
+          ],
+          "quote": "So in this case, we're starting with something pretty simple, a bunch of tools, web search, LinkedIn, a bunch of sub-agents that have been pre-popularized by harnesses like Codex and Claude Code, and system instruction, which is about your recruiter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

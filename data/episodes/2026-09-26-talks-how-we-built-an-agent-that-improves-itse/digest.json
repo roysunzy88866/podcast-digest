@@ -1,0 +1,130 @@
+{
+  "title_zh": "让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮",
+  "tldr": "Weights & Biases 的 Zuban Isola 讲解如何用离线评估框架和生产轨迹追踪,让 ARIA 智能体自动优化自身。",
+  "digest_md": "这一集是 Weights & Biases(机器学习开发者工具公司)的 Zuban Isola 的现场演讲,他刚发布了自家的智能体产品 ARIA(周一刚上线正式版)。这个演讲最抓人的地方在于:ARIA 已经足够强,可以直接让它给自己做研究——写新变体、跑评估、打分,自己把自己改得更好。整个演讲讲的就是支撑这件事的评估体系怎么搭。\n\n## 核心问题:评估、智能体、配置全是联动的\n\nIsola 说他每天睡前都在想一个问题:基准测试、评估、智能体本身、以及你怎么配置它,这几样东西全是协变的——系统在动态变化,你要对它做有原则的评估,就必须有好的测量手段。他借用了强化学习里的一个老概念「sim-to-real 差距」(如何把仿真环境里学到的东西迁移到真实环境):他的目标是让离线仿真环境和真实生产环境尽可能一致,这样才能放心地在离线侧优化。\n\n他的方案分两半,拼成一个飞轮:\n\n- **生产侧**:用 Weights & Biases 的 Weave 平台(他认为是智能体生产端和离线追踪最好的可观测性工具)记录 ARIA 在真实用户那里的每一条调用轨迹。\n- **离线侧**:他构建仿真环境,在这些环境上跑 ARIA,同样记进 Weave。关键是**两边记录格式完全相同**,这样他可以把生产轨迹直接抽出来,塞进离线评估框架里,针对真实发生的失败(或成功)做爬山优化。\n\n生产环境到研究环境之间还有一个大约四小时跑一次的同步作业,保证研究员切新变体、加新技能时两边不漂移。他强调:两边跑的是**逐字节相同**的智能体版本,研究代码和生产代码完全一致。\n\n## 离线评估框架怎么搭\n\n整套流程是一个 DAG(有向流程图):取一份 YAML 配置 → 水合(加载所需的真实数据,比如完整的机器学习训练日志,必要时还要模拟 GPU 执行,这是最费资源的一步)→ 重新水合(把没法写进 YAML 的运行时配置热补丁进去)→ 运行智能体(「运行智能体是小事一桩」)→ 评分。\n\n几个关键做法:\n\n- **配置变异要多**。用 YAML 定义同一套配置的大量变体,并行全测一遍。他借用模型训练的老格言:「跑更多实验总是比跑更少实验要好。」智能体背后的软件栈相对中立,压缩、上下文准备、UI 组装都抽出来,方便换模型、换配置地批量测试。\n- **沙箱不设限**。他要给客户一个想干什么就干什么的沙箱环境。一个例子:演讲前一天他不确定 ARIA 能不能并行执行自己的研究循环,就直接让 ARIA 自己创建沙箱环境来跑。「拥有这种不受约束的环境,对让智能体做出涌现性的事情非常有用。」\n- **评分分两种**。规范性评分:这个任务过没过;相对性评分:比如一个变体会向用户提问、另一个不会,对比哪种行为更好。他说评分是他花时间最多的地方——怎么稳健地衡量结果,以及评估与生产之间有没有漂移,团队甚至有同事花一整天专门检查「评估的健康度」。\n- **任务就是 YAML 规范**:定义环境的起始条件、一组用户配置、一个想达到的结束条件。用户流程用三种方式模拟:最简单的是一句文本指令;进阶的是模拟一个带用户人设的语言模型,按特定顺序提问,模拟多轮交互。\n\n目前他们有 **886 个任务**,按难度分级,并且开放给产品团队审核「这些任务是否足够好、是否反映了我们真正关心的东西」。任务会被反复运行很多次。\n\n## 轨迹是核心资产\n\nIsola 的核心论点(他自己原话很糙,大意是):先海量化地生成轨迹,再决定拿这些轨迹做什么。他们测量的是智能体的涌现特性,然后想办法把行为对齐到想要的方向——要么人工审查,要么直接让 ARIA 审查自己生成的 rollout,判断哪里好哪里坏,再通过提示词强化正确行为。\n\n最有价值的闭环在这里:**生产环境的每一次失误、每一次亮眼表现,都会变成评估框架里的一个新任务**。他特意指出正向爬坡也有用——不只是修错误,好的行为也要固化下来。\n\n## 现场演示:ARIA 给自己修 bug\n\n演讲的演示环节,Isola 在 Weave 里随手挑了一条生产轨迹,开了个新 ARIA 会话说:「拿这条轨迹,记进我们的离线评估,然后在它上面运行候选智能体和生产智能体。」ARIA 自己完成了全程:它抓取轨迹、把它变成一个回归任务、复现源轨迹、发现问题出在沙箱里没有正确调用 SDK 的 weave.log、给自己加了一个爬坡目标(该怎么修)、运行智能体的多个变体对比、最后生成一份报告解释发生了什么。最终获胜的候选变体,只是在 system prompt 或某个技能里注入了一小段针对性的提示词,解决了那个 SDK 错误。\n\n他现在的日常工作因此变成:在生产追踪项目里看轨迹涌入、在离线评估项目里看团队和自己要改什么,不用再回 Claude Code 手写基准。「我大概八个月没写过一行代码了,因为我只是让 Claude 替我写所有代码。」但他提醒了一个反直觉的坑:不写代码不等于免除思考——自动模式最大的挑战恰恰是太容易放手让智能体全做完,而人的价值在于把时间花在「真正的灰色地带」,思考怎么让系统更好地自我强化、在哪里加严密的护栏。\n\n## 本集带走\n\n- **让生产轨迹变成评估任务**:每次真实世界的失败或成功,都沉淀为一个可复跑、可打分的离线任务——这是整个飞轮的发动机。\n- **生产和离线必须逐字节一致**:同一份代码、同一种日志格式,再加上定时同步作业防止漂移,离线优化结果才敢直接上生产。\n- **配置变异优先于精心调参**:用 YAML 批量定义同一配置的大量变体,并行全测;跑更多实验比跑更少实验好。\n- **评分要双轨**:规范性的过/不过告诉你有没有完成任务,相对性对比(如问不问用户)告诉你哪种行为更好;同时持续监控评估本身和生产的漂移。\n- **先海量生成轨迹,再决定怎么用**:轨迹是最值钱的资产,涌现问题先记下来,分析方式可以后定。\n- **自动化不豁免思考**:让智能体写所有代码没问题,但人的工作收窄到护栏设计和「怎么让系统更好地自我强化」——这部分省不得。\n\n> 【背景】演讲开头自我介绍的姓名,语音转写为「Zuban Isola」,可能存在听写误差;其余内容(公司、产品、流程、数字)均出自本集转写稿。",
+  "quotes": [
+    {
+      "en": "But one big problem presents itself, which is basically the thing that I go to bed thinking about every day, which is benchmarks, evaluations, the agents, and how you configure them are all covariant.",
+      "zh": "但有一个大问题摆在这里，基本上就是我每天睡前都在想的事情：基准测试、评估、智能体、以及你怎么配置它们，全都是协变的。",
+      "timestamp": "01:32",
+      "speaker": "Zubin Aysola"
+    },
+    {
+      "en": "Because ultimately, you can have insight into how to make the problem better, but if we take an adage from old reinforcement learning training or just simple model training, it's just better to run more experiments than fewer.",
+      "zh": "归根结底，你可以对怎么改进问题有洞察，但借用老的强化学习训练或简单模型训练里的一句格言：跑更多实验总是比跑更少实验要好。",
+      "timestamp": "07:48",
+      "speaker": "Zubin Aysola"
+    },
+    {
+      "en": "So fundamentally, every production miss or every production goodness as well, because I think it's useful to hill climb in a positive direction, becomes a task for our agent framework.",
+      "zh": "所以从根本上说，生产环境的每一次失误、也包括每一次亮眼表现——因为我认为朝正向爬坡也很有用——都会变成我们智能体框架的一个任务。",
+      "timestamp": "12:21",
+      "speaker": "Zubin Aysola"
+    },
+    {
+      "en": "And I haven't written a line of code in maybe eight months because I just tell Claude to write all my code for me.",
+      "zh": "我大概八个月没写过一行代码了，因为我只是让 Claude 替我写所有代码。",
+      "timestamp": "14:49",
+      "speaker": "Zubin Aysola"
+    },
+    {
+      "en": "And I think using these tools to improve themselves is very valuable because you get to spend more of your time in the gray of actually trying to think how we make this system better.",
+      "zh": "我认为用这些工具来改进它们自身是非常有价值的，因为你可以把更多时间花在真正的灰色地带里，去思考我们怎么让这个系统变得更好。",
+      "timestamp": "14:59",
+      "speaker": "Zubin Aysola"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:32",
+      "speaker": "Zuban",
+      "en": "But one big problem presents itself, which is basically the thing that I go to bed thinking about every day, which is benchmarks, evaluations, the agents, and how you configure them are all covariant.",
+      "zh": "但有一个大问题摆在这里，基本上就是我每天睡前都在想的事情：基准测试、评估、智能体、以及你怎么配置它们，全都是协变的。"
+    },
+    {
+      "timestamp": "07:48",
+      "speaker": "Zuban",
+      "en": "Because ultimately, you can have insight into how to make the problem better, but if we take an adage from old reinforcement learning training or just simple model training, it's just better to run more experiments than fewer.",
+      "zh": "归根结底，你可以对怎么改进问题有洞察，但借用老的强化学习训练或简单模型训练里的一句格言：跑更多实验总是比跑更少实验要好。"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "Zuban",
+      "en": "And so having that unconstrained environment is really useful for getting the agent to do emergent things.",
+      "zh": "拥有这种不受约束的环境，对让智能体做出涌现性的事情非常有用。"
+    },
+    {
+      "timestamp": "09:32",
+      "speaker": "Zuban",
+      "en": "And running the agent is trivial.",
+      "zh": "而运行智能体是小事一桩。"
+    },
+    {
+      "timestamp": "09:39",
+      "speaker": "Zuban",
+      "en": "And then you score it. And scoring is where I spend a lot of my time, which is basically trying to think about the robustness of how you measure results.",
+      "zh": "然后你给它评分。而评分是我花大量时间的地方，基本上就是思考你怎么稳健地衡量结果。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Zuban",
+      "en": "And then the ultimate thing here is that the trajectory is the meat and the data that I live behind.",
+      "zh": "这里最关键的是，轨迹是核心，也是我所依赖的全部数据。"
+    },
+    {
+      "timestamp": "12:21",
+      "speaker": "Zuban",
+      "en": "So fundamentally, every production miss or every production goodness as well, because I think it's useful to hill climb in a positive direction, becomes a task for our agent framework.",
+      "zh": "所以从根本上说，生产环境的每一次失误、也包括每一次亮眼表现——因为我认为朝正向爬坡也很有用——都会变成我们智能体框架的一个任务。"
+    },
+    {
+      "timestamp": "12:44",
+      "speaker": "Zuban",
+      "en": "We try to make these as difficult as possible for the agent to really test the metal of how this thing performs.",
+      "zh": "我们尽量把这些任务做得尽可能难，来真正测试这个东西的成色。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Zuban",
+      "en": "And I haven't written a line of code in maybe eight months because I just tell Claude to write all my code for me.",
+      "zh": "我大概八个月没写过一行代码了，因为我只是让 Claude 替我写所有代码。"
+    },
+    {
+      "timestamp": "14:55",
+      "speaker": "Zuban",
+      "en": "But it doesn't absolve yourself of the thought behind how we want to make improvements.",
+      "zh": "但它并不能让你免除思考我们想要如何做出改进这件事。"
+    },
+    {
+      "timestamp": "14:59",
+      "speaker": "Zuban",
+      "en": "And I think using these tools to improve themselves is very valuable because you get to spend more of your time in the gray of actually trying to think how we make this system better.",
+      "zh": "我认为用这些工具来改进它们自身是非常有价值的，因为你可以把更多时间花在真正的灰色地带里，去思考我们怎么让这个系统变得更好。"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Zuban",
+      "en": "But I think the exciting thing in this case for me is that I don't need to leave this platform in order to do my job now.",
+      "zh": "但我认为这个案例里让我兴奋的地方在于，我现在不需要离开这个平台就能完成我的工作。"
+    },
+    {
+      "timestamp": "16:21",
+      "speaker": "Zuban",
+      "en": "And that kind of replication from production to simulation to agent then defining the improvement pattern is the thing that I really would like to leave everybody with.",
+      "zh": "这种从生产到仿真再到智能体、然后定义改进模式的复现流程，就是我真正想留给大家的东西。"
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Zuban",
+      "en": "So I think the exciting part here is that both using the logging framework from Weave as well as just in the way that we've designed the system, our research and production code are exactly the same.",
+      "zh": "我认为这里令人兴奋的部分是，无论是用 Weave 的日志框架，还是就我们设计系统的方式而言，我们的研究代码和生产代码完全相同。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Zuban",
+      "en": "And so, you know, it added a hill climb target, which was basically like, here's what to do to fix it, ran the trace, and then we can see if it gives us a little explanation of exactly what happened at the end.",
+      "zh": "所以你看，它添加了一个爬坡目标，基本上就是：这是修复它的方法，然后运行了轨迹，最后我们可以看到它给我们一点对究竟发生了什么的解释。"
+    }
+  ],
+  "voice_script": "今天这期讲一个挺特别的东西:一个智能体,自己研究自己、自己把自己改得更好。\n\n讲故事之前,先交代一下背景。主角是 Weights & Biases,一家做机器学习开发者工具的公司,他们家的 Weave 平台被认为是智能体追踪和可观测性最好的工具之一。最近公司发布了自家智能体产品 ARIA,演讲者是 Zuban Isola,产品刚上线正式版。整场演讲讲的就是一件事:怎么搭一套评估体系,强到可以让 ARIA 给自己做研究——写新变体、跑评估、打分,自己把自己优化得越来越好。\n\nIsola 开场就说了一个每天睡前都在想的问题:基准测试、评估、智能体本身、以及你怎么配置它,这几样东西全是联动的,系统一直在变,你要对它做有原则的评估,就必须先有好的测量手段。这里借用了强化学习里的一个老概念,叫 sim-to-real 差距,说白了就是:仿真环境里学到的东西,能不能顺利搬到真实环境里用。整个方案的目标,就是让离线仿真环境和真实生产环境尽可能一致,这样才能放心地在离线侧做优化。\n\n那具体怎么做到一致?方案分两半,拼成一个飞轮。生产这一半,用 Weave 记录 ARIA 在真实用户那里的每一条调用轨迹;离线这一半,搭建仿真环境,让 ARIA 在里面跑,同样记进 Weave。关键在于,两边的记录格式完全相同,所以可以把生产轨迹直接抽出来,塞进离线评估框架里,针对真实发生的失败甚至成功做爬山优化。两个环境之间还有个每四小时跑一次的同步作业,而且两边跑的是逐字节相同的智能体版本——研究代码就是生产代码,一个字都不差。这样离线优化出来的结果,才敢直接推到生产上。\n\n有了这个底座,再来看离线评估框架本身怎么搭。整套流程是一个有向流程图:先取一份 YAML 配置,然后做数据水合,把所需的真实数据加载进来,比如完整的机器学习训练日志,必要时还得模拟 GPU 执行,这一步最费资源;接着把没法写进配置文件的运行时参数热补丁进去;然后运行智能体——这一步反倒是小事一桩;最后评分。\n\n这中间有几个很实用的做法。第一,配置变异要多。用 YAML 定义同一套配置的大量变体,并行全部测一遍。道理就是那句老格言:跑更多实验,总是比跑更少实验好。第二,沙箱不设限。给客户一个想干什么就干什么的沙箱环境。举个例子,演讲前一天,Isola 不确定 ARIA 能不能并行执行自己的研究循环,就直接让 ARIA 自己创建沙箱环境去跑。这种不受约束的环境,恰恰是让智能体做出涌现性事情的关键。第三,评分分两种:一种是规范性评分,这个任务过没过;另一种是相对性评分,比如一个变体会向用户提问、另一个不会,对比哪种行为更好。评分是整个体系里花时间最多的地方,团队甚至有同事整天专门检查评估的健康度,盯着评估和生产之间有没有漂移。\n\n那任务从哪来?任务本身就是一份 YAML 规范,定义环境的起始条件、一组用户配置、一个想达到的结束条件。用户行为用三种方式模拟,最简单的是一句文本指令,进阶的是模拟一个带用户人设的语言模型,按特定顺序提问。目前他们有 886 个任务,按难度分级,反复运行很多次,还开放给产品团队审核。\n\n但这里引出整场演讲最核心的论点:轨迹才是最值钱的资产。策略是先海量化地生成轨迹,再决定拿这些轨迹做什么——涌现出什么行为先记下来,分析方式可以以后再定。最有价值的闭环就在这:生产环境的每一次失误,也包括每一次亮眼表现,都会变成评估框架里的一个新任务。不只是修错误,好行为也要固化下来,朝正向爬坡同样有用。\n\n这套体系到底好不好用,演讲现场直接演示了。Isola 在 Weave 里随手挑了一条生产轨迹,开了个新 ARIA 会话说:拿这条轨迹,记进离线评估,然后在上面运行候选智能体和生产智能体。接下来全程都是 ARIA 自己完成的:抓取轨迹、变成回归任务、复现问题、定位到沙箱里没有正确调用一个日志函数、给自己加一个爬坡目标、运行多个变体对比,最后生成报告。获胜的变体,只是在提示词里注入了一小段针对性内容,解决了那个错误。\n\n这套东西跑起来之后,日常工作变成了什么样?就是盯着生产轨迹涌入,再看离线评估那边要改什么,不用再手写基准了。原话很直白:大概八个月没写过一行代码了,因为只是让 Claude 替自己写所有代码。但这里有个反直觉的坑值得记住:不写代码,不等于免除思考。自动模式最大的挑战,恰恰是太容易放手让智能体全做完。人的价值收窄到了一件更重要的事上——把时间花在真正的灰色地带,想清楚怎么让系统更好地自我强化、护栏该加在哪里。\n\n一句话带走这场演讲:让生产的每一次失败和成功,都沉淀成一个可复跑、可打分的评估任务——这个飞轮转起来,智能体就能自己研究自己,而人要守住的,是思考本身。"
+}

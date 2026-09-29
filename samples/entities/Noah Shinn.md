@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]] [[Han Mei]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":3,"智能体":356,"主动性":2,"算力":6,"推理":60,"信任建立":6,"幻觉":11,"抽成率":1,"口碑":3,"Muse":3}</script>
+<script type="application/json" class="pd-epn">{"Instinct":3,"智能体":358,"主动性":2,"算力":6,"推理":61,"信任建立":6,"幻觉":11,"抽成率":1,"口碑":3,"Muse":3}</script>
 
 <script>
 (function(){

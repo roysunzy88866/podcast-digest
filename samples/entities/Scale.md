@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Scale</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Scale">SC</div><div class="pi"><h1 class="pt">Scale</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>38</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Scale">SC</div><div class="pi"><h1 class="pt">Scale</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>39</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,7 +18,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*38 条*
+*39 条*
 
 ![[2025-12-02-talks-powering-the-ai-law-firm-with-harvey#^q9]]
 
@@ -90,6 +90,8 @@ unlisted: true
 
 ![[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe#^q3]]
 
+![[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges#^q1]]
+
 ![[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age#^q2]]
 
 ![[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid#^q10]]
@@ -111,7 +113,7 @@ unlisted: true
 
 [[智能体]] · [[Palantir]] · [[Meta]] · [[YC]] · [[NVIDIA]] · [[Anthropic]] · [[Garrett Lord]] · [[Alexandr Wang]] · [[Diana]] · [[Michael Lee]]
 
-<script type="application/json" class="pd-epn">{"智能体":356,"Palantir":19,"Meta":36,"YC":16,"NVIDIA":46,"Anthropic":153,"Garrett Lord":1,"Alexandr Wang":1,"Diana":1,"Michael Lee":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":358,"Palantir":19,"Meta":37,"YC":16,"NVIDIA":46,"Anthropic":153,"Garrett Lord":1,"Alexandr Wang":1,"Diana":1,"Michael Lee":1}</script>
 
 <script>
 (function(){

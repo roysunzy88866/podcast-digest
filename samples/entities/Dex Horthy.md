@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Mayfor":1,"软件工厂":7,"智能体":356,"上下文工程":15,"规范":2,"计划":1,"代码审查":18,"垃圾话":7,"Human Layer":1,"技能":23}</script>
+<script type="application/json" class="pd-epn">{"Simon Mayfor":1,"软件工厂":7,"智能体":358,"上下文工程":15,"规范":2,"计划":1,"代码审查":18,"垃圾话":7,"Human Layer":1,"技能":23}</script>
 
 <script>
 (function(){

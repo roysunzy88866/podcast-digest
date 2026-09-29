@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uber":14,"智能体":356,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":23,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":14}</script>
+<script type="application/json" class="pd-epn">{"Uber":14,"智能体":358,"模型网关":1,"MCP 网关":2,"上下文图":1,"技能":23,"DevPod":1,"Cortana":1,"Minion":1,"CI-CD":14}</script>
 
 <script>
 (function(){

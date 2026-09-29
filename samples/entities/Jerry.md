@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":46,"Sega":1,"Waymo":14,"Tesla":9,"Mercedes":1,"加速计算":1,"智能体":356,"物理 AI":8,"系统思维":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":46,"Sega":1,"Waymo":14,"Tesla":9,"Mercedes":1,"加速计算":1,"智能体":358,"物理 AI":8,"系统思维":4}</script>
 
 <script>
 (function(){

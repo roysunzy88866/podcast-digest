@@ -29,7 +29,7 @@ unlisted: true
 
 [[Chelsea Finn]] · [[Mike LeBlanc]] · [[Diana]] · [[Waymo]] · [[Foundation]] · [[Jared]] · [[ChatGPT]] · [[人形机器人]] · [[YC]] · [[物理 AI]]
 
-<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Mike LeBlanc":1,"Diana":1,"Waymo":14,"Foundation":2,"Jared":1,"ChatGPT":82,"人形机器人":3,"YC":16,"物理 AI":8}</script>
+<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Mike LeBlanc":1,"Diana":1,"Waymo":14,"Foundation":2,"Jared":1,"ChatGPT":83,"人形机器人":3,"YC":16,"物理 AI":8}</script>
 
 <script>
 (function(){
