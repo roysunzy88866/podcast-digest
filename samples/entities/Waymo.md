@@ -58,7 +58,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[物理 AI]] · [[Tesla]] · [[Google]] · [[OpenAI]] · [[DoorDash]] · [[强化学习]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"智能体":353,"ChatGPT":81,"Lenny":68,"物理 AI":8,"Tesla":9,"Google":49,"OpenAI":140,"DoorDash":8,"强化学习":1,"自主性":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"ChatGPT":82,"Lenny":68,"物理 AI":8,"Tesla":9,"Google":49,"OpenAI":140,"DoorDash":8,"强化学习":1,"自主性":8}</script>
 
 <script>
 (function(){

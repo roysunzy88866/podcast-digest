@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":353,"人在回路":17,"现有巨头":1,"Robinhood":4,"Superhuman":5,"Stripe":39}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":354,"人在回路":17,"现有巨头":1,"Robinhood":4,"Superhuman":5,"Stripe":39}</script>
 
 <script>
 (function(){

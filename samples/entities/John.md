@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":16,"创始人-市场契合度":3,"智能体":353,"模型能力的边缘":1,"垂直化":1,"SaaS":18}</script>
+<script type="application/json" class="pd-epn">{"YC":16,"创始人-市场契合度":3,"智能体":354,"模型能力的边缘":1,"垂直化":1,"SaaS":18}</script>
 
 <script>
 (function(){

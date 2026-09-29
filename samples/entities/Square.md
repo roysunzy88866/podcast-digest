@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Square</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Square">SQ</div><div class="pi"><h1 class="pt">Square</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Square">SQ</div><div class="pi"><h1 class="pt">Square</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,9 +19,11 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett#^q4]]
+
+![[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif#^q9]]
 
 ## ② 出现在这些集
 
@@ -39,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Block]] · [[MCP]] · [[Anthropic]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Eric Sager]] · [[Willem Avé]]
 
-<script type="application/json" class="pd-epn">{"智能体":353,"Lenny":68,"OpenAI":140,"Block":3,"MCP":64,"Anthropic":152,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"Lenny":68,"OpenAI":140,"Block":3,"MCP":64,"Anthropic":152,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1}</script>
 
 <script>
 (function(){

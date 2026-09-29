@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":353,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":1,"OpenAI":140,"Anthropic":152,"Scale.ai":2}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":354,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":1,"OpenAI":140,"Anthropic":152,"Scale.ai":2}</script>
 
 <script>
 (function(){

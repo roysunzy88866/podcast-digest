@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":353,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":152,"OpenAI":140}</script>
+<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":3,"智能体":354,"控股公司":1,"组织物理学":1,"Palantir":19,"Anthropic":152,"OpenAI":140}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":353,"RAG":21,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":64}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":3,"评估":3,"智能体":354,"RAG":21,"React":2,"工具调用":3,"pass at k":1,"pass wedge K":1,"记忆系统":1,"MCP":64}</script>
 
 <script>
 (function(){

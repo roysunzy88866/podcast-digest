@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":64,"Indeed":1,"CareerScout":1,"Claude":70,"ChatGPT":81,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":64,"Indeed":1,"CareerScout":1,"Claude":70,"ChatGPT":82,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

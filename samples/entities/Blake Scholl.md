@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":16,"Boeing":2,"FAA":2,"Uber":14,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":17,"Boeing":2,"FAA":2,"Uber":14,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
 
 <script>
 (function(){

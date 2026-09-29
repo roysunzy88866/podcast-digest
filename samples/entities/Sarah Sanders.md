@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
+[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":353,"提示词注入":18,"沙箱":64,"护栏":65,"子智能体":4,"Yara":1,"上下文引擎":4}</script>
+<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":354,"提示词注入":18,"沙箱":64,"护栏":65,"子智能体":4,"Yara":1,"上下文引擎":4}</script>
 
 <script>
 (function(){

@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":64,"智能体":353,"推理":60,"Modal":6,"Cognition":19,"Anthropic":152,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":64,"智能体":354,"推理":60,"Modal":6,"Cognition":20,"Anthropic":152,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

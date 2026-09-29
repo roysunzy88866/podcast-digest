@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
+[[Bill Ackman]] [[Thariq Shihipar]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
 
 </div>
 

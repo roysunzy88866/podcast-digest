@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":353,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
+<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":354,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
 
 <script>
 (function(){

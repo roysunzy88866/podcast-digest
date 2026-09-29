@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":353,"技能文件":4,"RAG":21,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":62,"YC":16,"上下文工程":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"技能文件":4,"RAG":21,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":62,"YC":16,"上下文工程":15}</script>
 
 <script>
 (function(){

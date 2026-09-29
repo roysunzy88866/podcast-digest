@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":60,"微调":23,"BitNet":1,"LoRa":1,"数据中心":15,"去中介化":2,"智能体":353,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":60,"微调":23,"BitNet":1,"LoRa":1,"数据中心":15,"去中介化":2,"智能体":354,"GPU":18}</script>
 
 <script>
 (function(){

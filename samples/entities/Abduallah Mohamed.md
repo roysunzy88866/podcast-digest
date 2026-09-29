@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":11,"智能体":353,"人在回路":17,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":11,"智能体":354,"人在回路":17,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jay Mok":1,"PayPal":6,"智能体":353,"智能体授权":1,"Claude Code":84,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Jay Mok":1,"PayPal":6,"智能体":354,"智能体授权":1,"Claude Code":84,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

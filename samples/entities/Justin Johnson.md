@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":353,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":8,"Marble":4,"Sam Charrington":4,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":354,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

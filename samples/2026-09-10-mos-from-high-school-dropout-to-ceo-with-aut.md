@@ -218,9 +218,9 @@ Autodesk 投入 [[AI|AI]] 很早，「设计与制造融合」这件事已经做
 
 **换个口味**
 
+- [[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生]]<span class="pd-rz">同公司:Netflix · 同概念:AI</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
 - [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
-- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 </div>

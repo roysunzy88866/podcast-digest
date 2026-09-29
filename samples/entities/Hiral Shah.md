@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":45,"Nemotron":5,"表格提取":1,"智能体":353,"OCR":3,"量化":3,"VLM":3,"vLLM":5}</script>
+<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":45,"Nemotron":5,"表格提取":1,"智能体":354,"OCR":3,"量化":3,"VLM":3,"vLLM":5}</script>
 
 <script>
 (function(){

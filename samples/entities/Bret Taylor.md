@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":353,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":64}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":354,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":64}</script>
 
 <script>
 (function(){

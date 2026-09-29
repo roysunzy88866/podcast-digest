@@ -80,7 +80,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[David Pawlan]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 

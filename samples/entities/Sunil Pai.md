@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":12,"code mode":2,"MCP":64,"智能体":353,"沙箱":64,"可观测性":32,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":12,"code mode":2,"MCP":64,"智能体":354,"沙箱":64,"可观测性":32,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

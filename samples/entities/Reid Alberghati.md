@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":140,"NVIDIA":45,"Microsoft":25,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":2,"Meta":35,"Apple":19,"智能体":353,"算力":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":140,"NVIDIA":45,"Microsoft":25,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":2,"Meta":35,"Apple":19,"智能体":354,"算力":6}</script>
 
 <script>
 (function(){

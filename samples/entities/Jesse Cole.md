@@ -59,7 +59,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]]
+[[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]]
 
 </div>
 

@@ -167,9 +167,9 @@ Noah 认为短期到中期，智能体会改变的第一类事情是预订。以
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手]]<span class="pd-rz">同公司:Instinct、ChatGPT、iMessage、Muse · 同概念:主动性 (proactivity)、智能体 (agent)</span>
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|AI 时代怎么做出能留住人的消费产品]]<span class="pd-rz">同公司:ChatGPT · 同概念:信任 (trust)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-03-sourcery-blackrocks-tony-kim-on-ais-next-winners|BlackRock Tony Kim：一万亿美元的资本支出，只为把数据移动几毫米]]<span class="pd-rz">同概念:智能体 (agent)、算力 (compute)、推理 (inference)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

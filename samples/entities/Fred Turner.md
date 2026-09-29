@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":152,"Salesforce":32,"YC":16,"智能体":353,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":152,"Salesforce":32,"YC":16,"智能体":354,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

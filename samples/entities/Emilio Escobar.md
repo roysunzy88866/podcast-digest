@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
+[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":71,"GitHub":24,"Bloomberg":3,"智能体":353,"沙箱":64,"泄露的凭证":3,"权限":1,"数据仓库":3}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":71,"GitHub":24,"Bloomberg":3,"智能体":354,"沙箱":64,"泄露的凭证":3,"权限":1,"数据仓库":3}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":14,"Cowork":6,"智能体":353,"MCP":64,"变革管理":3,"语义视图":1,"技能":23,"反馈回路":2,"护栏":65}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":14,"Cowork":6,"智能体":354,"MCP":64,"变革管理":3,"语义视图":1,"技能":23,"反馈回路":2,"护栏":65}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":18,"Hermes":2,"智能体":353,"知识图谱":5,"向量数据库":4,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":19,"Hermes":2,"智能体":354,"知识图谱":5,"向量数据库":4,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

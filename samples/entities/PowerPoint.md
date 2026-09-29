@@ -31,7 +31,7 @@ unlisted: true
 
 [[Jon Noronha]] · [[Gamma]] · [[Google Slides]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[Canvas]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":14,"Slack":29,"Loom":1,"Salesforce":32,"Canvas":2,"ChatGPT":81}</script>
+<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":14,"Slack":29,"Loom":1,"Salesforce":32,"Canvas":2,"ChatGPT":82}</script>
 
 <script>
 (function(){

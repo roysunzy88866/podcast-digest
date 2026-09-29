@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Robert Hackett":1,"AI":22,"清晰法案":1,"生产力增长":1,"稳定币":5,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Robert Hackett":1,"AI":23,"清晰法案":1,"生产力增长":1,"稳定币":5,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

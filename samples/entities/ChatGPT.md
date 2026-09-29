@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>81</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>82</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -90,6 +90,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(21:36起):本集说 ChatGPT 下国际象棋很烂、会幻觉出棋步,这促使 Amjad 第一次亲手训练模型
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(17:48起):本集把 Jev 类比为「面向开发者的 ChatGPT」，其爆火完全出乎预料。
 - **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(03:55起):本集说自 2023 年第一次用 ChatGPT 起,大家心里就已经有了 AI 助理应该是什么样子的期待。
+- **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(00:27起):嘉宾的第二个魔法时刻：ChatGPT Voice 接入 Gmail 和日历后，他骑车上班 30 分钟里动嘴就把邮件分类、回信、发日历邀请全办完
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
@@ -136,7 +137,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*81 集*
+*82 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -218,6 +219,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为被讨论公司
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
+- [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
@@ -226,7 +228,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":353,"OpenAI":140,"Claude":70,"Anthropic":152,"Lenny":68,"Google":49,"Codex":62,"Cursor":71,"LLM":47,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"OpenAI":140,"Claude":70,"Anthropic":152,"Lenny":68,"Google":49,"Codex":62,"Cursor":71,"LLM":47,"AGI":26}</script>
 
 <script>
 (function(){

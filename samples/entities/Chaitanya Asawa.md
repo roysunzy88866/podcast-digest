@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":353,"临床决策支持":1,"评估":3,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":21,"临床记录":1}</script>
+<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":354,"临床决策支持":1,"评估":3,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":21,"临床记录":1}</script>
 
 <script>
 (function(){

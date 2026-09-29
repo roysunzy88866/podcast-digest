@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":152,"智能体":353,"CI-CD":13,"token":28,"速率限制":1,"绊线":1,"允许列表":1,"非对称动词":1,"撤销测试":1,"代理":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":152,"智能体":354,"CI-CD":13,"token":28,"速率限制":1,"绊线":1,"允许列表":1,"非对称动词":1,"撤销测试":1,"代理":1}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":45,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":22,"智能体":353,"推理":60}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":45,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":22,"智能体":354,"推理":60}</script>
 
 <script>
 (function(){

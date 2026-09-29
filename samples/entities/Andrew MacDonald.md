@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Uber":14,"Uber One":1,"自主性":8,"智能体":353,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Uber":14,"Uber One":1,"自主性":8,"智能体":354,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":8,"智能体":353,"开源模型":22,"微调":23,"业务逻辑":1,"前向部署工程师":1,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":8,"智能体":354,"开源模型":22,"微调":23,"业务逻辑":1,"前向部署工程师":1,"Duet":1}</script>
 
 <script>
 (function(){

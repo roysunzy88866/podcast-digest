@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":1,"Splunk":3,"智能体":353,"代码生成":1,"vibe coding":41,"vibe debugging":1,"部落知识":4}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":2,"OpenTelemetry":1,"Splunk":3,"智能体":354,"代码生成":1,"vibe coding":41,"vibe debugging":1,"部落知识":4}</script>
 
 <script>
 (function(){

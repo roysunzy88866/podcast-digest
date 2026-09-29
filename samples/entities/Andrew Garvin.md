@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":39,"Stripe Projects":2,"OpenAI":140,"Anthropic":152,"Lovable":17,"HubSpot":9,"智能体":353,"编码智能体":22,"vibe coding":41}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":39,"Stripe Projects":2,"OpenAI":140,"Anthropic":152,"Lovable":17,"HubSpot":9,"智能体":354,"编码智能体":22,"vibe coding":41}</script>
 
 <script>
 (function(){

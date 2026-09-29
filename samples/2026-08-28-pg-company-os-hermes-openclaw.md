@@ -139,8 +139,8 @@ Mikhail 的判断是产品管理不会消失，反而会蓬勃——因为 AI �
 **顺着「智能体」挖下去**
 
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:向量数据库 (vector database)、智能体 (agent)、知识图谱 (knowledge graph)</span>
+- [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手]]<span class="pd-rz">同公司:OpenClaw、ChatGPT · 同概念:智能体 (agent)</span>
 - [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:智能体 (agent)、知识图谱 (knowledge graph)</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

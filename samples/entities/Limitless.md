@@ -31,7 +31,7 @@ unlisted: true
 
 [[Andrew Wilkinson]] · [[Lenny]] · [[Tiny]] · [[Lindy]] · [[Replit]] · [[ChatGPT]] · [[Letterboxd]] · [[Asana]] · [[智能体]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Andrew Wilkinson":1,"Lenny":68,"Tiny":1,"Lindy":3,"Replit":17,"ChatGPT":81,"Letterboxd":1,"Asana":2,"智能体":353,"vibe coding":41}</script>
+<script type="application/json" class="pd-epn">{"Andrew Wilkinson":1,"Lenny":68,"Tiny":1,"Lindy":3,"Replit":17,"ChatGPT":82,"Letterboxd":1,"Asana":2,"智能体":354,"vibe coding":41}</script>
 
 <script>
 (function(){

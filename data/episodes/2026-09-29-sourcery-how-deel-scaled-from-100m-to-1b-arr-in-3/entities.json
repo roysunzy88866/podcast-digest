@@ -1,0 +1,325 @@
+{
+  "episode_id": "2026-09-29-sourcery-how-deel-scaled-from-100m-to-1b-arr-in-3",
+  "podcast": "Sourcery",
+  "date": "2026-09-29",
+  "tags": [
+    "销售与增长",
+    "全球化",
+    "远程团队",
+    "创业心法"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "shuo",
+      "type": "person",
+      "role": "host",
+      "name": "Shuo",
+      "file": "Shuo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            41.067,
+            43.23
+          ],
+          "quote": "Shuo, welcome to Sorcery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            73.463,
+            74.743
+          ],
+          "quote": "Shuo is the CRO of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            91.448,
+            92.228
+          ],
+          "quote": "So Shuo...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 183,
+          "t": [
+            737.841,
+            739.201
+          ],
+          "quote": "Shuo, thank you so much.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sell",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售 (sell)",
+      "file": "销售",
+      "primary": true,
+      "how_described": "本集主线是 Shuo 的劲爆观点：人们需要更多地销售、拼得不够狠就是不努力获取收入和客户；创始人身边全是潜在客户，不去卖就是浪费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            284.971,
+            287.992
+          ],
+          "quote": "My hot take back then was that I think people need to sell more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            303.498,
+            306.662
+          ],
+          "quote": "She tries to sell whoever we're sitting at the table with.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            370.612,
+            377.611
+          ],
+          "quote": "You need to find ways to incentivize them so that you can be successful, so that they can sell the product to the client.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            701.379,
+            702.7
+          ],
+          "quote": "Again, people should sell more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "global",
+      "type": "concept",
+      "role": "concept",
+      "name": "全球化 (global)",
+      "file": "全球化",
+      "primary": true,
+      "how_described": "本集说 Deel 从第一天起就是全球化的，与硅谷公司先深耕一国再扩张的路径相反；今天建公司、建品牌就必须瞄准全球市场，连 Snoop Dogg 都在走向全球。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.347,
+            16.59
+          ],
+          "quote": "Global payroll and HR platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            105.699,
+            111.787
+          ],
+          "quote": "For a little bit of background info about Dio, Dio is a global payroll and HR platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            145.694,
+            157.281
+          ],
+          "quote": "And also, we are global since day one, and it is very different from a lot of the Silicon Valley company that you focus on one country and you do it very well and you expand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            157.562,
+            162.625
+          ],
+          "quote": "So we can build a global team very, very early on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            163.265,
+            167.108
+          ],
+          "quote": "What was your decision to go global on day one and not just dominate one market?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            497.186,
+            500.027
+          ],
+          "quote": "Like, you know, even Snoop Dogg is going global.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            500.047,
+            507.732
+          ],
+          "quote": "So, like, I think for today, if you're building a company, if you're building a brand, you have to aim for global market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "remote",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程团队 (remote)",
+      "file": "远程团队",
+      "primary": true,
+      "how_described": "本集说 Deel 的销售团队从第一天起就是远程的、分布在 120 个国家；靠足够高的提成和赢的文化凝聚，每年再办 1500 人、五天的 kickoff 对齐目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            378.424,
+            382.768
+          ],
+          "quote": "One thing that's special about this is your team is entirely remote.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            383.288,
+            385.47
+          ],
+          "quote": "So how do you do this as a remote organization?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            385.49,
+            389.634
+          ],
+          "quote": "Wow, we are remote since day one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "building-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "构建系统 (building systems)",
+      "file": "构建系统",
+      "primary": true,
+      "how_described": "本集说 Shuo 从工程师转型做销售后领悟到，根本上全都是构建系统、尽可能科学地做事——理解客户想要什么并设计最好的产品，同时理解销售团队想要什么并找到激励他们的方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            344.084,
+            370.292
+          ],
+          "quote": "But the thing is fundamentally I think it is all about building systems and it is all about like you know being as scientific as you can like you know regardless like you know whichever team that you're building right and then for sales I think it breaks down like you know you need to understand what people want the people including what your clients want right and you design the best product for that and also you need to understand what your sales team want.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "innovate",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续自我重塑 (innovate)",
+      "file": "持续自我重塑",
+      "primary": true,
+      "how_described": "本集借 Jeff Bezos 的例子说：你最大的竞争对手是你自己，需要持续创新、持续重塑自己，才能持续交付。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            415.228,
+            430.213
+          ],
+          "quote": "But also on top of that, I think like, you know, build a culture of winning and then building a culture of continuously innovate and then continuously deliver the best product on the market, really also like, you know, access the team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            684.043,
+            690.77
+          ],
+          "quote": "So you need to continuously innovate and rebuild yourself so that you can continuously deliver.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "james-dyson",
+      "type": "concept",
+      "role": "concept",
+      "name": "James Dyson",
+      "file": "James Dyson",
+      "primary": false,
+      "how_described": "本集说 Shuo 创第一家公司时受 James Dyson 启发：每样产品都从简单想法出发，痴迷于解决一个具体的工程问题并做到完美。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            570.653,
+            574.777
+          ],
+          "quote": "Actually, my first company, I got inspired by James Dyson.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jeff-bezos",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jeff Bezos",
+      "file": "Jeff Bezos",
+      "primary": false,
+      "how_described": "本集说 Shuo 在公司规模化上最服 Jeff Bezos：顶级的系统性思考者、有远见、一直在自我创新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            634.719,
+            636.821
+          ],
+          "quote": "I would say Jeff Bezos.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Deel",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

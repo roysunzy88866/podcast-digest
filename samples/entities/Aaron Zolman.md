@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
+[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":18,"智能体":353,"红队测试":4,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":65,"harness":49,"供应链":4}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":19,"智能体":354,"红队测试":4,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":65,"harness":49,"供应链":4}</script>
 
 <script>
 (function(){

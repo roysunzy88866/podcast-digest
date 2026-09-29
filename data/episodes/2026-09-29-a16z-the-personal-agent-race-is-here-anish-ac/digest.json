@@ -1,0 +1,220 @@
+{
+  "title_zh": "个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手",
+  "tldr": "AssistantBench 创建者 David Pollitt 与 a16z 的 Anish Charya 对谈个人智能体浪潮：谁会赢、用哪个界面交互、智能体之间交易将如何重塑商业。",
+  "digest_md": "这一集是 a16z 的 Anish Charya 与 AssistantBench 创建者 David Pollitt 的对谈。David 搭了一个叫 Assistant Benchmark 的网站，用同样的提示词（比如「帮我订一张去芝加哥的航班」「在我位置五个街区内找素食餐厅」）去测市面上所有个人 AI 助手，在 16 个维度上比较一次性指令下的真实结果——它真的办成了吗？会不会追问细节？上线才 16 天，网站已有超过 10 万访客，几乎每个这个领域的创始人都来找过他。\n\n钩子是他对 Meta 刚发布的 Muse 硬件（Muse charm）的判断：那东西有摄像头和多个麦克风，他怀疑它根本不是为了赢硬件，而是 Meta 在现实世界里收数据，喂给 Zuckerberg 想把真实世界地图化的元宇宙。\n\n## 四周之内，赛道炸了\n\n11 月下旬 OpenClaw 发布席卷世界；最近 Instinct 引爆科技推特，然后像多米诺骨牌——GrokBot、Muse，以及一堆长尾产品如 Caddy、Ollie、Pally。据他统计，各个类别加起来目前有 122 个产品，仅通用类就有 64 个。\n\n格局上分两类：一边是面向消费者的通用智能体（Instinct、Muse、Caddy、Ollie 等），另一边是 B2B 工作流型助手，更像「行政助理」路线。\n\n## 大家真正用它干什么\n\n从他把 1200 多名助手爱好者拉的七八个群聊看，讨论度最高的使用场景排序是：**第一是日常行政杂务**——清收件箱、填表格这些真正烦人的事；**第二是智能体编排**——怎么让智能体互相协作、在手机上发消息就能改设计文件；**第三是开发**；**第四才是旅行**。旅行虽然传播度第一（「它帮我值机了！」），但人们不是天天旅行，它更像吸睛的噱头。\n\n金融是他最看好的主动性场景，但不是因为「赚钱」——「如果你能让智能体帮你赚十亿美元，所有对冲基金早就做了」。真正会爆发的是**省钱型工作流**：翻一年收据提交 HSA 报销；他自己每次订完机票，票价一跌就让助手去找航空公司要旅行代金；朋友把 GrokBot 接到家里洒水器并连上天气系统，水费降了 50%。Anish 补了一个关键的用户心理：没人想听「省钱」，但这些东西体感上是「免费的钱」——这才是强大的获客钩子。\n\n这里回应了 Ben Thompson「消费者要花时间、不要省时间」的论调：David 同意普通人不在乎效率提高 10%，但美国消费者生活里有大量重行政的部分（罚单、保险、报销），正是智能体的突破口。\n\n## 最好的员工是隐形的\n\n这一集的核心主张：**赢家会是最主动、最隐形的那一个**。「你雇一个助手，就是为了让它是隐形的——你雇一个人不是因为你喜欢管理他。」最好的员工只管把事办完，然后汇报一句「这是我做好的」。\n\n但主动性有一条微妙的界线，David 的划分是：**需要你这边改变行动的事，必须先征得同意**（比如智能体发现你的保险太贵、想帮你换——这直接影响你）；**不需要你行动、纯帮你省时间省钱的，可以直接做**（起草好邮件、拿到航班积分）。这条线一旦越界一次，你会立刻失去用户的全部信任。Anish 内部开玩笑说，离智能体发消息说「我看你对她没那么上心，就替你把她分了」只有几天之遥——但反过来，如果没人发推晒「我的智能体主动做了这个」，那说明产品在这个方向上推得还不够狠。\n\n由此他还延伸：个性不是护城河——你说一句「别这样回我」，它存进记忆就改了，太容易配置。真正可防御的是主动性本身。\n\n## 用什么界面交互\n\n界面之争基本是两种形态：iMessage 或独立应用。David 觉得 iMessage 在手机上是「特权位置」，更私人、不像额外附加的工作流；也见过第三种——初创公司 Sky 用 iPhone 小组件当界面。形态可能按代际甚至性别分化：Z 世代爱发短信，千禧一代爱应用界面；他妻子做梦想板、旅行看视觉，偏爱可视化界面，他自己只在乎「怎么从 A 到 B」。\n\n硬件方面他反对「每个做硬件的人都觉得自己那件是终极形态」，觉得会像首饰一样按个人偏好分化（项链派 vs 耳环派），但他看好有东西全天候伴你身边、捕捉一天里所有承诺和约定这个方向；他还认为纯音频眼镜可能是黑马——既有科技连接性、又没有脸上挂摄像头的社交尴尬。\n\n语音是他本集的「第二个魔法时刻」：ChatGPT Voice 接入 Gmail 和日历后，他骑车上班的 30 分钟里，动嘴就把邮件分类、贴标签、回信、发日历邀请全办完，到工位时收件箱清零。他的洞察是：助手在你双手最忙的时候最有用——园艺、做饭、骑车，而不是坐在沙发上时。\n\n## 群聊里的智能体：闭嘴的那种最讨喜\n\n把智能体拉进群聊总感觉有侵入性。David 见过三种做法：直接进群当伙伴；Instinct 的智能体网络（智能体在幕后代表你谈，再向你汇报）；以及他觉得最有意思的 Doc——智能体进群但**完全沉默**，只记笔记，有行动项时单独私信提醒那个人，群成员可以去看它记的文档。 again，隐形智能体：干着所有人想要的行政活，不打扰任何人。\n\nAnish 引用 Nir from Obo 的判断：模型在编码这类可验证领域进步是指数级的，但在文笔和「 bedside manner」上可能已停滞甚至变差——所以今天的模型很难真正增强群体的社交连接，智能体该做的是实用主义的事（他在收藏家群聊里试过给各自的藏品做编目）。\n\n## OpenClaw 的教训与「狭义创业公司」\n\n对当前产品的判断相当犀利：现在市面上的消费级智能体，本质就是预配置好的 OpenClaw 复刻——能力上没什么是 OpenClaw 或 Hermes 做不到的，差别只是你不用自己配环境、不会每隔七小时弹一次报错。方向上他会继续看到两件事：主动性深化，以及超专业化。\n\n超专业化连着 Anish 的「狭义创业公司（narrow startups）」论点：现在可以给极少数人做极其有用、极其昂贵的软件——已有人们为软件付每月 200 到 300 美元的先例，所以可以做出几万用户、年经常性收入 1000 亿美元的生意，这在过去不存在。差异化来自品味加专有知识：就像有人雇信奉特定分娩流派的导乐，你会雇信奉某套思想流派的智能体；也可能有一个专为纽约市打造的、品味难以复制的礼宾型智能体。\n\n顺带聊了词：助手（assistant）是低一级的形态，只能做你指派的事；智能体（agent）有主观能动性，能让好事直接在世界上发生——可以被想象成社交圈里的同侪。\n\n## 当智能体开始和智能体做生意\n\n往后看五年，最有想象空间的是智能体对智能体（agent-to-agent）交互：会有智能体专属的邮箱、电话号码；当服务从「人对人预订」变成「智能体从智能体那里预订」，整个服务业被重新定义；然后必然像互联网之后有网络安全一样，催生智能体安全这个新产业。\n\n商业上本周已经分了阵营：**Shopify 拥抱 Muse，Amazon 屏蔽 Muse**。David 的解释是商业模式不同——Shopify 专注让商业民主化，智能体帮每个人卖得更多，天大利好；而 Amazon 收入靠广告，当人的眼球被移除，整套广告结构就失去意义。Amazon 大概是正确地下注：不能被去中介化，否则丢的不只是广告收入，还有冲动型购物。Anish 则提出一个反直觉追问：智能体本身会不会也是冲动型购物者？主动性意味着它爱做「令人愉悦的猜测」，而有什么比惊喜和礼物更愉悦？所以营销、广告不会消失，只是需要被改造——智能体不是其主人的完美理性映射，会以全新的方式非理性。\n\n餐厅预订是供给受限的典型：Rezzy 已经开始关停用浏览器自动化抢位的账户。当人人都有智能体、人人都能同一秒抢位，要么权力回到餐厅（按忠诚度、平均消费挑选客人），要么进入智能体之间的竞价战。需求受限的场景则相反：买家聚合发出需求，商家竞标谁能以最好体验、最低价格满足——供给端的聚合加拍卖，历史上从未真正存在过。\n\n推荐引擎是另一个悬而未决的问题：你说「给我买白袜子」，市面上有两万种白袜子，智能体并不知道你偏好哪种。Muse 靠 Instagram 和 Facebook 的数据可能有先发优势；但 Anish 想象的是长尾的「不期而遇」——你的智能体回来告诉你，Etsy 上内布拉斯加有位老奶奶织的白袜子棒极了，要等三周，你愿意吗？甚至智能体直接去联系老奶奶的智能体谈这单生意——一个比今天动态得多、频率高得多的二级经济。\n\n## 钱的问题：免费巨头压顶，长尾怎么活\n\n他统计过的 122 个产品里，他亲手测了 26 个；65 个收费，其中 35 个完全付费、30 个免费增值，真正免费的只有 13 个。但占主导的 Muse 和 Instinct 都是免费的——长尾初创公司怎么收费？Anish 给出账：以真正雄心勃勃的方式做这件事，估算成本约每个用户每天 20 美元，对初创公司一年就是数亿美元。可以押注的趋势是浏览器使用成本会通缩式暴跌（token 价格已在大幅下跌）；但他不喜欢「客户补贴」当价值主张，他真正想看到的是**那个每月 1000 美元、用户兴奋到愿意掏钱的智能体**——同时吃到极端的产品市场契合和成本下降两重红利。\n\n## 本集带走\n\n- **主动性的红线划分**：需要你改变行动的事（换保险、下单）先征得同意；纯省钱省时间的事（找航班差价、起草邮件）直接做。越界一次，用户信任归零。\n- **最好的助手是隐形的**：用户不要 10% 的效率提升，要的是「拍张照，罚单我自己去交」级别的完全托管——你雇人不是为了享受管理他。\n- **频次决定定位**：旅行这类低频高价值行为大概率是通用智能体的「连接器」而非独立赢家；日常行政杂务才是最高频的真实需求。\n- **省钱场景的正确话术是「免费的钱」**：翻收据报 HSA、追机票差价、按天气浇水省一半水费——没人想听省钱，但人人都爱意外到账。\n- **界面按人群分化**：iMessage 的特权位置（已连接你、非附加工作流）vs 独立应用；语音在双手忙碌时最强；硬件形态会像首饰一样按个人偏好分化。\n- **Amazon 屏蔽 Muse、Shopify 拥抱**：广告驱动的平台怕失去眼球和冲动消费，赋能中小卖家的平台则因智能体进一步民主化而受益——商业模式决定站队。\n- **智能体商业的两个新命题**：推荐引擎（两万种白袜子你到底要哪种）和智能体间交易基础设施（智能体邮箱、电话号码、竞价与安全）。\n- **商业模式的赌注**：浏览器自动化成本正快速通缩，但赢家不该靠补贴——要做出贵到每月 1000 美元用户仍愿付费的智能体。",
+  "quotes": [
+    {
+      "en": "I think the general population does not care about being 10% more efficient.",
+      "zh": "我认为普通大众并不在乎效率提高 10%。",
+      "timestamp": "10:34",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "You don't hire someone because you enjoy managing them.",
+      "zh": "你雇一个人不是因为你喜欢管理他。",
+      "timestamp": "10:50",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "But it will be a very fine line because if you cross that line once, I think you immediately lose all trust with your user.",
+      "zh": "但这会是一条非常细微的界线，因为一旦你跨过那条线，我想你会立刻失去用户的所有信任。",
+      "timestamp": "27:34",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "And we were joking internally, like we're days away from an agent messaging someone saying, I noticed you weren't that into her, so I went ahead and broke up with her for you.",
+      "zh": "我们内部还在开玩笑说，距离某个智能体给某人发消息说「我注意到你对她没那么上心，所以我已经替你和她分手了」，只有几天之遥了。",
+      "timestamp": "27:43",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "But, you know, I think a lot of the magic comes from the presumptuousness.",
+      "zh": "但你知道，我觉得很多魔力正是来自那种自作主张。",
+      "timestamp": "27:54",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "And if you could have an agent make a billion dollars for you, all the hedge funds would be doing it.",
+      "zh": "如果你能让一个智能体帮你赚十亿美元，所有对冲基金都会去做这件事。",
+      "timestamp": "09:22",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "And I actually think the hook that's going to get a lot of people here is it's going to feel like free money.",
+      "zh": "而我真的认为，能吸引很多人的那个钩子是，它会让人感觉像免费的钱。",
+      "timestamp": "12:09",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "And throughout my 30-minute bike ride to work, categorized my emails, submitted them to different labels, replied to different emails, sent out calendar invites, got to the desk, inbox zero.",
+      "zh": "在我 30 分钟骑车上班的路上，它把我的邮件分类了，归到不同标签下，回复了不同的邮件，发出了日历邀请，到工位时，收件箱清零。",
+      "timestamp": "18:32",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "I have a hot take thesis that this Muse charm is actually less about trying to win the hardware game and it's more about data collection in the real world for the meta team in terms of how the real world actually functions given it has a camera and multiple microphones.",
+      "zh": "我有一个犀利观点的论断：这个 Muse charm 其实更多不是想赢下硬件这场游戏，而是 Meta 团队在现实世界里的数据收集——鉴于它有摄像头和多个麦克风，用来了解现实世界究竟是如何运转的。",
+      "timestamp": "16:22",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "Right now, I honestly see the consumer agent is literally just a replication of OpenClaw, but it's just preconfigured.",
+      "zh": "说实话，目前我看到消费级智能体基本上就是 OpenClaw 的复刻，只是做了预配置。",
+      "timestamp": "29:32",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "So you can build, you know, $100 billion run rate business with tens of thousands of people, which has never really existed in the past.",
+      "zh": "所以你可以构建一个年经常性收入 1000 亿美元、只有几万人的业务，这在过去从未真正存在过。",
+      "timestamp": "31:12",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "The whole ad structure of commerce is going to be really fascinating to watch because when you remove human eyeballs, it defeats the entire purpose of the system.",
+      "zh": "商业的整个广告结构将会非常值得关注，因为当你把人的眼球移除之后，就摧毁了这套系统的全部意义。",
+      "timestamp": "40:58",
+      "speaker": "David Pawlan"
+    },
+    {
+      "en": "They're not perfectly rational. They're going to be non-rational in completely new ways.",
+      "zh": "它们不是完全理性的。它们会以全新的方式表现出非理性。",
+      "timestamp": "44:37",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "So we've always had this kind of aggregation of demand, but we've never really had aggregation of supply in the same way, especially not in an auction system to benefit the consumer.",
+      "zh": "我们一直都有这种需求端的聚合，但在供给端我们从来没有以同样的方式聚合过，尤其没有通过一个惠及消费者的拍卖系统来实现。",
+      "timestamp": "43:51",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "It's not about cost reduction. It's about possibility expansion.",
+      "zh": "这不是关于降低成本，而是关于拓展可能性。",
+      "timestamp": "38:19",
+      "speaker": "Anish Acharya"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "10:34",
+      "speaker": "Unknown",
+      "en": "I think the general population does not care about being 10% more efficient.",
+      "zh": "我认为普通大众并不在乎效率提高 10%。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Unknown",
+      "en": "You hire an assistant to allow it to be invisible, right?",
+      "zh": "你雇一个助手，就是为了让它是隐形的，对吧？"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Unknown",
+      "en": "You don't hire someone because you enjoy managing them.",
+      "zh": "你雇一个人不是因为你喜欢管理他。"
+    },
+    {
+      "timestamp": "27:34",
+      "speaker": "Unknown",
+      "en": "But it will be a very fine line because if you cross that line once, I think you immediately lose all trust with your user.",
+      "zh": "但这会是一条非常细微的界线，因为一旦你跨过那条线，我想你会立刻失去用户的所有信任。"
+    },
+    {
+      "timestamp": "27:43",
+      "speaker": "Unknown",
+      "en": "And we were joking internally, like we're days away from an agent messaging someone saying, I noticed you weren't that into her, so I went ahead and broke up with her for you.",
+      "zh": "我们内部还在开玩笑说，距离某个智能体给某人发消息说「我注意到你对她没那么上心，所以我已经替你和她分手了」，只有几天之遥了。"
+    },
+    {
+      "timestamp": "27:54",
+      "speaker": "Unknown",
+      "en": "But, you know, I think a lot of the magic comes from the presumptuousness.",
+      "zh": "但你知道，我觉得很多魔力正是来自那种自作主张。"
+    },
+    {
+      "timestamp": "26:23",
+      "speaker": "Unknown",
+      "en": "I think there is massive defensibility around proactivity.",
+      "zh": "我认为在主动性方面存在巨大的可防御性。"
+    },
+    {
+      "timestamp": "09:22",
+      "speaker": "Unknown",
+      "en": "And if you could have an agent make a billion dollars for you, all the hedge funds would be doing it.",
+      "zh": "如果你能让一个智能体帮你赚十亿美元，所有对冲基金都会去做这件事。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Unknown",
+      "en": "And I actually think the hook that's going to get a lot of people here is it's going to feel like free money.",
+      "zh": "而我真的认为，能吸引很多人的那个钩子是，它会让人感觉像免费的钱。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Unknown",
+      "en": "And throughout my 30-minute bike ride to work, categorized my emails, submitted them to different labels, replied to different emails, sent out calendar invites, got to the desk, inbox zero.",
+      "zh": "在我 30 分钟骑车上班的路上，它把我的邮件分类了，归到不同标签下，回复了不同的邮件，发出了日历邀请，到工位时，收件箱清零。"
+    },
+    {
+      "timestamp": "19:19",
+      "speaker": "Unknown",
+      "en": "But I do think that for the general consumer, an assistant is most helpful when you are most occupied, right?",
+      "zh": "但我确实认为，对于普通消费者来说，助手在你最忙碌的时候最有帮助，对吧？"
+    },
+    {
+      "timestamp": "16:22",
+      "speaker": "Unknown",
+      "en": "I have a hot take thesis that this Muse charm is actually less about trying to win the hardware game and it's more about data collection in the real world for the meta team in terms of how the real world actually functions given it has a camera and multiple microphones.",
+      "zh": "我有一个犀利观点的论断：这个 Muse charm 其实更多不是想赢下硬件这场游戏，而是 Meta 团队在现实世界里的数据收集——鉴于它有摄像头和多个麦克风，用来了解现实世界究竟是如何运转的。"
+    },
+    {
+      "timestamp": "32:50",
+      "speaker": "Unknown",
+      "en": "You know, for me, an agent is somebody, you could imagine them being a peer in a social group.",
+      "zh": "对我来说，智能体是这样一种存在：你可以想象它成为社交圈中的一个同侪。"
+    },
+    {
+      "timestamp": "29:32",
+      "speaker": "Unknown",
+      "en": "Right now, I honestly see the consumer agent is literally just a replication of OpenClaw, but it's just preconfigured.",
+      "zh": "说实话，目前我看到消费级智能体基本上就是 OpenClaw 的复刻，只是做了预配置。"
+    },
+    {
+      "timestamp": "31:12",
+      "speaker": "Unknown",
+      "en": "So you can build, you know, $100 billion run rate business with tens of thousands of people, which has never really existed in the past.",
+      "zh": "所以你可以构建一个年经常性收入 1000 亿美元、只有几万人的业务，这在过去从未真正存在过。"
+    },
+    {
+      "timestamp": "40:58",
+      "speaker": "Unknown",
+      "en": "The whole ad structure of commerce is going to be really fascinating to watch because when you remove human eyeballs, it defeats the entire purpose of the system.",
+      "zh": "商业的整个广告结构将会非常值得关注，因为当你把人的眼球移除之后，就摧毁了这套系统的全部意义。"
+    },
+    {
+      "timestamp": "44:37",
+      "speaker": "Unknown",
+      "en": "They're not perfectly rational. They're going to be non-rational in completely new ways.",
+      "zh": "它们不是完全理性的。它们会以全新的方式表现出非理性。"
+    },
+    {
+      "timestamp": "44:00",
+      "speaker": "Unknown",
+      "en": "So we've always had this kind of aggregation of demand, but we've never really had aggregation of supply in the same way, especially not in an auction system to benefit the consumer.",
+      "zh": "我们一直都有这种需求端的聚合，但在供给端我们从来没有以同样的方式聚合过，尤其没有通过一个惠及消费者的拍卖系统来实现。"
+    },
+    {
+      "timestamp": "47:49",
+      "speaker": "Unknown",
+      "en": "It opens the door to a truly consumer aligned internet, which I think we have been lacking for quite some time.",
+      "zh": "它打开了一扇门，通向一个真正以消费者利益为依归的互联网，我认为这方面我们已经缺失了相当长的时间。"
+    },
+    {
+      "timestamp": "38:21",
+      "speaker": "Unknown",
+      "en": "It's not about cost reduction. It's about possibility expansion.",
+      "zh": "这不是关于降低成本，而是关于拓展可能性。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个正在爆发的赛道：个人 AI 智能体。就是那种你说一句“帮我订张去芝加哥的机票”、它真能把事办成的助手。这一集的对谈双方都很有分量：一位是 Anish Charya，来自 a16z；另一位是 David Pollitt，他搭了一个叫 Assistant Benchmark 的网站，用同样的提示词去测市面上所有个人 AI 助手——比如“帮我订航班”“在我附近找素食餐厅”——在 16 个维度上比较真实结果：到底办成了没有？会不会追问细节？这个网站上线才 16 天，就有超过 10 万访客，这个领域几乎每个创始人都来找过他。\n\n为什么现在聊这个？因为就在四周之内，这个赛道炸了。先是 OpenClaw 发布席卷世界，然后 Instinct 引爆科技推特，接着像多米诺骨牌一样，GrokBot、Meta 的 Muse，还有 Caddy、Ollie、Pally 一堆长尾产品接连冒出来。David 统计过，各类加起来目前有 122 个产品，光通用类就有 64 个。顺便说一句，他对 Meta 那个带摄像头和多麦克风的 Muse 硬件有个很扎心的猜测：那东西可能根本不是为了赢硬件生意，而是 Meta 在现实世界里收数据，去喂一个想把真实世界地图化的元宇宙。\n\n那大家真的拿这些东西干什么呢？David 把一千两百多名助手爱好者拉了七八个群聊，从里面的讨论热度看，排第一的不是你想象的旅行订票，而是日常行政杂务——清收件箱、填表格这些真正烦人的事；第二是让智能体互相协作的编排；第三是开发；旅行只能排第四。旅行虽然传播度最高——“它帮我值机了！”这种截图最吸睛——但人不是天天旅行。而 David 最看好的主动性场景是金融，注意，不是帮你赚钱。道理很简单：“如果你能让智能体帮你赚十亿美元，所有对冲基金都会去做这件事。”真正会爆发的是省钱型工作流：翻一年的收据去提交报销；每次订完机票，票价一跌就让助手去找航空公司要代金券；还有人把智能体接上家里的洒水器和天气系统，水费直接降了一半。Anish 补了一个很关键的用户心理：没人想听“省钱”两个字，但这些事体感上是“免费的钱”——这才是强大的获客钩子。这其实也回应了 Ben Thompson 那句“消费者要花时间、不要省时间”——普通人确实不在乎效率提高百分之十，但生活里有大量又重又烦的行政部分，那正是智能体的突破口。\n\n这就引出这一集的核心主张：赢家会是最主动、最隐形的那一个。David 有句话说得很直白：“你雇一个人不是因为你喜欢管理他。”最好的员工只管把事办完，然后汇报一句“这是我做好的”。但主动性有一条微妙的界线：需要你这边改变行动的事，比如智能体发现你的保险太贵、想帮你换一件，这直接影响你，必须先征得同意；不需要你行动、纯帮你省时间省钱的，比如起草好邮件、拿到航班积分，可以直接做。这条线一旦越界一次，用户会立刻失去全部信任。Anish 内部还开玩笑说，距离某个智能体发消息说“我注意到你对她没那么上心，所以已经替你分手了”，只有几天之遥。不过反过来看，如果从来没人发推晒“我的智能体主动做了这个”，那说明产品在这个方向上推得还不够狠——很多魔力恰恰来自那种自作主张。\n\n再往深一步，既然主动性才是真本事，那个性就不是护城河了——你说一句“别这样回我”，它存进记忆就改了，太容易配置。那用什么界面交互呢？现在是两种形态打架：iMessage 和独立应用。David 觉得 iMessage 占了手机上的特权位置，更私人、不像额外附加的工作流。但形态大概率按人群分化：Z 世代爱发短信，千禧一代爱应用界面。语音是他这一集的第二个“魔法时刻”：ChatGPT Voice 接上 Gmail 和日历之后，他骑车上班的 30 分钟里动动嘴，邮件分类、回信、发日历邀请全办完，到工位时收件箱清零。洞察就在这：助手在你双手最忙的时候最有用——做饭、骑车、园艺，而不是瘫在沙发上的时候。\n\n往后看五年，最有想象空间的是智能体跟智能体做生意。会有智能体专属的邮箱、电话号码；当服务从“人对人预订”变成“智能体从智能体那里预订”，整个服务业被重新定义。商业上这周已经站队了：Shopify 拥抱 Muse，Amazon 屏蔽 Muse。原因在商业模式——Shopify 专注让商业民主化，智能体帮每个人卖得更多，天大利好；Amazon 收入靠广告，当人的眼球被移除，整套广告结构就失去了意义。而且别忘了冲动消费——不过 Anish 提了个反直觉的追问：智能体自己会不会也是冲动型购物者？主动性意味着爱做“令人愉悦的猜测”，有什么比惊喜和礼物更愉悦呢？所以营销不会消失，只是要被改造——智能体会以全新的方式非理性。还有推荐这个难题：你说“给我买白袜子”，市面上有两万种白袜子，它怎么知道你要哪种？Anish 想象的画面很美：你的智能体回来告诉你，Etsy 上内布拉斯加有位老奶奶织的白袜子棒极了，要等三周，你愿意吗？甚至直接去跟老奶奶的智能体谈这单生意——一个比今天动态得多的二级经济。\n\n最后说钱的问题。122 个产品里 David 亲手测了 26 个，65 个收费，真正免费的只有 13 个——可偏偏占主导的 Muse 和 Instinct 都是免费的，长尾初创公司怎么活？Anish 算过账：真要雄心勃勃地做，每个用户每天成本约 20 美元，初创公司一年就是数亿美元。好在 token 价格正在暴跌，成本会通缩式下降。但补贴不该是价值主张——真正值得做的，是那个贵到每月 1000 美元、用户依然兴奋掏钱的智能体。\n\n带走一句话吧：最好的助手是隐形的——你雇人从来不是因为喜欢管理，而是为了让事情被办完。"
+}

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":9,"智能体":353,"智能体编码":3,"PR":6,"CI-CD":13,"可观测性":32,"护栏":65,"token":28}</script>
+<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":9,"智能体":354,"智能体编码":3,"PR":6,"CI-CD":13,"可观测性":32,"护栏":65,"token":28}</script>
 
 <script>
 (function(){

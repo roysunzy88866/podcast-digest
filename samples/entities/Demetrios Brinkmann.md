@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":353,"计算机使用":14,"MCP":64,"Agentic AI Foundation":1,"harness":49,"Claude Code":84,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":354,"计算机使用":14,"MCP":64,"Agentic AI Foundation":1,"harness":49,"Claude Code":84,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

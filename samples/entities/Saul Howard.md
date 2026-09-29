@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":152,"智能体":353,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":152,"智能体":354,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

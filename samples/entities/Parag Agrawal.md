@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]] [[Jay]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Parallel":6,"Amazon":16,"Shopify":10,"OpenAI":140,"Perplexity":8,"智能体":353,"网页搜索":1,"推理":60,"开源模型":22}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Parallel":6,"Amazon":17,"Shopify":11,"OpenAI":140,"Perplexity":8,"智能体":354,"网页搜索":1,"推理":60,"开源模型":22}</script>
 
 <script>
 (function(){

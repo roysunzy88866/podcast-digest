@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":353,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":12}</script>
+<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":354,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":12}</script>
 
 <script>
 (function(){

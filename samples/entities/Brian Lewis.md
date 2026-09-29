@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":81}</script>
+<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":82}</script>
 
 <script>
 (function(){

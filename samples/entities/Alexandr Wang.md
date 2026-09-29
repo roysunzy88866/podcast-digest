@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":4,"Meta":35,"MuseSpark":1,"开源模型":22,"智能体":353,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":4,"Meta":35,"MuseSpark":1,"开源模型":22,"智能体":354,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

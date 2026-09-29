@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":353,"vibe coding":41,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":8,"一人独角兽":1,"提示词":19}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":354,"vibe coding":41,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":8,"一人独角兽":1,"提示词":19}</script>
 
 <script>
 (function(){

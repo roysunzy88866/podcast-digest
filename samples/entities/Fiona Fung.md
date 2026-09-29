@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":152,"Claude Code":84,"Co-work":4,"智能体":353,"验证":8,"测试驱动开发":3,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":152,"Claude Code":84,"Co-work":4,"智能体":354,"验证":8,"测试驱动开发":3,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

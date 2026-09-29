@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":353,"生产世界模型":1,"可观测性":32,"遥测数据":1,"上下文":24,"文件系统":3,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":354,"生产世界模型":1,"可观测性":32,"遥测数据":1,"上下文":24,"文件系统":3,"评估":3}</script>
 
 <script>
 (function(){

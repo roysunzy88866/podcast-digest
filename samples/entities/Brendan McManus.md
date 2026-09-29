@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":84,"LangGraph":5,"智能体":353,"子智能体":4,"确定性":3,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
+<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":84,"LangGraph":5,"智能体":354,"子智能体":4,"确定性":3,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
 
 <script>
 (function(){

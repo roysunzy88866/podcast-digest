@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":353,"沙箱":64,"harness":49,"函数调用":1,"上下文窗口":11,"评估":3,"JSON schema":1,"Gemini":11,"Google":49,"Cursor":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"沙箱":64,"harness":49,"函数调用":1,"上下文窗口":11,"评估":3,"JSON schema":1,"Gemini":11,"Google":49,"Cursor":71}</script>
 
 <script>
 (function(){

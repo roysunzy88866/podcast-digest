@@ -161,7 +161,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude Code]] · [[Codex]] · [[OpenRouter]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":353,"Anthropic":152,"OpenAI":140,"Cursor":71,"推理":60,"NVIDIA":45,"Claude Code":84,"Codex":62,"OpenRouter":11,"ChatGPT":81}</script>
+<script type="application/json" class="pd-epn">{"智能体":354,"Anthropic":152,"OpenAI":140,"Cursor":71,"推理":60,"NVIDIA":45,"Claude Code":84,"Codex":62,"OpenRouter":11,"ChatGPT":82}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":84,"上下文引擎":4,"智能体":353,"上下文窗口":11,"代码评审智能体":1,"搜索满足感":1,"MCP":64}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":84,"上下文引擎":4,"智能体":354,"上下文窗口":11,"代码评审智能体":1,"搜索满足感":1,"MCP":64}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":353,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":64,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":11}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":354,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":64,"后训练":1,"持续学习":1,"现实世界的评估":1,"Copilot":11}</script>
 
 <script>
 (function(){

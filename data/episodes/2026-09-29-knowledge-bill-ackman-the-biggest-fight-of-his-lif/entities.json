@@ -1,0 +1,941 @@
+{
+  "episode_id": "2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif",
+  "podcast": "The Knowledge Project",
+  "date": "2026-09-29",
+  "tags": [
+    "投资与估值",
+    "AI 与颠覆风险",
+    "泡沫与融资纪律",
+    "永久资本",
+    "健康科技"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "bill-ackman",
+      "type": "person",
+      "role": "host",
+      "name": "Bill Ackman",
+      "file": "Bill Ackman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 极大增加了所有生意的颠覆风险,是投资者最难预测的问题;同时在 Cognition 重写遗留系统、充当言语治疗师、医疗决策把关等场景带来真实机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.115,
+            6.5
+          ],
+          "quote": "What AI has done is massively increase the risk of disruptions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            398.232,
+            400.573
+          ],
+          "quote": "And, you know, of course, AI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            851.69,
+            855.054
+          ],
+          "quote": "But of course, AI could be an amazing speech therapist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1385.475,
+            1387.918
+          ],
+          "quote": "I built an AI version of myself with Heijeng.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1487.709,
+            1495.234
+          ],
+          "quote": "You could say AI is absolutely transformational and it's the most transformational technology I think of all of our respective lifetimes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1787.373,
+            1789.414
+          ],
+          "quote": "How is AI changing the investment profession?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1824.853,
+            1828.236
+          ],
+          "quote": "What AI has done is massively increase the risk of disruption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1848.329,
+            1849.189
+          ],
+          "quote": "Well, now we have AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1852.41,
+            1857.672
+          ],
+          "quote": "All of us are guaranteed to look foolish with one business or another that we didn't anticipate the risk of disruption because of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1857.993,
+            1861.134
+          ],
+          "quote": "What businesses do you think become more valuable as a result of AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1867.236,
+            1877.98
+          ],
+          "quote": "Their software, or their AI, in effect, enables banks, big financial institutions, for example, that spend a ton of money on...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1891.492,
+            1897.813
+          ],
+          "quote": "I think the cost to run big financial institutions is going to come down meaningfully because of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1908.035,
+            1914.597
+          ],
+          "quote": "Everyone's going to be forced to use the best software to run their business more efficiently and become more AI native.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1931.441,
+            1943.726
+          ],
+          "quote": "I think AI will enable the creation of many businesses that heretofore could not be created before, and AI will enable entrepreneurs, people to become entrepreneurs who have never been entrepreneurs before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1953.11,
+            1953.95
+          ],
+          "quote": "Yeah, Muse.ai.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2222.23,
+            2228.475
+          ],
+          "quote": "How are you guys using AI internally in that investment process to either speed up the work or do work that you normally couldn't do?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2228.755,
+            2235.077
+          ],
+          "quote": "Yeah, today we're really using AI more as a research tool to learn about a certain subject that's relevant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2241.338,
+            2246.14
+          ],
+          "quote": "In a world where everyone has the same access to AI, it's hard to be differentiated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2247.54,
+            2259.285
+          ],
+          "quote": "You know, what's left to humanity is kind of the outside-the-box thinking, the creative process, the insight that's gleaned from looking at all the facts, whereas AI is a bit of a review of everything that happened before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2277.114,
+            2284.818
+          ],
+          "quote": "Those are among our best investments and they were, you couldn't have found in a model, you know, AI would not have told you to do any of those things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2604.362,
+            2608.043
+          ],
+          "quote": "I want to come back just one second to the AI thing for a move on for a minute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2611.601,
+            2620.683
+          ],
+          "quote": "You know, my daughter's had a major health incident, and AI is amazing at, you know, vetting, helping you make medical decisions for a child.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2623.404,
+            2633.127
+          ],
+          "quote": "And I think every doctor should actually be checking their work with, you know, Dr. Claude, or pick your favorite website, make your favorite AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2634.047,
+            2642.512
+          ],
+          "quote": "Do you think companies like Brookfield get more valuable where it's like a tangible almost infrastructure becomes more valuable in a world of AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2651.417,
+            2661.062
+          ],
+          "quote": "We have AI in one hand, and on the other hand, these tangible experiences are going to become more and more meaningful to people, and presumably they'll pay more for those experiences.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2680.269,
+            2682.931
+          ],
+          "quote": "So I think Brookfield is an AI winner for sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            4583.406,
+            4590.209
+          ],
+          "quote": "And I'm hoping to AI and, you know, doing a better job enables me to live to meaningfully more than that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "disruption",
+      "type": "concept",
+      "role": "concept",
+      "name": "颠覆风险 (disruption)",
+      "file": "颠覆风险",
+      "primary": true,
+      "how_described": "本集把评估颠覆风险称为投资者最重要也最复杂的事,并断言我们所有人都注定会因没预见 AI 带来的颠覆而显得愚蠢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            3.055
+          ],
+          "quote": "So the thing that you need to think through is the risk of disruption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1822.071,
+            1824.813
+          ],
+          "quote": "The thing that you need to think through is the risk of disruption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1824.853,
+            1828.236
+          ],
+          "quote": "What AI has done is massively increase the risk of disruption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1834.8,
+            1844.007
+          ],
+          "quote": "If you go back and read Warren Buffett, the greatest investor of all time, he was not able to perceive the risk of disruption created by the internet, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1852.41,
+            1857.672
+          ],
+          "quote": "All of us are guaranteed to look foolish with one business or another that we didn't anticipate the risk of disruption because of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1991.525,
+            1996.812
+          ],
+          "quote": "And it's the most complicated question for an investor, how to predict the risk of disruption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2299.621,
+            2306.385
+          ],
+          "quote": "We want to own the best businesses in the world that have a very low risk of disruption, and I think we're quite disciplined about that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bubble",
+      "type": "concept",
+      "role": "concept",
+      "name": "泡沫 (bubble)",
+      "file": "泡沫",
+      "primary": true,
+      "how_described": "本集说 AI 领域存在类似泡沫的元素:私募市场 FOMO、抢先投资、4000 亿美元估值投 5000 万美元,并建议创始人把每一美元当作自己的钱谨慎花。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1450.392,
+            1452.713
+          ],
+          "quote": "I'm curious, like, how would you explain what a bubble is?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1453.802,
+            1471.199
+          ],
+          "quote": "A bubble is when human nature, when a lot of money is being made and people have a lot of FOMO and they want to participate in having money being made and it leads more and more money going into the same trade, if you will, until overvaluation takes place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1472.16,
+            1477.183
+          ],
+          "quote": "And then, you know, ebullience and then eventually the bubble bursts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1495.354,
+            1496.975
+          ],
+          "quote": "There are bubble-like elements.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1501.417,
+            1509.942
+          ],
+          "quote": "We're starting to invest in some ... Talk about a bubble where Pershing is now investing in some venture-stage businesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1558.023,
+            1564.75
+          ],
+          "quote": "Actually, interestingly, in the last real bubble, the internet bubble, that's when Berkshire stock hit an all-time low because people said he's lost it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1584.179,
+            1592.122
+          ],
+          "quote": "What this is reminiscent of is in the internet bubble, there was effectively unlimited amount of capital available for kind of suspect business plans.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "permanent-capital",
+      "type": "concept",
+      "role": "concept",
+      "name": "永久资本 (permanent capital)",
+      "file": "永久资本",
+      "primary": true,
+      "how_described": "本集说 Pershing 退出资金可随时流出的开放式基金、在每个公开载体里员工持有锚定股份,市场恐慌时资本留在载体里,让他们能在新冠崩盘时反着买,也才有芒格说的「永远有选择」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 837,
+          "t": [
+            3771.661,
+            3772.681
+          ],
+          "quote": "He had permanent capital.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3858.937,
+            3871.287
+          ],
+          "quote": "But I think he figured out that if I keep running in this partnership format, when I don't have permanent capital, he was getting tired of dealing with investors who were giving him money, taking him money that were affecting his results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3938.759,
+            3948.563
+          ],
+          "quote": "So, you know, what's unusual about us is we have sort of these anchor stakes in each of the public vehicles we run and each of them is sort of a permanent capital entity, which means that",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pershing-square",
+      "type": "company",
+      "role": "company",
+      "name": "Pershing Square",
+      "file": "Pershing Square",
+      "primary": true,
+      "how_described": "本集说它的核心竞争力是人的确定性(投资团队九年无流动)、利益一致性(无人按单只股票取酬,Ackman 持股约 45%)和永久资本,AI 只是研究工具还没渗透进流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1037.902,
+            1039.664
+          ],
+          "quote": "Pershing Square has come a long way from when I started it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1069.463,
+            1070.764
+          ],
+          "quote": "We have no turnover at Pershing Square.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1139.219,
+            1145.843
+          ],
+          "quote": "Then the business itself, the way it's structured is Ben is responsible for running a lot of the business elements of Pershing Square.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1168.449,
+            1173.211
+          ],
+          "quote": "There's the management company that earns fees from the entities we're on, that's Pershing Square, Inc., PS, ticker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2990.172,
+            2999.619
+          ],
+          "quote": "Now, Pershing Square, the management company, which was the gift we gave with purchase, we don't intend to issue any meaningful amount of options or restricted stock.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3138.018,
+            3144.983
+          ],
+          "quote": "But what Pershing Square invests in the highest certainty companies in the world, and we think the dispersion of outcomes here has widened dramatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3172.318,
+            3176.5
+          ],
+          "quote": "Again, if you look at the Pershing Square portfolio, we own the highest certainty predictable companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3507.982,
+            3510.583
+          ],
+          "quote": "And then Pershing Square is managing the assets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3912.665,
+            3921.669
+          ],
+          "quote": "The unique thing about Pershing Square is, if you look at the various, so we manage an offshore entity called Pershing Square Holdings, employees on 28% of that company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3922.513,
+            3931.576
+          ],
+          "quote": "We manage Howard Hughes at its own directly and indirectly about the same by employees plus the Pershing Square funds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3932.357,
+            3938.739
+          ],
+          "quote": "And then we just took public an entity called Pershing Square USA and employees invested, you know, 500 and something million dollars in the entity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4024.669,
+            4032.075
+          ],
+          "quote": "And if you look at Pershing Square today, if we just compounded anything close to historic rates, we'll be managing a trillion dollars in 20 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4073.905,
+            4079.47
+          ],
+          "quote": "And years later, I was heading to London for actually Pershing Square-related reasons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4130.376,
+            4139.219
+          ],
+          "quote": "And that night I had dinner with the chair of Pershing Square Holdings, and I gave him a Vermont.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            4533.313,
+            4538.516
+          ],
+          "quote": "My definition of success for, you know, obviously, Pershing Square is, you know, I want the investors.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "本集说这家做 AI 编程的公司能把大银行因多年收购累积的 COBOL 遗留系统重写成现代代码,几天搞定过去要几个月的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            273.794,
+            277.356
+          ],
+          "quote": "And she's regained over time her cognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1861.474,
+            1866.276
+          ],
+          "quote": "I actually met with one of the founders of Cognition yesterday, a very interesting company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "howard-hughes",
+      "type": "company",
+      "role": "company",
+      "name": "Howard Hughes",
+      "file": "Howard Hughes",
+      "primary": true,
+      "how_described": "本集说它是为救 General Growth 而分拆出的 MPC(总体规划社区)实体,像游戏《模拟城市》一样经营小城市,Pershing 持股 47%,正靠卖地现金流转型为「现代版伯克希尔·哈撒韦」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 718,
+          "t": [
+            3226.853,
+            3232.096
+          ],
+          "quote": "The business that you're involved with that I think people know the least about is Howard Hughes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3236.519,
+            3237.52
+          ],
+          "quote": "So Howard Hughes was...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3304.172,
+            3313.199
+          ],
+          "quote": "We took all the non-core stuff and stuck it in Howard Hughes on the theory that, and by the way, it's the first time that I've ever seen, normally when you spin off a company from another company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3319.141,
+            3326.083
+          ],
+          "quote": "In this case, we spun off Howard Hughes and General Gros stock went up, like the overhang from this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3335.206,
+            3336.006
+          ],
+          "quote": "We called it Howard Hughes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3401.487,
+            3411.639
+          ],
+          "quote": "But after 14 years of Wall Street wanting nothing to do with the business, we said, look, it's time for us to kind of transform Howard Hughes into something else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3412.12,
+            3418.247
+          ],
+          "quote": "And the reason why Wall Street doesn't like the core Howard Hughes business is land and development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3564.252,
+            3567.073
+          ],
+          "quote": "And that's what we're underway to do at Howard Hughes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3571.935,
+            3576.156
+          ],
+          "quote": "But the nature of Howard Hughes's core business is over time, it self-liquidates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3922.513,
+            3931.576
+          ],
+          "quote": "We manage Howard Hughes at its own directly and indirectly about the same by employees plus the Pershing Square funds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4041.612,
+            4051.958
+          ],
+          "quote": "So the story here is I was at Howard Hughes Board Meeting, and it was in Dallas, and our office at the time was in a mixed-use complex with a shopping center.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": true,
+      "how_described": "本集用它讲解「论点破裂就退出」:管理层三周前还说绝不做广告模式、财报电话会却像被震住,离散度扩大于是卖出换 Alphabet,后来证明业务后在价格合理时买回。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 666,
+          "t": [
+            3027.282,
+            3029.263
+          ],
+          "quote": "I want to talk about Netflix for a second.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3039.886,
+            3044.748
+          ],
+          "quote": "Netflix is one of the companies, if you will, in the library that we had done a lot of work on over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3055.694,
+            3060.556
+          ],
+          "quote": "And we think Netflix is an amazing business with a very dominant position.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3074.17,
+            3079.877
+          ],
+          "quote": "We talked about things like why Netflix and we said, why don't you have an advertising model, lower cost advertising model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3197.407,
+            3203.809
+          ],
+          "quote": "Netflix, you probably turn off the lights practically before you turn off your Netflix, and they're incredibly well positioned to...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brookfield",
+      "type": "company",
+      "role": "company",
+      "name": "Brookfield",
+      "file": "Brookfield",
+      "primary": true,
+      "how_described": "本集说对算力的需求实际上是无限的,而 Brookfield 擅长数据中心和电力,肯定是 AI 赢家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 573,
+          "t": [
+            2634.047,
+            2642.512
+          ],
+          "quote": "Do you think companies like Brookfield get more valuable where it's like a tangible almost infrastructure becomes more valuable in a world of AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2662.179,
+            2665.941
+          ],
+          "quote": "So on Brookfield, I think it's an incredibly well-run, amazing company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2680.269,
+            2682.931
+          ],
+          "quote": "So I think Brookfield is an AI winner for sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3330.664,
+            3334.986
+          ],
+          "quote": "Our structure, which a deal we did with Brookfield was to create this entity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-hathaway",
+      "type": "company",
+      "role": "company",
+      "name": "Berkshire Hathaway",
+      "file": "Berkshire Hathaway",
+      "primary": true,
+      "how_described": "本集用巴菲特「负成本负债 + 资产端高回报」的保险打法作为 Howard Hughes 转型的模板,并引芒格的话:成功最被低估的要素是几乎从不被迫因环境而做决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 771,
+          "t": [
+            3456.062,
+            3458.603
+          ],
+          "quote": "And we're transforming into what we call a modern-day Berkshire Hathaway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3674.998,
+            3678.762
+          ],
+          "quote": "So modern-day Berkshire Hathaway, that term gets thrown around a lot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 816,
+          "t": [
+            3680.423,
+            3687.17
+          ],
+          "quote": "It means we're going to operate much the same way Buffett did in terms of insurance will be the driver of the value of Berkshire Hathaway over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3780.788,
+            3785.792
+          ],
+          "quote": "And he was able to recruit talented people to run the various businesses of Berkshire Hathaway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3875.75,
+            3885.113
+          ],
+          "quote": "If I own half of this little Berkshire Hathaway thing and I generate a 20% return for the rest of my life, I'll end up in a very good place and the marginal promote is not that important to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 860,
+          "t": [
+            3892.515,
+            3908.783
+          ],
+          "quote": "I remember talking to Charlie Munger one night about, and I asked him what the most underrated aspect of Berkshire Hathaway's success has been, the part that people don't talk about the most, and he said, we were almost never forced to make decisions by circumstances, so we always had options.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "wearable",
+      "reason": "专名「wearable」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

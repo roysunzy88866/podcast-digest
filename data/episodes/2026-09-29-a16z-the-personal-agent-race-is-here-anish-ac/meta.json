@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/db7a374f-e7e8-4561-875a-fde28e631933/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=db7a374f-e7e8-4561-875a-fde28e631933&feed=JGE3yC0V",
+  "duration_sec": 3075.872,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 652,
+  "asr": true,
+  "title_en": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
+  "podcast": "The a16z Show",
+  "date": "2026-09-29",
+  "added": "2026-09-29",
+  "added_at": "2026-09-29T11:50:17.379Z",
+  "speaker_map": {
+    "SPEAKER_00": "Anish Acharya",
+    "SPEAKER_02": "David Pawlan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "David Pawlan"
+  ],
+  "host": "Anish Acharya",
+  "cohosts": [],
+  "title_zh": "个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手",
+  "guest_name": "David Pawlan",
+  "guest_title": "AssistantBench 创建者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

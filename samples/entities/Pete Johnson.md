@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":152,"Eleven Labs":8,"Uber":14,"智能体":353,"智能体记忆":1,"RAG":21,"嵌入模型":4}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":5,"Voyage AI":1,"Anthropic":152,"Eleven Labs":8,"Uber":14,"智能体":354,"智能体记忆":1,"RAG":21,"嵌入模型":4}</script>
 
 <script>
 (function(){

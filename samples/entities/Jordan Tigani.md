@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":14,"open core":1,"数据仓库":3,"智能体":353,"仪表盘":1}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":14,"open core":1,"数据仓库":3,"智能体":354,"仪表盘":1}</script>
 
 <script>
 (function(){

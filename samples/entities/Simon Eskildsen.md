@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":4,"智能体":353,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
+<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":2,"Turbo Puffer":1,"对象存储":3,"向量搜索":4,"智能体":354,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":3}</script>
 
 <script>
 (function(){

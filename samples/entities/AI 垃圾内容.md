@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[品味]] · [[Alex Lieberman]] · [[Paul Bakaus]] · [[Lenny]] · [[Claire Veau]] · [[Impeccable]] · [[Molly Graham]] · [[10X]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":140,"智能体":353,"品味":13,"Alex Lieberman":1,"Paul Bakaus":2,"Lenny":68,"Claire Veau":1,"Impeccable":2,"Molly Graham":1,"10X":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":140,"智能体":354,"品味":13,"Alex Lieberman":1,"Paul Bakaus":2,"Lenny":68,"Claire Veau":1,"Impeccable":2,"Molly Graham":1,"10X":1}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]] [[Jason]] [[Katie Kirsch]] [[Maggie Landers]]
+[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":17,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":22,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":17,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":23,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tonic AI":1,"Textual":1,"Fabricate":1,"强化学习":1,"微调":23,"去标识化":1,"推理":60,"智能体":353}</script>
+<script type="application/json" class="pd-epn">{"Tonic AI":1,"Textual":1,"Fabricate":1,"强化学习":1,"微调":23,"去标识化":1,"推理":60,"智能体":354}</script>
 
 <script>
 (function(){

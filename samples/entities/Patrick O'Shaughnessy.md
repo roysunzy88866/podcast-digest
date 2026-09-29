@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":353,"推理":60,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":45,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":354,"推理":60,"GPU":18,"KVCache":4}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]] [[Vincent]]
+[[David Pawlan]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Parag Agrawal]] [[Han Mei]] [[Francois]] [[Ham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":5,"智能体":353,"无代码":1,"Figma":22,"Notion":14,"Airtable":5,"Palantir":19,"Replit":17,"ChatGPT":81}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":5,"智能体":354,"无代码":1,"Figma":22,"Notion":14,"Airtable":5,"Palantir":19,"Replit":17,"ChatGPT":82}</script>
 
 <script>
 (function(){

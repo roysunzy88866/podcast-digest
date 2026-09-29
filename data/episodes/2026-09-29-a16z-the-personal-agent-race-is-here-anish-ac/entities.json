@@ -1,0 +1,1413 @@
+{
+  "episode_id": "2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac",
+  "podcast": "The a16z Show",
+  "date": "2026-09-29",
+  "tags": [
+    "AI 智能体",
+    "消费级 AI",
+    "智能体间交易",
+    "硬件与语音",
+    "商业模式"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "anish-acharya",
+      "type": "person",
+      "role": "host",
+      "name": "Anish Acharya",
+      "file": "Anish Acharya",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "david-pawlan",
+      "type": "person",
+      "role": "guest",
+      "name": "David Pawlan",
+      "file": "David Pawlan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "assistantbench",
+      "type": "company",
+      "role": "company",
+      "name": "AssistantBench",
+      "file": "AssistantBench",
+      "primary": true,
+      "how_described": "嘉宾创建的网站，用相同提示词在 16 个维度上比较市面上所有个人 AI 助手的一次性真实结果，上线 16 天已有超 10 万访客",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 631,
+          "t": [
+            3000.354,
+            3003.455
+          ],
+          "quote": "Well, David from AssistantBench, make sure everybody checks it out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：个人 AI 智能体从实验走向消费级 AI 最快领域，与只能做指派之事的 assistant 相对，agent 有主观能动性、能让好事直接在世界上发生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.363,
+            25.004
+          ],
+          "quote": "We were joking internally, like, we're days away from an agent messaging someone saying, I noticed you weren't that into her, so I went ahead and broke up with her.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            47.149,
+            55.253
+          ],
+          "quote": "It does feel like there's going to be infrastructure and products that exist only for agent-to-agent interactions that doesn't exist today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            81.034,
+            87.777
+          ],
+          "quote": "They discuss why the best agent might be the one you barely notice, proactively handling the tedious parts of life without needing to be managed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            216.971,
+            221.095
+          ],
+          "quote": "Their whole gimmick was this negotiation with the agent on how much you're actually going to pay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            447.331,
+            452.873
+          ],
+          "quote": "Do you think that that category ends up being organized more as a connector into the horizontal agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            452.953,
+            456.035
+          ],
+          "quote": "Or do you think they have the right to win as a general horizontal agent as well?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            456.692,
+            463.136
+          ],
+          "quote": "I think you're going to maybe see potentially one winner as an independent agent, but by and large, I really think it is going to be more of a connector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            513.062,
+            515.923
+          ],
+          "quote": "The second is going to be more agent orchestration, which is really interesting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            522.987,
+            550.003
+          ],
+          "quote": "So it's not necessarily representative of the world at large, but people are talking a ton about agent orchestration and how do you find the most efficient agent or let your agents talk to each other, development agents, how does this now translate to this coding world on your phone, whether it be using Claude code from a text component or even take it one step further of, okay, if I'm a designer, can I now make edits to my design files by just like texting my agent of like little small iteration changes?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            562.213,
+            566.897
+          ],
+          "quote": "And if you could have an agent make a billion dollars for you, all the hedge funds would be doing it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            569.92,
+            574.745
+          ],
+          "quote": "But it is the most interesting that you give someone, an agent, a powerful tool right in their hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            773.472,
+            780.218
+          ],
+          "quote": "You know, that also something that we talked about last time we went for the walk was, okay, here's what it can do, but now how do you actually interact with that agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            860.714,
+            864.115
+          ],
+          "quote": "And now, of course, that changes if every second thread is with an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            908.456,
+            912.818
+          ],
+          "quote": "That's now an entirely different use case for how we interact with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1220.424,
+            1222.185
+          ],
+          "quote": "Just take a picture and let your agent go do it for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1260.799,
+            1270.744
+          ],
+          "quote": "The second approach I've seen is how instinct did it, where you have like an agent network where you invite another agent and they're talking behind the scenes on your behalf and they'll update you as to what's going on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1287.114,
+            1292.077
+          ],
+          "quote": "So you add an agent to a group chat, but that agent is silent and it's purely a listener.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1306.452,
+            1308.995
+          ],
+          "quote": "And that way it's more of, again, it's your invisible agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1359.271,
+            1376.098
+          ],
+          "quote": "You know, conversely, I think agents that are very utilitarian, you know, one of the experiments I've been doing is adding it, I'm a collector, you know, I collect records and a bunch of other things, adding an agent to the chats where I talk to my fellow collector friends and trying to catalog our respective collections and our tastes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1394.466,
+            1410.254
+          ],
+          "quote": "Yeah, the other interesting take that I heard this week was that something about messaging in particular doesn't lend itself to these agent interactions because in messaging, it's as if somebody has the mic and it feels uncomfortable to give the agent the mic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1415.957,
+            1424.387
+          ],
+          "quote": "That's actually something where an agent can make a post and you can either engage with the post or not, Reddit style, but for some reason it feels less intrusive than group chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1430.381,
+            1438.802
+          ],
+          "quote": "And I think that comes to another component where if you look at the actual design of the character of the agent, I see some companies that have it try to be like an AI-generated human.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1515.886,
+            1520.87
+          ],
+          "quote": "It's like you as a consumer, you text your agent, you say that you would prefer it responds in a certain way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1526.174,
+            1537.082
+          ],
+          "quote": "I think we'll get to a place where whatever general agent ends up being the leader that it'll be quite configurable and each person can kind of tailor the agent to speak to them how, you know, however makes them most comfortable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1551.402,
+            1558.046
+          ],
+          "quote": "You know, we've talked a little bit about this, and there are some jobs for which you want the agent to be highly presumptuous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1563.289,
+            1567.951
+          ],
+          "quote": "And there are other styles of agents, like our finance agent perhaps, where you want it to be highly cautious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1592.235,
+            1599.44
+          ],
+          "quote": "The agent that can be most proactive, that can serve as an invisible assistant and start doing things on your behalf without you even asking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1613.303,
+            1617.952
+          ],
+          "quote": "You want to retain control and you don't really want an agent to be acting too proactive on your behalf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1625.845,
+            1630.808
+          ],
+          "quote": "An agent identifies that the insurance you're using is charging too much money and thinks you should switch insurances.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1663.877,
+            1670.982
+          ],
+          "quote": "And we were joking internally, like we're days away from an agent messaging someone saying, I noticed you weren't that into her, so I went ahead and broke up with her for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1679.528,
+            1689.414
+          ],
+          "quote": "And I think that if you didn't see people posting on X about, oh, the agent did this, the agent did that, it would probably be a sign that the agents are not pushing hard enough in this direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1772.241,
+            1779.725
+          ],
+          "quote": "Right now, I honestly see the consumer agent is literally just a replication of OpenClaw, but it's just preconfigured.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1894.83,
+            1913.505
+          ],
+          "quote": "You know, there may be just as you, you know, you have a doula that may subscribe to a certain sort of style of, you know, helping women give birth, you may have a personal agent that actually subscribes to a certain school of thought or style or, you know, even a set of lessons that aren't well understood.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1913.525,
+            1917.528
+          ],
+          "quote": "And you're going to hire that agent to sort of provide that service to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1917.568,
+            1922.212
+          ],
+          "quote": "And then proprietary data, you know, you had mentioned potentially having a personal agent just for New York City.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1942.4,
+            1949.086
+          ],
+          "quote": "I'm also curious from your lens, even just noticing our conversation here, we interchange between assistant and agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1955.693,
+            1960.355
+          ],
+          "quote": "Is the future of this ecosystem, is it gonna be a personal assistant or a personal agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1964.857,
+            1969.159
+          ],
+          "quote": "I mean, to me, assistant is a sort of lesser form than agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1970.139,
+            1975.342
+          ],
+          "quote": "You know, for me, an agent is somebody, you could imagine them being a peer in a social group.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1976.302,
+            1983.748
+          ],
+          "quote": "You know, and maybe we need a better word than agent, but an assistant can only sort of definitionally do what you ask it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1983.788,
+            1992.675
+          ],
+          "quote": "It can assist you in doing something that you've directed it to do while an agent has agency and can just make good things happen in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2009.606,
+            2018.251
+          ],
+          "quote": "Like what does it mean for an assistant and later an agent to be promoted in the consumer's life to do more specialized and delicate work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2021.017,
+            2036.981
+          ],
+          "quote": "I'm also very interested what ramifications it might have and just like the social layer of humanity where, you know, does the word agent allow us to, you know, not personify AI enough?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2069.798,
+            2080.464
+          ],
+          "quote": "I actually think that it could increase and improve a lot of social dynamics as well because you start to think about the agent as a non-human, it can provide a layer of social indirection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2088.688,
+            2103.034
+          ],
+          "quote": "And with a very carefully designed agent, I think the agent can, you know, help to, I don't know whether it's provide feedback or sort of organize a conflict in a way that feels non-emotional because you know that it's not- It's like an arbiter of confrontation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2308.416,
+            2320.585
+          ],
+          "quote": "You know, to kind of come back to the near-term, a thing that I've been thinking a bunch about that I'm curious for your take on is, you know, the lessons of Moldbook and what are these sort of agent-native systems that are going to need to be built?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2320.665,
+            2334.314
+          ],
+          "quote": "And maybe this is some of what Instinct is doing with their kind of instinct-to-instinct network, but it does feel like there's going to be infrastructure and products that exist only for agent-to-agent interactions that doesn't exist today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2342.828,
+            2347.334
+          ],
+          "quote": "You have agent emails, you have agent phone numbers, you have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2348.47,
+            2360.425
+          ],
+          "quote": "What does the world of service look like when it's no longer human booking to human and no longer agent booking from human, but it's now agent booking from agent and how does that redefine the entire service industry as a whole?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2534.801,
+            2541.866
+          ],
+          "quote": "And so what happens though when everyone has an agent, now everyone's on the same playing field, everyone can go to book the restaurant at the same time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2707.729,
+            2715.011
+          ],
+          "quote": "But then if you use an agent and you say, hey, buy me some white socks, there's like 20,000 different types of white socks out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2740.42,
+            2752.767
+          ],
+          "quote": "Well, I think it could be fun for the long tail, you know, because you can imagine to your white socks example, like I could go to Amazon and get white socks, you know, but maybe my agent comes back and says, hey, I found someone awesome on Etsy that can knit you the socks, you know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2795.984,
+            2804.728
+          ],
+          "quote": "So maybe instead of grandma who knits white socks and sells them on Etsy, you know, maybe it messages the agent of a grandma and says, hey, would you be up for doing this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2804.828,
+            2814.353
+          ],
+          "quote": "So I think this is where the kind of agent-to-agent spaces get really interesting where they're all acting on behalf of their humans, you know, some to provide products, services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2971.505,
+            2977.767
+          ],
+          "quote": "So I'd love to see the agent that costs $1,000 a month that the consumer is so excited about that they're willing to pay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2986.01,
+            2990.971
+          ],
+          "quote": "So what is the agent that is exciting enough that you're willing to pay that kind of price for it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2991.091,
+            2996.053
+          ],
+          "quote": "And then that agent will benefit from both extreme market fit as well as sort of deflating costs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proactivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "主动性 (proactivity)",
+      "file": "主动性",
+      "primary": true,
+      "how_described": "本集核心主张：围绕主动性存在巨大的可防御性，最好的智能体是最隐形、最主动的那一个；但有微妙界线——需用户改变行动的事须先征得同意，越界一次就失去全部信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.044,
+            27.505
+          ],
+          "quote": "There is massive defensibility around proactivity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1583.61,
+            1586.392
+          ],
+          "quote": "I think there is massive defensibility around proactivity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1801.608,
+            1805.889
+          ],
+          "quote": "I think the direction of the space will continue to move towards proactivity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2654.207,
+            2668.567
+          ],
+          "quote": "I'm kind of curious to know if the agents themselves will be impulse shoppers to some extent, because I think the point around proactivity means the agents are going to try to make delightful guesses and, you know, what is more delightful than a surprise or a gift?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "Meta 刚发布的个人智能体及硬件 Muse charm（有摄像头和多个麦克风）；嘉宾的犀利论断是它更多是为了现实世界数据收集、喂给 Zuckerberg 的元宇宙，Shopify 拥抱了它而 Amazon 屏蔽了它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.588,
+            18.243
+          ],
+          "quote": "I have a hot take thesis that this muse charm is actually less about trying to win the hardware game and it's more about data collection in the real world to fuel Zuckerberg's future metaverse of mapping out the actual world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            161.315,
+            170.54
+          ],
+          "quote": "Most recently with Instinct, Muse, and ChatGPT work, we've had this extraordinary enthusiasm around personal agents and what they can do for us as consumers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            243.369,
+            248.712
+          ],
+          "quote": "You have GrokBot, you have Muse, you have a bunch of long tail ones like Caddy or Ollie or Pally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            359.029,
+            361.633
+          ],
+          "quote": "Maybe talk us through everybody who's not Instinct and Muse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            378.517,
+            380.117
+          ],
+          "quote": "That's like the Instinct or Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            903.313,
+            907.975
+          ],
+          "quote": "But then even yesterday, right, we saw Zuckerberg and the Muse team dropped the Muse charm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            982.218,
+            998.927
+          ],
+          "quote": "I have a hot take thesis that this Muse charm is actually less about trying to win the hardware game and it's more about data collection in the real world for the meta team in terms of how the real world actually functions given it has a camera and multiple microphones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1126.835,
+            1129.176
+          ],
+          "quote": "So this is ChatGPT Voice, not Muse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1132.472,
+            1133.473
+          ],
+          "quote": "I thought you'd said Muse voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1147.943,
+            1157.469
+          ],
+          "quote": "I think it's an extraordinary capability and it's one that neither Muse nor Instinct has today, though I think that Zuck actually did announce full duplex voice, so maybe it's coming to Muse soon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1439.182,
+            1441.823
+          ],
+          "quote": "And then you have other companies like Muse that it's this like adorable Yeti.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2423.146,
+            2427.908
+          ],
+          "quote": "You know, you saw this week how Shopify embraced Muse and Amazon blocked Muse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2469.126,
+            2477.532
+          ],
+          "quote": "Like if you let Muse and these agents start to purchase without them getting any ad revenue out of that, it really takes a lot of their profit out of the experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2720.713,
+            2724.034
+          ],
+          "quote": "I think Muse has probably a headstart on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2903.834,
+            2912.138
+          ],
+          "quote": "When you have Muse and Instinct that are both free, that are also the dominant ones, and then you have OpenAI that supposedly is going to be releasing something cool maybe next week, who knows.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": true,
+      "how_described": "最近引爆科技推特的通用消费级智能体，免费的、占主导地位的产品之一，用智能体网络的方式让智能体在幕后代表用户交流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            161.315,
+            170.54
+          ],
+          "quote": "Most recently with Instinct, Muse, and ChatGPT work, we've had this extraordinary enthusiasm around personal agents and what they can do for us as consumers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            234.403,
+            238.686
+          ],
+          "quote": "But most recently, we saw Instinct really blow up the tech Twitter bubble.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            359.029,
+            361.633
+          ],
+          "quote": "Maybe talk us through everybody who's not Instinct and Muse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            378.517,
+            380.117
+          ],
+          "quote": "That's like the Instinct or Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1147.943,
+            1157.469
+          ],
+          "quote": "I think it's an extraordinary capability and it's one that neither Muse nor Instinct has today, though I think that Zuck actually did announce full duplex voice, so maybe it's coming to Muse soon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1229.529,
+            1236.553
+          ],
+          "quote": "You know, we talked about how iMessage is this sort of privileged place to be, which is actually one of the cool things about Instinct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1260.799,
+            1270.744
+          ],
+          "quote": "The second approach I've seen is how instinct did it, where you have like an agent network where you invite another agent and they're talking behind the scenes on your behalf and they'll update you as to what's going on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1698.099,
+            1707.405
+          ],
+          "quote": "And for folks who don't know, there's a person who tweeted that Instinct checked him into a flight and hallucinated his middle name as Bong Chang and he wasn't able to get on the flight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1711.408,
+            1713.969
+          ],
+          "quote": "But I'd be curious to know if that person is still using Instinct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2320.665,
+            2334.314
+          ],
+          "quote": "And maybe this is some of what Instinct is doing with their kind of instinct-to-instinct network, but it does feel like there's going to be infrastructure and products that exist only for agent-to-agent interactions that doesn't exist today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2903.834,
+            2912.138
+          ],
+          "quote": "When you have Muse and Instinct that are both free, that are also the dominant ones, and then you have OpenAI that supposedly is going to be releasing something cool maybe next week, who knows.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "11 月下旬发布、席卷世界的项目；嘉宾认为现在的消费级智能体本质上就是预配置好的 OpenClaw 复刻，能力上没有什么是 OpenClaw 做不到的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            223.376,
+            226.018
+          ],
+          "quote": "Then comes late November and OpenClaw gets released.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1762.536,
+            1771.761
+          ],
+          "quote": "I'd be very curious to know if there are capabilities or lessons from the OpenClaw era that you noticed that you think are going to tell us what's coming next in consumer agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1772.241,
+            1779.725
+          ],
+          "quote": "Right now, I honestly see the consumer agent is literally just a replication of OpenClaw, but it's just preconfigured.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1784.487,
+            1787.091
+          ],
+          "quote": "That you can't do with OpenClaw or Hermes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "嘉宾的第二个魔法时刻：ChatGPT Voice 接入 Gmail 和日历后，他骑车上班 30 分钟里动嘴就把邮件分类、回信、发日历邀请全办完",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.605,
+            32.006
+          ],
+          "quote": "I was biking to work, I want to get stuff done, and I just start talking to ChatGPT boys.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            134.429,
+            139.15
+          ],
+          "quote": "And ChatGPT was a big one, I think, for a lot of folks in November 22 and a bit of 23.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            161.315,
+            170.54
+          ],
+          "quote": "Most recently with Instinct, Muse, and ChatGPT work, we've had this extraordinary enthusiasm around personal agents and what they can do for us as consumers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.527,
+            1093.595
+          ],
+          "quote": "ChatGPT voice yesterday dropped their ChatGPT voice to allow connectors in so you can connect to like your Gmail and calendar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1107.605,
+            1109.846
+          ],
+          "quote": "And I just start talking to ChatGPT Voice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1126.835,
+            1129.176
+          ],
+          "quote": "So this is ChatGPT Voice, not Muse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1129.99,
+            1130.991
+          ],
+          "quote": "Correct, ChatGPT voice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1134.473,
+            1137.816
+          ],
+          "quote": "I think the ChatGPT, it's based on the GPT Live 1 model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集说它拥抱 Muse，因为它高度专注让商业民主化，智能体帮每个普通人卖得更多，天大利好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            2423.146,
+            2427.908
+          ],
+          "quote": "You know, you saw this week how Shopify embraced Muse and Amazon blocked Muse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2437.011,
+            2444.193
+          ],
+          "quote": "I mean, do you have a view on what specifically happened with Amazon and Shopify and maybe more broadly who the winners and losers are likely to be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2445.13,
+            2449.872
+          ],
+          "quote": "Yeah, so I think, you know, first off, Shopify and Amazon are two completely different business models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2449.892,
+            2453.533
+          ],
+          "quote": "You have Shopify that's hyper-focused on more democratizing commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2481.235,
+            2497.405
+          ],
+          "quote": "New paradigm for how they're able to profit in this world where agents are purchasing on their behalf versus a Shopify that is empowering the everyday individual to sell as much as possible and agents democratize this space even further.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2642.377,
+            2653.326
+          ],
+          "quote": "You know, in the Amazon Shopify thing, I think that the Amazon, Amazon probably is rightly taking the bet that they don't want to be disintermediated and that they'll lose not just advertising revenue, but impulse shopping.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说它屏蔽 Muse，因为其收入全靠广告，人的眼球被移除后整套广告结构和冲动型购物就失去意义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            2423.146,
+            2427.908
+          ],
+          "quote": "You know, you saw this week how Shopify embraced Muse and Amazon blocked Muse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2437.011,
+            2444.193
+          ],
+          "quote": "I mean, do you have a view on what specifically happened with Amazon and Shopify and maybe more broadly who the winners and losers are likely to be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2445.13,
+            2449.872
+          ],
+          "quote": "Yeah, so I think, you know, first off, Shopify and Amazon are two completely different business models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2453.573,
+            2456.094
+          ],
+          "quote": "You have Amazon that makes all of their money on ad revenue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2465.863,
+            2468.925
+          ],
+          "quote": "And so I think that's where Amazon was coming from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2642.377,
+            2653.326
+          ],
+          "quote": "You know, in the Amazon Shopify thing, I think that the Amazon, Amazon probably is rightly taking the bet that they don't want to be disintermediated and that they'll lose not just advertising revenue, but impulse shopping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2740.42,
+            2752.767
+          ],
+          "quote": "Well, I think it could be fun for the long tail, you know, because you can imagine to your white socks example, like I could go to Amazon and get white socks, you know, but maybe my agent comes back and says, hey, I found someone awesome on Etsy that can knit you the socks, you know?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "imessage",
+      "type": "concept",
+      "role": "concept",
+      "name": "iMessage",
+      "file": "iMessage",
+      "primary": true,
+      "how_described": "本集认为它是手机上的特权位置：更私人、已与你连接、不像额外附加的工作流；界面之争主要是 iMessage vs 独立应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            784.001,
+            787.284
+          ],
+          "quote": "So like, we both were in the world of iMessage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            849.47,
+            856.252
+          ],
+          "quote": "I feel like the iMessage space is more precious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            873.584,
+            881.917
+          ],
+          "quote": "I think the personalization that comes with iMessage, just because I already live there, it feels like it's something that's already connected to me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            889.045,
+            892.207
+          ],
+          "quote": "It's either the iMessage or a separate application.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1229.529,
+            1236.553
+          ],
+          "quote": "You know, we talked about how iMessage is this sort of privileged place to be, which is actually one of the cool things about Instinct.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-to-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体间交互 (agent-to-agent)",
+      "file": "智能体间交互",
+      "primary": true,
+      "how_described": "往后五年最有想象空间的方向：会出现智能体专属的邮箱、电话号码，服务从人对人预订变成智能体从智能体那里预订，并催生智能体安全产业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            47.149,
+            55.253
+          ],
+          "quote": "It does feel like there's going to be infrastructure and products that exist only for agent-to-agent interactions that doesn't exist today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2320.665,
+            2334.314
+          ],
+          "quote": "And maybe this is some of what Instinct is doing with their kind of instinct-to-instinct network, but it does feel like there's going to be infrastructure and products that exist only for agent-to-agent interactions that doesn't exist today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2804.828,
+            2814.353
+          ],
+          "quote": "So I think this is where the kind of agent-to-agent spaces get really interesting where they're all acting on behalf of their humans, you know, some to provide products, services.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音 (voice)",
+      "file": "语音",
+      "primary": true,
+      "how_described": "嘉宾非常看好语音和音频：助手在你双手最忙的时候（骑车、园艺、做饭）最有用；纯音频眼镜可能是一匹黑马",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            88.438,
+            99.183
+          ],
+          "quote": "They also get into how much autonomy we'll actually give these systems, whether we'll interact with them through text, voice, apps, or wearables, and where specialized agents could still beat the big general purpose players.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1080.104,
+            1082.686
+          ],
+          "quote": "I'm quite bullish on voice and audio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.527,
+            1093.595
+          ],
+          "quote": "ChatGPT voice yesterday dropped their ChatGPT voice to allow connectors in so you can connect to like your Gmail and calendar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1107.605,
+            1109.846
+          ],
+          "quote": "And I just start talking to ChatGPT Voice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1126.835,
+            1129.176
+          ],
+          "quote": "So this is ChatGPT Voice, not Muse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1129.99,
+            1130.991
+          ],
+          "quote": "Correct, ChatGPT voice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1132.472,
+            1133.473
+          ],
+          "quote": "I thought you'd said Muse voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1138.336,
+            1140.938
+          ],
+          "quote": "It's full duplex voice and it can see all your threads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1147.943,
+            1157.469
+          ],
+          "quote": "I think it's an extraordinary capability and it's one that neither Muse nor Instinct has today, though I think that Zuck actually did announce full duplex voice, so maybe it's coming to Muse soon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recommendation-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "推荐引擎 (recommendation engine)",
+      "file": "推荐引擎",
+      "primary": true,
+      "how_described": "本集提出智能体商业的悬而未决问题：你说「买白袜子」市面上有两万种，智能体并不知道你偏好哪种；Muse 凭社交数据可能有先发优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 560,
+          "t": [
+            2691.687,
+            2699.65
+          ],
+          "quote": "And I think that opens up a whole new conversation as well, which is what is the recommendation engine of this agentic commerce space actually look like?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "narrow-startups",
+      "type": "concept",
+      "role": "concept",
+      "name": "狭义创业公司 (narrow startups)",
+      "file": "狭义创业公司",
+      "primary": true,
+      "how_described": "Anish 的论点：现在可以给极少数人做极其有用、极其昂贵的软件，已有每月 200-300 美元付费先例，可做出几万用户、年经常性收入 1000 亿美元的生意",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            1806.41,
+            1816.934
+          ],
+          "quote": "I think the direction of the space will continue to see more hyper specialization, which I think goes to your point in your thesis of narrow startups.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1854.268,
+            1858.512
+          ],
+          "quote": "Give us some more insight on what narrow startups are to you and how do you see that playing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1858.912,
+            1867.24
+          ],
+          "quote": "Yeah, the theory with narrow startups is that, you know, you can now build software that's incredibly ambitious and incredibly valuable for a very small number of people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
