@@ -1,4 +1,4 @@
-# vendored from ~/.claude/skills/配音/peiyin.py @ 2026-08-22 (sha256:e75501149248)
+# vendored from ~/.claude/skills/配音/peiyin.py @ 2026-09-30 (sha256:397b95894944)
 # C37/ADR 0014 修订:CI 云 runner 无本机 skill,vendoring 换 MiMo 嗓;上游改动需手动同步(漂移风险用户知情接受)
 # 本副本不改一行逻辑;key 走 env PEIYIN_MIMO_KEY(GitHub Secret),调用方 tts.mjs 只用 --no-fallback 模式
 #!/usr/bin/env python3
@@ -35,6 +35,8 @@ import time
 import urllib.request
 import wave
 
+# 版本号 = 最后一次改行为的日期。各业务的副本靠 grep 这一行查自己落没落后(见 CLAUDE.md「谁在用」);改行为就改它。
+PEIYIN_VERSION = "2026-09-30"
 SKILL_DIR = os.path.dirname(os.path.abspath(__file__))
 MIMO_EP = "https://api.xiaomimimo.com/v1/chat/completions"
 # 密钥多路查找:env → 主力开发机 → AI新闻重构生产机
@@ -201,10 +203,28 @@ def _encode_wav(sr: int, a) -> bytes:
     return buf.getvalue()
 
 
-def tail_cut_sec(sr: int, a) -> float | None:
+_PAUSE_PUNCT = "。！？!?，,、；;：:…—～~\n"
+TRIM_MIN_LAST_CLAUSE = 9   # 最后一小句 <9 字就不剪(见 tail_cut_sec)
+
+
+def _last_clause_units(text: str) -> int:
+    """文字最后一小句(最后一个停顿标点之后)有几个字。汉字 1 个算 1;
+    连续字母/数字(英文词、数字)整串只算 1——宁可少算,少算=更倾向不剪=不会吃字。"""
+    t = re.sub(r"[\s\W_]+$", "", text)
+    tail = re.split("[%s]" % re.escape(_PAUSE_PUNCT), t)[-1]
+    return len(re.findall(r"[A-Za-z0-9]+|[㐀-鿿豈-﫿]", tail))
+
+
+def tail_cut_sec(sr: int, a, text: str | None = None) -> float | None:
     """MiMo 尾部 ~0.5s 响怪声,与正文间有静音间隙 → 找裁切点(秒)。
     纯 Python 版 silencedetect(阈值 -35dB / 静音≥0.15s),语义与生产实测过的 ffmpeg 版一致:
-    最后一段静音之后还有 >0.1s 音频(=怪声)且裁点在末尾 1.2s 内(防误切句中)→ 裁在静音开始+0.15s。"""
+    最后一段静音之后还有 >0.1s 音频(=怪声)且裁点在末尾 1.2s 内(防误切句中)→ 裁在静音开始+0.15s。
+    text:传了就先看文字——最后一小句很短(如「……。再见！」的「再见」)时,句号那一停正好落在末尾 1.2s 内,
+          会被当成"正文与怪声之间的间隙",把「再见」当怪声整个剪掉(2026-09-29 实测 16 次剪了 14 次)。
+          所以最后一小句 <TRIM_MIN_LAST_CLAUSE 字时不剪,交给调用方的兜底淡出。9 字的来历:MiMo 语速约
+          4.5~7 字/秒,≥9 字的小句本身就超过 1.2s,它前面的标点停顿落不进检测窗口,剪不到正文。"""
+    if text is not None and _last_clause_units(text) < TRIM_MIN_LAST_CLAUSE:
+        return None
     thr = int(32768 * 10 ** (-35 / 20))          # ≈582
     win = max(1, sr // 100)                       # 10ms 窗
     dur = len(a) / sr
@@ -286,8 +306,11 @@ def synth(text, voice="mimo_default", fmt="mp3", tail="trim", fade_ms=None, pad_
 
     voice: 音色名(查菜单)或 spec dict {engine: mimo-clone|mimo|edge, ref/voice, fallback}
     fmt:   "mp3"(24kHz 单声道 48k CBR,可裸拼) | "wav"
-    tail:  "trim"(找到静音间隙就剪掉尾部怪声+120ms淡出,找不到退回淡出) | "fade"(只淡出) | "none"
-    fade_ms: 淡出时长;None = trim 剪中 120 / 其余 400
+    tail:  "trim"(找到静音间隙就剪掉尾部怪声+120ms淡出;找不到、或最后一小句太短不敢剪,退回淡出)
+           | "fade"(只淡出) | "none"
+    fade_ms: 淡出时长;None = trim 剪中 120 / 其余 60
+             (其余=没找到可剪间隙时的兜底淡出。曾是 400,实测会把最后一个字淡糊——绝大多数音频末尾本就
+              安静,400 纯属无谓吃字;2026-08 改 60,只压低电平尾音、不吃字。要更强压噪就显式传大 fade_ms。)
     pad_ms: 末尾补静音(拼接留呼吸用)
     fallback: MiMo 失败(重试后)是否自动降级到该音色的 edge 兜底;False = 抛异常交调用方
     meta: {engine: 实际引擎, fallback: 是否降级了, trimmed: 是否剪了尾, name}
@@ -308,15 +331,15 @@ def synth(text, voice="mimo_default", fmt="mp3", tail="trim", fade_ms=None, pad_
             meta.update(engine="edge", fallback=True)
             return _edge_result(text, spec["fallback"], fmt, retries), meta
         if tail == "trim":
-            cut = tail_cut_sec(sr, a)
+            cut = tail_cut_sec(sr, a, text)
             if cut is not None:
                 a = a[:int(cut * sr)]
                 meta["trimmed"] = True
                 a = _fade_pad(sr, a, fade_ms if fade_ms is not None else 120, pad_ms)
             else:
-                a = _fade_pad(sr, a, fade_ms if fade_ms is not None else 400, pad_ms)
+                a = _fade_pad(sr, a, fade_ms if fade_ms is not None else 60, pad_ms)
         elif tail == "fade":
-            a = _fade_pad(sr, a, fade_ms if fade_ms is not None else 400, pad_ms)
+            a = _fade_pad(sr, a, fade_ms if fade_ms is not None else 60, pad_ms)
         elif pad_ms:
             a = _fade_pad(sr, a, 0, pad_ms)
         return (_encode_mp3(sr, a) if fmt == "mp3" else _encode_wav(sr, a)), meta
@@ -345,8 +368,12 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.list_voices:
-        for name, s in load_registry().items():
+        # voices.json 里 "_说明" 这类键的值是说明文字(字符串)、不是音色,只列 dict 条目
+        reg = {k: v for k, v in load_registry().items() if isinstance(v, dict)}
+        for name, s in reg.items():
             print("%-8s %s" % (name, s.get("描述", s.get("engine", ""))))
+        if not reg:
+            print("voices.json: (无登记音色;业务自己的克隆声音由调用方传参考音路径,不在此列)")
         print("edge 别名: " + " ".join(EDGE_ALIAS))
         print("MiMo 内置: " + " ".join(sorted(MIMO_BUILTINS)))
         return 0
