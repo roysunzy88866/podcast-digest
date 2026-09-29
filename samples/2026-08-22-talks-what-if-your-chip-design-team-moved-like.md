@@ -133,7 +133,7 @@ jsonLd: |
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)</span>
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)</span>
-- [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|丰裕的概率：为什么「先担心安全」是本末倒置]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)</span>
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)</span>
 
 </div>
 </div>

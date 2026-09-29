@@ -117,7 +117,7 @@ Transformer 本身很强，Justin 不认为需要推翻它。他看到两个更�
 
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、transformers、模拟器 (simulator)</span>
 - [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|下一代游戏引擎不会有使用手册]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)</span>
-- [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|不做 LLM，做世界模型：Alex 的 12 亿美元豪赌]]<span class="pd-rz">同公司:Meta · 同概念:世界模型 (world model)</span>
+- [[2026-09-23-talks-skill-issue-stop-deploying-vision-langua|别再拿视觉语言模型干所有活：一条3、4美元的自动标注训练流水线]]<span class="pd-rz">同概念:transformers、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

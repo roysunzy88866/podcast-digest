@@ -1,0 +1,1426 @@
+[
+ {
+  "seg": 0,
+  "start": 13.534,
+  "end": 17.219,
+  "speaker": "Unknown",
+  "en": "Hello, and welcome to this talk on skill issue.",
+  "zh": "大家好，欢迎来到这场关于 skill issue 的演讲。"
+ },
+ {
+  "seg": 1,
+  "start": 17.66,
+  "end": 27.374,
+  "speaker": "Unknown",
+  "en": "It's actually no longer a skill issue, so by the end of this talk, you will be able to build a lot with the vision models if you are already not doing it.",
+  "zh": "实际上它已经不再是 skill issue 了，所以在本次演讲结束时，如果你还没有这么做的话，你将能够用视觉模型构建很多东西。"
+ },
+ {
+  "seg": 2,
+  "start": 28.676,
+  "end": 30.637,
+  "speaker": "Unknown",
+  "en": "Shortly about me, I'm Merve.",
+  "zh": "简单介绍一下我自己，我是 Merve。"
+ },
+ {
+  "seg": 3,
+  "start": 31.357,
+  "end": 35.499,
+  "speaker": "Unknown",
+  "en": "I've been working on computer vision since lava in the fixed times.",
+  "zh": "我从 lava 的 fixed times 开始就一直在做计算机视觉。"
+ },
+ {
+  "seg": 4,
+  "start": 36.74,
+  "end": 41.342,
+  "speaker": "Unknown",
+  "en": "And lately I've worked on more agents and on-device stuff because I'm a bit fascinated.",
+  "zh": "最近我做了更多智能体和端侧相关的工作，因为我有点着迷了。"
+ },
+ {
+  "seg": 5,
+  "start": 42.242,
+  "end": 45.684,
+  "speaker": "Unknown",
+  "en": "And I love vision language models so much that I even wrote a book on it.",
+  "zh": "我非常热爱视觉语言模型，甚至为它写了一本书。"
+ },
+ {
+  "seg": 6,
+  "start": 46.004,
+  "end": 50.146,
+  "speaker": "Unknown",
+  "en": "But I don't want developers to directly use vision language models anymore.",
+  "zh": "但我不想让开发者再直接使用视觉语言模型了。"
+ },
+ {
+  "seg": 7,
+  "start": 51.075,
+  "end": 63.293,
+  "speaker": "Unknown",
+  "en": "And I want every single developer to start building vision applications end-to-end, and this talk is going to give you a good baseline to do so.",
+  "zh": "我希望每一位开发者都开始端到端地构建视觉应用，而这场演讲会给你一个很好的基础来实现这一点。"
+ },
+ {
+  "seg": 8,
+  "start": 65.091,
+  "end": 75.058,
+  "speaker": "Unknown",
+  "en": "And the common behaviors I observe with the developers is the fact that they try to use vision language models for everything, but you will never get real time.",
+  "zh": "我观察到的开发者的常见行为是，他们试图用视觉语言模型做所有事情，但你永远无法做到实时。"
+ },
+ {
+  "seg": 9,
+  "start": 75.298,
+  "end": 87.827,
+  "speaker": "Unknown",
+  "en": "And when I mention real time, it's like you have a toaster and you get like 30, 40 FPS on it, whether you are building image classification, instance segmentation, or whatever.",
+  "zh": "当我提到实时时，就像是说你有一个烤面包机，你能在上面跑 30、40 FPS，无论你是在构建图像分类、实例分割还是其他什么。"
+ },
+ {
+  "seg": 10,
+  "start": 89.008,
+  "end": 103.282,
+  "speaker": "Unknown",
+  "en": "And they are not super robust in terms of like if you were to train like an RFDETR which Joseph spoke about in the first talk, it will always outperform your vision language model.",
+  "zh": "而且它们在鲁棒性方面不太强，比如说如果你去训练一个 RFDETR，就是 Joseph 在第一场演讲中谈到的那个，它总是会胜过你的视觉语言模型。"
+ },
+ {
+  "seg": 11,
+  "start": 103.642,
+  "end": 105.284,
+  "speaker": "Unknown",
+  "en": "And I'm going to prove it today.",
+  "zh": "我今天就会证明这一点。"
+ },
+ {
+  "seg": 12,
+  "start": 107.419,
+  "end": 112.841,
+  "speaker": "Unknown",
+  "en": "And on the right-hand side, you can actually see me doing stuff with RFDTR.",
+  "zh": "在右手边，你们实际上可以看到我在用 RFDTR 做一些事情。"
+ },
+ {
+  "seg": 13,
+  "start": 114.761,
+  "end": 118.363,
+  "speaker": "Unknown",
+  "en": "And another thing is that they don't read the licenses.",
+  "zh": "另一件事是，他们不读许可证。"
+ },
+ {
+  "seg": 14,
+  "start": 118.523,
+  "end": 122.864,
+  "speaker": "Unknown",
+  "en": "Whenever I post something about object detection, they always ask me about YOLO.",
+  "zh": "每当我发布关于目标检测的内容时，他们总是问我关于 YOLO 的问题。"
+ },
+ {
+  "seg": 15,
+  "start": 122.904,
+  "end": 128.126,
+  "speaker": "Unknown",
+  "en": "YOLO is a good model, but it has AGPL 3.0 license, I think.",
+  "zh": "YOLO 是个不错的模型，但它有 AGPL 3.0 许可证，我记得。"
+ },
+ {
+  "seg": 16,
+  "start": 128.546,
+  "end": 134.608,
+  "speaker": "Unknown",
+  "en": "And I could swear on my life that there is some developers that actually deploy it without knowing that they have to pay for it.",
+  "zh": "我可以用我的性命发誓，确实有一些开发者在不知道必须付费的情况下就部署了它。"
+ },
+ {
+  "seg": 17,
+  "start": 136.091,
+  "end": 142.478,
+  "speaker": "Unknown",
+  "en": "So yeah, like I want you to migrate to Apache 2.0 models today.",
+  "zh": "所以是的，我希望你们今天迁移到 Apache 2.0 模型。"
+ },
+ {
+  "seg": 18,
+  "start": 144.04,
+  "end": 150.805,
+  "speaker": "Unknown",
+  "en": "And for this, I have built something called VibeVision, and it's kind of inspired by this post by Maziar.",
+  "zh": "为此，我构建了一个叫做 VibeVision 的东西，它在某种程度上受到了 Maziar 这篇帖子的启发。"
+ },
+ {
+  "seg": 19,
+  "start": 150.885,
+  "end": 159.811,
+  "speaker": "Unknown",
+  "en": "Basically, what he does is that he gives SAM 3.1 model as a tool to Gemma 4 to call, and I find it super impressive.",
+  "zh": "基本上，他做的是把 SAM 3.1 模型作为工具给 Gemma 4 去调用，我觉得这非常令人印象深刻。"
+ },
+ {
+  "seg": 20,
+  "start": 161.112,
+  "end": 167.357,
+  "speaker": "Unknown",
+  "en": "And today, I built a toolkit where you can do this with even more things.",
+  "zh": "而今天，我构建了一个工具包，你可以用它做更多这样的事情。"
+ },
+ {
+  "seg": 21,
+  "start": 169.559,
+  "end": 172.502,
+  "speaker": "Unknown",
+  "en": "So I'm kind of distilling myself.",
+  "zh": "所以我有点像是在蒸馏我自己。"
+ },
+ {
+  "seg": 22,
+  "start": 172.622,
+  "end": 184.394,
+  "speaker": "Unknown",
+  "en": "First off, this toolkit has my favorite models as tools so that you can give it to your agent because your coding agent is a bit of a clueless computer vision engineer basically.",
+  "zh": "首先，这个工具包把我最喜欢的模型作为工具，这样你就可以把它交给你的智能体，因为你的编码智能体基本上是一个有点摸不着头脑的计算机视觉工程师。"
+ },
+ {
+  "seg": 23,
+  "start": 185.435,
+  "end": 190.156,
+  "speaker": "Unknown",
+  "en": "And when I distill myself, basically, like whenever I pick a model, I always check the following.",
+  "zh": "当我蒸馏自己时，基本上，每当我挑选一个模型时，我总是会检查以下几点。"
+ },
+ {
+  "seg": 24,
+  "start": 190.176,
+  "end": 193.617,
+  "speaker": "Unknown",
+  "en": "So first up, the license is the biggest priority for me.",
+  "zh": "首先，许可证对我来说是最重要的优先级。"
+ },
+ {
+  "seg": 25,
+  "start": 194.197,
+  "end": 197.738,
+  "speaker": "Unknown",
+  "en": "It has to be Apache 20 or MIT or something non-commercial.",
+  "zh": "它必须是 Apache 2.0 或 MIT 或其他非商业的许可证。"
+ },
+ {
+  "seg": 26,
+  "start": 198.619,
+  "end": 205.561,
+  "speaker": "Unknown",
+  "en": "Secondly, the performance has to be on par depending on its size or architectural choices.",
+  "zh": "其次，根据它的规模或架构选择，性能必须达到同等水平。"
+ },
+ {
+  "seg": 27,
+  "start": 205.681,
+  "end": 212.022,
+  "speaker": "Unknown",
+  "en": "So I check from the benchmarks whenever a model from a computer vision conference comes out.",
+  "zh": "所以每当一个来自计算机视觉会议的模型发布时，我都会查看基准测试。"
+ },
+ {
+  "seg": 28,
+  "start": 212.222,
+  "end": 214.283,
+  "speaker": "Unknown",
+  "en": "And third, vibes, obviously.",
+  "zh": "第三，当然是 vibes。"
+ },
+ {
+  "seg": 29,
+  "start": 216.07,
+  "end": 226.377,
+  "speaker": "Unknown",
+  "en": "And so this toolkit has a second part to it, and it's a bit like a vibe training part, which is the most exciting part, so I will go through it first.",
+  "zh": "这个工具包还有第二部分，有点像一个 vibe 训练部分，这是最令人兴奋的部分，所以我会先讲它。"
+ },
+ {
+  "seg": 30,
+  "start": 226.958,
+  "end": 231.121,
+  "speaker": "Unknown",
+  "en": "So I put myself in developer's shoes to build like a vision application.",
+  "zh": "所以我把自己放在开发者的角度去构建一个视觉应用。"
+ },
+ {
+  "seg": 31,
+  "start": 232.121,
+  "end": 243.369,
+  "speaker": "Unknown",
+  "en": "If I have labeled images, easy, I can just train a model, or like if I can give my computer vision agent some tutorials to do that, because it's all out there.",
+  "zh": "如果我有标注好的图像，那很简单，我可以直接训练一个模型，或者我可以给我的计算机视觉智能体一些教程来做这件事，因为这些东西都在外面。"
+ },
+ {
+  "seg": 32,
+  "start": 243.65,
+  "end": 245.551,
+  "speaker": "Unknown",
+  "en": "Like we built transformers for it.",
+  "zh": "比如我们为此构建了 transformers。"
+ },
+ {
+  "seg": 33,
+  "start": 246.683,
+  "end": 253.871,
+  "speaker": "Unknown",
+  "en": "But if I have images only, I have to annotate and then evaluate the annotations and then just train a model.",
+  "zh": "但如果我只有图像，我必须先标注，然后评估标注质量，然后再训练模型。"
+ },
+ {
+  "seg": 34,
+  "start": 254.432,
+  "end": 256.013,
+  "speaker": "Unknown",
+  "en": "But how can you do it on scale?",
+  "zh": "但你如何大规模地做到这一点呢？"
+ },
+ {
+  "seg": 35,
+  "start": 256.053,
+  "end": 264.723,
+  "speaker": "Unknown",
+  "en": "You can actually use a vision language model as a labeler and the vision language models as judge and then train what you want.",
+  "zh": "你实际上可以用一个视觉语言模型作为标注器，用视觉语言模型作为裁判，然后训练你想要的任何东西。"
+ },
+ {
+  "seg": 36,
+  "start": 264.763,
+  "end": 266.565,
+  "speaker": "Unknown",
+  "en": "But how does this pipeline look like?",
+  "zh": "但这个流水线是什么样的呢？"
+ },
+ {
+  "seg": 37,
+  "start": 268.092,
+  "end": 276.779,
+  "speaker": "Unknown",
+  "en": "So basically I built this and it has like, it has VLM for labeling, VLM as a judge and then training.",
+  "zh": "基本上我构建了这个，它有 VLM 用于标注，VLM 作为裁判，然后是训练。"
+ },
+ {
+  "seg": 38,
+  "start": 277.86,
+  "end": 283.784,
+  "speaker": "Unknown",
+  "en": "It's a bit of a long horizon tasks for coding agents and it has many infrastructure support.",
+  "zh": "对编码智能体来说这有点像一个长时程任务，而且它有很多基础设施支持。"
+ },
+ {
+  "seg": 39,
+  "start": 283.804,
+  "end": 287.147,
+  "speaker": "Unknown",
+  "en": "You can do this locally, you can do this remotely.",
+  "zh": "你可以在本地做，你也可以远程做。"
+ },
+ {
+  "seg": 40,
+  "start": 287.207,
+  "end": 289.689,
+  "speaker": "Unknown",
+  "en": "So basically it runs on Hugging Face infrastructure.",
+  "zh": "基本上它运行在 Hugging Face 基础设施上。"
+ },
+ {
+  "seg": 41,
+  "start": 290.597,
+  "end": 294.739,
+  "speaker": "Unknown",
+  "en": "Jobs that allow you to do one-off batch processing or training.",
+  "zh": "Jobs 让你可以做一次性批处理或训练。"
+ },
+ {
+  "seg": 42,
+  "start": 295.3,
+  "end": 301.703,
+  "speaker": "Unknown",
+  "en": "We also have like a serverless routing system called inference providers where you can use multiple providers.",
+  "zh": "我们还有一个叫做 inference providers 的无服务器路由系统，你可以在其中使用多个提供商。"
+ },
+ {
+  "seg": 43,
+  "start": 302.404,
+  "end": 309.968,
+  "speaker": "Unknown",
+  "en": "And we also have like buckets to dump intermediate data on top of the dataset repositories, model repositories and so on.",
+  "zh": "我们还有 buckets 用于转储中间数据，此外还有数据集仓库、模型仓库等等。"
+ },
+ {
+  "seg": 44,
+  "start": 312.371,
+  "end": 313.532,
+  "speaker": "Unknown",
+  "en": "But what enables this work?",
+  "zh": "但是是什么让这一切成为可能的呢？"
+ },
+ {
+  "seg": 45,
+  "start": 313.592,
+  "end": 318.078,
+  "speaker": "Unknown",
+  "en": "First off, my favorite model, RFDTR, RFDTR segmentation.",
+  "zh": "首先，我最喜欢的模型，RFDTR，RFDTR 分割。"
+ },
+ {
+  "seg": 46,
+  "start": 318.138,
+  "end": 321.622,
+  "speaker": "Unknown",
+  "en": "I'm currently working on segmentation at the moment.",
+  "zh": "我目前正在做分割相关的工作。"
+ },
+ {
+  "seg": 47,
+  "start": 321.822,
+  "end": 325.987,
+  "speaker": "Unknown",
+  "en": "We have better agents for long horizon tasks.",
+  "zh": "我们有了更好的智能体来处理长时程任务。"
+ },
+ {
+  "seg": 48,
+  "start": 326.348,
+  "end": 331.394,
+  "speaker": "Unknown",
+  "en": "You have to babysit the labeling process, the training process, et cetera.",
+  "zh": "你需要照看标注过程、训练过程等等。"
+ },
+ {
+  "seg": 49,
+  "start": 332.695,
+  "end": 338.302,
+  "speaker": "Unknown",
+  "en": "And smaller yet more capable vision models enable you to label stuff very cheaply.",
+  "zh": "而更小但更强大的视觉模型让你能够非常便宜地标注数据。"
+ },
+ {
+  "seg": 50,
+  "start": 339.122,
+  "end": 343.567,
+  "speaker": "Unknown",
+  "en": "And also with transformers we went for V5 refactoring, et cetera.",
+  "zh": "另外对于 transformers,我们还做了 V5 重构等等。"
+ },
+ {
+  "seg": 51,
+  "start": 343.608,
+  "end": 346.551,
+  "speaker": "Unknown",
+  "en": "So like it performs better for vision models at the moment.",
+  "zh": "所以它在目前对视觉模型的表现更好。"
+ },
+ {
+  "seg": 52,
+  "start": 348.033,
+  "end": 350.274,
+  "speaker": "Unknown",
+  "en": "And this is how the pipeline actually looks like.",
+  "zh": "这就是这个流水线实际的样子。"
+ },
+ {
+  "seg": 53,
+  "start": 350.294,
+  "end": 364.562,
+  "speaker": "Unknown",
+  "en": "So first up, I labeled the data set, like I take an image data set, like any image data set, I labeled that image data set with Q1 3.59B, and then I passed the labeled data set to two judges.",
+  "zh": "首先，我给数据集打了标签，就是说我拿一个图像数据集，随便一个图像数据集，我用 Q1 3.59B 给这个图像数据集打标签，然后我把打完标签的数据集传给两个评判者。"
+ },
+ {
+  "seg": 54,
+  "start": 364.802,
+  "end": 368.845,
+  "speaker": "Unknown",
+  "en": "First one is Gemma4E4B, which is like an 8B judge.",
+  "zh": "第一个是 Gemma4E4B，它大概是一个 8B 的评判者。"
+ },
+ {
+  "seg": 55,
+  "start": 369.545,
+  "end": 373.846,
+  "speaker": "Unknown",
+  "en": "And then the second one is LFM 2.5 VL, which is nearly 2B.",
+  "zh": "第二个是 LFM 2.5 VL，它接近 2B。"
+ },
+ {
+  "seg": 56,
+  "start": 374.567,
+  "end": 375.807,
+  "speaker": "Unknown",
+  "en": "It's relatively smaller.",
+  "zh": "它相对比较小。"
+ },
+ {
+  "seg": 57,
+  "start": 375.907,
+  "end": 381.249,
+  "speaker": "Unknown",
+  "en": "Basically, I checked the research and it's better to have like an ensemble smaller judges.",
+  "zh": "基本上，我查了研究，最好用一组较小评判者的集成。"
+ },
+ {
+  "seg": 58,
+  "start": 382.029,
+  "end": 384.71,
+  "speaker": "Unknown",
+  "en": "And on top of it, I merged the judgments.",
+  "zh": "在这之上，我合并了评判结果。"
+ },
+ {
+  "seg": 59,
+  "start": 385.01,
+  "end": 398.294,
+  "speaker": "Unknown",
+  "en": "So I also checked the research around it and most of the people ask the VLM or LLM to assign some score to it, but those scores absolutely don't work, especially if your models are of different size with judges.",
+  "zh": "所以我也查了这方面的研究，大多数人让 VLM 或 LLM 给它打一个分数，但这些分数完全不管用，尤其是当你的模型和评判者的规模不同时。"
+ },
+ {
+  "seg": 60,
+  "start": 399.675,
+  "end": 403.579,
+  "speaker": "Unknown",
+  "en": "And then I pass it to train RFDTR medium or large.",
+  "zh": "然后我把它传给 train RFDTR medium 或 large。"
+ },
+ {
+  "seg": 61,
+  "start": 403.68,
+  "end": 408.185,
+  "speaker": "Unknown",
+  "en": "So I chatted a bit with RoboFall people and they encouraged to use that.",
+  "zh": "所以我和 RoboFall 的人聊了聊，他们鼓励使用它。"
+ },
+ {
+  "seg": 62,
+  "start": 409.146,
+  "end": 411.289,
+  "speaker": "Unknown",
+  "en": "And I'm going to, it actually works.",
+  "zh": "而我打算，它实际上确实有效。"
+ },
+ {
+  "seg": 63,
+  "start": 411.329,
+  "end": 413.351,
+  "speaker": "Unknown",
+  "en": "I'm going to show you very shortly.",
+  "zh": "我很快就会展示给你们。"
+ },
+ {
+  "seg": 64,
+  "start": 414.635,
+  "end": 415.556,
+  "speaker": "Unknown",
+  "en": "But how does it work?",
+  "zh": "但它是怎么工作的呢？"
+ },
+ {
+  "seg": 65,
+  "start": 415.636,
+  "end": 425.127,
+  "speaker": "Unknown",
+  "en": "So you take the repository and then you just ask it, okay, can you train it, can you do the training on this dataset on Hub?",
+  "zh": "你拿到仓库，然后你只是问它，好的，你能训练它吗，你能在 Hub 上的这个数据集上做训练吗？"
+ },
+ {
+  "seg": 66,
+  "start": 425.727,
+  "end": 436.459,
+  "speaker": "Unknown",
+  "en": "And then it will start, like, if the dataset has labels, like, you can actually just get to training, but if it doesn't have it, you can just start annotating.",
+  "zh": "然后它就会开始，就是说，如果数据集有标签，你其实可以直接开始训练，但如果没有，你就可以直接开始标注。"
+ },
+ {
+  "seg": 67,
+  "start": 438.073,
+  "end": 444.717,
+  "speaker": "Unknown",
+  "en": "And I basically, like, the trick is I pass the overlaid bounding boxes on images to the judge.",
+  "zh": "而我的技巧基本上是，我把图像上叠加了边界框的图传给评判者。"
+ },
+ {
+  "seg": 68,
+  "start": 444.777,
+  "end": 449.3,
+  "speaker": "Unknown",
+  "en": "So basically, Q1 technically outputs bounding boxes as tokens.",
+  "zh": "所以基本上，Q1 在技术上是以 token 的形式输出边界框的。"
+ },
+ {
+  "seg": 69,
+  "start": 449.48,
+  "end": 450.3,
+  "speaker": "Unknown",
+  "en": "I don't pass them.",
+  "zh": "我不传那些。"
+ },
+ {
+  "seg": 70,
+  "start": 450.42,
+  "end": 461.907,
+  "speaker": "Unknown",
+  "en": "I just overlay the bounding boxes, and I pass that image on top of some labels and label descriptions, and I say, okay, if this label description has bounding box on it, then just...",
+  "zh": "我只是把边界框叠加上去，然后我把那张图连同一些标签和标签描述一起传过去，我说，好的，如果这个标签描述上有边界框，那么就……"
+ },
+ {
+  "seg": 71,
+  "start": 463.368,
+  "end": 465.209,
+  "speaker": "Unknown",
+  "en": "Tell me if you approve or not.",
+  "zh": "告诉我你是否认可。"
+ },
+ {
+  "seg": 72,
+  "start": 465.81,
+  "end": 475.717,
+  "speaker": "Unknown",
+  "en": "And then I merged the judge verdicts over minimum agreement and not consensus, which I will come to why I did that that way.",
+  "zh": "然后我按最小一致而不是共识来合并评判者的裁定，稍后我会解释为什么我那样做。"
+ },
+ {
+  "seg": 73,
+  "start": 476.518,
+  "end": 482.243,
+  "speaker": "Unknown",
+  "en": "And these label descriptions are also generated by coding agents and you just approve it as a human being.",
+  "zh": "而这些标签描述也是由编码智能体生成的，你作为人类只需要认可一下。"
+ },
+ {
+  "seg": 74,
+  "start": 483.984,
+  "end": 490.289,
+  "speaker": "Unknown",
+  "en": "And the models that I used in this pipeline all have Apache 2.0 licenses except for",
+  "zh": "而我在这条流水线中用的模型都采用 Apache 2.0 许可证，除了"
+ },
+ {
+  "seg": 75,
+  "start": 491.088,
+  "end": 502.815,
+  "speaker": "Unknown",
+  "en": "LFM model, which has type of license where you are kind of, if you have like certain amount of revenue, after that you pay for it, but you can comfortably use it.",
+  "zh": "LFM 模型，它那种许可证是，如果你有一定的收入规模，超过之后你就要付费，但你可以放心地使用它。"
+ },
+ {
+  "seg": 76,
+  "start": 503.155,
+  "end": 503.736,
+  "speaker": "Unknown",
+  "en": "It's large.",
+  "zh": "它很大。"
+ },
+ {
+  "seg": 77,
+  "start": 504.576,
+  "end": 518.725,
+  "speaker": "Unknown",
+  "en": "And for the coding agents that are babysitting this pipeline, I initially built with Opus 4.8 and then ran the workflow with the GLM 5.2, which is doing a good job on long horizon tasks, to be honest.",
+  "zh": "至于照看这条流水线的编码智能体，我最初用 Opus 4.8 构建，然后用 GLM 5.2 运行工作流，说实话，它在长时程任务上做得不错。"
+ },
+ {
+  "seg": 78,
+  "start": 520.57,
+  "end": 523.011,
+  "speaker": "Unknown",
+  "en": "And for infra, I actually work at Hugging Face.",
+  "zh": "至于基础设施，我其实在 Hugging Face 工作。"
+ },
+ {
+  "seg": 79,
+  "start": 523.111,
+  "end": 527.192,
+  "speaker": "Unknown",
+  "en": "I have a lot of compute credits and I'm super impatient in life.",
+  "zh": "我有很多算力额度，而且我这个人超级没耐心。"
+ },
+ {
+  "seg": 80,
+  "start": 527.512,
+  "end": 542.677,
+  "speaker": "Unknown",
+  "en": "So like I use a good amount of hardware for experimentations but I benchmarked it and overall it takes like three, four dollars if you want to run this entire pipeline to train models which to me is crazy.",
+  "zh": "所以我用了相当多的硬件做实验，但我做了基准测试，总体上如果你想跑这整条流水线来训练模型，大概要三、四美元，这对我来说太疯狂了。"
+ },
+ {
+  "seg": 81,
+  "start": 543.317,
+  "end": 550.18,
+  "speaker": "Unknown",
+  "en": "Initially, for QVN 3.5, I used serverless because I was like, okay, this is convenient and it's super cheap.",
+  "zh": "最初，对于 QVN 3.5，我用的是无服务器，因为我想，好的，这很方便而且超级便宜。"
+ },
+ {
+  "seg": 82,
+  "start": 550.2,
+  "end": 553.282,
+  "speaker": "Unknown",
+  "en": "So I used DeepInfra, which is super, super cheap.",
+  "zh": "所以我用了 DeepInfra，它超级超级便宜。"
+ },
+ {
+  "seg": 83,
+  "start": 553.542,
+  "end": 558.764,
+  "speaker": "Unknown",
+  "en": "If you were to use together, it's better if you do batch processing over jobs.",
+  "zh": "如果你要用 together，用批处理作业方式会更好。"
+ },
+ {
+  "seg": 84,
+  "start": 558.944,
+  "end": 563.827,
+  "speaker": "Unknown",
+  "en": "And then for the judging, I used Hugging Face Jobs, which cost less.",
+  "zh": "然后对于评判，我用了 Hugging Face Jobs，成本更低。"
+ },
+ {
+  "seg": 85,
+  "start": 564.767,
+  "end": 573.46,
+  "speaker": "Unknown",
+  "en": "And then for training again I use like an L4 but the model is super small like RFDTR is super small and you can just use something else.",
+  "zh": "然后对于训练，我又用了一个 L4，但模型超级小，RFDTR 超级小，你用别的也行。"
+ },
+ {
+  "seg": 86,
+  "start": 573.48,
+  "end": 575.102,
+  "speaker": "Unknown",
+  "en": "You can do it locally if you wanted to.",
+  "zh": "你想的话甚至可以在本地做。"
+ },
+ {
+  "seg": 87,
+  "start": 575.223,
+  "end": 578.107,
+  "speaker": "Unknown",
+  "en": "I'm just impatient I want a big batch size so yeah.",
+  "zh": "我只是没耐心，我想要大的批大小，所以就这样。"
+ },
+ {
+  "seg": 88,
+  "start": 580.127,
+  "end": 582.129,
+  "speaker": "Unknown",
+  "en": "And I tested in two problems.",
+  "zh": "而且我在两个问题上做了测试。"
+ },
+ {
+  "seg": 89,
+  "start": 582.229,
+  "end": 585.531,
+  "speaker": "Unknown",
+  "en": "First off, the road sign detection.",
+  "zh": "第一个是路牌检测。"
+ },
+ {
+  "seg": 90,
+  "start": 585.651,
+  "end": 587.252,
+  "speaker": "Unknown",
+  "en": "Secondly, document parsing.",
+  "zh": "第二个是文档解析。"
+ },
+ {
+  "seg": 91,
+  "start": 587.592,
+  "end": 590.254,
+  "speaker": "Unknown",
+  "en": "For the road sign detection one, I already have the labels.",
+  "zh": "对于路牌检测那个，我已经有标签了。"
+ },
+ {
+  "seg": 92,
+  "start": 590.714,
+  "end": 595.558,
+  "speaker": "Unknown",
+  "en": "So like I actually compared against the ground truth annotations if my pipeline works or not.",
+  "zh": "所以我实际上对比了真实标注，来看我的流水线是否有效。"
+ },
+ {
+  "seg": 93,
+  "start": 596.258,
+  "end": 608.955,
+  "speaker": "Unknown",
+  "en": "And for document parsing, I actually couldn't do it because basically I use like a docvqa dataset and the problem is like I want to extract the images, tables, I don't know, signatures and stuff.",
+  "zh": "而对于文档解析，我其实没法那样做，因为我用了一个 docvqa 数据集，问题是我想提取图像、表格、签名之类的。"
+ },
+ {
+  "seg": 94,
+  "start": 608.975,
+  "end": 613.842,
+  "speaker": "Unknown",
+  "en": "So it's like a novel task and I wanted to see if RFDTR can actually learn it.",
+  "zh": "所以这是一个新颖的任务，我想看看 RFDTR 能否真正学会它。"
+ },
+ {
+  "seg": 95,
+  "start": 615.232,
+  "end": 617.754,
+  "speaker": "Unknown",
+  "en": "So first result, it works, so yay.",
+  "zh": "第一个结果：它有效，所以太好了。"
+ },
+ {
+  "seg": 96,
+  "start": 619.276,
+  "end": 639.373,
+  "speaker": "Unknown",
+  "en": "We have like a good mean average precision over 50 and I compare it against, basically I have a test set and I take that test set and pass through QN and then I compare against the pseudo-annotations and the ground-truth annotations of that test set.",
+  "zh": "我们的 mean average precision 超过 50，相当不错，我把它和……基本上我有一个测试集，我把那个测试集传给 QN，然后我把它和伪标注以及那个测试集的真实标注做对比。"
+ },
+ {
+  "seg": 97,
+  "start": 639.785,
+  "end": 643.828,
+  "speaker": "Unknown",
+  "en": "There is a bit of a gap, but it's kind of expected because it's learned from QN.",
+  "zh": "有一点差距，但这是可以预期的，因为它是从 QN 学来的。"
+ },
+ {
+  "seg": 98,
+  "start": 644.589,
+  "end": 652.375,
+  "speaker": "Unknown",
+  "en": "And also, RockOak is also a good value, to be frank, for such use case.",
+  "zh": "而且，说实话，对于这种用例，RockOak 也是一个不错的数值。"
+ },
+ {
+  "seg": 99,
+  "start": 652.855,
+  "end": 657.358,
+  "speaker": "Unknown",
+  "en": "And for the document parsing, it actually generalizes, which to me is crazy.",
+  "zh": "而对于文档解析，它实际上能泛化，这对我来说太疯狂了。"
+ },
+ {
+  "seg": 100,
+  "start": 659.184,
+  "end": 663.767,
+  "speaker": "Unknown",
+  "en": "Here, the trained model output, you can see that it detected the signature.",
+  "zh": "这里,训练后的模型输出,你可以看到它检测到了签名。"
+ },
+ {
+  "seg": 101,
+  "start": 664.328,
+  "end": 668.751,
+  "speaker": "Unknown",
+  "en": "Meanwhile, the QN annotation of that test set missed it.",
+  "zh": "同时,该测试集的 QN 标注却漏掉了它。"
+ },
+ {
+  "seg": 102,
+  "start": 668.791,
+  "end": 672.294,
+  "speaker": "Unknown",
+  "en": "So I would like to say it actually generalizes very well as well.",
+  "zh": "所以我想说,它实际上泛化得也非常好。"
+ },
+ {
+  "seg": 103,
+  "start": 673.075,
+  "end": 678.499,
+  "speaker": "Unknown",
+  "en": "But we owe this to how good RFDTR is as a backbone in a way.",
+  "zh": "但在某种程度上,我们要把这归功于 RFDTR 作为骨干网络有多出色。"
+ },
+ {
+  "seg": 104,
+  "start": 680.361,
+  "end": 684.544,
+  "speaker": "Unknown",
+  "en": "And here you can also see how it captures the images technically.",
+  "zh": "这里你也可以看到它在技术上是如何捕捉图像的。"
+ },
+ {
+  "seg": 105,
+  "start": 685.966,
+  "end": 687.227,
+  "speaker": "Unknown",
+  "en": "And it's like one-on-one.",
+  "zh": "就像是一对一的。"
+ },
+ {
+  "seg": 106,
+  "start": 688.476,
+  "end": 693.658,
+  "speaker": "Unknown",
+  "en": "And while I was building this, I actually noticed that I was clueless about building with vision agents.",
+  "zh": "而且在构建这个的过程中,我实际上发现我对用视觉智能体构建东西一无所知。"
+ },
+ {
+  "seg": 107,
+  "start": 694.498,
+  "end": 696.499,
+  "speaker": "Unknown",
+  "en": "So I have a bunch of findings around it.",
+  "zh": "所以我有一堆相关的发现。"
+ },
+ {
+  "seg": 108,
+  "start": 697.6,
+  "end": 700.101,
+  "speaker": "Unknown",
+  "en": "So first up, there is a huge judging balance.",
+  "zh": "首先是巨大的评判平衡问题。"
+ },
+ {
+  "seg": 109,
+  "start": 700.161,
+  "end": 702.362,
+  "speaker": "Unknown",
+  "en": "So for depending on the problem, LFM,",
+  "zh": "所以取决于问题本身,LFM"
+ },
+ {
+  "seg": 110,
+  "start": 703.562,
+  "end": 705.203,
+  "speaker": "Unknown",
+  "en": "Tends to reject a lot.",
+  "zh": "倾向于大量拒绝。"
+ },
+ {
+  "seg": 111,
+  "start": 705.423,
+  "end": 721.035,
+  "speaker": "Unknown",
+  "en": "That's why I couldn't take the consensus, because if I were to eliminate everything that both LFM and Gemma agreed to remove, I would left with very, very little number of examples, which would leave me with very poor generalization.",
+  "zh": "这就是为什么我不能取共识,因为如果我剔除所有 LFM 和 Gemma 都同意剔除的内容,我剩下的样本会非常非常少,这会让我得到非常差的泛化。"
+ },
+ {
+  "seg": 112,
+  "start": 721.435,
+  "end": 727.12,
+  "speaker": "Unknown",
+  "en": "So what I did was that, okay, if one of them says yes, I'm going to take that example, and nevertheless, it worked well.",
+  "zh": "所以我做的是,好吧,只要其中一个说是,我就保留那个样本,尽管如此,效果还是不错。"
+ },
+ {
+  "seg": 113,
+  "start": 727.14,
+  "end": 732.824,
+  "speaker": "Unknown",
+  "en": "But if you have a large data set, and if you care about the recall, I suggest that you take the",
+  "zh": "但如果你有一个大数据集,而且你在意召回率,我建议你取"
+ },
+ {
+  "seg": 114,
+  "start": 733.324,
+  "end": 735.627,
+  "speaker": "Unknown",
+  "en": "consensus, or just observe.",
+  "zh": "共识,或者只是观察。"
+ },
+ {
+  "seg": 115,
+  "start": 736.028,
+  "end": 738.491,
+  "speaker": "Unknown",
+  "en": "For document parsing, the gap isn't as big.",
+  "zh": "对于文档解析,差距没那么大。"
+ },
+ {
+  "seg": 116,
+  "start": 741.53,
+  "end": 765.583,
+  "speaker": "Unknown",
+  "en": "And secondly, the prompt generation is a bit hard, so this is the only part where as a human you have to approve, okay, the model generates the prompts for you, for the judge, and then you will say, okay, I approve this, because you need to still take a look at it, take a look at your data set a little, there's no escaping that.",
+  "zh": "其次,提示词生成有点难,所以这是唯一需要你作为人类去批准的部分,好吧,模型会为评判器生成提示词,然后你要说,好吧,我批准这个,因为你仍然需要看一眼,稍微看一看你的数据集,这是逃不掉的。"
+ },
+ {
+  "seg": 117,
+  "start": 767.778,
+  "end": 780.867,
+  "speaker": "Unknown",
+  "en": "And thirdly, and this is super interesting because your coding agent, no matter how good it is, like you take Opus 4.8 which is like a very good coding agent.",
+  "zh": "第三点,这一点非常有趣,因为你的编码智能体,无论它多好,比如你用 Opus 4.8,它是一个非常好的编码智能体。"
+ },
+ {
+  "seg": 118,
+  "start": 782.648,
+  "end": 786.77,
+  "speaker": "Unknown",
+  "en": "It's clueless as a computer vision engineer as well as it misses common sense.",
+  "zh": "但作为一名计算机视觉工程师它是毫无头绪的,而且它缺乏常识。"
+ },
+ {
+  "seg": 119,
+  "start": 786.83,
+  "end": 799.237,
+  "speaker": "Unknown",
+  "en": "For instance, it was doing horizontal flip over the traffic signs or it was doing jitter over the traffic lights which will definitely corrupt your data sets and break it.",
+  "zh": "比如说,它会对交通标志做水平翻转,或者对红绿灯做抖动,这肯定会损坏你的数据集并把它搞坏。"
+ },
+ {
+  "seg": 120,
+  "start": 799.837,
+  "end": 806.161,
+  "speaker": "Unknown",
+  "en": "So I patched this later so you can just say, okay, I don't want to augment or I can augment.",
+  "zh": "所以我后来修补了这一点,你可以直接说,好吧,我不想做数据增强,或者我可以做数据增强。"
+ },
+ {
+  "seg": 121,
+  "start": 806.441,
+  "end": 808.542,
+  "speaker": "Unknown",
+  "en": "And your coding agent will help you with that.",
+  "zh": "你的编码智能体会帮你搞定这个。"
+ },
+ {
+  "seg": 122,
+  "start": 810.408,
+  "end": 814.909,
+  "speaker": "Unknown",
+  "en": "And lastly, the second part of this toolkit is my preferred models as tools.",
+  "zh": "最后,这个工具包的第二部分是我偏好的模型即工具。"
+ },
+ {
+  "seg": 123,
+  "start": 815.929,
+  "end": 822.051,
+  "speaker": "Unknown",
+  "en": "So this repository covers my favorite models from depth estimation to zero shot segmentation.",
+  "zh": "所以这个仓库涵盖了我从深度估计到零样本分割最喜欢的模型。"
+ },
+ {
+  "seg": 124,
+  "start": 822.971,
+  "end": 829.372,
+  "speaker": "Unknown",
+  "en": "And this is partially powered by first of Hugging Face benchmarks, which we recently rolled out maybe a few months ago.",
+  "zh": "这部分由 Hugging Face 基准排行榜驱动,我们大概几个月前刚上线了它。"
+ },
+ {
+  "seg": 125,
+  "start": 829.813,
+  "end": 839.855,
+  "speaker": "Unknown",
+  "en": "Basically every single, basically we have like a benchmark leaderboard and over there you have the open models as well as their evaluation results.",
+  "zh": "基本上每一个,基本上我们有一个基准排行榜,在那里你有开放模型以及它们的评估结果。"
+ },
+ {
+  "seg": 126,
+  "start": 840.555,
+  "end": 843.677,
+  "speaker": "Unknown",
+  "en": "And you can compare different models of different sizes.",
+  "zh": "而且你可以比较不同大小的不同模型。"
+ },
+ {
+  "seg": 127,
+  "start": 844.258,
+  "end": 855.125,
+  "speaker": "Unknown",
+  "en": "So I keep it up to date as well, but also it's partially powered by me who likes to read the computer vision conference papers.",
+  "zh": "所以我也保持它更新,同时它也部分由我驱动,我喜欢读计算机视觉会议论文。"
+ },
+ {
+  "seg": 128,
+  "start": 856.992,
+  "end": 861.793,
+  "speaker": "Unknown",
+  "en": "So I would like to give a shout out to this model because not a lot of people know about this.",
+  "zh": "所以我想给这个模型打个广告,因为没有多少人知道它。"
+ },
+ {
+  "seg": 129,
+  "start": 861.853,
+  "end": 866.314,
+  "speaker": "Unknown",
+  "en": "So basically some cannot do open-ended reference segmentation.",
+  "zh": "基本上有些模型无法做开放式指代分割。"
+ },
+ {
+  "seg": 130,
+  "start": 866.835,
+  "end": 871.736,
+  "speaker": "Unknown",
+  "en": "Like you can do like, okay, segment this red car and it will do it.",
+  "zh": "就像你可以说,好吧,分割这辆红车,它会做到。"
+ },
+ {
+  "seg": 131,
+  "start": 871.896,
+  "end": 875.677,
+  "speaker": "Unknown",
+  "en": "But if you say, okay, the red car next to the orange car that is next to the,",
+  "zh": "但如果你说,好吧,旁边是橙色车的那辆红车,而那辆橙色车又在"
+ },
+ {
+  "seg": 132,
+  "start": 876.177,
+  "end": 877.799,
+  "speaker": "Unknown",
+  "en": "Bluecar, it will not do that.",
+  "zh": "蓝色车旁边,它就做不到。"
+ },
+ {
+  "seg": 133,
+  "start": 878,
+  "end": 887.453,
+  "speaker": "Unknown",
+  "en": "And Falcon Perception, which is a model by TII, can actually do it, and it's only like 600 million parameters with Apache 2.0 license.",
+  "zh": "而 Falcon Perception,TII 出的一个模型,实际上可以做到,而且它只有大约 6 亿参数,采用 Apache 2.0 许可证。"
+ },
+ {
+  "seg": 134,
+  "start": 887.954,
+  "end": 890.958,
+  "speaker": "Unknown",
+  "en": "So this one does the zero shot segmentation for me.",
+  "zh": "所以这个模型为我做零样本分割。"
+ },
+ {
+  "seg": 135,
+  "start": 892.083,
+  "end": 895.107,
+  "speaker": "Unknown",
+  "en": "And this is like a non-exhaustive list.",
+  "zh": "这是一个不完全的列表。"
+ },
+ {
+  "seg": 136,
+  "start": 895.167,
+  "end": 906.203,
+  "speaker": "Unknown",
+  "en": "So for posing, we have the sapiens family for the human-centric tasks where you need to do human key point detection, human depth estimation, and so on.",
+  "zh": "对于姿态,我们有 sapiens 系列,用于以人为中心的任务,比如你需要做人体关键点检测、人体深度估计等等。"
+ },
+ {
+  "seg": 137,
+  "start": 907.785,
+  "end": 915.89,
+  "speaker": "Unknown",
+  "en": "And for zero shot detection, I have Moondream 3 and MM Grounding Dyno, which is like a model with Apache 2.0 license.",
+  "zh": "对于零样本检测,我有 Moondream 3 和 MM Grounding Dyno,后者是一个采用 Apache 2.0 许可证的模型。"
+ },
+ {
+  "seg": 138,
+  "start": 915.95,
+  "end": 916.77,
+  "speaker": "Unknown",
+  "en": "It's also very good.",
+  "zh": "它也非常好。"
+ },
+ {
+  "seg": 139,
+  "start": 916.83,
+  "end": 918.911,
+  "speaker": "Unknown",
+  "en": "It's very small compared to Moondream.",
+  "zh": "和 Moondream 相比它非常小。"
+ },
+ {
+  "seg": 140,
+  "start": 919.492,
+  "end": 925.075,
+  "speaker": "Unknown",
+  "en": "I give you the multiple models in multiple sizes depending on your hardware that you can pick.",
+  "zh": "我给你提供了多种大小不同的模型,你可以根据你的硬件来挑选。"
+ },
+ {
+  "seg": 141,
+  "start": 925.235,
+  "end": 928.897,
+  "speaker": "Unknown",
+  "en": "Like if you want to go fast, just pick the tiny alternative.",
+  "zh": "比如如果你想跑得快,就选那个微型的替代品。"
+ },
+ {
+  "seg": 142,
+  "start": 930.127,
+  "end": 935.529,
+  "speaker": "Unknown",
+  "en": "For OCR, I actually took them from the OCR benchmark in different sizes.",
+  "zh": "对于 OCR,我实际上是从 OCR 基准里选的,有不同大小。"
+ },
+ {
+  "seg": 143,
+  "start": 936.269,
+  "end": 944.572,
+  "speaker": "Unknown",
+  "en": "And for depth estimation, I actually discovered that the large model doesn't have a non-commercial license, and the rest of them have it, so you can actually use it.",
+  "zh": "对于深度估计,我实际上发现那个大模型没有非商业许可证,而其余的都有,所以你实际上可以用。"
+ },
+ {
+  "seg": 144,
+  "start": 944.772,
+  "end": 946.892,
+  "speaker": "Unknown",
+  "en": "That one has like an Apache 2.0 license.",
+  "zh": "那个模型采用的是 Apache 2.0 许可证。"
+ },
+ {
+  "seg": 145,
+  "start": 947.512,
+  "end": 950.333,
+  "speaker": "Unknown",
+  "en": "And it also comes with supervision and tracker support.",
+  "zh": "它还带有 supervision 和 tracker 支持。"
+ },
+ {
+  "seg": 146,
+  "start": 950.473,
+  "end": 958.836,
+  "speaker": "Unknown",
+  "en": "They are both libraries from RoboFlow that allow you to do tracking of instances, bounding boxes, and so on.",
+  "zh": "它们都是 RoboFlow 的库,让你可以对实例、边界框等进行跟踪。"
+ },
+ {
+  "seg": 147,
+  "start": 960.849,
+  "end": 961.789,
+  "speaker": "Unknown",
+  "en": "And future plans.",
+  "zh": "以及未来的计划。"
+ },
+ {
+  "seg": 148,
+  "start": 961.969,
+  "end": 971.273,
+  "speaker": "Unknown",
+  "en": "So first off, I could hear you say, okay, this will definitely not work for the industry use cases because industry use cases have different parts.",
+  "zh": "首先我能听到你说,好吧,这对行业用例肯定不管用,因为行业用例有不同的部件。"
+ },
+ {
+  "seg": 149,
+  "start": 971.493,
+  "end": 974.094,
+  "speaker": "Unknown",
+  "en": "It has like non-describable parts.",
+  "zh": "它有不可描述的部件之类的。"
+ },
+ {
+  "seg": 150,
+  "start": 974.234,
+  "end": 978.415,
+  "speaker": "Unknown",
+  "en": "Like natural language is not a good gateway to it.",
+  "zh": "比如自然语言并不是通往它的好入口。"
+ },
+ {
+  "seg": 151,
+  "start": 978.595,
+  "end": 982.377,
+  "speaker": "Unknown",
+  "en": "So I think in that sense, image-guided detection could help.",
+  "zh": "所以我认为从这个意义上说，图像引导检测可能会有所帮助。"
+ },
+ {
+  "seg": 152,
+  "start": 982.437,
+  "end": 985.738,
+  "speaker": "Unknown",
+  "en": "Like if you don't know about image-guided detection, you basically have like",
+  "zh": "比如，如果你不了解图像引导检测，你基本上就是有"
+ },
+ {
+  "seg": 153,
+  "start": 986.378,
+  "end": 989.661,
+  "speaker": "Unknown",
+  "en": "Instance of an image like a Hagi here as an example.",
+  "zh": "一张图像的实例，比如这里的 Hagi 作为例子。"
+ },
+ {
+  "seg": 154,
+  "start": 990.182,
+  "end": 997.789,
+  "speaker": "Unknown",
+  "en": "And then you ask the model, okay, detect this object in this image across all of the images.",
+  "zh": "然后你问模型，好的，在所有图像中检测这个图像里的这个物体。"
+ },
+ {
+  "seg": 155,
+  "start": 998.229,
+  "end": 1005.636,
+  "speaker": "Unknown",
+  "en": "I feel like it could actually somewhat help in the industry use cases where you cannot describe it by natural language.",
+  "zh": "我觉得它实际上可以在那些无法用自然语言描述的行业用例中起到一定作用。"
+ },
+ {
+  "seg": 156,
+  "start": 1007.865,
+  "end": 1027.169,
+  "speaker": "Unknown",
+  "en": "As well as, I want to try intersection over union merger, sort of basically you have like labeled boxes and then judges boxes, like you ask the judge to actually generate a box and then you take the intersection over union instead of asking judge to reject or accept.",
+  "zh": "另外，我还想尝试 IoU 合并，基本就是你有一些标注框和评判框，你让评判模型实际生成一个框，然后取交并比，而不是让评判模型去拒绝或接受。"
+ },
+ {
+  "seg": 157,
+  "start": 1028.049,
+  "end": 1031.17,
+  "speaker": "Unknown",
+  "en": "And I'm currently working on the segmentation support.",
+  "zh": "我目前正在做分割支持。"
+ },
+ {
+  "seg": 158,
+  "start": 1032.525,
+  "end": 1033.886,
+  "speaker": "Unknown",
+  "en": "And thanks for listening.",
+  "zh": "感谢大家的聆听。"
+ },
+ {
+  "seg": 159,
+  "start": 1034.066,
+  "end": 1038.51,
+  "speaker": "Unknown",
+  "en": "If you want to actually learn more, so basically I have a small vision repository.",
+  "zh": "如果你想了解更多，我有一个小的视觉仓库。"
+ },
+ {
+  "seg": 160,
+  "start": 1038.73,
+  "end": 1049.258,
+  "speaker": "Unknown",
+  "en": "It has everything about like fine-tuning models, quantizing models, multi-model models, everything around vision, as well as Transformers task guides.",
+  "zh": "它包含了关于微调模型、量化模型、多模态模型的一切，所有围绕视觉的内容，还有 Transformers 任务指南。"
+ },
+ {
+  "seg": 161,
+  "start": 1049.298,
+  "end": 1053.021,
+  "speaker": "Unknown",
+  "en": "We keep them up to date, has many tutorials.",
+  "zh": "我们会保持它们更新，里面有很多教程。"
+ },
+ {
+  "seg": 162,
+  "start": 1054.422,
+  "end": 1058.745,
+  "speaker": "Unknown",
+  "en": "We also have hugging face skills that actually have computer vision",
+  "zh": "我们还有实际上包含计算机视觉内容的 hugging face skills"
+ },
+ {
+  "seg": 163,
+  "start": 1059.285,
+  "end": 1060.946,
+  "speaker": "Unknown",
+  "en": "And this is my Twitter profile.",
+  "zh": "这是我的 Twitter 主页。"
+ },
+ {
+  "seg": 164,
+  "start": 1061.006,
+  "end": 1063.566,
+  "speaker": "Unknown",
+  "en": "And this repo is actually at GitHub, a vision intern.",
+  "zh": "这个仓库在 GitHub 上，叫 vision intern。"
+ },
+ {
+  "seg": 165,
+  "start": 1063.586,
+  "end": 1065.187,
+  "speaker": "Unknown",
+  "en": "I think I have time for one question.",
+  "zh": "我想我还有时间回答一个问题。"
+ },
+ {
+  "seg": 166,
+  "start": 1065.207,
+  "end": 1066.867,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 167,
+  "start": 1066.887,
+  "end": 1067.427,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好。"
+ },
+ {
+  "seg": 168,
+  "start": 1089.231,
+  "end": 1096.953,
+  "speaker": "Unknown",
+  "en": "He's asking if I have plans to train VLMs themselves, like a self-improvement type of thing.",
+  "zh": "他问我有没有计划训练 VLM 本身，比如某种自我改进之类的东西。"
+ },
+ {
+  "seg": 169,
+  "start": 1096.993,
+  "end": 1108.075,
+  "speaker": "Unknown",
+  "en": "That would be super exciting, but first I want to solve this thing of developers actually training task-specific models and then deploying on Edge, and then that could come perhaps.",
+  "zh": "那会非常令人兴奋，但首先我想解决开发者实际训练任务专用模型然后部署到边缘端的问题，之后那个也许可以再来。"
+ },
+ {
+  "seg": 170,
+  "start": 1108.976,
+  "end": 1109.796,
+  "speaker": "Unknown",
+  "en": "Maybe one more?",
+  "zh": "也许再来一个？"
+ },
+ {
+  "seg": 171,
+  "start": 1110.716,
+  "end": 1110.936,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好。"
+ },
+ {
+  "seg": 172,
+  "start": 1118.925,
+  "end": 1119.565,
+  "speaker": "Unknown",
+  "en": "Not really.",
+  "zh": "并不是。"
+ },
+ {
+  "seg": 173,
+  "start": 1119.865,
+  "end": 1120.466,
+  "speaker": "Unknown",
+  "en": "I don't think so.",
+  "zh": "我不这么认为。"
+ },
+ {
+  "seg": 174,
+  "start": 1120.566,
+  "end": 1127.887,
+  "speaker": "Unknown",
+  "en": "I just use the, because I wanted, because a coding agent actually has the context, I wanted it to generate the prompt.",
+  "zh": "我只是用……因为……因为编码智能体实际上有上下文，我想让它来生成提示词。"
+ },
+ {
+  "seg": 175,
+  "start": 1129.108,
+  "end": 1129.988,
+  "speaker": "Unknown",
+  "en": "Maybe one more.",
+  "zh": "也许再来一个。"
+ },
+ {
+  "seg": 176,
+  "start": 1132.649,
+  "end": 1132.909,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 177,
+  "start": 1133.089,
+  "end": 1133.829,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ }
+]

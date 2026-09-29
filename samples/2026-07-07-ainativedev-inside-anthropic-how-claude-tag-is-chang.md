@@ -133,9 +133,9 @@ Mukta 认为这真正打开了**持续学习**的大门：今天跑智能体，�
 
 **换个口味**
 
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic · 同概念:工具层 (harness)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、Slack、托管智能体 (managed agents)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、Slack</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:工具层 (harness)、智能体 (agent)、可观测性 (observability)</span>
 
 </div>
 </div>

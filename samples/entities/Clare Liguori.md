@@ -51,17 +51,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Kiro]] · [[Amazon]] · [[AWS]] · [[Bedrock]] · [[智能体]] · [[前沿开发]] · [[vibe coding]] · [[steering 文件]] · [[测试左移]] · [[Claude]]
+[[Kiro]] · [[Amazon]] · [[AWS]] · [[Bedrock]] · [[智能体]] · [[前沿开发]] · [[vibe coding]] · [[steering 文件]] · [[MCP 服务器]] · [[测试左移]]
 
 ## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
+[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kiro":4,"Amazon":16,"AWS":16,"Bedrock":2,"智能体":350,"前沿开发":1,"vibe coding":41,"steering 文件":1,"测试左移":1,"Claude":70}</script>
+<script type="application/json" class="pd-epn">{"Kiro":4,"Amazon":16,"AWS":16,"Bedrock":2,"智能体":353,"前沿开发":1,"vibe coding":41,"steering 文件":1,"MCP 服务器":2,"测试左移":1}</script>
 
 <script>
 (function(){

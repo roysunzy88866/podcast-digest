@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
+[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":14,"uReview":1,"自动化代码评审":1,"代码审查":17,"智能体化的 SDLC":1,"智能体":350,"可观测性":32,"护栏":65,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":14,"uReview":1,"自动化代码评审":1,"代码审查":17,"智能体化的 SDLC":1,"智能体":353,"可观测性":32,"护栏":65,"内环与外环":1}</script>
 
 <script>
 (function(){

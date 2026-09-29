@@ -135,8 +135,8 @@ Deet 认为最令人兴奋的前沿是 agent harness(给智能体配上一整套
 **顺着「智能体」挖下去**
 
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)、上下文 (context)</span>
+- [[2026-09-23-talks-building-the-document-context-layer-for|为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG]]<span class="pd-rz">同概念:RAG、VLM、智能体 (agent)、上下文 (context)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)</span>
-- [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">
@@ -144,8 +144,8 @@ Deet 认为最令人兴奋的前沿是 agent harness(给智能体配上一整套
 **换个口味**
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)、上下文 (context)</span>
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:智能体 (agent)、智能体工具框架 (harness)、评估 (evals)</span>
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)</span>
 
 </div>
 </div>

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
+[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":350,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":2,"智能体":353,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":5,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

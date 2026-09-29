@@ -35,7 +35,7 @@ unlisted: true
 
 [[合成数据]] · [[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[编码智能体]] · [[OpenAI]] · [[Brendan Foody]] · [[System 1 模型]] · [[Ben Horowitz]] · [[Mercor]]
 
-<script type="application/json" class="pd-epn">{"合成数据":8,"Diogo Almeida":2,"Jev":3,"TypeSafe":3,"编码智能体":22,"OpenAI":139,"Brendan Foody":1,"System 1 模型":1,"Ben Horowitz":6,"Mercor":2}</script>
+<script type="application/json" class="pd-epn">{"合成数据":8,"Diogo Almeida":2,"Jev":3,"TypeSafe":3,"编码智能体":22,"OpenAI":140,"Brendan Foody":1,"System 1 模型":1,"Ben Horowitz":6,"Mercor":2}</script>
 
 <script>
 (function(){

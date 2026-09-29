@@ -1,0 +1,335 @@
+{
+  "episode_id": "2026-09-23-talks-skill-issue-stop-deploying-vision-langua",
+  "podcast": "精选演讲",
+  "date": "2026-09-23",
+  "tags": [
+    "计算机视觉",
+    "视觉语言模型",
+    "智能体",
+    "开源模型",
+    "模型许可证"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "merve-noyan",
+      "type": "person",
+      "role": "guest",
+      "name": "Merve Noyan",
+      "file": "Merve Noyan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vision-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉语言模型 (vision language model)",
+      "file": "视觉语言模型",
+      "primary": true,
+      "how_described": "本集说开发者爱拿它做一切视觉任务，但永远做不到实时、鲁棒性也不如专用模型；它的正确用法是退居幕后当标注器和裁判，把专用模型喂出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            89.008,
+            103.282
+          ],
+          "quote": "And they are not super robust in terms of like if you were to train like an RFDETR which Joseph spoke about in the first talk, it will always outperform your vision language model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            256.053,
+            264.723
+          ],
+          "quote": "You can actually use a vision language model as a labeler and the vision language models as judge and then train what you want.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说嘉宾在此做计算机视觉工作，整条流水线跑在它的基础设施上：Jobs 做一次性批处理与训练、inference providers 做无服务器路由，还新上了基准排行榜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            287.207,
+            289.689
+          ],
+          "quote": "So basically it runs on Hugging Face infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            520.57,
+            523.011
+          ],
+          "quote": "And for infra, I actually work at Hugging Face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            558.944,
+            563.827
+          ],
+          "quote": "And then for the judging, I used Hugging Face Jobs, which cost less.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            822.971,
+            829.372
+          ],
+          "quote": "And this is partially powered by first of Hugging Face benchmarks, which we recently rolled out maybe a few months ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1054.422,
+            1058.745
+          ],
+          "quote": "We also have hugging face skills that actually have computer vision",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把模型打包成工具交给编码智能体调用，让它照看标注与训练的长时程任务；但也说编码智能体是个毫无头绪的计算机视觉工程师，会对交通标志做水平翻转毁掉数据集",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            172.622,
+            184.394
+          ],
+          "quote": "First off, this toolkit has my favorite models as tools so that you can give it to your agent because your coding agent is a bit of a clueless computer vision engineer basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            232.121,
+            243.369
+          ],
+          "quote": "If I have labeled images, easy, I can just train a model, or like if I can give my computer vision agent some tutorials to do that, because it's all out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            767.778,
+            780.867
+          ],
+          "quote": "And thirdly, and this is super interesting because your coding agent, no matter how good it is, like you take Opus 4.8 which is like a very good coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            806.441,
+            808.542
+          ],
+          "quote": "And your coding agent will help you with that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1120.566,
+            1127.887
+          ],
+          "quote": "I just use the, because I wanted, because a coding agent actually has the context, I wanted it to generate the prompt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zero-shot-segmentation",
+      "type": "concept",
+      "role": "concept",
+      "name": "零样本分割 (zero shot segmentation)",
+      "file": "零样本分割",
+      "primary": true,
+      "how_described": "本集说不给训练样本、直接用自然语言指哪分割哪，推荐 6 亿参数、Apache 2.0 许可证的 Falcon Perception 来做这件事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            815.929,
+            822.051
+          ],
+          "quote": "So this repository covers my favorite models from depth estimation to zero shot segmentation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            887.954,
+            890.958
+          ],
+          "quote": "So this one does the zero shot segmentation for me.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "object-detection",
+      "type": "concept",
+      "role": "concept",
+      "name": "目标检测 (object detection)",
+      "file": "目标检测",
+      "primary": true,
+      "how_described": "本集以路牌检测和文档解析为例验证流水线，用 RFDETR 这类专用检测模型训练，mean average precision 超过 50 并泛化良好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            118.523,
+            122.864
+          ],
+          "quote": "Whenever I post something about object detection, they always ask me about YOLO.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transformers",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformers",
+      "file": "transformers",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 为训练模型构建了 transformers 库，并做了 V5 重构，对视觉模型表现更好，还配有任务指南",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            243.65,
+            245.551
+          ],
+          "quote": "Like we built transformers for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            339.122,
+            343.567
+          ],
+          "quote": "And also with transformers we went for V5 refactoring, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1038.73,
+            1049.258
+          ],
+          "quote": "It has everything about like fine-tuning models, quantizing models, multi-model models, everything around vision, as well as Transformers task guides.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集在结尾提到自己的小视觉仓库涵盖微调模型、量化模型等一切围绕视觉的内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            1038.73,
+            1049.258
+          ],
+          "quote": "It has everything about like fine-tuning models, quantizing models, multi-model models, everything around vision, as well as Transformers task guides.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rfdetr",
+      "type": "concept",
+      "role": "concept",
+      "name": "RFDETR",
+      "file": "RFDETR",
+      "primary": true,
+      "how_described": "本集说它是嘉宾最喜欢的检测模型，训练后总能胜过视觉语言模型，模型超小可本地跑，作为骨干网络足够强",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            89.008,
+            103.282
+          ],
+          "quote": "And they are not super robust in terms of like if you were to train like an RFDETR which Joseph spoke about in the first talk, it will always outperform your vision language model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yolo",
+      "type": "concept",
+      "role": "concept",
+      "name": "YOLO",
+      "file": "YOLO",
+      "primary": false,
+      "how_described": "本集提醒它是 AGPL 3.0 许可证、商用要付费，劝开发者迁移到 Apache 2.0 模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            118.523,
+            122.864
+          ],
+          "quote": "Whenever I post something about object detection, they always ask me about YOLO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            122.904,
+            128.126
+          ],
+          "quote": "YOLO is a good model, but it has AGPL 3.0 license, I think.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,42 +1,33 @@
 ---
-title: MCP 服务器 (MCP server)
+title: MCP 服务器 (MCP servers)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 服务器 (MCP server)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 服务器 (MCP servers)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP 服务器">MC</div><div class="pi"><h1 class="pt">MCP 服务器 (MCP server)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP 服务器">MC</div><div class="pi"><h1 class="pt">MCP 服务器 (MCP servers)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(13:42起):本集把它说成:一种让大语言模型和外部软件互通指令的标准接口，Paper 桌面版内置了它，从而能与 Conductor 等外部编程智能体联动。
-- **[[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]]**(11:32起):Upwork 推出的接口能力,让外部智能体与 Upwork 进行身份验证——平台能识别它们是善意还是恶意行为者,进而允许其发布职位、招聘、管理项目
-- **[[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|《PostHog 把智能体装进终端，再给它请了个“保镖”》]]**(09:13起):本集提到上下文引擎把 skill 包通过 MCP 服务器发送给 wizard。
-
-## ① 提到它的金句
-
-*1 条*
-
-![[2026-08-28-talks-building-the-engine-while-flying-the-pla#^q6]]
+- **[[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]]**(10:19起):本集提到团队构建新的 MCP 服务器来帮模型完成它需要完成的事,作为「放慢速度以求提速」阶段工程投资的一部分。
+- **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(03:21起):本集说随着 compaction 和长上下文演进,讨论从管理上下文窗口变成怎么把正确的 MCP 服务器、技能和任务接到智能体上,作为组织上下文宝库的连接器之一。
 
 ## ② 出现在这些集
 
-*4 集*
+*2 集*
 
-- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为概念
-- [[2026-08-18-mos-what-the-jobs-report-isn-t-telling-you-a|《Upwork CEO 谈 AI 时代的工作：智能体雇人、自由职业激增与裁员真相》]] — 作为概念
-- [[2026-08-28-talks-building-the-engine-while-flying-the-pla|《Figma 第一个 MCP server 是怎么三个月做出来的》]] — 作为概念
-- [[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|《PostHog 把智能体装进终端，再给它请了个“保镖”》]] — 作为概念(提及)
+- [[2026-08-28-talks-from-ai-assisted-to-ai-native-building-a|《AWS 高级首席工程师:AI 提效 4.5 倍,靠的不是工具而是改工作方式》]] — 作为概念(提及)
+- [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[Claude]] · [[Figma]] · [[Anthropic]] · [[Stephen Haney]] · [[Bob Safian]] · [[Jesse Lumarie]] · [[Sarah Sanders]] · [[Paper]]
+[[智能体]] · [[Clare Liguori]] · [[Jerry Liu]] · [[Kiro]] · [[LlamaIndex]] · [[Amazon]] · [[LlamaParse]] · [[AWS]] · [[LightParse]] · [[Bedrock]]
 
-<script type="application/json" class="pd-epn">{"智能体":350,"Cursor":71,"Claude":70,"Figma":22,"Anthropic":151,"Stephen Haney":1,"Bob Safian":6,"Jesse Lumarie":1,"Sarah Sanders":1,"Paper":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":353,"Clare Liguori":1,"Jerry Liu":1,"Kiro":4,"LlamaIndex":2,"Amazon":16,"LlamaParse":1,"AWS":16,"LightParse":1,"Bedrock":2}</script>
 
 <script>
 (function(){

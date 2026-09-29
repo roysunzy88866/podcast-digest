@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Pinecone":3,"Nexus":2,"RAG":20,"物化视图":1,"上下文":22,"向量数据库":3,"知识图谱":5,"语义层":4,"元数据":1}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Pinecone":3,"Nexus":2,"RAG":21,"物化视图":1,"上下文":24,"向量数据库":4,"知识图谱":5,"语义层":4,"元数据":1}</script>
 
 <script>
 (function(){

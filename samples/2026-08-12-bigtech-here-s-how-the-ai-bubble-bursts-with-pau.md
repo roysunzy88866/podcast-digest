@@ -172,9 +172,9 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 
 **换个口味**
 
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:挽具 (harness)、推理 (inference)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:OpenAI · 同概念:挽具 (harness)、推理 (inference)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta · 同概念:后训练 (post-training)</span>
 
 </div>
 </div>

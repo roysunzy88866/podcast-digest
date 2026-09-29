@@ -25,7 +25,7 @@ unlisted: true
 
 [[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[智能体]] · [[人在回路]] · [[现有巨头]] · [[Robinhood]] · [[Superhuman]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"智能体":350,"人在回路":17,"现有巨头":1,"Robinhood":4,"Superhuman":5,"Stripe":39}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"智能体":353,"人在回路":17,"现有巨头":1,"Robinhood":4,"Superhuman":5,"Stripe":39}</script>
 
 <script>
 (function(){

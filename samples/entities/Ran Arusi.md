@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
+[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":350,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":151}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":353,"可教授的知识与习得的知识":1,"工作流":9,"软件工厂":7,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":152}</script>
 
 <script>
 (function(){

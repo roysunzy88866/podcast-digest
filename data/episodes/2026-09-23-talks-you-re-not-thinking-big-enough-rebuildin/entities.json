@@ -1,0 +1,473 @@
+{
+  "episode_id": "2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin",
+  "podcast": "精选演讲",
+  "date": "2026-09-23",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "数据抓取",
+    "农业科技",
+    "开源项目"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "cody-menefee",
+      "type": "person",
+      "role": "guest",
+      "name": "Cody Menefee",
+      "file": "Cody Menefee",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "firecrawl",
+      "type": "company",
+      "role": "company",
+      "name": "Firecrawl",
+      "file": "Firecrawl",
+      "primary": true,
+      "how_described": "本集说 Firecrawl 是嘉宾所在的公司,为 AI 智能体构建上下文/上下文层,提供一系列 web 数据 API,让智能体访问互联网;他用它抓取 YouTube 视频和研究论文建知识库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            36.632,
+            38.494
+          ],
+          "quote": "I'm on the growth team at Firecrawl.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            131.597,
+            135.44
+          ],
+          "quote": "But today I actually work at Firecrawl where we're building context for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            275.869,
+            278.392
+          ],
+          "quote": "And hopefully I can convince you to come work at Firecrawl.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            680.259,
+            687.243
+          ],
+          "quote": "The first one is building a knowledge base, and this is primarily what I'm working on at Firecrawl, and then an open source project I have called OpenPasture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            721.53,
+            737.868
+          ],
+          "quote": "Firecrawl is a toolkit that I use to actually collect this data, going out, scraping those YouTube videos, scraping research papers out to archive, building this knowledge base up, and OpenPasture is the actual repository I put this information in to make it available to any farmer I think that might be able to use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1045.17,
+            1047.891
+          ],
+          "quote": "And that's what we do over at Firecrawl.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1049.511,
+            1053.212
+          ],
+          "quote": "Firecrawl is where we're building the context layer for AI, and I hope you can come build it with us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1078.208,
+            1081.791
+          ],
+          "quote": "Firecrawl is where I do my day-to-day life, and these are my socials.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openpasture",
+      "type": "company",
+      "role": "company",
+      "name": "OpenPasture",
+      "file": "OpenPasture",
+      "primary": true,
+      "how_described": "本集说这是嘉宾的开源项目,一个存放从 YouTube 老农民视频和研究论文中抓取的轮牧知识的仓库,供农民使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            680.259,
+            687.243
+          ],
+          "quote": "The first one is building a knowledge base, and this is primarily what I'm working on at Firecrawl, and then an open source project I have called OpenPasture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            721.53,
+            737.868
+          ],
+          "quote": "Firecrawl is a toolkit that I use to actually collect this data, going out, scraping those YouTube videos, scraping research papers out to archive, building this knowledge base up, and OpenPasture is the actual repository I put this information in to make it available to any farmer I think that might be able to use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1076.566,
+            1078.068
+          ],
+          "quote": "OpenPasture is my open source project.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "holter",
+      "type": "company",
+      "role": "company",
+      "name": "Holter",
+      "file": "Holter",
+      "primary": true,
+      "how_described": "本集说这是一家虚拟围栏公司,获 Peter Thiel 以 20 亿美元估值投资;给动物戴连接 GPS 卫星的项圈画虚拟边界、远程移动牛群,但软硬件捆绑、不许接入你自己的软件。(原文误作 Holter)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            396.227,
+            399.408
+          ],
+          "quote": "You may have seen a company called Holter in the news recently.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nofence",
+      "type": "company",
+      "role": "company",
+      "name": "NoFence",
+      "file": "NoFence",
+      "primary": true,
+      "how_described": "本集说它是另一家虚拟围栏公司,与 Halter 同样要求用它的软件就必须买它的项圈、无法接入自己的软件,嘉宾对此强烈不满。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            403.57,
+            404.711
+          ],
+          "quote": "NoFence is another company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            794.802,
+            811.422
+          ],
+          "quote": "And then the third one is, those geofence companies, so NoFence, Halter, while I appreciate the technology they're trying to push forward, I have a pretty strong disagreement with them, which is, in order to use their software, they require you buy their callers, and you can't plug your own software into their callers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "planet",
+      "type": "company",
+      "role": "company",
+      "name": "Planet",
+      "file": "Planet",
+      "primary": false,
+      "how_described": "本集说这是一家每天以 1 米×1 米分辨率拍摄整个地球照片的公司,是嘉宾评估 pasture 监测方案时最喜欢的卫星选项,但卫星太高,有些决策需要的分辨信息仍不够。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            551.95,
+            557.813
+          ],
+          "quote": "There's a really cool company called Planet out there taking pictures of the entire globe every single day with a",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pasture-bird",
+      "type": "company",
+      "role": "company",
+      "name": "Pasture Bird",
+      "file": "Pasture Bird",
+      "primary": true,
+      "how_described": "本集说这是一家把鸡舍装上大轮子、自动化移动、每 24 小时在牧场上爬行移动一个自身宽度的公司,是让嘉宾对这个想法着迷的催化剂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            888.595,
+            890.476
+          ],
+          "quote": "This is a company called Pasture Bird.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "john-deere",
+      "type": "company",
+      "role": "company",
+      "name": "John Deere",
+      "file": "John Deere",
+      "primary": false,
+      "how_described": "本集顺带提到农民对 John Deere 和「维修权」问题存在很多敌意,以此佐证对开放项圈方案的呼吁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            851.62,
+            856.182
+          ],
+          "quote": "There's a lot of animosity towards John Deere and this sort of like right to repair.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说要把一个 LLM 放进轮牧决策循环的中心,做自主放牧:基于牛群 GPS、草高、干旱等多变量给出「下一个最佳位置」的建议、由人确认,并主张很多问题本无确定性算法可解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            596.878,
+            610.933
+          ],
+          "quote": "If we can solve this problem, along with the caller situation, I think there's a world here where we can drop an LLM in the middle of this loop and start to work on autonomous grazing operations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            610.974,
+            618.482
+          ],
+          "quote": "And so what this would mean is an LLM essentially making the next best decision on where the animal should be any given day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            820.046,
+            824.708
+          ],
+          "quote": "I would like to push GPS locations to these callers that my LLM can predict.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1001.496,
+            1026.446
+          ],
+          "quote": "And I think if we can take systems like that, these multi-data input systems, and drop an LLM in the center to actually reason over the data and at least make a suggestion that the human can confirm or deny, we can really start to scale systems like this that are very much restricted by the farmer's ability to scale their own labor, their own decision-making power, and really give them the tools that they need to grow their operations to hopefully",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说 Firecrawl 的定位是「为 AI 智能体构建上下文」,头号问题是给智能体提供它们所需的上下文——收集数据、打包并以可推理的方式呈现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            131.597,
+            135.44
+          ],
+          "quote": "But today I actually work at Firecrawl where we're building context for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1035.489,
+            1044.65
+          ],
+          "quote": "The number one problem is actually just giving the agents the context they need, gathering the data, packaging that data, and then presenting it in a way that the LLN can reason over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1049.511,
+            1053.212
+          ],
+          "quote": "Firecrawl is where we're building the context layer for AI, and I hope you can come build it with us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1061.395,
+            1070.139
+          ],
+          "quote": "We'd love to have more people trying to figure out how we get data off the web to solve some more of these complex problems and present that data as context to these AI agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rotational-grazing",
+      "type": "concept",
+      "role": "concept",
+      "name": "轮牧 (rotational grazing)",
+      "file": "轮牧",
+      "primary": true,
+      "how_described": "本集说轮牧是把牧场划成一天食物量的围场、每天移动牛群,让草轮流休养、随时间提升牧场效能,但每天挪围栏赶牛送水的劳动力是瓶颈,需要自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            356.909,
+            359.912
+          ],
+          "quote": "So the solution to that is rotational grazing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coder",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coder",
+      "file": "vibe coder",
+      "primary": true,
+      "how_described": "本集说嘉宾自称是「你们大多数人害怕的那种 vibe coder」:整天用 AI 智能体写代码、不背语法、不精通任何语言,周末照样能搞出东西,并觉得「软件工程师」头衔像冒领军功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            116.906,
+            120.949
+          ],
+          "quote": "Feels like stolen valor because I am the vibe coder most of you all are scared of.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-base",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识库 (knowledge base)",
+      "file": "知识库",
+      "primary": false,
+      "how_described": "本集说轮牧知识(何时移、为何移、怎么移)全锁在 YouTube 视频和研究论文里,需要构建知识库,这是做成自主放牧系统的三个主要阻碍之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            680.259,
+            687.243
+          ],
+          "quote": "The first one is building a knowledge base, and this is primarily what I'm working on at Firecrawl, and then an open source project I have called OpenPasture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            717.087,
+            720.85
+          ],
+          "quote": "There's a whole bunch of things that go into this, and we need to build that knowledge base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            721.53,
+            737.868
+          ],
+          "quote": "Firecrawl is a toolkit that I use to actually collect this data, going out, scraping those YouTube videos, scraping research papers out to archive, building this knowledge base up, and OpenPasture is the actual repository I put this information in to make it available to any farmer I think that might be able to use it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "right-to-repair",
+      "type": "concept",
+      "role": "concept",
+      "name": "维修权 (right to repair)",
+      "file": "维修权",
+      "primary": false,
+      "how_described": "本集顺带提到农民对 John Deere 和「维修权」问题有很多敌意,呼应他呼吁开放项圈的立场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            851.62,
+            856.182
+          ],
+          "quote": "There's a lot of animosity towards John Deere and this sort of like right to repair.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "virtual fence",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

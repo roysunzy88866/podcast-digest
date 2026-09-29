@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
+[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":5,"护栏":65,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":5,"护栏":65,"探针":3,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":1}</script>
 
 <script>
 (function(){

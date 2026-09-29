@@ -25,7 +25,7 @@ unlisted: true
 
 [[Josh Elman]] · [[Oli Forsyth]] · [[Andreessen Horowitz]] · [[ChatGPT]] · [[智能体]] · [[信任建立]] · [[微短剧]] · [[推理]] · [[网络效应]] · [[语音]]
 
-<script type="application/json" class="pd-epn">{"Josh Elman":1,"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":81,"智能体":350,"信任建立":6,"微短剧":1,"推理":59,"网络效应":13,"语音":1}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":1,"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":81,"智能体":353,"信任建立":6,"微短剧":1,"推理":60,"网络效应":13,"语音":1}</script>
 
 <script>
 (function(){

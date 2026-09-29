@@ -210,7 +210,7 @@ Flo 的回应：这就像知识产权和专利——如果你允许无成本复�
 
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆]]<span class="pd-rz">同嘉宾:Nathan · 同概念:RAG、智能体 (agent)</span>
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Slack · 同概念:上下文 (context)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-09-23-talks-building-the-document-context-layer-for|为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

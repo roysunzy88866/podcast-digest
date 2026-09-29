@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Adit Abraham]] · [[Reducto]] · [[智能体]] · [[RAG]] · [[VLM]] · [[OCR]] · [[harness]] · [[评估]] · [[嵌入模型]] · [[非结构化数据]]
+[[Adit Abraham]] · [[Reducto]] · [[智能体]] · [[RAG]] · [[VLM]] · [[OCR]] · [[harness]] · [[评估]] · [[嵌入模型]] · [[目标检测]]
 
-<script type="application/json" class="pd-epn">{"Adit Abraham":1,"Reducto":1,"智能体":350,"RAG":20,"VLM":2,"OCR":3,"harness":48,"评估":3,"嵌入模型":4,"非结构化数据":1}</script>
+<script type="application/json" class="pd-epn">{"Adit Abraham":1,"Reducto":1,"智能体":353,"RAG":21,"VLM":3,"OCR":3,"harness":49,"评估":3,"嵌入模型":4,"目标检测":2}</script>
 
 <script>
 (function(){

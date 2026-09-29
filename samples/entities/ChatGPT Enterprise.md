@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aliisa Rosenthal]] · [[go-to-market]] · [[OpenAI]] · [[Anthropic]] · [[Clay]] · [[自助服务]] · [[试点]] · [[POC]] · [[定价]] · [[基于用量的计费]]
 
-<script type="application/json" class="pd-epn">{"Aliisa Rosenthal":1,"go-to-market":12,"OpenAI":139,"Anthropic":151,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
+<script type="application/json" class="pd-epn">{"Aliisa Rosenthal":1,"go-to-market":12,"OpenAI":140,"Anthropic":152,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,118 @@
+{
+  "title_zh": "别再拿视觉语言模型干所有活：一条3、4美元的自动标注训练流水线",
+  "tldr": "Hugging Face 视觉工程师 Merve 演示用视觉语言模型自动标注+评判，训练出更小更快的目标检测模型。",
+  "digest_md": "把视觉语言模型（VLM，能同时看图和读文字的大模型）当成万能视觉方案，是很多开发者的本能——但这条路走不通。说这话的人是 Merve，在 Hugging Face 做计算机视觉工作，最近一头扎进智能体和端侧方向，甚至为视觉语言模型写过一本书。她这场演讲的核心主张是：想要实时、想要鲁棒，就该用小而专的任务模型；而 VLM 的正确用法是退到幕后，帮你标注数据、当裁判，把专用模型「喂」出来。\n\n## 为什么别直接用 VLM 干视觉活\n\nMerve 观察到的开发者通病，是拿 VLM 做所有事情。第一个硬伤是永远做不到实时——她说的实时，是指在烤面包机这样的低端设备上也能跑 30、40 FPS，不管你做的是图像分类还是实例分割。第二个硬伤是精度：只要你认真训练一个 RFDETR 这样的专用检测模型，它总是会胜过视觉语言模型，她在现场展示了这一点 [01:15 Merve]。\n\n还有一个更实际的坑：开发者不读许可证。每次她发目标检测相关的内容，总有人问 YOLO——YOLO 确实是好模型，但它是 AGPL 3.0 许可证，她敢打赌有开发者根本不知道商用要付费就直接部署了。所以她今天想劝所有人迁移到 Apache 2.0 许可证的模型 [02:02 Merve]。\n\n## 她造了个叫 VibeVision 的工具包\n\n灵感来自一个社区帖子：有人把 SAM 3.1 模型作为工具交给 Gemma 4 去调用。Merve 把这个思路扩展成一个工具包，包含两部分：一是把她偏好的视觉模型打包成工具给编码智能体用，二是一条「vibe 训练」流水线——这是她讲的重头。\n\n流水线的逻辑是：只有图像、没有标注时，先用一个视觉语言模型当标注器，再用两个视觉语言模型当裁判筛标注质量，最后训练你要的专用模型。具体做法：随便拿一个图像数据集，用 QN 3.5（约 8B 的 VLM）标注出边界框；然后把标注结果交给两个裁判——Gemma4E4B 和接近 2B 的 LFM 2.5 VL。她查过研究，用一组较小裁判的集成效果更好。两个裁判的裁定按「最小一致」合并（只要一个说行就保留），最后拿去训练 RFDETR medium 或 large [05:50 Merve]。\n\n这里有个关键技巧：QN 输出的边界框本质上是 token，但她不把 token 传给裁判，而是把边界框直接叠加画在图上，连同标签描述一起传给裁判，让裁判看着图判断「这个框标得对不对」。而那些标签描述本身也是编码智能体生成的，人只需要批准一下 [07:18 Merve]。\n\n## 成本和效果\n\n整条流水线跑下来只要大约三、四美元——标注用 DeepInfra 的无服务器接口（便宜到离谱），评判用 Hugging Face Jobs，训练用一块 L4（RFDETR 模型非常小，甚至可以本地跑）[08:47 Merve]。\n\n效果在两个问题上验证。路牌检测：数据集有真实标注可以对比，训练出的模型 mean average precision（检测精度的标准指标）超过 50，和伪标注比有一点差距，但可以预期，因为它就是从 QN 学的。文档解析：用 DocVQA 数据集提取图像、表格、签名，这是个新任务，结果模型不仅学会了，还泛化得很好——训练后的模型检测到了签名，而 QN 对同一测试集的标注反而漏掉了。她把这归功于 RFDETR 作为骨干网络本身够强 [10:52 Merve]。\n\n## 三个坑\n\n**裁判的平衡问题**。LFM 倾向于大量拒绝。如果按「共识」剔除两个裁判都否掉的样本，剩下的样本会少到泛化极差，所以她改成「最小一致」：只要一个裁判说行就保留。但如果你的数据集大、且在意召回率，她建议反过来取共识，或者人工观察 [11:40 Merve]。\n\n**提示词必须人审**。裁判用的提示词由模型生成，但这是全流程唯一必须人类点头的环节——你还是得看一眼你的数据集，这逃不掉 [12:21 Merve]。\n\n**编码智能体是个毫无头绪的计算机视觉工程师**。哪怕好如 Opus 4.8，它也会对交通标志做水平翻转、对红绿灯做抖动（数据增强的常见手段）——这肯定会毁掉你的数据集，因为翻转后的「停止」标志已经不是真实世界的标志了。她后来加了开关，可以明确告诉智能体做不做数据增强 [13:06 Merve]。\n\n## 工具包另一半：模型即工具\n\n工具包里是她从深度估计到零样本分割（不给训练样本、直接用自然语言指哪分割哪）的私藏模型清单，依据三条选型标准：许可证优先（必须 Apache 2.0 或 MIT）、性能达标、最后才是 vibes。选型靠 Hugging Face 几个月前上线的基准排行榜加上她自己读 CV 会议论文 [13:30 Merve]。\n\n她特别安利了一个冷门模型：大部分模型做不了开放式指代分割——「分割这辆红车」可以，但「分割蓝色车旁边那辆橙色车旁边的红车」就做不到。TII 出的 Falcon Perception 能做到，而且只有约 6 亿参数、Apache 2.0 许可证。其他推荐：姿态任务用 sapiens 系列；零样本检测用 Moondream 3 和更小的 MM Grounding Dyno；OCR 从基准榜按大小选。整套还带 RoboFlow 的 supervision 和 tracker 库，可做实例和边界框跟踪 [14:38 Merve]。\n\n## 下一步\n\n工业场景的部件往往「不可描述」——自然语言不是好入口。她认为图像引导检测（给一张示例图，让模型在所有图像里找同类物体）可能是出路。另外她想试交并比合并：不让裁判做接受/拒绝的二选一，而是让裁判自己生成框、取交并比。分割支持也在做。至于训练 VLM 本身实现自我改进？她说那很令人兴奋，但得先解决开发者训练任务专用模型并部署到边缘这件事 [16:01 Merve]。\n\n> 【背景】交并比即 IoU，是目标检测中衡量两个边界框重叠程度的常用指标。\n\n## 本集带走\n\n- **VLM 当标注器+裁判，专用模型干活**：想实时、想小模型部署，别直接上 VLM；用大 VLM 标注、小 VLM 集成当裁判，最后训练 RFDETR 这类小模型。\n- **裁判合并取「最小一致」而非共识**：小裁判爱拒绝，取共识会把你数据剔光；数据集大且在意召回时再考虑共识。\n- **把边界框画在图上给裁判看**，别传坐标 token——直观且更准。\n- **盯住编码智能体的数据增强**：水平翻转交通标志、抖动红绿灯这类操作会悄悄毁掉数据集，要么关掉要么人审。\n- **先查许可证再选模型**：YOLO 是 AGPL 3.0，商用要付费；优先 Apache 2.0 / MIT。\n- **整条流水线成本约 3-4 美元**：标注走便宜的无服务器接口，评判和训练用按次作业即可。\n- **冷门宝藏 Falcon Perception**：6 亿参数就能做复杂指代的零样本分割。",
+  "quotes": [
+    {
+      "en": "they try to use vision language models for everything, but you will never get real time.",
+      "zh": "他们试图用视觉语言模型做所有事情，但你永远无法做到实时。",
+      "timestamp": "01:08",
+      "speaker": "Merve Noyan"
+    },
+    {
+      "en": "most of the people ask the VLM or LLM to assign some score to it, but those scores absolutely don't work, especially if your models are of different size with judges.",
+      "zh": "大多数人让 VLM 或 LLM 给标注打一个分数，但这些分数完全不管用，尤其是当你的模型和裁判规模不同的时候。",
+      "timestamp": "06:28",
+      "speaker": "Merve Noyan"
+    },
+    {
+      "en": "overall it takes like three, four dollars if you want to run this entire pipeline to train models which to me is crazy.",
+      "zh": "总体上如果你想跑这整条流水线来训练模型，大概要三、四美元，这对我来说太疯狂了。",
+      "timestamp": "08:54",
+      "speaker": "Merve Noyan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:05",
+      "speaker": "Merve",
+      "en": "they try to use vision language models for everything, but you will never get real time.",
+      "zh": "他们试图用视觉语言模型做所有事情，但你永远无法做到实时。"
+    },
+    {
+      "timestamp": "01:29",
+      "speaker": "Merve",
+      "en": "if you were to train like an RFDETR which Joseph spoke about in the first talk, it will always outperform your vision language model.",
+      "zh": "如果你认真训练一个 RFDETR，就是 Joseph 在第一场演讲中谈到的那个，它总是会胜过你的视觉语言模型。"
+    },
+    {
+      "timestamp": "02:08",
+      "speaker": "Merve",
+      "en": "I could swear on my life that there is some developers that actually deploy it without knowing that they have to pay for it.",
+      "zh": "我可以用我的性命发誓，确实有一些开发者在不知道必须付费的情况下就部署了它。"
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Merve",
+      "en": "So yeah, like I want you to migrate to Apache 2.0 models today.",
+      "zh": "所以是的，我希望你们今天就迁移到 Apache 2.0 模型。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Merve",
+      "en": "your coding agent is a bit of a clueless computer vision engineer basically.",
+      "zh": "你的编码智能体基本上是一个有点摸不着头脑的计算机视觉工程师。"
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Merve",
+      "en": "And smaller yet more capable vision models enable you to label stuff very cheaply.",
+      "zh": "而更小但更强大的视觉模型让你能够非常便宜地标注数据。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Merve",
+      "en": "most of the people ask the VLM or LLM to assign some score to it, but those scores absolutely don't work, especially if your models are of different size with judges.",
+      "zh": "大多数人让 VLM 或 LLM 给标注打一个分数，但这些分数完全不管用，尤其是当你的模型和裁判规模不同的时候。"
+    },
+    {
+      "timestamp": "08:47",
+      "speaker": "Merve",
+      "en": "overall it takes like three, four dollars if you want to run this entire pipeline to train models which to me is crazy.",
+      "zh": "总体上如果你想跑这整条流水线来训练模型，大概要三、四美元，这对我来说太疯狂了。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Merve",
+      "en": "And for the document parsing, it actually generalizes, which to me is crazy.",
+      "zh": "而对于文档解析，它实际上能泛化，这对我来说太疯狂了。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Merve",
+      "en": "But we owe this to how good RFDTR is as a backbone in a way.",
+      "zh": "但在某种程度上，我们要把这归功于 RFDTR 作为骨干网络有多出色。"
+    },
+    {
+      "timestamp": "12:45",
+      "speaker": "Merve",
+      "en": "because you need to still take a look at it, take a look at your data set a little, there's no escaping that.",
+      "zh": "因为你仍然需要看一眼，稍微看一看你的数据集，这是逃不掉的。"
+    },
+    {
+      "timestamp": "13:06",
+      "speaker": "Merve",
+      "en": "For instance, it was doing horizontal flip over the traffic signs or it was doing jitter over the traffic lights which will definitely corrupt your data sets and break it.",
+      "zh": "比如说，它会对交通标志做水平翻转，或者对红绿灯做抖动，这肯定会损坏你的数据集并把它搞坏。"
+    },
+    {
+      "timestamp": "14:38",
+      "speaker": "Merve",
+      "en": "And Falcon Perception, which is a model by TII, can actually do it, and it's only like 600 million parameters with Apache 2.0 license.",
+      "zh": "而 Falcon Perception，TII 出的一个模型，实际上可以做到，而且它只有大约 6 亿参数，采用 Apache 2.0 许可证。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Merve",
+      "en": "So I think in that sense, image-guided detection could help.",
+      "zh": "所以我认为从这个意义上说，图像引导检测可能会有所帮助。"
+    },
+    {
+      "timestamp": "18:16",
+      "speaker": "Merve",
+      "en": "That would be super exciting, but first I want to solve this thing of developers actually training task-specific models and then deploying on Edge, and then that could come perhaps.",
+      "zh": "那会非常令人兴奋，但首先我想解决开发者实际训练任务专用模型然后部署到边缘端的问题，之后那个也许可以再来。"
+    }
+  ],
+  "voice_script": "今天想给你讲一个人，还有她做的一件挺实用的事。这个人叫 Merve，在 Hugging Face 做计算机视觉方面的工作，最近一头扎进智能体和端侧方向，甚至为视觉语言模型写过一本书。她这一场演讲想回答的问题很常见：很多开发者现在手里拿着视觉语言模型——就是那种能同时看图和读文字的大模型——就想着，干脆拿它干所有的视觉活儿算了。Merve 的回答是：这条路走不通，正确的方式是让它退到幕后。这场演讲，讲的就是怎么让它退到幕后，还顺手把成本压到了三四美元。\n\n先说她为什么反对直接拿视觉语言模型干活。第一个硬伤是实时性。她说的实时，标准很狠——在烤面包机那样的低端设备上也能跑到 30、40 FPS，也就是每秒三四十帧，不管你做的是图像分类还是实例分割。视觉语言模型做不到这一点。第二个硬伤是精度。只要你认真训练一个专用检测模型，比如 RFDETR 这样的，它总是会胜过视觉语言模型，她在现场还专门演示了这一点。所以她的核心主张很清楚：想要实时、想要鲁棒，就该用小而专的任务模型。那大模型干嘛？让它去标注数据、当裁判，把专用模型喂出来。\n\n顺着这个思路，她就真做了一个工具包，名字叫 VibeVision。灵感来自社区里的一个帖子：有人把 SAM 3.1 这个模型当成工具，交给编码智能体去调用。Merve 把这个思路扩展开来，包里有两个部分，一半是把私藏的视觉模型打包成工具给编码智能体用，另一半是她讲的重头——一条训练流水线。\n\n这条流水线的逻辑是这样的。假设你手里只有一堆图像，没有标注。第一步，找一个视觉语言模型当标注器——她用的是 QN 3.5，大概 8B 的规模，让它标出边界框，就是图里框住目标的那种框。第二步，再找两个视觉语言模型当裁判，检查标注质量——她用的是 Gemma 4E 4B 和一个接近 2B 的 LFM 2.5。为什么用两个？她查过研究，用一组较小的裁判做集成，效果反而更好。第三步，把筛出来的标注拿去训练 RFDETR，要 medium 就 medium，要 large 就 large。\n\n这里有个关键技巧，值得单独说。QN 输出的边界框本质上是 token，但 Merve 不把 token 直接传给裁判，而是把边界框画在图上，连同标签描述一起传过去，让裁判看着图判断这个框标得对不对。为什么这么做？因为那些单纯的坐标数字，裁判判断起来完全不管用，尤其是模型和裁判规模不一样的时候。而那些标签描述，本身也是编码智能体生成的，人只需要批准一下。\n\n那整条流水线跑下来多少钱？大概三四美元。标注用的是 DeepInfra 的无服务器接口，便宜到离谱；评判用 Hugging Face 的 Jobs 按次跑；训练用一块 L4，因为 RFDETR 本身非常小，甚至能本地跑。她自己都说，三四美元能训练一个模型，这太疯狂了。\n\n效果在两个问题上验证过。第一个是路牌检测，这个数据集有真实标注可以对比，训练出的模型检测精度超过 50，和真实标注比有一点差距，但这在预期之内，因为它毕竟是从 QN 学出来的。第二个更有意思，是文档解析：用 DocVQA 数据集提取图像、表格和签名，这是模型从没见过的新任务。结果不但学会了，还泛化得很好——训练后的模型检测到了签名，而 QN 对同一个测试集的标注反而漏掉了。原因大概得归功于 RFDETR 这个骨干网络本身够强。\n\n当然，路上也有坑，她踩了三个。第一个是裁判的平衡问题：那个 2B 的小裁判 LFM 特别爱拒绝。如果按共识来剔样本——两个裁判都说不行才剔除——剩下的样本会少到泛化极差。所以她反过来，改成最小一致：只要有一个裁判说行就保留。但如果你数据集很大、又特别在意召回率，她建议还是取共识，或者人工看一眼。第二个坑是提示词必须人审。裁判用的提示词是模型生成的，但这是整个流程里唯一必须人类点头的环节，你还是得看一眼自己的数据集，这逃不掉。第三个坑最有画面感：编码智能体就像一个毫无头绪的计算机视觉工程师。哪怕好如 Opus，它也会对交通标志做水平翻转、对红绿灯做颜色抖动——这些是数据增强的常见手段，但翻转之后的停止标志，已经不是真实世界里存在的标志了，你的数据集就这么被悄悄毁掉。所以她后来加了个开关，明确告诉智能体做不做数据增强。\n\n工具包的另一半也值得一提，是她的私藏模型清单，从深度估计到零样本分割——零样本分割就是不给训练样本，直接用自然语言指哪分割哪。选型标准有三条，顺序不能乱：许可证优先，必须是 Apache 2.0 或 MIT；然后性能达标；最后才是感觉。这里得插一句她特别强调的事：开发者真的不读许可证。她每次发目标检测的内容，总有人问 YOLO。YOLO 确实是好模型，但它是 AGPL 3.0 许可证，商用是要付费的，她敢打赌有人不知道这一点就直接部署上线了。清单里她还安利了一个冷门宝藏：大部分模型做不了开放式指代分割——分割这辆红车可以，但分割蓝色车旁边那辆橙色车旁边的红车，就做不到。而 TII 出的 Falcon Perception 能做到，参数才 6 亿左右，还是 Apache 2.0。其他推荐还有姿态任务用 sapiens 系列，零样本检测用 Moondream 3，OCR 按大小从基准榜里选。\n\n下一步她想做几件事：工业场景里很多部件没法用语言描述，图像引导检测可能是出路；还有让裁判自己生成框、按交并比来合并——交并比就是衡量两个框重叠程度的指标。至于训练视觉语言模型本身、实现自我改进？她说那很令人兴奋，但得先把今天这件事解决好。\n\n所以这一集带走一句话就够了：别让大模型冲在第一线干活，让它当标注器和裁判，把活儿真正交给又小又快的专用模型——而现在，这条流水线的全部成本，就是一杯咖啡的钱。"
+}

@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ClaudeMD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ClaudeMD">CL</div><div class="pi"><h1 class="pt">ClaudeMD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ClaudeMD">CL</div><div class="pi"><h1 class="pt">ClaudeMD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(10:20起):本集说 ClaudeMD 是一个特殊文件名的 markdown 文件，放在项目根目录每次启动自动读入上下文，里面写常见 bash 命令、架构决策、风格指南等，分项目级、本地级、嵌套目录级三层
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(08:58起):本集提到 Daniel 做了大量研究来设置 ClaudeMD 和上下文文件的结构
+- **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(27:35起):本集说在极限情况下 ClaudeMD 会消失,现在不开 ClaudeMD 起新项目可能更好——失败模式清单随模型版本过时会过度约束模型。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为概念(提及)
+- [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude Code]] · [[智能体]] · [[Boris]] · [[Daniel Blum]] · [[Anthropic]] · [[Claire Vo]] · [[MCP]] · [[Co-work]] · [[SDK]] · [[Codex]]
+[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[Boris]] · [[Daniel Blum]] · [[Thariq Shihipar]] · [[MCP]] · [[Claire Vo]] · [[Cloud Code]] · [[SDK]]
 
-<script type="application/json" class="pd-epn">{"Claude Code":83,"智能体":350,"Boris":1,"Daniel Blum":1,"Anthropic":151,"Claire Vo":5,"MCP":64,"Co-work":4,"SDK":1,"Codex":61}</script>
+<script type="application/json" class="pd-epn">{"智能体":353,"Anthropic":152,"Claude Code":84,"Boris":1,"Daniel Blum":1,"Thariq Shihipar":2,"MCP":64,"Claire Vo":5,"Cloud Code":4,"SDK":1}</script>
 
 <script>
 (function(){

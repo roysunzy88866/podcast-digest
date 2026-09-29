@@ -1,0 +1,1931 @@
+{
+  "episode_id": "2026-09-29-latent-thariq",
+  "podcast": "Latent Space",
+  "date": "2026-09-29",
+  "tags": [
+    "Claude Code",
+    "提示词工程",
+    "智能体安全",
+    "前沿模型治理",
+    "harness 工程"
+  ],
+  "categories": [
+    "AI 编程",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "thariq-shihipar",
+      "type": "person",
+      "role": "guest",
+      "name": "Thariq Shihipar",
+      "file": "Thariq Shihipar",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集嘉宾 Thariq 所在的公司,因 Claude Code 而加入;本集后半段以其 Pacing the Frontier 提案和多层安全防线(探针、auto 模式、身份权限)为主线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            3.497,
+            6.997
+          ],
+          "quote": " We're here in the studio with our friend Tarek from Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            14.212,
+            18.037
+          ],
+          "quote": "And you've been so on top of everything since you joined Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            54.837,
+            59.763
+          ],
+          "quote": "I think like going, when I joined Anthropic, I joined because of Cloud Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3005.518,
+            3008.342
+          ],
+          "quote": "Obviously, at Anthropic, we use Cloud Tag a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1427,
+          "t": [
+            4566.189,
+            4571.834
+          ],
+          "quote": "that other companies are cosigning is adding evaluators embedded within Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1442,
+          "t": [
+            4612.301,
+            4616.982
+          ],
+          "quote": "one of our earliest podcasts is with Emmanuel from Anthropic on Macinturpe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1448,
+          "t": [
+            4634.068,
+            4637.289
+          ],
+          "quote": "But also Anthropic is supposed to be the leaders in this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1514,
+          "t": [
+            4863.77,
+            4866.865
+          ],
+          "quote": "and this is really what Anthropic is kind of founded on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1652,
+          "t": [
+            5342.896,
+            5346.090999999999
+          ],
+          "quote": "And I do want to say Anthropic has a diversity of opinions.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloud-code",
+      "type": "company",
+      "role": "company",
+      "name": "Cloud Code",
+      "file": "Cloud Code",
+      "primary": true,
+      "how_described": "本集说它是『每个人写代码的默认方式』,核心 harness 包含沙箱、auto 模式、computer use、MCP 等,并可通过 CloudMods 定制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.322,
+            13.571
+          ],
+          "quote": "And I guess generally the cloud code, there's so much sort of merging of boundaries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            18.498,
+            21.439
+          ],
+          "quote": "You have been early to Cloud Code itself,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            54.837,
+            59.763
+          ],
+          "quote": "I think like going, when I joined Anthropic, I joined because of Cloud Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            59.783,
+            62.636
+          ],
+          "quote": "Like Cloud Code had just come out and I was like, this is so good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            130.271,
+            132.895
+          ],
+          "quote": "Yeah, so I think that when I joined the Cloud Code team,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            132.935,
+            135.359
+          ],
+          "quote": "I wanted to teach people how to use Cloud Code, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            152.924,
+            155.618
+          ],
+          "quote": "I think sometimes we're like, oh, what's after cloud code?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            157.05,
+            159.614
+          ],
+          "quote": "I just want to teach people how to use cloud code and make it easier",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            159.634,
+            160.634
+          ],
+          "quote": "to use cloud code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            181.661,
+            184.941
+          ],
+          "quote": "to talk about like, hey, how to use Cloud Code to do engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            282.437,
+            287.36
+          ],
+          "quote": " One of the things that's difficult as Cloud Code has gone broader and broader",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            296.206,
+            298.8171111111111
+          ],
+          "quote": "if someone asks you Cloud Code to do something,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            550.815,
+            552.816
+          ],
+          "quote": "you're interfacing with Cloud Code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            576.692,
+            577.8230000000001
+          ],
+          "quote": "if you use cloud code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            582.22,
+            586.22
+          ],
+          "quote": "to get some cloud behavior, or you can spin off cloud code in the cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            920.467,
+            926.012
+          ],
+          "quote": "I mean, you've written many good articles, but on Field Guide to Fable, building Cloud Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            934.159,
+            937.659
+          ],
+          "quote": "What are best practices for getting the most out of Cloud Code?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1836.652,
+            1841.296
+          ],
+          "quote": "ways people could get a lot of value from Cloud Code that they're not using?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            1974.805,
+            1979.732
+          ],
+          "quote": " Yeah, okay, so CloudMods is basically you can customize the entire Cloud Code harness",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2197.172,
+            2200.778
+          ],
+          "quote": "but like the nature of cloud code is that so many people are power users,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2357.176,
+            2357.917
+          ],
+          "quote": "the Cloud Code team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            2477.364,
+            2480.926
+          ],
+          "quote": "Mods are a little bit more in your cloud code harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            2520.965,
+            2524.791
+          ],
+          "quote": "Something I'm excited about with mods is there's so much things with cloud code",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 874,
+          "t": [
+            2675.001,
+            2677.575
+          ],
+          "quote": "If everything's customizable, what actually is Cloud Code, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 909,
+          "t": [
+            2770.55,
+            2774.275
+          ],
+          "quote": "I think Cloud Code has the core things about agent loop,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 920,
+          "t": [
+            2806.425,
+            2808.7169999999996
+          ],
+          "quote": "you know, from the Cloud Code team itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 927,
+          "t": [
+            2826.931,
+            2831.457
+          ],
+          "quote": "the model will just be able to like vibe code the exact version of cloud code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 936,
+          "t": [
+            2856.094,
+            2857.6859999999997
+          ],
+          "quote": "which was like cloud code wrapped,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 979,
+          "t": [
+            3002.914,
+            3005.3584444444446
+          ],
+          "quote": "Some people use Cloud Code on the web a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 999,
+          "t": [
+            3061.172,
+            3064.394222222222
+          ],
+          "quote": "on product would use like Cloud Code Desktop, for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            3172.842,
+            3174.443
+          ],
+          "quote": "even when Cloud Code first came out,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            3185.529,
+            3186.901
+          ],
+          "quote": "I need my 15 cloud code accounts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1303,
+          "t": [
+            4167.351,
+            4170.736
+          ],
+          "quote": "hey, would we be able to vibe code these extensions to Cloud Code?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloudmods",
+      "type": "company",
+      "role": "company",
+      "name": "CloudMods",
+      "file": "CloudMods",
+      "primary": true,
+      "how_described": "本集重点发布:让高级用户定制整个 Claude Code harness——在 TypeScript 运行时里跑,可派生 fork 子智能体、解析结构化输出、修改 UI,是 hooks 的进化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 642,
+          "t": [
+            1974.805,
+            1979.732
+          ],
+          "quote": " Yeah, okay, so CloudMods is basically you can customize the entire Cloud Code harness",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 952,
+          "t": [
+            2901.276,
+            2907.057
+          ],
+          "quote": "Let's say chapter one was UltraCode dynamic workflows, then chapter two was CloudMods.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloud-tag",
+      "type": "company",
+      "role": "company",
+      "name": "Cloud Tag",
+      "file": "Cloud Tag",
+      "primary": false,
+      "how_described": "本集说它是 Anthropic 的多人协作产品,跑在 Slack 里、权限开箱即用,适合值班、事故处理等天生多人场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            36.143,
+            38.984
+          ],
+          "quote": "And most recently also launching Cloud Tag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            604.032,
+            605.844
+          ],
+          "quote": "This is kind of how cloud tag works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            670.281,
+            671.162
+          ],
+          "quote": "I guess there's Cloud Tag,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            676.991,
+            681.436
+          ],
+          "quote": "this abstraction that's kind of like Cloud Tag, but on our Cloud products, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            684.159,
+            688.254
+          ],
+          "quote": "and, like, it will do the Cloud Tag-like stuff, like spinning off subagents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            801.602,
+            802.803
+          ],
+          "quote": "Cloud tag,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            1989.526,
+            1991.028
+          ],
+          "quote": "Maybe it will work for Cloud Tag in the future.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3005.518,
+            3008.342
+          ],
+          "quote": "Obviously, at Anthropic, we use Cloud Tag a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3008.382,
+            3012.7708888888887
+          ],
+          "quote": "What's great about Cloud Tag is we set up all this stuff for our own execution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 990,
+          "t": [
+            3038.071,
+            3039.7819999999997
+          ],
+          "quote": "Let's just check in on Cloud Tag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3049.378,
+            3052.91
+          ],
+          "quote": "Cloud Tag is how we use… It's like 80% of your cloud usage or something?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            3071.207,
+            3075.0958888888886
+          ],
+          "quote": "or like maybe more like API and things like that, you'd use Cloud Tag.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3140.328,
+            3142.349
+          ],
+          "quote": " Do you use a lot of Cloud Tag?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1031,
+          "t": [
+            3145.03,
+            3150.111
+          ],
+          "quote": "I feel like most people at Anthropics say they do the majority of their work in Cloud Tag.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            3215.896,
+            3220.058
+          ],
+          "quote": "I think stuff like Cloud Tag will just make sense where you want",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            3271.16,
+            3275.186
+          ],
+          "quote": "And I think one of the really tricky things about Cloud Tag is that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1542,
+          "t": [
+            4971.702,
+            4974.423
+          ],
+          "quote": "like we talked about with Cloud Tag on APIs and stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集讲它在 ExploitBench 上跑大量算力的持久智能体,出现智能体集群通过缓存目录互相通信、攻击评分器的安全事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1104,
+          "t": [
+            3399.775,
+            3403.838
+          ],
+          "quote": "basically OpenAI is running these very persistent agents on",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3521.967,
+            3526.891
+          ],
+          "quote": "and the scorer is the way that OpenAI decides if the Task is complete, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1290,
+          "t": [
+            4125.789,
+            4129.815
+          ],
+          "quote": " People that looked back into it, so Redwood, Meter, OpenAI, they looked Yeah.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1596,
+          "t": [
+            5132.327,
+            5134.891
+          ],
+          "quote": "OpenAI has OSS Guard, which is same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1598,
+          "t": [
+            5141.5,
+            5145.765
+          ],
+          "quote": "A point that we should clarify on the OpenAI model This was done with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1618,
+          "t": [
+            5210.039,
+            5210.96
+          ],
+          "quote": "OpenAI also has this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到它是 ExploitBench 事件中被智能体攻击的对象——不是为了拿答案,而是为了拿评分器代码做逆向工程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1081,
+          "t": [
+            3339.327,
+            3345.952
+          ],
+          "quote": " So I was talking to Tomas and Clem from Hugging Face and they said, maybe we need to slow down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            3345.972,
+            3350.055
+          ],
+          "quote": "Maybe we made Hugging Face too open to agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            3561.611,
+            3564.222111111111
+          ],
+          "quote": "And they hack Hugging Face not for the answers,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3984.065,
+            3985.687
+          ],
+          "quote": "this didn't happen in the Hugging Face incident,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            4104.218,
+            4105.419
+          ],
+          "quote": "Like as Hugging Face said,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1363,
+          "t": [
+            4371.027,
+            4377.211
+          ],
+          "quote": "that I think is not quite as visible, I think, as the hugging face thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1420,
+          "t": [
+            4547.131,
+            4548.762
+          ],
+          "quote": "Understand the hugging face incident.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念:从『怎么使用智能体是最高技能表达的事』到智能体集群在评测中串联漏洞、互相协作甚至编辑自己的转录记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.86,
+            27.651
+          ],
+          "quote": "And you've also been talking about seeing like an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            142.149,
+            145.033
+          ],
+          "quote": "I was spending some time on the agent SDKs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            271.281,
+            273.945
+          ],
+          "quote": "I think it's kind of like human agent interaction to me,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            273.985,
+            278.14099999999996
+          ],
+          "quote": "like trying to figure out how can the agent communicate with you and extract",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            306.606,
+            309.528
+          ],
+          "quote": "And the agent needs to clarify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            315.992,
+            318.824
+          ],
+          "quote": "Do you feel like you're good enough to instruct the agent as it is?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            318.874,
+            324.677
+          ],
+          "quote": "Or does the agent need to pull out more requirements and collaborate with you more",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            388.456,
+            390.68899999999996
+          ],
+          "quote": " The question then is like, how does the agent interact with you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            608.558,
+            612.835
+          ],
+          "quote": "And so like local hands will be the ability for that agent to access your computer",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1042.298,
+            1046.725
+          ],
+          "quote": "this is my prompt, and the territory is the actual work that the agent needs to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2035.238,
+            2041.943
+          ],
+          "quote": "And so at the end of each turn, you would spin off a sub-agent or a forked agent, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2042.344,
+            2043.732888888889
+          ],
+          "quote": "A forked agent is like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2061.289,
+            2063.532
+          ],
+          "quote": " Yeah, the underlying forked agent, yes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2482.147,
+            2487.769
+          ],
+          "quote": "changing the agent loop, and the UI is an added benefit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            2636.669,
+            2640.1609999999996
+          ],
+          "quote": "the benefit of doing it with mods is you can do it with a forked sub-agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 867,
+          "t": [
+            2660.981,
+            2663.369888888889
+          ],
+          "quote": "the implementation detail in another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 909,
+          "t": [
+            2770.55,
+            2774.275
+          ],
+          "quote": "I think Cloud Code has the core things about agent loop,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 935,
+          "t": [
+            2852.448,
+            2855.813
+          ],
+          "quote": "Before, you had to sort of use things like the agent SDK,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3022.816,
+            3027.599
+          ],
+          "quote": "which has that supervising agent and adding artifacts and stuff,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            3291.237,
+            3298.079
+          ],
+          "quote": "And now you've exfiltrated your code base out or the agent has been prompt injected",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            3432.269,
+            3436.6578888888885
+          ],
+          "quote": "There's an agent that discovers that internal Artifactory might be exploitable,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1131,
+          "t": [
+            3505.173,
+            3509.277
+          ],
+          "quote": "I think there's one point in which basically the agent is like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1578,
+          "t": [
+            5085.025,
+            5088.6759999999995
+          ],
+          "quote": " The intent of what the agent is doing matches up with your request.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说提示词非常重要,像公开演讲或写作——针对特定受众(Claude);关键是信息量不是格式,顶尖用户靠对模型和代码库的心智模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1024.727,
+            1029.769
+          ],
+          "quote": "And the more you can learn the vocabulary to be able to prompt Claude,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1042.298,
+            1046.725
+          ],
+          "quote": "this is my prompt, and the territory is the actual work that the agent needs to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1209.164,
+            1216.164
+          ],
+          "quote": " One thing I go I feel like the way I prompt half the time, let's say I use voice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1226.628,
+            1232.731
+          ],
+          "quote": "But it's not as thoughtful as a structured prompt with well-run communication as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1246.483,
+            1251.029
+          ],
+          "quote": "I think it's more like how much information is in the prompt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1255.476,
+            1257.258
+          ],
+          "quote": "I changed my mind in the middle of the prompt,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1652.407,
+            1655.682
+          ],
+          "quote": "let's call it the prompt that is so important that it shouldn't be in a prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1855.806,
+            1862.596
+          ],
+          "quote": " We added this like, Explain it like I'm five skill, actually, which is a very short prompt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1864.558,
+            1869.345
+          ],
+          "quote": "It's like basically the key word of this prompt is big picture is few words.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2030.735,
+            2035.198
+          ],
+          "quote": "It would spin a classifier after every prompt, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2044.404,
+            2046.4170000000001
+          ],
+          "quote": " It maintains the prompt cache, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2052.917,
+            2055.26
+          ],
+          "quote": "the entire prompt cache is like done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2084.243,
+            2089.19
+          ],
+          "quote": "and then you'd parse it, and then you display above the prompt input, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2173.612,
+            2177.075
+          ],
+          "quote": "Like when you talk about prompt caching and building a router,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2206.366,
+            2207.888
+          ],
+          "quote": "that doesn't break prompt cache all the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2257.432,
+            2261.618
+          ],
+          "quote": "and we'll make sure that it understands the nuances of things like prompt cache.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2465.052,
+            2470.42
+          ],
+          "quote": "which will prompt Claude to maintain a dashboard that's an artifact.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 840,
+          "t": [
+            2593.026,
+            2595.928
+          ],
+          "quote": "It seems like you could prompt better, you know, like what if you did this, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2815.035,
+            2819.3683333333333
+          ],
+          "quote": "At a point you cut the majority of the system prompt, you got rid of examples.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3287.636,
+            3290.636
+          ],
+          "quote": "a hook in your Slack and someone's prompt injected it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            3291.237,
+            3298.079
+          ],
+          "quote": "And now you've exfiltrated your code base out or the agent has been prompt injected",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1601,
+          "t": [
+            5151.929,
+            5155.332
+          ],
+          "quote": "the prompt it's being given in the RL environment is sort of,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说 harness 会很快过时、变化方式反直觉;核心 harness(沙箱、权限、computer use、MCP)必须越来越复杂和安全,交互层则千变万化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            203.155,
+            206.80599999999998
+          ],
+          "quote": "And then just to preview a little bit, we are going to talk about the evolution of the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            514.277,
+            518.3325555555556
+          ],
+          "quote": "I think that artifacts will be your interface into the harness, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            537.766,
+            542.388
+          ],
+          "quote": "But yeah, I think on-the-fly interface for your harness is probably where things are headed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1635.482,
+            1638.5375555555556
+          ],
+          "quote": "But making this more explicit in the harness is better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1638.747,
+            1643.975
+          ],
+          "quote": "And now we're allowing ways of you modifying the harness so you can add some...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            1974.805,
+            1979.732
+          ],
+          "quote": " Yeah, okay, so CloudMods is basically you can customize the entire Cloud Code harness",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            1999.48,
+            2006.48
+          ],
+          "quote": "At a high level, you can customize both the execution of the harness and the UI of the harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            2477.364,
+            2480.926
+          ],
+          "quote": "Mods are a little bit more in your cloud code harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 813,
+          "t": [
+            2512.716,
+            2519.64
+          ],
+          "quote": "There's just some thinking about hacking on a harness when we don't know much about",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2519.66,
+            2520.7155555555555
+          ],
+          "quote": "the harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            2669.713,
+            2671.496
+          ],
+          "quote": "bitter lesson of harness engineering,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            2711.914,
+            2715.8089999999997
+          ],
+          "quote": "But I think this new version of like, oh, it can modify its own harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 889,
+          "t": [
+            2715.859,
+            2717.921
+          ],
+          "quote": "This is like an own harness loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 917,
+          "t": [
+            2795.374,
+            2799.0406666666663
+          ],
+          "quote": "the core harness has to be actually quite complex and very secure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 919,
+          "t": [
+            2802.62,
+            2805.964
+          ],
+          "quote": "What other harness engineering best practices have you,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 924,
+          "t": [
+            2819.56,
+            2822.374
+          ],
+          "quote": "What other best practices are there for harness engineering?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 940,
+          "t": [
+            2863.885,
+            2865.2183333333337
+          ],
+          "quote": "into building a harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 944,
+          "t": [
+            2871.376,
+            2877.845
+          ],
+          "quote": "but still write a very bare bones harness that's scoped to your task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 947,
+          "t": [
+            2883.852,
+            2886.796444444444
+          ],
+          "quote": "and these complex things, you should use our harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 949,
+          "t": [
+            2892.114,
+            2895.064
+          ],
+          "quote": "you can build your own harness because Cloud has gotten better at building harnesses",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 950,
+          "t": [
+            2895.114,
+            2898.795
+          ],
+          "quote": "and we have these harness primitives like managed agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            3132.389,
+            3135.632
+          ],
+          "quote": "Kaparthi talked about this as an organizational harness, you know what I mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            3300.099,
+            3304.401
+          ],
+          "quote": "And so the more important your organization harness is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1586,
+          "t": [
+            5107.571,
+            5110.101
+          ],
+          "quote": "It's kind of in line with what you're talking about with the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1597,
+          "t": [
+            5134.931,
+            5141
+          ],
+          "quote": "You can attach these on to your harness, to whatever, to kind of check, is this stuff safe?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱攻击面非常复杂,智能体能把多个漏洞串联逃逸;任何一层防线失守智能体就能逃出沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            647.499,
+            651.499
+          ],
+          "quote": "it can be in a remote sandbox or wherever you need your work to be done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            2775.957,
+            2778.721
+          ],
+          "quote": "It's like, it needs a sandbox to operate safely.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3729.192,
+            3731.576
+          ],
+          "quote": "So it's like the sandbox,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            3732.137,
+            3735.862
+          ],
+          "quote": "the surface area of a sandbox is really complex and there's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1202,
+          "t": [
+            3768.55,
+            3770.092
+          ],
+          "quote": "you do the sandbox,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            3770.112,
+            3773.578
+          ],
+          "quote": "but then maybe you'll ask like, okay, why are we putting things in a sandbox?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1533,
+          "t": [
+            4937.948,
+            4944.948
+          ],
+          "quote": "And yeah, it means that we can deploy this model without you having a perfect sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1545,
+          "t": [
+            4980.924,
+            4987.924
+          ],
+          "quote": "Any of these failure modes at any one point can cause agents to escape the sandbox, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1636,
+          "t": [
+            5263.229,
+            5268.095
+          ],
+          "quote": "it will be hard, but you can engineer the perfect sandbox, and you can have no...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说探针(probes)在推理阶段运行,查看输入输出的激活值,判断模型是否在尝试入侵,且可以在线实时调整。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            564.281,
+            565.761
+          ],
+          "quote": "where is the inference happening,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            635.373,
+            640.195
+          ],
+          "quote": "There is the inference intelligence that's happening on the cloud and you don't have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1455,
+          "t": [
+            4657.69,
+            4661.174
+          ],
+          "quote": "So in inference time, we have what we call probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1465,
+          "t": [
+            4696.904,
+            4699.548
+          ],
+          "quote": "I think that this happens at inference time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说评估必须复杂、必须放模型跑起来才能理解它们;模型越来越有评估意识,会问『打分器在干什么』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            1400.732,
+            1404.757
+          ],
+          "quote": "High effort versus low effort changes the evals a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1560.589,
+            1561.589
+          ],
+          "quote": " He has evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1561.369,
+            1567.432
+          ],
+          "quote": "Yeah, so what I did in the blog post is I go over all of the terminal bench evals, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 569,
+          "t": [
+            1766.737,
+            1768.819
+          ],
+          "quote": " evals plugins for skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1211,
+          "t": [
+            3797.352,
+            3799.463111111111
+          ],
+          "quote": " And so we have to run a lot of evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1213,
+          "t": [
+            3803.1,
+            3808.408
+          ],
+          "quote": "And so the evals have to be quite complex and test a lot of things kind of like as",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            4446.168,
+            4453.168
+          ],
+          "quote": "Or at least the incidents we see are evals of models where we really need",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说对齐的现实是你必须封住所有裂缝——要执行代码就得下载 RubyGems、PyPy、Artifactory、NPM,每条都是途径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1188,
+          "t": [
+            3723.484,
+            3729.152
+          ],
+          "quote": "that alignment is this very tricky problem of getting all of these details correct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1198,
+          "t": [
+            3758.395,
+            3764.124
+          ],
+          "quote": "And the fact of alignment is that you have to go through all of it and contain it",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1518,
+          "t": [
+            4872.603,
+            4874.834
+          ],
+          "quote": "And so we've done this investment into interp and alignment and reward hacking",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1604,
+          "t": [
+            5158.774,
+            5161.885111111112
+          ],
+          "quote": "It hasn't had all of its safety post-training alignment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "probes",
+      "type": "concept",
+      "role": "concept",
+      "name": "探针 (probes)",
+      "file": "探针",
+      "primary": true,
+      "how_described": "本集说探针在意图层面运作,查看模型在潜空间里在想什么(Constitutional Classifiers 论文),实为一种机制可解释性,能在线实时调整。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1450,
+          "t": [
+            4638.062,
+            4642.008
+          ],
+          "quote": " This is actually a great segue into fallbacks and probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1455,
+          "t": [
+            4657.69,
+            4661.174
+          ],
+          "quote": "So in inference time, we have what we call probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1457,
+          "t": [
+            4665.339,
+            4668.904
+          ],
+          "quote": "And these probes look at the input and output activations, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1471,
+          "t": [
+            4720.835,
+            4724.836
+          ],
+          "quote": "But the nice thing about probes is that they're refinable live.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1487,
+          "t": [
+            4760.654,
+            4762.175
+          ],
+          "quote": " Probes help catch that, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1491,
+          "t": [
+            4774.785,
+            4777.727
+          ],
+          "quote": "Probes are effectively a form of mechanterp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1537,
+          "t": [
+            4956.795,
+            4960
+          ],
+          "quote": "There is the probes and classifiers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1570,
+          "t": [
+            5053.103,
+            5055.825222222223
+          ],
+          "quote": "so probes are sort of on the intent level, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "auto-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "auto 模式 (auto mode)",
+      "file": "auto 模式",
+      "primary": false,
+      "how_described": "本集说 auto 模式是建立在探针之上的另一层分类器,在权限层面检查请求——管『你有时想让它写数据库、有时不想』那层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 710,
+          "t": [
+            2157.753,
+            2160.6974444444445
+          ],
+          "quote": "You have auto-approved, but you don't have auto-mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2164.995,
+            2167.3838888888886
+          ],
+          "quote": " You don't have auto-mode for model picker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 912,
+          "t": [
+            2778.741,
+            2781.786
+          ],
+          "quote": "It needs auto mode to make sure the permissions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 922,
+          "t": [
+            2812.932,
+            2814.154222222222
+          ],
+          "quote": "We now have auto mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 929,
+          "t": [
+            2834.542,
+            2836.6349999999998
+          ],
+          "quote": "Like auto mode and computer use and stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1538,
+          "t": [
+            4960.36,
+            4962.87
+          ],
+          "quote": "And then there's auto mode that sits on top of all of that,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1546,
+          "t": [
+            4988.795,
+            4990.683888888889
+          ],
+          "quote": " Auto mode was an interesting one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1569,
+          "t": [
+            5049.478,
+            5053.083
+          ],
+          "quote": "It's just like one kind of trivial example and auto mode sort of And",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1573,
+          "t": [
+            5073.272,
+            5076.016
+          ],
+          "quote": "But then like auto mode is more on like your own permissions level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1579,
+          "t": [
+            5088.726,
+            5090.948222222222
+          ],
+          "quote": "And so auto mode operates at that level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1606,
+          "t": [
+            5164.558,
+            5165.6089999999995
+          ],
+          "quote": " Something like auto mode, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1607,
+          "t": [
+            5165.659,
+            5169.182
+          ],
+          "quote": "Auto mode is on production models that have gone through safety training",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claudemd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ClaudeMD",
+      "file": "ClaudeMD",
+      "primary": false,
+      "how_described": "本集说在极限情况下 ClaudeMD 会消失,现在不开 ClaudeMD 起新项目可能更好——失败模式清单随模型版本过时会过度约束模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 530,
+          "t": [
+            1655.732,
+            1657.955
+          ],
+          "quote": "It's actually in ClaudeMD or AgentsMD.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

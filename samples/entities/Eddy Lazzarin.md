@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]] [[Karan Vaidya]]
+[[Thariq Shihipar]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"AI 安全":2,"对齐":10,"超级智能":5,"欺骗性对齐":1,"机制可解释性":1,"开源":27,"有效利他主义":2,"网络安全":2,"去中心化":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"AI 安全":2,"对齐":11,"超级智能":5,"欺骗性对齐":1,"机制可解释性":1,"开源":27,"有效利他主义":2,"网络安全":2,"去中心化":2}</script>
 
 <script>
 (function(){

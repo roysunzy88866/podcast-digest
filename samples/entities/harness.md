@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>48</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>49</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -58,6 +58,7 @@ unlisted: true
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(02:06起):本集反复强调的心智模型:'提示词是咒语,harness 工程才是魔法'——要问'harness 有哪些能力可以利用',利用子智能体、hooks、应用内浏览器等能力
 - **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(17:48起):本集把它说成:给智能体配上一整套工具(如代码解释器、可视化)让它自主迭代,是攻克折线图提取和结构化提取中精确率/召回率权衡的前沿手段。
 - **[[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]]**(00:46起):Waddle 把 harness 当作一种「领域特定性」：包裹 LLM 执行任务的框架，把学到的技能打包成程序、从过去经验向未来智能体蒸馏。
+- **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(03:23起):本集说 harness 会很快过时、变化方式反直觉;核心 harness(沙箱、权限、computer use、MCP)必须越来越复杂和安全,交互层则千变万化。
 
 ## ① 提到它的金句
 
@@ -111,7 +112,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*48 集*
+*49 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -161,14 +162,15 @@ unlisted: true
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为概念
 - [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为概念
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]] — 作为概念
+- [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[Codex]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[上下文]]
+[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[Codex]] · [[护栏]] · [[OpenAI]] · [[MCP]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":350,"Anthropic":151,"沙箱":63,"Claude Code":83,"评估":3,"Codex":61,"护栏":65,"OpenAI":139,"MCP":64,"上下文":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":353,"Anthropic":152,"沙箱":64,"Claude Code":84,"评估":3,"Codex":62,"护栏":65,"OpenAI":140,"MCP":64,"推理":60}</script>
 
 <script>
 (function(){

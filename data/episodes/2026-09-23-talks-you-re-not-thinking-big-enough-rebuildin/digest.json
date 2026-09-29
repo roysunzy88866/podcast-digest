@@ -1,0 +1,130 @@
+{
+  "title_zh": "用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧",
+  "tldr": "Firecrawl 增长团队工程师 Cody 主张用 LLM 自动化草饲畜牧的牧场轮换，讲解轮牧瓶颈与解法。",
+  "digest_md": "这场演讲聊的不是软件，而是牛和草。说话的人叫 Cody,在 Firecrawl 的增长团队——但他自我定位是「你们大多数人害怕的那种 vibe coder」:整天用 AI 智能体写代码,不背语法、不精通任何语言,周末照样能搞出东西。他没有农业资历,却在纳什维尔的住宅区后院偷偷养过 10 只火鸡,还把它们装上特斯拉车顶开了三小时送去加工厂,车顶玻璃至今留着一道裂痕。他差点真去当农民,但发现靠种地赚钱太难,于是转向:不亲自养殖,而是想办法把畜牧业本身规模化。\n\n他开场就说「你们想得不够大」:开发者社区花了太多时间在「为造软件的人造软件」上循环——又一家公司、又一个 SaaS、又一个 MCP。他想挑战的是:还有真实世界的物理问题值得解决。\n\n## 瓶颈:轮牧太费人工\n\n他的前提是:牲畜应该待在草地上,这对动物、消费者、农民和生态都更好。但目前 97% 的肉牛仍在饲养场育肥,只有 3% 在牧场。为什么?劳动力是瓶颈。\n\n把牧场做对,意味着「轮牧」:把草场划成一个个围场(paddock,用围栏隔出的一小块放牧区),每块的草够牛吃一天,然后每天移动牛群,让草轮流休养,牧场效能会随时间提升。但这是大量体力活——每天要挪围栏、赶动物、送水、做记录。\n\n为什么不能让牛随便吃?因为牛只挑爱吃的草、反复踩踏某些区域,牧场质量会迅速退化。而且草有生长周期:割太短恢复很慢,长太老又变苦牛不爱吃,要让草保持在「幼年期甜点区间」,牛群就得不断移动又不断回来。\n\n## 已有方案差了「眼睛」\n\n市场上已有虚拟围栏公司:一家叫 Halter(获得 Peter Thiel 20 亿美元估值的投资)和一家叫 NoFence。它们给动物戴上连 GPS 卫星的项圈,让你画出虚拟边界、远程移动牛群。\n\n但有个关键缺口:你得知道该把牛移到哪儿。这不是一门精确的科学——草每天长势都不一样,受干旱、降雨、放牧压力影响。如今这个决策靠农民走到草地上,用眼睛看草,凭直觉决定下一步。所以核心问题变成:**如何取代农民在牧场上的眼睛**。\n\nCody 评估了几条路:\n- **无人机正射影像图**:图像保真度高,但要教农民飞无人机、有视线内飞行等监管问题,且目前世界上没有任何司法管辖区批准自主无人机用于这类应用——是个大瓶颈。\n- **卫星**:他目前最喜欢的选项。有一家叫 Planet 的公司每天以 1 米×1 米分辨率拍整个地球,但卫星太高,有些决策需要的信息分辨不出来。\n- **参照物相机**:他朋友在密苏里林肯大学做研究助理,思路是在树旁放个追踪相机加测量装置,以参照物判断草的高度、观察草长回来的情况。\n\n## 把 LLM 放进循环中心\n\n如果草情数据和项圈问题都解决了,就可以把一个 LLM 放进循环中间,做自主放牧:由它每天给出「牛群下一个最佳位置」的建议。这是多变量分析——输入包括牛群 GPS 位置、昨天在哪、明天可能去哪、当地干旱状况、全农场的草高;而且决策分多层次:某头牛的最佳位置、牛群相对牧场的最佳位置、相对整个生态系统的位置。\n\n这些因素互相反馈,优化整幅图景后,你就能**在更少的英亩上养更多的牛**——这才是草饲系统能与饲养场模式竞争、实现规模化的方式。\n\n要做成这件事,他认为有三个主要阻碍:\n\n1. **知识库**:大量关于何时移、为何移、怎么移的知识,全锁在 YouTube 视频里——密苏里、田纳西、肯塔基那些老农民每天移动牛群、边做边讲。他用 Firecrawl 抓取这些视频和存档中的研究论文,建了开源项目 OpenPasture 来存放,供农民使用。\n2. **可视化层**:要用传感器替代农民的直觉,弄清两件事——生物量(有多少植被可供食用)和牧场的生物多样性。过度放牧会让草场过度偏向某些冷季草、暖季草或豆科植物;理想状态是一片均衡多样的牧场,牛从草本身获得全部宏量和微量营养素,不用补充干草和矿物,整个系统无需人工干预。\n3. **开放的项圈**:他对 Halter、NoFence 有强烈不满——要用它们的软件就必须买它们的项圈,且不许接入你自己的软件。商业上他理解,行业上这很碍事。他想在软件层创新,把 LLM 预测的 GPS 位置推到项圈上。所以这是一次行动号召:「我需要有人给我做一个开放的项圈,API 开放、专利开放,让我们在软件层竞争。」他还提到农民对 John Deere 和「维修权」问题的普遍敌意。\n\n## 不止牛:叠加物种\n\n这套轮牧逻辑还能叠加物种。一家叫 Pasture Bird 的公司(让 Cody 对这个想法着迷的催化剂)把鸡舍装上大轮子,自动化移动,每 24 小时在牧场上爬行移动一个自身宽度。鸡是杂食动物,营养靠谷物饲料补充,所以可以这样机械化;鸡粪里的氮又成了草的肥料。\n\n把反刍动物和鸡叠起来还有额外好处:牛先吃掉草的顶端,鸡跟在后面从牛粪里啄食寄生虫,整个农场的寄生虫负荷下降,药费随之减少;长期还会得到更强健的种畜,需要更少干预,放着吃草就行。\n\n## 本集带走\n\n- **轮牧是草饲畜牧的核心,但劳动力是瓶颈**:把草场划成围场、每天移动牛群,能让草轮流休养、持续高产,但每天挪围栏、赶牛、送水的活没人爱干。\n- **虚拟围栏项圈(GPS 项圈画虚拟边界、远程移牛)已有公司在做,缺的是「眼睛」**:远程决策需要知道草的高度和长势,而今天的解法还是农民用肉眼+直觉。\n- **LLM 适合这类「无标准答案」的问题**:下一块草场该去哪,不存在确定性算法能算出的最优解,只有基于多变量(草高、干旱、牛群位置)的最佳猜测——让 LLM 给建议、人来做确认,就能突破农民个人劳动力的上限。\n- **数据收集本身就是头号问题**:Cody 用 Firecrawl 抓 YouTube 老农民的经验视频和研究论文,建了开源知识库 OpenPasture——「给智能体它们所需的上下文」正是通用问题。\n- **开放生态的呼吁**:现有虚拟围栏公司软硬件捆绑,他呼吁有人做专利和 API 都开放的项圈,让创新发生在软件层。",
+  "quotes": [
+    {
+      "en": "And I really am just here to challenge you that there are other problems to solve than just another MCP for another SaaS solution at another company.",
+      "zh": "我今天来真的就是想挑战你们:除了在又一家公司为另一个 SaaS 方案再做又一个 MCP 之外,还有其他问题值得解决。",
+      "timestamp": "04:17",
+      "speaker": "Cody Menefee"
+    },
+    {
+      "en": "I need someone to make me a caller. I need it to be open. The APIs need to be open.",
+      "zh": "我需要有人给我做一个项圈。它得是开放的,API 也得是开放的。",
+      "timestamp": "13:57",
+      "speaker": "Cody Menefee"
+    },
+    {
+      "en": "I hear a lot of engineers talk about how we turn LLMs into deterministic processes, and my contention is actually there's a lot of problems that you can't solve with deterministic algorithms.",
+      "zh": "我听到很多工程师谈论如何把 LLM 变成确定性流程,而我的主张是:有很多问题是确定性算法无法解决的。",
+      "timestamp": "16:22",
+      "speaker": "Cody Menefee"
+    },
+    {
+      "en": "The number one problem is actually just giving the agents the context they need, gathering the data, packaging that data, and then presenting it in a way that the LLN can reason over.",
+      "zh": "头号问题实际上就是给智能体提供它们所需的上下文:收集数据、打包数据,然后以一种 LLM 可以推理的方式呈现出来。",
+      "timestamp": "17:15",
+      "speaker": "Cody Menefee"
+    },
+    {
+      "en": "I use AI agents all day long. I don't have any syntax memorized.",
+      "zh": "我整天都在用 AI 智能体,我没有任何语法是背下来的。",
+      "timestamp": "02:01",
+      "speaker": "Cody Menefee"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:17",
+      "speaker": "Cody",
+      "en": "And I really am just here to challenge you that there are other problems to solve than just another MCP for another SaaS solution at another company.",
+      "zh": "我今天来真的就是想挑战你们:除了在又一家公司为另一个 SaaS 方案再做又一个 MCP 之外,还有其他问题值得解决。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Cody",
+      "en": "So the question is how do we replace the farmers eyes on pasture so that they can remotely make educated decisions on where to move their virtual fences?",
+      "zh": "所以问题是:我们如何取代农民在牧场上的眼睛,让他们能远程做出有依据的决策、决定把虚拟围栏移到哪里?"
+    },
+    {
+      "timestamp": "09:56",
+      "speaker": "Cody",
+      "en": "If we can solve this problem, along with the caller situation, I think there's a world here where we can drop an LLM in the middle of this loop and start to work on autonomous grazing operations.",
+      "zh": "如果我们能解决这个问题,连同项圈的问题,我认为存在这样一个世界:我们可以把一个 LLM 放进这个循环的中间,开始做自主放牧作业。"
+    },
+    {
+      "timestamp": "10:54",
+      "speaker": "Cody",
+      "en": "There's all of these components feed back into each other and if you can optimize this entire picture you have a more productive farm where you can actually have more animals on fewer acres",
+      "zh": "所有这些组成部分相互反馈,如果你能优化这整幅图景,你就拥有了一个更高产的农场,可以在更少的英亩上养更多动物。"
+    },
+    {
+      "timestamp": "13:52",
+      "speaker": "Cody",
+      "en": "So a bit of the purpose of this talk is actually a call to action for you all in the audience.",
+      "zh": "所以这次演讲的一个目的,实际上是对在座各位的一个行动号召。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "Cody",
+      "en": "I need someone to make me a caller. I need it to be open. The APIs need to be open.",
+      "zh": "我需要有人给我做一个项圈。它得是开放的,API 也得是开放的。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Cody",
+      "en": "I think we need to find big real world physical problems that we can solve that require multivariate analysis and not quite yes or no decisions.",
+      "zh": "我认为我们需要找到可以用多变量分析解决的重大现实物理问题,而不是非此即彼的是/否决策。"
+    },
+    {
+      "timestamp": "16:33",
+      "speaker": "Cody",
+      "en": "I hear a lot of engineers talk about how we turn LLMs into deterministic processes, and my contention is actually there's a lot of problems that you can't solve with deterministic algorithms.",
+      "zh": "我听到很多工程师谈论如何把 LLM 变成确定性流程,而我的主张是:有很多问题是确定性算法无法解决的。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Cody",
+      "en": "There's just your best guess on where you think they should go.",
+      "zh": "只有你对自己认为它们应该去哪里的最佳猜测。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Cody",
+      "en": "And I think if we can take systems like that, these multi-data input systems, and drop an LLM in the center to actually reason over the data and at least make a suggestion that the human can confirm or deny, we can really start to scale systems like this",
+      "zh": "我认为如果我们能拿这样的多数据输入系统,把一个 LLM 放在中心去真正推理数据、至少给出一个人类可以确认或否决的建议,我们就能真正开始扩展这类系统。"
+    },
+    {
+      "timestamp": "17:06",
+      "speaker": "Cody",
+      "en": "I think all animals could be raised on grass if we solve these problems.",
+      "zh": "我认为,如果我们解决这些问题,所有动物都可以在草地上饲养。"
+    },
+    {
+      "timestamp": "17:15",
+      "speaker": "Cody",
+      "en": "The number one problem is actually just giving the agents the context they need, gathering the data, packaging that data, and then presenting it in a way that the LLN can reason over.",
+      "zh": "头号问题实际上就是给智能体提供它们所需的上下文:收集数据、打包数据,然后以一种 LLM 可以推理的方式呈现出来。"
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Cody",
+      "en": "I use AI agents all day long. I don't have any syntax memorized.",
+      "zh": "我整天都在用 AI 智能体,我没有任何语法是背下来的。"
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Cody",
+      "en": "But I realized it's actually really hard to make any money farming.",
+      "zh": "但我意识到,靠种地赚钱其实真的很难。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Cody",
+      "en": "So I decided to pivot and see if there were ways that we could scale farming itself and the types of systems that I'm interested in when it comes to livestock agriculture.",
+      "zh": "所以我决定转向,看看有没有办法能把畜牧业本身、以及我感兴趣的畜牧农业系统进行规模化。"
+    }
+  ],
+  "voice_script": "今天这期聊的不是软件,而是牛和草。说话的人叫 Cody,在 Firecrawl 的增长团队干活。用他自己的话说,就是你们大多数人害怕的那种 vibe coder——整天用 AI 智能体写代码,不背语法、不精通任何语言,周末照样能搞出东西。这人没什么农业资历,却在纳什维尔住宅区的后院偷偷养过 10 只火鸡,还把火鸡装上特斯拉车顶开了三小时送去加工厂,车顶玻璃至今留着一道裂痕。本来差点真去当农民,后来发现靠种地赚钱太难,就换了个思路:不亲自养殖,而是想办法把畜牧业本身规模化。\n\n开场的第一句话就很有劲:你们想得不够大。意思是,开发者社区花了太多时间在为造软件的人造软件上打转——又一家公司、又一个 SaaS、又一个 MCP。而真实世界还有很多物理问题等着解决。今天聊的,就是其中一个:怎么用大语言模型让牧场上的牛自己搬家。\n\n先把背景垫一下。Cody 的前提很简单:牲畜应该待在草地上,这对动物、对消费者、对农民、对生态都更好。但现实是,97% 的肉牛还是在饲养场育肥,只有 3% 真正在牧场上。为什么这么少?瓶颈不在理念,在劳动力。\n\n把牧场做对,靠的是轮牧。说白了就是把一大片草场用围栏隔成一个个小块,每块的草刚好够牛吃一天,然后每天把牛群挪到下一块,让吃过的草轮流休养。这么干,牧场的效能会随着时间越来越好。但问题是,这是大量的体力活——每天挪围栏、赶动物、送水、做记录,天天如此,没人爱干。\n\n那能不能就让牛随便吃呢?不行。牛只挑爱吃的草,还反复踩踏同一片区域,牧场质量会迅速退化。而且草有生长周期:割太短,恢复很慢;长太老,又变苦、牛不爱吃。要让草一直停在幼年期的甜点区间,牛群就得不断移动、又不断回来。所以轮牧是好办法,只是太费人。\n\n好,那有没有现成的技术方案?有。市场上已经有虚拟围栏公司,一家叫 Halter,拿过 Peter Thiel 二十亿美元估值的投资;另一家叫 NoFence。做法是给牛戴上连 GPS 卫星的项圈,你在软件里画出虚拟边界,就能远程移动牛群。听起来挺完美吧?\n\n但这里缺了一块关键拼图:你知道该把牛移到哪儿吗?这其实不是一门精确的科学。草每天的长势都不一样,受干旱、降雨、放牧压力影响。今天这个决策怎么做?靠农民走到草地上,用眼睛看草,凭直觉判断下一步。所以整个问题的核心就变成了:如何取代农民在牧场上的那双眼睛。\n\nCody 评估了几条路。无人机正射影像,图像保真度高,但得教农民飞无人机,还有视线内飞行的监管问题,而且目前世界上没有任何司法管辖区批准自主无人机用于这类应用——这是个大坎。卫星呢,是目前最喜欢的选项:有家叫 Planet 的公司,每天用 1 米乘 1 米的分辨率拍整个地球。可卫星毕竟太高,有些决策需要的信息就是分辨不出来。还有一条路,来自在密苏里林肯大学做研究助理的朋友:在树旁放个追踪相机加测量装置,拿参照物来判断草的高度、观察草长回来的情况。\n\n好,假如草情数据和项圈问题都解决了,接下来就能把一个 LLM 放进循环中间,做自主放牧:由它每天给出牛群下一个最佳位置的建议。你可能会问,这事非得用大语言模型吗?还真就是。这是典型的多变量分析——输入包括牛群的 GPS 位置、昨天在哪、明天可能去哪、当地干旱状况、全农场的草高;而且决策还分好几层:某头牛的最佳位置、牛群相对牧场的最佳位置、相对整个生态系统的位置。这些因素互相反馈,根本不存在一个确定性算法能算出的标准答案,只有基于多变量的最佳猜测。用原话说就是:很多工程师在琢磨怎么把 LLM 变成确定性流程,而我的主张恰恰是,有很多问题是确定性算法解决不了的。让 LLM 给建议、人来做确认,就能突破农民个人劳动力的上限。优化整幅图景之后,你就能在更少的英亩上养更多的牛——这才是草饲系统能跟饲养场模式竞争、实现规模化的方式。\n\n那要真做成这件事,还有三个主要阻碍。第一个是知识库。大量关于何时移、为何移、怎么移的知识,全锁在 YouTube 视频里——密苏里、田纳西、肯塔基那些老农民,每天移动牛群、边做边讲。于是 Cody 用 Firecrawl 抓取这些视频和存档里的研究论文,建了个开源项目叫 OpenPasture,专供农民使用。这背后其实是个通用问题:头号难题就是给智能体提供它们所需的上下文——收集数据、打包数据,再用一种 LLM 能推理的方式呈现出来。\n\n第二个阻碍是可视化层。得用传感器替代农民的直觉,弄清两件事:一是生物量,就是有多少植被可供食用;二是牧场的生物多样性。过度放牧会让草场偏向某几类草,而理想状态是一片均衡多样的牧场——牛从草本身获得全部宏量和微量营养素,不用补干草和矿物,整个系统无需人工干预。\n\n第三个阻碍,也是最让他上火的一条:封闭的项圈。Halter、NoFence 这些公司,要用它们的软件就必须买它们的项圈,还不许接你自己的软件。商业上能理解,行业上这很碍事。Cody 想在软件层创新,把 LLM 预测出的 GPS 位置直接推到项圈上。所以这是一次公开的行动号召:我需要有人给我做一个开放的项圈,API 开放、专利开放,让我们在软件层竞争。顺便说一句,农民对 John Deere 和维修权问题的普遍敌意,也是同一个情绪的延伸。\n\n这套轮牧逻辑还有个有趣的延伸:不止养牛,还能叠加物种。一家叫 Pasture Bird 的公司——正是这家让 Cody 对整个想法着迷——把鸡舍装上大轮子,自动化移动,每 24 小时在牧场上爬行一个自身宽度的距离。鸡是杂食动物,营养靠谷物饲料补,所以可以这样机械化;而鸡粪里的氮,又成了草的肥料。把反刍动物和鸡叠起来还有额外好处:牛先吃掉草的顶端,鸡跟在后面从牛粪里啄食寄生虫,整个农场的寄生虫负荷下降,药费随之减少;长期还会得到更强健的种畜,需要更少干预,放着吃草就行。\n\n回到最开头那句话:你们想得不够大。整期听下来,最有意思的其实不是某个具体技术,而是这个思路本身——大量所谓模糊的、凭经验的、没人写成文档的真实世界决策,恰恰是大语言模型能插上手的地方;而真正的拦路虎,往往不是算法,是数据和开放的接口。用 AI 让牛自己搬家,听起来像段子,但这条路要是走通,草饲畜牧才算真正有机会跟饲养场掰手腕。"
+}

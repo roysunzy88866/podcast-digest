@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":39,"Atlas":3,"精益创业":2,"智能体":350,"YC":16,"Google":49,"Claude":70,"OpenAI":139,"Shopify":10}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":39,"Atlas":3,"精益创业":2,"智能体":353,"YC":16,"Google":49,"Claude":70,"OpenAI":140,"Shopify":10}</script>
 
 <script>
 (function(){

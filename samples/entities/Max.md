@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Jean-Denis Greze]]
+[[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":23,"NEO":1,"Cotool":1,"智能体":350,"护栏":65,"签名":1,"行为检测":1,"推理":59}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":25,"NEO":1,"Cotool":1,"智能体":353,"护栏":65,"签名":1,"行为检测":1,"推理":60}</script>
 
 <script>
 (function(){

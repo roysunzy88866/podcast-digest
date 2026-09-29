@@ -29,7 +29,7 @@ unlisted: true
 
 [[Snapchat]] · [[OpenAI]] · [[分发]] · [[网络效应]] · [[Lenny]] · [[Peter Sellis]] · [[Alex Mashrabov]] · [[Evan Spiegel]] · [[Discord]] · [[Higgsfield]]
 
-<script type="application/json" class="pd-epn">{"Snapchat":3,"OpenAI":139,"分发":7,"网络效应":13,"Lenny":68,"Peter Sellis":1,"Alex Mashrabov":1,"Evan Spiegel":1,"Discord":6,"Higgsfield":1}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":3,"OpenAI":140,"分发":7,"网络效应":13,"Lenny":68,"Peter Sellis":1,"Alex Mashrabov":1,"Evan Spiegel":1,"Discord":6,"Higgsfield":1}</script>
 
 <script>
 (function(){

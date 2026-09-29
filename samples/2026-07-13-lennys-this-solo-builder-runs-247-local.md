@@ -117,7 +117,7 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:codex、原型 (prototype)、智能体 (agent)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:anthropic · 同概念:codex、智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:提示词 (prompt)、智能体 (agent)、codex</span>
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:anthropic · 同概念:提示词 (prompt)、智能体 (agent)</span>
 
 </div>
 </div>

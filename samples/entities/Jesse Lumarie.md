@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Adit Abraham]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]]
+[[Thariq Shihipar]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]] [[Paul Bakaus]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":4,"智能体":350,"评估":3,"CodeConnect":1,"上下文窗口":11,"React Tailwind":1,"Anthropic":151,"OAuth":2,"Cursor":71}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP 服务器":2,"智能体":353,"评估":3,"CodeConnect":1,"上下文窗口":11,"React Tailwind":1,"Anthropic":152,"OAuth":2,"Cursor":71}</script>
 
 <script>
 (function(){

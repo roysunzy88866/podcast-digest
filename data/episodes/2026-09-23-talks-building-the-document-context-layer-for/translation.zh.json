@@ -1,0 +1,1250 @@
+[
+ {
+  "seg": 0,
+  "start": 12.792,
+  "end": 13.633,
+  "speaker": "Unknown",
+  "en": "I think we can get started.",
+  "zh": "我想我们可以开始了。"
+ },
+ {
+  "seg": 1,
+  "start": 13.753,
+  "end": 14.193,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.453,
+  "end": 22.298,
+  "speaker": "Unknown",
+  "en": "I'm Gerry, co-founder and CEO of LlamaIndex, and today I'm excited to give a talk called Building the Document Context Layer for AI Agents.",
+  "zh": "我是 Gerry,LlamaIndex 的联合创始人兼 CEO,今天我很高兴做一个题为《为 AI 智能体构建文档上下文层》的演讲。"
+ },
+ {
+  "seg": 3,
+  "start": 22.439,
+  "end": 39.07,
+  "speaker": "Unknown",
+  "en": "Really a big shout-out to the AI Engineer World Fair for hosting, and if you've seen some of my earlier talks from the previous AI Engineer conferences, we've kind of traced through a lot of the evolution of how, you know, agent advances have correlated with, you know, how you inject context into evolving applications.",
+  "zh": "非常感谢 AI Engineer World Fair 的主办,如果你看过我在之前几届 AI Engineer 大会上的一些早期演讲,我们其实一路追踪了很多演进历程,就是智能体的进步如何与——你知道的——如何向不断演进的应用中注入上下文相关联。"
+ },
+ {
+  "seg": 4,
+  "start": 39.69,
+  "end": 42.813,
+  "speaker": "Unknown",
+  "en": "And so today, in 2026, we'll kind of talk about three main topics.",
+  "zh": "那么今天,在 2026 年,我们会讲三个主要话题。"
+ },
+ {
+  "seg": 5,
+  "start": 43.453,
+  "end": 45.775,
+  "speaker": "Unknown",
+  "en": "One is, you know, what is RAG in 2026?",
+  "zh": "第一个是,你知道的,2026 年的 RAG 是什么?"
+ },
+ {
+  "seg": 6,
+  "start": 46.556,
+  "end": 50.92,
+  "speaker": "Unknown",
+  "en": "Two, that basically decomposes into an agent harness plus a context layer.",
+  "zh": "第二,它基本上分解为一个智能体 harness 加上一个上下文层。"
+ },
+ {
+  "seg": 7,
+  "start": 51.26,
+  "end": 63.33,
+  "speaker": "Unknown",
+  "en": "So kind of going into the modern document context layer for agents and giving you a little bit of sense of kind of some of the core capabilities today, especially unlocking, you know, the vast trove of document-based data today and give you a glimpse of what's next.",
+  "zh": "所以我们要深入讲一下面向智能体的现代文档上下文层,给你一点关于今天一些核心能力的感觉,尤其是解锁——你知道的——如今海量基于文档的数据,并给你一瞥接下来会是什么。"
+ },
+ {
+  "seg": 8,
+  "start": 64.28,
+  "end": 66.121,
+  "speaker": "Unknown",
+  "en": "All right, RAG in 2026.",
+  "zh": "好的,2026 年的 RAG。"
+ },
+ {
+  "seg": 9,
+  "start": 66.181,
+  "end": 69.702,
+  "speaker": "Unknown",
+  "en": "But before that, just a little bit about the company, and I'll kind of get on with the main talk.",
+  "zh": "但在那之前,先简单讲一点关于公司的情况,然后我就进入正题。"
+ },
+ {
+  "seg": 10,
+  "start": 69.762,
+  "end": 71.263,
+  "speaker": "Unknown",
+  "en": "You might have seen us as a RAG framework.",
+  "zh": "你们可能见过我们,作为一个 RAG 框架。"
+ },
+ {
+  "seg": 11,
+  "start": 71.303,
+  "end": 77.465,
+  "speaker": "Unknown",
+  "en": "We started in 2023, got pretty popular, kind of create a lot of techniques around like advanced RAG, that type of stuff.",
+  "zh": "我们始于 2023 年,相当受欢迎,创造了很多技术,比如 advanced RAG 之类的。"
+ },
+ {
+  "seg": 12,
+  "start": 77.545,
+  "end": 81.266,
+  "speaker": "Unknown",
+  "en": "Today, we're basically the main document infrastructure for AI agents.",
+  "zh": "如今,我们基本上是 AI 智能体的主要文档基础设施。"
+ },
+ {
+  "seg": 13,
+  "start": 81.286,
+  "end": 90.97,
+  "speaker": "Unknown",
+  "en": "We deliver the best platform for agents to actually read and operate over documents, and we see ourselves as unlocking basically the vast troves of document context, even as agents and models themselves get better.",
+  "zh": "我们为智能体提供最好的平台,让它们真正读取并操作文档,我们把自己视为在解锁海量的文档上下文宝库,即使智能体和模型本身变得越来越好。"
+ },
+ {
+  "seg": 14,
+  "start": 93.097,
+  "end": 99.82,
+  "speaker": "Unknown",
+  "en": "All right, so what does RAG actually mean in 2026, and how are agents actually inhaling and adjusting context today?",
+  "zh": "好,那么 RAG 在 2026 年到底意味着什么,智能体如今实际上是如何摄入和调整上下文的?"
+ },
+ {
+  "seg": 15,
+  "start": 100.801,
+  "end": 109.665,
+  "speaker": "Unknown",
+  "en": "This is a snapshot from actually three years ago when I first gave a talk on this, and naive RAG was basically just building a simple chatbot over your private corpus of data.",
+  "zh": "这是三年前我第一次做这个演讲时的快照,naive RAG 基本上就是在你的私有数据语料上构建一个简单的聊天机器人。"
+ },
+ {
+  "seg": 16,
+  "start": 110.005,
+  "end": 117.149,
+  "speaker": "Unknown",
+  "en": "If you flashback all the way to January of 2023, this technique basically consisted of you have some corpus of documents,",
+  "zh": "如果你回溯到 2023 年 1 月,这项技术基本上就是:你有一些文档语料,"
+ },
+ {
+  "seg": 17,
+  "start": 117.669,
+  "end": 121.11,
+  "speaker": "Unknown",
+  "en": "You chunk it up, embed it, and put it into a vector database.",
+  "zh": "你把它切块、嵌入,放进一个向量数据库。"
+ },
+ {
+  "seg": 18,
+  "start": 121.13,
+  "end": 124.811,
+  "speaker": "Unknown",
+  "en": "You do some naive top-k retrieval, and then you generate some stuff with an LLM.",
+  "zh": "你做一些 naive 的 top-k 检索,然后用一个 LLM 生成一些东西。"
+ },
+ {
+  "seg": 19,
+  "start": 125.311,
+  "end": 126.272,
+  "speaker": "Unknown",
+  "en": "All the steps are fixed.",
+  "zh": "所有步骤都是固定的。"
+ },
+ {
+  "seg": 20,
+  "start": 126.432,
+  "end": 133.754,
+  "speaker": "Unknown",
+  "en": "You use kind of like a fixed set of techniques, and then with that, you actually get some basic application results by just being able to chat over a corpus of documents.",
+  "zh": "你使用一套固定的技术,然后凭借这个,你就能得到一些基础的应用结果,只是能够在一个文档语料上进行聊天。"
+ },
+ {
+  "seg": 21,
+  "start": 134.669,
+  "end": 139.814,
+  "speaker": "Unknown",
+  "en": "Of course, the agent landscape has changed quite a bit and quite dramatically since then.",
+  "zh": "当然,从那以后智能体的格局已经发生了相当大、相当剧烈的变化。"
+ },
+ {
+  "seg": 22,
+  "start": 139.974,
+  "end": 146.96,
+  "speaker": "Unknown",
+  "en": "One is agent loops and tool use have gotten a lot, a lot better, especially as both the models and agent harnesses have increased.",
+  "zh": "一是智能体循环和工具使用已经变得好了很多很多,尤其是随着模型和智能体 harness 都在提升。"
+ },
+ {
+  "seg": 23,
+  "start": 147.501,
+  "end": 152.445,
+  "speaker": "Unknown",
+  "en": "And there's basically a cleaner separation now between agent reasoning and how they actually interact with context.",
+  "zh": "而且现在智能体推理和它们实际与上下文交互的方式之间,基本上有了更清晰的分离。"
+ },
+ {
+  "seg": 24,
+  "start": 153.106,
+  "end": 167.712,
+  "speaker": "Unknown",
+  "en": "If you look at what I call kind of the modern generalized agent, which includes, you know, all your favorite applications and tools out there from Claude Code, Claude Cowork, OpenClaw, Codex, and a few others, you know, the retrieval complexity has started to get baked into the agent layer.",
+  "zh": "如果你看我称之为现代广义智能体的东西,它包括,你知道的,所有你喜爱的应用和工具,像 Claude Code、Claude Cowork、OpenClaw、Codex 等等,你会发现检索的复杂性已经开始被内置到智能体层中。"
+ },
+ {
+  "seg": 25,
+  "start": 168.113,
+  "end": 173.095,
+  "speaker": "Unknown",
+  "en": "So instead of coming up with a variety of hacks to really work around the limitations of naive top-k retrieval,",
+  "zh": "所以与其想出各种 hack 来绕过 naive top-k 检索的局限,"
+ },
+ {
+  "seg": 26,
+  "start": 173.535,
+  "end": 181.543,
+  "speaker": "Unknown",
+  "en": "You can start getting the agent to really reason about, for instance, the best keyword to search for, best search term to actually get back good results.",
+  "zh": "你可以开始让智能体真正推理,比如说,最好的搜索关键词是什么,最好的搜索词是什么,以真正拿回好的结果。"
+ },
+ {
+  "seg": 27,
+  "start": 181.983,
+  "end": 188.99,
+  "speaker": "Unknown",
+  "en": "Even if the retrieval tools are basic, the agent can input the right queries to basically loop upon itself and help solve the task at hand.",
+  "zh": "即使检索工具是基础的,智能体也可以输入正确的查询,基本上进行自我循环,帮助解决手头的任务。"
+ },
+ {
+  "seg": 28,
+  "start": 189.662,
+  "end": 192.464,
+  "speaker": "Unknown",
+  "en": "Number two, context is moving up the stack.",
+  "zh": "第二,上下文正在向栈的上层移动。"
+ },
+ {
+  "seg": 29,
+  "start": 192.504,
+  "end": 201.289,
+  "speaker": "Unknown",
+  "en": "There's been a lot of conversations, I think, for the first two and a half years of GenAI of how do you actually manage the agent context window, make sure it doesn't overflow, that type of thing.",
+  "zh": "在 GenAI 的前两年半里,有很多关于如何实际管理智能体上下文窗口、确保它不溢出之类的讨论。"
+ },
+ {
+  "seg": 30,
+  "start": 201.77,
+  "end": 216.339,
+  "speaker": "Unknown",
+  "en": "But I think as, you know, a lot of the evolving techniques, compaction, long context have evolved, I think more and more of the conversation is actually how do you just hook up the right MCP servers and skills and tasks to the agent to enable it to do various types of tasks.",
+  "zh": "但我认为,随着很多不断演进的技术,compaction、长上下文的演进,我认为越来越多的讨论实际上变成了如何把正确的 MCP 服务器、技能和任务接入智能体,使它能够执行各种类型的任务。"
+ },
+ {
+  "seg": 31,
+  "start": 217.157,
+  "end": 219.858,
+  "speaker": "Unknown",
+  "en": "And so that also applies to agent orchestration, right?",
+  "zh": "所以这也适用于智能体编排,对吧?"
+ },
+ {
+  "seg": 32,
+  "start": 220.058,
+  "end": 221.239,
+  "speaker": "Unknown",
+  "en": "Coding agents have gotten better.",
+  "zh": "编码智能体已经变得更好了。"
+ },
+ {
+  "seg": 33,
+  "start": 222.42,
+  "end": 229.543,
+  "speaker": "Unknown",
+  "en": "Abstractions of actually defining what types of tasks and programs you want to build have moved a little bit upwards towards English as opposed to through code.",
+  "zh": "实际定义你想要构建什么类型的任务和程序的抽象,已经稍微向上移动,朝向英语,而不是通过代码。"
+ },
+ {
+  "seg": 34,
+  "start": 230.063,
+  "end": 237.407,
+  "speaker": "Unknown",
+  "en": "And so maybe in 2023 to 2025, you define programs and you still build stuff via like importing Python, using TypeScript through code.",
+  "zh": "所以也许在 2023 到 2025 年,你定义程序,你仍然通过像导入 Python、使用 TypeScript 通过代码来构建东西。"
+ },
+ {
+  "seg": 35,
+  "start": 238.007,
+  "end": 254.981,
+  "speaker": "Unknown",
+  "en": "It's pretty clear these days more and more people are just building stuff using English, whether you're a software engineer or you're in a non-technical function like go-to-market, marketing, and you're defining runbooks through English and kind of like defining the right goals and making sure that AI is aligned on the right task.",
+  "zh": "如今很清楚的是,越来越多的人只是用英语来构建东西,无论你是软件工程师,还是你在像 go-to-market、市场营销这样的非技术职能中,你通过英语定义 runbook,并且定义正确的目标,确保 AI 对齐在正确的任务上。"
+ },
+ {
+  "seg": 36,
+  "start": 255.341,
+  "end": 257.363,
+  "speaker": "Unknown",
+  "en": "And we see that carrying over going forward as well.",
+  "zh": "我们看到这一点在未来也会延续下去。"
+ },
+ {
+  "seg": 37,
+  "start": 259.44,
+  "end": 272.031,
+  "speaker": "Unknown",
+  "en": "So in terms of just like general evolving knowledge work patterns, and this kind of forms a foundation for how we think about the context layer, you know, in the past maybe you could use AI to just like ask simple questions, get it resolved.",
+  "zh": "所以就一般演进的知识工作模式而言,这形成了我们思考上下文层的基础,你知道的,过去你也许可以用 AI 只是问一些简单的问题,把它解决掉。"
+ },
+ {
+  "seg": 38,
+  "start": 272.812,
+  "end": 284.823,
+  "speaker": "Unknown",
+  "en": "Today you're starting to be able to define and solve more end-to-end like tasks just through English and also use English to start compiling repeatable programs to actually execute something at scale.",
+  "zh": "今天你开始能够仅仅通过英语来定义和解决更多端到端的任务,并且还用英语开始编译可重复的程序,以实际大规模执行某些东西。"
+ },
+ {
+  "seg": 39,
+  "start": 286.069,
+  "end": 297.178,
+  "speaker": "Unknown",
+  "en": "Obviously, there's been a lot of discussion on how this will evolve even more, and we do see AI agents as behaving even more autonomously through solving long-horizon tasks, looping upon themselves to be able to achieve a goal.",
+  "zh": "显然,关于这将如何进一步演进,已经有很多讨论,我们确实看到 AI 智能体表现得更加自主,通过解决长时程任务,进行自我循环以能够达成一个目标。"
+ },
+ {
+  "seg": 40,
+  "start": 297.539,
+  "end": 309.389,
+  "speaker": "Unknown",
+  "en": "So the future will move towards a state where you actually might not even have to define the task in English, but actually more the goal and a scoring rubric, and then the agent will use all available contexts available to it to actually solve the task.",
+  "zh": "所以未来将走向一种状态:你实际上可能甚至不必用英语定义任务,而是更多定义目标和评分标准,然后智能体会使用它所有可用的上下文来真正解决任务。"
+ },
+ {
+  "seg": 41,
+  "start": 310.942,
+  "end": 327.03,
+  "speaker": "Unknown",
+  "en": "So with that overall framing, let's talk about what kind of is a pretty core focus for us as a company, which is basically helping to unlock unstructured context to basically feed into these agents even as they get really, really good, both in terms of the core model capabilities as well as the agent harness.",
+  "zh": "有了这个整体框架,让我们谈谈作为一家公司我们的一个相当核心的关注点,基本上就是帮助解锁非结构化上下文,以喂给这些智能体,即使它们变得真的、真的很好,无论是在核心模型能力方面,还是在智能体 harness 方面。"
+ },
+ {
+  "seg": 42,
+  "start": 327.69,
+  "end": 334.031,
+  "speaker": "Unknown",
+  "en": "And we'll focus a lot on our core focus area, which is document context, but of course there's plenty of other sources of context as well.",
+  "zh": "我们会大量聚焦于我们的核心关注领域,也就是文档上下文,但当然还有很多其他的上下文来源。"
+ },
+ {
+  "seg": 43,
+  "start": 334.691,
+  "end": 337.872,
+  "speaker": "Unknown",
+  "en": "In fact, we do think context really is everything.",
+  "zh": "事实上,我们确实认为上下文真的就是一切。"
+ },
+ {
+  "seg": 44,
+  "start": 338.652,
+  "end": 351.234,
+  "speaker": "Unknown",
+  "en": "In the end, you could have an infinitely smart agent, but your ability to actually get value out of this infinitely smart agent that's able to do more and more stuff end to end is actually giving it the right things to do.",
+  "zh": "归根结底,你可以拥有一个无限聪明的智能体,但你从这个能够端到端做越来越多事情的无限聪明的智能体中真正获得价值的能力,实际上是给它正确的任务去做。"
+ },
+ {
+  "seg": 45,
+  "start": 351.714,
+  "end": 354.935,
+  "speaker": "Unknown",
+  "en": "And the right things to do include the actual task, the goal,",
+  "zh": "而正确的任务包括实际的任务、目标,"
+ },
+ {
+  "seg": 46,
+  "start": 355.795,
+  "end": 360.496,
+  "speaker": "Unknown",
+  "en": "But also access to the vast troves of organizational context available to it.",
+  "zh": "但也包括对它可用的海量组织上下文宝库的访问。"
+ },
+ {
+  "seg": 47,
+  "start": 361.176,
+  "end": 383.66,
+  "speaker": "Unknown",
+  "en": "Whether that is web search, web context, whether that is connectors through tools and skills and MCP servers, whether it's connectors through Snowflake or Databricks warehouses, or for us, whether it's access to the vast trove, like the 90% of documents are stored within SharePoint, Box, Dropbox, S3, all the unstructured data that's locked up within document containers.",
+  "zh": "无论是网页搜索、网页上下文,无论是通过工具、技能和 MCP 服务器的连接器,无论是通过 Snowflake 或 Databricks 数据仓库的连接器,还是对我们来说,无论是对海量宝库的访问——比如 90% 的文档存储在 SharePoint、Box、Dropbox、S3 中,所有被锁在文档容器里的非结构化数据。"
+ },
+ {
+  "seg": 48,
+  "start": 384.56,
+  "end": 390.183,
+  "speaker": "Unknown",
+  "en": "And so for us, you know, we care a lot about how do you actually build the right tools and unlock the right context here.",
+  "zh": "所以对我们来说,你知道的,我们非常关心如何在这里实际构建正确的工具并解锁正确的上下文。"
+ },
+ {
+  "seg": 49,
+  "start": 391.864,
+  "end": 395.426,
+  "speaker": "Unknown",
+  "en": "We see documents as universal containers for unstructured context.",
+  "zh": "我们把文档视为非结构化上下文的通用容器。"
+ },
+ {
+  "seg": 50,
+  "start": 395.806,
+  "end": 401.67,
+  "speaker": "Unknown",
+  "en": "There's over 10 trillion-plus pages of human-native knowledge locked up within PDFs, PowerPoints, Word documents, and Excel sheets.",
+  "zh": "有超过 10 万亿页以上的人类原生知识被锁在 PDF、PowerPoint、Word 文档和 Excel 表格中。"
+ },
+ {
+  "seg": 51,
+  "start": 402.37,
+  "end": 409.654,
+  "speaker": "Unknown",
+  "en": "And at the same time, agents are also starting to generate exponentially more data in terms of, you know, more agent-native formats in terms of Markdown and HTML.",
+  "zh": "与此同时，智能体也开始以指数级速度生成更多数据，也就是更多智能体原生的格式，比如 Markdown 和 HTML。"
+ },
+ {
+  "seg": 52,
+  "start": 412.459,
+  "end": 416.983,
+  "speaker": "Unknown",
+  "en": "For us, building an agent-native document platform contains three main pieces.",
+  "zh": "对我们来说，构建一个智能体原生文档平台包含三个主要部分。"
+ },
+ {
+  "seg": 53,
+  "start": 417.464,
+  "end": 434.599,
+  "speaker": "Unknown",
+  "en": "It contains the document parsing layer, actually digitalizing the vast troves of PDFs, PowerPoints, and Word documents into kind of accurate, token-efficient context and feeding it either markdown, metadata, and other forms to actually enable agents to do stuff over your documents.",
+  "zh": "它包含文档解析层，即真正把海量的 PDF、PowerPoint 和 Word 文档数字化为某种准确且节省 token 的上下文，并以 Markdown、元数据以及其他形式输入，从而真正让智能体能够在你的文档上执行操作。"
+ },
+ {
+  "seg": 54,
+  "start": 435.32,
+  "end": 442.784,
+  "speaker": "Unknown",
+  "en": "The next is actually what we call the semantic and storage layer, which is kind of like this concept of document management for humans and agents.",
+  "zh": "第二部分是我们所说的语义与存储层，这有点像是面向人类和智能体的文档管理概念。"
+ },
+ {
+  "seg": 55,
+  "start": 442.984,
+  "end": 455.612,
+  "speaker": "Unknown",
+  "en": "Instead of humans opening up Microsoft Word using your file system or file storage, how do you create some sort of agent interface that actually captures, stores all your documents and enables agents to actually manage and operate over them in various ways?",
+  "zh": "与人类打开 Microsoft Word、使用你的文件系统或文件存储不同，你如何创建某种智能体接口，真正捕获、存储你的所有文档，并让智能体能够以各种方式实际管理和操作它们？"
+ },
+ {
+  "seg": 56,
+  "start": 456.672,
+  "end": 466.496,
+  "speaker": "Unknown",
+  "en": "And then there's still room for actually kind of repeatable document workflows at the agent layer that you can actually encode within this type of platform too.",
+  "zh": "然后在智能体层，实际上仍有空间去做某种可重复的文档工作流，你也可以把它们编码进这类平台中。"
+ },
+ {
+  "seg": 57,
+  "start": 466.976,
+  "end": 480.922,
+  "speaker": "Unknown",
+  "en": "If there is a repeatable workflow like invoice processing, KYC, or claims, instead of always offloading it to a generalized agent, how do you actually develop some sort of specialized workflow for it and really carefully tune cost and accuracy to make sure that you achieve your goal?",
+  "zh": "如果存在一个可重复的工作流，比如发票处理、KYC 或理赔，与其总是把它交给一个通用智能体，不如你如何实际为它开发某种专门的工作流，并真正仔细地调整成本和准确率，以确保你达成目标？"
+ },
+ {
+  "seg": 58,
+  "start": 483.573,
+  "end": 495.845,
+  "speaker": "Unknown",
+  "en": "So, when we talk about the concepts today, in terms of these three layers, we'll talk about this concept of document OCR, which is one of the core concepts of this track, to document extraction, document search, and document workflows.",
+  "zh": "所以，当我们今天谈论这些概念时，围绕这三个层次，我们会谈到文档 OCR 这个概念，它是本主题的核心概念之一，然后是文档提取、文档搜索和文档工作流。"
+ },
+ {
+  "seg": 59,
+  "start": 496.245,
+  "end": 501.47,
+  "speaker": "Unknown",
+  "en": "There's still a variety of topics, yet left unsolved, from agent-native document formats, document versioning,",
+  "zh": "仍然有各种各样尚未解决的主题，比如智能体原生文档格式、文档版本管理，"
+ },
+ {
+  "seg": 60,
+  "start": 501.65,
+  "end": 514.18,
+  "speaker": "Unknown",
+  "en": "Document editing, you know, hill climbing as a service, and just like a wide set of kind of remaining concepts to actually create a comprehensive piece of software where agents and humans can collaborate on documents and actually do work over them.",
+  "zh": "文档编辑，也就是「爬山作为服务」，以及一大堆剩余的概念，用来真正创建一个完整的软件，让智能体和人类能够在文档上协作并真正在其上开展工作。"
+ },
+ {
+  "seg": 61,
+  "start": 516.042,
+  "end": 521.747,
+  "speaker": "Unknown",
+  "en": "So we'll start with the first section and maybe start kind of with the document OCR piece.",
+  "zh": "所以我们将从第一部分开始，也许先从文档 OCR 这一块讲起。"
+ },
+ {
+  "seg": 62,
+  "start": 522.227,
+  "end": 525.41,
+  "speaker": "Unknown",
+  "en": "First off, you know, document OCR is hard.",
+  "zh": "首先，文档 OCR 是很难的。"
+ },
+ {
+  "seg": 63,
+  "start": 525.47,
+  "end": 529.373,
+  "speaker": "Unknown",
+  "en": "Some of you might have seen a blog post that we put out a few months ago related to this topic.",
+  "zh": "你们中有些人可能看过我们几个月前发布的与此主题相关的一篇博客文章。"
+ },
+ {
+  "seg": 64,
+  "start": 529.808,
+  "end": 537.753,
+  "speaker": "Unknown",
+  "en": "But the reason this problem even exists is an agent cannot actually take the raw PDF file binary and make sense of it.",
+  "zh": "但这个问题之所以存在，是因为智能体实际上无法直接拿到原始的 PDF 文件二进制并理解它。"
+ },
+ {
+  "seg": 65,
+  "start": 538.514,
+  "end": 549.121,
+  "speaker": "Unknown",
+  "en": "That's because the way PDFs are actually stored as a format is it's rendered for display purposes and not really for machine consumption in an interpretable manner.",
+  "zh": "那是因为 PDF 作为一种格式的实际存储方式，是为显示目的而渲染的，并不是真正为了以可解释的方式供机器消费而设计的。"
+ },
+ {
+  "seg": 66,
+  "start": 551.097,
+  "end": 552.097,
+  "speaker": "Unknown",
+  "en": "They're designed for printing.",
+  "zh": "它们是为打印而设计的。"
+ },
+ {
+  "seg": 67,
+  "start": 552.197,
+  "end": 556.539,
+  "speaker": "Unknown",
+  "en": "So, basically, texts are represented as almost like individual glyphs with coordinates.",
+  "zh": "所以，基本上，文本几乎是以带坐标的单独字形来表示的。"
+ },
+ {
+  "seg": 68,
+  "start": 557.619,
+  "end": 559.56,
+  "speaker": "Unknown",
+  "en": "Tables are not represented as tables.",
+  "zh": "表格并不是以表格的形式表示的。"
+ },
+ {
+  "seg": 69,
+  "start": 559.66,
+  "end": 566.703,
+  "speaker": "Unknown",
+  "en": "They're represented as, like, typically line segments drawn with various types of borders and also text drawn as certain cell positions.",
+  "zh": "它们通常表示为用各种类型的边框绘制的线段，以及绘制在特定单元格位置上的文本。"
+ },
+ {
+  "seg": 70,
+  "start": 567.263,
+  "end": 577.012,
+  "speaker": "Unknown",
+  "en": "And so if you're kind of an agent that's trying to make sense of this like document, you're gonna have a really hard time actually trying to reason about what character and what shapes like map to what.",
+  "zh": "所以如果你是一个试图理解这种文档的智能体，你会很难真正推理出哪个字符、哪个形状对应的是什么。"
+ },
+ {
+  "seg": 71,
+  "start": 577.673,
+  "end": 590.625,
+  "speaker": "Unknown",
+  "en": "So the whole point of document OCR, you know, it's been around for like 20 plus years, is to really try to create some sort of digitalized while interpretable representation that's both interpretable to humans as well as AI agents.",
+  "zh": "所以文档 OCR 的全部意义所在——它已经存在 20 多年了——就是真正尝试创建某种数字化的、可解释的表示，既对人类可解释，也对 AI 智能体可解释。"
+ },
+ {
+  "seg": 72,
+  "start": 591.422,
+  "end": 601.456,
+  "speaker": "Unknown",
+  "en": "Also, reading order itself, if you have a multi-column layout, there is no guarantee that the way it's represented in the PDF actually corresponds to the typical ways that humans would read it.",
+  "zh": "另外，阅读顺序本身，如果你有一个多栏布局，并不能保证它在 PDF 中的表示方式与人类通常的阅读方式相对应。"
+ },
+ {
+  "seg": 73,
+  "start": 601.697,
+  "end": 605.883,
+  "speaker": "Unknown",
+  "en": "Because again, it's basically just an arbitrary sequence of characters drawn with coordinate positions.",
+  "zh": "因为再强调一次，它基本上只是以坐标位置绘制的任意字符序列。"
+ },
+ {
+  "seg": 74,
+  "start": 607.976,
+  "end": 610.737,
+  "speaker": "Unknown",
+  "en": "Related to this, even Word doc parsing is hard.",
+  "zh": "与此相关，即使是 Word 文档解析也很难。"
+ },
+ {
+  "seg": 75,
+  "start": 611.277,
+  "end": 617.88,
+  "speaker": "Unknown",
+  "en": "They're a little bit more structured than PDFs, but they're in kind of like this custom bespoke XML format, and this applies to PowerPoints as well.",
+  "zh": "它们比 PDF 稍微结构化一些，但它们处于某种自定义的定制 XML 格式中，PowerPoint 也是如此。"
+ },
+ {
+  "seg": 76,
+  "start": 619.14,
+  "end": 622.742,
+  "speaker": "Unknown",
+  "en": "It contains more structural information, but still there's a ton of like fluff.",
+  "zh": "它包含更多结构信息，但仍然有大量的冗余。"
+ },
+ {
+  "seg": 77,
+  "start": 622.862,
+  "end": 627.643,
+  "speaker": "Unknown",
+  "en": "Like you don't actually need to ingest all the tags to actually have the agent make sense of the Word document.",
+  "zh": "比如，你实际上不需要摄取所有标签，就能让智能体理解 Word 文档。"
+ },
+ {
+  "seg": 78,
+  "start": 628.084,
+  "end": 630.645,
+  "speaker": "Unknown",
+  "en": "It still needs to infer a bunch of structure from it.",
+  "zh": "它仍然需要从中推断出大量结构。"
+ },
+ {
+  "seg": 79,
+  "start": 631.125,
+  "end": 636.567,
+  "speaker": "Unknown",
+  "en": "It needs like the right kind of, to lift the right metadata around like formatting, semantics, that type of stuff.",
+  "zh": "它需要以正确的方式提取关于格式、语义之类的正确元数据，诸如此类。"
+ },
+ {
+  "seg": 80,
+  "start": 636.947,
+  "end": 643.594,
+  "speaker": "Unknown",
+  "en": "But also being able to ignore the tags and actually being able to render the document so that the agent can see the overall structure of the page.",
+  "zh": "但同时也要能够忽略这些标签，并真正能够渲染文档，让智能体看到页面的整体结构。"
+ },
+ {
+  "seg": 81,
+  "start": 643.694,
+  "end": 653.325,
+  "speaker": "Unknown",
+  "en": "It's still a generally hard problem and there's a lot of uplift you can get by actually parsing it into a more interpretable format instead of just using the native OXML and feeding that to an agent.",
+  "zh": "这仍然是一个普遍困难的问题，通过把它实际解析成更可解释的格式，而不是直接使用原生 OXML 并把它喂给智能体，你可以获得很大的提升。"
+ },
+ {
+  "seg": 82,
+  "start": 655.724,
+  "end": 660.166,
+  "speaker": "Unknown",
+  "en": "If you're familiar with document understanding, you know, it's been around for quite a bit of time.",
+  "zh": "如果你熟悉文档理解，你知道，它已经存在相当长一段时间了。"
+ },
+ {
+  "seg": 83,
+  "start": 660.847,
+  "end": 679.075,
+  "speaker": "Unknown",
+  "en": "There's a lot of these, like, heuristic and pipeline-based approaches which focused on kind of more, I guess, like, human-driven handwritten techniques to analyze, like, kind of various pieces of text, group them into clusters and identify tables, paragraphs, and be able to kind of, like, generate some sort of output representation.",
+  "zh": "有很多这类基于启发式和流水线的方法，它们更多地聚焦于，我想说，人类驱动的手写技术，来分析各种文本片段，把它们聚类分组，识别表格、段落，并能够生成某种输出表示。"
+ },
+ {
+  "seg": 84,
+  "start": 679.795,
+  "end": 689.284,
+  "speaker": "Unknown",
+  "en": "A lot of basic techniques if you use open source libraries like PyPDF, PyBeePDF, and, of course, some of the more recent approaches basically use this type of approach.",
+  "zh": "如果你使用像 PyPDF、PyBeePDF 这样的开源库，很多基础技术，当然还有一些较新的方法，基本上都使用这类方法。"
+ },
+ {
+  "seg": 85,
+  "start": 689.805,
+  "end": 694.89,
+  "speaker": "Unknown",
+  "en": "There's also, of course, using a VLM to one shot a document into text.",
+  "zh": "当然，还有使用 VLM 把文档一次性转成文本。"
+ },
+ {
+  "seg": 86,
+  "start": 694.95,
+  "end": 696.691,
+  "speaker": "Unknown",
+  "en": "That's what we call a vision-based approach.",
+  "zh": "这就是我们所说的基于视觉的方法。"
+ },
+ {
+  "seg": 87,
+  "start": 697.572,
+  "end": 699.614,
+  "speaker": "Unknown",
+  "en": "This works decently well, obviously.",
+  "zh": "显然，这效果还不错。"
+ },
+ {
+  "seg": 88,
+  "start": 699.754,
+  "end": 703.558,
+  "speaker": "Unknown",
+  "en": "You know, I think there's kind of a lot of uplift you can get by being able to read the visual structure.",
+  "zh": "你知道，我认为通过能够读取视觉结构，你可以获得很大的提升。"
+ },
+ {
+  "seg": 89,
+  "start": 704.038,
+  "end": 707.359,
+  "speaker": "Unknown",
+  "en": "But there's a lot of suboptimal pieces about it.",
+  "zh": "但它有很多不够理想的地方。"
+ },
+ {
+  "seg": 90,
+  "start": 708.019,
+  "end": 718.003,
+  "speaker": "Unknown",
+  "en": "It can hallucinate on text-only pages, it costs a ton of money, and also it still lacks a lot of the semantics and grounding that you typically expect with some sort of document processing tool.",
+  "zh": "它在纯文本页面上会产生幻觉，成本极其高昂，而且它仍然缺少你通常对某种文档处理工具所期望的大量语义和定位能力。"
+ },
+ {
+  "seg": 91,
+  "start": 718.823,
+  "end": 733.508,
+  "speaker": "Unknown",
+  "en": "And so for us, we really think about combining both the pipeline-based approaches of deeply understanding the file containers and binaries with the vision-based approaches to help generate, you know, kind of a hybrid approach that we think is at the Pareto frontier of cost and accuracy.",
+  "zh": "所以对我们来说，我们真正思考的是把深度理解文件容器和二进制的基于流水线的方法与基于视觉的方法结合起来，从而生成一种我们认为处于成本和准确率帕累托前沿的混合方法。"
+ },
+ {
+  "seg": 92,
+  "start": 736.42,
+  "end": 750.143,
+  "speaker": "Unknown",
+  "en": "A quick note on this, I'll probably just skim the high level, but the Pareto Frontier for document OCR will always be much more accurate and cheap compared to the Pareto Frontier for wherever the Frontier models are in terms of document understanding.",
+  "zh": "关于这一点简单说一句，我可能只会大致讲一下高层内容，但文档 OCR 的帕累托前沿，相比前沿模型在文档理解方面所处的帕累托前沿，总是会精确得多也便宜得多。"
+ },
+ {
+  "seg": 93,
+  "start": 750.583,
+  "end": 759.705,
+  "speaker": "Unknown",
+  "en": "It's because it's a very specific data type, and there's always ways to distill the latest visual understanding capabilities from Gemini, GPT, Opus.",
+  "zh": "这是因为它是一种非常特定的数据类型，而且总有办法把来自 Gemini、GPT、Opus 的最新视觉理解能力蒸馏出来，"
+ },
+ {
+  "seg": 94,
+  "start": 760.325,
+  "end": 766.529,
+  "speaker": "Unknown",
+  "en": "into kind of a carefully tailored workflow that's able to process your documents at scale and in a highly accurate manner.",
+  "zh": "变成某种精心定制的工作流，能够大规模、高精确度地处理你的文档。"
+ },
+ {
+  "seg": 95,
+  "start": 767.37,
+  "end": 769.011,
+  "speaker": "Unknown",
+  "en": "To some extent, that's exactly what we do.",
+  "zh": "在某种程度上，这正是我们所做的。"
+ },
+ {
+  "seg": 96,
+  "start": 769.591,
+  "end": 774.434,
+  "speaker": "Unknown",
+  "en": "You know, we both optimize the underlying, like, PDF engines plus, like, Word, PowerPoint, and others.",
+  "zh": "你知道，我们既优化底层的 PDF 引擎，也优化 Word、PowerPoint 等等其他引擎。"
+ },
+ {
+  "seg": 97,
+  "start": 775.175,
+  "end": 781.399,
+  "speaker": "Unknown",
+  "en": "We have an agentic harness that's, like, carefully tuned for auto-routing between cheaper, specialized models to frontier models.",
+  "zh": "我们有一个经过精心调优的智能体框架，用于在更便宜的专门模型与前沿模型之间进行自动路由。"
+ },
+ {
+  "seg": 98,
+  "start": 782.239,
+  "end": 791.524,
+  "speaker": "Unknown",
+  "en": "And also kind of specialized fine-tuned document VLMs that are parameter efficient and focus on specific classes of documents, elements like tables, charts, and others.",
+  "zh": "还有一些专门的、经过微调的文档 VLM，它们参数高效，并专注于特定类别的文档和元素，比如表格、图表等等。"
+ },
+ {
+  "seg": 99,
+  "start": 794.786,
+  "end": 798.548,
+  "speaker": "Unknown",
+  "en": "That's our commercial service called LlamaParse, which we'll talk about in a bit.",
+  "zh": "那就是我们的商业服务，名为 LlamaParse，我们稍后会谈到它。"
+ },
+ {
+  "seg": 100,
+  "start": 799.133,
+  "end": 815.071,
+  "speaker": "Unknown",
+  "en": "But I think in general, you know, we're extremely committed to advancing the frontier of just document understanding because basically if you're within an enterprise organization and you have a massive long tail of documents across financial services, insurance, manufacturing, legal, government, and a bunch of others,",
+  "zh": "但总的来说，我认为我们极其致力于推进文档理解的前沿，因为基本上，如果你身处一个企业组织内，你在金融服务、保险、制造、法律、政府以及其他一堆领域有大量长尾文档，"
+ },
+ {
+  "seg": 101,
+  "start": 816.072,
+  "end": 824.178,
+  "speaker": "Unknown",
+  "en": "There's just a lot of complexity in a lot of these document types, and if you're actually trying to unlock context at scale, most of the models are not up for the task.",
+  "zh": "这些文档类型中有许多都非常复杂，而如果你真的想大规模解锁上下文，大多数模型都无法胜任这项任务。"
+ },
+ {
+  "seg": 102,
+  "start": 824.299,
+  "end": 830.023,
+  "speaker": "Unknown",
+  "en": "And so we've created this thing called parsebench, which is a comprehensive enterprise document benchmark for agents.",
+  "zh": "因此我们创建了一个叫 parsebench 的东西，这是一个面向智能体的综合性企业文档基准测试。"
+ },
+ {
+  "seg": 103,
+  "start": 831.224,
+  "end": 834.187,
+  "speaker": "Unknown",
+  "en": "We think about it as the most comprehensive enterprise document benchmark.",
+  "zh": "我们把它看作最全面的企业文档基准测试。"
+ },
+ {
+  "seg": 104,
+  "start": 834.427,
+  "end": 836.969,
+  "speaker": "Unknown",
+  "en": "You know, it contains 2,000 human verified pages.",
+  "zh": "它包含 2000 页经过人工验证的页面。"
+ },
+ {
+  "seg": 105,
+  "start": 837.55,
+  "end": 842.854,
+  "speaker": "Unknown",
+  "en": "It measures tables, charts, content faithfulness, semantic formatting, and it's optimized for",
+  "zh": "它衡量表格、图表、内容忠实度、语义格式化，并且它为"
+ },
+ {
+  "seg": 106,
+  "start": 843.715,
+  "end": 849.556,
+  "speaker": "Unknown",
+  "en": "Just how AI agents are actually able to understand these documents instead of syntactic correctness.",
+  "zh": "AI 智能体实际如何理解这些文档而不是句法正确性而优化。"
+ },
+ {
+  "seg": 107,
+  "start": 849.716,
+  "end": 873.182,
+  "speaker": "Unknown",
+  "en": "If you look at parsebench.ai, which is a fully public page on the internet, it's also available on Hugging Face and Kaggle, we benchmark probably like 50 different frontier models, open weight models, specialized OCR solutions, and you really want the Pareto curve to kind of be towards the left and up in terms of accuracy, like extremely high accuracy, but also extremely low cost.",
+  "zh": "如果你访问 parsebench.ai，这是互联网上一个完全公开的页面，它也在 Hugging Face 和 Kaggle 上可用，我们基准测试了大概 50 个不同的前沿模型、开放权重模型、专门的 OCR 解决方案，你希望帕累托曲线基本上偏向左上方，就准确性而言，比如极高的准确性，同时也要极低的成本。"
+ },
+ {
+  "seg": 108,
+  "start": 874.222,
+  "end": 886.505,
+  "speaker": "Unknown",
+  "en": "And there's just so many different types of documents where some are a little bit simpler, maybe some are a little bit more complex, and ideally you want to cover all the points on the curve to deal with the dynamic distribution of various types of documents out there.",
+  "zh": "而且有非常多种不同类型的文档，有些稍微简单一些，也许有些稍微复杂一些，理想情况下你想覆盖曲线上的所有点，以应对外面各种类型文档的动态分布。"
+ },
+ {
+  "seg": 109,
+  "start": 887.145,
+  "end": 895.207,
+  "speaker": "Unknown",
+  "en": "It's pretty clear, even if you look at this graph, that it's, like, you can increase the complexity of the benchmark, and that document understanding is definitely not 100% solved.",
+  "zh": "很明显，即使你看这张图，比如，你可以增加基准测试的复杂度，而文档理解绝对没有 100% 被解决。"
+ },
+ {
+  "seg": 110,
+  "start": 896.727,
+  "end": 905.009,
+  "speaker": "Unknown",
+  "en": "But, you know, you fundamentally need to kind of advance a lot of the core capabilities to make sure that you're able to process and unlock the vast strobes of enterprise context out there.",
+  "zh": "但，你知道，你从根本上需要推进很多核心能力，以确保你能够处理并解锁外面 vast strobes 的企业上下文。"
+ },
+ {
+  "seg": 111,
+  "start": 908.871,
+  "end": 913.095,
+  "speaker": "Unknown",
+  "en": "There's kind of like a few different points on this accuracy cost latency Pareto curve.",
+  "zh": "在这个准确性-成本-延迟帕累托曲线上大概有几个不同的点。"
+ },
+ {
+  "seg": 112,
+  "start": 913.495,
+  "end": 930.131,
+  "speaker": "Unknown",
+  "en": "There's what I call like the high accuracy regime where like you know some institutions basically need like 99 to almost 100% accuracy because basically the downside of incorrect extraction is you completely mess up your financial model, you completely you know you basically get flagged for fraud or a bunch of other really really bad things.",
+  "zh": "有我所谓的高准确性区间，比如你知道，一些机构基本上需要 99 到接近 100% 的准确性，因为基本上，错误提取的负面后果就是你完全搞砸你的财务模型，你基本上你知道，你基本上因欺诈被标记，或者其他一堆非常非常糟糕的事情。"
+ },
+ {
+  "seg": 113,
+  "start": 930.912,
+  "end": 935.638,
+  "speaker": "Unknown",
+  "en": "In regulated industries like insurance and financial services, we see this a decent amount.",
+  "zh": "在像保险和金融服务这样受监管的行业中，我们相当多地看到这种情况。"
+ },
+ {
+  "seg": 114,
+  "start": 935.658,
+  "end": 943.909,
+  "speaker": "Unknown",
+  "en": "This typically means you're willing to pay a little bit more money per page for like deeper agentic reasoning to at least make sure that you get back the information in the right format.",
+  "zh": "这通常意味着你愿意为每页多付一点钱，以获得更深入的智能体推理，至少确保你以正确的格式拿回信息。"
+ },
+ {
+  "seg": 115,
+  "start": 944.59,
+  "end": 946.272,
+  "speaker": "Unknown",
+  "en": "There's also like the low-cost regime.",
+  "zh": "还有低成本区间。"
+ },
+ {
+  "seg": 116,
+  "start": 946.552,
+  "end": 956.375,
+  "speaker": "Unknown",
+  "en": "Let's say you're just trying to index the million-plus documents per day that's being continually updated within your SharePoint just for RAG knowledge-based search.",
+  "zh": "比如说你只是想为 RAG 知识库搜索索引你 SharePoint 中每天持续更新的超过一百万份文档。"
+ },
+ {
+  "seg": 117,
+  "start": 956.415,
+  "end": 969.84,
+  "speaker": "Unknown",
+  "en": "In these cases, you obviously want it to be not terribly inaccurate, but even if it's a little bit messed up, it's okay, too, because in the end, if you have a sufficiently good agent, it can always dive deeper into the document and surface the right information with the right citations and grounding.",
+  "zh": "在这些情况下，你显然希望它不是非常不准确，但即使它有点搞砸了，也没关系，因为最终，如果你有一个足够好的智能体，它总是可以深入到文档中，用正确的引用和溯源找出正确的信息。"
+ },
+ {
+  "seg": 118,
+  "start": 970.48,
+  "end": 978.592,
+  "speaker": "Unknown",
+  "en": "So for these, you know, being able to create some sort of scalable offline indexing pipeline that has the best, like, cost constraints is something that is optimal.",
+  "zh": "所以对于这些，你知道，能够创建某种具有最佳成本约束的可扩展离线索引流水线是最优的。"
+ },
+ {
+  "seg": 119,
+  "start": 979.924,
+  "end": 984.826,
+  "speaker": "Unknown",
+  "en": "One thing about VLM-based approaches, though, is that they're typically not very fast.",
+  "zh": "不过，基于 VLM 的方法有一点是，它们通常不是很快速。"
+ },
+ {
+  "seg": 120,
+  "start": 985.407,
+  "end": 1000.614,
+  "speaker": "Unknown",
+  "en": "And I think a lot of times, if you have real-time file uploads, let's say you're using Claude Cowork, you upload 1,000 documents, and you need to process it within a minute, having a bunch of VLMs process that at scale is really tough for basically every single OCR service out there.",
+  "zh": "而且我认为很多时候，如果你有实时文件上传，比如说你在使用 Claude Cowork，你上传了 1000 份文档，你需要在一天分钟内处理完，让一堆 VLM 大规模处理这对基本上每一个现有的 OCR 服务来说都非常困难。"
+ },
+ {
+  "seg": 121,
+  "start": 1001.494,
+  "end": 1002.755,
+  "speaker": "Unknown",
+  "en": "And to be fair, that includes ours, too.",
+  "zh": "说句公道话，这也包括我们自己的。"
+ },
+ {
+  "seg": 122,
+  "start": 1003.655,
+  "end": 1017.666,
+  "speaker": "Unknown",
+  "en": "I think in general there's also some sort of need for an extremely low latency solution so that you can actually process stuff in real time even if you have like deeper VLM enabled processing for kind of like deeper visual inspection and analysis.",
+  "zh": "我认为总的来说，还需要某种极低延迟的解决方案，这样你才能真正实时处理东西，即使你有像更深入的 VLM 支持的处理来做某种更深度的视觉检查和分析。"
+ },
+ {
+  "seg": 123,
+  "start": 1018.527,
+  "end": 1021.269,
+  "speaker": "Unknown",
+  "en": "And so that's what I call kind of being in the agent loop.",
+  "zh": "所以这就是我所说的处于智能体循环中。"
+ },
+ {
+  "seg": 124,
+  "start": 1021.673,
+  "end": 1028.715,
+  "speaker": "Unknown",
+  "en": "So besides LlamaParse, which is kind of our commercial service around document processing and extraction, we also created this tool called LightParse.",
+  "zh": "所以除了 LlamaParse，这是我们围绕文档处理和提取的商业服务之外，我们还创建了一个叫 LightParse 的工具。"
+ },
+ {
+  "seg": 125,
+  "start": 1029.596,
+  "end": 1031.276,
+  "speaker": "Unknown",
+  "en": "It is surprisingly really, really good.",
+  "zh": "它出奇地非常、非常好。"
+ },
+ {
+  "seg": 126,
+  "start": 1031.716,
+  "end": 1036.098,
+  "speaker": "Unknown",
+  "en": "I don't know if you've been following some of the Twitter threads, but it is Rust-based.",
+  "zh": "我不知道你是否一直在关注 Twitter 上的一些帖子，但它是基于 Rust 的。"
+ },
+ {
+  "seg": 127,
+  "start": 1036.178,
+  "end": 1038.278,
+  "speaker": "Unknown",
+  "en": "It is the fastest open source parser out there.",
+  "zh": "它是现有最快的开源解析器。"
+ },
+ {
+  "seg": 128,
+  "start": 1038.598,
+  "end": 1041.539,
+  "speaker": "Unknown",
+  "en": "It is completely free, and there is basically no strings attached.",
+  "zh": "它完全免费，基本上没有任何附加条件。"
+ },
+ {
+  "seg": 129,
+  "start": 1041.559,
+  "end": 1043.46,
+  "speaker": "Unknown",
+  "en": "I think it's like MIT or Apache license.",
+  "zh": "我想它是 MIT 或 Apache 许可证。"
+ },
+ {
+  "seg": 130,
+  "start": 1044.36,
+  "end": 1051.482,
+  "speaker": "Unknown",
+  "en": "And it basically is the most accurate markdown parser out there that doesn't use a VLM or any sort of deeper model.",
+  "zh": "而且它基本上是现有最准确的 markdown 解析器，不使用 VLM 或任何更深入的模型。"
+ },
+ {
+  "seg": 131,
+  "start": 1051.702,
+  "end": 1057.263,
+  "speaker": "Unknown",
+  "en": "And so this is kind of nice because you can use it as a default in the assistive agent loop.",
+  "zh": "所以这挺不错的，因为你可以在辅助智能体循环中把它作为默认使用。"
+ },
+ {
+  "seg": 132,
+  "start": 1057.963,
+  "end": 1065.465,
+  "speaker": "Unknown",
+  "en": "Let's say you're uploading a bunch of documents to Claude Code, Claude Codework, Codex, and you want it to process 1,000 PDFs extremely quickly.",
+  "zh": "比如说你正在上传一堆文档到 Claude Code、Claude Codework、Codex，你希望它极其快速地处理 1000 个 PDF。"
+ },
+ {
+  "seg": 133,
+  "start": 1065.925,
+  "end": 1072.267,
+  "speaker": "Unknown",
+  "en": "You can always do that and then equip a VLM-based parser like LlamaParse or other Frontier models as a tool.",
+  "zh": "你总是可以这样做，然后把像 LlamaParse 这样的基于 VLM 的解析器或其他前沿模型作为一个工具配备上。"
+ },
+ {
+  "seg": 134,
+  "start": 1072.767,
+  "end": 1093.16,
+  "speaker": "Unknown",
+  "en": "So what these agents will do is they'll do a fast pass over all the documents first, kind of just scan through all the context extremely efficiently, and then if it actually needs to dive into a page with tables, with charts, and actually needs to more deeply understand the values, it'll use a VLM-based tool, slower processing, to actually make sure it reads the information correctly.",
+  "zh": "这些智能体会做的是，它们会先对所有文档做一次快速遍历，只是极其高效地浏览所有上下文，然后如果它真的需要深入到一个有表格、有图表的页面，并且真的需要更深入地理解那些数值，它会使用基于 VLM 的工具、更慢的处理，来实际确保它正确读取了信息。"
+ },
+ {
+  "seg": 135,
+  "start": 1093.82,
+  "end": 1105.882,
+  "speaker": "Unknown",
+  "en": "This is available as a one-click installable skill, complements kind of any other deeper vLLM-based OCR tool you want to use, and we kind of designed to make it as fast as possible and also easy to plug in to your favorite AI agent.",
+  "zh": "这是作为一个一键安装的 skill 提供的，可以补充你想使用的任何其他更深入的基于 vLLM 的 OCR 工具，我们设计它的目标是让它尽可能快，同时也容易插入到你最喜欢的 AI 智能体中。"
+ },
+ {
+  "seg": 136,
+  "start": 1108.84,
+  "end": 1115.803,
+  "speaker": "Unknown",
+  "en": "So I kind of speed ran through a bunch of this stuff, but basically, you know, we spent a bunch of time on the parsing layer.",
+  "zh": "所以我有点快速跑过了一堆这些内容，但基本上，你知道，我们在解析层花了很多时间。"
+ },
+ {
+  "seg": 137,
+  "start": 1116.143,
+  "end": 1124.126,
+  "speaker": "Unknown",
+  "en": "There's also other general components around like the semantic and storage layer in terms of document extraction and search, and of course, like document workflows.",
+  "zh": "还有围绕语义和存储层的其他通用组件，涉及文档提取和搜索，当然，还有文档工作流。"
+ },
+ {
+  "seg": 138,
+  "start": 1124.986,
+  "end": 1134.45,
+  "speaker": "Unknown",
+  "en": "I think due to time, I'll probably kind of just skip some of the unexplored areas like agent-native document formats, hill climbing as a service, and others, but I'll share the full set of slides online.",
+  "zh": "我想由于时间关系，我可能会跳过一些未探索的领域，比如智能体原生的文档格式、hill climbing as a service 等等，但我会在网上分享完整的幻灯片。"
+ },
+ {
+  "seg": 139,
+  "start": 1135.13,
+  "end": 1144.858,
+  "speaker": "Unknown",
+  "en": "In terms of the semantic and storage layer, you know, besides document parsing, a lot of use cases also require actually getting back structured information at scale from documents.",
+  "zh": "在语义和存储层方面，你知道，除了文档解析之外，很多用例还需要实际从文档中大规模地拿回结构化信息。"
+ },
+ {
+  "seg": 140,
+  "start": 1145.319,
+  "end": 1156.128,
+  "speaker": "Unknown",
+  "en": "Whether you're processing, you know, a million invoices or expense reports or receipts or claims, you need to make sure that, you know, you want to actually get back structured outputs that you can put into a downstream database or system.",
+  "zh": "无论你是在处理，你知道，一百万张发票或报销单或收据或理赔单，你需要确保，你知道，你真的想拿回结构化输出，可以放入下游的数据库或系统。"
+ },
+ {
+  "seg": 141,
+  "start": 1156.848,
+  "end": 1171.541,
+  "speaker": "Unknown",
+  "en": "And so a lot of these use cases basically revolve around the form of, you know, how do you automate a lot of workloads that humans typically do in scanning a lot of paperwork and doing data entry, whether it is kind of, again, invoices, claims, contracts, receipts, or others.",
+  "zh": "所以很多这些用例基本上围绕着这样的形式，你知道，你如何自动化大量人类通常做的工作，即扫描大量纸质文件并进行数据录入，无论是再次，发票、理赔单、合同、收据，还是其他。"
+ },
+ {
+  "seg": 142,
+  "start": 1172.221,
+  "end": 1175.743,
+  "speaker": "Unknown",
+  "en": "We kind of created these capabilities within LlamaParse as well.",
+  "zh": "我们也在 LlamaParse 中创建了这些能力。"
+ },
+ {
+  "seg": 143,
+  "start": 1175.843,
+  "end": 1181.186,
+  "speaker": "Unknown",
+  "en": "A lot of our capabilities are actually tuned towards like low cost while extremely high accuracy.",
+  "zh": "我们的很多能力实际上是朝着低成本同时极高准确性调整的。"
+ },
+ {
+  "seg": 144,
+  "start": 1181.606,
+  "end": 1186.409,
+  "speaker": "Unknown",
+  "en": "And you get back granular citations all the way back to the source document for every extracted output.",
+  "zh": "而且你拿回细粒度的引用，一直到源文档，针对每一个提取出的输出。"
+ },
+ {
+  "seg": 145,
+  "start": 1186.769,
+  "end": 1198.536,
+  "speaker": "Unknown",
+  "en": "And of course, you can run this in a pipeline at scale with confidence scores and also, you know, being able to actually flag whether or not we're certain about a certain value before deciding to put it into some sort of system.",
+  "zh": "当然，你可以在流水线中大规模运行它，带有置信度分数，并且，你知道，能够在决定把某个数值放入某种系统之前，实际标记我们是否对某个特定数值有把握。"
+ },
+ {
+  "seg": 146,
+  "start": 1200.215,
+  "end": 1208.117,
+  "speaker": "Unknown",
+  "en": "There's also document search, which is a basically expanded toolset, as I mentioned, around retrieval, BM25, grep, vector search, reading and scrolling.",
+  "zh": "还有文档搜索，这是一个基本扩展的工具集，正如我提到的，围绕检索、BM25、grep、向量搜索、阅读和滚动。"
+ },
+ {
+  "seg": 147,
+  "start": 1208.979,
+  "end": 1217.468,
+  "speaker": "Unknown",
+  "en": "And so all these capabilities are available within some of our commercial platforms as well as open source offerings, but I also just wanted to paint a picture of the general concepts out there today.",
+  "zh": "所有这些能力都在我们的一些商业平台以及开源产品中可用，但我也只是想描绘一下当今外面这些通用概念的全貌。"
+ },
+ {
+  "seg": 148,
+  "start": 1218.269,
+  "end": 1223.315,
+  "speaker": "Unknown",
+  "en": "So I'll skip this section about kind of what's next, and then maybe just go all the way to the end.",
+  "zh": "所以我会跳过关于接下来是什么的这一部分，然后也许直接跳到结尾。"
+ },
+ {
+  "seg": 149,
+  "start": 1223.435,
+  "end": 1230.362,
+  "speaker": "Unknown",
+  "en": "I know I'm a little bit over time, so really appreciate you all spending time today, and then let me just, how do I get to this part really quick?",
+  "zh": "我知道我稍微超时了，所以非常感谢大家今天花时间，然后让我，我怎么快速跳到这一部分？"
+ },
+ {
+  "seg": 150,
+  "start": 1230.803,
+  "end": 1231.103,
+  "speaker": "Unknown",
+  "en": "Oh, right.",
+  "zh": "哦,对了。"
+ },
+ {
+  "seg": 151,
+  "start": 1233.495,
+  "end": 1234.356,
+  "speaker": "Unknown",
+  "en": "I'm going to skip this piece.",
+  "zh": "我跳过这一部分。"
+ },
+ {
+  "seg": 152,
+  "start": 1234.736,
+  "end": 1235.817,
+  "speaker": "Unknown",
+  "en": "I'll put this online.",
+  "zh": "我会把这个放到网上。"
+ },
+ {
+  "seg": 153,
+  "start": 1236.858,
+  "end": 1240.321,
+  "speaker": "Unknown",
+  "en": "Our booth is at LG 47 if you guys are interested in stopping by.",
+  "zh": "我们的展位在 LG 47,如果大家有兴趣的话可以过来。"
+ },
+ {
+  "seg": 154,
+  "start": 1240.841,
+  "end": 1243.123,
+  "speaker": "Unknown",
+  "en": "And we're hosting a giant pickleball tournament today.",
+  "zh": "我们今天还举办一场大型匹克球锦标赛。"
+ },
+ {
+  "seg": 155,
+  "start": 1243.403,
+  "end": 1244.424,
+  "speaker": "Unknown",
+  "en": "So thank you for your time.",
+  "zh": "感谢大家的时间。"
+ }
+]

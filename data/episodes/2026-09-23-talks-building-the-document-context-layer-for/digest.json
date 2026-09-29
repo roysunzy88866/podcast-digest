@@ -1,0 +1,172 @@
+{
+  "title_zh": "为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG",
+  "tldr": "LlamaIndex 联合创始人兼 CEO Gerry 讲解 2026 年 RAG 如何演化为智能体 harness 加文档上下文层,并拆解解析、提取、搜索三层核心做法。",
+  "digest_md": "把 10 万亿页以上的人类知识锁在 PDF、PowerPoint、Word、Excel 里,而 AI 智能体连原始 PDF 的二进制都读不懂——这就是 LlamaIndex 选的赛道。说这话的人是 Gerry,LlamaIndex 的联合创始人兼 CEO,这家公司 2023 年以 RAG 框架起家,如今定位是「AI 智能体的主要文档基础设施」[00:12 Gerry]。在这场 AI Engineer World Fair 的演讲里,他把 2026 年的 RAG 拆成一个公式:智能体 harness + 上下文层,而他的公司押注的是后者。\n\n## 2026 年的 RAG:检索复杂性搬进了智能体层\n\n三年前的 naive RAG(就是在私有文档语料上搭一个简单聊天机器人)是一条固定流水线:切块、嵌入、放进向量数据库、做 naive 的 top-k 检索、再用 LLM 生成 [01:50 Gerry]。所有步骤都是固定的。Gerry 认为这条路已经变了,有两个关键变化。\n\n第一,智能体循环和工具使用好了太多,智能体推理和它与上下文交互的方式之间有了更清晰的分离。看 Claude Code、Claude Cowork、OpenClaw、Codex 这些「现代广义智能体」,检索的复杂性已经内置到智能体层里:与其用各种 hack 绕过 top-k 检索的局限,不如让智能体自己推理「最好的搜索关键词是什么」,即使检索工具很基础,它也能靠正确的查询自我循环、解决任务 [02:33 Gerry]。\n\n第二,上下文正在向栈的上层移动。GenAI 前两年半大家都在聊怎么管理上下文窗口、防止溢出;随着 compaction、长上下文等技术演进,讨论变成了怎么把正确的 MCP 服务器、技能和任务接到智能体上 [03:12 Gerry]。构建方式的抽象也在上移:2023 到 2025 年你还通过 Python、TypeScript 写代码定义程序,如今越来越多非技术职能的人用英语定义 runbook 和目标;未来甚至不必用英语定义任务,只需定义目标和评分标准,智能体会用所有可用的上下文自己达成目标 [03:58 Gerry]。\n\n所以他有个核心判断:上下文就是一切。你可以拥有一个无限聪明的智能体,但你能从中获得多少价值,取决于你给它什么——包括任务和目标,也包括对组织上下文宝库的访问:网页搜索、通过工具和 MCP 服务器的连接器、Snowflake 或 Databricks 数据仓库,以及那 90% 存在 SharePoint、Box、Dropbox、S3 里、被锁在文档容器中的非结构化数据 [05:38 Gerry]。\n\n## 文档 OCR 为什么难:PDF 是为打印设计的\n\n智能体无法直接理解原始 PDF 的二进制,因为这个格式是为显示和打印目的渲染的,不是为机器消费设计的:文本几乎是带坐标的单独字形;表格不以表格形式存储,而是边框线段加画在特定单元格位置上的文本;多栏布局下,PDF 里的字符顺序也不保证对应人类的阅读顺序 [08:45 Gerry]。文档 OCR 存在了 20 多年,就是要造出一种既对人类可解释、也对 AI 智能体可解释的数字化表示。Word 文档同样难:虽然比 PDF 结构化一些,但是自定义的定制 XML 格式,冗余标签很多,智能体仍需从中推断结构、提取正确的格式和语义元数据,同时忽略标签、渲染出页面整体结构 [10:07 Gerry]。\n\n现有两条路线各有短板。一是启发式、流水线式的方法(PyPDF 这类开源库),靠手写规则聚类文本、识别表格和段落;二是用 VLM(视觉语言模型)把文档一次性转成文本,读视觉结构效果不错,但在纯文本页面上会产生幻觉、成本极其高昂,还缺少语义和定位能力 [11:00 Gerry]。LlamaIndex 的做法是混合:深度理解文件容器和二进制的流水线,加上视觉方法,做成一个他们认为处于成本-准确率帕累托前沿的方案 [11:58 Gerry]。\n\n他还给出一个反直觉的判断:文档 OCR 的帕累托前沿,永远会比前沿模型在文档理解上的前沿更准、更便宜——因为文档是非常特定的数据类型,总有办法把 Gemini、GPT、Opus 的最新视觉理解能力蒸馏出来,变成精心定制、能大规模高精度处理文档的工作流 [12:16 Gerry]。他们的商业服务 LlamaParse 就是这么做的:优化底层的 PDF、Word、PowerPoint 引擎,一个精心调优的智能体框架在便宜的专门模型和前沿模型之间自动路由,再加参数高效、专注于表格图表等特定元素、经微调的文档 VLM [12:49 Gerry]。\n\n## 怎么验证:ParseBench 和三个准确率区间\n\n文档理解绝对没有 100% 被解决——Gerry 用自家基准 ParseBench 证明这一点:2000 页经过人工验证的页面,衡量表格、图表、内容忠实度、语义格式,优化目标是「AI 智能体实际如何理解文档」而非句法正确性;benchmark 了约 50 个前沿模型、开放权重模型和专门的 OCR 方案,页面在 parsebench.ai、Hugging Face 和 Kaggle 完全公开 [13:44 Gerry]。\n\n他按场景把需求分成三个区间 [15:08 Gerry]:\n\n- **高准确性区间**:保险、金融服务等受监管行业,需要 99 到接近 100% 的准确率——错误提取的后果是搞砸财务模型、甚至被标记欺诈;值得为每页多付一点钱换取更深入的智能体推理。\n- **低成本区间**:比如为 RAG 知识库索引 SharePoint 里每天持续更新的百万级文档。稍有出错没关系,只要智能体足够好,它可以深入文档、用正确的引用和溯源找回正确信息;关键是可扩展、成本最优的离线索引流水线。\n- **低延迟区间**:基于 VLM 的方法通常不快。如果用户向 Claude Cowork 一次性上传 1000 份文档、要求一分钟内处理完,这对包括自家在内的每一家 OCR 服务都很吃力;所以还需要极低延迟的方案,哪怕只是实时场景的辅助 [16:19 Gerry]。\n\n## LightParse:智能体循环里的免费快解析器\n\n针对低延迟这块,LlamaIndex 发布了 LightParse:基于 Rust、现有最快的开源解析器,完全免费(MIT 或 Apache 许可证),不使用 VLM,却是现有最准确的 markdown 解析器 [17:09 Gerry]。\n\n推荐的使用模式是「快慢结合」:把 LightParse 作为智能体循环里的默认工具,先对所有文档做一次极快的遍历扫描;当智能体真的需要深入某个有表格、有图表的页面、精确理解数值时,再调用 LlamaParse 这类基于 VLM 的慢工具仔细读 [17:31 Gerry]。LightParse 以一键安装的 skill 形式提供,可以补充任何更深入的 OCR 工具。\n\n## 解析之外:提取、搜索和可重复的工作流\n\n解析层之外还有语义与存储层。很多用例需要从文档大规模拿回结构化信息:处理百万张发票、报销单、收据、理赔单时,你要的是能放进下游数据库的结构化输出,本质是自动化人类扫描纸质文件、做数据录入的工作 [19:05 Gerry]。LlamaParse 的提取能力朝「低成本同时极高准确率」调优,每个提取输出都带细粒度引用、可回溯到源文档,流水线级运行时带置信度分数,能在数值入库前标记哪些值没把握 [19:41 Gerry]。再往上是文档搜索:检索、BM25、grep、向量搜索、阅读和滚动组成的扩展工具集 [20:00 Gerry]。\n\n平台分三层:文档解析层(把 PDF、PPT、Word 数字化成准确且省 token 的上下文)、语义与存储层(面向人类和智能体的文档管理——不靠人打开 Word,而是给智能体一个能捕获、存储、管理文档的接口)、智能体层的可重复文档工作流(发票处理、KYC、理赔这类固定流程,别总丢给通用智能体,应该做专门工作流、仔细调成本和准确率)[06:52 Gerry]。\n\n他还留了一份未解决问题清单:智能体原生文档格式、文档版本管理、文档编辑、「爬山作为服务」(hill climbing as a service)——离智能体和人类在文档上协作的完整软件还有一段路 [08:16 Gerry]。因时间关系这些没展开,幻灯片会放到网上。\n\n## 本集带走\n\n- **2026 年的 RAG = 智能体 harness + 上下文层**:别再手写 hack 绕过 top-k 检索的局限,把选检索词、自我循环这件事交给智能体本身。\n- **PDF 读不懂是格式问题,不是模型问题**:PDF 为打印设计,文本是带坐标的字形、表格是线段——解析层的目标是造出人和智能体都能解释的表示。\n- **专用 OCR 能同时打败前沿模型的价格和精度**:把 Gemini/GPT/Opus 的视觉能力蒸馏进定制工作流,一直会是文档这个特定数据类型上的帕累托前沿。\n- **按三个区间选方案**:受监管行业上 99%+ 准确率、舍得每页多花钱;海量索引走低成本离线流水线;实时上传场景需要极低延迟的轻解析。\n- **快慢结合的智能体模式**:先用免费的 LightParse 快速扫全部文档,需要精读表格图表时再调 VLM 级工具。\n- **可重复流程别交给通用智能体**:发票、KYC、理赔这类固定工作流,值得专门建工作流并精细调成本与准确率,还要带置信度分数和回溯源文档的引用。",
+  "quotes": [
+    {
+      "en": "In the end, you could have an infinitely smart agent, but your ability to actually get value out of this infinitely smart agent that's able to do more and more stuff end to end is actually giving it the right things to do.",
+      "zh": "归根结底,你可以拥有一个无限聪明的智能体,但你从这个能端到端做越来越多事情的无限聪明的智能体中真正获得价值的能力,其实是给它正确的任务去做。",
+      "timestamp": "05:38",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "There's over 10 trillion-plus pages of human-native knowledge locked up within PDFs, PowerPoints, Word documents, and Excel sheets.",
+      "zh": "有超过 10 万亿页的人类原生知识被锁在 PDF、PowerPoint、Word 文档和 Excel 表格中。",
+      "timestamp": "06:35",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "It's pretty clear these days more and more people are just building stuff using English, whether you're a software engineer or you're in a non-technical function like go-to-market, marketing.",
+      "zh": "如今很清楚的是,越来越多的人只是用英语来构建东西,无论你是软件工程师,还是身处 go-to-market、市场营销这样的非技术职能。",
+      "timestamp": "03:58",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "So the future will move towards a state where you actually might not even have to define the task in English, but actually more the goal and a scoring rubric, and then the agent will use all available contexts available to it to actually solve the task.",
+      "zh": "所以未来将走向一种状态:你甚至可能不必用英语定义任务,而是更多定义目标和评分标准,然后智能体会用它所有可用的上下文真正解决任务。",
+      "timestamp": "04:57",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "But the Pareto Frontier for document OCR will always be much more accurate and cheap compared to the Pareto Frontier for wherever the Frontier models are in terms of document understanding.",
+      "zh": "但文档 OCR 的帕累托前沿,相比前沿模型在文档理解方面所处的帕累托前沿,总是会精确得多也便宜得多。",
+      "timestamp": "12:19",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "There's what I call like the high accuracy regime where like you know some institutions basically need like 99 to almost 100% accuracy because basically the downside of incorrect extraction is you completely mess up your financial model.",
+      "zh": "有我所谓的高准确性区间,一些机构基本需要 99 到接近 100% 的准确性,因为错误提取的负面后果就是你完全搞砸你的财务模型。",
+      "timestamp": "15:13",
+      "speaker": "Jerry Liu"
+    },
+    {
+      "en": "We see documents as universal containers for unstructured context.",
+      "zh": "我们把文档视为非结构化上下文的通用容器。",
+      "timestamp": "06:31",
+      "speaker": "Jerry Liu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:38",
+      "speaker": "Gerry",
+      "en": "In the end, you could have an infinitely smart agent, but your ability to actually get value out of this infinitely smart agent that's able to do more and more stuff end to end is actually giving it the right things to do.",
+      "zh": "归根结底,你可以拥有一个无限聪明的智能体,但你从这个能端到端做越来越多事情的无限聪明的智能体中真正获得价值的能力,其实是给它正确的任务去做。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Gerry",
+      "en": "There's over 10 trillion-plus pages of human-native knowledge locked up within PDFs, PowerPoints, Word documents, and Excel sheets.",
+      "zh": "有超过 10 万亿页的人类原生知识被锁在 PDF、PowerPoint、Word 文档和 Excel 表格中。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Gerry",
+      "en": "They're designed for printing.",
+      "zh": "PDF 是为打印而设计的。"
+    },
+    {
+      "timestamp": "02:53",
+      "speaker": "Gerry",
+      "en": "You can start getting the agent to really reason about, for instance, the best keyword to search for, best search term to actually get back good results.",
+      "zh": "你可以开始让智能体真正推理,比如最好的搜索关键词是什么、最好的搜索词是什么,以真正拿回好的结果。"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Gerry",
+      "en": "It's pretty clear these days more and more people are just building stuff using English, whether you're a software engineer or you're in a non-technical function like go-to-market, marketing.",
+      "zh": "如今很清楚的是,越来越多的人只是用英语来构建东西,无论你是软件工程师,还是身处 go-to-market、市场营销这样的非技术职能。"
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "Gerry",
+      "en": "So the future will move towards a state where you actually might not even have to define the task in English, but actually more the goal and a scoring rubric, and then the agent will use all available contexts available to it to actually solve the task.",
+      "zh": "所以未来将走向一种状态:你甚至可能不必用英语定义任务,而是更多定义目标和评分标准,然后智能体会用它所有可用的上下文真正解决任务。"
+    },
+    {
+      "timestamp": "12:16",
+      "speaker": "Gerry",
+      "en": "But the Pareto Frontier for document OCR will always be much more accurate and cheap compared to the Pareto Frontier for wherever the Frontier models are in terms of document understanding.",
+      "zh": "但文档 OCR 的帕累托前沿,相比前沿模型在文档理解方面所处的帕累托前沿,总是会精确得多也便宜得多。"
+    },
+    {
+      "timestamp": "12:30",
+      "speaker": "Gerry",
+      "en": "It's because it's a very specific data type, and there's always ways to distill the latest visual understanding capabilities from Gemini, GPT, Opus.",
+      "zh": "这是因为它是一种非常特定的数据类型,而且总有办法把来自 Gemini、GPT、Opus 的最新视觉理解能力蒸馏出来。"
+    },
+    {
+      "timestamp": "14:47",
+      "speaker": "Gerry",
+      "en": "It's pretty clear, even if you look at this graph, that it's, like, you can increase the complexity of the benchmark, and that document understanding is definitely not 100% solved.",
+      "zh": "很明显,即使你看这张图,你可以不断增加基准测试的复杂度,而文档理解绝对没有被 100% 解决。"
+    },
+    {
+      "timestamp": "15:13",
+      "speaker": "Gerry",
+      "en": "There's what I call like the high accuracy regime where like you know some institutions basically need like 99 to almost 100% accuracy because basically the downside of incorrect extraction is you completely mess up your financial model.",
+      "zh": "有我所谓的高准确性区间,一些机构基本需要 99 到接近 100% 的准确性,因为错误提取的负面后果就是你完全搞砸你的财务模型。"
+    },
+    {
+      "timestamp": "15:56",
+      "speaker": "Gerry",
+      "en": "In these cases, you obviously want it to be not terribly inaccurate, but even if it's a little bit messed up, it's okay, too, because in the end, if you have a sufficiently good agent, it can always dive deeper into the document and surface the right information with the right citations and grounding.",
+      "zh": "在这些情况下,你显然希望它不是非常不准确,但即使有点搞砸了也没关系,因为最终,如果你有一个足够好的智能体,它总可以深入文档,用正确的引用和溯源找出正确的信息。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Gerry",
+      "en": "And I think a lot of times, if you have real-time file uploads, let's say you're using Claude Cowork, you upload 1,000 documents, and you need to process it within a minute, having a bunch of VLMs process that at scale is really tough for basically every single OCR service out there.",
+      "zh": "而且很多时候,如果你有实时文件上传,比如你在使用 Claude Cowork,上传 1000 份文档并需要在一分钟内处理完,让一堆 VLM 大规模处理,这对基本上每一家现有的 OCR 服务来说都非常困难。"
+    },
+    {
+      "timestamp": "17:11",
+      "speaker": "Gerry",
+      "en": "I don't know if you've been following some of the Twitter threads, but it is Rust-based.",
+      "zh": "我不知道你是否一直在关注 Twitter 上的一些帖子,但它是基于 Rust 的。"
+    },
+    {
+      "timestamp": "17:16",
+      "speaker": "Gerry",
+      "en": "It is the fastest open source parser out there.",
+      "zh": "它是现有最快的开源解析器。"
+    },
+    {
+      "timestamp": "17:21",
+      "speaker": "Gerry",
+      "en": "I think it's like MIT or Apache license.",
+      "zh": "我想它是 MIT 或 Apache 许可证。"
+    },
+    {
+      "timestamp": "17:24",
+      "speaker": "Gerry",
+      "en": "And it basically is the most accurate markdown parser out there that doesn't use a VLM or any sort of deeper model.",
+      "zh": "而且它基本上是现有最准确的 markdown 解析器,不使用 VLM 或任何更深入的模型。"
+    },
+    {
+      "timestamp": "07:46",
+      "speaker": "Gerry",
+      "en": "If there is a repeatable workflow like invoice processing, KYC, or claims, instead of always offloading it to a generalized agent, how do you actually develop some sort of specialized workflow for it and really carefully tune cost and accuracy to make sure that you achieve your goal?",
+      "zh": "如果存在一个可重复的工作流,比如发票处理、KYC 或理赔,与其总是把它丢给一个通用智能体,不如为它开发某种专门的工作流,并真正仔细地调整成本和准确率,确保你达成目标?"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Gerry",
+      "en": "And you get back granular citations all the way back to the source document for every extracted output.",
+      "zh": "而且针对每一个提取出的输出,你拿回的细粒度引用可以一路回溯到源文档。"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Gerry",
+      "en": "We see documents as universal containers for unstructured context.",
+      "zh": "我们把文档视为非结构化上下文的通用容器。"
+    },
+    {
+      "timestamp": "08:16",
+      "speaker": "Gerry",
+      "en": "There's still a variety of topics, yet left unsolved, from agent-native document formats, document versioning.",
+      "zh": "仍然有各种各样尚未解决的主题,从智能体原生文档格式到文档版本管理。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Gerry,LlamaIndex 的联合创始人兼 CEO。这家公司 2023 年以 RAG 框架起家,现在的定位是给 AI 智能体做文档基础设施。在 AI Engineer World Fair 的演讲上,Gerry 讲了一个很具体的问题:人类有超过 10 万亿页的知识,都锁在 PDF、PowerPoint、Word 和 Excel 里,可 AI 智能体连原始 PDF 的二进制都读不懂。这一期就聊这件事——2026 年的 RAG 变成了什么样,以及怎么让智能体真正读懂这些文档。\n\n先说说 2026 年的 RAG 变成了什么。三年前的 naive RAG,就是在自己的文档上搭一个简单聊天机器人,做法是一条固定流水线:切块、嵌入、放进向量数据库、做简单的 top-k 检索,再交给大语言模型生成答案,每一步都是写死的。Gerry 认为这条路已经变了,变化主要有两个。\n\n第一,智能体本身变强了。你看 Claude Code、Codex 这些现代智能体,检索的复杂性已经内置到智能体层里了——与其用各种技巧绕过 top-k 检索的局限,不如让智能体自己推理\"最好的搜索关键词是什么\",哪怕检索工具很基础,它也能靠正确的查询自我循环、把任务解决掉。\n\n第二,上下文正在向技术栈的上层移动。前两年大家都在聊怎么管理上下文窗口、防止溢出,现在随着压缩技术和长上下文的演进,问题变成了怎么把正确的工具、技能和任务接到智能体上。构建方式的抽象也在上移:以前要写 Python、TypeScript 来定义程序,现在越来越多非技术岗的人直接用英语定义目标和流程;未来甚至不必用英语定义任务,只需定义目标和评分标准,智能体会自己用所有可用的上下文去达成。\n\n所以就有了那个核心判断:上下文就是一切。你可以拥有一个无限聪明的智能体,但能从中获得多少价值,取决于你给它什么——包括任务和目标,也包括对组织上下文的访问,尤其是那些存在 SharePoint、Box、Dropbox、S3 里、被锁在文档容器中的非结构化数据。\n\n那问题来了:为什么智能体读不懂 PDF?这不是模型不够聪明,而是格式本身的问题。PDF 是为显示和打印设计的,不是为机器消费设计的:里面的文本几乎是一个个带坐标的单独字形;表格不以表格形式存储,而是边框线段加上画在特定位置的文本;多栏排版下,PDF 里字符的顺序也不保证对应人类的阅读顺序。Word 文档也不省心,虽然是自定义的 XML 格式,但冗余标签很多,智能体还是得从中推断结构、提取正确的语义,同时忽略那些标签。\n\n怎么解决?现有的两条路线各有短板。一条是启发式的流水线方法,像 PyPDF 这类开源库,靠手写规则识别表格和段落;另一条是用视觉语言模型把文档一次性转成文本,读视觉结构效果不错,但在纯文本页面上会产生幻觉,成本还极其高昂。LlamaIndex 的做法是混合:深度理解文件容器的流水线,加上视觉方法,做成一个处于成本和准确率平衡前沿上的方案。\n\n这里有个反直觉的判断值得记住:文档 OCR 的帕累托前沿,永远会比前沿模型在文档理解上的前沿更准、更便宜。道理是,文档是一个非常特定的数据类型,总有办法把 Gemini、GPT、Opus 的最新视觉能力蒸馏出来,变成精心定制、能大规模高精度处理文档的工作流。他们的商业服务 LlamaParse 就是这么做的:底层引擎精心优化,一个智能体框架在便宜的专门模型和前沿模型之间自动路由,再加上专注于表格图表、经微调的文档视觉模型。\n\n那怎么验证效果?文档理解绝对没有被百分之百解决。LlamaIndex 做了个叫 ParseBench 的基准:两千页经过人工验证的页面,衡量表格、图表、内容忠实度,优化目标是\"智能体实际怎么理解文档\",前后测了大约五十个模型和方案,页面完全公开。\n\n更有意思的是按场景分需求。Gerry 把需求分成三个区间。第一是高准确性区间,保险、金融服务这些受监管行业,需要 99 到接近百分之百的准确率,因为错误提取的后果是搞砸财务模型、甚至被标记欺诈,值得每页多花点钱。第二是低成本区间,比如给知识库索引每天更新的百万级文档,稍有出错没关系,只要智能体足够好,它能靠引用和溯源找回正确信息,关键是成本最优的离线流水线。第三是低延迟区间,基于视觉模型的方法通常不快,如果用户一次性上传一千份文档、要求一分钟内处理完,这对每一家 OCR 服务都很吃力。\n\n针对低延迟这块,LlamaIndex 发布了 LightParse:基于 Rust 的开源解析器,完全免费,不用视觉模型,却是现有最准确的 markdown 解析器。推荐的使用模式是快慢结合:把 LightParse 作为智能体循环里的默认工具,先对所有文档快速扫一遍;当智能体真的需要精确理解某个有表格有图表的页面时,再调用 LlamaParse 这类慢工具仔细读。\n\n解析之外,还有提取和搜索。处理百万张发票、报销单、理赔单时,你要的是能放进数据库的结构化输出,本质是自动化人类扫描纸质文件、做数据录入的工作。LlamaParse 的提取输出都带细粒度引用、可回溯到源文档,还带置信度分数,能在数值入库前标记哪些值没把握。\n\n把整件事拼起来,平台分三层:文档解析层,把 PDF、PPT、Word 数字化;语义与存储层,给智能体一个能捕获、存储、管理文档的接口;最上面是智能体层的可重复工作流——发票处理、KYC、理赔这类固定流程,别总丢给通用智能体,应该做专门工作流、仔细调成本和准确率。\n\n最后留一句话给你:归根结底,你可以拥有一个无限聪明的智能体,但你能从中获得多少价值,取决于你给它什么——尤其是给它正确的任务,和对那个装满了 10 万亿页知识的文档世界的访问。"
+}

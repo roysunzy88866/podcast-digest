@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/ztlXKfPCT3Q.m4a",
+  "duration_sec": 1088.398,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 212,
+  "asr": true,
+  "title_en": "You’re Not Thinking Big Enough: Rebuilding Food Systems with AI Agents — Cody Menefee, Firecrawl",
+  "podcast": "精选演讲",
+  "date": "2026-09-23",
+  "added": "2026-09-29",
+  "added_at": "2026-09-29T04:33:39.312Z",
+  "speaker_map": {
+    "SPEAKER_00": "Cody Menefee"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Cody Menefee"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧",
+  "guest_name": "Cody Menefee",
+  "guest_title": "Firecrawl 增长团队工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

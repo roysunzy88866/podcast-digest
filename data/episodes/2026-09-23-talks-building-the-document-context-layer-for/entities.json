@@ -1,0 +1,1096 @@
+{
+  "episode_id": "2026-09-23-talks-building-the-document-context-layer-for",
+  "podcast": "精选演讲",
+  "date": "2026-09-23",
+  "tags": [
+    "RAG",
+    "文档解析",
+    "AI 智能体",
+    "OCR",
+    "非结构化数据"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jerry-liu",
+      "type": "person",
+      "role": "guest",
+      "name": "Jerry Liu",
+      "file": "Jerry Liu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "llamaindex",
+      "type": "company",
+      "role": "company",
+      "name": "LlamaIndex",
+      "file": "LlamaIndex",
+      "primary": true,
+      "how_described": "本集说它 2023 年以 RAG 框架起家,如今是「AI 智能体的主要文档基础设施」,为智能体提供读取和操作文档的最佳平台,解锁海量文档上下文宝库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.453,
+            22.298
+          ],
+          "quote": "I'm Gerry, co-founder and CEO of LlamaIndex, and today I'm excited to give a talk called Building the Document Context Layer for AI Agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llamaparse",
+      "type": "concept",
+      "role": "concept",
+      "name": "LlamaParse",
+      "file": "LlamaParse",
+      "primary": true,
+      "how_described": "本集说它是 LlamaParse 围绕文档处理与提取的商业服务:优化底层 PDF/Word/PowerPoint 引擎,用智能体框架在便宜专门模型与前沿模型之间自动路由,加微调的文档 VLM,朝低成本、高准确率调优并带引用溯源和置信度分数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            794.786,
+            798.548
+          ],
+          "quote": "That's our commercial service called LlamaParse, which we'll talk about in a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            1021.673,
+            1028.715
+          ],
+          "quote": "So besides LlamaParse, which is kind of our commercial service around document processing and extraction, we also created this tool called LightParse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            1065.925,
+            1072.267
+          ],
+          "quote": "You can always do that and then equip a VLM-based parser like LlamaParse or other Frontier models as a tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            1172.221,
+            1175.743
+          ],
+          "quote": "We kind of created these capabilities within LlamaParse as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lightparse",
+      "type": "concept",
+      "role": "concept",
+      "name": "LightParse",
+      "file": "LightParse",
+      "primary": true,
+      "how_described": "本集说它是一个基于 Rust、完全免费(MIT/Apache 许可证)、不使用 VLM 的开源解析器,是现有最快、也是不用深度模型下最准确的 markdown 解析器,推荐作为智能体循环里的默认快解析工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            1021.673,
+            1028.715
+          ],
+          "quote": "So besides LlamaParse, which is kind of our commercial service around document processing and extraction, we also created this tool called LightParse.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parsebench",
+      "type": "concept",
+      "role": "concept",
+      "name": "parsebench",
+      "file": "parsebench",
+      "primary": true,
+      "how_described": "本集说它是 LlamaIndex 做的面向智能体的综合性企业文档基准测试:2000 页人工验证页面,衡量表格、图表、内容忠实度和语义格式,基准测试了约 50 个前沿模型和 OCR 方案,在 parsebench.ai、Hugging Face、Kaggle 完全公开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            824.299,
+            830.023
+          ],
+          "quote": "And so we've created this thing called parsebench, which is a comprehensive enterprise document benchmark for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            849.716,
+            873.182
+          ],
+          "quote": "If you look at parsebench.ai, which is a fully public page on the internet, it's also available on Hugging Face and Kaggle, we benchmark probably like 50 different frontier models, open weight models, specialized OCR solutions, and you really want the Pareto curve to kind of be towards the left and up in terms of accuracy, like extremely high accuracy, but also extremely low cost.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把它说成 2026 年已演化为「智能体 harness + 上下文层」:naive RAG 是切块、嵌入、向量数据库、top-k 检索再 LLM 生成的固定流水线,如今检索复杂性被内置进智能体层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            43.453,
+            45.775
+          ],
+          "quote": "One is, you know, what is RAG in 2026?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            64.28,
+            66.121
+          ],
+          "quote": "All right, RAG in 2026.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            69.762,
+            71.263
+          ],
+          "quote": "You might have seen us as a RAG framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            71.303,
+            77.465
+          ],
+          "quote": "We started in 2023, got pretty popular, kind of create a lot of techniques around like advanced RAG, that type of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            93.097,
+            99.82
+          ],
+          "quote": "All right, so what does RAG actually mean in 2026, and how are agents actually inhaling and adjusting context today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            100.801,
+            109.665
+          ],
+          "quote": "This is a snapshot from actually three years ago when I first gave a talk on this, and naive RAG was basically just building a simple chatbot over your private corpus of data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            946.552,
+            956.375
+          ],
+          "quote": "Let's say you're just trying to index the million-plus documents per day that's being continually updated within your SharePoint just for RAG knowledge-based search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体循环和工具使用已大幅变好,检索复杂性被内置进智能体层;智能体能自己推理最佳搜索词、自我循环解决任务,还能用快慢结合的方式解析文档。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            22.439,
+            39.07
+          ],
+          "quote": "Really a big shout-out to the AI Engineer World Fair for hosting, and if you've seen some of my earlier talks from the previous AI Engineer conferences, we've kind of traced through a lot of the evolution of how, you know, agent advances have correlated with, you know, how you inject context into evolving applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            46.556,
+            50.92
+          ],
+          "quote": "Two, that basically decomposes into an agent harness plus a context layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            134.669,
+            139.814
+          ],
+          "quote": "Of course, the agent landscape has changed quite a bit and quite dramatically since then.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            139.974,
+            146.96
+          ],
+          "quote": "One is agent loops and tool use have gotten a lot, a lot better, especially as both the models and agent harnesses have increased.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            147.501,
+            152.445
+          ],
+          "quote": "And there's basically a cleaner separation now between agent reasoning and how they actually interact with context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            153.106,
+            167.712
+          ],
+          "quote": "If you look at what I call kind of the modern generalized agent, which includes, you know, all your favorite applications and tools out there from Claude Code, Claude Cowork, OpenClaw, Codex, and a few others, you know, the retrieval complexity has started to get baked into the agent layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            173.535,
+            181.543
+          ],
+          "quote": "You can start getting the agent to really reason about, for instance, the best keyword to search for, best search term to actually get back good results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            181.983,
+            188.99
+          ],
+          "quote": "Even if the retrieval tools are basic, the agent can input the right queries to basically loop upon itself and help solve the task at hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            192.504,
+            201.289
+          ],
+          "quote": "There's been a lot of conversations, I think, for the first two and a half years of GenAI of how do you actually manage the agent context window, make sure it doesn't overflow, that type of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            201.77,
+            216.339
+          ],
+          "quote": "But I think as, you know, a lot of the evolving techniques, compaction, long context have evolved, I think more and more of the conversation is actually how do you just hook up the right MCP servers and skills and tasks to the agent to enable it to do various types of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            217.157,
+            219.858
+          ],
+          "quote": "And so that also applies to agent orchestration, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            297.539,
+            309.389
+          ],
+          "quote": "So the future will move towards a state where you actually might not even have to define the task in English, but actually more the goal and a scoring rubric, and then the agent will use all available contexts available to it to actually solve the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            310.942,
+            327.03
+          ],
+          "quote": "So with that overall framing, let's talk about what kind of is a pretty core focus for us as a company, which is basically helping to unlock unstructured context to basically feed into these agents even as they get really, really good, both in terms of the core model capabilities as well as the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            338.652,
+            351.234
+          ],
+          "quote": "In the end, you could have an infinitely smart agent, but your ability to actually get value out of this infinitely smart agent that's able to do more and more stuff end to end is actually giving it the right things to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            402.37,
+            409.654
+          ],
+          "quote": "And at the same time, agents are also starting to generate exponentially more data in terms of, you know, more agent-native formats in terms of Markdown and HTML.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            412.459,
+            416.983
+          ],
+          "quote": "For us, building an agent-native document platform contains three main pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            442.984,
+            455.612
+          ],
+          "quote": "Instead of humans opening up Microsoft Word using your file system or file storage, how do you create some sort of agent interface that actually captures, stores all your documents and enables agents to actually manage and operate over them in various ways?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            456.672,
+            466.496
+          ],
+          "quote": "And then there's still room for actually kind of repeatable document workflows at the agent layer that you can actually encode within this type of platform too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            466.976,
+            480.922
+          ],
+          "quote": "If there is a repeatable workflow like invoice processing, KYC, or claims, instead of always offloading it to a generalized agent, how do you actually develop some sort of specialized workflow for it and really carefully tune cost and accuracy to make sure that you achieve your goal?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            496.245,
+            501.47
+          ],
+          "quote": "There's still a variety of topics, yet left unsolved, from agent-native document formats, document versioning,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            529.808,
+            537.753
+          ],
+          "quote": "But the reason this problem even exists is an agent cannot actually take the raw PDF file binary and make sense of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            567.263,
+            577.012
+          ],
+          "quote": "And so if you're kind of an agent that's trying to make sense of this like document, you're gonna have a really hard time actually trying to reason about what character and what shapes like map to what.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            622.862,
+            627.643
+          ],
+          "quote": "Like you don't actually need to ingest all the tags to actually have the agent make sense of the Word document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            636.947,
+            643.594
+          ],
+          "quote": "But also being able to ignore the tags and actually being able to render the document so that the agent can see the overall structure of the page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            643.694,
+            653.325
+          ],
+          "quote": "It's still a generally hard problem and there's a lot of uplift you can get by actually parsing it into a more interpretable format instead of just using the native OXML and feeding that to an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            956.415,
+            969.84
+          ],
+          "quote": "In these cases, you obviously want it to be not terribly inaccurate, but even if it's a little bit messed up, it's okay, too, because in the end, if you have a sufficiently good agent, it can always dive deeper into the document and surface the right information with the right citations and grounding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            1018.527,
+            1021.269
+          ],
+          "quote": "And so that's what I call kind of being in the agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            1051.702,
+            1057.263
+          ],
+          "quote": "And so this is kind of nice because you can use it as a default in the assistive agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            1093.82,
+            1105.882
+          ],
+          "quote": "This is available as a one-click installable skill, complements kind of any other deeper vLLM-based OCR tool you want to use, and we kind of designed to make it as fast as possible and also easy to plug in to your favorite AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            1124.986,
+            1134.45
+          ],
+          "quote": "I think due to time, I'll probably kind of just skip some of the unexplored areas like agent-native document formats, hill climbing as a service, and others, but I'll share the full set of slides online.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说「上下文就是一切」:无限聪明的智能体能产生多少价值,取决于你给它什么——任务目标、网页搜索、M服务器连接器、数据仓库,以及锁在文档容器里的非结构化数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.453,
+            22.298
+          ],
+          "quote": "I'm Gerry, co-founder and CEO of LlamaIndex, and today I'm excited to give a talk called Building the Document Context Layer for AI Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            22.439,
+            39.07
+          ],
+          "quote": "Really a big shout-out to the AI Engineer World Fair for hosting, and if you've seen some of my earlier talks from the previous AI Engineer conferences, we've kind of traced through a lot of the evolution of how, you know, agent advances have correlated with, you know, how you inject context into evolving applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            46.556,
+            50.92
+          ],
+          "quote": "Two, that basically decomposes into an agent harness plus a context layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            51.26,
+            63.33
+          ],
+          "quote": "So kind of going into the modern document context layer for agents and giving you a little bit of sense of kind of some of the core capabilities today, especially unlocking, you know, the vast trove of document-based data today and give you a glimpse of what's next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            81.286,
+            90.97
+          ],
+          "quote": "We deliver the best platform for agents to actually read and operate over documents, and we see ourselves as unlocking basically the vast troves of document context, even as agents and models themselves get better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            93.097,
+            99.82
+          ],
+          "quote": "All right, so what does RAG actually mean in 2026, and how are agents actually inhaling and adjusting context today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            147.501,
+            152.445
+          ],
+          "quote": "And there's basically a cleaner separation now between agent reasoning and how they actually interact with context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            189.662,
+            192.464
+          ],
+          "quote": "Number two, context is moving up the stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            192.504,
+            201.289
+          ],
+          "quote": "There's been a lot of conversations, I think, for the first two and a half years of GenAI of how do you actually manage the agent context window, make sure it doesn't overflow, that type of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            201.77,
+            216.339
+          ],
+          "quote": "But I think as, you know, a lot of the evolving techniques, compaction, long context have evolved, I think more and more of the conversation is actually how do you just hook up the right MCP servers and skills and tasks to the agent to enable it to do various types of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            259.44,
+            272.031
+          ],
+          "quote": "So in terms of just like general evolving knowledge work patterns, and this kind of forms a foundation for how we think about the context layer, you know, in the past maybe you could use AI to just like ask simple questions, get it resolved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            310.942,
+            327.03
+          ],
+          "quote": "So with that overall framing, let's talk about what kind of is a pretty core focus for us as a company, which is basically helping to unlock unstructured context to basically feed into these agents even as they get really, really good, both in terms of the core model capabilities as well as the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            327.69,
+            334.031
+          ],
+          "quote": "And we'll focus a lot on our core focus area, which is document context, but of course there's plenty of other sources of context as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            334.691,
+            337.872
+          ],
+          "quote": "In fact, we do think context really is everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            355.795,
+            360.496
+          ],
+          "quote": "But also access to the vast troves of organizational context available to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            361.176,
+            383.66
+          ],
+          "quote": "Whether that is web search, web context, whether that is connectors through tools and skills and MCP servers, whether it's connectors through Snowflake or Databricks warehouses, or for us, whether it's access to the vast trove, like the 90% of documents are stored within SharePoint, Box, Dropbox, S3, all the unstructured data that's locked up within document containers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            384.56,
+            390.183
+          ],
+          "quote": "And so for us, you know, we care a lot about how do you actually build the right tools and unlock the right context here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            391.864,
+            395.426
+          ],
+          "quote": "We see documents as universal containers for unstructured context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            417.464,
+            434.599
+          ],
+          "quote": "It contains the document parsing layer, actually digitalizing the vast troves of PDFs, PowerPoints, and Word documents into kind of accurate, token-efficient context and feeding it either markdown, metadata, and other forms to actually enable agents to do stuff over your documents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            816.072,
+            824.178
+          ],
+          "quote": "There's just a lot of complexity in a lot of these document types, and if you're actually trying to unlock context at scale, most of the models are not up for the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            896.727,
+            905.009
+          ],
+          "quote": "But, you know, you fundamentally need to kind of advance a lot of the core capabilities to make sure that you're able to process and unlock the vast strobes of enterprise context out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            1072.767,
+            1093.16
+          ],
+          "quote": "So what these agents will do is they'll do a fast pass over all the documents first, kind of just scan through all the context extremely efficiently, and then if it actually needs to dive into a page with tables, with charts, and actually needs to more deeply understand the values, it'll use a VLM-based tool, slower processing, to actually make sure it reads the information correctly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "document-ocr",
+      "type": "concept",
+      "role": "concept",
+      "name": "文档 OCR (document OCR)",
+      "file": "文档 OCR",
+      "primary": true,
+      "how_described": "本集说文档 OCR 存在了 20 多年,目的是造出对人类和 AI 智能体都可解释的数字化表示,因为 PDF 是为打印设计、智能体读不懂原始二进制;其帕累托前沿会永远比前沿模型更准、更便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            483.573,
+            495.845
+          ],
+          "quote": "So, when we talk about the concepts today, in terms of these three layers, we'll talk about this concept of document OCR, which is one of the core concepts of this track, to document extraction, document search, and document workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            516.042,
+            521.747
+          ],
+          "quote": "So we'll start with the first section and maybe start kind of with the document OCR piece.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            522.227,
+            525.41
+          ],
+          "quote": "First off, you know, document OCR is hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            577.673,
+            590.625
+          ],
+          "quote": "So the whole point of document OCR, you know, it's been around for like 20 plus years, is to really try to create some sort of digitalized while interpretable representation that's both interpretable to humans as well as AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            736.42,
+            750.143
+          ],
+          "quote": "A quick note on this, I'll probably just skim the high level, but the Pareto Frontier for document OCR will always be much more accurate and cheap compared to the Pareto Frontier for wherever the Frontier models are in terms of document understanding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vlm",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLM",
+      "file": "VLM",
+      "primary": true,
+      "how_described": "本集说用 VLM 把文档一次性转成文本的视觉方法读视觉结构不错,但在纯文本页面会幻觉、成本极高、缺语义和定位能力;LlamaIndex 用参数高效的微调文档 VLM 作为混合方案一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            689.805,
+            694.89
+          ],
+          "quote": "There's also, of course, using a VLM to one shot a document into text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            979.924,
+            984.826
+          ],
+          "quote": "One thing about VLM-based approaches, though, is that they're typically not very fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            1003.655,
+            1017.666
+          ],
+          "quote": "I think in general there's also some sort of need for an extremely low latency solution so that you can actually process stuff in real time even if you have like deeper VLM enabled processing for kind of like deeper visual inspection and analysis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            1044.36,
+            1051.482
+          ],
+          "quote": "And it basically is the most accurate markdown parser out there that doesn't use a VLM or any sort of deeper model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            1065.925,
+            1072.267
+          ],
+          "quote": "You can always do that and then equip a VLM-based parser like LlamaParse or other Frontier models as a tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            1072.767,
+            1093.16
+          ],
+          "quote": "So what these agents will do is they'll do a fast pass over all the documents first, kind of just scan through all the context extremely efficiently, and then if it actually needs to dive into a page with tables, with charts, and actually needs to more deeply understand the values, it'll use a VLM-based tool, slower processing, to actually make sure it reads the information correctly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-servers",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP servers)",
+      "file": "MCP 服务器",
+      "primary": true,
+      "how_described": "本集说随着 compaction 和长上下文演进,讨论从管理上下文窗口变成怎么把正确的 MCP 服务器、技能和任务接到智能体上,作为组织上下文宝库的连接器之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            201.77,
+            216.339
+          ],
+          "quote": "But I think as, you know, a lot of the evolving techniques, compaction, long context have evolved, I think more and more of the conversation is actually how do you just hook up the right MCP servers and skills and tasks to the agent to enable it to do various types of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            361.176,
+            383.66
+          ],
+          "quote": "Whether that is web search, web context, whether that is connectors through tools and skills and MCP servers, whether it's connectors through Snowflake or Databricks warehouses, or for us, whether it's access to the vast trove, like the 90% of documents are stored within SharePoint, Box, Dropbox, S3, all the unstructured data that's locked up within document containers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "long-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "长上下文 (long context)",
+      "file": "长上下文",
+      "primary": false,
+      "how_described": "本集提到随着 compaction、长上下文等技术演进,上下文讨论正向栈上层移动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            201.77,
+            216.339
+          ],
+          "quote": "But I think as, you know, a lot of the evolving techniques, compaction, long context have evolved, I think more and more of the conversation is actually how do you just hook up the right MCP servers and skills and tasks to the agent to enable it to do various types of tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": false,
+      "how_described": "本集在描述 naive RAG 流水线时提到切块、嵌入后放进向量数据库、做 naive top-k 检索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            117.669,
+            121.11
+          ],
+          "quote": "You chunk it up, embed it, and put it into a vector database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集把它列为智能体获取组织上下文的连接器之一:通过 Snowflake 或 Databricks 数据仓库的连接器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            361.176,
+            383.66
+          ],
+          "quote": "Whether that is web search, web context, whether that is connectors through tools and skills and MCP servers, whether it's connectors through Snowflake or Databricks warehouses, or for us, whether it's access to the vast trove, like the 90% of documents are stored within SharePoint, Box, Dropbox, S3, all the unstructured data that's locked up within document containers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集把它列为智能体获取组织上下文的连接器之一:通过 Snowflake 或 Databricks 数据仓库的连接器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            361.176,
+            383.66
+          ],
+          "quote": "Whether that is web search, web context, whether that is connectors through tools and skills and MCP servers, whether it's connectors through Snowflake or Databricks warehouses, or for us, whether it's access to the vast trove, like the 90% of documents are stored within SharePoint, Box, Dropbox, S3, all the unstructured data that's locked up within document containers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pypdf",
+      "type": "concept",
+      "role": "concept",
+      "name": "PyPDF",
+      "file": "PyPDF",
+      "primary": false,
+      "how_described": "本集把它举为启发式、流水线式开源文档解析库的例子,靠手写规则聚类文本、识别表格和段落。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            679.795,
+            689.284
+          ],
+          "quote": "A lot of basic techniques if you use open source libraries like PyPDF, PyBeePDF, and, of course, some of the more recent approaches basically use this type of approach.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它列为「现代广义智能体」的代表之一,并举例可以把文档上传给它、用 LightParse 快速处理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            153.106,
+            167.712
+          ],
+          "quote": "If you look at what I call kind of the modern generalized agent, which includes, you know, all your favorite applications and tools out there from Claude Code, Claude Cowork, OpenClaw, Codex, and a few others, you know, the retrieval complexity has started to get baked into the agent layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            1057.963,
+            1065.465
+          ],
+          "quote": "Let's say you're uploading a bunch of documents to Claude Code, Claude Codework, Codex, and you want it to process 1,000 PDFs extremely quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集把它列为「现代广义智能体」的代表之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            153.106,
+            167.712
+          ],
+          "quote": "If you look at what I call kind of the modern generalized agent, which includes, you know, all your favorite applications and tools out there from Claude Code, Claude Cowork, OpenClaw, Codex, and a few others, you know, the retrieval complexity has started to get baked into the agent layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            1057.963,
+            1065.465
+          ],
+          "quote": "Let's say you're uploading a bunch of documents to Claude Code, Claude Codework, Codex, and you want it to process 1,000 PDFs extremely quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": false,
+      "how_described": "本集提到 LightParse 基于 Rust,是现有最快的开源解析器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            1031.716,
+            1036.098
+          ],
+          "quote": "I don't know if you've been following some of the Twitter threads, but it is Rust-based.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bm25",
+      "type": "concept",
+      "role": "concept",
+      "name": "BM25",
+      "file": "BM25",
+      "primary": false,
+      "how_described": "本集在讲文档搜索时提到它是扩展工具集的一部分:检索、BM25、grep、向量搜索、阅读和滚动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            1200.215,
+            1208.117
+          ],
+          "quote": "There's also document search, which is a basically expanded toolset, as I mentioned, around retrieval, BM25, grep, vector search, reading and scrolling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": false,
+      "how_described": "本集在讲文档搜索工具集时提到向量搜索,与检索、BM25、grep 并列。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            1200.215,
+            1208.117
+          ],
+          "quote": "There's also document search, which is a basically expanded toolset, as I mentioned, around retrieval, BM25, grep, vector search, reading and scrolling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

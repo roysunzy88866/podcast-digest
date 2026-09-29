@@ -134,9 +134,9 @@ QM 的两个关键设计决策：一是把系统的大脑从沙箱里拉出来�
 
 **换个口味**
 
+- [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同概念:harness、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:OpenClaw、Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2026-08-20-talks-prototyping-as-leadership-how-a-cto-ship|管理者日程突然能写代码了：CTO 的通宵智能体工作流]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:harness、智能体 (agent)</span>
 
 </div>
 </div>

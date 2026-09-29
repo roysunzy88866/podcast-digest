@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Upwork":1,"智能体":350,"MCP 服务器":4,"开源模型":22,"自由职业":1,"AI 编排师":1,"ChatGPT":81,"Claude":70,"Anthropic":151}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Upwork":1,"智能体":353,"MCP 服务器":2,"开源模型":22,"自由职业":1,"AI 编排师":1,"ChatGPT":81,"Claude":70,"Anthropic":152}</script>
 
 <script>
 (function(){

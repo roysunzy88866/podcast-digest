@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloud Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloud Code">CL</div><div class="pi"><h1 class="pt">Cloud Code</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloud Code">CL</div><div class="pi"><h1 class="pt">Cloud Code</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(03:42起):本集提到它是大家通用的智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(04:42起):本集提到它(转写误作 Cloud Code/OpenClaw),嘉宾将其比作「法拉利」,指出当你坐下来使用它时,你其实是在雇佣、培训和管理一支由 Markdown 组成的劳动力
 - **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]]**(00:07起):本集把它说成:给 Claude 完整终端权限的智能体编程工具。主持人/嘉宾透露,随 Opus 5 发布,他们删除了其中 80% 的系统提示,让模型直接自主运行。
+- **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(00:07起):本集说它是『每个人写代码的默认方式』,核心 harness 包含沙箱、auto 模式、computer use、MCP 等,并可通过 CloudMods 定制。
 
 ## ① 提到它的金句
 
@@ -25,19 +26,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为概念(提及)
 - [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]] — 作为概念
+- [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[提示词注入]] · [[沙箱]] · [[Codex]] · [[Zico Kolter]] · [[Garry Tan]] · [[Boris Cherny]] · [[Matt Fredrikson]] · [[技能文件]] · [[Opus 5]]
+[[智能体]] · [[沙箱]] · [[Anthropic]] · [[提示词注入]] · [[Codex]] · [[Zico Kolter]] · [[Garry Tan]] · [[Boris Cherny]] · [[Thariq Shihipar]] · [[Matt Fredrikson]]
 
-<script type="application/json" class="pd-epn">{"智能体":350,"提示词注入":18,"沙箱":63,"Codex":61,"Zico Kolter":1,"Garry Tan":2,"Boris Cherny":3,"Matt Fredrikson":1,"技能文件":4,"Opus 5":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":353,"沙箱":64,"Anthropic":152,"提示词注入":18,"Codex":62,"Zico Kolter":1,"Garry Tan":2,"Boris Cherny":3,"Thariq Shihipar":2,"Matt Fredrikson":1}</script>
 
 <script>
 (function(){
