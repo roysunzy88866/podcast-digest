@@ -1,0 +1,834 @@
+{
+  "episode_id": "2026-09-27-talks-building-self-improving-agent-software-f",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "tags": [
+    "智能体",
+    "软件工厂",
+    "技能",
+    "持久记忆",
+    "模型路由"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "suraj-gupta",
+      "type": "person",
+      "role": "guest",
+      "name": "Suraj Gupta",
+      "file": "Suraj Gupta",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.946,
+            13.767
+          ],
+          "quote": "My name is Suraj Gupta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "warp",
+      "type": "company",
+      "role": "company",
+      "name": "Warp",
+      "file": "Warp",
+      "primary": true,
+      "how_described": "本集说 Warp 从现代终端起家、有约一百万活跃用户,如今在做云端智能体平台 Oz,让团队能搭建软件工厂;其客户端代码库已开源并完全以工厂方式运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.827,
+            15.587
+          ],
+          "quote": "I lead harness development at Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            15.988,
+            22.771
+          ],
+          "quote": "In case you haven't heard of Warp before, we started off by building a state-of-the-art agentic development environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            200.556,
+            203.258
+          ],
+          "quote": "So this is actually a skill that we've used internally at Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            275.555,
+            281.117
+          ],
+          "quote": "It might be someone from Warp, an employee of Warp, commenting on the issue, giving the agent feedback on what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            399.463,
+            406.306
+          ],
+          "quote": "So in Warp, or in Oz, rather, like I mentioned, we built out a cloud agent platform where you can run agents in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            500.539,
+            507.887
+          ],
+          "quote": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            554.487,
+            560.93
+          ],
+          "quote": "So choosing which models you use for which tasks, that is actually very important and something that we've been working on at Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            562.03,
+            565.571
+          ],
+          "quote": "So in Warp, you can actually use our out of the box model routers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            584.198,
+            587.439
+          ],
+          "quote": "Let me show you all that experience in Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            597.018,
+            599.261
+          ],
+          "quote": "So here I have my Warp desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            599.441,
+            608.432
+          ],
+          "quote": "And you can see that alongside being able to define models or being able to use Warp's auto models is one option, like these models here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            703.019,
+            706.482
+          ],
+          "quote": "So here is kind of like a high-level overview of how this works in Warp today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体当作软件工厂的执行单元:内循环智能体实际执行任务(如分诊、修 issue),外循环智能体负责观察和改进,云平台上每个智能体都可挂记忆存储。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            29.334,
+            35.717
+          ],
+          "quote": "And nowadays, we're building a cloud agent platform to enable teams to build software factories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            109.911,
+            117.721
+          ],
+          "quote": "Self-improvement is a pretty broad umbrella, but I'm going to focus on three concrete ways that agents can improve over time, agent factories can improve over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            131.533,
+            136.659
+          ],
+          "quote": "You describe a procedure to your agent that you expect it to have to do a task over and over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.44,
+            142.525
+          ],
+          "quote": "For example, let's say you're building a triage agent, which is a pretty common thing you might build in a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            161.828,
+            165.151
+          ],
+          "quote": "So how do we fix this and let the agent improve over time using that skill?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            165.931,
+            169.253
+          ],
+          "quote": "Well, one way to do it is to deploy an outer loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            173.856,
+            179.74
+          ],
+          "quote": "The idea is that your inner loop agent is the thing that's actually applying the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            181.621,
+            193.469
+          ],
+          "quote": "And then you have this other outer loop agent that is observing your inner loop agent's runs and improving its skill over time by looking for mistakes it made or looking at feedback that the human has given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.363,
+            214.249
+          ],
+          "quote": "And so this is an example of a skill that's backing a triage agent that we have today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            218.121,
+            233.846
+          ],
+          "quote": "You get an issue that comes in on GitHub, and you want to automatically run an agent to figure out what sort of information did the user not provide that is going to help us figure out if this is something that we should build, an existing issue that we might actually just want to de-dupe against, or something else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            239.604,
+            246.346
+          ],
+          "quote": "And then we have a workflow that actually runs that triage agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            253.689,
+            260.431
+          ],
+          "quote": "And then here's the actual outer loop agent, which is about looking at the work that the triage agent has done and improving it over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            260.871,
+            262.392
+          ],
+          "quote": "So the idea is that the agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            263.212,
+            272.715
+          ],
+          "quote": "It looks at the decisions that the inner loop triage agent made, and it collects feedback signals, which might be thumbs up or thumbs down on the issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            275.555,
+            281.117
+          ],
+          "quote": "It might be someone from Warp, an employee of Warp, commenting on the issue, giving the agent feedback on what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            289.134,
+            295.179
+          ],
+          "quote": "And so we end up basically updating our inner loop skill with this outer loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            315.654,
+            325.68
+          ],
+          "quote": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            343.988,
+            347.57
+          ],
+          "quote": "So what happens when your sentry agent looks for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            360.518,
+            368.243
+          ],
+          "quote": "Your agent might get lucky and be able to figure out the same root cause that it did the first time around, but that's not guaranteed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            378.85,
+            382.313
+          ],
+          "quote": "You can think of this as a fact store scoped to an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            382.333,
+            390.519
+          ],
+          "quote": "Your agent runs, and similar to the skill improvement loop, you have an outer loop agent that's going to extract facts, learnings, outcomes from your inner loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            390.839,
+            394.522
+          ],
+          "quote": "So that way future runs of the agent can lean on what's already been done in the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            399.463,
+            406.306
+          ],
+          "quote": "So in Warp, or in Oz, rather, like I mentioned, we built out a cloud agent platform where you can run agents in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            414.748,
+            423.194
+          ],
+          "quote": "In this case, I have a Sentry agent that has collected some memories over time about root cause analysis that it's done in the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            461.645,
+            474.852
+          ],
+          "quote": "And then when your agents continue to run, so in this case I have this sentry agent that's done a bunch of runs after it's created those memories, it actually can lean on those memories in the future when it's triaging new issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            475.193,
+            483.557
+          ],
+          "quote": "So in this case you'll notice that this agent ran, it did a bunch of work to do some root cause analysis, and then it ultimately reported back on which memories it used.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说软件工厂是把开发工作从分诊一直到生产的自动化流水线,核心问题是工厂本身如何随时间自我改进、变得更好更快更高效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            137.44,
+            142.525
+          ],
+          "quote": "For example, let's say you're building a triage agent, which is a pretty common thing you might build in a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            169.493,
+            173.396
+          ],
+          "quote": "And this is what we've done in our own internal software factory that's been really productive.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是给智能体的程序性记忆——描述一个要反复执行的流程;技能会随时间过时,需要外循环智能体持续修订并通过 pull request 更新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            144.695,
+            148.358
+          ],
+          "quote": "And you give it a skill on how you want it to go about reproducing issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            157.205,
+            161.328
+          ],
+          "quote": "And the skill that you previously gave it becomes dated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            161.828,
+            165.151
+          ],
+          "quote": "So how do we fix this and let the agent improve over time using that skill?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            173.856,
+            179.74
+          ],
+          "quote": "The idea is that your inner loop agent is the thing that's actually applying the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            181.621,
+            193.469
+          ],
+          "quote": "And then you have this other outer loop agent that is observing your inner loop agent's runs and improving its skill over time by looking for mistakes it made or looking at feedback that the human has given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            200.556,
+            203.258
+          ],
+          "quote": "So this is actually a skill that we've used internally at Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.363,
+            214.249
+          ],
+          "quote": "And so this is an example of a skill that's backing a triage agent that we have today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            289.134,
+            295.179
+          ],
+          "quote": "And so we end up basically updating our inner loop skill with this outer loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            301.465,
+            304.987
+          ],
+          "quote": "So in step four, you'll see we edit the triage skill, and then we open a pull request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            305.488,
+            315.174
+          ],
+          "quote": "So that means that all of the improvements to the inner loop skill are going to be tracked through Git, so you get full observability into how that skill is transformed over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            315.654,
+            325.68
+          ],
+          "quote": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            382.333,
+            390.519
+          ],
+          "quote": "Your agent runs, and similar to the skill improvement loop, you have an outer loop agent that's going to extract facts, learnings, outcomes from your inner loop agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outer-loop-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "外循环智能体 (outer loop agent)",
+      "file": "外循环智能体",
+      "primary": true,
+      "how_described": "本集说外循环智能体观察内循环智能体的运行,收集点赞点踩、评论等反馈信号和错误,综合后改进内循环技能或提取记忆,改动经 Git 追踪并由真人审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            165.931,
+            169.253
+          ],
+          "quote": "Well, one way to do it is to deploy an outer loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            181.621,
+            193.469
+          ],
+          "quote": "And then you have this other outer loop agent that is observing your inner loop agent's runs and improving its skill over time by looking for mistakes it made or looking at feedback that the human has given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            253.689,
+            260.431
+          ],
+          "quote": "And then here's the actual outer loop agent, which is about looking at the work that the triage agent has done and improving it over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            289.134,
+            295.179
+          ],
+          "quote": "And so we end up basically updating our inner loop skill with this outer loop agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            315.654,
+            325.68
+          ],
+          "quote": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            382.333,
+            390.519
+          ],
+          "quote": "Your agent runs, and similar to the skill improvement loop, you have an outer loop agent that's going to extract facts, learnings, outcomes from your inner loop agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "persistent-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久记忆 (persistent memory)",
+      "file": "持久记忆",
+      "primary": true,
+      "how_described": "本集说持久记忆是限定于某个智能体的事实存储,由外循环从运行中提取事实和教训供未来复用,可版本管理、可追溯来源,并跨所有 harness 通用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            118.181,
+            123.868
+          ],
+          "quote": "I'm going to start with skills, then we'll talk about persistent memory, and then I'll finish off by talking about model routing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            332.623,
+            335.284
+          ],
+          "quote": "Let me talk about persistent memory now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            375.048,
+            377.67
+          ],
+          "quote": "So that's where something like persistent memory comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            500.539,
+            507.887
+          ],
+          "quote": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说模型路由是为不同任务选不同模型——简单任务用旗舰模型跑成本高到不可持续;可自定义规则把任务类别映射到模型,并用 best.k 实测验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            118.181,
+            123.868
+          ],
+          "quote": "I'm going to start with skills, then we'll talk about persistent memory, and then I'll finish off by talking about model routing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            526.723,
+            528.927
+          ],
+          "quote": "The last thing I want to talk about here is model routing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            534.174,
+            537.159
+          ],
+          "quote": "Well, first I want to touch on why model routing is important in a factory in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            612.445,
+            621.253
+          ],
+          "quote": "Models, which basically boil down to a set of rules that you can give to us, and we will make decisions about model routing based on those rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            706.562,
+            709.945
+          ],
+          "quote": "So internally, we have our model routing rules.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "triage-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "分诊智能体 (triage agent)",
+      "file": "分诊智能体",
+      "primary": true,
+      "how_described": "本集说分诊智能体是软件工厂里常见的东西,负责对新 issue 判断该不该构建、可否去重合并、用户漏报了什么信息,是技能改进循环的运行实例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            137.44,
+            142.525
+          ],
+          "quote": "For example, let's say you're building a triage agent, which is a pretty common thing you might build in a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.363,
+            214.249
+          ],
+          "quote": "And so this is an example of a skill that's backing a triage agent that we have today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            239.604,
+            246.346
+          ],
+          "quote": "And then we have a workflow that actually runs that triage agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            253.689,
+            260.431
+          ],
+          "quote": "And then here's the actual outer loop agent, which is about looking at the work that the triage agent has done and improving it over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            263.212,
+            272.715
+          ],
+          "quote": "It looks at the decisions that the inner loop triage agent made, and it collects feedback signals, which might be thumbs up or thumbs down on the issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            315.654,
+            325.68
+          ],
+          "quote": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到持久记忆跨所有 harness 通用,包括 Warp 自家专有 harness、Claude Code、Codex。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            500.539,
+            507.887
+          ],
+          "quote": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到持久记忆跨所有 harness 通用,Codex 是其中被点名的一个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            500.539,
+            507.887
+          ],
+          "quote": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

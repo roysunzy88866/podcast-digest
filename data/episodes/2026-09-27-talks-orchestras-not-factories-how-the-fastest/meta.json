@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-27-talks-orchestras-not-factories-how-the-fastest",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/TRfzFJCJ7ZE.m4a",
+  "duration_sec": 1054.939,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 208,
+  "asr": true,
+  "title_en": "Orchestras, Not Factories: How the Fastest Builders Work — Charlie Holtz, Conductor",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "added": "2026-09-30",
+  "added_at": "2026-09-30T14:09:37.288Z",
+  "speaker_map": {
+    "SPEAKER_00": "Charlie Holtz"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Charlie Holtz"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "管弦乐团而非工厂：编码智能体时代的六条构建者原则",
+  "guest_name": "Charlie Holtz",
+  "guest_title": "Conductor 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

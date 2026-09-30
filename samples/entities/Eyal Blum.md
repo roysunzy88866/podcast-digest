@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"智能体":361,"验证":9,"规划（而非提示）":1,"TDD":2,"测试金字塔":1,"护栏":67,"Playwright MCP":2,"云端智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"智能体":364,"验证":9,"规划（而非提示）":1,"TDD":2,"测试金字塔":1,"护栏":67,"Playwright MCP":2,"云端智能体":1}</script>
 
 <script>
 (function(){

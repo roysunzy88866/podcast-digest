@@ -118,7 +118,7 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
 
 - [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Mistral、Stripe、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

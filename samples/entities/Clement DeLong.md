@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":25,"开源":27,"前沿模型":21,"本地模型":3,"模型路由":7,"蒸馏":1,"推理":61,"护栏":67,"Anthropic":153,"OpenAI":140}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":25,"开源":27,"前沿模型":21,"本地模型":3,"模型路由":8,"蒸馏":1,"推理":62,"护栏":67,"Anthropic":155,"OpenAI":142}</script>
 
 <script>
 (function(){

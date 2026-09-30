@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":140,"Anthropic":153,"AGI":26,"Meta":37,"Google":50,"LLM":49,"NVIDIA":46,"智能体":361,"SpaceX":18,"Oracle":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":142,"Anthropic":155,"AGI":26,"Meta":38,"Google":51,"LLM":49,"NVIDIA":46,"智能体":364,"SpaceX":18,"Oracle":8}</script>
 
 <script>
 (function(){

@@ -1,0 +1,114 @@
+===标题===
+WorkOS 软件工厂：别只数 PR,要衡量成果
+===导语===
+WorkOS 工程师 Ryan 讲解他们如何搭建自动化「软件工厂」TARS 与 Horizon，把工程流程而非仅代码产出编码进自动化。
+===正文===
+把沙箱、AI 编码智能体和一句提示词拼在一起，自动生成 PR 再合并——这是如今各家「软件工厂」的标准配置，Ramp 去年底的博客更是点燃了整个行业。但 WorkOS 的工程师 Ryan 在这场演讲里给出了一个冷静的判断：这套标准玩法，他们试了，效果和工程师在自己笔记本上跑 Claude Code 几乎无法区分 [03:36 Ryan]。问题出在哪？出在衡量标准上——行业里晒的「AI 生成的 PR 占比」「代码量」全都是**产出指标**，而产出可能掩盖 PR 总量整体上升的事实，很难说清产出是否真的在驱动成果 [01:49 Ryan]。
+
+所以 WorkOS 给自己的软件工厂定了一个不同的目标：衡量**成果**——是否加速了功能交付、是否构建和发布得更多。他们的愿景是「给每位工程师配一个属于自己的小型工程团队」[02:50 Ryan]。而要兑现这个愿景，光让工厂产代码不够，得把工程师做产品的**其他工作也自动化进去**。
+
+## 两套系统：TARS 管交互，Horizon 管编排
+
+他们的工厂拆成两部分。**TARS** 是用户与编码智能体的交互层，嵌入 Slack、Linear 和 GitHub——通过订阅 webhook,它不光生成代码，还能跟踪项目进度 [04:22 Ryan]。**Horizon** 是基础设施编排层，与 Inspect、Minions 等别家系统类似，但前面挂了一个自建的 MCP 网关，这个网关后来被证明极具变革性(下面细讲)[04:42 Ryan]。
+
+有了 webhook,自主性就上来了。举个例子：Linear 里的工单可以定义依赖关系(一张阻塞另一张)，TARS 收到「工单完成」的 webhook 后会自动接手下一张——团队通过规划过程画好执行地图，TARS 就能自主执行 [05:38 Ryan]。更妙的是，每张工单完成后还可以让 TARS 重新评估整个项目：「现在的计划里还缺哪些工单？」因为干着干着就会发现原计划的缺口，团队用智能体本身让计划持续保鲜 [06:08 Ryan]。
+
+## 把「产品工程文化」编码进工厂
+
+WorkOS 跑的是产品工程文化：工程师对产品职能负责，团队里**没有产品经理** [06:38 Ryan]。他们的核心仪式是一份叫 **Hilltop** 的文档——本质上是一份 PRD(产品需求文档)，既定义项目目的，也纳入客户反馈、需求来源、竞品分析和早期设计稿，并勾勒主要里程碑 [06:48 Ryan]。
+
+过去这是工程师手写的，现在他们专门做了一个叫「PM」的智能体：基于几句简短规格说明起草 Hilltop 初稿、补充上下文、阅读人类审阅意见，然后接手实现并拆分成工单——每个环节人类都可以介入评论、给指导 [08:15 Ryan]。这解决的是「冷启动」问题：不必从头创建一堆资源，跨过最难的那道坎。
+
+实际流程长这样：Ryan 在 Slack 里发一条命令，附几句话描述想做什么，TARS 就自动创建全套资源——Linear 项目、Notion 文档草稿、决策日志、开放问题 [09:16 Ryan]。他作为主导产品工程师再介入，把定义不清的地方补齐，交回给 TARS 执行。坦白说智能体并不完美，有时会严重高估项目范围，得砍掉不少——但在已有基础上做删减，比工程师自己从零搭所有基础组件简单得多 [10:37 Ryan]。另外这些工单和文档不锁定自家智能体:Devon(转写稿作 Devon,应为 Devin——一款广受欢迎的编码智能体)和本地跑的 Claude Code 都能通过 MCP 拿到同样的文档当上下文 [11:12 Ryan]。
+
+## MCP 网关：意外的杠杆
+
+这是 Ryan 认为最值得投入的一块。他们自建了一个 MCP 网关，叫「上下文引擎」——它接入所有内部系统，还会构建系统提示词，说明这些工具怎么用、什么时候用 [12:10 Ryan]。比如接 Snowflake(他们的主数据湖)时，他们在里面建了描述产品使用情况和客户对话的语义表，然后通过 MCP 服务器的工具描述告诉智能体：这些是什么表、想回答哪类问题就查哪张表 [12:27 Ryan]。这给了智能体方向感，让它理解团队怎么组织和使用自己的工具。
+
+意外收获是：这个原本为编码智能体设计的网关，现在被大量内部工具复用——员工直接从 Slack 查询它做数据分析和客户分析 [13:15 Ryan]。Ryan 的建议很直接：如果你刚开始搞软件工厂，非常值得投一个内部 MCP 网关，你会发现在很多其他场景里它同样有用。
+
+## 更多的自动化，和自我改进的工厂
+
+同样的思路还延伸到别处：Slack 进来的 bug 请求，TARS 听到后自动分诊、实现、开修复 PR [14:17 Ryan];客户在 Slack 共享频道提的支持请求，TARS 能看代码、从代码角度判断客户可能卡在哪 [14:37 Ryan]。最激进的一步：他们正在用 TARS 构建自己的沙箱基础设施，从沙箱即服务迁移出来自己持有——为的是深度控制会话信息、在基础设施各部分之间调度工作负载 [14:59 Ryan]。下一步是**记忆层**：一份常青上下文，记录公司每个人在做什么、负责什么产品，以及 WorkOS 组织层面的工作语义，并且能同时接入工厂和其他 AI 工具 [15:29 Ryan]。
+
+因为基础设施是自己的，他们能看到里面发生的一切，并用这些信息**自我改进工厂**：把智能体指向会话记录，找出人们使用工厂时的技能差距、智能体犯错暴露出该建什么技能、半年前写的技能是否已过时 [17:28 Ryan]。
+
+## 成果怎么衡量
+
+回到开头的主张，他们的成果指标包括：交付速度、缺陷率和恢复时间(担心自动化给产品引入不稳定)[16:28 Ryan];还有经验性的信号——工程师是否真的在用 TARS、是否主动从本地环境迁到云端沙箱 [16:46 Ryan]。
+
+## 本集带走
+
+- **别用产出指标自欺**：PR 数量和 AI 代码占比掩盖不了「是否真正驱动成果」；WorkOS 看的是交付加速、缺陷率、工程师是否自愿用这套系统。
+- **工厂不该只产代码**：把 PRD 拆解、工单管理、bug 分诊、支持请求这些工程周边流程一并编码进自动化，才能从「代码工厂」升级为「产品工程工厂」。
+- **用智能体解决冷启动**：让 AI 起草 PRD、拆工单、建项目骨架，人在已有草稿上修改远快于从零开始——草稿有偏差就砍范围，代价很小。
+- **早期投资一个内部 MCP 网关**：不仅给智能体提供「哪张表查什么」的方向感，还会成为全公司数据与客户分析的杠杆。
+- **工单+文档要开放**：别锁死在自家智能体上，让 Devin、本地 Claude Code 等都能通过 MCP 拿到同样上下文。
+- **自持基础设施换来自我改进**：拥有沙箱和会话数据后，可以用智能体分析会话，发现技能缺口和过时的技能。
+
+> 【背景】MCP(Model Context Protocol)是一种让 AI 智能体连接外部工具和数据源的开放协议;PR 指 pull request(代码合并请求);PRD 即产品需求文档。
+===金句===
+01:49 | Ryan
+And this is just really output metrics that this can actually disguise how well these systems are working.
+ZH | 这些只是产出指标，它们实际上可能掩盖这些系统运行得好不好。
+
+02:50 | Ryan
+We think that the dream of the software factory is that it gives each of our engineers a small engineering team for themselves.
+ZH | 我们认为软件工厂的梦想是，它给每一位工程师一个属于他们自己的小型工程团队。
+
+03:43 | Ryan
+It was actually pretty indistinguishable for us.
+ZH | 对我们来说，实际上几乎无法区分。
+
+03:55 | Ryan
+It's not sufficient that the factory is producing code.
+ZH | 工厂能产出代码是不够的。
+
+05:07 | Ryan
+We're starting to get to that level of autonomy where our factory is performing product engineering work, not just code work.
+ZH | 我们开始达到那种自主性水平——我们的工厂在执行产品工程工作，而不仅仅是代码工作。
+
+06:13 | Ryan
+And we want to continuously keep our plan fresh by using the agent itself.
+ZH | 我们想通过使用智能体本身来持续保持我们的计划是新鲜的。
+
+08:00 | Ryan
+So we don't need a human to be shepherding this agent through every single step of the life cycle.
+ZH | 所以我们不需要一个人在整个生命周期的每一步都在牧羊式地引导这个智能体。
+
+08:44 | Ryan
+But it's really about that cold start problem where we can kind of get over the hump of creating all these different resources.
+ZH | 但这真正是关于那个冷启动问题——我们可以翻过创建所有这些不同资源这道坎。
+
+10:29 | Ryan
+It's that blank page problem with writing.
+ZH | 这就是写作中的空白页问题。
+
+10:46 | Ryan
+That's a lot simpler for an engineer to add input into rather than them spending time to set up all these primitives themselves.
+ZH | 对工程师来说，在已有基础上添加输入，比花时间自己搭建所有这些基础组件要简单得多。
+
+13:28 | Ryan
+This has been an incredible piece of leverage for a lot of our internal teams.
+ZH | 这已经成为我们很多内部团队的一件了不起的杠杆。
+
+13:37 | Ryan
+So if you're just getting started with thinking about a software factory, it is well worth your time to invest in an internal MCP gateway server that both connects all your tools
+ZH | 所以如果你刚开始考虑软件工厂，非常值得花时间投资一个内部 MCP 网关服务器，它既连接你所有的工具。
+
+15:29 | Ryan
+And we want this to be an evergreen context about what every person in the company is working on, what team do they sit in, what products are they responsible for, and then at an organization level, what is the semantics about WorkOS and how we do our work.
+ZH | 我们希望这是一份常青的上下文，记录公司里每个人在做什么工作、在哪个团队、负责哪些产品，然后在组织层面，记录关于 WorkOS 以及我们如何开展工作的语义。
+
+17:04 | Ryan
+We use this information to self-improve the factory.
+ZH | 我们利用这些信息来自我改进工厂。
+
+18:12 | Ryan
+We really think about our software engineering practices and processes, and we want to encode those in automation.
+ZH | 我们非常认真地思考我们的软件工程实践和流程，并且我们想把这些编码到自动化中。
+
+18:29 | Ryan
+I would really love to hear how you're handling authorization. This is something I didn't talk about because we haven't figured it out yet for ourselves.
+ZH | 我非常想听听你们是如何处理授权的。这一点我没讲到，因为我自己还没想明白。
+===END===

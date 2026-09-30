@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":15,"SpaceX":18,"NVIDIA":46,"发射成本":1,"H100":1,"基准测试":15,"相变材料":1,"辐射":1,"McKinsey":6}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":16,"SpaceX":18,"NVIDIA":46,"发射成本":1,"H100":1,"基准测试":15,"相变材料":1,"辐射":1,"McKinsey":6}</script>
 
 <script>
 (function(){

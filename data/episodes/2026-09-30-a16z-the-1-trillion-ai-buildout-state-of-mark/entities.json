@@ -1,0 +1,1191 @@
+{
+  "episode_id": "2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark",
+  "podcast": "The a16z Show",
+  "date": "2026-09-30",
+  "tags": [
+    "市场状况",
+    "AI 基础设施",
+    "智能体",
+    "私募市场",
+    "软件行业"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "host",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            65.692,
+            74.52
+          ],
+          "quote": "Today, David George, Sarah Wang, Santiago Rodriguez, and Alex Imerman walk through 25 key charts from our latest State of the Markets presentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            124.215,
+            125.216
+          ],
+          "quote": "I'm David George.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sarah-wang",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sarah Wang",
+      "file": "Sarah Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            65.692,
+            74.52
+          ],
+          "quote": "Today, David George, Sarah Wang, Santiago Rodriguez, and Alex Imerman walk through 25 key charts from our latest State of the Markets presentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            125.436,
+            130.42
+          ],
+          "quote": "I'm here with my colleagues, Sarah Wang, Alex Emmerman, and Santiago Rodriguez.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "santiago-rodriguez",
+      "type": "person",
+      "role": "cohost",
+      "name": "Santiago Rodriguez",
+      "file": "Santiago Rodriguez",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            65.692,
+            74.52
+          ],
+          "quote": "Today, David George, Sarah Wang, Santiago Rodriguez, and Alex Imerman walk through 25 key charts from our latest State of the Markets presentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            125.436,
+            130.42
+          ],
+          "quote": "I'm here with my colleagues, Sarah Wang, Alex Emmerman, and Santiago Rodriguez.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alex-imerman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex Imerman",
+      "file": "Alex Imerman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            65.692,
+            74.52
+          ],
+          "quote": "Today, David George, Sarah Wang, Santiago Rodriguez, and Alex Imerman walk through 25 key charts from our latest State of the Markets presentation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 与 Anthropic 合并年化收入攀升到惊人程度,新增收入已超过有史以来最好的软件公司;Sam Altman 的大规模算力承诺曾被批鲁莽、如今被视为极具远见,甚至因需求太猛暂停 Pro 套餐新订阅",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1052.284,
+            1060.272
+          ],
+          "quote": "So this is not a new chart, but it is one of my favorite charts, which is the combined scale of revenue for OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1070.782,
+            1077.964
+          ],
+          "quote": "I think the point here, you can see it in the numbers, OpenAI, Anthropic, their combined annualized revenue has climbed to an extraordinary degree.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2491.162,
+            2496.147
+          ],
+          "quote": "The OpenAI hugging face incident was an eye-opening event for many.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2608.966,
+            2617.652
+          ],
+          "quote": "So if you actually look at the top six companies today, you know, Anthropic, OpenAI, Databricks, Stripe, Waymo, Revolut by last round valuation, they add up to about $2.4 trillion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2939.632,
+            2944.557
+          ],
+          "quote": "A lot of the attention goes to OpenAI, SpaceX, AI, and Anthropic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它与 OpenAI 的合并收入图是团队每月都得更新、过时得极快的最爱图表,也是私募市场估值前六、合计约 2.4 万亿美元的巨头之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1052.284,
+            1060.272
+          ],
+          "quote": "So this is not a new chart, but it is one of my favorite charts, which is the combined scale of revenue for OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1070.782,
+            1077.964
+          ],
+          "quote": "I think the point here, you can see it in the numbers, OpenAI, Anthropic, their combined annualized revenue has climbed to an extraordinary degree.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2608.966,
+            2617.652
+          ],
+          "quote": "So if you actually look at the top six companies today, you know, Anthropic, OpenAI, Databricks, Stripe, Waymo, Revolut by last round valuation, they add up to about $2.4 trillion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2939.632,
+            2944.557
+          ],
+          "quote": "A lot of the attention goes to OpenAI, SpaceX, AI, and Anthropic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集把它列为五大超大规模云厂商之一(2026 年合计 CapEx 约 7800 亿美元),并说 Microsoft、Google、Amazon 合计有约 1.7 万亿美元的云积压订单",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            441.65,
+            450.256
+          ],
+          "quote": "If you just look at the hyperscalers, Alphabet, Amazon, Meta, Microsoft, and Oracle, their CapEx in 2026 is about $780 billion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 119,
+          "t": [
+            632.993,
+            640.535
+          ],
+          "quote": "So Microsoft, Google, and Amazon have about 1.7 trillion of combined cloud backlog together.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            696.371,
+            700.772
+          ],
+          "quote": "I know on the podcast recently that you did with Gavin, Microsoft came up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1182.415,
+            1192.091
+          ],
+          "quote": "And I would just say that most of the enterprises that we speak with anecdotally, their exposure to AI is still mostly with Microsoft Copilot, which just shows you how far they have to go.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说它在财报电话会上解释了 J 曲线动态——先建数据中心外壳再买芯片,GPU 有效经济寿命比预期长;还拒绝接入 Muse,因其 700 亿美元高利润广告业务建立在用户到网站点击广告之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            441.65,
+            450.256
+          ],
+          "quote": "If you just look at the hyperscalers, Alphabet, Amazon, Meta, Microsoft, and Oracle, their CapEx in 2026 is about $780 billion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 119,
+          "t": [
+            632.993,
+            640.535
+          ],
+          "quote": "So Microsoft, Google, and Amazon have about 1.7 trillion of combined cloud backlog together.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            657.579,
+            668.882
+          ],
+          "quote": "You know, you could look to Amazon's, actually Amazon's latest earnings call, where they did a really good job of explaining this sort of J-curve dynamic where the useful life of GPUs is actually pretty, or TPUs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1812.09,
+            1813.51
+          ],
+          "quote": "Like, think about Amazon Prime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1968.503,
+            1976.829
+          ],
+          "quote": "Last week, there was a lot of news where Amazon said, you know, no thank you to Muse, but Instacart said, yes, please.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1977.169,
+            1985.735
+          ],
+          "quote": "And if you think about Amazon, X, AWS, and Instacart, and look at their advertising revenue, it outpaces all of their operating profit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1990.959,
+            1998.705
+          ],
+          "quote": "But for Amazon, you know, how many incremental new orders or certainly customers am I gonna get from connecting to Muse?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2048.012,
+            2062.988
+          ],
+          "quote": "So to your point, you know, Amazon has an over 70 billion advertising business that's extremely high margin flow through that, you know, is totally predicated on the fact that consumers go to the website and click on the ads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2140.441,
+            2148.645
+          ],
+          "quote": "I do think like the positive sum view of this is, number one, maybe that $70 billion that's spent on advertising on Amazon just finds a different channel and, you know, goes elsewhere.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 搜索至今有韧性,是因为变现最高的广告词(买保险、找酒店)恰恰是 AI 还无法替用户执行行动的场景;且与 Meta 各自在发达市场每用户每年赚 200 美元以上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            632.993,
+            640.535
+          ],
+          "quote": "So Microsoft, Google, and Amazon have about 1.7 trillion of combined cloud backlog together.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2067.833,
+            2075.834
+          ],
+          "quote": "You know, Meta and Google famously advertise, you know, probably best out of any of the internet platforms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2090.317,
+            2095.118
+          ],
+          "quote": "In the case of Google, you know, it's funny, like the whole talk track around Google,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2095.958,
+            2100.563
+          ],
+          "quote": "Two years ago when all of this just happened was, oh my gosh, what's going to happen to Google search business?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集把它列为五大超大规模云厂商之一,并提到它在路易斯安那与社区合作降低电力成本的真实案例,以及股价低谷跌破 100 美元时没人信其 AR/VR 投入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            441.65,
+            450.256
+          ],
+          "quote": "If you just look at the hyperscalers, Alphabet, Amazon, Meta, Microsoft, and Oracle, their CapEx in 2026 is about $780 billion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            963.228,
+            972.673
+          ],
+          "quote": "Dina Powell went on a podcast recently from Meta and talked about the Louisiana site that they did where they worked with the community to lower electricity costs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2067.833,
+            2075.834
+          ],
+          "quote": "You know, Meta and Google famously advertise, you know, probably best out of any of the internet platforms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2083.956,
+            2087.316
+          ],
+          "quote": "You know, in the case of Meta, it's sort of a, you know, it's an entertainment application.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2197.169,
+            2200.831
+          ],
+          "quote": "The meta gains have far exceeded any of the losses from the marketplaces.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2703.124,
+            2706.447
+          ],
+          "quote": "You know, obviously Meta's stock price, you know, at the nadir,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集说 Databricks 用智能路由(为每个任务选合适的模型)做到比最强单一模型多解决问题、成本低 35%;也是私募市场前六大巨头之一,靠大额新产品押注带来营收加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1200.717,
+            1211.481
+          ],
+          "quote": "Sarah, you did this great, you know, conversation with Ali Goadzi at Databricks with Martine, and he talked about how, you know, the AI can know a lot about the world but know very little about your company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1675.123,
+            1677.565
+          ],
+          "quote": "So take Databricks as an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2608.966,
+            2617.652
+          ],
+          "quote": "So if you actually look at the top six companies today, you know, Anthropic, OpenAI, Databricks, Stripe, Waymo, Revolut by last round valuation, they add up to about $2.4 trillion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2683.168,
+            2693.356
+          ],
+          "quote": "But, you know, the way you see it manifest in the numbers in companies like Databricks or Stripe is, you know, massive, massive new bets in new product areas.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 的 SaaS 客户数据显示 2026 年增长在加速,Stripe 自己称之为「文艺复兴」,与公开市场的 SaaS 末日叙事形成反差",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1502.75,
+            1513.775
+          ],
+          "quote": "Yeah, one of the interesting things that we've talked about a lot and, you know, again, some of our most forward-leaning companies like Stripe have discussed with us is, you know, where are they actually putting their incremental AI investment dollars?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2579.68,
+            2590.048
+          ],
+          "quote": "And there's a little bit of a narrative violation in Stripe's SaaS customer data, which actually shows growth accelerating into 2026 across both young and mature businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2590.713,
+            2592.254
+          ],
+          "quote": "Stripe calls it the renaissance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2608.966,
+            2617.652
+          ],
+          "quote": "So if you actually look at the top six companies today, you know, Anthropic, OpenAI, Databricks, Stripe, Waymo, Revolut by last round valuation, they add up to about $2.4 trillion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2683.168,
+            2693.356
+          ],
+          "quote": "But, you know, the way you see it manifest in the numbers in companies like Databricks or Stripe is, you know, massive, massive new bets in new product areas.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "servicenow",
+      "type": "company",
+      "role": "company",
+      "name": "ServiceNow",
+      "file": "ServiceNow",
+      "primary": true,
+      "how_described": "本集把它当作现有大公司在 AI 变现上的好例子:报告了超过 10 亿美元的 AI ACV,智能体部署增长 9 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1487.594,
+            1489.734
+          ],
+          "quote": "And ServiceNow is a good example, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1578.335,
+            1583.603
+          ],
+          "quote": "Sarah referenced with ServiceNow seeing massive agentic usage.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集说 Shopify 的 AI sidekick 让商家入驻 15 天内达到五笔订单(其追踪的留存关键节点)的比例提升了 8%,成为业务的有意义助推",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1424.431,
+            1428.274
+          ],
+          "quote": "You know, in the revenue side, an interesting one that I found was Shopify here, who",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1443.605,
+            1450.109
+          ],
+          "quote": "And that is kind of a metric that Shopify tracks is once you reach five orders, you know, you're going to stick around and you're going to retain on Shopify.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": true,
+      "how_described": "本集用 CrowdStrike 作为例子,说明更多软件和智能体创造新的安全与监控需求,网络安全是扛住分化的公开市场软件品类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2447.475,
+            2451.576
+          ],
+          "quote": "And you can see, you know, the call out on CrowdStrike on the right hand.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "CapEx",
+      "file": "CapEx",
+      "primary": true,
+      "how_described": "本集说五大超大规模云厂商 2026 年 CapEx 约 7800 亿美元、2027 年起预计每年超一万亿,并主张把超大规模云厂商的 CapEx 看作是别人的订单簿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            80.743,
+            83.845
+          ],
+          "quote": "How hyperscaler CapEx is approaching $1 trillion a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            186.11,
+            201.319
+          ],
+          "quote": "The areas that we're going to discuss today are macro, so where we'll talk about CapEx, data centers, accelerating demand at a high level, and then on-the-ground takeaways where we will discuss models, apps, and some vertical deep dives.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            282.156,
+            283.196
+          ],
+          "quote": "You're seeing it in CapEx.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            435.625,
+            441.049
+          ],
+          "quote": "So I mentioned the scale of the CapEx build-out in the context of the railroads.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            441.65,
+            450.256
+          ],
+          "quote": "If you just look at the hyperscalers, Alphabet, Amazon, Meta, Microsoft, and Oracle, their CapEx in 2026 is about $780 billion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            520.26,
+            525.201
+          ],
+          "quote": "This one is another one that just points to what is happening in the CapEx side of things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            525.801,
+            533.464
+          ],
+          "quote": "Successive forecasts for the five largest hyperscalers CapEx have moved sharply higher in pretty short succession.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            685.007,
+            689.889
+          ],
+          "quote": "Yeah, I know some of the hyperscalers have frankly gotten dinged for raising debt for CapEx.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            758.406,
+            765.268
+          ],
+          "quote": "And as we talk about this CapEx for the hyperscalers, we should think of it as someone else's order book.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体已经到来:任务多步骤、多步骤需多次模型调用,解释了 OpenRouter 上智能体 token 使用量 14 倍增长;智能体还在改变消费发现与广告格局",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1593.838,
+            1599.381
+          ],
+          "quote": "That helps explain the 14x growth in agent token usage on OpenRouter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1623.406,
+            1637.912
+          ],
+          "quote": "Yeah, I think your broader point is just that lower costs make it practical now for an agent to try, check its work, try again, and you can just open up a ton of tasks where maybe reasoning or tool use would have been just prohibitively expensive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1639.152,
+            1647.018
+          ],
+          "quote": "And I think this is especially important in cases where reliability is maybe the de facto reason you would or would not use an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1954.835,
+            1958.816
+          ],
+          "quote": "First, how much incremental demand can I get from an AI agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2024.302,
+            2030.844
+          ],
+          "quote": "If I offload that to an agent, all of a sudden there's no clicks and hopefully more GMV.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理成本下降让智能体可以「尝试-检查-重试」,打开大量原本因成本不可行的任务,尤其在可靠性决定用不用智能体的场景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            96.571,
+            108.577
+          ],
+          "quote": "At the same time, power users are pulling away, agents are consuming more tokens, inference costs are falling, and the fastest moving companies are finding ways to turn those improvements into both growth and better margins.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集专门怼了数据中心迷思:美国研究显示数据中心容量每增 10%,居民电价反降 40 个基点,因为电网是共享固定成本体系;部分数据中心供应链要排到 2028 年",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            283.216,
+            285.137
+          ],
+          "quote": "This is heavily covered in the data center build out.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            613.548,
+            620.851
+          ],
+          "quote": "There are certain elements in the data center supply chain where you can't get access to materials or products until 2028.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            671.644,
+            677.411
+          ],
+          "quote": "And so, you know, you have to build out the shell, the data center, you know, that's a certain amount of time you have to buy the chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 145,
+          "t": [
+            787.296,
+            794.481
+          ],
+          "quote": "And we, I mean, we've been spending more of our time looking at businesses serving this industrial boom and everywhere along the data center supply chain.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 171,
+          "t": [
+            917.024,
+            922.727
+          ],
+          "quote": "It may seem counterintuitive, but a data center can help lower your electricity rate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            923.507,
+            931.894
+          ],
+          "quote": "A recent US study showed that for every 10% increase in data center capacity, residential rates went down by 40 bps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            932.275,
+            948.008
+          ],
+          "quote": "You should think about it as a power grid is a shared fixed cost base, poles, wires, substations, and so a large stable customer, like a data center, can help spread those costs across more units of electricity.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hyperscalers",
+      "type": "concept",
+      "role": "concept",
+      "name": "超大规模云厂商 (hyperscalers)",
+      "file": "超大规模云厂商",
+      "primary": true,
+      "how_described": "本集说超大规模云厂商正把近期所有经营现金流投入建设,自由现金流短期被压制、共识预测 2028 年起恢复,且连续预测不断被大幅上调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            211.285,
+            220.008
+          ],
+          "quote": "Hyperscalers are investing all of their near-term operating cashflow to build out this capacity for demand that continues to outstrip supply in almost every case that we see.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            441.65,
+            450.256
+          ],
+          "quote": "If you just look at the hyperscalers, Alphabet, Amazon, Meta, Microsoft, and Oracle, their CapEx in 2026 is about $780 billion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            525.801,
+            533.464
+          ],
+          "quote": "Successive forecasts for the five largest hyperscalers CapEx have moved sharply higher in pretty short succession.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            625.212,
+            632.933
+          ],
+          "quote": "You can look to the hyperscalers and see some evidence of high quality, you know, business on the demand side that you can hang your hat on, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            685.007,
+            689.889
+          ],
+          "quote": "Yeah, I know some of the hyperscalers have frankly gotten dinged for raising debt for CapEx.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            703.353,
+            716.845
+          ],
+          "quote": "Yeah, the other dynamic that's been spoken about a lot is pricing on the spot markets for existing GPUs, which is just another signal that like any GPU that you can bring online is being priced at an attractive rate where like the hyperscalers are earning an attractive return.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 140,
+          "t": [
+            758.406,
+            765.268
+          ],
+          "quote": "And as we talk about this CapEx for the hyperscalers, we should think of it as someone else's order book.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存 (caching)",
+      "file": "缓存",
+      "primary": true,
+      "how_described": "本集说缓存让系统复用后台信息而非每次从头处理,Hebbia 的金融聊天工作负载因此便宜了 10 倍,同样预算能干更多活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1603.403,
+            1604.383
+          ],
+          "quote": "We're seeing caching.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说 Elise AI 微调较小的模型,便宜 60% 且延迟大降,让语音实时场景变得可行——工程收益让 AI 更有用也更可负担",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1698.039,
+            1700.74
+          ],
+          "quote": "Another approach we're seeing a lot of right now is fine tuning.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集说年初流行「SaaS 末日论」,如今软件指数回到年初水平但剧烈分化;CIO 们投 AI 的钱最容易来自不批新 SaaS 项目,SaaS 自救靠现有分发叠加新 AI 产品、增速加速 10 个百分点以上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 408,
+          "t": [
+            2249.046,
+            2264.532
+          ],
+          "quote": "If you look at just, you talk to, you know, IT managers, CIOs, et cetera, if you look at the growth that they're experiencing, what they spend on AI, like the easiest place for those dollars to come from is not spending incremental new dollars on new SaaS software projects.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2267.473,
+            2272.097
+          ],
+          "quote": "We're investors in some of the, you know, the SaaS software companies, including the public markets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2293.896,
+            2297.598
+          ],
+          "quote": "The greatest fears around the SaaS-pocalypse.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2534.061,
+            2537.085
+          ],
+          "quote": "You know, first couple months, there was the SaaS apocalypse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2579.68,
+            2590.048
+          ],
+          "quote": "And there's a little bit of a narrative violation in Stripe's SaaS customer data, which actually shows growth accelerating into 2026 across both young and mature businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2602.321,
+            2605.083
+          ],
+          "quote": "You know, Sarah talked about private markets, SaaS acceleration.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ipo",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPO",
+      "file": "IPO",
+      "primary": true,
+      "how_described": "本集说 IPO 只是又一个融资事件,关键是上市公司身份能带来什么;Navan 上市后仅因大企业更信任上市公司增长就重新加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 478,
+          "t": [
+            2650.1,
+            2655.165
+          ],
+          "quote": "But David, you can talk a little bit about kind of how we advise companies on the IPO and when to stay private versus public.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2655.325,
+            2664.512
+          ],
+          "quote": "Yeah, look, I mean, the IPO, you know, especially for founder-led companies, one of the things that we've talked about and that I've written about is that the founder is the asset class at this point.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2714.173,
+            2718.057
+          ],
+          "quote": "You know, for us, the way we talk about it with our founders is just the IPO is another financing event.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "secondaries",
+      "type": "concept",
+      "role": "concept",
+      "name": "老股转让 (secondaries)",
+      "file": "老股转让",
+      "primary": true,
+      "how_described": "本集说老股转让二级市场的折价如今基本为零,总有新投资人愿按上轮价格接盘,与过去几年形成鲜明对比;Carta 主导的 tender 参与率仅 58%,员工主动不套现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 500,
+          "t": [
+            2773.334,
+            2777.295
+          ],
+          "quote": "In the private markets, one of the things that we spend a lot of time in too is secondaries.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说机器人是他们花很多时间关注的领域,市场可能比 LLM 还大,大概早三到五年,未来五年将是巨大的投资和兴奋点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            109.418,
+            119.063
+          ],
+          "quote": "And finally, they look at what comes next, from consumer agents and robotics, to autonomy, AI, and biology, and the next wave of enterprise adoption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2982.777,
+            2985.861
+          ],
+          "quote": "Robotics is an area where we're spending a lot of time and attention.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

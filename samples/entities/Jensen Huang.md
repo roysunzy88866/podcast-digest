@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":46,"深度学习":3,"智能体":361,"沙箱":66,"Condi Rice":1,"harness":50,"Jerry":1,"AMD":4,"前沿模型":21,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":46,"深度学习":3,"智能体":364,"沙箱":68,"Condi Rice":1,"harness":50,"Jerry":1,"AMD":4,"前沿模型":21,"Sega":1}</script>
 
 <script>
 (function(){

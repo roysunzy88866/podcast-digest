@@ -1,0 +1,256 @@
+{
+  "title_zh": "25张图表看懂AI是不是泡沫：a16z年度市场全景",
+  "tldr": "a16z 增长团队四位投资人 David George、Sarah Wang、Alex Emmerman、Santiago Rodriguez 用 25 张图表拆解：AI 建设规模、企业采用真实进度、软件格局与下一波机会。",
+  "digest_md": "这一集是 a16z 播客的年度「市场状况」特辑：四位增长团队投资人——David George、Sarah Wang、Alex Emmerman、Santiago Rodriguez——逐一讲解他们最新演示文稿里的 25 张关键图表，回答所有人都在问的那个问题：AI 到底是不是泡沫？\n\n先给结论：**和互联网泡沫不一样，这一轮涨的是盈利，不是倍数。** 自从 ChatGPT 发布以来将近四年，市场上涨 90%,年化 17%——听起来像过热，但股票涨了约 20% 的同时交易倍数反而降了约 20%,也就是说表现是由基本面盈利驱动的。标普 500 的市盈率低于 20 倍，而当年互联网泡沫高峰期很多公司市盈率高达 100 倍；一些非常周期性的内存公司现在只交易在六七倍远期盈利。他们的判断是：如果快进五到十年回头看，这些建设数字累计可能是今天的 20 倍。\n\n## 建设规模：史上最大，且需求一直超过供给\n\n科技现在是一切周期的主角：高科技设备、软件和研发约占美国资本支出的 55%,科技占美股总市值近 40%,全球市值前 10 的公司里 8 家是美国科技公司。这次 AI 基础设施建设占 GDP 的比例刚刚超过了当年的铁路建设。\n\n具体到超大规模云厂商(Alphabet、Amazon、Meta、Microsoft、Oracle):2026 年资本支出约 7800 亿美元，比 2025 年的 4160 亿美元近乎翻倍，所有预期都指向 2027 年起每年超过一万亿美元。Alex 的观察是：过去四年，作为一个经济体，我们一直在持续低估这股趋势的强劲程度——每一版预测都把当年的「天花板」变成了几年后的「地板」。最典型的案例是 Sam Altman 等人一年多前因大规模算力承诺被骂鲁莽，现在所有人都说那个决定极具远见；即便如此，两周前他们还得暂停 2000 美元档 Pro 套餐的新订阅——需求就是大到这个程度。\n\n需求侧有硬证据：Microsoft、Google、Amazon 三家合计约 1.7 万亿美元的云积压订单，而且还在快速增长。自由现金流现在被建设压制，但共识预测显示 2028 年起恢复。Amazon 在财报电话会上解释过这个 J 曲线：先建数据中心外壳、再买芯片，而 GPU(或者说 TPU)的有效经济寿命其实相当长，比所有人预期的都长。现货市场上任何能上线的 GPU 都能定出有吸引力的价格——这本身就是回报率为正的信号。几位投资人的总结很尖锐：**「当我们谈论超大规模云厂商的 CapEx 时，应该把它看作是别人的订单簿」**——大平台的现金重新流向芯片、电力、建筑，技术繁荣就此变成了工业繁荣。\n\n## 新的原子时代：基础设施投资远不止 AI\n\n这场建设恰逢更大规模的物理基础设施现代化：到 2040 年全球基础设施投资需求估计达 90 万亿美元，远不止 AI 和数据中心——还包括电力、水、道路、公共交通。投资组合里的例子：一家防务科技公司的制造设施规模相当于 87 个足球场，Waymo 在大力扩张车库，SpaceX 在路易斯安那投 1000 亿美元。Sarah 提到 Elon 多年前说的「工厂即产品」：他们支持过的很多顶尖创始人都出自 Tesla 或 SpaceX,因为工厂上的执行能力在扩张时会变成巨大的竞争优势。\n\n还有一个反直觉的点专门怼了数据中心的流行迷思：「数据中心在抽干美国的水」「富人不愿住附近」「我的电费要飙上天」。美国一项研究显示，**数据中心容量每增加 10%,居民电价反而下降 40 个基点**——因为电网是一个共享固定成本体系(电线杆、电线、变电站)，数据中心这样的大型稳定客户帮所有人摊薄了成本。Meta 在路易斯安那的项目就有与社区合作降低电力的真实案例。\n\n## 企业采用：收入真实存在，但深度惊人地浅\n\n模型层的收入是史诗级的：OpenAI 和 Anthropic 合计年化收入的增长曲线，新增部分已经超过有史以来最优秀的软件公司，而且速度惊人——这张图他们每个月都得更新，因为过时得那么快。\n\n但企业内部的真实进度要分层看：标普 500 公司的 AI 正式部署率是 69%,听起来不低；可量化影响的比例只有 30%;而「终极晴雨表」——随时间持续追踪效果的指标——**只有 2%**。大多数企业对 AI 的接触主要还停留在 Microsoft Copilot。用 Revolut 打个比方：他们有非常成熟的工程团队，但要做客服语音，仍需与 Eleven Labs 合作，把它一流的语音模型安全地接入客户账户和银行业务流程。所以如今的机会在于**驾驭这些能力、构建可靠的服务**——模型了解全世界，却对你的公司知之甚少，弥合这个差距就是应用层的价值。\n\n另一个显著现象是重度用户正在拉开差距：YIPIT 数据显示，前 1% 企业的 AI 支出中位数约为前 10% 的 8 倍，几乎等于 2%-10% 的合计。即使在 a16z 自己几乎完全 AI 原生的投资组合公司里，顶级用户每月花费 7500-9000 美元，中位数用户只有 200-400 美元——超过 20 倍的差距。从采购 Cursor 或 Cognition 到全面采用，中间的跑道巨大。\n\n可量化的案例也开始出现：成本端，Chime 连续四年每年降低服务成本超过 10%,累计近 50%(背后有 a16z 被投公司 Decagon 的贡献)；收入端，Shopify 的 AI sidekick 让商家入驻后 15 天内达到五笔订单的比例提升了 8%——而五单正是 Shopify 追踪的留存关键节点。现有大公司同样在变现：ServiceNow 报告了超过 10 亿美元的 AI ACV,智能体部署增长 9 倍。\n\n一个有意思的试金石：问创始人把增量 AI 投资花在增收还是降本。增收的机会上行无界；如果把最好的资源拿去优化成本结构，那本身就说明你对收入机会没信心。Sarah 补了一刀：六个月前行业流行在内部重建记录系统来省几十万美元，「我 expect 有更好的资源用途」。\n\n## 智能体经济学：降价反而打开一切\n\n智能体已经到来了：任务需要多步骤、多步骤需要多次模型调用，这解释了 OpenRouter 上智能体 token 使用量 14 倍的增长。而每一步都在变便宜——缓存(系统复用后台信息而非每次从头处理)让 Hebbia 的金融聊天工作负载便宜了 10 倍，同样的预算能干更多的活。\n\n更便宜的推理让智能体可以「尝试-检查-重试」，打开了大量原本因成本而不可行的任务，尤其在可靠性是用不用智能体的决定性因素的场景。Databricks 用智能路由(为每个任务选合适的模型)做到了比最强单一模型多解决问题、同时成本低 35%;Elise AI 微调小模型，便宜 60% 且延迟大降，让语音实时场景变得可行。核心逻辑：应用业务的真正单位是「完成客户任务的成本」，把它和模型选择解耦，就不用每一步都用最贵的模型——最优秀的应用公司会看到更多利润率改善。\n\n## 消费端：刚起步，规则却在改写\n\n消费级 AI 的付费渗透小得惊人：只有略高于 2% 的美国家庭有 AI 付费订阅——对比 Amazon Prime 超过 2 亿家庭、Netflix 7000 万家庭，Santi 说他查数据时都在怀疑那个 K 是不是写错了。但订阅的留存率是消费领域见过最好的之一：不仅持平，而且随着产品改进呈「微笑曲线」上扬——用户流失后还会回来。\n\n真正的结构性问题是智能体改变发现与广告。传统消费平台靠时长和广告：Facebook、Instagram、TikTok、Snap 都能拿到活跃用户每天 30-60 分钟；Meta 和 Google 在美国发达市场每用户每年赚 200 美元以上。而现在 Muse、Instinct 连同 ChatGPT 正在把查询从传统搜索那里夺走。上周的新闻很说明问题：Amazon 拒绝了 Muse,Instacart 却欣然接受。判断框架是两个问题：①智能体能给我带来多少增量订单？②我的利润池有多少来自拥有客户关系和发现环节？Amazon 的广告业务超过 700 亿美元、利润率极高，完全建立在消费者到网站点击广告之上——而它本来就不缺订单，接入智能体带不来多少增量；Instacart 所在的杂货线上渗透还早，智能体带来的订单增量可以弥补广告损失。\n\nGoogle 搜索为什么至今 resilient?因为最高变现的广告词(买保险、找酒店)恰恰是 AI 当时还无法替用户执行行动的场景——如果这变了，局面会完全不同。不过也有正和观点：那 700 亿广告费可能只是换个渠道流向智能体，而摩擦降低会让人们买得更多。三年后回头看，如果宏观经济层面没有实质生产力提升，大家都会失望。\n\n## 软件公开市场：分化，而非末日\n\n今年年初流行「SaaS 末日论」，如今软件指数已回到年初水平，但剧烈分化：公开市场软件样本约 75% 盈利，却只有 30% 增速达到 20% 以上；把线画在 30%,符合条件的公司绝对数量不到 5 家——而私募市场里他们接触的每家公司增速都远超 30%。原因很直白：CIO 们投在 AI 上的钱，最容易的来源就是不批新的 SaaS 项目。\n\n什么样的软件扛住了？网络安全和可观测性——更多软件和智能体创造了新的安全与监控需求(CrowdStrike 是例子)；垂直软件也远好于水平应用。框架就一条：AI 如何改变客户对这个产品的需求——它需要什么、又取代什么。SaaS 公司的自救路径是利用现有分发叠加新 AI 产品拉动增长，David 给出的经验法则是：**营收增速加速 10 个百分点以上**，未来 12-18 个月就能看到有几家接近做到。\n\n私募侧反而有「叙事反差」：Stripe 的 SaaS 客户数据显示 2026 年增长在加速，年轻和成熟企业都是——Stripe 自己称之为「文艺复兴」。\n\n## 私募市场的巨无霸时代\n\n今天按上轮估值排前六的私营公司——Anthropic、OpenAI、Databricks、Stripe、Waymo、Revolut——合计约 2.4 万亿美元，超过过去 10 年(除 SpaceX 外)所有 IPO 的市值总和 1.7 万亿，几乎与 Russell 2000 指数相当。\n\n为什么好公司越来越晚上市？David 的说法：**「创始人就是资产类别」**——私营市场能做回报周期更长的大赌注(Databricks、Stripe 在新产品领域的巨额下注带来营收加速)；公开市场能这么干但要承受更大审视，Meta 股价低谷跌破 100 美元时没人信它的 AR/VR 投入。但上市也有独特价值：Navan 上市后，仅因大企业更信任上市公司，增长就重新加速。IPO 只是又一个融资事件，关键是两种身份各给你什么。\n\n私募内部的两个信号：Carta 主导的员工老股回购(tender)参与率只有 58%——**员工选择不套现，因为太相信自己的公司**，与「员工排队离场」的流行叙事正好相反。而老股转让二级市场的折价如今基本为零，总有新投资人愿意按上轮价格接盘，这在过去几年不可想象。\n\n## 风投的一切皆是 AI 计算机\n\n2026 年快照中，AI 相关公司占美国 VC 交易活动的 86%,高于 2025 年的 65%。但标签之下机会在拓宽：企业应用、消费应用、服务、半导体、能源、国防——注意力集中在 OpenAI、SpaceX、Anthropic,但机会集从未如此深广。\n\n## 接下来看什么\n\n最后几位各自给出最兴奋的方向：消费级长时运行智能体——让智能体做你不想做的任务，普及可能很快；机器人——他们判断市场可能比 LLM 还大，「大概早三到五年」；自动驾驶已经可行——Uber/Lyft 只占美国行驶里程约 1%,完全自动驾驶网络比人类安全 14 倍，预计至少扩大一个数量级，且美国每年售出的 1700 万辆新车在未来 10 年都将自动驾驶；AI×生物的新药发现；个人健康的超个性化建议；以及编码之外的企业扩散。\n\n## 本集带走\n\n- **判断泡沫看倍数不看涨幅**：这轮涨的是盈利(倍数反降 20%、标普市盈率低于 20 倍)，与市盈率 100 倍的互联网泡沫本质不同。\n- **需求超过供给贯穿全链条**：五大云厂商 2026 年 CapEx 约 7800 亿、2027 年起预计年超万亿；三家云积压订单 1.7 万亿；部分供应链要排到 2028 年。\n- **企业采用浅得惊人**：标普 500 部署率 69%,但可量化影响仅 30%、长期追踪仅 2%——从单个部署走向深度工作流是下一阶段，也是应用层的机会。\n- **成本暴跌是应用层的红利**：缓存、路由、微调让同样的任务便宜 35%-90%,智能体「尝试-重试」变得经济，最优应用公司利润率会继续改善。\n- **软件没死，在分化**：安全和可观测性、垂直软件扛住；SaaS 公司的自救是靠现有分发叠加 AI 产品、把增速再加速 10 个百分点以上。\n- **员工在用脚投票看多**：tender 参与率仅 58%,员工主动不套现；老股转让折价归零——私募市场信心比叙事更硬。",
+  "quotes": [
+    {
+      "en": "Yet for the last four years, like as an economy, we keep underestimate just the strength of the trend.",
+      "zh": "然而在过去四年里，作为一个经济体，我们一直在低估这股趋势的强劲程度。",
+      "timestamp": "09:09",
+      "speaker": "Alex Imerman"
+    },
+    {
+      "en": "But, you know, similar to the model lab dynamic, I think the ones who have blinked and been less aggressive have regretted it.",
+      "zh": "但是，你知道，类似于模型实验室的动态，我认为那些动摇过、没那么激进的，都已经后悔了。",
+      "timestamp": "11:29",
+      "speaker": "Sarah Wang"
+    },
+    {
+      "en": "And as we talk about this CapEx for the hyperscalers, we should think of it as someone else's order book.",
+      "zh": "而当我们谈论超大规模云厂商的这笔 CapEx 时，我们应该把它看作是别人的订单簿。",
+      "timestamp": "12:38",
+      "speaker": "Santiago Rodriguez"
+    },
+    {
+      "en": "It may seem counterintuitive, but a data center can help lower your electricity rate.",
+      "zh": "这看似违反直觉，但数据中心实际上可以帮助降低你的电费。",
+      "timestamp": "15:17",
+      "speaker": "Santiago Rodriguez"
+    },
+    {
+      "en": "Yeah, this gap between what the models can do and how they're being used is what makes me so excited about the application layer.",
+      "zh": "是的，模型能做什么和它们实际被如何使用之间的这个差距，正是让我对应用层如此兴奋的原因。",
+      "timestamp": "19:52",
+      "speaker": "Santiago Rodriguez"
+    },
+    {
+      "en": "And if you think that the best and highest use of your dollars today is to optimize your cost structure, what does that say about the revenue opportunity for you?",
+      "zh": "而如果你认为今天你的钱的最好和最高用途是优化你的成本结构，那这对你的收入机会说明了什么？",
+      "timestamp": "25:46",
+      "speaker": "David George"
+    },
+    {
+      "en": "And if you can decouple that, right, you get the customer's job done, you charge for that, and you can use better routing to make the product more economical, that's pretty magical because now you're not using the most expensive model for each step, but you are getting the job done.",
+      "zh": "而如果你能把这两者解耦，对吧，你完成客户的任务，并为此收费，同时你可以用更好的路由让产品更经济，这非常神奇，因为这样你就不用在每个步骤都使用最贵的模型，但任务照样能完成。",
+      "timestamp": "28:53",
+      "speaker": "Sarah Wang"
+    },
+    {
+      "en": "And it's really, really rare to see a retention profile that not only flatlines but actually smiles as the product improves and people come back to it.",
+      "zh": "能看到一个不仅持平、而且随着产品改进和用户回流而实际上呈现微笑状的留存曲线，真的、真的非常罕见。",
+      "timestamp": "29:50",
+      "speaker": "Alex Imerman"
+    },
+    {
+      "en": "They're the ones that are actually accelerating and capturing some of this net new dollars up for grabs that if you're not really capturing, then you're probably not riding the wave.",
+      "zh": "他们是那些真正在加速并捕获一些可供争夺的净新增资金的公司；如果你没有真正捕获到，那你可能就没有乘上这波浪潮。",
+      "timestamp": "42:40",
+      "speaker": "Alex Imerman"
+    },
+    {
+      "en": "And so the bet that we make and part of the reason that it's been a benefit for some of these companies to remain private is they can many times take bigger swings in the private markets that have longer duration paybacks.",
+      "zh": "所以我们下的赌注，以及这些公司保持私有的部分好处在于，它们很多时候可以在私营市场进行更大的押注，而这些押注的回报周期更长。",
+      "timestamp": "44:24",
+      "speaker": "David George"
+    },
+    {
+      "en": "We happen to think that it could be even larger than LLMs, but, you know, probably three to five years earlier.",
+      "zh": "我们恰好认为它可能比 LLM 还要大，但，你知道，大概早三到五年。",
+      "timestamp": "49:45",
+      "speaker": "David George"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:02",
+      "speaker": "Unknown",
+      "en": "But is the spending getting ahead of the economics?",
+      "zh": "但这些支出是否超前于经济性了？"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "This does feel like the next chapter of Mark's software is eating the world.",
+      "zh": "这确实感觉像是 Mark 的「软件正在吞噬世界」的下一个篇章。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "That's not what's happening here.",
+      "zh": "现在发生的不是那样。"
+    },
+    {
+      "timestamp": "07:49",
+      "speaker": "Unknown",
+      "en": "In this case, this build out can happen so quickly and demand can still outstrip supply because the amount of users is driven by the fact that there's already existing distribution.",
+      "zh": "在这个案例中，这次建设可以发生得如此之快，而且需求仍然可能超过供给，因为用户数量是由已有现成分发渠道这一事实驱动的。"
+    },
+    {
+      "timestamp": "09:09",
+      "speaker": "Unknown",
+      "en": "Yet for the last four years, like as an economy, we keep underestimate just the strength of the trend.",
+      "zh": "然而在过去四年里，作为一个经济体，我们一直在低估这股趋势的强劲程度。"
+    },
+    {
+      "timestamp": "09:44",
+      "speaker": "Unknown",
+      "en": "And I think at this point, like everyone would say they're incredibly prescient with that decision.",
+      "zh": "而我认为到了这个时点，每个人都会说他们在那个决定上极具远见。"
+    },
+    {
+      "timestamp": "11:36",
+      "speaker": "Unknown",
+      "en": "But, you know, similar to the model lab dynamic, I think the ones who have blinked and been less aggressive have regretted it.",
+      "zh": "但是，你知道，类似于模型实验室的动态，我认为那些动摇过、没那么激进的，都已经后悔了。"
+    },
+    {
+      "timestamp": "12:38",
+      "speaker": "Unknown",
+      "en": "And as we talk about this CapEx for the hyperscalers, we should think of it as someone else's order book.",
+      "zh": "而当我们谈论超大规模云厂商的这笔 CapEx 时，我们应该把它看作是别人的订单簿。"
+    },
+    {
+      "timestamp": "13:41",
+      "speaker": "Unknown",
+      "en": "This puts us in a new age of atoms.",
+      "zh": "这让我们进入了一个新的原子时代。"
+    },
+    {
+      "timestamp": "15:17",
+      "speaker": "Unknown",
+      "en": "It may seem counterintuitive, but a data center can help lower your electricity rate.",
+      "zh": "这看似违反直觉，但数据中心实际上可以帮助降低你的电费。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Unknown",
+      "en": "Simply put, more demand across a shared system is a positive.",
+      "zh": "简单来说，共享系统上更多的需求是件好事。"
+    },
+    {
+      "timestamp": "19:16",
+      "speaker": "Unknown",
+      "en": "Now, if you go to the ultimate barometer, which is a metric tracked over time, that's actually only at 2%.",
+      "zh": "现在，如果你看终极的晴雨表，也就是随时间追踪的指标，那实际上只有 2%。"
+    },
+    {
+      "timestamp": "19:52",
+      "speaker": "Unknown",
+      "en": "Yeah, this gap between what the models can do and how they're being used is what makes me so excited about the application layer.",
+      "zh": "是的，模型能做什么和它们实际被如何使用之间的这个差距，正是让我对应用层如此兴奋的原因。"
+    },
+    {
+      "timestamp": "20:45",
+      "speaker": "Unknown",
+      "en": "Today's opportunity is so much around taking these capabilities and harnessing them to build reliable services.",
+      "zh": "如今的机会很大程度上在于把这些能力拿来加以驾驭，构建可靠的服务。"
+    },
+    {
+      "timestamp": "25:32",
+      "speaker": "Unknown",
+      "en": "Like the opportunity to drive revenue growth is unbounded to the upside.",
+      "zh": "比如推动收入增长的机会在上行方向是无界的。"
+    },
+    {
+      "timestamp": "25:54",
+      "speaker": "Unknown",
+      "en": "And if you think that the best and highest use of your dollars today is to optimize your cost structure, what does that say about the revenue opportunity for you?",
+      "zh": "而如果你认为今天你的钱的最好和最高用途是优化你的成本结构，那这对你的收入机会说明了什么？"
+    },
+    {
+      "timestamp": "27:35",
+      "speaker": "Unknown",
+      "en": "You know, I think the amount of use cases that open up are actually unimaginable.",
+      "zh": "你知道，我觉得由此打开的用例数量实际上是难以想象的。"
+    },
+    {
+      "timestamp": "28:53",
+      "speaker": "Unknown",
+      "en": "And if you can decouple that, right, you get the customer's job done, you charge for that, and you can use better routing to make the product more economical, that's pretty magical because now you're not using the most expensive model for each step, but you are getting the job done.",
+      "zh": "而如果你能把这两者解耦，对吧，你完成客户的任务，并为此收费，同时你可以用更好的路由让产品更经济，这非常神奇，因为这样你就不用在每个步骤都使用最贵的模型，但任务照样能完成。"
+    },
+    {
+      "timestamp": "29:50",
+      "speaker": "Unknown",
+      "en": "And it's really, really rare to see a retention profile that not only flatlines but actually smiles as the product improves and people come back to it.",
+      "zh": "能看到一个不仅持平、而且随着产品改进和用户回流而实际上呈现微笑状的留存曲线，真的、真的非常罕见。"
+    },
+    {
+      "timestamp": "30:23",
+      "speaker": "Unknown",
+      "en": "And so totally agree that it's just getting started.",
+      "zh": "所以我完全同意，这只是刚刚开始。"
+    },
+    {
+      "timestamp": "34:26",
+      "speaker": "Unknown",
+      "en": "You know, today...",
+      "zh": "你知道，今天……"
+    },
+    {
+      "timestamp": "35:01",
+      "speaker": "Unknown",
+      "en": "And it turns out it's been really resilient.",
+      "zh": "结果证明它非常有韧性。"
+    },
+    {
+      "timestamp": "35:28",
+      "speaker": "Unknown",
+      "en": "If that changes, that could be a very different dynamic.",
+      "zh": "如果这变了，那可能是完全不同的局面。"
+    },
+    {
+      "timestamp": "37:25",
+      "speaker": "Unknown",
+      "en": "Yeah, and look, this is not, this is somewhat obvious, actually.",
+      "zh": "是的，你看，这其实，这其实某种程度上是显而易见的。"
+    },
+    {
+      "timestamp": "39:31",
+      "speaker": "Unknown",
+      "en": "And so we had said, you know, let's target 10% plus acceleration, which is a high number.",
+      "zh": "所以我们当时说过，你知道，我们把目标定为 10% 以上的加速，这是一个很高的数字。"
+    },
+    {
+      "timestamp": "42:40",
+      "speaker": "Unknown",
+      "en": "They're the ones that are actually accelerating and capturing some of this net new dollars up for grabs that if you're not really capturing, then you're probably not riding the wave.",
+      "zh": "他们是那些真正在加速并捕获一些可供争夺的净新增资金的公司；如果你没有真正捕获到，那你可能就没有乘上这波浪潮。"
+    },
+    {
+      "timestamp": "44:24",
+      "speaker": "Unknown",
+      "en": "And so the bet that we make and part of the reason that it's been a benefit for some of these companies to remain private is they can many times take bigger swings in the private markets that have longer duration paybacks.",
+      "zh": "所以我们下的赌注，以及这些公司保持私有的部分好处在于，它们很多时候可以在私营市场进行更大的押注，而这些押注的回报周期更长。"
+    },
+    {
+      "timestamp": "46:42",
+      "speaker": "Unknown",
+      "en": "So it's the opposite of, I think sometimes there's a narrative of like employees cashing out.",
+      "zh": "所以这恰恰与——我觉得有时有一种叙事，比如员工套现离场——相反。"
+    },
+    {
+      "timestamp": "49:45",
+      "speaker": "Unknown",
+      "en": "We happen to think that it could be even larger than LLMs, but, you know, probably three to five years earlier.",
+      "zh": "我们恰好认为它可能比 LLM 还要大，但，你知道，大概早三到五年。"
+    },
+    {
+      "timestamp": "50:04",
+      "speaker": "Unknown",
+      "en": "If you just take a step back and talk about the auto industry and transportation industry, this is one of the biggest industries in the world that we probably don't talk about as much because we spend so much time talking about AI right now.",
+      "zh": "如果你退一步，谈谈汽车行业和交通运输行业，这是世界上最大的行业之一，而我们现在可能不那么常谈起它，因为我们花了太多时间谈论 AI。"
+    }
+  ],
+  "voice_script": "今天这期，是 a16z 播客的年度市场特辑。出场的四位，都是 a16z 增长团队的投资人：David George、Sarah Wang、Alex Emmerman 和 Santiago Rodriguez。他们做了一份演示文稿，里面是 25 张关键图表，要回答的，就是所有人都在问的那个问题：AI 到底是不是泡沫？\n\n先说结论：这一轮和互联网泡沫不一样。ChatGPT 发布以来将近四年，市场涨了 90%,听着像过热。但你拆开看，股票涨了大约 20% 的同时，交易倍数反而降了大约 20%——也就是说，涨的是盈利，不是估值倍数。标普 500 的市盈率不到 20 倍，而当年互联网泡沫高峰期，很多公司市盈率高达 100 倍。他们的判断是，快进五到十年回头看，今天这些建设数字，可能只是累计规模的二十分之一。\n\n那这个建设规模到底有多大？科技相关的资本支出，现在约占美国的 55%,AI 基础设施建设占 GDP 的比例，刚刚超过了当年的铁路建设。具体到 Alphabet、Amazon、Meta、Microsoft、Oracle 这五大云厂商，2026 年的资本支出约 7800 亿美元，比前一年几乎翻倍，而且预期从 2027 年起每年超过一万亿美元。有句话值得记住：当我们谈论超大规模云厂商的资本支出时，应该把它看作是别人的订单簿——大平台的现金重新流向芯片、电力、建筑，技术繁荣就这么变成了工业繁荣。Alex 观察到，过去四年我们一直低估这股趋势的强劲程度，每一版预测里当年的天花板，几年后都变成了地板。需求侧也有硬证据：三大云厂商合计约 1.7 万亿美元的云积压订单，而且还在快速增长。连 OpenAI 一年多前因为大规模算力承诺被骂鲁莽，现在所有人都说那个决定极具远见。\n\n这场建设还牵出两个反直觉的点。第一，到 2040 年全球基础设施投资需求估计达 90 万亿美元，远不止 AI,还包括电力、水、道路。第二，网上流行说数据中心抽干水电、推高电费，但美国一项研究显示，数据中心容量每增加 10%,居民电价反而下降 40 个基点——因为电网是共享固定成本体系，数据中心这样的大型稳定客户，帮所有人摊薄了成本。\n\n好，建设讲完了，下一个问题自然是：企业真的在用吗？答案有点矛盾。模型层收入确实史诗级：OpenAI 和 Anthropic 合计年化收入的增长曲线，已经超过有史以来最优秀的软件公司。但企业内部的真实进度浅得惊人：标普 500 公司的 AI 部署率是 69%,可量化影响的只有 30%,而持续追踪长期效果的指标，只有 2%。这也正是应用层的机会所在，用他们的话说，模型了解全世界，却对你的公司知之甚少，弥合这个差距，就是应用层的价值。重度用户也已经在拉开差距：前 1% 企业的 AI 支出，是第 2% 到 10% 那批的总和。可量化的案例也有了：Chime 连续四年每年降低服务成本超 10%,累计近 50%;Shopify 的 AI 助手让商家更快达到留存关键节点。\n\n而这一切的前提，是成本在暴跌。任务变多步，就要多次模型调用，所以智能体 token 使用量在 OpenRouter 上涨了 14 倍。但缓存让一些金融工作负载便宜了 10 倍，智能路由让 Databricks 比最强单一模型多解决问题、成本还低 35%。更便宜的推理，让智能体可以尝试、检查、重试，打开大量原本因成本不可行的任务。有个试金石：问创始人把增量投资花在增收还是降本——增收的机会上行无界，如果把最好的资源拿去优化成本结构，那本身说明你对收入机会没信心。\n\n消费端就更有意思了：只有略高于 2% 的美国家庭有 AI 付费订阅，查数据时都怀疑那个 K 是不是写错了。但订阅留存是消费领域见过最好的之一，用户流失了还会回来。更大的结构性问题是智能体在改写发现和广告：Amazon 拒绝接入 Muse,Instacart 却欣然接受——因为 Amazon 的广告业务超 700 亿美元，本来就不缺订单，而杂货的线上渗透还早，智能体带来的增量订单能弥补广告损失。Google 搜索为什么还扛得住？因为最高变现的广告词，恰恰是 AI 还无法替用户执行行动的场景。如果这变了，局面会完全不同。\n\n至于年初流行的 SaaS 末日论，如今软件指数已经回到年初水平，但剧烈分化：安全、可观测性和垂直软件扛住了。自救路径，是靠现有分发叠加 AI 产品，经验法则是营收增速要再加速 10 个百分点以上。私募市场反而更硬：按上轮估值排前六的私营公司合计约 2.4 万亿美元，几乎与罗素 2000 相当；员工老股回购的参与率只有 58%——员工选择不套现，因为太相信自己的公司。\n\n最后，如果只带走一句话，那就是判断泡沫，别看涨幅，看倍数。这一轮涨的是盈利，而模型能做什么和实际被如何使用之间的差距，正是下一波机会所在。"
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Linear</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Linear">LI</div><div class="pi"><h1 class="pt">Linear</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Linear">LI</div><div class="pi"><h1 class="pt">Linear</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(65:58起):本集说它在 25 亿美元估值上做到 1 亿 ARR、增速超 100%，关键是对第三方智能体友好，为「只有你和几个智能体、却有 448 个功能要管理」的时代新建记录系统。
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(01:17起):本集提到 JobNimbus 用 Linear 做项目管理，AI 会为新人创建 Linear 看板；项目管理循环会从 Linear/Jira 拉工单、汇总风险和停滞项。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(06:10起):本集说工厂接到任务后会开 Linear issue 用于追踪一切
+- **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(04:22起):本集说它是 WorkOS 的项目管理工具，TARS 嵌入其中，利用有依赖关系的工单自动接力，并定期重评项目是否缺工单。
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为概念(提及)
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
+- [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Slack]] · [[Anthropic]] · [[原型]] · [[Codex]] · [[GitHub]] · [[Claude Code]]
+[[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Slack]] · [[Claude Code]] · [[原型]] · [[Anthropic]] · [[Codex]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Lenny":68,"Cursor":73,"OpenAI":140,"Slack":29,"Anthropic":153,"原型":7,"Codex":65,"GitHub":25,"Claude Code":86}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Lenny":68,"Cursor":73,"OpenAI":142,"Slack":29,"Claude Code":89,"原型":7,"Anthropic":155,"Codex":66,"GitHub":25}</script>
 
 <script>
 (function(){

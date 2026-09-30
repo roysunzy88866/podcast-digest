@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":361,"智能封建主义":1,"SaaS":18}</script>
+<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":364,"智能封建主义":1,"SaaS":19}</script>
 
 <script>
 (function(){

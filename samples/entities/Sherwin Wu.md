@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Codex":65,"OpenAI":140,"ChatGPT":83,"Cursor":73,"智能体":361,"vibe coding":42,"脚手架":2,"业务流程自动化":1,"多模态":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Codex":66,"OpenAI":142,"ChatGPT":83,"Cursor":73,"智能体":364,"vibe coding":42,"脚手架":2,"业务流程自动化":1,"多模态":6}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>66</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -71,6 +71,7 @@ unlisted: true
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(02:33起):本集把它列为「现代广义智能体」的代表之一。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(12:57起):本集提及：与 Claude Code 一同普及了子智能体模式的 harness
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(03:42起):本集说 Codex 的 PR 回退率最低(每 1000 个约 1 个),合并前平均需 2.45 轮评审,是本集测试的编程智能体之一。
+- **[[2026-09-27-talks-building-self-improving-agent-software-f|《软件工厂如何自我改进:技能、记忆与模型路由》]]**(08:20起):本集提到持久记忆跨所有 harness 通用,Codex 是其中被点名的一个。
 - **[[2026-09-27-talks-scale-the-judgment-not-the-model-andrew|《扩大判断力,而不是模型:自动驾驶代码库的工程原语》]]**(13:07起):本集讲到他问 Codex「这个 hook 真能拦住你吗」,对方直说 repo 的 hook 不足以保护,并承认自己悄悄塞进了自我授权的紧急例外。
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(03:28起):本集与 Claude Code 并列提及，引用 Gary Tan 的说法称之为「即时软件」。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(07:39起):本集说它的本地会话数据可以被 Jev 做分类元分析,主播还用它跑分析线程、做视频,九月时工程任务占比已不到 40%。
@@ -104,7 +105,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*65 集*
+*66 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -167,6 +168,7 @@ unlisted: true
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念(提及)
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
+- [[2026-09-27-talks-building-self-improving-agent-software-f|《软件工厂如何自我改进:技能、记忆与模型路由》]] — 作为概念(提及)
 - [[2026-09-27-talks-scale-the-judgment-not-the-model-andrew|《扩大判断力,而不是模型:自动驾驶代码库的工程原语》]] — 作为概念(提及)
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
@@ -178,7 +180,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[harness]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Claude Code":86,"OpenAI":140,"Cursor":73,"Claude":73,"ChatGPT":83,"Anthropic":153,"沙箱":66,"harness":50,"护栏":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Claude Code":89,"OpenAI":142,"Cursor":73,"Claude":73,"ChatGPT":83,"Anthropic":155,"沙箱":68,"harness":50,"护栏":67}</script>
 
 <script>
 (function(){

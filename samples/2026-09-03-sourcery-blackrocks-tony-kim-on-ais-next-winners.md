@@ -162,9 +162,9 @@ Tony 给了一组他自己的近似估算：全球股市里，非巨头(Mag7)的
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同概念:数据中心 (data center)、智能体 (agent)、机器人 (robotics)、推理 (inference)</span>
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|让 AI 像人一样犯错：Simile 创始人的模拟人类生意]]<span class="pd-rz">同概念:内存 (memory)、智能体 (agent)、算力 (compute)</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:数据中心 (data center)、机器人 (robotics)、推理 (inference)</span>
-- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同概念:数据中心 (data center)、智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

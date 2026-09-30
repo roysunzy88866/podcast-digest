@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Kiriti Badam":1,"智能体":361,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":5,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Kiriti Badam":1,"智能体":364,"非确定性":1,"主观能动性":1,"评估":3,"生产监控":1,"持续校准持续开发":1,"飞轮":5,"行为校准":1}</script>
 
 <script>
 (function(){

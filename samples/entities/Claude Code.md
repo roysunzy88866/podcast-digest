@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>86</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>89</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -91,6 +91,9 @@ unlisted: true
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(02:33起):本集把它列为「现代广义智能体」的代表之一,并举例可以把文档上传给它、用 LightParse 快速处理。
 - **[[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|《让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮》]]**(00:57起):本集说嘉宾现在不再回 Claude Code 手写基准，八个月没写过一行代码，全让 Claude 替他写。
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(03:41起):本集提及：worker/Claude Code 智能体是强信号加可验证工作的产物；其普及了子智能体模式，价格差距是用户从中切换的理由
+- **[[2026-09-27-talks-building-self-improving-agent-software-f|《软件工厂如何自我改进:技能、记忆与模型路由》]]**(08:20起):本集提到持久记忆跨所有 harness 通用,包括 Warp 自家专有 harness、Claude Code、Codex。
+- **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(01:04起):本集说工程师直接在笔记本上跑 Claude Code 与第一版工厂的提升几乎无法区分；本地跑 Claude Code 配 Opus 也能通过 MCP 拿到文档作上下文。
+- **[[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]]**(02:39起):本集说他们去年二月是它的超级重度用户，围绕它构建整个工作流（仓库克隆五份、发现 work trees），由此长出了 Conductor 这个内部工具
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(03:28起):本集作为编码智能体的代表被提及：写代码很快，但产出的仍是和人类一样的老式代码。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(11:12起):本集说它的本地会话存储在本地,可对之跑 Jev 分类分析,看自己的时间花在哪了;还提到有一期 80% 正面评论的「面向产品经理的 Claude Code」节目。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
@@ -121,7 +124,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*86 集*
+*89 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -206,6 +209,9 @@ unlisted: true
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念(提及)
 - [[2026-09-26-talks-how-we-built-an-agent-that-improves-itse|《让智能体自己研究自己:Weights & Biases 的 ARIA 评估飞轮》]] — 作为概念(提及)
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
+- [[2026-09-27-talks-building-self-improving-agent-software-f|《软件工厂如何自我改进:技能、记忆与模型路由》]] — 作为概念(提及)
+- [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为概念(提及)
+- [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]] — 作为被讨论公司
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
@@ -214,9 +220,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[Cursor]] · [[harness]] · [[评估]] · [[MCP]] · [[Lenny]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[Cursor]] · [[harness]] · [[评估]] · [[MCP]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Anthropic":153,"Codex":65,"OpenAI":140,"沙箱":66,"Cursor":73,"harness":50,"评估":3,"MCP":65,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Anthropic":155,"Codex":66,"沙箱":68,"OpenAI":142,"Cursor":73,"harness":50,"评估":3,"MCP":65,"Lenny":68}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":361,"LLM":49,"细节层级":1,"视觉模型":1,"世界模型":10}</script>
+<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":364,"LLM":49,"细节层级":1,"视觉模型":1,"世界模型":10}</script>
 
 <script>
 (function(){

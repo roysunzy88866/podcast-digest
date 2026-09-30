@@ -1,0 +1,124 @@
+{
+  "title_zh": "WorkOS 的软件工厂：别只盯着 AI 写了多少代码",
+  "tldr": "WorkOS 工程师 Ryan 讲解他们如何把工程流程（而不只是写代码）自动化进软件工厂，靠成果指标而非产出指标衡量价值。",
+  "digest_md": "这一集聊的是「软件工厂」——把沙箱、AI 编码智能体和提示词串成一条流水线，让它自动产出代码、开 PR、合并。这套玩法行业里已经有标准配置：Ramp 几个月前发博客介绍他们的系统，整个行业跟着兴奋起来。但站在台上讲的是 WorkOS 的工程师 Ryan，而 WorkOS 走了一条不太一样的路。\n\n他的出发点是一个质疑：**行业里流行的成功指标全是「产出指标」，而这可能掩盖系统真实运作得好不好。** 大家在 X 和博客上晒的都是 AI 生成的 PR 占比、PR 数量、多少 AI 代码进了生产环境——可是 PR 百分比可能只是掩盖了 PR 总量的整体上升，你很难分清这些产出是不是真的在驱动成果。如果公司要投入工程时间、养一个全职团队来建这种自动化，就该问：它到底在为工程组织创造价值吗？\n\n所以 WorkOS 衡量的不是代码产出，而是**成果指标**：是否在加速交付功能、是否构建得更多发布得更多、复杂功能是否更快落地。他们对软件工厂的梦想定义是：给每一位工程师一个属于他自己的小型工程团队——那么后果就应该是东西造得更多、发得更快。\n\n## 第一版工厂跑起来后，发现没用\n\n起步阶段他们和其他工厂做的一样：基于 Cloudflare 搭沙箱，里面放一个 open code 模型路由器，喂提示词。结果很快就碰壁——这套东西相比工程师直接在自己笔记本上跑 Claude Code，提升几乎无法区分，「既不是渐进式的，也不是指数级的」。\n\n这逼出了他们的核心认知：**工厂能产出代码是不够的，要把工程师产出产品过程中做的其他工作也自动化**——也就是把整套工程流程嵌入工厂本身。\n\n## 两套系统：TARS 和 Horizon\n\n他们把这件事拆成两套系统：\n\n- **TARS**：用户与编码智能体交互的界面，嵌入他们日常用的工具——不只是 Slack，还有 Linear（项目管理工具）和 GitHub。他们通过 TARS 订阅这些系统的 webhook（系统事件推送），让 TARS 除了生成代码，还能跟踪项目进度。\n- **Horizon**：基础设施编排层，和 Ramp 的 Inspect、Minions 等其他公司的系统类似，但它坐在一个 MCP 网关前面——后面会讲这个网关为什么对他们有变革性。\n\n通过把源代码系统、项目跟踪系统里的活动以 webhook 喂给 TARS，工厂开始执行**产品工程工作**，而不只是代码工作。一个具体例子：在 Linear 里定义有依赖关系的工单（一张阻塞另一张，这是把大工作拆小的常见做法），TARS 收到「工单完成」的 webhook 后，能自动接手循环里的下一张工单。于是团队在规划时构建一张「这个计划将如何执行」的地图，TARS 就能自主执行。更进一步，每张工单完成后还可以让 TARS 重新评估整个 Linear 项目、报告是否缺了新工单——因为干活的过程会让你发现计划里的缺口，他们想用智能体本身持续保持计划新鲜。\n\n## 把产品工程文化编码进去\n\n这套自动化的地基是 WorkOS 的「产品工程文化」：工程师对很多产品职能负责，团队里没有产品经理。他们的核心仪式是写一份叫 **Hilltop 文档**的东西——本质是一份 PRD（产品需求文档），既定义项目目的，也纳入客户在谈什么、哪里有需求、竞品分析、早期设计稿和主要里程碑。全公司的产品工程师本来就在做这件事。\n\n现在他们把这份文档直接交给智能体：智能体把它拆分成工作单元、拆成工单。他们甚至专门为此造了一个叫「PM」的智能体，负责根据一段简短规格说明起草 Hilltop 初稿、补充上下文、阅读人类审阅意见，然后接手实现并拆成工单。人类在每个环节都能留在循环里——对 AI 生成的工单评论、给进一步指导都很常见——但关键价值在于解决「冷启动」问题：不用一个人牧羊式地引导智能体走完生命周期的每一步，也不用面对空白文档从头写起。\n\nRyan 自己的实例：一两个月前他要给自己负责的 Vaults 产品加一个新 API，在 Slack 里敲一条命令、附几句描述就启动了项目。TARS 自动创建了所有资源——Linear 项目、Notion 文档草稿、决策日志、开放问题。他作为主导产品工程师介入，用自己对项目的理解补齐定义不清的部分，再交回 TARS 执行。Hilltop 评审完成的工单一标记完成，TARS 就接手推进下一阶段。\n\n当然智能体不完美——「有时它会严重高估我们想通过这个项目实现的目标，我们不得不删掉它提出的很多范围」。但在已有基础上做删减，比工程师自己花时间搭所有基础组件简单得多。\n\n还有一个副产品：工作不一定非得用自家编码智能体实现。团队里很多人喜欢用外部的编码智能体，把它指向这些工单和文档就行；本地跑 Claude Code 用 Opus 也一样，通过 MCP 拿到这些文档作为上下文。安全团队也会进项目频道，对新项目的安全影响发表意见。\n\n> 【背景】此处提到的外部编码智能体，闸门指出正文原写的「Devin」未在原文出现，故改用泛称。Devin 是 Cognition 公司推出的 AI 软件工程师智能体。\n\n## MCP 网关：意外成为全公司杠杆\n\n工厂开发早期，他们自建了一个 MCP 网关（MCP 是让 AI 智能体调用外部工具和数据的标准接口），称之为「上下文引擎」。它连接所有内部系统，还会构建系统提示词和上下文，告诉智能体**如何使用这些工具、何时使用、信息是怎么组织的**。\n\n具体做法：接 Snowflake（他们的主数据湖），里面建了描述产品使用情况和客户对话的语义表，然后在 MCP 服务器的工具描述里给智能体一份清单——这些表里是什么内容、想回答哪类问题就为哪些表写查询。这给了智能体一种「方向感」。\n\n最意外的发现：这个 MCP 服务器现在被大量其他内部工具使用，他们把它开放给全公司直接从 Slack 查询做数据和客户分析。原本只是想把编码智能体连到内部系统，结果成了很多内部团队的了不起的杠杆。Ryan 给刚开始搭软件工厂的团队的建议很直接：值得花时间投资一个内部 MCP 网关服务器，它既连接所有工具，又带着告诉智能体如何使用、信息如何组织的描述——你会在很多其他用例里发现它有用。\n\n## 自动化的其他落点\n\nbug 请求从 Slack 进来，TARS 通过 webhook 监听，做初步分诊和实现、开修复 bug 的 PR。很多客户在 Slack 共享频道里，TARS 分诊支持请求特别有用——因为它能看代码，常常能从代码角度理解客户在产品的哪里遇到了问题。\n\n最让他们兴奋的方向是往「自我改进的软件」走：他们正在用 TARS 构建自己的沙箱基础设施，从沙箱即服务迁移出来自己拥有那一层——为的是对会话信息有深度控制、能在基础设施的不同部分之间移动工作负载。下一步是**记忆层**：一个常青的上下文，记录公司每个人在做什么、在哪个团队、负责什么产品，以及组织层面上 WorkOS 的语义和工作方式——既能插进软件工厂，也能把上下文抽出来接进其他 AI 工具。\n\n## 怎么衡量工厂真的有用\n\n他们的成果指标有几层：交付速度和客户影响（能不能真正给客户交付价值）；稳定性（衡量缺陷率、恢复时间等指标，担心自动化引入不稳定）；还有很大一部分是经验性的——看工程师是否在主动用 TARS、是否自愿从本地环境迁到云端沙箱，把这当作工厂在给他们加速的信号。\n\n而自己拥有基础设施的真正好处是：能看到基础设施里正在发生什么，用这些信息**自我改进工厂**——把智能体指向会话记录，看人们使用工厂的差距在哪里；智能体犯错的地方是不是该构建一项新技能；六个月前写的技能是不是已经因代码变化而过时。\n\n> 【背景】转写稿中的 \"Devon\" 按上下文应指 Cognition 公司的 AI 编码智能体 Devin；结尾提到的 \"software vectors\" 应为 \"software factories\"（软件工厂）。\n\nRyan 最后坦承有一个他们自己还没想明白的问题：在软件工厂里怎么处理授权（authorization）——如果你也在建软件工厂、对这个问题有见解，他很乐意聊。\n\n## 本集带走\n\n- **别用产出指标自欺**：PR 数量和 AI 代码占比可能掩盖 PR 总量上升；要衡量的是交付是否加速、缺陷率是否稳定，而不是生成了多少代码。\n- **光自动化写代码不够**：WorkOS 第一版工厂相比工程师笔记本上跑 Claude Code 几乎没提升，真正起作用的是把工程流程（评审、拆票、规划）也编码进工厂。\n- **用 webhook 让智能体自主接力**：工单完成事件触发 TARS 自动接下一张工单，还能定期重评项目、补缺工单，让计划保持新鲜。\n- **解决空白页问题**：让「PM 智能体」起草 PRD/项目文档初稿，工程师在其上删改补齐——比从零搭建便宜得多，即使智能体常常高估范围。\n- **尽早投资内部 MCP 网关**：不只连接工具，还要在工具描述里写清信息如何组织、何时该用什么——它会意外成为全公司做数据分析的杠杆。\n- **拥有基础设施才能自我改进**：能看到会话数据，才能发现技能缺口、淘汰过时技能，让工厂自己越用越好。",
+  "quotes": [
+    {
+      "en": "We think that the dream of the software factory is that it gives each of our engineers a small engineering team for themselves.",
+      "zh": "我们认为软件工厂的梦想是，它给我们每一位工程师一个属于他们自己的小型工程团队。",
+      "timestamp": "02:50",
+      "speaker": "Ryan Cooke"
+    },
+    {
+      "en": "By feeding our web hooks activities that are happening in other source code systems and project tracking systems, we're starting to get to that level of autonomy where our factory is performing product engineering work, not just code work.",
+      "zh": "通过把其他源代码系统和项目跟踪系统中正在发生的活动以 webhook 的形式喂给它，我们开始达到那种自主性水平，我们的工厂在执行产品工程工作，而不仅仅是代码工作。",
+      "timestamp": "05:07",
+      "speaker": "Ryan Cooke"
+    },
+    {
+      "en": "So we don't need a human to be shepherding this agent through every single step of the life cycle.",
+      "zh": "所以我们不需要一个人在整个生命周期的每一步都在牧羊式地引导这个智能体。",
+      "timestamp": "08:00",
+      "speaker": "Ryan Cooke"
+    },
+    {
+      "en": "It's cool to run an agent and have it open a PR. We really think about our software engineering practices and processes, and we want to encode those in automation.",
+      "zh": "运行一个智能体并让它开一个 PR，这很酷。但我们真正认真思考的是我们的软件工程实践和流程，并且我们想把这些编码到自动化中。",
+      "timestamp": "18:09",
+      "speaker": "Ryan Cooke"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:44",
+      "speaker": "Ryan",
+      "en": "And that is really about like are we accelerating our ability to deliver features.",
+      "zh": "这真正关乎的是，我们是否在加速交付功能的能力。"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Ryan",
+      "en": "We think that the dream of the software factory is that it gives each of our engineers a small engineering team for themselves.",
+      "zh": "我们认为软件工厂的梦想是，它给我们每一位工程师一个属于他们自己的小型工程团队。"
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Ryan",
+      "en": "It's not sufficient that the factory is producing code.",
+      "zh": "工厂能产出代码是不够的。"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Ryan",
+      "en": "By feeding our web hooks activities that are happening in other source code systems and project tracking systems, we're starting to get to that level of autonomy where our factory is performing product engineering work, not just code work.",
+      "zh": "通过把其他源代码系统和项目跟踪系统中正在发生的活动以 webhook 的形式喂给它，我们开始达到那种自主性水平，我们的工厂在执行产品工程工作，而不仅仅是代码工作。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Ryan",
+      "en": "And we want to continuously keep our plan fresh by using the agent itself.",
+      "zh": "我们想通过使用智能体本身来持续保持我们的计划是新鲜的。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Ryan",
+      "en": "So we don't need a human to be shepherding this agent through every single step of the life cycle.",
+      "zh": "所以我们不需要一个人在整个生命周期的每一步都在牧羊式地引导这个智能体。"
+    },
+    {
+      "timestamp": "10:29",
+      "speaker": "Ryan",
+      "en": "It's that blank page problem with writing.",
+      "zh": "这就是写作中的空白页问题。"
+    },
+    {
+      "timestamp": "10:37",
+      "speaker": "Ryan",
+      "en": "These agents aren't perfect. There are times where it grossly overestimates what we're trying to accomplish with this project, and we have to cut out a lot of the scope that it comes up with.",
+      "zh": "这些智能体并不完美。有时候它会严重高估我们想通过这个项目实现的目标，我们不得不删掉它提出的很多范围。"
+    },
+    {
+      "timestamp": "10:46",
+      "speaker": "Ryan",
+      "en": "That's a lot simpler for an engineer to add input into rather than them spending time to set up all these primitives themselves.",
+      "zh": "对工程师来说，在已有基础上添加输入，比让他们花时间自己搭建所有这些基础组件要简单得多。"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Ryan",
+      "en": "This has been an incredible piece of leverage for a lot of our internal teams.",
+      "zh": "这已经成为我们很多内部团队的一件了不起的杠杆。"
+    },
+    {
+      "timestamp": "13:37",
+      "speaker": "Ryan",
+      "en": "So if you're just getting started with thinking about a software factory, it is well worth your time to invest in an internal MCP gateway server that both connects all of your tools.",
+      "zh": "所以如果你刚开始考虑软件工厂，非常值得你花时间投资一个内部 MCP 网关服务器，它既连接你所有的工具。"
+    },
+    {
+      "timestamp": "14:54",
+      "speaker": "Ryan",
+      "en": "We're all trying to get to the self-improving software or the self-driving software.",
+      "zh": "我们都在努力实现自我改进的软件或自动驾驶的软件。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Ryan",
+      "en": "We want to see that they're electing to move out of their local harness and into a cloud sandbox.",
+      "zh": "我们希望看到他们主动选择离开本地的运行环境，转移到云端沙箱中。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Ryan",
+      "en": "Maybe the code has changed to a degree where a skill that we wrote six months ago is now obsolete.",
+      "zh": "也许代码已经变化到一定程度，以至于我们六个月前写的一项技能现在已经过时了。"
+    },
+    {
+      "timestamp": "18:09",
+      "speaker": "Ryan",
+      "en": "It's cool to run an agent and have it open a PR. We really think about our software engineering practices and processes, and we want to encode those in automation.",
+      "zh": "运行一个智能体并让它开一个 PR，这很酷。但我们真正认真思考的是我们的软件工程实践和流程，并且我们想把这些编码到自动化中。"
+    }
+  ],
+  "voice_script": "今天要讲的是 WorkOS 的一位工程师 Ryan,聊他们公司怎么搭「软件工厂」。先解释一下这个词：所谓软件工厂，就是把沙箱、AI 编码智能体和提示词串成一条流水线，让它自动写代码、自动开 PR、自动合并。这个玩法行业里已经有标准配置了——Ramp 几个月前发了篇博客介绍他们的系统，整个行业跟着兴奋。但 WorkOS 走了一条不太一样的路，而这条不一样的地方，恰恰是这一集最值得听的部分。\n\n那 WorkOS 不一样在哪呢？出发点是一个质疑。现在行业里流行的成功指标，全是「产出指标」——大家在 X 上、博客上晒的，都是 AI 生成的 PR 占了多少、PR 总量有多少、多少 AI 代码进了生产环境。但问题来了:PR 百分比可能只是掩盖了 PR 总量的整体上升,你很难分清这些产出是不是真的在驱动成果。如果公司要投入工程时间、甚至养一个全职团队来建这种自动化,那总得问一句:它到底在为工程组织创造价值吗？\n\n所以 WorkOS 衡量的不是代码产出，而是成果指标——是否在加速交付功能，复杂功能是否更快落地。他们有一句话说得特别好：软件工厂的梦想，是给每一位工程师一个属于他自己的小型工程团队。那么后果就应该是，东西造得更多、发得更快。\n\n带着这个想法，他们搭了第一版工厂，结果很快碰壁了。起步阶段他们和其他人做的一样：基于 Cloudflare 搭沙箱，里面放一个模型路由器，喂提示词。但跑起来之后发现，这套东西相比工程师直接在自己笔记本上跑 Claude Code,提升几乎无法区分——既不是渐进式的，也不是指数级的。\n\n这次碰壁逼出了一个核心认知：光让工厂产出代码是不够的。工程师产出产品的过程中，还做了大量别的工作——规划、拆票、评审——这些也应该自动化。用他们自己的话说：让智能体开一个 PR,这很酷，但他们真正认真思考的，是整套软件工程实践和流程，想把这些编码到自动化里。\n\n这就引出了他们的两套系统。第一套叫 TARS,是用户和编码智能体交互的界面，嵌在日常工具里——不只是 Slack,还有 Linear 和 GitHub。通过订阅这些系统的事件推送，TARS 不光能生成代码，还能跟踪项目进度。第二套叫 Horizon,是基础设施编排层，和 Ramp 等公司的系统类似。这两套怎么配合？举个例子：他们在 Linear 里定义有依赖关系的工单——一张阻塞另一张，这是把大工作拆小的常见做法。一张工单完成的事件一推送过来，TARS 就自动接手循环里的下一张。团队规划时相当于画了一张「这个计划将如何执行」的地图，TARS 就能自主往下走。更进一步，每张工单完成后还可以让它重新评估整个项目、报告是不是缺了新工单——因为干活的过程会让你发现计划里的缺口，他们想让智能体自己把计划保持新鲜。\n\n支撑这套自动化地基的，是 WorkOS 的产品工程文化。他们团队里没有产品经理，工程师自己负责很多产品职能，核心仪式就是写一份叫 Hilltop 的文档——本质上是一份产品需求文档，既定义项目目的，也纳入客户在谈什么、竞品分析、设计稿和主要里程碑。现在他们把这份文档直接交给智能体，让它拆分成工单。他们甚至专门造了一个叫 PM 的智能体，负责起草文档初稿、补充上下文、阅读人类的审阅意见，然后接手实现。人类在每个环节都能留在循环里——对 AI 生成的工单评论、给指导都很常见——但关键价值在于解决「冷启动」问题：不需要一个人在生命周期每一步都牧羊式地引导智能体，也不用面对空白文档从头写起。\n\nRyan 自己就有个例子。一两个月前，要给他负责的产品加一个新 API,就在 Slack 里敲一条命令、附几句描述，项目就启动了。TARS 自动创建了所有资源——项目、文档草稿、决策日志、开放问题。他作为工程师介入，补齐定义不清的部分，再交回去执行。当然智能体不完美，会严重高估项目目标，得删掉它提出的很多范围。但在已有基础上做删减，总比工程师自己花时间搭所有基础组件简单得多。\n\n这套系统里还有个意外明星——MCP 网关。先解释一下，MCP 是让 AI 智能体调用外部工具和数据的标准接口。他们自建的网关连接所有内部系统，还构建系统提示词，告诉智能体如何使用这些工具、何时使用。最意外的发现是，这个东西现在被大量其他内部工具使用，开放给全公司直接从 Slack 里查数据、做客户分析。原本只想把编码智能体连到内部系统，结果成了很多团队的了不起的杠杆。所以给刚开始搭软件工厂的团队的建议很直接：值得早点投资一个内部 MCP 网关。\n\n到这里你可能想问：那到底怎么衡量工厂真的有用？他们的答案回到了开头说的成果指标——交付速度、客户影响、缺陷率、恢复时间。还有很大一部分是经验性的：看工程师是否主动用 TARS、是否自愿从本地环境迁到云端沙箱，把这当作工厂在加速他们的信号。而自己拥有基础设施的真正好处是，能看到里面正在发生什么，让智能体去读会话记录，发现哪里缺技能、哪里六个月前写的技能已经过时——让工厂自己越用越好。\n\n运行一个智能体，让它开一个 PR,这很酷。但真正值钱的，是把你的软件工程实践和流程编码进自动化里。"
+}

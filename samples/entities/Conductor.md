@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Conductor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Conductor">CO</div><div class="pi"><h1 class="pt">Conductor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Conductor">CO</div><div class="pi"><h1 class="pt">Conductor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(13:15起):本集把它说成:整合了代码编写和合并发布功能的应用，能与 Paper 完美联动生成排版变体，是当前构建者流行使用的整合型智能体栈。
+- **[[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]]**(01:00起):嘉宾联合创办的公司：一个桌面应用，用来同时管理一个编码智能体团队，用一个界面取代一堆终端窗口；本集演示了新版的云沙箱与实时协作工作区
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
+- [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Stephen Haney]] · [[Paper]] · [[Cursor]] · [[Claude Code]] · [[Figma]] · [[智能体]] · [[MCP 服务器]] · [[代码即真相来源]] · [[策展式设计]] · [[HTML]]
+[[Claude Code]] · [[Stephen Haney]] · [[Charlie Holtz]] · [[Paper]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[Figma]] · [[编码智能体]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Stephen Haney":1,"Paper":1,"Cursor":73,"Claude Code":86,"Figma":22,"智能体":361,"MCP 服务器":2,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
+<script type="application/json" class="pd-epn">{"Claude Code":89,"Stephen Haney":1,"Charlie Holtz":1,"Paper":1,"Anthropic":155,"Cursor":73,"OpenAI":142,"Figma":22,"编码智能体":23,"智能体":364}</script>
 
 <script>
 (function(){

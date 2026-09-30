@@ -230,7 +230,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"OpenAI":140,"Claude":73,"Anthropic":153,"Lenny":68,"Google":50,"Codex":65,"Cursor":73,"LLM":49,"AGI":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"OpenAI":142,"Claude":73,"Anthropic":155,"Lenny":68,"Google":51,"Codex":66,"Cursor":73,"LLM":49,"AGI":26}</script>
 
 <script>
 (function(){

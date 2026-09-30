@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":153,"智能体":361,"harness":50,"沙箱":66,"智能体循环":5,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":155,"智能体":364,"harness":50,"沙箱":68,"智能体循环":5,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":34}</script>
 
 <script>
 (function(){

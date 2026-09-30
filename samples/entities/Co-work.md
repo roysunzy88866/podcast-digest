@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude Code]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Anthropic]] · [[Kat Wu]] · [[Fiona Fung]] · [[Daniel Blum]] · [[Adam Neumann]] · [[产品品味]]
+[[Claude Code]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Anthropic]] · [[WorkOS]] · [[Kat Wu]] · [[Fiona Fung]] · [[Daniel Blum]] · [[Adam Neumann]]
 
-<script type="application/json" class="pd-epn">{"Claude Code":86,"智能体":361,"Slack":29,"Lenny":68,"Anthropic":153,"Kat Wu":1,"Fiona Fung":1,"Daniel Blum":1,"Adam Neumann":1,"产品品味":1}</script>
+<script type="application/json" class="pd-epn">{"Claude Code":89,"智能体":364,"Slack":29,"Lenny":68,"Anthropic":155,"WorkOS":9,"Kat Wu":1,"Fiona Fung":1,"Daniel Blum":1,"Adam Neumann":1}</script>
 
 <script>
 (function(){

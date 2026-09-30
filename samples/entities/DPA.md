@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Damien Lewke]] · [[Nebulock]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[POC 流程]] · [[产品市场契合]] · [[执行发起人]] · [[solo founder]]
+[[Damien Lewke]] · [[Nebulock]] · [[CrowdStrike]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[POC 流程]] · [[产品市场契合]] · [[执行发起人]]
 
-<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"POC 流程":1,"产品市场契合":23,"执行发起人":1,"solo founder":1}</script>
+<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"CrowdStrike":2,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":6,"POC 流程":1,"产品市场契合":23,"执行发起人":1}</script>
 
 <script>
 (function(){

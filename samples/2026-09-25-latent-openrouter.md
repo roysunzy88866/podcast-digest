@@ -192,8 +192,8 @@ Anjney 早在 MidJourney 时代就领教过：一夜涌入大量免费试用用�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:token、推理 (inference)、智能体 (agent)、规模定律 (scaling laws)</span>
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:微调 (fine-tuning)、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Anthropic、OpenRouter、Stripe、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI、OpenRouter · 同概念:token、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

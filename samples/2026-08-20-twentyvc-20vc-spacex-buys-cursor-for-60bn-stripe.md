@@ -194,9 +194,9 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 
 **换个口味**
 
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:Anthropic、Microsoft、Stripe、Databricks、Meta、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:Anthropic、OpenRouter、Stripe、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Microsoft、Cursor、OpenAI、OpenRouter、SpaceX、Stripe · 同概念:智能体 (agent)、推理 (inference)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Cursor、Cognition、OpenAI、Salesforce、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

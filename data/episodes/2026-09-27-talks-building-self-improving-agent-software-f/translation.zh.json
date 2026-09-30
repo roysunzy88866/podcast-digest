@@ -1,0 +1,1098 @@
+[
+ {
+  "seg": 0,
+  "start": 12.946,
+  "end": 13.767,
+  "speaker": "Unknown",
+  "en": "My name is Suraj Gupta.",
+  "zh": "我叫 Suraj Gupta。"
+ },
+ {
+  "seg": 1,
+  "start": 13.827,
+  "end": 15.587,
+  "speaker": "Unknown",
+  "en": "I lead harness development at Warp.",
+  "zh": "我在 Warp 负责开发 harness。"
+ },
+ {
+  "seg": 2,
+  "start": 15.988,
+  "end": 22.771,
+  "speaker": "Unknown",
+  "en": "In case you haven't heard of Warp before, we started off by building a state-of-the-art agentic development environment.",
+  "zh": "如果你之前没听说过 Warp,我们最初是做最先进的智能体开发环境起家的。"
+ },
+ {
+  "seg": 3,
+  "start": 23.471,
+  "end": 25.812,
+  "speaker": "Unknown",
+  "en": "We have about a million active users that use that.",
+  "zh": "我们有大约一百万活跃用户在使用它。"
+ },
+ {
+  "seg": 4,
+  "start": 26.653,
+  "end": 29.094,
+  "speaker": "Unknown",
+  "en": "It was born out of a modern-day terminal.",
+  "zh": "它诞生于一个现代终端。"
+ },
+ {
+  "seg": 5,
+  "start": 29.334,
+  "end": 35.717,
+  "speaker": "Unknown",
+  "en": "And nowadays, we're building a cloud agent platform to enable teams to build software factories.",
+  "zh": "而如今,我们正在构建一个云端智能体平台,让团队能够构建软件工厂。"
+ },
+ {
+  "seg": 6,
+  "start": 35.797,
+  "end": 36.737,
+  "speaker": "Unknown",
+  "en": "Today, I'm going to talk about",
+  "zh": "今天,我要讲的是"
+ },
+ {
+  "seg": 7,
+  "start": 38.994,
+  "end": 48.879,
+  "speaker": "Unknown",
+  "en": "Self-improving software factories, which I know might sound kind of buzzy, but I'm going to break it down and hopefully you can walk out of here with something concrete that you can implement yourselves.",
+  "zh": "自我改进的软件工厂,我知道这听起来有点营销味,但我会把它拆开来讲,希望你们离开这里时能带走一些可以自己实施的具体东西。"
+ },
+ {
+  "seg": 8,
+  "start": 49.259,
+  "end": 56.703,
+  "speaker": "Unknown",
+  "en": "You've probably heard of both of these terms, self-improvement and software factories used throughout this conference, but I'm sure you've heard of them independently.",
+  "zh": "你可能在这场大会上已经听过自我改进和软件工厂这两个词,但我确定你是分别独立地听过它们。"
+ },
+ {
+  "seg": 9,
+  "start": 58.023,
+  "end": 58.804,
+  "speaker": "Unknown",
+  "en": "You've heard about how",
+  "zh": "你听过"
+ },
+ {
+  "seg": 10,
+  "start": 59.884,
+  "end": 72.267,
+  "speaker": "Unknown",
+  "en": "Self-improvement is about agents being able to improve over time, agents and models, and phasing out humans from that loop so that way the improvement loop can be automatic.",
+  "zh": "自我改进是指智能体能够随时间提升,智能体和模型,并把人类从这个循环中逐步淘汰出去,这样改进循环就可以自动化。"
+ },
+ {
+  "seg": 11,
+  "start": 73.187,
+  "end": 86.33,
+  "speaker": "Unknown",
+  "en": "And I'm sure you've heard about software factories being the way that the software development paradigm is shifting from individual coding agents to building out automations that take work from triage up until production.",
+  "zh": "我也确定你听过软件工厂是软件开发范式正在从单个编码智能体转向构建自动化,把工作从分诊一直到生产。"
+ },
+ {
+  "seg": 12,
+  "start": 87.49,
+  "end": 96.118,
+  "speaker": "Unknown",
+  "en": "But less has been said about how software factories themselves can self-improve over time so that the factory can get better, more efficient, faster.",
+  "zh": "但关于软件工厂本身如何能随时间自我改进、从而让工厂变得更好、更高效、更快速,这方面的讨论却少得多。"
+ },
+ {
+  "seg": 13,
+  "start": 97.399,
+  "end": 106.106,
+  "speaker": "Unknown",
+  "en": "And I think this is going to become an extremely important part of our jobs as software engineers as we transition from building products to building factories and maintaining them.",
+  "zh": "我认为,随着我们从构建产品转向构建工厂并维护它们,这将对我们作为软件工程师的工作变得极其重要。"
+ },
+ {
+  "seg": 14,
+  "start": 107.708,
+  "end": 108.389,
+  "speaker": "Unknown",
+  "en": "So let's dive in.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 109.911,
+  "end": 117.721,
+  "speaker": "Unknown",
+  "en": "Self-improvement is a pretty broad umbrella, but I'm going to focus on three concrete ways that agents can improve over time, agent factories can improve over time.",
+  "zh": "自我改进是一个相当宽泛的概念,但我会聚焦于三个具体的方式,让智能体随时间改进,让智能体工厂随时间改进。"
+ },
+ {
+  "seg": 16,
+  "start": 118.181,
+  "end": 123.868,
+  "speaker": "Unknown",
+  "en": "I'm going to start with skills, then we'll talk about persistent memory, and then I'll finish off by talking about model routing.",
+  "zh": "我会从技能开始,然后我们会讨论持久记忆,最后我会讲模型路由。"
+ },
+ {
+  "seg": 17,
+  "start": 126.488,
+  "end": 129.151,
+  "speaker": "Unknown",
+  "en": "Skills are a great way to give your agents procedural memory.",
+  "zh": "技能是给你的智能体提供程序性记忆的好方法。"
+ },
+ {
+  "seg": 18,
+  "start": 129.171,
+  "end": 131.093,
+  "speaker": "Unknown",
+  "en": "I don't think I have to spell that out for you.",
+  "zh": "我想不用我详细解释了。"
+ },
+ {
+  "seg": 19,
+  "start": 131.533,
+  "end": 136.659,
+  "speaker": "Unknown",
+  "en": "You describe a procedure to your agent that you expect it to have to do a task over and over.",
+  "zh": "你向你的智能体描述一个流程,你期望它反复执行某个任务。"
+ },
+ {
+  "seg": 20,
+  "start": 137.44,
+  "end": 142.525,
+  "speaker": "Unknown",
+  "en": "For example, let's say you're building a triage agent, which is a pretty common thing you might build in a software factory.",
+  "zh": "举个例子,假设你正在构建一个分诊智能体,这是你在软件工厂里可能会构建的相当常见的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 144.695,
+  "end": 148.358,
+  "speaker": "Unknown",
+  "en": "And you give it a skill on how you want it to go about reproducing issues.",
+  "zh": "然后你给它一个技能,关于你希望它如何去复现问题。"
+ },
+ {
+  "seg": 22,
+  "start": 148.518,
+  "end": 149.959,
+  "speaker": "Unknown",
+  "en": "Those skills get stale over time.",
+  "zh": "这些技能会随时间变得过时。"
+ },
+ {
+  "seg": 23,
+  "start": 150.82,
+  "end": 152.381,
+  "speaker": "Unknown",
+  "en": "Humans give feedback to the agents.",
+  "zh": "人类给智能体反馈。"
+ },
+ {
+  "seg": 24,
+  "start": 152.941,
+  "end": 156.184,
+  "speaker": "Unknown",
+  "en": "Agents learn things in their own runs and trajectories.",
+  "zh": "智能体在它们自己的运行和轨迹中学到一些东西。"
+ },
+ {
+  "seg": 25,
+  "start": 157.205,
+  "end": 161.328,
+  "speaker": "Unknown",
+  "en": "And the skill that you previously gave it becomes dated.",
+  "zh": "于是你之前给它的技能就变得过时了。"
+ },
+ {
+  "seg": 26,
+  "start": 161.828,
+  "end": 165.151,
+  "speaker": "Unknown",
+  "en": "So how do we fix this and let the agent improve over time using that skill?",
+  "zh": "那我们怎么解决这个问题,让智能体利用那个技能随时间改进呢?"
+ },
+ {
+  "seg": 27,
+  "start": 165.931,
+  "end": 169.253,
+  "speaker": "Unknown",
+  "en": "Well, one way to do it is to deploy an outer loop agent.",
+  "zh": "一种方法是部署一个外循环智能体。"
+ },
+ {
+  "seg": 28,
+  "start": 169.493,
+  "end": 173.396,
+  "speaker": "Unknown",
+  "en": "And this is what we've done in our own internal software factory that's been really productive.",
+  "zh": "这就是我们在自己的内部软件工厂里所做的事情,而且效果非常好。"
+ },
+ {
+  "seg": 29,
+  "start": 173.856,
+  "end": 179.74,
+  "speaker": "Unknown",
+  "en": "The idea is that your inner loop agent is the thing that's actually applying the skill.",
+  "zh": "思路是你的内循环智能体是实际应用技能的东西。"
+ },
+ {
+  "seg": 30,
+  "start": 180.08,
+  "end": 181.161,
+  "speaker": "Unknown",
+  "en": "It's like doing the triage.",
+  "zh": "它就像在做分诊。"
+ },
+ {
+  "seg": 31,
+  "start": 181.621,
+  "end": 193.469,
+  "speaker": "Unknown",
+  "en": "And then you have this other outer loop agent that is observing your inner loop agent's runs and improving its skill over time by looking for mistakes it made or looking at feedback that the human has given it.",
+  "zh": "然后你有另一个外循环智能体,它观察你的内循环智能体的运行,并通过寻找它犯的错误或查看人类给它的反馈,来随时间改进其技能。"
+ },
+ {
+  "seg": 32,
+  "start": 194.169,
+  "end": 196.111,
+  "speaker": "Unknown",
+  "en": "So I'm going to show an example of that.",
+  "zh": "我来展示一个例子。"
+ },
+ {
+  "seg": 33,
+  "start": 197.412,
+  "end": 199.134,
+  "speaker": "Unknown",
+  "en": "Let me swap here.",
+  "zh": "让我切换一下。"
+ },
+ {
+  "seg": 34,
+  "start": 199.635,
+  "end": 200.475,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 35,
+  "start": 200.556,
+  "end": 203.258,
+  "speaker": "Unknown",
+  "en": "So this is actually a skill that we've used internally at Warp.",
+  "zh": "这实际上是我们在 Warp 内部使用的一个技能。"
+ },
+ {
+  "seg": 36,
+  "start": 203.599,
+  "end": 207.943,
+  "speaker": "Unknown",
+  "en": "We've open sourced our client repository, and it's fully run as a factory.",
+  "zh": "我们开源了我们的客户端代码库,而且它完全作为一个工厂来运行。"
+ },
+ {
+  "seg": 37,
+  "start": 208.363,
+  "end": 214.249,
+  "speaker": "Unknown",
+  "en": "And so this is an example of a skill that's backing a triage agent that we have today.",
+  "zh": "所以这是我们今天拥有的一个分诊智能体背后的技能示例。"
+ },
+ {
+  "seg": 38,
+  "start": 218.121,
+  "end": 233.846,
+  "speaker": "Unknown",
+  "en": "You get an issue that comes in on GitHub, and you want to automatically run an agent to figure out what sort of information did the user not provide that is going to help us figure out if this is something that we should build, an existing issue that we might actually just want to de-dupe against, or something else.",
+  "zh": "你在 GitHub 上收到一个进来的 issue,你想自动运行一个智能体,来搞清楚用户没有提供哪些信息,而这些信息会帮我们判断这是一件我们应该构建的东西、一个我们可能实际上只想用来去重的现有 issue,还是别的东西。"
+ },
+ {
+  "seg": 39,
+  "start": 236.023,
+  "end": 238.804,
+  "speaker": "Unknown",
+  "en": "And then we have a, sorry, let me just switch over here.",
+  "zh": "然后我们有一个,抱歉,让我切换到这里。"
+ },
+ {
+  "seg": 40,
+  "start": 239.604,
+  "end": 246.346,
+  "speaker": "Unknown",
+  "en": "And then we have a workflow that actually runs that triage agent.",
+  "zh": "然后我们有一个实际运行那个分诊智能体的工作流。"
+ },
+ {
+  "seg": 41,
+  "start": 246.727,
+  "end": 247.807,
+  "speaker": "Unknown",
+  "en": "This is a pretty simple workflow.",
+  "zh": "这是一个相当简单的工作流。"
+ },
+ {
+  "seg": 42,
+  "start": 247.847,
+  "end": 253.249,
+  "speaker": "Unknown",
+  "en": "It just, every time an issue gets submitted on the repo, this workflow runs.",
+  "zh": "它就是,每次代码库上提交一个 issue,这个工作流就会运行。"
+ },
+ {
+  "seg": 43,
+  "start": 253.689,
+  "end": 260.431,
+  "speaker": "Unknown",
+  "en": "And then here's the actual outer loop agent, which is about looking at the work that the triage agent has done and improving it over time.",
+  "zh": "然后这里就是实际的外循环智能体,它负责查看分诊智能体完成的工作并随时间改进它。"
+ },
+ {
+  "seg": 44,
+  "start": 260.871,
+  "end": 262.392,
+  "speaker": "Unknown",
+  "en": "So the idea is that the agent",
+  "zh": "所以思路是这个智能体"
+ },
+ {
+  "seg": 45,
+  "start": 263.212,
+  "end": 272.715,
+  "speaker": "Unknown",
+  "en": "It looks at the decisions that the inner loop triage agent made, and it collects feedback signals, which might be thumbs up or thumbs down on the issues.",
+  "zh": "它查看内循环分诊智能体所做的决策,并收集反馈信号,这些信号可能是对 issue 的点赞或点踩。"
+ },
+ {
+  "seg": 46,
+  "start": 273.515,
+  "end": 275.535,
+  "speaker": "Unknown",
+  "en": "It might be users commenting on the issue.",
+  "zh": "也可能是用户在 issue 上的评论。"
+ },
+ {
+  "seg": 47,
+  "start": 275.555,
+  "end": 281.117,
+  "speaker": "Unknown",
+  "en": "It might be someone from Warp, an employee of Warp, commenting on the issue, giving the agent feedback on what it did.",
+  "zh": "也可能是 Warp 的某个人、Warp 的员工在 issue 上评论,就它所做的事给智能体反馈。"
+ },
+ {
+  "seg": 48,
+  "start": 283.188,
+  "end": 288.713,
+  "speaker": "Unknown",
+  "en": "And then ultimately that leads to some synthesis of that iteration.",
+  "zh": "最终这会导向对这次迭代的一些综合。"
+ },
+ {
+  "seg": 49,
+  "start": 289.134,
+  "end": 295.179,
+  "speaker": "Unknown",
+  "en": "And so we end up basically updating our inner loop skill with this outer loop agent.",
+  "zh": "所以我们基本上就是用这个外循环智能体来更新我们的内循环技能。"
+ },
+ {
+  "seg": 50,
+  "start": 295.379,
+  "end": 297.521,
+  "speaker": "Unknown",
+  "en": "And that's what leads to this self-improvement loop with skills.",
+  "zh": "而这就是技能(self-improvement loop with skills)所带来的自我改进循环。"
+ },
+ {
+  "seg": 51,
+  "start": 298.162,
+  "end": 300.524,
+  "speaker": "Unknown",
+  "en": "What's really nice about this is that the",
+  "zh": "这一点真正好的地方在于"
+ },
+ {
+  "seg": 52,
+  "start": 301.465,
+  "end": 304.987,
+  "speaker": "Unknown",
+  "en": "So in step four, you'll see we edit the triage skill, and then we open a pull request.",
+  "zh": "所以在第四步,你会看到我们编辑了 triage 技能,然后打开了一个 pull request。"
+ },
+ {
+  "seg": 53,
+  "start": 305.488,
+  "end": 315.174,
+  "speaker": "Unknown",
+  "en": "So that means that all of the improvements to the inner loop skill are going to be tracked through Git, so you get full observability into how that skill is transformed over time.",
+  "zh": "这意味着对内循环技能的所有改进都会通过 Git 追踪,所以你对这个技能随时间的演变拥有完全的可观测性。"
+ },
+ {
+  "seg": 54,
+  "start": 315.654,
+  "end": 325.68,
+  "speaker": "Unknown",
+  "en": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+  "zh": "而且这也意味着会有真人对这些技能更新进行审查,这样外循环智能体就不会犯错误、最终导致你的 triage 智能体表现反而变差。"
+ },
+ {
+  "seg": 55,
+  "start": 328.141,
+  "end": 330.722,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's kind of what I want to talk about for skills.",
+  "zh": "是的,这就是我想讲的关于技能的内容。"
+ },
+ {
+  "seg": 56,
+  "start": 332.623,
+  "end": 335.284,
+  "speaker": "Unknown",
+  "en": "Let me talk about persistent memory now.",
+  "zh": "现在让我谈谈持久记忆。"
+ },
+ {
+  "seg": 57,
+  "start": 335.304,
+  "end": 336.585,
+  "speaker": "Unknown",
+  "en": "So I'm going to go back to my deck.",
+  "zh": "我要切回我的幻灯片。"
+ },
+ {
+  "seg": 58,
+  "start": 339.446,
+  "end": 339.646,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 59,
+  "start": 339.926,
+  "end": 342.107,
+  "speaker": "Unknown",
+  "en": "So skills are great for remembering procedures.",
+  "zh": "技能很适合用来记住流程。"
+ },
+ {
+  "seg": 60,
+  "start": 342.547,
+  "end": 343.448,
+  "speaker": "Unknown",
+  "en": "But what about everything else?",
+  "zh": "但其他的一切怎么办呢?"
+ },
+ {
+  "seg": 61,
+  "start": 343.988,
+  "end": 347.57,
+  "speaker": "Unknown",
+  "en": "So what happens when your sentry agent looks for",
+  "zh": "那么当你的 sentry 智能体去查找"
+ },
+ {
+  "seg": 62,
+  "start": 348.85,
+  "end": 355.575,
+  "speaker": "Unknown",
+  "en": "An issue and finds an issue, does some work to gather context about it, and fixes it.",
+  "zh": "一个 issue 并找到了一个 issue,做了一些工作收集关于它的上下文,然后修复了它,会发生什么呢?"
+ },
+ {
+  "seg": 63,
+  "start": 355.955,
+  "end": 359.037,
+  "speaker": "Unknown",
+  "en": "But then now you encounter a similar issue in the future.",
+  "zh": "但之后你未来遇到了一个类似的问题。"
+ },
+ {
+  "seg": 64,
+  "start": 360.518,
+  "end": 368.243,
+  "speaker": "Unknown",
+  "en": "Your agent might get lucky and be able to figure out the same root cause that it did the first time around, but that's not guaranteed.",
+  "zh": "你的智能体可能运气好,能够像第一次那样找出同样的根因,但这并没有保证。"
+ },
+ {
+  "seg": 65,
+  "start": 368.283,
+  "end": 374.588,
+  "speaker": "Unknown",
+  "en": "And even if it does, you've probably wasted a lot of tokens regathering context on an issue that you've already fixed before.",
+  "zh": "而且即使它做到了,你也可能已经浪费了大量 token,为一个你之前已经修复过的问题重新收集上下文。"
+ },
+ {
+  "seg": 66,
+  "start": 375.048,
+  "end": 377.67,
+  "speaker": "Unknown",
+  "en": "So that's where something like persistent memory comes in.",
+  "zh": "所以这就是持久记忆这类东西发挥作用的地方。"
+ },
+ {
+  "seg": 67,
+  "start": 378.85,
+  "end": 382.313,
+  "speaker": "Unknown",
+  "en": "You can think of this as a fact store scoped to an agent.",
+  "zh": "你可以把它想象成一个限定于某个智能体的事实存储。"
+ },
+ {
+  "seg": 68,
+  "start": 382.333,
+  "end": 390.519,
+  "speaker": "Unknown",
+  "en": "Your agent runs, and similar to the skill improvement loop, you have an outer loop agent that's going to extract facts, learnings, outcomes from your inner loop agent.",
+  "zh": "你的智能体运行,类似于技能改进循环,你有一个外循环智能体,它会从你的内循环智能体中提取事实、经验教训、结果。"
+ },
+ {
+  "seg": 69,
+  "start": 390.839,
+  "end": 394.522,
+  "speaker": "Unknown",
+  "en": "So that way future runs of the agent can lean on what's already been done in the past.",
+  "zh": "这样一来,智能体未来的运行就可以依赖过去已经完成的工作。"
+ },
+ {
+  "seg": 70,
+  "start": 395.242,
+  "end": 396.963,
+  "speaker": "Unknown",
+  "en": "So I'm going to show an example of this.",
+  "zh": "我来展示一个这方面的例子。"
+ },
+ {
+  "seg": 71,
+  "start": 396.983,
+  "end": 398.563,
+  "speaker": "Unknown",
+  "en": "Going back to the deck here.",
+  "zh": "切回这里的幻灯片。"
+ },
+ {
+  "seg": 72,
+  "start": 399.463,
+  "end": 406.306,
+  "speaker": "Unknown",
+  "en": "So in Warp, or in Oz, rather, like I mentioned, we built out a cloud agent platform where you can run agents in the cloud.",
+  "zh": "所以在 Warp,或者更准确地说在 Oz,就像我提到的,我们构建了一个云端智能体平台,你可以在云中运行智能体。"
+ },
+ {
+  "seg": 73,
+  "start": 406.966,
+  "end": 410.707,
+  "speaker": "Unknown",
+  "en": "And for all these agents, you can attach memory stores to them.",
+  "zh": "对于所有这些智能体,你都可以为它们挂载记忆存储。"
+ },
+ {
+  "seg": 74,
+  "start": 411.187,
+  "end": 413.628,
+  "speaker": "Unknown",
+  "en": "Again, a memory store is just a collection of facts.",
+  "zh": "再说一遍,记忆存储只是一组事实的集合。"
+ },
+ {
+  "seg": 75,
+  "start": 414.748,
+  "end": 423.194,
+  "speaker": "Unknown",
+  "en": "In this case, I have a Sentry agent that has collected some memories over time about root cause analysis that it's done in the past.",
+  "zh": "在这个例子里,我有一个 Sentry 智能体,它随着时间积累了一些关于它过去所做根因分析的记忆。"
+ },
+ {
+  "seg": 76,
+  "start": 423.594,
+  "end": 425.695,
+  "speaker": "Unknown",
+  "en": "What's cool is you can actually version this memory.",
+  "zh": "很酷的一点是,你实际上可以对这个记忆进行版本管理。"
+ },
+ {
+  "seg": 77,
+  "start": 425.715,
+  "end": 428.977,
+  "speaker": "Unknown",
+  "en": "You can update it as a human, create new memories, or delete them yourselves.",
+  "zh": "你可以作为人类更新它、自己创建新记忆,或者删除它们。"
+ },
+ {
+  "seg": 78,
+  "start": 429.778,
+  "end": 433.64,
+  "speaker": "Unknown",
+  "en": "But primarily, this memory creation loop is driven by agents.",
+  "zh": "但主要来说,这个记忆创建循环是由智能体驱动的。"
+ },
+ {
+  "seg": 79,
+  "start": 434.181,
+  "end": 436.482,
+  "speaker": "Unknown",
+  "en": "You can also see where these memories were sourced from.",
+  "zh": "你还可以看到这些记忆是从哪里来的。"
+ },
+ {
+  "seg": 80,
+  "start": 436.542,
+  "end": 440.225,
+  "speaker": "Unknown",
+  "en": "So I can actually open up the run here to see.",
+  "zh": "所以我实际上可以在这里打开那次运行来看看。"
+ },
+ {
+  "seg": 81,
+  "start": 441.065,
+  "end": 441.646,
+  "speaker": "Unknown",
+  "en": "Oh, well.",
+  "zh": "哦,好吧。"
+ },
+ {
+  "seg": 82,
+  "start": 442.506,
+  "end": 447.831,
+  "speaker": "Unknown",
+  "en": "I think my IP address here keeps changing, and our staging platform is gated to an IP address.",
+  "zh": "我觉得我的 IP 地址一直在变,而我们的 staging 平台是限制 IP 地址访问的。"
+ },
+ {
+  "seg": 83,
+  "start": 447.851,
+  "end": 459.963,
+  "speaker": "Unknown",
+  "en": "But anyways, you can see where those memories were sourced from, so that way you can be like, oh, maybe that wasn't actually an important memory, or that was kind of like a local maxima that I don't want to include in my memory store.",
+  "zh": "但不管怎样,你可以看到那些记忆是从哪里来的,这样你就可以判断,哦,也许那其实不是一条重要的记忆,或者那有点像是一个我不想要纳入记忆存储的局部最优。"
+ },
+ {
+  "seg": 84,
+  "start": 461.645,
+  "end": 474.852,
+  "speaker": "Unknown",
+  "en": "And then when your agents continue to run, so in this case I have this sentry agent that's done a bunch of runs after it's created those memories, it actually can lean on those memories in the future when it's triaging new issues.",
+  "zh": "然后当你的智能体继续运行,在这个例子里我有一个 sentry 智能体,它在创建那些记忆之后又运行了很多次,它实际上可以在未来 triage 新问题的时候依赖那些记忆。"
+ },
+ {
+  "seg": 85,
+  "start": 475.193,
+  "end": 483.557,
+  "speaker": "Unknown",
+  "en": "So in this case you'll notice that this agent ran, it did a bunch of work to do some root cause analysis, and then it ultimately reported back on which memories it used.",
+  "zh": "所以在这个例子里你会注意到这个智能体运行了,它做了大量工作来进行根因分析,然后它最终报告了它使用了哪些记忆。"
+ },
+ {
+  "seg": 86,
+  "start": 485.64,
+  "end": 492.683,
+  "speaker": "Unknown",
+  "en": "In this case, it was able to use those five memories that I had in that memory store to speed up the work that I did this time around.",
+  "zh": "在这个例子里,它能够使用我记忆存储里的那五条记忆,来加速这次所做的工作。"
+ },
+ {
+  "seg": 87,
+  "start": 495.424,
+  "end": 496.324,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 88,
+  "start": 496.684,
+  "end": 498.045,
+  "speaker": "Unknown",
+  "en": "Let me go back to the deck.",
+  "zh": "让我切回幻灯片。"
+ },
+ {
+  "seg": 89,
+  "start": 500.539,
+  "end": 507.887,
+  "speaker": "Unknown",
+  "en": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+  "zh": "所以在 Oz 里很酷的一点是,持久记忆可以跨所有 harness 使用,包括 warp zone、专有 harness、Claude Code、Codex。"
+ },
+ {
+  "seg": 90,
+  "start": 507.907,
+  "end": 509.93,
+  "speaker": "Unknown",
+  "en": "It doesn't really matter what you're running on Oz.",
+  "zh": "你在 Oz 上跑什么其实都无所谓。"
+ },
+ {
+  "seg": 91,
+  "start": 510.01,
+  "end": 511.612,
+  "speaker": "Unknown",
+  "en": "Memories will automatically be created for you.",
+  "zh": "记忆会自动为你创建。"
+ },
+ {
+  "seg": 92,
+  "start": 513.213,
+  "end": 521.303,
+  "speaker": "Unknown",
+  "en": "But you also have the control to review those memories, version them, delete them, or edit them as you please, all while being fully traceable.",
+  "zh": "但你也拥有控制权,可以审查这些记忆、对它们做版本管理、删除它们,或者随意编辑它们,同时全程完全可追溯。"
+ },
+ {
+  "seg": 93,
+  "start": 523.499,
+  "end": 523.699,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 94,
+  "start": 523.839,
+  "end": 525.421,
+  "speaker": "Unknown",
+  "en": "That's what I wanted to say about memory.",
+  "zh": "这就是我想讲的关于记忆的内容。"
+ },
+ {
+  "seg": 95,
+  "start": 526.723,
+  "end": 528.927,
+  "speaker": "Unknown",
+  "en": "The last thing I want to talk about here is model routing.",
+  "zh": "我在这里最后想谈的是模型路由。"
+ },
+ {
+  "seg": 96,
+  "start": 529.007,
+  "end": 534.134,
+  "speaker": "Unknown",
+  "en": "So you might be wondering how this plays into self-improvement loops for factories.",
+  "zh": "你可能会好奇这如何融入工厂的自我改进循环。"
+ },
+ {
+  "seg": 97,
+  "start": 534.174,
+  "end": 537.159,
+  "speaker": "Unknown",
+  "en": "Well, first I want to touch on why model routing is important in a factory in the first place.",
+  "zh": "首先,我想先谈谈为什么模型路由在工厂里本来就很重要。"
+ },
+ {
+  "seg": 98,
+  "start": 538.16,
+  "end": 545.803,
+  "speaker": "Unknown",
+  "en": "It can become prohibitively expensive to run all of your agents that are doing simple things like triage or fixing simple CI failures with Opus.",
+  "zh": "让你所有做简单事情(比如 triage 或修复简单 CI 失败)的智能体都用 Opus 来跑,成本可能会高得让人望而却步。"
+ },
+ {
+  "seg": 99,
+  "start": 545.983,
+  "end": 548.064,
+  "speaker": "Unknown",
+  "en": "That's just going to be really expensive over time.",
+  "zh": "随着时间推移,那样只会非常昂贵。"
+ },
+ {
+  "seg": 100,
+  "start": 548.084,
+  "end": 553.527,
+  "speaker": "Unknown",
+  "en": "And I'm sure some of you have maybe been burnt by this or have heard stories of organizations being burnt by this.",
+  "zh": "我相信你们中有些人可能被这个坑过，或者听说过一些组织因此被坑的故事。"
+ },
+ {
+  "seg": 101,
+  "start": 554.487,
+  "end": 560.93,
+  "speaker": "Unknown",
+  "en": "So choosing which models you use for which tasks, that is actually very important and something that we've been working on at Warp.",
+  "zh": "所以，为不同任务选择使用哪些模型，这其实非常重要，也是我们在 Warp 一直在做的工作。"
+ },
+ {
+  "seg": 102,
+  "start": 562.03,
+  "end": 565.571,
+  "speaker": "Unknown",
+  "en": "So in Warp, you can actually use our out of the box model routers.",
+  "zh": "在 Warp 中，你实际上可以使用我们开箱即用的模型路由器。"
+ },
+ {
+  "seg": 103,
+  "start": 565.591,
+  "end": 568.232,
+  "speaker": "Unknown",
+  "en": "We call them our auto models.",
+  "zh": "我们称之为 auto models。"
+ },
+ {
+  "seg": 104,
+  "start": 568.452,
+  "end": 573.494,
+  "speaker": "Unknown",
+  "en": "As new models come out, we're always evaluating what are the best models when it comes to Pareto efficiency.",
+  "zh": "随着新模型不断发布，我们一直在评估哪些模型在帕累托效率方面表现最好。"
+ },
+ {
+  "seg": 105,
+  "start": 574.054,
+  "end": 582.357,
+  "speaker": "Unknown",
+  "en": "And so if you're a new user and you just want to get started, it's much better than pinning your model to Opus or Haiku, for example.",
+  "zh": "因此，如果你是一个新用户，只想快速上手，这比把模型固定在 Opus 或 Haiku 上要好得多。"
+ },
+ {
+  "seg": 106,
+  "start": 584.198,
+  "end": 587.439,
+  "speaker": "Unknown",
+  "en": "Let me show you all that experience in Warp.",
+  "zh": "让我给大家展示一下 Warp 中的这种体验。"
+ },
+ {
+  "seg": 107,
+  "start": 588.039,
+  "end": 590.02,
+  "speaker": "Unknown",
+  "en": "So let me go here.",
+  "zh": "那我到这里来。"
+ },
+ {
+  "seg": 108,
+  "start": 593.153,
+  "end": 593.994,
+  "speaker": "Unknown",
+  "en": "Give me one sec.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 109,
+  "start": 594.695,
+  "end": 595.796,
+  "speaker": "Unknown",
+  "en": "Got to drag this over here.",
+  "zh": "得把这个拖到这边来。"
+ },
+ {
+  "seg": 110,
+  "start": 597.018,
+  "end": 599.261,
+  "speaker": "Unknown",
+  "en": "So here I have my Warp desktop.",
+  "zh": "这是我的 Warp 桌面。"
+ },
+ {
+  "seg": 111,
+  "start": 599.441,
+  "end": 608.432,
+  "speaker": "Unknown",
+  "en": "And you can see that alongside being able to define models or being able to use Warp's auto models is one option, like these models here.",
+  "zh": "你可以看到，除了能够定义模型之外，使用 Warp 的 auto models 也是一个选项，就像这里的这些模型。"
+ },
+ {
+  "seg": 112,
+  "start": 608.772,
+  "end": 610.615,
+  "speaker": "Unknown",
+  "en": "But you can also define your own model router.",
+  "zh": "但你也可以定义自己的模型路由器。"
+ },
+ {
+  "seg": 113,
+  "start": 612.445,
+  "end": 621.253,
+  "speaker": "Unknown",
+  "en": "Models, which basically boil down to a set of rules that you can give to us, and we will make decisions about model routing based on those rules.",
+  "zh": "模型路由，基本上就是一组你可以提供给我们的规则，我们会根据这些规则做出模型路由决策。"
+ },
+ {
+  "seg": 114,
+  "start": 621.273,
+  "end": 636.588,
+  "speaker": "Unknown",
+  "en": "So here I have an example of a configuration file that I've defined, where I've defined a few different rules about I want database migrations done with GLM, or I want runbooks and API documentation done with Quen.",
+  "zh": "这里我有一个我定义的配置文件示例，我在其中定义了几条不同的规则，比如我想让数据库迁移用 GLM 完成，或者想让 runbook 和 API 文档用 Quen 完成。"
+ },
+ {
+  "seg": 115,
+  "start": 638.236,
+  "end": 647.267,
+  "speaker": "Unknown",
+  "en": "So this really allows you to define classes of tasks and be able to say, OK, I want this class of tasks done by this model because that's kind of what you've seen.",
+  "zh": "这确实让你可以定义任务的类别，然后说，好，我想让这类任务由这个模型完成，因为这就是你们刚才看到的那种做法。"
+ },
+ {
+  "seg": 116,
+  "start": 648.088,
+  "end": 650.891,
+  "speaker": "Unknown",
+  "en": "At this point, though, that's kind of more of an art than a science.",
+  "zh": "不过到目前为止，这更像是一门艺术，而不是一门科学。"
+ },
+ {
+  "seg": 117,
+  "start": 651.812,
+  "end": 655.977,
+  "speaker": "Unknown",
+  "en": "And so what we're working on next is being able to define evals for",
+  "zh": "所以我们接下来要做的是能够为"
+ },
+ {
+  "seg": 118,
+  "start": 657.078,
+  "end": 679.608,
+  "speaker": "Unknown",
+  "en": "Customer-facing evals where you can actually define what sorts of things you care about and what knobs you want to turn on these configurations and actually see, OK, is Haiku better than GLM, than Opus in a specific class of issues that's specific to your workflows and not just some generic benchmark that someone posted online?",
+  "zh": "面向客户的 eval 定义,你可以实际定义自己关心哪些方面、想在这些配置上调整哪些旋钮，然后真正看到，好，在专属于你工作流的某一类特定问题上，Haiku 是不是比 GLM、比 Opus 更好，而不只是某个人发到网上的一些通用基准？"
+ },
+ {
+  "seg": 119,
+  "start": 679.748,
+  "end": 680.549,
+  "speaker": "Unknown",
+  "en": "Let me go back here.",
+  "zh": "我回到这边来。"
+ },
+ {
+  "seg": 120,
+  "start": 690.809,
+  "end": 691.53,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 121,
+  "start": 693.933,
+  "end": 696.756,
+  "speaker": "Unknown",
+  "en": "And yeah, so let me, oh, I'm in my slideshow.",
+  "zh": "然后让我，哦，我还在我的幻灯片里。"
+ },
+ {
+  "seg": 122,
+  "start": 703.019,
+  "end": 706.482,
+  "speaker": "Unknown",
+  "en": "So here is kind of like a high-level overview of how this works in Warp today.",
+  "zh": "这里基本上是 Warp 今天这方面工作方式的一个高层次概览。"
+ },
+ {
+  "seg": 123,
+  "start": 706.562,
+  "end": 709.945,
+  "speaker": "Unknown",
+  "en": "So internally, we have our model routing rules.",
+  "zh": "在内部，我们有我们的模型路由规则。"
+ },
+ {
+  "seg": 124,
+  "start": 710.586,
+  "end": 716.671,
+  "speaker": "Unknown",
+  "en": "But then we have an eval side card that's determining what sorts of tasks are actually better with which models.",
+  "zh": "然后我们有一个 eval 侧卡片,用来判断哪些类型的任务实际上更适合用哪些模型。"
+ },
+ {
+  "seg": 125,
+  "start": 716.711,
+  "end": 724.198,
+  "speaker": "Unknown",
+  "en": "And we do this with a simple best.k approach, where when you type a prompt, we run a bunch of agents in Oz across a different set of models.",
+  "zh": "我们用一个简单的 best.k 方法来做这件事，当你输入一个 prompt 时，我们会在 Oz 里用一组不同的模型跑一大堆智能体。"
+ },
+ {
+  "seg": 126,
+  "start": 725.199,
+  "end": 730.524,
+  "speaker": "Unknown",
+  "en": "And we found success in being able to determine, oh, UI tasks are really well done with GLM.",
+  "zh": "我们发现这样做很成功，能够判断出，哦，UI 任务用 GLM 做得非常好。"
+ },
+ {
+  "seg": 127,
+  "start": 730.544,
+  "end": 731.745,
+  "speaker": "Unknown",
+  "en": "We don't really need to run those with Opus.",
+  "zh": "我们其实不需要用 Opus 来跑那些任务。"
+ },
+ {
+  "seg": 128,
+  "start": 731.765,
+  "end": 734.348,
+  "speaker": "Unknown",
+  "en": "It's much more efficient to run those with GLM.",
+  "zh": "用 GLM 跑那些任务效率高得多。"
+ },
+ {
+  "seg": 129,
+  "start": 734.448,
+  "end": 735.389,
+  "speaker": "Unknown",
+  "en": "So that's how we've been using it.",
+  "zh": "这就是我们一直在使用它的方式。"
+ },
+ {
+  "seg": 130,
+  "start": 735.449,
+  "end": 737.872,
+  "speaker": "Unknown",
+  "en": "But soon enough, we're going to be building this into our product.",
+  "zh": "但很快，我们会把这一切构建到我们的产品里。"
+ },
+ {
+  "seg": 131,
+  "start": 737.892,
+  "end": 741.535,
+  "speaker": "Unknown",
+  "en": "So that way, our customers can actually use it in their own workflows.",
+  "zh": "这样一来，我们的客户就能在自己的工作流中实际使用它。"
+ },
+ {
+  "seg": 132,
+  "start": 743.603,
+  "end": 745.544,
+  "speaker": "Unknown",
+  "en": "Yeah, that's mostly what I had today.",
+  "zh": "好，今天我要讲的基本就是这些。"
+ },
+ {
+  "seg": 133,
+  "start": 746.585,
+  "end": 751.327,
+  "speaker": "Unknown",
+  "en": "We're around in a booth around that side, so if you're interested in this kind of stuff, come talk to me.",
+  "zh": "我们在那个方向的展位上，所以如果你对这类东西感兴趣，来找我聊聊。"
+ },
+ {
+  "seg": 134,
+  "start": 751.507,
+  "end": 752.968,
+  "speaker": "Unknown",
+  "en": "I'm always down to talk about this kind of stuff.",
+  "zh": "我随时都乐意聊这类话题。"
+ },
+ {
+  "seg": 135,
+  "start": 753.448,
+  "end": 754.548,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks for your time today.",
+  "zh": "好，谢谢大家今天的时间。"
+ },
+ {
+  "seg": 136,
+  "start": 754.869,
+  "end": 756.93,
+  "speaker": "Unknown",
+  "en": "That's all I had.",
+  "zh": "我要讲的就这些。"
+ }
+]

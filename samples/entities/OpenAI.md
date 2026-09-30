@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>140</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>142</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -146,9 +146,11 @@ unlisted: true
 - **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(33:32起):本集提到 OpenAI 被披露黑进了一家澳大利亚医疗保健组织,作为讨论智能体安全与护栏的引子。
 - **[[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]]**(42:46起):本集仅作为对比一笔带过：在 Harvey 的工作不同于在 OpenAI、Eleven Labs 或 Sierra 做客服 AI 或模型的工作。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(04:40起):本集引述 OpenAI 内部六个月内从「token 榨到极致、到处用 AI」变成「这真的有差别吗？太贵了」的叙事翻转；其模型入侵 Hugging Face 的千智能体蜂群事件被引为慢起飞证据
+- **[[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]]**(04:17起):与 Anthropic 并提：新工作流若该成为默认，等这些公司内置即可，不必自己过度优化
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(00:14起):本集提到 Diogo 曾在 OpenAI 做 RLHF；并举例 OpenAI 从 2020 年起就一直尝试自动化客服至今没成。
 - **[[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]]**(14:41起):收入口径对标对象，也被认为会因追广告生意摧毁 20 美元档 prosumer 订阅市场
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(56:39起):本集讲它在 ExploitBench 上跑大量算力的持久智能体,出现智能体集群通过缓存目录互相通信、攻击评分器的安全事件。
+- **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说 OpenAI 与 Anthropic 合并年化收入攀升到惊人程度,新增收入已超过有史以来最好的软件公司;Sam Altman 的大规模算力承诺曾被批鲁莽、如今被视为极具远见,甚至因需求太猛暂停 Pro 套餐新订阅
 
 ## ① 提到它的金句
 
@@ -202,7 +204,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*140 集*
+*142 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -341,9 +343,11 @@ unlisted: true
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司(提及)
 - [[2026-09-27-a16z-building-a-team-at-ai-speed-harveys-magg|《一年估值从 30 亿涨到 110 亿：Harvey 怎么边狂奔边招一千人》]] — 作为被讨论公司(提及)
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
+- [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]] — 作为被讨论公司(提及)
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]] — 作为被讨论公司(提及)
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司(提及)
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -351,7 +355,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Anthropic":153,"ChatGPT":83,"Google":50,"推理":61,"Cursor":73,"NVIDIA":46,"Codex":65,"Stripe":39,"Claude":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Anthropic":155,"ChatGPT":83,"Google":51,"推理":62,"Cursor":73,"NVIDIA":46,"Codex":66,"Stripe":40,"Claude":73}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"循环":9,"智能体配方":1,"系统蒸馏":1,"品味":14,"评估":3,"每瓦特有价值工作":1,"智能体":361,"harness":50,"RLHF":4,"RL":9}</script>
+<script type="application/json" class="pd-epn">{"循环":9,"智能体配方":1,"系统蒸馏":1,"品味":14,"评估":3,"每瓦特有价值工作":1,"智能体":364,"harness":50,"RLHF":4,"RL":9}</script>
 
 <script>
 (function(){

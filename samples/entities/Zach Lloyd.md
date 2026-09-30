@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":2,"软件工厂":7,"智能体":361,"编码智能体":22,"代码审查":19,"计算机使用":14,"LLM 当裁判":9,"自我改进":1,"MCP":65}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Warp":3,"软件工厂":1,"智能体":364,"编码智能体":23,"代码审查":19,"计算机使用":14,"LLM 当裁判":9,"自我改进":1,"MCP":65}</script>
 
 <script>
 (function(){

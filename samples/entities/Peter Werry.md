@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":86,"上下文引擎":4,"智能体":361,"上下文窗口":12,"代码评审智能体":1,"搜索满足感":1,"MCP":65}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":2,"Claude Code":89,"上下文引擎":4,"智能体":364,"上下文窗口":12,"代码评审智能体":1,"搜索满足感":1,"MCP":65}</script>
 
 <script>
 (function(){

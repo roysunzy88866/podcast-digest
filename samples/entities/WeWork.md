@@ -33,7 +33,7 @@ unlisted: true
 
 [[Adam Neumann]] · [[SoftBank]] · [[Flow]] · [[a16z]] · [[基准测试]] · [[Salesforce]] · [[IPO]] · [[自我]] · [[高增长业务]] · [[Co-work]]
 
-<script type="application/json" class="pd-epn">{"Adam Neumann":1,"SoftBank":5,"Flow":1,"a16z":17,"基准测试":15,"Salesforce":32,"IPO":4,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"Adam Neumann":1,"SoftBank":5,"Flow":1,"a16z":17,"基准测试":15,"Salesforce":32,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
 
 <script>
 (function(){

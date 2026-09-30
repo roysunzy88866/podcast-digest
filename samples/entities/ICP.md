@@ -33,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[产品市场契合]] · [[Damien Lewke]] · [[Eric Simons]] · [[Keith Peiris]] · [[Nebulock]] · [[Bolt]] · [[Lightfield]] · [[客户发现]] · [[StackBlitz]] · [[Tome]]
+[[产品市场契合]] · [[Damien Lewke]] · [[Eric Simons]] · [[Keith Peiris]] · [[Nebulock]] · [[Bolt]] · [[Lightfield]] · [[CrowdStrike]] · [[StackBlitz]] · [[Tome]]
 
-<script type="application/json" class="pd-epn">{"产品市场契合":23,"Damien Lewke":1,"Eric Simons":1,"Keith Peiris":1,"Nebulock":1,"Bolt":3,"Lightfield":2,"客户发现":1,"StackBlitz":1,"Tome":2}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":23,"Damien Lewke":1,"Eric Simons":1,"Keith Peiris":1,"Nebulock":1,"Bolt":3,"Lightfield":2,"CrowdStrike":2,"StackBlitz":1,"Tome":2}</script>
 
 <script>
 (function(){

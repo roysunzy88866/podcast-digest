@@ -1,0 +1,105 @@
+{
+  "title_zh": "软件工厂如何自我改进:技能、记忆与模型路由",
+  "tldr": "Warp 的 harness 负责人 Suraj Gupta 讲解软件工厂自我改进的三种具体做法:外循环改进技能、持久记忆、模型路由。",
+  "digest_md": "这一集是 Warp 的 Suraj Gupta 的一场演讲——他在 Warp 负责开发 harness(也就是驱动智能体运行的这套框架)。Warp 从一个现代终端起家,现在有大约一百万活跃用户,如今在做一个云端智能体平台,让团队能搭建「软件工厂」——即把开发工作从 issue 分诊一直自动化到上生产的一整套流水线。\n\n他提出的核心问题是:大家都在讲智能体能自我改进、也都在讲软件工厂,但**软件工厂本身怎么随时间变得更好、更高效、更快**,却很少有人讲。他给了三条可落地的路径:技能、持久记忆、模型路由。\n\n## 一、用「外循环智能体」让技能自动进化\n\n技能(skill)就是给智能体的程序性记忆:你把某个要反复执行的流程描述给它,比如一个分诊智能体该怎么复现 GitHub 上用户报的问题。\n\n问题在于技能会过时:人类不断给智能体反馈,智能体自己跑的过程中也学到新东西,你当初写的技能很快就跟不上了。\n\nWarp 的解法是部署一个**外循环智能体**:内循环智能体实际执行技能(比如做分诊),外循环智能体则观察内循环的运行,收集反馈信号——包括用户或 Warp 员工在 issue 上的点赞点踩和评论、智能体犯的错——然后综合这些信息去改进内循环的技能。改进结果通过 pull request 提交,带来两个好处:所有技能演变都经 Git 追踪,完全可观测;同时一定有真人审查这些更新,防止外循环改坏了反而让分诊智能体变差。\n\n这套机制就在 Warp 自己开源的客户端代码库上真实运行着:每次仓库里有新 issue 提交,工作流就触发分诊智能体判断这是该构建的新需求、还是可以合并去重的已有 issue,并找出用户漏报了哪些信息。\n\n## 二、持久记忆:让智能体记住修过的问题\n\n技能管流程,但其余的经验呢?比如一个 Sentry 智能体(负责盯错误上报的智能体)找到问题、收集上下文、修好了——三个月后来了个类似的问题,它可能运气好能重新找到同样的根因,但即使做到了,也为一个已经修过的问题白白重烧了大量 token 去重新收集上下文。\n\n持久记忆就是一个限定于某个智能体的**事实存储**:类似技能改进循环,也由外循环智能体从内循环的运行中提取事实、经验教训和结果,供未来的运行直接复用。在 Warp 的平台上,每个智能体都能挂记忆存储,可以版本管理,人类可以审查、编辑、删除,还能追溯每条记忆是从哪次运行提炼出来的——这样你能判断某条记忆是不是无关紧要,或者只是不该纳入的局部最优。\n\n效果是实实在在的:他们的 Sentry 智能体积累了五条根因分析的记忆,之后处理新问题时报告了自己用了哪几条,直接加速了这次的工作。而且这套持久记忆跨所有 harness 通用——不管你跑的是 Warp 自家的还是 Claude Code、Codex,记忆都会自动创建。\n\n## 三、模型路由:别让简单任务烧大模型的钱\n\n让所有做简单任务的智能体——比如分诊、修简单的 CI 失败——都用最贵的模型(如 Opus)来跑,成本会高到不可持续。所以「哪个任务用哪个模型」本身就是工厂效率的关键。\n\nWarp 提供开箱即用的模型路由(叫 auto models),随着新模型发布持续评估帕累托效率(即在同等质量下找更便宜更快的选项)。用户也可以自定义路由规则:比如规定数据库迁移用 GLM 做、runbook 和 API 文档用 Quen 做——本质是给任务分类,再把类别映射到模型。\n\n不过选哪个模型配哪类任务,目前「更像艺术而非科学」。所以 Warp 内部在用一种简单粗暴的 best.k 方法建立评测:同一个 prompt,在他们的云平台上用一组不同模型各跑一遍智能体,靠实测判断——他们由此发现 UI 任务用 GLM 做得就很好,根本不必动用 Opus,效率高得多。下一步是把这套评测做成面向客户的产品能力,让客户能在**专属于自己工作流**的任务类型上比较模型好坏,而不是只看网上发布的通用基准。\n\n## 本集带走\n\n- **技能会过时,给技能配一个外循环改进者**:内循环智能体干活,外循环智能体收集点赞点踩和评论等反馈、定期修订技能,改动走 pull request、由真人审查——既自动进化又可观测、可回滚。\n- **把修过的问题存成事实库**:为智能体挂持久记忆,由外循环自动从每次运行中提取根因和教训;要能版本管理、能追溯来源,避免存进局部最优的错误结论。\n- **按任务类别路由模型**:简单任务(分诊、修 CI)别用旗舰模型;用配置规则把任务类别映射到模型,再用 best.k 实测(同一 prompt 多模型各跑一遍)验证选择,而不是照搬通用排行榜。",
+  "quotes": [],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:37",
+      "speaker": "Suraj Gupta",
+      "en": "And I think this is going to become an extremely important part of our jobs as software engineers as we transition from building products to building factories and maintaining them.",
+      "zh": "我认为,随着我们从构建产品转向构建工厂并维护它们,这将对我们作为软件工程师的工作变得极其重要。"
+    },
+    {
+      "timestamp": "02:45",
+      "speaker": "Suraj Gupta",
+      "en": "Well, one way to do it is to deploy an outer loop agent.",
+      "zh": "一种方法是部署一个外循环智能体。"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Suraj Gupta",
+      "en": "And then you have this other outer loop agent that is observing your inner loop agent's runs and improving its skill over time by looking for mistakes it made or looking at feedback that the human has given it.",
+      "zh": "然后你有另一个外循环智能体,它观察你的内循环智能体的运行,并通过寻找它犯的错误或查看人类给它的反馈,来随时间改进其技能。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Suraj Gupta",
+      "en": "So that means that all of the improvements to the inner loop skill are going to be tracked through Git, so you get full observability into how that skill is transformed over time.",
+      "zh": "这意味着对内循环技能的所有改进都会通过 Git 追踪,所以你对这个技能随时间的演变拥有完全的可观测性。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Suraj Gupta",
+      "en": "And it also means that a human is actually going to review those updates to the skill, so that way this outer loop agent doesn't make a mistake and ultimately cause your triage agent to actually perform worse.",
+      "zh": "而且这也意味着会有真人对这些技能更新进行审查,这样外循环智能体就不会犯错误、最终导致你的分诊智能体表现反而变差。"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Suraj Gupta",
+      "en": "And even if it does, you've probably wasted a lot of tokens regathering context on an issue that you've already fixed before.",
+      "zh": "而且即使它做到了,你也可能已经浪费了大量 token,为一个你之前已经修复过的问题重新收集上下文。"
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Suraj Gupta",
+      "en": "You can think of this as a fact store scoped to an agent.",
+      "zh": "你可以把它想象成一个限定于某个智能体的事实存储。"
+    },
+    {
+      "timestamp": "07:27",
+      "speaker": "Suraj Gupta",
+      "en": "But anyways, you can see where those memories were sourced from, so that way you can be like, oh, maybe that wasn't actually an important memory, or that was kind of like a local maxima that I don't want to include in my memory store.",
+      "zh": "但不管怎样,你可以看到那些记忆是从哪里来的,这样你就可以判断,哦,也许那其实不是一条重要的记忆,或者那有点像是一个我不想要纳入记忆存储的局部最优。"
+    },
+    {
+      "timestamp": "08:20",
+      "speaker": "Suraj Gupta",
+      "en": "So what's cool in Oz is that persistent memory works across all harnesses, so warp zone, proprietary harness, Claude Code, Codex.",
+      "zh": "所以在 Oz 里很酷的一点是,持久记忆可以跨所有 harness 使用,包括 Warp 自家的、专有 harness、Claude Code、Codex。"
+    },
+    {
+      "timestamp": "08:58",
+      "speaker": "Suraj Gupta",
+      "en": "It can become prohibitively expensive to run all of your agents that are doing simple things like triage or fixing simple CI failures with Opus.",
+      "zh": "让你所有做简单事情(比如分诊或修复简单 CI 失败)的智能体都用 Opus 来跑,成本可能会高得让人望而却步。"
+    },
+    {
+      "timestamp": "10:48",
+      "speaker": "Suraj Gupta",
+      "en": "At this point, though, that's kind of more of an art than a science.",
+      "zh": "不过到目前为止,这更像是一门艺术,而不是一门科学。"
+    },
+    {
+      "timestamp": "10:57",
+      "speaker": "Suraj Gupta",
+      "en": "And so what we're working on next is being able to define evals for customer-facing evals where you can actually define what sorts of things you care about and what knobs you want to turn on these configurations and actually see, OK, is Haiku better than GLM, than Opus in a specific class of issues that's specific to your workflows and not just some generic benchmark that someone posted online?",
+      "zh": "所以我们接下来要做的是面向客户的评测定义,你可以实际定义自己关心哪些方面、想在这些配置上调整哪些旋钮,然后真正看到,好,在专属于你工作流的某一类特定问题上,Haiku 是不是比 GLM、比 Opus 更好,而不只是某个人发到网上的一些通用基准?"
+    },
+    {
+      "timestamp": "12:05",
+      "speaker": "Suraj Gupta",
+      "en": "And we found success in being able to determine, oh, UI tasks are really well done with GLM.",
+      "zh": "我们发现这样做很成功,能够判断出,哦,UI 任务用 GLM 做得非常好。"
+    },
+    {
+      "timestamp": "12:11",
+      "speaker": "Suraj Gupta",
+      "en": "It's much more efficient to run those with GLM.",
+      "zh": "用 GLM 跑那些任务效率高得多。"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Suraj Gupta",
+      "en": "But less has been said about how software factories themselves can self-improve over time so that the factory can get better, more efficient, faster.",
+      "zh": "但关于软件工厂本身如何能随时间自我改进、从而让工厂变得更好、更高效、更快速,这方面的讨论却少得多。"
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Suraj Gupta",
+      "en": "Those skills get stale over time.",
+      "zh": "这些技能会随时间变得过时。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个挺实在的问题。现在大家都在讲智能体能自我改进,也都在讲软件工厂——就是让智能体把开发工作从处理需求、分诊问题,一路自动做到上线的那套流水线。但很少有人认真讲一件事:软件工厂本身,怎么随着时间变得更好、更快、更省?\n\n聊这个的人叫 Suraj Gupta,是 Warp 负责 harness 的负责人。所谓 harness,就是驱动智能体运行的那套底层框架。Warp 是从现代终端起家的,现在有大约一百万活跃用户,如今在做云端智能体平台,帮团队搭建刚才说的软件工厂。Suraj 给出了三条可落地的路径:技能、持久记忆、模型路由。咱们一条条讲。\n\n先说第一条,让技能自动进化。所谓技能,说白了就是给智能体的操作手册:你把某个要反复执行的流程写成一份描述给它,比如告诉分诊智能体,怎么去复现 GitHub 上用户报的问题。这套东西运行起来没问题,麻烦在后面——技能会过时。人类不断给智能体反馈,智能体自己跑的过程中也会学到新东西,你当初写的那份手册,很快就跟不上了。\n\n那怎么办?Warp 的解法是再部署一个智能体,专门盯着另一个。内循环智能体实际干活,比如做分诊;外循环智能体就负责观察内循环的运行,收集反馈信号——包括用户和 Warp 员工在 issue 上的点赞点踩、评论,还有智能体犯过的错——然后把这些信息综合起来,去改进内循环用的那份技能。改进结果通过 pull request 提交,这一步很关键:所有技能的演变都经 Git 追踪,完全可观测,而且一定有真人审查这些更新,防止外循环改着改着,反而把分诊智能体改坏了。\n\n这套机制不是理论,就在 Warp 自己开源的代码库上真实跑着:仓库里每提交一个新 issue,工作流就触发分诊智能体,判断这是该新建的需求,还是可以合并去重的已有 issue,顺便找出用户漏报了哪些信息。\n\n讲完流程,自然会冒出一个问题:技能管的是操作步骤,那其余的经验教训呢?举个例子,一个负责盯 Sentry 错误上报的智能体,找到问题、收集上下文、把它修好了。三个月后来了个类似的问题——它可能运气好,重新找到同样的根因,但就算做到了,也是为一个已经修过的问题,白白烧掉大量 token 去重新收集上下文。这就是第二条要解决的:持久记忆。\n\n持久记忆就是一个限定于某个智能体的事实存储。做法跟技能改进循环类似,也由外循环智能体从内循环的运行中,提取事实、经验教训和结果,供未来的运行直接复用。在 Warp 的平台上,每个智能体都能挂一个记忆存储,可以版本管理,人类可以审查、编辑、删除,还能追溯每条记忆是从哪次运行提炼出来的——这样一来,你就能判断某条记忆到底重不重要,是不是一个不该纳入的局部最优解。\n\n效果是实打实的。他们的 Sentry 智能体积累了五条根因分析的记忆,之后处理新问题时,报告了自己用上了哪几条,直接加速了这次工作。而且这套记忆跨所有 harness 通用——不管你跑的是 Warp 自家的,还是 Claude Code、Codex,记忆都会自动创建。\n\n好,流程会自我改进了,经验也能记住了,第三条线就该聊钱了。让所有干简单活的智能体——比如分诊、修简单的 CI 失败——都跑在最贵的模型上,成本会高到不可持续。所以「哪个任务用哪个模型」,本身就是工厂效率的关键。\n\nWarp 提供开箱即用的模型路由,叫 auto models,随着新模型发布,持续评估所谓的帕累托效率——就是在同等质量下,找更便宜、更快的选项。用户也可以自己定规则,比如规定数据库迁移用 GLM 做,runbook 和 API 文档用 Quen 做。本质就是给任务分类,再把类别映射到模型。\n\n不过,到底哪个模型配哪类任务,目前更像艺术而非科学。所以 Warp 内部用一种简单粗暴的办法建立评测,叫 best.k:同一个 prompt,在云平台上用一组不同的模型各跑一遍智能体,靠实测说话。他们由此发现,UI 任务用 GLM 做得就很好,根本不必动用 Opus,效率高得多。下一步,是把这套评测做成面向客户的产品能力,让客户在自己专属的工作流上比较模型好坏,而不是只看网上发布的通用基准。\n\n最后收个尾:技能会过时,就给它配一个外循环改进者;修过的问题,就存成可追溯的事实库;简单任务,就别用旗舰模型烧钱。就像 Suraj 说的,软件工厂的改进,不靠玄想,靠的是让工厂自己积累反馈、记忆和经验。"
+}

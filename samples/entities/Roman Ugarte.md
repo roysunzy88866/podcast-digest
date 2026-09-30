@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":73,"SpaceXAI":1,"OpenClaw":20,"OpenAI":140,"Anthropic":153,"Codex":65,"Cowork":6,"Salesforce":32,"智能体":361}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":73,"SpaceXAI":1,"OpenClaw":20,"OpenAI":142,"Anthropic":155,"Codex":66,"Cowork":6,"Salesforce":32,"智能体":364}</script>
 
 <script>
 (function(){

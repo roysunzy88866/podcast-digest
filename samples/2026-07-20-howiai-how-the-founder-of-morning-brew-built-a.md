@@ -153,7 +153,7 @@ Alex 说他和客户做这种流程映射时发现，很多效率提升根本不
 
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论]]<span class="pd-rz">同公司:Anthropic · 同概念:FDE、工作流映射 (workflow)</span>
 - [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic · 同概念:工作流映射 (workflow)</span>
-- [[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|用形容词驾驭 AI 设计:Impeccable 的控制哲学]]<span class="pd-rz">同概念:AI 垃圾内容 (AI slop)</span>
+- [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|管弦乐团而非工厂：编码智能体时代的六条构建者原则]]<span class="pd-rz">同概念:工作流映射 (workflow)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

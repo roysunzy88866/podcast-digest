@@ -146,9 +146,9 @@ Alvaro 说他最着迷的是行业围绕「[[基于结果的定价|基于结果�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|25张图表看懂AI是不是泡沫：a16z年度市场全景]]<span class="pd-rz">同公司:OpenAI、Shopify、Stripe、Anthropic、Databricks · 同概念:SaaS、智能体 (agent)</span>
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Anthropic、Shopify · 同概念:SaaS、按用量定价 (usage-based pricing)、智能体 (agent)</span>
 - [[2026-09-25-latent-openrouter|OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长]]<span class="pd-rz">同公司:OpenAI、Stripe、Anthropic · 同概念:智能体 (agent)</span>
-- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:OpenAI · 同概念:GPT-4、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

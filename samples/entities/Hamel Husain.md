@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":361,"trace":2,"Anthropic":153}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":364,"trace":2,"Anthropic":155}</script>
 
 <script>
 (function(){

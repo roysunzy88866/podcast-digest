@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":361,"子智能体":4,"harness":50,"提示词缓存":4,"记忆":19,"评估":3,"LLM 当裁判":9,"沙箱":66,"人在回路":17}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":364,"子智能体":4,"harness":50,"提示词缓存":4,"记忆":19,"评估":3,"LLM 当裁判":9,"沙箱":68,"人在回路":17}</script>
 
 <script>
 (function(){

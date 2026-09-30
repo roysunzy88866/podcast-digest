@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":361,"编排器":3,"护栏":67,"循环":9,"规则":2,"police 文件":1,"vibe coding":42,"vibe engineering":1,"技能文件":4,"Codex":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"编排器":3,"护栏":67,"循环":9,"规则":2,"police 文件":1,"vibe coding":42,"vibe engineering":1,"技能文件":4,"Codex":66}</script>
 
 <script>
 (function(){

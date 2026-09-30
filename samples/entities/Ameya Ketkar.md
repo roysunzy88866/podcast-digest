@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":14,"uReview":1,"自动化代码评审":1,"代码审查":19,"智能体化的 SDLC":1,"智能体":361,"可观测性":34,"护栏":67,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":14,"uReview":1,"自动化代码评审":1,"代码审查":19,"智能体化的 SDLC":1,"智能体":364,"可观测性":34,"护栏":67,"内环与外环":1}</script>
 
 <script>
 (function(){

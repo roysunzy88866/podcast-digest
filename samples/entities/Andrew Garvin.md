@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":39,"Stripe Projects":2,"OpenAI":140,"Anthropic":153,"Lovable":17,"HubSpot":9,"智能体":361,"编码智能体":22,"vibe coding":42}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":40,"Stripe Projects":2,"OpenAI":142,"Anthropic":155,"Lovable":17,"HubSpot":9,"智能体":364,"编码智能体":23,"vibe coding":42}</script>
 
 <script>
 (function(){

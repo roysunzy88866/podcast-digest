@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>David George</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="David George">DA</div><div class="pi"><h1 class="pt">David George</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="David George">DA</div><div class="pi"><h1 class="pt">David George</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*13 条*
+*16 条*
 
 ![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q1]]
 
@@ -39,21 +39,28 @@ unlisted: true
 
 ![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q13]]
 
+![[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark#^q6]]
+
+![[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark#^q10]]
+
+![[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark#^q11]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为联合主持
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为主持
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为主持
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[Amazon]] · [[Gavin Baker]] · [[Will Gabrick]] · [[Grant LaFontaine]] · [[NVIDIA]] · [[Stripe]] · [[Whatnot]] · [[Google]] · [[Stripe Minions]]
+[[Amazon]] · [[Google]] · [[Stripe]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[SaaS]] · [[Cursor]] · [[Meta]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Cursor":73,"Amazon":18,"Gavin Baker":1,"Will Gabrick":1,"Grant LaFontaine":1,"NVIDIA":46,"Stripe":39,"Whatnot":4,"Google":50,"Stripe Minions":1}</script>
+<script type="application/json" class="pd-epn">{"Amazon":19,"Google":51,"Stripe":40,"OpenAI":142,"智能体":364,"Anthropic":155,"SaaS":19,"Cursor":73,"Meta":38,"Microsoft":26}</script>
 
 <script>
 (function(){

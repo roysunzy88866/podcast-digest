@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":65,"智能体":361,"Intercom":6,"Ryan Carson":1,"Muse":3,"ChatPRD":6,"Devon":3,"Meta":37,"Vercel":18,"Cognition":21}</script>
+<script type="application/json" class="pd-epn">{"Codex":66,"智能体":364,"Intercom":6,"Ryan Carson":1,"Muse":3,"ChatPRD":6,"Devon":4,"Meta":38,"Vercel":18,"Cognition":21}</script>
 
 <script>
 (function(){

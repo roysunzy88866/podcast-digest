@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sarah Wang</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sarah Wang">SA</div><div class="pi"><h1 class="pt">Sarah Wang</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sarah Wang">SA</div><div class="pi"><h1 class="pt">Sarah Wang</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条*
+*5 条*
 
 ![[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio#^q4]]
 
@@ -19,21 +19,26 @@ unlisted: true
 
 ![[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio#^q6]]
 
+![[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark#^q2]]
+
+![[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark#^q7]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为主持
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为主持
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为主持
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[推理能力]] · [[OpenAI]] · [[Palantir]] · [[Kimberley Tan]] · [[Matt Bornstein]] · [[Martine Cassado]] · [[Jesse Zhang]] · [[Martin Casado]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[微调]] · [[Microsoft]] · [[Databricks]] · [[推理能力]] · [[Palantir]] · [[Kimberley Tan]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Anthropic":153,"推理能力":6,"OpenAI":140,"Palantir":19,"Kimberley Tan":1,"Matt Bornstein":2,"Martine Cassado":1,"Jesse Zhang":1,"Martin Casado":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Anthropic":155,"OpenAI":142,"微调":25,"Microsoft":26,"Databricks":17,"推理能力":6,"Palantir":19,"Kimberley Tan":1,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

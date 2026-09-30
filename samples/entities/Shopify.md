@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shopify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(21:02起):本集说 Shopify 对智能体的态度是「进来吧,宝贝」,作为开放接纳智能体的大公司例子。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(40:23起):本集说它拥抱 Muse，因为它高度专注让商业民主化，智能体帮每个普通人卖得更多，天大利好
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(08:40起):本集引其 CEO Toby 的话：12 个月前宣布「AI 优先组织」，一周前开始哀叹工程师往生产环境乱扔 AI 生成的低质量代码(slop 炸弹)——Liz 以此例证无主人翁意识的加速是有害的。
+- **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(23:44起):本集说 Shopify 的 AI sidekick 让商家入驻 15 天内达到五笔订单(其追踪的留存关键节点)的比例提升了 8%,成为业务的有意义助推
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -54,14 +55,15 @@ unlisted: true
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司(提及)
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
+- [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Amazon]] · [[Stripe]] · [[Google]] · [[Perplexity]] · [[SaaS]] · [[Uber]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[Stripe]] · [[Google]] · [[ChatGPT]] · [[SaaS]] · [[Perplexity]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"OpenAI":140,"ChatGPT":83,"Anthropic":153,"Amazon":18,"Stripe":39,"Google":50,"Perplexity":8,"SaaS":18,"Uber":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"OpenAI":142,"Anthropic":155,"Amazon":19,"Stripe":40,"Google":51,"ChatGPT":83,"SaaS":19,"Perplexity":8,"Uber":14}</script>
 
 <script>
 (function(){

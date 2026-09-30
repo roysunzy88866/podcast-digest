@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Meta":37,"Instagram":6,"YouTube":6,"Spotify":4,"DoorDash":10,"推荐系统":1,"LLM":49,"语义 ID":2,"算力扩展":2,"推理":61}</script>
+<script type="application/json" class="pd-epn">{"Meta":38,"Instagram":6,"YouTube":6,"Spotify":4,"DoorDash":10,"推荐系统":1,"LLM":49,"语义 ID":2,"算力扩展":2,"推理":62}</script>
 
 <script>
 (function(){

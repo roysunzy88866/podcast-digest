@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":361,"vibe coding":42,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":9,"一人独角兽":1,"提示词":19}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"Replit Agent":1,"智能体":364,"vibe coding":42,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":9,"一人独角兽":1,"提示词":19}</script>
 
 <script>
 (function(){

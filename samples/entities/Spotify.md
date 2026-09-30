@@ -37,7 +37,7 @@ unlisted: true
 
 [[GitHub]] · [[微调]] · [[ChatGPT]] · [[Lenny]] · [[点图]] · [[Max Junestrand]] · [[Devansh Tandon]] · [[Nesrine Changuel]] · [[DAU]] · [[Legora]]
 
-<script type="application/json" class="pd-epn">{"GitHub":25,"微调":24,"ChatGPT":83,"Lenny":68,"点图":1,"Max Junestrand":1,"Devansh Tandon":1,"Nesrine Changuel":1,"DAU":1,"Legora":2}</script>
+<script type="application/json" class="pd-epn">{"GitHub":25,"微调":25,"ChatGPT":83,"Lenny":68,"点图":1,"Max Junestrand":1,"Devansh Tandon":1,"Nesrine Changuel":1,"DAU":1,"Legora":2}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":18,"机器人":8,"智能体机器人":1,"人形机器人":3,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":19,"机器人":9,"智能体机器人":1,"人形机器人":3,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

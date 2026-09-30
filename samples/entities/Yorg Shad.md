@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Pinecone":3,"Nexus":2,"RAG":22,"物化视图":1,"上下文":24,"向量数据库":4,"知识图谱":5,"语义层":4,"元数据":1}</script>
+<script type="application/json" class="pd-epn">{"Kevin Ball":3,"Pinecone":3,"Nexus":2,"RAG":22,"物化视图":1,"上下文":25,"向量数据库":4,"知识图谱":5,"语义层":4,"元数据":1}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Netflix]] · [[InterPositive]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]]
+[[Lenny]] · [[Netflix]] · [[InterPositive]] · [[WorkOS]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Netflix":5,"InterPositive":1,"GenAI":1,"智能体":361,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Netflix":5,"InterPositive":1,"WorkOS":9,"GenAI":1,"智能体":364,"系统思维":4,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1}</script>
 
 <script>
 (function(){

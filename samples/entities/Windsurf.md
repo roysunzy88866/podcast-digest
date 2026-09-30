@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Copilot]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]] · [[Corinne Riley]] · [[Lenny]] · [[Parallel]] · [[Ben]] · [[Sarah Wang]]
 
-<script type="application/json" class="pd-epn">{"智能体":361,"Copilot":11,"ChatGPT":83,"OpenAI":140,"Cursor":73,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Ben":1,"Sarah Wang":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":364,"Copilot":11,"ChatGPT":83,"OpenAI":142,"Cursor":73,"Corinne Riley":4,"Lenny":68,"Parallel":6,"Ben":1,"Sarah Wang":4}</script>
 
 <script>
 (function(){

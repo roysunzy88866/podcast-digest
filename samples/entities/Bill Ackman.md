@@ -47,7 +47,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Jacob]] [[Lon]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]]
 
 </div>
 

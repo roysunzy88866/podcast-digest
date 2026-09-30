@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GrokBot":7,"智能体":361,"系统胜过目标":1,"OpenAI":140,"Harvey":14,"Kimi K3":3,"开源":27,"前沿模型":21,"后训练":1,"蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"GrokBot":7,"智能体":364,"系统胜过目标":1,"OpenAI":142,"Harvey":14,"Kimi K3":3,"开源":27,"前沿模型":21,"后训练":1,"蒸馏":1}</script>
 
 <script>
 (function(){

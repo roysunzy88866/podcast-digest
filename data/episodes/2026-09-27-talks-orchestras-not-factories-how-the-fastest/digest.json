@@ -1,0 +1,160 @@
+{
+  "title_zh": "管弦乐团而非工厂：编码智能体时代的六条构建者原则",
+  "tldr": "Conductor 联合创始人分享成为组织里最快构建者的方法：靠近前沿、无 slop 区域、喂饱野兽、自由放养智能体，以及「管弦乐团」哲学。",
+  "digest_md": "这一集是一场关于「如何用编码智能体成为你组织里最快构建者」的演讲。主角是 Conductor 的联合创始人——Conductor 是一个桌面应用，用来同时管理一个编码智能体团队(比如 Claude Code 这类工具)，你不用再开一堆终端窗口，而是一个界面管全部。造这个工具的过程中，他近距离观察了很多最顶尖工程师的工作流，于是把他们的原则整理成了这场演讲 [00:24 Unknown]。\n\n他最抓人的一个观点是：别再用「软件工厂」来想象 AI 编程的未来——他直言自己有点讨厌这个词，他想要的是指挥一支由人类和智能体组成的「管弦乐团」，而不是当流水线管理员 [14:40 Unknown]。\n\n## 一、待在前沿「附近」\n\n新工具发布的当天就去试。如果你在做创业公司，这会直接给你产品灵感：他们自己原本在做另一个叫 Chorus 的应用，但去年二月他们成了 Claude Code 的超级重度用户，先是把仓库克隆五份来并行跑智能体，后来发现了 work trees(Git 的多工作树机制，让多个智能体互不干扰地改同一个仓库)，一点一点就把 Conductor 作为内部工具长了出来——不做前沿尝鲜者，根本想不出这个产品 [02:33 Unknown]。\n\n如果你不在创业公司，那就做公司里那个永远知道最新工作流的人。靠社交图谱等消息渗透的时代过去了，那样做你永远落后三到六个月 [03:17 Unknown]。\n\n但重点是「附近」而不是「在」前沿。太深了会掉进他说的「中智梗图」陷阱：把所有时间花在打磨工作流上，而不是做实际的工作 [03:30 Unknown]。内部为此有个启发式：「不要跑赢市场」。判断标准是问自己一句——**为什么这个工作流不是默认的？** 比如当 route 循环（route loops）开始流行时，先想想：如果它真对所有人都适用，那就该等 Anthropic 或 OpenAI 把它内置进默认 harness 里，而不是自己花大量时间优化工作流去配合它 [03:59 Unknown]。\n\n> 【背景】原文转写中该词作 \"RALF loops\" / \"route loops\"，具体指代以转写稿为准。\n\n他把这比作有效市场假说：除非你手握「真正的 alpha」(信息优势)，否则不该过度优化工作流。所谓 alpha,是关于你的用户或你的代码库、而模型可能不知道的信息。他们的例子：Conductor 是聊天应用，必须极快地渲染超长聊天记录，所以他们愿意花大量时间优化 React queries、甚至牺牲代码库其他部分——这种时候才值得投入工作流。否则，别做那个有一套超棒 Emacs 配置却什么都干不成的人 [05:24 Unknown]。\n\n## 二、创建无 slop 区域\n\n「无 slop 区域」指代码库或应用中需要非常严格的人工审查的部分(slop 指 AI 产出的低质量内容)。外人以为他们只顾猛吞 token、狂改 3 万行的 PR,其实不是——他们对代码库的某些部分极其谨慎，对另一些则非常宽松 [05:45 Unknown]。这条是他们付出过代价的：因为对无 slop 区域不够小心，整个应用重写了好几次。\n\n具体做法：migrations 文件(数据库结构变更记录，改错会毁数据)在 CI(持续集成，自动检查代码的流程)里的任何改动都必须人工审查；Slack 里写的东西默认是人写的、可信的；而所有文档、Claude MD、skills,他们投入了远超常人的时间做好——这也是他在最优秀构建者身上反复看到的习惯 [06:40 Unknown]。\n\n一个很好的思考角度：想象有个新实习生入职，而你有权在他每次坐下干活时在他耳边低语一句话——你肯定会对低语的内容想得很认真。Claude MD(或 AgentsMD)就是这个：每次智能体开始工作时加载进其上下文的信息，值得投入大量思考 [07:13 Unknown]。\n\n## 三、喂饱那头野兽\n\n他们有个内部工具叫 Conductor Internal Agent,简称 CIA——组织里一切信息的集中式数据库。每条新 Slack 消息它都接住、存进 Postgres 表；Discord 里用户的 bug 反馈同样处理；每次开会都录音入库 [07:46 Unknown]。叫「喂饱野兽」的逻辑是：要让智能体在公司里高效，就得让它尽可能多地拥有关于你们具体怎么工作的上下文，而最好的方式就是所有信息汇到同一个地方。一条推文总结得很好：把所有东西放进数据库，给智能体一个 SQL 工具，让它处理剩下的 [08:29 Unknown]。\n\n## 四、自由放养的智能体\n\n给智能体大量空间：一个不会被杀掉的沙箱，让它们探索代码库、啃硬任务，并且知道你合上笔记本盖子它们也不会被关掉。给它们创造更多自己的机会，给它们与其他智能体和人类协作的方式 [08:50 Unknown]。模型越来越好、能跑得越来越久、数量会越来越多——被锁在你笔记本上的智能体，效率远不如自由漫游的 [09:25 Unknown]。\n\n演讲现场演示了本周即将发布的新版 Conductor:每个任务从基于 Git Worktree 变成了云沙箱，合上电脑智能体照跑；还能看到组织里每个人(Caden、Lewis、Tywin、Jackson)各自在让智能体做什么，点进去可以实时审查改动、在工作区里互相留言，对方实时可见——他认为**协作是这些工具里最重要、却没人在谈的新概念之一**：伟大的东西从来不是个人造的，是团队造的；而且模型越好、你越敢做雄心更大的事，就越需要更多人和更多智能体一起干 [11:22 Unknown]。他断言协作会是今年最重要的界面变化之一 [13:12 Unknown]。\n\n更进一步：给智能体「自我复制」的 API。他现场用自己的智能体(名字叫 Lord Crandon)演示——从手机、Telegram 或 Slack 上发一条消息「帮我建一个工作区，把所有按钮改成蓝色」，它就能调 Conductor API 自己开工，人离开后工作照常进行 [14:00 Unknown]。\n\n## 五、管弦乐团，而不是工厂\n\n这是全场演讲的题眼。工厂意味着自动化，自动化当然了不起，但他不想要一个围绕工厂构建的未来：「我不希望未来是我们在管理智能体集群、像流水线管理员一样按按钮，让智能体产出下一个功能。」这话他十年前就听过一遍——当年叫「功能工厂」，实践证明行不通 [15:50 Unknown]。\n\n他想要的是：站在管弦乐团前挥指挥棒，这边一挥，一支智能体团队开始工作，人类与智能体交织协作；想看细节就放大，大多数时候可以退后看全局。他要软件感觉是「人的、有匠心的」，要自己感觉是处在一切中心的人——像 Steve Jobs 带着一群了不起的人类和 AI 智能体，在同一个地方设计 Mac [16:35 Unknown]。既然我们都是造这些工具的人，就有一份责任：用那些让我们兴奋、让我们感觉有心流、有乐趣的词 [16:06 Unknown]。\n\n最后他给六条原则起了个缩写 STICFO:待在前沿附近、不要跑赢市场、创建无 slop 区域、喂饱野兽、自由放养智能体、管弦乐团而非工厂 [16:52 Unknown]。\n\n## 本集带走\n\n- **问「为什么这个工作流不是默认的？」**:除非你掌握模型不知道的「真 alpha」(关于自己用户/代码库的信息优势)，否则别过度优化工作流，等 Anthropic/OpenAI 内置进默认工具即可——否则就是只磨工作流不干活的「中智梗图」。\n- **给代码库划「无 slop 区域」**：migrations 这类高危文件强制人工审查进 CI;不要默认智能体的大 PR 都没问题——他们因此重写过整个应用。\n- **文档即低语**：把 Claude MD / AgentsMD 当成「每次开工前在实习生耳边低语的话」，最优秀的构建者在这上面花的时间多得不同寻常。\n- **喂饱野兽**：把 Slack、Discord 反馈、会议录音全部汇入一个集中数据库，给智能体一个 SQL 工具让它自己查——上下文越多，它干活越像「你们公司的人」。\n- **把智能体放养到云端**：不依赖你笔记本的沙箱让任务跑得更久，再往上能长出实时协作工作区和「智能体自我派活」的 API(手机上发条消息就能开新任务)。\n- **换隐喻**：别把未来想成软件工厂，想成交响乐团——你是指挥，不是流水线管理员；词会影响你造出什么样的工具。",
+  "quotes": [
+    {
+      "en": "You can do what I call midwit memeing, where you're spending all of your time working on your workflow and not doing actual work.",
+      "zh": "你可能会陷入我所说的“中智梗图”，就是把所有时间都花在打磨工作流上，而不做实际的工作。",
+      "timestamp": "03:30",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "It's really effective to just put everything in a database and then give your agent a SQL tool and let it handle the rest.",
+      "zh": "把所有东西都放进一个数据库，然后给你的智能体一个 SQL 工具，让它处理剩下的部分，这真的很有效。",
+      "timestamp": "08:29",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "Like I want my software to feel human and crafted.",
+      "zh": "我希望我的软件感觉像人的、有匠心的。",
+      "timestamp": "15:56",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "I want to feel like I'm Steve Jobs designing the Mac with a team of amazing humans and AI agents all in the same place.",
+      "zh": "我想感觉自己像 Steve Jobs,和一群了不起的人类以及 AI 智能体一起，在同一个地方设计 Mac。",
+      "timestamp": "16:35",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "You're always going to be three to six months behind if you do that.",
+      "zh": "如果你那样做，你永远会落后三到六个月。",
+      "timestamp": "03:17",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "Otherwise, don't midwet meme, don't be the person who has an amazing Emacs setup but doesn't actually get stuff done.",
+      "zh": "否则，不要做那个梗里的 midwit,不要成为那种有一套超棒的 Emacs 配置但实际上什么都干不成的人。",
+      "timestamp": "05:16",
+      "speaker": "Charlie Holtz"
+    },
+    {
+      "en": "Give them a sandbox that won't get killed, where they can explore your code base, where they can work on really hard tasks, where they know that they're not going to get shut down when you close your laptop lid.",
+      "zh": "给它们一个不会被杀掉的沙箱，在那里它们可以探索你的代码库，可以处理非常困难的任务，并且知道当你合上笔记本盖子时它们不会被关掉。",
+      "timestamp": "08:50",
+      "speaker": "Charlie Holtz"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:30",
+      "speaker": "Unknown",
+      "en": "You can do what I call midwit memeing, where you're spending all of your time working on your workflow and not doing actual work.",
+      "zh": "你可能会陷入我所说的“中智梗图”，就是把所有时间都花在打磨工作流上，而不做实际的工作。"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Unknown",
+      "en": "Why isn't this workflow the default?",
+      "zh": "为什么这个工作流不是默认的?"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "Pure token maxers, and we are ripping through 30,000 line PRs, but we're actually not.",
+      "zh": "纯粹的 token 最大化者，在猛改 3 万行的 PR——但其实我们不是。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Unknown",
+      "en": "And I think another way that I've thought about this is if you had a new intern that was joining your company,",
+      "zh": "我想还有一个思考角度是：假如有一个新实习生要加入你的公司，"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Unknown",
+      "en": "And this is what the CloudMD or AgentsMD is. It's like information that gets loaded into the agent's context every time they start working.",
+      "zh": "这就是 Claude MD 或 AgentsMD 的作用——它就像每次智能体开始工作时加载进其上下文的信息。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Unknown",
+      "en": "It's really effective to just put everything in a database and then give your agent a SQL tool and let it handle the rest.",
+      "zh": "把所有东西都放进一个数据库，然后给你的智能体一个 SQL 工具，让它处理剩下的部分，这真的很有效。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Unknown",
+      "en": "And so, if they are confined to your laptop, then they're not going to be nearly as effective as if they are free roaming.",
+      "zh": "所以，如果它们被限制在你的笔记本上，它们就不会像自由漫游时那样高效。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "Unknown",
+      "en": "Collaboration is important because not only is it true that all great things are built with teams of people. They're not built by individuals. They're built by teams.",
+      "zh": "协作很重要，因为不仅所有伟大的东西都是由团队的人构建的——它们不是由个人构建的，而是由团队构建的。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Unknown",
+      "en": "I think collaboration is going to be one of the most important new interface changes this year.",
+      "zh": "我认为协作将是今年最重要的新界面变化之一。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "I think it's the wrong way of thinking about these new tools that are emerging.",
+      "zh": "我认为这是对正在涌现的这些新工具的一种错误的思考方式。"
+    },
+    {
+      "timestamp": "15:50",
+      "speaker": "Unknown",
+      "en": "Like we tried this like 10 years ago with the term feature factories and it just doesn't work.",
+      "zh": "就像我们大约 10 年前用「功能工厂」这个术语尝试过的那样，那根本行不通。"
+    },
+    {
+      "timestamp": "15:56",
+      "speaker": "Unknown",
+      "en": "Like I want my software to feel human and crafted.",
+      "zh": "我希望我的软件感觉像人的、有匠心的。"
+    },
+    {
+      "timestamp": "16:35",
+      "speaker": "Unknown",
+      "en": "I want to feel like I'm Steve Jobs designing the Mac with a team of amazing humans and AI agents all in the same place.",
+      "zh": "我想感觉自己像 Steve Jobs,和一群了不起的人类以及 AI 智能体一起，在同一个地方设计 Mac。"
+    },
+    {
+      "timestamp": "16:06",
+      "speaker": "Unknown",
+      "en": "I think it's really important to use the words that make us feel excited and feel capable and feel like we're in the flow and having fun.",
+      "zh": "我认为使用那些让我们感到兴奋、感到有能力、感到我们处于心流之中并在享受乐趣的词语，是非常重要的。"
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Unknown",
+      "en": "We were building a totally different app called Chorus.",
+      "zh": "我们当时在做一个完全不同的应用，叫 Chorus。"
+    },
+    {
+      "timestamp": "03:17",
+      "speaker": "Unknown",
+      "en": "You're always going to be three to six months behind if you do that.",
+      "zh": "如果你那样做，你永远会落后三到六个月。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Unknown",
+      "en": "Otherwise, don't midwet meme, don't be the person who has an amazing Emacs setup but doesn't actually get stuff done.",
+      "zh": "否则，不要做那个梗里的 midwit,不要成为那种有一套超棒的 Emacs 配置但实际上什么都干不成的人。"
+    },
+    {
+      "timestamp": "08:50",
+      "speaker": "Unknown",
+      "en": "Give them a sandbox that won't get killed, where they can explore your code base, where they can work on really hard tasks, where they know that they're not going to get shut down when you close your laptop lid.",
+      "zh": "给它们一个不会被杀掉的沙箱，在那里它们可以探索你的代码库，可以处理非常困难的任务，并且知道当你合上笔记本盖子时它们不会被关掉。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们聊一个特别实际的话题：怎么用编码智能体，成为你组织里最快的那个构建者。\n\n先交代一下今天的主角。这位嘉宾是 Conductor 的联合创始人。Conductor 是一个桌面应用，专门用来同时管理一个编码智能体团队，比如 Claude Code 这类工具。有了它，你不用再开一堆终端窗口，一个界面就能管全部。而正因为造了这么一个工具，作者近距离观察了很多顶尖工程师的工作流，把这些观察整理成了一场演讲，也就是今天这期内容的来源。\n\n先说全场最抓人的一个观点：别再用「软件工厂」来想象 AI 编程的未来。嘉宾原话说，他有点讨厌这个词，他想要的是指挥一支由人类和智能体组成的管弦乐团，而不是当流水线管理员。为什么这么讲究隐喻？因为词会影响你造出什么样的工具。这个我们留到最后展开，先把几条具体的原则讲清楚，看看「最快构建者」到底是怎么炼成的。\n\n第一条，待在前沿附近。意思是新工具发布的当天就去试。如果你在做创业公司，这直接就是产品灵感来源。举个例子：他们原本在做另一个叫 Chorus 的应用，但去年二月成了 Claude Code 的超级重度用户，一开始是把仓库克隆五份来并行跑智能体，后来发现了 work trees——这是 Git 的多工作树机制，能让多个智能体互不干扰地改同一个仓库。就这么一点点摸索，Conductor 作为内部工具自己长了出来。结论很直白：不做前沿尝鲜者，根本想不出这个产品。那如果你不在创业公司呢？那就做公司里那个永远知道最新工作流的人。靠社交圈慢慢等消息渗透的时代过去了，那样做你永远会落后三到六个月。\n\n但注意，重点是「附近」，不是「在前沿」。太深了会掉进一个陷阱，叫「中智梗图」——就是把所有时间都花在打磨工作流上，反而不做实际的工作。那怎么把握这个度？内部有个启发式，叫「不要跑赢市场」，判断标准就一句话：问自己，为什么这个工作流不是默认的？比如当某种新循环开始流行时，先想想：如果它真对所有人都适用，那就该等 Anthropic 或 OpenAI 把它内置进默认工具里，而不是自己花大量时间去优化。嘉宾把这比作有效市场假说：除非你手握真正的 alpha——也就是关于你的用户或你的代码库、模型可能不知道的信息优势——否则不该过度优化工作流。举个例子：Conductor 是聊天应用，必须极快地渲染超长聊天记录，所以他们愿意花大量时间优化，甚至牺牲代码库的其他部分，这种时候投入才值得。否则，别做那种有一套超棒的 Emacs 配置、却什么都干不成的人。\n\n第二条原则，创建无 slop 区域。slop 指 AI 产出的低质量内容，而「无 slop 区域」就是代码库或应用里需要非常严格人工审查的部分。外人以为他们只顾猛吞 token、狂改三万行的大 PR,其实不是——对代码库的某些部分极其谨慎，另一些则非常宽松。这条是有代价换来的教训：因为对无 slop 区域不够小心，整个应用重写了好几次。具体怎么做呢？比如 migrations 文件——就是数据库结构变更记录，改错会毁数据——这类文件在 CI,也就是自动检查代码的持续集成流程里，任何改动都必须人工审查。还有一个特别好的思考角度：想象有个新实习生入职，而你有权在他每次坐下干活时，在他耳边低语一句话——你肯定会对低语的内容想得很认真。Claude MD 就是这个：每次智能体开工时加载进上下文的信息。文档写好了，Slack 里默认是人写的、可信的；而对所有文档和 skills,最优秀的构建者在这上面花的时间多得不同寻常。\n\n第三条，喂饱那头野兽。这就引出一个问题：怎么让智能体真的懂「你们公司」？答案是让它尽可能多地拥有关于你们具体怎么工作的上下文。他们有个内部工具叫 Conductor Internal Agent,简称 CIA——组织里一切信息的集中式数据库。每条新 Slack 消息都接住、存进 Postgres 表；Discord 里用户的 bug 反馈同样处理；每次开会都录音入库。一条推文总结得特别好：把所有东西都放进一个数据库，然后给你的智能体一个 SQL 工具，让它处理剩下的部分。这真的很有效。\n\n第四条，自由放养的智能体。既然上下文喂饱了，接下来就该给智能体大量空间：一个不会被杀掉的沙箱，让它们探索代码库、啃硬任务，而且知道你合上笔记本盖子它们也不会被关掉。模型越来越好、能跑得越来越久、数量会越来越多——被锁在你笔记本上的智能体，效率远不如自由漫游的。演讲现场还演示了即将发布的新版 Conductor:每个任务从本地 Git Worktree 变成了云沙箱，合上电脑照跑；还能看到组织里每个人各自在让智能体做什么，点进去可以实时审查改动、在工作区互相留言，对方实时可见。这里有个观点值得单独拎出来：协作是这些工具里最重要、却没人在谈的新概念之一。伟大的东西从来不是个人造的，是团队造的；而且模型越好、你越敢做雄心更大的事，就越需要更多人和更多智能体一起干。嘉宾甚至断言，协作会是今年最重要的界面变化之一。再往进一步，是给智能体「自我复制」的 API:现场演示用自己的智能体演示，从手机、Telegram 或 Slack 上发一条消息——「帮我建一个工作区，把所有按钮改成蓝色」——它就能调 Conductor API 自己开工，人离开后工作照常进行。\n\n好，背景和做法都讲完了，现在可以回到开头那个隐喻了：为什么是管弦乐团，而不是工厂？工厂意味着自动化，自动化当然了不起，但嘉宾不想要一个围绕工厂构建的未来。原话是：「我不希望未来是我们在管理智能体集群、像流水线管理员一样按按钮，让智能体产出下一个功能。」这话十年前就听过一遍，当年叫「功能工厂」，实践证明行不通。那想要的未来是什么样的？是站在管弦乐团前挥指挥棒：这边一挥，一支智能体团队开始工作，人类与智能体交织协作；想看细节就放大，大多数时候退后看全局。用嘉宾自己的话说：「我希望我的软件感觉像人的、有匠心的」，并且「想感觉自己像 Steve Jobs,和一群了不起的人类以及 AI 智能体一起，在同一个地方设计 Mac」。\n\n最后把六条原则串起来，嘉宾起了个缩写叫 STICFO:待在前沿附近、不要跑赢市场、创建无 slop 区域、喂饱野兽、自由放养智能体、管弦乐团而非工厂。而我们都是造这些工具的人，所以都有一份责任——用那些让我们兴奋、让我们感觉有心流、有乐趣的词。记住：你是指挥，不是流水线管理员；你选的词，会决定你造出什么样的工具。"
+}

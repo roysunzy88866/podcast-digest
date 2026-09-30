@@ -187,7 +187,10 @@
     "XyV6bSMyq-I": "2026-09-26-talks-how-we-built-an-agent-that-improves-itse",
     "x4e5O9zN0TE": "2026-09-26-talks-long-horizon-agents-need-experiments-not",
     "474j-n1Ltxc": "2026-09-27-talks-ai-generated-code-is-already-competing-w",
-    "6MudaeKdBSk": "2026-09-27-talks-scale-the-judgment-not-the-model-andrew"
+    "6MudaeKdBSk": "2026-09-27-talks-scale-the-judgment-not-the-model-andrew",
+    "HvboD89DyQ8": "2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co",
+    "TN3mj92oZ8I": "2026-09-27-talks-building-self-improving-agent-software-f",
+    "TRfzFJCJ7ZE": "2026-09-27-talks-orchestras-not-factories-how-the-fastest"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -213,7 +216,7 @@
   "cutoffs": {
     "lennys": "2026-09-27T12:32:18.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
-    "a16z": "2026-09-29T10:00:00.000Z",
+    "a16z": "2026-09-30T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-09-24T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
@@ -246,7 +249,7 @@
     "ainativedev": "2026-09-29T12:00:00.000Z",
     "newcomer": "2026-09-24T21:12:05.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
-    "sourcery": "2026-09-29T11:53:33.000Z",
+    "sourcery": "2026-09-30T11:03:31.000Z",
     "iltb": "2026-09-28T12:05:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
     "sed": "2026-09-29T09:00:00.000Z",
@@ -1774,6 +1777,18 @@
       "reason": "题材不对味:拿不准:题材偏模型能力评测/学术前沿(数学奥赛、Navier-Stokes)的进展评估,落在档案❌「大模型评测/学术研究」面,非商业+实操面",
       "title": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
       "pubDate": "2026-09-29T21:56:00.000Z"
+    },
+    {
+      "id": "2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "The $10T AI Buildout Has a Photonics Problem",
+      "pubDate": "2026-09-30T10:13:45.000Z"
+    },
+    {
+      "id": "2026-09-30-sourcery-the-500b-opportunity-in-europes-defense",
+      "reason": "题材不对味:欧洲防务建设属传统产业/地缘话题,与 AI 商业、人物访谈或 AI 产业格局无关联",
+      "title": "The $500B Opportunity in Europe’s Defense Buildout",
+      "pubDate": "2026-09-30T11:03:31.000Z"
     }
   ]
 }

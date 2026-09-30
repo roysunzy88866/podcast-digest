@@ -128,7 +128,7 @@ Claire 建议的路线是按风险给 PR 打分，低风险自动盖章通过，
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、软件工厂 (software factory)</span>
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|软件工厂的教训：不读代码的四五个月后，我们重写了整个产品]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、GitHub、Slack · 同概念:代码审查 (code review)、智能体 (agent)</span>
+- [[2026-09-27-talks-building-self-improving-agent-software-f|软件工厂如何自我改进:技能、记忆与模型路由]]<span class="pd-rz">同公司:Warp · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
 
 </div>
 <div class="pd-ex">

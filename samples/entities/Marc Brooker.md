@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"AWS":16,"智能体":361,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"AWS":16,"智能体":364,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
 
 <script>
 (function(){
