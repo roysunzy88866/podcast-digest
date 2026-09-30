@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":8,"评估":3,"基准测试":15,"智能体":364,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":89,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":8,"评估":3,"基准测试":15,"智能体":369,"RLGym":1,"迁移":1,"Bedrock":2,"Claude Code":89,"Kiro":4}</script>
 
 <script>
 (function(){

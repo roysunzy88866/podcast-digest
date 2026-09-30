@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":155,"Claude Code":89,"智能体":364,"ClaudeMD":3,"MCP":65,"SDK":1,"LLM":49,"GitHub":25,"JetBrains":2,"Docker":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":156,"Claude Code":89,"智能体":369,"ClaudeMD":3,"MCP":67,"SDK":1,"LLM":51,"GitHub":25,"JetBrains":2,"Docker":4}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":21,"开源模型":22,"沙箱":68,"智能体":364,"推理":62,"Docker":4,"GPU":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Neoclouds":1,"Fireworks":5,"前沿模型":22,"开源模型":22,"沙箱":68,"智能体":369,"推理":63,"Docker":4,"GPU":18}</script>
 
 <script>
 (function(){

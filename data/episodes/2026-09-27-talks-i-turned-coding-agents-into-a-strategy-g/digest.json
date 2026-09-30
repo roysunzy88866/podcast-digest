@@ -1,0 +1,136 @@
+{
+  "title_zh": "你才是瓶颈:像打游戏一样指挥智能体大军",
+  "tldr": "AgentCraft 创造者 Ido Salomon 论证「人是智能体规模化的瓶颈」,并展示如何用游戏化手段抬高协作上限、降低使用门槛。",
+  "digest_md": "这一集是一个现场演示演讲,主角是 Ido Salomon——AgentCraft(一个游戏化的智能体编排器)的创造者,他还做过 MCPUI(后来演变成 MCP Apps),也在 MCP 指导委员会。他抛出的核心主张很扎眼:智能体已经够强了,现在真正限制产能的,是我们人类自己——因为我们没法同时又引导、又指挥、又审查 20 个智能体而不累垮。而解决方案所需的技能,其实我们早就会了:玩《魔兽争霸》《模拟人生》这类游戏时,不就是在监督一堆四处跑的单位吗?这套直觉和检查智能体没多大区别。所以他把这个概念「推向极端」,做出了 AgentCraft。\n\n## 第一步:可见性——先看得见\n\n要用好智能体,第一个门槛是理解它们在干什么。AgentCraft 里每个智能体是地图上的一个单位,可以是 Claude Code、Codex、OpenCode 等任何你已有的智能体,也可以直接在工具里新生成;侧边栏列出每个智能体的任务、最后动作、当前动作,让你一眼判断谁需要关注。更进一步,它把文件系统投影到地图上:文件变成房间,你能直观看到「这个智能体正在处理这个目录/文件」,还能基于这些信息做热力图。\n\n反应机制也借鉴了 RTS 游戏(即时战略游戏):按一下空格键,直接跳到最近一个需要你关注的事项——回答问题、批准计划,像《文明》里点空格跳到告警点一样。\n\n## 第二步:自主性——别事事盯着\n\n可见性还不够,以「它现在在用哪个文件、哪个工具」的粒度持续盯着,非常累人。问题有两个:一是脑子里装不下那么多状态,没法同时想 20 件事;二是就算让智能体通读代码库、自动生成任务、你点一下「接受任务」就有智能体去做——接下来就是 20 件事同时进行,每一件都要你「看管(babysit)」,彻底精疲力竭。\n\n于是他把审查也交出去:让智能体当编排器,把目标拆解后放进隔离的本地容器里自主运行(现在这套思路叫「软件工厂」);再加上现在流行的循环(loop)玩法——比如让它扫描 Twitter 找想做的点子、或扫描你的 GitHub,后台自动做出功能,前期几乎不用操心。\n\n剩下的问题是怎么高效审查堆积的结果。他的答案是「审查工具包」:一份改动里,你可以逐文件看,也可以直接看「可视化证据」——改动前后的视频和截图,快速判断要哪个;甚至并行跑几个实例,挑出最好的实现。\n\n## 第三步:协作——别一个人干活\n\n可见性加自主性之后仍然累,而且「整天只跟智能体说话相当孤独」。他给 AgentCraft 加了多人协作:可以建「作战室」,完全本地运行但支持隧道让远程的人加入。演示里他批准妻子(团队的产品设计师)进房,她做设计,他作为工程师直接在地图上看到设计、接着往下实现——她还在继续工作。也就是说,团队获得了一个共享工作区:可以用 Git,但不再被 Git 绑死。房间里有聊天和公告板,人和人、智能体和智能体彼此知晓对方在做什么,协作比平时紧密得多。这套东西也能在移动端、Telegram 上用。\n\n## 意外收获:天花板之上,还有地板\n\n反馈里最有意思的不是高级用户能干更多活了,而是一群原本与智能体毫无关系的人进来了:有孩子用它编排智能体,还有个因为沉迷《星际争霸》从大学辍学的人,现在能用它做很有生产力的事。这让他意识到:抬高天花板之外,还要降低地板——要把世界上大约 90% 的人带进这个未来,而不让他们累垮。\n\n他的新实验(暂名 loopers,还非常早期)放弃了魔兽式的复杂界面:不追求「它正在改哪个文件」的粒度,而是做成手游级别的体验——有几个你会不断回访的项目,靠循环等更自主的机制,达到「我发提示词、我拿结果」的最简交互,过程想看可以看,不看也行。他强调这只是其中一种可视化,人和人不一样:对一个人简单神奇的东西,对另一个人可能很难;所以他在探索让这套体验更可定制,理解「你作为一个人」到底需要什么才能愿意用这些工具。\n\n## 收尾与现状\n\n他的结论:我们确实是瓶颈,但让我们不再是瓶颈的技能早已在我们身上——不必一直是瓶颈。AgentCraft 已经上线,npx install 即可用;loopers 还在实验阶段,他在收集用户兴趣来决定方向。\n\n## 本集带走\n\n- **人是瓶颈,不是模型**:开 25 个智能体容易,难的是引导、指挥、审查它们不把自己累垮——规模化智能体的真正约束是人类注意力。\n- **可见性先做两层**:列表式的状态面板(谁在干什么、最后动作)+ 把文件系统投影成地图/房间/热力图,空间直觉比读列表快。\n- **借游戏的反应机制**:像 RTS 的空格键一样,一键跳到最近需要关注的事项,批准/回答不迷路。\n- **审查要降粒度**:别逐文件硬啃,直接看改动的截图/视频证据,并行跑几个实现挑最好的。\n- **别单干**:共享工作区 + 公告板让设计师、工程师和各智能体互相看见、接力推进,不必被 Git 工作流绑死。\n- **天花板之外还有地板**:对高手给粒度和复杂度,对新手给「发提示词、收结果」的手游级循环体验——90% 的人靠后者才能进来。",
+  "quotes": [
+    {
+      "en": "But we're here to talk about why we're the bottleneck and why we don't have to be.",
+      "zh": "但我们今天要谈的是,为什么我们是瓶颈,以及为什么我们不必是。",
+      "timestamp": "00:33",
+      "speaker": "Ido Salomon"
+    },
+    {
+      "en": "Do I really need to be the only one doing this? It's pretty lonely to just talk to agents all day.",
+      "zh": "我真的需要成为唯一一个做这件事的人吗?整天只跟智能体说话是相当孤独的。",
+      "timestamp": "08:28",
+      "speaker": "Ido Salomon"
+    },
+    {
+      "en": "We need to have some kind of way to take probably around 90% of the people in the world and bring them into this gigantic future without having them burn out.",
+      "zh": "我们需要某种方式,把大概世界上 90% 的人带进这个巨大的未来,同时不让他们累垮。",
+      "timestamp": "11:34",
+      "speaker": "Ido Salomon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:33",
+      "speaker": "Unknown",
+      "en": "But we're here to talk about why we're the bottleneck and why we don't have to be.",
+      "zh": "但我们今天要谈的是,为什么我们是瓶颈,以及为什么我们不必是。"
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Unknown",
+      "en": "And when it's at scale especially, it's just exhausting.",
+      "zh": "尤其是在规模化的时候,这简直让人精疲力竭。"
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Unknown",
+      "en": "The skills that we need to do these things, to find ourselves not burning out every time we use an agent, or with us all along, if you try and compare it to other stuff that you've been doing outside of programming, for example, playing video games, it's not really that different.",
+      "zh": "我们做这些事所需的技能,也就是让自己每次使用智能体时不累垮的技能,其实一直伴随着我们。如果你拿它和编程之外一直在做的事情相比,比如玩电子游戏,其实没有太大区别。"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Unknown",
+      "en": "So I took this concept too far, and I created AgentCraft, which is a game-inspired orchestrator that tries to bring all that good stuff together into work.",
+      "zh": "所以我把这个概念推向了极端,创造了 AgentCraft,一个游戏启发式的编排器,试图把所有那些好东西汇聚到工作中。"
+    },
+    {
+      "timestamp": "04:53",
+      "speaker": "Unknown",
+      "en": "And now I can create cool stuff like heat maps, so I can really easily see what's going on.",
+      "zh": "现在我可以做出像热力图这样很酷的东西,这样我就能非常轻松地看清正在发生什么。"
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Unknown",
+      "en": "It's pretty exhausting to keep looking at what the agents are doing in the granularity of what files are they using and what tools are they using at the moment.",
+      "zh": "以「它们正在用哪些文件、此刻正在用哪些工具」这种粒度持续盯着智能体在做什么,是非常累人的。"
+    },
+    {
+      "timestamp": "05:58",
+      "speaker": "Unknown",
+      "en": "Even if I can understand what's going on and I can see everything, I can't really do, like, 20 things at the same time.",
+      "zh": "即使我能够理解正在发生什么、我也能看到一切,我也没办法同时做,比如说,20 件事。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "And I have to babysit each and every one. And that is completely exhausting.",
+      "zh": "而我必须看管其中每一件。这完全让人精疲力竭。"
+    },
+    {
+      "timestamp": "06:48",
+      "speaker": "Unknown",
+      "en": "Now it's called software factories, but at the time it was just doing stuff autonomously.",
+      "zh": "现在这叫做软件工厂,但在当时只是自主地做事情。"
+    },
+    {
+      "timestamp": "07:45",
+      "speaker": "Unknown",
+      "en": "So what I did is create this review kit.",
+      "zh": "所以我做的是创建了这套审查工具包。"
+    },
+    {
+      "timestamp": "08:31",
+      "speaker": "Unknown",
+      "en": "Do I really need to be the only one doing this? It's pretty lonely to just talk to agents all day.",
+      "zh": "我真的需要成为唯一一个做这件事的人吗?整天只跟智能体说话是相当孤独的。"
+    },
+    {
+      "timestamp": "08:41",
+      "speaker": "Unknown",
+      "en": "But if I have a team, I might not even be the right person to review what's going on.",
+      "zh": "但如果我有一个团队,我可能甚至不是审查这些事情的正确人选。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "Not only can I hand off or fork and kind of have this shared workspace, so I'm not really bound anymore to Git.",
+      "zh": "我不仅能交接或分叉,拥有这种共享工作区,所以我不再被 Git 绑定了。"
+    },
+    {
+      "timestamp": "10:55",
+      "speaker": "Unknown",
+      "en": "The cooler thing for me was that people that had even nothing to do with agents or nothing to do with productivity come and say, okay, my kids really loved it, and they use it all the time to orchestrate agents, which they didn't do until now.",
+      "zh": "对我来说更酷的是,那些跟智能体、跟生产力毫无关系的人跑来说,我的孩子们特别喜欢,他们一直用它来编排智能体,这在之前他们是不会做的。"
+    },
+    {
+      "timestamp": "11:18",
+      "speaker": "Unknown",
+      "en": "And a bunch of other examples of kind of bringing communities that so far were kind of behind into this new world of productivity.",
+      "zh": "还有一堆别的例子,把那些至今还落在后面的群体带进了这个新的生产力世界。"
+    },
+    {
+      "timestamp": "11:34",
+      "speaker": "Unknown",
+      "en": "We need to have some kind of way to take probably around 90% of the people in the world and bring them into this gigantic future without having them burn out.",
+      "zh": "我们需要某种方式,把大概世界上 90% 的人带进这个巨大的未来,同时不让他们累垮。"
+    },
+    {
+      "timestamp": "12:58",
+      "speaker": "Unknown",
+      "en": "And what may appear amazing and easy to one person can appear very difficult to another.",
+      "zh": "对一个人来说看起来神奇又简单的东西,对另一个人来说可能显得非常困难。"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Unknown",
+      "en": "But the skills that we need to stop being the bottleneck and enable this new future are already with us.",
+      "zh": "但我们要想不再是瓶颈、并开启这个新未来所需的技能,其实已经在我们自己手中。"
+    }
+  ],
+  "voice_script": "今天这一期,主角是 Ido Salomon。这个名字你可能不熟,但做的事情很硬核:创造了一个叫 AgentCraft 的工具,还做过 MCPUI——后来演变成了 MCP Apps——本人也在 MCP 指导委员会里。这一期是个现场演示演讲,聊的问题一句话就能说明白:智能体已经够强了,现在真正卡住产能的,不是模型,是我们人类自己。\n\n为什么这么说?你想想,现在的智能体能干活的已经很多了,随便开上二十个都不成问题。但问题来了:你一个人,能同时又引导、又指挥、又审查二十个智能体吗?盯不了几轮,人就累垮了。所以 Ido 的主张很扎眼——人是智能体规模化的瓶颈。不过他还有后半句:解决方案所需的技能,其实我们早就会了。你想玩《魔兽争霸》《模拟人生》的时候,不就是在同时监督一大堆四处乱跑的单位吗?那套直觉,拿来看管智能体,没多大区别。于是干脆把这个概念推向极端,做出了 AgentCraft。那这套东西具体怎么让人不被累垮?我们从第一步讲起。\n\n第一步,是可见性——先看得见。要用好智能体,头一个门槛就是搞清楚它们在干什么。AgentCraft 的做法是把每个智能体变成地图上的一个单位,可以是 Claude Code、Codex、OpenCode 这些你已经在用的工具,也可以直接在里面新生成。侧边栏列出每个智能体的任务、最后做了什么、现在在做什么,扫一眼就知道谁需要你。更进一步,工具把整个文件系统投影到地图上:文件变成房间,哪个智能体正在哪个目录里干活,一眼就能看出来,还能据此做热力图。反应机制则借鉴了即时战略游戏——按一下空格键,直接跳到最近一个需要你关注的事项,可能是回答问题,可能是批准计划,就像《文明》里点空格跳到告警点一样,不用你自己满地图找。\n\n但看得见还不够。你想,如果每一秒都要以「它现在在用哪个文件、哪个工具」的粒度去盯着,那还是累。而且人的脑子装不下那么多状态,没法同时想二十件事。就算让智能体自己通读代码库、自动生成任务,你点一下「接受」,接下来就是二十件事同时进行,每一件都要你看管,照样精疲力竭。这就引出了第二步:自主性——把审查也交出去。让智能体来当编排器,把目标拆解之后,放进隔离的本地容器里自主运行,这套思路现在叫「软件工厂」。再配上眼下流行的循环玩法:比如让它扫描 Twitter 找点子,或者扫描你的 GitHub,后台自动做出功能,前期几乎不用操心。剩下的问题就是结果越堆越多,怎么高效审查。答案是审查工具包:看一份改动,可以逐文件看,也可以直接看可视化证据——改动前后的视频和截图,快速判断要哪个。甚至可以并行跑几个实例,挑出最好的实现。\n\n可见性加上自主性,效率上来了,但还是有个问题:整天只跟智能体说话,相当孤独。这也是 Ido 的一句原话——我真的需要成为唯一一个做这件事的人吗?于是有了第三步,协作。AgentCraft 里可以建「作战室」,完全本地运行,但支持隧道让远程的人加入。演示里有一个细节:批准了妻子——也就是团队的产品设计师——进房,她做设计,工程师直接在地图上看到设计、接着往下实现,而她还在继续工作。这就等于团队有了一个共享工作区:可以用 Git,但不再被 Git 绑死。房间里有聊天和公告板,人和人、智能体和智能体,彼此都知道对方在干什么。这套东西还能在移动端、Telegram 上用。\n\n到这里,工具的故事讲完了,但这一集最有意思的地方,其实是一个意外收获。反馈里最打动人的,不是高级用户能干更多活了,而是一群原本跟智能体毫无关系的人进来了:有孩子在用它编排智能体,还有个因为沉迷《星际争霸》从大学辍学的人,现在也能用它做很有生产力的事。这让人意识到一件事:除了抬高天花板,还得降低地板——要把世界上大约 90% 的人带进这个未来,同时不让他们累垮。沿着这个思路,一个新的实验工具出现了,暂名叫 loopers,还很早期。它放弃了魔兽式的复杂界面,不再追求「正在改哪个文件」的粒度,而是做成手游级别的体验:有几个你会不断回访的项目,靠循环这种更自主的机制,交互简化到「发提示词、拿结果」,过程想看可以看,不看也行。当然,这只是其中一种可视化——人和人不一样,对一个人简单神奇的东西,对另一个人可能很难,所以更可定制的方向也在探索当中。\n\n最后回到那个结论:我们确实是瓶颈,但让我们不再是瓶颈的技能,早已在我们身上——不必一直是瓶颈。AgentCraft 已经上线,npx install 就能用;loopers 还在收集用户兴趣来决定方向。游戏玩家们的那些年的手感,原来一直是在为今天练级。"
+}

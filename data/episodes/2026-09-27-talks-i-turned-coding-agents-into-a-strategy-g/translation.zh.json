@@ -1,0 +1,1298 @@
+[
+ {
+  "seg": 0,
+  "start": 21.114,
+  "end": 22.054,
+  "speaker": "Unknown",
+  "en": "OK. Hi, everyone.",
+  "zh": "好的。大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 22.614,
+  "end": 23.454,
+  "speaker": "Unknown",
+  "en": "I'm Ido Salomon.",
+  "zh": "我是 Ido Salomon。"
+ },
+ {
+  "seg": 2,
+  "start": 24.015,
+  "end": 32.616,
+  "speaker": "Unknown",
+  "en": "I am the creator of AgentCraft, and I also created MCPUI, which became MCP Apps and MCP Steering Committee, and then a bunch of other stuff.",
+  "zh": "我是 AgentCraft 的创造者,我还创造了 MCPUI,它后来变成了 MCP Apps,还有 MCP 指导委员会,以及一堆其他东西。"
+ },
+ {
+  "seg": 3,
+  "start": 33.336,
+  "end": 37.697,
+  "speaker": "Unknown",
+  "en": "But we're here to talk about why we're the bottleneck and why we don't have to be.",
+  "zh": "但我们今天在这里要谈的是,为什么我们是瓶颈,以及为什么我们不必是。"
+ },
+ {
+  "seg": 4,
+  "start": 40.038,
+  "end": 44.819,
+  "speaker": "Unknown",
+  "en": "So as you all know and use every day, agents are amazing.",
+  "zh": "正如你们都知道并且每天都在使用的,智能体非常了不起。"
+ },
+ {
+  "seg": 5,
+  "start": 44.999,
+  "end": 50.36,
+  "speaker": "Unknown",
+  "en": "There's so much that you can do, from generating cat memes to B2B SaaS apps.",
+  "zh": "你可以做很多事情,从生成猫咪梗图到 B2B SaaS 应用。"
+ },
+ {
+  "seg": 6,
+  "start": 51.202,
+  "end": 55.383,
+  "speaker": "Unknown",
+  "en": "So if they are so amazing, we have to ask, why aren't we all unstoppable?",
+  "zh": "所以如果它们这么了不起,我们就得问,为什么我们没有都变得势不可挡?"
+ },
+ {
+  "seg": 7,
+  "start": 55.843,
+  "end": 60.004,
+  "speaker": "Unknown",
+  "en": "Why doesn't everyone have an army of agents that just does whatever they want?",
+  "zh": "为什么不是每个人都拥有一支随心所欲的智能体大军?"
+ },
+ {
+  "seg": 8,
+  "start": 60.985,
+  "end": 62.665,
+  "speaker": "Unknown",
+  "en": "So it should be relatively easy.",
+  "zh": "所以这应该相对容易。"
+ },
+ {
+  "seg": 9,
+  "start": 62.885,
+  "end": 68.347,
+  "speaker": "Unknown",
+  "en": "I mean, you just have a bunch of monitors, and you spin up 25 Claude agents, and you're done.",
+  "zh": "我的意思是,你只要有一堆显示器,启动 25 个 Claude 智能体,就完事了。"
+ },
+ {
+  "seg": 10,
+  "start": 69.447,
+  "end": 72.308,
+  "speaker": "Unknown",
+  "en": "So the reality is that it's just not that simple.",
+  "zh": "但现实是,事情没那么简单。"
+ },
+ {
+  "seg": 11,
+  "start": 73.17,
+  "end": 77.772,
+  "speaker": "Unknown",
+  "en": "To do something like that, we need to, A, really want to use agents.",
+  "zh": "要做到那样的事,我们需要,第一,真正想使用智能体。"
+ },
+ {
+  "seg": 12,
+  "start": 78.553,
+  "end": 85.676,
+  "speaker": "Unknown",
+  "en": "And secondly, once you actually spin them up, each one of these agents requires you to steer them, direct them, review them.",
+  "zh": "其次,一旦你真正把它们启动起来,每一个智能体都需要你去引导它们、指挥它们、审查它们。"
+ },
+ {
+  "seg": 13,
+  "start": 86.256,
+  "end": 89.218,
+  "speaker": "Unknown",
+  "en": "And when it's at scale especially, it's just exhausting.",
+  "zh": "尤其是在规模化的时候,这简直让人精疲力竭。"
+ },
+ {
+  "seg": 14,
+  "start": 89.918,
+  "end": 93.219,
+  "speaker": "Unknown",
+  "en": "We need to find the skills to allow us to do it without burning out.",
+  "zh": "我们需要找到一些技能,让我们能做这些事而不把自己累垮。"
+ },
+ {
+  "seg": 15,
+  "start": 94.02,
+  "end": 96.981,
+  "speaker": "Unknown",
+  "en": "So in reality, we are the bottleneck.",
+  "zh": "所以现实中,我们才是瓶颈。"
+ },
+ {
+  "seg": 16,
+  "start": 98.582,
+  "end": 102.664,
+  "speaker": "Unknown",
+  "en": "And the cool thing here is that while we are the bottleneck,",
+  "zh": "而这里有意思的地方在于,虽然我们是瓶颈,"
+ },
+ {
+  "seg": 17,
+  "start": 103.92,
+  "end": 110.487,
+  "speaker": "Unknown",
+  "en": "The skills that we need to do these things, to find ourselves not burning out every time we use an agent,",
+  "zh": "我们做这些事所需的技能,也就是让自己每次使用智能体时不会累垮的技能,"
+ },
+ {
+  "seg": 18,
+  "start": 111.365,
+  "end": 122.331,
+  "speaker": "Unknown",
+  "en": "Or with us all along, if you try and compare it to other stuff that you've been doing outside of programming, for example, playing video games, it's not really that different.",
+  "zh": "其实一直伴随着我们。如果你试着把它和你编程之外一直在做的其他事情相比,比如玩电子游戏,其实没有太大区别。"
+ },
+ {
+  "seg": 19,
+  "start": 122.651,
+  "end": 134.778,
+  "speaker": "Unknown",
+  "en": "Like if you're playing Warcraft, for example, or Sims, and you have a bunch of different units running around, you need to understand what you're doing and supervise all of it, how different is it from actually inspecting agents?",
+  "zh": "比如你在玩魔兽,或者模拟人生,你有一堆不同的单位在四处跑动,你需要理解自己在做什么并监督这一切,这和实际检查智能体有多大区别呢?"
+ },
+ {
+  "seg": 20,
+  "start": 135.864,
+  "end": 148.676,
+  "speaker": "Unknown",
+  "en": "So I took this concept too far, and I created AgentCraft, which is a game-inspired orchestrator that tries to bring all that good stuff together into work.",
+  "zh": "所以我把这个概念推向了极端,我创造了 AgentCraft,这是一个游戏启发式的编排器,试图把所有那些好东西汇聚到工作中。"
+ },
+ {
+  "seg": 21,
+  "start": 150.558,
+  "end": 160.407,
+  "speaker": "Unknown",
+  "en": "So let's take a quick look at what that actually looks like and try and understand the journey that we can go through to really raise the ceiling of how humans and agents can collaborate.",
+  "zh": "那么让我们快速看一下它实际长什么样,并试着理解我们可以经历的旅程,真正提升人类与智能体协作的天花板。"
+ },
+ {
+  "seg": 22,
+  "start": 161.585,
+  "end": 162.885,
+  "speaker": "Unknown",
+  "en": "So this is AgentCraft.",
+  "zh": "这就是 AgentCraft。"
+ },
+ {
+  "seg": 23,
+  "start": 163.846,
+  "end": 165.646,
+  "speaker": "Unknown",
+  "en": "There's really a lot to unpack here.",
+  "zh": "这里真的有很多东西可以展开讲。"
+ },
+ {
+  "seg": 24,
+  "start": 166.506,
+  "end": 169.807,
+  "speaker": "Unknown",
+  "en": "So we'll just go through the basics really quick.",
+  "zh": "所以我们只是快速过一下基础。"
+ },
+ {
+  "seg": 25,
+  "start": 170.067,
+  "end": 171.587,
+  "speaker": "Unknown",
+  "en": "What you see here is an agent.",
+  "zh": "你在这里看到的是一个智能体。"
+ },
+ {
+  "seg": 26,
+  "start": 172.508,
+  "end": 179.329,
+  "speaker": "Unknown",
+  "en": "It's an actual representation of Cloud Code or OpenClaw, whatever agent that you can imagine.",
+  "zh": "它是 Cloud Code 或 OpenClaw,你能想到的任何智能体的实际呈现。"
+ },
+ {
+  "seg": 27,
+  "start": 180.15,
+  "end": 186.171,
+  "speaker": "Unknown",
+  "en": "It can be detected on your device, or you can actually spawn new ones directly from AgentCraft.",
+  "zh": "它可以在你的设备上被检测到,或者你也可以直接从 AgentCraft 里生成新的。"
+ },
+ {
+  "seg": 28,
+  "start": 186.931,
+  "end": 190.072,
+  "speaker": "Unknown",
+  "en": "So like I said, you have Codex and OpenCode, et cetera.",
+  "zh": "所以就像我说的,你有 Codex 和 OpenCode,等等。"
+ },
+ {
+  "seg": 29,
+  "start": 192.245,
+  "end": 193.346,
+  "speaker": "Unknown",
+  "en": "At your command.",
+  "zh": "听候你的调遣。"
+ },
+ {
+  "seg": 30,
+  "start": 194.247,
+  "end": 196.089,
+  "speaker": "Unknown",
+  "en": "And these agents can do everything.",
+  "zh": "而这些智能体什么都能做。"
+ },
+ {
+  "seg": 31,
+  "start": 196.209,
+  "end": 197.21,
+  "speaker": "Unknown",
+  "en": "They're just normal agents.",
+  "zh": "它们就是普通的智能体。"
+ },
+ {
+  "seg": 32,
+  "start": 198.051,
+  "end": 206.94,
+  "speaker": "Unknown",
+  "en": "So I can just prompt them in this nice side panel that also has voice, so there's multimodality here, and just do something for me.",
+  "zh": "所以我可以在这个漂亮的侧边栏里给它们下提示词,它还支持语音,所以这里有多模态,直接让它帮我做点什么。"
+ },
+ {
+  "seg": 33,
+  "start": 207.761,
+  "end": 208.722,
+  "speaker": "Unknown",
+  "en": "Prompt, prompt.",
+  "zh": "提示,提示。"
+ },
+ {
+  "seg": 34,
+  "start": 209.603,
+  "end": 211.845,
+  "speaker": "Unknown",
+  "en": "And now these agents can do",
+  "zh": "现在这些智能体可以做"
+ },
+ {
+  "seg": 35,
+  "start": 212.561,
+  "end": 212.881,
+  "speaker": "Unknown",
+  "en": "Whatever.",
+  "zh": "任何事情。"
+ },
+ {
+  "seg": 36,
+  "start": 213.662,
+  "end": 217.646,
+  "speaker": "Unknown",
+  "en": "And if you look around, you would see that the map has a bunch of different elements.",
+  "zh": "如果你四处看看,你会看到地图上有一堆不同的元素。"
+ },
+ {
+  "seg": 37,
+  "start": 217.686,
+  "end": 218.647,
+  "speaker": "Unknown",
+  "en": "So you have buildings.",
+  "zh": "所以你有建筑物。"
+ },
+ {
+  "seg": 38,
+  "start": 218.687,
+  "end": 220.309,
+  "speaker": "Unknown",
+  "en": "These buildings represent functionalities.",
+  "zh": "这些建筑物代表功能。"
+ },
+ {
+  "seg": 39,
+  "start": 220.329,
+  "end": 227.136,
+  "speaker": "Unknown",
+  "en": "So for example, if you can manage your plugins or skills, you have integrated terminal, integrated git.",
+  "zh": "比如,你可以管理你的插件或技能,有集成终端、集成 git。"
+ },
+ {
+  "seg": 40,
+  "start": 227.856,
+  "end": 231.12,
+  "speaker": "Unknown",
+  "en": "You can do all of your work from within this space.",
+  "zh": "你可以在这个空间内完成你所有的工作。"
+ },
+ {
+  "seg": 41,
+  "start": 232.653,
+  "end": 238.777,
+  "speaker": "Unknown",
+  "en": "So now that we have this and we understand the basics, let's look at what we can do to raise the ceiling.",
+  "zh": "现在我们有了这些,也理解了基础,让我们看看能做些什么来提升天花板。"
+ },
+ {
+  "seg": 42,
+  "start": 239.118,
+  "end": 241.159,
+  "speaker": "Unknown",
+  "en": "So the first step is obviously visibility.",
+  "zh": "所以第一步显然是可见性。"
+ },
+ {
+  "seg": 43,
+  "start": 241.499,
+  "end": 244.421,
+  "speaker": "Unknown",
+  "en": "I need to understand what's going on, what are my agents doing?",
+  "zh": "我需要理解正在发生什么,我的智能体们在做什么?"
+ },
+ {
+  "seg": 44,
+  "start": 245.062,
+  "end": 256.67,
+  "speaker": "Unknown",
+  "en": "So I have this nice side panel, and it shows me the different agents and what their task is and what the last thing they did is and what they're currently doing, everything I need to quickly understand who needs my attention and who doesn't.",
+  "zh": "所以我有这个漂亮的侧边栏,它向我展示不同的智能体、它们的任务是什么、它们最后做了什么、它们现在正在做什么,我快速判断谁需要我的关注、谁不需要所需的一切都在这里。"
+ },
+ {
+  "seg": 45,
+  "start": 257.806,
+  "end": 260.928,
+  "speaker": "Unknown",
+  "en": "The second part of it is we're not just limited to this.",
+  "zh": "第二部分是,我们不仅仅局限于这个。"
+ },
+ {
+  "seg": 46,
+  "start": 260.968,
+  "end": 261.508,
+  "speaker": "Unknown",
+  "en": "We have a map.",
+  "zh": "我们有一张地图。"
+ },
+ {
+  "seg": 47,
+  "start": 262.169,
+  "end": 271.934,
+  "speaker": "Unknown",
+  "en": "So I can take, let's say, my file system, project it onto the map, and now I can see exactly what my agents are doing, not just by looking at a list of stuff.",
+  "zh": "所以我可以拿,比如说,我的文件系统,把它投影到地图上,现在我就能确切看到我的智能体们在做什么,而不只是看着一堆列表。"
+ },
+ {
+  "seg": 48,
+  "start": 272.395,
+  "end": 277.137,
+  "speaker": "Unknown",
+  "en": "I can actually see, OK, this agent is now working on this directory or this file.",
+  "zh": "我可以真正看到,好,这个智能体现在正在处理这个目录或这个文件。"
+ },
+ {
+  "seg": 49,
+  "start": 277.498,
+  "end": 284.722,
+  "speaker": "Unknown",
+  "en": "And these files are represented as rooms on the map, so I can really look at each one and see exactly what each agent did and when.",
+  "zh": "而这些文件在地图上被表示为房间,所以我真的可以查看每一个,确切看到每个智能体做了什么以及什么时候做的。"
+ },
+ {
+  "seg": 50,
+  "start": 285.748,
+  "end": 292.758,
+  "speaker": "Unknown",
+  "en": "And now I can take this nice information, because we are the orchestrator, and use that to create linkages.",
+  "zh": "现在我可以利用这些很好的信息,因为我们就是编排器,并用它来创建关联。"
+ },
+ {
+  "seg": 51,
+  "start": 293.139,
+  "end": 298.386,
+  "speaker": "Unknown",
+  "en": "And now I can create cool stuff like heat maps, so I can really easily see what's going on.",
+  "zh": "现在我可以做出像热力图这样很酷的东西,这样我就能非常轻松地看清正在发生什么。"
+ },
+ {
+  "seg": 52,
+  "start": 300.618,
+  "end": 306.542,
+  "speaker": "Unknown",
+  "en": "The other aspect is that now that we have this visibility, that's not really enough.",
+  "zh": "另一个方面是,现在我们有了这种可见性,但这其实还不够。"
+ },
+ {
+  "seg": 53,
+  "start": 306.662,
+  "end": 308.763,
+  "speaker": "Unknown",
+  "en": "We need to be able to react to what's going on.",
+  "zh": "我们需要能够对正在发生的事情做出反应。"
+ },
+ {
+  "seg": 54,
+  "start": 308.824,
+  "end": 312.246,
+  "speaker": "Unknown",
+  "en": "If someone needs my attention, I need to be able to quickly jump to it.",
+  "zh": "如果有事情需要我关注,我需要能够快速跳转到那里。"
+ },
+ {
+  "seg": 55,
+  "start": 312.666,
+  "end": 322.493,
+  "speaker": "Unknown",
+  "en": "So much like video games or RTS games or Civilization, whatever, you would click a space bar and it would just take you to the nearest thing that actually needed your attention.",
+  "zh": "就像视频游戏、RTS 游戏或《文明》那样,你按下空格键,它就会直接把你带到最近一个真正需要你关注的东西上。"
+ },
+ {
+  "seg": 56,
+  "start": 322.833,
+  "end": 328.577,
+  "speaker": "Unknown",
+  "en": "So you can really easily understand what's going on and jump from one thing to the other and answer",
+  "zh": "这样你就能非常轻松地理解正在发生什么,从一件事跳到另一件事,回答"
+ },
+ {
+  "seg": 57,
+  "start": 329.137,
+  "end": 331.681,
+  "speaker": "Unknown",
+  "en": "questions or approved plans, et cetera.",
+  "zh": "问题或批准计划等等。"
+ },
+ {
+  "seg": 58,
+  "start": 334.265,
+  "end": 334.986,
+  "speaker": "Unknown",
+  "en": "That was nice.",
+  "zh": "那很不错。"
+ },
+ {
+  "seg": 59,
+  "start": 335.046,
+  "end": 337.63,
+  "speaker": "Unknown",
+  "en": "I mean, it's a nice step just to have that visibility.",
+  "zh": "我的意思是,光是拥有那种可见性就已经是很好的一步了。"
+ },
+ {
+  "seg": 60,
+  "start": 338.513,
+  "end": 339.634,
+  "speaker": "Unknown",
+  "en": "But it's not really enough.",
+  "zh": "但这其实还不够。"
+ },
+ {
+  "seg": 61,
+  "start": 340.235,
+  "end": 348.942,
+  "speaker": "Unknown",
+  "en": "It's pretty exhausting to keep looking at what the agents are doing in the granularity of what files are they using and what tools are they using at the moment.",
+  "zh": "持续盯着智能体在做什么、它们正在用哪些文件、此刻正在用哪些工具,以这种粒度去观察,是非常累人的。"
+ },
+ {
+  "seg": 62,
+  "start": 349.442,
+  "end": 350.423,
+  "speaker": "Unknown",
+  "en": "So we need something else.",
+  "zh": "所以我们需要别的东西。"
+ },
+ {
+  "seg": 63,
+  "start": 351.644,
+  "end": 354.947,
+  "speaker": "Unknown",
+  "en": "And the reason is that we have two main problems here.",
+  "zh": "原因在于我们在这里有两个主要问题。"
+ },
+ {
+  "seg": 64,
+  "start": 355.708,
+  "end": 357.99,
+  "speaker": "Unknown",
+  "en": "One is that there's just too much to hold in our heads.",
+  "zh": "一个是脑子里要装的东西实在太多了。"
+ },
+ {
+  "seg": 65,
+  "start": 358.53,
+  "end": 361.092,
+  "speaker": "Unknown",
+  "en": "Even if I can understand what's going on and I can see everything,",
+  "zh": "即使我能够理解正在发生什么,我也能看到一切,"
+ },
+ {
+  "seg": 66,
+  "start": 361.833,
+  "end": 363.754,
+  "speaker": "Unknown",
+  "en": "I can't really do, like, 20 things at the same time.",
+  "zh": "我也没法同时做,比如说,20 件事。"
+ },
+ {
+  "seg": 67,
+  "start": 363.774,
+  "end": 368.916,
+  "speaker": "Unknown",
+  "en": "I can't even think of the next thing I want to do if I have this huge coding project or whatever.",
+  "zh": "如果我有这么一个庞大的编码项目之类的,我甚至无法想清楚接下来想做什么。"
+ },
+ {
+  "seg": 68,
+  "start": 370.196,
+  "end": 372.097,
+  "speaker": "Unknown",
+  "en": "So I need to find some way to fix that.",
+  "zh": "所以我需要找到某种办法来解决这个问题。"
+ },
+ {
+  "seg": 69,
+  "start": 372.677,
+  "end": 373.317,
+  "speaker": "Unknown",
+  "en": "So we can.",
+  "zh": "我们可以做到。"
+ },
+ {
+  "seg": 70,
+  "start": 373.417,
+  "end": 385.362,
+  "speaker": "Unknown",
+  "en": "I mean, we can tell the agents, you know, go through my code base, find out what the next things I need to do are, create these tasks for me, and I just click a button, I accept the quest, and there's some agent that does it for me.",
+  "zh": "我的意思是,我们可以告诉智能体,你知道的,去通读我的代码库,找出我接下来需要做的事情,为我创建这些任务,然后我只需点一个按钮,接受这个任务,就有某个智能体替我去完成。"
+ },
+ {
+  "seg": 71,
+  "start": 386.387,
+  "end": 386.847,
+  "speaker": "Unknown",
+  "en": "Which is fun.",
+  "zh": "这很有趣。"
+ },
+ {
+  "seg": 72,
+  "start": 387.548,
+  "end": 387.889,
+  "speaker": "Unknown",
+  "en": "It's cool.",
+  "zh": "挺酷的。"
+ },
+ {
+  "seg": 73,
+  "start": 388.97,
+  "end": 393.194,
+  "speaker": "Unknown",
+  "en": "But the next problem here is that, OK, now I have 20 stuff going at the same time.",
+  "zh": "但接下来的问题是,好了,现在我有 20 件事在同时进行。"
+ },
+ {
+  "seg": 74,
+  "start": 393.554,
+  "end": 395.777,
+  "speaker": "Unknown",
+  "en": "And I have to babysit each and every one.",
+  "zh": "而我必须看管其中每一件。"
+ },
+ {
+  "seg": 75,
+  "start": 396.277,
+  "end": 398.059,
+  "speaker": "Unknown",
+  "en": "And that is completely exhausting.",
+  "zh": "这完全是让人精疲力竭的。"
+ },
+ {
+  "seg": 76,
+  "start": 398.9,
+  "end": 401.082,
+  "speaker": "Unknown",
+  "en": "So you could ask, OK, we have agents.",
+  "zh": "所以你可能会问,好吧,我们有智能体。"
+ },
+ {
+  "seg": 77,
+  "start": 401.282,
+  "end": 403.785,
+  "speaker": "Unknown",
+  "en": "Agents are amazing, as we've established.",
+  "zh": "正如我们已经确认的,智能体非常了不起。"
+ },
+ {
+  "seg": 78,
+  "start": 404.795,
+  "end": 407.637,
+  "speaker": "Unknown",
+  "en": "So I can just go ahead and tell the agent to do it for me.",
+  "zh": "所以我可以直接让智能体替我做这件事。"
+ },
+ {
+  "seg": 79,
+  "start": 408.298,
+  "end": 412.561,
+  "speaker": "Unknown",
+  "en": "Now it's called software factories, but at the time it was just doing stuff autonomously.",
+  "zh": "现在这叫做软件工厂,但在当时只是自主地做事情。"
+ },
+ {
+  "seg": 80,
+  "start": 413.282,
+  "end": 415.524,
+  "speaker": "Unknown",
+  "en": "So you can give it like a general sense of what you want.",
+  "zh": "你可以给它一个大概的、你想要什么的感觉。"
+ },
+ {
+  "seg": 81,
+  "start": 416.024,
+  "end": 423.57,
+  "speaker": "Unknown",
+  "en": "It would spawn an orchestrator and break it down for you and run it all in, well, in this case it's a local container.",
+  "zh": "它会生成一个编排器,替你把事情拆解,然后全部运行起来,嗯,在这个例子里是在一个本地容器里运行。"
+ },
+ {
+  "seg": 82,
+  "start": 424.111,
+  "end": 426.173,
+  "speaker": "Unknown",
+  "en": "So everything is just done in isolation.",
+  "zh": "所以所有事情都是在隔离状态下完成的。"
+ },
+ {
+  "seg": 83,
+  "start": 426.533,
+  "end": 428.094,
+  "speaker": "Unknown",
+  "en": "And I don't need to do any babysitting.",
+  "zh": "而我不需要做任何看管。"
+ },
+ {
+  "seg": 84,
+  "start": 428.495,
+  "end": 429.595,
+  "speaker": "Unknown",
+  "en": "The agent does it for me.",
+  "zh": "智能体替我做了。"
+ },
+ {
+  "seg": 85,
+  "start": 430.396,
+  "end": 433.66,
+  "speaker": "Unknown",
+  "en": "On top of that, you have loops, which everyone really likes right now.",
+  "zh": "除此之外,还有循环(loop),这是现在大家都很喜欢的。"
+ },
+ {
+  "seg": 86,
+  "start": 434.101,
+  "end": 448.358,
+  "speaker": "Unknown",
+  "en": "So you can do cool things like just tell that to, I don't know, scan Twitter for cool stuff you want to build or scan your GitHub, and it will just create these nice features for you in the background without you needing to do too much up front.",
+  "zh": "这样你就可以做一些很酷的事情,比如让它,我不知道,去扫描 Twitter 找你想构建的酷东西,或者扫描你的 GitHub,它就会在后台为你创建这些漂亮的功能,而你不需要预先做太多事。"
+ },
+ {
+  "seg": 87,
+  "start": 449.739,
+  "end": 460.487,
+  "speaker": "Unknown",
+  "en": "The bad thing is that, I mean, this is nice, but what do I do when I have, again, I don't know, I would say 20, but even five things to review at the same time.",
+  "zh": "不好的地方是,我是说,这很不错,但当我又有,比如说,我不知道,我本想说 20 件,但哪怕只有 5 件事需要同时审查的时候,我该怎么办。"
+ },
+ {
+  "seg": 88,
+  "start": 461.608,
+  "end": 464.31,
+  "speaker": "Unknown",
+  "en": "It's very, very hard to get that out of the way.",
+  "zh": "要把这些处理完是非常非常困难的。"
+ },
+ {
+  "seg": 89,
+  "start": 465.396,
+  "end": 468.698,
+  "speaker": "Unknown",
+  "en": "So what I did is create this review kit.",
+  "zh": "所以我做的是创建了这套审查工具包。"
+ },
+ {
+  "seg": 90,
+  "start": 469.158,
+  "end": 489.487,
+  "speaker": "Unknown",
+  "en": "So I get the entire changes I need, and I get what files changed if you want to go file by file, or I can just get visual evidence so you can actually see videos of what changed or photos of what changed so you can really quickly understand what you want or even run a few instances in parallel and just pick the best implementation out of these.",
+  "zh": "这样我能拿到所需的全部改动,如果你想像逐个文件那样看,我能拿到哪些文件改了,或者我可以直接拿到可视化证据,你可以真正看到改动了什么的视频或照片,这样你就能非常快速地理解你想要什么,甚至可以并行运行几个实例,从中挑选出最好的实现。"
+ },
+ {
+  "seg": 91,
+  "start": 491.319,
+  "end": 496.526,
+  "speaker": "Unknown",
+  "en": "So now that we have this, we have visibility and we have autonomy, it's pretty cool.",
+  "zh": "所以现在我们有了这些,我们有了可见性,也有了自主性,这挺酷的。"
+ },
+ {
+  "seg": 92,
+  "start": 496.686,
+  "end": 502.053,
+  "speaker": "Unknown",
+  "en": "Like, we reached a pretty good place in raising the ceiling of what we can do with agents, but...",
+  "zh": "就是说,在提升我们用智能体能做的事情的上限方面,我们达到了一个相当不错的位置,但是……"
+ },
+ {
+  "seg": 93,
+  "start": 503.188,
+  "end": 504.349,
+  "speaker": "Unknown",
+  "en": "It's still pretty exhausting.",
+  "zh": "这仍然相当累人。"
+ },
+ {
+  "seg": 94,
+  "start": 504.369,
+  "end": 505.73,
+  "speaker": "Unknown",
+  "en": "I mean, it was fun.",
+  "zh": "我的意思是,这很有趣。"
+ },
+ {
+  "seg": 95,
+  "start": 506.65,
+  "end": 510.673,
+  "speaker": "Unknown",
+  "en": "But now I have to ask myself, do I really need to be the only one doing this?",
+  "zh": "但现在我必须问自己,我真的需要成为唯一一个做这件事的人吗?"
+ },
+ {
+  "seg": 96,
+  "start": 511.153,
+  "end": 513.734,
+  "speaker": "Unknown",
+  "en": "It's pretty lonely to just talk to agents all day.",
+  "zh": "整天只跟智能体说话是相当孤独的。"
+ },
+ {
+  "seg": 97,
+  "start": 514.215,
+  "end": 520.959,
+  "speaker": "Unknown",
+  "en": "And if you look at what a team does, for example, if it's just me, that's fine.",
+  "zh": "而且如果你看看一个团队在做什么,比如说,如果只有我一个人,那没问题。"
+ },
+ {
+  "seg": 98,
+  "start": 521.019,
+  "end": 524.981,
+  "speaker": "Unknown",
+  "en": "But if I have a team, I might not even be the right person to review what's going on.",
+  "zh": "但如果我有一个团队,我可能甚至不是审查这些事情的正确人选。"
+ },
+ {
+  "seg": 99,
+  "start": 525.201,
+  "end": 527.663,
+  "speaker": "Unknown",
+  "en": "So I need something else.",
+  "zh": "所以我需要别的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 527.863,
+  "end": 529.964,
+  "speaker": "Unknown",
+  "en": "And that something is collaboration.",
+  "zh": "而这个东西就是协作。"
+ },
+ {
+  "seg": 101,
+  "start": 531.545,
+  "end": 533.245,
+  "speaker": "Unknown",
+  "en": "Have other people join us.",
+  "zh": "让其他人加入我们。"
+ },
+ {
+  "seg": 102,
+  "start": 534.306,
+  "end": 542.487,
+  "speaker": "Unknown",
+  "en": "So the way that looks in AgentCraft is that I can create these, uh, you can call it, you know, war halls, war room, whatever.",
+  "zh": "所以在 AgentCraft 里它的样子是,我可以创建这些,呃,你可以叫它,你知道的,作战大厅、作战室,随便什么。"
+ },
+ {
+  "seg": 103,
+  "start": 543.308,
+  "end": 544.448,
+  "speaker": "Unknown",
+  "en": "Uh, host them.",
+  "zh": "呃,托管它们。"
+ },
+ {
+  "seg": 104,
+  "start": 544.468,
+  "end": 548.329,
+  "speaker": "Unknown",
+  "en": "It's, like, completely local, but you can do, like, tunnels, and people can join you.",
+  "zh": "它完全是本地的,但你可以做隧道之类的东西,然后别人就能加入你。"
+ },
+ {
+  "seg": 105,
+  "start": 549.089,
+  "end": 552.19,
+  "speaker": "Unknown",
+  "en": "And so I can create a room, and let's say I have a product designer in my team.",
+  "zh": "所以我可以创建一个房间,比方说我团队里有一位产品设计师。"
+ },
+ {
+  "seg": 106,
+  "start": 552.45,
+  "end": 553.91,
+  "speaker": "Unknown",
+  "en": "In this case, uh, it's my wife.",
+  "zh": "在这个例子里,呃,是我妻子。"
+ },
+ {
+  "seg": 107,
+  "start": 554.69,
+  "end": 556.551,
+  "speaker": "Unknown",
+  "en": "And I can approve, uh, her.",
+  "zh": "而我可以批准,呃,她。"
+ },
+ {
+  "seg": 108,
+  "start": 556.971,
+  "end": 558.171,
+  "speaker": "Unknown",
+  "en": "Otherwise, she'll be mad.",
+  "zh": "否则她会生气的。"
+ },
+ {
+  "seg": 109,
+  "start": 558.591,
+  "end": 560.773,
+  "speaker": "Unknown",
+  "en": "Uh, so I can approve her, and she does her thing.",
+  "zh": "呃,所以我可以批准她,然后她做她的事。"
+ },
+ {
+  "seg": 110,
+  "start": 560.853,
+  "end": 562.094,
+  "speaker": "Unknown",
+  "en": "She designs whatever.",
+  "zh": "她设计各种东西。"
+ },
+ {
+  "seg": 111,
+  "start": 562.615,
+  "end": 567.059,
+  "speaker": "Unknown",
+  "en": "And I, as an engineer, can not only see that, that's, that's her.",
+  "zh": "而我,作为工程师,不仅能看到,那是,那是她。"
+ },
+ {
+  "seg": 112,
+  "start": 568.36,
+  "end": 575.286,
+  "speaker": "Unknown",
+  "en": "Um, I can not only see that on my map, uh, I can actually take that and follow off, off of it.",
+  "zh": "呃,我不仅能在我的地图上看到,我实际上还能拿过来,从它接着往下做。"
+ },
+ {
+  "seg": 113,
+  "start": 575.667,
+  "end": 576.447,
+  "speaker": "Unknown",
+  "en": "Prompt, prompt.",
+  "zh": "提示词,提示词。"
+ },
+ {
+  "seg": 114,
+  "start": 576.988,
+  "end": 577.148,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 115,
+  "start": 577.884,
+  "end": 579.365,
+  "speaker": "Unknown",
+  "en": "That's just like her.",
+  "zh": "这就是她的风格。"
+ },
+ {
+  "seg": 116,
+  "start": 579.525,
+  "end": 586.027,
+  "speaker": "Unknown",
+  "en": "So I can take that design, follow up on it, implement it while she keeps working.",
+  "zh": "所以我可以拿那个设计,接着往下推进,实现它,同时她继续工作。"
+ },
+ {
+  "seg": 117,
+  "start": 586.928,
+  "end": 593.99,
+  "speaker": "Unknown",
+  "en": "And the cool thing here is that not only can I hand off or fork and kind of have this shared workspace, so I'm not really bound anymore to Git.",
+  "zh": "这里很酷的一点是,我不仅能交接或者分叉,拥有这种共享工作区,所以我不再被 Git 绑定了。"
+ },
+ {
+  "seg": 118,
+  "start": 594.01,
+  "end": 595.971,
+  "speaker": "Unknown",
+  "en": "I can use Git, but I'm not really bound to something.",
+  "zh": "我可以用 Git,但我不再被什么东西绑死。"
+ },
+ {
+  "seg": 119,
+  "start": 596.071,
+  "end": 597.151,
+  "speaker": "Unknown",
+  "en": "Everyone is working together.",
+  "zh": "每个人都在一起工作。"
+ },
+ {
+  "seg": 120,
+  "start": 597.812,
+  "end": 606.015,
+  "speaker": "Unknown",
+  "en": "You can see that there is also some kind of chat, not only between the people within the room, but also between agents.",
+  "zh": "你可以看到还有一种聊天,不仅在房间里的人之间,还在智能体之间。"
+ },
+ {
+  "seg": 121,
+  "start": 606.595,
+  "end": 611.277,
+  "speaker": "Unknown",
+  "en": "So we can have this really nice notice board of exactly what each person is doing, what each agent is doing.",
+  "zh": "所以我们能有这么好的一块公告板,清楚地显示每个人在做什么,每个智能体在做什么。"
+ },
+ {
+  "seg": 122,
+  "start": 611.297,
+  "end": 612.577,
+  "speaker": "Unknown",
+  "en": "They're all aware of each other.",
+  "zh": "它们都彼此知晓。"
+ },
+ {
+  "seg": 123,
+  "start": 612.918,
+  "end": 616.859,
+  "speaker": "Unknown",
+  "en": "And they can collaborate much more closely than you normally would be able to do.",
+  "zh": "而且它们能比你通常能做到的更紧密地协作。"
+ },
+ {
+  "seg": 124,
+  "start": 617.62,
+  "end": 621.341,
+  "speaker": "Unknown",
+  "en": "So for example, here I can say, OK, I took off this design task.",
+  "zh": "比如说,这里我可以说,好,我接手了这个设计任务。"
+ },
+ {
+  "seg": 125,
+  "start": 623.342,
+  "end": 627.944,
+  "speaker": "Unknown",
+  "en": "So now we have, oh, by the way, this is also from devices.",
+  "zh": "所以现在我们有,哦,顺便说一下,这也可以从设备上用。"
+ },
+ {
+  "seg": 126,
+  "start": 627.964,
+  "end": 629.104,
+  "speaker": "Unknown",
+  "en": "You can have like mobile.",
+  "zh": "你可以有比如移动端。"
+ },
+ {
+  "seg": 127,
+  "start": 629.204,
+  "end": 633.506,
+  "speaker": "Unknown",
+  "en": "And if you like Telegram, you can use Telegram, whatever floats your boat.",
+  "zh": "而且如果你喜欢 Telegram,你可以用 Telegram,随你喜欢。"
+ },
+ {
+  "seg": 128,
+  "start": 634.868,
+  "end": 637.89,
+  "speaker": "Unknown",
+  "en": "So we have visibility, and we have autonomy, and we have collaboration.",
+  "zh": "所以我们有了可见性,我们有了自主性,我们有了协作。"
+ },
+ {
+  "seg": 129,
+  "start": 638.01,
+  "end": 640.112,
+  "speaker": "Unknown",
+  "en": "So we managed to raise the ceiling.",
+  "zh": "所以我们成功抬高了天花板。"
+ },
+ {
+  "seg": 130,
+  "start": 640.652,
+  "end": 647.017,
+  "speaker": "Unknown",
+  "en": "It's now possible, especially if you're power users, to do really cool stuff and use more agents and do more things.",
+  "zh": "现在有可能,尤其如果你是高级用户,去做真正很酷的事情,使用更多智能体,做更多事情。"
+ },
+ {
+  "seg": 131,
+  "start": 647.97,
+  "end": 655.212,
+  "speaker": "Unknown",
+  "en": "But the interesting thing here was, you know, if I looked at the feedback I got, it's not just that power users were able to do more.",
+  "zh": "但这里有意思的是,你知道,看我收到的反馈,不只是高级用户能做更多了。"
+ },
+ {
+  "seg": 132,
+  "start": 655.712,
+  "end": 677.717,
+  "speaker": "Unknown",
+  "en": "The cooler thing for me was that people that had even nothing to do with agents or nothing to do with productivity come and say, okay, my kids really loved it, and they use it all the time to orchestrate agents, which they didn't do until now, or, you know, someone that flunked out of college because they played StarCraft, and now they can suddenly do really productive stuff with it.",
+  "zh": "对我来说更酷的是,那些跟智能体毫无关系、或者跟生产力毫无关系的人跑来说,好,我的孩子们特别喜欢,他们一直用它来编排智能体,这在之前他们是不会做的,还有,你知道的,某个因为玩星际争霸而从大学辍学的人,现在突然能用它做非常有生产力的事情。"
+ },
+ {
+  "seg": 133,
+  "start": 678.717,
+  "end": 686.221,
+  "speaker": "Unknown",
+  "en": "And a bunch of other examples of kind of bringing communities that so far were kind of behind into this new world of productivity.",
+  "zh": "它可能让一些人产生共鸣,但可能不会让另一些人产生共鸣,因为我们并不都一样。"
+ },
+ {
+  "seg": 134,
+  "start": 687.521,
+  "end": 693.144,
+  "speaker": "Unknown",
+  "en": "So we need to raise the ceiling, but we also need to lower the floor.",
+  "zh": "所以我们需要抬高天花板,但我们同样需要降低地板。"
+ },
+ {
+  "seg": 135,
+  "start": 694.365,
+  "end": 703.509,
+  "speaker": "Unknown",
+  "en": "We need to have some kind of way to take probably around 90% of the people in the world and bring them into this gigantic future without having them burn out.",
+  "zh": "我们需要某种方式,把大概世界上 90% 的人带进这个巨大的未来,同时不让他们累垮。"
+ },
+ {
+  "seg": 136,
+  "start": 706.33,
+  "end": 708.132,
+  "speaker": "Unknown",
+  "en": "Again, I took it too far.",
+  "zh": "再次,我把它做得过头了。"
+ },
+ {
+  "seg": 137,
+  "start": 708.692,
+  "end": 714.197,
+  "speaker": "Unknown",
+  "en": "And there's this, currently named TBD, potentially loopers.",
+  "zh": "还有一个,目前命名为 TBD,可能叫 loopers。"
+ },
+ {
+  "seg": 138,
+  "start": 714.977,
+  "end": 729.769,
+  "speaker": "Unknown",
+  "en": "The idea here is, okay, why do we need something like, you know, Warcraft, which is potentially very complicated, especially, might be even daunting if you're not into the granularity of what files are there or how complex the UI is, and kind of try to find",
+  "zh": "这里的想法是,好,为什么我们需要像魔兽争霸这样,可能非常复杂的东西,尤其,如果你不关心里面有哪些文件这种粒度,或者 UI 有多复杂,它可能甚至令人望而生畏,然后试图去找"
+ },
+ {
+  "seg": 139,
+  "start": 730.69,
+  "end": 736.297,
+  "speaker": "Unknown",
+  "en": "a lower denominator of what makes stuff accessible, especially now that agents are much more capable.",
+  "zh": "一个更低的门槛,让东西变得可上手,尤其是现在智能体的能力强得多了。"
+ },
+ {
+  "seg": 140,
+  "start": 737.058,
+  "end": 747.89,
+  "speaker": "Unknown",
+  "en": "So instead of granularity or having exactly what files they're working on, maybe I can have it more of a mobile game level, have projects that I keep returning to.",
+  "zh": "所以与其追求粒度、确切知道它们在处理哪些文件,也许我可以把它做成手游那种级别,有一些我会不断回访的项目。"
+ },
+ {
+  "seg": 141,
+  "start": 748.631,
+  "end": 766.537,
+  "speaker": "Unknown",
+  "en": "And use loops and other stuff that rely on agents being more autonomous to have like a very basic level of I prompt, I get a result, I don't really care perhaps about the way I can see it if I want to, and have this really nice interactive and cool experience that makes me want to come back to this.",
+  "zh": "然后使用循环和其他依赖智能体更自主的东西,达到一个非常基础的级别:我发提示词,我得到一个结果,我也许不太在意过程,但如果我想看也可以看到,并拥有这种非常棒的、可交互的、很酷的体验,让我想回到这里。"
+ },
+ {
+  "seg": 142,
+  "start": 767.586,
+  "end": 770.388,
+  "speaker": "Unknown",
+  "en": "And obviously, this is one visualization.",
+  "zh": "显然,这只是一个可视化方案。"
+ },
+ {
+  "seg": 143,
+  "start": 770.408,
+  "end": 777.932,
+  "speaker": "Unknown",
+  "en": "It can really resonate with some people but might not resonate with others because we're not all the same.",
+  "zh": "它确实能引起一些人的共鸣,但可能无法引起其他人的共鸣,因为我们并不都是一样的。"
+ },
+ {
+  "seg": 144,
+  "start": 778.332,
+  "end": 782.975,
+  "speaker": "Unknown",
+  "en": "And what may appear amazing and easy to one person can appear very difficult to another.",
+  "zh": "对一个人来说看起来神奇又简单的东西,对另一个人来说可能显得非常困难。"
+ },
+ {
+  "seg": 145,
+  "start": 784.296,
+  "end": 796.743,
+  "speaker": "Unknown",
+  "en": "But here, I'm trying to look at a way to make this more customizable, trying to understand what it is that you as a person need in order to understand and want to use these tools.",
+  "zh": "但在这里,我试图找到一种方式让它更可定制,试图理解你作为一个人需要什么,才能理解并愿意使用这些工具。"
+ },
+ {
+  "seg": 146,
+  "start": 797.772,
+  "end": 800.914,
+  "speaker": "Unknown",
+  "en": "So this is a very, very early draft.",
+  "zh": "所以这是一个非常、非常早期的草稿。"
+ },
+ {
+  "seg": 147,
+  "start": 802.055,
+  "end": 803.475,
+  "speaker": "Unknown",
+  "en": "But if you want to use it, please let me know.",
+  "zh": "但如果你想用,请告诉我。"
+ },
+ {
+  "seg": 148,
+  "start": 804.036,
+  "end": 805.316,
+  "speaker": "Unknown",
+  "en": "So we're the bottleneck.",
+  "zh": "所以我们才是瓶颈。"
+ },
+ {
+  "seg": 149,
+  "start": 805.757,
+  "end": 808.298,
+  "speaker": "Unknown",
+  "en": "And I think we've established that pretty well until now.",
+  "zh": "而且我认为到目前为此我们已经把这一点讲得相当清楚了。"
+ },
+ {
+  "seg": 150,
+  "start": 808.738,
+  "end": 814.302,
+  "speaker": "Unknown",
+  "en": "But the skills that we need to stop being the bottleneck and enable this new future are already with us.",
+  "zh": "但我们要想不再是瓶颈、并开启这个新未来所需的技能,其实已经在我们自己手中。"
+ },
+ {
+  "seg": 151,
+  "start": 815.022,
+  "end": 818.384,
+  "speaker": "Unknown",
+  "en": "So we are the bottleneck, but we don't have to be.",
+  "zh": "所以我们就是瓶颈,但我们不必一直是。"
+ },
+ {
+  "seg": 152,
+  "start": 819.264,
+  "end": 824.948,
+  "speaker": "Unknown",
+  "en": "And I hope that you all can take what's relevant to you in your life and apply it forward.",
+  "zh": "我希望大家都能把其中与自己生活相关的部分拿走,并向前应用。"
+ },
+ {
+  "seg": 153,
+  "start": 826.145,
+  "end": 828.767,
+  "speaker": "Unknown",
+  "en": "So I would ask you for two things.",
+  "zh": "所以我想请你们做两件事。"
+ },
+ {
+  "seg": 154,
+  "start": 828.947,
+  "end": 830.268,
+  "speaker": "Unknown",
+  "en": "One, AgentCraft is already out there.",
+  "zh": "第一,AgentCraft 已经上线了。"
+ },
+ {
+  "seg": 155,
+  "start": 830.488,
+  "end": 835.392,
+  "speaker": "Unknown",
+  "en": "You can just NPX install AgentCraft as a website and do your thing.",
+  "zh": "你只要 NPX install AgentCraft 作为一个网站,然后做你自己的事。"
+ },
+ {
+  "seg": 156,
+  "start": 836.392,
+  "end": 842.316,
+  "speaker": "Unknown",
+  "en": "This new thing that I just showed you, potentially loopers, is still experimental.",
+  "zh": "我刚刚给你们展示的这个新东西,可能是 loopers,还处于实验阶段。"
+ },
+ {
+  "seg": 157,
+  "start": 842.677,
+  "end": 846.699,
+  "speaker": "Unknown",
+  "en": "I'm still trying to understand the interest and what people are actually looking for",
+  "zh": "我还在试图了解大家的兴趣,以及人们真正在寻找什么,"
+ },
+ {
+  "seg": 158,
+  "start": 847.54,
+  "end": 850.844,
+  "speaker": "Unknown",
+  "en": "to get the floor that they want or the ceiling that they want.",
+  "zh": "来获得他们想要的地板或想要的天花板。"
+ },
+ {
+  "seg": 159,
+  "start": 851.264,
+  "end": 857.471,
+  "speaker": "Unknown",
+  "en": "So please go here and express your interest and tell me what you're looking for so I can know what to do with this.",
+  "zh": "所以请到这里来表达你的兴趣,告诉我你在寻找什么,这样我才能知道该怎么处理这个东西。"
+ },
+ {
+  "seg": 160,
+  "start": 858.392,
+  "end": 859.433,
+  "speaker": "Unknown",
+  "en": "And thank you.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 161,
+  "start": 880.082,
+  "end": 881.951,
+  "speaker": "Unknown",
+  "en": "Music Music Music",
+  "zh": "音乐 音乐 音乐"
+ }
+]

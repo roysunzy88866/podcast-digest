@@ -143,7 +143,7 @@ Peregrine 的前向部署工程师和部署策略师被明确视为研发和增�
 
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相]]<span class="pd-rz">同公司:Palantir · 同概念:智能体 (agent)</span>
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文]]<span class="pd-rz">同概念:智能体 (agent)、本体 (ontology)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:智能体 (agent)、本体 (ontology)</span>
 
 </div>
 <div class="pd-ex">

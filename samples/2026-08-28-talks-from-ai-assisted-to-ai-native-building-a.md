@@ -179,9 +179,9 @@ vibe coding 的典型失败模式:给个高层 prompt → 生成一大堆代码 
 
 **换个口味**
 
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同公司:Amazon · 同概念:vibe coding、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
 - [[2026-06-16-devtools-swyx-aie|AI Engineer 大会背后的社区逻辑与创业生存法则]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 </div>

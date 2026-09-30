@@ -190,7 +190,8 @@
     "6MudaeKdBSk": "2026-09-27-talks-scale-the-judgment-not-the-model-andrew",
     "HvboD89DyQ8": "2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co",
     "TN3mj92oZ8I": "2026-09-27-talks-building-self-improving-agent-software-f",
-    "TRfzFJCJ7ZE": "2026-09-27-talks-orchestras-not-factories-how-the-fastest"
+    "TRfzFJCJ7ZE": "2026-09-27-talks-orchestras-not-factories-how-the-fastest",
+    "YIVkERhy8xo": "2026-09-27-talks-i-turned-coding-agents-into-a-strategy-g"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -214,17 +215,17 @@
     "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1
   },
   "cutoffs": {
-    "lennys": "2026-09-27T12:32:18.000Z",
+    "lennys": "2026-09-30T14:45:15.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
     "a16z": "2026-09-30T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-09-24T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
-    "bigtech": "2026-09-25T18:21:00.000Z",
+    "bigtech": "2026-09-30T15:49:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-24T10:00:00.000Z",
     "thepeel": "2026-09-24T13:04:14.000Z",
-    "beyondcoding": "2026-09-23T12:00:01.000Z",
+    "beyondcoding": "2026-09-30T12:00:00.000Z",
     "founders": "2026-09-28T08:00:00.000Z",
     "dwarkesh": "2026-09-17T15:38:13.000Z",
     "doac": "2026-09-28T05:00:00.000Z",
@@ -232,15 +233,15 @@
     "twentyvc": "2026-09-28T07:07:00.000Z",
     "cogrev": "2026-09-29T06:42:35.000Z",
     "knowledge": "2026-09-29T10:00:00.000Z",
-    "pragmatic": "2026-09-23T17:07:22.000Z",
+    "pragmatic": "2026-09-30T16:30:05.000Z",
     "practicalai": "2026-09-24T09:00:00.000Z",
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-09-28T11:00:00.000Z",
+    "howiai": "2026-09-30T14:48:23.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-29T21:56:00.000Z",
-    "eyeonai": "2026-09-21T17:57:00.000Z",
+    "eyeonai": "2026-09-30T12:33:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-09-15T09:00:00.000Z",
     "pmf": "2026-09-28T09:00:00.000Z",
@@ -249,7 +250,7 @@
     "ainativedev": "2026-09-29T12:00:00.000Z",
     "newcomer": "2026-09-24T21:12:05.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
-    "sourcery": "2026-09-30T11:03:31.000Z",
+    "sourcery": "2026-09-30T12:12:15.000Z",
     "iltb": "2026-09-28T12:05:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
     "sed": "2026-09-29T09:00:00.000Z",
@@ -1789,6 +1790,48 @@
       "reason": "题材不对味:欧洲防务建设属传统产业/地缘话题,与 AI 商业、人物访谈或 AI 产业格局无关联",
       "title": "The $500B Opportunity in Europe’s Defense Buildout",
       "pubDate": "2026-09-30T11:03:31.000Z"
+    },
+    {
+      "id": "2026-09-30-lennys-openai-dev-day-2026-the-releases",
+      "reason": "题材不对味:模型发布/版本评测类速览,落在「大模型发布/跑分评测」排除项",
+      "title": "OpenAI Dev Day 2026: The releases that actually matter",
+      "pubDate": "2026-09-30T14:45:15.000Z"
+    },
+    {
+      "id": "2026-09-30-pragmatic-distributed-databases-with-peter",
+      "reason": "题材不对味:分布式数据库属传统软件工程题材,与 AI 无关,落在档案明确的不要类",
+      "title": "Distributed databases with Peter Mattis",
+      "pubDate": "2026-09-30T16:30:05.000Z"
+    },
+    {
+      "id": "2026-09-30-howiai-jev-8-real-use-cases-for-the-fastest--ch",
+      "reason": "跨源重复:与库内《Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+      "pubDate": "2026-09-30T14:48:52.000Z"
+    },
+    {
+      "id": "2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac",
+      "reason": "题材不对味:落❌「大模型发布/跑分评测」类——OpenAI 发布会的发布盘点",
+      "title": "OpenAI Dev Day 2026: The releases that actually matter",
+      "pubDate": "2026-09-30T14:48:23.000Z"
+    },
+    {
+      "id": "2026-09-24-eyeonai-the-technology-for-fully-autonomous-atta",
+      "reason": "题材不对味:AI 自主攻击/军事安全属思辨与政策类题材,落在档案『AI 安全/政策』不要范围",
+      "title": "The Technology for Fully Autonomous Attack Is Already Here | Alex Liannyi, NORDA Dynamics",
+      "pubDate": "2026-09-24T14:31:00.000Z"
+    },
+    {
+      "id": "2026-09-30-eyeonai-why-current-ai-cannot-be-conscious-dr-ch",
+      "reason": "题材不对味:AI 意识属于哲学/思辨类,不在收录范围",
+      "title": "Why Current AI Cannot Be Conscious | Dr. Christof Koch",
+      "pubDate": "2026-09-30T12:33:00.000Z"
+    },
+    {
+      "id": "2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in",
+      "reason": "题材不对味:拿不准:IMEC 属芯片研发机构,标题指向半导体技术路线深挖,偏学术/技术前沿而非产业格局,深浅拿不准",
+      "title": "IMEC Says Today’s AI Will Look Ancient in 10 Years",
+      "pubDate": "2026-09-30T12:12:15.000Z"
     }
   ]
 }

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>42</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>43</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -52,6 +52,7 @@ unlisted: true
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(22:17起):本集说 vibe coding 这个词诞生于 2024 年 Replit Agent 发布之时——智能体突然会写代码、编程从此根本性改变;Amjad 还类比提出机器学习的『vibe research』
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(05:15起):本集开头提到「人人都在 vibe coding」,产出端到端由 AI 完成的 PR,并追问这些完全靠 vibe 写出来的 PR 是否真的好。
 - **[[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]]**(31:23起):本集说 3 月到 6 月全公司（含创意团队）都在用 Claude 做 vibe coding，6 月中又集体迁到 Codex，且认为这种迁移是周期性的
+- **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):本集讨论的『SaaS 末日论』叙事：人人能用自然语言提示自己写一个 SAP；Klein 用 ERP 的数据复杂度反驳。
 
 ## ① 提到它的金句
 
@@ -71,7 +72,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*42 集*
+*43 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -115,6 +116,7 @@ unlisted: true
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为概念
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念(提及)
 - [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]] — 作为概念
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
 
 ## ③ 关联
 
@@ -122,7 +124,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Anthropic]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Codex]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Cursor":73,"Anthropic":155,"Lenny":68,"Claude":73,"OpenAI":142,"Claude Code":89,"ChatGPT":83,"Codex":66,"护栏":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Cursor":73,"Anthropic":156,"Lenny":68,"Claude":74,"OpenAI":144,"Claude Code":89,"ChatGPT":84,"Codex":69,"护栏":67}</script>
 
 <script>
 (function(){

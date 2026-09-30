@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[XAI]] · [[Salesforce]] · [[Harvey]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]]
+[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[XAI]] · [[SAP]] · [[Salesforce]] · [[Harvey]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"OpenAI":142,"Anthropic":155,"XAI":7,"Salesforce":32,"Harvey":14,"Cursor":73,"11 Labs":4,"GrokBot":7,"Town":4}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"OpenAI":144,"Anthropic":156,"XAI":7,"SAP":2,"Salesforce":33,"Harvey":14,"Cursor":73,"11 Labs":4,"GrokBot":8}</script>
 
 <script>
 (function(){

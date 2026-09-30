@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":364,"X402":3,"微交易":2,"护栏":67,"Nanopayments":1,"Claude Code":89,"Circle Agent Wallet":1,"付费墙":3}</script>
+<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":369,"X402":3,"微交易":2,"护栏":67,"Nanopayments":1,"Claude Code":89,"Circle Agent Wallet":1,"付费墙":3}</script>
 
 <script>
 (function(){

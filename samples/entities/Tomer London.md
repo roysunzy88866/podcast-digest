@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":23,"Claude":73,"联合创始人":4,"NPS":2,"MVP":2,"口碑":3,"SVB":2}</script>
+<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":23,"Claude":74,"联合创始人":4,"NPS":2,"MVP":2,"口碑":3,"SVB":2}</script>
 
 <script>
 (function(){

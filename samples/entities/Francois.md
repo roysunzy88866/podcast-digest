@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Han Mei":1,"Ham":1,"Vincent":1,"Jay":1,"Waddle Labs":1,"RoboCurve":1,"智能体":364,"LLM":49,"VLA":2,"RT2":1}</script>
+<script type="application/json" class="pd-epn">{"Han Mei":1,"Ham":1,"Vincent":1,"Jay":1,"Waddle Labs":1,"RoboCurve":1,"智能体":369,"LLM":51,"VLA":2,"RT2":1}</script>
 
 <script>
 (function(){

@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":142,"Anthropic":155,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":1,"Google":51,"TSMC":6,"Meta":38,"LLM":49}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":144,"Anthropic":156,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":1,"Google":51,"TSMC":6,"Meta":38,"LLM":51}</script>
 
 <script>
 (function(){

@@ -1,0 +1,6842 @@
+[
+ {
+  "seg": 0,
+  "start": 0.211,
+  "end": 2.563,
+  "speaker": "Clara Vo",
+  "en": "In some ways, managers are really at risk.",
+  "zh": "在某些方面，管理者确实处于风险之中。"
+ },
+ {
+  "seg": 1,
+  "start": 2.613,
+  "end": 5.515,
+  "speaker": "Clara Vo",
+  "en": "This concept of like org design and role design,",
+  "zh": "这个组织设计和角色设计的概念，"
+ },
+ {
+  "seg": 2,
+  "start": 5.575,
+  "end": 8.247,
+  "speaker": "Clara Vo",
+  "en": "you can put those skills to use when crafting your agents,",
+  "zh": "你可以在打造你的智能体时把这些技能用上，"
+ },
+ {
+  "seg": 3,
+  "start": 8.297,
+  "end": 13.541,
+  "speaker": "Clara Vo",
+  "en": "which is why I am currently running, no joke, 40 Grockbots right now.",
+  "zh": "这就是为什么我现在跑着，不开玩笑，40 个 Grockbots。"
+ },
+ {
+  "seg": 4,
+  "start": 13.581,
+  "end": 15.992999999999999,
+  "speaker": "John Lindquist",
+  "en": "Whenever you have constrained inputs that are interacting with apps,",
+  "zh": "每当你有受限的输入在与应用交互时，"
+ },
+ {
+  "seg": 5,
+  "start": 16.043,
+  "end": 17.945,
+  "speaker": "John Lindquist",
+  "en": "it's, Jev is a good thing to reach for.",
+  "zh": "用 Jev 就是个不错的选择。"
+ },
+ {
+  "seg": 6,
+  "start": 17.965,
+  "end": 22.208,
+  "speaker": "John Lindquist",
+  "en": "This one is a favorite of mine because it represents like a workplace",
+  "zh": "这一个是我的最爱，因为它代表了一种工作场景，"
+ },
+ {
+  "seg": 7,
+  "start": 22.268,
+  "end": 25.801,
+  "speaker": "John Lindquist",
+  "en": "where you have multiple agents that could all have their own tasks",
+  "zh": "里面有多个智能体，每个都可以有自己的任务，"
+ },
+ {
+  "seg": 8,
+  "start": 25.851,
+  "end": 29.983999999999998,
+  "speaker": "John Lindquist",
+  "en": "and avoiding collisions so that they never end up on the same At each step,",
+  "zh": "并且要避免碰撞，让它们永远不会落在同一个……在每一步，"
+ },
+ {
+  "seg": 9,
+  "start": 30.034,
+  "end": 34.306000000000004,
+  "speaker": "John Lindquist",
+  "en": "it's going to be able to control these different agents and make sure that they get",
+  "zh": "它都能控制这些不同的智能体，确保它们"
+ },
+ {
+  "seg": 10,
+  "start": 34.356,
+  "end": 38.478,
+  "speaker": "John Lindquist",
+  "en": "to their specific task as quickly as possible and that they never collide",
+  "zh": "尽可能快地到达各自的具体任务，并且永远不碰撞"
+ },
+ {
+  "seg": 11,
+  "start": 38.518,
+  "end": 40.169000000000004,
+  "speaker": "John Lindquist",
+  "en": "or interfere with the other agents.",
+  "zh": "也不干扰其他智能体。"
+ },
+ {
+  "seg": 12,
+  "start": 40.219,
+  "end": 43.761,
+  "speaker": "John Lindquist",
+  "en": "This one's really fun to me because it's a presentation coach.",
+  "zh": "这个对我来说特别有趣，因为它是一个演讲教练。"
+ },
+ {
+  "seg": 13,
+  "start": 44.061,
+  "end": 45.682,
+  "speaker": "John Lindquist",
+  "en": "I click the microphone, I'd start talking.",
+  "zh": "我点击麦克风，开始说话。"
+ },
+ {
+  "seg": 14,
+  "start": 45.702,
+  "end": 49.043,
+  "speaker": "John Lindquist",
+  "en": "I'd have a list of bullet points in either a podcast or something that I want",
+  "zh": "我有一份要点清单，可能来自一场播客或我想确保"
+ },
+ {
+  "seg": 15,
+  "start": 49.063,
+  "end": 51.334,
+  "speaker": "John Lindquist",
+  "en": "to make sure I cover or an interview or anything.",
+  "zh": "覆盖到的内容，或者是一场面试或任何东西。"
+ },
+ {
+  "seg": 16,
+  "start": 51.384,
+  "end": 54.916000000000004,
+  "speaker": "John Lindquist",
+  "en": "It listens through everything I say and then starts checking the boxes to make sure",
+  "zh": "它会听我说的一切，然后开始逐项打勾，确保"
+ },
+ {
+  "seg": 17,
+  "start": 54.966,
+  "end": 56.410444444444444,
+  "speaker": "John Lindquist",
+  "en": "that I covered everything.",
+  "zh": "我把所有内容都覆盖到了。"
+ },
+ {
+  "seg": 18,
+  "start": 56.588,
+  "end": 57.069,
+  "speaker": "Clara Vo",
+  "en": "This model,",
+  "zh": "这个模型，"
+ },
+ {
+  "seg": 19,
+  "start": 57.089,
+  "end": 60.953,
+  "speaker": "Clara Vo",
+  "en": "which is basically free and incredibly fast,",
+  "zh": "基本上免费而且快得不可思议，"
+ },
+ {
+  "seg": 20,
+  "start": 61.213,
+  "end": 64.396,
+  "speaker": "Clara Vo",
+  "en": "allows you to do discovery over data in a way",
+  "zh": "让你能以某种方式对数据进行探索，"
+ },
+ {
+  "seg": 21,
+  "start": 64.476,
+  "end": 69.061,
+  "speaker": "Clara Vo",
+  "en": "that feels like it's opening up my opportunities and allowing me to look at things",
+  "zh": "感觉像是打开了我的机会，让我能够去看那些"
+ },
+ {
+  "seg": 22,
+  "start": 69.101,
+  "end": 71.904,
+  "speaker": "Clara Vo",
+  "en": "that I thought weren't high ROI before.",
+  "zh": "我以前认为 ROI 不高的东西。"
+ },
+ {
+  "seg": 23,
+  "start": 75.843,
+  "end": 77.604,
+  "speaker": "Clara Vo",
+  "en": "Welcome back to How I AI.",
+  "zh": "欢迎回到 How I AI。"
+ },
+ {
+  "seg": 24,
+  "start": 77.785,
+  "end": 78.465,
+  "speaker": "Clara Vo",
+  "en": "I'm Clara Vo,",
+  "zh": "我是 Clara Vo，"
+ },
+ {
+  "seg": 25,
+  "start": 78.505,
+  "end": 81.97800000000001,
+  "speaker": "Clara Vo",
+  "en": "product leader and AI obsessive here on a mission to help you build better",
+  "zh": "产品负责人和 AI 迷，我的使命是帮助你用这些新工具构建更好的东西。"
+ },
+ {
+  "seg": 26,
+  "start": 82.028,
+  "end": 83.19466666666668,
+  "speaker": "Clara Vo",
+  "en": "with these new tools.",
+  "zh": "有了这些新工具。"
+ },
+ {
+  "seg": 27,
+  "start": 83.309,
+  "end": 85.01,
+  "speaker": "Clara Vo",
+  "en": "Today, I have repeat guest,",
+  "zh": "今天，我请回了老朋友，"
+ },
+ {
+  "seg": 28,
+  "start": 85.09,
+  "end": 85.871,
+  "speaker": "Clara Vo",
+  "en": "John Lindquist,",
+  "zh": "John Lindquist，"
+ },
+ {
+  "seg": 29,
+  "start": 85.891,
+  "end": 89.72433333333333,
+  "speaker": "Clara Vo",
+  "en": "who has done one of our most popular episodes to date on the podcast.",
+  "zh": "他在本播客上做过我们迄今最受欢迎的一期节目。"
+ },
+ {
+  "seg": 30,
+  "start": 90.034,
+  "end": 94.218,
+  "speaker": "Clara Vo",
+  "en": "And here he is joining us on Jev Week at How I AI to talk",
+  "zh": "这次他在 How I AI 的 Jev 周加入我们，聊聊"
+ },
+ {
+  "seg": 31,
+  "start": 94.278,
+  "end": 98.501,
+  "speaker": "Clara Vo",
+  "en": "about our favorite new model and all the amazing product facing use cases",
+  "zh": "我们最喜欢的新模型，以及他测试来自 TypeSafe AI 的 Jev 时发现的"
+ },
+ {
+  "seg": 32,
+  "start": 98.861,
+  "end": 102.504,
+  "speaker": "Clara Vo",
+  "en": "that he's discovered testing Jev from TypeSafe AI.",
+  "zh": "所有精彩的产品端用例。"
+ },
+ {
+  "seg": 33,
+  "start": 102.904,
+  "end": 103.904,
+  "speaker": "Clara Vo",
+  "en": "Let's get to it.",
+  "zh": "开始吧。"
+ },
+ {
+  "seg": 34,
+  "start": 103.965,
+  "end": 108.427,
+  "speaker": "Clara Vo",
+  "en": "Jon, welcome back to How I AI.",
+  "zh": "Jon，欢迎回到 How I AI。"
+ },
+ {
+  "seg": 35,
+  "start": 108.447,
+  "end": 111.288,
+  "speaker": "Clara Vo",
+  "en": "I have to say, this is Jev Week on How I AI.",
+  "zh": "我得说，这是 How I AI 的 Jev 周。"
+ },
+ {
+  "seg": 36,
+  "start": 111.868,
+  "end": 117.67,
+  "speaker": "Clara Vo",
+  "en": "And the reason it's Jev Week is a lot of models have come out in the past seven days.",
+  "zh": "之所以是 Jev 周，是因为过去七天里出了很多模型。"
+ },
+ {
+  "seg": 37,
+  "start": 118.35,
+  "end": 120.751,
+  "speaker": "Clara Vo",
+  "en": "You and I do a lot of AI things.",
+  "zh": "你和我做很多 AI 相关的事情。"
+ },
+ {
+  "seg": 38,
+  "start": 121.311,
+  "end": 122.242,
+  "speaker": "Clara Vo",
+  "en": "And yet,",
+  "zh": "然而，"
+ },
+ {
+  "seg": 39,
+  "start": 122.292,
+  "end": 123.712,
+  "speaker": "Clara Vo",
+  "en": "when we're DMing back and forth,",
+  "zh": "当我们来回发私信时，"
+ },
+ {
+  "seg": 40,
+  "start": 123.732,
+  "end": 127.233,
+  "speaker": "Clara Vo",
+  "en": "we're talking about one thing and one thing only, which is Jev.",
+  "zh": "我们谈论的只有一件事，也只有这一件事，那就是 Jev。"
+ },
+ {
+  "seg": 41,
+  "start": 129.902,
+  "end": 134.17399999999998,
+  "speaker": "Clara Vo",
+  "en": "Folks have maybe listened to my episode earlier this week about why I'm hyped on Jev.",
+  "zh": "大家可能已经听过我这周早些时候那期讲我为什么对 Jev 这么兴奋的节目。"
+ },
+ {
+  "seg": 42,
+  "start": 134.224,
+  "end": 137.785,
+  "speaker": "Clara Vo",
+  "en": "I would love to hear why you're so excited.",
+  "zh": "我很想听听你为什么这么兴奋。"
+ },
+ {
+  "seg": 43,
+  "start": 137.805,
+  "end": 139.086,
+  "speaker": "Clara Vo",
+  "en": "I'm looking up here.",
+  "zh": "我正在往上翻。"
+ },
+ {
+  "seg": 44,
+  "start": 139.106,
+  "end": 141.346,
+  "speaker": "Clara Vo",
+  "en": "You have 23 demos we could probably look at.",
+  "zh": "你有大概 23 个 demo 可以看。"
+ },
+ {
+  "seg": 45,
+  "start": 141.387,
+  "end": 143.747,
+  "speaker": "Clara Vo",
+  "en": "So you are going deep, Jev, as well.",
+  "zh": "所以你也在深挖 Jev。"
+ },
+ {
+  "seg": 46,
+  "start": 144.848,
+  "end": 146.488,
+  "speaker": "Clara Vo",
+  "en": "What about this model,",
+  "zh": "这个模型、"
+ },
+ {
+  "seg": 47,
+  "start": 146.528,
+  "end": 151.29,
+  "speaker": "Clara Vo",
+  "en": "this framework, this way of thinking about building has gotten you excited?",
+  "zh": "这个框架、这种构建思路，是什么让你兴奋的？"
+ },
+ {
+  "seg": 48,
+  "start": 151.931,
+  "end": 153.811,
+  "speaker": "John Lindquist",
+  "en": "Fast and free are both amazing.",
+  "zh": "快和免费，两者都很棒。"
+ },
+ {
+  "seg": 49,
+  "start": 154.411,
+  "end": 155.96655555555554,
+  "speaker": "John Lindquist",
+  "en": "If you've ever been tired...",
+  "zh": "如果你曾经厌倦过……"
+ },
+ {
+  "seg": 50,
+  "start": 156.779,
+  "end": 161.481,
+  "speaker": "John Lindquist",
+  "en": "Uh, sending a basic request to an LLM and waiting around for a bit just",
+  "zh": "呃,向 LLM 发送一个基本请求然后等上一会儿,"
+ },
+ {
+  "seg": 51,
+  "start": 161.521,
+  "end": 163.112,
+  "speaker": "John Lindquist",
+  "en": "to have it like call a function.",
+  "zh": "就为了让它调用一个函数,"
+ },
+ {
+  "seg": 52,
+  "start": 163.162,
+  "end": 165.043,
+  "speaker": "John Lindquist",
+  "en": "This is now essentially instant.",
+  "zh": "这现在基本上是即时的了。"
+ },
+ {
+  "seg": 53,
+  "start": 165.984,
+  "end": 170.37599999999998,
+  "speaker": "John Lindquist",
+  "en": "And I think of all the time I've spent on this and the hundreds of demos I made,",
+  "zh": "我想到我在这方面花的所有时间,还有我做过的几百个 demo,"
+ },
+ {
+  "seg": 54,
+  "start": 170.426,
+  "end": 172.347,
+  "speaker": "John Lindquist",
+  "en": "I think I've spent 73 cents on it.",
+  "zh": "我想我一共只花了 73 美分。"
+ },
+ {
+  "seg": 55,
+  "start": 173.387,
+  "end": 176.729,
+  "speaker": "John Lindquist",
+  "en": "And I love the one quote someone said,",
+  "zh": "我很喜欢有人说过的一句话,"
+ },
+ {
+  "seg": 56,
+  "start": 176.749,
+  "end": 181.16,
+  "speaker": "John Lindquist",
+  "en": "uh, I think I'm going to pass this inheritance of Java onto my children once I die.",
+  "zh": "呃,我想我死后会把这份 Java 遗产传给我的孩子们。"
+ },
+ {
+  "seg": 57,
+  "start": 181.21,
+  "end": 184.952,
+  "speaker": "Clara Vo",
+  "en": "Yeah, I like the one where it was like, TypeSafe is really taking off.",
+  "zh": "是啊,我喜欢那句,大概是说,TypeSafe 真的是蒸蒸日上。"
+ },
+ {
+  "seg": 58,
+  "start": 184.992,
+  "end": 188.04755555555553,
+  "speaker": "Clara Vo",
+  "en": "They have to have made double digits in revenue by now.",
+  "zh": "他们到现在 revenue 肯定已经有两位数了。"
+ },
+ {
+  "seg": 59,
+  "start": 188.294,
+  "end": 189.294,
+  "speaker": "John Lindquist",
+  "en": "Yes.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 60,
+  "start": 189.795,
+  "end": 191.516,
+  "speaker": "Clara Vo",
+  "en": "So yes, fast and free.",
+  "zh": "所以,是的,又快又便宜。"
+ },
+ {
+  "seg": 61,
+  "start": 192.536,
+  "end": 197.379,
+  "speaker": "Clara Vo",
+  "en": "I also have had that experience where it ran over like, I don't know, 20,000 records.",
+  "zh": "我也有过那种经历,它跑了大概,我不知道,两万条记录,"
+ },
+ {
+  "seg": 62,
+  "start": 197.419,
+  "end": 200.3,
+  "speaker": "Clara Vo",
+  "en": "And it was like, I have charged you 0.4 cents.",
+  "zh": "然后它说,我收了你 0.4 美分。"
+ },
+ {
+  "seg": 63,
+  "start": 201.541,
+  "end": 202.541,
+  "speaker": "John Lindquist",
+  "en": "Right.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 64,
+  "start": 202.842,
+  "end": 208.665,
+  "speaker": "John Lindquist",
+  "en": "And it exposes those scenarios where I thought like I had five gigabytes of JSON.",
+  "zh": "它暴露了那些场景,比如我曾以为我有五个 GB 的 JSON,"
+ },
+ {
+  "seg": 65,
+  "start": 209.439,
+  "end": 211.57,
+  "speaker": "John Lindquist",
+  "en": "I'm like, I had never passed this into an LLM.",
+  "zh": "我心想,我从来没把这东西传给过 LLM,"
+ },
+ {
+  "seg": 66,
+  "start": 211.62,
+  "end": 213.9,
+  "speaker": "John Lindquist",
+  "en": "I just, like, I don't have that budget, on and on.",
+  "zh": "我就是,比如,我没有那个预算,诸如此类。"
+ },
+ {
+  "seg": 67,
+  "start": 213.92,
+  "end": 215.43099999999998,
+  "speaker": "John Lindquist",
+  "en": "I'm like, let's see what happens.",
+  "zh": "我就想,看看会发生什么吧。"
+ },
+ {
+  "seg": 68,
+  "start": 215.481,
+  "end": 218.141,
+  "speaker": "John Lindquist",
+  "en": "And it was, it was 40 cents, you know.",
+  "zh": "结果是,是 40 美分,你知道吧。"
+ },
+ {
+  "seg": 69,
+  "start": 219.082,
+  "end": 223.6931111111111,
+  "speaker": "John Lindquist",
+  "en": "And I wasted it on a really stupid thing, like trying to organize this or whatever.",
+  "zh": "而且我还把它浪费在一件特别蠢的事情上,比如试图整理这东西之类的。"
+ },
+ {
+  "seg": 70,
+  "start": 225.003,
+  "end": 227.44744444444444,
+  "speaker": "John Lindquist",
+  "en": "But five gigabytes of JSON is a lot of text.",
+  "zh": "但五个 GB 的 JSON 是很大量的文本。"
+ },
+ {
+  "seg": 71,
+  "start": 228.024,
+  "end": 231.75199999999998,
+  "speaker": "John Lindquist",
+  "en": "And it went through and did the whole thing in probably a couple of minutes.",
+  "zh": "而它全部过了一遍,整个过程大概只花了几分钟。"
+ },
+ {
+  "seg": 72,
+  "start": 231.802,
+  "end": 233.134,
+  "speaker": "Clara Vo",
+  "en": "That's been my experience too,",
+  "zh": "这也是我的经历,"
+ },
+ {
+  "seg": 73,
+  "start": 233.184,
+  "end": 239.471,
+  "speaker": "Clara Vo",
+  "en": "which is I'm looking at corpuses of data that I would never just dump into an LLM,",
+  "zh": "就是我看着那些我绝对不会一股脑倒进 LLM 的数据语料,"
+ },
+ {
+  "seg": 74,
+  "start": 239.531,
+  "end": 243.236,
+  "speaker": "Clara Vo",
+  "en": "both from a cost perspective and honestly from a time perspective.",
+  "zh": "无论是从成本角度,还是说实话从时间角度。"
+ },
+ {
+  "seg": 75,
+  "start": 243.276,
+  "end": 247.842,
+  "speaker": "Clara Vo",
+  "en": "It's like this is not worth my time to even see if something's here.",
+  "zh": "就是觉得,光是看看这里面有没有东西都不值得我花这个时间。"
+ },
+ {
+  "seg": 76,
+  "start": 248.522,
+  "end": 250.74422222222222,
+  "speaker": "Clara Vo",
+  "en": "But then this model, which is fantastic.",
+  "zh": "但然后这个模型,它非常棒。"
+ },
+ {
+  "seg": 77,
+  "start": 251.487,
+  "end": 258.375,
+  "speaker": "Clara Vo",
+  "en": "Basically free and incredibly fast allows you to do discovery over data in a way",
+  "zh": "基本免费而且快得难以置信,让你能以一种全新的方式对数据进行探索,"
+ },
+ {
+  "seg": 78,
+  "start": 258.455,
+  "end": 263.301,
+  "speaker": "Clara Vo",
+  "en": "that feels like it's opening up my opportunities and allowing me to look at things",
+  "zh": "感觉就像它打开了我的机会之门,让我能去审视"
+ },
+ {
+  "seg": 79,
+  "start": 263.341,
+  "end": 266.204,
+  "speaker": "Clara Vo",
+  "en": "that I thought weren't high ROI before.",
+  "zh": "那些我以前认为 ROI 不高的东西。"
+ },
+ {
+  "seg": 80,
+  "start": 267.606,
+  "end": 268.907,
+  "speaker": "John Lindquist",
+  "en": "Yeah, absolutely.",
+  "zh": "是啊,绝对是。"
+ },
+ {
+  "seg": 81,
+  "start": 268.967,
+  "end": 269.418,
+  "speaker": "John Lindquist",
+  "en": "Same.",
+  "zh": "一样。"
+ },
+ {
+  "seg": 82,
+  "start": 269.468,
+  "end": 271.911,
+  "speaker": "John Lindquist",
+  "en": "It's just opening doors that weren't or closed before.",
+  "zh": "它就是打开了以前不存在或关闭着的门。"
+ },
+ {
+  "seg": 83,
+  "start": 271.951,
+  "end": 272.328,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 84,
+  "start": 272.378,
+  "end": 277.702,
+  "speaker": "Clara Vo",
+  "en": "So just a quick reminder for folks, Jev is not like the LLMs that you're used to and love.",
+  "zh": "那么简单提醒一下各位,Jev 不像你们习惯并喜爱的那些 LLM。"
+ },
+ {
+  "seg": 85,
+  "start": 277.722,
+  "end": 278.973,
+  "speaker": "Clara Vo",
+  "en": "It does not output text.",
+  "zh": "它不输出文本。"
+ },
+ {
+  "seg": 86,
+  "start": 279.023,
+  "end": 284.066,
+  "speaker": "Clara Vo",
+  "en": "It outputs basically like decisions and scores and yes, no probabilities.",
+  "zh": "它输出的基本上就是决策、评分,以及是否的概率。"
+ },
+ {
+  "seg": 87,
+  "start": 284.166,
+  "end": 289.45,
+  "speaker": "Clara Vo",
+  "en": "And so you kind of put information in and then you get out very structured,",
+  "zh": "所以你把信息放进去,然后你得到的是非常结构化的、"
+ },
+ {
+  "seg": 88,
+  "start": 289.51,
+  "end": 293.072,
+  "speaker": "Clara Vo",
+  "en": "type safe, very structured, limited set of options.",
+  "zh": "类型安全的、非常结构化的、有限的选项集合。"
+ },
+ {
+  "seg": 89,
+  "start": 293.713,
+  "end": 297.976,
+  "speaker": "Clara Vo",
+  "en": "But the ways you can use this are almost unlimited.",
+  "zh": "而你能用它做的方式几乎是无限的。"
+ },
+ {
+  "seg": 90,
+  "start": 298.036,
+  "end": 302.004,
+  "speaker": "Clara Vo",
+  "en": "And so Jon's going to walk us through some of his favorite demos of how he's using it.",
+  "zh": "所以 Jon 将带我们过一遍他最喜欢的一些 demo,讲他怎么用它。"
+ },
+ {
+  "seg": 91,
+  "start": 302.024,
+  "end": 306.195,
+  "speaker": "Clara Vo",
+  "en": "Hopefully we'll get a combination of inspiration on where a real-time, fast,",
+  "zh": "希望我们能得到一些启发,知道一个实时、快速、"
+ },
+ {
+  "seg": 92,
+  "start": 306.245,
+  "end": 309.806,
+  "speaker": "Clara Vo",
+  "en": "cheap model can build cool things and a little insight of like,",
+  "zh": "便宜的模型能构建哪些酷东西,以及一点洞察,"
+ },
+ {
+  "seg": 93,
+  "start": 310.346,
+  "end": 311.356,
+  "speaker": "Clara Vo",
+  "en": "what else is around this?",
+  "zh": "比如这背后还有什么?"
+ },
+ {
+  "seg": 94,
+  "start": 311.406,
+  "end": 315.827,
+  "speaker": "Clara Vo",
+  "en": "Because what I found is I see a lot of these like shiny demos on the timeline and",
+  "zh": "因为我发现,我在时间线上看到很多这种闪亮的 demo,"
+ },
+ {
+  "seg": 95,
+  "start": 315.847,
+  "end": 318.01366666666667,
+  "speaker": "Clara Vo",
+  "en": "then you're like, you're hiding your...",
+  "zh": "然后你会发现,你在藏起你的……"
+ },
+ {
+  "seg": 96,
+  "start": 318.245,
+  "end": 322.027,
+  "speaker": "Clara Vo",
+  "en": "You know, you're embeddings and you're hiding like how this is actually working.",
+  "zh": "你知道,你的 embeddings,你藏起了这东西实际是怎么工作的。"
+ },
+ {
+  "seg": 97,
+  "start": 322.067,
+  "end": 326.28922222222224,
+  "speaker": "Clara Vo",
+  "en": "And so I think if you can lift the veil for us on how some of this works and",
+  "zh": "所以我觉得,如果你能为我们揭开面纱,讲讲其中一些是怎么工作的,"
+ },
+ {
+  "seg": 98,
+  "start": 326.47,
+  "end": 329.85888888888894,
+  "speaker": "Clara Vo",
+  "en": "where it's Jev alone, where it's Jev+, that would be awesome.",
+  "zh": "哪些是 Jev 单独完成的,哪些是 Jev+,那就太棒了。"
+ },
+ {
+  "seg": 99,
+  "start": 330.252,
+  "end": 335.014,
+  "speaker": "John Lindquist",
+  "en": "Yeah, I would just just to add to your definition of Jev, of it being type safe.",
+  "zh": "是的,我只想补充一下你对 Jev 的定义,说它是类型安全的。"
+ },
+ {
+  "seg": 100,
+  "start": 335.735,
+  "end": 341.778,
+  "speaker": "John Lindquist",
+  "en": "I think of LLMs being unstructured to unstructured, where you put text in, you get text out.",
+  "zh": "我把 LLM 理解为非结构化到非结构化,就是文本进去,文本出来。"
+ },
+ {
+  "seg": 101,
+  "start": 342.505,
+  "end": 343.846,
+  "speaker": "John Lindquist",
+  "en": "And this one is similar.",
+  "zh": "而这个类似。"
+ },
+ {
+  "seg": 102,
+  "start": 343.886,
+  "end": 348.59,
+  "speaker": "John Lindquist",
+  "en": "You put in unstructured sentences and data, but then you get structured data out.",
+  "zh": "你输入非结构化的句子和数据,但输出的是结构化数据。"
+ },
+ {
+  "seg": 103,
+  "start": 349.611,
+  "end": 353.134,
+  "speaker": "John Lindquist",
+  "en": "And the power there is it's humans talking to machines,",
+  "zh": "这里的力量在于这是人类在与机器对话,"
+ },
+ {
+  "seg": 104,
+  "start": 353.774,
+  "end": 358.32955555555554,
+  "speaker": "John Lindquist",
+  "en": "and they're the scenarios where you have functions and APIs and everything set up,",
+  "zh": "它们的场景是你已经把函数、API 等一切都设置好了,"
+ },
+ {
+  "seg": 105,
+  "start": 358.538,
+  "end": 361.8713333333333,
+  "speaker": "John Lindquist",
+  "en": "but I want to communicate with them using unstructured data.",
+  "zh": "但我想用非结构化的数据与它们沟通。"
+ },
+ {
+  "seg": 106,
+  "start": 362.382,
+  "end": 363.382,
+  "speaker": "John Lindquist",
+  "en": "And...",
+  "zh": "然后……"
+ },
+ {
+  "seg": 107,
+  "start": 364.127,
+  "end": 367.029,
+  "speaker": "John Lindquist",
+  "en": "We're so used to chatbots, and it's just not a chatbot anymore.",
+  "zh": "我们太习惯聊天机器人了,而这已经不再是聊天机器人了。"
+ },
+ {
+  "seg": 108,
+  "start": 367.049,
+  "end": 368.09,
+  "speaker": "John Lindquist",
+  "en": "You need services,",
+  "zh": "你需要服务,"
+ },
+ {
+  "seg": 109,
+  "start": 368.13,
+  "end": 368.911,
+  "speaker": "John Lindquist",
+  "en": "you need functions,",
+  "zh": "你需要函数,"
+ },
+ {
+  "seg": 110,
+  "start": 368.931,
+  "end": 371.163,
+  "speaker": "John Lindquist",
+  "en": "you need things you want to throw data at first,",
+  "zh": "你需要那些你想先把数据扔过去的东西,"
+ },
+ {
+  "seg": 111,
+  "start": 371.213,
+  "end": 374.34499999999997,
+  "speaker": "John Lindquist",
+  "en": "but you can talk to it however you want, which is incredible.",
+  "zh": "但你可以随心所欲地与它对话,这太不可思议了。"
+ },
+ {
+  "seg": 112,
+  "start": 374.395,
+  "end": 374.805,
+  "speaker": "Clara Vo",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 113,
+  "start": 374.855,
+  "end": 376.91055555555556,
+  "speaker": "Clara Vo",
+  "en": "Well, let's talk about talking to it.",
+  "zh": "好,那我们就来谈谈怎么与它对话。"
+ },
+ {
+  "seg": 114,
+  "start": 377.197,
+  "end": 377.457,
+  "speaker": "John Lindquist",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 115,
+  "start": 377.497,
+  "end": 378.658,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "好。"
+ },
+ {
+  "seg": 116,
+  "start": 378.678,
+  "end": 381.34,
+  "speaker": "John Lindquist",
+  "en": "So let's go ahead and try this out right away.",
+  "zh": "那我们马上来试一下这个。"
+ },
+ {
+  "seg": 117,
+  "start": 381.98,
+  "end": 385.043,
+  "speaker": "John Lindquist",
+  "en": "So traditional to-do app, we have a list of to-dos.",
+  "zh": "传统的待办事项应用,我们有一个待办事项列表。"
+ },
+ {
+  "seg": 118,
+  "start": 386.003,
+  "end": 387.384,
+  "speaker": "John Lindquist",
+  "en": "And the fascinating thing here,",
+  "zh": "这里最迷人的地方是,"
+ },
+ {
+  "seg": 119,
+  "start": 387.404,
+  "end": 388.84844444444445,
+  "speaker": "John Lindquist",
+  "en": "which I'll try right away,",
+  "zh": "我马上就来试,"
+ },
+ {
+  "seg": 120,
+  "start": 389.366,
+  "end": 394.883,
+  "speaker": "John Lindquist",
+  "en": "is I'll just say something like, Book dentist appointment, remove.",
+  "zh": "我会说类似这样的话:预约牙医,移除。"
+ },
+ {
+  "seg": 121,
+  "start": 396.604,
+  "end": 398.984,
+  "speaker": "John Lindquist",
+  "en": "Buy oat milk, complete.",
+  "zh": "买燕麦奶,完成。"
+ },
+ {
+  "seg": 122,
+  "start": 400.304,
+  "end": 402.785,
+  "speaker": "John Lindquist",
+  "en": "Review pull request, low priority.",
+  "zh": "审查 pull request,低优先级。"
+ },
+ {
+  "seg": 123,
+  "start": 406.285,
+  "end": 409.786,
+  "speaker": "John Lindquist",
+  "en": "Now the speed there was all done through JEV.",
+  "zh": "刚才的速度都是通过 JEV 完成的。"
+ },
+ {
+  "seg": 124,
+  "start": 409.886,
+  "end": 415.907,
+  "speaker": "John Lindquist",
+  "en": "It does a few passes of looking through the text where it ensures that it lines up.",
+  "zh": "它会对文本进行几轮检查,确保它能对上。"
+ },
+ {
+  "seg": 125,
+  "start": 416.487,
+  "end": 418.077,
+  "speaker": "John Lindquist",
+  "en": "If there's any like dictation mistakes",
+  "zh": "如果有任何类似听写错误,"
+ },
+ {
+  "seg": 126,
+  "start": 418.127,
+  "end": 420.7936666666667,
+  "speaker": "John Lindquist",
+  "en": "and you say it doesn't get oat milk quite right,",
+  "zh": "比如它说 oat milk 没听对,"
+ },
+ {
+  "seg": 127,
+  "start": 420.908,
+  "end": 422.29688888888893,
+  "speaker": "John Lindquist",
+  "en": "it'll go through and say,",
+  "zh": "它会检查然后说,"
+ },
+ {
+  "seg": 128,
+  "start": 422.589,
+  "end": 425.241,
+  "speaker": "John Lindquist",
+  "en": "Does this quite match up with something or do I need to do a different,",
+  "zh": "这个是否与某个东西足够匹配,还是我需要一个不同的、"
+ },
+ {
+  "seg": 129,
+  "start": 425.291,
+  "end": 430.454,
+  "speaker": "John Lindquist",
+  "en": "do I need to categorize this into something that exists like a confidence score?",
+  "zh": "我是否需要把它归类到某个已存在的东西上,比如一个置信度分数?"
+ },
+ {
+  "seg": 130,
+  "start": 430.474,
+  "end": 432.966,
+  "speaker": "John Lindquist",
+  "en": "Like it's all a lot of confidence scores there.",
+  "zh": "就像那里有很多置信度分数。"
+ },
+ {
+  "seg": 131,
+  "start": 433.016,
+  "end": 436.759,
+  "speaker": "John Lindquist",
+  "en": "It matches it with the thing in the list and then it matches it with the function",
+  "zh": "它把它与列表中的东西匹配,然后把它与它要调用的函数匹配,"
+ },
+ {
+  "seg": 132,
+  "start": 436.779,
+  "end": 438.5012222222222,
+  "speaker": "John Lindquist",
+  "en": "that it's going to call, right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 133,
+  "start": 438.58,
+  "end": 443.08,
+  "speaker": "John Lindquist",
+  "en": "Based on the way that the operation that you want to perform on top of that data.",
+  "zh": "基于你想对那份数据执行的操作。"
+ },
+ {
+  "seg": 134,
+  "start": 443.424,
+  "end": 448.917,
+  "speaker": "John Lindquist",
+  "en": "So it's multiple layers of Analyze the dictation itself to see if that's like",
+  "zh": "所以它是多层的:先分析听写本身,看它是不是一个"
+ },
+ {
+  "seg": 135,
+  "start": 448.937,
+  "end": 449.937,
+  "speaker": "John Lindquist",
+  "en": "a valid dictation,",
+  "zh": "有效的听写,"
+ },
+ {
+  "seg": 136,
+  "start": 450.238,
+  "end": 452.51,
+  "speaker": "John Lindquist",
+  "en": "then analyze if it matches up with a task,",
+  "zh": "然后分析它是否与某个任务匹配,"
+ },
+ {
+  "seg": 137,
+  "start": 452.56,
+  "end": 456.703,
+  "speaker": "John Lindquist",
+  "en": "and then analyze if it matches up with the operation you want to perform on",
+  "zh": "然后分析它是否与你想对该任务执行的操作匹配。"
+ },
+ {
+  "seg": 138,
+  "start": 456.743,
+  "end": 457.31399999999996,
+  "speaker": "John Lindquist",
+  "en": "the task.",
+  "zh": "任务。"
+ },
+ {
+  "seg": 139,
+  "start": 457.364,
+  "end": 458.9195555555555,
+  "speaker": "John Lindquist",
+  "en": "And it can do that all live.",
+  "zh": "而且它可以实时完成这一切。"
+ },
+ {
+  "seg": 140,
+  "start": 459.545,
+  "end": 460.545,
+  "speaker": "John Lindquist",
+  "en": "And it even,",
+  "zh": "甚至,"
+ },
+ {
+  "seg": 141,
+  "start": 460.886,
+  "end": 462.1637777777778,
+  "speaker": "John Lindquist",
+  "en": "while you're dictating,",
+  "zh": "当你在听写时,"
+ },
+ {
+  "seg": 142,
+  "start": 462.508,
+  "end": 466.3968888888889,
+  "speaker": "John Lindquist",
+  "en": "it classifies if you've spoken to a point where it can take an action.",
+  "zh": "它会分类判断你是否已经说到了可以采取行动的程度。"
+ },
+ {
+  "seg": 143,
+  "start": 467.143,
+  "end": 468.283,
+  "speaker": "John Lindquist",
+  "en": "So as the words come in,",
+  "zh": "所以随着文字不断进来,"
+ },
+ {
+  "seg": 144,
+  "start": 468.323,
+  "end": 468.674,
+  "speaker": "John Lindquist",
+  "en": "it's like,",
+  "zh": "它就像,"
+ },
+ {
+  "seg": 145,
+  "start": 468.724,
+  "end": 472.345,
+  "speaker": "John Lindquist",
+  "en": "is now a time where I have enough data to make a function call,",
+  "zh": "现在是不是一个我有足够数据可以进行函数调用的时刻,"
+ },
+ {
+  "seg": 146,
+  "start": 472.385,
+  "end": 474.506,
+  "speaker": "John Lindquist",
+  "en": "where I can reliably keep on talking?",
+  "zh": "一个我可以可靠地继续说下去的时刻?"
+ },
+ {
+  "seg": 147,
+  "start": 474.526,
+  "end": 478.957,
+  "speaker": "John Lindquist",
+  "en": "Because you notice that entire time I was talking, I never paused, I never hit enter.",
+  "zh": "因为你注意到我整段讲话期间,从未停顿,从未按回车。"
+ },
+ {
+  "seg": 148,
+  "start": 479.007,
+  "end": 483.95144444444446,
+  "speaker": "John Lindquist",
+  "en": "It was able to classify, is this a moment where I have enough information to take action?",
+  "zh": "它能够分类判断:这是一个我有足够信息采取行动的时刻吗?"
+ },
+ {
+  "seg": 149,
+  "start": 484.469,
+  "end": 487.5,
+  "speaker": "John Lindquist",
+  "en": "So it's just showing all these pieces of JEV fitting together",
+  "zh": "所以这就是在展示 JEV 的这些部分是如何组合在一起的"
+ },
+ {
+  "seg": 150,
+  "start": 487.55,
+  "end": 491.832,
+  "speaker": "John Lindquist",
+  "en": "to give you this real time, like give me kind of streaming data.",
+  "zh": "给你这种实时的、像是流式的数据。"
+ },
+ {
+  "seg": 151,
+  "start": 492.898,
+  "end": 497.128,
+  "speaker": "John Lindquist",
+  "en": "And I'll start putting it in both places it needs to go.",
+  "zh": "然后我会开始把它放进它需要去的两个地方。"
+ },
+ {
+  "seg": 152,
+  "start": 499.335,
+  "end": 504.499,
+  "speaker": "Clara Vo",
+  "en": "For folks that just have no idea how to actually put this into place and want more",
+  "zh": "对于那些完全不知道该怎么把这事落地、想要更多"
+ },
+ {
+  "seg": 153,
+  "start": 504.519,
+  "end": 509.323,
+  "speaker": "Clara Vo",
+  "en": "of the tactics, which is, are those sequential JEV calls?",
+  "zh": "战术细节的人来说，也就是，那些是顺序的 JEV 调用吗？"
+ },
+ {
+  "seg": 154,
+  "start": 509.383,
+  "end": 511.735,
+  "speaker": "Clara Vo",
+  "en": "Are you like, yes, no, it's time to analyze.",
+  "zh": "是不是像，是的，不是，该分析了。"
+ },
+ {
+  "seg": 155,
+  "start": 511.785,
+  "end": 515.628,
+  "speaker": "Clara Vo",
+  "en": "Yes, no, this is a good transcript.",
+  "zh": "是的，不是，这是一份好的转写稿。"
+ },
+ {
+  "seg": 156,
+  "start": 516.068,
+  "end": 518.62,
+  "speaker": "Clara Vo",
+  "en": "Score, here's the top task that relates to it.",
+  "zh": "打分，这是与之相关的头部任务。"
+ },
+ {
+  "seg": 157,
+  "start": 518.67,
+  "end": 520.17,
+  "speaker": "Clara Vo",
+  "en": "And score, this is the top.",
+  "zh": "打分，这是头部"
+ },
+ {
+  "seg": 158,
+  "start": 520.652,
+  "end": 522.773,
+  "speaker": "Clara Vo",
+  "en": "Tool call that relates to it.",
+  "zh": "与之相关的工具调用。"
+ },
+ {
+  "seg": 159,
+  "start": 522.833,
+  "end": 523.314,
+  "speaker": "Clara Vo",
+  "en": "Is this like,",
+  "zh": "是不是像，"
+ },
+ {
+  "seg": 160,
+  "start": 523.354,
+  "end": 524.1840000000001,
+  "speaker": "Clara Vo",
+  "en": "because people are,",
+  "zh": "因为大家"
+ },
+ {
+  "seg": 161,
+  "start": 524.234,
+  "end": 524.695,
+  "speaker": "Clara Vo",
+  "en": "I'm sure,",
+  "zh": "我敢肯定"
+ },
+ {
+  "seg": 162,
+  "start": 524.715,
+  "end": 526.1460000000001,
+  "speaker": "Clara Vo",
+  "en": "trying to put in their mental model,",
+  "zh": "正试图放进他们的心智模型里，"
+ },
+ {
+  "seg": 163,
+  "start": 526.196,
+  "end": 529.5848888888889,
+  "speaker": "Clara Vo",
+  "en": "like a tool call where you get all that structured data back.",
+  "zh": "就像一个工具调用，你能拿回所有那些结构化数据。"
+ },
+ {
+  "seg": 164,
+  "start": 529.973,
+  "end": 532.036,
+  "speaker": "Clara Vo",
+  "en": "How have you set this up so people can kind",
+  "zh": "你是怎么搭建这个的，好让大家能"
+ },
+ {
+  "seg": 165,
+  "start": 532.076,
+  "end": 535.076,
+  "speaker": "Clara Vo",
+  "en": "of understand how they chain these job tools together?",
+  "zh": "理解他们该怎么把这些作业工具串联起来？"
+ },
+ {
+  "seg": 166,
+  "start": 536.443,
+  "end": 540.89,
+  "speaker": "John Lindquist",
+  "en": "My mental model is, remember back when we used to write code by hand?",
+  "zh": "我的心智模型是，还记得我们过去手写代码的时候吗？"
+ },
+ {
+  "seg": 167,
+  "start": 541.711,
+  "end": 542.692,
+  "speaker": "John Lindquist",
+  "en": "There is no conditions.",
+  "zh": "那时没有条件判断。"
+ },
+ {
+  "seg": 168,
+  "start": 542.712,
+  "end": 543.712,
+  "speaker": "John Lindquist",
+  "en": "I do remember.",
+  "zh": "我记得。"
+ },
+ {
+  "seg": 169,
+  "start": 543.917,
+  "end": 545.5281111111111,
+  "speaker": "John Lindquist",
+  "en": "If, else, switch statements.",
+  "zh": "If、else、switch 语句。"
+ },
+ {
+  "seg": 170,
+  "start": 545.979,
+  "end": 549.181,
+  "speaker": "John Lindquist",
+  "en": "All these things that were the moment of classification.",
+  "zh": "所有那些东西都是分类的时刻。"
+ },
+ {
+  "seg": 171,
+  "start": 549.201,
+  "end": 553.963,
+  "speaker": "John Lindquist",
+  "en": "And if you just think of a line-by-line program where things execute,",
+  "zh": "如果你只是想象一个逐行执行事物的程序，"
+ },
+ {
+  "seg": 172,
+  "start": 554.584,
+  "end": 557.1395555555555,
+  "speaker": "John Lindquist",
+  "en": "you think of where do I need those conditions?",
+  "zh": "你想想哪里需要那些条件判断？"
+ },
+ {
+  "seg": 173,
+  "start": 557.285,
+  "end": 559.667,
+  "speaker": "John Lindquist",
+  "en": "And so as you're breaking the problem apart,",
+  "zh": "所以当你在拆解问题时，"
+ },
+ {
+  "seg": 174,
+  "start": 559.687,
+  "end": 561.6980000000001,
+  "speaker": "John Lindquist",
+  "en": "whatever the thing is that you're building,",
+  "zh": "无论你在构建的是什么东西，"
+ },
+ {
+  "seg": 175,
+  "start": 561.748,
+  "end": 563.009,
+  "speaker": "John Lindquist",
+  "en": "Just think of all the conditions,",
+  "zh": "只要想清楚所有的条件，"
+ },
+ {
+  "seg": 176,
+  "start": 563.049,
+  "end": 563.84,
+  "speaker": "John Lindquist",
+  "en": "the if-else,",
+  "zh": "那些 if-else，"
+ },
+ {
+  "seg": 177,
+  "start": 563.89,
+  "end": 568.513,
+  "speaker": "John Lindquist",
+  "en": "the moments where it either needs to be put into this bucket or that bucket.",
+  "zh": "那些它要么被放进这个桶、要么放进那个桶的时刻。"
+ },
+ {
+  "seg": 178,
+  "start": 569.114,
+  "end": 571.0584444444445,
+  "speaker": "John Lindquist",
+  "en": "And so as I was going through this,",
+  "zh": "所以当我在做这件事的时候，"
+ },
+ {
+  "seg": 179,
+  "start": 571.256,
+  "end": 574.9480000000001,
+  "speaker": "John Lindquist",
+  "en": "I built a lot of it backwards because I started with what I was building,",
+  "zh": "我把很多东西是倒着构建的，因为我是从我在构建的东西开始的，"
+ },
+ {
+  "seg": 180,
+  "start": 574.998,
+  "end": 579.982,
+  "speaker": "John Lindquist",
+  "en": "marking the to-do as either done or removing it or heading a new one and such.",
+  "zh": "把待办标记为完成、或者删除它、或者添加一个新的之类的。"
+ },
+ {
+  "seg": 181,
+  "start": 580.603,
+  "end": 583.2950000000001,
+  "speaker": "John Lindquist",
+  "en": "And I'm like, oh wait, now I want the dictation to be able to select it.",
+  "zh": "然后我说，哦等等，现在我希望听写能够选中它。"
+ },
+ {
+  "seg": 182,
+  "start": 583.345,
+  "end": 585.927,
+  "speaker": "John Lindquist",
+  "en": "And so I just kind of built it backwards.",
+  "zh": "所以我就这样倒着把它建出来了。"
+ },
+ {
+  "seg": 183,
+  "start": 585.967,
+  "end": 591.071,
+  "speaker": "John Lindquist",
+  "en": "And it was so easy with Opus 5.5 recently just to kind of wing it and like...",
+  "zh": "而且最近用 Opus 5.5 随手糊出来特别容易，就比如……"
+ },
+ {
+  "seg": 184,
+  "start": 591.963,
+  "end": 597.927,
+  "speaker": "John Lindquist",
+  "en": "Take it different directions and go through scenarios and see the cases that were exposed.",
+  "zh": "把它往不同方向带，跑一遍各种场景，看看暴露出了哪些情况。"
+ },
+ {
+  "seg": 185,
+  "start": 597.947,
+  "end": 600.6136666666666,
+  "speaker": "John Lindquist",
+  "en": "Because I had that final idea of I just want to,",
+  "zh": "因为我心里有那个最终想法，就是我只想，"
+ },
+ {
+  "seg": 186,
+  "start": 600.929,
+  "end": 605.312,
+  "speaker": "John Lindquist",
+  "en": "if you've ever used a Siri or a Google Assistant or any of those and you try",
+  "zh": "如果你用过 Siri 或 Google Assistant 或任何那类东西，你试着"
+ },
+ {
+  "seg": 187,
+  "start": 605.332,
+  "end": 607.332,
+  "speaker": "John Lindquist",
+  "en": "to manage like add to my to-do list.",
+  "zh": "管理，比如加到我的待办清单里。"
+ },
+ {
+  "seg": 188,
+  "start": 607.734,
+  "end": 609.122888888889,
+  "speaker": "John Lindquist",
+  "en": "And they're all terrible.",
+  "zh": "它们都很糟糕。"
+ },
+ {
+  "seg": 189,
+  "start": 609.535,
+  "end": 613.718,
+  "speaker": "John Lindquist",
+  "en": "And like how can I build, like does Jeff enable this to actually be good?",
+  "zh": "那我怎么才能构建，比如 Jeff 能不能让这件事真正变好？"
+ },
+ {
+  "seg": 190,
+  "start": 613.838,
+  "end": 615.419,
+  "speaker": "John Lindquist",
+  "en": "And I think it does.",
+  "zh": "而我认为能。"
+ },
+ {
+  "seg": 191,
+  "start": 615.579,
+  "end": 618.0310000000001,
+  "speaker": "John Lindquist",
+  "en": "Like it's one of the most common things like managing.",
+  "zh": "比如这是最常见的事情之一，比如管理。"
+ },
+ {
+  "seg": 192,
+  "start": 618.081,
+  "end": 620.2130000000001,
+  "speaker": "John Lindquist",
+  "en": "You could integrate your calendar into this.",
+  "zh": "你可以把日历整合进来。"
+ },
+ {
+  "seg": 193,
+  "start": 620.263,
+  "end": 621.3741111111111,
+  "speaker": "John Lindquist",
+  "en": "You could integrate.",
+  "zh": "你可以整合。"
+ },
+ {
+  "seg": 194,
+  "start": 621.831,
+  "end": 623.6020000000001,
+  "speaker": "John Lindquist",
+  "en": "Because they're all behind function calls, right?",
+  "zh": "因为它们都在函数调用背后，对吧？"
+ },
+ {
+  "seg": 195,
+  "start": 623.652,
+  "end": 626.0964444444445,
+  "speaker": "John Lindquist",
+  "en": "Or MCPs or however you want to build it out.",
+  "zh": "或者 MCP，或者你想怎么搭就怎么搭。"
+ },
+ {
+  "seg": 196,
+  "start": 626.193,
+  "end": 627.833,
+  "speaker": "John Lindquist",
+  "en": "You could integrate anything with this",
+  "zh": "你可以用这个整合任何东西，"
+ },
+ {
+  "seg": 197,
+  "start": 627.873,
+  "end": 631.755,
+  "speaker": "John Lindquist",
+  "en": "and just have this top level dictation live inference running.",
+  "zh": "然后让这个顶层听写实时推理一直跑着。"
+ },
+ {
+  "seg": 198,
+  "start": 632.575,
+  "end": 635.5194444444445,
+  "speaker": "John Lindquist",
+  "en": "And it's something anyone could build cheap and free.",
+  "zh": "而且这是任何人都能便宜甚至免费构建出来的东西。"
+ },
+ {
+  "seg": 199,
+  "start": 636.296,
+  "end": 637.296,
+  "speaker": "Clara Vo",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 200,
+  "start": 637.637,
+  "end": 638.412,
+  "speaker": "John Lindquist",
+  "en": "Amazing, yeah.",
+  "zh": "太棒了,是的。"
+ },
+ {
+  "seg": 201,
+  "start": 638.462,
+  "end": 641.124,
+  "speaker": "Clara Vo",
+  "en": "Okay, so you and I both did live voice apps.",
+  "zh": "好的,我们俩都做了实时语音应用。"
+ },
+ {
+  "seg": 202,
+  "start": 641.144,
+  "end": 642.4217777777778,
+  "speaker": "Clara Vo",
+  "en": "Mine was much more emo,",
+  "zh": "我的要感性得多,"
+ },
+ {
+  "seg": 203,
+  "start": 642.486,
+  "end": 646.77,
+  "speaker": "Clara Vo",
+  "en": "which was just talking to the screen and getting a color and an inspirational quote.",
+  "zh": "就是对着屏幕说话,然后得到一个颜色和一句励志名言。"
+ },
+ {
+  "seg": 204,
+  "start": 646.79,
+  "end": 651.1788888888889,
+  "speaker": "Clara Vo",
+  "en": "Yours is much more practical, which maybe reflects our different personalities.",
+  "zh": "你的实用得多,这也许反映了我们性格的不同。"
+ },
+ {
+  "seg": 205,
+  "start": 651.474,
+  "end": 653.676,
+  "speaker": "Clara Vo",
+  "en": "Let's see what other use cases you have.",
+  "zh": "让我们看看你还有哪些用例。"
+ },
+ {
+  "seg": 206,
+  "start": 653.716,
+  "end": 656.438,
+  "speaker": "Clara Vo",
+  "en": "And what I like about what you're showing us is I talked a lot",
+  "zh": "我喜欢你展示的内容,我说了很多"
+ },
+ {
+  "seg": 207,
+  "start": 656.458,
+  "end": 659.5110000000001,
+  "speaker": "Clara Vo",
+  "en": "about internal data analysis and clustering and all this stuff.",
+  "zh": "关于内部数据分析、聚类之类的东西。"
+ },
+ {
+  "seg": 208,
+  "start": 659.561,
+  "end": 663.5054444444445,
+  "speaker": "Clara Vo",
+  "en": "You have such great inspiration for how you can use this inside Google.",
+  "zh": "对于如何在 Google 内部使用这个,你有这么好的灵感。"
+ },
+ {
+  "seg": 209,
+  "start": 664.024,
+  "end": 669.508,
+  "speaker": "Clara Vo",
+  "en": "So I'd love to see another one of your favorite demos.",
+  "zh": "所以我很想看另一个你最喜欢的演示。"
+ },
+ {
+  "seg": 210,
+  "start": 669.608,
+  "end": 670.719111111111,
+  "speaker": "John Lindquist",
+  "en": "Yeah, let's dive in.",
+  "zh": "好,我们深入看看。"
+ },
+ {
+  "seg": 211,
+  "start": 671.349,
+  "end": 674.6823333333334,
+  "speaker": "John Lindquist",
+  "en": "So this one kind of breaks it down into its smallest pieces.",
+  "zh": "这个把东西拆解成了最小的部件。"
+ },
+ {
+  "seg": 212,
+  "start": 674.751,
+  "end": 677.6398888888889,
+  "speaker": "John Lindquist",
+  "en": "If you think of a grocery store and if you think of,",
+  "zh": "如果你设想一家杂货店,再设想一下,"
+ },
+ {
+  "seg": 213,
+  "start": 678.013,
+  "end": 679.784,
+  "speaker": "John Lindquist",
+  "en": "I have a function called like get cart,",
+  "zh": "我有一个叫 get cart 的函数,"
+ },
+ {
+  "seg": 214,
+  "start": 679.834,
+  "end": 684.541,
+  "speaker": "John Lindquist",
+  "en": "if we remember programming and you Type in something like, what's in my cart?",
+  "zh": "如果我们还记得编程的话,你输入类似「我的购物车里有什么?」,"
+ },
+ {
+  "seg": 215,
+  "start": 685.162,
+  "end": 686.0540000000001,
+  "speaker": "John Lindquist",
+  "en": "And that's how,",
+  "zh": "这就是,"
+ },
+ {
+  "seg": 216,
+  "start": 686.104,
+  "end": 689.51,
+  "speaker": "John Lindquist",
+  "en": "if you think of classification of regular text to functions,",
+  "zh": "如果你想到把普通文本分类到函数,"
+ },
+ {
+  "seg": 217,
+  "start": 689.931,
+  "end": 692.095,
+  "speaker": "John Lindquist",
+  "en": "like this is just demoing back,",
+  "zh": "这只是在演示回放,"
+ },
+ {
+  "seg": 218,
+  "start": 692.395,
+  "end": 694.9505555555555,
+  "speaker": "John Lindquist",
+  "en": "if the previous demo didn't make enough sense,",
+  "zh": "如果上一个演示没讲得足够清楚,"
+ },
+ {
+  "seg": 219,
+  "start": 695.321,
+  "end": 699.165,
+  "speaker": "John Lindquist",
+  "en": "think of like Plain English language mapped to a function name.",
+  "zh": "就想成是把普通英语映射到一个函数名。"
+ },
+ {
+  "seg": 220,
+  "start": 699.246,
+  "end": 703.268,
+  "speaker": "John Lindquist",
+  "en": "And that's one of the core foundational pieces of what Jeff does.",
+  "zh": "这是 Jeff 所做的事情的核心基础部件之一。"
+ },
+ {
+  "seg": 221,
+  "start": 704.048,
+  "end": 705.048,
+  "speaker": "John Lindquist",
+  "en": "That's that demo.",
+  "zh": "就是那个演示。"
+ },
+ {
+  "seg": 222,
+  "start": 705.889,
+  "end": 709.111,
+  "speaker": "John Lindquist",
+  "en": "Classifying documents, sounds like kind of covered that.",
+  "zh": "文档分类,听起来算是讲过了。"
+ },
+ {
+  "seg": 223,
+  "start": 710.091,
+  "end": 715.174,
+  "speaker": "John Lindquist",
+  "en": "This one I think is incredible because if you've ever run a scenario in,",
+  "zh": "这个我觉得不可思议,因为如果你曾经在——"
+ },
+ {
+  "seg": 224,
+  "start": 715.434,
+  "end": 720.097,
+  "speaker": "John Lindquist",
+  "en": "I use Google Contacts and often you put in the same contact twice",
+  "zh": "我用 Google Contacts,经常你会把同一个联系人录入两次,"
+ },
+ {
+  "seg": 225,
+  "start": 720.197,
+  "end": 723.772,
+  "speaker": "John Lindquist",
+  "en": "and you've probably gone through the process of like merging them together.",
+  "zh": "你可能经历过把它们合并在一起的过程。"
+ },
+ {
+  "seg": 226,
+  "start": 723.822,
+  "end": 728.3775555555555,
+  "speaker": "John Lindquist",
+  "en": "Very common scenario where you have messy data of someone typed in something wrong",
+  "zh": "非常常见的场景,你有一堆混乱数据,有人输入错了什么,"
+ },
+ {
+  "seg": 227,
+  "start": 728.925,
+  "end": 733.067,
+  "speaker": "John Lindquist",
+  "en": "and they hit submit and now you have two company entries in your database",
+  "zh": "然后点了提交,现在你的数据库里就有了两条公司记录,"
+ },
+ {
+  "seg": 228,
+  "start": 733.087,
+  "end": 734.087,
+  "speaker": "John Lindquist",
+  "en": "or whatever.",
+  "zh": "之类的。"
+ },
+ {
+  "seg": 229,
+  "start": 734.25,
+  "end": 739.5640000000001,
+  "speaker": "John Lindquist",
+  "en": "This can go through and go through all of the records and kind of merge those records together.",
+  "zh": "这个可以遍历所有记录,把这些记录合并起来。"
+ },
+ {
+  "seg": 230,
+  "start": 739.614,
+  "end": 741.255,
+  "speaker": "John Lindquist",
+  "en": "So let's click on that.",
+  "zh": "我们点开这个看看。"
+ },
+ {
+  "seg": 231,
+  "start": 742.476,
+  "end": 745.919,
+  "speaker": "John Lindquist",
+  "en": "And it can go through and say this one wants to merge.",
+  "zh": "它可以遍历并说这条想要合并。"
+ },
+ {
+  "seg": 232,
+  "start": 746.119,
+  "end": 750.242,
+  "speaker": "John Lindquist",
+  "en": "So Cedar Grove Office Products obviously matches with Cedar Grove Office.",
+  "zh": "显然 Cedar Grove Office Products 和 Cedar Grove Office 是匹配的。"
+ },
+ {
+  "seg": 233,
+  "start": 751.063,
+  "end": 753.625,
+  "speaker": "John Lindquist",
+  "en": "Ridgeway Data is Ridgeway Analytics.",
+  "zh": "Ridgeway Data 就是 Ridgeway Analytics。"
+ },
+ {
+  "seg": 234,
+  "start": 753.825,
+  "end": 758.5590000000001,
+  "speaker": "John Lindquist",
+  "en": "And it can go through and apply those merges for you by matching together and classifying.",
+  "zh": "它可以遍历,通过匹配和分类为你执行那些合并。"
+ },
+ {
+  "seg": 235,
+  "start": 758.609,
+  "end": 760.6645555555556,
+  "speaker": "John Lindquist",
+  "en": "Is this one close enough to that one?",
+  "zh": "这一条和那一条够接近吗?"
+ },
+ {
+  "seg": 236,
+  "start": 761.038,
+  "end": 768.038,
+  "speaker": "John Lindquist",
+  "en": "And again, it's huge data sets merged together in milliseconds.",
+  "zh": "再说一次,这是把巨大的数据集在几毫秒内合并。"
+ },
+ {
+  "seg": 237,
+  "start": 768.183,
+  "end": 770.4607777777778,
+  "speaker": "Clara Vo",
+  "en": "This is like my favorite use case of Jev,",
+  "zh": "这是我最喜欢的 Jev 用例,"
+ },
+ {
+  "seg": 238,
+  "start": 770.665,
+  "end": 776.729,
+  "speaker": "Clara Vo",
+  "en": "which is like pairwise comparison of a lot of data to create grouping and clusters.",
+  "zh": "就是对大量数据做两两比较来创建分组和聚类。"
+ },
+ {
+  "seg": 239,
+  "start": 776.789,
+  "end": 780.591,
+  "speaker": "Clara Vo",
+  "en": "And so in the episode that I just did, I did that over PRs.",
+  "zh": "在我刚做的那一期里,我对 PR 做了这个。"
+ },
+ {
+  "seg": 240,
+  "start": 780.611,
+  "end": 784.454,
+  "speaker": "Clara Vo",
+  "en": "I were like, were these PRs on the same product area or the same thing or the same theme?",
+  "zh": "就是问,这些 PR 是属于同一个产品领域,还是同一件事,还是同一个主题?"
+ },
+ {
+  "seg": 241,
+  "start": 784.474,
+  "end": 785.0540000000001,
+  "speaker": "Clara Vo",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 785.104,
+  "end": 789.928,
+  "speaker": "Clara Vo",
+  "en": "But you could do data reconciliation, I think is a really useful one.",
+  "zh": "但你可以做数据对账,我认为这是一个非常有用的场景。"
+ },
+ {
+  "seg": 243,
+  "start": 790.168,
+  "end": 794.612,
+  "speaker": "Clara Vo",
+  "en": "I went through recently and I had like 2,000 passwords in my 1Password.",
+  "zh": "我最近整理了一遍,我的 1Password 里有大概 2000 个密码。"
+ },
+ {
+  "seg": 244,
+  "start": 795.073,
+  "end": 798.896,
+  "speaker": "Clara Vo",
+  "en": "And you know how like whenever you do your 1Password, it's like update, save, make new.",
+  "zh": "你知道的,每次用 1Password,它都是「更新、保存、新建」,"
+ },
+ {
+  "seg": 245,
+  "start": 798.936,
+  "end": 802.018,
+  "speaker": "Clara Vo",
+  "en": "And I'm just like all over the place, had a whole bunch of different ones.",
+  "zh": "我到处都是,有一大堆不同的。"
+ },
+ {
+  "seg": 246,
+  "start": 802.058,
+  "end": 805.681,
+  "speaker": "Clara Vo",
+  "en": "And like I was just thinking how much faster it would have been to use Jev and some",
+  "zh": "我就在想,如果用 Jev 加上一些"
+ },
+ {
+  "seg": 247,
+  "start": 805.702,
+  "end": 808.6464444444445,
+  "speaker": "Clara Vo",
+  "en": "of the metadata to just pair those up and merge them.",
+  "zh": "元数据来配对并合并它们,会快多少。"
+ },
+ {
+  "seg": 248,
+  "start": 809.81,
+  "end": 810.301,
+  "speaker": "John Lindquist",
+  "en": "Absolutely.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 249,
+  "start": 810.351,
+  "end": 815.413,
+  "speaker": "Clara Vo",
+  "en": "And again, it's not like you're giving an example where there's like six things.",
+  "zh": "再说,你举的例子可不像只有六条东西。"
+ },
+ {
+  "seg": 250,
+  "start": 815.633,
+  "end": 819.595,
+  "speaker": "Clara Vo",
+  "en": "You're talking about when you have 60,000 or 600,000 things,",
+  "zh": "你说的是当你有 6 万或者 60 万条数据的时候，"
+ },
+ {
+  "seg": 251,
+  "start": 820.056,
+  "end": 824.778,
+  "speaker": "Clara Vo",
+  "en": "those pairs feel very expensive until you use something like this.",
+  "zh": "这些配对在你使用类似这样的东西之前会显得非常昂贵。"
+ },
+ {
+  "seg": 252,
+  "start": 825.919,
+  "end": 829.71,
+  "speaker": "John Lindquist",
+  "en": "And something we haven't shown is that there is a confidence score that comes back.",
+  "zh": "还有一点我们没展示的是，它会返回一个置信度分数。"
+ },
+ {
+  "seg": 253,
+  "start": 829.76,
+  "end": 836.404,
+  "speaker": "John Lindquist",
+  "en": "So if there is a North Star Clinic and there's North Star Clinic services and it's not...",
+  "zh": "比如有一个 North Star Clinic，还有 North Star Clinic services，它不是……"
+ },
+ {
+  "seg": 254,
+  "start": 837.134,
+  "end": 838.485,
+  "speaker": "John Lindquist",
+  "en": "And they don't quite line up.",
+  "zh": "它们不完全匹配。"
+ },
+ {
+  "seg": 255,
+  "start": 838.535,
+  "end": 839.535,
+  "speaker": "John Lindquist",
+  "en": "Like if you want,",
+  "zh": "比如如果你想，"
+ },
+ {
+  "seg": 256,
+  "start": 840.037,
+  "end": 843.74,
+  "speaker": "John Lindquist",
+  "en": "you want them only to merge if you're like 99% or more confident,",
+  "zh": "你想只在置信度达到 99% 或更高时才合并它们，"
+ },
+ {
+  "seg": 257,
+  "start": 843.92,
+  "end": 846.432,
+  "speaker": "John Lindquist",
+  "en": "you can, you can set those parameters in there.",
+  "zh": "你可以，你可以在这里设置那些参数。"
+ },
+ {
+  "seg": 258,
+  "start": 846.482,
+  "end": 849.715,
+  "speaker": "John Lindquist",
+  "en": "So that, that, that is a knob you can turn if, as you go through a few checks.",
+  "zh": "所以，那个，那个，那是你可以转动的一个旋钮，当你经过几轮检查时。"
+ },
+ {
+  "seg": 259,
+  "start": 849.765,
+  "end": 853.668,
+  "speaker": "John Lindquist",
+  "en": "And I think like you mentioned before is after you do this pass,",
+  "zh": "然后我觉得就像你之前提到的，在你做完这一轮处理之后，"
+ },
+ {
+  "seg": 260,
+  "start": 853.848,
+  "end": 856.971,
+  "speaker": "John Lindquist",
+  "en": "you can send a smarter LLM against the result and say,",
+  "zh": "你可以用一个更聪明的 LLM 来处理结果，然后说，"
+ },
+ {
+  "seg": 261,
+  "start": 857.591,
+  "end": 859.6465555555556,
+  "speaker": "John Lindquist",
+  "en": "we were, the data did look like this.",
+  "zh": "我们，数据看起来确实是这样。"
+ },
+ {
+  "seg": 262,
+  "start": 860.013,
+  "end": 861.013,
+  "speaker": "John Lindquist",
+  "en": "Please, you know,",
+  "zh": "请你，你知道，"
+ },
+ {
+  "seg": 263,
+  "start": 861.295,
+  "end": 865.906111111111,
+  "speaker": "John Lindquist",
+  "en": "either random sampling or the entire data set, ensure that this was done correctly.",
+  "zh": "无论是随机抽样还是整个数据集，确保这做得正确。"
+ },
+ {
+  "seg": 264,
+  "start": 866.372,
+  "end": 869.613,
+  "speaker": "John Lindquist",
+  "en": "And then you can gain more and more confidence over time as you run more",
+  "zh": "然后随着你运行更多、"
+ },
+ {
+  "seg": 265,
+  "start": 869.633,
+  "end": 871.793,
+  "speaker": "John Lindquist",
+  "en": "and more large data runs.",
+  "zh": "更多的大型数据运行，你可以随时间获得越来越多的置信度。"
+ },
+ {
+  "seg": 266,
+  "start": 872.633,
+  "end": 874.543,
+  "speaker": "Clara Vo",
+  "en": "One other thing you can do on that,",
+  "zh": "在这方面你还可以做的另一件事，"
+ },
+ {
+  "seg": 267,
+  "start": 874.593,
+  "end": 878.3152222222221,
+  "speaker": "Clara Vo",
+  "en": "in addition to validating the data pairs, is you can describe them.",
+  "zh": "除了验证数据配对之外，就是你可以对它们进行描述。"
+ },
+ {
+  "seg": 268,
+  "start": 878.514,
+  "end": 881.655,
+  "speaker": "Clara Vo",
+  "en": "And so what I've done is do the pairs and then run.",
+  "zh": "我做的就是先做配对，然后运行。"
+ },
+ {
+  "seg": 269,
+  "start": 881.855,
+  "end": 883.885,
+  "speaker": "Clara Vo",
+  "en": "It doesn't even have to be an expensive model.",
+  "zh": "它甚至不必是一个昂贵的模型。"
+ },
+ {
+  "seg": 270,
+  "start": 883.935,
+  "end": 886.5250000000001,
+  "speaker": "Clara Vo",
+  "en": "But say, like, we've decided these two are the same.",
+  "zh": "比如说，我们已经判定这两个是相同的。"
+ },
+ {
+  "seg": 271,
+  "start": 886.575,
+  "end": 887.696,
+  "speaker": "Clara Vo",
+  "en": "Explain to me why.",
+  "zh": "给我解释一下为什么。"
+ },
+ {
+  "seg": 272,
+  "start": 887.716,
+  "end": 890.156,
+  "speaker": "Clara Vo",
+  "en": "And it can give a short kind of like,",
+  "zh": "然后它可以给出一个简短的，类似这样的说明，"
+ },
+ {
+  "seg": 273,
+  "start": 890.596,
+  "end": 894.407,
+  "speaker": "Clara Vo",
+  "en": "it's the same because they both say services and, you know, whatever it is.",
+  "zh": "说它们相同是因为它们都写着 services，还有你知道的，其他各种理由。"
+ },
+ {
+  "seg": 274,
+  "start": 894.457,
+  "end": 896.1792222222222,
+  "speaker": "Clara Vo",
+  "en": "And so you can get sort of a...",
+  "zh": "所以你可以得到一种……"
+ },
+ {
+  "seg": 275,
+  "start": 896.614,
+  "end": 901.078,
+  "speaker": "Clara Vo",
+  "en": "A quantitative matching and then a qualitative explanation",
+  "zh": "一个定量的匹配，然后是一个定性的解释，"
+ },
+ {
+  "seg": 276,
+  "start": 901.158,
+  "end": 904.9,
+  "speaker": "Clara Vo",
+  "en": "with two relatively cheap models once you've narrowed that down.",
+  "zh": "用两个相对便宜的模型，在你把范围缩小之后。"
+ },
+ {
+  "seg": 277,
+  "start": 906.081,
+  "end": 906.772,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 278,
+  "start": 906.822,
+  "end": 907.432,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 279,
+  "start": 907.482,
+  "end": 908.293,
+  "speaker": "John Lindquist",
+  "en": "Great stuff.",
+  "zh": "很棒的东西。"
+ },
+ {
+  "seg": 280,
+  "start": 908.343,
+  "end": 908.623,
+  "speaker": "Clara Vo",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 281,
+  "start": 908.663,
+  "end": 909.144,
+  "speaker": "Clara Vo",
+  "en": "Great stuff.",
+  "zh": "很棒的东西。"
+ },
+ {
+  "seg": 282,
+  "start": 909.164,
+  "end": 911.806,
+  "speaker": "Clara Vo",
+  "en": "We are just psyched about that.",
+  "zh": "我们对此非常兴奋。"
+ },
+ {
+  "seg": 283,
+  "start": 911.826,
+  "end": 913.8815555555556,
+  "speaker": "Clara Vo",
+  "en": "I was like, I can watch all of these.",
+  "zh": "我当时想，这些我全都想看。"
+ },
+ {
+  "seg": 284,
+  "start": 914.938,
+  "end": 915.358,
+  "speaker": "John Lindquist",
+  "en": "This one's fun.",
+  "zh": "这个很有意思。"
+ },
+ {
+  "seg": 285,
+  "start": 915.399,
+  "end": 916.931,
+  "speaker": "John Lindquist",
+  "en": "It's kind of hard to show off.",
+  "zh": "它有点难以展示。"
+ },
+ {
+  "seg": 286,
+  "start": 916.981,
+  "end": 917.873,
+  "speaker": "John Lindquist",
+  "en": "But essentially,",
+  "zh": "但本质上，"
+ },
+ {
+  "seg": 287,
+  "start": 917.923,
+  "end": 924.553,
+  "speaker": "John Lindquist",
+  "en": "if you think of having your entire application and say you have going back to",
+  "zh": "如果你想象拥有你的整个应用程序，比如说回到"
+ },
+ {
+  "seg": 288,
+  "start": 924.573,
+  "end": 928.72,
+  "speaker": "John Lindquist",
+  "en": "the to-do list and say that's one part of your much larger app.",
+  "zh": "那个待办清单，说那是你一个大得多的应用中的一部分。"
+ },
+ {
+  "seg": 289,
+  "start": 929.532,
+  "end": 934.114,
+  "speaker": "John Lindquist",
+  "en": "You can build additional abstractions around that so that if on your landing page,",
+  "zh": "你可以在它周围构建额外的抽象层，这样如果在你的落地页上，"
+ },
+ {
+  "seg": 290,
+  "start": 934.254,
+  "end": 936.655,
+  "speaker": "John Lindquist",
+  "en": "someone comes up and either has a command bar,",
+  "zh": "有人进来，要么有一个命令栏，"
+ },
+ {
+  "seg": 291,
+  "start": 936.695,
+  "end": 940.576,
+  "speaker": "John Lindquist",
+  "en": "like a command K or other demos or sorry, other,",
+  "zh": "比如 command K 或其他演示，或者说，其他，"
+ },
+ {
+  "seg": 292,
+  "start": 940.836,
+  "end": 941.836,
+  "speaker": "John Lindquist",
+  "en": "other parts,",
+  "zh": "其他部分，"
+ },
+ {
+  "seg": 293,
+  "start": 942.197,
+  "end": 943.197,
+  "speaker": "John Lindquist",
+  "en": "omnibar,",
+  "zh": "omnibar，"
+ },
+ {
+  "seg": 294,
+  "start": 943.517,
+  "end": 950.517,
+  "speaker": "John Lindquist",
+  "en": "any place to put in a text and they start typing in the dictate or voice",
+  "zh": "任何可以输入文本的地方，然后他们开始输入、口述或语音"
+ },
+ {
+  "seg": 295,
+  "start": 951.601,
+  "end": 952.221,
+  "speaker": "John Lindquist",
+  "en": "or something.",
+  "zh": "之类的。"
+ },
+ {
+  "seg": 296,
+  "start": 952.261,
+  "end": 954.572,
+  "speaker": "John Lindquist",
+  "en": "They can't remember what the to do app was called.",
+  "zh": "他们记不住那个待办应用叫什么名字了。"
+ },
+ {
+  "seg": 297,
+  "start": 954.622,
+  "end": 957.023,
+  "speaker": "John Lindquist",
+  "en": "And you notice this is to do to dash do.",
+  "zh": "然后你会注意到这个是 to do to dash do。"
+ },
+ {
+  "seg": 298,
+  "start": 957.103,
+  "end": 958.2696666666666,
+  "speaker": "John Lindquist",
+  "en": "And I typed in to do.",
+  "zh": "而我输入的是 to do。"
+ },
+ {
+  "seg": 299,
+  "start": 959.033,
+  "end": 962.474,
+  "speaker": "John Lindquist",
+  "en": "It's able to go in and match against the tool.",
+  "zh": "它能够进去并与那个工具进行匹配。"
+ },
+ {
+  "seg": 300,
+  "start": 963.494,
+  "end": 968.795,
+  "speaker": "John Lindquist",
+  "en": "And then you could type additional things where you'd say,",
+  "zh": "然后你可以输入其他内容，比如说，"
+ },
+ {
+  "seg": 301,
+  "start": 968.895,
+  "end": 971.616,
+  "speaker": "John Lindquist",
+  "en": "go to the to-do app and then take this action.",
+  "zh": "去 to-do 应用，然后执行这个操作。"
+ },
+ {
+  "seg": 302,
+  "start": 971.716,
+  "end": 973.267,
+  "speaker": "John Lindquist",
+  "en": "Like I would know in my head,",
+  "zh": "比如我脑子里会知道，"
+ },
+ {
+  "seg": 303,
+  "start": 973.317,
+  "end": 973.527,
+  "speaker": "John Lindquist",
+  "en": "oh yeah,",
+  "zh": "哦对，"
+ },
+ {
+  "seg": 304,
+  "start": 973.577,
+  "end": 978.138,
+  "speaker": "John Lindquist",
+  "en": "there was that pull request and then take all the pull requests and mark those",
+  "zh": "有那个 pull request，然后把这些 pull request 全部标记为"
+ },
+ {
+  "seg": 305,
+  "start": 978.158,
+  "end": 979.158,
+  "speaker": "John Lindquist",
+  "en": "as low priority.",
+  "zh": "低优先级。"
+ },
+ {
+  "seg": 306,
+  "start": 979.578,
+  "end": 984.939,
+  "speaker": "John Lindquist",
+  "en": "And so if you think of this multi-step classification",
+  "zh": "所以如果你把这个想象成一个多步骤的分类，"
+ },
+ {
+  "seg": 307,
+  "start": 985.019,
+  "end": 987.26,
+  "speaker": "John Lindquist",
+  "en": "where you can build your smallest tools,",
+  "zh": "你可以构建你最小的工具，"
+ },
+ {
+  "seg": 308,
+  "start": 988.02,
+  "end": 991.303,
+  "speaker": "John Lindquist",
+  "en": "And then build another abstraction of JEV around them where it can pick which of",
+  "zh": "然后在它们周围再构建一层 JEV 抽象，让它可以挑选"
+ },
+ {
+  "seg": 309,
+  "start": 991.343,
+  "end": 992.7874444444444,
+  "speaker": "John Lindquist",
+  "en": "the smallest tools to use.",
+  "zh": "该使用哪些最小工具。"
+ },
+ {
+  "seg": 310,
+  "start": 993.524,
+  "end": 994.475,
+  "speaker": "John Lindquist",
+  "en": "This kind of goes back,",
+  "zh": "这有点回到，"
+ },
+ {
+  "seg": 311,
+  "start": 994.525,
+  "end": 999.088,
+  "speaker": "John Lindquist",
+  "en": "if people have set up MCPs where there's abstractions around them,",
+  "zh": "如果有人设置过 MCP，在它们周围有抽象层，"
+ },
+ {
+  "seg": 312,
+  "start": 999.108,
+  "end": 1002.631,
+  "speaker": "John Lindquist",
+  "en": "I think Executor and others where it picks which MCP to use.",
+  "zh": "我觉得 Executor 和其他产品会挑选用哪个 MCP。"
+ },
+ {
+  "seg": 313,
+  "start": 1003.412,
+  "end": 1008.005,
+  "speaker": "John Lindquist",
+  "en": "There's the tool itself, and then there's a layer where you're picking which tool to use.",
+  "zh": "有工具本身，然后有一层是挑选用哪个工具。"
+ },
+ {
+  "seg": 314,
+  "start": 1008.055,
+  "end": 1011.558,
+  "speaker": "John Lindquist",
+  "en": "And you can build that as many layers of that as you want.",
+  "zh": "而且你可以想要多少层就建多少层。"
+ },
+ {
+  "seg": 315,
+  "start": 1011.658,
+  "end": 1012.859,
+  "speaker": "John Lindquist",
+  "en": "That's what this is kind of talking about.",
+  "zh": "这就是这里在讲的东西。"
+ },
+ {
+  "seg": 316,
+  "start": 1012.899,
+  "end": 1018.791,
+  "speaker": "John Lindquist",
+  "en": "It's Difficult to show off, but just imagine saying, go to the ToDo app, do this and yeah.",
+  "zh": "这很难展示，但想象一下说，去 ToDo 应用，做这个，对。"
+ },
+ {
+  "seg": 317,
+  "start": 1019.948,
+  "end": 1025.031,
+  "speaker": "Clara Vo",
+  "en": "What I would say is, like, Jev as a router is maybe, like, what's helpful.",
+  "zh": "我想说的是，JEV 作为一个路由器，也许就是它有用的地方。"
+ },
+ {
+  "seg": 318,
+  "start": 1025.051,
+  "end": 1027.433,
+  "speaker": "Clara Vo",
+  "en": "A very, very fast router.",
+  "zh": "一个非常非常快的路由器。"
+ },
+ {
+  "seg": 319,
+  "start": 1027.973,
+  "end": 1033.757,
+  "speaker": "Clara Vo",
+  "en": "And so, you know, this use case, you're saying, like, as I have text, route to the right tool.",
+  "zh": "所以，你知道，这个用例，你是说，比如，我拿到文本，就路由到正确的工具。"
+ },
+ {
+  "seg": 320,
+  "start": 1034.237,
+  "end": 1037.7925555555557,
+  "speaker": "Clara Vo",
+  "en": "And then if I can infer from the text the job to do in the tool,",
+  "zh": "然后如果我能从文本推断出工具里要做的任务，"
+ },
+ {
+  "seg": 321,
+  "start": 1037.86,
+  "end": 1039.491,
+  "speaker": "Clara Vo",
+  "en": "I might as well infer that and, like,",
+  "zh": "那我不妨也把那个推断出来，然后，"
+ },
+ {
+  "seg": 322,
+  "start": 1039.541,
+  "end": 1044.544,
+  "speaker": "Clara Vo",
+  "en": "route as far down the user journey as I can infer from these,",
+  "zh": "我其实可以直接构建出整条链，然后执行它。"
+ },
+ {
+  "seg": 323,
+  "start": 1044.584,
+  "end": 1045.972888888889,
+  "speaker": "Clara Vo",
+  "en": "like, structured options.",
+  "zh": "结构化的选项里推断出来就行。"
+ },
+ {
+  "seg": 324,
+  "start": 1046.786,
+  "end": 1048.147,
+  "speaker": "Clara Vo",
+  "en": "Other practical use cases I'm seeing,",
+  "zh": "我看到的其他实际用例，"
+ },
+ {
+  "seg": 325,
+  "start": 1048.167,
+  "end": 1051.6380000000001,
+  "speaker": "Clara Vo",
+  "en": "a lot of people start to build these like JEV powered coding harnesses",
+  "zh": "很多人开始构建这些类似 JEV 驱动的编码 harness，"
+ },
+ {
+  "seg": 326,
+  "start": 1051.688,
+  "end": 1052.578,
+  "speaker": "Clara Vo",
+  "en": "where it's like,",
+  "zh": "就像是，"
+ },
+ {
+  "seg": 327,
+  "start": 1052.628,
+  "end": 1054.089,
+  "speaker": "Clara Vo",
+  "en": "given the first input,",
+  "zh": "根据第一个输入，"
+ },
+ {
+  "seg": 328,
+  "start": 1054.109,
+  "end": 1057.51,
+  "speaker": "Clara Vo",
+  "en": "let's route to the right model, let's pick the right tool, all this kind of stuff.",
+  "zh": "我们路由到正确的模型，挑选正确的工具，诸如此类的东西。"
+ },
+ {
+  "seg": 329,
+  "start": 1057.55,
+  "end": 1061.632,
+  "speaker": "Clara Vo",
+  "en": "And so you can imagine very fast configuration, very fast configuration.",
+  "zh": "所以你可以想象非常快的配置，非常快的配置。"
+ },
+ {
+  "seg": 330,
+  "start": 1062.732,
+  "end": 1064.492,
+  "speaker": "Clara Vo",
+  "en": "Routing very fast,",
+  "zh": "路由非常快，"
+ },
+ {
+  "seg": 331,
+  "start": 1064.512,
+  "end": 1067.703,
+  "speaker": "Clara Vo",
+  "en": "like I don't just have to take the first step and then think and take the next step.",
+  "zh": "就像我不必先走第一步，然后思考，再走下一步。"
+ },
+ {
+  "seg": 332,
+  "start": 1067.753,
+  "end": 1070.864111111111,
+  "speaker": "Clara Vo",
+  "en": "I can actually just build the chain and then execute it.",
+  "zh": "我其实可以直接构建这个链然后执行它。"
+ },
+ {
+  "seg": 333,
+  "start": 1071.374,
+  "end": 1074.414,
+  "speaker": "Clara Vo",
+  "en": "And so I think these decision models like Jev,",
+  "zh": "所以我觉得这些决策模型，比如 JEV，"
+ },
+ {
+  "seg": 334,
+  "start": 1075.095,
+  "end": 1076.775,
+  "speaker": "Clara Vo",
+  "en": "if they remain fast and cheap,",
+  "zh": "如果它们保持快速和便宜，"
+ },
+ {
+  "seg": 335,
+  "start": 1077.535,
+  "end": 1083.096,
+  "speaker": "Clara Vo",
+  "en": "can be a new way to think about navigation of your user experience,",
+  "zh": "可以成为一种新的方式来思考你用户体验的导航，"
+ },
+ {
+  "seg": 336,
+  "start": 1083.136,
+  "end": 1086.517,
+  "speaker": "Clara Vo",
+  "en": "whether that's a kind of like front-end experience or a dev tool",
+  "zh": "无论是某种前端体验，还是开发者工具，"
+ },
+ {
+  "seg": 337,
+  "start": 1086.557,
+  "end": 1087.8903333333333,
+  "speaker": "Clara Vo",
+  "en": "or whatever it might be.",
+  "zh": "或者随便什么。"
+ },
+ {
+  "seg": 338,
+  "start": 1088.998,
+  "end": 1095.622,
+  "speaker": "John Lindquist",
+  "en": "Yeah, even search to a certain extent of search for a long time has been,",
+  "zh": "是啊，甚至在某种程度上，搜索长期以来一直是，"
+ },
+ {
+  "seg": 339,
+  "start": 1095.642,
+  "end": 1098.530888888889,
+  "speaker": "John Lindquist",
+  "en": "has had a lot of really expensive options out there.",
+  "zh": "有很多非常昂贵的选项存在。"
+ },
+ {
+  "seg": 340,
+  "start": 1098.824,
+  "end": 1104.567,
+  "speaker": "John Lindquist",
+  "en": "And I don't know how far you could push this into replacing certain search engines, but yeah.",
+  "zh": "我不知道你能把这个推进到什么程度去取代某些搜索引擎，但是，嗯。"
+ },
+ {
+  "seg": 341,
+  "start": 1104.793,
+  "end": 1105.033,
+  "speaker": "Clara Vo",
+  "en": "You know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 342,
+  "start": 1105.073,
+  "end": 1107.636,
+  "speaker": "Clara Vo",
+  "en": "I gave an example when I did this,",
+  "zh": "我在做这个时举过一个例子，"
+ },
+ {
+  "seg": 343,
+  "start": 1107.716,
+  "end": 1111.971,
+  "speaker": "Clara Vo",
+  "en": "like I had 4,000 YouTube comments and I was trying to do live search through this.",
+  "zh": "比如我有 4000 条 YouTube 评论，我试图对它们做实时搜索。"
+ },
+ {
+  "seg": 344,
+  "start": 1112.021,
+  "end": 1118.448,
+  "speaker": "Clara Vo",
+  "en": "And I want to demystify some stuff for folks because it actually isn't super fast",
+  "zh": "我想为各位澄清一些事情，因为实际上对这么多结果做搜索并不算特别快，"
+ },
+ {
+  "seg": 345,
+  "start": 1118.468,
+  "end": 1121.851,
+  "speaker": "Clara Vo",
+  "en": "to like search over all of these results and say like,",
+  "zh": "比如说，"
+ },
+ {
+  "seg": 346,
+  "start": 1121.871,
+  "end": 1123.883,
+  "speaker": "Clara Vo",
+  "en": "yes, no, this is a good result and rank it.",
+  "zh": "判断是、否、这是个好结果，并对它排序。"
+ },
+ {
+  "seg": 347,
+  "start": 1123.933,
+  "end": 1126.076,
+  "speaker": "Clara Vo",
+  "en": "But you can like cluster things.",
+  "zh": "但你可以做聚类之类的。"
+ },
+ {
+  "seg": 348,
+  "start": 1126.476,
+  "end": 1127.476,
+  "speaker": "Clara Vo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 349,
+  "start": 1152.123,
+  "end": 1156.123,
+  "speaker": "Clara Vo",
+  "en": "And so you may need to go look around, see how people have done search.",
+  "zh": "所以你可能需要到处看看，了解别人是怎么做搜索的。"
+ },
+ {
+  "seg": 350,
+  "start": 1156.486,
+  "end": 1157.817,
+  "speaker": "Clara Vo",
+  "en": "And then if you find one you like,",
+  "zh": "然后如果你找到一个你喜欢的,"
+ },
+ {
+  "seg": 351,
+  "start": 1157.867,
+  "end": 1162.2558888888889,
+  "speaker": "Clara Vo",
+  "en": "go into GitHub, figure out how they actually made that search super performant.",
+  "zh": "就去 GitHub 上,弄清楚他们到底是怎么把那个搜索做得那么高性能的。"
+ },
+ {
+  "seg": 352,
+  "start": 1162.33,
+  "end": 1165.642,
+  "speaker": "Clara Vo",
+  "en": "Because I've seen a couple of different strategies out there to how to do this.",
+  "zh": "因为我见过好几种不同的策略来做这件事。"
+ },
+ {
+  "seg": 353,
+  "start": 1165.692,
+  "end": 1166.692,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 354,
+  "start": 1167.173,
+  "end": 1168.824,
+  "speaker": "John Lindquist",
+  "en": "And caching and all that stuff.",
+  "zh": "还有缓存之类的东西。"
+ },
+ {
+  "seg": 355,
+  "start": 1168.874,
+  "end": 1170.115,
+  "speaker": "John Lindquist",
+  "en": "All the hacking.",
+  "zh": "所有的 hack 手段。"
+ },
+ {
+  "seg": 356,
+  "start": 1170.135,
+  "end": 1170.7050000000002,
+  "speaker": "Clara Vo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 357,
+  "start": 1170.755,
+  "end": 1175.579,
+  "speaker": "Clara Vo",
+  "en": "It's easy when everything's locally cached and just go over the full corporate.",
+  "zh": "当所有东西都本地缓存了,直接跑完整的 corporate,那就容易了。"
+ },
+ {
+  "seg": 358,
+  "start": 1175.879,
+  "end": 1179.3234444444442,
+  "speaker": "Clara Vo",
+  "en": "Let's talk about games because this is something... All right.",
+  "zh": "我们来聊聊游戏,因为这是一个……好的。"
+ },
+ {
+  "seg": 359,
+  "start": 1179.611,
+  "end": 1180.531,
+  "speaker": "Clara Vo",
+  "en": "I haven't covered yet,",
+  "zh": "我还没讲过的东西,"
+ },
+ {
+  "seg": 360,
+  "start": 1180.551,
+  "end": 1186.573,
+  "speaker": "Clara Vo",
+  "en": "but I think is a really cool demonstration of some of the ideas inside JEV.",
+  "zh": "但我觉得它非常酷地展示了 JEV 内部的一些想法。"
+ },
+ {
+  "seg": 361,
+  "start": 1187.974,
+  "end": 1191.845,
+  "speaker": "John Lindquist",
+  "en": "Yeah, I built this one because I wanted to show off JEV versus a traditional model.",
+  "zh": "是的,我做这个是因为我想展示 JEV 相对于传统模型的优势。"
+ },
+ {
+  "seg": 362,
+  "start": 1191.895,
+  "end": 1193.236,
+  "speaker": "John Lindquist",
+  "en": "I picked a free model on Open Router.",
+  "zh": "我在 Open Router 上选了一个免费模型。"
+ },
+ {
+  "seg": 363,
+  "start": 1193.256,
+  "end": 1195.146,
+  "speaker": "John Lindquist",
+  "en": "This is like a low reasoning model.",
+  "zh": "这是个低推理能力的模型。"
+ },
+ {
+  "seg": 364,
+  "start": 1195.196,
+  "end": 1196.657,
+  "speaker": "John Lindquist",
+  "en": "I think it's a Kimi or something.",
+  "zh": "我记得是 Kimi 还是什么。"
+ },
+ {
+  "seg": 365,
+  "start": 1196.677,
+  "end": 1197.527,
+  "speaker": "John Lindquist",
+  "en": "I'm not sure.",
+  "zh": "我不确定。"
+ },
+ {
+  "seg": 366,
+  "start": 1197.577,
+  "end": 1200.688111111111,
+  "speaker": "Clara Vo",
+  "en": "And for people that aren't watching, it's playing chess.",
+  "zh": "对于没在看画面的人来说,它在下国际象棋。"
+ },
+ {
+  "seg": 367,
+  "start": 1201.574,
+  "end": 1204.136,
+  "speaker": "John Lindquist",
+  "en": "Yes, this is playing a game of chess,",
+  "zh": "是的,这是在一盘国际象棋对局中,"
+ },
+ {
+  "seg": 368,
+  "start": 1204.156,
+  "end": 1207.519,
+  "speaker": "John Lindquist",
+  "en": "and Jev are the white pieces, the LLM are the black pieces.",
+  "zh": "Jev 执白子,LLM 执黑子。"
+ },
+ {
+  "seg": 369,
+  "start": 1208.52,
+  "end": 1209.52,
+  "speaker": "John Lindquist",
+  "en": "And here,",
+  "zh": "而这里,"
+ },
+ {
+  "seg": 370,
+  "start": 1209.781,
+  "end": 1216.781,
+  "speaker": "John Lindquist",
+  "en": "this is set so that Jev is able to think through all the possible moves,",
+  "zh": "这个设置是让 Jev 能够思考所有可能的走法,"
+ },
+ {
+  "seg": 371,
+  "start": 1218.008,
+  "end": 1220.43,
+  "speaker": "John Lindquist",
+  "en": "and then it ranks the highest three moves,",
+  "zh": "然后它排出最高的三种走法,"
+ },
+ {
+  "seg": 372,
+  "start": 1220.47,
+  "end": 1224.1366666666668,
+  "speaker": "John Lindquist",
+  "en": "and then it thinks through all the next possible moves from there.",
+  "zh": "然后再从那里思考接下来所有可能的走法。"
+ },
+ {
+  "seg": 373,
+  "start": 1224.193,
+  "end": 1229.017,
+  "speaker": "John Lindquist",
+  "en": "And based on that two-step reasoning, picks the best next move.",
+  "zh": "基于这个两步推理,选出最佳的下一步。"
+ },
+ {
+  "seg": 374,
+  "start": 1229.691,
+  "end": 1231.152,
+  "speaker": "John Lindquist",
+  "en": "And so kind of like routering,",
+  "zh": "所以有点像路由,"
+ },
+ {
+  "seg": 375,
+  "start": 1231.172,
+  "end": 1238.172,
+  "speaker": "John Lindquist",
+  "en": "it's kind of like spidering into the potential best moves and then coming back",
+  "zh": "有点像爬虫一样深入到潜在的最佳走法里,然后再回溯"
+ },
+ {
+  "seg": 376,
+  "start": 1238.838,
+  "end": 1240.749,
+  "speaker": "John Lindquist",
+  "en": "to what the next best move would be.",
+  "zh": "到下一步最佳走法应该是什么。"
+ },
+ {
+  "seg": 377,
+  "start": 1240.799,
+  "end": 1245.422,
+  "speaker": "John Lindquist",
+  "en": "And it's still doing this in sub one second times and using AI and inference.",
+  "zh": "而且它仍然是在一秒以内的时间内完成这些,并且用的是 AI 和推理。"
+ },
+ {
+  "seg": 378,
+  "start": 1246.103,
+  "end": 1250.066,
+  "speaker": "John Lindquist",
+  "en": "Whereas if you pass the same data set to an LLM,",
+  "zh": "而如果你把同样的数据集传给一个 LLM,"
+ },
+ {
+  "seg": 379,
+  "start": 1250.826,
+  "end": 1252.338,
+  "speaker": "John Lindquist",
+  "en": "the amount of reasoning it takes,",
+  "zh": "它所需要的推理量,"
+ },
+ {
+  "seg": 380,
+  "start": 1252.388,
+  "end": 1255.610222222222,
+  "speaker": "John Lindquist",
+  "en": "this is playing Blitzchess, so there's a one minute timer.",
+  "zh": "这是下快棋,所以有一分钟计时器。"
+ },
+ {
+  "seg": 381,
+  "start": 1256.311,
+  "end": 1259.343,
+  "speaker": "John Lindquist",
+  "en": "Jev would be able to complete this entire game and beat it.",
+  "zh": "Jev 能够完成整盘棋并赢下它。"
+ },
+ {
+  "seg": 382,
+  "start": 1259.393,
+  "end": 1262.315,
+  "speaker": "John Lindquist",
+  "en": "And the LLMs would eventually get there.",
+  "zh": "而 LLM 最终也能做到。"
+ },
+ {
+  "seg": 383,
+  "start": 1262.355,
+  "end": 1266.1883333333333,
+  "speaker": "John Lindquist",
+  "en": "They'd be much more expensive and they might not even perform better.",
+  "zh": "它们会贵得多,而且可能表现甚至不会更好。"
+ },
+ {
+  "seg": 384,
+  "start": 1266.817,
+  "end": 1272.06,
+  "speaker": "John Lindquist",
+  "en": "Because in scenarios like this where it's focused on routing and the next best thing",
+  "zh": "因为在这种专注于路由和下一步最佳行动的场景里,"
+ },
+ {
+  "seg": 385,
+  "start": 1272.14,
+  "end": 1273.14,
+  "speaker": "John Lindquist",
+  "en": "to happen...",
+  "zh": "发生……"
+ },
+ {
+  "seg": 386,
+  "start": 1274.722,
+  "end": 1280.284,
+  "speaker": "John Lindquist",
+  "en": "The amount of data that you can crawl into and find the next best move can kind",
+  "zh": "你能爬取多少数据、找到下一步最佳走法,这两者之间"
+ },
+ {
+  "seg": 387,
+  "start": 1280.304,
+  "end": 1282.1373333333333,
+  "speaker": "John Lindquist",
+  "en": "of balance out between these two.",
+  "zh": "可以大致平衡。"
+ },
+ {
+  "seg": 388,
+  "start": 1282.525,
+  "end": 1285.747,
+  "speaker": "John Lindquist",
+  "en": "Unless you're getting to really super high level creative chess where you're trying",
+  "zh": "除非你要达到非常非常高水平的创造性国际象棋,那种你试图"
+ },
+ {
+  "seg": 389,
+  "start": 1285.767,
+  "end": 1289.749,
+  "speaker": "John Lindquist",
+  "en": "to stump someone by fainting certain moves or whatever, but I'm not it.",
+  "zh": "通过虚晃某些走法来难住对手之类的,但我不是那种人。"
+ },
+ {
+  "seg": 390,
+  "start": 1291.11,
+  "end": 1292.221111111111,
+  "speaker": "John Lindquist",
+  "en": "I'm decent at chess.",
+  "zh": "我棋下得还行。"
+ },
+ {
+  "seg": 391,
+  "start": 1292.851,
+  "end": 1293.9065555555558,
+  "speaker": "John Lindquist",
+  "en": "I can beat my kids.",
+  "zh": "我能赢我的孩子。"
+ },
+ {
+  "seg": 392,
+  "start": 1294.011,
+  "end": 1294.701,
+  "speaker": "Clara Vo",
+  "en": "I'm perfect.",
+  "zh": "我很完美。"
+ },
+ {
+  "seg": 393,
+  "start": 1294.751,
+  "end": 1295.432,
+  "speaker": "Clara Vo",
+  "en": "For now.",
+  "zh": "目前为止。"
+ },
+ {
+  "seg": 394,
+  "start": 1295.452,
+  "end": 1296.452,
+  "speaker": "Clara Vo",
+  "en": "Sometimes.",
+  "zh": "有时候。"
+ },
+ {
+  "seg": 395,
+  "start": 1296.532,
+  "end": 1297.0230000000001,
+  "speaker": "John Lindquist",
+  "en": "For now.",
+  "zh": "目前为止。"
+ },
+ {
+  "seg": 396,
+  "start": 1297.073,
+  "end": 1298.073,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 397,
+  "start": 1298.847,
+  "end": 1300.1247777777778,
+  "speaker": "John Lindquist",
+  "en": "And if you look at the,",
+  "zh": "如果你看看这个,"
+ },
+ {
+  "seg": 398,
+  "start": 1301.129,
+  "end": 1305.102,
+  "speaker": "John Lindquist",
+  "en": "it has some benchmarks over here that Jev was 10 times faster in the average move",
+  "zh": "这里有一些基准测试,Jev 在平均走法上快了 10 倍,"
+ },
+ {
+  "seg": 399,
+  "start": 1305.152,
+  "end": 1306.973,
+  "speaker": "John Lindquist",
+  "en": "and it was four times cheaper.",
+  "zh": "便宜了 4 倍。"
+ },
+ {
+  "seg": 400,
+  "start": 1307.674,
+  "end": 1312.358,
+  "speaker": "John Lindquist",
+  "en": "And this was a very space money alphas on low reasoning.",
+  "zh": "这是一种在低推理上非常烧钱的 alpha。"
+ },
+ {
+  "seg": 401,
+  "start": 1312.398,
+  "end": 1314.8,
+  "speaker": "John Lindquist",
+  "en": "So with very, very tiny context windows.",
+  "zh": "也就是用非常非常小的上下文窗口。"
+ },
+ {
+  "seg": 402,
+  "start": 1315.22,
+  "end": 1315.991,
+  "speaker": "Clara Vo",
+  "en": "Yeah.",
+  "zh": "就是你可以思考第一回合、第二回合、第三回合。"
+ },
+ {
+  "seg": 403,
+  "start": 1316.041,
+  "end": 1323.041,
+  "speaker": "Clara Vo",
+  "en": "What I think this demonstrates is, one, there are scenarios in which speed is an advantage.",
+  "zh": "我认为这所展示的是，第一，存在一些场景，速度是一种优势。"
+ },
+ {
+  "seg": 404,
+  "start": 1324.207,
+  "end": 1327.0403333333334,
+  "speaker": "Clara Vo",
+  "en": "This is putting it in the context of a game, but...",
+  "zh": "这是把它放在一个游戏的背景下，但是……"
+ },
+ {
+  "seg": 405,
+  "start": 1327.642,
+  "end": 1329.204,
+  "speaker": "Clara Vo",
+  "en": "It's very obvious how much.",
+  "zh": "很明显有多大的优势。"
+ },
+ {
+  "seg": 406,
+  "start": 1329.564,
+  "end": 1332.026,
+  "speaker": "Clara Vo",
+  "en": "I mean, 10x faster is not incremental.",
+  "zh": "我是说，快 10 倍不是渐进式的提升。"
+ },
+ {
+  "seg": 407,
+  "start": 1332.266,
+  "end": 1337.51,
+  "speaker": "Clara Vo",
+  "en": "And so it really does unlock this concept of real time.",
+  "zh": "所以它真正解锁了实时这个概念。"
+ },
+ {
+  "seg": 408,
+  "start": 1337.69,
+  "end": 1344.69,
+  "speaker": "Clara Vo",
+  "en": "And I do think about going back to when I was a young product manager and did a lot",
+  "zh": "我确实会回想，回到我还是年轻的产品经理的时候，做过很多"
+ },
+ {
+  "seg": 409,
+  "start": 1346.216,
+  "end": 1348.918,
+  "speaker": "Clara Vo",
+  "en": "of conversion testing and growth work.",
+  "zh": "转化测试和增长相关的工作。"
+ },
+ {
+  "seg": 410,
+  "start": 1348.978,
+  "end": 1354.903,
+  "speaker": "Clara Vo",
+  "en": "And speed did matter in a lot of user experiences, especially consumer on what won.",
+  "zh": "速度在很多用户体验中确实很重要，尤其是在消费级领域，决定了什么能胜出。"
+ },
+ {
+  "seg": 411,
+  "start": 1355.585,
+  "end": 1357.026,
+  "speaker": "Clara Vo",
+  "en": "And so I do think,",
+  "zh": "所以我确实认为，"
+ },
+ {
+  "seg": 412,
+  "start": 1357.086,
+  "end": 1357.527,
+  "speaker": "Clara Vo",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 413,
+  "start": 1357.567,
+  "end": 1362.1200000000001,
+  "speaker": "Clara Vo",
+  "en": "we hear a lot on the coding side about model optimization from a cost perspective.",
+  "zh": "我们在编程方面听到很多关于从成本角度做模型优化的讨论。"
+ },
+ {
+  "seg": 414,
+  "start": 1362.17,
+  "end": 1366.954,
+  "speaker": "Clara Vo",
+  "en": "But I think we're going to start to see like latency wars really heat up as well,",
+  "zh": "但我认为我们将会看到延迟战争也真正升温，"
+ },
+ {
+  "seg": 415,
+  "start": 1367.074,
+  "end": 1369.255,
+  "speaker": "Clara Vo",
+  "en": "which is like the faster the response,",
+  "zh": "也就是响应越快，"
+ },
+ {
+  "seg": 416,
+  "start": 1369.355,
+  "end": 1375.44,
+  "speaker": "Clara Vo",
+  "en": "the more like more magic you can unlock that feels like an if else statement,",
+  "zh": "你能解锁的魔力就越多，让它感觉像一个 if else 语句，"
+ },
+ {
+  "seg": 417,
+  "start": 1375.56,
+  "end": 1375.96,
+  "speaker": "Clara Vo",
+  "en": "the better.",
+  "zh": "越好。"
+ },
+ {
+  "seg": 418,
+  "start": 1376,
+  "end": 1379.4444444444443,
+  "speaker": "Clara Vo",
+  "en": "And so I think this is showing one where speed really matters.",
+  "zh": "所以我认为这展示了一个速度真正重要的场景。"
+ },
+ {
+  "seg": 419,
+  "start": 1380.303,
+  "end": 1386.528,
+  "speaker": "Clara Vo",
+  "en": "I think the other thing it's demonstrating is this multi-step routing that we talked",
+  "zh": "我认为它所展示的另一件事是我们谈过的这种多步路由，"
+ },
+ {
+  "seg": 420,
+  "start": 1386.568,
+  "end": 1389.83,
+  "speaker": "Clara Vo",
+  "en": "about where you can think through turn one, turn two, turn three.",
+  "zh": "关于你可以思考第一轮、第二轮、第三轮的地方。"
+ },
+ {
+  "seg": 421,
+  "start": 1389.85,
+  "end": 1392.532,
+  "speaker": "Clara Vo",
+  "en": "And then because it's 10 times faster,",
+  "zh": "然后因为它快了 10 倍，"
+ },
+ {
+  "seg": 422,
+  "start": 1393.293,
+  "end": 1396.936,
+  "speaker": "Clara Vo",
+  "en": "you could apply another model on top at that point,",
+  "zh": "你可以在那个时点在上面再叠加另一个模型，"
+ },
+ {
+  "seg": 423,
+  "start": 1396.956,
+  "end": 1398.607,
+  "speaker": "Clara Vo",
+  "en": "a more intelligent model at that point,",
+  "zh": "一个在那个时点更聪明的模型，"
+ },
+ {
+  "seg": 424,
+  "start": 1398.657,
+  "end": 1402.88,
+  "speaker": "Clara Vo",
+  "en": "with kind of like a narrowed set of strategies and probably make",
+  "zh": "带着一套缩小范围的策略，可能会"
+ },
+ {
+  "seg": 425,
+  "start": 1402.92,
+  "end": 1404.501,
+  "speaker": "Clara Vo",
+  "en": "a stronger decision faster.",
+  "zh": "更快地做出一个更强的决策。"
+ },
+ {
+  "seg": 426,
+  "start": 1404.521,
+  "end": 1406.083,
+  "speaker": "John Lindquist",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 427,
+  "start": 1406.923,
+  "end": 1409.2007777777778,
+  "speaker": "John Lindquist",
+  "en": "And I think this also demonstrates the...",
+  "zh": "而且我认为这也展示了……"
+ },
+ {
+  "seg": 428,
+  "start": 1409.83,
+  "end": 1415.022,
+  "speaker": "John Lindquist",
+  "en": "Again, to the concept of router, there are a limited set of options in chess and other games.",
+  "zh": "再回到路由器的概念，在国际象棋和其他游戏中，选项是有限的。"
+ },
+ {
+  "seg": 429,
+  "start": 1415.072,
+  "end": 1416.2820000000002,
+  "speaker": "John Lindquist",
+  "en": "There's a lot of options,",
+  "zh": "选项很多，"
+ },
+ {
+  "seg": 430,
+  "start": 1416.332,
+  "end": 1420.474,
+  "speaker": "John Lindquist",
+  "en": "but it's a limited set and you can pick from the most likely set and narrow it down",
+  "zh": "但它是一个有限的集合，你可以从最可能的那部分里挑选，把它收窄，"
+ },
+ {
+  "seg": 431,
+  "start": 1420.514,
+  "end": 1423.395,
+  "speaker": "John Lindquist",
+  "en": "and optimize cost and everything.",
+  "zh": "并优化成本和其他一切。"
+ },
+ {
+  "seg": 432,
+  "start": 1423.655,
+  "end": 1426.736,
+  "speaker": "John Lindquist",
+  "en": "Data structures and your APIs are all the same.",
+  "zh": "数据结构和你的 API 都是一样的。"
+ },
+ {
+  "seg": 433,
+  "start": 1427.056,
+  "end": 1429.7782222222222,
+  "speaker": "John Lindquist",
+  "en": "They all have a limited set of things you can do,",
+  "zh": "它们都有一个有限的、你能做的事情的集合，"
+ },
+ {
+  "seg": 434,
+  "start": 1430.157,
+  "end": 1431.848,
+  "speaker": "John Lindquist",
+  "en": "even though it might seem infinite to you",
+  "zh": "尽管对你来说它可能看起来是无限的，"
+ },
+ {
+  "seg": 435,
+  "start": 1431.898,
+  "end": 1436.2868888888888,
+  "speaker": "John Lindquist",
+  "en": "because you never know what somebody's going to type or do in your application.",
+  "zh": "因为你永远不知道会有人在你的应用里输入什么或做什么。"
+ },
+ {
+  "seg": 436,
+  "start": 1436.588,
+  "end": 1439.03,
+  "speaker": "John Lindquist",
+  "en": "When you have those scenarios,",
+  "zh": "当你遇到这些场景时，"
+ },
+ {
+  "seg": 437,
+  "start": 1439.991,
+  "end": 1442.413,
+  "speaker": "John Lindquist",
+  "en": "it's time to look for a JEV first,",
+  "zh": "我认为就该去找一个 JEV 优先的方案了，"
+ },
+ {
+  "seg": 438,
+  "start": 1442.453,
+  "end": 1443.424,
+  "speaker": "John Lindquist",
+  "en": "I would say,",
+  "zh": "我想说的是，"
+ },
+ {
+  "seg": 439,
+  "start": 1443.474,
+  "end": 1445.396,
+  "speaker": "John Lindquist",
+  "en": "whereas the LLMs are much more,",
+  "zh": "而 LLM 更适合的场景是，"
+ },
+ {
+  "seg": 440,
+  "start": 1445.416,
+  "end": 1449.96,
+  "speaker": "John Lindquist",
+  "en": "I have no idea what I want the action to be,",
+  "zh": "我完全不知道我想要什么动作，"
+ },
+ {
+  "seg": 441,
+  "start": 1449.98,
+  "end": 1451.992,
+  "speaker": "John Lindquist",
+  "en": "or I don't even know if I want it to take an action,",
+  "zh": "或者我甚至不知道我是否想让它采取行动，"
+ },
+ {
+  "seg": 442,
+  "start": 1452.042,
+  "end": 1458.487,
+  "speaker": "John Lindquist",
+  "en": "or things where it's much more brainstorming and creative and finding what you want",
+  "zh": "或者那些更需要头脑风暴、更有创造性、去发现你想做什么的事情。"
+ },
+ {
+  "seg": 443,
+  "start": 1458.527,
+  "end": 1459.318,
+  "speaker": "John Lindquist",
+  "en": "to do.",
+  "zh": "要做的。"
+ },
+ {
+  "seg": 444,
+  "start": 1459.368,
+  "end": 1462.7568888888889,
+  "speaker": "John Lindquist",
+  "en": "But once the actions are set and you have that limited scope,",
+  "zh": "但一旦动作确定下来，你有了那个有限的范围，"
+ },
+ {
+  "seg": 445,
+  "start": 1462.871,
+  "end": 1467.037,
+  "speaker": "John Lindquist",
+  "en": "that's where A decision model can really excel,",
+  "zh": "那就是一个决策模型能真正大放异彩的地方，"
+ },
+ {
+  "seg": 446,
+  "start": 1467.077,
+  "end": 1469.465888888889,
+  "speaker": "John Lindquist",
+  "en": "at least from what I've experienced so far.",
+  "zh": "至少从我到目前为止的经历来看是这样。"
+ },
+ {
+  "seg": 447,
+  "start": 1470.018,
+  "end": 1472.978,
+  "speaker": "Clara Vo",
+  "en": "And I think this can demystify, too,",
+  "zh": "而且我认为这也可以揭开另外一些"
+ },
+ {
+  "seg": 448,
+  "start": 1473.078,
+  "end": 1474.7446666666667,
+  "speaker": "Clara Vo",
+  "en": "some of the other kind of fun,",
+  "zh": "有趣的、"
+ },
+ {
+  "seg": 449,
+  "start": 1475.059,
+  "end": 1479.9,
+  "speaker": "Clara Vo",
+  "en": "eye-popping use cases that I have seen, like browser use, right?",
+  "zh": "让人眼前一亮的用例的神秘面纱，比如 browser use，对吧？"
+ },
+ {
+  "seg": 450,
+  "start": 1480.32,
+  "end": 1482.701,
+  "speaker": "Clara Vo",
+  "en": "If you look at a website,",
+  "zh": "如果你看一个网站,"
+ },
+ {
+  "seg": 451,
+  "start": 1483.381,
+  "end": 1486.742,
+  "speaker": "Clara Vo",
+  "en": "navigating it with a mouse feels like an infinite set of possibilities, right?",
+  "zh": "即使它是一个看起来复杂的游戏,或一个看起来复杂的网页应用,"
+ },
+ {
+  "seg": 452,
+  "start": 1486.762,
+  "end": 1488.1508888888889,
+  "speaker": "Clara Vo",
+  "en": "You can move it anywhere.",
+  "zh": "你可以把鼠标移到任何地方。"
+ },
+ {
+  "seg": 453,
+  "start": 1488.202,
+  "end": 1490.953,
+  "speaker": "Clara Vo",
+  "en": "Any pixel on the screen is where your mouse can go and click.",
+  "zh": "屏幕上的任何像素都是你的鼠标可以移过去点击的地方。"
+ },
+ {
+  "seg": 454,
+  "start": 1491.003,
+  "end": 1496.366,
+  "speaker": "Clara Vo",
+  "en": "But if you actually look at the DOM, there's probably like 10 clickable buttons on a page.",
+  "zh": "但如果你真正去看 DOM,一个页面上可能就只有 10 个可点击的按钮。"
+ },
+ {
+  "seg": 455,
+  "start": 1496.566,
+  "end": 1500.558,
+  "speaker": "Clara Vo",
+  "en": "And so if you can very quickly say there's 10 clickable buttons on this page,",
+  "zh": "所以如果你能很快地说,这个页面上有 10 个可点击的按钮,"
+ },
+ {
+  "seg": 456,
+  "start": 1500.608,
+  "end": 1501.7746666666667,
+  "speaker": "Clara Vo",
+  "en": "which one do I click?",
+  "zh": "我该点哪一个?"
+ },
+ {
+  "seg": 457,
+  "start": 1501.989,
+  "end": 1504.25,
+  "speaker": "Clara Vo",
+  "en": "Like, which one do I want to click?",
+  "zh": "就是说,我想点哪一个?"
+ },
+ {
+  "seg": 458,
+  "start": 1504.79,
+  "end": 1508.652,
+  "speaker": "Clara Vo",
+  "en": "That demystifies that concept of browser use through JEV",
+  "zh": "这就揭开了通过 JEV 进行浏览器操作这个概念的神秘面纱"
+ },
+ {
+  "seg": 459,
+  "start": 1508.672,
+  "end": 1513.415,
+  "speaker": "Clara Vo",
+  "en": "because you're really just taking a limited set of interactions available to us",
+  "zh": "因为你其实只是在利用我们人类大脑中"
+ },
+ {
+  "seg": 460,
+  "start": 1513.455,
+  "end": 1514.275,
+  "speaker": "Clara Vo",
+  "en": "in our human brains.",
+  "zh": "可用的一个有限的交互集合。"
+ },
+ {
+  "seg": 461,
+  "start": 1514.295,
+  "end": 1516.046,
+  "speaker": "Clara Vo",
+  "en": "It looks like an infinite canvas of pixels,",
+  "zh": "它看起来像一块无限的像素画布,"
+ },
+ {
+  "seg": 462,
+  "start": 1516.096,
+  "end": 1519.4293333333333,
+  "speaker": "Clara Vo",
+  "en": "but to a model like this, it can just be a set of decisions.",
+  "zh": "但对这样一个模型来说,它可能只是一组决策。"
+ },
+ {
+  "seg": 463,
+  "start": 1519.843,
+  "end": 1524.726,
+  "speaker": "Clara Vo",
+  "en": "You know, I've also seen on gaming, you know, Jev plays Tetris.",
+  "zh": "你知道,我在游戏方面也见过,Jev 玩俄罗斯方块。"
+ },
+ {
+  "seg": 464,
+  "start": 1524.746,
+  "end": 1529.95,
+  "speaker": "Clara Vo",
+  "en": "It's because Tetris is four options of your shape and then like 10 options left or right.",
+  "zh": "那是因为俄罗斯方块就是你形状的四个选项,然后加上大概 10 个左右移动的选项。"
+ },
+ {
+  "seg": 465,
+  "start": 1529.99,
+  "end": 1531.9344444444444,
+  "speaker": "Clara Vo",
+  "en": "That's all you that's all you have.",
+  "zh": "这就是全部,你拥有的就这些。"
+ },
+ {
+  "seg": 466,
+  "start": 1532.431,
+  "end": 1534.392,
+  "speaker": "Clara Vo",
+  "en": "And so, you know,",
+  "zh": "所以,你知道,"
+ },
+ {
+  "seg": 467,
+  "start": 1534.433,
+  "end": 1537.9885555555556,
+  "speaker": "Clara Vo",
+  "en": "these like horizontal scroller games are just you can like jump,",
+  "zh": "这些横版卷轴游戏就是你可以跳跃,"
+ },
+ {
+  "seg": 468,
+  "start": 1538.075,
+  "end": 1540.146,
+  "speaker": "Clara Vo",
+  "en": "you can walk, you can do, you know, any of those things.",
+  "zh": "你可以行走,你可以做,你知道,那些动作中的任何一种。"
+ },
+ {
+  "seg": 469,
+  "start": 1540.196,
+  "end": 1542.9737777777777,
+  "speaker": "Clara Vo",
+  "en": "And so because these decisions can happen so fast.",
+  "zh": "而且因为这些决策可以发生得非常快。"
+ },
+ {
+  "seg": 470,
+  "start": 1543.474,
+  "end": 1545.196222222222,
+  "speaker": "Clara Vo",
+  "en": "If the interaction of your app,",
+  "zh": "如果你的应用的交互,"
+ },
+ {
+  "seg": 471,
+  "start": 1545.335,
+  "end": 1549.2794444444444,
+  "speaker": "Clara Vo",
+  "en": "even if it's a game that feels complex or a web app that feels complex,",
+  "zh": "即使它是一个感觉很复杂的游戏,或者一个感觉很复杂的 Web 应用,"
+ },
+ {
+  "seg": 472,
+  "start": 1549.738,
+  "end": 1553.56,
+  "speaker": "Clara Vo",
+  "en": "it probably can be distilled down to a dozen choices.",
+  "zh": "它很可能可以被提炼成十几个选择。"
+ },
+ {
+  "seg": 473,
+  "start": 1554.34,
+  "end": 1556.211,
+  "speaker": "Clara Vo",
+  "en": "And then you can explore those choices.",
+  "zh": "然后你就可以探索这些选择。"
+ },
+ {
+  "seg": 474,
+  "start": 1556.261,
+  "end": 1560.854,
+  "speaker": "Clara Vo",
+  "en": "And because Jeff is so fast, it almost feels instantaneous to chain those together.",
+  "zh": "而且因为 Jeff 非常快,把它们串联起来几乎是瞬间完成的。"
+ },
+ {
+  "seg": 475,
+  "start": 1560.904,
+  "end": 1561.554,
+  "speaker": "John Lindquist",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 476,
+  "start": 1561.604,
+  "end": 1562.645,
+  "speaker": "John Lindquist",
+  "en": "I'd almost say in,",
+  "zh": "我几乎想说,"
+ },
+ {
+  "seg": 477,
+  "start": 1563.526,
+  "end": 1564.366,
+  "speaker": "John Lindquist",
+  "en": "like you mentioned in a game,",
+  "zh": "就像你提到的在游戏中,"
+ },
+ {
+  "seg": 478,
+  "start": 1564.406,
+  "end": 1566.307,
+  "speaker": "John Lindquist",
+  "en": "in a platformer or in a 3D game,",
+  "zh": "在一个平台跳跃游戏或一个 3D 游戏里,"
+ },
+ {
+  "seg": 479,
+  "start": 1566.327,
+  "end": 1569.9936666666667,
+  "speaker": "John Lindquist",
+  "en": "you might be thinking about all the things the character could do,",
+  "zh": "你可能在想角色能做的所有事情,"
+ },
+ {
+  "seg": 480,
+  "start": 1570.129,
+  "end": 1572.711,
+  "speaker": "John Lindquist",
+  "en": "but the input is actually the controller.",
+  "zh": "但输入实际上是那个手柄控制器。"
+ },
+ {
+  "seg": 481,
+  "start": 1573.407,
+  "end": 1577.111,
+  "speaker": "John Lindquist",
+  "en": "And so that the limited amount of options you have are all",
+  "zh": "所以你拥有的有限数量的选项就是"
+ },
+ {
+  "seg": 482,
+  "start": 1577.151,
+  "end": 1578.182,
+  "speaker": "John Lindquist",
+  "en": "the buttons you could press,",
+  "zh": "所有你可以按的按钮,"
+ },
+ {
+  "seg": 483,
+  "start": 1578.232,
+  "end": 1581.286,
+  "speaker": "John Lindquist",
+  "en": "how you could press them in various ways, which is still a lot.",
+  "zh": "以及你可以用各种方式去按它们,这仍然很多。"
+ },
+ {
+  "seg": 484,
+  "start": 1581.336,
+  "end": 1584.419,
+  "speaker": "John Lindquist",
+  "en": "But there's a very constrained input there.",
+  "zh": "但那里的输入是非常受限的。"
+ },
+ {
+  "seg": 485,
+  "start": 1584.579,
+  "end": 1588.864,
+  "speaker": "John Lindquist",
+  "en": "And whenever you have constrained inputs like that are interacting with apps,",
+  "zh": "而每当你有这样与(应用)交互的受限输入时,"
+ },
+ {
+  "seg": 486,
+  "start": 1588.924,
+  "end": 1591.747,
+  "speaker": "John Lindquist",
+  "en": "it's a good thing to reach for.",
+  "zh": "这是一个值得去追求的好东西。"
+ },
+ {
+  "seg": 487,
+  "start": 1591.847,
+  "end": 1594.83,
+  "speaker": "John Lindquist",
+  "en": "And to contrast the DOM example.",
+  "zh": "再对比一下那个 DOM 的例子。"
+ },
+ {
+  "seg": 488,
+  "start": 1595.723,
+  "end": 1600.606,
+  "speaker": "John Lindquist",
+  "en": "If you think of taking a screenshot of a webpage and saying what on the screenshot",
+  "zh": "如果你想到对一张网页截图说,截图上"
+ },
+ {
+  "seg": 489,
+  "start": 1601.227,
+  "end": 1605.87,
+  "speaker": "John Lindquist",
+  "en": "or what on our product or website might be confusing to a user,",
+  "zh": "或者说我们的产品或网站上有什么可能让用户感到困惑,"
+ },
+ {
+  "seg": 490,
+  "start": 1606.61,
+  "end": 1607.8877777777777,
+  "speaker": "John Lindquist",
+  "en": "that's not a JEV thing.",
+  "zh": "那不是 JEV 的事。"
+ },
+ {
+  "seg": 491,
+  "start": 1607.971,
+  "end": 1610.2630000000001,
+  "speaker": "John Lindquist",
+  "en": "That's an LLM that can look through an image.",
+  "zh": "那是一个可以查看图像的 LLM。"
+ },
+ {
+  "seg": 492,
+  "start": 1610.313,
+  "end": 1612.825,
+  "speaker": "John Lindquist",
+  "en": "It can compare it to all the images and products in the past.",
+  "zh": "它可以把它和过去所有的图像和产品进行比较。"
+ },
+ {
+  "seg": 493,
+  "start": 1612.875,
+  "end": 1613.415,
+  "speaker": "John Lindquist",
+  "en": "It can say,",
+  "zh": "它可以说,"
+ },
+ {
+  "seg": 494,
+  "start": 1613.435,
+  "end": 1618.318,
+  "speaker": "John Lindquist",
+  "en": "it can look through the layouts and the colors and the contrasts and all the sorts",
+  "zh": "它可以查看布局、颜色、对比度以及各种"
+ },
+ {
+  "seg": 495,
+  "start": 1618.338,
+  "end": 1623.442,
+  "speaker": "John Lindquist",
+  "en": "of things and come up with a discussion for you of here's some points that might be",
+  "zh": "东西,然后给你一个讨论:这里有一些可能的要点,"
+ },
+ {
+  "seg": 496,
+  "start": 1624.362,
+  "end": 1625.5286666666668,
+  "speaker": "John Lindquist",
+  "en": "because the fonts are",
+  "zh": "因为字体是……"
+ },
+ {
+  "seg": 497,
+  "start": 1628.0629999999999,
+  "end": 1629.265,
+  "speaker": "John Lindquist",
+  "en": "As AI",
+  "zh": "随着 AI"
+ },
+ {
+  "seg": 498,
+  "start": 1633.238,
+  "end": 1637.142,
+  "speaker": "Clara Vo",
+  "en": "adoption grows, so do your company's security risks and requirements.",
+  "zh": "采用的增长,你公司的安全风险和要求也在增长。"
+ },
+ {
+  "seg": 499,
+  "start": 1637.722,
+  "end": 1642.7775555555556,
+  "speaker": "Clara Vo",
+  "en": "New frameworks, audits, and vendors keep piling on, but your team isn't getting any bigger.",
+  "zh": "新的框架、审计和供应商不断堆积,但你的团队却没有变大。"
+ },
+ {
+  "seg": 500,
+  "start": 1643.247,
+  "end": 1645.239,
+  "speaker": "Clara Vo",
+  "en": "Most compliance tools promise automation,",
+  "zh": "大多数合规工具都承诺自动化,"
+ },
+ {
+  "seg": 501,
+  "start": 1645.289,
+  "end": 1648.021,
+  "speaker": "Clara Vo",
+  "en": "but you're really stuck doing all the work by hand,",
+  "zh": "但你实际上还是被卡在手工做所有工作,"
+ },
+ {
+  "seg": 502,
+  "start": 1648.071,
+  "end": 1649.022,
+  "speaker": "Clara Vo",
+  "en": "chasing screenshots,",
+  "zh": "追着要截图,"
+ },
+ {
+  "seg": 503,
+  "start": 1649.072,
+  "end": 1653.345,
+  "speaker": "Clara Vo",
+  "en": "validating controls, and playing catch-up when audit season comes around again.",
+  "zh": "验证控制项,等审计季再次来临时又疲于追赶。"
+ },
+ {
+  "seg": 504,
+  "start": 1653.395,
+  "end": 1654.6670000000001,
+  "speaker": "Clara Vo",
+  "en": "Vanta works differently.",
+  "zh": "Vanta 的运作方式不同。"
+ },
+ {
+  "seg": 505,
+  "start": 1654.717,
+  "end": 1658.8836666666668,
+  "speaker": "Clara Vo",
+  "en": "Their agentic trust platform is built to scale with you, not slow you down.",
+  "zh": "不管你的团队是每天都在 Vanta 里,还是生活在 Claude 或 Cursor 这类工具中。"
+ },
+ {
+  "seg": 506,
+  "start": 1659.161,
+  "end": 1663.505,
+  "speaker": "Clara Vo",
+  "en": "With over 1400 automated tests across 400 plus integrations,",
+  "zh": "拥有 1400 多个自动化测试,覆盖 400 多个集成,"
+ },
+ {
+  "seg": 507,
+  "start": 1663.785,
+  "end": 1667.288,
+  "speaker": "Clara Vo",
+  "en": "Vanta collects evidence and monitors your controls year round,",
+  "zh": "Vanta 全年收集证据并监控你的控制项,"
+ },
+ {
+  "seg": 508,
+  "start": 1667.428,
+  "end": 1669.1502222222223,
+  "speaker": "Clara Vo",
+  "en": "cutting your audit prep by 82%.",
+  "zh": "把你的审计准备工作削减 82%。"
+ },
+ {
+  "seg": 509,
+  "start": 1670.391,
+  "end": 1673.6132222222222,
+  "speaker": "Clara Vo",
+  "en": "Plus, you can access the Vanta agent everywhere you work,",
+  "zh": "而且,你可以在工作的任何地方访问 Vanta 智能体,"
+ },
+ {
+  "seg": 510,
+  "start": 1673.533,
+  "end": 1678.033,
+  "speaker": "Clara Vo",
+  "en": "whether your team is in Vanta every day or living in tools like Claude or Cursor.",
+  "zh": "无论你的团队每天都在用 Vanta,还是生活在 Claude 或 Cursor 这样的工具里。"
+ },
+ {
+  "seg": 511,
+  "start": 1678.097,
+  "end": 1679.087,
+  "speaker": "Clara Vo",
+  "en": "Want proof?",
+  "zh": "想要证据?"
+ },
+ {
+  "seg": 512,
+  "start": 1679.137,
+  "end": 1681.859,
+  "speaker": "Clara Vo",
+  "en": "Over 16,000 fast-growing companies like Ramp,",
+  "zh": "超过 16000 家快速成长的公司,比如 Ramp、"
+ },
+ {
+  "seg": 513,
+  "start": 1682.14,
+  "end": 1686.583,
+  "speaker": "Clara Vo",
+  "en": "Ryder, and Harvey save time and resources while scaling fast with Vanta.",
+  "zh": "Ryder 和 Harvey,都在用 Vanta 节省时间和资源,同时快速扩展。"
+ },
+ {
+  "seg": 514,
+  "start": 1687.163,
+  "end": 1693.649,
+  "speaker": "Clara Vo",
+  "en": "My listeners can get $1,000 off by going to vanta.com slash howiai.",
+  "zh": "我的听众可以通过访问 vanta.com slash howiai 获得 1000 美元折扣。"
+ },
+ {
+  "seg": 515,
+  "start": 1694.029,
+  "end": 1701.029,
+  "speaker": "Clara Vo",
+  "en": "That's v-a-n-t-a dot com slash howiai for $1,000 off.",
+  "zh": "就是 v-a-n-t-a dot com slash howiai,获得 1000 美元折扣。"
+ },
+ {
+  "seg": 516,
+  "start": 1702.696,
+  "end": 1704.538,
+  "speaker": "Clara Vo",
+  "en": "Okay, let's do one more.",
+  "zh": "好,我们再来一个。"
+ },
+ {
+  "seg": 517,
+  "start": 1704.558,
+  "end": 1707.08,
+  "speaker": "Clara Vo",
+  "en": "Do you have a last favorite one?",
+  "zh": "你有最后一个最喜欢的吗?"
+ },
+ {
+  "seg": 518,
+  "start": 1707.1,
+  "end": 1708.481,
+  "speaker": "Clara Vo",
+  "en": "I love it.",
+  "zh": "我很喜欢这个。"
+ },
+ {
+  "seg": 519,
+  "start": 1708.501,
+  "end": 1710.203,
+  "speaker": "Clara Vo",
+  "en": "I know there's so many.",
+  "zh": "我知道有太多了。"
+ },
+ {
+  "seg": 520,
+  "start": 1711.851,
+  "end": 1714.314,
+  "speaker": "John Lindquist",
+  "en": "This is super fast.",
+  "zh": "这个非常快。"
+ },
+ {
+  "seg": 521,
+  "start": 1714.334,
+  "end": 1717.999,
+  "speaker": "John Lindquist",
+  "en": "On Wikipedia, there's every page leads to philosophy.",
+  "zh": "在 Wikipedia 上,每个页面都会通向 philosophy(哲学)。"
+ },
+ {
+  "seg": 522,
+  "start": 1718.781,
+  "end": 1720.1698888888889,
+  "speaker": "John Lindquist",
+  "en": "If you've ever done that.",
+  "zh": "如果你曾经做过这件事的话。"
+ },
+ {
+  "seg": 523,
+  "start": 1720.323,
+  "end": 1723.117,
+  "speaker": "John Lindquist",
+  "en": "So you can put in any person in the world or any topic.",
+  "zh": "你可以输入世界上任何一个人或任何主题。"
+ },
+ {
+  "seg": 524,
+  "start": 1723.167,
+  "end": 1726.211,
+  "speaker": "John Lindquist",
+  "en": "So like LeBron James or whatever, run to philosophy.",
+  "zh": "比如 LeBron James 之类的,运行到 philosophy。"
+ },
+ {
+  "seg": 525,
+  "start": 1727.068,
+  "end": 1731.471,
+  "speaker": "John Lindquist",
+  "en": "So you give it an end goal and it looks the entire page and it's going through",
+  "zh": "你给它一个最终目标,它会查看整个页面,并且"
+ },
+ {
+  "seg": 526,
+  "start": 1731.491,
+  "end": 1738.236,
+  "speaker": "John Lindquist",
+  "en": "the Wikipedia API and mapping that route and finding from the person to philosophy.",
+  "zh": "通过 Wikipedia API 映射那条路线,从这个人物找到 philosophy。"
+ },
+ {
+  "seg": 527,
+  "start": 1738.756,
+  "end": 1743.9226666666668,
+  "speaker": "John Lindquist",
+  "en": "So mapping routes as well, like giving it a final destination and it can crawl its way there.",
+  "zh": "所以这也是在映射路线,比如给它一个最终目的地,它就能一路爬取过去。"
+ },
+ {
+  "seg": 528,
+  "start": 1744.017,
+  "end": 1746.9614444444444,
+  "speaker": "John Lindquist",
+  "en": "This one is a favorite of mine because it represents,",
+  "zh": "这个是我的最爱之一,因为它代表了,"
+ },
+ {
+  "seg": 529,
+  "start": 1747.298,
+  "end": 1748.298,
+  "speaker": "John Lindquist",
+  "en": "if you think of a,",
+  "zh": "如果你想象一个,"
+ },
+ {
+  "seg": 530,
+  "start": 1748.899,
+  "end": 1753.701,
+  "speaker": "John Lindquist",
+  "en": "like a workplace where you have multiple agents that could be doing multiple,",
+  "zh": "比如一个工作场所,你有多个智能体,它们可以做多项,"
+ },
+ {
+  "seg": 531,
+  "start": 1753.961,
+  "end": 1757.102,
+  "speaker": "John Lindquist",
+  "en": "they could all have their own tasks and avoiding collisions so",
+  "zh": "它们可以各自有自己的任务,并且避免碰撞,"
+ },
+ {
+  "seg": 532,
+  "start": 1757.122,
+  "end": 1760.163,
+  "speaker": "John Lindquist",
+  "en": "that they never end up on the same space.",
+  "zh": "这样它们永远不会落在同一个格子上。"
+ },
+ {
+  "seg": 533,
+  "start": 1760.643,
+  "end": 1761.904,
+  "speaker": "John Lindquist",
+  "en": "So this is going to,",
+  "zh": "所以这里,"
+ },
+ {
+  "seg": 534,
+  "start": 1762.284,
+  "end": 1764.985,
+  "speaker": "John Lindquist",
+  "en": "the job brief is deliver the fragile blue bin to staging,",
+  "zh": "任务简报是把易碎的蓝色箱子送到 staging(暂存区),"
+ },
+ {
+  "seg": 535,
+  "start": 1765.025,
+  "end": 1767.7472222222223,
+  "speaker": "John Lindquist",
+  "en": "bring medicine to the ward and inspect the spill.",
+  "zh": "把药送到病房,并检查泄漏。"
+ },
+ {
+  "seg": 536,
+  "start": 1768.066,
+  "end": 1770.8437777777779,
+  "speaker": "John Lindquist",
+  "en": "Then you have three people that you can assign to.",
+  "zh": "然后你有三个人可以分配。"
+ },
+ {
+  "seg": 537,
+  "start": 1771.027,
+  "end": 1774.0825555555557,
+  "speaker": "John Lindquist",
+  "en": "So this can move one tick and you can see at each step,",
+  "zh": "所以这可以移动一格,你可以看到在每一步,"
+ },
+ {
+  "seg": 538,
+  "start": 1774.568,
+  "end": 1778.999,
+  "speaker": "John Lindquist",
+  "en": "it's going to be able to control these different agents and make sure that they get",
+  "zh": "它都能控制这些不同的智能体,确保它们"
+ },
+ {
+  "seg": 539,
+  "start": 1779.049,
+  "end": 1783.651,
+  "speaker": "John Lindquist",
+  "en": "to their specific task as quickly as possible and that they never collide",
+  "zh": "尽可能快地到达各自的特定任务,并且它们永远不会"
+ },
+ {
+  "seg": 540,
+  "start": 1783.711,
+  "end": 1785.6554444444444,
+  "speaker": "John Lindquist",
+  "en": "or interfere with the other agents.",
+  "zh": "碰撞或干扰其他智能体。"
+ },
+ {
+  "seg": 541,
+  "start": 1785.911,
+  "end": 1789.432,
+  "speaker": "John Lindquist",
+  "en": "So if you think of this in like agentic programming or any sort",
+  "zh": "所以如果你把这个想象成智能体编程或任何"
+ },
+ {
+  "seg": 542,
+  "start": 1789.452,
+  "end": 1795.094,
+  "speaker": "John Lindquist",
+  "en": "of parallel work you'd be doing to ensure that you have things running and you want",
+  "zh": "你要做的并行工作,确保你的东西在运行,而你想"
+ },
+ {
+  "seg": 543,
+  "start": 1795.174,
+  "end": 1799.3406666666667,
+  "speaker": "John Lindquist",
+  "en": "to like analyze to help steer them in different directions so they never...",
+  "zh": "比如分析并帮助把它们引导到不同方向,这样它们就永远不会……"
+ },
+ {
+  "seg": 544,
+  "start": 1800.127,
+  "end": 1804.208,
+  "speaker": "John Lindquist",
+  "en": "Collide or disrupt each other or touch the same files or whatever.",
+  "zh": "碰撞或互相干扰,或者碰同一个文件之类的。"
+ },
+ {
+  "seg": 545,
+  "start": 1804.708,
+  "end": 1808.05,
+  "speaker": "John Lindquist",
+  "en": "You can ask Jeff to take in like every single,",
+  "zh": "你可以让 Jeff 接收,比如每一个,"
+ },
+ {
+  "seg": 546,
+  "start": 1808.17,
+  "end": 1811.131,
+  "speaker": "John Lindquist",
+  "en": "it's fine if it goes in every single step and it checks,",
+  "zh": "它每一步都走一遍也没关系,它会检查,"
+ },
+ {
+  "seg": 547,
+  "start": 1811.151,
+  "end": 1812.811,
+  "speaker": "John Lindquist",
+  "en": "it doesn't have to plan out the entire thing ahead of time.",
+  "zh": "它不必提前规划整个事情。"
+ },
+ {
+  "seg": 548,
+  "start": 1812.851,
+  "end": 1814.128777777778,
+  "speaker": "John Lindquist",
+  "en": "It can do just in time,",
+  "zh": "它可以即时进行,"
+ },
+ {
+  "seg": 549,
+  "start": 1814.232,
+  "end": 1817.883,
+  "speaker": "John Lindquist",
+  "en": "obviously planning ahead of time with a decent route probably helps it out.",
+  "zh": "当然,提前规划一条还不错的路线大概会对它有帮助。"
+ },
+ {
+  "seg": 550,
+  "start": 1817.933,
+  "end": 1822.014,
+  "speaker": "John Lindquist",
+  "en": "But I think as we get more and more parallel agents and swarms",
+  "zh": "但我认为，随着我们获得越来越多的并行智能体和集群"
+ },
+ {
+  "seg": 551,
+  "start": 1822.414,
+  "end": 1824.8584444444443,
+  "speaker": "John Lindquist",
+  "en": "and whatever words you want to use for that,",
+  "zh": "以及不管你想用什么词来形容它，"
+ },
+ {
+  "seg": 552,
+  "start": 1825.415,
+  "end": 1828.7483333333332,
+  "speaker": "John Lindquist",
+  "en": "this, this concept will become even more and more important.",
+  "zh": "这个概念会变得越来越重要。"
+ },
+ {
+  "seg": 553,
+  "start": 1828.919,
+  "end": 1829.919,
+  "speaker": "Clara Vo",
+  "en": "Well, and what,",
+  "zh": "嗯，那，"
+ },
+ {
+  "seg": 554,
+  "start": 1830.06,
+  "end": 1830.41,
+  "speaker": "Clara Vo",
+  "en": "you know,",
+  "zh": "你知道的，"
+ },
+ {
+  "seg": 555,
+  "start": 1830.46,
+  "end": 1835.603,
+  "speaker": "Clara Vo",
+  "en": "this made me think is Jev unlocks efficient inefficiency,",
+  "zh": "这让我想到 Jeff 解锁了高效的低效率，"
+ },
+ {
+  "seg": 556,
+  "start": 1836.083,
+  "end": 1839.025,
+  "speaker": "Clara Vo",
+  "en": "which is like, it is kind of like inefficient to...",
+  "zh": "也就是说，这确实有点低效……"
+ },
+ {
+  "seg": 557,
+  "start": 1840.356,
+  "end": 1845.244888888889,
+  "speaker": "Clara Vo",
+  "en": "Map out all possible routes, rank them, double check that they're not going to collide.",
+  "zh": "把所有可能的路线都画出来，给它们排序，再仔细检查它们不会相撞。"
+ },
+ {
+  "seg": 558,
+  "start": 1845.338,
+  "end": 1847.338,
+  "speaker": "Clara Vo",
+  "en": "That is actually pretty inefficient.",
+  "zh": "这其实挺低效的。"
+ },
+ {
+  "seg": 559,
+  "start": 1848.319,
+  "end": 1849.8700000000001,
+  "speaker": "Clara Vo",
+  "en": "It's an effective way to solve the problem.",
+  "zh": "这是解决问题的一种有效方式。"
+ },
+ {
+  "seg": 560,
+  "start": 1849.92,
+  "end": 1853.471,
+  "speaker": "Clara Vo",
+  "en": "It's an accurate way to solve the problem, but it feels inefficient.",
+  "zh": "这是解决问题的一种准确方式，但感觉上很低效。"
+ },
+ {
+  "seg": 561,
+  "start": 1853.521,
+  "end": 1856.313,
+  "speaker": "Clara Vo",
+  "en": "And in the past, we were just kind of tossing these problems.",
+  "zh": "而在过去，我们只是把这些问题抛出去。"
+ },
+ {
+  "seg": 562,
+  "start": 1856.363,
+  "end": 1856.873,
+  "speaker": "Clara Vo",
+  "en": "In the past,",
+  "zh": "在过去，"
+ },
+ {
+  "seg": 563,
+  "start": 1856.923,
+  "end": 1857.363,
+  "speaker": "Clara Vo",
+  "en": "last week,",
+  "zh": "上周，"
+ },
+ {
+  "seg": 564,
+  "start": 1857.383,
+  "end": 1861.0140000000001,
+  "speaker": "Clara Vo",
+  "en": "we were tossing these problems to these big brainy LLMs and being like,",
+  "zh": "我们是把这些问题抛给那些聪明的大 LLM，然后说，"
+ },
+ {
+  "seg": 565,
+  "start": 1861.064,
+  "end": 1862.185,
+  "speaker": "Clara Vo",
+  "en": "think really hard.",
+  "zh": "好好想。"
+ },
+ {
+  "seg": 566,
+  "start": 1862.625,
+  "end": 1865.3472222222222,
+  "speaker": "Clara Vo",
+  "en": "Just think really hard and come back with a plan.",
+  "zh": "就好好想，然后带着一个方案回来。"
+ },
+ {
+  "seg": 567,
+  "start": 1865.497,
+  "end": 1866.368,
+  "speaker": "Clara Vo",
+  "en": "And instead here,",
+  "zh": "而在这里，"
+ },
+ {
+  "seg": 568,
+  "start": 1866.418,
+  "end": 1870.18,
+  "speaker": "Clara Vo",
+  "en": "you can really very quickly evaluate all those options,",
+  "zh": "你可以非常快速地评估所有那些选项，"
+ },
+ {
+  "seg": 569,
+  "start": 1870.28,
+  "end": 1871.32,
+  "speaker": "Clara Vo",
+  "en": "stack rank them,",
+  "zh": "对它们进行排名，"
+ },
+ {
+  "seg": 570,
+  "start": 1871.7,
+  "end": 1877.404,
+  "speaker": "Clara Vo",
+  "en": "and go through this sort of like inefficient universe of options and come to",
+  "zh": "然后遍历这种有点低效的选项宇宙，得出"
+ },
+ {
+  "seg": 571,
+  "start": 1877.444,
+  "end": 1879.9995555555556,
+  "speaker": "Clara Vo",
+  "en": "the right, kind of like the right conclusions.",
+  "zh": "正确的、有点像正确的结论。"
+ },
+ {
+  "seg": 572,
+  "start": 1881.026,
+  "end": 1884.6580000000001,
+  "speaker": "Clara Vo",
+  "en": "This is why I'm like very excited about this model because it's all these things",
+  "zh": "这就是为什么我对这个模型感到非常兴奋，因为所有这些事情，"
+ },
+ {
+  "seg": 573,
+  "start": 1884.708,
+  "end": 1886.048,
+  "speaker": "Clara Vo",
+  "en": "that in the past,",
+  "zh": "在过去，"
+ },
+ {
+  "seg": 574,
+  "start": 1886.128,
+  "end": 1891.511,
+  "speaker": "Clara Vo",
+  "en": "I think, maybe with regular LLMs, you know, we're trying to do this delineation.",
+  "zh": "我想，也许用普通的 LLM，你知道，我们试图做这种区分。"
+ },
+ {
+  "seg": 575,
+  "start": 1892.372,
+  "end": 1894.613,
+  "speaker": "Clara Vo",
+  "en": "It feels like you can do things you...",
+  "zh": "感觉上你可以做一些你"
+ },
+ {
+  "seg": 576,
+  "start": 1895.341,
+  "end": 1896.902,
+  "speaker": "Clara Vo",
+  "en": "Never imagined before, right?",
+  "zh": "从前从未想象过的事情，对吧？"
+ },
+ {
+  "seg": 577,
+  "start": 1896.922,
+  "end": 1899.324,
+  "speaker": "Clara Vo",
+  "en": "Like I can create a 3D video game.",
+  "zh": "比如我可以创建一个 3D 视频游戏。"
+ },
+ {
+  "seg": 578,
+  "start": 1899.544,
+  "end": 1901.626,
+  "speaker": "Clara Vo",
+  "en": "I can like generate images out of words.",
+  "zh": "我可以用文字生成图像。"
+ },
+ {
+  "seg": 579,
+  "start": 1901.646,
+  "end": 1906.57,
+  "speaker": "Clara Vo",
+  "en": "Like these LLMs are generative and they allow you to create things you never be able",
+  "zh": "这些 LLM 是生成式的，它们让你能够创造出你以前"
+ },
+ {
+  "seg": 580,
+  "start": 1906.61,
+  "end": 1907.65,
+  "speaker": "Clara Vo",
+  "en": "to create before.",
+  "zh": "从来无法创造的东西。"
+ },
+ {
+  "seg": 581,
+  "start": 1908.011,
+  "end": 1911.463,
+  "speaker": "Clara Vo",
+  "en": "Jeff, I feel like allows me to do all the things I wanted to do,",
+  "zh": "而 Jeff，我感觉让我能做所有我想做的事情，"
+ },
+ {
+  "seg": 582,
+  "start": 1911.513,
+  "end": 1916.497,
+  "speaker": "Clara Vo",
+  "en": "but they felt too cost, ineffective, too slow and not really worth it.",
+  "zh": "但那些事情过去感觉成本太高、效率太低、太慢，而且不太值得。"
+ },
+ {
+  "seg": 583,
+  "start": 1917.037,
+  "end": 1920.06,
+  "speaker": "Clara Vo",
+  "en": "And there are a lot more, a lot more things for me on that pile.",
+  "zh": "而且在那堆事里，我还有多得多的、多得多的其他事情。"
+ },
+ {
+  "seg": 584,
+  "start": 1920.1,
+  "end": 1920.813,
+  "speaker": "Clara Vo",
+  "en": "I love that.",
+  "zh": "我喜欢这个。"
+ },
+ {
+  "seg": 585,
+  "start": 1920.863,
+  "end": 1924.304,
+  "speaker": "Clara Vo",
+  "en": "That there are on my like 3D gaming idea pile.",
+  "zh": "就是在我那堆 3D 游戏点子堆里还有很多。"
+ },
+ {
+  "seg": 586,
+  "start": 1924.404,
+  "end": 1929.226,
+  "speaker": "Clara Vo",
+  "en": "And so that's why maybe as a builder, I'm so excited about this particular model.",
+  "zh": "所以这就是为什么作为一个构建者，我对这个特定的模型如此兴奋。"
+ },
+ {
+  "seg": 587,
+  "start": 1929.906,
+  "end": 1930.857,
+  "speaker": "John Lindquist",
+  "en": "Yeah, I love that.",
+  "zh": "是的，我喜欢这个。"
+ },
+ {
+  "seg": 588,
+  "start": 1930.907,
+  "end": 1931.967,
+  "speaker": "John Lindquist",
+  "en": "I 100% agree.",
+  "zh": "我百分之百同意。"
+ },
+ {
+  "seg": 589,
+  "start": 1932.527,
+  "end": 1937.027,
+  "speaker": "John Lindquist",
+  "en": "It's even like I have so many APIs and so many apps and so many things available.",
+  "zh": "甚至就像我有那么多 API、那么多应用、那么多可用的东西。"
+ },
+ {
+  "seg": 590,
+  "start": 1937.989,
+  "end": 1943.831,
+  "speaker": "John Lindquist",
+  "en": "And the exploring with this is quick and the turnaround is quick and it's exciting",
+  "zh": "而且用这个探索起来很快，周转也很快，看到这些很令人兴奋，"
+ },
+ {
+  "seg": 591,
+  "start": 1943.871,
+  "end": 1947.162,
+  "speaker": "John Lindquist",
+  "en": "to see like you feel you feel progress as you're working with it,",
+  "zh": "就像你在用它工作时能感觉到自己在取得进展，"
+ },
+ {
+  "seg": 592,
+  "start": 1947.212,
+  "end": 1952.881,
+  "speaker": "John Lindquist",
+  "en": "whereas with with generative And I feel the almost because if you're a developer,",
+  "zh": "而用生成式的话，我觉得几乎是因为如果你是一个开发者，"
+ },
+ {
+  "seg": 593,
+  "start": 1953.682,
+  "end": 1954.923,
+  "speaker": "John Lindquist",
+  "en": "you understand the APIs,",
+  "zh": "你理解 API，"
+ },
+ {
+  "seg": 594,
+  "start": 1954.963,
+  "end": 1957.496,
+  "speaker": "John Lindquist",
+  "en": "you understand the reasoning, you understand classification.",
+  "zh": "你理解推理，你理解分类。"
+ },
+ {
+  "seg": 595,
+  "start": 1957.546,
+  "end": 1960.909,
+  "speaker": "John Lindquist",
+  "en": "Whereas with the LLMs, a lot of it is guessing.",
+  "zh": "而用 LLM，很多东西都是靠猜。"
+ },
+ {
+  "seg": 596,
+  "start": 1961.27,
+  "end": 1962.8255555555556,
+  "speaker": "John Lindquist",
+  "en": "And if something goes wrong,",
+  "zh": "如果出了什么问题，"
+ },
+ {
+  "seg": 597,
+  "start": 1963.092,
+  "end": 1967.356,
+  "speaker": "John Lindquist",
+  "en": "you need to think of a different sentence to say with decision models,",
+  "zh": "你需要想一句不同的话来说。而用决策模型，"
+ },
+ {
+  "seg": 598,
+  "start": 1967.376,
+  "end": 1967.826,
+  "speaker": "John Lindquist",
+  "en": "you can,",
+  "zh": "你可以，"
+ },
+ {
+  "seg": 599,
+  "start": 1967.876,
+  "end": 1969.688,
+  "speaker": "John Lindquist",
+  "en": "you can think the decisions have made and like,",
+  "zh": "你可以思考已经做出的决策，然后像，"
+ },
+ {
+  "seg": 600,
+  "start": 1969.738,
+  "end": 1971.36,
+  "speaker": "John Lindquist",
+  "en": "oh, well, let's take this different route.",
+  "zh": "哦，好吧，那我们换个不同的路线。"
+ },
+ {
+  "seg": 601,
+  "start": 1971.4,
+  "end": 1972.621,
+  "speaker": "John Lindquist",
+  "en": "It feels much more like programming,",
+  "zh": "说实话，它感觉更像编程，"
+ },
+ {
+  "seg": 602,
+  "start": 1972.661,
+  "end": 1973.122,
+  "speaker": "John Lindquist",
+  "en": "to be honest,",
+  "zh": "说实话，"
+ },
+ {
+  "seg": 603,
+  "start": 1973.162,
+  "end": 1978.615,
+  "speaker": "John Lindquist",
+  "en": "where I feel much more in control when I see something goes wrong because I know all",
+  "zh": "当我看到出问题时，我感觉自己掌控力强得多，因为我知道它所有的"
+ },
+ {
+  "seg": 604,
+  "start": 1978.635,
+  "end": 1980.746111111111,
+  "speaker": "John Lindquist",
+  "en": "of its options and I know what I want.",
+  "zh": "选项，我知道我想要什么。"
+ },
+ {
+  "seg": 605,
+  "start": 1983.733,
+  "end": 1984.163,
+  "speaker": "John Lindquist",
+  "en": "It's fun.",
+  "zh": "很有趣。"
+ },
+ {
+  "seg": 606,
+  "start": 1984.213,
+  "end": 1985.044,
+  "speaker": "John Lindquist",
+  "en": "It's just so fun.",
+  "zh": "真的太有趣了。"
+ },
+ {
+  "seg": 607,
+  "start": 1985.094,
+  "end": 1985.824,
+  "speaker": "Clara Vo",
+  "en": "It's so fun.",
+  "zh": "太有趣了。"
+ },
+ {
+  "seg": 608,
+  "start": 1985.874,
+  "end": 1991.476,
+  "speaker": "Clara Vo",
+  "en": "And I love that you say it feels like the smartest function.",
+  "zh": "我很喜欢你说它感觉像最聪明的函数。"
+ },
+ {
+  "seg": 609,
+  "start": 1991.936,
+  "end": 1996.217,
+  "speaker": "Clara Vo",
+  "en": "Like it just feels like a function that has a lot of intelligence built into it,",
+  "zh": "就像我输入特定的东西，然后得到非常特定的输出。"
+ },
+ {
+  "seg": 610,
+  "start": 1996.237,
+  "end": 1997.288,
+  "speaker": "Clara Vo",
+  "en": "but it's still a function.",
+  "zh": "但它仍然是一个函数。"
+ },
+ {
+  "seg": 611,
+  "start": 1997.338,
+  "end": 2002.039,
+  "speaker": "Clara Vo",
+  "en": "Like it's still I input specific things and I get out very specific things.",
+  "zh": "就是这样,仍然是我输入特定的东西,然后得到非常特定的东西。"
+ },
+ {
+  "seg": 612,
+  "start": 2002.079,
+  "end": 2004.48,
+  "speaker": "Clara Vo",
+  "en": "I can just reason with it a lot more.",
+  "zh": "我可以更多地跟它推理。"
+ },
+ {
+  "seg": 613,
+  "start": 2004.58,
+  "end": 2006.041,
+  "speaker": "Clara Vo",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 614,
+  "start": 2006.061,
+  "end": 2011.883,
+  "speaker": "Clara Vo",
+  "en": "So if you've stayed with this podcast this long, it's just John Clare, two Jeff boys.",
+  "zh": "那么如果你听这期播客听到现在还没走，那就只剩下 John Clare 和两个 Jeff 兄弟了。"
+ },
+ {
+  "seg": 615,
+  "start": 2014.787,
+  "end": 2017.089,
+  "speaker": "Clara Vo",
+  "en": "Excited about decision models.",
+  "zh": "对决策模型感到兴奋。"
+ },
+ {
+  "seg": 616,
+  "start": 2017.169,
+  "end": 2021.752,
+  "speaker": "Clara Vo",
+  "en": "John, okay, I'm going to give you, because we're at example nine of 23.",
+  "zh": "John，好，我要给你，因为我们已经到了 23 个例子中的第 9 个。"
+ },
+ {
+  "seg": 617,
+  "start": 2021.792,
+  "end": 2027.357,
+  "speaker": "Clara Vo",
+  "en": "I'm going to give you one last chance to pick a favorite from your remaining demos",
+  "zh": "在我们进入快速问答环节并放你走之前，我要给你最后一次机会，从你剩下的演示里挑一个最喜欢的。"
+ },
+ {
+  "seg": 618,
+  "start": 2027.417,
+  "end": 2031.92,
+  "speaker": "Clara Vo",
+  "en": "before we do lightning round and kind of get you out of here.",
+  "zh": "这个对我来说真的很有趣，因为……"
+ },
+ {
+  "seg": 619,
+  "start": 2033.221,
+  "end": 2035.332111111111,
+  "speaker": "John Lindquist",
+  "en": "This one's really fun to me because...",
+  "zh": "它是一个演讲教练，"
+ },
+ {
+  "seg": 620,
+  "start": 2037.035,
+  "end": 2038.4794444444444,
+  "speaker": "John Lindquist",
+  "en": "It's a presentation coach,",
+  "zh": "我点击麦克风，"
+ },
+ {
+  "seg": 621,
+  "start": 2039.256,
+  "end": 2041.077,
+  "speaker": "John Lindquist",
+  "en": "and so I click the microphone,",
+  "zh": "我开始讲话，"
+ },
+ {
+  "seg": 622,
+  "start": 2041.137,
+  "end": 2042.137,
+  "speaker": "John Lindquist",
+  "en": "I'd start talking,",
+  "zh": "当我在讲话的时候，"
+ },
+ {
+  "seg": 623,
+  "start": 2042.258,
+  "end": 2043.519,
+  "speaker": "John Lindquist",
+  "en": "and as I was talking,",
+  "zh": "我会有一份要点清单，比如一期播客或某个我想确保"
+ },
+ {
+  "seg": 624,
+  "start": 2043.919,
+  "end": 2046.88,
+  "speaker": "John Lindquist",
+  "en": "I'd have a list of bullet points in either a podcast or something that I want",
+  "zh": "覆盖到的东西，或者一次访谈或任何东西，"
+ },
+ {
+  "seg": 625,
+  "start": 2046.9,
+  "end": 2049.6222222222223,
+  "speaker": "John Lindquist",
+  "en": "to make sure I cover or an interview or anything,",
+  "zh": "当我开始讲话的时候，"
+ },
+ {
+  "seg": 626,
+  "start": 2049.742,
+  "end": 2051.223,
+  "speaker": "John Lindquist",
+  "en": "and as I start talking,",
+  "zh": "它会听我说的一切，然后开始打勾，确保"
+ },
+ {
+  "seg": 627,
+  "start": 2051.243,
+  "end": 2055.7949999999996,
+  "speaker": "John Lindquist",
+  "en": "it listens through everything I say and then starts checking the boxes to make sure",
+  "zh": "我把每一点都覆盖到了，所以让我们来真实演示一下这个实时功能。"
+ },
+ {
+  "seg": 628,
+  "start": 2055.845,
+  "end": 2059.547,
+  "speaker": "John Lindquist",
+  "en": "that I covered everything, and so let's say this real-time",
+  "zh": "作为一个喜欢跑题的人，"
+ },
+ {
+  "seg": 629,
+  "start": 2062.102,
+  "end": 2063.573,
+  "speaker": "John Lindquist",
+  "en": "As someone who likes to go off on tangents,",
+  "zh": "你知道的，我会对某件事充满热情，然后走偏方向。"
+ },
+ {
+  "seg": 630,
+  "start": 2063.623,
+  "end": 2066.415,
+  "speaker": "John Lindquist",
+  "en": "you know, I'll get passionate about something, I'll go a different way.",
+  "zh": "你在和时间赛跑，Jev 可以帮你保持在正轨上。"
+ },
+ {
+  "seg": 631,
+  "start": 2066.465,
+  "end": 2071.369,
+  "speaker": "John Lindquist",
+  "en": "You're under the clock and Jev can be your stay on track.",
+  "zh": "我觉得它有点像，"
+ },
+ {
+  "seg": 632,
+  "start": 2071.629,
+  "end": 2073.129,
+  "speaker": "John Lindquist",
+  "en": "And I think it's kind of a,",
+  "zh": "几乎像一个生活教练，就像，你需要确保你把这些点都讲到。"
+ },
+ {
+  "seg": 633,
+  "start": 2073.37,
+  "end": 2076.172,
+  "speaker": "John Lindquist",
+  "en": "almost a life coach of like, you need to make sure you hit all these things.",
+  "zh": "我会盯着你做的每一件事，"
+ },
+ {
+  "seg": 634,
+  "start": 2076.212,
+  "end": 2078.3039999999996,
+  "speaker": "John Lindquist",
+  "en": "I'm going to watch every single thing you do,",
+  "zh": "你说的每一个词，确保……"
+ },
+ {
+  "seg": 635,
+  "start": 2078.354,
+  "end": 2081.016,
+  "speaker": "John Lindquist",
+  "en": "every single word you say and make sure that,",
+  "zh": "你甚至可以加上红色闪烁的警告灯，提示，"
+ },
+ {
+  "seg": 636,
+  "start": 2081.456,
+  "end": 2083.6479999999997,
+  "speaker": "John Lindquist",
+  "en": "and you could start doing like red flashing lights of,",
+  "zh": "你知道的，你剩下的时间不多了。"
+ },
+ {
+  "seg": 637,
+  "start": 2083.698,
+  "end": 2085.199,
+  "speaker": "John Lindquist",
+  "en": "you know, you have limited time left.",
+  "zh": "你还需要讲完这些内容。"
+ },
+ {
+  "seg": 638,
+  "start": 2085.239,
+  "end": 2087.3869999999997,
+  "speaker": "John Lindquist",
+  "en": "You still need to say all this sort of stuff.",
+  "zh": "所以这个例子很打动我这个老师、演讲者、工作坊带教者的心。"
+ },
+ {
+  "seg": 639,
+  "start": 2087.437,
+  "end": 2091.781,
+  "speaker": "John Lindquist",
+  "en": "So this one speaks to me as a teacher, presenter, workshop getter.",
+  "zh": "我喜欢这个。"
+ },
+ {
+  "seg": 640,
+  "start": 2092.622,
+  "end": 2093.783,
+  "speaker": "Clara Vo",
+  "en": "I love this.",
+  "zh": "我最近刚参加了 Lenny 的峰会，做了一个类似开幕演讲的东西。"
+ },
+ {
+  "seg": 641,
+  "start": 2094.104,
+  "end": 2101.104,
+  "speaker": "Clara Vo",
+  "en": "I just did Lenny's summit recently and gave the kind of like opening talk.",
+  "zh": "我很讨厌那些提词器，因为它们会规定，"
+ },
+ {
+  "seg": 642,
+  "start": 2101.731,
+  "end": 2104.133,
+  "speaker": "Clara Vo",
+  "en": "And I hate those monitors because they're like,",
+  "zh": "嘿，你上面只能放三个要点。"
+ },
+ {
+  "seg": 643,
+  "start": 2104.153,
+  "end": 2105.855,
+  "speaker": "Clara Vo",
+  "en": "hey, you can only have three bullet points on here.",
+  "zh": "我就说，没事，"
+ },
+ {
+  "seg": 644,
+  "start": 2105.875,
+  "end": 2106.516,
+  "speaker": "Clara Vo",
+  "en": "I'm like, that's fine.",
+  "zh": "随便吧。"
+ },
+ {
+  "seg": 645,
+  "start": 2106.536,
+  "end": 2107.084,
+  "speaker": "Clara Vo",
+  "en": "Whatever.",
+  "zh": "但我喜欢东拉西扯。"
+ },
+ {
+  "seg": 646,
+  "start": 2107.134,
+  "end": 2108.335,
+  "speaker": "Clara Vo",
+  "en": "But then I like to ramble.",
+  "zh": "我喜欢和观众互动。"
+ },
+ {
+  "seg": 647,
+  "start": 2108.355,
+  "end": 2109.7438888888887,
+  "speaker": "Clara Vo",
+  "en": "I like to work the crowd.",
+  "zh": "我不知道自己有没有讲到那个要点，"
+ },
+ {
+  "seg": 648,
+  "start": 2110.137,
+  "end": 2112.039,
+  "speaker": "John Lindquist",
+  "en": "I don't know if I've said that bullet point",
+  "zh": "讲没讲过。"
+ },
+ {
+  "seg": 649,
+  "start": 2112.079,
+  "end": 2112.459,
+  "speaker": "Clara Vo",
+  "en": "or not.",
+  "zh": "或者不是。"
+ },
+ {
+  "seg": 650,
+  "start": 2112.499,
+  "end": 2116.524,
+  "speaker": "Clara Vo",
+  "en": "And so imagine you speaker notes could check off as you go and",
+  "zh": "想象一下,演讲者备注可以随着你的进行逐项勾选,"
+ },
+ {
+  "seg": 651,
+  "start": 2117.064,
+  "end": 2119.306,
+  "speaker": "Clara Vo",
+  "en": "then even progress your slide for you.",
+  "zh": "甚至还能替你翻到下一张幻灯片。"
+ },
+ {
+  "seg": 652,
+  "start": 2119.406,
+  "end": 2120.598,
+  "speaker": "Clara Vo",
+  "en": "Like you're done here.",
+  "zh": "就像“你这里讲完了,"
+ },
+ {
+  "seg": 653,
+  "start": 2120.648,
+  "end": 2122.53,
+  "speaker": "Clara Vo",
+  "en": "Let's move on.",
+  "zh": "我们继续下一个”。"
+ },
+ {
+  "seg": 654,
+  "start": 2124.848,
+  "end": 2129.07,
+  "speaker": "Clara Vo",
+  "en": "I do have a question about your real-time, again,",
+  "zh": "我确实又有一个关于你们实时功能的问题,"
+ },
+ {
+  "seg": 655,
+  "start": 2129.09,
+  "end": 2131.071,
+  "speaker": "Clara Vo",
+  "en": "because I like to make this very tactical for people,",
+  "zh": "因为我喜欢把这个讲得非常具体,"
+ },
+ {
+  "seg": 656,
+  "start": 2131.111,
+  "end": 2133.2019999999998,
+  "speaker": "Clara Vo",
+  "en": "and I'm curious how you approach this.",
+  "zh": "我很好奇你们是怎么处理这个的。"
+ },
+ {
+  "seg": 657,
+  "start": 2133.252,
+  "end": 2135.133,
+  "speaker": "Clara Vo",
+  "en": "On these real-time voice ones,",
+  "zh": "在这些实时语音的场景里,"
+ },
+ {
+  "seg": 658,
+  "start": 2135.293,
+  "end": 2142.293,
+  "speaker": "Clara Vo",
+  "en": "are you constantly putting in the long stream of text to the moment?",
+  "zh": "你们是不断地把整段长文本流送进去吗?"
+ },
+ {
+  "seg": 659,
+  "start": 2142.836,
+  "end": 2146.438,
+  "speaker": "Clara Vo",
+  "en": "Or are you doing a moving window of snippets?",
+  "zh": "还是做一个移动窗口处理片段?"
+ },
+ {
+  "seg": 660,
+  "start": 2146.518,
+  "end": 2147.518,
+  "speaker": "Clara Vo",
+  "en": "I'm just curious.",
+  "zh": "我只是好奇。"
+ },
+ {
+  "seg": 661,
+  "start": 2148.571,
+  "end": 2149.422,
+  "speaker": "John Lindquist",
+  "en": "Yeah, it's doing a,",
+  "zh": "对,它是做一个,"
+ },
+ {
+  "seg": 662,
+  "start": 2149.472,
+  "end": 2151.774,
+  "speaker": "John Lindquist",
+  "en": "I can't remember exactly the logic,",
+  "zh": "我记不清具体逻辑了,"
+ },
+ {
+  "seg": 663,
+  "start": 2151.794,
+  "end": 2155.458,
+  "speaker": "John Lindquist",
+  "en": "but it is analyzing what you've set up until then.",
+  "zh": "但它确实在分析你到目前为止说过的内容。"
+ },
+ {
+  "seg": 664,
+  "start": 2155.478,
+  "end": 2160.423,
+  "speaker": "John Lindquist",
+  "en": "It is like concatenating each word until it reaches a point where it can take an action.",
+  "zh": "它会把每个词拼接起来,直到达到一个可以采取行动的点。"
+ },
+ {
+  "seg": 665,
+  "start": 2160.703,
+  "end": 2164.607,
+  "speaker": "John Lindquist",
+  "en": "And it essentially transforms that into the payload that it's going to send over to",
+  "zh": "然后它基本上会把那个内容转换成它要发送给"
+ },
+ {
+  "seg": 666,
+  "start": 2164.647,
+  "end": 2165.377,
+  "speaker": "John Lindquist",
+  "en": "the function.",
+  "zh": "函数的负载。"
+ },
+ {
+  "seg": 667,
+  "start": 2165.427,
+  "end": 2168.18,
+  "speaker": "John Lindquist",
+  "en": "And so that one is, it's stored in the, it's in the history.",
+  "zh": "所以那个内容,它被存储在,它在历史记录里。"
+ },
+ {
+  "seg": 668,
+  "start": 2168.23,
+  "end": 2173.375,
+  "speaker": "John Lindquist",
+  "en": "Like you could have undo and whatever because they turn unstructured into structured data.",
+  "zh": "就像你可以做撤销之类的,因为它们把非结构化数据变成了结构化数据。"
+ },
+ {
+  "seg": 669,
+  "start": 2173.415,
+  "end": 2174.415,
+  "speaker": "Clara Vo",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 670,
+  "start": 2174.648,
+  "end": 2181.53,
+  "speaker": "John Lindquist",
+  "en": "But yeah, it's a window which then gets chopped off and then you start your new window of text.",
+  "zh": "但对,它是一个窗口,窗口会被切掉,然后你开始新的文本窗口。"
+ },
+ {
+  "seg": 671,
+  "start": 2181.75,
+  "end": 2185.46,
+  "speaker": "Clara Vo",
+  "en": "This is a good moment to tell people exactly how much this thing costs.",
+  "zh": "现在是告诉大家这个东西到底多少钱的好时机。"
+ },
+ {
+  "seg": 672,
+  "start": 2185.51,
+  "end": 2187.031,
+  "speaker": "Clara Vo",
+  "en": "I feel like last time I checked,",
+  "zh": "我记得我上次查的时候,"
+ },
+ {
+  "seg": 673,
+  "start": 2187.051,
+  "end": 2192.012,
+  "speaker": "Clara Vo",
+  "en": "it was like four cents per million input tokens and nothing for output tokens",
+  "zh": "大概是每百万输入 token 四美分,输出 token 不要钱,"
+ },
+ {
+  "seg": 674,
+  "start": 2192.052,
+  "end": 2192.512,
+  "speaker": "Clara Vo",
+  "en": "unless you,",
+  "zh": "除非你"
+ },
+ {
+  "seg": 675,
+  "start": 2192.532,
+  "end": 2196.809777777778,
+  "speaker": "Clara Vo",
+  "en": "like me, are using Vercel AI Gateway right now and then it's completely free.",
+  "zh": "像我一样,现在正在用 Vercel AI Gateway,那就完全免费。"
+ },
+ {
+  "seg": 676,
+  "start": 2197.273,
+  "end": 2198.273,
+  "speaker": "Clara Vo",
+  "en": "Completely free.",
+  "zh": "完全免费。"
+ },
+ {
+  "seg": 677,
+  "start": 2201.054,
+  "end": 2207.84,
+  "speaker": "Clara Vo",
+  "en": "So again, I can talk, I can yap, but I don't know if I can yap a million tokens quite yet.",
+  "zh": "所以再说了,我可以讲话,我可以唠叨,但我不知道我能不能唠叨出一百万个 token。"
+ },
+ {
+  "seg": 678,
+  "start": 2209.361,
+  "end": 2210.242,
+  "speaker": "John Lindquist",
+  "en": "Challenge accepted, right?",
+  "zh": "挑战接受,对吧?"
+ },
+ {
+  "seg": 679,
+  "start": 2210.262,
+  "end": 2211.1319999999996,
+  "speaker": "Clara Vo",
+  "en": "Yeah, exactly.",
+  "zh": "对,没错。"
+ },
+ {
+  "seg": 680,
+  "start": 2211.182,
+  "end": 2212.824,
+  "speaker": "Clara Vo",
+  "en": "It's pretty amazing.",
+  "zh": "这相当惊人。"
+ },
+ {
+  "seg": 681,
+  "start": 2212.904,
+  "end": 2215.366,
+  "speaker": "Clara Vo",
+  "en": "Well, these have been such good use cases.",
+  "zh": "嗯,这些都是非常好的用例。"
+ },
+ {
+  "seg": 682,
+  "start": 2215.406,
+  "end": 2218.448,
+  "speaker": "Clara Vo",
+  "en": "We've had a lot of real-time voice use cases,",
+  "zh": "我们已经讲了很多实时语音用例,"
+ },
+ {
+  "seg": 683,
+  "start": 2218.508,
+  "end": 2221.471,
+  "speaker": "Clara Vo",
+  "en": "sort of like pairing deduplication use cases,",
+  "zh": "类似配对去重用例,"
+ },
+ {
+  "seg": 684,
+  "start": 2222.091,
+  "end": 2225.174,
+  "speaker": "Clara Vo",
+  "en": "routing and navigation and multi-turn,",
+  "zh": "路由和导航以及多轮、"
+ },
+ {
+  "seg": 685,
+  "start": 2225.354,
+  "end": 2229.137,
+  "speaker": "Clara Vo",
+  "en": "multi-path kind of scoring, which I think is awesome.",
+  "zh": "多路径的评分,我觉得这些很棒。"
+ },
+ {
+  "seg": 686,
+  "start": 2229.721,
+  "end": 2233.866,
+  "speaker": "Clara Vo",
+  "en": "And then this one, which is like just keeping you on track.",
+  "zh": "然后是这一个,就是让你保持正轨。"
+ },
+ {
+  "seg": 687,
+  "start": 2233.966,
+  "end": 2235.688222222222,
+  "speaker": "Clara Vo",
+  "en": "Did you do the things you said?",
+  "zh": "你做了你说过要做的事吗?"
+ },
+ {
+  "seg": 688,
+  "start": 2236.389,
+  "end": 2239.04,
+  "speaker": "Clara Vo",
+  "en": "You would do while you're while you're talking.",
+  "zh": "在你讲话的同时。"
+ },
+ {
+  "seg": 689,
+  "start": 2239.09,
+  "end": 2241.3122222222223,
+  "speaker": "John Lindquist",
+  "en": "Did you present the the monitor, right?",
+  "zh": "你展示了那个监视器,对吧?"
+ },
+ {
+  "seg": 690,
+  "start": 2241.411,
+  "end": 2243.412,
+  "speaker": "John Lindquist",
+  "en": "The thing that's always watching you and making sure you",
+  "zh": "那个一直在看着你、确保你"
+ },
+ {
+  "seg": 691,
+  "start": 2243.752,
+  "end": 2244.152,
+  "speaker": "Clara Vo",
+  "en": "love it.",
+  "zh": "我喜欢这个。"
+ },
+ {
+  "seg": 692,
+  "start": 2244.792,
+  "end": 2246.453,
+  "speaker": "Clara Vo",
+  "en": "Let's let's double check.",
+  "zh": "让我们再确认一下。"
+ },
+ {
+  "seg": 693,
+  "start": 2246.473,
+  "end": 2247.473,
+  "speaker": "Clara Vo",
+  "en": "Did we do it?",
+  "zh": "我们做了吗?"
+ },
+ {
+  "seg": 694,
+  "start": 2247.594,
+  "end": 2248.9828888888887,
+  "speaker": "Clara Vo",
+  "en": "Did we cover what Jev is?",
+  "zh": "我们讲了 Jev 是什么吗?"
+ },
+ {
+  "seg": 695,
+  "start": 2249.314,
+  "end": 2250.314,
+  "speaker": "Clara Vo",
+  "en": "Why speed?",
+  "zh": "为什么是速度?"
+ },
+ {
+  "seg": 696,
+  "start": 2250.595,
+  "end": 2251.595,
+  "speaker": "Clara Vo",
+  "en": "What it costs?",
+  "zh": "成本是多少?"
+ },
+ {
+  "seg": 697,
+  "start": 2252.055,
+  "end": 2253.1059999999998,
+  "speaker": "Clara Vo",
+  "en": "Does the app stage?",
+  "zh": "应用处于什么阶段?"
+ },
+ {
+  "seg": 698,
+  "start": 2253.156,
+  "end": 2254.426,
+  "speaker": "Clara Vo",
+  "en": "Where does it fall short?",
+  "zh": "它哪里不足?"
+ },
+ {
+  "seg": 699,
+  "start": 2254.476,
+  "end": 2255.476,
+  "speaker": "Clara Vo",
+  "en": "Did we call?",
+  "zh": "我们提到了吗?"
+ },
+ {
+  "seg": 700,
+  "start": 2255.617,
+  "end": 2257.147,
+  "speaker": "Clara Vo",
+  "en": "Did we talk about where it falls short?",
+  "zh": "我们聊过它哪里不足了吗？"
+ },
+ {
+  "seg": 701,
+  "start": 2257.197,
+  "end": 2259.6279999999997,
+  "speaker": "Clara Vo",
+  "en": "A little bit about where you'd want to pull in an LLM.",
+  "zh": "聊了一点你想在哪些地方引入 LLM。"
+ },
+ {
+  "seg": 702,
+  "start": 2259.678,
+  "end": 2263.8446666666664,
+  "speaker": "Clara Vo",
+  "en": "But have you ever tried to throw Jev at something and didn't do a good job?",
+  "zh": "但你有没有试过把 Jev 扔给某个任务，结果它做得不好？"
+ },
+ {
+  "seg": 703,
+  "start": 2266.468,
+  "end": 2267.569,
+  "speaker": "John Lindquist",
+  "en": "Not yet.",
+  "zh": "还没有。"
+ },
+ {
+  "seg": 704,
+  "start": 2267.729,
+  "end": 2271.61,
+  "speaker": "John Lindquist",
+  "en": "I don't think I've spent enough time since it's been out for a matter",
+  "zh": "我觉得我花的时间还不够，因为它才发布几天，"
+ },
+ {
+  "seg": 705,
+  "start": 2271.63,
+  "end": 2272.13,
+  "speaker": "John Lindquist",
+  "en": "of days",
+  "zh": "就那么几天，"
+ },
+ {
+  "seg": 706,
+  "start": 2274.371,
+  "end": 2281.133,
+  "speaker": "John Lindquist",
+  "en": "really analyzing how smart it is versus what I would say there's times",
+  "zh": "还没真正分析过它到底有多聪明，相对于我所说的那些"
+ },
+ {
+  "seg": 707,
+  "start": 2281.253,
+  "end": 2284.444,
+  "speaker": "John Lindquist",
+  "en": "falls short where I add another layer of classification in.",
+  "zh": "它会不足的情况，也就是我再加一层分类的时候。"
+ },
+ {
+  "seg": 708,
+  "start": 2284.494,
+  "end": 2288.886,
+  "speaker": "John Lindquist",
+  "en": "So I do multi-step and I've seen people critique it where they only do a single pass",
+  "zh": "所以我做多步，我见过有人批评它，因为他们只做单次遍历"
+ },
+ {
+  "seg": 709,
+  "start": 2288.936,
+  "end": 2290.3669999999997,
+  "speaker": "John Lindquist",
+  "en": "and they think that's not good enough.",
+  "zh": "他们觉得那不够好。"
+ },
+ {
+  "seg": 710,
+  "start": 2290.417,
+  "end": 2291.587,
+  "speaker": "John Lindquist",
+  "en": "I'm not going to use this anymore.",
+  "zh": "我不会再用了。"
+ },
+ {
+  "seg": 711,
+  "start": 2291.637,
+  "end": 2292.381,
+  "speaker": "Clara Vo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 712,
+  "start": 2292.431,
+  "end": 2294.082,
+  "speaker": "John Lindquist",
+  "en": "When I run into those scenarios,",
+  "zh": "当我遇到那些场景时，"
+ },
+ {
+  "seg": 713,
+  "start": 2294.132,
+  "end": 2298.033,
+  "speaker": "John Lindquist",
+  "en": "I'll do multi-pass where I'll do one classification layer and then another,",
+  "zh": "我会做多遍，我做一层分类，然后再一层，"
+ },
+ {
+  "seg": 714,
+  "start": 2298.053,
+  "end": 2298.723,
+  "speaker": "John Lindquist",
+  "en": "and then another.",
+  "zh": "然后再一层。"
+ },
+ {
+  "seg": 715,
+  "start": 2298.773,
+  "end": 2302.894,
+  "speaker": "John Lindquist",
+  "en": "So I think there might be a disconnect there between some people",
+  "zh": "所以我觉得在某些人之间存在脱节，"
+ },
+ {
+  "seg": 716,
+  "start": 2302.914,
+  "end": 2304.074,
+  "speaker": "John Lindquist",
+  "en": "who try it out first and they're like,",
+  "zh": "他们先试用了一下，然后说，"
+ },
+ {
+  "seg": 717,
+  "start": 2304.094,
+  "end": 2307.275,
+  "speaker": "John Lindquist",
+  "en": "this isn't good enough at classification or they don't like define",
+  "zh": "它的分类不够好，或者他们没定义好"
+ },
+ {
+  "seg": 718,
+  "start": 2307.295,
+  "end": 2311.096,
+  "speaker": "John Lindquist",
+  "en": "the classifications or they don't have strong enough APIs.",
+  "zh": "分类，或者他们的 API 不够强。"
+ },
+ {
+  "seg": 719,
+  "start": 2312.377,
+  "end": 2314.897,
+  "speaker": "John Lindquist",
+  "en": "So I think just when it falls short,",
+  "zh": "所以我觉得当它不足时，"
+ },
+ {
+  "seg": 720,
+  "start": 2316.058,
+  "end": 2317.488,
+  "speaker": "John Lindquist",
+  "en": "because it's fast and free,",
+  "zh": "因为它又快又免费，"
+ },
+ {
+  "seg": 721,
+  "start": 2317.538,
+  "end": 2322.077,
+  "speaker": "John Lindquist",
+  "en": "don't worry about adding just another layer and then Over time,",
+  "zh": "别担心，就再加一层。然后随着时间推移，"
+ },
+ {
+  "seg": 722,
+  "start": 2322.097,
+  "end": 2326.179,
+  "speaker": "John Lindquist",
+  "en": "you could compress those down into a single layer as you get more and more data",
+  "zh": "随着你获得越来越多强化了从一步到下一步所需的确切流程的数据，"
+ },
+ {
+  "seg": 723,
+  "start": 2326.219,
+  "end": 2331.241,
+  "speaker": "John Lindquist",
+  "en": "that reinforces what the exact flows are that you need to go from from step to step.",
+  "zh": "你可以把那些压缩成单层。"
+ },
+ {
+  "seg": 724,
+  "start": 2331.982,
+  "end": 2334.263,
+  "speaker": "John Lindquist",
+  "en": "Again, it's all so brand new.",
+  "zh": "再说一遍，这一切都太新了。"
+ },
+ {
+  "seg": 725,
+  "start": 2334.443,
+  "end": 2335.644,
+  "speaker": "Clara Vo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 726,
+  "start": 2336.844,
+  "end": 2337.564,
+  "speaker": "John Lindquist",
+  "en": "And it's getting smarter.",
+  "zh": "而且它正变得更聪明。"
+ },
+ {
+  "seg": 727,
+  "start": 2337.605,
+  "end": 2341.5494444444444,
+  "speaker": "John Lindquist",
+  "en": "Like they said, these models are, you know, there's demos will ever be.",
+  "zh": "就像他们说的，这些模型，你知道，演示就是它们能达到的极限。"
+ },
+ {
+  "seg": 728,
+  "start": 2341.727,
+  "end": 2342.2569999999996,
+  "speaker": "Clara Vo",
+  "en": "Yep.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 729,
+  "start": 2342.307,
+  "end": 2344.825,
+  "speaker": "John Lindquist",
+  "en": "And even these models will get much, much smarter.",
+  "zh": "而且即使这些模型也会变得更聪明得多。"
+ },
+ {
+  "seg": 730,
+  "start": 2344.875,
+  "end": 2348.458,
+  "speaker": "Clara Vo",
+  "en": "Well, and I'll give folks one other tactical piece of advice,",
+  "zh": "好的，我再给大家一个战术性的建议，"
+ },
+ {
+  "seg": 731,
+  "start": 2348.498,
+  "end": 2353.321,
+  "speaker": "Clara Vo",
+  "en": "which is you may use a specific type of Jav call,",
+  "zh": "就是你可能会用一种特定类型的 Jav 调用，"
+ },
+ {
+  "seg": 732,
+  "start": 2353.421,
+  "end": 2356.9765555555555,
+  "speaker": "Clara Vo",
+  "en": "like a null, and you may say, I think this is a yes-no question.",
+  "zh": "比如 null，然后你可能会说，我觉得这是个是非题。"
+ },
+ {
+  "seg": 733,
+  "start": 2357.486,
+  "end": 2358.7569999999996,
+  "speaker": "Clara Vo",
+  "en": "And you may run it and you may be like,",
+  "zh": "然后你运行它，你可能会发现，"
+ },
+ {
+  "seg": 734,
+  "start": 2358.807,
+  "end": 2361.4979999999996,
+  "speaker": "Clara Vo",
+  "en": "actually, it's a choice question or actually it's a score question.",
+  "zh": "其实这是个选择题，或者其实这是个打分题。"
+ },
+ {
+  "seg": 735,
+  "start": 2361.548,
+  "end": 2366.91,
+  "speaker": "Clara Vo",
+  "en": "And so you can also test different ways to ask for different types of decisions",
+  "zh": "所以你也可以测试不同的提问方式来获取不同类型的决策，"
+ },
+ {
+  "seg": 736,
+  "start": 2367.511,
+  "end": 2368.871,
+  "speaker": "Clara Vo",
+  "en": "to get it more accurate.",
+  "zh": "让它更准确。"
+ },
+ {
+  "seg": 737,
+  "start": 2369.332,
+  "end": 2372.293,
+  "speaker": "Clara Vo",
+  "en": "So I've had that experience a couple of times where like my first concept",
+  "zh": "我就有过几次这样的经历，比如我最初对如何分类或做决策的概念"
+ },
+ {
+  "seg": 738,
+  "start": 2372.333,
+  "end": 2376.475,
+  "speaker": "Clara Vo",
+  "en": "of how I would classify or make a decision was just ultimately like not",
+  "zh": "最终就是"
+ },
+ {
+  "seg": 739,
+  "start": 2376.495,
+  "end": 2378.976,
+  "speaker": "Clara Vo",
+  "en": "the right one or had to layer one and then the other.",
+  "zh": "不对的，或者不得不先加一层再加另一层。"
+ },
+ {
+  "seg": 740,
+  "start": 2379.016,
+  "end": 2380.647,
+  "speaker": "Clara Vo",
+  "en": "So that's something just for people to look at.",
+  "zh": "所以这是给大家的一个参考点。"
+ },
+ {
+  "seg": 741,
+  "start": 2380.697,
+  "end": 2381.697,
+  "speaker": "John Lindquist",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 742,
+  "start": 2382.668,
+  "end": 2387.372,
+  "speaker": "Clara Vo",
+  "en": "As you said, we could just, I could go on truly forever about this, but I won't.",
+  "zh": "就像你说的，关于这个我真的可以永远聊下去，但我不会。"
+ },
+ {
+  "seg": 743,
+  "start": 2387.392,
+  "end": 2389.273,
+  "speaker": "Clara Vo",
+  "en": "I will spare our audience.",
+  "zh": "我会放过我们的听众。"
+ },
+ {
+  "seg": 744,
+  "start": 2389.453,
+  "end": 2393.536,
+  "speaker": "Clara Vo",
+  "en": "Let's get to lightning round and then you and I will go back to just classifying all",
+  "zh": "让我们进入闪电问答环节，然后你和我再回去继续"
+ },
+ {
+  "seg": 745,
+  "start": 2393.556,
+  "end": 2395.1115555555557,
+  "speaker": "Clara Vo",
+  "en": "the things for zero dollars.",
+  "zh": "零美元分类一切。"
+ },
+ {
+  "seg": 746,
+  "start": 2395.457,
+  "end": 2395.828,
+  "speaker": "John Lindquist",
+  "en": "Sure.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 747,
+  "start": 2395.878,
+  "end": 2400.301,
+  "speaker": "Clara Vo",
+  "en": "It has been, I don't know, I was reflecting, it's been almost a year since we last chatted.",
+  "zh": "已经，我不知道，我在回想，距我们上次聊天已经快一年了。"
+ },
+ {
+  "seg": 748,
+  "start": 2400.321,
+  "end": 2401.602,
+  "speaker": "Clara Vo",
+  "en": "It was so cute.",
+  "zh": "那时候真美好。"
+ },
+ {
+  "seg": 749,
+  "start": 2401.682,
+  "end": 2406.765,
+  "speaker": "Clara Vo",
+  "en": "We were talking about Claude Code and like aliases to dangerously skip permissions",
+  "zh": "我们当时在聊 Claude Code，还有像 dangerously skip permissions 的别名"
+ },
+ {
+  "seg": 750,
+  "start": 2406.965,
+  "end": 2412.034,
+  "speaker": "Clara Vo",
+  "en": "and just like babes in the wood and And now life is completely different.",
+  "zh": "就像林中无忧无虑的孩童一样，而现在生活完全不同了。"
+ },
+ {
+  "seg": 751,
+  "start": 2412.254,
+  "end": 2415.655,
+  "speaker": "Clara Vo",
+  "en": "Other than Jev, what are you really into these days?",
+  "zh": "除了 Jev,你现在还真正热衷于什么？"
+ },
+ {
+  "seg": 752,
+  "start": 2415.735,
+  "end": 2419.056,
+  "speaker": "Clara Vo",
+  "en": "What has changed for you in terms of AI engineering?",
+  "zh": "在 AI 工程方面，有什么对你来说发生了变化？"
+ },
+ {
+  "seg": 753,
+  "start": 2419.096,
+  "end": 2421.318222222222,
+  "speaker": "Clara Vo",
+  "en": "What are the big moves in the last year?",
+  "zh": "过去一年有哪些大动作？"
+ },
+ {
+  "seg": 754,
+  "start": 2422.077,
+  "end": 2426.078,
+  "speaker": "John Lindquist",
+  "en": "Some of the funniest stuff recently with the latest models,",
+  "zh": "最近用最新模型时最有意思的事情之一，"
+ },
+ {
+  "seg": 755,
+  "start": 2426.778,
+  "end": 2431.278,
+  "speaker": "John Lindquist",
+  "en": "when it gets into multimedia and you're working with video and 3D and everything,",
+  "zh": "当涉及多媒体，你要处理视频、3D 之类的所有东西时，"
+ },
+ {
+  "seg": 756,
+  "start": 2431.58,
+  "end": 2436.041,
+  "speaker": "John Lindquist",
+  "en": "is buying extra hard drives and distributing work between Mac minis and such,",
+  "zh": "就是买额外硬盘，以及在 Mac mini 之类的机器之间分配工作，"
+ },
+ {
+  "seg": 757,
+  "start": 2436.941,
+  "end": 2438.2187777777776,
+  "speaker": "John Lindquist",
+  "en": "which is not a problem.",
+  "zh": "这不算是个问题。"
+ },
+ {
+  "seg": 758,
+  "start": 2438.562,
+  "end": 2439.562,
+  "speaker": "John Lindquist",
+  "en": "It's a problem.",
+  "zh": "这是个问题。"
+ },
+ {
+  "seg": 759,
+  "start": 2440.901,
+  "end": 2441.662,
+  "speaker": "John Lindquist",
+  "en": "It's a problem.",
+  "zh": "这是个问题。"
+ },
+ {
+  "seg": 760,
+  "start": 2441.682,
+  "end": 2448.129,
+  "speaker": "John Lindquist",
+  "en": "And having AIs watch my disk space on my laptop,",
+  "zh": "还有让 AI 盯着我笔记本上的磁盘空间，"
+ },
+ {
+  "seg": 761,
+  "start": 2448.229,
+  "end": 2451.873,
+  "speaker": "John Lindquist",
+  "en": "being like, bro, it's time to hand some over to the SSD.",
+  "zh": "就像说：兄弟，该把一些东西转给 SSD 了。"
+ },
+ {
+  "seg": 762,
+  "start": 2452.654,
+  "end": 2453.4849999999997,
+  "speaker": "John Lindquist",
+  "en": "Anyway.",
+  "zh": "总之。"
+ },
+ {
+  "seg": 763,
+  "start": 2453.535,
+  "end": 2454.556,
+  "speaker": "John Lindquist",
+  "en": "Hold on.",
+  "zh": "等一下。"
+ },
+ {
+  "seg": 764,
+  "start": 2454.616,
+  "end": 2455.277,
+  "speaker": "Clara Vo",
+  "en": "I have to pause.",
+  "zh": "我得暂停一下。"
+ },
+ {
+  "seg": 765,
+  "start": 2455.297,
+  "end": 2458.14,
+  "speaker": "Clara Vo",
+  "en": "You and I are exactly the same person.",
+  "zh": "你和我完全是同一个人。"
+ },
+ {
+  "seg": 766,
+  "start": 2458.58,
+  "end": 2460.062,
+  "speaker": "Clara Vo",
+  "en": "Because truly yesterday...",
+  "zh": "因为真的就在昨天……"
+ },
+ {
+  "seg": 767,
+  "start": 2461.005,
+  "end": 2462.166,
+  "speaker": "Clara Vo",
+  "en": "I put the SSD in.",
+  "zh": "我装了 SSD。"
+ },
+ {
+  "seg": 768,
+  "start": 2462.246,
+  "end": 2466.631,
+  "speaker": "Clara Vo",
+  "en": "I have a pinned codex chat, and the pinned codex chat is clear up disk space.",
+  "zh": "我有一个置顶的 codex 聊天，那个置顶的 codex 聊天就是清理磁盘空间。"
+ },
+ {
+  "seg": 769,
+  "start": 2467.371,
+  "end": 2471.375,
+  "speaker": "Clara Vo",
+  "en": "And it has two skills in it I call it on a regular basis.",
+  "zh": "里面有两个 skill,我定期会调用它。"
+ },
+ {
+  "seg": 770,
+  "start": 2471.755,
+  "end": 2474.318,
+  "speaker": "Clara Vo",
+  "en": "One is move media files onto the hard drive.",
+  "zh": "一个是把媒体文件移到硬盘上。"
+ },
+ {
+  "seg": 771,
+  "start": 2474.878,
+  "end": 2475.878,
+  "speaker": "Clara Vo",
+  "en": "So it's like...",
+  "zh": "所以就像……"
+ },
+ {
+  "seg": 772,
+  "start": 2476.148,
+  "end": 2476.538,
+  "speaker": "Clara Vo",
+  "en": "It takes,",
+  "zh": "它会，"
+ },
+ {
+  "seg": 773,
+  "start": 2476.588,
+  "end": 2479.6609999999996,
+  "speaker": "Clara Vo",
+  "en": "it finds all the places I store all my MP4s and it goes,",
+  "zh": "它找到我存放所有 MP4 的各个地方，然后，"
+ },
+ {
+  "seg": 774,
+  "start": 2479.711,
+  "end": 2483.223,
+  "speaker": "Clara Vo",
+  "en": "finds them all in different places and then it organizes them on my SSD.",
+  "zh": "在不同地方把它们全找出来，然后把它们整理到我的 SSD 上。"
+ },
+ {
+  "seg": 775,
+  "start": 2483.273,
+  "end": 2486.265,
+  "speaker": "Clara Vo",
+  "en": "And the other one is it goes like in the crevices of my computer",
+  "zh": "另一个 skill 是深入我电脑的各个缝隙，"
+ },
+ {
+  "seg": 776,
+  "start": 2486.315,
+  "end": 2491.398,
+  "speaker": "Clara Vo",
+  "en": "and finds work trees that are like still running local servers and like clear,",
+  "zh": "找出那些还挂着本地服务器在跑的 work tree,然后清理，"
+ },
+ {
+  "seg": 777,
+  "start": 2491.438,
+  "end": 2493.27,
+  "speaker": "Clara Vo",
+  "en": "like bust some of the cache clears.",
+  "zh": "就像清掉一些缓存。"
+ },
+ {
+  "seg": 778,
+  "start": 2493.32,
+  "end": 2494.27,
+  "speaker": "Clara Vo",
+  "en": "I like,",
+  "zh": "我，"
+ },
+ {
+  "seg": 779,
+  "start": 2494.32,
+  "end": 2498.943,
+  "speaker": "Clara Vo",
+  "en": "I was at a client's office and they saw my computer like freeze up and you're out",
+  "zh": "我有一次在客户的办公室，他们看到我的电脑卡死了，提示内存"
+ },
+ {
+  "seg": 780,
+  "start": 2498.963,
+  "end": 2502.105,
+  "speaker": "Clara Vo",
+  "en": "of memory and it's like, They were like, can I buy you like a new computer?",
+  "zh": "不足，就像，他们说：要我给你买台新电脑吗？"
+ },
+ {
+  "seg": 781,
+  "start": 2502.125,
+  "end": 2503.595,
+  "speaker": "John Lindquist",
+  "en": "I was like, dude, this is a new computer.",
+  "zh": "我说：老兄，这就是台新电脑。"
+ },
+ {
+  "seg": 782,
+  "start": 2503.645,
+  "end": 2504.265,
+  "speaker": "John Lindquist",
+  "en": "This is just",
+  "zh": "这只是"
+ },
+ {
+  "seg": 783,
+  "start": 2504.926,
+  "end": 2505.366,
+  "speaker": "Clara Vo",
+  "en": "the problem.",
+  "zh": "问题所在。"
+ },
+ {
+  "seg": 784,
+  "start": 2505.726,
+  "end": 2506.866,
+  "speaker": "Clara Vo",
+  "en": "And then I set up,",
+  "zh": "然后我搭建了，"
+ },
+ {
+  "seg": 785,
+  "start": 2507.706,
+  "end": 2510.007,
+  "speaker": "Clara Vo",
+  "en": "I killed the open clause, RIP,",
+  "zh": "我把 open clause 干掉了，安息吧，"
+ },
+ {
+  "seg": 786,
+  "start": 2510.467,
+  "end": 2517.467,
+  "speaker": "Clara Vo",
+  "en": "but then I set up the stack of Mac minis as remote codex machines to run all my code",
+  "zh": "但接着我把那摞 Mac mini 设置成了远程 codex 机器来跑我所有的代码，"
+ },
+ {
+  "seg": 787,
+  "start": 2517.889,
+  "end": 2521.971,
+  "speaker": "Clara Vo",
+  "en": "on because it is a real problem.",
+  "zh": "因为这确实是个真实的问题。"
+ },
+ {
+  "seg": 788,
+  "start": 2522.551,
+  "end": 2523.551,
+  "speaker": "John Lindquist",
+  "en": "It's a problem.",
+  "zh": "这是个问题。"
+ },
+ {
+  "seg": 789,
+  "start": 2523.731,
+  "end": 2526.972,
+  "speaker": "Clara Vo",
+  "en": "I'm sure we'll all just, we'll go to the cloud, right?",
+  "zh": "我敢肯定我们最终都会，我们会转向云端，对吧？"
+ },
+ {
+  "seg": 790,
+  "start": 2527.832,
+  "end": 2529.533,
+  "speaker": "Clara Vo",
+  "en": "I like all the stuff, but...",
+  "zh": "我喜欢那些东西，但是……"
+ },
+ {
+  "seg": 791,
+  "start": 2530.795,
+  "end": 2534.097,
+  "speaker": "John Lindquist",
+  "en": "I like local, I like working on desktop apps.",
+  "zh": "我喜欢本地，我喜欢做桌面应用。"
+ },
+ {
+  "seg": 792,
+  "start": 2534.558,
+  "end": 2538.861,
+  "speaker": "John Lindquist",
+  "en": "Jeff is going to unlock so many things though with like removing UI that,",
+  "zh": "不过 Jeff 会解锁很多东西，比如移除 UI,"
+ },
+ {
+  "seg": 793,
+  "start": 2540.121,
+  "end": 2542.6765555555558,
+  "speaker": "John Lindquist",
+  "en": "I don't know, pushing UI later and stuff, but.",
+  "zh": "我也不知道，把 UI 往后推之类的，但是。"
+ },
+ {
+  "seg": 794,
+  "start": 2543.295,
+  "end": 2544.295,
+  "speaker": "John Lindquist",
+  "en": "I don't know.",
+  "zh": "此刻最让我着迷的是关于以下方面的范式："
+ },
+ {
+  "seg": 795,
+  "start": 2544.716,
+  "end": 2545.897,
+  "speaker": "John Lindquist",
+  "en": "I would say the other thing,",
+  "zh": "我想说的另一件事，"
+ },
+ {
+  "seg": 796,
+  "start": 2545.917,
+  "end": 2549.6947777777777,
+  "speaker": "John Lindquist",
+  "en": "the most fascinating thing to me right now are the paradigms around,",
+  "zh": "现在对我来说最迷人的是那些范式,"
+ },
+ {
+  "seg": 797,
+  "start": 2550.241,
+  "end": 2556.207,
+  "speaker": "John Lindquist",
+  "en": "if you've seen GrokBot at all and similar tools where the traditionally",
+  "zh": "如果你见过 GrokBot 或类似的工具，传统上"
+ },
+ {
+  "seg": 798,
+  "start": 2556.247,
+  "end": 2556.747,
+  "speaker": "John Lindquist",
+  "en": "as developers,",
+  "zh": "作为开发者，"
+ },
+ {
+  "seg": 799,
+  "start": 2556.767,
+  "end": 2563.393,
+  "speaker": "John Lindquist",
+  "en": "we think in terms of projects and file structure and code and files and everything",
+  "zh": "我们以项目、文件结构、代码、文件等一切来思考，"
+ },
+ {
+  "seg": 800,
+  "start": 2564.474,
+  "end": 2571.474,
+  "speaker": "John Lindquist",
+  "en": "and assigning agents roles and tasks where You don't worry about any of that stuff",
+  "zh": "然后给智能体分配角色和任务，你就完全不用担心那些事情了"
+ },
+ {
+  "seg": 801,
+  "start": 2572.473,
+  "end": 2577.297,
+  "speaker": "John Lindquist",
+  "en": "and you just have a list of agents and then you can bring them into a group chat",
+  "zh": "你只需要有一个智能体列表，然后可以把它们拉进一个群聊"
+ },
+ {
+  "seg": 802,
+  "start": 2577.917,
+  "end": 2579.959,
+  "speaker": "John Lindquist",
+  "en": "where you have, oh,",
+  "zh": "在那里你可以，哦，"
+ },
+ {
+  "seg": 803,
+  "start": 2579.979,
+  "end": 2586.684,
+  "speaker": "John Lindquist",
+  "en": "I have this task and I wanted this research guy and this little code review person",
+  "zh": "我有这个任务，我想要这个研究家伙和这个小代码审查的人"
+ },
+ {
+  "seg": 804,
+  "start": 2586.984,
+  "end": 2590.1506666666664,
+  "speaker": "John Lindquist",
+  "en": "and this other agent and you bring them all into a group.",
+  "zh": "和另一个智能体，把它们全都拉进一个群。"
+ },
+ {
+  "seg": 805,
+  "start": 2590.447,
+  "end": 2596.051,
+  "speaker": "John Lindquist",
+  "en": "It's kind of inverted the concept of agents being the top layer and now they care",
+  "zh": "这有点颠覆了智能体作为最顶层这一概念，现在它们关心"
+ },
+ {
+  "seg": 806,
+  "start": 2596.091,
+  "end": 2601.32,
+  "speaker": "John Lindquist",
+  "en": "about The structures and the code and Git and versioning and all that.",
+  "zh": "的是结构、代码、Git、版本控制等等所有那些。"
+ },
+ {
+  "seg": 807,
+  "start": 2601.921,
+  "end": 2606.985,
+  "speaker": "John Lindquist",
+  "en": "And I think it's a really big turning point in our relationships with our tools",
+  "zh": "我认为在我们与工具的关系上，这是一个非常重大的转折点，"
+ },
+ {
+  "seg": 808,
+  "start": 2608.145,
+  "end": 2613.47,
+  "speaker": "John Lindquist",
+  "en": "as we stop thinking about everything we thought about before other",
+  "zh": "因为我们不再思考以前思考的所有事情，"
+ },
+ {
+  "seg": 809,
+  "start": 2613.49,
+  "end": 2615.291,
+  "speaker": "John Lindquist",
+  "en": "than buying more hard disks for agents to use.",
+  "zh": "除了给智能体买更多硬盘来用。"
+ },
+ {
+  "seg": 810,
+  "start": 2615.311,
+  "end": 2616.612,
+  "speaker": "John Lindquist",
+  "en": "I completely agree.",
+  "zh": "我完全同意。"
+ },
+ {
+  "seg": 811,
+  "start": 2618.273,
+  "end": 2621.2174444444445,
+  "speaker": "Clara Vo",
+  "en": "And I say, in some ways, managers are really at risk.",
+  "zh": "我想说，在某些方面，管理者真的处于危险之中。"
+ },
+ {
+  "seg": 812,
+  "start": 2626.213,
+  "end": 2627.268555555556,
+  "speaker": "Clara Vo",
+  "en": "Jon, this has been",
+  "zh": "Jon，这次"
+ },
+ {
+  "seg": 813,
+  "start": 2652.4,
+  "end": 2653.27,
+  "speaker": "Clara Vo",
+  "en": "So, so fun.",
+  "zh": "实在是、实在太开心了。"
+ },
+ {
+  "seg": 814,
+  "start": 2653.32,
+  "end": 2655.741,
+  "speaker": "Clara Vo",
+  "en": "Jev has, I agree, been so, so fun.",
+  "zh": "Jev 也一样，我同意，实在太、太开心了。"
+ },
+ {
+  "seg": 815,
+  "start": 2655.801,
+  "end": 2659.7454444444443,
+  "speaker": "Clara Vo",
+  "en": "So I really appreciate you coming on, showing us some of your examples.",
+  "zh": "所以非常感谢你来做节目，给我们展示你的一些例子。"
+ },
+ {
+  "seg": 816,
+  "start": 2660.163,
+  "end": 2663.0939999999996,
+  "speaker": "Clara Vo",
+  "en": "Where can we find you and how can we be helpful to you?",
+  "zh": "我们在哪里可以找到你，我们怎样才能帮到你？"
+ },
+ {
+  "seg": 817,
+  "start": 2663.144,
+  "end": 2664.885,
+  "speaker": "John Lindquist",
+  "en": "Oh, my next big stop,",
+  "zh": "哦，我的下一个大站，"
+ },
+ {
+  "seg": 818,
+  "start": 2665.145,
+  "end": 2667.196,
+  "speaker": "John Lindquist",
+  "en": "I don't know if we're sharing the screen still,",
+  "zh": "我不知道我们是否还在共享屏幕，"
+ },
+ {
+  "seg": 819,
+  "start": 2667.246,
+  "end": 2671.167,
+  "speaker": "John Lindquist",
+  "en": "but mega.dev is me and Theo and Kent and Angie.",
+  "zh": "但 mega.dev 是我和 Theo 还有 Kent 和 Angie。"
+ },
+ {
+  "seg": 820,
+  "start": 2671.187,
+  "end": 2673.799,
+  "speaker": "John Lindquist",
+  "en": "We're all doing this big thing in a couple of months.",
+  "zh": "几个月后我们要一起做这件大事。"
+ },
+ {
+  "seg": 821,
+  "start": 2673.849,
+  "end": 2675.0589999999997,
+  "speaker": "John Lindquist",
+  "en": "If people want to check that out,",
+  "zh": "如果大家想了解的话，"
+ },
+ {
+  "seg": 822,
+  "start": 2675.109,
+  "end": 2678.566,
+  "speaker": "John Lindquist",
+  "en": "all of my effort for the next couple of months is going into this.",
+  "zh": "我接下来几个月的全部精力都会投入到这件事上。"
+ },
+ {
+  "seg": 823,
+  "start": 2678.616,
+  "end": 2682.627,
+  "speaker": "John Lindquist",
+  "en": "So I'm putting everything else on pause just to make this the best experience possible.",
+  "zh": "所以我把其他一切都暂停了，只为把这个体验做到最好。"
+ },
+ {
+  "seg": 824,
+  "start": 2682.677,
+  "end": 2684.448,
+  "speaker": "Clara Vo",
+  "en": "And I'm going to hype you up a little bit.",
+  "zh": "我要稍微给你宣传一下。"
+ },
+ {
+  "seg": 825,
+  "start": 2684.498,
+  "end": 2689.499,
+  "speaker": "Clara Vo",
+  "en": "It is, I'm going to say it's a kind of like course slash program slash workshop",
+  "zh": "它是，我可以说它是一个有点像课程兼项目兼工作坊的东西，"
+ },
+ {
+  "seg": 826,
+  "start": 2691.019,
+  "end": 2692.92,
+  "speaker": "Clara Vo",
+  "en": "to teach you how to turn agents.",
+  "zh": "教你如何调教智能体。"
+ },
+ {
+  "seg": 827,
+  "start": 2692.94,
+  "end": 2695.74,
+  "speaker": "Clara Vo",
+  "en": "I'm going to read the landing page, turn agents into leverage.",
+  "zh": "我来读一下落地页：把智能体变成杠杆。"
+ },
+ {
+  "seg": 828,
+  "start": 2695.76,
+  "end": 2697.601,
+  "speaker": "Clara Vo",
+  "en": "You can reason about price, debug, and ship.",
+  "zh": "你可以对价格进行推理、调试、上线。"
+ },
+ {
+  "seg": 829,
+  "start": 2697.621,
+  "end": 2700.261,
+  "speaker": "Clara Vo",
+  "en": "So be an incredible AI engineer.",
+  "zh": "成为一个出色的 AI 工程师。"
+ },
+ {
+  "seg": 830,
+  "start": 2700.461,
+  "end": 2703.942,
+  "speaker": "Clara Vo",
+  "en": "Also, hottest website on the internet right now.",
+  "zh": "另外，它现在是互联网上最火的网站。"
+ },
+ {
+  "seg": 831,
+  "start": 2704.022,
+  "end": 2707.0775555555556,
+  "speaker": "Clara Vo",
+  "en": "I saw it the other day and it's just, it's real lovely.",
+  "zh": "我前几天看到了，它真的、真的很漂亮。"
+ },
+ {
+  "seg": 832,
+  "start": 2707.536,
+  "end": 2708.057,
+  "speaker": "Clara Vo",
+  "en": "Love it.",
+  "zh": "喜欢。"
+ },
+ {
+  "seg": 833,
+  "start": 2708.077,
+  "end": 2708.757,
+  "speaker": "Clara Vo",
+  "en": "So check it out.",
+  "zh": "所以去看看吧。"
+ },
+ {
+  "seg": 834,
+  "start": 2708.797,
+  "end": 2709.448,
+  "speaker": "Clara Vo",
+  "en": "Check out John.",
+  "zh": "看看 John。"
+ },
+ {
+  "seg": 835,
+  "start": 2709.498,
+  "end": 2710.979,
+  "speaker": "Clara Vo",
+  "en": "Check out mega.dev.",
+  "zh": "看看 mega.dev。"
+ },
+ {
+  "seg": 836,
+  "start": 2711.599,
+  "end": 2712.7101111111115,
+  "speaker": "Clara Vo",
+  "en": "Really cool program.",
+  "zh": "真的很棒的项目。"
+ },
+ {
+  "seg": 837,
+  "start": 2713.081,
+  "end": 2715.969888888889,
+  "speaker": "Clara Vo",
+  "en": "And John, we'll have you back maybe in another year.",
+  "zh": "还有 John，也许一年后我们再请你回来。"
+ },
+ {
+  "seg": 838,
+  "start": 2716.183,
+  "end": 2719.666,
+  "speaker": "Clara Vo",
+  "en": "And who knows, we won't have hardware at all.",
+  "zh": "谁知道呢，到时候我们可能连硬件都没有了。"
+ },
+ {
+  "seg": 839,
+  "start": 2720.267,
+  "end": 2725.251,
+  "speaker": "Clara Vo",
+  "en": "Maybe we'll just be carrying around our little Metamuse keychains and talking",
+  "zh": "也许我们就只是随身带着我们小小的 Metamuse 钥匙链，跟"
+ },
+ {
+  "seg": 840,
+  "start": 2725.351,
+  "end": 2728.351,
+  "speaker": "Clara Vo",
+  "en": "a little fuzzy Yeti who's doing all our coding for us.",
+  "zh": "一只毛茸茸的小雪人聊天，它替我们把所有代码都写了。"
+ },
+ {
+  "seg": 841,
+  "start": 2728.674,
+  "end": 2731.8406666666665,
+  "speaker": "John Lindquist",
+  "en": "It'll be embedded into your brain at that point, I think.",
+  "zh": "到那时候，我想它应该直接嵌入你的大脑了。"
+ },
+ {
+  "seg": 842,
+  "start": 2732.197,
+  "end": 2732.577,
+  "speaker": "Clara Vo",
+  "en": "Sounds good.",
+  "zh": "听起来不错。"
+ },
+ {
+  "seg": 843,
+  "start": 2732.597,
+  "end": 2733.874777777778,
+  "speaker": "John Lindquist",
+  "en": "A year is too far away.",
+  "zh": "一年太远了。"
+ },
+ {
+  "seg": 844,
+  "start": 2735.254,
+  "end": 2735.534,
+  "speaker": "Clara Vo",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 845,
+  "start": 2735.554,
+  "end": 2737.442888888889,
+  "speaker": "Clara Vo",
+  "en": "Thanks for joining How I AI again.",
+  "zh": "再次感谢来到 How I AI。"
+ },
+ {
+  "seg": 846,
+  "start": 2738.877,
+  "end": 2740.1879999999996,
+  "speaker": "Clara Vo",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 847,
+  "start": 2740.238,
+  "end": 2741.659,
+  "speaker": "Clara Vo",
+  "en": "If you enjoyed the show,",
+  "zh": "如果你喜欢这期节目，"
+ },
+ {
+  "seg": 848,
+  "start": 2741.819,
+  "end": 2742.279,
+  "speaker": "Clara Vo",
+  "en": "please like,",
+  "zh": "请点赞，"
+ },
+ {
+  "seg": 849,
+  "start": 2742.299,
+  "end": 2743.6499999999996,
+  "speaker": "Clara Vo",
+  "en": "and subscribe here on YouTube,",
+  "zh": "并在这里订阅 YouTube 频道，"
+ },
+ {
+  "seg": 850,
+  "start": 2743.7,
+  "end": 2746.432,
+  "speaker": "Clara Vo",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是，留下一条评论，写下你的想法。"
+ },
+ {
+  "seg": 851,
+  "start": 2746.482,
+  "end": 2752.026,
+  "speaker": "Clara Vo",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 852,
+  "start": 2752.607,
+  "end": 2757.329222222222,
+  "speaker": "Clara Vo",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们留下评分和评论，这将帮助其他人找到这个节目。"
+ },
+ {
+  "seg": 853,
+  "start": 2757.41,
+  "end": 2763.154,
+  "speaker": "Clara Vo",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 上看到我们所有的节目并了解更多关于本节目的信息。"
+ },
+ {
+  "seg": 854,
+  "start": 2763.775,
+  "end": 2764.775,
+  "speaker": "Clara Vo",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

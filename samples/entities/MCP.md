@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>65</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>67</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -74,7 +74,9 @@ unlisted: true
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(33:21起):本集提到 Zapier 的 MCP 与 SaaS 应暴露 MCP 服务器，把底层能力交给编码智能体
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(14:18起):本集说它基本上是一种让应用与 LLM 对话的标准方式，智能体的工具通过托管在平台上的 MCP 服务器提供——在 Broadcom 这是开发者唯一被批准的使用方式。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(23:18起):本集主持人问 Maggie 会不会做 MCP 让客户从 Claude 之类访问数据,她说这是「价值百万美元的问题」,每个 SaaS 平台都在测,目前专注让客户在 Toast 里干完活
+- **[[2026-09-27-talks-i-turned-coding-agents-into-a-strategy-g|《你才是瓶颈:像打游戏一样指挥智能体大军》]]**(00:24起):本集顺带提到:嘉宾创造了 MCPUI(演变成 MCP Apps)并在 MCP 指导委员会。
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(27:56起):本集说一个能访问 MCP 的机器人可以识别并翻转正确的特性开关来修复生产问题；并提到 MCP 中介访问、最小权限是 AI 安全保障的实践。
+- **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(16:39起):本集顺带提到：日历等服务都在函数调用或 MCP 背后，可以接进 Jev 应用；也提到有的工具会挑选用哪个 MCP。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
@@ -103,7 +105,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*65 集*
+*67 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -168,7 +170,9 @@ unlisted: true
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念(提及)
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
 - [[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]] — 作为概念(提及)
+- [[2026-09-27-talks-i-turned-coding-agents-into-a-strategy-g|《你才是瓶颈:像打游戏一样指挥智能体大军》]] — 作为概念(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为概念
+- [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
@@ -177,7 +181,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[护栏]] · [[OpenAI]] · [[可观测性]] · [[harness]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Claude":73,"Anthropic":155,"Claude Code":89,"Codex":66,"护栏":67,"OpenAI":142,"可观测性":34,"harness":50,"沙箱":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Claude":74,"Anthropic":156,"Claude Code":89,"Codex":69,"护栏":67,"OpenAI":144,"可观测性":34,"harness":50,"沙箱":68}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":73,"代码审查":19,"幻觉":11,"护栏":67,"招聘":1,"迭代周期":1}</script>
+<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":73,"代码审查":20,"幻觉":11,"护栏":67,"招聘":1,"迭代周期":1}</script>
 
 <script>
 (function(){

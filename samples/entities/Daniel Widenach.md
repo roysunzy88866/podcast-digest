@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":364,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":67}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":9,"智能体":369,"多智能体架构":1,"智能体控制框架":2,"AI 模型":1,"开源权重":8,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":67}</script>
 
 <script>
 (function(){

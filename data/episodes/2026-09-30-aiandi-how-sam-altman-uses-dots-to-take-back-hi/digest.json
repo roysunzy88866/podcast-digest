@@ -1,0 +1,124 @@
+{
+  "title_zh": "Sam Altman:AI 是新的文艺复兴,不是工业革命",
+  "tldr": "OpenAI 的 Sam Altman 在 Dev Day 与 Dan Shipper 对谈:为什么他要开放平台、把订阅带去任何地方,以及 Dots 智能体如何夺回他的清晨。",
+  "digest_md": "这一集录在 OpenAI Dev Day 现场,主角是 OpenAI 的 CEO Sam Altman,主持人是 Every 的 CEO Dan Shipper。最反直觉的一点:编程模型已经强到这个地步,但开发者比以往任何时候都多、要做的活也比以往任何时候都多——Sam 说他从来没对「AI 抢工作」那么悲观,真正让他惊讶的是好方向上的两件事:世界上竟然藏着这么多潜在需求,而且人竟然依然处于 AI 所有一切的中心 [01:26 Unknown]。\n\n为什么如此以人为中心?Sam 的解释是:我们其实从来就没那么在乎机器做了什么,我们痴迷的是其他人——想知道艺术背后的人、公司背后的人、产品背后的人 [02:14 Unknown]。一个佐证:一万个智能体完美协作四天解出 Navier-Stokes 方程,但公众的反应几乎没有一句在谈问题本身被解决,全在谈解读、谈参与其中的人。他觉得这是好事。\n\n## 文艺复兴,不是工业革命\nSam 在主题演讲里把 AI 带来的变革比作文艺复兴,而不是工业革命,他的理由是:文艺复兴从根本上以人为中心,工业革命从根本上以机器为中心 [06:30 Unknown]。工业革命有很多好处,但很多人个人被变成了「机器上的齿轮」,做着极其专门化的事,与让生活美好的部分脱节了。他听到有人说「AI 会把一切自动化,人类会变得像家猫,AI 决定怎么奖励我们」,他明确说那不是他们的想法;他期待的是一股科学发现、艺术、创业的新浪潮,人们既享受经济增长的好处,也重新掌控自己的时间和生活 [07:19 Unknown]。\n\n两条路线之争也在这:做 AI 模型公司的人分两派——一派相信或希望世界上只会剩一家公司,另一派(他自称属于这派)相信会出现公司数量的「文艺复兴」,一人公司、小团队能造出惊人的产品,而 OpenAI 要竭尽全力做好平台来支撑这一点 [05:26 Unknown]。\n\n## Dev Day 发了 22 个东西,Dots 是他自己的日常\nDan 数了数,这次 Dev Day 发布了 22 个新东西,远超前几年(去年约九个,前年四五个)。Sam 的回应是「等着看明年」,还说本来还要发更多,只是 50 分钟的主题演讲塞不下。逻辑很直接:如果 OpenAI 说这些工具能让人更有生产力,那自己最好也造出更多东西。\n\n其中他个人用得最狠的是 Dots——后台持续运行的智能体。它给他拿回了两样东西:\n\n- **清晨的深度工作**。他曾经热爱清晨、那时创造力最高峰,但当了 CEO 后一夜之间总有事情发生,不查手机就怕错过灾难,一查大脑就被污染、深度工作时间没了。现在他相信自己的 dot(他叫它 Dottie)会判断什么真正需要他、其余替他处理,清晨的空间回来了 [09:06 Unknown]。\n- **抓他注定会漏掉的事**。演示前五分钟,同事 Tebow 的 dot 主动预警:演示配置可能会让 keynote 跑不起来,要不要我修。而就在采访前,他的 dot 提醒他在两个日程之间唯一的空档里必须处理一件事——否则就是一团大乱麻。\n- **他本来会放弃的任务**。他花了一二十分钟用 Codex 找一条记得在 Slack 里见过的内容,没找到,以为是自己做梦。第二天 dot 说:我注意到你没找到,我想了一晚上,帮你找到了——原来那是张截图,它把每一张截图都看了一遍。\n\n研究侧的关键,Sam 说是足够的模型智能(他提到 Astra),「把模型推过智能门槛」是核心,其余的系统都建在这上面。\n\n## Space 与「活文档」\n一次性发布三个办公套件式工具是个大赌注,Sam 解释说他们并非一开始就想这么做,而是意识到:现有软件整体上不是为「与 AI 协作」设计的,一旦多人加多个人的 AI 一起工作,现有抽象就失效了。\n\n他最有感觉的概念是没有名字、姑且叫「活文档」的东西:一个会随人们的交互、随世界变化自动更新的文档。他的原话是,七个 dot 一起工作,能创造出某种新东西——它在某种程度上存在于每个人的脑子里,但是一种涌现出来的东西 [18:31 Unknown]。他自己已经不用共享仪表盘了,而是让 dot 读他所有的 Slack 消息,给他一个人专属的、随关注点演化的业务动态摘要;六个月前他最关心营收和增长,现在最关心安全对齐,这份文档跟着变。他和 Dan 还当场互相种草了一个产品点子:情绪实时仪表盘,让 dot 知道你现在的状态、该不该现在把消息推给你。\n\n## 订阅随身带,和「OpenAI 杀死初创公司」的推文\nDan 特别认可是「把 ChatGPT 订阅的 token 带到任何应用」:做应用的人不用再纠结「让用户用多少 AI 才不破产、要不要换便宜模型牺牲体验」,用户带着订阅来,随便用。Sam 说动机很朴素:他们自己也想试各种新应用,讨厌注册一百个订阅,而且「这是你的订阅,你该在哪用就在哪用」。\n\n至于那条永远管用的推文——「OpenAI 刚刚杀死了某初创公司」——Sam 说它有效只是因为人们爱看末日论,但它从来没真正发生过;反过来,他从没见过初创公司像现在这样这么快取得成功 [24:40 Unknown]。\n\n## Ultrafast:速度是新的前沿\nDan 问 Sam 是否所有提示都跑在 Ultrafast(OpenAI 强调超快响应的模型)上,答案是肯定的。Sam 引用 Brett Victor 十几年前的演讲:创作者应该与正在创作的东西有即时连接,速度和反馈回路至关重要——他说自己没意识到响应变快对迭代思考回路的影响有多大,「天壤之别」[30:27 Unknown]。他也承认这有点和普通用户脱节:不是人人都能随时用 Ultrafast,但他自己已经很难回去了。\n\n他的框架是:OpenAI 历史上的主业是把 IQ 的价格打下来,每几个月到一年价格大降;现在「速度」成了一个同样重要的新维度,自研芯片就是为了让快速推理到每个人手里。至于价格:更高的价位上永远会有智能或速度的前沿,但你可以打赌他们会继续「让摩尔定律相形见绌」地把每一美元的价值复利式推高——不远的将来以好价格提供 8 倍提升,之后是快 100 倍 [32:32 Unknown]。\n\n## 本集带走\n- **别再用工业革命类比 AI**:Sam 的判断标准是「以人为中心还是以机器为中心」,他赌的是文艺复兴式的新浪潮——一人公司、小团队爆发,而不是人变成齿轮。\n- **「平台比应用商店更重要」**:OpenAI 自认还没搞清楚应用商店的对等物,但已搞清楚怎么让数百万人在其上创造价值;楼外的好点子远比楼内多,这是开放生态的底层信念。\n- **订阅随身带改变应用层经济学**:开发者不必在「用户体验」和「AI 成本」之间二选一,用户带着 token 来,随便用好模型。\n- **智能体的价值在「替你放弃」**:Dots 最打动人的不是替他做事,而是做完那些他自己会中途放弃的事——搜不到就整夜想、把每张截图翻一遍。\n- **速度是被低估的智能维度**:反馈回路的快慢直接改变思考方式,「创作者应与创作物即时连接」在 AI 时代同样成立。\n\n> 【背景】转写稿中的「Sam Waltman」为语音识别之误,即 OpenAI CEO Sam Altman;文中的 Astra、Ultrafast、Dots、Codex 均为 OpenAI 的模型或产品名(按转写稿原文,拿得准处已改正拼写)。「Jev/Diogo/Luna」等在稿中语境不明,故未展开。",
+  "quotes": [
+    {
+      "en": "I was never as doomery about the job stuff as other people, but it still has surprised me somewhat on the upside of just how much latent demand existed in the world and also how much people have remained at the center of everything that is happening with AI.",
+      "zh": "在工作这件事上,我从来不像其他人那样悲观,但现实还是在好的方向上让我有些惊讶:世界上竟然存在这么多潜在需求,而且人们竟然依然处于 AI 所发生的一切的中心。",
+      "timestamp": "01:27",
+      "speaker": ""
+    },
+    {
+      "en": "We just, we don't care that much about what the machines do. And in some sense we never have. And we're just like, we're obsessed with other people.",
+      "zh": "我们其实没那么在乎机器做了什么,某种意义上我们从不在乎过。我们真正痴迷的是其他人。",
+      "timestamp": "02:15",
+      "speaker": ""
+    },
+    {
+      "en": "One take on this would be that the renaissance was fundamentally centered around people and the industrial revolution was fundamentally centered around machines.",
+      "zh": "对此的一种解读是,文艺复兴从根本上以人为中心,而工业革命从根本上以机器为中心。",
+      "timestamp": "06:30",
+      "speaker": ""
+    },
+    {
+      "en": "The Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.",
+      "zh": "我们今天发布的新产品 Dots,是第一件让我重新掌控早晨和早晨心理空间的东西。",
+      "timestamp": "08:59",
+      "speaker": ""
+    },
+    {
+      "en": "It's pretty cool to go to sleep and like just leave a long voice note as you're kind of drifting off with a bunch of thoughts and like wake up in the morning, not only is the thing built, but it like went off and did like the next seven steps.",
+      "zh": "带着一堆想法、在快睡着时留一段长长的语音留言,然后早上一觉醒来,不仅东西已经构建好了,它还接着完成了后面那七八个步骤,这真的很酷。",
+      "timestamp": "14:09",
+      "speaker": ""
+    },
+    {
+      "en": "The tweet works because people like Doomerism, but it never actually happens.",
+      "zh": "那条推文之所以有效,是因为人们喜欢末日论,但它从来没真正发生过。",
+      "timestamp": "25:41",
+      "speaker": ""
+    },
+    {
+      "en": "But I think you can also bet that we will keep doing what we've done of just a ridiculous, like put Moore's law to shame, relentless focus on driving value per dollar up and up and up kind of in this big compounding way.",
+      "zh": "但我想你也可以打赌,我们会继续保持一直在做的事——以一种让摩尔定律都相形见绌的荒谬程度,不懈地把每一美元的价值以巨大的复利方式不断推高、推高、再推高。",
+      "timestamp": "32:32",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:26",
+      "speaker": "Unknown",
+      "en": "I was never as doomery about the job stuff as other people, but it still has surprised me somewhat on the upside of just how much latent demand existed in the world and also how much people have remained at the center of everything that is happening with AI.",
+      "zh": "在工作这件事上,我从来不像其他人那样悲观,但现实还是在好的方向上让我有些惊讶:世界上竟然存在这么多潜在需求,而且人们竟然依然处于 AI 所发生的一切的中心。"
+    },
+    {
+      "timestamp": "02:14",
+      "speaker": "Unknown",
+      "en": "We just, we don't care that much about what the machines do. And in some sense we never have. And we're just like, we're obsessed with other people.",
+      "zh": "我们其实没那么在乎机器做了什么,某种意义上我们从不在乎过。我们真正痴迷的是其他人。"
+    },
+    {
+      "timestamp": "05:26",
+      "speaker": "Unknown",
+      "en": "I think there are really kind of two schools of thought among people building AI model companies. There are people that believe or hope that there's only going to be one company in the world.",
+      "zh": "在构建 AI 模型公司的人当中,大致有两种思想流派。有些人相信或希望世界上只会有一家公司。"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "Unknown",
+      "en": "One take on this would be that the renaissance was fundamentally centered around people and the industrial revolution was fundamentally centered around machines.",
+      "zh": "对此的一种解读是,文艺复兴从根本上以人为中心,而工业革命从根本上以机器为中心。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Unknown",
+      "en": "We're going to be like, house cats and the AI will decide how to reward us and tell us what to do. That's certainly not what we think.",
+      "zh": "我们会变得像家猫一样,AI 决定如何奖励我们、告诉我们该做什么。那当然不是我们所认为的。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Unknown",
+      "en": "The Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.",
+      "zh": "我们今天发布的新产品 Dots,是第一件让我重新掌控早晨和早晨心理空间的东西。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "It's pretty cool to go to sleep and like just leave a long voice note as you're kind of drifting off with a bunch of thoughts and like wake up in the morning, not only is the thing built, but it like went off and did like the next seven steps.",
+      "zh": "带着一堆想法、在快睡着时留一段长长的语音留言,然后早上一觉醒来,不仅东西已经构建好了,它还接着完成了后面那七八个步骤,这真的很酷。"
+    },
+    {
+      "timestamp": "18:31",
+      "speaker": "Unknown",
+      "en": "You know, seven people's dots can working together create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.",
+      "zh": "你知道,七个 dot 一起工作,可以创造出某种新的东西——它在某种程度上存在于我们每个人的脑海中,但更像是一种涌现出来的东西。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Unknown",
+      "en": "I've never seen startups get as successful as quickly.",
+      "zh": "我从没见过初创公司像现在这样这么快就取得成功。"
+    },
+    {
+      "timestamp": "25:41",
+      "speaker": "Unknown",
+      "en": "The tweet works because people like Doomerism, but it never actually happens.",
+      "zh": "那条推文之所以有效,是因为人们喜欢末日论,但它从来没真正发生过。"
+    },
+    {
+      "timestamp": "30:27",
+      "speaker": "Unknown",
+      "en": "It was something like creators should have an immediate connection to what they're creating. And how speed and the feedback loop was so important.",
+      "zh": "大概是说,创作者应该与他们正在创作的东西有即时的连接,而速度和反馈回路是如此重要。"
+    },
+    {
+      "timestamp": "32:32",
+      "speaker": "Unknown",
+      "en": "But I think you can also bet that we will keep doing what we've done of just a ridiculous, like put Moore's law to shame, relentless focus on driving value per dollar up and up and up kind of in this big compounding way.",
+      "zh": "但我想你也可以打赌,我们会继续保持一直在做的事——以一种让摩尔定律都相形见绌的荒谬程度,不懈地把每一美元的价值以巨大的复利方式不断推高、推高、再推高。"
+    }
+  ],
+  "voice_script": "今天咱们聊一场对话，主角是 OpenAI 的 CEO Sam Altman,主持人是 Every 的 CEO Dan Shipper。录音地点就在 OpenAI 的 Dev Day 现场——这是 OpenAI 一年一度的开发者大会。Sam 不用多做介绍了，ChatGPT 背后这家公司的掌门人，每一次公开谈 AI 的走向，都会被无数人拿去逐字解读。这一期要聊的问题其实特别大：AI 到底会把我们带向哪里？是把人变成多余的家猫，还是让人重新拿回自己的时间和生活？而 Sam 给出的答案，反常识到值得你花几分钟听完。\n\n先说这个反常识在哪。现在编程模型已经强到离谱，按理说开发者的活儿会被抢走一大半。但现实是，开发者比以往任何时候都多，要做的活也比以往任何时候都多。Sam 说，自己在「AI 抢工作」这件事上从来不悲观，真正让他惊讶的反而是好方向上的两件事：一个是世界上竟然藏着这么多潜在需求，另一个是人竟然依然处于 AI 所有一切的中心。为什么这么说？有个例子特别说明问题。一万个智能体完美协作四天，解出了 Navier-Stokes 方程——这是个悬置了一百多年的流体力学难题。可公众的反应呢？几乎没一句在谈问题本身，全在谈怎么解读、谈参与其中的人。听起来像跑题，但 Sam 觉得这恰恰是好事，因为这暴露了一个真相：我们其实没那么在乎机器做了什么，我们真正痴迷的，始终是其他人——艺术背后的人、公司背后的人、产品背后的人。\n\n顺着这个观察往下，就引出了这场对话最核心的一个判断。Sam 在主题演讲里说，AI 带来的变革更像文艺复兴，而不是工业革命。理由很简单：文艺复兴从根本上以人为中心，工业革命从根本上以机器为中心。工业革命确实带来了巨大的好处，但代价是很多人被变成了机器上的齿轮，做极其专门化的事，跟让生活美好的部分彻底脱节了。所以听到有人说「AI 会把一切自动化，人类会变得像家猫，由 AI 决定怎么奖励我们」，Sam 明确回应：那不是 OpenAI 的想法。他们期待的是一股科学发现、艺术、创业的新浪潮，人既享受经济增长的好处，也重新掌控自己的生活。这也是 AI 圈两条路线之争的源头：一派相信世界上最终只会剩一家公司，另一派相信会出现公司数量的文艺复兴——一人公司、小团队也能造出惊人的产品。Sam 自认属于后者，而 OpenAI 要做的就是做好平台来支撑这一切。\n\n那这个信念落到产品上，长什么样呢？这次 Dev Day 一口气发了 22 个新东西——去年是九个，前年只有四五个。Dan 数完这个数，Sam 的回应是「等着看明年」。逻辑也很直白：如果 OpenAI 说这些工具能让人更有生产力，那自己最好先用起来、造出更多东西。Sam 自己用得最狠的，是一个叫 Dots 的智能体，后台持续运行的那种。它给这位 CEO 拿回了两样东西。第一样是清晨。曾经清晨是创造力最高峰的时段，但当了 CEO 之后，一夜之间总有事情发生，不查手机就怕错过灾难，一查大脑就被污染，深度工作时间全没了。现在那台叫 Dottie 的智能体会判断什么真正需要人、其余的替人处理，清晨的空间就这么回来了。第二样更打动人：替人做完那些注定会中途放弃的事。举个例子，Sam 曾花一二十分钟用 Codex 找一条记得在 Slack 里见过的内容，没找到，以为是自己做梦梦见的。第二天 Dots 来报：注意到你没找到，想了一晚上，帮你找到了——原来那是张截图，于是把每一张截图都翻了一遍。搜不到就整夜想，这种事，人早放弃了。\n\n再看另一个大动作。OpenAI 一次性发布了三个办公套件式的工具，这是个不小的赌注。为什么不等等？因为团队意识到，现有软件整体上就不是为「与 AI 协作」设计的，一旦多人加上多个人的 AI 一起工作，现有那套抽象就失效了。Sam 最有感觉的是一个还没有名字、姑且叫「活文档」的概念：一个随人们的交互、随世界变化自动更新的文档。他本人已经不用共享仪表盘了，改成让智能体读自己所有的 Slack 消息，生成一份只属于自己的业务动态摘要。六个月前最关心营收和增长，现在最关心安全对齐——这份文档会跟着变。\n\n还有一件事对开发者影响特别实在：ChatGPT 订阅的 token 可以带到任何应用里用了。以前做应用的人总得纠结，让用户用多少 AI 才不会破产，要不要换便宜模型牺牲体验。现在用户带着订阅来，随便用。至于那条永远管用的推文——「OpenAI 刚刚杀死了某初创公司」——Sam 说它有效只是因为人们爱看末日论，但它从来没真正发生过；反过来，从没见过初创公司像现在这样这么快取得成功。\n\n最后还有一个被严重低估的维度：速度。Sam 所有提示都跑在 Ultrafast 上——一个主打超快响应的模型。他引用 Brett Victor 十几年前的演讲说，创作者应该与正在创作的东西有即时连接，而自己此前完全没意识到响应变快对思考回路的改变有多大，用四个字形容就是天壤之别。历史上 OpenAI 的主业是把智能的价格打下来，现在速度成了同样重要的新维度，自研芯片就是为了把快速推理送到每个人手里。\n\n所以回到开头那个大问题。AI 不是一场把人推向边缘的机器革命，而是一次以人为中心的文艺复兴——一人公司会爆发，订阅随身带，智能体替你守住清晨、做完你会放弃的事。用 Sam 的话说，人依然处于 AI 所有一切的中心，而这句话，就是这一集最值得带走的东西。"
+}

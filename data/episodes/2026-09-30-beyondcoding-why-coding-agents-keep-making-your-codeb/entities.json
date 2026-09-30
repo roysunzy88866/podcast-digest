@@ -1,0 +1,590 @@
+{
+  "episode_id": "2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb",
+  "podcast": "Beyond Coding",
+  "date": "2026-09-30",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "代码可维护性",
+    "基准测试",
+    "工程工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dex-horthy",
+      "type": "person",
+      "role": "host",
+      "name": "Dex Horthy",
+      "file": "Dex Horthy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            87.543,
+            92.865
+          ],
+          "quote": "Today, I'm joined by Dex Horthy, CEO of HumanLayer, the man who coined the term context engineering.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "humanlayer",
+      "type": "company",
+      "role": "company",
+      "name": "HumanLayer",
+      "file": "HumanLayer",
+      "primary": true,
+      "how_described": "本集嘉宾 Dex 创办的公司，服务于百名以上工程师的大型企业，帮助团队在用云端智能体构建时围绕设计文档和协作流程开展工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            87.543,
+            92.865
+          ],
+          "quote": "Today, I'm joined by Dex Horthy, CEO of HumanLayer, the man who coined the term context engineering.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：AI 智能体写代码的现状——网上展示大多是假的（token 堆量、黑暗工厂），真实工作流是分层规划、少并行、人在回路守可维护性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            415.084,
+            419.926
+          ],
+          "quote": "Like I heard a lot of conversations yesterday about remote agent execution, a lot about multiplayer.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 112,
+          "t": [
+            437.206,
+            443.954
+          ],
+          "quote": "And I mean, a lot of the cloud agent vendors, like you look at cursor cloud agents and Cognition and Devon and things like this, they've made good progress there.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 116,
+          "t": [
+            461.151,
+            475.742
+          ],
+          "quote": "And those teams tend to hit a lot of friction when building with cloud agents because they have 10 years of history and hundreds of repos and lots of, like, opinions and asterisks and special things about how dev environments are run and how can the agent",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 121,
+          "t": [
+            503.497,
+            510.964
+          ],
+          "quote": "Like Ramp and Brex and all these companies, they've all published papers on like, hey, we built this background agent and it solves 50% of our PRs or whatever.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 124,
+          "t": [
+            520.613,
+            549.429
+          ],
+          "quote": "I think I'm especially excited about trying to figure out a human layer is like how do we enable people to collaborate meaningfully on the bigger pieces of work where it's like yeah I could tell the agent to do this thing and then I would get a PR route out and then it would probably be somewhat right but it would have a bunch of issues and I'm talking back and forth with the agent on PR comments or back in Slack thread or wherever it is but it's like okay you went and wrote the code and it's not good and it's a lot harder to like",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 128,
+          "t": [
+            556.22,
+            569.151
+          ],
+          "quote": "And so our whole thing is like what teams have been doing for 30 or 40 years back when building a feature took hours or days, not five minutes, is they would like get together and they would align on what's being built either with the agent or with each other or both.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 133,
+          "t": [
+            587.296,
+            595.06
+          ],
+          "quote": "There's no amount of effort where it's like, okay, we're going to spend five hours in a meeting building a perfect plan, and then we're going to give that to the agent, and the thing that comes out is going to be perfect.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 138,
+          "t": [
+            608.926,
+            618.032
+          ],
+          "quote": "Can you just, you know, from a 25,000 foot view of the problem, like a one pager, can I eliminate like 50% of the bad things that the agent might have done?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 142,
+          "t": [
+            635.082,
+            645.933
+          ],
+          "quote": "25 to 50 to 75 percent rework which is common with like if you try to one-shot most larger agent PRs like people don't just say hey Claude go do this thing they're sitting there working back and forth if it's large.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1585.656,
+            1598.329
+          ],
+          "quote": "We have so many deterministic tools that look at code conventions, and now we even have built-in verification layers where the agent just sends me screenshots or sends me videos about the functionality that it's being built, so I don't necessarily look at the code anymore.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1791.509,
+            1797.815
+          ],
+          "quote": "Uh, literally the last model came out, the Astro came out and my buddy, Ian, who ran a, built a coding agent startup that got acquired by Expo.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1930.232,
+            1931.272
+          ],
+          "quote": "You just let the agent do it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1931.752,
+            1938.715
+          ],
+          "quote": "And then you're not even thinking and under, you have the option, some people will, but you have the option to sometimes it just feels like I'm just talking to your agent.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1939.135,
+            1942.297
+          ],
+          "quote": "At which point, like, I might as well just have my agent do it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2010.026,
+            2015.209
+          ],
+          "quote": "And there's still a flavor of this where it's like, OK, I'm just going to give it to my agent and I'm not going to learn anything.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2071.695,
+            2078.82
+          ],
+          "quote": "And thinking back now, likely whatever we captured back then in Jira would have been great food for an agent to then execute on.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2098.715,
+            2113.648
+          ],
+          "quote": "And my fear is that because it's so easy to be on an island with your agent and go into execution mode, create slop or create something valuable, it's really up to the user, that you lose that, that kind of collaborative effort and also interaction.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2145.648,
+            2149.671
+          ],
+          "quote": "And so like maybe that's part number four is like can you reify those things for the agent?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2410.77,
+            2420.357
+          ],
+          "quote": "We sometimes will use Fable orchestrating Sol, or we use Sol orchestrating Fable, or we use just Opus as the main thing and Opus as the sub-agent.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2459.037,
+            2460.538
+          ],
+          "quote": "Don't just make me read your agent slop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2922.638,
+            2925.098
+          ],
+          "quote": "I want to see one person running one coding agent at a time.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "Dex 因推广而闻名的术语，指围绕模型组织和管理上下文信息的工程方法，本集开头以此介绍他的身份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            87.543,
+            92.865
+          ],
+          "quote": "Today, I'm joined by Dex Horthy, CEO of HumanLayer, the man who coined the term context engineering.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "slop-code-bench",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slop Code Bench",
+      "file": "Slop Code Bench",
+      "primary": true,
+      "how_described": "威斯康星大学 Gabe Orlansky 实验室做的基准，证明模型让代码库随时间推移越来越差：给模型从零构建任务后连续加功能、设三到十个检查点，所有模型失败测试都上升，GPT 5.5 Codex 约 15%、Astra 约 16.5%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            66.099,
+            66.959
+          ],
+          "quote": "A slop code bench?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 43,
+          "t": [
+            145.115,
+            148.258
+          ],
+          "quote": "Benchmark I discovered called Slop Code Bench.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 48,
+          "t": [
+            155.703,
+            156.564
+          ],
+          "quote": "Oh, Slop Code Bench?",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "dark-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "黑暗工厂 (dark factory)",
+      "file": "黑暗工厂",
+      "primary": true,
+      "how_described": "高管圈热词，指全自动无人干预的编程模式；Dex 明确说「全是炒作」「大部分是 BS」，并举了被三万行 slop PR 淹没的老牌公司例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1139.122,
+            1141.783
+          ],
+          "quote": "Everyone wants to claim they've figured out the dark factory thing.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集讨论其作为新人传承品味通道正在失效：评审人写的评论被直接粘贴给 AI；Mitchell Hashimoto 只写「去问你的 Claude 为什么这是错的」的做法被认可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 482,
+          "t": [
+            2015.249,
+            2031.637
+          ],
+          "quote": "But I think learning how to build a really good design doc, which again, learning how to build a really good prompt for whatever session is going to be building or in that session is going to emerge as well as just as important, if not more important than code review.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "maintainability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可维护性 (maintainability)",
+      "file": "可维护性",
+      "primary": true,
+      "how_described": "本集核心论点：看代码要确认正确与可维护，后者截图和视频验证不了；没有提示词或确定性工具能替代有品味的工程师对抗模型写出不可维护代码的倾向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            390.283,
+            408.837
+          ],
+          "quote": "It will probably eventually happen, but it seems like the labs are much more interested in like hill climbing on other sorts of things like computer use and other like frontiers that like the last 10% of software maintainability may be like as hard or harder than the whole first 90% that we spent the last three or four years on.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1635.778,
+            1654.015
+          ],
+          "quote": "But I have never seen a prompt or a deterministic tool that can drive code-based maintainability and fight the model's tendency to write unmaintainable code in any meaningful way without a human in the loop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1726.301,
+            1730.065
+          ],
+          "quote": "Because they're doing deterministic tooling for correctness, but not for maintainability.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1730.185,
+            1732.007
+          ],
+          "quote": "No, but you want maintainability.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1732.288,
+            1733.269
+          ],
+          "quote": "You want maintainability.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "Dex 的工作流中用主模型编排小模型实现，跨厂商编排目前要靠 Codex CLI 之类的变通，他们有自定义 harness 即将支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2409.249,
+            2410.73
+          ],
+          "quote": "And we use sub-agents.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2434.603,
+            2438.468
+          ],
+          "quote": "If you want Fable to orchestrate sole sub-agents, you have to tell it to use the Codex CLI right now.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集作为订阅堆量文化的象征反复提及（「一周用光六个 Codex 订阅」），也作为跨厂商编排的变通工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            60.358,
+            63.679
+          ],
+          "quote": "Oh my God, I ran out six Codex subscriptions in a week.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 82,
+          "t": [
+            318.888,
+            324.194
+          ],
+          "quote": "And like I think GPT 5.5 Codex when they ran it in May got like a 15% on this benchmark.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1268.862,
+            1275.792
+          ],
+          "quote": "People have gone off on this a little bit, but it was like the token maxing thing of like, oh my God, I ran out six Codex subscriptions in a week.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1288.555,
+            1293.659
+          ],
+          "quote": "I don't think it's okay to be like, if you're not maxing out six Codex subs, then you're a bad engineer.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2434.603,
+            2438.468
+          ],
+          "quote": "If you want Fable to orchestrate sole sub-agents, you have to tell it to use the Codex CLI right now.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "访谈中作为常用编码模型提及，如「去问你的 Claude 为什么这是错的」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            368.564,
+            382.877
+          ],
+          "quote": "Well, so here's the crazy thing is like we used to do this thing in the like Claude 3.5, 3.7, maybe like Opus 4 days where it's like, cool, we're just gonna, yes, I know the code is sloppy, but by the time that matters, that'll be GPT-7's problem.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 142,
+          "t": [
+            635.082,
+            645.933
+          ],
+          "quote": "25 to 50 to 75 percent rework which is common with like if you try to one-shot most larger agent PRs like people don't just say hey Claude go do this thing they're sitting there working back and forth if it's large.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1952.404,
+            1954.485
+          ],
+          "quote": "He says, ask your Claude why this is wrong.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2588.445,
+            2597.008
+          ],
+          "quote": "I wonder if the way we get access to models, like if I look at myself, my own license with Claude Code, I spend 200 bucks a month at least.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提及：Cognition 在基准测试中引入裁判模型检查是否破坏代码惯例，也是云端智能体厂商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            245.882,
+            249.005
+          ],
+          "quote": "And then cognition introduced this idea of like, yes, okay, we're gonna use much bigger tasks.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 112,
+          "t": [
+            437.206,
+            443.954
+          ],
+          "quote": "And I mean, a lot of the cloud agent vendors, like you look at cursor cloud agents and Cognition and Devon and things like this, they've made good progress there.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SWE-bench",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

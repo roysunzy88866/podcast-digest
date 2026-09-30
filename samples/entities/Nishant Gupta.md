@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":38,"推理":62,"智能体":364,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":38,"推理":63,"智能体":369,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":34}</script>
 
 <script>
 (function(){

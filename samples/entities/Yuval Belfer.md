@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":22,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"LlamaIndex":2,"Anthropic":155}</script>
+<script type="application/json" class="pd-epn">{"AI21":1,"分块":1,"RAG":22,"智能体搜索":4,"多尺度索引":1,"RRF":1,"Oracle 实验":1,"LlamaIndex":2,"Anthropic":156}</script>
 
 <script>
 (function(){

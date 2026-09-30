@@ -1,0 +1,538 @@
+{
+  "episode_id": "2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi",
+  "podcast": "AI & I",
+  "date": "2026-09-30",
+  "tags": [
+    "OpenAI",
+    "智能体",
+    "Dev Day",
+    "速度与推理",
+    "文艺复兴 vs 工业革命"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集主角公司：Sam 介绍 Dev Day 发布的 22 项新东西，自称要走「平台赋能构建者、公司数量文艺复兴」路线，而非一家独大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            776.962,
+            792.174
+          ],
+          "quote": "You've told me that there's been a couple times, not just for scheduling or things that are urgent, like filtering, but there have been a couple times where it's helped you see something or make a decision with OpenAI that you could not have, you said you couldn't have hired someone to do that.",
+          "speaker": ""
+        },
+        {
+          "seg": 280,
+          "t": [
+            1239.387,
+            1247.549
+          ],
+          "quote": "Diogo used to work at OpenAI, and Diogo's awesome, and he was talking about this class of ideas for a long time.",
+          "speaker": ""
+        },
+        {
+          "seg": 289,
+          "t": [
+            1296.692,
+            1305.222
+          ],
+          "quote": "How do you think about, you know, if something like Jeff comes out, it's a kind of new type of model, and then OpenAI can add like a decisions API.",
+          "speaker": ""
+        },
+        {
+          "seg": 290,
+          "t": [
+            1305.502,
+            1314.132
+          ],
+          "quote": "How do you think about how that changes the race between NeoLabs and labs and what OpenAI can cover and what a new lab can focus on?",
+          "speaker": ""
+        },
+        {
+          "seg": 309,
+          "t": [
+            1413.532,
+            1416.013
+          ],
+          "quote": "And that no one at OpenAI really could imagine with conviction today.",
+          "speaker": ""
+        },
+        {
+          "seg": 329,
+          "t": [
+            1484.02,
+            1494.107
+          ],
+          "quote": "Does that change, you know, you were part of Y Combinator before OpenAI, does that change how you think about when people ask you about how do I start a startup or how do I think about how to grow, like all that kind of stuff?",
+          "speaker": ""
+        },
+        {
+          "seg": 340,
+          "t": [
+            1530.199,
+            1540.947
+          ],
+          "quote": "Yeah, I feel like there's always that narrative of the net labs are gonna eat everything and Dev Day is like, the tweet that always works is like, OpenAI just killed X startup or whatever.",
+          "speaker": ""
+        },
+        {
+          "seg": 375,
+          "t": [
+            1714.173,
+            1718.954
+          ],
+          "quote": "And does that go out on Sam Altman.com or are you talking about a real OpenAI product?",
+          "speaker": ""
+        },
+        {
+          "seg": 377,
+          "t": [
+            1724.645,
+            1726.967
+          ],
+          "quote": "DAN GALPINIUSSKI- Maybe I'll ship a real OpenAI product.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：24/7 在后台运行、连接你的系统、主动替你做事的智能体——一万个智能体协作解 Navier-Stokes 的例子也被反复讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            155.885,
+            161.367
+          ],
+          "quote": "I've been thinking, if an agent solves a Navier Stokes in a data center, but no one finds out, did it really solve it?",
+          "speaker": ""
+        },
+        {
+          "seg": 221,
+          "t": [
+            940.123,
+            942.004
+          ],
+          "quote": "People have talked about the need to have an agent...",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dots",
+      "file": "Dots",
+      "primary": true,
+      "how_described": "本集把它说成：OpenAI 在 Dev Day 发布的个人后台智能体产品，Sam 的 dot（Dottie）替他挡掉非紧急事务、找回清晨深度工作、甚至整夜想他没搜到的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            5.479,
+            13.17
+          ],
+          "quote": "You know, seven people's dots can, working together, create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.",
+          "speaker": ""
+        },
+        {
+          "seg": 117,
+          "t": [
+            539.436,
+            547.741
+          ],
+          "quote": "The Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.",
+          "speaker": ""
+        },
+        {
+          "seg": 223,
+          "t": [
+            949.892,
+            966.709
+          ],
+          "quote": "And I have definitely learned in the few weeks that I've been using dots that although technology is very wonderful in many ways, the kind of like crazy attention hacking of social media and phones and notifications had gotten way worse than I realized for me personally.",
+          "speaker": ""
+        },
+        {
+          "seg": 247,
+          "t": [
+            1111.108,
+            1126.105
+          ],
+          "quote": "And something that like many of our dots can work with together, not only to like share information, but actually like, you know, seven people's dots can working together create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.",
+          "speaker": ""
+        },
+        {
+          "seg": 372,
+          "t": [
+            1690.154,
+            1701.382
+          ],
+          "quote": "And I have really felt that now with dots and these like, you know, little chunks of time I have, or even like a long chunk of time where I can like have this interactive thing and get a lot done.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成：开放生态的载体——开发者可以在 ChatGPT 里构建应用，用户还能把 ChatGPT 订阅的 token 带到任何应用里用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            272.87,
+            289.342
+          ],
+          "quote": "So we wanted to really open up our ecosystem, let people build apps in ChatGPT in the same way that we get to do them, let people bring their subscription wherever they'd like, have the marketplace, and really try to let people get connected to all the stuff that people will now be able to build.",
+          "speaker": ""
+        },
+        {
+          "seg": 308,
+          "t": [
+            1401.83,
+            1413.512
+          ],
+          "quote": "And I don't know what I'm going to love the most as like a ChatGPT native app, a plugin extension, but I am very confident that there will be things that I really do love that I cannot imagine today.",
+          "speaker": ""
+        },
+        {
+          "seg": 313,
+          "t": [
+            1430.343,
+            1434.967
+          ],
+          "quote": "In terms of bringing your ChatGPT subscription with you everywhere, we just want that ourselves.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集把它说成：Sam 用来搜 Slack 的编程/搜索工具，以及他以前做副业小项目的方式；Dev Day 也推出了 Codex 原生应用的插件扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            875.859,
+            879.561
+          ],
+          "quote": "And Slack search is obviously terrible, so I mostly use Codex to search it.",
+          "speaker": ""
+        },
+        {
+          "seg": 206,
+          "t": [
+            883.283,
+            889.366
+          ],
+          "quote": "And I spent a good 10 or 20 minutes trying to search with Codex and find this, and I kept trying different things.",
+          "speaker": ""
+        },
+        {
+          "seg": 209,
+          "t": [
+            890.397,
+            897.2
+          ],
+          "quote": "And I was like, man, maybe I dreamed it and this didn't really happen because Codex doesn't usually fail.",
+          "speaker": ""
+        },
+        {
+          "seg": 297,
+          "t": [
+            1344.252,
+            1349.219
+          ],
+          "quote": "So I've been in your ear a lot about Codex Native apps for a little while now.",
+          "speaker": ""
+        },
+        {
+          "seg": 373,
+          "t": [
+            1702.35,
+            1710.592
+          ],
+          "quote": "I feel like I will do something that is not just like a little side project for myself like I used to do with Codex, but I hope I launch something into the world.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "ultrafast",
+      "type": "concept",
+      "role": "concept",
+      "name": "Ultrafast",
+      "file": "Ultrafast",
+      "primary": true,
+      "how_described": "本集把它说成：OpenAI 强调超快响应的模型，Sam 所有提示都在上面跑，引 Brett Victor「创作者应与创作物即时连接」说明快反馈回路改变思考方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            1.834
+          ],
+          "quote": "Do you do all your prompting on Ultrafast?",
+          "speaker": ""
+        },
+        {
+          "seg": 400,
+          "t": [
+            1776.754,
+            1778.594
+          ],
+          "quote": "Do you do all your prompting on Ultrafast?",
+          "speaker": ""
+        },
+        {
+          "seg": 408,
+          "t": [
+            1795.928,
+            1803.334
+          ],
+          "quote": "I'm very aware that not everybody is going to be able to use Ultrafast all the time for everything, but I have such a hard time dragging it back over.",
+          "speaker": ""
+        },
+        {
+          "seg": 409,
+          "t": [
+            1803.634,
+            1814.683
+          ],
+          "quote": "Given that you're living in that future, that I think all of us can experience a little taste of it, what is different about the Ultrafast world in terms of how you can use these tools?",
+          "speaker": ""
+        },
+        {
+          "seg": 426,
+          "t": [
+            1915.048,
+            1918.593
+          ],
+          "quote": "So when can I expect to use Ultrafast for all my prompts?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "decisions-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Decisions API",
+      "file": "Decisions API",
+      "primary": true,
+      "how_described": "本集把它说成：Dev Day 发布里「最隐蔽但最重要」的东西之一，目标是让常见用例的技术变得超快、超低成本，灵感部分来自 Diogo 和 Jev 的反响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1221.423,
+            1222.683
+          ],
+          "quote": "Tell me about Decisions API.",
+          "speaker": ""
+        },
+        {
+          "seg": 277,
+          "t": [
+            1222.724,
+            1233.066
+          ],
+          "quote": "I feel like the Decisions API is one of the sneaky, most important things today, because Jev is this new hot thing that has honestly changed how we think about building things internally.",
+          "speaker": ""
+        },
+        {
+          "seg": 278,
+          "t": [
+            1234.006,
+            1238.127
+          ],
+          "quote": "Decisions API, did you start that from Jev, or has it been in the works for a while?",
+          "speaker": ""
+        },
+        {
+          "seg": 289,
+          "t": [
+            1296.692,
+            1305.222
+          ],
+          "quote": "How do you think about, you know, if something like Jeff comes out, it's a kind of new type of model, and then OpenAI can add like a decisions API.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "type": "concept",
+      "role": "concept",
+      "name": "Space",
+      "file": "Space",
+      "primary": true,
+      "how_described": "本集把它说成：一次发布三个办公套件式工具的大赌注——现有软件不是为多人与多个 AI 协作设计的，人机协作领域值得探索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            539.436,
+            547.741
+          ],
+          "quote": "The Dots, the new thing we launched today, is the first thing that has given me back control of my mornings and my mental space in the mornings.",
+          "speaker": ""
+        },
+        {
+          "seg": 129,
+          "t": [
+            587.641,
+            592.542
+          ],
+          "quote": "And I get this space for kind of like creativity or to just hang out with my kids back.",
+          "speaker": ""
+        },
+        {
+          "seg": 141,
+          "t": [
+            636.491,
+            640.872
+          ],
+          "quote": "I know what the demo is because I was able to look at the presentation in space or whatever.",
+          "speaker": ""
+        },
+        {
+          "seg": 233,
+          "t": [
+            1021.96,
+            1022.761
+          ],
+          "quote": "Tell me about space.",
+          "speaker": ""
+        },
+        {
+          "seg": 239,
+          "t": [
+            1057.293,
+            1064.66
+          ],
+          "quote": "So this is definitely an ambitious bet, but I think the space of human AI collaboration is really important to explore.",
+          "speaker": ""
+        },
+        {
+          "seg": 241,
+          "t": [
+            1065.981,
+            1081.329
+          ],
+          "quote": "Like, are you reviewing docs in space, or are you making docs, and do you have expectations for how much of it you're typing versus how much of it your dot is doing for you, and also with the docs that you get?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "live-documents",
+      "type": "concept",
+      "role": "concept",
+      "name": "活文档 (live documents)",
+      "file": "活文档",
+      "primary": true,
+      "how_described": "本集把它说成：会随人们交互、随世界变化自动更新的文档；七个 dot 协作能创造出一种涌现出来的新东西，Sam 已用它替代共享仪表盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1095.584,
+            1110.427
+          ],
+          "quote": "But one of the things that I have found most amazing about it, and I don't think we have a word for this yet, but for lack of a better word, these live documents, creating a doc that is going to automatically update as people interact or as other things change in the world.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把它说成：速度维度的核心——OpenAI 自研芯片是为了把非常快的推理交到每个人手里，同时持续改进推理栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 423,
+          "t": [
+            1894.324,
+            1902.368
+          ],
+          "quote": "Like our own chip is going to be an incredible contributor to letting us get very fast inference in the hands of everybody to say nothing of what the models will do to",
+          "speaker": ""
+        },
+        {
+          "seg": 424,
+          "t": [
+            1903.152,
+            1906.497
+          ],
+          "quote": "improve research and our inference stack and everything else.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": false,
+      "how_described": "本集把它说成：让 Dots 成为可能的、足够聪明的模型——「把模型推过智能门槛」是关键一环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            762.627,
+            766.811
+          ],
+          "quote": "This is a very complicated system with a lot of stuff, but maybe most important was Astra.",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

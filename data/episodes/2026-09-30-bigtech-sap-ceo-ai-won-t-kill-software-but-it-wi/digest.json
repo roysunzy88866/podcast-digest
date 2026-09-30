@@ -1,0 +1,154 @@
+{
+  "title_zh": "SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月",
+  "tldr": "SAP CEO Christian Klein 谈为什么单靠 LLM 跑不动企业业务,商业 AI 距离 100% 准确率只剩几个月。",
+  "digest_md": "这一集是科技播客 Big Technology 的专访,主持人和聊的对象是 Christian Klein——SAP 的 CEO。SAP 是欧洲最大的软件公司,做的是 ERP(企业资源规划)软件,也就是把一家公司的财务、人力资源、制造、供应链、销售整合进同一个系统的那类软件,全球大量最关键任务型的业务跑在上面。\n\n> 【背景】主持人是 Big Technology Podcast 创始人 Alex Kantrowitz;Klein 七年前开始担任 SAP CEO,主导了公司的云转型。\n\n这期访谈最反直觉的一点:当\"AI 冲击 SaaS、人人都能自己写软件、SAP 要被取代\"的叙事困扰软件业大半年、SAP 股价今年一度跌去 21% 之后,Klein 给出的回应不是防守,而是进攻——他说商业 AI 是真实的,距离真正能信任 AI 运营你的业务,已经\"不是按年算,是按月算\"。\n\n## 100% 准确率:企业 AI 的真正门槛\n\nKlein 承认 AI 今天就\"理解业务\",比如 SAP 的财务结账智能体已经能干活,但准确率大约是 93%——而审计场景需要的是 100%,90% 的准确率等于不能用。你的审计师不会接受\"这次数字高了 7%\"这种说法,数据必须经过审计和认证。[05:36 Christian Klein]\n\n但他判断这个坎很快能翻过去:\"对我而言,这更多是一个'还有几个月'的问题,直到我们真正达到一个可以信任 AI 运营你业务的水平。\"而且这是分任务推进的:财务结账场景先到,供应链优化智能体可能要再等八到九个月。现在讨论的单位已经不再是\"年\"。[06:00 Christian Klein]\n\n关键在于:不同场景对准确率的要求完全不同。让同事 Jules(他们的内部 AI 协作者)安排一次客户简报,95% 的准确率完全够用——Klein 不再需要一屋子人帮他准备客户会议材料;但做财务结账就是另一回事。他还给出一条硬规则:智能体上线前必须达到 95% 或更高的准确率,否则根本不值得发布,客户压根不会用。[50:06 Christian Klein]\n\n## 光有好模型不够:数据烂、治理缺,智能体就废\n\n为什么企业 AI 试点十个里九个落不了地?Klein 认为障碍不只在模型,而在模型底下的东西。有客户当面夸他的财务结账助手好用,但补了一句\"它只有 93% 准确率\"——而这家公司里飘着一百个财务系统。\"你的数据是一团糟。\"系统越多、数据质量越差,AI 智能体的准确率就越低。[09:05 Christian Klein]\n\n他的应对是把数据清理本身也交给 AI:让 AI 自动匹配 SAP 与 Salesforce、Workday 等系统之间的数据,配上开箱即用的语义数据层,让企业不再需要一支数据科学家大军每到月底手动对账。另一个支柱是治理——在美国运营政府等公共部门客户时,智能体必须理解哪些数据能访问、能共享、存到哪。\"智能体不能就那么放任乱来,在不了解某个国家的税务要求的情况下做财务结账。\"他的结论是:LLM 超级强大毋庸置疑,但必须加上流程上下文、数据上下文和治理——而这是 SAP 干了 50 年的事。[28:57 Christian Klein]\n\n## \"SaaS 末日论\"为什么没杀掉 SAP\n\n过去大半年流行的叙事是:开发生产力疯涨,人人都能用 vibe coding(用自然语言提示直接生成软件)自己写一个 SAP。Klein 的做法是让产品团队把整个产品组合过一遍,逐个评估\"哪个能被重写替代\"。结论很快出来了:ERP 里有 700 万个数据字段需要关联,数亿个数据关联是经营一个企业必须理解的,再加上按行业、按国家的深层流程知识——SAP 每年投入数亿美元只为保持软件合规。真正容易被复制的只有一两个流程和数据上下文很少的小方案。[26:27 Christian Klein]\n\n但他并不因此松口气:\"在下一个阶段,价值创造正从记录系统向上移动,我们的 AI 必须是世界一流的,才能捍卫我们在记录系统中的存在。\"至于主持人提出的更尖锐的理论——OpenAI、Anthropic 会不会扣住最强模型、自己往上游做企业业务?Klein 的回答是:市场上有足够多健康的模型竞争,很多开源和自有权重模型性价比更好,他\"不担心哪个提供商说不再给我们提供模型了\"。纯 API 连接、纯 MCP 服务器,给不了他平台上那种本体(ontology,把 SAP 数据和非 SAP 数据如机器传感器信号串起来的语义逻辑层)和治理。\n\n## 员工会更累吗?SAP 内部怎么用 AI、管 token\n\n主持人抛出了一个值得琢磨的问题:如果 AI 包揽所有机械性工作,剩下全是高强度认知工作、节奏还更快,这是不是倦怠的配方?Klein 承认\"确实有可能是\",很多工作会剧烈改变——财务和 HR 里的控制、合规检查会全部被智能体自动化,而\"那是成千上万人的全职工作\"。但他从员工和客户那里听到的是另一面:大家都很乐意摆脱无穷无尽的审批流和合规检查,专注真正重要的事;他的日常被腾出来后,反而有更多时间和团队讨论战略。目前他没观察到疲劳上升。\n\n关于工作安全,他给员工的诚实版本是:12 个月后 SAP 需要的职位画像组合会不同——要招更多数据科学家、全栈开发者,一些岗位需要更少的人;关键不是单纯裁员重组,而是再培训加新旧员工搭配(\"你需要领域知识,你需要理解 AI 底下的软件\")。他举了真实案例:大量曾经写本地部署软件的开发者成功转型为云时代开发者,心理转变和工作方式都得换,但确实可行。再培训在实践里最大的敌人是心态,不是技能。\n\n内部管理上,SAP 也经历了 token 成本的觉醒。他们的\"最吞 token 的 1% 员工\"同样存在,一开始 Klein 不愿设限——\"现在我们告诉每个人用 AI 提升自己,结果我第一个引入 token 限制,这个信号不好\"。直到花费真正失控,他们才按职位画像设了\"健康且公平\"的阈值,超出可以走审批流程追加;而做模型训练的前 1% 不设限,因为智能体准确率全靠他们。但他强调,比设限更有效的是模型切换:\"当你从一个模型切换到另一个模型时,这可以把你的成本削减 10 倍、一个数量级。\"SAP 现在推向市场的每个智能体都要用不同模型测试,很多智能体已经换到第五个模型,只为准出结果对 token 成本的比。[54:06 Christian Klein]\n\n## 模型采购的新现实:不用最贵的,用最对的\n\n主持人引用 Ramp 经济实验室的数据:AI 支出里花在前沿模型上的比例一个月内从 53% 降到 45%,说明企业发现不必用最好的 AI 也能成功。Klein 确认 SAP 是同样的模式:写代码仍大量用前沿模型,但\"生成一份人数报告\"\"做一份财务报告\"这类任务,开源模型表现够好、成本对比之下就直接切换。他甚至收购了一个表格 AI 模型,不用任何数据科学家碰数据,就对一家零售商的全部数据做出了与其之前 10 人数据科学团队相同准确度的预测。[45:51 Christian Klein]\n\n他的总结很直白:前沿模型确实越来越好,但\"人们不需要最尖端的东西\",而标准模型往往是\"用 10% 的价格获得 80% 的性能\"(主持人语,Klein 附议)。对前沿实验室的启示,他认为和 SAP 自己 50 年的经历一样:竞争者会从寥寥无几变成数以百计,\"唯一的办法就是持续创新来证明这个价格的合理性\"——如果你没有比其他人好很多,某个时点就很难证明溢价了。\n\n至于未来会不会出现 ChatGPT 直接当前端、绕过 SAP 界面的世界?Klein 的答案是\"两种都提供\",但层次分明:第三方智能体(包括 OpenAI、Anthropic 的)可以通过 SAP 的 API 网关和智能体网关访问 SAP 系统,这完全没问题;但他赌主路径仍是他家的界面 JouleWork,因为更好的上下文加更好的治理,\"你不会想看到一个 AI 智能体在你的 ERP 系统里做不受控的事情\"。\n\n## 欧洲:监管意图是好的,但该管结果、别管技术\n\nKlein 承认布鲁塞尔的监管者\"全都是好意图\",但批评他们倾向于监管技术本身,叠加出《AI 法案》《数据法案》层层互相重叠的规定,连企业的数据保护官都搞不清边界,让初创公司在欧洲几乎无法起步。\"你需要监管,但应该更多地监管商业结果、对社会的影响,而不是技术本身。你怎么可能有竞争力,如果你是世界上唯一真正监管技术的地区。\"他对回滚有信心:欧洲已启动名为 Omnibus 的简化与去监管措施,西门子等企业也在传递同样信息。[60:30 Christian Klein]\n\n## 本集带走\n\n- **企业 AI 的门槛是准确率,不是聪明度**:审计级任务要 100%,简报类任务 94% 就够;SAP 的规则是准确率不到 95% 的智能体根本不上线。按任务分级,而不是一刀切。\n- **Klein 的时间表:几个月,不是几年**——财务结账等场景即将达到可信水平,供应链优化约再等八到九个月;企业 AI 的爆发卡点正在被逐个拆除。\n- **模型下面才是护城河**:700 万数据字段、数亿数据关联、按行业和国家的合规知识,加上治理(谁能看什么数据、懂各国税法),这些是\"LLM + AI 基础 + 治理\"公式里 LLM 之外的部分,也是 vibe coding 复制不了的。\n- **成本管理靠切换模型,不是靠限流**:同一个任务换模型能省一个数量级的钱,SAP 的很多智能体已迭代到第五个模型;前沿模型仍留给代码和主权合规场景。\n- **不想被绕过,就做别人给不了的前端**:第三方智能体放行,但必须走它的智能体网关;赌用户为了完整上下文和治理留在自家界面。",
+  "quotes": [
+    {
+      "en": "AI understands business, but sometimes you need an accuracy of 100%, 90% accuracy is not enough.",
+      "zh": "AI 理解业务,但有时你需要 100% 的准确率,90% 是不够的。",
+      "timestamp": "05:36",
+      "speaker": "Christian Klein"
+    },
+    {
+      "en": "this is more a question of now months until we are really reaching a level where you can really trust AI running your business.",
+      "zh": "这更多是一个\"还有几个月\"的问题,直到我们真正达到可以信任 AI 运营你业务的水平。",
+      "timestamp": "06:02",
+      "speaker": "Christian Klein"
+    },
+    {
+      "en": "business AI is real, business AI is coming.",
+      "zh": "商业 AI 是真实的,商业 AI 正在到来。",
+      "timestamp": "06:54",
+      "speaker": "Christian Klein"
+    },
+    {
+      "en": "So, absolutely, our AI needs to be world class to still also defend our existence in the system of record.",
+      "zh": "所以我们的 AI 必须是世界一流的,才能捍卫我们在记录系统中的存在。",
+      "timestamp": "27:19",
+      "speaker": "Christian Klein"
+    },
+    {
+      "en": "They tend to be like 10% of the price for 80% of the performance.",
+      "zh": "它们往往是用 10% 的价格获得 80% 的性能。",
+      "timestamp": "47:29",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "And when you switch from one model to another, that can cut your cost by 10, by a factor of 10.",
+      "zh": "当你从一个模型切换到另一个模型时,这可以把你的成本削减 10 倍、一个数量级。",
+      "timestamp": "54:00",
+      "speaker": "Christian Klein"
+    },
+    {
+      "en": "I guess you need regulation, but you should regulate more the business outcome, the impact on a society and not the technology per se.",
+      "zh": "我想你需要监管,但你应该更多地监管商业结果、对社会的影响,而不是技术本身。",
+      "timestamp": "59:33",
+      "speaker": "Christian Klein"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:36",
+      "speaker": "Christian Klein",
+      "en": "AI understands business, but sometimes you need an accuracy of 100%, 90% accuracy is not enough.",
+      "zh": "AI 理解业务,但有时你需要 100% 的准确率,90% 是不够的。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Christian Klein",
+      "en": "this is more a question of now months until we are really reaching a level where you can really trust AI running your business.",
+      "zh": "这更多是一个\"还有几个月\"的问题,直到我们真正达到可以信任 AI 运营你业务的水平。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Christian Klein",
+      "en": "business AI is real, business AI is coming.",
+      "zh": "商业 AI 是真实的,商业 AI 正在到来。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Christian Klein",
+      "en": "And the more systems you have and the more you lack data quality, I mean, of course, this also then reduces the accuracy of your AI agent.",
+      "zh": "你的系统越多、数据质量越差,这当然也会降低你 AI 智能体的准确率。"
+    },
+    {
+      "timestamp": "19:32",
+      "speaker": "Christian Klein",
+      "en": "So I would say there will be a workforce transformation, but it's not necessarily that it's only about restructuring.",
+      "zh": "所以我认为会有一场劳动力转型,但它不一定只是关于重组。"
+    },
+    {
+      "timestamp": "26:27",
+      "speaker": "Christian Klein",
+      "en": "So there are hundreds of millions data correlations, what you need to understand to run a business.",
+      "zh": "有数亿个数据关联,你需要理解它们才能经营一个企业。"
+    },
+    {
+      "timestamp": "27:19",
+      "speaker": "Christian Klein",
+      "en": "So, absolutely, our AI needs to be world class to still also defend our existence in the system of record.",
+      "zh": "所以我们的 AI 必须是世界一流的,才能捍卫我们在记录系统中的存在。"
+    },
+    {
+      "timestamp": "28:41",
+      "speaker": "Christian Klein",
+      "en": "If you just use an LLM alone, there's no way that you can run a warehouse with it, that you can do a financial close with it, et cetera, et cetera.",
+      "zh": "如果你只是单独用一个 LLM,你不可能用它运营一个仓库,不可能用它做财务结账,等等等等。"
+    },
+    {
+      "timestamp": "28:57",
+      "speaker": "Christian Klein",
+      "en": "I mean, the agents cannot just go wild and do a financial close without understanding the tax requirements in a certain country.",
+      "zh": "智能体不能就那么放任乱来,在不了解某个国家税务要求的情况下做财务结账。"
+    },
+    {
+      "timestamp": "36:53",
+      "speaker": "Christian Klein",
+      "en": "And we are not seeing this one model who, you know, solves all of the problems.",
+      "zh": "我们并没有看到那一个能解决所有问题的模型。"
+    },
+    {
+      "timestamp": "39:18",
+      "speaker": "Christian Klein",
+      "en": "You don't want to go having an AI agent doing uncontrolled things in your ERP system.",
+      "zh": "你不会想看到一个 AI 智能体在你的 ERP 系统里做不受控的事情。"
+    },
+    {
+      "timestamp": "41:24",
+      "speaker": "Christian Klein",
+      "en": "Yeah, a pure API connection, pure MCP server is not the same like the ontology, the context we are having on our AI platform.",
+      "zh": "一个纯粹的 API 连接、纯粹的 MCP 服务器,和我们 AI 平台上的本体、上下文不是一回事。"
+    },
+    {
+      "timestamp": "45:51",
+      "speaker": "Christian Klein",
+      "en": "And many agents we are building in the meantime have seen the fifth model because we are always, you know, optimizing, yeah, outcome versus the tokens and the cost of them, the cost we pay for such a model.",
+      "zh": "我们这期间构建的许多智能体已经换到第五个模型,因为我们一直在优化结果与 token 及其成本的比值。"
+    },
+    {
+      "timestamp": "47:29",
+      "speaker": "Alex",
+      "en": "They tend to be like 10% of the price for 80% of the performance.",
+      "zh": "它们往往是用 10% 的价格获得 80% 的性能。"
+    },
+    {
+      "timestamp": "50:06",
+      "speaker": "Christian Klein",
+      "en": "We have a rule, 95% or better.",
+      "zh": "我们有一条规则,95% 或更高。"
+    },
+    {
+      "timestamp": "54:06",
+      "speaker": "Christian Klein",
+      "en": "And when you switch from one model to another, that can cut your cost by 10, by a factor of 10.",
+      "zh": "当你从一个模型切换到另一个模型时,这可以把你的成本削减 10 倍、一个数量级。"
+    },
+    {
+      "timestamp": "59:56",
+      "speaker": "Christian Klein",
+      "en": "I guess you need regulation, but you should regulate more the business outcome, the impact on a society and not the technology per se.",
+      "zh": "我想你需要监管,但你应该更多地监管商业结果、对社会的影响,而不是技术本身。"
+    }
+  ],
+  "voice_script": "今天这期咱们聊一个人,Christian Klein,SAP 的 CEO。SAP 是欧洲最大的软件公司,做的是 ERP 软件,说白了就是把一家公司的财务、人事、制造、供应链、销售,全部装进同一个系统里。全球大量最要命的业务都跑在上面。Klein 干这行七年了,主导了 SAP 的云转型。这期访谈里他要回应一个困扰了软件业大半年的问题:AI 这么猛,人人都能自己写软件,SAP 是不是要被干掉了?\n\n先把这个背景垫清楚。过去大半年,业界流行的说法叫 SaaS 末日论,意思是开发生产力疯涨,用 vibe coding——就是用自然语言直接生成软件——每个人都能自己写一个 SAP 出来。这个叙事把整个软件板块都打懵了,SAP 股价今年一度跌了百分之二十一。按常理,Klein 该防守才对。但让人意外的是,给出的回应是进攻。Klein 说,商业 AI 是真实的,离真正能信任 AI 运营你的业务,不是按年算,是按月算。\n\n这话从哪来的?得先说一个数字:百分之九十三。SAP 有个财务结账智能体,今天已经能干活了,但准确率大概就是这个数。问题是,审计场景要的是百分之百,百分之九十都等于不能用——你的审计师不会接受\"这次数字高了百分之七\"这种说法,数据必须经过审计和认证。那百分之九十三怎么翻到一百?Klein 的判断是,这更多是一个\"还有几个月\"的问题。而且这是分任务推进的:财务结账先到,供应链优化可能要再等八到九个月。\n\n这里有个关键逻辑:不同任务对准确率的要求完全不一样。让内部的 AI 协助者 Jules 安排一次客户简报,百分之九十五完全够用,再也不用一屋子人帮忙准备会议材料;但财务结账就是另一回事。所以 SAP 定了一条硬规则:智能体上线前必须达到百分之九十五或更高,达不到根本不值得发布,客户压根不会用。\n\n那为什么市面上企业 AI 试点十个里九个落不了地?Klein 认为障碍不在模型,而在模型底下的东西。有客户当面夸财务结账助手好用,补了一句\"它只有百分之九十三准确率\"——而这家公司里飘着一百个财务系统。数据是一团糟,系统越多、数据质量越差,智能体准确率就越低。应对办法是把数据清理也交给 AI:自动匹配 SAP 和 Salesforce、Workday 之间的数据,再配上开箱即用的语义数据层,企业就不用养一支数据科学家大军每到月底手动对账。另一个支柱是治理——智能体不能放任乱来,在不了解某国税务要求的情况下就去做财务结账。Klein 的结论是:LLM 超级强大毋庸置疑,但必须加上流程上下文、数据上下文和治理,而这是 SAP 干了五十年的事。\n\n这就引出一个更根本的问题:vibe coding 到底能不能把 SAP 复制出来?Klein 让产品团队把整个产品组合过了一遍,逐个评估哪个能被重写替代。结论很快出来:ERP 里有七百万个数据字段需要关联,数亿个数据关联是经营一个企业必须理解的,再加上按行业、按国家的深层流程知识——SAP 每年投入数亿美元只为保持软件合规。真正容易被复制的,只有一两个流程和数据上下文很少的小方案。但 Klein 并没松口气,有句话值得记住:价值创造正在从记录系统向上移动,我们的 AI 必须是世界一流的,才能捍卫在记录系统中的存在。\n\n聊完护城河,再说说企业内部怎么用 AI、怎么管钱。SAP 内部也经历过 token 成本的觉醒——一开始 Klein 不愿意设限,觉得大家都在用 AI 提升自己,第一个引入限制信号不好。直到花费真正失控,才按职位画像设了\"健康且公平\"的阈值,超出可以走审批追加。但比设限更有效的是换模型:当你从一个模型切换到另一个,成本可以削减十倍、一个数量级。SAP 推向市场的每个智能体都用不同模型测试,很多已经换到第五个模型,只为准出结果对 token 成本的比。这背后是行业的新现实:AI 支出花在前沿模型上的比例一个月内从百分之五十三降到百分之四十五,因为大家发现标准模型往往是用百分之十的价格拿到百分之八十的性能,写代码才需要最贵的,生成一份报告用开源模型就够了。\n\n还有两个话题快速带一下。一是员工会不会更累——AI 包揽机械活,剩下全是高强度认知工作,这不是倦怠的配方吗?Klein 承认有可能,财务和 HR 里的合规检查会被全部自动化,而那是成千上万人的全职工作。但反馈的另一面是,大家乐意摆脱无穷无尽的审批流。给员工的诚实版本是:十二个月后 SAP 需要的职位画像会不同,关键不是裁员,而是再培训——实践里再培训最大的敌人是心态,不是技能,当年大量写本地软件的开发者就成功转成了云时代开发者。二是欧洲监管,承认布鲁塞尔全是好意图,但批评监管者倾向于管技术本身,叠加出层层重叠的规定,让初创公司在欧洲几乎无法起步。应该更多地监管商业结果、对社会的影响,而不是技术本身。\n\n把这期收拢成一句话:企业 AI 的门槛不是聪明度,是准确率,模型本身谁都能买,真正的护城河在数据、流程知识和治理里。用 Klein 的话说,商业 AI 是真实的,商业 AI 正在到来。"
+}

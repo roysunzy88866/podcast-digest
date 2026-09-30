@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":364,"harness 工程":3,"自动驾驶代码库":1,"技能":25,"工作日志":1,"人设":1,"验证":9,"闸门":2,"护栏":67,"心智社会":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"harness 工程":3,"自动驾驶代码库":1,"技能":25,"工作日志":1,"人设":1,"验证":9,"闸门":2,"护栏":67,"心智社会":1}</script>
 
 <script>
 (function(){

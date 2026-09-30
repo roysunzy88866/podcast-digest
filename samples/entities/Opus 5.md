@@ -31,7 +31,7 @@ unlisted: true
 
 [[Anthropic]] · [[提示词注入]] · [[智能体]] · [[OpenAI]] · [[Boris Cherny]] · [[Fable]] · [[系统提示词]] · [[Claude Code]] · [[消融实验]] · [[产品悬置]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":155,"提示词注入":18,"智能体":364,"OpenAI":142,"Boris Cherny":3,"Fable":10,"系统提示词":8,"Claude Code":89,"消融实验":2,"产品悬置":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":156,"提示词注入":18,"智能体":369,"OpenAI":144,"Boris Cherny":3,"Fable":10,"系统提示词":8,"Claude Code":89,"消融实验":2,"产品悬置":2}</script>
 
 <script>
 (function(){

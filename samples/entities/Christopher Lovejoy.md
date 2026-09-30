@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":155,"智能体":364,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":156,"智能体":369,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

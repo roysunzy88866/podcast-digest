@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":364,"智能体视频剪辑":1,"沙箱":68,"Remotion":1,"技能":25}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":369,"智能体视频剪辑":1,"沙箱":68,"Remotion":1,"技能":25}</script>
 
 <script>
 (function(){

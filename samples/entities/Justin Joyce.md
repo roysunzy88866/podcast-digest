@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":12,"Salesforce":32,"Cloudflare OS":1,"技能文件":4,"智能体":364,"多智能体工作流":2,"go-to-market":12,"MCP":65,"可观测性":34,"LLM":49}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":12,"Salesforce":33,"Cloudflare OS":1,"技能文件":4,"智能体":369,"多智能体工作流":2,"go-to-market":12,"MCP":67,"可观测性":34,"LLM":51}</script>
 
 <script>
 (function(){

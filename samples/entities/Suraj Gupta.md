@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":3,"智能体":364,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":8,"分诊智能体":1,"Claude Code":89,"Codex":66}</script>
+<script type="application/json" class="pd-epn">{"Warp":3,"智能体":369,"软件工厂":1,"技能":25,"外循环智能体":1,"持久记忆":1,"模型路由":8,"分诊智能体":1,"Claude Code":89,"Codex":69}</script>
 
 <script>
 (function(){

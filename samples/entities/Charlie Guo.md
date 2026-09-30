@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":142,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":66,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":144,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":69,"计算机使用":14,"Realtime 模型":1,"推理能力":6,"工具调用":3}</script>
 
 <script>
 (function(){

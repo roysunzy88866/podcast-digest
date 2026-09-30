@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jared":1,"YC":16,"硬科技":1,"智能体":364,"机器人":9,"SaaS":19,"国防科技":1,"RL 环境":6,"单人创始人":1,"Juicebox":1}</script>
+<script type="application/json" class="pd-epn">{"Jared":1,"YC":16,"硬科技":1,"智能体":369,"机器人":9,"SaaS":19,"国防科技":1,"RL 环境":6,"单人创始人":1,"Juicebox":1}</script>
 
 <script>
 (function(){

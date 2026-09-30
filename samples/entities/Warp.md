@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Codex]] · [[软件工厂]] · [[Safia Abdalla]] · [[Zach Lloyd]] · [[Suraj Gupta]] · [[子智能体]] · [[Claire Vo]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Claude Code":89,"Codex":66,"软件工厂":1,"Safia Abdalla":1,"Zach Lloyd":1,"Suraj Gupta":1,"子智能体":4,"Claire Vo":5,"技能":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Claude Code":89,"Codex":69,"软件工厂":1,"Safia Abdalla":1,"Zach Lloyd":1,"Suraj Gupta":1,"子智能体":4,"Claire Vo":5,"技能":25}</script>
 
 <script>
 (function(){

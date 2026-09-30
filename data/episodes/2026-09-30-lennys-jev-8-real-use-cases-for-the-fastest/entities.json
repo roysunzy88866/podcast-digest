@@ -1,0 +1,781 @@
+{
+  "episode_id": "2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-30",
+  "tags": [
+    "Jev",
+    "决策模型",
+    "实时语音",
+    "多智能体调度",
+    "成本与延迟"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "clara-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Clara Vo",
+      "file": "Clara Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            77.785,
+            78.465
+          ],
+          "quote": "I'm Clara Vo,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "john-lindquist",
+      "type": "person",
+      "role": "cohost",
+      "name": "John Lindquist",
+      "file": "John Lindquist",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            85.09,
+            85.871
+          ],
+          "quote": "John Lindquist,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jev",
+      "file": "Jev",
+      "primary": true,
+      "how_described": "本集主线：TypeSafe AI 推出的决策模型，不输出文本，输出决策、评分和是/否概率——非结构化输入、结构化类型安全的输出；又快又便宜（几百个 demo 只花 73 美分），被 Clara 概括为『一个非常非常快的路由器』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.043,
+            17.945
+          ],
+          "quote": "it's, Jev is a good thing to reach for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            90.034,
+            94.218
+          ],
+          "quote": "And here he is joining us on Jev Week at How I AI to talk",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            98.861,
+            102.504
+          ],
+          "quote": "that he's discovered testing Jev from TypeSafe AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            108.447,
+            111.288
+          ],
+          "quote": "I have to say, this is Jev Week on How I AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            111.868,
+            117.67
+          ],
+          "quote": "And the reason it's Jev Week is a lot of models have come out in the past seven days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            123.732,
+            127.233
+          ],
+          "quote": "we're talking about one thing and one thing only, which is Jev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            129.902,
+            134.17399999999998
+          ],
+          "quote": " Folks have maybe listened to my episode earlier this week about why I'm hyped on Jev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            141.387,
+            143.747
+          ],
+          "quote": "So you are going deep, Jev, as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            272.378,
+            277.702
+          ],
+          "quote": " So just a quick reminder for folks, Jev is not like the LLMs that you're used to and love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            326.47,
+            329.85888888888894
+          ],
+          "quote": "where it's Jev alone, where it's Jev+, that would be awesome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            330.252,
+            335.014
+          ],
+          "quote": "Yeah, I would just just to add to your definition of Jev, of it being type safe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            406.285,
+            409.786
+          ],
+          "quote": "Now the speed there was all done through JEV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            484.469,
+            487.5
+          ],
+          "quote": "So it's just showing all these pieces of JEV fitting together",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            504.519,
+            509.323
+          ],
+          "quote": "of the tactics, which is, are those sequential JEV calls?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            768.183,
+            770.4607777777778
+          ],
+          "quote": "This is like my favorite use case of Jev,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            802.058,
+            805.681
+          ],
+          "quote": "And like I was just thinking how much faster it would have been to use Jev and some",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            988.02,
+            991.303
+          ],
+          "quote": "And then build another abstraction of JEV around them where it can pick which of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1019.948,
+            1025.031
+          ],
+          "quote": " What I would say is, like, Jev as a router is maybe, like, what's helpful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1048.167,
+            1051.6380000000001
+          ],
+          "quote": "a lot of people start to build these like JEV powered coding harnesses",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1071.374,
+            1074.414
+          ],
+          "quote": "And so I think these decision models like Jev,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1180.551,
+            1186.573
+          ],
+          "quote": "but I think is a really cool demonstration of some of the ideas inside JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1187.974,
+            1191.845
+          ],
+          "quote": "Yeah, I built this one because I wanted to show off JEV versus a traditional model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1204.156,
+            1207.519
+          ],
+          "quote": "and Jev are the white pieces, the LLM are the black pieces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1209.781,
+            1216.781
+          ],
+          "quote": "this is set so that Jev is able to think through all the possible moves,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1256.311,
+            1259.343
+          ],
+          "quote": " Jev would be able to complete this entire game and beat it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1301.129,
+            1305.102
+          ],
+          "quote": "it has some benchmarks over here that Jev was 10 times faster in the average move",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1439.991,
+            1442.413
+          ],
+          "quote": "it's time to look for a JEV first,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1504.79,
+            1508.652
+          ],
+          "quote": "That demystifies that concept of browser use through JEV",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1519.843,
+            1524.726
+          ],
+          "quote": " You know, I've also seen on gaming, you know, Jev plays Tetris.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            1606.61,
+            1607.8877777777777
+          ],
+          "quote": "that's not a JEV thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            1830.46,
+            1835.603
+          ],
+          "quote": "this made me think is Jev unlocks efficient inefficiency,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2066.465,
+            2071.369
+          ],
+          "quote": "You're under the clock and Jev can be your stay on track.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2247.594,
+            2248.9828888888887
+          ],
+          "quote": "Did we cover what Jev is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 702,
+          "t": [
+            2259.678,
+            2263.8446666666664
+          ],
+          "quote": "But have you ever tried to throw Jev at something and didn't do a good job?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 751,
+          "t": [
+            2412.254,
+            2415.655
+          ],
+          "quote": "Other than Jev, what are you really into these days?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2653.32,
+            2655.741
+          ],
+          "quote": "Jev has, I agree, been so, so fun.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "typesafe-ai",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe AI",
+      "file": "TypeSafe AI",
+      "primary": true,
+      "how_described": "本集说它是 Jev 模型的出品方（'testing Jev from TypeSafe AI'），现场还调侃它 revenue 肯定已有两位数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            98.861,
+            102.504
+          ],
+          "quote": "that he's discovered testing Jev from TypeSafe AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 定义为『非结构化到非结构化』的生成式模型：文本进文本出，适合头脑风暴和创造性探索；与 Jev 对照——LLM 又贵又慢，但『创造以前造不出的东西』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            156.779,
+            161.481
+          ],
+          "quote": "Uh, sending a basic request to an LLM and waiting around for a bit just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            209.439,
+            211.57
+          ],
+          "quote": " I'm like, I had never passed this into an LLM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            233.184,
+            239.471
+          ],
+          "quote": "which is I'm looking at corpuses of data that I would never just dump into an LLM,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            853.848,
+            856.971
+          ],
+          "quote": "you can send a smarter LLM against the result and say,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1204.156,
+            1207.519
+          ],
+          "quote": "and Jev are the white pieces, the LLM are the black pieces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1246.103,
+            1250.066
+          ],
+          "quote": "Whereas if you pass the same data set to an LLM,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            1607.971,
+            1610.2630000000001
+          ],
+          "quote": "That's an LLM that can look through an image.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2257.197,
+            2259.6279999999997
+          ],
+          "quote": "A little bit about where you'd want to pull in an LLM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "function-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "函数调用 (function call)",
+      "file": "函数调用",
+      "primary": true,
+      "how_described": "本集反复讲：Jev 的核心是把非结构化语言匹配到函数调用上——语音待办里『边听写边判断是否有足够数据可以进行函数调用』，日历等服务都『在函数调用背后』可接入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            468.724,
+            472.345
+          ],
+          "quote": "is now a time where I have enough data to make a function call,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集用 Jev 演示多智能体调度：三个任务简报、三个智能体，每步由 Jev 控制它们尽快到达任务且永不碰撞；并断言随着并行智能体和集群增多，这种『高速裁判』会越来越重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 509,
+          "t": [
+            1670.391,
+            1673.6132222222222
+          ],
+          "quote": " Plus, you can access the Vanta agent everywhere you work,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 804,
+          "t": [
+            2586.984,
+            2590.1506666666664
+          ],
+          "quote": "and this other agent and you bring them all into a group.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "confidence-score",
+      "type": "concept",
+      "role": "concept",
+      "name": "置信度分数 (confidence score)",
+      "file": "置信度分数",
+      "primary": true,
+      "how_described": "本集说 Jev 的每层匹配都带置信度分数，是『可以拧的旋钮』——比如只在 99% 以上确定时才合并记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            425.291,
+            430.454
+          ],
+          "quote": "do I need to categorize this into something that exists like a confidence score?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            825.919,
+            829.71
+          ],
+          "quote": "And something we haven't shown is that there is a confidence score that comes back.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "router",
+      "type": "concept",
+      "role": "concept",
+      "name": "路由 (router)",
+      "file": "路由",
+      "primary": true,
+      "how_described": "本集把 Jev 说成『一个非常非常快的路由器』：拿到文本路由到正确的工具，可以层层套抽象挑选用哪个工具，甚至推断到用户旅程的哪一步就构建出整条链再执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1019.948,
+            1025.031
+          ],
+          "quote": " What I would say is, like, Jev as a router is maybe, like, what's helpful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1025.051,
+            1027.433
+          ],
+          "quote": "A very, very fast router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1191.895,
+            1193.236
+          ],
+          "quote": "I picked a free model on Open Router.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1409.83,
+            1415.022
+          ],
+          "quote": " Again, to the concept of router, there are a limited set of options in chess and other games.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "real-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "实时 (real time)",
+      "file": "实时",
+      "primary": true,
+      "how_described": "本集强调快 10 倍『不是渐进提升，它真正解锁了实时这个概念』——语音待办全程不停顿、快棋能赢 LLM，Clara 并预测将掀起『延迟战争』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            302.024,
+            306.195
+          ],
+          "quote": "Hopefully we'll get a combination of inspiration on where a real-time, fast,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            487.55,
+            491.832
+          ],
+          "quote": "to give you this real time, like give me kind of streaming data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1332.266,
+            1337.51
+          ],
+          "quote": "And so it really does unlock this concept of real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2055.845,
+            2059.547
+          ],
+          "quote": "that I covered everything, and so let's say this real-time",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2124.848,
+            2129.07
+          ],
+          "quote": "I do have a question about your real-time, again,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2133.252,
+            2135.133
+          ],
+          "quote": "On these real-time voice ones,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2215.406,
+            2218.448
+          ],
+          "quote": "We've had a lot of real-time voice use cases,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "browser use",
+      "file": "browser use",
+      "primary": false,
+      "how_described": "本集用浏览器操作揭神秘面纱：网页看着像无限像素画布，DOM 里一个页面可能就 10 个可点击按钮，所以能被 Jev 化解成一组快速决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            1475.059,
+            1479.9
+          ],
+          "quote": "eye-popping use cases that I have seen, like browser use, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1504.79,
+            1508.652
+          ],
+          "quote": "That demystifies that concept of browser use through JEV",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集顺带提到：日历等服务都在函数调用或 MCP 背后，可以接进 Jev 应用；也提到有的工具会挑选用哪个 MCP。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            999.108,
+            1002.631
+          ],
+          "quote": "I think Executor and others where it picks which MCP to use.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": false,
+      "how_described": "本集说 GrokBot 这类工具把项目、文件结构、Git、版本控制全藏到智能体身后——只剩一个智能体列表，把它们拉进群聊分任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 797,
+          "t": [
+            2550.241,
+            2556.207
+          ],
+          "quote": "if you've seen GrokBot at all and similar tools where the traditionally",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "OpenRouter",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

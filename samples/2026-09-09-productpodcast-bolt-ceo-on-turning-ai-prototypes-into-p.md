@@ -166,8 +166,8 @@ Bolt 自己就是[[按用量定价|按用量定价]]的开创者。上线时全�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、开源 (open source)、智能体 (agent)</span>
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:Anthropic 式路线 (Anthropic)、vibe coding、开源 (open source)、智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Shopify · 同概念:SaaS、按用量定价 (usage-based pricing)、智能体 (agent)、Anthropic 式路线 (Anthropic)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、开源 (open source)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

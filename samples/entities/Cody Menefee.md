@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":49,"上下文":25,"轮牧":1,"vibe coder":2,"知识库":2}</script>
+<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":51,"上下文":25,"轮牧":1,"vibe coder":2,"知识库":2}</script>
 
 <script>
 (function(){

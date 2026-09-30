@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":83,"智能体":364,"信任建立":6,"微短剧":1,"推理":62,"网络效应":13,"语音":2,"Discord":6}</script>
+<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":84,"智能体":369,"信任建立":6,"微短剧":1,"推理":63,"网络效应":13,"语音":2,"Discord":6}</script>
 
 <script>
 (function(){

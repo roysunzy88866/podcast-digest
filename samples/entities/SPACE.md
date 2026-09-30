@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SPACE</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SPACE">SP</div><div class="pi"><h1 class="pt">SPACE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SPACE">SP</div><div class="pi"><h1 class="pt">SPACE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]]**(01:27起):本集说它是一个包含满意度、绩效、活动、沟通与协作、效率/心流的缩写框架；它不规定具体测什么，而是提供视角，因此在 AI 带来的新语境下显得比 DORA 更契合；本集还建议给它增加一个「信任」维度来评估大模型的幻觉与可靠性。
+- **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(08:59起):本集把它说成：一次发布三个办公套件式工具的大赌注——现有软件不是为多人与多个 AI 协作设计的，人机协作领域值得探索。
 
 ## ① 提到它的金句
 
-*18 条*
+*19 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q9]]
 
@@ -53,19 +54,22 @@ unlisted: true
 
 ![[2026-09-27-lennys-the-grief-loneliness-and-burnout#^q11]]
 
+![[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi#^q4]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]] — 作为概念
+- [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Nicole Forsgren]] · [[代码行数]] · [[DORA]] · [[DevEx]] · [[心流状态]] · [[反馈循环]] · [[认知负荷]] · [[技术债]] · [[幻觉]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Nicole Forsgren]] · [[Dots]] · [[代码行数]] · [[ChatGPT]] · [[DORA]] · [[Codex]] · [[DevEx]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Nicole Forsgren":1,"代码行数":2,"DORA":2,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Lenny":68,"OpenAI":144,"Nicole Forsgren":1,"Dots":1,"代码行数":2,"ChatGPT":84,"DORA":2,"Codex":69,"DevEx":2}</script>
 
 <script>
 (function(){

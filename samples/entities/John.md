@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":16,"创始人-市场契合度":3,"智能体":364,"模型能力的边缘":1,"垂直化":1,"SaaS":19}</script>
+<script type="application/json" class="pd-epn">{"YC":16,"创始人-市场契合度":3,"智能体":369,"模型能力的边缘":1,"垂直化":1,"SaaS":19}</script>
 
 <script>
 (function(){

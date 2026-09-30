@@ -133,6 +133,7 @@ Rob 讲了[[采购改革|采购改革]]。他的核心主张：采购上真正�
 **换个口味**
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+- [[2026-09-27-talks-i-turned-coding-agents-into-a-strategy-g|你才是瓶颈:像打游戏一样指挥智能体大军]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
 
 </div>
 </div>

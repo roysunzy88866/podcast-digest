@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GrokBot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GrokBot">GR</div><div class="pi"><h1 class="pt">GrokBot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GrokBot">GR</div><div class="pi"><h1 class="pt">GrokBot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]]**(00:07起):本集介绍它是「一个拥有电脑的智能体」加「一支可以交给真正工作的 AI 队友」：智能体有自己的持久电脑和运行环境，像同事一样私信往来、端到端完成任务，卡住时会回来找你。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(07:00起):本集说它确实很酷但是高阶用户产品不是主流产品,瞄准的市场与 Town 相似,是最值得关注的竞品;整合进 X 对品牌是负担、对早期分发有用。
 - **[[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|《GrokBot 设计团队演示:让 AI 替你离开电脑》]]**(01:20起):本集主线产品:两位设计团队嘉宾用它把设计工作外包出去——搭打卡流水线、写 Figma 生产任务、生成可交互原型,口号是「用 AI 是为了离开电脑,而不是待在电脑前」。
+- **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(42:30起):本集说 GrokBot 这类工具把项目、文件结构、Git、版本控制全藏到智能体身后——只剩一个智能体列表，把它们拉进群聊分任务。
 
 ## ① 提到它的金句
 
@@ -27,7 +28,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
 - [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|《Harvey 弃用 OpenAI:开源将赢得一切》]] — 作为被讨论公司
@@ -36,14 +37,15 @@ unlisted: true
 - [[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|《GrokBot 设计团队演示:让 AI 替你离开电脑》]] — 作为被讨论公司
+- [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[MCP]] · [[Harvey]] · [[11 Labs]] · [[Claude]] · [[前沿模型]] · [[Town]]
+[[智能体]] · [[Cursor]] · [[MCP]] · [[OpenAI]] · [[Anthropic]] · [[Claude]] · [[Harvey]] · [[11 Labs]] · [[Codex]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Cursor":73,"OpenAI":142,"Anthropic":155,"MCP":65,"Harvey":14,"11 Labs":4,"Claude":73,"前沿模型":21,"Town":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Cursor":73,"MCP":67,"OpenAI":144,"Anthropic":156,"Claude":74,"Harvey":14,"11 Labs":4,"Codex":69,"前沿模型":22}</script>
 
 <script>
 (function(){

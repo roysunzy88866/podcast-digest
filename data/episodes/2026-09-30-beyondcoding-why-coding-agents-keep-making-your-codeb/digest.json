@@ -1,0 +1,220 @@
+{
+  "title_zh": "「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流",
+  "tldr": "HumanLayer CEO、「上下文工程」一词创造者 Dex Horthy 谈为什么网上流行的智能体编程大多炒作，以及他真正管用的智能体工作流。",
+  "digest_md": "这一集聊的是：AI 智能体写代码，到底哪些是真的、哪些是 Instagram 式的假象。主角是 Dex Horthy，HumanLayer 的 CEO，也是「上下文工程」(context engineering)这个术语的创造者。他一上来就火力全开：你在网上看到的关于智能体的内容大部分完全是假的——大家晒的是一周用光六个 Codex 订阅、堆了天量 token，但你问他发布了什么？「给自己做了一堆没人会玩的游戏。」\n\n## 一个专门证明「模型让代码变糟」的基准\n\n「模型让代码库随时间变糟」过去只是一种感觉，现在有了数据。Dex 发现了一个叫 Slop Code Bench 的基准测试，由威斯康星大学研究员 Gabe Orlansky 的实验室做的，专门证明模型会让代码库随时间推移越来越差。\n\n它和之前三类基准都不同：SWE-bench 是给模型一个真实开源仓库的小 PR、让它把测试跑通；马拉松式基准是「从零重建整个 Excel/Redis」这种几百小时的任务；Cognition 则加入了裁判模型检查是否破坏代码惯例。但这些的共同点是——都把整个问题提前交给模型。真实软件不是这样构建的。Slop Code Bench 是给模型一个从零构建的任务，然后说：好，现在在这个代码库上加这个功能，再加那个——每个挑战有三到十个检查点。结果显示，所有模型的失败测试数量都呈上升趋势，GPT 5.5 Codex 只拿了约 15%，而他们赞助实验室跑的新模型 Astra 也就 16.5%——维护复杂代码库的能力几乎没有进步。\n\nDex 的判断是：过去大家总说「代码潦草没关系，那是下一代模型的问题」，但现在已经到了新一代模型，可维护性并没有明显进展。实验室们更热衷于在计算机使用等其他前沿上爬坡，因为「软件可维护性最后那 10% 可能和过去三四年我们花功夫的前 90% 一样难，甚至更难」。\n\n## 计划的价值：把返工从 75% 压到 10%\n\n核心主张：你永远不可能一发命中(one-shot)。不存在「开五个小时的会做出完美计划、交给智能体就出完美结果」这回事——真相之源应该是代码，不是规格说明。但规划的意义在于逐层消灭失败模式：从两万五千英尺的一页纸概览里，消除掉智能体可能犯的坏错误中约 50%；再放大到一万英尺，再消除掉另外 80% 的坏方案；这样代码出来时，返工量更可能是 0-10%,而不是大任务一发命中常见的 25%-75%。大公司三十多年来一直是这么干的：写 PR 的人先去找资深工程师对齐方案——只是现在这个对齐对象还包括智能体。\n\n至于「计划」和「spec」的界线，Dex 认为不用纠结标准定义，每个团队会形成自己的品味。他们内部叫「设计文档」而不是计划，区分「我们要去哪、终局是什么」和「我们怎么到那、要做哪些改动」。\n\n## 大企业的现实：被 slop PR 淹没\n\n「黑暗工厂」(dark factory,即全自动无人工厂的编程模式)是高管圈的热词,但 Dex 说「全是炒作」「我觉得大部分都是 BS」。他讲了一个场景：和一家有数千工程师的老牌公司开会，一线 principal 工程师被 slop PR 淹没——很多来自不在乎或没有扎实工程背景的人。部门负责人调出一个三万行代码的 PR:「看看这三万行垃圾。」而另一边,某些大公司高管宣称「我们组织 90% 的代码是 AI 写的」。Dex 说这是顶级公司高管之间的姿态竞赛，每个人都焦虑「我是不是前 99 分位？我是不是被落下了？」\n\n他借用 Andre Breslov 的说法：现在是「Instagram 阶段」——一切都是假的、都是花架子。你要说「对我来说不管用」，别人就说你是「技能不行」。Dex 的 crusade 是：到底什么东西真正管用？从第一性原理建立理解，而不是从网上看到的东西往回推。\n\n关于提速倍数，他的数字很冷静：每个工程师快 2 到 4 倍，对人类社会就已是变革性的，「但所有人都会错过这一点，因为他们太忙着追求 100 倍」。正确姿势是先想清楚怎么快 2-3 倍，再在此基础上叠加——渐进提速是指数复利的。把工程体系整个扔掉从零重建，行不通；这和 YAGNI(You ain't gonna need it,你不会需要它)是同一个故事又讲了一遍。\n\n## 为什么可维护性还是得靠人\n\n看代码有两个原因：确认正确，确认可维护。截图和视频能验证前者，验证不了后者。圈复杂度这类确定性工具能挡住一部分垃圾函数，但他的原话很硬：「我从来没有见过一个提示词或确定性工具，能在没有人类参与的情况下，以任何有意义的方式对抗模型写出不可维护代码的倾向。」\n\n原因在于品味。有经验的工程师被烂架构咬过——凌晨三点修 bug 时发誓「再也不让任何人合并这种模式的代码」——五到十年里成百上千次，才积累出品味。我们还没搞清楚怎么把这种品味放进模型里。有同行直接发帖恳求实验室的 RL 研究员：请在训练任务里加入「以删除代码为目标」或「把三个东西重构出好抽象」这类任务。他的建议同样适用于此：**不要抵押你的代码库，指望一年后会有一个聪明到能修复你所有问题的模型。**\n\n## 新人怎么长品味？PR 评审正在失效\n\n品味来自踩坑和导师指导，但传统的传承通道正在被切断。好的 PR 评审是提问式的：「为什么这么做？看看别处是怎么做的？」逼新人去读代码、去学习。最差的评审是「这是错的，我帮你重写了」——那人什么都没学到。\n\n而现在更糟：评审人写下评论，但知道对方不理解自己写的代码，只会把评论粘贴给 AI 让它修。「到那个时候，我是在做你工作中每一个重要的部分。」Mitchell Hashimoto 的做法被 Dex 认可：PR 评论只写「去问你的 Claude 为什么这是错的」，不给任何提示，逼你自己做功课。往前看，设计文档评审会承担更多教练功能——因为「设计文档基本上就是一个提示词」，在文档上评论就是在教作者更好地写提示词，这会变得和代码评审一样重要。\n\n## Dex 的真实工作流：50% 直接写，10% 夜间机器人，30% 走流程\n\n- **约 50-60% 一发直出**：预计少于几百行的改动，不做任何前置规划，直接让智能体做，然后测试、再补几个提示词。\n- **约 10% 靠夜间「清洁工机器人」**：他们定义代码库的期望终态，用类似恒温器(目标 71 度、现在 69 度就开暖气)的控制循环，每晚自动生成小 PR——修一条 lint 规则、迁移一个旧端点。关键纪律：每个 PR 都要小，太大就永远不会被合并；用看板和标签保证每类任务任何时刻最多一个打开的 PR,没合并就不跑下一个。\n- **约 30% 走 RPI 家族流程**(新版叫 crispy):先做代码库研究、找出 200 个仓库里对这个功能重要的那七个、汇总上下文，然后一轮到三轮规划会话——大而模糊的事先写产品需求，否则直接进技术设计。特别大、想中途检查的，再加一份「按什么顺序做、每一步怎么检查」的文档——「每一千行检查一次，交付一万行代码容易得多」；一万行全写完才发现坏了，调试面就太大了。有时干脆拆成堆叠 PR,先落第一个可合并的小块。\n\n实现阶段他们用子智能体(主模型编排小模型，跨厂商编排目前要靠 Codex CLI 之类的变通)。但有条内部铁律：**不要把你自己没读过的代码发给别人审查**。有时读完要改 50%,有时干脆全部扔掉回到设计——而且他强调，人们低估了「直接扔掉输出重试」这个选项的价值。\n\n## 少并行，别追订阅额度\n\n被问「要不要计划 10 件事夜间全跑」，Dex 的回答是工程学的老道理：「少并行做一些事情。」不想一觉醒来面对一万行代码；并行要大量规划，然后一天头四个小时全在审代码。更好的节奏：计划两件事，现在启动，盯着进行，今天就把改动落进生产。做两件、两件、两件，比 10 件事同时在飞、忘了两件、四天后交付两件、三件还悬着，端到端吞吐量高得多。\n\n他还点破了 token 堆量文化的根源：订阅制。所有晒「用满六个订阅」的人和企业现实完全脱节——没有企业用订阅计划，它们全都按 token 付费(因为要安全和数据留存要求)。从 200 美元订阅里榨出 3000 美元的用量不是什么本事，「技能问题不是没能用掉足够多的 token」。他预测回望这个「订阅堆量」时代，大家会说：那只是因为模型按订阅分发给独立开发者，才显得重要，然后某一天就没人关心了。他的个人节奏：研究类任务(大代码库里要跑 10-20 分钟)可以异步启动两三个、去喝杯咖啡，换来的是 90-99% 的上下文准备度；但并行时永远保有一件最重要的事，它一解锁，放下手头一切——哪怕提示词写到一半——因为目标是落地一件事。\n\n> 【背景】「上下文工程」(context engineering)指围绕模型组织和管理上下文信息的工程方法，Dex 因推广这一术语被广泛引用。SWE-bench、Cognition(Devin 的开发商)、Claude/Codex/Opus 等均为访谈中提及的行业模型或工具。\n\n## 本集带走\n\n- **别用基准分数外推真实工程**：SWE-bench 式小 PR 和「重建 Excel」都不能代表真实构建；Slop Code Bench 这类多检查点连续演进任务显示，所有模型维护代码库的能力都在退化，且短期内 labs 不会优先修这个。\n- **规划的本质是分层消灭失败模式**：一页纸消灭 50% 坏方案，放大一层再消灭 80%,把返工从 25-75% 压到 0-10%;但别指望完美计划，真相之源是代码。\n- **可维护性目前只有人能守**：没有提示词或确定性工具能替代有品味的工程师;新产品经理写 PRD 的怪招——给一个两句话提示，让流水线先研究 200 个仓库、再「拷问式」提问补全需求。\n- **设一条底线**：不把没读过的代码发人审查；写得不好就整个扔掉重试，别恋战。\n- **追求 2-4 倍而非 100 倍**:渐进提速是复利；少并行,永远有一件最重要的事,它解锁时放下一切。\n- **对下一代工程师**:PR 评论改成提问式,或学「去问你的 Claude 为什么这是错的」；设计文档就是提示词,评审它就是在教人写提示词。",
+  "quotes": [
+    {
+      "en": "Do not mortgage your code base in the hopes that in a year the model will come out that's smart enough to fix all your problems.",
+      "zh": "不要抵押你的代码库,指望一年后会出一个聪明到能修复你所有问题的模型。",
+      "timestamp": "01:08",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "It's an entire benchmark designed around proving that models make code bases worse over time.",
+      "zh": "这是一个完整的基准测试,专门用来证明模型会让代码库随着时间推移变得越来越糟。",
+      "timestamp": "02:38",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "Well, so here's the crazy thing is like we used to do this thing in the like Claude 3.5, 3.7, maybe like Opus 4 days where it's like, cool, we're just gonna, yes, I know the code is sloppy, but by the time that matters, that'll be GPT-7's problem.",
+      "zh": "疯狂的事情是这样的:在 Claude 3.5、3.7,大概 Opus 4 那个时代,我们经常这么做——好,是的,我知道代码很潦草,但等到这个问题真正要紧的时候,那就是 GPT-7 的问题了。",
+      "timestamp": "06:08",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "It will probably eventually happen, but it seems like the labs are much more interested in like hill climbing on other sorts of things like computer use and other like frontiers that like the last 10% of software maintainability may be like as hard or harder than the whole first 90% that we spent the last three or four years on.",
+      "zh": "它最终大概会发生,但实验室们似乎对在其他方面爬坡更感兴趣,比如计算机使用和其他前沿领域——软件可维护性那最后 10% 可能和过去三四年我们花功夫的前 90% 一样难,甚至更难。",
+      "timestamp": "06:30",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "You can't capture everything, and the source of truth should be the code, not some specification or plan.",
+      "zh": "你没法捕捉所有东西,而且真相之源应该是代码,而不是某个规格说明或计划。",
+      "timestamp": "09:56",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "It's all hype. It's everyone wants to impress each other. Everyone wants to claim they've figured out the dark factory thing.",
+      "zh": "全是炒作。每个人都想互相 impress,每个人都想宣称自己搞明白了 dark factory 那套东西。",
+      "timestamp": "18:57",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "He said, this is kind of the Instagram phase right now. Everything is fake.",
+      "zh": "他说,现在有点像是 Instagram 阶段。一切都是假的。",
+      "timestamp": "20:34",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "en": "I don't think it's okay to be like, if you're not maxing out six Codex subs, then you're a bad engineer. I think that's like hurtful to the industry.",
+      "zh": "我不认为说「如果你没有用满六个 Codex 订阅,那你就是个糟糕的工程师」是可以的。我觉得这对行业是有伤害的。",
+      "timestamp": "21:28",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "I mean, if you think about it, like in terms of like economic impact in the world, I think every engineer going 2 to 4x faster would be transformational to human society.",
+      "zh": "从对世界的经济影响来看,我认为每个工程师速度提升 2 到 4 倍对人类社会来说都将是变革性的。",
+      "timestamp": "22:01",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "But everyone's going to miss out on that because they're too busy trying to get to 100x.",
+      "zh": "但所有人都会错过这一点,因为他们太忙着追求 100 倍了。",
+      "timestamp": "22:23",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "But I have never seen a prompt or a deterministic tool that can drive code-based maintainability and fight the model's tendency to write unmaintainable code in any meaningful way without a human in the loop.",
+      "zh": "我从来没有见过一个提示词或一个确定性工具,能够在没有人类参与的情况下,以任何有意义的方式驱动代码库的可维护性并对抗模型写出不可维护代码的倾向。",
+      "timestamp": "27:15",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "And my advice is always like, do not mortgage your code base in the hopes that in a year or six months or 18 months a model will come out that's smart enough to fix all your problems.",
+      "zh": "我的建议一直是,不要拿你的代码库去抵押,指望一年后、六个月后或十八个月后会有一个聪明到能解决你所有问题的模型发布出来。",
+      "timestamp": "30:27",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "And at that point, I'm doing every part of your job that matters.",
+      "zh": "到那个时候,我是在做你工作中每一个重要的部分。",
+      "timestamp": "32:03",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "Because like, it's a lot easier to ship 10,000 lines of code if you check it every thousand lines.",
+      "zh": "如果你每一千行就检查一次,交付一万行代码会容易得多。",
+      "timestamp": "39:31",
+      "speaker": "Dex Horthy"
+    },
+    {
+      "en": "I think people underestimate that you can just throw out the output and try again.",
+      "zh": "我觉得人们低估了你可以直接把输出扔掉重试这一点。",
+      "timestamp": "41:13",
+      "speaker": "SPEAKER_06"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:08",
+      "speaker": "Unknown",
+      "en": "Do not mortgage your code base in the hopes that in a year the model will come out that's smart enough to fix all your problems.",
+      "zh": "不要抵押你的代码库,指望一年后会出一个聪明到能修复你所有问题的模型。"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Unknown",
+      "en": "It's an entire benchmark designed around proving that models make code bases worse over time.",
+      "zh": "这是一个完整的基准测试,专门用来证明模型会让代码库随着时间推移变得越来越糟。"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Unknown",
+      "en": "The ability to maintain like complex code bases over time.",
+      "zh": "也就是随着时间推移维护复杂代码库的能力。"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Unknown",
+      "en": "Well, so here's the crazy thing is like we used to do this thing in the like Claude 3.5, 3.7, maybe like Opus 4 days where it's like, cool, we're just gonna, yes, I know the code is sloppy, but by the time that matters, that'll be GPT-7's problem.",
+      "zh": "疯狂的事情是这样的:在 Claude 3.5、3.7,大概 Opus 4 那个时代,我们经常这么做——好,是的,我知道代码很潦草,但等到这个问题真正要紧的时候,那就是 GPT-7 的问题了。"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "Unknown",
+      "en": "It will probably eventually happen, but it seems like the labs are much more interested in like hill climbing on other sorts of things like computer use and other like frontiers that like the last 10% of software maintainability may be like as hard or harder than the whole first 90% that we spent the last three or four years on.",
+      "zh": "它最终大概会发生,但实验室们似乎对在其他方面爬坡更感兴趣,比如计算机使用和其他前沿领域——软件可维护性那最后 10% 可能和过去三四年我们花功夫的前 90% 一样难,甚至更难。"
+    },
+    {
+      "timestamp": "09:56",
+      "speaker": "Unknown",
+      "en": "You can't capture everything, and the source of truth should be the code, not some specification or plan.",
+      "zh": "你没法捕捉所有东西,而且真相之源应该是代码,而不是某个规格说明或计划。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Unknown",
+      "en": "It's straight to jail, Fable.",
+      "zh": "Fable 直接进监狱。"
+    },
+    {
+      "timestamp": "17:31",
+      "speaker": "Unknown",
+      "en": "If you don't have any opinions about how to build good product specs with AI, here's a thing that will work for 80% of teams, no matter how many repos you have, no matter how old your code base is.",
+      "zh": "如果你对如何用 AI 构建好的产品规格书没有任何成见,这里有一个对 80% 的团队都管用的东西,不管你有多少仓库,不管你的代码库有多老。"
+    },
+    {
+      "timestamp": "18:57",
+      "speaker": "Unknown",
+      "en": "It's all hype. It's everyone wants to impress each other. Everyone wants to claim they've figured out the dark factory thing.",
+      "zh": "全是炒作。每个人都想互相 impress,每个人都想宣称自己搞明白了 dark factory 那套东西。"
+    },
+    {
+      "timestamp": "20:34",
+      "speaker": "Unknown",
+      "en": "He said, this is kind of the Instagram phase right now. Everything is fake.",
+      "zh": "他说,现在有点像是 Instagram 阶段。一切都是假的。"
+    },
+    {
+      "timestamp": "21:28",
+      "speaker": "Unknown",
+      "en": "I don't think it's okay to be like, if you're not maxing out six Codex subs, then you're a bad engineer. I think that's like hurtful to the industry.",
+      "zh": "我不认为说「如果你没有用满六个 Codex 订阅,那你就是个糟糕的工程师」是可以的。我觉得这对行业是有伤害的。"
+    },
+    {
+      "timestamp": "22:01",
+      "speaker": "Unknown",
+      "en": "I mean, if you think about it, like in terms of like economic impact in the world, I think every engineer going 2 to 4x faster would be transformational to human society.",
+      "zh": "从对世界的经济影响来看,我认为每个工程师速度提升 2 到 4 倍对人类社会来说都将是变革性的。"
+    },
+    {
+      "timestamp": "22:26",
+      "speaker": "Unknown",
+      "en": "But everyone's going to miss out on that because they're too busy trying to get to 100x.",
+      "zh": "但所有人都会错过这一点,因为他们太忙着追求 100 倍了。"
+    },
+    {
+      "timestamp": "27:15",
+      "speaker": "Unknown",
+      "en": "But I have never seen a prompt or a deterministic tool that can drive code-based maintainability and fight the model's tendency to write unmaintainable code in any meaningful way without a human in the loop.",
+      "zh": "我从来没有见过一个提示词或一个确定性工具,能够在没有人类参与的情况下,以任何有意义的方式驱动代码库的可维护性并对抗模型写出不可维护代码的倾向。"
+    },
+    {
+      "timestamp": "30:27",
+      "speaker": "Unknown",
+      "en": "And my advice is always like, do not mortgage your code base in the hopes that in a year or six months or 18 months a model will come out that's smart enough to fix all your problems.",
+      "zh": "我的建议一直是,不要拿你的代码库去抵押,指望一年后、六个月后或十八个月后会有一个聪明到能解决你所有问题的模型发布出来。"
+    },
+    {
+      "timestamp": "32:03",
+      "speaker": "Unknown",
+      "en": "And at that point, I'm doing every part of your job that matters.",
+      "zh": "到那个时候,我是在做你工作中每一个重要的部分。"
+    },
+    {
+      "timestamp": "39:31",
+      "speaker": "Unknown",
+      "en": "Because like, it's a lot easier to ship 10,000 lines of code if you check it every thousand lines.",
+      "zh": "如果你每一千行就检查一次,交付一万行代码会容易得多。"
+    },
+    {
+      "timestamp": "41:13",
+      "speaker": "Unknown",
+      "en": "I think people underestimate that you can just throw out the output and try again.",
+      "zh": "我觉得人们低估了你可以直接把输出扔掉重试这一点。"
+    },
+    {
+      "timestamp": "42:47",
+      "speaker": "Unknown",
+      "en": "It's like, do less things in parallel.",
+      "zh": "就是,减少并行的事情。"
+    },
+    {
+      "timestamp": "44:19",
+      "speaker": "Unknown",
+      "en": "And it's like, no, the skill issue is not like couldn't use enough tokens because that doesn't apply to most people who are doing serious work.",
+      "zh": "这就像,不,技能问题不是「没能用掉足够多的 token」,因为这不适用于大多数在做正经工作的人。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的这个人，叫 Dex Horthy。他是 HumanLayer 的 CEO,也是「上下文工程」这个词的创造者——简单说，就是研究怎么围绕模型组织好上下文信息，让 AI 干活更靠谱。这一期他聊的是一个很扎心的问题：AI 智能体写代码，网上传的那些神奇故事，到底有多少是真的？\n\n一上来就火力全开。他说，你在网上看到的智能体内容，大部分完全是假的。大家晒的是一周用光六个 Codex 订阅、堆了天量 token,但你问一句：发布了什么？答案是——给自己做了一堆没人会玩的游戏。\n\n空口无凭，现在有数据了。过去大家只是感觉，模型会让代码库随时间越变越糟。Dex 找到了一个叫 Slop Code Bench 的基准测试，专门证明这件事。它跟之前的基准不一样：SWE-bench 是给模型一个小改动让它跑通测试，马拉松式基准是从零重建整个 Excel,但这些都把问题一次性全交给模型。真实软件不是这么构建的。Slop Code Bench 是给模型一个代码库，然后说：好，在这个基础上加个功能，再加一个，每个挑战有三到十个检查点。结果呢？所有模型的失败测试数量都在上升，表现最好的也只拿了百分之十几。也就是说，维护复杂代码库的能力，几乎没有进步。\n\n这就推翻了一个流行说法：代码潦草没关系，那是下一代模型的问题。现在新一代模型真来了，可维护性没有明显进展。实验室们更热衷于在别的方向爬坡，因为在 Dex 看来，软件可维护性那最后百分之十，可能比过去几年花功夫的前百分之九十还难。\n\n那怎么办？答案在你自己的工作方式上。Dex 的核心主张是：你永远不可能一发命中，不存在写个完美计划扔给智能体就出完美结果这回事——真相之源是代码，不是规格说明。但规划依然重要，因为它是逐层消灭失败模式的。先写一页纸概览，消灭掉一半坏方案；再放大一层，又消灭掉剩下的百分之八十。这么干下来，返工量可能是百分之零到十，而不是大任务一发命中时常见的百分之二十五到七十五。说白了，大公司三十多年来一直这么干：写需求的人先找资深工程师对齐方案，现在只是对齐的对象多了智能体而已。\n\n可为什么可维护性还是得靠人？因为品味。有经验的工程师被烂架构咬过——凌晨三点修 bug 时发誓，再也不让任何人合并这种模式的代码——成百上千次，才攒出品味。我们还没搞清楚怎么把这种品味放进模型里。Dex 的原话很硬：从来没有一个提示词或者工具，能在没有人类参与的情况下，有效对抗模型写出不可维护代码的倾向。所以别抵押你的代码库，指望一年后会出一个聪明到能修复你所有问题的模型。\n\n而且传承品味的通道，本身也在被切断。好的代码评审是提问式的，逼新人自己去读代码；最差的评审是「这是错的，我帮你重写了」，那人什么都没学到。现在更糟：评审人写下评论，知道对方看不懂，干脆把评论粘给 AI 让它修。Dex 很认可一个做法：PR 评论只写一句——去问你的 Claude,为什么这是错的。不给任何提示，逼你自己做功课。\n\n说了这么多批评，那 Dex 自己是怎么干活的？他的真实工作流是这样的：大约一半到六成的改动，预计少于几百行的，不做任何规划，直接让智能体干，然后跑测试、补几个提示词；大约一成靠夜间清洁工机器人——给代码库定义一个期望状态，每晚自动生成小 PR,修一条规则、迁移一个旧端点，关键纪律是每个 PR 都要小；剩下大约三成，走完整流程：先研究代码库，再一轮到三轮规划，特别大的任务就拆成小块，每一千行检查一次，比一万行全写完才发现坏了，容易得多。有条内部铁律值得一提：不要把你没读过的代码发给别人审查。有时候读完要改一半，有时候干脆全扔掉重来——而且扔掉重试这个选项的价值，人们大大低估了。\n\n那要不要开十个任务并行跑？Dex 的回答是工程学的老道理：少并行做一些事情。你不想一觉醒来面对一万行代码。更好的节奏是计划两件、做完两件、再做两件，端到端的吞吐量反而高得多。他还点破了 token 堆量文化的根源：那是订阅制闹的。真实企业全都按 token 付费，根本没人看订阅额度。从两百美元的订阅里榨出三千美元的用量，不是本事。\n\n最后收在 Dex 的一个冷静数字上：每个工程师快两到四倍，对人类社会就已经是变革性的了，但所有人都会错过这一点，因为他们忙着追求一百倍。别信 Instagram,别追一百倍，先把靠谱的两三倍做扎实——渐进的提速，才是真正会复利的东西。"
+}

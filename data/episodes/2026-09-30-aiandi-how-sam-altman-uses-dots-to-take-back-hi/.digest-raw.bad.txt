@@ -1,0 +1,127 @@
+===标题===
+Sam Altman:我的 dot 替我守着公司,我还想造「活文档」
+===导语===
+OpenAI CEO Sam Altman 在 Dev Day 现场讲 dot 智能体如何夺回他的清晨、开放平台的逻辑,以及为什么看好「文艺复兴」而非「工业革命」。
+===正文###
+这一集是 Every 的 CEO Dan Shipper 在 OpenAI Dev Day 现场对 Sam Altman(OpenAI 的 CEO)的访谈。话题围绕当天发布的一批新品展开——Dan 数了一下,一共 22 个,远超去年。但聊得最深的,是 Sam 自己每天都在用的 dot 智能体,以及他为什么坚信 AI 带来的是「文艺复兴」而不是「工业革命」。
+
+先说结论性的那个反直觉观察:编程模型强到这个地步,开发者反而比以往任何时候都多、要做的活也更多 [00:41 Unknown]。Sam 说自己对「AI 抢工作」从来不悲观,但现实还是超预期——好在他没想到的是,世界上竟然有这么多潜在需求,而且人依然稳稳站在一切的中心 [01:26 Unknown]。他的解释是:人类本质上不在乎机器做了什么,我们在乎的是人——艺术背后的人、公司背后的人、产品背后的人 [02:14 Unknown]。一个佐证:一万个智能体协作四天解出了一个难题,公众的反应几乎全不在问题本身被解决上,而在各种解读和相关的人身上 [02:43 Unknown]。
+
+## 为什么是「文艺复兴」不是「工业革命」
+
+Sam 在主题演讲里用了文艺复兴 vs 工业革命的类比,访谈里把推理链讲透了:文艺复兴以人为中心,工业革命以机器为中心;工业革命对世界整体贡献巨大,但很多人个人的体验是被变成了「机器上的齿轮」,做着极其专门化的事、与让生活美好的部分脱节 [06:30 Unknown]。所以听到「AI 会把一切自动化、人类会像家猫一样等 AI 决定怎么奖励我们」这种说法,他觉得难过——那不是他们的信念 [07:13 Unknown]。他希望的是:一股科学发现、艺术、创业的新浪潮,人们既享受经济增长的好处,又重新掌控自己的生活 [07:30 Unknown]。
+
+模型公司的两条路线之争也在这里:一派相信世界上最终只会剩一家公司,另一派——Sam 说 OpenAI 属于这派——相信会迎来公司数量的「文艺复兴」,一人公司、小团队做出惊人产品 [05:26 Unknown]。所以开放平台、把自家用的工具全给开发者,是他们刻意与其他 AI 实验室区分的立场 [25:56 Unknown]。至于「应用商店该长什么样」,他坦承还没想清楚,但「帮数百万人构建新产品」这件事已经跑通了 [05:17 Unknown]。
+
+## dot:夺回清晨的智能体
+
+本集最有干货的部分是 Sam 讲 dot(OpenAI 发布的、在后台 24 小时连着你系统、主动替你做事的个人智能体)的真实用法:
+
+- **夺回早晨**。他过去最爱清晨,那是创造力最高峰、做深度工作的时间;但经营大公司意味着一夜之间总有事情发生,不看手机就可能错过真灾难,一看手机大脑就被污染、深度工作时间没了。现在他信任 dot 做判断:真紧急才叫醒他,否则替他处理,深度工作的时间回来了 [08:59 Unknown]。
+- **跨上下文主动提醒**。访谈当天他连轴转、日常事务严重积压,走进下一场活动前,dot 提醒他两场活动之间只有一小段空隙,里面必须处理掉某件事——否则就是一团乱麻 [11:07 Unknown]。Dan 自己的例子:改签航班时 dot 提醒「这个航班期间有个会议」,而那个会议根本不在日历上,是它从 Slack 里读到的 [12:13 Unknown]。
+- **替你把放弃的事做完**。Sam 想找回 Slack 里见过的某条信息,用 Codex(OpenAI 的编程智能体)搜了 10-20 分钟没找到,放弃了。第二天 dot 说:我注意到你没找到,整晚想着这事,帮你找到了——原来那是一张截图,不是文字,它耐心翻遍了所有截图 [14:59 Unknown]。
+- **把原始想法直接倾倒进去**。有个他讲不清楚、也没把握该怎么实现的新功能,他平时想到什么就随手给 dot 记语音笔记,dot 自己构建了五六个版本供他反馈迭代;睡前留一段长语音,早上醒来不但做好了,还完成了后面七八步 [13:16 Unknown]。
+- **专属的「活」仪表盘**。他把公司仪表盘换成了 dot 基于他所有 Slack 消息、随他关注点变化而不断重写的私人业务摘要——现在他更关心安全对齐,六个月前是营收和增长,仪表盘会跟着变 [19:04 Unknown]。
+
+研究侧的关键是什么?Sam 说是 Astra 这个足够聪明的模型——系统里要构建的东西很多,但把模型推过智能门槛是最核心的一环 [12:42 Unknown]。至于能帮他在 OpenAI 做出「雇人都做不了」的决策,靠的正是「原始倾倒 + 持续迭代」这个闭环 [13:12 Unknown]。
+
+## space:为「人 + 人的 AI 一起协作」重造软件
+
+space(OpenAI 一次发布的三个办公套件类工具)为什么是个大赌注?Sam 的诊断是:现有软件整体上不是为「与 AI 协作」设计的——你可以自己用,也可以让 AI 替你用,但当多个人、多个人的 AI 要紧密协作时,现有抽象全都失效了 [17:11 Unknown]。他最兴奋的概念是「活文档」:一个随人们的交互和世界变化自动更新的文档,七个人的 dot 一起工作,能创造出一种「某种程度上存在于每个人脑子里、但是涌现出来的」新东西 [18:31 Unknown]。他自己写新想法仍坚持老式手写——因为那帮他思考——后续工作交给 dot [18:04 Unknown]。
+
+## 速度是新战场
+
+Sam 披露他所有提示词都跑在 Ultrafast(OpenAI 的超快推理档)上 [29:36 Unknown]。他引 Brett Victor 十几年前的演讲:创作者应该与创作物有即时连接,速度和反馈回路至关重要——他没意识到响应快到这个程度,对迭代思考回路的影响是「天壤之别」[30:15 Unknown]。战略上他这样总结:历史上 OpenAI 最成功的是把「IQ 的价格」打下来,每几个月到一年价格大幅下降;现在「速度」是必须同样民主化的新维度,自研芯片就是为把超快推理交到每个人手里 [31:12 Unknown]。时间表:「不远的将来」以很好的价格提供 8 倍提升,之后是快 100 倍 [32:04 Unknown]。而前沿永远是贵的,但他打赌每一美元的价值会以让摩尔定律相形见绌的复利方式持续推高 [32:32 Unknown]。
+
+## 其他值得记下的
+
+- **订阅随身带**:把 ChatGPT 订阅的 token 带进任何第三方应用,等于消灭了开发者的两难——「让用户用多少 AI 才不会让我破产」「要不要用便宜模型换来更差的体验」 [22:35 Unknown]。Sam 自己的动机很简单:他讨厌注册 100 个订阅,而且试用时想用全力状态的 AI [23:50 Unknown]。
+- **关于被「OpenAI 杀死了 X 创业公司」的推文**:那条推文永远管用,因为人爱末日论,但它从来没真正发生过;他见过初创公司以从未有过的速度成功,还说很想再去做初创投资人,因为这是个黄金时代 [25:41 Unknown]。
+- **创业教条该重审了**:「必须找联合创始人」这类信条、甚至 YC 的投资结构,都是基于旧成本结构的;「做出人们想要的东西」不变,但一两个人能完成多少工作已经完全不同,硅谷对此的重新审视还不够 [26:43 Unknown]。
+- **他本人也想做东西了**:被 Dan 追问后,Sam 现场表态——不再做给自己用的小副业,而是想真的发布一个插件扩展到世界上 [28:30 Unknown]。他那句自我驱动的理由值得所有管理者听:只要把摩擦降低一点,人们做出来的东西会多得多 [28:00 Unknown]。
+
+## 本集带走
+
+- **给智能体「判断该不该打扰你」的权力**,才是它的核心价值:不是自动化所有事,而是过滤 + 兜底,让你拿回大块的深度时间。
+- **想法可以「原始倾倒」**:不用讲清楚,随手语音记给智能体,让它出多个版本、你只做持续反馈——讲不清楚反而不再阻塞构建。
+- **「活文档」是新物种**:文档随交互和世界自动更新,多个人的智能体协作能涌现出单人想不出的东西。
+- **开发者该重审的旧教条**:联合创始人、YC 式投资结构都建立在旧成本结构上;一人公司、小团队的产能上限已经被改写。
+- **速度是被低估的维度**:响应速度直接改变迭代思考的质量,「快 8 倍很快普及、快 100 倍在路上」。
+- **末日论叙事永远有流量但从未应验**:模型公司越强、开放越多,应用层的新公司反而越成功。
+===金句===
+00:41 Unknown
+EN | I think if you had told me four years ago that the coding models were at this level of capability, I would have been like, wow, I don't know if there would be a lot of developers at Dev Day.
+ZH | 我想如果四年前你告诉我编程模型的能力达到了这个水平,我会说,哇,我不知道 Dev Day 还会不会有很多开发者。
+
+01:26 Unknown
+EN | I think I was never as doomery about the job stuff as other people, but it still has surprised me somewhat on the upside of just how much latent demand existed in the world and also how much people have remained at the center of everything that is happening with AI.
+ZH | 在工作这件事上,我从来不像其他人那样悲观,但现实还是在好的方向上让我有些惊讶:世界上竟然存在这么多潜在需求,而且人们竟然依然处于 AI 所发生的一切的中心。
+
+02:19 Unknown
+EN | And in some sense we never have. And we're just like, we're obsessed with other people. We want to know about the person behind the art or the person behind the company or the idea or the product.
+ZH | 在某种意义上我们从来都不在乎机器做了什么。我们就是痴迷于其他人。我们想知道艺术背后的人、公司背后的人、想法或产品背后的人。
+
+05:39 Unknown
+EN | And then there are people like us that believe we are going to see a renaissance in the number of companies and just an absolute... lowering of the bar to people, one-person companies, small team companies, creating incredible new products and services.
+ZH | 然后还有像我们这样的人,相信我们会看到公司数量的文艺复兴,门槛的绝对降低,让一人公司、小团队公司能创造出令人惊叹的新产品和服务。
+
+07:06 Unknown
+EN | It's like cog in a machine doing some extremely specialized thing and kind of like disconnected from a lot of the parts that made life good.
+ZH | 就像机器上的齿轮,做着某种极其专门化的事情,并且某种程度上与让生活美好的许多部分脱节了。
+
+09:30 Unknown
+EN | The problem had been that as I checked my phone, I polluted my brain with all these other things and I lost the deep work period.
+ZH | 问题在于,当我查看手机时,我的大脑被其他所有事情污染了,我失去了那段深度工作的时间。
+
+11:18 Unknown
+EN | And like, it would have been a big mess. And just the fact that I don't have to worry about that feels super different.
+ZH | 那样的话就会是一团大乱麻。而仅仅是我不用担心这件事这一点,感觉就非常不同。
+
+13:29 Unknown
+EN | And I just like, I would just like constantly jot notes as I thought of something or as I was like on a walk or whatever to my dot.
+ZH | 我就是,每当想起什么,或者我在散步之类的时候,我就随手在我的 dot 上记笔记。
+
+14:08 Unknown
+EN | And it's like, it's pretty cool to go to sleep and like just leave a long voice note as you're kind of drifting off with a bunch of thoughts and like wake up in the morning, not only is the thing built, but it like went off and did like the next seven steps.
+ZH | 带着一堆想法、在快要睡着时留一段长长的语音留言,早上醒来不仅东西已经构建好了,它还接着完成了后面那七八步,这真的很酷。
+
+15:07 Unknown
+EN | But I kept thinking about it overnight and I found it for you.
+ZH | 但我整晚都在想这件事,我帮你找到了。
+
+17:23 Unknown
+EN | But to really collaborate closely, especially when it's multiple people and multiple people's AIs all working together, like a lot of the current abstractions we have break down.
+ZH | 但要真正紧密地协作,尤其是当涉及多个人、多个人的 AI 一起工作时,我们现有的很多抽象都失效了。
+
+18:31 Unknown
+EN | And something that like many of our dots can work with together, not only to like share information, but actually like, you know, seven people's dots can working together create something new that kind of existed in all of our heads to some degree, but was like an emergent thing.
+ZH | 某种许多我们的 dot 可以一起协作的东西,不仅仅是共享信息,而是说,七个 dot 一起工作可以创造出某种新的东西,那种东西在某种程度上存在于我们所有人的头脑中,但是是一种涌现出来的东西。
+
+19:48 Unknown
+EN | But, you know, six months ago, I probably cared more about revenue and growth and metrics of this sort of traditional part of the business.
+ZH | 但你知道,六个月前,我可能更关心营收、增长以及这类传统业务指标。
+
+24:40 Unknown
+EN | I've never seen startups get as successful as quickly.
+ZH | 我从没见过初创公司像现在这样这么快就取得成功。
+
+25:41 Unknown
+EN | The tweet works because people like Doomerism, but it never actually happens.
+ZH | 那条推文之所以有效,是因为人们喜欢末日论,但它从来没真正发生过。
+
+27:30 Unknown
+EN | Um so there's some stuff that just hasn't changed and then there's a lot of other things like How much work you can get done with one person or two people or whatever that feels totally different and I don't think there has been enough re-examination of that in this sort of startup conveyor belt of Silicon Valley yet.
+ZH | 所以有些东西就是没有变,然后还有很多其他的东西,比如一个人或两个人能完成多少工作,这感觉完全不同,而我觉得在硅谷这种创业流水线上,对这方面的重新审视还不够。
+
+28:00 Unknown
+EN | But I am way, I really believe in if you lower friction a little bit, people build way more.
+ZH | 但我真的相信,如果你把摩擦降低一点,人们会做出多得多的东西。
+
+30:47 Unknown
+EN | But in terms of trying to build something, trying to think through a problem, it's like a wild difference.
+ZH | 但就尝试构建东西、尝试想透一个问题而言,这简直是天壤之别。
+
+32:32 Unknown
+EN | But I think you can also bet that we will keep doing what we've done of just a ridiculous, like put Moore's law to shame, relentless focus on driving value per dollar up and up and up kind of in this big compounding way.
+ZH | 但我想你也可以打赌,我们会继续保持我们一直在做的事,就是以一种荒谬的——让摩尔定律都相形见绌的——不懈专注,把每一美元的价值以这种巨大的复利方式不断推高、推高、再推高。
+===END===

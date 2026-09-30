@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":46,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":364,"推理":62,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"Neil Movva":1,"SAIL Research":1,"NVIDIA":46,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":369,"推理":63,"GPU":18,"KVCache":4}</script>
 
 <script>
 (function(){

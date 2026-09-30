@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"UiPath":2,"Anthropic":155,"OpenAI":142,"NVIDIA":46,"Fireworks":5,"Hugging Face":25,"智能体":364,"编码智能体":23,"开源":27}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"UiPath":2,"Anthropic":156,"OpenAI":144,"NVIDIA":46,"Fireworks":5,"Hugging Face":25,"智能体":369,"编码智能体":23,"开源":28}</script>
 
 <script>
 (function(){

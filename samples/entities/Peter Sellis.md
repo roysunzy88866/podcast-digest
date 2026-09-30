@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snapchat":3,"Snap":3,"Discord":6,"OpenAI":142,"SpaceX":18,"Meta":38,"产品经理":3,"广告":2,"品味":14,"DAU-MAU":1}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":3,"Snap":3,"Discord":6,"OpenAI":144,"SpaceX":18,"Meta":38,"产品经理":3,"广告":2,"品味":14,"DAU-MAU":1}</script>
 
 <script>
 (function(){

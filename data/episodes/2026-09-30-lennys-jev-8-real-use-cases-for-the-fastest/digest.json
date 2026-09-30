@@ -1,0 +1,202 @@
+{
+  "title_zh": "又快又免费的 Jev：让 AI 变成「最聪明的函数」",
+  "tldr": "开发者 John Lindquist 演示他测试 TypeSafe AI 的决策模型 Jev 的 23 个 demo：实时语音待办、数据合并去重、棋局博弈、多智能体调度。",
+  "digest_md": "这一集是 How I AI 的「Jev 周」特别节目。Jev 是 TypeSafe AI 推出的新模型，和常见 LLM 完全不同——它不输出文本，输出的基本是决策、评分和是/否的概率：非结构化的语言进去，结构化、类型安全的数据出来。主持 Clara Vo 是产品负责人，嘉宾 John Lindquist 是开发者（上期做过本播客最受欢迎的一集），他手上有约 23 个 demo，全部围绕 Jev 展开。\n\n**为什么兴奋：又快又便宜**\n\nJohn 的核心答案是快和免费。以前给 LLM 发个基本请求、就为让它调个函数，得等一会儿；现在基本是即时的。他做了几百个 demo，总共只花了 73 美分 [02:31 John Lindquist]。Clara 有同样的经历：跑两万多条记录，账单是 0.4 美分。John 曾以为手头五个 GB 的 JSON 绝对不可能倒给 LLM——没那个预算——结果整个跑完只花了 40 美分、几分钟时间。Clara 总结：这个基本免费、快得不可思议的模型，让你能对以前认为「ROI 不值得」的数据做探索，打开了以前关着的门 [04:11 Clara Vo]。\n\n**Demo 一：实时语音待办清单**\n\nJohn 现场演示：对着应用说「预约牙医，移除」「买燕麦奶，完成」「审查 pull request，低优先级」——全程不停顿、不按回车，每句都被实时执行 [06:21 John Lindquist]。背后是多层分类的流水线：先分析听写本身是否有效，再判断它匹配列表里哪个任务，再判断要执行哪个操作，每一层都带置信度分数。更妙的是，边听写它边判断「现在是否已有足够信息可以调用函数了」，所以你根本不用停顿。他反向构建这个应用：先定好「标记完成/删除/新增」这些最终函数，再倒推听写怎么选中它们，用 Opus 5.5 随手糊出来特别容易。日历、任何服务都在函数调用或 MCP 背后，都能接进来——而这是任何人都能便宜甚至免费构建的东西 [10:26 John Lindquist]。\n\n**Demo 二：大规模数据合并**\n\n这个 demo 处理混乱数据的经典痛点：同一个联系人录了两次、数据库里两条公司记录。Jev 遍历全部记录做两两比较——「Cedar Grove Office Products」和「Cedar Grove Office」显然该合并——把巨大数据集在几毫秒内合并 [12:14 John Lindquist]。Clara 说这是她最喜欢的用例：对大量数据做两两比较来创建分组和聚类。数据量到 6 万或 60 万条时，配对在用这类模型之前贵得离谱。她还举了自己的例子：1Password 里约 2000 个密码散乱重复，用 Jev 加元数据配对合并会快得多。\n\n实用细节有两个。一是置信度可调：可以设成「只在 99% 以上确定时才合并」，这是个能拧的旋钮 [14:00 John Lindquist]。二是验证与解释的分工——跑完一轮后，可以用更聪明的 LLM 对结果做随机抽样甚至全量校验；Clara 补充还可以让模型解释「为什么判定这两条相同」，得到「定量匹配 + 定性解释」，而且用两个相对便宜的模型就够了 [14:34 Clara Vo]。\n\n**Demo 三：Jev 当路由器**\n\nJohn 展示了多层抽象：用户在任意输入框里输入，记不住应用叫什么也没关系——「to do」能匹配到「to-do-to」这个工具，然后还能继续「去待办应用，把这些 pull request 全标为低优先级」。本质是：先构建最小的工具，再在外面套一层 Jev 抽象来挑选用哪个工具，这层可以想要多少套多少 [16:25 John Lindquist]。Clara 的概括很精准：Jev 是一个非常非常快的路由器——拿到文本就路由到正确的工具，能推断到用户旅程的哪一步就直接构建出整条链再执行，不必走一步想一步 [17:05 Clara Vo]。她甚至认为，如果决策模型保持快和便宜，会催生「延迟战争」：响应越快，能解锁的「像 if-else 语句一样的魔力」越多。\n\n**Demo 四：Jev 执白子，LLM 执黑子下国际象棋**\n\n这是 John 最想展示 Jev 对比传统模型的 demo：Jev 下白棋，OpenRouter 上一个免费的低推理 LLM（好像是 Kimi）下黑棋。Jev 思考所有可能走法、排出最高的三种、再从那里推演下一步，基于两步推理选最佳落子——而且全程在一秒以内 [20:08 John Lindquist]。基准测试显示 Jev 平均走法快 10 倍、便宜 4 倍。快棋赛有 1 分钟计时器，Jev 能赢，LLM 又贵又未必更好。Clara 读出的关键：一是速度本身就是优势，10 倍不是渐进提升，它真正解锁了「实时」；二是可以在 Jev 收窄范围之后再叠加一个更聪明的模型，用缩小后的策略集更快做出更强的决策 [22:09 Clara Vo]。\n\n这背后是一个通用判断：国际象棋、俄罗斯方块、你的数据结构和 API，全都是**有限的选项集合**——俄罗斯方块就是形状 4 个选项加左右约 10 个选项；网页看着像无限的像素画布，但 DOM 里一个页面可能就 10 个可点击按钮，所以 browser use 也能被 Jev 化解成一组快速决策。John 的经验法则：「一旦动作确定下来、你有了那个有限的范围，那就是决策模型能真正大放异彩的地方；LLM 更适合完全不知道想要什么动作、需要头脑风暴和创造的场景。」[24:22 John Lindquist]\n\n**Demo 五：多智能体不碰撞**\n\n「每个 Wikipedia 页面都能点进 philosophy」的那个经典游戏，John 做成了 demo：给一个终点，Jev 通过 Wikipedia API 一路爬取找到路线。他真正偏爱的是用它表达一个工作场景：三个任务简报（送蓝色易碎箱到暂存区、送药到病房、检查泄漏）、三个智能体，每一步都由 Jev 控制它们尽快到达各自任务、且永不碰撞或互相干扰 [29:04 John Lindquist]。它不必提前规划全程，可以即时走一步查一步。John 认为随着并行智能体和集群越来越多，这个概念会越来越重要。Clara 的提炼很妙：Jev 解锁了「高效的低效率」——把所有路线画出来、排序、再检查是否相撞，这本身挺低效，但过去我们只能把这些题扔给大 LLM 说「好好想」；现在可以瞬间评估所有选项、排名、遍历这个低效的选项宇宙然后得出正确结论 [30:30 Clara Vo]。她的总结是：LLM 是生成式的，让你创造以前造不出的东西；Jev 让你能做那些**想做但过去太贵、太慢、不值得**的事——而那堆事里她还剩很多。\n\n**演讲教练与实操坑**\n\n最后一个 demo 是演讲教练：点开麦克风开始讲，给一份要点清单（播客要点、面试提纲都行），它听你说的一切、逐项打勾确认覆盖，还能加红色警告灯提醒「时间不多了，还有这些没讲」。Clara 说想象演讲备注随你讲逐项勾选、甚至替你翻页——这对讨厌提词器、又喜欢和观众互动的演讲者太有用了 [34:45 John Lindquist]。技术上是移动窗口：逐词拼接、直到能采取行动的点就切成负载发给函数、存入历史（可撤销）、然后开新窗口。\n\n关于不足：John 还没遇到 Jev 明显搞砸的任务（模型才发布几天），但见过有人只做单次分类就批评它不够好。他的答案是：它又快又免费，别怕多加一层分类，多跑几遍；等积累了足够多的数据、摸清了从一步到下一步的确切流程，再把那些层压缩成单层 [38:14 John Lindquist]。Clara 补充：你以为是是非题的调用，跑了发现其实该用选择题或打分题——多测几种提问方式能明显提高准确率。\n\n**闪电问答：开发者角色的转折点**\n\n聊到过去一年的变化，John 的答案出人意料：最近最有意思的事是买额外硬盘、在几台 Mac mini 之间分配工作、让 AI 盯着笔记本磁盘空间提醒「兄弟，该转给 SSD 了」。Clara 说他们俩是同一个人：她有置顶的 codex 聊天专门清理磁盘，还把一摞 Mac mini 设成远程代码机器。但真正的重点是 John 观察到的范式转移：像 GrokBot 这类工具把「项目、文件结构、Git、版本控制」全藏到了智能体身后——你只有一个智能体列表，把研究、代码审查这些角色拉进群聊分任务就行。智能体成了最顶层，结构和代码反而是它们操心的事。「我认为在我们与工具的关系上，这是非常重大的转折点」——除了给智能体买更多硬盘 [43:21 John Lindquist]。Clara 接了一句：从某种意义上说，管理者真的处于风险之中——组织设计和角色设计这些管理技能，现在正是你打造智能体时用得上的技能。\n\nJohn 接下来几个月的全部精力放在 mega.dev——他和 Theo、Kent、Angie 一起做的课程兼工作坊，教你怎么「把智能体变成杠杆」。\n\n## 本集带走\n\n- **判据一句话：有限选项找 Jev，开放探索找 LLM。** 你的 API、页面按钮、游戏手柄看起来无限，实际都是有限的动作集合；动作一旦确定，决策模型又快又便宜地完胜，头脑风暴和创造性任务才轮到 LLM。\n- **它不贵到可以「瞎试」：** 几百个 demo 总共 73 美分，五个 GB 的 JSON 跑一遍 40 美分。以前因为成本和速度不敢碰的数据探索，现在直接跑。\n- **分类不够就加层，别放弃：** 单次遍历不够好是多步问题；先叠多层分类，攒够数据后再压缩成单层。是非题、选择题、打分题也值得换着试，提问方式对了准确率明显提升。\n- **配对合并是杀手级场景：** 联系人去重、密码整理、数据对账——先 Jev 定量配对（可设置信度阈值，如 99% 才合并），再让便宜模型解释「为什么这两条相同」，定量 + 定性双保险。\n- **速度本身就是产品能力：** 实时语音待办全程不停顿，靠的是模型边听边判断「信息够不够调函数」；快 10 倍意味着可以再叠加更聪明的模型收窄决策，实时和「延迟战争」是新的竞争维度。\n- **多智能体调度正在到来：** 分任务、防碰撞、永不互相干扰文件——Jev 走一步查一步即可，不必提前规划全程；并行智能体越多，这种「高速裁判」越重要。",
+  "quotes": [
+    {
+      "en": "I think of all the time I've spent on this and the hundreds of demos I made, I think I've spent 73 cents on it.",
+      "zh": "我想到我在这方面花的所有时间，还有我做过的几百个 demo，我想我一共只花了 73 美分。",
+      "timestamp": "02:46",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "Basically free and incredibly fast allows you to do discovery over data in a way that feels like it's opening up my opportunities and allowing me to look at things that I thought weren't high ROI before.",
+      "zh": "这个基本免费、快得难以置信的模型，让你能以全新的方式对数据进行探索，感觉就像它打开了我的机会之门，让我能去审视那些我以前认为 ROI 不高的东西。",
+      "timestamp": "04:11",
+      "speaker": "Clara Vo"
+    },
+    {
+      "en": "And the power there is it's humans talking to machines, and they're the scenarios where you have functions and APIs and everything set up, but I want to communicate with them using unstructured data.",
+      "zh": "这里的力量在于这是人类在与机器对话：你已经把函数、API 等一切都设置好了，但你想用非结构化的数据与它们沟通。",
+      "timestamp": "05:49",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "Because you notice that entire time I was talking, I never paused, I never hit enter. It was able to classify, is this a moment where I have enough information to take action?",
+      "zh": "因为你注意到我整段讲话期间，从未停顿，从未按回车。它能够分类判断：这是一个我有足够信息采取行动的时刻吗？",
+      "timestamp": "07:54",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "And so I think these decision models like Jev, if they remain fast and cheap, can be a new way to think about navigation of your user experience, whether that's a kind of like front-end experience or a dev tool or whatever it might be.",
+      "zh": "所以我觉得像 Jev 这样的决策模型，如果它们保持快速和便宜，可以成为一种新的方式来思考你用户体验的导航——无论是前端体验、开发者工具还是别的什么。",
+      "timestamp": "17:51",
+      "speaker": "Clara Vo"
+    },
+    {
+      "en": "it has some benchmarks over here that Jev was 10 times faster in the average move and it was four times cheaper.",
+      "zh": "这里有一些基准测试，Jev 在平均走法上快了 10 倍，便宜了 4 倍。",
+      "timestamp": "21:41",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "But I think we're going to start to see like latency wars really heat up as well, which is like the faster the response, the more like more magic you can unlock that feels like an if else statement, the better.",
+      "zh": "但我认为我们将会看到延迟战争也真正升温——响应越快，你能解锁的、感觉像一个 if-else 语句的魔力就越多，越好。",
+      "timestamp": "22:42",
+      "speaker": "Clara Vo"
+    },
+    {
+      "en": "But once the actions are set and you have that limited scope, that's where A decision model can really excel, at least from what I've experienced so far.",
+      "zh": "但一旦动作确定下来，你有了那个有限的范围，那就是一个决策模型能真正大放异彩的地方——至少从我到目前为止的经历来看是这样。",
+      "timestamp": "24:19",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "this made me think is Jev unlocks efficient inefficiency, which is like, it is kind of like inefficient to... Map out all possible routes, rank them, double check that they're not going to collide.",
+      "zh": "这让我想到 Jev 解锁了「高效的低效率」——把所有可能的路线都画出来、给它们排序、再仔细检查它们不会相撞，这确实有点低效。",
+      "timestamp": "30:30",
+      "speaker": "Clara Vo"
+    },
+    {
+      "en": "It feels much more like programming, to be honest, where I feel much more in control when I see something goes wrong because I know all of its options and I know what I want.",
+      "zh": "说实话，它感觉更像编程——当看到出问题时，我感觉自己掌控力强得多，因为我知道它所有的选项，我知道我想要什么。",
+      "timestamp": "32:51",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "because it's fast and free, don't worry about adding just another layer and then Over time, you could compress those down into a single layer as you get more and more data that reinforces what the exact flows are that you need to go from from step to step.",
+      "zh": "因为它又快又免费，别担心，就再加一层；然后随着时间推移、随着越来越多数据强化了从一步到下一步所需的确切流程，你可以把那些层压缩成单层。",
+      "timestamp": "38:36",
+      "speaker": "John Lindquist"
+    },
+    {
+      "en": "And I think it's a really big turning point in our relationships with our tools as we stop thinking about everything we thought about before other than buying more hard disks for agents to use.",
+      "zh": "我认为在我们与工具的关系上，这是一个非常重大的转折点——我们不再思考以前思考的所有事情，除了给智能体买更多硬盘来用。",
+      "timestamp": "43:21",
+      "speaker": "John Lindquist"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:31",
+      "speaker": "John Lindquist",
+      "en": "I think of all the time I've spent on this and the hundreds of demos I made, I think I've spent 73 cents on it.",
+      "zh": "我想到我在这方面花的所有时间，还有我做过的几百个 demo，我想我一共只花了 73 美分。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Clara Vo",
+      "en": "Basically free and incredibly fast allows you to do discovery over data in a way that feels like it's opening up my opportunities and allowing me to look at things that I thought weren't high ROI before.",
+      "zh": "这个基本免费、快得难以置信的模型，让你能以全新的方式对数据进行探索，感觉就像它打开了我的机会之门，让我能去审视那些我以前认为 ROI 不高的东西。"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "John Lindquist",
+      "en": "And the power there is it's humans talking to machines, and they're the scenarios where you have functions and APIs and everything set up, but I want to communicate with them using unstructured data.",
+      "zh": "这里的力量在于这是人类在与机器对话：你已经把函数、API 等一切都设置好了，但你想用非结构化的数据与它们沟通。"
+    },
+    {
+      "timestamp": "07:54",
+      "speaker": "John Lindquist",
+      "en": "Because you notice that entire time I was talking, I never paused, I never hit enter. It was able to classify, is this a moment where I have enough information to take action?",
+      "zh": "因为你注意到我整段讲话期间，从未停顿，从未按回车。它能够分类判断：这是一个我有足够信息采取行动的时刻吗？"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Clara Vo",
+      "en": "This is like my favorite use case of Jev, which is like pairwise comparison of a lot of data to create grouping and clusters.",
+      "zh": "这是我最喜欢的 Jev 用例，就是对大量数据做两两比较来创建分组和聚类。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "John Lindquist",
+      "en": "you want them only to merge if you're like 99% or more confident, you can, you can set those parameters in there.",
+      "zh": "你想只在置信度达到 99% 或更高时才合并它们，可以，你可以在这里设置那些参数。"
+    },
+    {
+      "timestamp": "15:01",
+      "speaker": "Clara Vo",
+      "en": "A quantitative matching and then a qualitative explanation with two relatively cheap models once you've narrowed that down.",
+      "zh": "一个定量的匹配，然后是一个定性的解释——在你把范围缩小之后，用两个相对便宜的模型就够了。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Clara Vo",
+      "en": "And so I think these decision models like Jev, if they remain fast and cheap, can be a new way to think about navigation of your user experience, whether that's a kind of like front-end experience or a dev tool or whatever it might be.",
+      "zh": "所以我觉得像 Jev 这样的决策模型，如果它们保持快速和便宜，可以成为一种新的方式来思考你用户体验的导航——无论是前端体验、开发者工具还是别的什么。"
+    },
+    {
+      "timestamp": "20:56",
+      "speaker": "John Lindquist",
+      "en": "Jev would be able to complete this entire game and beat it. And the LLMs would eventually get there. They'd be much more expensive and they might not even perform better.",
+      "zh": "Jev 能够完成整盘棋并赢下它。LLM 最终也能做到，但会贵得多，而且表现甚至可能不会更好。"
+    },
+    {
+      "timestamp": "21:41",
+      "speaker": "John Lindquist",
+      "en": "it has some benchmarks over here that Jev was 10 times faster in the average move and it was four times cheaper.",
+      "zh": "这里有一些基准测试，Jev 在平均走法上快了 10 倍，便宜了 4 倍。"
+    },
+    {
+      "timestamp": "22:49",
+      "speaker": "Clara Vo",
+      "en": "But I think we're going to start to see like latency wars really heat up as well, which is like the faster the response, the more like more magic you can unlock that feels like an if else statement, the better.",
+      "zh": "但我认为我们将会看到延迟战争也真正升温——响应越快，你能解锁的、感觉像一个 if-else 语句的魔力就越多，越好。"
+    },
+    {
+      "timestamp": "24:22",
+      "speaker": "John Lindquist",
+      "en": "But once the actions are set and you have that limited scope, that's where A decision model can really excel, at least from what I've experienced so far.",
+      "zh": "但一旦动作确定下来，你有了那个有限的范围，那就是一个决策模型能真正大放异彩的地方——至少从我到目前为止的经历来看是这样。"
+    },
+    {
+      "timestamp": "24:51",
+      "speaker": "Clara Vo",
+      "en": "But if you actually look at the DOM, there's probably like 10 clickable buttons on a page.",
+      "zh": "但如果你真正去看 DOM，一个页面上可能就只有 10 个可点击的按钮。"
+    },
+    {
+      "timestamp": "25:49",
+      "speaker": "Clara Vo",
+      "en": "it probably can be distilled down to a dozen choices. And then you can explore those choices.",
+      "zh": "它很可能可以被提炼成十几个选择，然后你就可以探索这些选择。"
+    },
+    {
+      "timestamp": "30:30",
+      "speaker": "Clara Vo",
+      "en": "this made me think is Jev unlocks efficient inefficiency, which is like, it is kind of like inefficient to... Map out all possible routes, rank them, double check that they're not going to collide.",
+      "zh": "这让我想到 Jev 解锁了「高效的低效率」——把所有可能的路线都画出来、给它们排序、再仔细检查它们不会相撞，这确实有点低效。"
+    },
+    {
+      "timestamp": "31:48",
+      "speaker": "Clara Vo",
+      "en": "Jeff, I feel like allows me to do all the things I wanted to do, but they felt too cost, ineffective, too slow and not really worth it. And there are a lot more, a lot more things for me on that pile.",
+      "zh": "而 Jev，我感觉让我能做所有我想做的事情——但那些事情过去感觉成本太高、效率太低、太慢、不太值得。而且在那堆事里，我还有多得多的其他事情。"
+    },
+    {
+      "timestamp": "32:51",
+      "speaker": "John Lindquist",
+      "en": "It feels much more like programming, to be honest, where I feel much more in control when I see something goes wrong because I know all of its options and I know what I want.",
+      "zh": "说实话，它感觉更像编程——当看到出问题时，我感觉自己掌控力强得多，因为我知道它所有的选项，我知道我想要什么。"
+    },
+    {
+      "timestamp": "38:37",
+      "speaker": "John Lindquist",
+      "en": "because it's fast and free, don't worry about adding just another layer and then Over time, you could compress those down into a single layer as you get more and more data that reinforces what the exact flows are that you need to go from from step to step.",
+      "zh": "因为它又快又免费，别担心，就再加一层；然后随着时间推移、随着越来越多数据强化了从一步到下一步所需的确切流程，你可以把那些层压缩成单层。"
+    },
+    {
+      "timestamp": "43:21",
+      "speaker": "John Lindquist",
+      "en": "And I think it's a really big turning point in our relationships with our tools as we stop thinking about everything we thought about before other than buying more hard disks for agents to use.",
+      "zh": "我认为在我们与工具的关系上，这是一个非常重大的转折点——我们不再思考以前思考的所有事情，除了给智能体买更多硬盘来用。"
+    },
+    {
+      "timestamp": "43:38",
+      "speaker": "Clara Vo",
+      "en": "And I say, in some ways, managers are really at risk.",
+      "zh": "我想说，在某些方面，管理者真的处于风险之中。"
+    }
+  ],
+  "voice_script": "今天这期来聊一个新东西，叫 Jev，是 TypeSafe AI 刚发布的模型。嘉宾是开发者 John Lindquist，上一期做过这档节目最受欢迎的一集；主持 Clara Vo 是产品负责人。为什么值得聊？因为 Jev 和你熟悉的那些大模型完全不一样——它不写文章、不聊天，输出的基本是决策、评分和是与否的概率。说白了，模糊的语言进去，结构化的、类型安全的数据出来。节目里 John 拿出二十三个 demo 来验证这个东西到底能干什么。\n\n先说为什么大家这么兴奋。核心答案就两个词：快，和便宜。以前给大模型发个请求、就为让它调一个函数，得等一会儿；现在基本是即时的。John 做了几百个 demo，总共只花了 73 美分。Clara 的经历更夸张：跑两万多条记录，账单是 0.4 美分。John 手上有五个 GB 的 JSON 数据，本来以为绝对不可能倒给模型——没那个预算——结果整个跑完只花了 40 美分、几分钟。这话引出一个关键点：以前你认为不值得花钱去碰的数据，现在可以随便探索了，相当于有一扇以前关着的门被打开了。\n\n那这东西实际用起来什么样？最有画面感的第一个 demo，是实时语音待办清单。John 现场对着应用说：预约牙医，移除；买燕麦奶，完成；审查 pull request，低优先级——全程不停顿、不按回车，每句话都被实时执行了。为什么能不停顿？因为背后是一条多层分类的流水线：先判断这句听写有没有效，再判断它对应列表里哪个任务，再判断要执行什么操作，每一层都带置信度分数。更妙的是，它边听边判断“现在信息够不够、可以调函数了吗”。John 是反向构建这个应用的：先定好标记完成、删除、新增这些最终函数，再倒推听写该怎么选中它们。日历、任何服务，只要在函数调用或者 MCP 背后，都能接进来。\n\n第二个 demo 解决的是数据合并去重这个经典痛点。同一个联系人录了两次、数据库里两条公司记录，Jev 遍历全部记录做两两比较，比如\"Cedar Grove Office Products\"和\"Cedar Grove Office\"显然该合并——几毫秒就把庞大的数据集合完了。这个场景以前为什么做不了？因为数据量到几万条的时候，配对成本贵得离谱。现在还有两个实用细节：一是置信度可以调，比如设成只有 99% 以上确定才合并；二是跑完之后可以用更聪明的模型做抽样校验，甚至让它解释“为什么判定这两条相同”，定量加定性，而且用两个便宜的模型就够了。\n\n接着往深一层走，就引出一个更大的问题：Jev 能不能当整个应用的调度中枢？答案是能。用户在任意输入框里打字，记不清应用叫什么都没关系——打\"to do\"能匹配到工具，还能接着说“把这些 pull request 全标成低优先级”。Clara 概括得特别准：Jev 是一个非常非常快的路由器，拿到文本就路由到正确的工具。\n\n而把“快”发挥到极致的，是国际象棋那个 demo——这也是 John 最想展示的对比。Jev 执白子，对面是一个免费的低推理大模型执黑子。Jev 思考所有可能走法，排出最高的三种，再推演下一步，基于两步推理选最佳落子，全程在一秒以内。基准测试显示，Jev 的平均走法快了 10 倍，便宜了 4 倍。快 10 倍不是渐进提升，它真正解锁了“实时”。这背后是一个通用判断：国际象棋、俄罗斯方块、你的 API 和页面按钮，看起来无限，其实全是有限的选项集合。John 的经验法则是：一旦动作确定下来、有了那个有限的范围，那就是决策模型大放异彩的地方；而完全不知道要什么动作、需要头脑风暴和创造的场景，才轮到大模型。\n\n同样的思路还能用在多智能体调度上。John 用三个任务简报、三个智能体做了演示：送箱子、送药、检查泄漏，每一步都由 Jev 控制，让它们尽快到达各自任务，而且永不碰撞、互不干扰。不必提前规划全程，走一步查一步就行。Clara 的提炼很妙：这叫“高效的低效率”——把所有路线画出来、排序、检查是否相撞，这本身挺笨的，但过去只能扔给大模型说“好好想”，现在可以瞬间评估所有选项、遍历这个低效的选项宇宙，然后得出正确结论。\n\n当然，模型刚发布几天，也有实操上的坑。John 见过有人只做单次分类，就说它不够好。答案是：它又快又免费，别怕多加一层分类、多跑几遍，等摸清了从一步到下一步的流程，再把那些层压缩成单层。另外，你以为是是非题的调用，换成选择题或打分题试试，准确率会明显提升。\n\n最后收个尾。Clara 有一句话说得特别好：大模型是生成式的，让你创造以前造不出的东西；而 Jev 让你能去做那些一直想做、但过去太贵、太慢、不值得做的事—— John 做了几百个 demo，一共只花了 73 美分。记住这半个字：有限选项找 Jev，开放探索找大模型。"
+}

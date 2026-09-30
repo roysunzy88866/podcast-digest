@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":364,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
+<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":369,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
 
 <script>
 (function(){

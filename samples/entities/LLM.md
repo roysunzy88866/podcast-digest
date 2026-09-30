@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>49</b> 集 · <b>42</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>51</b> 集 · <b>42</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -60,6 +60,8 @@ unlisted: true
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(00:13起):本集把 LLM 作为推荐的基底:适配成既懂英语又懂领域语言的「双语模型」,直接从内容语料库解码推荐;LLM 推荐器被称为 AI 最大的消费级应用之一。
 - **[[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]]**(06:28起):本集主张不训练专用机器人模型，而是构建非常好的基础 LLM 直接控制机器人——强语言模型即强机器人模型。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(04:31起):本集反复把它与 Jev 对照:标准 LLM 是文本进、文本出,擅长生成内容(聊天、写代码),但输出 token 贵;而 Jev 只做决策。Jev 搭配一个 LLM 搭档被说成是超级强大的用法。
+- **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(02:54起):本集的公式：单靠 LLM 做不了财务结账，必须加上 AI 基础、流程与数据上下文和治理——后者是 SAP 干了 50 年的事。
+- **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(02:36起):本集把 LLM 定义为『非结构化到非结构化』的生成式模型：文本进文本出，适合头脑风暴和创造性探索；与 Jev 对照——LLM 又贵又慢，但『创造以前造不出的东西』。
 
 ## ① 提到它的金句
 
@@ -151,7 +153,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*49 集*
+*51 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -202,14 +204,16 @@ unlisted: true
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为概念
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|《编码智能体开始接管机器人：LLM 控制物理世界的前沿》]] — 作为概念
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为概念
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念
+- [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Claude Code]] · [[Lenny]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[Google]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Anthropic":155,"ChatGPT":83,"Claude":73,"Claude Code":89,"Lenny":68,"OpenAI":142,"MCP":65,"Google":51,"Cursor":73}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Anthropic":156,"ChatGPT":84,"MCP":67,"Claude":74,"OpenAI":144,"Claude Code":89,"Lenny":68,"Google":51,"vibe coding":43}</script>
 
 <script>
 (function(){

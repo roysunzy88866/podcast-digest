@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":4,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":142,"Anthropic":155,"Microsoft":26,"Amazon":19,"Google":51,"Meta":38,"Databricks":17}</script>
+<script type="application/json" class="pd-epn">{"David George":4,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":144,"Anthropic":156,"Microsoft":26,"Amazon":20,"Google":51,"Meta":38,"Databricks":18}</script>
 
 <script>
 (function(){

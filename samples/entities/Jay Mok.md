@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":364,"智能体授权":1,"Claude Code":89,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":6,"智能体":369,"智能体授权":1,"Claude Code":89,"token":28,"保险库":1,"OAuth":2,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

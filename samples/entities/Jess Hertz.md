@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Shopify":13,"River":2,"智能体":364,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Shopify":14,"River":2,"智能体":369,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":2,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

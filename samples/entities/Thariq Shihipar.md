@@ -36,11 +36,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":155,"智能体":364,"提示词":19,"自动模式":3,"沙箱":68,"评估":3,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":156,"智能体":369,"提示词":19,"自动模式":3,"沙箱":68,"评估":3,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
 
 <script>
 (function(){

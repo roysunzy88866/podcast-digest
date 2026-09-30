@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]] [[Nick Fleisher]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Wix":3,"Base44":3,"Salesforce":32,"Atlassian":5,"vibe coding":42,"SaaS":19,"回购":1,"股权激励":1,"微调":25}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Wix":3,"Base44":3,"Salesforce":33,"Atlassian":5,"vibe coding":43,"SaaS":19,"回购":1,"股权激励":1,"微调":25}</script>
 
 <script>
 (function(){

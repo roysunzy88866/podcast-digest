@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":8,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":8,"智能体":364,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":8,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":8,"智能体":369,"强化学习":1}</script>
 
 <script>
 (function(){

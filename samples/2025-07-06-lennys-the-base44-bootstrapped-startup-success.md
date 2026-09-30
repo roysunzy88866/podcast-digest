@@ -168,9 +168,9 @@ Wix 主动找来的，因为社区里很多人在喊「Wix 应该在它变大之
 
 **换个口味**
 
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:LLM、vibe coding</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:Cursor · 同概念:vibe coding</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding</span>
 
 </div>
 </div>

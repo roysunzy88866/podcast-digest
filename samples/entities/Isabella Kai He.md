@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":155,"智能体":364,"harness":50,"沙箱":68,"智能体循环":5,"上下文工程":15,"会话日志追踪":2,"泄露的凭证":3,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":156,"智能体":369,"harness":50,"沙箱":68,"智能体循环":5,"上下文工程":16,"会话日志追踪":2,"泄露的凭证":3,"可观测性":34}</script>
 
 <script>
 (function(){

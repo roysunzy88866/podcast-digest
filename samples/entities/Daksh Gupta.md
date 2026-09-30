@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Suraj Gupta]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]] [[Andrew Orobator]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":364,"pull request":3,"代码审查":19,"沙箱":68,"Codex":66,"Devin":4,"Claude":73,"Cursor":73,"vibe coding":42}</script>
+<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":369,"pull request":3,"代码审查":20,"沙箱":68,"Codex":69,"Devin":4,"Claude":74,"Cursor":73,"vibe coding":43}</script>
 
 <script>
 (function(){

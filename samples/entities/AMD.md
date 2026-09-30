@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[GPU]] · [[OpenAI]] · [[Anthropic]] · [[Cerebrus]] · [[Cursor]] · [[TSMC]] · [[推理]] · [[Condi Rice]] · [[Gavin Baker]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":46,"GPU":18,"OpenAI":142,"Anthropic":155,"Cerebrus":2,"Cursor":73,"TSMC":6,"推理":62,"Condi Rice":1,"Gavin Baker":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":46,"GPU":18,"OpenAI":144,"Anthropic":156,"Cerebrus":2,"Cursor":73,"TSMC":6,"推理":63,"Condi Rice":1,"Gavin Baker":1}</script>
 
 <script>
 (function(){

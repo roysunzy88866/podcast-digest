@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-27-talks-i-turned-coding-agents-into-a-strategy-g",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/YIVkERhy8xo.m4a",
+  "duration_sec": 881.951,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 162,
+  "asr": true,
+  "title_en": "I Turned Coding Agents Into a Strategy Game — Ido Salomon, AgentCraft",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "added": "2026-10-01",
+  "added_at": "2026-09-30T20:18:41.919Z",
+  "speaker_map": {
+    "SPEAKER_00": "Ido Salomon"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Ido Salomon"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "你才是瓶颈:像打游戏一样指挥智能体大军",
+  "guest_name": "Ido Salomon",
+  "guest_title": "AgentCraft 创造者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

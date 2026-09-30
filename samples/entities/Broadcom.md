@@ -37,7 +37,7 @@ unlisted: true
 
 [[数据中心]] · [[NVIDIA]] · [[推理]] · [[OpenAI]] · [[GPU]] · [[Microsoft]] · [[Gavin Baker]] · [[Sachin Katti]] · [[Michael]] · [[Tony Kim]]
 
-<script type="application/json" class="pd-epn">{"数据中心":16,"NVIDIA":46,"推理":62,"OpenAI":142,"GPU":18,"Microsoft":26,"Gavin Baker":1,"Sachin Katti":1,"Michael":1,"Tony Kim":1}</script>
+<script type="application/json" class="pd-epn">{"数据中心":16,"NVIDIA":46,"推理":63,"OpenAI":144,"GPU":18,"Microsoft":26,"Gavin Baker":1,"Sachin Katti":1,"Michael":1,"Tony Kim":1}</script>
 
 <script>
 (function(){

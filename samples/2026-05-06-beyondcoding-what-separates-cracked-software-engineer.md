@@ -134,9 +134,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:vibe coding、开源 (open source)</span>
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|Martin Casado：AI 时代，钱比以前好使了]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)、vibe coding</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:Cursor · 同概念:vibe coding</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)</span>
 
 </div>
 </div>

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":46,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":23,"智能体":364,"推理":62}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":46,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":23,"智能体":369,"推理":63}</script>
 
 <script>
 (function(){

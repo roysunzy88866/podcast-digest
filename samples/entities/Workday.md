@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Workday</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Workday">WO</div><div class="pi"><h1 class="pt">Workday</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Workday">WO</div><div class="pi"><h1 class="pt">Workday</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(08:34起):本集提到它是最大的 HR 信息系统（巨头），指出如果你做一个依附于它的背景调查插件，它随时可以凭借庞大的客户群抄袭你。
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(14:29起):本集以 Workday 为例说明公司智能体连接的企业内部系统之一
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(20:31起):本集说 Silverlake 以 430 亿美元、约 5.3 倍收入将 Workday 私有化，是 SaaS 史上最大收购之一。节目指出 Workday 的优势在于它是一个极其封闭的记录系统，客户难以被第三方智能体吸走价值，但警告'客户是囚犯不代表会多花一分钱'，CIO 反而想砍支出。
+- **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(10:10起):被一句话提及：AI 在 SAP 与 Workday 系统之间匹配数据。
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Chris Benson]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Daniel Whitenack]] · [[Olivia Moore]] · [[Daniel Widenach]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Salesforce]] · [[Chris Benson]] · [[Stripe]] · [[Databricks]] · [[Claude Code]] · [[Daniel Whitenack]] · [[Olivia Moore]]
 
-<script type="application/json" class="pd-epn">{"智能体":364,"Anthropic":155,"OpenAI":142,"Chris Benson":9,"Stripe":40,"Salesforce":32,"Claude Code":89,"Daniel Whitenack":8,"Olivia Moore":1,"Daniel Widenach":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":369,"Anthropic":156,"OpenAI":144,"Salesforce":33,"Chris Benson":9,"Stripe":40,"Databricks":18,"Claude Code":89,"Daniel Whitenack":8,"Olivia Moore":1}</script>
 
 <script>
 (function(){

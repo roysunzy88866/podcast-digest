@@ -120,7 +120,7 @@ AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele"
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding、智能体 (agent)</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、OpenAI、Stripe · 同概念:vibe coding、智能体 (agent)</span>
-- [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
+- [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Chroma":1,"ChromaDB":1,"Context 1":1,"上下文腐烂":4,"智能体搜索":4,"向量搜索":4,"上下文工程":15,"小模型":1,"BYOC":1}</script>
+<script type="application/json" class="pd-epn">{"Hamad Bashir":1,"Chroma":1,"ChromaDB":1,"Context 1":1,"上下文腐烂":4,"智能体搜索":4,"向量搜索":4,"上下文工程":16,"小模型":1,"BYOC":1}</script>
 
 <script>
 (function(){
