@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":65,"智能体":358,"Salesforce":32,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":22,"Automation Bench":1,"确定性":3}</script>
+<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":65,"智能体":361,"Salesforce":32,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":22,"Automation Bench":1,"确定性":3}</script>
 
 <script>
 (function(){

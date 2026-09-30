@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":358,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":3,"Salesforce":32}</script>
+<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":361,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":3,"Salesforce":32}</script>
 
 <script>
 (function(){

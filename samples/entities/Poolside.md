@@ -25,7 +25,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Perplexity]] · [[Hugging Face]] · [[Stripe]] · [[Harvey]] · [[Cursor]] · [[Nemotron]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":46,"OpenAI":140,"Anthropic":153,"Perplexity":8,"Hugging Face":25,"Stripe":39,"Harvey":14,"Cursor":72,"Nemotron":5,"OpenRouter":11}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":46,"OpenAI":140,"Anthropic":153,"Perplexity":8,"Hugging Face":25,"Stripe":39,"Harvey":14,"Cursor":73,"Nemotron":5,"OpenRouter":11}</script>
 
 <script>
 (function(){

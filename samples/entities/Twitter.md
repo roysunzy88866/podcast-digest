@@ -45,7 +45,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Discord]] · [[TikTok]] · [[Parallel]] · [[Whatnot]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":83,"智能体":358,"Claude":72,"Lenny":68,"Anthropic":153,"Google":50,"Discord":6,"TikTok":6,"Parallel":6,"Whatnot":4}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":83,"智能体":361,"Claude":73,"Lenny":68,"Anthropic":153,"Google":50,"Discord":6,"TikTok":6,"Parallel":6,"Whatnot":4}</script>
 
 <script>
 (function(){

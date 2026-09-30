@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":28,"代码审查":18,"CI-CD":14,"不稳定的测试":1,"智能体循环":5,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
+<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":28,"代码审查":19,"CI-CD":14,"不稳定的测试":1,"智能体循环":5,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1450 @@
+[
+ {
+  "seg": 0,
+  "start": 12.69,
+  "end": 13.53,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.07,
+  "end": 23.173,
+  "speaker": "Unknown",
+  "en": "I'm Irina, former engineer at Microsoft and Supercell, and today I want to talk about auto research in a multi-agent AI village.",
+  "zh": "我是 Irina,曾在 Microsoft 和 Supercell 担任工程师，今天我想谈谈多智能体 AI 村庄中的 auto research。"
+ },
+ {
+  "seg": 2,
+  "start": 24.133,
+  "end": 34.055,
+  "speaker": "Unknown",
+  "en": "I will use a video game like AI village as a running example here, but the broader question is one I think many AI engineers are starting to run into.",
+  "zh": "我会以一个类似 AI village 的视频游戏作为贯穿的例子，但这个更宏观的问题是许多 AI 工程师开始遇到的。"
+ },
+ {
+  "seg": 3,
+  "start": 34.955,
+  "end": 40.897,
+  "speaker": "Unknown",
+  "en": "How do we evaluate and improve agents that carry state over a long period of time?",
+  "zh": "我们如何评估和改进那些长时间携带状态的智能体？"
+ },
+ {
+  "seg": 4,
+  "start": 43.672,
+  "end": 48.84,
+  "speaker": "Unknown",
+  "en": "Before I get into the auto-research layer, I want to talk a bit about Project Paradox.",
+  "zh": "在进入 auto-research 层之前，我想先谈谈 Project Paradox。"
+ },
+ {
+  "seg": 5,
+  "start": 50.002,
+  "end": 54.268,
+  "speaker": "Unknown",
+  "en": "We developed Project Paradox at Supercell's AI Innovation Lab.",
+  "zh": "我们在 Supercell 的 AI Innovation Lab 开发了 Project Paradox。"
+ },
+ {
+  "seg": 6,
+  "start": 54.729,
+  "end": 58.034,
+  "speaker": "Unknown",
+  "en": "Me and my teammate Arnachala Manikhandan.",
+  "zh": "我和我的队友 Arnachala Manikhandan。"
+ },
+ {
+  "seg": 7,
+  "start": 59.272,
+  "end": 78.262,
+  "speaker": "Unknown",
+  "en": "We built a modular AI framework that allows any developer to plug in intelligent, autonomous agents within a video game that can interact, compete, or cooperate with other players or agents as well and make them into dynamic game companions.",
+  "zh": "我们构建了一个模块化的 AI 框架，允许任何开发者在视频游戏中插入智能的、自主的智能体，它们可以与其他玩家或智能体互动、竞争或合作，并把它们变成动态的游戏伙伴。"
+ },
+ {
+  "seg": 8,
+  "start": 80.503,
+  "end": 83.565,
+  "speaker": "Unknown",
+  "en": "Now, to give examples of what these agents can do,",
+  "zh": "现在，举几个这些智能体能做什么的例子，"
+ },
+ {
+  "seg": 9,
+  "start": 84.84,
+  "end": 86.644,
+  "speaker": "Unknown",
+  "en": "The agents can move with intent.",
+  "zh": "智能体可以带着意图移动。"
+ },
+ {
+  "seg": 10,
+  "start": 86.885,
+  "end": 94.521,
+  "speaker": "Unknown",
+  "en": "They can go to any location or person, and they're guided by their own memories, emotion, or curiosity.",
+  "zh": "它们可以去任何地点或找任何人，并且由它们自己的记忆、情绪或好奇心引导。"
+ },
+ {
+  "seg": 11,
+  "start": 95.722,
+  "end": 97.923,
+  "speaker": "Unknown",
+  "en": "These agents can interact with the world.",
+  "zh": "这些智能体可以与世界互动。"
+ },
+ {
+  "seg": 12,
+  "start": 98.143,
+  "end": 108.429,
+  "speaker": "Unknown",
+  "en": "They can pick up objects, drop them anywhere, and they're also aware about the context in their own environment, such as objects or other characters or agents as well.",
+  "zh": "它们可以拾取物体、把物体放到任何地方，并且它们也感知自己环境中的上下文，比如物体、其他角色或智能体。"
+ },
+ {
+  "seg": 13,
+  "start": 109.41,
+  "end": 121.857,
+  "speaker": "Unknown",
+  "en": "I would also like to note that game developers can also add new actions for these agents to accomplish within our framework as well, instead of just dropping or placing objects.",
+  "zh": "我还想指出，游戏开发者也可以在我们的框架内为这些智能体添加新的动作去完成，而不仅仅是丢弃或放置物体。"
+ },
+ {
+  "seg": 14,
+  "start": 124.213,
+  "end": 128.899,
+  "speaker": "Unknown",
+  "en": "Agents can also obviously react to what's happening around them.",
+  "zh": "显然，智能体也可以对周围发生的事情做出反应。"
+ },
+ {
+  "seg": 15,
+  "start": 128.919,
+  "end": 135.908,
+  "speaker": "Unknown",
+  "en": "And these events that happen around them affect their own beliefs and emotions on the fly as well.",
+  "zh": "而且这些发生在它们周围的事件也会实时影响它们自己的信念和情绪。"
+ },
+ {
+  "seg": 16,
+  "start": 137.004,
+  "end": 141.407,
+  "speaker": "Unknown",
+  "en": "And of course, it wouldn't be complete if agents can't start conversations, right?",
+  "zh": "当然，如果智能体不能发起对话，那就不完整了，对吧？"
+ },
+ {
+  "seg": 17,
+  "start": 141.747,
+  "end": 148.171,
+  "speaker": "Unknown",
+  "en": "Agents can, in this scenario, approach other agents or even the player as well.",
+  "zh": "在这种场景下，智能体可以接近其他智能体，甚至接近玩家。"
+ },
+ {
+  "seg": 18,
+  "start": 148.831,
+  "end": 151.232,
+  "speaker": "Unknown",
+  "en": "And this makes the game feel more alive.",
+  "zh": "这让游戏感觉更有活力。"
+ },
+ {
+  "seg": 19,
+  "start": 151.633,
+  "end": 162.079,
+  "speaker": "Unknown",
+  "en": "And of course, these conversations are stored within their memory and is according to their own and affect their own emotions and beliefs or goals as well.",
+  "zh": "当然，这些对话会存储在它们的记忆中，并且符合它们自己的(状态)，也会影响它们自己的情绪、信念或目标。"
+ },
+ {
+  "seg": 20,
+  "start": 163.622,
+  "end": 167.807,
+  "speaker": "Unknown",
+  "en": "And altogether, these agents make our multi-agentic framework.",
+  "zh": "总而言之，这些智能体构成了我们的多智能体框架。"
+ },
+ {
+  "seg": 21,
+  "start": 172.092,
+  "end": 172.392,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 22,
+  "start": 173.814,
+  "end": 174.074,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 23,
+  "start": 175.095,
+  "end": 175.776,
+  "speaker": "Unknown",
+  "en": "One second.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 24,
+  "start": 177.177,
+  "end": 181.642,
+  "speaker": "Unknown",
+  "en": "So the architecture was intentionally stateful behind this.",
+  "zh": "所以这背后的架构是有意设计为有状态的。"
+ },
+ {
+  "seg": 25,
+  "start": 182.507,
+  "end": 186.328,
+  "speaker": "Unknown",
+  "en": "The first important part was per-agent memory.",
+  "zh": "第一个重要的部分是每个智能体的记忆。"
+ },
+ {
+  "seg": 26,
+  "start": 187.168,
+  "end": 195.07,
+  "speaker": "Unknown",
+  "en": "Each agent has its own memory namespace backed by RAG, so memory did not bleed between agents.",
+  "zh": "每个智能体都有自己由 RAG 支撑的记忆命名空间，所以记忆不会在智能体之间串扰。"
+ },
+ {
+  "seg": 27,
+  "start": 196.191,
+  "end": 199.232,
+  "speaker": "Unknown",
+  "en": "Second, we tracked emotion as a small vector.",
+  "zh": "第二，我们把情绪追踪为一个小向量。"
+ },
+ {
+  "seg": 28,
+  "start": 199.952,
+  "end": 208.174,
+  "speaker": "Unknown",
+  "en": "So after an event or conversation, the system could update values like joy, sadness, fear, anger, or disgust.",
+  "zh": "所以在一个事件或对话之后，系统可以更新诸如快乐、悲伤、恐惧、愤怒或厌恶之类的值。"
+ },
+ {
+  "seg": 29,
+  "start": 209.922,
+  "end": 214.987,
+  "speaker": "Unknown",
+  "en": "Third, agents had belief scores towards other agents and the player.",
+  "zh": "第三，智能体对其他智能体和玩家有信念分数。"
+ },
+ {
+  "seg": 30,
+  "start": 216.088,
+  "end": 218.769,
+  "speaker": "Unknown",
+  "en": "You can think of this as a trust matrix, basically.",
+  "zh": "你可以把它基本理解为一个信任矩阵。"
+ },
+ {
+  "seg": 31,
+  "start": 219.209,
+  "end": 227.851,
+  "speaker": "Unknown",
+  "en": "Like, after the interaction happens, the LLM basically decides whether the trust score should go up, down, or whether it shouldn't change at all.",
+  "zh": "就是说，在互动发生之后，LLM 基本上会决定信任分数应该上升、下降，还是完全不变。"
+ },
+ {
+  "seg": 32,
+  "start": 228.991,
+  "end": 233.152,
+  "speaker": "Unknown",
+  "en": "And fourth, every memory receives an important score.",
+  "zh": "第四，每条记忆都会收到一个重要分数。"
+ },
+ {
+  "seg": 33,
+  "start": 234.793,
+  "end": 238.434,
+  "speaker": "Unknown",
+  "en": "To explain this better, like, let's say you had dinner a few days ago.",
+  "zh": "为了更好地解释这一点，比如说，你几天前吃过晚餐。"
+ },
+ {
+  "seg": 34,
+  "start": 238.474,
+  "end": 240.975,
+  "speaker": "Unknown",
+  "en": "You probably won't remember what you had for dinner, right?",
+  "zh": "你可能不记得晚餐吃了什么，对吧？"
+ },
+ {
+  "seg": 35,
+  "start": 244.212,
+  "end": 247.415,
+  "speaker": "Unknown",
+  "en": "If someone was murdered a few days ago, you definitely remember that.",
+  "zh": "如果几天前发生了谋杀案，你肯定记得。"
+ },
+ {
+  "seg": 36,
+  "start": 248.015,
+  "end": 266.47,
+  "speaker": "Unknown",
+  "en": "So the agent will evaluate or the LM will evaluate an important score of an event, and if it crosses a threshold, it will store that specific memory in a separate cache so that important context can be retrieved better later on.",
+  "zh": "所以智能体会评估，或者说 LM 会评估一个事件的重要分数，如果它超过某个阈值，它就会把那条特定记忆存储到一个单独的缓存中，以便以后能更好地检索重要上下文。"
+ },
+ {
+  "seg": 37,
+  "start": 268.288,
+  "end": 271.75,
+  "speaker": "Unknown",
+  "en": "And here's an example of it just working.",
+  "zh": "这里是它运行的一个例子。"
+ },
+ {
+  "seg": 38,
+  "start": 271.77,
+  "end": 276.012,
+  "speaker": "Unknown",
+  "en": "We were going to ask one of the characters to go on a picnic with us.",
+  "zh": "我们打算邀请其中一个角色和我们一起去野餐。"
+ },
+ {
+  "seg": 39,
+  "start": 276.912,
+  "end": 285.917,
+  "speaker": "Unknown",
+  "en": "Here, our character, Blossom, decides to pick up a pastry and go to the picnic area because we asked her to do so.",
+  "zh": "这里，我们的角色 Blossom 决定拿起一块糕点并前往野餐区，因为我们这样要求了她。"
+ },
+ {
+  "seg": 40,
+  "start": 286.897,
+  "end": 300.568,
+  "speaker": "Unknown",
+  "en": "Keep in mind, during the conversation in the background, she plans all of these sequences of actions to accomplish, and when we talk to her afterwards, she will also reply within context as well.",
+  "zh": "请注意，在背景的对话中，她计划了所有这些要完成的动作序列，而当我们之后和她交谈时，她也会在上下文内做出回应。"
+ },
+ {
+  "seg": 41,
+  "start": 306.093,
+  "end": 310.759,
+  "speaker": "Unknown",
+  "en": "But this is where an interesting problem actually started.",
+  "zh": "但这就是一个有趣的问题真正开始的地方。"
+ },
+ {
+  "seg": 42,
+  "start": 311.78,
+  "end": 318.609,
+  "speaker": "Unknown",
+  "en": "As you saw in the last example, for short-term gameplay, our architecture worked pretty well.",
+  "zh": "正如你在上一个例子中看到的，对于短期游戏玩法，我们的架构运行得相当好。"
+ },
+ {
+  "seg": 43,
+  "start": 319.636,
+  "end": 328.299,
+  "speaker": "Unknown",
+  "en": "Like a character could make a plan, move around, talk, and remember the recent interaction and respond to us or other characters as well.",
+  "zh": "比如一个角色可以制定计划、四处走动、交谈，并记住最近的互动，对我们或其他角色做出回应。"
+ },
+ {
+  "seg": 44,
+  "start": 328.899,
+  "end": 335.601,
+  "speaker": "Unknown",
+  "en": "But over longer horizons, this is where we notice the social consistencies start to get weaker.",
+  "zh": "但在更长的时间跨度上，这就是我们注意到社交一致性开始变弱的地方。"
+ },
+ {
+  "seg": 45,
+  "start": 336.242,
+  "end": 343.164,
+  "speaker": "Unknown",
+  "en": "So in this example, we have one agent spreading a rumor about a sale on mangoes to another agent.",
+  "zh": "在这个例子中，我们让一个智能体向另一个智能体散播一条关于芒果特价的消息。"
+ },
+ {
+  "seg": 46,
+  "start": 343.724,
+  "end": 348.966,
+  "speaker": "Unknown",
+  "en": "And that agent receives that information and goes and tells another agent about it.",
+  "zh": "而那个智能体接收到这个信息，然后去告诉另一个智能体。"
+ },
+ {
+  "seg": 47,
+  "start": 349.686,
+  "end": 365.401,
+  "speaker": "Unknown",
+  "en": "Later on, after a number of events occurred in between, when the player asks one of the agents about the mangoes, it doesn't exactly store that context that we were expecting, or it doesn't give us the context that we kind of want it to.",
+  "zh": "后来，在中间发生了许多事件之后，当玩家向其中一个智能体问起芒果时，它并没有完全存储我们期望的那个上下文，或者它没有给出我们某种程度上想要的上下文。"
+ },
+ {
+  "seg": 48,
+  "start": 366.342,
+  "end": 370.325,
+  "speaker": "Unknown",
+  "en": "And this is where things are starting to get messy, naturally.",
+  "zh": "这就是事情自然开始变得混乱的地方。"
+ },
+ {
+  "seg": 49,
+  "start": 371.286,
+  "end": 376.647,
+  "speaker": "Unknown",
+  "en": "Like, the system may remember the rough topic but lose the source of the topic.",
+  "zh": "比如，系统可能记得大致的话题，却丢失了话题的来源。"
+ },
+ {
+  "seg": 50,
+  "start": 377.007,
+  "end": 380.648,
+  "speaker": "Unknown",
+  "en": "A rumor may become certain instead of just a rumor.",
+  "zh": "谣言可能会变成确定的事实，而不仅仅是谣言。"
+ },
+ {
+  "seg": 51,
+  "start": 380.728,
+  "end": 383.069,
+  "speaker": "Unknown",
+  "en": "Like, the agent might state it as a fact.",
+  "zh": "比如，智能体可能会把它当作事实陈述出来。"
+ },
+ {
+  "seg": 52,
+  "start": 384.009,
+  "end": 391.891,
+  "speaker": "Unknown",
+  "en": "Or an agent might know a fact but fail to remember it while creating a plan for its actions.",
+  "zh": "或者一个智能体可能知道某个事实，但在为它的行动制定计划时却想不起来。"
+ },
+ {
+  "seg": 53,
+  "start": 392.637,
+  "end": 402.304,
+  "speaker": "Unknown",
+  "en": "So the question here became, how do we improve a multi-agentic system over long-running social behavior and not just over one response?",
+  "zh": "所以这里的问题就变成了，如何改进一个多智能体系统在长期社会行为上的表现，而不仅仅是一次响应？"
+ },
+ {
+  "seg": 54,
+  "start": 404.154,
+  "end": 408.195,
+  "speaker": "Unknown",
+  "en": "And this is where we wanted to bring in auto-research.",
+  "zh": "这就是我们想引入自动研究（auto-research）的地方。"
+ },
+ {
+  "seg": 55,
+  "start": 408.335,
+  "end": 417.878,
+  "speaker": "Unknown",
+  "en": "As you all know, a few months ago, Karpathy posted auto-research, and this made us immediately very curious.",
+  "zh": "大家都知道，几个月前，Karpathy 发了关于自动研究的帖子，这立刻让我们非常好奇。"
+ },
+ {
+  "seg": 56,
+  "start": 419.418,
+  "end": 426.74,
+  "speaker": "Unknown",
+  "en": "Perhaps we can make the system run experiments on itself, and can we use this for our system as well?",
+  "zh": "也许我们可以让系统在自身上运行实验，我们能否把这也用到我们的系统上？"
+ },
+ {
+  "seg": 57,
+  "start": 427.5,
+  "end": 447.749,
+  "speaker": "Unknown",
+  "en": "So what we understood is instead of manually tuning a prompt or watching one nice demo, we could define a scenario suit, run the agents, collect traces, score the behavior, and change a small policy surface and only keep the changes that actually improve the score.",
+  "zh": "于是我们理解到，与其手动调提示词或看一个漂亮的演示，我们可以定义一个场景套件，运行智能体，收集轨迹，给行为打分，改动一个小的策略面，只保留那些真正提升分数的改动。"
+ },
+ {
+  "seg": 58,
+  "start": 448.349,
+  "end": 453.151,
+  "speaker": "Unknown",
+  "en": "And this is where we're trying to bridge project paradox with auto research.",
+  "zh": "这就是我们要把 Project Paradox 与自动研究桥接起来的地方。"
+ },
+ {
+  "seg": 59,
+  "start": 453.731,
+  "end": 464.294,
+  "speaker": "Unknown",
+  "en": "So at this point, basically, our multi-agency framework project paradox is more like a lab bench, and auto-research becomes the experimental loop around it.",
+  "zh": "所以在这一点上，基本上，我们的多智能体框架 Project Paradox 更像是一个实验台，而自动研究则成为围绕它的实验循环。"
+ },
+ {
+  "seg": 60,
+  "start": 465.315,
+  "end": 469.816,
+  "speaker": "Unknown",
+  "en": "And importantly, this is not only about improving RAG retrieval.",
+  "zh": "重要的是，这不仅仅是关于改进 RAG 检索。"
+ },
+ {
+  "seg": 61,
+  "start": 470.316,
+  "end": 483.24,
+  "speaker": "Unknown",
+  "en": "The broader framing is optimizing the agent protocol, like how do agents write memories, retrieve them, communicate uncertainty, update trust, attribute sources, and replan around",
+  "zh": "更宏观的框架是优化智能体协议，比如智能体如何写入记忆、检索记忆、传达不确定性、更新信任、归因来源，以及围绕"
+ },
+ {
+  "seg": 62,
+  "start": 483.881,
+  "end": 485.525,
+  "speaker": "Unknown",
+  "en": "new facts, basically.",
+  "zh": "新事实重新规划，基本上是这样。"
+ },
+ {
+  "seg": 63,
+  "start": 485.545,
+  "end": 488.411,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 64,
+  "start": 490.055,
+  "end": 491.117,
+  "speaker": "Unknown",
+  "en": "In this context...",
+  "zh": "在这个背景下……"
+ },
+ {
+  "seg": 65,
+  "start": 495.417,
+  "end": 495.657,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，对。"
+ },
+ {
+  "seg": 66,
+  "start": 496.057,
+  "end": 501.199,
+  "speaker": "Unknown",
+  "en": "In this context, art research is not another agent in the village, like I said.",
+  "zh": "在这个背景下，自动研究不是村庄里的另一个智能体，就像我说的。"
+ },
+ {
+  "seg": 67,
+  "start": 501.559,
+  "end": 504.14,
+  "speaker": "Unknown",
+  "en": "It's a meta-system outside the village.",
+  "zh": "它是村庄之外的元系统。"
+ },
+ {
+  "seg": 68,
+  "start": 504.861,
+  "end": 508.042,
+  "speaker": "Unknown",
+  "en": "The villagers have local perspectives, of course.",
+  "zh": "当然，村民们只有局部的视角。"
+ },
+ {
+  "seg": 69,
+  "start": 508.582,
+  "end": 513.144,
+  "speaker": "Unknown",
+  "en": "They only know what they saw, heard, remembered, or inferred.",
+  "zh": "他们只知道他们看到的、听到的、记住的或推断的东西。"
+ },
+ {
+  "seg": 70,
+  "start": 513.284,
+  "end": 522.668,
+  "speaker": "Unknown",
+  "en": "Because there isn't a common memory database in between them, information only travels once other agents communicate them properly.",
+  "zh": "因为他们之间没有一个共同的记忆数据库，信息只有在其他智能体正确传达时才会传播。"
+ },
+ {
+  "seg": 71,
+  "start": 523.934,
+  "end": 526.535,
+  "speaker": "Unknown",
+  "en": "The auto research layer has a different job here.",
+  "zh": "自动研究层在这里有不一样的工作。"
+ },
+ {
+  "seg": 72,
+  "start": 526.875,
+  "end": 538.059,
+  "speaker": "Unknown",
+  "en": "It reads the full traces of a run, compares what happens against the scenario ground truth, scores the behavior, and proposes a constrained",
+  "zh": "它读取一次运行的完整轨迹，把发生的事情与场景的真实基准进行比较，给行为打分，并提出一个受约束的"
+ },
+ {
+  "seg": 73,
+  "start": 539.6,
+  "end": 543.024,
+  "speaker": "Unknown",
+  "en": "Change to the agent protocol or cognitive policy.",
+  "zh": "对智能体协议或认知策略的改动。"
+ },
+ {
+  "seg": 74,
+  "start": 543.685,
+  "end": 549.911,
+  "speaker": "Unknown",
+  "en": "Then it reruns the scenario and asks society-level behavior, like, did society-level behavior get better?",
+  "zh": "然后它重新运行场景，并看社会层面的行为，比如，社会层面的行为是否变好了？"
+ },
+ {
+  "seg": 75,
+  "start": 550.472,
+  "end": 553.775,
+  "speaker": "Unknown",
+  "en": "This is the key shift we were trying to look for.",
+  "zh": "这就是我们要寻找的关键转变。"
+ },
+ {
+  "seg": 76,
+  "start": 554.556,
+  "end": 559.502,
+  "speaker": "Unknown",
+  "en": "So we were no longer evaluating one answer, we were evaluating an entire run.",
+  "zh": "所以我们不再评估一个答案，而是在评估一整次运行。"
+ },
+ {
+  "seg": 77,
+  "start": 561.927,
+  "end": 565.972,
+  "speaker": "Unknown",
+  "en": "And this is what one of the loops would look like.",
+  "zh": "这就是其中一个循环的样子。"
+ },
+ {
+  "seg": 78,
+  "start": 566.092,
+  "end": 570.977,
+  "speaker": "Unknown",
+  "en": "First, we define a controlled scenario, which I'll elaborate a bit more about later.",
+  "zh": "首先，我们定义一个受控场景，这个我稍后会再展开讲一点。"
+ },
+ {
+  "seg": 79,
+  "start": 571.458,
+  "end": 577.004,
+  "speaker": "Unknown",
+  "en": "For example, one agent learns a public fact or one agent hears a rumor.",
+  "zh": "比如，一个智能体学到一个公开事实，或者一个智能体听到一个谣言。"
+ },
+ {
+  "seg": 80,
+  "start": 578.046,
+  "end": 580.048,
+  "speaker": "Unknown",
+  "en": "That could be a controlled scenario.",
+  "zh": "这就可以是一个受控场景。"
+ },
+ {
+  "seg": 81,
+  "start": 580.649,
+  "end": 582.331,
+  "speaker": "Unknown",
+  "en": "Then we run the simulation.",
+  "zh": "然后我们运行模拟。"
+ },
+ {
+  "seg": 82,
+  "start": 582.791,
+  "end": 590.874,
+  "speaker": "Unknown",
+  "en": "During the run, we collect structured traces, observations, conversations, memory writes, retrievals, belief updates.",
+  "zh": "在运行过程中，我们收集结构化轨迹：观察、对话、记忆写入、检索、信念更新。"
+ },
+ {
+  "seg": 83,
+  "start": 591.334,
+  "end": 594.835,
+  "speaker": "Unknown",
+  "en": "Whatever is relevant to us in that case, we collect.",
+  "zh": "在该案例中与我们相关的，我们都收集。"
+ },
+ {
+  "seg": 84,
+  "start": 595.735,
+  "end": 597.676,
+  "speaker": "Unknown",
+  "en": "Then we score this behavior.",
+  "zh": "然后我们给这个行为打分。"
+ },
+ {
+  "seg": 85,
+  "start": 598.216,
+  "end": 601.557,
+  "speaker": "Unknown",
+  "en": "Did the information spread as we expected it to?",
+  "zh": "信息是否按我们预期的那样传播了？"
+ },
+ {
+  "seg": 86,
+  "start": 601.817,
+  "end": 607.379,
+  "speaker": "Unknown",
+  "en": "Did the source attribution survive, such as does the agent remember who started the rumor?",
+  "zh": "来源归因是否存活下来了，比如智能体是否记得是谁 started 这个谣言的？"
+ },
+ {
+  "seg": 87,
+  "start": 608.019,
+  "end": 610.066,
+  "speaker": "Unknown",
+  "en": "Did uncertainty stay uncertain?",
+  "zh": "不确定性是否保持为不确定？"
+ },
+ {
+  "seg": 88,
+  "start": 610.468,
+  "end": 613.438,
+  "speaker": "Unknown",
+  "en": "Did agents act on what they actually knew?",
+  "zh": "智能体是否基于它们真正知道的东西行动？"
+ },
+ {
+  "seg": 89,
+  "start": 614.705,
+  "end": 619.507,
+  "speaker": "Unknown",
+  "en": "And then the auto-research layer here proposes a small policy change.",
+  "zh": "然后自动研究层在这里提出一个小的策略改动。"
+ },
+ {
+  "seg": 90,
+  "start": 620.148,
+  "end": 622.009,
+  "speaker": "Unknown",
+  "en": "And this is important.",
+  "zh": "而这一点很重要。"
+ },
+ {
+  "seg": 91,
+  "start": 622.149,
+  "end": 625.45,
+  "speaker": "Unknown",
+  "en": "It should not rewrite the whole application, of course.",
+  "zh": "当然，它不应该重写整个应用。"
+ },
+ {
+  "seg": 92,
+  "start": 626.251,
+  "end": 629.892,
+  "speaker": "Unknown",
+  "en": "It should only edit a controlled policy surface.",
+  "zh": "它应该只编辑一个受控的策略面。"
+ },
+ {
+  "seg": 93,
+  "start": 630.413,
+  "end": 631.353,
+  "speaker": "Unknown",
+  "en": "And then we rerun.",
+  "zh": "然后我们重新运行。"
+ },
+ {
+  "seg": 94,
+  "start": 631.793,
+  "end": 637.156,
+  "speaker": "Unknown",
+  "en": "If the score improves and the guardrails hold, we keep the improvement.",
+  "zh": "如果分数提升了，并且护栏守住了，我们就保留这个改进。"
+ },
+ {
+  "seg": 95,
+  "start": 637.516,
+  "end": 639.737,
+  "speaker": "Unknown",
+  "en": "And if not, we simply just revert back.",
+  "zh": "如果没有，我们就直接回退。"
+ },
+ {
+  "seg": 96,
+  "start": 643.27,
+  "end": 655.961,
+  "speaker": "Unknown",
+  "en": "And talking about controlled scenarios, the reason why scenario design matters is that social behavior is otherwise a bit fuzzy in general.",
+  "zh": "说到受控场景，场景设计之所以重要，是因为社会行为本身总体上有点模糊。"
+ },
+ {
+  "seg": 97,
+  "start": 656.281,
+  "end": 661.505,
+  "speaker": "Unknown",
+  "en": "In the sense, if you just let the agents in an environment wander around,",
+  "zh": "意思是，如果你只是让智能体在一个环境里四处游荡，"
+ },
+ {
+  "seg": 98,
+  "start": 662.466,
+  "end": 671.412,
+  "speaker": "Unknown",
+  "en": "It might look cool and you might get nice interactions, but it's actually very hard to evaluate on whether the system actually improved.",
+  "zh": "它可能看起来很酷，你可能得到不错的互动，但实际上很难评估系统是否真正得到了改进。"
+ },
+ {
+  "seg": 99,
+  "start": 672.032,
+  "end": 675.835,
+  "speaker": "Unknown",
+  "en": "So this is why we believe you need controlled scenarios.",
+  "zh": "所以这就是为什么我们认为你需要受控场景。"
+ },
+ {
+  "seg": 100,
+  "start": 676.695,
+  "end": 680.778,
+  "speaker": "Unknown",
+  "en": "For example, one scenario could test a public fact diffusion.",
+  "zh": "例如，一个场景可以测试公共事实的扩散。"
+ },
+ {
+  "seg": 101,
+  "start": 681.118,
+  "end": 685.843,
+  "speaker": "Unknown",
+  "en": "Let's say agent A learns the bakery will close tomorrow.",
+  "zh": "假设智能体 A 得知面包店明天要关门。"
+ },
+ {
+  "seg": 102,
+  "start": 686.343,
+  "end": 688.065,
+  "speaker": "Unknown",
+  "en": "Do the right agents learn it?",
+  "zh": "相关的智能体们知道这件事了吗？"
+ },
+ {
+  "seg": 103,
+  "start": 688.486,
+  "end": 691.429,
+  "speaker": "Unknown",
+  "en": "Do they remember who said what?",
+  "zh": "他们记得谁说了什么吗？"
+ },
+ {
+  "seg": 104,
+  "start": 691.949,
+  "end": 694.832,
+  "speaker": "Unknown",
+  "en": "Do they change their plans based on this fact?",
+  "zh": "他们会基于这个事实改变自己的计划吗？"
+ },
+ {
+  "seg": 105,
+  "start": 695.633,
+  "end": 698.856,
+  "speaker": "Unknown",
+  "en": "Another scenario could test rumor uncertainty.",
+  "zh": "另一个场景可以测试谣言的不确定性。"
+ },
+ {
+  "seg": 106,
+  "start": 700.417,
+  "end": 704.898,
+  "speaker": "Unknown",
+  "en": "Let's say Agent A hears that Agent C might leave the village.",
+  "zh": "假设智能体 A 听说智能体 C 可能要离开村庄。"
+ },
+ {
+  "seg": 107,
+  "start": 705.539,
+  "end": 713.521,
+  "speaker": "Unknown",
+  "en": "When this rumor spreads, does might leave suddenly become is leaving or does it stay as might leave?",
+  "zh": "当这个谣言传播开来时，「可能要离开」会不会突然变成「要离开了」，还是仍然保持为「可能要离开」？"
+ },
+ {
+  "seg": 108,
+  "start": 714.081,
+  "end": 717.081,
+  "speaker": "Unknown",
+  "en": "Like does it become a fact or does it still stay as a rumor?",
+  "zh": "就是说，它是变成一个事实，还是仍然作为一条谣言存在？"
+ },
+ {
+  "seg": 109,
+  "start": 719.87,
+  "end": 722.413,
+  "speaker": "Unknown",
+  "en": "Another scenario could test replanning.",
+  "zh": "另一个场景可以测试重新规划。"
+ },
+ {
+  "seg": 110,
+  "start": 723.374,
+  "end": 730.083,
+  "speaker": "Unknown",
+  "en": "The group has a plan, but one agent learns, let's say, the route they wanted to take is blocked.",
+  "zh": "这个群体有一个计划，但某个智能体得知，比如说，他们想走的路线被封了。"
+ },
+ {
+  "seg": 111,
+  "start": 730.463,
+  "end": 738.853,
+  "speaker": "Unknown",
+  "en": "Do agents update this and communicate this with each other to avoid improper plan or scale actions?",
+  "zh": "智能体们会更新这一信息并彼此沟通，以避免不当的计划或规模化的行动吗？"
+ },
+ {
+  "seg": 112,
+  "start": 740.253,
+  "end": 744.574,
+  "speaker": "Unknown",
+  "en": "The point is not that these exact scenarios are universal here.",
+  "zh": "重点不在于这些具体场景在这里具有普适性。"
+ },
+ {
+  "seg": 113,
+  "start": 745.054,
+  "end": 752.817,
+  "speaker": "Unknown",
+  "en": "The point we're trying to make is that long-horizon agent behavior needs scenario suits.",
+  "zh": "我们想表达的重点是，长程智能体行为需要成套的场景。"
+ },
+ {
+  "seg": 114,
+  "start": 752.837,
+  "end": 760.759,
+  "speaker": "Unknown",
+  "en": "And talking about our Mango example again, after running one of our auto-research loops, this time after",
+  "zh": "再谈谈我们那个 Mango 的例子，在我们运行了一轮自动研究循环之后，这一次是在"
+ },
+ {
+  "seg": 115,
+  "start": 763.823,
+  "end": 780.235,
+  "speaker": "Unknown",
+  "en": "A long period of time when the player finally asked one of the agents about the sale on mangos, we did find that the agent was able to respond within context this time, like compared to last time.",
+  "zh": "经过很长一段时间后，玩家终于向其中一个智能体问起芒果促销的事，我们发现这一次智能体能够结合上下文进行回应了，和上次相比。"
+ },
+ {
+  "seg": 116,
+  "start": 784.823,
+  "end": 792.925,
+  "speaker": "Unknown",
+  "en": "And for this talk, the exact formula we believe is less important than the shape of the scorecard.",
+  "zh": "对于这个话题，我们认为确切的公式不如记分卡的形态重要。"
+ },
+ {
+  "seg": 117,
+  "start": 794.325,
+  "end": 799.526,
+  "speaker": "Unknown",
+  "en": "You do not want a single vague metric like agent quality.",
+  "zh": "你不想要一个单一而模糊的指标，比如智能体质量。"
+ },
+ {
+  "seg": 118,
+  "start": 800.167,
+  "end": 802.327,
+  "speaker": "Unknown",
+  "en": "This will hide all the interesting failures.",
+  "zh": "这会隐藏所有有意思的失败。"
+ },
+ {
+  "seg": 119,
+  "start": 802.947,
+  "end": 805.888,
+  "speaker": "Unknown",
+  "en": "Instead, you want a balanced scorecard.",
+  "zh": "相反，你想要的是一张平衡的记分卡。"
+ },
+ {
+  "seg": 120,
+  "start": 806.448,
+  "end": 808.949,
+  "speaker": "Unknown",
+  "en": "For diffusion, you might measure reach.",
+  "zh": "对于扩散，你可以衡量触达范围。"
+ },
+ {
+  "seg": 121,
+  "start": 809.789,
+  "end": 812.851,
+  "speaker": "Unknown",
+  "en": "Like how many agents know the fact after N steps.",
+  "zh": "比如 N 步之后有多少智能体知道这个事实。"
+ },
+ {
+  "seg": 122,
+  "start": 813.591,
+  "end": 818.794,
+  "speaker": "Unknown",
+  "en": "For provenance, you measure source retention among agents who know it.",
+  "zh": "对于来源，你衡量的是知道该事实的智能体中的来源保留率。"
+ },
+ {
+  "seg": 123,
+  "start": 819.994,
+  "end": 823.156,
+  "speaker": "Unknown",
+  "en": "How many remember it, where it came from, et cetera.",
+  "zh": "有多少人记得它、它从哪来，等等。"
+ },
+ {
+  "seg": 124,
+  "start": 823.456,
+  "end": 827.998,
+  "speaker": "Unknown",
+  "en": "For rumors, you can measure uncertainty preservation and false certainty rate.",
+  "zh": "对于谣言，你可以衡量不确定性保持率和虚假确定率。"
+ },
+ {
+  "seg": 125,
+  "start": 828.539,
+  "end": 833.141,
+  "speaker": "Unknown",
+  "en": "For planning, you can measure action consistency and time to re-plan.",
+  "zh": "对于规划，你可以衡量行动一致性和重新规划所需时间。"
+ },
+ {
+  "seg": 126,
+  "start": 833.701,
+  "end": 836.383,
+  "speaker": "Unknown",
+  "en": "And for privacy, you can measure containment.",
+  "zh": "对于隐私，你可以衡量遏制性。"
+ },
+ {
+  "seg": 127,
+  "start": 837.063,
+  "end": 857.099,
+  "speaker": "Unknown",
+  "en": "This matters because optimizing only one metric can create bad behavior, because let's say if you only optimize for diffusion, the agents may learn to overshare everything, and let's say if you only optimize for memory recall, you might create noisy or stale-like memories.",
+  "zh": "这很重要，因为只优化一个指标可能催生坏行为，比如说，如果你只优化扩散，智能体可能学会过度分享一切；而比如说，如果你只优化记忆召回，你可能会制造出嘈杂的或过时之类的记忆。"
+ },
+ {
+  "seg": 128,
+  "start": 857.92,
+  "end": 869.582,
+  "speaker": "Unknown",
+  "en": "So, this scorecard is what keeps the system honest and prevents the auto-research agent from gamifying the system to just increase one specific score.",
+  "zh": "所以，这张记分卡正是让系统保持诚实、并防止自动研究智能体通过钻系统空子来只提高某个特定分数的东西。"
+ },
+ {
+  "seg": 129,
+  "start": 872.417,
+  "end": 884.327,
+  "speaker": "Unknown",
+  "en": "The other important engineering lesson that we learned over this project is that it's important to keep the editable surface really small.",
+  "zh": "我们在这个项目中学到的另一条重要工程经验是，把可编辑的表面保持得非常小很重要。"
+ },
+ {
+  "seg": 130,
+  "start": 884.828,
+  "end": 890.592,
+  "speaker": "Unknown",
+  "en": "The auto-research layer should not have permission to randomly rewrite the whole code base.",
+  "zh": "自动研究层不应该有权限随意重写整个代码库。"
+ },
+ {
+  "seg": 131,
+  "start": 891.393,
+  "end": 897.837,
+  "speaker": "Unknown",
+  "en": "Instead, it's really important to freeze the harness, the scenarios, and the metrics.",
+  "zh": "相反，冻结测试框架、场景和指标非常重要。"
+ },
+ {
+  "seg": 132,
+  "start": 898.337,
+  "end": 903.88,
+  "speaker": "Unknown",
+  "en": "So we're only exposing the part of the system that we actually want to optimize here.",
+  "zh": "这样我们只暴露系统中我们真正想在这里优化的那部分。"
+ },
+ {
+  "seg": 133,
+  "start": 904.721,
+  "end": 917.788,
+  "speaker": "Unknown",
+  "en": "In Project Paradox, for us, that meant things like memory writing policy, retrieval policy, communication prompt, belief, trust rules, source attribution, planning triggers, et cetera.",
+  "zh": "在 Project Paradox 中，对我们来说，这意味着诸如记忆写入策略、检索策略、沟通提示词、信念、信任规则、来源归因、规划触发器等等。"
+ },
+ {
+  "seg": 134,
+  "start": 919.002,
+  "end": 927.767,
+  "speaker": "Unknown",
+  "en": "This gives the search process room to improve behavior, but it also prevents it from gaming the evaluation directly, as we mentioned before.",
+  "zh": "这给了搜索过程改进行为的空间，但也防止它像我们前面提到的那样直接操纵评估。"
+ },
+ {
+  "seg": 135,
+  "start": 928.547,
+  "end": 938.112,
+  "speaker": "Unknown",
+  "en": "And this is the difference between the LM writing random patches versus the LM actually searching within a controlled policy space.",
+  "zh": "这就是「LM 写出随机补丁」和「LM 真正在一个受控的策略空间内进行搜索」之间的区别。"
+ },
+ {
+  "seg": 136,
+  "start": 940.958,
+  "end": 947.361,
+  "speaker": "Unknown",
+  "en": "And here are examples of the kind of changes I want this kind of loop to search over.",
+  "zh": "这里是我希望这类循环去搜索的那类变更的例子。"
+ },
+ {
+  "seg": 137,
+  "start": 948.402,
+  "end": 958.567,
+  "speaker": "Unknown",
+  "en": "If source attribution disappears, the policy change might preserve source in memory rights and summaries.",
+  "zh": "如果来源归因消失了，策略变更可能是在记忆写入和摘要中保留来源。"
+ },
+ {
+  "seg": 138,
+  "start": 959.167,
+  "end": 969.633,
+  "speaker": "Unknown",
+  "en": "If rumors harden into facts, the policy change might be store confidence, mark first-hand versus second-hand, and require hedging when retelling uncertain claims.",
+  "zh": "如果谣言硬化成事实，策略变更可能是存储置信度、区分一手与二手信息，并在转述不确定的说法时要求使用保留措辞。"
+ },
+ {
+  "seg": 139,
+  "start": 970.473,
+  "end": 981.341,
+  "speaker": "Unknown",
+  "en": "If public facts stay local, the policy change might classify useful public facts differently and make agents proactively share important source evidence.",
+  "zh": "如果公共事实滞留在局部，策略变更可能是以不同方式分类有用的公共事实，并让智能体主动分享重要的来源证据。"
+ },
+ {
+  "seg": 140,
+  "start": 982.482,
+  "end": 993.65,
+  "speaker": "Unknown",
+  "en": "The key is that these are small changes to the agent protocol, but they can have larger effects on a society-level behavior for multi-agentic systems.",
+  "zh": "关键在于，这些都是对智能体协议的小改动，但它们可以对多智能体系统的社会层面行为产生更大的影响。"
+ },
+ {
+  "seg": 141,
+  "start": 994.535,
+  "end": 1008.746,
+  "speaker": "Unknown",
+  "en": "This is also where I kind of want to be careful about our claims here because we believe without repeated current loop results, like I wouldn't say the system just generally improved.",
+  "zh": "这也是我想对我们的主张谨慎一点的地方，因为如果没有重复的当前循环结果，我不会说系统整体上就改进了。"
+ },
+ {
+  "seg": 142,
+  "start": 1009.227,
+  "end": 1023.178,
+  "speaker": "Unknown",
+  "en": "We're trying to say this is the right kind of surface to expose to an auto-research layer loop because it is small enough to control, but it's still rich enough to change the social behavior to some extent at least.",
+  "zh": "我们想说的是，这是暴露给自动研究层循环的正确表面，因为它足够小以便控制，但至少在某种程度上仍然足够丰富，能够改变社会行为。"
+ },
+ {
+  "seg": 143,
+  "start": 1025.364,
+  "end": 1032.07,
+  "speaker": "Unknown",
+  "en": "And the biggest lesson for me, perhaps, was that memory is not enough here.",
+  "zh": "而对我而言，最大的教训也许是，仅有记忆是不够的。"
+ },
+ {
+  "seg": 144,
+  "start": 1032.43,
+  "end": 1041.378,
+  "speaker": "Unknown",
+  "en": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+  "zh": "你可以给一个智能体加上 RAG 记忆，却仍然得不到你想要的长期地平线行为。"
+ },
+ {
+  "seg": 145,
+  "start": 1042.699,
+  "end": 1048.582,
+  "speaker": "Unknown",
+  "en": "Because agents need to sometimes know where that information came from.",
+  "zh": "因为智能体有时需要知道那些信息是从哪来的。"
+ },
+ {
+  "seg": 146,
+  "start": 1048.842,
+  "end": 1053.405,
+  "speaker": "Unknown",
+  "en": "You need to preserve whether it was first-hand, second-hand, verified, or uncertain.",
+  "zh": "你需要保留它是一手的、二手的、经过验证的还是不确定的。"
+ },
+ {
+  "seg": 147,
+  "start": 1053.985,
+  "end": 1064.15,
+  "speaker": "Unknown",
+  "en": "Sometimes you need to separate raw episodic memories from what the agent currently believes, too, and you need to test behavior through scenarios, not just through vibes.",
+  "zh": "有时你还需要把原始的情景记忆与智能体当前相信的东西分开，而且你需要通过场景来测试行为，而不是仅凭感觉。"
+ },
+ {
+  "seg": 148,
+  "start": 1064.65,
+  "end": 1069.852,
+  "speaker": "Unknown",
+  "en": "So the other lesson is that rollback also is not optional.",
+  "zh": "所以另一条教训是，回滚也不是可选项。"
+ },
+ {
+  "seg": 149,
+  "start": 1070.393,
+  "end": 1076.055,
+  "speaker": "Unknown",
+  "en": "When you optimize social behavior, a change can improve one thing and damage another.",
+  "zh": "当你优化社会行为时，一个改动可能改善一件事的同时损害另一件事。"
+ },
+ {
+  "seg": 150,
+  "start": 1076.495,
+  "end": 1082.318,
+  "speaker": "Unknown",
+  "en": "So a policy that spreads public facts faster might also leak private information.",
+  "zh": "所以一个能更快传播公开事实的策略,也可能泄露私人信息。"
+ },
+ {
+  "seg": 151,
+  "start": 1082.778,
+  "end": 1086.66,
+  "speaker": "Unknown",
+  "en": "A policy that increases recall might increase stale memory usage.",
+  "zh": "一个提高召回率的策略,可能会增加陈旧记忆的使用。"
+ },
+ {
+  "seg": 152,
+  "start": 1087.3,
+  "end": 1090.262,
+  "speaker": "Unknown",
+  "en": "So the loop should basically be like a ratchet.",
+  "zh": "所以这个循环基本上应该像一个棘轮。"
+ },
+ {
+  "seg": 153,
+  "start": 1090.763,
+  "end": 1096.707,
+  "speaker": "Unknown",
+  "en": "Try a change, score it, keep it only if the scorecard improves and guardrails whole.",
+  "zh": "尝试一个改动,给它打分,只有当记分卡改善且护栏完好时才保留它。"
+ },
+ {
+  "seg": 154,
+  "start": 1099.87,
+  "end": 1114.28,
+  "speaker": "Unknown",
+  "en": "And we definitely believe this is not only relevant for game agents, because although I gave you an example of using a game village, we believe, like, let's say, for example, support agents.",
+  "zh": "而且我们确信这不仅适用于游戏智能体,因为虽然我给你们举的例子是使用一个游戏村庄,但我们相信,比如说,举个例子,客服智能体。"
+ },
+ {
+  "seg": 155,
+  "start": 1114.34,
+  "end": 1120.244,
+  "speaker": "Unknown",
+  "en": "Support agents need to know which policy update comes from where and whether it supersedes an older answer.",
+  "zh": "客服智能体需要知道哪个策略更新来自哪里,以及它是否取代了旧的答案。"
+ },
+ {
+  "seg": 156,
+  "start": 1120.864,
+  "end": 1125.747,
+  "speaker": "Unknown",
+  "en": "Personal assistants, for example, need to remember commitments that they previously made.",
+  "zh": "比如个人助理,需要记住它们之前做出的承诺。"
+ },
+ {
+  "seg": 157,
+  "start": 1127.368,
+  "end": 1133.27,
+  "speaker": "Unknown",
+  "en": "Make corrections if the user wants to change those personal commitments.",
+  "zh": "只保留那些能通过你的度量的改动。"
+ },
+ {
+  "seg": 158,
+  "start": 1133.83,
+  "end": 1140.513,
+  "speaker": "Unknown",
+  "en": "Research agents need provenance, citations, contradiction handling, and hypothesis updates.",
+  "zh": "研究型智能体需要来源追溯、引用、矛盾处理和假设更新。"
+ },
+ {
+  "seg": 159,
+  "start": 1141.013,
+  "end": 1147.335,
+  "speaker": "Unknown",
+  "en": "Coding agents need long-running context across issues, files, teammates, and changing requirements.",
+  "zh": "编程智能体需要跨议题、文件、团队成员和不断变化的需求的长期运行上下文。"
+ },
+ {
+  "seg": 160,
+  "start": 1147.895,
+  "end": 1152.557,
+  "speaker": "Unknown",
+  "en": "Workflow agents need access controls, handoffs, and replanning when the world changes.",
+  "zh": "工作流智能体需要访问控制、交接,以及当世界发生变化时重新规划。"
+ },
+ {
+  "seg": 161,
+  "start": 1153.297,
+  "end": 1156.838,
+  "speaker": "Unknown",
+  "en": "All of these systems have the same underlying problem.",
+  "zh": "所有这些系统都有同样的底层问题。"
+ },
+ {
+  "seg": 162,
+  "start": 1157.478,
+  "end": 1163.2,
+  "speaker": "Unknown",
+  "en": "They maintain state over time, and that state affects future action.",
+  "zh": "它们随时间维护状态,而这个状态会影响未来的行动。"
+ },
+ {
+  "seg": 163,
+  "start": 1164.48,
+  "end": 1169.842,
+  "speaker": "Unknown",
+  "en": "So, they need control scenarios and behavioral scorecards is what we are proposing.",
+  "zh": "所以,它们需要控制场景和行为记分卡,这就是我们提出的方案。"
+ },
+ {
+  "seg": 164,
+  "start": 1171.557,
+  "end": 1176.341,
+  "speaker": "Unknown",
+  "en": "So, again, in brief, a recipe for long horizon agents.",
+  "zh": "那么,再简要总结一下,这是一份长时程智能体的配方。"
+ },
+ {
+  "seg": 165,
+  "start": 1176.621,
+  "end": 1190.672,
+  "speaker": "Unknown",
+  "en": "If there's one practical recipe I want you to take away, freeze the harness, define scenarios, log traces, score behavior, and expose only a small policy surface.",
+  "zh": "如果有一个实操配方我希望你们带走,那就是:冻结测试框架,定义场景,记录轨迹,给行为打分,并且只暴露一个很小的策略面。"
+ },
+ {
+  "seg": 166,
+  "start": 1191.422,
+  "end": 1192.843,
+  "speaker": "Unknown",
+  "en": "Search over these changes.",
+  "zh": "在这些改动上进行搜索。"
+ },
+ {
+  "seg": 167,
+  "start": 1193.143,
+  "end": 1196.225,
+  "speaker": "Unknown",
+  "en": "Keep only changes that survive your measurement.",
+  "zh": "只保留那些在你的度量下站得住脚的改动。"
+ },
+ {
+  "seg": 168,
+  "start": 1197.005,
+  "end": 1201.948,
+  "speaker": "Unknown",
+  "en": "And this is an engineering pattern that we believe would make sense.",
+  "zh": "而且我们相信这是一个说得通的工程模式。"
+ },
+ {
+  "seg": 169,
+  "start": 1202.528,
+  "end": 1210.173,
+  "speaker": "Unknown",
+  "en": "For long-running agents, the real question we believe is, across controlled runs, does the system behave better?",
+  "zh": "对于长期运行的智能体,我们相信真正的问题是:在受控运行中,这个系统的表现是否变好了?"
+ },
+ {
+  "seg": 170,
+  "start": 1213.13,
+  "end": 1223.618,
+  "speaker": "Unknown",
+  "en": "To close, Project Paradox started as an attempt to make game agents feel alive in a 3D world, but the deeper engineering problem was not animation or dialogue for us.",
+  "zh": "最后,Project Paradox 一开始是想让游戏智能体在 3D 世界中显得有生命感,但对我们来说更深层的工程问题并不是动画或对话。"
+ },
+ {
+  "seg": 171,
+  "start": 1224.238,
+  "end": 1226.34,
+  "speaker": "Unknown",
+  "en": "It was the state, such as...",
+  "zh": "而是状态,比如……"
+ },
+ {
+  "seg": 172,
+  "start": 1226.988,
+  "end": 1228.369,
+  "speaker": "Unknown",
+  "en": "Which agent knows what?",
+  "zh": "哪个智能体知道什么?"
+ },
+ {
+  "seg": 173,
+  "start": 1228.609,
+  "end": 1230.471,
+  "speaker": "Unknown",
+  "en": "Which agent told whom?",
+  "zh": "哪个智能体告诉了谁?"
+ },
+ {
+  "seg": 174,
+  "start": 1231.231,
+  "end": 1233.313,
+  "speaker": "Unknown",
+  "en": "What is true, uncertain, or outdated?",
+  "zh": "什么是真实的、不确定的、或过时的?"
+ },
+ {
+  "seg": 175,
+  "start": 1233.453,
+  "end": 1235.654,
+  "speaker": "Unknown",
+  "en": "And do agents act on what they remember?",
+  "zh": "以及智能体是否根据它们记住的内容行动?"
+ },
+ {
+  "seg": 176,
+  "start": 1235.674,
+  "end": 1252.866,
+  "speaker": "Unknown",
+  "en": "Autor research gave us a way to approach this a bit more systematically, not by trusting one demo and not by endlessly hand-tuning prompts, but by running control experiments and keeping only the changes that survived our measurement.",
+  "zh": "Autor 研究给了我们一种更系统化地处理这个问题的方式,不是依赖单次演示,也不是无休止地手工调提示词,而是运行对照实验,只保留那些通过了我们度量的改动。"
+ },
+ {
+  "seg": 177,
+  "start": 1253.767,
+  "end": 1260.488,
+  "speaker": "Unknown",
+  "en": "Long horizon agents need experiments and not just prompts, and I hope that's the takeaway that you get from this talk.",
+  "zh": "长时程智能体需要实验,而不只是提示词,我希望这是你们从这次演讲中得到的收获。"
+ },
+ {
+  "seg": 178,
+  "start": 1261.408,
+  "end": 1263.709,
+  "speaker": "Unknown",
+  "en": "And yes, please do connect with us.",
+  "zh": "是的,请和我们联系。"
+ },
+ {
+  "seg": 179,
+  "start": 1263.829,
+  "end": 1266.369,
+  "speaker": "Unknown",
+  "en": "We'd love to talk if you have any questions.",
+  "zh": "如果你们有任何问题,我们很乐意聊聊。"
+ },
+ {
+  "seg": 180,
+  "start": 1266.489,
+  "end": 1268.07,
+  "speaker": "Unknown",
+  "en": "Thank you so much for listening.",
+  "zh": "非常感谢大家的聆听。"
+ }
+]

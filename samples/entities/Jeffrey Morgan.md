@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":46,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":22,"智能体":358,"推理":61}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":46,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":22,"编码智能体":22,"智能体":361,"推理":61}</script>
 
 <script>
 (function(){

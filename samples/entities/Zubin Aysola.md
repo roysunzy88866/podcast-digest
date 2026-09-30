@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Roland Gavrilescu]] [[Parag Agrawal]] [[Han Mei]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Erina Karati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Weights and Biases":1,"ARIA":1,"Weave":1,"智能体":358,"评估":3,"轨迹":4,"沙箱":65,"可观测性":34,"爬坡":2,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Weights and Biases":1,"ARIA":1,"Weave":1,"智能体":361,"评估":3,"轨迹":4,"沙箱":66,"可观测性":34,"爬坡":2,"强化学习":1}</script>
 
 <script>
 (function(){

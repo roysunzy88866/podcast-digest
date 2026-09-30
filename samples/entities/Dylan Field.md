@@ -46,7 +46,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 

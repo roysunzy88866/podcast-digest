@@ -61,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Amazon]] · [[Stripe]] · [[Google]] · [[Perplexity]] · [[SaaS]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"智能体":358,"OpenAI":140,"ChatGPT":83,"Anthropic":153,"Amazon":18,"Stripe":39,"Google":50,"Perplexity":8,"SaaS":18,"Uber":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":361,"OpenAI":140,"ChatGPT":83,"Anthropic":153,"Amazon":18,"Stripe":39,"Google":50,"Perplexity":8,"SaaS":18,"Uber":14}</script>
 
 <script>
 (function(){

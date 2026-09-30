@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":6,"OpenAI":140,"Stripe":39,"Astra":4,"ChatGPT":83,"Codex":63,"AGI":26,"计算机使用":14,"对齐":11,"沙箱":65}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":6,"OpenAI":140,"Stripe":39,"Astra":4,"ChatGPT":83,"Codex":65,"AGI":26,"计算机使用":14,"对齐":11,"沙箱":66}</script>
 
 <script>
 (function(){

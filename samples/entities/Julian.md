@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":61,"专用推理":1,"开源模型":22,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":72,"Decagon":8}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":61,"专用推理":1,"开源模型":22,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":73,"Decagon":8}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":3,"Replit":17,"vibe coding":41,"机器学习":4,"微调":24,"AGI":26,"ChatGPT":83,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":3,"Replit":17,"vibe coding":42,"机器学习":4,"微调":24,"AGI":26,"ChatGPT":83,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
 
 <script>
 (function(){

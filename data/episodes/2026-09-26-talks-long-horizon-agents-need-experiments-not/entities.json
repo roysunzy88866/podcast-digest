@@ -1,0 +1,892 @@
+{
+  "episode_id": "2026-09-26-talks-long-horizon-agents-need-experiments-not",
+  "podcast": "精选演讲",
+  "date": "2026-09-26",
+  "tags": [
+    "智能体",
+    "智能体评估",
+    "多智能体系统",
+    "自动研究",
+    "游戏 AI"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "erina-karati",
+      "type": "person",
+      "role": "guest",
+      "name": "Erina Karati",
+      "file": "Erina Karati",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "supercell",
+      "type": "company",
+      "role": "company",
+      "name": "Supercell",
+      "file": "Supercell",
+      "primary": true,
+      "how_described": "本集说 Project Paradox 是在 Supercell 的 AI Innovation Lab 里由演讲者和队友开发的;演讲者曾任 Supercell 工程师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.07,
+            23.173
+          ],
+          "quote": "I'm Irina, former engineer at Microsoft and Supercell, and today I want to talk about auto research in a multi-agent AI village.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            50.002,
+            54.268
+          ],
+          "quote": "We developed Project Paradox at Supercell's AI Innovation Lab.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "project-paradox",
+      "type": "concept",
+      "role": "concept",
+      "name": "Project Paradox",
+      "file": "Project Paradox",
+      "primary": true,
+      "how_described": "本集说它是一个模块化 AI 框架,让开发者能把自主智能体插进视频游戏,与玩家和其他智能体互动、竞争、合作;其架构刻意有状态:独立 RAG 记忆、情绪向量、信念分数、记忆重要分数",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            43.672,
+            48.84
+          ],
+          "quote": "Before I get into the auto-research layer, I want to talk a bit about Project Paradox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            50.002,
+            54.268
+          ],
+          "quote": "We developed Project Paradox at Supercell's AI Innovation Lab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            448.349,
+            453.151
+          ],
+          "quote": "And this is where we're trying to bridge project paradox with auto research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            453.731,
+            464.294
+          ],
+          "quote": "So at this point, basically, our multi-agency framework project paradox is more like a lab bench, and auto-research becomes the experimental loop around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            904.721,
+            917.788
+          ],
+          "quote": "In Project Paradox, for us, that meant things like memory writing policy, retrieval policy, communication prompt, belief, trust rules, source attribution, planning triggers, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1213.13,
+            1223.618
+          ],
+          "quote": "To close, Project Paradox started as an attempt to make game agents feel alive in a 3D world, but the deeper engineering problem was not animation or dialogue for us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线问题:如何评估和改进长时间携带状态的智能体;游戏智能体只是例子,客服、个人助理、研究、编程等智能体都随时间维护状态并需要受控场景与行为记分卡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.07,
+            23.173
+          ],
+          "quote": "I'm Irina, former engineer at Microsoft and Supercell, and today I want to talk about auto research in a multi-agent AI village.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            182.507,
+            186.328
+          ],
+          "quote": "The first important part was per-agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            187.168,
+            195.07
+          ],
+          "quote": "Each agent has its own memory namespace backed by RAG, so memory did not bleed between agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            248.015,
+            266.47
+          ],
+          "quote": "So the agent will evaluate or the LM will evaluate an important score of an event, and if it crosses a threshold, it will store that specific memory in a separate cache so that important context can be retrieved better later on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            336.242,
+            343.164
+          ],
+          "quote": "So in this example, we have one agent spreading a rumor about a sale on mangoes to another agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            343.724,
+            348.966
+          ],
+          "quote": "And that agent receives that information and goes and tells another agent about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            380.728,
+            383.069
+          ],
+          "quote": "Like, the agent might state it as a fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            384.009,
+            391.891
+          ],
+          "quote": "Or an agent might know a fact but fail to remember it while creating a plan for its actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            470.316,
+            483.24
+          ],
+          "quote": "The broader framing is optimizing the agent protocol, like how do agents write memories, retrieve them, communicate uncertainty, update trust, attribute sources, and replan around",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            496.057,
+            501.199
+          ],
+          "quote": "In this context, art research is not another agent in the village, like I said.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            539.6,
+            543.024
+          ],
+          "quote": "Change to the agent protocol or cognitive policy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            571.458,
+            577.004
+          ],
+          "quote": "For example, one agent learns a public fact or one agent hears a rumor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            601.817,
+            607.379
+          ],
+          "quote": "Did the source attribution survive, such as does the agent remember who started the rumor?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            681.118,
+            685.843
+          ],
+          "quote": "Let's say agent A learns the bakery will close tomorrow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            700.417,
+            704.898
+          ],
+          "quote": "Let's say Agent A hears that Agent C might leave the village.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            723.374,
+            730.083
+          ],
+          "quote": "The group has a plan, but one agent learns, let's say, the route they wanted to take is blocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            745.054,
+            752.817
+          ],
+          "quote": "The point we're trying to make is that long-horizon agent behavior needs scenario suits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            763.823,
+            780.235
+          ],
+          "quote": "A long period of time when the player finally asked one of the agents about the sale on mangos, we did find that the agent was able to respond within context this time, like compared to last time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            794.325,
+            799.526
+          ],
+          "quote": "You do not want a single vague metric like agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            857.92,
+            869.582
+          ],
+          "quote": "So, this scorecard is what keeps the system honest and prevents the auto-research agent from gamifying the system to just increase one specific score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            982.482,
+            993.65
+          ],
+          "quote": "The key is that these are small changes to the agent protocol, but they can have larger effects on a society-level behavior for multi-agentic systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1032.43,
+            1041.378
+          ],
+          "quote": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1053.985,
+            1064.15
+          ],
+          "quote": "Sometimes you need to separate raw episodic memories from what the agent currently believes, too, and you need to test behavior through scenarios, not just through vibes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1226.988,
+            1228.369
+          ],
+          "quote": "Which agent knows what?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1228.609,
+            1230.471
+          ],
+          "quote": "Which agent told whom?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说多智能体框架像 AI 村庄,村民只有局部视角、无共享记忆库,信息靠彼此正确传达才传播;问题是如何改进其长期社会行为而非一次响应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.07,
+            23.173
+          ],
+          "quote": "I'm Irina, former engineer at Microsoft and Supercell, and today I want to talk about auto research in a multi-agent AI village.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说每个智能体有独立的 RAG 支撑记忆命名空间、记忆会收到重要分数;但最大教训是仅有记忆不够——还需来源保留、区分原始记忆与当前信念",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            151.633,
+            162.079
+          ],
+          "quote": "And of course, these conversations are stored within their memory and is according to their own and affect their own emotions and beliefs or goals as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            182.507,
+            186.328
+          ],
+          "quote": "The first important part was per-agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            187.168,
+            195.07
+          ],
+          "quote": "Each agent has its own memory namespace backed by RAG, so memory did not bleed between agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            228.991,
+            233.152
+          ],
+          "quote": "And fourth, every memory receives an important score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            248.015,
+            266.47
+          ],
+          "quote": "So the agent will evaluate or the LM will evaluate an important score of an event, and if it crosses a threshold, it will store that specific memory in a separate cache so that important context can be retrieved better later on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            513.284,
+            522.668
+          ],
+          "quote": "Because there isn't a common memory database in between them, information only travels once other agents communicate them properly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            582.791,
+            590.874
+          ],
+          "quote": "During the run, we collect structured traces, observations, conversations, memory writes, retrievals, belief updates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            837.063,
+            857.099
+          ],
+          "quote": "This matters because optimizing only one metric can create bad behavior, because let's say if you only optimize for diffusion, the agents may learn to overshare everything, and let's say if you only optimize for memory recall, you might create noisy or stale-like memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            904.721,
+            917.788
+          ],
+          "quote": "In Project Paradox, for us, that meant things like memory writing policy, retrieval policy, communication prompt, belief, trust rules, source attribution, planning triggers, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            948.402,
+            958.567
+          ],
+          "quote": "If source attribution disappears, the policy change might preserve source in memory rights and summaries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            1025.364,
+            1032.07
+          ],
+          "quote": "And the biggest lesson for me, perhaps, was that memory is not enough here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1032.43,
+            1041.378
+          ],
+          "quote": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1082.778,
+            1086.66
+          ],
+          "quote": "A policy that increases recall might increase stale memory usage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说智能体的记忆命名空间由 RAG 支撑,但加 RAG 记忆仍得不到想要的长期行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            187.168,
+            195.07
+          ],
+          "quote": "Each agent has its own memory namespace backed by RAG, so memory did not bleed between agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            465.315,
+            469.816
+          ],
+          "quote": "And importantly, this is not only about improving RAG retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1032.43,
+            1041.378
+          ],
+          "quote": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-research",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动研究 (auto-research)",
+      "file": "自动研究",
+      "primary": true,
+      "how_described": "本集说灵感来自 Karpathy 的帖子:让系统在自身上跑实验——定义场景、运行智能体、收集轨迹、打分、只保留提分改动;它是村庄之外的元系统而非又一个智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.07,
+            23.173
+          ],
+          "quote": "I'm Irina, former engineer at Microsoft and Supercell, and today I want to talk about auto research in a multi-agent AI village.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            43.672,
+            48.84
+          ],
+          "quote": "Before I get into the auto-research layer, I want to talk a bit about Project Paradox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            404.154,
+            408.195
+          ],
+          "quote": "And this is where we wanted to bring in auto-research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            408.335,
+            417.878
+          ],
+          "quote": "As you all know, a few months ago, Karpathy posted auto-research, and this made us immediately very curious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            448.349,
+            453.151
+          ],
+          "quote": "And this is where we're trying to bridge project paradox with auto research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            453.731,
+            464.294
+          ],
+          "quote": "So at this point, basically, our multi-agency framework project paradox is more like a lab bench, and auto-research becomes the experimental loop around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            523.934,
+            526.535
+          ],
+          "quote": "The auto research layer has a different job here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            614.705,
+            619.507
+          ],
+          "quote": "And then the auto-research layer here proposes a small policy change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            752.837,
+            760.759
+          ],
+          "quote": "And talking about our Mango example again, after running one of our auto-research loops, this time after",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            857.92,
+            869.582
+          ],
+          "quote": "So, this scorecard is what keeps the system honest and prevents the auto-research agent from gamifying the system to just increase one specific score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            884.828,
+            890.592
+          ],
+          "quote": "The auto-research layer should not have permission to randomly rewrite the whole code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            1009.227,
+            1023.178
+          ],
+          "quote": "We're trying to say this is the right kind of surface to expose to an auto-research layer loop because it is small enough to control, but it's still rich enough to change the social behavior to some extent at least.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体协议 (agent protocol)",
+      "file": "智能体协议",
+      "primary": true,
+      "how_described": "本集说要优化的不只是 RAG 检索,而是智能体协议:如何写记忆、检索、传达不确定性、更新信任、归因来源、围绕新事实重新规划;小改动可在社会层面产生大影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            470.316,
+            483.24
+          ],
+          "quote": "The broader framing is optimizing the agent protocol, like how do agents write memories, retrieve them, communicate uncertainty, update trust, attribute sources, and replan around",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            539.6,
+            543.024
+          ],
+          "quote": "Change to the agent protocol or cognitive policy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            982.482,
+            993.65
+          ],
+          "quote": "The key is that these are small changes to the agent protocol, but they can have larger effects on a society-level behavior for multi-agentic systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scenario",
+      "type": "concept",
+      "role": "concept",
+      "name": "场景 (scenario)",
+      "file": "场景",
+      "primary": true,
+      "how_described": "本集说长程智能体行为需要成套的受控场景(公共事实扩散、谣言不确定性、重新规划),只让智能体游荡凭感觉是评不出改进的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            141.747,
+            148.171
+          ],
+          "quote": "Agents can, in this scenario, approach other agents or even the player as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            427.5,
+            447.749
+          ],
+          "quote": "So what we understood is instead of manually tuning a prompt or watching one nice demo, we could define a scenario suit, run the agents, collect traces, score the behavior, and change a small policy surface and only keep the changes that actually improve the score.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            526.875,
+            538.059
+          ],
+          "quote": "It reads the full traces of a run, compares what happens against the scenario ground truth, scores the behavior, and proposes a constrained",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            543.685,
+            549.911
+          ],
+          "quote": "Then it reruns the scenario and asks society-level behavior, like, did society-level behavior get better?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            566.092,
+            570.977
+          ],
+          "quote": "First, we define a controlled scenario, which I'll elaborate a bit more about later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            578.046,
+            580.048
+          ],
+          "quote": "That could be a controlled scenario.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            643.27,
+            655.961
+          ],
+          "quote": "And talking about controlled scenarios, the reason why scenario design matters is that social behavior is otherwise a bit fuzzy in general.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            676.695,
+            680.778
+          ],
+          "quote": "For example, one scenario could test a public fact diffusion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            695.633,
+            698.856
+          ],
+          "quote": "Another scenario could test rumor uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            719.87,
+            722.413
+          ],
+          "quote": "Another scenario could test replanning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            745.054,
+            752.817
+          ],
+          "quote": "The point we're trying to make is that long-horizon agent behavior needs scenario suits.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说自动研究循环要像棘轮:只有记分卡改善且护栏完好才保留改动,否则回退",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            631.793,
+            637.156
+          ],
+          "quote": "If the score improves and the guardrails hold, we keep the improvement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1090.763,
+            1096.707
+          ],
+          "quote": "Try a change, score it, keep it only if the scorecard improves and guardrails whole.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rollback",
+      "type": "concept",
+      "role": "concept",
+      "name": "回滚 (rollback)",
+      "file": "回滚",
+      "primary": false,
+      "how_described": "本集说回滚不是可选项——一个改动可能改善一件事的同时损害另一件事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            1064.65,
+            1069.852
+          ],
+          "quote": "So the other lesson is that rollback also is not optional.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "karpathy",
+      "type": "concept",
+      "role": "concept",
+      "name": "Karpathy",
+      "file": "Karpathy",
+      "primary": false,
+      "how_described": "本集提到几个月前 Karpathy 发了关于自动研究的帖子,这让他们立刻产生了兴趣(仅作为灵感来源带过)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            408.335,
+            417.878
+          ],
+          "quote": "As you all know, a few months ago, Karpathy posted auto-research, and this made us immediately very curious.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

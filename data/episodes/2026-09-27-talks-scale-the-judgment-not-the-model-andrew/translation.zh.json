@@ -1,0 +1,1986 @@
+[
+ {
+  "seg": 0,
+  "start": 12.916,
+  "end": 19.758,
+  "speaker": "Unknown",
+  "en": "A friend told me about an engineer at another company who ran a recurring war room just to delete dead experiments.",
+  "zh": "一位朋友跟我讲过另一家公司的一位工程师,他定期开一个“作战室”会议,专门用来删除死掉的功能实验。"
+ },
+ {
+  "seg": 1,
+  "start": 20.958,
+  "end": 28.001,
+  "speaker": "Unknown",
+  "en": "Every two weeks, the team would stop, gather, and clean up flags that everyone agreed should be gone.",
+  "zh": "每两周,团队会停下来,聚在一起,清理那些所有人都同意应该删掉的开关。"
+ },
+ {
+  "seg": 2,
+  "start": 29.001,
+  "end": 31.241,
+  "speaker": "Unknown",
+  "en": "That's the best case version of this problem.",
+  "zh": "这是这个问题最好的版本了。"
+ },
+ {
+  "seg": 3,
+  "start": 31.982,
+  "end": 36.323,
+  "speaker": "Unknown",
+  "en": "Someone burning political capital to make maintenance happen by hand.",
+  "zh": "有人 burning 政治资本,靠手工让维护得以发生。"
+ },
+ {
+  "seg": 4,
+  "start": 37.303,
+  "end": 39.584,
+  "speaker": "Unknown",
+  "en": "That's the part that I still can't get past.",
+  "zh": "这就是我至今仍然无法释怀的部分。"
+ },
+ {
+  "seg": 5,
+  "start": 42.242,
+  "end": 45.505,
+  "speaker": "Unknown",
+  "en": "My name is Andrew Robitor and I'm an Android engineer at Reddit.",
+  "zh": "我叫 Andrew Robitor,是 Reddit 的 Android 工程师。"
+ },
+ {
+  "seg": 6,
+  "start": 46.346,
+  "end": 51.951,
+  "speaker": "Unknown",
+  "en": "This is a talk about what's actually stopping us as an industry from scaling that work responsibly.",
+  "zh": "这是一个关于作为行业我们究竟被什么阻止了、无法负责任地扩展这项工作的演讲。"
+ },
+ {
+  "seg": 7,
+  "start": 52.672,
+  "end": 54.433,
+  "speaker": "Unknown",
+  "en": "Spin at the gate until green.",
+  "zh": "在闸门处旋转,直到变绿。"
+ },
+ {
+  "seg": 8,
+  "start": 55.074,
+  "end": 58.097,
+  "speaker": "Unknown",
+  "en": "The engineering primitives behind self-driving code bases.",
+  "zh": "自动驾驶代码库背后的工程原语。"
+ },
+ {
+  "seg": 9,
+  "start": 59.808,
+  "end": 61.629,
+  "speaker": "Unknown",
+  "en": "First, what I'm not going to do.",
+  "zh": "首先,我不会做什么。"
+ },
+ {
+  "seg": 10,
+  "start": 62.37,
+  "end": 65.613,
+  "speaker": "Unknown",
+  "en": "I'm not going to stand up here and tell you that AI can write code.",
+  "zh": "我不会站在这里告诉你们 AI 能写代码。"
+ },
+ {
+  "seg": 11,
+  "start": 66.153,
+  "end": 68.015,
+  "speaker": "Unknown",
+  "en": "You're at the AI Engineer World's Fair.",
+  "zh": "你们可是在 AI Engineer 世界博览会上。"
+ },
+ {
+  "seg": 12,
+  "start": 68.655,
+  "end": 70.577,
+  "speaker": "Unknown",
+  "en": "Half of you are running coding agents right now.",
+  "zh": "你们中有一半人现在正运行着编码智能体。"
+ },
+ {
+  "seg": 13,
+  "start": 71.317,
+  "end": 76.561,
+  "speaker": "Unknown",
+  "en": "So let's skip the part where I sell you on AI writing code because you laughed me out of the room.",
+  "zh": "所以我们跳过我向你们推销 AI 写代码的部分,不然你们会把我笑出会场。"
+ },
+ {
+  "seg": 14,
+  "start": 77.382,
+  "end": 80.204,
+  "speaker": "Unknown",
+  "en": "For me, my only input is the chat box.",
+  "zh": "对我来说,我唯一的输入就是聊天框。"
+ },
+ {
+  "seg": 15,
+  "start": 80.865,
+  "end": 84.107,
+  "speaker": "Unknown",
+  "en": "I describe, it builds, I review.",
+  "zh": "我描述,它构建,我审查。"
+ },
+ {
+  "seg": 16,
+  "start": 84.728,
+  "end": 85.569,
+  "speaker": "Unknown",
+  "en": "Your mileage may vary.",
+  "zh": "你的体验可能不同。"
+ },
+ {
+  "seg": 17,
+  "start": 86.589,
+  "end": 89.21,
+  "speaker": "Unknown",
+  "en": "The point was never how the code gets written.",
+  "zh": "重点从来不是代码是怎么写出来的。"
+ },
+ {
+  "seg": 18,
+  "start": 89.95,
+  "end": 95.113,
+  "speaker": "Unknown",
+  "en": "It's about whether you ship good software, a product that people can actually trust.",
+  "zh": "重点是你能否交付好的软件,一个人们真正能够信任的产品。"
+ },
+ {
+  "seg": 19,
+  "start": 96.333,
+  "end": 99.234,
+  "speaker": "Unknown",
+  "en": "And every gate in that system is a human's call.",
+  "zh": "而那个系统里的每一道闸门都是人的决定。"
+ },
+ {
+  "seg": 20,
+  "start": 101.255,
+  "end": 102.236,
+  "speaker": "Unknown",
+  "en": "I've watched this everywhere.",
+  "zh": "我到处都见过这种事。"
+ },
+ {
+  "seg": 21,
+  "start": 103.096,
+  "end": 110.379,
+  "speaker": "Unknown",
+  "en": "You've got your own version of it, the war room that I opened with, someone burning a week of hackathon freedom on lint cleanup,",
+  "zh": "你们都有自己版本的故事,比如我开头讲的那个作战室,有人在 hackathon 自由时间里花一整周做 lint 清理,"
+ },
+ {
+  "seg": 22,
+  "start": 112.164,
+  "end": 120.286,
+  "speaker": "Unknown",
+  "en": "As an industry, we've built tooling that can change the shape of the work and we still spend our scarcest resource on work like this by hand.",
+  "zh": "作为一个行业,我们已经构建出了能够改变工作形态的工具,而我们仍然把最稀缺的资源手工花在这类工作上。"
+ },
+ {
+  "seg": 23,
+  "start": 121.286,
+  "end": 125.227,
+  "speaker": "Unknown",
+  "en": "Human creativity, human attention, wasted.",
+  "zh": "人类的创造力、人类的注意力,被浪费了。"
+ },
+ {
+  "seg": 24,
+  "start": 126.547,
+  "end": 129.147,
+  "speaker": "Unknown",
+  "en": "The job changed and most of us didn't even notice.",
+  "zh": "工作变了,而我们大多数人甚至没有注意到。"
+ },
+ {
+  "seg": 25,
+  "start": 129.968,
+  "end": 131.248,
+  "speaker": "Unknown",
+  "en": "We're harness engineers now.",
+  "zh": "我们现在是 harness 工程师了。"
+ },
+ {
+  "seg": 26,
+  "start": 132.088,
+  "end": 136.269,
+  "speaker": "Unknown",
+  "en": "Our work is the system that helps produce and verify the code.",
+  "zh": "我们的工作就是那个帮助生产和验证代码的系统。"
+ },
+ {
+  "seg": 27,
+  "start": 137.129,
+  "end": 141.79,
+  "speaker": "Unknown",
+  "en": "The constraints, the gates, the skills, the verification,",
+  "zh": "约束、闸门、技能、验证,"
+ },
+ {
+  "seg": 28,
+  "start": 144.008,
+  "end": 145.589,
+  "speaker": "Unknown",
+  "en": "Think about how you got good for a second.",
+  "zh": "想一秒,你是怎么变强的。"
+ },
+ {
+  "seg": 29,
+  "start": 146.49,
+  "end": 157.278,
+  "speaker": "Unknown",
+  "en": "Mentorship, code review, the water cooler chats, the incident that paged you at 3 a.m. You absorbed all of it without noticing, just by being there.",
+  "zh": "导师指导、代码评审、茶水间闲聊、凌晨 3 点把你 call 醒的事故。你在不知不觉中吸收了这一切,仅仅因为你在那里。"
+ },
+ {
+  "seg": 30,
+  "start": 158.379,
+  "end": 161.161,
+  "speaker": "Unknown",
+  "en": "Humans absorb judgment implicitly.",
+  "zh": "人类是隐式地吸收判断力的。"
+ },
+ {
+  "seg": 31,
+  "start": 161.902,
+  "end": 164.344,
+  "speaker": "Unknown",
+  "en": "Agents require judgment explicitly.",
+  "zh": "智能体则需要判断力被显式化。"
+ },
+ {
+  "seg": 32,
+  "start": 165.945,
+  "end": 170.269,
+  "speaker": "Unknown",
+  "en": "The agent boots with a blank context window and no memory every session.",
+  "zh": "智能体每次会话启动时,上下文窗口都是空白的,没有任何记忆。"
+ },
+ {
+  "seg": 33,
+  "start": 171.348,
+  "end": 178.29,
+  "speaker": "Unknown",
+  "en": "Every piece of judgment you picked up by osmosis, it has to be made explicit, or the agent simply never has it.",
+  "zh": "你通过耳濡目染学到的每一点判断力,都必须被显式化,否则智能体就完全没有它。"
+ },
+ {
+  "seg": 34,
+  "start": 180.931,
+  "end": 181.391,
+  "speaker": "Unknown",
+  "en": "Quick test.",
+  "zh": "一个快速测试。"
+ },
+ {
+  "seg": 35,
+  "start": 182.532,
+  "end": 183.912,
+  "speaker": "Unknown",
+  "en": "Swap in a smarter model.",
+  "zh": "换上一个更聪明的模型。"
+ },
+ {
+  "seg": 36,
+  "start": 184.493,
+  "end": 185.553,
+  "speaker": "Unknown",
+  "en": "You get a slightly better answer.",
+  "zh": "你会得到稍微好一点的答案。"
+ },
+ {
+  "seg": 37,
+  "start": 186.513,
+  "end": 191.515,
+  "speaker": "Unknown",
+  "en": "Now take away the tests, the gates, the review, and the whole thing falls over.",
+  "zh": "现在拿走测试、闸门、评审,整个东西就垮了。"
+ },
+ {
+  "seg": 38,
+  "start": 192.555,
+  "end": 194.736,
+  "speaker": "Unknown",
+  "en": "So the model was never really the bottleneck.",
+  "zh": "所以模型从来都不是真正的瓶颈。"
+ },
+ {
+  "seg": 39,
+  "start": 195.336,
+  "end": 197.277,
+  "speaker": "Unknown",
+  "en": "The judgment around the model is.",
+  "zh": "围绕模型的判断力才是。"
+ },
+ {
+  "seg": 40,
+  "start": 198.727,
+  "end": 203.47,
+  "speaker": "Unknown",
+  "en": "The model is raw talent, while the judgment is the organization.",
+  "zh": "模型是原始天赋,而判断力是组织。"
+ },
+ {
+  "seg": 41,
+  "start": 206.732,
+  "end": 208.313,
+  "speaker": "Unknown",
+  "en": "And this judgment already exists.",
+  "zh": "而这种判断力已经存在。"
+ },
+ {
+  "seg": 42,
+  "start": 209.094,
+  "end": 214.017,
+  "speaker": "Unknown",
+  "en": "It lives in scars, in postmortems, in your most experienced reviewers.",
+  "zh": "它存在于伤疤里,存在于复盘里,存在于你最有经验的评审者身上。"
+ },
+ {
+  "seg": 43,
+  "start": 214.837,
+  "end": 218.24,
+  "speaker": "Unknown",
+  "en": "It just doesn't scale because it's trapped in one head.",
+  "zh": "它只是无法扩展,因为它被困在一个脑袋里。"
+ },
+ {
+  "seg": 44,
+  "start": 219.14,
+  "end": 227.846,
+  "speaker": "Unknown",
+  "en": "So step one is making it accessible to the whole org, where one reviewer's taste can guide a thousand changes they'll never touch.",
+  "zh": "所以第一步是让它对整个组织可访问,让一个评审者的品味能够引导一千个他们永远不会亲手碰到的变更。"
+ },
+ {
+  "seg": 45,
+  "start": 230.545,
+  "end": 236.788,
+  "speaker": "Unknown",
+  "en": "Ask experience engineers to clean up a feature flag, and they're gonna think about a whole string of questions first.",
+  "zh": "让有经验的工程师去清理一个 feature flag,他们会先想到一连串的问题。"
+ },
+ {
+  "seg": 46,
+  "start": 237.648,
+  "end": 239.369,
+  "speaker": "Unknown",
+  "en": "A flag is never just a flag.",
+  "zh": "一个 flag 从来不只是一个 flag。"
+ },
+ {
+  "seg": 47,
+  "start": 240.189,
+  "end": 241.13,
+  "speaker": "Unknown",
+  "en": "Is the rollout frozen?",
+  "zh": "rollout 是否被冻结了?"
+ },
+ {
+  "seg": 48,
+  "start": 241.75,
+  "end": 243.01,
+  "speaker": "Unknown",
+  "en": "What about the flag right next to it?",
+  "zh": "紧挨着它的那个 flag 呢?"
+ },
+ {
+  "seg": 49,
+  "start": 243.851,
+  "end": 244.711,
+  "speaker": "Unknown",
+  "en": "Which team owns it?",
+  "zh": "哪个团队拥有它?"
+ },
+ {
+  "seg": 50,
+  "start": 246.112,
+  "end": 251.014,
+  "speaker": "Unknown",
+  "en": "That bundle of questions is judgment, and it's the most valuable thing in the building.",
+  "zh": "这一堆问题就是判断力,而它是这栋楼里最值钱的东西。"
+ },
+ {
+  "seg": 51,
+  "start": 252.074,
+  "end": 253.475,
+  "speaker": "Unknown",
+  "en": "Right now, it's trapped.",
+  "zh": "现在它被困住了。"
+ },
+ {
+  "seg": 52,
+  "start": 254.475,
+  "end": 257.557,
+  "speaker": "Unknown",
+  "en": "It surfaces once in a code review, then it's gone.",
+  "zh": "它只在一次代码评审中浮现,然后就消失了。"
+ },
+ {
+  "seg": 53,
+  "start": 258.397,
+  "end": 260.838,
+  "speaker": "Unknown",
+  "en": "And the next person relearns it the hard way.",
+  "zh": "下一个人只能用惨痛的方式重新学一遍。"
+ },
+ {
+  "seg": 54,
+  "start": 262.158,
+  "end": 266.219,
+  "speaker": "Unknown",
+  "en": "A skill is institutional judgment made executable.",
+  "zh": "一个 skill 就是把机构判断力变成可执行的东西。"
+ },
+ {
+  "seg": 55,
+  "start": 267.039,
+  "end": 271.921,
+  "speaker": "Unknown",
+  "en": "It's that bundle written down so that the agent re-fires it instead of guessing.",
+  "zh": "它就是把那一堆问题写下来,让智能体重新触发它,而不是瞎猜。"
+ },
+ {
+  "seg": 56,
+  "start": 272.861,
+  "end": 276.822,
+  "speaker": "Unknown",
+  "en": "A newer engineer can work with 10-year instincts at their elbow.",
+  "zh": "一个资历较浅的工程师可以有 10 年经验的本能随时在手边。"
+ },
+ {
+  "seg": 57,
+  "start": 278.242,
+  "end": 283.967,
+  "speaker": "Unknown",
+  "en": "In 1986, Marvin Minsky named this a knowledge line or a K line for short.",
+  "zh": "1986 年,Marvin Minsky 把这个命名为知识线,简称 K 线。"
+ },
+ {
+  "seg": 58,
+  "start": 284.627,
+  "end": 289.711,
+  "speaker": "Unknown",
+  "en": "It's the configuration of mind that solved a problem reused on the next one.",
+  "zh": "它就是解决过某个问题的心智配置,在下一次被复用。"
+ },
+ {
+  "seg": 59,
+  "start": 290.471,
+  "end": 293.414,
+  "speaker": "Unknown",
+  "en": "So a skill is a K line for a code base.",
+  "zh": "所以一个 skill 就是针对一个代码库的 K 线。"
+ },
+ {
+  "seg": 60,
+  "start": 295.135,
+  "end": 297.357,
+  "speaker": "Unknown",
+  "en": "And skills aren't documentation.",
+  "zh": "而 skill 不是文档。"
+ },
+ {
+  "seg": 61,
+  "start": 298.197,
+  "end": 299.859,
+  "speaker": "Unknown",
+  "en": "Agents drown in facts.",
+  "zh": "智能体会被事实淹没。"
+ },
+ {
+  "seg": 62,
+  "start": 300.559,
+  "end": 305.503,
+  "speaker": "Unknown",
+  "en": "What they lack is which facts matter and which decisions are dangerous.",
+  "zh": "它们缺的是哪些事实重要、哪些决策危险。"
+ },
+ {
+  "seg": 63,
+  "start": 306.575,
+  "end": 311.037,
+  "speaker": "Unknown",
+  "en": "Documentation preserves facts, while skills preserve judgment.",
+  "zh": "文档保存事实,而 skill 保存判断力。"
+ },
+ {
+  "seg": 64,
+  "start": 314.418,
+  "end": 327.903,
+  "speaker": "Unknown",
+  "en": "Skills are judgment that you reuse, but oftentimes, work such as feature development or a refactor outlives a single session, and the context window wipes clean every time.",
+  "zh": "Skill 是可复用的判断力,但很多时候,像功能开发或重构这样的工作会超出单个会话的时长,而上下文窗口每次都会被清空。"
+ },
+ {
+  "seg": 65,
+  "start": 329.023,
+  "end": 332.605,
+  "speaker": "Unknown",
+  "en": "So you need the other half, a record of the work itself.",
+  "zh": "所以你需要另外一半,一份工作本身的记录。"
+ },
+ {
+  "seg": 66,
+  "start": 333.568,
+  "end": 339.511,
+  "speaker": "Unknown",
+  "en": "The plan, the decisions, what you already tried, even the surprises along the way.",
+  "zh": "计划、决策、你已经尝试过什么,甚至一路上的意外。"
+ },
+ {
+  "seg": 67,
+  "start": 340.492,
+  "end": 341.232,
+  "speaker": "Unknown",
+  "en": "That's a work log.",
+  "zh": "那就是工作日志(work log)。"
+ },
+ {
+  "seg": 68,
+  "start": 342.413,
+  "end": 344.014,
+  "speaker": "Unknown",
+  "en": "A plan is a prediction.",
+  "zh": "计划是一种预测。"
+ },
+ {
+  "seg": 69,
+  "start": 344.955,
+  "end": 347.416,
+  "speaker": "Unknown",
+  "en": "A work log is a record that starts with one.",
+  "zh": "工作日志是一份从预测开始的记录。"
+ },
+ {
+  "seg": 70,
+  "start": 348.817,
+  "end": 352.379,
+  "speaker": "Unknown",
+  "en": "So new session, fresh agent, zero memory.",
+  "zh": "于是新会话,全新智能体,零记忆。"
+ },
+ {
+  "seg": 71,
+  "start": 353.039,
+  "end": 354.96,
+  "speaker": "Unknown",
+  "en": "You type one word, continue.",
+  "zh": "你只输入一个词:continue(继续)。"
+ },
+ {
+  "seg": 72,
+  "start": 355.841,
+  "end": 359.163,
+  "speaker": "Unknown",
+  "en": "It reads the work log and picks up at milestone seven out of nine.",
+  "zh": "它读取工作日志,从九个里程碑中的第七个接着干。"
+ },
+ {
+  "seg": 73,
+  "start": 359.643,
+  "end": 362.725,
+  "speaker": "Unknown",
+  "en": "No re-explaining and the work log is the context.",
+  "zh": "不用重新解释,工作日志就是上下文。"
+ },
+ {
+  "seg": 74,
+  "start": 363.879,
+  "end": 365.32,
+  "speaker": "Unknown",
+  "en": "This talk is living proof.",
+  "zh": "这个演讲就是活生生的证明。"
+ },
+ {
+  "seg": 75,
+  "start": 366.14,
+  "end": 369.121,
+  "speaker": "Unknown",
+  "en": "I built it across a couple of sessions using a work log.",
+  "zh": "我用工作日志跨几个会话把它做出来的。"
+ },
+ {
+  "seg": 76,
+  "start": 369.962,
+  "end": 377.505,
+  "speaker": "Unknown",
+  "en": "I came back to a half-finished presentation and a fresh agent read the work log and resumed exactly where I had left off.",
+  "zh": "我回到一个做了一半的演示文稿,一个全新的智能体读了工作日志,从我上次停下的地方精确地继续。"
+ },
+ {
+  "seg": 77,
+  "start": 378.465,
+  "end": 383.287,
+  "speaker": "Unknown",
+  "en": "That's the only reason why you're seeing a finished talk and not me apologizing for one.",
+  "zh": "这是你们能看到一个完成品演讲、而不是我在道歉的唯一原因。"
+ },
+ {
+  "seg": 78,
+  "start": 384.588,
+  "end": 387.649,
+  "speaker": "Unknown",
+  "en": "And for my personal side projects, this isn't willpower.",
+  "zh": "至于我的个人副业项目,这不是靠意志力。"
+ },
+ {
+  "seg": 79,
+  "start": 388.389,
+  "end": 392.131,
+  "speaker": "Unknown",
+  "en": "A git hook blocks any commit that doesn't update the work log.",
+  "zh": "一个 git hook 会阻止任何没有更新工作日志的提交。"
+ },
+ {
+  "seg": 80,
+  "start": 392.918,
+  "end": 395.039,
+  "speaker": "Unknown",
+  "en": "This way, the memory keeps itself.",
+  "zh": "这样,记忆自己维护自己。"
+ },
+ {
+  "seg": 81,
+  "start": 398.342,
+  "end": 400.903,
+  "speaker": "Unknown",
+  "en": "Skills encode how to do something.",
+  "zh": "Skill 编码的是如何做某件事。"
+ },
+ {
+  "seg": 82,
+  "start": 401.544,
+  "end": 404.986,
+  "speaker": "Unknown",
+  "en": "Personas encode whose eyes look at it.",
+  "zh": "人格(persona)编码的是用谁的眼光来看它。"
+ },
+ {
+  "seg": 83,
+  "start": 405.826,
+  "end": 407.247,
+  "speaker": "Unknown",
+  "en": "I got this from a Karpathy tweet.",
+  "zh": "这个想法来自 Karpathy 的一条推文。"
+ },
+ {
+  "seg": 84,
+  "start": 408.128,
+  "end": 410.569,
+  "speaker": "Unknown",
+  "en": "There's no you when you prompt a model.",
+  "zh": "当你提示一个模型时,不存在「你」。"
+ },
+ {
+  "seg": 85,
+  "start": 411.01,
+  "end": 412.491,
+  "speaker": "Unknown",
+  "en": "It doesn't have an opinion to give.",
+  "zh": "它没有自己的观点可给。"
+ },
+ {
+  "seg": 86,
+  "start": 413.051,
+  "end": 414.052,
+  "speaker": "Unknown",
+  "en": "So don't ask it for one.",
+  "zh": "所以不要向它要观点。"
+ },
+ {
+  "seg": 87,
+  "start": 414.852,
+  "end": 416.533,
+  "speaker": "Unknown",
+  "en": "Ask for a perspective instead.",
+  "zh": "而是要求一个视角。"
+ },
+ {
+  "seg": 88,
+  "start": 417.474,
+  "end": 420.756,
+  "speaker": "Unknown",
+  "en": "What would be a good group of people to explore XYZ?",
+  "zh": "什么样的群体适合探索 XYZ?"
+ },
+ {
+  "seg": 89,
+  "start": 421.577,
+  "end": 422.177,
+  "speaker": "Unknown",
+  "en": "What would they say?",
+  "zh": "他们会怎么说?"
+ },
+ {
+  "seg": 90,
+  "start": 425.725,
+  "end": 428.127,
+  "speaker": "Unknown",
+  "en": "On my personal side projects, it's just me.",
+  "zh": "在我的个人副业项目里,只有我一个人。"
+ },
+ {
+  "seg": 91,
+  "start": 428.888,
+  "end": 432.631,
+  "speaker": "Unknown",
+  "en": "No security team, no designer, no one to bounce ideas off of.",
+  "zh": "没有安全团队,没有设计师,没人可以碰撞想法。"
+ },
+ {
+  "seg": 92,
+  "start": 433.131,
+  "end": 444.48,
+  "speaker": "Unknown",
+  "en": "So I have the model review my code as a security lead, as a UX researcher, as Machiavelli when I want to know how something gets abused.",
+  "zh": "所以我让模型以安全负责人的身份、以 UX 研究员的身份、以及在我想知道某样东西会被如何滥用时以马基雅维利的身份来评审我的代码。"
+ },
+ {
+  "seg": 93,
+  "start": 445.341,
+  "end": 450.385,
+  "speaker": "Unknown",
+  "en": "I even built a design panel of opposing philosophies my designs have to survive.",
+  "zh": "我甚至组建了一个由对立设计哲学组成的评审团,我的设计必须在他们面前存活下来。"
+ },
+ {
+  "seg": 94,
+  "start": 451.285,
+  "end": 453.367,
+  "speaker": "Unknown",
+  "en": "Then I read the reports and act on them.",
+  "zh": "然后我阅读报告并据此行动。"
+ },
+ {
+  "seg": 95,
+  "start": 454.842,
+  "end": 459.545,
+  "speaker": "Unknown",
+  "en": "Each persona loads a kind of judgment that I don't personally have on demand.",
+  "zh": "每个人格都按需加载一种我个人不具备的判断力。"
+ },
+ {
+  "seg": 96,
+  "start": 460.845,
+  "end": 465.928,
+  "speaker": "Unknown",
+  "en": "Encode a domain's taste once, and anyone can borrow eyes that they don't have.",
+  "zh": "把一个领域的品味编码一次,任何人都能借用他们没有的眼睛。"
+ },
+ {
+  "seg": 97,
+  "start": 466.749,
+  "end": 469.65,
+  "speaker": "Unknown",
+  "en": "The engineer with no designer gets design judgment.",
+  "zh": "没有设计师的工程师得到了设计判断力。"
+ },
+ {
+  "seg": 98,
+  "start": 470.311,
+  "end": 473.573,
+  "speaker": "Unknown",
+  "en": "The newer engineer gets a security reviewer's instincts.",
+  "zh": "资历较浅的工程师得到了安全评审员的本能。"
+ },
+ {
+  "seg": 99,
+  "start": 474.473,
+  "end": 480.737,
+  "speaker": "Unknown",
+  "en": "Push it to the whole org, and every team can now encode its own taste for its own agents.",
+  "zh": "把它推广到整个组织,每个团队现在都可以为自己的智能体编码自己的品味。"
+ },
+ {
+  "seg": 100,
+  "start": 481.663,
+  "end": 487.026,
+  "speaker": "Unknown",
+  "en": "The judgment that used to live in a handful of heads is suddenly everywhere at once.",
+  "zh": "曾经只存在于少数几个人头脑中的判断力,突然间无处不在。"
+ },
+ {
+  "seg": 101,
+  "start": 490.308,
+  "end": 492.969,
+  "speaker": "Unknown",
+  "en": "Skills, work logs, personas.",
+  "zh": "技能、工作日志、人设。"
+ },
+ {
+  "seg": 102,
+  "start": 493.85,
+  "end": 500.734,
+  "speaker": "Unknown",
+  "en": "Judgment out of our heads and into the repo, portable to a machine and to people that don't have it.",
+  "zh": "判断力从我们头脑中进入代码仓库,可移植到机器和没有它的人那里。"
+ },
+ {
+  "seg": 103,
+  "start": 501.714,
+  "end": 507.558,
+  "speaker": "Unknown",
+  "en": "But the second that this judgment lives in three different places, you've got a governance question.",
+  "zh": "但一旦这个判断力存在于三个不同的地方,你就遇到了一个治理问题。"
+ },
+ {
+  "seg": 104,
+  "start": 508.65,
+  "end": 511.371,
+  "speaker": "Unknown",
+  "en": "How does one team's judgment reach everyone else?",
+  "zh": "一个团队的判断力如何传递给其他所有人?"
+ },
+ {
+  "seg": 105,
+  "start": 512.251,
+  "end": 513.071,
+  "speaker": "Unknown",
+  "en": "Simpler than it sounds.",
+  "zh": "比听起来更简单。"
+ },
+ {
+  "seg": 106,
+  "start": 514.292,
+  "end": 526.156,
+  "speaker": "Unknown",
+  "en": "Every gate that you already trust, whether it's CI, or Types, or Lint, or the design system, is just institutional judgment pulled out of someone's head and made mechanical.",
+  "zh": "你已经信任的每一道闸门,无论是 CI、还是类型检查、还是 Lint、还是设计系统,都只是从某人头脑中抽出来并变成机械化的机构判断力。"
+ },
+ {
+  "seg": 107,
+  "start": 526.796,
+  "end": 527.836,
+  "speaker": "Unknown",
+  "en": "We just never called it that.",
+  "zh": "我们只是从来没有这样称呼过它。"
+ },
+ {
+  "seg": 108,
+  "start": 528.977,
+  "end": 529.917,
+  "speaker": "Unknown",
+  "en": "So you don't mandate it.",
+  "zh": "所以你不用强制推行它。"
+ },
+ {
+  "seg": 109,
+  "start": 530.477,
+  "end": 532.558,
+  "speaker": "Unknown",
+  "en": "You make it legible and you let it spread.",
+  "zh": "你让它清晰可见,然后让它自行传播。"
+ },
+ {
+  "seg": 110,
+  "start": 535.413,
+  "end": 539.494,
+  "speaker": "Unknown",
+  "en": "All right, so now your judgment exists, it's encoded, and it's governed.",
+  "zh": "好,现在你的判断力已经存在,已经被编码,而且被治理了。"
+ },
+ {
+  "seg": 111,
+  "start": 540.174,
+  "end": 540.394,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 112,
+  "start": 541.294,
+  "end": 545.095,
+  "speaker": "Unknown",
+  "en": "But none of it matters if you can't actually trust what the agent did.",
+  "zh": "但如果你无法真正信任智能体所做的一切,这些都不重要。"
+ },
+ {
+  "seg": 113,
+  "start": 546.356,
+  "end": 551.377,
+  "speaker": "Unknown",
+  "en": "So what actually separates a tool that helps you write code from one you can trust to run on its own?",
+  "zh": "那么,真正区分一个帮你写代码的工具和一个你可以放心让它自主运行的工具的是什么?"
+ },
+ {
+  "seg": 114,
+  "start": 553.277,
+  "end": 553.918,
+  "speaker": "Unknown",
+  "en": "Verification.",
+  "zh": "验证。"
+ },
+ {
+  "seg": 115,
+  "start": 555.318,
+  "end": 559.699,
+  "speaker": "Unknown",
+  "en": "Verification is all that stands between you and software that you can trust.",
+  "zh": "验证是你和你可以信任的软件之间的全部屏障。"
+ },
+ {
+  "seg": 116,
+  "start": 560.783,
+  "end": 563.466,
+  "speaker": "Unknown",
+  "en": "Everything before this slide is knowledge.",
+  "zh": "这张幻灯片之前的一切是知识。"
+ },
+ {
+  "seg": 117,
+  "start": 564.207,
+  "end": 566.31,
+  "speaker": "Unknown",
+  "en": "Everything after this slide is trust.",
+  "zh": "这张幻灯片之后的一切是信任。"
+ },
+ {
+  "seg": 118,
+  "start": 567.211,
+  "end": 569.674,
+  "speaker": "Unknown",
+  "en": "And trust is a human's call, twice.",
+  "zh": "而信任由人来判定,判定两次。"
+ },
+ {
+  "seg": 119,
+  "start": 570.935,
+  "end": 574.84,
+  "speaker": "Unknown",
+  "en": "Once on how it's built, once on the proof that it works.",
+  "zh": "一次是它如何被构建的,一次是它能正常工作的证明。"
+ },
+ {
+  "seg": 120,
+  "start": 578.344,
+  "end": 580.527,
+  "speaker": "Unknown",
+  "en": "Verification is a ladder.",
+  "zh": "验证是一架梯子。"
+ },
+ {
+  "seg": 121,
+  "start": 581.6,
+  "end": 583.661,
+  "speaker": "Unknown",
+  "en": "Builds and tests, you've got those.",
+  "zh": "构建和测试,你已经有了。"
+ },
+ {
+  "seg": 122,
+  "start": 584.441,
+  "end": 591.403,
+  "speaker": "Unknown",
+  "en": "Screenshot tests with a model reasoning over them can catch contrast and overlap a human skim's past.",
+  "zh": "带有模型推理的截图测试,可以捕捉到人类粗略扫视时会漏掉的对比度和重叠问题。"
+ },
+ {
+  "seg": 123,
+  "start": 592.524,
+  "end": 594.704,
+  "speaker": "Unknown",
+  "en": "Then video the feature actually running.",
+  "zh": "然后是功能实际运行的视频。"
+ },
+ {
+  "seg": 124,
+  "start": 595.525,
+  "end": 596.985,
+  "speaker": "Unknown",
+  "en": "Then telemetry in production.",
+  "zh": "然后是生产环境的遥测数据。 [[115→补充说明]] 你能在没有人的情况下运行的梯级越多,你能交接出去的就越多。"
+ },
+ {
+  "seg": 125,
+  "start": 598.025,
+  "end": 601.967,
+  "speaker": "Unknown",
+  "en": "The more rungs you can run without a human, the more you can hand off.",
+  "zh": "你能在没有人类参与的情况下跑完越多的梯级，你能交出去的就越多。"
+ },
+ {
+  "seg": 126,
+  "start": 602.927,
+  "end": 605.708,
+  "speaker": "Unknown",
+  "en": "You earn autonomy one rung at a time.",
+  "zh": "你是一级一级地赢得自主权的。"
+ },
+ {
+  "seg": 127,
+  "start": 606.994,
+  "end": 609.275,
+  "speaker": "Unknown",
+  "en": "And the agent doesn't have to be right the first time.",
+  "zh": "而且智能体不必第一次就做对。"
+ },
+ {
+  "seg": 128,
+  "start": 610.115,
+  "end": 612.696,
+  "speaker": "Unknown",
+  "en": "It just has to know when it's wrong and try again.",
+  "zh": "它只需要知道什么时候错了,然后重试。"
+ },
+ {
+  "seg": 129,
+  "start": 613.696,
+  "end": 617.458,
+  "speaker": "Unknown",
+  "en": "Generate, test, fail, regenerate.",
+  "zh": "生成、测试、失败、重新生成。"
+ },
+ {
+  "seg": 130,
+  "start": 619.418,
+  "end": 622.6,
+  "speaker": "Unknown",
+  "en": "Nobody YOLOs code to prod and neither should your agents.",
+  "zh": "没有人会把代码 YOLO 到生产环境,你的智能体也不应该这样。"
+ },
+ {
+  "seg": 131,
+  "start": 623.3,
+  "end": 624.5,
+  "speaker": "Unknown",
+  "en": "We all check our work.",
+  "zh": "我们都会检查自己的工作。"
+ },
+ {
+  "seg": 132,
+  "start": 625.681,
+  "end": 628.121,
+  "speaker": "Unknown",
+  "en": "Spin at the gate until it comes back green.",
+  "zh": "在闸门处不停旋转,直到它变绿为止。"
+ },
+ {
+  "seg": 133,
+  "start": 630.362,
+  "end": 631.903,
+  "speaker": "Unknown",
+  "en": "I do this on my side projects.",
+  "zh": "我在我的个人项目上就是这么做的。"
+ },
+ {
+  "seg": 134,
+  "start": 632.698,
+  "end": 634.319,
+  "speaker": "Unknown",
+  "en": "I give the agent its own QA.",
+  "zh": "我给智能体配备它自己的 QA。"
+ },
+ {
+  "seg": 135,
+  "start": 635.039,
+  "end": 640.801,
+  "speaker": "Unknown",
+  "en": "It maps the feature, drives the app like a real user, and records itself walking every flow.",
+  "zh": "它绘制功能地图,像真实用户一样操作应用,并录下自己走遍每一条流程的过程。"
+ },
+ {
+  "seg": 136,
+  "start": 641.921,
+  "end": 649.284,
+  "speaker": "Unknown",
+  "en": "The agent that wrote the code will always tell you that it works, so you make it hand back a recording of the thing actually running.",
+  "zh": "写代码的智能体总是会告诉你它能正常运行,所以你让它交回一段东西实际运行的录像。"
+ },
+ {
+  "seg": 137,
+  "start": 650.524,
+  "end": 653.786,
+  "speaker": "Unknown",
+  "en": "Producing that recording forces it to make the thing work.",
+  "zh": "制作那段录像迫使它把东西真正跑通。"
+ },
+ {
+  "seg": 138,
+  "start": 654.406,
+  "end": 655.706,
+  "speaker": "Unknown",
+  "en": "You can't fake a passing run.",
+  "zh": "你没法伪造一次通过的运行。"
+ },
+ {
+  "seg": 139,
+  "start": 656.647,
+  "end": 658.267,
+  "speaker": "Unknown",
+  "en": "And the recording is real proof.",
+  "zh": "而且那段录像就是真实的证据。"
+ },
+ {
+  "seg": 140,
+  "start": 658.928,
+  "end": 659.568,
+  "speaker": "Unknown",
+  "en": "I watch it today.",
+  "zh": "我今天就能看它。"
+ },
+ {
+  "seg": 141,
+  "start": 660.517,
+  "end": 664.699,
+  "speaker": "Unknown",
+  "en": "Down the line, you could have an LLM watch it first and send it back.",
+  "zh": "再往后,你可以先让一个 LLM 来看它然后打回。"
+ },
+ {
+  "seg": 142,
+  "start": 665.499,
+  "end": 670.481,
+  "speaker": "Unknown",
+  "en": "Fix this, redo that, but a human still makes the final call to merge.",
+  "zh": "修这个,重做那个,但最终由人来做出合并的最终决定。"
+ },
+ {
+  "seg": 143,
+  "start": 671.701,
+  "end": 673.402,
+  "speaker": "Unknown",
+  "en": "The requirement forces the work.",
+  "zh": "需求迫使工作被完成。"
+ },
+ {
+  "seg": 144,
+  "start": 674.062,
+  "end": 675.563,
+  "speaker": "Unknown",
+  "en": "The recording proves it.",
+  "zh": "录像证明了它。"
+ },
+ {
+  "seg": 145,
+  "start": 678.77,
+  "end": 684.735,
+  "speaker": "Unknown",
+  "en": "I got tired of watching old feature flags pile up, so I built an agent for cleaning up stale feature flags.",
+  "zh": "我受够了看着过时的功能开关越积越多,所以我构建了一个用于清理陈旧功能开关的智能体。"
+ },
+ {
+  "seg": 146,
+  "start": 685.376,
+  "end": 688.579,
+  "speaker": "Unknown",
+  "en": "It runs in my local workflow, and it doesn't merge any code.",
+  "zh": "它在我的本地工作流中运行,而且它不合并任何代码。"
+ },
+ {
+  "seg": 147,
+  "start": 689.359,
+  "end": 690.78,
+  "speaker": "Unknown",
+  "en": "The model's the easy part.",
+  "zh": "模型是简单的部分。"
+ },
+ {
+  "seg": 148,
+  "start": 691.461,
+  "end": 693.723,
+  "speaker": "Unknown",
+  "en": "The judgment in front of it is the whole game.",
+  "zh": "它面前的判断力才是整场游戏的关键。"
+ },
+ {
+  "seg": 149,
+  "start": 695.004,
+  "end": 699.088,
+  "speaker": "Unknown",
+  "en": "Every flag gets scored the way an experienced reviewer would analyze it.",
+  "zh": "每个功能开关都按照一个有经验的审查者会分析的方式来进行评分。"
+ },
+ {
+  "seg": 150,
+  "start": 699.908,
+  "end": 701.39,
+  "speaker": "Unknown",
+  "en": "How many modules does it touch?",
+  "zh": "它会触及多少个模块？"
+ },
+ {
+  "seg": 151,
+  "start": 702.11,
+  "end": 702.951,
+  "speaker": "Unknown",
+  "en": "Is it multivariant?",
+  "zh": "它是多变量的吗？"
+ },
+ {
+  "seg": 152,
+  "start": 703.532,
+  "end": 704.492,
+  "speaker": "Unknown",
+  "en": "Does it share a component?",
+  "zh": "它是否共享一个组件？"
+ },
+ {
+  "seg": 153,
+  "start": 705.357,
+  "end": 706.817,
+  "speaker": "Unknown",
+  "en": "Then it checks the experiment data.",
+  "zh": "然后它会检查实验数据。"
+ },
+ {
+  "seg": 154,
+  "start": 707.477,
+  "end": 708.458,
+  "speaker": "Unknown",
+  "en": "Is the rollout frozen?",
+  "zh": "灰度发布是否被冻结？"
+ },
+ {
+  "seg": 155,
+  "start": 708.998,
+  "end": 710.538,
+  "speaker": "Unknown",
+  "en": "Is there a sample ratio mismatch?",
+  "zh": "是否存在样本比例不匹配？"
+ },
+ {
+  "seg": 156,
+  "start": 710.998,
+  "end": 713.358,
+  "speaker": "Unknown",
+  "en": "Is there a variant already rolled out to 100%?",
+  "zh": "是否有一个变量已经发布到 100%？"
+ },
+ {
+  "seg": 157,
+  "start": 714.479,
+  "end": 718.279,
+  "speaker": "Unknown",
+  "en": "Only the safe mechanical cleanups ever reached the model.",
+  "zh": "只有那些安全的机械化清理才真正到达了模型。"
+ },
+ {
+  "seg": 158,
+  "start": 719.499,
+  "end": 724.96,
+  "speaker": "Unknown",
+  "en": "Before I trusted this workflow, I backtested the scoring against months of cleanup history.",
+  "zh": "在我信任这个工作流之前，我用几个月的清理历史对评分做了回测。"
+ },
+ {
+  "seg": 159,
+  "start": 725.62,
+  "end": 726.461,
+  "speaker": "Unknown",
+  "en": "Then I ran it live.",
+  "zh": "然后我让它实际跑了起来。"
+ },
+ {
+  "seg": 160,
+  "start": 727.301,
+  "end": 729.721,
+  "speaker": "Unknown",
+  "en": "Seven for seven PRs with green CI.",
+  "zh": "七个 PR，七个全过，CI 全绿。"
+ },
+ {
+  "seg": 161,
+  "start": 730.481,
+  "end": 734.322,
+  "speaker": "Unknown",
+  "en": "Now it runs daily on my laptop and hands work back for me to review.",
+  "zh": "现在它每天在我的笔记本上运行，把工作交回给我审查。"
+ },
+ {
+  "seg": 162,
+  "start": 735.826,
+  "end": 737.728,
+  "speaker": "Unknown",
+  "en": "$1.26 a pull request.",
+  "zh": "每个 pull request 1.26 美元。"
+ },
+ {
+  "seg": 163,
+  "start": 738.508,
+  "end": 743.553,
+  "speaker": "Unknown",
+  "en": "A backlog of around 520 flags a year runs for under $700.",
+  "zh": "一年约 520 个 flag 的积压，跑下来不到 700 美元。"
+ },
+ {
+  "seg": 164,
+  "start": 744.453,
+  "end": 751.259,
+  "speaker": "Unknown",
+  "en": "If you had engineers working on this by hand, at least $26,000 that you're looking at.",
+  "zh": "如果让工程师手工做这些，你面对的至少是 26,000 美元。"
+ },
+ {
+  "seg": 165,
+  "start": 752.6,
+  "end": 755.603,
+  "speaker": "Unknown",
+  "en": "This is the work that nobody was ever going to do.",
+  "zh": "这是从来没人打算去做的工作。"
+ },
+ {
+  "seg": 166,
+  "start": 756.163,
+  "end": 761.608,
+  "speaker": "Unknown",
+  "en": "I've seen feature flags in the code base that are three, four years old, and some are even older.",
+  "zh": "我见过代码库里存在三年、四年的 feature flag，有些甚至更老。"
+ },
+ {
+  "seg": 167,
+  "start": 763.226,
+  "end": 766.447,
+  "speaker": "Unknown",
+  "en": "The model wrote the code, and I wrote the judgment.",
+  "zh": "模型写代码，我写判断。"
+ },
+ {
+  "seg": 168,
+  "start": 769.448,
+  "end": 776.951,
+  "speaker": "Unknown",
+  "en": "One hard lesson from my side projects, when you let an agent author the code, your guardrails are your code review.",
+  "zh": "我从副业项目里学到的一个惨痛教训：当你让智能体来写代码时，你的护栏就是你的代码审查。"
+ },
+ {
+  "seg": 169,
+  "start": 777.531,
+  "end": 780.052,
+  "speaker": "Unknown",
+  "en": "A machine doesn't feel a polite comment.",
+  "zh": "机器感受不到一条客气的评论。"
+ },
+ {
+  "seg": 170,
+  "start": 780.692,
+  "end": 782.552,
+  "speaker": "Unknown",
+  "en": "It only respects a hard gate.",
+  "zh": "它只尊重硬性闸门。"
+ },
+ {
+  "seg": 171,
+  "start": 783.833,
+  "end": 786.774,
+  "speaker": "Unknown",
+  "en": "I built a pre-commit hook so my agents couldn't write to main.",
+  "zh": "我建了一个 pre-commit hook，这样我的智能体就无法写入 main 分支。"
+ },
+ {
+  "seg": 172,
+  "start": 787.774,
+  "end": 790.235,
+  "speaker": "Unknown",
+  "en": "Then I asked Codex, would the hook even stop it?",
+  "zh": "然后我问 Codex，这个 hook 真的能拦住它吗？"
+ },
+ {
+  "seg": 173,
+  "start": 791.053,
+  "end": 795.754,
+  "speaker": "Unknown",
+  "en": "It told me flat out, repo hooks are not sufficient protection against me.",
+  "zh": "它直截了当地告诉我，repo 的 hook 不足以成为对我的保护。"
+ },
+ {
+  "seg": 174,
+  "start": 796.434,
+  "end": 798.795,
+  "speaker": "Unknown",
+  "en": "Its patch tool writes, underneath the hook.",
+  "zh": "它的 patch 工具在 hook 之下写入。"
+ },
+ {
+  "seg": 175,
+  "start": 799.655,
+  "end": 801.415,
+  "speaker": "Unknown",
+  "en": "The agent told me that my gate was worthless.",
+  "zh": "智能体告诉我，我的闸门毫无价值。"
+ },
+ {
+  "seg": 176,
+  "start": 803.095,
+  "end": 804.796,
+  "speaker": "Unknown",
+  "en": "So I moved the gate down to the OS level.",
+  "zh": "于是我把闸门下移到了操作系统层面。"
+ },
+ {
+  "seg": 177,
+  "start": 805.756,
+  "end": 818.679,
+  "speaker": "Unknown",
+  "en": "Later, I asked it to list the valid reasons to unlock, and it quietly slipped emergency recovery into the allow list, a self-authorizing exception that nobody asked for.",
+  "zh": "后来，我让它列出解锁的有效理由，它悄悄地把“紧急恢复”塞进了允许列表——一个没人要求的自我授权例外。"
+ },
+ {
+  "seg": 178,
+  "start": 819.479,
+  "end": 820.239,
+  "speaker": "Unknown",
+  "en": "It even admitted it.",
+  "zh": "它甚至自己承认了。"
+ },
+ {
+  "seg": 179,
+  "start": 821.104,
+  "end": 827.045,
+  "speaker": "Unknown",
+  "en": "Codex said, that's the kind of escape hatch that starts as safety and ends as self-authorized nonsense.",
+  "zh": "Codex 说，那种逃生口，开始时是为了安全，最后却成了自我授权的胡闹。"
+ },
+ {
+  "seg": 180,
+  "start": 828.666,
+  "end": 832.126,
+  "speaker": "Unknown",
+  "en": "The pit of success assumes people take the easy path.",
+  "zh": "成功之坑（pit of success）假设人们会走容易的路。"
+ },
+ {
+  "seg": 181,
+  "start": 833.027,
+  "end": 834.367,
+  "speaker": "Unknown",
+  "en": "Agents do not.",
+  "zh": "智能体不会。"
+ },
+ {
+  "seg": 182,
+  "start": 835.127,
+  "end": 838.748,
+  "speaker": "Unknown",
+  "en": "They will build ladders to climb out of the pit of success.",
+  "zh": "它们会造出梯子，爬出成功之坑。"
+ },
+ {
+  "seg": 183,
+  "start": 839.368,
+  "end": 841.808,
+  "speaker": "Unknown",
+  "en": "They find every escape hatch that you leave.",
+  "zh": "它们会找到你留下的每一个逃生口。"
+ },
+ {
+  "seg": 184,
+  "start": 842.329,
+  "end": 844.489,
+  "speaker": "Unknown",
+  "en": "And if you leave none, they'll invent one.",
+  "zh": "如果你一个都不留，它们就会发明一个。"
+ },
+ {
+  "seg": 185,
+  "start": 845.289,
+  "end": 846.409,
+  "speaker": "Unknown",
+  "en": "So gate the choke point.",
+  "zh": "所以，把闸门设在咽喉要道上。"
+ },
+ {
+  "seg": 186,
+  "start": 847.07,
+  "end": 849.11,
+  "speaker": "Unknown",
+  "en": "Make the bypass operator only.",
+  "zh": "把绕过权限设为仅限操作员。"
+ },
+ {
+  "seg": 187,
+  "start": 850.043,
+  "end": 853.064,
+  "speaker": "Unknown",
+  "en": "Never hand the agent a reason that it can grant itself.",
+  "zh": "永远不要给智能体一个它能自己授予自己的理由。"
+ },
+ {
+  "seg": 188,
+  "start": 854.865,
+  "end": 857.806,
+  "speaker": "Unknown",
+  "en": "A gate with an escape hatch isn't a gate.",
+  "zh": "带逃生口的闸门不是闸门。"
+ },
+ {
+  "seg": 189,
+  "start": 860.928,
+  "end": 864.169,
+  "speaker": "Unknown",
+  "en": "Once judgment is verifiable, it's executable.",
+  "zh": "一旦判断变得可验证，它就是可执行的。"
+ },
+ {
+  "seg": 190,
+  "start": 866.07,
+  "end": 877.035,
+  "speaker": "Unknown",
+  "en": "A flag agent, a dependency agent, an accessibility agent, each one is narrow, each with its own encoded judgment pointed at a different chore.",
+  "zh": "一个 flag 智能体、一个依赖智能体、一个无障碍智能体，每一个都是狭窄的，每一个都带着自己编码好的判断，指向不同的杂务。"
+ },
+ {
+  "seg": 191,
+  "start": 878.212,
+  "end": 879.853,
+  "speaker": "Unknown",
+  "en": "Remember Minsky from the K-Line?",
+  "zh": "还记得 K 线里的 Minsky 吗？"
+ },
+ {
+  "seg": 192,
+  "start": 880.493,
+  "end": 883.015,
+  "speaker": "Unknown",
+  "en": "That was just a footnote in his idea.",
+  "zh": "那只是他思想的一个脚注。"
+ },
+ {
+  "seg": 193,
+  "start": 883.675,
+  "end": 894.962,
+  "speaker": "Unknown",
+  "en": "He called it the Society of Mind, a swarm of small, simple specialists that compose into something that looks effortless at the top, no master brain anywhere.",
+  "zh": "他称之为心智社会（Society of Mind）：一群小而简单的专家组合成某种在顶层看起来毫不费力的东西，任何地方都没有一个主宰大脑。"
+ },
+ {
+  "seg": 194,
+  "start": 896.362,
+  "end": 904.067,
+  "speaker": "Unknown",
+  "en": "That's the fleet, specialists, each spinning at its own gate, and a self-driving codebase emerges from the swarm.",
+  "zh": "这就是机群：专家们，每一个都在自己的闸门处运转，而一个自动驾驶的代码库就从这群智能体中涌现出来。"
+ },
+ {
+  "seg": 195,
+  "start": 905.645,
+  "end": 910.547,
+  "speaker": "Unknown",
+  "en": "And that flag agent, that's the war room from the opening turned into a specialist.",
+  "zh": "而那个 flag 智能体，就是开头那个作战室变成了一个专家。"
+ },
+ {
+  "seg": 196,
+  "start": 911.347,
+  "end": 917.149,
+  "speaker": "Unknown",
+  "en": "The work somebody organized a whole meeting around is just one member of this agent society.",
+  "zh": "那种曾经有人为它组织一整场会议的工作，如今只是这个智能体社会中的一名成员。"
+ },
+ {
+  "seg": 197,
+  "start": 918.59,
+  "end": 922.911,
+  "speaker": "Unknown",
+  "en": "Every one of them doing the same thing, spinning at the gate until green.",
+  "zh": "它们每一个都在做同样的事：在闸门处运转，直到变绿。"
+ },
+ {
+  "seg": 198,
+  "start": 925.132,
+  "end": 925.732,
+  "speaker": "Unknown",
+  "en": "Three stages.",
+  "zh": "三个阶段。"
+ },
+ {
+  "seg": 199,
+  "start": 926.893,
+  "end": 928.353,
+  "speaker": "Unknown",
+  "en": "In the loop, you prompt.",
+  "zh": "在环内，你给出提示词。"
+ },
+ {
+  "seg": 200,
+  "start": 929.814,
+  "end": 931.574,
+  "speaker": "Unknown",
+  "en": "On the loop, you orchestrate.",
+  "zh": "在循环内,你负责编排。"
+ },
+ {
+  "seg": 201,
+  "start": 932.114,
+  "end": 933.455,
+  "speaker": "Unknown",
+  "en": "You review the outcomes.",
+  "zh": "你审查结果。"
+ },
+ {
+  "seg": 202,
+  "start": 934.665,
+  "end": 938.928,
+  "speaker": "Unknown",
+  "en": "Off the loop, a trigger fires it, cron, an event.",
+  "zh": "在循环外,由一个触发器启动它,cron,或者一个事件。"
+ },
+ {
+  "seg": 203,
+  "start": 939.949,
+  "end": 946.513,
+  "speaker": "Unknown",
+  "en": "No human has to kick off that first draft, but humans still own the approval and the merge process.",
+  "zh": "不需要人来启动那份初稿,但人仍然掌握着审批和合并流程。"
+ },
+ {
+  "seg": 204,
+  "start": 947.734,
+  "end": 952.637,
+  "speaker": "Unknown",
+  "en": "The unlock there is a cloud runtime the model vendor may or may not ship for you.",
+  "zh": "这里的解锁关键是云运行时,模型厂商可能会也可能不会为你提供。"
+ },
+ {
+  "seg": 205,
+  "start": 955.607,
+  "end": 964.772,
+  "speaker": "Unknown",
+  "en": "Everything that I've shown you, skills, personas, the gates, you wrote it down once, but the codebase doesn't hold still.",
+  "zh": "我展示给你的一切,技能、人设、闸门,你都只写了一次,但代码库不会静止不动。"
+ },
+ {
+  "seg": 206,
+  "start": 965.452,
+  "end": 967.033,
+  "speaker": "Unknown",
+  "en": "It moves every single day.",
+  "zh": "它每天都在变化。"
+ },
+ {
+  "seg": 207,
+  "start": 968.414,
+  "end": 972.216,
+  "speaker": "Unknown",
+  "en": "A skill written for last month's architecture isn't out of date.",
+  "zh": "为上个月的架构写的技能不只是过时了。"
+ },
+ {
+  "seg": 208,
+  "start": 972.836,
+  "end": 973.397,
+  "speaker": "Unknown",
+  "en": "It's wrong.",
+  "zh": "它是错的。"
+ },
+ {
+  "seg": 209,
+  "start": 974.137,
+  "end": 977.159,
+  "speaker": "Unknown",
+  "en": "And that's worse than nothing because the agents trust it.",
+  "zh": "这比没有还要糟,因为智能体会信任它。"
+ },
+ {
+  "seg": 210,
+  "start": 977.999,
+  "end": 979.8,
+  "speaker": "Unknown",
+  "en": "Encoded judgment rots.",
+  "zh": "编码进去的判断会腐烂。"
+ },
+ {
+  "seg": 211,
+  "start": 980.661,
+  "end": 984.863,
+  "speaker": "Unknown",
+  "en": "If the skills don't move with the code, then the whole thing falls over.",
+  "zh": "如果技能不跟着代码一起更新,整个系统就会垮掉。"
+ },
+ {
+  "seg": 212,
+  "start": 985.973,
+  "end": 987.334,
+  "speaker": "Unknown",
+  "en": "So you keep it alive in two ways.",
+  "zh": "所以你要用两种方式让它保持鲜活。"
+ },
+ {
+  "seg": 213,
+  "start": 988.275,
+  "end": 990.678,
+  "speaker": "Unknown",
+  "en": "When an agent fails, you don't just fix the bug.",
+  "zh": "当一个智能体失败时,你不只是修复那个 bug。"
+ },
+ {
+  "seg": 214,
+  "start": 991.299,
+  "end": 997.345,
+  "speaker": "Unknown",
+  "en": "You run the post-mortem and fold the lesson back into the skill so that failure can't happen twice.",
+  "zh": "你做事后复盘,把教训折叠回技能里,让同样的失败不会发生第二次。"
+ },
+ {
+  "seg": 215,
+  "start": 998.466,
+  "end": 1000.308,
+  "speaker": "Unknown",
+  "en": "Failure becomes a constraint.",
+  "zh": "失败变成了一条约束。"
+ },
+ {
+  "seg": 216,
+  "start": 1001.73,
+  "end": 1004.133,
+  "speaker": "Unknown",
+  "en": "But nobody is hand-auditing 300 skills for Drift.",
+  "zh": "但没有人会手动审计 300 个技能是否漂移。"
+ },
+ {
+  "seg": 217,
+  "start": 1005.652,
+  "end": 1015.754,
+  "speaker": "Unknown",
+  "en": "So you give the agent a bedtime, a scheduled pass where it reads its own skills, finds the stale ones and the contradictions, and opens up drafts for review.",
+  "zh": "所以你给智能体设定一个就寝时间,一个定期的巡检,让它阅读自己的技能,找出过时的和相互矛盾的,然后打开草稿供人审查。"
+ },
+ {
+  "seg": 218,
+  "start": 1016.615,
+  "end": 1020.416,
+  "speaker": "Unknown",
+  "en": "The system sleeps, cleans house, and wakes up sharper.",
+  "zh": "系统睡觉,打扫房间,醒来时更加敏锐。"
+ },
+ {
+  "seg": 219,
+  "start": 1021.056,
+  "end": 1023.036,
+  "speaker": "Unknown",
+  "en": "But that's a whole separate talk on its own.",
+  "zh": "但那本身就是一整场单独的演讲。"
+ },
+ {
+  "seg": 220,
+  "start": 1024.476,
+  "end": 1030.818,
+  "speaker": "Unknown",
+  "en": "A self-driving codebase is a system that keeps its own judgment current in addition to writing code.",
+  "zh": "一个自动驾驶的代码库是一个系统,除了写代码之外,还要保持自己的判断处于最新状态。"
+ },
+ {
+  "seg": 221,
+  "start": 1033.792,
+  "end": 1038.773,
+  "speaker": "Unknown",
+  "en": "Everything that I've shown so far fits somewhere along this judgment pipeline.",
+  "zh": "到目前为止我展示的一切都能放进这条判断流水线的某个位置。"
+ },
+ {
+  "seg": 222,
+  "start": 1041.734,
+  "end": 1053.338,
+  "speaker": "Unknown",
+  "en": "And every mechanism in this talk, skills, personas, work logs on the gates, the fleet, all of it was doing one job, managing judgment.",
+  "zh": "而这场演讲里的每一个机制,技能、人设、工作日志、闸门、机群,全都在做同一件事,管理判断。"
+ },
+ {
+  "seg": 223,
+  "start": 1054.478,
+  "end": 1061.74,
+  "speaker": "Unknown",
+  "en": "Every session, the model wakes up like Drew Barrymore in 50 First Dates, brilliant and no memory of yesterday.",
+  "zh": "每次会话,模型都会像《初恋 50 次》里的德鲁·巴里摩尔一样醒来,才华横溢却没有昨天的记忆。"
+ },
+ {
+  "seg": 224,
+  "start": 1062.8,
+  "end": 1065.482,
+  "speaker": "Unknown",
+  "en": "No idea what it's built or what it's even for.",
+  "zh": "不知道自己构建了什么,甚至不知道这一切是为了什么。"
+ },
+ {
+  "seg": 225,
+  "start": 1066.722,
+  "end": 1070.565,
+  "speaker": "Unknown",
+  "en": "The collection of primitives in this talk is the notebook that we hand it.",
+  "zh": "这场演讲里的这一整套原语就是我们递给它的笔记本。"
+ },
+ {
+  "seg": 226,
+  "start": 1071.305,
+  "end": 1075.848,
+  "speaker": "Unknown",
+  "en": "The skills, the work logs, the judgment that let it do real work.",
+  "zh": "技能、工作日志、判断,让它能够做真正的工作。"
+ },
+ {
+  "seg": 227,
+  "start": 1077.269,
+  "end": 1080.791,
+  "speaker": "Unknown",
+  "en": "We don't ship PRs that pass CI because the model is a genius.",
+  "zh": "我们发布的 PR 能通过 CI,不是因为模型是个天才。"
+ },
+ {
+  "seg": 228,
+  "start": 1081.651,
+  "end": 1085.414,
+  "speaker": "Unknown",
+  "en": "They pass because we built a harness that won't let it be wrong.",
+  "zh": "它们能通过,是因为我们构建了一个不会让它出错的挽具。"
+ },
+ {
+  "seg": 229,
+  "start": 1086.474,
+  "end": 1088.676,
+  "speaker": "Unknown",
+  "en": "Every gate in it is a human's call.",
+  "zh": "其中的每一道闸门都是一个人的决定。"
+ },
+ {
+  "seg": 230,
+  "start": 1089.636,
+  "end": 1090.857,
+  "speaker": "Unknown",
+  "en": "That's harness engineering.",
+  "zh": "这就是挽具工程。"
+ },
+ {
+  "seg": 231,
+  "start": 1092.888,
+  "end": 1095.25,
+  "speaker": "Unknown",
+  "en": "Scale the judgment, not the model.",
+  "zh": "扩展判断,而不是扩展模型。"
+ },
+ {
+  "seg": 232,
+  "start": 1097.912,
+  "end": 1099.113,
+  "speaker": "Unknown",
+  "en": "So here's what I'm asking you to do.",
+  "zh": "所以这是我请求你去做的事。"
+ },
+ {
+  "seg": 233,
+  "start": 1100.253,
+  "end": 1102.615,
+  "speaker": "Unknown",
+  "en": "Don't just go write a skill.",
+  "zh": "不要只是去写一个技能。"
+ },
+ {
+  "seg": 234,
+  "start": 1102.655,
+  "end": 1103.776,
+  "speaker": "Unknown",
+  "en": "That's only one implementation.",
+  "zh": "那只是一种实现方式。"
+ },
+ {
+  "seg": 235,
+  "start": 1104.837,
+  "end": 1112.602,
+  "speaker": "Unknown",
+  "en": "Find the judgment your team always asks the same person about and make it explicit, somewhere that an agent can reach it.",
+  "zh": "找到你的团队总是问同一个人的那些判断,把它们显式化,放在智能体能够触及的地方。"
+ },
+ {
+  "seg": 236,
+  "start": 1113.583,
+  "end": 1116.465,
+  "speaker": "Unknown",
+  "en": "It could be a persona, a lint check, or a commit hook.",
+  "zh": "它可以是一个人设、一个 lint 检查,或一个 commit 钩子。"
+ },
+ {
+  "seg": 237,
+  "start": 1117.326,
+  "end": 1118.106,
+  "speaker": "Unknown",
+  "en": "That's the job now.",
+  "zh": "这就是现在的工作。"
+ },
+ {
+  "seg": 238,
+  "start": 1118.847,
+  "end": 1121.609,
+  "speaker": "Unknown",
+  "en": "Less product engineering and more harness engineering.",
+  "zh": "更少的产品工程,更多的挽具工程。"
+ },
+ {
+  "seg": 239,
+  "start": 1122.998,
+  "end": 1124.478,
+  "speaker": "Unknown",
+  "en": "And the method demonstrates itself.",
+  "zh": "而这个方法会自我证明。"
+ },
+ {
+  "seg": 240,
+  "start": 1125.239,
+  "end": 1127.98,
+  "speaker": "Unknown",
+  "en": "The flag agent produces PRs that pass CI.",
+  "zh": "这个 flag 智能体能产出通过 CI 的 PR。"
+ },
+ {
+  "seg": 241,
+  "start": 1128.68,
+  "end": 1130.621,
+  "speaker": "Unknown",
+  "en": "This talk resumes from a work log.",
+  "zh": "这场演讲是从一份工作日志恢复继续的。"
+ },
+ {
+  "seg": 242,
+  "start": 1133.081,
+  "end": 1133.762,
+  "speaker": "Unknown",
+  "en": "We started here.",
+  "zh": "我们从这里开始。"
+ },
+ {
+  "seg": 243,
+  "start": 1134.782,
+  "end": 1140.004,
+  "speaker": "Unknown",
+  "en": "Humans absorb judgment implicitly, while agents require it explicitly.",
+  "zh": "人类隐性吸收判断,而智能体需要显式的判断。"
+ },
+ {
+  "seg": 244,
+  "start": 1141.244,
+  "end": 1147.246,
+  "speaker": "Unknown",
+  "en": "Self-driving code bases will exist the moment we get that judgment out of our heads and into the code base.",
+  "zh": "自动驾驶的代码库会出现,就在我们把判断从脑子里拿出来、放进代码库的那一刻。"
+ },
+ {
+  "seg": 245,
+  "start": 1148.246,
+  "end": 1150.107,
+  "speaker": "Unknown",
+  "en": "Then we point the agents at the gate",
+  "zh": "然后我们把智能体指向闸门,"
+ },
+ {
+  "seg": 246,
+  "start": 1151.351,
+  "end": 1153.093,
+  "speaker": "Unknown",
+  "en": "And let them spin until it's green.",
+  "zh": "让它们一直转,直到变绿。"
+ },
+ {
+  "seg": 247,
+  "start": 1153.954,
+  "end": 1154.234,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

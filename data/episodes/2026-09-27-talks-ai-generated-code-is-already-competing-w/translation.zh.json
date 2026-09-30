@@ -1,0 +1,1234 @@
+[
+ {
+  "seg": 0,
+  "start": 12.535,
+  "end": 13.095,
+  "speaker": "Unknown",
+  "en": "How's everyone doing?",
+  "zh": "大家最近怎么样?"
+ },
+ {
+  "seg": 1,
+  "start": 14.897,
+  "end": 15.157,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 2,
+  "start": 15.758,
+  "end": 16.418,
+  "speaker": "Unknown",
+  "en": "My name is Daksh.",
+  "zh": "我叫 Daksh。"
+ },
+ {
+  "seg": 3,
+  "start": 16.518,
+  "end": 19.14,
+  "speaker": "Unknown",
+  "en": "I'm one of the co-founders of a company called Grubtile.",
+  "zh": "我是一家叫 Grubtile 的公司的联合创始人之一。"
+ },
+ {
+  "seg": 4,
+  "start": 19.941,
+  "end": 26.487,
+  "speaker": "Unknown",
+  "en": "And at Grubtile, we're working on AI agents that validate pull requests with full context of the code base.",
+  "zh": "在 Grubtile,我们正在做能以完整代码库上下文来验证 pull request 的 AI 智能体。"
+ },
+ {
+  "seg": 5,
+  "start": 27.388,
+  "end": 30.749,
+  "speaker": "Unknown",
+  "en": "The way Graptile does this is every time there's a pull request, we have a swarm of agents.",
+  "zh": "Graptile 做这件事的方式是,每当有一个 pull request,我们就有一群智能体。"
+ },
+ {
+  "seg": 6,
+  "start": 31.509,
+  "end": 37.311,
+  "speaker": "Unknown",
+  "en": "And they go and look at every file that's changed, every file that's related to the files that changed to figure out if there's bugs.",
+  "zh": "它们会去查看每一个被改动的文件、每一个与被改动文件相关的文件,来找出是否存在 bug。"
+ },
+ {
+  "seg": 7,
+  "start": 37.691,
+  "end": 48.735,
+  "speaker": "Unknown",
+  "en": "And it also spins up your code in a sandbox that installs dependencies, spins up localhost, clicks around to try to break things, mocks inputs, and everything else to figure out if the code is broken.",
+  "zh": "它还会在一个沙箱里把你的代码跑起来,安装依赖、启动 localhost、四处点击试图弄坏东西、模拟输入等等,来弄清楚代码是否出了问题。"
+ },
+ {
+  "seg": 8,
+  "start": 49.775,
+  "end": 55.517,
+  "speaker": "Unknown",
+  "en": "But I'm going to talk about something a little bit different, which is fully autonomous coding agents.",
+  "zh": "但我今天要讲的东西稍微有点不一样,那就是完全自主的编程智能体。"
+ },
+ {
+  "seg": 9,
+  "start": 58.104,
+  "end": 60.526,
+  "speaker": "Unknown",
+  "en": "I first moved to San Francisco three years ago to work on AI coding.",
+  "zh": "我三年前第一次搬到旧金山,就是为了做 AI 编程。"
+ },
+ {
+  "seg": 10,
+  "start": 60.546,
+  "end": 67.091,
+  "speaker": "Unknown",
+  "en": "And this is because GPT 3.5, which came out in 2022, was the first model that seemed like it was really good at programming.",
+  "zh": "这是因为 2022 年发布的 GPT 3.5 是第一个看起来真正擅长编程的模型。"
+ },
+ {
+  "seg": 11,
+  "start": 68.252,
+  "end": 72.696,
+  "speaker": "Unknown",
+  "en": "At the time, code complete, tab complete, was the main paradigm for coding.",
+  "zh": "在那个时候,代码补全、tab 补全是编程的主要范式。"
+ },
+ {
+  "seg": 12,
+  "start": 73.156,
+  "end": 78,
+  "speaker": "Unknown",
+  "en": "The most exciting thing that was happening was your tab complete from cursor, and you had co-pilots, code complete.",
+  "zh": "当时最令人兴奋的事情就是 Cursor 的 tab 补全,还有 co-pilot、代码补全。"
+ },
+ {
+  "seg": 13,
+  "start": 78.401,
+  "end": 80.983,
+  "speaker": "Unknown",
+  "en": "And that was the way in which AI coding works.",
+  "zh": "那就是当时 AI 编程运作的方式。"
+ },
+ {
+  "seg": 14,
+  "start": 82.404,
+  "end": 86.485,
+  "speaker": "Unknown",
+  "en": "In 2024, for the first time, multi-file editing started to work.",
+  "zh": "2024 年,多文件编辑第一次真正能用了。"
+ },
+ {
+  "seg": 15,
+  "start": 87.005,
+  "end": 89.806,
+  "speaker": "Unknown",
+  "en": "Cursor was the first to do this, and then a couple of other products followed.",
+  "zh": "Cursor 是第一个做到这一点的,随后其他几个产品也跟进了。"
+ },
+ {
+  "seg": 16,
+  "start": 90.326,
+  "end": 94.467,
+  "speaker": "Unknown",
+  "en": "But now, for the first time, AI could simultaneously edit multiple files at once.",
+  "zh": "而这一次,AI 第一次能够同时编辑多个文件。"
+ },
+ {
+  "seg": 17,
+  "start": 95.347,
+  "end": 99.148,
+  "speaker": "Unknown",
+  "en": "But things got really interesting in 2025, because for the first time, we had autonomous agents.",
+  "zh": "但到了 2025 年,事情变得真正有趣起来,因为我们第一次拥有了自主智能体。"
+ },
+ {
+  "seg": 18,
+  "start": 99.468,
+  "end": 103.629,
+  "speaker": "Unknown",
+  "en": "They could be given a task, and they could go and fulfill the task and create entire pull requests all at once.",
+  "zh": "它们可以被交给一个任务,然后去完成任务,并一次性创建完整的 pull request。"
+ },
+ {
+  "seg": 19,
+  "start": 103.929,
+  "end": 109.67,
+  "speaker": "Unknown",
+  "en": "And this came to a precipice in December of last year when coding agents became literally completely autonomous.",
+  "zh": "而这在去年 12 月达到了顶点,编程智能体变得字面意义上的完全自主。"
+ },
+ {
+  "seg": 20,
+  "start": 109.97,
+  "end": 119.558,
+  "speaker": "Unknown",
+  "en": "And anyone that's working in AI coding knows that December when the new models came out was sort of this watershed moment in the history of AI coding because these products for the first time were truly autonomous in how they're programmed.",
+  "zh": "任何一个在 AI 编程领域工作的人都知道,新模型发布的那 12 月,算是 AI 编程史上的一个分水岭时刻,因为这些产品第一次在编程方式上真正实现了自主。"
+ },
+ {
+  "seg": 21,
+  "start": 120.499,
+  "end": 127.545,
+  "speaker": "Unknown",
+  "en": "And all over Twitter, there were all these crazy stories of people that were having these agents spin off and open 100 pull requests a day.",
+  "zh": "在 Twitter 上到处都是这些疯狂的故事,人们让这些智能体不停地开工,一天打开 100 个 pull request。"
+ },
+ {
+  "seg": 22,
+  "start": 128.045,
+  "end": 133.57,
+  "speaker": "Unknown",
+  "en": "They were experimenting with polyphasic sleep so they could stay awake to re-trigger their agents from time to time.",
+  "zh": "他们在实验多相睡眠,这样他们可以保持清醒,时不时地重新触发他们的智能体。"
+ },
+ {
+  "seg": 23,
+  "start": 134.595,
+  "end": 141.017,
+  "speaker": "Unknown",
+  "en": "And as someone that had started programming before agents, I was very skeptical that real companies could program this way.",
+  "zh": "作为一个在智能体出现之前就开始编程的人,我非常怀疑真正的公司是否能用这种方式编程。"
+ },
+ {
+  "seg": 24,
+  "start": 141.657,
+  "end": 142.658,
+  "speaker": "Unknown",
+  "en": "So I was really, really curious.",
+  "zh": "所以我真的、真的非常好奇。"
+ },
+ {
+  "seg": 25,
+  "start": 142.718,
+  "end": 145.179,
+  "speaker": "Unknown",
+  "en": "Are these fully vibed PRs really actually good?",
+  "zh": "这些完全靠 vibe 写出来的 PR 真的好吗?"
+ },
+ {
+  "seg": 26,
+  "start": 145.659,
+  "end": 160.944,
+  "speaker": "Unknown",
+  "en": "Is this something that's sort of a Twitter hype and you can have independent developers and maybe like small startups with no real customers do this, but anyone with real customers with an actually commercially viable code base, could they still use these end-to-end coding agents?",
+  "zh": "这是不是某种 Twitter 上的炒作,只有独立开发者、或者可能像没有真正客户的小型初创公司才能这么做,而任何拥有真实客户、拥有真正具备商业可行性代码库的人,他们还能使用这些端到端编程智能体吗?"
+ },
+ {
+  "seg": 27,
+  "start": 162.205,
+  "end": 166.03,
+  "speaker": "Unknown",
+  "en": "And at Grubtile, we're fortunate to work with some very large companies.",
+  "zh": "在 Grubtile,我们很幸运能与一些非常大的公司合作。"
+ },
+ {
+  "seg": 28,
+  "start": 166.05,
+  "end": 169.515,
+  "speaker": "Unknown",
+  "en": "We work with NVIDIA, with Coinbase, with Scale, with Datadog, with American Express.",
+  "zh": "我们与 NVIDIA、Coinbase、Scale、Datadog、American Express 合作。"
+ },
+ {
+  "seg": 29,
+  "start": 169.875,
+  "end": 179.648,
+  "speaker": "Unknown",
+  "en": "And we got really excited to see if these coding agents were being used really at these large companies and if they were any good at doing real-world coding.",
+  "zh": "我们非常兴奋地想看看这些编程智能体是否真的被这些大公司使用,以及它们在真实世界的编程中是否好用。"
+ },
+ {
+  "seg": 30,
+  "start": 182.645,
+  "end": 186.087,
+  "speaker": "Unknown",
+  "en": "So as an amateur data scientist, I decided to go and dive into our data.",
+  "zh": "所以,作为一名业余数据科学家,我决定深入挖掘我们的数据。"
+ },
+ {
+  "seg": 31,
+  "start": 186.407,
+  "end": 188.168,
+  "speaker": "Unknown",
+  "en": "We review more than a million pull requests a month.",
+  "zh": "我们每月审查超过一百万个 pull request。"
+ },
+ {
+  "seg": 32,
+  "start": 188.808,
+  "end": 192.39,
+  "speaker": "Unknown",
+  "en": "And we tend to get a lot of interesting data on what's good and bad about these pull requests.",
+  "zh": "我们往往会得到大量关于这些 pull request 哪里好、哪里坏的有趣数据。"
+ },
+ {
+  "seg": 33,
+  "start": 192.41,
+  "end": 193.991,
+  "speaker": "Unknown",
+  "en": "We do this for thousands and thousands of companies.",
+  "zh": "我们为成千上万家公司做这件事。"
+ },
+ {
+  "seg": 34,
+  "start": 194.511,
+  "end": 199.153,
+  "speaker": "Unknown",
+  "en": "And they're usually enterprises, or at least companies with serious products with real customers.",
+  "zh": "它们通常是企业,或者至少是拥有真实客户、产品认真的公司。"
+ },
+ {
+  "seg": 35,
+  "start": 199.494,
+  "end": 202.895,
+  "speaker": "Unknown",
+  "en": "And so we figured actually studying this data would yield some really interesting results.",
+  "zh": "所以我们觉得,研究这些数据真的会产生一些非常有趣的结果。"
+ },
+ {
+  "seg": 36,
+  "start": 203.696,
+  "end": 210.659,
+  "speaker": "Unknown",
+  "en": "It was surprisingly hard to figure out, from all the pull requests that Greptal was reviewing, which of the pull requests was actually generated by AI.",
+  "zh": "令人惊讶的是,要从 Greptal 审查的所有 pull request 中弄清楚哪些 pull request 是真正由 AI 生成的,非常困难。"
+ },
+ {
+  "seg": 37,
+  "start": 210.759,
+  "end": 211.84,
+  "speaker": "Unknown",
+  "en": "It was surprisingly difficult to do this.",
+  "zh": "做这件事出乎意料地难。"
+ },
+ {
+  "seg": 38,
+  "start": 212.96,
+  "end": 216.342,
+  "speaker": "Unknown",
+  "en": "The first thing that I tried was I started looking at the GitHub author field.",
+  "zh": "我尝试的第一件事是,我开始查看 GitHub 的 author 字段。"
+ },
+ {
+  "seg": 39,
+  "start": 217.563,
+  "end": 221.566,
+  "speaker": "Unknown",
+  "en": "GitHub, every commit has an author field, and so went through the authors.",
+  "zh": "GitHub 上,每一个 commit 都有一个 author 字段,所以我遍历了这些 author。"
+ },
+ {
+  "seg": 40,
+  "start": 222.026,
+  "end": 226.829,
+  "speaker": "Unknown",
+  "en": "And it turns out that less than 1% of pull requests had Codex, or Claude, or Cursor as the author.",
+  "zh": "结果发现,只有不到 1% 的 pull request 的作者是 Codex、Claude 或 Cursor。"
+ },
+ {
+  "seg": 41,
+  "start": 227.89,
+  "end": 231.352,
+  "speaker": "Unknown",
+  "en": "But it wasn't intuitive to me that only about 1% of all code was fully AI generated.",
+  "zh": "但对我来说,只有大约 1% 的代码是完全由 AI 生成的,这并不符合直觉。"
+ },
+ {
+  "seg": 42,
+  "start": 231.372,
+  "end": 233.273,
+  "speaker": "Unknown",
+  "en": "It just seemed intuitive that that number would be much higher.",
+  "zh": "直觉上,这个数字应该会高得多。"
+ },
+ {
+  "seg": 43,
+  "start": 233.854,
+  "end": 234.995,
+  "speaker": "Unknown",
+  "en": "So I started to look for other signals.",
+  "zh": "所以我开始寻找其他信号。"
+ },
+ {
+  "seg": 44,
+  "start": 235.818,
+  "end": 241.103,
+  "speaker": "Unknown",
+  "en": "Now, thankfully, Claude and Codex and some other products leave a PR description in the footer.",
+  "zh": "值得庆幸的是,Claude 和 Codex 以及其他一些产品会在 PR 描述的页脚留下信息。"
+ },
+ {
+  "seg": 45,
+  "start": 241.623,
+  "end": 246.067,
+  "speaker": "Unknown",
+  "en": "In the PR description, they put something along the lines of co-authored by Claude or co-authored by cursor and so on.",
+  "zh": "在 PR 描述里,它们会写上类似「co-authored by Claude」或「co-authored by cursor」之类的内容。"
+ },
+ {
+  "seg": 46,
+  "start": 246.668,
+  "end": 252.413,
+  "speaker": "Unknown",
+  "en": "And this gave me a little bit more signal, a little bit more data on which PRs were ostensibly largely, if not completely, AI generated.",
+  "zh": "这给了我更多一点的信号、更多一点的数据,来知道哪些 PR 表面上即使不是完全、也在很大程度上是 AI 生成的。"
+ },
+ {
+  "seg": 47,
+  "start": 253.682,
+  "end": 255.583,
+  "speaker": "Unknown",
+  "en": "The third thing I looked at was branch name prefixes.",
+  "zh": "我看的第三个东西是分支名前缀。"
+ },
+ {
+  "seg": 48,
+  "start": 255.623,
+  "end": 258.264,
+  "speaker": "Unknown",
+  "en": "If you use Codex, you know that Codex names as branches.",
+  "zh": "如果你用过 Codex,你知道 Codex 会这样给分支命名。"
+ },
+ {
+  "seg": 49,
+  "start": 258.644,
+  "end": 266.926,
+  "speaker": "Unknown",
+  "en": "And it seemed reasonable that if someone was using these coding agents in such a sense that they were writing the branch names or writing the PR descriptions, that the PRs were largely AI generated.",
+  "zh": "而如果有人在这样的意义上使用这些编程智能体——即由它们来写分支名或写 PR 描述——那么这些 PR 在很大程度上是 AI 生成的,这似乎是合理的。"
+ },
+ {
+  "seg": 50,
+  "start": 266.946,
+  "end": 268.427,
+  "speaker": "Unknown",
+  "en": "That seemed like a reasonable assumption to me.",
+  "zh": "在我看来这似乎是个合理的假设。"
+ },
+ {
+  "seg": 51,
+  "start": 268.967,
+  "end": 274.769,
+  "speaker": "Unknown",
+  "en": "So now I had a good set of signals to indicate whether a pull request was, in fact, completely or largely AI generated or not.",
+  "zh": "所以现在我有了很好的信号集，可以用来判断一个 pull request 是否事实上完全或主要由 AI 生成。"
+ },
+ {
+  "seg": 52,
+  "start": 276.123,
+  "end": 283.934,
+  "speaker": "Unknown",
+  "en": "And it came to the result that about a quarter of all the pull requests that Greptel was reviewing in any given month were completely, or at least largely, generated by AI.",
+  "zh": "结果表明，在任何给定的月份里，Greptel 所审查的 pull request 中大约四分之一是完全、或至少大部分由 AI 生成的。"
+ },
+ {
+  "seg": 53,
+  "start": 286.676,
+  "end": 288.557,
+  "speaker": "Unknown",
+  "en": "Then I backtracked this data to the last 12 months.",
+  "zh": "然后我把这些数据回溯到了过去 12 个月。"
+ },
+ {
+  "seg": 54,
+  "start": 288.998,
+  "end": 290.979,
+  "speaker": "Unknown",
+  "en": "And it turns out that this number is growing really fast.",
+  "zh": "结果发现这个数字增长得非常快。"
+ },
+ {
+  "seg": 55,
+  "start": 291.34,
+  "end": 296.804,
+  "speaker": "Unknown",
+  "en": "In fact, early last year, fewer than 1% of pull requests had any evidence of being completely air generated.",
+  "zh": "事实上，去年年初，只有不到 1% 的 pull request 有证据表明是完全由 AI 生成的。"
+ },
+ {
+  "seg": 56,
+  "start": 297.344,
+  "end": 300.186,
+  "speaker": "Unknown",
+  "en": "So this number is going very, very fast as model performance is getting better.",
+  "zh": "所以随着模型性能的提升，这个数字增长得非常、非常快。"
+ },
+ {
+  "seg": 57,
+  "start": 300.647,
+  "end": 305.03,
+  "speaker": "Unknown",
+  "en": "What's also interesting is that you can't tell when new models came out on this chart.",
+  "zh": "同样有趣的是，你在这张图表上无法看出新模型是什么时候发布的。"
+ },
+ {
+  "seg": 58,
+  "start": 305.39,
+  "end": 307.252,
+  "speaker": "Unknown",
+  "en": "It seemed like the progress is very continuous.",
+  "zh": "看起来进步是非常连续的。"
+ },
+ {
+  "seg": 59,
+  "start": 307.612,
+  "end": 311.415,
+  "speaker": "Unknown",
+  "en": "These things are just generally diffusing into the economy at a generally high pace.",
+  "zh": "这些东西正在以总体较高的速度向经济中扩散。"
+ },
+ {
+  "seg": 60,
+  "start": 313.302,
+  "end": 314.242,
+  "speaker": "Unknown",
+  "en": "So then came the next question.",
+  "zh": "接着就引出了下一个问题。"
+ },
+ {
+  "seg": 61,
+  "start": 315.023,
+  "end": 315.823,
+  "speaker": "Unknown",
+  "en": "Everyone's vibe coding.",
+  "zh": "人人都在 vibe coding。"
+ },
+ {
+  "seg": 62,
+  "start": 316.043,
+  "end": 320.025,
+  "speaker": "Unknown",
+  "en": "Everyone's producing these PRs that are end-to-end agentic, not human plus AI, but literally AI.",
+  "zh": "人人都在产出这些端到端由智能体完成的 PR，不是人类加 AI，而纯粹是 AI。"
+ },
+ {
+  "seg": 63,
+  "start": 320.325,
+  "end": 321.705,
+  "speaker": "Unknown",
+  "en": "The question is, are these PRs any good?",
+  "zh": "问题是，这些 PR 到底好不好？"
+ },
+ {
+  "seg": 64,
+  "start": 323.226,
+  "end": 324.727,
+  "speaker": "Unknown",
+  "en": "First question, what does it mean for a PR to be good?",
+  "zh": "第一个问题，一个 PR 好，意味着什么？"
+ },
+ {
+  "seg": 65,
+  "start": 325.087,
+  "end": 329.768,
+  "speaker": "Unknown",
+  "en": "That seemed like actually a very important question to answer before we got into judging these AI-generated PRs.",
+  "zh": "在我们开始评判这些 AI 生成的 PR 之前，这看起来确实是一个非常重要的、需要回答的问题。"
+ },
+ {
+  "seg": 66,
+  "start": 330.409,
+  "end": 332.009,
+  "speaker": "Unknown",
+  "en": "And so I took a few methods to try this.",
+  "zh": "所以我尝试了几种方法来做这件事。"
+ },
+ {
+  "seg": 67,
+  "start": 332.269,
+  "end": 333.73,
+  "speaker": "Unknown",
+  "en": "The first one I tried was revert rates.",
+  "zh": "我尝试的第一个方法是回退率。"
+ },
+ {
+  "seg": 68,
+  "start": 334.53,
+  "end": 336.751,
+  "speaker": "Unknown",
+  "en": "If a pull request was reverted, it was probably pretty bad.",
+  "zh": "如果一个 pull request 被回退了，它可能相当糟糕。"
+ },
+ {
+  "seg": 69,
+  "start": 337.211,
+  "end": 338.432,
+  "speaker": "Unknown",
+  "en": "And so that seemed like a pretty",
+  "zh": "所以这似乎是一个相当"
+ },
+ {
+  "seg": 70,
+  "start": 340.119,
+  "end": 342.602,
+  "speaker": "Unknown",
+  "en": "Sincere sort of guess at what a bad PR could be.",
+  "zh": "真诚的、关于糟糕 PR 可能是什么的猜测。"
+ },
+ {
+  "seg": 71,
+  "start": 342.962,
+  "end": 346.086,
+  "speaker": "Unknown",
+  "en": "And so I started tracking, OK, which PRs were in fact reverted.",
+  "zh": "于是我开始追踪，好的，哪些 PR 事实上被回退了。"
+ },
+ {
+  "seg": 72,
+  "start": 346.446,
+  "end": 351.171,
+  "speaker": "Unknown",
+  "en": "GitHub conveniently names its branches with a reverse dash PR number and PR name.",
+  "zh": "GitHub 便利地以 reverse dash 加 PR 编号和 PR 名称的方式为其分支命名。"
+ },
+ {
+  "seg": 73,
+  "start": 351.612,
+  "end": 354.195,
+  "speaker": "Unknown",
+  "en": "And so I was able to track the rate at which these things were being reverted.",
+  "zh": "所以我能够追踪这些分支被回退的比率。"
+ },
+ {
+  "seg": 74,
+  "start": 354.675,
+  "end": 355.596,
+  "speaker": "Unknown",
+  "en": "And I found some interesting data.",
+  "zh": "而且我发现了一些有趣的数据。"
+ },
+ {
+  "seg": 75,
+  "start": 356.451,
+  "end": 359.115,
+  "speaker": "Unknown",
+  "en": "Codex PRs were reverted by one out of every 1,000 pull requests.",
+  "zh": "Codex 的 PR 被回退的比率是每 1,000 个 pull request 中 1 个。"
+ },
+ {
+  "seg": 76,
+  "start": 359.676,
+  "end": 363.081,
+  "speaker": "Unknown",
+  "en": "Devin once every three and a half times every 1,000 pull requests.",
+  "zh": "Devin 是每 1,000 个 pull request 中三次半。"
+ },
+ {
+  "seg": 77,
+  "start": 363.582,
+  "end": 364.964,
+  "speaker": "Unknown",
+  "en": "He was right in the middle at about two and a half.",
+  "zh": "他正好在中间，大约是两次半。"
+ },
+ {
+  "seg": 78,
+  "start": 365.484,
+  "end": 371.553,
+  "speaker": "Unknown",
+  "en": "So there didn't seem to be very big difference between the rate at which pull requests were reverted from people versus agents in my study.",
+  "zh": "所以在我的研究中，人类与智能体的 pull request 被回退的比率之间似乎没有太大差别。"
+ },
+ {
+  "seg": 79,
+  "start": 372.194,
+  "end": 373.415,
+  "speaker": "Unknown",
+  "en": "Now, I was very skeptical of this.",
+  "zh": "不过，我对此非常怀疑。"
+ },
+ {
+  "seg": 80,
+  "start": 373.495,
+  "end": 379.381,
+  "speaker": "Unknown",
+  "en": "And I figured, OK, this is probably because humans are making agents do the easier work, the simpler, well-scoped pull requests.",
+  "zh": "我猜，好的，这可能是因为人类让智能体做更简单的工作，即更简单、范围界定更清晰的 pull request。"
+ },
+ {
+  "seg": 81,
+  "start": 380.061,
+  "end": 381.983,
+  "speaker": "Unknown",
+  "en": "And the more complex work was being done by humans.",
+  "zh": "而更复杂的工作是由人类完成的。"
+ },
+ {
+  "seg": 82,
+  "start": 382.003,
+  "end": 388.029,
+  "speaker": "Unknown",
+  "en": "And of course, complex work had a higher propensity to be reverted because the pull requests were more complicated, had larger surface areas, risks, and so on.",
+  "zh": "当然，复杂工作被回退的倾向更高，因为这些 pull request 更复杂、表面积更大、风险更高等等。"
+ },
+ {
+  "seg": 83,
+  "start": 388.969,
+  "end": 394.675,
+  "speaker": "Unknown",
+  "en": "So I decided to measure the average size of PR and whether the revert rates were sort of aligned for both of those.",
+  "zh": "所以我决定测量 PR 的平均大小，以及两者的回退率是否与大小大体一致。"
+ },
+ {
+  "seg": 84,
+  "start": 395.533,
+  "end": 396.614,
+  "speaker": "Unknown",
+  "en": "And I found really interesting data.",
+  "zh": "而且我发现了非常有趣的数据。"
+ },
+ {
+  "seg": 85,
+  "start": 396.974,
+  "end": 403.94,
+  "speaker": "Unknown",
+  "en": "Turns out there's actually very little correlation, if any, between the size of PRs that humans were getting reverted versus size of PRs from agents that were being reverted.",
+  "zh": "结果发现，人类被回退的 PR 大小与智能体被回退的 PR 大小之间，即便有相关性也非常小。"
+ },
+ {
+  "seg": 86,
+  "start": 404.64,
+  "end": 410.225,
+  "speaker": "Unknown",
+  "en": "So this does not seem like actually very strong evidence that the human PRs are any better than the agent PRs.",
+  "zh": "所以这看起来并不能作为很有力的证据，说明人类的 PR 比智能体的 PR 好多少。"
+ },
+ {
+  "seg": 87,
+  "start": 412.166,
+  "end": 414.788,
+  "speaker": "Unknown",
+  "en": "The second set of signals I started looking at was Greptile Comets.",
+  "zh": "我开始关注的第二组信号是 Greptile Comets。"
+ },
+ {
+  "seg": 88,
+  "start": 414.808,
+  "end": 416.35,
+  "speaker": "Unknown",
+  "en": "Now, Greptile's reviewing all these pull requests.",
+  "zh": "现在，Greptile 正在审查所有这些 pull request。"
+ },
+ {
+  "seg": 89,
+  "start": 417.085,
+  "end": 420.489,
+  "speaker": "Unknown",
+  "en": "And Greptile finds P0s, P1s, P2s across all these changes.",
+  "zh": "而且 Greptile 在所有这些变更中发现 P0、P1、P2。"
+ },
+ {
+  "seg": 90,
+  "start": 420.829,
+  "end": 426.175,
+  "speaker": "Unknown",
+  "en": "And it seemed reasonable that if Greptile was finding more bugs in the code, that the code was most likely worse.",
+  "zh": "看起来合理的是，如果 Greptile 在代码中发现了更多的 bug，那么这些代码很可能更差。"
+ },
+ {
+  "seg": 91,
+  "start": 427.317,
+  "end": 431.762,
+  "speaker": "Unknown",
+  "en": "So then I started tracking the counts of P0s, P1s, and P2s in all of these changes.",
+  "zh": "于是我开始追踪所有这些变更中 P0、P1 和 P2 的数量。"
+ },
+ {
+  "seg": 92,
+  "start": 432.864,
+  "end": 435.386,
+  "speaker": "Unknown",
+  "en": "And interestingly, once again, there was not that much of a difference.",
+  "zh": "有趣的是，再次地，并没有那么大的差别。"
+ },
+ {
+  "seg": 93,
+  "start": 435.827,
+  "end": 441.972,
+  "speaker": "Unknown",
+  "en": "In fact, three out of the four agents that we tested performed better than humans in terms of the rate they were producing P0s.",
+  "zh": "事实上，在我们测试的四个智能体中，有三个在产出 P0 的比率方面表现优于人类。"
+ },
+ {
+  "seg": 94,
+  "start": 441.992,
+  "end": 444.535,
+  "speaker": "Unknown",
+  "en": "They were producing fewer P0s than humans were.",
+  "zh": "它们产出的 P0 比人类更少。"
+ },
+ {
+  "seg": 95,
+  "start": 445.316,
+  "end": 447.418,
+  "speaker": "Unknown",
+  "en": "Similarly, the case with P1s and P2s.",
+  "zh": "P1 和 P2 的情况也类似。"
+ },
+ {
+  "seg": 96,
+  "start": 448.138,
+  "end": 454.184,
+  "speaker": "Unknown",
+  "en": "Broadly speaking, human-generated PRs were about equal in quality to agent-generated PRs based on this data.",
+  "zh": "大体而言，根据这些数据，人类生成的 PR 在质量上与智能体生成的 PR 大致相当。"
+ },
+ {
+  "seg": 97,
+  "start": 456.267,
+  "end": 457.847,
+  "speaker": "Unknown",
+  "en": "Then I started looking at a third piece of data.",
+  "zh": "然后我开始关注第三个数据。"
+ },
+ {
+  "seg": 98,
+  "start": 458.568,
+  "end": 468.991,
+  "speaker": "Unknown",
+  "en": "The most common way to use Reptile is to have it review a pull request, get some set of comments, and then have the agent go and look at those comments, address them, and make a new commit on the pull request branch.",
+  "zh": "使用 Reptile 最常见的方式是让它审查一个 pull request，得到一组评论，然后让智能体去查看那些评论、处理它们，并在 pull request 分支上提交一个新的 commit。"
+ },
+ {
+  "seg": 99,
+  "start": 469.611,
+  "end": 471.071,
+  "speaker": "Unknown",
+  "en": "That is the most common way to use Reptile.",
+  "zh": "这是使用 Reptile 最常见的方式。"
+ },
+ {
+  "seg": 100,
+  "start": 471.472,
+  "end": 476.913,
+  "speaker": "Unknown",
+  "en": "And so it seems reasonable that if the pull requests were higher quality, it would require fewer iterations before they would be merged.",
+  "zh": "所以看起来合理的推论是,如果拉取请求的质量更高,那么它们在被合并之前所需的迭代次数就会更少。"
+ },
+ {
+  "seg": 101,
+  "start": 477.313,
+  "end": 482.875,
+  "speaker": "Unknown",
+  "en": "And so I started tracking the number of iterations, the number of review rounds between when the pull request was opened and when it was merged.",
+  "zh": "于是我开始追踪迭代次数,即拉取请求从被打开到被合并之间的评审轮数。"
+ },
+ {
+  "seg": 102,
+  "start": 484.69,
+  "end": 486.172,
+  "speaker": "Unknown",
+  "en": "Sure enough, very little difference.",
+  "zh": "果然,差别非常小。"
+ },
+ {
+  "seg": 103,
+  "start": 486.912,
+  "end": 494.16,
+  "speaker": "Unknown",
+  "en": "Devon's PRs 2.1, Codex PRs 2.45, number of review cycles to merge, and humans right in the middle.",
+  "zh": "Devon 的 PR 是 2.1,Codex 的 PR 是 2.45,即合并所需的评审周期数,而人类正好在中间。"
+ },
+ {
+  "seg": 104,
+  "start": 494.681,
+  "end": 502.149,
+  "speaker": "Unknown",
+  "en": "Once again, very little, if any, statistical difference between human-generated and AI-generated pull requests in terms of how many iterations before they're ready to merge.",
+  "zh": "再一次,在多少轮迭代后才准备好合并这一点上,人类生成的拉取请求和 AI 生成的拉取请求之间几乎没有统计学差异,即便有也很小。"
+ },
+ {
+  "seg": 105,
+  "start": 504.383,
+  "end": 511.405,
+  "speaker": "Unknown",
+  "en": "So now that there wasn't any strong evidence that agent-generated PRs were worse than human-generated PRs, I got curious if there were qualitative differences.",
+  "zh": "也就是大约每个工作日两个。"
+ },
+ {
+  "seg": 106,
+  "start": 511.865,
+  "end": 516.166,
+  "speaker": "Unknown",
+  "en": "Maybe the types of ways in which agents failed were different from the types of ways that humans failed.",
+  "zh": "也许智能体失败的方式类型与人类失败的方式类型不同。"
+ },
+ {
+  "seg": 107,
+  "start": 517.047,
+  "end": 519.567,
+  "speaker": "Unknown",
+  "en": "And so then I looked at the corpus of Greptile's comments.",
+  "zh": "于是我查看了 Greptile 的评论语料库。"
+ },
+ {
+  "seg": 108,
+  "start": 519.907,
+  "end": 522.268,
+  "speaker": "Unknown",
+  "en": "It makes, on average, about four comments per pull request.",
+  "zh": "平均每个拉取请求它会留下大约四条评论。"
+ },
+ {
+  "seg": 109,
+  "start": 522.288,
+  "end": 525.469,
+  "speaker": "Unknown",
+  "en": "So we had this corpus of several million comments across the last several months.",
+  "zh": "所以我们有了过去几个月累计数百万条评论的语料库。"
+ },
+ {
+  "seg": 110,
+  "start": 526.329,
+  "end": 528.85,
+  "speaker": "Unknown",
+  "en": "And so I started scanning them for specific phrases and words.",
+  "zh": "于是我开始扫描它们,寻找特定的短语和词汇。"
+ },
+ {
+  "seg": 111,
+  "start": 529.656,
+  "end": 532.819,
+  "speaker": "Unknown",
+  "en": "For instance, SQL injection or n plus one query.",
+  "zh": "例如,SQL 注入或 N+1 查询。"
+ },
+ {
+  "seg": 112,
+  "start": 533.259,
+  "end": 536.662,
+  "speaker": "Unknown",
+  "en": "And I plotted the frequency with which these terms occur in reptile comments for these various agents.",
+  "zh": "然后我绘制了这些词条在 reptile 针对各个智能体的评论中出现的频率。"
+ },
+ {
+  "seg": 113,
+  "start": 539.085,
+  "end": 541.287,
+  "speaker": "Unknown",
+  "en": "And so I made this chart of patterns of failure.",
+  "zh": "于是我做了这张失败模式的图表。"
+ },
+ {
+  "seg": 114,
+  "start": 543.389,
+  "end": 549.135,
+  "speaker": "Unknown",
+  "en": "To interpret this chart, you can assume that 1x is the human propensity for producing that type of error across the entire chart.",
+  "zh": "解读这张图表时,你可以假设 1x 代表整张图表中人类产生该类错误的倾向。"
+ },
+ {
+  "seg": 115,
+  "start": 549.695,
+  "end": 555.621,
+  "speaker": "Unknown",
+  "en": "And you can kind of see that there's actually quite a lot of variation in the types of failures that these agents seem to produce.",
+  "zh": "你大致可以看出,这些智能体似乎产生的失败类型实际上存在相当大的差异。"
+ },
+ {
+  "seg": 116,
+  "start": 556.422,
+  "end": 561.046,
+  "speaker": "Unknown",
+  "en": "For instance, Claude is one and a half times more likely to produce a SQL injection error than humans.",
+  "zh": "例如,Claude 产生 SQL 注入错误的可能性是人类的一点五倍。"
+ },
+ {
+  "seg": 117,
+  "start": 562.147,
+  "end": 567.573,
+  "speaker": "Unknown",
+  "en": "Devon is about half as likely as humans to produce an off-bypass issue.",
+  "zh": "Devon 产生 off-bypass 问题的可能性大约是人类的一半。"
+ },
+ {
+  "seg": 118,
+  "start": 569.329,
+  "end": 575.431,
+  "speaker": "Unknown",
+  "en": "I found it very interesting that there was this much variation in how these agents were performing and how different their failure modes were from humans.",
+  "zh": "我觉得非常有意思的是,这些智能体的表现存在如此大的差异,而且它们的失败模式与人类如此不同。"
+ },
+ {
+  "seg": 119,
+  "start": 578.231,
+  "end": 592.996,
+  "speaker": "Unknown",
+  "en": "So it turns out that in spite of my initial skepticism around the enterprise usability of end-to-end coding agents, the evidence seems to suggest that they're here and they probably can contribute in real meaningful ways to enterprise coding environments.",
+  "zh": "所以事实证明,尽管我最初对端到端编程智能体的企业可用性持怀疑态度,但证据似乎表明它们已经来了,而且它们很可能能以真正有意义的方式为企业编程环境做出贡献。"
+ },
+ {
+  "seg": 120,
+  "start": 594.076,
+  "end": 597.497,
+  "speaker": "Unknown",
+  "en": "And so we started to think a little bit more about what code review would look like in such a world.",
+  "zh": "于是我们开始进一步思考,在这样的世界里,代码评审会是什么样子。"
+ },
+ {
+  "seg": 121,
+  "start": 598.357,
+  "end": 599.137,
+  "speaker": "Unknown",
+  "en": "Here's an interesting stat.",
+  "zh": "这里有一个有意思的数据。"
+ },
+ {
+  "seg": 122,
+  "start": 600.378,
+  "end": 605.141,
+  "speaker": "Unknown",
+  "en": "Today, GrubTile is used by several tens of thousands of engineers every single week to review all of their code.",
+  "zh": "如今,GrubTile 每周被数万名工程师用来评审他们的所有代码。"
+ },
+ {
+  "seg": 123,
+  "start": 605.921,
+  "end": 610.524,
+  "speaker": "Unknown",
+  "en": "So we also know, generally speaking, the number of pull requests that each of these people are writing.",
+  "zh": "所以我们也大致知道这些人中的每一个正在编写多少拉取请求。"
+ },
+ {
+  "seg": 124,
+  "start": 611.304,
+  "end": 614.246,
+  "speaker": "Unknown",
+  "en": "The median GrubTile user writes 50 pull requests a month.",
+  "zh": "GrubTile 用户的中位数每月写 50 个拉取请求。"
+ },
+ {
+  "seg": 125,
+  "start": 614.846,
+  "end": 616.627,
+  "speaker": "Unknown",
+  "en": "So call it about two per workday.",
+  "zh": "所以可以说大约每个工作日两个。"
+ },
+ {
+  "seg": 126,
+  "start": 617.508,
+  "end": 620.77,
+  "speaker": "Unknown",
+  "en": "The 90th percentile writes 500 pull requests per month.",
+  "zh": "第 90 百分位的用户每月写 500 个拉取请求。"
+ },
+ {
+  "seg": 127,
+  "start": 620.79,
+  "end": 623.451,
+  "speaker": "Unknown",
+  "en": "That is a drastic difference between the median and the P90.",
+  "zh": "中位数和 P90 之间是巨大的差距。"
+ },
+ {
+  "seg": 128,
+  "start": 624.252,
+  "end": 626.433,
+  "speaker": "Unknown",
+  "en": "The P99 is in the thousands of pull requests.",
+  "zh": "P99 则是数千个拉取请求。"
+ },
+ {
+  "seg": 129,
+  "start": 627.281,
+  "end": 633.567,
+  "speaker": "Unknown",
+  "en": "That isn't very interesting in its own sense, because that means that the people on the margins are actually producing pull requests at the rate at which they're coming up with new ideas.",
+  "zh": "这本身并不算很有意思,但这意味着处于边缘的那些人实际上产出拉取请求的速率,与他们想出新点子的速率是一样的。"
+ },
+ {
+  "seg": 130,
+  "start": 634.888,
+  "end": 646.658,
+  "speaker": "Unknown",
+  "en": "And beyond being interesting, it also makes you wonder, well, their existing systems for validating this code, which is manual code review, of course, testing, maybe you have a QA firm that you work with, naturally can't scale to that same degree.",
+  "zh": "而且除了有意思之外,这还让你不禁思考:他们现有的验证代码的系统——当然是人工代码评审、测试,也许还有一家与你合作的 QA 公司——自然无法扩展到同样的程度。"
+ },
+ {
+  "seg": 131,
+  "start": 647.359,
+  "end": 651.643,
+  "speaker": "Unknown",
+  "en": "And at GrubTal, we decided to take sort of a first principles view of what really good validation could look like.",
+  "zh": "于是在 GrubTal,我们决定以一种第一性原理的视角来看待真正好的验证可以是什么样子。"
+ },
+ {
+  "seg": 132,
+  "start": 652.063,
+  "end": 665.011,
+  "speaker": "Unknown",
+  "en": "Instead of saying that we wanted to automate QA or automate testing or automate code review, we took a step back and said, what would we need to do for anyone to be able to merge hundreds of pull requests a month in an enterprise environment where it really matters if the code is correct?",
+  "zh": "我们没有说我们想要自动化 QA 或自动化测试或自动化代码评审,而是退后一步说:在一个代码是否正确真的至关重要的企业环境中,我们需要做什么才能让任何人都能每月合并数百个拉取请求?"
+ },
+ {
+  "seg": 133,
+  "start": 665.331,
+  "end": 670.475,
+  "speaker": "Unknown",
+  "en": "What would need to happen between when the code was expressed into a pull request and when it was merged and deployed safely?",
+  "zh": "从代码被表达为一个拉取请求,到它被安全地合并和部署,中间需要发生什么?"
+ },
+ {
+  "seg": 134,
+  "start": 671.342,
+  "end": 673.783,
+  "speaker": "Unknown",
+  "en": "We figured we only actually had to answer three questions.",
+  "zh": "我们认为其实只需要回答三个问题。"
+ },
+ {
+  "seg": 135,
+  "start": 674.203,
+  "end": 677.105,
+  "speaker": "Unknown",
+  "en": "The first one is, does this change violate the user contract?",
+  "zh": "第一个是,这个变更是否违反了用户契约?"
+ },
+ {
+  "seg": 136,
+  "start": 677.625,
+  "end": 684.368,
+  "speaker": "Unknown",
+  "en": "The second one, does it increase the propensity of a future violation of the user contract, whatever the user contract might be for that application?",
+  "zh": "第二个是,它是否增加了未来违反用户契约的倾向,无论该应用的用户契约是什么?"
+ },
+ {
+  "seg": 137,
+  "start": 684.928,
+  "end": 687.629,
+  "speaker": "Unknown",
+  "en": "And third, does it fulfill the intent that the author described?",
+  "zh": "第三个是,它是否实现了作者所描述的意图?"
+ },
+ {
+  "seg": 138,
+  "start": 687.649,
+  "end": 689.95,
+  "speaker": "Unknown",
+  "en": "Does the pull request do the thing that the author wanted to do?",
+  "zh": "这个拉取请求是否做了作者想做的事情?"
+ },
+ {
+  "seg": 139,
+  "start": 691.471,
+  "end": 693.152,
+  "speaker": "Unknown",
+  "en": "And so we've started approaching this problem from",
+  "zh": "于是我们开始从"
+ },
+ {
+  "seg": 140,
+  "start": 694.407,
+  "end": 700.391,
+  "speaker": "Unknown",
+  "en": "Base ground level and said, OK, agents can probably figure out if something's going to violate the user contract and detect bugs.",
+  "zh": "最基础的层面着手,说:好,智能体大概能判断某件事是否会违反用户契约,并能检测 bug。"
+ },
+ {
+  "seg": 141,
+  "start": 701.211,
+  "end": 710.517,
+  "speaker": "Unknown",
+  "en": "If you let it spin up the code in a sandbox, have it install the dependencies, mock the inputs, run the browser agents, you can probably start to discover most of the issues that could occur.",
+  "zh": "如果你让它在沙箱里把代码跑起来,让它安装依赖、模拟输入、运行浏览器智能体,你大概就能开始发现大部分可能出现的问题。"
+ },
+ {
+  "seg": 142,
+  "start": 710.537,
+  "end": 713.138,
+  "speaker": "Unknown",
+  "en": "You get a pretty high degree of confidence on merge.",
+  "zh": "你在合并时就能获得相当高的置信度。"
+ },
+ {
+  "seg": 143,
+  "start": 713.759,
+  "end": 718.842,
+  "speaker": "Unknown",
+  "en": "Today, almost a fifth of all the pull requests of GrubTile reviews are merged without any human review or without any human testing.",
+  "zh": "如今,GrubTile 评审的所有拉取请求中,将近五分之一是在没有任何人工评审或任何人工测试的情况下被合并的。"
+ },
+ {
+  "seg": 144,
+  "start": 719.362,
+  "end": 720.143,
+  "speaker": "Unknown",
+  "en": "Because I find it very interesting.",
+  "zh": "因为我觉得这非常有意思。"
+ },
+ {
+  "seg": 145,
+  "start": 720.563,
+  "end": 726.867,
+  "speaker": "Unknown",
+  "en": "And that is a number that we care a lot about and want to bring higher and higher, of course, within the guardrails of producing really high-quality code.",
+  "zh": "这是一个我们非常在意、并且想要不断推高的数字,当然,要在产出高质量代码的护栏之内。"
+ },
+ {
+  "seg": 146,
+  "start": 730.15,
+  "end": 730.57,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢大家。"
+ },
+ {
+  "seg": 147,
+  "start": 730.87,
+  "end": 733.332,
+  "speaker": "Unknown",
+  "en": "My name is Daksh, one of the co-founders of Grubtile.",
+  "zh": "我叫 Daksh,是 Grubtile 的联合创始人之一。"
+ },
+ {
+  "seg": 148,
+  "start": 733.592,
+  "end": 734.953,
+  "speaker": "Unknown",
+  "en": "We have a booth here which you should come to.",
+  "zh": "我们在这里有一个展位,你们应该来看看。"
+ },
+ {
+  "seg": 149,
+  "start": 735.513,
+  "end": 738.495,
+  "speaker": "Unknown",
+  "en": "And if you're interested in trying Grubtile, you can find us at grubtile.com.",
+  "zh": "如果你有兴趣试用 Grubtile,可以在 grubtile.com 找到我们。"
+ },
+ {
+  "seg": 150,
+  "start": 738.516,
+  "end": 740.417,
+  "speaker": "Unknown",
+  "en": "You can try it today for free.",
+  "zh": "你今天就可以免费试用。"
+ },
+ {
+  "seg": 151,
+  "start": 741.117,
+  "end": 742.498,
+  "speaker": "Unknown",
+  "en": "And we'd love to hear your feedback.",
+  "zh": "我们很乐意听到你的反馈。"
+ },
+ {
+  "seg": 152,
+  "start": 742.839,
+  "end": 743.259,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 153,
+  "start": 750.053,
+  "end": 751.017,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

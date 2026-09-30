@@ -131,8 +131,8 @@ JobNimbus 的产品循环:让 AI 一次性生成至少三个不同类型的原�
 **换个口味**
 
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Claude · 同概念:循环 (loop)、智能体 (agent)</span>
+- [[2026-09-27-talks-scale-the-judgment-not-the-model-andrew|扩大判断力,而不是模型:自动驾驶代码库的工程原语]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)、闸门 (gate)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:原型 (prototype)、智能体 (agent)、Linear</span>
-- [[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|GrokBot 设计团队演示:让 AI 替你离开电脑]]<span class="pd-rz">同概念:原型 (prototype)、智能体 (agent)、Figma</span>
 
 </div>
 </div>

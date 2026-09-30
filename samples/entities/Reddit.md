@@ -47,7 +47,7 @@ unlisted: true
 
 [[ChatGPT]] · [[AEO]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[SEO]] · [[物理 AI]] · [[护栏]] · [[推理]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":83,"AEO":5,"智能体":358,"OpenAI":140,"Google":50,"SEO":7,"物理 AI":8,"护栏":65,"推理":61,"LLM":49}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":83,"AEO":5,"智能体":361,"OpenAI":140,"Google":50,"SEO":7,"物理 AI":8,"护栏":67,"推理":61,"LLM":49}</script>
 
 <script>
 (function(){

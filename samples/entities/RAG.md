@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>22</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,16 +32,19 @@ unlisted: true
 - **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(02:41起):本集把它说成:几年前所有应用的主流形态——从语料库检索相关内容再做信息综合(企业搜索、问答机器人),如今正被智能体应用取代。
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(36:07起):本集说短期记忆（最近几周）和长期记忆（两年前）要通过 RAG 之类的机制接入推理环境，让模型按需访问外部资料
 - **[[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]]**(05:37起):本集把它描述为「做一次搜索、把结果直接放进上下文窗口」的传统做法,作为智能体搜索的对照被一笔带过。
+- **[[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]]**(03:07起):本集说智能体的记忆命名空间由 RAG 支撑,但加 RAG 记忆仍得不到想要的长期行为
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe#^q7]]
 
+![[2026-09-26-talks-long-horizon-agents-need-experiments-not#^q6]]
+
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -64,6 +67,7 @@ unlisted: true
 - [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为概念
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为概念
 - [[2026-09-24-sed-chroma-and-agentic-retrieval|《上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体》]] — 作为概念(提及)
+- [[2026-09-26-talks-long-horizon-agents-need-experiments-not|《给 AI 村庄装上自动研究循环：长时程智能体的实验配方》]] — 作为概念
 
 ## ③ 关联
 
@@ -71,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[上下文]] · [[上下文工程]] · [[Claude Code]] · [[Anthropic]] · [[向量搜索]] · [[Codex]] · [[评估]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"智能体":358,"MCP":65,"上下文":24,"上下文工程":15,"Claude Code":86,"Anthropic":153,"向量搜索":4,"Codex":63,"评估":3,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"智能体":361,"MCP":65,"上下文":24,"上下文工程":15,"Claude Code":86,"Anthropic":153,"向量搜索":4,"Codex":65,"评估":3,"可观测性":34}</script>
 
 <script>
 (function(){

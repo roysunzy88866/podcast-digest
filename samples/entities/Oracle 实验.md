@@ -25,7 +25,7 @@ unlisted: true
 
 [[Yuval Belfer]] · [[AI21]] · [[分块]] · [[RAG]] · [[智能体搜索]] · [[多尺度索引]] · [[RRF]] · [[LlamaIndex]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Yuval Belfer":1,"AI21":1,"分块":1,"RAG":21,"智能体搜索":4,"多尺度索引":1,"RRF":1,"LlamaIndex":2,"Anthropic":153}</script>
+<script type="application/json" class="pd-epn">{"Yuval Belfer":1,"AI21":1,"分块":1,"RAG":22,"智能体搜索":4,"多尺度索引":1,"RRF":1,"LlamaIndex":2,"Anthropic":153}</script>
 
 <script>
 (function(){

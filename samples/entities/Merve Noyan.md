@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"视觉语言模型":1,"Hugging Face":25,"智能体":358,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":24,"RFDETR":1}</script>
+<script type="application/json" class="pd-epn">{"视觉语言模型":1,"Hugging Face":25,"智能体":361,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":24,"RFDETR":1}</script>
 
 <script>
 (function(){

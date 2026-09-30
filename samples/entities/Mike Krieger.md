@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]] [[Zach Lloyd]] [[Diogo Almeida]]
+[[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]] [[Wade Foster]] [[Adit Abraham]] [[Merve Noyan]] [[Simon Mayfor]] [[Dex Horthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":153,"Claude":72,"Claude Code":86,"tag":1,"Instagram":6,"Claude Design":1,"Fable":10,"Cowork":6,"智能体":358,"代码审查":18}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":153,"Claude":73,"Claude Code":86,"tag":1,"Instagram":6,"Claude Design":1,"Fable":10,"Cowork":6,"智能体":361,"代码审查":19}</script>
 
 <script>
 (function(){

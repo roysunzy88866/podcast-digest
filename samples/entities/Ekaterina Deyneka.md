@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":358,"智能体视频剪辑":1,"沙箱":65,"Remotion":1,"技能":23}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":361,"智能体视频剪辑":1,"沙箱":66,"Remotion":1,"技能":24}</script>
 
 <script>
 (function(){

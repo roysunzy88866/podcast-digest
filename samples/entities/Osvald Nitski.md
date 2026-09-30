@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Mercor":2,"智能体":358,"开源":27,"RL 环境":6,"编码智能体":22,"评估":3,"机器人":8,"合成数据":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Mercor":2,"智能体":361,"开源":27,"RL 环境":6,"编码智能体":22,"评估":3,"机器人":8,"合成数据":8}</script>
 
 <script>
 (function(){

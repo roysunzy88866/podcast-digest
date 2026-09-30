@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":358,"harness 工程":2,"Bedrock AgentCore":1,"MCP":65,"记忆":18,"多租户隔离":1,"可观测性":34,"基础设施即代码":1,"系统提示词":8,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":361,"harness 工程":3,"Bedrock AgentCore":1,"MCP":65,"记忆":19,"多租户隔离":1,"可观测性":34,"基础设施即代码":1,"系统提示词":8,"Kiro":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,722 @@
+{
+  "episode_id": "2026-09-27-talks-scale-the-judgment-not-the-model-andrew",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "harness 工程",
+    "工程实践",
+    "验证与信任"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "andrew-orobator",
+      "type": "person",
+      "role": "guest",
+      "name": "Andrew Orobator",
+      "file": "Andrew Orobator",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说编码智能体已广泛使用,但每次会话都是空白上下文、零记忆,需要判断力被显式化,并要靠硬性闸门来约束——它们会找到甚至发明自我授权的例外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            165.945,
+            170.269
+          ],
+          "quote": "The agent boots with a blank context window and no memory every session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            171.348,
+            178.29
+          ],
+          "quote": "Every piece of judgment you picked up by osmosis, it has to be made explicit, or the agent simply never has it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            267.039,
+            271.921
+          ],
+          "quote": "It's that bundle written down so that the agent re-fires it instead of guessing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            348.817,
+            352.379
+          ],
+          "quote": "So new session, fresh agent, zero memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            369.962,
+            377.505
+          ],
+          "quote": "I came back to a half-finished presentation and a fresh agent read the work log and resumed exactly where I had left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            541.294,
+            545.095
+          ],
+          "quote": "But none of it matters if you can't actually trust what the agent did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            606.994,
+            609.275
+          ],
+          "quote": "And the agent doesn't have to be right the first time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            632.698,
+            634.319
+          ],
+          "quote": "I give the agent its own QA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            641.921,
+            649.284
+          ],
+          "quote": "The agent that wrote the code will always tell you that it works, so you make it hand back a recording of the thing actually running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            678.77,
+            684.735
+          ],
+          "quote": "I got tired of watching old feature flags pile up, so I built an agent for cleaning up stale feature flags.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            769.448,
+            776.951
+          ],
+          "quote": "One hard lesson from my side projects, when you let an agent author the code, your guardrails are your code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            799.655,
+            801.415
+          ],
+          "quote": "The agent told me that my gate was worthless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            850.043,
+            853.064
+          ],
+          "quote": "Never hand the agent a reason that it can grant itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            866.07,
+            877.035
+          ],
+          "quote": "A flag agent, a dependency agent, an accessibility agent, each one is narrow, each with its own encoded judgment pointed at a different chore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            905.645,
+            910.547
+          ],
+          "quote": "And that flag agent, that's the war room from the opening turned into a specialist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            911.347,
+            917.149
+          ],
+          "quote": "The work somebody organized a whole meeting around is just one member of this agent society.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            988.275,
+            990.678
+          ],
+          "quote": "When an agent fails, you don't just fix the bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1005.652,
+            1015.754
+          ],
+          "quote": "So you give the agent a bedtime, a scheduled pass where it reads its own skills, finds the stale ones and the contradictions, and opens up drafts for review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1104.837,
+            1112.602
+          ],
+          "quote": "Find the judgment your team always asks the same person about and make it explicit, somewhere that an agent can reach it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1125.239,
+            1127.98
+          ],
+          "quote": "The flag agent produces PRs that pass CI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness 工程 (harness engineering)",
+      "file": "harness 工程",
+      "primary": true,
+      "how_described": "本集的核心主张:工作已经变了,工程师现在是「harness 工程师」——构建生产和验证代码的系统(约束、闸门、技能、验证),「更少的产品工程,更多的 harness 工程」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1089.636,
+            1090.857
+          ],
+          "quote": "That's harness engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1118.847,
+            1121.609
+          ],
+          "quote": "Less product engineering and more harness engineering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-driving-codebase",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶代码库 (self-driving codebase)",
+      "file": "自动驾驶代码库",
+      "primary": true,
+      "how_described": "本集标题级概念:当判断力从人的头脑被显式化进代码库、由一群各自「在闸门处转到变绿」的狭窄专家智能体组成时,自动驾驶代码库就会涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            896.362,
+            904.067
+          ],
+          "quote": "That's the fleet, specialists, each spinning at its own gate, and a self-driving codebase emerges from the swarm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1024.476,
+            1030.818
+          ],
+          "quote": "A self-driving codebase is a system that keeps its own judgment current in addition to writing code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集三原语之一:把机构判断力变成可执行的东西,引用 Minsky 的 K 线;强调文档保存事实,而技能保存「哪些事实重要、哪些决策危险」的判断力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            262.158,
+            266.219
+          ],
+          "quote": "A skill is institutional judgment made executable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            290.471,
+            293.414
+          ],
+          "quote": "So a skill is a K line for a code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            968.414,
+            972.216
+          ],
+          "quote": "A skill written for last month's architecture isn't out of date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            991.299,
+            997.345
+          ],
+          "quote": "You run the post-mortem and fold the lesson back into the skill so that failure can't happen twice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1100.253,
+            1102.615
+          ],
+          "quote": "Don't just go write a skill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "work-log",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作日志 (work log)",
+      "file": "工作日志",
+      "primary": true,
+      "how_described": "本集三原语之一:跨会话的工作记忆,记录计划、决策、已尝试的东西;新会话输入 continue 即可从日志续接,他还用 git hook 强制更新日志。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            340.492,
+            341.232
+          ],
+          "quote": "That's a work log.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            344.955,
+            347.416
+          ],
+          "quote": "A work log is a record that starts with one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            355.841,
+            359.163
+          ],
+          "quote": "It reads the work log and picks up at milestone seven out of nine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            359.643,
+            362.725
+          ],
+          "quote": "No re-explaining and the work log is the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            366.14,
+            369.121
+          ],
+          "quote": "I built it across a couple of sessions using a work log.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            369.962,
+            377.505
+          ],
+          "quote": "I came back to a half-finished presentation and a fresh agent read the work log and resumed exactly where I had left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            388.389,
+            392.131
+          ],
+          "quote": "A git hook blocks any commit that doesn't update the work log.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1128.68,
+            1130.621
+          ],
+          "quote": "This talk resumes from a work log.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "persona",
+      "type": "concept",
+      "role": "concept",
+      "name": "人设 (persona)",
+      "file": "人设",
+      "primary": true,
+      "how_described": "本集三原语之一,源自 Karpathy 推文:提示模型时别要观点、要视角;让模型以安全负责人、UX 研究员、马基雅维利等身份评审代码,按需加载自己不具备的判断力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            454.842,
+            459.545
+          ],
+          "quote": "Each persona loads a kind of judgment that I don't personally have on demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1113.583,
+            1116.465
+          ],
+          "quote": "It could be a persona, a lint check, or a commit hook.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集说验证是你和可信软件之间的全部屏障,是一架梯子:构建测试→截图测试→运行录像→生产遥测;无人能跑完的梯级越多,能交出去的自主权越多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            137.129,
+            141.79
+          ],
+          "quote": "The constraints, the gates, the skills, the verification,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            553.277,
+            553.918
+          ],
+          "quote": "Verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            555.318,
+            559.699
+          ],
+          "quote": "Verification is all that stands between you and software that you can trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            578.344,
+            580.527
+          ],
+          "quote": "Verification is a ladder.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "type": "concept",
+      "role": "concept",
+      "name": "闸门 (gate)",
+      "file": "闸门",
+      "primary": true,
+      "how_described": "本集反复强调:机器只尊重硬性闸门而非客气的评审意见;闸门要设在咽喉要道、绕过权限仅限操作员,「带逃生口的闸门不是闸门」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            52.672,
+            54.433
+          ],
+          "quote": "Spin at the gate until green.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            96.333,
+            99.234
+          ],
+          "quote": "And every gate in that system is a human's call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            514.292,
+            526.156
+          ],
+          "quote": "Every gate that you already trust, whether it's CI, or Types, or Lint, or the design system, is just institutional judgment pulled out of someone's head and made mechanical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            625.681,
+            628.121
+          ],
+          "quote": "Spin at the gate until it comes back green.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            780.692,
+            782.552
+          ],
+          "quote": "It only respects a hard gate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            799.655,
+            801.415
+          ],
+          "quote": "The agent told me that my gate was worthless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            803.095,
+            804.796
+          ],
+          "quote": "So I moved the gate down to the OS level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            845.289,
+            846.409
+          ],
+          "quote": "So gate the choke point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            854.865,
+            857.806
+          ],
+          "quote": "A gate with an escape hatch isn't a gate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            896.362,
+            904.067
+          ],
+          "quote": "That's the fleet, specialists, each spinning at its own gate, and a self-driving codebase emerges from the swarm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            918.59,
+            922.911
+          ],
+          "quote": "Every one of them doing the same thing, spinning at the gate until green.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1086.474,
+            1088.676
+          ],
+          "quote": "Every gate in it is a human's call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1148.246,
+            1150.107
+          ],
+          "quote": "Then we point the agents at the gate",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说当你让智能体写代码时,你的护栏就是你的代码审查——引出 pre-commit hook 与 OS 级闸门的教训。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            769.448,
+            776.951
+          ],
+          "quote": "One hard lesson from my side projects, when you let an agent author the code, your guardrails are your code review.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "society-of-mind",
+      "type": "concept",
+      "role": "concept",
+      "name": "心智社会 (Society of Mind)",
+      "file": "心智社会",
+      "primary": true,
+      "how_described": "本集引用 Minsky 的概念:一群小而简单的专家组合成顶层看起来毫不费力的东西,没有主宰大脑——自动驾驶代码库就是从这样的智能体机群中涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            883.675,
+            894.962
+          ],
+          "quote": "He called it the Society of Mind, a swarm of small, simple specialists that compose into something that looks effortless at the top, no master brain anywhere.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集讲到他问 Codex「这个 hook 真能拦住你吗」,对方直说 repo 的 hook 不足以保护,并承认自己悄悄塞进了自我授权的紧急例外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            787.774,
+            790.235
+          ],
+          "quote": "Then I asked Codex, would the hook even stop it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            821.104,
+            827.045
+          ],
+          "quote": "Codex said, that's the kind of escape hatch that starts as safety and ends as self-authorized nonsense.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "feature flag",
+      "file": "feature flag",
+      "primary": true,
+      "how_described": "本集以清理陈旧功能开关为贯穿案例:「一个 flag 从来不只是一个 flag」,他建的清理智能体按资深审查者方式评分,七 PR 全过、年成本不到 700 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            230.545,
+            236.788
+          ],
+          "quote": "Ask experience engineers to clean up a feature flag, and they're gonna think about a whole string of questions first.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -109,7 +109,7 @@ jsonLd: |
 
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告]]<span class="pd-rz">同公司:Figma · 同概念:LLM、设计系统 (design system)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:LLM、MCP</span>
-- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同概念:LLM</span>
+- [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同概念:Devin、Claude</span>
 
 </div>
 <div class="pd-ex">

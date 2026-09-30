@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":358,"多智能体协调":2,"编码智能体":22,"Claude Code":86,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":17}</script>
+<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":361,"多智能体协调":2,"编码智能体":22,"Claude Code":86,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":17}</script>
 
 <script>
 (function(){

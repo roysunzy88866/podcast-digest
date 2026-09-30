@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":11,"智能体":358,"人在回路":17,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":11,"智能体":361,"人在回路":17,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

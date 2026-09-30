@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":358,"AX":1,"DX":3,"沙箱":65,"推理":61,"弹性推理":1,"投机解码":2}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":361,"AX":1,"DX":3,"沙箱":66,"推理":61,"弹性推理":1,"投机解码":2}</script>
 
 <script>
 (function(){

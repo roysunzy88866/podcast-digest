@@ -187,7 +187,7 @@ Toby 的自我方法论：把自己当项目，递归自我改进。人生哲学
 
 - [[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河]]<span class="pd-rz">同公司:Shopify · 同概念:River、智能体 (agent)</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
+- [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同概念:pull request、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":358,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":23,"确定性":3,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":361,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":24,"确定性":3,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

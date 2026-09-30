@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":2,"回退":1,"断路器":1,"延迟":6,"护栏":65,"提示词注入":18,"推理模型":3,"fail open":1,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":2,"回退":1,"断路器":1,"延迟":6,"护栏":67,"提示词注入":18,"推理模型":3,"fail open":1,"负载卸载":1}</script>
 
 <script>
 (function(){

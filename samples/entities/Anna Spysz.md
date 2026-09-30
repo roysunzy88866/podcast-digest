@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":358,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":65,"商家能力清单":1,"大语言模型":8,"Stripe":39,"Google":50}</script>
+<script type="application/json" class="pd-epn">{"智能体":361,"智能体商务":1,"Universal Commerce Protocol":2,"系统提示词":8,"共享支付令牌":1,"护栏":67,"商家能力清单":1,"大语言模型":8,"Stripe":39,"Google":50}</script>
 
 <script>
 (function(){

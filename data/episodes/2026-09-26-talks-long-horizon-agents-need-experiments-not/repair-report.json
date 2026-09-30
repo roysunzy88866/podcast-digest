@@ -1,0 +1,99 @@
+{
+  "kept": [
+    {
+      "i": 2,
+      "timestamp": "11:02",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "11:02",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 3,
+      "timestamp": "13:14",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "13:20",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 4,
+      "timestamp": "15:28",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "15:28",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 5,
+      "timestamp": "16:22",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "16:22",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 6,
+      "timestamp": "16:49",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "16:49",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 7,
+      "timestamp": "17:12",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "17:12",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 8,
+      "timestamp": "17:33",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "17:33",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 9,
+      "timestamp": "17:50",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "17:50",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 10,
+      "timestamp": "18:07",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "18:07",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 11,
+      "timestamp": "19:36",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "19:36",
+      "spkWas": "Irina"
+    },
+    {
+      "i": 12,
+      "timestamp": "20:53",
+      "speaker": "Erina Karati",
+      "trimmed": false,
+      "tsWas": "20:53",
+      "spkWas": "Irina"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "So what we understood is instead of manually tuning a prompt or watching one nice demo, we could define a scenario suit, run the agents, collect traces, score the behavior, change a small policy surface and only keep the changes that actually improve the score."
+    }
+  ]
+}

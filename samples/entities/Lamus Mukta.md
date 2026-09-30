@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":153,"Claude Tag":2,"Claude Code":86,"智能体":358,"沙箱":65,"记忆":18,"dreaming":3,"智能体身份":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":153,"Claude Tag":2,"Claude Code":86,"智能体":361,"沙箱":66,"记忆":19,"dreaming":3,"智能体身份":2}</script>
 
 <script>
 (function(){

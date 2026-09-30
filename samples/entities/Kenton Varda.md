@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":19,"Google":50,"智能体":358,"沙箱":65,"无服务器":2,"云基础设施":1,"vibe coding":41,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":19,"Google":50,"智能体":361,"沙箱":66,"无服务器":2,"云基础设施":1,"vibe coding":42,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

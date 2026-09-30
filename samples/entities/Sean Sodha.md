@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hiral Shah":1,"DocuSign":1,"NVIDIA":46,"Nemotron":5,"表格提取":1,"智能体":358,"OCR":3,"量化":3,"VLM":4,"vLLM":5}</script>
+<script type="application/json" class="pd-epn">{"Hiral Shah":1,"DocuSign":1,"NVIDIA":46,"Nemotron":5,"表格提取":1,"智能体":361,"OCR":3,"量化":3,"VLM":4,"vLLM":5}</script>
 
 <script>
 (function(){

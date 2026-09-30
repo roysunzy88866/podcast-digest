@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":16,"Snowflake":14,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":358}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":16,"Snowflake":14,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":361}</script>
 
 <script>
 (function(){

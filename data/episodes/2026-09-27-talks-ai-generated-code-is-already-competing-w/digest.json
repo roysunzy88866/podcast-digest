@@ -1,0 +1,166 @@
+{
+  "title_zh": "AI 生成的代码到底行不行：百万 PR 数据给出的答案",
+  "tldr": "Greptile 联合创始人 Daksh 用每月超百万条 PR 的审查数据，对比 AI 与人类代码质量，发现两者几乎无差别。",
+  "digest_md": "让编程智能体端到端地写代码、自己开 pull request(代码合并请求，下称 PR),一天开 100 个——这种玩法在 Twitter 上传得沸沸扬扬，但 Greptile 联合创始人 Daksh 最初是怀疑的：这会不会只是炒作？独立开发者行得通，可那些有真实客户、代码库真正具备商业价值的大公司，也敢这么干吗？带着这个疑问，他深挖了自家数据——Greptile 每月为成千上万家企业客户审查超过 100 万个 PR——得出的结论推翻了他自己的怀疑：AI 写的 PR,质量上和人类写的几乎没有统计差异 [02:21 Daksh]。\n\n## 先得找出哪些 PR 是 AI 写的\n\n第一个意外是：想从数据里认出 AI 生成的 PR,出乎意料地难。直接看 GitHub 的 author 字段，只有不到 1% 的 PR 作者是 Codex、Claude 或 Cursor——这不符合直觉。于是他叠加了多个信号:PR 描述页脚的「co-authored by Claude / Cursor」标记，以及分支名前缀(智能体通常自己起分支名)。综合下来，任何给定月份里，约四分之一的 PR 完全或大部分由 AI 生成。回溯过去 12 个月，这个数字涨得飞快：去年年初还不到 1% [04:46 Daksh]。另一个有意思的观察：从曲线上看不出新模型发布的节点，进步是连续的——AI 编程正在以稳定的高速度向整个经济扩散 [05:05 Daksh]。\n\n## AI 的 PR 到底好不好：三个指标都说「差不多」\n\n「好 PR」怎么定义？他用三个指标分别衡量：\n\n**回退率**。如果 PR 被回退(revert,撤掉已合并的代码)，大概率是出了问题。结果是：Codex 的 PR 约每 1000 个被回退 1 个，Devin 约 3.5 个，其他智能体约 2.5 个，人类夹在中间——没有大差别。他本怀疑这是因为人类只把简单任务交给 AI,于是又测了 PR 大小与回退率的相关性：结果即便有相关性也极小，这个解释站不住 [06:36 Daksh]。\n\n**bug 发现数**。Greptile 审查时会给每个 PR 打出 P0/P1/P2 级别的 bug 评论，理论上代码越差、发现越多。结果四个被测智能体中有三个，产出的 P0 严重 bug 比人类还少；P1、P2 同理 [07:15 Daksh]。\n\n**合并前的评审轮数**。PR 质量越高，合并前需要的返工轮次越少。Devin 的 PR 平均 2.1 轮，Codex 2.45 轮，人类正好在中间——又一次几乎没有统计差异 [08:06 Daksh]。\n\n## 但失败模式很不一样\n\n数量上打平，质量结构上却有明显差异。他扫描了 Greptile 累计数百万条评审评论(平均每个 PR 约 4 条)，统计「SQL 注入」「N+1 查询」等具体错误类型出现的频率(以人类为 1x 基准)：各智能体的失败模式差异相当大——比如 Claude 产生 SQL 注入漏洞的概率是人类 1.5 倍，Devin 产生某类安全绕过问题的概率只有人类一半 [09:09 Daksh]。结论：端到端编程智能体已经来了，而且能以真正有意义的方式进入企业编程环境——尽管这推翻了他自己最初的怀疑 [09:38 Daksh]。\n\n## 当 PR 多到人工审不过来\n\n数据里还有个惊人分布：Greptile 用户的中位数每月写 50 个 PR(约每个工作日 2 个)，第 90 百分位是每月 500 个，P99 达到数千个。头部的人产出 PR 的速度已经和他们想出新点子的速度一样快——而人工代码评审、测试、外包 QA 这套验证体系，根本扩不到同样的吞吐量 [10:17 Daksh]。\n\n于是 Greptile 用第一性原理重新思考验证：不谈「自动化 QA / 测试 / 评审」，只回答三个问题——①这个变更是否违反用户契约(即应用对用户承诺的行为)？②它是否增加了未来违反契约的倾向？③它是否实现了作者描述的意图？做法上，让智能体在沙箱里把代码跑起来：装依赖、启动本地环境、模拟输入、用浏览器智能体四处点击尝试搞坏东西 [11:41 Daksh]。目前 Greptile 审查的所有 PR 中，将近五分之一是在没有任何人工评审或人工测试的情况下直接合并的——这是他们最在意、并想在保证质量的护栏内持续推高的数字 [11:53 Daksh]。\n\n## 本集带走\n\n- **约四分之一的企业 PR 已由 AI 生成**：靠 author 字段(不到 1%)+ 「co-authored by」页脚标记 + 分支名前缀三个信号综合判断，12 个月内从不到 1% 涨到约四分之一，且增速未随新模型发布出现跳变。\n- **三项指标都显示 AI PR ≈ 人类 PR**：回退率(人类居中)、严重 bug 产出率(4 个智能体中 3 个优于人类)、合并前评审轮数(人类夹在 2.1 与 2.45 轮之间)，均无统计显著差异。\n- **但别只看总量，失败模式不同**：以人类为 1x 基准，Claude 的 SQL 注入概率约 1.5x,Devin 的某类绕过问题约 0.5x——代码评审工具需要按智能体的错误类型画像来配置检查。\n- **头部工程师的产出已超出人工验证的容量**：中位数每月 50 个 PR,P90 是 500 个，P99 数千个；人工评审 + 测试 + 外包 QA 扩不到这个量级。\n- **验证可以归结为三个问题**：是否违反用户契约、是否增加未来违约倾向、是否实现作者意图；用沙箱跑代码 + 浏览器智能体实测来回答，Greptile 已有近五分之一的 PR 无人审、无人测直接合并。",
+  "quotes": [
+    {
+      "en": "And anyone that's working in AI coding knows that December when the new models came out was sort of this watershed moment in the history of AI coding because these products for the first time were truly autonomous in how they're programmed.",
+      "zh": "任何在 AI 编程领域工作的人都知道，新模型发布的那 12 月算是 AI 编程史上的一个分水岭时刻，因为这些产品第一次在编程方式上真正实现了自主。",
+      "timestamp": "01:49",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "But it wasn't intuitive to me that only about 1% of all code was fully AI generated.",
+      "zh": "但对我来说，只有大约 1% 的代码是完全由 AI 生成的，这并不符合直觉。",
+      "timestamp": "03:47",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "Everyone's producing these PRs that are end-to-end agentic, not human plus AI, but literally AI.",
+      "zh": "人人都在产出这些端到端由智能体完成的 PR,不是人类加 AI,而纯粹是 AI。",
+      "timestamp": "05:16",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "So there didn't seem to be very big difference between the rate at which pull requests were reverted from people versus agents in my study.",
+      "zh": "所以在我的研究中，人类与智能体的 PR 被回退的比率之间似乎没有太大差别。",
+      "timestamp": "06:05",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "In fact, three out of the four agents that we tested performed better than humans in terms of the rate they were producing P0s.",
+      "zh": "事实上，在我们测试的四个智能体中，有三个在产出 P0 级 bug 的比率方面表现优于人类。",
+      "timestamp": "07:15",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "Broadly speaking, human-generated PRs were about equal in quality to agent-generated PRs based on this data.",
+      "zh": "大体而言，根据这些数据，人类生成的 PR 在质量上与智能体生成的 PR 大致相当。",
+      "timestamp": "07:28",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "For instance, Claude is one and a half times more likely to produce a SQL injection error than humans.",
+      "zh": "例如，Claude 产生 SQL 注入错误的可能性是人类的一点五倍。",
+      "timestamp": "09:16",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "I found it very interesting that there was this much variation in how these agents were performing and how different their failure modes were from humans.",
+      "zh": "我觉得非常有意思的是，这些智能体的表现存在如此大的差异，而且它们的失败模式与人类如此不同。",
+      "timestamp": "09:29",
+      "speaker": "Daksh Gupta"
+    },
+    {
+      "en": "Today, almost a fifth of all the pull requests of GrubTile reviews are merged without any human review or without any human testing.",
+      "zh": "如今，GrubTile 评审的所有拉取请求中，将近五分之一是在没有任何人工评审或任何人工测试的情况下被合并的。",
+      "timestamp": "11:53",
+      "speaker": "Daksh Gupta"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:49",
+      "speaker": "Daksh",
+      "en": "And anyone that's working in AI coding knows that December when the new models came out was sort of this watershed moment in the history of AI coding because these products for the first time were truly autonomous in how they're programmed.",
+      "zh": "任何在 AI 编程领域工作的人都知道，新模型发布的那 12 月算是 AI 编程史上的一个分水岭时刻，因为这些产品第一次在编程方式上真正实现了自主。"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Daksh",
+      "en": "Is this something that's sort of a Twitter hype and you can have independent developers and maybe like small startups with no real customers do this, but anyone with real customers with an actually commercially viable code base, could they still use these end-to-end coding agents?",
+      "zh": "这是不是某种 Twitter 上的炒作，只有独立开发者、或者没有真正客户的小型初创公司才能这么做？而任何拥有真实客户、拥有真正具备商业可行性代码库的人，还能使用这些端到端编程智能体吗？"
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Daksh",
+      "en": "But it wasn't intuitive to me that only about 1% of all code was fully AI generated.",
+      "zh": "但对我来说，只有大约 1% 的代码是完全由 AI 生成的，这并不符合直觉。"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Daksh",
+      "en": "So this number is going very, very fast as model performance is getting better.",
+      "zh": "所以随着模型性能的提升，这个数字涨得非常、非常快。"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Daksh",
+      "en": "These things are just generally diffusing into the economy at a generally high pace.",
+      "zh": "这些东西正在以总体较高的速度向整个经济扩散。"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Daksh",
+      "en": "Everyone's producing these PRs that are end-to-end agentic, not human plus AI, but literally AI.",
+      "zh": "人人都在产出这些端到端由智能体完成的 PR,不是人类加 AI,而纯粹是 AI。"
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Daksh",
+      "en": "So there didn't seem to be very big difference between the rate at which pull requests were reverted from people versus agents in my study.",
+      "zh": "所以在我的研究中，人类与智能体的 PR 被回退的比率之间似乎没有太大差别。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Daksh",
+      "en": "So this does not seem like actually very strong evidence that the human PRs are any better than the agent PRs.",
+      "zh": "所以这看起来并不能作为很有力的证据，说明人类的 PR 比智能体的 PR 好多少。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Daksh",
+      "en": "In fact, three out of the four agents that we tested performed better than humans in terms of the rate they were producing P0s.",
+      "zh": "事实上，在我们测试的四个智能体中，有三个在产出 P0 级 bug 的比率方面表现优于人类。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Daksh",
+      "en": "Broadly speaking, human-generated PRs were about equal in quality to agent-generated PRs based on this data.",
+      "zh": "大体而言，根据这些数据，人类生成的 PR 在质量上与智能体生成的 PR 大致相当。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "Daksh",
+      "en": "For instance, Claude is one and a half times more likely to produce a SQL injection error than humans.",
+      "zh": "例如，Claude 产生 SQL 注入错误的可能性是人类的一点五倍。"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Daksh",
+      "en": "I found it very interesting that there was this much variation in how these agents were performing and how different their failure modes were from humans.",
+      "zh": "我觉得非常有意思的是，这些智能体的表现存在如此大的差异，而且它们的失败模式与人类如此不同。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Daksh",
+      "en": "So it turns out that in spite of my initial skepticism around the enterprise usability of end-to-end coding agents, the evidence seems to suggest that they're here and they probably can contribute in real meaningful ways to enterprise coding environments.",
+      "zh": "所以事实证明，尽管我最初对端到端编程智能体的企业可用性持怀疑态度，但证据似乎表明它们已经来了，而且它们很可能能以真正有意义的方式为企业编程环境做出贡献。"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Daksh",
+      "en": "That isn't very interesting in its own sense, because that means that the people on the margins are actually producing pull requests at the rate at which they're coming up with new ideas.",
+      "zh": "这本身并不算很有意思，但这意味着处于边缘的那些人实际上产出 PR 的速率，与他们想出新点子的速率是一样的。"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Daksh",
+      "en": "And beyond being interesting, it also makes you wonder, well, their existing systems for validating this code, which is manual code review, of course, testing, maybe you have a QA firm that you work with, naturally can't scale to that same degree.",
+      "zh": "除了有意思之外，这还让你不禁思考：他们现有的验证代码的系统——人工代码评审、测试，也许还有合作的 QA 公司——自然无法扩展到同样的程度。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Daksh",
+      "en": "The first one is, does this change violate the user contract?",
+      "zh": "第一个是，这个变更是否违反了用户契约？"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Daksh",
+      "en": "Today, almost a fifth of all the pull requests of GrubTile reviews are merged without any human review or without any human testing.",
+      "zh": "如今，GrubTile 评审的所有拉取请求中，将近五分之一是在没有任何人工评审或任何人工测试的情况下被合并的。"
+    }
+  ],
+  "voice_script": "今天这期,聊一个你可能也好奇的问题:AI 写的代码,到底行不行?\n\n先说说今天的主角。Greptile 是一家做代码审查的公司,每月为成千上万家企业客户审查超过一百万个代码合并请求,也就是 PR。联合创始人 Daksh 手里握着的,大概是全世界最大规模的一手代码质量数据。最近 Twitter 上流行一种玩法:让编程智能体端到端地自己写代码、自己开 PR,一天开一百个。Daksh 一开始是不信的,觉得这多半是炒作——独立开发者这么玩可以理解,可那些有真实客户、代码库真正值钱的大公司,也敢这么干吗?于是他回去挖了自家的数据,结果把自己的怀疑给推翻了:AI 写的 PR,质量和人类写的几乎没有统计差异。这期就来把这件事讲明白。\n\n那数据怎么来的?第一步,得先从百万条 PR 里认出哪些是 AI 写的。这一步比想象的难得多。直接看 GitHub 的作者字段,只有不到 1% 的 PR 作者是 Codex、Claude 或 Cursor——这明显不符合直觉。于是叠加了多个信号:比如 PR 描述页脚里「co-authored by Claude」这类标记,还有分支名前缀,因为智能体通常会自己起分支名。综合下来,任何给定月份里,大约四分之一的 PR 是完全或大部分由 AI 生成的。再往回看 12 个月,这个数字涨得飞快,去年年初还不到 1%。还有个有意思的观察:曲线上看不出新模型发布的节点,进步是连续的——也就是说,AI 编程正在以一个稳定的高速度,向整个经济扩散。\n\n好,认出来了,接下来就是核心问题:这些 AI 写的 PR,到底好不好?「好 PR」怎么定义?Daksh 用了三个指标分别衡量。\n\n第一个是回退率。如果一个 PR 被回退,也就是撤掉已合并的代码,大概率是出了问题。结果是:Codex 的 PR 约每 1000 个被回退 1 个,Devin 约 3.5 个,其他智能体约 2.5 个,而人类正好夹在中间——没有大差别。不过这里有个可能的解释:会不会是人类只把简单任务交给 AI,所以回退率才低?为了排除这个因素,又测了 PR 大小和回退率的相关性,结果即便有相关性也极小,这个解释站不住。\n\n第二个指标是 bug 发现数。Greptile 审查时会给每个 PR 打出 P0、P1、P2 不同级别的 bug 评论,P0 是最严重的。理论上代码越差,发现得越多。结果,四个被测智能体里有三个,产出的 P0 严重 bug 比人类还少;P1、P2 同理。\n\n第三个指标是合并前的评审轮数。PR 质量越高,合并前需要的返工轮次就越少。Devin 的 PR 平均 2.1 轮,Codex 是 2.45 轮,人类正好在中间——又一次,几乎没有统计差异。三个指标都说同一句话:AI 的 PR 和人类的 PR,质量大致相当。\n\n不过别急着下结论。数量上打平了,失败的结构上却有明显差异。Greptile 累积了几百万条评审评论,平均每个 PR 大约 4 条。拿这些评论去统计具体错误类型的出现频率,以人类为 1 倍基准,发现各智能体的失败模式差异相当大。举个例子:Claude 产生 SQL 注入漏洞的概率,是人类的大约 1.5 倍;而 Devin 产生某类安全绕过问题的概率,只有人类的一半。换句话说,总量上你看不出差别,但具体错在哪,不同智能体的画像完全不一样——这对代码审查工具是个重要提示:检查项得按智能体的错误类型来配置。\n\n那这就引出一个更现实的问题:PR 多到人工审不过来,怎么办?数据里有个惊人的分布:Greptile 用户的中位数每月写 50 个 PR,大约每个工作日 2 个;第 90 百分位是每月 500 个;到 P99,那是几千个。头部的人产出 PR 的速度,已经和他们想出新点子的速度一样快了。而人工代码评审、测试、外包 QA 这套传统验证体系,根本扩不到同样的吞吐量。\n\n于是 Greptile 用第一性原理重新思考验证这件事:不谈自动化 QA、测试、评审这些词,只回答三个问题——这个变更是否违反用户契约,也就是应用对用户承诺过的行为?它是否增加了未来违反契约的倾向?它是否实现了作者描述的意图?做法上,让智能体在沙箱里把代码真正跑起来:装依赖、启动本地环境、模拟输入,再用浏览器智能体四处点击,尝试把东西搞坏。目前 Greptile 审查的所有 PR 中,将近五分之一是在没有任何人工评审、也没有人工测试的情况下直接合并的——而这个数字,正是他们最在意、并想在保证质量的护栏内持续推高的。\n\n回头看,Daksh 最初的那份怀疑,被自家的百万级数据推翻了。用他的话说,根据这些数据,人类生成的 PR,在质量上和智能体生成的 PR 大致相当。端到端的编程智能体已经来了,而且正在以真正有意义的方式,进入企业的编程环境。"
+}

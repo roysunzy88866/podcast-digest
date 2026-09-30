@@ -1,0 +1,487 @@
+{
+  "episode_id": "2026-09-27-talks-ai-generated-code-is-already-competing-w",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "tags": [
+    "AI 编程",
+    "编程智能体",
+    "代码评审",
+    "企业软件",
+    "数据研究"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daksh-gupta",
+      "type": "person",
+      "role": "guest",
+      "name": "Daksh Gupta",
+      "file": "Daksh Gupta",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "greptile",
+      "type": "company",
+      "role": "company",
+      "name": "Greptile",
+      "file": "Greptile",
+      "primary": true,
+      "how_described": "本集说 Greptile 是做 AI 智能体来验证 pull request 的公司,以完整代码库上下文审查改动,每月为企业客户审查超过 100 万个 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            412.166,
+            414.788
+          ],
+          "quote": "The second set of signals I started looking at was Greptile Comets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            414.808,
+            416.35
+          ],
+          "quote": "Now, Greptile's reviewing all these pull requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            417.085,
+            420.489
+          ],
+          "quote": "And Greptile finds P0s, P1s, P2s across all these changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            420.829,
+            426.175
+          ],
+          "quote": "And it seemed reasonable that if Greptile was finding more bugs in the code, that the code was most likely worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            517.047,
+            519.567
+          ],
+          "quote": "And so then I looked at the corpus of Greptile's comments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:完全自主的编程智能体已能端到端完成任务并开 PR,数据显示其产出质量与人类几乎无统计差异,正快速扩散进企业编程环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            404.64,
+            410.225
+          ],
+          "quote": "So this does not seem like actually very strong evidence that the human PRs are any better than the agent PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            448.138,
+            454.184
+          ],
+          "quote": "Broadly speaking, human-generated PRs were about equal in quality to agent-generated PRs based on this data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            458.568,
+            468.991
+          ],
+          "quote": "The most common way to use Reptile is to have it review a pull request, get some set of comments, and then have the agent go and look at those comments, address them, and make a new commit on the pull request branch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            504.383,
+            511.405
+          ],
+          "quote": "So now that there wasn't any strong evidence that agent-generated PRs were worse than human-generated PRs, I got curious if there were qualitative differences.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "pull request",
+      "file": "pull request",
+      "primary": true,
+      "how_described": "本集用 PR 作为衡量 AI 编程质量的基本单位:统计约 1/4 的企业 PR 已完全或大部分由 AI 生成,并用回退率、bug 数、评审轮数三个指标衡量其质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.388,
+            30.749
+          ],
+          "quote": "The way Graptile does this is every time there's a pull request, we have a swarm of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            268.967,
+            274.769
+          ],
+          "quote": "So now I had a good set of signals to indicate whether a pull request was, in fact, completely or largely AI generated or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            334.53,
+            336.751
+          ],
+          "quote": "If a pull request was reverted, it was probably pretty bad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            458.568,
+            468.991
+          ],
+          "quote": "The most common way to use Reptile is to have it review a pull request, get some set of comments, and then have the agent go and look at those comments, address them, and make a new commit on the pull request branch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            477.313,
+            482.875
+          ],
+          "quote": "And so I started tracking the number of iterations, the number of review rounds between when the pull request was opened and when it was merged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            519.907,
+            522.268
+          ],
+          "quote": "It makes, on average, about four comments per pull request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            665.331,
+            670.475
+          ],
+          "quote": "What would need to happen between when the code was expressed into a pull request and when it was merged and deployed safely?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            687.649,
+            689.95
+          ],
+          "quote": "Does the pull request do the thing that the author wanted to do?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集说在 PR 产出超出人工验证容量的世界里,代码评审要按第一性原理重做:回答是否违反用户契约、是否增加未来违约倾向、是否实现作者意图三个问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            594.076,
+            597.497
+          ],
+          "quote": "And so we started to think a little bit more about what code review would look like in such a world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            634.888,
+            646.658
+          ],
+          "quote": "And beyond being interesting, it also makes you wonder, well, their existing systems for validating this code, which is manual code review, of course, testing, maybe you have a QA firm that you work with, naturally can't scale to that same degree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            652.063,
+            665.011
+          ],
+          "quote": "Instead of saying that we wanted to automate QA or automate testing or automate code review, we took a step back and said, what would we need to do for anyone to be able to merge hundreds of pull requests a month in an enterprise environment where it really matters if the code is correct?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说让智能体在沙箱里把代码跑起来——装依赖、启动 localhost、模拟输入、浏览器智能体四处点击搞坏东西——就能以高置信度发现大部分问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            37.691,
+            48.735
+          ],
+          "quote": "And it also spins up your code in a sandbox that installs dependencies, spins up localhost, clicks around to try to break things, mocks inputs, and everything else to figure out if the code is broken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            701.211,
+            710.517
+          ],
+          "quote": "If you let it spin up the code in a sandbox, have it install the dependencies, mock the inputs, run the browser agents, you can probably start to discover most of the issues that could occur.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 的 PR 回退率最低(每 1000 个约 1 个),合并前平均需 2.45 轮评审,是本集测试的编程智能体之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            222.026,
+            226.829
+          ],
+          "quote": "And it turns out that less than 1% of pull requests had Codex, or Claude, or Cursor as the author.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            235.818,
+            241.103
+          ],
+          "quote": "Now, thankfully, Claude and Codex and some other products leave a PR description in the footer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            255.623,
+            258.264
+          ],
+          "quote": "If you use Codex, you know that Codex names as branches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            356.451,
+            359.115
+          ],
+          "quote": "Codex PRs were reverted by one out of every 1,000 pull requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            486.912,
+            494.16
+          ],
+          "quote": "Devon's PRs 2.1, Codex PRs 2.45, number of review cycles to merge, and humans right in the middle.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "type": "concept",
+      "role": "concept",
+      "name": "Devin",
+      "file": "Devin",
+      "primary": true,
+      "how_described": "本集说 Devin 的 PR 回退率约每 1000 个 3.5 个,合并前平均 2.1 轮评审,产生某类安全绕过问题的概率约是人类一半。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            359.676,
+            363.081
+          ],
+          "quote": "Devin once every three and a half times every 1,000 pull requests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 的 PR 常在页脚标注 co-authored by Claude,且其产生 SQL 注入漏洞的概率约是人类 1.5 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            222.026,
+            226.829
+          ],
+          "quote": "And it turns out that less than 1% of pull requests had Codex, or Claude, or Cursor as the author.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            235.818,
+            241.103
+          ],
+          "quote": "Now, thankfully, Claude and Codex and some other products leave a PR description in the footer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            241.623,
+            246.067
+          ],
+          "quote": "In the PR description, they put something along the lines of co-authored by Claude or co-authored by cursor and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            556.422,
+            561.046
+          ],
+          "quote": "For instance, Claude is one and a half times more likely to produce a SQL injection error than humans.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 率先做到多文件编辑、其 tab 补全是早期 AI 编程的主要范式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            73.156,
+            78
+          ],
+          "quote": "The most exciting thing that was happening was your tab complete from cursor, and you had co-pilots, code complete.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            87.005,
+            89.806
+          ],
+          "quote": "Cursor was the first to do this, and then a couple of other products followed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            222.026,
+            226.829
+          ],
+          "quote": "And it turns out that less than 1% of pull requests had Codex, or Claude, or Cursor as the author.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            241.623,
+            246.067
+          ],
+          "quote": "In the PR description, they put something along the lines of co-authored by Claude or co-authored by cursor and so on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集开头提到「人人都在 vibe coding」,产出端到端由 AI 完成的 PR,并追问这些完全靠 vibe 写出来的 PR 是否真的好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            315.023,
+            315.823
+          ],
+          "quote": "Everyone's vibe coding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "revert rate",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

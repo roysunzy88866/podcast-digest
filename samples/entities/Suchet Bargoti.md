@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":358,"自主性":9,"强化学习":1,"世界模型":10,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":361,"自主性":9,"强化学习":1,"世界模型":10,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
 
 <script>
 (function(){

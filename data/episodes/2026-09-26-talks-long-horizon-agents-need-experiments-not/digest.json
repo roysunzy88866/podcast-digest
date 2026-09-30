@@ -1,0 +1,190 @@
+{
+  "title_zh": "给 AI 村庄装上自动研究循环：长时程智能体的实验配方",
+  "tldr": "前 Microsoft/Supercell 工程师 Irina 讲述如何用自动研究循环评估和改进长期携带状态的多智能体系统，提出「长时程智能体需要实验而不只是提示词」。",
+  "digest_md": "这一集的主角是 Irina,她曾在 Microsoft 和 Supercell 做工程师，讲的是她在 Supercell AI Innovation Lab 和队友 Arnachala Manikhandan 一起做的 Project Paradox——一个模块化框架，能把自主智能体插进视频游戏里，让它们跟玩家和其他智能体互动、竞争、合作。但这次演讲真正想回答的，是一个很多 AI 工程师都开始撞上的问题：**怎么评估和改进那些长时间携带状态的智能体？** [00:34 Unknown]\n\n钩子在这里：他们的智能体能制定计划、四处走动、记住最近的对话，短期表现相当好；可一旦时间拉长，智能体之间会忘掉消息来源、把谣言当成事实——整个「村庄」的社交一致性开始崩坏。他们的解法不是继续手工调提示词，而是让系统**在自身上跑实验**。\n\n## 先看智能体本身：一套刻意有状态的架构\n\nProject Paradox 的架构有四个关键部件 [02:57 Unknown]:\n\n1. **每个智能体独立的记忆**：各自有由 RAG(检索增强生成，即把相关记忆从库里检索出来塞给模型)支撑的记忆命名空间，记忆不会在智能体之间串扰。\n3. **信念分数**：智能体对其他智能体和玩家有一个信任矩阵，互动发生后由 LLM 决定信任分升、降还是不变。\n\n演示里，角色 Blossom 被邀请野餐后，会自己规划「拿起糕点、走到野餐区」的动作序列，之后对话也能接得上文。短期玩法没问题。\n\n## 问题：长程社交行为开始漏风\n\n时间一长，麻烦来了。他们让一个智能体向另一个散播「芒果特价」的消息，消息又传给第三个智能体；中间隔了许多事件后，玩家问起芒果，智能体却给不出期望的上下文 [05:43 Unknown]。具体症状包括：记得大致话题但丢了来源；谣言从「听说」硬化成「确定的事实」；或者智能体知道某事实，做行动规划时却想不起来 [06:11 Unknown]。于是问题变成：**怎么改进多智能体系统在长期社会行为上的表现，而不只是一次响应？**\n\n灵感来自 Karpathy 发的关于自动研究(auto-research)的帖子。他们的理解是：与其手动调提示词、看一个漂亮演示，不如**定义一套场景、运行智能体、收集轨迹、给行为打分、改动一个小的策略面、只保留真正提分的改动** [07:07 Unknown]。关键定位：自动研究不是村庄里的又一个智能体，而是**村庄之外的元系统**——村民只有局部视角、没有共享记忆库，信息只能靠彼此正确传达才传播；而自动研究层能读到一次运行的完整轨迹，对照场景的基准给行为打分，提出受约束的改动，再重跑看社会层面行为是否变好 [08:21 Unknown]。这是个关键转变：**不再评估一个答案，而是评估一整次运行** [09:14 Unknown]。\n\n循环长这样：① 定义受控场景；② 运行模拟，收集结构化轨迹(观察、对话、记忆写入、检索、信念更新)；③ 打分(信息按预期传播了吗？来源归因存活了吗？不确定性保持为不确定了吗？);④ 提出一个**小的**策略改动——不许重写整个应用，只许编辑受控策略面；⑤ 重跑，分数提升且护栏守住就保留，否则回退 [09:26 Unknown]。\n\n## 场景设计：别让智能体瞎逛\n\n社会行为本身是模糊的——光让智能体在环境里游荡，看起来很酷，但根本没法评估系统是否真的变好了 [10:56 Unknown]。所以要设计成套的受控场景，他们举了三类：\n\n- **公共事实扩散**：智能体 A 得知面包店明天关门，相关的智能体都知道了吗？记得谁说的吗？会据此改计划吗？\n- **谣言不确定性**：A 听说 C「可能」要离开村庄，谣言传开后，「可能要离开」会不会变成「要离开了」？是变成事实还是保持为谣言？\n- **重新规划**：群体有计划，某智能体得知路线被封，大家会更新并互相沟通吗？\n\n重点不在于这些具体场景普适，而在于**长程智能体行为需要成套的场景** [12:25 Unknown]。跑过一轮循环后，芒果例子里玩家问起促销，智能体这次终于能结合上下文回答了。\n\n## 记分卡：别用一个模糊指标\n\n确切的打分公式不重要，记分卡的**形态**才重要。单一模糊指标(比如「智能体质量」)会隐藏所有有意思的失败；要的是平衡记分卡 [13:14 Unknown]:\n\n- 扩散 → 衡量触达范围(N 步后多少智能体知道该事实)\n- 来源 → 衡量知道者中的来源保留率\n- 谣言 → 衡量不确定性保持率和虚假确定率\n- 规划 → 衡量行动一致性和重新规划耗时\n- 隐私 → 衡量遏制性\n\n为什么必须平衡？因为只优化一个指标会催生坏行为：只优化扩散，智能体会学会过度分享一切；只优化记忆召回，会制造嘈杂或过时的记忆。记分卡的作用正是**防止自动研究智能体钻系统空子、只刷高某个特定分数** [14:17 Unknown]。\n\n## 工程经验：可编辑面要小，回滚不是可选项\n\n两条最重要的工程教训。第一，把可编辑表面保持得非常小：自动研究层不该有权限随意重写整个代码库，要**冻结测试框架、场景和指标**，只暴露真正想优化的部分——在 Paradox 里就是记忆写入策略、检索策略、沟通提示词、信任规则、来源归因、规划触发器这些 [14:44 Unknown]。这是「LM 写随机补丁」与「LM 在受控策略空间内搜索」的分界线。而且这些都是对智能体协议的小改动，却能在社会层面产生更大影响——比如谣言硬化成事实时，可以存置信度、区分一手二手信息、转述不确定说法时要求保留措辞 [15:59 Unknown]。Irina 也特意谨慎：没有重复的循环结果，不能说系统「整体改进了」；他们主张的是这是**正确的暴露面**——小到可控，又足够丰富到能改变社会行为 [16:34 Unknown]。\n\n第二，回滚不可选。一个改动能改善一件事的同时损害另一件：传播公开事实更快的策略可能泄露隐私，提高召回的策略可能增加陈旧记忆的使用 [17:50 Unknown]。所以循环要像一个**棘轮**：尝试改动、打分、只有记分卡改善且护栏完好才保留。\n\n## 最大的教训：仅有记忆是不够的\n\n给智能体加上 RAG 记忆，仍然得不到想要的长期行为 [17:12 Unknown]。因为智能体还需要：知道信息从哪来，保留它是一手/二手/已验证/不确定的；把原始情景记忆和当前相信的东西分开；并且**通过场景测试行为，而不是凭感觉**。\n\n这不只关乎游戏智能体：客服智能体需要知道策略更新来自哪、是否取代旧答案；个人助理要记住做过的承诺；研究型智能体需要来源追溯和假设更新；编程智能体需要跨议题、文件、需求的长期上下文 [18:34 Unknown]。共同点是：**它们都随时间维护状态，而这个状态影响未来行动**——所以都需要受控场景和行为记分卡。\n\nIrina 留下的实操配方：冻结测试框架、定义场景、记录轨迹、给行为打分、只暴露一个很小的策略面、在这些改动上搜索、只保留通过度量的改动。一句话：**长时程智能体需要实验，而不只是提示词** [20:53 Unknown]。\n\n## 本集带走\n\n- **评估一整次运行，不是一次回答**：收集结构化轨迹(观察、对话、记忆写入、检索、信念更新)，对照场景基准给社会层面行为打分。\n- **设计成套的受控场景**：事实扩散、谣言不确定性、重新规划各测一类失败；让智能体自由游荡再「看感觉」是评不出改进的。\n- **用平衡记分卡防钻空子**：扩散、来源保留、不确定性保持、规划一致性、隐私遏制多指标并测，防止自动研究层只刷单一分数。\n- **冻结框架，只暴露小策略面**：记忆写入/检索策略、信任规则、来源归因等可编辑，测试框架、场景、指标不许动——这是受控搜索而非随机打补丁。\n- **循环当棘轮用**：改动提分且护栏完好才保留，否则回退；一个指标的提升常以另一指标受损为代价。\n- **记忆不等于长程能力**：还要保留来源与置信度、区分原始记忆与当前信念、靠场景而非感觉验证行为。",
+  "quotes": [
+    {
+      "en": "It might look cool and you might get nice interactions, but it's actually very hard to evaluate on whether the system actually improved.",
+      "zh": "它可能看起来很酷，你可能得到不错的互动，但实际上很难评估系统是否真正得到了改进。",
+      "timestamp": "11:02",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "You do not want a single vague metric like agent quality. This will hide all the interesting failures.",
+      "zh": "你不想要一个单一而模糊的指标，比如智能体质量。这会隐藏所有有意思的失败。",
+      "timestamp": "13:14",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "And this is the difference between the LM writing random patches versus the LM actually searching within a controlled policy space.",
+      "zh": "这就是「LM 写出随机补丁」和「LM 真正在一个受控的策略空间内进行搜索」之间的区别。",
+      "timestamp": "15:28",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "The key is that these are small changes to the agent protocol, but they can have larger effects on a society-level behavior for multi-agentic systems.",
+      "zh": "关键在于，这些都是对智能体协议的小改动，但它们可以对多智能体系统的社会层面行为产生更大的影响。",
+      "timestamp": "16:22",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "We're trying to say this is the right kind of surface to expose to an auto-research layer loop because it is small enough to control, but it's still rich enough to change the social behavior to some extent at least.",
+      "zh": "我们想说的是，这是暴露给自动研究层循环的正确表面，因为它足够小以便控制，但至少在某种程度上仍然足够丰富，能够改变社会行为。",
+      "timestamp": "16:49",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+      "zh": "你可以给一个智能体加上 RAG 记忆，却仍然得不到你想要的长期地平线行为。",
+      "timestamp": "17:12",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "Sometimes you need to separate raw episodic memories from what the agent currently believes, too, and you need to test behavior through scenarios, not just through vibes.",
+      "zh": "有时你还需要把原始的情景记忆与智能体当前相信的东西分开，而且你需要通过场景来测试行为，而不是仅凭感觉。",
+      "timestamp": "17:33",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "When you optimize social behavior, a change can improve one thing and damage another.",
+      "zh": "当你优化社会行为时，一个改动可能改善一件事的同时损害另一件事。",
+      "timestamp": "17:50",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "So the loop should basically be like a ratchet. Try a change, score it, keep it only if the scorecard improves and guardrails whole.",
+      "zh": "所以这个循环基本上应该像一个棘轮：尝试一个改动，给它打分，只有当记分卡改善且护栏完好时才保留它。",
+      "timestamp": "18:07",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "If there's one practical recipe I want you to take away, freeze the harness, define scenarios, log traces, score behavior, and expose only a small policy surface.",
+      "zh": "如果有一个实操配方我希望你们带走，那就是：冻结测试框架，定义场景，记录轨迹，给行为打分，并且只暴露一个很小的策略面。",
+      "timestamp": "19:36",
+      "speaker": "Erina Karati"
+    },
+    {
+      "en": "Long horizon agents need experiments and not just prompts, and I hope that's the takeaway that you get from this talk.",
+      "zh": "长时程智能体需要实验，而不只是提示词，我希望这是你们从这次演讲中得到的收获。",
+      "timestamp": "20:53",
+      "speaker": "Erina Karati"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:34",
+      "speaker": "Irina",
+      "en": "How do we evaluate and improve agents that carry state over a long period of time?",
+      "zh": "我们如何评估和改进那些长时间携带状态的智能体？"
+    },
+    {
+      "timestamp": "06:32",
+      "speaker": "Irina",
+      "en": "So the question here became, how do we improve a multi-agentic system over long-running social behavior and not just over one response?",
+      "zh": "于是问题变成了：如何改进一个多智能体系统在长期社会行为上的表现，而不仅仅是一次响应？"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Irina",
+      "en": "So what we understood is instead of manually tuning a prompt or watching one nice demo, we could define a scenario suit, run the agents, collect traces, score the behavior, change a small policy surface and only keep the changes that actually improve the score.",
+      "zh": "于是我们理解到：与其手动调提示词或看一个漂亮的演示，不如定义一套场景、运行智能体、收集轨迹、给行为打分、改动一个小的策略面，只保留真正提升分数的改动。"
+    },
+    {
+      "timestamp": "08:21",
+      "speaker": "Irina",
+      "en": "In this context, art research is not another agent in the village, like I said. It's a meta-system outside the village.",
+      "zh": "在这个背景下，自动研究不是村庄里的另一个智能体，就像我说的。它是村庄之外的元系统。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Irina",
+      "en": "So we were no longer evaluating one answer, we were evaluating an entire run.",
+      "zh": "所以我们不再评估一个答案，而是在评估一整次运行。"
+    },
+    {
+      "timestamp": "11:02",
+      "speaker": "Irina",
+      "en": "It might look cool and you might get nice interactions, but it's actually very hard to evaluate on whether the system actually improved.",
+      "zh": "它可能看起来很酷，你可能得到不错的互动，但实际上很难评估系统是否真正得到了改进。"
+    },
+    {
+      "timestamp": "12:25",
+      "speaker": "Irina",
+      "en": "The point we're trying to make is that long-horizon agent behavior needs scenario suits.",
+      "zh": "我们想表达的重点是，长程智能体行为需要成套的场景。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Irina",
+      "en": "You do not want a single vague metric like agent quality. This will hide all the interesting failures.",
+      "zh": "你不想要一个单一而模糊的指标，比如智能体质量。这会隐藏所有有意思的失败。"
+    },
+    {
+      "timestamp": "14:17",
+      "speaker": "Irina",
+      "en": "So, this scorecard is what keeps the system honest and prevents the auto-research agent from gamifying the system to just increase one specific score.",
+      "zh": "所以，这张记分卡正是让系统保持诚实、并防止自动研究智能体通过钻系统空子来只提高某个特定分数的东西。"
+    },
+    {
+      "timestamp": "14:51",
+      "speaker": "Irina",
+      "en": "Instead, it's really important to freeze the harness, the scenarios, and the metrics.",
+      "zh": "相反，冻结测试框架、场景和指标非常重要。"
+    },
+    {
+      "timestamp": "15:28",
+      "speaker": "Irina",
+      "en": "And this is the difference between the LM writing random patches versus the LM actually searching within a controlled policy space.",
+      "zh": "这就是「LM 写出随机补丁」和「LM 真正在一个受控的策略空间内进行搜索」之间的区别。"
+    },
+    {
+      "timestamp": "16:22",
+      "speaker": "Irina",
+      "en": "The key is that these are small changes to the agent protocol, but they can have larger effects on a society-level behavior for multi-agentic systems.",
+      "zh": "关键在于，这些都是对智能体协议的小改动，但它们可以对多智能体系统的社会层面行为产生更大的影响。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Irina",
+      "en": "We're trying to say this is the right kind of surface to expose to an auto-research layer loop because it is small enough to control, but it's still rich enough to change the social behavior to some extent at least.",
+      "zh": "我们想说的是，这是暴露给自动研究层循环的正确表面，因为它足够小以便控制，但至少在某种程度上仍然足够丰富，能够改变社会行为。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Irina",
+      "en": "You can add a RAG memory to an agent and still not get the current long-term horizon behavior that you were looking for.",
+      "zh": "你可以给一个智能体加上 RAG 记忆，却仍然得不到你想要的长期地平线行为。"
+    },
+    {
+      "timestamp": "17:33",
+      "speaker": "Irina",
+      "en": "Sometimes you need to separate raw episodic memories from what the agent currently believes, too, and you need to test behavior through scenarios, not just through vibes.",
+      "zh": "有时你还需要把原始的情景记忆与智能体当前相信的东西分开，而且你需要通过场景来测试行为，而不是仅凭感觉。"
+    },
+    {
+      "timestamp": "17:50",
+      "speaker": "Irina",
+      "en": "When you optimize social behavior, a change can improve one thing and damage another.",
+      "zh": "当你优化社会行为时，一个改动可能改善一件事的同时损害另一件事。"
+    },
+    {
+      "timestamp": "18:07",
+      "speaker": "Irina",
+      "en": "So the loop should basically be like a ratchet. Try a change, score it, keep it only if the scorecard improves and guardrails whole.",
+      "zh": "所以这个循环基本上应该像一个棘轮：尝试一个改动，给它打分，只有当记分卡改善且护栏完好时才保留它。"
+    },
+    {
+      "timestamp": "19:36",
+      "speaker": "Irina",
+      "en": "If there's one practical recipe I want you to take away, freeze the harness, define scenarios, log traces, score behavior, and expose only a small policy surface.",
+      "zh": "如果有一个实操配方我希望你们带走，那就是：冻结测试框架，定义场景，记录轨迹，给行为打分，并且只暴露一个很小的策略面。"
+    },
+    {
+      "timestamp": "20:53",
+      "speaker": "Irina",
+      "en": "Long horizon agents need experiments and not just prompts, and I hope that's the takeaway that you get from this talk.",
+      "zh": "长时程智能体需要实验，而不只是提示词，我希望这是你们从这次演讲中得到的收获。"
+    }
+  ],
+  "voice_script": "今天要讲的这位嘉宾叫 Irina,她之前在 Microsoft 和 Supercell 做工程师。这一期讲的，是她和队友 Arnachala Manikhandan 在 Supercell 的 AI 创新实验室里做的 Project Paradox——一个模块化框架，把自主智能体插进视频游戏里，让它们跟玩家、跟其他智能体互动、竞争、合作。听起来像游戏项目，但她真正想回答的问题严肃得多：怎么评估和改进那些长时间携带状态的智能体？这个问题，很多 AI 工程师现在都开始撞上了。\n\n先说说这些智能体本身。Project Paradox 的架构是刻意有状态的，里面有两个关键部件。第一，每个智能体有自己独立的记忆，靠 RAG 支撑——RAG 就是检索增强生成，说白了就是把相关的记忆从库里检索出来塞给模型——而且记忆不会在智能体之间串来串去。第二，有个信念分数系统，每个智能体对其他智能体和玩家有一个信任矩阵，每次互动之后，由大模型决定这个信任分是升、是降，还是不变。演示里，角色 Blossom 被邀请去野餐之后，会自己规划“拿起糕点、走到野餐区”这样一串动作，后面的对话也接得上文。短期玩法，完全没问题。\n\n那问题出在哪呢？时间一长，就漏风了。他们做过一个实验：让一个智能体向另一个散播“芒果特价”的消息，消息又传给了第三个智能体。中间隔了很多事件之后，玩家再问起芒果，智能体却给不出该有的上下文。具体症状有几种：有的记得大致话题，但丢了消息来源；有的谣言本来是“听说”，慢慢就硬化成了“确定的事实”；还有一种更隐蔽，智能体明明知道某个事实，做行动规划的时候却想不起来。整个村庄的社交一致性开始崩坏。于是问题就变成了：怎么改进多智能体系统在长期社会行为上的表现，而不只是一次响应？\n\n他们的灵感，来自 Karpathy 发的一个关于自动研究的帖子。思路说白了就是：与其手动调提示词、看一个漂亮演示，不如定义一套场景、运行智能体、收集轨迹、给行为打分，然后改动一个很小的策略面，只保留真正提分的改动。这里有个很关键的定位：自动研究不是村庄里又一个智能体，而是村庄之外的元系统。你想啊，村民只有局部视角，没有共享记忆库，信息只能靠彼此正确传达才能传播；而自动研究这一层不一样，它能读到一次运行的完整轨迹，对照场景基准给行为打分，提出受约束的改动，再重跑一遍看社会层面的行为有没有变好。这是一个关键转变：不再评估一个答案，而是评估一整次运行。\n\n这个循环具体长这样。第一步，定义受控场景；第二步，运行模拟，收集结构化轨迹——观察、对话、记忆写入、检索、信念更新，全都要记下来；第三步，打分，问几个问题：信息按预期传播了吗？来源归因还活着吗？不确定性还保持为不确定吗？第四步，提出一个小的策略改动，不许重写整个应用，只许动受控的策略面；第五步，重跑，分数提升而且护栏守住，就保留，否则回退。\n\n说到打分，先得解决一个前置问题：场景怎么设计。因为社会行为本身是模糊的——用 Irina 的原话说，让智能体在环境里游荡，看起来很酷，你也可能得到不错的互动，但实际上很难评估系统是不是真的改进了。所以要设计成套的受控场景。他们举了三类。第一类是公共事实扩散：智能体 A 得知面包店明天关门，相关的智能体都知道了吗？记得谁说的吗？会据此改计划吗？第二类是谣言不确定性：A 听说 C“可能”要离开村庄，谣言传开之后，“可能要离开”会不会变成“要离开了”？它是变成事实，还是保持为谣言？第三类是重新规划：群体有个计划，某个智能体得知路线被封，大家会更新计划并互相沟通吗？重点不在于这几个具体场景普适，而在于一个原则：长程智能体行为需要成套的场景。他们跑了一轮循环之后，芒果那个例子里，玩家再问促销，智能体这次终于能结合上下文回答了。\n\n场景有了，接下来是记分卡。确切的打分公式不重要，记分卡的形态才重要。用 Irina 的原话说，你不想要一个单一而模糊的指标，比如“智能体质量”，这会隐藏所有有意思的失败。要的是平衡记分卡：扩散，衡量触达范围，N 步之后有多少智能体知道这个事实；来源，衡量知道者当中的来源保留率；谣言，衡量不确定性保持率和虚假确定率；规划，衡量行动一致性和重新规划耗时；还有隐私，衡量遏制性。为什么必须平衡？因为只优化一个指标会催生坏行为。只优化扩散，智能体就学会过度分享一切；只优化记忆召回，就会制造嘈杂或者过时的记忆。记分卡的作用，正是防止自动研究层钻系统的空子、只刷高某一个特定的分数。\n\n工程上还有两条最重要的教训。第一条，把可编辑的表面保持得非常小。自动研究层不该有权限随意重写整个代码库，要冻结测试框架、场景和指标，只暴露真正想优化的部分——在 Paradox 里就是记忆写入策略、检索策略、沟通提示词、信任规则、来源归因、规划触发器这些。用 Irina 的原话说，这就是“LM 写出随机补丁”和“LM 真正在一个受控的策略空间内进行搜索”之间的区别。而且妙的是，这些都是对智能体协议的小改动，却能在社会层面产生更大的影响——比如谣言要硬化成事实的时候，可以存置信度、区分一手和二手信息、转述不确定的说法时要求保留措辞。当然，Irina 也很谨慎：没有重复的循环结果，不能说系统“整体改进了”；他们想主张的是，这是暴露给自动研究循环的正确表面，因为它足够小以便控制，又足够丰富，能够改变社会行为。\n\n第二条，回滚不可选。一个改动完全可能改善一件事的同时损害另一件事：让公开事实传播更快的策略，可能泄露隐私；提高召回的策略，可能增加陈旧记忆的使用。所以这个循环要像一个棘轮：尝试改动、打分，只有记分卡改善而且护栏完好才保留，否则就回退。\n\n最后，也是最大的教训：仅有记忆是不够的。你可以给一个智能体加上 RAG 记忆，却仍然得不到你想要的长期行为。因为智能体还需要知道信息从哪来，保留它是一手、二手还是已验证、不确定的；还需要把原始的情景记忆和当前相信的东西分开；还需要通过场景来测试行为，而不是凭感觉。而且这不只关乎游戏智能体——客服智能体需要知道策略更新来自哪、是不是取代了旧答案；个人助理要记住做过的承诺；研究型智能体需要来源追溯和假设更新；编程智能体需要跨议题、跨文件、跨需求的长期上下文。它们的共同点是：都随时间维护状态，而这个状态会影响未来的行动，所以都需要受控场景和行为记分卡。\n\nIrina 留下的实操配方就是：冻结测试框架、定义场景、记录轨迹、给行为打分、只暴露一个很小的策略面、在这些改动上搜索、只保留通过度量的改动。一句话记住这一集：长时程智能体需要实验，而不只是提示词。"
+}

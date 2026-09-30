@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sharadh Krishnamurthy":1,"Stripe":39,"Kai":1,"智能体":358,"治理":4,"项目":1,"工具策略":1,"人在回路":17,"技能":23,"沙箱":65}</script>
+<script type="application/json" class="pd-epn">{"Sharadh Krishnamurthy":1,"Stripe":39,"Kai":1,"智能体":361,"治理":4,"项目":1,"工具策略":1,"人在回路":17,"技能":24,"沙箱":66}</script>
 
 <script>
 (function(){

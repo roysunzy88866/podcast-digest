@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体网络":3,"智能体":358,"MCP Apps":3,"MCP":65,"Aura":1,"llms.txt":2,"浏览器智能体":1,"无头化":2,"个人助理":1,"发现":2}</script>
+<script type="application/json" class="pd-epn">{"智能体网络":3,"智能体":361,"MCP Apps":3,"MCP":65,"Aura":1,"llms.txt":2,"浏览器智能体":1,"无头化":2,"个人助理":1,"发现":2}</script>
 
 <script>
 (function(){

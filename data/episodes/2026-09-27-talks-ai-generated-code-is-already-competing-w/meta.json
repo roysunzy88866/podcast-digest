@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-27-talks-ai-generated-code-is-already-competing-w",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/474j-n1Ltxc.m4a",
+  "duration_sec": 751.017,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 154,
+  "asr": true,
+  "title_en": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "added": "2026-09-30",
+  "added_at": "2026-09-30T01:59:09.679Z",
+  "speaker_map": {
+    "SPEAKER_00": "Daksh Gupta"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Daksh Gupta"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI 生成的代码到底行不行：百万 PR 数据给出的答案",
+  "guest_name": "Daksh Gupta",
+  "guest_title": "Greptile 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

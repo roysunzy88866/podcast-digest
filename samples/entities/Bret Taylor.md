@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":358,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":65}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":361,"基于结果的定价":4,"应用 AI":1,"前沿模型":21,"工具层":2,"上下文工程":15,"编程系统":1,"MCP":65}</script>
 
 <script>
 (function(){

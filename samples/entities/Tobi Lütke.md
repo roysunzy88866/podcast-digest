@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":12,"River":2,"智能体":358,"Sydney":1,"沙箱":65,"LLM":49,"pull request":2,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":12,"River":2,"智能体":361,"Sydney":1,"沙箱":66,"LLM":49,"pull request":3,"超级智能":5,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

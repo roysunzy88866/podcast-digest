@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Zubin Aysola]] [[Roland Gavrilescu]] [[Parag Agrawal]]
+[[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]] [[Lon]] [[Jason]] [[Daksh Gupta]] [[Andrew Orobator]] [[Zubin Aysola]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":23,"循环":9,"Factory":4,"Tesla 智能体":1,"代码审查":18,"验证器":6,"上下文":24}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":24,"循环":9,"Factory":4,"Tesla 智能体":1,"代码审查":19,"验证器":6,"上下文":24}</script>
 
 <script>
 (function(){
