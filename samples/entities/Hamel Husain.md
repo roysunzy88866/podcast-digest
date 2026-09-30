@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":369,"trace":2,"Anthropic":156}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Shreya Shankar":1,"评估":3,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":9,"智能体":373,"trace":2,"Anthropic":156}</script>
 
 <script>
 (function(){

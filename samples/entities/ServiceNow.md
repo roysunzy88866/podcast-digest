@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[SaaS]] · [[微调]] · [[Anthropic]] · [[OpenAI]] · [[Chris Benson]] · [[Elaina O'Mahoney]] · [[David George]] · [[Daniel Whitenack]] · [[Mural]]
 
-<script type="application/json" class="pd-epn">{"智能体":369,"SaaS":19,"微调":25,"Anthropic":156,"OpenAI":144,"Chris Benson":9,"Elaina O'Mahoney":1,"David George":4,"Daniel Whitenack":8,"Mural":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"SaaS":19,"微调":25,"Anthropic":156,"OpenAI":144,"Chris Benson":9,"Elaina O'Mahoney":1,"David George":4,"Daniel Whitenack":8,"Mural":1}</script>
 
 <script>
 (function(){

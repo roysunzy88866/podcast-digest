@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[AI]] · [[Lenny]] · [[Victor Riparbelli]] · [[Justine Moore]] · [[Jeff Berman]] · [[Bill Ackman]] · [[Elizabeth Stone]] · [[Synthesia]]
 
-<script type="application/json" class="pd-epn">{"智能体":369,"Google":51,"AI":23,"Lenny":68,"Victor Riparbelli":1,"Justine Moore":1,"Jeff Berman":1,"Bill Ackman":1,"Elizabeth Stone":1,"Synthesia":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"Google":51,"AI":23,"Lenny":68,"Victor Riparbelli":1,"Justine Moore":1,"Jeff Berman":1,"Bill Ackman":1,"Elizabeth Stone":1,"Synthesia":1}</script>
 
 <script>
 (function(){

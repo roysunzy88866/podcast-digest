@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]] [[Jacob]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"SAP":2,"OpenAI":144,"Anthropic":156,"Amazon":20,"Shopify":14,"Databricks":18,"Snowflake":15,"Salesforce":33,"Workday":5,"智能体":369}</script>
+<script type="application/json" class="pd-epn">{"SAP":2,"OpenAI":144,"Anthropic":156,"Amazon":21,"Shopify":15,"Databricks":18,"Snowflake":15,"Salesforce":33,"Workday":5,"智能体":373}</script>
 
 <script>
 (function(){

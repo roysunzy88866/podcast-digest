@@ -25,7 +25,7 @@ unlisted: true
 
 [[Roland Gavrilescu]] · [[循环]] · [[智能体配方]] · [[系统蒸馏]] · [[品味]] · [[评估]] · [[每瓦特有价值工作]] · [[智能体]] · [[harness]] · [[RLHF]]
 
-<script type="application/json" class="pd-epn">{"Roland Gavrilescu":1,"循环":9,"智能体配方":1,"系统蒸馏":1,"品味":14,"评估":3,"每瓦特有价值工作":1,"智能体":369,"harness":50,"RLHF":4}</script>
+<script type="application/json" class="pd-epn">{"Roland Gavrilescu":1,"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":14,"评估":3,"每瓦特有价值工作":1,"智能体":373,"harness":50,"RLHF":4}</script>
 
 <script>
 (function(){

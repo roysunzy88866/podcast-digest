@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-27-talks-what-it-actually-takes-to-build-a-softwa",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/vGCJ7diEtrw.m4a",
+  "duration_sec": 1347.127,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 202,
+  "asr": true,
+  "title_en": "What It Actually Takes to Build a Software Factory — Tereza Tížková, Factory",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "added": "2026-10-01",
+  "added_at": "2026-09-30T22:17:34.558Z",
+  "speaker_map": {
+    "SPEAKER_00": "Tereza Tížková"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Tereza Tížková"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "软件工厂：让智能体闭环造软件，而不只是写代码",
+  "guest_name": "Tereza Tížková",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

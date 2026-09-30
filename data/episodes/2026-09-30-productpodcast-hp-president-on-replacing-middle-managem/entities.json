@@ -1,0 +1,705 @@
+{
+  "episode_id": "2026-09-30-productpodcast-hp-president-on-replacing-middle-managem",
+  "podcast": "The Product Podcast",
+  "date": "2026-09-30",
+  "tags": [
+    "企业 AI 采用",
+    "SaaS 定价",
+    "产品战略",
+    "智能体",
+    "组织变革"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "faisal-masud",
+      "type": "person",
+      "role": "host",
+      "name": "Faisal Masud",
+      "file": "Faisal Masud",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8,
+            18
+          ],
+          "quote": "Faisal Masud, SVP and President of HP. I wonder if you've found ways to achieve quality without getting through the nitty-gritty of some slop along the way?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "hp",
+      "type": "company",
+      "role": "company",
+      "name": "HP",
+      "file": "HP",
+      "primary": true,
+      "how_described": "本集背景公司:以打印机/硬件闻名,嘉宾在 HP 内部运营其商业软件业务 HP Digital Services",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8,
+            18
+          ],
+          "quote": "Faisal Masud, SVP and President of HP. I wonder if you've found ways to achieve quality without getting through the nitty-gritty of some slop along the way?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            108,
+            110
+          ],
+          "quote": "Nice to meet you. Understanding the Title, and Why HP Built a Software Business",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 11,
+          "t": [
+            110,
+            118
+          ],
+          "quote": "Your title is very complicated, so you have to help me here. It says President and SVP of HP Digital Services.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            118,
+            135
+          ],
+          "quote": "That's right. I didn't create the title, but it's the internal title for, basically, running all of HP's commercial software business. So the digital part is essentially anything to do with software that we sell into our enterprises and channel partners.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 13,
+          "t": [
+            135,
+            145
+          ],
+          "quote": "That's kind of unique to HP. The first thing someone thinks of with HP is hardware, printers, right? So what was the rationale behind expanding into software as a service?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 24,
+          "t": [
+            559,
+            652
+          ],
+          "quote": "We're on frontier with OpenAI, and it's fairly integrated here at HP with the latest models. To answer your question on some of these consumer agents, you're very courageous to use one, in the sense that you give it all your logins, passwords, and so on. I feel like privacy and security are going to become a big obstacle along the way. It's not going to be trivial to just hand over all your credentials to one bot that's going to go do what it needs to do. People might be very selective about what they use it for. You saw Amazon decline to work with some of these agents, just like the decline with Perplexity. I don't know where I stand on that, because I feel like Amazon's moat is Prime, and customers will continue to go to Amazon because of Prime. They don't need those agents, not today, at least. When it comes to the enterprise, I think Microsoft has done a pretty decent job at this point. The early days were a bit rockier, but with Copilot, the integration of Copilot, and their soon-to-come coworker and Claude for enterprise, I think it's a good product for those who want the capabilities AI can provide alongside their work. The most integrated product right now is probably Microsoft. I don't find that same level of native capabilities out of Google Workspace, at least I haven't seen it there, it's not as integrated. Whereas if you look at Microsoft, Copilot has actually made a lot of gains. HP's Own AI Strategy: Internal Workflows First",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 25,
+          "t": [
+            652,
+            664
+          ],
+          "quote": "So where do you play in this arena? You're running the SaaS portfolio for HP, and now you have all of these agent opportunities along the way. So what's your strategy?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 31,
+          "t": [
+            960,
+            973
+          ],
+          "quote": "As you talk about product-market fit, I want to know your go-to-market motion. How much are you leveraging your existing HP relationships to introduce your product, versus going to market directly?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 32,
+          "t": [
+            973,
+            1096
+          ],
+          "quote": "We do both. One big friction point early on, although it didn't really become an issue, was when I started pitching Workforce Experience as not a point solution, which we used to have back in the day. Point solutions are interesting, but they're not that relevant to the economic buyer long-term. When you're pitching a platform, the platform has to be completely agnostic of your own stuff that's involved in it. So we went device-agnostic and OS-agnostic. We didn't care if the fleets we were selling into were competitors' brands or a completely different OS. Our principled approach was: we don't care what hardware you're running, we want to make sure we can help you run that environment better. Once you have those very specific principles outlined on why you're doing that, and people are on board, it becomes a lot easier to move forward. On how we do the go-to-market: we rely heavily on our existing go-to-market rails. As a very large hardware seller, an OEM, we are constantly in conversations where our account reps are dealing with customers who are buying competitor product. In the past, HP used to sell third-party software. We don't do that anymore. All the IP we've built, we're selling as our own software. So the transition was basically: we're not going to do that anymore, we're going to sell our own home-built, owned-IP product. In those conversations, what's evolved now is that instead of selling hardware, we're selling the solution: what problem are you trying to solve? Our go-to-market relies heavily on CIOs and RFPs coming in with explanations around \"we're trying to solve this problem,\" and Workforce Experience fits into that, versus selling the software with the hardware, which just doesn't scale. How Close Are You to the Outcome?",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1115,
+            1230
+          ],
+          "quote": "We're very clear on that, because when we started dogfooding the product inside HP, it wasn't a low bar. It was a high bar to convince our own IT teams to use it. We had 80,000 devices and hundreds, if not thousands, of pieces of software running in these environments. We had to convince our internal teams that this is the path forward and it will help them manage HP's IT environment better. Not until we crossed that threshold and accomplished some success there did we even go to market. So we had a very long alpha, a pretty long beta, then an extended release. We didn't go GA for a long time, and at every stage we had 15 to 20 to 100 partners alongside us looking at the ROI of what we deliver. An example: we're not walking into our customers' offices saying, \"buy this and we'll promise you the world and nothing will happen on the other side.\" We're actually telling them their ticket volume will go down by 30 to 40%, because Workforce Experience will tackle all those tickets behind the scenes. That's pure ROI, because all those tickets are managed by desk-side support. One ticket is, I don't know, six, ten, twenty dollars, whatever it takes to resolve, and it's a headache for the employee. Second, we have a feature called Smart Refresh, which evaluates all your fleet and says what you should not be buying. In the IT industry, what ends up happening is hardware is bought on 3-to-4-year cycles, in a really monolithic process: \"it's done this way, so that's the way we'll do it again, let's go buy 100,000 machines.\" We're breaking that mold and saying, actually, no, you shouldn't be buying 100,000 machines. You should be buying 55,000 machines, upgrade these, and Workforce Experience can manage all the others in a perfect configuration, so you can extend the life of your machine. That comes at a very low cost to them, because we can manage all of it. But think about that for a second: nobody else is doing that.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1677,
+            1708
+          ],
+          "quote": "No more dashboards, please. I'm burning dashboards. I don't want more meetings for the sake of meetings. It's been liberating to know I can do a lot of things myself again, like when we were much smaller. It's huge. So I'm curious how that applies at the scale you operate at. You're the President of HP Digital Services, but you're still very in tune with what's going on in the market. What are some of the pockets where you still want to feel a bit more like an IC?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "workforce-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "Workforce Experience",
+      "file": "Workforce Experience",
+      "primary": true,
+      "how_described": "本集主线产品:提供客户全部 IT 覆盖面(硬件、软件、操作系统、网络)洞察的平台,设备无关、OS 无关,并劝客户少买硬件,承诺工单量降 30-40%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            879,
+            960
+          ],
+          "quote": "I can tell you there was a lot of blood, sweat, and tears going into building the original thesis for Workforce Experience. We're in a business where our platform provides insights on our customers' total surface area: their hardware, software, OS, network, and so on. But at the same time, we also encourage buying less, which is counterproductive to a hardware business, right? So why do we do that? Because ultimately we exist because we want to make that employee experience absolutely world-class. And you can't make a world-class employee experience if you've got a bias in the process. From the top, you have to make sure that bias is removed, and your central focus, your grounding principle, is: how do I improve the experience for the people I'm selling this into? For that, you have to make some trade-offs. To your point, it wasn't easy to convince everybody, but it's less about convincing everyone. It's really important to convince yourself first: Will this work? How relevant is it? Will it have ROI for the people you're selling it into? Is there product-market fit? Is this a plug product, or are you selling it into these people? You have to go through all these questions. Once we found we had PMF, it was all roads leading to \"let's go build this faster.\" Go-to-Market: Selling the Solution, Not the Hardware",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 32,
+          "t": [
+            973,
+            1096
+          ],
+          "quote": "We do both. One big friction point early on, although it didn't really become an issue, was when I started pitching Workforce Experience as not a point solution, which we used to have back in the day. Point solutions are interesting, but they're not that relevant to the economic buyer long-term. When you're pitching a platform, the platform has to be completely agnostic of your own stuff that's involved in it. So we went device-agnostic and OS-agnostic. We didn't care if the fleets we were selling into were competitors' brands or a completely different OS. Our principled approach was: we don't care what hardware you're running, we want to make sure we can help you run that environment better. Once you have those very specific principles outlined on why you're doing that, and people are on board, it becomes a lot easier to move forward. On how we do the go-to-market: we rely heavily on our existing go-to-market rails. As a very large hardware seller, an OEM, we are constantly in conversations where our account reps are dealing with customers who are buying competitor product. In the past, HP used to sell third-party software. We don't do that anymore. All the IP we've built, we're selling as our own software. So the transition was basically: we're not going to do that anymore, we're going to sell our own home-built, owned-IP product. In those conversations, what's evolved now is that instead of selling hardware, we're selling the solution: what problem are you trying to solve? Our go-to-market relies heavily on CIOs and RFPs coming in with explanations around \"we're trying to solve this problem,\" and Workforce Experience fits into that, versus selling the software with the hardware, which just doesn't scale. How Close Are You to the Outcome?",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1115,
+            1230
+          ],
+          "quote": "We're very clear on that, because when we started dogfooding the product inside HP, it wasn't a low bar. It was a high bar to convince our own IT teams to use it. We had 80,000 devices and hundreds, if not thousands, of pieces of software running in these environments. We had to convince our internal teams that this is the path forward and it will help them manage HP's IT environment better. Not until we crossed that threshold and accomplished some success there did we even go to market. So we had a very long alpha, a pretty long beta, then an extended release. We didn't go GA for a long time, and at every stage we had 15 to 20 to 100 partners alongside us looking at the ROI of what we deliver. An example: we're not walking into our customers' offices saying, \"buy this and we'll promise you the world and nothing will happen on the other side.\" We're actually telling them their ticket volume will go down by 30 to 40%, because Workforce Experience will tackle all those tickets behind the scenes. That's pure ROI, because all those tickets are managed by desk-side support. One ticket is, I don't know, six, ten, twenty dollars, whatever it takes to resolve, and it's a headache for the employee. Second, we have a feature called Smart Refresh, which evaluates all your fleet and says what you should not be buying. In the IT industry, what ends up happening is hardware is bought on 3-to-4-year cycles, in a really monolithic process: \"it's done this way, so that's the way we'll do it again, let's go buy 100,000 machines.\" We're breaking that mold and saying, actually, no, you shouldn't be buying 100,000 machines. You should be buying 55,000 machines, upgrade these, and Workforce Experience can manage all the others in a perfect configuration, so you can extend the life of your machine. That comes at a very low cost to them, because we can manage all of it. But think about that for a second: nobody else is doing that.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1241,
+            1290
+          ],
+          "quote": "If we can't provide that return on their investment, we shouldn't exist. It's as simple as that. The right to be in the room is only allowed until we can demonstrate the performance. We've had partners come back and tell us that not only has their ticket volume gone down, their mean average time to resolve tickets has gone down by 30%. So what used to take six or seven days is now taking two or three days. Those are the types of things we love hearing. We saw that when folks are refreshing their fleets, they're spending 20, 30 million, and they're spending 25 to 30% less. In the end, that's all cash. That's all cash leaving their enterprise. If Workforce Experience can help you with that, isn't that what you want? You want to reduce costs, be more secure, and have higher velocity in your IT environment. What AI Does to the Management Layer",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1310,
+            1417
+          ],
+          "quote": "I mentioned this in a previous podcast, about the layers. What AI is demonstrably doing immediately is that those additional layers of management are just not that necessary anymore. Longer-term, because a lot of that monitoring, management, data collection, and aggregation of information can be done by individuals, if you have to rely on a manager reporting to a manager reporting to a director, I'm not sure all those layers scale long-term with AI, because AI can do a lot of that work. That's one. Second, we're seeing a lot of requests, and we've built a new alpha in our labs, a product called AI Command Center. So when you buy Workforce Experience in the future, there's a capability that comes with our elite package that will look at your entire landscape of employees and their AI adoption, usage, and yield. We can actually help you predict and manage not just your budgeting, but also how your employees are adopting all the technology you're releasing to them. That's something we're hearing a lot more about: how can I make sure my employees are more efficient at what they do? The challenge has been that most of these CIOs haven't seen the return from all of these things, and we want to give them a clear, visible line of sight: here are the employees by department, by persona, by usage, using these models. How can you make them more efficient? How can you make sure there's adoption in the right places? That's what people are looking for. Ultimately, to your question, you'll still have people in these organizations, but fundamentally, managers will have to know a lot more than just managing. Who Manages the Fleet of Agents?",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "ai-command-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Command Center",
+      "file": "AI Command Center",
+      "primary": true,
+      "how_described": "本集说它是 HP 实验室孵化的新 alpha 产品:审视企业员工的 AI 采用、使用与产出,帮 CIO 预测和管理预算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            1310,
+            1417
+          ],
+          "quote": "I mentioned this in a previous podcast, about the layers. What AI is demonstrably doing immediately is that those additional layers of management are just not that necessary anymore. Longer-term, because a lot of that monitoring, management, data collection, and aggregation of information can be done by individuals, if you have to rely on a manager reporting to a manager reporting to a director, I'm not sure all those layers scale long-term with AI, because AI can do a lot of that work. That's one. Second, we're seeing a lot of requests, and we've built a new alpha in our labs, a product called AI Command Center. So when you buy Workforce Experience in the future, there's a capability that comes with our elite package that will look at your entire landscape of employees and their AI adoption, usage, and yield. We can actually help you predict and manage not just your budgeting, but also how your employees are adopting all the technology you're releasing to them. That's something we're hearing a lot more about: how can I make sure my employees are more efficient at what they do? The challenge has been that most of these CIOs haven't seen the return from all of these things, and we want to give them a clear, visible line of sight: here are the employees by department, by persona, by usage, using these models. How can you make them more efficient? How can you make sure there's adoption in the right places? That's what people are looking for. Ultimately, to your question, you'll still have people in these organizations, but fundamentally, managers will have to know a lot more than just managing. Who Manages the Fleet of Agents?",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1708,
+            1811
+          ],
+          "quote": "I feel fairly liberated with AI, because a lot of the long-tail tasks are being managed through AI. I have an agent that runs overnight and looks at what's really important to me, with pre-drafts ready. I'm doing all the stuff you're probably doing, and everybody in a similar job to mine is probably doing. The usage of AI for executives is very different from the usage of AI for ICs. Let's be clear about this: when you're an executive, you've got a support structure around you that eliminates the need for too much AI, because you've got human beings around you. But where you do need AI, it's there. Where I feel more liberated is that I want to spend as much time as possible with customers, and with existing customers versus new customers. That's number one, because I believe existing customers are more important than new customers. They trusted you, they brought you in, and you have to do everything possible to build a repeatable, predictable product that has ROI. Number two, this AI Command Center I talked about, I'm personally involved in architecting what we're building, and I find that so amazing, because I'm able to be in a room with the PMs and the engineering teams tackling issues like: where's that data going to come from? What are we going to do about this? How are we looking at synthetic data versus real data? How are we going to surface this, and what action are customers going to take? I love that part, because it gets your juices going, to really think about what the ultimate goal is and how we get there. Longer-term, for us, selling more hardware is not the answer. It's selling more actual value to the customer. That could come in a SaaS product combined with hardware, or either or, but it ultimately has to be measurable. So I'm spending a lot more time with upcoming product labs and customers.",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论:谁来管理智能体舰队;设想零售场景中第二层级(助理买手等)被智能体取代,原管理者变成「管理智能体的 IC」,但高保真决定仍需人类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            652,
+            664
+          ],
+          "quote": "So where do you play in this arena? You're running the SaaS portfolio for HP, and now you have all of these agent opportunities along the way. So what's your strategy?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1417,
+            1450
+          ],
+          "quote": "That's a real challenge right now. In my case, we're deploying a bunch of agents, obsessing over it, really finding ways to use AI instead of a human when we have a problem. But the problem we're creating on the back end is: who's going to manage this fleet of agents? How good are they? When do we actually need a human instead of an agent, or a combination? I still haven't seen a way to easily manage that type of relationship.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1708,
+            1811
+          ],
+          "quote": "I feel fairly liberated with AI, because a lot of the long-tail tasks are being managed through AI. I have an agent that runs overnight and looks at what's really important to me, with pre-drafts ready. I'm doing all the stuff you're probably doing, and everybody in a similar job to mine is probably doing. The usage of AI for executives is very different from the usage of AI for ICs. Let's be clear about this: when you're an executive, you've got a support structure around you that eliminates the need for too much AI, because you've got human beings around you. But where you do need AI, it's there. Where I feel more liberated is that I want to spend as much time as possible with customers, and with existing customers versus new customers. That's number one, because I believe existing customers are more important than new customers. They trusted you, they brought you in, and you have to do everything possible to build a repeatable, predictable product that has ROI. Number two, this AI Command Center I talked about, I'm personally involved in architecting what we're building, and I find that so amazing, because I'm able to be in a room with the PMs and the engineering teams tackling issues like: where's that data going to come from? What are we going to do about this? How are we looking at synthetic data versus real data? How are we going to surface this, and what action are customers going to take? I love that part, because it gets your juices going, to really think about what the ultimate goal is and how we get there. Longer-term, for us, selling more hardware is not the answer. It's selling more actual value to the customer. That could come in a SaaS product combined with hardware, or either or, but it ultimately has to be measurable. So I'm spending a lot more time with upcoming product labs and customers.",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的定价 (outcome-based)",
+      "file": "基于结果的定价",
+      "primary": true,
+      "how_described": "本集核心观点:人类席位变少后,定价要么按席位附结果承诺、要么纯按结果收费,「为没用的仪表板付费」的时代正在结束",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1542,
+            1635
+          ],
+          "quote": "Fewer human seats is totally fine by us, because ultimately we're committing to ROI around your spend and your overall ticketing volume: how much are you spending on desk-side support? That's a pretty large expense for large enterprises to manage 24/7. We see a world where those seats could exist and not exist, but move to more of a rev-share model or a cost-reduction model. In the future state, we can imagine a world where you had X number of tickets a year, we commit to this much reduction overall, and based on that, we charge you a fee that's outcome-based. That doesn't seem out of scope, because CIOs are getting smarter about not just paying for dashboards that aren't useful. They're paying for actual outcomes. So I see a clear path: you can be either seat-based with commitments on outcomes, or purely outcome-based. The skin in the game with the outcome-based model makes the equation very equal. It's a win for you and a win for us. The best negotiations in the world are when both parties are winning. If one party is losing, the deal doesn't work out that well long-term; it's really good short-term, you can high-five all day long, but a year later you're churning that customer. So what AI is doing is a bit of a leveling of the playing field: do I need all these pieces of software? What are they doing for me? Are they actually generating ROI? Is there a way to compute that? If there isn't, I don't need it. I kind of like that, because we believe that if it were just a software business not supporting the hardware business, there are so many of those, but we have a unique position.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1635,
+            1663
+          ],
+          "quote": "We have some extreme examples already in the market, not a lot. A helpdesk platform, for example, just got acquired by Salesforce for $3.6 billion, I believe, and it's all about outcome-based pricing, some number of dollars per ticket resolved. I think the closer we can get our pricing to the outcome of the client, the better for both. It puts extra pressure on the vendor to actually deliver on what they promised, but it's actually a good thing.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾内容 (slop)",
+      "file": "AI 垃圾内容",
+      "primary": true,
+      "how_described": "本集用它批评 Tobi 的 AI 宣言的讽刺:鼓励组织无护栏 all-in,又抱怨组织里 AI 生成的低质量内容泛滥",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8,
+            18
+          ],
+          "quote": "Faisal Masud, SVP and President of HP. I wonder if you've found ways to achieve quality without getting through the nitty-gritty of some slop along the way?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 4,
+          "t": [
+            18,
+            27
+          ],
+          "quote": "It's literally becoming hard to understand what's actually written by a human versus pure slop. In some cases, they're adding more work, not actually deducting.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            204,
+            258
+          ],
+          "quote": "I ended up in SaaS completely by accident, because the early days of this started around my time at Fabric. After I left Alphabet and Wing, I joined some ex-colleagues from Staples and eBay who had started a company called Fabric, and I joined as CEO. At that time we were very, very early, still doing our seed round, so I got involved pretty early in the product. The interesting part is we had built something similar at Staples for our e-commerce platform, where we were trying to transition away from the legacy IBM WebSphere. So this became a platform we could serve to everybody that wasn't Amazon, that didn't have all the capabilities Amazon had. That's where my journey into SaaS started. Most of our selling was founder-led selling for SaaS. I took that company from seed to Series C, stayed on the board for a bit soon thereafter, and then joined here. The Irony of the AI Manifesto and the Slop It Produced",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 17,
+          "t": [
+            258,
+            291
+          ],
+          "quote": "I was going down the rabbit hole on your X profile, and I found a couple of interesting tweets I want to bring up. One was a response to Tobi, co-founder of Shopify. He's all over the place again because he's talking about the AI slop grenade, but he was also the originator of the CEO AI manifesto encouraging people to use AI. And it seems like now people are using AI in ways that aren't very great. So what's your take on that?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 18,
+          "t": [
+            291,
+            363
+          ],
+          "quote": "My take, and I wrote about this, is that the FOMO is off the charts. Two years ago it was completely off the charts, and now it's settling down a bit with all the tokens spent. But I always find it's good to be an early adopter, and it's also good to have some data around the adoption, versus just going all-in. The response you're referring to might have been one around the slop grenades he's talking about. The irony I found was: on one hand, we're encouraging everybody that AI will replace every job, don't come to a meeting if you haven't figured it out with AI, and encouraging that as much as possible. And then, on the other hand, talking about how it's just slop central and that's what's happening. With the introduction of AI at work, for those adopting it, it's becoming hard to understand what's actually written by a human versus pure slop. I find it ironic that you can't encourage an organization to go all-in, which is what they did, with no guardrails around it, and then, on the other hand, have a problem with the massive amounts of slop in your organization. You have to pick your lane. Getting Through the Slop to Quality",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 19,
+          "t": [
+            363,
+            391
+          ],
+          "quote": "Maybe coming from a startup myself, I also encourage my team to go all-in with AI. And of course, we have to get through slop. I actually had to get through slop in many ways. But I thought of that as a necessary step in order to achieve quality. I wonder if you've found ways to achieve quality without getting through the nitty-gritty of some slop along the way?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            391,
+            452
+          ],
+          "quote": "AI has a very dominant position in what we do at our enterprise, and even outside a startup environment, AI is really good at the inform and consult part of the equation: getting information so you can consult with it. But what it can't be is completely copy-paste. That's where things get difficult, because human judgment is going to become really important here. If you lack ideas and you're relying heavily on AI for everything, you're not really going to be that important. Nassim Taleb recently tweeted this. I don't know if you follow him, but he said something like, those with high IQ and no original ideas are going to find it very hard in the world of AI. And I tend to agree. You have to be creative at the same time as utilizing AI along the way. So I think you did the right thing, and you probably expected the slop to go up and at some point come back down. I'm still waiting for the come-back-down part.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 21,
+          "t": [
+            452,
+            481
+          ],
+          "quote": "That's true. It's also easy to give up, or to just stay in that slop stage and not push through enough. That's what I found is a lack of, for most of the clients we work with. They're doing all the right things on paper: they send the AI manifesto, they buy the tools, they create some metrics around adoption. But clearly that's not enough.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "human-judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类判断 (human judgment)",
+      "file": "人类判断",
+      "primary": true,
+      "how_described": "本集主张:AI 擅长「告知和咨询」,但不能完全复制粘贴——那里需要人类判断;缺乏原创想法、事事依赖 AI 的人会变得不重要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            391,
+            452
+          ],
+          "quote": "AI has a very dominant position in what we do at our enterprise, and even outside a startup environment, AI is really good at the inform and consult part of the equation: getting information so you can consult with it. But what it can't be is completely copy-paste. That's where things get difficult, because human judgment is going to become really important here. If you lack ideas and you're relying heavily on AI for everything, you're not really going to be that important. Nassim Taleb recently tweeted this. I don't know if you follow him, but he said something like, those with high IQ and no original ideas are going to find it very hard in the world of AI. And I tend to agree. You have to be creative at the same time as utilizing AI along the way. So I think you did the right thing, and you probably expected the slop to go up and at some point come back down. I'm still waiting for the come-back-down part.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 22,
+          "t": [
+            481,
+            531
+          ],
+          "quote": "I've seen enough tools now flooding the market: knowledge graph this, integrated into all your collaboration tools, getting alerts and alarms through bots powered by the litany of providers. In some cases they're adding more work. They're actually introducing more work into your daily workflow, not deducting it. So where I have a challenge is: AI is not your strategy. It's part of your strategy. It's going to help with your strategy. It cannot become the strategy, because then you've got a problem. It's a tool in the toolkit. It's not going to be the be-all and end-all. Leveraging it in the best way possible while utilizing human judgment, that's where the real impact is. The AI Layer Being Built on Top of SaaS",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "middle-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "中层管理 (middle management)",
+      "file": "中层管理",
+      "primary": true,
+      "how_described": "本集判断 AI 最先消灭管理层:监督、管理、数据收集、信息聚合这些层可由个人借助 AI 完成,经理向经理汇报的层级难以与 AI 长期共存",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "roi",
+      "type": "concept",
+      "role": "concept",
+      "name": "ROI",
+      "file": "ROI",
+      "primary": true,
+      "how_described": "本集反复以 ROI 为底线:「不能为客户投资提供回报我们就不该存在」;token 烧钱要算 ROI,产品上市前每阶段带合作伙伴审视 ROI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            768,
+            842
+          ],
+          "quote": "Large organizations are about relationships. As much as there's friction to get approvals for certain tools or capabilities, which could be exposure for the organization, you have to build the internal relationships to bring people with you. Early on, back when I joined, Figma was pretty popular, but it wasn't really being utilized much internally. I pushed very hard to make sure that whatever out-of-the-box capabilities Figma provided, we were using for all our design. That's now obviously moved forward to pretty much being able to do everything with the toolset you have internally. I've not seen a ton of challenges outside of the fact that, when you're using a lot of these products, the tokens run out fairly quickly and the budgets are challenging. So that's where it comes down to: where's the ROI for all of this? Because if you can't see the ROI on the amount of money you're spending on those tokens, you have to be able to do the math and be okay with it. When it comes to friction internally, I'd say we haven't faced the level of friction I would assume from a large enterprise like ourselves in utilizing the tools available. Change Has to Come From the Top",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 30,
+          "t": [
+            879,
+            960
+          ],
+          "quote": "I can tell you there was a lot of blood, sweat, and tears going into building the original thesis for Workforce Experience. We're in a business where our platform provides insights on our customers' total surface area: their hardware, software, OS, network, and so on. But at the same time, we also encourage buying less, which is counterproductive to a hardware business, right? So why do we do that? Because ultimately we exist because we want to make that employee experience absolutely world-class. And you can't make a world-class employee experience if you've got a bias in the process. From the top, you have to make sure that bias is removed, and your central focus, your grounding principle, is: how do I improve the experience for the people I'm selling this into? For that, you have to make some trade-offs. To your point, it wasn't easy to convince everybody, but it's less about convincing everyone. It's really important to convince yourself first: Will this work? How relevant is it? Will it have ROI for the people you're selling it into? Is there product-market fit? Is this a plug product, or are you selling it into these people? You have to go through all these questions. Once we found we had PMF, it was all roads leading to \"let's go build this faster.\" Go-to-Market: Selling the Solution, Not the Hardware",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1115,
+            1230
+          ],
+          "quote": "We're very clear on that, because when we started dogfooding the product inside HP, it wasn't a low bar. It was a high bar to convince our own IT teams to use it. We had 80,000 devices and hundreds, if not thousands, of pieces of software running in these environments. We had to convince our internal teams that this is the path forward and it will help them manage HP's IT environment better. Not until we crossed that threshold and accomplished some success there did we even go to market. So we had a very long alpha, a pretty long beta, then an extended release. We didn't go GA for a long time, and at every stage we had 15 to 20 to 100 partners alongside us looking at the ROI of what we deliver. An example: we're not walking into our customers' offices saying, \"buy this and we'll promise you the world and nothing will happen on the other side.\" We're actually telling them their ticket volume will go down by 30 to 40%, because Workforce Experience will tackle all those tickets behind the scenes. That's pure ROI, because all those tickets are managed by desk-side support. One ticket is, I don't know, six, ten, twenty dollars, whatever it takes to resolve, and it's a headache for the employee. Second, we have a feature called Smart Refresh, which evaluates all your fleet and says what you should not be buying. In the IT industry, what ends up happening is hardware is bought on 3-to-4-year cycles, in a really monolithic process: \"it's done this way, so that's the way we'll do it again, let's go buy 100,000 machines.\" We're breaking that mold and saying, actually, no, you shouldn't be buying 100,000 machines. You should be buying 55,000 machines, upgrade these, and Workforce Experience can manage all the others in a perfect configuration, so you can extend the life of your machine. That comes at a very low cost to them, because we can manage all of it. But think about that for a second: nobody else is doing that.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1542,
+            1635
+          ],
+          "quote": "Fewer human seats is totally fine by us, because ultimately we're committing to ROI around your spend and your overall ticketing volume: how much are you spending on desk-side support? That's a pretty large expense for large enterprises to manage 24/7. We see a world where those seats could exist and not exist, but move to more of a rev-share model or a cost-reduction model. In the future state, we can imagine a world where you had X number of tickets a year, we commit to this much reduction overall, and based on that, we charge you a fee that's outcome-based. That doesn't seem out of scope, because CIOs are getting smarter about not just paying for dashboards that aren't useful. They're paying for actual outcomes. So I see a clear path: you can be either seat-based with commitments on outcomes, or purely outcome-based. The skin in the game with the outcome-based model makes the equation very equal. It's a win for you and a win for us. The best negotiations in the world are when both parties are winning. If one party is losing, the deal doesn't work out that well long-term; it's really good short-term, you can high-five all day long, but a year later you're churning that customer. So what AI is doing is a bit of a leveling of the playing field: do I need all these pieces of software? What are they doing for me? Are they actually generating ROI? Is there a way to compute that? If there isn't, I don't need it. I kind of like that, because we believe that if it were just a software business not supporting the hardware business, there are so many of those, but we have a unique position.",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1708,
+            1811
+          ],
+          "quote": "I feel fairly liberated with AI, because a lot of the long-tail tasks are being managed through AI. I have an agent that runs overnight and looks at what's really important to me, with pre-drafts ready. I'm doing all the stuff you're probably doing, and everybody in a similar job to mine is probably doing. The usage of AI for executives is very different from the usage of AI for ICs. Let's be clear about this: when you're an executive, you've got a support structure around you that eliminates the need for too much AI, because you've got human beings around you. But where you do need AI, it's there. Where I feel more liberated is that I want to spend as much time as possible with customers, and with existing customers versus new customers. That's number one, because I believe existing customers are more important than new customers. They trusted you, they brought you in, and you have to do everything possible to build a repeatable, predictable product that has ROI. Number two, this AI Command Center I talked about, I'm personally involved in architecting what we're building, and I find that so amazing, because I'm able to be in a room with the PMs and the engineering teams tackling issues like: where's that data going to come from? What are we going to do about this? How are we looking at synthetic data versus real data? How are we going to surface this, and what action are customers going to take? I love that part, because it gets your juices going, to really think about what the ultimate goal is and how we get there. Longer-term, for us, selling more hardware is not the answer. It's selling more actual value to the customer. That could come in a SaaS product combined with hardware, or either or, but it ultimately has to be measurable. So I'm spending a lot more time with upcoming product labs and customers.",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "dogfooding",
+      "type": "concept",
+      "role": "concept",
+      "name": "dogfooding",
+      "file": "dogfooding",
+      "primary": true,
+      "how_described": "本集说 Workforce Experience 先在 HP 内部 80,000 台设备上验证,走超长 alpha/beta 后才 GA 走向市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1115,
+            1230
+          ],
+          "quote": "We're very clear on that, because when we started dogfooding the product inside HP, it wasn't a low bar. It was a high bar to convince our own IT teams to use it. We had 80,000 devices and hundreds, if not thousands, of pieces of software running in these environments. We had to convince our internal teams that this is the path forward and it will help them manage HP's IT environment better. Not until we crossed that threshold and accomplished some success there did we even go to market. So we had a very long alpha, a pretty long beta, then an extended release. We didn't go GA for a long time, and at every stage we had 15 to 20 to 100 partners alongside us looking at the ROI of what we deliver. An example: we're not walking into our customers' offices saying, \"buy this and we'll promise you the world and nothing will happen on the other side.\" We're actually telling them their ticket volume will go down by 30 to 40%, because Workforce Experience will tackle all those tickets behind the scenes. That's pure ROI, because all those tickets are managed by desk-side support. One ticket is, I don't know, six, ten, twenty dollars, whatever it takes to resolve, and it's a headache for the employee. Second, we have a feature called Smart Refresh, which evaluates all your fleet and says what you should not be buying. In the IT industry, what ends up happening is hardware is bought on 3-to-4-year cycles, in a really monolithic process: \"it's done this way, so that's the way we'll do it again, let's go buy 100,000 machines.\" We're breaking that mold and saying, actually, no, you shouldn't be buying 100,000 machines. You should be buying 55,000 machines, upgrade these, and Workforce Experience can manage all the others in a perfect configuration, so you can extend the life of your machine. That comes at a very low cost to them, because we can manage all of it. But think about that for a second: nobody else is doing that.",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说不能鼓励组织毫无护栏地 all-in AI,然后又对大量垃圾内容有意见——必须选定车道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            291,
+            363
+          ],
+          "quote": "My take, and I wrote about this, is that the FOMO is off the charts. Two years ago it was completely off the charts, and now it's settling down a bit with all the tokens spent. But I always find it's good to be an early adopter, and it's also good to have some data around the adoption, versus just going all-in. The response you're referring to might have been one around the slop grenades he's talking about. The irony I found was: on one hand, we're encouraging everybody that AI will replace every job, don't come to a meeting if you haven't figured it out with AI, and encouraging that as much as possible. And then, on the other hand, talking about how it's just slop central and that's what's happening. With the introduction of AI at work, for those adopting it, it's becoming hard to understand what's actually written by a human versus pure slop. I find it ironic that you can't encourage an organization to go all-in, which is what they did, with no guardrails around it, and then, on the other hand, have a problem with the massive amounts of slop in your organization. You have to pick your lane. Getting Through the Slop to Quality",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集作为 Tobi 的公司被提及:其联合创始人发了鼓励全员用 AI 的 CEO 宣言,随后抱怨 AI slop 泛滥",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            258,
+            291
+          ],
+          "quote": "I was going down the rabbit hole on your X profile, and I found a couple of interesting tweets I want to bring up. One was a response to Tobi, co-founder of Shopify. He's all over the place again because he's talking about the AI slop grenade, but he was also the originator of the CEO AI manifesto encouraging people to use AI. And it seems like now people are using AI in ways that aren't very great. So what's your take on that?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集评价其在企业 AI 集成上做得最好:Copilot 取得很大进展,HP 内部也尽量利用其开箱即用能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            559,
+            652
+          ],
+          "quote": "We're on frontier with OpenAI, and it's fairly integrated here at HP with the latest models. To answer your question on some of these consumer agents, you're very courageous to use one, in the sense that you give it all your logins, passwords, and so on. I feel like privacy and security are going to become a big obstacle along the way. It's not going to be trivial to just hand over all your credentials to one bot that's going to go do what it needs to do. People might be very selective about what they use it for. You saw Amazon decline to work with some of these agents, just like the decline with Perplexity. I don't know where I stand on that, because I feel like Amazon's moat is Prime, and customers will continue to go to Amazon because of Prime. They don't need those agents, not today, at least. When it comes to the enterprise, I think Microsoft has done a pretty decent job at this point. The early days were a bit rockier, but with Copilot, the integration of Copilot, and their soon-to-come coworker and Claude for enterprise, I think it's a good product for those who want the capabilities AI can provide alongside their work. The most integrated product right now is probably Microsoft. I don't find that same level of native capabilities out of Google Workspace, at least I haven't seen it there, it's not as integrated. Whereas if you look at Microsoft, Copilot has actually made a lot of gains. HP's Own AI Strategy: Internal Workflows First",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 26,
+          "t": [
+            664,
+            739
+          ],
+          "quote": "Our strategy is for internal workflows. I'm not running IT for the organizations I sell into; I sell into IT leaders. But for our internal organization, the product managers are pushed very hard: what can be done through AI should be done through AI, and what needs a human in the loop, you do that. So the PMs use all the tools available, whether it's the early days of ChatGPT down to Claude now, and wherever they can use tools, they do all that work, from ideation to PRD and beyond. A lot of that is getting heavily compressed. Even early demo videos are so easy now. Everything is just so much easier now, until you need to go to production. That's a whole different ballgame. What we do internally is try to make sure we can leverage as much of the out-of-the-box capabilities Microsoft provides in every facet possible, and then internally accelerate our overall cycle time for getting from ideation all the way to deploying features to the market. Our developers use Codex, Claude Code, and the PMs are all pretty heavy users of AI as well. Pushing Through Enterprise Bureaucracy",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "fabric",
+      "type": "company",
+      "role": "company",
+      "name": "Fabric",
+      "file": "Fabric",
+      "primary": false,
+      "how_described": "本集提到嘉宾曾任其 CEO:一家服务非 Amazon 卖家的 SaaS 电商平台,他从种子轮带到 C 轮",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            204,
+            258
+          ],
+          "quote": "I ended up in SaaS completely by accident, because the early days of this started around my time at Fabric. After I left Alphabet and Wing, I joined some ex-colleagues from Staples and eBay who had started a company called Fabric, and I joined as CEO. At that time we were very, very early, still doing our seed round, so I got involved pretty early in the product. The interesting part is we had built something similar at Staples for our e-commerce platform, where we were trying to transition away from the legacy IBM WebSphere. So this became a platform we could serve to everybody that wasn't Amazon, that didn't have all the capabilities Amazon had. That's where my journey into SaaS started. Most of our selling was founder-led selling for SaaS. I took that company from seed to Series C, stayed on the board for a bit soon thereafter, and then joined here. The Irony of the AI Manifesto and the Slop It Produced",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提及嘉宾曾在 Amazon 待六年,并谈 Amazon 因 Prime 护城河拒绝与消费级智能体合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            50,
+            108
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Faisal Masud, SVP and President of HP Digital Services, which is HP's software business. His path there is odd in the best way: six years at Amazon, then eBay, Groupon, CTO at Staples, then COO at Wing, Alphabet's drone-delivery moonshot, then CEO of Fabric. Now he runs software inside a company most people still think of as printers, and his platform tells customers to buy less hardware. Things we'll cover in this episode: the irony of the AI manifesto and the slop it produced; AI is part of your strategy, it cannot be the strategy; selling a product that tells HP customers to buy fewer HP machines; outcome-based pricing when you have fewer human seats to charge for; and why the middle-management layer is the one AI actually removes. Let's get into it. Welcome to The Product Podcast, Faisal.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 15,
+          "t": [
+            185,
+            204
+          ],
+          "quote": "I was looking at your background. You worked at Amazon, eBay, Google, but the drone-delivery business, Wing, was also really cool. So for someone who comes mostly from e-commerce, with a stint in drone delivery, how did you end up in SaaS?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            204,
+            258
+          ],
+          "quote": "I ended up in SaaS completely by accident, because the early days of this started around my time at Fabric. After I left Alphabet and Wing, I joined some ex-colleagues from Staples and eBay who had started a company called Fabric, and I joined as CEO. At that time we were very, very early, still doing our seed round, so I got involved pretty early in the product. The interesting part is we had built something similar at Staples for our e-commerce platform, where we were trying to transition away from the legacy IBM WebSphere. So this became a platform we could serve to everybody that wasn't Amazon, that didn't have all the capabilities Amazon had. That's where my journey into SaaS started. Most of our selling was founder-led selling for SaaS. I took that company from seed to Series C, stayed on the board for a bit soon thereafter, and then joined here. The Irony of the AI Manifesto and the Slop It Produced",
+          "speaker": "Faisal Masud"
+        },
+        {
+          "seg": 24,
+          "t": [
+            559,
+            652
+          ],
+          "quote": "We're on frontier with OpenAI, and it's fairly integrated here at HP with the latest models. To answer your question on some of these consumer agents, you're very courageous to use one, in the sense that you give it all your logins, passwords, and so on. I feel like privacy and security are going to become a big obstacle along the way. It's not going to be trivial to just hand over all your credentials to one bot that's going to go do what it needs to do. People might be very selective about what they use it for. You saw Amazon decline to work with some of these agents, just like the decline with Perplexity. I don't know where I stand on that, because I feel like Amazon's moat is Prime, and customers will continue to go to Amazon because of Prime. They don't need those agents, not today, at least. When it comes to the enterprise, I think Microsoft has done a pretty decent job at this point. The early days were a bit rockier, but with Copilot, the integration of Copilot, and their soon-to-come coworker and Claude for enterprise, I think it's a good product for those who want the capabilities AI can provide alongside their work. The most integrated product right now is probably Microsoft. I don't find that same level of native capabilities out of Google Workspace, at least I haven't seen it there, it's not as integrated. Whereas if you look at Microsoft, Copilot has actually made a lot of gains. HP's Own AI Strategy: Internal Workflows First",
+          "speaker": "Faisal Masud"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

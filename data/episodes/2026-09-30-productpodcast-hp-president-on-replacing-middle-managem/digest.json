@@ -1,0 +1,220 @@
+{
+  "title_zh": "HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略",
+  "tldr": "HP Digital Services 总裁 Faisal Masud 谈 AI 时代的软件战略:为何劝客户少买 HP 硬件、基于结果的定价、以及 AI 真正消灭的是哪一层。",
+  "digest_md": "这一集聊的是:一家以打印机闻名的硬件巨头,怎么把软件生意做成「劝客户少买自己硬件」的生意,以及一位横跨电商、无人机送货、SaaS 的高管,在 AI 浪潮里怎么判断什么该信、什么该警惕。主角是 Faisal Masud,HP Digital Services(HP 的商业软件业务)总裁兼高级副总裁;他做过六年 Amazon,再去 eBay、Groupon,当过 Staples 的 CTO、Alphabet 无人机送货项目 Wing 的 COO,又当过 Fabric 的 CEO,然后加入 HP [00:50 Carlos]。\n\n> 【背景】主持人 Carlos 是 Product School 的 CEO,也是 The Product Podcast 的主持人。\n\n他最反直觉的一个观点,是关于 Shopify 联合创始人 Tobi 那份鼓励全员用 AI 的 CEO 宣言的。Faisal 指出其中的讽刺:一方面鼓励所有人 all-in、没搞清楚 AI 就别来开会,另一方面又抱怨组织里垃圾内容(AI 生成的低质量内容)泛滥——「你不能鼓励一个组织毫无护栏地 all-in,然后又对大量垃圾内容有意见。你必须选定你的车道」[04:51 Faisal Masud]。他的立场是:做早期采用者是好事,但要有采用数据,而不是直接 all-in。AI 真正擅长的是「告知和咨询」——帮你获取信息、当顾问;它不能做的是让你完全复制粘贴,那里需要人类判断。他引用 Nassim Taleb 的说法表示认同:高智商但没有原创想法的人,在 AI 世界里会非常艰难 [06:31 Faisal Masud]。\n\n## AI 不是你的战略\n\n现在涌入市场的工具太多了——知识图谱、集成进协作工具、机器人警报——「在某些情况下,它们在给你的工作流里增加更多工作,而不是减少」[08:01 Faisal Masud]。所以他的核心主张是:AI 是工具箱里的一件工具,它帮你执行战略,但不能成为战略本身;真正的影响力在于「在运用人类判断的同时以最好的方式利用它」。\n\n至于企业怎么用?HP 自己的路子是内部工作流先行。对产品经理的 push 很直接:能通过 AI 完成的就必须通过 AI 完成,需要人类在环的才自己上。从构思到 PRD,大量环节被大幅压缩,连早期演示视频都变得非常容易——「直到你需要走向生产环境,那完全是另一回事」[11:04 Faisal Masud]。开发者用 Codex 和 Claude Code。他承认大企业有官僚摩擦,但他的解法是经营内部关系、把人带到你这边——比如他刚加入时力推 Figma 全员设计,现在摩擦比想象中小,真正的痛点反而是 token 烧得太快、预算得算得清 ROI [12:48 Faisal Masud]。\n\n## 劝客户少买硬件的软件生意\n\nFaisal 负责的主力产品叫 Workforce Experience:一个提供客户全部 IT 覆盖面(硬件、软件、操作系统、网络)洞察的平台。讽刺在于,它同时鼓励客户「少买」——这对硬件公司是反直觉的。理由是:偏向性会毁掉世界级的员工体验,立足原则必须是「如何改善我销售对象的体验」[14:39 Faisal Masud]。\n\n走向市场上有个关键决策:不做单点解决方案,做完全设备无关、操作系统无关的平台——「我们不在乎你运行什么硬件,我们想帮你把那个环境运行得更好」[16:13 Faisal Masud]。HP 不再代售第三方软件,改卖自研、自有 IP 的产品,客户经理从卖硬件转向卖解决方案。而且这个产品是先在自己身上验证的:HP 内部有 80,000 台设备,说服自家 IT 团队用了很高的门槛,走了很长的 alpha、beta 和延长发布,每个阶段带 15 到 100 个合作伙伴一起审视 ROI,然后才走向市场 [18:35 Faisal Masud]。\n\n向 CIO 证明价值的方式非常具体:\n\n- **工单量承诺降 30% 到 40%**——Workforce Experience 在幕后自动处理 IT 工单,而每张工单要花 6 到 20 美元不等,还是员工的头疼事 [18:35 Faisal Masud]。\n- **Smart Refresh 功能**:评估客户的整个设备舰队,直接告诉你不该买什么。行业惯例是 3 到 4 年周期僵化地「一次买 10 万台」;它会说:你应该买 55,000 台,升级这些,其余的用完美配置管理、延长寿命。「想想这一点:没有其他人在做这件事」[18:35 Faisal Masud]。\n- 客户实测:解决工单的平均时间下降 30%(六七天变两三天);刷新设备舰队时原本花两三千万的,少花 25% 到 30% [20:41 Faisal Masud]。\n\n他的底线很硬:「如果我们不能为他们的投资提供回报,我们就不应该存在。就这么简单。」待在房间里的权利,只在能证明绩效时才被允许 [20:41 Faisal Masud]。\n\n## AI 真正消灭的是中层管理\n\n关于 AI 对组织的影响,Faisal 的判断很具体:管理层是最先被削的。「那些额外的管理层已经不那么必要了」——监督、管理、数据收集、信息聚合,个人借助 AI 就能做。「如果你必须依赖一个经理向一个经理汇报再向一个总监汇报,我不确定这些层级能否与 AI 长期共存」[21:50 Faisal Masud]。\n\n他在 HP 实验室里还孵化了一个新产品的 alpha,叫 AI Command Center:审视企业里员工的 AI 采用、使用和产出,帮 CIO 预测和管理预算,并看清「哪些部门、哪些角色在用这些模型、怎么用」。痛点是大多数 CIO 还没从 AI 投入里看到回报,他们要的是一条清晰可见的视线 [21:50 Faisal Masud]。\n\n至于智能体舰队谁来管的问题,他设想了一个零售场景:传统零售商有买手、计划员、商品专员,他们旁边原本各有助理层级(助理买手、一级计划员等)——「那些第二层级是智能体,而那些一级买手现在不是管理者了,他们是管理智能体的 IC」。反转就是:你曾经是管理者,现在你管理的是智能体;但高保真度的决定仍需要人,因为智能体不承担那些责任 [24:10 Faisal Masud]。\n\n## 席位变少之后,定价跟着结果走\n\n人类席位变少对传统按席位收费的 SaaS 是威胁,但 Faisal 说对他完全没问题——因为他们承诺的本来就是 ROI。「我们可以想象这样一个世界:你每年有 X 张工单,我们承诺整体减少这么多,基于此收取一笔基于结果的费用」。路径很清晰:要么按席位但附结果承诺,要么纯按结果收费。他喜欢这种模式的利益绑定:「世界上最好的谈判是双方都在赢的时候。如果一方在输,短期你可以整天击掌,但一年后你就在流失那个客户了」[25:42 Faisal Masud]。AI 正在做的是拉平竞争环境——CIO 们变聪明了,不再为没用的仪表板付费,只付实际结果的钱。\n\n## 高管怎么保持贴近一线\n\nFaisal 自己有个智能体在夜间运行,审视什么对他真正重要、备好预先草稿。但他觉得 AI 对高管和对 IC 的用法很不一样:高管身边本来就有支持结构,人类足够多。他真正花时间的地方是两处:一是客户——而且他坚信现有客户比新客户更重要,「他们信任你,把你带了进来」;二是亲自参与 AI Command Center 的架构设计,和 PM、工程团队坐在一个房间里解决「数据从哪来、合成数据和真实数据怎么权衡」这类问题 [28:28 Faisal Masud]。他的长期判断是:卖更多硬件不是答案,卖更多可衡量的实际价值才是。\n\n## 本集带走\n\n- **AI 是工具不是战略**:它擅长「告知和咨询」,不能接受无脑复制粘贴;没有原创想法、事事依赖 AI 的人会变得不重要。\n- **all-in 之前先设护栏**:鼓励全员用 AI 又抱怨垃圾内容,是自相矛盾;垃圾内容先升后落,而「回落的部分我还在等」。\n- **先内部验证再上市**:80,000 台设备上先说服自家 IT 团队,超长的 alpha/beta + 合作伙伴陪跑审视 ROI,才走向市场。\n- **平台必须中性**:设备无关、操作系统无关,连自家硬件都「不可知」,才能拿到经济买家的长期信任。\n- **卖结果,不卖仪表板**:承诺工单降 30-40%、解决时间降 30%、设备采购省 25-30%;定价要么按席位附结果承诺,要么纯按结果收费。\n- **AI 先削的是中层**:监督、汇总、上报这些层被智能体替代;原来的管理者变成「管理智能体的 IC」,但高保真决定仍由人拍板。",
+  "quotes": [
+    {
+      "en": "If you lack ideas and you're relying heavily on AI for everything, you're not really going to be that important.",
+      "zh": "如果你缺乏想法,并且事事都严重依赖 AI,那你其实不会那么重要。",
+      "timestamp": "00:04",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "It's literally becoming hard to understand what's actually written by a human versus pure slop. In some cases, they're adding more work, not actually deducting.",
+      "zh": "现在要分辨哪些是真正由人写的、哪些是纯粹的垃圾内容,真的变得很难了。在某些情况下,它们反而增加了更多工作,而不是真正减少工作。",
+      "timestamp": "00:18",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "If we can't provide that return on their investment, we shouldn't exist. It's as simple as that.",
+      "zh": "如果我们不能为他们的投资提供回报,我们就不应该存在。就这么简单。",
+      "timestamp": "00:35",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "I find it ironic that you can't encourage an organization to go all-in, which is what they did, with no guardrails around it, and then, on the other hand, have a problem with the massive amounts of slop in your organization. You have to pick your lane.",
+      "zh": "我觉得很讽刺的是,你不能鼓励一个组织毫无护栏地 all-in——他们就是这么做的——然后,另一方面,又对组织里大量的垃圾内容有意见。你必须选定你的车道。",
+      "timestamp": "05:45",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "AI is really good at the inform and consult part of the equation: getting information so you can consult with it. But what it can't be is completely copy-paste.",
+      "zh": "AI 在「告知和咨询」这部分确实非常擅长:获取信息,让你可以拿它当顾问。但它不能做的就是完全复制粘贴。",
+      "timestamp": "06:37",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "AI is not your strategy. It's part of your strategy. It's going to help with your strategy. It cannot become the strategy, because then you've got a problem.",
+      "zh": "AI 不是你的战略。它是你战略的一部分。它会帮助你的战略。它不能成为战略本身,否则你就有问题了。",
+      "timestamp": "08:22",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "In some cases they're adding more work. They're actually introducing more work into your daily workflow, not deducting it.",
+      "zh": "在某些情况下,它们在增加更多工作。它们实际上是在给你的日常工作流程里引入更多工作,而不是减少。",
+      "timestamp": "08:12",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "But at the same time, we also encourage buying less, which is counterproductive to a hardware business, right? So why do we do that? Because ultimately we exist because we want to make that employee experience absolutely world-class.",
+      "zh": "但与此同时,我们也鼓励少买,这对硬件业务来说是适得其反的,对吧?那我们为什么这么做?因为归根结底,我们存在是为了把员工体验做到绝对世界级。",
+      "timestamp": "14:54",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "Our principled approach was: we don't care what hardware you're running, we want to make sure we can help you run that environment better.",
+      "zh": "我们的原则性方法是:我们不在乎你运行什么硬件,我们想确保能帮助你把那个环境运行得更好。",
+      "timestamp": "16:51",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "The right to be in the room is only allowed until we can demonstrate the performance.",
+      "zh": "待在房间里的权利,只有在我们能证明绩效的时候才被允许。",
+      "timestamp": "20:46",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "We've had partners come back and tell us that not only has their ticket volume gone down, their mean average time to resolve tickets has gone down by 30%. So what used to take six or seven days is now taking two or three days.",
+      "zh": "我们有合作伙伴回来告诉我们,不仅工单量下降了,解决工单的平均时间也下降了 30%。过去需要六七天的事情,现在只需要两三天。",
+      "timestamp": "20:51",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "If you have to rely on a manager reporting to a manager reporting to a director, I'm not sure all those layers scale long-term with AI, because AI can do a lot of that work.",
+      "zh": "如果你必须依赖一个经理向一个经理汇报再向一个总监汇报,我不确定这些层级能否与 AI 长期共存,因为 AI 可以做其中很多工作。",
+      "timestamp": "22:07",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "I think those second levels are agents, and those first-level buyers are now not managers. They're actually ICs managing agents.",
+      "zh": "我认为那些第二层级是智能体,而那些一级买手现在不是管理者了。他们实际上是管理智能体的 IC。",
+      "timestamp": "24:51",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "The skin in the game with the outcome-based model makes the equation very equal. It's a win for you and a win for us. The best negotiations in the world are when both parties are winning.",
+      "zh": "基于结果模式下的利益绑定让这个等式非常平等。对你是个胜利,对我们也是个胜利。世界上最好的谈判是双方都在赢的时候。",
+      "timestamp": "26:28",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "If one party is losing, the deal doesn't work out that well long-term; it's really good short-term, you can high-five all day long, but a year later you're churning that customer.",
+      "zh": "如果一方在输,这笔交易长期就不会太好;短期真的很好,你可以整天击掌,但一年后你就在流失那个客户了。",
+      "timestamp": "26:39",
+      "speaker": "Faisal Masud"
+    },
+    {
+      "en": "At some point, why do you want anything inside your IT environment if it's not accretive to the bottom line of what you do? What's the purpose? Just for pretty dashboards? That's meaningless.",
+      "zh": "到某个时候,如果一件东西对你的底线没有增益,你为什么还要把它放进你的 IT 环境?目的是什么?就为了好看的仪表板?那毫无意义。",
+      "timestamp": "27:43",
+      "speaker": "Faisal Masud"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:04",
+      "speaker": "Faisal Masud",
+      "en": "If you lack ideas and you're relying heavily on AI for everything, you're not really going to be that important.",
+      "zh": "如果你缺乏想法,并且事事都严重依赖 AI,那你其实不会那么重要。"
+    },
+    {
+      "timestamp": "00:18",
+      "speaker": "Faisal Masud",
+      "en": "It's literally becoming hard to understand what's actually written by a human versus pure slop. In some cases, they're adding more work, not actually deducting.",
+      "zh": "现在要分辨哪些是真正由人写的、哪些是纯粹的垃圾内容,真的变得很难了。在某些情况下,它们反而增加了更多工作,而不是真正减少工作。"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Faisal Masud",
+      "en": "If we can't provide that return on their investment, we shouldn't exist. It's as simple as that.",
+      "zh": "如果我们不能为他们的投资提供回报,我们就不应该存在。就这么简单。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Faisal Masud",
+      "en": "I find it ironic that you can't encourage an organization to go all-in, which is what they did, with no guardrails around it, and then, on the other hand, have a problem with the massive amounts of slop in your organization. You have to pick your lane.",
+      "zh": "我觉得很讽刺的是,你不能鼓励一个组织毫无护栏地 all-in——他们就是这么做的——然后,另一方面,又对组织里大量的垃圾内容有意见。你必须选定你的车道。"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Faisal Masud",
+      "en": "Nassim Taleb recently tweeted this... he said something like, those with high IQ and no original ideas are going to find it very hard in the world of AI. And I tend to agree.",
+      "zh": "Nassim Taleb 最近发了条推文……他说,那些高智商但没有原创想法的人,在 AI 的世界里会非常艰难。我倾向于同意这一点。"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Faisal Masud",
+      "en": "AI is really good at the inform and consult part of the equation: getting information so you can consult with it. But what it can't be is completely copy-paste.",
+      "zh": "AI 在「告知和咨询」这部分确实非常擅长:获取信息,让你可以拿它当顾问。但它不能做的就是完全复制粘贴。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Faisal Masud",
+      "en": "AI is not your strategy. It's part of your strategy. It's going to help with your strategy. It cannot become the strategy, because then you've got a problem.",
+      "zh": "AI 不是你的战略。它是你战略的一部分。它会帮助你的战略。它不能成为战略本身,否则你就有问题了。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Faisal Masud",
+      "en": "In some cases they're adding more work. They're actually introducing more work into your daily workflow, not deducting it.",
+      "zh": "在某些情况下,它们在增加更多工作。它们实际上是在给你的日常工作流程里引入更多工作,而不是减少。"
+    },
+    {
+      "timestamp": "11:04",
+      "speaker": "Faisal Masud",
+      "en": "Everything is just so much easier now, until you need to go to production. That's a whole different ballgame.",
+      "zh": "现在一切都变得容易多了,直到你需要走向生产环境。那完全是另一回事。"
+    },
+    {
+      "timestamp": "14:39",
+      "speaker": "Faisal Masud",
+      "en": "But at the same time, we also encourage buying less, which is counterproductive to a hardware business, right? So why do we do that? Because ultimately we exist because we want to make that employee experience absolutely world-class.",
+      "zh": "但与此同时,我们也鼓励少买,这对硬件业务来说是适得其反的,对吧?那我们为什么这么做?因为归根结底,我们存在是为了把员工体验做到绝对世界级。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Faisal Masud",
+      "en": "Our principled approach was: we don't care what hardware you're running, we want to make sure we can help you run that environment better.",
+      "zh": "我们的原则性方法是:我们不在乎你运行什么硬件,我们想确保能帮助你把那个环境运行得更好。"
+    },
+    {
+      "timestamp": "18:35",
+      "speaker": "Faisal Masud",
+      "en": "We're breaking that mold and saying, actually, no, you shouldn't be buying 100,000 machines. You should be buying 55,000 machines... But think about that for a second: nobody else is doing that.",
+      "zh": "我们正在打破那个模式,说:不,你不应该买 10 万台机器,你应该买 55,000 台……想想这一点:没有其他人在做这件事。"
+    },
+    {
+      "timestamp": "20:41",
+      "speaker": "Faisal Masud",
+      "en": "The right to be in the room is only allowed until we can demonstrate the performance.",
+      "zh": "待在房间里的权利,只有在我们能证明绩效的时候才被允许。"
+    },
+    {
+      "timestamp": "20:41",
+      "speaker": "Faisal Masud",
+      "en": "We've had partners come back and tell us that not only has their ticket volume gone down, their mean average time to resolve tickets has gone down by 30%. So what used to take six or seven days is now taking two or three days.",
+      "zh": "我们有合作伙伴回来告诉我们,不仅工单量下降了,解决工单的平均时间也下降了 30%。过去需要六七天的事情,现在只需要两三天。"
+    },
+    {
+      "timestamp": "21:50",
+      "speaker": "Faisal Masud",
+      "en": "If you have to rely on a manager reporting to a manager reporting to a director, I'm not sure all those layers scale long-term with AI, because AI can do a lot of that work.",
+      "zh": "如果你必须依赖一个经理向一个经理汇报再向一个总监汇报,我不确定这些层级能否与 AI 长期共存,因为 AI 可以做其中很多工作。"
+    },
+    {
+      "timestamp": "24:10",
+      "speaker": "Faisal Masud",
+      "en": "I think those second levels are agents, and those first-level buyers are now not managers. They're actually ICs managing agents.",
+      "zh": "我认为那些第二层级是智能体,而那些一级买手现在不是管理者了。他们实际上是管理智能体的 IC。"
+    },
+    {
+      "timestamp": "25:42",
+      "speaker": "Faisal Masud",
+      "en": "The skin in the game with the outcome-based model makes the equation very equal. It's a win for you and a win for us. The best negotiations in the world are when both parties are winning.",
+      "zh": "基于结果模式下的利益绑定让这个等式非常平等。对你是个胜利,对我们也是个胜利。世界上最好的谈判是双方都在赢的时候。"
+    },
+    {
+      "timestamp": "25:42",
+      "speaker": "Faisal Masud",
+      "en": "If one party is losing, the deal doesn't work out that well long-term; it's really good short-term, you can high-five all day long, but a year later you're churning that customer.",
+      "zh": "如果一方在输,这笔交易长期就不会太好;短期真的很好,你可以整天击掌,但一年后你就在流失那个客户了。"
+    },
+    {
+      "timestamp": "27:43",
+      "speaker": "Faisal Masud",
+      "en": "At some point, why do you want anything inside your IT environment if it's not accretive to the bottom line of what you do? What's the purpose? Just for pretty dashboards? That's meaningless.",
+      "zh": "到某个时候,如果一件东西对你的底线没有增益,你为什么还要把它放进你的 IT 环境?目的是什么?就为了好看的仪表板?那毫无意义。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Faisal Masud,是 HP Digital Services 的总裁,也就是 HP 的商业软件业务负责人。这份履历值得一听:做过六年 Amazon,后来去 eBay、Groupon,当过 Staples 的 CTO,还在 Alphabet 的无人机送货项目 Wing 做过 COO,又当过一家公司叫 Fabric 的 CEO,然后才加入 HP。一个横跨电商、无人机送货、SaaS 的高管,在 AI 浪潮里怎么看软件这门生意,是这一期要聊的事。\n\n先垫个背景。HP 是一家以打印机闻名的硬件巨头,而 Faisal 负责的软件生意,最反直觉的地方在于:它是一个劝客户少买 HP 硬件的生意。一家硬件公司,居然靠让客户少买自己的产品来赚钱,这中间的逻辑,我们一点点拆开讲。\n\n先说对 AI 本身的判断。现在市场上有个很热的样本,就是 Shopify 联合创始人 Tobi 那份鼓励全员用 AI 的 CEO 宣言——大概意思是没搞清楚 AI 就别来开会。Faisal 直接点出了其中的讽刺:一方面鼓励所有人毫无护栏地 all-in,另一方面又抱怨组织里 AI 生成的垃圾内容泛滥。原话是这么说的:你不能鼓励一个组织毫无护栏地 all-in,然后又对大量垃圾内容有意见,你必须选定你的车道。\n\n所以立场很清楚:做早期采用者是好事,但要有采用数据,而不是直接 all-in。AI 真正擅长的是什么?是「告知和咨询」——帮你获取信息、当顾问。它不能做的是让你完全复制粘贴,那里需要人类判断。Faisal 还引用了 Nassim Taleb 的说法表示认同:高智商但没有原创想法的人,在 AI 世界里会非常艰难。\n\n顺着这个判断往下推,就得回答企业到底该怎么用 AI。现在涌入市场的工具太多了——知识图谱、集成进协作工具、机器人警报——问题是,在某些情况下,这些工具是在给你的工作流里增加更多工作,而不是减少。所以核心主张就一句话:AI 是工具箱里的一件工具,它帮你执行战略,但不能成为战略本身;真正的影响力在于,在运用人类判断的同时,以最好的方式利用它。\n\n那 HP 自己是怎么干的?路子是内部工作流先行。对产品经理的 push 很直接:能通过 AI 完成的,就必须通过 AI 完成,需要人类在环的才自己上。从构思到 PRD,大量环节被大幅压缩,连早期演示视频都变得非常容易。但有个前提要交代清楚——直到你需要走向生产环境,那完全是另一回事。开发者用的是 Codex 和 Claude Code。大企业难免有官僚摩擦,Faisal 的解法不是硬推,而是经营内部关系、把人带到你这边,比如刚加入时力推 Figma 全员设计,现在摩擦比想象中小。真正的痛点反而变成了 token 烧得太快,预算得算得清 ROI。\n\n好,讲完了 HP 怎么用 AI,就可以回到开头那个反直觉的问题了:软件生意为什么劝客户少买硬件。Faisal 负责的主力产品叫 Workforce Experience,一个提供客户全部 IT 覆盖面的洞察平台——硬件、软件、操作系统、网络全都在内。讽刺就在这里:这个平台同时鼓励客户「少买」。为什么敢这么干?理由是,偏向性会毁掉世界级的员工体验,立足原则必须是「如何改善我销售对象的体验」。\n\n走向市场上有个关键决策:不做单点解决方案,做完全设备无关、操作系统无关的平台。用原话说:我们不在乎你运行什么硬件,我们想帮你把那个环境运行得更好。HP 不再代售第三方软件,改卖自研、自有 IP 的产品,客户经理也从卖硬件转向卖解决方案。\n\n而这个产品不是拍脑袋就推上市的,是先在自己身上验证的。HP 内部有八万台设备,说服自家 IT 团队用了很高的门槛,走了很长的 alpha、beta 和延长发布,每个阶段带十五到一百个合作伙伴一起审视 ROI,然后才走向市场。\n\n那怎么向 CIO 证明价值?方式非常具体。第一,承诺工单量降三成到四成——Workforce Experience 在幕后自动处理 IT 工单,而每张工单要花六到二十美元不等,还是员工的头疼事。第二,有个叫 Smart Refresh 的功能,评估客户的整个设备舰队,直接告诉你不该买什么。行业惯例是三到四年周期僵化地一次买十万台,这个功能会说:你应该买五万五千台,升级这些,其余的用完美配置管理、延长寿命。想想这一点:没有其他人在做这件事。客户实测结果呢?解决工单的平均时间下降三成,从六七天变成两三天;刷新设备舰队时,原本花两三千万的,少花两成半到三成。底线说得很硬:如果我们不能为他们的投资提供回报,我们就不应该存在,就这么简单。\n\n再往前看一步,人变少了、席位变少了,商业模式跟着怎么变?Faisal 的判断是,AI 真正先削的是中层管理。监督、管理、数据收集、信息聚合,个人借助 AI 就能做了。原话说得直白:如果你必须依赖一个经理向一个经理汇报再向一个总监汇报,我不确定这些层级能否与 AI 长期共存。设想一个零售场景:传统零售商有买手、计划员、商品专员,他们旁边原本各有助理层级——那些第二层级就变成智能体了,而那些一级买手不再是管理者,是管理智能体的 IC。反转就在这:你曾经管理人类,现在你管理智能体;但高保真度的决定仍需要人,因为智能体不承担那些责任。\n\n人类席位变少,对按席位收费的 SaaS 是威胁,但 Faisal 说对他们完全没问题,因为承诺的本来就是 ROI。可以想象这样一个世界:你每年有 X 张工单,我们承诺整体减少这么多,基于此收一笔基于结果的费用。路径很清晰:要么按席位但附结果承诺,要么纯按结果收费。为什么喜欢这种模式?因为利益绑定了:世界上最好的谈判,是双方都在赢的时候。如果一方在输,短期你可以整天击掌,但一年后你就在流失那个客户了。AI 正在拉平竞争环境,CIO 们变聪明了,不再为没用的仪表板付费,只付实际结果的钱。\n\n最后说点个人层面的。Faisal 自己有个智能体在夜间运行,审视什么对自己真正重要、备好预先草稿。但觉得 AI 对高管和对普通员工的用法很不一样——高管身边本来就有支持结构。真正花时间的地方是两处:一是客户,而且坚信现有客户比新客户更重要,因为他们信任你、把你带了进来;二是亲自参与 AI Command Center 的架构设计,这是在 HP 实验室孵化的一个新产品,帮 CIO 看清哪些部门、哪些角色在用这些模型、怎么用,并管理预算——因为大多数 CIO 还没从 AI 投入里看到回报,他们要的是一条清晰可见的视线。\n\n把这一集收拢成一句话:卖更多硬件不是答案,卖更多可衡量的实际价值才是。AI 不是你的战略,它是你战略的一部分——如果你缺乏想法,并且事事都严重依赖 AI,那你其实不会那么重要。"
+}

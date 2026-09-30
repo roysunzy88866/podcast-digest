@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":369,"Claude Code":89,"Kubernetes":13,"提示词注入":18,"可观测性":34,"MCP":67,"推理":63}</script>
+<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":373,"Claude Code":89,"Kubernetes":13,"提示词注入":18,"可观测性":34,"MCP":67,"推理":63}</script>
 
 <script>
 (function(){

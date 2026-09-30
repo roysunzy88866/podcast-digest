@@ -160,9 +160,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-27-talks-software-engineering-is-becoming-factory|软件工程正在变成「工厂工程」：Warp 创始人的自动化开发全景]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、规格说明 (spec)、软件工厂 (software factory)</span>
 - [[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb|「上下文工程」之父 Dex Horthy：智能体编程的真相与工作流]]<span class="pd-rz">同嘉宾:Dex Horthy · 同概念:上下文工程 (context engineering)、代码审查 (code review)、智能体 (agent)</span>
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、软件工厂 (software factory)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shopify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(08:40起):本集引其 CEO Toby 的话：12 个月前宣布「AI 优先组织」，一周前开始哀叹工程师往生产环境乱扔 AI 生成的低质量代码(slop 炸弹)——Liz 以此例证无主人翁意识的加速是有害的。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(23:44起):本集说 Shopify 的 AI sidekick 让商家入驻 15 天内达到五笔订单(其追踪的留存关键节点)的比例提升了 8%,成为业务的有意义助推
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(40:36起):被用作例子：Shopify 欢迎第三方智能体进来使用其技术购物。
+- **[[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem|《HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略》]]**(04:18起):本集作为 Tobi 的公司被提及:其联合创始人发了鼓励全员用 AI 的 CEO 宣言,随后抱怨 AI slop 泛滥
 
 ## ① 提到它的金句
 
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -58,14 +59,15 @@ unlisted: true
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
+- [[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem|《HP 软件业务掌门人:AI 是战略的一部分,但不能成为战略》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[ChatGPT]] · [[Stripe]] · [[Google]] · [[SaaS]] · [[Perplexity]] · [[Databricks]]
+[[智能体]] · [[OpenAI]] · [[Amazon]] · [[Anthropic]] · [[ChatGPT]] · [[Stripe]] · [[Google]] · [[SaaS]] · [[Perplexity]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":369,"OpenAI":144,"Anthropic":156,"Amazon":20,"ChatGPT":84,"Stripe":40,"Google":51,"SaaS":19,"Perplexity":8,"Databricks":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"OpenAI":144,"Amazon":21,"Anthropic":156,"ChatGPT":85,"Stripe":40,"Google":51,"SaaS":19,"Perplexity":8,"Databricks":18}</script>
 
 <script>
 (function(){

@@ -91,9 +91,9 @@ CI 侧的压力更隐蔽:代码生成变容易、PR 拆得又小又多之后,CI 
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-27-talks-software-engineering-is-becoming-factory|软件工程正在变成「工厂工程」：Warp 创始人的自动化开发全景]]<span class="pd-rz">同概念:CI/CD、代码审查 (code review)</span>
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:CI/CD、代码审查 (code review)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同概念:代码审查 (code review)、CI/CD、token 用量 (token)</span>
-- [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同概念:提示词缓存 (prompt caching)、Claude Code、Codex</span>
 
 </div>
 <div class="pd-ex">

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Town":4,"Plaid":2,"AI 助手":2,"智能体":369,"网络效应":13,"护城河":12,"模型路由":8,"前沿模型":22,"Anthropic":156}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Town":4,"Plaid":2,"AI 助手":2,"智能体":373,"网络效应":13,"护城河":12,"模型路由":9,"前沿模型":22,"Anthropic":156}</script>
 
 <script>
 (function(){

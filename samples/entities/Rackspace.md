@@ -27,7 +27,7 @@ unlisted: true
 
 [[评估]] · [[护栏]] · [[Lenny]] · [[Daniel Whitenack]] · [[Kiriti Badam]] · [[Chris Benson]] · [[Aishwarya Reganti]] · [[Chetan Gupta]] · [[智能体]] · [[Hitachi]]
 
-<script type="application/json" class="pd-epn">{"评估":3,"护栏":67,"Lenny":68,"Daniel Whitenack":8,"Kiriti Badam":1,"Chris Benson":9,"Aishwarya Reganti":1,"Chetan Gupta":1,"智能体":369,"Hitachi":2}</script>
+<script type="application/json" class="pd-epn">{"评估":3,"护栏":68,"Lenny":68,"Daniel Whitenack":8,"Kiriti Badam":1,"Chris Benson":9,"Aishwarya Reganti":1,"Chetan Gupta":1,"智能体":373,"Hitachi":2}</script>
 
 <script>
 (function(){

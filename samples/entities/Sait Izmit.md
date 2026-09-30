@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":15,"Cowork":6,"智能体":369,"MCP":67,"变革管理":3,"语义视图":1,"技能":25,"反馈回路":2,"护栏":67}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":15,"Cowork":6,"智能体":373,"MCP":67,"变革管理":3,"语义视图":1,"技能":25,"反馈回路":2,"护栏":68}</script>
 
 <script>
 (function(){

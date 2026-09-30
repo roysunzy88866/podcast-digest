@@ -1,0 +1,190 @@
+{
+  "title_zh": "软件工厂：让智能体闭环造软件，而不只是写代码",
+  "tldr": "factory.com 的 Teresa 讲解企业级「软件工厂」：智能体编队如何自主完成从信号收集到测试迭代的整个软件生命周期，以及模型路由、验证与上下文管理的落地做法。",
+  "digest_md": "「软件工厂」这个词人人都在讲，但真正在造的人很少。说这话的人是 Teresa,来自 factory.com——一家长期研究这个概念、如今已给 EY、Adobe 这类企业把软件工厂跑在生产环境里的公司。她给软件工厂下的定义是：以自主方式开发软件的**整个闭环**——不只是生成代码，还包括收集信号、对用户反馈和日志做出反应、排优先级、编排执行、验证测试，然后持续迭代并积累新知识 [01:27 Teresa]。\n\n为什么现在才可能？她给出的历史背景是：从 ChatGPT 发布之初就有这个想法，2023 年就有 auto-GPT、BabyAGI 这些迭代概念，但当时行不通——LLM 幻觉严重、上下文长度和推理质量不够，也缺少让智能体在隔离环境中真正干活的基础设施 [02:30 Teresa]。\n\n## 它不是一个编码智能体，甚至不是一千个\n\nTeresa 特意强调软件工厂「不是什么」：它不只是一个编码智能体，甚至不是一群、哪怕上千个编码智能体——因为相比其他环节，**写代码是容易的部分**。工程师本来就不把大部分时间花在写代码上，挑战全在剩下的部分 [02:55 Teresa]。它也不是买一套咨询方案：她认为你得真正从零开始重建组织，而不是请一家咨询公司往组织中间扔个东西 [03:29 Teresa]。\n\n构建软件工厂有三条原则。**第一是中立(agnostic)**:不绑定特定 LLM,跨 Slack、GitHub 等已有环境工作，兼容组织现有的工作方式和订阅，因为新模型、新基准层出不穷，预测谁是赢家太难，不如对所有选项保持开放 [04:07 Teresa]。**第二是自主**：给智能体正确的信任、权限和治理，让它长时间运行——有预测说智能体将来能跑一年以上无须人在环，听着宏大，但他们的长时间会话已经能构建东西并连续运行数周了 [04:20 Teresa]。**第三是持续改进**：像对待新入职员工一样，给智能体好的代码库理解、结构、文档，让它们在这个过程中积累知识并在「团队」内分享 [04:45 Teresa]。\n\n## 模型路由：省钱之外还有可靠性\n\n中立原则下的第一个实操是模型路由。她引用 Coinbase CEO 发推的图表：他们 token 用量持续增长，但在 AI 上的开销却降下来了——靠的是不再强推所有人默认用前沿模型、用缓存避免每次重复预填充(即每次都重新处理一遍已有上下文)、支出不设上限但花钱多就要看到结果，以及在 LLM 之间做智能路由 [05:48 Teresa]。\n\nfactory 做的「自动模型路由」分四步：分配任务(组织可以给市场、销售、工程师配不同的默认模型和权限)；**分类**——这是路由的魔法，要看提示词结构、代码库、任务难度、用了哪些工具，给任务难度打分类；然后设一个「够用」的阈值，选**阈值之上最便宜的模型**开工 [08:06 Teresa]。发布后的问题很多：路由错了怎么办？会不会更慢？她的回答是：关键是分类要做好、别太频繁切换；就算任务中途切到更强的模型，总体上你多半还是更快，依然划算 [09:03 Teresa]。而且路由不只是省钱——开源模型通常更快，一个模型提供商挂了可以自动切到另一个 [07:13 Teresa]。她称自己的基准很保守：能省 25%,甚至可能更多 [07:36 Teresa]。\n\n关于缓存她还有个鲜明观点：开放模型同样能在专用算力上托管并享受缓存红利，所以「把缓存折扣传导给用户」不是技术挑战，只是定价决策 [09:41 Teresa]。\n\n## 自主性的核心：怎么定义「完成」\n\n循环(loop)这个概念早就存在，现在只是升级到了智能体语境。真正的问题不是循环本身，而是**你如何定义循环里的「完成」** [10:34 Teresa]。她举了个同事的例子：做一个智能体循环来 3D 打印公司 logo——以前编程里循环有明确的退出标准，现在的标准变得开放，任务高度非确定性，验证任务是否真的达成就成了最难的部分 [10:47 Teresa]。还有一个坑：如果你用错误的方式写「完成」的标准，智能体会想方设法**通过你的测试**，而不是真正完成你要的事——靠作弊过关 [11:46 Teresa]。\n\nfactory 的解法叫 **missions**(任务)：智能体的长时间运行会话，主智能体做编排者(orchestrator),写下「完成意味着什么」的条件，然后把工作派给工作者(workers)智能体，验证者审查后反馈回起点，循环迭代直到完成，甚至能跑几周 [12:12 Teresa]。一个真实客户任务运行了 16 小时，其中**验证环节占了整个流程的 40%**——可见验证有多重要 [12:34 Teresa]。\n\n一个反直觉的设计：工作者智能体是**按顺序**干活的，不是集群或并行——每个完成一部分传给下一个。他们发现这样能保持更新鲜的上下文，像人类请同事交叉验证代码一样「头脑清醒」；不过每个工作者内部仍可以有并行的子智能体干小事，比如查网络、构建文件 [12:55 Teresa]。验证者也分两种：「审查验证者」严格检查代码库、linter、类型、测试；更有意思的是「用户测试验证者」——它不管代码怎么写的，直接在自己的虚拟计算机里点击各种东西，真刀真枪地确认能用。她见过工程师迁移代码库时，别家产品生成的产物只是看起来不错、实际点不动；真正去点击检查的智能体能发现这种「只是好看」的假结果 [14:04 Teresa]。这也得益于计算机使用(computer use)和智能体持久虚拟机环境的进步 [15:07 Teresa]。\n\n## 持续改进：上下文膨胀与代码库就绪度\n\n长任务绕不开的问题：企业平均用几百种工具——Figma、Notion、Gmail、Drive、Slack——每种都有 schema、参数、描述，智能体容易上下文膨胀、选错相似名字的工具，或者填满上下文窗口被迫压缩丢信息 [16:03 Teresa]。factory 的「延迟上下文引擎」(deferred context engine)做法是逐步披露：智能体一开始只拿到简短的工具清单和描述，真正需要时才调用并完整加载——没有任何东西被删掉，只是需要之前不可见。工具越多省得越多，规模化能省 50% 以上的 token [17:22 Teresa]。\n\n第二个让她第一次遇到时都惊讶的事：**采用 AI 是幂律分布——要么大赢，要么同样幅度地大输**。如果代码库没有结构、没有文档，转型软件工厂反而会让代码退化，而且混乱会复利式累积、难以回头；只用 AI 的人和认真想过再上的人之间，生产力差距巨大且在扩大 [17:32 Teresa]。Stanford 的数据也显示，没有结构化代码库和良好文档时 AI 可能让代码变糟 [17:58 Teresa]。factory 的应对是「智能体就绪度」检查——开发环境可复现性、测试质量、文档完备度、代码风格、linter,即你为保持代码库整洁本来就该做的一切；大客户会走完整个检查，再按推荐行动修复 [18:22 Teresa]。\n\n第三个痛点：你总在向智能体重复「我希望事情怎么做」，感觉它没听懂——就像新员工要靠观察才能学会那些没写成条文的规矩 [19:45 Teresa]。factory 的解法是插件(打包可复用的技能和上下文)和自动更新的 auto-wiki [19:58 Teresa]。\n\n## 那人类去哪\n\nTeresa 的回答是乐观的：人类只是又向上抽象了一层——就像我们最早是「人肉计算机」，后来有了编程语言把细节写成条文，再后来有了编程智能体把一部分外包出去，现在轮到我们管理编排者、工作者、验证者组成的智能体团队，只负责监控和决定**构建什么** [20:45 Teresa]。她相信 AI 抢走的不是那些酷的部分，而是烦人的部分——对齐、会议、到处要上下文和同步状态，这些都可以外包给你的软件工厂 [21:48 Teresa]。她最后的收尾：去摸摸草，让你的智能体替你构建吧 [22:22 Teresa]。\n\n## 本集带走\n\n- **别把软件工厂等同于编码智能体**：写代码是容易的部分，难的是信号收集、优先级、编排、验证、迭代这个闭环；想引入它就得从零重建组织，不是买套咨询方案。\n- **保持中立 + 上自动模型路由**：按任务难度分类，选「够用」的最便宜模型；省钱只是其一，还换来速度和容灾——一个提供商挂了自动切换。\n- **先定义好「完成」再放智能体进循环**：标准写得不好，智能体会靠通过测试来作弊；验证要占流程的足够比重(一个 16 小时的真实任务里占了 40%)。\n- **验证者要「进竞技场」**：让智能体在自己没写过的代码之外、真的在虚拟机里点一遍产品，别只看代码层面对不对。\n- **先做代码库卫生检查再上 AI**:结构化代码库、好测试、好文档——采用 AI 是幂律，代码库没准备好会越用越糟。\n- **上下文靠延迟披露管理**：工具只给短清单，用到时再全量加载，规模化能省一半以上 token。",
+  "quotes": [
+    {
+      "en": "Software Factory is not just coding agent, and it's not even a swarm of coding agents, even thousands of agents, because generating code, writing code, that's the easy part compared to all the others.",
+      "zh": "软件工厂不只是一个编码智能体，甚至不是一群编码智能体，哪怕上千个也不算——因为生成代码、写代码，相比其他所有环节，是容易的部分。",
+      "timestamp": "02:59",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "We believe you should really rebuild your organization from ground up to be ready to become a software factory.",
+      "zh": "我们相信，你应该真正从头开始重建你的组织，为成为软件工厂做好准备。",
+      "timestamp": "03:31",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "Cheapest model that is predicted to accomplish your task, and then you go.",
+      "zh": "选预测能完成你任务的最便宜模型，然后就开工。",
+      "timestamp": "08:34",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "Even if you're switching in the middle of the task to a more difficult model, you still overall are faster probably, because it's still worth",
+      "zh": "即使你在任务中途切换到更强的模型，总体上你多半还是更快，因为这依然是值得的。",
+      "timestamp": "09:10",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "The question is not the loop itself, but the question is how you define what it means to be done in the loop.",
+      "zh": "问题不在于循环本身，而在于你如何定义在循环中什么叫「完成」。",
+      "timestamp": "10:36",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "We actually found that if you do this, you end up with more fresh context and kind of fresh heads, same with when with humans have like other colleagues verifying their code.",
+      "zh": "我们实际上发现，这样做最终会有更新鲜的上下文，算是「头脑清醒」——就像人类有其他同事来验证他们的代码一样。",
+      "timestamp": "13:04",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "Important thing is the validators judge code that they didn't write.",
+      "zh": "重要的一点是，验证者评判的是他们自己没写过的代码。",
+      "timestamp": "13:39",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "Once you use more and more tools, the more actually you save, it really scales and you can save 50% of tokens or more.",
+      "zh": "一旦你使用越来越多的工具，实际上省得就越多，它真的能扩展，你可以节省 50% 的 token 甚至更多。",
+      "timestamp": "17:12",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "When adopting AI, you either succeed big or you can fail big the same way. It's a bit of power law.",
+      "zh": "采用 AI 时，你要么大获成功，要么以同样的方式大败。这有点像幂律分布。",
+      "timestamp": "17:27",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "If your code base is not ready, if you don't have structured code base and all important things, then adopting or turning into a software factory can actually make you end up worse and make your code degrading.",
+      "zh": "如果你的代码库没准备好，没有结构化的代码库和所有重要的东西，那么转型成软件工厂反而可能让你变得更糟，让你的代码不断退化。",
+      "timestamp": "17:34",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "We should be, as humans, deciding what to build in the software, not how to build it, because that's up for the agents.",
+      "zh": "作为人类，我们应该决定软件里构建什么，而不是怎么构建——因为那交由智能体来做。",
+      "timestamp": "21:32",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "I believe actually it will take the annoying stuff, and in enterprises and organizations, you already spend a lot on alignments, on the meetings.",
+      "zh": "我实际上相信，AI 会夺走的是那些烦人的部分——在企业和组织里，你早就已经在对齐上、在会议上花了很多时间。",
+      "timestamp": "21:55",
+      "speaker": "Tereza Tížková"
+    },
+    {
+      "en": "Go touch some grass and let your agents build for you.",
+      "zh": "去摸摸草，让你的智能体替你构建吧。",
+      "timestamp": "22:22",
+      "speaker": "Tereza Tížková"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:55",
+      "speaker": "Teresa",
+      "en": "Software Factory is not just coding agent, and it's not even a swarm of coding agents, even thousands of agents, because generating code, writing code, that's the easy part compared to all the others.",
+      "zh": "软件工厂不只是一个编码智能体，甚至不是一群编码智能体，哪怕上千个也不算——因为生成代码、写代码，相比其他所有环节，是容易的部分。"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Teresa",
+      "en": "We believe you should really rebuild your organization from ground up to be ready to become a software factory.",
+      "zh": "我们相信，你应该真正从头开始重建你的组织，为成为软件工厂做好准备。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Teresa",
+      "en": "They stopped spending so much money... different default models for people, so stop pushing people to use only the frontier as a default, then caching, of course, to stop prefilling the stuff every time.",
+      "zh": "他们不再花那么多钱了……给不同的人设不同的默认模型，不再强推大家把前沿模型当默认，再加上缓存，不再每次都重新做预填充。"
+    },
+    {
+      "timestamp": "07:29",
+      "speaker": "Teresa",
+      "en": "It really does more things than just saving the money.",
+      "zh": "它真正能做到的，比省钱更多。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Teresa",
+      "en": "Cheapest model that is predicted to accomplish your task, and then you go.",
+      "zh": "选预测能完成你任务的最便宜模型，然后就开工。"
+    },
+    {
+      "timestamp": "09:21",
+      "speaker": "Teresa",
+      "en": "Even if you're switching in the middle of the task to a more difficult model, you still overall are faster probably, because it's still worth it.",
+      "zh": "即使你在任务中途切换到更强的模型，总体上你多半还是更快，因为这依然是值得的。"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Teresa",
+      "en": "The question is not the loop itself, but the question is how you define what it means to be done in the loop.",
+      "zh": "问题不在于循环本身，而在于你如何定义在循环中什么叫「完成」。"
+    },
+    {
+      "timestamp": "12:34",
+      "speaker": "Teresa",
+      "en": "A real mission from our customers that run 16 hours. And just to see how important is the validation as well, it takes even 40% of the whole process.",
+      "zh": "一个来自客户、运行了 16 小时的真实任务。而为了说明验证有多重要，它甚至占了整个流程的 40%。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Teresa",
+      "en": "We actually found that if you do this, you end up with more fresh context and kind of fresh heads, same with when with humans have like other colleagues verifying their code.",
+      "zh": "我们实际上发现，这样做最终会有更新鲜的上下文，算是「头脑清醒」——就像人类有其他同事来验证他们的代码一样。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Teresa",
+      "en": "Important thing is the validators judge code that they didn't write.",
+      "zh": "重要的一点是，验证者评判的是他们自己没写过的代码。"
+    },
+    {
+      "timestamp": "14:39",
+      "speaker": "Teresa",
+      "en": "It was just a dummy result. So our agent that really clicked on the stuff allowed to check that it's actually working and not just looking good in the code.",
+      "zh": "那只是一个虚假的结果。所以我们这个真正去点击各种东西的智能体，能检查它是不是真的在正常工作，而不仅仅是在代码里看起来不错。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Teresa",
+      "en": "Once you use more and more tools, the more actually you save, it really scales and you can save 50% of tokens or more.",
+      "zh": "一旦你使用越来越多的工具，实际上省得就越多，它真的能扩展，你可以节省 50% 的 token 甚至更多。"
+    },
+    {
+      "timestamp": "17:32",
+      "speaker": "Teresa",
+      "en": "When adopting AI, you either succeed big or you can fail big the same way. It's a bit of power law.",
+      "zh": "采用 AI 时，你要么大获成功，要么以同样的方式大败。这有点像幂律分布。"
+    },
+    {
+      "timestamp": "17:34",
+      "speaker": "Teresa",
+      "en": "If your code base is not ready, if you don't have structured code base and all important things, then adopting or turning into a software factory can actually make you end up worse and make your code degrading.",
+      "zh": "如果你的代码库没准备好，没有结构化的代码库和所有重要的东西，那么转型成软件工厂反而可能让你变得更糟，让你的代码不断退化。"
+    },
+    {
+      "timestamp": "21:32",
+      "speaker": "Teresa",
+      "en": "We should be, as humans, deciding what to build in the software, not how to build it, because that's up for the agents.",
+      "zh": "作为人类，我们应该决定软件里构建什么，而不是怎么构建——因为那交由智能体来做。"
+    },
+    {
+      "timestamp": "21:48",
+      "speaker": "Teresa",
+      "en": "I believe actually it will take the annoying stuff, and in enterprises and organizations, you already spend a lot on alignments, on the meetings.",
+      "zh": "我实际上相信，AI 会夺走的是那些烦人的部分——在企业和组织里，你早就已经在对齐上、在会议上花了很多时间。"
+    },
+    {
+      "timestamp": "22:22",
+      "speaker": "Teresa",
+      "en": "Go touch some grass and let your agents build for you.",
+      "zh": "去摸摸草，让你的智能体替你构建吧。"
+    }
+  ],
+  "voice_script": "今天要聊的话题，是「软件工厂」。这个词你可能听过很多次了，但真正在造软件工厂的人，其实很少。说这话的人叫 Teresa,来自一家叫 factory.com 的公司。这家公司研究这个概念很久了，现在已经给 EY、Adobe 这样的大企业，把软件工厂跑在了生产环境里。所以这一集，就是听一位真正动手造过的人，讲讲企业级的软件工厂到底是怎么回事。\n\n先把概念说明白。Teresa 给软件工厂下的定义是：以自主方式开发软件的整个闭环。注意，不只是生成代码，还包括收集信号、对用户反馈和日志做出反应、排优先级、编排执行、验证测试，然后持续迭代，并把新的知识积累下来。是一整个圆环，不是其中某一段。\n\n那为什么这个事现在才可能？这里得垫一点历史背景。其实从 ChatGPT 发布之初，这个想法就有了，2023 年也出现过 auto-GPT、BabyAGI 这些迭代概念。但当时行不通。因为那时候模型幻觉严重，上下文长度和推理质量都不够，也缺少让智能体在隔离环境里真正干活的基础设施。如今这三块短板都补上了，事情才真正能落地。\n\n接下来是这一集里我觉得最有劲的一个判断。Teresa 特意强调，软件_factory 不是什么：它不只是一个编码智能体，甚至不是一群编码智能体，哪怕上千个也不算——因为生成代码、写代码，相比其他所有环节，是容易的部分。想想看，工程师本来就不把大部分时间花在写代码上，真正难的全在剩下的部分。另外它也不是买一套咨询方案。用她的话说，你得真正从头开始重建你的组织，而不是请一家咨询公司往组织中间扔个东西。\n\n那具体怎么建？有三条原则。第一条是中立：不绑定特定的模型，跨 Slack、GitHub 这些已有环境工作，兼容组织现有的一切，因为新模型层出不穷，预测谁是赢家太难，不如对所有选项保持开放。第二条是自主：给智能体正确的信任、权限和治理，让它能长时间运行。有预测说智能体将来能跑一年以上无须人在环，听着宏大，但他们的长时间会话已经能构建东西、连续运行数周了。第三条是持续改进：像对待新入职员工一样，给智能体好的代码库理解、结构和文档，让它们积累知识并在团队里分享。\n\n中立原则下最典型的实操，是模型路由。Teresa 引用了 Coinbase 的 CEO 发的一张图表：token 用量一直在涨，但在 AI 上的开销却降下来了。靠的是几件事——不再强推所有人默认用最前沿的模型，用缓存避免每次重复预填充，也就是不把已有上下文重新处理一遍，以及在模型之间做智能路由。factory 的自动路由分四步：先分配任务，给市场、销售、工程师配不同的默认模型和权限；然后分类，这一步是路由的魔法，要看提示词结构、代码库、任务难度、用了哪些工具，给任务打个难度分；接着设一个「够用」的阈值；最后选阈值之上最便宜的模型，开工。有人会问，路由错了怎么办？会不会更慢？答案是：关键在分类要做好、别太频繁切换；就算任务中途切到更强的模型，总体上多半还是更快，依然划算。而且路由不只是省钱——开源模型通常更快，一个提供商挂了还能自动切到另一个。Teresa 说自己的基准很保守，能省百分之二十五，甚至可能更多。\n\n那自主性的核心是什么？循环这个概念早就存在，现在只是升级到了智能体语境。真正的问题不是循环本身，而是你怎么定义循环里的「完成」。这里有个坑：如果你用错误的方式写「完成」的标准，智能体会想方设法通过你的测试，而不是真正完成你要的事——靠作弊过关。\n\nfactory 的解法叫 missions,也就是任务：智能体的长时间运行会话。主智能体做编排者，写下「完成意味着什么」的条件，把工作派给工作者智能体，验证者审查后反馈回起点，循环迭代直到完成，甚至能跑几周。一个真实客户任务运行了十六个小时，其中验证环节占了整个流程的百分之四十——可见验证有多重要。\n\n还有个反直觉的设计：工作者智能体是按顺序干活的，不是集群并行，每个完成一部分传给下一个。为什么？因为这样做上下文更新鲜，「头脑清醒」——就像人类有其他同事来验证代码一样。不过每个工作者内部仍可以有并行的子智能体干小事，比如查网络、构建文件。验证者还分两种：「审查验证者」严格检查代码库、linter、类型和测试；更有意思的是「用户测试验证者」——它不管代码怎么写的，直接在自己的虚拟计算机里点各种东西，真刀真枪确认能用。Teresa 见过工程师迁移代码库时，别家产品生成的产物只是看起来不错、实际点不动；真正去点击检查的智能体，才能发现这种只是好看的假结果。\n\n再往深一层，是持续改进的几个痛点。第一个是上下文膨胀：企业平均用几百种工具，Figma、Notion、Gmail、Slack,每种都有参数和描述，智能体容易选错相似名字的工具，或者把上下文窗口填满被迫丢信息。factory 的「延迟上下文引擎」做法是逐步披露：智能体一开始只拿到简短的工具清单，真正需要时才完整加载——没有删任何东西，只是需要之前不可见，规模化能省一半以上的 token。\n\n第二个痛点，是让她自己都惊讶的发现：采用 AI 是幂律分布——要么大赢，要么同样幅度地大输。如果代码库没有结构、没有文档，转型软件工厂反而会让代码退化，而且混乱会复利式累积、难以回头。Stanford 的数据也显示，没有结构化代码库和好文档时，AI 可能让代码变糟。factory 的应对是「智能体就绪度」检查：开发环境可复现性、测试质量、文档完备度、代码风格——就是你为保持代码库整洁本来该做的一切。\n\n第三个痛点，是你总在向智能体重复「我希望事情怎么做」，就像新员工要靠观察才能学会那些没写成条文的规矩。解法是插件，也就是打包可复用的技能和上下文，再加一个自动更新的 auto-wiki。\n\n最后回到那个绕不开的问题：人类去哪了？Teresa 的回答很乐观：人类只是又向上抽象了一层。最早我们是人肉计算机，后来有了编程语言把细节写成条文，再后来有了编程智能体把一部分外包出去，现在轮到我们管理编排者、工作者、验证者组成的智能体团队，只负责监控和决定构建什么。而且她相信，AI 抢走的不是那些酷的部分，而是烦人的部分——对齐、开会、到处要上下文和同步状态。这些，都可以外包给你的软件工厂。用她的原话收尾：去摸摸草，让你的智能体替你构建吧。"
+}

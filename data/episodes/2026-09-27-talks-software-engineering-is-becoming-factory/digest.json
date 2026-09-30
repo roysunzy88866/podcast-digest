@@ -1,0 +1,190 @@
+{
+  "title_zh": "软件工程正在变成「工厂工程」：Warp 创始人的自动化开发全景",
+  "tldr": "Warp 创始人 Zach Lloyd 主张软件工程将变成工厂工程，并详解智能体软件工厂的完整构建方法。",
+  "digest_md": "这场演讲的主角是 Zach Lloyd——他曾担任 Google 首席工程师、负责 Google Docs 套件的工程工作，现在是 Warp 的创始人。Warp 是一个开源的智能体开发环境，公司以终端起家，现在是一个内置了智能体的终端，GitHub 星标超过 60,000,有超过 800,000 名活跃开发者。他开场就抛出一个有点惊人的事实：他仍然在频繁发布产品，但**过去六个月里一行代码都没写**。\n\n他的核心论点是：**软件工程这门学科，将会变成某种更像「工厂工程」的东西**——软件工程师最终会成为构建和管理这些「软件工厂」的人。\n\n## 开发正在经历的三个阶段\n\n回顾过去几年：第一段是聊天和 AI 自动补全的时代(Cursor、Copilot);现在处于第二段——**交互式智能体**，你坐在电脑前指挥 Claude Code 或 Warp 做事；而他预测，未来六个月到一年内，我们将更多走向第三段：**自动化**。\n\n现场举手调查很有代表性：几乎所有人都在用智能体构建、且同时用多个；不到一半的人在云端运行智能体；而内部搭好了覆盖整个软件开发生命周期的自动化系统的，只有少数人。他认为，**每一个有相当规模的项目最终都会有这样一套系统**。\n\n## 软件工厂长什么样\n\n这套系统就是一个大循环，他叫它「软件工厂」，其实也可以直接叫软件开发生命周期。想法从顶部进来，然后：\n\n- **分诊(triage)**:智能体逐个查看进来的 issue,判断如果简单且明确无歧义，就直接实现——这是让工厂真正转起来的关键；如果 issue 很难，就进入下一步。\n- **写规格说明(spec)**:他推荐让智能体写两份——**产品规格**(描述你要构建的产品的不变性)和**技术规格**(描述架构和代码的形状)。\n- **实现**：云端运行的编码智能体产出 diff,用什么编码智能体都行。\n- **评审**：这「在很多方面是最痛苦的部分」——大家都已经厌倦审阅智能体生成的垃圾代码了。他的做法是让智能体先做代码审查，随时间推移，这变成一种风险管理练习：什么时候引入人类来审代码。\n- **验证**：比如 computer use——如果你在构建 UI,让计算机实际操作智能体生成的代码，产出视频和截图；CI/CD 照常用。\n- **监控**：代码发布后智能体并不停下，它们要观察已发布的东西有没有崩溃、有没有被使用，并把监控输出反馈到工厂顶端，循环往复。\n\n人类介入的位置，就是循环里那些「卡住」的节点：审查规格、参与代码评审、审查产品。\n\n## 工厂的基础设施与自我改进\n\n如果想自己搭，工厂车间本质上是**一张步骤的图**，定义你的产品的软件如何被构建。完整形态包括：多种把工作送入工厂的输入渠道(任务追踪器、Slack、终端/IDE、监控系统)；一个分配工作的控制平面；实际干活的地方——云端沙箱，以及选定 harness 和模型；最后非常重要的是，在工厂之下建一个**数据平面**，让智能体记住自己做过什么、学习、随时间改进。\n\n而工厂最关键的能力是**自我改进**，靠的是循环(loop)。最常见的如「技能循环」：工厂智能体在运行技能，同时有**观察者智能体**看这些技能用得怎么样。他举的例子：如果代码审查智能体留了评论、你团队一位资深工程师去修正了那些评论，观察者智能体就该看到这个过程，为下一次运行改进代码审查智能体。\n\n还有工厂思维：**你不仅要构建产品，还要构建「构建产品的东西」**。要像工厂工程师一样度量效率——发布了多少软件，在人类时间和 token 成本上花了多少——并持续改进。他预测软件工厂会像 CI/CD 一样，变成每家公司的标配。\n\n## 开源是通往工厂的路径\n\n他岔开讲了一段开源，因为 Warp 开源的主要原因之一就是**建一座公开的工厂**：他们做了个网站 build.warp.dev,展示所有流经系统的问题单、处于什么状态、哪些智能体和贡献者在处理——他称之为「规模化运行的原型工厂」，运转得还不完美但确实在运转。\n\n他的判断是：构建软件越来越便宜，推论是克隆软件变得轻而易举，光靠产品本身很难做成软件生意。初创公司没有分发、生态、品牌、数据护城河、资本这些优势，他建议的突围方式之一就是**公开构建**——它帮你建生态、增光品牌、创建社区，传统痛点(嘈杂的 issue、潦草的 PR、代码审查地狱)如今可以用自动化(也就是软件工厂)来管理。(他补充：Warp 是花了五年闭源开发才迈出这一步的。)\n\n## 工程师的位置与「品味」问题\n\n每个人都会写更少的代码、发布更多东西。如果你的快乐在于写代码，这可能让人沮丧；但如果你的快乐在于发布产品，「现在是有史以来最好的时代」。他把这看作一种**元工程**：如何把你的智能体系统工程成最好的工程——仍然是一整套非常酷的工程挑战。\n\n有人问工厂比喻是不是在机械化、去人性化，他的回答是：这一切背后唯一重要的是**你是不是在构建有用的东西**——如果工厂不停生产没人关心的垃圾，那有什么意义？人的品味、人的产品感觉、人在无法自动化的环节进行引导，绝对不可或缺。这正是他现在自己做的主要工作：弄清楚客户想要什么。\n\n> 【背景】Warp 的开源 GitHub 仓库里有分诊、写规格等各类工厂智能体的搭建示例，演讲中他强调不强制使用 Warp 平台，目的是展示从工厂理论到落地的完整做法。\n\n## 本集带走\n\n- **工厂的核心循环可以照抄**：想法进来 → 智能体分诊(简单明确的直接实现)→ 难的先让智能体写产品规格 + 技术规格 → 编码智能体产出 diff → 智能体先审代码、人类再介入 → computer use / CI 验证 → 监控结果反馈回顶端。\n- **自动化覆盖全生命周期是终局**：分类、写规格、实现、评审全部进循环；每个有规模的项目最终都会有，就像今天的 CI/CD。\n- **工厂要配「自我改进」**：设观察者智能体盯技能运行效果(如资深工程师修正代码审查评论的场景)，自动改进技能，工厂才越转越准。\n- **建底层的数据平面**：让智能体记住做过什么、持续学习——这是工厂区别于一次性运行的关键。\n- **别什么都自己造**：简单版本容易搭，但要真正可扩展，多数组织应该专注核心产品，而不是自建基础设施。\n- **开源是初创公司的突围策略**：产品之外要靠生态、品牌、社区建立优势，而开源的传统痛点如今可以用工厂自动化解决。\n- **最重要的能力变了**：不是写代码的速度，而是适应力、批判性思维、学习速度，以及理解底层系统、能读懂智能体产出的代码和规格的能力。",
+  "quotes": [
+    {
+      "en": "I am still shipping frequently, but I haven't written a line of code in the last six months.",
+      "zh": "我现在仍然在频繁地发布产品，但过去六个月里我一行代码都没写。",
+      "timestamp": "00:40",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "the discipline of software engineering is going to become something more like factory engineering.",
+      "zh": "软件工程这门学科将会变成某种更像工厂工程的东西。",
+      "timestamp": "01:36",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "It's becoming trivial to clone software.",
+      "zh": "克隆软件正变得轻而易举。",
+      "timestamp": "05:24",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "if you think that you're going to build a great software business just by building and shipping a great product, you're probably not going to succeed.",
+      "zh": "如果你以为只要构建并发布一个出色的产品就能做成一门出色的软件生意，你多半不会成功。",
+      "timestamp": "06:09",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "It can take you from being, like, hated on hacker news to, like, tolerated.",
+      "zh": "它可以让你从在 hacker news 上被痛骂，变成，嗯，被容忍。",
+      "timestamp": "06:55",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "And I predict that every company, every open source project, will have at its core a software factory, kind of like the way that CICD became just like, oh, of course you have that.",
+      "zh": "而且我预测，每家公司、每个开源项目，核心处都会有一个软件工厂，就像 CI/CD 变成「哦，你当然得有那个」一样。",
+      "timestamp": "08:43",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "Like, I expect that people are a little bit tired of reviewing agentic slop.",
+      "zh": "就是说，我想大家可能已经有点厌倦审阅智能体生成的垃圾代码了。",
+      "timestamp": "11:08",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "I would have an agent do code review first, and then it becomes, over time, like a risk management exercise of, like, when do you bring in humans to do code review?",
+      "zh": "我会让一个智能体先做代码审查，然后随着时间推移，这变成一种风险管理练习，比如，什么时候引入人类来做代码审查？",
+      "timestamp": "11:14",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "But if your joy is in shipping product, like, it's never been a better time, and this is actually where I find my joy.",
+      "zh": "但如果你的快乐在于发布产品，那现在是有史以来最好的时代，而这正是我找到快乐的地方。",
+      "timestamp": "15:33",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "So everyone in here is gonna code less, but they're gonna ship more, and that's gonna be a trade-off.",
+      "zh": "所以在座的每个人都会写更少的代码，但会发布更多东西，这会是一种权衡。",
+      "timestamp": "15:43",
+      "speaker": "Zach Lloyd"
+    },
+    {
+      "en": "And I think that human taste, human input, human product sense, humans guiding at those touch points where you can't automate stuff is absolutely essential.",
+      "zh": "而我认为，人的品味、人的投入、人的产品感觉，人在那些无法自动化的环节进行引导，是绝对不可或缺的。",
+      "timestamp": "19:49",
+      "speaker": "Zach Lloyd"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:40",
+      "speaker": "Zach Lloyd",
+      "en": "I am still shipping frequently, but I haven't written a line of code in the last six months.",
+      "zh": "我现在仍然在频繁地发布产品，但过去六个月里我一行代码都没写。"
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Zach Lloyd",
+      "en": "the discipline of software engineering is going to become something more like factory engineering.",
+      "zh": "软件工程这门学科将会变成某种更像工厂工程的东西。"
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Zach Lloyd",
+      "en": "Every project of significant size, I believe, is going to have something like this.",
+      "zh": "我相信每一个有相当规模的项目都会拥有类似这样的东西。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Zach Lloyd",
+      "en": "It's becoming trivial to clone software.",
+      "zh": "克隆软件正变得轻而易举。"
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Zach Lloyd",
+      "en": "if you think that you're going to build a great software business just by building and shipping a great product, you're probably not going to succeed.",
+      "zh": "如果你以为只要构建并发布一个出色的产品就能做成一门出色的软件生意，你多半不会成功。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Zach Lloyd",
+      "en": "It can take you from being, like, hated on hacker news to, like, tolerated.",
+      "zh": "它可以让你从在 hacker news 上被痛骂，变成，嗯，被容忍。"
+    },
+    {
+      "timestamp": "07:23",
+      "speaker": "Zach Lloyd",
+      "en": "You can end up having to spend a lot of time verifying changes.",
+      "zh": "你最终可能会不得不花很多时间来验证变更。"
+    },
+    {
+      "timestamp": "08:43",
+      "speaker": "Zach Lloyd",
+      "en": "And I predict that every company, every open source project, will have at its core a software factory, kind of like the way that CICD became just like, oh, of course you have that.",
+      "zh": "而且我预测，每家公司、每个开源项目，核心处都会有一个软件工厂，就像 CI/CD 变成「哦，你当然得有那个」一样。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Zach Lloyd",
+      "en": "Just implement it.",
+      "zh": "那就直接实现它。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Zach Lloyd",
+      "en": "Like, I expect that people are a little bit tired of reviewing agentic slop.",
+      "zh": "就是说，我想大家可能已经有点厌倦审阅智能体生成的垃圾代码了。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Zach Lloyd",
+      "en": "I would have an agent do code review first, and then it becomes, over time, like a risk management exercise of, like, when do you bring in humans to do code review?",
+      "zh": "我会让一个智能体先做代码审查，然后随着时间推移，这变成一种风险管理练习，比如，什么时候引入人类来做代码审查？"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Zach Lloyd",
+      "en": "So agents don't stop in your factory when code is shipped.",
+      "zh": "所以当代码发布之后，智能体并不会在你的工厂里停下来。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Zach Lloyd",
+      "en": "It's also a mindset.",
+      "zh": "它也是一种思维方式。"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Zach Lloyd",
+      "en": "But if your joy is in shipping product, like, it's never been a better time, and this is actually where I find my joy.",
+      "zh": "但如果你的快乐在于发布产品，那现在是有史以来最好的时代，而这正是我找到快乐的地方。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Zach Lloyd",
+      "en": "So everyone in here is gonna code less, but they're gonna ship more, and that's gonna be a trade-off.",
+      "zh": "所以在座的每个人都会写更少的代码，但会发布更多东西，这会是一种权衡。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Zach Lloyd",
+      "en": "You can almost think of it as, like, meta-engineering.",
+      "zh": "你几乎可以把它看作是一种元工程。"
+    },
+    {
+      "timestamp": "18:07",
+      "speaker": "Zach Lloyd",
+      "en": "So I think that the most important skills in this new world are adaptability.",
+      "zh": "所以我认为在这个新世界里，最重要的技能是适应能力。"
+    },
+    {
+      "timestamp": "19:48",
+      "speaker": "Zach Lloyd",
+      "en": "It's like, what's the point?",
+      "zh": "那这有什么意义呢？"
+    },
+    {
+      "timestamp": "19:49",
+      "speaker": "Zach Lloyd",
+      "en": "And I think that human taste, human input, human product sense, humans guiding at those touch points where you can't automate stuff is absolutely essential.",
+      "zh": "而我认为，人的品味、人的投入、人的产品感觉，人在那些无法自动化的环节进行引导，是绝对不可或缺的。"
+    }
+  ],
+  "voice_script": "今天这一期,咱们来听一个人讲一件挺颠覆的事。主角叫 Zach Lloyd,早年在 Google 做首席工程师,负责过 Google Docs 套件的工程工作,现在是一家叫 Warp 的公司创始人。Warp 是一个开源的智能体开发环境,最早做终端起家,现在是一个内置了智能体的终端,GitHub 上星标超过六万,有八十多万活跃开发者。这场演讲里,最抓人的一个事实是:这位创始人现在仍然在频繁发布产品,但过去六个月里,一行代码都没写。\n\n那代码是谁写的?智能体写的。所以整场演讲的核心论点就是一句话:软件工程这门学科,将会变成某种更像工厂工程的东西——软件工程师,最终会成为构建和管理这些软件工厂的人。\n\n先交代一下来龙去脉。过去几年,开发方式其实一直在变。第一段是聊天和 AI 自动补全的时代,像 Cursor、Copilot 那样;现在我们处在第二段,叫交互式智能体——你坐在电脑前,指挥 Claude Code 或者 Warp 干活。而预测是,未来六个月到一年内,我们会走向第三段:自动化。现场做过一个举手调查,很有代表性:几乎所有人都在用智能体构建,而且同时用好几个;但不到一半的人在云端运行智能体;真正在公司内部搭好了覆盖整个软件开发生命周期的自动化系统的,只有少数人。而判断是,每一个有相当规模的项目,最终都会有这么一套系统。\n\n那这套系统长什么样呢?这套系统就是一个大循环,叫软件工厂——其实你也可以直接把它理解成软件开发生命周期。想法从顶部进来,然后一步步往下走。第一步是分诊,智能体逐个查看进来的 issue,如果简单而且明确无歧义,就直接实现——这是让工厂真正转起来的关键;如果很难,就进入下一步,写规格说明。这里有个很具体的建议:让智能体写两份,一份产品规格,描述你要构建的产品的不变性;一份技术规格,描述架构和代码的形状。再往下是实现,云端运行的编码智能体产出 diff,用什么编码智能体都行。\n\n那实现完了是不是就能上线了?不能,还有最痛苦的环节——评审。为什么痛苦?因为大家都已经厌倦审阅智能体生成的垃圾代码了。做法是让智能体先做代码审查,随时间推移,这变成一种风险管理练习:你只需要决定,什么时候引入人类来审代码。评审过了是验证,比如用 computer use——如果你在构建 UI,就让计算机实际操作智能体生成的代码,产出视频和截图,CI/CD 照常用。最后一步是监控,而且很关键的一点是:代码发布之后,智能体并不停下,它们要观察已发布的东西有没有崩溃、有没有被使用,并把监控输出反馈到工厂顶端,循环往复。人呢?人介入的位置,就是循环里那些卡住的节点:审查规格、参与代码评审、审查产品。\n\n讲到这儿,你可能会想,这套东西听起来要搭多大的工程啊。其实如果想自己搭,工厂车间本质上就是一张步骤的图,定义你的产品软件如何被构建。完整形态包括:多种输入渠道,任务追踪器、Slack、终端 IDE、监控系统都行;一个分配工作的控制平面;实际干活的地方,就是云端沙箱加上选定的 harness 和模型。还有一块特别重要——在工厂之下建一个数据平面,让智能体记住自己做过什么、学习、随时间改进。这是工厂区别于一次性运行的关键。\n\n而工厂最关键的能力,是自我改进,靠的是循环。举个例子,叫技能循环:工厂里的智能体在运行技能,同时有个观察者智能体盯着这些技能用得怎么样。比如代码审查智能体留了评论,你团队一位资深工程师去修正了那些评论——观察者智能体就该看到这个过程,为下一次运行改进代码审查智能体。这就是工厂思维:你不仅要构建产品,还要构建\"构建产品的东西\"。要像工厂工程师一样度量效率——发布了多少软件,在人类时间和 token 成本上花了多少——并持续改进。预测是,软件工厂会像今天的 CI/CD 一样,变成每家公司的标配,变成那种\"哦,你当然得有那个\"的东西。\n\n这也解释了为什么 Warp 要开源。开源的主要原因之一,就是建一座公开的工厂:他们做了个网站 build.warp.dev,展示所有流经系统的问题单、处于什么状态、哪些智能体和贡献者在处理,这被称作\"规模化运行的原型工厂\",运转得还不完美,但确实在运转。背后的商业判断是:构建软件越来越便宜,克隆软件变得轻而易举,光靠产品本身很难做成软件生意。初创公司没有分发、生态、品牌、数据护城河、资本这些优势,所以建议的突围方式之一,就是公开构建——帮你建生态、增光品牌、创建社区,而开源那些传统痛点,比如嘈杂的 issue、潦草的 PR、代码审查地狱,如今可以用自动化来管理。当然也有句实在话:Warp 是花了五年闭源开发,才迈出这一步的。\n\n最后回到人。每个人都会写更少的代码、发布更多东西。如果你的快乐在于写代码,这可能让人沮丧;但如果你的快乐在于发布产品,现在是有史以来最好的时代。现场有人问,工厂这个比喻是不是在机械化、去人性化?回答很干脆:这一切背后唯一重要的,是你是不是在构建有用的东西——如果工厂不停生产没人关心的垃圾,那有什么意义?人的品味、人的产品感觉、人在无法自动化的环节进行引导,绝对不可或缺。所以,未来工程师拼的不是写代码的速度,而是适应力、批判性思维和品味——就像 Zach Lloyd 现在自己做的主要工作,就是弄清楚客户到底想要什么。"
+}

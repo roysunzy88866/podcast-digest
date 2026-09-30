@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":40,"Stripe Projects":2,"OpenAI":144,"Anthropic":156,"Lovable":17,"HubSpot":9,"智能体":369,"编码智能体":23,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":40,"Stripe Projects":2,"OpenAI":144,"Anthropic":156,"Lovable":17,"HubSpot":9,"智能体":373,"编码智能体":24,"vibe coding":43}</script>
 
 <script>
 (function(){

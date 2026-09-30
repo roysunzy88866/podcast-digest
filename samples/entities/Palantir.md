@@ -61,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[后训练]] · [[开源模型]] · [[Meta]] · [[Scale]] · [[前向部署工程师]] · [[NVIDIA]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":369,"Anthropic":156,"OpenAI":144,"后训练":1,"开源模型":22,"Meta":38,"Scale":4,"前向部署工程师":1,"NVIDIA":46,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"Anthropic":156,"OpenAI":144,"后训练":1,"开源模型":23,"Meta":38,"Scale":4,"前向部署工程师":1,"NVIDIA":46,"主观能动性":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,674 @@
+{
+  "episode_id": "2026-09-27-talks-software-engineering-is-becoming-factory",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "tags": [
+    "软件工厂",
+    "智能体",
+    "开源",
+    "AI 编程",
+    "自动化开发"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "zach-lloyd",
+      "type": "person",
+      "role": "guest",
+      "name": "Zach Lloyd",
+      "file": "Zach Lloyd",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.337,
+            17.438
+          ],
+          "quote": "My name is Zach Lloyd.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "warp",
+      "type": "company",
+      "role": "company",
+      "name": "Warp",
+      "file": "Warp",
+      "primary": true,
+      "how_described": "本集说 Warp 是一个开源的智能体开发环境，以终端起家，基本上是一个内置了智能体的终端，GitHub 星标超 60,000、活跃开发者超 800,000；开源的主要动机之一是建一座公开的工厂（build.warp.dev）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.963,
+            49.544
+          ],
+          "quote": "And I'm the founder of a company called Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            50.525,
+            55.108
+          ],
+          "quote": "Warp, if you're not familiar, is a open source agentic development environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            75.388,
+            79.152
+          ],
+          "quote": "We have over 800,000 active developers who are using Warp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            127.778,
+            135.761
+          ],
+          "quote": "Mostly interactive agents, so you're sort of sitting at your computer and you are telling Claude Code to do something, you're telling Warp to do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            270.094,
+            277.766
+          ],
+          "quote": "I bring up open source because one of the main reasons that warp open source was to build a public factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            277.786,
+            284.416
+          ],
+          "quote": "And so this is a picture of this website we've built called build.warp.dev which shows",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            402.664,
+            410.748
+          ],
+          "quote": "And so to be clear, it took Warp five years of building closed to sort of make the leap into building in the open, and I'll explain why.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            448.842,
+            465.756
+          ],
+          "quote": "The solution, so kind of a long-winded way of getting to this, for open source, or at least for warp in the case of open source, the thing that made us finally decide to do this was that we built a whole set of automations, really a software factory, around managing the open source project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            636.721,
+            644.106
+          ],
+          "quote": "The way that we do it at Warp that I recommend is having an agent write what we call a product spec and a tech spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            988.186,
+            993.831
+          ],
+          "quote": "This uses Warp's agent platform as part of it, but you honestly don't have to use it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成软件工厂里干活的执行者：分诊 issue、写规格、实现、代码审查、验证、监控，并指出大家已从交互式智能体走向自动化运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            162.554,
+            164.135
+          ],
+          "quote": "How many people are running an agent right now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            234.025,
+            235.846
+          ],
+          "quote": "A human and agent will review the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            606.168,
+            617.778
+          ],
+          "quote": "So, again, I boil it down to something very simple, but, like, you want an agent that is looking at issues as they come in and just saying, you know, if this is easy and this is unambiguous,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            622.476,
+            628.001
+          ],
+          "quote": "If an issue is hard, I recommend having an agent that produces specs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            636.721,
+            644.106
+          ],
+          "quote": "The way that we do it at Warp that I recommend is having an agent write what we call a product spec and a tech spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            654.134,
+            655.655
+          ],
+          "quote": "Then you have an implementation agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            657.683,
+            659.644
+          ],
+          "quote": "Coding agent that runs somewhere in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            674.051,
+            684.756
+          ],
+          "quote": "I would have an agent do code review first, and then it becomes, over time, like a risk management exercise of, like, when do you bring in humans to do code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            696.171,
+            702.695
+          ],
+          "quote": "If you're building a sort of UI, having the computer actually use the code that the agent produced in producing videos and screenshots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            782.353,
+            786.357
+          ],
+          "quote": "It's going to be figuring out what agent to run, so what's the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            869.808,
+            884.744
+          ],
+          "quote": "So for instance, if you had a code review agent and it was leaving comments and a senior engineer on your team was going and correcting those comments, you'd want an observer agent that would look at that and basically improve the code review agent for the next run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            988.186,
+            993.831
+          ],
+          "quote": "This uses Warp's agent platform as part of it, but you honestly don't have to use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            995.753,
+            1006.42
+          ],
+          "quote": "But this should give you a good sense of, like, okay, if you want to set up an agent that does triage or an agent that does spec writing, how do you actually do that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集把它说成覆盖整个软件开发生命周期的大循环：想法进来 → 分诊 → 写规格 → 实现 → 评审 → 验证 → 监控并反馈回顶端；并预测它会像 CI/CD 一样成为每家公司的标配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            211.295,
+            213.216
+          ],
+          "quote": "This loop says the Cloud Software Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            448.842,
+            465.756
+          ],
+          "quote": "The solution, so kind of a long-winded way of getting to this, for open source, or at least for warp in the case of open source, the thing that made us finally decide to do this was that we built a whole set of automations, really a software factory, around managing the open source project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            478.885,
+            481.427
+          ],
+          "quote": "So what are the components of an effective software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            523.976,
+            536.321
+          ],
+          "quote": "And I predict that every company, every open source project, will have at its core a software factory, kind of like the way that CICD became just like, oh, of course you have that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集把它说成初创公司在构建软件变便宜、克隆变得轻而易举时代的突围策略：公开构建能建生态、增光品牌、创建社区，而开源的传统痛点可用软件工厂自动化来管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.458,
+            26.724
+          ],
+          "quote": "Today I'm going to be talking about self-improving software factories, the new open source model, and basically what I think is happening to development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            50.525,
+            55.108
+          ],
+          "quote": "Warp, if you're not familiar, is a open source agentic development environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            69.242,
+            72.785
+          ],
+          "quote": "It's a popular open source project, over 60,000 GitHub stars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            260.087,
+            267.013
+          ],
+          "quote": "Now, I promised at the beginning, and I put in the title of the talk that I was going to talk about open source, and so I want to do that for a few minutes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            270.094,
+            277.766
+          ],
+          "quote": "I bring up open source because one of the main reasons that warp open source was to build a public factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            306.204,
+            311.826
+          ],
+          "quote": "Just in general, I think it's interesting to talk about open-source in the time of agentic development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            431.763,
+            437.707
+          ],
+          "quote": "And so, like, the traditional, you know, pain of open source might be something like you get a lot of noisy issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            448.842,
+            465.756
+          ],
+          "quote": "The solution, so kind of a long-winded way of getting to this, for open source, or at least for warp in the case of open source, the thing that made us finally decide to do this was that we built a whole set of automations, really a software factory, around managing the open source project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            506.689,
+            513.132
+          ],
+          "quote": "And if you do this right, in the open source world, you can get a world where agents are helping contributors contribute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            517.133,
+            519.754
+          ],
+          "quote": "And I want to emphasize, there's nothing special about open source here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            523.976,
+            536.321
+          ],
+          "quote": "And I predict that every company, every open source project, will have at its core a software factory, kind of like the way that CICD became just like, oh, of course you have that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            974.613,
+            987.625
+          ],
+          "quote": "For folks who are interested, if you follow the link on this QR code, I've set up an open source GitHub repo where anyone who wants to try building their own factory agents can do it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集把它说成工厂里「最痛苦的部分」——大家已厌倦审阅智能体生成的垃圾代码；建议让智能体先做代码审查，随时间推移变成何时引入人类的风险管理练习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            441.698,
+            443.402
+          ],
+          "quote": "You can end up in code review hell.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            674.051,
+            684.756
+          ],
+          "quote": "I would have an agent do code review first, and then it becomes, over time, like a risk management exercise of, like, when do you bring in humans to do code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            869.808,
+            884.744
+          ],
+          "quote": "So for instance, if you had a code review agent and it was leaving comments and a senior engineer on your team was going and correcting those comments, you'd want an observer agent that would look at that and basically improve the code review agent for the next run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spec",
+      "type": "concept",
+      "role": "concept",
+      "name": "规格说明 (spec)",
+      "file": "规格说明",
+      "primary": true,
+      "how_described": "本集把它说成处理复杂 issue 的关键一步：让智能体写两份——产品规格（描述产品的不变性）和技术规格（描述架构和代码的形状），由人类审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            186.165,
+            190.49
+          ],
+          "quote": "So everything from triaging, spec-ing, implementing, reviewing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            225.259,
+            228.161
+          ],
+          "quote": "If something is complicated, they will write a spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            230.202,
+            232.504
+          ],
+          "quote": "Humans will review the spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            628.882,
+            631.524
+          ],
+          "quote": "Folks in here using spec-driven development, show of hands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            636.721,
+            644.106
+          ],
+          "quote": "The way that we do it at Warp that I recommend is having an agent write what we call a product spec and a tech spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            644.707,
+            648.029
+          ],
+          "quote": "Product spec describes the product invariance that you're building towards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            648.69,
+            652.553
+          ],
+          "quote": "Tech spec describes the architecture and the shape of the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            995.753,
+            1006.42
+          ],
+          "quote": "But this should give you a good sense of, like, okay, if you want to set up an agent that does triage or an agent that does spec writing, how do you actually do that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集把它说成验证环节仍在使用的既有手段，也是软件工厂未来普及程度的类比——「就像 CI/CD 变成你当然得有的东西一样」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            523.976,
+            536.321
+          ],
+          "quote": "And I predict that every company, every open source project, will have at its core a software factory, kind of like the way that CICD became just like, oh, of course you have that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            703.615,
+            705.877
+          ],
+          "quote": "CI, CD still use it, obviously.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集把它说成工厂验证步骤的一种方式：构建 UI 时让计算机实际操作智能体生成的代码，产出视频和截图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            693.289,
+            695.45
+          ],
+          "quote": "So this would be things like computer use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环（自我改进） (loop)",
+      "file": "循环（自我改进）",
+      "primary": true,
+      "how_described": "本集把它说成工厂自我改进的关键机制：观察者智能体观察技能运行效果（如资深工程师修正代码审查评论），自动改进技能供下次运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            203.553,
+            206.994
+          ],
+          "quote": "And it's going to look kind of like this big loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            211.295,
+            213.216
+          ],
+          "quote": "This loop says the Cloud Software Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            213.236,
+            216.136
+          ],
+          "quote": "This loop could literally just say, like, the software development lifecycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            218.117,
+            222.698
+          ],
+          "quote": "But just to go through this loop, it's like ideas are going to come in at the top.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            854.835,
+            859.398
+          ],
+          "quote": "And so a common kind of loop that you're going to want to put in your factory is like a skill loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

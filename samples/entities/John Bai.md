@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Peng Zheng":1,"GrokBot":8,"智能体":369,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":7,"垃圾桶方法":1}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"Peng Zheng":1,"GrokBot":8,"智能体":373,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":7,"垃圾桶方法":1}</script>
 
 <script>
 (function(){

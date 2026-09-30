@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":369,"OpenAI":144,"OpenClaw":20,"Codex":69,"Romain Huet":1,"Anthropic":156,"Raphael Schaad":1,"循环":9,"NVIDIA":46,"Claude Code":89}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"OpenAI":144,"OpenClaw":20,"Codex":69,"Romain Huet":1,"Anthropic":156,"Raphael Schaad":1,"循环":10,"NVIDIA":46,"Claude Code":89}</script>
 
 <script>
 (function(){

@@ -139,7 +139,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":156,"智能体":369,"OpenAI":144,"推理":63,"GPU":18,"Cursor":73,"Meta":38,"开源":28,"数据中心":16,"Microsoft":26}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":156,"智能体":373,"OpenAI":144,"推理":63,"GPU":18,"Cursor":73,"Meta":38,"开源":29,"数据中心":16,"Microsoft":27}</script>
 
 <script>
 (function(){

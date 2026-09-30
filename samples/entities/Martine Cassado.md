@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":18,"Neon":3,"智能体":369,"本体":5,"网络安全":2,"RSI":3,"开源":28,"后训练":1,"harness":50}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Databricks":18,"Neon":3,"智能体":373,"本体":5,"网络安全":2,"RSI":3,"开源":29,"后训练":1,"harness":50}</script>
 
 <script>
 (function(){

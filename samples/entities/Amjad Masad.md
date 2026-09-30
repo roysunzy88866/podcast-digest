@@ -71,11 +71,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":17,"智能体":369,"vibe coding":43,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":40,"真实性":2,"机器学习":4,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":17,"智能体":373,"vibe coding":43,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Stripe":40,"真实性":2,"机器学习":4,"Magic School":1}</script>
 
 <script>
 (function(){

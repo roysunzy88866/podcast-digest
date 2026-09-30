@@ -1,0 +1,1554 @@
+[
+ {
+  "seg": 0,
+  "start": 33.055,
+  "end": 33.875,
+  "speaker": "Unknown",
+  "en": "All right, hello everyone.",
+  "zh": "好的,大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 36.937,
+  "end": 37.517,
+  "speaker": "Unknown",
+  "en": "My name is Kevin.",
+  "zh": "我叫 Kevin。"
+ },
+ {
+  "seg": 2,
+  "start": 37.697,
+  "end": 38.998,
+  "speaker": "Unknown",
+  "en": "I'm going to be talking about anti-gravity.",
+  "zh": "我要讲的是 anti-gravity。"
+ },
+ {
+  "seg": 3,
+  "start": 40.179,
+  "end": 42.02,
+  "speaker": "Unknown",
+  "en": "So are there any World Cup fans out there?",
+  "zh": "那么在场有世界杯球迷吗?"
+ },
+ {
+  "seg": 4,
+  "start": 43.12,
+  "end": 43.36,
+  "speaker": "Unknown",
+  "en": "Woo!",
+  "zh": "喔!"
+ },
+ {
+  "seg": 5,
+  "start": 44.641,
+  "end": 49.924,
+  "speaker": "Unknown",
+  "en": "Imagine you are coaching Argentina and you're in the 89th minute and you have Messi on your team.",
+  "zh": "想象一下你执教阿根廷队,比赛进行到第 89 分钟,而你的队里有 Messi。"
+ },
+ {
+  "seg": 6,
+  "start": 50.824,
+  "end": 51.905,
+  "speaker": "Unknown",
+  "en": "What play are you running?",
+  "zh": "你会跑什么战术?"
+ },
+ {
+  "seg": 7,
+  "start": 53.365,
+  "end": 56.427,
+  "speaker": "Unknown",
+  "en": "It's called give Messi the ball and get the heck out of the way.",
+  "zh": "这个战术叫「把球交给 Messi,然后他 heck 地让开」。"
+ },
+ {
+  "seg": 8,
+  "start": 57.951,
+  "end": 59.953,
+  "speaker": "Unknown",
+  "en": "LLMs aren't just role players anymore.",
+  "zh": "LLM 不再只是角色球员了。"
+ },
+ {
+  "seg": 9,
+  "start": 60.514,
+  "end": 64.078,
+  "speaker": "Unknown",
+  "en": "They can be your star player if you build the right product around them.",
+  "zh": "如果你在它们周围构建合适的产品,它们可以成为你的明星球员。"
+ },
+ {
+  "seg": 10,
+  "start": 65.019,
+  "end": 68.443,
+  "speaker": "Unknown",
+  "en": "And to let your star player cook, you have to get out of the model's way.",
+  "zh": "而要让你的明星球员发挥,你必须让开,不要挡在模型的道路上。"
+ },
+ {
+  "seg": 11,
+  "start": 72.127,
+  "end": 73.228,
+  "speaker": "Unknown",
+  "en": "You might want to get this slide.",
+  "zh": "大家可能想看这张幻灯片。"
+ },
+ {
+  "seg": 12,
+  "start": 73.408,
+  "end": 73.909,
+  "speaker": "Unknown",
+  "en": "Are the slides up?",
+  "zh": "幻灯片放出来了吗?"
+ },
+ {
+  "seg": 13,
+  "start": 75.364,
+  "end": 75.684,
+  "speaker": "Unknown",
+  "en": "Oh, they are.",
+  "zh": "哦,放出来了。"
+ },
+ {
+  "seg": 14,
+  "start": 75.824,
+  "end": 76.985,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 15,
+  "start": 77.685,
+  "end": 82.728,
+  "speaker": "Unknown",
+  "en": "So, anti-gravity is Google's agentic coding product for technical and non-technical users.",
+  "zh": "那么,anti-gravity 是 Google 面向技术用户和非技术用户的智能体编程产品。"
+ },
+ {
+  "seg": 16,
+  "start": 83.329,
+  "end": 90.373,
+  "speaker": "Unknown",
+  "en": "We launched back in November of 2025 and have been accelerating devs both within Google and externally ever since.",
+  "zh": "我们在 2025 年 11 月发布,从那以后一直在为 Google 内部和外部的开发者加速。"
+ },
+ {
+  "seg": 17,
+  "start": 91.033,
+  "end": 94.596,
+  "speaker": "Unknown",
+  "en": "My name is Kevin Howell and I lead part of the engineering team on anti-gravity.",
+  "zh": "我叫 Kevin Howell,是 anti-gravity 工程团队其中一部分的负责人。"
+ },
+ {
+  "seg": 18,
+  "start": 96.117,
+  "end": 98.578,
+  "speaker": "Unknown",
+  "en": "So, let's talk a little bit more about what anti-gravity is.",
+  "zh": "那么,让我们再多聊聊 anti-gravity 是什么。"
+ },
+ {
+  "seg": 19,
+  "start": 99.379,
+  "end": 103.061,
+  "speaker": "Unknown",
+  "en": "We have and always will be unapologetically agent first.",
+  "zh": "我们过去是、未来也将是无愧于「智能体优先」的。"
+ },
+ {
+  "seg": 20,
+  "start": 103.967,
+  "end": 108.392,
+  "speaker": "Unknown",
+  "en": "So we debuted the anti-gravity IDE last year with a brand new agent manager concept.",
+  "zh": "所以我们去年发布了 anti-gravity IDE,带有一个全新的 Agent Manager 概念。"
+ },
+ {
+  "seg": 21,
+  "start": 109.393,
+  "end": 113.077,
+  "speaker": "Unknown",
+  "en": "And it was a platform to manage and orchestrate many agents.",
+  "zh": "它是一个管理和编排多个智能体的平台。"
+ },
+ {
+  "seg": 22,
+  "start": 114.158,
+  "end": 119.103,
+  "speaker": "Unknown",
+  "en": "Since then, we've actually extracted our agent and launched our own anti-gravity CLI.",
+  "zh": "从那以后,我们实际上把我们的智能体抽取了出来,推出了我们自己的 anti-gravity CLI。"
+ },
+ {
+  "seg": 23,
+  "start": 119.964,
+  "end": 123.648,
+  "speaker": "Unknown",
+  "en": "And last month at Google I.O., we had the pleasure of launching anti-gravity 2.0.",
+  "zh": "上个月在 Google I.O. 上,我们有幸发布了 anti-gravity 2.0。"
+ },
+ {
+  "seg": 24,
+  "start": 125.317,
+  "end": 136.193,
+  "speaker": "Unknown",
+  "en": "In the theme of getting the model out of the way, we actually decoupled the IDE from the Agent Manager, so now you have two separate applications, and now you can use the Agent Manager in a standalone app.",
+  "zh": "以「让开、不挡模型道路」为主题,我们实际上把 IDE 和 Agent Manager 解耦了,所以现在你有两个独立的应用,现在你可以在一个独立应用中使用 Agent Manager。"
+ },
+ {
+  "seg": 25,
+  "start": 138.632,
+  "end": 142.734,
+  "speaker": "Unknown",
+  "en": "And since pictures are worth a thousand words, here's a screenshot of Antigravity 2.0 in action.",
+  "zh": "既然一图胜千言,这里是一张 Antigravity 2.0 实际运行的截图。"
+ },
+ {
+  "seg": 26,
+  "start": 143.254,
+  "end": 156.299,
+  "speaker": "Unknown",
+  "en": "As you can see, not only is it your own dedicated mission control for your agents and projects, you have sub-agents, you have all the new models, you have work trees, scheduled tasks, voice mode, there are so many things to unpack with the product.",
+  "zh": "如你所见,它不仅是你自己的智能体和项目的专属任务控制中心,你有子智能体、有所有新模型、有 work trees、定时任务、语音模式,这个产品有太多东西可以展开了。"
+ },
+ {
+  "seg": 27,
+  "start": 156.819,
+  "end": 166.123,
+  "speaker": "Unknown",
+  "en": "But I don't want to spend today telling you about the product, I want to tell you a little bit more about the behind the scenes, some of the principles that went into it, and notably, some of the things that led to its roadmap.",
+  "zh": "但我今天不想花时间给你介绍产品,我想多讲讲幕后的一些东西,一些融入其中的原则,尤其是,一些促成了它路线图的事情。"
+ },
+ {
+  "seg": 28,
+  "start": 168.23,
+  "end": 178.52,
+  "speaker": "Unknown",
+  "en": "So as some of you, for the long-time AI Eng fans, this is actually my fifth time speaking at AI Eng, and I've been building developer's tools since 2022.",
+  "zh": "所以,在座有些人——AI Eng 的老粉丝们——知道这其实是我第五次在 AI Eng 演讲,我从 2022 年起就一直在构建开发者工具。"
+ },
+ {
+  "seg": 29,
+  "start": 179.281,
+  "end": 185.568,
+  "speaker": "Unknown",
+  "en": "And the one thing that has stood above all other lessons that I've talked about is the idea of scaling with intelligence.",
+  "zh": "在我讲过的所有经验教训中,最突出的一条就是「随智能扩展」的理念。"
+ },
+ {
+  "seg": 30,
+  "start": 186.168,
+  "end": 189.311,
+  "speaker": "Unknown",
+  "en": "This means that as the model gets better, so should your product.",
+  "zh": "这意味着,随着模型变得更好,你的产品也应该变得更好。"
+ },
+ {
+  "seg": 31,
+  "start": 190.012,
+  "end": 195.434,
+  "speaker": "Unknown",
+  "en": "And the frontier edge of whatever model you are serving should be apparent inside of your user's product experience.",
+  "zh": "你所服务的任何模型的前沿能力,应该在你用户的产品体验中清晰可见。"
+ },
+ {
+  "seg": 32,
+  "start": 196.174,
+  "end": 198.575,
+  "speaker": "Unknown",
+  "en": "So let's get into more concrete examples of what this means.",
+  "zh": "那么让我们进入更具体的例子,看看这意味着什么。"
+ },
+ {
+  "seg": 33,
+  "start": 200.355,
+  "end": 209.938,
+  "speaker": "Unknown",
+  "en": "So for those of you that follow me on X or hear me just yap generally for the last four years, you'll know that I've been working on a number of these sort of transformations year over year over year.",
+  "zh": "(接上)要拿走用户喜爱且熟悉的东西,带领他们走向一条潜在的——这是个关键词——更好的道路,真的很难。"
+ },
+ {
+  "seg": 34,
+  "start": 210.9,
+  "end": 214.263,
+  "speaker": "Unknown",
+  "en": "In 2022, I was working on autocomplete and chat sidebars.",
+  "zh": "2022 年,我在做自动补全和聊天侧边栏。"
+ },
+ {
+  "seg": 35,
+  "start": 214.783,
+  "end": 225.712,
+  "speaker": "Unknown",
+  "en": "This was based on embeddings, rules files, AST syntax tree parsing, basically everything inside of that app is deterministic, because that's all that the model could really handle.",
+  "zh": "这基于 embeddings、规则文件、AST 语法树解析,基本上那个应用里的一切都是确定性的,因为那才是模型真正能处理的东西。"
+ },
+ {
+  "seg": 36,
+  "start": 226.693,
+  "end": 232.137,
+  "speaker": "Unknown",
+  "en": "And in 2024, when agents came onto the scene, it completely changed how developers were going to do work.",
+  "zh": "而在 2024 年,当智能体登上舞台时,它彻底改变了开发者的工作方式。"
+ },
+ {
+  "seg": 37,
+  "start": 233.058,
+  "end": 238.002,
+  "speaker": "Unknown",
+  "en": "With it came new primitives, like MCPs, custom tools, and permission systems.",
+  "zh": "随之而来的是新的原语,比如 MCP、自定义工具和权限系统。"
+ },
+ {
+  "seg": 38,
+  "start": 239.133,
+  "end": 248.916,
+  "speaker": "Unknown",
+  "en": "And with 2025, we introduced Antigravity's Agent Manager with many other products following suit in that similar form factor, with users managing many agents at once in parallel.",
+  "zh": "到了 2025 年,我们推出了 Antigravity 的 Agent Manager,随后许多其他产品也效仿了类似的产品形态,用户同时并行管理多个智能体。"
+ },
+ {
+  "seg": 39,
+  "start": 249.796,
+  "end": 257.478,
+  "speaker": "Unknown",
+  "en": "And this led to things like skills, hooks, artifacts, and a couple other primitives, and that sort of defined the 2025 era.",
+  "zh": "这催生了 skills、hooks、artifacts 和其他几个原语,这些定义了 2025 时代。"
+ },
+ {
+  "seg": 40,
+  "start": 258.078,
+  "end": 262.119,
+  "speaker": "Unknown",
+  "en": "So let's talk a little bit about 2026 and what those primitives might be.",
+  "zh": "那么让我们聊聊 2026 年,以及那些原语可能是什么。"
+ },
+ {
+  "seg": 41,
+  "start": 263.56,
+  "end": 268.141,
+  "speaker": "Unknown",
+  "en": "Before we answer this question, I want to take you back to some of these battle scars that are a little bit closer to home.",
+  "zh": "在回答这个问题之前,我想带大家回顾一些离我们更近的战斗伤疤。"
+ },
+ {
+  "seg": 42,
+  "start": 269.25,
+  "end": 271.052,
+  "speaker": "Unknown",
+  "en": "Scaling with intelligence really is not easy.",
+  "zh": "「随智能扩展」真的不容易。"
+ },
+ {
+  "seg": 43,
+  "start": 271.853,
+  "end": 279.161,
+  "speaker": "Unknown",
+  "en": "It's really hard to take away something that users love and are familiar with to lead them down potentially, and that's a big keyword, a better path.",
+  "zh": "要拿走用户喜爱且熟悉的东西，把他们引导向一条潜在——这是个关键词——更好的路径，真的非常难。"
+ },
+ {
+  "seg": 44,
+  "start": 280.062,
+  "end": 285.948,
+  "speaker": "Unknown",
+  "en": "We aren't right 100% of the time, but there are two that jumped to mind when I was putting together the slides for this talk.",
+  "zh": "我们不是 100% 的时候都对,但在为这次演讲整理幻灯片时,有两个例子跳进了我的脑海。"
+ },
+ {
+  "seg": 45,
+  "start": 287.17,
+  "end": 288.992,
+  "speaker": "Unknown",
+  "en": "The first one is giving AI a terminal.",
+  "zh": "第一个是给 AI 一个终端。"
+ },
+ {
+  "seg": 46,
+  "start": 289.997,
+  "end": 297.503,
+  "speaker": "Unknown",
+  "en": "We all remember fears about son of Anton deleting your entire codebase and doing catastrophic things to both your startup, your company, et cetera, et cetera.",
+  "zh": "我们都记得那些关于「son of Anton 删掉你的整个代码库、对你的初创公司、你的公司等等等等造成灾难性后果」的恐惧。"
+ },
+ {
+  "seg": 47,
+  "start": 298.003,
+  "end": 308.212,
+  "speaker": "Unknown",
+  "en": "But as models got better and people invested in primitives, such as permission systems, users ended up building faster, they ended up shipping more, and they did so safely.",
+  "zh": "但随着模型变得更好,以及人们在权限系统等原语上投入,用户最终构建得更快了,发布得更多了,而且是在安全的情况下做到的。"
+ },
+ {
+  "seg": 48,
+  "start": 308.532,
+  "end": 314.857,
+  "speaker": "Unknown",
+  "en": "So we were able to overcome this, and as models got smarter, they were able to make better decisions about what they should and should not run in your terminal.",
+  "zh": "所以我们克服了这一点,随着模型变得更聪明,它们能够更好地决定什么应该、什么不应该在你的终端里运行。"
+ },
+ {
+  "seg": 49,
+  "start": 317.183,
+  "end": 324.905,
+  "speaker": "Unknown",
+  "en": "The second instance is this tweet, which is very representative of sort of the yelling that I got when we removed chat from Windsurf.",
+  "zh": "第二个例子是这条推文,它非常能代表当我们从 Windsurf 移除聊天功能时我挨的那些骂。"
+ },
+ {
+  "seg": 50,
+  "start": 325.865,
+  "end": 332.546,
+  "speaker": "Unknown",
+  "en": "So a lot of users were yelling at our team because we took away something that was very dear to them, the chat sidebar, and replaced it with only an agent.",
+  "zh": "所以很多用户对我们的团队大喊大叫，因为我们拿走了对他们非常珍贵的东西——聊天侧边栏，并用一个智能体取代了它。"
+ },
+ {
+  "seg": 51,
+  "start": 333.267,
+  "end": 336.727,
+  "speaker": "Unknown",
+  "en": "Now, at the time, this is something that was familiar and rather difficult to swallow.",
+  "zh": "在当时，这是一件让人熟悉但又相当难以接受的事情。"
+ },
+ {
+  "seg": 52,
+  "start": 337.047,
+  "end": 339.188,
+  "speaker": "Unknown",
+  "en": "But when we look back, models have advanced.",
+  "zh": "但当我们回顾时，模型已经进步了。"
+ },
+ {
+  "seg": 53,
+  "start": 340.085,
+  "end": 344.367,
+  "speaker": "Unknown",
+  "en": "Multi-step research, agentic research and execution became the new paradigm.",
+  "zh": "多步骤研究、智能体式的研究与执行成为了新的范式。"
+ },
+ {
+  "seg": 54,
+  "start": 344.847,
+  "end": 348.168,
+  "speaker": "Unknown",
+  "en": "And here we are today using and loving all these agentic products.",
+  "zh": "而今天，我们正在使用并喜爱着所有这些智能体式产品。"
+ },
+ {
+  "seg": 55,
+  "start": 350.149,
+  "end": 351.689,
+  "speaker": "Unknown",
+  "en": "And so now I bring you to today's battle.",
+  "zh": "所以现在我把大家带到今天的这场战役。"
+ },
+ {
+  "seg": 56,
+  "start": 352.209,
+  "end": 353.05,
+  "speaker": "Unknown",
+  "en": "What is going on today?",
+  "zh": "今天发生了什么？"
+ },
+ {
+  "seg": 57,
+  "start": 353.977,
+  "end": 360.343,
+  "speaker": "Unknown",
+  "en": "So we decoupled the agent manager from the IDE, and with antigravity 2.0, we split them into separate applications.",
+  "zh": "我们把智能体管理器从 IDE 中解耦出来，在 antigravity 2.0 中，我们把它们拆分成了两个独立的应用程序。"
+ },
+ {
+  "seg": 58,
+  "start": 361.083,
+  "end": 365.808,
+  "speaker": "Unknown",
+  "en": "We believe that the IDE is to the agent manager what the debugger was to the IDE.",
+  "zh": "我们相信，IDE 之于智能体管理器，就像调试器之于 IDE。"
+ },
+ {
+  "seg": 59,
+  "start": 366.348,
+  "end": 373.575,
+  "speaker": "Unknown",
+  "en": "You don't always need a debugger, but it definitely is helpful to have it if you need to go a layer beneath and go one step deeper into that abstraction stack.",
+  "zh": "你并不总是需要调试器，但如果你需要深入一层、深入那个抽象栈更深处时，拥有它肯定是有帮助的。"
+ },
+ {
+  "seg": 60,
+  "start": 374.338,
+  "end": 384.661,
+  "speaker": "Unknown",
+  "en": "And our prediction is that this idea of agent orchestration, you can call it agent teams, you can call it swarms, you can call it software factories, is the future, and we're willing to bet on that future.",
+  "zh": "我们的预测是，这种智能体编排的理念——你可以称之为智能体团队、蜂群或软件工厂——就是未来，我们愿意押注于那个未来。"
+ },
+ {
+  "seg": 61,
+  "start": 386.622,
+  "end": 390.603,
+  "speaker": "Unknown",
+  "en": "So here are the primitives for what we're calling the agent teams 2026 era.",
+  "zh": "以下是我们所谓的智能体团队 2026 时代的基础组件。"
+ },
+ {
+  "seg": 62,
+  "start": 391.464,
+  "end": 395.585,
+  "speaker": "Unknown",
+  "en": "These are things like sub-agents, generative UI, and sidecars.",
+  "zh": "这些东西包括子智能体、生成式 UI 和 sidecar。"
+ },
+ {
+  "seg": 63,
+  "start": 396.205,
+  "end": 400.987,
+  "speaker": "Unknown",
+  "en": "And we'll talk more concretely about what those things are and some examples of how they manifest inside of the product.",
+  "zh": "我们会更具体地谈谈这些东西是什么，以及它们在产品中如何呈现的一些例子。"
+ },
+ {
+  "seg": 64,
+  "start": 402.247,
+  "end": 404.907,
+  "speaker": "Unknown",
+  "en": "But it's really important to first understand the why.",
+  "zh": "但首先理解“为什么”真的非常重要。"
+ },
+ {
+  "seg": 65,
+  "start": 405.968,
+  "end": 412.089,
+  "speaker": "Unknown",
+  "en": "What brought about these changes and what model changes, what model properties actually led to the development of these new things?",
+  "zh": "是什么带来了这些变化，以及什么样的模型变化、什么样的模型特性实际上催生了这些新事物？"
+ },
+ {
+  "seg": 66,
+  "start": 412.669,
+  "end": 421.11,
+  "speaker": "Unknown",
+  "en": "And as a product team, do you force the new era of primitives or is it something that comes to you by using the model and experiencing the model?",
+  "zh": "而作为一个产品团队，你是强行推动新纪元的基础组件，还是在使用模型、体验模型的过程中自然获得它们？"
+ },
+ {
+  "seg": 67,
+  "start": 421.891,
+  "end": 424.571,
+  "speaker": "Unknown",
+  "en": "The answer is kind of both, right?",
+  "zh": "答案是两者都有，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 424.651,
+  "end": 429.732,
+  "speaker": "Unknown",
+  "en": "And the privilege of being inside of Google DeepMind is that we do have that relationship between the product and the model.",
+  "zh": "身处 Google DeepMind 内部的 privileged(优越之处)在于，我们确实拥有产品与模型之间的这种关系。"
+ },
+ {
+  "seg": 69,
+  "start": 431.137,
+  "end": 437.041,
+  "speaker": "Unknown",
+  "en": "So you remember the crux of antigravity 1.0 is to manage agents in parallel, to put the human in the driver's seat.",
+  "zh": "所以你还记得 antigravity 1.0 的核心是并行管理智能体，让人类坐在驾驶座上。"
+ },
+ {
+  "seg": 70,
+  "start": 438.281,
+  "end": 442.824,
+  "speaker": "Unknown",
+  "en": "And if you remember my last talk, I talked a lot more about this research product flywheel.",
+  "zh": "如果你记得我上一次的演讲，我谈到了很多关于这个研究产品飞轮的内容。"
+ },
+ {
+  "seg": 71,
+  "start": 443.885,
+  "end": 451.069,
+  "speaker": "Unknown",
+  "en": "And now, as promised, because of the antigravity product, Gemini has now learned a thing or two about how to manage a team of agents.",
+  "zh": "现在，正如所承诺的，多亏了 antigravity 产品，Gemini 已经学会了如何管理一个智能体团队。"
+ },
+ {
+  "seg": 72,
+  "start": 452.19,
+  "end": 456.753,
+  "speaker": "Unknown",
+  "en": "There's still a lot of headroom to make multi-agent systems better, more collaborative.",
+  "zh": "要让多智能体系统变得更好、更具协作性，还有很大的提升空间。"
+ },
+ {
+  "seg": 73,
+  "start": 457.701,
+  "end": 462.965,
+  "speaker": "Unknown",
+  "en": "Better at deconstructing tasks into smaller tasks, but we've got a really good head start with Gemini.",
+  "zh": "在把任务分解成更小的任务方面还有待提升，但我们用 Gemini 已经获得了一个非常好的先发优势。"
+ },
+ {
+  "seg": 74,
+  "start": 463.786,
+  "end": 468.249,
+  "speaker": "Unknown",
+  "en": "And all the basics have been imbued to the model so that we can build a product like Antigravity 2.0.",
+  "zh": "所有基础能力都已经注入到模型中，这样我们才能构建像 Antigravity 2.0 这样的产品。"
+ },
+ {
+  "seg": 75,
+  "start": 470.43,
+  "end": 480.278,
+  "speaker": "Unknown",
+  "en": "Gemini 3.5 Flash was launched back in April, and this brought to market a lot of those capabilities that we had been working on in the background with Antigravity.",
+  "zh": "Gemini 3.5 Flash 于四月发布，它把我们一直在后台与 Antigravity 一起开发的许多能力推向了市场。"
+ },
+ {
+  "seg": 76,
+  "start": 481.118,
+  "end": 485.522,
+  "speaker": "Unknown",
+  "en": "And Flash now isn't just good at executing tasks, it's actually really good at leading teams.",
+  "zh": "而且 Flash 现在不仅擅长执行任务，它实际上非常擅长领导团队。"
+ },
+ {
+  "seg": 77,
+  "start": 486.277,
+  "end": 493.322,
+  "speaker": "Unknown",
+  "en": "It's faster and cheaper, pushing the Pareto curve of what is intelligent versus the speed and the cost at which you run those things.",
+  "zh": "它更快、更便宜，推动了智能与运行速度和成本之间的 Pareto 曲线。"
+ },
+ {
+  "seg": 78,
+  "start": 494.763,
+  "end": 500.326,
+  "speaker": "Unknown",
+  "en": "And putting this all together, we were really excited to announce agent teams in public preview inside of Antigravity.",
+  "zh": "综合这一切，我们非常兴奋地宣布 Antigravity 中的智能体团队公开预览版。"
+ },
+ {
+  "seg": 79,
+  "start": 501.047,
+  "end": 508.852,
+  "speaker": "Unknown",
+  "en": "All you have to do is simply type the slash command, slash teamwork, and you'll see a new mode where you can enter and unleash a swarm of agents onto the task at hand.",
+  "zh": "你所要做的就是简单地输入斜杠命令 slash teamwork，你就会看到一个新模式，你可以在其中进入并释放一群智能体来完成眼前的任务。"
+ },
+ {
+  "seg": 80,
+  "start": 509.572,
+  "end": 511.534,
+  "speaker": "Unknown",
+  "en": "So we'll talk a little bit about how this works.",
+  "zh": "所以我们会稍微谈谈这是如何工作的。"
+ },
+ {
+  "seg": 81,
+  "start": 512.714,
+  "end": 514.776,
+  "speaker": "Unknown",
+  "en": "You as a user will specify your task.",
+  "zh": "你作为用户会指定你的任务。"
+ },
+ {
+  "seg": 82,
+  "start": 515.548,
+  "end": 522.153,
+  "speaker": "Unknown",
+  "en": "The more specific you are, the better, though the nature of these agentic communication styles is that if it needs something more, it can actually ask you for more.",
+  "zh": "你越具体越好，不过这些智能体式沟通风格的特点是，如果它需要更多信息，它实际上可以向你索取更多信息。"
+ },
+ {
+  "seg": 83,
+  "start": 523.114,
+  "end": 531.079,
+  "speaker": "Unknown",
+  "en": "Until everything is basically clear, you'll work with that lead agent, and it will manage a team of arbitrary size to get that work done.",
+  "zh": "在一切都基本清楚之前，你会与那个领导智能体协作，它会管理一个任意规模的团队来完成这项工作。"
+ },
+ {
+  "seg": 84,
+  "start": 531.64,
+  "end": 533.661,
+  "speaker": "Unknown",
+  "en": "And what I like to say, it's kind of like the Avengers, right?",
+  "zh": "用我喜欢的话说，这有点像复仇者联盟，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 533.681,
+  "end": 534.062,
+  "speaker": "Unknown",
+  "en": "It'll take...",
+  "zh": "它会采用……"
+ },
+ {
+  "seg": 86,
+  "start": 535.065,
+  "end": 546.592,
+  "speaker": "Unknown",
+  "en": "A bunch of specialized roles, front-end engineers, back-end engineers, infrastructure specialists, QA design, the list goes on and on and on, and there are infinite possibilities for what each of those sub-agents could take on.",
+  "zh": "一群专业化的角色：前端工程师、后端工程师、基础设施专家、QA、设计，这个名单可以一直列下去，每个子智能体可以承担的角色有无限的可能性。"
+ },
+ {
+  "seg": 87,
+  "start": 547.512,
+  "end": 550.674,
+  "speaker": "Unknown",
+  "en": "Each sub-agent is dynamically generated and can operate independently.",
+  "zh": "每个子智能体都是动态生成的，并且可以独立运行。"
+ },
+ {
+  "seg": 88,
+  "start": 552.055,
+  "end": 557.958,
+  "speaker": "Unknown",
+  "en": "And it can even actually select a different model from what the main agent is using, and this is done so by that main agent.",
+  "zh": "它甚至实际上可以选择与主智能体所使用的不同的模型，这是由那个主智能体完成的。"
+ },
+ {
+  "seg": 89,
+  "start": 558.118,
+  "end": 559.699,
+  "speaker": "Unknown",
+  "en": "Again, we are scaling with intelligence.",
+  "zh": "再说一次，我们是在用智能进行扩展。"
+ },
+ {
+  "seg": 90,
+  "start": 561.958,
+  "end": 565.039,
+  "speaker": "Unknown",
+  "en": "And one of the coolest aspects of this is that it can use generative UI.",
+  "zh": "而其中最酷的一个方面是它可以使用生成式 UI。"
+ },
+ {
+  "seg": 91,
+  "start": 565.199,
+  "end": 572.282,
+  "speaker": "Unknown",
+  "en": "With a model that is as fast as Flash, things can happen nearly instantaneously if you ask, hey, what is the status of my task?",
+  "zh": "使用像 Flash 这样快的模型，如果你问“嘿，我的任务状态是什么？”，事情几乎可以瞬间发生。"
+ },
+ {
+  "seg": 92,
+  "start": 572.723,
+  "end": 574.203,
+  "speaker": "Unknown",
+  "en": "Show me a Kanban of what's going on.",
+  "zh": "给我看一个正在进行的看板。"
+ },
+ {
+  "seg": 93,
+  "start": 574.463,
+  "end": 579.065,
+  "speaker": "Unknown",
+  "en": "Or maybe, you know, you prefer something a little bit more like the Chrome debugger tool.",
+  "zh": "或者，你知道，也许你更喜欢更像 Chrome 调试器工具那样的东西。"
+ },
+ {
+  "seg": 94,
+  "start": 579.165,
+  "end": 580.406,
+  "speaker": "Unknown",
+  "en": "It can show you a timeline like that.",
+  "zh": "它可以向你展示那样的时间线。"
+ },
+ {
+  "seg": 95,
+  "start": 580.626,
+  "end": 585.268,
+  "speaker": "Unknown",
+  "en": "And all these things are generated on the fly because it's able to generate UI on demand.",
+  "zh": "所有这些都是即时生成的，因为它能够按需生成 UI。"
+ },
+ {
+  "seg": 96,
+  "start": 586.828,
+  "end": 591.672,
+  "speaker": "Unknown",
+  "en": "So some of the projects that the system has implemented, we've built a photo editor.",
+  "zh": "至于这个系统已经实现的一些项目，我们构建了一个照片编辑器。"
+ },
+ {
+  "seg": 97,
+  "start": 591.692,
+  "end": 595.374,
+  "speaker": "Unknown",
+  "en": "You can actually edit raw photos directly inside of your browser.",
+  "zh": "你实际上可以直接在浏览器内编辑 raw 原始照片。"
+ },
+ {
+  "seg": 98,
+  "start": 596.115,
+  "end": 600.078,
+  "speaker": "Unknown",
+  "en": "We've also built a messaging app that might look a little bit familiar to those in the room.",
+  "zh": "我们还构建了一个消息应用，在座的各位可能看起来会觉得有点眼熟。"
+ },
+ {
+  "seg": 99,
+  "start": 601.379,
+  "end": 606.883,
+  "speaker": "Unknown",
+  "en": "And each of these took hundreds of sub-agents and took almost half a day to run.",
+  "zh": "而其中每一个都动用了数百个子智能体，运行了将近半天的时间。"
+ },
+ {
+  "seg": 100,
+  "start": 607.423,
+  "end": 612.868,
+  "speaker": "Unknown",
+  "en": "But to really put it through its paces, one of the hero runs that we did was actually building an entire OS kernel.",
+  "zh": "但要真正对它进行彻底测试，我们做过的其中一个英雄任务实际上是构建一个完整的操作系统内核。"
+ },
+ {
+  "seg": 101,
+  "start": 613.588,
+  "end": 622.935,
+  "speaker": "Unknown",
+  "en": "This is something that we got to show off at Google I.O., but we built a complete OS kernel from scratch and actually played Doom on it, and my colleague Varun was able to demo this at Google I.O.",
+  "zh": "这是我们在 Google I.O. 上展示的东西，我们从零开始构建了一个完整的操作系统内核，并在上面运行了 Doom，我的同事 Varun 能够在 Google I.O. 上演示这个。"
+ },
+ {
+  "seg": 102,
+  "start": 623.815,
+  "end": 640.411,
+  "speaker": "Unknown",
+  "en": "We were super proud of this particular milestone because it really demonstrated that if you throw more intelligence, you throw more sub-agents at this sort of problem, a model like Gemini 3.5 Flash could do this in a way that was not only very, very powerful, but also scalable and, you know, mildly affordable.",
+  "zh": "我们为这个里程碑感到非常自豪，因为它真正证明了，如果你投入更多的智能，向这类问题投入更多的子智能体，像 Gemini 3.5 Flash 这样的模型可以做到这一点，不仅非常非常强大，而且可扩展，而且，你知道的，还算负担得起。"
+ },
+ {
+  "seg": 103,
+  "start": 640.631,
+  "end": 645.516,
+  "speaker": "Unknown",
+  "en": "Obviously, we're not going to spend thousands and thousands of dollars to build an OS kernel every day, though it is possible.",
+  "zh": "显然，我们不会每天花成千上万美元来构建操作系统内核，尽管这是可能的。"
+ },
+ {
+  "seg": 104,
+  "start": 646.62,
+  "end": 659.044,
+  "speaker": "Unknown",
+  "en": "And some of the stats out of this, it took 93 sub-agents over the course of 12 hours, made 15,000 requests, 2 billion tokens, and it was under $1,000, which was one of the really cool aspects of this project.",
+  "zh": "这个项目的一些数据是：它动用了 93 个子智能体，历时 12 小时，发出了 15,000 次请求，消耗 20 亿 token，成本低于 1,000 美元，这是这个项目非常酷的方面之一。"
+ },
+ {
+  "seg": 105,
+  "start": 659.905,
+  "end": 667.767,
+  "speaker": "Unknown",
+  "en": "And so as you can see with this particular example, sub-agent primitives are one of the defining parts about building a 2026 era of agent teams.",
+  "zh": "所以正如你从这个特定例子中看到的，子智能体原语是构建 2026 年代智能体团队的决定性部分之一。"
+ },
+ {
+  "seg": 106,
+  "start": 668.628,
+  "end": 675.59,
+  "speaker": "Unknown",
+  "en": "So agent teams are just that first example, and I want to show you another example that our team uses internally that sort of demonstrates some of these new primitives.",
+  "zh": "智能体团队只是第一个例子，我想向你们展示我们团队内部使用的另一个例子，它大致展示了这些新原语。"
+ },
+ {
+  "seg": 107,
+  "start": 677.299,
+  "end": 679.54,
+  "speaker": "Unknown",
+  "en": "The second one is about automating research tasks.",
+  "zh": "第二个是关于自动化研究任务。"
+ },
+ {
+  "seg": 108,
+  "start": 679.98,
+  "end": 681.38,
+  "speaker": "Unknown",
+  "en": "So we work inside of Gemini.",
+  "zh": "我们在 Gemini 内部工作。"
+ },
+ {
+  "seg": 109,
+  "start": 681.72,
+  "end": 686.041,
+  "speaker": "Unknown",
+  "en": "We help sort of make Gemini better at coding-related tasks, agentic-related tasks.",
+  "zh": "我们帮助让 Gemini 在编码相关任务和智能体相关任务上变得更好。"
+ },
+ {
+  "seg": 110,
+  "start": 686.561,
+  "end": 689.342,
+  "speaker": "Unknown",
+  "en": "And this is where the real magic starts happening with the product.",
+  "zh": "而这就是这个产品真正魔力开始显现的地方。"
+ },
+ {
+  "seg": 111,
+  "start": 689.742,
+  "end": 694.303,
+  "speaker": "Unknown",
+  "en": "We have an internal version of Antigravity that researchers, engineers, non-technical folks can use.",
+  "zh": "我们有一个内部版本的 Antigravity，研究人员、工程师、非技术人员都可以使用。"
+ },
+ {
+  "seg": 112,
+  "start": 694.803,
+  "end": 701.824,
+  "speaker": "Unknown",
+  "en": "And when they understand the primitives that Antigravity offers, it becomes a very, very powerful way to automate your own workflows.",
+  "zh": "而当他们理解了 Antigravity 提供的原语后，它就成为自动化你自己工作流程的一种非常非常强大的方式。"
+ },
+ {
+  "seg": 113,
+  "start": 702.424,
+  "end": 704.965,
+  "speaker": "Unknown",
+  "en": "So we'll take the example of side-by-side eval analysis.",
+  "zh": "我们以并排评估分析为例。"
+ },
+ {
+  "seg": 114,
+  "start": 705.952,
+  "end": 710.158,
+  "speaker": "Unknown",
+  "en": "So this is a very common workflow, not only at DeepMind, but just generally in the industry.",
+  "zh": "这是一个非常常见的工作流程，不仅在 DeepMind，在整个行业都是如此。"
+ },
+ {
+  "seg": 115,
+  "start": 710.559,
+  "end": 715.526,
+  "speaker": "Unknown",
+  "en": "You essentially will take multiple rollouts, one, two, three, four, et cetera, and you want to compare them.",
+  "zh": "基本上你会取多个 rollout，一、二、三、四等等，然后你想比较它们。"
+ },
+ {
+  "seg": 116,
+  "start": 716.327,
+  "end": 721.555,
+  "speaker": "Unknown",
+  "en": "So you'll take a set of tasks, you'll do some rollouts, you'll get some results, and they'll essentially be in two different tables.",
+  "zh": "你会取一组任务，做一些 rollout，得到一些结果，它们基本上会在两个不同的表格里。"
+ },
+ {
+  "seg": 117,
+  "start": 722.257,
+  "end": 733.982,
+  "speaker": "Unknown",
+  "en": "Now, you'll look at the control, you'll look at the experiment, and then you'll have to figure out not only what the difference was, but perhaps what are the reasons for those differences and how can we actually iterate from there and make a better version for the next experiment.",
+  "zh": "然后，你会看对照组，看实验组，接着你不仅要弄清楚差异是什么，还要弄清楚造成这些差异的原因可能是什么，以及我们如何从那里实际迭代，为下一个实验做出更好的版本。"
+ },
+ {
+  "seg": 118,
+  "start": 734.502,
+  "end": 744.407,
+  "speaker": "Unknown",
+  "en": "Now, traditionally, this was a lot of Jupyter Notebook elbow grease, essentially, but when you start working with the new primitives in 2026, you end up with a lot cleaner of a workflow.",
+  "zh": "传统上，这需要大量 Jupyter Notebook 的手工苦力，但当你开始使用 2026 年的新原语时，你的工作流程会干净得多。"
+ },
+ {
+  "seg": 119,
+  "start": 746.061,
+  "end": 752.804,
+  "speaker": "Unknown",
+  "en": "So researchers were able to automate 90% of this workflow by simply asking the agent about the evals in question using natural language.",
+  "zh": "研究人员只需用自然语言询问智能体相关评估，就能将这个工作流程的 90% 自动化。"
+ },
+ {
+  "seg": 120,
+  "start": 753.464,
+  "end": 761.307,
+  "speaker": "Unknown",
+  "en": "Then the agent that is now primed with skills and an understanding of Google's massive monorepo codebase is able to crunch the numbers and get back to you with a delta.",
+  "zh": "然后，这个已经被注入了技能、并且理解了 Google 庞大 monorepo 代码库的智能体，就能够处理这些数字，并把差值结果反馈给你。"
+ },
+ {
+  "seg": 121,
+  "start": 761.868,
+  "end": 766.91,
+  "speaker": "Unknown",
+  "en": "Now what's really cool here is instead of just taking that delta then handing it back to the user, it went the extra step.",
+  "zh": "现在这里真正酷的是，它没有只是拿到那个差值然后交回给用户，而是多做了一步。"
+ },
+ {
+  "seg": 122,
+  "start": 767.51,
+  "end": 773.913,
+  "speaker": "Unknown",
+  "en": "It spun up for a research agent specialist that proposes 100 different hypotheses over why those deltas might occur.",
+  "zh": "它启动了一个研究智能体专家，针对这些差值可能出现的原因提出 100 个不同的假设。"
+ },
+ {
+  "seg": 123,
+  "start": 774.785,
+  "end": 787.831,
+  "speaker": "Unknown",
+  "en": "And then it uses sub-agents to then spit up one sub-agent for each hypothesis and basically drills into that particular case in parallel, mapping back to a single response and then telling the researcher, hey, here are some areas that I found.",
+  "zh": "然后它使用子智能体，为每个假设分裂出一个子智能体，基本上并行深入调查那个特定案例，汇总映射回单一响应，然后告诉研究员，嘿，这是我找到的一些领域。"
+ },
+ {
+  "seg": 124,
+  "start": 788.731,
+  "end": 791.032,
+  "speaker": "Unknown",
+  "en": "Now here's a report that you can review.",
+  "zh": "这是一份你可以审阅的报告。"
+ },
+ {
+  "seg": 125,
+  "start": 791.733,
+  "end": 793.854,
+  "speaker": "Unknown",
+  "en": "And what's really cool is that it doesn't stop at just the report.",
+  "zh": "真正酷的是，它并不止步于报告。"
+ },
+ {
+  "seg": 126,
+  "start": 793.914,
+  "end": 803.578,
+  "speaker": "Unknown",
+  "en": "It actually puts together a generative UI for you to look through, interact, select dropdowns, filter, segment, slice, and actually interact richly with that data.",
+  "zh": "它实际上为你组装了一个生成式 UI，让你可以浏览、交互、选择下拉菜单、筛选、分段、切片，真正丰富地与那些数据交互。"
+ },
+ {
+  "seg": 127,
+  "start": 806.53,
+  "end": 815.916,
+  "speaker": "Unknown",
+  "en": "And internally, we care a lot about this sort of workflow, improving the model, improving the product, and understanding the ways that users find success and failure internally at Google.",
+  "zh": "在内部，我们非常关心这类工作流程——改进模型、改进产品，以及理解用户在 Google 内部找到成功与失败的方式。"
+ },
+ {
+  "seg": 128,
+  "start": 816.537,
+  "end": 819.639,
+  "speaker": "Unknown",
+  "en": "So what used to be a very manual process, now it takes minutes.",
+  "zh": "过去是一个非常手动的流程，现在只需几分钟。"
+ },
+ {
+  "seg": 129,
+  "start": 820.567,
+  "end": 827.409,
+  "speaker": "Unknown",
+  "en": "So what used to be hand engineering, you'd have to build your own async pool of agents, you'd have to set up your judges, you'd have to tape together data pipelines.",
+  "zh": "过去需要手工工程——你必须自己构建异步智能体池，必须设置你的评判器，必须用胶带把数据管道拼起来。"
+ },
+ {
+  "seg": 130,
+  "start": 827.789,
+  "end": 832.771,
+  "speaker": "Unknown",
+  "en": "All of this now starts becoming grounded in these new primitives that we've established earlier in the slideshow.",
+  "zh": "所有这些现在都开始建立在我们之前在幻灯片中确立的这些新原语之上。"
+ },
+ {
+  "seg": 131,
+  "start": 833.411,
+  "end": 836.012,
+  "speaker": "Unknown",
+  "en": "You have a sub-agent graph that is completely dynamic.",
+  "zh": "你有一个完全动态的子智能体图。"
+ },
+ {
+  "seg": 132,
+  "start": 836.532,
+  "end": 843.295,
+  "speaker": "Unknown",
+  "en": "The generative UI comes in at the end to richly convey the findings in a way that the user best understands or maybe caters to their learning style.",
+  "zh": "生成式 UI 在最后出场，以用户最容易理解的方式、或者迎合他们学习风格的方式，丰富地传达发现。"
+ },
+ {
+  "seg": 133,
+  "start": 843.855,
+  "end": 846.836,
+  "speaker": "Unknown",
+  "en": "And all of these things can be regenerated and redone on the fly.",
+  "zh": "所有这些东西都可以即时重新生成和重做。"
+ },
+ {
+  "seg": 134,
+  "start": 847.336,
+  "end": 849.457,
+  "speaker": "Unknown",
+  "en": "All the user had to do was load up a skills file,",
+  "zh": "用户所需要做的只是加载一个技能文件，"
+ },
+ {
+  "seg": 135,
+  "start": 850.097,
+  "end": 850.617,
+  "speaker": "Unknown",
+  "en": "And ask away.",
+  "zh": "然后开始提问。"
+ },
+ {
+  "seg": 136,
+  "start": 852.658,
+  "end": 858.64,
+  "speaker": "Unknown",
+  "en": "So with teamwork and this eval example, we start arriving at these 2026 primitives that I keep talking about.",
+  "zh": "所以通过团队协作和这个评估例子，我们开始触及我一直谈论的这些 2026 年原语。"
+ },
+ {
+  "seg": 137,
+  "start": 859.18,
+  "end": 864.082,
+  "speaker": "Unknown",
+  "en": "And these model characteristics really change the way that we have to think about the product and how we have to develop the product.",
+  "zh": "而这些模型特性真正改变了我们必须如何看待产品以及如何开发产品的方式。"
+ },
+ {
+  "seg": 138,
+  "start": 864.602,
+  "end": 869.024,
+  "speaker": "Unknown",
+  "en": "So the three examples that we've talked about, first, we have the dynamic subagent.",
+  "zh": "我们谈过的三个例子中，第一个是动态子智能体。"
+ },
+ {
+  "seg": 139,
+  "start": 869.364,
+  "end": 870.825,
+  "speaker": "Unknown",
+  "en": "And to provide a little bit more color here,",
+  "zh": "这里再补充一点细节，"
+ },
+ {
+  "seg": 140,
+  "start": 871.785,
+  "end": 873.746,
+  "speaker": "Unknown",
+  "en": "Basically, no two sub-agents are the same.",
+  "zh": "基本上，没有两个子智能体是相同的。 [[101→142]] 主智能体是完全自主编排这一切的那一个。"
+ },
+ {
+  "seg": 141,
+  "start": 874.166,
+  "end": 877.207,
+  "speaker": "Unknown",
+  "en": "The main agent is the one that is orchestrating this entirely on its own.",
+  "zh": "主智能体是完全由它自己独立编排这一切的那个。"
+ },
+ {
+  "seg": 142,
+  "start": 877.507,
+  "end": 881.008,
+  "speaker": "Unknown",
+  "en": "It's configuring and prompting and seeding these sub-agents on the fly.",
+  "zh": "它在即时配置、提示和播种这些子智能体。"
+ },
+ {
+  "seg": 143,
+  "start": 881.448,
+  "end": 882.809,
+  "speaker": "Unknown",
+  "en": "They can operate in parallel.",
+  "zh": "它们可以并行运行。"
+ },
+ {
+  "seg": 144,
+  "start": 882.849,
+  "end": 892.912,
+  "speaker": "Unknown",
+  "en": "They can operate in different types of secure environments, be it a sandbox, be it a remote execution system, and they can all take on an infinite number of specialized roles.",
+  "zh": "它们可以在不同类型的安全环境中运行，无论是沙箱还是远程执行系统，而且它们都可以承担无限数量的专业化角色。"
+ },
+ {
+  "seg": 145,
+  "start": 893.612,
+  "end": 897.994,
+  "speaker": "Unknown",
+  "en": "So the scaling story here is quite obvious, and from the last two examples you can probably tell.",
+  "zh": "所以这里的扩展故事非常明显，从最后两个例子中你可能已经能看出来。"
+ },
+ {
+  "seg": 146,
+  "start": 898.415,
+  "end": 907.28,
+  "speaker": "Unknown",
+  "en": "As the model gets smarter, your team will become more specialized, it will become more collaborative, and ultimately that means it will be capable of getting more complex work done for you.",
+  "zh": "随着模型变得更聪明，你的团队会变得更加专业化、更加协作，最终这意味着它将能够为你完成更复杂的工作。"
+ },
+ {
+  "seg": 147,
+  "start": 908.78,
+  "end": 910.601,
+  "speaker": "Unknown",
+  "en": "And now the second is this new concept.",
+  "zh": "现在第二个是一个新概念。"
+ },
+ {
+  "seg": 148,
+  "start": 910.822,
+  "end": 913.763,
+  "speaker": "Unknown",
+  "en": "We've alluded to it slightly in the past, but it's called Sidecars.",
+  "zh": "我们过去略微提到过它，它叫做 Sidecars。"
+ },
+ {
+  "seg": 149,
+  "start": 914.103,
+  "end": 916.465,
+  "speaker": "Unknown",
+  "en": "This is a new plug-in protocol that we're bringing to Antigravity.",
+  "zh": "这是我们带给 Antigravity 的一个新插件协议。"
+ },
+ {
+  "seg": 150,
+  "start": 917.399,
+  "end": 920.721,
+  "speaker": "Unknown",
+  "en": "A sidecar process is essentially, it is a sidecar process.",
+  "zh": "Sidecar 进程本质上就是,它就是一个 sidecar 进程。"
+ },
+ {
+  "seg": 151,
+  "start": 921.241,
+  "end": 923.582,
+  "speaker": "Unknown",
+  "en": "The naming sort of reflects what's going on under the hood.",
+  "zh": "这个命名多少反映了底层正在发生的事情。"
+ },
+ {
+  "seg": 152,
+  "start": 923.902,
+  "end": 925.083,
+  "speaker": "Unknown",
+  "en": "But it's a long-lived utility.",
+  "zh": "但它是一个长驻的工具。"
+ },
+ {
+  "seg": 153,
+  "start": 925.543,
+  "end": 927.424,
+  "speaker": "Unknown",
+  "en": "And it's responsible for listening.",
+  "zh": "它负责监听。"
+ },
+ {
+  "seg": 154,
+  "start": 927.504,
+  "end": 932.387,
+  "speaker": "Unknown",
+  "en": "It allows the model to listen to the outside world and set up its own triggers for things that might happen.",
+  "zh": "它让模型能够监听外部世界,并为可能发生的事情设置自己的触发器。"
+ },
+ {
+  "seg": 155,
+  "start": 932.707,
+  "end": 934.528,
+  "speaker": "Unknown",
+  "en": "For example, this could be SMS messages.",
+  "zh": "比如说,可以是短信消息。"
+ },
+ {
+  "seg": 156,
+  "start": 934.808,
+  "end": 938.11,
+  "speaker": "Unknown",
+  "en": "This could be web hooks, cron jobs, hooking it up to GitHub PRs.",
+  "zh": "可以是 web hooks、cron 任务、对接 GitHub PR。"
+ },
+ {
+  "seg": 157,
+  "start": 939.09,
+  "end": 939.951,
+  "speaker": "Unknown",
+  "en": "The list goes on and on.",
+  "zh": "这样的例子不胜枚举。"
+ },
+ {
+  "seg": 158,
+  "start": 939.971,
+  "end": 941.772,
+  "speaker": "Unknown",
+  "en": "But this is a generic plug-in primitive.",
+  "zh": "但这是一个通用的插件原语。"
+ },
+ {
+  "seg": 159,
+  "start": 942.742,
+  "end": 945.664,
+  "speaker": "Unknown",
+  "en": "Antigravity already uses sidecars for things that are time-based.",
+  "zh": "Antigravity 已经在基于时间的场景中使用 sidecar 了。"
+ },
+ {
+  "seg": 160,
+  "start": 945.924,
+  "end": 948.586,
+  "speaker": "Unknown",
+  "en": "This is where the scheduled task cron concept comes from.",
+  "zh": "这就是计划任务 cron 概念的来源。"
+ },
+ {
+  "seg": 161,
+  "start": 949.247,
+  "end": 951.588,
+  "speaker": "Unknown",
+  "en": "But under the hood, this is all this new sidecar primitive.",
+  "zh": "但在底层,这全是这种新的 sidecar 原语。"
+ },
+ {
+  "seg": 162,
+  "start": 952.149,
+  "end": 956.912,
+  "speaker": "Unknown",
+  "en": "So we'll be releasing the spec for this so that you all can build on top of this new primitive later this summer.",
+  "zh": "所以我们会在今年夏天晚些时候发布这个规范,这样你们所有人都可以在这个新原语之上进行构建。"
+ },
+ {
+  "seg": 163,
+  "start": 957.152,
+  "end": 961.135,
+  "speaker": "Unknown",
+  "en": "But there are some really, really cool ways that people internally have been using this sort of concept.",
+  "zh": "但内部的人已经用这种概念找到了一些非常非常酷的使用方式。"
+ },
+ {
+  "seg": 164,
+  "start": 962.896,
+  "end": 965.318,
+  "speaker": "Unknown",
+  "en": "And the third and final primitive is generative UI.",
+  "zh": "第三个也是最后一个原语是生成式 UI。"
+ },
+ {
+  "seg": 165,
+  "start": 965.958,
+  "end": 970.842,
+  "speaker": "Unknown",
+  "en": "So we hypothesize that human-written specialized UIs are kind of dead.",
+  "zh": "所以我们假设人类编写的专用 UI 已经有点过时了。"
+ },
+ {
+  "seg": 166,
+  "start": 972.301,
+  "end": 976.286,
+  "speaker": "Unknown",
+  "en": "Gemini Flash on anti-gravity clocks in at almost 900 tokens a second.",
+  "zh": "anti-gravity 上的 Gemini Flash 跑出了接近每秒 900 个 token 的速度。"
+ },
+ {
+  "seg": 167,
+  "start": 976.687,
+  "end": 979.49,
+  "speaker": "Unknown",
+  "en": "This is 10x faster than a lot of the other Frontier model experiences.",
+  "zh": "这比很多其他前沿模型的体验快 10 倍。"
+ },
+ {
+  "seg": 168,
+  "start": 979.971,
+  "end": 989.242,
+  "speaker": "Unknown",
+  "en": "And in a matter of seconds, you're able to go from whatever you were thinking inside of your head into a prompt into a use case that is designed and embedded inside of your conversation view perfectly.",
+  "zh": "而且在几秒钟内,你就能把你脑子里的想法变成提示词,再变成一个被完美设计和嵌入到你对话视图中的用例。"
+ },
+ {
+  "seg": 169,
+  "start": 989.963,
+  "end": 996.505,
+  "speaker": "Unknown",
+  "en": "And rather than rely on templates or even HTML files, Antigravity can render your generated UI inline.",
+  "zh": "而且 Antigravity 不依赖模板甚至 HTML 文件,而是可以内联渲染你生成的 UI。"
+ },
+ {
+  "seg": 170,
+  "start": 996.845,
+  "end": 1010.488,
+  "speaker": "Unknown",
+  "en": "So you can do things like this and play Doom, but this also extends to things like bar charts, graphs, tables, anything that you would want to interact with and maybe inspect a little bit further than just a markdown file or just a conversation.",
+  "zh": "所以你可以像这样玩 Doom,但这也延伸到柱状图、图表、表格,任何你想要交互的东西,可能还想比仅仅一个 markdown 文件或仅仅一段对话更进一步地检查一下。"
+ },
+ {
+  "seg": 171,
+  "start": 1013.283,
+  "end": 1017.824,
+  "speaker": "Unknown",
+  "en": "And generative UI in many ways reminds me of the quote that the late Steve Jobs said when unveiling the iPhone.",
+  "zh": "生成式 UI 在很多方面让我想起已故的 Steve Jobs 在发布 iPhone 时说的那句名言。"
+ },
+ {
+  "seg": 172,
+  "start": 1018.305,
+  "end": 1022.186,
+  "speaker": "Unknown",
+  "en": "He justifies the removal of the keyboard and says, they all have these keyboards.",
+  "zh": "他为移除键盘辩护时说,它们都有这些键盘。"
+ },
+ {
+  "seg": 173,
+  "start": 1022.626,
+  "end": 1024.907,
+  "speaker": "Unknown",
+  "en": "They are there whether you need them or not.",
+  "zh": "不管你需不需要,它们都在那里。"
+ },
+ {
+  "seg": 174,
+  "start": 1025.547,
+  "end": 1030.128,
+  "speaker": "Unknown",
+  "en": "And they all have these control buttons that are fixed in plastic and are the same for every application.",
+  "zh": "而且它们都有这些固定在塑料里的控制按钮,对每个应用来说都一模一样。"
+ },
+ {
+  "seg": 175,
+  "start": 1030.849,
+  "end": 1035.65,
+  "speaker": "Unknown",
+  "en": "In an analogous way, we built our product to dynamically scale with the needs of the agent.",
+  "zh": "以类似的方式,我们把产品构建成能随智能体的需求动态扩展。"
+ },
+ {
+  "seg": 176,
+  "start": 1036.09,
+  "end": 1041.352,
+  "speaker": "Unknown",
+  "en": "We skipped the heavy infrastructure and mechanical UIs in favor of sidecars and generative UI.",
+  "zh": "我们跳过了沉重的基础设施和机械化的 UI,转而选择 sidecar 和生成式 UI。"
+ },
+ {
+  "seg": 177,
+  "start": 1042.112,
+  "end": 1045.854,
+  "speaker": "Unknown",
+  "en": "And that creates a product experience that is not fixed in plastic.",
+  "zh": "这创造了一种不固定在塑料里的产品体验。"
+ },
+ {
+  "seg": 178,
+  "start": 1047.816,
+  "end": 1053.319,
+  "speaker": "Unknown",
+  "en": "So sub-agents, sidecar triggers, and generative UI are the latest primitives that are powering anti-gravity.",
+  "zh": "所以子智能体、sidecar 触发器和生成式 UI 是驱动 anti-gravity 的最新原语。"
+ },
+ {
+  "seg": 179,
+  "start": 1053.96,
+  "end": 1064.867,
+  "speaker": "Unknown",
+  "en": "We've tried our best to stay out of the way and let the model cook, and if you're building a product around an agent, you should consider what are the primitives that are in my product, and how might they scale with the model's intelligence?",
+  "zh": "我们尽力做到不挡路,让模型尽情发挥,如果你在围绕智能体构建产品,你应该考虑:我的产品里有哪些原语,以及它们如何随模型的智能而扩展?"
+ },
+ {
+  "seg": 180,
+  "start": 1065.609,
+  "end": 1081.202,
+  "speaker": "Unknown",
+  "en": "We all are familiar with shipping features is now quite easy with all of these new tools, and it's about deciding what features to actually add so that your product can scale with the next release of the next model, which will inevitably be faster, better, and cheaper.",
+  "zh": "我们都很熟悉,有了所有这些新工具,现在发布功能已经相当容易,关键在于决定到底要添加哪些功能,这样你的产品才能随下一个模型的下一次发布而扩展,而那 inevitable 地会更快、更好、更便宜。"
+ },
+ {
+  "seg": 181,
+  "start": 1082.043,
+  "end": 1087.287,
+  "speaker": "Unknown",
+  "en": "And so with the right primitives, you as a builder or you as a product owner, you might be surprised at what the models can do.",
+  "zh": "所以有了正确的原语,作为构建者或产品负责人的你,可能会对模型能做到的事情感到惊讶。"
+ },
+ {
+  "seg": 182,
+  "start": 1088.832,
+  "end": 1093.157,
+  "speaker": "Unknown",
+  "en": "And in classic fashion, I'm going to keep using the slide until we've actually conquered the TPU crunch.",
+  "zh": "按照惯例,我会继续用这张幻灯片,直到我们真正攻克 TPU 紧缺问题。"
+ },
+ {
+  "seg": 183,
+  "start": 1093.877,
+  "end": 1095.799,
+  "speaker": "Unknown",
+  "en": "So you can find me on Twitter.",
+  "zh": "你们可以在 Twitter 上找到我。"
+ },
+ {
+  "seg": 184,
+  "start": 1095.859,
+  "end": 1096.941,
+  "speaker": "Unknown",
+  "en": "You can DM me for feedback.",
+  "zh": "可以私信我提反馈。"
+ },
+ {
+  "seg": 185,
+  "start": 1096.961,
+  "end": 1100.144,
+  "speaker": "Unknown",
+  "en": "We're always looking for new ideas on how to build the latest and greatest.",
+  "zh": "我们一直在寻找关于如何打造最新最棒产品的新想法。"
+ },
+ {
+  "seg": 186,
+  "start": 1100.785,
+  "end": 1101.545,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 187,
+  "start": 1101.665,
+  "end": 1103.027,
+  "speaker": "Unknown",
+  "en": "Thank you, Swix and Ben, for having me.",
+  "zh": "感谢 Swix 和 Ben 邀请我。"
+ },
+ {
+  "seg": 188,
+  "start": 1103.047,
+  "end": 1103.988,
+  "speaker": "Unknown",
+  "en": "It's always a joy to be here.",
+  "zh": "来到这里总是一种乐趣。"
+ },
+ {
+  "seg": 189,
+  "start": 1104.008,
+  "end": 1106.23,
+  "speaker": "Unknown",
+  "en": "And I'll be at the Antigravity booth if you want to talk further.",
+  "zh": "我会在 Antigravity 的展位,如果你想进一步聊聊。"
+ },
+ {
+  "seg": 190,
+  "start": 1106.651,
+  "end": 1109.173,
+  "speaker": "Unknown",
+  "en": "If you want to get to know the product a bit more, some team members will be there.",
+  "zh": "如果你想更深入地了解这个产品,一些团队成员也会在那里。"
+ },
+ {
+  "seg": 191,
+  "start": 1109.394,
+  "end": 1110.515,
+  "speaker": "Unknown",
+  "en": "So thank you so much for your time.",
+  "zh": "所以非常感谢大家的时间。"
+ },
+ {
+  "seg": 192,
+  "start": 1110.935,
+  "end": 1111.596,
+  "speaker": "Unknown",
+  "en": "Excited to meet you all.",
+  "zh": "很期待见到你们所有人。"
+ },
+ {
+  "seg": 193,
+  "start": 1130.836,
+  "end": 1132.198,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

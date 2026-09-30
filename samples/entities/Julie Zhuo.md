@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":369,"构建者":3,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":84,"Cursor":73,"OpenAI":144}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":373,"构建者":3,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":85,"Cursor":73,"OpenAI":144}</script>
 
 <script>
 (function(){

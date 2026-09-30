@@ -60,7 +60,7 @@ unlisted: true
 
 [[Amazon]] · [[Google]] · [[Stripe]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[SaaS]] · [[Cursor]] · [[Meta]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Amazon":20,"Google":51,"Stripe":40,"OpenAI":144,"智能体":369,"Anthropic":156,"SaaS":19,"Cursor":73,"Meta":38,"Microsoft":26}</script>
+<script type="application/json" class="pd-epn">{"Amazon":21,"Google":51,"Stripe":40,"OpenAI":144,"智能体":373,"Anthropic":156,"SaaS":19,"Cursor":73,"Meta":38,"Microsoft":27}</script>
 
 <script>
 (function(){

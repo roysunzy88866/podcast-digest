@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":8,"智能体控制框架":2,"智能体":369,"智能体记忆":1,"上下文窗口":12,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":67}</script>
+<script type="application/json" class="pd-epn">{"Oracle":8,"智能体控制框架":2,"智能体":373,"智能体记忆":1,"上下文窗口":12,"上下文腐烂":4,"智能体循环":5,"语义层":4,"持续学习":1,"MCP":67}</script>
 
 <script>
 (function(){

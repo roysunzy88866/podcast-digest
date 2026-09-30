@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[智能体]] · [[Anish Acharya]] · [[Christian Klein]] · [[Jen Ka]] · [[Amazon]] · [[XAI]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":144,"Anthropic":156,"Salesforce":33,"智能体":369,"Anish Acharya":4,"Christian Klein":1,"Jen Ka":1,"Amazon":20,"XAI":7,"Shopify":14}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":144,"Anthropic":156,"Salesforce":33,"智能体":373,"Anish Acharya":4,"Christian Klein":1,"Jen Ka":1,"Amazon":21,"XAI":7,"Shopify":15}</script>
 
 <script>
 (function(){

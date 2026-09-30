@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":369,"harness":50,"模型独立性":1,"路由器":1,"token":28,"开源模型":22,"软件工厂":1,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":5,"Droid":1,"智能体":373,"harness":50,"模型独立性":1,"路由器":1,"token":28,"开源模型":23,"软件工厂":1,"基于结果的付费":4}</script>
 
 <script>
 (function(){

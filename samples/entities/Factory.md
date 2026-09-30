@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Factory</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Factory">FA</div><div class="pi"><h1 class="pt">Factory</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Factory">FA</div><div class="pi"><h1 class="pt">Factory</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,10 +15,11 @@ unlisted: true
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(32:33起):本集提及为一家提供类 Claude Code 体验的公司，本集工作流中的命令（如 slash roadmap）就是在其平台上定义和运行的
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(01:03起):本集称其为专门从事自主软件开发（autonomous software development）的公司，不补贴消费者、不追求 PLG，而是按项目和结果分配 token、追求最好产品体验的企业
 - **[[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]]**(01:03起):本集把它说成一种工作方式：把几乎所有开发转移到循环的创建、维护和监控上，你的定制化「什么是正确」的定义就是新的软件工程，且工厂是连续体不是两个月的项目
+- **[[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]]**(00:41起):本集说 factory(工厂.com)是长期构建软件工厂概念的公司，已为 EY、Adobe 等企业在生产环境中落地，产品包括 missions、自动模型路由、延迟上下文引擎、智能体就绪度检查等。
 
 ## ① 提到它的金句
 
-*11 条*
+*16 条*
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q12]]
 
@@ -38,26 +39,37 @@ unlisted: true
 
 ![[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co#^q2]]
 
+![[2026-09-27-talks-software-engineering-is-becoming-factory#^q2]]
+
+![[2026-09-27-talks-software-engineering-is-becoming-factory#^q6]]
+
+![[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa#^q1]]
+
+![[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa#^q2]]
+
+![[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa#^q10]]
+
 ![[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid#^q5]]
 
 ![[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb#^q6]]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为被讨论公司
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 - [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]] — 作为概念
+- [[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[token]] · [[harness]] · [[技能]] · [[开源模型]] · [[Cognition]] · [[Anthropic]] · [[OpenAI]] · [[Matan Grinberg]] · [[Heitor Lessa]]
+[[智能体]] · [[token]] · [[开源模型]] · [[harness]] · [[技能]] · [[软件工厂]] · [[Cognition]] · [[Anthropic]] · [[OpenAI]] · [[Matan Grinberg]]
 
-<script type="application/json" class="pd-epn">{"智能体":369,"token":28,"harness":50,"技能":25,"开源模型":22,"Cognition":22,"Anthropic":156,"OpenAI":144,"Matan Grinberg":1,"Heitor Lessa":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":373,"token":28,"开源模型":23,"harness":50,"技能":25,"软件工厂":1,"Cognition":22,"Anthropic":156,"OpenAI":144,"Matan Grinberg":1}</script>
 
 <script>
 (function(){

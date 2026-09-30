@@ -1,0 +1,1618 @@
+[
+ {
+  "seg": 0,
+  "start": 37.34,
+  "end": 37.96,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 38.681,
+  "end": 39.181,
+  "speaker": "Unknown",
+  "en": "Hey, what's up?",
+  "zh": "嘿，怎么样？"
+ },
+ {
+  "seg": 2,
+  "start": 39.201,
+  "end": 39.941,
+  "speaker": "Unknown",
+  "en": "I'm Teresa.",
+  "zh": "我是 Teresa。"
+ },
+ {
+  "seg": 3,
+  "start": 41.401,
+  "end": 43.442,
+  "speaker": "Unknown",
+  "en": "And today I will be talking about Software Factory.",
+  "zh": "今天我要讲的是 Software Factory(软件工厂)。"
+ },
+ {
+  "seg": 4,
+  "start": 44.563,
+  "end": 54.586,
+  "speaker": "Unknown",
+  "en": "Everyone is talking about Software Factory, but only a few people are actually building one, and even fewer people know what it actually takes to build one and how to define it.",
+  "zh": "每个人都在谈论 Software Factory,但真正在构建它的人很少，而知道构建它究竟需要什么、以及如何定义它的人更少。"
+ },
+ {
+  "seg": 5,
+  "start": 54.686,
+  "end": 58.087,
+  "speaker": "Unknown",
+  "en": "So I will be talking about what is a Software Factory?",
+  "zh": "所以我会讲：什么是 Software Factory?"
+ },
+ {
+  "seg": 6,
+  "start": 58.367,
+  "end": 60.668,
+  "speaker": "Unknown",
+  "en": "Should I build your own or outsource it?",
+  "zh": "我应该自己构建还是外包？"
+ },
+ {
+  "seg": 7,
+  "start": 60.888,
+  "end": 62.368,
+  "speaker": "Unknown",
+  "en": "What works in production already?",
+  "zh": "哪些已经在生产环境中被验证可行了？"
+ },
+ {
+  "seg": 8,
+  "start": 62.428,
+  "end": 63.829,
+  "speaker": "Unknown",
+  "en": "What are the main challenges?",
+  "zh": "主要的挑战是什么？"
+ },
+ {
+  "seg": 9,
+  "start": 64.609,
+  "end": 68.973,
+  "speaker": "Unknown",
+  "en": "And how much is this all going to cost?",
+  "zh": "以及这一切要花多少钱？"
+ },
+ {
+  "seg": 10,
+  "start": 69.174,
+  "end": 69.874,
+  "speaker": "Unknown",
+  "en": "My name is Teresa.",
+  "zh": "我叫 Teresa。"
+ },
+ {
+  "seg": 11,
+  "start": 69.914,
+  "end": 72.196,
+  "speaker": "Unknown",
+  "en": "I work at a company called factory.com.",
+  "zh": "我在一家叫 factory.com 的公司工作。"
+ },
+ {
+  "seg": 12,
+  "start": 72.457,
+  "end": 77.862,
+  "speaker": "Unknown",
+  "en": "And we've been building this concept of the software factory for quite a long time.",
+  "zh": "我们构建 Software Factory 这个概念已经有相当长的时间了。"
+ },
+ {
+  "seg": 13,
+  "start": 78.022,
+  "end": 85.91,
+  "speaker": "Unknown",
+  "en": "But finally, the technology is catching up, and it's possible to build this in production for enterprises like EY or Adobe.",
+  "zh": "但最终，技术终于跟上了，现在可以为像 EY 或 Adobe 这样的企业把它在生产环境中构建出来。"
+ },
+ {
+  "seg": 14,
+  "start": 87.15,
+  "end": 115.997,
+  "speaker": "Unknown",
+  "en": "I would define the software factory as the whole loop, the whole life cycle of developing software with autonomy, which doesn't mean just coding and generating code, by that I mean collecting all the signals, reacting to user feedback, to logs, prioritizing what's important, then orchestrating it all, executing, validating, doing really good testing in production, and then iterating on all this, while also continuously improving in the process and gaining",
+  "zh": "我会把 Software Factory 定义为整个闭环，即以自主方式开发软件的整个生命周期，这不仅仅是指编码和生成代码，我的意思是收集所有信号、对用户反馈和日志做出反应、排定优先级，然后对所有这一切进行编排、执行、验证、在生产中做真正好的测试，然后在此基础上迭代，同时在此过程中持续改进并获得"
+ },
+ {
+  "seg": 15,
+  "start": 116.557,
+  "end": 117.879,
+  "speaker": "Unknown",
+  "en": "New knowledge and new skills.",
+  "zh": "新的知识和新的技能。"
+ },
+ {
+  "seg": 16,
+  "start": 118.64,
+  "end": 125.71,
+  "speaker": "Unknown",
+  "en": "So this is just our dashboard, how our software factory looks if you look at it and it's catching the whole cycle there.",
+  "zh": "这只是我们的仪表盘，如果你去看的话，我们的 Software Factory 就是这样，它捕获了整个循环。"
+ },
+ {
+  "seg": 17,
+  "start": 127.221,
+  "end": 149.953,
+  "speaker": "Unknown",
+  "en": "This is just some history, and by history I mean 2023 in AI, so the software factory wasn't really possible before, even though we always had this idea from the beginning of ChatGPT launch and others, we had this idea of the continuous loop, there was auto-GPT, baby AGI, already with the concepts of iterating on the software, but it didn't work before.",
+  "zh": "这只是一点历史，我说的历史是指 AI 领域的 2023 年，所以在那之前 Software Factory 是真的不可能实现的，尽管从 ChatGPT 发布之初我们就一直有这个想法，我们有这个持续闭环的想法，当时有 auto-GPT、baby AGI,已经有了对软件进行迭代的概念，但那时候行不通。"
+ },
+ {
+  "seg": 18,
+  "start": 150.653,
+  "end": 164.005,
+  "speaker": "Unknown",
+  "en": "Because the LMs were hallucinating, there was problem with context length, problem with the reasoning quality, different problems like this, or we were missing good environments where the agents can actually work in the isolation.",
+  "zh": "因为当时的 LLM 会产生幻觉，上下文长度有问题，推理质量有问题，诸如此类的各种问题，或者我们缺少好的环境，让智能体能够在隔离状态下真正工作。"
+ },
+ {
+  "seg": 19,
+  "start": 164.665,
+  "end": 173.393,
+  "speaker": "Unknown",
+  "en": "So all this kind of led to why the software factory is the paradigm that's starting to be popular now and actually useful.",
+  "zh": "所有这些导致了为什么 Software Factory 是现在开始流行且真正有用的范式。"
+ },
+ {
+  "seg": 20,
+  "start": 175.352,
+  "end": 191.137,
+  "speaker": "Unknown",
+  "en": "I like to define things by what they are not, so I want to say Software Factory is not just coding agent, and it's not even a swarm of coding agents, even thousands of agents, because generating code, writing code, that's the easy part compared to all the others.",
+  "zh": "我喜欢用“它不是什么”来定义事物，所以我想说 Software Factory 不只是一个编码智能体，它甚至不是一群编码智能体，哪怕是成千上万个智能体，因为生成代码、编写代码，相比其他所有环节来说，是容易的部分。"
+ },
+ {
+  "seg": 21,
+  "start": 191.717,
+  "end": 193.458,
+  "speaker": "Unknown",
+  "en": "Engineers don't even spend most of the time",
+  "zh": "工程师甚至不会把大部分时间花在"
+ },
+ {
+  "seg": 22,
+  "start": 194.278,
+  "end": 195.139,
+  "speaker": "Unknown",
+  "en": "Just writing code.",
+  "zh": "只是写代码上。"
+ },
+ {
+  "seg": 23,
+  "start": 195.579,
+  "end": 197.16,
+  "speaker": "Unknown",
+  "en": "The challenges are the rest of it.",
+  "zh": "挑战在于剩下的部分。"
+ },
+ {
+  "seg": 24,
+  "start": 198.041,
+  "end": 199.342,
+  "speaker": "Unknown",
+  "en": "So this is what I want to enhance.",
+  "zh": "所以这是我想强调的。"
+ },
+ {
+  "seg": 25,
+  "start": 199.522,
+  "end": 208.228,
+  "speaker": "Unknown",
+  "en": "And it's also not just some consultancy or just some abstract strategy that someone will try to sell you and to your organization.",
+  "zh": "而且它也不只是某种咨询，也不只是某人会试图卖给你和你的组织的某种抽象战略。"
+ },
+ {
+  "seg": 26,
+  "start": 209.589,
+  "end": 218.596,
+  "speaker": "Unknown",
+  "en": "I think the approaches are, of course, different, but we believe you should really rebuild your organization from ground up to be ready to become a software factory.",
+  "zh": "我认为方法当然各不相同，但我们相信，你应该真正从头开始重建你的组织，为成为 Software Factory 做好准备。"
+ },
+ {
+  "seg": 27,
+  "start": 218.616,
+  "end": 219.256,
+  "speaker": "Unknown",
+  "en": "Like, you can't",
+  "zh": "比如，你不能"
+ },
+ {
+  "seg": 28,
+  "start": 220.137,
+  "end": 224.84,
+  "speaker": "Unknown",
+  "en": "Invite a consultancy and just throw something in the middle of your organization.",
+  "zh": "请来一家咨询公司，然后就把某种东西扔到你组织的中间。"
+ },
+ {
+  "seg": 29,
+  "start": 224.86,
+  "end": 227.901,
+  "speaker": "Unknown",
+  "en": "You should really be mindful and rebuild it from scratch.",
+  "zh": "你应该真正地用心，从零开始重建它。"
+ },
+ {
+  "seg": 30,
+  "start": 230.483,
+  "end": 241.049,
+  "speaker": "Unknown",
+  "en": "This is the approach I like showing to building the software factory, and I think it's similar to building the real team of humans, because there is a lot of agents.",
+  "zh": "这是我喜欢展示的构建 Software Factory 的方法，我认为它类似于组建一个真正的人类团队，因为这里有很多智能体。"
+ },
+ {
+  "seg": 31,
+  "start": 241.469,
+  "end": 247.092,
+  "speaker": "Unknown",
+  "en": "As I said, they will be testing, validating, iterating, and it all can end up as a big chaos.",
+  "zh": "正如我所说，它们会进行测试、验证、迭代，这一切最终可能变成一场大混乱。"
+ },
+ {
+  "seg": 32,
+  "start": 247.992,
+  "end": 260.2,
+  "speaker": "Unknown",
+  "en": "So you need to be mindful, and I would say the three important things is being agnostic in the software factory, so being independent of LLM choices, of how you already work as the organization.",
+  "zh": "所以你需要用心，我要说三个重要的点是：在 Software Factory 中保持中立(agnostic),也就是独立于 LLM 的选择、独立于你作为组织已有的工作方式。"
+ },
+ {
+  "seg": 33,
+  "start": 260.86,
+  "end": 275.289,
+  "speaker": "Unknown",
+  "en": "Then you need to be autonomous, so you need to give the agents the right trust and all these permissions and governance, and you need to trust it to run early for a long time, because the predictions are that agents will run even a year or more years without the human in the loop,",
+  "zh": "然后你需要是自主的，所以你需要给智能体正确的信任以及所有这些权限和治理，并且你需要信任它能长时间提早运行，因为预测是智能体将运行一年甚至更多年而无须人在环中，"
+ },
+ {
+  "seg": 34,
+  "start": 275.609,
+  "end": 282.973,
+  "speaker": "Unknown",
+  "en": "Of course, that sounds ambitious, but for example, our missions already, our long-running sessions already build things and run for weeks.",
+  "zh": "当然，这听起来很宏大，但举例来说，我们的 missions,我们的长时间运行会话，已经在构建东西并运行数周了。"
+ },
+ {
+  "seg": 35,
+  "start": 283.113,
+  "end": 284.634,
+  "speaker": "Unknown",
+  "en": "So it's not that crazy.",
+  "zh": "所以这并没有那么疯狂。"
+ },
+ {
+  "seg": 36,
+  "start": 285.154,
+  "end": 286.715,
+  "speaker": "Unknown",
+  "en": "And third thing, always improving.",
+  "zh": "第三点是持续改进。"
+ },
+ {
+  "seg": 37,
+  "start": 287.175,
+  "end": 302.464,
+  "speaker": "Unknown",
+  "en": "So same as human organization, you need to onboard any new people in your team by giving them good code base, understanding, good structure, documentation, and also let them improve in the process and gain new knowledge and share it within the team.",
+  "zh": "就和人类组织一样，你需要让任何新加入团队的人快速上手，给他们好的代码库理解、好的结构、文档，并且也让他们在此过程中改进、获得新知识并在团队内分享。"
+ },
+ {
+  "seg": 38,
+  "start": 304.28,
+  "end": 305.361,
+  "speaker": "Unknown",
+  "en": "So these are the three points.",
+  "zh": "所以这就是三个要点。"
+ },
+ {
+  "seg": 39,
+  "start": 305.741,
+  "end": 308.584,
+  "speaker": "Unknown",
+  "en": "And now let's talk about the agnostic one.",
+  "zh": "现在我们来谈谈中立这一点。"
+ },
+ {
+  "seg": 40,
+  "start": 310.245,
+  "end": 318.812,
+  "speaker": "Unknown",
+  "en": "I think the important thing to point out, if you are a builder and building different primitives of the software factory, you need to be ready for how everyone is already working.",
+  "zh": "我认为需要指出的一点是，如果你是一个构建者，在构建 Software Factory 的不同基础组件，你需要为每个人已有的工作方式做好准备。"
+ },
+ {
+  "seg": 41,
+  "start": 319.312,
+  "end": 324.657,
+  "speaker": "Unknown",
+  "en": "You need to work across environments like Slack, GitHub, and connect it to everything.",
+  "zh": "你需要跨环境工作，比如 Slack、GitHub,并把它连接到一切东西。"
+ },
+ {
+  "seg": 42,
+  "start": 325.237,
+  "end": 328.96,
+  "speaker": "Unknown",
+  "en": "And you need to also allow people to already bring subscriptions they are using.",
+  "zh": "你还需要允许人们带来他们已经在使用的订阅。"
+ },
+ {
+  "seg": 43,
+  "start": 329.821,
+  "end": 339.397,
+  "speaker": "Unknown",
+  "en": "Because every time there is new technology, new frontier models, new benchmarks, and it's so difficult to catch up, but also to predict what will be the winning.",
+  "zh": "因为每当有新技术、新的前沿模型、新的基准测试出现时，追赶已经很难了，更不用说预测什么会成为赢家。"
+ },
+ {
+  "seg": 44,
+  "start": 340.118,
+  "end": 342.282,
+  "speaker": "Unknown",
+  "en": "So it's best to be agnostic for everyone.",
+  "zh": "所以对所有人来说，最好保持中立。"
+ },
+ {
+  "seg": 45,
+  "start": 344.457,
+  "end": 347.218,
+  "speaker": "Unknown",
+  "en": "Then there's the topic of being agnostic to models.",
+  "zh": "接下来是对模型保持中立的话题。"
+ },
+ {
+  "seg": 46,
+  "start": 348.319,
+  "end": 364.965,
+  "speaker": "Unknown",
+  "en": "This is a topic of a lot of discussions recently, and this chart is from CEO of Coinbase, who tweeted about how they started saving money in their organization on AI, but without reducing the token spend.",
+  "zh": "这是最近有很多讨论的话题，这张图表来自 Coinbase 的 CEO,他发推讲述了他们如何在组织里开始在 AI 上省钱，但并没有减少 token 支出。"
+ },
+ {
+  "seg": 47,
+  "start": 364.985,
+  "end": 367.626,
+  "speaker": "Unknown",
+  "en": "So the black line is how much they spend on tokens.",
+  "zh": "黑线是他们在 token 上花了多少钱。"
+ },
+ {
+  "seg": 48,
+  "start": 367.926,
+  "end": 372.568,
+  "speaker": "Unknown",
+  "en": "They continue growing and token maxing, but they stopped spending so much money.",
+  "zh": "他们继续增长，token 用量持续拉满，但他们不再花那么多钱了。"
+ },
+ {
+  "seg": 49,
+  "start": 373.528,
+  "end": 391.859,
+  "speaker": "Unknown",
+  "en": "How they did it, different tricks, like different default models for people, so stop pushing people to use only the frontier as a default, then caching, of course, to stop prefilling the stuff every time, and then no limits on spending, but just needing to see the results if you spend a lot.",
+  "zh": "他们是怎么做到的呢？用了一些不同的技巧，比如给不同的人设置不同的默认模型，也就是不再强推大家把前沿模型当作默认选项，然后是缓存，当然，不再每次都重新做预填充，然后是不设支出上限，但只需要在花了很多钱时能看到结果。"
+ },
+ {
+  "seg": 50,
+  "start": 392.68,
+  "end": 395.742,
+  "speaker": "Unknown",
+  "en": "And the last thing that's really important topic is routing.",
+  "zh": "最后一个非常重要的话题是路由。"
+ },
+ {
+  "seg": 51,
+  "start": 396.683,
+  "end": 405.044,
+  "speaker": "Unknown",
+  "en": "So smart routing between LLMs and just token optimizing between the LLMs instead of just spending so much tokens.",
+  "zh": "也就是在 LLM 之间进行智能路由，以及在 LLM 之间做 token 优化，而不是直接花掉那么多 token。"
+ },
+ {
+  "seg": 52,
+  "start": 407.047,
+  "end": 420.292,
+  "speaker": "Unknown",
+  "en": "We built a thing in factory called automatic model routing, and there's been a lot of questions around it, but what it does is it automatically routes between different models in your process.",
+  "zh": "我们在 factory 里做了一个叫自动模型路由的东西，围绕它有很多问题，但它的作用是在你的流程中自动在不同模型之间进行路由。"
+ },
+ {
+  "seg": 53,
+  "start": 420.852,
+  "end": 432.157,
+  "speaker": "Unknown",
+  "en": "The important thing is it decides first what model is most optimal, and then it can switch to a different model if it's failing the task or in case of any troubles, but it usually doesn't happen.",
+  "zh": "重要的是它首先决定哪个模型最优，然后在任务失败或出现任何问题时可以切换到另一个模型，不过这种情况通常不会发生。"
+ },
+ {
+  "seg": 54,
+  "start": 433.077,
+  "end": 448.994,
+  "speaker": "Unknown",
+  "en": "And important thing is it doesn't just help save money, it also helps with reliability or with speed because open source models are often faster and if one LN provider fails, you can just switch to another one automatically.",
+  "zh": "另一个重要点是，它不仅能帮助省钱，还有助于可靠性或速度，因为开源模型通常更快，而且如果一个 LN 提供商挂了，你可以自动切换到另一个。"
+ },
+ {
+  "seg": 55,
+  "start": 449.054,
+  "end": 451.957,
+  "speaker": "Unknown",
+  "en": "So it really does more things than just saving the money.",
+  "zh": "所以它真正能做到的比省钱更多。"
+ },
+ {
+  "seg": 56,
+  "start": 453.118,
+  "end": 455.921,
+  "speaker": "Unknown",
+  "en": "This is our benchmark, which is very conservative.",
+  "zh": "这是我们的基准测试，非常保守。"
+ },
+ {
+  "seg": 57,
+  "start": 456.401,
+  "end": 460.424,
+  "speaker": "Unknown",
+  "en": "I prefer conservative benchmarks, but I think the direction is clear.",
+  "zh": "我更喜欢保守的基准测试，但我认为方向是明确的。"
+ },
+ {
+  "seg": 58,
+  "start": 460.464,
+  "end": 464.908,
+  "speaker": "Unknown",
+  "en": "You can say, for example, 25%, but even more probably.",
+  "zh": "你可以说，比如 25%，甚至可能更多。"
+ },
+ {
+  "seg": 59,
+  "start": 466.983,
+  "end": 469.465,
+  "speaker": "Unknown",
+  "en": "How the routing works, there are four parts.",
+  "zh": "路由是如何工作的，有四个部分。"
+ },
+ {
+  "seg": 60,
+  "start": 469.906,
+  "end": 485.884,
+  "speaker": "Unknown",
+  "en": "First, you just assign the task, and you don't really need to do anything, but as an organization, you can, for example, give different permissions and different default models to different people, which is very useful, like marketing or sales or engineers can have different default models.",
+  "zh": "首先，你只需分配任务，你其实不需要做任何事情，但作为一个组织，你可以，比如，给不同的人不同的权限和不同的默认模型，这非常有用，比如市场、销售或工程师可以有不同的默认模型。"
+ },
+ {
+  "seg": 61,
+  "start": 486.745,
+  "end": 489.706,
+  "speaker": "Unknown",
+  "en": "And then you have the classification, which is the important part.",
+  "zh": "然后是分类，这是重要的部分。"
+ },
+ {
+  "seg": 62,
+  "start": 489.726,
+  "end": 491.087,
+  "speaker": "Unknown",
+  "en": "This is the magic of the routing.",
+  "zh": "这就是路由的魔法。"
+ },
+ {
+  "seg": 63,
+  "start": 491.127,
+  "end": 503.653,
+  "speaker": "Unknown",
+  "en": "You need to really look at the structure of the prompt, of the code base, of how difficult the task is, what tools are being used, all these factors, and make a classification of difficulty of the task.",
+  "zh": "你需要真正去看提示词的结构、代码库的结构、任务有多难、使用了哪些工具等等所有这些因素，并对任务的难度做一个分类。"
+ },
+ {
+  "seg": 64,
+  "start": 505.16,
+  "end": 513.765,
+  "speaker": "Unknown",
+  "en": "After that, you basically do a threshold of what is enough to accomplish the task, and you choose the cheapest model above the threshold.",
+  "zh": "在那之后，你基本上设定一个完成任务的足够阈值，然后选择阈值之上最便宜的模型。"
+ },
+ {
+  "seg": 65,
+  "start": 514.465,
+  "end": 519.048,
+  "speaker": "Unknown",
+  "en": "So cheapest model that is predicted to accomplish your task, and then you go.",
+  "zh": "也就是预测能够完成你任务的最便宜模型，然后就开工。"
+ },
+ {
+  "seg": 66,
+  "start": 521.107,
+  "end": 525.788,
+  "speaker": "Unknown",
+  "en": "Okay, so when we launched this we got a lot of questions like does it actually work?",
+  "zh": "好的，当我们发布这个功能时，我们收到了很多问题，比如它真的有用吗？"
+ },
+ {
+  "seg": 67,
+  "start": 525.848,
+  "end": 528.329,
+  "speaker": "Unknown",
+  "en": "What if the model missed routes?",
+  "zh": "如果模型路由错了怎么办？"
+ },
+ {
+  "seg": 68,
+  "start": 528.969,
+  "end": 529.69,
+  "speaker": "Unknown",
+  "en": "Is it slower?",
+  "zh": "它会更慢吗？"
+ },
+ {
+  "seg": 69,
+  "start": 529.81,
+  "end": 531.07,
+  "speaker": "Unknown",
+  "en": "Is it more expensive actually?",
+  "zh": "它实际上会更贵吗？"
+ },
+ {
+  "seg": 70,
+  "start": 531.11,
+  "end": 533.371,
+  "speaker": "Unknown",
+  "en": "What if the model can't accomplish the task?",
+  "zh": "如果模型无法完成任务怎么办？"
+ },
+ {
+  "seg": 71,
+  "start": 534.031,
+  "end": 535.491,
+  "speaker": "Unknown",
+  "en": "Or what if it needs to upgrade?",
+  "zh": "或者如果它需要升级呢？"
+ },
+ {
+  "seg": 72,
+  "start": 535.611,
+  "end": 536.832,
+  "speaker": "Unknown",
+  "en": "And how do you handle caching?",
+  "zh": "还有你怎么处理缓存？"
+ },
+ {
+  "seg": 73,
+  "start": 537.552,
+  "end": 543.455,
+  "speaker": "Unknown",
+  "en": "So I think these are all valid questions, and that's why it's so difficult to build a good router.",
+  "zh": "所以我认为这些都是合理的问题，这也是为什么构建一个好的路由器如此困难。"
+ },
+ {
+  "seg": 74,
+  "start": 543.615,
+  "end": 559.202,
+  "speaker": "Unknown",
+  "en": "You need to basically classify it very well, and the challenge is not to need to switch too often, but even if you're switching in the middle of the task to a more difficult model, you still overall are faster probably, because it's still worth",
+  "zh": "你基本上需要对任务分类得非常好，挑战在于不需要太频繁地切换，但即使你在任务中途切换到更强的模型，总体上你可能还是更快，因为这依然是值得的"
+ },
+ {
+  "seg": 75,
+  "start": 561.641,
+  "end": 563.982,
+  "speaker": "Unknown",
+  "en": "This is just some overview of caching.",
+  "zh": "这只是关于缓存的一些概览。"
+ },
+ {
+  "seg": 76,
+  "start": 564.442,
+  "end": 569.184,
+  "speaker": "Unknown",
+  "en": "A lot of questions we got on this was also, how do we handle caching?",
+  "zh": "我们收到的很多问题也是，我们如何处理缓存？"
+ },
+ {
+  "seg": 77,
+  "start": 569.344,
+  "end": 571.425,
+  "speaker": "Unknown",
+  "en": "Do we do discounts for users?",
+  "zh": "我们给用户折扣吗？"
+ },
+ {
+  "seg": 78,
+  "start": 571.825,
+  "end": 576.487,
+  "speaker": "Unknown",
+  "en": "Because LLM Labs, of course, save a lot of money by caching and skipping all the",
+  "zh": "因为 LLM 实验室当然通过缓存和跳过大量的"
+ },
+ {
+  "seg": 79,
+  "start": 577.267,
+  "end": 579.028,
+  "speaker": "Unknown",
+  "en": "Context, Prefill all the time.",
+  "zh": "上下文、预填充节省了很多钱。"
+ },
+ {
+  "seg": 80,
+  "start": 580.249,
+  "end": 581.69,
+  "speaker": "Unknown",
+  "en": "Open models can do this as well.",
+  "zh": "开放模型也能做到这一点。"
+ },
+ {
+  "seg": 81,
+  "start": 581.81,
+  "end": 592.098,
+  "speaker": "Unknown",
+  "en": "I think people sometimes forget this, and you can just host open models as well on dedicated compute, and you can take the same advantage of the caching.",
+  "zh": "我认为人们有时会忘记这一点，你也可以在专用算力上托管开放模型，同样可以利用缓存的优势。"
+ },
+ {
+  "seg": 82,
+  "start": 592.318,
+  "end": 595.7,
+  "speaker": "Unknown",
+  "en": "So I want to enhance the final price for users.",
+  "zh": "所以我想提高用户的最终价格。"
+ },
+ {
+  "seg": 83,
+  "start": 595.78,
+  "end": 597.362,
+  "speaker": "Unknown",
+  "en": "It's just a pricing decision.",
+  "zh": "这只是一个定价决策。"
+ },
+ {
+  "seg": 84,
+  "start": 597.462,
+  "end": 600.684,
+  "speaker": "Unknown",
+  "en": "It's not a technical challenge because everyone can do caching.",
+  "zh": "这不是技术挑战，因为每个人都能做缓存。"
+ },
+ {
+  "seg": 85,
+  "start": 600.764,
+  "end": 606.048,
+  "speaker": "Unknown",
+  "en": "It's just what price you pass on the users and what deals you make with the API providers.",
+  "zh": "关键只是你把什么价格传导给用户，以及你和 API 提供商达成什么协议。"
+ },
+ {
+  "seg": 86,
+  "start": 607.965,
+  "end": 609.711,
+  "speaker": "Unknown",
+  "en": "So this is being agnostic.",
+  "zh": "所以这就是保持中立。"
+ },
+ {
+  "seg": 87,
+  "start": 610.394,
+  "end": 614.026,
+  "speaker": "Unknown",
+  "en": "And now the autonomy, which is the core of the software factory.",
+  "zh": "现在讲自主性，这是软件工厂的核心。"
+ },
+ {
+  "seg": 88,
+  "start": 615.587,
+  "end": 617.328,
+  "speaker": "Unknown",
+  "en": "Everyone is talking about loops.",
+  "zh": "每个人都在谈论循环。"
+ },
+ {
+  "seg": 89,
+  "start": 618.849,
+  "end": 623.051,
+  "speaker": "Unknown",
+  "en": "Loops, I think, have been here the whole time already in different contexts.",
+  "zh": "循环，我认为，其实一直都存在，只是在不同语境下。"
+ },
+ {
+  "seg": 90,
+  "start": 623.272,
+  "end": 627.354,
+  "speaker": "Unknown",
+  "en": "They are just now leveling up and moving to the context of agents.",
+  "zh": "它们现在只是升级了，进入了智能体的语境。"
+ },
+ {
+  "seg": 91,
+  "start": 627.394,
+  "end": 633.337,
+  "speaker": "Unknown",
+  "en": "You probably heard about the RLHF loop and specifying the tasks and splitting to subtasks for agents.",
+  "zh": "你可能听说过 RLHF 循环，以及为智能体指定任务和拆分子任务。"
+ },
+ {
+  "seg": 92,
+  "start": 634.438,
+  "end": 643.343,
+  "speaker": "Unknown",
+  "en": "This is a known concept, and the question is not the loop itself, but the question is how you define what it means to be done in the loop.",
+  "zh": "这是一个已知的概念，问题不在于循环本身，而在于你如何定义在循环中什么叫完成。"
+ },
+ {
+  "seg": 93,
+  "start": 643.943,
+  "end": 647.025,
+  "speaker": "Unknown",
+  "en": "This is one example from my colleague.",
+  "zh": "这是我一位同事的例子。"
+ },
+ {
+  "seg": 94,
+  "start": 647.185,
+  "end": 651.607,
+  "speaker": "Unknown",
+  "en": "He made a loop of agents building 3D printing of our logo.",
+  "zh": "他做了一个智能体循环来 3D 打印我们的 logo。"
+ },
+ {
+  "seg": 95,
+  "start": 652.588,
+  "end": 660.112,
+  "speaker": "Unknown",
+  "en": "I think here you can see what is the challenge of the loops, because before in programming, loops had clear criteria of what it means to be done.",
+  "zh": "我想在这里你能看到循环的挑战所在，因为以前在编程中，循环有明确的标准来定义什么叫完成。"
+ },
+ {
+  "seg": 96,
+  "start": 660.652,
+  "end": 666.378,
+  "speaker": "Unknown",
+  "en": "Well, now the criteria become open-ended because a lot of the tasks are very non-deterministic.",
+  "zh": "而现在这些标准变得开放了，因为很多任务是非常非确定性的。"
+ },
+ {
+  "seg": 97,
+  "start": 666.419,
+  "end": 667.42,
+  "speaker": "Unknown",
+  "en": "It's basically open-world.",
+  "zh": "这基本上是开放世界。"
+ },
+ {
+  "seg": 98,
+  "start": 667.44,
+  "end": 670.263,
+  "speaker": "Unknown",
+  "en": "You can do even real stuff like printing something.",
+  "zh": "你甚至可以做真实的事情，比如打印一个东西。"
+ },
+ {
+  "seg": 99,
+  "start": 670.783,
+  "end": 676.289,
+  "speaker": "Unknown",
+  "en": "And it's really difficult to define how do you verify that the loop was done, that the task was accomplished.",
+  "zh": "而要定义如何验证循环已经完成、任务已经达成，真的非常困难。"
+ },
+ {
+  "seg": 100,
+  "start": 677.01,
+  "end": 678.172,
+  "speaker": "Unknown",
+  "en": "So that's the difficult part.",
+  "zh": "所以这就是困难的部分。"
+ },
+ {
+  "seg": 101,
+  "start": 680.188,
+  "end": 681.749,
+  "speaker": "Unknown",
+  "en": "Yeah, they just need to be verifiable.",
+  "zh": "是的,它们只需要是可验证的。"
+ },
+ {
+  "seg": 102,
+  "start": 682.309,
+  "end": 683.869,
+  "speaker": "Unknown",
+  "en": "This I call the scary chart.",
+  "zh": "我把这个叫做“可怕图表”。"
+ },
+ {
+  "seg": 103,
+  "start": 683.929,
+  "end": 694.713,
+  "speaker": "Unknown",
+  "en": "It basically shows that the tasks and how long they run autonomously with agents have been increasing, but still it's not that reliable, even if you can run for a very long time.",
+  "zh": "它基本上展示了智能体自主运行的任务及其运行时长一直在增加,但即便能运行很长时间,它仍然不那么可靠。"
+ },
+ {
+  "seg": 104,
+  "start": 695.593,
+  "end": 703.077,
+  "speaker": "Unknown",
+  "en": "It doesn't mean that it will be reliable in production, and you still probably need to iterate on it and provide feedback.",
+  "zh": "这并不意味着它在生产环境中会可靠,你可能仍需要对它进行迭代并提供反馈。"
+ },
+ {
+  "seg": 105,
+  "start": 703.137,
+  "end": 705.939,
+  "speaker": "Unknown",
+  "en": "So it's still not solved, and there are problems like cheating.",
+  "zh": "所以这仍然没有被解决,还有像作弊这样的问题。"
+ },
+ {
+  "seg": 106,
+  "start": 706.379,
+  "end": 721.788,
+  "speaker": "Unknown",
+  "en": "For example, if you write what it means to be done in the wrong way, the agent can try to pass your tests, but not really verify what you need to do and accomplish, but instead try to solve just passing your tests, so cheating by that.",
+  "zh": "举例来说,如果你用错误的方式定义“完成”意味着什么,智能体可能会尝试通过你的测试,但并没有真正验证你需要做的事情并完成它,而是只求通过你的测试,以此方式作弊。"
+ },
+ {
+  "seg": 107,
+  "start": 723.657,
+  "end": 725.298,
+  "speaker": "Unknown",
+  "en": "We have something called factory missions.",
+  "zh": "我们有一个叫做 factory missions 的东西。"
+ },
+ {
+  "seg": 108,
+  "start": 726.339,
+  "end": 729.042,
+  "speaker": "Unknown",
+  "en": "And this is like long-running sessions of the agents.",
+  "zh": "这就像是智能体的长时间运行会话。"
+ },
+ {
+  "seg": 109,
+  "start": 729.082,
+  "end": 732.004,
+  "speaker": "Unknown",
+  "en": "We just call it missions because we send the agent to the mission.",
+  "zh": "我们叫它 missions(任务),因为我们把智能体派去执行任务。"
+ },
+ {
+  "seg": 110,
+  "start": 732.785,
+  "end": 737.089,
+  "speaker": "Unknown",
+  "en": "And the missions work in the loop and iterating on task until it's done.",
+  "zh": "这些任务在循环中工作,并对任务进行迭代,直到完成为止。"
+ },
+ {
+  "seg": 111,
+  "start": 737.209,
+  "end": 738.49,
+  "speaker": "Unknown",
+  "en": "And they can do it even for weeks.",
+  "zh": "它们甚至可以持续几周。"
+ },
+ {
+  "seg": 112,
+  "start": 740.412,
+  "end": 747.839,
+  "speaker": "Unknown",
+  "en": "The main agent is orchestrator, and then it assigns work to workers' agents and then validators who review the task.",
+  "zh": "主智能体是编排者,然后它把工作分配给工作者智能体,以及审查任务的验证者。"
+ },
+ {
+  "seg": 113,
+  "start": 748.06,
+  "end": 753.865,
+  "speaker": "Unknown",
+  "en": "So this is one example, a real mission from our customers that run 16 hours.",
+  "zh": "这是其中一个例子,一个来自我们客户、运行了 16 小时的真实任务。"
+ },
+ {
+  "seg": 114,
+  "start": 754.626,
+  "end": 760.471,
+  "speaker": "Unknown",
+  "en": "And just to see how important is the validation as well, it takes even 40% of the whole process.",
+  "zh": "而为了说明验证同样有多重要,它甚至占整个流程的 40%。"
+ },
+ {
+  "seg": 115,
+  "start": 761.925,
+  "end": 767.05,
+  "speaker": "Unknown",
+  "en": "To summarize, the orchestrator just decides and writes the conditions, what it means to be done.",
+  "zh": "总结一下,编排者负责决定并写下条件,即“完成”意味着什么。"
+ },
+ {
+  "seg": 116,
+  "start": 767.15,
+  "end": 769.453,
+  "speaker": "Unknown",
+  "en": "Then it gives it to the agents called workers.",
+  "zh": "然后它把这些交给叫做工作者(workers)的智能体。"
+ },
+ {
+  "seg": 117,
+  "start": 770.153,
+  "end": 771.154,
+  "speaker": "Unknown",
+  "en": "The agents work on it.",
+  "zh": "这些智能体在上面工作。"
+ },
+ {
+  "seg": 118,
+  "start": 771.715,
+  "end": 775.258,
+  "speaker": "Unknown",
+  "en": "And what is interesting or worth noting is that they work in a sequence.",
+  "zh": "有趣或值得注意的一点是,它们是按顺序工作的。"
+ },
+ {
+  "seg": 119,
+  "start": 775.278,
+  "end": 777.941,
+  "speaker": "Unknown",
+  "en": "So they don't work in a swarm or parallel.",
+  "zh": "所以它们不是以集群或并行方式工作。"
+ },
+ {
+  "seg": 120,
+  "start": 778.341,
+  "end": 783.025,
+  "speaker": "Unknown",
+  "en": "The agents work in sequence and everyone accomplishes something and passes it to the next one.",
+  "zh": "这些智能体按顺序工作,每个人完成一部分,然后传递给下一个。"
+ },
+ {
+  "seg": 121,
+  "start": 784.066,
+  "end": 793.811,
+  "speaker": "Unknown",
+  "en": "We actually found that if you do this, you end up with more fresh context and kind of fresh heads, same with when with humans have like other colleagues verifying their code.",
+  "zh": "我们实际上发现,如果这样做,最终会有更新鲜的上下文,算是“头脑清醒”,就像人类有其他同事来验证他们的代码一样。"
+ },
+ {
+  "seg": 122,
+  "start": 793.931,
+  "end": 803.075,
+  "speaker": "Unknown",
+  "en": "So, similar thing, we just let the agents pass to the next one, but still every worker of the sequence can have parallel agents doing smaller tasks.",
+  "zh": "所以,类似的事情,我们只是让智能体传给下一个,不过序列中的每个工作者仍然可以有并行的智能体在做更小的任务。"
+ },
+ {
+  "seg": 123,
+  "start": 803.155,
+  "end": 807.557,
+  "speaker": "Unknown",
+  "en": "So, I don't know, researching on the web or building files during that.",
+  "zh": "比如,我不知道,在此期间进行网络搜索或者构建文件。"
+ },
+ {
+  "seg": 124,
+  "start": 807.577,
+  "end": 810.499,
+  "speaker": "Unknown",
+  "en": "So, they are in sequence and everyone has sub-agents as well.",
+  "zh": "所以,它们是按顺序的,而且每个人都有子智能体。"
+ },
+ {
+  "seg": 125,
+  "start": 811.119,
+  "end": 816.725,
+  "speaker": "Unknown",
+  "en": "And validators, they review the output and provide feedback and send it back to the beginning.",
+  "zh": "而验证者则审查输出、提供反馈,并把它发回到起点。"
+ },
+ {
+  "seg": 126,
+  "start": 819.307,
+  "end": 824.152,
+  "speaker": "Unknown",
+  "en": "Important thing is the validators judge code that they didn't write.",
+  "zh": "重要的一点是,验证者评判的是他们自己没写过的代码。"
+ },
+ {
+  "seg": 127,
+  "start": 824.692,
+  "end": 830.838,
+  "speaker": "Unknown",
+  "en": "There is something from the orchestrator agent called validation contract that's written before any code is done.",
+  "zh": "编排者智能体有一个叫做“验证契约”(validation contract)的东西,它在任何代码完成之前就已写好。"
+ },
+ {
+  "seg": 128,
+  "start": 831.299,
+  "end": 833.461,
+  "speaker": "Unknown",
+  "en": "And first type is scrutiny validator.",
+  "zh": "第一种类型是审查验证者(scrutiny validator)。"
+ },
+ {
+  "seg": 129,
+  "start": 833.621,
+  "end": 835.262,
+  "speaker": "Unknown",
+  "en": "Second is user testing validator.",
+  "zh": "第二种是用户测试验证者(user testing validator)。"
+ },
+ {
+  "seg": 130,
+  "start": 835.943,
+  "end": 842.306,
+  "speaker": "Unknown",
+  "en": "The Scrutiny is the one who really verifies how the codebase looks, how the linters, types, tests.",
+  "zh": "Scrutiny 是那个真正验证代码库样子的,检查 linter、类型、测试。"
+ },
+ {
+  "seg": 131,
+  "start": 842.386,
+  "end": 844.668,
+  "speaker": "Unknown",
+  "en": "It's a really rigorous check of the code.",
+  "zh": "这是对代码非常严格的检查。"
+ },
+ {
+  "seg": 132,
+  "start": 844.908,
+  "end": 852.432,
+  "speaker": "Unknown",
+  "en": "But the second I think is really interesting is User Testing Validator, and that's the one who is really in the arena trying the things.",
+  "zh": "但我认为第二个真正有趣的是用户测试验证者,那是真正在竞技场里亲自尝试的人。"
+ },
+ {
+  "seg": 133,
+  "start": 852.632,
+  "end": 854.873,
+  "speaker": "Unknown",
+  "en": "So it doesn't care how it was made.",
+  "zh": "所以它不在乎它是怎么被做出来的。"
+ },
+ {
+  "seg": 134,
+  "start": 855.133,
+  "end": 855.894,
+  "speaker": "Unknown",
+  "en": "It just goes.",
+  "zh": "它就是直接上手。"
+ },
+ {
+  "seg": 135,
+  "start": 856.274,
+  "end": 861.517,
+  "speaker": "Unknown",
+  "en": "It works in its virtual computer, and it clicks on the stuff and really checks if everything works.",
+  "zh": "它在自己的虚拟计算机里工作,点击各种东西,真正检查一切是否正常。"
+ },
+ {
+  "seg": 136,
+  "start": 862.137,
+  "end": 879.348,
+  "speaker": "Unknown",
+  "en": "I've seen one engineer migrating code bases with our agent, and it really needed the agent in the end to click through the stuff because with other products, it just created the product, but it didn't work and wasn't interactive.",
+  "zh": "我见过一位工程师用我们的智能体迁移代码库,最终确实需要智能体去点击各种东西,因为用其他产品,它只是创建了产品,但它不能工作、没有交互性。"
+ },
+ {
+  "seg": 137,
+  "start": 879.388,
+  "end": 881.169,
+  "speaker": "Unknown",
+  "en": "It was just a dummy result.",
+  "zh": "那只是一个虚假的结果。"
+ },
+ {
+  "seg": 138,
+  "start": 881.79,
+  "end": 889.095,
+  "speaker": "Unknown",
+  "en": "So our agent that really clicked on the stuff allowed to check that it's actually working and not just looking good in the code.",
+  "zh": "所以我们真正点击各种东西的智能体让人能够检查它是否真的在正常工作,而不仅仅是在代码里看起来不错。"
+ },
+ {
+  "seg": 139,
+  "start": 889.895,
+  "end": 906.386,
+  "speaker": "Unknown",
+  "en": "I think this is one cool thing that was also allowed by the progress in computer use and the persistent environments, virtual machines for agents, which also wasn't here before or wasn't that great, but now it's really great, so it's allowing to go in the arena as an agent.",
+  "zh": "我认为这是一件很酷的事,它也是由计算机使用(computer use)方面的进步以及智能体的持久环境、虚拟机所促成的,这在以前也不存在或没那么好,但现在真的很好,所以它让智能体能够进入竞技场。"
+ },
+ {
+  "seg": 140,
+  "start": 907.787,
+  "end": 910.588,
+  "speaker": "Unknown",
+  "en": "This is just one example of real mission from our users.",
+  "zh": "这只是来自我们用户的真实任务的一个例子。"
+ },
+ {
+  "seg": 141,
+  "start": 911.288,
+  "end": 917.889,
+  "speaker": "Unknown",
+  "en": "I like to just learn what users are building and get feedback, and this is just how it can look in your dashboard.",
+  "zh": "我很喜欢去了解用户在构建什么并获得反馈,这就是它在你的仪表盘上可能呈现的样子。"
+ },
+ {
+  "seg": 142,
+  "start": 918.749,
+  "end": 921.269,
+  "speaker": "Unknown",
+  "en": "And this is how I visualized the missions.",
+  "zh": "这就是我如何把任务可视化的。"
+ },
+ {
+  "seg": 143,
+  "start": 921.85,
+  "end": 932.071,
+  "speaker": "Unknown",
+  "en": "What is interesting is that it's just a loop with smaller loops because every of the agents are running in loops as well, but overall it's like one big loop.",
+  "zh": "有趣的是,它只是一个循环套着更小的循环,因为每个智能体也都在循环中运行,但整体上就像一个大循环。"
+ },
+ {
+  "seg": 144,
+  "start": 932.311,
+  "end": 935.812,
+  "speaker": "Unknown",
+  "en": "Okay, maybe this is a bit weird, but I just like that it's all",
+  "zh": "好吧,也许这有点奇怪,但我就是喜欢这一切都是"
+ },
+ {
+  "seg": 145,
+  "start": 936.252,
+  "end": 939.415,
+  "speaker": "Unknown",
+  "en": "Loops with smaller loops.",
+  "zh": "套着更小循环的循环。"
+ },
+ {
+  "seg": 146,
+  "start": 939.695,
+  "end": 943.258,
+  "speaker": "Unknown",
+  "en": "OK. And the third part, always improving, always learning.",
+  "zh": "好。第三部分,持续改进,持续学习。"
+ },
+ {
+  "seg": 147,
+  "start": 945.359,
+  "end": 948.362,
+  "speaker": "Unknown",
+  "en": "There is this elephant in the room context with agents.",
+  "zh": "这里有一个关于智能体的“房间里的大象”(显而易见却被回避的问题)——上下文。"
+ },
+ {
+  "seg": 148,
+  "start": 948.382,
+  "end": 958.91,
+  "speaker": "Unknown",
+  "en": "A lot of questions which are valid are like, how do you navigate the context bloat because you work on these long missions in the software factory, and how do you actually keep the context clean?",
+  "zh": "很多很合理的问题比如:因为你在软件工厂里执行这些长时间的任务,你要如何应对上下文膨胀,你实际上要如何保持上下文干净?"
+ },
+ {
+  "seg": 149,
+  "start": 959.43,
+  "end": 963.273,
+  "speaker": "Unknown",
+  "en": "And that's very valid because enterprises especially, they use hundreds tools",
+  "zh": "这非常合理,因为企业尤其如此,他们使用数百种工具"
+ },
+ {
+  "seg": 150,
+  "start": 963.994,
+  "end": 969.236,
+  "speaker": "Unknown",
+  "en": "They use Figma, Notion, Gmail, Drive, Slack, like hundreds of tools on average.",
+  "zh": "他们使用 Figma、Notion、Gmail、Drive、Slack,平均下来有几百种工具。"
+ },
+ {
+  "seg": 151,
+  "start": 969.636,
+  "end": 972.197,
+  "speaker": "Unknown",
+  "en": "So all these have specification in the code.",
+  "zh": "所以这些在代码里都有规范说明。"
+ },
+ {
+  "seg": 152,
+  "start": 972.257,
+  "end": 975.258,
+  "speaker": "Unknown",
+  "en": "All these have schema and parameters and log descriptions.",
+  "zh": "这些都有模式(schema)、参数和日志描述。"
+ },
+ {
+  "seg": 153,
+  "start": 975.898,
+  "end": 988.382,
+  "speaker": "Unknown",
+  "en": "So it can cause agent to really bloat with that and pick wrong tools if there are two tools that sound similar or to actually lose context because they fill up the context window and need to compress.",
+  "zh": "所以这会让智能体因此严重膨胀，如果有两个听起来相似的工具就会选错工具，或者实际上丢失上下文，因为它们填满了上下文窗口，需要进行压缩。"
+ },
+ {
+  "seg": 154,
+  "start": 988.542,
+  "end": 990.263,
+  "speaker": "Unknown",
+  "en": "So this is really dangerous.",
+  "zh": "所以这真的很危险。"
+ },
+ {
+  "seg": 155,
+  "start": 991.484,
+  "end": 1002.998,
+  "speaker": "Unknown",
+  "en": "For this we have something within the software factory called deferred context engine and we build it such that we just progressively disclose what's in the context and what tools to use.",
+  "zh": "为此，我们在软件工厂里有一个叫延迟上下文引擎(deferred context engine)的东西，我们构建它的方式是逐步披露上下文里的内容以及该使用哪些工具。"
+ },
+ {
+  "seg": 156,
+  "start": 1003.559,
+  "end": 1009.586,
+  "speaker": "Unknown",
+  "en": "So we basically have a surprise tools that help later only if they are actually needed.",
+  "zh": "所以我们基本上有一批“惊喜工具”，只有在后面真正需要时才会派上用场。"
+ },
+ {
+  "seg": 157,
+  "start": 1010.187,
+  "end": 1020.352,
+  "speaker": "Unknown",
+  "en": "So it first just has short list of the tools and only short descriptions and when it's needed actually in the code, they can call the tool and fully load it.",
+  "zh": "所以它一开始只有一个简短的工具清单，只有简短的描述，当代码里真正需要时，它可以调用该工具并完整加载它。"
+ },
+ {
+  "seg": 158,
+  "start": 1020.773,
+  "end": 1023.174,
+  "speaker": "Unknown",
+  "en": "So important thing is nothing is actually removed.",
+  "zh": "所以很重要的一点是，实际上没有任何东西被移除。"
+ },
+ {
+  "seg": 159,
+  "start": 1023.394,
+  "end": 1026.696,
+  "speaker": "Unknown",
+  "en": "It's just hidden and not reachable until needed.",
+  "zh": "它只是被隐藏，在需要之前不可访问。"
+ },
+ {
+  "seg": 160,
+  "start": 1026.736,
+  "end": 1027.997,
+  "speaker": "Unknown",
+  "en": "So it's just for later.",
+  "zh": "所以它只是留到以后用。"
+ },
+ {
+  "seg": 161,
+  "start": 1028.697,
+  "end": 1032.639,
+  "speaker": "Unknown",
+  "en": "And important thing is it actually saves a lot of tokens at scale.",
+  "zh": "而且很重要的一点是，这在规模化时确实能节省大量 token。"
+ },
+ {
+  "seg": 162,
+  "start": 1032.719,
+  "end": 1039.883,
+  "speaker": "Unknown",
+  "en": "Once you use more and more tools, the more actually you save, it really scales and you can save 50% of tokens or more.",
+  "zh": "一旦你使用越来越多的工具，实际上省得就越多，它真的能扩展，你可以节省 50% 的 token 甚至更多。"
+ },
+ {
+  "seg": 163,
+  "start": 1042.055,
+  "end": 1052.419,
+  "speaker": "Unknown",
+  "en": "OK, another thing which is tricky and was surprising for me for the first time is that when adopting AI, you either succeed big or you can fail big the same way.",
+  "zh": "好的，另一件棘手、而且第一次遇到时让我很惊讶的事情是，采用 AI 时，你要么大获成功，要么以同样的方式大败。"
+ },
+ {
+  "seg": 164,
+  "start": 1052.679,
+  "end": 1054.12,
+  "speaker": "Unknown",
+  "en": "It's a bit of power law.",
+  "zh": "这有点像幂律分布。"
+ },
+ {
+  "seg": 165,
+  "start": 1054.56,
+  "end": 1067.485,
+  "speaker": "Unknown",
+  "en": "So if your code base is not ready, if you don't have structured code base and all important things, then adopting or turning into a software factory can actually make you end up worse and make your code degrading.",
+  "zh": "所以如果你的代码库没准备好，如果你没有结构化的代码库和所有重要的东西，那么采用或转型成软件工厂反而可能让你变得更糟，让你的代码不断退化。"
+ },
+ {
+  "seg": 166,
+  "start": 1068.205,
+  "end": 1076.631,
+  "speaker": "Unknown",
+  "en": "And there is a big and growing gap in productivity between those who just adopted AI versus those who actually thought about it a bit more.",
+  "zh": "而且，那些只是采用了 AI 的人与那些真正多思考了一点的人之间，生产力上存在着巨大且不断扩大的差距。"
+ },
+ {
+  "seg": 167,
+  "start": 1078.672,
+  "end": 1087.378,
+  "speaker": "Unknown",
+  "en": "There is another data from Stanford about, yeah, without structured code base and being ready and documenting well, the AI can make your code worse.",
+  "zh": "还有另一个来自 Stanford 的数据，是的，如果没有结构化的代码库、没有做好准备、没有良好的文档，AI 可能让你的代码变得更糟。"
+ },
+ {
+  "seg": 168,
+  "start": 1087.438,
+  "end": 1096.965,
+  "speaker": "Unknown",
+  "en": "And I think if you are engineers, you probably can agree that sometimes AI really makes a mess and this can really compound more and more and it's difficult to go back.",
+  "zh": "而且我认为如果你是工程师，你大概会同意，有时 AI 真的会搞得一团糟，而且这会越来越复利式地累积，很难回头。"
+ },
+ {
+  "seg": 169,
+  "start": 1099.348,
+  "end": 1102.37,
+  "speaker": "Unknown",
+  "en": "We have something as a part of the software factory.",
+  "zh": "我们作为软件工厂的一部分有一些东西。"
+ },
+ {
+  "seg": 170,
+  "start": 1102.99,
+  "end": 1106.491,
+  "speaker": "Unknown",
+  "en": "We have something called agent readiness, and it's a framework.",
+  "zh": "我们有一个叫智能体就绪度(agent readiness)的东西，它是一个框架。"
+ },
+ {
+  "seg": 171,
+  "start": 1106.872,
+  "end": 1124.439,
+  "speaker": "Unknown",
+  "en": "I don't like the word framework, but take it as a hygiene check of your code base and things you should do because there is actually a nice correlation between how your code base is looking and all the details there and how good you're going to adopt the AI and end up productive instead of with a messy code base.",
+  "zh": "我不喜欢“框架”这个词，但把它当作对你代码库的一次卫生检查，以及你应该做的事情，因为你的代码库的状况和其中的所有细节，与你采用 AI 的效果、最终是变得高效还是得到一个混乱的代码库之间，确实有很好的相关性。"
+ },
+ {
+  "seg": 172,
+  "start": 1124.859,
+  "end": 1125.92,
+  "speaker": "Unknown",
+  "en": "So there are things like",
+  "zh": "所以有这些方面，比如"
+ },
+ {
+  "seg": 173,
+  "start": 1126.52,
+  "end": 1141.711,
+  "speaker": "Unknown",
+  "en": "How reproducible is your developer environment, or if you have written good tests, if you have all things well documented, what's the style of your code, all the tests and linters, everything that you would do also to keep code base clean.",
+  "zh": "你的开发者环境的可复现性如何，或者你是否写了好的测试，是否所有东西都有完善的文档，你的代码风格是什么，所有的测试和 linter,也就是你为了让代码库保持整洁本来就会做的一切。"
+ },
+ {
+  "seg": 174,
+  "start": 1141.751,
+  "end": 1144.953,
+  "speaker": "Unknown",
+  "en": "So these factors actually show to be very useful.",
+  "zh": "所以这些因素实际上被证明非常有用。"
+ },
+ {
+  "seg": 175,
+  "start": 1145.494,
+  "end": 1155.821,
+  "speaker": "Unknown",
+  "en": "And we have our bigger customers actually go through this agent readiness framework and do all checks, and then they can follow up with recommended actions, how to fix that.",
+  "zh": "我们有更大的客户实际走一遍这个智能体就绪度框架，做完所有检查，然后他们可以跟进推荐的行动，去修复那些问题。"
+ },
+ {
+  "seg": 176,
+  "start": 1157.74,
+  "end": 1175.125,
+  "speaker": "Unknown",
+  "en": "I think one more thing about the context and the continuous learning in the software factory is the most of the time when working with AI, or at least from my experience, is that you keep repeating to agents how do you want the things done, and you feel like the agent doesn't really get you.",
+  "zh": "关于软件工厂中的上下文和持续学习，我想再说一件事，那就是在与 AI 工作时，至少根据我的经验，大多数时候你不断地向智能体重复你希望事情怎么完成，而你感觉智能体并没有真正理解你。"
+ },
+ {
+  "seg": 177,
+  "start": 1175.825,
+  "end": 1185.551,
+  "speaker": "Unknown",
+  "en": "And I think this is, again, nice parallel with human organizations and teams, because when you join a new company, there are a lot of rules that are not really codified anywhere.",
+  "zh": "而且我认为这又是一个与人类组织和团队很好的类比，因为当你加入一家新公司时，有很多规则并没有真正被写成条文。"
+ },
+ {
+  "seg": 178,
+  "start": 1185.571,
+  "end": 1194.977,
+  "speaker": "Unknown",
+  "en": "Like, you just learn and observe how things are done, and there are a lot of things between the lines that you can't really learn anywhere else than just observing.",
+  "zh": "比如，你只是通过学习和观察来了解事情是怎么做的，有很多字里行间的东西，除了观察之外你无法在其他地方真正学到。"
+ },
+ {
+  "seg": 179,
+  "start": 1195.957,
+  "end": 1197.678,
+  "speaker": "Unknown",
+  "en": "I think this is a big challenge for agents as well.",
+  "zh": "我认为这对智能体来说也是一个很大的挑战。"
+ },
+ {
+  "seg": 180,
+  "start": 1198.358,
+  "end": 1207.72,
+  "speaker": "Unknown",
+  "en": "And one thing we launched for that is plugins, which are, like, packaged reusable skills and context and the things behind the scenes that you can really codify.",
+  "zh": "我们为此推出的一个东西是插件(plugins),它们是打包好的可复用技能和上下文，以及那些你真正可以写成条文的幕后东西。"
+ },
+ {
+  "seg": 181,
+  "start": 1208.5,
+  "end": 1217.603,
+  "speaker": "Unknown",
+  "en": "Or auto-wiki, which is automatically updating our documentations and, yeah, and reviewing and documenting what you have.",
+  "zh": "还有自动 wiki(auto-wiki),它会自动更新我们的文档，是的，审查并记录你已有的东西。"
+ },
+ {
+  "seg": 182,
+  "start": 1219.715,
+  "end": 1225.359,
+  "speaker": "Unknown",
+  "en": "So the question is, what will happen to us humans if we build a software factory like this?",
+  "zh": "所以问题是，如果我们建了这样一个软件工厂，我们人类会怎么样？"
+ },
+ {
+  "seg": 183,
+  "start": 1225.6,
+  "end": 1229.423,
+  "speaker": "Unknown",
+  "en": "Will humans just lose jobs and go to permanent underclass?",
+  "zh": "人类会失去工作、沦为永久的底层阶级吗？"
+ },
+ {
+  "seg": 184,
+  "start": 1230.283,
+  "end": 1231.244,
+  "speaker": "Unknown",
+  "en": "I think they will not.",
+  "zh": "我认为不会。"
+ },
+ {
+  "seg": 185,
+  "start": 1231.745,
+  "end": 1242.673,
+  "speaker": "Unknown",
+  "en": "And I want to be positive, so I'm thinking of this parallel of humans just moving levels up to the cooler tasks than before.",
+  "zh": "而且我想保持乐观，所以我想到了这个类比：人类只是向上移动了一层，去做比以前更酷的任务。"
+ },
+ {
+  "seg": 186,
+  "start": 1243.194,
+  "end": 1244.294,
+  "speaker": "Unknown",
+  "en": "I think we actually had",
+  "zh": "我认为我们其实曾经"
+ },
+ {
+  "seg": 187,
+  "start": 1245.155,
+  "end": 1253.879,
+  "speaker": "Unknown",
+  "en": "Before, the same experience of us as humans abstracting some levels up, and we actually started ourselves as human computers.",
+  "zh": "在以前，有过同样的经历，就是我们人类向上抽象了几层，而且我们最初就是作为“人肉计算机”起步的。"
+ },
+ {
+  "seg": 188,
+  "start": 1254.299,
+  "end": 1258.662,
+  "speaker": "Unknown",
+  "en": "We actually were the computers doing all the most detailed stuff at the beginning.",
+  "zh": "我们最初其实就是计算机，做着所有最细节的工作。"
+ },
+ {
+  "seg": 189,
+  "start": 1259.302,
+  "end": 1271.508,
+  "speaker": "Unknown",
+  "en": "Then we had programming languages, codifying some of it, abstracting, and then coding agents, so outsourcing some of it, but still being in the loop very closely and monitoring everything, and now we are moving",
+  "zh": "然后我们有了编程语言，把其中一些写成条文、进行抽象，然后有了编程智能体(coding agents),把其中一些外包出去，但仍然非常紧密地在回路里、监控着一切，而现在我们正在向上移动"
+ },
+ {
+  "seg": 190,
+  "start": 1272.108,
+  "end": 1288.884,
+  "speaker": "Unknown",
+  "en": "kind of up to software factories where we manage these agents, as I said, orchestrator agents and workers and validators and all these teams, structured teams of agents that work really continuously in the loop and we just monitor and decide what to build.",
+  "zh": "某种程度上到了软件工厂，我们管理这些智能体，就像我说的，编排者智能体和工作者以及验证者，以及所有这些团队、结构化的智能体团队，它们在回路里真正持续地工作，而我们只需监控并决定要构建什么。"
+ },
+ {
+  "seg": 191,
+  "start": 1290.045,
+  "end": 1292.286,
+  "speaker": "Unknown",
+  "en": "So I want to really end this positively.",
+  "zh": "所以我真的想以积极的方式结束这个演讲。"
+ },
+ {
+  "seg": 192,
+  "start": 1292.426,
+  "end": 1299.989,
+  "speaker": "Unknown",
+  "en": "We should be, as humans, deciding what to build in the software, not how to build it, because that's up for the agents.",
+  "zh": "作为人类，我们应该决定软件里构建什么，而不是怎么构建，因为那交由智能体来做。"
+ },
+ {
+  "seg": 193,
+  "start": 1300.269,
+  "end": 1307.012,
+  "speaker": "Unknown",
+  "en": "And by this continuous cycle of autonomous software, I think we can actually achieve that.",
+  "zh": "而且通过这个自主软件的持续循环，我认为我们真的能做到这一点。"
+ },
+ {
+  "seg": 194,
+  "start": 1308.572,
+  "end": 1323.439,
+  "speaker": "Unknown",
+  "en": "This is one warning chart, or if someone thinks AI will take the cool stuff from us, I believe actually it will take the annoying stuff, and in enterprises and organizations, you already spend a lot on alignments, on the meetings.",
+  "zh": "这是一张警示图，或者如果有人认为 AI 会夺走我们那些酷的部分，我实际上相信它会夺走那些烦人的部分，而且在企业和组织里，你已经在对齐上、在会议上花了很多时间。"
+ },
+ {
+  "seg": 195,
+  "start": 1324.079,
+  "end": 1333.003,
+  "speaker": "Unknown",
+  "en": "As I mentioned, basically the thing between the lines that you really need, you need to get context from everyone, share your status, think on the things, on meetings.",
+  "zh": "正如我提到的，基本上就是那些字里行间的东西，你真的需要从每个人那里获取上下文、分享你的状态、在会议上思考各种事情。"
+ },
+ {
+  "seg": 196,
+  "start": 1333.543,
+  "end": 1337.465,
+  "speaker": "Unknown",
+  "en": "So all these things could be actually outsourced to your software factory, and you could be",
+  "zh": "所以所有这些事情实际上都可以外包给你的软件工厂，而你可以"
+ },
+ {
+  "seg": 197,
+  "start": 1338.045,
+  "end": 1339.585,
+  "speaker": "Unknown",
+  "en": "just talking about the cool stuff.",
+  "zh": "只谈论那些酷的东西。"
+ },
+ {
+  "seg": 198,
+  "start": 1340.906,
+  "end": 1342.226,
+  "speaker": "Unknown",
+  "en": "Okay, so this is it.",
+  "zh": "好的，就到这里。"
+ },
+ {
+  "seg": 199,
+  "start": 1342.266,
+  "end": 1342.926,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 200,
+  "start": 1342.946,
+  "end": 1346.327,
+  "speaker": "Unknown",
+  "en": "Go touch some grass and let your agents build for you.",
+  "zh": "去摸摸草，让你的智能体替你构建吧。"
+ },
+ {
+  "seg": 201,
+  "start": 1346.707,
+  "end": 1347.127,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

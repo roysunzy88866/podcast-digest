@@ -1,0 +1,879 @@
+{
+  "episode_id": "2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo",
+  "podcast": "精选演讲",
+  "date": "2026-09-27",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "产品方法",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "kevin-hou",
+      "type": "person",
+      "role": "guest",
+      "name": "Kevin Hou",
+      "file": "Kevin Hou",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "antigravity",
+      "type": "company",
+      "role": "company",
+      "name": "antigravity",
+      "file": "antigravity",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            138.632,
+            142.734
+          ],
+          "quote": "And since pictures are worth a thousand words, here's a screenshot of Antigravity 2.0 in action.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            239.133,
+            248.916
+          ],
+          "quote": "And with 2025, we introduced Antigravity's Agent Manager with many other products following suit in that similar form factor, with users managing many agents at once in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            353.977,
+            360.343
+          ],
+          "quote": "So we decoupled the agent manager from the IDE, and with antigravity 2.0, we split them into separate applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            431.137,
+            437.041
+          ],
+          "quote": "So you remember the crux of antigravity 1.0 is to manage agents in parallel, to put the human in the driver's seat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            443.885,
+            451.069
+          ],
+          "quote": "And now, as promised, because of the antigravity product, Gemini has now learned a thing or two about how to manage a team of agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            463.786,
+            468.249
+          ],
+          "quote": "And all the basics have been imbued to the model so that we can build a product like Antigravity 2.0.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            470.43,
+            480.278
+          ],
+          "quote": "Gemini 3.5 Flash was launched back in April, and this brought to market a lot of those capabilities that we had been working on in the background with Antigravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            494.763,
+            500.326
+          ],
+          "quote": "And putting this all together, we were really excited to announce agent teams in public preview inside of Antigravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            689.742,
+            694.303
+          ],
+          "quote": "We have an internal version of Antigravity that researchers, engineers, non-technical folks can use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            694.803,
+            701.824
+          ],
+          "quote": "And when they understand the primitives that Antigravity offers, it becomes a very, very powerful way to automate your own workflows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            914.103,
+            916.465
+          ],
+          "quote": "This is a new plug-in protocol that we're bringing to Antigravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            942.742,
+            945.664
+          ],
+          "quote": "Antigravity already uses sidecars for things that are time-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            989.963,
+            996.505
+          ],
+          "quote": "And rather than rely on templates or even HTML files, Antigravity can render your generated UI inline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1104.008,
+            1106.23
+          ],
+          "quote": "And I'll be at the Antigravity booth if you want to talk further.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说多亏 Antigravity 产品,Gemini 已经学会了如何管理一个智能体团队;Gemini 3.5 Flash 于四月发布,不仅擅长执行任务,还非常擅长领导团队,更快更便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            443.885,
+            451.069
+          ],
+          "quote": "And now, as promised, because of the antigravity product, Gemini has now learned a thing or two about how to manage a team of agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            457.701,
+            462.965
+          ],
+          "quote": "Better at deconstructing tasks into smaller tasks, but we've got a really good head start with Gemini.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            470.43,
+            480.278
+          ],
+          "quote": "Gemini 3.5 Flash was launched back in April, and this brought to market a lot of those capabilities that we had been working on in the background with Antigravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            623.815,
+            640.411
+          ],
+          "quote": "We were super proud of this particular milestone because it really demonstrated that if you throw more intelligence, you throw more sub-agents at this sort of problem, a model like Gemini 3.5 Flash could do this in a way that was not only very, very powerful, but also scalable and, you know, mildly affordable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            679.98,
+            681.38
+          ],
+          "quote": "So we work inside of Gemini.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            681.72,
+            686.041
+          ],
+          "quote": "We help sort of make Gemini better at coding-related tasks, agentic-related tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            972.301,
+            976.286
+          ],
+          "quote": "Gemini Flash on anti-gravity clocks in at almost 900 tokens a second.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集说身处 Google DeepMind 内部的优越之处在于产品与模型之间有直接关系,这也是新原语得以产生的来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            424.651,
+            429.732
+          ],
+          "quote": "And the privilege of being inside of Google DeepMind is that we do have that relationship between the product and the model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集贯穿主线:LLM 不再只是角色球员,围绕智能体构建合适的产品就能让模型成为明星球员,而构建者要做的就是不挡在模型的道路上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            99.379,
+            103.061
+          ],
+          "quote": "We have and always will be unapologetically agent first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            103.967,
+            108.392
+          ],
+          "quote": "So we debuted the anti-gravity IDE last year with a brand new agent manager concept.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            114.158,
+            119.103
+          ],
+          "quote": "Since then, we've actually extracted our agent and launched our own anti-gravity CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            125.317,
+            136.193
+          ],
+          "quote": "In the theme of getting the model out of the way, we actually decoupled the IDE from the Agent Manager, so now you have two separate applications, and now you can use the Agent Manager in a standalone app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            239.133,
+            248.916
+          ],
+          "quote": "And with 2025, we introduced Antigravity's Agent Manager with many other products following suit in that similar form factor, with users managing many agents at once in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            325.865,
+            332.546
+          ],
+          "quote": "So a lot of users were yelling at our team because we took away something that was very dear to them, the chat sidebar, and replaced it with only an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            353.977,
+            360.343
+          ],
+          "quote": "So we decoupled the agent manager from the IDE, and with antigravity 2.0, we split them into separate applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            361.083,
+            365.808
+          ],
+          "quote": "We believe that the IDE is to the agent manager what the debugger was to the IDE.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            374.338,
+            384.661
+          ],
+          "quote": "And our prediction is that this idea of agent orchestration, you can call it agent teams, you can call it swarms, you can call it software factories, is the future, and we're willing to bet on that future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            386.622,
+            390.603
+          ],
+          "quote": "So here are the primitives for what we're calling the agent teams 2026 era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            452.19,
+            456.753
+          ],
+          "quote": "There's still a lot of headroom to make multi-agent systems better, more collaborative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            494.763,
+            500.326
+          ],
+          "quote": "And putting this all together, we were really excited to announce agent teams in public preview inside of Antigravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            523.114,
+            531.079
+          ],
+          "quote": "Until everything is basically clear, you'll work with that lead agent, and it will manage a team of arbitrary size to get that work done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            547.512,
+            550.674
+          ],
+          "quote": "Each sub-agent is dynamically generated and can operate independently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            552.055,
+            557.958
+          ],
+          "quote": "And it can even actually select a different model from what the main agent is using, and this is done so by that main agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            659.905,
+            667.767
+          ],
+          "quote": "And so as you can see with this particular example, sub-agent primitives are one of the defining parts about building a 2026 era of agent teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            668.628,
+            675.59
+          ],
+          "quote": "So agent teams are just that first example, and I want to show you another example that our team uses internally that sort of demonstrates some of these new primitives.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            746.061,
+            752.804
+          ],
+          "quote": "So researchers were able to automate 90% of this workflow by simply asking the agent about the evals in question using natural language.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            753.464,
+            761.307
+          ],
+          "quote": "Then the agent that is now primed with skills and an understanding of Google's massive monorepo codebase is able to crunch the numbers and get back to you with a delta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            767.51,
+            773.913
+          ],
+          "quote": "It spun up for a research agent specialist that proposes 100 different hypotheses over why those deltas might occur.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            774.785,
+            787.831
+          ],
+          "quote": "And then it uses sub-agents to then spit up one sub-agent for each hypothesis and basically drills into that particular case in parallel, mapping back to a single response and then telling the researcher, hey, here are some areas that I found.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            833.411,
+            836.012
+          ],
+          "quote": "You have a sub-agent graph that is completely dynamic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            874.166,
+            877.207
+          ],
+          "quote": "The main agent is the one that is orchestrating this entirely on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1030.849,
+            1035.65
+          ],
+          "quote": "In an analogous way, we built our product to dynamically scale with the needs of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1053.96,
+            1064.867
+          ],
+          "quote": "We've tried our best to stay out of the way and let the model cook, and if you're building a product around an agent, you should consider what are the primitives that are in my product, and how might they scale with the model's intelligence?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集称其为 2026 时代新原语之一:由主智能体动态生成、可独立运行、可自选模型的专业化角色,构建 OS 内核的实战动用了 93 个子智能体、12 小时、成本低于 1,000 美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            547.512,
+            550.674
+          ],
+          "quote": "Each sub-agent is dynamically generated and can operate independently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            659.905,
+            667.767
+          ],
+          "quote": "And so as you can see with this particular example, sub-agent primitives are one of the defining parts about building a 2026 era of agent teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            774.785,
+            787.831
+          ],
+          "quote": "And then it uses sub-agents to then spit up one sub-agent for each hypothesis and basically drills into that particular case in parallel, mapping back to a single response and then telling the researcher, hey, here are some areas that I found.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            833.411,
+            836.012
+          ],
+          "quote": "You have a sub-agent graph that is completely dynamic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集说它是新原语之一,并假设人类编写的专用 UI 已经有点过时了:Flash 近 900 token/秒的速度让 UI 可以按需内联生成,像 iPhone 砍掉固定键盘一样不再「固定在塑料里」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            391.464,
+            395.585
+          ],
+          "quote": "These are things like sub-agents, generative UI, and sidecars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            561.958,
+            565.039
+          ],
+          "quote": "And one of the coolest aspects of this is that it can use generative UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            793.914,
+            803.578
+          ],
+          "quote": "It actually puts together a generative UI for you to look through, interact, select dropdowns, filter, segment, slice, and actually interact richly with that data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            836.532,
+            843.295
+          ],
+          "quote": "The generative UI comes in at the end to richly convey the findings in a way that the user best understands or maybe caters to their learning style.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            962.896,
+            965.318
+          ],
+          "quote": "And the third and final primitive is generative UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1013.283,
+            1017.824
+          ],
+          "quote": "And generative UI in many ways reminds me of the quote that the late Steve Jobs said when unveiling the iPhone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1036.09,
+            1041.352
+          ],
+          "quote": "We skipped the heavy infrastructure and mechanical UIs in favor of sidecars and generative UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1047.816,
+            1053.319
+          ],
+          "quote": "So sub-agents, sidecar triggers, and generative UI are the latest primitives that are powering anti-gravity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sidecar",
+      "type": "concept",
+      "role": "concept",
+      "name": "边车 (Sidecar)",
+      "file": "边车",
+      "primary": true,
+      "how_described": "本集说它是 Antigravity 带来的新插件协议:一个长驻监听进程,让模型能监听外部世界并设置触发器,如短信、web hooks、cron 任务、GitHub PR,规范将于今年夏天晚些时候发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            391.464,
+            395.585
+          ],
+          "quote": "These are things like sub-agents, generative UI, and sidecars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            910.822,
+            913.763
+          ],
+          "quote": "We've alluded to it slightly in the past, but it's called Sidecars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            917.399,
+            920.721
+          ],
+          "quote": "A sidecar process is essentially, it is a sidecar process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            942.742,
+            945.664
+          ],
+          "quote": "Antigravity already uses sidecars for things that are time-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            949.247,
+            951.588
+          ],
+          "quote": "But under the hood, this is all this new sidecar primitive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1036.09,
+            1041.352
+          ],
+          "quote": "We skipped the heavy infrastructure and mechanical UIs in favor of sidecars and generative UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1047.816,
+            1053.319
+          ],
+          "quote": "So sub-agents, sidecar triggers, and generative UI are the latest primitives that are powering anti-gravity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-with-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "随智能扩展 (scaling with intelligence)",
+      "file": "随智能扩展",
+      "primary": true,
+      "how_described": "本集核心产品哲学:随着模型变得更好,你的产品也应该变得更好,所服务模型的前沿能力应该在用户的产品体验中清晰可见",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            179.281,
+            185.568
+          ],
+          "quote": "And the one thing that has stood above all other lessons that I've talked about is the idea of scaling with intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            269.25,
+            271.052
+          ],
+          "quote": "Scaling with intelligence really is not easy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            558.118,
+            559.699
+          ],
+          "quote": "Again, we are scaling with intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编排 (agent orchestration)",
+      "file": "智能体编排",
+      "primary": true,
+      "how_described": "本集说智能体编排——可称为智能体团队、蜂群、软件工厂——就是未来,他们愿意押注这个未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            374.338,
+            384.661
+          ],
+          "quote": "And our prediction is that this idea of agent orchestration, you can call it agent teams, you can call it swarms, you can call it software factories, is the future, and we're willing to bet on that future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-manager",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent Manager",
+      "file": "Agent Manager",
+      "primary": true,
+      "how_described": "本集说它是 2025 年随 Antigravity 推出的、管理和编排多个智能体的平台;2.0 版将其从 IDE 解耦为独立应用,关系如同调试器之于 IDE",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            103.967,
+            108.392
+          ],
+          "quote": "So we debuted the anti-gravity IDE last year with a brand new agent manager concept.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            125.317,
+            136.193
+          ],
+          "quote": "In the theme of getting the model out of the way, we actually decoupled the IDE from the Agent Manager, so now you have two separate applications, and now you can use the Agent Manager in a standalone app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            239.133,
+            248.916
+          ],
+          "quote": "And with 2025, we introduced Antigravity's Agent Manager with many other products following suit in that similar form factor, with users managing many agents at once in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            353.977,
+            360.343
+          ],
+          "quote": "So we decoupled the agent manager from the IDE, and with antigravity 2.0, we split them into separate applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            361.083,
+            365.808
+          ],
+          "quote": "We believe that the IDE is to the agent manager what the debugger was to the IDE.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "permission-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限系统 (permission systems)",
+      "file": "权限系统",
+      "primary": true,
+      "how_described": "本集说给 AI 终端权限曾引发模型删光代码库的恐惧,但模型进步加上权限系统这些原语的投入,让用户构建得更快、发布得更多,而且是安全地做到的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            233.058,
+            238.002
+          ],
+          "quote": "With it came new primitives, like MCPs, custom tools, and permission systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            298.003,
+            308.212
+          ],
+          "quote": "But as models got better and people invested in primitives, such as permission systems, users ended up building faster, they ended up shipping more, and they did so safely.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eval-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估分析 (eval analysis)",
+      "file": "评估分析",
+      "primary": true,
+      "how_described": "本集给出内部实战案例:研究员用自然语言向智能体提问,把并排评估分析工作流的 90% 自动化,系统对每个假设分裂出子智能体并行深挖,最后以生成式 UI 交付可交互报告",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            702.424,
+            704.965
+          ],
+          "quote": "So we'll take the example of side-by-side eval analysis.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "MCP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

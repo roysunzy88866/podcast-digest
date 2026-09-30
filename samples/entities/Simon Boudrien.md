@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
+[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":7,"智能体":369,"评估":3,"上下文":25,"Cursor":73,"开源权重模型":2,"代码审查":20,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":7,"智能体":373,"评估":3,"上下文":25,"Cursor":73,"开源权重模型":2,"代码审查":21,"上下文腐烂":4}</script>
 
 <script>
 (function(){
