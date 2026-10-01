@@ -27,7 +27,7 @@ unlisted: true
 
 [[Palantir]] · [[开放权重模型]] · [[Saronic]] · [[智能体]] · [[Port Alpha]] · [[表观遗传重编程]] · [[造船差距]] · [[AI]] · [[自主性]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Palantir":20,"开放权重模型":1,"Saronic":1,"智能体":374,"Port Alpha":1,"表观遗传重编程":2,"造船差距":1,"AI":23,"自主性":10,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"Palantir":20,"开放权重模型":1,"Saronic":1,"智能体":374,"Port Alpha":1,"表观遗传重编程":2,"造船差距":1,"AI":24,"自主性":10,"主观能动性":1}</script>
 
 <script>
 (function(){

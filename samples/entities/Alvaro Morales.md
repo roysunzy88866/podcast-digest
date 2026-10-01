@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":1,"Asana":2,"Stripe":41,"Shopify":15,"Snowflake":16,"Twilio":3,"Vercel":18,"Pinecone":3,"Perplexity":8}</script>
+<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":1,"Asana":2,"Stripe":41,"Shopify":16,"Snowflake":16,"Twilio":3,"Vercel":18,"Pinecone":3,"Perplexity":8}</script>
 
 <script>
 (function(){

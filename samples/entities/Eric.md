@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jack":1,"Andrew Feldman":1,"Cerebrus":2,"晶圆级":1,"推理":65,"NVIDIA":48,"TSMC":6,"数据中心":16,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Jack":1,"Andrew Feldman":1,"Cerebrus":2,"晶圆级":1,"推理":65,"NVIDIA":49,"TSMC":6,"数据中心":16,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

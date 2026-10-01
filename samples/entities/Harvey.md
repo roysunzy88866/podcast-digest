@@ -63,7 +63,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[前沿模型]] · [[后训练]] · [[NVIDIA]] · [[DeepMind]] · [[Lovable]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"Cursor":74,"OpenAI":145,"Anthropic":157,"前沿模型":23,"后训练":1,"NVIDIA":48,"DeepMind":10,"Lovable":18,"推理":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"Cursor":74,"OpenAI":145,"Anthropic":157,"前沿模型":23,"后训练":1,"NVIDIA":49,"DeepMind":10,"Lovable":18,"推理":65}</script>
 
 <script>
 (function(){

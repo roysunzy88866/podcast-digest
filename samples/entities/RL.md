@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[奖励黑客]] · [[推理能力]] · [[NVIDIA]] · [[Cognition]] · [[评估]] · [[Redwood Research]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"后训练":1,"奖励黑客":5,"推理能力":6,"NVIDIA":48,"Cognition":22,"评估":3,"Redwood Research":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"后训练":1,"奖励黑客":5,"推理能力":6,"NVIDIA":49,"Cognition":22,"评估":3,"Redwood Research":3}</script>
 
 <script>
 (function(){

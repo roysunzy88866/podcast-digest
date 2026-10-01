@@ -1,0 +1,647 @@
+{
+  "episode_id": "2026-08-13-mos-know-which-rules-to-break-with-mtv-co-fo",
+  "podcast": "Masters of Scale",
+  "date": "2026-08-13",
+  "tags": [
+    "创业与行业",
+    "组织文化",
+    "媒体与创新",
+    "多元化",
+    "创新者的窘境"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "jeff-berman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Berman",
+      "file": "Jeff Berman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            97.006,
+            98.047
+          ],
+          "quote": "I'm Jeff Berman, your host.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 483,
+          "t": [
+            1982.661,
+            1983.301
+          ],
+          "quote": "I'm Jeff Berman.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tom-freston",
+      "type": "person",
+      "role": "cohost",
+      "name": "Tom Freston",
+      "file": "Tom Freston",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            965.567,
+            971.055
+          ],
+          "quote": "Still ahead, Tom Freston on what it takes to break through today's fragmented media landscape.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1965.806,
+            1967.588
+          ],
+          "quote": "Thanks again to Tom Freston for joining us.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mtv",
+      "type": "company",
+      "role": "company",
+      "name": "MTV",
+      "file": "MTV",
+      "primary": true,
+      "how_described": "本集主线:Tom Freston 联合创立的音乐电视网,全员零电视经验起家、没钱逼出创新,用「I Want My MTV」运动越过垄断分销商直接拉动终端需求,后来因数字化迟缓成为「煤矿里的金丝雀」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            85.356,
+            89.077
+          ],
+          "quote": "It was hard to believe now, but MTV was really revolutionary at the time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 21,
+          "t": [
+            107.713,
+            119.942
+          ],
+          "quote": "Tom is a co-founder of MTV, former CEO of Viacom, and his new memoir, Unplugged, is full of wild stories and deeply meaningful lessons from his life as an unconventional CEO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            184.201,
+            189.885
+          ],
+          "quote": "You know, a lot of the rules that we broke, say, with MTV, they were more in the cultural realm.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 45,
+          "t": [
+            214.678,
+            224.643
+          ],
+          "quote": "And we cranked up the I Want My MTV campaign, which to try and pull, you know, demand right through these distributors who were largely Elvis fans.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            225.543,
+            229.505
+          ],
+          "quote": "Who didn't like MTV, who didn't like the idea of paying us 10 cents a month.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 49,
+          "t": [
+            239.47,
+            246.453
+          ],
+          "quote": "Well, and beyond that, let's go back to Hindu Kush, which, I mean, I think most people know you for MTV, such an iconic stretch of your career.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            556.537,
+            560.239
+          ],
+          "quote": "It was hard to believe now, but MTV was really revolutionary at the time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 139,
+          "t": [
+            573.25,
+            586.802
+          ],
+          "quote": "How did MTV thread the needle of taking the experience and expertise of people who knew how the system worked, but the insurgent challenger mindset of the outsiders who came in with the real passion for music and for the artists and the",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            746.984,
+            751.946
+          ],
+          "quote": "How were you all able to maintain the culture at MTV through that scaling journey?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 197,
+          "t": [
+            838.883,
+            840.444
+          ],
+          "quote": "That was the MTV way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 214,
+          "t": [
+            896.36,
+            899.523
+          ],
+          "quote": "Well, that was one thing when you were leading and helping lead MTV.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1082.077,
+            1083.797
+          ],
+          "quote": "I'll just take it in the case of MTV.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1171.35,
+            1175.713
+          ],
+          "quote": "He did not want his MTV and now he's like- He's done okay.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1438.789,
+            1443.191
+          ],
+          "quote": "You said that it was harder to diversify MTV than you thought it would be.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1446.815,
+            1457.021
+          ],
+          "quote": "It was harder because I thought, you know, at one point MTV had received a lot of criticism for not airing a black axe, which, you know, fair enough in many ways.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1850.077,
+            1851.838
+          ],
+          "quote": "Tom, I'm very much the MTV generation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1859.262,
+            1863.524
+          ],
+          "quote": "I mean, MTV was such a culture shaper for my generation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1881.148,
+            1891.979
+          ],
+          "quote": "What we used to call in the old days, you remember, the water cooler moments where everybody shows up, hey, did you see this thing last night on Friends or did you see this Unplugged on MTV with Bob Dylan?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1927.518,
+            1937.965
+          ],
+          "quote": "But I think the disappearance of MTV and a lot of those linear networks and the big broadcast shows, just I'm not so sure it's a positive thing for the society.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "viacom",
+      "type": "company",
+      "role": "company",
+      "name": "Viacom",
+      "file": "Viacom",
+      "primary": true,
+      "how_described": "本集说 Viacom 是 MTV 母公司、大型娱乐集团,Freston 曾任其 CEO;它没完成数字化转型,先后错失收购 Facebook 和 YouTube,后者还被董事会视为「侵犯版权的机器」并起诉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            107.713,
+            119.942
+          ],
+          "quote": "Tom is a co-founder of MTV, former CEO of Viacom, and his new memoir, Unplugged, is full of wild stories and deeply meaningful lessons from his life as an unconventional CEO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            899.583,
+            902.986
+          ],
+          "quote": "It's another thing when you're leading and helping lead Viacom itself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            928.076,
+            933.822
+          ],
+          "quote": "So when I ascended to be the CEO, I became the president of Viacom along with Les Moonves.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1067.833,
+            1071.754
+          ],
+          "quote": "Viacom did not really make that digital leap.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1207.693,
+            1214.518
+          ],
+          "quote": "And the board at Viacom viewed it sort of as a copyright infringement machine.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1237.794,
+            1243.136
+          ],
+          "quote": "You know, you open the book with the MySpace story and it sort of being the catalyst for leaving Viacom.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "the-facebook",
+      "type": "company",
+      "role": "company",
+      "name": "The Facebook",
+      "file": "The Facebook",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1133.84,
+            1136.001
+          ],
+          "quote": "He started this thing called The Facebook.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1159.296,
+            1163.698
+          ],
+          "quote": "We offered to buy the Facebook for a billion and a half dollars, which was a lot for us.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": true,
+      "how_described": "本集说 YouTube 因用户上传受版权保护内容而被 Viacom 董事会看作「侵犯版权的机器」,Viacom 在 Freston 离开后起诉它、「出了名地对抗未来」,如今它价值将近 6000 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1060.43,
+            1066.852
+          ],
+          "quote": "You can find this conversation and more on our YouTube channel and check out the link in the show notes to subscribe to our newsletter.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1178.575,
+            1180.877
+          ],
+          "quote": "So then we looked at YouTube.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1181.357,
+            1183.499
+          ],
+          "quote": "YouTube was really like a wow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1214.558,
+            1219.602
+          ],
+          "quote": "They ultimately, after I left, sued YouTube famously trying to fight the future.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1219.782,
+            1225.506
+          ],
+          "quote": "And no one ever could have imagined the ecosystem that YouTube was ultimately able to put together.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1348.39,
+            1353.395
+          ],
+          "quote": "So I think some of these little folks are the people to keep your eye on, some of these people that might jump off YouTube.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1353.415,
+            1355.637
+          ],
+          "quote": "The YouTube economy is remarkable.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1356.177,
+            1360.061
+          ],
+          "quote": "I mean, one of the most remarkable things about YouTube is YouTube TV as an app.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1382.267,
+            1391.114
+          ],
+          "quote": "And there's a lot of people today in the YouTube universe and the TikTok universe that you might be able to tap into, have been able to establish pretty amazing businesses.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2031.113,
+            2033.321
+          ],
+          "quote": "And be sure to check out our YouTube channel.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nickelodeon",
+      "type": "company",
+      "role": "company",
+      "name": "Nickelodeon",
+      "file": "Nickelodeon",
+      "primary": false,
+      "how_described": "本集提到 Nickelodeon 是同一家族的有线电视网,招过学校老师,后来也在 Viacom 品牌大家庭之中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            499.66,
+            506.162
+          ],
+          "quote": "They had started the movie channel and Nickelodeon and they had plans to start a video music channel.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 132,
+          "t": [
+            535.924,
+            537.766
+          ],
+          "quote": "In Nickelodeon, they were schoolteachers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 218,
+          "t": [
+            917.888,
+            918.908
+          ],
+          "quote": "We had Nickelodeon.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "innovator-s-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新者的窘境 (innovator's dilemma)",
+      "file": "创新者的窘境",
+      "primary": true,
+      "how_described": "本集用它解释 Viacom 的失败:不是没看到未来(MTV 观众是最早迁往互联网的人群),而是没有做新业务的 DNA,收购又撞上法律责任与董事会阻力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1078.136,
+            1081.617
+          ],
+          "quote": "Well, it's back to the innovator's dilemma.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "dei",
+      "type": "concept",
+      "role": "concept",
+      "name": "DEI",
+      "file": "DEI",
+      "primary": true,
+      "how_described": "本集把多元化当最硬观点之一:MTV 最早把嘻哈带进美国客厅、女性管理者约占 50%,Freston 把包容目标写进管理者奖金计划,并批评当下反 DEI 浪潮是「没有暗号的种族主义」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 356,
+          "t": [
+            1477.756,
+            1481.999
+          ],
+          "quote": "I'm really offended with this DEI thing that's going on now with the Trump administration.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1482.019,
+            1483.46
+          ],
+          "quote": "Like, we don't want DEI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1485.341,
+            1488.063
+          ],
+          "quote": "There was a business case for why DEI is a healthy thing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1566.856,
+            1571.299
+          ],
+          "quote": "DEI has become this like bad acronym and it's not...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "shareholder-supremacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "股东至上 (shareholder supremacy)",
+      "file": "股东至上",
+      "primary": true,
+      "how_described": "本集把它归为 Milton Friedman 那套存在不到 60 年的理念,认为它把客户、员工、社会等利益相关者最小化,是当下 CEO 们不敢对抗政府的病根。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 428,
+          "t": [
+            1735.288,
+            1754.541
+          ],
+          "quote": "This era of shareholder supremacy in running companies, this Milton Friedman concept that's not even 60 years old at this point, really minimizes stakeholders, whether that's customers and clients, that's team members, that is society at large, our nation at large.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "no-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "零经验招聘 (no experience)",
+      "file": "零经验招聘",
+      "primary": true,
+      "how_described": "本集核心打法:MTV 故意只雇没有电视经验的人(广播人、音乐人、老师),因为全新团队不得不用全新方式做事,「没有什么比没有钱更能逼人创新」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            70.592,
+            74.813
+          ],
+          "quote": "This guy said, we're looking for people who have absolutely no experience in television.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 127,
+          "t": [
+            517.883,
+            523.49
+          ],
+          "quote": "This guy said, we're looking for people who have absolutely no experience in television, which I was like, wow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 130,
+          "t": [
+            530.238,
+            532.841
+          ],
+          "quote": "So everyone they hired had no experience.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "a-players-hire-a-players",
+      "type": "concept",
+      "role": "concept",
+      "name": "A 级人才法则 (A players hire A players)",
+      "file": "A 级人才法则",
+      "primary": false,
+      "how_described": "本集引 Freston 的话:「B 级的人招 C 级的人,A 级的人招 A 级的人,这是一条相当铁的规律」,公司不容忍害群之马,否则气质从内部被侵蚀。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            880.128,
+            884.551
+          ],
+          "quote": "B players hire C players and A players hire A players and it's a pretty firm rule.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

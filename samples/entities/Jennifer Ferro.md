@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]]
+[[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":2,"Jamie Batmer":1,"KCRW":1,"NPR":1,"Marfa Public Radio":1,"公共媒体":1,"公共互联网":1,"联邦资金":1,"社区建设":1,"受众转移":1}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":3,"Jamie Batmer":1,"KCRW":1,"NPR":1,"Marfa Public Radio":1,"公共媒体":1,"公共互联网":1,"联邦资金":1,"社区建设":1,"受众转移":1}</script>
 
 <script>
 (function(){

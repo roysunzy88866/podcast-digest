@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]]
 
 </div>
 

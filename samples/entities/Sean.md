@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":21,"机器人":10,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":22,"机器人":10,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":5,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

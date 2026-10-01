@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Hugging Face]] · [[GrokBot]] · [[微调]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"Cursor":74,"推理":65,"NVIDIA":48,"Hugging Face":26,"GrokBot":8,"微调":26,"Matt Turk":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"Cursor":74,"推理":65,"NVIDIA":49,"Hugging Face":26,"GrokBot":8,"微调":26,"Matt Turk":4}</script>
 
 <script>
 (function(){

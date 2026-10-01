@@ -7,12 +7,21 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jeff Berman</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jeff Berman">JE</div><div class="pi"><h1 class="pt">Jeff Berman</h1><div class="byl">Masters of Scale 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jeff Berman">JE</div><div class="pi"><h1 class="pt">Jeff Berman</h1><div class="byl">Masters of Scale 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*2 条*
+
+![[2026-08-13-mos-know-which-rules-to-break-with-mtv-co-fo#^q3]]
+
+![[2026-08-13-mos-know-which-rules-to-break-with-mtv-co-fo#^q7]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-13-mos-know-which-rules-to-break-with-mtv-co-fo|《MTV 联合创始人 Tom Freston:打破规则的生意经》]] — 作为主持
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为主持
 - [[2026-10-01-mos-don-t-be-boring-kcrw-s-jennifer-ferro-on|《KCRW 台长 Jennifer Farrow:公共媒体如何不做「无聊的西兰花」》]] — 作为主持
 
@@ -20,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andrew Anagnost]] · [[Jennifer Ferro]] · [[Autodesk]] · [[Jamie Batmer]] · [[AI]] · [[KCRW]] · [[大语言模型]] · [[NPR]] · [[定制模型]] · [[Marfa Public Radio]]
+[[Tom Freston]] · [[Andrew Anagnost]] · [[Jennifer Ferro]] · [[MTV]] · [[Autodesk]] · [[Jamie Batmer]] · [[Viacom]] · [[AI]] · [[KCRW]] · [[The Facebook]]
 
-<script type="application/json" class="pd-epn">{"Andrew Anagnost":1,"Jennifer Ferro":1,"Autodesk":1,"Jamie Batmer":1,"AI":23,"KCRW":1,"大语言模型":8,"NPR":1,"定制模型":1,"Marfa Public Radio":1}</script>
+<script type="application/json" class="pd-epn">{"Tom Freston":1,"Andrew Anagnost":1,"Jennifer Ferro":1,"MTV":1,"Autodesk":1,"Jamie Batmer":1,"Viacom":1,"AI":24,"KCRW":1,"The Facebook":1}</script>
 
 <script>
 (function(){

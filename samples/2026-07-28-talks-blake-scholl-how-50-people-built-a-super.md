@@ -183,8 +183,8 @@ XB-1 最意外的成果是验证了一个被谈论已久的原理——[[音爆|
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|让超音速飞行重返天空:Boom 用小团队重写硬件制造]]<span class="pd-rz">同公司:Boom、Amazon、Boeing、FAA · 同概念:超音速飞行 (supersonic flight)</span>
+- [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|差点破产四次,他把智能门铃卖出了 11.5 亿美元]]<span class="pd-rz">同公司:Amazon · 同概念:AI</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
-- [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

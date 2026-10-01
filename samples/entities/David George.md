@@ -91,11 +91,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":145,"Stripe":41,"Anthropic":157,"Cursor":74,"Amazon":21,"NVIDIA":48,"智能体":374,"Databricks":19,"Google":51,"推理":65}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":145,"Stripe":41,"Anthropic":157,"Cursor":74,"Amazon":22,"NVIDIA":49,"智能体":374,"Databricks":19,"Google":51,"推理":65}</script>
 
 <script>
 (function(){

@@ -112,9 +112,9 @@ Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 
 
 **换个口味**
 
+- [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|差点破产四次,他把智能门铃卖出了 11.5 亿美元]]<span class="pd-rz">同概念:AI、真实性 (authenticity)</span>
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:AI</span>
-- [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 </div>

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Noam Segal]] · [[Tomer London]] · [[Lenny]] · [[Gusto]] · [[职业倦怠]] · [[payroll（工资发放）]] · [[认知衰退]] · [[小企业]] · [[同薪挤压]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Noam Segal":1,"Tomer London":1,"Lenny":68,"Gusto":2,"职业倦怠":4,"payroll（工资发放）":1,"认知衰退":1,"小企业":1,"同薪挤压":1,"AI":23}</script>
+<script type="application/json" class="pd-epn">{"Noam Segal":1,"Tomer London":1,"Lenny":68,"Gusto":2,"职业倦怠":4,"payroll（工资发放）":1,"认知衰退":1,"小企业":1,"同薪挤压":1,"AI":24}</script>
 
 <script>
 (function(){

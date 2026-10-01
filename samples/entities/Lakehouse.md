@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ali Ghodsi]] · [[Databricks]] · [[Snowflake]] · [[Apache Spark]] · [[瓶颈]] · [[PLG]] · [[AI]] · [[AGI]] · [[本体]] · [[数据科学智能体]]
 
-<script type="application/json" class="pd-epn">{"Ali Ghodsi":1,"Databricks":19,"Snowflake":16,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":23,"AGI":26,"本体":5,"数据科学智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Ali Ghodsi":1,"Databricks":19,"Snowflake":16,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":24,"AGI":26,"本体":5,"数据科学智能体":4}</script>
 
 <script>
 (function(){

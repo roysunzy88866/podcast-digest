@@ -117,7 +117,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Vercel]] · [[ChatGPT]] · [[SpaceX]] · [[NVIDIA]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"Cursor":74,"推理":65,"Vercel":18,"ChatGPT":85,"SpaceX":19,"NVIDIA":48,"Databricks":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"Cursor":74,"推理":65,"Vercel":18,"ChatGPT":85,"SpaceX":19,"NVIDIA":49,"Databricks":19}</script>
 
 <script>
 (function(){

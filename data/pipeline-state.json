@@ -220,21 +220,21 @@
   "cutoffs": {
     "lennys": "2026-09-30T14:45:15.000Z",
     "pg": "2026-09-24T22:05:37.000Z",
-    "a16z": "2026-09-30T10:00:00.000Z",
+    "a16z": "2026-10-01T16:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
-    "mad": "2026-09-24T11:30:00.000Z",
+    "mad": "2026-10-01T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
     "bigtech": "2026-09-30T15:49:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-24T10:00:00.000Z",
-    "thepeel": "2026-09-24T13:04:14.000Z",
+    "thepeel": "2026-10-01T15:43:48.000Z",
     "beyondcoding": "2026-09-30T12:00:00.000Z",
     "founders": "2026-09-28T08:00:00.000Z",
-    "dwarkesh": "2026-09-17T15:38:13.000Z",
+    "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-09-28T05:00:00.000Z",
-    "deepmind": "2026-09-09T16:08:26.000Z",
+    "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-01T07:07:00.000Z",
-    "cogrev": "2026-09-29T06:42:35.000Z",
+    "cogrev": "2026-10-01T14:52:22.000Z",
     "knowledge": "2026-09-29T10:00:00.000Z",
     "pragmatic": "2026-09-30T16:30:05.000Z",
     "practicalai": "2026-10-01T09:00:00.000Z",
@@ -1865,6 +1865,42 @@
       "reason": "题材不对味:传统软件工程(浏览器测试)且非 AI 主题,落在档案不要的范围",
       "title": "The State of Browser Testing",
       "pubDate": "2026-10-01T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-01-a16z-rebuilding-the-internet-for-privacy-barr",
+      "reason": "题材不对味:拿不准:隐私/网络安全创业访谈,与 AI 无关联,偏传统技术题材,档案收录范围以 AI 商业/实操为主",
+      "title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
+      "pubDate": "2026-10-01T16:00:00.000Z"
+    },
+    {
+      "id": "2026-10-01-mad-why-ai-agents-cheat--eric-ho-goodfire-e3",
+      "reason": "题材不对味:模型作弊/安全对齐类思辨题材,同 METR 模型作弊例,落 ❌「AI 安全/对齐」。",
+      "title": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "pubDate": "2026-10-01T11:30:00.000Z"
+    },
+    {
+      "id": "2026-10-01-dwarkesh-si-sheppard",
+      "reason": "题材不对味:学术·非 AI(历史人文类:西班牙征服帝国史),落在档案明确不要的类别",
+      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "pubDate": "2026-10-01T15:28:28.000Z"
+    },
+    {
+      "id": "2026-10-01-deepmind-from-deepfakes-to-dna-the-science-of-wat",
+      "reason": "题材不对味:偏 AI 安全/技术科普(水印防deepfake),属思辨研究面而非商业/人物/实操面",
+      "title": "From deepfakes to DNA: the science of watermarking AI",
+      "pubDate": "2026-10-01T16:38:11.000Z"
+    },
+    {
+      "id": "2026-10-01-cogrev-ai-am-was-trump-xi-anything-what-counts",
+      "reason": "题材不对味:拿不准:多主题聚合速览体裁(AM 简报式),且偏政策/思辨,不够单主题深挖",
+      "title": "AI:AM: Was Trump-Xi Anything? What Counts as Utopia? + AWS GPUs Cost 3X & AI Diagnoses Rare Diseases",
+      "pubDate": "2026-10-01T14:52:22.000Z"
+    },
+    {
+      "id": "2026-08-15-mos-pioneers-of-ai-why-ai-conversations-are",
+      "reason": "题材不对味:AI 思辨/哲学类话题,属档案 ❌ 的思辨面,非商业+人+实操",
+      "title": "Pioneers of AI:  Why AI conversations are always one-sided",
+      "pubDate": "2026-08-15T09:00:00.000Z"
     }
   ]
 }

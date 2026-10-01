@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Shuo]] [[Sean]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI":23,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":22,"Howard Hughes":1,"Netflix":5,"Brookfield":1,"Berkshire Hathaway":2}</script>
+<script type="application/json" class="pd-epn">{"AI":24,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":22,"Howard Hughes":1,"Netflix":5,"Brookfield":1,"Berkshire Hathaway":2}</script>
 
 <script>
 (function(){

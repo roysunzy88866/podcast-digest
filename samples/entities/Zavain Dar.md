@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":48,"Hugging Face":26,"开源":30,"蒸馏":1,"推理":65,"新云":3,"前沿模型":23,"垂直 AI":2,"智能体":374}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":49,"Hugging Face":26,"开源":30,"蒸馏":1,"推理":65,"新云":3,"前沿模型":23,"垂直 AI":2,"智能体":374}</script>
 
 <script>
 (function(){

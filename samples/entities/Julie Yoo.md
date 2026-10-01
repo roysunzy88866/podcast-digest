@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":17,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":23,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":17,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":24,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){
