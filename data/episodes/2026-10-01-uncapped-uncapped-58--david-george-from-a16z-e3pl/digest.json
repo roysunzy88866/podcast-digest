@@ -1,0 +1,196 @@
+{
+  "title_zh": "一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义",
+  "tldr": "a16z(Andreessen Horowitz)成长期投资负责人 David 解释为什么 AI 技术栈每一层都会成功：需求未触顶、供给全面短缺、前沿模型溢价，以及叙事与资本周期的力量。",
+  "digest_md": "这一集是 Benchmark 的主持人和 a16z 成长期投资负责人 David 的对谈。Benchmark 刚募集了历史上第一支成长期基金，主持人正是带着「为什么现在值得重仓这个时代」的问题来聊的。而 David 的核心判断，可以被主持人的合伙人 Eric 那句话概括——「这一切都会成功」：开源会成，前沿也会成；NVIDIA 会成，新芯片公司也会成。David 换了个说法：**在 AI 领域，如果你的问题前提是「这个会成还是那个会成」，答案很可能是「和」** [01:15 David]。\n\n> 【背景】原文中提到「你在 Andre's end / Andreessen Horowitz 以及在你这个位置上」，指 David 就职于风险投资机构 Andreessen Horowitz，常简称 a16z。\n\n为什么敢这么说？David 先铺了两块地基。\n\n## 需求端：史上最快，但才刚开头\n\n从基础设施看，AI 数据中心建设占 GDP 的比例刚超过当年铁路的峰值，约 3%;David 认为这个投入会增长 10 倍——不是一年内，而是花很多年、投入数万亿美元。需求侧更夸张:OpenAI、Anthropic 加上 SpaceX AI,再加 Cursor,合计约 1200 亿美元收入，**每月新增收入超过除 Amazon 外的所有超大规模云厂商** [02:09 David]。\n\n但关键在于：这一切背后其实只有一小群人在付费。全球 10 亿消费者用户之外，企业端的绝大部分收入只来自约 3000 万程序员——而且这 3000 万内部还是巨大的幂律分布，头 100 万人的花费是天文数字。而全球有 15 亿知识工作者。也就是说，AI 扩散到 B2B 经济中的部分**还不到 5%** [03:53 David];David 认为未来五年会看到巨大规模的扩散。\n\n## 供给端：全面短缺\n\n供给侧几乎所有供应链环节都有瓶颈——**2028 年之前你根本拿不到数据中心容量** [04:11 David]。现在全行业约 4 吉瓦，David 认为 8 吉瓦上线也会全部被用掉，顶多价格不同。需求完全无法满足，这就是他认为「梯子上每一级都会奏效」的供需底座。\n\n## 什么会让这个故事破产？他想不出\n\n主持人追问：什么情况能证伪「吉瓦上线、token 全被消耗」？David 给了两个可能，又逐个否掉：\n\n1. **写代码是反常的**，其余白领工作不再产生重大影响——他认为极不可能，这只是数据收集和模型应用的问题；\n2. **算法突破**让训练和推理效率大涨——训练上有可能(人类建立知识库所需的数据比模型训练数据少两三个数量级，这里有优化空间)，但推理是比训练大得多的市场，而且经验规律是「模型在推理时算得越多，结果越好」，这一点在知识工作上会持续成立 [06:32 David]。\n\n他的原话：「**我很难找到这件事不成立的理由**」[06:44 David]。\n\n## token 卖方在赚钱，买方呢？\n\n主持人提出一个尖锐角度：现在讲的大部分收入是 token 卖方的，真正该盯的是**买方有没有拿到效率提升**——企业买了这么多 token,业务真的变好了吗？(曾经有研究说 AI 编程让人效率降低 20%,但那是在最强几代模型之前；David 猜重做研究不会再有这个结论，而且世界上最好的程序员已经完全倒向了 AI 编程，Stripe 这类公司觉得回报非常高。)\n\nDavid 顺着聊出一个很实战的判断：**最好的公司现在都单点聚焦在前端**——做成下一个产品可能带来 10 倍、100 倍收入，而成本端的优化是有限的、潜在的。他的原话很精彩：「**只关注成本端，就像是在做空自己的未来；关注前端，你是在以更广阔的视野看待自己能成为什么**」[09:42 David]。\n\n## 前沿模型层：95% 的钱，和「爆炸半径」\n\n落到技术栈分层。前沿实验室(三家合计约 1250 亿美元收入)占了市场 95% 以上的钱，仅 Anthropic 一家就融了约 3500 亿美元，规模优势巨大。显现出来的用户偏好是：**人们愿意为前沿 token 支付 10 倍价格** [11:22 David],原因是消费者剩余太大、值得，而且前沿模型会被用于价值更高的任务(「如果编程价值是 X,治愈癌症值多少？」)。\n\n另一个护城河是第一方产品：人们爱用 Codex、Claude Code、Cursor,是因为**实验室把 harness(模型的运行外壳/工具接口)和模型耦合得非常紧**，换一个没有 harness、没有产品的模型，今天没人会这么做 [12:37 David]。\n\n那应用层公司机会在哪？David 的投资框架是：大实验室会专注两处——**编程及其「爆炸半径」**(编程辐射范围内的邻近领域)，以及**横向面向全部 15 亿知识工作者的产品**(类似 Microsoft Office/Google Apps)。法律就是起飞中的例子：Harvey 所在的市场大约比编程落后 12 个月，客户已开始要求律所必须用这类工具，幻觉的质疑是 18 个月前的事了。法律天然适合——是语言又极其有逻辑、判例文档完备，推理模型一出，「做律师就是推理」。Kirkland 宣布花 5 亿美元自建技术栈曾让人担心，但 David 认为这不是通往 AGI 的路，却会价值几十亿：垂直领域**产品最后细节对用户极重要、需要真正的地推和市场投入**，实验室不可能无处不在。\n\n他也不否认爆炸半径内的公司会活得好：Replit、Lovable 正处在爆炸半径正中心，Codex 和 Claude Code 确实能做网站，「但这些东西好得难以置信」——所以还是那句，都会成。随着用量增长 50 倍，N-1(上一代模型)和开源的需求也会巨大——客服工单早就用不着最高端模型了，大概三年前就不用了。**抽象层会跟着所需价值量浮动**，应用公司、实验室第一方产品、Databricks、Palantir、Snowflake 都会来争这一层 [19:13 David]。\n\n## 消费端：没人聊的最大奖赏\n\n10 亿人在狂热地用，但绝大多数人的用法还处在「拟物模式」——把搜索引擎上做的事搬进 ChatGPT 而已。除了孩子们：他们完全原生，从没学过搜索引擎，直接让 AI 给答案、给成品。最大的转变是**从被动响应到主动出击**，加上多模态(现在的语音已经能自然处理打断，之前的糟糕体验是障眼法)——代表你主动做事、执行操作的能力刚到位，OpenClaw 是第一个时刻，GrokBot 是现在。\n\nDavid 非常乐观：历史上科技市场的最大奖赏是杀手级消费产品，因为能触达数十亿人 [22:47 David];商业模式会是订阅 + 广告或某种尚未发明的新形态——就像你没法在报纸分类广告时代向人描述「信息流」是什么 [23:12 David]。他最想要的东西是**每个人的私人助理，以值得信赖的方式替你行动**——他自己搭的自动化里十个只有两个真有价值，但模型未来五到十年会好 10 到 100 倍。\n\n## 自动驾驶与机器人：被 AI 喧嚣掩盖的巨浪\n\nDavid 认为自动驾驶被严重低估。回看网约车：出租车只占美国出行里程不到 0.1%,Uber/Lyft 用好 10 倍的产品把旧金山 1 亿美元的出租车市场变成 10 亿。Waymo 行驶数百万英里的数据是**比人类司机安全 10 到 14 倍**——「那么开车就是野蛮的」[27:58 David],「历史会给那些不让它扩散的人非常差劲的评价」[28:22 David]。经济账也成立：自有车全口径成本约每英里 80 美分，网约车约 2 美元出头，而**这个市场弹性极大**——成本一旦降下去，需求会爆炸 [29:02 David]。个人拥有侧：美国年销 1700 万辆新车、保有 2.5 亿辆，完全自动驾驶功能最少值每辆 1 万美元。而现在全美国的 Waymo 不到 1 万辆——扩散才刚起步。\n\n机器人「显然会成功」，而且成功时会是一个**比语言更大的市场**(B2B + 消费)。工厂里重复任务、安全环境的场景已经可见——他们投了 Rivian 创始人做的 Mind Robotics,把机器人放进 Rivian 自己的工厂做装配：场景明确、ROI 今天就成立、客户内置，还能让模型从真实工作中学习、形成现场反馈闭环。「**机器人会有属于它的 ChatGPT 时刻**，不知道什么时候，希望五年之内」[32:17 David]。副产品会是巨大的生产力繁荣——历史上约 60% 的现有工作岗位在 70 年前并不存在。\n\n## 资本周期与叙事：为什么 growth、为什么大声\n\nBenchmark 首支成长期基金背后的逻辑：如今风投级别的回报发生在成长期——5 万亿美元的市场(约标普 500 的 20%),而他们的老分析显示**私募回报一半产生于种子到 B 轮，另一半产生于 C 轮及以后**，公司上市更晚的话这个比例还会更偏向后期 [35:13 David]。而且今天的幂律强得离谱，押对了真能一路走好。这一轮 AI 周期独特在于：**砸更多钱，公司就真的变好**——SaaS 时代往 ServiceNow、Workday、Salesforce 里塞钱只会乱套(愿景基金就是证据)，而 400 亿美元投进模型训练，模型就真的更强 [37:11 David]。\n\nDavid 的框架是产品周期与资本周期打分：2021 年产品周期是 1 分(SaaS/云晚期)，2010 年是 8 分；**现在是 9 到 10 分**(AI、自动驾驶、机器人、生物健康、国防现代化)。上一代浪潮造就约 25 万亿美元市值，眼前这几浪叠加「远超 25 万亿」。资本周期现在约 6 分(热但不糟)，但决定十年的是产品周期。「这是有史以来做技术市场投资人最激动的时刻」。\n\n方法论上：「**我们为伟大的公司支付合理的价格，超额收益永远在营收那一侧**」[39:48 David]。他最看重的资产类别是**能不断想出下一件事的创始人**——Databricks 的 Ali 七年后营收反而加速，SpaceX 投的时候 Starlink 连 GA 都没发布。「**往往是创始人搞出了下一件事**」[40:58 David]。\n\n至于叙事(他讲了个故事：2018 年他对 Ben 说成长型投资不需要营销策略，被 Ben 骂「这是我这辈子听过最蠢的想法」——后来 a16z 做了营销，效果极好)：氛围极其重要，因为它影响融资、估值、留人和招人。公开市场的样板是 Palantir——高估值是武器(更少稀释、更强募资、更大的资金储备)，还让它在 CEO 们眼中成了「落地 AI 的可信之选」，商业侧真金白银受益。他从一位对冲基金人士那里听来的做空理论是：「**我从不做空一个弥赛亚型创始人，也从不做空一个人们喜爱的产品**」[46:38 David]——反过来，两者兼具的公司就能交易在极高估值上。而随着这些巨头公司上市，投入叙事管理的精力将变得疯狂。\n\n## 上限在哪\n\n主持人问：这一切能走多远？David:宏观看不到上限——全球市值前 10 中有 8 家是风投支持的美国科技公司，而且「看起来都挺便宜」，后头还有 OpenAI、Anthropic、SpaceX 在追赶；未来十年的大浪甚至连棋盘上的玩家都还没出现。a16z 自己在 growth 领域约 20% 市场份额，目标是做最顶端的 20%,但「光是跟上就已经很难了」[52:32 主持人]。\n\n## 本集带走\n\n- **别问「A 还是 B」,问「A 和 B」**:AI 每一层都会成功，判断应该是「和」——底座是需求远未触顶(扩散不到 5%)与供给全面短缺(2028 年前拿不到数据中心容量)。\n- **盯 token 买方的 ROI**:卖方收入已是共识，真正的验证信号是企业用户拿到效率提升；而最好的公司都聚焦前端做新产品，只抠成本等于做空自己的未来。\n- **应用层的机会在实验室的空隙**：编程爆炸半径之外、非横向的垂直领域——产品最后细节和地面销售是实验室不愿干的脏活，垂直应用因此有价值。\n- **消费端是没人聊的最大奖赏**：10 亿用户还在「拟物」用法，从被动到主动、多模态的私人助理是下一个形态；商业模式大概率订阅 + 某种新广告。\n- **自动驾驶和机器人被 AI 喧嚣掩盖**：安全 10-14 倍 + 成本可降破网约车 = 需求爆炸；机器人的「ChatGPT 时刻」可能在五年内。\n- **投创始人，不是投财务模型**：幂律极端、加钱就能变好是这轮独有；能不断想出下一件事的创始人本身是资产类别。\n- **叙事是被低估的资产负债表**：它直接影响融资、估值、招人留人——别做空有弥赛亚型创始人和被热爱的产品的公司。",
+  "quotes": [
+    {
+      "en": "if the premise of your question is, is this going to be successful or that thing going to be successful, the answer in AI is probably and.",
+      "zh": "如果你问题的前提是「这个东西会成功还是那个东西会成功」，那么在 AI 领域，答案很可能是「和」。",
+      "timestamp": "01:17",
+      "speaker": "David George"
+    },
+    {
+      "en": "And they add more revenue per month than all the hyperscalers, except for Amazon.",
+      "zh": "而且它们每月新增的收入超过除 Amazon 之外的所有超大规模云厂商。",
+      "timestamp": "02:09",
+      "speaker": "David George"
+    },
+    {
+      "en": "It's like less than 5% diffused into the B2B economy.",
+      "zh": "扩散到 B2B 经济中的还不到 5%。",
+      "timestamp": "03:53",
+      "speaker": "David George"
+    },
+    {
+      "en": "So it's like shorting your own future if you are just focused on the cost side, whereas you're taking an expansive view of what you can become if you're focused on the front side.",
+      "zh": "所以如果你只关注成本端，就像是在做空自己的未来；而如果你关注前端，你就是在以更广阔的视野看待自己能成为什么。",
+      "timestamp": "09:42",
+      "speaker": "David George"
+    },
+    {
+      "en": "Right now, people are willing to pay 10x more for Frontier tokens.",
+      "zh": "现在，人们愿意为前沿 token 支付 10 倍的价格。",
+      "timestamp": "11:22",
+      "speaker": "David George"
+    },
+    {
+      "en": "But if historical technology markets are in a guide, the big prize is going to be the killer consumer products because you can address billions of people with them.",
+      "zh": "但如果历史上的科技市场有借鉴意义的话，最大的奖赏将是杀手级的消费产品，因为它们可以触达数十亿人。",
+      "timestamp": "22:47",
+      "speaker": "David George"
+    },
+    {
+      "en": "The thing I always say is if you try to describe the form factor of the feed to people during classifieds and newspapers, it would make no sense.",
+      "zh": "我常说的一句话是，如果你在分类广告和报纸的时代试图向人们描述信息流这种形态，那根本讲不通。",
+      "timestamp": "23:12",
+      "speaker": "David George"
+    },
+    {
+      "en": "So if you have a product that is 14 times safer than a human driver. Then it's barbaric to drive.",
+      "zh": "所以如果你有一个比人类司机安全 14 倍的产品，那么开车就是野蛮的。",
+      "timestamp": "27:54",
+      "speaker": "David George"
+    },
+    {
+      "en": "So I think history will look back on people and judge them very poorly if they don't let it happen.",
+      "zh": "所以我认为历史会回望那些人，如果不让它发生，会给他们非常差劲的评价。",
+      "timestamp": "28:22",
+      "speaker": "David George"
+    },
+    {
+      "en": "But we will have a ChatGPT moment for robotics.",
+      "zh": "但机器人技术会有属于它的 ChatGPT 时刻。",
+      "timestamp": "32:17",
+      "speaker": "David George"
+    },
+    {
+      "en": "You can also get venture outcomes because the power law is so crazy strong today.",
+      "zh": "你也可以获得风投级别的回报，因为如今幂律效应强得离谱。",
+      "timestamp": "35:35",
+      "speaker": "David George"
+    },
+    {
+      "en": "I always say our businesses, we pay fair prices for great companies.",
+      "zh": "我总是说，我们的业务是为伟大的公司支付合理的价格。",
+      "timestamp": "39:42",
+      "speaker": "David George"
+    },
+    {
+      "en": "And his theory on shorting stocks was I never short a Messianic founder and I never short a product that people love.",
+      "zh": "他做空股票的理论是：我从不做空一个弥赛亚型创始人，也从不做空一个人们喜爱的产品。",
+      "timestamp": "46:38",
+      "speaker": "David George"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:15",
+      "speaker": "David",
+      "en": "if the premise of your question is, is this going to be successful or that thing going to be successful, the answer in AI is probably and.",
+      "zh": "如果你问题的前提是「这个东西会成功还是那个东西会成功」，那么在 AI 领域，答案很可能是「和」。"
+    },
+    {
+      "timestamp": "02:09",
+      "speaker": "David",
+      "en": "And they add more revenue per month than all the hyperscalers, except for Amazon.",
+      "zh": "而且它们每月新增的收入超过除 Amazon 之外的所有超大规模云厂商。"
+    },
+    {
+      "timestamp": "03:53",
+      "speaker": "David",
+      "en": "It's like less than 5% diffused into the B2B economy.",
+      "zh": "扩散到 B2B 经济中的还不到 5%。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "David",
+      "en": "I struggle to find a way for this not to work.",
+      "zh": "我很难找到这件事不成立的理由。"
+    },
+    {
+      "timestamp": "09:42",
+      "speaker": "David",
+      "en": "So it's like shorting your own future if you are just focused on the cost side, whereas you're taking an expansive view of what you can become if you're focused on the front side.",
+      "zh": "所以如果你只关注成本端，就像是在做空自己的未来；而如果你关注前端，你就是在以更广阔的视野看待自己能成为什么。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "David",
+      "en": "Right now, people are willing to pay 10x more for Frontier tokens.",
+      "zh": "现在，人们愿意为前沿 token 支付 10 倍的价格。"
+    },
+    {
+      "timestamp": "12:37",
+      "speaker": "David",
+      "en": "I also think they have very tightly coupled their harnesses with the models so that the experience you have with those products is actually very, very good.",
+      "zh": "我还认为，他们把 harness 和模型非常紧密地耦合在一起，使得你使用这些产品的体验实际上非常、非常好。"
+    },
+    {
+      "timestamp": "22:47",
+      "speaker": "David",
+      "en": "But if historical technology markets are in a guide, the big prize is going to be the killer consumer products because you can address billions of people with them.",
+      "zh": "但如果历史上的科技市场有借鉴意义的话，最大的奖赏将是杀手级的消费产品，因为它们可以触达数十亿人。"
+    },
+    {
+      "timestamp": "23:12",
+      "speaker": "David",
+      "en": "The thing I always say is if you try to describe the form factor of the feed to people during classifieds and newspapers, it would make no sense.",
+      "zh": "我常说的一句话是，如果你在分类广告和报纸的时代试图向人们描述信息流这种形态，那根本讲不通。"
+    },
+    {
+      "timestamp": "27:58",
+      "speaker": "David",
+      "en": "So if you have a product that is 14 times safer than a human driver. Then it's barbaric to drive.",
+      "zh": "所以如果你有一个比人类司机安全 14 倍的产品，那么开车就是野蛮的。"
+    },
+    {
+      "timestamp": "28:22",
+      "speaker": "David",
+      "en": "So I think history will look back on people and judge them very poorly if they don't let it happen.",
+      "zh": "所以我认为历史会回望那些人，如果不让它发生，会给他们非常差劲的评价。"
+    },
+    {
+      "timestamp": "29:02",
+      "speaker": "David",
+      "en": "This market is, like, massively elastic.",
+      "zh": "这个市场的弹性非常大。"
+    },
+    {
+      "timestamp": "32:17",
+      "speaker": "David",
+      "en": "But we will have a ChatGPT moment for robotics.",
+      "zh": "但机器人技术会有属于它的 ChatGPT 时刻。"
+    },
+    {
+      "timestamp": "35:40",
+      "speaker": "David",
+      "en": "You can also get venture outcomes because the power law is so crazy strong today.",
+      "zh": "你也可以获得风投级别的回报，因为如今幂律效应强得离谱。"
+    },
+    {
+      "timestamp": "37:11",
+      "speaker": "David",
+      "en": "Whereas if you put $40 billion towards training these models, they get much better.",
+      "zh": "而如果你把 400 亿美元投到训练这些模型上，它们会变得好得多。"
+    },
+    {
+      "timestamp": "39:48",
+      "speaker": "David",
+      "en": "I always say our businesses, we pay fair prices for great companies.",
+      "zh": "我总是说，我们的业务是为伟大的公司支付合理的价格。"
+    },
+    {
+      "timestamp": "40:58",
+      "speaker": "David",
+      "en": "It's often the founder that figures out the next thing.",
+      "zh": "往往是创始人搞出了下一件事。"
+    },
+    {
+      "timestamp": "46:38",
+      "speaker": "David",
+      "en": "And his theory on shorting stocks was I never short a Messianic founder and I never short a product that people love.",
+      "zh": "他做空股票的理论是：我从不做空一个弥赛亚型创始人，也从不做空一个人们喜爱的产品。"
+    }
+  ],
+  "voice_script": "今天这一期，是 Benchmark 的主持人和 a16z 也就是 Andreessen Horowitz 成长期投资负责人 David 的一场对谈。Benchmark 刚募集了历史上第一支成长期基金，主持人带着一个很直接的问题来的：为什么现在值得重仓这个时代？David 给出的核心判断，可以用主持人合伙人 Eric 那句话概括——这一切都会成功。开源会成，前沿也会成；NVIDIA 会成，新芯片公司也会成。David 换了个更妙的说法：如果你问题的前提是「这个会成还是那个会成」，那么在 AI 领域，答案很可能是「和」。\n\n这话听着狂，但底下是有推演的。咱们一条一条捋。\n\n先看需求端。从基础设施看，AI 数据中心建设占 GDP 的比例刚超过当年铁路的峰值，大概是 3%。David 认为这个投入还会增长 10 倍——不是一年内，而是花很多年、砸进去数万亿美元。收入侧更夸张：OpenAI、Anthropic 加上 SpaceX AI 和 Cursor,合计约 1200 亿美元收入，而且每月新增的收入，超过除 Amazon 之外的所有超大规模云厂商。\n\n但这里头有个关键细节。这一切收入背后，其实只有一小群人在付费。全球 10 亿消费者之外，企业端的绝大部分收入，只来自大约 3000 万程序员——而这 3000 万内部还是巨大的幂律分布，头 100 万人的花费是天文数字。可全球有多少知识工作者？15 亿。也就是说，AI 扩散到 B2B 经济里的部分，还不到 5%。所以你看，不是需求见顶了，是才刚开头。\n\n那需求这么大，供给跟得上吗？跟不上。这就引出了第二块地基：供给端是全面短缺。几乎所有供应链环节都有瓶颈，2028 年之前你根本拿不到数据中心容量。现在全行业大约 4 吉瓦，David 认为 8 吉瓦上线也会全部被用掉，顶多价格不同。需求完全无法满足——这就是「梯子上每一级都会奏效」的供需底座。\n\n主持人当然不服，追问了一句：什么情况能证伪这个判断？David 给了两个可能，又逐个否掉。第一种，是写代码是反常的，其余白领工作不再产生重大影响。他认为极不可能，这只是数据收集和模型应用的问题。第二种，是算法突破让训练和推理效率大涨。训练上确实有可能，但推理是比训练大得多的市场，而且经验规律是：模型在推理时算得越多，结果越好，这一点在知识工作上会持续成立。所以原话是：「我很难找到这件事不成立的理由。」\n\n听到这儿你可能会问：token 卖方在赚钱，买方呢？这是个很尖锐的角度。现在讲的大部分收入是 token 卖方的，真正该盯的是买方有没有拿到效率提升——企业买了这么多 token,业务真的变好了吗？曾经有研究说 AI 编程让人效率降低 20%,但那是在最强几代模型之前。世界上最好的程序员已经完全倒向 AI 编程了，Stripe 这类公司觉得回报非常高。顺着聊，David 还给出一个很实战的判断：最好的公司现在都单点聚焦在前端，因为做成下一个产品可能带来 10 倍、100 倍收入，而成本端的优化是有限的。原话很精彩：「只关注成本端，就像是在做空自己的未来；关注前端，你是在以更广阔的视野看待自己能成为什么。」\n\n那落到技术栈上，钱都去哪了？前沿实验室三家合计约 1250 亿美元收入，占了市场 95% 以上的钱，仅 Anthropic 一家就融了约 3500 亿美元。用户偏好也很明确：人们愿意为前沿 token 支付 10 倍价格，因为消费者剩余太大，而且前沿模型会被用于价值更高的任务——如果编程价值是 X,治愈癌症值多少？另一条护城河是第一方产品。人们爱用 Codex、Claude Code、Cursor,是因为实验室把 harness——也就是模型的运行外壳和工具接口——跟模型耦合得非常紧，换一个没有 harness、没有产品的模型，今天没人会这么做。\n\n那应用层公司的机会在哪？David 的框架是：大实验室会专注两处，一是编程及其「爆炸半径」，也就是编程辐射范围内的邻近领域；二是横向面向全部 15 亿知识工作者的产品，类似 Microsoft Office 那种。所以垂直领域的机会就在实验室的空隙里。法律就是个起飞中的例子：Harvey 所在的市场大约比编程落后 12 个月，客户已经开始要求律所必须用这类工具。法律天然适合——是语言又极其有逻辑、判例文档完备，推理模型一出，做律师就是推理。垂直应用的价值在于，产品最后细节对用户极重要、需要真正的地推和市场投入，实验室不可能无处不在。爆炸半径内的公司也会活得好：Replit、Lovable 正处在爆炸半径正中心，那些东西好得难以置信。而且随着用量增长 50 倍，上一代模型和开源的需求也会巨大——客服工单早就用不着最高端模型了。抽象层会跟着所需价值量浮动，这一层会有很多玩家来争。\n\n还有一个没人聊的大奖赏，是消费端。10 亿人在狂热地用，但绝大多数人的用法还处在「拟物模式」——就是把搜索引擎上做的事搬进 ChatGPT 而已。除了孩子们，他们完全原生，从没学过搜索引擎，直接让 AI 给答案、给成品。最大的转变是从被动响应到主动出击，加上多模态到位，代表你主动做事、执行操作的能力刚起步。David 非常乐观，因为历史上科技市场的最大奖赏是杀手级消费产品，能触达数十亿人。商业模式会是订阅加广告，或者某种尚未发明的新形态——就像你没法在报纸分类广告时代向人描述「信息流」是什么。他最想要的，是每个人的私人助理，以值得信赖的方式替你行动。\n\n再往外一层，是被 AI 喧嚣掩盖的两股巨浪：自动驾驶和机器人。Waymo 行驶数百万英里的数据，是比人类司机安全 10 到 14 倍。经济账也成立：自有车全口径成本约每英里 80 美分，网约车 2 美元出头，而市场弹性极大，成本一旦降下去需求会爆炸。机器人「显然会成功」，而且成功时会是一个比语言更大的市场——原话是，机器人会有属于它的 ChatGPT 时刻，不知道什么时候，希望五年之内。\n\n最后回到资本。为什么现在做成长期投资？因为风投级别的回报如今发生在成长期，而这一轮 AI 周期独特在于：砸更多钱，公司就真的变好。SaaS 时代往 ServiceNow 里塞钱只会乱套，但 400 亿美元投进模型训练，模型就真的更强。David 的框架是给产品周期打分：2021 年是 1 分，现在，是 9 到 10 分。方法论上一句话：「我们为伟大的公司支付合理的价格，超额收益永远在营收那一侧。」他最看重的资产类别，是能不断想出下一件事的创始人——往往是创始人搞出了下一件事。连叙事都是被低估的资产负债表，有句做空理论说得妙：从不做空一个弥赛亚型创始人，也从不做空一个人们喜爱的产品。\n\n所以回到开头那个判断。需求远未触顶，扩散不到 5%;供给全面短缺，2028 年前拿不到数据中心容量；再加上这一轮加钱就真的能变好——这就是为什么答案不是「还是」，而是「和」。如果你问题的前提是「这个东西会成功还是那个东西会成功」，那么在 AI 领域，答案很可能是「和」。"
+}

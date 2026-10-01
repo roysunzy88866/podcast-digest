@@ -139,9 +139,9 @@ Maggie 最想听到候选人问：「法律行业的什么让你如此兴奋？�
 
 **换个口味**
 
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Harvey、Anthropic、OpenAI</span>
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:Harvey、OpenAI</span>
 - [[2026-08-21-twist-open-source-is-going-to-win-it-all-harve|Harvey 弃用 OpenAI:开源将赢得一切]]<span class="pd-rz">同公司:Harvey、OpenAI</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主权 (autonomy)</span>
 
 </div>
 </div>

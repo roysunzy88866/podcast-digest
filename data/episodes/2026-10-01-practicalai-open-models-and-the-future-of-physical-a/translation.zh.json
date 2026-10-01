@@ -1,0 +1,946 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.73,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客，在这里我们剖析人工智能的现实应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让人工智能技术变得实用、高效，并为所有人所用。无论你是开发者、商业领袖，还是只是对这些热门技术背后的原理感到好奇，你来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以获取最新一期节目、幕后内容和 AI 洞察。你可以在 practicalai.fm了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.81,
+  "end": 37.41,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.489998,
+  "end": 56.364998,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, who is a principal AI and autonomy research engineer. How are you doing, Chris?",
+  "zh": "欢迎收听又一期的 Practical AI 播客。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO，和往常一样，我的联合主持人 Benson 也在，他是一位 AI 与自主系统首席研究工程师。Chris，你今天怎么样？"
+ },
+ {
+  "seg": 3,
+  "start": 56.364998,
+  "end": 60.82,
+  "speaker": "Chris Benson",
+  "en": "Hey. Hey. I'm doing great today, Daniel. Really excited about today's conversation.",
+  "zh": "嘿。嘿。我今天状态很好，Daniel。对今天的对话真的非常期待。"
+ },
+ {
+  "seg": 4,
+  "start": 60.9,
+  "end": 85.675,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Well, I I think in in, in the world that both of us inhabit, we are open to interesting discussions. And, I I think we'll talk about things open and things related to the world in in today's episode because we have with us MingYu Liu, who is vice president of Cosmos Lab at NVIDIA. Welcome to the show, MingYu.",
+  "zh": "是的。嗯，我……我想在我们所处的这个世界里，我们对有趣的讨论持开放态度。而且我……我想在今天的节目中我们会谈到开放相关的话题，以及与这个世界相关的事情，因为我们邀请到了 NVIDIA Cosmos 实验室副总裁 MingYu Liu。欢迎来到节目，MingYu。"
+ },
+ {
+  "seg": 5,
+  "start": 85.675,
+  "end": 89.915,
+  "speaker": "Ming-Yu Liu",
+  "en": "Hello. Thanks to have me here. Great to be here. Hi, Daniel and Chris.",
+  "zh": "你好。感谢邀请我来这里。很高兴来到这里。嗨，Daniel 和 Chris。"
+ },
+ {
+  "seg": 6,
+  "start": 90.05,
+  "end": 116.095,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. Great great to have you. And one of the things I kind of alluded to is maybe something open, which I know is dear to NVIDIA's heart, which is open models. And I've seen in the news recently in what NVIDIA has posted, obviously, they are promoting open models as a key piece of what is important in the e AI ecosystem.",
+  "zh": "是的。是的。非常高兴有你来。我刚才略微提到的一件事，可能是与开放有关的东西，我知道这对 NVIDIA 来说至关重要，那就是开放模型。我最近在新闻中看到，在 NVIDIA 发布的内容中，显然，他们正在把开放模型作为 AI 生态系统中重要组成部分来推广。"
+ },
+ {
+  "seg": 7,
+  "start": 116.095,
+  "end": 135.465,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm wondering, MingYu, if you could help us understand maybe from your perspective, from NVIDIA's perspective, why in today's, world, is open is the idea of having open models and promoting open models, why is that such a critical thing in the ecosystem?",
+  "zh": "我想知道，MingYu，你能否从你的视角、从 NVIDIA 的视角帮助我们理解，在当今的世界里，开放——也就是拥有开放模型并推广开放模型的这一理念——为什么在生态系统中如此关键？"
+ },
+ {
+  "seg": 8,
+  "start": 135.465,
+  "end": 158.97,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yes. Okay. So when I was a student, I learned a lot about computer vision and machine learning. At that time, there are great researchers, students, open source layer code and model. And looking at layer code and model actually help me understand the concept and help me to innovate.",
+  "zh": "好的。是这样的。当我还是学生的时候，我学了很多计算机视觉和机器学习的知识。那个时候，有很多优秀的研究者、学生，开放源代码和模型。而研究这些源代码和模型实际上帮助我理解了概念，并帮助我进行创新。"
+ },
+ {
+  "seg": 9,
+  "start": 159.27501,
+  "end": 192.365,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? And and this the academy always work like that and has been years, you know, even before GBT, and GBT also have open source model in the past. And that had been, you know, pushed the field forward around innovation. It's just until recently, the model is getting bigger. The amount of resources required to build a model is tremendous amount, and hence, the amount of open model reduced.",
+  "zh": "对吧？而学术界一直是这样运作的，已经很多年了，你知道，甚至在 GBT 之前，而 GBT 过去也有开源模型。这一直在推动这个领域围绕创新向前发展。只是直到最近，模型变得越来越大。构建一个模型所需的资源量是巨大的，因此，开放模型的数量减少了。"
+ },
+ {
+  "seg": 10,
+  "start": 192.365,
+  "end": 217.12,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? But open model generally is there for the field, it's been very useful to push the field forward. And so, NVIDIA, won't this continue to happen? I think the world will be in a better place if we have open model to enable innovation. So people you know, API are great.",
+  "zh": "对吧？但开放模型总体上是为了这个领域而存在的，它对推动领域向前发展一直非常有用。所以，NVIDIA 希望这种情况继续下去。我认为如果我们有开放模型来促进创新，世界会变得更美好。所以人们……你知道，API 很好。"
+ },
+ {
+  "seg": 11,
+  "start": 217.245,
+  "end": 244.61,
+  "speaker": "Ming-Yu Liu",
+  "en": "They solve problems, but they don't give you the insight. You know, it doesn't tell you it it doesn't allow you to tear apart and miss your idea inside. You know? And also, the the kind of thing you want to do may be suitable, you know, you want to have a local computer and you don't have the Internet connection, so API may not always be the solution. And that's why, you know, I think an open model is important to enable people.",
+  "zh": "它们能解决问题，但它们不会给你洞察。你知道，它不会告诉你，它不允许你把它拆开、把你的想法放进去。你知道？另外，你想做的事情可能适合……你知道，你可能想要本地计算，而没有互联网连接，所以 API 并不总是解决方案。这就是为什么，你知道，我认为开放模型对于赋能人们很重要。"
+ },
+ {
+  "seg": 12,
+  "start": 244.69,
+  "end": 264.58002,
+  "speaker": "Ming-Yu Liu",
+  "en": "And NVIDIA is a accelerator computing company. So we build this computer, great computer, GPU networking devices, and now we also build CPU, SoC. Right? We build this computer and we want to enable the whole ecosystem. Right?",
+  "zh": "而 NVIDIA 是一家加速计算公司。所以我们制造这些计算机，很棒的计算机，GPU 和网络设备，现在我们也制造 CPU、SoC。对吧？我们制造这些计算机，我们想要赋能整个生态系统。对吧？"
+ },
+ {
+  "seg": 13,
+  "start": 264.58002,
+  "end": 296.1,
+  "speaker": "Ming-Yu Liu",
+  "en": "And we generally believe that, you know, to better build these computers, we need to know more about the applications. Right? And in the old day, you have this computer and you have library and you have software applications, right? And in the modern world, you have computer and you have library still, but you now have models. Model is a new kind of libraries people can use and to build great amazing applications.",
+  "zh": "而我们普遍相信，你知道，为了更好地制造这些计算机，我们需要更多地了解应用。对吧？在过去，你有计算机，你有库，你有软件应用，对吧？而在现代世界，你有计算机，你仍然有库，但现在你有了模型。模型是一种新的库，人们可以使用它来构建了不起的、精彩的应用。"
+ },
+ {
+  "seg": 14,
+  "start": 296.9,
+  "end": 334.365,
+  "speaker": "Ming-Yu Liu",
+  "en": "You know, maybe all kind of agents to help you buy stuff or help you do code all on top of models. And and we, like to build models, like to build open models on top of NVIDIA's computer. There are a couple of reason why we do that. First, we through building the model, we better understand what kind of computer we should build, what kind of GPU architecture we should have, so that NVIDIA can always be there to help the whole ecosystem. And second, we also want to measure people are enabled to do amazing applications, right?",
+  "zh": "你知道，也许是各种帮你买东西或帮你写代码的智能体，全都构建在模型之上。而我们，喜欢构建模型，喜欢在 NVIDIA 的计算机之上构建开放模型。我们这么做有几个原因。第一，通过构建模型，我们能更好地理解我们应该构建什么样的计算机、我们应该拥有什么样的 GPU 架构，这样 NVIDIA 才能始终在那里帮助整个生态系统。第二，我们也希望衡量人们是否被赋能去做精彩的应用，对吧？"
+ },
+ {
+  "seg": 15,
+  "start": 334.365,
+  "end": 356.02,
+  "speaker": "Ming-Yu Liu",
+  "en": "So when we have open model there, and people can test this out first, and combine them to do application good for their targeted business, And again, some familiarity, and maybe later they can build their own model. So there's a lot of reason why open model is critical, both for Academy and also for the whole industry.",
+  "zh": "所以当我们有开放模型在那里，人们可以先测试它，然后把它们组合起来，做适合他们目标业务的应用。再一次，获得一些熟悉度，也许之后他们可以构建自己的模型。所以开放模型之所以关键，无论是对学术界还是对整个行业，都有很多原因。"
+ },
+ {
+  "seg": 16,
+  "start": 356.02,
+  "end": 378,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. You were kind of getting to a follow-up that I that I wanted to have, which is it it's important to have open models to your point to promote innovation. But I'm wondering in what you're seeing at NVIDIA, is it increasingly important also on the commercial side? So, like, for NVIDIA's customers. Right?",
+  "zh": "是的。你其实已经提到了我想要追问的一个问题，那就是，正如你所说，拥有开放模型对促进创新很重要。但我想知道，从你在 NVIDIA 所看到的情况来看，在商业方面，这是否也变得越来越重要？比如说，对 NVIDIA 的客户而言。对吧？"
+ },
+ {
+  "seg": 17,
+  "start": 378.56,
+  "end": 411.65,
+  "speaker": "Daniel Whitenack",
+  "en": "What is the implication of having access to open models maybe on the on the commercial side? Do you have an do you have any thoughts on that? So it's great if, like, I'm in a lab and, you know, I have, you know, five years to to work towards, you know, the next innovation, the next types of models. But if I'm in a commercial company, maybe I'm a customer of NVIDIA, I run NVIDIA hardware, how does the existence of open models help me as, you know, in the commercial world maybe?",
+  "zh": "拥有开放模型的访问权在商业方面可能意味着什么？你对此有什么想法吗？因为，如果我在一个实验室里，你知道，我有五年时间去研究下一个创新、下一代模型，那当然很好。但如果我在一家商业公司，也许是 NVIDIA 的客户，我运行 NVIDIA 的硬件，那么开放模型的存在在商业世界里对我有什么帮助？"
+ },
+ {
+  "seg": 18,
+  "start": 411.65,
+  "end": 424.435,
+  "speaker": "Ming-Yu Liu",
+  "en": "Innovation, freedom. Innovation, freedom. I think that is maybe the two words to to to summarize. Right? So, you know, you can leverage API to solve the problem.",
+  "zh": "创新，自由。创新，自由。我想这也许是可以用来总结的两个词。对吧？所以，你知道，你可以利用 API 来解决问题。"
+ },
+ {
+  "seg": 19,
+  "start": 425.155,
+  "end": 451.685,
+  "speaker": "Ming-Yu Liu",
+  "en": "And but with the open model, you can do more than what's available in in API. Yeah. So and see, the the field is finding more and more important application of AI. Right? You know, from earlier day of chatbot and now the the coding agent, and we we also see more and more agent that can do things that we didn't think it's possible.",
+  "zh": "但有了开放模型，你可以做比 API 里现成的更多的事情。是的。而且你看，这个领域正在发现越来越多 AI 的重要应用。对吧？你知道，从早期的聊天机器人到现在的编码智能体，我们也看到越来越多的智能体能做到我们以前认为不可能的事情。"
+ },
+ {
+  "seg": 20,
+  "start": 451.685,
+  "end": 471.755,
+  "speaker": "Ming-Yu Liu",
+  "en": "People are working very hard to try to figure out how AI can make our life collectively better. Right? And there there will be application that was not foreseen by the foundation model of the frontier companies who are building AI. Right? And they require some customization.",
+  "zh": "人们正在非常努力地尝试弄清楚 AI 如何能共同让我们的生活变得更好。对吧？而且会有一些应用，是那些构建 AI 的前沿公司的基座模型所没有预见到的。对吧？而这些应用需要一些定制化。"
+ },
+ {
+  "seg": 21,
+  "start": 472.315,
+  "end": 484.96002,
+  "speaker": "Ming-Yu Liu",
+  "en": "Open model allow them give them options, give them choice to do the innovation they need for their target business. And and this way, I I think it's good, for the whole society.",
+  "zh": "开放模型给了他们选择，让他们能够为自己的目标业务做所需的创新。这样一来，我认为这对整个社会都有好处。"
+ },
+ {
+  "seg": 22,
+  "start": 484.96002,
+  "end": 577.725,
+  "speaker": "Chris Benson",
+  "en": "I think, I know I was kind of following up on your point there, I was very happy recently to see NVIDIA kind of there was a moment some months back where open models in the West were starting to struggle a bit, and certain unnamed organizations were closing that had been leading the way, and so it was a delight to see NVIDIA step in and take the leadership there and follow through with some other things, the Hugging Face acquisition that's coming in, the work that you're doing. We're kind of going through this turning point toward the next generation of open models and what that looks like, especially with regard to the landscape of physical AI out there, which is my personal passion, as most of our viewers know. So would love if you could kind of, as we are pivoting into this new generation of open models in physical AI context, where it's not all API based, it's not all frontier models at big services and stuff like that, and we're all getting excited about drones in everyday life, robots in everyday life, all the different capacities that that can bring benefits. Could you kind of lay landscape?",
+  "zh": "我想，我知道我在接着你的观点往下说，我最近非常高兴地看到 NVIDIA——几个月前有过一个时刻，西方的开放模型开始有点陷入困境，某些不便点名名称的曾经领先的组织正在走向封闭，所以看到 NVIDIA 挺身而出、在那里承担领导地位并践行承诺，比如即将到来的对 Hugging Face 的收购、你们正在做的工作，真是令人欣喜。我们正在经历这个转折点，走向下一代开放模型以及它将呈现的样子，尤其是关于物理 AI 的格局，这是我的个人热情所在，正如我们大多数观众所知道的。所以我很希望，当我们转向物理 AI 语境下的这一代新开放模型时——它不全是基于 API 的，不全是大型服务的前沿模型之类的，而我们都在为日常生活中的无人机、日常生活中的机器人以及它们能带来益处的各种能力而兴奋——你能否描述一下这个格局？"
+ },
+ {
+  "seg": 23,
+  "start": 578.205,
+  "end": 595.76996,
+  "speaker": "Chris Benson",
+  "en": "As you mesh these things together, what does that look like to you now? What are you seeing as the opportunities in the near term, and kind of how are organizations that work with NVIDIA starting to position to take on this next generation of physical AI that's upon us?",
+  "zh": "当你把这些东西融合在一起时，在你看来那会是什么样子？你在近期看到了哪些机会，那些与 NVIDIA 合作的组织正在如何定位，以迎接已经到来的这一代物理 AI？"
+ },
+ {
+  "seg": 24,
+  "start": 595.76996,
+  "end": 624.8,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yeah, thanks for the great question. So I think physical AI is a term covers several important verticals. Automotive is one, factory automation is another, and robotics is sub pillar. There could be more, agriculture, construction, many of them. And physical AI are AI deployed in physical device.",
+  "zh": "是的，谢谢这个很好的问题。我认为物理 AI 是一个涵盖几个重要垂直领域的术语。汽车是一个，工厂自动化是另一个，机器人是其中一个子领域。可能还有更多，农业、建筑等等。而物理 AI 是部署在物理设备中的 AI。"
+ },
+ {
+  "seg": 25,
+  "start": 624.88,
+  "end": 650.69,
+  "speaker": "Ming-Yu Liu",
+  "en": "And physical device perturb the state of the world and complete certain tasks. And the result is shown as material, as the final something you can touch, right? That is how I would like to define physical AI. So, nowadays, we have some AI in physical device, right? But they are preliminary, right?",
+  "zh": "物理设备扰动世界的状态，完成特定的任务。其结果以物质的形式呈现，作为最终你可以触摸到的东西，对吧？这就是我想要定义物理 AI 的方式。那么，如今，我们在物理设备中已经有了一些 AI，对吧？但它们还很初级，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 650.69,
+  "end": 685.52,
+  "speaker": "Ming-Yu Liu",
+  "en": "And I think the most exciting form of physical AI, one of the most exciting forms of physical AI is a humanoid robot. And we envision that humanoid robot will be able to help people accomplish our task. And now we don't have humanoid robots surrounding us, but one day we have humanoid robots surrounding us, they will require a computer. They will require a powerful computer to help us process visual input, understand people's instruction, and then self correction in completed tasks. And these are great business opportunity for NVIDIA.",
+  "zh": "而我认为物理 AI 最令人兴奋的形式之一，就是人形机器人。我们设想人形机器人将能够帮助人们完成任务。现在我们周围还没有人形机器人，但有一天当我们周围有人形机器人时，它们将需要一台计算机。它们将需要一台强大的计算机来帮助我们处理视觉输入、理解人的指令，然后对未完成的任务进行自我纠正。而这些是 NVIDIA 了不起的商业机会。"
+ },
+ {
+  "seg": 27,
+  "start": 685.6,
+  "end": 699.495,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? So that's why NVIDIA care about Physical AI. If we can make Physical AI come, you know, the the dream of Physical AI come true, there will be allow opportunity for media. So we are very aligned. And so we want to help the field moving forward.",
+  "zh": "对吧？所以这就是 NVIDIA 关心物理 AI 的原因。如果我们能让物理 AI、物理 AI 的梦想成真，将会给 NVIDIA 带来大量机会。所以我们是非常一致的。因此我们想要帮助这个领域向前发展。"
+ },
+ {
+  "seg": 28,
+  "start": 699.495,
+  "end": 701.09503,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yeah. Yeah. Go ahead.",
+  "zh": "是的。是的。你请说。"
+ },
+ {
+  "seg": 29,
+  "start": 701.09503,
+  "end": 716.77,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. And I was wondering, just tying that back to where we started the conversation with open models, do open models have certain implications specifically in the physical AI world because of the constraints or requirements of the physical AI world?",
+  "zh": "是的。我想知道，把这和我们对话开始时谈到的开放模型联系起来，开放模型是否因为物理 AI 世界的约束或需求，而在物理 AI 世界中有某些特定的影响？"
+ },
+ {
+  "seg": 30,
+  "start": 716.77,
+  "end": 740.93,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yes. That's a good question. So I think, for example, one thing you a Physical AI model, you know, one popular Physical AI model is a policy model. A policy model is a model based on the visual observation and the interaction given by the user or some machine. And, you know, that it generates an action to complete the task.",
+  "zh": "是的。这是个好问题。我认为，举例来说，有一件事……一种物理 AI 模型，你知道，一种流行的物理 AI 模型是策略模型。策略模型是一种基于视觉观测以及用户或某台机器给出的交互的模型。你知道，它会生成一个动作来完成任务。"
+ },
+ {
+  "seg": 31,
+  "start": 740.93,
+  "end": 751.96497,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? So observation, instruction in and action out. And every robot have a different kind of sensor setup. Right? Some robot have two eyes.",
+  "zh": "对吧？所以观测和指令输入，动作输出。而每个机器人都有一套不同的传感器配置。对吧？有些机器人有两只眼睛。"
+ },
+ {
+  "seg": 32,
+  "start": 751.96497,
+  "end": 761.725,
+  "speaker": "Ming-Yu Liu",
+  "en": "Some robot have cameras mounted on the gripper. And self driving car, some car has 11 cameras. Some have seven. You know? Some have LiDAR sensor.",
+  "zh": "有些机器人在夹爪上安装了摄像头。而自动驾驶汽车，有些车有 11 个摄像头，有些有 7 个。你知道？有些有 LiDAR 传感器。"
+ },
+ {
+  "seg": 33,
+  "start": 761.805,
+  "end": 776.19,
+  "speaker": "Ming-Yu Liu",
+  "en": "So every physical device, every physical every robot see the world differently. Right? And and some of them are unique. Right? And so it's difficult to have one AI model that can cover all of these.",
+  "zh": "所以每个物理设备、每个机器人看世界的方式都不同。对吧？而且其中一些是独特的。对吧？所以很难有一个 AI 模型能覆盖所有这些情况。"
+ },
+ {
+  "seg": 34,
+  "start": 776.435,
+  "end": 801.66003,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? And when you have open model, the model come with viewing capability, like a word understanding or simulation. And from that prior, people can leverage the data they collected from their device and fine tune. You know, maybe this in the initial model only handle one camera. Now you have multi view, you know, enabled through post training and open model.",
+  "zh": "对吧？而当你有开放模型时，这个模型自带一定的能力，比如语言理解或仿真。从这个先验出发，人们可以利用他们从自己设备上收集的数据进行微调。你知道，也许这个初始模型只处理一个摄像头，现在你通过后训练和开放模型实现了多视角。"
+ },
+ {
+  "seg": 35,
+  "start": 801.66003,
+  "end": 818.165,
+  "speaker": "Ming-Yu Liu",
+  "en": "And it's easier it's more achievable with open model. Right? So I think open model give you the the innovation power. So you can customize open model to better tailor for your physical use case. This is important.",
+  "zh": "而有了开放模型，这更容易实现、更可达成。对吧？所以我认为开放模型给你创新的力量。这样你就可以定制开放模型，让它更好地适配你的物理用例。这很重要。"
+ },
+ {
+  "seg": 36,
+  "start": 818.165,
+  "end": 826.29,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? It means better leverage the observation. Right? And it also give you opportunity to make it more efficient. Yeah.",
+  "zh": "对吧？这意味着更好地利用观测。对吧？而且它也给你机会让它变得更高效。是的。"
+ },
+ {
+  "seg": 37,
+  "start": 826.45,
+  "end": 841.08496,
+  "speaker": "Ming-Yu Liu",
+  "en": "So in the end, the primary evolution will be intelligence per per watt. Right? And and so with this open architecture, you will be able to do more.",
+  "zh": "所以归根结底，主要的进化方向将是每瓦特智能。对吧？而有了这种开放架构，你将能够做得更多。"
+ },
+ {
+  "seg": 38,
+  "start": 843.165,
+  "end": 904.51,
+  "speaker": "Sponsor",
+  "en": "It's amazing to consider this topic of physical AI, how AI agents are being embedded in the physical world around us. But it just emphasizes this point that we need to have operational control of the agents that we're deploying, whether that be in the case of physical AI or in your digital infrastructure within your company where you're deploying agents as a part of your digital workforce. Operational control is critical so you can ensure that those agents are operating based on the policies that you set, and you can alert when those agents go off script and actually quarantine agents that are behaving in some destructive manner. That's exactly what we're offering with Prediction Guard, the self hosted AI control plane. This is a company that I'm leading personally, and I'm just so thrilled to see that this operational control of AI agents is at the core of what we're offering.",
+  "zh": "考虑物理 AI 这个话题真是太不可思议了——AI 智能体正在被嵌入到我们周围的物理世界中。但这恰恰强调了一点：我们需要对我们部署的智能体拥有运营控制权，无论是物理 AI 的情况，还是你公司内部数字基础设施中作为数字劳动力一部分部署的智能体。运营控制至关重要，这样你才能确保那些智能体按照你设定的策略运行，你可以在那些智能体偏离剧本时发出警报，并真正隔离那些以某种破坏性方式行事的智能体。这正是我们在 Prediction Guard 提供的——自托管的 AI 控制平面。这是我亲自领导的一家公司，我非常激动地看到，AI 智能体的运营控制正是我们所提供产品的核心。"
+ },
+ {
+  "seg": 39,
+  "start": 904.51,
+  "end": 932.205,
+  "speaker": "Sponsor",
+  "en": "We're seeing companies build and deploy fleets of AI agents without losing control of those agents, and we'd love to show you how we do that. Check us out at predictionguard.com/practicalai to book a time with myself and the team to talk more about how we're enabling this operational control of agents. Again, that's predictionguard.com/practicalai.",
+  "zh": "我们正在看到一些公司构建和部署成群的 AI 智能体，而不失去对这些智能体的控制，我们很乐意向你展示我们是如何做到这一点的。请访问 predictionguard.com/practicalai，预约时间与我和团队聊一聊，进一步了解我们如何实现智能体的运营控制。再说一次，网址是 predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 40,
+  "start": 934.5,
+  "end": 1000.09,
+  "speaker": "Chris Benson",
+  "en": "So I'd to I'd like to take you, kind of expand on what you were talking about going into the break in terms of you talked about a couple of things like fine tuning models and stuff like that, think which maybe, to some people, maybe a little bit of a lost art because people have become so API dependent on a lot of the closed models because they're used to cloud environments. And as we move into physical AI and you're taking these open models that give so much potential on what you can do with your own creativity and innovation in these physical devices, and you have to add in the sensors, as you talked about, LiDAR and other things, and whatever the robot's effectors are, how it's manipulating the real world or perturbing the real world, I believe, how you put it earlier. Could you talk you know, there's inference involved, which now is on a device versus out in the cloud, and there's power. You know? You have to have power to drive these things.",
+  "zh": "那么我想请你，展开谈谈你在进入广告之前谈到的话题——你谈到了像微调模型之类的东西，我想，对某些人来说，这可能有点像一门失传的手艺，因为人们已经变得如此依赖 API 和很多封闭模型，因为他们习惯了云环境。而随着我们进入物理 AI，你把这些开放模型——它们在你可以在这些物理设备中用自己的创造力和创新做什么方面蕴含着巨大潜力——然后你必须加入传感器，正如你谈到的，LiDAR 和其他东西，以及机器人执行器是什么、它如何操纵现实世界或扰动现实世界，我相信，就像你之前所说的那样。你能谈谈吗——其中涉及推理，现在是设备上而不是云端，还有功耗。你知道？你必须有电力来驱动这些东西。"
+ },
+ {
+  "seg": 41,
+  "start": 1000.58496,
+  "end": 1041.8451,
+  "speaker": "Chris Benson",
+  "en": "So there's all of these considerations that a lot of folks in the AI space haven't had to deal with in the past, and that that that get something out there that you can touch working toward your whatever end you're trying to achieve. Could you talk a bit about how you see that and how you put that together for so maybe kind of give a quick primer to folks that are doing AI that are watching or listening but may not have done physical AI with open models, and just kind of lay out all the concerns that they have to start thinking about there. I think that would be really useful, but just as a layout there.",
+  "zh": "所以有很多 AI 领域的人过去不必面对的考量因素，却能做出一个你能触摸到的、朝着你想要实现的目标努力的东西。你能否谈谈你是如何看待这个问题的，以及你是如何把这些整合起来的——也许可以给那些正在观看或收听、但可能没有做过基于开放模型的物理 AI 的 AI 从业者做一个快速的入门介绍，把这些他们需要开始思考的考量因素都列出来。我想这会非常有用，就作为一个概述来说。"
+ },
+ {
+  "seg": 42,
+  "start": 1041.8451,
+  "end": 1061.1849,
+  "speaker": "Ming-Yu Liu",
+  "en": "Okay, so basically it's been the difference in physical as compared to the digital AI that people are very familiar with. Okay. Yeah. So let's say you have a robot and trying to complete certain task, Right? And robot need to react very fast.",
+  "zh": "好的，基本上这与人们非常熟悉的数字 AI 相比，是物理 AI 的差异所在。好的。是的。比方说你有一个机器人，正试图完成某个任务，对吧？而机器人需要非常快速地反应。"
+ },
+ {
+  "seg": 43,
+  "start": 1061.425,
+  "end": 1080.48,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? So the the processing had to be done real time on spot. Right? And also, lot of tasks is a batch size one inference problem. So API, you can aggregate users, API code from, you know, from different users and then process them in whole.",
+  "zh": "对吧？所以处理必须在现场实时完成。对吧？而且，很多任务是批大小为 1 的推理问题。而 API，你可以把来自不同用户的 API 调用聚合起来，然后整体处理它们。"
+ },
+ {
+  "seg": 44,
+  "start": 1080.48,
+  "end": 1093.275,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? So when you do that, you know, maybe I can go back a little bit a bit. Right? So LM is a very popular architecture for coding, for chat. Right?",
+  "zh": "对吧？当你这么做的时候……你知道，也许我可以稍微往回说一点。对吧？所以 LM 是一个非常流行的架构，用于编码、用于聊天。对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 1093.275,
+  "end": 1117.7749,
+  "speaker": "Ming-Yu Liu",
+  "en": "And LM is based on the auto regress transformer, so it's memory bound. And to use the GPU power more efficiently, you can aggregate the API call from different user to to fill in the compute. Right? But the same architecture, if you put in this embedded device, right, You don't have API code to aggregate. Right?",
+  "zh": "而 LM 基于自回归 transformer，所以它是内存受限的。而为了更高效地利用 GPU 的算力，你可以聚合来自不同用户的 API 调用来填满计算。对吧？但同样的架构，如果你放到嵌入式设备中，对吧，你没有可以聚合的 API 调用。对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 1117.7749,
+  "end": 1128.975,
+  "speaker": "Ming-Yu Liu",
+  "en": "So you're not fully utilize the compute power in in that machine. So for some other architecture might be more efficient. Right? So I'm talking about because the application is different. Right?",
+  "zh": "所以你就没有完全利用那台机器的算力。所以某些其他架构可能会更高效。对吧？我说的意思是，因为应用是不同的。对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 1129.6,
+  "end": 1151.2649,
+  "speaker": "Ming-Yu Liu",
+  "en": "So it it it require different architecture and different syncing so that you can use your power, your watt more efficiently. And and also there's a real time constraint and safety constraint. So so because of the setup difference, the it gonna promote different architectures.",
+  "zh": "所以它需要不同的架构和不同的同步方式，这样你才能更高效地使用你的电力、你的瓦特。而且还有实时约束和安全约束。所以由于配置上的差异，它将会催生不同的架构。"
+ },
+ {
+  "seg": 48,
+  "start": 1151.265,
+  "end": 1180.0449,
+  "speaker": "Daniel Whitenack",
+  "en": "And maybe that leads naturally into talking about some of the architecture. Well, there's all sorts of architectures that NVIDIA has been working on for for quite a while. Obviously, you're in the Cosmos lab. I I know one of the things that you're working on is, quote, unquote, world models. You know, cosmos meaning, world as people might, might, infer.",
+  "zh": "这也许很自然地引出了谈谈架构的话题。NVIDIA 在各种架构上已经工作了相当长一段时间。显然，你在 Cosmos 实验室。我知道你们正在做的一件事就是所谓的「世界模型」。你知道，Cosmos 的意思，正如人们可能推断的那样，就是世界。"
+ },
+ {
+  "seg": 49,
+  "start": 1180.285,
+  "end": 1199.58,
+  "speaker": "Daniel Whitenack",
+  "en": "But, help help those who maybe maybe imagine someone who has just used LLMs or maybe that's their only perception of models. Help connect what a world model is and why it might be necessary in this world of physical AI.",
+  "zh": "那么请帮助那些也许刚刚用过 LLM、或者那可能是他们对模型的唯一认知的人，把世界模型是什么、以及为什么在物理 AI 的世界里它可能是必要的，联系讲解一下。"
+ },
+ {
+  "seg": 50,
+  "start": 1200.2051,
+  "end": 1224.5499,
+  "speaker": "Ming-Yu Liu",
+  "en": "Okay. So language model is a model that's a non great internal representation through processing human knowledge written in the form of language. Right? And it's optimized for this language representation to generate languages for chats, for code. You know, code is written as a language as well.",
+  "zh": "好。所以语言模型是一个通过处理以语言形式书写的人类知识来建立内部表征的模型。对吧？它针对这种语言表征进行优化，用来生成语言，用于聊天、用于代码。你知道，代码也是以语言形式书写的。"
+ },
+ {
+  "seg": 51,
+  "start": 1225.19,
+  "end": 1248.94,
+  "speaker": "Ming-Yu Liu",
+  "en": "And one model is from a different perspective. It is from the perspective of, you you have a sensory observation of the world. And you know those sensors are capturing different angles of the wall. Right? And those sensor, those camera also capture the dynamics how physics evolve.",
+  "zh": "而世界模型是从另一个角度来看的。它是从——你对世界有感官观察。你知道，这些传感器在捕捉世界（原文作 wall/wall 之处）的不同角度。对吧？这些传感器、这些相机也捕捉物理如何演化的动态。"
+ },
+ {
+  "seg": 52,
+  "start": 1248.9401,
+  "end": 1287.0549,
+  "speaker": "Ming-Yu Liu",
+  "en": "And people believe that's fun modeling these signals, you can implicitly encode the physics of the world. And with the physics kind of something you model, then you can start to do simulation. And if you connect this world representation with language representation, then you can generate explanation that help you understand why this thing happened. So it's more like one is coming from a language perspective. The other is more like a from the observation of the world of physicists and try to learn representation.",
+  "zh": "人们相信通过对这些信号建模，你可以隐式地编码世界的物理规律。而一旦物理规律成为某种你能建模的东西，你就可以开始做模拟。如果你把这个世界表征和语言表征连接起来，你就可以生成解释，帮助你理解为什么会发生这件事。所以更像是：一个来自语言视角，另一个更像是来自对世界、对物理学家的观察，去尝试学习表征。"
+ },
+ {
+  "seg": 53,
+  "start": 1287.0549,
+  "end": 1291.455,
+  "speaker": "Ming-Yu Liu",
+  "en": "So different way of learning the representations. And, of course, they have different use cases.",
+  "zh": "所以是不同的学习表征的方式。当然，它们有不同的用例。"
+ },
+ {
+  "seg": 54,
+  "start": 1291.455,
+  "end": 1310.345,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. And and I guess language is a represent or it it represents part of the knowledge or how people experience the world, but it's only a small piece of how people experience the world. Right? Like, I'm I'm looking at you with my eyes. I'm I'm hearing things.",
+  "zh": "是的。我想语言是一种表征，或者说它表征了知识或人们体验世界的方式的一部分，但它只是人们体验世界的很小一部分。对吧？比如，我在用眼睛看着你。我在听东西。"
+ },
+ {
+  "seg": 55,
+  "start": 1310.345,
+  "end": 1331.19,
+  "speaker": "Daniel Whitenack",
+  "en": "I as you mentioned, I see things from different perspective. I see how physics is evolving. Is is is it true so so in an example world model to just make it tangible for people. In an LLM, you would basically put in text and get out text or a next at least the next predicted token. Right?",
+  "zh": "正如你提到的，我从不同的视角看东西。我看到物理如何演化。是不是这样——为了让人们更容易理解，举个例子。在一个 LLM 里，你基本上是输入文本，然后得到输出文本，或者至少得到下一个预测的 token。对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 1331.19,
+  "end": 1364.975,
+  "speaker": "Daniel Whitenack",
+  "en": "Or in a image generation model, you'd put in text and then get out get out an image. In the world model case, what what is an example, sort of input and output? One of those might be, as you mentioned, maybe it's just a representation of of the world, and then you build additional things on top of that. But maybe help people get some intuition about what do you put into a world model, and what do you get out when you're actually operating prediction with the world model?",
+  "zh": "或者在一个图像生成模型里，你输入文本，然后得到一张图像。那在世界模型的情况下，什么是例子，比如输入和输出？其中一个可能是，正如你提到的，也许它只是世界的一种表征，然后你在其之上构建额外的东西。但也许帮人们建立一些直觉：当你真正用世界模型做预测时，你往世界模型里输入什么，得到什么？"
+ },
+ {
+  "seg": 57,
+  "start": 1364.975,
+  "end": 1383.4299,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yes. So I want to touch a point before answering this question. So people build a model for a purpose. Right? And we did in the world, so we are entity building some model of the world, so we can do a lot of different task.",
+  "zh": "好。在回答这个问题之前，我想先提一点。人们为了某个目的而构建模型。对吧？我们生活在这个世界里，我们是在为世界构建某种模型的实体，这样我们才能做很多不同的任务。"
+ },
+ {
+  "seg": 58,
+  "start": 1383.51,
+  "end": 1394.4849,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? One is to predict how it gonna happen and some is to explain what happened. Right? Or sometimes you will need to do navigation so you have the three d representation of the world. So some people call it war model.",
+  "zh": "对吧？一个是预测将要发生什么，另一个是解释发生了什么。对吧？或者有时候你需要做导航，所以你有世界的三维表征。所以有些人把它叫做 world model（原文 war model）。"
+ },
+ {
+  "seg": 59,
+  "start": 1394.645,
+  "end": 1415.755,
+  "speaker": "Ming-Yu Liu",
+  "en": "To to me, war model is a way to solve some task. Right? And so it's difficult to to me, difficult to use, like the input, output to kind of define what is a world model. So I I would like to say some sort of modeling of the world is a world model. Okay?",
+  "zh": "对我来说，世界模型是解决某些任务的一种方式。对吧？所以对我来说，很难用输入输出来定义什么是世界模型。所以我想说，对世界的某种建模就是世界模型。好吗？"
+ },
+ {
+  "seg": 60,
+  "start": 1415.755,
+  "end": 1451.865,
+  "speaker": "Ming-Yu Liu",
+  "en": "And and from my perspective, because our mission is to build physical the mission of Cosmos is to build a, you know, physical foundation model to help the whole ecosystem. So we realized that in early day that you need to have world simulation capability, given the current observation and that there's the action input, what gonna happen in the future. For this world simulation capability, the input is the current observation and the action sequence. Sometimes the action can be described in text. Right?",
+  "zh": "而从我的角度来看，因为我们的使命是构建物理——Cosmos 的使命是构建一个物理基础模型来帮助整个生态系统。所以我们在很早就意识到，你需要拥有世界模拟能力：给定当前观测和动作输入，未来会发生什么。对于这种世界模拟能力，输入是当前观测和动作序列。有时候动作可以用文本描述。对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 1452.265,
+  "end": 1479.375,
+  "speaker": "Ming-Yu Liu",
+  "en": "And the output is the the future, the what gonna happen maybe in video, maybe in audio, in the future when you have other modality, you know, other modality. So world simulation. And the other thing is the world understanding. Right? So so you want to understand, you know, why this you know you know, you ask a robot to complete a task and and it didn't complete.",
+  "zh": "而输出是未来，将要发生什么，也许以视频形式，也许以音频形式，将来你会有其他模态，你知道，其他模态。所以是世界模拟。另一件事是世界理解。对吧？所以你想理解，你知道，为什么这个——你知道，你让一个机器人完成一个任务，而它没完成。"
+ },
+ {
+  "seg": 62,
+  "start": 1479.375,
+  "end": 1487.69,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? You want to understand what happened. Right? So there's a obstacle blocked blocked the pathway of the robot arm, so it couldn't. Right?",
+  "zh": "对吧？你想理解发生了什么。对吧？所以有一个障碍物挡住了机械臂的路径，所以它没法完成。对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 1487.69,
+  "end": 1502.535,
+  "speaker": "Ming-Yu Liu",
+  "en": "So the the when the situation like this happen, you you found the sensory input. Right? You you of have a modeling what happened. Right? But in order to for people, the receiver and the question asked is a human, right?",
+  "zh": "所以当这种情况发生时，你找到了感官输入。对吧？你对发生的事情做了建模。对吧？但为了让人们——接收者和提问者是人类，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 1502.535,
+  "end": 1521.8501,
+  "speaker": "Ming-Yu Liu",
+  "en": "So you need to connect those word representation to language, so it can generate some description that people understand. Yeah. So and So there's another side of role model understanding. So it's more similar to multimodal ALM. So you have the video, and you have the description, and you have the test as output.",
+  "zh": "所以你需要把这些世界表征连接到语言，这样它才能生成人们能理解的描述。是的。所以这是世界模型理解的另一面。它更像多模态 LLM。所以你有视频，你有描述，然后输出文本。"
+ },
+ {
+  "seg": 65,
+  "start": 1521.8501,
+  "end": 1546.67,
+  "speaker": "Ming-Yu Liu",
+  "en": "And in COSMO, we believe that, you know, one is for world understanding, the other is for world simulation. Right? Although they for different purposes, but they model the same world. So so in COSMO three, our latest COSMO model, we actually fuse them together Because we believe that the representation can be shared because, you know, we live in the same world. Right?",
+  "zh": "而在 Cosmos（原文 COSMO）里，我们相信，一个是用于世界理解，另一个是用于世界模拟。对吧？虽然它们用途不同，但它们建模的是同一个世界。所以在 Cosmos 3，我们最新的 Cosmos 模型里，我们实际上把它们融合在一起，因为我们相信表征是可以共享的，因为，你知道，我们生活在同一个世界里。对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 1546.67,
+  "end": 1562.485,
+  "speaker": "Ming-Yu Liu",
+  "en": "It's the same stuff. Yeah. So yeah. And for the world understanding, the input is video, text, output is text, and for world simulation, the input is, you know, observation, action, output is test output is video. Sorry.",
+  "zh": "是同样的东西。是的。所以，对于世界理解，输入是视频、文本，输出是文本；而对于世界模拟，输入是观测、动作，输出是文本输出——是视频。抱歉。"
+ },
+ {
+  "seg": 67,
+  "start": 1562.485,
+  "end": 1587.125,
+  "speaker": "Ming-Yu Liu",
+  "en": "And for me, put together, it become an omni model. You have different inputs. You know, in Cosmos, we actually support text, action, audio, video as the input, and also support text, audio, video, action as output. So you can find all combination, and I think a developer can choose the best way they want to build on top of it.",
+  "zh": "而对我来说，把它们放在一起，它就成为一个全模态模型。你有不同的输入。你知道，在 Cosmos 里，我们实际上支持文本、动作、音频、视频作为输入，也支持文本、音频、视频、动作作为输出。所以你可以找到所有组合，我认为开发者可以选择他们想要的最好方式在其之上进行构建。"
+ },
+ {
+  "seg": 68,
+  "start": 1587.125,
+  "end": 1632.0499,
+  "speaker": "Chris Benson",
+  "en": "That was really good. I'd like to ask a clarifying question because there's a couple of terms out there that I'd like to get kind of your definitions and how they relate a little bit. One is obviously this notion of world model, which you've been diving into, but a number of times, obviously, you've mentioned simulation. And for those who may not be familiar with this, how do you define or relate the notion of simulation, where you could either have more of a simulator like what people may be already familiar with, which also is obviously in gaming and things like that, with the notion of the world model as you've just explained it, how do those two terms relate to each other?",
+  "zh": "那真的很好。我想问一个澄清性的问题，因为有几个术语，我想听听你的定义以及它们之间的关系。一个显然是世界模型这个概念，你一直在深入探讨它；但显然你已经多次提到模拟。对于那些可能不熟悉的人，你如何定义或者关联模拟这个概念——你可以有一个更偏向模拟器的东西，就像人们可能已经熟悉的那样，这在游戏等领域显然也存在——和你刚才解释的世界模型的概念，这两个术语是如何相互关联的？"
+ },
+ {
+  "seg": 69,
+  "start": 1632.0499,
+  "end": 1661.8999,
+  "speaker": "Ming-Yu Liu",
+  "en": "Okay, good question. So people are spending centuries of years studying how the world work, and they sometimes put that in equations. Right? And we have, you know, simulated the environment governed by program built on top of those equation. You know, how you know, when two things, you know, hit each other, how is it gonna happen?",
+  "zh": "好，好问题。人们花费了几个世纪的时间研究世界如何运作，他们有时把它放进方程里。对吧？我们模拟了由建立在这些方程之上的程序所 governing 的环境。你知道，当两个东西碰撞时，会发生什么？"
+ },
+ {
+  "seg": 70,
+  "start": 1661.98,
+  "end": 1695.635,
+  "speaker": "Ming-Yu Liu",
+  "en": "Those are we consider classical simulators. Right? So they are based on physicists, the dual, people's interpretation, equations, and then to govern how things scene I described earlier, people generally call it neural simulation. So it's a data driven way of doing simulation. Instead of the residue put the physics in, you saw tons of observation, you know, showing different, you know, how two scene hit together.",
+  "zh": "这些我们认为是经典模拟器。对吧？所以它们基于物理——人们对物理的解释、方程，然后用来 govern 事物如何运转（原文 scene）。我之前描述的那种方式，人们一般叫它神经模拟。所以它是一种数据驱动的做模拟的方式。不是把物理放进去（原文 residue），而是你看到大量的观测，你知道，展示不同的——两个场景如何撞在一起。"
+ },
+ {
+  "seg": 71,
+  "start": 1695.635,
+  "end": 1723.0549,
+  "speaker": "Ming-Yu Liu",
+  "en": "They they kind of separated or, you know, when you pour water to the ground, how water spread out. It show a lot of different scenes, visual observation to to a model. And the model then data can approximate, predict what gonna happen when they see similar patterns. So it's more like a pattern recognition based way of doing the simulation. Right?",
+  "zh": "它们相互分开，或者，当你把水倒到地上时，水如何扩散。它向模型展示很多不同的场景、视觉观测。然后模型通过数据可以近似、预测当它们看到相似模式时会发生什么。所以更像是一种基于模式识别的做模拟的方式。对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 1723.0549,
+  "end": 1727.775,
+  "speaker": "Ming-Yu Liu",
+  "en": "So one is rule based, but the other is more like a data driven approximation.",
+  "zh": "所以一个是基于规则的，另一个更像是数据驱动的近似。"
+ },
+ {
+  "seg": 73,
+  "start": 1727.775,
+  "end": 1774.9299,
+  "speaker": "Daniel Whitenack",
+  "en": "And I'm I'm coming from a perspective expert like you or or Chris in this area of of physical AI and and world models. I and I'm wondering in my mind, maybe as a nonexpert, you're talking about world models. You're talking about simulation, etcetera. If we go all the way back to kind of one of those concrete examples, like the robot or the, manufacturing case or the automotive case, where does the world model come into play as you're creating the models that are actually, driving decision making or movement or actions in the robot in the physical world? Where does that fit in versus some other things like you mentioned, policy models, etcetera?",
+  "zh": "而我——我是以一个像你或 Chris 那样的专家视角之外的——在这个物理 AI 和世界模型的领域里。我在想，也许作为一个非专家，你在谈世界模型，你在谈模拟等等。如果我们回到那些具体的例子之一，比如机器人、制造业案例或者汽车案例，当你创建那些真正驱动物理世界中机器人的决策制定、运动或动作的模型时，世界模型在哪里发挥作用？相对于其他东西，比如你提到的策略模型等等，它处于什么位置？"
+ },
+ {
+  "seg": 74,
+  "start": 1775.41,
+  "end": 1775.89,
+  "speaker": "Daniel Whitenack",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 75,
+  "start": 1776.4501,
+  "end": 1790.345,
+  "speaker": "Ming-Yu Liu",
+  "en": "It's a good question. So in COSMO, we build this foundation model and try to learn a good world representation. Right? And this model can be used in many different ways. From the simulation perspective.",
+  "zh": "这是个好问题。在 Cosmos（原文 COSMO）里，我们构建这个基础模型，尝试学习一个好的世界表征。对吧？而这个模型可以用在很多不同的方式。从模拟的角度来说。"
+ },
+ {
+  "seg": 76,
+  "start": 1790.425,
+  "end": 1801.1,
+  "speaker": "Ming-Yu Liu",
+  "en": "Okay. Let's say I'm building a self driving car policy. Right? A policy that can navigate navigate to drive the car from destination a to b. Right?",
+  "zh": "好。假设我在构建一个自动驾驶汽车的策略。对吧？一个能够导航、把车从目的地 A 开到 B 的策略。对吧？"
+ },
+ {
+  "seg": 77,
+  "start": 1801.18,
+  "end": 1831.7899,
+  "speaker": "Ming-Yu Liu",
+  "en": "So as developing the model, I might have many different checkpoints. Right? And how do I know that checkpoint a is better than checkpoint b? In the old day, what people do is that they have a fleet of cars and driver. Whenever I have a new policy and we deploy the policy to the car, and that the driver kind of, you know, take the car to the field and see, you know, record how good is the policy model.",
+  "zh": "所以在开发模型的过程中，我可能有很多不同的 checkpoint。对吧？我怎么知道 checkpoint A 比 checkpoint B 好？在过去，人们做的是：他们有一队车和司机。每当我有新策略，我们把策略部署到车上，司机把车开到现场去看，你知道，记录这个策略模型有多好。"
+ },
+ {
+  "seg": 78,
+  "start": 1831.7899,
+  "end": 1850.895,
+  "speaker": "Ming-Yu Liu",
+  "en": "And you can clearly see that this is, you know, not scalable. Right? It's limit how many iteration you can do. Right? But with a world model, right, instead of having your policy, you know, deploy the real car, you know, driving the real world, you can have your policy interact with a world model.",
+  "zh": "而你可以清楚地看到，这是，你知道，不可扩展的。对吧？它限制了你能做多少次迭代。对吧？但是有了世界模型，对吧，不用把你的策略部署到真实的车上在真实世界里开，你可以让你的策略与世界模型交互。"
+ },
+ {
+  "seg": 79,
+  "start": 1850.99,
+  "end": 1862.51,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? When you're still left, what you're gonna see? You're still right, what you're gonna see? Right? And from this simulation, you can verify the accuracy of a checkpoint.",
+  "zh": "对吧？当你左转时，你会看到什么？你右转时，你会看到什么？对吧？通过这种模拟，你可以验证一个 checkpoint 的准确性。"
+ },
+ {
+  "seg": 80,
+  "start": 1862.51,
+  "end": 1886.2899,
+  "speaker": "Ming-Yu Liu",
+  "en": "It can help you quickly narrow down a couple hypotheses you have. And then use then you have few one that you think is truly valuable, and you do the real test. It help you to get this iteration faster, now we know in technology, the most important thing is how far you can do iteration. Right? Then you can develop better policy for your self driving car.",
+  "zh": "它可以帮你快速缩小你拥有的几个假设。然后当你有几个你认为真正有价值的，你再做真实测试。它帮你更快地迭代。现在我们知道在技术领域，最重要的事情是你能做多快的迭代。对吧？这样你就能为你的自动驾驶车开发更好的策略。"
+ },
+ {
+  "seg": 81,
+  "start": 1886.2899,
+  "end": 1904.595,
+  "speaker": "Ming-Yu Liu",
+  "en": "It cannot be the same for robots, right? And this is the world simulation. The representation allow you to do simulation, what it can do for physical AI. The other thing is that, you know, this can be also a great backbone for a parsing model. Right?",
+  "zh": "机器人也可以用同样的方式，对吧？这就是世界模拟。这个表征让你可以做模拟，这是它能为物理 AI 做的。另一件事是，它也可以是一个很好的骨干（backbone）用于策略模型。对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 1904.595,
+  "end": 1923.535,
+  "speaker": "Ming-Yu Liu",
+  "en": "In a one model, it has one representation. It's understand, you know, it's able to understand the instruction given by human. Right? And it's when you model the world, right, the the it generate the piece of space evolution. Right?",
+  "zh": "在一个世界模型里，它有一种表征。它理解，你知道，它能够理解人类给出的指令。对吧？而当你建模世界时，对吧，它生成像素空间的演化。对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 1923.535,
+  "end": 1972.1499,
+  "speaker": "Ming-Yu Liu",
+  "en": "And the pixel space evolution has a strong correlation to the control signal you might need to use to complete certain manipulation tasks. And that correlation become a great regularization to help you build a better policy model when when the data is more limited. So I think a world representation is the key. And and and since physical AI gonna operate in the real world, and this world representation encapsulate in this foundation model are gonna be useful in a different way. And it's also kind of important we need to make it open so that, you know, people can can test out and share feedback with us, and we can then double down on the capability that's more important to help the Physical AI ecosystem.",
+  "zh": "而像素空间的演化与你完成某些操作任务可能需要使用的控制信号有很强的相关性。而这个相关性成为一个很好的正则化，帮助你在数据更有限时构建更好的策略模型。所以我认为世界表征是关键。而且由于物理 AI 要在真实世界中运作，这个封装在这个基础模型里的世界表征会以不同的方式发挥作用。而且让它开源也很重要，这样人们可以测试并与我们分享反馈，然后我们可以加倍投入那些更重要的能力，以帮助物理 AI 生态系统。"
+ },
+ {
+  "seg": 84,
+  "start": 1973.91,
+  "end": 2009.435,
+  "speaker": "Sponsor",
+  "en": "Wow. It's just amazing to hear MingYu talk about NVIDIA's effort to make sure that there is a community of open source enthusiasts, those that are working on open models to foster a real community of innovation around AI and agents. And that is so practical. That's what we're about here at Practical AI is that sort of practical value. And we share that with an amazing event that's happening October 15, just here in a couple weeks, 10/15/2026 called the Midwest AI Summit.",
+  "zh": "哇。听到 MingYu 谈论 NVIDIA 努力确保有一个开源爱好者社区、那些致力于开放模型的人来培育围绕 AI 和智能体的真正创新社区，真是令人惊叹。这非常实用。这正是我们 Practical AI 在这里所关注的——那种实用价值。我们与一个正在发生的精彩活动分享这一点，就在几周后的 10 月 15 日，2026 年 10 月 15 日，叫做 Midwest AI Summit。"
+ },
+ {
+  "seg": 85,
+  "start": 2009.435,
+  "end": 2052.7,
+  "speaker": "Sponsor",
+  "en": "We're one of the media media sponsors of this event, and I'm personally going to be an emcee at the event. And it's just filled with amazing practical value. There's an AI engineering lounge where you can sit one on one with AI experts that actually can practically provide amazing feedback on your roadmap, toolset, architecture, etcetera. There's gonna be amazing talks from leaders in the field from all over, talking about why they've made certain decisions in their AI roadmap, how you can deploy agents off of your laptop into cloud environments, so much more, so much practicality, plus there's free food and other amazing things. This isn't one to miss.",
+  "zh": "我们是这个活动的媒体赞助商之一，我个人将是活动的主持人。它充满了精彩的实用价值。有一个 AI 工程休息区，你可以和 AI 专家一对一交流，他们真的能在实用层面为你的路线图、工具集、架构等提供精彩的反馈。将有来自各地领域领袖的精彩演讲，谈论他们为什么在 AI 路线图中做出某些决定，如何将智能体从你的笔记本电脑部署到云环境中，还有更多，非常多的实用内容，另外还有免费食物和其他精彩的东西。这是一个不容错过的活动。"
+ },
+ {
+  "seg": 86,
+  "start": 2052.7,
+  "end": 2059.98,
+  "speaker": "Sponsor",
+  "en": "So check it out, midwestaisummit.com, and you can use the code Practical AI 20 to get",
+  "zh": "所以去看看吧，midwestaisummit.com，你可以使用代码 Practical AI 20 来获得"
+ },
+ {
+  "seg": 87,
+  "start": 2059.98,
+  "end": 2080.56,
+  "speaker": "Daniel Whitenack",
+  "en": "20% registration. Do not miss this. Register today. Use the code Practical AI 20 to get 20% off registration for the Midwest AI Summit. Find out more at midwestaisummit.com and use the code Practical AI 20 for 20% off registration.",
+  "zh": "20% 的注册折扣。不要错过。今天就注册。使用代码 Practical AI 20 获得 Midwest AI Summit 注册的 20% 折扣。了解更多信息请访问 midwestaisummit.com，使用代码 Practical AI 20 享受注册 8 折优惠。"
+ },
+ {
+  "seg": 88,
+  "start": 2082.4001,
+  "end": 2171.13,
+  "speaker": "Chris Benson",
+  "en": "So I'd like to I'd like to kind of maybe expand, might be the right word, the conversation into another dimension, and that's the fact that by contrast in kind of the cloud digital world, people are often used to dealing with an LLM either by itself or it's managing collection of agents that are doing tasks and stuff, but that interface is very much there's a human and there's that LLM and they are agreeing on what's gonna happen with the AI agents going and doing things. When you move things into the physical realm, you add the dimension of you may have all of those things happening, but you also have many physical devices that are beginning to interact together, and they're interacting with humans in different ways, and so the notion of what interactions are gets quite complex. I was wondering if you could kind of walk us through that a bit and maybe kind of take us into that new dimension of we're not talking about one robot now, or one self driving car or whatever you wanna address, but maybe a whole bunch of them. Maybe you have a city full of them, and that's what is mostly there, and they're in all the domains, everything from the ground all the way up and all the way down, maybe undersea and stuff like that.",
+  "zh": "所以我想——我想也许可以——可能「扩展」是个合适的词——把对话引入另一个维度，那就是：相比之下，在云端的数字世界里，人们通常习惯于单独使用 LLM，或者它管理着一组正在执行任务等的智能体，但那个界面很大程度上是：有一个人和那个 LLM，他们商定 AI 智能体要去做的事情。当你把事情带入物理领域时，你增加了一个维度：你可能拥有所有那些东西在发生，但你还拥有许多物理设备开始相互交互，它们以不同方式与人类交互，所以「交互」这个概念变得相当复杂。我想知道你能否带我们走一遍这个，也许把我们带进那个新的维度：我们现在不是在谈论一个机器人，或一辆自动驾驶车，或任何你想说的东西，而是也许是整整一大群。也许你有一整座城市都是它们，而且它们遍布所有领域，从地面一直到上空，再到地下，也许还有海底之类的。"
+ },
+ {
+  "seg": 89,
+  "start": 2171.675,
+  "end": 2188.1702,
+  "speaker": "Chris Benson",
+  "en": "We may have robots eventually in our bodies, nanobots that are doing so could you lay out what this implies and what some of the extra considerations are that you have to start thinking about to set this new reality up?",
+  "zh": "我们最终可能会有机器人进入我们的身体，做这些事的纳米机器人。那么你能描述一下这意味着什么，以及为了建立这个新现实，你不得不开始思考的一些额外考量是什么？"
+ },
+ {
+  "seg": 90,
+  "start": 2188.1702,
+  "end": 2214.45,
+  "speaker": "Ming-Yu Liu",
+  "en": "Good question. So I've been asking myself what the future gonna look like, right? So I believe, let me take one example, right? So let's say I'm a manufacturer, I build some very cool toy called robot dog, okay? And I got older, people want a minion robot dog, Right?",
+  "zh": "好问题。所以我自己一直在问未来会是什么样子，对吧？所以我相信——让我举个例子，对吧？假设我是一个制造商，我造了一个很酷的玩具，叫机器狗，好吗？然后变老了，人们想要一个跟班机器狗，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 2214.45,
+  "end": 2241.355,
+  "speaker": "Ming-Yu Liu",
+  "en": "And I might have a digital agent powered by LN. Help me understand, look at my inventory, help me understand what the materials I have in different places. Right? So there's an agent, LN agent, to kind of do some high level planning, right? And now I know that I need to ship certain material from factory B to factory A so that I can manufacture the robot in factory A.",
+  "zh": "而我可能有一个由 LLM（原文 LN）驱动的数字智能体，帮我理解、查看我的库存，帮我在不同地方有哪些材料。对吧？所以有一个智能体，LLM 智能体，做一些高层规划，对吧？现在我知道我需要把某些材料从工厂 B 运到工厂 A，这样我才能在工厂 A 制造机器人。"
+ },
+ {
+  "seg": 92,
+  "start": 2241.88,
+  "end": 2273.37,
+  "speaker": "Ming-Yu Liu",
+  "en": "And and then that that agent send, you know, demand to to the maybe the factory floor agent in factory b, and factory floor agent b do a hand easy handshake. Right? And and that factory 4 gonna have some robots, some mobile platform. Right? And the robot might carry the good to put the mobile platform and mobile platform put, you know, load in a truck, and the truck go from a self driving truck go from factory b to factory a.",
+  "zh": "然后那个智能体向工厂 B 的——也许车间智能体发送需求，车间智能体 B 做一个握手。对吧？而那个车间会有一些机器人、一些移动平台。对吧？机器人可能把货物搬到移动平台上，移动平台把货物装进卡车，然后自动驾驶卡车从工厂 B 开到工厂 A。"
+ },
+ {
+  "seg": 93,
+  "start": 2273.4502,
+  "end": 2288.9949,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? And then we start to do the manufacturing. And every station in in, you know, in assemble the staff, gonna have visual inspection. They gonna have a robot arm, right? There'll be some kind of closed loop, and those gonna be operated by another agent, right?",
+  "zh": "对吧？然后我们开始做制造。装配环节的每个工位都会有视觉检测。它们会有机械臂，对吧？会有某种闭环，而这些将由另一个智能体操作，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 2288.9949,
+  "end": 2312.26,
+  "speaker": "Ming-Yu Liu",
+  "en": "So I think the world gonna be multi agent, right? And also go back to my previous viewpoints, right? So in the end, the intelligence per dollar, you know, matters. Right? And the different tasks, you know, probably don't need your robot arm to solve be capable of solving solve Olympiad mass problem.",
+  "zh": "所以我认为世界会是多智能体的，对吧？而且回到我之前的观点，对吧？归根结底，每美元的智能（intelligence per dollar），对吧，很重要。而不同的任务，你知道，大概不需要你的机械臂具备解决奥数题（原文 Olympiad mass）的能力。"
+ },
+ {
+  "seg": 95,
+  "start": 2312.26,
+  "end": 2327.5151,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? You probably want it to be more sensitive in in some kind of manipulation task. So I I I think we are looking at war with a multi different specialized agent, and they cannot work together and to complete certain tasks. And and drone, you know, can be one of them. Right?",
+  "zh": "对吧？你可能更希望它在某种操作任务上更灵敏。所以我想我们看到的是一个拥有多个不同专业化智能体的世界，它们能够协同工作来完成某些任务。而无人机，你知道，可以是其中之一。对吧？"
+ },
+ {
+  "seg": 96,
+  "start": 2327.5151,
+  "end": 2353.305,
+  "speaker": "Ming-Yu Liu",
+  "en": "So I might be owning a farm, let's say, produce tea. Right? And I can have drone to collect the tea leaf and then put that in the package, you know. So all of them so I think we like agent because, you know, agent is somebody has certain autonomy to behave to to to complete test on behalf of you. Right?",
+  "zh": "所以我可能拥有一个农场，比如说，生产茶叶。对吧？我可以用无人机收集茶叶，然后放进包装里，你知道。所以所有这些——我想我们喜欢智能体是因为，智能体是拥有一定自主性去行动、代表你完成任务的某个东西，对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 2353.8,
+  "end": 2365.4001,
+  "speaker": "Ming-Yu Liu",
+  "en": "You require that agent have some self creation capability. Right? That the part we like. And and and also, you kind of puts all the problem to agent and it figures how you want to solve that. Right?",
+  "zh": "你要求那个智能体有某种自我规划（原文 self creation）能力。对吧？那是我们喜欢的部分。而且，你可以把所有问题丢给智能体，它自己想办法解决。对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 2365.4001,
+  "end": 2382.485,
+  "speaker": "Ming-Yu Liu",
+  "en": "And so we're gonna have specialized agent and there's some agent good at distributing tasks, and sometimes you're good at completing tasks, and they're gonna talk together, work together to complete the stuff. Yeah. And this is how I think this is what I think gonna happen. Yeah. This is my view, by the way.",
+  "zh": "所以我们将拥有专业化智能体，有些智能体擅长分配任务，有些擅长完成任务，它们会相互交谈、协同工作来完成事情。是的。这就是我认为会发生的。是的。顺便说，这是我的观点。"
+ },
+ {
+  "seg": 99,
+  "start": 2382.9,
+  "end": 2425.23,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I I love that perspective. It really helps bring a concrete visualization to my mind of of of what this may look like. And it but it does maybe to some people out there, It also triggers some well, there's obviously challenges, right, to to get there. I I almost I think about, about AI agents, every day in my day to day work, not physical AI, but there's this idea of cascading failure of of AI agents, right, which is this sort of idea, oh, like, something small happens over here, but the all the agents are interacting, and there's this sort of system wide failure.",
+  "zh": "是的。我很喜欢那个视角。它真的帮助我在脑海中形成了这可能的样子的具体画面。但它对那里的某些人来说，也许也会引发一些——显然，要达到那个目标是有挑战的，对吧？我几乎——我每天都在日常工作中思考 AI 智能体，不是物理 AI，但有这个 AI 智能体级联失败的概念，对吧，就是这种想法：哦，这边发生了什么小事，但所有智能体都在交互，于是出现这种系统性的全面失败。"
+ },
+ {
+  "seg": 100,
+  "start": 2425.965,
+  "end": 2442.26,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe, you know, obviously, if things are interconnected, thing things can happen. But from your perspective, maybe it's that. Maybe it's something else. What do you see as the challenges that you know, you mentioned we we're working towards these innovations. Right?",
+  "zh": "也许，你知道，显然，如果各种事物是相互关联的，事情就可能发生。但从你的角度来看，也许就是那个原因，也许是别的原因。你认为挑战是什么？你提到过，我们正在朝着这些创新努力，对吧？"
+ },
+ {
+  "seg": 101,
+  "start": 2442.26,
+  "end": 2458.235,
+  "speaker": "Daniel Whitenack",
+  "en": "You you are working towards these NVIDIA, the industry. What are some of the main challenges in your mind from getting kind of from where we're at now to something that looks more like that, what what are some of the categories of those challenges in your in your mind?",
+  "zh": "你们正在朝着这些 NVIDIA、整个行业的方向努力。在你看来，从我们现在的状态到看起来更像那样的未来，主要挑战有哪些？在你心目中，这些挑战有哪些类别？"
+ },
+ {
+  "seg": 102,
+  "start": 2458.235,
+  "end": 2474.1301,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yeah. So it's in the account. And and the the picture I just give, you know, multiple agent working together, complete, like, production task might be decades away. Right? So we are not yet there.",
+  "zh": "是的。这是在考虑之中。我刚才描述的那幅图景，你知道，多个智能体协同工作、完成生产任务，可能还需要几十年。对吧？所以我们还没有到那一步。"
+ },
+ {
+  "seg": 103,
+  "start": 2474.21,
+  "end": 2499.49,
+  "speaker": "Ming-Yu Liu",
+  "en": "And verify the correctness is super important. Right? So like what you said, so I envision there gonna be also supervisor agents working in the factory floor and trying to capture scenes that not yet been identified. Right? And also, building this physical AI also requires strong robots.",
+  "zh": "而且验证正确性非常重要。对吧？就像你说的，所以我设想还会有监督智能体在工作现场运行，试图捕捉尚未被识别的场景。对吧？另外，构建这种物理 AI 也需要强大的机器人。"
+ },
+ {
+  "seg": 104,
+  "start": 2499.49,
+  "end": 2535.7002,
+  "speaker": "Ming-Yu Liu",
+  "en": "Right? And know that human knowing robots, they evolve very fast, but I think that they are not yet kind of ready for major commercial use. Right? And also, know, to achieve full automation, we need our robot be smarter, even the robot smarter and more, I would say, more configurable so that you can have a new task and maybe just read the user menu and the robot arm figure out how to assemble this. Right?",
+  "zh": "对吧？而且要知道，人形机器人，它们进化得非常快，但我认为它们还没有做好大规模商用的准备。对吧？另外，你知道，要实现完全自动化，我们需要让机器人更聪明，让机器人更智能，而且，我会说，更可配置，这样你有一个新任务时，也许只需读一下用户手册，机械臂就能搞清楚怎么装配。对吧？"
+ },
+ {
+  "seg": 105,
+  "start": 2535.7002,
+  "end": 2555.44,
+  "speaker": "Ming-Yu Liu",
+  "en": "Those are not yet there. So I think there are a lot of problem need to figure out, and I think it's difficult for one company to do it alone. I think we need a whole ecosystem. And that's why, you know, I think building this open model is super important, right? Because you enable more people the tool to do the inspiration and to do innovation.",
+  "zh": "这些还不存在。所以我认为有很多问题需要解决，而且我认为一家公司独自完成是很困难的。我认为我们需要整个生态系统。这就是为什么，你知道，我认为构建开放模型非常重要，对吧？因为你让更多的人拥有工具去获得灵感、去做创新。"
+ },
+ {
+  "seg": 106,
+  "start": 2555.44,
+  "end": 2563.52,
+  "speaker": "Ming-Yu Liu",
+  "en": "And I think, you know, to achieve that beautiful future, open model gonna play a critical role.",
+  "zh": "而且，你知道，要实现那个美好的未来，开放模型将扮演关键角色。"
+ },
+ {
+  "seg": 107,
+  "start": 2564.175,
+  "end": 2599.985,
+  "speaker": "Daniel Whitenack",
+  "en": "And on that front, I guess, you know, drawing somewhat closer to to an end here, NVIDIA is pushing forward this narrative about open models. Right? And I'm very personally thankful for that, and you've emphasized that here. How can maybe there's, software engineers, developers, AI practitioners listening to this podcast. How might they even get started, in this in this area, find some of the resources, the open resources that NVIDIA is putting out there?",
+  "zh": "在这个问题上，我想，你知道，我们差不多快到节目的尾声了，NVIDIA 正在推动关于开放模型的叙事。对吧？我个人对此非常感激，你在这里也强调了这一点。也许有软件工程师、开发者、AI 从业者在收听这个播客。他们该如何入门，进入这个领域，找到 NVIDIA 正在发布的一些资源、开放资源呢？"
+ },
+ {
+  "seg": 108,
+  "start": 2601.025,
+  "end": 2622.095,
+  "speaker": "Daniel Whitenack",
+  "en": "Any suggestions or tips for people that may want to try to start getting into this this innovation, you know, in in terms of a starting point? And, of course, I'll tell our listeners too, we'll include a bunch of show notes as well in our episode where you can click and find some of these things. But any thoughts there, MingYu?",
+  "zh": "对于那些想开始涉足这项创新的人，作为起点，有什么建议或提示吗？当然，我也会告诉我们的听众，我们会在节目里附上一堆节目笔记，你可以点击找到其中一些内容。对此有什么想法吗，MingYu？"
+ },
+ {
+  "seg": 109,
+  "start": 2622.095,
+  "end": 2665.59,
+  "speaker": "Ming-Yu Liu",
+  "en": "Yes. Maybe I'll also use this opportunity to define what a media, you know, what open model mean for media. So open model is not just have the model open weight allow you to use. We also provide the training framework so that you can take this open model and your own data and portray to something more tailored for your use case. We even open source data that we created, you know, to help you to to use those data in you if you want to build your own open model.",
+  "zh": "是的。也许我也想借此机会定义一下对 media 来说，开放模型意味着什么。所以开放模型不仅仅是把模型权重开放让你使用。我们还提供训练框架，这样你可以拿这个开放模型和你自己的数据，去训练出更适合你用例的东西。我们甚至把创建的数据开源了，你知道，来帮助你使用这些数据，如果你想构建自己的开放模型的话。"
+ },
+ {
+  "seg": 110,
+  "start": 2665.67,
+  "end": 2701.6648,
+  "speaker": "Ming-Yu Liu",
+  "en": "And we also have examples. Right? NVIDIA is a company that work with all the AI companies, and we also work with all the physical AI companies. And people are very willing to share some of their experience or some success use case. And we open put them in the form of developer blog or, you know, example recipe and different places so that people can look at those useful examples and then to start.",
+  "zh": "而且我们也有示例。对吧？NVIDIA 是一家与所有 AI 公司合作的公司，我们也与所有物理 AI 公司合作。人们非常愿意分享他们的一些经验或成功的用例。我们把它们以开发者博客或示例 recipe 等不同形式公开，这样人们可以参考那些有用的示例，然后开始上手。"
+ },
+ {
+  "seg": 111,
+  "start": 2701.6648,
+  "end": 2739.325,
+  "speaker": "Ming-Yu Liu",
+  "en": "And nowadays, I see most of people doing research using LON. Maybe you can use your favorite agent, no matter it's a Gemini, GPT, or a cow, ask them to look around and find useful materials. And I think in the new world, everybody want to make sure the material is easily accessible to those agents, so they can better come to learn to certain form to educate the human developer. Yeah. So, yeah, so, you know, pretty much we put, you know, open models in hacking phase and all the core resources in GitHub.",
+  "zh": "如今，我看到大多数人做研究都用 LON。也许你可以用你最喜欢的智能体，不管是 Gemini、GPT 还是 cow，让它们四处查找有用的资料。而且我认为在新的世界里，每个人都想确保资料对那些智能体是易于获取的，这样它们可以更好地学习、更好地教育人类开发者。是的。所以，你知道，基本上我们把开放模型放在 hacking phase，把所有核心资源放在 GitHub 上。"
+ },
+ {
+  "seg": 112,
+  "start": 2739.405,
+  "end": 2764.0352,
+  "speaker": "Ming-Yu Liu",
+  "en": "And we have developer box to talk about how we use this. And in the GitHub, we also have a recipe cookbook to help develop to to learn from how other use, you know, open models. And what I say is true for Cosmo. It's also true for Nemo Tron, for good, and other open models, alpha band media.",
+  "zh": "而且我们有开发者博客来讲解如何使用这些资源。在 GitHub 上，我们还有一个 recipe cookbook，帮助开发者从其他人使用开放模型的方式中学习。我所说的对 Cosmo 是如此，对 Nemo Tron、对 good 以及其他开放模型、alpha band media 也是如此。"
+ },
+ {
+  "seg": 113,
+  "start": 2764.0352,
+  "end": 2784.4548,
+  "speaker": "Daniel Whitenack",
+  "en": "That's great. And, yeah, from the you know, just a member of the community, the community, thank thank you and and NVIDIA for for the effort that you're putting into. It's it's no small effort to maintain all of those things and and all of those places. So it's much appreciated. And, this has been a great conversation, MingYu.",
+  "zh": "太好了。而且，你知道，作为一名社区成员，我代表社区感谢你和 NVIDIA 所付出的努力。维护所有这些东西以及所有这些地方可不是一件小事。非常感谢。这是一次很棒的对话，MingYu。"
+ },
+ {
+  "seg": 114,
+  "start": 2784.4548,
+  "end": 2793.255,
+  "speaker": "Daniel Whitenack",
+  "en": "Really appreciate you taking time to walk us through all of these topics and, of course, the work that you're doing and hope to have you back on the show. Thank you so much for your time.",
+  "zh": "非常感谢你抽时间带我们了解所有这些话题，当然还有你正在做的工作，希望能再次邀请你上节目。非常感谢你抽出时间。"
+ },
+ {
+  "seg": 115,
+  "start": 2793.54,
+  "end": 2798.02,
+  "speaker": "Ming-Yu Liu",
+  "en": "Thank you. Thank you for having me here and it was a lot of fun.",
+  "zh": "谢谢。谢谢你们邀请我来，非常开心。"
+ },
+ {
+  "seg": 116,
+  "start": 2802.34,
+  "end": 2823.16,
+  "speaker": "Narrator",
+  "en": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard for providing operational support for the show.",
+  "zh": "好的，这就是本周的节目。如果你还没看过我们的网站，请访问 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 动态相关的见解，我们很乐意你加入讨论。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 117,
+  "start": 2823.3198,
+  "end": 2832.5999,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请访问 predictionguard.com 了解他们。另外，感谢 Breakmaster Cylinder 提供的配乐，也感谢你的收听。本期就到这里，下周我们再见。"
+ }
+]

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":4,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":4,"发现":2,"网络效应":13,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":5,"Whatnot":4,"直播购物":2,"市场":3,"信任与安全":2,"规则引擎":1,"大型语言模型":4,"发现":2,"网络效应":13,"虚拟形象":2}</script>
 
 <script>
 (function(){

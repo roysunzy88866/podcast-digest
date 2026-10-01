@@ -31,7 +31,7 @@ unlisted: true
 
 [[Gavin Baker]] · [[David George]] · [[NVIDIA]] · [[Google]] · [[TPU]] · [[OpenAI]] · [[Anthropic]] · [[Broadcom]] · [[AMD]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Gavin Baker":1,"David George":4,"NVIDIA":46,"Google":51,"TPU":3,"OpenAI":144,"Anthropic":156,"Broadcom":4,"AMD":4,"Gemini":12}</script>
+<script type="application/json" class="pd-epn">{"Gavin Baker":1,"David George":5,"NVIDIA":48,"Google":51,"TPU":3,"OpenAI":145,"Anthropic":157,"Broadcom":4,"AMD":4,"Gemini":12}</script>
 
 <script>
 (function(){

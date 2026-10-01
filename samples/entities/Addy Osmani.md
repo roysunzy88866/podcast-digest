@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
+[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":373,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":68,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":374,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":68,"Chrome":4}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[Facebook]] · [[智能体]] · [[CAC]] · [[Instagram]] · [[LLM]] · [[Amazon]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[Twitter]]
 
-<script type="application/json" class="pd-epn">{"Facebook":16,"智能体":373,"CAC":3,"Instagram":6,"LLM":51,"Amazon":21,"Anthropic":156,"Google":51,"ChatGPT":85,"Twitter":7}</script>
+<script type="application/json" class="pd-epn">{"Facebook":16,"智能体":374,"CAC":3,"Instagram":6,"LLM":52,"Amazon":21,"Anthropic":157,"Google":51,"ChatGPT":85,"Twitter":7}</script>
 
 <script>
 (function(){

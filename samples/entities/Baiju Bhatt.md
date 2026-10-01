@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":18,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":23}</script>
+<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":19,"太空数据中心":1,"近地轨道":1,"单位经济":1,"垂直整合":1,"太空太阳能":1,"产品市场契合":23}</script>
 
 <script>
 (function(){

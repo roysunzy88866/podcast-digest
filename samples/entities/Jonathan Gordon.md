@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
+[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":43,"无障碍性":2,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":51}</script>
+<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":43,"无障碍性":2,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":52}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Sequoia":6,"智能体":373,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Sequoia":6,"智能体":374,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":6,"SpaceX":19}</script>
 
 <script>
 (function(){

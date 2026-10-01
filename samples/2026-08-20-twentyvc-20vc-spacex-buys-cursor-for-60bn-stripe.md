@@ -185,9 +185,9 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、SpaceX、Cursor、Databricks、Lovable、OpenAI、Replit、Stripe · 同概念:推理 (inference)</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、Cursor、Microsoft、Claude Code、OpenAI、SpaceX</span>
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:Anthropic、Stripe、Lovable、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

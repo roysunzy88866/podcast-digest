@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
+[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":14,"uReview":1,"自动化代码评审":1,"代码审查":21,"智能体化的 SDLC":1,"智能体":373,"可观测性":34,"护栏":68,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":15,"uReview":1,"自动化代码评审":1,"代码审查":21,"智能体化的 SDLC":1,"智能体":374,"可观测性":34,"护栏":68,"内环与外环":1}</script>
 
 <script>
 (function(){

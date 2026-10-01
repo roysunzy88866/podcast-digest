@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snapchat":3,"Snap":3,"Discord":6,"OpenAI":144,"SpaceX":18,"Meta":38,"产品经理":3,"广告":2,"品味":14,"DAU-MAU":1}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":3,"Snap":3,"Discord":6,"OpenAI":145,"SpaceX":19,"Meta":38,"产品经理":3,"广告":2,"品味":14,"DAU-MAU":1}</script>
 
 <script>
 (function(){

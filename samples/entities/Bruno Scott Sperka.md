@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
+[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":25,"Terraform":1,"Hashicorp":1,"Kubernetes":13,"开源":29,"智能体":373,"PR":6,"AI":23,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":26,"Terraform":1,"Hashicorp":1,"Kubernetes":13,"开源":30,"智能体":374,"PR":6,"AI":23,"工匠精神":1}</script>
 
 <script>
 (function(){

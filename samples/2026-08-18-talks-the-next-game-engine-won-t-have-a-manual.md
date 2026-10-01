@@ -112,8 +112,8 @@ AI 助手（叫 Bibi）的作用就是帮你摆脱卡壳：你问「怎么让车
 **顺着「智能体」挖下去**
 
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同概念:Claude Code、LLM、智能体 (agent)</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、世界模型 (world model)、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、prompt</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

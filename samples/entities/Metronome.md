@@ -27,7 +27,7 @@ unlisted: true
 
 [[Stripe]] · [[智能体]] · [[智能体商务]] · [[Stripe Projects]] · [[David George]] · [[Andrew Garvin]] · [[Will Gabrick]] · [[OpenAI]] · [[Stripe Minions]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Stripe":40,"智能体":373,"智能体商务":1,"Stripe Projects":2,"David George":4,"Andrew Garvin":1,"Will Gabrick":1,"OpenAI":144,"Stripe Minions":1,"Anthropic":156}</script>
+<script type="application/json" class="pd-epn">{"Stripe":41,"智能体":374,"智能体商务":1,"Stripe Projects":2,"David George":5,"Andrew Garvin":1,"Will Gabrick":1,"OpenAI":145,"Stripe Minions":1,"Anthropic":157}</script>
 
 <script>
 (function(){

@@ -145,7 +145,7 @@ Alex 说现在的机器人「非常非常笨」：硬件进化得令人难以置
 
 - [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|下一代游戏引擎不会有使用手册]]<span class="pd-rz">同概念:LLM、世界模型 (world model)</span>
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:Meta · 同概念:LLM</span>
-- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:LLM、AGI</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、世界模型 (world model)</span>
 
 </div>
 </div>

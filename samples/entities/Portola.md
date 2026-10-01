@@ -27,7 +27,7 @@ unlisted: true
 
 [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[评审器]] · [[响应时间]] · [[即兴演员]] · [[Quintin]] · [[设定种子]] · [[Elliot]]
 
-<script type="application/json" class="pd-epn">{"Tolan":3,"LLM":51,"提示词":19,"记忆":19,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"设定种子":1,"Elliot":1}</script>
+<script type="application/json" class="pd-epn">{"Tolan":3,"LLM":52,"提示词":19,"记忆":19,"评审器":3,"响应时间":2,"即兴演员":1,"Quintin":1,"设定种子":1,"Elliot":1}</script>
 
 <script>
 (function(){

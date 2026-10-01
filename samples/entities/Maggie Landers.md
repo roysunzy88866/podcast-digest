@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":14,"公司文化":3,"招人":4,"信任建立":6,"判断力":6,"自我筛选":1,"自主性":10,"透明":2,"Anthropic":156}</script>
+<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":15,"公司文化":3,"招人":4,"信任建立":6,"判断力":6,"自我筛选":1,"自主性":10,"透明":2,"Anthropic":157}</script>
 
 <script>
 (function(){

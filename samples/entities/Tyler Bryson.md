@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":40,"GMAP":1}</script>
+<script type="application/json" class="pd-epn">{"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":41,"GMAP":1}</script>
 
 <script>
 (function(){

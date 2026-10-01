@@ -1,0 +1,1131 @@
+{
+  "episode_id": "2026-10-01-practicalai-open-models-and-the-future-of-physical-a",
+  "podcast": "Practical AI",
+  "date": "2026-10-01",
+  "tags": [
+    "开放模型",
+    "物理 AI",
+    "世界模型",
+    "机器人",
+    "NVIDIA"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            56.364998
+          ],
+          "quote": "Welcome to another episode of Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, who is a principal AI and autonomy research engineer. How are you doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 是一家加速计算公司，制造 GPU、网络设备、CPU 和 SoC；它主动推广开放模型，通过构建开放模型来理解该造什么样的 GPU 架构，并赋能整个生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            60.9,
+            85.675
+          ],
+          "quote": "Yeah. Well, I I think in in, in the world that both of us inhabit, we are open to interesting discussions. And, I I think we'll talk about things open and things related to the world in in today's episode because we have with us MingYu Liu, who is vice president of Cosmos Lab at NVIDIA. Welcome to the show, MingYu.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 6,
+          "t": [
+            90.05,
+            116.095
+          ],
+          "quote": "Yeah. Yeah. Great great to have you. And one of the things I kind of alluded to is maybe something open, which I know is dear to NVIDIA's heart, which is open models. And I've seen in the news recently in what NVIDIA has posted, obviously, they are promoting open models as a key piece of what is important in the e AI ecosystem.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 7,
+          "t": [
+            116.095,
+            135.465
+          ],
+          "quote": "I'm wondering, MingYu, if you could help us understand maybe from your perspective, from NVIDIA's perspective, why in today's, world, is open is the idea of having open models and promoting open models, why is that such a critical thing in the ecosystem?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 10,
+          "t": [
+            192.365,
+            217.12
+          ],
+          "quote": "Right? But open model generally is there for the field, it's been very useful to push the field forward. And so, NVIDIA, won't this continue to happen? I think the world will be in a better place if we have open model to enable innovation. So people you know, API are great.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 12,
+          "t": [
+            244.69,
+            264.58002
+          ],
+          "quote": "And NVIDIA is a accelerator computing company. So we build this computer, great computer, GPU networking devices, and now we also build CPU, SoC. Right? We build this computer and we want to enable the whole ecosystem. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 14,
+          "t": [
+            296.9,
+            334.365
+          ],
+          "quote": "You know, maybe all kind of agents to help you buy stuff or help you do code all on top of models. And and we, like to build models, like to build open models on top of NVIDIA's computer. There are a couple of reason why we do that. First, we through building the model, we better understand what kind of computer we should build, what kind of GPU architecture we should have, so that NVIDIA can always be there to help the whole ecosystem. And second, we also want to measure people are enabled to do amazing applications, right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 16,
+          "t": [
+            356.02,
+            378
+          ],
+          "quote": "Yeah. You were kind of getting to a follow-up that I that I wanted to have, which is it it's important to have open models to your point to promote innovation. But I'm wondering in what you're seeing at NVIDIA, is it increasingly important also on the commercial side? So, like, for NVIDIA's customers. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 17,
+          "t": [
+            378.56,
+            411.65
+          ],
+          "quote": "What is the implication of having access to open models maybe on the on the commercial side? Do you have an do you have any thoughts on that? So it's great if, like, I'm in a lab and, you know, I have, you know, five years to to work towards, you know, the next innovation, the next types of models. But if I'm in a commercial company, maybe I'm a customer of NVIDIA, I run NVIDIA hardware, how does the existence of open models help me as, you know, in the commercial world maybe?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 22,
+          "t": [
+            484.96002,
+            577.725
+          ],
+          "quote": "I think, I know I was kind of following up on your point there, I was very happy recently to see NVIDIA kind of there was a moment some months back where open models in the West were starting to struggle a bit, and certain unnamed organizations were closing that had been leading the way, and so it was a delight to see NVIDIA step in and take the leadership there and follow through with some other things, the Hugging Face acquisition that's coming in, the work that you're doing. We're kind of going through this turning point toward the next generation of open models and what that looks like, especially with regard to the landscape of physical AI out there, which is my personal passion, as most of our viewers know. So would love if you could kind of, as we are pivoting into this new generation of open models in physical AI context, where it's not all API based, it's not all frontier models at big services and stuff like that, and we're all getting excited about drones in everyday life, robots in everyday life, all the different capacities that that can bring benefits. Could you kind of lay landscape?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 23,
+          "t": [
+            578.205,
+            595.76996
+          ],
+          "quote": "As you mesh these things together, what does that look like to you now? What are you seeing as the opportunities in the near term, and kind of how are organizations that work with NVIDIA starting to position to take on this next generation of physical AI that's upon us?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 26,
+          "t": [
+            650.69,
+            685.52
+          ],
+          "quote": "And I think the most exciting form of physical AI, one of the most exciting forms of physical AI is a humanoid robot. And we envision that humanoid robot will be able to help people accomplish our task. And now we don't have humanoid robots surrounding us, but one day we have humanoid robots surrounding us, they will require a computer. They will require a powerful computer to help us process visual input, understand people's instruction, and then self correction in completed tasks. And these are great business opportunity for NVIDIA.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 27,
+          "t": [
+            685.6,
+            699.495
+          ],
+          "quote": "Right? So that's why NVIDIA care about Physical AI. If we can make Physical AI come, you know, the the dream of Physical AI come true, there will be allow opportunity for media. So we are very aligned. And so we want to help the field moving forward.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1151.265,
+            1180.0449
+          ],
+          "quote": "And maybe that leads naturally into talking about some of the architecture. Well, there's all sorts of architectures that NVIDIA has been working on for for quite a while. Obviously, you're in the Cosmos lab. I I know one of the things that you're working on is, quote, unquote, world models. You know, cosmos meaning, world as people might, might, infer.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1973.91,
+            2009.435
+          ],
+          "quote": "Wow. It's just amazing to hear MingYu talk about NVIDIA's effort to make sure that there is a community of open source enthusiasts, those that are working on open models to foster a real community of innovation around AI and agents. And that is so practical. That's what we're about here at Practical AI is that sort of practical value. And we share that with an amazing event that's happening October 15, just here in a couple weeks, 10/15/2026 called the Midwest AI Summit.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 101,
+          "t": [
+            2442.26,
+            2458.235
+          ],
+          "quote": "You you are working towards these NVIDIA, the industry. What are some of the main challenges in your mind from getting kind of from where we're at now to something that looks more like that, what what are some of the categories of those challenges in your in your mind?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 107,
+          "t": [
+            2564.175,
+            2599.985
+          ],
+          "quote": "And on that front, I guess, you know, drawing somewhat closer to to an end here, NVIDIA is pushing forward this narrative about open models. Right? And I'm very personally thankful for that, and you've emphasized that here. How can maybe there's, software engineers, developers, AI practitioners listening to this podcast. How might they even get started, in this in this area, find some of the resources, the open resources that NVIDIA is putting out there?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2665.67,
+            2701.6648
+          ],
+          "quote": "And we also have examples. Right? NVIDIA is a company that work with all the AI companies, and we also work with all the physical AI companies. And people are very willing to share some of their experience or some success use case. And we open put them in the form of developer blog or, you know, example recipe and different places so that people can look at those useful examples and then to start.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 113,
+          "t": [
+            2764.0352,
+            2784.4548
+          ],
+          "quote": "That's great. And, yeah, from the you know, just a member of the community, the community, thank thank you and and NVIDIA for for the effort that you're putting into. It's it's no small effort to maintain all of those things and and all of those places. So it's much appreciated. And, this has been a great conversation, MingYu.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "type": "company",
+      "role": "company",
+      "name": "Cosmos",
+      "file": "Cosmos",
+      "primary": true,
+      "how_described": "本集说 Cosmos 是 NVIDIA 专做物理基础模型的实验室，使命是构建物理基础模型帮助整个生态；最新的 Cosmos 3 把世界模拟与世界理解融合成一个全模态模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            60.9,
+            85.675
+          ],
+          "quote": "Yeah. Well, I I think in in, in the world that both of us inhabit, we are open to interesting discussions. And, I I think we'll talk about things open and things related to the world in in today's episode because we have with us MingYu Liu, who is vice president of Cosmos Lab at NVIDIA. Welcome to the show, MingYu.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1151.265,
+            1180.0449
+          ],
+          "quote": "And maybe that leads naturally into talking about some of the architecture. Well, there's all sorts of architectures that NVIDIA has been working on for for quite a while. Obviously, you're in the Cosmos lab. I I know one of the things that you're working on is, quote, unquote, world models. You know, cosmos meaning, world as people might, might, infer.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1415.755,
+            1451.865
+          ],
+          "quote": "And and from my perspective, because our mission is to build physical the mission of Cosmos is to build a, you know, physical foundation model to help the whole ecosystem. So we realized that in early day that you need to have world simulation capability, given the current observation and that there's the action input, what gonna happen in the future. For this world simulation capability, the input is the current observation and the action sequence. Sometimes the action can be described in text. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 67,
+          "t": [
+            1562.485,
+            1587.125
+          ],
+          "quote": "And for me, put together, it become an omni model. You have different inputs. You know, in Cosmos, we actually support text, action, audio, video as the input, and also support text, audio, video, action as output. So you can find all combination, and I think a developer can choose the best way they want to build on top of it.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "open-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放模型 (open model)",
+      "file": "开放模型",
+      "primary": true,
+      "how_described": "本集说 API 能解决问题但不给洞察，开放模型让使用者能拆开模型、放入自己的想法、离线本地运行、按业务定制；商业价值被总结为「创新，自由」，NVIDIA 语境下的开放不只是开放权重，还包括训练框架、开源数据和 cookbook。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            159.27501,
+            192.365
+          ],
+          "quote": "Right? And and this the academy always work like that and has been years, you know, even before GBT, and GBT also have open source model in the past. And that had been, you know, pushed the field forward around innovation. It's just until recently, the model is getting bigger. The amount of resources required to build a model is tremendous amount, and hence, the amount of open model reduced.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 10,
+          "t": [
+            192.365,
+            217.12
+          ],
+          "quote": "Right? But open model generally is there for the field, it's been very useful to push the field forward. And so, NVIDIA, won't this continue to happen? I think the world will be in a better place if we have open model to enable innovation. So people you know, API are great.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 11,
+          "t": [
+            217.245,
+            244.61
+          ],
+          "quote": "They solve problems, but they don't give you the insight. You know, it doesn't tell you it it doesn't allow you to tear apart and miss your idea inside. You know? And also, the the kind of thing you want to do may be suitable, you know, you want to have a local computer and you don't have the Internet connection, so API may not always be the solution. And that's why, you know, I think an open model is important to enable people.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 15,
+          "t": [
+            334.365,
+            356.02
+          ],
+          "quote": "So when we have open model there, and people can test this out first, and combine them to do application good for their targeted business, And again, some familiarity, and maybe later they can build their own model. So there's a lot of reason why open model is critical, both for Academy and also for the whole industry.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 19,
+          "t": [
+            425.155,
+            451.685
+          ],
+          "quote": "And but with the open model, you can do more than what's available in in API. Yeah. So and see, the the field is finding more and more important application of AI. Right? You know, from earlier day of chatbot and now the the coding agent, and we we also see more and more agent that can do things that we didn't think it's possible.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 21,
+          "t": [
+            472.315,
+            484.96002
+          ],
+          "quote": "Open model allow them give them options, give them choice to do the innovation they need for their target business. And and this way, I I think it's good, for the whole society.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 34,
+          "t": [
+            776.435,
+            801.66003
+          ],
+          "quote": "Right? And when you have open model, the model come with viewing capability, like a word understanding or simulation. And from that prior, people can leverage the data they collected from their device and fine tune. You know, maybe this in the initial model only handle one camera. Now you have multi view, you know, enabled through post training and open model.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 35,
+          "t": [
+            801.66003,
+            818.165
+          ],
+          "quote": "And it's easier it's more achievable with open model. Right? So I think open model give you the the innovation power. So you can customize open model to better tailor for your physical use case. This is important.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 105,
+          "t": [
+            2535.7002,
+            2555.44
+          ],
+          "quote": "Those are not yet there. So I think there are a lot of problem need to figure out, and I think it's difficult for one company to do it alone. I think we need a whole ecosystem. And that's why, you know, I think building this open model is super important, right? Because you enable more people the tool to do the inspiration and to do innovation.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 106,
+          "t": [
+            2555.44,
+            2563.52
+          ],
+          "quote": "And I think, you know, to achieve that beautiful future, open model gonna play a critical role.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 109,
+          "t": [
+            2622.095,
+            2665.59
+          ],
+          "quote": "Yes. Maybe I'll also use this opportunity to define what a media, you know, what open model mean for media. So open model is not just have the model open weight allow you to use. We also provide the training framework so that you can take this open model and your own data and portray to something more tailored for your use case. We even open source data that we created, you know, to help you to to use those data in you if you want to build your own open model.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把物理 AI 定义为部署在物理设备中、会扰动物理世界状态并完成任务的 AI，涵盖汽车、工厂自动化、机器人、农业、建筑等垂直领域；它带来实时、安全、批大小为 1 的推理约束，终极指标是每瓦特智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            484.96002,
+            577.725
+          ],
+          "quote": "I think, I know I was kind of following up on your point there, I was very happy recently to see NVIDIA kind of there was a moment some months back where open models in the West were starting to struggle a bit, and certain unnamed organizations were closing that had been leading the way, and so it was a delight to see NVIDIA step in and take the leadership there and follow through with some other things, the Hugging Face acquisition that's coming in, the work that you're doing. We're kind of going through this turning point toward the next generation of open models and what that looks like, especially with regard to the landscape of physical AI out there, which is my personal passion, as most of our viewers know. So would love if you could kind of, as we are pivoting into this new generation of open models in physical AI context, where it's not all API based, it's not all frontier models at big services and stuff like that, and we're all getting excited about drones in everyday life, robots in everyday life, all the different capacities that that can bring benefits. Could you kind of lay landscape?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 23,
+          "t": [
+            578.205,
+            595.76996
+          ],
+          "quote": "As you mesh these things together, what does that look like to you now? What are you seeing as the opportunities in the near term, and kind of how are organizations that work with NVIDIA starting to position to take on this next generation of physical AI that's upon us?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 24,
+          "t": [
+            595.76996,
+            624.8
+          ],
+          "quote": "Yeah, thanks for the great question. So I think physical AI is a term covers several important verticals. Automotive is one, factory automation is another, and robotics is sub pillar. There could be more, agriculture, construction, many of them. And physical AI are AI deployed in physical device.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 25,
+          "t": [
+            624.88,
+            650.69
+          ],
+          "quote": "And physical device perturb the state of the world and complete certain tasks. And the result is shown as material, as the final something you can touch, right? That is how I would like to define physical AI. So, nowadays, we have some AI in physical device, right? But they are preliminary, right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 26,
+          "t": [
+            650.69,
+            685.52
+          ],
+          "quote": "And I think the most exciting form of physical AI, one of the most exciting forms of physical AI is a humanoid robot. And we envision that humanoid robot will be able to help people accomplish our task. And now we don't have humanoid robots surrounding us, but one day we have humanoid robots surrounding us, they will require a computer. They will require a powerful computer to help us process visual input, understand people's instruction, and then self correction in completed tasks. And these are great business opportunity for NVIDIA.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 27,
+          "t": [
+            685.6,
+            699.495
+          ],
+          "quote": "Right? So that's why NVIDIA care about Physical AI. If we can make Physical AI come, you know, the the dream of Physical AI come true, there will be allow opportunity for media. So we are very aligned. And so we want to help the field moving forward.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 29,
+          "t": [
+            701.09503,
+            716.77
+          ],
+          "quote": "Yeah. And I was wondering, just tying that back to where we started the conversation with open models, do open models have certain implications specifically in the physical AI world because of the constraints or requirements of the physical AI world?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 30,
+          "t": [
+            716.77,
+            740.93
+          ],
+          "quote": "Yes. That's a good question. So I think, for example, one thing you a Physical AI model, you know, one popular Physical AI model is a policy model. A policy model is a model based on the visual observation and the interaction given by the user or some machine. And, you know, that it generates an action to complete the task.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 38,
+          "t": [
+            843.165,
+            904.51
+          ],
+          "quote": "It's amazing to consider this topic of physical AI, how AI agents are being embedded in the physical world around us. But it just emphasizes this point that we need to have operational control of the agents that we're deploying, whether that be in the case of physical AI or in your digital infrastructure within your company where you're deploying agents as a part of your digital workforce. Operational control is critical so you can ensure that those agents are operating based on the policies that you set, and you can alert when those agents go off script and actually quarantine agents that are behaving in some destructive manner. That's exactly what we're offering with Prediction Guard, the self hosted AI control plane. This is a company that I'm leading personally, and I'm just so thrilled to see that this operational control of AI agents is at the core of what we're offering.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 40,
+          "t": [
+            934.5,
+            1000.09
+          ],
+          "quote": "So I'd to I'd like to take you, kind of expand on what you were talking about going into the break in terms of you talked about a couple of things like fine tuning models and stuff like that, think which maybe, to some people, maybe a little bit of a lost art because people have become so API dependent on a lot of the closed models because they're used to cloud environments. And as we move into physical AI and you're taking these open models that give so much potential on what you can do with your own creativity and innovation in these physical devices, and you have to add in the sensors, as you talked about, LiDAR and other things, and whatever the robot's effectors are, how it's manipulating the real world or perturbing the real world, I believe, how you put it earlier. Could you talk you know, there's inference involved, which now is on a device versus out in the cloud, and there's power. You know? You have to have power to drive these things.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1000.58496,
+            1041.8451
+          ],
+          "quote": "So there's all of these considerations that a lot of folks in the AI space haven't had to deal with in the past, and that that that get something out there that you can touch working toward your whatever end you're trying to achieve. Could you talk a bit about how you see that and how you put that together for so maybe kind of give a quick primer to folks that are doing AI that are watching or listening but may not have done physical AI with open models, and just kind of lay out all the concerns that they have to start thinking about there. I think that would be really useful, but just as a layout there.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1180.285,
+            1199.58
+          ],
+          "quote": "But, help help those who maybe maybe imagine someone who has just used LLMs or maybe that's their only perception of models. Help connect what a world model is and why it might be necessary in this world of physical AI.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 73,
+          "t": [
+            1727.775,
+            1774.9299
+          ],
+          "quote": "And I'm I'm coming from a perspective expert like you or or Chris in this area of of physical AI and and world models. I and I'm wondering in my mind, maybe as a nonexpert, you're talking about world models. You're talking about simulation, etcetera. If we go all the way back to kind of one of those concrete examples, like the robot or the, manufacturing case or the automotive case, where does the world model come into play as you're creating the models that are actually, driving decision making or movement or actions in the robot in the physical world? Where does that fit in versus some other things like you mentioned, policy models, etcetera?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1886.2899,
+            1904.595
+          ],
+          "quote": "It cannot be the same for robots, right? And this is the world simulation. The representation allow you to do simulation, what it can do for physical AI. The other thing is that, you know, this can be also a great backbone for a parsing model. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1923.535,
+            1972.1499
+          ],
+          "quote": "And the pixel space evolution has a strong correlation to the control signal you might need to use to complete certain manipulation tasks. And that correlation become a great regularization to help you build a better policy model when when the data is more limited. So I think a world representation is the key. And and and since physical AI gonna operate in the real world, and this world representation encapsulate in this foundation model are gonna be useful in a different way. And it's also kind of important we need to make it open so that, you know, people can can test out and share feedback with us, and we can then double down on the capability that's more important to help the Physical AI ecosystem.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 99,
+          "t": [
+            2382.9,
+            2425.23
+          ],
+          "quote": "Yeah. I I I love that perspective. It really helps bring a concrete visualization to my mind of of of what this may look like. And it but it does maybe to some people out there, It also triggers some well, there's obviously challenges, right, to to get there. I I almost I think about, about AI agents, every day in my day to day work, not physical AI, but there's this idea of cascading failure of of AI agents, right, which is this sort of idea, oh, like, something small happens over here, but the all the agents are interacting, and there's this sort of system wide failure.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 103,
+          "t": [
+            2474.21,
+            2499.49
+          ],
+          "quote": "And verify the correctness is super important. Right? So like what you said, so I envision there gonna be also supervisor agents working in the factory floor and trying to capture scenes that not yet been identified. Right? And also, building this physical AI also requires strong robots.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2665.67,
+            2701.6648
+          ],
+          "quote": "And we also have examples. Right? NVIDIA is a company that work with all the AI companies, and we also work with all the physical AI companies. And people are very willing to share some of their experience or some success use case. And we open put them in the form of developer blog or, you know, example recipe and different places so that people can look at those useful examples and then to start.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说世界模型从对世界的感官观测中学习表征，隐式编码世界的物理规律；它可用于世界模拟（观测+动作→未来视频）和世界理解（视频→文字解释），还能当策略模型的骨干。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            1180.285,
+            1199.58
+          ],
+          "quote": "But, help help those who maybe maybe imagine someone who has just used LLMs or maybe that's their only perception of models. Help connect what a world model is and why it might be necessary in this world of physical AI.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1310.345,
+            1331.19
+          ],
+          "quote": "I as you mentioned, I see things from different perspective. I see how physics is evolving. Is is is it true so so in an example world model to just make it tangible for people. In an LLM, you would basically put in text and get out text or a next at least the next predicted token. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 56,
+          "t": [
+            1331.19,
+            1364.975
+          ],
+          "quote": "Or in a image generation model, you'd put in text and then get out get out an image. In the world model case, what what is an example, sort of input and output? One of those might be, as you mentioned, maybe it's just a representation of of the world, and then you build additional things on top of that. But maybe help people get some intuition about what do you put into a world model, and what do you get out when you're actually operating prediction with the world model?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1394.645,
+            1415.755
+          ],
+          "quote": "To to me, war model is a way to solve some task. Right? And so it's difficult to to me, difficult to use, like the input, output to kind of define what is a world model. So I I would like to say some sort of modeling of the world is a world model. Okay?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1587.125,
+            1632.0499
+          ],
+          "quote": "That was really good. I'd like to ask a clarifying question because there's a couple of terms out there that I'd like to get kind of your definitions and how they relate a little bit. One is obviously this notion of world model, which you've been diving into, but a number of times, obviously, you've mentioned simulation. And for those who may not be familiar with this, how do you define or relate the notion of simulation, where you could either have more of a simulator like what people may be already familiar with, which also is obviously in gaming and things like that, with the notion of the world model as you've just explained it, how do those two terms relate to each other?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 73,
+          "t": [
+            1727.775,
+            1774.9299
+          ],
+          "quote": "And I'm I'm coming from a perspective expert like you or or Chris in this area of of physical AI and and world models. I and I'm wondering in my mind, maybe as a nonexpert, you're talking about world models. You're talking about simulation, etcetera. If we go all the way back to kind of one of those concrete examples, like the robot or the, manufacturing case or the automotive case, where does the world model come into play as you're creating the models that are actually, driving decision making or movement or actions in the robot in the physical world? Where does that fit in versus some other things like you mentioned, policy models, etcetera?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 78,
+          "t": [
+            1831.7899,
+            1850.895
+          ],
+          "quote": "And you can clearly see that this is, you know, not scalable. Right? It's limit how many iteration you can do. Right? But with a world model, right, instead of having your policy, you know, deploy the real car, you know, driving the real world, you can have your policy interact with a world model.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulation)",
+      "file": "模拟",
+      "primary": true,
+      "how_described": "本集区分了两类模拟：基于方程和程序的经典模拟器，以及数据驱动、靠模式识别近似预测的神经模拟；并用模拟来筛选自动驾驶策略模型的 checkpoint，替代不可扩展的真车路测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            776.435,
+            801.66003
+          ],
+          "quote": "Right? And when you have open model, the model come with viewing capability, like a word understanding or simulation. And from that prior, people can leverage the data they collected from their device and fine tune. You know, maybe this in the initial model only handle one camera. Now you have multi view, you know, enabled through post training and open model.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1248.9401,
+            1287.0549
+          ],
+          "quote": "And people believe that's fun modeling these signals, you can implicitly encode the physics of the world. And with the physics kind of something you model, then you can start to do simulation. And if you connect this world representation with language representation, then you can generate explanation that help you understand why this thing happened. So it's more like one is coming from a language perspective. The other is more like a from the observation of the world of physicists and try to learn representation.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1415.755,
+            1451.865
+          ],
+          "quote": "And and from my perspective, because our mission is to build physical the mission of Cosmos is to build a, you know, physical foundation model to help the whole ecosystem. So we realized that in early day that you need to have world simulation capability, given the current observation and that there's the action input, what gonna happen in the future. For this world simulation capability, the input is the current observation and the action sequence. Sometimes the action can be described in text. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1452.265,
+            1479.375
+          ],
+          "quote": "And the output is the the future, the what gonna happen maybe in video, maybe in audio, in the future when you have other modality, you know, other modality. So world simulation. And the other thing is the world understanding. Right? So so you want to understand, you know, why this you know you know, you ask a robot to complete a task and and it didn't complete.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1521.8501,
+            1546.67
+          ],
+          "quote": "And in COSMO, we believe that, you know, one is for world understanding, the other is for world simulation. Right? Although they for different purposes, but they model the same world. So so in COSMO three, our latest COSMO model, we actually fuse them together Because we believe that the representation can be shared because, you know, we live in the same world. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 66,
+          "t": [
+            1546.67,
+            1562.485
+          ],
+          "quote": "It's the same stuff. Yeah. So yeah. And for the world understanding, the input is video, text, output is text, and for world simulation, the input is, you know, observation, action, output is test output is video. Sorry.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1587.125,
+            1632.0499
+          ],
+          "quote": "That was really good. I'd like to ask a clarifying question because there's a couple of terms out there that I'd like to get kind of your definitions and how they relate a little bit. One is obviously this notion of world model, which you've been diving into, but a number of times, obviously, you've mentioned simulation. And for those who may not be familiar with this, how do you define or relate the notion of simulation, where you could either have more of a simulator like what people may be already familiar with, which also is obviously in gaming and things like that, with the notion of the world model as you've just explained it, how do those two terms relate to each other?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1661.98,
+            1695.635
+          ],
+          "quote": "Those are we consider classical simulators. Right? So they are based on physicists, the dual, people's interpretation, equations, and then to govern how things scene I described earlier, people generally call it neural simulation. So it's a data driven way of doing simulation. Instead of the residue put the physics in, you saw tons of observation, you know, showing different, you know, how two scene hit together.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1695.635,
+            1723.0549
+          ],
+          "quote": "They they kind of separated or, you know, when you pour water to the ground, how water spread out. It show a lot of different scenes, visual observation to to a model. And the model then data can approximate, predict what gonna happen when they see similar patterns. So it's more like a pattern recognition based way of doing the simulation. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 73,
+          "t": [
+            1727.775,
+            1774.9299
+          ],
+          "quote": "And I'm I'm coming from a perspective expert like you or or Chris in this area of of physical AI and and world models. I and I'm wondering in my mind, maybe as a nonexpert, you're talking about world models. You're talking about simulation, etcetera. If we go all the way back to kind of one of those concrete examples, like the robot or the, manufacturing case or the automotive case, where does the world model come into play as you're creating the models that are actually, driving decision making or movement or actions in the robot in the physical world? Where does that fit in versus some other things like you mentioned, policy models, etcetera?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1776.4501,
+            1790.345
+          ],
+          "quote": "It's a good question. So in COSMO, we build this foundation model and try to learn a good world representation. Right? And this model can be used in many different ways. From the simulation perspective.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 79,
+          "t": [
+            1850.99,
+            1862.51
+          ],
+          "quote": "Right? When you're still left, what you're gonna see? You're still right, what you're gonna see? Right? And from this simulation, you can verify the accuracy of a checkpoint.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1886.2899,
+            1904.595
+          ],
+          "quote": "It cannot be the same for robots, right? And this is the world simulation. The representation allow you to do simulation, what it can do for physical AI. The other thing is that, you know, this can be also a great backbone for a parsing model. Right?",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是拥有一定自主性、代表你完成任务的某个东西；未来会是多智能体的——专业化智能体的组合，有的擅长分配任务、有的擅长完成任务，协同完成生产，但这一图景可能还要几十年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            425.155,
+            451.685
+          ],
+          "quote": "And but with the open model, you can do more than what's available in in API. Yeah. So and see, the the field is finding more and more important application of AI. Right? You know, from earlier day of chatbot and now the the coding agent, and we we also see more and more agent that can do things that we didn't think it's possible.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2214.45,
+            2241.355
+          ],
+          "quote": "And I might have a digital agent powered by LN. Help me understand, look at my inventory, help me understand what the materials I have in different places. Right? So there's an agent, LN agent, to kind of do some high level planning, right? And now I know that I need to ship certain material from factory B to factory A so that I can manufacture the robot in factory A.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2241.88,
+            2273.37
+          ],
+          "quote": "And and then that that agent send, you know, demand to to the maybe the factory floor agent in factory b, and factory floor agent b do a hand easy handshake. Right? And and that factory 4 gonna have some robots, some mobile platform. Right? And the robot might carry the good to put the mobile platform and mobile platform put, you know, load in a truck, and the truck go from a self driving truck go from factory b to factory a.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2273.4502,
+            2288.9949
+          ],
+          "quote": "Right? And then we start to do the manufacturing. And every station in in, you know, in assemble the staff, gonna have visual inspection. They gonna have a robot arm, right? There'll be some kind of closed loop, and those gonna be operated by another agent, right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 94,
+          "t": [
+            2288.9949,
+            2312.26
+          ],
+          "quote": "So I think the world gonna be multi agent, right? And also go back to my previous viewpoints, right? So in the end, the intelligence per dollar, you know, matters. Right? And the different tasks, you know, probably don't need your robot arm to solve be capable of solving solve Olympiad mass problem.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 95,
+          "t": [
+            2312.26,
+            2327.5151
+          ],
+          "quote": "Right? You probably want it to be more sensitive in in some kind of manipulation task. So I I I think we are looking at war with a multi different specialized agent, and they cannot work together and to complete certain tasks. And and drone, you know, can be one of them. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 96,
+          "t": [
+            2327.5151,
+            2353.305
+          ],
+          "quote": "So I might be owning a farm, let's say, produce tea. Right? And I can have drone to collect the tea leaf and then put that in the package, you know. So all of them so I think we like agent because, you know, agent is somebody has certain autonomy to behave to to to complete test on behalf of you. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 97,
+          "t": [
+            2353.8,
+            2365.4001
+          ],
+          "quote": "You require that agent have some self creation capability. Right? That the part we like. And and and also, you kind of puts all the problem to agent and it figures how you want to solve that. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 98,
+          "t": [
+            2365.4001,
+            2382.485
+          ],
+          "quote": "And so we're gonna have specialized agent and there's some agent good at distributing tasks, and sometimes you're good at completing tasks, and they're gonna talk together, work together to complete the stuff. Yeah. And this is how I think this is what I think gonna happen. Yeah. This is my view, by the way.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 102,
+          "t": [
+            2458.235,
+            2474.1301
+          ],
+          "quote": "Yeah. So it's in the account. And and the the picture I just give, you know, multiple agent working together, complete, like, production task might be decades away. Right? So we are not yet there.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2701.6648,
+            2739.325
+          ],
+          "quote": "And nowadays, I see most of people doing research using LON. Maybe you can use your favorite agent, no matter it's a Gemini, GPT, or a cow, ask them to look around and find useful materials. And I think in the new world, everybody want to make sure the material is easily accessible to those agents, so they can better come to learn to certain form to educate the human developer. Yeah. So, yeah, so, you know, pretty much we put, you know, open models in hacking phase and all the core resources in GitHub.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说物理 AI 里很多任务是批大小为 1 的推理：没有可聚合的 API 调用来填满 GPU 算力，加上实时与安全约束，催生与云端不同的架构和芯片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            934.5,
+            1000.09
+          ],
+          "quote": "So I'd to I'd like to take you, kind of expand on what you were talking about going into the break in terms of you talked about a couple of things like fine tuning models and stuff like that, think which maybe, to some people, maybe a little bit of a lost art because people have become so API dependent on a lot of the closed models because they're used to cloud environments. And as we move into physical AI and you're taking these open models that give so much potential on what you can do with your own creativity and innovation in these physical devices, and you have to add in the sensors, as you talked about, LiDAR and other things, and whatever the robot's effectors are, how it's manipulating the real world or perturbing the real world, I believe, how you put it earlier. Could you talk you know, there's inference involved, which now is on a device versus out in the cloud, and there's power. You know? You have to have power to drive these things.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1061.425,
+            1080.48
+          ],
+          "quote": "Right? So the the processing had to be done real time on spot. Right? And also, lot of tasks is a batch size one inference problem. So API, you can aggregate users, API code from, you know, from different users and then process them in whole.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 从以语言书写的人类知识中学习表征、针对生成文字优化；其自回归 transformer 架构内存受限，在嵌入式设备上因无法聚合调用而跑不满算力；LLM 驱动的数字智能体还被用于工厂高层规划和替开发者查找资料。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            1310.345,
+            1331.19
+          ],
+          "quote": "I as you mentioned, I see things from different perspective. I see how physics is evolving. Is is is it true so so in an example world model to just make it tangible for people. In an LLM, you would basically put in text and get out text or a next at least the next predicted token. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 88,
+          "t": [
+            2082.4001,
+            2171.13
+          ],
+          "quote": "So I'd like to I'd like to kind of maybe expand, might be the right word, the conversation into another dimension, and that's the fact that by contrast in kind of the cloud digital world, people are often used to dealing with an LLM either by itself or it's managing collection of agents that are doing tasks and stuff, but that interface is very much there's a human and there's that LLM and they are agreeing on what's gonna happen with the AI agents going and doing things. When you move things into the physical realm, you add the dimension of you may have all of those things happening, but you also have many physical devices that are beginning to interact together, and they're interacting with humans in different ways, and so the notion of what interactions are gets quite complex. I was wondering if you could kind of walk us through that a bit and maybe kind of take us into that new dimension of we're not talking about one robot now, or one self driving car or whatever you wanna address, but maybe a whole bunch of them. Maybe you have a city full of them, and that's what is mostly there, and they're in all the domains, everything from the ground all the way up and all the way down, maybe undersea and stuff like that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说每台机器人看世界的方式都不同，开放模型自带的语言理解或仿真能力是先验，开发者拿自己设备收集的数据做微调即可适配自己的传感器配置和物理用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            776.435,
+            801.66003
+          ],
+          "quote": "Right? And when you have open model, the model come with viewing capability, like a word understanding or simulation. And from that prior, people can leverage the data they collected from their device and fine tune. You know, maybe this in the initial model only handle one camera. Now you have multi view, you know, enabled through post training and open model.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到通过后训练，初始只处理单摄像头的开放模型可以扩展到多视角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            776.435,
+            801.66003
+          ],
+          "quote": "Right? And when you have open model, the model come with viewing capability, like a word understanding or simulation. And from that prior, people can leverage the data they collected from their device and fine tune. You know, maybe this in the initial model only handle one camera. Now you have multi view, you know, enabled through post training and open model.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "policy-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "策略模型 (policy model)",
+      "file": "策略模型",
+      "primary": true,
+      "how_described": "本集说策略模型是一种流行的物理 AI 模型：基于视觉观测和指令输入、生成动作来完成任务；其开发迭代可用世界模型做模拟验证，其骨干也可用世界模型的表征来提升数据有限时的表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            716.77,
+            740.93
+          ],
+          "quote": "Yes. That's a good question. So I think, for example, one thing you a Physical AI model, you know, one popular Physical AI model is a policy model. A policy model is a model based on the visual observation and the interaction given by the user or some machine. And, you know, that it generates an action to complete the task.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 77,
+          "t": [
+            1801.18,
+            1831.7899
+          ],
+          "quote": "So as developing the model, I might have many different checkpoints. Right? And how do I know that checkpoint a is better than checkpoint b? In the old day, what people do is that they have a fleet of cars and driver. Whenever I have a new policy and we deploy the policy to the car, and that the driver kind of, you know, take the car to the field and see, you know, record how good is the policy model.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1923.535,
+            1972.1499
+          ],
+          "quote": "And the pixel space evolution has a strong correlation to the control signal you might need to use to complete certain manipulation tasks. And that correlation become a great regularization to help you build a better policy model when when the data is more limited. So I think a world representation is the key. And and and since physical AI gonna operate in the real world, and this world representation encapsulate in this foundation model are gonna be useful in a different way. And it's also kind of important we need to make it open so that, you know, people can can test out and share feedback with us, and we can then double down on the capability that's more important to help the Physical AI ecosystem.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "humanoid-robot",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid robot)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "本集说人形机器人是物理 AI 最令人兴奋的形式之一，需要强大的计算机处理视觉输入、理解指令、自我纠正，是 NVIDIA 眼中的巨大商业机会；但进化虽快，尚未做好大规模商用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            650.69,
+            685.52
+          ],
+          "quote": "And I think the most exciting form of physical AI, one of the most exciting forms of physical AI is a humanoid robot. And we envision that humanoid robot will be able to help people accomplish our task. And now we don't have humanoid robots surrounding us, but one day we have humanoid robots surrounding us, they will require a computer. They will require a powerful computer to help us process visual input, understand people's instruction, and then self correction in completed tasks. And these are great business opportunity for NVIDIA.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    },
+    {
+      "id": "self-driving-car",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶汽车 (self driving car)",
+      "file": "自动驾驶汽车",
+      "primary": false,
+      "how_described": "本集以自动驾驶汽车为例：不同车摄像头数量不同、有的带 LiDAR，难以用一个模型覆盖；并用世界模型在模拟里筛选自动驾驶策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            751.96497,
+            761.725
+          ],
+          "quote": "Some robot have cameras mounted on the gripper. And self driving car, some car has 11 cameras. Some have seven. You know? Some have LiDAR sensor.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1790.425,
+            1801.1
+          ],
+          "quote": "Okay. Let's say I'm building a self driving car policy. Right? A policy that can navigate navigate to drive the car from destination a to b. Right?",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 80,
+          "t": [
+            1862.51,
+            1886.2899
+          ],
+          "quote": "It can help you quickly narrow down a couple hypotheses you have. And then use then you have few one that you think is truly valuable, and you do the real test. It help you to get this iteration faster, now we know in technology, the most important thing is how far you can do iteration. Right? Then you can develop better policy for your self driving car.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 88,
+          "t": [
+            2082.4001,
+            2171.13
+          ],
+          "quote": "So I'd like to I'd like to kind of maybe expand, might be the right word, the conversation into another dimension, and that's the fact that by contrast in kind of the cloud digital world, people are often used to dealing with an LLM either by itself or it's managing collection of agents that are doing tasks and stuff, but that interface is very much there's a human and there's that LLM and they are agreeing on what's gonna happen with the AI agents going and doing things. When you move things into the physical realm, you add the dimension of you may have all of those things happening, but you also have many physical devices that are beginning to interact together, and they're interacting with humans in different ways, and so the notion of what interactions are gets quite complex. I was wondering if you could kind of walk us through that a bit and maybe kind of take us into that new dimension of we're not talking about one robot now, or one self driving car or whatever you wanna address, but maybe a whole bunch of them. Maybe you have a city full of them, and that's what is mostly there, and they're in all the domains, everything from the ground all the way up and all the way down, maybe undersea and stuff like that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 把开放模型放在 Hugging Face 上（原稿音译有误），并提及 NVIDIA 即将收购 Hugging Face。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            484.96002,
+            577.725
+          ],
+          "quote": "I think, I know I was kind of following up on your point there, I was very happy recently to see NVIDIA kind of there was a moment some months back where open models in the West were starting to struggle a bit, and certain unnamed organizations were closing that had been leading the way, and so it was a delight to see NVIDIA step in and take the leadership there and follow through with some other things, the Hugging Face acquisition that's coming in, the work that you're doing. We're kind of going through this turning point toward the next generation of open models and what that looks like, especially with regard to the landscape of physical AI out there, which is my personal passion, as most of our viewers know. So would love if you could kind of, as we are pivoting into this new generation of open models in physical AI context, where it's not all API based, it's not all frontier models at big services and stuff like that, and we're all getting excited about drones in everyday life, robots in everyday life, all the different capacities that that can bring benefits. Could you kind of lay landscape?",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 把核心开放模型资源、示例 recipe 和 cookbook 放在 GitHub 上，帮助开发者学习他人的用法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            2701.6648,
+            2739.325
+          ],
+          "quote": "And nowadays, I see most of people doing research using LON. Maybe you can use your favorite agent, no matter it's a Gemini, GPT, or a cow, ask them to look around and find useful materials. And I think in the new world, everybody want to make sure the material is easily accessible to those agents, so they can better come to learn to certain form to educate the human developer. Yeah. So, yeah, so, you know, pretty much we put, you know, open models in hacking phase and all the core resources in GitHub.",
+          "speaker": "Ming-Yu Liu"
+        },
+        {
+          "seg": 112,
+          "t": [
+            2739.405,
+            2764.0352
+          ],
+          "quote": "And we have developer box to talk about how we use this. And in the GitHub, we also have a recipe cookbook to help develop to to learn from how other use, you know, open models. And what I say is true for Cosmo. It's also true for Nemo Tron, for good, and other open models, alpha band media.",
+          "speaker": "Ming-Yu Liu"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

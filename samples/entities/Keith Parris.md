@@ -67,11 +67,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":373,"记录系统":5}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":6,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":374,"记录系统":5}</script>
 
 <script>
 (function(){

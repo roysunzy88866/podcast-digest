@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
+[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":2,"Anthropic":156,"Claude Code":89,"ClaudeTag":1,"Fable":10,"Slack":29,"Bun":3,"Rust":5,"Gemini":12}</script>
+<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":2,"Anthropic":157,"Claude Code":89,"ClaudeTag":1,"Fable":10,"Slack":29,"Bun":3,"Rust":5,"Gemini":12}</script>
 
 <script>
 (function(){

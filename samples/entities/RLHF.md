@@ -37,7 +37,7 @@ unlisted: true
 
 [[合成数据]] · [[Diogo Almeida]] · [[Claude Code]] · [[Cursor]] · [[Jev]] · [[Codex]] · [[TypeSafe]] · [[编码智能体]] · [[OpenAI]] · [[Brendan Foody]]
 
-<script type="application/json" class="pd-epn">{"合成数据":8,"Diogo Almeida":2,"Claude Code":89,"Cursor":73,"Jev":4,"Codex":69,"TypeSafe":3,"编码智能体":24,"OpenAI":144,"Brendan Foody":1}</script>
+<script type="application/json" class="pd-epn">{"合成数据":8,"Diogo Almeida":2,"Claude Code":89,"Cursor":74,"Jev":4,"Codex":69,"TypeSafe":3,"编码智能体":24,"OpenAI":145,"Brendan Foody":1}</script>
 
 <script>
 (function(){

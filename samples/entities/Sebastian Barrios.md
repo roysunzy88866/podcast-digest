@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":373,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":374,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
 
 <script>
 (function(){

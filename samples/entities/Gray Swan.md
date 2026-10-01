@@ -25,7 +25,7 @@ unlisted: true
 
 [[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[Anthropic]] · [[Discord]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]]
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Snowflake":15,"Anthropic":156,"Discord":6,"Twitter":7,"智能体":373,"红队测试":4,"提示词注入":18,"越狱":2}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Snowflake":16,"Anthropic":157,"Discord":6,"Twitter":7,"智能体":374,"红队测试":4,"提示词注入":18,"越狱":2}</script>
 
 <script>
 (function(){

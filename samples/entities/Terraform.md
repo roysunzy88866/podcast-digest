@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bruno Scott Sperka]] · [[GitHub]] · [[Hashicorp]] · [[Kubernetes]] · [[开源]] · [[智能体]] · [[PR]] · [[AI]] · [[工匠精神]]
 
-<script type="application/json" class="pd-epn">{"Bruno Scott Sperka":1,"GitHub":25,"Hashicorp":1,"Kubernetes":13,"开源":29,"智能体":373,"PR":6,"AI":23,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"Bruno Scott Sperka":1,"GitHub":26,"Hashicorp":1,"Kubernetes":13,"开源":30,"智能体":374,"PR":6,"AI":23,"工匠精神":1}</script>
 
 <script>
 (function(){

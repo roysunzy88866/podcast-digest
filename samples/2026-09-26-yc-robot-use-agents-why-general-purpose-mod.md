@@ -158,7 +158,7 @@ Jay 抛出的判断相当大胆：Frontier 实验室和机器人基础模型公�
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:延迟 (latency)、智能体 (agent)、微调 (fine-tune)</span>
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:延迟 (latency)、智能体 (agent)、LLM</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、智能体 (agent)、微调 (fine-tune)</span>
 
 </div>
 <div class="pd-ex">

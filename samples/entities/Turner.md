@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":6,"Path Robotics":1,"LLM":51,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":23,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":6,"Path Robotics":1,"LLM":52,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":23,"第一性原理":5}</script>
 
 <script>
 (function(){

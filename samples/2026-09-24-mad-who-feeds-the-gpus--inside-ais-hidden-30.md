@@ -183,7 +183,7 @@ Renan 小时候痴迷数学，曾花六个月试图证明 P=NP,结论是“我�
 
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:NVIDIA · 同概念:NeoCloud、推理 (inference)、智能体 (agent)、微调 (fine tune)</span>
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同公司:NVIDIA · 同概念:微调 (fine tune)、推理 (inference)、智能体 (agent)</span>
-- [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:微调 (fine tune)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

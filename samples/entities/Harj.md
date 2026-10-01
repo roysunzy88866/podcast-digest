@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":40,"Atlas":3,"精益创业":2,"智能体":373,"YC":16,"Google":51,"Claude":74,"OpenAI":144,"Shopify":15}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":41,"Atlas":3,"精益创业":2,"智能体":374,"YC":16,"Google":51,"Claude":74,"OpenAI":145,"Shopify":15}</script>
 
 <script>
 (function(){

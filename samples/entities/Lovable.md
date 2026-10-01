@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lovable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]]**(05:13起):本集说 Lovable 的定价核心是纯积分模式:用户预付积分、每月自动充值,积分分构建额度、计划模式额度、云端额度、AI 网关额度等多种类型,超支了周期结束再出账单。
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(17:54起):本集以它举例说明能力的扩散：打开 Lovable 输入一句话就能得到一个完整应用。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(13:03起):本集把它作为 vibe coding 赛道上与 Bolt 竞争的公司之一提及
+- **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(17:55起):本集与 Replit 并提，说这类公司虽在爆炸半径中心但「好得难以置信」，巨大的用户市场让它们照样成功。
 
 ## ① 提到它的金句
 
@@ -47,7 +48,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
@@ -66,14 +67,15 @@ unlisted: true
 - [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|《智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务》]] — 作为被讨论公司
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司(提及)
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[开源]] · [[vibe coding]] · [[推理]] · [[ChatGPT]]
+[[Cursor]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[开源]] · [[vibe coding]] · [[推理]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Cursor":73,"Anthropic":156,"智能体":373,"OpenAI":144,"Lenny":68,"Replit":17,"开源":29,"vibe coding":43,"推理":63,"ChatGPT":85}</script>
+<script type="application/json" class="pd-epn">{"Cursor":74,"Anthropic":157,"智能体":374,"OpenAI":145,"Lenny":68,"Replit":18,"开源":30,"vibe coding":43,"推理":65,"Claude":74}</script>
 
 <script>
 (function(){

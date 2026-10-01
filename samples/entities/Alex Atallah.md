@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anjney Midha":1,"OpenRouter":11,"Stripe":40,"Anthropic":156,"Discord":6,"OpenAI":144,"MidJourney":3,"OpenSea":1,"Mistral":7,"开放权重":7}</script>
+<script type="application/json" class="pd-epn">{"Anjney Midha":1,"OpenRouter":11,"Stripe":41,"Anthropic":157,"Discord":6,"OpenAI":145,"MidJourney":3,"OpenSea":1,"Mistral":7,"开放权重":7}</script>
 
 <script>
 (function(){

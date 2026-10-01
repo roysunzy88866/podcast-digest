@@ -93,7 +93,7 @@ Tonic 的 AI 团队刚发了一篇论文：大约一年前，有人拿一个开�
 
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:微调 (fine tune)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|300亿美元的隐形公司：VastData 要做 AI 时代的操作系统]]<span class="pd-rz">同概念:微调 (fine tune)、推理 (inference)、智能体 (agent)</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、推理 (inference)</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:微调 (fine tune)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

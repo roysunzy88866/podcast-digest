@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]] [[Charlie Holtz]]
+[[David George]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]] [[Ryan Cooke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":373,"上下文工程":16,"代码审查":21,"Claude":74,"Simon Mayfor":1,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"上下文工程":16,"代码审查":21,"Claude":74,"Simon Mayfor":1,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
 
 <script>
 (function(){

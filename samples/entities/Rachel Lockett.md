@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":4,"联合创始人":4,"一页纸计划":1,"Stripe":40,"Coinbase":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":4,"联合创始人":4,"一页纸计划":1,"Stripe":41,"Coinbase":7}</script>
 
 <script>
 (function(){

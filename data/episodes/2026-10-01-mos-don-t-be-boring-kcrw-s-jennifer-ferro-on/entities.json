@@ -1,0 +1,888 @@
+{
+  "episode_id": "2026-10-01-mos-don-t-be-boring-kcrw-s-jennifer-ferro-on",
+  "podcast": "Masters of Scale",
+  "date": "2026-10-01",
+  "tags": [
+    "公共媒体",
+    "领导力交接",
+    "社区建设",
+    "联邦资金",
+    "算法与寡头"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeff-berman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Berman",
+      "file": "Jeff Berman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            174.022,
+            175.083
+          ],
+          "quote": "Hey folks, Jeff Berman here.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 75,
+          "t": [
+            348.131,
+            354.694
+          ],
+          "quote": "I'm Jeff Berman, your host, and I am so excited to be in Los Angeles today with my new friend, Jennifer Farrow.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2205.918,
+            2206.539
+          ],
+          "quote": "I'm Jeff Berman.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "jennifer-ferro",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jennifer Ferro",
+      "file": "Jennifer Ferro",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jamie-batmer",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jamie Batmer",
+      "file": "Jamie Batmer",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            175.123,
+            182.951
+          ],
+          "quote": "Before we start the show, I'm thrilled to welcome my friend, Jamie Batmer, Chief Investment Officer of Creative Planning, one of the sponsors of our show.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "kcrw",
+      "type": "company",
+      "role": "company",
+      "name": "KCRW",
+      "file": "KCRW",
+      "primary": true,
+      "how_described": "本集主线实体：洛杉矶传奇公共广播电台，约 140 名员工，Jennifer Farrow 执掌，定位为面向全国的社区资源，「不因为自己是公共广播就该有点无聊」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            121.63,
+            126.132
+          ],
+          "quote": "It's KCRW.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 22,
+          "t": [
+            126.152,
+            127.233
+          ],
+          "quote": "Yes, indeed, it's KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            138.72,
+            139.04
+          ],
+          "quote": "KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            140.981,
+            145.064
+          ],
+          "quote": "The founder of KCRW, she was a person who really didn't care what other people thought of her.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            153.35,
+            155.091
+          ],
+          "quote": "This is KCRW.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 76,
+          "t": [
+            354.794,
+            368.06
+          ],
+          "quote": "Jennifer, I'm thrilled for you to be with us as you've been leading KCRW, a legendary public media institution, through unprecedented, complex times with grace and grit and heart.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 94,
+          "t": [
+            447.089,
+            453.553
+          ],
+          "quote": "So how did you make the jump from a paralegal to a local criminal defense lawyer to KCRW?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 97,
+          "t": [
+            455.575,
+            457.037
+          ],
+          "quote": "I would listen to KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            457.077,
+            458.078
+          ],
+          "quote": "I loved KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            463.705,
+            465.868
+          ],
+          "quote": "And so I started volunteering at KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            465.988,
+            469.252
+          ],
+          "quote": "And KCRW at that time, they're a very robust volunteer program.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            482.928,
+            486.032
+          ],
+          "quote": "I just quit and I started volunteering full-time at KCRW.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            488.314,
+            492.637
+          ],
+          "quote": "How did you transition from being a volunteer at KCRW to actually being on staff there?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 110,
+          "t": [
+            492.737,
+            507.928
+          ],
+          "quote": "Okay, well, another kind of ridiculous story, but I, so part of my, you know, doing odd jobs to make rent, I got hired by the general manager and the founder of KCRW to transcribe this radio show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            601.819,
+            613.111
+          ],
+          "quote": "I mean, what ended up, I mean, all credit to her, RIP, but she not only built this really unusual entity, KCRW, but she also was so",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            687.688,
+            694.329
+          ],
+          "quote": "Anything, if you're interested in anything, KCRW is a door opener for you to learn more about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            709.132,
+            711.753
+          ],
+          "quote": "I think KCRW is just so singular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            711.913,
+            712.953
+          ],
+          "quote": "How big is KCRW now?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 183,
+          "t": [
+            716.875,
+            721.059
+          ],
+          "quote": "What makes KCRW different from other public radio stations?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 186,
+          "t": [
+            728.906,
+            738.995
+          ],
+          "quote": "I mean, KCRW has made such a mark, not just in LA, but nationally with the programs that it has created and produced and distributed.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 194,
+          "t": [
+            781.878,
+            786.839
+          ],
+          "quote": "That's the part that KCRW really embraces because we know that people want that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            800.726,
+            812.094
+          ],
+          "quote": "What has made KCRW so good at being successful over and over and over again, particularly across categories, which is extremely rare for a media organization to do?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 210,
+          "t": [
+            868.949,
+            872.251
+          ],
+          "quote": "When you started at KCRW, radio was radio.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 212,
+          "t": [
+            879.217,
+            883.681
+          ],
+          "quote": "How have you adapted and how has KCRW adapted to meet the changing moment?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1182.917,
+            1186.18
+          ],
+          "quote": "How do you think about KCRW's role in countering that?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1203.394,
+            1213.281
+          ],
+          "quote": "But I think that's where KCRW's transition has been the most powerful is really understanding ourselves as this community resource and not just for LA, but for all of the country.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1532.852,
+            1543.435
+          ],
+          "quote": "People think NPR, public radio, they're interchangeable terms, KCRW, interchangeable, but yet, individually, it can be like herding cats.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1826.692,
+            1829.113
+          ],
+          "quote": "If it's KCRW on TikTok, that's one thing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2175.172,
+            2189.283
+          ],
+          "quote": "The way she leads KCRW offers so many valuable lessons for any of us who want to scale the reach of facts in an increasingly algorithmically controlled misinformation and disinformation driven world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "npr",
+      "type": "company",
+      "role": "company",
+      "name": "NPR",
+      "file": "NPR",
+      "primary": true,
+      "how_described": "本集说 Jennifer 担任 NPR 董事会主席，旨在公共广播系统面临巨大挑战、共和党攻击加剧时期建立凝聚力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1397.099,
+            1401.74
+          ],
+          "quote": "And it was, you know, it used to be focused on Big Bird, and then it got focused on NPR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1495.768,
+            1500.99
+          ],
+          "quote": "Jen, a few years ago, you took on an additional challenge of chairing the NPR board of directors.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1532.852,
+            1543.435
+          ],
+          "quote": "People think NPR, public radio, they're interchangeable terms, KCRW, interchangeable, but yet, individually, it can be like herding cats.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1543.735,
+            1554.166
+          ],
+          "quote": "I saw that what we were approaching was a big leadership change at NPR and increasing Republican attacks against our brand, our industry, everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1554.346,
+            1563.736
+          ],
+          "quote": "And so I was very interested in trying to build something that could lead, hopefully lead NPR and public radio to a better place.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "marfa-public-radio",
+      "type": "company",
+      "role": "company",
+      "name": "Marfa Public Radio",
+      "file": "Marfa Public Radio",
+      "primary": true,
+      "how_described": "本集说它位于德州小镇 Marfa，信号覆盖 3 万平方英里，联邦资金撤掉后失去约 30% 预算，是撤资真正的受害者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1358.088,
+            1372.055
+          ],
+          "quote": "It was like 30% of a place like Marfa Public Radio in Marfa, Texas, which is a tiny community, but the radio signals cover 30,000 square miles and they reach people with literally no media and no cell service.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "public-media",
+      "type": "concept",
+      "role": "concept",
+      "name": "公共媒体 (public media)",
+      "file": "公共媒体",
+      "primary": true,
+      "how_described": "本集把公共媒体说成社会的兜底保障：不卖数据、不被寡头或 AI 操纵、只为让生活变好、可以完全信任的存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            354.794,
+            368.06
+          ],
+          "quote": "Jennifer, I'm thrilled for you to be with us as you've been leading KCRW, a legendary public media institution, through unprecedented, complex times with grace and grit and heart.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1273.495,
+            1283.465
+          ],
+          "quote": "Having, you know, public media in the country is critical for that, as a backstop, as a place that you can turn to find out what's real.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1324.737,
+            1329.678
+          ],
+          "quote": "I have a colleague who's no longer in public media, but he used to say, we need a public internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1388.916,
+            1396.299
+          ],
+          "quote": "You don't have to be in that conversation anymore, you know, because the charges about public media being liberal, those are really old.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1416.986,
+            1419.307
+          ],
+          "quote": "So I think that's where public media has always been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1473.758,
+            1487.684
+          ],
+          "quote": "Yeah, I mean, this idea that concepts such as inclusivity and kindness and fairness are radical leftist ideas that are being promulgated by this dangerous entity of public media is sort of insane.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1680.767,
+            1684.729
+          ],
+          "quote": "We really should be funding public media in the U.S. much more robustly.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1706.64,
+            1719.81
+          ],
+          "quote": "And I think, you know, as a matter of principle, just like we have public libraries and public parks, we should have a public media, a source that you know is not manipulated by AI, is not controlled by some oligarch.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "public-internet",
+      "type": "concept",
+      "role": "concept",
+      "name": "公共互联网 (public internet)",
+      "file": "公共互联网",
+      "primary": true,
+      "how_described": "本集转述前同事的提法：有公共电视、公共广播，也需要一个公共互联网——因为今天的互联网被他人控制、拥有和操纵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1324.737,
+            1329.678
+          ],
+          "quote": "I have a colleague who's no longer in public media, but he used to say, we need a public internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1330.198,
+            1332.439
+          ],
+          "quote": "There's public television, public radio, we need a public internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1865.266,
+            1876.233
+          ],
+          "quote": "So when you talk about, for example, public internet or new paradigms, again, we're sort of giving you a magic wand and huge power.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1950.058,
+            1957.505
+          ],
+          "quote": "And then I think that there's, you know, I don't know what it would look like, but this notion of a public pipeline, a public internet is a really...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "federal-funding",
+      "type": "concept",
+      "role": "concept",
+      "name": "联邦资金 (federal funding)",
+      "file": "联邦资金",
+      "primary": true,
+      "how_described": "本集说联邦资金只占 KCRW 预算 5%，失去反而是一种解脱——不必再当政治皮球；对 Marfa 那样的电台则占 30%，是致命打击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            887.592,
+            892.634
+          ],
+          "quote": "And so I'm sure we'll talk a little bit about federal funding and stuff like that, that being a challenge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1289.828,
+            1296.352
+          ],
+          "quote": "And on the other hand, you're dealing with a massive federal funding battle, which I have to imagine has impacted you to some extent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1348.103,
+            1354.606
+          ],
+          "quote": "We still have that mentality 100% and we're probably more devoted to that than ever without federal funding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1354.626,
+            1358.008
+          ],
+          "quote": "And what federal funding did was, you know, it's 5% of our budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1380.465,
+            1387.054
+          ],
+          "quote": "And frankly, there's something freeing about not having the federal funding because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1448.756,
+            1457.158
+          ],
+          "quote": "So, yeah, I think the federal funding thing, it's a relief to be out of the political football and spending time on the Hill and...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1563.756,
+            1574.199
+          ],
+          "quote": "Jim, the federal funding cut is one thing, to your point, if it's 5% of your budget and you have a large base and you can probably find a way to make up for that with some pain, but not too much difficulty.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1585.103,
+            1589.484
+          ],
+          "quote": "What has happened across the member station universe since the federal funding cut?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "building-the-community",
+      "type": "concept",
+      "role": "concept",
+      "name": "社区建设 (building the community)",
+      "file": "社区建设",
+      "primary": true,
+      "how_described": "本集说面对受众转移，KCRW 把焦点从「制作媒体」转向「建设社区」——经营受众在无数选择面前依然愿意支持你的关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            918.718,
+            926.163
+          ],
+          "quote": "And so now it's like, it's really about changing from the focus being on making the media to really building the community.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "audience-shift",
+      "type": "concept",
+      "role": "concept",
+      "name": "受众转移 (audience shift)",
+      "file": "受众转移",
+      "primary": true,
+      "how_described": "本集称之为「我们有史以来最大的挑战」：受众行为变了，广播不是增长型媒介，不是吸引新受众的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            892.794,
+            895.155
+          ],
+          "quote": "But I think the biggest challenge is this audience shift.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "misinformation",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚假信息 (misinformation)",
+      "file": "虚假信息",
+      "primary": true,
+      "how_described": "本集说我们生活在一个虚假信息空前泛滥、以前所未见速度传播的时代，公共媒体是对抗它的可信兜底。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1169.205,
+            1178.393
+          ],
+          "quote": "We live in an era of unprecedented, at least because of the means by which it can be communicated, misinformation and disinformation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2175.172,
+            2189.283
+          ],
+          "quote": "The way she leads KCRW offers so many valuable lessons for any of us who want to scale the reach of facts in an increasingly algorithmically controlled misinformation and disinformation driven world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "oligarchs",
+      "type": "concept",
+      "role": "concept",
+      "name": "寡头 (oligarchs)",
+      "file": "寡头",
+      "primary": true,
+      "how_described": "本集说媒体的其他所有方面，几乎都已被世界上新型、近乎寡头的人所控制，这正是公共媒体存在的意义所在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            157.874,
+            164.925
+          ],
+          "quote": "Literally every other aspect of media is controlled by the new kind of almost oligarchs of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1232.902,
+            1246.272
+          ],
+          "quote": "And in a world that we live in where literally every other aspect of media is controlled by the new kind of almost oligarchs of the world, it's powerful to have that and to know it exists.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "type": "concept",
+      "role": "concept",
+      "name": "算法 (algorithms)",
+      "file": "算法",
+      "primary": true,
+      "how_described": "本集说控制算法的万亿美元公司被激励去推动参与度，而人在愤怒、被激怒时参与度更高——即那台「愤怒机器」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            1830.713,
+            1847.699
+          ],
+          "quote": "But we live in this world where the now trillion dollar companies that control these algorithms are incentivized to drive engagement and engagement happens more when we are outraged and we are inflamed and cortisol is spiking.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "fcc",
+      "type": "company",
+      "role": "company",
+      "name": "FCC",
+      "file": "FCC",
+      "primary": false,
+      "how_described": "本集提到广播受 FCC 管制，有规则和标准，违规会失去执照，而今天的数字管道上看不到任何类似的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 416,
+          "t": [
+            1975.966,
+            1980.068
+          ],
+          "quote": "Like, you have, like, on the radio side, we're controlled by the FCC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "usaid",
+      "type": "company",
+      "role": "company",
+      "name": "USAID",
+      "file": "USAID",
+      "primary": false,
+      "how_described": "本集提到针对 USAID 和公共广播的撤资同时发生，本该是煤矿里的金丝雀，是大规模撤资的开始，但后续至今一个都没出现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1732.899,
+            1742.964
+          ],
+          "quote": "So remember, this was, you know, this rescission effort for USAID and public radio happened at the same time, and it was supposed to be the canary in the coal mine and the beginning of many, many rescissions to come.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fact-based-media",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于事实的媒体 (fact-based media)",
+      "file": "基于事实的媒体",
+      "primary": true,
+      "how_described": "本集说基于事实的媒体需要在营销上花大钱——这名字「听起来一点也不像巧克力蛋糕」，而且必须做出同样有趣的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1849.499,
+            1858.262
+          ],
+          "quote": "And yet fact-based media, a lot of the places where this should be redundant but objective truth",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1876.393,
+            1883.557
+          ],
+          "quote": "What would you design so that we as Americans are engaging more with fact-based media and less with the outrage machine?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1885.042,
+            1889.068
+          ],
+          "quote": "I mean, first of all, I think that fact-based media needs to spend a lot of money on marketing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1890.628,
+            1892.709
+          ],
+          "quote": "Call it something other than fact-based media, maybe we'll start there.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "a-third-way",
+      "type": "concept",
+      "role": "concept",
+      "name": "第三条路 (a third way)",
+      "file": "第三条路",
+      "primary": true,
+      "how_described": "本集说的第三条路：像书店与图书馆共存一样，允许千花齐放，但保有一条更可信的数据通道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            2085.407,
+            2102.303
+          ],
+          "quote": "And so what I hear you sort of advocating for is almost a third way, which is, sure, let a thousand flowers bloom, let a hundred million flowers bloom, and let's also have a corridor where there is a more trusted set of data coming to and maybe more...",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"X":2,"Alphabet":1,"Waymo":14,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":23}</script>
+<script type="application/json" class="pd-epn">{"X":2,"Alphabet":1,"Waymo":15,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":23}</script>
 
 <script>
 (function(){

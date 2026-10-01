@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":17,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":4,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Perault":1,"a16z":17,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":5,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

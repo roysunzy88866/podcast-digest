@@ -136,9 +136,9 @@ Harvey 的动机很直接：让竞争对手的律所各用各的专属模型、�
 
 **换个口味**
 
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Harvey、OpenAI、Anthropic、Lovable · 同概念:开源模型 (open source)</span>
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同公司:Kimi K3、OpenAI · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|AI 末日论反弹：是营销烟雾弹，还是真该警惕？]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:前沿模型 (frontier model)、智能体 (agent)</span>
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:开源模型 (open source)、蒸馏 (distillation)</span>
 
 </div>
 </div>

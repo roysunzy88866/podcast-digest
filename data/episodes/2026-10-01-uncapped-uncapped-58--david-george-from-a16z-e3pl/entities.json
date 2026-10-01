@@ -1,0 +1,1172 @@
+{
+  "episode_id": "2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl",
+  "podcast": "Uncapped with Jack Altman",
+  "date": "2026-10-01",
+  "tags": [
+    "AI 投资",
+    "前沿模型",
+    "自动驾驶与机器人",
+    "叙事与估值",
+    "成长期基金"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "host",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集把 token 当成 AI 经济的核心计量：卖方(前沿实验室)收入巨大，但真正要盯的是买方企业是否拿到效率提升；还说经济将在美元和 token 之间震荡，token 会成为新形式货币。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            614.239,
+            623.6
+          ],
+          "quote": "And I guess the point there is if the total token usage just goes up by 100x, it's just like these things are all going to get so big.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理是比训练大得多的市场，且经验规律是「模型在推理时算得越多，结果越好」，这会在知识工作上持续成立，因此不担心效率突破证伪整个故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            361.581,
+            368.126
+          ],
+          "quote": "Rather than having to consume massive efficiency goes way up, both in training and in inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            383.876,
+            388.719
+          ],
+          "quote": "You still will then have inference, which is an absolutely massive market that's going to be much bigger than training anyways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            389.079,
+            392.101
+          ],
+          "quote": "And so, you know, yeah, we could get efficiency gains in inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            392.461,
+            399.365
+          ],
+          "quote": "But I think what we've learned so far is the more you reason at the model, at the time of inference, the better the results get.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说前沿实验室占了市场 95% 以上的钱，用户显现的偏好是愿意为前沿 token 支付 10 倍价格，前沿模型会被用于价值更高的任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            671.888,
+            678.954
+          ],
+          "quote": "And right now, what's revealed in the preferences of users is users are opting to use Frontier models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集延续「开源会成、前沿也会成」的判断：随着用量增长 50 倍，对 N-1 和开源技术的需求也会巨大，因为人们会在乎成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            39.494,
+            43.175
+          ],
+          "quote": "You know, people question, is it going to be open source or frontier?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            43.215,
+            44.896
+          ],
+          "quote": "And he's like, the open source is going to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            610.158,
+            613.859
+          ],
+          "quote": "We talk about open source a lot in relation to the Frontier Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1106.697,
+            1110.479
+          ],
+          "quote": "The appetite for N-1 or open source technology is also going to be huge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程 (coding)",
+      "file": "编程",
+      "primary": true,
+      "how_described": "本集说编程是目前企业端唯一真正起作用的场景，3000 万程序员贡献了绝大部分收入，实验室会专注编程及其爆炸半径； Stripe 等公司觉得写代码效率回报非常高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            204.744,
+            208.347
+          ],
+          "quote": "In the enterprise, basically what's working, it's like coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            324.754,
+            333.116
+          ],
+          "quote": "One is what happened with coding is anomalous relative to everything else in B2B or knowledge work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            496.393,
+            504.218
+          ],
+          "quote": "There was a study that like in AI coding, it was, you know, actually you got 20% less effective by using AI code, but this was like before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            688.679,
+            692.36
+          ],
+          "quote": "I think in coding, that's definitely going to persist for some period of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            717.472,
+            719.514
+          ],
+          "quote": "If coding was worth X, like, what's curing cancer worth?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            808.758,
+            817.68
+          ],
+          "quote": "On the application side, my framework is the big labs are going to be very focused on first-party products that are obviously in coding and within the blast radius of coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            818.401,
+            824.342
+          ],
+          "quote": "And so you can interpret the blast radius of coding however you like, but it's probably some things around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            873.839,
+            878.362
+          ],
+          "quote": "But it's probably like 12 months behind coding, just in terms of diffusion into the workforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1362.118,
+            1365.999
+          ],
+          "quote": "Everyone is obsessed with coding, rightfully so, given what's happened with the revenue ramps of the companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "本集把法律领域的起飞归因于推理模型：法律是语言又极其有逻辑、判例文档完备，「做律师就是推理」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            947.437,
+            948.577
+          ],
+          "quote": "You know, reasoning models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (autonomous driving)",
+      "file": "自动驾驶",
+      "primary": true,
+      "how_described": "本集认为自动驾驶被 AI 喧嚣严重低估：Waymo 比人类司机安全 10-14 倍、成本可降到网约车之下、市场弹性极大，是另一个 10 倍级的市场扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            1570.744,
+            1571.804
+          ],
+          "quote": "Autonomous driving is one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1662.886,
+            1669.73
+          ],
+          "quote": "Autonomous driving, we're going to look back 10 years from now and say like, oh, there was another obvious 10xing that would happen there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说机器人显然会成功，且会是比语言更大的市场(B2B+消费)，工厂重复任务场景已可见，「机器人会有属于它的 ChatGPT 时刻」，可能在五年内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            1589.581,
+            1596.528
+          ],
+          "quote": "Like, we've got AI, we've got autonomy, we've got robotics, we've got AI's application to health.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1848.642,
+            1851.263
+          ],
+          "quote": "And then related, there's robotics, which is going to be",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1890.308,
+            1896.049
+          ],
+          "quote": "One of my partners allowed an investment in mind robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1937.784,
+            1940.626
+          ],
+          "quote": "But we will have a ChatGPT moment for robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2281.071,
+            2293.101
+          ],
+          "quote": "So right now, product cycle is like a 9 or 10 out of 10 for all those reasons I laid out, like AI autonomy, American dynamism, robotics, biohealth, like all these things are going to happen over the next 10 years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capital-cycle",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本周期 (capital cycle)",
+      "file": "资本周期",
+      "primary": true,
+      "how_described": "本集用产品周期与资本周期的打分框架：现在产品周期 9-10 分、资本周期约 6 分(热但不糟)，而决定十年走向的是产品周期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 583,
+          "t": [
+            2061.327,
+            2064.931
+          ],
+          "quote": "But there's also this related but not exactly the same thing of the capital cycle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2293.661,
+            2297.585
+          ],
+          "quote": "Capital cycle, you know, your ideal would be like a 10 on product cycle and like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2298.145,
+            2300.748
+          ],
+          "quote": "You know, a 10 on capital cycle, meaning valuations are really low.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2329.995,
+            2340.038
+          ],
+          "quote": "Right now, capital cycle wise, like people see the excitement and you can still find ways to do good investments and the companies are growing so fast and they're so dynamic, it's fine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "narrative",
+      "type": "concept",
+      "role": "concept",
+      "name": "叙事 (narrative)",
+      "file": "叙事",
+      "primary": true,
+      "how_described": "本集说叙事/氛围是被低估的资产负债表：它关系融资、估值、留人招人，Palantir 是公开市场样板；「别做空弥赛亚型创始人和人们喜爱的产品」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 694,
+          "t": [
+            2522.6,
+            2525.384
+          ],
+          "quote": "This sort of importance of narrative right from the beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2556.672,
+            2559.514
+          ],
+          "quote": "Going direct and owning their own narrative and you get more authenticity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            2564.796,
+            2568.378
+          ],
+          "quote": "But I think Andreessen has understood the importance of narrative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2568.779,
+            2574.422
+          ],
+          "quote": "And it seems to me that narrative is like louder than ever right now for companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2588.986,
+            2596.873
+          ],
+          "quote": "And I'm curious how you think about narrative now at this point in the cycle when we're all, you know, living on X and we're living in the news and, you know, how do you think about this all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            2832.891,
+            2841.053
+          ],
+          "quote": "I was just thinking as you were talking that the narrative, however strong the narrative is now, the importance of it all is about to go like hyperbolic as these companies get public.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2939.285,
+            2940.186
+          ],
+          "quote": "You've got to own the narrative.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            116.317,
+            129.105
+          ],
+          "quote": "So, like, all of this success, which is the greatest, fastest success we've ever seen in business, which is basically OpenAI and Anthropic together, and then if you add in SpaceX AI, now with Cursor, they're, call it, like, $120 billion of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            287.864,
+            295.77
+          ],
+          "quote": "But yeah, I think if you get more OpenAI and Anthropic or SpaceX AI capacity live, it generally gets used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            660.078,
+            664.621
+          ],
+          "quote": "They have raised more than like the entire downstream ecosystem, like just OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1326.596,
+            1334.842
+          ],
+          "quote": "You know, there's a bit of a head fake because the OpenAI voice stuff was not very good for a period of time and it had to rely on a dumber model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2855.123,
+            2856.624
+          ],
+          "quote": "Like Anthropic and OpenAI's revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2914.302,
+            2918.126
+          ],
+          "quote": "I think the person who's doing the best job of this in the market is Tebow from OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3086.939,
+            3095.341
+          ],
+          "quote": "And then, by the way, we have OpenAI and Anthropic and SpaceX on their heels that are growing faster and that are going to get bigger.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 已筹集约 3500 亿美元、拥有巨大规模优势，是与 OpenAI 并列的前沿实验室双雄之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            116.317,
+            129.105
+          ],
+          "quote": "So, like, all of this success, which is the greatest, fastest success we've ever seen in business, which is basically OpenAI and Anthropic together, and then if you add in SpaceX AI, now with Cursor, they're, call it, like, $120 billion of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            287.864,
+            295.77
+          ],
+          "quote": "But yeah, I think if you get more OpenAI and Anthropic or SpaceX AI capacity live, it generally gets used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            665.542,
+            667.664
+          ],
+          "quote": "Anthropic have raised like $350 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2855.123,
+            2856.624
+          ],
+          "quote": "Like Anthropic and OpenAI's revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3086.939,
+            3095.341
+          ],
+          "quote": "And then, by the way, we have OpenAI and Anthropic and SpaceX on their heels that are growing faster and that are going to get bigger.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集举 Databricks 为「创始人搞出下一件事」的范例：成长基金首笔投资七年后营收反而加速，还会参与争夺 AI 的抽象层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            539.424,
+            543.808
+          ],
+          "quote": "I think the labs and Databricks and Palantir, companies like that, are probably",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1155.913,
+            1163.777
+          ],
+          "quote": "Like the application companies, obviously the labs with their first party products, companies like Databricks or Palantir or Snowflake, like they're going to vie for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2406.908,
+            2407.989
+          ],
+          "quote": "Databricks is an example of this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": true,
+      "how_described": "本集把 Palantir 当叙事管理的公开市场样板：高估值是武器，商业侧因被视为「落地 AI 的可信之选」而真金白银受益。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            539.424,
+            543.808
+          ],
+          "quote": "I think the labs and Databricks and Palantir, companies like that, are probably",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1155.913,
+            1163.777
+          ],
+          "quote": "Like the application companies, obviously the labs with their first party products, companies like Databricks or Palantir or Snowflake, like they're going to vie for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2703.167,
+            2705.689
+          ],
+          "quote": "Like, famously right now, it's Palantir and Carp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2708.831,
+            2718.579
+          ],
+          "quote": "You know what's amazing to me on that one is that he, I mean, Palantir had a huge multiple before the recent, like now it's, I think the growth has inflected recently, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 758,
+          "t": [
+            2735.54,
+            2740.186
+          ],
+          "quote": "And, you know, but, like, the big thing, obviously, they have an amazing— I think a lot of people don't even really know what Palantir does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集以 Harvey 所在的法律市场说明应用层机会：比编程落后约 12 个月、处于起飞期，产品最后细节和地推是实验室不会做的脏活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            857.83,
+            858.731
+          ],
+          "quote": "Large investors in Harvey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            859.011,
+            864.814
+          ],
+          "quote": "And so Harvey, I feel like legal is very interesting to people on X.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            992.682,
+            994.884
+          ],
+          "quote": "People were like, oh man, what's that mean for Harvey?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集说 Replit 正处在编程爆炸半径正中心但运转得非常好，印证「这一切都会成功」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1071.221,
+            1073.443
+          ],
+          "quote": "Like, we're large investors, one of the biggest investors in Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1075.605,
+            1076.465
+          ],
+          "quote": "Replit and Lovable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集与 Replit 并提，说这类公司虽在爆炸半径中心但「好得难以置信」，巨大的用户市场让它们照样成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1075.605,
+            1076.465
+          ],
+          "quote": "Replit and Lovable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集用 Waymo 数百万英里数据说明它比人类司机安全 10-14 倍，而全美不到 1 万辆，扩散才刚起步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            1520.303,
+            1522.264
+          ],
+          "quote": "Yeah, or if you live in a place where you can get a Waymo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1525.105,
+            1531.168
+          ],
+          "quote": "Yeah, so it's like you've got these companies that can do it now, Waymo and Tesla, but it has not diffused yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1745.25,
+            1756.078
+          ],
+          "quote": "So, like, if you can get, you know, the cost of a Waymo or a Tesla or whatever, you know, Ride Hill Service, which I think there will be others, down below that, like, there's going to be an explosion of demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1826.079,
+            1831.78
+          ],
+          "quote": "And so it's one of those areas where there's Waymo, there's Tesla.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集说投 SpaceX 时 Starlink 连 GA 都没发布，如今成为最好的业务板块之一，佐证「创始人会搞出下一件事」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            116.317,
+            129.105
+          ],
+          "quote": "So, like, all of this success, which is the greatest, fastest success we've ever seen in business, which is basically OpenAI and Anthropic together, and then if you add in SpaceX AI, now with Cursor, they're, call it, like, $120 billion of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            287.864,
+            295.77
+          ],
+          "quote": "But yeah, I think if you get more OpenAI and Anthropic or SpaceX AI capacity live, it generally gets used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2482.989,
+            2488.496
+          ],
+          "quote": "Like when we did SpaceX, you know, like Starlink wasn't even GA yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3086.939,
+            3095.341
+          ],
+          "quote": "And then, by the way, we have OpenAI and Anthropic and SpaceX on their heels that are growing faster and that are going to get bigger.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mind-robotics",
+      "type": "company",
+      "role": "company",
+      "name": "mind robotics",
+      "file": "mind robotics",
+      "primary": true,
+      "how_described": "本集说这是 Rivian 创始人把机器人放进自家工厂做装配的公司：场景明确、今天就有高 ROI、客户内置，还能形成现场数据反馈闭环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 532,
+          "t": [
+            1890.308,
+            1896.049
+          ],
+          "quote": "One of my partners allowed an investment in mind robotics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集把 Tesla 与 Waymo 并列为目前能做到自动驾驶的公司，主持人还分享了自己买 Tesla 后「上车输入目的地」的体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            1496.454,
+            1500.396
+          ],
+          "quote": "I just feel like I just got a Tesla for the first time and like I got it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1514.601,
+            1520.163
+          ],
+          "quote": "And I don't think most people have realized how good self-driving is yet unless you have a self-driving Tesla.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1525.105,
+            1531.168
+          ],
+          "quote": "Yeah, so it's like you've got these companies that can do it now, Waymo and Tesla, but it has not diffused yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1745.25,
+            1756.078
+          ],
+          "quote": "So, like, if you can get, you know, the cost of a Waymo or a Tesla or whatever, you know, Ride Hill Service, which I think there will be others, down below that, like, there's going to be an explosion of demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1826.079,
+            1831.78
+          ],
+          "quote": "And so it's one of those areas where there's Waymo, there's Tesla.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1858.626,
+            1862.047
+          ],
+          "quote": "And the startups that are doing it, obviously Tesla's very good at it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集把 Cursor 列入人们爱用的第一方编程产品，说它同样处在爆炸半径中心且非常棒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            116.317,
+            129.105
+          ],
+          "quote": "So, like, all of this success, which is the greatest, fastest success we've ever seen in business, which is basically OpenAI and Anthropic together, and then if you add in SpaceX AI, now with Cursor, they're, call it, like, $120 billion of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            743.232,
+            747.713
+          ],
+          "quote": "So, you know, people really like using Codex and Claude Code and Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1087.694,
+            1089.334
+          ],
+          "quote": "And Cursor also.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集回望网约车史：Uber 用好 10 倍的产品把旧金山 1 亿美元出租车市场变成 10 亿，以此类比自动驾驶的下一个 10 倍扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 457,
+          "t": [
+            1638.704,
+            1644.466
+          ],
+          "quote": "Then the ride share companies came along and, you know, I was an investor in Uber, you know, obviously you guys were too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1651.727,
+            1658.089
+          ],
+          "quote": "So like, you know, taxis were 100 million bucks in San Francisco and then they became a billion dollars like three years into Uber and Lyft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1716.241,
+            1723.943
+          ],
+          "quote": "I think there's a very clear case for how you actually get the cost below the cost of Uber and Lyft today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1736.686,
+            1740.267
+          ],
+          "quote": "Riding in an Uber or Lyft is probably like two bucks and change per mile.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集说与 Stripe 相处时他们觉得更高效地写代码回报非常高，是 token 买方拿到 ROI 的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            519.788,
+            526.493
+          ],
+          "quote": "Spending time with Stripe, they feel like there's very high returns to them being able to be a lot more efficient in writing code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            551.395,
+            552.956
+          ],
+          "quote": "And then there's companies like Stripe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集在与 Databricks、Palantir 并列时提到，这类公司都会来争夺 AI 的抽象层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1155.913,
+            1163.777
+          ],
+          "quote": "Like the application companies, obviously the labs with their first party products, companies like Databricks or Palantir or Snowflake, like they're going to vie for it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kirkland",
+      "type": "company",
+      "role": "company",
+      "name": "Kirkland",
+      "file": "Kirkland",
+      "primary": false,
+      "how_described": "本集提到 Kirkland 宣布花 5 亿美元自建技术栈，引发对 Harvey 的担忧，但 David 认为这不是通往 AGI 的路、却会价值几十亿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            986.078,
+            992.662
+          ],
+          "quote": "And there was a major validation event, which was when Kirkland came out and said they were going to spend $500 million to build their own technology stack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集只在引用 Eric Vischer 的「都会成」时提了一句：是 NVIDIA 会成还是新芯片公司会成——答案是都会成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            46.736,
+            49.017
+          ],
+          "quote": "Is it going to be NVIDIA or is it going to be new chips companies?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

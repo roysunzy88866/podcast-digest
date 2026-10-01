@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":1,"Autodesk":1,"AI":23,"大语言模型":8,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":2,"Netflix":5}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":2,"Autodesk":1,"AI":23,"大语言模型":8,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":2,"Netflix":5}</script>
 
 <script>
 (function(){

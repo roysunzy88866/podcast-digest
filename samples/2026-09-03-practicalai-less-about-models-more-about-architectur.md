@@ -148,9 +148,9 @@ Rackspace 的定位是「从芯片到成果」：与 AMD 合作、自有数据�
 
 **换个口味**
 
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:LLM、推理 (inference)、物理 AI (physical AI)</span>
 - [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:线束 (harness)、评估 (eval)</span>
 - [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic · 同概念:治理 (governance)、线束 (harness)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:推理 (inference)、线束 (harness)、护栏 (guardrails)</span>
 
 </div>
 </div>

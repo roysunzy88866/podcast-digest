@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"视觉语言模型":1,"Hugging Face":25,"智能体":373,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":25,"RFDETR":1}</script>
+<script type="application/json" class="pd-epn">{"视觉语言模型":1,"Hugging Face":26,"智能体":374,"零样本分割":1,"目标检测":2,"Transformers":3,"微调":26,"RFDETR":1}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":5,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
+<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":6,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
 
 <script>
 (function(){

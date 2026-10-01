@@ -143,6 +143,7 @@ NVIDIA、Broadcom 这些公司大部分产品在 [[TSMC|TSMC]] 制造,等于把�
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
 - [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据]]<span class="pd-rz">同公司:NVIDIA</span>
+- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Replit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,6 +27,7 @@ unlisted: true
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(13:03起):本集把它作为 vibe coding 赛道上与 Bolt 竞争的公司之一提及
 - **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(02:23起):本集提到 Replit 全新的智能体画布功能构建在 tldraw 之上。
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(01:20起):本集说 Replit 是 Amjad 创办的公司,靠 AI 智能体写代码大火;他还在里面做新业务线,让任何有数据的生意人都能微调模型,并以『自动驾驶公司』的方式运营
+- **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(17:51起):本集说 Replit 正处在编程爆炸半径正中心但运转得非常好，印证「这一切都会成功」。
 
 ## ① 提到它的金句
 
@@ -38,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -57,14 +58,15 @@ unlisted: true
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为被讨论公司(提及)
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为被讨论公司
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[vibe coding]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[ChatGPT]] · [[Lovable]] · [[护城河]] · [[LLM]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[vibe coding]] · [[Cursor]] · [[Lenny]] · [[Lovable]] · [[ChatGPT]] · [[护城河]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":373,"vibe coding":43,"OpenAI":144,"Anthropic":156,"Lenny":68,"Cursor":73,"ChatGPT":85,"Lovable":17,"护城河":12,"LLM":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"vibe coding":43,"Cursor":74,"Lenny":68,"Lovable":18,"ChatGPT":85,"护城河":12,"LLM":52}</script>
 
 <script>
 (function(){

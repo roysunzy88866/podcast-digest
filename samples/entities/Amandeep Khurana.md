@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":156,"Amazon":21,"AWS":16,"Cloudera":1,"Databricks":18,"Palantir":19,"Microsoft":27,"Lovable":17,"前向部署工程师":1,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":157,"Amazon":21,"AWS":16,"Cloudera":1,"Databricks":19,"Palantir":20,"Microsoft":27,"Lovable":18,"前向部署工程师":1,"前置部署工程":3}</script>
 
 <script>
 (function(){

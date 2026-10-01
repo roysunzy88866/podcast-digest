@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]] [[Sean]] [[Diogo Almeida]] [[Adam Neumann]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":6,"Ford":1,"BYD":1,"Tesla":9,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":6,"Ford":1,"BYD":1,"Tesla":10,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

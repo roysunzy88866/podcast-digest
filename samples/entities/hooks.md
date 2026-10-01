@@ -35,7 +35,7 @@ unlisted: true
 
 [[技能]] · [[智能体]] · [[MCP]] · [[Roberto Milev]] · [[Tyler Folkman]] · [[Paul Bakaus]] · [[Uday Kanagala]] · [[JobNimbus]] · [[Impeccable]] · [[Navan]]
 
-<script type="application/json" class="pd-epn">{"技能":25,"智能体":373,"MCP":67,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Uday Kanagala":1,"JobNimbus":1,"Impeccable":2,"Navan":1}</script>
+<script type="application/json" class="pd-epn">{"技能":25,"智能体":374,"MCP":67,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Uday Kanagala":1,"JobNimbus":1,"Impeccable":2,"Navan":1}</script>
 
 <script>
 (function(){

@@ -151,9 +151,9 @@ Klein 承认布鲁塞尔的监管者"全都是好意图",但批评他们倾向�
 
 **换个口味**
 
+- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、OpenAI、Databricks · 同概念:前沿模型 (frontier models)、开源模型 (open source)</span>
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Anthropic · 同概念:vibe coding、开源模型 (open source)、智能体 (agent)</span>
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:前沿模型 (frontier models)、开源模型 (open source)</span>
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM、智能体 (agent)</span>
 
 </div>
 </div>
