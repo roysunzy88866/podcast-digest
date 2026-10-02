@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]]
+[[Jonathan]] [[Mali]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":5,"Forum AI":1,"OpenAI":146,"Anthropic":158,"Meta":38,"ChatGPT":87,"LLM":52,"幻觉":11,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":5,"Forum AI":1,"OpenAI":147,"Anthropic":159,"Meta":39,"ChatGPT":87,"LLM":52,"幻觉":11,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

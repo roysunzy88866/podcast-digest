@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(08:31起):本集提到 Decagon 的创始人 Jesse Tsang 发文说对很多公司来说开源实际上是唯一选项，因为可以本地化、训练、微调
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(53:08起):本集引用其创始人 Jesse 的话：护城河往往是被发现出来的，而不是被设计出来的
 - **[[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]]**(00:46起):本集主角:Jesse Jang 联合创办的企业级 AI 客服智能体平台,2023 年起步,一年内从约 50 人扩到 500 人、估值 45 亿美元;核心论点是把 AI 的构建、测试、监控全部放进产品,让客户拥有结果和流程。
+- **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(34:13起):被引为正在微调模型的垂直 AI 公司例子
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为被讨论公司
 - [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]] — 作为被讨论公司(提及)
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为被讨论公司(提及)
 - [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]] — 作为被讨论公司
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Google]] · [[微调]] · [[Harvey]] · [[Anish Acharya]] · [[开源模型]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[微调]] · [[Harvey]] · [[Salesforce]] · [[护城河]] · [[人在回路]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"Cursor":74,"OpenAI":146,"Anthropic":158,"推理":65,"Google":53,"微调":26,"Harvey":15,"Anish Acharya":4,"开源模型":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"Cursor":74,"OpenAI":147,"Anthropic":159,"微调":28,"Harvey":16,"Salesforce":34,"护城河":13,"人在回路":18,"推理":65}</script>
 
 <script>
 (function(){

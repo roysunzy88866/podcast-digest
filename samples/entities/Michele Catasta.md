@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":18,"Replit Agent":1,"智能体":376,"vibe coding":43,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":19}</script>
+<script type="application/json" class="pd-epn">{"Replit":18,"Replit Agent":1,"智能体":380,"vibe coding":43,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":19}</script>
 
 <script>
 (function(){

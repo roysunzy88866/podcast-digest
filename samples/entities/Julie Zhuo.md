@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":376,"构建者":4,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":87,"Cursor":74,"OpenAI":146}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":380,"构建者":4,"可观测性":34,"对话分析":1,"评估":3,"维度思维":1,"ChatGPT":87,"Cursor":74,"OpenAI":147}</script>
 
 <script>
 (function(){

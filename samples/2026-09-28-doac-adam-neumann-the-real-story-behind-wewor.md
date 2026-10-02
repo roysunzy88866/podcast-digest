@@ -174,9 +174,9 @@ Salesforce 创始人 Benioff 当时劝他：飞去日本对 Masa 说不，以上
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同公司:A16Z、Salesforce</span>
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同公司:Benchmark</span>
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:A16Z</span>
-- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同公司:Benchmark</span>
 
 </div>
 <div class="pd-ex">

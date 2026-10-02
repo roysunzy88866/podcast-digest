@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":376,"子智能体":5,"harness":51,"提示词缓存":4,"记忆":19,"评估":3,"LLM 当裁判":9,"沙箱":68,"人在回路":17}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":380,"子智能体":5,"harness":51,"提示词缓存":4,"记忆":19,"评估":3,"LLM 当裁判":9,"沙箱":68,"人在回路":18}</script>
 
 <script>
 (function(){

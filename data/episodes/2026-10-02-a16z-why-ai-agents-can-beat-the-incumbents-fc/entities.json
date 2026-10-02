@@ -1,0 +1,2026 @@
+{
+  "episode_id": "2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc",
+  "podcast": "The a16z Show",
+  "date": "2026-10-02",
+  "tags": [
+    "垂直 AI",
+    "智能体",
+    "企业采购",
+    "创业公司 vs 在位者",
+    "人机协同"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "vlad-kyle",
+      "type": "person",
+      "role": "host",
+      "name": "Vlad Kyle",
+      "file": "Vlad Kyle",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            65.015,
+            76.622
+          ],
+          "quote": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            115.293,
+            125.908
+          ],
+          "quote": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "elena-berger",
+      "type": "person",
+      "role": "cohost",
+      "name": "Elena Berger",
+      "file": "Elena Berger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            65.015,
+            76.622
+          ],
+          "quote": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            114.031,
+            114.932
+          ],
+          "quote": "I'm Elena Berger.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "seema-amble",
+      "type": "person",
+      "role": "cohost",
+      "name": "Seema Amble",
+      "file": "Seema Amble",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            115.293,
+            125.908
+          ],
+          "quote": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "leo",
+      "type": "company",
+      "role": "company",
+      "name": "Leo",
+      "file": "Leo",
+      "primary": true,
+      "how_described": "本集主角之一：Vlad 联合创办的公司，为企业采购环节构建 AI 智能体，用多智能体系统端到端完成采购工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            65.015,
+            76.622
+          ],
+          "quote": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            88.306,
+            94.434
+          ],
+          "quote": "And Vlad explains how Leo is building agents that can coordinate that context and increasingly take on the job end to end.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            115.293,
+            125.908
+          ],
+          "quote": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            647.327,
+            656.401
+          ],
+          "quote": "Vlad, where across this kind of spectrum of retrieval agent, process agent, policy agent, principal agent, where does LEO sit?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            846.791,
+            852.072
+          ],
+          "quote": "So you have to trust that the Leo agent is going to then interface with a third party.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1094.055,
+            1099.239
+          ],
+          "quote": "Before agents or before Leo, they just didn't care about everything which happened below 50k.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1110.567,
+            1113.449
+          ],
+          "quote": "Except they have Leo agents, then we are going to negotiate against you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1227.697,
+            1231.319
+          ],
+          "quote": "And they feed those long running agents of Leo with those insights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1273.747,
+            1283.338
+          ],
+          "quote": "A vertical that, you know, is just managing all of this complexity with Leo and just kind of take us through what their experience is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1289.445,
+            1293.21
+          ],
+          "quote": "Again, like when we as Leo, when we talk about procurement of purchases, like we",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1297.527,
+            1300.171
+          ],
+          "quote": "We think that's solved also by Leo agents, but that's easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1557.98,
+            1560.501
+          ],
+          "quote": "And this is what we are building, building at Leo, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1572.996,
+            1576.217
+          ],
+          "quote": "You described Leo as a multi-agent system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1581.899,
+            1589.962
+          ],
+          "quote": "One level is that we, that Leo agents spend across like all those four categories that Seema mentioned in her article.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1678.262,
+            1684.925
+          ],
+          "quote": "What exactly is that process for procuring the Bolt and like where does Leo step in on that process?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2388.083,
+            2393.445
+          ],
+          "quote": "Like what do you tell them and how do you convince them to use Leo?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2397.353,
+            2410.767
+          ],
+          "quote": "And like, even if you look like internally at Leo, so like the, the first use case three years ago, which like kind of like went viral in the procurement world was like, just like having a quote, and then getting this information into SAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2437.395,
+            2439.336
+          ],
+          "quote": "If you, if you're applying to work at Leo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2775.798,
+            2786.99
+          ],
+          "quote": "Why aren't we also pushing them to Leo agents that are also helping them automate the work, owning then both sides of the transaction?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2910.309,
+            2919.897
+          ],
+          "quote": "And that's why you can deploy or Leo can deploy agents also on both sides doing like automating the work of all those other tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3045.252,
+            3070.074
+          ],
+          "quote": "Yeah, I mean that's the reason why like when you look at the org structure of Leo like 85% of the people are engineers and even if you look at like the people where you like they don't have an engineering title they're like mostly like an engineering background and reason for that is we obviously like we don't want to be a consulting company right so we make sure that we have like overall the best",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3136.109,
+            3143.795
+          ],
+          "quote": "We're talking about the bots and buyers summit that Leo hosted in New York.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集播客主办方；Seema Amble 是其合伙人，写了《在位者来了》一文，讨论在位者叠加大模型后创业公司的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            65.015,
+            76.622
+          ],
+          "quote": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            111.567,
+            113.89
+          ],
+          "quote": "Welcome back to the A16Z podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            115.293,
+            125.908
+          ],
+          "quote": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3527.247,
+            3530.068
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3542.053,
+            3547.675
+          ],
+          "quote": "Follow us on X and A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3552.771,
+            3565.757
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3566.497,
+            3571.16
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3571.68,
+            3578.323
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "被作为在位者的典型例子：把 Claude 和 Salesforce 捏成 Claudeforce，数据现成、分发渠道强；其 AgentForce 发布时客户很容易就注册",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            193.107,
+            205.82
+          ],
+          "quote": "So why do you need an AI-native startup if you've got Claudeforce, which is taking Claude plus Salesforce and putting the two together and then you've already got all your data and your employees are all used to using the product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            577.208,
+            577.989
+          ],
+          "quote": "So take Salesforce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            578.369,
+            587.874
+          ],
+          "quote": "When AgentForce launched, it was very easy for customers to say, yeah, I'm gonna sign up for the Salesforce agent, especially if it was offered at almost no extra cost.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sap",
+      "type": "company",
+      "role": "company",
+      "name": "SAP",
+      "file": "SAP",
+      "primary": true,
+      "how_described": "企业 ERP 系统，采购流程的核心记录系统；Leo 的用例是把报价信息录入 SAP，发票处理结果也推回 SAP 或 Oracle",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            740.235,
+            750.101
+          ],
+          "quote": "So you, we retrieve some informations, you match this across like other documents, and then you push this back to SAP or Oracle, like a very clear, clear process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1715.273,
+            1720.175
+          ],
+          "quote": "And now you are required to work with SAP or any other ERP system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2397.353,
+            2410.767
+          ],
+          "quote": "And like, even if you look like internally at Leo, so like the, the first use case three years ago, which like kind of like went viral in the procurement world was like, just like having a quote, and then getting this information into SAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2418.825,
+            2424.488
+          ],
+          "quote": "And so you, you have like this retrieval agent, getting like all of the information, putting it into SAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3015.025,
+            3044.612
+          ],
+          "quote": "Are doing that, you know, at a rapid clip where more of the customization, A, is being handled in an automated way and B, the customer is able to turn the knobs and levers around customization via software versus, okay, I needed to bring in A, the original, it was like, you know, you brought in Accenture to do your SAP customization and now it's like, okay, I've got a forward deployed team that's going to build some, you know, help build and spec it out and ultimately it's going to be completely software driven.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": false,
+      "how_described": "本集作为发票流程推回目标的企业系统被顺带提及（推回 SAP 或 Oracle）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            740.235,
+            750.101
+          ],
+          "quote": "So you, we retrieve some informations, you match this across like other documents, and then you push this back to SAP or Oracle, like a very clear, clear process.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "在位者叠加大模型的例子里被点名：把 Claude 和 Salesforce 捏在一起",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            193.107,
+            205.82
+          ],
+          "quote": "So why do you need an AI-native startup if you've got Claudeforce, which is taking Claude plus Salesforce and putting the two together and then you've already got all your data and your employees are all used to using the product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "被提到在位者会合作的实验室之一（和 Anthropic 一起），用模型能力给自己产品加超能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            536.225,
+            554.675
+          ],
+          "quote": "Like, there are all sorts of incentives that are preventing them from that, but the incumbents are trying, and I think what they're not able to do, they're like, some of them are saying, okay, let me partner with OpenAI, Anthropic, one of the labs, and try to build out, take that model capability and complement what they have and superpower it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "被提到在位者会合作的实验室之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            536.225,
+            554.675
+          ],
+          "quote": "Like, there are all sorts of incentives that are preventing them from that, but the incumbents are trying, and I think what they're not able to do, they're like, some of them are saying, okay, let me partner with OpenAI, Anthropic, one of the labs, and try to build out, take that model capability and complement what they have and superpower it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "被引为正在微调模型的垂直 AI 公司例子，用来引出 Leo 的模型策略对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            2053.171,
+            2059.597
+          ],
+          "quote": "Yeah, we know that, you know, companies like Harvey and Decagon are really fine-tuning models now.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": false,
+      "how_described": "被引为正在微调模型的垂直 AI 公司例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            2053.171,
+            2059.597
+          ],
+          "quote": "Yeah, we know that, you know, companies like Harvey and Decagon are really fine-tuning models now.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：Seema 分出检索/流程/政策/委托方四类智能体，判断力逐级加码；在位者多停在第一类，Leo 则跨越全部四类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            33.346,
+            38.047
+          ],
+          "quote": "And by having this you-in-the-loop approach, we are feeding our agent with all the feedback and all the learnings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            95.275,
+            108.71
+          ],
+          "quote": "They also discuss how you earn enough trust to let an agent negotiate on your behalf, why building an internal AI tool can be deceptively easy until you hit the exceptions, and what changes when agents eventually sit on both sides of a transaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            157.73,
+            168.855
+          ],
+          "quote": "So if a company can connect a capable AI agent to the software it already uses, where does another application actually have a use case and an advantage there?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            352.585,
+            360.796
+          ],
+          "quote": "And I'm sure in the workflow that you described, an agent can do a huge number of things and different kinds of agents can do a large number of things, too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            406.971,
+            410.494
+          ],
+          "quote": "And that really was in that first bucket of what the retrieval agent is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            447.043,
+            449.484
+          ],
+          "quote": "The second step in the agent sequence is the process agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            449.984,
+            465.449
+          ],
+          "quote": "So that process agent may be able to pull through an approval of credit and say, okay, based on our policy handbook, it was out from these dates, therefore we say you are entitled to money and it can just apply the bill and just do process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            467.349,
+            469.71
+          ],
+          "quote": "Then as you keep going to the policy agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            470.35,
+            479.4
+          ],
+          "quote": "So the policy agent isn't just going to apply the process, but it's going to say, OK, in this situation, it was out for 20 minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            487.389,
+            493.973
+          ],
+          "quote": "And then the last stage, which is the principal agent, you're actually weighing, okay, should we offer more compensation?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            578.369,
+            587.874
+          ],
+          "quote": "When AgentForce launched, it was very easy for customers to say, yeah, I'm gonna sign up for the Salesforce agent, especially if it was offered at almost no extra cost.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            607.582,
+            616.124
+          ],
+          "quote": "And those are two products that are, if you're resolving a customer support issue end-to-end versus providing a workflow for a support agent, a human agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            647.327,
+            656.401
+          ],
+          "quote": "Vlad, where across this kind of spectrum of retrieval agent, process agent, policy agent, principal agent, where does LEO sit?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 120,
+          "t": [
+            688.557,
+            699.711
+          ],
+          "quote": "So like, how do you convince someone to go through from, hey, just like an agent that retrieves some information and maybe runs processes to do like something completely autonomously is like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            846.791,
+            852.072
+          ],
+          "quote": "So you have to trust that the Leo agent is going to then interface with a third party.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            863.762,
+            874.372
+          ],
+          "quote": "So, but putting that aside, like, I don't know, maybe Vlad, I'd love to hear a little bit how you convinced the customers to trust an AI agent to now take on negotiations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1000.473,
+            1011.502
+          ],
+          "quote": "And this is like extremely helpful for us because we see like we have like, let's say like the perfect negotiation agent, which is like overall the perfect procurement negotiator, but we don't know exactly how",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1016.84,
+            1023.343
+          ],
+          "quote": "And by having this human in the loop approach, we are feeding our agent with all the feedback and all the learnings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1043.759,
+            1052.349
+          ],
+          "quote": "So there's an agent running for multiple hours and then we ask for feedback of the cost engineer and then it does the next work and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1117.271,
+            1125.495
+          ],
+          "quote": "And obviously they are the risk of like, what is the risk of like, you didn't negotiate at all, so what is the risk now of having a bad negotiation agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1525.052,
+            1529.213
+          ],
+          "quote": "So just the agent should, like, have context of all the news out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1572.996,
+            1576.217
+          ],
+          "quote": "You described Leo as a multi-agent system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1613.277,
+            1618.02
+          ],
+          "quote": "And when we talk about like a multi-agent system, this is essentially what we are doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1632.128,
+            1641.072
+          ],
+          "quote": "We need to cover like all of those to do like the job end to end and those agents need to then communicate with each other and only with a multi-agent system you can do a job end to end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1641.232,
+            1649.517
+          ],
+          "quote": "When we started out, we like started off with like a retrieval, like more like a co-pilot obviously like three years ago, but then the next step was like a single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1649.977,
+            1667.41
+          ],
+          "quote": "But then we very quickly discovered, okay, like that's like you can't solve and you can't solve in like negotiation even without having a contract agent, without maybe like having an agent looking at the news and everything that I described before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1667.47,
+            1670.092
+          ],
+          "quote": "So that's what, yeah, that's what we define as a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1685.945,
+            1696.67
+          ],
+          "quote": "Yeah, so like this is like one of the purchases that we can like run fully autonomously and we can do this because of this multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1754.337,
+            1758.081
+          ],
+          "quote": "I'm talking to the sourcing agent, finding out, do we have internal suppliers?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1759.783,
+            1765.95
+          ],
+          "quote": "Then another agent has to draft the RFQ, send out the RFQ over email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1796.131,
+            1798.532
+          ],
+          "quote": "Calling them the specific agent, doing the negotiation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1942.693,
+            1954.278
+          ],
+          "quote": "Yeah, and for something like that, presumably, like, you'd have the expert engineers and the other procurement people kind of more as the front of house and, like, the agent is more back of house.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1955.199,
+            1963.823
+          ],
+          "quote": "Or is the agent, like, actually, it's like you sit across the table and you're shaking hands and it's, like, the robot instead of the human who's, like, negotiating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2247.455,
+            2261.084
+          ],
+          "quote": "So, and that's where we see a lot of opportunity actually training an agent, but not maybe like a classic LLM, but more like, again, like what, what companies like, like models like, like Jeff are now doing on the outcome based.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2330.614,
+            2346.541
+          ],
+          "quote": "And here it's truly like, okay, you know, old CRM company was logged for all the deals, new sales AI agent is actually owning a lot of the sales prep process and the outbound process, fielding inbound and doing a bunch of the work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2418.825,
+            2424.488
+          ],
+          "quote": "And so you, you have like this retrieval agent, getting like all of the information, putting it into SAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2817.154,
+            2824.041
+          ],
+          "quote": "That's all being human, that's being created by humans, and so that coordination effort an agent could be doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "Vlad 强调一项人类级别任务涉及八个人、三个部门、五种软件工具，智能体必须彼此共享信息、按序协作，只有多智能体系统才能端到端完成一项工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1572.996,
+            1576.217
+          ],
+          "quote": "You described Leo as a multi-agent system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1613.277,
+            1618.02
+          ],
+          "quote": "And when we talk about like a multi-agent system, this is essentially what we are doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1632.128,
+            1641.072
+          ],
+          "quote": "We need to cover like all of those to do like the job end to end and those agents need to then communicate with each other and only with a multi-agent system you can do a job end to end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1667.47,
+            1670.092
+          ],
+          "quote": "So that's what, yeah, that's what we define as a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1685.945,
+            1696.67
+          ],
+          "quote": "Yeah, so like this is like one of the purchases that we can like run fully autonomously and we can do this because of this multi-agent system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "type": "concept",
+      "role": "concept",
+      "name": "采购 (procurement)",
+      "file": "采购",
+      "primary": true,
+      "how_described": "本集选定的垂直领域：无聊、高度情绪化、损益影响惊人（1% 节省 = 多做 10% 销售），真正的采购工作大部分发生在记录系统之外",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.836,
+            19.1
+          ],
+          "quote": "Procurement historically may have been more in a box and now it's like, okay, it's touching legal, it's touching finance, it's touching a bunch of different software systems and people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            65.015,
+            76.622
+          ],
+          "quote": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            115.293,
+            125.908
+          ],
+          "quote": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            268.886,
+            273.09
+          ],
+          "quote": "Vlad can talk more about procurement, but it's really the concept of owning the end-to-end work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            274.234,
+            277.559
+          ],
+          "quote": "Vlad, do you want to talk about where that does show up in procurement?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 50,
+          "t": [
+            287.532,
+            291.753
+          ],
+          "quote": "So when we think about procurement, I would assume that most people think about like prices, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            317.422,
+            326.39
+          ],
+          "quote": "So there are probably 30 stakeholder meetings happened, 500 emails, 20 Excel sheets, and that's the same for the counterpart procurement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            345.378,
+            351.341
+          ],
+          "quote": "So like most of the work in procurement actually happens outside of this ERP or any system of record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            832.707,
+            839.809
+          ],
+          "quote": "The other lens on that is, yeah, so you need your customer to buy the procurement software and trust to use it for their internal processes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            874.752,
+            887.4
+          ],
+          "quote": "Yeah, and when you do that, can you also just like paint the picture of like what's involved in procurement and who are your customers and what kind of sort of legacy systems are they used to?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 156,
+          "t": [
+            889.29,
+            897.213
+          ],
+          "quote": "So like when you think about procurement, you like maybe just think about like purchasing or like when you look at like B2C world, like just you buy something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            906.536,
+            920.382
+          ],
+          "quote": "A lot of stakeholders and a lot of departments, legal, cost engineering, obviously procurement, finance, all of them have to work on these decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1000.473,
+            1011.502
+          ],
+          "quote": "And this is like extremely helpful for us because we see like we have like, let's say like the perfect negotiation agent, which is like overall the perfect procurement negotiator, but we don't know exactly how",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1179.099,
+            1184.341
+          ],
+          "quote": "Procurement people care about the relationship, so they care about the voice of tone and how it works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1211.55,
+            1212.25
+          ],
+          "quote": "That's procurement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1232.061,
+            1246.494
+          ],
+          "quote": "That's another example of how procurement historically may have been more in a box, and now it's like, okay, it's touching legal, it's touching finance, and it's touching a bunch of different software systems and people and both specialists and more generalists.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1289.445,
+            1293.21
+          ],
+          "quote": "Again, like when we as Leo, when we talk about procurement of purchases, like we",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1382.251,
+            1388.176
+          ],
+          "quote": "And this is like one of 500 emails in the Outlook or Gmail of a procurement manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1560.521,
+            1564.801
+          ],
+          "quote": "So it's much bigger than just procurement into a company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1732.262,
+            1733.443
+          ],
+          "quote": "That you should know about procurement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1733.463,
+            1739.127
+          ],
+          "quote": "Like no one cares outside of the procurement department about like categories, GL accounts, framework contracts, no one cares.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1740.328,
+            1742.329
+          ],
+          "quote": "We in the procurement world care, but no one outside that cares.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1812.736,
+            1824.739
+          ],
+          "quote": "And then obviously the next powerful thing is do this for more complex parts where we talk about direct procurement where we also operate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1825.77,
+            1827.792
+          ],
+          "quote": "What's direct procurement?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1870.188,
+            1886.176
+          ],
+          "quote": "So this is like in the indirect procurement part, like think about MRO parts, building a factory, the bold example that we did, but also laptops and pencils, marketing services, someone who needs to build up this podcast studio, those are like all indirect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1942.693,
+            1954.278
+          ],
+          "quote": "Yeah, and for something like that, presumably, like, you'd have the expert engineers and the other procurement people kind of more as the front of house and, like, the agent is more back of house.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2221.205,
+            2225.068
+          ],
+          "quote": "But if you give this to a procurement manager, he would like initially have a gut feeling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2397.353,
+            2410.767
+          ],
+          "quote": "And like, even if you look like internally at Leo, so like the, the first use case three years ago, which like kind of like went viral in the procurement world was like, just like having a quote, and then getting this information into SAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2463.106,
+            2467.914
+          ],
+          "quote": "Couldn't like just procurement departments also just build everything in two months?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2650.332,
+            2671.761
+          ],
+          "quote": "So like to all like those Fortune 500, 150 companies, so you can do this, but then let's say like procurement workforce of AI procurement agents should then become like one of your core competencies and you should evaluate whether this makes sense or not for you to have this in your core skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2709.946,
+            2711.187
+          ],
+          "quote": "Ahead of the procurement side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2732.161,
+            2734.923
+          ],
+          "quote": "And the cool thing is as like procurement is like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2736.624,
+            2741.949
+          ],
+          "quote": "So sales are sexy, procurement is unsexy, but it's like one process and procurement is the counterpart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2742.569,
+            2750.336
+          ],
+          "quote": "But now the good thing is in those industrial companies, Fortune 5000 companies, procurement has the bigger power to the supplier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2766.5,
+            2773.762
+          ],
+          "quote": "So the opportunity is now if we serve the procurement department and they can dictate what a supplier should use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3166.535,
+            3173.521
+          ],
+          "quote": "Now we did it in New York, just a few blocks from our office here, and over 100 procurement leaders arrived, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3191.218,
+            3196.624
+          ],
+          "quote": "So the first thing is when we look at how procurement used to work in the last",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3202.087,
+            3207.748
+          ],
+          "quote": "So you can like, they are like all those technology landscapes and you can find them on LinkedIn and you will see like they're like 500 procurement tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3208.248,
+            3212.25
+          ],
+          "quote": "But like, if you like, and this is also the reason, like, but when you talk to procurement people, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3214.282,
+            3230.135
+          ],
+          "quote": "Very painful and like I challenge someone like to find someone who like loves to work with procurement like no one does like you can really state people hate working with procurement and when talking about the requesters and I'm talking about the suppliers and evil people in procurement hate working with procurement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3266.758,
+            3273.88
+          ],
+          "quote": "And the other thing is like we give them like a very cross department perspective on procurement, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3322.8,
+            3324.18
+          ],
+          "quote": "Procurement people gone wild.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3337.123,
+            3341.225
+          ],
+          "quote": "If you're listening and in procurement, you know where to go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3346.687,
+            3351.45
+          ],
+          "quote": "What do you think it takes to get people excited about procurement?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3358.155,
+            3362.719
+          ],
+          "quote": "Procurement is one of these things that people don't like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3366.521,
+            3371.105
+          ],
+          "quote": "I remember talking to a guy who was out of procurement seven or eight years ago as I was looking at this category.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3393.843,
+            3406.952
+          ],
+          "quote": "So, I mean, it's like, it's like, and this is also why, why, why I like procurement is like, it's on one hand, like, so like the reason, like why we started in procurement are like, it's not essentially like what happened, but like how people react to it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3471.969,
+            3479.736
+          ],
+          "quote": "So it's extremely important that you have a fixed procurement process, not only to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3514.566,
+            3520.39
+          ],
+          "quote": "Like, for procurement, but there are probably also, like, other things that, like, emotional, boring, and have a crazy business impact.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "记录系统 (system of record)",
+      "file": "记录系统",
+      "primary": true,
+      "how_described": "Seema 的核心论点：传统在位者受限于他们的记录系统，只存结果（一个价格、一个日期），没完成端到端的工作；AI 原生创业公司的机会是拥有整条端到端链路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            57.57,
+            64.194
+          ],
+          "quote": "If the incumbent already owns the customer, the data, and the system of record, where does an AI-native startup have an advantage?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            77.592,
+            87.605
+          ],
+          "quote": "They get into why so much of the actual work happens outside the system of record, across emails, spreadsheets, contracts, engineering data, and conversations with suppliers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            212.153,
+            221.719
+          ],
+          "quote": "And it really centers around the fact that the legacy incumbent is limited to their system of record and that record that they have, and they're not completing the end-to-end job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            247.428,
+            248.829
+          ],
+          "quote": "That's not one system of record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            253.472,
+            256.415
+          ],
+          "quote": "And that's something that one system of record wouldn't touch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            345.378,
+            351.341
+          ],
+          "quote": "So like most of the work in procurement actually happens outside of this ERP or any system of record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1392.98,
+            1400.586
+          ],
+          "quote": "And this happens regularly because the only thing they store in their system of record is then just the date, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1981.804,
+            1984.087
+          ],
+          "quote": "The end result that you see in your system of record is like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2378.679,
+            2386.862
+          ],
+          "quote": "Why can't I just, you know, plug into a model and do this myself or like use whatever existing system of record I have plus a model?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3129.303,
+            3136.069
+          ],
+          "quote": "There was recently a very big system of record event and we're not talking about Dreamforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3374.587,
+            3380.632
+          ],
+          "quote": "Like I use, you know, this legacy system of record, I'm on Coupa, and I don't want to buy anything else.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "negotiation",
+      "type": "concept",
+      "role": "concept",
+      "name": "谈判 (negotiation)",
+      "file": "谈判",
+      "primary": true,
+      "how_described": "Leo 最受关注的用例：从人在回路起步赢得信任，渐进到十万次自主谈判；数百万美元的大谈判则 90% 是准备、永远保留专家在环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.543,
+            29.125
+          ],
+          "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            839.869,
+            846.731
+          ],
+          "quote": "But one of the really interesting things when we first met Vlad was that they're doing, they're also doing the negotiation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            983.238,
+            988.382
+          ],
+          "quote": "Like no company and no enterprise starts with fully autonomous negotiation agents from day one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1000.473,
+            1011.502
+          ],
+          "quote": "And this is like extremely helpful for us because we see like we have like, let's say like the perfect negotiation agent, which is like overall the perfect procurement negotiator, but we don't know exactly how",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1053.28,
+            1058.806
+          ],
+          "quote": "Maybe just to double click on that, where do you put the human in the loop on the negotiation side?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1073.034,
+            1075.577
+          ],
+          "quote": "So, again, depends on the level of negotiation, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1075.597,
+            1087.85
+          ],
+          "quote": "So, like, we have to distinguish between, like, negotiations where you just, like a negotiation where in, like, where enterprises, they never did those because they didn't have the capacity, but by",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1117.271,
+            1125.495
+          ],
+          "quote": "And obviously they are the risk of like, what is the risk of like, you didn't negotiate at all, so what is the risk now of having a bad negotiation agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1649.977,
+            1667.41
+          ],
+          "quote": "But then we very quickly discovered, okay, like that's like you can't solve and you can't solve in like negotiation even without having a contract agent, without maybe like having an agent looking at the news and everything that I described before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1787.703,
+            1791.687
+          ],
+          "quote": "So negotiation could mean strategic negotiation with a human loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1792.047,
+            1793.609
+          ],
+          "quote": "This could mean autonomous negotiation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1796.131,
+            1798.532
+          ],
+          "quote": "Calling them the specific agent, doing the negotiation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1915.654,
+            1917.415
+          ],
+          "quote": "So you don't want to run an autonomous negotiation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1917.535,
+            1927.559
+          ],
+          "quote": "You want to run a negotiation which takes three months and where you're like crazy prepared and where you have engineers on your team analyzing, okay, what's the industry for aluminum?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2003.947,
+            2012.38
+          ],
+          "quote": "So think about, let's assume we would now have a negotiation and I have like a perfect preparation, the same as like with those notes that we are having here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2850.353,
+            2855.715
+          ],
+          "quote": "Like the obvious, like the obvious question is like, okay, but like we, we also talked a lot about like negotiation agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2855.795,
+            2865.158
+          ],
+          "quote": "What if like both parties have negotiation agents and prices 100% the point where it's like a zero sum thing or like they have like different interests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "赢得企业信任的路径：没有企业第一天就上完全自主的谈判智能体，先让人在环、把反馈喂给智能体，客户才逐渐放行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            672.426,
+            674.407
+          ],
+          "quote": "Sometimes you have the human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            995.328,
+            1000.012
+          ],
+          "quote": "So we have like a very easy approach of like having a like human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1016.84,
+            1023.343
+          ],
+          "quote": "And by having this human in the loop approach, we are feeding our agent with all the feedback and all the learnings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1053.28,
+            1058.806
+          ],
+          "quote": "Maybe just to double click on that, where do you put the human in the loop on the negotiation side?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1186.361,
+            1190.982
+          ],
+          "quote": "And then we have the other set of agents where we always have a human in the loop approach.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "exception-handling",
+      "type": "concept",
+      "role": "concept",
+      "name": "异常处理 (exception handling)",
+      "file": "异常处理",
+      "primary": true,
+      "how_described": "Vlad 指出清晰流程（发票匹配）只占待完成工作约 20%，欺诈、不匹配、不走顺利路径等异常处理才是 80%，也是壁垒所在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            2586.292,
+            2588.693
+          ],
+          "quote": "And then, like, we keep talking about exception handling.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "Leo 把基础模型当大宗商品，多数用例靠基础模型 + harness 即可；但 should-cost modeling 和价格基准测试这类垂直专有数据场景正在探索微调、甚至基于结果训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            2053.171,
+            2059.597
+          ],
+          "quote": "Yeah, we know that, you know, companies like Harvey and Decagon are really fine-tuning models now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2061.258,
+            2067.684
+          ],
+          "quote": "What kind of underlying models do you use and how do you approach things like fine-tuning or harnessing?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2138.959,
+            2152.971
+          ],
+          "quote": "And there's definitely like an opportunity where we like thinking and already started fine tuning the model to get them to 100% and this part.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineers",
+      "type": "concept",
+      "role": "concept",
+      "name": "前向部署工程师 (forward deployed engineers)",
+      "file": "前向部署工程师",
+      "primary": true,
+      "how_described": "Leo 85% 是工程师、不想变成咨询公司；FDE 的 KPI 就是把自己自动化掉，自动化完了去做下一个任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 552,
+          "t": [
+            3095.194,
+            3107.283
+          ],
+          "quote": "So the job of our like FDEs and forward deployed engineers is on the one hand making it like self-service, but like in internally is like automating their own job, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "Seema 认为很难预测未来的护城河：最好的企业早期只想着赢得客户信任、卖更多东西；可防御性来自锁定客户、更多依赖、做更多的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2295.535,
+            2303.319
+          ],
+          "quote": "This is all said, I think when we talk a lot about moats, it's really, really hard to forecast your moat going forward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2303.339,
+            2319.088
+          ],
+          "quote": "If you look back at all the best businesses, at the early stages, they were just thinking about, okay, I'm winning customer trust, I'm selling more to them, and there's a lot of opportunity versus, okay, I'm going to do these six steps and then get to the seventh step and then we'll have a moat.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2348.43,
+            2368.335
+          ],
+          "quote": "The overall customer is dependent on that product and that's like a really important signal of getting to the moat and everything we talk about in terms of stickiness and network effects and all that is sort of downstream of that initial customer use and the value of the product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "Vlad 提到 Leo 有很多 evals 机制在位支撑智能体交付；Seema 提到有正确的评估流程才能随时间做越来越复杂的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            974.474,
+            979.458
+          ],
+          "quote": "But then there's also like this product perspective where we have a lot of like evals in place, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "incumbent",
+      "type": "concept",
+      "role": "concept",
+      "name": "在位者 (incumbent)",
+      "file": "在位者",
+      "primary": true,
+      "how_described": "本集核心讨论对象：在位者有分发渠道和客户信任，但内部激励冲突把他们拖住——解决工作的智能体和提供工作流的产品是两个冲突的产品与团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            57.57,
+            64.194
+          ],
+          "quote": "If the incumbent already owns the customer, the data, and the system of record, where does an AI-native startup have an advantage?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            171.379,
+            180.863
+          ],
+          "quote": "So historically, we thought about there is the incumbent, and then there's the startup, and it's a fight between distribution and innovation, which, to take my partner Alex Rampell's phrase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            181.523,
+            192.308
+          ],
+          "quote": "However, now there's like this third piece, which you're pointing at, which is the incumbent can layer on one of the models on top, and then there is a much more formidable competitor in the market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            212.153,
+            221.719
+          ],
+          "quote": "And it really centers around the fact that the legacy incumbent is limited to their system of record and that record that they have, and they're not completing the end-to-end job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            277.639,
+            283.308
+          ],
+          "quote": "Like where existing incumbent plus a model just is insufficient?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            428.87,
+            440.221
+          ],
+          "quote": "The retrieval assistant, which the incumbent may have, is going to be able to pull up, yes, this was what the contract term said, and yes, there was an outage, and just verify that information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            626.826,
+            641.328
+          ],
+          "quote": "And then oftentimes in the classic like incumbent issue, right, is like there's two VPs, right, and they're different orgs and they're selling different products and like they will never be able to figure out what the right set of incentives and the right person to sell to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            641.368,
+            645.309
+          ],
+          "quote": "But anyway, so there's all these sort of classic incumbent issues I think that the incumbent also runs into.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

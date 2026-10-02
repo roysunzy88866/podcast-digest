@@ -83,7 +83,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[Shopify]] · [[ChatGPT]] · [[NVIDIA]] · [[Uber]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"OpenAI":146,"Google":53,"Anthropic":158,"Microsoft":27,"Shopify":16,"ChatGPT":87,"NVIDIA":49,"Uber":16,"Databricks":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"OpenAI":147,"Google":53,"Anthropic":159,"Microsoft":27,"Shopify":16,"ChatGPT":87,"NVIDIA":49,"Uber":16,"Databricks":19}</script>
 
 <script>
 (function(){

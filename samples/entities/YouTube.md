@@ -43,7 +43,7 @@ unlisted: true
 
 [[LLM]] · [[ChatGPT]] · [[Lenny]] · [[智能体]] · [[Meta]] · [[AEO]] · [[SEO]] · [[citation]] · [[Google]] · [[Reddit]]
 
-<script type="application/json" class="pd-epn">{"LLM":52,"ChatGPT":87,"Lenny":68,"智能体":376,"Meta":38,"AEO":5,"SEO":7,"citation":2,"Google":53,"Reddit":7}</script>
+<script type="application/json" class="pd-epn">{"LLM":52,"ChatGPT":87,"Lenny":68,"智能体":380,"Meta":39,"AEO":5,"SEO":7,"citation":2,"Google":53,"Reddit":7}</script>
 
 <script>
 (function(){

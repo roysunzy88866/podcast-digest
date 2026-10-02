@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":376,"编码智能体":24,"前沿模型":23,"Claude Code":90,"管理者日程":1,"评估":3,"爬坡":2,"沙箱":68}</script>
+<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":380,"编码智能体":24,"前沿模型":23,"Claude Code":90,"管理者日程":1,"评估":3,"爬坡":2,"沙箱":68}</script>
 
 <script>
 (function(){

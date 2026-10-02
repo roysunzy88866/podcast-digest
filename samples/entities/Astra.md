@@ -39,7 +39,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[LLM]] · [[Greg Brockman]] · [[Nathan]] · [[Han Mei]] · [[Jev]] · [[Dots]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":146,"智能体":376,"ChatGPT":87,"Codex":69,"LLM":52,"Greg Brockman":1,"Nathan":4,"Han Mei":1,"Jev":4,"Dots":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":147,"智能体":380,"ChatGPT":87,"Codex":69,"LLM":52,"Greg Brockman":1,"Nathan":4,"Han Mei":1,"Jev":4,"Dots":1}</script>
 
 <script>
 (function(){

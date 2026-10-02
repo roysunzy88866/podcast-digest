@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":76,"Claude Code":90,"智能体":376,"对抗性智能体":1,"MCP":68,"知识库":2,"技能":25,"vibe coding":43,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":77,"Claude Code":90,"智能体":380,"对抗性智能体":1,"MCP":68,"知识库":2,"技能":25,"vibe coding":43,"红队测试":4}</script>
 
 <script>
 (function(){

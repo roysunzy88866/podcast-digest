@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
+[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brad Gerstner":1,"钙化CT扫描":1,"CAC":3,"胆固醇":1,"他汀类药物":1,"血管造影":1,"支架":1,"EKG":1,"斑块":1,"Salesforce":33}</script>
+<script type="application/json" class="pd-epn">{"Brad Gerstner":1,"钙化CT扫描":1,"CAC":3,"胆固醇":1,"他汀类药物":1,"血管造影":1,"支架":1,"EKG":1,"斑块":1,"Salesforce":34}</script>
 
 <script>
 (function(){

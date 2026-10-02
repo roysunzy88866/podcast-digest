@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-30-talks-the-state-of-ai-in-software-development",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/Se8jHLliLXE.m4a",
+  "duration_sec": 1139.477,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 230,
+  "asr": true,
+  "title_en": "The State of AI in Software Development: Data from 400+ Orgs — Justin Reock, DX",
+  "podcast": "精选演讲",
+  "date": "2026-09-30",
+  "added": "2026-10-02",
+  "added_at": "2026-10-02T13:50:56.618Z",
+  "speaker_map": {
+    "SPEAKER_00": "Justin Reock"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Justin Reock"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "20万工程师的真实数据：AI 到底给开发者提速了多少",
+  "guest_name": "Justin Reock",
+  "guest_title": "DX 副 CTO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

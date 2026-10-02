@@ -1,0 +1,842 @@
+{
+  "episode_id": "2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies",
+  "podcast": "Sourcery",
+  "date": "2026-10-02",
+  "tags": [
+    "智能体",
+    "RL 环境",
+    "开放权重模型",
+    "企业 AI 部署",
+    "AI 安全与对齐"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "jonathan",
+      "type": "person",
+      "role": "host",
+      "name": "Jonathan",
+      "file": "Jonathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            63.17,
+            66.211
+          ],
+          "quote": "Jonathan, thank you so much for joining us on Sorcery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3484.752,
+            3486.034
+          ],
+          "quote": "Thank you so much, Jonathan.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mali",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mali",
+      "file": "Mali",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            90.467,
+            91.988
+          ],
+          "quote": "Firstly, thank you, Mali, for having me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            770.296,
+            772.017
+          ],
+          "quote": "There are two key problems here, Mali.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "turing",
+      "type": "company",
+      "role": "company",
+      "name": "Turing",
+      "file": "Turing",
+      "primary": true,
+      "how_described": "本集说它既帮几乎所有前沿实验室改进模型,又有专门部门把智能体系统部署进企业,因此能闭合研究与部署的循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            212.218,
+            222.387
+          ],
+          "quote": "At Turing, this has been super fun because we have this unique advantage where we don't just help all the frontier labs improve their models in coding and knowledge work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            511.248,
+            522.139
+          ],
+          "quote": "I think that's been a key thing that I've noticed alongside working with you and Turing over the last year is how much of an emphasis you put on the economic progress versus the doomerism.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            553.042,
+            563.028
+          ],
+          "quote": "So at Turing, for example, we create aural environments that help agents automatically detect vulnerabilities and patch them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1299.5,
+            1305.505
+          ],
+          "quote": "Turing is training the next generation of AI with tasks that require real expertise and real-world judgment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1305.945,
+            1311.59
+          ],
+          "quote": "That's why companies like NVIDIA, Anthropic, Salesforce, and Gemini partner with Turing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1312.311,
+            1323.06
+          ],
+          "quote": "Turing builds realistic reinforcement learning environments and data systems based on real operational traces, the kind of infrastructure Frontier Labs need to train superintelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1323.28,
+            1327.103
+          ],
+          "quote": "Visit Turing.com slash S-O-U-R-C-E-R-Y.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1699.27,
+            1713.082
+          ],
+          "quote": "So the way Turing works with almost all the foundation model builders is helping the Frontier models advance on well-defined benchmarks and evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3226.118,
+            3232.161
+          ],
+          "quote": "So at Turing, we are working with all these labs to improve their models in coding and knowledge work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体在模拟 RL 环境中训练、如今可连续可靠工作约两天、在企业里做通用计算机使用工作,但部署需配护栏与人在环检查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1094.308,
+            1109.792
+          ],
+          "quote": "After this interview is done, you give it to an agent to chop this interview up into different bits, figure out like what should be the thumbnail that you use, what should be the ex-post headline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1151.163,
+            1159.533
+          ],
+          "quote": "These environments have to be calibrated to the sophistication of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1169.361,
+            1174.983
+          ],
+          "quote": "So you want the environment to be set up so that 20 to 40% of the time the agent is succeeding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1547.296,
+            1552.24
+          ],
+          "quote": "Maybe you have, let's say, for example, you have an agent that's creating a board deck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1555.642,
+            1567.976
+          ],
+          "quote": "And to do that, maybe the agent has to pull information from different systems, which include NetSuite, Salesforce, maybe some sensitive company dashboards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1568.657,
+            1571.019
+          ],
+          "quote": "And maybe the agent kind of wants to...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1576.821,
+            1582.883
+          ],
+          "quote": "You might not want the agent to go check that with somebody who's not cleared to see that information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1922.272,
+            1930.735
+          ],
+          "quote": "That's the, from a marginal information gain standpoint, that's the best type of data to collect to fine tune the next iteration of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2244.998,
+            2250.099
+          ],
+          "quote": "Bending Spoons in particular, they have this AI agent every single person at Bending Spoons has.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集说训练范式已从找专家蒸馏知识转为构建尽可能接近现实的模拟 RL 环境,且需校准到智能体只有 20%–40% 时间成功",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            174.73,
+            177.011
+          ],
+          "quote": "It's all about these simulated RL environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            436.395,
+            449.237
+          ],
+          "quote": "All of these needs the right RL environments with the right experts to share prompts, verifiers, realistic seed data for agents to master these long horizon economically valuable work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1063.983,
+            1071.492
+          ],
+          "quote": "Meaning you build RL environments for every role and every function in every sector in the economy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1422.778,
+            1430.844
+          ],
+          "quote": "You also have to make sure that your RL environments cannot be gamed and exploited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1724.188,
+            1730.531
+          ],
+          "quote": "You generate really high quality RL environments, datasets, to help the models advance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3362.438,
+            3369.624
+          ],
+          "quote": "And in post-training, when you're doing this RLVR, you could again check where, hey, you built all these RL environments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rlvr",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLVR",
+      "file": "RLVR",
+      "primary": true,
+      "how_described": "本集说这是今天的训练范式:智能体在模拟环境中执行复杂任务、测试通过即获得奖励,研究者相信这个方法能泛化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            1035.317,
+            1055.581
+          ],
+          "quote": "Today, the paradigm is what's called RLVR, Reinforcement Learning with Verifiable Rewards, where in these simulated environments, these agents are executing complex tasks and getting rewarded when the tests pass.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3362.438,
+            3369.624
+          ],
+          "quote": "And in post-training, when you're doing this RLVR, you could again check where, hey, you built all these RL environments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emergent-behavior",
+      "type": "concept",
+      "role": "concept",
+      "name": "涌现行为 (emergent behavior)",
+      "file": "涌现行为",
+      "primary": true,
+      "how_described": "本集把它列为两大风险之一:随规模扩大,编程、多轮对话等能力凭空出现,可能学到让我们感觉陌生的东西,如 Hugging Face OpenAI 事件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            772.657,
+            777.38
+          ],
+          "quote": "It's generalization and emergent behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            777.54,
+            780.982
+          ],
+          "quote": "Those are the two problems, generalization and emergent behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            852.312,
+            856.475
+          ],
+          "quote": "This is emergent behavior that generalizes, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            933.17,
+            937.973
+          ],
+          "quote": "So risk number one is emergent behavior through just scaling up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            987.092,
+            990.193
+          ],
+          "quote": "So risk number one is emergent behavior at scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generalization",
+      "type": "concept",
+      "role": "concept",
+      "name": "泛化 (generalization)",
+      "file": "泛化",
+      "primary": true,
+      "how_described": "本集说 AGI 里的 G 有分量——你得到的不只是训练目标本身,模型会学到没见过的环境里的东西,而这些模型仍是相对的黑箱、难以控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            772.657,
+            777.38
+          ],
+          "quote": "It's generalization and emergent behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            777.54,
+            780.982
+          ],
+          "quote": "Those are the two problems, generalization and emergent behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            999.915,
+            1001.996
+          ],
+          "quote": "The second risk is generalization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说它们落后前沿约三到六个月,正在把拥有主权 AI 实现的能力民主化给企业,让企业保留自身特质并降低成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1941.018,
+            1945.24
+          ],
+          "quote": "And a big part of what's driving this is open weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1947.441,
+            1952.905
+          ],
+          "quote": "Today, depending on who you talk to, like open weight models are maybe like three to six months behind the frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1964.314,
+            1966.915
+          ],
+          "quote": "So as these open weight models",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2048.659,
+            2057.748
+          ],
+          "quote": "We also need open weight models because there are plenty of problems in the enterprise where you don't need a trillion parameter model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2107.48,
+            2115.142
+          ],
+          "quote": "So open-weight models give enterprises an opportunity to retain their identity relative to their competition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2117.783,
+            2121.264
+          ],
+          "quote": "And these open-weight models also teach us so much, like the...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2565.246,
+            2582.939
+          ],
+          "quote": "The beneficiary of powerful open-source, open-weight models are enterprises and AI-native companies that want to build custom models that help them retain ownership over their learning and their core workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2699.737,
+            2705.058
+          ],
+          "quote": "The frontier and open weight models relatively small.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2873.242,
+            2879.325
+          ],
+          "quote": "We also want good open weight models to also improve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2952.534,
+            2960.716
+          ],
+          "quote": "Like many of these open weight models, because they share their research, it helps us study these systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说蒸馏是用更强教师模型训练学生模型的方法,它把开放模型与前沿的差距压得很小,且今天没有简单办法阻止它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 430,
+          "t": [
+            2686.39,
+            2695.701
+          ],
+          "quote": "The thing that throws a spanner into the works is distillation, which is a way to train student models from stronger teacher models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2696.342,
+            2698.584
+          ],
+          "quote": "And distillation kind of keeps the gap between",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2706.659,
+            2710.5
+          ],
+          "quote": "And today there's no easy way to prevent distillation as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "learning-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "学习循环 (learning loop)",
+      "file": "学习循环",
+      "primary": true,
+      "how_described": "本集说企业核心工作流必须自己拥有学习循环:定义自定义评测、部署系统爬山优化、记录人类纠错轨迹、用轨迹微调再爬坡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1791.865,
+            1801.472
+          ],
+          "quote": "But for your core workflows, you want to make sure that you own the learning loop that your organization has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2310.712,
+            2325.542
+          ],
+          "quote": "We help them get set up with their learning loop by automating that specific workflow with an agentic human of the loop system that is also continuously collecting data so that over time it's a self-improving system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "custom-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "自定义评测 (custom evals)",
+      "file": "自定义评测",
+      "primary": true,
+      "how_described": "本集把定义自定义评测作为企业构建学习循环的第一步,说必须先有好的 evals 才知道自己朝什么爬坡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1802.753,
+            1808.035
+          ],
+          "quote": "So it makes sense increasingly for enterprises to create custom evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1808.835,
+            1817.718
+          ],
+          "quote": "So if you're Goldman Sachs or JP Morgan or Morgan Stanley, for whatever is core to your business, step one, you want to define custom evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1889.153,
+            1896.096
+          ],
+          "quote": "So it's a continuous loop of define custom evals, record traces, HillClimb, and keep running that loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说对齐包括在监督微调阶段教模型拒绝危险请求,并确保模型不奖励作弊",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1209.726,
+            1215.569
+          ],
+          "quote": "In addition to what we are explicitly training for, that's why these alignment efforts are super important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1215.749,
+            1229.136
+          ],
+          "quote": "And kudos to all the frontier labs for working on alignment to make sure that the models don't reward hack, the models refuse dangerous requests in CBRN, CyberBio Radioactive Nuclear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1353.266,
+            1359.409
+          ],
+          "quote": "What do chief alignment officers or head of alignment at these frontier models do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1365.673,
+            1367.855
+          ],
+          "quote": "So alignment and safety, they're two different things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1410.786,
+            1420.877
+          ],
+          "quote": "So there's one part of alignment which also happens at the supervised fine-tuning stage where you teach the model to refuse dangerous requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1532.985,
+            1535.007
+          ],
+          "quote": "So with safety and alignment, there are all these other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1600.45,
+            1608.569
+          ],
+          "quote": "So I think for frontier safety and frontier alignment, I'm sure the labs do a lot more than what I just shared.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": true,
+      "how_described": "本集说模型会找到不真正解决问题就通过测试的漏洞(如 SweeBench 里抄答案、自己生成 flag),所以要把 RL 环境在奖励作弊方面做得安全",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1521.588,
+            1527.973
+          ],
+          "quote": "So you want to make your aural environments safe with respect to reward hacking.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说企业部署时要给智能体系统加护栏:访问权限、可审计性、可验证性、人在环中检查输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1535.127,
+            1545.995
+          ],
+          "quote": "And when you are deploying in an enterprise, you might have a whole list of other guardrails that you want these systems to obey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2454.896,
+            2459.199
+          ],
+          "quote": "But you do want to make sure that you have the right guardrails, especially in an enterprise setting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2746.808,
+            2755.097
+          ],
+          "quote": "So I think whichever way this goes, humanity benefits as long as we have good guardrails on safety.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说人类纠错 AI 的轨迹是无价的,可用来微调下一版智能体;企业可在专有数据上微调开放模型以保留自身特质",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1922.272,
+            1930.735
+          ],
+          "quote": "That's the, from a marginal information gain standpoint, that's the best type of data to collect to fine tune the next iteration of the agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slow-takeoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓慢起飞 (slow takeoff)",
+      "file": "缓慢起飞",
+      "primary": true,
+      "how_described": "本集说 Jonathan 押注缓慢起飞:未来一二十年模型越来越强,但技术尤其是企业落地需要时间,因为现实世界是乱的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 573,
+          "t": [
+            3427.256,
+            3429.197
+          ],
+          "quote": "I actually believe in slow takeoff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

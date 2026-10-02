@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":376,"OpenAI":146,"OpenClaw":20,"Codex":69,"Romain Huet":1,"Anthropic":158,"Raphael Schaad":1,"循环":10,"NVIDIA":49,"Claude Code":90}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"OpenAI":147,"OpenClaw":20,"Codex":69,"Romain Huet":1,"Anthropic":159,"Raphael Schaad":1,"循环":10,"NVIDIA":49,"Claude Code":90}</script>
 
 <script>
 (function(){

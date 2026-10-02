@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]]
+[[Jonathan]] [[Mali]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":9,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":376,"红队测试":4,"幻觉":11,"越狱":2,"提示词注入":18,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":9,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":380,"红队测试":4,"幻觉":11,"越狱":2,"提示词注入":18,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

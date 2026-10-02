@@ -128,8 +128,8 @@ Emily 称这是她最喜欢的话题。评估有三个要素:评估对象(智能
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo|Arena CEO:现实是唯一可信的裁判，开源正在改写规则]]<span class="pd-rz">同概念:基准测试 (benchmark)、智能体 (agent)、评估 (evaluation)</span>
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同概念:人在回路 (human-in-the-loop)、前向部署工程师 (Forward Deployed Engineers)、智能体 (agent)</span>
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|数据成了企业唯一的护城河：AI时代的数据基建怎么做]]<span class="pd-rz">同公司:Google · 同概念:数据基础 (data foundation)、智能体 (agent)</span>
-- [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|不到10人管7个SaaS:让智能体替你做营销的实操系统]]<span class="pd-rz">同公司:Google · 同概念:人在回路 (human-in-the-loop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

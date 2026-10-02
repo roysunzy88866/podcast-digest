@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TDD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TDD">TD</div><div class="pi"><h1 class="pt">TDD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TDD">TD</div><div class="pi"><h1 class="pt">TDD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]]**(06:12起):本集技巧：让智能体按「红到绿」的 TDD 方式先定目标再写代码，几乎总比先写码再补测试好，否则它会让测试迁就代码。
 - **[[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]]**(32:23起):本集提到很多人给智能体的提示词是「以 TDD 开始」,但如果智能体不知道任务的业务结果,它能写出测试和让测试通过的代码——却未必达成最终目标
+- **[[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]]**(40:52起):测试驱动开发;Moritz 提出「也许需要某种 TDD 在 AI 时代的复活」,并认为靠再扔一个不同模型框架的智能体去检查不是答案
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-28-talks-how-to-get-your-org-to-adopt-coding-agen|《Figma 工程师谈：怎么让智能体进团队还不毁掉代码质量》]] — 作为概念
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为概念(提及)
+- [[2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by|《Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[护栏]] · [[Eyal Blum]] · [[Robert Lucero]] · [[Figma]] · [[Brian Houck]] · [[验证]] · [[Okta]] · [[规划（而非提示）]] · [[沙箱]]
+[[智能体]] · [[护栏]] · [[Eyal Blum]] · [[Robert Lucero]] · [[Brian Hook]] · [[Figma]] · [[Brian Houck]] · [[Moritz Beller]] · [[验证]] · [[Okta]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"护栏":68,"Eyal Blum":1,"Robert Lucero":1,"Figma":22,"Brian Houck":1,"验证":1,"Okta":1,"规划（而非提示）":1,"沙箱":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"护栏":69,"Eyal Blum":1,"Robert Lucero":1,"Brian Hook":1,"Figma":22,"Brian Houck":1,"Moritz Beller":1,"验证":1,"Okta":1}</script>
 
 <script>
 (function(){

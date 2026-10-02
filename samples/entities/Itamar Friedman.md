@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":21,"上下文":25,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":376,"代码治理":1,"语义规则":1,"Claude Code":90}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":21,"上下文":25,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":380,"代码治理":1,"语义规则":1,"Claude Code":90}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":41,"Stripe Projects":2,"OpenAI":146,"Anthropic":158,"Lovable":19,"HubSpot":9,"智能体":376,"编码智能体":24,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Metronome":2,"Stripe":41,"Stripe Projects":2,"OpenAI":147,"Anthropic":159,"Lovable":19,"HubSpot":9,"智能体":380,"编码智能体":24,"vibe coding":43}</script>
 
 <script>
 (function(){

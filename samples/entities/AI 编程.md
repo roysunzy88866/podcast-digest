@@ -52,7 +52,7 @@ aliases: ["AI coding"]
 
 [[LLM]] · [[AGI]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Replit]] · [[a16z]] · [[Marc Andreessen]] · [[Jacob Efron]] · [[Jon Noronha]]
 
-<script type="application/json" class="pd-epn">{"LLM":52,"AGI":26,"OpenAI":146,"ChatGPT":87,"Anthropic":158,"Replit":18,"a16z":17,"Marc Andreessen":2,"Jacob Efron":1,"Jon Noronha":1}</script>
+<script type="application/json" class="pd-epn">{"LLM":52,"AGI":26,"OpenAI":147,"ChatGPT":87,"Anthropic":159,"Replit":18,"a16z":18,"Marc Andreessen":2,"Jacob Efron":1,"Jon Noronha":1}</script>
 
 <script>
 (function(){

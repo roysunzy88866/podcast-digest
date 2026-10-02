@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
+[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":158,"Lovable":19,"OpenRouter":12,"ChatGPT":87,"Harry Stebbings":19,"Julie Bort":1,"Menlo":1,"Claude":76,"OpenAI":146,"Claude Code":90}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":159,"Lovable":19,"OpenRouter":12,"ChatGPT":87,"Harry Stebbings":19,"Julie Bort":1,"Menlo":1,"Claude":77,"OpenAI":147,"Claude Code":90}</script>
 
 <script>
 (function(){

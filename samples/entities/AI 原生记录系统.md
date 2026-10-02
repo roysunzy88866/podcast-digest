@@ -31,7 +31,7 @@ unlisted: true
 
 [[Alex Mashrabov]] · [[Higgsfield]] · [[Snap]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Canva]] · [[基准测试]] · [[开源模型]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Alex Mashrabov":1,"Higgsfield":1,"Snap":3,"Cursor":74,"OpenAI":146,"Anthropic":158,"Canva":5,"基准测试":15,"开源模型":24,"vibe coding":43}</script>
+<script type="application/json" class="pd-epn">{"Alex Mashrabov":1,"Higgsfield":1,"Snap":3,"Cursor":74,"OpenAI":147,"Anthropic":159,"Canva":5,"基准测试":15,"开源模型":24,"vibe coding":43}</script>
 
 <script>
 (function(){

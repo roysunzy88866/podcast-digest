@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[a16z]] · [[智能体]] · [[Cognition]] · [[Anthropic]] · [[Stripe]] · [[Gabriel Vasquez]] · [[Sarah Wang]] · [[Anjney Midha]] · [[Elena Berger]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":146,"a16z":17,"智能体":376,"Cognition":22,"Anthropic":158,"Stripe":41,"Gabriel Vasquez":1,"Sarah Wang":4,"Anjney Midha":1,"Elena Berger":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":147,"a16z":18,"智能体":380,"Cognition":22,"Anthropic":159,"Stripe":41,"Gabriel Vasquez":1,"Sarah Wang":4,"Anjney Midha":1,"Elena Berger":4}</script>
 
 <script>
 (function(){

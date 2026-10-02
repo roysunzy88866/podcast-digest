@@ -1,0 +1,3674 @@
+[
+ {
+  "seg": 0,
+  "start": 0.191,
+  "end": 3.373,
+  "speaker": "Unknown",
+  "en": "Welcome to the Engineering Enablement Podcast.",
+  "zh": "欢迎收听 Engineering Enablement 播客。"
+ },
+ {
+  "seg": 1,
+  "start": 3.453,
+  "end": 6.054,
+  "speaker": "Unknown",
+  "en": "I'm your host this week, Brian Hook.",
+  "zh": "我是本周的主持人 Brian Hook。"
+ },
+ {
+  "seg": 2,
+  "start": 28.1,
+  "end": 33.001,
+  "speaker": "Unknown",
+  "en": "Before we dive into the episode, I want to tell you about our Q2 state of AI and engineering report.",
+  "zh": "在开始本期节目前，我想向大家介绍一下我们的 Q2 AI 与工程现状报告。"
+ },
+ {
+  "seg": 3,
+  "start": 33.541,
+  "end": 50.806,
+  "speaker": "Unknown",
+  "en": "It looks at data from over 500 engineering organizations and examines where AI is generating measurable gains in throughput and time savings, where those gains are not translating into shipped software or improved developer experience, and what the data suggests about sustainable AI investment.",
+  "zh": "它分析了来自 500 多个工程组织的数据，考察了 AI 在哪些方面带来了可衡量的吞吐量和时间节省方面的收益，哪些方面的收益没有转化为已发布的软件或改善开发者体验，以及数据对可持续的 AI 投资有什么启示。"
+ },
+ {
+  "seg": 4,
+  "start": 51.506,
+  "end": 57.628,
+  "speaker": "Unknown",
+  "en": "To read the full report, head over to gitdx.com forward slash reports.",
+  "zh": "要阅读完整报告，请访问 gitdx.com forward slash reports。"
+ },
+ {
+  "seg": 5,
+  "start": 59.549,
+  "end": 59.889,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 6,
+  "start": 60.21,
+  "end": 62.412,
+  "speaker": "Unknown",
+  "en": "Welcome to the Engineering Enablement Podcast.",
+  "zh": "欢迎收听 Engineering Enablement 播客。"
+ },
+ {
+  "seg": 7,
+  "start": 62.912,
+  "end": 64.494,
+  "speaker": "Unknown",
+  "en": "I'm your host, Brian Hauck.",
+  "zh": "我是你们的主持人 Brian Hauck。"
+ },
+ {
+  "seg": 8,
+  "start": 65.335,
+  "end": 76.245,
+  "speaker": "Unknown",
+  "en": "Today's guest is Moritz Beller, a software engineering researcher at Meta whose work sits at the intersection of empirical software engineering and real-world developer productivity.",
+  "zh": "今天的嘉宾是 Moritz Beller，他是 Meta 的软件工程研究员，他的工作处于实证软件工程与现实世界开发者生产力的交汇点。"
+ },
+ {
+  "seg": 9,
+  "start": 77.026,
+  "end": 89.578,
+  "speaker": "Unknown",
+  "en": "Over the years, Moritz has helped advance our understanding of software testing, developer workflows, continuous integration, and more recently, not surprisingly, AI-assisted software engineering.",
+  "zh": "这些年来，Moritz 帮助推进了我们对软件测试、开发者工作流、持续集成，以及最近并不意外的、AI 辅助软件工程的理解。"
+ },
+ {
+  "seg": 10,
+  "start": 90.378,
+  "end": 100.648,
+  "speaker": "Unknown",
+  "en": "Today, we're going to dig into some of the work he's been leading at Meta, including new ways of measuring engineering productivity and what those findings tell us about the future of software development.",
+  "zh": "今天，我们将深入探讨他在 Meta 主导的一些工作，包括衡量工程生产力的一些新方法，以及这些发现对软件开发未来告诉我们什么。"
+ },
+ {
+  "seg": 11,
+  "start": 101.51,
+  "end": 109.696,
+  "speaker": "Unknown",
+  "en": "Now, on a more personal note, I will say that Moritz did a internship with Microsoft Research many, many years ago.",
+  "zh": "现在，说点更个人化的：Moritz 很多年以前在 Microsoft Research 做过一次实习。"
+ },
+ {
+  "seg": 12,
+  "start": 110.757,
+  "end": 120.764,
+  "speaker": "Unknown",
+  "en": "And I first met him as my team helped on one of his studies, which was foundational in my transition into a more formal software engineering researcher.",
+  "zh": "我第一次认识他时，我的团队参与协助了他的一项研究，那项研究对我转型成为一名更正式的软件工程研究员起到了奠基性作用。"
+ },
+ {
+  "seg": 13,
+  "start": 120.864,
+  "end": 124.167,
+  "speaker": "Unknown",
+  "en": "And so Moritz has played a huge role in shaping my career.",
+  "zh": "所以 Moritz 在塑造我的职业生涯方面发挥了巨大的作用。"
+ },
+ {
+  "seg": 14,
+  "start": 124.487,
+  "end": 128.23,
+  "speaker": "Unknown",
+  "en": "And so I am incredibly excited to have him on the podcast this week.",
+  "zh": "因此，我非常激动本周能请他来播客。"
+ },
+ {
+  "seg": 15,
+  "start": 128.59,
+  "end": 129.451,
+  "speaker": "Unknown",
+  "en": "Moritz, welcome.",
+  "zh": "Moritz，欢迎你。"
+ },
+ {
+  "seg": 16,
+  "start": 130.501,
+  "end": 131.343,
+  "speaker": "Unknown",
+  "en": "Thank you, Brian.",
+  "zh": "谢谢你，Brian。"
+ },
+ {
+  "seg": 17,
+  "start": 131.443,
+  "end": 133.147,
+  "speaker": "Unknown",
+  "en": "Well, it's an honor to talk to you.",
+  "zh": "能和你对话是一种荣幸。"
+ },
+ {
+  "seg": 18,
+  "start": 133.628,
+  "end": 139.9,
+  "speaker": "Unknown",
+  "en": "So just to help set some background context, could you tell us a little bit about your role at Meta?",
+  "zh": "为了帮助铺垫一些背景，能请你讲讲你在 Meta 的角色吗？"
+ },
+ {
+  "seg": 19,
+  "start": 140.933,
+  "end": 148.179,
+  "speaker": "Unknown",
+  "en": "Yeah, like you were saying, I'm basically doing sort of wearing three different hats in a sense.",
+  "zh": "是的，就像你说的，基本上我算是戴着三顶不同的帽子。"
+ },
+ {
+  "seg": 20,
+  "start": 148.199,
+  "end": 152.161,
+  "speaker": "Unknown",
+  "en": "I have this academic background on doing software engineering research.",
+  "zh": "我有做软件工程研究的学术背景。"
+ },
+ {
+  "seg": 21,
+  "start": 152.662,
+  "end": 158.786,
+  "speaker": "Unknown",
+  "en": "So naturally, a lot of the problems that we then tackle at Meta also have a research component to them.",
+  "zh": "所以很自然，我们在 Meta 着手解决的很多问题也带有研究的成分。"
+ },
+ {
+  "seg": 22,
+  "start": 158.867,
+  "end": 165.532,
+  "speaker": "Unknown",
+  "en": "So it's not like just taking a requirement, right, and seeing it end to end through to production, but actually",
+  "zh": "所以这并不是简单地接一个需求，然后端到端地把它推进到生产环境，而是实际上——"
+ },
+ {
+  "seg": 23,
+  "start": 166.472,
+  "end": 175.359,
+  "speaker": "Unknown",
+  "en": "Usually, you know, kind of ironing out what it actually is that we are interested in and then designing some studies to further identify that.",
+  "zh": "通常，你知道，要先弄清楚我们真正感兴趣的是什么，然后设计一些研究来进一步明确它。"
+ },
+ {
+  "seg": 24,
+  "start": 175.419,
+  "end": 178.502,
+  "speaker": "Unknown",
+  "en": "That typically then yields some empirical results.",
+  "zh": "这通常会产出一些实证结果。"
+ },
+ {
+  "seg": 25,
+  "start": 178.842,
+  "end": 183.566,
+  "speaker": "Unknown",
+  "en": "We do that if we think, right, we can do it ourselves and then we do that.",
+  "zh": "如果我们觉得自己能做，我们就自己做。"
+ },
+ {
+  "seg": 26,
+  "start": 183.606,
+  "end": 190.752,
+  "speaker": "Unknown",
+  "en": "But if we think that some more, you know, rigor is needed, we maybe pull in folks like you to actually get us good statistics.",
+  "zh": "但如果我们觉得需要更多的严谨性，我们可能会拉上像你这样的人来帮我们做出好的统计。"
+ },
+ {
+  "seg": 27,
+  "start": 191.292,
+  "end": 207.286,
+  "speaker": "Unknown",
+  "en": "And once we have that, then with a team of actual engineers, right, we then decide based on the data, okay, what should be the best approach to implementing this or just, you know, kind of surfacing it as a dashboard, be it for leadership or for direct personal consumption.",
+  "zh": "而一旦我们有了这些，我们就会和一支真正的工程师团队一起，基于数据来决定，好的，实现它的最佳方案应该是什么，或者只是把它以仪表盘的形式呈现出来，无论是给领导层还是给个人直接使用。"
+ },
+ {
+  "seg": 28,
+  "start": 207.306,
+  "end": 217.736,
+  "speaker": "Unknown",
+  "en": "So it's really like basically a research head, a kind of software engineer head, and then we'll kind of take leads and kind of orchestrating between the different roles.",
+  "zh": "所以基本上就是一顶研究帽子、一顶软件工程师的帽子，然后我们会承担主导，在不同角色之间做协调。"
+ },
+ {
+  "seg": 29,
+  "start": 218.237,
+  "end": 218.738,
+  "speaker": "Unknown",
+  "en": "I love it.",
+  "zh": "我很喜欢这个。"
+ },
+ {
+  "seg": 30,
+  "start": 218.778,
+  "end": 221.68,
+  "speaker": "Unknown",
+  "en": "We've sort of overloaded the term applied scientist.",
+  "zh": "我们其实有点过度使用了「应用科学家」这个词。"
+ },
+ {
+  "seg": 31,
+  "start": 222.061,
+  "end": 228.547,
+  "speaker": "Unknown",
+  "en": "Typically now it means people actually like building ML models, but like in my mind, like that's what real applied science is, right?",
+  "zh": "现在它通常指的是真正构建机器学习模型的人，但在我的心目中，那才是真正的应用科学，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 228.567,
+  "end": 238.816,
+  "speaker": "Unknown",
+  "en": "Like you're doing actual research and then you're doing it not just for the sake of advancing sort of knowledge, which is a valid cause, but how do you put it into practice?",
+  "zh": "也就是说，你在做真正的研究，然后你不只是为了推进知识本身而做——尽管那也是一个正当的目标——而是你要如何把它付诸实践？"
+ },
+ {
+  "seg": 33,
+  "start": 239.577,
+  "end": 254.968,
+  "speaker": "Unknown",
+  "en": "And so speaking of that, some of the work that I've seen from you over the last couple of years talks about a metric that I think is incredibly interesting called diff authoring time.",
+  "zh": "说到这个，我过去几年从你那里看到的一些工作，谈到了一个我觉得非常有趣的指标，叫做 diff authoring time（diff 撰写时间）。"
+ },
+ {
+  "seg": 34,
+  "start": 255.588,
+  "end": 262.293,
+  "speaker": "Unknown",
+  "en": "And so just like to help us start with the basics, what exactly is diff authoring time?",
+  "zh": "那么为了帮我们从基础开始，diff authoring time 到底是什么？"
+ },
+ {
+  "seg": 35,
+  "start": 263.152,
+  "end": 270.538,
+  "speaker": "Unknown",
+  "en": "We should maybe prefix this by asking the question, what is a diff for those that are not super familiar with the terminology?",
+  "zh": "我们或许应该先问一个问题：对于那些对这套术语不太熟悉的人来说，什么是 diff？"
+ },
+ {
+  "seg": 36,
+  "start": 271.038,
+  "end": 273.961,
+  "speaker": "Unknown",
+  "en": "So it's essentially the equivalent of a pull request, right?",
+  "zh": "它本质上相当于 pull request，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 273.981,
+  "end": 283.449,
+  "speaker": "Unknown",
+  "en": "So it's a self-contained code change together with a summary of the changes that you're making or the agent is making in today's world with a test plan.",
+  "zh": "它是一个自包含的代码变更，加上你所做变更或——在当今世界里——智能体所做变更的摘要，还带有一个测试计划。"
+ },
+ {
+  "seg": 38,
+  "start": 283.809,
+  "end": 287.452,
+  "speaker": "Unknown",
+  "en": "And then reviewers have the possibility to leave comments on this.",
+  "zh": "然后评审者可以对此留下评论。"
+ },
+ {
+  "seg": 39,
+  "start": 287.832,
+  "end": 289.954,
+  "speaker": "Unknown",
+  "en": "And you may have multiple rounds, right?",
+  "zh": "而且可能会有多轮，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 289.994,
+  "end": 292.276,
+  "speaker": "Unknown",
+  "en": "Multiple versions of that code change.",
+  "zh": "同一个代码变更的多个版本。"
+ },
+ {
+  "seg": 41,
+  "start": 292.776,
+  "end": 300.802,
+  "speaker": "Unknown",
+  "en": "And so basically, I would say until quite recently, the currency at Meta was code.",
+  "zh": "所以基本上，我想说直到最近，Meta 的货币是代码。"
+ },
+ {
+  "seg": 42,
+  "start": 301.322,
+  "end": 307.147,
+  "speaker": "Unknown",
+  "en": "So diffs played an extremely central element at the company, not just, you know, for a kind of",
+  "zh": "所以 diff 在公司里扮演了极其核心的角色，不仅是因为——可以说——绩效方面的原因，而仅仅因为这就是我们讨论事物的方式，这就是从工程角度推动公司前进的东西。"
+ },
+ {
+  "seg": 43,
+  "start": 307.807,
+  "end": 315.209,
+  "speaker": "Unknown",
+  "en": "performance reasons, but simply because this is how we were talking about things, and this is what moved the company forward from an engineering perspective.",
+  "zh": "出于性能方面的原因，而仅仅是因为我们当时就是这么讨论事情的，这就是从工程角度推动公司前进的东西。"
+ },
+ {
+  "seg": 44,
+  "start": 315.829,
+  "end": 319.89,
+  "speaker": "Unknown",
+  "en": "And so everyone talks about this all the time, basically.",
+  "zh": "所以基本上每个人都在不停地谈论它。"
+ },
+ {
+  "seg": 45,
+  "start": 320.41,
+  "end": 330.092,
+  "speaker": "Unknown",
+  "en": "And it is then natural that the business wants to know, hey, how much time are we actually spending on that very central thing that we're talking about all the time, which is this?",
+  "zh": "那么很自然，业务方想知道：嘿，我们在谈论的这个如此核心的东西上，到底花了多少时间？也就是这个东西。"
+ },
+ {
+  "seg": 46,
+  "start": 330.632,
+  "end": 336.453,
+  "speaker": "Unknown",
+  "en": "And thus, Diff Authoring Time was born, which basically measures the active time that humans spend",
+  "zh": "于是，Diff Authoring Time 诞生了，它基本上衡量的是人类在工程上主动花费的时间——撰写、评审，甚至可能是准备和测试 diff。"
+ },
+ {
+  "seg": 47,
+  "start": 337.073,
+  "end": 342.636,
+  "speaker": "Unknown",
+  "en": "Engineering, reviewing, maybe even preparing, testing, diff.",
+  "zh": "工程、审查，甚至可能是准备、测试、diff。"
+ },
+ {
+  "seg": 48,
+  "start": 342.996,
+  "end": 344.437,
+  "speaker": "Unknown",
+  "en": "That's super interesting to me.",
+  "zh": "这对我来说非常有趣。"
+ },
+ {
+  "seg": 49,
+  "start": 344.457,
+  "end": 355.623,
+  "speaker": "Unknown",
+  "en": "A lot of my work has looked into how are developers spending their time, which of those activities are sort of productive, what aren't, how do they relate to each other?",
+  "zh": "我的很多工作都研究开发者如何花费他们的时间，这些活动中哪些是富有成效的，哪些不是，它们之间是如何关联的？"
+ },
+ {
+  "seg": 50,
+  "start": 356.643,
+  "end": 363.789,
+  "speaker": "Unknown",
+  "en": "And, you know, I definitely have looked at, well, like how much time are developers spending sort of like actively writing code?",
+  "zh": "而且,你知道,我确实研究过,就是说开发人员花多少时间在主动编写代码上,"
+ },
+ {
+  "seg": 51,
+  "start": 364.45,
+  "end": 371.376,
+  "speaker": "Unknown",
+  "en": "And I know that it is, you know, maybe changing today because of AI, but in general, like that's the activity developers want to do the most.",
+  "zh": "我知道这一点,你知道,今天可能因为 AI 正在改变,但总的来说,那是开发人员最想做的活动。"
+ },
+ {
+  "seg": 52,
+  "start": 372.056,
+  "end": 378.101,
+  "speaker": "Unknown",
+  "en": "Now, are you able to tie that sort of authoring time to specific diffs?",
+  "zh": "那么,你们能不能把那种编写时间关联到具体的 diff 上?"
+ },
+ {
+  "seg": 53,
+  "start": 378.141,
+  "end": 382.505,
+  "speaker": "Unknown",
+  "en": "Or are you just like averaging out over all of the diffs that someone may participate in?",
+  "zh": "还是说你们只是在某个人可能参与的所有 diff 上取平均值?"
+ },
+ {
+  "seg": 54,
+  "start": 383.798,
+  "end": 386.804,
+  "speaker": "Unknown",
+  "en": "It started out as practically being an average.",
+  "zh": "一开始实际上基本就是取平均值。"
+ },
+ {
+  "seg": 55,
+  "start": 386.924,
+  "end": 393.276,
+  "speaker": "Unknown",
+  "en": "This was a kind of cruder metric that predated DAT to fill the immediate business need.",
+  "zh": "那是一种比较粗糙的指标,早于 DAT 出现,用来满足眼前的业务需求。"
+ },
+ {
+  "seg": 56,
+  "start": 394.048,
+  "end": 397.893,
+  "speaker": "Unknown",
+  "en": "But then we realized, hey, this leaves a lot of gaps, right?",
+  "zh": "但后来我们意识到,嘿,这留下了很多空白,对吧?"
+ },
+ {
+  "seg": 57,
+  "start": 397.913,
+  "end": 399.615,
+  "speaker": "Unknown",
+  "en": "There are a lot of things that we can't do.",
+  "zh": "有很多事情我们做不到。"
+ },
+ {
+  "seg": 58,
+  "start": 400.296,
+  "end": 408.165,
+  "speaker": "Unknown",
+  "en": "One of the more important ones is that we can't actually run controlled A-B experiments much in the same way that we do in product.",
+  "zh": "其中比较重要的一点是,我们实际上无法像在产品中那样运行受控的 A-B 实验。"
+ },
+ {
+  "seg": 59,
+  "start": 408.726,
+  "end": 412.45,
+  "speaker": "Unknown",
+  "en": "So of course, anyone who's interested in software engineering knows this, that...",
+  "zh": "当然,任何对软件工程感兴趣的人都知道这一点,那就是……"
+ },
+ {
+  "seg": 60,
+  "start": 413.932,
+  "end": 427.345,
+  "speaker": "Unknown",
+  "en": "sites like Facebook, Instagram, but also others run lots of AB experiments all the time to find out, hey, which of these features gives a better user experience, which of these features optimizes for certain other metrics, right?",
+  "zh": "像 Facebook、Instagram 这样的站点,还有其他一些公司,一直在运行大量的 AB 实验,来弄清楚,嘿,这些功能中哪一个能带来更好的用户体验,这些功能中哪一个能针对某些其他指标进行优化,对吧?"
+ },
+ {
+  "seg": 61,
+  "start": 427.365,
+  "end": 430.348,
+  "speaker": "Unknown",
+  "en": "So performance could be other metrics as well.",
+  "zh": "所以性能也可能是其他指标之一。"
+ },
+ {
+  "seg": 62,
+  "start": 430.888,
+  "end": 435.132,
+  "speaker": "Unknown",
+  "en": "But internally, we weren't quite at that point because we",
+  "zh": "但在内部,我们当时还没达到那个水平,因为我们"
+ },
+ {
+  "seg": 63,
+  "start": 435.813,
+  "end": 446.398,
+  "speaker": "Unknown",
+  "en": "Didn't quite have that metric for our own internal development and how we could assess basically the development experience of our own engineers at Meta.",
+  "zh": "还没有那样一个指标来衡量我们自己的内部开发,以及我们如何评估 Meta 自己工程师的开发体验。"
+ },
+ {
+  "seg": 64,
+  "start": 446.438,
+  "end": 463.846,
+  "speaker": "Unknown",
+  "en": "So these cruder metrics wouldn't allow us to do that because say if we had introduced a certain feature or people were using a certain feature in a diff, but were also not using that feature on say on the same day or the same period where we were averaging over, we wouldn't get clean signal.",
+  "zh": "所以这些粗糙的指标无法让我们做到这一点,因为比如说,如果我们引入了某个功能,或者有人在 diff 中使用某个功能,但在我们取平均值的同一天或同一时期却没有使用该功能,我们就得不到干净的信号。"
+ },
+ {
+  "seg": 65,
+  "start": 464.306,
+  "end": 479.579,
+  "speaker": "Unknown",
+  "en": "And so it was pretty apparent that if we wanted to make our internal development more scientific and basically bring it on par with the standards that we had in product, we would need the fidelity that diff offering tab allows us to do.",
+  "zh": "所以很明显,如果我们想让内部开发更科学,基本上让它达到与我们在产品中相同的标准,我们就需要 diff offering tab 所允许的那种保真度。"
+ },
+ {
+  "seg": 66,
+  "start": 479.759,
+  "end": 481.68,
+  "speaker": "Unknown",
+  "en": "And so that's exactly what you say.",
+  "zh": "所以这正是你所说的。"
+ },
+ {
+  "seg": 67,
+  "start": 482.641,
+  "end": 492.572,
+  "speaker": "Unknown",
+  "en": "Pretty much on a, you know, millisecond basis, we can tell sort of what diff you were working on at that point in time, if you were working on a diff.",
+  "zh": "基本上,你知道,以毫秒为粒度,我们可以大致知道你在那个时间点在处理哪个 diff,如果你当时在处理某个 diff 的话。"
+ },
+ {
+  "seg": 68,
+  "start": 492.852,
+  "end": 498.599,
+  "speaker": "Unknown",
+  "en": "So that's like, that's wild to me, sort of the level of precision there.",
+  "zh": "这对我来说太疯狂了,就是那种精确程度。"
+ },
+ {
+  "seg": 69,
+  "start": 498.879,
+  "end": 504.185,
+  "speaker": "Unknown",
+  "en": "But you said something there that like really piqued my curiosity around like using this for A-B testing.",
+  "zh": "但你说了一些话,真的激发了我的好奇心,关于用它来做 A-B 测试。"
+ },
+ {
+  "seg": 70,
+  "start": 504.345,
+  "end": 510.767,
+  "speaker": "Unknown",
+  "en": "And so I think probably like the natural reaction to that is, oh, well, like using different development tools.",
+  "zh": "所以我认为对此的自然反应大概是,哦,好吧,比如使用不同的开发工具。"
+ },
+ {
+  "seg": 71,
+  "start": 510.847,
+  "end": 518.509,
+  "speaker": "Unknown",
+  "en": "And it's like, oh, like development tool, you know, if I'm using VS code versus Emacs, like what does that do to my, my diff authoring time?",
+  "zh": "就是那种,哦,比如开发工具,你知道,如果我用的是 VS code 还是 Emacs,那对我的 diff 编写时间会有什么影响?"
+ },
+ {
+  "seg": 72,
+  "start": 518.689,
+  "end": 521.71,
+  "speaker": "Unknown",
+  "en": "If we do different sorts of like build optimizations, all of these sorts of things.",
+  "zh": "如果我们做不同类型的构建优化,诸如此类的事情。"
+ },
+ {
+  "seg": 73,
+  "start": 522.05,
+  "end": 528.313,
+  "speaker": "Unknown",
+  "en": "But I'm curious, like, do you ever run wild AB experiments, like, you know, playing with our environment?",
+  "zh": "但我很好奇,比如,你们有没有运行过狂野的 AB 实验,比如,你知道,摆弄我们的环境?"
+ },
+ {
+  "seg": 74,
+  "start": 528.333,
+  "end": 530.954,
+  "speaker": "Unknown",
+  "en": "Like, oh, well, what happens if we put a bunch of plants in?",
+  "zh": "比如,哦,好吧,如果我们放一堆植物进去会发生什么?"
+ },
+ {
+  "seg": 75,
+  "start": 530.994,
+  "end": 532.775,
+  "speaker": "Unknown",
+  "en": "What happens if we put, like, UV replacement?",
+  "zh": "如果我们放,比如,UV 替换灯会发生什么?"
+ },
+ {
+  "seg": 76,
+  "start": 533.335,
+  "end": 535.896,
+  "speaker": "Unknown",
+  "en": "Red walls versus blue walls versus cream walls.",
+  "zh": "红墙对比蓝墙对比奶油色墙壁。"
+ },
+ {
+  "seg": 77,
+  "start": 535.916,
+  "end": 538.317,
+  "speaker": "Unknown",
+  "en": "Like, what sorts of AB tests might you be running?",
+  "zh": "比如,你们可能正在运行哪些类型的 AB 测试?"
+ },
+ {
+  "seg": 78,
+  "start": 538.882,
+  "end": 544.104,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's closer to your first... Yeah, I suspect that.",
+  "zh": "是的,我觉得更接近你的第一个……是的,我猜是这样。"
+ },
+ {
+  "seg": 79,
+  "start": 545.084,
+  "end": 547.525,
+  "speaker": "Unknown",
+  "en": "...than the second one, because there is a cost.",
+  "zh": "……而不是第二个,因为那是有成本的。"
+ },
+ {
+  "seg": 80,
+  "start": 547.545,
+  "end": 554.087,
+  "speaker": "Unknown",
+  "en": "I don't think we have a team, right, that optimizes some, like, wall color in development environments, although that's an interesting thought.",
+  "zh": "我不认为我们有一个团队,对吧,专门优化开发环境中的墙壁颜色,尽管那是个有趣的想法。"
+ },
+ {
+  "seg": 81,
+  "start": 554.987,
+  "end": 557.088,
+  "speaker": "Unknown",
+  "en": "But so one example would be...",
+  "zh": "但举一个例子的话……"
+ },
+ {
+  "seg": 82,
+  "start": 558.888,
+  "end": 563.911,
+  "speaker": "Unknown",
+  "en": "Actually, I basically have two really good examples that were controlled A-B experiments.",
+  "zh": "实际上,我基本上有两个非常好的例子,都是受控的 A-B 实验。"
+ },
+ {
+  "seg": 83,
+  "start": 564.232,
+  "end": 573.598,
+  "speaker": "Unknown",
+  "en": "And one of them is using auto-memorization in the hack compiler, where basically people had to previously hand-roll their own kind of",
+  "zh": "其中一个是在 hack 编译器中使用自动记忆化,基本上,人们以前必须手工编写自己的那种"
+ },
+ {
+  "seg": 84,
+  "start": 574.478,
+  "end": 577.821,
+  "speaker": "Unknown",
+  "en": "If you will, caching mechanism in the UI.",
+  "zh": "可以这么说,在 UI 中的缓存机制。"
+ },
+ {
+  "seg": 85,
+  "start": 577.961,
+  "end": 590.35,
+  "speaker": "Unknown",
+  "en": "So if the state of something changed, then you would need to kind of, you know, recalculate for all of its children whether their state also had to change and then possibly re-render this.",
+  "zh": "所以如果某个东西的状态发生了变化,那么你就需要为它的所有子元素重新计算它们的状态是否也必须改变,然后可能重新渲染这个。"
+ },
+ {
+  "seg": 86,
+  "start": 590.53,
+  "end": 599.157,
+  "speaker": "Unknown",
+  "en": "That is both error prone and pretty costly to do because also to be redone for every single UI element that you wanted to have caching enabled.",
+  "zh": "这既容易出错,而且成本也相当高,因为还要为你想启用缓存的每一个 UI 元素重新做一遍。"
+ },
+ {
+  "seg": 87,
+  "start": 599.717,
+  "end": 611.066,
+  "speaker": "Unknown",
+  "en": "And so then the React compiler team set out to basically make this a supported default in the React forget compiler is the name of that.",
+  "zh": "于是 React 编译器团队着手把这一点变成受支持的默认行为,那个东西的名字叫 React forget 编译器。"
+ },
+ {
+  "seg": 88,
+  "start": 611.527,
+  "end": 621.174,
+  "speaker": "Unknown",
+  "en": "And so we were able to compare GIFs that were using this feature of the new React forget compiler versus",
+  "zh": "所以我们能够比较使用了新 React forget 编译器这个功能的 GIF,对比"
+ },
+ {
+  "seg": 89,
+  "start": 622.035,
+  "end": 626.837,
+  "speaker": "Unknown",
+  "en": "diffs that were hand-rolling their own memorization slash caching in the past.",
+  "zh": "过去手工编写自己的记忆化/缓存的 diff。"
+ },
+ {
+  "seg": 90,
+  "start": 627.297,
+  "end": 633.439,
+  "speaker": "Unknown",
+  "en": "And so we didn't even look at the sort of, you know, quality benefits that you would get from that.",
+  "zh": "所以我们甚至没有去看你从中能得到的那种质量方面的收益。"
+ },
+ {
+  "seg": 91,
+  "start": 633.479,
+  "end": 637.02,
+  "speaker": "Unknown",
+  "en": "But just on the diff-authoring scale, we saw",
+  "zh": "但仅仅在 diff 编写这个尺度上,我们看到"
+ },
+ {
+  "seg": 92,
+  "start": 637.82,
+  "end": 646.945,
+  "speaker": "Unknown",
+  "en": "Quite massive improvements was like I think around 30% fewer DAT for the diffs that were using the memoization.",
+  "zh": "相当巨大的改进,我记得使用记忆化的 diff 的 DAT 大约减少了 30%。"
+ },
+ {
+  "seg": 93,
+  "start": 646.965,
+  "end": 651.768,
+  "speaker": "Unknown",
+  "en": "Of course, it was a big lift from the React team to get that in.",
+  "zh": "当然,React 团队为此付出了很大的努力才把它做出来。"
+ },
+ {
+  "seg": 94,
+  "start": 651.888,
+  "end": 656.73,
+  "speaker": "Unknown",
+  "en": "So you would have to eventually trade off those costs against the one-time investment.",
+  "zh": "所以你最终必须把这些成本与那笔一次性投资进行权衡。"
+ },
+ {
+  "seg": 95,
+  "start": 656.75,
+  "end": 661.173,
+  "speaker": "Unknown",
+  "en": "But if you have enough reuse of that feature later on, it's certainly paying off.",
+  "zh": "但如果之后你对该功能有足够的复用,那肯定是值得的。"
+ },
+ {
+  "seg": 96,
+  "start": 661.585,
+  "end": 676.583,
+  "speaker": "Unknown",
+  "en": "I mean, I certainly acknowledge that running A-B experiments, using diff authoring time as sort of the outcome variable, to look at practical changes in engineering tools and engineering workflows, like, that makes sense.",
+  "zh": "我是说,我当然承认,运行 A-B 实验,把 diff 编写时间作为结果变量,来考察工程工具和工程工作流程的实际变化,比如,那是有道理的。"
+ },
+ {
+  "seg": 97,
+  "start": 676.603,
+  "end": 680.207,
+  "speaker": "Unknown",
+  "en": "Like, that is, you know, I think probably a more useful use case.",
+  "zh": "比如,你知道,我认为这可能是更有用的用例。"
+ },
+ {
+  "seg": 98,
+  "start": 680.848,
+  "end": 689.575,
+  "speaker": "Unknown",
+  "en": "But the mad scientist in me wants you to run things like, hey, if we take a bunch of people who work remotely, what happens if we drop a dog into their environment versus a cat?",
+  "zh": "但我内心的疯狂科学家想让你运行一些东西,比如,嘿,如果我们找一群远程办公的人,如果我们往他们的环境里放一只狗对比放一只猫会怎样? [[94→注:此处应编号 99]] What's more disruptive to their diff authoring time? [[99]] 哪一个对他们 diff 编写时间的干扰更大?"
+ },
+ {
+  "seg": 99,
+  "start": 689.855,
+  "end": 692.137,
+  "speaker": "Unknown",
+  "en": "What's more disruptive to their diff authoring time?",
+  "zh": "对他们的 diff 编写时间来说,什么更具颠覆性?"
+ },
+ {
+  "seg": 100,
+  "start": 692.737,
+  "end": 697.321,
+  "speaker": "Unknown",
+  "en": "But maybe we'll save the mad sciency experiments for some future collaboration, you and I.",
+  "zh": "不过也许我们可以把那些疯狂科学家式的实验留到未来的某次合作里,你和我。"
+ },
+ {
+  "seg": 101,
+  "start": 698.341,
+  "end": 704.887,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I know Microsoft Research had some interesting stuff on that, and I think are still doing it, right?",
+  "zh": "是的,我是说,我知道 Microsoft Research 在这方面有过一些有趣的东西,而且我想他们现在还在做,对吧?"
+ },
+ {
+  "seg": 102,
+  "start": 705.347,
+  "end": 711.452,
+  "speaker": "Unknown",
+  "en": "I think we are a little bit more conservative in that approach, but I do agree with you.",
+  "zh": "我觉得我们在那个方向上要更保守一点,但我同意你的看法。"
+ },
+ {
+  "seg": 103,
+  "start": 711.473,
+  "end": 712.633,
+  "speaker": "Unknown",
+  "en": "It would be interesting.",
+  "zh": "那会很有意思。"
+ },
+ {
+  "seg": 104,
+  "start": 713.174,
+  "end": 719.519,
+  "speaker": "Unknown",
+  "en": "And I think there's certainly factors that are maybe much more influential than what we're currently measuring.",
+  "zh": "而且我认为肯定有一些因素可能比我们现在测量的东西影响力大得多。"
+ },
+ {
+  "seg": 105,
+  "start": 720.921,
+  "end": 722.862,
+  "speaker": "Unknown",
+  "en": "We are products of complex environments.",
+  "zh": "我们是复杂环境的产物。"
+ },
+ {
+  "seg": 106,
+  "start": 723.142,
+  "end": 723.603,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对是。"
+ },
+ {
+  "seg": 107,
+  "start": 723.623,
+  "end": 724.023,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 108,
+  "start": 724.203,
+  "end": 724.363,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 109,
+  "start": 725.682,
+  "end": 732.343,
+  "speaker": "Unknown",
+  "en": "So everyone is passionate about their own developer experience metrics, right?",
+  "zh": "所以每个人都对自己的开发者体验指标充满热情,对吧?"
+ },
+ {
+  "seg": 110,
+  "start": 732.383,
+  "end": 737.964,
+  "speaker": "Unknown",
+  "en": "Like there's lots of opinions on what metrics are best for capturing developer productivity.",
+  "zh": "关于哪些指标最能捕捉开发者生产力,有很多不同的观点。"
+ },
+ {
+  "seg": 111,
+  "start": 738.564,
+  "end": 751.687,
+  "speaker": "Unknown",
+  "en": "And I'm curious, you know, what do you think was missing from the metrics that meta was already using that diff authoring time sort of solves that makes it so suitable for running experiments like you just mentioned?",
+  "zh": "而我很好奇,你觉得 Meta 当时已经在用的指标缺少了什么,是 diff 编写时间所解决的,使得它如此适合运行你刚才提到的那些实验?"
+ },
+ {
+  "seg": 112,
+  "start": 752.176,
+  "end": 754.097,
+  "speaker": "Unknown",
+  "en": "So it's a velocity metric, right?",
+  "zh": "所以它是一个速度指标,对吧?"
+ },
+ {
+  "seg": 113,
+  "start": 755.118,
+  "end": 766.687,
+  "speaker": "Unknown",
+  "en": "In a sense, it has to be embedded in, if you're interested in kind of drawing a relatively complete picture, it has to be counterbalanced against some measure of quality, if you care about that.",
+  "zh": "从某种意义上说,如果你想要描绘一幅相对完整的图景,它必须与某种质量度量相互制衡,如果你在乎质量的话。"
+ },
+ {
+  "seg": 114,
+  "start": 767.247,
+  "end": 770.79,
+  "speaker": "Unknown",
+  "en": "And of course, different businesses would associate different weight to that.",
+  "zh": "当然,不同的业务会给质量赋予不同的权重。"
+ },
+ {
+  "seg": 115,
+  "start": 771.25,
+  "end": 773.972,
+  "speaker": "Unknown",
+  "en": "And also through basically the throughput.",
+  "zh": "还有基本上就是吞吐量。"
+ },
+ {
+  "seg": 116,
+  "start": 774.833,
+  "end": 779.657,
+  "speaker": "Unknown",
+  "en": "And if you, I think these are like, if this is basically the kind of triangle that it works in,",
+  "zh": "而如果你——我觉得这些基本上就是它运作其中的那种三角形,"
+ },
+ {
+  "seg": 117,
+  "start": 780.357,
+  "end": 786.379,
+  "speaker": "Unknown",
+  "en": "So we have another metric called DDM, diffs per developer per month.",
+  "zh": "所以我们还有另一个指标叫 DDM,即每位开发者每月的 diff 数。"
+ },
+ {
+  "seg": 118,
+  "start": 786.659,
+  "end": 793.922,
+  "speaker": "Unknown",
+  "en": "That was basically pioneered by my good friend, Kareem Nakad, who you should maybe also invite him.",
+  "zh": "那基本上是由我的好朋友 Kareem Nakad 开创的,你或许也应该邀请他。"
+ },
+ {
+  "seg": 119,
+  "start": 794.242,
+  "end": 796.403,
+  "speaker": "Unknown",
+  "en": "Our shared good friend, Kareem Nakad.",
+  "zh": "我们共同的好朋友,Kareem Nakad。"
+ },
+ {
+  "seg": 120,
+  "start": 797.003,
+  "end": 813.602,
+  "speaker": "Unknown",
+  "en": "DDM is interesting because it gives you basically a throughput metric in a given timeframe that's hopefully large enough to factor out some minor changes in day-to-day life if you take a PTO or something like that.",
+  "zh": "DDM 很有意思,因为它基本上给了你在给定时间范围内的一个吞吐量指标,那个时间范围希望足够大,可以剔除日常生活中的一些小变化,比如你休了个 PTO 之类的。"
+ },
+ {
+  "seg": 121,
+  "start": 814.082,
+  "end": 840.448,
+  "speaker": "Unknown",
+  "en": "And then I think there's a there's a quality aspect but then you could like if you want to stay sort of in the in the diff ecosystem another thing that would be interesting is to look at like how large are those diffs right and those three kind of factors like throughput, size and duration they would naturally balance each other out say if you wanted to gain one of these then you would see movement in the others.",
+  "zh": "然后我觉得还有质量这个维度,不过如果你想留在 diff 生态系统里,另一件有趣的事是看那些 diff 有多大,对吧,而这三个因素——吞吐量、大小和时长——它们会自然地相互平衡,比如说你想提升其中一项,那你就会看到其他项的变动。"
+ },
+ {
+  "seg": 122,
+  "start": 840.968,
+  "end": 856.394,
+  "speaker": "Unknown",
+  "en": "So, but I think maybe coming back a bit to your question, what were we missing in that landscape that we had was that we had this relatively crude metric that averaged on a daily basis and we found that it just didn't provide the fidelity that we needed.",
+  "zh": "所以,不过我想稍微回到你的问题,我们在当时已有的那个格局中缺失的是,我们有一个相对粗糙的、按日平均的指标,而我们发现它就是提供不了我们所需要的保真度。"
+ },
+ {
+  "seg": 123,
+  "start": 856.895,
+  "end": 867.459,
+  "speaker": "Unknown",
+  "en": "And in fact, now that DAT has existed for some three years, we actually can, we still benefit from the investments that we were making because we see that it",
+  "zh": "而且实际上,如今 DAT 已经存在了大约三年,我们其实仍然受益于我们所做的那些投入,因为我们看到它"
+ },
+ {
+  "seg": 124,
+  "start": 867.959,
+  "end": 872.444,
+  "speaker": "Unknown",
+  "en": "applies much better in an AI world than our previously averaged metrics.",
+  "zh": "在 AI 世界里比我们之前的平均指标适用得多。"
+ },
+ {
+  "seg": 125,
+  "start": 872.504,
+  "end": 878.529,
+  "speaker": "Unknown",
+  "en": "It's much more sensitive to movements that we would expect than these averaged metrics.",
+  "zh": "它对这些我们预期中的变动比那些平均指标敏感得多。"
+ },
+ {
+  "seg": 126,
+  "start": 878.69,
+  "end": 880.892,
+  "speaker": "Unknown",
+  "en": "So there's actually continued investment in it.",
+  "zh": "所以实际上对它的投入还在持续。"
+ },
+ {
+  "seg": 127,
+  "start": 881.072,
+  "end": 892.363,
+  "speaker": "Unknown",
+  "en": "That's very interesting to me because I suspect when people hear something like diffs per developer or even diff offering time, there might be some concern on, well, like...",
+  "zh": "这对我来说非常有趣,因为我怀疑当人们听到诸如每位开发者 diff 数,甚至 diff 编写时间之类的东西时,可能会有一些担忧,就是说,嗯,比如……"
+ },
+ {
+  "seg": 128,
+  "start": 892.943,
+  "end": 895.024,
+  "speaker": "Unknown",
+  "en": "Not every diff is created equal.",
+  "zh": "并不是每个 diff 都是生而平等的。"
+ },
+ {
+  "seg": 129,
+  "start": 895.064,
+  "end": 899.726,
+  "speaker": "Unknown",
+  "en": "Like there are different expectations for, you know, more senior developers versus more junior developers.",
+  "zh": "比如,对更资深的开发者与更初级的开发者,有着不同的期望。"
+ },
+ {
+  "seg": 130,
+  "start": 899.746,
+  "end": 906.77,
+  "speaker": "Unknown",
+  "en": "So if these things are being used for performance assessment, like it might not be truly capturing what I'm doing.",
+  "zh": "所以如果这些东西被用于绩效评估,它可能并不能真正捕捉我在做的事情。"
+ },
+ {
+  "seg": 131,
+  "start": 906.79,
+  "end": 917.555,
+  "speaker": "Unknown",
+  "en": "And I can understand teams like yours where you have a rich background in rigorous research, like using this responsibly for things like running A, B tests.",
+  "zh": "我能理解像你们这样拥有严谨研究深厚背景的团队,负责任地把它用于运行 A、B 测试之类的事情。"
+ },
+ {
+  "seg": 132,
+  "start": 917.816,
+  "end": 922.058,
+  "speaker": "Unknown",
+  "en": "I'm curious, like how you actually see this used on, you know,",
+  "zh": "我很好奇,你实际上是怎么看待它在,你懂的,"
+ },
+ {
+  "seg": 133,
+  "start": 922.758,
+  "end": 925.74,
+  "speaker": "Unknown",
+  "en": "Develop, you know, frontline development teams in the wild.",
+  "zh": "开发,你懂的,一线开发团队中的实际使用的。"
+ },
+ {
+  "seg": 134,
+  "start": 926.06,
+  "end": 928.721,
+  "speaker": "Unknown",
+  "en": "Like, what are the different real world use cases for this?",
+  "zh": "比如,它有哪些不同的现实世界用例?"
+ },
+ {
+  "seg": 135,
+  "start": 929.882,
+  "end": 930.082,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 136,
+  "start": 930.102,
+  "end": 935.684,
+  "speaker": "Unknown",
+  "en": "So I think we covered, I think, the scientifically most exciting one already, which is running the experiments.",
+  "zh": "所以我想我们已经讲过了,我认为科学上最令人兴奋的那个,也就是运行实验。"
+ },
+ {
+  "seg": 137,
+  "start": 936.865,
+  "end": 943.328,
+  "speaker": "Unknown",
+  "en": "Even if you had an intuition, right, of like, hey, this helped our developers, it really is beneficial to be able to quantify it.",
+  "zh": "即使你有一种直觉,对吧,比如,嘿,这对我们的开发者有帮助,能够量化它真的非常有价值。"
+ },
+ {
+  "seg": 138,
+  "start": 944.028,
+  "end": 950.712,
+  "speaker": "Unknown",
+  "en": "And that then allows, you know, organizations to plan for it and to prioritize certain changes",
+  "zh": "而这就使得,你懂的,组织能够为此做规划,并优先考虑某些变更"
+ },
+ {
+  "seg": 139,
+  "start": 951.412,
+  "end": 953.192,
+  "speaker": "Unknown",
+  "en": "That they might otherwise not have.",
+  "zh": "否则他们可能不会这么做。"
+ },
+ {
+  "seg": 140,
+  "start": 953.292,
+  "end": 963.555,
+  "speaker": "Unknown",
+  "en": "So, for example, the magnitude of those DAT savings that we saw in this experiment, but also in the second one that I was briefly referring to earlier, were unexpectedly large.",
+  "zh": "举例来说,我们在这个实验中看到的 DAT 节省幅度,还有在我之前简单提到的第二个实验中,都大得出乎意料。"
+ },
+ {
+  "seg": 141,
+  "start": 964.055,
+  "end": 976.838,
+  "speaker": "Unknown",
+  "en": "And so it seemed to us that we needed to invest more into kind of foundational changes in frameworks and in tooling rather than",
+  "zh": "于是在我们看来,我们需要更多投入到框架和工具方面的基础性变革,而不是"
+ },
+ {
+  "seg": 142,
+  "start": 978.038,
+  "end": 981.461,
+  "speaker": "Unknown",
+  "en": "Maybe micro-optimizing UIS a little bit, right?",
+  "zh": "也许对 UI 做一点微优化,对吧?"
+ },
+ {
+  "seg": 143,
+  "start": 981.481,
+  "end": 992.391,
+  "speaker": "Unknown",
+  "en": "Which is a bit different than what you see in the product landscape where anecdotally, I think there's paper by Airbnb where they, did they change the button by a couple of pixels or they changed the color, right?",
+  "zh": "这与你在产品领域看到的情况有点不同,在那里,据传闻,我记得 Airbnb 有一篇论文,他们是把按钮改了几个像素,还是改了颜色,对吧?"
+ },
+ {
+  "seg": 144,
+  "start": 992.411,
+  "end": 995.434,
+  "speaker": "Unknown",
+  "en": "And yielded a statsic, huge improvement.",
+  "zh": "然后带来了统计上巨大的改进。"
+ },
+ {
+  "seg": 145,
+  "start": 997.015,
+  "end": 1000.376,
+  "speaker": "Unknown",
+  "en": "For them, we haven't actually seen this with DAT, right?",
+  "zh": "对我们来说,我们在 DAT 上其实没有看到这种情况,对吧?"
+ },
+ {
+  "seg": 146,
+  "start": 1000.396,
+  "end": 1004.358,
+  "speaker": "Unknown",
+  "en": "Maybe it's a different population, but this is interesting.",
+  "zh": "也许人群不一样,但这很有意思。"
+ },
+ {
+  "seg": 147,
+  "start": 1004.378,
+  "end": 1013.703,
+  "speaker": "Unknown",
+  "en": "So it's basically experiments and then they informed how we as an organization think about planning and which changes are being funded.",
+  "zh": "所以基本上就是实验,然后这些实验影响了我们作为组织如何思考规划,以及哪些变更获得资金支持。"
+ },
+ {
+  "seg": 148,
+  "start": 1014.143,
+  "end": 1017.765,
+  "speaker": "Unknown",
+  "en": "And then I think even more so, it also informs the way of developers for",
+  "zh": "然后我觉得更重要的是,它也影响了开发者的方式,"
+ },
+ {
+  "seg": 149,
+  "start": 1018.765,
+  "end": 1028.509,
+  "speaker": "Unknown",
+  "en": "Even if they're not using DAT, which they really don't have to for every single feature, how to think about designing their products and their changes.",
+  "zh": "即使他们不使用 DAT——他们确实不必为每一个功能都用它——如何思考设计他们的产品和他们的变更。"
+ },
+ {
+  "seg": 150,
+  "start": 1028.549,
+  "end": 1034.332,
+  "speaker": "Unknown",
+  "en": "So it instills a different, I would say, state of mind when you're developing.",
+  "zh": "所以它培养了一种不同的，我想说，开发时的心智状态。"
+ },
+ {
+  "seg": 151,
+  "start": 1035.072,
+  "end": 1036.173,
+  "speaker": "Unknown",
+  "en": "I'm more like a scientist.",
+  "zh": "我更像一个科学家。"
+ },
+ {
+  "seg": 152,
+  "start": 1036.433,
+  "end": 1037.954,
+  "speaker": "Unknown",
+  "en": "And then this is one class.",
+  "zh": "然后这是一个类别。"
+ },
+ {
+  "seg": 153,
+  "start": 1038.094,
+  "end": 1041.696,
+  "speaker": "Unknown",
+  "en": "And then I think the second one is for basically leadership reporting, right?",
+  "zh": "然后我想第二个是用于基本上领导层汇报，对吧？"
+ },
+ {
+  "seg": 154,
+  "start": 1041.736,
+  "end": 1048.62,
+  "speaker": "Unknown",
+  "en": "Making sure that basically at the team or company level, how are our metrics doing?",
+  "zh": "确保基本上在团队或公司层面，我们的指标表现如何？"
+ },
+ {
+  "seg": 155,
+  "start": 1049.001,
+  "end": 1053.403,
+  "speaker": "Unknown",
+  "en": "Do we see kind of unexpected, crazy regressions in something?",
+  "zh": "我们是否看到某些东西出现意外的、疯狂的退化？"
+ },
+ {
+  "seg": 156,
+  "start": 1053.423,
+  "end": 1059.487,
+  "speaker": "Unknown",
+  "en": "Or are we hitting our goals if we set certain goals because they're associated with different initiatives?",
+  "zh": "或者，如果我们设定了某些目标，因为它们与不同的举措相关联，我们是否正在达成目标？"
+ },
+ {
+  "seg": 157,
+  "start": 1059.827,
+  "end": 1070.793,
+  "speaker": "Unknown",
+  "en": "I mean, thinking about goals as it relates to diff authoring time is really interesting too, because not all diffs, certainly not all sort of class of activities are created the same.",
+  "zh": "我是说，把目标与 diff 编写时间联系起来思考也很有意思，因为并非所有 diff，当然也不是所有类别的活动都是平等的。"
+ },
+ {
+  "seg": 158,
+  "start": 1071.013,
+  "end": 1083.579,
+  "speaker": "Unknown",
+  "en": "I'm curious, do you try to sort of bucketize diffs by like, is this new innovation versus sort of running the business versus some sort of like, you know, paying down some sort of tech debt?",
+  "zh": "我很好奇，你们是否尝试把 diff 按类似这样的方式分类：这是新创新，还是维持业务运转，还是偿还某种技术债？"
+ },
+ {
+  "seg": 159,
+  "start": 1084.159,
+  "end": 1085.36,
+  "speaker": "Unknown",
+  "en": "How do you think about that?",
+  "zh": "你们是怎么考虑这个的？"
+ },
+ {
+  "seg": 160,
+  "start": 1085.54,
+  "end": 1086.781,
+  "speaker": "Unknown",
+  "en": "That's exactly what we're doing.",
+  "zh": "这正是我们在做的事情。"
+ },
+ {
+  "seg": 161,
+  "start": 1086.821,
+  "end": 1089.322,
+  "speaker": "Unknown",
+  "en": "We're categorizing diffs a certain way there.",
+  "zh": "我们在那里以某种方式对 diff 进行分类。"
+ },
+ {
+  "seg": 162,
+  "start": 1089.842,
+  "end": 1098.13,
+  "speaker": "Unknown",
+  "en": "And what's also interesting is you would expect different distribution of those categories per org or team, right?",
+  "zh": "而且还有一点很有意思，你会预期不同组织或团队在这些类别上有不同的分布，对吧？"
+ },
+ {
+  "seg": 163,
+  "start": 1098.471,
+  "end": 1103.936,
+  "speaker": "Unknown",
+  "en": "A team that's an infrastructure, if most of their diffs are internal, that's totally expected and fine.",
+  "zh": "一个基础设施团队，如果他们的大部分 diff 是内部性质的，那完全符合预期，没问题。"
+ },
+ {
+  "seg": 164,
+  "start": 1104.316,
+  "end": 1110.462,
+  "speaker": "Unknown",
+  "en": "However, if you're a product feature team and most of your diffs are internal, something's strange, right?",
+  "zh": "然而，如果你是一个产品功能团队，而你大部分 diff 是内部性质的，那就有些奇怪了，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 1110.482,
+  "end": 1113.465,
+  "speaker": "Unknown",
+  "en": "It could be a classifier, it could be like the work you're doing.",
+  "zh": "可能是分类器的问题，也可能是你们正在做的工作本身如此。"
+ },
+ {
+  "seg": 166,
+  "start": 1114.406,
+  "end": 1122.752,
+  "speaker": "Unknown",
+  "en": "Research is pretty clear, like the literature is pretty clear that developers want to be spending time actually building, right?",
+  "zh": "研究结果很清楚，文献很清楚，开发者想要把时间花在实际构建上，对吧？"
+ },
+ {
+  "seg": 167,
+  "start": 1122.772,
+  "end": 1124.853,
+  "speaker": "Unknown",
+  "en": "Like they want to be spending time building.",
+  "zh": "就是说，他们想把时间花在构建上。"
+ },
+ {
+  "seg": 168,
+  "start": 1125.173,
+  "end": 1134.059,
+  "speaker": "Unknown",
+  "en": "We certainly as an industry want engineers, and we talk about this as part of the DXCore 4, like we want to be spending more time delivering innovation.",
+  "zh": "我们整个行业当然希望工程师，我们在 DXCore 4 中谈到这一点，就像我们想把更多时间花在交付创新上。"
+ },
+ {
+  "seg": 169,
+  "start": 1134.139,
+  "end": 1136.301,
+  "speaker": "Unknown",
+  "en": "And so how do we spend more time delivering innovation?",
+  "zh": "那么我们如何把更多时间花在交付创新上？"
+ },
+ {
+  "seg": 170,
+  "start": 1136.661,
+  "end": 1141.745,
+  "speaker": "Unknown",
+  "en": "And like diff authoring time, especially if you can categorize the diffs, like I see how it's a good measure for that.",
+  "zh": "而 diff 编写时间，尤其是如果你能对 diff 进行分类，我明白为什么它是衡量这个的好指标。"
+ },
+ {
+  "seg": 171,
+  "start": 1142.045,
+  "end": 1145.628,
+  "speaker": "Unknown",
+  "en": "But it's not just a velocity metric in my mind, right?",
+  "zh": "但在我看来它不只是一个速度指标，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 1145.648,
+  "end": 1148.97,
+  "speaker": "Unknown",
+  "en": "Like there's also sort of an efficiency standpoint.",
+  "zh": "还有一个效率的角度。"
+ },
+ {
+  "seg": 173,
+  "start": 1149.351,
+  "end": 1153.073,
+  "speaker": "Unknown",
+  "en": "So is it really about, can we drive total diff authoring time up or down?",
+  "zh": "所以这真的是关于，我们能不能把总 diff 编写时间推高或推低？"
+ },
+ {
+  "seg": 174,
+  "start": 1153.113,
+  "end": 1155.915,
+  "speaker": "Unknown",
+  "en": "Or do you actually look at it as like time per diff?",
+  "zh": "还是你们实际上把它看作每个 diff 的时间？"
+ },
+ {
+  "seg": 175,
+  "start": 1155.935,
+  "end": 1160.699,
+  "speaker": "Unknown",
+  "en": "And are we getting more, are we creating more diffs per unit of time that we're spending?",
+  "zh": "我们是否在花的时间单位内创建了更多的 diff？"
+ },
+ {
+  "seg": 176,
+  "start": 1161.043,
+  "end": 1163.885,
+  "speaker": "Unknown",
+  "en": "Yeah, and so we've never used it for performance reasons, right?",
+  "zh": "是的，我们从没把它用于绩效评估，对吧？"
+ },
+ {
+  "seg": 177,
+  "start": 1163.925,
+  "end": 1175.474,
+  "speaker": "Unknown",
+  "en": "Unlike other metrics that were surfaced in the tools that were used to assess performance, diff authoring time never appeared in there, and that was a conscious choice in our part.",
+  "zh": "不像其他在工具中被展示出来用于评估绩效的指标，diff 编写时间从未出现在那里，这是我们有意的选择。"
+ },
+ {
+  "seg": 178,
+  "start": 1176.034,
+  "end": 1176.514,
+  "speaker": "Unknown",
+  "en": "That said,",
+  "zh": "话虽如此，"
+ },
+ {
+  "seg": 179,
+  "start": 1177.475,
+  "end": 1183.977,
+  "speaker": "Unknown",
+  "en": "Especially now, right, but also for Meta, the year of efficiency was 2022, which is when the authoring time development started.",
+  "zh": "尤其是现在，对吧，但对 Meta 来说也是，效率之年是 2022 年，也就是编写时间开发开始的那一年。"
+ },
+ {
+  "seg": 180,
+  "start": 1184.017,
+  "end": 1185.977,
+  "speaker": "Unknown",
+  "en": "So that was not a coincidence, obviously.",
+  "zh": "所以这显然不是巧合。"
+ },
+ {
+  "seg": 181,
+  "start": 1186.438,
+  "end": 1193.039,
+  "speaker": "Unknown",
+  "en": "So we are interested in that, even if it's not maybe on an individual basis or on a performance base.",
+  "zh": "所以我们对那个感兴趣，即使它可能不是针对个人的或基于绩效的。"
+ },
+ {
+  "seg": 182,
+  "start": 1193.299,
+  "end": 1202.382,
+  "speaker": "Unknown",
+  "en": "But yes, so we basically look at, okay, how many tests are being created in a certain time period, like per month.",
+  "zh": "但是是的，所以我们基本上会看，好吧，在某个时间段内，比如每个月，创建了多少测试。"
+ },
+ {
+  "seg": 183,
+  "start": 1203.143,
+  "end": 1207.088,
+  "speaker": "Unknown",
+  "en": "And what was the DAT for that, right?",
+  "zh": "而那对应的 DAT 是多少，对吧？"
+ },
+ {
+  "seg": 184,
+  "start": 1207.168,
+  "end": 1218.942,
+  "speaker": "Unknown",
+  "en": "And the reason for that pair is basically, well, you can trivially, you know, 2x your DDN if you half your DAT, but the end product is the same.",
+  "zh": "之所以成对来看，基本上是因为，你可以轻而易举地把 DDN 翻倍，只要把 DAT 减半，但最终产物是一样的。"
+ },
+ {
+  "seg": 185,
+  "start": 1219.983,
+  "end": 1220.984,
+  "speaker": "Unknown",
+  "en": "We want to avoid that.",
+  "zh": "我们想避免那种情况。"
+ },
+ {
+  "seg": 186,
+  "start": 1221.684,
+  "end": 1226.368,
+  "speaker": "Unknown",
+  "en": "Probably it's not exactly that relation because there's some overhead associated with creating more diffs.",
+  "zh": "不过可能不完全是那种关系，因为创建更多 diff 会带来一些额外开销。"
+ },
+ {
+  "seg": 187,
+  "start": 1227.108,
+  "end": 1241.758,
+  "speaker": "Unknown",
+  "en": "So actually, the incentive is not to do that for yourself, for your own review, because in theory, what you're evaluated on is the impact you shipped and whether that's done in 10 or 20 diffs in isolation would make a difference.",
+  "zh": "所以实际上，激励并不在于为自己、为自己的评审这么做，因为理论上，你所被评估的是你发布的 impact，而那是用 10 个还是 20 个 diff 完成的，孤立来看并不会有影响。"
+ },
+ {
+  "seg": 188,
+  "start": 1242.587,
+  "end": 1243.328,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 189,
+  "start": 1243.368,
+  "end": 1250.391,
+  "speaker": "Unknown",
+  "en": "So like that certainly looks at the, you know, the game ability of it as like, what can individuals do to game it?",
+  "zh": "所以那确实是在看，你知道的，它的可被钻空子性，比如个人可以做些什么来钻它的空子？ [[186→更正：[[190]] 但我在想的甚至更、更高层面一些，就是，如果你想看系统效率，你知道，就是"
+ },
+ {
+  "seg": 190,
+  "start": 1250.711,
+  "end": 1257.815,
+  "speaker": "Unknown",
+  "en": "But I was thinking even like more, more high level, which is just like, if you want to look at system efficiency, you know, it's",
+  "zh": "但我在想的是更、更高层面的事，就是说，如果你想看系统效率，你知道，它是"
+ },
+ {
+  "seg": 191,
+  "start": 1259.11,
+  "end": 1274.942,
+  "speaker": "Unknown",
+  "en": "Even if you sort of normalize the diffs in some way for size and complexity and all of these things, it's if I can create 10 diffs with an hour of diff authoring time versus I can create 20 and maybe that comes from like my build tools are faster or more predictable.",
+  "zh": "即使你以某种方式按大小和复杂度等所有这些因素对 diff 做了归一化，问题是我能在一小时的 diff 编写时间内创建 10 个 diff，还是能创建 20 个，也许那来自于我的构建工具更快或更可预测。"
+ },
+ {
+  "seg": 192,
+  "start": 1275.082,
+  "end": 1277.184,
+  "speaker": "Unknown",
+  "en": "So like I'm not spending as much time waiting around.",
+  "zh": "就是说，我没有花那么多时间在等待上。"
+ },
+ {
+  "seg": 193,
+  "start": 1277.244,
+  "end": 1283.148,
+  "speaker": "Unknown",
+  "en": "Our code review processes are better because we're like automating code review with, you know, radar or something.",
+  "zh": "我们的代码评审流程更好，因为我们在用，你知道的，radar 或类似的东西自动化代码评审。"
+ },
+ {
+  "seg": 194,
+  "start": 1283.208,
+  "end": 1285.33,
+  "speaker": "Unknown",
+  "en": "I'm curious if it's used in that way at all.",
+  "zh": "我很好奇它是否也以这种方式被使用。"
+ },
+ {
+  "seg": 195,
+  "start": 1285.81,
+  "end": 1286.471,
+  "speaker": "Unknown",
+  "en": "Oh, certainly.",
+  "zh": "哦，当然。"
+ },
+ {
+  "seg": 196,
+  "start": 1286.631,
+  "end": 1291.936,
+  "speaker": "Unknown",
+  "en": "And I mean, the biggest game changer that we've seen there obviously was AI, right?",
+  "zh": "而且我是说，我们在那里见过的最大的改变者显然是 AI，对吧？"
+ },
+ {
+  "seg": 197,
+  "start": 1292.356,
+  "end": 1298.602,
+  "speaker": "Unknown",
+  "en": "And so what we've seen there is basically our year over year DAT is down by over 40%.",
+  "zh": "我们在那里看到的基本上是，我们的 DAT 同比下降了超过 40%。"
+ },
+ {
+  "seg": 198,
+  "start": 1299.123,
+  "end": 1303.067,
+  "speaker": "Unknown",
+  "en": "At the same time, DDM has increased substantially.",
+  "zh": "与此同时，DDM 有大幅增长。"
+ },
+ {
+  "seg": 199,
+  "start": 1304.277,
+  "end": 1307.418,
+  "speaker": "Unknown",
+  "en": "And now you could say, well, maybe you just made your diff smaller, right?",
+  "zh": "现在你可能会说，好吧，也许你们只是把 diff 变小了，对吧？"
+ },
+ {
+  "seg": 200,
+  "start": 1307.438,
+  "end": 1310.398,
+  "speaker": "Unknown",
+  "en": "That would explain that, but actually diffs are getting larger as well.",
+  "zh": "这可以解释这一点,但实际上 diff 也在变得更大。"
+ },
+ {
+  "seg": 201,
+  "start": 1311.179,
+  "end": 1314.399,
+  "speaker": "Unknown",
+  "en": "So we've never had, and this is at the company level, right?",
+  "zh": "所以我们从来没有过——而且这是在公司层面的,对吧?"
+ },
+ {
+  "seg": 202,
+  "start": 1314.419,
+  "end": 1317.36,
+  "speaker": "Unknown",
+  "en": "Which is obviously the strongest indication that you could see for this.",
+  "zh": "这显然是你能看到的最强有力的迹象。"
+ },
+ {
+  "seg": 203,
+  "start": 1317.38,
+  "end": 1324.061,
+  "speaker": "Unknown",
+  "en": "So we were, you know, occasionally observing something like this for individual teams when they had, you know, different initiatives.",
+  "zh": "所以我们,你知道的,以前只是偶尔在个别团队身上观察到类似这样的情况,当他们有不同的倡议时。"
+ },
+ {
+  "seg": 204,
+  "start": 1324.521,
+  "end": 1331.163,
+  "speaker": "Unknown",
+  "en": "Sometimes also, to be honest, I think some of those are just noise because at the end of the day, it's a very large company with",
+  "zh": "有时候,老实说,我认为其中一些只是噪音,因为说到底,这是一家非常大的公司,有"
+ },
+ {
+  "seg": 205,
+  "start": 1331.763,
+  "end": 1334.224,
+  "speaker": "Unknown",
+  "en": "So many teams, you're always going to have some outliers.",
+  "zh": "这么多团队,你总会遇到一些异常值。"
+ },
+ {
+  "seg": 206,
+  "start": 1334.244,
+  "end": 1336.725,
+  "speaker": "Unknown",
+  "en": "So you need to be careful not to draw conclusions from this.",
+  "zh": "所以你需要小心,不要从中得出结论。"
+ },
+ {
+  "seg": 207,
+  "start": 1337.045,
+  "end": 1351.97,
+  "speaker": "Unknown",
+  "en": "But if you get such a clean and strong signal like we've seen with AI adoption, where we can also ascribe certain events in time to certain reactions in the graphs, it is very clear.",
+  "zh": "但如果你得到像我们在 AI 采用中所看到的那样干净而强烈的信号——我们还能把时间上的某些事件对应到图表中的某些反应上——那就非常清楚了。"
+ },
+ {
+  "seg": 208,
+  "start": 1352.79,
+  "end": 1354.091,
+  "speaker": "Unknown",
+  "en": "So this is all wild to me.",
+  "zh": "所以这一切对我来说都很疯狂。"
+ },
+ {
+  "seg": 209,
+  "start": 1355.712,
+  "end": 1375.003,
+  "speaker": "Unknown",
+  "en": "First off, I saw that, in fact, I recently published a newsletter where I talked about a study from Microsoft, from Alex Heilman at Microsoft, that similarly found that the number of pull requests per hour of active coding had increased about 40% in Microsoft.",
+  "zh": "首先,我看到了,事实上,我最近发了一期通讯,谈到了微软的一项研究,来自微软的 Alex Heilman,同样发现微软中每小时活跃编码所产生的 pull request 数量增加了大约 40%。"
+ },
+ {
+  "seg": 210,
+  "start": 1375.023,
+  "end": 1377.985,
+  "speaker": "Unknown",
+  "en": "And it seems like we're seeing very similar orders of magnitude.",
+  "zh": "看起来我们看到的数量级非常相似。"
+ },
+ {
+  "seg": 211,
+  "start": 1378.685,
+  "end": 1390.03,
+  "speaker": "Unknown",
+  "en": "And I'm curious, you know, if we're having more and more code, but having to spend less and less time actively authoring it, do you have some idea of where does that time go?",
+  "zh": "我很好奇,你知道的,如果我们的代码越来越多,但花在主动编写上的时间越来越少,你有没有一些想法,那些时间都去哪儿了?"
+ },
+ {
+  "seg": 212,
+  "start": 1390.611,
+  "end": 1399.775,
+  "speaker": "Unknown",
+  "en": "Like, is it going to other things that are still building activities, but we don't really think of them as diff offering time because it's not actually writing code, it's generating specs?",
+  "zh": "比如,是花在其他仍然属于构建活动的事情上,只是我们并不真的把它们当作 diff 产出时间,因为那实际上不是在写代码,而是在生成规格说明?"
+ },
+ {
+  "seg": 213,
+  "start": 1399.875,
+  "end": 1402.776,
+  "speaker": "Unknown",
+  "en": "Is it going to, you know, validation time?",
+  "zh": "还是花在了,你知道的,验证时间上?"
+ },
+ {
+  "seg": 214,
+  "start": 1402.796,
+  "end": 1404.197,
+  "speaker": "Unknown",
+  "en": "Like, where is that time going?",
+  "zh": "比如,那些时间都去哪儿了?"
+ },
+ {
+  "seg": 215,
+  "start": 1404.867,
+  "end": 1409.089,
+  "speaker": "Unknown",
+  "en": "Yeah, this is only an informed opinion that I'm going to assure now.",
+  "zh": "是的,这只是我现在要给出的一个有依据的猜测。"
+ },
+ {
+  "seg": 216,
+  "start": 1409.169,
+  "end": 1411.05,
+  "speaker": "Unknown",
+  "en": "It's not actually scientific.",
+  "zh": "它实际上并不科学。"
+ },
+ {
+  "seg": 217,
+  "start": 1411.23,
+  "end": 1412.871,
+  "speaker": "Unknown",
+  "en": "We're still looking into this, right?",
+  "zh": "我们还在研究这个问题,对吧?"
+ },
+ {
+  "seg": 218,
+  "start": 1413.291,
+  "end": 1414.812,
+  "speaker": "Unknown",
+  "en": "I think it's context gathering.",
+  "zh": "我认为这是上下文收集。"
+ },
+ {
+  "seg": 219,
+  "start": 1415.272,
+  "end": 1426.718,
+  "speaker": "Unknown",
+  "en": "I think you're also right in pointing out that a lot of the activity that we traditionally considered not coding are now perhaps or should now perhaps be considered as kind of",
+  "zh": "我认为你指出的一点也是对的,即很多我们传统上认为不算编码的活动,现在或许应该被视为"
+ },
+ {
+  "seg": 220,
+  "start": 1427.258,
+  "end": 1428.578,
+  "speaker": "Unknown",
+  "en": "adjacent part to coding.",
+  "zh": "编码的邻近部分。"
+ },
+ {
+  "seg": 221,
+  "start": 1428.979,
+  "end": 1433,
+  "speaker": "Unknown",
+  "en": "I think it's also pretty obvious that not a lot of time goes into prompt writing.",
+  "zh": "我还认为很明显,花在写提示词上的时间并不多。"
+ },
+ {
+  "seg": 222,
+  "start": 1433.06,
+  "end": 1435.92,
+  "speaker": "Unknown",
+  "en": "I mean, yes, some time goes into it, right?",
+  "zh": "我是说,是的,确实会花一些时间,对吧?"
+ },
+ {
+  "seg": 223,
+  "start": 1436.821,
+  "end": 1446.423,
+  "speaker": "Unknown",
+  "en": "But I think it's more so like, I think initially we had a point where like, oh yeah, I'm just gonna stuff my prompt, right, with like all of the information I can get.",
+  "zh": "但我认为更多的是这样:我想最初我们曾有一个阶段,像是“哦对,我要把所有能拿到的信息都塞进我的提示词里”。"
+ },
+ {
+  "seg": 224,
+  "start": 1446.523,
+  "end": 1453.505,
+  "speaker": "Unknown",
+  "en": "But now it's, I think, more efficient to just link the information because the agent can then go ahead and retrieve that itself.",
+  "zh": "但现在,我认为直接链接这些信息会更有效率,因为智能体可以自己去检索它。"
+ },
+ {
+  "seg": 225,
+  "start": 1453.925,
+  "end": 1466.337,
+  "speaker": "Unknown",
+  "en": "And so I think there's some of that going on for sure, but I don't think we have quite found where all of that time is exactly spent.",
+  "zh": "所以我认为其中肯定有这种情况,但我不认为我们已经完全找到了所有那些时间到底花在哪里。"
+ },
+ {
+  "seg": 226,
+  "start": 1466.777,
+  "end": 1472.843,
+  "speaker": "Unknown",
+  "en": "I think there's also a narrative that you could say, well, maybe we need to spend more time reviewing now.",
+  "zh": "我认为还有一种说法是,嗯,也许我们现在需要花更多时间做审查。"
+ },
+ {
+  "seg": 227,
+  "start": 1473.423,
+  "end": 1473.623,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 228,
+  "start": 1473.663,
+  "end": 1477.725,
+  "speaker": "Unknown",
+  "en": "And I've seen that, I think GitHub has made some similar findings.",
+  "zh": "我见过这种情况,我想 GitHub 也得出过一些类似的发现。"
+ },
+ {
+  "seg": 229,
+  "start": 1478.025,
+  "end": 1482.127,
+  "speaker": "Unknown",
+  "en": "On the other hand, I wonder, do you think that a line of code still has the same value?",
+  "zh": "另一方面,我想知道,你认为一行代码仍然具有同样的价值吗?"
+ },
+ {
+  "seg": 230,
+  "start": 1482.147,
+  "end": 1484.868,
+  "speaker": "Unknown",
+  "en": "Do we even need to review it that thoroughly?",
+  "zh": "我们甚至还需要那么彻底地审查它吗?"
+ },
+ {
+  "seg": 231,
+  "start": 1484.888,
+  "end": 1487.83,
+  "speaker": "Unknown",
+  "en": "Well, I mean, I think there's two questions in there, right?",
+  "zh": "嗯,我觉得这里面有两个问题,对吧?"
+ },
+ {
+  "seg": 232,
+  "start": 1487.85,
+  "end": 1490.211,
+  "speaker": "Unknown",
+  "en": "Like, does a line of code have the same value?",
+  "zh": "比如,一行代码是否具有同样的价值?"
+ },
+ {
+  "seg": 233,
+  "start": 1490.231,
+  "end": 1502.657,
+  "speaker": "Unknown",
+  "en": "And I mean, to the business, maybe, but to sort of developer platform, James Peelstone, developer productivity, well, no, because the cost of generating that line is so much less.",
+  "zh": "我是说,对业务来说,也许吧;但对开发者平台——James Peelstone,开发者生产力——嗯,不是,因为生成那一行的成本要低得多。"
+ },
+ {
+  "seg": 234,
+  "start": 1502.897,
+  "end": 1511.285,
+  "speaker": "Unknown",
+  "en": "I mean, you said at the very, very beginning, you know, historically, code was the currency of software engineers, the currency you cared about.",
+  "zh": "我是说,你在最开始就说过,你知道,历史上,代码是软件工程师的货币,是你所关心的货币。"
+ },
+ {
+  "seg": 235,
+  "start": 1511.665,
+  "end": 1515.289,
+  "speaker": "Unknown",
+  "en": "And now, really, intent is the currency we care about.",
+  "zh": "而现在,真正地,意图才是我们所关心的货币。"
+ },
+ {
+  "seg": 236,
+  "start": 1515.309,
+  "end": 1517.951,
+  "speaker": "Unknown",
+  "en": "Like, what is the throughput of our ideas?",
+  "zh": "比如,我们的想法的吞吐量是多少?"
+ },
+ {
+  "seg": 237,
+  "start": 1518.371,
+  "end": 1522.916,
+  "speaker": "Unknown",
+  "en": "And I think how do we measure those things are going to be increasingly the important thing.",
+  "zh": "而且我认为我们如何衡量这些东西将变得越来越重要。"
+ },
+ {
+  "seg": 238,
+  "start": 1523.356,
+  "end": 1523.996,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 239,
+  "start": 1524.256,
+  "end": 1530.237,
+  "speaker": "Unknown",
+  "en": "And is the idea that we put into the system actually what's coming out in the diff, right?",
+  "zh": "而且我们输入系统的想法是否真的就是 diff 中产出的东西,对吧?"
+ },
+ {
+  "seg": 240,
+  "start": 1530.277,
+  "end": 1532.878,
+  "speaker": "Unknown",
+  "en": "Or is there some drift between the two going on?",
+  "zh": "还是说两者之间存在某种漂移?"
+ },
+ {
+  "seg": 241,
+  "start": 1533.498,
+  "end": 1533.798,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 1534.138,
+  "end": 1539.359,
+  "speaker": "Unknown",
+  "en": "And so much around, you know, you mentioned so much time now is sort of going into gathering context.",
+  "zh": "还有这么多事情,你知道的,你提到现在这么多时间都花在了收集上下文上。"
+ },
+ {
+  "seg": 243,
+  "start": 1539.539,
+  "end": 1549.181,
+  "speaker": "Unknown",
+  "en": "And like, how do we think about the quality of that context, which would include all of the prompts you are, you know, it's not just the data you're feeding in, but like, are you able to clearly express your ideas?",
+  "zh": "那么,像我们该如何思考那些上下文的质量?这包括你所有的提示词,你知道,不仅仅是你在输入的数据,还有,你是否能够清晰地表达你的想法?"
+ },
+ {
+  "seg": 244,
+  "start": 1550.201,
+  "end": 1555.028,
+  "speaker": "Unknown",
+  "en": "Then from harness and model capabilities, does that translate all the way through to finished product?",
+  "zh": "然后从 harness 和模型能力出发,这些是否一路传导到最终产品?"
+ },
+ {
+  "seg": 245,
+  "start": 1555.329,
+  "end": 1560.497,
+  "speaker": "Unknown",
+  "en": "And there's lots of places where the human agent collaboration can break down as it turns out, I think.",
+  "zh": "而事实证明,人机智能体协作在很多地方都可能出问题,我认为。"
+ },
+ {
+  "seg": 246,
+  "start": 1561.16,
+  "end": 1572.39,
+  "speaker": "Unknown",
+  "en": "So as we look at, you have this rich data set on how much time are developers actually spending to create these atomic units of work?",
+  "zh": "那么,我们来看一下,你有这个丰富的数据集,关于开发者实际花多少时间来创建这些原子工作单元?"
+ },
+ {
+  "seg": 247,
+  "start": 1572.45,
+  "end": 1580.057,
+  "speaker": "Unknown",
+  "en": "And maybe these are now the atomic units of work of agents moving forward and sort of intent is the atomic unit of work for developers.",
+  "zh": "也许这些是未来智能体的原子工作单元,而意图是开发者的原子工作单元。"
+ },
+ {
+  "seg": 248,
+  "start": 1580.778,
+  "end": 1584.401,
+  "speaker": "Unknown",
+  "en": "And you're seeing how patterns are changing sort of broadly.",
+  "zh": "而且你在看到模式在整体上是如何变化的。"
+ },
+ {
+  "seg": 249,
+  "start": 1584.981,
+  "end": 1588.484,
+  "speaker": "Unknown",
+  "en": "Do you see differences as you slice into different cohorts?",
+  "zh": "当你切入不同的群体时,你看到差异了吗?"
+ },
+ {
+  "seg": 250,
+  "start": 1588.504,
+  "end": 1599.633,
+  "speaker": "Unknown",
+  "en": "Like, for example, are junior devs seeing their diff authoring time drop faster because of using AI than very senior devs are?",
+  "zh": "比如,初级开发者因为使用 AI,他们的 diff 编写时间下降速度是否比非常资深的开发者更快?"
+ },
+ {
+  "seg": 251,
+  "start": 1600.35,
+  "end": 1604.934,
+  "speaker": "Unknown",
+  "en": "We have initially observed the opposite of that, much to our surprise as well.",
+  "zh": "我们最初观察到的结果恰恰相反,这也让我们非常意外。"
+ },
+ {
+  "seg": 252,
+  "start": 1605.755,
+  "end": 1607.376,
+  "speaker": "Unknown",
+  "en": "That is definitely to my surprise.",
+  "zh": "这确实让我很惊讶。"
+ },
+ {
+  "seg": 253,
+  "start": 1609.158,
+  "end": 1618.986,
+  "speaker": "Unknown",
+  "en": "I think this finding has been corroborated in the industry, where it seemed like seniors were able to more effectively use these AI tools.",
+  "zh": "我认为这个发现已经在业界得到了印证,看起来资深开发者能够更有效地使用这些 AI 工具。"
+ },
+ {
+  "seg": 254,
+  "start": 1619.366,
+  "end": 1625.832,
+  "speaker": "Unknown",
+  "en": "But I think that has evened out some over time now, at least from a metric perspective.",
+  "zh": "但我认为随着时间推移,这种差距已经有所拉平了,至少从指标的角度来看是这样。"
+ },
+ {
+  "seg": 255,
+  "start": 1626.652,
+  "end": 1650.217,
+  "speaker": "Unknown",
+  "en": "As I think about all of this, it's, you know, I'm struggling with this idea that traditional telemetry misses a lot of the invisible work that goes into software engineering, sort of whiteboarding and brainstorming and talking with colleagues to sort of do architectural alignment.",
+  "zh": "当我思考这一切时,你知道,我正在为一个想法而纠结:传统的遥测数据遗漏了软件工程中大量的隐形工作,比如白板讨论、头脑风暴,以及与同事交流以达成架构上的一致。"
+ },
+ {
+  "seg": 256,
+  "start": 1650.837,
+  "end": 1655.778,
+  "speaker": "Unknown",
+  "en": "And I'm curious, like, can we start leveraging LLMs",
+  "zh": "我很好奇,比如,我们能否开始利用 LLM"
+ },
+ {
+  "seg": 257,
+  "start": 1656.538,
+  "end": 1670.861,
+  "speaker": "Unknown",
+  "en": "to sort of like synthesize our meeting transcripts or our meeting audio to capture some of that like missing piece that is going to become increasingly important and have that sort of feedback into the definition of diff authoring time.",
+  "zh": "来综合我们的会议记录或会议音频,以捕捉那部分缺失的、将变得越来越重要的内容,并将其反馈到 diff 编写时间的定义之中。"
+ },
+ {
+  "seg": 258,
+  "start": 1671.523,
+  "end": 1677.866,
+  "speaker": "Unknown",
+  "en": "Yeah, I played around with this idea at the very beginning of when we started at Meta to record our meetings internally.",
+  "zh": "是的,在刚刚加入 Meta 的时候,我摆弄过这个想法,在内部录制我们的会议。"
+ },
+ {
+  "seg": 259,
+  "start": 1678.587,
+  "end": 1684.81,
+  "speaker": "Unknown",
+  "en": "Now we're basically auto-transcribing everything if you want it to be auto-described, right?",
+  "zh": "现在,如果你想要自动转录,我们基本上对所有内容都进行自动转录了,对吧?"
+ },
+ {
+  "seg": 260,
+  "start": 1684.85,
+  "end": 1692.013,
+  "speaker": "Unknown",
+  "en": "So then it's pretty easy to do a similarity match, I think, between this meeting and the diffs that are out.",
+  "zh": "所以我认为,在这个会议和已提交的 diff 之间做相似度匹配是相当容易的。"
+ },
+ {
+  "seg": 261,
+  "start": 1692.353,
+  "end": 1700.518,
+  "speaker": "Unknown",
+  "en": "I think that that would be very interesting to kind of strengthen these links that are latent but do exist right now.",
+  "zh": "我认为,这将非常有助于强化这些目前虽然潜在但确实存在的联系。"
+ },
+ {
+  "seg": 262,
+  "start": 1701.618,
+  "end": 1705.7,
+  "speaker": "Unknown",
+  "en": "I also think there's also an interesting shift.",
+  "zh": "我还认为,这里也有一个有趣的转变。"
+ },
+ {
+  "seg": 263,
+  "start": 1705.76,
+  "end": 1710.342,
+  "speaker": "Unknown",
+  "en": "So on the one hand, we say, well, it's much cheaper to generate the code.",
+  "zh": "一方面,我们说,生成代码的成本便宜多了。"
+ },
+ {
+  "seg": 264,
+  "start": 1710.802,
+  "end": 1715.584,
+  "speaker": "Unknown",
+  "en": "Therefore, maybe we don't need to be as careful in architecting it.",
+  "zh": "因此,也许我们不需要在架构上那么小心。"
+ },
+ {
+  "seg": 265,
+  "start": 1716.084,
+  "end": 1722.847,
+  "speaker": "Unknown",
+  "en": "But you could have the counter argument actually for a very recent iteration of DAT.",
+  "zh": "但其实你可以提出相反的论点,以 DAT 的最近一次迭代为例。"
+ },
+ {
+  "seg": 266,
+  "start": 1722.867,
+  "end": 1724.007,
+  "speaker": "Unknown",
+  "en": "We are now at version eight.",
+  "zh": "我们现在到了第八版。"
+ },
+ {
+  "seg": 267,
+  "start": 1724.648,
+  "end": 1729.91,
+  "speaker": "Unknown",
+  "en": "The person who implemented it didn't have a design doc, but then what that",
+  "zh": "实现它的那个人没有写设计文档,但是那样做的"
+ },
+ {
+  "seg": 268,
+  "start": 1730.77,
+  "end": 1749.121,
+  "speaker": "Unknown",
+  "en": "Cost is that I needed to spend a lot more time reviewing this and basically extracting the design from the details of the code where I didn't need to look at the code, where I'm thinking, well, if you trust the agent to implement your architecture, then it would have been much easier to just get the architecture because that's the piece maybe we care about.",
+  "zh": "代价是我需要花多得多的时间来审查,基本上要从代码细节中提取出设计,而我本不需要看代码的。我当时想,如果你信任智能体来实现你的架构,那么直接拿到架构本来会容易得多,因为那也许才是我们在意的部分。"
+ },
+ {
+  "seg": 269,
+  "start": 1749.481,
+  "end": 1754.183,
+  "speaker": "Unknown",
+  "en": "And so maybe just because we can skip the architecture step, we shouldn't, right?",
+  "zh": "所以,也许正因为我们可以跳过架构这一步,我们才更不应该跳过,对吧?"
+ },
+ {
+  "seg": 270,
+  "start": 1757.005,
+  "end": 1769.656,
+  "speaker": "Unknown",
+  "en": "Yeah, I think Dr. Peggy Storey's recent triple debt framework talking about the rise of not just technical debt but cognitive debt and intent debt would argue pretty strongly that we shouldn't just skip the architecture phase.",
+  "zh": "是的,我认为 Peggy Storey 博士最近提出的三重债务框架,谈到不只是技术债务的兴起,还有认知债务和意图债务,会非常有力地论证我们不应该直接跳过架构阶段。"
+ },
+ {
+  "seg": 271,
+  "start": 1770.517,
+  "end": 1779.385,
+  "speaker": "Unknown",
+  "en": "So this notion of how developers are spending their time and how it's changing sort of makes me reflect back on where you and I first met.",
+  "zh": "那么,关于开发者如何花费时间以及这如何变化的话题,让我回想起你和我初次相识的时候。"
+ },
+ {
+  "seg": 272,
+  "start": 1780.302,
+  "end": 1787.448,
+  "speaker": "Unknown",
+  "en": "Where you were working on a study called Mind the Gap, which was hugely influential in my own work.",
+  "zh": "当时你正在做一项名为 Mind the Gap 的研究,它对我自己的工作影响巨大。"
+ },
+ {
+  "seg": 273,
+  "start": 1787.929,
+  "end": 1793.794,
+  "speaker": "Unknown",
+  "en": "And multiple of my feature studies relied on sort of the concepts of Mind Your Gap very, very heavily.",
+  "zh": "我的多项特征研究都在非常非常 heavily 地依赖于 Mind Your Gap 的概念。"
+ },
+ {
+  "seg": 274,
+  "start": 1794.274,
+  "end": 1802.662,
+  "speaker": "Unknown",
+  "en": "And so could you give us like a two minute version of what you were trying to study and what you learned from that project?",
+  "zh": "那么,你能否给我们一个大概两分钟的版本,讲讲你当时想研究什么,以及你从这个项目中学到了什么?"
+ },
+ {
+  "seg": 275,
+  "start": 1803.653,
+  "end": 1804.514,
+  "speaker": "Unknown",
+  "en": "Thanks, Ryan.",
+  "zh": "谢谢,Ryan。"
+ },
+ {
+  "seg": 276,
+  "start": 1805.895,
+  "end": 1806.595,
+  "speaker": "Unknown",
+  "en": "Pretty simple.",
+  "zh": "很简单。"
+ },
+ {
+  "seg": 277,
+  "start": 1807.055,
+  "end": 1810.837,
+  "speaker": "Unknown",
+  "en": "This is about a developer productivity way before AI.",
+  "zh": "这是关于开发者生产力的研究,远在 AI 之前。"
+ },
+ {
+  "seg": 278,
+  "start": 1811.218,
+  "end": 1821.584,
+  "speaker": "Unknown",
+  "en": "Basically, we have these traditional productivity measures such as lines of code per hour worked, number of features, maybe even something like function points.",
+  "zh": "基本上,我们有这些传统的生产力度量,比如每小时工作的代码行数、功能数量,甚至可能是功能点之类的东西。"
+ },
+ {
+  "seg": 279,
+  "start": 1822.364,
+  "end": 1830.811,
+  "speaker": "Unknown",
+  "en": "On the one hand, and then there was a relatively nascent research trend to look at perceived or self-perceived productivity.",
+  "zh": "一方面是这样,另一方面,当时有一个相对新兴的研究趋势,是考察感知到的或自我感知的生产力。"
+ },
+ {
+  "seg": 280,
+  "start": 1831.111,
+  "end": 1833.333,
+  "speaker": "Unknown",
+  "en": "But those two lived in isolation, basically.",
+  "zh": "但这两者基本上是彼此隔离存在的。"
+ },
+ {
+  "seg": 281,
+  "start": 1834.054,
+  "end": 1843.261,
+  "speaker": "Unknown",
+  "en": "And what we wanted to do in that study with Thomas Zimmerman, who was my mentor at Microsoft Research, was to basically bridge the gap between the two.",
+  "zh": "我们在那项研究中想做的,和我在微软研究院的导师 Thomas Zimmerman 一起,基本上就是在两者之间架起桥梁。"
+ },
+ {
+  "seg": 282,
+  "start": 1845.042,
+  "end": 1854.551,
+  "speaker": "Unknown",
+  "en": "We just wanted to assess both at the same time and basically counterbalance the drawbacks that each of them has with the strengths of the other.",
+  "zh": "我们只是想同时评估两者,基本上用各自的优势来抵消对方的缺点。"
+ },
+ {
+  "seg": 283,
+  "start": 1854.811,
+  "end": 1857.774,
+  "speaker": "Unknown",
+  "en": "And so, yeah, this is like I was super excited about doing that.",
+  "zh": "所以,是的,我当时对做这件事感到非常兴奋。"
+ },
+ {
+  "seg": 284,
+  "start": 1858.334,
+  "end": 1866.322,
+  "speaker": "Unknown",
+  "en": "I mean, I am a huge proponent of mixed methods research, and I think, you know, measuring large scale telemetry",
+  "zh": "我是说,我是混合方法研究的坚定拥护者,我认为,你知道,测量大规模遥测数据"
+ },
+ {
+  "seg": 285,
+  "start": 1867.204,
+  "end": 1873.209,
+  "speaker": "Unknown",
+  "en": "And blending it with sort of developer perception is so valuable.",
+  "zh": "并将其与开发者感知相融合,是非常有价值的。"
+ },
+ {
+  "seg": 286,
+  "start": 1873.529,
+  "end": 1880.935,
+  "speaker": "Unknown",
+  "en": "And I think one of the, for me, really important findings of your study is that there is a relationship between those two.",
+  "zh": "而且我认为,对我来说,你的研究其中一个非常重要的发现是,这两者之间存在一种关系。"
+ },
+ {
+  "seg": 287,
+  "start": 1881.156,
+  "end": 1892.525,
+  "speaker": "Unknown",
+  "en": "Like the developers actually are, you know, when they are assessing their own productivity, like that has a relationship in the actual activities they are doing that you can measure with telemetry.",
+  "zh": "也就是说,开发者实际上,你知道,当他们评估自己的生产力时,这与他们实际进行的活动存在一种关系,而这些活动是你可以用遥测数据测量的。"
+ },
+ {
+  "seg": 288,
+  "start": 1893.01,
+  "end": 1893.45,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 289,
+  "start": 1893.49,
+  "end": 1900.016,
+  "speaker": "Unknown",
+  "en": "The number one thing we saw there, which you, I think, mentioned here and there in this episode already was time spent coding.",
+  "zh": "我们在那里看到的头号发现——我想你在本期节目中已经不止一次提到过——就是花在编码上的时间。"
+ },
+ {
+  "seg": 290,
+  "start": 1900.496,
+  "end": 1905.58,
+  "speaker": "Unknown",
+  "en": "And we were also, lo and behold, it was pretty low back then at Microsoft, right?",
+  "zh": "而且我们发现,你瞧,当年在微软这个比例相当低,对吧?"
+ },
+ {
+  "seg": 291,
+  "start": 1905.6,
+  "end": 1909.163,
+  "speaker": "Unknown",
+  "en": "So it was like, yeah, you're a software developer, so like most of your time should be spent.",
+  "zh": "就是说,好吧,你是一个软件开发者,所以你的大部分时间应该花在"
+ },
+ {
+  "seg": 292,
+  "start": 1909.723,
+  "end": 1911.244,
+  "speaker": "Unknown",
+  "en": "Developing was actually not the case.",
+  "zh": "开发上,但实际情况并非如此。"
+ },
+ {
+  "seg": 293,
+  "start": 1911.424,
+  "end": 1915.728,
+  "speaker": "Unknown",
+  "en": "Like the core development time was, it's not the number one activity in the day.",
+  "zh": "核心开发时间并不是一天中的头号活动。"
+ },
+ {
+  "seg": 294,
+  "start": 1916.328,
+  "end": 1918.35,
+  "speaker": "Unknown",
+  "en": "Much to the dismay of many developers.",
+  "zh": "这让许多开发者非常沮丧。"
+ },
+ {
+  "seg": 295,
+  "start": 1918.41,
+  "end": 1928.098,
+  "speaker": "Unknown",
+  "en": "And now lots of studies have sort of come along and reconfirmed that, yeah, time submit coding, like, you know, may only be 13, 14, 15% of the day for many developers.",
+  "zh": "而现在,很多研究相继出现并再次证实,是的,提交编码的时间,你知道,对许多开发者来说可能只占一天中的 13%、14%、15%。"
+ },
+ {
+  "seg": 296,
+  "start": 1928.518,
+  "end": 1928.938,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 297,
+  "start": 1929.138,
+  "end": 1929.319,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 298,
+  "start": 1930.46,
+  "end": 1943.652,
+  "speaker": "Unknown",
+  "en": "What's also interesting, we did find that I think overall this was a large driver, but we also saw things like whether you're on call or I think Microsoft calls the DRI, designated response individual, I believe.",
+  "zh": "还有一点很有意思,我们发现,我认为总体上这是一个很大的驱动因素,但我们也看到了其他因素,比如你是否在值班,我记得微软称之为 DRI, designated response individual, designated response individual, designated responsible individual, 指定责任个人,如果我没记错的话。"
+ },
+ {
+  "seg": 299,
+  "start": 1944.252,
+  "end": 1945.694,
+  "speaker": "Unknown",
+  "en": "It's been a while.",
+  "zh": "已经有一段时间了。"
+ },
+ {
+  "seg": 300,
+  "start": 1946.795,
+  "end": 1952.16,
+  "speaker": "Unknown",
+  "en": "That had an influence, but things such as like how many interruptions you had are also counted.",
+  "zh": "那确实有影响，但诸如你被打断了多少次之类的因素也被计算在内。"
+ },
+ {
+  "seg": 301,
+  "start": 1952.6,
+  "end": 1957.882,
+  "speaker": "Unknown",
+  "en": "So some of these were attributes that people had to enter into the system manually.",
+  "zh": "所以其中有些属性是人们必须手动输入到系统里的。"
+ },
+ {
+  "seg": 302,
+  "start": 1958.162,
+  "end": 1968.067,
+  "speaker": "Unknown",
+  "en": "With all of the telemetry that we have in place at Meta now, we would be able to automate this, which you could say is a more truthy signal in that case.",
+  "zh": "以我们现在 Meta 部署的所有遥测手段，我们应该能够将这一过程自动化，在这种情况下你可以说这是一个更真实可信的信号。"
+ },
+ {
+  "seg": 303,
+  "start": 1968.687,
+  "end": 1973.229,
+  "speaker": "Unknown",
+  "en": "I mean, if I remember correctly, one of the strongest predictors you had",
+  "zh": "我是说，如果我没记错的话，你们发现最强的预测因子之一"
+ },
+ {
+  "seg": 304,
+  "start": 1974.349,
+  "end": 1984.557,
+  "speaker": "Unknown",
+  "en": "of someone's self-reported productivity is whether or not they had a good or a bad night's sleep before, which has influenced a future study of mine as well.",
+  "zh": "是某个人自我报告的生产力，取决于前一晚他们睡得好还是不好，这也影响了我后续的一项研究。"
+ },
+ {
+  "seg": 305,
+  "start": 1984.577,
+  "end": 1991.002,
+  "speaker": "Unknown",
+  "en": "It's just like these sorts of things matter, which like harkens back to the crazy experiments we should be running, the crazy...",
+  "zh": "就是这类事情很重要，这又回到我们应该做的那些疯狂实验，那些疯狂的……"
+ },
+ {
+  "seg": 306,
+  "start": 1992.151,
+  "end": 1993.613,
+  "speaker": "Unknown",
+  "en": "Yes, that's awesome.",
+  "zh": "对，太棒了。"
+ },
+ {
+  "seg": 307,
+  "start": 1993.653,
+  "end": 1996.075,
+  "speaker": "Unknown",
+  "en": "How did you measure whether someone had a good night's sleep or not?",
+  "zh": "你们是怎么测量一个人是否睡了一晚好觉的？"
+ },
+ {
+  "seg": 308,
+  "start": 1996.556,
+  "end": 2006.946,
+  "speaker": "Unknown",
+  "en": "So in Mind the Gap, I know that it was self-reported and this study that hopefully we will be publishing soon, we used fitness trackers.",
+  "zh": "在 Mind the Gap 里，我记得那是自我报告的，而在我们希望很快能发表的那项研究中，我们使用了健身追踪器。"
+ },
+ {
+  "seg": 309,
+  "start": 2007.046,
+  "end": 2010.55,
+  "speaker": "Unknown",
+  "en": "We used Fitbit first and foremost to actually quantify sleep quality.",
+  "zh": "我们首先使用的是 Fitbit,来实际量化睡眠质量。"
+ },
+ {
+  "seg": 310,
+  "start": 2010.75,
+  "end": 2018.173,
+  "speaker": "Unknown",
+  "en": "So I'm curious, like the world, you know, Mind the Gap at this point in time has got to be six or seven years old, right?",
+  "zh": "所以我很好奇，你知道，Mind the Gap 到现在这个时间点大概已经有六七年了吧，对吧？"
+ },
+ {
+  "seg": 311,
+  "start": 2018.753,
+  "end": 2022.655,
+  "speaker": "Unknown",
+  "en": "And it's the world has changed so much since then.",
+  "zh": "而且从那以后世界已经发生了巨大的变化。"
+ },
+ {
+  "seg": 312,
+  "start": 2022.835,
+  "end": 2030.278,
+  "speaker": "Unknown",
+  "en": "And so if you were to rerun it today, what activities would you add?",
+  "zh": "那么如果你今天重新做这项研究，你会增加哪些活动？"
+ },
+ {
+  "seg": 313,
+  "start": 2030.418,
+  "end": 2034.06,
+  "speaker": "Unknown",
+  "en": "What changes do you think you would see in the behaviors you measured back then?",
+  "zh": "你认为在你们当年测量的行为上会看到什么变化？"
+ },
+ {
+  "seg": 314,
+  "start": 2034.08,
+  "end": 2035.22,
+  "speaker": "Unknown",
+  "en": "Like, how would it be different?",
+  "zh": "比如，会有什么不同？"
+ },
+ {
+  "seg": 315,
+  "start": 2035.24,
+  "end": 2036.601,
+  "speaker": "Unknown",
+  "en": "How would Mind the Gap be different in 2026?",
+  "zh": "2026 年的 Mind the Gap 会有什么不同？"
+ },
+ {
+  "seg": 316,
+  "start": 2037.821,
+  "end": 2043.425,
+  "speaker": "Unknown",
+  "en": "I'll give you an answer to a question you didn't raise for a second, and then I'll actually answer your question.",
+  "zh": "我先回答一个你没有提出的问题，然后我再真正回答你的问题。"
+ },
+ {
+  "seg": 317,
+  "start": 2043.825,
+  "end": 2051.55,
+  "speaker": "Unknown",
+  "en": "If I were to rerun it then, I think the one thing that we were really missing was the lines of code.",
+  "zh": "如果我当时重新做这项研究，我认为我们真正缺失的一样东西是代码行数。"
+ },
+ {
+  "seg": 318,
+  "start": 2051.57,
+  "end": 2065.699,
+  "speaker": "Unknown",
+  "en": "So we had the number of pull requests, but it was more binary feature because it was in the Windows Devices group where we launched this and people were basically at max, like, putting out one pull request a day because, you know, kernel complicated and stuff.",
+  "zh": "我们有 pull request 的数量，但它更像是二元的特征，因为我们这项研究是在 Windows Devices 部门开展的，那里的人基本上最多一天提交一个 pull request,因为，你知道，内核很复杂之类的。"
+ },
+ {
+  "seg": 319,
+  "start": 2066.38,
+  "end": 2073.928,
+  "speaker": "Unknown",
+  "en": "So I would have, like this, I think would have really, you know, put the silver lining on the paper, but we, Microsoft had just changed to GitHub.",
+  "zh": "所以我本来会——我认为这真的会给论文锦上添花，但我们，Microsoft 刚刚切换到 GitHub。"
+ },
+ {
+  "seg": 320,
+  "start": 2074.068,
+  "end": 2076.391,
+  "speaker": "Unknown",
+  "en": "And so this feature wasn't available, sadly.",
+  "zh": "所以这个功能很遗憾没能用上。"
+ },
+ {
+  "seg": 321,
+  "start": 2076.591,
+  "end": 2085.501,
+  "speaker": "Unknown",
+  "en": "I mean, do you think that lines of code would have had a measurable relationship to self-reported productivity, or do you think you would have found that like, no, lines of code doesn't actually, like that is not a",
+  "zh": "我是说，你认为代码行数会和自我报告的生产力有一个可测量的关系吗？还是你觉得你会发现，不，代码行数其实并不，那不是一个"
+ },
+ {
+  "seg": 322,
+  "start": 2086.043,
+  "end": 2087.705,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm pretty certain it would have had one.",
+  "zh": "对，我相当确定会有关系。"
+ },
+ {
+  "seg": 323,
+  "start": 2087.745,
+  "end": 2089.346,
+  "speaker": "Unknown",
+  "en": "I don't know just how strongly you write.",
+  "zh": "我只是不知道有多强，你写。"
+ },
+ {
+  "seg": 324,
+  "start": 2089.366,
+  "end": 2092.869,
+  "speaker": "Unknown",
+  "en": "And the reason for that is, it's like the more time you spend coding, the more code you write.",
+  "zh": "原因在于，你花在写代码上的时间越多，你写的代码就越多。"
+ },
+ {
+  "seg": 325,
+  "start": 2092.909,
+  "end": 2094.891,
+  "speaker": "Unknown",
+  "en": "And so therefore there- That's true.",
+  "zh": "所以因此就——那是真的。"
+ },
+ {
+  "seg": 326,
+  "start": 2094.931,
+  "end": 2095.692,
+  "speaker": "Unknown",
+  "en": "Yes, of course.",
+  "zh": "是，当然。"
+ },
+ {
+  "seg": 327,
+  "start": 2096.392,
+  "end": 2098.735,
+  "speaker": "Unknown",
+  "en": "But yeah, how strong that would be- Interesting.",
+  "zh": "但对，那会有多强——有意思。"
+ },
+ {
+  "seg": 328,
+  "start": 2098.755,
+  "end": 2103.579,
+  "speaker": "Unknown",
+  "en": "Like in general, I think of lines of code is a pretty garbage measurement, but you are right.",
+  "zh": "一般来说，我认为代码行数是一个挺垃圾的度量，但你是对的。"
+ },
+ {
+  "seg": 329,
+  "start": 2103.699,
+  "end": 2112.227,
+  "speaker": "Unknown",
+  "en": "It's like, as you code more, like time spent coding matters, and there's got to be a relationship between time spent coding and the lines of code you generate.",
+  "zh": "就是，你写的代码越多，比如花在写代码上的时间很重要，而且花在写代码上的时间和你所生成的代码行数之间肯定存在关系。"
+ },
+ {
+  "seg": 330,
+  "start": 2112.622,
+  "end": 2118.704,
+  "speaker": "Unknown",
+  "en": "Now as to the actual question, what would we be doing different today?",
+  "zh": "那么回到真正的问题，今天我们会有什么不同的做法？"
+ },
+ {
+  "seg": 331,
+  "start": 2119.285,
+  "end": 2123.046,
+  "speaker": "Unknown",
+  "en": "We would have to incorporate agentic behavior much more.",
+  "zh": "我们必须更多地纳入智能体行为。"
+ },
+ {
+  "seg": 332,
+  "start": 2123.406,
+  "end": 2132.89,
+  "speaker": "Unknown",
+  "en": "Some measure, some form of how well are you able to interact or even operate in today's world, right?",
+  "zh": "某种度量，某种形式来衡量你在当今世界里能够多好地交互、甚至运作，对吧？"
+ },
+ {
+  "seg": 333,
+  "start": 2132.91,
+  "end": 2141.633,
+  "speaker": "Unknown",
+  "en": "Which is very parallel and where I don't think there are very clear patterns yet on what really works and what doesn't.",
+  "zh": "这个世界非常并行，而且我认为对于什么真正有效、什么无效，还没有非常清晰的模式。"
+ },
+ {
+  "seg": 334,
+  "start": 2142.513,
+  "end": 2151.402,
+  "speaker": "Unknown",
+  "en": "I think I would also like to have something like a sort of more opinionated question on like, hey, what's your opinion on agents, right?",
+  "zh": "我想我还想加入某种更有倾向性的问题，比如，嘿，你对智能体的看法是什么，对吧？"
+ },
+ {
+  "seg": 335,
+  "start": 2151.462,
+  "end": 2159.009,
+  "speaker": "Unknown",
+  "en": "And so I would be very interested on people that are like on different ends of the spectrum of like, hey, I'm trusting this a lot or I'm not trusting",
+  "zh": "所以我会非常感兴趣于那些处于光谱不同端的人，比如，嘿，我很信任它，或者我不信任"
+ },
+ {
+  "seg": 336,
+  "start": 2159.91,
+  "end": 2160.551,
+  "speaker": "Unknown",
+  "en": "That's so much.",
+  "zh": "这么多。"
+ },
+ {
+  "seg": 337,
+  "start": 2160.631,
+  "end": 2166.715,
+  "speaker": "Unknown",
+  "en": "And because obviously if you trust everything, you're going to commit stuff that doesn't work and worst case causes problems.",
+  "zh": "因为显然如果你全都信任，你会提交一些不能用的东西，最坏的情况还会造成问题。"
+ },
+ {
+  "seg": 338,
+  "start": 2166.796,
+  "end": 2176.763,
+  "speaker": "Unknown",
+  "en": "And we've seen, you know, these outages are already, I think pretty much every large tech company has had one of one agent cost outage yet.",
+  "zh": "而且我们已经看到，你知道，这些宕机事故，我认为几乎每家大型科技公司都已经经历过一次由智能体导致的宕机了。"
+ },
+ {
+  "seg": 339,
+  "start": 2177.164,
+  "end": 2182.608,
+  "speaker": "Unknown",
+  "en": "So, so I wonder if there's a, if there's, you know, some of the burrito frontier somewhere where like, hey, I'm like,",
+  "zh": "所以，所以我想知道是否存在，是否存在，你知道，某种玉米卷饼前沿之类的 somewhere,比如，嘿，我就像是，"
+ },
+ {
+  "seg": 340,
+  "start": 2182.908,
+  "end": 2186.052,
+  "speaker": "Unknown",
+  "en": "I'm 80% trusting this.",
+  "zh": "我对它有 80% 的信任。"
+ },
+ {
+  "seg": 341,
+  "start": 2186.112,
+  "end": 2188.494,
+  "speaker": "Unknown",
+  "en": "So I wonder if there's something like that.",
+  "zh": "所以我想知道是否存在类似这样的东西。"
+ },
+ {
+  "seg": 342,
+  "start": 2188.875,
+  "end": 2195.281,
+  "speaker": "Unknown",
+  "en": "I think other than that, I might be very curious to read your study on the health aspects of job performance.",
+  "zh": "除了这些之外，我可能会非常好奇去读你那项关于健康与工作表现的研究。"
+ },
+ {
+  "seg": 343,
+  "start": 2195.702,
+  "end": 2198.365,
+  "speaker": "Unknown",
+  "en": "Well, this makes me think of...",
+  "zh": "嗯，这让我想到……"
+ },
+ {
+  "seg": 344,
+  "start": 2199.548,
+  "end": 2207.011,
+  "speaker": "Unknown",
+  "en": "A recent study from Annie Vela that showed that sort of productivity and developer experience may be decoupling.",
+  "zh": "Annie Vela 最近的一项研究表明，生产力和开发者体验可能正在脱钩。"
+ },
+ {
+  "seg": 345,
+  "start": 2207.732,
+  "end": 2221.718,
+  "speaker": "Unknown",
+  "en": "And DX found in our most recent AI impact report that even though the amount of work that we are producing is skyrocketing because of using AI and agentic experiences,",
+  "zh": "而 DX 在我们最新的 AI 影响报告中发现，尽管由于使用 AI 和智能体体验，我们所产出的工作量正在飙升，"
+ },
+ {
+  "seg": 346,
+  "start": 2222.643,
+  "end": 2227.067,
+  "speaker": "Unknown",
+  "en": "Our sort of developer experience index is flat at best.",
+  "zh": "我们的开发者体验指数充其量是持平的。"
+ },
+ {
+  "seg": 347,
+  "start": 2227.607,
+  "end": 2242.12,
+  "speaker": "Unknown",
+  "en": "And so I am curious also then, if we were to rerun Mind Your Gap, if the relationship between things like diff authoring time, coding time, and self-reported productivity, if that is even weakening now, what would you expect there?",
+  "zh": "所以我也很好奇，如果我们重新做 Mind Your Gap,像 diff 编写时间、编码时间和自我报告的生产力这些事物之间的关系，是否现在甚至在减弱，你对此会有什么预期？"
+ },
+ {
+  "seg": 348,
+  "start": 2242.42,
+  "end": 2244.803,
+  "speaker": "Unknown",
+  "en": "I only have opinions right at this point.",
+  "zh": "在目前这个阶段我只有一些看法。"
+ },
+ {
+  "seg": 349,
+  "start": 2244.843,
+  "end": 2247.466,
+  "speaker": "Unknown",
+  "en": "I think it may not weaken.",
+  "zh": "我认为它可能不会减弱。"
+ },
+ {
+  "seg": 350,
+  "start": 2247.906,
+  "end": 2256.156,
+  "speaker": "Unknown",
+  "en": "I probably suspect that if you run too much in parallel, that that could be weakening.",
+  "zh": "我可能怀疑,如果你并行运行太多,那可能会是削弱的。"
+ },
+ {
+  "seg": 351,
+  "start": 2256.176,
+  "end": 2259.9,
+  "speaker": "Unknown",
+  "en": "I think the same influences for kind of, you know,",
+  "zh": "我认为同样的影响依然存在,你知道的,"
+ },
+ {
+  "seg": 352,
+  "start": 2260.3,
+  "end": 2264.863,
+  "speaker": "Unknown",
+  "en": "Why you might have a bad day are still true, which is on the one hand, all of those health reasons, right?",
+  "zh": "为什么你可能会有糟糕的一天,这些原因仍然成立,一方面是所有那些健康方面的原因,对吧?"
+ },
+ {
+  "seg": 353,
+  "start": 2264.883,
+  "end": 2267.264,
+  "speaker": "Unknown",
+  "en": "And then the other ones, kind of environmental ones.",
+  "zh": "然后另一类是环境方面的。"
+ },
+ {
+  "seg": 354,
+  "start": 2267.604,
+  "end": 2273.307,
+  "speaker": "Unknown",
+  "en": "And I think the third one are still pretty much like, I don't see those change at all, which is like, hey, I have too many meetings.",
+  "zh": "而我认为第三类基本上也没变,比如,“嘿,我的会议太多了。”"
+ },
+ {
+  "seg": 355,
+  "start": 2273.767,
+  "end": 2275.308,
+  "speaker": "Unknown",
+  "en": "We're in endless alignment meetings.",
+  "zh": "我们陷入没完没了的对齐会议里。"
+ },
+ {
+  "seg": 356,
+  "start": 2275.769,
+  "end": 2280.231,
+  "speaker": "Unknown",
+  "en": "We're not like, we're getting pulled in one direction and then, you know, the following week in the other one.",
+  "zh": "我们就像,这个星期被拉向一个方向,然后,你知道,下个星期又被拉向另一个方向。"
+ },
+ {
+  "seg": 357,
+  "start": 2281.171,
+  "end": 2288.335,
+  "speaker": "Unknown",
+  "en": "So I don't think that changes at all, but I could see that there's now like a fourth category, if you will, which is like how",
+  "zh": "所以我不认为那些有任何改变,但我能看到现在出现了第四类,可以这么说,就是关于"
+ },
+ {
+  "seg": 358,
+  "start": 2289.926,
+  "end": 2296.314,
+  "speaker": "Unknown",
+  "en": "Satisfied and how cognitively not overloaded am I with my setup of using agents?",
+  "zh": "我在使用智能体的这套设置下,满意度如何、认知上是否没有过载?"
+ },
+ {
+  "seg": 359,
+  "start": 2296.954,
+  "end": 2302.741,
+  "speaker": "Unknown",
+  "en": "And I think that's actually, I think that's a relative benchmark to your peers, right?",
+  "zh": "而我认为这实际上,我认为这是一个相对于你同行的基准,对吧?"
+ },
+ {
+  "seg": 360,
+  "start": 2302.761,
+  "end": 2304.223,
+  "speaker": "Unknown",
+  "en": "You see what they produce.",
+  "zh": "你能看到他们产出什么。"
+ },
+ {
+  "seg": 361,
+  "start": 2304.303,
+  "end": 2307.387,
+  "speaker": "Unknown",
+  "en": "And so I think that's an interesting aspect, yeah.",
+  "zh": "所以我觉得这是一个很有意思的方面,是的。"
+ },
+ {
+  "seg": 362,
+  "start": 2307.787,
+  "end": 2318.37,
+  "speaker": "Unknown",
+  "en": "You know, we've talked a lot about sort of coding, active coding, but that the value of a line of code may be dropping because it's so much easier to produce.",
+  "zh": "你知道,我们谈了很多关于编码、主动编码的话题,但一行代码的价值可能在下降,因为它太容易产出了。"
+ },
+ {
+  "seg": 363,
+  "start": 2319.17,
+  "end": 2326.772,
+  "speaker": "Unknown",
+  "en": "And lots of people across the industry are talking about sort of shifting bottlenecks and now, you know, planning's a bottleneck and validation's a bottleneck.",
+  "zh": "而且行业内很多人都在谈论瓶颈的转移,现在,你知道,规划成了瓶颈,验证成了瓶颈。"
+ },
+ {
+  "seg": 364,
+  "start": 2327.612,
+  "end": 2330.753,
+  "speaker": "Unknown",
+  "en": "And you have many incredible papers.",
+  "zh": "而你有很多了不起的论文。"
+ },
+ {
+  "seg": 365,
+  "start": 2330.793,
+  "end": 2337.076,
+  "speaker": "Unknown",
+  "en": "But another one of them is when, how, and why developers do not test in their IDEs.",
+  "zh": "但其中另一篇是关于开发人员何时、如何以及为什么不在他们的 IDE 里做测试。"
+ },
+ {
+  "seg": 366,
+  "start": 2337.496,
+  "end": 2343.699,
+  "speaker": "Unknown",
+  "en": "And if I recall correctly, a big finding is that a lot of developers just don't do any testing.",
+  "zh": "如果我没记错的话,一个重要发现是很多开发人员根本不做任何测试。"
+ },
+ {
+  "seg": 367,
+  "start": 2344.42,
+  "end": 2351.831,
+  "speaker": "Unknown",
+  "en": "And I'm curious, like, are you breathing a sigh of relief at this point in time because it's like, oh, well, now AI can fill that gap?",
+  "zh": "我很好奇,比如,你在此时此刻是否松了一口气,因为就像是,“哦,好了,现在 AI 可以填补那个空缺了”?"
+ },
+ {
+  "seg": 368,
+  "start": 2352.151,
+  "end": 2358.661,
+  "speaker": "Unknown",
+  "en": "Or are you even more worried because it's like we weren't great at validation before and now we are going to understand it even less?",
+  "zh": "还是你更加担心了,因为就像我们以前并不擅长验证,而现在我们会理解得更少?"
+ },
+ {
+  "seg": 369,
+  "start": 2359.422,
+  "end": 2362.364,
+  "speaker": "Unknown",
+  "en": "I think both are true for different reasons.",
+  "zh": "我认为两者都成立,原因不同。"
+ },
+ {
+  "seg": 370,
+  "start": 2362.424,
+  "end": 2365.846,
+  "speaker": "Unknown",
+  "en": "I think it's very easy to add tests now.",
+  "zh": "我认为现在添加测试非常容易。"
+ },
+ {
+  "seg": 371,
+  "start": 2366.326,
+  "end": 2380.014,
+  "speaker": "Unknown",
+  "en": "You can have unit tests, you can have in some cases even end-to-end tests because you have a harness that allows you to screenshot the results and then the agent can either operate on that and improve or include it as part of the test plan.",
+  "zh": "你可以有单元测试,在某些情况下你甚至可以有端到端测试,因为你有一个可以截图结果的工具框架,然后智能体可以基于它进行操作和改进,或者把它纳入测试计划的一部分。"
+ },
+ {
+  "seg": 372,
+  "start": 2380.034,
+  "end": 2381.455,
+  "speaker": "Unknown",
+  "en": "So at least it's easy, right?",
+  "zh": "所以至少这很容易,对吧?"
+ },
+ {
+  "seg": 373,
+  "start": 2381.495,
+  "end": 2384.177,
+  "speaker": "Unknown",
+  "en": "If for nothing else, then we can either",
+  "zh": "即便不为别的,我们也可以"
+ },
+ {
+  "seg": 374,
+  "start": 2384.897,
+  "end": 2391.202,
+  "speaker": "Unknown",
+  "en": "included in our system prompt, or if there are no tests, we just tell the agent to add a couple tests.",
+  "zh": "把它放进我们的 system prompt 里,或者如果没有测试,我们就直接告诉智能体加几个测试。"
+ },
+ {
+  "seg": 375,
+  "start": 2391.282,
+  "end": 2396.866,
+  "speaker": "Unknown",
+  "en": "And people understand that testing is more important now because we don't quite trust what the agents are doing.",
+  "zh": "而且人们明白测试现在更重要了,因为我们不太信任智能体在做的事情。"
+ },
+ {
+  "seg": 376,
+  "start": 2397.467,
+  "end": 2403.451,
+  "speaker": "Unknown",
+  "en": "On the other hand, I also think that the presence of tests, something that's green, right?",
+  "zh": "另一方面,我也认为测试的存在,某种绿色的东西,对吧?"
+ },
+ {
+  "seg": 377,
+  "start": 2404.532,
+  "end": 2414.32,
+  "speaker": "Unknown",
+  "en": "That might, you know, lure you into false sense of security of like, hey, the agent actually did what we are asking, but there really was a drift in what it did versus what we asked it to do.",
+  "zh": "那可能会,你知道,引诱你产生一种虚假的安全感,比如“嘿,智能体确实做了我们要求的事”,但实际上它做的和我们要求它做的之间真的存在偏差。"
+ },
+ {
+  "seg": 378,
+  "start": 2414.4,
+  "end": 2421.185,
+  "speaker": "Unknown",
+  "en": "Or maybe not even a drift, right, but just underspecified on our end and you can have different interpretations of what was asked.",
+  "zh": "或者甚至可能都不是偏差,对吧,只是我们这边规格说明不足,对于被要求的东西可以有不同的解读。"
+ },
+ {
+  "seg": 379,
+  "start": 2421.605,
+  "end": 2424.268,
+  "speaker": "Unknown",
+  "en": "Yeah, that's like, it's so interesting.",
+  "zh": "是的,这就像,太有意思了。"
+ },
+ {
+  "seg": 380,
+  "start": 2424.288,
+  "end": 2433.517,
+  "speaker": "Unknown",
+  "en": "And now I think I'm, I'm more worried than before I asked the question on this, like notions, like, yeah, it's so cheap to, I mean, it's like, that's why we're having these conversations.",
+  "zh": "而现在我觉得我,我比提问之前更担心了,关于这个,比如这些概念,是的,生成测试太便宜了,我是说,"
+ },
+ {
+  "seg": 381,
+  "start": 2433.577,
+  "end": 2436.319,
+  "speaker": "Unknown",
+  "en": "It's so cheap to generate tests.",
+  "zh": "生成测试太便宜了。"
+ },
+ {
+  "seg": 382,
+  "start": 2437.378,
+  "end": 2447.029,
+  "speaker": "Unknown",
+  "en": "But if you don't really care about testing before, then you're not like really going to know what you should be validating that the agent actually like wrote the right tests.",
+  "zh": "但如果你以前并不真正在意测试,那你就不会真正知道你应该验证什么,来确认智能体确实写对了测试。"
+ },
+ {
+  "seg": 383,
+  "start": 2447.329,
+  "end": 2452.415,
+  "speaker": "Unknown",
+  "en": "And I wonder if that feeds into this sort of triple debt notion that I mentioned before.",
+  "zh": "我想知道这是否会融入我之前提到的那种三重债务的概念里。"
+ },
+ {
+  "seg": 384,
+  "start": 2452.895,
+  "end": 2458.56,
+  "speaker": "Unknown",
+  "en": "Yeah, maybe we need a, you know, some sort of resurrection of TDD in the age of AI.",
+  "zh": "是的,也许我们需要某种 TDD 在 AI 时代的复活。"
+ },
+ {
+  "seg": 385,
+  "start": 2459.261,
+  "end": 2461.463,
+  "speaker": "Unknown",
+  "en": "I like, I'll be honest, I loved TDD.",
+  "zh": "我喜欢,说实话,我热爱 TDD。"
+ },
+ {
+  "seg": 386,
+  "start": 2461.943,
+  "end": 2468.449,
+  "speaker": "Unknown",
+  "en": "And like, I am curious if like, you know, what is sort of, like, is spec-driven development?",
+  "zh": "而且我很好奇,比如,你知道,什么算是,比如,spec 驱动的开发,"
+ },
+ {
+  "seg": 387,
+  "start": 2468.509,
+  "end": 2470.831,
+  "speaker": "Unknown",
+  "en": "Is that sort of like conceptually very similar?",
+  "zh": "那在概念上是不是非常相似?"
+ },
+ {
+  "seg": 388,
+  "start": 2471.332,
+  "end": 2474.594,
+  "speaker": "Unknown",
+  "en": "And it's as we think about generating our context,",
+  "zh": "而且当我们思考如何生成我们的上下文时,"
+ },
+ {
+  "seg": 389,
+  "start": 2475.275,
+  "end": 2484.577,
+  "speaker": "Unknown",
+  "en": "How much do we think about, well, what validates the correctness of our, our, the action, you know, our goals and how much, how do we specify that ahead of time?",
+  "zh": "我们在多大程度上思考,嗯,什么能验证我们的、我们的行动、我们的目标的正确性,以及我们要在多大程度上、如何提前把它规定好?"
+ },
+ {
+  "seg": 390,
+  "start": 2484.597,
+  "end": 2486.577,
+  "speaker": "Unknown",
+  "en": "Like, is that the new version of TDD?",
+  "zh": "比如,那是 TDD 的新版本吗?"
+ },
+ {
+  "seg": 391,
+  "start": 2486.937,
+  "end": 2487.217,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 392,
+  "start": 2487.398,
+  "end": 2488.378,
+  "speaker": "Unknown",
+  "en": "And so far, right.",
+  "zh": "而且到目前为止,对吧。"
+ },
+ {
+  "seg": 393,
+  "start": 2488.398,
+  "end": 2494.479,
+  "speaker": "Unknown",
+  "en": "What we see often is all, we'll just throw, you know, another agent with maybe different agent harness and a different model at it.",
+  "zh": "我们经常看到的是,我们只会,你知道,再扔一个智能体上去,也许用不同的智能体工具框架和不同的模型。"
+ },
+ {
+  "seg": 394,
+  "start": 2494.999,
+  "end": 2498.9,
+  "speaker": "Unknown",
+  "en": "But, you know, I like don't quite think that that's the answer.",
+  "zh": "但是,你知道,我不太认为那就是答案。"
+ },
+ {
+  "seg": 395,
+  "start": 2500.007,
+  "end": 2508.13,
+  "speaker": "Unknown",
+  "en": "I also, I don't think that ultimately what's going to be holding us back in many cases is sort of the capabilities of the models themselves.",
+  "zh": "我也不认为,在很多情况下最终会阻碍我们的,是模型本身的能力。"
+ },
+ {
+  "seg": 396,
+  "start": 2508.91,
+  "end": 2509.03,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 397,
+  "start": 2509.65,
+  "end": 2516.553,
+  "speaker": "Unknown",
+  "en": "What is one aspect of software engineering that you still think we lack a good way to measure?",
+  "zh": "你认为软件工程的哪个方面,我们仍然缺乏好的衡量方式?"
+ },
+ {
+  "seg": 398,
+  "start": 2516.933,
+  "end": 2522.015,
+  "speaker": "Unknown",
+  "en": "I think it's how you interact with your colleagues, right?",
+  "zh": "我认为是你如何与同事互动,对吧?"
+ },
+ {
+  "seg": 399,
+  "start": 2522.055,
+  "end": 2528.257,
+  "speaker": "Unknown",
+  "en": "How you can argue for certain projects, which is like all of these interpersonal dynamics.",
+  "zh": "你如何为某些项目争取,这些都是人与人之间的动态关系。"
+ },
+ {
+  "seg": 400,
+  "start": 2528.937,
+  "end": 2532.438,
+  "speaker": "Unknown",
+  "en": "Assuming that there are still people working, right?",
+  "zh": "假设还有人在工作,对吧?"
+ },
+ {
+  "seg": 401,
+  "start": 2533.799,
+  "end": 2545.283,
+  "speaker": "Unknown",
+  "en": "Apart from that, and somewhat related to it, though, is basically arguing or being able to see through the changes that you make.",
+  "zh": "除此之外,和它有点相关的是,基本上就是论证,或者说能够看透你所做的那些改动。"
+ },
+ {
+  "seg": 402,
+  "start": 2545.343,
+  "end": 2548.304,
+  "speaker": "Unknown",
+  "en": "I think what we're seeing now basically is that",
+  "zh": "我认为我们现在看到的基本上是"
+ },
+ {
+  "seg": 403,
+  "start": 2549.882,
+  "end": 2552.904,
+  "speaker": "Unknown",
+  "en": "So many new features get implemented, so much new stuff is happening.",
+  "zh": "有太多新功能被实现了,太多新东西在发生。"
+ },
+ {
+  "seg": 404,
+  "start": 2553.304,
+  "end": 2561.969,
+  "speaker": "Unknown",
+  "en": "It's very hard, even if the functionality is there and we're perfect, which I actually doubt is always the case, but for the business to, I think, harness what is there, right?",
+  "zh": "即使功能都在并且我们做到完美,这也是非常困难的——我其实怀疑是否总是如此——但对于业务来说,我认为,要利用好已经存在的东西,对吧?"
+ },
+ {
+  "seg": 405,
+  "start": 2561.989,
+  "end": 2574.176,
+  "speaker": "Unknown",
+  "en": "Because people move on so quickly, so there's no real sort of consumption of what has been implemented unless it's very obvious and, you know, very high priority.",
+  "zh": "因为人们进展得太快了,所以除非它非常显眼、你知道的、优先级非常高,否则已经实现的东西不会真正被消化。"
+ },
+ {
+  "seg": 406,
+  "start": 2574.556,
+  "end": 2578.339,
+  "speaker": "Unknown",
+  "en": "So I think this latter part also feeds into, hey,",
+  "zh": "所以我认为这后一部分也引出了,嘿,"
+ },
+ {
+  "seg": 407,
+  "start": 2579.019,
+  "end": 2583.885,
+  "speaker": "Unknown",
+  "en": "Let's not redo the same thing multiple times because it's so easy to do that now, right?",
+  "zh": "我们不要把同一件事重复做多遍,因为现在做这个太容易了,对吧?"
+ },
+ {
+  "seg": 408,
+  "start": 2583.905,
+  "end": 2586.669,
+  "speaker": "Unknown",
+  "en": "And everybody's kind of working in the same environment.",
+  "zh": "而且每个人基本都在同一个环境里工作。"
+ },
+ {
+  "seg": 409,
+  "start": 2587.069,
+  "end": 2590.974,
+  "speaker": "Unknown",
+  "en": "It's easy for people to redo the same thing again.",
+  "zh": "人们很容易又把同样的事情重做一遍。"
+ },
+ {
+  "seg": 410,
+  "start": 2591.074,
+  "end": 2593.958,
+  "speaker": "Unknown",
+  "en": "And I think we need a solution, at least at a company level.",
+  "zh": "而且我认为我们至少在公司层面需要一个解决方案。"
+ },
+ {
+  "seg": 411,
+  "start": 2594.518,
+  "end": 2604.707,
+  "speaker": "Unknown",
+  "en": "For, you know, flagging this or avoiding it if we, if we want to, not maybe for the sake of avoiding, but at least making other people aware of like a, um, Brian is also working on productivity metrics.",
+  "zh": "来,你知道的,标记这种情况或者避免它,如果我们想的话——也许不是为了刻意避免,而是至少让其他人意识到,比如,嗯,Brian 也在做生产力指标。"
+ },
+ {
+  "seg": 412,
+  "start": 2604.747,
+  "end": 2609.151,
+  "speaker": "Unknown",
+  "en": "Maybe Brian and Moritz should, you know, talk to each other for like, at least.",
+  "zh": "也许 Brian 和 Moritz 至少应该,你知道的,互相聊一聊。"
+ },
+ {
+  "seg": 413,
+  "start": 2610.392,
+  "end": 2612.133,
+  "speaker": "Unknown",
+  "en": "I love that concept.",
+  "zh": "我喜欢这个概念。"
+ },
+ {
+  "seg": 414,
+  "start": 2613.654,
+  "end": 2621.52,
+  "speaker": "Unknown",
+  "en": "In the space framework, communication and collaboration is explicitly part of the very definition of productivity.",
+  "zh": "在 SPACE 框架里,沟通与协作明确是生产力定义的一部分。"
+ },
+ {
+  "seg": 415,
+  "start": 2621.54,
+  "end": 2624.242,
+  "speaker": "Unknown",
+  "en": "How well are we actually collaborating with our colleagues?",
+  "zh": "我们和同事的协作到底有多好?"
+ },
+ {
+  "seg": 416,
+  "start": 2624.902,
+  "end": 2628.865,
+  "speaker": "Unknown",
+  "en": "And yet it is by far the least measured and the least understood.",
+  "zh": "然而它却是目前被衡量得最少、被理解得最少的。"
+ },
+ {
+  "seg": 417,
+  "start": 2629.205,
+  "end": 2634.649,
+  "speaker": "Unknown",
+  "en": "We can see interesting patterns between collaboration and other outcomes.",
+  "zh": "我们可以看到协作与其他成果之间的有趣模式。"
+ },
+ {
+  "seg": 418,
+  "start": 2635.009,
+  "end": 2638.811,
+  "speaker": "Unknown",
+  "en": "I've recently written about a case study where we saw that",
+  "zh": "我最近写了一个案例研究,我们看到"
+ },
+ {
+  "seg": 419,
+  "start": 2639.872,
+  "end": 2648.303,
+  "speaker": "Unknown",
+  "en": "A organization, effectively, all they did was cancel their low quality meetings and they had a bigger throughput gain from that than they did from adopting AI.",
+  "zh": "一个组织,实际上,他们所做的只是取消了低质量会议,而他们从中获得的吞吐量提升比采用 AI 还要大。"
+ },
+ {
+  "seg": 420,
+  "start": 2648.603,
+  "end": 2653.79,
+  "speaker": "Unknown",
+  "en": "And so we know that these things are incredibly important, but we don't really know how to measure like",
+  "zh": "所以我们知道这些事情极其重要,但我们其实不知道怎么衡量"
+ },
+ {
+  "seg": 421,
+  "start": 2655.372,
+  "end": 2656.112,
+  "speaker": "Unknown",
+  "en": "Are they good or not?",
+  "zh": "它们是好还是不好?"
+ },
+ {
+  "seg": 422,
+  "start": 2656.513,
+  "end": 2659.795,
+  "speaker": "Unknown",
+  "en": "We can see after the fact, was this bad if we got rid of it?",
+  "zh": "我们只能事后看到,如果我们把它取消了,是不是不好?"
+ },
+ {
+  "seg": 423,
+  "start": 2659.815,
+  "end": 2667.779,
+  "speaker": "Unknown",
+  "en": "But if we could measure that more effectively and then use it to increase innovation velocity, I think it would be so powerful.",
+  "zh": "但如果我们能更有效地衡量它,然后用它来提升创新速度,我认为那会非常强大。"
+ },
+ {
+  "seg": 424,
+  "start": 2668.139,
+  "end": 2668.6,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 425,
+  "start": 2668.62,
+  "end": 2673.342,
+  "speaker": "Unknown",
+  "en": "I think this kind of meeting canceling, I think that's an interesting point.",
+  "zh": "我认为这种取消会议的做法,我觉得是个有意思的点。"
+ },
+ {
+  "seg": 426,
+  "start": 2673.382,
+  "end": 2682.908,
+  "speaker": "Unknown",
+  "en": "A colleague of mine wrote about this during COVID where I think initially we saw a huge productivity boost because I think basically people's time got freed up",
+  "zh": "我的一位同事在疫情期间写过这个,我想最初我们看到生产力的巨大提升,因为基本上人们的时间被解放了"
+ },
+ {
+  "seg": 427,
+  "start": 2683.408,
+  "end": 2686.391,
+  "speaker": "Unknown",
+  "en": "So that they could implement all of these things that were on their backlog.",
+  "zh": "这样他们就能实现所有那些积压在 backlog 上的事情。"
+ },
+ {
+  "seg": 428,
+  "start": 2686.611,
+  "end": 2689.374,
+  "speaker": "Unknown",
+  "en": "But at some point that backlog was drained, right?",
+  "zh": "但在某个时刻,那个 backlog 被清空了,对吧?"
+ },
+ {
+  "seg": 429,
+  "start": 2689.674,
+  "end": 2698.623,
+  "speaker": "Unknown",
+  "en": "And so then they argued that we were in a situation where we were actually, you know, basically suffering from the lack of meetings or lack of alignment.",
+  "zh": "于是他们论证说,我们当时实际上,你知道的,基本上是在因缺乏会议或缺乏对齐而受苦。"
+ },
+ {
+  "seg": 430,
+  "start": 2699.364,
+  "end": 2704.95,
+  "speaker": "Unknown",
+  "en": "So I'm not sure if I, you know, buy 100% into this, but I think it's an interesting thought.",
+  "zh": "所以我不确定我是否百分之百买账,但我觉得这是个有意思的想法。"
+ },
+ {
+  "seg": 431,
+  "start": 2705.39,
+  "end": 2706.871,
+  "speaker": "Unknown",
+  "en": "Well, there needs to be balance.",
+  "zh": "嗯,这里需要有平衡。"
+ },
+ {
+  "seg": 432,
+  "start": 2707.031,
+  "end": 2712.375,
+  "speaker": "Unknown",
+  "en": "I found that canceling low quality meetings had a bigger positive impact to throughput than AI did.",
+  "zh": "我发现取消低质量会议对吞吐量的正面影响比 AI 更大。"
+ },
+ {
+  "seg": 433,
+  "start": 2712.555,
+  "end": 2714.336,
+  "speaker": "Unknown",
+  "en": "And so it's like, oh, let's cancel all meetings.",
+  "zh": "于是就像,哦,那我们把所有会议都取消吧。"
+ },
+ {
+  "seg": 434,
+  "start": 2714.736,
+  "end": 2722.822,
+  "speaker": "Unknown",
+  "en": "Now, on the flip side, again, sort of going back to COVID days, where it's like, oh, yeah, we found sort of the height of the COVID pandemic days.",
+  "zh": "那么反过来说,再回到疫情那段日子,就像,哦,对,我们发现在疫情最严重的时候,"
+ },
+ {
+  "seg": 435,
+  "start": 2723.322,
+  "end": 2727.965,
+  "speaker": "Unknown",
+  "en": "You know, we found that, oh, having more uninterrupted time led to more throughput.",
+  "zh": "你知道,我们发现,哦,拥有更多不被打断的时间能带来更高的吞吐量。"
+ },
+ {
+  "seg": 436,
+  "start": 2728.265,
+  "end": 2746.257,
+  "speaker": "Unknown",
+  "en": "Now, on the flip side of that, I worked on a study, Tale of Two Cities, where we found that the best predictor of a developer's self-reported productivity was whether or not they frequently engaged in informal small talk before or after meetings.",
+  "zh": "那么再反过来说,我参与过一项研究,叫《双城记》,我们发现预测一个开发者自我报告生产力的最佳指标,是他们在会议前或会议后是否经常进行非正式的闲聊。"
+ },
+ {
+  "seg": 437,
+  "start": 2746.597,
+  "end": 2749.599,
+  "speaker": "Unknown",
+  "en": "And so those small human moments of like, oh, hey, how are you doing?",
+  "zh": "就是那些微小的人类时刻,比如,哦,嘿,你最近怎么样?"
+ },
+ {
+  "seg": 438,
+  "start": 2749.639,
+  "end": 2750.54,
+  "speaker": "Unknown",
+  "en": "How was your weekend?",
+  "zh": "周末过得怎么样?"
+ },
+ {
+  "seg": 439,
+  "start": 2750.64,
+  "end": 2755.144,
+  "speaker": "Unknown",
+  "en": "That was more predictive of a developer's productivity than the quality of their internet connections.",
+  "zh": "这比他们网络连接的质量更能预测一个开发者的生产力。"
+ },
+ {
+  "seg": 440,
+  "start": 2755.524,
+  "end": 2760.228,
+  "speaker": "Unknown",
+  "en": "And so we need these human interactions, but it has to be balanced.",
+  "zh": "所以我们需要这些人与人的互动,但必须保持平衡。"
+ },
+ {
+  "seg": 441,
+  "start": 2760.488,
+  "end": 2762.009,
+  "speaker": "Unknown",
+  "en": "And so it's like, how do we understand that?",
+  "zh": "那么,我们该怎么理解这一点呢?"
+ },
+ {
+  "seg": 442,
+  "start": 2762.029,
+  "end": 2763.07,
+  "speaker": "Unknown",
+  "en": "I think it would be so valuable.",
+  "zh": "我认为那会非常有价值。"
+ },
+ {
+  "seg": 443,
+  "start": 2763.75,
+  "end": 2768.654,
+  "speaker": "Unknown",
+  "en": "If there was a positive correlation, the more they checked in with their colleagues, the higher their productivity was.",
+  "zh": "如果存在正相关,他们越常和同事寒暄,生产力就越高。"
+ },
+ {
+  "seg": 444,
+  "start": 2769.154,
+  "end": 2769.855,
+  "speaker": "Unknown",
+  "en": "Oh, that's cool.",
+  "zh": "哦,那很酷。"
+ },
+ {
+  "seg": 445,
+  "start": 2770.035,
+  "end": 2770.536,
+  "speaker": "Unknown",
+  "en": "Fascinating.",
+  "zh": "太有意思了。"
+ },
+ {
+  "seg": 446,
+  "start": 2771.438,
+  "end": 2771.658,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 447,
+  "start": 2772.018,
+  "end": 2772.198,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 448,
+  "start": 2772.258,
+  "end": 2776.739,
+  "speaker": "Unknown",
+  "en": "It's like the more they checked in on just like, sort of just like trivial, like human moments.",
+  "zh": "就像他们越常进行那种,怎么说,就是那种琐碎的、人类式的小时刻。"
+ },
+ {
+  "seg": 449,
+  "start": 2777.139,
+  "end": 2778.52,
+  "speaker": "Unknown",
+  "en": "And so it's like, these things matter.",
+  "zh": "所以就是,这些事情很重要。"
+ },
+ {
+  "seg": 450,
+  "start": 2778.88,
+  "end": 2783.041,
+  "speaker": "Unknown",
+  "en": "And so it's like, not all collaboration is bad, bad collaboration is bad.",
+  "zh": "所以就是说，不是所有协作都是坏的，坏的协作才是坏的。"
+ },
+ {
+  "seg": 451,
+  "start": 2783.061,
+  "end": 2784.461,
+  "speaker": "Unknown",
+  "en": "And so how do we understand that more?",
+  "zh": "那我们怎么更深入地理解这一点？"
+ },
+ {
+  "seg": 452,
+  "start": 2784.501,
+  "end": 2787.222,
+  "speaker": "Unknown",
+  "en": "Like, I think that would be, that would be awesome.",
+  "zh": "我觉得那会，那会非常棒。"
+ },
+ {
+  "seg": 453,
+  "start": 2787.742,
+  "end": 2795.264,
+  "speaker": "Unknown",
+  "en": "So I think with that is, as we look to the future and all the future things to discover, that is, that is a phenomenal closing note for us.",
+  "zh": "所以我认为，当我们展望未来和所有未来要探索的东西时，这真是一个了不起的收尾。"
+ },
+ {
+  "seg": 454,
+  "start": 2795.724,
+  "end": 2799.144,
+  "speaker": "Unknown",
+  "en": "Moritz, this was a phenomenal conversation.",
+  "zh": "Moritz,这场对话非常精彩。"
+ },
+ {
+  "seg": 455,
+  "start": 2799.204,
+  "end": 2801.145,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining us.",
+  "zh": "非常感谢你来参加。"
+ },
+ {
+  "seg": 456,
+  "start": 2801.887,
+  "end": 2802.53,
+  "speaker": "Unknown",
+  "en": "Thank you, Brian.",
+  "zh": "谢谢你，Brian。"
+ },
+ {
+  "seg": 457,
+  "start": 2802.57,
+  "end": 2803.273,
+  "speaker": "Unknown",
+  "en": "I've had a blast.",
+  "zh": "我玩得很开心。"
+ },
+ {
+  "seg": 458,
+  "start": 2803.916,
+  "end": 2804.137,
+  "speaker": "Unknown",
+  "en": "Cheers.",
+  "zh": "干杯。"
+ }
+]

@@ -111,9 +111,9 @@ a16z 跟这类人建立关系的方式很具体：帮他们重新激活人脉（
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同嘉宾:Elena Berger · 同公司:a16z、Salesforce</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:a16z、Cognition、OpenAI</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cognition、OpenAI、Salesforce</span>
-- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Eleven Labs、OpenAI</span>
 
 </div>
 <div class="pd-ex">

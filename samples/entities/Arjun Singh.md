@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":376,"沙箱":68,"基准测试":15,"上下文":25,"开放权重模型":1,"Slack":29,"Claude Code":90,"Codex":69,"Cursor":74}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":380,"沙箱":68,"基准测试":15,"上下文":25,"开放权重模型":1,"Slack":29,"Claude Code":90,"Codex":69,"Cursor":74}</script>
 
 <script>
 (function(){

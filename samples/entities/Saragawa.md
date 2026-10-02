@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
+[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":27,"Azure":3,"GitHub":26,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":51,"轨迹":4,"智能体":376}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":27,"Azure":3,"GitHub":26,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":51,"轨迹":4,"智能体":380}</script>
 
 <script>
 (function(){

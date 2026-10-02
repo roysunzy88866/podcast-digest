@@ -1,0 +1,439 @@
+{
+  "episode_id": "2026-09-30-talks-the-state-of-ai-in-software-development",
+  "podcast": "精选演讲",
+  "date": "2026-09-30",
+  "tags": [
+    "AI 编程",
+    "开发者体验",
+    "开发者生产力度量",
+    "DORA 指标",
+    "智能体"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "justin-reock",
+      "type": "person",
+      "role": "guest",
+      "name": "Justin Reock",
+      "file": "Justin Reock",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
+      "primary": true,
+      "how_described": "本集嘉宾所在的开发者体验研究平台，由做过 DORA 指标、Space 框架的研究者打造，是一个数据收集平台，基于约 20 万名工程师的数据研究 AI 对开发者体验与生产力的影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.835,
+            15.476
+          ],
+          "quote": "I'm the deputy CTO at DX.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 2025 年组织开始构建智能体，智能体让工程师更容易理解和修改代码但信任度下降，并列举 Morgan Stanley 的 DevGen、Zapier 的智能体生态、FAIR 的自动化代码审查、Spotify 的 SRE 智能体等案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            566.32,
+            572.846
+          ],
+          "quote": "And one of those is looking at agent experience, like literally we're asking agents about their experience working with humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            984.39,
+            988.992
+          ],
+          "quote": "Morgan Stanley has been really public about their creation of the DevGen AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            989.313,
+            997.112
+          ],
+          "quote": "which is an agent for interpreting legacy code like Mainframe, Natural, and Cobalt, and I hate to admit, Perl, I've written a lot of Perl in my career, but it's legacy now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            997.549,
+            1006.617
+          ],
+          "quote": "The agent actually creates PRDs to hand to engineers to get rid of that reverse engineering step, and it's saving Morgan Stanley about 300,000 hours a year right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1009.72,
+            1017.147
+          ],
+          "quote": "They have a whole agent ecosystem that they're using to deal with a lot of administrative tasks and overhead, like daily stand-ups and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1017.668,
+            1022.632
+          ],
+          "quote": "They've reduced their stand-ups by using agent summaries and things like that in this ecosystem that they've built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1071.869,
+            1077.232
+          ],
+          "quote": "But the initial superficial review that comes from the agent is all part of the system of record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1078.954,
+            1083.697
+          ],
+          "quote": "And so the next engineer to actually perform the review will have an idea of what the agent's already looked at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1091.522,
+            1111.133
+          ],
+          "quote": "They built an agent for SREs that will gather remediation steps from runbooks and information in context about the incident and put all that together into SRE communication channels so that when an incident occurs, the SRE has immediate context and doesn't have to go through multiple minutes of discovery to figure out how to solve the issue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "developer-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者体验 (developer experience)",
+      "file": "开发者体验",
+      "primary": true,
+      "how_described": "本集的核心框架：AI 就绪度清单（好文档、模块化代码、可靠 CI）过去就叫良好的开发者体验，对人类有益的对智能体也有益；「能做小的增量改动」这项开发体验驱动因素过去一年下降了 10%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.676,
+            21.638
+          ],
+          "quote": "I get to do a lot of our research around developer experience and its relation to developer productivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            22.079,
+            32.803
+          ],
+          "quote": "And certainly over the last year, a lot of that research has focused on AI's impact on the developer experience and basic aspects of productivity within an organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            51.193,
+            59.216
+          ],
+          "quote": "And really, at the end of the day, it's a data gathering platform that can look at a lot of different trends across an organization with, you know, how are we focusing on developer experience?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            59.656,
+            62.537
+          ],
+          "quote": "Are we seeing outcomes and improvements with developer experience?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            496.219,
+            504.722
+          ],
+          "quote": "I get to work on small incremental changes, and this is actually one of the lowest qualitative developer experience drivers that we've seen impacted over the last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            644.151,
+            656.3
+          ],
+          "quote": "I mean, it bears mentioning that measuring developer productivity and measuring developer experience was a challenge before AI, and we never completed that conversation before kind of throwing accelerant on this, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            681.027,
+            686.509
+          ],
+          "quote": "Our foundational developer experience and developer productivity metrics are still what matter the most.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            843.563,
+            849.587
+          ],
+          "quote": "If, by the way, any of this sounds familiar to you, it's because we used to just call this good developer experience, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dora",
+      "type": "concept",
+      "role": "concept",
+      "name": "DORA",
+      "file": "DORA",
+      "primary": true,
+      "how_described": "本集用它作为速度与质量的基础度量：部署频率稳步上升，变更失败率变得非常波动（有的公司恶化 2 个百分点，而行业基准约 4%），主张不要抛弃这些已建立信任的基础指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            117.246,
+            119.727
+          ],
+          "quote": "So here's our DORA metric for deployment frequency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            119.947,
+            121.247
+          ],
+          "quote": "Who's familiar with DORA metrics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            286.838,
+            290.981
+          ],
+          "quote": "The first metric we'll look at here is the DORA change failure rate metric.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pr-size",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR 大小 (PR size)",
+      "file": "PR 大小",
+      "primary": true,
+      "how_described": "本集称它将是今年最重要的指标之一：平均 PR 从 44 行涨到 72 行，每多一行就多一个潜在 bug 和评审负担，并与变更信心下降 6%、增量交付感受下降 10% 相关联。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            417.137,
+            420
+          ],
+          "quote": "And a lot of this is because PR size is measurably increasing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            787.34,
+            796.928
+          ],
+          "quote": "So you could look at two separate cohorts of users and you could compare them across metrics like PR cycle time or PR size or pushback in review, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metr",
+      "type": "concept",
+      "role": "concept",
+      "name": "METR",
+      "file": "METR",
+      "primary": true,
+      "how_described": "本集称其为「出了名有缺陷的 METR 研究」：16 名工程师实际生产率下降约 19% 但感知上升约 20%，感知与现实差约 40%，用来说明工程师感知的虚胖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            237.827,
+            259.04
+          ],
+          "quote": "It has not kind of crept up a little bit more especially when you look at some studies like obviously infamous flawed METR study if you're familiar with that study back in February they actually released a follow-up to that study saying that some of the signals they gathered were sort of imperfect and they needed to rethink some of that but what was interesting was that in these 16 engineers that were part of that study small study flawed study",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码生成 (code generation)",
+      "file": "代码生成",
+      "primary": true,
+      "how_described": "本集主张代码生成从来不是瓶颈：即使模型给出 100% 准确的即时代码，也只攻击了整个价值流的约 14%-16%，中位数提速仅 7.7%、无人达到 2 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            901.147,
+            904.43
+          ],
+          "quote": "Because code generation was never the bottleneck in the first place, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "morgan-stanley",
+      "type": "company",
+      "role": "company",
+      "name": "Morgan Stanley",
+      "file": "Morgan Stanley",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            984.39,
+            988.992
+          ],
+          "quote": "Morgan Stanley has been really public about their creation of the DevGen AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            997.549,
+            1006.617
+          ],
+          "quote": "The agent actually creates PRDs to hand to engineers to get rid of that reverse engineering step, and it's saving Morgan Stanley about 300,000 hours a year right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "type": "company",
+      "role": "company",
+      "name": "Zapier",
+      "file": "Zapier",
+      "primary": false,
+      "how_described": "本集最推崇的案例：用智能体生态把站会从每周五次减到两次、入职缩到约两周；人均多创造 15% 价值后以公司史上最大规模招人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1007.138,
+            1009.68
+          ],
+          "quote": "Zapier is one of my favorite stories in AI right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fair",
+      "type": "company",
+      "role": "company",
+      "name": "FAIR",
+      "file": "FAIR",
+      "primary": false,
+      "how_described": "本集案例：每周约 3000 次由 PR 触发的自动化代码审查，只查表面问题，结果留在 PR 评论里供后续人工审查参考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            755.014,
+            761.798
+          ],
+          "quote": "It's a fair joke that we're 15 years after the last major hype cycle and we're still trying to figure out cloud costs, but this stuff is getting pretty expensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1062.322,
+            1067.305
+          ],
+          "quote": "FAIR, they're automating about 3,000 of their code reviews a week triggered off of a pull request.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": false,
+      "how_described": "本集案例：为 SRE 建了智能体，从 runbook 和事件上下文汇总修复步骤推进沟通频道，事故发生时即刻有上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1085.718,
+            1090.802
+          ],
+          "quote": "Finally, Spotify, if anybody remembers the Spotify model from DevOps, they were sort of the North Star for DevOps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

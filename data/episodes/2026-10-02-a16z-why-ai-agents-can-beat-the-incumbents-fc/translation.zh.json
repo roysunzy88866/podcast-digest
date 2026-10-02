@@ -1,0 +1,5178 @@
+[
+ {
+  "seg": 0,
+  "start": 0.631,
+  "end": 3.973,
+  "speaker": "Unknown",
+  "en": "If you want to build an aircraft, you need to procure thousands of suppliers.",
+  "zh": "如果你想造一架飞机，你需要采购数千家供应商。"
+ },
+ {
+  "seg": 1,
+  "start": 4.193,
+  "end": 8.095,
+  "speaker": "Unknown",
+  "en": "Someone sends a confirmation of like, hey, sorry, like this part is going to arrive two weeks later.",
+  "zh": "有人发来一封确认邮件，比如说，嘿，抱歉，这个零件要晚两周到货。"
+ },
+ {
+  "seg": 2,
+  "start": 8.235,
+  "end": 10.576,
+  "speaker": "Unknown",
+  "en": "And if they miss this email, hundreds of millions of them.",
+  "zh": "如果他们错过这封邮件，那损失就是数以亿计。"
+ },
+ {
+  "seg": 3,
+  "start": 10.836,
+  "end": 19.1,
+  "speaker": "Unknown",
+  "en": "Procurement historically may have been more in a box and now it's like, okay, it's touching legal, it's touching finance, it's touching a bunch of different software systems and people.",
+  "zh": "采购在历史上可能更多是在一个盒子里，现在则是，好吧，它涉及法务，涉及财务，涉及一堆不同的软件系统和人。"
+ },
+ {
+  "seg": 4,
+  "start": 19.26,
+  "end": 24.483,
+  "speaker": "Unknown",
+  "en": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc.",
+  "zh": "AI 原生创业公司的机会在于说，我们要拥有整条端到端的链路。"
+ },
+ {
+  "seg": 5,
+  "start": 24.543,
+  "end": 29.125,
+  "speaker": "Unknown",
+  "en": "No company and no enterprise starts with fully autonomous negotiation agents from day one.",
+  "zh": "没有任何公司和任何企业会从第一天起就采用完全自主的谈判智能体。"
+ },
+ {
+  "seg": 6,
+  "start": 29.245,
+  "end": 29.385,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么?"
+ },
+ {
+  "seg": 7,
+  "start": 29.425,
+  "end": 33.246,
+  "speaker": "Unknown",
+  "en": "Because they don't trust us and they don't trust the technology from day one.",
+  "zh": "因为他们从第一天起就不信任我们，也不信任这项技术。"
+ },
+ {
+  "seg": 8,
+  "start": 33.346,
+  "end": 38.047,
+  "speaker": "Unknown",
+  "en": "And by having this you-in-the-loop approach, we are feeding our agent with all the feedback and all the learnings.",
+  "zh": "而通过这种“人在回路”的方式，我们用所有的反馈和所有的经验教训来喂养我们的智能体。"
+ },
+ {
+  "seg": 9,
+  "start": 38.207,
+  "end": 42.827,
+  "speaker": "Unknown",
+  "en": "And then they suddenly trust us for like 10K negotiations, 20K negotiations, 100K negotiations.",
+  "zh": "然后他们突然就信任我们了，比如一万次谈判、两万次谈判、十万次谈判。"
+ },
+ {
+  "seg": 10,
+  "start": 43.087,
+  "end": 49.049,
+  "speaker": "Unknown",
+  "en": "When you think about what a durable vertical AI company looks like, what are the qualities that you look for?",
+  "zh": "当你思考一家持久的垂直 AI 公司是什么样子时，你会看重哪些特质?"
+ },
+ {
+  "seg": 11,
+  "start": 49.069,
+  "end": 53.049,
+  "speaker": "Unknown",
+  "en": "It's really, really hard to forecast your mode going forward.",
+  "zh": "要预测你未来的护城河真的、真的非常难。"
+ },
+ {
+  "seg": 12,
+  "start": 53.069,
+  "end": 56.63,
+  "speaker": "Unknown",
+  "en": "If you look back at all the best businesses, at the early stages, they were",
+  "zh": "如果你回顾所有最优秀的企业，在早期阶段，它们是"
+ },
+ {
+  "seg": 13,
+  "start": 57.57,
+  "end": 64.194,
+  "speaker": "Unknown",
+  "en": "If the incumbent already owns the customer, the data, and the system of record, where does an AI-native startup have an advantage?",
+  "zh": "如果在位者已经拥有了客户、数据和记录系统，那么 AI 原生创业公司的优势在哪里?"
+ },
+ {
+  "seg": 14,
+  "start": 65.015,
+  "end": 76.622,
+  "speaker": "Unknown",
+  "en": "In this episode, Elena Berger sits down with A16Z partner Seema Ambel and Leo co-founder and CEO Vlad Kyle to answer that question through one of the most complex parts of the enterprise, procurement.",
+  "zh": "在本集中，Elena Berger 与 A16Z 合伙人 Seema Ambel 以及 Leo 联合创始人兼 CEO Vlad Kyle 一起，通过企业中最复杂的环节之一——采购——来回答这个问题。"
+ },
+ {
+  "seg": 15,
+  "start": 77.592,
+  "end": 87.605,
+  "speaker": "Unknown",
+  "en": "They get into why so much of the actual work happens outside the system of record, across emails, spreadsheets, contracts, engineering data, and conversations with suppliers.",
+  "zh": "他们谈到为什么大量实际工作发生在记录系统之外，遍布电子邮件、电子表格、合同、工程数据以及与供应商的对话。"
+ },
+ {
+  "seg": 16,
+  "start": 88.306,
+  "end": 94.434,
+  "speaker": "Unknown",
+  "en": "And Vlad explains how Leo is building agents that can coordinate that context and increasingly take on the job end to end.",
+  "zh": "而 Vlad 解释了 Leo 如何构建能够协调这些上下文的智能体，并且越来越多地端到端地承担这项工作。"
+ },
+ {
+  "seg": 17,
+  "start": 95.275,
+  "end": 108.71,
+  "speaker": "Unknown",
+  "en": "They also discuss how you earn enough trust to let an agent negotiate on your behalf, why building an internal AI tool can be deceptively easy until you hit the exceptions, and what changes when agents eventually sit on both sides of a transaction.",
+  "zh": "他们还讨论了如何赢得足够的信任来让智能体代表你进行谈判、为什么构建内部 AI 工具会出奇地容易直到你碰到例外情况，以及当智能体最终坐到交易的双方时会发生什么变化。"
+ },
+ {
+  "seg": 18,
+  "start": 111.567,
+  "end": 113.89,
+  "speaker": "Unknown",
+  "en": "Welcome back to the A16Z podcast.",
+  "zh": "欢迎回到 A16Z 播客。"
+ },
+ {
+  "seg": 19,
+  "start": 114.031,
+  "end": 114.932,
+  "speaker": "Unknown",
+  "en": "I'm Elena Berger.",
+  "zh": "我是 Elena Berger。"
+ },
+ {
+  "seg": 20,
+  "start": 115.293,
+  "end": 125.908,
+  "speaker": "Unknown",
+  "en": "And today I'm joined by Seema Amble, a partner at A16Z and Vlad Kyle, co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+  "zh": "今天和我一起的是 A16Z 合伙人 Seema Amble，以及 Leo 的联合创始人兼 CEO Vlad Kyle，Leo 为企业采购构建 AI 智能体。"
+ },
+ {
+  "seg": 21,
+  "start": 126.629,
+  "end": 144.122,
+  "speaker": "Unknown",
+  "en": "Seema, you recently wrote a piece called The Incumbents Are Coming, and it asks a question facing almost every AI application company, if an established software vendor already has the customer and the data and the model can work across its tools, where does a startup have an advantage?",
+  "zh": "Seema，你最近写了一篇文章，题为《在位者来了》，它提出了一个几乎所有 AI 应用公司都面临的问题：如果一家成熟的软件供应商已经拥有了客户和数据，而且模型可以在其工具之间工作，那么创业公司的优势在哪里?"
+ },
+ {
+  "seg": 22,
+  "start": 144.462,
+  "end": 150.027,
+  "speaker": "Unknown",
+  "en": "And we have Vlad here, and Vlad can really help us understand where a startup has an advantage.",
+  "zh": "我们今天有 Vlad 在这里，Vlad 能真正帮我们理解创业公司的优势在哪里。"
+ },
+ {
+  "seg": 23,
+  "start": 150.787,
+  "end": 157.35,
+  "speaker": "Unknown",
+  "en": "So I think a good place to start is the cases for and against the incumbents.",
+  "zh": "所以我认为一个很好的切入点是支持和反对在位者的论据。"
+ },
+ {
+  "seg": 24,
+  "start": 157.73,
+  "end": 168.855,
+  "speaker": "Unknown",
+  "en": "So if a company can connect a capable AI agent to the software it already uses, where does another application actually have a use case and an advantage there?",
+  "zh": "那么如果一家公司可以把一个有能力的 AI 智能体连接到它已经在使用的软件上，那另一个应用实际上还能在哪里有使用场景和优势呢?"
+ },
+ {
+  "seg": 25,
+  "start": 169.358,
+  "end": 171.319,
+  "speaker": "Unknown",
+  "en": "Yeah, let me back up and frame it up a little bit.",
+  "zh": "好的，让我先退一步稍微梳理一下。"
+ },
+ {
+  "seg": 26,
+  "start": 171.379,
+  "end": 180.863,
+  "speaker": "Unknown",
+  "en": "So historically, we thought about there is the incumbent, and then there's the startup, and it's a fight between distribution and innovation, which, to take my partner Alex Rampell's phrase.",
+  "zh": "在历史上，我们认为有在位者，然后有创业公司，这是一场分销与创新之间的战斗，这是借用我的合伙人 Alex Rampell 的说法。"
+ },
+ {
+  "seg": 27,
+  "start": 181.523,
+  "end": 192.308,
+  "speaker": "Unknown",
+  "en": "However, now there's like this third piece, which you're pointing at, which is the incumbent can layer on one of the models on top, and then there is a much more formidable competitor in the market.",
+  "zh": "然而，现在出现了第三块，也就是你指出的，在位者可以在上面叠加其中一个模型，然后市场上就出现了一个强大得多的竞争者。"
+ },
+ {
+  "seg": 28,
+  "start": 193.107,
+  "end": 205.82,
+  "speaker": "Unknown",
+  "en": "So why do you need an AI-native startup if you've got Claudeforce, which is taking Claude plus Salesforce and putting the two together and then you've already got all your data and your employees are all used to using the product.",
+  "zh": "所以如果你已经有了 Claudeforce，也就是把 Claude 和 Salesforce 两者放在一起，而你已经拥有了所有的数据，你的员工也都习惯使用这个产品了，那你为什么还需要一个 AI 原生创业公司呢?"
+ },
+ {
+  "seg": 29,
+  "start": 205.92,
+  "end": 207.402,
+  "speaker": "Unknown",
+  "en": "So why another product?",
+  "zh": "为什么还要另一个产品?"
+ },
+ {
+  "seg": 30,
+  "start": 207.93,
+  "end": 212.053,
+  "speaker": "Unknown",
+  "en": "I absolutely still think there's obviously still a case for the AI-native startup.",
+  "zh": "我绝对还是认为 AI 原生创业公司显然仍有其存在理由。"
+ },
+ {
+  "seg": 31,
+  "start": 212.153,
+  "end": 221.719,
+  "speaker": "Unknown",
+  "en": "And it really centers around the fact that the legacy incumbent is limited to their system of record and that record that they have, and they're not completing the end-to-end job.",
+  "zh": "而它真正的核心在于，传统的在位者受限于他们的记录系统和他们所拥有的那份记录，他们没有完成端到端的工作。"
+ },
+ {
+  "seg": 32,
+  "start": 222.22,
+  "end": 224.461,
+  "speaker": "Unknown",
+  "en": "So let me put that more concretely in an example.",
+  "zh": "让我用一个更具体的例子来说明。"
+ },
+ {
+  "seg": 33,
+  "start": 224.902,
+  "end": 230.926,
+  "speaker": "Unknown",
+  "en": "So say you're a customer and the customer calls and says they got charged after they got canceled.",
+  "zh": "比如说你是客户，客户打来电话说他们在取消之后还被扣了费。"
+ },
+ {
+  "seg": 34,
+  "start": 231.717,
+  "end": 241.644,
+  "speaker": "Unknown",
+  "en": "Resolving that cancellation history isn't just the, you know, customer going into the chat and saying, hey, I got overcharged.",
+  "zh": "解决这个取消历史问题不只是，你知道的，客户进入聊天窗口说，嘿，我被多扣费了。"
+ },
+ {
+  "seg": 35,
+  "start": 241.664,
+  "end": 243.665,
+  "speaker": "Unknown",
+  "en": "And the response there, it has to hit billing.",
+  "zh": "还有那里的回复，它必须触及计费。"
+ },
+ {
+  "seg": 36,
+  "start": 244.106,
+  "end": 245.607,
+  "speaker": "Unknown",
+  "en": "It has to look at all the chat history.",
+  "zh": "它必须查看所有的聊天历史。"
+ },
+ {
+  "seg": 37,
+  "start": 245.727,
+  "end": 247.148,
+  "speaker": "Unknown",
+  "en": "It has to look at the contract.",
+  "zh": "它必须查看合同。"
+ },
+ {
+  "seg": 38,
+  "start": 247.428,
+  "end": 248.829,
+  "speaker": "Unknown",
+  "en": "That's not one system of record.",
+  "zh": "那不是一个记录系统。"
+ },
+ {
+  "seg": 39,
+  "start": 248.889,
+  "end": 252.992,
+  "speaker": "Unknown",
+  "en": "That's the knowledge around that customer and everything it touched.",
+  "zh": "那是围绕那个客户的知识以及它所触及的一切。"
+ },
+ {
+  "seg": 40,
+  "start": 253.472,
+  "end": 256.415,
+  "speaker": "Unknown",
+  "en": "And that's something that one system of record wouldn't touch.",
+  "zh": "而这是一套记录系统触及不到的东西。"
+ },
+ {
+  "seg": 41,
+  "start": 256.495,
+  "end": 263.021,
+  "speaker": "Unknown",
+  "en": "However, the opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc.",
+  "zh": "然而，AI 原生创业公司的机会在于说，我们要拥有整条端到端的链路。"
+ },
+ {
+  "seg": 42,
+  "start": 263.121,
+  "end": 264.542,
+  "speaker": "Unknown",
+  "en": "So that could be illegal.",
+  "zh": "所以这可能是一项法务业务。"
+ },
+ {
+  "seg": 43,
+  "start": 264.602,
+  "end": 268.866,
+  "speaker": "Unknown",
+  "en": "So owning everything from brief all the way through trial.",
+  "zh": "也就是拥有从 brief 一直到庭审的一切。"
+ },
+ {
+  "seg": 44,
+  "start": 268.886,
+  "end": 273.09,
+  "speaker": "Unknown",
+  "en": "Vlad can talk more about procurement, but it's really the concept of owning the end-to-end work.",
+  "zh": "Vlad 可以多谈谈采购，但这本质上就是拥有端到端工作的概念。"
+ },
+ {
+  "seg": 45,
+  "start": 273.773,
+  "end": 274.054,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 46,
+  "start": 274.234,
+  "end": 277.559,
+  "speaker": "Unknown",
+  "en": "Vlad, do you want to talk about where that does show up in procurement?",
+  "zh": "Vlad，你想谈谈这在采购中是如何体现的吗?"
+ },
+ {
+  "seg": 47,
+  "start": 277.639,
+  "end": 283.308,
+  "speaker": "Unknown",
+  "en": "Like where existing incumbent plus a model just is insufficient?",
+  "zh": "比如在哪些情况下，现有的在位者加一个模型就是不够的?"
+ },
+ {
+  "seg": 48,
+  "start": 283.389,
+  "end": 286.433,
+  "speaker": "Unknown",
+  "en": "And what have you seen just with the companies that you work with?",
+  "zh": "以及在你合作的公司中你看到了什么?"
+ },
+ {
+  "seg": 49,
+  "start": 287.172,
+  "end": 287.352,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 50,
+  "start": 287.532,
+  "end": 291.753,
+  "speaker": "Unknown",
+  "en": "So when we think about procurement, I would assume that most people think about like prices, right?",
+  "zh": "所以当我们想到采购的时候，我猜大多数人想到的都是价格，对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 291.773,
+  "end": 293.894,
+  "speaker": "Unknown",
+  "en": "So like, what is the end price that we negotiated on?",
+  "zh": "也就是说，我们最终谈成的价格是多少？"
+ },
+ {
+  "seg": 52,
+  "start": 294.534,
+  "end": 300.475,
+  "speaker": "Unknown",
+  "en": "And surprisingly, the record looks always very, very simple and very easy.",
+  "zh": "而且令人惊讶的是，记录看起来总是非常非常简单、非常容易。"
+ },
+ {
+  "seg": 53,
+  "start": 300.555,
+  "end": 301.776,
+  "speaker": "Unknown",
+  "en": "It's just 8K.",
+  "zh": "就是 8K。"
+ },
+ {
+  "seg": 54,
+  "start": 301.936,
+  "end": 303.136,
+  "speaker": "Unknown",
+  "en": "That's the result, for example.",
+  "zh": "比如，这就是结果。"
+ },
+ {
+  "seg": 55,
+  "start": 303.756,
+  "end": 305.376,
+  "speaker": "Unknown",
+  "en": "And I mean, it's the same for sales, right?",
+  "zh": "我的意思是，销售那边也一样，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 305.396,
+  "end": 311.798,
+  "speaker": "Unknown",
+  "en": "So even if I come to see my Iron Tailor, like, hey, we now partnered up with another enterprise, look at the signature here for like...",
+  "zh": "即使我去见我的 Iron Tailor，比如，嘿，我们现在和另一家企业合作了，看看这里的签名，比如……"
+ },
+ {
+  "seg": 57,
+  "start": 312.258,
+  "end": 317.402,
+  "speaker": "Unknown",
+  "en": "This contract, it looks very easy, but CIMA doesn't see all the work behind it.",
+  "zh": "这份合同看起来很简单，但 CIMA 看不到背后所有的工作。"
+ },
+ {
+  "seg": 58,
+  "start": 317.422,
+  "end": 326.39,
+  "speaker": "Unknown",
+  "en": "So there are probably 30 stakeholder meetings happened, 500 emails, 20 Excel sheets, and that's the same for the counterpart procurement.",
+  "zh": "所以可能是开了 30 次利益相关者会议，发了 500 封邮件，做了 20 张 Excel 表，对方采购那边也是一样。"
+ },
+ {
+  "seg": 59,
+  "start": 326.41,
+  "end": 327.932,
+  "speaker": "Unknown",
+  "en": "So you see in your ERP system,",
+  "zh": "所以你在 ERP 系统里看到的，"
+ },
+ {
+  "seg": 60,
+  "start": 328.692,
+  "end": 336.175,
+  "speaker": "Unknown",
+  "en": "8K for aluminum, but you don't see that maybe the supplier did like a pushback and asked for like 10K.",
+  "zh": "是铝材 8K，但你看不到供应商可能曾经还价、要求 10K。"
+ },
+ {
+  "seg": 61,
+  "start": 336.575,
+  "end": 343.678,
+  "speaker": "Unknown",
+  "en": "You don't see that like a cost engineer had run three weeks of Excel sheets and 3D modeling to find out the prices of the part and everything else.",
+  "zh": "你也看不到成本工程师花了三周做 Excel 表和 3D 建模来搞清楚这个零件的价格以及其他一切。"
+ },
+ {
+  "seg": 62,
+  "start": 344.038,
+  "end": 345.358,
+  "speaker": "Unknown",
+  "en": "So that's what we see.",
+  "zh": "这就是我们看到的情况。"
+ },
+ {
+  "seg": 63,
+  "start": 345.378,
+  "end": 351.341,
+  "speaker": "Unknown",
+  "en": "So like most of the work in procurement actually happens outside of this ERP or any system of record.",
+  "zh": "所以采购中的大部分工作其实发生在 ERP 或任何记录系统之外。"
+ },
+ {
+  "seg": 64,
+  "start": 351.841,
+  "end": 352.081,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 65,
+  "start": 352.585,
+  "end": 360.796,
+  "speaker": "Unknown",
+  "en": "And I'm sure in the workflow that you described, an agent can do a huge number of things and different kinds of agents can do a large number of things, too.",
+  "zh": "而且我相信在你描述的工作流里，一个智能体能做大量的事情，不同种类的智能体也能各自做很多事。"
+ },
+ {
+  "seg": 66,
+  "start": 360.836,
+  "end": 368.906,
+  "speaker": "Unknown",
+  "en": "And I actually think that's a good bridge into the next question, which is, you know, a year ago, I think a lot of the incumbents were...",
+  "zh": "我其实觉得这正好可以引出下一个问题，就是，你知道，一年前，我想很多传统厂商都是在……"
+ },
+ {
+  "seg": 67,
+  "start": 369.787,
+  "end": 372.929,
+  "speaker": "Unknown",
+  "en": "Releasing chatbots, and that was kind of the extent of what you would see.",
+  "zh": "发布聊天机器人，那基本就是你所能看到的全部了。"
+ },
+ {
+  "seg": 68,
+  "start": 373.009,
+  "end": 377.171,
+  "speaker": "Unknown",
+  "en": "But Seema, in this piece that you wrote, you lay out four different kinds of agents.",
+  "zh": "但是 Seema，在你写的那篇文章里，你列出了四种不同类型的智能体。"
+ },
+ {
+  "seg": 69,
+  "start": 377.271,
+  "end": 384.335,
+  "speaker": "Unknown",
+  "en": "Retrieval agents, which are kind of the chatbots that we're familiar with, process agents, policy agents, and principal agents.",
+  "zh": "检索智能体，也就是我们所熟悉的那种聊天机器人，还有流程智能体、政策智能体和委托方智能体。"
+ },
+ {
+  "seg": 70,
+  "start": 384.355,
+  "end": 392.68,
+  "speaker": "Unknown",
+  "en": "So can you just walk us through all of them and explain kind of what changes in the kind of judgment that's necessary across all of them?",
+  "zh": "那你能带我们过一遍这四种吗，并解释一下在这几类之间所需的判断力有什么变化？"
+ },
+ {
+  "seg": 71,
+  "start": 392.86,
+  "end": 393.12,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 72,
+  "start": 393.36,
+  "end": 406.451,
+  "speaker": "Unknown",
+  "en": "So a year ago, I made this meme, which was the slap on a chatbot strategy, which is essentially like all the incumbents effectively had a chatbot that sat on top of the system record, which you could chat with to retrieve information, maybe do some like analytics.",
+  "zh": "一年前，我做了这个梗图，叫「往聊天机器人上拍一个」策略，本质上就是所有传统厂商实际上都有一个坐在记录系统之上的聊天机器人，你可以和它对话来检索信息，也许还能做一些分析。"
+ },
+ {
+  "seg": 73,
+  "start": 406.971,
+  "end": 410.494,
+  "speaker": "Unknown",
+  "en": "And that really was in that first bucket of what the retrieval agent is.",
+  "zh": "那确实就是第一类，也就是检索智能体。"
+ },
+ {
+  "seg": 74,
+  "start": 410.954,
+  "end": 420.142,
+  "speaker": "Unknown",
+  "en": "And maybe let me walk you through an example of what each of like the retrieval, the process, the policy and the principle back to the customer support example, just because it's very, it's easier to understand.",
+  "zh": "也许让我用一个例子给你讲讲检索、流程、政策和委托方这几个，回到客户支持的例子，因为它非常容易理解。"
+ },
+ {
+  "seg": 75,
+  "start": 420.662,
+  "end": 428.45,
+  "speaker": "Unknown",
+  "en": "So imagine if you're a customer and there's a service outage and you're calling in to say, hey, I want to get compensated for this service outage.",
+  "zh": "所以想象一下你是一个客户，发生了一次服务中断，你打电话来说，嘿，我想为这次服务中断获得赔偿。"
+ },
+ {
+  "seg": 76,
+  "start": 428.87,
+  "end": 440.221,
+  "speaker": "Unknown",
+  "en": "The retrieval assistant, which the incumbent may have, is going to be able to pull up, yes, this was what the contract term said, and yes, there was an outage, and just verify that information.",
+  "zh": "传统厂商可能有的那个检索助手，能够调出来：是的，这是合同条款上写的，是的，确实发生了中断，然后只是核实这些信息。"
+ },
+ {
+  "seg": 77,
+  "start": 440.461,
+  "end": 446.483,
+  "speaker": "Unknown",
+  "en": "It's pulling up information about the customer, it's in the database, and it's just sharing it back and maybe synthesizing.",
+  "zh": "它调出关于客户的信息，信息在数据库里，它只是把它反馈出来，也许做个综合整理。"
+ },
+ {
+  "seg": 78,
+  "start": 447.043,
+  "end": 449.484,
+  "speaker": "Unknown",
+  "en": "The second step in the agent sequence is the process agent.",
+  "zh": "智能体序列的第二步是流程智能体。"
+ },
+ {
+  "seg": 79,
+  "start": 449.984,
+  "end": 465.449,
+  "speaker": "Unknown",
+  "en": "So that process agent may be able to pull through an approval of credit and say, okay, based on our policy handbook, it was out from these dates, therefore we say you are entitled to money and it can just apply the bill and just do process.",
+  "zh": "这个流程智能体可能能够走完一个信用审批流程，然后说，好，根据我们的政策手册，故障发生在这些日期之间，因此我们认定你有权获得赔偿，然后它可以直接把账单应用上去，就走流程。"
+ },
+ {
+  "seg": 80,
+  "start": 465.489,
+  "end": 466.929,
+  "speaker": "Unknown",
+  "en": "There's no judgment involved.",
+  "zh": "这里不涉及任何判断。"
+ },
+ {
+  "seg": 81,
+  "start": 467.349,
+  "end": 469.71,
+  "speaker": "Unknown",
+  "en": "Then as you keep going to the policy agent,",
+  "zh": "然后继续往下是政策智能体，"
+ },
+ {
+  "seg": 82,
+  "start": 470.35,
+  "end": 479.4,
+  "speaker": "Unknown",
+  "en": "So the policy agent isn't just going to apply the process, but it's going to say, OK, in this situation, it was out for 20 minutes.",
+  "zh": "政策智能体不只是执行流程，它会说，好，在这种情况下，故障持续了 20 分钟。"
+ },
+ {
+  "seg": 83,
+  "start": 479.52,
+  "end": 482.464,
+  "speaker": "Unknown",
+  "en": "That's enough to be considered a significant outage.",
+  "zh": "这足以被认定为一次重大中断。"
+ },
+ {
+  "seg": 84,
+  "start": 483.004,
+  "end": 486.889,
+  "speaker": "Unknown",
+  "en": "And they're applying that judgment because there isn't really a strict definition around it.",
+  "zh": "它在做这种判断，因为围绕这个其实并没有严格的定义。"
+ },
+ {
+  "seg": 85,
+  "start": 487.389,
+  "end": 493.973,
+  "speaker": "Unknown",
+  "en": "And then the last stage, which is the principal agent, you're actually weighing, okay, should we offer more compensation?",
+  "zh": "然后是最后一个阶段，也就是委托方智能体，你实际上是在权衡，好，我们是否应该提供更多赔偿？"
+ },
+ {
+  "seg": 86,
+  "start": 494.013,
+  "end": 502.078,
+  "speaker": "Unknown",
+  "en": "Because that was a pretty terrible outage, and we want to reserve the relationship, and it's worth doing more beyond even what a process or policy is about.",
+  "zh": "因为那是一次相当糟糕的中断，我们想维护这段关系，值得做超出流程或政策之外的事情。"
+ },
+ {
+  "seg": 87,
+  "start": 502.418,
+  "end": 508.68,
+  "speaker": "Unknown",
+  "en": "The importance of these four things is that most incumbents started out in, if at all, in bucket one.",
+  "zh": "这四种类型的重要性在于，大多数传统厂商就算起步了，也是从第一类开始的。"
+ },
+ {
+  "seg": 88,
+  "start": 509,
+  "end": 514.963,
+  "speaker": "Unknown",
+  "en": "Now, at least they're marketing that they are moving towards process and policy, meaning they'll be able to apply more judgment.",
+  "zh": "现在，至少他们在宣传自己正在向流程和政策迈进，也就是说他们将能够应用更多判断。"
+ },
+ {
+  "seg": 89,
+  "start": 515.243,
+  "end": 526.907,
+  "speaker": "Unknown",
+  "en": "And, you know, if you look at what they've launched, these are workflow agents that will help you get a document signed or input information from a transcription or things like that.",
+  "zh": "而且，你知道，如果你看他们发布的产品，这些是工作流智能体，能帮你把一份文件签下来，或者把转录里的信息录进去之类的。"
+ },
+ {
+  "seg": 90,
+  "start": 527.107,
+  "end": 529.328,
+  "speaker": "Unknown",
+  "en": "They're very much still limited",
+  "zh": "它们仍然非常受限，"
+ },
+ {
+  "seg": 91,
+  "start": 530.422,
+  "end": 532.883,
+  "speaker": "Unknown",
+  "en": "Two, I would say retrieval and a little bit of process.",
+  "zh": "我会说，停留在检索和一点点流程。"
+ },
+ {
+  "seg": 92,
+  "start": 532.923,
+  "end": 536.165,
+  "speaker": "Unknown",
+  "en": "They have not gotten into more judgment, and I can get into why.",
+  "zh": "它们还没有进入更多判断的层面，我可以讲讲为什么。"
+ },
+ {
+  "seg": 93,
+  "start": 536.225,
+  "end": 554.675,
+  "speaker": "Unknown",
+  "en": "Like, there are all sorts of incentives that are preventing them from that, but the incumbents are trying, and I think what they're not able to do, they're like, some of them are saying, okay, let me partner with OpenAI, Anthropic, one of the labs, and try to build out, take that model capability and complement what they have and superpower it.",
+  "zh": "比如，有各种各样的激励因素在阻止他们做到那一步，但传统厂商在努力，我认为他们做不到的地方在于，他们中的一些在说，好，让我和 OpenAI、Anthropic 或某个实验室合作，尝试把那种模型能力拿过来，和他们已有的东西互补，给它加上超能力。"
+ },
+ {
+  "seg": 94,
+  "start": 555.095,
+  "end": 555.336,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 95,
+  "start": 556.277,
+  "end": 560.739,
+  "speaker": "Unknown",
+  "en": "Yeah, well, do you want to say why sort of some of the incumbents are holding back?",
+  "zh": "嗯，那你想说说为什么一些传统厂商在退缩吗？"
+ },
+ {
+  "seg": 96,
+  "start": 560.859,
+  "end": 565.462,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, so I would say they're holding back, but they're held back.",
+  "zh": "好，好的，我会说他们是在退缩，但他们其实是被拖住了。"
+ },
+ {
+  "seg": 97,
+  "start": 565.682,
+  "end": 568.904,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm sure they want to be full force, but there's probably two pieces.",
+  "zh": "是的，我确信他们想全力前进，但大概有两点。"
+ },
+ {
+  "seg": 98,
+  "start": 569.304,
+  "end": 572.065,
+  "speaker": "Unknown",
+  "en": "One, they have this advantage of distribution, right?",
+  "zh": "第一，他们有分发渠道上的优势，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 572.085,
+  "end": 573.326,
+  "speaker": "Unknown",
+  "en": "They have the customer trust.",
+  "zh": "他们有客户的信任。"
+ },
+ {
+  "seg": 100,
+  "start": 573.726,
+  "end": 577.188,
+  "speaker": "Unknown",
+  "en": "Which enables them to then sell more products with the customer.",
+  "zh": "这使他们能够随后向客户销售更多产品。"
+ },
+ {
+  "seg": 101,
+  "start": 577.208,
+  "end": 577.989,
+  "speaker": "Unknown",
+  "en": "So take Salesforce.",
+  "zh": "以 Salesforce 为例。"
+ },
+ {
+  "seg": 102,
+  "start": 578.369,
+  "end": 587.874,
+  "speaker": "Unknown",
+  "en": "When AgentForce launched, it was very easy for customers to say, yeah, I'm gonna sign up for the Salesforce agent, especially if it was offered at almost no extra cost.",
+  "zh": "当 AgentForce 发布时，客户很容易就说，好吧，我要注册 Salesforce 的智能体，尤其是当它几乎不需要额外费用的时候。"
+ },
+ {
+  "seg": 103,
+  "start": 588.495,
+  "end": 593.558,
+  "speaker": "Unknown",
+  "en": "And so they have this trust, they have the distribution, it's often pretty seamless to turn on the product.",
+  "zh": "所以他们拥有这种信任，他们拥有分发渠道，而且开启这个产品通常非常无缝。"
+ },
+ {
+  "seg": 104,
+  "start": 594.198,
+  "end": 606.981,
+  "speaker": "Unknown",
+  "en": "The flip side is there's all these internal incentive issues, right, which is if you start getting into more complicated agents, it's an internal conflict with an existing product that's offering workflow versus you're resolving the work.",
+  "zh": "反过来讲，存在各种内部激励问题，对吧，也就是说，如果你开始做更复杂的智能体，就会与现有的、提供工作流的产品产生内部冲突，而你的产品是在解决工作本身。"
+ },
+ {
+  "seg": 105,
+  "start": 607.582,
+  "end": 616.124,
+  "speaker": "Unknown",
+  "en": "And those are two products that are, if you're resolving a customer support issue end-to-end versus providing a workflow for a support agent, a human agent.",
+  "zh": "而这是两个不同的产品，如果你是端到端地解决一个客户支持问题，而不是为支持坐席——人类坐席——提供工作流。"
+ },
+ {
+  "seg": 106,
+  "start": 616.484,
+  "end": 617.604,
+  "speaker": "Unknown",
+  "en": "Those are different buyers.",
+  "zh": "买家是不同的。"
+ },
+ {
+  "seg": 107,
+  "start": 617.984,
+  "end": 621.365,
+  "speaker": "Unknown",
+  "en": "How do you, you know, those two teams are in conflict.",
+  "zh": "你怎么……这两个团队是冲突的。"
+ },
+ {
+  "seg": 108,
+  "start": 621.445,
+  "end": 626.406,
+  "speaker": "Unknown",
+  "en": "And then on top of that, I think from a sales perspective, like what are you selling to the customer?",
+  "zh": "除此之外，我认为从销售的角度来看，比如你在向客户卖什么？"
+ },
+ {
+  "seg": 109,
+  "start": 626.826,
+  "end": 641.328,
+  "speaker": "Unknown",
+  "en": "And then oftentimes in the classic like incumbent issue, right, is like there's two VPs, right, and they're different orgs and they're selling different products and like they will never be able to figure out what the right set of incentives and the right person to sell to.",
+  "zh": "[[119]] 我认为还有外部信任的问题，对吧？"
+ },
+ {
+  "seg": 110,
+  "start": 641.368,
+  "end": 645.309,
+  "speaker": "Unknown",
+  "en": "But anyway, so there's all these sort of classic incumbent issues I think that the incumbent also runs into.",
+  "zh": "但不管怎样，我认为在位者也会遇到这些经典的在位者问题。"
+ },
+ {
+  "seg": 111,
+  "start": 645.945,
+  "end": 647.027,
+  "speaker": "Unknown",
+  "en": "Makes sense.",
+  "zh": "有道理。"
+ },
+ {
+  "seg": 112,
+  "start": 647.327,
+  "end": 656.401,
+  "speaker": "Unknown",
+  "en": "Vlad, where across this kind of spectrum of retrieval agent, process agent, policy agent, principal agent, where does LEO sit?",
+  "zh": "Vlad，在检索型智能体、流程型智能体、策略型智能体、主体型智能体这个谱系中，LEO 处在什么位置？"
+ },
+ {
+  "seg": 113,
+  "start": 657.298,
+  "end": 666.083,
+  "speaker": "Unknown",
+  "en": "Yeah, so, like, we span across, like, I would say, like, all of those categories, and it really depends on the complexity and the risk our agents take, right?",
+  "zh": "是的，我们跨越了，我想说，所有这些类别，这真的取决于我们智能体承担的复杂度和风险，对吧？"
+ },
+ {
+  "seg": 114,
+  "start": 666.103,
+  "end": 671.605,
+  "speaker": "Unknown",
+  "en": "So, you know, sometimes we can, like, we already have use cases where we run fully autonomously.",
+  "zh": "所以，你知道，有时候我们可以……我们已经有完全自主运行的用例了。"
+ },
+ {
+  "seg": 115,
+  "start": 672.426,
+  "end": 674.407,
+  "speaker": "Unknown",
+  "en": "Sometimes you have the human in the loop.",
+  "zh": "有时候需要人在回路中。"
+ },
+ {
+  "seg": 116,
+  "start": 674.507,
+  "end": 679.029,
+  "speaker": "Unknown",
+  "en": "It really depends on, like, the budget approval, how, like, how complex and how risky this is.",
+  "zh": "这真的取决于预算审批，取决于这个东西有多复杂、风险有多大。"
+ },
+ {
+  "seg": 117,
+  "start": 680.13,
+  "end": 684.272,
+  "speaker": "Unknown",
+  "en": "But maybe, like, coming back to what Seema said about trust for the incumbents.",
+  "zh": "但也许，回到 Seema 说的关于在位者信任的话题。"
+ },
+ {
+  "seg": 118,
+  "start": 684.712,
+  "end": 686.354,
+  "speaker": "Unknown",
+  "en": "Like you talked about like internal trust.",
+  "zh": "你谈到的是内部信任。"
+ },
+ {
+  "seg": 119,
+  "start": 686.414,
+  "end": 688.537,
+  "speaker": "Unknown",
+  "en": "I think there's like also an external trust thing, right?",
+  "zh": "我认为还有一个外部信任的问题,对吧?"
+ },
+ {
+  "seg": 120,
+  "start": 688.557,
+  "end": 699.711,
+  "speaker": "Unknown",
+  "en": "So like, how do you convince someone to go through from, hey, just like an agent that retrieves some information and maybe runs processes to do like something completely autonomously is like...",
+  "zh": "就像，你怎么说服一个人从“嘿，只是一个检索一些信息、也许运行一些流程的智能体”过渡到完全自主地做某件事，这就像……"
+ },
+ {
+  "seg": 121,
+  "start": 700.332,
+  "end": 705.174,
+  "speaker": "Unknown",
+  "en": "Obviously there's like a product component to it, but mainly it's a people component, so they need to trust you.",
+  "zh": "显然其中有产品的成分，但主要是人的成分，所以他们需要信任你。"
+ },
+ {
+  "seg": 122,
+  "start": 706.375,
+  "end": 718.621,
+  "speaker": "Unknown",
+  "en": "And like we as a startup, scale-up, we have to earn the trust, incumbents already have the trust, but this also means they can destroy the trust if they ship something like too early and the product maybe doesn't work or it's bad or it's like works.",
+  "zh": "而我们作为一家初创公司、一家规模化中的公司，我们必须赢得信任，在位者已经拥有信任，但这也意味着，如果他们过早地发布了什么产品，而产品可能不好用、很糟糕，或者它的……"
+ },
+ {
+  "seg": 123,
+  "start": 719.701,
+  "end": 721.682,
+  "speaker": "Unknown",
+  "en": "decisions in a bad way.",
+  "zh": "决策方式很糟糕，他们就会毁掉信任。"
+ },
+ {
+  "seg": 124,
+  "start": 721.722,
+  "end": 724.544,
+  "speaker": "Unknown",
+  "en": "So that's what we can do.",
+  "zh": "所以这就是我们能做的。"
+ },
+ {
+  "seg": 125,
+  "start": 725.145,
+  "end": 734.672,
+  "speaker": "Unknown",
+  "en": "And then interestingly, what was like really surprising for us, like those process agents actually became kind of like a side quest for us because",
+  "zh": "然后有趣的是，对我们来说非常惊讶的一点是，那些流程型智能体实际上变成了我们的一个支线任务，因为"
+ },
+ {
+  "seg": 126,
+  "start": 735.372,
+  "end": 740.215,
+  "speaker": "Unknown",
+  "en": "It's like when we talk about, when we look at the invoice process, like invoice agents as a process.",
+  "zh": "就像当我们谈到，当我们看发票流程时，比如发票智能体作为一个流程。"
+ },
+ {
+  "seg": 127,
+  "start": 740.235,
+  "end": 750.101,
+  "speaker": "Unknown",
+  "en": "So you, we retrieve some informations, you match this across like other documents, and then you push this back to SAP or Oracle, like a very clear, clear process.",
+  "zh": "就是你，我们检索一些信息，你把它与其他文档进行匹配，然后你把它推回 SAP 或 Oracle，一个非常清晰、清晰的流程。"
+ },
+ {
+  "seg": 128,
+  "start": 751.022,
+  "end": 754.464,
+  "speaker": "Unknown",
+  "en": "And then we figured out, okay, that's like 100% of the software market, right?",
+  "zh": "然后我们发现，好吧，那就是 100% 的软件市场，对吧？"
+ },
+ {
+  "seg": 129,
+  "start": 754.484,
+  "end": 757.466,
+  "speaker": "Unknown",
+  "en": "So that's, that's invoice software.",
+  "zh": "所以那就是……那就是发票软件。"
+ },
+ {
+  "seg": 130,
+  "start": 757.606,
+  "end": 758.587,
+  "speaker": "Unknown",
+  "en": "That's how you build it today.",
+  "zh": "那就是今天你构建它的方式。"
+ },
+ {
+  "seg": 131,
+  "start": 758.987,
+  "end": 763.57,
+  "speaker": "Unknown",
+  "en": "But it's actually only like 20% of the work of the job to be done or of the problem.",
+  "zh": "但实际上它只占待完成工作或这个问题的大约 20%。"
+ },
+ {
+  "seg": 132,
+  "start": 763.97,
+  "end": 770.396,
+  "speaker": "Unknown",
+  "en": "Because 80% of the problem is like, what if the invoice is fraudulent?",
+  "zh": "因为 80% 的问题是，比如，如果发票是欺诈性的怎么办？"
+ },
+ {
+  "seg": 133,
+  "start": 770.436,
+  "end": 772.038,
+  "speaker": "Unknown",
+  "en": "What if there's a mismatch?",
+  "zh": "如果有不匹配怎么办？"
+ },
+ {
+  "seg": 134,
+  "start": 772.098,
+  "end": 775.441,
+  "speaker": "Unknown",
+  "en": "What if we don't take the happy path?",
+  "zh": "如果我们不走那条顺利路径怎么办？"
+ },
+ {
+  "seg": 135,
+  "start": 775.881,
+  "end": 784.87,
+  "speaker": "Unknown",
+  "en": "And so we very fast shifted to the next step of agents doing those exception handlings.",
+  "zh": "所以我们非常快地转向了下一步——让智能体去做那些异常处理。"
+ },
+ {
+  "seg": 136,
+  "start": 785.23,
+  "end": 786.511,
+  "speaker": "Unknown",
+  "en": "And we convinced the customers by",
+  "zh": "而我们说服客户的方式是"
+ },
+ {
+  "seg": 137,
+  "start": 788.431,
+  "end": 791.875,
+  "speaker": "Unknown",
+  "en": "I think we got like lucky being like always slightly ahead of the curve.",
+  "zh": "我想我们是运气比较好，一直稍微领先于曲线。"
+ },
+ {
+  "seg": 138,
+  "start": 792.356,
+  "end": 795.82,
+  "speaker": "Unknown",
+  "en": "So we were able to pitch the next generation of agents.",
+  "zh": "所以我们能够推销下一代智能体。"
+ },
+ {
+  "seg": 139,
+  "start": 796.181,
+  "end": 804.551,
+  "speaker": "Unknown",
+  "en": "So for example, like when we started out three years ago, it was like just retrieving a document, like not impressive at all today, but like three years ago, this was in like...",
+  "zh": "比如说，像我们三年前刚起步的时候，那时候只是检索一个文档，今天看来一点都不令人印象深刻，但在三年前，这可是……"
+ },
+ {
+  "seg": 140,
+  "start": 805.515,
+  "end": 807.076,
+  "speaker": "Unknown",
+  "en": "Crazy impressive.",
+  "zh": "疯狂地令人印象深刻。"
+ },
+ {
+  "seg": 141,
+  "start": 807.516,
+  "end": 809.658,
+  "speaker": "Unknown",
+  "en": "So we pitched this to customers.",
+  "zh": "所以我们向客户推销这个。"
+ },
+ {
+  "seg": 142,
+  "start": 809.698,
+  "end": 811.019,
+  "speaker": "Unknown",
+  "en": "We find out, okay, that's a real problem.",
+  "zh": "我们发现，好吧，那是一个真实的问题。"
+ },
+ {
+  "seg": 143,
+  "start": 811.039,
+  "end": 812.82,
+  "speaker": "Unknown",
+  "en": "That's a real use case they would pay for.",
+  "zh": "那是一个他们愿意付费的真实用例。"
+ },
+ {
+  "seg": 144,
+  "start": 813.3,
+  "end": 815.702,
+  "speaker": "Unknown",
+  "en": "And then we were able to ship this some weeks later.",
+  "zh": "然后我们能够在几周后把它交付出来。"
+ },
+ {
+  "seg": 145,
+  "start": 817.003,
+  "end": 823.347,
+  "speaker": "Unknown",
+  "en": "And in the same way, we are doing this now for the next step for process agents and for like fully autonomous agents and for long running agents.",
+  "zh": "同样地，我们现在正在为下一步——流程型智能体、完全自主的智能体以及长时间运行的智能体——做同样的事情。"
+ },
+ {
+  "seg": 146,
+  "start": 824.588,
+  "end": 827.93,
+  "speaker": "Unknown",
+  "en": "We are pitching this to them, finding out it's a problem, and then we're able to ship this very fast.",
+  "zh": "我们向他们推销这个，发现这是个问题，然后我们能够非常快地把它交付出来。"
+ },
+ {
+  "seg": 147,
+  "start": 828.566,
+  "end": 832.667,
+  "speaker": "Unknown",
+  "en": "I think an interesting point on trust is this internal versus external trust.",
+  "zh": "关于信任，我认为有一个有趣的观点，就是内部信任与外部信任。"
+ },
+ {
+  "seg": 148,
+  "start": 832.707,
+  "end": 839.809,
+  "speaker": "Unknown",
+  "en": "The other lens on that is, yeah, so you need your customer to buy the procurement software and trust to use it for their internal processes.",
+  "zh": "对此的另一个视角是，是的，你需要你的客户购买采购软件，并信任地将其用于他们的内部流程。"
+ },
+ {
+  "seg": 149,
+  "start": 839.869,
+  "end": 846.731,
+  "speaker": "Unknown",
+  "en": "But one of the really interesting things when we first met Vlad was that they're doing, they're also doing the negotiation.",
+  "zh": "但我们第一次见到 Vlad 时，一件非常有趣的事情是，他们在做的事情中，他们还在做谈判。"
+ },
+ {
+  "seg": 150,
+  "start": 846.791,
+  "end": 852.072,
+  "speaker": "Unknown",
+  "en": "So you have to trust that the Leo agent is going to then interface with a third party.",
+  "zh": "所以你必须相信 Leo 智能体会去与第三方对接。"
+ },
+ {
+  "seg": 151,
+  "start": 854.413,
+  "end": 856.395,
+  "speaker": "Unknown",
+  "en": "And there is that piece of trust.",
+  "zh": "而且确实存在这种信任问题。"
+ },
+ {
+  "seg": 152,
+  "start": 856.495,
+  "end": 863.682,
+  "speaker": "Unknown",
+  "en": "And of course, I think a lot of people feel burned by the incumbents and like, you know, they're pretty limited and haven't been able to do what they've marketed they've had in the past.",
+  "zh": "当然，我觉得很多人对那些老牌厂商感到失望过，你知道的，它们相当受限，没能做到它们过去所宣传的东西。"
+ },
+ {
+  "seg": 153,
+  "start": 863.762,
+  "end": 874.372,
+  "speaker": "Unknown",
+  "en": "So, but putting that aside, like, I don't know, maybe Vlad, I'd love to hear a little bit how you convinced the customers to trust an AI agent to now take on negotiations.",
+  "zh": "所以，但把这个放一边，我不知道，也许 Vlad，我很想听听你是怎么说服客户信任一个 AI 智能体来进行谈判的。"
+ },
+ {
+  "seg": 154,
+  "start": 874.752,
+  "end": 887.4,
+  "speaker": "Unknown",
+  "en": "Yeah, and when you do that, can you also just like paint the picture of like what's involved in procurement and who are your customers and what kind of sort of legacy systems are they used to?",
+  "zh": "对，你在做这件事的时候，能不能顺便描绘一下采购到底涉及什么，你的客户是谁，他们习惯的是什么样的传统系统？"
+ },
+ {
+  "seg": 155,
+  "start": 888.61,
+  "end": 888.79,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好。"
+ },
+ {
+  "seg": 156,
+  "start": 889.29,
+  "end": 897.213,
+  "speaker": "Unknown",
+  "en": "So like when you think about procurement, you like maybe just think about like purchasing or like when you look at like B2C world, like just you buy something.",
+  "zh": "比如当你想到采购的时候，你可能只是想到购买，或者就像你看 B2C 的世界，就是你买了个东西。"
+ },
+ {
+  "seg": 157,
+  "start": 898.033,
+  "end": 903.655,
+  "speaker": "Unknown",
+  "en": "But actually it's like a very intense process which like runs the economy, right?",
+  "zh": "但实际上它是一个非常密集的过程，可以说驱动着整个经济，对吧？"
+ },
+ {
+  "seg": 158,
+  "start": 903.695,
+  "end": 905.576,
+  "speaker": "Unknown",
+  "en": "And it includes multiple stakeholders and",
+  "zh": "它包括多个利益相关者，而且"
+ },
+ {
+  "seg": 159,
+  "start": 906.536,
+  "end": 920.382,
+  "speaker": "Unknown",
+  "en": "A lot of stakeholders and a lot of departments, legal, cost engineering, obviously procurement, finance, all of them have to work on these decisions.",
+  "zh": "很多利益相关者和很多部门，法务、成本工程，显然还有采购、财务，所有人都必须参与这些决策。"
+ },
+ {
+  "seg": 160,
+  "start": 920.922,
+  "end": 929.666,
+  "speaker": "Unknown",
+  "en": "And essentially like when we, like I think the reason is like how we convinced them is like what I already said earlier on.",
+  "zh": "基本上，当我们……我认为我们说服他们的原因就是我之前已经说过的那些。"
+ },
+ {
+  "seg": 161,
+  "start": 929.686,
+  "end": 930.166,
+  "speaker": "Unknown",
+  "en": "So like we",
+  "zh": "所以我们跟他们说了一些东西，然后我们能够真正把东西交付到生产环境。"
+ },
+ {
+  "seg": 162,
+  "start": 931.298,
+  "end": 934.281,
+  "speaker": "Unknown",
+  "en": "We're like always a little bit ahead of the curve.",
+  "zh": "我们总是稍微领先于曲线一点。"
+ },
+ {
+  "seg": 163,
+  "start": 934.521,
+  "end": 934.661,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 164,
+  "start": 934.681,
+  "end": 937.264,
+  "speaker": "Unknown",
+  "en": "So we knew the technology is coming.",
+  "zh": "所以我们知道这项技术正在到来。"
+ },
+ {
+  "seg": 165,
+  "start": 937.284,
+  "end": 944.871,
+  "speaker": "Unknown",
+  "en": "So we like, even before ChatGPT came out, like we, we just started a few weeks before like this ChatGPT breakthrough.",
+  "zh": "所以我们，甚至在 ChatGPT 出来之前，我们就在这个 ChatGPT 突破之前几周刚刚起步。"
+ },
+ {
+  "seg": 166,
+  "start": 945.952,
+  "end": 947.934,
+  "speaker": "Unknown",
+  "en": "So we already heard all of the, all of the problems.",
+  "zh": "所以我们已经听到了所有的、所有这些问题。"
+ },
+ {
+  "seg": 167,
+  "start": 948.455,
+  "end": 955.382,
+  "speaker": "Unknown",
+  "en": "Then we hear the, the hype in the, let's say like tech bubble, and we were able to pitch this enterprises and we quickly figured out, okay, like this is a...",
+  "zh": "然后我们在，可以说像科技泡沫里，听到了炒作，我们能够向这些企业做推介，我们很快搞明白了，好，这像是一个……"
+ },
+ {
+  "seg": 168,
+  "start": 955.982,
+  "end": 961.045,
+  "speaker": "Unknown",
+  "en": "This could be like an interesting use case, like just chatbot applications or retrieval agents, document processing.",
+  "zh": "这可能是一个有趣的使用场景，比如聊天机器人应用，或者检索智能体、文档处理。"
+ },
+ {
+  "seg": 169,
+  "start": 962.446,
+  "end": 966.449,
+  "speaker": "Unknown",
+  "en": "And then we are able to find out the problem and then ship this quickly to them.",
+  "zh": "然后我们能够找出问题所在，然后快速交付给他们。"
+ },
+ {
+  "seg": 170,
+  "start": 966.489,
+  "end": 969.891,
+  "speaker": "Unknown",
+  "en": "And then obviously like this is like the people factor of like trusting.",
+  "zh": "然后显然这就是信任中的人的因素。"
+ },
+ {
+  "seg": 171,
+  "start": 969.911,
+  "end": 973.634,
+  "speaker": "Unknown",
+  "en": "So we are telling them something about and then we're able to really ship something in production.",
+  "zh": "所以我们告诉他们一些相关的东西，然后我们就能够真正地在生产环境里发布一些东西了。"
+ },
+ {
+  "seg": 172,
+  "start": 974.474,
+  "end": 979.458,
+  "speaker": "Unknown",
+  "en": "But then there's also like this product perspective where we have a lot of like evals in place, right?",
+  "zh": "但还有产品层面的视角，我们有很多评估（evals）机制，对吧？"
+ },
+ {
+  "seg": 173,
+  "start": 979.478,
+  "end": 980.018,
+  "speaker": "Unknown",
+  "en": "So like we...",
+  "zh": "所以我们……"
+ },
+ {
+  "seg": 174,
+  "start": 983.238,
+  "end": 988.382,
+  "speaker": "Unknown",
+  "en": "Like no company and no enterprise starts with fully autonomous negotiation agents from day one.",
+  "zh": "没有任何公司、没有任何企业是从第一天起就直接上完全自主的谈判智能体的。"
+ },
+ {
+  "seg": 175,
+  "start": 988.883,
+  "end": 989.503,
+  "speaker": "Unknown",
+  "en": "No one does that.",
+  "zh": "没有人那么做。"
+ },
+ {
+  "seg": 176,
+  "start": 990.284,
+  "end": 990.444,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 177,
+  "start": 990.464,
+  "end": 995.208,
+  "speaker": "Unknown",
+  "en": "Because they don't trust us and they don't trust the technology from day one.",
+  "zh": "因为他们第一天既不信任我们，也不信任这项技术。"
+ },
+ {
+  "seg": 178,
+  "start": 995.328,
+  "end": 1000.012,
+  "speaker": "Unknown",
+  "en": "So we have like a very easy approach of like having a like human in the loop.",
+  "zh": "所以我们有一个非常简单的方法，就是让人在回路中。"
+ },
+ {
+  "seg": 179,
+  "start": 1000.473,
+  "end": 1011.502,
+  "speaker": "Unknown",
+  "en": "And this is like extremely helpful for us because we see like we have like, let's say like the perfect negotiation agent, which is like overall the perfect procurement negotiator, but we don't know exactly how",
+  "zh": "这对我们极其有帮助，因为我们看到，我们可以说有完美的谈判智能体，总体上是完美的采购谈判者，但我们并不确切知道"
+ },
+ {
+  "seg": 180,
+  "start": 1012.658,
+  "end": 1016.38,
+  "speaker": "Unknown",
+  "en": "A Fortune 10 enterprise, like the specific Fortune 10 enterprise operates.",
+  "zh": "一家 Fortune 10 企业，比如那家特定的 Fortune 10 企业是如何运作的。"
+ },
+ {
+  "seg": 181,
+  "start": 1016.84,
+  "end": 1023.343,
+  "speaker": "Unknown",
+  "en": "And by having this human in the loop approach, we are feeding our agent with all the feedback and all the learnings.",
+  "zh": "通过这种人在回路中的方法，我们把所有反馈和所有经验教训喂给我们的智能体。"
+ },
+ {
+  "seg": 182,
+  "start": 1023.683,
+  "end": 1029.126,
+  "speaker": "Unknown",
+  "en": "And then they suddenly trust us for like 10K negotiations, 20K negotiations, 100K negotiations.",
+  "zh": "然后他们突然就信任我们了，一万次谈判、两万次谈判、十万次谈判。"
+ },
+ {
+  "seg": 183,
+  "start": 1029.226,
+  "end": 1032.988,
+  "speaker": "Unknown",
+  "en": "And then you also have like other agents that are like more long running.",
+  "zh": "然后你还有一些运行时间更长的智能体。"
+ },
+ {
+  "seg": 184,
+  "start": 1033.008,
+  "end": 1035.689,
+  "speaker": "Unknown",
+  "en": "So when we talk about like multimillion dollar negotiations where you...",
+  "zh": "所以当我们谈到像数百万美元的谈判，你需要"
+ },
+ {
+  "seg": 185,
+  "start": 1036.089,
+  "end": 1040.014,
+  "speaker": "Unknown",
+  "en": "Analyze complex 3D models and technical drawings.",
+  "zh": "分析复杂的三维模型和技术图纸。"
+ },
+ {
+  "seg": 186,
+  "start": 1040.174,
+  "end": 1043.739,
+  "speaker": "Unknown",
+  "en": "There we on purpose have always experts in the loop, right?",
+  "zh": "在那里我们是刻意让专家始终在回路中的，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 1043.759,
+  "end": 1052.349,
+  "speaker": "Unknown",
+  "en": "So there's an agent running for multiple hours and then we ask for feedback of the cost engineer and then it does the next work and so on.",
+  "zh": "所以有一个智能体运行多个小时，然后我们征求成本工程师的反馈，然后它继续做下一步工作，以此类推。"
+ },
+ {
+  "seg": 188,
+  "start": 1053.28,
+  "end": 1058.806,
+  "speaker": "Unknown",
+  "en": "Maybe just to double click on that, where do you put the human in the loop on the negotiation side?",
+  "zh": "也许再深入展开一下，在谈判这一侧，你把人放在回路的哪个环节？"
+ },
+ {
+  "seg": 189,
+  "start": 1059.446,
+  "end": 1072.28,
+  "speaker": "Unknown",
+  "en": "You mentioned the cost engineer, but if you were going back and forth on a deal, is it mostly around data for something like cost engineering, or is there anything else where you have humans in the loop there?",
+  "zh": "你提到了成本工程师，但如果你在一笔交易上来回拉锯，主要是围绕成本工程之类的数据，还是说还有其他地方你也会让人在回路中？"
+ },
+ {
+  "seg": 190,
+  "start": 1073.034,
+  "end": 1075.577,
+  "speaker": "Unknown",
+  "en": "So, again, depends on the level of negotiation, right?",
+  "zh": "所以，再说一次，这取决于谈判的层级，对吧？"
+ },
+ {
+  "seg": 191,
+  "start": 1075.597,
+  "end": 1087.85,
+  "speaker": "Unknown",
+  "en": "So, like, we have to distinguish between, like, negotiations where you just, like a negotiation where in, like, where enterprises, they never did those because they didn't have the capacity, but by",
+  "zh": "比如，我们必须区分，比如那些企业以前从来没做过的谈判，因为他们没有那个能力，但是"
+ },
+ {
+  "seg": 192,
+  "start": 1088.13,
+  "end": 1093.995,
+  "speaker": "Unknown",
+  "en": "By deploying agents, they can just capture savings that they weren't aware of.",
+  "zh": "通过部署智能体，他们可以捕获那些他们原本没意识到的节省。"
+ },
+ {
+  "seg": 193,
+  "start": 1094.055,
+  "end": 1099.239,
+  "speaker": "Unknown",
+  "en": "Before agents or before Leo, they just didn't care about everything which happened below 50k.",
+  "zh": "在智能体之前，或者在 Leo 之前，他们对 5 万以下发生的所有事情根本不在乎。"
+ },
+ {
+  "seg": 194,
+  "start": 1099.259,
+  "end": 1102.841,
+  "speaker": "Unknown",
+  "en": "This is maybe a hack for other startups.",
+  "zh": "这对其他初创公司来说也许是个黑客技巧。"
+ },
+ {
+  "seg": 195,
+  "start": 1102.861,
+  "end": 1105.884,
+  "speaker": "Unknown",
+  "en": "You can just send an enterprise an invoice for 40k.",
+  "zh": "你可以就给一家企业发一张 4 万的发票。"
+ },
+ {
+  "seg": 196,
+  "start": 1105.904,
+  "end": 1108.766,
+  "speaker": "Unknown",
+  "en": "They will probably not negotiate because they don't have the capacity to do so.",
+  "zh": "他们大概率不会去谈判，因为他们没有那个能力去做。"
+ },
+ {
+  "seg": 197,
+  "start": 1110.567,
+  "end": 1113.449,
+  "speaker": "Unknown",
+  "en": "Except they have Leo agents, then we are going to negotiate against you.",
+  "zh": "除非他们有 Leo 智能体，那我们就会跟你谈判。"
+ },
+ {
+  "seg": 198,
+  "start": 1114.429,
+  "end": 1116.97,
+  "speaker": "Unknown",
+  "en": "But other than that, they are just paying that.",
+  "zh": "但除此之外，他们就只是付钱了。"
+ },
+ {
+  "seg": 199,
+  "start": 1117.271,
+  "end": 1125.495,
+  "speaker": "Unknown",
+  "en": "And obviously they are the risk of like, what is the risk of like, you didn't negotiate at all, so what is the risk now of having a bad negotiation agent?",
+  "zh": "显然他们面临的风险是，比如，你根本没谈判过，那么现在有一个糟糕的谈判智能体的风险又是什么呢？"
+ },
+ {
+  "seg": 200,
+  "start": 1126.135,
+  "end": 1127.195,
+  "speaker": "Unknown",
+  "en": "Nearly zero, right?",
+  "zh": "几乎为零,对吧?"
+ },
+ {
+  "seg": 201,
+  "start": 1127.215,
+  "end": 1132.297,
+  "speaker": "Unknown",
+  "en": "So maybe we miss out on some negotiations, but it's better than nothing.",
+  "zh": "所以也许我们会错过一些谈判,但这总比没有强。"
+ },
+ {
+  "seg": 202,
+  "start": 1132.537,
+  "end": 1141.64,
+  "speaker": "Unknown",
+  "en": "But still, we're talking about business relationships, and business relationships are not always about the cost and the money, right?",
+  "zh": "但话说回来,我们说的是业务关系,而业务关系并不总是关于成本和金钱的,对吧?"
+ },
+ {
+  "seg": 203,
+  "start": 1141.66,
+  "end": 1148.902,
+  "speaker": "Unknown",
+  "en": "So maybe you're not spending a lot on the vendor, but maybe you need this business relationship, right?",
+  "zh": "所以也许你在这个供应商身上没花多少钱,但你可能需要这种业务关系,对吧?"
+ },
+ {
+  "seg": 204,
+  "start": 1148.922,
+  "end": 1150.503,
+  "speaker": "Unknown",
+  "en": "So a good example might be like...",
+  "zh": "所以一个很好的例子可能是……"
+ },
+ {
+  "seg": 205,
+  "start": 1151.323,
+  "end": 1152.724,
+  "speaker": "Unknown",
+  "en": "Podcasts or marketing services.",
+  "zh": "播客或营销服务。"
+ },
+ {
+  "seg": 206,
+  "start": 1153.124,
+  "end": 1172.315,
+  "speaker": "Unknown",
+  "en": "Okay, that's like probably like a friction of the spend, but you don't want to, like you have a clear business relationship with someone like setting up the studio and you don't want like some random people doing that because they already know how ASICS and Z operates and how you want to record all this stuff.",
+  "zh": "好的,这大概就像是一笔有点摩擦的支出,但你不想……比如你和一个帮你搭建演播室的人有明确的业务关系,你不想让一些随便找来的人来做这件事,因为他们已经了解 ASICS 和 Z 是如何运作的,以及你想如何录制所有这些东西。"
+ },
+ {
+  "seg": 207,
+  "start": 1172.696,
+  "end": 1177.939,
+  "speaker": "Unknown",
+  "en": "So there we have human loop approaches where like",
+  "zh": "所以在那里我们有人工参与的方法,比如"
+ },
+ {
+  "seg": 208,
+  "start": 1179.099,
+  "end": 1184.341,
+  "speaker": "Unknown",
+  "en": "Procurement people care about the relationship, so they care about the voice of tone and how it works.",
+  "zh": "采购人员在意关系,所以他们在意语气语调以及整个合作是怎样的。"
+ },
+ {
+  "seg": 209,
+  "start": 1184.681,
+  "end": 1185.781,
+  "speaker": "Unknown",
+  "en": "But mostly autonomously.",
+  "zh": "但大部分是自主运行的。"
+ },
+ {
+  "seg": 210,
+  "start": 1186.361,
+  "end": 1190.982,
+  "speaker": "Unknown",
+  "en": "And then we have the other set of agents where we always have a human in the loop approach.",
+  "zh": "然后我们有另一类智能体,在那里我们始终采用人工在环的方式。"
+ },
+ {
+  "seg": 211,
+  "start": 1191.002,
+  "end": 1194.363,
+  "speaker": "Unknown",
+  "en": "And it's like, there are multiple steps in negotiating.",
+  "zh": "而且谈判中有多个步骤。"
+ },
+ {
+  "seg": 212,
+  "start": 1194.403,
+  "end": 1196.864,
+  "speaker": "Unknown",
+  "en": "It's also like, it's not only the price, right?",
+  "zh": "也不只是价格,对吧?"
+ },
+ {
+  "seg": 213,
+  "start": 1196.884,
+  "end": 1200.025,
+  "speaker": "Unknown",
+  "en": "It's also like, how is the contract designed?",
+  "zh": "还比如,合同是如何设计的?"
+ },
+ {
+  "seg": 214,
+  "start": 1200.045,
+  "end": 1201.025,
+  "speaker": "Unknown",
+  "en": "So we're talking about legal.",
+  "zh": "所以我们说的是法务。"
+ },
+ {
+  "seg": 215,
+  "start": 1201.465,
+  "end": 1202.746,
+  "speaker": "Unknown",
+  "en": "How is like...",
+  "zh": "还比如……"
+ },
+ {
+  "seg": 216,
+  "start": 1203.926,
+  "end": 1204.646,
+  "speaker": "Unknown",
+  "en": "Collection design.",
+  "zh": "集合设计。"
+ },
+ {
+  "seg": 217,
+  "start": 1204.666,
+  "end": 1207.828,
+  "speaker": "Unknown",
+  "en": "So we talk about finance, obviously like cost structure.",
+  "zh": "所以我们说的是财务,显然还有成本结构。"
+ },
+ {
+  "seg": 218,
+  "start": 1207.848,
+  "end": 1209.589,
+  "speaker": "Unknown",
+  "en": "So we're talking about really like cost engineering.",
+  "zh": "所以我们谈的其实是成本工程。"
+ },
+ {
+  "seg": 219,
+  "start": 1209.609,
+  "end": 1210.829,
+  "speaker": "Unknown",
+  "en": "Then we talk about commercials.",
+  "zh": "然后我们谈商务条款。"
+ },
+ {
+  "seg": 220,
+  "start": 1211.55,
+  "end": 1212.25,
+  "speaker": "Unknown",
+  "en": "That's procurement.",
+  "zh": "那是采购。"
+ },
+ {
+  "seg": 221,
+  "start": 1213.631,
+  "end": 1216.452,
+  "speaker": "Unknown",
+  "en": "And those are not back office people.",
+  "zh": "而且那些不是后台人员。"
+ },
+ {
+  "seg": 222,
+  "start": 1216.532,
+  "end": 1225.956,
+  "speaker": "Unknown",
+  "en": "Those are like highly trained people where they have very specific knowledge of a very specific process of a very specific company and very specific industry.",
+  "zh": "那些是受过高度训练的人,他们对非常具体的公司的非常具体的流程和非常具体的行业拥有非常专业的知识。"
+ },
+ {
+  "seg": 223,
+  "start": 1227.697,
+  "end": 1231.319,
+  "speaker": "Unknown",
+  "en": "And they feed those long running agents of Leo with those insights.",
+  "zh": "他们把这些洞察输入给 Leo 的那些长时间运行的智能体。"
+ },
+ {
+  "seg": 224,
+  "start": 1232.061,
+  "end": 1246.494,
+  "speaker": "Unknown",
+  "en": "That's another example of how procurement historically may have been more in a box, and now it's like, okay, it's touching legal, it's touching finance, and it's touching a bunch of different software systems and people and both specialists and more generalists.",
+  "zh": "这是另一个例子,说明采购在历史上可能更局限于一个框框里,而现在,它触及法务,触及财务,还触及一堆不同的软件系统、人员,既有专家也有更通才的人。"
+ },
+ {
+  "seg": 225,
+  "start": 1246.715,
+  "end": 1246.975,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 226,
+  "start": 1247.835,
+  "end": 1254.718,
+  "speaker": "Unknown",
+  "en": "Can we map this onto a specific, like, not a specific customer, but a specific vertical?",
+  "zh": "我们能不能把这个映射到一个具体的……不是具体某个客户,而是一个具体的垂直行业?"
+ },
+ {
+  "seg": 227,
+  "start": 1254.778,
+  "end": 1256.879,
+  "speaker": "Unknown",
+  "en": "Like, I'm a drone manufacturer.",
+  "zh": "比如,我是一个无人机制造商。"
+ },
+ {
+  "seg": 228,
+  "start": 1257.2,
+  "end": 1260.301,
+  "speaker": "Unknown",
+  "en": "I manufacture humanoid robotics or something like that.",
+  "zh": "我制造人形机器人之类的。"
+ },
+ {
+  "seg": 229,
+  "start": 1260.321,
+  "end": 1265.223,
+  "speaker": "Unknown",
+  "en": "Like, how many parts do I have to, you know, order and procure?",
+  "zh": "比如,我需要订购和采购多少个零部件?"
+ },
+ {
+  "seg": 230,
+  "start": 1265.303,
+  "end": 1267.064,
+  "speaker": "Unknown",
+  "en": "How many factories am I touching?",
+  "zh": "我要对接多少家工厂?"
+ },
+ {
+  "seg": 231,
+  "start": 1267.464,
+  "end": 1269.605,
+  "speaker": "Unknown",
+  "en": "How many suppliers am I touching?",
+  "zh": "我要对接多少家供应商?"
+ },
+ {
+  "seg": 232,
+  "start": 1269.665,
+  "end": 1271.406,
+  "speaker": "Unknown",
+  "en": "Just all of those things.",
+  "zh": "就是所有这些事情。"
+ },
+ {
+  "seg": 233,
+  "start": 1271.486,
+  "end": 1272.907,
+  "speaker": "Unknown",
+  "en": "If you want to pick maybe, Vlad.",
+  "zh": "如果你想挑一个的话,也许,Vlad。"
+ },
+ {
+  "seg": 234,
+  "start": 1273.747,
+  "end": 1283.338,
+  "speaker": "Unknown",
+  "en": "A vertical that, you know, is just managing all of this complexity with Leo and just kind of take us through what their experience is.",
+  "zh": "挑一个垂直行业,他们就是用 Leo 来管理所有这些复杂性,带我们走一遍他们的体验是什么样的。"
+ },
+ {
+  "seg": 235,
+  "start": 1283.398,
+  "end": 1288.925,
+  "speaker": "Unknown",
+  "en": "I think that would really help just illustrate exactly just everything that you touch.",
+  "zh": "我觉得这真的会帮助说明你们所触及的一切。"
+ },
+ {
+  "seg": 236,
+  "start": 1289.445,
+  "end": 1293.21,
+  "speaker": "Unknown",
+  "en": "Again, like when we as Leo, when we talk about procurement of purchases, like we",
+  "zh": "再说一次,比如我们作为 Leo,当我们谈论采购购买的时候,我们"
+ },
+ {
+  "seg": 237,
+  "start": 1294.603,
+  "end": 1297.507,
+  "speaker": "Unknown",
+  "en": "Don't talk about laptops and pencils.",
+  "zh": "不谈笔记本电脑和铅笔。"
+ },
+ {
+  "seg": 238,
+  "start": 1297.527,
+  "end": 1300.171,
+  "speaker": "Unknown",
+  "en": "We think that's solved also by Leo agents, but that's easy.",
+  "zh": "我们认为那也已经被 Leo 智能体解决了,但那很简单。"
+ },
+ {
+  "seg": 239,
+  "start": 1300.191,
+  "end": 1301.412,
+  "speaker": "Unknown",
+  "en": "We solved this three years ago.",
+  "zh": "我们三年前就解决了这个问题。"
+ },
+ {
+  "seg": 240,
+  "start": 1301.913,
+  "end": 1309.203,
+  "speaker": "Unknown",
+  "en": "We talk about when you want to build an aircraft or robots or drones, or even we're now doing a podcast about",
+  "zh": "我们说的是当你要造一架飞机、机器人或无人机,甚至我们现在正在做一期关于"
+ },
+ {
+  "seg": 241,
+  "start": 1310.004,
+  "end": 1312.586,
+  "speaker": "Unknown",
+  "en": "Again, like AI hype, but even AI needs to be built, right?",
+  "zh": "AI 炒作的播客,但 AI 本身也需要被建造出来,对吧?"
+ },
+ {
+  "seg": 242,
+  "start": 1312.606,
+  "end": 1314.388,
+  "speaker": "Unknown",
+  "en": "So you need data centers.",
+  "zh": "所以你需要数据中心。"
+ },
+ {
+  "seg": 243,
+  "start": 1314.948,
+  "end": 1317.51,
+  "speaker": "Unknown",
+  "en": "And like building means procuring.",
+  "zh": "而建造就意味着采购。"
+ },
+ {
+  "seg": 244,
+  "start": 1317.71,
+  "end": 1322.594,
+  "speaker": "Unknown",
+  "en": "Like someone needs to, like if you build an aircraft, you need to procure thousands of suppliers.",
+  "zh": "比如,如果你造一架飞机,你需要向成千上万家供应商采购。"
+ },
+ {
+  "seg": 245,
+  "start": 1322.794,
+  "end": 1325.316,
+  "speaker": "Unknown",
+  "en": "You need to build a factory to build this airplane.",
+  "zh": "你需要建一座工厂来造这架飞机。"
+ },
+ {
+  "seg": 246,
+  "start": 1326.898,
+  "end": 1328.919,
+  "speaker": "Unknown",
+  "en": "And like really small...",
+  "zh": "而且非常小的……"
+ },
+ {
+  "seg": 247,
+  "start": 1329.84,
+  "end": 1332.724,
+  "speaker": "Unknown",
+  "en": "Frictions can have like a crazy impact, right?",
+  "zh": "摩擦就可能产生疯狂的影响,对吧?"
+ },
+ {
+  "seg": 248,
+  "start": 1332.744,
+  "end": 1345.139,
+  "speaker": "Unknown",
+  "en": "So like there's a like if you're running a very large project of like building a data center or building an aircraft, if there's like one specific part which arrives two weeks later, this can have like a damage of like",
+  "zh": "比如,如果你在运营一个非常大的项目,比如建一个数据中心或造一架飞机,如果有某一个特定零部件晚到了两周,这可能造成高达"
+ },
+ {
+  "seg": 249,
+  "start": 1345.84,
+  "end": 1349.944,
+  "speaker": "Unknown",
+  "en": "Hundreds of millions of dollars and postpone the project.",
+  "zh": "数亿美元的损失,并推迟项目。"
+ },
+ {
+  "seg": 250,
+  "start": 1351.225,
+  "end": 1356.109,
+  "speaker": "Unknown",
+  "en": "So that's why all of those decisions have to be coordinated.",
+  "zh": "所以这就是为什么所有这些决策都必须被协调。"
+ },
+ {
+  "seg": 251,
+  "start": 1356.909,
+  "end": 1366.838,
+  "speaker": "Unknown",
+  "en": "And one part is you need to figure out what you need with what suppliers you work, what is the best supplier to get this part.",
+  "zh": "其中一部分是，你需要弄清楚你需要什么、你和哪些供应商合作，哪个是拿到这个部件的最佳供应商。"
+ },
+ {
+  "seg": 252,
+  "start": 1366.858,
+  "end": 1372.823,
+  "speaker": "Unknown",
+  "en": "But then once you've decided all of the stuff, there's all this operational back-office stuff behind it, which",
+  "zh": "但一旦你决定了所有这些事情，背后还有一大堆运营性的后台事务，"
+ },
+ {
+  "seg": 253,
+  "start": 1373.483,
+  "end": 1381.61,
+  "speaker": "Unknown",
+  "en": "Mine sound like unnecessary and boring, but again, like operational means someone sends a confirmation of like, hey, sorry, like this part is going to arrive two weeks later.",
+  "zh": "这些听起来像是不必要的、无聊的，但再说一次，运营意味着有人发送一封确认邮件，比如，嘿，抱歉，这个部件要晚两周到货。"
+ },
+ {
+  "seg": 254,
+  "start": 1382.251,
+  "end": 1388.176,
+  "speaker": "Unknown",
+  "en": "And this is like one of 500 emails in the Outlook or Gmail of a procurement manager.",
+  "zh": "而这只是采购经理的 Outlook 或 Gmail 里 500 封邮件中的一封。"
+ },
+ {
+  "seg": 255,
+  "start": 1388.276,
+  "end": 1391.559,
+  "speaker": "Unknown",
+  "en": "And if they missed this email, hundreds of millions of damage.",
+  "zh": "如果他们错过了这封邮件，就是数亿美元的损失。"
+ },
+ {
+  "seg": 256,
+  "start": 1392.279,
+  "end": 1392.92,
+  "speaker": "Unknown",
+  "en": "Done.",
+  "zh": "完了。"
+ },
+ {
+  "seg": 257,
+  "start": 1392.98,
+  "end": 1400.586,
+  "speaker": "Unknown",
+  "en": "And this happens regularly because the only thing they store in their system of record is then just the date, right?",
+  "zh": "而这种情况经常发生，因为他们在记录系统里存的唯一东西就只是一个日期，对吧？"
+ },
+ {
+  "seg": 258,
+  "start": 1401.925,
+  "end": 1404.747,
+  "speaker": "Unknown",
+  "en": "It will, like, not this Wednesday, next Wednesday.",
+  "zh": "是，比如，不是这周三，是下周三。"
+ },
+ {
+  "seg": 259,
+  "start": 1404.967,
+  "end": 1405.948,
+  "speaker": "Unknown",
+  "en": "That's what you see in the system.",
+  "zh": "这就是你在系统里看到的东西。"
+ },
+ {
+  "seg": 260,
+  "start": 1406.408,
+  "end": 1410.991,
+  "speaker": "Unknown",
+  "en": "But you don't see, like, maybe that's okay, but maybe that's the $100 million damage.",
+  "zh": "但你看不到，比如，也许这没关系，但也许那就是一亿美元的损失。"
+ },
+ {
+  "seg": 261,
+  "start": 1411.511,
+  "end": 1412.612,
+  "speaker": "Unknown",
+  "en": "And someone has to decide that.",
+  "zh": "而必须有人来做这个判断。"
+ },
+ {
+  "seg": 262,
+  "start": 1412.652,
+  "end": 1414.834,
+  "speaker": "Unknown",
+  "en": "And that's also what our agents are doing, right?",
+  "zh": "这也是我们的智能体在做的事情，对吧？"
+ },
+ {
+  "seg": 263,
+  "start": 1414.854,
+  "end": 1419.817,
+  "speaker": "Unknown",
+  "en": "They are not only retrieving the information, they are then making the decisions.",
+  "zh": "它们不仅仅是检索信息，它们随后还要做出决策。"
+ },
+ {
+  "seg": 264,
+  "start": 1420.257,
+  "end": 1421.678,
+  "speaker": "Unknown",
+  "en": "Like, does this have an impact?",
+  "zh": "比如，这是否有影响？"
+ },
+ {
+  "seg": 265,
+  "start": 1421.778,
+  "end": 1422.679,
+  "speaker": "Unknown",
+  "en": "What kind of impact?",
+  "zh": "什么样的影响？"
+ },
+ {
+  "seg": 266,
+  "start": 1423.219,
+  "end": 1424.18,
+  "speaker": "Unknown",
+  "en": "And how can we resolve this?",
+  "zh": "以及我们该如何解决这个问题？"
+ },
+ {
+  "seg": 267,
+  "start": 1424.62,
+  "end": 1426.362,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 268,
+  "start": 1426.863,
+  "end": 1437.816,
+  "speaker": "Unknown",
+  "en": "When you are sort of so deeply embedded in the physical world, what kinds of, you know, physical world problems can you intervene with?",
+  "zh": "当你如此深度地嵌入在物理世界中时，你能介入处理哪些物理世界的问题呢？"
+ },
+ {
+  "seg": 269,
+  "start": 1437.916,
+  "end": 1441.18,
+  "speaker": "Unknown",
+  "en": "Like, some things I would think are just, like, unsolvable.",
+  "zh": "比如，有些事情我会觉得就是，无解的。"
+ },
+ {
+  "seg": 270,
+  "start": 1441.38,
+  "end": 1450.306,
+  "speaker": "Unknown",
+  "en": "You know, like, let's say you have a shipment coming in and a bunch of stuff, like, falls off the ship or the street is closed or whatever.",
+  "zh": "你知道，比如，假设你有一批货要进来，一堆东西从船上掉下去了，或者道路封闭了之类的。"
+ },
+ {
+  "seg": 271,
+  "start": 1450.727,
+  "end": 1454.329,
+  "speaker": "Unknown",
+  "en": "Like, there are things that, like, you can't do.",
+  "zh": "比如，有些事情是你做不了的。"
+ },
+ {
+  "seg": 272,
+  "start": 1454.67,
+  "end": 1456.611,
+  "speaker": "Unknown",
+  "en": "And obviously, there are things that you can do.",
+  "zh": "而显然，也有一些事情是你能做的。"
+ },
+ {
+  "seg": 273,
+  "start": 1456.671,
+  "end": 1457.552,
+  "speaker": "Unknown",
+  "en": "So where...",
+  "zh": "那么在哪里……"
+ },
+ {
+  "seg": 274,
+  "start": 1458.672,
+  "end": 1462.214,
+  "speaker": "Unknown",
+  "en": "Where can you intervene and where does that really make a difference?",
+  "zh": "你们能在哪里介入，而那又在哪里真正带来差异？"
+ },
+ {
+  "seg": 275,
+  "start": 1462.974,
+  "end": 1464.835,
+  "speaker": "Unknown",
+  "en": "Actually, it's about probability.",
+  "zh": "其实这是关于概率的。"
+ },
+ {
+  "seg": 276,
+  "start": 1465.356,
+  "end": 1473.119,
+  "speaker": "Unknown",
+  "en": "Obviously, you can't change if there's damage on the ship.",
+  "zh": "显然，如果船上有损坏，你无法改变。"
+ },
+ {
+  "seg": 277,
+  "start": 1473.44,
+  "end": 1477.682,
+  "speaker": "Unknown",
+  "en": "Every example that you manage, you can't change that, but you can",
+  "zh": "每一个你举的例子，你都改变不了，但你可以——"
+ },
+ {
+  "seg": 278,
+  "start": 1478.602,
+  "end": 1488.15,
+  "speaker": "Unknown",
+  "en": "If you have like all of the context, you can predict that because you can predict like how reliable is a supplier.",
+  "zh": "如果你拥有所有的背景信息，你可以预测它，因为你可以预测比如一个供应商有多可靠。"
+ },
+ {
+  "seg": 279,
+  "start": 1488.966,
+  "end": 1492.209,
+  "speaker": "Unknown",
+  "en": "Okay, so they're like there are ways on like protect the goods that you're shipping.",
+  "zh": "好的，所以比如有一些方法可以保护你运输的货物。"
+ },
+ {
+  "seg": 280,
+  "start": 1492.849,
+  "end": 1500.636,
+  "speaker": "Unknown",
+  "en": "And if you have like all the context, you have like one supplier where like 20% of the goods are missing and then 1% of the good is missing.",
+  "zh": "如果你拥有所有背景信息，你有一个供应商，比如 20% 的货物会缺失，而另一个只有 1% 的货物缺失。"
+ },
+ {
+  "seg": 281,
+  "start": 1501.537,
+  "end": 1505.3,
+  "speaker": "Unknown",
+  "en": "And maybe like this one with 20% is like 10x cheaper.",
+  "zh": "显然，比如今天我们有不同的概率集合，但我们可以在整个流程中提供帮助。"
+ },
+ {
+  "seg": 282,
+  "start": 1505.56,
+  "end": 1512.866,
+  "speaker": "Unknown",
+  "en": "But for this use case, it's fine for you to pay 10x the amount because you have like a higher probability that this thing actually arrives.",
+  "zh": "但对于这个用例来说，你付 10 倍的钱是值得的，因为这批货实际到达的概率更高。"
+ },
+ {
+  "seg": 283,
+  "start": 1513.386,
+  "end": 1516.969,
+  "speaker": "Unknown",
+  "en": "So and this is the powerful thing because you have like context not only",
+  "zh": "所以这就是强大之处，因为你拥有的背景信息不仅仅"
+ },
+ {
+  "seg": 284,
+  "start": 1517.75,
+  "end": 1520.031,
+  "speaker": "Unknown",
+  "en": "within one enterprise.",
+  "zh": "局限于一家企业内部。"
+ },
+ {
+  "seg": 285,
+  "start": 1520.131,
+  "end": 1525.012,
+  "speaker": "Unknown",
+  "en": "So we, like, we talked about, like, multiple stakeholders, but there's also context on the outside world, right?",
+  "zh": "我们谈过多方利益相关者，但外部世界也有背景信息，对吧？"
+ },
+ {
+  "seg": 286,
+  "start": 1525.052,
+  "end": 1529.213,
+  "speaker": "Unknown",
+  "en": "So just the agent should, like, have context of all the news out there.",
+  "zh": "所以智能体应该，比如，掌握外面所有新闻的背景信息。"
+ },
+ {
+  "seg": 287,
+  "start": 1530.333,
+  "end": 1536.315,
+  "speaker": "Unknown",
+  "en": "Maybe even having, like, context of, like, some bad sale, like, on Polymarket, of, like, okay, those disruptions are going to happen.",
+  "zh": "甚至可能掌握比如 Polymarket 上的一些不良交易信息，比如，好的，那些中断即将发生。"
+ },
+ {
+  "seg": 288,
+  "start": 1537.535,
+  "end": 1542.957,
+  "speaker": "Unknown",
+  "en": "Then, like, information about, like, on the supplier side, on the seller side, on the demand side.",
+  "zh": "然后，比如关于供应商侧、卖方侧、需求侧的信息。"
+ },
+ {
+  "seg": 289,
+  "start": 1543.477,
+  "end": 1545.118,
+  "speaker": "Unknown",
+  "en": "And by combining all of those contexts,",
+  "zh": "通过把所有这些背景信息结合起来，"
+ },
+ {
+  "seg": 290,
+  "start": 1546.758,
+  "end": 1550.559,
+  "speaker": "Unknown",
+  "en": "I wouldn't say that there is a limitation in the long, in the long run.",
+  "zh": "我不会说从长远来看存在限制。"
+ },
+ {
+  "seg": 291,
+  "start": 1550.699,
+  "end": 1557.94,
+  "speaker": "Unknown",
+  "en": "Obviously, like today we have like different sets of like probability, but we can, we can help throughout the process.",
+  "zh": "显然，今天我们有不同的概率集合，但我们可以在整个过程中提供帮助。"
+ },
+ {
+  "seg": 292,
+  "start": 1557.98,
+  "end": 1560.501,
+  "speaker": "Unknown",
+  "en": "And this is what we are building, building at Leo, right?",
+  "zh": "而这就是我们在 Leo 构建的东西，对吧？"
+ },
+ {
+  "seg": 293,
+  "start": 1560.521,
+  "end": 1564.801,
+  "speaker": "Unknown",
+  "en": "So it's much bigger than just procurement into a company.",
+  "zh": "所以它比企业内部仅仅做采购要大得多。"
+ },
+ {
+  "seg": 294,
+  "start": 1564.821,
+  "end": 1571.023,
+  "speaker": "Unknown",
+  "en": "It's more like intra-company and like how, how are like businesses, like how enterprises are doing business with each other.",
+  "zh": "它更像是企业内部以及企业之间，企业彼此之间如何做生意。"
+ },
+ {
+  "seg": 295,
+  "start": 1571.043,
+  "end": 1572.503,
+  "speaker": "Unknown",
+  "en": "So like buyer and supplier side.",
+  "zh": "就是买方侧和供应商侧。"
+ },
+ {
+  "seg": 296,
+  "start": 1572.996,
+  "end": 1576.217,
+  "speaker": "Unknown",
+  "en": "You described Leo as a multi-agent system.",
+  "zh": "你把 Leo 描述成一个多智能体系统。"
+ },
+ {
+  "seg": 297,
+  "start": 1576.817,
+  "end": 1581.679,
+  "speaker": "Unknown",
+  "en": "So can you describe what the different agents are doing?",
+  "zh": "那你能描述一下不同的智能体在做什么吗？"
+ },
+ {
+  "seg": 298,
+  "start": 1581.899,
+  "end": 1589.962,
+  "speaker": "Unknown",
+  "en": "One level is that we, that Leo agents spend across like all those four categories that Seema mentioned in her article.",
+  "zh": "一个层面上是，Leo 的智能体分布在 Seema 在她文章中提到的那四个类别里。"
+ },
+ {
+  "seg": 299,
+  "start": 1592.143,
+  "end": 1595.405,
+  "speaker": "Unknown",
+  "en": "It again like depends on the risk and the complexity.",
+  "zh": "这again取决于风险和复杂度。"
+ },
+ {
+  "seg": 300,
+  "start": 1596.666,
+  "end": 1597.587,
+  "speaker": "Unknown",
+  "en": "So we use like all of them.",
+  "zh": "所以我们基本上把这些全都用上了。"
+ },
+ {
+  "seg": 301,
+  "start": 1597.607,
+  "end": 1598.767,
+  "speaker": "Unknown",
+  "en": "So like multiple agents.",
+  "zh": "也就是多个智能体。"
+ },
+ {
+  "seg": 302,
+  "start": 1599.788,
+  "end": 1608.013,
+  "speaker": "Unknown",
+  "en": "But the other thing is that like in order to do a job end to end, those agents need to share information with each other.",
+  "zh": "但另一件事是，要端到端地完成一项工作，这些智能体需要彼此共享信息。"
+ },
+ {
+  "seg": 303,
+  "start": 1608.113,
+  "end": 1611.676,
+  "speaker": "Unknown",
+  "en": "They need to do this in like a very specific order.",
+  "zh": "它们需要以非常特定的顺序来做这件事。"
+ },
+ {
+  "seg": 304,
+  "start": 1613.277,
+  "end": 1618.02,
+  "speaker": "Unknown",
+  "en": "And when we talk about like a multi-agent system, this is essentially what we are doing.",
+  "zh": "当我们谈论多智能体系统时，这基本上就是我们正在做的事。"
+ },
+ {
+  "seg": 305,
+  "start": 1618.04,
+  "end": 1619.721,
+  "speaker": "Unknown",
+  "en": "We are solving like the tasks end to end.",
+  "zh": "我们在端到端地解决任务。"
+ },
+ {
+  "seg": 306,
+  "start": 1620.201,
+  "end": 1620.841,
+  "speaker": "Unknown",
+  "en": "And because the",
+  "zh": "而且因为"
+ },
+ {
+  "seg": 307,
+  "start": 1621.802,
+  "end": 1630.887,
+  "speaker": "Unknown",
+  "en": "Also like human level task involves eight people, eight stakeholders and maybe like three departments and five different software tools.",
+  "zh": "人类级别的任务还涉及八个人、八个利益相关方、大概三个部门和五种不同的软件工具。"
+ },
+ {
+  "seg": 308,
+  "start": 1632.128,
+  "end": 1641.072,
+  "speaker": "Unknown",
+  "en": "We need to cover like all of those to do like the job end to end and those agents need to then communicate with each other and only with a multi-agent system you can do a job end to end.",
+  "zh": "我们需要覆盖所有这些，才能端到端地完成工作，而那些智能体需要彼此沟通，只有多智能体系统才能端到端地完成一项工作。"
+ },
+ {
+  "seg": 309,
+  "start": 1641.232,
+  "end": 1649.517,
+  "speaker": "Unknown",
+  "en": "When we started out, we like started off with like a retrieval, like more like a co-pilot obviously like three years ago, but then the next step was like a single agent.",
+  "zh": "我们刚开始的时候，大概三年前，显然是从检索开始，更像一个副驾驶，但下一步是单个智能体。"
+ },
+ {
+  "seg": 310,
+  "start": 1649.977,
+  "end": 1667.41,
+  "speaker": "Unknown",
+  "en": "But then we very quickly discovered, okay, like that's like you can't solve and you can't solve in like negotiation even without having a contract agent, without maybe like having an agent looking at the news and everything that I described before.",
+  "zh": "但我们很快发现，好吧，那样你解决不了，在谈判中你甚至无法在没有合同智能体的情况下解决，没有智能体去看新闻以及我之前描述的所有那些事情。"
+ },
+ {
+  "seg": 311,
+  "start": 1667.47,
+  "end": 1670.092,
+  "speaker": "Unknown",
+  "en": "So that's what, yeah, that's what we define as a multi-agent system.",
+  "zh": "所以，是的，这就是我们定义的多智能体系统。"
+ },
+ {
+  "seg": 312,
+  "start": 1670.112,
+  "end": 1677.678,
+  "speaker": "Unknown",
+  "en": "So if you have like a bolt, like an airline company needs to procure a bolt for, say, you know, Boeing needs to procure a bolt.",
+  "zh": "所以如果你有一个螺栓，比如一家航空公司需要采购一个螺栓，波音需要采购一个螺栓。"
+ },
+ {
+  "seg": 313,
+  "start": 1678.262,
+  "end": 1684.925,
+  "speaker": "Unknown",
+  "en": "What exactly is that process for procuring the Bolt and like where does Leo step in on that process?",
+  "zh": "采购这个螺栓的具体流程是什么，Leo 在这个流程中从哪里介入？"
+ },
+ {
+  "seg": 314,
+  "start": 1685.945,
+  "end": 1696.67,
+  "speaker": "Unknown",
+  "en": "Yeah, so like this is like one of the purchases that we can like run fully autonomously and we can do this because of this multi-agent system.",
+  "zh": "是的，这是我们能够完全自主运行完成的采购之一，我们能做到这一点正是因为这个多智能体系统。"
+ },
+ {
+  "seg": 315,
+  "start": 1696.69,
+  "end": 1699.111,
+  "speaker": "Unknown",
+  "en": "So like first of all, someone has a demand, right?",
+  "zh": "所以首先，有人有需求，对吧？"
+ },
+ {
+  "seg": 316,
+  "start": 1699.131,
+  "end": 1699.692,
+  "speaker": "Unknown",
+  "en": "So they need to",
+  "zh": "他们需要"
+ },
+ {
+  "seg": 317,
+  "start": 1701.542,
+  "end": 1702.543,
+  "speaker": "Unknown",
+  "en": "Somehow communicated.",
+  "zh": "以某种方式传达出来。"
+ },
+ {
+  "seg": 318,
+  "start": 1702.923,
+  "end": 1705.246,
+  "speaker": "Unknown",
+  "en": "And even like this part is extremely complicated.",
+  "zh": "而且连这一部分都极其复杂。"
+ },
+ {
+  "seg": 319,
+  "start": 1706.227,
+  "end": 1712.895,
+  "speaker": "Unknown",
+  "en": "So you need to call someone maybe you like you like you open up your laptop because you're like a construction worker you open up your laptop only",
+  "zh": "你可能需要打电话给某个人，或者你打开笔记本电脑，因为你是个建筑工人，你只是"
+ },
+ {
+  "seg": 320,
+  "start": 1713.892,
+  "end": 1714.612,
+  "speaker": "Unknown",
+  "en": "Every second week.",
+  "zh": "每两周才打开一次笔记本电脑。"
+ },
+ {
+  "seg": 321,
+  "start": 1715.273,
+  "end": 1720.175,
+  "speaker": "Unknown",
+  "en": "And now you are required to work with SAP or any other ERP system.",
+  "zh": "而现在你被要求使用 SAP 或其他任何 ERP 系统。"
+ },
+ {
+  "seg": 322,
+  "start": 1720.635,
+  "end": 1722.255,
+  "speaker": "Unknown",
+  "en": "So you can't even issue the demand.",
+  "zh": "所以你甚至无法提交这个需求。"
+ },
+ {
+  "seg": 323,
+  "start": 1722.555,
+  "end": 1724.216,
+  "speaker": "Unknown",
+  "en": "So this is how we make it very easy.",
+  "zh": "这就是我们把它变得非常简单的地方。"
+ },
+ {
+  "seg": 324,
+  "start": 1724.256,
+  "end": 1731.139,
+  "speaker": "Unknown",
+  "en": "So you take a photo, you upload a quote, an Excel sheet, and it's actually everything that you",
+  "zh": "你拍张照片，上传一份报价单、一个 Excel 表格，而这实际上就是"
+ },
+ {
+  "seg": 325,
+  "start": 1732.262,
+  "end": 1733.443,
+  "speaker": "Unknown",
+  "en": "That you should know about procurement.",
+  "zh": "关于采购你应该知道的全部。"
+ },
+ {
+  "seg": 326,
+  "start": 1733.463,
+  "end": 1739.127,
+  "speaker": "Unknown",
+  "en": "Like no one cares outside of the procurement department about like categories, GL accounts, framework contracts, no one cares.",
+  "zh": "在采购部门之外，没人在乎什么品类、总账科目、框架合同，没人在乎。"
+ },
+ {
+  "seg": 327,
+  "start": 1740.328,
+  "end": 1742.329,
+  "speaker": "Unknown",
+  "en": "We in the procurement world care, but no one outside that cares.",
+  "zh": "我们在采购这个行当里的人在乎，但外面的没人在乎。"
+ },
+ {
+  "seg": 328,
+  "start": 1742.809,
+  "end": 1745.451,
+  "speaker": "Unknown",
+  "en": "And then our agents take off and they're like, they check the inventory.",
+  "zh": "然后我们的智能体就启动了，它们检查库存。"
+ },
+ {
+  "seg": 329,
+  "start": 1746.012,
+  "end": 1748.153,
+  "speaker": "Unknown",
+  "en": "They find out, okay, they ask another plant.",
+  "zh": "它们查明情况，好吧，它们去问另一个工厂。"
+ },
+ {
+  "seg": 330,
+  "start": 1748.213,
+  "end": 1751.936,
+  "speaker": "Unknown",
+  "en": "Okay, can we source those bolts internally?",
+  "zh": "好吧，我们能在内部采购这些螺栓吗？"
+ },
+ {
+  "seg": 331,
+  "start": 1752.136,
+  "end": 1752.336,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不能。"
+ },
+ {
+  "seg": 332,
+  "start": 1752.416,
+  "end": 1753.597,
+  "speaker": "Unknown",
+  "en": "Okay, then I'm calling the...",
+  "zh": "好吧，那我去找……"
+ },
+ {
+  "seg": 333,
+  "start": 1754.337,
+  "end": 1758.081,
+  "speaker": "Unknown",
+  "en": "I'm talking to the sourcing agent, finding out, do we have internal suppliers?",
+  "zh": "我去和寻源智能体沟通，查明我们有没有内部供应商？"
+ },
+ {
+  "seg": 334,
+  "start": 1758.101,
+  "end": 1759.323,
+  "speaker": "Unknown",
+  "en": "Do we have external suppliers?",
+  "zh": "我们有没有外部供应商？"
+ },
+ {
+  "seg": 335,
+  "start": 1759.783,
+  "end": 1765.95,
+  "speaker": "Unknown",
+  "en": "Then another agent has to draft the RFQ, send out the RFQ over email.",
+  "zh": "然后另一个智能体起草询价单（RFQ），通过邮件把询价单发出去。"
+ },
+ {
+  "seg": 336,
+  "start": 1766.31,
+  "end": 1767.791,
+  "speaker": "Unknown",
+  "en": "Then a bunch of emails arrive.",
+  "zh": "然后一堆邮件到了。"
+ },
+ {
+  "seg": 337,
+  "start": 1767.972,
+  "end": 1768.752,
+  "speaker": "Unknown",
+  "en": "Some of them are...",
+  "zh": "其中有些是……"
+ },
+ {
+  "seg": 338,
+  "start": 1769.587,
+  "end": 1770.488,
+  "speaker": "Unknown",
+  "en": "Like completely nonsense.",
+  "zh": "完全是胡说八道。"
+ },
+ {
+  "seg": 339,
+  "start": 1770.508,
+  "end": 1772.209,
+  "speaker": "Unknown",
+  "en": "Some of them are like just in the email.",
+  "zh": "有些内容就在邮件里。"
+ },
+ {
+  "seg": 340,
+  "start": 1772.229,
+  "end": 1773.09,
+  "speaker": "Unknown",
+  "en": "Some of them are PDF.",
+  "zh": "有些是 PDF。"
+ },
+ {
+  "seg": 341,
+  "start": 1773.11,
+  "end": 1774.111,
+  "speaker": "Unknown",
+  "en": "Some of them are Excel sheets.",
+  "zh": "有些是 Excel 表格。"
+ },
+ {
+  "seg": 342,
+  "start": 1774.191,
+  "end": 1776.233,
+  "speaker": "Unknown",
+  "en": "We retrieve those informations.",
+  "zh": "我们把这些信息提取出来。"
+ },
+ {
+  "seg": 343,
+  "start": 1776.794,
+  "end": 1782.939,
+  "speaker": "Unknown",
+  "en": "Then we do like the next step or maybe like based on our price benchmarking, there's an opportunity to negotiate.",
+  "zh": "然后我们进行下一步，或者也许根据我们的价格基准分析，存在谈判的机会。"
+ },
+ {
+  "seg": 344,
+  "start": 1783.94,
+  "end": 1787.663,
+  "speaker": "Unknown",
+  "en": "And then, then we have like agents that essentially decide on the next step.",
+  "zh": "然后我们有智能体来决定下一步怎么做。"
+ },
+ {
+  "seg": 345,
+  "start": 1787.703,
+  "end": 1791.687,
+  "speaker": "Unknown",
+  "en": "So negotiation could mean strategic negotiation with a human loop.",
+  "zh": "所以谈判可能意味着有人工环节的战略谈判。"
+ },
+ {
+  "seg": 346,
+  "start": 1792.047,
+  "end": 1793.609,
+  "speaker": "Unknown",
+  "en": "This could mean autonomous negotiation.",
+  "zh": "也可能意味着自主谈判。"
+ },
+ {
+  "seg": 347,
+  "start": 1793.629,
+  "end": 1795.571,
+  "speaker": "Unknown",
+  "en": "This could mean auctions and e-auctions.",
+  "zh": "也可能意味着拍卖和电子拍卖。"
+ },
+ {
+  "seg": 348,
+  "start": 1796.131,
+  "end": 1798.532,
+  "speaker": "Unknown",
+  "en": "Calling them the specific agent, doing the negotiation.",
+  "zh": "调用特定的智能体来进行谈判。"
+ },
+ {
+  "seg": 349,
+  "start": 1799.352,
+  "end": 1805.434,
+  "speaker": "Unknown",
+  "en": "And then doing this end-to-end thing about confirming the order, shipment tracking, invoices.",
+  "zh": "然后做这个端到端的事情：确认订单、货运跟踪、发票。"
+ },
+ {
+  "seg": 350,
+  "start": 1806.574,
+  "end": 1810.675,
+  "speaker": "Unknown",
+  "en": "And we are able to run this fully autonomously, capture all the context.",
+  "zh": "而且我们能够让这个完全自主地运行，捕获所有的上下文。"
+ },
+ {
+  "seg": 351,
+  "start": 1812.736,
+  "end": 1824.739,
+  "speaker": "Unknown",
+  "en": "And then obviously the next powerful thing is do this for more complex parts where we talk about direct procurement where we also operate.",
+  "zh": "然后显然下一个强大的事情是对更复杂的部分做这件事，比如我们所说的直接采购，我们也在运营这个领域。"
+ },
+ {
+  "seg": 352,
+  "start": 1825.77,
+  "end": 1827.792,
+  "speaker": "Unknown",
+  "en": "What's direct procurement?",
+  "zh": "什么是什么是直接采购?"
+ },
+ {
+  "seg": 353,
+  "start": 1828.913,
+  "end": 1836.178,
+  "speaker": "Unknown",
+  "en": "Yeah, so like, essentially everything I just described is, the main goal is here, automation, right?",
+  "zh": "是的，就像，本质上我刚才描述的一切，主要目标就是，自动化，对吧?"
+ },
+ {
+  "seg": 354,
+  "start": 1836.579,
+  "end": 1841.603,
+  "speaker": "Unknown",
+  "en": "So you can like run this process fully autonomously and then throughout the process you can like generate even more savings, right?",
+  "zh": "所以你可以让这个流程完全自主地运行，然后在整个流程中你还可以产生更多的节省，对吧?"
+ },
+ {
+  "seg": 355,
+  "start": 1841.623,
+  "end": 1845.185,
+  "speaker": "Unknown",
+  "en": "So it's not like, so we look at it's like, okay, what is like this?",
+  "zh": "所以不是那样的，所以我们看它是这样的，好，这像是什么?"
+ },
+ {
+  "seg": 356,
+  "start": 1846.25,
+  "end": 1848.792,
+  "speaker": "Unknown",
+  "en": "Like, job to be done, how does it look like?",
+  "zh": "比如，要完成的工作(job to be done)是什么样的?"
+ },
+ {
+  "seg": 357,
+  "start": 1848.832,
+  "end": 1852.915,
+  "speaker": "Unknown",
+  "en": "So, like, what are they doing, like, thousand times a day, but actually they want to do it, like, zero times a day?",
+  "zh": "比如，他们在做什么，比如，一天做一千次，但实际上他们想一天做，比如，零次?"
+ },
+ {
+  "seg": 358,
+  "start": 1853.356,
+  "end": 1863.964,
+  "speaker": "Unknown",
+  "en": "We've, like, run, like, fully autonomous agents, but there's, like, also opportunities of, like, what are they doing zero times a day, but if a business would do this thousand times a day, that would have a crazy P&L impact.",
+  "zh": "我们已经，比如，运行了，比如，完全自主的智能体，但也有这样的机会，比如，什么是他们一天做零次，但如果一个企业一天做一千次，那会带来惊人的损表(P&L)影响的事情。"
+ },
+ {
+  "seg": 359,
+  "start": 1864.825,
+  "end": 1868.647,
+  "speaker": "Unknown",
+  "en": "Autonomous negotiations on spend they never negotiated before.",
+  "zh": "在他们从未谈判过的支出上进行自主谈判。"
+ },
+ {
+  "seg": 360,
+  "start": 1870.188,
+  "end": 1886.176,
+  "speaker": "Unknown",
+  "en": "So this is like in the indirect procurement part, like think about MRO parts, building a factory, the bold example that we did, but also laptops and pencils, marketing services, someone who needs to build up this podcast studio, those are like all indirect.",
+  "zh": "这是在间接采购部分，比如想想 MRO 零件、建造工厂，我们做过的那个大胆的例子，但也包括笔记本电脑和铅笔、营销服务、某个需要搭建这个播客工作室的人，这些都是间接的。"
+ },
+ {
+  "seg": 361,
+  "start": 1886.216,
+  "end": 1887.537,
+  "speaker": "Unknown",
+  "en": "And then we have like direct parts.",
+  "zh": "然后我们还有直接的部分。"
+ },
+ {
+  "seg": 362,
+  "start": 1888.518,
+  "end": 1892.259,
+  "speaker": "Unknown",
+  "en": "This is like when you build an airplane, those are like all these suppliers that actually",
+  "zh": "这就像当你造一架飞机，那些是所有这些供应商，实际上"
+ },
+ {
+  "seg": 363,
+  "start": 1894.081,
+  "end": 1898.645,
+  "speaker": "Unknown",
+  "en": "That you actually need to build the airplane or to build the drone or to build the robot.",
+  "zh": "你真正需要他们来造飞机，或者造无人机，或者造机器人。"
+ },
+ {
+  "seg": 364,
+  "start": 1899.425,
+  "end": 1902.528,
+  "speaker": "Unknown",
+  "en": "And then we don't talk about 50,000 suppliers.",
+  "zh": "然后我们不是在谈 50,000 家供应商。"
+ },
+ {
+  "seg": 365,
+  "start": 1902.568,
+  "end": 1907.392,
+  "speaker": "Unknown",
+  "en": "We talk about 100 suppliers or 2,000 suppliers maximum.",
+  "zh": "我们谈的是 100 家供应商，或者最多 2,000 家供应商。"
+ },
+ {
+  "seg": 366,
+  "start": 1907.592,
+  "end": 1910.095,
+  "speaker": "Unknown",
+  "en": "And those are like extremely strategically important.",
+  "zh": "而且这些是极其具有战略重要性的。"
+ },
+ {
+  "seg": 367,
+  "start": 1910.935,
+  "end": 1912.597,
+  "speaker": "Unknown",
+  "en": "And you have maybe on one supplier...",
+  "zh": "也许你在一家供应商身上……"
+ },
+ {
+  "seg": 368,
+  "start": 1913.713,
+  "end": 1915.034,
+  "speaker": "Unknown",
+  "en": "Like one billion of spent.",
+  "zh": "比如十亿美元的支出。"
+ },
+ {
+  "seg": 369,
+  "start": 1915.654,
+  "end": 1917.415,
+  "speaker": "Unknown",
+  "en": "So you don't want to run an autonomous negotiation.",
+  "zh": "所以你不会想运行一场自主谈判。"
+ },
+ {
+  "seg": 370,
+  "start": 1917.535,
+  "end": 1927.559,
+  "speaker": "Unknown",
+  "en": "You want to run a negotiation which takes three months and where you're like crazy prepared and where you have engineers on your team analyzing, okay, what's the industry for aluminum?",
+  "zh": "你想运行的是一场耗时三个月的谈判，你做了疯狂充分的准备，你的团队里有工程师在分析，好，铝的行业情况是什么?"
+ },
+ {
+  "seg": 371,
+  "start": 1927.679,
+  "end": 1929.14,
+  "speaker": "Unknown",
+  "en": "What's the industry for oil?",
+  "zh": "石油的行业情况是什么?"
+ },
+ {
+  "seg": 372,
+  "start": 1929.84,
+  "end": 1931.261,
+  "speaker": "Unknown",
+  "en": "How did the price change?",
+  "zh": "价格是怎么变化的?"
+ },
+ {
+  "seg": 373,
+  "start": 1931.981,
+  "end": 1936.903,
+  "speaker": "Unknown",
+  "en": "So you like really take over like all of those drawings, you check the quality of this part.",
+  "zh": "所以你真的会接管所有那些图纸，你检查这个零件的质量。 [[3574→374]] 而这就是部署智能体变得真正令人兴奋的地方。"
+ },
+ {
+  "seg": 374,
+  "start": 1936.923,
+  "end": 1941.886,
+  "speaker": "Unknown",
+  "en": "And this is what like where it gets like really exciting deploying agents.",
+  "zh": "这就是部署智能体真正令人兴奋的地方。"
+ },
+ {
+  "seg": 375,
+  "start": 1942.693,
+  "end": 1954.278,
+  "speaker": "Unknown",
+  "en": "Yeah, and for something like that, presumably, like, you'd have the expert engineers and the other procurement people kind of more as the front of house and, like, the agent is more back of house.",
+  "zh": "是的，对于那样的事情，大概，比如，你会让那些专家工程师和其他采购人员更像是前台，而，比如，智能体更像是后台。"
+ },
+ {
+  "seg": 376,
+  "start": 1954.358,
+  "end": 1955.099,
+  "speaker": "Unknown",
+  "en": "Is that the idea?",
+  "zh": "是这个想法吗?"
+ },
+ {
+  "seg": 377,
+  "start": 1955.199,
+  "end": 1963.823,
+  "speaker": "Unknown",
+  "en": "Or is the agent, like, actually, it's like you sit across the table and you're shaking hands and it's, like, the robot instead of the human who's, like, negotiating.",
+  "zh": "还是说智能体，比如，实际上，就像你坐在桌子对面握手，是机器人而不是人类在，比如，谈判。"
+ },
+ {
+  "seg": 378,
+  "start": 1963.963,
+  "end": 1969.205,
+  "speaker": "Unknown",
+  "en": "Like, so, yeah, is it more back of house or is it, like, still front of house?",
+  "zh": "比如，所以，是的，它更多是后台，还是，比如，仍然是前台?"
+ },
+ {
+  "seg": 379,
+  "start": 1970.166,
+  "end": 1971.769,
+  "speaker": "Unknown",
+  "en": "It's obviously more back-off, right?",
+  "zh": "它显然更多是后台，对吧?"
+ },
+ {
+  "seg": 380,
+  "start": 1971.809,
+  "end": 1972.109,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 381,
+  "start": 1972.47,
+  "end": 1976.175,
+  "speaker": "Unknown",
+  "en": "Because you need these complex multi-million dollar negotiations.",
+  "zh": "因为你需要这些复杂的数百万美元的谈判。"
+ },
+ {
+  "seg": 382,
+  "start": 1976.977,
+  "end": 1979.821,
+  "speaker": "Unknown",
+  "en": "And that's, again, a beautiful example.",
+  "zh": "这又是一个漂亮的例子。"
+ },
+ {
+  "seg": 383,
+  "start": 1979.841,
+  "end": 1981.183,
+  "speaker": "Unknown",
+  "en": "90% of the work is preparation.",
+  "zh": "90% 的工作是准备。"
+ },
+ {
+  "seg": 384,
+  "start": 1981.804,
+  "end": 1984.087,
+  "speaker": "Unknown",
+  "en": "The end result that you see in your system of record is like,",
+  "zh": "你在记录系统(system of record)里看到的最终结果就像是，"
+ },
+ {
+  "seg": 385,
+  "start": 1984.628,
+  "end": 1987.871,
+  "speaker": "Unknown",
+  "en": "Oh, instead of like 1 billion, I paid 900 million dollars.",
+  "zh": "哦，不是，比如，十亿，我支付了九亿美元。"
+ },
+ {
+  "seg": 386,
+  "start": 1988.391,
+  "end": 1993.856,
+  "speaker": "Unknown",
+  "en": "Okay, but like there's like three months of preparation and like 10 people working full-time on that.",
+  "zh": "好的，但比如这里有三个月的准备，比如 10 个人全职在做这件事。"
+ },
+ {
+  "seg": 387,
+  "start": 1994.797,
+  "end": 1999.721,
+  "speaker": "Unknown",
+  "en": "And obviously this is like happening in the back, but actually we have some use cases where",
+  "zh": "而显然这是在后台发生的，但实际上我们有一些用例，"
+ },
+ {
+  "seg": 388,
+  "start": 2001.303,
+  "end": 2003.927,
+  "speaker": "Unknown",
+  "en": "It's also like helping in real time.",
+  "zh": "它也在，比如，实时提供帮助。"
+ },
+ {
+  "seg": 389,
+  "start": 2003.947,
+  "end": 2012.38,
+  "speaker": "Unknown",
+  "en": "So think about, let's assume we would now have a negotiation and I have like a perfect preparation, the same as like with those notes that we are having here.",
+  "zh": "所以想想，假设我们现在有一场谈判，我有一个完美的准备，就像我们在这里准备的那些笔记一样。"
+ },
+ {
+  "seg": 390,
+  "start": 2016.292,
+  "end": 2034.885,
+  "speaker": "Unknown",
+  "en": "Imagine, like, while we are negotiating, I would have, like, real-time insights on my screen popping up, where you tell me the indices for oil changed 10%, so, like, it's increased by 10%, so that's why we need to increase the prices by 10%, and I would have, like, an initial, like, an immediate pop-up of, like,",
+  "zh": "想象一下，比如，当我们谈判的时候，我的屏幕上会有，比如，实时的洞察弹出，告诉你石油指数变了 10%,所以，比如，它上涨了 10%,所以这就是为什么我们需要把价格提高 10%,而我会有，比如，一个立即的弹出，比如，"
+ },
+ {
+  "seg": 391,
+  "start": 2035.505,
+  "end": 2042.593,
+  "speaker": "Unknown",
+  "en": "It's true, like oil increased by 10%, but the product has only 30% of oil contained.",
+  "zh": "没错，比如，石油上涨了 10%,但这个产品只含有 30% 的石油成分。"
+ },
+ {
+  "seg": 392,
+  "start": 2042.613,
+  "end": 2046.317,
+  "speaker": "Unknown",
+  "en": "So like you shouldn't increase the price by 10%, but maybe only by 4%.",
+  "zh": "所以，比如，你不应该把价格提高 10%,而也许只提高 4%。"
+ },
+ {
+  "seg": 393,
+  "start": 2046.457,
+  "end": 2052.684,
+  "speaker": "Unknown",
+  "en": "So yeah, there are like exciting use cases also like in the real life part.",
+  "zh": "所以是的，在现实生活的部分也有，比如，令人兴奋的用例。"
+ },
+ {
+  "seg": 394,
+  "start": 2053.171,
+  "end": 2059.597,
+  "speaker": "Unknown",
+  "en": "Yeah, we know that, you know, companies like Harvey and Decagon are really fine-tuning models now.",
+  "zh": "是的，我们知道，你知道，像 Harvey 和 Decagon 这样的公司现在真的在微调模型。"
+ },
+ {
+  "seg": 395,
+  "start": 2061.258,
+  "end": 2067.684,
+  "speaker": "Unknown",
+  "en": "What kind of underlying models do you use and how do you approach things like fine-tuning or harnessing?",
+  "zh": "你们使用什么样的底层模型，你们如何处理微调或 harnessing 这类事情?"
+ },
+ {
+  "seg": 396,
+  "start": 2068.104,
+  "end": 2078.153,
+  "speaker": "Unknown",
+  "en": "Yeah, so, like, we believe, like, you can, so, like, we use multiple models from, like, all providers and we really see this as a, like, obviously, like, as a commodity, right?",
+  "zh": "是的，所以，比如，我们相信，比如，你可以，所以，比如，我们使用来自，比如，所有提供商的多个模型，而我们真的把这看作是，比如，显然，比如，一种大宗商品，对吧?"
+ },
+ {
+  "seg": 397,
+  "start": 2078.173,
+  "end": 2079.434,
+  "speaker": "Unknown",
+  "en": "So they are, like, have,",
+  "zh": "所以它们，比如，有，"
+ },
+ {
+  "seg": 398,
+  "start": 2081.119,
+  "end": 2082.821,
+  "speaker": "Unknown",
+  "en": "Really good like general business purpose.",
+  "zh": "真正好的，比如，通用商业用途。"
+ },
+ {
+  "seg": 399,
+  "start": 2082.841,
+  "end": 2088.587,
+  "speaker": "Unknown",
+  "en": "So like reading, creating a PDF and like creating, creating Excel sheet, like all of this stuff.",
+  "zh": "比如，阅读、创建 PDF 以及创建、创建 Excel 表格，比如，所有这些东西。"
+ },
+ {
+  "seg": 400,
+  "start": 2088.967,
+  "end": 2102.661,
+  "speaker": "Unknown",
+  "en": "But we also believe that like for some use cases, you can get extremely far with like combining the foundation model with a harness and you can maybe reach like a hundred percent of like the job to be done.",
+  "zh": "但我们也相信，对于某些用例，把基础模型和一个 harness 结合起来，你就能走得非常远，也许能达到待完成工作的百分之百。"
+ },
+ {
+  "seg": 401,
+  "start": 2103.882,
+  "end": 2115.087,
+  "speaker": "Unknown",
+  "en": "But there are also some use cases where you can have like the best foundation model, the best harness, whatever that means, but like the best harness, but you still can get only to 80%.",
+  "zh": "但也有一些用例，即使你拥有最好的基础模型、最好的 harness——不管那意味着什么——最好的 harness，你仍然只能达到 80%。"
+ },
+ {
+  "seg": 402,
+  "start": 2117.008,
+  "end": 2127.192,
+  "speaker": "Unknown",
+  "en": "And like, it would say like, good examples for that is like, for example, what, when we talk about negotiations, what like cost engineers doing, right?",
+  "zh": "而且我想说，这方面的一个好例子，比如，当我们谈到谈判时，成本工程师在做的事情，对吧？"
+ },
+ {
+  "seg": 403,
+  "start": 2127.212,
+  "end": 2128.953,
+  "speaker": "Unknown",
+  "en": "So they're like analyzing drawings.",
+  "zh": "比如他们在分析图纸。"
+ },
+ {
+  "seg": 404,
+  "start": 2129.851,
+  "end": 2135.256,
+  "speaker": "Unknown",
+  "en": "And then they like defining, okay, what should this part actually cost?",
+  "zh": "然后他们定义：好，这个部件实际应该花多少钱？"
+ },
+ {
+  "seg": 405,
+  "start": 2135.516,
+  "end": 2137.458,
+  "speaker": "Unknown",
+  "en": "Like, and that's why it's called like short cost modeling.",
+  "zh": "这就是为什么它被叫作 short cost modeling。"
+ },
+ {
+  "seg": 406,
+  "start": 2138.959,
+  "end": 2152.971,
+  "speaker": "Unknown",
+  "en": "And there's definitely like an opportunity where we like thinking and already started fine tuning the model to get them to 100% and this part.",
+  "zh": "这里确实有机会，我们已经在思考并开始对模型进行微调，让它们在这部分达到 100%。"
+ },
+ {
+  "seg": 407,
+  "start": 2152.991,
+  "end": 2155.653,
+  "speaker": "Unknown",
+  "en": "Another example is like price benchmarking where",
+  "zh": "另一个例子是价格基准测试，"
+ },
+ {
+  "seg": 408,
+  "start": 2157.414,
+  "end": 2165.819,
+  "speaker": "Unknown",
+  "en": "Think about, like, you would have a quote, and in the perfect world, you would just drag and drop the quote somewhere, and you would get the perfect price.",
+  "zh": "想象一下，你有一份报价，在完美的世界里，你只需要把报价拖放到某个地方，就能得到完美的价格。"
+ },
+ {
+  "seg": 409,
+  "start": 2166.94,
+  "end": 2172.323,
+  "speaker": "Unknown",
+  "en": "But it's, like, and all those, like, all those informations, they are, like, not publicly available, right?",
+  "zh": "但问题是，所有那些信息，它们都不是公开可得的，对吧？"
+ },
+ {
+  "seg": 410,
+  "start": 2172.343,
+  "end": 2178.947,
+  "speaker": "Unknown",
+  "en": "So there's all, like, those are, like, all proprietary data based on, like, one enterprise, like, across multiple enterprises.",
+  "zh": "所以这些全是专有数据，基于某一家企业、或者跨越多家企业的数据。"
+ },
+ {
+  "seg": 411,
+  "start": 2178.987,
+  "end": 2182.049,
+  "speaker": "Unknown",
+  "en": "So, like, general purpose models can't train their models on that.",
+  "zh": "所以，通用模型无法用这些数据来训练它们的模型。"
+ },
+ {
+  "seg": 412,
+  "start": 2184.09,
+  "end": 2203.461,
+  "speaker": "Unknown",
+  "en": "So what we are thinking about is like maybe like not training just an LLM, but I think like what we see now with models like Jeff also popping up where you have like an, you train it on like text data, but the output is actually like an outcome or just like the perfect price.",
+  "zh": "所以我们在想的是，也许不只是训练一个 LLM，而是——我认为我们现在看到的，比如像 Jeff 这样的模型也冒出来了，你用文本数据来训练它，但输出实际上是一个结果，或者就直接是一个完美的价格。"
+ },
+ {
+  "seg": 413,
+  "start": 2204.782,
+  "end": 2206.523,
+  "speaker": "Unknown",
+  "en": "And you can't do this with Harness because",
+  "zh": "而你没法用 Harness 做到这一点，因为"
+ },
+ {
+  "seg": 414,
+  "start": 2207.554,
+  "end": 2217.282,
+  "speaker": "Unknown",
+  "en": "Like if you would give me like a quote from BCG and a quote from McKinsey, they could do like the exact same work, but this could be like a 10x different price.",
+  "zh": "如果你给我一份 BCG 的报价和一份麦肯锡的报价，它们可能做的是完全一样的工作，但价格可能相差 10 倍。"
+ },
+ {
+  "seg": 415,
+  "start": 2217.922,
+  "end": 2220.805,
+  "speaker": "Unknown",
+  "en": "And I would have like no idea like what is better.",
+  "zh": "而我完全不知道哪个更好。"
+ },
+ {
+  "seg": 416,
+  "start": 2221.205,
+  "end": 2225.068,
+  "speaker": "Unknown",
+  "en": "But if you give this to a procurement manager, he would like initially have a gut feeling.",
+  "zh": "但如果你把这个交给一个采购经理，他起初会有一点直觉。"
+ },
+ {
+  "seg": 417,
+  "start": 2225.969,
+  "end": 2227.53,
+  "speaker": "Unknown",
+  "en": "I'm like, okay, like this quote makes sense.",
+  "zh": "我的意思是，好，这份报价是合理的。"
+ },
+ {
+  "seg": 418,
+  "start": 2229.463,
+  "end": 2232.765,
+  "speaker": "Unknown",
+  "en": "I think good examples are content creation.",
+  "zh": "我认为好的例子是内容创作。"
+ },
+ {
+  "seg": 419,
+  "start": 2232.865,
+  "end": 2241.071,
+  "speaker": "Unknown",
+  "en": "I don't know how much I should pay someone for creating a video, but there's a gut feeling behind it if I ask another video creator how to do that.",
+  "zh": "我不知道该为制作一个视频付给某人多少钱，但如果我问另一个视频创作者怎么做，背后是有一种直觉的。"
+ },
+ {
+  "seg": 420,
+  "start": 2241.491,
+  "end": 2243.392,
+  "speaker": "Unknown",
+  "en": "But if you ask them to write down the rules,",
+  "zh": "但如果你让他们把规则写下来，"
+ },
+ {
+  "seg": 421,
+  "start": 2244.273,
+  "end": 2247.435,
+  "speaker": "Unknown",
+  "en": "They can't do this because it's like, just like gut feeling and instinct.",
+  "zh": "他们做不到，因为这就像是一种直觉和本能。"
+ },
+ {
+  "seg": 422,
+  "start": 2247.455,
+  "end": 2261.084,
+  "speaker": "Unknown",
+  "en": "So, and that's where we see a lot of opportunity actually training an agent, but not maybe like a classic LLM, but more like, again, like what, what companies like, like models like, like Jeff are now doing on the outcome based.",
+  "zh": "所以，这正是我们看到大量机会的地方——训练一个智能体，但也许不是一个经典的 LLM，而更像，再说一次，像 Jeff 这样的公司、这样的模型现在在基于结果的方向上做的事情。"
+ },
+ {
+  "seg": 423,
+  "start": 2261.245,
+  "end": 2262.946,
+  "speaker": "Unknown",
+  "en": "So we have like price benchmarking, short cost modeling.",
+  "zh": "所以我们有价格基准测试、short cost modeling。"
+ },
+ {
+  "seg": 424,
+  "start": 2265.447,
+  "end": 2274.349,
+  "speaker": "Unknown",
+  "en": "Seema, we've talked a little bit about how labs are really moving into industry-specific work or working with incumbents to do this.",
+  "zh": "Seema，我们已经稍微谈到了实验室正在真正进军行业专属的工作，或者与现有企业合作来做这些事。"
+ },
+ {
+  "seg": 425,
+  "start": 2275.71,
+  "end": 2281.871,
+  "speaker": "Unknown",
+  "en": "When you think about what a durable vertical AI company looks like, what are the qualities that you look for?",
+  "zh": "当你思考一家有持久生命力的垂直 AI 公司是什么样子时，你会看重哪些特质？"
+ },
+ {
+  "seg": 426,
+  "start": 2281.891,
+  "end": 2294.314,
+  "speaker": "Unknown",
+  "en": "One is around, you know, owning the end-to-end work that we're talking about, building up this data asset and being able to do something that hasn't been done before in many cases.",
+  "zh": "一个是围绕我们所说的端到端工作的掌控，积累这种数据资产，并且在很多情况下能够做到以前从未做过的事情。"
+ },
+ {
+  "seg": 427,
+  "start": 2295.535,
+  "end": 2303.319,
+  "speaker": "Unknown",
+  "en": "This is all said, I think when we talk a lot about moats, it's really, really hard to forecast your moat going forward.",
+  "zh": "话虽如此，我认为当我们大量谈论护城河时，要预测你未来的护城河真的非常难。"
+ },
+ {
+  "seg": 428,
+  "start": 2303.339,
+  "end": 2319.088,
+  "speaker": "Unknown",
+  "en": "If you look back at all the best businesses, at the early stages, they were just thinking about, okay, I'm winning customer trust, I'm selling more to them, and there's a lot of opportunity versus, okay, I'm going to do these six steps and then get to the seventh step and then we'll have a moat.",
+  "zh": "如果你回顾所有最好的企业，在早期阶段，它们只是在想：好，我在赢得客户信任，我在向他们销售更多东西，机会很多——而不是：好，我要做这六个步骤，然后到第七个步骤，然后我们就会有护城河。"
+ },
+ {
+  "seg": 429,
+  "start": 2319.568,
+  "end": 2330.594,
+  "speaker": "Unknown",
+  "en": "And so I think we talk a lot about defensibility and durability, and I think part of that is you're locking in the customer, there's more dependencies, they find it valuable, and you're doing more of the work.",
+  "zh": "所以我想我们大量谈论可防御性和可持续性，我认为其中一部分是你在锁定客户，有更多的依赖关系，他们觉得有价值，而你在做更多的工作。"
+ },
+ {
+  "seg": 430,
+  "start": 2330.614,
+  "end": 2346.541,
+  "speaker": "Unknown",
+  "en": "And here it's truly like, okay, you know, old CRM company was logged for all the deals, new sales AI agent is actually owning a lot of the sales prep process and the outbound process, fielding inbound and doing a bunch of the work.",
+  "zh": "在这里，真正的情况是：好，老 CRM 公司记录了所有交易，而新的销售 AI 智能体实际上掌控了大量的销售准备流程和外呼流程，接听入站咨询并做一大堆工作。"
+ },
+ {
+  "seg": 431,
+  "start": 2348.43,
+  "end": 2368.335,
+  "speaker": "Unknown",
+  "en": "The overall customer is dependent on that product and that's like a really important signal of getting to the moat and everything we talk about in terms of stickiness and network effects and all that is sort of downstream of that initial customer use and the value of the product.",
+  "zh": "整个客户都依赖于那个产品，这是迈向护城河的一个非常重要的信号，我们谈论的一切——粘性、网络效应等等——都源于最初的客户使用和产品的价值。"
+ },
+ {
+  "seg": 432,
+  "start": 2370.515,
+  "end": 2378.559,
+  "speaker": "Unknown",
+  "en": "Vlad, have you had conversations with customers or potential customers who ask you, you know, why should I buy your product?",
+  "zh": "Vlad，你有没有和客户或潜在客户谈过，他们问你：我为什么要买你的产品？"
+ },
+ {
+  "seg": 433,
+  "start": 2378.679,
+  "end": 2386.862,
+  "speaker": "Unknown",
+  "en": "Why can't I just, you know, plug into a model and do this myself or like use whatever existing system of record I have plus a model?",
+  "zh": "为什么我不能直接接入一个模型自己来做这件事，或者用我现有的任何记录系统加一个模型？"
+ },
+ {
+  "seg": 434,
+  "start": 2388.083,
+  "end": 2393.445,
+  "speaker": "Unknown",
+  "en": "Like what do you tell them and how do you convince them to use Leo?",
+  "zh": "你会怎么跟他们说，你怎么说服他们使用 Leo？"
+ },
+ {
+  "seg": 435,
+  "start": 2394.31,
+  "end": 2395.651,
+  "speaker": "Unknown",
+  "en": "Yeah, 100%.",
+  "zh": "是的，百分之百会有。"
+ },
+ {
+  "seg": 436,
+  "start": 2395.812,
+  "end": 2397.313,
+  "speaker": "Unknown",
+  "en": "And that's a very fair question, right?",
+  "zh": "而且这是一个非常合理的问题，对吧？"
+ },
+ {
+  "seg": 437,
+  "start": 2397.353,
+  "end": 2410.767,
+  "speaker": "Unknown",
+  "en": "And like, even if you look like internally at Leo, so like the, the first use case three years ago, which like kind of like went viral in the procurement world was like, just like having a quote, and then getting this information into SAP.",
+  "zh": "你看 Leo 内部，三年前的第一个用例，它在采购圈子里有点火起来了，就是拿一份报价，然后把这些信息录入 SAP。"
+ },
+ {
+  "seg": 438,
+  "start": 2410.787,
+  "end": 2411.788,
+  "speaker": "Unknown",
+  "en": "So like very, like...",
+  "zh": "所以非常，非常……"
+ },
+ {
+  "seg": 439,
+  "start": 2412.642,
+  "end": 2417.184,
+  "speaker": "Unknown",
+  "en": "Again, like technically like, but like, like tremendous business value.",
+  "zh": "再说一次，技术上像，但从商业价值上讲是巨大的。"
+ },
+ {
+  "seg": 440,
+  "start": 2418.825,
+  "end": 2424.488,
+  "speaker": "Unknown",
+  "en": "And so you, you have like this retrieval agent, getting like all of the information, putting it into SAP.",
+  "zh": "于是你有这个检索智能体，获取所有信息，录入 SAP。"
+ },
+ {
+  "seg": 441,
+  "start": 2424.929,
+  "end": 2426.91,
+  "speaker": "Unknown",
+  "en": "We like, this was our like first product.",
+  "zh": "我们——这是我们的第一个产品。"
+ },
+ {
+  "seg": 442,
+  "start": 2428.11,
+  "end": 2433.994,
+  "speaker": "Unknown",
+  "en": "And we had an engineering team, like obviously small, just like the three of us, or maybe like four people building it and then selling it.",
+  "zh": "我们有一个工程团队，显然很小，就是我们三个人，或者大概四个人来构建它，然后再去销售它。"
+ },
+ {
+  "seg": 443,
+  "start": 2434.014,
+  "end": 2436.235,
+  "speaker": "Unknown",
+  "en": "But this is nowadays a case study.",
+  "zh": "但如今这已经成为一个案例研究。"
+ },
+ {
+  "seg": 444,
+  "start": 2437.395,
+  "end": 2439.336,
+  "speaker": "Unknown",
+  "en": "If you, if you're applying to work at Leo.",
+  "zh": "如果你——如果你申请到 Leo 工作。"
+ },
+ {
+  "seg": 445,
+  "start": 2439.756,
+  "end": 2443.978,
+  "speaker": "Unknown",
+  "en": "So we give this to people to like to build this and they have like eight hours to do so.",
+  "zh": "我们把这个交给人们去构建，他们有八个小时的时间。"
+ },
+ {
+  "seg": 446,
+  "start": 2444.698,
+  "end": 2453.401,
+  "speaker": "Unknown",
+  "en": "So what I want to say about that is like a product that we like one of our first use cases can now be somehow built by engineers within eight hours.",
+  "zh": "所以我想说的是，我们最早的用例之一，现在工程师大概八个小时内就能构建出来。"
+ },
+ {
+  "seg": 447,
+  "start": 2454.482,
+  "end": 2456.723,
+  "speaker": "Unknown",
+  "en": "So because it's very easy to build stuff nowadays.",
+  "zh": "因为如今构建东西非常容易。"
+ },
+ {
+  "seg": 448,
+  "start": 2457.803,
+  "end": 2461.244,
+  "speaker": "Unknown",
+  "en": "So obviously there's a question, okay, well, so someone can build this within eight hours.",
+  "zh": "所以显然会有一个问题：好，那有人能在八小时内构建出这个。"
+ },
+ {
+  "seg": 449,
+  "start": 2461.865,
+  "end": 2462.205,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 450,
+  "start": 2463.106,
+  "end": 2467.914,
+  "speaker": "Unknown",
+  "en": "Couldn't like just procurement departments also just build everything in two months?",
+  "zh": "难道采购部门就不能也在两个月内把所有东西都建出来吗?"
+ },
+ {
+  "seg": 451,
+  "start": 2468.415,
+  "end": 2475.388,
+  "speaker": "Unknown",
+  "en": "And the answer is like, yes, you can build this in eight hours and you can build this, but you will only reach 70%, let's say like,",
+  "zh": "而答案是,是的,你可以在八个小时内建出这个,你也可以建出那个,但你只能达到 70%,比如说,"
+ },
+ {
+  "seg": 452,
+  "start": 2477.199,
+  "end": 2488.066,
+  "speaker": "Unknown",
+  "en": "And the problem is 70% of performance or accuracy or however you measured it, it depends really on the task, doesn't mean 70% automation.",
+  "zh": "而问题在于 70% 的性能或准确率,或者不管你怎么衡量,这真的取决于任务,并不意味着 70% 的自动化。"
+ },
+ {
+  "seg": 453,
+  "start": 2488.786,
+  "end": 2499.693,
+  "speaker": "Unknown",
+  "en": "So this can mean that you have 70% of the performance, but you still need to do 100% of the work because 70% is not that much.",
+  "zh": "所以这可能意味着你有 70% 的性能,但你仍然需要做 100% 的工作,因为 70% 并不算多。"
+ },
+ {
+  "seg": 454,
+  "start": 2499.713,
+  "end": 2504.016,
+  "speaker": "Unknown",
+  "en": "So again, all of the people have to check the data.",
+  "zh": "所以还是那句话,所有人都得去检查数据。"
+ },
+ {
+  "seg": 455,
+  "start": 2505.296,
+  "end": 2511.779,
+  "speaker": "Unknown",
+  "en": "So maybe you even created like more work than you did before.",
+  "zh": "所以也许你甚至创造了比以前更多的工作量。"
+ },
+ {
+  "seg": 456,
+  "start": 2511.799,
+  "end": 2514.28,
+  "speaker": "Unknown",
+  "en": "Two things to layer on to what Vlad just said.",
+  "zh": "有两点要补充到 Vlad 刚才说的话上。"
+ },
+ {
+  "seg": 457,
+  "start": 2514.62,
+  "end": 2525.445,
+  "speaker": "Unknown",
+  "en": "One, overall it's good if there's more adoption of the base models or just like GPT products because it means that people are also willing to trust",
+  "zh": "第一,总体来说,基础模型或者说 GPT 类产品有更多采用是好事,因为这意味着人们也愿意信任"
+ },
+ {
+  "seg": 458,
+  "start": 2527.606,
+  "end": 2529.027,
+  "speaker": "Unknown",
+  "en": "Vertical-specific products as well.",
+  "zh": "垂直领域的产品。"
+ },
+ {
+  "seg": 459,
+  "start": 2529.087,
+  "end": 2536.709,
+  "speaker": "Unknown",
+  "en": "So I think that increased familiarity, comfort, excitement about AI tools is generally just good for the market.",
+  "zh": "所以我认为对 AI 工具增加的熟悉度、舒适感和兴奋感,总的来说对市场是好事。"
+ },
+ {
+  "seg": 460,
+  "start": 2537.63,
+  "end": 2551.774,
+  "speaker": "Unknown",
+  "en": "The second thing is I was chatting with the management team of a Fortune 500 company two or three weeks ago, and one of the things they mentioned was they had tried to build out their own cash collection product that's a big enterprise business.",
+  "zh": "第二件事是,两三周前我和一家财富 500 强公司的管理团队聊天,他们提到的一件事是,他们曾尝试自己构建自己的现金回收产品,这是一项很大的企业业务。"
+ },
+ {
+  "seg": 461,
+  "start": 2552.435,
+  "end": 2552.615,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "而且"
+ },
+ {
+  "seg": 462,
+  "start": 2553.335,
+  "end": 2560.218,
+  "speaker": "Unknown",
+  "en": "They, like, after, I don't know, three or four months of work at a minimum, they had found that there wasn't enough context.",
+  "zh": "他们,大概在至少三四个月的工作之后,发现上下文不够。"
+ },
+ {
+  "seg": 463,
+  "start": 2560.238,
+  "end": 2561.739,
+  "speaker": "Unknown",
+  "en": "There was poor quality context.",
+  "zh": "上下文质量很差。"
+ },
+ {
+  "seg": 464,
+  "start": 2562.059,
+  "end": 2565.721,
+  "speaker": "Unknown",
+  "en": "They had a lot of recordings, a lot of screen grabs.",
+  "zh": "他们有大量的录音、大量的屏幕截图。"
+ },
+ {
+  "seg": 465,
+  "start": 2565.741,
+  "end": 2571.724,
+  "speaker": "Unknown",
+  "en": "They tried to pull it all into one system, but they, there was no, there wasn't good enough.",
+  "zh": "他们试图把所有东西整合到一个系统里,但是,不够好。"
+ },
+ {
+  "seg": 466,
+  "start": 2572.244,
+  "end": 2574.125,
+  "speaker": "Unknown",
+  "en": "And then there was this giant question around, okay, like...",
+  "zh": "然后还有这个巨大的问题,好,比如说……"
+ },
+ {
+  "seg": 467,
+  "start": 2574.605,
+  "end": 2579.888,
+  "speaker": "Unknown",
+  "en": "You know, we've got now two different ERPs and we're about to acquire another one.",
+  "zh": "你知道,我们现在有两套不同的 ERP,而且我们即将再收购一家。"
+ },
+ {
+  "seg": 468,
+  "start": 2580.929,
+  "end": 2584.111,
+  "speaker": "Unknown",
+  "en": "Who's going to update all the mappings, test the, you know, test out?",
+  "zh": "谁来更新所有的映射,测试,你知道的,测试一下?"
+ },
+ {
+  "seg": 469,
+  "start": 2584.191,
+  "end": 2585.131,
+  "speaker": "Unknown",
+  "en": "Okay, does it work?",
+  "zh": "好吧,它能用吗?"
+ },
+ {
+  "seg": 470,
+  "start": 2586.292,
+  "end": 2588.693,
+  "speaker": "Unknown",
+  "en": "And then, like, we keep talking about exception handling.",
+  "zh": "然后,比如,我们一直在谈异常处理。"
+ },
+ {
+  "seg": 471,
+  "start": 2588.753,
+  "end": 2592.535,
+  "speaker": "Unknown",
+  "en": "You now need to map that onto a totally different system, a different way of doing things.",
+  "zh": "你现在需要把它映射到一个完全不同的系统上,一种完全不同的做事方式。"
+ },
+ {
+  "seg": 472,
+  "start": 2592.776,
+  "end": 2596.578,
+  "speaker": "Unknown",
+  "en": "And I think they quickly realized that the internal build didn't make sense.",
+  "zh": "而且我认为他们很快意识到内部自建说不通。"
+ },
+ {
+  "seg": 473,
+  "start": 2596.618,
+  "end": 2599.54,
+  "speaker": "Unknown",
+  "en": "And so we keep hearing stories of this where people are like, okay, I'm going to do the internal build.",
+  "zh": "所以我们不断听到这样的故事,人们说,好,我要做内部自建。"
+ },
+ {
+  "seg": 474,
+  "start": 2599.58,
+  "end": 2603.162,
+  "speaker": "Unknown",
+  "en": "And they're like, wait a second, it's not different from what DIY has ever been in the past, which",
+  "zh": "然后他们说,等一下,这和过去的 DIY 没什么不同,就是"
+ },
+ {
+  "seg": 475,
+  "start": 2604.083,
+  "end": 2617.363,
+  "speaker": "Unknown",
+  "en": "Corporates have always tried, but I think enterprise companies generally realize that like there's their core competency and then there's building internal tools and they should focus on the first camp.",
+  "zh": "企业一直都尝试过,但我认为企业公司通常意识到,有他们的核心能力,然后还有构建内部工具这件事,他们应该专注于前者。"
+ },
+ {
+  "seg": 476,
+  "start": 2617.624,
+  "end": 2617.884,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 477,
+  "start": 2618.205,
+  "end": 2618.445,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 478,
+  "start": 2618.485,
+  "end": 2619.046,
+  "speaker": "Unknown",
+  "en": "Makes sense.",
+  "zh": "有道理。"
+ },
+ {
+  "seg": 479,
+  "start": 2619.847,
+  "end": 2619.967,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 480,
+  "start": 2620.147,
+  "end": 2626.268,
+  "speaker": "Unknown",
+  "en": "So that's exactly what I, what I've meant with like, obviously like they can, they can get to 80%, but those last 20% really matter.",
+  "zh": "所以这正是我,我想表达的意思,显然他们可以做到 80%,但那最后的 20% 真的很关键。"
+ },
+ {
+  "seg": 481,
+  "start": 2626.888,
+  "end": 2629.929,
+  "speaker": "Unknown",
+  "en": "Um, and you can only get like the, they matter to get into production.",
+  "zh": "嗯,而且你只能拿到,这些 20% 对进入生产环境很关键。"
+ },
+ {
+  "seg": 482,
+  "start": 2629.949,
+  "end": 2631.869,
+  "speaker": "Unknown",
+  "en": "So that's why you need like this harness, right?",
+  "zh": "所以这就是为什么你需要这个 harness,对吧?"
+ },
+ {
+  "seg": 483,
+  "start": 2631.889,
+  "end": 2639.21,
+  "speaker": "Unknown",
+  "en": "So you need all those like integrations, memory workflows, and sometimes you need vertical data, um, um, to do that.",
+  "zh": "所以你需要所有那些集成、记忆工作流,有时候你还需要垂直领域的数据,嗯,才能做到这一点。"
+ },
+ {
+  "seg": 484,
+  "start": 2639.27,
+  "end": 2642.071,
+  "speaker": "Unknown",
+  "en": "And like, like, like the Pareto, Pareto Principe.",
+  "zh": "而且就像,就像,就像帕累托,帕累托原则。"
+ },
+ {
+  "seg": 485,
+  "start": 2642.091,
+  "end": 2645.731,
+  "speaker": "Unknown",
+  "en": "So like those 20% can make like 80% of the, of the effort.",
+  "zh": "就是说那 20% 可以造就 80% 的,的努力。"
+ },
+ {
+  "seg": 486,
+  "start": 2646.351,
+  "end": 2648.872,
+  "speaker": "Unknown",
+  "en": "Um, or like they are making 80% of the effort.",
+  "zh": "嗯,或者说它们构成了 80% 的努力。"
+ },
+ {
+  "seg": 487,
+  "start": 2649.532,
+  "end": 2649.592,
+  "speaker": "Unknown",
+  "en": "Um,",
+  "zh": "嗯,"
+ },
+ {
+  "seg": 488,
+  "start": 2650.332,
+  "end": 2671.761,
+  "speaker": "Unknown",
+  "en": "So like to all like those Fortune 500, 150 companies, so you can do this, but then let's say like procurement workforce of AI procurement agents should then become like one of your core competencies and you should evaluate whether this makes sense or not for you to have this in your core skill.",
+  "zh": "所以对那些财富 500 强、150 强公司来说,你可以做这件事,但是比如说 AI 采购智能体的采购团队就应该成为你的核心能力之一,你应该评估把这一点纳入你的核心技能是否合理。"
+ },
+ {
+  "seg": 489,
+  "start": 2674.277,
+  "end": 2687.728,
+  "speaker": "Unknown",
+  "en": "Vlad, I'm curious if you're seeing suppliers start to use agents or AI at all and kind of like what happens when both the buyers and the suppliers are fully AI enabled?",
+  "zh": "Vlad,我很好奇你有没有看到供应商开始使用智能体或 AI,以及当买方和卖方都完全实现 AI 化之后会发生什么?"
+ },
+ {
+  "seg": 490,
+  "start": 2689.595,
+  "end": 2694.558,
+  "speaker": "Unknown",
+  "en": "Yeah, so like we 100% believe that like in the future there will be like agents on both sides.",
+  "zh": "是的,我们 100% 相信未来双方都会有智能体。"
+ },
+ {
+  "seg": 491,
+  "start": 2695.739,
+  "end": 2699,
+  "speaker": "Unknown",
+  "en": "And this makes so much sense.",
+  "zh": "而且这非常合理。"
+ },
+ {
+  "seg": 492,
+  "start": 2699.32,
+  "end": 2706.144,
+  "speaker": "Unknown",
+  "en": "But like surprisingly, what we see is like, so like when we look at the supplier side, this also kind of like equals the seller side, right?",
+  "zh": "但令人惊讶的是,我们看到的是,当我们看供应商这一边,这也大致等同于卖方这一边,对吧?"
+ },
+ {
+  "seg": 493,
+  "start": 2706.164,
+  "end": 2709.226,
+  "speaker": "Unknown",
+  "en": "So what we see is like that the sales side was like always",
+  "zh": "所以我们看到的是,销售这一边一直以来"
+ },
+ {
+  "seg": 494,
+  "start": 2709.946,
+  "end": 2711.187,
+  "speaker": "Unknown",
+  "en": "Ahead of the procurement side.",
+  "zh": "都领先于采购这一边。"
+ },
+ {
+  "seg": 495,
+  "start": 2712.228,
+  "end": 2717.311,
+  "speaker": "Unknown",
+  "en": "But what we're now seeing with the suppliers for this Fortune 500 companies, this actually is not true.",
+  "zh": "但我们现在在为这些财富 500 强公司供货的供应商身上看到的,实际上并非如此。"
+ },
+ {
+  "seg": 496,
+  "start": 2717.691,
+  "end": 2731.54,
+  "speaker": "Unknown",
+  "en": "So they are like maybe advanced in like, let's say, video recordings and like using tools like Granola and all this stuff, but like not like really having agents deploy, they're automating the work.",
+  "zh": "所以他们也许在,比如说,视频录制和使用像 Granola 这类工具方面比较先进,但并没有真正部署智能体,他们在自动化工作。"
+ },
+ {
+  "seg": 497,
+  "start": 2732.161,
+  "end": 2734.923,
+  "speaker": "Unknown",
+  "en": "And the cool thing is as like procurement is like...",
+  "zh": "而很酷的一点是,因为采购就像是……"
+ },
+ {
+  "seg": 498,
+  "start": 2735.803,
+  "end": 2736.604,
+  "speaker": "Unknown",
+  "en": "It's unsexy, right?",
+  "zh": "它不性感,对吧?"
+ },
+ {
+  "seg": 499,
+  "start": 2736.624,
+  "end": 2741.949,
+  "speaker": "Unknown",
+  "en": "So sales are sexy, procurement is unsexy, but it's like one process and procurement is the counterpart.",
+  "zh": "销售是性感的,采购是不性感的,但它是同一个流程,而采购是对应的另一方。"
+ },
+ {
+  "seg": 500,
+  "start": 2742.569,
+  "end": 2750.336,
+  "speaker": "Unknown",
+  "en": "But now the good thing is in those industrial companies, Fortune 5000 companies, procurement has the bigger power to the supplier.",
+  "zh": "但现在好消息是,在那些工业企业、财富 5000 强公司里,采购部门对供应商拥有更大的权力。"
+ },
+ {
+  "seg": 501,
+  "start": 2751.037,
+  "end": 2765.26,
+  "speaker": "Unknown",
+  "en": "Because you as a typical use case like automotive supplier, you dictate to your suppliers what they should use, what the quality has to be, how they have to answer to a specific RFQ.",
+  "zh": "因为像典型的用例,比如汽车供应商,你会对你的供应商发号施令:他们应该用什么,质量必须达到什么标准,如何回应一份具体的 RFQ。"
+ },
+ {
+  "seg": 502,
+  "start": 2766.5,
+  "end": 2773.762,
+  "speaker": "Unknown",
+  "en": "So the opportunity is now if we serve the procurement department and they can dictate what a supplier should use.",
+  "zh": "所以机会在于,如果我们服务采购部门,而他们可以 dictates 供应商应该用什么。"
+ },
+ {
+  "seg": 503,
+  "start": 2775.798,
+  "end": 2786.99,
+  "speaker": "Unknown",
+  "en": "Why aren't we also pushing them to Leo agents that are also helping them automate the work, owning then both sides of the transaction?",
+  "zh": "那为什么我们不同时推动他们使用 Leo 智能体,这些智能体也在帮他们自动化工作,从而拥有交易双方?"
+ },
+ {
+  "seg": 504,
+  "start": 2787.733,
+  "end": 2794.818,
+  "speaker": "Unknown",
+  "en": "And, Elena, I know we were talking earlier today about, you know, how can you have two parties on the same platform?",
+  "zh": "还有,Elena,我知道我们今天早些时候在谈,你知道,你怎么能让两方在同一个平台上?"
+ },
+ {
+  "seg": 505,
+  "start": 2795.078,
+  "end": 2795.758,
+  "speaker": "Unknown",
+  "en": "How does that work?",
+  "zh": "那是怎么运作的?"
+ },
+ {
+  "seg": 506,
+  "start": 2796.699,
+  "end": 2799.581,
+  "speaker": "Unknown",
+  "en": "I think it could even extend into, like, legal work, right?",
+  "zh": "我觉得这甚至可以延伸到,比如,法律工作,对吧?"
+ },
+ {
+  "seg": 507,
+  "start": 2799.721,
+  "end": 2802.282,
+  "speaker": "Unknown",
+  "en": "And these are two very adversarial parties, right?",
+  "zh": "而这是两个非常对立的双方,对吧?"
+ },
+ {
+  "seg": 508,
+  "start": 2802.683,
+  "end": 2806.065,
+  "speaker": "Unknown",
+  "en": "But, like, if you have two law firms with clients with different interests...",
+  "zh": "但是,比如,如果你有两家律所,客户利益不同……"
+ },
+ {
+  "seg": 509,
+  "start": 2806.545,
+  "end": 2815.293,
+  "speaker": "Unknown",
+  "en": "But both benefit from knowing, okay, here's the latest draft, here's where we are with the open issues, here are things that have been agreed upon, and just even tracking that.",
+  "zh": "但双方都能从知道这些中受益:好的,这是最新的草案,这是我们目前未决问题的进展,这些是已经达成一致的事项,仅仅是追踪这些。"
+ },
+ {
+  "seg": 510,
+  "start": 2815.333,
+  "end": 2817.134,
+  "speaker": "Unknown",
+  "en": "That doesn't really exist right now, right?",
+  "zh": "现在并不真的存在这种东西,对吧?"
+ },
+ {
+  "seg": 511,
+  "start": 2817.154,
+  "end": 2824.041,
+  "speaker": "Unknown",
+  "en": "That's all being human, that's being created by humans, and so that coordination effort an agent could be doing.",
+  "zh": "这些都是靠人工,由人来创建的,而这种协调工作智能体是可以做的。"
+ },
+ {
+  "seg": 512,
+  "start": 2824.621,
+  "end": 2824.881,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 513,
+  "start": 2825.321,
+  "end": 2825.922,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 514,
+  "start": 2826.162,
+  "end": 2833.304,
+  "speaker": "Unknown",
+  "en": "Well, it's super cool to think about how, like, you know, both sides are kind of maybe evolving in tandem.",
+  "zh": "嗯,想想双方如何,你知道,某种程度上同步演进,这非常酷。"
+ },
+ {
+  "seg": 515,
+  "start": 2833.504,
+  "end": 2836.685,
+  "speaker": "Unknown",
+  "en": "One side might be going a little bit faster as you're talking about, Vlad.",
+  "zh": "正如你所说的,Vlad,一边可能会走得稍微快一点。"
+ },
+ {
+  "seg": 516,
+  "start": 2837.706,
+  "end": 2845.629,
+  "speaker": "Unknown",
+  "en": "But over time, potentially people are just like on the same platform and actually it's like, it's way better coordinated for everyone.",
+  "zh": "但随着时间的推移,有可能人们就在同一个平台上,实际上对每个人来说协调都好得多。"
+ },
+ {
+  "seg": 517,
+  "start": 2845.829,
+  "end": 2846.469,
+  "speaker": "Unknown",
+  "en": "100%.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 518,
+  "start": 2846.489,
+  "end": 2848.87,
+  "speaker": "Unknown",
+  "en": "Because like, like, also like what we mentioned in the beginning, right?",
+  "zh": "因为就像,就像,也像我们在开头提到的那样,对吧?"
+ },
+ {
+  "seg": 519,
+  "start": 2848.89,
+  "end": 2849.15,
+  "speaker": "Unknown",
+  "en": "So like,",
+  "zh": "所以就像,"
+ },
+ {
+  "seg": 520,
+  "start": 2850.353,
+  "end": 2855.715,
+  "speaker": "Unknown",
+  "en": "Like the obvious, like the obvious question is like, okay, but like we, we also talked a lot about like negotiation agents.",
+  "zh": "就像显而易见的,显而易见的问题是,好的,但是比如,我们也谈了很多关于谈判智能体的话题。"
+ },
+ {
+  "seg": 521,
+  "start": 2855.795,
+  "end": 2865.158,
+  "speaker": "Unknown",
+  "en": "What if like both parties have negotiation agents and prices 100% the point where it's like a zero sum thing or like they have like different interests.",
+  "zh": "如果双方都有谈判智能体怎么办,而价格 100% 是一个零和的事情,或者说他们有不同的利益。"
+ },
+ {
+  "seg": 522,
+  "start": 2866.47,
+  "end": 2874.457,
+  "speaker": "Unknown",
+  "en": "But what we also discuss is that price is the outcome of 5,000 other tasks that happened.",
+  "zh": "但我们也讨论到,价格是已经发生的其他 5000 项任务的结果。"
+ },
+ {
+  "seg": 523,
+  "start": 2875.278,
+  "end": 2879.782,
+  "speaker": "Unknown",
+  "en": "And on those 5,000 other tasks, they have the same incentive.",
+  "zh": "而在这其他 5000 项任务上,他们的激励是相同的。"
+ },
+ {
+  "seg": 524,
+  "start": 2880.663,
+  "end": 2883.905,
+  "speaker": "Unknown",
+  "en": "Sales wants to have as little friction as possible.",
+  "zh": "销售方希望摩擦尽可能少。"
+ },
+ {
+  "seg": 525,
+  "start": 2884.926,
+  "end": 2887.188,
+  "speaker": "Unknown",
+  "en": "Buyers want to have a really fast time to market.",
+  "zh": "买方希望上市时间非常快。"
+ },
+ {
+  "seg": 526,
+  "start": 2889.41,
+  "end": 2891.272,
+  "speaker": "Unknown",
+  "en": "Building aircrafts, building data centers.",
+  "zh": "建造飞机,建造数据中心。"
+ },
+ {
+  "seg": 527,
+  "start": 2891.292,
+  "end": 2893.694,
+  "speaker": "Unknown",
+  "en": "You want this data center to be built as fast as possible.",
+  "zh": "你希望这个数据中心尽可能快地建成。"
+ },
+ {
+  "seg": 528,
+  "start": 2894.154,
+  "end": 2902.482,
+  "speaker": "Unknown",
+  "en": "You don't want to be built like six months later just because it takes so much time to analyze all of the responses from suppliers.",
+  "zh": "你不希望它晚六个月才建成,仅仅因为分析供应商的所有回复要花那么多时间。"
+ },
+ {
+  "seg": 529,
+  "start": 2903.363,
+  "end": 2904.864,
+  "speaker": "Unknown",
+  "en": "And you want to make the sale also fast.",
+  "zh": "而且你也希望成交也快。"
+ },
+ {
+  "seg": 530,
+  "start": 2905.365,
+  "end": 2909.628,
+  "speaker": "Unknown",
+  "en": "So like all of those 5,000 other tasks, the incentive is exactly the same.",
+  "zh": "所以在所有那些其他 5000 项任务上,激励是完全一样的。"
+ },
+ {
+  "seg": 531,
+  "start": 2910.309,
+  "end": 2919.897,
+  "speaker": "Unknown",
+  "en": "And that's why you can deploy or Leo can deploy agents also on both sides doing like automating the work of all those other tasks.",
+  "zh": "这就是为什么你可以部署,或者说 Leo 可以部署智能体到双方,把所有那些其他任务的工作自动化。"
+ },
+ {
+  "seg": 532,
+  "start": 2919.957,
+  "end": 2920.958,
+  "speaker": "Unknown",
+  "en": "This is the beautiful thing.",
+  "zh": "这就是美妙之处。"
+ },
+ {
+  "seg": 533,
+  "start": 2921.719,
+  "end": 2931.688,
+  "speaker": "Unknown",
+  "en": "I think that there used to be this logic of like you shouldn't customize your software too much to one end user or one end customer.",
+  "zh": "我认为过去有这样一种逻辑,就是你不应该把你的软件对某一个终端用户或某一个终端客户定制化太多。"
+ },
+ {
+  "seg": 534,
+  "start": 2932.048,
+  "end": 2936.191,
+  "speaker": "Unknown",
+  "en": "But I think something about LLMs and AI in general is like",
+  "zh": "但我认为关于 LLM 和整个 AI,有一点是:"
+ },
+ {
+  "seg": 535,
+  "start": 2937.012,
+  "end": 2945.242,
+  "speaker": "Unknown",
+  "en": "It might increasingly be possible to customize without slowing yourself down as a business too much.",
+  "zh": "越来越有可能在不让作为企业的你自己放慢太多的情况下进行定制化。"
+ },
+ {
+  "seg": 536,
+  "start": 2945.482,
+  "end": 2955.433,
+  "speaker": "Unknown",
+  "en": "So I'm curious if that is something that you're seeing, Vlad, or SEMA, and kind of what does that mean for end buyers of software?",
+  "zh": "所以我很好奇这是不是你们正在看到的情况,Vlad 或者 SEMA,以及这对软件的终端买家意味着什么?"
+ },
+ {
+  "seg": 537,
+  "start": 2956.054,
+  "end": 2961.5,
+  "speaker": "Unknown",
+  "en": "I think the overall principle, there's a lot of forward deployed work happening right now.",
+  "zh": "我认为总体原则上,现在有很多前向部署的工作在进行。"
+ },
+ {
+  "seg": 538,
+  "start": 2961.52,
+  "end": 2970.649,
+  "speaker": "Unknown",
+  "en": "And part of that is because the state of the customer data and understanding customer N is a lot harder than understanding N plus one.",
+  "zh": "其中一部分原因是,客户数据的状态以及理解客户 N 比理解 N 加一要难得多。"
+ },
+ {
+  "seg": 539,
+  "start": 2970.669,
+  "end": 2975.875,
+  "speaker": "Unknown",
+  "en": "And so we're sort of in the early stages of deployment overall, and that's why there's still a lot of humans as part of this product.",
+  "zh": "所以我们总体上还处于部署的早期阶段,这就是为什么仍然有很多人是这个产品的一部分。"
+ },
+ {
+  "seg": 540,
+  "start": 2976.587,
+  "end": 2993.166,
+  "speaker": "Unknown",
+  "en": "And by the way, that is something that is harder for the incumbents to do because they're also like not set up in a way to have even the way their product feedback cycle works where they have implementation teams, but that's very much an afterthought versus something that feeds into the product side.",
+  "zh": "顺便说一句,这对在位者来说是更难做到的事情,因为他们也没有被设置为——甚至他们产品反馈循环的运作方式——他们有实施团队,但那在很大程度上是事后才想到的,而不是能反哺到产品侧的东西。"
+ },
+ {
+  "seg": 541,
+  "start": 2993.567,
+  "end": 2995.629,
+  "speaker": "Unknown",
+  "en": "The beauty of AI is, A, it learns over time.",
+  "zh": "AI 的美妙之处在于,第一,它会随着时间学习。"
+ },
+ {
+  "seg": 542,
+  "start": 2995.649,
+  "end": 2997.751,
+  "speaker": "Unknown",
+  "en": "So that's when we're talking about learning loops.",
+  "zh": "所以这就是我们谈论学习循环的时候。"
+ },
+ {
+  "seg": 543,
+  "start": 2997.771,
+  "end": 2999.772,
+  "speaker": "Unknown",
+  "en": "And you have the right eval process.",
+  "zh": "而且你有正确的评估流程。"
+ },
+ {
+  "seg": 544,
+  "start": 2999.932,
+  "end": 3005.057,
+  "speaker": "Unknown",
+  "en": "You can do more and more complicated jobs over time.",
+  "zh": "你可以随着时间做越来越复杂的工作。"
+ },
+ {
+  "seg": 545,
+  "start": 3005.077,
+  "end": 3007.719,
+  "speaker": "Unknown",
+  "en": "And part of that is automating the deployment itself.",
+  "zh": "其中一部分就是自动化部署本身。"
+ },
+ {
+  "seg": 546,
+  "start": 3007.919,
+  "end": 3014.164,
+  "speaker": "Unknown",
+  "en": "And so you can, and I'd be curious to hear how Vlad is doing it, but a lot of our companies even...",
+  "zh": "所以你可以——而且我很想听听 Vlad 是怎么做的——我们的很多公司甚至……"
+ },
+ {
+  "seg": 547,
+  "start": 3015.025,
+  "end": 3044.612,
+  "speaker": "Unknown",
+  "en": "Are doing that, you know, at a rapid clip where more of the customization, A, is being handled in an automated way and B, the customer is able to turn the knobs and levers around customization via software versus, okay, I needed to bring in A, the original, it was like, you know, you brought in Accenture to do your SAP customization and now it's like, okay, I've got a forward deployed team that's going to build some, you know, help build and spec it out and ultimately it's going to be completely software driven.",
+  "zh": "都在快速地做这件事,越来越多的定制化,第一,正在以自动化的方式被处理,第二,客户能够通过软件来转动定制化的旋钮和杠杆,而不是,好的,我需要引入——最初,比如,你知道的,你引入 Accenture 来做你的 SAP 定制化,而现在就变成,好的,我有一个前向部署团队来帮忙构建、把它规格化,最终它将完全由软件驱动。"
+ },
+ {
+  "seg": 548,
+  "start": 3045.252,
+  "end": 3070.074,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean that's the reason why like when you look at the org structure of Leo like 85% of the people are engineers and even if you look at like the people where you like they don't have an engineering title they're like mostly like an engineering background and reason for that is we obviously like we don't want to be a consulting company right so we make sure that we have like overall the best",
+  "zh": "是的,我的意思就是,这就是为什么当你看 Leo 的组织结构时,85% 的人是工程师,即使你看那些没有工程头衔的人,他们大多也有工程背景,原因很明显,就是我们不想成为一家咨询公司,对吧,所以我们确保我们总体上拥有最好的——"
+ },
+ {
+  "seg": 549,
+  "start": 3071.215,
+  "end": 3084.106,
+  "speaker": "Unknown",
+  "en": "Agents in indirect and direct and finance and those parts but then like as you mentioned like there is a lot of like forward deployed work to do if you go to enterprises because they have like different nuances in their processes.",
+  "zh": "在间接、直接和财务等这些领域的智能体,但就像你提到的,如果你进入企业,有很多前向部署的工作要做,因为他们在流程上有不同的细节差异。"
+ },
+ {
+  "seg": 550,
+  "start": 3085.107,
+  "end": 3089.81,
+  "speaker": "Unknown",
+  "en": "But how we work is we as you mentioned like building a product in a way where it's like",
+  "zh": "但我们的工作方式是，就像你提到的，打造一个产品，"
+ },
+ {
+  "seg": 551,
+  "start": 3091.212,
+  "end": 3094.614,
+  "speaker": "Unknown",
+  "en": "Where we're reducing this customization, but also where it's a lot of like self-service.",
+  "zh": "让我们减少这种定制化，但同时也是高度自助服务的。"
+ },
+ {
+  "seg": 552,
+  "start": 3095.194,
+  "end": 3107.283,
+  "speaker": "Unknown",
+  "en": "So the job of our like FDEs and forward deployed engineers is on the one hand making it like self-service, but like in internally is like automating their own job, right?",
+  "zh": "所以我们的 FDE 和前置部署工程师的工作，一方面是让它变得自助化，另一方面在内部是自动化他们自己的工作，对吧？"
+ },
+ {
+  "seg": 553,
+  "start": 3107.303,
+  "end": 3113.628,
+  "speaker": "Unknown",
+  "en": "So like their KPIs, like you are seeing this happening like multiple times, like you're literally your job is like to automate yourself.",
+  "zh": "所以比如他们的 KPI，你会看到这种情况发生很多次，你的工作字面上就是把自己自动化掉。"
+ },
+ {
+  "seg": 554,
+  "start": 3114.428,
+  "end": 3116.689,
+  "speaker": "Unknown",
+  "en": "And then if you automate yourself, you go to the next task.",
+  "zh": "然后如果你把自己自动化掉了，你就去做下一个任务。"
+ },
+ {
+  "seg": 555,
+  "start": 3117.31,
+  "end": 3120.852,
+  "speaker": "Unknown",
+  "en": "I think it's also like an approach that Google or so is doing.",
+  "zh": "我觉得这也是 Google 或类似公司在做的一种方法。"
+ },
+ {
+  "seg": 556,
+  "start": 3122.432,
+  "end": 3123.733,
+  "speaker": "Unknown",
+  "en": "But yeah, 100% agree with you.",
+  "zh": "但是的，100% 同意你。"
+ },
+ {
+  "seg": 557,
+  "start": 3125.114,
+  "end": 3129.036,
+  "speaker": "Unknown",
+  "en": "And that's exactly what we are building and how we're doing it.",
+  "zh": "这正是我们在构建的东西以及我们的做法。"
+ },
+ {
+  "seg": 558,
+  "start": 3129.303,
+  "end": 3136.069,
+  "speaker": "Unknown",
+  "en": "There was recently a very big system of record event and we're not talking about Dreamforce.",
+  "zh": "最近有一个非常大的记录系统盛会，我们说的不是 Dreamforce。"
+ },
+ {
+  "seg": 559,
+  "start": 3136.109,
+  "end": 3143.795,
+  "speaker": "Unknown",
+  "en": "We're talking about the bots and buyers summit that Leo hosted in New York.",
+  "zh": "我们说的是 Leo 在纽约主办的 bots and buyers 峰会。"
+ },
+ {
+  "seg": 560,
+  "start": 3144.116,
+  "end": 3151.442,
+  "speaker": "Unknown",
+  "en": "And just wanted to kind of hear, you know, stories from the ground and what you're seeing among buyers.",
+  "zh": "只是想听听来自一线的故事，以及你在买方身上看到的情况。"
+ },
+ {
+  "seg": 561,
+  "start": 3151.602,
+  "end": 3153.023,
+  "speaker": "Unknown",
+  "en": "What are people excited about?",
+  "zh": "大家对什么感到兴奋？"
+ },
+ {
+  "seg": 562,
+  "start": 3153.424,
+  "end": 3155.325,
+  "speaker": "Unknown",
+  "en": "What are people looking ahead toward?",
+  "zh": "大家在展望什么？"
+ },
+ {
+  "seg": 563,
+  "start": 3155.365,
+  "end": 3156.446,
+  "speaker": "Unknown",
+  "en": "What are people, you know,",
+  "zh": "大家在，"
+ },
+ {
+  "seg": 564,
+  "start": 3157.507,
+  "end": 3162.892,
+  "speaker": "Unknown",
+  "en": "Asking you for, can you just kind of tell us some stories from that day and that event?",
+  "zh": "向你要求什么？能不能给我们讲讲那天和那个活动的一些故事？"
+ },
+ {
+  "seg": 565,
+  "start": 3163.312,
+  "end": 3166.495,
+  "speaker": "Unknown",
+  "en": "So, I mean, this was the third time that we are doing this event.",
+  "zh": "好的，我是说，这是我们第三次办这个活动。"
+ },
+ {
+  "seg": 566,
+  "start": 3166.535,
+  "end": 3173.521,
+  "speaker": "Unknown",
+  "en": "Now we did it in New York, just a few blocks from our office here, and over 100 procurement leaders arrived, right?",
+  "zh": "这次我们在纽约办，离我们这里的办公室就几个街区，有超过 100 位采购负责人到场，对吧？"
+ },
+ {
+  "seg": 567,
+  "start": 3173.561,
+  "end": 3180.387,
+  "speaker": "Unknown",
+  "en": "And what we, like, we made sure that we, like, when we do such events that we only invite, like, high-caliber people, right?",
+  "zh": "我们确保，比如，当我们办这种活动时，只邀请，比如，高水准的人，对吧？"
+ },
+ {
+  "seg": 568,
+  "start": 3181.547,
+  "end": 3183.97,
+  "speaker": "Unknown",
+  "en": "C-level, CPO, Vice President.",
+  "zh": "C 级高管、CPO、副总裁。"
+ },
+ {
+  "seg": 569,
+  "start": 3185.492,
+  "end": 3191.198,
+  "speaker": "Unknown",
+  "en": "And there are two things very different of how we do this or why they are so amazed.",
+  "zh": "有两件事非常不同，关于我们怎么做这个，或者说他们为什么如此惊叹。"
+ },
+ {
+  "seg": 570,
+  "start": 3191.218,
+  "end": 3196.624,
+  "speaker": "Unknown",
+  "en": "So the first thing is when we look at how procurement used to work in the last",
+  "zh": "第一件事是，当我们看过去采购是怎么运作的，"
+ },
+ {
+  "seg": 571,
+  "start": 3197.325,
+  "end": 3202.067,
+  "speaker": "Unknown",
+  "en": "26, 27 years, a lot of tools emerge, right?",
+  "zh": "26、27 年里，出现了很多工具，对吧？"
+ },
+ {
+  "seg": 572,
+  "start": 3202.087,
+  "end": 3207.748,
+  "speaker": "Unknown",
+  "en": "So you can like, they are like all those technology landscapes and you can find them on LinkedIn and you will see like they're like 500 procurement tools.",
+  "zh": "所以你可以，比如，有所有那些技术版图，你可以在 LinkedIn 上找到它们，你会看到比如有 500 个采购工具。"
+ },
+ {
+  "seg": 573,
+  "start": 3208.248,
+  "end": 3212.25,
+  "speaker": "Unknown",
+  "en": "But like, if you like, and this is also the reason, like, but when you talk to procurement people, like,",
+  "zh": "但是，比如，这也是原因，比如，当你和采购的人交谈时，"
+ },
+ {
+  "seg": 574,
+  "start": 3214.282,
+  "end": 3230.135,
+  "speaker": "Unknown",
+  "en": "Very painful and like I challenge someone like to find someone who like loves to work with procurement like no one does like you can really state people hate working with procurement and when talking about the requesters and I'm talking about the suppliers and evil people in procurement hate working with procurement.",
+  "zh": "非常痛苦，比如我挑战某个人去找一个喜欢和采购打交道的人，没有人喜欢，真的可以说人们讨厌和采购打交道，我说的是需求方，我说的是供应商，采购里那些邪恶的人也讨厌和采购打交道。"
+ },
+ {
+  "seg": 575,
+  "start": 3230.575,
+  "end": 3230.796,
+  "speaker": "Unknown",
+  "en": "So like",
+  "zh": "所以比如"
+ },
+ {
+  "seg": 576,
+  "start": 3231.785,
+  "end": 3234.586,
+  "speaker": "Unknown",
+  "en": "What's going on if they are like 1000 tools?",
+  "zh": "如果有 1000 个工具，那是怎么回事？"
+ },
+ {
+  "seg": 577,
+  "start": 3235.166,
+  "end": 3243.449,
+  "speaker": "Unknown",
+  "en": "And the reason for that is like all of the tools, they just made the process more efficient.",
+  "zh": "原因是所有的工具，它们只是让流程更高效了。"
+ },
+ {
+  "seg": 578,
+  "start": 3244.349,
+  "end": 3245.03,
+  "speaker": "Unknown",
+  "en": "That's all.",
+  "zh": "仅此而已。"
+ },
+ {
+  "seg": 579,
+  "start": 3245.15,
+  "end": 3249.551,
+  "speaker": "Unknown",
+  "en": "But they never changed how those people actually work.",
+  "zh": "但它们从未改变这些人实际的工作方式。"
+ },
+ {
+  "seg": 580,
+  "start": 3250.251,
+  "end": 3251.052,
+  "speaker": "Unknown",
+  "en": "And it's...",
+  "zh": "而且……"
+ },
+ {
+  "seg": 581,
+  "start": 3252.052,
+  "end": 3257.414,
+  "speaker": "Unknown",
+  "en": "Like crazy to see that they work in emails and on Microsoft Teams and in Excel sheets and PowerPoints.",
+  "zh": "看到他们在电子邮件、Microsoft Teams、Excel 表格和 PowerPoint 里工作，简直疯狂。"
+ },
+ {
+  "seg": 582,
+  "start": 3257.434,
+  "end": 3266.718,
+  "speaker": "Unknown",
+  "en": "It's like their main channel where they work on and it's like zero AI enabled obviously in this part.",
+  "zh": "这是他们的主要工作渠道，而这部分显然是零 AI 赋能的。"
+ },
+ {
+  "seg": 583,
+  "start": 3266.758,
+  "end": 3273.88,
+  "speaker": "Unknown",
+  "en": "And the other thing is like we give them like a very cross department perspective on procurement, right?",
+  "zh": "另一件事是，比如，我们给他们一个跨部门的采购视角，对吧？"
+ },
+ {
+  "seg": 584,
+  "start": 3273.9,
+  "end": 3275.241,
+  "speaker": "Unknown",
+  "en": "So we are not talking about like...",
+  "zh": "所以我们不是在谈比如……"
+ },
+ {
+  "seg": 585,
+  "start": 3276.435,
+  "end": 3297.264,
+  "speaker": "Unknown",
+  "en": "Look at this crazy invoice feature that we developed where we're more looking like someone needs something and in the end you have it on your table and this can be like across indirect, direct logistics finance and you can see how we are doing it here and we're also putting it into like more into like a physical world because like AI agents that's very abstract.",
+  "zh": "看看我们开发的这个疯狂的发票功能，而我们更多地是看有人需要某个东西，最后它出现在你桌上，这可以是跨间接、直接、物流、财务的，你可以在这里看到我们是怎么做的，我们还把它放到更具体的世界里，因为比如 AI 智能体那是非常抽象的。"
+ },
+ {
+  "seg": 586,
+  "start": 3297.524,
+  "end": 3298.645,
+  "speaker": "Unknown",
+  "en": "So what we are doing is we",
+  "zh": "所以我们在做的是我们"
+ },
+ {
+  "seg": 587,
+  "start": 3299.485,
+  "end": 3310.752,
+  "speaker": "Unknown",
+  "en": "Building up booths and we even have this in our offices in also in New York where you can walk through the booths and experience like all of those agents like really hands on.",
+  "zh": "搭建展位，我们甚至在纽约的办公室里也有这个，你可以在展位间走动，亲身体验所有那些智能体。"
+ },
+ {
+  "seg": 588,
+  "start": 3311.813,
+  "end": 3313.574,
+  "speaker": "Unknown",
+  "en": "And that's what the people love.",
+  "zh": "这就是人们喜欢的。"
+ },
+ {
+  "seg": 589,
+  "start": 3313.634,
+  "end": 3318.597,
+  "speaker": "Unknown",
+  "en": "And it's like, I mean, the next event will be with around 700 people.",
+  "zh": "而且比如，我是说，下一次活动将有大约 700 人。"
+ },
+ {
+  "seg": 590,
+  "start": 3320.098,
+  "end": 3322.159,
+  "speaker": "Unknown",
+  "en": "So you can imagine how crazy this grows.",
+  "zh": "所以你可以想象这增长得有多疯狂。"
+ },
+ {
+  "seg": 591,
+  "start": 3322.8,
+  "end": 3324.18,
+  "speaker": "Unknown",
+  "en": "Procurement people gone wild.",
+  "zh": "采购人疯狂了。"
+ },
+ {
+  "seg": 592,
+  "start": 3324.281,
+  "end": 3324.621,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 593,
+  "start": 3324.921,
+  "end": 3325.181,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 594,
+  "start": 3325.201,
+  "end": 3327.963,
+  "speaker": "Unknown",
+  "en": "It's going to be, that one is in Munich.",
+  "zh": "那一次会在慕尼黑。"
+ },
+ {
+  "seg": 595,
+  "start": 3329.478,
+  "end": 3335.982,
+  "speaker": "Unknown",
+  "en": "Yeah, so we're doing them like in Europe, Munich, and in New York all the time.",
+  "zh": "是的，我们经常在欧洲、慕尼黑和纽约办。"
+ },
+ {
+  "seg": 596,
+  "start": 3336.082,
+  "end": 3336.743,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 597,
+  "start": 3337.123,
+  "end": 3341.225,
+  "speaker": "Unknown",
+  "en": "If you're listening and in procurement, you know where to go.",
+  "zh": "如果你正在收听而且你在采购行业，你知道该去哪里。"
+ },
+ {
+  "seg": 598,
+  "start": 3341.245,
+  "end": 3345.348,
+  "speaker": "Unknown",
+  "en": "Maybe, I guess, one question, one question for me.",
+  "zh": "也许，我想，一个问题，一个问我的问题。"
+ },
+ {
+  "seg": 599,
+  "start": 3346.687,
+  "end": 3351.45,
+  "speaker": "Unknown",
+  "en": "What do you think it takes to get people excited about procurement?",
+  "zh": "你觉得怎样才能让人们对采购感到兴奋？"
+ },
+ {
+  "seg": 600,
+  "start": 3351.711,
+  "end": 3352.892,
+  "speaker": "Unknown",
+  "en": "Is it the agents?",
+  "zh": "是智能体吗？"
+ },
+ {
+  "seg": 601,
+  "start": 3352.952,
+  "end": 3353.792,
+  "speaker": "Unknown",
+  "en": "Is it the people?",
+  "zh": "是人吗？"
+ },
+ {
+  "seg": 602,
+  "start": 3353.912,
+  "end": 3355.173,
+  "speaker": "Unknown",
+  "en": "Is it the time saved?",
+  "zh": "是节省下来的时间吗？"
+ },
+ {
+  "seg": 603,
+  "start": 3355.413,
+  "end": 3356.594,
+  "speaker": "Unknown",
+  "en": "Or something else?",
+  "zh": "还是别的什么？"
+ },
+ {
+  "seg": 604,
+  "start": 3357.355,
+  "end": 3358.115,
+  "speaker": "Unknown",
+  "en": "You mentioned it.",
+  "zh": "你提到了它。"
+ },
+ {
+  "seg": 605,
+  "start": 3358.155,
+  "end": 3362.719,
+  "speaker": "Unknown",
+  "en": "Procurement is one of these things that people don't like.",
+  "zh": "采购是人们不喜欢的事情之一。"
+ },
+ {
+  "seg": 606,
+  "start": 3362.999,
+  "end": 3366.501,
+  "speaker": "Unknown",
+  "en": "It's a universally disliked low NPS area.",
+  "zh": "它是一个普遍被讨厌的低 NPS 领域。"
+ },
+ {
+  "seg": 607,
+  "start": 3366.521,
+  "end": 3371.105,
+  "speaker": "Unknown",
+  "en": "I remember talking to a guy who was out of procurement seven or eight years ago as I was looking at this category.",
+  "zh": "我记得七八年前，在我研究这个品类的时候，和一位刚脱离采购行业的人聊过。"
+ },
+ {
+  "seg": 608,
+  "start": 3371.705,
+  "end": 3374.567,
+  "speaker": "Unknown",
+  "en": "And he was like, ugh, I hate talking about this product.",
+  "zh": "他说，唉，我讨厌聊这个产品。"
+ },
+ {
+  "seg": 609,
+  "start": 3374.587,
+  "end": 3380.632,
+  "speaker": "Unknown",
+  "en": "Like I use, you know, this legacy system of record, I'm on Coupa, and I don't want to buy anything else.",
+  "zh": "比如我用的是，你知道的，这套遗留的记录系统，我在用 Coupa,我不想再买任何别的东西。"
+ },
+ {
+  "seg": 610,
+  "start": 3380.672,
+  "end": 3381.553,
+  "speaker": "Unknown",
+  "en": "I don't want to talk about it.",
+  "zh": "我不想谈这个。"
+ },
+ {
+  "seg": 611,
+  "start": 3381.573,
+  "end": 3382.133,
+  "speaker": "Unknown",
+  "en": "It's fine.",
+  "zh": "还行吧。"
+ },
+ {
+  "seg": 612,
+  "start": 3382.173,
+  "end": 3386.337,
+  "speaker": "Unknown",
+  "en": "It was like the most disgruntled customer call I've ever done out of like millions of them.",
+  "zh": "那可能是我做过的数百万通客户电话里最不满的一次。"
+ },
+ {
+  "seg": 613,
+  "start": 3386.477,
+  "end": 3392.542,
+  "speaker": "Unknown",
+  "en": "But I mean, I'm curious, yeah, what it is that you think, you know, really gets people excited about this category.",
+  "zh": "不过我很好奇，是的，你觉得到底是什么让人们对这个品类感到兴奋。"
+ },
+ {
+  "seg": 614,
+  "start": 3393.583,
+  "end": 3393.743,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 615,
+  "start": 3393.843,
+  "end": 3406.952,
+  "speaker": "Unknown",
+  "en": "So, I mean, it's like, it's like, and this is also why, why, why I like procurement is like, it's on one hand, like, so like the reason, like why we started in procurement are like, it's not essentially like what happened, but like how people react to it, right?",
+  "zh": "那么，我是说，就是……这也是为什么、为什么我喜欢采购，一方面，就像……我们当初选择采购的原因，本质上其实不是事情本身，而是人们对它的反应，对吧？"
+ },
+ {
+  "seg": 616,
+  "start": 3406.972,
+  "end": 3410.055,
+  "speaker": "Unknown",
+  "en": "So if you talk to the, to the people, they're like really frustrated.",
+  "zh": "所以如果你和那些人聊，他们真的非常沮丧。"
+ },
+ {
+  "seg": 617,
+  "start": 3410.875,
+  "end": 3417.397,
+  "speaker": "Unknown",
+  "en": "So this means it's like highly emotional topic, but it's like, like, let's be honest, like, um, B2B sauce.",
+  "zh": "这意味着它是个高度情绪化的话题，但是，说实话，它是 B2B 软件。"
+ },
+ {
+  "seg": 618,
+  "start": 3417.677,
+  "end": 3417.937,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 619,
+  "start": 3418.137,
+  "end": 3419.258,
+  "speaker": "Unknown",
+  "en": "But it's like highly emotional.",
+  "zh": "但它又高度情绪化。"
+ },
+ {
+  "seg": 620,
+  "start": 3419.918,
+  "end": 3420.798,
+  "speaker": "Unknown",
+  "en": "Um, so that's a good thing.",
+  "zh": "嗯，这是件好事。"
+ },
+ {
+  "seg": 621,
+  "start": 3420.818,
+  "end": 3430.822,
+  "speaker": "Unknown",
+  "en": "And then when, if you combine this with, um, like something which is boring and niche, um, there's also an advantage because, um, again, like the, it's, um,",
+  "zh": "然后如果你把它和某种无聊且小众的东西结合起来，这也是一种优势，因为，再说一次，它，"
+ },
+ {
+  "seg": 622,
+  "start": 3431.802,
+  "end": 3434.924,
+  "speaker": "Unknown",
+  "en": "It's like also easy or easy for us to amaze those people, right?",
+  "zh": "对我们来说也更容易让那些人感到惊艳，对吧？"
+ },
+ {
+  "seg": 623,
+  "start": 3434.944,
+  "end": 3439.006,
+  "speaker": "Unknown",
+  "en": "Because like the really last revolution they have seen is like 20 years ago.",
+  "zh": "因为他们经历的上一场真正的革命大概是 20 年前。"
+ },
+ {
+  "seg": 624,
+  "start": 3440.006,
+  "end": 3444.969,
+  "speaker": "Unknown",
+  "en": "And then maybe a nicer user interface 10 years ago, but nothing else happened.",
+  "zh": "然后大概 10 年前可能多了一个更好看的用户界面，但除此之外什么都没发生。"
+ },
+ {
+  "seg": 625,
+  "start": 3446.23,
+  "end": 3452.493,
+  "speaker": "Unknown",
+  "en": "And so you have like boring, highly emotional, and then plus crazy business impact.",
+  "zh": "所以你同时拥有了：无聊、高度情绪化，再加上惊人的业务影响。"
+ },
+ {
+  "seg": 626,
+  "start": 3453.193,
+  "end": 3456.876,
+  "speaker": "Unknown",
+  "en": "So it feels like it's unnecessary, but I told you some examples.",
+  "zh": "所以它感觉起来是不必要的，但我跟你讲过一些例子。"
+ },
+ {
+  "seg": 627,
+  "start": 3456.896,
+  "end": 3464.103,
+  "speaker": "Unknown",
+  "en": "So it has obviously crazy P&L impact, but it has impact on the whole economy.",
+  "zh": "它显然对损益表有惊人的影响，还对整个经济有影响。"
+ },
+ {
+  "seg": 628,
+  "start": 3464.863,
+  "end": 3471.569,
+  "speaker": "Unknown",
+  "en": "So we are talking about how data centers are built, how aircrafts are built, how cars are built, how drones are built.",
+  "zh": "我们谈论的是数据中心是怎么建造的、飞机是怎么制造的、汽车是怎么制造的、无人机是怎么制造的。"
+ },
+ {
+  "seg": 629,
+  "start": 3471.969,
+  "end": 3479.736,
+  "speaker": "Unknown",
+  "en": "So it's extremely important that you have a fixed procurement process, not only to",
+  "zh": "所以拥有一套固定的采购流程极其重要，不仅是为了"
+ },
+ {
+  "seg": 630,
+  "start": 3480.977,
+  "end": 3482.219,
+  "speaker": "Unknown",
+  "en": "Make it happen and build something.",
+  "zh": "把事情做成、把东西造出来。"
+ },
+ {
+  "seg": 631,
+  "start": 3482.92,
+  "end": 3492.954,
+  "speaker": "Unknown",
+  "en": "But then also when you talk about like when we when you look at like the competitive landscape, so to get like 1% margin increase, you need to make 10% more revenue, 10% more sales.",
+  "zh": "而且当你看竞争格局的时候，要提高 1% 的利润率，你需要多做 10% 的收入、10% 的销售。"
+ },
+ {
+  "seg": 632,
+  "start": 3494.795,
+  "end": 3503.84,
+  "speaker": "Unknown",
+  "en": "So, like, if you just manage to get, like, 1% savings, it's, like, equals, like, 10% of sales that you have to do to get the same outcome in your P&L.",
+  "zh": "所以，如果你只是做到 1% 的节省，那就等同于你必须多做 10% 的销售，才能在损益表上获得同样的结果。"
+ },
+ {
+  "seg": 633,
+  "start": 3504.941,
+  "end": 3506.802,
+  "speaker": "Unknown",
+  "en": "So, like, it's tremendously important.",
+  "zh": "所以，它极其重要。"
+ },
+ {
+  "seg": 634,
+  "start": 3507.162,
+  "end": 3512.525,
+  "speaker": "Unknown",
+  "en": "And, like, you combine all of those three things, and then you have, like, a trillion-dollar business opportunity.",
+  "zh": "你把这三件事结合在一起，那就是一个万亿美元的商业机会。"
+ },
+ {
+  "seg": 635,
+  "start": 3512.965,
+  "end": 3514.286,
+  "speaker": "Unknown",
+  "en": "That's my opinion.",
+  "zh": "这是我的看法。"
+ },
+ {
+  "seg": 636,
+  "start": 3514.566,
+  "end": 3520.39,
+  "speaker": "Unknown",
+  "en": "Like, for procurement, but there are probably also, like, other things that, like, emotional, boring, and have a crazy business impact.",
+  "zh": "就采购而言是这样，但可能也有其他事情，同样是情绪化的、无聊的，并且有惊人的业务影响。"
+ },
+ {
+  "seg": 637,
+  "start": 3520.771,
+  "end": 3523.236,
+  "speaker": "Unknown",
+  "en": "Well, Vlad, thank you so much for joining us.",
+  "zh": "好的，Vlad,非常感谢你加入我们。"
+ },
+ {
+  "seg": 638,
+  "start": 3523.377,
+  "end": 3524.098,
+  "speaker": "Unknown",
+  "en": "This was a ton of fun.",
+  "zh": "这期节目非常有趣。"
+ },
+ {
+  "seg": 639,
+  "start": 3527.247,
+  "end": 3530.068,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 640,
+  "start": 3530.748,
+  "end": 3537.091,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们评分或留下评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 641,
+  "start": 3537.911,
+  "end": 3541.472,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 642,
+  "start": 3542.053,
+  "end": 3547.675,
+  "speaker": "Unknown",
+  "en": "Follow us on X and A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 643,
+  "start": 3548.155,
+  "end": 3550.656,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目再见。"
+ },
+ {
+  "seg": 644,
+  "start": 3552.771,
+  "end": 3565.757,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，本内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 645,
+  "start": 3566.497,
+  "end": 3571.16,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 646,
+  "start": 3571.68,
+  "end": 3578.323,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资组合的链接，请参阅 a16z.com forward slash disclosures。"
+ }
+]

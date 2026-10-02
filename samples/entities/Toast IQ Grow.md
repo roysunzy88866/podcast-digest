@@ -25,7 +25,7 @@ unlisted: true
 
 [[Maggie Crowley]] · [[Toast]] · [[Toast IQ]] · [[智能体]] · [[设计合作伙伴]] · [[重新上手]] · [[销售点系统]] · [[提示词]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Maggie Crowley":1,"Toast":3,"Toast IQ":1,"智能体":376,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":19,"Anthropic":158,"OpenAI":146}</script>
+<script type="application/json" class="pd-epn">{"Maggie Crowley":1,"Toast":3,"Toast IQ":1,"智能体":380,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":19,"Anthropic":159,"OpenAI":147}</script>
 
 <script>
 (function(){

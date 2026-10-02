@@ -195,8 +195,8 @@ Jared 明确承认仿真的边界:模拟患者再逼真也不是真患者,在模
 **换个口味**
 
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|让 AI 像人一样犯错：Simile 创始人的模拟人类生意]]<span class="pd-rz">同概念:仿真 (simulation)、智能体 (agent)</span>
+- [[2026-09-30-talks-the-state-of-ai-in-software-development|20万工程师的真实数据：AI 到底给开发者提速了多少]]<span class="pd-rz">同公司:Dora · 同概念:智能体 (agent)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:仿真 (simulation)、智能体 (agent)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

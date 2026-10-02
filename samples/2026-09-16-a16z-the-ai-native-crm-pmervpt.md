@@ -245,7 +245,7 @@ CRM 甚至是「比银行还难迁移」的品类，心理上你就是不想选�
 
 - [[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法]]<span class="pd-rz">同公司:Lightfield、Tome、Salesforce · 同概念:CRM、记录系统 (system of record)</span>
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)、绿地与棕地 (Greenfield)、记录系统 (system of record)、CRM</span>
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱]]<span class="pd-rz">同嘉宾:Alex Rampell · 同概念:智能体 (agent)</span>
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)、记录系统 (system of record)</span>
 
 </div>
 <div class="pd-ex">

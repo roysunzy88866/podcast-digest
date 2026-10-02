@@ -138,7 +138,7 @@ Jesse 提炼的原则是:文化信条必须可执行。「我们要成为透明�
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同公司:Decagon、Sierra · 同概念:智能体 (agent)</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Sierra · 同概念:智能体 (agent)</span>
-- [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)</span>
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同公司:Decagon、Salesforce · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

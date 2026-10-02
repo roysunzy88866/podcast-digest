@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Bedrock]] · [[AWS]] · [[Claude Code]] · [[Michael Giannangelli]] · [[Clare Liguori]] · [[Mike Chambers]] · [[Simon Maple]] · [[Nova]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"Bedrock":2,"AWS":16,"Claude Code":90,"Michael Giannangelli":1,"Clare Liguori":1,"Mike Chambers":1,"Simon Maple":10,"Nova":1,"Amazon":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"Bedrock":2,"AWS":16,"Claude Code":90,"Michael Giannangelli":1,"Clare Liguori":1,"Mike Chambers":1,"Simon Maple":10,"Nova":1,"Amazon":24}</script>
 
 <script>
 (function(){

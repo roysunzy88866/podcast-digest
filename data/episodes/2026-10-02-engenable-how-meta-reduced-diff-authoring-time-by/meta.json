@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by",
+  "audio_mp3": "https://anchor.fm/s/1116ee148/podcast/play/126443880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F432850442-44100-2-a27ccad50180d.mp3",
+  "duration_sec": 2804.137,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 459,
+  "asr": true,
+  "title_en": "How Meta reduced diff authoring time by 40%",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-10-02",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1790713786073-b3bb3d91eb43b.jpg",
+  "added": "2026-10-02",
+  "added_at": "2026-10-02T13:24:53.702Z",
+  "speaker_map": {
+    "SPEAKER_00": "Brian Hook",
+    "SPEAKER_01": "Moritz Beller"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Brian Hook",
+  "cohosts": [
+    "Moritz Beller"
+  ],
+  "title_zh": "Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币",
+  "guest_name": "Moritz Beller",
+  "guest_title": "Meta 软件工程研究员",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1790713786073-b3bb3d91eb43b.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-02T13:57:59.320Z"
+  }
+}

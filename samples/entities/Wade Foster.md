@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zapier":3,"MCP":68,"智能体":376,"Salesforce":33,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":24,"Automation Bench":1,"确定性":3}</script>
+<script type="application/json" class="pd-epn">{"Zapier":4,"MCP":68,"智能体":380,"Salesforce":34,"Nathan":4,"AI 熟练度":2,"确定性代码":1,"编码智能体":24,"Automation Bench":1,"确定性":3}</script>
 
 <script>
 (function(){

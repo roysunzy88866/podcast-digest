@@ -144,9 +144,9 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)、现有巨头 (incumbent)</span>
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同公司:Stripe · 同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
-- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

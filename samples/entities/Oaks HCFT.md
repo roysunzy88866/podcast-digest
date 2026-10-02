@@ -25,7 +25,7 @@ unlisted: true
 
 [[Annie Lamont]] · [[AI]] · [[大型语言模型]] · [[智能体]] · [[强化学习环境]] · [[Devoted]] · [[CHI]] · [[Halluminate]] · [[Augur]] · [[CareBridge]]
 
-<script type="application/json" class="pd-epn">{"Annie Lamont":1,"AI":26,"大型语言模型":5,"智能体":376,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
+<script type="application/json" class="pd-epn">{"Annie Lamont":1,"AI":26,"大型语言模型":5,"智能体":380,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
 
 <script>
 (function(){

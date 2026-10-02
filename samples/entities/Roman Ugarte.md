@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":74,"SpaceXAI":1,"OpenClaw":20,"OpenAI":146,"Anthropic":158,"Codex":69,"Cowork":6,"Salesforce":33,"智能体":376}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":74,"SpaceXAI":1,"OpenClaw":20,"OpenAI":147,"Anthropic":159,"Codex":69,"Cowork":6,"Salesforce":34,"智能体":380}</script>
 
 <script>
 (function(){

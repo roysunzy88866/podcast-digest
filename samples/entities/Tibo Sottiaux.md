@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":69,"OpenAI":146,"ChatGPT":87,"ChatGPT work":1,"harness":51,"智能体":376,"Rust":5,"开源":30,"沙箱":68,"代码审查":21}</script>
+<script type="application/json" class="pd-epn">{"Codex":69,"OpenAI":147,"ChatGPT":87,"ChatGPT work":1,"harness":51,"智能体":380,"Rust":5,"开源":30,"沙箱":68,"代码审查":21}</script>
 
 <script>
 (function(){

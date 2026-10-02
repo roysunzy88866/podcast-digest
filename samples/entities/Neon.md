@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Databricks]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Sarah Wang]] · [[Daytona]] · [[Reynold Xin]] · [[Martine Cassado]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"沙箱":68,"Databricks":19,"Ivan Burazin":1,"Matei Zaharia":1,"Sarah Wang":4,"Daytona":3,"Reynold Xin":1,"Martine Cassado":1,"Cognition":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"沙箱":68,"Databricks":19,"Ivan Burazin":1,"Matei Zaharia":1,"Sarah Wang":4,"Daytona":3,"Reynold Xin":1,"Martine Cassado":1,"Cognition":22}</script>
 
 <script>
 (function(){

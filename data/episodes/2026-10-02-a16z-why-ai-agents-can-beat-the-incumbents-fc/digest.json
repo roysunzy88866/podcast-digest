@@ -1,0 +1,196 @@
+{
+  "title_zh": "采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司",
+  "tldr": "a16z 合伙人 Seema Amble 与采购智能体公司 Leo 联合创始人兼 CEO Vlad 对谈：在位者为何困于记录系统，AI 原生创业公司的机会在哪。",
+  "digest_md": "这一集聊的是几乎所有 AI 应用公司都躲不开的问题：大厂已经有客户、有数据，再叠一个大模型就能做智能体，创业公司还剩下什么机会？a16z 合伙人 Seema Amble 最近写了篇文章《在位者来了》(The Incumbents Are Coming),专门讨论这件事；和她对谈的另一位主角是 Leo 的联合创始人兼 CEO Vlad——Leo 是一家为企业采购环节构建 AI 智能体的公司。他们选了采购这个企业里最复杂、也最不性感的环节来回答这个问题。最反直觉的一点是：企业 ERP 系统里那行看起来干干净净的采购记录，背后藏着 30 场利益相关者会议、500 封邮件和 20 张 Excel 表——**真正的采购工作，大部分发生在所有记录系统之外**，而这正是创业公司的切入口。\n\n## 在位者的强与弱：他们守着「记录」，不干「活儿」\n\nSeema 先把老命题翻新了一遍。过去讲在位者 vs 创业公司，是「分销 vs 创新」之争(借她合伙人 Alex Rampell 的说法)；现在多了第三块——在位者可以直接把大模型叠在自己产品上，变成一个强大得多的竞争者，比如把 Claude 和 Salesforce 捏在一起，数据现成、员工也用惯了。那创业公司凭什么存在？\n\n她的答案：**传统的在位者受限于他们的记录系统(system of record,即企业存放正式记录的软件，如 ERP、CRM),他们没有完成端到端的工作** [03:32 Seema Amble]。她举客户支持的例子：客户投诉「取消之后还被扣费」，要解决它得查计费、翻聊天历史、看合同——那不是一套记录系统能覆盖的，而是「围绕那个客户的知识以及它所触及的一切」。AI 原生创业公司的机会就在于宣布：我们要拥有整条端到端的链路 [04:16 Seema Amble]。\n\n那在位者为什么不追上来？Seema 的话很妙：「我会说他们是在退缩，但他们其实是被拖住了」[09:20 Seema Amble]。他们有分发渠道和客户信任，开启产品几乎无缝；但内部激励是死结——「解决工作本身」的智能体和「提供工作流」的现有产品是两个产品、两类买家、两个冲突的团队 [09:54 Seema Amble]。还有信任的另一面：在位者已有信任，但「如果他们过早地发布了什么产品，而产品很糟糕，他们就会毁掉信任」；而创业公司必须从一开始就赢得信任 [11:46 Vlad]。\n\n## 四类智能体：判断力逐级加码，在位者停在第一级\n\nSeema 把智能体分成四类，判断力的要求逐级上升，用「服务中断索赔」一个例子就能讲清：\n\n- **检索智能体**：调出合同条款、确认确实发生了中断，核实并综合信息——这就是一年前在位者一窝蜂「往聊天机器人上拍一个」的那类。\n- **流程智能体**：走完审批流程，按政策手册直接把赔偿账单应用上去——不涉及任何判断。\n- **政策智能体**：开始做判断——「故障持续了 20 分钟，足以认定为一次重大中断」，因为政策里并没有严格定义，它得自己裁量。\n- **委托方智能体(principal agent)**:权衡「这次中断太糟了，为了维护客户关系，值得在流程和政策之外给更多补偿」。\n\n关键在于：大多数在位者就算起步了，也停在第一类，顶多做一点流程；还没进入判断层面。为什么进不去？就是因为上面那些内部激励冲突——一旦你的智能体真的把活儿干完了，你原有的工作流产品卖给谁？\n\n## Leo 的打法：先赢信任，再做异常，最后做多智能体\n\nVlad 把这个框架落到采购上。Leo 跨越了全部四类智能体，具体用哪种取决于任务的复杂度和风险——有的用例已完全自主运行，有的需要人在回路。而流程型智能体对他们来说反而是个「支线任务」：发票处理这种清晰流程(检索信息、跨文档匹配、推回 SAP 或 Oracle)只是软件市场已有的东西，**却只占待完成工作的约 20%**;剩下 80% 是「发票如果是欺诈性的怎么办？有不匹配怎么办？不走顺利路径怎么办？」所以他们很快转向了让智能体做异常处理 [12:43 Vlad]。\n\n赢得企业信任的路子很朴素：**没有任何企业会从第一天起就上完全自主的谈判智能体，「因为他们第一天既不信任我们，也不信任这项技术」** [16:30 Vlad]。所以先让人在回路里，把所有反馈和经验教训喂给智能体——「然后他们突然就信任我们了，一万次谈判、两万次谈判、十万次谈判」[17:03 Vlad]。数百万美元级的大谈判，则刻意让成本工程师始终在环：智能体跑几个小时，征求反馈，再做下一步。\n\n一个被验证过的洞见：企业对 5 万美元以下的支出根本不在乎，因为没有人力去谈。所以 Vlad 开玩笑说这对其他初创公司是个「黑客技巧」——你就给企业发一张 4 万的发票，「他们大概率不会去谈判，因为他们没有那个能力」——除非对方装了 Leo 的智能体 [18:19 Vlad]。这类谈判的下行风险几乎为零：原来根本没谈，再差的智能体也比没有强。\n\n## 为什么必须端到端：一封错过的邮件，数亿美元\n\n采购为什么值得这么做？Vlad 拿造飞机举例：你要向成千上万家供应商采购，而一个极小的摩擦就能造成疯狂的影响——某个零件晚到两周，可能造成数亿美元损失、拖垮整个项目。而采购经理的 Outlook 里躺着 500 封邮件，「如果他们错过了这封邮件，就是数亿美元的损失」[23:08 Vlad]。更糟的是，记录系统里存的唯一东西就一个到货日期——你看得见「不是这周三，是下周三」，看不见它到底意味着「没关系」还是「一亿美元的损失」。Leo 的智能体做的不只是检索信息，而是接着做判断：有没有影响？什么影响？怎么解决？\n\n面对「货从船上掉下去、道路封闭」这种无解的物理世界问题，Vlad 的回答是：这是概率问题。你改变不了事故，但拥有全部上下文就能预测——知道某个供应商 20% 的货会缺失、另一个只缺 1%,「对于这个用例来说，你付 10 倍的钱是值得的，因为这批货实际到达的概率更高」[25:05 Vlad]。而且上下文不止企业内部，还包括外部新闻、供应商、卖方、需求侧的信息。\n\n具体到一个螺栓的采购流程，Leo 的多智能体系统这样跑：需求方拍张照片、上传报价单或 Excel(建筑工人每两周才开一次笔记本，别指望他填 SAP——「在采购部门之外，没人在乎什么品类、总账科目、框架合同」)→ 库存智能体查内部调拨 → 寻源智能体找内外部供应商 → 起草询价单(RFQ)发邮件 → 提取一堆格式各异的回复 → 价格基准分析发现谈判机会 → 调用谈判智能体(战略谈判带人工环、自主谈判或电子拍卖)→ 确认订单、货运跟踪、发票。Vlad 强调，单个智能体干不完这件事——一项人类级别的任务涉及八个人、三个部门、五种软件工具，「只有多智能体系统才能端到端地完成一项工作」。\n\n采购还分间接(笔记本电脑、营销服务、MRO 零件)和直接(造飞机真正需要的供应商)。直接采购不是 5 万家供应商，而是 100 到 2000 家、战略级重要、单家可能挂着十亿美元支出——这种就绝不自主谈判，而是打一场三个月的、10 个人全职准备的硬仗。Vlad 点破：**「90% 的工作是准备」**，你在系统里看到的最终结果只是「哦，从十亿付到了九亿」。\n\n## 模型是商品，垂直数据不是\n\nHarvey、Decagon 这些公司都在微调模型，Leo 怎么做？Vlad 说他们用各家提供商的多个模型，把基础模型当大宗商品；很多用例靠「基础模型 + harness(围绕模型搭的集成、记忆、工作流等外围工程)」就能到 100%。但有些场景，最好的模型加最好的 harness 也只能到 80%——比如成本工程师分析图纸、判断「这个零件实际应该花多少钱」(should-cost modeling),以及价格基准测试：那些信息不公开、是跨企业的专有数据，通用模型根本训不了。他举了个直觉的例子：BCG 和麦肯锡做完全一样的工作，报价可能差 10 倍，你不知道哪个对，但采购经理有直觉；就像没人说得出视频该付多少钱，但问另一个视频创作者就有直觉，而且「如果你让他们把规则写下来，他们做不到」。所以 Leo 在探索的不是经典 LLM,而是像「Jeff」这类模型在做的那种**基于结果训练**的方向——输入文本数据，输出直接是一个结果、一个完美价格。\n\n## 自建 vs 外购：8 小时能搭出 70%,但 70% 性能 ≠ 70% 自动化\n\n客户最常问：我不能接个大模型自己干吗？Vlad 的回答很坦诚：Leo 三年前的第一个爆款用例——把报价信息录入 SAP——如今工程师 8 小时就能复刻，这已经是 Leo 的招聘面试题。但你只能做到 70%,而**「70% 的性能，不代表 70% 的自动化」——你可能仍然要做 100% 的工作，所有人都得检查数据，甚至创造了比以前更多的工作量** [41:28 Vlad]。那最后的 20% 恰恰是进入生产环境的关键。\n\nSeema 补了一个真实故事：一家财富 500 强公司自建现金回收产品，三四个月后发现上下文不够、质量差，两套 ERP 要合并还要再收购一家，谁来更新映射、测试、把异常处理映射到完全不同的系统？他们很快意识到内部自建说不通——「这和过去的 DIY 没什么不同」，企业应该专注核心能力。Vlad 的建议是：你可以自建，但那意味着「AI 采购智能体的采购团队」得成为你的核心能力之一，先评估这点是否成立。\n\n## 当买卖双方都有智能体：价格是零和，但另外 5000 项任务不是\n\n供应商侧也在 AI 化吗？有意思的是，一直领先采购侧的销售方，在财富 500 强的供应商里反而没真正部署智能体。而采购的优势在于：工业企业里采购对供应商有支配力——你甚至可以要求供应商用什么工具。所以 Leo 的野心是**同时拥有交易双方**。那谈判智能体对上谈判智能体，价格不就死锁了？Vlad 的回答是本集最漂亮的思维翻转：「价格是已经发生的其他 5000 项任务的结果」[47:46 Vlad]。而在这 5000 项任务上，买卖双方激励完全一致——销售方希望摩擦少，买方希望数据中心早日建成，没人想因为分析供应商回复太慢而晚六个月。零和的只有价格，合作空间在其余一切。\n\n这套打法也塑造了 Leo 的组织：85% 是工程师(不想变成咨询公司)，前向部署工程师的 KPI 就是「你的工作字面上就是把自己自动化掉」，自动化完了就去做下一个任务。\n\n## 无聊 × 高度情绪化 × 惊人的损益影响 = 万亿机会\n\n为什么选采购？Vlad 的答案层层叠加：采购是个普遍被讨厌的低 NPS 领域(Seema 说她做过数百万通客户电话里最不满的一次就在这个品类)，人们极度沮丧——所以它高度情绪化；它又无聊、小众，上一次真正的革命是 20 年前，10 年前不过换了个好看点的界面，所以容易被惊艳；再加上惊人的业务影响——「如果你只是做到 1% 的节省，那就等同于你必须多做 10% 的销售，才能在损益表上获得同样的结果」[58:14 Vlad]。三样叠加，「那就是一个万亿美元的商业机会」。\n\n## 本集带走\n\n- **在位者的软肋是「记录」不是「活儿」**：ERP/CRM 只存结果(一个价格、一个日期)，端到端的工作——会议、邮件、表格、异常、判断——都在系统之外。AI 原生创业公司就该抢这整条链路。\n- **信任是渐进挣来的**：从人在回路起步，把人的反馈喂给智能体，客户才会一路放行到十万次自主谈判；高风险大谈判永远刻意保留专家在环。\n- **清晰流程只是 20% 的问题**：发票匹配谁都能做；欺诈、不匹配、不走寻常路的异常处理才是 80%,也是壁垒所在。\n- **70% 性能 ≠ 70% 自动化**：性能七成时你仍要做百分之百的活儿，甚至更多；最后 20%(集成、记忆、垂直数据)才是进入生产环境的门槛，也是「自建 8 小时」和「好用」之间的差距。\n- **价格零和，其余全 win-win**:谈判智能体对上谈判智能体不必死锁——价格只是 5000 项任务的结果，其余任务上买卖双方激励一致，平台可以吃双方。\n- **选品公式**：无聊 + 高度情绪化 + 惊人的 P&L 影响(1% 节省 = 多做 10% 销售)= 值得下注的垂直方向。",
+  "quotes": [
+    {
+      "en": "And it really centers around the fact that the legacy incumbent is limited to their system of record and that record that they have, and they're not completing the end-to-end job.",
+      "zh": "它真正的核心在于：传统的在位者受限于他们的记录系统和他们所拥有的那份记录，他们没有完成端到端的工作。",
+      "timestamp": "03:32",
+      "speaker": "Seema Amble"
+    },
+    {
+      "en": "However, the opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc.",
+      "zh": "然而，AI 原生创业公司的机会在于说：我们要拥有整条端到端的链路。",
+      "timestamp": "04:16",
+      "speaker": "Seema Amble"
+    },
+    {
+      "en": "Yeah, okay, so I would say they're holding back, but they're held back.",
+      "zh": "我会说他们是在退缩，但他们其实是被拖住了。",
+      "timestamp": "09:20",
+      "speaker": "Seema Amble"
+    },
+    {
+      "en": "The flip side is there's all these internal incentive issues, right, which is if you start getting into more complicated agents, it's an internal conflict with an existing product that's offering workflow versus you're resolving the work.",
+      "zh": "反过来讲，存在各种内部激励问题：如果你开始做更复杂的智能体，就会与现有的、提供工作流的产品产生内部冲突——因为你的产品是在解决工作本身。",
+      "timestamp": "09:54",
+      "speaker": "Seema Amble"
+    },
+    {
+      "en": "And like we as a startup, scale-up, we have to earn the trust, incumbents already have the trust, but this also means they can destroy the trust if they ship something like too early and the product maybe doesn't work or it's bad",
+      "zh": "我们作为一家初创公司、一家规模化中的公司，必须赢得信任；在位者已经拥有信任，但这也意味着，如果他们过早发布什么产品，而产品不好用、很糟糕，他们就会毁掉信任。",
+      "timestamp": "11:46",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "And then they suddenly trust us for like 10K negotiations, 20K negotiations, 100K negotiations.",
+      "zh": "然后他们突然就信任我们了——一万次谈判、两万次谈判、十万次谈判。",
+      "timestamp": "17:03",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "This is maybe a hack for other startups. You can just send an enterprise an invoice for 40k. They will probably not negotiate because they don't have the capacity to do so.",
+      "zh": "这对其他初创公司来说也许是个黑客技巧：你就给一家企业发一张 4 万的发票，他们大概率不会去谈判，因为他们没有那个能力。",
+      "timestamp": "18:19",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "So this can mean that you have 70% of the performance, but you still need to do 100% of the work because 70% is not that much.",
+      "zh": "所以这可能意味着你有 70% 的性能，但你仍然要做 100% 的工作，因为 70% 并不算多。",
+      "timestamp": "41:28",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "So sales are sexy, procurement is unsexy, but it's like one process and procurement is the counterpart.",
+      "zh": "销售是性感的，采购是不性感的，但它们是同一个流程，而采购是对应的另一方。",
+      "timestamp": "45:36",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "So like their KPIs, like you are seeing this happening like multiple times, like you're literally your job is like to automate yourself.",
+      "zh": "比如他们的 KPI——你会看到这种情况发生很多次：你的工作字面上就是把自己自动化掉。",
+      "timestamp": "51:47",
+      "speaker": "Vlad Kyle"
+    },
+    {
+      "en": "So, like, if you just manage to get, like, 1% savings, it's, like, equals, like, 10% of sales that you have to do to get the same outcome in your P&L.",
+      "zh": "如果你只是做到 1% 的节省，那就等同于你必须多做 10% 的销售，才能在损益表上获得同样的结果。",
+      "timestamp": "58:14",
+      "speaker": "Vlad Kyle"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:32",
+      "speaker": "Seema Amble",
+      "en": "And it really centers around the fact that the legacy incumbent is limited to their system of record and that record that they have, and they're not completing the end-to-end job.",
+      "zh": "它真正的核心在于：传统的在位者受限于他们的记录系统和他们所拥有的那份记录，他们没有完成端到端的工作。"
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Seema Amble",
+      "en": "However, the opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc.",
+      "zh": "然而，AI 原生创业公司的机会在于说：我们要拥有整条端到端的链路。"
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Vlad",
+      "en": "So there are probably 30 stakeholder meetings happened, 500 emails, 20 Excel sheets, and that's the same for the counterpart procurement.",
+      "zh": "所以背后可能是开了 30 次利益相关者会议、发了 500 封邮件、做了 20 张 Excel 表——对方采购那边也是一样。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Vlad",
+      "en": "So like most of the work in procurement actually happens outside of this ERP or any system of record.",
+      "zh": "采购中的大部分工作，其实发生在 ERP 或任何记录系统之外。"
+    },
+    {
+      "timestamp": "09:20",
+      "speaker": "Seema Amble",
+      "en": "Yeah, okay, so I would say they're holding back, but they're held back.",
+      "zh": "我会说他们是在退缩，但他们其实是被拖住了。"
+    },
+    {
+      "timestamp": "09:54",
+      "speaker": "Seema Amble",
+      "en": "The flip side is there's all these internal incentive issues, right, which is if you start getting into more complicated agents, it's an internal conflict with an existing product that's offering workflow versus you're resolving the work.",
+      "zh": "反过来讲，存在各种内部激励问题：如果你开始做更复杂的智能体，就会与现有的、提供工作流的产品产生内部冲突——因为你的产品是在解决工作本身。"
+    },
+    {
+      "timestamp": "11:46",
+      "speaker": "Vlad",
+      "en": "And like we as a startup, scale-up, we have to earn the trust, incumbents already have the trust, but this also means they can destroy the trust if they ship something like too early and the product maybe doesn't work or it's bad",
+      "zh": "我们作为一家初创公司、一家规模化中的公司，必须赢得信任；在位者已经拥有信任，但这也意味着，如果他们过早发布什么产品，而产品不好用、很糟糕，他们就会毁掉信任。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Vlad",
+      "en": "Because 80% of the problem is like, what if the invoice is fraudulent?",
+      "zh": "因为 80% 的问题是：如果发票是欺诈性的怎么办？"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Vlad",
+      "en": "Because they don't trust us and they don't trust the technology from day one.",
+      "zh": "因为他们从第一天起，既不信任我们，也不信任这项技术。"
+    },
+    {
+      "timestamp": "17:03",
+      "speaker": "Vlad",
+      "en": "And then they suddenly trust us for like 10K negotiations, 20K negotiations, 100K negotiations.",
+      "zh": "然后他们突然就信任我们了——一万次谈判、两万次谈判、十万次谈判。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Vlad",
+      "en": "This is maybe a hack for other startups. You can just send an enterprise an invoice for 40k. They will probably not negotiate because they don't have the capacity to do so.",
+      "zh": "这对其他初创公司来说也许是个黑客技巧：你就给一家企业发一张 4 万的发票，他们大概率不会去谈判，因为他们没有那个能力。"
+    },
+    {
+      "timestamp": "23:08",
+      "speaker": "Vlad",
+      "en": "And if they missed this email, hundreds of millions of damage.",
+      "zh": "而如果他们错过了这封邮件，就是数亿美元的损失。"
+    },
+    {
+      "timestamp": "25:05",
+      "speaker": "Vlad",
+      "en": "But for this use case, it's fine for you to pay 10x the amount because you have like a higher probability that this thing actually arrives.",
+      "zh": "但对于这个用例来说，你付 10 倍的钱是值得的，因为这批货实际到达的概率更高。"
+    },
+    {
+      "timestamp": "38:15",
+      "speaker": "Seema Amble",
+      "en": "This is all said, I think when we talk a lot about moats, it's really, really hard to forecast your moat going forward.",
+      "zh": "话虽如此，我认为当我们大量谈论护城河时，要预测你未来的护城河真的非常难。"
+    },
+    {
+      "timestamp": "41:28",
+      "speaker": "Vlad",
+      "en": "So this can mean that you have 70% of the performance, but you still need to do 100% of the work because 70% is not that much.",
+      "zh": "所以这可能意味着你有 70% 的性能，但你仍然要做 100% 的工作，因为 70% 并不算多。"
+    },
+    {
+      "timestamp": "45:35",
+      "speaker": "Vlad",
+      "en": "So sales are sexy, procurement is unsexy, but it's like one process and procurement is the counterpart.",
+      "zh": "销售是性感的，采购是不性感的，但它们是同一个流程，而采购是对应的另一方。"
+    },
+    {
+      "timestamp": "47:46",
+      "speaker": "Vlad",
+      "en": "But what we also discuss is that price is the outcome of 5,000 other tasks that happened.",
+      "zh": "但我们也讨论到：价格是已经发生的其他 5000 项任务的结果。"
+    },
+    {
+      "timestamp": "51:47",
+      "speaker": "Vlad",
+      "en": "So like their KPIs, like you are seeing this happening like multiple times, like you're literally your job is like to automate yourself.",
+      "zh": "比如他们的 KPI——你会看到这种情况发生很多次：你的工作字面上就是把自己自动化掉。"
+    },
+    {
+      "timestamp": "54:05",
+      "speaker": "Vlad",
+      "en": "But they never changed how those people actually work.",
+      "zh": "但它们从未改变这些人实际的工作方式。"
+    },
+    {
+      "timestamp": "58:14",
+      "speaker": "Vlad",
+      "en": "So, like, if you just manage to get, like, 1% savings, it's, like, equals, like, 10% of sales that you have to do to get the same outcome in your P&L.",
+      "zh": "如果你只是做到 1% 的节省，那就等同于你必须多做 10% 的销售，才能在损益表上获得同样的结果。"
+    }
+  ],
+  "voice_script": "今天聊一期跟所有 AI 创业公司都有关的话题：大厂手里已经有客户、有数据，往产品上叠一个大模型就能做智能体，那创业公司还剩什么机会？\n\n聊这个问题的两个人都很有分量。一位是 a16z 的合伙人 Seema Amble,最近刚写了篇文章，标题就叫《在位者来了》；另一位是 Leo 的联合创始人兼 CEO Vlad。Leo 这家公司做的事情，是给企业采购环节造 AI 智能体。注意，他们故意挑了采购这个环节来回答上面那个问题——这可是企业里最复杂、也最不性感的一块活儿。而结论恰恰反直觉：企业 ERP 系统里那行看起来干干净净的采购记录，背后可能藏着三十场利益相关者会议、五百封邮件、二十张 Excel 表。也就是说，真正的采购工作，大部分发生在所有记录系统之外。这正是创业公司的切入口。\n\n先把 Seema 的判断讲清楚。过去讨论在位者对创业公司，说法是分销对创新，大厂渠道强，小厂靠创新。现在多了第三块：大厂可以直接把大模型叠在自己产品上，比如把 Claude 和 Salesforce 捏在一起，数据现成，员工也用惯了。那创业公司凭什么存在？Seema 的答案是：传统的在位者受限于他们的记录系统，就是 ERP、CRM 这类企业存放正式记录的软件，因为他们没有完成端到端的工作。举个客户支持的例子：客户投诉说取消之后还被扣费，要解决它，得查计费、翻聊天历史、看合同，这不是一套记录系统能覆盖的，而是围绕那个客户的知识，以及它所触及的一切。所以 AI 原生创业公司的机会，就是宣布：我们要拥有整条端到端的链路。\n\n那在位者为什么不追上来？Seema 有句话很妙：我会说他们是在退缩，但他们其实是被拖住了。有分发渠道、有客户信任，产品一开几乎无缝；但内部激励是个死结——真正把活儿干完的智能体，和提供工作流的现有产品，是两个产品、两类买家、两个互相打架的团队。一旦智能体真把工作做完了，原来的工作流软件卖给谁？\n\n为了把这个逻辑讲透，Seema 把智能体分成四类，判断力的要求逐级上升，用一个服务中断索赔的例子就能说明白。第一类是检索智能体，调出合同条款、确认确实发生了中断，这就是一年前在位者一窝蜂往聊天机器人上拍一个的那类。第二类是流程智能体，走完审批、按政策手册把赔偿账单应用上去，不涉及判断。第三类是政策智能体，开始做判断了，比如故障持续二十分钟，够不够认定成一次重大中断？政策里没严格定义，得自己裁量。第四类是委托方智能体，权衡的是：这次中断太糟了，为了维护客户关系，值得在流程和政策之外给更多补偿。关键在于，大多数在位者就算起步了，也停在第一类，顶多做点流程，进不了判断层面——原因就是刚才说的内部激励冲突。\n\n好，框架有了，接下来看 Vlad 怎么把它落到采购上。Leo 跨越了全部四类智能体，用哪种取决于任务的复杂度和风险。有意思的是，流程型智能体对他们反而是支线任务：像发票处理这种清晰流程，检索信息、跨文档匹配、推回 SAP 或 Oracle,只是软件市场已有的东西，却只占待完成工作的约两成；剩下八成是什么？是发票如果是欺诈性的怎么办？有不匹配怎么办？不走顺利路径怎么办？所以很快转向了让智能体做异常处理。\n\n信任这条路，走法很朴素。Vlad 说得很直白：没有任何企业会从第一天起就上完全自主的谈判智能体，因为他们第一天既不信任这家公司，也不信任这项技术。所以先让人在回路里，把所有反馈和经验教训喂给智能体，然后客户突然就信任了，一万次谈判、两万次谈判、十万次谈判。数百万美元级的大谈判，则刻意让成本工程师始终在环。\n\n这里还有个被验证过的洞见，听着像玩笑：企业对五万美元以下的支出根本不在乎，因为没人力去谈。所以给企业发一张四万的发票，大概率不会有人来砍价，除非对方装了 Leo 的智能体。这类谈判的下行风险几乎为零——原来根本没谈，再差的智能体也比没有强。\n\n为什么采购值得下这么大的力气？Vlad 拿造飞机举例：要向成千上万家供应商采购，某个零件晚到两周，可能造成数亿美元的损失。而采购经理的 Outlook 里躺着五百封邮件，错过其中一封，就是数亿美元。更糟的是，记录系统里存的唯一东西就一个到货日期——看得见不是这周三而是下周三，看不见它到底意味着没关系，还是一亿美元的损失。Leo 的智能体做的不只是检索，而是接着做判断：有没有影响？什么影响？怎么解决？具体到流程上，一项人类级别的任务涉及八个人、三个部门、五种软件工具，所以单个智能体干不完，只有多智能体系统才能端到端地完成一项工作。\n\n客户最常问的一个问题：我不能接个大模型自己干吗？Vlad 的回答很坦诚：Leo 三年前那个爆款用例，把报价信息录入 SAP,如今工程师八小时就能复刻——这已经是 Leo 的招聘面试题了。但你只能做到七成，而七成的性能，不代表七成的自动化——你可能仍然要做百分之百的工作，所有人都得检查数据，甚至创造了比以前更多的工作量。最后那两成，集成、记忆、垂直数据，才是进入生产环境的门槛。Seema 还补了个真实故事：一家财富五百强自建现金回收产品，三四个月后发现上下文不够、质量差，很快意识到内部自建说不通——这和过去的 DIY 没什么不同。\n\n供应商那边也 AI 化了怎么办？谈判智能体对上谈判智能体，价格不就死锁了？Vlad 的回答是本集最漂亮的思维翻转：价格是已经发生的其他五千项任务的结果。而在这五千项任务上，买卖双方激励完全一致——销售方希望摩擦少，买方希望项目早日落地。零和的只有价格，合作空间在其余一切。\n\n最后一个问题：为什么偏偏选采购？Vlad 的答案层层叠加。采购是个普遍被讨厌的领域，人们极度沮丧，所以它高度情绪化；它又无聊、小众，上一次真正的革命是二十年前，所以容易被惊艳；再加上惊人的业务影响——只要做到百分之一的节省，就等同于多做百分之十的销售才能换来的损益表结果。三样叠加，按 Vlad 的说法，那就是一个万亿美元的商业机会。\n\n回到开头那个问题：大厂有数据有客户，创业公司还剩什么？剩下的恰恰是大厂守不住的那块——记录只存结果，活儿都在系统之外。在位者的软肋是记录不是活儿，而 AI 原生创业公司的机会，就是 owning 整条端到端的链路。"
+}

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]]
+[[Jonathan]] [[Mali]] [[Bill Ackman]] [[Thariq Shihipar]] [[Eddy Lazzarin]] [[Nick]] [[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":158,"OpenAI":146,"Claude":76,"Claude Code":90,"宪法 AI":2,"智能体":376,"缩放定律":9,"对齐":11,"超级智能":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":159,"OpenAI":147,"Claude":77,"Claude Code":90,"宪法 AI":2,"智能体":380,"缩放定律":9,"对齐":12,"超级智能":5}</script>
 
 <script>
 (function(){

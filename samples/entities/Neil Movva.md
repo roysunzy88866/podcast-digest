@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":1,"SAIL Research":1,"NVIDIA":49,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":376,"推理":65,"GPU":18,"KVCache":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":1,"SAIL Research":1,"NVIDIA":49,"AMD":4,"Cerebrus":2,"TSMC":6,"智能体":380,"推理":65,"GPU":18,"KVCache":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1842 @@
+[
+ {
+  "seg": 0,
+  "start": 13.055,
+  "end": 13.815,
+  "speaker": "Unknown",
+  "en": "I'm Justin Riach.",
+  "zh": "我是 Justin Riach。"
+ },
+ {
+  "seg": 1,
+  "start": 13.835,
+  "end": 15.476,
+  "speaker": "Unknown",
+  "en": "I'm the deputy CTO at DX.",
+  "zh": "我是 DX 的副 CTO。"
+ },
+ {
+  "seg": 2,
+  "start": 15.676,
+  "end": 21.638,
+  "speaker": "Unknown",
+  "en": "I get to do a lot of our research around developer experience and its relation to developer productivity.",
+  "zh": "我负责做很多我们围绕开发者体验及其与开发者生产力关系的研究。"
+ },
+ {
+  "seg": 3,
+  "start": 22.079,
+  "end": 32.803,
+  "speaker": "Unknown",
+  "en": "And certainly over the last year, a lot of that research has focused on AI's impact on the developer experience and basic aspects of productivity within an organization.",
+  "zh": "而且可以肯定的是,在过去一年里,这些研究很多都聚焦在 AI 对开发者体验的影响,以及对组织内生产力基本方面的影响上。"
+ },
+ {
+  "seg": 4,
+  "start": 33.403,
+  "end": 42.348,
+  "speaker": "Unknown",
+  "en": "So we produce these quarterly reports, our state of AI and AI impact reports, which looks at really a lot of raw data that we're able to get from our platform.",
+  "zh": "我们会制作这些季度报告,我们的 AI 现状报告和 AI 影响报告,它们真正审视了大量我们能从平台上获取的原始数据。"
+ },
+ {
+  "seg": 5,
+  "start": 42.388,
+  "end": 50.433,
+  "speaker": "Unknown",
+  "en": "Our platform is a research-backed platform built from the same folks who worked on DoraMetrics and the Space Framework and the DevX Framework.",
+  "zh": "我们的平台是一个有研究支撑的平台,由那些曾参与 DoraMetrics、Space 框架和 DevX 框架工作的同一批人打造。"
+ },
+ {
+  "seg": 6,
+  "start": 51.193,
+  "end": 59.216,
+  "speaker": "Unknown",
+  "en": "And really, at the end of the day, it's a data gathering platform that can look at a lot of different trends across an organization with, you know, how are we focusing on developer experience?",
+  "zh": "说到底,它是一个数据收集平台,可以观察整个组织内许多不同的趋势,比如我们是如何聚焦开发者体验的?"
+ },
+ {
+  "seg": 7,
+  "start": 59.656,
+  "end": 62.537,
+  "speaker": "Unknown",
+  "en": "Are we seeing outcomes and improvements with developer experience?",
+  "zh": "我们在开发者体验上是否看到了成果和改进?"
+ },
+ {
+  "seg": 8,
+  "start": 62.897,
+  "end": 68.219,
+  "speaker": "Unknown",
+  "en": "And certainly, are we seeing outcomes with the way that we're using AI in our workflows?",
+  "zh": "而且,我们在工作流中使用 AI 的方式上,是否看到了成果?"
+ },
+ {
+  "seg": 9,
+  "start": 68.579,
+  "end": 78.102,
+  "speaker": "Unknown",
+  "en": "This session is going to be a little bit different than the 345 session, I think, that's up in the leadership room later today, which just looks at the raw data from our newest report.",
+  "zh": "这个环节会和今天晚些时候在领导层会议室的 345 环节有点不同,我想,那个环节只是看我们最新报告的原始数据。"
+ },
+ {
+  "seg": 10,
+  "start": 78.122,
+  "end": 79.162,
+  "speaker": "Unknown",
+  "en": "It's a little bit of a preview.",
+  "zh": "那算是一种预览。"
+ },
+ {
+  "seg": 11,
+  "start": 79.535,
+  "end": 85.477,
+  "speaker": "Unknown",
+  "en": "This is looking at more like organizational trends and how our workflow is changing and things like that based on the data that we're seeing.",
+  "zh": "这个环节更多是看组织层面的趋势,以及我们的工作流正在如何变化之类的,基于我们看到的数据。"
+ },
+ {
+  "seg": 12,
+  "start": 86.828,
+  "end": 90.691,
+  "speaker": "Unknown",
+  "en": "So first things first, let's kind of look at what we're seeing in terms of the velocity impact.",
+  "zh": "所以,先做第一件事,让我们来看看在速度影响方面我们看到了什么。"
+ },
+ {
+  "seg": 13,
+  "start": 91.231,
+  "end": 99.757,
+  "speaker": "Unknown",
+  "en": "Now, if anybody's familiar with looking at various velocity metrics like PR throughput and deployment frequency, like hopefully you understand the caveat that these metrics are not perfect.",
+  "zh": "现在,如果有人熟悉查看各种速度指标,比如 PR 吞吐量和部署频率,希望你理解一个注意事项:这些指标并不完美。"
+ },
+ {
+  "seg": 14,
+  "start": 100.097,
+  "end": 104.46,
+  "speaker": "Unknown",
+  "en": "They are proxy metrics for understanding the way that work flows through an organization.",
+  "zh": "它们是理解工作如何在组织中流转的代理指标。"
+ },
+ {
+  "seg": 15,
+  "start": 104.82,
+  "end": 107.562,
+  "speaker": "Unknown",
+  "en": "They're not fully representative of the value generation.",
+  "zh": "它们并不能完全代表价值创造。"
+ },
+ {
+  "seg": 16,
+  "start": 107.582,
+  "end": 110.004,
+  "speaker": "Unknown",
+  "en": "We're going to look at some metrics that are closer to that as well.",
+  "zh": "我们也会看一些更接近价值创造的指标。"
+ },
+ {
+  "seg": 17,
+  "start": 110.424,
+  "end": 112.025,
+  "speaker": "Unknown",
+  "en": "But let's just try to understand",
+  "zh": "但让我们先试着理解一下"
+ },
+ {
+  "seg": 18,
+  "start": 112.405,
+  "end": 116.746,
+  "speaker": "Unknown",
+  "en": "What this technology is doing in terms of just the raw velocity metrics in the organization.",
+  "zh": "这项技术在组织内的原始速度指标方面正在做什么。"
+ },
+ {
+  "seg": 19,
+  "start": 117.246,
+  "end": 119.727,
+  "speaker": "Unknown",
+  "en": "So here's our DORA metric for deployment frequency.",
+  "zh": "这是我们关于部署频率的 DORA 指标。"
+ },
+ {
+  "seg": 20,
+  "start": 119.947,
+  "end": 121.247,
+  "speaker": "Unknown",
+  "en": "Who's familiar with DORA metrics?",
+  "zh": "谁熟悉 DORA 指标?"
+ },
+ {
+  "seg": 21,
+  "start": 122.368,
+  "end": 123.808,
+  "speaker": "Unknown",
+  "en": "All right, most of you, great.",
+  "zh": "好的,大多数人都熟悉,很好。"
+ },
+ {
+  "seg": 22,
+  "start": 124.648,
+  "end": 131.97,
+  "speaker": "Unknown",
+  "en": "So this is one of the, you know, four key metrics that tries to understand directionally, you know, the speed of shipping work within an environment.",
+  "zh": "这是那四个关键指标之一,试图从方向上理解一个环境内交付工作的速度。"
+ },
+ {
+  "seg": 23,
+  "start": 132.462,
+  "end": 134.965,
+  "speaker": "Unknown",
+  "en": "And we're seeing it steadily increase.",
+  "zh": "而我们看到它在稳步上升。"
+ },
+ {
+  "seg": 24,
+  "start": 135.126,
+  "end": 137.128,
+  "speaker": "Unknown",
+  "en": "It's tapering off a little bit.",
+  "zh": "它有一点趋缓。"
+ },
+ {
+  "seg": 25,
+  "start": 137.509,
+  "end": 138.97,
+  "speaker": "Unknown",
+  "en": "I think there's reasons for that.",
+  "zh": "我认为这是有原因的。"
+ },
+ {
+  "seg": 26,
+  "start": 139.731,
+  "end": 146.761,
+  "speaker": "Unknown",
+  "en": "Some of the surge that we saw early on was due to people shipping PRs more frequently and things like that.",
+  "zh": "我们早期看到的一些激增是由于人们更频繁地提交 PR 之类的。"
+ },
+ {
+  "seg": 27,
+  "start": 147.782,
+  "end": 148.483,
+  "speaker": "Unknown",
+  "en": "So we're seeing",
+  "zh": "所以我们看到"
+ },
+ {
+  "seg": 28,
+  "start": 149.455,
+  "end": 150.475,
+  "speaker": "Unknown",
+  "en": "Increases in this.",
+  "zh": "这方面的增长。"
+ },
+ {
+  "seg": 29,
+  "start": 150.875,
+  "end": 153.636,
+  "speaker": "Unknown",
+  "en": "This is one small part of the SDLC PDLC, right?",
+  "zh": "这只是 SDLC PDLC 的一小部分,对吧?"
+ },
+ {
+  "seg": 30,
+  "start": 153.656,
+  "end": 158.498,
+  "speaker": "Unknown",
+  "en": "This is like the creation of the PR to actually trying to deploy this into production.",
+  "zh": "这就像从创建 PR 到真正尝试把它部署到生产环境。"
+ },
+ {
+  "seg": 31,
+  "start": 158.878,
+  "end": 160.458,
+  "speaker": "Unknown",
+  "en": "It doesn't tell us about revert rates.",
+  "zh": "它没有告诉我们回退率。"
+ },
+ {
+  "seg": 32,
+  "start": 160.498,
+  "end": 162.319,
+  "speaker": "Unknown",
+  "en": "It doesn't tell us about defect ratios.",
+  "zh": "它没有告诉我们缺陷率。"
+ },
+ {
+  "seg": 33,
+  "start": 162.639,
+  "end": 164.42,
+  "speaker": "Unknown",
+  "en": "It doesn't tell us about change failure rate.",
+  "zh": "它没有告诉我们变更失败率。"
+ },
+ {
+  "seg": 34,
+  "start": 164.76,
+  "end": 168.601,
+  "speaker": "Unknown",
+  "en": "It just tells us about how much stuff are we now kind of pushing out into production.",
+  "zh": "它只是告诉我们,我们现在大概往生产环境推出了多少东西。"
+ },
+ {
+  "seg": 35,
+  "start": 168.961,
+  "end": 173.845,
+  "speaker": "Unknown",
+  "en": "But, you know, the data is showing us that this number is steadily increasing, okay?",
+  "zh": "不过,数据告诉我们这个数字在稳步上升,好吗?"
+ },
+ {
+  "seg": 36,
+  "start": 174.266,
+  "end": 178.049,
+  "speaker": "Unknown",
+  "en": "The trends vary a little bit across regions.",
+  "zh": "这些趋势在不同地区间略有差异。"
+ },
+ {
+  "seg": 37,
+  "start": 178.189,
+  "end": 181.411,
+  "speaker": "Unknown",
+  "en": "We are seeing North America just sort of like trending up.",
+  "zh": "我们看到北美基本上是在往上走。"
+ },
+ {
+  "seg": 38,
+  "start": 181.632,
+  "end": 185.695,
+  "speaker": "Unknown",
+  "en": "We've seen Europe actually pull back a little bit just in the last quarter.",
+  "zh": "我们看到欧洲实际上在最近一个季度有所回落。"
+ },
+ {
+  "seg": 39,
+  "start": 186.636,
+  "end": 188.898,
+  "speaker": "Unknown",
+  "en": "I think, you know, there's a number of reasons for that.",
+  "zh": "我认为,这有很多原因。"
+ },
+ {
+  "seg": 40,
+  "start": 189.538,
+  "end": 191.959,
+  "speaker": "Unknown",
+  "en": "Obviously, the way work is done in these regions are differently.",
+  "zh": "显然,这些地区的工作方式是不同的。"
+ },
+ {
+  "seg": 41,
+  "start": 191.979,
+  "end": 195.54,
+  "speaker": "Unknown",
+  "en": "The way that we can spend money on this technology and think about token spend is different.",
+  "zh": "我们在这项技术上能花的钱、对 token 支出的考量也是不同的。"
+ },
+ {
+  "seg": 42,
+  "start": 195.78,
+  "end": 197.101,
+  "speaker": "Unknown",
+  "en": "The regulation is different.",
+  "zh": "监管也不同。"
+ },
+ {
+  "seg": 43,
+  "start": 197.921,
+  "end": 208.525,
+  "speaker": "Unknown",
+  "en": "But if we just look at the through line in general, we still see improvements in this one metric of deploy frequency, even across various regions.",
+  "zh": "但如果我们只看整体的主线,即使在各个不同地区,我们在部署频率这一个指标上仍然看到了改进。"
+ },
+ {
+  "seg": 44,
+  "start": 208.565,
+  "end": 211.386,
+  "speaker": "Unknown",
+  "en": "We do just see some variance in those regions.",
+  "zh": "我们确实在这些地区之间看到了一些差异。"
+ },
+ {
+  "seg": 45,
+  "start": 212.706,
+  "end": 214.107,
+  "speaker": "Unknown",
+  "en": "Here's one that's kind of interesting, though.",
+  "zh": "这有一个挺有意思的指标。"
+ },
+ {
+  "seg": 46,
+  "start": 214.852,
+  "end": 216.773,
+  "speaker": "Unknown",
+  "en": "The perceived rate of delivery.",
+  "zh": "感知交付速率。"
+ },
+ {
+  "seg": 47,
+  "start": 217.554,
+  "end": 222.177,
+  "speaker": "Unknown",
+  "en": "How much faster do engineers feel in terms of what they're delivering?",
+  "zh": "工程师们感觉自己交付东西的速度快了多少?"
+ },
+ {
+  "seg": 48,
+  "start": 222.597,
+  "end": 224.078,
+  "speaker": "Unknown",
+  "en": "It's gone up a little bit.",
+  "zh": "它上升了一点。"
+ },
+ {
+  "seg": 49,
+  "start": 224.438,
+  "end": 228.021,
+  "speaker": "Unknown",
+  "en": "This number shows an increase of about four and a half-ish percent.",
+  "zh": "这个数字显示上升了大约百分之四点五左右。"
+ },
+ {
+  "seg": 50,
+  "start": 229.602,
+  "end": 237.347,
+  "speaker": "Unknown",
+  "en": "But given that that's a full year and given all the investment and cost and new spend on AI, it's interesting that this perceived rate has not stayed",
+  "zh": "但考虑到那是整整一年，考虑到在 AI 上的所有投资、成本和新支出，有趣的是这种感知比率并没有保持"
+ },
+ {
+  "seg": 51,
+  "start": 237.827,
+  "end": 259.04,
+  "speaker": "Unknown",
+  "en": "It has not kind of crept up a little bit more especially when you look at some studies like obviously infamous flawed METR study if you're familiar with that study back in February they actually released a follow-up to that study saying that some of the signals they gathered were sort of imperfect and they needed to rethink some of that but what was interesting was that in these 16 engineers that were part of that study small study flawed study",
+  "zh": "它并没有再多爬升一点，尤其是当你看一些研究时，比如显然出了名有缺陷的 METR 研究，如果你熟悉那个研究的话，今年二月他们实际上发布了该研究的后续报告，说他们收集的一些信号有些不完善，需要重新思考其中一些，但有趣的是，在参与该研究的这 16 名工程师中——小型研究、有缺陷的研究"
+ },
+ {
+  "seg": 52,
+  "start": 260.1,
+  "end": 265.322,
+  "speaker": "Unknown",
+  "en": "The productivity went down by about 19%, but the perception went up by about 20%.",
+  "zh": "生产率下降了大约 19%，但感知却上升了大约 20%。"
+ },
+ {
+  "seg": 53,
+  "start": 265.342,
+  "end": 270.503,
+  "speaker": "Unknown",
+  "en": "So there was like a 40% spread in perception of productivity versus actual productivity.",
+  "zh": "所以在感知生产率与实际生产率之间大约有 40% 的差距。"
+ },
+ {
+  "seg": 54,
+  "start": 270.783,
+  "end": 275.525,
+  "speaker": "Unknown",
+  "en": "But here when we look at this on more of an aggregate, things interestingly stay sort of flat.",
+  "zh": "但在这里，当我们从更聚合的层面看这个数据时，有趣的是它基本保持平稳。"
+ },
+ {
+  "seg": 55,
+  "start": 277.189,
+  "end": 280.792,
+  "speaker": "Unknown",
+  "en": "All right, what about impact on quality and delivery, right?",
+  "zh": "好的，那么对质量和交付的影响呢，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 280.812,
+  "end": 285.977,
+  "speaker": "Unknown",
+  "en": "So those are just kind of our speed, our velocity metrics, but what is this actually doing to our software quality?",
+  "zh": "这些只是我们的速度、我们的速率指标，但这实际上对我们的软件质量做了什么？"
+ },
+ {
+  "seg": 57,
+  "start": 286.838,
+  "end": 290.981,
+  "speaker": "Unknown",
+  "en": "The first metric we'll look at here is the DORA change failure rate metric.",
+  "zh": "我们在这里要看的第一个指标是 DORA 变更失败率指标。"
+ },
+ {
+  "seg": 58,
+  "start": 291.742,
+  "end": 294.164,
+  "speaker": "Unknown",
+  "en": "And let me prepare you, most of you are sitting down.",
+  "zh": "让我先给你们打个预防针，你们大多数人是坐着的。"
+ },
+ {
+  "seg": 59,
+  "start": 294.525,
+  "end": 295.666,
+  "speaker": "Unknown",
+  "en": "It's very volatile.",
+  "zh": "它非常波动。"
+ },
+ {
+  "seg": 60,
+  "start": 296.126,
+  "end": 298.467,
+  "speaker": "Unknown",
+  "en": "The impact that we've seen on quality over this period of time.",
+  "zh": "这是我们在这段时间内看到的质量影响。"
+ },
+ {
+  "seg": 61,
+  "start": 298.927,
+  "end": 305.368,
+  "speaker": "Unknown",
+  "en": "Each line on this graph represents a single company that was part of this particular part of the study.",
+  "zh": "这张图上的每一条线代表参与这项研究这一特定部分的一家公司。"
+ },
+ {
+  "seg": 62,
+  "start": 305.828,
+  "end": 311.15,
+  "speaker": "Unknown",
+  "en": "And that line shows whether you've moved up in terms of your change failure rate or moved down in terms of your change failure rate.",
+  "zh": "那条线显示你在变更失败率方面是上升了还是下降了。"
+ },
+ {
+  "seg": 63,
+  "start": 311.61,
+  "end": 312.55,
+  "speaker": "Unknown",
+  "en": "You wanna go down.",
+  "zh": "你想要下降。"
+ },
+ {
+  "seg": 64,
+  "start": 313.05,
+  "end": 315.671,
+  "speaker": "Unknown",
+  "en": "You wanna be on the bottom side of this graph.",
+  "zh": "你想处于这张图的下半部分。"
+ },
+ {
+  "seg": 65,
+  "start": 315.711,
+  "end": 323.613,
+  "speaker": "Unknown",
+  "en": "But what's interesting is if you look at some of these top lines, you see people increasing as much as 2%, which doesn't sound like much until you realize that the industry benchmark is about 4%.",
+  "zh": "但有趣的是，如果你看其中一些顶部的线，你会看到人们上升了多达 2%，这听起来不多，直到你意识到行业基准大约是 4%。"
+ },
+ {
+  "seg": 66,
+  "start": 324.884,
+  "end": 328.788,
+  "speaker": "Unknown",
+  "en": "So that means shipping potentially 50% more defects than we were shipping before.",
+  "zh": "这意味着可能比我们之前多交付了 50% 的缺陷。"
+ },
+ {
+  "seg": 67,
+  "start": 329.289,
+  "end": 331.932,
+  "speaker": "Unknown",
+  "en": "So you really just want to understand what side of this graph you're on.",
+  "zh": "所以你真的只想弄清楚自己处于这张图的哪一边。"
+ },
+ {
+  "seg": 68,
+  "start": 332.212,
+  "end": 333.874,
+  "speaker": "Unknown",
+  "en": "You want to start measuring this stuff, right?",
+  "zh": "你要开始测量这些东西，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 335.035,
+  "end": 337.958,
+  "speaker": "Unknown",
+  "en": "This pattern exists without AI, by the way.",
+  "zh": "顺便说一句，这种模式在没有 AI 的情况下也存在。"
+ },
+ {
+  "seg": 70,
+  "start": 338.399,
+  "end": 340.781,
+  "speaker": "Unknown",
+  "en": "This has a lot to do, it's not purely causal with AI.",
+  "zh": "这有很多原因，它并不完全是由 AI 因果导致的。"
+ },
+ {
+  "seg": 71,
+  "start": 340.901,
+  "end": 346.327,
+  "speaker": "Unknown",
+  "en": "A lot of this has to do with like your release pipeline, your automated testing, everything that's surrounding the way that you're releasing the code.",
+  "zh": "这很大程度上与你的发布流水线、你的自动化测试、围绕你发布代码方式的一切有关。"
+ },
+ {
+  "seg": 72,
+  "start": 347.148,
+  "end": 348.449,
+  "speaker": "Unknown",
+  "en": "The pattern remains the same.",
+  "zh": "模式保持不变。"
+ },
+ {
+  "seg": 73,
+  "start": 348.749,
+  "end": 351.61,
+  "speaker": "Unknown",
+  "en": "The amplitude has changed as a result of AI.",
+  "zh": "振幅因为 AI 而改变了。"
+ },
+ {
+  "seg": 74,
+  "start": 351.71,
+  "end": 355.651,
+  "speaker": "Unknown",
+  "en": "We always see this type of shift in volatility, but not usually to these extremes.",
+  "zh": "我们总是看到这种波动性的转变，但通常不会到这些极端程度。"
+ },
+ {
+  "seg": 75,
+  "start": 356.051,
+  "end": 357.972,
+  "speaker": "Unknown",
+  "en": "And that's the AI effect that we're seeing right there.",
+  "zh": "而这就是我们现在看到的 AI 效应。"
+ },
+ {
+  "seg": 76,
+  "start": 359.332,
+  "end": 360.733,
+  "speaker": "Unknown",
+  "en": "Here's a really interesting one.",
+  "zh": "这里有一个非常有趣的指标。"
+ },
+ {
+  "seg": 77,
+  "start": 361.093,
+  "end": 367.435,
+  "speaker": "Unknown",
+  "en": "These are two qualitative quality metrics that normally are sort of in sync with one another.",
+  "zh": "这是两个定性的质量指标，它们通常彼此大体同步。"
+ },
+ {
+  "seg": 78,
+  "start": 367.835,
+  "end": 373.397,
+  "speaker": "Unknown",
+  "en": "Code maintainability, how maintainable do developers perceive the code to be in terms of making changes to it.",
+  "zh": "代码可维护性，即开发者在对其进行修改方面感知代码有多可维护。"
+ },
+ {
+  "seg": 79,
+  "start": 373.758,
+  "end": 374.758,
+  "speaker": "Unknown",
+  "en": "That number has gone up.",
+  "zh": "这个数字上升了。"
+ },
+ {
+  "seg": 80,
+  "start": 375.259,
+  "end": 377.521,
+  "speaker": "Unknown",
+  "en": "Almost 4% according to our data.",
+  "zh": "根据我们的数据，几乎上升了 4%。"
+ },
+ {
+  "seg": 81,
+  "start": 377.842,
+  "end": 381.205,
+  "speaker": "Unknown",
+  "en": "By the way, we're looking at about 200,000 engineers in this study to gather this data.",
+  "zh": "顺便说一句，我们在这项研究中查看了大约 20 万名工程师来收集这些数据。"
+ },
+ {
+  "seg": 82,
+  "start": 381.866,
+  "end": 384.829,
+  "speaker": "Unknown",
+  "en": "The change confidence, though.",
+  "zh": "但是变更信心呢。"
+ },
+ {
+  "seg": 83,
+  "start": 385.648,
+  "end": 389.989,
+  "speaker": "Unknown",
+  "en": "Which traditionally we've seen closely associated with code maintainability.",
+  "zh": "传统上我们看到它与代码可维护性紧密相关。"
+ },
+ {
+  "seg": 84,
+  "start": 390.009,
+  "end": 393.27,
+  "speaker": "Unknown",
+  "en": "Hey, this code is maintainable, it's modular, it's easy to modify.",
+  "zh": "嘿，这段代码是可维护的，它是模块化的，它很容易修改。"
+ },
+ {
+  "seg": 85,
+  "start": 393.65,
+  "end": 396.071,
+  "speaker": "Unknown",
+  "en": "I feel good about the changes that I'm pushing into production.",
+  "zh": "我对我要推送到生产环境的变更感觉良好。"
+ },
+ {
+  "seg": 86,
+  "start": 396.411,
+  "end": 399.711,
+  "speaker": "Unknown",
+  "en": "Nope, our change confidence number has gone down 6%.",
+  "zh": "不，我们的变更信心数字下降了 6%。"
+ },
+ {
+  "seg": 87,
+  "start": 400.252,
+  "end": 409.494,
+  "speaker": "Unknown",
+  "en": "This is really an interesting tension because it means like, okay, agents and assistants are making it easier for me to understand and modify the code that's in front of me, but I trust the outputs less.",
+  "zh": "这是一个非常有趣的张力，因为它意味着，好吧，智能体和助手让我更容易理解并修改摆在我面前的代码，但我对这些输出的信任度更低了。"
+ },
+ {
+  "seg": 88,
+  "start": 409.974,
+  "end": 413.795,
+  "speaker": "Unknown",
+  "en": "I'm more afraid now of breaking things than I was a year ago.",
+  "zh": "我现在比一年前更害怕弄坏东西。"
+ },
+ {
+  "seg": 89,
+  "start": 414.195,
+  "end": 416.517,
+  "speaker": "Unknown",
+  "en": "So it's an interesting psychological effect that we see here.",
+  "zh": "所以这是我们在这里看到的一个有趣的心理效应。"
+ },
+ {
+  "seg": 90,
+  "start": 417.137,
+  "end": 420,
+  "speaker": "Unknown",
+  "en": "And a lot of this is because PR size is measurably increasing.",
+  "zh": "而这很大程度上是因为 PR 大小在可测量地增加。"
+ },
+ {
+  "seg": 91,
+  "start": 420.48,
+  "end": 423.242,
+  "speaker": "Unknown",
+  "en": "This is going to be one of the most important metrics that we look at this year.",
+  "zh": "这将是我们今年要看的最重要的指标之一。"
+ },
+ {
+  "seg": 92,
+  "start": 423.643,
+  "end": 427.145,
+  "speaker": "Unknown",
+  "en": "Hasn't quite doubled, but look at that trajectory, right?",
+  "zh": "还没完全翻倍，但看看那个轨迹，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 427.185,
+  "end": 435.812,
+  "speaker": "Unknown",
+  "en": "This is over the same period of study, about a year, and we've seen PRs go from around 44 lines on average per PR up to 72.",
+  "zh": "这是在同样的研究时期内，大约一年，我们看到 PR 从平均每个 PR 大约 44 行上升到 72 行。"
+ },
+ {
+  "seg": 94,
+  "start": 437.373,
+  "end": 439.334,
+  "speaker": "Unknown",
+  "en": "Now there's a number of reasons for this.",
+  "zh": "现在这有很多原因。"
+ },
+ {
+  "seg": 95,
+  "start": 439.694,
+  "end": 446.936,
+  "speaker": "Unknown",
+  "en": "It's not just the likelihood that the way that these models work is that they're being trained to output relatively mediocre code.",
+  "zh": "不仅仅是这些模型的工作方式很可能是它们被训练来输出相对平庸的代码。"
+ },
+ {
+  "seg": 96,
+  "start": 446.956,
+  "end": 448.977,
+  "speaker": "Unknown",
+  "en": "I've been writing code professionally since the late 90s.",
+  "zh": "我从 90 年代末开始就从事专业代码编写。"
+ },
+ {
+  "seg": 97,
+  "start": 449.297,
+  "end": 454.159,
+  "speaker": "Unknown",
+  "en": "I remember when it was a great mark of a developer to be able to implement the same use case with as little code as possible.",
+  "zh": "我记得曾经能够用尽可能少的代码实现同一个用例，是开发者的一大标志。"
+ },
+ {
+  "seg": 98,
+  "start": 454.559,
+  "end": 460.521,
+  "speaker": "Unknown",
+  "en": "Now it's like, well, now let's get the thing out and the code that's being generated is gonna be essentially mediocre because it's law of averages.",
+  "zh": "现在就像，好吧，现在先把东西弄出来，而被生成的代码本质上会是平庸的，因为这是平均律。"
+ },
+ {
+  "seg": 99,
+  "start": 461.021,
+  "end": 464.282,
+  "speaker": "Unknown",
+  "en": "But on top of that too, think about if you've got a build pipeline that takes",
+  "zh": "但除此之外，再想想如果你有一个构建流水线需要"
+ },
+ {
+  "seg": 100,
+  "start": 464.842,
+  "end": 466.702,
+  "speaker": "Unknown",
+  "en": "45 minutes or an hour to complete.",
+  "zh": "45 分钟或一个小时才能完成。"
+ },
+ {
+  "seg": 101,
+  "start": 467.123,
+  "end": 469.823,
+  "speaker": "Unknown",
+  "en": "And now I've got AI generating functions for me instantly.",
+  "zh": "而现在我有了 AI 即时为我生成函数。"
+ },
+ {
+  "seg": 102,
+  "start": 470.263,
+  "end": 476.745,
+  "speaker": "Unknown",
+  "en": "Am I going to push four different PRs with four different functions and wait 45 minutes or an hour or whatever that is for build?",
+  "zh": "我是该把四个不同的函数推到四个不同的 PR 里，然后等 45 分钟或一个小时或随便多久来构建？"
+ },
+ {
+  "seg": 103,
+  "start": 476.965,
+  "end": 479.866,
+  "speaker": "Unknown",
+  "en": "Or I'm just going to cram all that code into a single PR?",
+  "zh": "还是我干脆把所有代码都塞进一个 PR 里？"
+ },
+ {
+  "seg": 104,
+  "start": 480.106,
+  "end": 487.188,
+  "speaker": "Unknown",
+  "en": "So there's multiple reasons for this, but it really bears mentioning that every extra line of code is a potential bug, a potential vulnerability.",
+  "zh": "这背后有多种原因，但确实值得一提：每多一行代码，就多一个潜在的 bug、一个潜在的漏洞。"
+ },
+ {
+  "seg": 105,
+  "start": 487.228,
+  "end": 488.068,
+  "speaker": "Unknown",
+  "en": "It's more to review.",
+  "zh": "它增加了需要评审的内容。"
+ },
+ {
+  "seg": 106,
+  "start": 488.108,
+  "end": 489.328,
+  "speaker": "Unknown",
+  "en": "It makes the code less portable.",
+  "zh": "它让代码的可移植性变差。"
+ },
+ {
+  "seg": 107,
+  "start": 489.668,
+  "end": 491.849,
+  "speaker": "Unknown",
+  "en": "So we need to pay attention to this metric as well.",
+  "zh": "所以我们也需要关注这个指标。"
+ },
+ {
+  "seg": 108,
+  "start": 492.697,
+  "end": 495.938,
+  "speaker": "Unknown",
+  "en": "Because we're also seeing this associated with perception of incremental delivery.",
+  "zh": "因为我们还看到它与增量交付的感受相关联。"
+ },
+ {
+  "seg": 109,
+  "start": 496.219,
+  "end": 504.722,
+  "speaker": "Unknown",
+  "en": "I get to work on small incremental changes, and this is actually one of the lowest qualitative developer experience drivers that we've seen impacted over the last year.",
+  "zh": "我能去做小的增量改动，而这实际上是过去一年里我们看到受影响最严重的开发体验定性驱动因素之一。"
+ },
+ {
+  "seg": 110,
+  "start": 504.742,
+  "end": 507.483,
+  "speaker": "Unknown",
+  "en": "This number and this sentiment has gone down 10%.",
+  "zh": "这个数字和这种情绪下降了 10%。"
+ },
+ {
+  "seg": 111,
+  "start": 508.424,
+  "end": 520.649,
+  "speaker": "Unknown",
+  "en": "And incremental delivery is, as we've learned, also very important for the way that we try to deliver in a way that's easy to roll back and where we can understand and review the changes that are being pushed through.",
+  "zh": "而正如我们已经了解到的，增量交付对于我们试图以易于回滚、易于理解和评审所推送改动的方式来交付也非常重要。"
+ },
+ {
+  "seg": 112,
+  "start": 522.07,
+  "end": 522.35,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 113,
+  "start": 523.753,
+  "end": 525.356,
+  "speaker": "Unknown",
+  "en": "What about demographic differences?",
+  "zh": "那么人口统计学上的差异呢？"
+ },
+ {
+  "seg": 114,
+  "start": 525.856,
+  "end": 529.962,
+  "speaker": "Unknown",
+  "en": "What is different about AI impacts across junior devs and stuff like that?",
+  "zh": "初级开发者等群体在 AI 影响上有什么不同？"
+ },
+ {
+  "seg": 115,
+  "start": 530.563,
+  "end": 532.326,
+  "speaker": "Unknown",
+  "en": "Junior engineers are using AI the most.",
+  "zh": "初级工程师使用 AI 最多。"
+ },
+ {
+  "seg": 116,
+  "start": 533.551,
+  "end": 534.892,
+  "speaker": "Unknown",
+  "en": "This really should surprise nobody.",
+  "zh": "这真的不应该让任何人感到惊讶。"
+ },
+ {
+  "seg": 117,
+  "start": 535.413,
+  "end": 540.837,
+  "speaker": "Unknown",
+  "en": "Anytime we have sort of a new leap, again, writing code professionally since the late 90s, I'm a bit of an OG.",
+  "zh": "每当出现某种新的跨越时——顺便说一句，我从 90 年代末就开始专业写代码了，我算是个 OG——"
+ },
+ {
+  "seg": 118,
+  "start": 541.218,
+  "end": 542.479,
+  "speaker": "Unknown",
+  "en": "I'm on this journey too.",
+  "zh": "我自己也在这个旅程中。"
+ },
+ {
+  "seg": 119,
+  "start": 543.079,
+  "end": 547.583,
+  "speaker": "Unknown",
+  "en": "But there's less to unlearn when you're coming into the industry, right?",
+  "zh": "但当你进入这个行业时，需要忘掉的东西更少，对吧？"
+ },
+ {
+  "seg": 120,
+  "start": 547.603,
+  "end": 551.527,
+  "speaker": "Unknown",
+  "en": "In many, many cases, you've already been working with this kind of stuff, like right out of school.",
+  "zh": "在很多很多情况下，你一毕业就已经在与这类东西打交道了。"
+ },
+ {
+  "seg": 121,
+  "start": 551.927,
+  "end": 556.391,
+  "speaker": "Unknown",
+  "en": "And so you're more likely to implement it when you actually start working.",
+  "zh": "所以当你真正开始工作时，你更有可能去采用它。"
+ },
+ {
+  "seg": 122,
+  "start": 556.751,
+  "end": 556.911,
+  "speaker": "Unknown",
+  "en": "Now,",
+  "zh": "现在，"
+ },
+ {
+  "seg": 123,
+  "start": 557.752,
+  "end": 559.233,
+  "speaker": "Unknown",
+  "en": "We've seen some other trends there too.",
+  "zh": "我们也看到了一些其他的趋势。"
+ },
+ {
+  "seg": 124,
+  "start": 560.054,
+  "end": 565.779,
+  "speaker": "Unknown",
+  "en": "We have interesting ways of looking per use case at efficiency, which I'll get into in the second talk later today.",
+  "zh": "我们有一些按用例来审视效率的有趣方式，我会在今天的第二场演讲中展开。"
+ },
+ {
+  "seg": 125,
+  "start": 566.32,
+  "end": 572.846,
+  "speaker": "Unknown",
+  "en": "And one of those is looking at agent experience, like literally we're asking agents about their experience working with humans.",
+  "zh": "其中之一是审视智能体体验，字面意思就是，我们在询问智能体它们与人类协作的体验如何。"
+ },
+ {
+  "seg": 126,
+  "start": 573.246,
+  "end": 578.071,
+  "speaker": "Unknown",
+  "en": "We're trying to figure out what use cases are they working on and how many tokens did they spend.",
+  "zh": "我们试图弄清楚它们在做哪些用例、花了多少 token。"
+ },
+ {
+  "seg": 127,
+  "start": 578.451,
+  "end": 580.573,
+  "speaker": "Unknown",
+  "en": "And definitely we also see a trend where",
+  "zh": "而且我们确实也看到一个趋势："
+ },
+ {
+  "seg": 128,
+  "start": 580.933,
+  "end": 586.498,
+  "speaker": "Unknown",
+  "en": "The more junior developers for the same use case will spend more tokens than a more senior developer on the same use case.",
+  "zh": "对于相同的用例，越初级的开发者会比更资深的开发者花更多的 token。"
+ },
+ {
+  "seg": 129,
+  "start": 586.518,
+  "end": 587.759,
+  "speaker": "Unknown",
+  "en": "And that's just a learning curve, right?",
+  "zh": "这只是个学习曲线，对吧？"
+ },
+ {
+  "seg": 130,
+  "start": 587.779,
+  "end": 588.92,
+  "speaker": "Unknown",
+  "en": "Again, that should surprise nobody.",
+  "zh": "再说一次，这不应该让任何人感到惊讶。"
+ },
+ {
+  "seg": 131,
+  "start": 589.261,
+  "end": 593.204,
+  "speaker": "Unknown",
+  "en": "But in terms of who's using it the most, we do see juniors using it the most.",
+  "zh": "但就谁使用得最多而言，我们确实看到初级开发者使用最多。"
+ },
+ {
+  "seg": 132,
+  "start": 593.745,
+  "end": 599.43,
+  "speaker": "Unknown",
+  "en": "However, despite that additional use, we see staff plus some more senior engineers saving about the same amount of time.",
+  "zh": "然而，尽管使用更多，我们看到 staff 及以上、更资深的一些工程师节省了差不多相同的时间。"
+ },
+ {
+  "seg": 133,
+  "start": 600.807,
+  "end": 601.388,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 601.468,
+  "end": 602.569,
+  "speaker": "Unknown",
+  "en": "And burning less tokens.",
+  "zh": "而且消耗的 token 更少。"
+ },
+ {
+  "seg": 135,
+  "start": 602.609,
+  "end": 604.311,
+  "speaker": "Unknown",
+  "en": "I want to make sure that that's kind of clear too.",
+  "zh": "我想确保这一点也讲清楚了。"
+ },
+ {
+  "seg": 136,
+  "start": 604.771,
+  "end": 618.165,
+  "speaker": "Unknown",
+  "en": "So in terms of like raw time savings and the aggregate output of this, it's pretty flat between junior engineers who are using the tech more and staff engineers who have an easier time spotting hallucinations, understanding the architecture around the changes they're making and things like that.",
+  "zh": "所以就原始的时间节省和这方面的总体产出而言，在更多使用这项技术的初级工程师与更容易发现幻觉、理解所做改动周边架构的 staff 工程师之间，差距相当平。"
+ },
+ {
+  "seg": 137,
+  "start": 619.707,
+  "end": 621.469,
+  "speaker": "Unknown",
+  "en": "Smaller companies lead in time savings.",
+  "zh": "小公司在时间节省上领先。"
+ },
+ {
+  "seg": 138,
+  "start": 622.05,
+  "end": 625.593,
+  "speaker": "Unknown",
+  "en": "Sure, the release pipelines are gonna be less complicated.",
+  "zh": "当然，发布流水线不会那么复杂。"
+ },
+ {
+  "seg": 139,
+  "start": 625.653,
+  "end": 637.886,
+  "speaker": "Unknown",
+  "en": "There's less overall complexity in the organization that's going to lead to more time savings for a company that already has less friction and has a little bit more agility to it than a larger company.",
+  "zh": "组织的整体复杂度更低，这让一家本就摩擦更少、灵活度略高的公司比大公司节省更多时间。"
+ },
+ {
+  "seg": 140,
+  "start": 639.808,
+  "end": 640.749,
+  "speaker": "Unknown",
+  "en": "What about measurement?",
+  "zh": "那么度量呢？"
+ },
+ {
+  "seg": 141,
+  "start": 641.049,
+  "end": 643.711,
+  "speaker": "Unknown",
+  "en": "How should we even be thinking about measuring this stuff?",
+  "zh": "我们到底应该如何思考度量这些东西？"
+ },
+ {
+  "seg": 142,
+  "start": 644.151,
+  "end": 656.3,
+  "speaker": "Unknown",
+  "en": "I mean, it bears mentioning that measuring developer productivity and measuring developer experience was a challenge before AI, and we never completed that conversation before kind of throwing accelerant on this, right?",
+  "zh": "值得一提的是，度量开发者生产力和度量开发者体验在 AI 出现之前就是一个难题，而在给这个话题浇上助燃剂之前，我们从未完成过那场对话，对吧？"
+ },
+ {
+  "seg": 143,
+  "start": 656.32,
+  "end": 663.105,
+  "speaker": "Unknown",
+  "en": "So this is still a difficult thing, and I'd argue even more difficult to do now because it's confounded by several different aspects of AI.",
+  "zh": "所以这依然是一件困难的事，而且我可以说现在做起来更加困难，因为它被 AI 的多个不同方面所混淆。"
+ },
+ {
+  "seg": 144,
+  "start": 664.045,
+  "end": 666.107,
+  "speaker": "Unknown",
+  "en": "But we're all gonna have to answer this question this year.",
+  "zh": "但今年我们所有人都必须回答这个问题。"
+ },
+ {
+  "seg": 145,
+  "start": 666.66,
+  "end": 666.88,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 146,
+  "start": 667.221,
+  "end": 671.705,
+  "speaker": "Unknown",
+  "en": "Spent 10 million or way more if you come to my talk later today on tokens.",
+  "zh": "花了 1000 万或更多——如果你今天晚些时候来听我关于 token 的演讲的话。"
+ },
+ {
+  "seg": 147,
+  "start": 672.505,
+  "end": 673.947,
+  "speaker": "Unknown",
+  "en": "Where's our 10x productivity?",
+  "zh": "我们的 10 倍生产力在哪里？"
+ },
+ {
+  "seg": 148,
+  "start": 675.304,
+  "end": 680.646,
+  "speaker": "Unknown",
+  "en": "When we're thinking about this stuff, it's important to bear in mind that we don't throw away what we're measuring.",
+  "zh": "在思考这些问题时，重要的是要记住，我们不能抛弃我们已经在度量的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 681.027,
+  "end": 686.509,
+  "speaker": "Unknown",
+  "en": "Our foundational developer experience and developer productivity metrics are still what matter the most.",
+  "zh": "我们的基础开发体验和开发者生产力指标仍然是最重要的。"
+ },
+ {
+  "seg": 150,
+  "start": 686.549,
+  "end": 693.032,
+  "speaker": "Unknown",
+  "en": "We want to understand how AI is impacting these trusted metrics that we've already been looking at.",
+  "zh": "我们想理解 AI 是如何影响这些我们已经一直在关注的可信指标的。"
+ },
+ {
+  "seg": 151,
+  "start": 693.072,
+  "end": 695.473,
+  "speaker": "Unknown",
+  "en": "We want to maybe look at cohorts of users.",
+  "zh": "我们或许想看看用户群组。"
+ },
+ {
+  "seg": 152,
+  "start": 695.993,
+  "end": 700.015,
+  "speaker": "Unknown",
+  "en": "We maybe want to take data from the API telemetry and things that come out of the tools.",
+  "zh": "我们或许想从 API 遥测数据和工具产出的数据中提取信息，"
+ },
+ {
+  "seg": 153,
+  "start": 700.415,
+  "end": 708.178,
+  "speaker": "Unknown",
+  "en": "and use that to understand who's using what and where, but we would only want to use those cohorts and look at them comparatively across our foundational metrics.",
+  "zh": "并用它来理解谁在使用什么、在哪里使用，但我们只想使用这些群组，并在我们的基础指标上对它们进行对比观察。"
+ },
+ {
+  "seg": 154,
+  "start": 708.478,
+  "end": 710.058,
+  "speaker": "Unknown",
+  "en": "What is this actually doing to quality?",
+  "zh": "这实际上对质量产生了什么影响？"
+ },
+ {
+  "seg": 155,
+  "start": 710.098,
+  "end": 711.619,
+  "speaker": "Unknown",
+  "en": "What is this actually doing to speed?",
+  "zh": "这实际上对速度产生了什么影响？"
+ },
+ {
+  "seg": 156,
+  "start": 711.899,
+  "end": 715.08,
+  "speaker": "Unknown",
+  "en": "What is this doing to impact to the organization and value generation?",
+  "zh": "这对组织和价值创造产生了什么影响？"
+ },
+ {
+  "seg": 157,
+  "start": 716.28,
+  "end": 718.641,
+  "speaker": "Unknown",
+  "en": "And so this is where our AI measurement framework comes from.",
+  "zh": "这就是我们的 AI 度量框架的来源。"
+ },
+ {
+  "seg": 158,
+  "start": 719.221,
+  "end": 720.661,
+  "speaker": "Unknown",
+  "en": "I won't spend too much time on this.",
+  "zh": "我不会在这上面花太多时间。"
+ },
+ {
+  "seg": 159,
+  "start": 720.681,
+  "end": 722.222,
+  "speaker": "Unknown",
+  "en": "We have a big white paper available.",
+  "zh": "我们有一份很长的白皮书可供参考。"
+ },
+ {
+  "seg": 160,
+  "start": 722.862,
+  "end": 733.705,
+  "speaker": "Unknown",
+  "en": "My colleague Anton, who's standing in the back of the room in the white shirt, will be able to hand out some hard copies of reports that we have after the talk that go into the way that we derive this methodology and how to use it and think about it.",
+  "zh": "我的同事 Anton——他穿着白衬衫站在房间后面——在演讲结束后会发放一些我们报告的纸质版，这些报告深入讲解了我们对这套方法的推导方式，以及如何使用和思考它。"
+ },
+ {
+  "seg": 161,
+  "start": 735.046,
+  "end": 738.507,
+  "speaker": "Unknown",
+  "en": "It focuses on three key dimensions of measurement, so looking at utilization,",
+  "zh": "它聚焦于三个关键的度量维度，首先是使用率，"
+ },
+ {
+  "seg": 162,
+  "start": 738.983,
+  "end": 741.605,
+  "speaker": "Unknown",
+  "en": "Our daily active users, weekly active users, that sort of thing.",
+  "zh": "我们的日活跃用户、周活跃用户，诸如此类。"
+ },
+ {
+  "seg": 163,
+  "start": 742.846,
+  "end": 743.706,
+  "speaker": "Unknown",
+  "en": "It looks at impact.",
+  "zh": "它关注影响力。"
+ },
+ {
+  "seg": 164,
+  "start": 744.087,
+  "end": 748.149,
+  "speaker": "Unknown",
+  "en": "So which metric should we be looking for moving the needle based on utilization?",
+  "zh": "也就是说，基于使用率，我们应该关注哪个指标在起作用？"
+ },
+ {
+  "seg": 165,
+  "start": 748.79,
+  "end": 753.153,
+  "speaker": "Unknown",
+  "en": "As our utilization goes up, what do we hope to see in terms of impact to the business?",
+  "zh": "随着使用率上升，我们希望在业务影响方面看到什么？"
+ },
+ {
+  "seg": 166,
+  "start": 753.613,
+  "end": 754.434,
+  "speaker": "Unknown",
+  "en": "And then cost.",
+  "zh": "然后是成本。"
+ },
+ {
+  "seg": 167,
+  "start": 755.014,
+  "end": 761.798,
+  "speaker": "Unknown",
+  "en": "It's a fair joke that we're 15 years after the last major hype cycle and we're still trying to figure out cloud costs, but this stuff is getting pretty expensive.",
+  "zh": "有个挺合理的笑话是：距离上一次大型炒作周期已经过去 15 年了，我们仍在试图搞清楚云成本，但这些东西正变得相当昂贵。"
+ },
+ {
+  "seg": 168,
+  "start": 761.818,
+  "end": 762.699,
+  "speaker": "Unknown",
+  "en": "We're going to have to measure it.",
+  "zh": "我们将不得不去度量它。"
+ },
+ {
+  "seg": 169,
+  "start": 763.379,
+  "end": 765.621,
+  "speaker": "Unknown",
+  "en": "So you can think about this as a bit of a maturity curve as well.",
+  "zh": "所以你也可以把这看作一条成熟度曲线。"
+ },
+ {
+  "seg": 170,
+  "start": 765.681,
+  "end": 783.892,
+  "speaker": "Unknown",
+  "en": "Most people start with utilization on the left, just figuring out what's happening in the organization with the tech, who's using it, what are they using, how often and for what use cases, and then how do we then cross-reference those to the impact metrics, the value generation, what we really want to understand to know whether these investments are actually working, which is what we really want to figure out.",
+  "zh": "大多数人从左边的使用率开始，只是弄清楚组织里这项技术正在发生什么，谁在使用，他们在用什么，使用频率如何，用于什么用例，然后我们如何把这些与影响力指标、价值创造进行交叉参照——这才是我们真正想理解的，以便知道这些投资是否真的奏效，这正是我们真正想弄清楚的。"
+ },
+ {
+  "seg": 171,
+  "start": 784.798,
+  "end": 787.3,
+  "speaker": "Unknown",
+  "en": "This is just an example of how we might correlate such a thing.",
+  "zh": "这只是我们可能如何关联这类东西的一个例子。"
+ },
+ {
+  "seg": 172,
+  "start": 787.34,
+  "end": 796.928,
+  "speaker": "Unknown",
+  "en": "So you could look at two separate cohorts of users and you could compare them across metrics like PR cycle time or PR size or pushback in review, right?",
+  "zh": "你可以看两个不同的用户群组，并在诸如 PR 周期时间、PR 大小或评审中的推回（pushback）等指标上对它们进行比较，对吧？"
+ },
+ {
+  "seg": 173,
+  "start": 796.968,
+  "end": 806.375,
+  "speaker": "Unknown",
+  "en": "So lots of the way to think about this again is just right now separate cohorts and then look at how that plays out across these foundational productivity metrics that we've learned to trust.",
+  "zh": "所以，再次强调，这里很多思考方式就是：先分出不同的群组，然后观察在我们已经学会信任的那些基础生产力指标上这会如何表现。"
+ },
+ {
+  "seg": 174,
+  "start": 807.672,
+  "end": 811.555,
+  "speaker": "Unknown",
+  "en": "We also need to be able to understand our platform's readiness.",
+  "zh": "我们还需要能够理解我们平台的就绪度。"
+ },
+ {
+  "seg": 175,
+  "start": 811.916,
+  "end": 814.838,
+  "speaker": "Unknown",
+  "en": "I like to say that in 2024, we gave everybody a coding assistant.",
+  "zh": "我喜欢这么说：在 2024 年，我们给每个人配备了编程助手。"
+ },
+ {
+  "seg": 176,
+  "start": 814.958,
+  "end": 816.52,
+  "speaker": "Unknown",
+  "en": "In 2025, we started building agents.",
+  "zh": "在 2025 年，我们开始构建智能体。"
+ },
+ {
+  "seg": 177,
+  "start": 816.88,
+  "end": 819.563,
+  "speaker": "Unknown",
+  "en": "Now we're realizing that our infrastructure wasn't ready for any of this.",
+  "zh": "现在我们意识到，我们的基础设施根本没为这些东西做好准备。"
+ },
+ {
+  "seg": 178,
+  "start": 820.103,
+  "end": 825.047,
+  "speaker": "Unknown",
+  "en": "A lot of the vendors that are here are selling solutions that help you with this problem.",
+  "zh": "这里很多厂商正在销售的解决方案就是帮你解决这个问题的。"
+ },
+ {
+  "seg": 179,
+  "start": 825.428,
+  "end": 833.195,
+  "speaker": "Unknown",
+  "en": "I think if you can measure your platform's AI readiness, you're gonna have a much better handle on how efficient you're gonna be spending tokens and providing context to these agents.",
+  "zh": "我认为，如果你能度量平台的 AI 就绪度，你对如何高效地消耗 token 以及为这些智能体提供上下文就会有更好的把握。"
+ },
+ {
+  "seg": 180,
+  "start": 833.615,
+  "end": 843.182,
+  "speaker": "Unknown",
+  "en": "So these are things like clear and accurate, well-structured documentation, data structures with straightforward relations, manageable modular code, reliable local CI and non-flaky test suites.",
+  "zh": "这些东西包括：清晰准确、结构良好的文档，关系直截了当的数据结构，可管理的模块化代码，可靠的本地 CI 以及不飘忽（non-flaky）的测试套件。"
+ },
+ {
+  "seg": 181,
+  "start": 843.563,
+  "end": 849.587,
+  "speaker": "Unknown",
+  "en": "If, by the way, any of this sounds familiar to you, it's because we used to just call this good developer experience, right?",
+  "zh": "顺便说一句，如果这些听起来让你觉得熟悉，那是因为我们过去只是把这称为良好的开发者体验，对吧？"
+ },
+ {
+  "seg": 182,
+  "start": 849.607,
+  "end": 858.214,
+  "speaker": "Unknown",
+  "en": "But it turns out that what's good for humans is also good for agents, so we may finally, paradoxically, be making those investments that we should have been making over the last couple of decades.",
+  "zh": "但事实证明，对人类有益的东西对智能体也有益，所以颇具悖论意味的是，我们可能终于要做那些过去几十年我们就该做的投资了。"
+ },
+ {
+  "seg": 183,
+  "start": 858.894,
+  "end": 861.957,
+  "speaker": "Unknown",
+  "en": "We also want to understand the effectiveness of the way that we work with AI.",
+  "zh": "我们还想理解我们与 AI 协作方式的有效性。"
+ },
+ {
+  "seg": 184,
+  "start": 862.657,
+  "end": 863.958,
+  "speaker": "Unknown",
+  "en": "And this is one way of doing that.",
+  "zh": "这是做到这一点的一种方式。"
+ },
+ {
+  "seg": 185,
+  "start": 863.978,
+  "end": 876.708,
+  "speaker": "Unknown",
+  "en": "What you're actually seeing here is feedback, qualitative feedback coming back from agents telling us where they ran into issues with steering with the human, the context that was provided for them, the feedback cycles that they had to go through.",
+  "zh": "你在这里实际看到的是反馈，即来自智能体的定性反馈，告诉我们它们在与人类的引导（steering）配合上、在为它们提供的上下文上、在它们必须经历的反馈循环上遇到了哪些问题。"
+ },
+ {
+  "seg": 186,
+  "start": 877.148,
+  "end": 883.693,
+  "speaker": "Unknown",
+  "en": "So we're actually getting that data from the agents to try to figure out how effective our teams are at working with AI and we can break this down",
+  "zh": "所以我们实际上是从智能体那里获取这些数据，试图弄清我们的团队与 AI 协作的有效性如何，我们可以把它分解"
+ },
+ {
+  "seg": 187,
+  "start": 884.293,
+  "end": 886.574,
+  "speaker": "Unknown",
+  "en": "into use cases which is very important too.",
+  "zh": "到用例层面，这同样非常重要。"
+ },
+ {
+  "seg": 188,
+  "start": 886.855,
+  "end": 894.899,
+  "speaker": "Unknown",
+  "en": "We want to understand which use cases are giving us the most efficient token spend and again moving the needle for value creation and productivity within the business.",
+  "zh": "我们想理解哪些用例给了我们最高效的 token 消耗，并再次为业务内的价值创造和生产力起到推动作用。"
+ },
+ {
+  "seg": 189,
+  "start": 896.083,
+  "end": 899.846,
+  "speaker": "Unknown",
+  "en": "Finally, the fifth trend, integrating across the SDLC and PDLC.",
+  "zh": "最后，第五个趋势：贯穿 SDLC 和 PDLC 的整合。"
+ },
+ {
+  "seg": 190,
+  "start": 900.226,
+  "end": 901.107,
+  "speaker": "Unknown",
+  "en": "Why would we want to do this?",
+  "zh": "我们为什么要这样做？"
+ },
+ {
+  "seg": 191,
+  "start": 901.147,
+  "end": 904.43,
+  "speaker": "Unknown",
+  "en": "Because code generation was never the bottleneck in the first place, right?",
+  "zh": "因为代码生成从一开始就不是瓶颈，对吧？"
+ },
+ {
+  "seg": 192,
+  "start": 904.81,
+  "end": 915.719,
+  "speaker": "Unknown",
+  "en": "Even if engineers are getting like 100% accurate instant code coming from the models, which they are not, you would still only be attacking anywhere from maybe 14 to 16% of the overall value stream.",
+  "zh": "即使工程师从模型那里得到的是 100% 准确的即时代码——事实并非如此——你仍然只是在攻击整个价值流中大约 14% 到 16% 的部分。"
+ },
+ {
+  "seg": 193,
+  "start": 915.739,
+  "end": 923.445,
+  "speaker": "Unknown",
+  "en": "So we need to think beyond that, especially because right now the productivity gains that we are actually seeing are more modest than expected.",
+  "zh": "所以我们需要思考超越这个范围的东西，尤其是因为目前我们实际看到的生产力提升比预期要温和。"
+ },
+ {
+  "seg": 194,
+  "start": 923.885,
+  "end": 940.88,
+  "speaker": "Unknown",
+  "en": "Despite additional PR throughput increases, our median increase in the study that we did from November to 2024 to February this year only found about a median 7.7% increase in this velocity metric, a 13% average, but even our top performers were in the 70% range.",
+  "zh": "尽管 PR 吞吐量有所增加，但我们在从 2024 年 11 月到今年 2 月所做的研究中发现，这个速度指标的中位数增长只有约 7.7%，平均值为 13%，但即使是我们的表现最好者也只在 70% 的区间。"
+ },
+ {
+  "seg": 195,
+  "start": 940.941,
+  "end": 944.143,
+  "speaker": "Unknown",
+  "en": "Nobody hit 2x, nobody hit 5x, nobody hit 10x.",
+  "zh": "没有人达到 2 倍，没有人达到 5 倍，没有人达到 10 倍。"
+ },
+ {
+  "seg": 196,
+  "start": 944.884,
+  "end": 953.513,
+  "speaker": "Unknown",
+  "en": "And that's because our time savings that come out of AI are still being outweighed by other non-AI factors within our organization, right?",
+  "zh": "这是因为我们从 AI 中获得的时间节省，仍然被我们组织内部其他非 AI 因素所抵消，对吧？"
+ },
+ {
+  "seg": 197,
+  "start": 953.533,
+  "end": 962.222,
+  "speaker": "Unknown",
+  "en": "We might be saving a lot of time with AI and that's great, but if we're still eclipsing those time savings because of meeting heavy days and context switching and other sources of interruption,",
+  "zh": "我们可能通过 AI 节省了大量时间，这很棒，但如果我们仍然因为会议缠身的日子、上下文切换和其他干扰源而抵消了那些时间节省，"
+ },
+ {
+  "seg": 198,
+  "start": 962.662,
+  "end": 969.245,
+  "speaker": "Unknown",
+  "en": "The cumulative effects of the dev environment and friction in the way that we create software around the code, then we're not attacking the bottleneck.",
+  "zh": "加上开发环境的累积影响以及我们在围绕代码创建软件的方式中的摩擦，那么我们就不是在攻击瓶颈。"
+ },
+ {
+  "seg": 199,
+  "start": 969.645,
+  "end": 978.208,
+  "speaker": "Unknown",
+  "en": "And as Ellie Goldratt from the theory of constraints and the goal and inspiration for the Phoenix project would tell us that an hour saved on something that isn't the bottleneck is worthless.",
+  "zh": "正如约束理论、《目标》的作者、《凤凰项目》灵感来源的 Ellie Goldratt 会告诉我们的那样：在非瓶颈环节节省的一小时是毫无价值的。"
+ },
+ {
+  "seg": 200,
+  "start": 978.668,
+  "end": 981.769,
+  "speaker": "Unknown",
+  "en": "And so we need to find the bottleneck and fix the bottleneck.",
+  "zh": "所以我们需要找到瓶颈并修复瓶颈。"
+ },
+ {
+  "seg": 201,
+  "start": 981.809,
+  "end": 983.87,
+  "speaker": "Unknown",
+  "en": "And that's what a lot of organizations are doing.",
+  "zh": "这就是很多组织正在做的事情。"
+ },
+ {
+  "seg": 202,
+  "start": 984.39,
+  "end": 988.992,
+  "speaker": "Unknown",
+  "en": "Morgan Stanley has been really public about their creation of the DevGen AI agent.",
+  "zh": "Morgan Stanley 在他们创建的 DevGen AI 智能体方面一直非常公开。"
+ },
+ {
+  "seg": 203,
+  "start": 989.313,
+  "end": 997.112,
+  "speaker": "Unknown",
+  "en": "which is an agent for interpreting legacy code like Mainframe, Natural, and Cobalt, and I hate to admit, Perl, I've written a lot of Perl in my career, but it's legacy now.",
+  "zh": "这是一个用于解读遗留代码的智能体，比如 Mainframe、Natural 和 Cobalt，还有我不太愿意承认的 Perl——我职业生涯中写过很多 Perl，但它现在已经是遗留代码了。"
+ },
+ {
+  "seg": 204,
+  "start": 997.549,
+  "end": 1006.617,
+  "speaker": "Unknown",
+  "en": "The agent actually creates PRDs to hand to engineers to get rid of that reverse engineering step, and it's saving Morgan Stanley about 300,000 hours a year right now.",
+  "zh": "该智能体实际上会创建 PRD 交给工程师，从而省去逆向工程这一步骤，它现在每年为 Morgan Stanley 节省大约 30 万小时。"
+ },
+ {
+  "seg": 205,
+  "start": 1007.138,
+  "end": 1009.68,
+  "speaker": "Unknown",
+  "en": "Zapier is one of my favorite stories in AI right now.",
+  "zh": "Zapier 是我现在最喜欢的 AI 故事之一。"
+ },
+ {
+  "seg": 206,
+  "start": 1009.72,
+  "end": 1017.147,
+  "speaker": "Unknown",
+  "en": "They have a whole agent ecosystem that they're using to deal with a lot of administrative tasks and overhead, like daily stand-ups and things like that.",
+  "zh": "他们有一整套智能体生态系统，用来处理大量行政事务和开销，比如每日站会之类的事情。"
+ },
+ {
+  "seg": 207,
+  "start": 1017.668,
+  "end": 1022.632,
+  "speaker": "Unknown",
+  "en": "They've reduced their stand-ups by using agent summaries and things like that in this ecosystem that they've built.",
+  "zh": "他们通过在这个生态系统中使用智能体摘要之类的东西，减少了站会。"
+ },
+ {
+  "seg": 208,
+  "start": 1023.557,
+  "end": 1025.822,
+  "speaker": "Unknown",
+  "en": "to two times a week as opposed to five times a week.",
+  "zh": "从每周五次减少到每周两次。"
+ },
+ {
+  "seg": 209,
+  "start": 1026.263,
+  "end": 1030.493,
+  "speaker": "Unknown",
+  "en": "They're successfully onboarding engineers within about a two week period which is really fast.",
+  "zh": "他们能在大约两周内成功完成工程师入职，这真的非常快。"
+ },
+ {
+  "seg": 210,
+  "start": 1031.054,
+  "end": 1033.38,
+  "speaker": "Unknown",
+  "en": "Our industry benchmark for that is over a month usually.",
+  "zh": "我们在这方面的行业基准通常是一个月以上。"
+ },
+ {
+  "seg": 211,
+  "start": 1034.1,
+  "end": 1054.071,
+  "speaker": "Unknown",
+  "en": "But my favorite part about this story is that they're seeing about a 15% additional value creation per engineer, so they are hiring more than they have in the history of their entire company because they realize the truth here, that they're getting more capacity per single engineer, they're getting a better return on investment per single engineer, and hiring more engineers will improve their competitive edge.",
+  "zh": "但这个故事里我最喜欢的部分是，他们看到每位工程师带来了大约 15% 的额外价值创造，所以他们的招聘规模超过了公司整个历史上任何时期，因为他们认识到了这里的真相：他们从单个工程师身上获得了更多产能，从单个工程师身上获得了更好的投资回报，而招聘更多工程师将提升他们的竞争优势。"
+ },
+ {
+  "seg": 212,
+  "start": 1054.691,
+  "end": 1055.712,
+  "speaker": "Unknown",
+  "en": "This is the right attitude.",
+  "zh": "这是正确的态度。"
+ },
+ {
+  "seg": 213,
+  "start": 1056.132,
+  "end": 1057.292,
+  "speaker": "Unknown",
+  "en": "This is a throughput story.",
+  "zh": "这是一个吞吐量的故事。"
+ },
+ {
+  "seg": 214,
+  "start": 1057.453,
+  "end": 1059.694,
+  "speaker": "Unknown",
+  "en": "This is an increased innovative capacity story.",
+  "zh": "这是一个创新能力提升的故事。"
+ },
+ {
+  "seg": 215,
+  "start": 1059.714,
+  "end": 1061.535,
+  "speaker": "Unknown",
+  "en": "This is not a headcount replacement story.",
+  "zh": "这不是一个替换人力的故事。"
+ },
+ {
+  "seg": 216,
+  "start": 1062.322,
+  "end": 1067.305,
+  "speaker": "Unknown",
+  "en": "FAIR, they're automating about 3,000 of their code reviews a week triggered off of a pull request.",
+  "zh": "FAIR，他们每周自动化大约 3,000 次由拉取请求触发的代码审查。"
+ },
+ {
+  "seg": 217,
+  "start": 1067.906,
+  "end": 1070.067,
+  "speaker": "Unknown",
+  "en": "And they look at superficial stuff.",
+  "zh": "而且他们只看表面层次的东西。"
+ },
+ {
+  "seg": 218,
+  "start": 1070.087,
+  "end": 1071.448,
+  "speaker": "Unknown",
+  "en": "They still need humans in the loop.",
+  "zh": "他们仍然需要人类参与其中。"
+ },
+ {
+  "seg": 219,
+  "start": 1071.869,
+  "end": 1077.232,
+  "speaker": "Unknown",
+  "en": "But the initial superficial review that comes from the agent is all part of the system of record.",
+  "zh": "但来自智能体的最初表面审查全都属于记录系统的一部分。"
+ },
+ {
+  "seg": 220,
+  "start": 1077.272,
+  "end": 1078.553,
+  "speaker": "Unknown",
+  "en": "It stays in the PR comments.",
+  "zh": "它会保留在 PR 评论中。"
+ },
+ {
+  "seg": 221,
+  "start": 1078.954,
+  "end": 1083.697,
+  "speaker": "Unknown",
+  "en": "And so the next engineer to actually perform the review will have an idea of what the agent's already looked at.",
+  "zh": "所以下一个真正执行审查的工程师会了解智能体已经看过哪些内容。"
+ },
+ {
+  "seg": 222,
+  "start": 1083.997,
+  "end": 1085.038,
+  "speaker": "Unknown",
+  "en": "So it can save some time.",
+  "zh": "这样就能节省一些时间。"
+ },
+ {
+  "seg": 223,
+  "start": 1085.718,
+  "end": 1090.802,
+  "speaker": "Unknown",
+  "en": "Finally, Spotify, if anybody remembers the Spotify model from DevOps, they were sort of the North Star for DevOps.",
+  "zh": "最后是 Spotify，如果还有人记得 DevOps 领域的 Spotify 模型，他们曾经是 DevOps 的指路明灯。"
+ },
+ {
+  "seg": 224,
+  "start": 1091.522,
+  "end": 1111.133,
+  "speaker": "Unknown",
+  "en": "They built an agent for SREs that will gather remediation steps from runbooks and information in context about the incident and put all that together into SRE communication channels so that when an incident occurs, the SRE has immediate context and doesn't have to go through multiple minutes of discovery to figure out how to solve the issue.",
+  "zh": "他们为 SRE 构建了一个智能体，它会从 runbook 和事件相关的上下文信息中收集修复步骤，并将所有这些汇总到 SRE 的沟通渠道中，这样当事件发生时，SRE 就能立即获得上下文，而不必花费好几分钟的排查来弄清楚如何解决问题。"
+ },
+ {
+  "seg": 225,
+  "start": 1111.965,
+  "end": 1119.71,
+  "speaker": "Unknown",
+  "en": "So if you want to dive deeper into this data, our Q2 report is coming out in just a few weeks, but the Q1 report still has a lot of tidbits from this session in it.",
+  "zh": "所以如果你想深入了解这些数据，我们的 Q2 报告将在几周内发布，但 Q1 报告中仍然包含本次分享中的很多有用信息。"
+ },
+ {
+  "seg": 226,
+  "start": 1120.21,
+  "end": 1125.934,
+  "speaker": "Unknown",
+  "en": "And if you subscribe to our newsletter or you come back to the website, by mid-ish end of July, we'll have our Q2 report.",
+  "zh": "如果你订阅了我们的简报，或者回到我们网站查看，到 7 月中旬左右，我们就会发布 Q2 报告。"
+ },
+ {
+  "seg": 227,
+  "start": 1126.234,
+  "end": 1130.457,
+  "speaker": "Unknown",
+  "en": "And if you want to see a preview of that report, that's the talk that I'm giving later this afternoon.",
+  "zh": "如果你想提前看这份报告的预览，那就是我今天下午晚些时候要做的演讲。"
+ },
+ {
+  "seg": 228,
+  "start": 1130.717,
+  "end": 1132.258,
+  "speaker": "Unknown",
+  "en": "Thanks everybody for your time, I appreciate it.",
+  "zh": "感谢大家的时间，非常感谢。"
+ },
+ {
+  "seg": 229,
+  "start": 1139.055,
+  "end": 1139.477,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

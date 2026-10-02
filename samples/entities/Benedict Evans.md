@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
+[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":146,"Anthropic":158,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":1,"Google":53,"TSMC":6,"Meta":38,"LLM":52}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":147,"Anthropic":159,"基础模型":6,"AGI":26,"Lenny":68,"Jacob Efron":1,"Google":53,"TSMC":6,"Meta":39,"LLM":52}</script>
 
 <script>
 (function(){

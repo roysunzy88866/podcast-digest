@@ -161,9 +161,9 @@ Town 自己也对一些高频用户场景采用这个思路，他们问自己的
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同概念:人在回路 (human in the loop)、多智能体系统 (multi-agent system)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Town · 同概念:智能体 (agent)、隐私 (privacy)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:auto 模式 (auto mode)、智能体 (agent)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human in the loop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

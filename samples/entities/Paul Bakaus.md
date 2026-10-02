@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]] [[Suraj Gupta]] [[Kevin Hou]] [[Ido Salomon]]
+[[Brian Hook]] [[Moritz Beller]] [[David George]] [[Dex Horthy]] [[Clara Vo]] [[John Lindquist]] [[Justin Reock]] [[Liz Fong-Jones]] [[Thariq Shihipar]] [[Daksh Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":51,"品味":14,"智能体":376,"技能":25,"一次性设计":1,"子智能体":5,"AI 垃圾内容":3,"Claude Code":90,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":51,"品味":14,"智能体":380,"技能":25,"一次性设计":1,"子智能体":5,"AI 垃圾内容":3,"Claude Code":90,"形容词引导设计":1}</script>
 
 <script>
 (function(){

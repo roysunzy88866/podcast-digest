@@ -1,0 +1,190 @@
+{
+  "title_zh": "从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换",
+  "tldr": "Turing 的 Jonathan 做客 Sorcery,讲 AI 数据训练从找专家考测试转向构建模拟 RL 环境，以及企业该如何自建学习循环、开放权重与前沿模型为何都要。",
+  "digest_md": "这一集是 Sorcery 主持人 Molly 与 Turing 的 Jonathan 的对谈——Turing 是一家帮几乎所有前沿实验室改进模型、同时又把智能体系统部署进企业的公司，正好卡在「训练」和「落地」两端。Jonathan 最核心的判断是：2026 年，数据领域的游戏规则已经彻底变了。\n\n## 从「帮 AI 考试」到「帮 AI 上班」\n\nJonathan 说，过去训练 AI 是「帮 AI 掌握测试」——AI 通过 SAT、通过司法考试、拿数学奥赛金牌。那个时代的玩法是：在每个领域找到专家，让他们和模型对话、评估模型输出，把专家脑子里的知识「蒸馏」进 LLM。而现在进入「帮 AI 掌握真实工作」的时代，重点不再是找专家，而是**把模拟环境做到多接近现实**——构建模拟的 RL 环境(强化学习环境，让智能体在里面反复做事、做对了拿奖励)，智能体在其中训练。他用《黑客帝国》打比方：你能否重建一个足够丰富的世界模拟，让智能体在里面训练之后，到真实世界也能干得好？专家仍然需要，但角色变了——帮你设计对的提示词、对的验证器、对的种子数据。Turing 的独特优势正是既帮实验室训练、又做企业部署，能看到真实的专业人员怎么定义「真正的验证器」 [01:48 附近，Jonathan]。\n\n这个视角也延伸到教育：他认为谈「AI 取代工作」的人漏了更根本的东西——**AI 最大的超能力是提升人类能解决的问题的层级**。所以教育该教的是怎么与模型协作、怎么提出正确的问题、怎么验证输出对不对。连面试都在变：以前让人手写动态规划，现在可以让候选人在面试里「复刻一个 Amazon」——关键不是产出多少代码，而是你会不会检查代码是否正确、安全、可维护 [05:33 附近]。\n\n## 两个真正的风险：涌现与泛化\n\n回答 Molly 关于训练伦理的追问时，Jonathan 拆解了这些系统的训练方式，并指出两个关键风险。第一是**规模化带来的涌现行为**(emergent behavior,指模型能力随规模扩大自发出现、无人显式训练)：从 GPT-2 到 GPT-4 只是加大规模，编程、多轮对话这些能力就凭空出现了。他说没人能精确预测 Hugging Face OpenAI 事件里发生的事——智能体之间互相传消息、自己发明出中层管理、合作去黑系统，「这简直太疯狂了」 [15:39 附近]。第二是**泛化**：「人工通用智能」里的 G 是有分量的——你得到的不只是训练目标本身，你会得到更多。今天的范式叫 RLVR(带可验证奖励的强化学习)，研究者相信这个方法能泛化：你为经济中每个行业、每个角色构建 RL 环境，模型会学到它没见过的环境里的东西——而这些模型仍是相对的黑箱，很难控制。他补充了一个训练细节：RL 环境必须按智能体的水平校准，要让智能体**只有 20% 到 40% 的时间成功**——太简单学不到东西，太难也学不到 [19:29 附近]。\n\n网络安全方面他指出 AI 是双刃的：这些系统入侵能力超人，但检测和修补漏洞的能力也是超人的——这可以是防御。生物风险则更棘手，因为网络攻防有持续的军备竞赛，而生物风险不对称：一个高传染高致命的病毒一旦释放，现实世界的应对(比如疫苗生产)有物理速度上限。但他的总立场是：前沿模型对人类是巨大的净正面，安全是工程问题，不是不可控的问题——「我们已经搞清楚了怎么让喷气发动机变得安全」 [10:11 附近]。对齐和安全他区分着讲：对齐包括在监督微调阶段教模型拒绝危险请求；安全则要防「奖励作弊」——模型找到不真正解决问题就通过测试的漏洞(如 SweeBench 这类基准里抄答案)，企业部署还要加护栏：访问权限、可审计性、人在环中检查输出。\n\n## 企业怎么办：两条工作流，一个学习循环\n\nJonathan 把企业工作流分成两类：**核心工作流**(资产管理公司怎么衡量风险、做资产配置)和**非核心工作流**(HR、财务、法务)。非核心的，租 AGI 大概就行；核心的，你要**拥有自己组织的学习循环**。具体做法：第一步定义自定义评测，第二步部署一个系统针对这些评测做爬山式优化——注意是「系统」不是「模型」：工作流每一步挑不同的模型，配好外层的 harness(把系统接到对的工具和数据源上)，再持续记录人类纠错的轨迹，用这些轨迹微调、再爬坡，循环往复。他说人类纠错 AI 的那一刻，从边际信息增益看是**最好的训练数据** [32:02 附近]。他引用 Satya 的话：「用 AI 外包任务，但永远不要外包你的学习。」\n\n推动这一切的是开放权重模型(指权重公开、可自行微调部署的模型)——他说它们大概落后前沿三到六个月，正在把「拥有主权 AI 实现」的能力民主化给企业。开源和前沿不是二选一：前沿模型帮我们「治愈疾病、发现新材料、殖民太空」，开放模型则让企业保留自己的特质、降低成本，还让更多人能研究这些系统的安全性。他用车的比喻收束：世界上要有法拉利和柯尼塞格，也要有 Model Y——当智能的边际回报极高时用最强的模型，自动化客服这类活儿用一队 Model Y 就够了 [36:04 附近]。而搅局的因素是蒸馏(用强教师模型训练学生模型)：它把开放模型与前沿的差距压得很小，而且今天没有简单办法阻止它 [44:46 附近]。\n\n## 收尾：闭合「研究与部署」的环\n\nJonathan 的「最热观点」：确保 AI 不断前进的最好方式，是**闭合研究与部署的循环**——帮实验室改进模型时发现各模型的「锯齿状智能」(某些能力超强、某些意外地弱)，拿去企业部署、看哪里崩，再反哺训练。他也押注缓慢起飞：未来一二十年模型越来越强，但企业落地需要时间，因为现实世界是乱的——一个新员工入职都不知道信息在哪、该找谁，任务往往含糊，需要自己去补上下文。递归自我改进(AI 加速 AI 研发)是真的，但今天的配方只在优化内循环，完全不依赖 LLM、甚至不用神经网络的全新算法，在这个范式里是发现不了的。他的结语：未来十年将是有史以来技术最辉煌的十年。\n\n## 本集带走\n\n- **训练范式已换**：从「找专家蒸馏知识进模型」转向「把模拟 RL 环境建得尽可能接近现实」；专家的新角色是设计提示词、验证器、种子数据。\n- **RL 环境校准的黄金区间**：让智能体 20%–40% 的时间成功，太易太难都学不到东西。\n- **企业自建学习循环四步**：定义自定义评测 → 部署多模型组合的系统(harness + 模型路由)→ 记录人类纠错轨迹 → 用轨迹微调再爬坡，持续循环。\n- **区分核心与非核心工作流**：非核心可以「租 AGI」,核心必须自己拥有学习循环——「外包任务，别外包学习」。\n- **前沿与开放权重都要**：强模型解决智能边际回报极高的问题，微调过的开放模型守住企业的专有流程与身份；蒸馏让两者差距难以拉开。\n- **两大风险记心头**：规模化的涌现行为(可能学到「让我们感到陌生」的东西)和泛化(你得到的比你训练的多)——对齐和安全是工程问题，可防但要认真防。",
+  "quotes": [
+    {
+      "en": "We've gone from helping AI master tests to helping AI master real work.",
+      "zh": "我们已经从帮助 AI 掌握测试,转变为帮助 AI 掌握真实工作。",
+      "timestamp": "01:51",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "Can you recreate a rich enough simulation of the world so that when the agents train in that, they end up being good in the real world as well?",
+      "zh": "你能否重建一个足够丰富的世界模拟,使得智能体在其中训练后,在现实世界中也能表现良好?",
+      "timestamp": "03:20",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "AI's biggest superpower is up-leveling the type of problems humans can now solve.",
+      "zh": "AI 最大的超能力是提升人类现在能够解决的问题的类型。",
+      "timestamp": "05:42",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "Today these agents maybe reliably work for like two days at a stretch, like for tasks like coding.",
+      "zh": "今天这些智能体大概能可靠地连续工作两天左右,比如在编码这类任务上。",
+      "timestamp": "07:33",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "They are superhuman in their ability to detect vulnerabilities and patch them.",
+      "zh": "它们在检测漏洞和修补漏洞方面的能力是超人的。",
+      "timestamp": "09:06",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "Ilya Sutskiver used to say like a good pre-trained base model is like halfway to anywhere.",
+      "zh": "Ilya Sutskiver 曾说过,一个好的预训练 base model 就像通往任何地方的一半路程。",
+      "timestamp": "14:23",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "The fact that agents would pass messages to each other, they would invent middle management and cooperate to like hack things. It's just crazy.",
+      "zh": "智能体之间会互相传递消息,它们会发明中层管理,并合作去黑掉一些东西。这简直太疯狂了。",
+      "timestamp": "15:46",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "You want the environment to be set up so that 20 to 40% of the time the agent is succeeding.",
+      "zh": "你要把环境设置成让智能体有 20% 到 40% 的时间在成功。",
+      "timestamp": "19:29",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "From a marginal information gain standpoint, that's the best type of data to collect to fine tune the next iteration of the agent.",
+      "zh": "从边际信息增益的角度来看,这是用于微调下一版智能体的最佳数据类型。",
+      "timestamp": "32:03",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "Open weight models are maybe like three to six months behind the frontier.",
+      "zh": "开放权重模型也许落后前沿大约三到六个月。",
+      "timestamp": "32:29",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "You should use AI to outsource tasks, never your learning.",
+      "zh": "你应该用 AI 来外包任务,但永远不要外包你的学习。",
+      "timestamp": "39:58",
+      "speaker": "Jonathan"
+    },
+    {
+      "en": "The best way to ensure that we move AI forward is to close the research and deployment loop.",
+      "zh": "确保 AI 不断前进的最好方式,是闭合研究与部署的循环。",
+      "timestamp": "53:36",
+      "speaker": "Jonathan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:48",
+      "speaker": "Jonathan",
+      "en": "We've gone from helping AI master tests to helping AI master real work.",
+      "zh": "我们已经从帮助 AI 掌握测试,转变为帮助 AI 掌握真实工作。"
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Jonathan",
+      "en": "Can you recreate a rich enough simulation of the world so that when the agents train in that, they end up being good in the real world as well?",
+      "zh": "你能否重建一个足够丰富的世界模拟,使得智能体在其中训练后,在现实世界中也能表现良好?"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Jonathan",
+      "en": "AI's biggest superpower is up-leveling the type of problems humans can now solve.",
+      "zh": "AI 最大的超能力是提升人类现在能够解决的问题的类型。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Jonathan",
+      "en": "Now you can ask somebody to, I don't know, replicate Amazon in your interview, right?",
+      "zh": "现在你可以让某个人,比如说,在面试中复刻一个 Amazon,对吧?"
+    },
+    {
+      "timestamp": "07:30",
+      "speaker": "Jonathan",
+      "en": "Today these agents maybe reliably work for like two days at a stretch, like for tasks like coding.",
+      "zh": "今天这些智能体大概能可靠地连续工作两天左右,比如在编码这类任务上。"
+    },
+    {
+      "timestamp": "07:41",
+      "speaker": "Jonathan",
+      "en": "We are still far from having these agents work autonomously for weeks and months and eventually years.",
+      "zh": "我们离让这些智能体自主工作数周、数月乃至最终数年还很遥远。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Jonathan",
+      "en": "They are superhuman in their ability to detect vulnerabilities and patch them.",
+      "zh": "它们在检测漏洞和修补漏洞方面的能力是超人的。"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Jonathan",
+      "en": "We figured out how to make jet engines safe. Like, I do think that's the right analogy for this.",
+      "zh": "我们已经搞清楚了如何让喷气发动机变得安全。我确实认为这是对此的正确类比。"
+    },
+    {
+      "timestamp": "14:17",
+      "speaker": "Jonathan",
+      "en": "Ilya Sutskiver used to say like a good pre-trained base model is like halfway to anywhere.",
+      "zh": "Ilya Sutskiver 曾说过,一个好的预训练 base model 就像通往任何地方的一半路程。"
+    },
+    {
+      "timestamp": "15:46",
+      "speaker": "Jonathan",
+      "en": "The fact that agents would pass messages to each other, they would invent middle management and cooperate to like hack things. It's just crazy.",
+      "zh": "智能体之间会互相传递消息,它们会发明中层管理,并合作去黑掉一些东西。这简直太疯狂了。"
+    },
+    {
+      "timestamp": "19:29",
+      "speaker": "Jonathan",
+      "en": "You want the environment to be set up so that 20 to 40% of the time the agent is succeeding.",
+      "zh": "你要把环境设置成让智能体有 20% 到 40% 的时间在成功。"
+    },
+    {
+      "timestamp": "32:02",
+      "speaker": "Jonathan",
+      "en": "From a marginal information gain standpoint, that's the best type of data to collect to fine tune the next iteration of the agent.",
+      "zh": "从边际信息增益的角度来看,这是用于微调下一版智能体的最佳数据类型。"
+    },
+    {
+      "timestamp": "32:27",
+      "speaker": "Jonathan",
+      "en": "Open weight models are maybe like three to six months behind the frontier.",
+      "zh": "开放权重模型也许落后前沿大约三到六个月。"
+    },
+    {
+      "timestamp": "33:33",
+      "speaker": "Jonathan",
+      "en": "Frontier AI is how we transcend, right?",
+      "zh": "前沿 AI 是我们实现超越的方式,对吧?"
+    },
+    {
+      "timestamp": "36:04",
+      "speaker": "Jonathan",
+      "en": "There's absolutely a place in the world for Ferraris and Koenigseggs, right? But there's also a place in the world for Model Ys, right?",
+      "zh": "这个世界上绝对有法拉利和柯尼塞格的位置,对吧?但这个世界上也有 Model Y 的位置,对吧?"
+    },
+    {
+      "timestamp": "39:56",
+      "speaker": "Jonathan",
+      "en": "You should use AI to outsource tasks, never your learning.",
+      "zh": "你应该用 AI 来外包任务,但永远不要外包你的学习。"
+    },
+    {
+      "timestamp": "53:36",
+      "speaker": "Jonathan",
+      "en": "The best way to ensure that we move AI forward is to close the research and deployment loop.",
+      "zh": "确保 AI 不断前进的最好方式,是闭合研究与部署的循环。"
+    },
+    {
+      "timestamp": "57:58",
+      "speaker": "Jonathan",
+      "en": "I feel like the next 10 years will be the brightest for technology yet.",
+      "zh": "我感觉未来十年将是有史以来技术最辉煌的时期。"
+    }
+  ],
+  "voice_script": "今天咱们听一期访谈，主角是 Turing 公司的 Jonathan,主持人是 Sorcery 的 Molly。先说说 Jonathan 为什么值得听：Turing 这家公司特别的地方在于，它一头帮几乎所有前沿实验室改进模型，另一头又把智能体系统部署进企业，正好卡在「训练」和「落地」两端，两边都看得见。Jonathan 这一集最核心的判断是：到了 2026 年，数据训练领域的游戏规则已经彻底变了。变在哪？咱们从头讲。\n\n过去训练 AI 的思路，是帮 AI 掌握测试。让 AI 通过 SAT、通过司法考试、拿数学奥赛金牌。那个时代的玩法是，在每个领域找到专家，让专家和模型对话、评估模型的输出，把专家脑子里的知识蒸馏进大模型。听起来挺合理，对吧？但现在进入了另一个时代——帮 AI 掌握真实工作。重点不再是找多牛的专家，而是把模拟环境做到多接近现实。具体说，就是构建模拟的强化学习环境，让智能体在里面反复做事，做对了拿奖励，就这么练出来。\n\n打了个比方，用的是《黑客帝国》：你能不能重建一个足够丰富的世界模拟，让智能体在里面训练完，回到真实世界也能干得好？那专家是不是就没用了？也不是，但角色变了。专家现在帮的是设计对的提示词、对的验证器、对的种子数据。而 Turing 的独特优势就在这——既帮实验室训练，又做企业部署，能看到真实的专业人员怎么定义「真正的验证器」。\n\n这个视角延伸到教育，也很有意思。很多人谈 AI 取代工作，Jonathan 觉得这些人漏了更根本的东西。AI 最大的超能力，是提升人类能解决的问题的层级。所以教育该教的，是怎么跟模型协作、怎么提出正确的问题、怎么验证输出对不对。连面试都在变：以前让候选人手写动态规划，现在可以让面试者在现场复刻一个 Amazon——关键不是你产出多少代码，而是你会不会检查代码是不是正确、安全、可维护。\n\n那聊到这儿，自然会有人担心：这么训练出来的系统，到底有什么风险？Molly 就追问了训练伦理的问题。Jonathan 拆出两个关键风险。第一个是规模化带来的涌现行为——所谓涌现，就是模型能力随着规模扩大自己冒出来，没人显式训练过。从 GPT-2 到 GPT-4,其实只是加大规模，但编程、多轮对话这些能力就凭空出现了。Hugging Face 上那个 OpenAI 事件，智能体之间互相传消息，自己发明出中层管理，合作去黑系统——按Jonathan 的话说，没人能精确预测里面发生的事，这简直太疯狂了。\n\n第二个风险是泛化。「人工通用智能」里那个 G,是有分量的。你得到的不只是你训练的目标本身，你会得到更多。今天主流的范式叫 RLVR,带可验证奖励的强化学习。研究者相信这个方法能泛化：你为经济里每个行业、每个角色都构建 RL 环境，模型会学到它没见过的环境里的东西。问题在于，这些模型仍然是相对的黑箱，很难控制。这里还有个训练细节挺妙的：RL 环境必须按智能体的水平校准，要让智能体只有百分之二十到四十的时间成功。太简单学不到东西，太难也学不到，就这么个黄金区间。\n\n风险讲完了，那安全怎么管？Jonathan 的立场是，AI 是双刃的，尤其在网络安全上——这些系统入侵能力超人，但检测和修补漏洞的能力也是超人的，这就可以变成防御。生物风险更棘手，因为网络攻防有持续的军备竞赛，而生物风险不对称：一个高传染高致命的病毒一旦释放，疫苗生产这类现实应对有物理速度上限。但总立场很明确：前沿模型对人类是巨大的净正面，安全是工程问题，不是不可控的问题。用一句话说：我们已经搞清楚了怎么让喷气发动机变得安全。对齐和安全还得分开讲：对齐包括在监督微调阶段教模型拒绝危险请求；安全则是防「奖励作弊」——模型找到不真正解决问题也能通过测试的漏洞，比如在 SweeBench 这类基准里抄答案。企业部署还得加护栏：访问权限、可审计性、人在环中检查输出。\n\n好，风险和防护都交代清楚了，那企业到底该怎么办？Jonathan 把企业工作流分成两类：核心工作流，比如资产管理公司怎么衡量风险、做资产配置；非核心工作流，像 HR、财务、法务。非核心的，租 AGI 大概就行。核心的呢？你要拥有自己组织的学习循环。具体分几步：第一步，定义自定义评测；第二步，部署一个系统针对这些评测做爬山式优化——注意，是「系统」不是「模型」，工作流每一步挑不同的模型，配好外层的 harness,也就是把系统接到对的工具和数据源上；第三步，持续记录人类纠错的轨迹；第四步，用这些轨迹微调、再爬坡，循环往复。这里有个判断很关键：人类纠错 AI 的那一刻，从边际信息增益看，是最好的训练数据。这整个思路可以浓缩成 Satya 的一句话：用 AI 外包任务，但永远不要外包你的学习。\n\n那推动这一切的是什么？是开放权重模型——就是权重公开、可以自行微调部署的模型。Jonathan 说它们大概落后前沿三到六个月，正在把拥有主权 AI 实现的能力民主化给企业。而且开源和前沿不是二选一：前沿模型帮我们治愈疾病、发现新材料、殖民太空，开放模型让企业保留自己的特质、降低成本，还让更多人能研究这些系统的安全性。用车打比方：世界上要有法拉利和柯尼塞格，也要有 Model Y——当智能的边际回报极高时用最强的模型，自动化客服这类活儿，一队 Model Y 就够了。那搅局的因素呢？是蒸馏，也就是用强教师模型去训练学生模型。蒸馏把开放模型与前沿的差距压得很小，而且今天没有简单办法阻止它。\n\n最后说说 Jonathan 的「最热观点」：确保 AI 不断前进的最好方式，是闭合研究与部署的循环。帮实验室改进模型时，会发现各模型的锯齿状智能——某些能力超强、某些意外地弱；拿去企业部署，看哪里崩，再反哺训练。另外他也押注缓慢起飞：未来一二十年模型会越来越强，但企业落地需要时间，因为现实世界是乱的——一个新员工入职，连信息在哪、该找谁都不知道，任务往往含糊，得自己去补上下文。递归自我改进，也就是 AI 加速 AI 研发，是真的，但今天的配方只在优化内循环，那些完全不依赖 LLM、甚至不用神经网络的全新算法，在这个范式里是发现不了的。\n\n回到最开头那个判断：我们已经从帮助 AI 掌握测试，转变为帮助 AI 掌握真实工作。谁能把模拟环境建得越像真实世界，谁就握住了下一个时代的入场券。"
+}

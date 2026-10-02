@@ -1,0 +1,797 @@
+{
+  "episode_id": "2026-10-02-engenable-how-meta-reduced-diff-authoring-time-by",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-10-02",
+  "tags": [
+    "工程生产力",
+    "AI 辅助编程",
+    "开发者体验度量",
+    "智能体",
+    "软件测试"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "brian-hook",
+      "type": "person",
+      "role": "host",
+      "name": "Brian Hook",
+      "file": "Brian Hook",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.453,
+            6.054
+          ],
+          "quote": "I'm your host this week, Brian Hook.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moritz-beller",
+      "type": "person",
+      "role": "cohost",
+      "name": "Moritz Beller",
+      "file": "Moritz Beller",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            65.335,
+            76.245
+          ],
+          "quote": "Today's guest is Moritz Beller, a software engineering researcher at Meta whose work sits at the intersection of empirical software engineering and real-world developer productivity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "Moritz 任职的公司,本集主线:他在 Meta 主导了 diff 编写时间(DAT)指标,并观察到 AI 普及后全公司 DAT 同比下降超 40%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            65.335,
+            76.245
+          ],
+          "quote": "Today's guest is Moritz Beller, a software engineering researcher at Meta whose work sits at the intersection of empirical software engineering and real-world developer productivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            90.378,
+            100.648
+          ],
+          "quote": "Today, we're going to dig into some of the work he's been leading at Meta, including new ways of measuring engineering productivity and what those findings tell us about the future of software development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            133.628,
+            139.9
+          ],
+          "quote": "So just to help set some background context, could you tell us a little bit about your role at Meta?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            152.662,
+            158.786
+          ],
+          "quote": "So naturally, a lot of the problems that we then tackle at Meta also have a research component to them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            292.776,
+            300.802
+          ],
+          "quote": "And so basically, I would say until quite recently, the currency at Meta was code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            435.813,
+            446.398
+          ],
+          "quote": "Didn't quite have that metric for our own internal development and how we could assess basically the development experience of our own engineers at Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            738.564,
+            751.687
+          ],
+          "quote": "And I'm curious, you know, what do you think was missing from the metrics that meta was already using that diff authoring time sort of solves that makes it so suitable for running experiments like you just mentioned?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1177.475,
+            1183.977
+          ],
+          "quote": "Especially now, right, but also for Meta, the year of efficiency was 2022, which is when the authoring time development started.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1671.523,
+            1677.866
+          ],
+          "quote": "Yeah, I played around with this idea at the very beginning of when we started at Meta to record our meetings internally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1958.162,
+            1968.067
+          ],
+          "quote": "With all of the telemetry that we have in place at Meta now, we would be able to automate this, which you could say is a more truthy signal in that case.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-research",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft Research",
+      "file": "Microsoft Research",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            101.51,
+            109.696
+          ],
+          "quote": "Now, on a more personal note, I will say that Moritz did a internship with Microsoft Research many, many years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            698.341,
+            704.887
+          ],
+          "quote": "Yeah, I mean, I know Microsoft Research had some interesting stuff on that, and I think are still doing it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1834.054,
+            1843.261
+          ],
+          "quote": "And what we wanted to do in that study with Thomas Zimmerman, who was my mentor at Microsoft Research, was to basically bridge the gap between the two.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "diff-authoring-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "diff 编写时间 (diff authoring time)",
+      "file": "diff 编写时间",
+      "primary": true,
+      "how_described": "DAT:衡量人主动花在撰写、评审、准备和测试 diff 上的毫秒级时间指标;AI 普及后 Meta 公司级 DAT 同比下降超 40%,且从未被用于绩效评估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            239.577,
+            254.968
+          ],
+          "quote": "And so speaking of that, some of the work that I've seen from you over the last couple of years talks about a metric that I think is incredibly interesting called diff authoring time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            255.588,
+            262.293
+          ],
+          "quote": "And so just like to help us start with the basics, what exactly is diff authoring time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            330.632,
+            336.453
+          ],
+          "quote": "And thus, Diff Authoring Time was born, which basically measures the active time that humans spend",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            510.847,
+            518.509
+          ],
+          "quote": "And it's like, oh, like development tool, you know, if I'm using VS code versus Emacs, like what does that do to my, my diff authoring time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            661.585,
+            676.583
+          ],
+          "quote": "I mean, I certainly acknowledge that running A-B experiments, using diff authoring time as sort of the outcome variable, to look at practical changes in engineering tools and engineering workflows, like, that makes sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            689.855,
+            692.137
+          ],
+          "quote": "What's more disruptive to their diff authoring time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            738.564,
+            751.687
+          ],
+          "quote": "And I'm curious, you know, what do you think was missing from the metrics that meta was already using that diff authoring time sort of solves that makes it so suitable for running experiments like you just mentioned?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1059.827,
+            1070.793
+          ],
+          "quote": "I mean, thinking about goals as it relates to diff authoring time is really interesting too, because not all diffs, certainly not all sort of class of activities are created the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1136.661,
+            1141.745
+          ],
+          "quote": "And like diff authoring time, especially if you can categorize the diffs, like I see how it's a good measure for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1149.351,
+            1153.073
+          ],
+          "quote": "So is it really about, can we drive total diff authoring time up or down?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1163.925,
+            1175.474
+          ],
+          "quote": "Unlike other metrics that were surfaced in the tools that were used to assess performance, diff authoring time never appeared in there, and that was a conscious choice in our part.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1259.11,
+            1274.942
+          ],
+          "quote": "Even if you sort of normalize the diffs in some way for size and complexity and all of these things, it's if I can create 10 diffs with an hour of diff authoring time versus I can create 20 and maybe that comes from like my build tools are faster or more predictable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1588.504,
+            1599.633
+          ],
+          "quote": "Like, for example, are junior devs seeing their diff authoring time drop faster because of using AI than very senior devs are?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1656.538,
+            1670.861
+          ],
+          "quote": "to sort of like synthesize our meeting transcripts or our meeting audio to capture some of that like missing piece that is going to become increasingly important and have that sort of feedback into the definition of diff authoring time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2227.607,
+            2242.12
+          ],
+          "quote": "And so I am curious also then, if we were to rerun Mind Your Gap, if the relationship between things like diff authoring time, coding time, and self-reported productivity, if that is even weakening now, what would you expect there?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ddm",
+      "type": "concept",
+      "role": "concept",
+      "name": "DDM",
+      "file": "DDM",
+      "primary": true,
+      "how_described": "diffs per developer per month:每位开发者每月的 diff 数,是吞吐量指标;必须与 DAT 成对看以防切碎 diff 刷指标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            780.357,
+            786.379
+          ],
+          "quote": "So we have another metric called DDM, diffs per developer per month.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            797.003,
+            813.602
+          ],
+          "quote": "DDM is interesting because it gives you basically a throughput metric in a given timeframe that's hopefully large enough to factor out some minor changes in day-to-day life if you take a PTO or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1299.123,
+            1303.067
+          ],
+          "quote": "At the same time, DDM has increased substantially.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "a-b-experiments",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 实验 (A-B experiments)",
+      "file": "A/B 实验",
+      "primary": true,
+      "how_described": "把产品端受控实验方法搬到内部开发工具验证上:如 React Forget 编译器实验显示 DAT 减少约 30%,据此把资源投向框架级变革",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            400.296,
+            408.165
+          ],
+          "quote": "One of the more important ones is that we can't actually run controlled A-B experiments much in the same way that we do in product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            558.888,
+            563.911
+          ],
+          "quote": "Actually, I basically have two really good examples that were controlled A-B experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            661.585,
+            676.583
+          ],
+          "quote": "I mean, I certainly acknowledge that running A-B experiments, using diff authoring time as sort of the outcome variable, to look at practical changes in engineering tools and engineering workflows, like, that makes sense.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "贯穿全集:智能体替人写 diff 和测试,带来 DAT 大降但需要警惕信任度、认知过载和智能体导致的宕机;现在只需放链接让智能体自己检索上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            273.981,
+            283.449
+          ],
+          "quote": "So it's a self-contained code change together with a summary of the changes that you're making or the agent is making in today's world with a test plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1446.523,
+            1453.505
+          ],
+          "quote": "But now it's, I think, more efficient to just link the information because the agent can then go ahead and retrieve that itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1555.329,
+            1560.497
+          ],
+          "quote": "And there's lots of places where the human agent collaboration can break down as it turns out, I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1730.77,
+            1749.121
+          ],
+          "quote": "Cost is that I needed to spend a lot more time reviewing this and basically extracting the design from the details of the code where I didn't need to look at the code, where I'm thinking, well, if you trust the agent to implement your architecture, then it would have been much easier to just get the architecture because that's the piece maybe we care about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2166.796,
+            2176.763
+          ],
+          "quote": "And we've seen, you know, these outages are already, I think pretty much every large tech company has had one of one agent cost outage yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2366.326,
+            2380.014
+          ],
+          "quote": "You can have unit tests, you can have in some cases even end-to-end tests because you have a harness that allows you to screenshot the results and then the agent can either operate on that and improve or include it as part of the test plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2384.897,
+            2391.202
+          ],
+          "quote": "included in our system prompt, or if there are no tests, we just tell the agent to add a couple tests.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2404.532,
+            2414.32
+          ],
+          "quote": "That might, you know, lure you into false sense of security of like, hey, the agent actually did what we are asking, but there really was a drift in what it did versus what we asked it to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2437.378,
+            2447.029
+          ],
+          "quote": "But if you don't really care about testing before, then you're not like really going to know what you should be validating that the agent actually like wrote the right tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2488.398,
+            2494.479
+          ],
+          "quote": "What we see often is all, we'll just throw, you know, another agent with maybe different agent harness and a different model at it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试 (testing)",
+      "file": "测试",
+      "primary": true,
+      "how_described": "本集说 AI 让加测试变得非常容易,但全绿的测试可能给你虚假的安全感——智能体做的和你要求的之间可能有漂移或规格说明不足",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            77.026,
+            89.578
+          ],
+          "quote": "Over the years, Moritz has helped advance our understanding of software testing, developer workflows, continuous integration, and more recently, not surprisingly, AI-assisted software engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            337.073,
+            342.636
+          ],
+          "quote": "Engineering, reviewing, maybe even preparing, testing, diff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            498.879,
+            504.185
+          ],
+          "quote": "But you said something there that like really piqued my curiosity around like using this for A-B testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2337.496,
+            2343.699
+          ],
+          "quote": "And if I recall correctly, a big finding is that a lot of developers just don't do any testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2391.282,
+            2396.866
+          ],
+          "quote": "And people understand that testing is more important now because we don't quite trust what the agents are doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2437.378,
+            2447.029
+          ],
+          "quote": "But if you don't really care about testing before, then you're not like really going to know what you should be validating that the agent actually like wrote the right tests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "TDD",
+      "file": "TDD",
+      "primary": true,
+      "how_described": "测试驱动开发;Moritz 提出「也许需要某种 TDD 在 AI 时代的复活」,并认为靠再扔一个不同模型框架的智能体去检查不是答案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            2452.895,
+            2458.56
+          ],
+          "quote": "Yeah, maybe we need a, you know, some sort of resurrection of TDD in the age of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2459.261,
+            2461.463
+          ],
+          "quote": "I like, I'll be honest, I loved TDD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2484.597,
+            2486.577
+          ],
+          "quote": "Like, is that the new version of TDD?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "developer-productivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者生产力 (developer productivity)",
+      "file": "开发者生产力",
+      "primary": true,
+      "how_described": "本集核心议题:从 Mind the Gap 到 DAT,探讨如何客观度量开发者生产力,以及编码时间与自我感知生产力的关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            65.335,
+            76.245
+          ],
+          "quote": "Today's guest is Moritz Beller, a software engineering researcher at Meta whose work sits at the intersection of empirical software engineering and real-world developer productivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            732.383,
+            737.964
+          ],
+          "quote": "Like there's lots of opinions on what metrics are best for capturing developer productivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1490.231,
+            1502.657
+          ],
+          "quote": "And I mean, to the business, maybe, but to sort of developer platform, James Peelstone, developer productivity, well, no, because the cost of generating that line is so much less.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1807.055,
+            1810.837
+          ],
+          "quote": "This is about a developer productivity way before AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "react-forget-compiler",
+      "type": "concept",
+      "role": "concept",
+      "name": "React Forget 编译器 (React forget compiler)",
+      "file": "React Forget 编译器",
+      "primary": true,
+      "how_described": "React 编译器团队做的自动记忆化功能,把 UI 里手工维护缓存变成编译器默认行为;A/B 实验显示使用它的 diff DAT 减少约 30%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            599.717,
+            611.066
+          ],
+          "quote": "And so then the React compiler team set out to basically make this a supported default in the React forget compiler is the name of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            611.527,
+            621.174
+          ],
+          "quote": "And so we were able to compare GIFs that were using this feature of the new React forget compiler versus",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mind-the-gap",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mind the Gap",
+      "file": "Mind the Gap",
+      "primary": true,
+      "how_described": "Moritz 在微软研究院做的研究,首次把客观遥测数据与开发者自我感知生产力放在同一研究里;发现编码时间与自我感知生产力相关性最强,并预测了睡眠质量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1780.302,
+            1787.448
+          ],
+          "quote": "Where you were working on a study called Mind the Gap, which was hugely influential in my own work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1996.556,
+            2006.946
+          ],
+          "quote": "So in Mind the Gap, I know that it was self-reported and this study that hopefully we will be publishing soon, we used fitness trackers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2010.75,
+            2018.173
+          ],
+          "quote": "So I'm curious, like the world, you know, Mind the Gap at this point in time has got to be six or seven years old, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2035.24,
+            2036.601
+          ],
+          "quote": "How would Mind the Gap be different in 2026?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intent",
+      "type": "concept",
+      "role": "concept",
+      "name": "意图 (intent)",
+      "file": "意图",
+      "primary": true,
+      "how_described": "主持人提出「代码不再是货币,意图才是」:生成代码成本骤降后,该关心的是想法的吞吐量以及输入系统的想法是否等于 diff 里产出的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1511.665,
+            1515.289
+          ],
+          "quote": "And now, really, intent is the currency we care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1572.45,
+            1580.057
+          ],
+          "quote": "And maybe these are now the atomic units of work of agents moving forward and sort of intent is the atomic unit of work for developers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1757.005,
+            1769.656
+          ],
+          "quote": "Yeah, I think Dr. Peggy Storey's recent triple debt framework talking about the rise of not just technical debt but cognitive debt and intent debt would argue pretty strongly that we shouldn't just skip the architecture phase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

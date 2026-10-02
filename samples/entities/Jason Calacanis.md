@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]]
+[[Vlad Kyle]] [[Seema Amble]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[David George]] [[Santiago Rodriguez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":53,"Airbnb":12,"Y Combinator":7,"智能体":376,"AI":26}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":2,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":53,"Airbnb":12,"Y Combinator":7,"智能体":380,"AI":26}</script>
 
 <script>
 (function(){

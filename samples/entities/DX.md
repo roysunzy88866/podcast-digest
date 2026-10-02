@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DX">DX</div><div class="pi"><h1 class="pt">DX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DX">DX</div><div class="pi"><h1 class="pt">DX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]]**(37:00起):本集提到 Abi Noda 创办的这家围绕开发者体验的公司，刚以十亿美元的估值卖给了 Atlassian，这印证了改善开发者体验具有巨大的商业价值。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(22:37起):本集提到的一款工程效率分析工具，团队用它来统计全公司代码合并的真实吞吐量并计算百分位数排名。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(03:39起):本集把它描述为早期 Modal 的主打牌：解决传统工作流编排工具难用的问题，让开发者不用写复杂的 YAML，而是通过在代码里加装饰器来定义基础设施需求。
+- **[[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]]**(00:13起):本集嘉宾所在的开发者体验研究平台，由做过 DORA 指标、Space 框架的研究者打造，是一个数据收集平台，基于约 20 万名工程师的数据研究 AI 对开发者体验与生产力的影响。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]] — 作为被讨论公司(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念
+- [[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Claire Vo]] · [[Swyx]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[代码行数]] · [[Gusto]] · [[Vibhu]]
+[[智能体]] · [[DORA]] · [[Lenny]] · [[Claire Vo]] · [[Swyx]] · [[Justin Reock]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[开发者体验]]
 
-<script type="application/json" class="pd-epn">{"智能体":376,"Lenny":68,"Claire Vo":5,"Swyx":2,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"代码行数":2,"Gusto":2,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"DORA":3,"Lenny":68,"Claire Vo":5,"Swyx":2,"Justin Reock":1,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"开发者体验":1}</script>
 
 <script>
 (function(){

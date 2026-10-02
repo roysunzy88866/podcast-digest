@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dex Horthy":2,"软件工厂":1,"智能体":376,"上下文工程":16,"规范":2,"计划":1,"代码审查":21,"垃圾话":8,"Human Layer":1,"技能":25}</script>
+<script type="application/json" class="pd-epn">{"Dex Horthy":2,"软件工厂":1,"智能体":380,"上下文工程":16,"规范":2,"计划":1,"代码审查":21,"垃圾话":8,"Human Layer":1,"技能":25}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":38,"推理":65,"智能体":376,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":34}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":39,"推理":65,"智能体":380,"微服务":1,"GPU":18,"KVCache":4,"批处理":1,"投机解码":2,"可观测性":34}</script>
 
 <script>
 (function(){

@@ -1,0 +1,172 @@
+{
+  "title_zh": "Meta 用毫秒级数据丈量工程师：AI 时代代码不再是货币",
+  "tldr": "Meta 软件工程研究员 Moritz Beller 讲解 diff 编写时间（DAT）指标：毫秒级追踪开发时间、A/B 实验验证工具价值，以及 AI 让 DAT 同比降超 40% 的发现。",
+  "digest_md": "这一集聊的是一件很多工程师没想过的事：**写代码的时间到底能不能被精确测量，测出来又能改变什么**。主角是 Moritz Beller——Meta 的软件工程研究员，常年研究测试、开发者工作流和 AI 辅助编程。他在 Meta 主导了一个叫 **diff 编写时间（DAT, Diff Authoring Time）** 的指标，最反直觉的一点是：AI 普及后，Meta 全公司写 diff 的时间同比下降超过 40%，但 diff 数量和 diff 大小反而在涨——人花在写代码上的时间少了，产出的东西却更多了。\n\n## 什么是 diff 编写时间\n\ndiff 相当于 pull request：一个自包含的代码变更，加上变更摘要和测试计划，评审者可以多轮评论。Moritz 说，直到最近，「Meta 的货币是代码」——diff 是公司运转和讨论的核心单位，所以业务方自然想知道：这个核心活动到底花了多少时间。\n\nDAT 衡量的是人**主动**花在工程上的时间：撰写、评审、准备、测试 diff。它经历了从粗糙到精细的演进：最早只是按日取平均值，但发现这留下太多空白——如果某天有人用了某个功能、有人没用，取平均就得不到干净信号，**没法做受控的 A/B 实验**。于是他们做到了毫秒级保真：任何一个时刻你有没有在改 diff、在改哪个 diff，都能知道。\n\n> 【背景】A/B 实验指把用户随机分成两组、各用不同版本对比效果，是互联网产品验证改动的标准方法。Meta 的产品团队天天在做，而 DAT 的意义是把这种科学方法搬到了「内部开发工具本身」的验证上。\n\n## DAT 拿来干什么：实验、汇报、心智\n\n**第一个用途是 A/B 实验。** Moritz 给了一个扎实案例：React 团队做了个叫 React Forget 的编译器，把 UI 里手工维护缓存（记忆化）这件事变成编译器自动完成。对比使用编译器的 diff 和手写缓存的 diff，**DAT 大约减少了 30%**。这个节省幅度大得出乎意料，直接影响了组织的规划——结论是应该把更多投入放在框架和工具的基础性变革上，而不是对 UI 做微优化。这跟产品端「改个按钮几个像素就带来巨大提升」的路径完全相反，DAT 实验里从没见过那种小改动大收益的情况。\n\n**第二个用途是领导层汇报**：在团队或公司层面监控指标，有没有意外的严重退化，有没有达成既定目标。DAT 还支持对 diff 分类——创新、维持业务、还技术债。不同团队的分布理应不同：基础设施团队的 diff 大多是内部性质很正常；但产品功能团队如果大部分 diff 是内部的，就说明有问题了。\n\n**第三个是心智层面的**：即使开发者不直接用 DAT，它也培养了「像科学家一样开发」的思维方式。Moritz 强调，**DAT 从未被用于绩效评估**——它从未出现在评估绩效的工具里，这是有意的选择。Meta 的「效率之年」是 2022 年，而 DAT 的开发恰恰始于那一年，「这显然不是巧合」。\n\n## 怎么防钻空子：成对看指标\n\n单看任何一个速度指标都能被钻空子：你可以把 diff 切碎来刷数量。所以 Meta 从不单看 DAT，而是成对地看 **DAT 和 DDM（每位开发者每月的 diff 数）**：你可以轻松把 DDM 翻倍，只要把每个 diff 的 DAT 减半——但最终产物一样，这正是要避免的。理论上评估的是你交付的影响，用 10 个还是 20 个 diff 完成并不重要。加上吞吐量、diff 大小、时长这个三角会自然相互制衡——想提升其中一项，其他项就会动。\n\n## AI 的冲击：时间省了 40%，产出却在涨\n\n这是全集中最重磅的数据。AI 普及后，**Meta 全公司 DAT 同比下降超过 40%，同时 DDM 大幅增长，diff 也变得更大**——排除了「diff 变小了所以省时间」的解释。Moritz 说这是公司层面的信号，干净而强烈，能把时间线上的事件对应到图表的反应上，非常清楚；而以前个别团队的类似波动多半只是噪音。这个量级与微软的研究（每小时活跃编码产出的 pull request 增加约 40%）高度吻合。\n\n那省下来的时间去哪了？Moritz 给的是「有依据的猜测」而非科学结论：**大头是收集上下文**。而且很多传统上不算编码的活动——比如写规格说明——现在应该被视为编码的邻近部分。有趣的是，花在写提示词上的时间并不多：早期流行「把所有信息塞进提示词」，现在更高效的做法是**只放链接，让智能体自己去检索**。\n\n一个意外发现：**最初观察到资深开发者的 DAT 下降得比初级更快**——资深者更会用 AI 工具，这让人意外，但已在业界得到印证。不过随着时间推移，这个差距已经有所拉平。\n\n主持人 Brian 提出此后对话的主线：既然生成一行代码的成本骤降，「**代码不再是货币，意图才是**——我们该关心的是想法的吞吐量，以及输入系统的想法是否真的等于 diff 里产出的东西，还是中间存在漂移」。Moritz 用 DAT 第八版的亲身经历佐证了警惕的必要：实现者没写设计文档，结果 Moritz 花了远多得多时间去审查、从代码细节里反推设计——「**也许正因为我们可以跳过架构这一步，我们才更不应该跳过**」。\n\n## 测试：更容易了，也更危险了\n\n另一项研究《开发人员何时、如何以及为什么不在 IDE 里测试》的核心发现是：很多开发者根本不做测试。AI 时代这把双刃剑更锋利了——一方面加测试变得非常容易，让智能体加几个测试就行；另一方面**全绿的测试可能给你虚假的安全感**：智能体做的和你要求的之间可能有偏差，甚至不是偏差，只是你规格说明写得不够明确，本来就可以有不同解读。\n\nBrian 追加的担忧更尖锐：以前不在意测试的人，现在也没有能力验证「智能体写的测试是不是对的测试」。Moritz 认为靠「再扔一个不同模型不同框架的智能体去检查」不是答案，并暗示某种 TDD（测试驱动开发，先写测试再写实现）在 AI 时代的复活可能有价值。\n\n## 重新跑一遍 Mind the Gap 会怎样\n\n对话回到两人的渊源：Moritz 早年在微软研究院做了 **Mind the Gap** 研究，第一次把「客观遥测数据」和「开发者自我感知的生产力」放在同一项研究里互相补短。核心发现：**编码时间与自我感知生产力相关性最强**——而当年微软开发者的核心开发时间并不是一天中的头号活动，提交编码可能只占一天的 13%~15%，让很多开发者沮丧。另一个出名的预测因子是**前一晚睡得好不好**；在后续未发表的研究里他们用 Fitbit 手表量化了睡眠质量。\n\n> 【背景】Moritz 在微软研究院的导师是 Thomas Zimmermann（原文未提及此名，为背景补充）。\n\n如果今天重跑，Moritz 说必须加入智能体行为的度量：你如何与并行的智能体协作、你对它们信任多少——「几乎每家大型科技公司都已经经历过一次由智能体导致的宕机」，全信和全不信之间可能存在一个最佳信任度。他也预期传统的「坏日子成因」不会变：健康问题、环境问题、**开不完的对齐会议**依然存在，但会新增第四类——「我在使用智能体的这套设置下，满意度如何、认知上是否过载」，而且这是相对于同行的比较基准。\n\n## 仍然测不了的东西\n\n最后 Moritz 给出他认为软件工程最缺度量的一块：**人际互动**——你怎么和同事协作、怎么为项目争取资源。Brian 补了一个扎心的数据点：有组织仅仅取消了低质量会议，获得的吞吐量提升**比采用 AI 还大**；但他的另一项研究《双城记》又发现，预测开发者自我报告生产力的最佳指标，是会议前后是否经常进行非正式闲聊——这比网速还准。结论不是取消所有会议：**不是所有协作都是坏的，坏的协作才是坏的**。\n\nMoritz 还警告了 AI 时代的新风险：因为重做太容易，「同一件事被不同人重复做好几遍」，公司层面需要机制让人意识到「Brian 也在做生产力指标，也许 Brian 和 Moritz 该聊聊」——已实现的东西如果没有被消化，就等于没有价值。\n\n## 本集带走\n\n- **速度指标必须成对看**：DAT（单个 diff 的主动时间）配 DDM（每月 diff 数）再加大小维度，三者互相制衡，切碎 diff 刷指标的路就被堵死了。\n- **用 A/B 实验验证开发工具**：React Forget 编译器让 DAT 降约 30%——实验结果大得出乎意料，才值得把资源投到框架级变革而非微优化。\n- **AI 的净效果是真实的**：Meta 公司级 DAT 同比降超 40%，diff 数量和大小同时上涨，这是排除了噪音的强信号；省下的时间主要流向了收集上下文，而非写提示词。\n- **全绿的测试不等于正确**：智能体产出与你的意图之间可能存在漂移或规格歧义；跳过架构设计，反而要在代码审查里付出更高代价把设计反推出来。\n- **意图正在取代代码成为货币**：该衡量的是想法的吞吐量和意图→产出的保真度，同时警惕认知过载、重复建设和「坏协作」这些新的隐性成本。",
+  "quotes": [
+    {
+      "en": "I would say until quite recently, the currency at Meta was code.",
+      "zh": "我想说，直到最近，Meta 的货币是代码。",
+      "timestamp": "04:55",
+      "speaker": "Moritz Beller"
+    },
+    {
+      "en": "Unlike other metrics that were surfaced in the tools that were used to assess performance, diff authoring time never appeared in there, and that was a conscious choice in our part.",
+      "zh": "不像其他被展示在绩效评估工具里的指标，diff 编写时间从未出现在那里，这是我们有意的选择。",
+      "timestamp": "19:23",
+      "speaker": "Moritz Beller"
+    },
+    {
+      "en": "And so what we've seen there is basically our year over year DAT is down by over 40%.",
+      "zh": "我们看到的基本上是，我们的 DAT 同比下降了超过 40%。",
+      "timestamp": "21:32",
+      "speaker": "Moritz Beller"
+    },
+    {
+      "en": "And now, really, intent is the currency we care about.",
+      "zh": "而现在，真正地，意图才是我们所关心的货币。",
+      "timestamp": "25:11",
+      "speaker": "Brian Hook"
+    },
+    {
+      "en": "And so maybe just because we can skip the architecture step, we shouldn't, right?",
+      "zh": "所以，也许正因为我们可以跳过架构这一步，我们才更不应该跳过，对吧？",
+      "timestamp": "29:09",
+      "speaker": "Moritz Beller"
+    },
+    {
+      "en": "And now lots of studies have sort of come along and reconfirmed that, yeah, time submit coding, like, you know, may only be 13, 14, 15% of the day for many developers.",
+      "zh": "而现在很多研究相继再次证实，对许多开发者来说，提交编码的时间可能只占一天中的 13%、14%、15%。",
+      "timestamp": "31:58",
+      "speaker": "Brian Hook"
+    },
+    {
+      "en": "That might, you know, lure you into false sense of security of like, hey, the agent actually did what we are asking, but there really was a drift in what it did versus what we asked it to do.",
+      "zh": "那可能会引诱你产生一种虚假的安全感，比如「嘿，智能体确实做了我们要求的事」，但实际上它做的和我们要求它做的之间真的存在偏差。",
+      "timestamp": "40:04",
+      "speaker": "Moritz Beller"
+    },
+    {
+      "en": "A organization, effectively, all they did was cancel their low quality meetings and they had a bigger throughput gain from that than they did from adopting AI.",
+      "zh": "一个组织实际上所做的只是取消了低质量会议，而他们从中获得的吞吐量提升比采用 AI 还要大。",
+      "timestamp": "43:59",
+      "speaker": "Brian Hook"
+    },
+    {
+      "en": "That was more predictive of a developer's productivity than the quality of their internet connections.",
+      "zh": "这比他们网络连接的质量更能预测一个开发者的生产力。",
+      "timestamp": "45:50",
+      "speaker": "Brian Hook"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:52",
+      "speaker": "Moritz Beller",
+      "en": "I would say until quite recently, the currency at Meta was code.",
+      "zh": "我想说，直到最近，Meta 的货币是代码。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Brian Hauck",
+      "en": "If we take a bunch of people who work remotely, what happens if we drop a dog into their environment versus a cat?",
+      "zh": "如果我们找一群远程办公的人，往他们环境里放一只狗对比放一只猫会怎样？"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Moritz Beller",
+      "en": "It applies much better in an AI world than our previously averaged metrics.",
+      "zh": "在 AI 世界里，它比我们之前的平均指标适用得多。"
+    },
+    {
+      "timestamp": "17:18",
+      "speaker": "Moritz Beller",
+      "en": "And then I think the second one is for basically leadership reporting, right?",
+      "zh": "然后我想第二个用途基本上是领导层汇报，对吧？"
+    },
+    {
+      "timestamp": "19:23",
+      "speaker": "Moritz Beller",
+      "en": "Unlike other metrics that were surfaced in the tools that were used to assess performance, diff authoring time never appeared in there, and that was a conscious choice in our part.",
+      "zh": "不像其他被展示在绩效评估工具里的指标，diff 编写时间从未出现在那里，这是我们有意的选择。"
+    },
+    {
+      "timestamp": "21:32",
+      "speaker": "Moritz Beller",
+      "en": "And so what we've seen there is basically our year over year DAT is down by over 40%.",
+      "zh": "我们看到的基本上是，我们的 DAT 同比下降了超过 40%。"
+    },
+    {
+      "timestamp": "21:47",
+      "speaker": "Moritz Beller",
+      "en": "That would explain that, but actually diffs are getting larger as well.",
+      "zh": "那可以解释这一点，但实际上 diff 也在变得更大。"
+    },
+    {
+      "timestamp": "24:48",
+      "speaker": "Moritz Beller",
+      "en": "I think it's also pretty obvious that not a lot of time goes into prompt writing.",
+      "zh": "我还认为很明显，花在写提示词上的时间并不多。"
+    },
+    {
+      "timestamp": "25:11",
+      "speaker": "Brian Hauck",
+      "en": "And now, really, intent is the currency we care about.",
+      "zh": "而现在，真正地，意图才是我们所关心的货币。"
+    },
+    {
+      "timestamp": "26:45",
+      "speaker": "Moritz Beller",
+      "en": "We have initially observed the opposite of that, much to our surprise as well.",
+      "zh": "我们最初观察到的结果恰恰相反，这也让我们非常意外。"
+    },
+    {
+      "timestamp": "29:09",
+      "speaker": "Moritz Beller",
+      "en": "And so maybe just because we can skip the architecture step, we shouldn't, right?",
+      "zh": "所以，也许正因为我们可以跳过架构这一步，我们才更不应该跳过，对吧？"
+    },
+    {
+      "timestamp": "31:58",
+      "speaker": "Moritz Beller",
+      "en": "And now lots of studies have sort of come along and reconfirmed that, yeah, time submit coding, like, you know, may only be 13, 14, 15% of the day for many developers.",
+      "zh": "而现在很多研究相继再次证实，对许多开发者来说，提交编码的时间可能只占一天中的 13%、14%、15%。"
+    },
+    {
+      "timestamp": "36:06",
+      "speaker": "Moritz Beller",
+      "en": "And we've seen, you know, these outages are already, I think pretty much every large tech company has had one of one agent cost outage yet.",
+      "zh": "而且我们已经看到，这些宕机事故，我认为几乎每家大型科技公司都已经经历过一次由智能体导致的宕机了。"
+    },
+    {
+      "timestamp": "40:04",
+      "speaker": "Moritz Beller",
+      "en": "That might, you know, lure you into false sense of security of like, hey, the agent actually did what we are asking, but there really was a drift in what it did versus what we asked it to do.",
+      "zh": "那可能会引诱你产生一种虚假的安全感，比如「嘿，智能体确实做了我们要求的事」，但实际上它做的和我们要求它做的之间真的存在偏差。"
+    },
+    {
+      "timestamp": "42:59",
+      "speaker": "Moritz Beller",
+      "en": "Let's not redo the same thing multiple times because it's so easy to do that now, right?",
+      "zh": "我们不要把同一件事重复做多遍，因为现在做这个太容易了，对吧？"
+    },
+    {
+      "timestamp": "43:59",
+      "speaker": "Brian Hauck",
+      "en": "A organization, effectively, all they did was cancel their low quality meetings and they had a bigger throughput gain from that than they did from adopting AI.",
+      "zh": "一个组织实际上所做的只是取消了低质量会议，而他们从中获得的吞吐量提升比采用 AI 还要大。"
+    },
+    {
+      "timestamp": "45:50",
+      "speaker": "Brian Hauck",
+      "en": "That was more predictive of a developer's productivity than the quality of their internet connections.",
+      "zh": "这比他们网络连接的质量更能预测一个开发者的生产力。"
+    },
+    {
+      "timestamp": "46:18",
+      "speaker": "Brian Hauck",
+      "en": "And so it's like, not all collaboration is bad, bad collaboration is bad.",
+      "zh": "所以就是说，不是所有协作都是坏的，坏的协作才是坏的。"
+    }
+  ],
+  "voice_script": "今天这期,主角是 Moritz Beller,Meta 的软件工程研究员,常年研究开发者工作流和 AI 辅助编程。要聊的问题听起来有点技术味儿,但其实跟每个做事的人都有关:写代码的时间,到底能不能被精确测量?测出来又能改变什么?\n\n先交代个背景。在 Meta,一个代码变更叫 diff,相当于别家的 pull request,自带变更摘要和测试计划,同事可以多轮评论。Moritz 有句话:直到最近,Meta 的货币是代码。diff 就是这家公司运转和讨论的核心单位,所以业务方自然想知道,这个核心活动到底花了多少时间。于是就有了 DAT,diff 编写时间——衡量人主动花在工程上的时间:写、评、准备、测试。\n\n这个指标一路做到毫秒级保真:任何一个时刻,你在不在改 diff、在改哪个 diff,全都知道。为什么要做到这么细?因为最早按天取平均,信号太脏——有人用了某个功能,有人没用,平均一取什么都看不出来了,就没法做受控的 A/B 实验。所谓 A/B 实验,就是把用户随机分两组、各用不同版本对比效果。Meta 的产品团队天天在这么干,而 DAT 的意义,是把这套科学方法搬到了内部开发工具本身的验证上。\n\n举个例子你就明白它多有用了。React 团队做了个叫 React Forget 的编译器,把手工维护缓存这件事变成编译器自动完成。对比之后发现,用编译器的 diff,DAT 降了大约 30%。省 30%,大得出乎意料,直接影响组织规划——结论是资源应该投到框架级的基础变革上,而不是对 UI 做微优化。这跟产品端\"改个按钮几个像素就带来巨大提升\"完全是两条路,DAT 实验里从没见过那种小改动大收益。\n\n那怎么防止有人钻空子刷指标?办法是成对看:DAT 配上 DDM,也就是每位开发者每月的 diff 数。你可以轻松把 DDM 翻倍,只要把每个 diff 切碎、让 DAT 减半——但最终产物一样,这正是要堵住的漏洞。再配上 diff 大小和时长,这几个维度互相制衡,想单独拉高某一项,别的项就会动。另外有件事值得单独说:DAT 从未被用于绩效评估,这是有意的选择。\n\n接下来是全集最重磅的数据。AI 普及之后,Meta 全公司的 DAT 同比下降了超过 40%,同时 diff 数量在涨、diff 也在变大——这就排除了\"diff 变小了所以省时间\"的解释。这是公司层面的干净信号,时间线上发生的事和图表的反应能一一对上,而且跟微软研究里\"每小时活跃编码产出的 pull request 增加约 40%\"高度吻合。省下来的时间去哪了?有依据的猜测是大头花在了收集上下文上;有趣的是,写提示词的时间并不多——现在的做法是只放链接,让智能体自己去检索。还有个意外:资深开发者的 DAT 一开始降得比初级还快,更会用 AI 工具,虽然后来差距有所拉平。\n\n这就引出主持人 Brian 提出的主线:既然生成一行代码的成本骤降,代码就不再是货币,意图才是。真正该关心的是想法的吞吐量,还有你输入系统的想法,跟 diff 里产出的东西是不是同一回事,中间有没有漂移。Moritz 用 DAT 第八版的亲身经历佐证了警惕的必要:实现者没写设计文档,结果花在审查、从代码细节里反推设计上的时间,远比写文档多得多。所以有句话值得记住——也许正因为我们可以跳过架构这一步,我们才更不应该跳过。\n\n测试这件事也一样,变得更容易,也更危险。让智能体加几个测试,轻而易举,但全绿的测试可能给你虚假的安全感:智能体做的和你要求的之间可能有偏差,甚至不是偏差,只是你的规格说明写得不够明确,本来就可以有不同解读。靠再扔一个不同模型的智能体去检查,并不是答案。\n\n最后还有一块至今测不了的东西:人际互动。怎么跟同事协作、怎么为项目争取资源。有个扎心的对比:有组织仅仅取消了低质量会议,吞吐量提升比采用 AI 还大;可另一项研究又发现,预测开发者生产力的最佳指标,居然是会议前后有没有非正式闲聊,比网速还准。所以结论不是取消所有会议——不是所有协作都是坏的,坏的协作才是坏的。\n\n把这一集收在一句话上:直到最近,Meta 的货币是代码;而现在,真正被丈量的货币,是意图。"
+}

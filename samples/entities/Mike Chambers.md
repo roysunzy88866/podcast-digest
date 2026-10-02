@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
+[[Vlad Kyle]] [[Seema Amble]] [[Brian Hook]] [[Moritz Beller]] [[Jonathan]] [[Mali]] [[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":376,"harness 工程":3,"Bedrock AgentCore":1,"MCP":68,"记忆":19,"多租户隔离":1,"可观测性":34,"基础设施即代码":1,"系统提示词":8,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":380,"harness 工程":3,"Bedrock AgentCore":1,"MCP":68,"记忆":19,"多租户隔离":1,"可观测性":34,"基础设施即代码":1,"系统提示词":8,"Kiro":4}</script>
 
 <script>
 (function(){
