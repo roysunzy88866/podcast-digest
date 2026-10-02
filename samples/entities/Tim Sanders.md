@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig":1,"G2":1,"ChatGPT":85,"Gemini":12,"Claude":74,"OpenAI":145,"Reddit":7,"智能体":374,"AEO":5,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Craig":1,"G2":1,"ChatGPT":87,"Gemini":12,"Claude":76,"OpenAI":146,"Reddit":7,"智能体":376,"AEO":5,"验证层":1}</script>
 
 <script>
 (function(){

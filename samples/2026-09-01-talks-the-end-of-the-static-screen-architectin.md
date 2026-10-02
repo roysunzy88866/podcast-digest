@@ -124,8 +124,8 @@ GPT 问世时，我们窥见了真正个性化的样子，但其他一切都还�
 **顺着「智能体」挖下去**
 
 - [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验]]<span class="pd-rz">同概念:MCP、生成式 UI (generative UI)、沙箱 (sandbox)</span>
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:MCP</span>
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:MCP</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:MCP</span>
 
 </div>
 <div class="pd-ex">

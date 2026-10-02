@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":49,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":11,"开源模型":23,"编码智能体":24,"智能体":374,"推理":65}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":49,"Docker":4,"Apple":19,"基准测试":15,"OpenRouter":12,"开源模型":24,"编码智能体":24,"智能体":376,"推理":65}</script>
 
 <script>
 (function(){

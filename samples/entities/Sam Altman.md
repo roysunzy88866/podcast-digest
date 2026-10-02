@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":26,"智能体":374,"沙箱":68,"对齐失败":1,"推理":65,"权力集中":1,"主观能动性":1,"OpenAI":145,"YC":16}</script>
+<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":26,"智能体":376,"沙箱":68,"对齐失败":1,"推理":65,"权力集中":1,"主观能动性":1,"OpenAI":146,"YC":16}</script>
 
 <script>
 (function(){

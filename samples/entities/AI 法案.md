@@ -31,7 +31,7 @@ unlisted: true
 
 [[Christian Klein]] · [[SAP]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[Shopify]] · [[Databricks]] · [[Snowflake]] · [[Salesforce]] · [[Workday]]
 
-<script type="application/json" class="pd-epn">{"Christian Klein":1,"SAP":2,"OpenAI":145,"Anthropic":157,"Amazon":22,"Shopify":16,"Databricks":19,"Snowflake":16,"Salesforce":33,"Workday":5}</script>
+<script type="application/json" class="pd-epn">{"Christian Klein":1,"SAP":2,"OpenAI":146,"Anthropic":158,"Amazon":24,"Shopify":16,"Databricks":19,"Snowflake":16,"Salesforce":33,"Workday":5}</script>
 
 <script>
 (function(){

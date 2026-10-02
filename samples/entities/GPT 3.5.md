@@ -31,7 +31,7 @@ unlisted: true
 
 [[Max Junestrand]] · [[Legora]] · [[智能体]] · [[微调]] · [[评估]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[Bloomberg]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Max Junestrand":1,"Legora":2,"智能体":374,"微调":26,"评估":3,"大语言模型":8,"LangChain":8,"Azure":3,"Bloomberg":3,"OpenAI":145}</script>
+<script type="application/json" class="pd-epn">{"Max Junestrand":1,"Legora":3,"智能体":376,"微调":26,"评估":3,"大语言模型":8,"LangChain":8,"Azure":3,"Bloomberg":3,"OpenAI":146}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>67</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>68</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
+- **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(10:13起):本集说它是「把企业自己的数据接进模型的连接标准」，Anthropic 做了 MCP 让你连接所有数据，被称为「了不起的突破」
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(05:27起):本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用
 - **[[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]]**(09:02起):本集说 MCP 是一种让 AI 智能体调用外部工具的协议，但大多数公共 MCP 服务成功率只有 60%，且协议本身不覆盖治理层、可观测性、DLP 等企业需求
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(35:41起):本集说这是一种让 AI 调用外部工具的协议，Roblox 内部系统（如 Roblox 操作系统）都启用了 MCP，任何人都可以拿自己的 AI 系统在上面跑。
@@ -105,7 +106,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*67 集*
+*68 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -127,6 +128,7 @@ unlisted: true
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为概念
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
@@ -179,9 +181,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[护栏]] · [[OpenAI]] · [[可观测性]] · [[harness]] · [[沙箱]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[harness]] · [[护栏]] · [[OpenAI]] · [[可观测性]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"Claude":74,"Anthropic":157,"Claude Code":89,"Codex":69,"护栏":68,"OpenAI":145,"可观测性":34,"harness":50,"沙箱":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"Claude":76,"Anthropic":158,"Claude Code":90,"Codex":69,"harness":51,"护栏":68,"OpenAI":146,"可观测性":34,"沙箱":68}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Mercor":2,"智能体":374,"开源":30,"RL 环境":6,"编码智能体":24,"评估":3,"机器人":10,"合成数据":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Mercor":2,"智能体":376,"开源":30,"RL 环境":6,"编码智能体":24,"评估":3,"机器人":10,"合成数据":8}</script>
 
 <script>
 (function(){

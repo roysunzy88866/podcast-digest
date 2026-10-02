@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny Rachitsky]] · [[Michelle Rial]] · [[Substack]] · [[Airbnb]] · [[Stripe]] · [[简报]] · [[播客]] · [[付费墙]] · [[林迪效应]] · [[幸福基线]]
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Michelle Rial":1,"Substack":2,"Airbnb":11,"Stripe":41,"简报":2,"播客":1,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Michelle Rial":1,"Substack":2,"Airbnb":12,"Stripe":41,"简报":2,"播客":1,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

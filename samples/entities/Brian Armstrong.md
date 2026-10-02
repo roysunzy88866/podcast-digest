@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":374,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":7,"NewLimit":2,"智能体":376,"智能体金融":1,"X402":3,"稳定币":5,"分词":4,"预测市场":1,"递归自我改进":4}</script>
 
 <script>
 (function(){

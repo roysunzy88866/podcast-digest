@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Maximillian Piras]] · [[Faisal Masud]] · [[Utori]] · [[HP]] · [[计算机使用模型]] · [[Workforce Experience]] · [[心智模型]] · [[AI Command Center]] · [[鼠标力]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"Maximillian Piras":1,"Faisal Masud":1,"Utori":1,"HP":1,"计算机使用模型":1,"Workforce Experience":1,"心智模型":1,"AI Command Center":1,"鼠标力":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"Maximillian Piras":1,"Faisal Masud":1,"Utori":1,"HP":1,"计算机使用模型":1,"Workforce Experience":1,"心智模型":1,"AI Command Center":1,"鼠标力":1}</script>
 
 <script>
 (function(){

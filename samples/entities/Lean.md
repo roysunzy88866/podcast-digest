@@ -39,7 +39,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[Lisha Lee]] · [[Greg Brockman]] · [[Daniel Litt]] · [[Ben Horowitz]] · [[Anthropic]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":145,"ChatGPT":85,"Codex":69,"Lisha Lee":1,"Greg Brockman":1,"Daniel Litt":1,"Ben Horowitz":6,"Anthropic":157,"Stripe":41,"Claude":74}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":146,"ChatGPT":87,"Codex":69,"Lisha Lee":1,"Greg Brockman":1,"Daniel Litt":1,"Ben Horowitz":6,"Anthropic":158,"Stripe":41,"Claude":76}</script>
 
 <script>
 (function(){

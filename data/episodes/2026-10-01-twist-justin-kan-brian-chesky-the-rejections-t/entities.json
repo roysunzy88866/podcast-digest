@@ -1,0 +1,1646 @@
+{
+  "episode_id": "2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-01",
+  "tags": [
+    "创业回顾",
+    "融资与被拒",
+    "Twitch 与直播",
+    "Airbnb 创业史",
+    "AI 与就业"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lon-harris",
+      "type": "person",
+      "role": "host",
+      "name": "Lon Harris",
+      "file": "Lon Harris",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            2.594,
+            3.396
+          ],
+          "quote": "I am Lon Harris.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            4672.938,
+            4674.539
+          ],
+          "quote": "I am Lon Harris.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "justin-kan",
+      "type": "person",
+      "role": "guest",
+      "name": "Justin Kan",
+      "file": "Justin Kan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "alex-wilhelm",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex Wilhelm",
+      "file": "Alex Wilhelm",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            3.456,
+            8.723
+          ],
+          "quote": "With me, not as always, on a special occasion, former co-host Alex Wilhelm.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "jason-calacanis",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason Calacanis",
+      "file": "Jason Calacanis",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            1699.33,
+            1705.975
+          ],
+          "quote": "Like 2007 was when I first started working in tech at Mahalo for a guy named Jason Calacanis.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1165,
+          "t": [
+            4630.567,
+            4635.691
+          ],
+          "quote": "I've been trying to get her booked on a Jason Calacanis podcast for many, many months.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "justin-tv",
+      "type": "company",
+      "role": "company",
+      "name": "Justin TV",
+      "file": "Justin TV",
+      "primary": true,
+      "how_described": "本集说它是 Justin 2007 年上线的、允许任何人直播任何东西的网页平台，做到月用户上千万后停止增长，被 Google 面试全员后遭嫌弃，反而由此逼出 Twitch。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            149.534,
+            165.543
+          ],
+          "quote": "Folks, this is episode 900, a landmark show, and it features Justin Kahn as Jason's guest of Justin TV, later to be known as Twitch, the guy who once strapped a camera to his head and live streamed his entire life around the clock.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 99,
+          "t": [
+            355.62,
+            365.505
+          ],
+          "quote": "I mean, this clip stands out to me because I was working with Jason at Mahalo in this exact era when we also made this discovery alongside Justin TV that...",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 178,
+          "t": [
+            707.619,
+            709.782
+          ],
+          "quote": "I was a Justin TV fan.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 184,
+          "t": [
+            718.628,
+            726.352
+          ],
+          "quote": "But one thing I really appreciated about this interview was that I didn't realize how long Justin TV team had spent in the wilderness.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 212,
+          "t": [
+            800.915,
+            809.456
+          ],
+          "quote": "I don't think I've actually told this story very publicly before, but basically Google came around and was like, we're interested in acquiring Justin TV.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            829.809,
+            833.872
+          ],
+          "quote": "And so they came to us and, you know, Justin TV was a decently sized site.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            879.768,
+            880.649
+          ],
+          "quote": "The Justin TV team is not allowed.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2449.517,
+            2452.8
+          ],
+          "quote": "And Phil worked for this company called Justin.TV.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2453.541,
+            2458.245
+          ],
+          "quote": "Justin.TV was a precursor to Twitch, and it was funded by this program called Y Combinator.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "twitch",
+      "type": "company",
+      "role": "company",
+      "name": "Twitch",
+      "file": "Twitch",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            149.534,
+            165.543
+          ],
+          "quote": "Folks, this is episode 900, a landmark show, and it features Justin Kahn as Jason's guest of Justin TV, later to be known as Twitch, the guy who once strapped a camera to his head and live streamed his entire life around the clock.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 56,
+          "t": [
+            166.083,
+            186.936
+          ],
+          "quote": "2007 stunt, JustinTV, soon opened up to anyone who wanted to broadcast and livestream their lives, and its gaming section later spun off as Twitch, which Amazon, of course, bought in 2014 for $970 million, and you could currently still use if you want to catch up on the hottest video games or get very, very angry about politics.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 179,
+          "t": [
+            709.802,
+            711.023
+          ],
+          "quote": "I was an early Twitch fan.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2453.541,
+            2458.245
+          ],
+          "quote": "Justin.TV was a precursor to Twitch, and it was funded by this program called Y Combinator.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集讲它在 2010 年前后主动洽谈收购 JustinTV，理由是 YouTube 占据互联网视频、直播只是一个小功能，面试了整个团队后说「你们的团队不够好」转身走人——Justin 称之为最泄气的一击，也成了 Twitch 诞生的导火索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            800.915,
+            809.456
+          ],
+          "quote": "I don't think I've actually told this story very publicly before, but basically Google came around and was like, we're interested in acquiring Justin TV.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            867.083,
+            869.164
+          ],
+          "quote": "Google's people are smarter than yours.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 236,
+          "t": [
+            870.524,
+            875.546
+          ],
+          "quote": "You would be like significantly lowering the bar for the people at Google, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            912.53,
+            914.07
+          ],
+          "quote": "You just say like, F Google?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1489.446,
+            1498.293
+          ],
+          "quote": "But thinking about the financial sector as similar in terms of value creation as the technology sector, you can go to Goldman Sachs or you can go to Google.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1576.653,
+            1581.934
+          ],
+          "quote": "Like there's over a billion people that use ChatGPT, X as a huge user base, Google search as you pay for this.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1989.016,
+            1998.02
+          ],
+          "quote": "And that's probably why companies are monetizing today faster than they were in the Web 2.0 era because you kind of have to, or you're going to pull a YouTube and probably not find your Google.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            4271.039,
+            4272.92
+          ],
+          "quote": "You couldn't even open Google Docs five years ago.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            4324.198,
+            4329.701
+          ],
+          "quote": "And also advantages like 15 years ago that I had was I was pretty good with Google Analytics.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4329.781,
+            4338.086
+          ],
+          "quote": "Like I knew how Google Analytics worked and I could look at the pages and make comparisons and be like, oh, we need to do this or this page is doing really well.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            4349.433,
+            4354.038
+          ],
+          "quote": "You could just download your Google Analytics or your YouTube Analytics or your X Analytics.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": true,
+      "how_described": "本集回顾它 2008 年被十几二十位天使投资人拒绝、只想以 150 万投后估值融 15 万（10% 股份如今值 92.5 亿美元），创始人靠卖恶搞麦片撑过难关并进入 YC；Chesky 还说 Airbnb 的价值在物理世界与「真实性」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 591,
+          "t": [
+            2317.171,
+            2320.972
+          ],
+          "quote": "And your guest is Brian Chesky, the co-founder of Airbnb.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2321.572,
+            2331.154
+          ],
+          "quote": "This episode dropped the same week that Airbnb rolled out Airbnb rooms, a return to the company's original rent out your spare room concept.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2338.356,
+            2344.16
+          ],
+          "quote": "Seven investors passed on the chance to buy 10% of Airbnb for $150,000.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2351.544,
+            2362.331
+          ],
+          "quote": "Also in this conversation, Brian talks about early rejections, obsession with the customer, how Airbnb is organized, and where he thought AI was going to take the hospitality industry.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2369.636,
+            2379.623
+          ],
+          "quote": "The first thing, Alex, I wanted to talk about right away in the interview, Brian starts telling the story about how investors did not like the idea for Airbnb.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2379.743,
+            2383.886
+          ],
+          "quote": "Now we accept Airbnb is like, obviously, that's a great business.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2384.367,
+            2385.287
+          ],
+          "quote": "I use Airbnb.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2385.307,
+            2387.909
+          ],
+          "quote": "When I went to Rome earlier this summer, we stayed at an Airbnb.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2397.077,
+            2403.103
+          ],
+          "quote": "Everybody, when they see you saying, oh my God, I love Airbnb, how do you reconcile that as an entrepreneur?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2488.993,
+            2491.995
+          ],
+          "quote": "So for $150,000, you could have owned 10% of Airbnb.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2547.722,
+            2557.366
+          ],
+          "quote": "I mean, I will admit, I had, I was already working for Jason when Airbnb was new and he, we talked about it probably on a podcast episode, very much like this.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2574.356,
+            2580.42
+          ],
+          "quote": "And then when you're using it, like now, I don't even think about, when I go to an Airbnb, I don't even think about this as somebody else's home.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2601.872,
+            2605.634
+          ],
+          "quote": "But for fun, Lon, guess what 10% of Airbnb is worth today?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2621.849,
+            2623.729
+          ],
+          "quote": "How is Airbnb worth that much money?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2624.55,
+            2628.132
+          ],
+          "quote": "Airbnb is currently worth $92.5 billion.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2636.535,
+            2640.177
+          ],
+          "quote": "Now, what I want to say is that Airbnb has, over time, changed a bit.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 688,
+          "t": [
+            2640.237,
+            2645.42
+          ],
+          "quote": "If you think back to the early days, especially if you knew couch surfing from before Airbnb, it was a pretty",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2653.206,
+            2655.007
+          ],
+          "quote": "But today I do feel like Airbnb is much more upscale.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2660.011,
+            2665.415
+          ],
+          "quote": "Like in the early days of using Airbnb, sometimes you'd show up at the place and it was amazing.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2672.142,
+            2686.837
+          ],
+          "quote": "Whereas I think today they've got it basically locked down, you know, from the Airbnb page, if it's got like a 4.8 or up rating and you look at the pictures and it looks nice, like you pretty much confident in what kind of place you're going to be getting.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2698.09,
+            2702.576
+          ],
+          "quote": "No hotel has ever given me free weed gummies in Texas, but an Airbnb has.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2719.442,
+            2726.684
+          ],
+          "quote": "Then you want an Airbnb because you're staying in a neighborhood and there's like a person who's going to leave you a binder that's like, go to this pizza place.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2738.668,
+            2741.368
+          ],
+          "quote": "I would very much recommend an Airbnb.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 758,
+          "t": [
+            2878.44,
+            2882.703
+          ],
+          "quote": "And the only thing that would survive an investment in nuclear winter would be the founders of Airbnb.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3084.49,
+            3086.952
+          ],
+          "quote": "Airbnb was trying to raise $150 total.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            4100.441,
+            4104.923
+          ],
+          "quote": "So I'm just curious what you're seeing and if that prediction from this Airbnb founder has borne out.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": true,
+      "how_described": "本集讲了 Airbnb 那场著名的 YC 面试：Paul Graham 先问「真有人会这么做？」第二个问题「那他们有什么毛病？」，最终因一盒 Obama O's 麦片收录了他们，并称这笔投资像投「核冬天里唯一能活下来的蟑螂」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 625,
+          "t": [
+            2453.541,
+            2458.245
+          ],
+          "quote": "Justin.TV was a precursor to Twitch, and it was funded by this program called Y Combinator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2458.505,
+            2460.247
+          ],
+          "quote": "Now, I didn't know anything about Y Combinator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2782.19,
+            2783.35
+          ],
+          "quote": "So we go to Y Combinator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2859.061,
+            2863.726
+          ],
+          "quote": "And he ended up admitting us to Y Combinator, and I guess we've never looked back since.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 762,
+          "t": [
+            2895.474,
+            2902.557
+          ],
+          "quote": "One, I do love hearing about a startup struggling in their Y Combinator interview because it's kind of the famous test of time, a coming of age moment.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复谈智能体：主持人和嘉宾用智能体/Claude 技能自动写节目 docket、做结对编辑和调研；他们判断 AI 并未取代人，而是把每个人的产出和工时同时拧高一档，高接触知识工作会被缓慢侵蚀。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            24.157,
+            26.399
+          ],
+          "quote": "Lightfield's AI agent does it for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1028.591,
+            1031.853
+          ],
+          "quote": "So Instinct, right, this well-known agent that everyone's been talking about and using.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1191.807,
+            1194.53
+          ],
+          "quote": "So you just give the agent your error message and you hope for the best.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1211.29,
+            1214.571
+          ],
+          "quote": "Now your agent isn't guessing, it's targeted on the solution.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1225.255,
+            1227.976
+          ],
+          "quote": "Sentry finds the bug and your agent fixes it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1925.587,
+            1934.53
+          ],
+          "quote": "So if you buy book tickets for a plane ride trip on your Instinct agent, they'll take like 2% or 3% or something.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1937.691,
+            1941.175
+          ],
+          "quote": "A 30% cut if their agent makes a reservation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3908.586,
+            3910.108
+          ],
+          "quote": "Everyone uses an agent to write code.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            4561.614,
+            4569.179
+          ],
+          "quote": "Well, go to your favorite friendly ChatGPT or Grok agent and say, hey, can you find me a gift link of this article link?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集主线之一：Chesky 2023 年的 AI 预言（用自然语言编程＝人人都是程序员、软件丰裕、身份认证与真实性变得重要）被逐一复盘命中与否；两位主持人还谈 AI 时代每个 GPU 周期都有真实成本、商业模式必须在上线前就被拷问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            24.157,
+            26.399
+          ],
+          "quote": "Lightfield's AI agent does it for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            96.55,
+            103.414
+          ],
+          "quote": "Find out more at plod.ai slash twist and be sure to use the code twist to get 10% off your order.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 35,
+          "t": [
+            107.116,
+            109.878
+          ],
+          "quote": "The first good AI wearable is how I think about Plod.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 40,
+          "t": [
+            117.942,
+            121.003
+          ],
+          "quote": "Yeah, that AI pin, those people are like, why are we taking strays?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 51,
+          "t": [
+            139.569,
+            141.59
+          ],
+          "quote": "We're not here today to just talk about AI broaches.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 147,
+          "t": [
+            595.017,
+            603.122
+          ],
+          "quote": "I mean, what they should have just said was is that we're using this for AI training purposes and therefore your IP doesn't hold any water and we're just going to dissolve your entire business.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 264,
+          "t": [
+            941.821,
+            951.663
+          ],
+          "quote": "One thing I love about 2026 and the AI era and startups today is that they're going from zero to 100 million in revenue, zero to a billion dollars in revenue in record time.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1130.988,
+            1133.69
+          ],
+          "quote": "AI has really upset the entire cart.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1183.18,
+            1186.823
+          ],
+          "quote": "Your team can push code faster than ever with the help of AI agents.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1206.404,
+            1210.81
+          ],
+          "quote": "And Sentry's AI debugger, Seer, can quickly determine the root cause.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1248.084,
+            1249.765
+          ],
+          "quote": "So think about the life cycle of an AI model.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1268.295,
+            1274.577
+          ],
+          "quote": "But back in 2019, pre-Claude Code, pre-Agentic Coding, pre-Usable AI, pre-ChatGPT, very different worlds.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1586.715,
+            1591.836
+          ],
+          "quote": "It's impossible to argue that these big AI companies are not doing more.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1810.126,
+            1821.209
+          ],
+          "quote": "They are an AI native CRM, and it builds and it updates itself in real time based on whatever's in your email, your calendar, your Slack, your meeting notes, you know, all the most important stuff that keeps getting lost.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 495,
+          "t": [
+            1896.517,
+            1902.519
+          ],
+          "quote": "And today everything's super frothy around AI, but I do still think people pay more attention to that.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1978.291,
+            1979.872
+          ],
+          "quote": "Now take that to the AI era.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2351.544,
+            2362.331
+          ],
+          "quote": "Also in this conversation, Brian talks about early rejections, obsession with the customer, how Airbnb is organized, and where he thought AI was going to take the hospitality industry.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3175.532,
+            3181.357
+          ],
+          "quote": "And I think that he invented, like, the original Backroom shorts are from before the AI era, but I feel like in",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3181.677,
+            3190.965
+          ],
+          "quote": "In the AI era, it feels very like relevant, this like endlessly repeating environment that like degrades in realism over time.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3194.708,
+            3200.192
+          ],
+          "quote": "It's like a glitch burst in some ways that we become more accustomed to in the AI era.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3212.288,
+            3215.269
+          ],
+          "quote": "Are you talking about Backrooms the movie or AI in 2026?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3215.409,
+            3224.612
+          ],
+          "quote": "I mean, I think that's what's in part so potent about it is that without it, like the best AI metaphors are not like super on the nose.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3224.632,
+            3229.034
+          ],
+          "quote": "They're like, this is what interacting with AI sort of feels like.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3236.897,
+            3247.763
+          ],
+          "quote": "It's not about AI, but it's like Carol's frustrating conversations with the hive mind are reminiscent in some ways of what it's like to interact with AI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3262.873,
+            3276.825
+          ],
+          "quote": "But on the point about AI and what's real and what's not, I want to take us all the way to the 59-minute mark of this video because we get into a very interesting conversation about AI and what's going to happen when it gets harder to tell what's real.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3278.003,
+            3287.909
+          ],
+          "quote": "I want to bring up this clip and the one that comes after it, not because this is the most tactical, practical startup advice ever, but because I think today we spend so much time thinking about AI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3306.184,
+            3309.528
+          ],
+          "quote": "So we are going to use AI to match you to whatever you want.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3316.296,
+            3317.377
+          ],
+          "quote": "You know, the problem with AI is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 847,
+          "t": [
+            3318.578,
+            3319.82
+          ],
+          "quote": "What's the first word in AI?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3386.416,
+            3398.243
+          ],
+          "quote": "But his point about AI can sound like you, look like you, we are seeing AI models in the voice category today advance to the point to which you can feed them a very small snippet of audio and ape someone's entire speech patterns.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3421.207,
+            3427.068
+          ],
+          "quote": "But today, when we talk about AI, the physical world, we're mostly talking about robots or embodied AI, if you will.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3462.88,
+            3468.384
+          ],
+          "quote": "We've we put up a lot of people have become much more hostile to AI outputs where they insist on.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 893,
+          "t": [
+            3494.678,
+            3502.58
+          ],
+          "quote": "I think AI and the general erosion of trustable media would lead to more people being outside more and together.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3503.12,
+            3507.961
+          ],
+          "quote": "But the problem is we're all working more than ever to keep up with AI, so no one has time.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 901,
+          "t": [
+            3530.266,
+            3531.748
+          ],
+          "quote": "Sticking point of AI for me right now.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 902,
+          "t": [
+            3531.968,
+            3533.41
+          ],
+          "quote": "You and I are both AI users.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 906,
+          "t": [
+            3539.877,
+            3545.803
+          ],
+          "quote": "And that is not quite what I had in mind when we got this amazing advancement in AI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 909,
+          "t": [
+            3556.309,
+            3569.357
+          ],
+          "quote": "But one of the things we do agree on is that rather than costing people their jobs, at least so far, what it seems like AI has done is made everybody a lot more productive at their job and therefore a lot busier at their job.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 978,
+          "t": [
+            3801.432,
+            3804.395
+          ],
+          "quote": "But I never want to sound like AI because I do all my own writing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 998,
+          "t": [
+            3899.976,
+            3904.381
+          ],
+          "quote": "We're going to play a clip of him talking about what's going on in the realm of AI software development.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            3935.732,
+            3942.078
+          ],
+          "quote": "I think like this AI is gonna find little things like that where it didn't know that this was something that you would be delighted by.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            3970.585,
+            3973.148
+          ],
+          "quote": "AI means you can now tell a computer to do something in your language.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            4057.329,
+            4062.012
+          ],
+          "quote": "And I think the best way to keep your balance in the world of AI is to keep moving forward and just adopt the tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            4065.773,
+            4074.635
+          ],
+          "quote": "In mid-2023, the leading AI models were GPT-4, Claude-2, and Llama-2.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            4105.543,
+            4115.687
+          ],
+          "quote": "I, you know, I'm always a little dubious of this prediction, especially because a lot of tech people tend to use it to advance the argument that like, as like a pushback against being anti-AI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            4195.806,
+            4197.887
+          ],
+          "quote": "Now they'll be like, oh, but with AI,",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            4214.118,
+            4217.36
+          ],
+          "quote": "AI makes it that much easier to start your own company.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1083,
+          "t": [
+            4308.451,
+            4313.973
+          ],
+          "quote": "Like, I think a lot of people who are already doing that are becoming much more effective with the help of AI tools.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1106,
+          "t": [
+            4399.307,
+            4404.65
+          ],
+          "quote": "Yes, as long as someone's already done it and it has been ingested and is, you know, chewable by AI, then sure.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            4423.124,
+            4426.727
+          ],
+          "quote": "We have a this week in VC one, we have this week in startups, and this week in AI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            4431.051,
+            4433.633
+          ],
+          "quote": "I don't let AI do any writing for me, but...",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            4461.33,
+            4472.317
+          ],
+          "quote": "In the This Week in AI newsletter, thisweekina.ai, if you want to check it out for yourself, we do a demo or a model comparison or a tutorial every day.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            4472.397,
+            4479.801
+          ],
+          "quote": "Like, what is like a hot piece of content about AI that's hands-on and practical that we can share every day?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            4550.907,
+            4556.11
+          ],
+          "quote": "No, I think it's a brilliant example, and I'll leave everyone with one more AI hack while we're sitting here.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "founder-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人模式 (founder mode)",
+      "file": "创始人模式",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 577,
+          "t": [
+            2251.098,
+            2251.858
+          ],
+          "quote": "of founder mode.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2251.979,
+            2256.38
+          ],
+          "quote": "Now, not really because founder mode actually came out as an idea later on than this interview was taped.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2274.389,
+            2282.7
+          ],
+          "quote": "And today, very much so, it's now pivoted towards founder mode, you know, one person carrying the torch, providing the direction, setting the North Star, and being involved in the details.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "web-2-0",
+      "type": "concept",
+      "role": "concept",
+      "name": "web 2.0",
+      "file": "web 2.0",
+      "primary": true,
+      "how_described": "本集回忆 Web 2.0 时代是小团队热情项目的年代（Weblogs、Delicious、Flickr），唯一指标是用户数、加一百万边际用户只花带宽和 CPU 时间；Alex 以此解释为什么如今公司必须在产品上线前就拷问商业模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            1379.557,
+            1381.418
+          ],
+          "quote": "This is about the web 2.0 phase.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1628.956,
+            1639.683
+          ],
+          "quote": "But the first part of that clip, when they're talking about the web 2.0 era, which is really when I was starting to pay a lot more attention to startups over finance, because I was originally, I wanted to go to get an econ degree and go into banking.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1968.307,
+            1972.289
+          ],
+          "quote": "Now contrast that to the Web 2.0 era when you have Dig and Delicious and Weblogs and so forth.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1989.016,
+            1998.02
+          ],
+          "quote": "And that's probably why companies are monetizing today faster than they were in the Web 2.0 era because you kind of have to, or you're going to pull a YouTube and probably not find your Google.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1998.28,
+            2002.803
+          ],
+          "quote": "Yeah, if OpenAI existed during the Web 2.0 era, they would never have ads by now.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            166.083,
+            186.936
+          ],
+          "quote": "2007 stunt, JustinTV, soon opened up to anyone who wanted to broadcast and livestream their lives, and its gaming section later spun off as Twitch, which Amazon, of course, bought in 2014 for $970 million, and you could currently still use if you want to catch up on the hottest video games or get very, very angry about politics.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带谈到 OpenAI：VC 已无法判断护城河会不会被 OpenAI 一个新模型碾平；还开玩笑说若 OpenAI 生在 Web 2.0 时代就永远不会上广告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1153.542,
+            1159.245
+          ],
+          "quote": "Like, is this moat going to exist in two weeks or is OpenAI going to invent this?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1343.74,
+            1348.763
+          ],
+          "quote": "And then a couple of weeks later, OpenAI at their developer day, now it's a competing product that might crush it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1998.28,
+            2002.803
+          ],
+          "quote": "Yeah, if OpenAI existed during the Web 2.0 era, they would never have ads by now.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2002.823,
+            2008.787
+          ],
+          "quote": "They would just purely be about, we want every single human being in the planet to be using OpenAI.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集以 Uber 为例说明规矩的「事实化」：小时候的教育是别上陌生人的车，一点点技术加一点时间证明那完全错了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            608.826,
+            610.707
+          ],
+          "quote": "Like, you know, talk about Uber on the show a couple of times.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 150,
+          "t": [
+            611.388,
+            612.048
+          ],
+          "quote": "Uber was the same thing.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "atrium",
+      "type": "company",
+      "role": "company",
+      "name": "Atrium",
+      "file": "Atrium",
+      "primary": false,
+      "how_described": "本集介绍 Justin 在 2019 年访谈时刚把法律科技公司 Atrium 做完 B 轮 6500 万美元融资，不到一年后关闭。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            188.757,
+            190.518
+          ],
+          "quote": "Justin had moved on to Atrium.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 59,
+          "t": [
+            190.738,
+            200.425
+          ],
+          "quote": "That's a legal tech startup that had just raised $65 million in their Series B. Atrium would shut down barely a year later, and Justin has since gone back to gaming.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集多处提到用 Claude：维护节目 docket 的 Claude 技能、非技术朋友用 Claude 给自己做小应用、把 Analytics 丢给 Claude 问该发什么内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1214.791,
+            1220.433
+          ],
+          "quote": "If you're running Cursor, Claude Code, Factory Droid, Copilot, or anything else, there's nothing to install.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1268.295,
+            1274.577
+          ],
+          "quote": "But back in 2019, pre-Claude Code, pre-Agentic Coding, pre-Usable AI, pre-ChatGPT, very different worlds.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3686.563,
+            3687.683
+          ],
+          "quote": "Claude's not good at that.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 954,
+          "t": [
+            3690.825,
+            3692.106
+          ],
+          "quote": "You give the stories to Claude.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3692.326,
+            3696.187
+          ],
+          "quote": "There's a Claude skill that turns those stories into the docket.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 999,
+          "t": [
+            3904.682,
+            3908.526
+          ],
+          "quote": "Now, of course, here in 2026, we are deep into our Claude Code era.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            4065.773,
+            4074.635
+          ],
+          "quote": "In mid-2023, the leading AI models were GPT-4, Claude-2, and Llama-2.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            4265.598,
+            4269.899
+          ],
+          "quote": "Say things like, oh yeah, so I was using Claude yesterday and I made this app and I'm like, what?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1094,
+          "t": [
+            4356.14,
+            4361.967
+          ],
+          "quote": "And you could just give it to Claude or GrokBot or whatever and say, what kind of post should I be making?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            4370.318,
+            4373.262
+          ],
+          "quote": "You could go to Claude and say, I have a YouTube channel.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集顺带提到 ChatGPT：超十亿人使用、每次问答都有真实成本，还拿它和「前 ChatGPT 时代」对比创业节奏的变化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1268.295,
+            1274.577
+          ],
+          "quote": "But back in 2019, pre-Claude Code, pre-Agentic Coding, pre-Usable AI, pre-ChatGPT, very different worlds.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1576.653,
+            1581.934
+          ],
+          "quote": "Like there's over a billion people that use ChatGPT, X as a huge user base, Google search as you pay for this.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2016.052,
+            2022.295
+          ],
+          "quote": "Whenever I replied, thank you, to my ChatGPD Codex instance, I realized that I'm using Astro, and it goes, thinking.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3427.348,
+            3450.053
+          ],
+          "quote": "I mean, I think this prediction in particular, we've been hearing since the early ChatGPT era, which is like, this is going to lead to a revival in in-person experiences, authentic experiences, human experiences, like live music is going to make a huge comeback and we're all going to start hanging out together and going to block parties more.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 984,
+          "t": [
+            3824.102,
+            3825.222
+          ],
+          "quote": "We'll just ChatGPT, I suppose.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            4561.614,
+            4569.179
+          ],
+          "quote": "Well, go to your favorite friendly ChatGPT or Grok agent and say, hey, can you find me a gift link of this article link?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":49,"深度学习":3,"智能体":374,"沙箱":68,"Condi Rice":1,"harness":50,"Jerry":1,"AMD":4,"前沿模型":23,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":49,"深度学习":3,"智能体":376,"沙箱":68,"Condi Rice":1,"harness":51,"Jerry":1,"AMD":4,"前沿模型":23,"Sega":1}</script>
 
 <script>
 (function(){

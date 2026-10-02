@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeff Berman]] · [[Andrew Anagnost]] · [[AI]] · [[大语言模型]] · [[定制模型]] · [[订阅制转型]] · [[同理心]] · [[初创公司]] · [[Netflix]]
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":3,"Andrew Anagnost":1,"AI":24,"大语言模型":8,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":2,"Netflix":5}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":3,"Andrew Anagnost":1,"AI":26,"大语言模型":8,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":2,"Netflix":5}</script>
 
 <script>
 (function(){

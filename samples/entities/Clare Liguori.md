@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kiro":4,"Amazon":22,"AWS":16,"Bedrock":2,"智能体":374,"前沿开发":1,"vibe coding":43,"steering 文件":1,"MCP 服务器":2,"测试左移":1}</script>
+<script type="application/json" class="pd-epn">{"Kiro":4,"Amazon":24,"AWS":16,"Bedrock":2,"智能体":376,"前沿开发":1,"vibe coding":43,"steering 文件":1,"MCP 服务器":2,"测试左移":1}</script>
 
 <script>
 (function(){

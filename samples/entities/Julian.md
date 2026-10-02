@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":65,"专用推理":1,"开源模型":23,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":74,"Decagon":8}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":65,"专用推理":1,"开源模型":24,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":74,"Decagon":8}</script>
 
 <script>
 (function(){

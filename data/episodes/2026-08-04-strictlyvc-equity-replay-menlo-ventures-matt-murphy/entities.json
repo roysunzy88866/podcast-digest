@@ -1,0 +1,950 @@
+{
+  "episode_id": "2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy",
+  "podcast": "StrictlyVC Download",
+  "date": "2026-08-04",
+  "tags": [
+    "AI 创业浪潮",
+    "Anthropic",
+    "风险投资",
+    "开源模型",
+    "产品驱动增长"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "julie-bort",
+      "type": "person",
+      "role": "host",
+      "name": "Julie Bort",
+      "file": "Julie Bort",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.213,
+            8.995
+          ],
+          "quote": "I'm startups editor, Julie Bort, and today we're joined by Matt Murphy of Menlo Ventures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "matt-murphy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Murphy",
+      "file": "Matt Murphy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.213,
+            8.995
+          ],
+          "quote": "I'm startups editor, Julie Bort, and today we're joined by Matt Murphy of Menlo Ventures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "concept",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集主线公司：Menlo 2024 年领投其 D 轮（估值 40 亿、无收入、未发布），三年后据报道年收入运行率跨过 470 亿美元；靠团队、巨头绑定（Google/Amazon）和「缰绳」产品层实现爆炸式增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.556,
+            14.278
+          ],
+          "quote": "He's amassed stakes in many of the biggest names in AI, like Anthropic, OpenRouter, Lovable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            14.918,
+            22.562
+          ],
+          "quote": "Today, we're talking about Anthropic's stunning growth, how AI is different from other big tech waves, and what founders can learn from it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            32.296,
+            36.657
+          ],
+          "quote": "So let's talk about the company of 2026, Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            37.897,
+            50.82
+          ],
+          "quote": "And in 2024, you led a more than $500 million investment in Anthropic, leading its Series D. So just to clarify, you aren't a board member, but are you a board observer or anything like that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            51,
+            52.74
+          ],
+          "quote": "How does your relationship with Anthropic work?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            70.922,
+            74.963
+          ],
+          "quote": "All right, well, let's just start with, like, do you use Anthropic, Claude yourself?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            206.185,
+            210.268
+          ],
+          "quote": "Tell us an early story about Anthropic, like those early days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            428.385,
+            435.81
+          ],
+          "quote": "It was reported that Anthropic crossed $47 billion in revenue run rate compared to $9 billion in 2025.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            447.276,
+            459.362
+          ],
+          "quote": "So, I mean, I guess what I'd like to know from you as someone who's backing a lot of AI companies is what is Anthropic doing right about growing its businesses that other startups, other AI startups can learn from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            569.848,
+            578.096
+          ],
+          "quote": "Probably for all of us, the biggest upside surprise and just kind of benefit to the industry is how Anthropic built this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            597.774,
+            608.343
+          ],
+          "quote": "But what Anthropic did brilliantly was things like Claude Code or Claude Code for Life Sciences or just even co-work that we already talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            702.959,
+            705.44
+          ],
+          "quote": "So we did mention like Anthropic came out of the gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            711.683,
+            719.546
+          ],
+          "quote": "Even one of your own portfolio companies, OpenRouter, has stats on how much traffic's going to Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            719.626,
+            727.67
+          ],
+          "quote": "Vercel just released new statistics that is showing Anthropic sort of commanding most of the dollars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            866.059,
+            875.247
+          ],
+          "quote": "So the enterprise owns themselves through owning an open source model and what they're going to hire an Anthropic to do for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            886.235,
+            891.298
+          ],
+          "quote": "And that will be multiple open source models, a custom model, and Anthropic and Claude, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            952.302,
+            963.972
+          ],
+          "quote": "One of the odd things that really helped—I don't want to call it odd, but we'll just call it odd—that really helped Anthropic was all of this run-ins that they had with the feds, you know, with the Trump administration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            964.412,
+            976.582
+          ],
+          "quote": "But there's sort of like a common view among cybersecurity folks, at least the ones that I've talked to recently, that some of Anthropic's rollout of Mythos, its cybersecurity-oriented model, was like more marketing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            988.169,
+            989.85
+          ],
+          "quote": "Now, it hasn't hurt Anthropic at all.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "Anthropic 的模型/产品，本集说它不只是模型强，还靠 Claude Code、MCP、skills 让市场爆炸式增长；多数普通公司会几乎完全依赖像 Claude 这样的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            70.922,
+            74.963
+          ],
+          "quote": "All right, well, let's just start with, like, do you use Anthropic, Claude yourself?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            85.021,
+            92.243
+          ],
+          "quote": "And then, you know, really in the firm, we've done a lot of work with CoWork, Claude CoWork, and so built a bunch of skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            164.002,
+            166.023
+          ],
+          "quote": "I've got Claude, it's so much more efficient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            177.467,
+            186.713
+          ],
+          "quote": "Okay, so just to set a baseline, it sounds like you're a user, like most of us in the tech industry, but not necessarily a power user that is running your entire life through Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            597.774,
+            608.343
+          ],
+          "quote": "But what Anthropic did brilliantly was things like Claude Code or Claude Code for Life Sciences or just even co-work that we already talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            618.969,
+            623.951
+          ],
+          "quote": "Build Claude skills so that people can customize things once you have access to all your data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            623.971,
+            630.574
+          ],
+          "quote": "So these are the things in addition to Claude Code that's made the market just explode is they've made it accessible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            823.423,
+            827.687
+          ],
+          "quote": "And, you know, OpenRouter can help you optimize even within the Claude family.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            834.233,
+            843.08
+          ],
+          "quote": "Or, you know, it can help you even think about which provider of Claude you should be using based on, you know, their capacity, their latency, you know, all those kinds of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            886.235,
+            891.298
+          ],
+          "quote": "And that will be multiple open source models, a custom model, and Anthropic and Claude, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            912.49,
+            921.555
+          ],
+          "quote": "So I don't know how to say what percentage-wise how it shakes out, but I don't know, you could see a lot of companies saying, hey, I'm going to use Claude for 50% of my API requests.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            927.476,
+            939.399
+          ],
+          "quote": "I think that the lay customer that doesn't have researchers and things like that and won't invest in that, which will be the majority of companies, will still rely almost entirely on something like Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1429.146,
+            1437.691
+          ],
+          "quote": "I mean, there's, you know, on the margin, there's a slight amount of overlap, you know, with with kind of the creation of Claude Code versus Level, but like we have a ginormous market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic「缰绳」策略的核心入口之一，让人进入界面而不只是简单的提示词框，是让市场爆炸的关键产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            597.774,
+            608.343
+          ],
+          "quote": "But what Anthropic did brilliantly was things like Claude Code or Claude Code for Life Sciences or just even co-work that we already talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            623.971,
+            630.574
+          ],
+          "quote": "So these are the things in addition to Claude Code that's made the market just explode is they've made it accessible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1429.146,
+            1437.691
+          ],
+          "quote": "I mean, there's, you know, on the margin, there's a slight amount of overlap, you know, with with kind of the creation of Claude Code versus Level, but like we have a ginormous market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说它是「把企业自己的数据接进模型的连接标准」，Anthropic 做了 MCP 让你连接所有数据，被称为「了不起的突破」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            613.447,
+            616.408
+          ],
+          "quote": "But basically do MCP so you can connect all your data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "缰绳 (harness)",
+      "file": "缰绳",
+      "primary": true,
+      "how_described": "本集说它是给模型套上的产品层——「有一个很棒的模型是一回事，但如果你不给人们一条使用模型的路径，你就是在等人们把应用重新平台化」；是 Anthropic 增长的最大意外之喜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            578.436,
+            582.34
+          ],
+          "quote": "Now what everyone commonly refers to is like a harness, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说企业和成长期 AI 创业公司正越来越多转向开源模型控制成本，2026 年这么早出现出乎预料；与专有模型互补，终局是多模型世界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            735.233,
+            743.336
+          ],
+          "quote": "And that is enterprises and even growth AI startups are moving more and more to open source models because they need to get a handle on costs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            886.235,
+            891.298
+          ],
+          "quote": "And that will be multiple open source models, a custom model, and Anthropic and Claude, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "multi-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模型世界 (multi-model)",
+      "file": "多模型世界",
+      "primary": true,
+      "how_described": "本集说 Murphy 坚信未来是使用多个模型的世界——成熟公司会 50% API 请求用 Claude、另 50% 用开源或自定义模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            852.588,
+            865.739
+          ],
+          "quote": "But I mean, we believe in a multi-model world and, you know, a lot of companies have a lot of proprietary data that they want to train a model on, either, you know, their own custom model or use open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集用 token 消耗衡量 AI 采用深度：Salesforce 在 token 上花 3 亿美元、市场从「先用起来」（token maxing）进入「优化成本结构」的第二波",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            788.706,
+            792.047
+          ],
+          "quote": "And we're seeing that with even, you know, like token maxing and things like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "concept",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说它是一个 AI 网关，帮你在不同模型之间路由请求，甚至能在 Claude 家族内部帮你优化（Sonnet 还是 Opus、选哪个提供商看容量和延迟）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.556,
+            14.278
+          ],
+          "quote": "He's amassed stakes in many of the biggest names in AI, like Anthropic, OpenRouter, Lovable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            711.683,
+            719.546
+          ],
+          "quote": "Even one of your own portfolio companies, OpenRouter, has stats on how much traffic's going to Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            754.9,
+            761.444
+          ],
+          "quote": "Because like you back OpenRouter, their business is, you know, depends on open source doing really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            773.63,
+            778.073
+          ],
+          "quote": "Well, first of all, I love OpenRouter and thanks for the call out on OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            823.423,
+            827.687
+          ],
+          "quote": "And, you know, OpenRouter can help you optimize even within the Claude family.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1297.83,
+            1299.451
+          ],
+          "quote": "Well, we can talk a little bit about OpenRouter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "concept",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集说它从开源项目起步，去年从零做到 300（百万美元年化运行率）、传言 RAISE 大会前后已达 600；服务非技术的 99% 人群，已加托管和支付走向帮人经营业务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.556,
+            14.278
+          ],
+          "quote": "He's amassed stakes in many of the biggest names in AI, like Anthropic, OpenRouter, Lovable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1281.378,
+            1293.967
+          ],
+          "quote": "You've got Lovable, you've got Legora, like pick one, pick one and tell me a great story about the founders or its growth or like something that happened last month that just made you so excited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1299.471,
+            1302.053
+          ],
+          "quote": "We can talk about Lovable or Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1302.354,
+            1304.035
+          ],
+          "quote": "Yeah, Lovable's growing like that too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1306.557,
+            1307.658
+          ],
+          "quote": "Lovable was cool because of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1345.503,
+            1347.325
+          ],
+          "quote": "And that's, of course, what lovable is in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1347.405,
+            1350.109
+          ],
+          "quote": "But the thing I've loved about lovable from day one is that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1408.912,
+            1414.877
+          ],
+          "quote": "And so there's been businesses now that are over a million dollar run rate, much over a million dollar run rate built on lovable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1438.311,
+            1445.093
+          ],
+          "quote": "And even in the enterprise, you know, what Lovable is doing is coming at things from kind of like a very simple design aesthetic down.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "legora",
+      "type": "company",
+      "role": "concept",
+      "name": "Legora",
+      "file": "Legora",
+      "primary": true,
+      "how_described": "本集说它把 AI 卖给律师——曾是有史以来最糟的企业软件市场——最快做到 1.5 亿美元，是需求端已被激活的例证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1281.378,
+            1293.967
+          ],
+          "quote": "You've got Lovable, you've got Legora, like pick one, pick one and tell me a great story about the founders or its growth or like something that happened last month that just made you so excited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1299.471,
+            1302.053
+          ],
+          "quote": "We can talk about Lovable or Legora.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "menlo-ventures",
+      "type": "company",
+      "role": "concept",
+      "name": "Menlo Ventures",
+      "file": "Menlo Ventures",
+      "primary": true,
+      "how_described": "本集嘉宾 Murphy 所在的风投机构，约四年前 all in on AI，领投了 Anthropic 的 D 轮，也投了 OpenRouter、Lovable、Legora",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.213,
+            8.995
+          ],
+          "quote": "I'm startups editor, Julie Bort, and today we're joined by Matt Murphy of Menlo Ventures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 Dario 是 OpenAI 里 ChatGPT 的缔造者，看到公司战线太散而离开；投资逻辑是「谁比 ChatGPT 的缔造者更有机会当老二」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            258.701,
+            267.95
+          ],
+          "quote": "Like Dario was the founder of ChatGPT in OpenAI and he realized that they were trying to do too many things, but this was the opportunity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            319.892,
+            322.954
+          ],
+          "quote": "But we knew, obviously, ChatGPT was breaking out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            329.553,
+            338.919
+          ],
+          "quote": "And who had a better shot to pull that off than the creator and founder of ChatGPT within OpenAI and then some of the other things I mentioned that gave us confidence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集用来对比的上一代浪潮：SaaS 赢家不是「没人能做出 CRM」而是最懂对接客户的那个；AI 与 SaaS 的不同在于产品驱动而非销售驱动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            663.12,
+            675.165
+          ],
+          "quote": "Yeah, I mean, I think if you look at a lot of products, even going back to the SaaS wave, what's really separated companies, it's not so much like, oh, can no one build a CRM or name your, you know, your vertical or horizontal SaaS app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1484.962,
+            1496.353
+          ],
+          "quote": "So what's different about building an AI business these days versus even the last generation of SaaS, which those were phenomenally fast-growing businesses at the time?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1587.748,
+            1589.75
+          ],
+          "quote": "I don't know that that's different from SaaS though.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1590.27,
+            1592.931
+          ],
+          "quote": "SaaS was more of an enterprise phenomenon, so that's different.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mythos",
+      "type": "company",
+      "role": "concept",
+      "name": "Mythos",
+      "file": "Mythos",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 面向网络安全的模型，圈内质疑其发布更像营销；Murphy 辩护称 Dario 的逻辑是强大的模型必须提前准备，先慢后快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            964.412,
+            976.582
+          ],
+          "quote": "But there's sort of like a common view among cybersecurity folks, at least the ones that I've talked to recently, that some of Anthropic's rollout of Mythos, its cybersecurity-oriented model, was like more marketing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            999.236,
+            1010.043
+          ],
+          "quote": "But I'm just wondering, as someone who has an ownership stake, who's in their corner, what would you say to people who believe that mythos was more marketing than true?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1179.707,
+            1183.33
+          ],
+          "quote": "With Mythos, you know, you can't have it happen ad hoc.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "concept",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集提到 DeepMind 的 CEO 呼吁 AI 行业建立类似 FINRA 的独立治理委员会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1135.991,
+            1139.271
+          ],
+          "quote": "But DeepMind's CEO just came out with an idea.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "concept",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 Anthropic 到 D 轮时已签下 Google，同时作为投资者、技术伙伴和分发伙伴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            488.216,
+            500.881
+          ],
+          "quote": "But then when we led the Series D with over 500 million, as you said, like by then, they were still early in revenue, but they'd signed up Google and Amazon, both as investors, technology partners, and distribution partners.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            521.272,
+            525.76
+          ],
+          "quote": "Every AI startup isn't going to be able to convince Amazon and Google to invest in all that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1543.672,
+            1549.337
+          ],
+          "quote": "It's a simple, you know, chat box outside of the API that everyone kind of learned from Google.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "concept",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集说 Anthropic 到 D 轮时已签下 Amazon，同时作为投资者、技术伙伴和分发伙伴，收入引擎自然启动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            488.216,
+            500.881
+          ],
+          "quote": "But then when we led the Series D with over 500 million, as you said, like by then, they were still early in revenue, but they'd signed up Google and Amazon, both as investors, technology partners, and distribution partners.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            521.272,
+            525.76
+          ],
+          "quote": "Every AI startup isn't going to be able to convince Amazon and Google to invest in all that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>423</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>427</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -34,11 +34,13 @@ unlisted: true
 - **[[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]]**(01:31起):本集对 AI 当经营顾问泼冷水：多数建议太泛化、太笼统，倾向说你爱听的话，还会编造数据且从不说『我不知道』；AI 是加速器，不会把普通人变成超级英雄，更好的打法是和街边小生意竞争再加一点 AI。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(00:00起):本集把 AI 说成：正在拿走我们的乐高、被鼓励托付工作对象；它像初级员工/实习生，需要背景、入职引导和不断纠正，而恐惧叙事大多被夸大
 - **[[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]]**(00:03起):本集说 AI 极大增加了所有生意的颠覆风险,是投资者最难预测的问题;同时在 Cognition 重写遗留系统、充当言语治疗师、医疗决策把关等场景带来真实机会。
+- **[[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|《40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资》]]**(00:12起):本集核心:Annie 看了十年 AI 没见产出,过去两年一切都变——它正在重塑药物研发、医疗行政、保险、供应链,也是本集估值与并购讨论的大背景。
 - **[[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]]**(01:20起):本集把 AI 当作 Jamie 回归的核心理由与全公司主线:「问你在业务哪里用 AI,就像问你在业务哪里用电」,它让智能民主化、给所有人赋超能力
+- **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(00:24起):本集主线之一：Chesky 2023 年的 AI 预言（用自然语言编程＝人人都是程序员、软件丰裕、身份认证与真实性变得重要）被逐一复盘命中与否；两位主持人还谈 AI 时代每个 GPU 周期都有真实成本、商业模式必须在上线前就被拷问。
 
 ## ① 提到它的金句
 
-*423 条*
+*427 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -349,6 +351,8 @@ unlisted: true
 ![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q11]]
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q2]]
+
+![[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy#^q6]]
 
 ![[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#^q1]]
 
@@ -882,13 +886,19 @@ unlisted: true
 
 ![[2026-09-30-productpodcast-hp-president-on-replacing-middle-managem#^q12]]
 
+![[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i#^q4]]
+
 ![[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with#^q5]]
+
+![[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t#^q10]]
+
+![[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t#^q12]]
 
 ![[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl#^q1]]
 
 ## ② 出现在这些集
 
-*24 集*
+*26 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -913,15 +923,17 @@ unlisted: true
 - [[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]] — 作为概念
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为概念
 - [[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]] — 作为概念
+- [[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|《40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资》]] — 作为概念
 - [[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with|《差点破产四次,他把智能门铃卖出了 11.5 亿美元》]] — 作为概念
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Claude]] · [[Stripe]] · [[智能体]] · [[Google]] · [[a16z]] · [[Databricks]] · [[OpenAI]] · [[品味]] · [[LLM]]
+[[Claude]] · [[智能体]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[OpenAI]] · [[ChatGPT]] · [[Amazon]] · [[Databricks]] · [[a16z]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Claude":74,"Stripe":41,"智能体":374,"Google":51,"a16z":17,"Databricks":19,"OpenAI":145,"品味":14,"LLM":52}</script>
+<script type="application/json" class="pd-epn">{"Claude":76,"智能体":376,"Lenny":68,"Google":53,"Stripe":41,"OpenAI":146,"ChatGPT":87,"Amazon":24,"Databricks":19,"a16z":17}</script>
 
 <script>
 (function(){

@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenRouter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(19:38起):本集两次顺带提及：前列模型多为中国模型，引出国家安全与护栏的讨论。
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(22:39起):本集说它拦截 API 调用、按价格/推理能力/延迟帮开发者挑最优模型的推理市场与路由层,已「在一个会让大多数人震惊的规模上疯狂盈利」
+- **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(00:09起):本集说它是一个 AI 网关，帮你在不同模型之间路由请求，甚至能在 Claude 家族内部帮你优化（Sonnet 还是 Opus、选哪个提供商看容量和延迟）
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(07:11起):Alex 所属的语言模型市场公司,提供自动路由器等产品;他们发现路由需求在今年一月 OpenClaw 爆火后迎来了真正的使用拐点。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(19:58起):本集一笔带过，提到它是一个用于对比模型差异的网站表格，并指出该榜单正日益被中国模型主导。
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(18:58起):本集说 OpenRouter 是做模型路由的公司，企业通过一个 API 接入几十上百个不同模型。它被 Stripe 以 70 亿美元收购，约 70 倍过往收入。节目指出它主要在两个场景很强：开发者工具里简单挑选模型、聊天机器人里根据可用性切换模型，但在高精度 B2B 工作流中，企业不敢在多模型间切换，因为会导致模型漂移。
@@ -33,10 +34,11 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[NVIDIA]] · [[token]] · [[GPU]] · [[Harry Stebbings]] · [[前沿模型]]
+[[Anthropic]] · [[推理]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[token]] · [[NVIDIA]] · [[GPU]] · [[Harry Stebbings]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"推理":65,"Anthropic":157,"OpenAI":145,"Cursor":74,"智能体":374,"NVIDIA":49,"token":29,"GPU":18,"Harry Stebbings":19,"前沿模型":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":158,"推理":65,"OpenAI":146,"Cursor":74,"智能体":376,"token":30,"NVIDIA":49,"GPU":18,"Harry Stebbings":19,"开源模型":24}</script>
 
 <script>
 (function(){

@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/LTANT4286203292.mp3",
+  "duration_sec": 4684.587,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1186,
+  "asr": true,
+  "title_en": "Justin Kan & Brian Chesky: The Rejections That Built Twitch and Airbnb | E2344",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-01",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/7cf6d85e-bd18-11f1-9f30-07886e058b3c/image/1123ebe0ae4748f544f92f8c2515fc3c.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-02",
+  "added_at": "2026-10-02T00:15:04.804Z",
+  "speaker_map": {
+    "SPEAKER_06": "Lon Harris",
+    "SPEAKER_05": "Alex Wilhelm",
+    "SPEAKER_07": "Jason Calacanis",
+    "SPEAKER_02": "Justin Kan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Justin Kan"
+  ],
+  "host": "Lon Harris",
+  "cohosts": [
+    "Alex Wilhelm",
+    "Jason Calacanis"
+  ],
+  "title_zh": "回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资",
+  "guest_name": "Justin Kan",
+  "guest_title": "Twitch 的缔造者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/7cf6d85e-bd18-11f1-9f30-07886e058b3c/image/1123ebe0ae4748f544f92f8c2515fc3c.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1672x941",
+    "aspect": 1.777,
+    "fetched_at": "2026-10-02T01:08:01.820Z"
+  }
+}

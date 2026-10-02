@@ -157,9 +157,9 @@ Gusto 收购了美国领先 401k 提供商之一的 [[Guideline|Guideline]]，�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资]]<span class="pd-rz">同公司:Y Combinator · 同概念:AI、Claude</span>
 - [[2026-07-25-talks-what-actually-makes-a-startup-durable|YC 合伙人现场答问：AI 时代创业的难与易]]<span class="pd-rz">同公司:Y Combinator · 同概念:Co-Founder</span>
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|David Freeberg：美国正在走向社会主义，但AI能开另一扇门]]<span class="pd-rz">同概念:AI、Claude</span>
-- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

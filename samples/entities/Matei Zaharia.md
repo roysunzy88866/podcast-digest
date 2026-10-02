@@ -36,11 +36,11 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":374}</script>
+<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":19,"Snowflake":16,"MosaicML":2,"Neon":3,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":376}</script>
 
 <script>
 (function(){

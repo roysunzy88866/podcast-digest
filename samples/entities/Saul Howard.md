@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":157,"智能体":374,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":158,"智能体":376,"审计轨迹":1,"交易日志":1,"对象存储":3,"零信任":2,"提示词注入":18,"PHI":1,"评估":3}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[Sean]] [[Diogo Almeida]] [[Noah Shinn]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":374,"主动性":2,"Muse":3,"Instinct":3,"OpenClaw":20,"ChatGPT":85,"Shopify":16,"Amazon":22}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":376,"主动性":2,"Muse":3,"Instinct":3,"OpenClaw":20,"ChatGPT":87,"Shopify":16,"Amazon":24}</script>
 
 <script>
 (function(){

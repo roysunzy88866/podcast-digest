@@ -145,7 +145,7 @@ Impeccable 的每一行都做消融测试(每条规则带唯一标识，移除�
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:evals、harness 工程 (harness)、MCP、提示词缓存 (prompt caching)</span>
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|循环就是产品：智能体配方与每瓦特价值]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:evals、harness 工程 (harness)、品味 (taste)</span>
-- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor、Anthropic</span>
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同公司:Claude Code、Anthropic · 同概念:harness 工程 (harness)、MCP</span>
 
 </div>
 </div>

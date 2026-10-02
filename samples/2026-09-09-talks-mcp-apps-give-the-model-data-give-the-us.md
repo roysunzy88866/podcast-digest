@@ -118,9 +118,9 @@ Claude 可以搜出 100 个职位、过滤到 5 个，再只把这 5 个交给�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同概念:ChatGPT、Claude、MCP</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:ChatGPT、Claude、MCP</span>
 - [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验]]<span class="pd-rz">同概念:MCP、MCP Apps、Claude</span>
-- [[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|智能体网络来了：网站和浏览器正在被“拆成原子”]]<span class="pd-rz">同概念:MCP、MCP Apps、ChatGPT</span>
 
 </div>
 <div class="pd-ex">

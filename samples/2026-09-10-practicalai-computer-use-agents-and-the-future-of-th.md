@@ -137,9 +137,9 @@ Chris 的愿景是[[智能体蜂群|智能体蜂群]](swarm,多智能体分工�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、harness、MCP</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、MCP、Computer-Use</span>
 - [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、harness、system prompt</span>
-- [[2026-08-28-talks-ai-native-organisations-run-on-skills-ho|AI 原生组织如何运行在 Skills 之上]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、MCP、Claude Code</span>
 
 </div>
 <div class="pd-ex">

@@ -206,9 +206,9 @@ IC 的世界反而清晰，最难的是管理者和领导者。Molly 的建议�
 
 **换个口味**
 
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资]]<span class="pd-rz">同公司:Airbnb、Google、OpenAI · 同概念:AI、智能体 (agent)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:Facebook、Google · 同概念:智能体 (agent)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:品味与愿景 (taste)、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

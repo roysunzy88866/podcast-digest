@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":15,"Waymo driver":1,"智能体":374,"物理 AI":9,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":11,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":15,"Waymo driver":1,"智能体":376,"物理 AI":9,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":11,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

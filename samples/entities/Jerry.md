@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":49,"Sega":1,"Waymo":15,"Tesla":10,"Mercedes":1,"加速计算":1,"智能体":374,"物理 AI":9,"系统思维":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":49,"Sega":1,"Waymo":15,"Tesla":10,"Mercedes":1,"加速计算":1,"智能体":376,"物理 AI":9,"系统思维":4}</script>
 
 <script>
 (function(){

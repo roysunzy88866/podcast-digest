@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Airbnb</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(18:36起):本集作为Sequoia高信念投资的经典例子：被大多数基金拒绝、睡充气床垫听起来糟糕，但Sequoia领了种子轮持续加注，成为资金回报率最高的投资之一
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(28:51起):本集说 Founders Fund 可能是它第 30 个投资人，进去时估值已 20 亿美元但投了 1.5 亿美元，用来举例说明一旦确定对了就砸最多钱进去、放下自我
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(64:00起):与 Booking.com 对照的本集例子：Airbnb 的选择是不变成那样，希望体验感真的很好、感觉良好——体现人类引导世界走向的品味与愿景
+- **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(38:37起):本集回顾它 2008 年被十几二十位天使投资人拒绝、只想以 150 万投后估值融 15 万（10% 股份如今值 92.5 亿美元），创始人靠卖恶搞麦片撑过难关并进入 YC；Chesky 还说 Airbnb 的价值在物理世界与「真实性」。
 
 ## ① 提到它的金句
 
@@ -31,7 +32,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
 - [[2025-08-03-lennys-chip-conley|《52岁入职Airbnb：年长者在科技公司怎么活下来、活得好》]] — 作为被讨论公司
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -44,14 +45,15 @@ unlisted: true
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Revolut]] · [[Ramp]] · [[Anthropic]] · [[Uber]] · [[Facebook]] · [[Stripe]] · [[Cursor]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Uber]] · [[Ramp]] · [[Anthropic]] · [[Revolut]] · [[创始人模式]] · [[Facebook]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":374,"OpenAI":145,"Revolut":5,"Ramp":9,"Anthropic":157,"Uber":15,"Facebook":16,"Stripe":41,"Cursor":74}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":376,"OpenAI":146,"Uber":16,"Ramp":9,"Anthropic":158,"Revolut":5,"创始人模式":3,"Facebook":16,"Stripe":41}</script>
 
 <script>
 (function(){

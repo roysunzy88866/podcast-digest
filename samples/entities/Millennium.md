@@ -31,7 +31,7 @@ unlisted: true
 
 [[Brian Lewis]] · [[ZDR]] · [[企业就绪]] · [[RBAC]] · [[权限]] · [[遗留架构]] · [[试点]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Brian Lewis":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":85}</script>
+<script type="application/json" class="pd-epn">{"Brian Lewis":1,"ZDR":1,"企业就绪":1,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"ChatGPT":87}</script>
 
 <script>
 (function(){

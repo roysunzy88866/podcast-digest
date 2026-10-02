@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":2,"token":29,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"tokenflation":1,"tokenomics":2,"token":30,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":10,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

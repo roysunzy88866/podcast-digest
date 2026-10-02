@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Legora</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Legora">LE</div><div class="pi"><h1 class="pt">Legora</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Legora">LE</div><div class="pi"><h1 class="pt">Legora</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(21:21起):本集说它把 AI 卖给律师——曾是有史以来最糟的企业软件市场——最快做到 1.5 亿美元，是需求端已被激活的例证
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(00:15起):本集将其描述为律师的智能体操作系统（agentic operating system for lawyers），从头到尾处理复杂法律工作，全球超过 3% 的律师是活跃用户，ARR 在 18 个月内从零增长到 1 亿美元。
 - **[[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]]**(00:23起):本集说它是面向法律工作的协作式 AI 平台，客户包括律所和企业法务团队，可理解为法律工作领域的 Linear + Figma + Notion + GitHub。
 
@@ -24,8 +25,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司
 - [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]] — 作为被讨论公司
 
@@ -33,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Max Junestrand]] · [[Simon Eskildsen]] · [[微调]] · [[Jacob Lauritzen]] · [[评估]] · [[Turbo Puffer]] · [[GPT 3.5]] · [[对象存储]] · [[大语言模型]]
+[[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[DeepMind]] · [[Julie Bort]] · [[Max Junestrand]] · [[Simon Eskildsen]] · [[Matt Murphy]] · [[微调]] · [[Jacob Lauritzen]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"Max Junestrand":1,"Simon Eskildsen":1,"微调":26,"Jacob Lauritzen":1,"评估":3,"Turbo Puffer":1,"GPT 3.5":1,"对象存储":3,"大语言模型":8}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":158,"智能体":376,"ChatGPT":87,"DeepMind":11,"Julie Bort":1,"Max Junestrand":1,"Simon Eskildsen":1,"Matt Murphy":2,"微调":26,"Jacob Lauritzen":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]] [[Shuo]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Alex Imerman]] [[Christian Klein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":5,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":145,"Anthropic":157,"Microsoft":27,"Amazon":22,"Google":51,"Meta":38,"Databricks":19}</script>
+<script type="application/json" class="pd-epn">{"David George":5,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":146,"Anthropic":158,"Microsoft":27,"Amazon":24,"Google":53,"Meta":38,"Databricks":19}</script>
 
 <script>
 (function(){

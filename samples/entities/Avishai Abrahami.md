@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Wix":3,"Base44":3,"Salesforce":33,"Atlassian":5,"vibe coding":43,"SaaS":19,"回购":1,"股权激励":1,"微调":26}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":19,"Wix":3,"Base44":3,"Salesforce":33,"Atlassian":5,"vibe coding":43,"SaaS":20,"回购":1,"股权激励":1,"微调":26}</script>
 
 <script>
 (function(){

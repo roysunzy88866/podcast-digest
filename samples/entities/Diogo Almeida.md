@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Noah Shinn]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jev":4,"TypeSafe":3,"RLHF":4,"编码智能体":24,"OpenAI":145,"System 1 模型":1,"Ben Horowitz":6,"RLCD":1,"Martin Casado":5,"RLVR":1}</script>
+<script type="application/json" class="pd-epn">{"Jev":4,"TypeSafe":3,"RLHF":4,"编码智能体":24,"OpenAI":146,"System 1 模型":1,"Ben Horowitz":6,"RLCD":1,"Martin Casado":5,"RLVR":1}</script>
 
 <script>
 (function(){

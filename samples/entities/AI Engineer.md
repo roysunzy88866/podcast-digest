@@ -31,7 +31,7 @@ unlisted: true
 
 [[Vincent Wendy]] · [[Devin]] · [[Figma]] · [[GPT]] · [[设计系统]] · [[像素级还原]] · [[自动化]] · [[LLM]] · [[MCP]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Vincent Wendy":1,"Devin":4,"Figma":22,"GPT":4,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":52,"MCP":67,"Slack":29}</script>
+<script type="application/json" class="pd-epn">{"Vincent Wendy":1,"Devin":4,"Figma":22,"GPT":4,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":52,"MCP":68,"Slack":29}</script>
 
 <script>
 (function(){

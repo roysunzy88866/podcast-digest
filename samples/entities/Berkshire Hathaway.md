@@ -27,7 +27,7 @@ unlisted: true
 
 [[Teledyne]] · [[Bill Ackman]] · [[资本配置]] · [[AI]] · [[去中心化]] · [[颠覆风险]] · [[股票回购]] · [[泡沫]] · [[现金流]] · [[永久资本]]
 
-<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"资本配置":1,"AI":24,"去中心化":2,"颠覆风险":1,"股票回购":1,"泡沫":1,"现金流":1,"永久资本":1}</script>
+<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"资本配置":1,"AI":26,"去中心化":2,"颠覆风险":1,"股票回购":1,"泡沫":1,"现金流":1,"永久资本":1}</script>
 
 <script>
 (function(){

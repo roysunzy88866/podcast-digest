@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":22,"Boeing":2,"FAA":2,"Uber":15,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":24,"Boeing":2,"FAA":2,"Uber":16,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
 
 <script>
 (function(){

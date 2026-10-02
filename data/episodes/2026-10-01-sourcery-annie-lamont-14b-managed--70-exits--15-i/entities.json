@@ -1,0 +1,981 @@
+{
+  "episode_id": "2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i",
+  "podcast": "Sourcery",
+  "date": "2026-10-01",
+  "tags": [
+    "风险投资",
+    "AI 医疗",
+    "药物研发",
+    "并购",
+    "医疗健康"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "annie-lamont",
+      "type": "person",
+      "role": "guest",
+      "name": "Annie Lamont",
+      "file": "Annie Lamont",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            57.087,
+            63.052
+          ],
+          "quote": "Annie Lamont, First Lady of Connecticut and Founder and Managing Partner of Oaks HCFT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3441.697,
+            3445.98
+          ],
+          "quote": "So as we close out, Annie Lamont, what are you most looking forward to in the next 12 months?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oaks-hcft",
+      "type": "company",
+      "role": "company",
+      "name": "Oaks HCFT",
+      "file": "Oaks HCFT",
+      "primary": true,
+      "how_described": "本集主线:Annie Lamont 创立并管理的医疗健康与金融科技基金,从最初 5 亿美元涨到最近两支各近 20 亿美元,做全生命周期投资,支票从一百万到一亿美元,20%-40% 投早期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            57.087,
+            63.052
+          ],
+          "quote": "Annie Lamont, First Lady of Connecticut and Founder and Managing Partner of Oaks HCFT.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集核心:Annie 看了十年 AI 没见产出,过去两年一切都变——它正在重塑药物研发、医疗行政、保险、供应链,也是本集估值与并购讨论的大背景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            12.02,
+            19.326
+          ],
+          "quote": "We've been looking at AI for the last decade and have not seen it produce more developable products, therapeutics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            21.468,
+            24.79
+          ],
+          "quote": "With Devoted, you now have AI enter the picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            143.326,
+            152.25
+          ],
+          "quote": "So you're notably known as the healthcare and fintech fund, and that's definitely changed over time with the proliferation of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            184.256,
+            196.704
+          ],
+          "quote": "And I think as you think about the new AI world and you look at horizontal platforms, what's interesting is that between our fintech and healthcare practice, it's really 50% of the economy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            224.734,
+            237.725
+          ],
+          "quote": "And, you know, having that depth of time experience relationships is incredibly helpful to a lot of companies that are selling horizontal solutions that often need to be, I mean, what's the advantage of AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            282.721,
+            292.844
+          ],
+          "quote": "We've been looking at AI for the last decade and had not seen it produce more developable products and therapeutics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            317.414,
+            335.404
+          ],
+          "quote": "We're going to be adding partners in San Francisco, building out our San Francisco office further because of so much of AI, whether it's life sciences or any other industry that software AI is being developed for, is happening in San Francisco.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            358.044,
+            359.025
+          ],
+          "quote": "Why is AI...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            379.185,
+            386.966
+          ],
+          "quote": "They're very specific to the industry, but people see the opportunity, physical AI, robotics in labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            667.562,
+            684.61
+          ],
+          "quote": "Can be done through simulation and through AI, you know, as long as you test what is coming out of design and then compare what wet lab result would be, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            761.976,
+            770.868
+          ],
+          "quote": "Other people are as well, but I think the main narrative out of that is that science will be one of the biggest benefactors of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            771.548,
+            774.209
+          ],
+          "quote": "And what we're having happen with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            774.289,
+            788.256
+          ],
+          "quote": "So as you and the firm are seeing everything shape with AI, like how do you put time kind of scales and when to go into this category, when to start researching, and what are the categories that you're looking at?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            826.254,
+            831.975
+          ],
+          "quote": "So I think we have been, as I said, looking at AI for a decade in that area and felt like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            923.277,
+            941.053
+          ],
+          "quote": "But with Devoted, you now have AI enter the picture along with them actually owning the risk and owning the member through the primary care doc and the healthcare system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            973.001,
+            988.418
+          ],
+          "quote": "You know, we want somebody who, you know, virtual overlay, thinking about our health in a proactive way as an AI front end and a doctor behind the AI on the medical care, caregiving side, as well as your insurer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            999.649,
+            1009.998
+          ],
+          "quote": "Like it is definitely the most AI, probably the best example of AI applied to healthcare in the world right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1062.538,
+            1072.484
+          ],
+          "quote": "of a transformation there that will be helped by AI in terms of taking administrative costs and burden off of clinicians so they can focus on patients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1075.246,
+            1081.89
+          ],
+          "quote": "I mean, electronic health records were the great organizing principle for the data that now can be used by AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1101.305,
+            1108.611
+          ],
+          "quote": "And on the clinical care side, there is no question that, you know, AI, I mean, just how many people are using ChatGPT?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1131.65,
+            1139.594
+          ],
+          "quote": "And if you have AI behind that radiologist making sure that nothing's missed, we're not going to eliminate radiologists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1140.855,
+            1147.258
+          ],
+          "quote": "But the reality is, is that with AI behind it, you're probably not going to miss much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1153.38,
+            1164.723
+          ],
+          "quote": "So I think there's just going to be so many ways that AI helps in terms of improving care along with the drugs that it will be helping to develop faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1164.743,
+            1177.167
+          ],
+          "quote": "I think it's also, you think about robotics and AI and vision, these vision models, you're actually going to be able to, a surgeon will be able to see better",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1229.562,
+            1236.604
+          ],
+          "quote": "AI agents that handle expenses automatically, enforce policy before spend happens, and close your books in minutes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1255.824,
+            1261.829
+          ],
+          "quote": "Turing is training the next generation of AI with tasks that require real expertise and real-world judgment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1284.068,
+            1285.368
+          ],
+          "quote": "AI needs more than chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1288.449,
+            1298.772
+          ],
+          "quote": "Zone develops next-generation data center campuses, partnering with AI companies, site developers, and technology leaders to bring compute online faster and at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1299.292,
+            1302.433
+          ],
+          "quote": "Zone is building the foundation of the AI frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1324.224,
+            1328.066
+          ],
+          "quote": "I don't know how this even popped up, but she was like, yeah, I don't think AI is going to take my job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1329.907,
+            1338.092
+          ],
+          "quote": "Whoever said AI would take your job, you do something that's completely manual, but I think a robot and computer vision would definitely help with the time",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1406.093,
+            1420.81
+          ],
+          "quote": "This might be more of like a macro thought or comment or question, but it is interesting to think that healthcare will be such a positive benefactor of AI, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1425.292,
+            1432.035
+          ],
+          "quote": "They won't know that AI is involved in the process at all because it is so behind the scenes and in so many different layers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1471.277,
+            1487.702
+          ],
+          "quote": "It's such a challenging environment that will be greatly affected, for the most part, I would assume, but it would be the best place for people to know that the growing negative narrative of AI is actually not bad.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1511.67,
+            1513.23
+          ],
+          "quote": "Will they attribute that to AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1517.131,
+            1519.733
+          ],
+          "quote": "By AI, will they know ultimately a surgery?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1522.014,
+            1524.476
+          ],
+          "quote": "But I think that's what's going to be fascinating about AI in general.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1969.29,
+            1977.801
+          ],
+          "quote": "And that's, you know, that's the true sign of a, you know, of a company in AI that it can be differentiated and defensible and durable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2036.396,
+            2047.684
+          ],
+          "quote": "Like you actually have software in a world of AI where you have the Frontier Labs actually interested in moving into these spaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2342.485,
+            2345.166
+          ],
+          "quote": "And growth and momentum of what's going on in the AI era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2819.64,
+            2823.183
+          ],
+          "quote": "But obviously, AI is so much more fundamentally different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2854.329,
+            2863.516
+          ],
+          "quote": "Some of you may not have heard this yet, but our sponsor Public just launched something called Generated Assets, and it brings AI into investing in a way I've honestly never seen before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2864.536,
+            2867.699
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2874.084,
+            2881.57
+          ],
+          "quote": "Publix AI then dispatches a swarm of agents that scan every single US stock, evaluates them, and instantly builds a custom index around your thesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2930.383,
+            2942.575
+          ],
+          "quote": "So do you think that AI does justify the inflation on valuations, or do you think people- I think certainly for, you know, for probably 10% of the market, yes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2986.437,
+            2990.481
+          ],
+          "quote": "Who's going to buy, even if it's AI applied to a TPA software company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3267.461,
+            3274.885
+          ],
+          "quote": "He soon was cured of that and decided to start an AI supply.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3478.781,
+            3484.303
+          ],
+          "quote": "Now it's like using AI, I can learn about anything and everything so quickly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMs",
+      "file": "LLMs",
+      "primary": true,
+      "how_described": "本集说 LLM 的出现及其带动的基础设施,催生出了并非 LLM 的、专门针对生物和化学的行业专属模型,从而引爆药物设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            365.414,
+            370.302
+          ],
+          "quote": "I think it was so interesting because the advent of LLMs with the infrastructure around them",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            370.983,
+            378.705
+          ],
+          "quote": "You've created biological models and models around chemistry that are not LLMs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集多处以智能体为投资主线:Halluminate 为创建智能体提供强化学习环境,Augur 提供真正执行供应链洞察的智能体,广告段也提到处理开支的 AI 智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1229.562,
+            1236.604
+          ],
+          "quote": "AI agents that handle expenses automatically, enforce policy before spend happens, and close your books in minutes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2874.084,
+            2881.57
+          ],
+          "quote": "Publix AI then dispatches a swarm of agents that scan every single US stock, evaluates them, and instantly builds a custom index around your thesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3064.026,
+            3069.95
+          ],
+          "quote": "So it's a reinforcement learning environment, the customer for creating agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3070.59,
+            3077.652
+          ],
+          "quote": "These agents are creating financial and economic models and basically mimicking environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3123.327,
+            3126.33
+          ],
+          "quote": "And obviously these agents ultimately are going to be used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3295.318,
+            3303.984
+          ],
+          "quote": "And what they're doing is not just providing insights, providing agents that are actually then executing on the insights throughout their entire supply chain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习环境 (reinforcement learning environment)",
+      "file": "强化学习环境",
+      "primary": true,
+      "how_described": "本集说 Halluminate 做的就是强化学习环境——为智能体模拟金融分析师投资全流程乃至整家房地产经纪公司,客户是大型实验室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 531,
+          "t": [
+            3064.026,
+            3069.95
+          ],
+          "quote": "So it's a reinforcement learning environment, the customer for creating agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devoted",
+      "type": "company",
+      "role": "company",
+      "name": "Devoted",
+      "file": "Devoted",
+      "primary": true,
+      "how_described": "本集称它为「可能是目前世界上 AI 应用于医疗健康的最好例子」:从 Medicare Advantage 健康险起步,自建技术平台和初级保健网络,过去一年规模扩大三倍、运营比率减半、EBITDA 大幅增长,未来将进军商业保险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.468,
+            24.79
+          ],
+          "quote": "With Devoted, you now have AI enter the picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            97.408,
+            112.921
+          ],
+          "quote": "And we'll talk about the portfolio and everything, but notable investments include Athena Health, Devoted Health, One Medical, CareBridge, Cotivity Health, Village MD, Main Street, Komodo, Chai, and a handful of others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            912.828,
+            915.31
+          ],
+          "quote": "And at the same time, they're building a devoted medical group",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            923.277,
+            941.053
+          ],
+          "quote": "But with Devoted, you now have AI enter the picture along with them actually owning the risk and owning the member through the primary care doc and the healthcare system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1714.061,
+            1717.244
+          ],
+          "quote": "One reason devoted, you know, it's really chai, obviously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1718.6,
+            1734.364
+          ],
+          "quote": "Both have comp sci backgrounds in chemistry and biology and devoted the CEO who's had a computer science major from Harvard, you know, and he'd been in healthcare for 30 years, Eddie Park and Todd Park, who were founders of Athena Health.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1810.542,
+            1817.067
+          ],
+          "quote": "And then Devoted, we led the Series A and Brad Smith, another Harvard guy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3031.265,
+            3039.59
+          ],
+          "quote": "I know we talked about Rillit, we talked about Chai, and we talked about Devoted as some of the key companies, but...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chi",
+      "type": "company",
+      "role": "company",
+      "name": "CHI",
+      "file": "CHI",
+      "primary": true,
+      "how_described": "本集说 CHI 是 Oak 在药物设计领域的发现投资:先做抗体、比没有它的实验室高效一百倍,接下来是多肽和小分子,用计算模型近似 40 年的动物/湿实验结果并以真实实验数据校验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            297.285,
+            306.247
+          ],
+          "quote": "So we're incredibly excited with the initial CHI discovery investment last year, which is now creating this amazing",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            616.734,
+            622.037
+          ],
+          "quote": "But as industry, we're now, like CHI is in drug design,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            701.524,
+            707.092
+          ],
+          "quote": "In terms of the categories of discovery that even CHI is going after, what is their roadmap?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1761.675,
+            1772.501
+          ],
+          "quote": "I have to walk in a room and, you know, when I met Brad Smith or Todd Park or Josh and Jack at CHI, I mean, you walk in the room and you know in five minutes you want to back these people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "halluminate",
+      "type": "company",
+      "role": "company",
+      "name": "Halluminate",
+      "file": "Halluminate",
+      "primary": true,
+      "how_described": "本集新仓位:给 AI 智能体提供训练与测试环境的强化学习环境公司,客户是大型实验室,模拟金融分析师全流程,六个月里「从零冲到六十」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            3040.65,
+            3048.295
+          ],
+          "quote": "Halluminate is a company that's like well on your radar and is like a core position now, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3049.696,
+            3051.898
+          ],
+          "quote": "So can you talk through Halluminate?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "augur",
+      "type": "company",
+      "role": "company",
+      "name": "Augur",
+      "file": "Augur",
+      "primary": true,
+      "how_described": "本集新仓位:CEO Dave Clark 出自 Amazon 22 年供应链与物流体系,做供应链的编排层、数据洞察与运营层,还提供执行洞察的智能体;Oak 预先向它承诺了 1 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 555,
+          "t": [
+            3200.502,
+            3202.503
+          ],
+          "quote": "Another one of these companies is Augur.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3203.024,
+            3205.205
+          ],
+          "quote": "So what is Augur and how did you guys get involved?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3205.625,
+            3205.906
+          ],
+          "quote": "Augur.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3206.246,
+            3220.455
+          ],
+          "quote": "So Augur is, we have an amazing talent function at Oak and it's really embedded in our investment strategy and they are identifying people every day that we should be talking to who are great entrepreneurs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "carebridge",
+      "type": "company",
+      "role": "company",
+      "name": "CareBridge",
+      "file": "CareBridge",
+      "primary": true,
+      "how_described": "本集说 CareBridge 是与 Brad Smith 共同构思创办的姑息治疗公司、卖给 Elevance,并被引为并购整合成功的最佳例子,在 Elevance 内部正在极大扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            97.408,
+            112.921
+          ],
+          "quote": "And we'll talk about the portfolio and everything, but notable investments include Athena Health, Devoted Health, One Medical, CareBridge, Cotivity Health, Village MD, Main Street, Komodo, Chai, and a handful of others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1860.886,
+            1868.175
+          ],
+          "quote": "And then we started the next two companies together, CareBridge and Main Street, and ideated for a year on both of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1903.847,
+            1911.07
+          ],
+          "quote": "And so we, we backed him three times, all quite successful called CareBridge to Elevance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2152.263,
+            2158.125
+          ],
+          "quote": "I would say healthcare, I would say CareBridge is the most recent great example that's working extremely well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "medicare-advantage",
+      "type": "concept",
+      "role": "concept",
+      "name": "Medicare Advantage",
+      "file": "Medicare Advantage",
+      "primary": false,
+      "how_described": "本集说 Devoted 从 Medicare Advantage 健康计划起步,开发成本极高、面对拥有市场的庞然大物非常难竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            865.912,
+            884.565
+          ],
+          "quote": "The reality is they have created by starting with a Medicare Advantage health plan that is very expensive to develop and very difficult to develop against the behemoths that own these markets, including the blues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "athena-health",
+      "type": "company",
+      "role": "company",
+      "name": "Athena Health",
+      "file": "Athena Health",
+      "primary": false,
+      "how_described": "本集提它是 Oak 值得注意的投资之一,由 Todd Park 等创始人创办,后经 PE 交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            97.408,
+            112.921
+          ],
+          "quote": "And we'll talk about the portfolio and everything, but notable investments include Athena Health, Devoted Health, One Medical, CareBridge, Cotivity Health, Village MD, Main Street, Komodo, Chai, and a handful of others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1718.6,
+            1734.364
+          ],
+          "quote": "Both have comp sci backgrounds in chemistry and biology and devoted the CEO who's had a computer science major from Harvard, you know, and he'd been in healthcare for 30 years, Eddie Park and Todd Park, who were founders of Athena Health.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palo-alto-networks",
+      "type": "company",
+      "role": "company",
+      "name": "Palo Alto Networks",
+      "file": "Palo Alto Networks",
+      "primary": false,
+      "how_described": "本集举它为并购正例:Nikesh Arora 八年做了 40 次收购,态度是「我们收购他们是因为他们比我们聪明」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            2244.186,
+            2249.629
+          ],
+          "quote": "So I did an interview with Nikesh Arora at Palo Alto Networks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "da-vinci",
+      "type": "concept",
+      "role": "concept",
+      "name": "da Vinci 手术机器人 (da Vinci)",
+      "file": "da Vinci 手术机器人",
+      "primary": false,
+      "how_described": "本集说 da Vinci 相比将要出现的手术机器人,就是「暴力硬干」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1191.215,
+            1196.098
+          ],
+          "quote": "I mean, da Vinci was a brute forcing in those compared to what we're going to see now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

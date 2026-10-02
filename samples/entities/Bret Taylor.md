@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":374,"基于结果的定价":4,"应用 AI":1,"前沿模型":23,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":67}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Sierra":6,"智能体":376,"基于结果的定价":4,"应用 AI":1,"前沿模型":23,"工具层":2,"上下文工程":16,"编程系统":1,"MCP":68}</script>
 
 <script>
 (function(){

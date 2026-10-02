@@ -31,7 +31,7 @@ unlisted: true
 
 [[设计合作伙伴]] · [[产品市场契合]] · [[PLG]] · [[Cursor]] · [[Anthropic]] · [[Jen Abel]] · [[Ben Rudolph]] · [[Elena Berger]] · [[Nick Fleisher]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"设计合作伙伴":6,"产品市场契合":23,"PLG":12,"Cursor":74,"Anthropic":157,"Jen Abel":1,"Ben Rudolph":2,"Elena Berger":3,"Nick Fleisher":1,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"设计合作伙伴":6,"产品市场契合":23,"PLG":12,"Cursor":74,"Anthropic":158,"Jen Abel":1,"Ben Rudolph":2,"Elena Berger":3,"Nick Fleisher":1,"Lenny":68}</script>
 
 <script>
 (function(){

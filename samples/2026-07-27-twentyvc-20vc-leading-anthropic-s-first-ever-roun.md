@@ -138,8 +138,8 @@ Harry 问：手里有 Anthropic、Lovable、Legora、OpenRouter,你本可以募�
 **顺着「创业与行业」挖下去**
 
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、Lovable、OpenAI · 同概念:开源模型 (open source)、推理 (inference)</span>
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同嘉宾:Matt Murphy · 同公司:Anthropic、Lovable、OpenRouter、ChatGPT</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、Eleven Labs、OpenAI · 同概念:推理 (inference)</span>
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开源模型 (open source)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

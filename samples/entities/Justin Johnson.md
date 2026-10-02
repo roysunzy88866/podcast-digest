@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Christian Klein]] [[Faisal Masud]] [[David Pawlan]] [[Bill Ackman]]
+[[Jennifer Ferro]] [[Jamie Batmer]] [[Annie Lamont]] [[Jamie Siminoff]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[David George]] [[Santiago Rodriguez]] [[Alex Imerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":11,"Marble":4,"Sam Charrington":4,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":374,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":11,"Marble":4,"Sam Charrington":4,"Martin Casado":5,"高斯溅射":1,"Atlas":3,"智能体":376,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

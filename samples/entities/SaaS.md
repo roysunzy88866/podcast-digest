@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(07:00起):本集主线之一：市场因「SaaSpocalypse」不知如何计算 AI 对 SaaS 的威胁而砸低估值倍数，嘉宾逐家分析哪些 SaaS 护城河是真的。
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(13:10起):本集说老牌应用层 SaaS 别死守毛利结构——在 AI 上成功却不承受毛利率压力从定义上讲是不可能的，应把毛利下降看作成功的勋章；服务碎片化 SMB 客户的 SaaS 仍可能出大赢家，微软转云是先例。
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
+- **[[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]]**(11:03起):本集用来对比的上一代浪潮：SaaS 赢家不是「没人能做出 CRM」而是最懂对接客户的那个；AI 与 SaaS 的不同在于产品驱动而非销售驱动
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(16:34起):本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半
 - **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(23:40起):本集说 SaaS 的美妙之处在于你希望客户在未来 20 年里成为客户，他们买的不仅是今天的产品，更是信任
@@ -63,7 +64,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -74,6 +75,7 @@ unlisted: true
 - [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为概念
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念(提及)
+- [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|《领投人拆解 Anthropic：三年登顶的增长秘方》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为概念(提及)
@@ -89,9 +91,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Stripe]] · [[Salesforce]] · [[Microsoft]] · [[微调]] · [[NVIDIA]] · [[Shopify]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Google]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Microsoft]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"Anthropic":157,"Cursor":74,"Stripe":41,"Salesforce":33,"Microsoft":27,"微调":26,"NVIDIA":49,"Shopify":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"Anthropic":158,"OpenAI":146,"Cursor":74,"Google":53,"Stripe":41,"Salesforce":33,"Claude Code":90,"Microsoft":27,"微调":26}</script>
 
 <script>
 (function(){

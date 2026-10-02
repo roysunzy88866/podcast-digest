@@ -142,9 +142,9 @@ Julie 把医疗 AI 的机会切成三段：第一段「降低获取智能的门�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资]]<span class="pd-rz">同概念:AI、LLMs</span>
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:A16Z · 同概念:机器人 (robotics)</span>
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造]]<span class="pd-rz">同公司:A16Z · 同概念:LLMs</span>
-- [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"]]<span class="pd-rz">同公司:A16Z · 同概念:AI</span>
 
 </div>
 <div class="pd-ex">

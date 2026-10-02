@@ -217,9 +217,9 @@ Becca Levy 在耶鲁的研究：如果你把对衰老的心态从消极转为积
 
 **换个口味**
 
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资]]<span class="pd-rz">同公司:Airbnb · 同概念:创始人模式 (founder mode)</span>
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]]<span class="pd-rz">同公司:Airbnb</span>
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|Bumble 大重置：挥别「滑动」，重塑约会软件]]<span class="pd-rz">同概念:创始人模式 (founder mode)</span>
-- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Airbnb</span>
 
 </div>
 </div>

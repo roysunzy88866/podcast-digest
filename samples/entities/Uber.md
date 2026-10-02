@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Uber</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|《Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的》]]**(00:21起):本集主讲的公司:数千名工程师、数百个团队、六个按语言划分的 monorepo,因 PR 暴涨导致首次评审时间从 3 小时涨到 9 小时,自建了自动化代码评审系统
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(86:08起):本集用以说明技术变革中个人选择转移的例子：纽约出租车司机因 Uber 能赚更多钱而主动转做 Uber 司机
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(16:18起):本集引用它今年早些时候在 13 周内烧光全年 token 预算的头条事件，作为 token 最大化教训的例证。
+- **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(10:08起):本集以 Uber 为例说明规矩的「事实化」：小时候的教育是别上陌生人的车，一点点技术加一点时间证明那完全错了。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(27:18起):本集回望网约车史：Uber 用好 10 倍的产品把旧金山 1 亿美元出租车市场变成 10 亿，以此类比自动驾驶的下一个 10 倍扩张。
 
 ## ① 提到它的金句
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -57,15 +58,16 @@ unlisted: true
 - [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|《Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的》]] — 作为被讨论公司
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为被讨论公司(提及)
+- [[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Amazon]] · [[Cursor]] · [[Revolut]] · [[Waymo]] · [[Palantir]] · [[Tesla]]
+[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Amazon]] · [[Cursor]] · [[Revolut]] · [[Waymo]] · [[AI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"OpenAI":145,"ChatGPT":85,"Anthropic":157,"Amazon":22,"Cursor":74,"Revolut":5,"Waymo":15,"Palantir":20,"Tesla":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"OpenAI":146,"ChatGPT":87,"Anthropic":158,"Amazon":24,"Cursor":74,"Revolut":5,"Waymo":15,"AI":26,"Palantir":20}</script>
 
 <script>
 (function(){

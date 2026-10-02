@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[软件工厂]] · [[Codex]] · [[Zach Lloyd]] · [[代码审查]] · [[计算机使用]] · [[Safia Abdalla]] · [[Claire Vo]] · [[Suraj Gupta]]
 
-<script type="application/json" class="pd-epn">{"智能体":374,"Claude Code":89,"软件工厂":1,"Codex":69,"Zach Lloyd":2,"代码审查":21,"计算机使用":16,"Safia Abdalla":1,"Claire Vo":5,"Suraj Gupta":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"Claude Code":90,"软件工厂":1,"Codex":69,"Zach Lloyd":2,"代码审查":21,"计算机使用":16,"Safia Abdalla":1,"Claire Vo":5,"Suraj Gupta":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,154 @@
+{
+  "title_zh": "领投人拆解 Anthropic：三年登顶的增长秘方",
+  "tldr": "Menlo Ventures 合伙人 Matt Murphy 回顾领投 Anthropic 的逻辑，拆解其增长秘诀、开源与专有之争，及这波 AI 创业的独特之处。",
+  "digest_md": "这一集聊的是 Anthropic 为什么能三年冲到行业最前面，以及这波 AI 创业浪潮跟以往有什么根本不同。说话的人是 Menlo Ventures 的合伙人 Matt Murphy——他 2024 年领投了 Anthropic 超过 5 亿美元的 D 轮（此前还参与了 C 轮），也投了 OpenRouter、Lovable、Legora 这些 AI 圈最响亮的名字。主持人是 TechCrunch 创业编辑 Julie Bort。\n\n钩子是这个数字：据报道，Anthropic 的年收入运行率已经跨过 470 亿美元，而 2025 年是 90 亿美元。「我们以前从未见过公司做到这一点。」[07:27 Matt Murphy] 更反直觉的是当年那笔投资有多「不合规矩」：估值 40 亿美元、没有收入、产品未发布，而风投基金的规矩是每家公司最多投 1500 万美元、成长基金必须有收入牵引力。「这些数字，如果是你的结果，你会心怀感激、觉得幸运，而不是作为你的入场点。」[06:01 Matt Murphy]\n\n## 当初为什么敢投：团队、巨头、门槛\n\nMurphy 把当年下注的逻辑拆成三块。\n\n第一是团队。Dario 是一位特别的创始人——他曾是 OpenAI 里 ChatGPT 的缔造者，看到公司战线太散，于是离开去做成这件他认定世界需要的事。「你见到他，他身上有一种孩子般的活力和魅力，但在那之下，他对 AI 的了解、需要构建什么以及如何构建，是非凡的。」[04:02 Matt Murphy] 他还把在 OpenAI 的经验带过来，以大约十分之一的成本构建了一个当时就有竞争力的模型。合伙人 Tim Tully（前 Splunk 的 CTO）花了大量时间和 Tom Brown 深挖他们的技术架构和算力乘数，确认他们确实「用更少的资源构建多得多的东西」。\n\n第二是巨头绑定。到 D 轮时，Anthropic 已签下 Google 和 Amazon，同时作为投资者、技术伙伴和分发伙伴，收入引擎自然启动，且明显聚焦企业市场。\n\n第三是门槛。「对于任何想做基础模型的人来说，进入门槛都非常高，当时很多其他玩家逐渐淡出或没能跟上。」[09:15 Matt Murphy] 核心判断是：这些市场从来不会被老大独占，一定会有一个强劲的老二——而谁比 ChatGPT 的缔造者更有机会当老二？当时觉得「当老大」的念头可能是十年后的事，「但正如我们都知道的，那只是三年后的事」。[06:55 Matt Murphy]\n\n## 真正的秘方：好模型之外的「缰绳」\n\n投资时看得见的三点只是第一章。Murphy 认为，对全行业最大的意外之喜是 Anthropic 后来打造的、现在大家常说的 harness（给模型套上的「缰绳」——让普通人真正用得上模型的那套产品层）。\n\n「有一个很棒的模型是一回事。但如果你不给人们一条使用模型的路径，那你就是在等人们把所有应用重新平台化才来用 API。」[09:45 Matt Murphy] Anthropic 做对的是：Claude Code、面向生命科学的版本、CoWork 这样的入口；用 MCP（一种把企业自己的数据接进模型的连接标准）连接所有数据；再上 Claude skills 让用户自定义。这些让市场爆炸式增长——「他们让它变得可及、变得易用。显然需要强大的模型来支撑，但如果他们没做其余这些，市场不会增长得这么快。」[10:30 Matt Murphy]\n\n他强调这是任何创始人都能学的：光有底层技术不够，最后一公里的易用性才是分水岭。回看 SaaS 浪潮，赢家不是「没人能做出 CRM」，而是最懂得以客户想要的方式对接客户的那个。消费端的 Airbnb 由偏设计的人创立，也是同一个道理。\n\n## 开源 vs 专有：不是取代，是分工\n\n趋势的反面：企业和成长期 AI 创业公司正越来越多转向开源模型来控制成本——这在 2026 年这么早出现，出乎很多人预料。Murphy 的框架很冷静：市场到一定规模必然开始优化。第一波是「先用起来」（token maxing 那种蜂拥而上），现在进入第二波——「我们做出了大热门、消耗大量 token，该优化成本结构了」。[13:21 Matt Murphy] 他投的 OpenRouter（一个 AI 网关，帮你在不同模型之间路由请求）连在 Claude 家族内部都能帮你优化——该用 Sonnet 还是 Opus、选哪个提供商看容量和延迟。\n\n他的判断：专有和开源归根结底是互补的，未来是多模型世界。最成熟的公司会说「50% 的 API 请求用 Claude，另外 50% 用开源或自定义模型」；而大多数没有研究团队的普通公司，仍会几乎完全依赖 Claude 这类产品。「这推动了竞争。资本主义嘛，你要有很多选择，这让在位者更强、更好。」[15:43 Matt Murphy]\n\n## Mythos 争议与监管空白\n\n主持人提到圈内对 Anthropic 网络安全模型 Mythos 的质疑——更像营销、借「保护公众」之名行推广之实。Murphy 不完全接受：「一家公司越成功，就越会招致怀疑者。」[17:14 Matt Murphy] 他所知道的是 Dario 团队有极强的使命感（花大量时间在生命科学上，并非因为最赚钱），而 Dario 的逻辑是：这是一个强大的模型，必须提前准备——如果直接放出然后爆出各种黑客攻击，「对整个行业是更严重的污点」，会在创新刚起步时就被灾难拖慢。所以「先慢后快」。[18:20 Matt Murphy]\n\n顺着这个话题聊到监管：DeepMind 的 CEO 呼吁 AI 行业建立一个类似金融业 FINRA 的独立治理委员会。Murphy 认为这不是坏主意——现在联邦层面是空白、各州各自为政（这对初创公司最糟、肯定拖慢创新）、每次模型发布都是没人搞得懂的临时流程。「行业专家可能比政府官员更好」[20:26 Matt Murphy]，前提是别把创新拖慢。\n\n## Lovable 与「一切取决于想法」的时代\n\nLovable 从一个开源项目起步，去年从零做到 300（百万美元年化运行率），传言其 RAISE 大会前后已达 600。Murphy 干了 25 年风投，「直到最近几年，你才听说过公司能那样增长」。[22:14 Matt Murphy] 他喜欢 Lovable 的点：它服务的是世界上另外的 99% 非技术人群——类似他早年投 Uber、看到 Rover 之前的遛狗「影子市场」的思路，把工具交到没有平台就无法释放的人手里。如今已有建立在 Lovable 上、年化运行率远超百万美元的业务，平台还加了托管和支付，从「帮人创造」走向「帮人经营业务」。\n\n那这一波跟上一代 SaaS 到底差在哪？Murphy 给了几层：一是零摩擦分发——移动浪潮要等每个人买设备、互联网时代要等带宽和支付习惯，而 AI 出现即任何人任何设备可用，「一个简单的聊天框，大家都从 Google 那学会了怎么用」；二是产品驱动而非销售驱动——不再受销售团队扩张的物理规律限制，采用摩擦极低；三是需求端已被激活——律师曾是有史以来最糟的企业软件市场，如今 Legora 卖给律师、最快做到 1.5 亿美元，Salesforce 工程师在 token 上花掉 3 亿美元，Uber 的预算都花光了。「人们正以前所未有的方式深入钻研这项技术。」[27:55 Matt Murphy]\n\n结论落到主持人那句总结：今天的不同在于一切都取决于想法——从好点子到有人要的产品之间，障碍比以往任何时候都少。代价是创业者心态的失衡：「以前一年从零到一千万你会觉得是前 1%，现在环顾四周会说，我这点增长还算数吗？」[28:26 Matt Murphy]\n\n结尾 Murphy 也留了一句清醒话：AI 像互联网搜索一样有用，但他整天重度使用之后的体感是——「炒作还没有被现实追上」。[30:01 Matt Murphy] 他完全无法预测 2027 会带来什么，因为他连 2026 发生的大多数事都没预见。他留了一个开放的大机会给听众：谁能搞定 AI 的消费者角度——让 AI 站在个人这边，帮个人争取更低价格、处理保险理赔错误——谁就撬动了一个巨大的市场。「恐怕不会是我。」[31:14 Matt Murphy]\n\n## 本集带走\n\n- **好模型≠好生意，缰绳才是分水岭**：Claude 的市场爆炸不只靠模型，靠的是 Claude Code、MCP 数据连接、skills 这些让人「进得来、用得上」的产品层——任何技术型创始人都能学这一条。\n- **投资老二的逻辑**：技术市场从不被老大独占，识别「最有资格当老二的团队」本身就是一手好牌——Anthropic 的老二念头三年就变成了老大。\n- **多模型是终局**：成熟公司会按请求分流——推理敏感的用最强模型、成本敏感的用开源或自训模型；多数公司仍会全押专有模型。用 OpenRouter 这类网关做优化是当下的实操解法。\n- **这波浪潮的特殊性**：分发零摩擦 + 产品驱动（不受销售团队物理规律限制）+ 需求端已激活，所以从想法到产品的障碍比任何时代都少——成败几乎全在想法本身。\n- **监管的现实判断**：联邦空白、各州碎片化对初创公司最糟；类似 FINRA 的行业自律委员会虽难促成，但比临时拍脑袋的逐案处理更可取，前提是不拖慢创新。",
+  "quotes": [
+    {
+      "en": "These markets are never really dominated by number one.",
+      "zh": "这些市场从来都不是真正被老大独占的。",
+      "timestamp": "05:25",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "But if you don't breadcrumb people and give people a way to use the model, then you're kind of waiting for people to replatform all their applications and need just to use the API.",
+      "zh": "但如果你不用「面包屑」引导人们、给人们一个使用模型的方式，那你就是在等人们把所有应用重新平台化才来用 API。",
+      "timestamp": "09:45",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "I mean, obviously it took a strong model to power all that, but if they didn't do the rest of the stuff, the market wouldn't be growing nearly as quickly as it is.",
+      "zh": "显然需要强大的模型来支撑这一切，但如果他们没做其余这些事情，市场不会像现在这样快速增长。",
+      "timestamp": "10:34",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "The natural evolution of a company that it brings the cynics out, the more successful you are.",
+      "zh": "一家公司越成功，就越会招致怀疑者。",
+      "timestamp": "17:14",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "You felt like before if you grew zero to a 10 in a year, you would be like top 1%. And now you look around and you're like, oh, geez, you know, do I even register?",
+      "zh": "以前如果你一年从零增长到一千万，你会觉得自己是前 1%。而现在你环顾四周会说，哦天哪，我这点增长还算数吗？",
+      "timestamp": "28:21",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "While AI is an extremely helpful tool to all of us in the same way that, you know, internet search was, I still think the hype is outpacing the reality quite yet.",
+      "zh": "虽然 AI 对我们所有人来说是一个极其有帮助的工具，就像互联网搜索一样，但我仍然认为炒作尚未被现实追上。",
+      "timestamp": "29:43",
+      "speaker": "Julie Bort"
+    },
+    {
+      "en": "I think there's a giant thing, a giant market for someone that can figure out the consumer angle of this.",
+      "zh": "我认为对于能搞清楚这件事的消费者角度的人来说，有一个巨大的市场。",
+      "timestamp": "30:46",
+      "speaker": "Julie Bort"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:01",
+      "speaker": "Matt Murphy",
+      "en": "These are numbers where you would be grateful and fortunate if that was your outcome, not your entry point.",
+      "zh": "这些数字，如果是你的结果，你会心怀感激、觉得幸运，而不是作为你的入场点。"
+    },
+    {
+      "timestamp": "05:25",
+      "speaker": "Matt Murphy",
+      "en": "These markets are never really dominated by number one.",
+      "zh": "这些市场从来都不是真正被老大独占的。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Matt Murphy",
+      "en": "But as we all know, it was only three years out.",
+      "zh": "但我们都知道，那只是三年后的事。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Matt Murphy",
+      "en": "We just have never seen companies do this before.",
+      "zh": "我们以前从未见过公司做到这一点。"
+    },
+    {
+      "timestamp": "09:45",
+      "speaker": "Matt Murphy",
+      "en": "But if you don't breadcrumb people and give people a way to use the model, then you're kind of waiting for people to replatform all their applications and need just to use the API.",
+      "zh": "但如果你不用「面包屑」引导人们、给人们一个使用模型的方式，那你就是在等人们把所有应用重新平台化才来用 API。"
+    },
+    {
+      "timestamp": "10:23",
+      "speaker": "Matt Murphy",
+      "en": "So these are the things in addition to Claude Code that's made the market just explode is they've made it accessible.",
+      "zh": "除了 Claude Code 之外，这些就是让市场爆炸式增长的原因——他们让它变得可及。"
+    },
+    {
+      "timestamp": "10:34",
+      "speaker": "Matt Murphy",
+      "en": "I mean, obviously it took a strong model to power all that, but if they didn't do the rest of the stuff, the market wouldn't be growing nearly as quickly as it is.",
+      "zh": "显然需要强大的模型来支撑这一切，但如果他们没做其余这些事情，市场不会像现在这样快速增长。"
+    },
+    {
+      "timestamp": "17:14",
+      "speaker": "Matt Murphy",
+      "en": "The natural evolution of a company that it brings the cynics out, the more successful you are.",
+      "zh": "一家公司越成功，就越会招致怀疑者。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Matt Murphy",
+      "en": "So I think it was important to kind of take a breath, you know, go slow before you can go fast.",
+      "zh": "所以我认为，退一步喘口气很重要，先慢后快。"
+    },
+    {
+      "timestamp": "20:26",
+      "speaker": "Matt Murphy",
+      "en": "Industry experts is probably better than government officials, you know, in terms of, you know, really understanding impacts and things like that.",
+      "zh": "在真正理解影响这类事情方面，行业专家可能比政府官员更好。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Matt Murphy",
+      "en": "I mean, I think capitalism, you want a bunch of choices, you want a bunch of options, and that makes the incumbents stronger, better, and keeps pushing them.",
+      "zh": "资本主义嘛，你要有很多选择、很多选项，这让在位者更强、更好，并持续推动它们。"
+    },
+    {
+      "timestamp": "22:14",
+      "speaker": "Matt Murphy",
+      "en": "I've been in this business industry for over 25 years and, you know, only in the last couple of years have you ever heard of companies kind of growing.",
+      "zh": "我在这行业干了超过 25 年，直到最近几年你才听说过公司能那样增长。"
+    },
+    {
+      "timestamp": "27:29",
+      "speaker": "Matt Murphy",
+      "en": "Lawyers must have been the worst enterprise software market of all time.",
+      "zh": "律师以前肯定是有史以来最糟糕的企业软件市场。"
+    },
+    {
+      "timestamp": "27:55",
+      "speaker": "Matt Murphy",
+      "en": "People are diving into the technology in a way they never have before and getting a lot of value.",
+      "zh": "人们正以前所未有的方式深入钻研这项技术，并获得了巨大的价值。"
+    },
+    {
+      "timestamp": "28:26",
+      "speaker": "Matt Murphy",
+      "en": "You felt like before if you grew zero to a 10 in a year, you would be like top 1%. And now you look around and you're like, oh, geez, you know, do I even register?",
+      "zh": "以前如果你一年从零增长到一千万，你会觉得自己是前 1%。而现在你环顾四周会说，哦天哪，我这点增长还算数吗？"
+    },
+    {
+      "timestamp": "29:43",
+      "speaker": "Matt Murphy",
+      "en": "While AI is an extremely helpful tool to all of us in the same way that, you know, internet search was, I still think the hype is outpacing the reality quite yet.",
+      "zh": "虽然 AI 对我们所有人来说是一个极其有帮助的工具，就像互联网搜索一样，但我仍然认为炒作尚未被现实追上。"
+    },
+    {
+      "timestamp": "30:46",
+      "speaker": "Matt Murphy",
+      "en": "I think there's a giant thing, a giant market for someone that can figure out the consumer angle of this.",
+      "zh": "我认为对于能搞清楚这件事的消费者角度的人来说，有一个巨大的市场。"
+    }
+  ],
+  "voice_script": "今天这一集，聊的是 Anthropic 为什么能三年冲到行业最前面，以及这波 AI 创业跟以往到底有什么根本不同。说话的人是 Menlo Ventures 的合伙人 Matt Murphy，二零二四年领投了 Anthropic 超过五亿美元的 D 轮，之前还参与了 C 轮，也投了 OpenRouter、Lovable 这些 AI 圈最响亮的名字。主持人是 TechCrunch 的创业编辑 Julie Bort。\n\n先说一个数字，这是整期的钩子：据报道，Anthropic 的年收入运行率已经跨过四百七十亿美元，而二零二五年还是九十亿。Murphy 说，以前从未见过公司做到这一点。更反直觉的是，当年那笔投资有多不合规矩——估值四十亿美元，没有收入，产品还没发布。而风投基金本来有条铁律：每家公司最多投一千五百万美元，成长基金必须有收入牵引力。Murphy 有句挺有味道的话：这些数字，如果是结果，你会心怀感激、觉得幸运，而不是拿来当入场点。\n\n那当年凭什么敢投？Murphy 把逻辑拆成三块。第一是团队。Dario 是位特别的创始人，曾是 OpenAI 里 ChatGPT 的缔造者，看到公司战线太散，就离开去做一件认定世界需要的事。见面时身上有一种孩子般的活力和魅力，但在那之下，对 AI 需要构建什么、怎么构建，理解是非凡的。合伙人 Tim Tully 花大量时间跟技术团队深挖架构，确认他们确实用大约十分之一的成本，做出了当时就有竞争力的模型。第二是巨头绑定。到 D 轮，Google 和 Amazon 已经签下来了，既是投资者又是技术伙伴和分发伙伴，收入引擎自然启动，而且明显聚焦企业市场。第三是门槛。想做基础模型，进门槛非常高，当时不少玩家已经淡出。核心判断是：这类市场从来不会被老大独占，一定会有一个强劲的老二——而谁比 ChatGPT 的缔造者更有资格当老二？当时觉得当老大是十年后的事，结果，三年就到了。\n\n不过这三点只是第一章。Murphy 认为，真正的秘方，是 Anthropic 后来打造的、现在大家常说的 harness——给模型套上的缰绳，说白了就是让普通人真正用得上模型的那套产品层。原话很直白：有一个很棒的模型是一回事，但如果不给人们一条使用模型的路径，那就是在等人们把所有应用重新平台化才来用 API。Anthropic 做对的，是 Claude Code、面向生命科学的版本、CoWork 这样的入口，用 MCP 把企业自己的数据接进来，再用 skills 让用户自定义。有强大的模型支撑显然是前提，但如果没有这些，市场不会涨得这么快。Murphy 强调这是任何创始人都能学的：光有底层技术不够，最后一公里的易用性才是分水岭。回看 SaaS 浪潮，赢家不是没人能做出 CRM 的那家，而是最懂怎么以客户想要的方式对接客户的那家。消费端的 Airbnb 由偏设计的人创立，也是同一个道理。\n\n接着话题转到开源。现在企业和成长期 AI 公司正越来越多转向开源模型来控制成本，这在二零二六年这么早出现，出乎很多人预料。Murphy 的框架很冷静：市场到一定规模必然开始优化。第一波是先用起来，现在进入第二波——做出了大热门、消耗大量 token，该优化成本结构了。投的 OpenRouter 就是个 AI 网关，帮你在不同模型之间路由请求，连 Claude 家族内部都能帮你优化。判断是：专有和开源归根结底互补，未来是多模型世界。最成熟的公司会说，百分之五十的请求用 Claude，另外一半用开源或自定义模型；而大多数没有研究团队的普通公司，仍会几乎完全依赖 Claude 这类产品。这推动了竞争——资本主义嘛，选择多了，在位者反而更强、更好。\n\n主持人还提到圈内对网络安全模型 Mythos 的质疑，说它更像营销。Murphy 不完全接受，回了句很妙的话：一家公司越成功，就越会招致怀疑者。所知道的是，Dario 团队有极强的使命感，大量时间花在生命科学上，并非因为最赚钱。逻辑是：这么强大的模型必须提前准备，如果直接放出然后爆出各种黑客攻击，对整个行业是更严重的污点，会在创新刚起步时就被灾难拖慢。所以先慢后快。顺着聊到监管，现在联邦层面是空白、各州各自为政，这对初创公司最糟。DeepMind 的 CEO 呼吁建一个类似金融业 FINRA 的独立治理委员会，Murphy 觉得不是坏主意，行业专家可能比政府官员更好，前提是别把创新拖慢。\n\n那这一波跟上一代到底差在哪？Murphy 给了几层。一是零摩擦分发——以前要等大家买设备、等带宽和支付习惯，而 AI 出现即任何人任何设备可用，一个简单的聊天框，大家都从 Google 那学会了怎么用。二是产品驱动而非销售驱动，不再受销售团队扩张的物理规律限制。三是需求端已被激活——律师曾是有史以来最糟的企业软件市场，如今 Legora 卖给律师、最快做到一亿五千万美元，Salesforce 工程师在 token 上花掉三亿美元，连 Uber 的预算都花光了。投的 Lovable 也是这个逻辑，服务的是世界上另外百分之九十九的非技术人群，去年从零做到三百万美元年化运行率。Murphy 干了二十五年风投，说直到最近几年，才听说过公司能那样增长。\n\n所以今天的不同在于：一切都取决于想法——从好点子到有人要的产品之间，障碍比以往任何时候都少。代价是心态失衡，Murphy 那句话很扎心：以前一年从零到一千万，你会觉得是前百分之一；现在环顾四周会说，我这点增长还算数吗？\n\n最后留一句清醒话收尾：AI 像互联网搜索一样有用，但整天重度使用之后的体感是——炒作还没有被现实追上。"
+}

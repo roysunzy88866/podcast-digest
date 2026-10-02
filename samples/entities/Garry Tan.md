@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]] [[Faisal Masud]] [[David Pawlan]] [[Sean]] [[Diogo Almeida]]
+[[Annie Lamont]] [[Justin Kan]] [[Alex Wilhelm]] [[Jason Calacanis]] [[Santiago Rodriguez]] [[Alex Imerman]] [[Dex Horthy]] [[Christian Klein]] [[Clara Vo]] [[John Lindquist]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":374,"技能文件":4,"RAG":22,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":69,"YC":16,"上下文工程":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":376,"技能文件":4,"RAG":22,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":69,"YC":16,"上下文工程":16}</script>
 
 <script>
 (function(){
